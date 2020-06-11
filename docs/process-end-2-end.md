@@ -1,3 +1,9 @@
+### Index
+
+1. [Overview](../README.md)
+2. **Full end to end process**
+3. [Research data engineer process](process-for-research-data-engineers.md)
+
 # Full end to end process
 
 This shows the high level end to end process for analysts wishing to use the GM-IDCR for COVID-19 research purposes.
@@ -37,7 +43,7 @@ This is the process for researchers wishing to analyse **anonymised data extract
 
 ## Non-anonymised data
 
-The GM IDCE also contains pseudonymised data and patient identifiable data (PID). The pseudonymised data itself contains nothing identifiable, but ***Graphnet*** have the ability to reidentify patients in this data so it is not truely anonymised.
+The GM IDCR also contains pseudonymised data and patient identifiable data (PID). The pseudonymised data itself contains nothing identifiable, but ***Graphnet*** have the ability to re-identify patients in this data so it is not truely anonymised.
 
 It is not expected that researchers will require access to pseudonymised or PID. However, if there are studies that do require this, then approval must be undertaken by the ***SUGG***.
 

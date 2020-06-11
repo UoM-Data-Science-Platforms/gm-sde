@@ -1,3 +1,9 @@
+### Index
+
+1. **Overview**
+2. [Full end to end process](docs/process-end-2-end.md)
+3. [Research data engineer process](docs/process-for-research-data-engineers.md)
+
 # Greater Manchester Integrated Digital Care Record
 
 All extraction scripts and clinical code sets for projects involving the Greater Manchester Integrated Digital Care Record (GM IDCR).
