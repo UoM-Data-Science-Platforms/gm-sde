@@ -1,4 +1,4 @@
-### Index
+## Index
 
 1. [Overview](../README.md)
 2. **Full end to end process**
@@ -14,7 +14,7 @@ This shows the high level end to end process for analysts wishing to use the GM-
 Any researchers within the University of Manchester **(?)** who wish to make use of the GM IDCR for research.
 
 ### > Research Governance Group (RGG)
-A group within the University of Manchester, led by **TBA***, responsible for the approval and prioritisation of individual studies making use of the GM IDCR.
+A group within the University of Manchester, led by **TBA**, responsible for the approval and prioritisation of individual studies making use of the GM IDCR.
 
 ### > Research Data Engineers (RDE)
 A group within the University of Manchester, led by [Richard Williams](https://www.research.manchester.ac.uk/portal/richard.williams.html), with access to the full anonymised version of the GM IDCR.

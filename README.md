@@ -1,4 +1,4 @@
-### Index
+## Index
 
 1. **Overview**
 2. [Full end to end process](docs/process-end-2-end.md)
@@ -14,9 +14,7 @@ Due to the ongoing COVID-19 pandemic and more specifically the UK [Control of Pa
 
 ## Documentation
 
-Full documentation can be found in the [docs](docs/) folder. Specific links to individual files are:
-
-- [High level end to end process for researchers requesting data](docs/process-end-2-end.md)
+Full documentation can be found in the [docs](docs/) folder. Specific links to individual files are available in the **Index** above.
 
 ## Things to check
 
@@ -25,9 +23,10 @@ There are certain things that may exist in the data that would be useful to seve
 - Hospital admissions
 - HES data
 - Mortality data
-- COVID-19 specific stuff
+- COVID-19 specific stuff e.g.
   - GP diagnoses
-  - 
+  - RNA testing
+  - Vulnerable patient flag
 - National audit data for covid19 - e.g. ICNARC
 - Ethnicity
 
