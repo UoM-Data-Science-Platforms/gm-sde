@@ -20,15 +20,28 @@ Full documentation can be found in the [docs](docs/) folder. Specific links to i
 
 There are certain things that may exist in the data that would be useful to several research groups. These should be prioritised when initially examining the data.
 
-- Hospital admissions
-- HES data
-- Mortality data
+- To what extent we have hospital admission data
+  - How many trusts across GM provide it
+  - How complete is the data
+  - What sort of data is captured
+- Linked datasets. I.e. to what extent the following is available:
+  - HES data
+  - Mortality data
 - COVID-19 specific stuff e.g.
   - GP diagnoses
   - RNA testing
   - Vulnerable patient flag
-- National audit data for covid19 - e.g. ICNARC
-- Ethnicity
+- Completeness and accuracy of demographic data. In particular ethnicity will be of interest due to the apparent increased risk of COVID-19 among BAME people.
+
+### More specific questions
+
+There are other things that individual research groups have enquired about. This list is not exhaustive but is a starting point for further investigation
+
+- Whether national audit data for covid19 - e.g. ICNARC could be linked or already is
+- Is there a way to link parents and children
+- How much child / young person data is available – does there appear to be useable social / community services information, and are there any particular restrictions on data relating to children?
+- Is disability / SEND data present for young people?
+-	How complete is mental health data (especially CAMHS for young people), and is it clear which providers have been used for MH services? 
 
 ## Process
 
