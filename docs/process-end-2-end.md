@@ -11,16 +11,19 @@ This shows the high level end to end process for analysts wishing to use the GM-
 ## People
 
 ### > Researchers
-Any researchers within the University of Manchester **(?)** who wish to make use of the GM IDCR for research.
+Any academic researchers within Greater Manchester who wish to make use of the GM IDCR for research.
+
+### > Operations Group (OG)
+A group within the University of Manchester, led by ***John Ainsworth?***, responsible for the ***TODO***...
 
 ### > Research Governance Group (RGG)
-A group within the University of Manchester, led by **TBA**, responsible for the approval and prioritisation of individual studies making use of the GM IDCR.
+A group within Health Innovation Manchester, led by Niels Peek, responsible for the approval and prioritisation of individual studies making use of the GM IDCR.
 
 ### > Research Data Engineers (RDE)
 A group within the University of Manchester, led by [Richard Williams](https://www.research.manchester.ac.uk/portal/richard.williams.html), with access to the full anonymised version of the GM IDCR.
 
 ### > Secondary Usage Governance Group (SUGG)
-A group within the Greater Manchester Health and Social Care Partnership, led by Guy Lucchi, that provide approval for access to the GM IDCR.
+A group within the Greater Manchester Health and Social Care Partnership, led by Guy Lucchi, that provide approval for access to the GM IDCR for secondary usage.
 
 ### > GraphNet
 The organisation responsible for the creation and maintenance of the GM IDCR.
@@ -29,9 +32,9 @@ The organisation responsible for the creation and maintenance of the GM IDCR.
 
 This is the process for researchers wishing to analyse **anonymised data extracts**.
 
-1. ***Researchers*** submit a proposal to the ***RGG***
-2. If the ***RGG*** reject the proposal it is sent back to the ***researchers*** - return to step 1. If approved goto step 3.
-3. The ***RGG*** approve the proposal and add it to a list based on priority
+1. ***Researchers*** submit a proposal to the ***OG***
+2. If the ***OG*** reject the proposal it is sent back to the ***researchers*** - return to step 1. If approved goto step 3.
+3. The ***OG*** approve the proposal and add it to a list based on priority
 4. When the proposal is at the top of the priority list it is passed to the ***RDEs***
 5. An ***RDE*** is assigned to the proposal and works with the ***researchers*** to determine what data is required.
 6. Provided the IDCR has the necessary data, a detailed description of what data is to be extracted is produced.
