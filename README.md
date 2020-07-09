@@ -32,6 +32,7 @@ There are certain things that may exist in the data that would be useful to seve
   - RNA testing
   - Vulnerable patient flag
 - Completeness and accuracy of demographic data. In particular ethnicity will be of interest due to the apparent increased risk of COVID-19 among BAME people.
+- Possibilty to link to any data from the track and trace programme
 
 ### More specific questions
 
