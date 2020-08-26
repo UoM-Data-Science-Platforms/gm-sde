@@ -1,8 +1,9 @@
 ## Index
 
 1. [Overview](../README.md)
-2. [Full end to end process](process-end-2-end.md)
-3. **Research data engineer process**
+1. [Terms of reference](terms-of-reference.md)
+1. [Full end to end process](process-end-2-end.md)
+1. **Research data engineer process**
 
 # Research Data Engineer processes
 
@@ -14,8 +15,8 @@ An RDE will be assigned to work with the group of researchers who wish to obtain
 
 1. Create a new project folder under `.\projects` by copying the `_example` directory and giving it an appropriate name.
 2. Work with the researchers to determine the data to be extracted. This may involve:
-    - Re-using clinical code sets from the researchers, or from this repository in `.\code-sets`
-    - Creating new clinical codesets
+   - Re-using clinical code sets from the researchers, or from this repository in `.\code-sets`
+   - Creating new clinical codesets
 3. Once completed update the projects `README.md` document (e.g. `./projects/_example/README.md`) to describe the data to be extracted.
 4. The project `README.md`, and any associated queries and code sets should be approved by a second RDE, before the README.md data definition is passed to the RGG.
 5. Once approved by the RGG the actual data extraction can be performed.

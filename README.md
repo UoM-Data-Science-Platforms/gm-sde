@@ -1,8 +1,9 @@
 ## Index
 
 1. **Overview**
-2. [Full end to end process](docs/process-end-2-end.md)
-3. [Research data engineer process](docs/process-for-research-data-engineers.md)
+1. [Terms of reference](docs/terms-of-reference.md)
+1. [Full end to end process](docs/process-end-2-end.md)
+1. [Research data engineer process](docs/process-for-research-data-engineers.md)
 
 # Greater Manchester Integrated Digital Care Record
 
@@ -42,7 +43,7 @@ There are other things that individual research groups have enquired about. This
 - Is there a way to link parents and children
 - How much child / young person data is available – does there appear to be useable social / community services information, and are there any particular restrictions on data relating to children?
 - Is disability / SEND data present for young people?
--	How complete is mental health data (especially CAMHS for young people), and is it clear which providers have been used for MH services? 
+- How complete is mental health data (especially CAMHS for young people), and is it clear which providers have been used for MH services?
 
 ## Process
 
