@@ -15,11 +15,12 @@ for a variety of reasons, one of which is for QOF payments. Some data is anonymi
 
 - GPES does not extract data from the records of patients who have opted out of sharing data for secondary purposes (type 1 opt out).
   This is the same as the GMCR.
+- GPES does not extract data from practices who have not opted in to the CQRS (Calculating Quality Reporting Service) system.
 - For COVID-19 research you can obtain the following 3 groups of SNOMED codes (**_see table below for full details_**).
   1. A list of medications
   2. A list of codes that are extracted regardless of when they were recorded in the patient record
   3. A list of codes that are extracted but only if they occurred in the last 2 years
-- For each patient you get:
+- For each patient you can get:
   - NHS number
   - date of birth
   - sex
@@ -27,17 +28,36 @@ for a variety of reasons, one of which is for QOF payments. Some data is anonymi
   - address
   - ethnicity
   - date of death (if applicable).
-- For each SNOMED code from the relevant groups you get (not sure what all of these mean yet):
-  - Dates
-  - Record dates
-  - Codes
-  - Episodes Condition
-  - Episodes Prescription
-  - Value Condition 1s
-  - Value Condition 2s
-  - Value Prescription 1
-  - Value Prescription 2
-  - Links
+  - GP practice code
+- For each SNOMED code from the relevant groups you get
+  - Date of entry
+  - Date of event
+  - GP practice code
+  - Any associated values (e.g. BP result, medication frequency)
+    - For some codes there are multiple values e.g. a BP might have a systolic value and a diastolic value
+    - For medications there are two values:
+      1. Amount prescribed as number of tablets, capsules, etc. or volume of liquid in ml.
+      2. Daily dose prescribed as number of tablets, capsules, etc. or volume of liquid in ml.
+
+## Approval process
+
+Full details can be found [at NHS Digital here](https://digital.nhs.uk/coronavirus/gpes-data-for-pandemic-planning-and-research/guide-for-analysts-and-users-of-the-data).
+
+In summary:
+
+- Applications must have a clear purpose
+- Applications must have a clear legal basis
+- Single application route, but application will pass through stages:
+  - Approval from [IGARD](https://digital.nhs.uk/about-nhs-digital/corporate-information-and-documents/independent-group-advising-on-the-release-of-data) (Independent Group Advising on the Release of Data)
+  - Creation of a data sharing agreement
+  - Approval via [DARS](https://digital.nhs.uk/services/data-access-request-service-dars) (Data Access Request Service)
+
+## Data access
+
+- Subject to the appropriate approval, data can be provided de-identified, identified, or linked to other data.
+- Data can be linked (presumably to other data held by NHS Digital) and then provided de-identified.
+- Data is made available in a virtual machine - a [Data Access Environment](https://digital.nhs.uk/services/data-access-environment-dae). The environments contain some standard analysis software e.g. RStudio. Other software can be added by request.
+- No data can leave the Data Access Environment except with prior permission.
 
 ## Code groups available for research
 
