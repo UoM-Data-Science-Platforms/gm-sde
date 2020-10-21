@@ -1,0 +1,7 @@
+2020-10-21 13:30-15:45
+- Initial tests to check we have access to all CCGs and to familiarise with the system.
+- Investigating the best source of death data and how closely the numbers match with publically available ONS data
+- Investigating what data we have on A&E attendances
+- Investigating whether we can determine non-elective admissions
+- Investigating length of stay
+- Investigating GP appointments per month and year
