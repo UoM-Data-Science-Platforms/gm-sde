@@ -1,0 +1,7 @@
+21/10/20 12:00 - 15:00
+Attempted to find the location of information related to project no.1 (Grant), including:
+    - patient demographics: ethnicity, sex, DOB, LSOA, Postcode
+    - A&E attendance, GP Events
+    - Diagnoses codes to identify long-term conditions
+    - Covid-19 tests
+    - Deceased flag and date
