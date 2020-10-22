@@ -5,3 +5,8 @@
 - Investigating whether we can determine non-elective admissions
 - Investigating length of stay
 - Investigating GP appointments per month and year
+
+2020-10-22 11:05-12:05
+- Find the number of deaths per CCG per year to determine how reliable the historic mortality data will be
+- Investigating what "SUS" data is and whether we have access to it in the GMCR. (Answer: we don't)
+- Investigating the frequency of "Domicilliary Care" codes as whether a patient receives this is required for one of the studies
