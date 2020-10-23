@@ -10,3 +10,13 @@
 - Find the number of deaths per CCG per year to determine how reliable the historic mortality data will be
 - Investigating what "SUS" data is and whether we have access to it in the GMCR. (Answer: we don't)
 - Investigating the frequency of "Domicilliary Care" codes as whether a patient receives this is required for one of the studies
+
+2020-10-23 08:10-08:30 and 13:45-14:55
+- Compare daily numbers of positive test results per CCG with figures from test programme
+- Also compare total number across whole of GM
+  - To the end of September the official test figures are 51767 total cases in GM.
+  - In the GMCR we see 37232 patients (72%)
+- Checked if the proportion has varied much over each month
+  - In June there must have been a massive influx because the GMCR saw 74% MORE cases than from the national official figures
+  - Since then we've had July (86%), August (79%) and September (66%)
+- What remains unclear is how many of the 51767 are duplicates. We can remove this from the GMCR data, but we don't know to what extent this is happening in the national figures.
