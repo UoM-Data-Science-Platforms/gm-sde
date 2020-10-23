@@ -1,7 +1,16 @@
-21/10/20 12:00 - 15:00
+21/10/20 	12:00-15:00
 Attempted to find the location of information related to project no.1 (Grant), including:
     - patient demographics: ethnicity, sex, DOB, LSOA, Postcode
     - A&E attendance, GP Events
     - Diagnoses codes to identify long-term conditions
     - Covid-19 tests
     - Deceased flag and date
+
+22/10/20 	09:00-12:00
+- producing counts from the event table and comparing to other tables such as GP_encounters
+- drafting some code to pull the required demographics for the Grant study
+- comparing aggregate mortality figures with ONS data
+
+22/10/20 	14:00-16:00
+- investigating clinical codes in the data using Type 2 Diabetes as an example
+- creating a list of codes related to Type 2 Diabetes
