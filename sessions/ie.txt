@@ -1,0 +1,3 @@
+2020-10-22 12:15-12:30
+- Set up VM, look around to ensure access to the dataset.
+
