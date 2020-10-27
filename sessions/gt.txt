@@ -14,3 +14,7 @@ Attempted to find the location of information related to project no.1 (Grant), i
 22/10/20 	14:00-16:00
 - investigating clinical codes in the data using Type 2 Diabetes as an example
 - creating a list of codes related to Type 2 Diabetes
+
+27/10/20 09:00 - 10:45
+- produced list of SNOMED codes for Type 2 Diabetes
+- producing aggregate counts for each tenancy to find those that are missing. Several missing for acute
