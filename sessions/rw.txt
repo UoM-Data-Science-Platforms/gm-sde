@@ -20,3 +20,6 @@
   - In June there must have been a massive influx because the GMCR saw 74% MORE cases than from the national official figures
   - Since then we've had July (86%), August (79%) and September (66%)
 - What remains unclear is how many of the 51767 are duplicates. We can remove this from the GMCR data, but we don't know to what extent this is happening in the national figures.
+
+2020-10-28 15:00-16:15
+- Check how many people have multiple postive tests.
