@@ -23,3 +23,10 @@
 
 2020-10-28 15:00-16:15
 - Check how many people have multiple postive tests.
+
+2020-10-29 08:00-09:00
+- Investigating the lab test result tables
+
+2020-11-05 13:30-14:00
+- To what extent do we have secondary care prescribing. Looking for methotrexate as an example.
+- Issue connecting to VM so session halted
