@@ -449,9 +449,8 @@ SELECT [PK_Reference_SnomedCT_ID]
 
 -- 4 TABLES NOW CREATED: CTV3_CODES (2), EMIS_CODES (33), READV2_CODES (287), SNOMED_CODES
 
--- COMBINE CODES INTO ONE TABLE (ONLY EMIS, CTV3 AND READV2)
 
-/**************** NOTE: None of the SNOMED codes in #SNOMED_CODES appear in GP_Events or Reference_Coding */
+-- COMBINE CODES INTO ONE TABLE (FOR EMIS, CTV3 AND READV2)
 
 DROP TABLE #COMBINED
 SELECT CODE
@@ -469,24 +468,44 @@ SELECT DISTINCT CODE
 INTO #COMBINED_DEDUPED
 FROM #COMBINED --290
 
--- MONTHLY COUNTS OF METHOTREXATE FOR EACH TRUST (EXCLUDING SNOMED CODES)
+----- TRY TO FIND RECORDS IN ACUTE DATA THAT REFER TO METHOTREXATE PRESCRIPTIONS
+
+SELECT *
+FROM RLS.vw_Acute_Coding
+WHERE 
+	(
+	FK_Reference_Coding_ID IN 
+		(SELECT CODE FROM #COMBINED_DEDUPED) OR
+	FK_Reference_SnomedCT_ID IN 
+		(SELECT PK_Reference_SnomedCT_ID FROM #SNOMED_CODES)
+	)
+	AND CodingDate BETWEEN '01 JAN 2020' AND '31 OCT 2020'
+	AND FK_Reference_Coding_ID <> -1 AND FK_Reference_SnomedCT_ID <> -1
+
+
+-- MONTHLY COUNTS OF METHOTREXATE FOR EACH TRUST
 
 SELECT 
 	TenancyName
-	,YEAR(EventDate) AS [YEAR]
-	,MONTH(EventDate) AS [MONTH]
+	,YEAR(CodingDate) AS [YEAR]
+	,MONTH(CodingDate) AS [MONTH]
 	,COUNT(*) AS [COUNT]
-FROM RLS.vw_GP_Events GP
+FROM RLS.vw_Acute_Coding GP
 LEFT JOIN SharedCare.Reference_Tenancy SC ON (GP.FK_Reference_Tenancy_ID = SC.PK_Reference_Tenancy_ID)
-WHERE FK_Reference_Coding_ID IN 
-	(SELECT CODE FROM #COMBINED_DEDUPED)
-	AND EventDate BETWEEN '01 JAN 2020' AND '31 OCT 2020'
+WHERE 
+	(
+	FK_Reference_Coding_ID IN 
+		(SELECT CODE FROM #COMBINED_DEDUPED) OR
+	FK_Reference_SnomedCT_ID IN 
+		(SELECT PK_Reference_SnomedCT_ID FROM #SNOMED_CODES)
+	)
+	AND CodingDate BETWEEN '01 JAN 2019' AND '31 OCT 2020'
+	--AND FK_Reference_Coding_ID <> -1 AND FK_Reference_SnomedCT_ID <> -1
 GROUP BY
 	TenancyName
-	,YEAR(EventDate)
-	,MONTH(EventDate)
+	,YEAR(CodingDate)
+	,MONTH(CodingDate)
 ORDER BY 
 	TenancyName
-	,YEAR(EventDate)
-	,MONTH(EventDate)
-
+	,YEAR(CodingDate)
+	,MONTH(CodingDate)
