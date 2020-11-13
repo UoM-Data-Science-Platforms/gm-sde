@@ -1,0 +1,36 @@
+prodcode	CodingSystem	productname	gemscriptcode
+760	prodcode	Lithium carbonate 200mg modified-release tablets	64015020
+872	prodcode	Priadel 400mg modified-release tablets (Sanofi)	51252020
+1447	prodcode	Lithium carbonate 400mg modified-release tablets	64020020
+3352	prodcode	Liskonum 450mg modified-release tablets (Teofarma)	50224020
+3358	prodcode	PRIADEL 800 MG TAB	2048007
+3359	prodcode	Priadel 200mg modified-release tablets (Sanofi)	51251020
+8041	prodcode	Lithium carbonate 250mg tablets	64016020
+8827	prodcode	Lithium carbonate 300mg Modified-release tablet	64017020
+10292	prodcode	LITHIUM 250 MG CAP	2325007
+10809	prodcode	Priadel 520mg/5ml liquid (Sanofi)	73193020
+10937	prodcode	Lithium citrate 509mg/5ml oral solution	64031020
+11491	prodcode	Lithium citrate 520mg/5ml oral solution sugar free	64030020
+12402	prodcode	Camcolit 250 tablets (Essential Pharma Ltd)	48541020
+12403	prodcode	Camcolit 400 modified-release tablets (Essential Pharma Ltd)	52842020
+12648	prodcode	Lithium citrate 1.018g/5ml oral solution	57138020
+13601	prodcode	Lithium citrate 564mg modified-release tablets	64029020
+13654	prodcode	Litarex 564mg modified-release tablets (Actavis UK Ltd)	57877020
+14954	prodcode	Lithium carbonate 450mg modified-release tablets	64023020
+15388	prodcode	Phasal 300mg Tablet (Lagap)	64026020
+15660	prodcode	LITHIUM 10.8 MMOLS/5MLS LIQ	3134007
+16250	prodcode	Lithonate 400mg modified-release tablets (Teva UK Ltd)	76250020
+22018	prodcode	Li-Liquid 509mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)	57186020
+25344	prodcode	Lithium carbonate 400mg Modified-release tablet (Approved Prescription Services Ltd)	56048020
+25345	prodcode	Li-Liquid 1.018g/5ml oral solution (Rosemont Pharmaceuticals Ltd)	57187020
+25396	prodcode	LITHIUM CHLORIDE 400 MG SOL	2326007
+51401	prodcode	Priadel 400mg modified-release tablets (Necessity Supplies Ltd)	3668020
+53459	prodcode	Priadel 400mg modified-release tablets (DE Pharmaceuticals)	3664020
+56427	prodcode	Lithium citrate 509mg/5ml oral solution (Cubic Pharmaceuticals Ltd)	47267020
+56435	prodcode	Lithium carbonate 200mg/5ml oral suspension	92847020
+63989	prodcode	Lithium carbonate 400mg modified-release tablets (Niche Pharma Ltd)	48018021
+65296	prodcode	Lithium carbonate 250mg tablets (A A H Pharmaceuticals Ltd)	60265021
+65301	prodcode	Lithium carbonate 250mg tablets (Essential Pharma Ltd)	57295021
+65838	prodcode	Lithium carbonate 400mg modified-release tablets (DE Pharmaceuticals)	60266021
+66248	prodcode	Lithium carbonate 400mg modified-release tablets (Ennogen Healthcare Ltd)	48862021
+68292	prodcode	Lithium carbonate 400mg modified-release tablets (AM Distributions (Yorkshire) Ltd)	57297021

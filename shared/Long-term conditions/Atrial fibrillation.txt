@@ -1,0 +1,9 @@
+medcode	readcode	Description	CodingSystem
+1268	G573200	Paroxysmal atrial fibrillation	readcode
+1664	G573000	Atrial fibrillation	readcode
+1757	G573100	Atrial flutter	readcode
+2212	G573.00	Atrial fibrillation and flutter	readcode
+23437	G573z00	Atrial fibrillation and flutter NOS	readcode
+35127	G573300	Non-rheumatic atrial fibrillation	readcode
+96076	G573500	Persistent atrial fibrillation	readcode
+96277	G573400	Permanent atrial fibrillation	readcode

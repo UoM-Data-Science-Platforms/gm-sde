@@ -1,0 +1,71 @@
+medcode	readcode	Description	CodingSystem
+504	G65..00	Transient cerebral ischaemia	readcode
+569	G64..12	Infarction - cerebral	readcode
+1298	G66..11	CVA unspecified	readcode
+1433	G65..12	Transient ischaemic attack	readcode
+1469	G66..00	Stroke and cerebrovascular accident unspecified	readcode
+1895	G65z.00	Transient cerebral ischaemia NOS	readcode
+2418	G6...00	Cerebrovascular disease	readcode
+3149	G64z.00	Cerebral infarction NOS	readcode
+3535	G61z.00	Intracerebral haemorrhage NOS	readcode
+5051	G61..00	Intracerebral haemorrhage	readcode
+5185	G64z111	Lateral medullary syndrome	readcode
+5363	G64..11	CVA - cerebral artery occlusion	readcode
+5602	G64z.12	Cerebellar infarction	readcode
+6116	G66..13	CVA - Cerebrovascular accident unspecified	readcode
+6155	G64..13	Stroke due to cerebral arterial occlusion	readcode
+6253	G66..12	Stroke unspecified	readcode
+6960	G61..11	CVA - cerebrovascular accid due to intracerebral haemorrhage	readcode
+7780	G667.00	Left sided CVA	readcode
+7912	G614.00	Pontine haemorrhage	readcode
+8443	G663.00	Brain stem stroke syndrome	readcode
+8837	G64..00	Cerebral arterial occlusion	readcode
+9985	G64z200	Left sided cerebral infarction	readcode
+10504	G64z300	Right sided cerebral infarction	readcode
+12833	G668.00	Right sided CVA	readcode
+13564	G613.00	Cerebellar haemorrhage	readcode
+15019	G641.00	Cerebral embolism	readcode
+15252	G64z.11	Brainstem infarction NOS	readcode
+15788	G65zz00	Transient cerebral ischaemia NOS	readcode
+16507	G65z100	Intermittent cerebral ischaemia	readcode
+16517	G640.00	Cerebral thrombosis	readcode
+16956	G669.00	"Cerebral palsy, not congenital or infantile, acute"	readcode
+17322	G664.00	Cerebellar stroke syndrome	readcode
+18604	G61..12	Stroke due to intracerebral haemorrhage	readcode
+18689	G660.00	Middle cerebral artery syndrome	readcode
+19201	G61X100	"Right sided intracerebral haemorrhage, unspecified"	readcode
+19260	G662.00	Posterior cerebral artery syndrome	readcode
+19280	G661.00	Anterior cerebral artery syndrome	readcode
+19354	G65y.00	Other transient cerebral ischaemia	readcode
+23671	G63y000	Cerebral infarct due to thrombosis of precerebral arteries	readcode
+24446	G63y100	Cerebral infarction due to embolism of precerebral arteries	readcode
+25615	G64z000	Brainstem infarction	readcode
+26424	G64z400	Infarction of basal ganglia	readcode
+27975	G641000	Cerebral infarction due to embolism of cerebral arteries	readcode
+28314	G61X000	"Left sided intracerebral haemorrhage, unspecified"	readcode
+30045	G616.00	External capsule haemorrhage	readcode
+30202	G617.00	"Intracerebral haemorrhage, intraventricular"	readcode
+31060	G61X.00	"Intracerebral haemorrhage in hemisphere, unspecified"	readcode
+31595	G610.00	Cortical haemorrhage	readcode
+33499	G665.00	Pure motor lacunar syndrome	readcode
+33543	G6X..00	Cerebrl infarctn due/unspcf occlusn or sten/cerebrl artrs	readcode
+34758	G641.11	Cerebral embolus	readcode
+36717	G640000	Cerebral infarction due to thrombosis of cerebral arteries	readcode
+39344	G676000	"Cereb infarct due cerebral venous thrombosis, nonpyogenic"	readcode
+40338	G611.00	Internal capsule haemorrhage	readcode
+40758	G6W..00	Cereb infarct due unsp occlus/stenos precerebr arteries	readcode
+44765	G653.00	Carotid artery syndrome hemispheric	readcode
+46316	G612.00	Basal nucleus haemorrhage	readcode
+47642	G64z100	Wallenberg syndrome	readcode
+50594	G654.00	Multiple and bilateral precerebral artery syndromes	readcode
+51767	G666.00	Pure sensory lacunar syndrome	readcode
+53745	Gyu6400	[X]Other cerebral infarction	readcode
+55247	G65z000	Impending cerebral ischaemia	readcode
+57315	G618.00	"Intracerebral haemorrhage, multiple localized"	readcode
+62342	G615.00	Bulbar haemorrhage	readcode
+90572	Gyu6500	[X]Occlusion and stenosis of other precerebral arteries	readcode
+91627	Gyu6300	[X]Cerebrl infarctn due/unspcf occlusn or sten/cerebrl artrs	readcode
+92036	Gyu6600	[X]Occlusion and stenosis of other cerebral arteries	readcode
+94482	Gyu6G00	[X]Cereb infarct due unsp occlus/stenos precerebr arteries	readcode
+96630	Gyu6F00	"[X]Intracerebral haemorrhage in hemisphere, unspecified"	readcode
+101251	ZV12D00	[V]Personal history of transient ischaemic attack	readcode

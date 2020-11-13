@@ -1,0 +1,120 @@
+medcode	readcode	Description	CodingSystem
+573	F25..00	Epilepsy	readcode
+988	F251000	Grand mal (major) epilepsy	readcode
+1715	F250011	Epileptic absences	readcode
+2907	F250000	Petit mal (minor) epilepsy	readcode
+3175	F254000	Temporal lobe epilepsy	readcode
+3607	F25z.11	Fit (in known epileptic) NOS	readcode
+4093	F253.11	Status epilepticus	readcode
+4109	SC20000	Traumatic epilepsy	readcode
+4602	667B.00	Nocturnal epilepsy	readcode
+4801	F251300	Epileptic seizures - myoclonic	readcode
+5117	F253.00	Grand mal status	readcode
+5152	F251400	Epileptic seizures - tonic	readcode
+5525	F255011	Focal epilepsy	readcode
+6271	F25X.00	"Status epilepticus, unspecified"	readcode
+6709	Eu05y11	[X]Epileptic psychosis NOS	readcode
+6983	667..00	Epilepsy monitoring	readcode
+7807	6676	Last fit	readcode
+8187	F251500	Tonic-clonic epilepsy	readcode
+8262	6675	Fit frequency	readcode
+8385	2126000	Epilepsy resolved	readcode
+9326	8BIF.00	Epilepsy medication review	readcode
+9569	F255000	"Jacksonian, focal or motor epilepsy"	readcode
+9747	F25z.00	Epilepsy NOS	readcode
+9886	F252.00	Petit mal status	readcode
+9887	F25y200	Locl-rlt(foc)(part)idiop epilep&epilptic syn seiz locl onset	readcode
+9979	F25yz00	Other forms of epilepsy NOS	readcode
+11015	667F.00	Seizure free >12 months	readcode
+11186	F250.00	Generalised nonconvulsive epilepsy	readcode
+11394	F254500	Complex partial epileptic seizure	readcode
+11752	8BL3.00	Patient on maximal tolerated anticonvulsant therapy	readcode
+12848	212J.00	Epilepsy resolved	readcode
+13219	667P.00	No seizures on treatment	readcode
+13220	667D.00	Epilepsy control poor	readcode
+13221	667R.00	2 to 4 seizures a month	readcode
+18471	F251200	Epileptic seizures - clonic	readcode
+18899	667T.00	Daily seizures	readcode
+19170	F25y400	Benign Rolandic epilepsy	readcode
+19549	667S.00	1 to 7 seizures a week	readcode
+19550	667C.00	Epilepsy control good	readcode
+19551	667E.00	Epilepsy care arrangement	readcode
+19552	667L.00	Epilepsy does not limit activities	readcode
+20566	667A.00	Epilepsy treatment stopped	readcode
+22804	F251011	Tonic-clonic epilepsy	readcode
+22991	667N.00	Epilepsy severity	readcode
+23634	F254100	Psychomotor epilepsy	readcode
+24309	F250200	Epileptic seizures - atonic	readcode
+25330	F25y300	Complex partial status epilepticus	readcode
+26015	F255.00	Partial epilepsy without impairment of consciousness	readcode
+26144	F251.00	Generalised convulsive epilepsy	readcode
+26511	6672	Follow-up epilepsy assessment	readcode
+26512	6678	Epilepsy treatment changed	readcode
+26618	667Q.00	1 to 12 seizures a year	readcode
+26619	667K.00	Epilepsy limits activities	readcode
+26620	667G.00	Epilepsy restricts employment	readcode
+26733	F255y00	Partial epilepsy without impairment of consciousness OS	readcode
+27526	F255z00	Partial epilepsy without impairment of consciousness NOS	readcode
+30604	F25B.00	Alcohol-induced epilepsy	readcode
+30635	F25F.00	Photosensitive epilepsy	readcode
+30816	F25C.00	Drug-induced epilepsy	readcode
+31830	F250300	Epileptic seizures - akinetic	readcode
+31877	Eu05212	[X]Schizophrenia-like psychosis in epilepsy	readcode
+31920	F254z00	Partial epilepsy with impairment of consciousness NOS	readcode
+32288	F254.00	Partial epilepsy with impairment of consciousness	readcode
+34079	F254400	Epileptic automatism	readcode
+34473	6679	Epilepsy treatment started	readcode
+34792	F250500	Lennox-Gastaut syndrome	readcode
+35217	9N4V.00	DNA - Did not attend epilepsy clinic	readcode
+36203	F254200	Psychosensory epilepsy	readcode
+37592	F255200	Somatosensory epilepsy	readcode
+37644	F132100	Progressive myoclonic epilepsy	readcode
+38307	F25y.00	Other forms of epilepsy	readcode
+38919	1B1W.00	Transient epileptic amnesia	readcode
+39160	667V.00	Many seizures a day	readcode
+40105	F255600	Simple partial epileptic seizure	readcode
+40806	F251z00	Generalised convulsive epilepsy NOS	readcode
+40863	667J.00	Epilepsy impairs education	readcode
+43679	Eu80300	[X]Acquired aphasia with epilepsy [Landau - Kleffner]	readcode
+44252	F250z00	Generalised nonconvulsive epilepsy NOS	readcode
+45927	F251y00	Other specified generalised convulsive epilepsy	readcode
+46603	667W.00	Emergency epilepsy treatment since last appointment	readcode
+47117	9N0r.00	Seen in epilepsy clinic	readcode
+48134	F255100	Sensory induced epilepsy	readcode
+48462	Eu06013	[X]Limbic epilepsy personality	readcode
+49340	F251111	Otohara syndrome	readcode
+50012	6674	Epilepsy associated problems	readcode
+50702	667H.00	Epilepsy prevents employment	readcode
+52632	667X.00	No epilepsy drug side effects	readcode
+53483	F25y100	Gelastic epilepsy	readcode
+55260	F25y000	Cursive (running) epilepsy	readcode
+55665	F254300	Limbic system epilepsy	readcode
+55706	667M.00	Epilepsy management plan given	readcode
+55739	F255400	Visual reflex epilepsy	readcode
+56359	F25D.00	Menstrual epilepsy	readcode
+59185	F250y00	Other specified generalised nonconvulsive epilepsy	readcode
+65673	F25E.00	Stress-induced epilepsy	readcode
+65699	F255012	Motor epilepsy	readcode
+68946	F255500	Unilateral epilepsy	readcode
+71719	F257.00	Kojevnikov's epilepsy	readcode
+73542	F255300	Visceral reflex epilepsy	readcode
+74303	3453T		readcode
+74519	3459F		readcode
+74525	3459N		readcode
+76778	3451		readcode
+78393	3450		readcode
+78769	3459R		readcode
+79623	3459D		readcode
+82399	3459A		readcode
+82462	3032EP		readcode
+84691	3459C		readcode
+85082	2932		readcode
+85350	3453P		readcode
+85904	3459M		readcode
+86106	3459BA		readcode
+87815	3453AT		readcode
+88904	3459CL		readcode
+89130	342 E		OXMIS
+92813	3459AB		readcode
+98870	F255311	Partial epilepsy with autonomic symptoms	readcode
+99548	F250100	Pykno-epilepsy	readcode

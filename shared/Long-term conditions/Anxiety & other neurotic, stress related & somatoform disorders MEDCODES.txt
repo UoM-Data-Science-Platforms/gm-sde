@@ -1,0 +1,198 @@
+medcode	readcode	Description	CodingSystem
+191	E278100	Tension headache	readcode
+276	E28..00	Acute reaction to stress	readcode
+636	E200.00	Anxiety states	readcode
+655	E200300	Anxiety with depression	readcode
+966	E207.00	Hypochondriasis	readcode
+1510	E202B00	Cancer phobia	readcode
+1723	E202800	Claustrophobia	readcode
+1758	E200400	Chronic anxiety	readcode
+1907	E202.00	Phobic disorders	readcode
+2030	E203100	Obsessional neurosis	readcode
+2076	E21..00	Personality disorders	readcode
+2188	E201.00	Hysteria	readcode
+2300	E202000	Phobia unspecified	readcode
+2366	E202C00	Dental phobia	readcode
+2571	Eu40000	[X]Agoraphobia	readcode
+2775	E290000	Grief reaction	readcode
+2826	E29..00	Adjustment reaction	readcode
+2871	E264200	Cyclical vomiting - psychogenic	readcode
+3076	E202100	Agoraphobia with panic attacks	readcode
+3208	E203.00	Obsessive-compulsive disorders	readcode
+3361	E205.00	Neurasthenia - nervous debility	readcode
+3438	E201100	Hysterical blindness	readcode
+3685	E20y100	Writer's cramp neurosis	readcode
+3869	E264400	Psychogenic dyspepsia	readcode
+4069	E200100	Panic disorder	readcode
+4167	E202A00	Fear of flying	readcode
+4171	Eu43100	[X]Post - traumatic stress disorder	readcode
+4199	E26..00	Physiological malfunction arising from mental factors	readcode
+4269	E201700	Hysterical amnesia	readcode
+4534	E200z00	Anxiety state NOS	readcode
+4634	E200500	Recurrent anxiety	readcode
+4659	E200200	Generalised anxiety disorder	readcode
+4775	E201800	Hysterical fugue	readcode
+4963	E264000	Psychogenic aerophagy	readcode
+5067	E26z.00	Psychosomatic disorder NOS	readcode
+5249	E20..00	Neurotic disorders	readcode
+5304	Eu42.00	[X]Obsessive - compulsive disorder	readcode
+5305	E206.00	Depersonalisation syndrome	readcode
+5385	Eu41.00	[X]Other anxiety disorders	readcode
+5652	E210.00	Paranoid personality disorder	readcode
+5678	E203000	Compulsive neurosis	readcode
+6071	E202E00	Fear of pregnancy	readcode
+6075	E293000	Adjustment reaction with aggression	readcode
+6221	E292000	Separation anxiety disorder	readcode
+6939	E200000	Anxiety state unspecified	readcode
+7537	Eu45200	[X]Hypochondriacal disorder	readcode
+7716	E29y300	Elective mutism due to an adjustment reaction	readcode
+8205	Eu41000	[X]Panic disorder [episodic paroxysmal anxiety]	readcode
+9125	8G94.00	Anxiety management training	readcode
+9265	Eu46100	[X]Depersonalization - derealization syndrome	readcode
+9386	Eu40.00	[X]Phobic anxiety disorders	readcode
+9686	E2...00	Neurotic, personality and other nonpsychotic disorders	readcode
+9785	Eu40200	[X]Specific (isolated) phobias	readcode
+10001	E26y000	Bruxism (teeth grinding)	readcode
+10344	Eu41100	[X]Generalized anxiety disorder	readcode
+10390	E202D00	Fear of death	readcode
+10455	E211200	Depressive personality disorder	readcode
+11098	Eu43.00	[X]Reaction to severe stress, and adjustment disorders	readcode
+11336	Eu43200	[X]Adjustment disorders	readcode
+11602	Eu40100	[X]Social phobias	readcode
+11607	Eu43000	[X]Acute stress reaction	readcode
+11913	Eu41200	[X]Mixed anxiety and depressive disorder	readcode
+11940	E280.00	Acute panic state due to acute stress reaction	readcode
+12228	E211100	Hypomanic personality disorder	readcode
+12453	Eu45500	[X]Globus pharyngeus	readcode
+12508	Eu40300	[X]Needle phobia	readcode
+12707	E211300	Cyclothymic personality disorder	readcode
+12838	E202200	Agoraphobia without mention of panic attacks	readcode
+14729	E202z00	Phobic disorder NOS	readcode
+14780	E20z.00	Neurotic disorder NOS	readcode
+14979	E211.00	Affective personality disorder	readcode
+15034	E262z00	Psychogenic cardiovascular symptom NOS	readcode
+15035	E260z00	Psychogenic musculoskeletal symptoms NOS	readcode
+15224	E263z00	Psychogenic skin symptoms NOS	readcode
+15284	E262200	Neurocirculatory asthenia	readcode
+15292	E262000	Cardiac neurosis	readcode
+15321	E20y000	Somatization disorder	readcode
+15371	E264300	Psychogenic diarrhoea	readcode
+15431	E201600	Other conversion disorder	readcode
+15483	E261100	Psychogenic cough	readcode
+15551	E282.00	Acute stupor state due to acute stress reaction	readcode
+15566	E203z00	Obsessive-compulsive disorder NOS	readcode
+15665	E292z00	Adjustment reaction with disturbance of other emotion NOS	readcode
+15939	E264500	Psychogenic constipation	readcode
+15959	E263000	Psychogenic pruritus	readcode
+16178	E211000	Unspecified affective personality disorder	readcode
+16199	E202300	Social phobia, fear of eating in public	readcode
+16415	E293.00	Adjustment reaction with predominant disturbance of conduct	readcode
+16484	E201500	Hysterical seizures	readcode
+16561	Eu46000	[X]Neurasthenia	readcode
+18049	Eu45.00	[X]Somatoform disorders	readcode
+18399	Eu42200	[X]Mixed obsessional thoughts and acts	readcode
+18603	E202500	Social phobia, fear of public washing	readcode
+19921	E29y500	Other adjustment reaction with withdrawal	readcode
+20053	E261300	Psychogenic hyperventilation	readcode
+20109	E265100	Psychogenic vaginismus	readcode
+20245	E283000	Acute situational disturbance	readcode
+20634	Eu42000	[X]Predominantly obsessional thoughts or ruminations	readcode
+21753	Eu43y00	[X]Other reactions to severe stress	readcode
+22019	Eu42100	[X]Predominantly compulsive acts [obsessional rituals]	readcode
+22136	Eu44.00	[X]Dissociative [conversion] disorders	readcode
+22721	Eu42z00	[X]Obsessive-compulsive disorder, unspecified	readcode
+23327	E292100	Adolescent emancipation disorder	readcode
+23354	E201z00	Hysteria NOS	readcode
+23413	E261400	Psychogenic yawning	readcode
+23462	E29yz00	Other adjustment reactions NOS	readcode
+23490	E201A00	Dissociative reaction unspecified	readcode
+23598	E201300	Hysterical tremor	readcode
+23808	Eu4..00	[X]Neurotic, stress - related and somoform disorders	readcode
+23838	Eu41z00	[X]Anxiety disorder, unspecified	readcode
+23869	E284.00	Stress reaction causing mixed disturbance of emotion/conduct	readcode
+24066	Eu41y00	[X]Other specified anxiety disorders	readcode
+24212	E292.00	Adjustment reaction, predominant disturbance other emotions	readcode
+24439	Eu45000	[X]Somatization disorder	readcode
+24525	E201C00	Phantom pregnancy	readcode
+24847	E283100	Acute posttrauma stress state	readcode
+26138	E28z.00	Acute stress reaction NOS	readcode
+27390	E29y400	Adjustment reaction due to hospitalisation	readcode
+27633	Eu44600	[X]Dissociative anaesthesia and sensory loss	readcode
+27685	Eu40y00	[X]Other phobic anxiety disorders	readcode
+28090	Eu46.00	[X]Other neurotic disorders	readcode
+28106	E202600	Acrophobia	readcode
+28938	E202700	Animal phobia	readcode
+29322	E201B00	Compensation neurosis	readcode
+29448	E262.00	Psychogenic cardiovascular symptoms	readcode
+29461	E263.00	Psychogenic skin symptoms	readcode
+29707	E283z00	Other acute stress reaction NOS	readcode
+30179	Eu45400	[X]Persistent somatoform pain disorder	readcode
+30961	E262300	Psychogenic cardiovascular disorder	readcode
+31422	E264.00	Psychogenic gastrointestinal tract symptoms	readcode
+31515	Eu43z00	[X]Reaction to severe stress, unspecified	readcode
+31672	E202900	Fear of crowds	readcode
+31957	E202400	Social phobia, fear of public speaking	readcode
+32034	E261000	Psychogenic air hunger	readcode
+32387	E29y100	Other post-traumatic stress disorder	readcode
+34064	Eu40z00	[X]Phobic anxiety disorder, unspecified	readcode
+34664	E261z00	Psychogenic respiratory symptom NOS	readcode
+34696	E201400	Hysterical paralysis	readcode
+34978	Eu44400	[X]Dissociative motor disorders	readcode
+35632	E29y200	Adjustment reaction with physical symptoms	readcode
+35914	E293100	Adjustment reaction with antisocial behaviour	readcode
+37669	E29z.00	Adjustment reaction NOS	readcode
+38134	E261.00	Psychogenic respiratory symptoms	readcode
+38640	E283.00	Other acute stress reactions	readcode
+38809	Eu42y00	[X]Other obsessive-compulsive disorders	readcode
+39518	E20y200	Other occupational neurosis	readcode
+39747	Eu44300	[X]Trance and possession disorders	readcode
+39826	Eu44100	[X]Dissociative fugue	readcode
+40311	E278.00	Psychalgia	readcode
+40994	Eu44000	[X]Dissociative amnesia	readcode
+41038	Eu45300	[X]Somatoform autonomic dysfunction	readcode
+41455	E29y.00	Other adjustment reactions	readcode
+41572	E201000	Hysteria unspecified	readcode
+41615	E261500	Psychogenic aphonia	readcode
+42000	E20y.00	Other neurotic disorders	readcode
+42737	E281.00	Acute fugue state due to acute stress reaction	readcode
+43050	E20yz00	Other neurotic disorder NOS	readcode
+43302	E201900	Multiple personality	readcode
+44212	E260.00	Psychogenic musculoskeletal symptoms	readcode
+44321	Eu41300	[X]Other mixed anxiety disorders	readcode
+44331	Eu46y00	[X]Other specified neurotic disorders	readcode
+44547	E265200	Psychogenic dysmenorrhea	readcode
+44739	E201200	Hysterical deafness	readcode
+45205	E278200	Psychogenic backache	readcode
+45603	E294.00	Adjustment reaction with disturbance emotion and conduct	readcode
+47809	E261200	Psychogenic hiccough	readcode
+48561	E260000	Psychogenic paralysis	readcode
+48588	E292y00	Adjustment reaction with mixed disturbance of emotion	readcode
+48671	Eu45z00	[X]Somatoform disorder, unspecified	readcode
+48906	Eu44z00	[X]Dissociative [conversion] disorder, unspecified	readcode
+49628	Eu46z00	[X]Neurotic disorder, unspecified	readcode
+51497	E211z00	Affective personality disorder NOS	readcode
+53362	E29y000	Concentration camp syndrome	readcode
+53766	E278000	Psychogenic pain unspecified	readcode
+54373	E278z00	Psychalgia NOS	readcode
+54658	E292200	Early adult emancipation disorder	readcode
+55781	E265300	Psychogenic dysuria	readcode
+56141	Eu44200	[X]Dissociative stupor	readcode
+56800	E260100	Psychogenic torticollis	readcode
+56924	E292400	Adjustment reaction with anxious mood	readcode
+56966	Eu44500	[X]Dissociative convulsions	readcode
+57877	Eu45100	[X]Undifferentiated somatoform disorder	readcode
+58013	E292500	Culture shock	readcode
+62002	Eu45y00	[X]Other somatoform disorders	readcode
+62400	E26y.00	Other psychogenic malfunction	readcode
+64166	Eu44y00	[X]Other dissociative [conversion] disorders	readcode
+66398	E293200	Adjustment reaction with destructiveness	readcode
+67304	E292311	Specific academic or work inhibition	readcode
+68379	E265.00	Psychogenic genitourinary tract symptoms	readcode
+71437	E264z00	Psychogenic gastrointestinal tract symptom NOS	readcode
+72171	E20y300	Psychasthenic neurosis	readcode
+73547	E265z00	Psychogenic genitourinary tract symptom NOS	readcode
+88758	Eu44700	[X]Mixed dissociative [conversion] disorders	readcode
+89237	E267.00	Psychogenic symptom of special sense organ	readcode
+96391	E26yz00	Other psychogenic malfunction NOS	readcode
+99609	ZS7C700	Post-traumatic mutism	readcode
+104891	E293z00	Adjustment reaction with predominant disturbance conduct NOS	readcode

@@ -1,0 +1,125 @@
+medcode	readcode	Description	CodingSystem
+324	E2B..00	Depressive disorder NEC	readcode
+543	Eu32z11	[X]Depression NOS	readcode
+595	E112.14	Endogenous depression	readcode
+655	E200300	Anxiety with depression	readcode
+1055	E135.00	Agitated depression	readcode
+1131	E204.00	Neurotic depression reactive type	readcode
+1533	E290.00	Brief depressive reaction	readcode
+1908	2257	O/E - depressed	readcode
+1996	1B17.00	Depressed	readcode
+2639	E204.11	Postnatal depression	readcode
+2716	1465	H/O: depression	readcode
+2923	62T1.00	Puerperal depression	readcode
+2970	Eu32z00	"[X]Depressive episode, unspecified"	readcode
+2972	E2B0.00	Postviral depression	readcode
+3291	Eu32z12	[X]Depressive disorder NOS	readcode
+3292	Eu33.00	[X]Recurrent depressive disorder	readcode
+4323	E2B1.00	Chronic depression	readcode
+4639	Eu32.00	[X]Depressive episode	readcode
+4824	1B17.11	C/O - feeling depressed	readcode
+4979	Eu53012	[X]Postpartum depression NOS	readcode
+5879	E112.11	Agitated depression	readcode
+5987	Eu32z14	[X] Reactive depression NOS	readcode
+6482	E113700	Recurrent depression	readcode
+6546	E112.12	Endogenous depression first episode	readcode
+6854	Eu32y00	[X]Other depressive episodes	readcode
+6932	E113.11	Endogenous depression - recurrent	readcode
+6950	E112.13	Endogenous depression first episode	readcode
+7011	E112z00	Single major depressive episode NOS	readcode
+7604	Eu32.13	[X]Single episode of reactive depression	readcode
+7737	Eu34113	[X]Neurotic depression	readcode
+7749	Eu41211	[X]Mild anxiety depression	readcode
+7953	Eu34100	[X]Dysthymia	readcode
+8584	Eu34111	[X]Depressive neurosis	readcode
+8826	Eu33.15	[X]SAD - Seasonal affective disorder	readcode
+8851	Eu33.11	[X]Recurrent episodes of depressive reaction	readcode
+8902	Eu33.13	[X]Recurrent episodes of reactive depression	readcode
+9055	Eu32.11	[X]Single episode of depressive reaction	readcode
+9183	E11z200	Masked depression	readcode
+9211	Eu32100	[X]Moderate depressive episode	readcode
+9667	Eu32200	[X]Severe depressive episode without psychotic symptoms	readcode
+9796	1B1U.00	Symptoms of depression	readcode
+10015	1BT..00	Depressed mood	readcode
+10438	1B1U.11	Depressive symptoms	readcode
+10455	E211200	Depressive personality disorder	readcode
+10610	E112.00	Single major depressive episode	readcode
+10667	Eu32400	[X]Mild depression	readcode
+10720	Eu32y11	[X]Atypical depression	readcode
+10825	E118.00	Seasonal affective disorder	readcode
+11252	Eu33212	"[X]Major depression, recurrent without psychotic symptoms"	readcode
+11329	Eu33211	[X]Endogenous depression without psychotic symptoms	readcode
+11717	Eu32000	[X]Mild depressive episode	readcode
+11913	Eu41200	[X]Mixed anxiety and depressive disorder	readcode
+12122	9H91.00	Depression medication review	readcode
+12399	9H90.00	Depression annual review	readcode
+13307	Eu53011	[X]Postnatal depression NOS	readcode
+14709	E113200	"Recurrent major depressive episodes, moderate"	readcode
+15099	E113.00	Recurrent major depressive episode	readcode
+15155	E112200	"Single major depressive episode, moderate"	readcode
+15219	E112300	"Single major depressive episode, severe, without psychosis"	readcode
+15220	Eu34114	[X]Persistant anxiety depression	readcode
+16506	E112100	"Single major depressive episode, mild"	readcode
+16632	E291.00	Prolonged depressive reaction	readcode
+18510	Eu32.12	[X]Single episode of psychogenic depression	readcode
+19054	Eu3y111	[X]Recurrent brief depressive episodes	readcode
+19439	212S.00	Depression resolved	readcode
+19696	Eu33.12	[X]Recurrent episodes of psychogenic depression	readcode
+21887	E002100	Senile dementia with depression	readcode
+22116	Eu33400	"[X]Recurrent depressive disorder, currently in remission"	readcode
+22806	Eu32212	[X]Single episode major depression w'out psychotic symptoms	readcode
+25563	E113z00	Recurrent major depressive episode NOS	readcode
+25697	E113300	"Recurrent major depressive episodes, severe, no psychosis"	readcode
+27491	E11y200	Atypical depressive disorder	readcode
+27677	E001300	Presenile dementia with depression	readcode
+28248	Eu32z13	[X]Prolonged single episode of reactive depression	readcode
+28756	Eu33.14	[X]Seasonal depressive disorder	readcode
+29342	E113100	"Recurrent major depressive episodes, mild"	readcode
+29520	Eu33100	"[X]Recurrent depressive disorder, current episode moderate"	readcode
+29784	Eu33000	"[X]Recurrent depressive disorder, current episode mild"	readcode
+30405	9H92.00	Depression interim review	readcode
+30483	8CAa.00	Patient given advice about management of depression	readcode
+32841	8HHq.00	Referral for guided self-help for depression	readcode
+32845	Eu92000	[X]Depressive conduct disorder	readcode
+33469	Eu33200	[X]Recurr depress disorder cur epi severe without psyc sympt	readcode
+34390	E112000	"Single major depressive episode, unspecified"	readcode
+35671	E113000	"Recurrent major depressive episodes, unspecified"	readcode
+36246	E290z00	Brief depressive reaction NOS	readcode
+36616	Eu33z11	[X]Monopolar depression NOS	readcode
+41989	Eu32211	[X]Single episode agitated depressn w'out psychotic symptoms	readcode
+42931	9HA0.00	On depression register	readcode
+43292	E004300	Arteriosclerotic dementia with depression	readcode
+43324	E112500	"Single major depressive episode, partial or unspec remission"	readcode
+44300	Eu33z00	"[X]Recurrent depressive disorder, unspecified"	readcode
+44936	9HA1.00	Removed from depression register	readcode
+47731	Eu33y00	[X]Other recurrent depressive disorders	readcode
+55384	E113600	"Recurrent major depressive episodes, in full remission"	readcode
+56273	E113500	"Recurrent major depressive episodes,partial/unspec remission"	readcode
+56609	Eu32y12	[X]Single episode of masked depression NOS	readcode
+57409	E112600	"Single major depressive episode, in full remission"	readcode
+59386	Eu32213	[X]Single episode vital depression w'out psychotic symptoms	readcode
+73991	Eu33214	"[X]Vital depression, recurrent without psychotic symptoms"	readcode
+74050	3004A		OXMIS
+74079	3004CA		OXMIS
+74155	3004ER		OXMIS
+74293	3000E		OXMIS
+74296	2962R		OXMIS
+74352	3004AM		OXMIS
+74470	2962A		OXMIS
+74624	3004		OXMIS
+74775	2962EN		OXMIS
+75087	2962B		OXMIS
+75612	3004C		OXMIS
+76768	2960AD		OXMIS
+77005	3091N		OXMIS
+77229	2962AF		OXMIS
+78918	3004AB		OXMIS
+79163	7902DC		OXMIS
+79246	3004B		OXMIS
+79553	3091PL		OXMIS
+80858	3004E		OXMIS
+83126	3091PN		OXMIS
+83254	3004PP		OXMIS
+84210	3091PF		OXMIS
+84554	3004M		OXMIS
+85574	2960AC		OXMIS

@@ -1,0 +1,5 @@
+medcode	readcode	Description	CodingSystem
+451	J521.11	Irritable bowel syndrome	readcode
+923	J521.00	Irritable colon - Irritable bowel syndrome	readcode
+16560	Eu45324	[X]Psychogenic IBS	readcode
+29835	J521000	Irritable bowel syndrome with diarrhoea	readcode

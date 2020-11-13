@@ -1,0 +1,122 @@
+medcode	readcode	Description	CodingSystem
+848	7411200	Intranasal antrostomy	readcode
+1140	7414z00	Operation on unspecified nasal sinus NOS	readcode
+1400	7414500	Antral washout - nasal	readcode
+1673	7412100	Intranasal ethmoidectomy	readcode
+1674	H132.00	Chronic ethmoidal sinusitis	readcode
+2257	H13..00	Chronic sinusitis	readcode
+3938	7410100	Caldwell Luc drainage of maxillary antrum	readcode
+4128	7414y00	Other specified operation on unspecified nasal sinus	readcode
+4433	H130.00	Chronic maxillary sinusitis	readcode
+4640	741..00	Nasal sinus operations	readcode
+5437	H13z.00	Chronic sinusitis NOS	readcode
+6354	J083500	Oroantral fistula	readcode
+6491	7416	FESS/Therapeutic endoscopy of nose and sinus	readcode
+7243	7.42E+03	FESS/Post operative division of adhesions	readcode
+7738	7415	FESS - diagnostic endoscopy of nose and sinus	readcode
+7981	7411	Other operations on maxillary antrum	readcode
+8220	7416300	FESS/Uncinectomy	readcode
+10546	H13..11	Chronic rhinosinusitis	readcode
+11711	7413	Operations on sphenoid sinus	readcode
+11744	H11y100	Polyp of ethmoidal sinus	readcode
+12747	7412000	External frontoethmoidectomy	readcode
+15163	H131.00	Chronic frontal sinusitis	readcode
+16022	7414300	Lateral rhinotomy	readcode
+16626	7416D00	FESS - post operative removal of polyps (local anaesthetic)	readcode
+17173	H135.00	Recurrent sinusitis	readcode
+18083	7416C00	FESS - post operative suction clearance (local anaesthetic)	readcode
+18271	7411500	Puncture of maxillary antrum	readcode
+18302	7413000	Drainage of sphenoid sinus	readcode
+18869	7416900	FESS/Antrostomy via middle meatus	readcode
+19480	741y.00	Other specified operations on nasal sinus	readcode
+19742	H11y.11	Nasal sinus polyps	readcode
+19995	7411z00	Other operation on maxillary antrum NOS	readcode
+20806	7415.11	FESS - diagnostic nasal antroscopy	readcode
+20832	7416500	FESS/Anterior ethmoidectomy	readcode
+21213	7412700	Radical frontal sinus antrostomy	readcode
+21923	7416.11	FESS/Therapeutic nasal antroscopy	readcode
+22555	7413100	Puncture of sphenoid sinus	readcode
+23673	7414511	BAWO	readcode
+23740	7410	Operations on maxillary antrum using sublabial approach	readcode
+24535	7411600	Removal of antrochoanal polyp	readcode
+25174	7411G00	Bilateral antral washout	readcode
+27869	7412800	Frontal sinusotomy NEC	readcode
+28764	7411.11	Reconstruction of maxillary antrum	readcode
+29429	H134.00	Fistula of nasal sinus	readcode
+30744	7412200	External ethmoidectomy	readcode
+32764	7410000	Ligation of maxillary artery using sublabial approach	readcode
+33336	7413y00	Other specified operation on sphenoid sinus	readcode
+33437	H130.11	Antritis - chronic	readcode
+33603	7411F00	Intranasal antrostomy and excision lesion maxillary antrum	readcode
+33709	7415z00	FESS/Diagnostic endoscopy of nose or sinus NOS	readcode
+33756	741z.00	Nasal sinus operations NOS	readcode
+33922	7416700	FESS/Anterior and posterior ethmoidectomy	readcode
+33956	7.41E+03	Intranasal antrostomy and biopsy of maxillary antrum	readcode
+34107	7411D00	Reconstruction of maxilla with bone graft	readcode
+34165	7412300	Transantral ethmoidectomy	readcode
+34257	7411211	Intranasal antrostomy and drainage	readcode
+34973	7416z00	FESS - therapeutic endoscopy of nose or sinus NOS	readcode
+35389	7416B00	FESS/Excisional surgery to middle turbinate	readcode
+35897	H11y200	Polyp of maxillary sinus	readcode
+36047	7414	Operations on unspecified nasal sinus	readcode
+37481	7416800	FESS/Sphenoidectomy	readcode
+39139	7417z00	Other operations on frontal sinus NOS	readcode
+39381	7412	Operations on frontal sinus	readcode
+39469	7412311	Horgan transantral ethmoidectomy	readcode
+39501	H13y000	Chronic pansinusitis	readcode
+41457	7411000	Drainage of maxillary antrum NEC	readcode
+41877	7411700	Radical maxillary antrotomy	readcode
+41887	7415y00	FESS/Diagnostic endoscopy of nose or sinus OS	readcode
+42166	7416F00	Functional endoscopic sinus surg - polypectomy nasal sinus	readcode
+42196	7412z00	Operation on frontal sinus NOS	readcode
+44432	7411400	Closure of fistula between maxillary antrum and mouth	readcode
+44645	7414400	Catheterisation of nasal sinus	readcode
+44876	7411300	Biopsy of lesion of maxillary antrum	readcode
+45832	7414200	Biopsy of lesion of nasal sinus NEC	readcode
+45995	7416y00	FESS - therapeutic endoscopy of nose or sinus OS	readcode
+46336	7416A00	FESS/Antrostomy via inferior meatus	readcode
+48497	7411511	Irrigation of maxillary antrum NEC	readcode
+48703	H133.00	Chronic sphenoidal sinusitis	readcode
+48896	7412600	Craniofacial ethmoidectomy	readcode
+49348	7416600	FESS/Anterior ethmoidectomy and frontal recess dissection	readcode
+49369	7414600	Direct closure of defect of nasal sinus	readcode
+49548	H13y.00	Other chronic sinusitis	readcode
+50787	7412400	Bone flap to frontal sinus	readcode
+53961	7411y00	Other specified other operation on maxillary antrum	readcode
+54292	7411100	Excision of lesion of maxillary antrum	readcode
+54375	H13yz00	Other chronic sinusitis NOS	readcode
+57098	7410200	Irrigation of maxillary antrum using sublabial approach	readcode
+59019	7416400	FESS/Uncinectomy and excision of bulla	readcode
+59339	7415200	FESS - diagnostic antroscopy via middle meatus	readcode
+60356	7412500	Trephine of frontal sinus	readcode
+61629	7410300	Transantral vidian nerve neurectomy using sublabial approach	readcode
+62763	7414.11	Reconstruction of defect of nasal sinus	readcode
+62936	7416200	FESS/Therapeutic antroscopy via middle meatus	readcode
+63552	7412011	Killian external frontoethmoidectomy	readcode
+63733	Hyu2200	[X]Other chronic sinusitis	readcode
+64359	7412y00	Other specified operation on frontal sinus	readcode
+64766	7414000	Excision of nasal sinus NEC	readcode
+66885	7412013	Ogston external frontoethmoidectomy	readcode
+67200	7414100	Excision of lesion of nasal sinus	readcode
+67275	7414A00	Reconstruct defect nasal sinus c microvascular transfer flap	readcode
+68003	7M1B000	Functional endoscopic sinus surgery	readcode
+68405	7413z00	Operation on sphenoid sinus NOS	readcode
+69374	7414B00	Reconstruction of defect of nasal sinus with bone graft	readcode
+70776	7411900	Reconstruction of defect of maxilla with skin graft	readcode
+86064	7M1B100	Functional endoscopic nasal surgery	readcode
+88274	7413200	Repair of sphenoidal sinus	readcode
+90287	7412900	Median drainage of frontal sinus	readcode
+91681	7414800	Reconstruction of defect of nasal sinus with local flap	readcode
+92311	7417000	Frontal sinus osteoplasty	readcode
+92967	7417y00	Other specified other operations on frontal sinus	readcode
+94014	7417	Other operations on frontal sinus	readcode
+95634	7411711	Denker radical maxillary antrotomy	readcode
+95857	7411800	Direct closure of defect of maxilla	readcode
+96692	7410y00	Operation on maxillary antrum using sublabial approach OS	readcode
+97338	7411A00	Reconstruction of maxilla with local flap	readcode
+99561	7416100	FESS/Therapeutic antroscopy via inferior meatus	readcode
+100959	7418	Diagnostic nasendoscopy	readcode
+103022	7415000	FESS - diagnostic antroscopy via canine fossa	readcode
+105121	7415100	FESS - diagnostic antroscopy via inferior meatus	readcode
+105781	7410z00	Operation on maxillary antrum using sublabial approach NOS	readcode
+110252	7414700	Reconstruction of defect of nasal sinus with skin graft	readcode

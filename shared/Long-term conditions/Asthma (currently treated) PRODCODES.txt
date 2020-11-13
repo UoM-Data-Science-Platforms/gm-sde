@@ -1,0 +1,913 @@
+prodcode	CodingSystem	productname	gemscriptcode
+8	prodcode	Salbutamol 100micrograms/dose inhaler	59553020
+17	prodcode	Salbutamol 100micrograms/dose inhaler CFC free	59554020
+31	prodcode	Ventolin 100microgram/inhalation Inhalation powder (Glaxo Wellcome UK Ltd)	52213020
+38	prodcode	Beclometasone 100micrograms/dose inhaler	69246020
+99	prodcode	Becotide 100 inhaler (GlaxoSmithKline UK Ltd)	57212020
+186	prodcode	Dexamethasone 500micrograms/5ml oral solution	62323020
+282	prodcode	Salbutamol 2mg/5ml oral solution sugar free	66548020
+454	prodcode	Pulmicort 200microgram Inhaler (AstraZeneca UK Ltd)	53685020
+461	prodcode	Orciprenaline 750micrograms/inhalation inhaler	72218020
+510	prodcode	Ventolin 5mg/ml respirator solution (GlaxoSmithKline UK Ltd)	52229020
+534	prodcode	Atrovent 20micrograms/dose inhaler (Boehringer Ingelheim Ltd)	48252020
+590	prodcode	Phyllocontin Continus 225mg tablets (Napp Pharmaceuticals Ltd)	55544020
+622	prodcode	Montelukast 4mg chewable tablets sugar free	86075020
+638	prodcode	Seretide 250 Accuhaler (GlaxoSmithKline UK Ltd)	79544020
+665	prodcode	Seretide 100 Accuhaler (GlaxoSmithKline UK Ltd)	85668020
+674	prodcode	Ventolin 2.5mg Nebules (GlaxoSmithKline UK Ltd)	52234020
+695	prodcode	Singulair 10mg tablets (Merck Sharp & Dohme Ltd)	86095020
+696	prodcode	Salbutamol 8mg modified-release capsules	53724020
+719	prodcode	Salmeterol 50micrograms/dose dry powder inhaler	74015020
+746	prodcode	Tiotropium 18 microgram Capsule	73050020
+808	prodcode	Montelukast 10mg tablets	86074020
+856	prodcode	Ventolin 2mg/5ml syrup (GlaxoSmithKline UK Ltd)	52204020
+860	prodcode	Salbutamol 4mg tablets	59380020
+862	prodcode	Salbulin Inhalation powder (3M Health Care Ltd)	52877020
+863	prodcode	Slo-phyllin 125mg Capsule (Lipha Pharmaceuticals Ltd)	51577020
+879	prodcode	Theophylline 125mg modified-release capsules	66995020
+880	prodcode	Theophylline 60mg modified-release capsules	66994020
+881	prodcode	Salbutamol 2mg tablets	59379020
+882	prodcode	Salbutamol 200microgram inhalation powder capsules	67866020
+883	prodcode	Becodisks 200microgram Disc (Allen & Hanburys Ltd)	68210020
+895	prodcode	Beclazone 100 Easi-Breathe inhaler (Teva UK Ltd)	79401020
+896	prodcode	Becotide easi-breathe 100microgram/actuation Pressurised inhalation (Allen & Hanburys Ltd)	84968020
+898	prodcode	Ventolin evohaler 100 100microgram/inhalation Pressurised inhalation (Glaxo Wellcome UK Ltd)	52215020
+907	prodcode	Bricanyl turbohaler 500 500microgram Turbohaler (AstraZeneca UK Ltd)	48448020
+908	prodcode	Pulmicort 400 Turbohaler (AstraZeneca UK Ltd)	73579020
+910	prodcode	Serevent diskhaler 50microgram Inhalation powder (Glaxo Wellcome UK Ltd)	74019020
+911	prodcode	Flixotide accuhaler 250 250microgram/inhalation Inhalation powder (Allen & Hanburys Ltd)	79577020
+947	prodcode	Budesonide 50micrograms/actuation refill canister	73585020
+956	prodcode	Pulmicort 200 Turbohaler (AstraZeneca UK Ltd)	73578020
+957	prodcode	Salamol easi-breathe 100microgram/actuation Pressurised inhalation (IVAX Pharmaceuticals UK Ltd)	79689020
+958	prodcode	Ventolin easi-breathe 100microgram/actuation Pressurised inhalation (Allen & Hanburys Ltd)	84965020
+960	prodcode	Pulmicort 100 Turbohaler (AstraZeneca UK Ltd)	73580020
+987	prodcode	Ventolin 4mg Tablet (Allen & Hanburys Ltd)	52203020
+1087	prodcode	Asmasal 95micrograms/dose Clickhaler (Focus Pharmaceuticals Ltd)	86061020
+1093	prodcode	Salamol 100microgram/actuation Inhalation powder (IVAX Pharmaceuticals UK Ltd)	52885020
+1097	prodcode	Slo-phyllin 60mg Capsule (Lipha Pharmaceuticals Ltd)	51576020
+1100	prodcode	Beclazone 100 inhaler (Teva UK Ltd)	56476020
+1236	prodcode	Becloforte 250micrograms/dose inhaler (GlaxoSmithKline UK Ltd)	48309020
+1242	prodcode	Beclometasone 250micrograms/dose inhaler	69244020
+1243	prodcode	Beclazone 250 Easi-Breathe inhaler (Teva UK Ltd)	79402020
+1258	prodcode	Becotide 200 inhaler (GlaxoSmithKline UK Ltd)	67266020
+1259	prodcode	Beclometasone 200micrograms/dose inhaler	69255020
+1269	prodcode	Becotide 50microgram/ml Nebuliser liquid (Allen & Hanburys Ltd)	53718020
+1346	prodcode	Salbutamol 0.05mg/ml injection	69341020
+1406	prodcode	Becotide 50 inhaler (GlaxoSmithKline UK Ltd)	48324020
+1409	prodcode	Ipratropium bromide 20micrograms/dose inhaler	63608020
+1410	prodcode	Ipratropium bromide 0.25mg/ml	63615020
+1411	prodcode	Ipratropium bromide 250micrograms/ml	63616020
+1412	prodcode	Flixotide 250microgram/actuation Inhalation powder (Allen & Hanburys Ltd)	75190020
+1414	prodcode	Salamol 5mg/2.5ml nebuliser liquid Steri-Neb unit dose vials (Teva UK Ltd)	56866020
+1415	prodcode	Steri-neb ipratropium 250microgram/ml Nebuliser liquid (IVAX Pharmaceuticals UK Ltd)	75830020
+1423	prodcode	Uniphyllin Continus 200mg tablets (Napp Pharmaceuticals Ltd)	52100020
+1424	prodcode	Flixotide 250microgram Disc (Allen & Hanburys Ltd)	74455020
+1426	prodcode	Flixotide 500microgram Disc (Allen & Hanburys Ltd)	75187020
+1518	prodcode	Flixotide 50microgram/actuation Inhalation powder (Allen & Hanburys Ltd)	74986020
+1537	prodcode	Becotide 200microgram Rotacaps (GlaxoSmithKline UK Ltd)	53711020
+1551	prodcode	Beclazone 250 inhaler (Teva UK Ltd)	56477020
+1552	prodcode	Becloforte easi-breathe 250microgram/actuation Pressurised inhalation (Allen & Hanburys Ltd)	84970020
+1619	prodcode	Terbutaline 500micrograms/dose dry powder inhaler	74122020
+1628	prodcode	Terbutaline 250micrograms/actuation refill canister	66884020
+1629	prodcode	Intal 20mg/2ml nebuliser solution unit dose vials (Aventis Pharma)	56159020
+1630	prodcode	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials	67862020
+1635	prodcode	Salbuvent 2mg/5ml Oral solution (Pharmacia Ltd)	69348020
+1642	prodcode	Budesonide 400micrograms/dose dry powder inhaler	52570020
+1676	prodcode	Flixotide 125microgram/actuation Inhalation powder (Allen & Hanburys Ltd)	74987020
+1680	prodcode	Pulmicort LS 50micrograms/dose inhaler (AstraZeneca UK Ltd)	53690020
+1697	prodcode	Atrovent 20micrograms/dose Autohaler (Boehringer Ingelheim Ltd)	75004020
+1698	prodcode	Salbutamol 100micrograms/dose breath actuated inhaler	69893020
+1711	prodcode	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials	67863020
+1725	prodcode	Beclazone 50 Easi-Breathe inhaler (Teva UK Ltd)	79400020
+1727	prodcode	Becotide easi-breathe 50microgram/actuation Pressurised inhalation (Allen & Hanburys Ltd)	84967020
+1734	prodcode	Beclometasone 100micrograms/dose breath actuated inhaler	74422020
+1741	prodcode	Salbutamol 100micrograms/dose breath actuated inhaler CFC free	86841020
+1794	prodcode	Berotec 100microgram/actuation Inhalation powder (Boehringer Ingelheim Ltd)	48393020
+1832	prodcode	Theograd 350mg Tablet (Abbott Laboratories Ltd)	67011020
+1833	prodcode	Theophylline 200mg modified-release tablets	66985020
+1834	prodcode	Theophylline 400mg modified-release tablets	66991020
+1861	prodcode	AeroBec 100 Autohaler (Meda Pharmaceuticals Ltd)	54707020
+1882	prodcode	Ventodisks 200microgram/blister Disc (Allen & Hanburys Ltd)	68214020
+1885	prodcode	Beclazone 200 inhaler (Teva UK Ltd)	81155020
+1950	prodcode	Ventodisks 400microgram/blister Disc (Allen & Hanburys Ltd)	68215020
+1951	prodcode	Becodisks 400microgram Disc (Allen & Hanburys Ltd)	68211020
+1952	prodcode	Ventolin 400microgram Rotacaps (GlaxoSmithKline UK Ltd)	52219020
+1956	prodcode	Pulmicort 1mg Respules (AstraZeneca UK Ltd)	65885020
+1957	prodcode	Ventolin 5mg Nebules (GlaxoSmithKline UK Ltd)	52235020
+1959	prodcode	Pulmicort 0.5mg Respules (AstraZeneca UK Ltd)	65884020
+1962	prodcode	Atrovent udv 0.25mg/ml Nebuliser liquid (Boehringer Ingelheim Ltd)	54914020
+1973	prodcode	Accolate 20mg tablets (AstraZeneca UK Ltd)	86644020
+1974	prodcode	Oxis 12 Turbohaler (AstraZeneca UK Ltd)	85749020
+1975	prodcode	Oxis 6 Turbohaler (AstraZeneca UK Ltd)	85747020
+2092	prodcode	Budesonide 200micrograms/dose dry powder inhaler	52569020
+2125	prodcode	Pulmicort 200microgram Refill canister (AstraZeneca UK Ltd)	53686020
+2147	prodcode	Theophylline 250mg modified-release capsules	66996020
+2148	prodcode	Beclometasone 400microgram disc	69624020
+2152	prodcode	Ipratropium bromide with salbutamol 20mcg + 100mcg	75512020
+2159	prodcode	AeroBec 50 Autohaler (Meda Pharmaceuticals Ltd)	54705020
+2160	prodcode	Beclometasone 50micrograms/dose breath actuated inhaler	74421020
+2224	prodcode	Serevent 50micrograms/dose Accuhaler (GlaxoSmithKline UK Ltd)	74020020
+2229	prodcode	Becodisks 100microgram Disc (Allen & Hanburys Ltd)	68209020
+2259	prodcode	Medihaler -iso forte Inhalation powder (3M Health Care Ltd)	50334020
+2282	prodcode	Fluticasone propionate 500micrograms/dose dry powder inhaler	79605020
+2335	prodcode	Qvar 100 inhaler (Teva UK Ltd)	86874020
+2395	prodcode	SALBUTAMOL 2 MG/5ML SYR	6913007
+2440	prodcode	Flixotide accuhaler 500 500microgram/inhalation Inhalation powder (Allen & Hanburys Ltd)	79578020
+2600	prodcode	Beclometasone 250micrograms/dose breath actuated inhaler	74423020
+2610	prodcode	Intal compound Capsule (Rhone-Poulenc Rorer Ltd)	53196020
+2655	prodcode	Airomir 100micrograms/dose inhaler (Teva UK Ltd)	79415020
+2723	prodcode	Fluticasone 25micrograms/dose inhaler	74990020
+2757	prodcode	Slo-phyllin 250mg Capsule (Lipha Pharmaceuticals Ltd)	51578020
+2758	prodcode	Bricanyl Refill canister (AstraZeneca UK Ltd)	58865020
+2850	prodcode	Salbutamol 400microgram inhalation powder capsules	67867020
+2851	prodcode	Ventolin 200microgram Rotacaps (GlaxoSmithKline UK Ltd)	52218020
+2869	prodcode	Salbutamol 8mg modified-release tablets	69672020
+2892	prodcode	Becloforte 400microgram disks (GlaxoSmithKline UK Ltd)	57935020
+2893	prodcode	Beclometasone 200micrograms disc	69623020
+2951	prodcode	Fluticasone 250microgram/actuation Pressurised inhalation	75179020
+2978	prodcode	Salbutamol 200micrograms/dose dry powder inhaler	69894020
+2992	prodcode	Beclazone 50 inhaler (Teva UK Ltd)	56475020
+2994	prodcode	Atrovent aerocaps 40microgram Inhalation powder (Boehringer Ingelheim Ltd)	72270020
+2995	prodcode	Nuelin SA 175mg tablets (Meda Pharmaceuticals Ltd)	52855020
+3018	prodcode	Beclometasone 50micrograms/dose inhaler	69245020
+3065	prodcode	Bextasol Inhalation powder (Allen & Hanburys Ltd)	48413020
+3075	prodcode	Becotide 400microgram Rotacaps (GlaxoSmithKline UK Ltd)	53712020
+3119	prodcode	Becloforte integra 250microgram/actuation Inhaler with compact spacer (Glaxo Laboratories Ltd)	79444020
+3150	prodcode	Beclometasone 100micrograms/actuation extrafine particle cfc free inhaler	86871020
+3163	prodcode	Salbutamol 200micrograms disc	69627020
+3187	prodcode	Choledyl 62.5mg/5ml Oral solution (Parke-davis Research Laboratories)	48658020
+3189	prodcode	SALBUVENT inh INH	5455007
+3220	prodcode	Qvar 50 Autohaler (Teva UK Ltd)	86883020
+3254	prodcode	Salbulin 4mg Tablet (3M Health Care Ltd)	52876020
+3289	prodcode	Flixotide 25micrograms/dose inhaler (GlaxoSmithKline UK Ltd)	74985020
+3297	prodcode	Salmeterol 50micrograms disc	74014020
+3305	prodcode	Combivent nebuliser liquid 2.5ml UDVs (Boehringer Ingelheim Ltd)	79627020
+3306	prodcode	Atrovent Forte 40micrograms/dose inhaler (Boehringer Ingelheim Ltd)	58545020
+3363	prodcode	Becloforte 400microgram disks with Diskhaler (GlaxoSmithKline UK Ltd)	57934020
+3388	prodcode	Theophylline 175mg modified-release tablets	66984020
+3443	prodcode	Salbutamol 100microgram/inhalation Spacehaler (Celltech Pharma Europe Ltd)	81503020
+3534	prodcode	Bricanyl 5mg tablets (AstraZeneca UK Ltd)	48442020
+3546	prodcode	Qvar 50 inhaler (Teva UK Ltd)	86873020
+3556	prodcode	Beclometasone 50micrograms with salbutamol 100micrograms/inhalation inhaler	64090020
+3570	prodcode	Budesonide 200micrograms/actuation refill canister	73584020
+3584	prodcode	Bricanyl 1.5mg/5ml syrup (AstraZeneca UK Ltd)	48443020
+3585	prodcode	Steri-neb cromogen 10mg/ml Nebuliser liquid (IVAX Pharmaceuticals UK Ltd)	56512020
+3666	prodcode	Seretide 500 Accuhaler (GlaxoSmithKline UK Ltd)	77232020
+3743	prodcode	Filair 50 inhaler (Meda Pharmaceuticals Ltd)	48110020
+3758	prodcode	Pulmadil Inhalation powder (3M Health Care Ltd)	51325020
+3838	prodcode	SALBUTAMOL 400MCG/BECLOMETH.100MCG R/CAP INH	6673007
+3927	prodcode	Filair 100 inhaler (Meda Pharmaceuticals Ltd)	48111020
+3947	prodcode	Becotide 100microgram Rotacaps (GlaxoSmithKline UK Ltd)	53710020
+3989	prodcode	Flixotide 100microgram Disc (Allen & Hanburys Ltd)	74454020
+3993	prodcode	Filair Forte 250micrograms/dose inhaler (Meda Pharmaceuticals Ltd)	54871020
+3994	prodcode	Salbutamol 4mg modified-release tablets	69671020
+4055	prodcode	Salbulin 2mg/5ml Oral solution (3M Health Care Ltd)	52880020
+4100	prodcode	Intal autohaler 5 5mg/inhalation Pressurised inhalation (Aventis Pharma)	55097020
+4131	prodcode	Fluticasone 100microgram Disc	74459020
+4132	prodcode	Fluticasone 125microgram/actuation Pressurised inhalation	74992020
+4171	prodcode	Ventolin 2mg Tablet (Allen & Hanburys Ltd)	52202020
+4268	prodcode	Ipratropium bromide 40micrograms/dose inhaler	63612020
+4365	prodcode	Beclometasone 100micrograms disc	69622020
+4413	prodcode	Qvar 100 Autohaler (Teva UK Ltd)	86884020
+4497	prodcode	Ventolin accuhaler 200 200microgram/actuation Inhalation powder (Glaxo Wellcome UK Ltd)	52214020
+4499	prodcode	Aerobec 250microgram/actuation Pressurised inhalation (Meda Pharmaceuticals Ltd)	54706020
+4514	prodcode	Aminophylline 350mg modified-release tablets	67438020
+4545	prodcode	Pulmicort LS 50microgram Refill canister (AstraZeneca UK Ltd)	53691020
+4591	prodcode	Choledyl 100mg Tablet (Parke-davis Research Laboratories)	48656020
+4592	prodcode	Choledyl 200mg Tablet (Parke-davis Research Laboratories)	48657020
+4601	prodcode	Asmabec 100 Clickhaler (Focus Pharmaceuticals Ltd)	85880020
+4634	prodcode	Salamol 2.5mg/2.5ml nebuliser liquid Steri-Neb unit dose vials (Teva UK Ltd)	56865020
+4640	prodcode	Bricanyl 5mg/2ml Nebuliser liquid (AstraZeneca UK Ltd)	48452020
+4665	prodcode	Salbulin 100micrograms/dose inhaler (3M Health Care Ltd)	84485020
+4688	prodcode	Fluticasone 50microgram/actuation Pressurised inhalation	74991020
+4759	prodcode	Beclometasone 100microgram inhalation powder capsules	69249020
+4801	prodcode	Budesonide 500micrograms/2ml nebuliser liquid unit dose vials	65880020
+4803	prodcode	Beclazone 250microgram/actuation Inhalation powder (Actavis UK Ltd)	82721020
+4842	prodcode	Fenoterol 100microgram/actuation inhaler	61821020
+4908	prodcode	Ventolin Rotahaler (GlaxoSmithKline UK Ltd)	70357020
+4926	prodcode	Flixotide accuhaler 100 100microgram/inhalation Inhalation powder (Allen & Hanburys Ltd)	75192020
+4942	prodcode	Budesonide 1mg/2ml nebuliser liquid unit dose vials	65881020
+4943	prodcode	Dexamethasone 2mg/5ml oral solution sugar free	75320020
+5143	prodcode	Seretide 50 Evohaler (GlaxoSmithKline UK Ltd)	86900020
+5161	prodcode	Seretide 125 Evohaler (GlaxoSmithKline UK Ltd)	79114020
+5170	prodcode	Salamol 100micrograms/dose inhaler CFC free (Teva UK Ltd)	81157020
+5172	prodcode	Seretide 250 Evohaler (GlaxoSmithKline UK Ltd)	69006020
+5223	prodcode	Fluticasone 50micrograms/dose inhaler CFC free	76452020
+5261	prodcode	Nuelin SA 250 tablets (Meda Pharmaceuticals Ltd)	52865020
+5308	prodcode	Terbutaline 5mg/2ml nebuliser liquid unit dose vials	66887020
+5309	prodcode	Flixotide 50micrograms/dose Evohaler (GlaxoSmithKline UK Ltd)	78909020
+5453	prodcode	Uniphyllin Continus 400mg tablets (Napp Pharmaceuticals Ltd)	52102020
+5516	prodcode	Salamol 100micrograms/dose Easi-Breathe inhaler (Teva UK Ltd)	79690020
+5521	prodcode	Beclometasone 200micrograms/dose dry powder inhaler	77000020
+5522	prodcode	Beclometasone 100micrograms/dose dry powder inhaler	79503020
+5551	prodcode	Flixotide 0.5mg/2ml Nebules (GlaxoSmithKline UK Ltd)	57312020
+5558	prodcode	Salmeterol 50micrograms with fluticasone 500micrograms CFC free inhaler	85658020
+5580	prodcode	Flixotide accuhaler 50 50microgram/inhalation Inhalation powder (Allen & Hanburys Ltd)	75191020
+5594	prodcode	Singulair Paediatric 5mg chewable tablets (Merck Sharp & Dohme Ltd)	86070020
+5683	prodcode	Flixotide 250micrograms/dose Evohaler (GlaxoSmithKline UK Ltd)	78908020
+5718	prodcode	Flixotide 125micrograms/dose Evohaler (GlaxoSmithKline UK Ltd)	78907020
+5740	prodcode	Airomir 100micrograms/dose Autohaler (Teva UK Ltd)	79575020
+5753	prodcode	Salbutamol 400micrograms disc	69628020
+5804	prodcode	Beclometasone 250micrograms/dose dry powder inhaler	76999020
+5822	prodcode	Fluticasone 250micrograms/dose inhaler CFC free	76451020
+5837	prodcode	Salamol steri-neb 5mg/2.5ml Nebuliser liquid (Numark Management Ltd)	84225020
+5864	prodcode	Salmeterol 25micrograms with fluticasone 250micrograms CFC free inhaler	86898020
+5885	prodcode	Fluticasone propionate 100micrograms/dose dry powder inhaler	75181020
+5889	prodcode	Salamol 100microgram/inhalation Inhalation powder (Kent Pharmaceuticals Ltd)	79551020
+5898	prodcode	Salamol steri-neb 2.5mg/2.5ml Nebuliser liquid (Numark Management Ltd)	79609020
+5941	prodcode	Uniphyllin Continus 300mg tablets (Napp Pharmaceuticals Ltd)	52101020
+5942	prodcode	Salmeterol 50micrograms with fluticasone 250micrograms CFC free inhaler	85657020
+5957	prodcode	Montelukast 5mg chewable tablets sugar free	86073020
+5975	prodcode	Fluticasone 125micrograms/dose inhaler CFC free	76450020
+5992	prodcode	Beclometasone 50micrograms/dose dry powder inhaler	79502020
+6050	prodcode	Spiriva 18 microgram Capsule (Boehringer Ingelheim Ltd)	84108020
+6081	prodcode	Ipratropium bromide 20micrograms/dose breath actuated inhaler	63609020
+6315	prodcode	Slo-Phyllin 250mg capsules (Merck Serono Ltd)	87003020
+6325	prodcode	Symbicort 200/6 Turbohaler (AstraZeneca UK Ltd)	81548020
+6462	prodcode	Salbutamol 95micrograms/dose dry powder inhaler	69895020
+6512	prodcode	Atrovent 20micrograms/dose inhaler CFC free (Boehringer Ingelheim Ltd)	87824020
+6522	prodcode	Ipratropium bromide 20micrograms/dose inhaler CFC free	87822020
+6526	prodcode	Formoterol 12microgram inhalation powder capsules with device	80413020
+6569	prodcode	Salmeterol 25micrograms with fluticasone 125micrograms CFC free inhaler	86897020
+6616	prodcode	Salmeterol 25micrograms with fluticasone 50micrograms CFC free inhaler	86896020
+6719	prodcode	Ipratropium bromide 500micrograms/2ml nebuliser liquid unit dose vials	88593020
+6746	prodcode	Budesonide 400micrograms/dose / Formoterol 12micrograms/dose dry powder inhaler	76616020
+6758	prodcode	Ipratropium 250micrograms/1ml nebuliser liquid Steri-Neb unit dose vials (Teva UK Ltd)	88632020
+6772	prodcode	Ipratropium bromide 250micrograms/1ml nebuliser liquid unit dose vials	88591020
+6780	prodcode	Symbicort 400/12 Turbohaler (AstraZeneca UK Ltd)	79213020
+6796	prodcode	Budesonide 200micrograms/dose / Formoterol 6micrograms/dose dry powder inhaler	86176020
+6839	prodcode	Alvesco 160 inhaler (AstraZeneca UK Ltd)	88722020
+6911	prodcode	Atrovent 250micrograms/1ml nebuliser liquid UDVs (Boehringer Ingelheim Ltd)	88595020
+6938	prodcode	Salmeterol 50micrograms with fluticasone 100micrograms dry powder inhaler	85656020
+7013	prodcode	Symbicort 100/6 Turbohaler (AstraZeneca UK Ltd)	81547020
+7017	prodcode	Salbutamol 100micrograms/dose dry powder inhaler	88294020
+7088	prodcode	Montelukast 4mg granules sachets sugar free	87648020
+7132	prodcode	Zafirlukast 20mg tablets	86630020
+7133	prodcode	Formoterol 12micrograms/dose dry powder inhaler	85743020
+7140	prodcode	Atrovent 500micrograms/2ml nebuliser liquid UDVs (Boehringer Ingelheim Ltd)	88597020
+7192	prodcode	Bambuterol 10mg tablets	74357020
+7268	prodcode	Serevent 25micrograms/dose Evohaler (GlaxoSmithKline UK Ltd)	90175020
+7270	prodcode	Salmeterol 25micrograms/dose inhaler CFC free	90173020
+7356	prodcode	Ciclesonide 80micrograms/dose inhaler CFC free	88708020
+7452	prodcode	VENTOLIN .25 MG INJ	3492007
+7602	prodcode	Fluticasone 50microgram Disc	74458020
+7638	prodcode	Fluticasone 250microgram Disc	74460020
+7653	prodcode	Beclometasone 400microgram inhalation powder capsules	69251020
+7719	prodcode	Ephedrine 30mg tablets	55724020
+7724	prodcode	Betamethasone valerate 100micrograms/actuation inhaler	64163020
+7730	prodcode	Theo-Dur 300mg tablets (AstraZeneca UK Ltd)	51919020
+7731	prodcode	Theo-Dur 200mg tablets (AstraZeneca UK Ltd)	51918020
+7732	prodcode	Theophylline 300mg modified-release tablets	66989020
+7733	prodcode	Theophylline 250mg modified-release tablets	66986020
+7788	prodcode	Budesonide 100micrograms/dose dry powder inhaler	52571020
+7832	prodcode	Choline theophyllinate 200mg tablets	61303020
+7891	prodcode	Fluticasone 500microgram Disc	75184020
+7935	prodcode	Maxivent 100microgram/inhalation Inhalation powder (Ashbourne Pharmaceuticals Ltd)	70528020
+7948	prodcode	Fluticasone propionate 250micrograms/dose dry powder inhaler	79604020
+7953	prodcode	Terbutaline 1.5mg/5ml oral solution sugar free	66891020
+7964	prodcode	Beclometasone 50micrograms/ml nebuliser suspension	69254020
+7965	prodcode	Salbutamol 5mg/ml nebuliser liquid	67868020
+8012	prodcode	Exirel 15mg Capsule (3M Health Care Ltd)	53831020
+8057	prodcode	Aminophylline 100mg modified-release tablets	71059020
+8111	prodcode	Becloforte vm 250microgram/actuation VM pack (Allen & Hanburys Ltd)	48310020
+8149	prodcode	Alupent 750microgram/inhalation Aerosol refill (Boehringer Ingelheim Ltd)	48107020
+8151	prodcode	Orciprenaline 750micrograms/inhalation Aerosol refill	72219020
+8215	prodcode	Tilade 2mg/inhalation Inhalation powder (Sanofi)	59163020
+8252	prodcode	Pirbuterol 15mg capsule	65845020
+8267	prodcode	Sodium cromoglicate 1mg/dose / Salbutamol 100micrograms/dose inhaler	72092020
+8333	prodcode	Ipratropium bromide 40microgram inhalation powder capsules	72266020
+8429	prodcode	VENTOLIN I/V 5 MG INJ	3493007
+8433	prodcode	Budesonide 100micrograms/actuation inhaler	64258020
+8498	prodcode	Sodium cromoglicate 20mg/2ml nebuliser liquid unit dose vials	61058020
+8508	prodcode	Alupent 750microgram/inhalation Inhalation powder (Boehringer Ingelheim Ltd)	48103020
+8511	prodcode	CAM Mixture (Cambridge Healthcare Supplies Ltd)	48538020
+8572	prodcode	Rimiterol inhaler	66535020
+8608	prodcode	Nedocromil sodium 2mg/inhalation inhaler	64956020
+8635	prodcode	Flixotide 50microgram Disc (Allen & Hanburys Ltd)	74453020
+8636	prodcode	VENTOLIN S/R 8 MG SPA	4277007
+8806	prodcode	Phyllocontin continus 350mg Tablet (Napp Pharmaceuticals Ltd)	55545020
+8872	prodcode	Medihaler -iso Aerosol generator (3M Health Care Ltd)	52851020
+9092	prodcode	Theophylline 350mg modified release tablets	66990020
+9164	prodcode	Fluticasone propionate 50micrograms/dose dry powder inhaler	75180020
+9233	prodcode	Beclometasone 200microgram inhalation powder capsules	69250020
+9270	prodcode	Ipratropium bromide with fenoterol hydrobromide 500micrograms + 1.25mg/4ml	51108020
+9384	prodcode	Salbutamol 4mg modified-release capsules	69673020
+9477	prodcode	Asmabec 100microgram/actuation Spacehaler (Celltech Pharma Europe Ltd)	85796020
+9571	prodcode	Beclometasone 250micrograms/actuation vortex inhaler	81507020
+9577	prodcode	Asmabec 50 Clickhaler (Focus Pharmaceuticals Ltd)	85879020
+9599	prodcode	Beclazone 50microgram/actuation Inhalation powder (Actavis UK Ltd)	82719020
+9651	prodcode	Asmasal 100microgram/inhalation Spacehaler (Celltech Pharma Europe Ltd)	85793020
+9681	prodcode	Atrovent aerohaler 40microgram Inhalation powder (Boehringer Ingelheim Ltd)	72269020
+9706	prodcode	Ephedrine 15mg/5ml oral solution	59543020
+9711	prodcode	Formoterol 6micrograms/dose dry powder inhaler	85742020
+9805	prodcode	Salbutamol 5mg/50ml solution for infusion vials	79369020
+9921	prodcode	Beclometasone 100micrograms/dose breath actuated inhaler CFC free	86879020
+10090	prodcode	Beclometasone 50micrograms/actuation extrafine particle cfc free inhaler	86870020
+10102	prodcode	Ciclesonide 160micrograms/dose inhaler CFC free	88716020
+10218	prodcode	Budesonide 100micrograms/dose / Formoterol 6micrograms/dose dry powder inhaler	86175020
+10254	prodcode	Mometasone 400micrograms/dose dry powder inhaler	84120020
+10331	prodcode	Nuelin 60mg/5ml liquid (3M Health Care Ltd)	52860020
+10353	prodcode	SALBUVENT RONDO	986007
+10433	prodcode	Theophylline 60mg/5ml oral solution	66979020
+10458	prodcode	Ventolin cr 4mg Tablet (Allen & Hanburys Ltd)	69801020
+10490	prodcode	Isoprenaline sulphate 80micrograms/actuation Pressurised inhalation	71319020
+10561	prodcode	Aminophylline 250mg/ml injection	59203020
+10723	prodcode	Theophylline 125mg/5ml syrup	66976020
+10825	prodcode	Terbutaline 5mg tablets	66892020
+10831	prodcode	Biophylline 125mg/5ml Oral solution (Lorex Synthelabo Ltd)	58823020
+10858	prodcode	Pulmadil auto Inhalation powder (3M Health Care Ltd)	52870020
+10958	prodcode	SALBUTAMOL .25 MG INJ	3111007
+10968	prodcode	Foradil 12microgram inhalation powder capsules with device (Novartis Pharmaceuticals UK Ltd)	80411020
+10979	prodcode	Ephedrine 15mg tablets	55723020
+11046	prodcode	Ipratropium bromide with salbutamol 500micrograms + 2.5mg/2.5ml	79629020
+11198	prodcode	Beclometasons 50 micrograms/actuation vortex inhaler	81505020
+11307	prodcode	Salbutamol 100micrograms/dose / Beclometasone 50micrograms/dose inhaler	67874020
+11410	prodcode	Fluticasone propionate 500micrograms/dose / Salmeterol 50micrograms/dose dry powder inhaler	85662020
+11478	prodcode	Fluticasone 2mg/2ml nebuliser liquid unit dose vials	57281020
+11497	prodcode	Beclometasone 400micrograms/dose dry powder inhaler	77001020
+11520	prodcode	Atropine methonitrate with papaverine and adrenaline inhalation	70741020
+11588	prodcode	Fluticasone 125micrograms/dose / Salmeterol 25micrograms/dose inhaler CFC free	71256020
+11618	prodcode	Fluticasone 250micrograms/dose / Salmeterol 25micrograms/dose inhaler CFC free	71257020
+11719	prodcode	Slo-Phyllin 60mg capsules (Merck Serono Ltd)	87005020
+11732	prodcode	Beclometasone 50micrograms/dose breath actuated inhaler CFC free	86878020
+11779	prodcode	Ipratropium bromide 40microgram inhalation powder capsules with device	72265020
+11993	prodcode	Pro-vent 300mg Capsule (Wellcome Medical Division)	53612020
+12042	prodcode	Ventolin cr 8mg Tablet (Allen & Hanburys Ltd)	69802020
+12144	prodcode	Bambuterol 20mg tablets	74358020
+12240	prodcode	Theophylline 300mg modified release capsules	66999020
+12274	prodcode	Tedral Tablet (Parke-davis Research Laboratories)	58341020
+12470	prodcode	Alupent expectorant Mixture (Boehringer Ingelheim Ltd)	54911020
+12486	prodcode	Bronchodil 500microgram/dose Inhalation powder (Viatris Pharmaceuticals Ltd)	48475020
+12563	prodcode	Exirel Inhalation powder (3M Health Care Ltd)	53826020
+12633	prodcode	Tilarin 1% Nasal spray suspension (Rhone-Poulenc Rorer Ltd)	79965020
+12699	prodcode	Pecram 225mg Modified-release tablet (Novartis Consumer Health UK Ltd)	69697020
+12822	prodcode	Salbutamol 2.5mg with ipratropium bromide 500micrograms/2.5ml unit dose nebuilser solution	80090020
+12909	prodcode	Salbutamol 100micrograms/dose / Ipratropium 20micrograms/dose inhaler	80973020
+12994	prodcode	Fluticasone 50micrograms/dose / Salmeterol 25micrograms/dose inhaler CFC free	71255020
+13037	prodcode	Pulvinal Beclometasone Dipropionate 200micrograms/dose dry powder inhaler (Chiesi Ltd)	80128020
+13038	prodcode	Pulvinal Salbutamol 200micrograms/dose dry powder inhaler (Chiesi Ltd)	83865020
+13040	prodcode	Fluticasone propionate 250micrograms/dose / Salmeterol 50micrograms/dose dry powder inhaler	85661020
+13181	prodcode	Easyhaler Salbutamol sulfate 100micrograms/dose dry powder inhaler (Orion Pharma (UK) Ltd)	88296020
+13256	prodcode	Nedocromil 2mg/dose inhaler CFC free	89825020
+13273	prodcode	Fluticasone propionate 100micrograms/dose / Salmeterol 50micrograms/dose dry powder inhaler	85660020
+13290	prodcode	Clenil Modulite 100micrograms/dose inhaler (Chiesi Ltd)	91163020
+13307	prodcode	Bricanyl 500microgram/ml Injection (AstraZeneca UK Ltd)	73103020
+13319	prodcode	Nethaprin dospan Tablet (Marion Merrell Dow Ltd)	50667020
+13365	prodcode	Berotec 5mg/ml Nebuliser liquid (Boehringer Ingelheim Ltd)	48392020
+13575	prodcode	Bambec 20mg tablets (AstraZeneca UK Ltd)	74354020
+13757	prodcode	Tropiovent steripoule 250microgram/ml Nebuliser liquid (Ashbourne Pharmaceuticals Ltd)	86246020
+13815	prodcode	Beclazone 100microgram/actuation Inhalation powder (Actavis UK Ltd)	82720020
+13996	prodcode	Salamol 100microgram/inhalation Inhalation powder (Sandoz Ltd)	86269020
+14162	prodcode	Singulair Paediatric 4mg chewable tablets (Merck Sharp & Dohme Ltd)	86071020
+14200	prodcode	Singulair Paediatric 4mg granules sachets (Merck Sharp & Dohme Ltd)	87656020
+14294	prodcode	Qvar 50micrograms/dose Easi-Breathe inhaler (Teva UK Ltd)	88500020
+14306	prodcode	Formoterol 12micrograms/dose inhaler CFC free	89764020
+14321	prodcode	Beclometasone 200micrograms/dose inhaler CFC free	91157020
+14382	prodcode	Ephedrine hydrochloride 15mg tablets	71113020
+14448	prodcode	Nedocromil sodium 1% nasal spray	79967020
+14483	prodcode	Terbutaline 500micrograms/ml injection	73106020
+14524	prodcode	Bdp 250microgram/actuation Spacehaler (Celltech Pharma Europe Ltd)	81511020
+14525	prodcode	Salbutamol 100micrograms/inhalation vortex inhaler	81501020
+14527	prodcode	Bambec 10mg tablets (AstraZeneca UK Ltd)	74353020
+14561	prodcode	Salbutamol 400microgram / Beclometasone 200microgram inhalation powder capsules	67875020
+14567	prodcode	Asmabec 250 Clickhaler (Focus Pharmaceuticals Ltd)	85881020
+14590	prodcode	Asmabec 250microgram/actuation Spacehaler (Celltech Pharma Europe Ltd)	85797020
+14700	prodcode	Budesonide 400micrograms/actuation inhaler	73583020
+14736	prodcode	Pulvinal Beclometasone Dipropionate 400micrograms/dose dry powder inhaler (Chiesi Ltd)	80129020
+14757	prodcode	Pulvinal Beclometasone Dipropionate 100micrograms/dose dry powder inhaler (Chiesi Ltd)	80127020
+14991	prodcode	Aminophylline 250mg/10ml injection	59202020
+15075	prodcode	Bronchodil 20mg Tablet (Viatris Pharmaceuticals Ltd)	48477020
+15165	prodcode	Reproterol 500micrograms/dose inhaler	66477020
+15284	prodcode	Slo-Phyllin 125mg capsules (Merck Serono Ltd)	87001020
+15326	prodcode	Beclometasone 100micrograms/dose inhaler CFC free	91155020
+15356	prodcode	Ephedrine HCl 30mg Tablet (C P Pharmaceuticals Ltd)	85270020
+15365	prodcode	Theophylline 10mg/5ml SF elixir	66981020
+15467	prodcode	Ephedrine 60mg tablets	55725020
+15483	prodcode	Bricanyl Oral solution (AstraZeneca UK Ltd)	53667020
+15613	prodcode	Salbutamol 500micrograms/1ml solution for injection ampoules	69342020
+15706	prodcode	Beclometasone 100 micrograms/actuation vortex inhaler	81506020
+15765	prodcode	Sodium cromoglicate 5mg/inhalation inhaler & spacer	61063020
+15816	prodcode	Ephedrine hydrochloride 30mg tablets	71114020
+16018	prodcode	Mometasone 200micrograms/dose dry powder inhaler	80792020
+16054	prodcode	Budesonide 200micrograms/actuation breath actuated powder inhaler	87972020
+16148	prodcode	Clenil Modulite 250micrograms/dose inhaler (Chiesi Ltd)	91167020
+16151	prodcode	Clenil Modulite 200micrograms/dose inhaler (Chiesi Ltd)	91165020
+16158	prodcode	Clenil Modulite 50micrograms/dose inhaler (Chiesi Ltd)	91161020
+16207	prodcode	Duovent UDVs nebuliser liquid 4ml (Boehringer Ingelheim Ltd)	51100020
+16236	prodcode	Pirbuterol acetate inhaler	72193020
+16305	prodcode	Flixotide 2mg/2ml Nebules (GlaxoSmithKline UK Ltd)	57311020
+16433	prodcode	Asmanex 200micrograms/dose Twisthaler (Merck Sharp & Dohme Ltd)	85228020
+16577	prodcode	Easyhaler Salbutamol sulfate 200micrograms/dose dry powder inhaler (Orion Pharma (UK) Ltd)	88298020
+16584	prodcode	Beclometasone 50micrograms/dose inhaler CFC free	91153020
+16994	prodcode	Aminophylline hydrate 350mg modified-release tablets	89379020
+17002	prodcode	Aminophylline hydrate 225mg modified-release tablets	89373020
+17140	prodcode	Aminophylline 200mg tablets	59197020
+17185	prodcode	Ventolin 500micrograms/1ml solution for injection ampoules (GlaxoSmithKline UK Ltd)	52222020
+17465	prodcode	Fluticasone 500micrograms/2ml nebuliser liquid unit dose vials	57282020
+17590	prodcode	Asmanex 400micrograms/dose Twisthaler (Merck Sharp & Dohme Ltd)	80362020
+17654	prodcode	Easyhaler Beclometasone 200micrograms/dose dry powder inhaler (Orion Pharma (UK) Ltd)	89688020
+17670	prodcode	Easyhaler Budesonide 100micrograms/dose dry powder inhaler (Orion Pharma (UK) Ltd)	90421020
+17696	prodcode	Ventmax SR 4mg capsules (Chiesi Ltd)	85765020
+17846	prodcode	Brovon Inhalation vapour (Torbet Laboratories Ltd)	55525020
+17874	prodcode	Monovent 1.5mg/5ml Oral solution (Lagap)	71393020
+17875	prodcode	Terbutaline with guafenesin expectorant	66896020
+18140	prodcode	Respontin 500micrograms/2ml Nebules (GlaxoSmithKline UK Ltd)	88630020
+18288	prodcode	Choline theophyllinate 100mg tablets	61302020
+18299	prodcode	Fenoterol 1.25mg/4ml / Ipratropium 500micrograms/4ml nebuliser liquid unit dose vials	80152020
+18387	prodcode	Brovon midget Inhalation powder (Torbet Laboratories Ltd)	55528020
+18394	prodcode	Bdp 50microgram/actuation Spacehaler (Celltech Pharma Europe Ltd)	81509020
+18421	prodcode	Respontin nebules 250microgram/ml Nebuliser liquid (Glaxo Wellcome UK Ltd)	86188020
+18456	prodcode	Salbutamol 200microgram / Beclometasone 100microgram inhalation powder capsules	67876020
+18622	prodcode	Salbulin 2mg Tablet (3M Health Care Ltd)	52875020
+18848	prodcode	Qvar 100micrograms/dose Easi-Breathe inhaler (Teva UK Ltd)	88502020
+18968	prodcode	Salbutamol 5mg/5ml solution for infusion ampoules	69343020
+18988	prodcode	Choline theophyllinate 62.5mg/5ml oral solution	61304020
+19031	prodcode	Bdp 100microgram/actuation Spacehaler (Celltech Pharma Europe Ltd)	81510020
+19121	prodcode	Beclometasone 100micrograms with Salbutamol 200micrograms inhalation capsules	64092020
+19376	prodcode	Beclometasone 200micrograms with Salbutamol 400micrograms inhalation capsules	64091020
+19389	prodcode	Asmabec 50microgram/actuation Spacehaler (Celltech Pharma Europe Ltd)	85795020
+19401	prodcode	Beclometasone 250micrograms/actuation inhaler and compact spacer	79501020
+19563	prodcode	BECOTIDE FOR NEBULISER	!0584101
+19642	prodcode	VENTOLIN NEBULES	!7637114
+19649	prodcode	VENTOLIN ROTAHALER	!7637115
+19653	prodcode	VENTOLIN RESPIRATOR	!7637105
+19726	prodcode	VENTOLIN S/R	!7637110
+19736	prodcode	BECOTIDE SUSP FOR NEBULISATION	!0584104
+19799	prodcode	Tulobuterol 2mg	54414020
+19953	prodcode	Theophylline with ephedrine & caffeine tablets	73710020
+20180	prodcode	Sodium cromoglicate with isoprenaline inhalation capsules	61052020
+20675	prodcode	SALBUTAMOL ROTAHALER COMPLETE UNIT	!9131025
+20707	prodcode	BECOTIDE 100	!0584401
+20781	prodcode	SALBUTAMOL U.DOSE NEBULISING 2.5MG/2.5ML	!6452118
+20825	prodcode	Spacehaler BDP 250microgram/actuation Spacehaler (Celltech Pharma Europe Ltd)	84020020
+20838	prodcode	Salbuvent 2mg Tablet (Pharmacia Ltd)	69346020
+21005	prodcode	Beclometasone 250micrograms/dose inhaler CFC free	91159020
+21102	prodcode	Salbutamol 2mg/5ml Oral solution (Lagap)	54277020
+21218	prodcode	Dexsol 2mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)	78819020
+21224	prodcode	Alvesco 80 inhaler (AstraZeneca UK Ltd)	88720020
+21482	prodcode	Beclometasone 100micrograms/dose inhaler (Mylan)	58819020
+21741	prodcode	Bronchilator Aerosol generator (Sanofi-Synthelabo Ltd)	48471020
+21769	prodcode	Lasma 300mg Tablet (Pharmax Ltd)	53582020
+21859	prodcode	Asmaven 100microgram Inhalation powder (Berk Pharmaceuticals Ltd)	57680020
+21862	prodcode	Adrenaline and atropine inhalation solution	55711020
+22082	prodcode	Alupent expectorant Tablet (Boehringer Ingelheim Ltd)	54910020
+22225	prodcode	BECLOMETHASONE /SALBUTAMOL	!0578301
+22313	prodcode	Ventmax SR 8mg capsules (Chiesi Ltd)	85766020
+22330	prodcode	Ephedrine 4mg/5ml oral solution sugar free	71909020
+22430	prodcode	Spacehaler salbutamol 100microgram/inhalation Spacehaler (Celltech Pharma Europe Ltd)	84022020
+22467	prodcode	SALBUTAMOL RESPIRATOR SOLN	!6452108
+22512	prodcode	SALBUTAMOL INHALER	!6452101
+22661	prodcode	Pirbuterol 10mg capsule	65846020
+22663	prodcode	Respacal 2mg Tablet (UCB Pharma Ltd)	57254020
+22790	prodcode	Reproterol 10mg/ml respirator solution	66478020
+23047	prodcode	Ephedrine 60mg tablets	71115020
+23054	prodcode	Ephedrine HCl with Chlorphenamine 4mg with 1mg/5ml oral solution sugar free	71094020
+23269	prodcode	Maxivent 2.5mg/2.5ml nebuliser liquid unit dose Steripoule vials (Ashbourne Pharmaceuticals Ltd)	79058020
+23567	prodcode	Respontin 250micrograms/1ml Nebules (GlaxoSmithKline UK Ltd)	88628020
+23572	prodcode	Aminophylline sr 225mg Modified-release tablet (IVAX Pharmaceuticals UK Ltd)	61458020
+23688	prodcode	VENTOLIN ROTACAPS	!7637106
+23709	prodcode	Ipratropium 500micrograms/2ml nebuliser liquid Steri-Neb unit dose vials (Teva UK Ltd)	88636020
+23741	prodcode	Novolizer budesonide 200microgram/actuation Pressurised inhalation (Meda Pharmaceuticals Ltd)	87974020
+23787	prodcode	Exirel 10mg Capsule (3M Health Care Ltd)	53830020
+23961	prodcode	Ipratropium bromide 250microgram/ml Inhalation vapour (Galen Ltd)	56682020
+24023	prodcode	Theodrox Tablet (3M Health Care Ltd)	51915020
+24219	prodcode	BECOTIDE ROTACAPS	!0584103
+24380	prodcode	Sodium cromoglicate 1mg/dose / Salbutamol 100micrograms/dose inhaler with spacer	72093020
+24418	prodcode	Biophylline 350mg Tablet (Lorex Synthelabo Ltd)	58824020
+24645	prodcode	Ventolin 5mg/5ml solution for infusion ampoules (GlaxoSmithKline UK Ltd)	52224020
+24674	prodcode	Biophylline 500mg Tablet (Lorex Synthelabo Ltd)	58825020
+24898	prodcode	Spacehaler BDP 100microgram/actuation Spacehaler (Celltech Pharma Europe Ltd)	84019020
+25073	prodcode	SALBUTAMOL	!6451901
+25119	prodcode	Tilade 2mg/dose inhaler CFC free (Sanofi)	89827020
+25125	prodcode	Aminophylline 360mg suppositories	71060020
+25204	prodcode	Beclometasone 100micrograms/dose inhaler (A A H Pharmaceuticals Ltd)	60177020
+25218	prodcode	SALBUTAMOL CFC/FREE B/A	!8504810
+25339	prodcode	Maxivent 5mg/2.5ml nebuliser liquid unit dose Steripoule vials (Ashbourne Pharmaceuticals Ltd)	79059020
+25784	prodcode	Atimos Modulite 12micrograms/dose inhaler (Chiesi Ltd)	89766020
+25820	prodcode	Bronchodil 10mg/5ml Oral solution (Viatris Pharmaceuticals Ltd)	48482020
+25821	prodcode	Exirel 7.5mg/5ml Oral solution (3M Health Care Ltd)	53832020
+25829	prodcode	Pirbuterol 7.5mg/5ml oral solution	65849020
+26063	prodcode	Beclometasone 100micrograms/dose inhaler (Teva UK Ltd)	67076020
+26525	prodcode	VENTOLIN	!7637103
+26616	prodcode	Ipratropium bromide with fenoterol hydrobromide 0micrograms + 100micrograms/actuation	63620020
+26744	prodcode	Expulin decongestant sugar free Oral solution (Shire Pharmaceuticals Ltd)	76168020
+26829	prodcode	Brelomax 2mg Tablet (Abbott Laboratories Ltd)	48467020
+26873	prodcode	Cobutolin 2mg Tablet (Actavis UK Ltd)	58029020
+26987	prodcode	Bricanyl Tablet (AstraZeneca UK Ltd)	48456020
+27188	prodcode	Easyhaler Budesonide 200micrograms/dose dry powder inhaler (Orion Pharma (UK) Ltd)	90423020
+27340	prodcode	Salbuvent 0.5mg/ml Injection (Pharmacia Ltd)	70316020
+27505	prodcode	Ipratropium bromide with fenoterol hydrobromide 40micrograms + 100micrograms/actuation	63621020
+27525	prodcode	BECOTIDE 50	!0584601
+27573	prodcode	VENTOLIN	!7637111
+27679	prodcode	Beclometasone 100microgram/actuation Pressurised inhalation (Approved Prescription Services Ltd)	61524020
+27944	prodcode	Tedral Oral solution (Parke-davis Research Laboratories)	58342020
+28073	prodcode	Beclometasone 250microgram/actuation Pressurised inhalation (Approved Prescription Services Ltd)	61525020
+28508	prodcode	Salbutamol 100microgram/inhalation Inhalation powder (IVAX Pharmaceuticals UK Ltd)	54287020
+28577	prodcode	Ventolin 50microgram/ml Injection (Allen & Hanburys Ltd)	52223020
+28640	prodcode	Beclometasone 100microgram/actuation Inhalation powder (Actavis UK Ltd)	59873020
+28761	prodcode	Spacehaler BDP 50microgram/actuation Spacehaler (Celltech Pharma Europe Ltd)	84018020
+28881	prodcode	Salbutamol 2mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)	55767020
+29267	prodcode	Salbuvent 4mg Tablet (Pharmacia Ltd)	69347020
+29273	prodcode	Aminophylline 225mg Modified-release tablet (Hillcross Pharmaceuticals Ltd)	60164020
+29325	prodcode	Beclometasone 250micrograms/dose inhaler (Mylan)	58817020
+30118	prodcode	Salbutamol 100micrograms/dose inhaler CFC free (Teva UK Ltd)	61514020
+30204	prodcode	Salbutamol 200micrograms inahalation capsules	53422020
+30210	prodcode	Beclometasone 250micrograms/dose inhaler (Teva UK Ltd)	67080020
+30212	prodcode	Salbutamol cyclohaler	53424020
+30229	prodcode	Ipratropium bromide 250microgram/ml Nebuliser liquid (Galen Ltd)	69142020
+30230	prodcode	Salbutamol 100micrograms/actuation breath actuated inhaler	79713020
+30238	prodcode	Beclometasone 50microgram/actuation Pressurised inhalation (Approved Prescription Services Ltd)	61523020
+30240	prodcode	Aerolin autohaler 100microgram/actuation Pressurised inhalation (3M Health Care Ltd)	68160020
+30596	prodcode	Aminophylline 225mg Modified-release tablet (Actavis UK Ltd)	56813020
+30649	prodcode	Easyhaler Budesonide 400micrograms/dose dry powder inhaler (Orion Pharma (UK) Ltd)	90425020
+31082	prodcode	Salbuvent 5mg/ml Respirator solution (Pharmacia Ltd)	70320020
+31091	prodcode	Ephedrine HCl 15mg Tablet (C P Pharmaceuticals Ltd)	85269020
+31262	prodcode	Orciprenaline with bromhexine hcl mixture	67813020
+31290	prodcode	SALBULIN CFC FREE	!8505539
+31774	prodcode	Beclometasone 50micrograms/dose inhaler (Mylan)	58818020
+31845	prodcode	Salapin 2mg/5ml syrup (Pinewood Healthcare)	58101020
+31865	prodcode	Rybarvin Inhalation vapour (Rybar Laboratories Ltd)	51445020
+31933	prodcode	Salbutamol 100micrograms/dose inhaler (A A H Pharmaceuticals Ltd)	50543020
+32050	prodcode	Salbutamol 400 Cyclocaps (Teva UK Ltd)	63930020
+32102	prodcode	Salbutamol 4mg tablets (A A H Pharmaceuticals Ltd)	50544020
+32222	prodcode	Isoprenaline hc 500micrograms + 50micrograms/metered Pressurised inhalation	63698020
+32283	prodcode	Orciprenaline 0.5mg/ml Injection	65225020
+32812	prodcode	Numotac 10mg Tablet (3M Health Care Ltd)	50790020
+32874	prodcode	Beclometasone 50microgram/actuation Inhalation powder (Actavis UK Ltd)	59872020
+33089	prodcode	Salbutamol 100micrograms/dose inhaler (Kent Pharmaceuticals Ltd)	63418020
+33258	prodcode	Beclometasone 250micrograms/dose inhaler (A A H Pharmaceuticals Ltd)	60178020
+33373	prodcode	Salbutamol 200 Cyclocaps (Teva UK Ltd)	63926020
+33434	prodcode	Noradran 7.5mg+15mg/5ml Oral solution (Norma Chemicals Ltd)	79991020
+33461	prodcode	Iso-autohaler Inhalation powder (3M Health Care Ltd)	49972020
+33588	prodcode	Salbutamol 100micrograms/dose inhaler (Mylan)	60625020
+33817	prodcode	Salbutamol 100micrograms/dose inhaler CFC free (Actavis UK Ltd)	63650020
+33849	prodcode	Beclometasone 100microgram/actuation Inhalation powder (Neo Laboratories Ltd)	63536020
+34018	prodcode	Salbutamol 5mg/2.5ml Nebuliser liquid (Galen Ltd)	59499020
+34029	prodcode	Salbutamol 400micrograms inahalation capsules	53423020
+34134	prodcode	Aerolin 400 100microgram/actuation Inhalation powder (3M Health Care Ltd)	68156020
+34162	prodcode	Salbutamol 2.5mg/2.5ml Nebuliser liquid (Galen Ltd)	59498020
+34310	prodcode	Salbutamol 100micrograms/dose inhaler CFC free (A A H Pharmaceuticals Ltd)	61776020
+34311	prodcode	Salbutamol 100microgram/inhalation Inhalation powder (Berk Pharmaceuticals Ltd)	50518020
+34315	prodcode	Beclometasone 250microgram/actuation Inhalation powder (Actavis UK Ltd)	59874020
+34428	prodcode	Beclometasone 50microgram/actuation Inhalation powder (Neo Laboratories Ltd)	63531020
+34618	prodcode	Salbutamol 2mg tablets (Actavis UK Ltd)	50533020
+34619	prodcode	Salbutamol 100microgram/inhalation Inhalation powder (Kent Pharmaceuticals Ltd)	62351020
+34702	prodcode	Salbutamol 100microgram/inhalation Inhalation powder (C P Pharmaceuticals Ltd)	50525020
+34739	prodcode	Beclometasone 50micrograms/dose inhaler (Teva UK Ltd)	67073020
+34794	prodcode	Beclometasone 200micrograms/dose inhaler (A A H Pharmaceuticals Ltd)	65723020
+34859	prodcode	Beclometasone 250microgram/actuation Inhalation powder (Neo Laboratories Ltd)	63539020
+34919	prodcode	Beclometasone 50micrograms/dose inhaler (A A H Pharmaceuticals Ltd)	60176020
+34938	prodcode	Salbutamol 4mg tablets (Actavis UK Ltd)	50534020
+34995	prodcode	Spiriva 18microgram inhalation powder capsules with HandiHaler (Boehringer Ingelheim Ltd)	92697020
+35000	prodcode	Spiriva 18microgram inhalation powder capsules (Boehringer Ingelheim Ltd)	92699020
+35011	prodcode	Tiotropium bromide 18microgram inhalation powder capsules	92695020
+35014	prodcode	Tiotropium bromide 18microgram inhalation powder capsules with device	92693020
+35071	prodcode	Becodisks 200microgram (GlaxoSmithKline UK Ltd)	93053020
+35106	prodcode	Becodisks 100microgram with Diskhaler (GlaxoSmithKline UK Ltd)	93043020
+35107	prodcode	Beclometasone 400microgram inhalation powder blisters with device	93055020
+35113	prodcode	Beclometasone 200microgram inhalation powder blisters	93049020
+35118	prodcode	Becodisks 400microgram with Diskhaler (GlaxoSmithKline UK Ltd)	93059020
+35165	prodcode	Serevent 50microgram disks with Diskhaler (GlaxoSmithKline UK Ltd)	92979020
+35225	prodcode	Flixotide 100microgram disks with Diskhaler (GlaxoSmithKline UK Ltd)	93279020
+35288	prodcode	Beclometasone 400microgram inhalation powder blisters	93057020
+35293	prodcode	Beclometasone 200microgram inhalation powder blisters with device	93047020
+35299	prodcode	Becodisks 400microgram (GlaxoSmithKline UK Ltd)	93063020
+35374	prodcode	Flixotide 500microgram disks (GlaxoSmithKline UK Ltd)	93299020
+35392	prodcode	Flixotide 500microgram disks with Diskhaler (GlaxoSmithKline UK Ltd)	93297020
+35408	prodcode	Becodisks 100microgram (GlaxoSmithKline UK Ltd)	93045020
+35430	prodcode	Becodisks 200microgram with Diskhaler (GlaxoSmithKline UK Ltd)	93051020
+35461	prodcode	Flixotide 250microgram disks with Diskhaler (GlaxoSmithKline UK Ltd)	93289020
+35503	prodcode	Salmeterol 50microgram inhalation powder blisters	92977020
+35510	prodcode	Budesonide 200micrograms/dose dry powder inhalation cartridge with device	92711020
+35522	prodcode	Bricanyl 500micrograms/1ml solution for injection ampoules (AstraZeneca UK Ltd)	92683020
+35542	prodcode	Salmeterol 50microgram inhalation powder blisters with device	92971020
+35557	prodcode	Ipramol nebuliser solution 2.5ml Steri-Neb unit dose vials (Teva UK Ltd)	91913020
+35580	prodcode	Beclometasone 100microgram inhalation powder blisters with device	93039020
+35602	prodcode	Budesonide 200micrograms/dose dry powder inhalation cartridge	92719020
+35611	prodcode	Flixotide 250microgram disks (GlaxoSmithKline UK Ltd)	93291020
+35631	prodcode	Budelin Novolizer 200micrograms/dose inhalation powder (Meda Pharmaceuticals Ltd)	92727020
+35638	prodcode	Fluticasone propionate 100microgram inhalation powder blisters with device	93273020
+35652	prodcode	Beclometasone 100microgram inhalation powder blisters	93041020
+35700	prodcode	Fluticasone propionate 500microgram inhalation powder blisters with device	93293020
+35724	prodcode	Budelin Novolizer 200micrograms/dose inhalation powder refill (Meda Pharmaceuticals Ltd)	92729020
+35725	prodcode	Formoterol Easyhaler 12micrograms/dose dry powder inhaler (Orion Pharma (UK) Ltd)	92823020
+35744	prodcode	Bricanyl 2.5mg/5ml solution for injection ampoules (AstraZeneca UK Ltd)	92685020
+35772	prodcode	Fluticasone propionate 100microgram inhalation powder blisters	93275020
+35825	prodcode	Serevent 50microgram disks (GlaxoSmithKline UK Ltd)	92985020
+35861	prodcode	Terbutaline 2.5mg/5ml solution for injection ampoules	92679020
+35862	prodcode	Terbutaline 500micrograms/1ml solution for injection ampoules	92677020
+35905	prodcode	Fluticasone propionate 250microgram inhalation powder blisters	93287020
+35986	prodcode	Flixotide 50microgram disks (GlaxoSmithKline UK Ltd)	93265020
+36021	prodcode	Fluticasone propionate 50microgram inhalation powder blisters with device	93257020
+36090	prodcode	Flixotide 100microgram disks (GlaxoSmithKline UK Ltd)	93281020
+36290	prodcode	Flixotide 50microgram disks with Diskhaler (GlaxoSmithKline UK Ltd)	93263020
+36401	prodcode	Fluticasone propionate 250microgram inhalation powder blisters with device	93285020
+36462	prodcode	Fluticasone propionate 500microgram inhalation powder blisters	93295020
+36677	prodcode	Reproterol 10mg/5ml oral solution	66482020
+36864	prodcode	Tiotropium bromide 2.5micrograms/dose solution for inhalation cartridge with device CFC free	94071020
+36869	prodcode	Spiriva Respimat 2.5micrograms/dose solution for inhalation cartridge with device (Boehringer Ingelheim Ltd)	94073020
+37432	prodcode	Fostair 100micrograms/dose / 6micrograms/dose inhaler (Chiesi Ltd)	94307020
+37447	prodcode	Fluticasone propionate 50microgram inhalation powder blisters	93259020
+37470	prodcode	Beclometasone 100micrograms/dose / Formoterol 6micrograms/dose inhaler CFC free	94305020
+37615	prodcode	Sodium cromoglicate 1mg/inhalation inhaler	61056020
+37791	prodcode	Ipratropium bromide 250microgram/ml	63617020
+38079	prodcode	Salbutamol 100micrograms/dose dry powder inhalation cartridge with device	94863020
+38097	prodcode	Salbutamol cyclocaps 200microgram Inhalation powder (DuPont Pharmaceuticals Ltd)	56098020
+38120	prodcode	Theophylline 500mg modified release tablets	72615020
+38136	prodcode	Salbulin Novolizer 100micrograms/dose inhalation powder (Meda Pharmaceuticals Ltd)	94867020
+38214	prodcode	Salbutamol 100micrograms/dose dry powder inhalation cartridge	94865020
+38226	prodcode	Salbulin Novolizer 100micrograms/dose inhalation powder refill (Meda Pharmaceuticals Ltd)	94869020
+38416	prodcode	Salbutamol cyclocaps 400microgram Inhalation powder (DuPont Pharmaceuticals Ltd)	56099020
+38471	prodcode	Sodium cromoglicate 5mg/dose inhaler CFC free	95402020
+38501	prodcode	Intal 5mg/dose inhaler CFC free (Sanofi)	95416020
+39040	prodcode	Phyllocontin Forte Continus 350mg tablets (Napp Pharmaceuticals Ltd)	95819020
+39200	prodcode	AeroBec Forte 250 Autohaler (Meda Pharmaceuticals Ltd)	95879020
+39236	prodcode	Adrenaline and Atropine comp spray	86455020
+40057	prodcode	Pulmicort 200micrograms/dose inhaler CFC free (AstraZeneca UK Ltd)	96233020
+40177	prodcode	Ipratropium bromide 250microgram/ml Nebuliser liquid (Hillcross Pharmaceuticals Ltd)	60390020
+40599	prodcode	Salbutamol 5mg/2.5ml nebuliser liquid unit dose Steripoule vials (Galen Ltd)	96111020
+40637	prodcode	Ipratropium 250micrograms/1ml nebuliser liquid unit dose Steripoule vials (Galen Ltd)	96091020
+40655	prodcode	Salbuvent 100microgram/actuation Inhalation powder (Pharmacia Ltd)	69361020
+40709	prodcode	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (A A H Pharmaceuticals Ltd)	73590020
+40832	prodcode	Ipratropium 500micrograms/2ml nebuliser liquid unit dose Steripoule vials (Galen Ltd)	96099020
+41269	prodcode	Beclometasone 400 Cyclocaps (Teva UK Ltd)	63923020
+41412	prodcode	Beclometasone 400micrograms/actuation inhaler	69256020
+41548	prodcode	Salbutamol 2mg tablets (Approved Prescription Services Ltd)	55302020
+41549	prodcode	Salbutamol 2mg Tablet (C P Pharmaceuticals Ltd)	50526020
+41691	prodcode	Salbutamol 2mg/5ml oral solution sugar free (Sandoz Ltd)	66781020
+41830	prodcode	Medihaler -duo Inhalation powder (3M Health Care Ltd)	50322020
+42103	prodcode	Tulobuterol 1mg/5ml sugar free syrup	54415020
+42279	prodcode	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose Steripoule vials (Galen Ltd)	96107020
+42497	prodcode	Salbutamol 8mg tablet	68262020
+42511	prodcode	Aminophylline 25mg/ml Injection (Celltech Pharma Europe Ltd)	48469020
+42830	prodcode	Ventolin 100micrograms/dose Evohaler (GlaxoSmithKline UK Ltd)	98212020
+42858	prodcode	Ventolin 200micrograms/dose Accuhaler (GlaxoSmithKline UK Ltd)	98214020
+42867	prodcode	Terbutaline 1.5mg/5ml Oral solution (Sandoz Ltd)	56229020
+42886	prodcode	Bricanyl 500micrograms/dose Turbohaler (AstraZeneca UK Ltd)	98210020
+42910	prodcode	Aminophylline 250mg/10ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)	48283020
+42921	prodcode	Isoprenaline sulphate 400micrograms/actuation Pressurised inhalation	71320020
+42928	prodcode	Flixotide 100micrograms/dose Accuhaler (GlaxoSmithKline UK Ltd)	98218020
+42985	prodcode	Flixotide 50micrograms/dose Accuhaler (GlaxoSmithKline UK Ltd)	98216020
+42994	prodcode	Flixotide 250micrograms/dose Accuhaler (GlaxoSmithKline UK Ltd)	98222020
+43046	prodcode	Salipraneb 0.5mg/2.5mg nebuliser solution 2.5ml ampoules (Arrow Generics Ltd)	97117020
+43074	prodcode	Flixotide 500micrograms/dose Accuhaler (GlaxoSmithKline UK Ltd)	98224020
+43085	prodcode	Bricanyl 5mg/2ml Respules (AstraZeneca UK Ltd)	98341020
+43090	prodcode	Atrovent 40microgram Aerocaps (Boehringer Ingelheim Ltd)	98208020
+43105	prodcode	Atrovent 40microgram Aerocaps with Aerohaler (Boehringer Ingelheim Ltd)	98206020
+43738	prodcode	Indacaterol 150microgram inhalation powder capsules with device	98481020
+43893	prodcode	Onbrez Breezhaler 150microgram inhalation powder capsules with device (Novartis Pharmaceuticals UK Ltd)	98562020
+44064	prodcode	Onbrez Breezhaler 300microgram inhalation powder capsules with device (Novartis Pharmaceuticals UK Ltd)	98564020
+44713	prodcode	Salbutamol 100microgram/inhalation Inhalation powder (Celltech Pharma Europe Ltd)	50537020
+45234	prodcode	Dexamethasone 100microgram capsules	91780020
+45610	prodcode	Indacaterol 300microgram inhalation powder capsules with device	98485020
+45863	prodcode	Salbutamol 5mg/2.5ml Nebuliser liquid (Generics (UK) Ltd)	60627020
+46157	prodcode	Beclometasone 200 Cyclocaps (Teva UK Ltd)	63918020
+46551	prodcode	Salbutamol 100microgram/inhalation Inhalation powder (Neo Laboratories Ltd)	77674020
+47638	prodcode	Neovent 25micrograms/dose inhaler CFC free (Kent Pharmaceuticals Ltd)	402021
+47943	prodcode	Beclazone easi-breathe (roi) 100microgram/actuation Pressurised inhalation (Ivax Pharmaceuticals Ireland)	99655020
+48340	prodcode	Clenil Modulite 100micrograms/dose inhaler (Mawdsley-Brooks & Company Ltd)	38603020
+48396	prodcode	Singulair 10mg tablets (Necessity Supplies Ltd)	3061020
+48410	prodcode	Salbutamol 2.5mg/2.5ml / Ipratropium bromide 500micrograms/2.5ml nebuliser liquid ampoules	36408020
+48484	prodcode	Theophylline 250mg/5ml oral suspension	36165020
+48490	prodcode	Ventolin 100micrograms/dose Evohaler (DE Pharmaceuticals)	2650020
+48519	prodcode	Ventolin 100micrograms/dose Evohaler (Waymade Healthcare Plc)	2648020
+48547	prodcode	Salamol 100micrograms/dose inhaler CFC free (Arrow Generics Ltd)	41350020
+48607	prodcode	Salbutamol 2.5mg/2.5ml / Ipratropium bromide 500micrograms/2.5ml nebuliser liquid unit dose vials	2813020
+48666	prodcode	Flutiform 250micrograms/dose / 10micrograms/dose inhaler (Napp Pharmaceuticals Ltd)	44175020
+48709	prodcode	Qvar 100micrograms/dose Easi-Breathe inhaler (Sigma Pharmaceuticals Plc)	10734020
+48739	prodcode	Seretide 250 Evohaler (DE Pharmaceuticals)	2739020
+48741	prodcode	Ventolin 100micrograms/dose Evohaler (Mawdsley-Brooks & Company Ltd)	2651020
+49000	prodcode	Seretide 250 Evohaler (Waymade Healthcare Plc)	2737020
+49114	prodcode	Symbicort 100/6 Turbohaler (Sigma Pharmaceuticals Plc)	53020
+49227	prodcode	Aclidinium bromide 375micrograms/dose dry powder inhaler	44134020
+49228	prodcode	Eklira 322micrograms/dose Genuair (AstraZeneca UK Ltd)	44135020
+49367	prodcode	Clenil Modulite 50micrograms/dose inhaler (Mawdsley-Brooks & Company Ltd)	38602020
+49369	prodcode	Salbutamol 200microgram inhalation powder blisters	2642020
+49412	prodcode	Clenil Modulite 200micrograms/dose inhaler (Mawdsley-Brooks & Company Ltd)	38762020
+49591	prodcode	Salbutamol 100micrograms/dose inhaler CFC free (Sandoz Ltd)	2653020
+49711	prodcode	Pulmicort 200micrograms/dose inhaler (AstraZeneca UK Ltd)	2876020
+49772	prodcode	Fluticasone 250micrograms/dose Evohaler (Sigma Pharmaceuticals Plc)	2943020
+49868	prodcode	Fluticasone 250micrograms/dose / Formoterol 10micrograms/dose inhaler CFC free	44174020
+49904	prodcode	Combivent nebuliser liquid 2.5ml UDVs (Lexon (UK) Ltd)	39298020
+50018	prodcode	Aminophylline 250mg/10ml solution for injection ampoules	2795020
+50036	prodcode	Flutiform 125micrograms/dose / 5micrograms/dose inhaler (Napp Pharmaceuticals Ltd)	44173020
+50037	prodcode	Pulmicort 0.5mg Respules (Waymade Healthcare Plc)	13400020
+50051	prodcode	Serevent 25micrograms/dose Evohaler (Waymade Healthcare Plc)	21883020
+50103	prodcode	Spiriva 18microgram inhalation powder capsules with HandiHaler (Waymade Healthcare Plc)	21582020
+50129	prodcode	Qvar 100micrograms/dose Easi-Breathe inhaler (DE Pharmaceuticals)	10737020
+50287	prodcode	Qvar 100 inhaler (DE Pharmaceuticals)	10725020
+50292	prodcode	Spiriva 18microgram inhalation powder capsules (Sigma Pharmaceuticals Plc)	21579020
+50315	prodcode	Salbutamol 200microgram inhalation powder blisters with device	2638020
+50503	prodcode	Ventolin 200micrograms/dose Accuhaler (Mawdsley-Brooks & Company Ltd)	2659020
+50557	prodcode	Ventolin 200micrograms/dose Accuhaler (Lexon (UK) Ltd)	39799020
+50560	prodcode	Seretide 250 Accuhaler (Sigma Pharmaceuticals Plc)	2756020
+50577	prodcode	Spiriva 18microgram inhalation powder capsules with HandiHaler (DE Pharmaceuticals)	21583020
+50689	prodcode	Flutiform 50micrograms/dose / 5micrograms/dose inhaler (Napp Pharmaceuticals Ltd)	44177020
+50701	prodcode	Becotide Rotahaler (GlaxoSmithKline UK Ltd)	12554020
+50739	prodcode	Symbicort 400/12 Turbohaler (Mawdsley-Brooks & Company Ltd)	14019020
+50810	prodcode	Atrovent 20micrograms/dose inhaler CFC free (DE Pharmaceuticals)	39925020
+50886	prodcode	Seretide 250 Evohaler (Stephar (U.K.) Ltd)	2742020
+50945	prodcode	Symbicort 100/6 Turbohaler (Mawdsley-Brooks & Company Ltd)	54020
+50956	prodcode	Ventolin 200micrograms/dose Accuhaler (DE Pharmaceuticals)	2657020
+51027	prodcode	Seretide 125 Evohaler (DE Pharmaceuticals)	2732020
+51151	prodcode	Seretide 125 Evohaler (Lexon (UK) Ltd)	2734020
+51209	prodcode	Fluticasone 125micrograms/dose / Formoterol 5micrograms/dose inhaler CFC free	44172020
+51234	prodcode	Qvar 100 inhaler (Waymade Healthcare Plc)	10727020
+51270	prodcode	Fluticasone 50micrograms/dose / Formoterol 5micrograms/dose inhaler CFC free	44176020
+51394	prodcode	Seretide 500 Accuhaler (Waymade Healthcare Plc)	2760020
+51415	prodcode	Qvar 50 inhaler (Mawdsley-Brooks & Company Ltd)	10720020
+51430	prodcode	Theophylline 60mg/5ml oral suspension	35835020
+51480	prodcode	Qvar 100 Autohaler (DE Pharmaceuticals)	10736020
+51570	prodcode	Symbicort 200/6 Turbohaler (DE Pharmaceuticals)	46020
+51593	prodcode	Seretide 500 Accuhaler (DE Pharmaceuticals)	2766020
+51681	prodcode	Qvar 100 inhaler (Sigma Pharmaceuticals Plc)	10726020
+51759	prodcode	Symbicort 200/6 Turbohaler (Mawdsley-Brooks & Company Ltd)	48020
+51815	prodcode	Flixotide 250micrograms/dose Evohaler (Waymade Healthcare Plc)	2938020
+51861	prodcode	Seretide 500 Accuhaler (Mawdsley-Brooks & Company Ltd)	2764020
+51903	prodcode	Combivent nebuliser liquid 2.5ml UDVs (DE Pharmaceuticals)	2817020
+51909	prodcode	Seretide 250 Evohaler (Necessity Supplies Ltd)	2744020
+51967	prodcode	Spiriva 18microgram inhalation powder capsules (Mawdsley-Brooks & Company Ltd)	21580020
+52396	prodcode	Dexamethasone 1mg/5ml oral solution	19597020
+52410	prodcode	Bricanyl 500micrograms/dose Turbohaler (Necessity Supplies Ltd)	2688020
+52543	prodcode	Salbutamol 400microgram inhalation powder blisters	2644020
+52732	prodcode	Pulmicort 0.5mg Respules (Necessity Supplies Ltd)	13412020
+52799	prodcode	Salbutamol 400microgram inhalation powder blisters with device	2640020
+52806	prodcode	Qvar 100 Autohaler (Lexon (UK) Ltd)	10732020
+53019	prodcode	Ventolin 2.5mg Nebules (Mawdsley-Brooks & Company Ltd)	2678020
+53057	prodcode	Flixotide 50micrograms/dose Evohaler (Lexon (UK) Ltd)	2951020
+53174	prodcode	Ipratropium bromide 500micrograms/2ml nebuliser liquid unit dose vials (A A H Pharmaceuticals Ltd)	69151020
+53230	prodcode	Seretide 250 Accuhaler (DE Pharmaceuticals)	2755020
+53237	prodcode	Symbicort 400/12 Turbohaler (DE Pharmaceuticals)	14017020
+53283	prodcode	Seretide 100 Accuhaler (Waymade Healthcare Plc)	2745020
+53297	prodcode	Ventolin 200micrograms/dose Accuhaler (Sigma Pharmaceuticals Plc)	2658020
+53480	prodcode	Qvar 100 Autohaler (Stephar (U.K.) Ltd)	10735020
+53491	prodcode	Symbicort 200/6 Turbohaler (Sigma Pharmaceuticals Plc)	47020
+53761	prodcode	Glycopyrronium bromide 55microgram inhalation powder capsules with device	46187020
+53982	prodcode	Seebri Breezhaler 44microgram inhalation powder capsules with device (Novartis Pharmaceuticals UK Ltd)	46188020
+54207	prodcode	Qvar 50 inhaler (DE Pharmaceuticals)	10721020
+54399	prodcode	Qvar 100 Autohaler (Sigma Pharmaceuticals Plc)	10729020
+54641	prodcode	Isoprenaline sulphate with sodium cromoglicate inhalation Capsule	63694020
+54742	prodcode	Salmeterol 25micrograms/dose inhaler CFC free (A A H Pharmaceuticals Ltd)	41990020
+54793	prodcode	Dexamethasone 2mg/5ml oral suspension	29799020
+55024	prodcode	Prednisolone 5mg/5ml oral solution	34075020
+55132	prodcode	Atrovent 500micrograms/2ml nebuliser liquid UDVs (Waymade Healthcare Plc)	45460020
+55677	prodcode	Seretide 500 Accuhaler (Lexon (UK) Ltd)	2763020
+56347	prodcode	Dexamethasone 5mg/5ml oral solution	19689020
+56443	prodcode	Dexamethasone 10mg/5ml oral solution	29397020
+56462	prodcode	Becodisks 400microgram (Waymade Healthcare Plc)	2818020
+56471	prodcode	Becodisks 200microgram (Mawdsley-Brooks & Company Ltd)	2827020
+56474	prodcode	Flixotide 125micrograms/dose Evohaler (DE Pharmaceuticals)	2932020
+56475	prodcode	Flixotide 50micrograms/dose Accuhaler (Sigma Pharmaceuticals Plc)	2895020
+56477	prodcode	Flixotide 100micrograms/dose Accuhaler (Waymade Healthcare Plc)	2898020
+56478	prodcode	Serevent 50micrograms/dose Accuhaler (DE Pharmaceuticals)	2704020
+56482	prodcode	Oxis 12 Turbohaler (Waymade Healthcare Plc)	2721020
+56484	prodcode	Flixotide 250micrograms/dose Accuhaler (Waymade Healthcare Plc)	2904020
+56493	prodcode	Qvar 50micrograms/dose Easi-Breathe inhaler (Sigma Pharmaceuticals Plc)	10722020
+56498	prodcode	Pulmicort 200 Turbohaler (Waymade Healthcare Plc)	2858020
+56499	prodcode	Flixotide 500micrograms/dose Accuhaler (Waymade Healthcare Plc)	2912020
+56604	prodcode	Montelukast 4mg chewable tablets sugar free (Actavis UK Ltd)	14448021
+56756	prodcode	Montelukast 4mg granules sachets sugar free (A A H Pharmaceuticals Ltd)	14602021
+57228	prodcode	Aminophylline 250mg/10ml solution for injection ampoules (A A H Pharmaceuticals Ltd)	2796020
+57249	prodcode	Asmavent 100micrograms/dose inhaler CFC free (Kent Pharmaceuticals Ltd)	2654020
+57524	prodcode	Ventolin 200micrograms/dose Accuhaler (Dowelhurst Ltd)	2655020
+57525	prodcode	Flixotide 250micrograms/dose Accuhaler (Stephar (U.K.) Ltd)	2909020
+57544	prodcode	Serevent 50micrograms/dose Accuhaler (Waymade Healthcare Plc)	2702020
+57555	prodcode	Flixotide 125micrograms/dose Evohaler (Dowelhurst Ltd)	2930020
+57557	prodcode	Atrovent 20micrograms/dose inhaler CFC free (Lexon (UK) Ltd)	10892020
+57558	prodcode	Oxis 6 Turbohaler (Lexon (UK) Ltd)	2718020
+57579	prodcode	Flixotide 50micrograms/dose Accuhaler (DE Pharmaceuticals)	2897020
+57589	prodcode	Becloforte 250micrograms/dose inhaler (Dowelhurst Ltd)	2831020
+57621	prodcode	Singulair Paediatric 4mg granules sachets (Mawdsley-Brooks & Company Ltd)	10861020
+57694	prodcode	Vertine 25micrograms/dose inhaler CFC free (Teva UK Ltd)	16929021
+58269	prodcode	AirSalb 100micrograms/dose inhaler CFC free (Sandoz Ltd)	16419021
+58474	prodcode	Dexamethasone 2mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)	47495020
+58600	prodcode	Aminophylline 250mg/10ml solution for injection ampoules (AMCo)	55112020
+59263	prodcode	Montelukast 10mg tablets (Teva UK Ltd)	14492021
+59327	prodcode	Relvar Ellipta 92micrograms/dose / 22micrograms/dose dry powder inhaler (GlaxoSmithKline UK Ltd)	21598021
+59409	prodcode	Salbutamol 100micrograms/dose inhaler CFC free (Waymade Healthcare Plc)	47210020
+59439	prodcode	Fluticasone furoate 92micrograms/dose / Vilanterol 22micrograms/dose dry powder inhaler	21597021
+59573	prodcode	Relvar Ellipta 184micrograms/dose / 22micrograms/dose dry powder inhaler (GlaxoSmithKline UK Ltd)	21596021
+59626	prodcode	Duo-autohaler Inhalation powder (3M Health Care Ltd)	49119020
+59638	prodcode	Spiriva 18microgram inhalation powder capsules with HandiHaler (Sigma Pharmaceuticals Plc)	21584020
+59819	prodcode	Montelukast 10mg tablets (Actavis UK Ltd)	14491021
+59899	prodcode	Fluticasone furoate 184micrograms/dose / Vilanterol 22micrograms/dose dry powder inhaler	21595021
+59968	prodcode	Montelukast 5mg chewable tablets sugar free (Teva UK Ltd)	14496021
+60064	prodcode	Dexamethasone 10mg/5ml oral solution sugar free	23637021
+60331	prodcode	Montelukast 10mg tablets (Ranbaxy (UK) Ltd)	17413021
+60601	prodcode	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Alliance Healthcare (Distribution) Ltd)	2667020
+60920	prodcode	Atrovent 20micrograms/dose inhaler CFC free (Sigma Pharmaceuticals Plc)	10891020
+60923	prodcode	Salamol 100micrograms/dose Easi-Breathe inhaler (DE Pharmaceuticals)	2661020
+60937	prodcode	Pulmicort 200 Turbohaler (Dowelhurst Ltd)	2859020
+61176	prodcode	Anoro Ellipta 55micrograms/dose / 22micrograms/dose dry powder inhaler (GlaxoSmithKline UK Ltd)	26986021
+61280	prodcode	Seretide 250 Accuhaler (Waymade Healthcare Plc)	2753020
+61330	prodcode	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials (Alliance Healthcare (Distribution) Ltd)	2677020
+61346	prodcode	Aminophylline 360mg suppositories (Special Order)	35379020
+61490	prodcode	Umeclidinium bromide 65micrograms/dose / Vilanterol 22micrograms/dose dry powder inhaler	26985021
+61582	prodcode	Spiriva Respimat 2.5micrograms/dose solution for inhalation cartridge with device (Waymade Healthcare Plc)	26397021
+61591	prodcode	Salbutamol 100micrograms/dose inhaler CFC free (Phoenix Healthcare Distribution Ltd)	2652020
+61644	prodcode	Fostair NEXThaler 100micrograms/dose / 6micrograms/dose dry powder inhaler (Chiesi Ltd)	29630021
+61664	prodcode	Clenil Modulite 250micrograms/dose inhaler (Waymade Healthcare Plc)	26859021
+61666	prodcode	DuoResp Spiromax 320micrograms/dose / 9micrograms/dose dry powder inhaler (Teva UK Ltd)	27378021
+61782	prodcode	DuoResp Spiromax 160micrograms/dose / 4.5micrograms/dose dry powder inhaler (Teva UK Ltd)	27233021
+61879	prodcode	Incruse Ellipta 55micrograms/dose dry powder inhaler (GlaxoSmithKline UK Ltd)	40574021
+61975	prodcode	Budesonide 500micrograms/2ml nebuliser liquid unit dose vials (Almus Pharmaceuticals Ltd)	13413020
+62030	prodcode	Beclometasone 100micrograms/dose / Formoterol 6micrograms/dose dry powder inhaler	29629021
+62109	prodcode	Umeclidinium bromide 65micrograms/dose dry powder inhaler	40573021
+62126	prodcode	Seretide 100 Accuhaler (DE Pharmaceuticals)	2747020
+62341	prodcode	Becotide 50 inhaler (Dowelhurst Ltd)	2839020
+62410	prodcode	Montelukast 10mg tablets (Alliance Healthcare (Distribution) Ltd)	14494021
+62490	prodcode	Montelukast 10mg tablets (A A H Pharmaceuticals Ltd)	14493021
+62518	prodcode	Beclometasone 100micrograms/dose inhaler CFC free (Ennogen Healthcare Ltd)	27040021
+62535	prodcode	Duaklir 340micrograms/dose / 12micrograms/dose Genuair (AstraZeneca UK Ltd)	44185021
+62662	prodcode	Olodaterol 2.5micrograms/dose solution for inhalation cartridge with device CFC free	27144021
+62667	prodcode	Ultibro Breezhaler 85microgram/43microgram inhalation powder capsules with device (Novartis Pharmaceuticals UK Ltd)	43076021
+62739	prodcode	Indacaterol 85micrograms/dose / Glycopyrronium bromide 54micrograms/dose inhalation powder capsules with device	43075021
+62838	prodcode	Aclidinium bromide 396micrograms/dose / Formoterol 11.8micrograms/dose dry powder inhaler	44184021
+63252	prodcode	Seretide 250 Evohaler (Lexon (UK) Ltd)	2741020
+63457	prodcode	Montelukast 5mg chewable tablets sugar free (Accord Healthcare Ltd)	20182021
+63549	prodcode	Prednisolone 1mg/ml oral solution (Logixx Pharma Solutions Ltd)	48498021
+63585	prodcode	Beclometasone 50micrograms/dose inhaler (Almus Pharmaceuticals Ltd)	75217020
+63791	prodcode	Prednisolone 5mg/5ml oral solution unit dose	49059021
+63945	prodcode	Seretide 250 Accuhaler (Lexon (UK) Ltd)	2757020
+63992	prodcode	Eklira 322micrograms/dose Genuair (Waymade Healthcare Plc)	44771021
+64050	prodcode	Martapan 2mg/5ml oral solution (Martindale Pharmaceuticals Ltd)	766021
+64232	prodcode	Tiotropium bromide 2.5micrograms/dose solution for inhalation cartridge with device CFC free (AM Distributions (Yorkshire) Ltd)	44715021
+64372	prodcode	Sirdupla 25micrograms/dose / 125micrograms/dose inhaler (Mylan)	52203021
+64373	prodcode	Sirdupla 25micrograms/dose / 250micrograms/dose inhaler (Mylan)	52204021
+64444	prodcode	Singulair 10mg tablets (DE Pharmaceuticals)	3058020
+64509	prodcode	Tiotropium bromide 2.5micrograms/dose / Olodaterol 2.5micrograms/dose solution for inhalation cartridge with device CFC free	53187021
+64523	prodcode	Spiolto Respimat 2.5micrograms/dose / 2.5micrograms/dose solution for inhalation cartridge with device (Boehringer Ingelheim Ltd)	53188021
+64638	prodcode	Flutiform 125micrograms/dose / 5micrograms/dose inhaler (Waymade Healthcare Plc)	52509021
+64648	prodcode	Montelukast 10mg tablets (Milpharm Ltd)	21758021
+64747	prodcode	Dexamethasone 2mg/5ml oral solution	29797020
+64766	prodcode	Dexamethasone 20mg/5ml oral solution sugar free	46623021
+64801	prodcode	Salbutamol 100micrograms/dose inhaler CFC free (Mylan)	2646020
+65038	prodcode	Montelukast 10mg tablets (Accord Healthcare Ltd)	20181021
+65117	prodcode	Seretide 125 Evohaler (Mawdsley-Brooks & Company Ltd)	2735020
+65376	prodcode	Salbutamol 2mg/5ml oral solution sugar free (Pinewood Healthcare)	2637020
+65431	prodcode	Striverdi Respimat 2.5micrograms/dose solution for inhalation cartridge with device (Boehringer Ingelheim Ltd)	27145021
+65448	prodcode	Budesonide 1mg/2ml nebuliser liquid unit dose vials (A A H Pharmaceuticals Ltd)	72752020
+65596	prodcode	Fostair 200micrograms/dose / 6micrograms/dose inhaler (Chiesi Ltd)	60894021
+65658	prodcode	Fostair NEXThaler 200micrograms/dose / 6micrograms/dose dry powder inhaler (Chiesi Ltd)	60896021
+65677	prodcode	AirFluSal Forspiro 50micrograms/dose / 500micrograms/dose dry powder inhaler (Sandoz Ltd)	60257021
+65758	prodcode	Beclometasone 200micrograms/dose / Formoterol 6micrograms/dose inhaler CFC free	60893021
+65894	prodcode	Beclometasone 200micrograms/dose / Formoterol 6micrograms/dose dry powder inhaler	60895021
+66015	prodcode	Prednisolone Dompe 5mg/5ml oral solution unit dose (Logixx Pharma Solutions Ltd)	61162021
+66395	prodcode	Salbutamol 100micrograms/dose inhaler CFC free (Mawdsley-Brooks & Company Ltd)	57278021
+66410	prodcode	Montelukast 4mg granules sachets sugar free (Teva UK Ltd)	14601021
+66448	prodcode	Flutiform 250micrograms/dose / 10micrograms/dose inhaler (Waymade Healthcare Plc)	52510021
+66453	prodcode	Sirdupla 25micrograms/dose / 250micrograms/dose inhaler (Waymade Healthcare Plc)	53988021
+66547	prodcode	Oxis 12 Turbohaler (DE Pharmaceuticals)	2723020
+66645	prodcode	Prednisolone 5mg/5ml oral solution unit dose (Logixx Pharma Solutions Ltd)	49060021
+66724	prodcode	Dexamethasone 10mg capsules	26700021
+66793	prodcode	Salbutamol rondo 100micrograms/actuation inhaler and spacer	69338020
+66922	prodcode	Ephedrine hydrochloride 15mg tablets (Wockhardt UK Ltd)	49612020
+66924	prodcode	Salbutamol 100micrograms/dose inhaler CFC free (DE Pharmaceuticals)	53356021
+66972	prodcode	Salbutamol 100micrograms/dose inhaler CFC free (AM Distributions (Yorkshire) Ltd)	15632021
+67040	prodcode	Salbutamol 100micrograms/dose inhaler CFC free (Alliance Healthcare (Distribution) Ltd)	2647020
+67055	prodcode	Fluticasone 250micrograms/dose / Salmeterol 25micrograms/dose inhaler CFC free (A A H Pharmaceuticals Ltd)	60669021
+67101	prodcode	Fluticasone propionate 500micrograms/dose / Salmeterol 50micrograms/dose dry powder inhaler (A A H Pharmaceuticals Ltd)	60670021
+67234	prodcode	Becotide 100 inhaler (Waymade Healthcare Plc)	2845020
+67237	prodcode	Flixotide 125micrograms/dose Evohaler (Lexon (UK) Ltd)	2934020
+67238	prodcode	Foradil 12microgram inhalation powder capsules with device (Sigma Pharmaceuticals Plc)	32398020
+67239	prodcode	Pulmicort 400 Turbohaler (Waymade Healthcare Plc)	2867020
+67253	prodcode	Flixotide 50micrograms/dose Accuhaler (Mawdsley-Brooks & Company Ltd)	2896020
+67261	prodcode	Pulmicort 1mg Respules (Sigma Pharmaceuticals Plc)	13422020
+67265	prodcode	Becodisks 200microgram (Lexon (UK) Ltd)	2826020
+67315	prodcode	Budesonide 400micrograms/dose Turbohaler (Waymade Healthcare Plc)	2866020
+67319	prodcode	Flixotide 0.5mg/2ml Nebules (Waymade Healthcare Plc)	2919020
+67322	prodcode	Pulmicort 100 Turbohaler (Waymade Healthcare Plc)	2850020
+67326	prodcode	Bricanyl 500micrograms/dose Turbohaler (DE Pharmaceuticals)	2685020
+67531	prodcode	Glycopyrronium bromide 55microgram inhalation powder capsules with device (J M McGill Ltd)	62058021
+67543	prodcode	Bricanyl 500micrograms/dose Turbohaler (Waymade Healthcare Plc)	2682020
+67559	prodcode	Prednisolone 5mg/5ml oral solution unit dose (A A H Pharmaceuticals Ltd)	52010021
+67561	prodcode	Montelukast 4mg chewable tablets sugar free (Accord Healthcare Ltd)	20124021
+67600	prodcode	Ephedrine hydrochloride 30mg tablets (Wockhardt UK Ltd)	49614020
+67677	prodcode	Symbicort 200micrograms/dose / 6micrograms/dose pressurised inhaler (AstraZeneca UK Ltd)	69957021
+67735	prodcode	Beclazone easi-breathe (roi) 250microgram/actuation Pressurised inhalation (Ivax Pharmaceuticals Ireland)	99657020
+67800	prodcode	Serevent 25micrograms/dose Evohaler (Lexon (UK) Ltd)	21886020
+67823	prodcode	Salmeterol 50microgram Diskhaler (Dowelhurst Ltd)	2700020
+67958	prodcode	Budesonide 200micrograms/dose / Formoterol 6micrograms/dose inhaler CFC free	69956021
+68030	prodcode	Ipratropium bromide 250microgram/ml Nebuliser liquid (Approved Prescription Services Ltd)	70195020
+68034	prodcode	Symbicort 200/6 Turbohaler (Necessity Supplies Ltd)	49020
+68175	prodcode	Flutiform 50micrograms/dose / 5micrograms/dose inhaler (Waymade Healthcare Plc)	52511021
+68212	prodcode	Montelukast 4mg chewable tablets sugar free (Alliance Healthcare (Distribution) Ltd)	14451021
+68260	prodcode	Serevent 50micrograms/dose Accuhaler (Mawdsley-Brooks & Company Ltd)	2707020
+68285	prodcode	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials (Actavis UK Ltd)	2665020
+68366	prodcode	Montelukast 5mg chewable tablets sugar free (Actavis UK Ltd)	14495021
+68453	prodcode	Seretide 125 Evohaler (Waymade Healthcare Plc)	2731020
+68483	prodcode	Soltel 25micrograms/dose inhaler CFC free (Kent Pharmaceuticals Ltd)	70822021
+68495	prodcode	Seretide 500 Accuhaler (Necessity Supplies Ltd)	2765020
+68498	prodcode	Montelukast 10mg tablets (Dr Reddy's Laboratories (UK) Ltd)	15637021
+68530	prodcode	Tiotropium bromide 10microgram inhalation powder capsules with device	71062021
+68593	prodcode	Dexamethasone 5mg/5ml oral suspension	19691020
+68729	prodcode	Braltus 10microgram inhalation powder capsules with Zonda inhaler (Teva UK Ltd)	71063021
+68844	prodcode	Salipraneb 0.5mg/2.5mg nebuliser solution 2.5ml ampoules (Actavis UK Ltd)	69717021
+68983	prodcode	Aerivio Spiromax 50micrograms/dose / 500micrograms/dose dry powder inhaler (Teva UK Ltd)	71438021
+69238	prodcode	Ventolin 200micrograms/dose Accuhaler (Waymade Healthcare Plc)	2656020
+69436	prodcode	Sereflo 25micrograms/dose / 125micrograms/dose inhaler (Kent Pharmaceuticals Ltd)	73865021
+69538	prodcode	Sereflo 25micrograms/dose / 250micrograms/dose inhaler (Kent Pharmaceuticals Ltd)	73866021
+69556	prodcode	Aclidinium bromide 396micrograms/dose / Formoterol 11.8micrograms/dose dry powder inhaler (Colorama Pharmaceuticals Ltd)	68799021
+69572	prodcode	Dexamethasone 4mg/5ml oral suspension	29807020
+69827	prodcode	AirFluSal 25micrograms/dose / 250micrograms/dose inhaler (Sandoz Ltd)	75112021
+

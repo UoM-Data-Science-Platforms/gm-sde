@@ -1,0 +1,14 @@
+medcode	readcode	Description	CodingSystem
+684	F20..00	Multiple sclerosis	readcode
+2298	F203.00	Exacerbation of multiple sclerosis	readcode
+20493	F20z.00	Multiple sclerosis NOS	readcode
+23730	F202.00	Generalised multiple sclerosis	readcode
+40344	F200.00	Multiple sclerosis of the brain stem	readcode
+43232	666B.00	Multiple sclerosis multidisciplinary review	readcode
+44985	666A.00	Multiple sclerosis review	readcode
+50161	8CS1.00	Multiple sclerosis care plan agreed	readcode
+69886	F201.00	Multiple sclerosis of the spinal cord	readcode
+95972	F207.00	Relapsing and remitting multiple sclerosis	readcode
+96246	F208.00	Secondary progressive multiple sclerosis	readcode
+96291	F204.00	Benign multiple sclerosis	readcode
+96607	F206.00	Primary progressive multiple sclerosis	readcode

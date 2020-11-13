@@ -1,0 +1,283 @@
+medcode	readcode	Description	CodingSystem
+669	E250000	"Nondependent alcohol abuse, unspecified"	readcode
+689	E240.11	Heroin dependence	readcode
+1588	E25z.00	Misuse of drugs NOS	readcode
+3519	E24..11	Drug addiction	readcode
+3635	E252.00	Nondependent cannabis abuse	readcode
+4564	Eu11212	[X]Heroin addiction	readcode
+5105	E24..00	Drug dependence	readcode
+5203	E246.00	Glue sniffing dependence	readcode
+5610	E253.00	Nondependent hallucinogen abuse	readcode
+6111	8B23.11	Drug addictn therap-methadone	readcode
+7496	8B23.00	Drug addiction therapy	readcode
+7747	E25..00	Nondependent abuse of drugs	readcode
+8284	E243.00	Cannabis type drug dependence	readcode
+8490	13c..00	Drug user	readcode
+9024	8B23.13	Drug dependence therapy	readcode
+9615	Eu19211	[X]Drug addiction NOS	readcode
+10045	Eu15211	[X]Drug addiction-other stimul	readcode
+10538	Eu11211	[X]Drug addiction - opioids	readcode
+10655	Eu12.00	[X]Mental and behavioural disorders due to use cannabinoids	readcode
+10656	Eu19.00	[X]Men & behav disorder multiple drug use/psychoactive subst	readcode
+10859	SL85000	Cocaine poisoning	readcode
+10860	E256.00	Nondependent cocaine abuse	readcode
+11746	Eu14211	[X]Drug addiction - cocaine	readcode
+11840	E242.00	Cocaine type drug dependence	readcode
+12353	Eu10500	[X]Mental & behav dis due to use alcohol: psychotic disorder	readcode
+14809	E249.00	"Combined drug dependence, excluding opioids"	readcode
+16071	E253.12	LSD reaction	readcode
+16161	E25y.00	Nondependent other drug abuse	readcode
+16243	E240.00	Opioid type drug dependence	readcode
+16374	E240.12	Methadone dependence	readcode
+20458	SL50100	Heroin poisoning	readcode
+20962	E240200	Episodic opioid dependence	readcode
+21087	E24A.00	Ecstasy type drug dependence	readcode
+21623	9G2..11	Drug addict notific admin	readcode
+21662	Eu12211	[X]Drug addiction - cannabis	readcode
+21683	E245.11	LSD dependence	readcode
+22079	13c0.00	Injecting drug user	readcode
+22186	E244.00	Amphetamine or other psychostimulant dependence	readcode
+22481	E257.00	Nondependent amphetamine or other psychostimulant abuse	readcode
+22530	9HC0.00	Initial substance misuse assessment	readcode
+24441	E240z00	Opioid drug dependence NOS	readcode
+24616	E243000	"Cannabis dependence, unspecified"	readcode
+24637	Eu19500	[X]Ment/behav dis mlti drug use/oth psyc sbs: psychotc dis	readcode
+24849	9G21.00	Drug addict notific to CMO	readcode
+24998	E247100	"Other specified drug dependence, continuous"	readcode
+25229	E257200	"Nondependent amphetamine or psychostimulant abuse, episodic"	readcode
+25448	E252200	"Nondependent cannabis abuse, episodic"	readcode
+25526	E252z00	Nondependent cannabis abuse NOS	readcode
+25527	Eu11311	"[X]Cold turkey, opiate withdrawal"	readcode
+25646	E244z00	Amphetamine or psychostimulant dependence NOS	readcode
+25670	E244.12	Stimulant dependence	readcode
+25748	E242100	"Cocaine dependence, continuous"	readcode
+25808	E242000	"Cocaine dependence, unspecified"	readcode
+25925	13cE.00	Prolonged high dose use of cannabis	readcode
+26061	E248.00	Combined opioid with other drug dependence	readcode
+26831	E255.00	Nondependent opioid abuse	readcode
+27652	Eu11700	[X]Men & beh dis due opioids: resid & late-onset psychot dis	readcode
+28642	13c5.00	Substance misuse increased	readcode
+28710	U205.11	[X]Overdose - heroin	readcode
+28766	13cH.00	Persistent substance misuse	readcode
+28976	8B2N.00	Drug addiction detoxification therapy - methadone	readcode
+29446	E24z.00	Drug dependence NOS	readcode
+29728	9G2..00	Drug addiction notification	readcode
+30034	Eu1..00	[X]Mental and behavioural disorders due to psychoactive subs	readcode
+30251	13c1.00	Intravenous drug user	readcode
+30565	146C.00	Failed heroin detoxification	readcode
+30679	8BAX.00	Drug dependence home detoxification	readcode
+30694	8B2P.00	Drug addiction maintenance therapy - methadone	readcode
+30750	7P22000	Delivery of rehabilitation for drug addiction	readcode
+31736	Eu18.00	[X]Mental & behav disorders due to use of volatile solvents	readcode
+31754	SL97000	Amfetamine poisoning	readcode
+32052	Eu14.00	[X]Mental and behavioural disorders due to use of cocaine	readcode
+32640	Eu1A.00	[X]Mental and behavioural disorders due use of crack cocaine	readcode
+32653	8BAW.00	Drug dependence self detoxification	readcode
+32751	E257.11	Psychostimulant abuse	readcode
+32760	SL50.12	Opiate poisoning	readcode
+32804	E240.14	Opium dependence	readcode
+32887	E245.00	Hallucinogen dependence	readcode
+32931	E256000	"Nondependent cocaine abuse, unspecified"	readcode
+33462	E243z00	Cannabis drug dependence NOS	readcode
+33585	Eu18211	[X]Drug addiction - solvent	readcode
+33774	E246200	"Glue sniffing dependence, episodic"	readcode
+33838	E259z00	Nondependent mixed drug abuse NOS	readcode
+33876	TJ96000	Adverse reaction to cannabis	readcode
+33942	E242z00	Cocaine drug dependence NOS	readcode
+34249	Eu11200	[X]Mental and behav dis due to use opioids: dependence syndr	readcode
+34398	9k5..00	Drug misuse - enhanced services administration	readcode
+35196	Eu16711	[X]Post hallucinogen perception disorder	readcode
+35286	13c6.00	Substance misuse decreased	readcode
+35404	13c8.00	Reduced drugs misuse	readcode
+36231	SL96000	Cannabis poisoning	readcode
+36241	Eu11300	[X]Mental and behav dis due to use opioids: withdrawal state	readcode
+37056	SL50500	Morphine poisoning	readcode
+37316	E243.13	Marihuana dependence	readcode
+37389	Eu12000	[X]Mental & behav dis due cannabinoids: acute intoxication	readcode
+37472	E244000	"Amphetamine or psychostimulant dependence, unspecified"	readcode
+37544	SL97200	Ecstasy poisoning	readcode
+37568	Eu11100	[X]Mental and behav dis due to use of opioids: harmful use	readcode
+38029	13cB.00	Misuses drugs orally	readcode
+38034	E240000	Unspecified opioid dependence	readcode
+38072	E246000	"Glue sniffing dependence, unspecified"	readcode
+38360	E244100	"Amphetamine or psychostimulant dependence, continuous"	readcode
+38429	Eu12500	[X]Mental & behav dis due to cannabinoids: psychotic disordr	readcode
+39058	E257000	"Nondependent amphetamine/psychostimulant abuse, unspecified"	readcode
+39836	E242200	"Cocaine dependence, episodic"	readcode
+39983	E252100	"Nondependent cannabis abuse, continuous"	readcode
+40536	E255000	"Nondependent opioid abuse, unspecified"	readcode
+40720	E243.11	Hashish dependence	readcode
+40781	E247z00	Other specified drug dependence NOS	readcode
+40852	TJ85000	Adverse reaction to cocaine	readcode
+41473	L183.00	"Drug dependence in pregnancy, childbirth and the puerperium"	readcode
+41476	E244.11	Psychostimulant dependence	readcode
+42140	E252000	"Nondependent cannabis abuse, unspecified"	readcode
+42257	13c4.00	Intranasal drug user	readcode
+42456	Eu11000	[X]Mental & behav dis due to use opioids: acute intoxication	readcode
+42923	E243100	"Cannabis dependence, continuous"	readcode
+43075	E240100	Continuous opioid dependence	readcode
+43176	E257300	Nondependent amphetamine/psychostimulant abuse in remission	readcode
+43487	8B2Q.00	Drug addiction maintenance therapy - buprenorphine	readcode
+43901	E256200	"Nondependent cocaine abuse, episodic"	readcode
+44966	13cD.00	Episodic use of drugs	readcode
+44991	E243300	Cannabis dependence in remission	readcode
+45208	Eu19200	[X]Mental and behav dis mlti/oth psych sbs: dependence syndr	readcode
+45550	9HC2.00	Substance misuse clinical management plan agreed	readcode
+46732	E257.12	Stimulant abuse	readcode
+46896	E256100	"Nondependent cocaine abuse, continuous"	readcode
+47335	Eu11.00	[X]Mental and behavioural disorders due to use of opioids	readcode
+47739	Eu14100	[X]Mental and behav dis due to use of cocaine: harmful use	readcode
+47784	Eu16211	[X]Drug addiction - hallucinogen	readcode
+47836	E257z00	Nondependent amphetamine or psychostimulant abuse NOS	readcode
+48131	E253z00	Nondependent hallucinogen abuse NOS	readcode
+49068	Eu18z00	[X]Ment/behav dis due use vol solvents: unsp ment/behav dis	readcode
+49565	Eu14500	[X]Mental & behav dis due to use cocaine: psychotic disorder	readcode
+49566	Eu14000	[X]Mental & behav dis due to use cocaine: acute intoxication	readcode
+49585	E244200	"Amphetamine or psychostimulant dependence, episodic"	readcode
+49618	13c7.00	Current drug user	readcode
+50136	Eu18000	[X]Mental & behav dis due vol solvents: acute intoxication	readcode
+50265	Eu16.00	[X]Mental and behavioural disorders due to use hallucinogens	readcode
+50302	Eu14200	[X]Mental and behav dis due to use cocaine: dependence syndr	readcode
+50343	Eu12100	[X]Mental and behav dis due to use cannabinoids: harmful use	readcode
+50778	E241200	"Hypnotic or anxiolytic dependence, episodic"	readcode
+50964	Eu11500	[X]Mental & behav dis due to use opioids: psychotic disorder	readcode
+51052	8B2R.00	Drug addiction detoxification therapy - buprenorphine	readcode
+51197	E247.00	Other specified drug dependence	readcode
+51290	Eu19300	[X]Mental and behav dis mlti/oth psychoa sbs: withdrwl state	readcode
+51334	U1A5.11	[X]Accidental poisoning with heroin	readcode
+52739	Eu11y00	[X]Men & behav dis due to use opioids: oth men & behav dis	readcode
+52794	E243200	"Cannabis dependence, episodic"	readcode
+52815	Eu18200	[X]Mental and behav dis due to vol solvents: dependence synd	readcode
+52841	E257100	"Nondependent amphetamine/psychostimulant abuse, continuous"	readcode
+52953	E259200	"Nondependent mixed drug abuse, episodic"	readcode
+53008	E259.00	Nondependent mixed drug abuse	readcode
+53678	E249100	"Combined drug dependence, excluding opioid, continuous"	readcode
+54560	T800.00	Accidental poisoning by heroin	readcode
+54800	E25y100	"Nondependent other drug abuse, continuous"	readcode
+54983	Eu16500	[X]Mental & behav dis due to hallucinogens: psychotic disord	readcode
+55611	U60A100	[X]Opioid recept antag causing adverse effect in therap use	readcode
+56179	Eu16300	[X]Mental and behav dis due hallucinogens: withdrawal state	readcode
+56194	E248000	"Combined opioid with other drug dependence, unspecified"	readcode
+56337	E259000	"Nondependent mixed drug abuse, unspecified"	readcode
+56504	Eu12200	[X]Mental and behav dis due to cannabinoids: dependence synd	readcode
+56650	Eu15z00	[X]Ment/beh dis oth stims inc caffeine: unsp ment/behav disd	readcode
+56948	Eu19700	[X]Men/beh dis mlt drg use/oth subs: resid/late psychot dis	readcode
+57574	Eu12700	[X]Mnt/bh dis due cannabinds: resid & late-onset psychot dis	readcode
+58731	E255100	"Nondependent opioid abuse, continuous"	readcode
+58743	9G2Z.00	Drug addiction notif NOS	readcode
+58934	E256300	Nondependent cocaine abuse in remission	readcode
+59009	Eu18100	[X]Mental and behav dis due volatile solvents: harmful use	readcode
+59184	E246z00	Glue sniffing dependence NOS	readcode
+59676	E247000	"Other specified drug dependence, unspecified"	readcode
+60048	E253.11	'Bad trips'	readcode
+60355	Z1Q6200	Methadone maintenance	readcode
+60372	9G23.00	Drug addict re-notif to CMO	readcode
+60420	Eu1A000	[X]Ment behav dis due use crack cocaine: acute intoxication	readcode
+60676	Eu19000	[X]Mental/behav dis multi drg use/psychoac subs: acute intox	readcode
+60985	8I2N.00	Drug dependence home detoxification contraindicated	readcode
+61673	SL50.00	Opiate and narcotic poisoning	readcode
+62106	Eu18400	[X]Men & beh dis vol solvents: withdrawal state wth delirium	readcode
+62490	9k50.00	Drug misuse - enhanced service completed	readcode
+62717	E249200	"Combined drug dependence, excluding opioid, episodic"	readcode
+62887	E259100	"Nondependent mixed drug abuse, continuous"	readcode
+62959	Eu19100	[X]Mental and behav dis mlti drg/oth psychoa sbs: harmfl use	readcode
+63076	E25y000	"Nondependent other drug abuse, unspecified"	readcode
+63379	L183100	Drug dependence during pregnancy - baby delivered	readcode
+64265	E248100	"Combined opioid with other drug dependence, continuous"	readcode
+64277	E248200	"Combined opioid with other drug dependence, episodic"	readcode
+64308	Eu12y00	[X]Men/behav dis due to use cannabinoids: oth men/behav disd	readcode
+64316	E25yz00	Nondependent other drug abuse NOS	readcode
+64338	E256z00	Nondependent cocaine abuse NOS	readcode
+64382	E255200	"Nondependent opioid abuse, episodic"	readcode
+64500	L183.11	Pregnancy and drug dependence	readcode
+64983	E25y200	"Nondependent other drug abuse, episodic"	readcode
+64987	Eu12z00	[X]Ment/behav dis due use cannabinoids: unsp ment/behav disd	readcode
+65681	Eu12300	[X]Mental and behav dis due cannabinoids: withdrawal state	readcode
+65826	Eu16200	[X]Mental and behav dis due to hallucinogens: dependence syn	readcode
+65927	9G24.00	Drug addict-notify local SMR22	readcode
+65950	Eu19400	[X]Mnt/bh dis mlti drg use/oth psy sbs: wthdr state + dlrium	readcode
+66187	Eu16000	[X]Mental & behav dis due hallucinogens: acute intoxicatn	readcode
+67098	L183300	Drug dependence during pregnancy - baby not yet delivered	readcode
+67462	E253300	Nondependent hallucinogen abuse in remission	readcode
+67491	Eu16100	[X]Mental and behav dis due to use hallucinogens: harmfl use	readcode
+67535	Eu14300	[X]Mental and behav dis due to use cocaine: withdrawal state	readcode
+68150	E245z00	Hallucinogen dependence NOS	readcode
+69508	E255z00	Nondependent opioid abuse NOS	readcode
+69963	9G22.00	Drug addict re-notific due	readcode
+70961	Eu19z00	[X]Ment/beh dis multi drug use/oth psy sbs unsp mnt/beh dis	readcode
+71060	E253000	"Nondependent hallucinogen abuse, unspecified"	readcode
+71086	E245100	"Hallucinogen dependence, continuous"	readcode
+72342	E249z00	"Combined drug dependence, excluding opioid, NOS"	readcode
+72371	E245.12	Lysergic acid diethylamide dependence	readcode
+72564	E247200	"Other specified drug dependence, episodic"	readcode
+72663	9HC3.00	Substance misuse clinical management plan reviewed	readcode
+73448	E245200	"Hallucinogen dependence, episodic"	readcode
+73737	E248z00	Combined opioid with other drug dependence NOS	readcode
+85953	1TF..00	Does not use heroin on top of substitution therapy	readcode
+86034	Eu1A100	[X]Mental behav disorders due use crack cocaine: harmful use	readcode
+86041	1TE..00	Uses heroin on top of substitution therapy	readcode
+90198	8BE0.00	Reinduction to methadone maintenance therapy	readcode
+91260	E249000	"Combined drug dependence, excluding opioid, unspecified"	readcode
+91577	Eu1Az00	[X]Ment behav dis due crack cocaine: unsp ment and behav dis	readcode
+91801	Eu11z00	[X]Ment & behav dis due use opioids: unsp ment & behav dis	readcode
+91939	9HC4.00	Substance misuse treatment withdrawn	readcode
+92291	Eu16z00	[X]Ment/behav dis due use hallucinogens: unsp ment/behav dis	readcode
+92353	E245000	"Hallucinogen dependence, unspecified"	readcode
+93009	Eu19y00	[X]Men/beh dis mlt drg use/oth psy sbs: oth men & behav dis	readcode
+93412	13cM.00	Substance misuse	readcode
+93850	8HkF.00	Referral to substance misuse service	readcode
+93979	8B2T.00	Opioid antagonist therapy	readcode
+93980	8B2S.00	Opioid agonist substitution therapy	readcode
+95460	Z1Q6214	Heroin maintenance	readcode
+95953	E255300	Nondependent opioid abuse in remission	readcode
+95955	E253100	"Nondependent hallucinogen abuse, continuous"	readcode
+95956	E253200	"Nondependent hallucinogen abuse, episodic"	readcode
+96004	L183z00	Drug dependence during pregnancy/childbirth/puerperium NOS	readcode
+96009	9HC6.00	Substance misuse treatment declined	readcode
+96049	677T.00	Substance misuse structured counselling	readcode
+96925	1V65.00	Heroin misuse	readcode
+97000	1V3..00	Drug injection behaviour	readcode
+97028	1V64.00	Illicit drug use	readcode
+97031	1V66.00	Ecstasy misuse	readcode
+97071	1V63.00	Possession of drugs	readcode
+97245	1V6..00	Drug-related offending behaviour	readcode
+97375	E246100	"Glue sniffing dependence, continuous"	readcode
+97488	Eu11400	[X]Men & behav dis due opioid: withdrawl state with delirium	readcode
+97561	Eu12600	[X]Mental and behav dis due to use cannabinoids: amnesic syn	readcode
+97578	1V0..00	Misuses drugs	readcode
+97648	1V00.00	Occasional drug user	readcode
+97676	9k52.00	Drug misuse treatment primary care - enhanced services admin	readcode
+97698	1V02.00	Poly-drug misuser	readcode
+98169	1V62.00	Buying drugs	readcode
+98221	9No5.00	Seen in substance misuse clinic	readcode
+98362	9kS..00	Drug misuse assessment declined - enhanced services administ	readcode
+98528	1V01.00	Long-term drug misuser	readcode
+98566	9k53.00	Pharmacy attended for drug misuse - enhanced services admin	readcode
+98618	Eu18500	[X]Mental & behav dis due to vol solvents: psychotic disordr	readcode
+98763	9K4..00	SMR25a drug misuse initial assessment form	readcode
+98914	1V0C.00	Drug addict	readcode
+100178	8Hq..00	Admission to substance misuse detoxification centre	readcode
+100632	Z1Q6212	Methadone therapy	readcode
+101697	1V07.00	Notified addict	readcode
+101738	Eu1A300	[X]Mental behav disord due crack cocaine: withdrawal state	readcode
+102176	SL97011	Amphetamine poisoning	readcode
+102440	E244z11	Amfetamine or psychostimulant dependence NOS	readcode
+102475	Eu1A500	[X]Mental behav disord due crack cocaine: psychotic disorder	readcode
+102582	Eu1A200	[X]Mental behav disorders due use crack cocaine: depend synd	readcode
+102591	Eu14700	[X]Men & beh dis due cocaine: resid & late-onset psychot dis	readcode
+103241	9k51.11	Shared care drug misuse treatment	readcode
+103726	1V35.00	Shares drug equipment	readcode
+103844	1V0B.00	Sniffs drugs	readcode
+103991	Eu11600	[X]Mental and behav dis due to use opioids: amnesic syndrome	readcode
+105104	1V0A.00	Chases the dragon	readcode
+105346	Eu16700	[X]Mnt/bh dis due hallucngns: resid & late-onset psychot dis	readcode
+105999	1V08.00	Smokes drugs in cigarette form	readcode
+106290	9NdN.00	Declined consent for notification of drug misuse	readcode
+106802	9s...00	Drug misuse clinic administration	readcode
+106958	Eu19600	[X]Mental/behav dis multi drg use/oth psy sbs: amnesic syndr	readcode
+107355	9N1yJ00	Seen in drug misuse clinic	readcode
+107593	1V09.00	Smokes drugs through a pipe	readcode
+107780	1V32.00	Neck injector	readcode
+109077	E244011	"Amfetamine or psychostimulant dependence, unspecified"	readcode
+109558	1V30.00	Injects drugs subcutaneously	readcode
+109871	U606312	[X] Adverse reaction to cocaine	readcode

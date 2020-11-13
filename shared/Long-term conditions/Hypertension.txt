@@ -1,0 +1,26 @@
+medcode	readcode	Description	CodingSystem
+204	G2...00	Hypertensive disease	readcode
+351	G20..11	High blood pressure	readcode
+799	G20..00	Essential hypertension	readcode
+1894	G201.00	Benign essential hypertension	readcode
+3712	G20z.11	Hypertension NOS	readcode
+4372	G202.00	Systolic hypertension	readcode
+7057	G2z..00	Hypertensive disease NOS	readcode
+7329	G24..00	Secondary hypertension	readcode
+10818	G20z.00	Essential hypertension NOS	readcode
+15377	G200.00	Malignant essential hypertension	readcode
+16059	G24z.00	Secondary hypertension NOS	readcode
+18765	G2y..00	Other specified hypertensive disease	readcode
+25371	G241000	Secondary benign renovascular hypertension	readcode
+31341	G24z100	Hypertension secondary to drug	readcode
+31387	G24z000	Secondary renovascular hypertension NOS	readcode
+31755	G240.00	Secondary malignant hypertension	readcode
+34744	G244.00	Hypertension secondary to endocrine disorders	readcode
+42229	G24zz00	Secondary hypertension NOS	readcode
+51635	G241z00	Secondary benign hypertension NOS	readcode
+57288	G241.00	Secondary benign hypertension	readcode
+59383	G240000	Secondary malignant renovascular hypertension	readcode
+69753	Gyu2.00	[X]Hypertensive diseases	readcode
+73293	G240z00	Secondary malignant hypertension NOS	readcode
+83473	G203.00	Diastolic hypertension	readcode
+102458	Gyu2000	[X]Other secondary hypertension	readcode

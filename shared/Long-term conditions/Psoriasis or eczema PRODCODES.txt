@@ -1,0 +1,598 @@
+prodcode	CodingSystem	productname	gemscriptcode
+73	prodcode	Hydrocortisone 1% cream	59141020
+242	prodcode	Fucidin H cream (LEO Pharma)	67899020
+310	prodcode	Hydrocortisone 0.1% cream	70870020
+311	prodcode	Dermovate 0.05% cream (GlaxoSmithKline UK Ltd)	48913020
+601	prodcode	Dovonex 50micrograms/g cream (LEO Pharma)	63018020
+626	prodcode	Timodine cream (Alliance Pharmaceuticals Ltd)	58316020
+642	prodcode	Fucibet cream (LEO Pharma)	52769020
+734	prodcode	Hydrocortisone 1% ointment	59146020
+874	prodcode	Dovonex 50micrograms/g ointment (LEO Pharma)	63017020
+905	prodcode	Betnovate 0.1% cream (GlaxoSmithKline UK Ltd)	54461020
+929	prodcode	Daktacort 2%/1% cream (Janssen-Cilag Ltd)	48829020
+945	prodcode	Hydrocortisone 0.5% ointment	59145020
+949	prodcode	Eumovate 0.05% ointment (GlaxoSmithKline UK Ltd)	49363020
+982	prodcode	Hydrocortisone 0.5% cream	59140020
+984	prodcode	Betnovate 0.1% scalp application (GlaxoSmithKline UK Ltd)	54458020
+985	prodcode	Betamethasone valerate 0.1% scalp application	71826020
+1005	prodcode	Eumovate 0.05% cream (GlaxoSmithKline UK Ltd)	49362020
+1009	prodcode	Canesten HC cream (Bayer Plc)	54899020
+1016	prodcode	Cocois ointment (RPH Pharmaceuticals AB)	72520020
+1022	prodcode	Betnovate 0.1% ointment (GlaxoSmithKline UK Ltd)	54462020
+1023	prodcode	Dermovate 0.05% ointment (GlaxoSmithKline UK Ltd)	48914020
+1061	prodcode	Hydrocortisone 2.5% cream	59142020
+1107	prodcode	Alphosyl Shampoo (GlaxoSmithKline Consumer Healthcare)	68578020
+1206	prodcode	Betamethasone valerate 0.1% cream	64156020
+1224	prodcode	Elocon 0.1% ointment (Merck Sharp & Dohme Ltd)	57151020
+1228	prodcode	Nerisone 0.1% oily cream (Meadow Laboratories Ltd)	50661020
+1239	prodcode	Alphosyl hc Cream (Stafford-Miller Ltd)	58614020
+1265	prodcode	Clotrimazole 1% with Hydrocortisone 1% cream	61531020
+1325	prodcode	Diprosalic 0.05%/3% ointment (Merck Sharp & Dohme Ltd)	53914020
+1340	prodcode	Propaderm -A Ointment (Glaxo Laboratories Ltd)	51303020
+1341	prodcode	Propaderm 0.025% ointment (GlaxoSmithKline UK Ltd)	51300020
+1362	prodcode	Tarcortin Cream (Stafford-Miller Ltd)	61754020
+1386	prodcode	Synalar 0.025% gel (Reig Jofre UK Ltd)	58364020
+1389	prodcode	Trimovate cream (Ennogen Healthcare Ltd)	52021020
+1429	prodcode	Nystaform HC cream (Typharm Ltd)	50813020
+1430	prodcode	Daktacort ointment (Janssen-Cilag Ltd)	48830020
+1433	prodcode	Betnovate RD 0.025% ointment (GlaxoSmithKline UK Ltd)	54471020
+1472	prodcode	Betnovate RD 0.025% cream (GlaxoSmithKline UK Ltd)	54470020
+1475	prodcode	Betnovate-C ointment (Chemidex Pharma Ltd)	54476020
+1523	prodcode	Fluocinonide 0.05% ointment	61987020
+1533	prodcode	Betnovate-N cream (Chemidex Pharma Ltd)	54479020
+1536	prodcode	Betnovate 0.1% lotion (GlaxoSmithKline UK Ltd)	54465020
+1553	prodcode	Betnovate-N ointment (Chemidex Pharma Ltd)	54480020
+1562	prodcode	Clobetasone 0.05% cream	61446020
+1582	prodcode	Nystaform HC ointment (Typharm Ltd)	50814020
+1583	prodcode	Betnovate-C cream (Chemidex Pharma Ltd)	54475020
+1677	prodcode	Miconazole with hydrocortisone 2% with 1% Cream	64750020
+1682	prodcode	Clobetasol 0.05% cream	61435020
+1717	prodcode	Diprosalic 0.05%/2% scalp application (Merck Sharp & Dohme Ltd)	53915020
+1737	prodcode	Betamethasone valerate 0.1% / Fusidic acid 2% cream	64153020
+1772	prodcode	Synalar Cream (GP Pharma)	58352020
+1785	prodcode	Polytar Emollient (GlaxoSmithKline Consumer Healthcare)	51165020
+1835	prodcode	Cutivate 0.05% cream (GlaxoSmithKline UK Ltd)	75700020
+1838	prodcode	Elocon 0.1% cream (Merck Sharp & Dohme Ltd)	57150020
+1850	prodcode	Mometasone 0.1% ointment	57356020
+1869	prodcode	Diprosone 0.05% ointment (Merck Sharp & Dohme Ltd)	52691020
+1871	prodcode	Zorac 0.05% gel (Allergan Ltd)	85694020
+1872	prodcode	Curatoderm 4micrograms/g ointment (Almirall Ltd)	80499020
+1874	prodcode	Dithrocream 0.1% cream (Dermal Laboratories Ltd)	55322020
+1875	prodcode	Dithrocream 0.25% cream (Dermal Laboratories Ltd)	55323020
+1876	prodcode	Dithrocream 0.5% cream (Dermal Laboratories Ltd)	55326020
+1880	prodcode	Alphaderm 1%/10% cream (Alliance Pharmaceuticals Ltd)	48087020
+1914	prodcode	Betamethasone valerate 0.1% ointment	64158020
+1915	prodcode	Mometasone 0.1% cream	57355020
+1944	prodcode	Fucidin h Gel (LEO Pharma)	52775020
+1989	prodcode	Betamethasone valerate 0.1% / Neomycin 0.5% cream	64176020
+2004	prodcode	Hydrocortisone 1% lotion	63411020
+2075	prodcode	Dioderm 0.1% cream (Dermal Laboratories Ltd)	55319020
+2102	prodcode	Locoid 0.1% cream (LEO Pharma)	50231020
+2103	prodcode	Hydrocortisone butyrate 0.1% cream	63384020
+2116	prodcode	Calmurid HC cream (Galderma (UK) Ltd)	58637020
+2131	prodcode	Salicylic acid 2% ointment	56064020
+2182	prodcode	Dithranol 0.1% cream	62719020
+2184	prodcode	Dithranol 0.25% cream	62720020
+2185	prodcode	Dithranol 0.5% cream	62721020
+2186	prodcode	Dithranol 1% cream	62724020
+2188	prodcode	Dovonex 50micrograms/ml scalp solution (LEO Pharma)	76116020
+2190	prodcode	Hydrocortisone 0.125% Cream	79953020
+2212	prodcode	Dermovate 0.05% scalp application (GlaxoSmithKline UK Ltd)	54501020
+2214	prodcode	Dithrolan Ointment (Dermal Laboratories Ltd)	57721020
+2266	prodcode	Oxytetracycline 3% / Hydrocortisone 1% ointment	65340020
+2301	prodcode	Clioquinol 3% with Hydrocortisone 1% ointment	61414020
+2461	prodcode	Synalar Ointment (GP Pharma)	58353020
+2478	prodcode	Dithrocream HP 1% cream (Dermal Laboratories Ltd)	55329020
+2480	prodcode	Dithranol 2% cream	68034020
+2483	prodcode	Gelcosal Gel (Quinoderm Ltd)	71294020
+2487	prodcode	Dithrocream 2% cream (Dermal Laboratories Ltd)	68037020
+2550	prodcode	Metosyn fapg Cream (GP Pharma)	54808020
+2573	prodcode	Betacap 0.1% scalp application (Dermal Laboratories Ltd)	79133020
+2625	prodcode	Hydrocortisone 1% / Miconazole 2% ointment	63438020
+2638	prodcode	Elocon 0.1% scalp lotion (Merck Sharp & Dohme Ltd)	56753020
+2639	prodcode	Mometasone 0.1% scalp lotion	57208020
+2664	prodcode	Calcipotriol 50micrograms/g cream	49544020
+2696	prodcode	Eurax Hydrocortisone cream (Novartis Consumer Health UK Ltd)	49374020
+2705	prodcode	Clioquinol 3% with Hydrocortisone 1% cream	61413020
+2742	prodcode	Bettamousse 0.1% cutaneous foam (RPH Pharmaceuticals AB)	81564020
+2745	prodcode	Efcortelan 1% Cream (Glaxo Laboratories Ltd)	54508020
+2777	prodcode	Dithranol 0.1% ointment	56080020
+2778	prodcode	Coconut Ointment (J M Loveridge Ltd)	54709020
+2779	prodcode	Calcipotriol 50micrograms/g ointment	49543020
+2831	prodcode	Nerisone 0.1% cream (Meadow Laboratories Ltd)	50660020
+2844	prodcode	Hydrocortisone 2.5% ointment	59147020
+2853	prodcode	Locoid 0.1% Lipocream (LEO Pharma)	53016020
+2854	prodcode	Micanol 1% cream (Reig Jofre UK Ltd)	82979020
+2855	prodcode	Micanol 3% cream (Reig Jofre UK Ltd)	82980020
+2914	prodcode	Locoid 0.1% ointment (LEO Pharma)	50232020
+2958	prodcode	Metosyn Ointment (GP Pharma)	50383020
+2983	prodcode	Clobetasol 0.05% ointment	61436020
+3031	prodcode	Beclometasone 0.025% ointment	64080020
+3082	prodcode	Synalar 1 in 4 Dilution 0.00625% cream (Reig Jofre UK Ltd)	58359020
+3088	prodcode	Betamethasone valerate 0.1% lotion	64162020
+3123	prodcode	Diflucortolone 0.1% oily cream	62505020
+3124	prodcode	Fludroxycortide 0.0125% cream	61946020
+3125	prodcode	Beclometasone 0.025% cream	64079020
+3143	prodcode	Nerisone Forte 0.3% oily cream (Meadow Laboratories Ltd)	52901020
+3166	prodcode	Efcortelan 0.5% cream (Chemidex Pharma Ltd)	49203020
+3192	prodcode	Betamethasone dipropionate 0.05% / Salicylic acid 3% ointment	70848020
+3193	prodcode	Etretinate 10mg Capsule	60983020
+3223	prodcode	Quinoderm with hydrocortisone 1% Cream (Quinoderm Ltd)	58725020
+3278	prodcode	Dithranol 0.5% ointment	56082020
+3312	prodcode	Propaderm 0.025% cream (GlaxoSmithKline UK Ltd)	51299020
+3366	prodcode	Betamethasone valerate 0.025% cream	64157020
+3505	prodcode	Calcipotriol 50micrograms/ml scalp solution	76119020
+3507	prodcode	Modrasone 0.05%w/w Cream (Dominion Pharma)	57594020
+3510	prodcode	Adcortyl 0.10% Ointment (E R Squibb and Sons Ltd)	52917020
+3529	prodcode	Hydrocal 1% Cream (Bioglan Laboratories Ltd)	53394020
+3561	prodcode	Efcortelan 1% cream (Chemidex Pharma Ltd)	49204020
+3567	prodcode	Hydrocortistab 1% Cream (Waymade Healthcare Plc)	54009020
+3575	prodcode	Lotriderm Cream (Dominion Pharma)	68496020
+3589	prodcode	Ultradil plain Ointment (Schering Health Care Ltd)	52906020
+3592	prodcode	Ultradil plain Cream (Schering Health Care Ltd)	52907020
+3662	prodcode	Haelan 0.0125% ointment (Typharm Ltd)	49752020
+3718	prodcode	Anthranol 0.40% Ointment (Stiefel Laboratories (UK) Ltd)	62744020
+3727	prodcode	Diprosone 0.05% cream (Merck Sharp & Dohme Ltd)	52686020
+3761	prodcode	Diprosone 0.05% lotion (Merck Sharp & Dohme Ltd)	52736020
+3849	prodcode	Haelan 0.0125% cream (Typharm Ltd)	49751020
+3859	prodcode	Hydrocortisyl 1%w/w Cream (Hoechst Marion Roussel)	57602020
+3862	prodcode	Adcortyl 0.10% Cream (E R Squibb and Sons Ltd)	52916020
+3980	prodcode	Psorin ointment (Boston Healthcare Ltd)	62758020
+4029	prodcode	Alphodith 3% Ointment (Stafford-Miller Ltd)	67845020
+4106	prodcode	Betamethasone valerate 0.1% / Clioquinol 3% cream	64172020
+4107	prodcode	Cutivate 0.005% ointment (GlaxoSmithKline UK Ltd)	75701020
+4117	prodcode	Fluticasone 0.005% ointment	75669020
+4214	prodcode	Efcortelan 0.5% ointment (Chemidex Pharma Ltd)	49210020
+4251	prodcode	Topilar 0.025%w/w Cream (Bioglan Laboratories Ltd)	57778020
+4281	prodcode	Fluocinonide 0.05% cream	61986020
+4373	prodcode	Cobadex 1% Cream (Actavis UK Ltd)	56285020
+4380	prodcode	Synalar N Ointment (GP Pharma)	58372020
+4403	prodcode	Dithranol 0.4% ointment	69600020
+4405	prodcode	Nerisone 0.1% ointment (Meadow Laboratories Ltd)	50662020
+4428	prodcode	Locoid 0.1% scalp lotion (LEO Pharma)	50233020
+4444	prodcode	Triamcinolone acetonide Cream	67167020
+4486	prodcode	Ultralanum Plain ointment (Meadow Laboratories Ltd)	52082020
+4498	prodcode	Dithranol 0.25% / Salicylic acid 1.6% scalp gel	76290020
+4562	prodcode	Modrasone 0.05%w/w Ointment (Dominion Pharma)	57598020
+4599	prodcode	Hydrocortisone butyrate 0.1% ointment	63385020
+4617	prodcode	Tazarotene 0.05% gel	85691020
+4638	prodcode	Hydrocortisone acetate 1% / Fusidic acid 2% cream	63447020
+4773	prodcode	Fluocinolone acetonide 0.025% gel	69808020
+4799	prodcode	Tacalcitol 4micrograms/g ointment	80501020
+4837	prodcode	Clobetasone 0.05% ointment	61447020
+4840	prodcode	Fusidic acid with betamethasone valerate 2%with1% cream	62185020
+4869	prodcode	Synalar N cream (GP Pharma)	58371020
+4881	prodcode	Hydrocortisone 0.25% / Crotamiton 10% cream	63485020
+4901	prodcode	Nystatin with hydrocortisone and chlorhexidine Cream	65189020
+5033	prodcode	Fluticasone 0.05% cream	75668020
+5050	prodcode	Coconut comp ointment	52682020
+5096	prodcode	Betamethasone dipropionate 0.05% / Salicylic acid 2% scalp application	70849020
+5217	prodcode	Betamethasone dipropionate 0.064% / Clotrimazole 1% cream	68493020
+5244	prodcode	Fusidic acid with hydrocortisone 2%with1% cream	62189020
+5272	prodcode	Haelan 4micrograms/square cm tape 7.5cm (Typharm Ltd)	52515020
+5317	prodcode	Synalar 1 in 10 Dilution 0.0025% cream (Reig Jofre UK Ltd)	58360020
+5321	prodcode	Miconazole with hydrocortisone 2% with 1% Ointment	64751020
+5446	prodcode	Canesten Hydrocortisone cream (Bayer Plc)	83302020
+5533	prodcode	Fluocinolone acetonide 0.025% cream	69811020
+5688	prodcode	Psorin scalp gel (Boston Healthcare Ltd)	62759020
+5817	prodcode	Protopic 0.03% ointment (LEO Pharma)	80656020
+5828	prodcode	Dovobet ointment (LEO Pharma)	77863020
+5838	prodcode	Protopic 0.1% ointment (LEO Pharma)	80658020
+5876	prodcode	Clobetasol 0.05% scalp application	61437020
+5905	prodcode	Lotriderm cream (Merck Sharp & Dohme Ltd)	58910020
+5918	prodcode	Coconut oil comp ointment	76262020
+6048	prodcode	Daktacort Hydrocortisone cream (McNeil Products Ltd)	55068020
+6049	prodcode	Calcitriol 3micrograms/g ointment	86263020
+6096	prodcode	Diflucortolone 0.3% oily cream	62506020
+6140	prodcode	Alphosyl HC cream (GlaxoSmithKline Consumer Healthcare)	86469020
+6176	prodcode	Diflucortolone 0.1% cream	62504020
+6194	prodcode	Modrasone 0.05% cream (Teva UK Ltd)	80689020
+6284	prodcode	Elidel 1% cream (Meda Pharmaceuticals Ltd)	59283020
+6342	prodcode	Aureocort ointment (AMCo)	76429020
+6385	prodcode	Hydrocortisone butyrate 0.1% scalp lotion	69984020
+6499	prodcode	Modrasone 0.05% ointment (Teva UK Ltd)	78031020
+6587	prodcode	Calcipotriol 0.005% / Betamethasone dipropionate 0.05% ointment	77860020
+6633	prodcode	Tacrolimus 0.03% ointment	79329020
+6703	prodcode	Pimecrolimus 1% cream	84839020
+6799	prodcode	Betamethasone 0.1% foam	81566020
+6801	prodcode	Betamethasone valerate 0.025% ointment	64161020
+6883	prodcode	Betamethasone valerate 0.1% / Neomycin 0.5% ointment	64177020
+6909	prodcode	Silkis ointment (Galderma (UK) Ltd)	77875020
+6950	prodcode	Tacrolimus 0.1% ointment	86910020
+7015	prodcode	Hydrocortisone with nystatin dimeticone and benzalkonium chloride Cream	67902020
+7176	prodcode	Acitretin 25mg capsules	50433020
+7177	prodcode	Acitretin 10mg capsules	50432020
+7187	prodcode	Triamcinolone acetonide 0.1% / Chlortetracycline 3.09% ointment	67181020
+7229	prodcode	Dithranol 1% paste	56077020
+7324	prodcode	Betamethasone dipropionate 0.05% scalp lotion	71922020
+7370	prodcode	Fludroxycortide 4micrograms/square cm tape 7.5cm	72233020
+7607	prodcode	Haelan -c Cream (Dista Products Ltd)	49756020
+7705	prodcode	DITHRANOL /WHITE SOFT PARAFFIN 2 % OIN	6684007
+7718	prodcode	Fluocinolone acetonide 0.025% ointment	69812020
+7723	prodcode	Fludroxycortide with clioquinol Cream	61954020
+7753	prodcode	Betamethasone dipropionate 0.05% cream	70840020
+7820	prodcode	Betamethasone dipropionate 0.05% ointment	70841020
+7826	prodcode	Hydrocortisone with nystatin and chlorhexidine Cream	63459020
+7843	prodcode	Synalar 1 in 4 Dilution 0.00625% ointment (Reig Jofre UK Ltd)	58361020
+7844	prodcode	Fluocinolone acetonide 0.1%w/w Ointment	69816020
+7892	prodcode	Hydrocortisone 1% Cream	69364020
+7982	prodcode	Carbo-cort Cream (Lagap)	58429020
+7984	prodcode	Coal tar with pine tar with salycylic acid gel	71285020
+7986	prodcode	Synalar C cream (Reig Jofre UK Ltd)	58367020
+8006	prodcode	Coal tar with hydrocortisone cream	69820020
+8092	prodcode	Hydrocortisone and coal tar Cream	70873020
+8269	prodcode	Haelan -c Ointment (Dista Products Ltd)	49757020
+8270	prodcode	Metosyn 0.05% Scalp lotion (GP Pharma)	50384020
+8313	prodcode	Efcortelan 2.5% cream (GlaxoSmithKline UK Ltd)	49205020
+8319	prodcode	Fludroxycortide 0.0125% ointment	61948020
+8357	prodcode	Etretinate 25mg Capsule	60984020
+8358	prodcode	Tigason 10mg Capsule (Roche Products Ltd)	51927020
+8359	prodcode	Neotigason 10mg Capsule (Roche Products Ltd)	50438020
+8360	prodcode	Neotigason 25mg Capsule (Roche Products Ltd)	50439020
+8443	prodcode	Salicylic acid 6% gel	71734020
+8479	prodcode	Efcortelan 1% ointment (Chemidex Pharma Ltd)	49211020
+8480	prodcode	DITHRANOL POMADE .2 % PAS	2683007
+8566	prodcode	DITHRANOL 0.1% IN LASSARS PASTE	2674007
+8567	prodcode	Alclometasone 0.05% ointment	60046020
+8569	prodcode	Mildison Lipocream 1% cream (LEO Pharma)	69367020
+8618	prodcode	Quinocort Cream (Quinoderm Ltd)	63369020
+8620	prodcode	Exolan 1% Cream (Dermal Laboratories Ltd)	57725020
+8626	prodcode	Synalar C ointment (Reig Jofre UK Ltd)	58368020
+8627	prodcode	Fluclorolone acetonide 0.025%w/w Cream	70763020
+8727	prodcode	Eczederm with hydrocortisone Cream (Quinoderm Ltd)	63372020
+8764	prodcode	Hydrocortisyl 1%w/w Ointment (Hoechst Marion Roussel)	57603020
+8787	prodcode	Hydrocortisone with nystatin dimeticone and benzalkonium chloride Ointment	63456020
+8927	prodcode	Preferid 0.025% Cream (Yamanouchi Pharma Ltd)	69758020
+8986	prodcode	Efcortelan 2.5% ointment (Chemidex Pharma Ltd)	49212020
+9274	prodcode	Hc45 Hydrocortisone 1% cream (Reckitt Benckiser Healthcare (UK) Ltd)	81751020
+9314	prodcode	Hydrocortisone 1% / Miconazole 2% cream	63437020
+9471	prodcode	Hydrocortisone acetate 0.5% eye ointment	57511020
+9480	prodcode	Zorac 0.1% gel (Allergan Ltd)	85695020
+9724	prodcode	Hydrocortisone 1% / Clotrimazole 1% cream	63434020
+9740	prodcode	Tazarotene 0.1% gel	85692020
+9811	prodcode	Locoid Crelo 0.1% topical emulsion (LEO Pharma)	80543020
+9877	prodcode	Alclometasone 0.05% cream	60045020
+10220	prodcode	Hydrocortisone 1% / Urea 10% cream	63473020
+10231	prodcode	Clioquinol 3% with betamethasone valerate 0.1% cream	61417020
+10391	prodcode	Terra-cortril Spray (Pfizer Ltd)	51878020
+10410	prodcode	Anthranol 2% w/v Ointment (Stiefel Laboratories (UK) Ltd)	62746020
+10411	prodcode	Fluocinonide 0.05% Scalp lotion	72276020
+10451	prodcode	Framycort Ointment (Rpr / Fisons)	49534020
+10517	prodcode	Cobadex 0.50% Cream (Actavis UK Ltd)	56284020
+10518	prodcode	Hydrocortisone with dimeticone 0.5% with 20% Cream	63415020
+10621	prodcode	Diflucortolone 0.1% ointment	62510020
+10692	prodcode	Dithranol triacetate 1% cream	62741020
+10732	prodcode	Triamcinolone acetonide Ointment	67168020
+10751	prodcode	Hydrocortistab 1% Ointment (Waymade Healthcare Plc)	56838020
+10824	prodcode	Ultralanum Plain cream (Meadow Laboratories Ltd)	52911020
+10888	prodcode	Dithranol 2% w/v ointment	67744020
+10943	prodcode	Stiedex 0.25% oily Cream (Stiefel Laboratories (UK) Ltd)	62310020
+10972	prodcode	Oxytetracycline with hydrocortisone spray	65341020
+10977	prodcode	Fluocinolone acetonide 0.025% / Neomycin 0.5% cream	61982020
+10982	prodcode	Fluocinolone acetonide 0.00625% cream	61968020
+10990	prodcode	Ichthammol Ointment	56070020
+11053	prodcode	Eurax Hc cream (GlaxoSmithKline Consumer Healthcare)	72100020
+11352	prodcode	Dithranol with coal tar with salicylic acid 0.11%+1%+1.6% ointment	62738020
+11425	prodcode	Fluocinolone acetonide 0.0025% cream	61967020
+11464	prodcode	Fluocinolone acetonide 0.00625% ointment	61969020
+11527	prodcode	Coal tar with allantoin with hydrocortisone cream	61791020
+11597	prodcode	Clioquinol 3% with Betamethasone valerate 0.1% ointment	61418020
+11700	prodcode	Coal tar 6% with Salicylic acid 2% pomade	70574020
+12008	prodcode	DITHRANOL / SALICYLIC ACID / EMULSIFYING .4 % OIN	6721007
+12041	prodcode	Antraderm 1% Stick (Yamanouchi Pharma Ltd)	52590020
+12074	prodcode	Ledercort Ointment (Wyeth Pharmaceuticals)	50129020
+12169	prodcode	DITHRANOL 5 % OIN	3354007
+12308	prodcode	Dithranol 1% ointment	56087020
+12351	prodcode	Fludroxycortide 0.05% Cream	61947020
+12366	prodcode	Fluocinolone acetonide 0.1%w/w Cream	69815020
+12410	prodcode	Desoximetasone 0.25% oily cream	62301020
+12457	prodcode	Barquinol hc Cream (Rpr / Fisons)	48299020
+12473	prodcode	Topilar 0.025%w/w Ointment (Bioglan Laboratories Ltd)	57781020
+12485	prodcode	Antraderm forte 2% w/v Stick (Yamanouchi Pharma Ltd)	52593020
+12494	prodcode	DITHRANOL IN LASSARS PASTE .1 % PAS	2675007
+12543	prodcode	Antraderm mild 0.50% Stick (Yamanouchi Pharma Ltd)	48173020
+12611	prodcode	Hydrocortisone with fusidic acid 1% with 2% gel	63448020
+12626	prodcode	Nerisone Forte 0.3% ointment (Meadow Laboratories Ltd)	52902020
+12727	prodcode	Diflucortolone 0.3% ointment	62511020
+12742	prodcode	Fluocinolone acetonide 0.025% / Clioquinol 3% ointment	61979020
+12801	prodcode	Fusidic acid with hydrocortisone 2%with1% gel	62188020
+12904	prodcode	Oxytetracycline with hydrocortisone & nystatin cream	65344020
+13016	prodcode	Sebco ointment (Derma UK Ltd)	86506020
+13211	prodcode	Betamethasone valerate 0.1% / Clioquinol 3% ointment	64173020
+13249	prodcode	Fluocortolone hexanoate 0.25% / Fluocortolone pivalate 0.25% cream	61991020
+13286	prodcode	Clobetasol 500micrograms/g foam	90684020
+13385	prodcode	Tigason 25mg Capsule (Roche Products Ltd)	51928020
+13428	prodcode	Maxtrex 2.5mg tablets (Pfizer Ltd)	64511020
+13494	prodcode	Sandimmun 100mg/ml oral solution (Novartis Pharmaceuticals UK Ltd)	55044020
+13523	prodcode	Keralyt 6% Gel (Manufacturer unknown)	71737020
+13537	prodcode	Dithranol 0.1% paste	56076020
+13556	prodcode	Sandimmun 100mg capsules (Novartis Pharmaceuticals UK Ltd)	52332020
+13939	prodcode	Nystatin with hydrocortisone and chlorhexidine Ointment	65190020
+14555	prodcode	Hydrocortisone with dimeticone 1% with 20% Cream	63416020
+14986	prodcode	Hydrocortisone acetate 1% cream	89459020
+14999	prodcode	Alphodith 1% Ointment (Stafford-Miller Ltd)	67855020
+15000	prodcode	Alphodith 2% w/v Ointment (Stafford-Miller Ltd)	67856020
+15084	prodcode	Alphodith 0.40% Ointment (Stafford-Miller Ltd)	67854020
+15191	prodcode	Dithranol 3% cream	82977020
+15495	prodcode	Coal tar with allantoin shampoo	61766020
+15531	prodcode	DITHRANOL IN LASSARS PASTE .6 %	2679007
+15534	prodcode	DITHRANOL IN LASSARS PASTE .25 % PAS	2676007
+15654	prodcode	DITHRANOL 0.1% IN EUMOVATE OIN	4169007
+15918	prodcode	Hydrocortisone 0.1% topical emulsion	80604020
+16341	prodcode	Dithranol lipid stabilised 1% cream	82976020
+16534	prodcode	Proderm eczema & dermatitis Dermatological mousse (Chefaro UK Ltd)	76706020
+16651	prodcode	DITHRANOL/SALICYLIC ACID .5 % OIN	3790007
+16654	prodcode	Preferid 0.025% Ointment (Yamanouchi Pharma Ltd)	69759020
+16686	prodcode	Anthranol 1% Ointment (Stiefel Laboratories (UK) Ltd)	62745020
+16707	prodcode	DITHRANOL TRIACETATE LOT	6136007
+16862	prodcode	Eumovate Eczema and Dermatitis 0.05% cream (GlaxoSmithKline Consumer Healthcare)	82053020
+17100	prodcode	Budesonide 0.025% cream	69787020
+17138	prodcode	DITHRANOL PASTE .5 % PAS	2684007
+17203	prodcode	Dithranol and salicylic acid 2%+0.5% ointment	62732020
+17204	prodcode	DITHRANOL/SALICYLIC ACID/PARAFFIN MOLLE .02 %	2680007
+17513	prodcode	Hydrocortisone with nystatin and chlorhexidine Ointment	63460020
+17520	prodcode	Dithranol 0.25% ointment	56081020
+17732	prodcode	Dithranol 1% stick	69598020
+17761	prodcode	DITHRANOL / SALICYLIC ACID / EMULSIFYING .1 % OIN	6714007
+17762	prodcode	DITHRANOL / SALICYLIC ACID / COAL TAR .16 % OIN	2681007
+17799	prodcode	Dermacort hydrocortisone 0.1% cream (Marlborough Pharmaceuticals Ltd)	58554020
+17801	prodcode	Dithranol and salicylic acid 0.5%+0.5% ointment	62731020
+18095	prodcode	Fluocinolone acetonide 0.025% / Clioquinol 3% cream	61978020
+18300	prodcode	Ledercort Cream (Wyeth Pharmaceuticals)	50128020
+18322	prodcode	Fludroxycortide with clioquinol Ointment	61955020
+18357	prodcode	DITHRANOL LIPID STABILISED 3 % CRE	6966007
+18393	prodcode	Fluocortolone 0.25% / Fluocortolone hexanoate 0.25% ointment	61995020
+18691	prodcode	Haelan -x 0.05% Ointment (Dista Products Ltd)	49763020
+19012	prodcode	DITHRANOL IN LASSARS PASTE .5 % PAS	2677007
+19187	prodcode	Hydrocortisone 1% Ointment (Teva UK Ltd)	54468020
+19297	prodcode	Clioquinol 3% with Fluocinolone 0.025% cream	61421020
+19346	prodcode	DITHRANOL / SALICYLIC ACID / EMULSIFYING 4 % OIN	3929007
+19607	prodcode	Dithranol 2% w/v stick	62728020
+19761	prodcode	DITHRANOL IN LASSARS PASTE 2 % PAS	3792007
+19762	prodcode	DITHRANOL LIPID STABILISED 1 % CRE	6965007
+19905	prodcode	Beclometasone with Chlortetracycline Hcl ointment	64083020
+20053	prodcode	Bufexamac 5% cream	64261020
+20460	prodcode	Hydrocortisone with sodium fusidate 1%with2% Ointment	76734020
+20528	prodcode	Dithranol 0.5% stick	69597020
+20884	prodcode	Fluocinolone acetonide 0.025% / Neomycin 0.5% ointment	61983020
+21055	prodcode	Parfenac Cream (Wyeth Pharmaceuticals)	50996020
+21448	prodcode	Haelan -x 0.05% Cream (Dista Products Ltd)	49762020
+21469	prodcode	Diprosone duopack Ointment (Manufacturer unknown)	68187020
+21474	prodcode	DERMOVATE 25% DITHRANOL 0.01% IN WSP OIN	6554007
+21580	prodcode	Clarelux 500micrograms/g foam (Pierre Fabre Dermo-Cosmetique)	90686020
+22341	prodcode	Hydrocortisone with oxytetracycline Ointment	63466020
+22684	prodcode	Hydrocortisone with calamine Cream	63479020
+22807	prodcode	Fluocortolone 0.1% Cream	61990020
+22880	prodcode	Beclometasone with Clioquinol cream	64087020
+23035	prodcode	"Betamethasone dipropionate with fluocinonide, gentamicin with salicylic acid ointment"	76192020
+23770	prodcode	DITHRANOL 4 % OIN	2685007
+24513	prodcode	Zenoxone 1% cream (Teva UK Ltd)	54066020
+24849	prodcode	Fludroxycortide 0.05% Ointment	61951020
+25418	prodcode	Metosyn fapg Diluent (GP Pharma)	54809020
+25668	prodcode	DITHRANOL IN TAR POMADE 1 % PAS	6712007
+26532	prodcode	DITHRANOL IN LASSARS PASTE .4 % PAS	3789007
+27430	prodcode	Beclometasone with Clioquinol ointment	64086020
+27686	prodcode	Lanacort 1% cream (Reckitt Benckiser Healthcare (UK) Ltd)	75403020
+27739	prodcode	DITHRANOL IN SALICYLIC ACID .8 % OIN	2673007
+27930	prodcode	Dithranol in lassars 0.40% Paste (Huddersfield Royal Infirmary)	64888020
+27981	prodcode	DITHRANOL POMADE .4 % PAS	2682007
+27993	prodcode	DITHRANOL / SALICYLIC ACID / COAL TAR .32 % OIN	3791007
+28202	prodcode	DITHRANOL / SALICYLIC ACID / EMULSIFYING 5 % OIN	2672007
+28203	prodcode	DITHRANOL / SALICYLIC ACID / EMULSIFYING .6 % OIN	6720007
+28295	prodcode	Diprosone duopack Cream (Manufacturer unknown)	68186020
+28300	prodcode	SODIUM FUS.2%/HYDROCORTISONE ACET.1%	!6648101
+28311	prodcode	BETAMETHASONE /SALICYLIC ACID	!0683402
+28359	prodcode	Fluclorolone acetonide 0.025%w/w Ointment	70764020
+28424	prodcode	Betamethasone 0.10% Cream (Futuna Ltd)	61722020
+28589	prodcode	Hydrocortisone acetate 1% ointment	90690020
+28616	prodcode	DITHRANOL / SALICYLIC ACID / EMULSIFYING 8 % OIN	3787007
+29329	prodcode	Betamethasone 0.10% Ointment (Futuna Ltd)	61723020
+29385	prodcode	Clioquinol 3% with Fluocinolone 0.025% ointment	61422020
+29439	prodcode	Budesonide 0.025% ointment	69788020
+29702	prodcode	DITHRANOL / SALICYLIC ACID / EMULSIFYING 16 % OIN	3786007
+29969	prodcode	DITHRANOL / SALICYLIC ACID / EMULSIFYING	!1969911
+30517	prodcode	DITHRANOL / SALICYLIC ACID / EMULSIFYING 10 % OIN	2671007
+30604	prodcode	Hydrocortisone with nystatin and oxytetracycline Cream	63470020
+31806	prodcode	Jungle formula bite and sting relief 1% Cream (Chefaro UK Ltd)	84232020
+32022	prodcode	Vipsogal Ointment (Harley Street Supplies Ltd)	76189020
+32096	prodcode	Hydrocortisone 1% ointment (Actavis UK Ltd)	51389020
+32098	prodcode	Hydrocortisone 1% ointment (Teva UK Ltd)	56752020
+32377	prodcode	Lexon hydrocortisone 1% Cream (Lexon (UK) Ltd)	78146020
+32667	prodcode	DITHRANOL 16 % OIN	3793007
+32877	prodcode	Hydrocortisone 2.5% ointment (Teva UK Ltd)	54469020
+32935	prodcode	DITHRANOL POMADE /POLAWAX /SAL.ACID/SILI .25 % PAS	2678007
+33081	prodcode	Hydrocortisone 2.5% ointment (A A H Pharmaceuticals Ltd)	66018020
+33649	prodcode	Hydrocortisone 1% Cream (Teva UK Ltd)	48945020
+33655	prodcode	Hydrocortisone 0.5% ointment (Actavis UK Ltd)	51386020
+33999	prodcode	Salicylic acid 10% in aqueous cream	88478020
+34111	prodcode	Hydrocortisone 0.1% emulsion	63412020
+34117	prodcode	Temetex Ointment (Roche Products Ltd)	51844020
+34145	prodcode	Alphosyl Shampoo (Stafford-Miller Ltd)	65416020
+34161	prodcode	Fluocinolone acetonide 0.02% Cream	69817020
+34179	prodcode	Coal tar 3% with acid sal 1% with Tween 20 1% in ung emulsifying ointment	76675020
+34279	prodcode	Betamethasone valerate 0.1% cream (A A H Pharmaceuticals Ltd)	62379020
+34291	prodcode	Hydrocortisone 1% cream (A A H Pharmaceuticals Ltd)	52868020
+34317	prodcode	Hydrocortisone 1% cream (Actavis UK Ltd)	51385020
+34326	prodcode	Hydrocortisone 0.50% Ointment (Teva UK Ltd)	54467020
+34454	prodcode	Hydrocortisone 0.50% Cream (Teva UK Ltd)	48944020
+34459	prodcode	Hydrocortisone 1% ointment (A A H Pharmaceuticals Ltd)	52850020
+34627	prodcode	Hydrocortisone 1% cream (Vantage)	56118020
+34682	prodcode	Salicylic acid 2% ointment (Thornton & Ross Ltd)	50550020
+34767	prodcode	Hydrocortisone 2.5% cream (Teva UK Ltd)	48946020
+34846	prodcode	Hydrocortisone 0.5% ointment (A A H Pharmaceuticals Ltd)	52869020
+34896	prodcode	Hydrocortisone 0.5% cream (A A H Pharmaceuticals Ltd)	52867020
+34900	prodcode	Hydrocortisone 1% Cream (Celltech Pharma Europe Ltd)	49796020
+34906	prodcode	Hydrocortisone 1% Ointment (Celltech Pharma Europe Ltd)	49797020
+34929	prodcode	Methotrexate 10mg tablets (Pfizer Ltd)	60982020
+35617	prodcode	Salicylic acid 2% in aqueous cream	93005020
+36014	prodcode	Etrivex 500micrograms/g shampoo (Galderma (UK) Ltd)	93706020
+36226	prodcode	Clobetasol 500micrograms/g shampoo	93704020
+36511	prodcode	Alphosyl 250ml Shampoo (Stafford-Miller Ltd)	65419020
+36530	prodcode	Ultralanum Ointment (Schering Health Care Ltd)	52085020
+36867	prodcode	Betamethasone valerate 0.1% ointment in white soft paraffin ointment 10%	88554020
+37292	prodcode	Dithranol in pma 0.50% Paste (Huddersfield Royal Infirmary)	64905020
+37309	prodcode	Salicylic acid 2% ointment (A A H Pharmaceuticals Ltd)	51806020
+37465	prodcode	Tacalcitol 4micrograms/g lotion	94301020
+37484	prodcode	Curatoderm 4micrograms/g lotion (Almirall Ltd)	94303020
+37789	prodcode	Miconazole with hydrocortisone 2% with 1% Cream	79527020
+37921	prodcode	Fucibet Lipid cream (LEO Pharma)	94715020
+38049	prodcode	Coal tar 12% with acid sal 4% with Tween 20 2% in ung emulsifying ointment	81159020
+38055	prodcode	Coal tar 12% with acid sal 2% with Tween 20 1% in ung emulsifying ointment	81562020
+38057	prodcode	Dithranol 3% ointment	56088020
+38087	prodcode	Coal tar and salicylic acid Ointment (Thornton & Ross Ltd)	49407020
+38114	prodcode	Dithranol in pma (huddersfield royal infirmary) 0.4% paste	81513020
+38957	prodcode	Xamiol gel (LEO Pharma)	95976020
+38959	prodcode	Calcipotriol 0.005% / Betamethasone dipropionate 0.05% gel	95974020
+39523	prodcode	Neotigason 10mg capsules (Teva UK Ltd)	96397020
+39737	prodcode	Hydrocortisone 0.50% Ointment (C P Pharmaceuticals Ltd)	53922020
+39793	prodcode	Neotigason 25mg capsules (Teva UK Ltd)	96395020
+39794	prodcode	Alitretinoin 10mg capsules	95623020
+39818	prodcode	Hydrocortisone 0.5% cream (Actavis UK Ltd)	51384020
+40071	prodcode	Alphosyl 100g Cream (Stafford-Miller Ltd)	66322020
+40077	prodcode	Exe-Cort Hydrocortisone 1% cream (Nucare Plc)	87345020
+40387	prodcode	Coal tar 5% Ointment (Royal Free Hospital)	64609020
+40393	prodcode	Coal tar solution in Betnovate RD (HRI) ointment 5%	76224020
+40402	prodcode	Hydrocortisone 2.5% cream (A A H Pharmaceuticals Ltd)	66013020
+40583	prodcode	Dermovate-NN cream (Chemidex Pharma Ltd)	97191020
+40698	prodcode	Dermovate-NN ointment (Chemidex Pharma Ltd)	97193020
+40821	prodcode	Salicylic acid 1% in aqueous cream	97296020
+40858	prodcode	Betesil 2.25mg medicated plasters (Genus Pharmaceuticals Ltd)	97361020
+40973	prodcode	Betamethasone valerate 2.25mg medicated plasters	97359020
+41054	prodcode	Alitretinoin 30mg capsules	95667020
+41379	prodcode	Synalar 0.025% ointment (Reig Jofre UK Ltd)	97664020
+41380	prodcode	Synalar 0.025% cream (Reig Jofre UK Ltd)	97662020
+41386	prodcode	Betamethasone 0.1% ointment in emollient cream 50:50	88534020
+41388	prodcode	Clobetasol propionate 25% ointment with coal tar solution 5% in white soft paraffin	88843020
+41399	prodcode	Propylene glycol & other ingredients cream	82724020
+41406	prodcode	Hydrocortisone 2.50% Cream (Martindale Pharmaceuticals Ltd)	52872020
+41452	prodcode	Synalar N ointment (Reig Jofre UK Ltd)	97668020
+41767	prodcode	Metosyn FAPG 0.05% cream (Reig Jofre UK Ltd)	97654020
+41886	prodcode	Metosyn 0.05% ointment (Reig Jofre UK Ltd)	97652020
+41984	prodcode	Coal tar paint	56096020
+42085	prodcode	Betamethasone valerate 0.1% ointment (A A H Pharmaceuticals Ltd)	62380020
+42096	prodcode	Synalar N cream (Reig Jofre UK Ltd)	97666020
+42501	prodcode	Hydrocortisone with fusidic acid Ointment	63449020
+42505	prodcode	Betamethasone valerate with clotrimazole cream	68490020
+42621	prodcode	Toctino 30mg capsules (Stiefel Laboratories (UK) Ltd)	95671020
+43058	prodcode	Alphosyl 250ml Lotion (Stafford-Miller Ltd)	50631020
+43174	prodcode	Fumaderm 215mg gastro-resistant tablets (Imported (Germany))	98438020
+43506	prodcode	Hydrocortisone 1% cream (Pinewood Healthcare)	61533020
+43526	prodcode	Hydrocortisone 0.5% eye ointment (Martindale Pharmaceuticals Ltd)	52884020
+43688	prodcode	Fumaderm Initial 105mg gastro-resistant tablets (Imported (Germany))	98436020
+43702	prodcode	Toctino 10mg capsules (Stiefel Laboratories (UK) Ltd)	95669020
+43946	prodcode	Dovobet gel (LEO Pharma)	98877020
+44886	prodcode	Dithranol in pma (huddersfield royal infirmary) 0.5% paste	81584020
+45725	prodcode	Hydromol HC Intensive cream (Alliance Pharmaceuticals Ltd)	99545020
+46091	prodcode	Hydrocortisone 2.5% ointment (Essential Generics Ltd)	76212020
+46738	prodcode	Pigmanorm Cream (Louis Widmer)	265021
+46855	prodcode	Tretinoin with hydrocortisone and hydroquinone 0.1% + 1% + 5% cream	88506020
+47359	prodcode	Clioquinol with Fludroxycortide cream	61425020
+47728	prodcode	Clobetasol propionate with neomycin with nystatin 0.05% with 0.5% with 100000 unit/g ointment (Essential Generics Ltd)	78079020
+47801	prodcode	Hydrocortisone Bite and Sting Relief 1% cream (Galpharm International Ltd)	96951020
+47809	prodcode	Hydrocortisone 1% Ointment (Thornton & Ross Ltd)	51393020
+47811	prodcode	Synalar Forte Cream (Ici Pharmaceuticals)	58356020
+47845	prodcode	Hydrocortisone 1% cream (Teva UK Ltd)	56748020
+48092	prodcode	Hydrocortisone 1% cream (Essential Generics Ltd)	76200020
+48615	prodcode	Betnovate 0.1% scalp application (Mawdsley-Brooks & Company Ltd)	9024020
+48830	prodcode	"Clobetasol 500microgram / Neomycin 5mg / Nystatin 100,000units/g cream (Alliance Healthcare (Distribution) Ltd)"	12112020
+48849	prodcode	Dermovate 0.05% ointment (Waymade Healthcare Plc)	41425020
+48893	prodcode	Dermovate 0.05% cream (Waymade Healthcare Plc)	9437020
+49125	prodcode	Elocon 0.1% ointment (DE Pharmaceuticals)	9076020
+49193	prodcode	Canesten HC cream (DE Pharmaceuticals)	9012020
+49208	prodcode	Betnovate 0.1% ointment (Mawdsley-Brooks & Company Ltd)	10178020
+49304	prodcode	Dermovate 0.05% cream (Mawdsley-Brooks & Company Ltd)	9442020
+49373	prodcode	Salicylic acid 5% ointment	35819020
+49409	prodcode	Beclometasone 0.0025% in White soft paraffin	40235020
+49462	prodcode	"Clobetasol 500microgram / Neomycin 5mg / Nystatin 100,000units/g ointment (Alliance Healthcare (Distribution) Ltd)"	12121020
+49478	prodcode	Betnovate 0.1% cream (Mawdsley-Brooks & Company Ltd)	9698020
+49522	prodcode	Betnovate 0.1% scalp application (Waymade Healthcare Plc)	9019020
+49687	prodcode	"Clobetasol 500microgram / Neomycin 5mg / Nystatin 100,000units/g cream (Essential Generics Ltd)"	12111020
+49741	prodcode	Cocois ointment (DE Pharmaceuticals)	11533020
+49780	prodcode	Dermovate 0.05% scalp application (Sigma Pharmaceuticals Plc)	11234020
+49852	prodcode	Diprosalic 0.05%/3% ointment (Sigma Pharmaceuticals Plc)	9029020
+49936	prodcode	Betnovate 0.1% scalp application (DE Pharmaceuticals)	9021020
+50183	prodcode	Elocon 0.1% ointment (Lexon (UK) Ltd)	9079020
+50439	prodcode	Salicylic acid 2% in Aqueous cream	36104020
+50485	prodcode	Eumovate 0.05% cream (Sigma Pharmaceuticals Plc)	9047020
+50488	prodcode	Betnovate 0.1% scalp application (Sigma Pharmaceuticals Plc)	9022020
+50610	prodcode	Dermovate 0.05% cream (Necessity Supplies Ltd)	9444020
+50623	prodcode	Dermovate 0.05% cream (Sigma Pharmaceuticals Plc)	9440020
+50737	prodcode	Cocois ointment (Mawdsley-Brooks & Company Ltd)	11532020
+50759	prodcode	Daktacort 2%/1% cream (Sigma Pharmaceuticals Plc)	9009020
+50819	prodcode	"Clobetasol 500microgram / Neomycin 5mg / Nystatin 100,000units/g cream"	12110020
+50941	prodcode	Terra-Cortril ointment (Intrapharm Laboratories Ltd)	44430020
+50969	prodcode	"Clobetasol 500microgram / Neomycin 5mg / Nystatin 100,000units/g ointment (Essential Generics Ltd)"	12120020
+51249	prodcode	Elocon 0.1% ointment (Mawdsley-Brooks & Company Ltd)	9080020
+51338	prodcode	Salicylic acid 10% in White soft paraffin	36098020
+51371	prodcode	Locoid 0.1% scalp lotion (Mawdsley-Brooks & Company Ltd)	9060020
+51506	prodcode	Salicylic acid 10% ointment	36410020
+51508	prodcode	Salicylic acid 5% cream	36130020
+51723	prodcode	Salicylic acid 10% in Aqueous cream	36092020
+51724	prodcode	Salicylic acid 5% in Yellow soft paraffin	41224020
+51816	prodcode	Dovobet ointment (Sigma Pharmaceuticals Plc)	12395020
+51862	prodcode	Dermovate 0.05% scalp application (Lexon (UK) Ltd)	11235020
+52027	prodcode	Diprosalic 0.05%/3% ointment (DE Pharmaceuticals)	9028020
+52360	prodcode	Dermovate 0.05% scalp application (Waymade Healthcare Plc)	11232020
+52476	prodcode	Diprosalic 0.05%/2% scalp application (Waymade Healthcare Plc)	9033020
+52603	prodcode	Dovobet ointment (DE Pharmaceuticals)	12397020
+52619	prodcode	Salicylic acid 1% in White soft paraffin	40490020
+52789	prodcode	Eumovate 0.05% cream (Waymade Healthcare Plc)	9045020
+52803	prodcode	Silkis ointment (Necessity Supplies Ltd)	10614020
+53165	prodcode	Coal tar solution with Betamethasone 0.1% ointment in white soft paraffin (BCM) 3% with 50%	88556020
+53381	prodcode	Coal tar 2% / Salicylic acid 2% in Yellow soft paraffin	42073020
+53383	prodcode	Coal tar 1% / Salicylic acid 2% in Emulsifying ointment	42069020
+53408	prodcode	Betnovate 0.1% scalp application (Lexon (UK) Ltd)	9023020
+53410	prodcode	Dermovate 0.05% cream (DE Pharmaceuticals)	9439020
+53456	prodcode	Methylprednisolone aceponate 0.1% ointment	38352020
+53502	prodcode	Elocon 0.1% scalp lotion (Mawdsley-Brooks & Company Ltd)	9089020
+53531	prodcode	Salicylic acid 3% in Aqueous cream	36122020
+53645	prodcode	Generic Alphosyl HC cream	11438020
+53756	prodcode	Acitretin 10mg capsules (Thornton & Ross Ltd)	45202020
+53762	prodcode	"Clobetasol 500microgram / Neomycin 5mg / Nystatin 100,000units/g cream (A A H Pharmaceuticals Ltd)"	45516020
+53839	prodcode	"Clobetasol 500microgram / Neomycin 5mg / Nystatin 100,000units/g ointment (A A H Pharmaceuticals Ltd)"	45517020
+53957	prodcode	Zinc and Coal tar paste	41776020
+54001	prodcode	Salicylic acid 4% in Aqueous cream	41220020
+54142	prodcode	ClobaDerm 0.05% cream (Auden McKenzie (Pharma Division) Ltd)	45205020
+54187	prodcode	Salicylic acid 2% in White soft paraffin	36110020
+54287	prodcode	Salicylic acid 3% in Yellow soft paraffin	41240020
+54328	prodcode	Salicylic acid 5% in White soft paraffin	36134020
+54461	prodcode	Coal tar solution in Betnovate RD (Royal Free Hosp) 5% ointment	76210020
+54516	prodcode	Salicylic acid 25% in White soft paraffin	36294020
+54741	prodcode	Diprosalic 0.05%/2% scalp application (Lexon (UK) Ltd)	9037020
+54751	prodcode	Salicylic acid 20% in White soft paraffin	36114020
+54818	prodcode	ClobaDerm 0.05% ointment (Auden McKenzie (Pharma Division) Ltd)	45207020
+54952	prodcode	Generic Timodine cream	13252020
+55020	prodcode	Salicylic acid 10% in Yellow soft paraffin	37567020
+55269	prodcode	Sulphur 2% with salicylic acid 3% & coal tar 8% in aqueous cream	88508020
+55487	prodcode	Betamethasone valerate 0.1% ointment (Teva UK Ltd)	74093020
+55572	prodcode	Hydrocortisone 1% cream (Sovereign Medical Ltd)	75406020
+55937	prodcode	Canesten HC cream (Waymade Healthcare Plc)	47605020
+56017	prodcode	Calcipotriol 50micrograms/g ointment (Sigma Pharmaceuticals Plc)	9115020
+56295	prodcode	Beclometasone 0.025% in White soft paraffin	47981020
+56460	prodcode	Generic Cocois ointment	11530020
+56464	prodcode	"Clobetasone 0.05% / Oxytetracycline 3% / Nystatin 100,000units/g cream"	21048020
+56871	prodcode	Betamethasone valerate 0.1% / Clioquinol 3% ointment (A A H Pharmaceuticals Ltd)	14582021
+57379	prodcode	5-Methoxypsoralen 20mg tablets	93680020
+57474	prodcode	Betamethasone valerate 0.1% / Clioquinol 3% cream (A A H Pharmaceuticals Ltd)	14583021
+57519	prodcode	Betnovate 0.1% ointment (Dowelhurst Ltd)	10172020
+57787	prodcode	Audavate RD 0.025% ointment (Auden McKenzie (Pharma Division) Ltd)	16448021
+57818	prodcode	Hydrocortisone 2.5% cream (Essential Generics Ltd)	76203020
+57902	prodcode	Betamethasone valerate 0.1% / Clioquinol 3% ointment (Essential Generics Ltd)	46818020
+58388	prodcode	Audavate 0.1% ointment (Auden McKenzie (Pharma Division) Ltd)	16453021
+59914	prodcode	Derma Care Hydrocortisone 1% cream (The Boots Company Plc)	9457020
+59985	prodcode	Clobavate 0.05% ointment (Teva UK Ltd)	16798021
+60189	prodcode	Audavate RD 0.025% cream (Auden McKenzie (Pharma Division) Ltd)	16447021
+60197	prodcode	Mometasone 0.1% ointment (Teva UK Ltd)	77170020
+60836	prodcode	Betamethasone valerate 0.025% ointment (A A H Pharmaceuticals Ltd)	15716021
+60859	prodcode	Mometasone 0.1% ointment (Auden McKenzie (Pharma Division) Ltd)	45201020
+60921	prodcode	"Clobetasol 500microgram / Neomycin 5mg / Nystatin 100,000units/g ointment"	12119020
+61104	prodcode	"Clobetasol 500microgram / Neomycin 5mg / Nystatin 100,000units/g cream (Mawdsley-Brooks & Company Ltd)"	25565021
+61451	prodcode	Calcipotriol 50micrograms/g ointment (Sandoz Ltd)	74462020
+61533	prodcode	Clobetasone 0.05% ointment (A A H Pharmaceuticals Ltd)	17227021
+61772	prodcode	Betamethasone valerate 0.025% cream (A A H Pharmaceuticals Ltd)	15715021
+62067	prodcode	Salicylic acid 5% in Betamethasone valerate 0.1% ointment	27209021
+62138	prodcode	Dovobet gel (Waymade Healthcare Plc)	26404021
+62153	prodcode	Mometasone 0.1% cream (Teva UK Ltd)	16449021
+62455	prodcode	"Nystatin 100,000units/g / Chlorhexidine hydrochloride 1% / Hydrocortisone 0.5% cream"	13059020
+62706	prodcode	Elocon 0.1% cream (Lexon (UK) Ltd)	9067020
+63051	prodcode	Ichthammol 1% in Calamine lotion	17291021

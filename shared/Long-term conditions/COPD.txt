@@ -1,0 +1,55 @@
+medcode	readcode	Description	CodingSystem
+794	H32..00	Emphysema	readcode
+998	H3...11	Chronic obstructive airways disease	readcode
+1001	H3...00	Chronic obstructive pulmonary disease	readcode
+1446	H312200	Acute exacerbation of chronic obstructive airways disease	readcode
+3243	H31..00	Chronic bronchitis	readcode
+5710	H3z..00	Chronic obstructive airways disease NOS	readcode
+5798	H312000	Chronic asthmatic bronchitis	readcode
+5909	H312011	Chronic wheezy bronchitis	readcode
+7884	H3y1.00	"Chron obstruct pulmonary dis wth acute exacerbation, unspec"	readcode
+9876	H38..00	Severe chronic obstructive pulmonary disease	readcode
+10802	H37..00	Moderate chronic obstructive pulmonary disease	readcode
+10863	H36..00	Mild chronic obstructive pulmonary disease	readcode
+10980	H322.00	Centrilobular emphysema	readcode
+11150	H311.00	Mucopurulent chronic bronchitis	readcode
+12166	H3y..00	Other specified chronic obstructive airways disease	readcode
+14798	H312100	Emphysematous bronchitis	readcode
+15157	H31z.00	Chronic bronchitis NOS	readcode
+15626	H310000	Chronic catarrhal bronchitis	readcode
+16410	H32yz00	Other emphysema NOS	readcode
+16717	H310100	Smokers' cough	readcode
+21061	H3y0.00	Chronic obstruct pulmonary dis with acute lower resp infectn	readcode
+23492	H320z00	Chronic bullous emphysema NOS	readcode
+23618	H31y000	Chronic tracheitis	readcode
+24248	H313.00	Mixed simple and mucopurulent chronic bronchitis	readcode
+25603	H310.00	Simple chronic bronchitis	readcode
+26125	H312300	Bronchiolitis obliterans	readcode
+26306	H320.00	Chronic bullous emphysema	readcode
+27819	H312.00	Obstructive chronic bronchitis	readcode
+33450	H32z.00	Emphysema NOS	readcode
+37247	H3z..11	Chronic obstructive pulmonary disease NOS	readcode
+37959	H311100	Fetid chronic bronchitis	readcode
+40159	H311000	Purulent chronic bronchitis	readcode
+40788	H32y.00	Other emphysema	readcode
+44525	H312z00	Obstructive chronic bronchitis NOS	readcode
+45089	H31y100	Chronic tracheobronchitis	readcode
+46578	H321.00	Panlobular emphysema	readcode
+56860	H320000	Segmental bullous emphysema	readcode
+59263	H32y111	Acute interstitial emphysema	readcode
+60188	H320200	Giant bullous emphysema	readcode
+61118	H310z00	Simple chronic bronchitis NOS	readcode
+61513	H311z00	Mucopurulent chronic bronchitis NOS	readcode
+63479	H32y200	MacLeod's unilateral emphysema	readcode
+66043	H31y.00	Other chronic bronchitis	readcode
+67040	H3y..11	Other specified chronic obstructive pulmonary disease	readcode
+68066	H31yz00	Other chronic bronchitis NOS	readcode
+68662	H320100	Zonal bullous emphysema	readcode
+70787	H32y100	Atrophic (senile) emphysema	readcode
+92955	H32y000	Acute vesicular emphysema	readcode
+93568	H39..00	Very severe chronic obstructive pulmonary disease	readcode
+96931	14OX.00	At risk of chronic obstructive pulmonary diseas exacerbation	readcode
+99536	H320300	Bullous emphysema with collapse	readcode
+103494	14B3.12	History of chronic obstructive pulmonary disease	readcode
+103733	H320311	Tension pneumatocoele	readcode
+104608	H3A..00	End stage chronic obstructive airways disease	readcode

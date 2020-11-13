@@ -1,0 +1,133 @@
+medcode	readcode	Description	CodingSystem
+352	J12..00	Duodenal ulcer - (DU)	readcode
+657	J12y200	Unspecified duodenal ulcer with perforation	readcode
+670	J13..00	Peptic ulcer - (PU) site unspecified	readcode
+1262	J11..00	Gastric ulcer - (GU)	readcode
+1295	J14..15	Stomal ulcer	readcode
+3101	J11..12	Pyloric ulcer	readcode
+3462	J123.00	Duodenal erosion	readcode
+4741	7627000	Closure of perforated duodenal ulcer	readcode
+5521	J130200	Acute peptic ulcer with perforation	readcode
+5928	7627	Operations on duodenal ulcer	readcode
+6333	J11..11	Prepyloric ulcer	readcode
+6865	761J.11	Stomach ulcer operations	readcode
+9853	J121.00	Chronic duodenal ulcer	readcode
+11104	J111211	Perforated chronic gastric ulcer	readcode
+11124	J110111	Bleeding acute gastric ulcer	readcode
+14671	J110200	Acute gastric ulcer with perforation	readcode
+15175	J12z.00	Duodenal ulcer NOS	readcode
+15403	J14z.00	Gastrojejunal ulcer NOS	readcode
+15821	J13..11	Stress ulcer NOS	readcode
+15979	J14y200	Unspecified gastrojejunal ulcer with perforation	readcode
+18001	J120100	Acute duodenal ulcer with haemorrhage	readcode
+18027	J120.00	Acute duodenal ulcer	readcode
+18324	J120200	Acute duodenal ulcer with perforation	readcode
+18625	J121111	Bleeding chronic duodenal ulcer	readcode
+18654	J111.00	Chronic gastric ulcer	readcode
+19928	J13z.00	Peptic ulcer NOS	readcode
+20677	761J000	Closure of perforated gastric ulcer	readcode
+22918	J122.00	Duodenal ulcer disease	readcode
+23082	J14..00	Gastrojejunal ulcer (GJU)	readcode
+23688	761J.00	Operations on gastric ulcer	readcode
+24021	J102000	Peptic ulcer of oesophagus	readcode
+24040	J110.00	Acute gastric ulcer	readcode
+24342	J110y00	Acute gastric ulcer unspecified	readcode
+26261	ZV12711	[V]Personal history of peptic ulcer	readcode
+28366	J12yy00	Unspec duodenal ulcer; unspec haemorrhage and/or perforation	readcode
+29317	J124.00	Recurrent duodenal ulcer	readcode
+29771	J11z.00	Gastric ulcer NOS	readcode
+30054	J110100	Acute gastric ulcer with haemorrhage	readcode
+32856	J130.00	Acute peptic ulcer	readcode
+33438	J121000	Chronic duodenal ulcer without mention of complication	readcode
+33914	761Jz00	Operation on gastric ulcer NOS	readcode
+36461	J11y200	Unspecified gastric ulcer with perforation	readcode
+36583	J111111	Bleeding chronic gastric ulcer	readcode
+37620	J131200	Chronic peptic ulcer with perforation	readcode
+40997	J131.00	Chronic peptic ulcer	readcode
+41271	ZV12C00	[V] Personal history of gastric ulcer	readcode
+42274	J140z00	Acute gastrojejunal ulcer NOS	readcode
+44073	J121400	Chronic duodenal ulcer with obstruction	readcode
+44284	J11yz00	Unspecified gastric ulcer NOS	readcode
+44309	J111z00	Chronic gastric ulcer NOS	readcode
+44324	J110z00	Acute gastric ulcer NOS	readcode
+44335	J120000	Acute duodenal ulcer without mention of complication	readcode
+44637	J130100	Acute peptic ulcer with haemorrhage	readcode
+45184	J140.00	Acute gastrojejunal ulcer	readcode
+45304	J130300	Acute peptic ulcer with haemorrhage and perforation	readcode
+48730	J120300	Acute duodenal ulcer with haemorrhage and perforation	readcode
+48946	J111000	Chronic gastric ulcer without mention of complication	readcode
+50048	J130z00	Acute peptic ulcer NOS	readcode
+50497	J13y.00	Unspecified peptic ulcer	readcode
+51406	J121z00	Chronic duodenal ulcer NOS	readcode
+52138	J121y00	Chronic duodenal ulcer unspecified	readcode
+52313	J131400	Chronic peptic ulcer with obstruction	readcode
+52323	J11z.12	Multiple gastric ulcers	readcode
+53081	J11y.00	Unspecified gastric ulcer	readcode
+53126	J131100	Chronic peptic ulcer with haemorrhage	readcode
+53336	J111200	Chronic gastric ulcer with perforation	readcode
+53669	J12y.00	Unspecified duodenal ulcer	readcode
+53797	J120z00	Acute duodenal ulcer NOS	readcode
+53822	J120y00	Acute duodenal ulcer unspecified	readcode
+57958	J11y100	Unspecified gastric ulcer with haemorrhage	readcode
+60249	J13yz00	Unspecified peptic ulcer NOS	readcode
+60346	J14y100	Unspecified gastrojejunal ulcer with haemorrhage	readcode
+63001	J112.00	Anti-platelet induced gastric ulcer	readcode
+63482	J14y.00	Unspecified gastrojejunal ulcer	readcode
+63582	J111100	Chronic gastric ulcer with haemorrhage	readcode
+63718	761D600	Endoscopic injection haemostasis of gastric ulcer	readcode
+64014	761J100	Closure of gastric ulcer NEC	readcode
+64111	J13y200	Unspecified peptic ulcer with perforation	readcode
+64165	J110000	Acute gastric ulcer without mention of complication	readcode
+64556	J111y00	Chronic gastric ulcer unspecified	readcode
+64710	7612500	Resection of gastric ulcer by cautery	readcode
+64913	J14..12	Gastrocolic ulcer	readcode
+65737	J12yz00	Unspecified duodenal ulcer NOS	readcode
+66092	J14yz00	Unspecified gastrojejunal ulcer NOS	readcode
+67082	J13y000	Unspecified peptic ulcer without mention of complication	readcode
+67356	J111400	Chronic gastric ulcer with obstruction	readcode
+67711	J130y00	Acute peptic ulcer unspecified	readcode
+68661	J130000	Acute peptic ulcer without mention of complication	readcode
+69663	J131z00	Chronic peptic ulcer NOS	readcode
+70005	761J111	Suture of ulcer of stomach NEC	readcode
+70390	J131y00	Chronic peptic ulcer unspecified	readcode
+70456	J13y100	Unspecified peptic ulcer with haemorrhage	readcode
+71150	J12y000	Unspecified duodenal ulcer without mention of complication	readcode
+71403	J110300	Acute gastric ulcer with haemorrhage and perforation	readcode
+71881	J121300	Chronic duodenal ulcer with haemorrhage and perforation	readcode
+71897	J111300	Chronic gastric ulcer with haemorrhage and perforation	readcode
+71904	J12y400	Unspecified duodenal ulcer with obstruction	readcode
+73338	J11y000	Unspecified gastric ulcer without mention of complication	readcode
+73417	J120400	Acute duodenal ulcer with obstruction	readcode
+73697	J11y400	Unspecified gastric ulcer with obstruction	readcode
+74496	5329		readcode
+74539	5329PT		readcode
+74848	5320		readcode
+75354	5319TM		readcode
+75550	5319PP		readcode
+75673	5339		readcode
+76394	5339DB		readcode
+77740	5329BD		readcode
+79977	5310		readcode
+82043	5349MR		readcode
+82405	5330		readcode
+83017	5319PT		readcode
+83963	5310PT		readcode
+84227	K4271		readcode
+88061	5349GJ		readcode
+88070	5320PT		readcode
+88195	5310TM		readcode
+90208	5340GJ		readcode
+90899	K458 PT		readcode
+92695	7612111	Balfour excision of gastric ulcer	readcode
+93436	J12y300	Unspecified duodenal ulcer with haemorrhage and perforation	readcode
+94104	761Jy00	Other specified operation on gastric ulcer	readcode
+94397	J11yy00	Unspec gastric ulcer; unspec haemorrhage and/or perforation	readcode
+96090	J141.00	Chronic gastrojejunal ulcer	readcode
+96622	J13y300	Unspecified peptic ulcer with haemorrhage and perforation	readcode
+96628	J140100	Acute gastrojejunal ulcer with haemorrhage	readcode
+99430	J131000	Chronic peptic ulcer without mention of complication	readcode
+99670	J13y400	Unspecified peptic ulcer with obstruction	readcode
+102177	J140200	Acute gastrojejunal ulcer with perforation	readcode
+106330	J140300	Acute gastrojejunal ulcer with haemorrhage and perforation	readcode
+109546	J110400	Acute gastric ulcer with obstruction	readcode
+110244	J141300	Chronic gastrojejunal ulcer with haemorrhage and perforation	readcode

@@ -1,0 +1,66 @@
+medcode	readcode	Description	CodingSystem
+302	E310.00	"Moderate mental retardation, IQ in range 35-49"	readcode
+1362	E3...00	Mental retardation	readcode
+1543	PJ0..00	Down's syndrome - trisomy 21	readcode
+1680	E30..11	Educationally subnormal	readcode
+1787	E30..00	"Mild mental retardation, IQ in range 50-70"	readcode
+4477	Eu81z11	[X]Learning disability NOS	readcode
+4825	E311.00	"Severe mental retardation, IQ in range 20-34"	readcode
+6123	Eu71.00	[X]Moderate mental retardation	readcode
+7226	Eu84.00	[X]Pervasive developmental disorders	readcode
+10628	PJyy200	Fragile X chromosome	readcode
+10759	PJ0z.00	Down's syndrome NOS	readcode
+18415	PJ0..12	Trisomy 21	readcode
+19436	ZS34.11	Learning disability	readcode
+23489	PJ0..11	Mongolism	readcode
+27691	Eu72.11	[X]Severe mental subnormality	readcode
+28740	Eu70.00	[X]Mild mental retardation	readcode
+28962	Eu7..00	[X]Mental retardation	readcode
+32603	PJyy400	Fragile X syndrome	readcode
+32820	Eu7zz00	[X]Unsp mental retardation without mention impairment behav	readcode
+33949	Eu70.12	[X]Mild mental subnormality	readcode
+34174	Eu84112	[X]Mental retardation with autistic features	readcode
+34734	Eu71.11	[X]Moderate mental subnormality	readcode
+36143	Eu72.00	[X]Severe mental retardation	readcode
+37867	E3z..00	Mental retardation NOS	readcode
+37887	Eu7z.11	[X]Mental deficiency NOS	readcode
+37911	Eu7z.12	[X]Mental subnormality NOS	readcode
+39016	Eu70y00	"[X]Mild mental retardation, other impairments of behaviour"	readcode
+39412	Eu70100	[X]Mld mental retard sig impairment behav req attent/treatmt	readcode
+42520	Eu7yy00	"[X]Other mental retardation, other impairments of behaviour"	readcode
+42589	Eu7z.00	[X]Unspecified mental retardation	readcode
+42886	Eu7z000	[X]Unsp mental retard with statement no or min impairm behav	readcode
+44327	Eu84z00	"[X]Pervasive developmental disorder, unspecified"	readcode
+45133	E312.00	Profound mental retardation with IQ less than 20	readcode
+46504	Eu70000	[X]Mld mental retard with statement no or min impairm behav	readcode
+47948	Eu84y00	[X]Other pervasive developmental disorders	readcode
+50606	Eu70z00	[X]Mild mental retardation without mention impairment behav	readcode
+50751	Eu72100	[X]Sev mental retard sig impairment behav req attent/treatmt	readcode
+50947	Eu72000	[X]Sev mental retard with statement no or min impairm behav	readcode
+51268	Eu73.00	[X]Profound mental retardation	readcode
+52602	Eu84400	[X]Overactive disorder assoc mental retard/stereotype movts	readcode
+54179	E31z.00	Other specified mental retardation NOS	readcode
+54881	Eu71100	[X]Mod mental retard sig impairment behav req attent/treatmt	readcode
+55560	Eu72z00	[X]Sev mental retardation without mention impairment behav	readcode
+55848	Eu72y00	"[X]Severe mental retardation, other impairments of behaviour"	readcode
+56547	Eu7y100	[X]Oth mental retard sig impairment behav req attent/treatmt	readcode
+56577	E31..00	Other specified mental retardation	readcode
+57199	E3y..00	Other specified mental retardation	readcode
+59407	Eu71y00	[X]Mod retard oth behav impair	readcode
+60062	Eu73z00	[X]Prfnd mental retardation without mention impairment behav	readcode
+60473	Eu71z00	[X]Mod mental retardation without mention impairment behav	readcode
+60913	Eu71000	[X]Mod mental retard with statement no or min impairm behav	readcode
+61627	PJ0z.11	Trisomy 21 NOS	readcode
+63273	Eu7yz00	[X]Other mental retardation without mention impairment behav	readcode
+65468	Eu73.11	[X]Profound mental subnormality	readcode
+66383	Eu7zy00	"[X]Unspecified mental retardatn, other impairments of behav"	readcode
+66783	Eu7z100	[X]Unsp mentl retard sig impairment behav req attent/treatmt	readcode
+70008	Eu7y000	[X]Oth mental retard with statement no or min impairm behav	readcode
+70102	Eu73000	[X]Profound ment retrd wth statement no or min impairm behav	readcode
+71196	Eu7y.00	[X]Other mental retardation	readcode
+90276	Eu73y00	"[X]Profound mental retardation, other impairments of behavr"	readcode
+98100	Eu73100	[X]Profound ment retard sig impairmnt behav req attent/treat	readcode
+98293	Eu81500	[X]Severe learning disability	readcode
+98342	Eu81400	[X]Moderate learning disability	readcode
+99774	Eu81600	[X]Mild learning disability	readcode
+100648	Eu81700	[X]Profound learning disability	readcode
