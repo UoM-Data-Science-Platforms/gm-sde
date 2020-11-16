@@ -18,3 +18,11 @@ Attempted to find the location of information related to project no.1 (Grant), i
 27/10/20 09:00 - 10:45
 - produced list of SNOMED codes for Type 2 Diabetes
 - producing aggregate counts for each tenancy to find those that are missing. Several missing for acute
+
+29/10/20 09:00 - 12:00
+- looking for demographics needed for the Bakerly study and creating basic script with those that have been found
+- using GP_events to find most recent BMI recording for a cohort of patients
+
+06/11/20 10:00 - 12:00
+- using methotrexate code lists to find secondary care prescribing of this drug, split by trust and month
+- noticed that the SNOMED codes aren't featuring in the final table so need to investigate this

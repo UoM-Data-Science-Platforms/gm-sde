@@ -1,0 +1,71 @@
+medcode	readcode	Description	CodingSystem
+78	H33..00	Asthma	readcode
+185	H333.00	Acute exacerbation of asthma	readcode
+232	H33z100	Asthma attack	readcode
+233	H33z011	Severe asthma attack	readcode
+1208	H330.12	Childhood asthma	readcode
+1555	H33..11	Bronchial asthma	readcode
+2290	H330.11	Allergic asthma	readcode
+3018	663V100	Mild asthma	readcode
+3366	663V300	Severe asthma	readcode
+3458	663V000	Occasional asthma	readcode
+3665	H331.11	Late onset asthma	readcode
+4442	H33z.00	Asthma unspecified	readcode
+4606	H33zz11	Exercise induced asthma	readcode
+4892	H33z000	Status asthmaticus NOS	readcode
+5267	H331.00	Intrinsic asthma	readcode
+5627	H330011	Hay fever with asthma	readcode
+5798	H312000	Chronic asthmatic bronchitis	readcode
+5867	173A.00	Exercise induced asthma	readcode
+6707	H330111	Extrinsic asthma with asthma attack	readcode
+7146	H330.00	Extrinsic (atopic) asthma	readcode
+7731	H330.14	Pollen asthma	readcode
+8335	H33z111	Asthma attack NOS	readcode
+10487	663j.00	Asthma - currently active	readcode
+11370	1O2..00	Asthma confirmed	readcode
+12987	H33z200	Late-onset asthma	readcode
+13065	663V200	Moderate asthma	readcode
+14777	H330000	Extrinsic asthma without status asthmaticus	readcode
+15248	H330.13	Hay fever with asthma	readcode
+16070	H33zz00	Asthma NOS	readcode
+18207	H33zz13	Allergic bronchitis NEC	readcode
+18323	H331111	Intrinsic asthma with asthma attack	readcode
+21232	H33zz12	Allergic asthma NEC	readcode
+22752	173c.00	Occupational asthma	readcode
+25796	H332.00	Mixed asthma	readcode
+27926	H330100	Extrinsic asthma with status asthmaticus	readcode
+29325	H331000	Intrinsic asthma without status asthmaticus	readcode
+32727	H33z.11	Hyperreactive airways disease	readcode
+39478	H35y700	Wood asthma	readcode
+40823	H334.00	Brittle asthma	readcode
+41017	1780	Aspirin induced asthma	readcode
+45073	H331z00	Intrinsic asthma NOS	readcode
+45782	H330z00	Extrinsic asthma NOS	readcode
+47684	H47y000	Detergent asthma	readcode
+58196	H331100	Intrinsic asthma with status asthmaticus	readcode
+73522	173d.00	Work aggravated asthma	readcode
+74025	493		OXMIS
+74093	493 AB		OXMIS
+74348	493 EB		OXMIS
+74381	493 BR		OXMIS
+74458	L4930LO		OXMIS
+74500	493 NA		OXMIS
+74588	493 CH		OXMIS
+74627	493 AI		OXMIS
+74778	493 AE		OXMIS
+75049	493 AA		OXMIS
+76765	493 HT		OXMIS
+77881	493 AK		OXMIS
+78239	493 JC		OXMIS
+78930	493 GR		OXMIS
+79714	493 BD		OXMIS
+80085	3052AT		OXMIS
+81113	493 EA		OXMIS
+81364	493 AD		OXMIS
+81835	493 EP		OXMIS
+83552	493 AR		OXMIS
+84251	493 GS		OXMIS
+84275	691 TM		OXMIS
+84312	493 AJ		OXMIS
+86315	493 C		OXMIS
+93353	H35y600	Sequoiosis (red-cedar asthma)	readcode

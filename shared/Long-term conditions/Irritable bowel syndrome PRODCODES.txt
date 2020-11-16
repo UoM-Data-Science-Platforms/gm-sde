@@ -1,0 +1,91 @@
+prodcode	CodingSystem	productname	gemscriptcode
+250	prodcode	Mebeverine 135mg tablets	64307020
+675	prodcode	Mebeverine 200mg modified-release capsules	64309020
+846	prodcode	Merbentyl 10mg/5ml Oral solution (Florizel Ltd)	50358020
+848	prodcode	Hyoscine butylbromide 10mg tablets	63336020
+1026	prodcode	Fybogel Mebeverine effervescent granules sachets orange (Reckitt Benckiser Healthcare (UK) Ltd)	52040020
+1082	prodcode	Colpermin gastro-resistant modified-release capsules (McNeil Products Ltd)	58383020
+1264	prodcode	Dicycloverine 10mg tablets	62471020
+1385	prodcode	Merbentyl 10mg Tablet (Florizel Ltd)	50356020
+1480	prodcode	Colofac 135mg tablets (Mylan)	48732020
+1504	prodcode	Buscopan 10mg tablets (Sanofi)	48504020
+1577	prodcode	Mebeverine 100mg tablets	80914020
+1765	prodcode	Colofac 50mg/5ml liquid (Abbott Healthcare Products Ltd)	48733020
+1845	prodcode	Peppermint oil 0.2ml gastro-resistant capsules	65574020
+2175	prodcode	Dicycloverine 10mg/5ml oral solution	62473020
+2315	prodcode	Mebeverine 50mg/5ml oral suspension sugar free	64308020
+2410	prodcode	Merbentyl 20mg Tablet (Florizel Ltd)	50357020
+2575	prodcode	Kolanticon gel (Peckforton Pharmaceuticals Ltd)	50057020
+2682	prodcode	Alverine 60mg capsules	67503020
+2842	prodcode	Spasmonal 60mg capsules (Meda Pharmaceuticals Ltd)	51657020
+2959	prodcode	Pro-banthine 15mg Tablet (Concord Pharmaceuticals Ltd)	51268020
+3518	prodcode	Propantheline bromide 15mg tablets	66296020
+3949	prodcode	Alvercol Granules (Norgine Pharmaceuticals Ltd)	72848020
+4048	prodcode	Hyoscine butylbromide 20mg/1ml solution for injection ampoules	48144020
+4649	prodcode	Spasmonal Forte 120mg capsules (Meda Pharmaceuticals Ltd)	86335020
+4872	prodcode	Colofac IBS 135mg tablets (Mylan)	84583020
+5074	prodcode	Peppermint oil 0.2ml gastro-resistant modified-release capsules	65575020
+5360	prodcode	Colofac MR 200mg capsules (Mylan)	81286020
+5598	prodcode	Ispaghula husk 3.5g / Mebeverine 135mg effervescent granules sachets sugar free	64312020
+7478	prodcode	Buscopan 20mg/1ml solution for injection ampoules (Sanofi)	48505020
+8308	prodcode	Dicycloverine 20mg tablets	62472020
+9705	prodcode	Alverine 120mg capsules	67504020
+10387	prodcode	Colven Sachets (Reckitt Benckiser Healthcare (UK) Ltd)	58280020
+10453	prodcode	Mintec Capsule (Shire Pharmaceuticals Ltd)	59169020
+12289	prodcode	Normacol antispasmodic Granules (Norgine Pharmaceuticals Ltd)	54981020
+12877	prodcode	Alverine citrate with sterculia granules	67507020
+13148	prodcode	Buscopan IBS Relief 10mg tablets (Sanofi)	88782020
+14637	prodcode	Colofac 100 tablets (Abbott Healthcare Products Ltd)	83117020
+16008	prodcode	Peppermint Water	87942020
+18468	prodcode	J Collis Browne's mixture (Thornton & Ross Ltd)	73665020
+18947	prodcode	Atropine sulphate 0.5mg/5ml sugar free oral solution	59193020
+19086	prodcode	Relaxyl 60mg Capsule (SSL International Plc)	79327020
+20587	prodcode	Care ibs relief 135mg Tablet (Thornton & Ross Ltd)	77815020
+20589	prodcode	Equilon 135mg tablets (Chefaro UK Ltd)	86138020
+21385	prodcode	Equilon Herbal 0.2ml gastro-resistant capsules (Chefaro UK Ltd)	54116020
+23063	prodcode	Morphine 1mg/5ml / Peppermint oil 1.5microlitres/5ml oral solution	74224020
+24061	prodcode	Mebeverine 135mg tablets (Teva UK Ltd)	55452020
+26210	prodcode	Fomac 135mg Tablet (Berk Pharmaceuticals Ltd)	57195020
+29873	prodcode	Mebeverine 135mg tablets (Sandoz Ltd)	53928020
+33508	prodcode	Mebeverine 135mg tablets (Mylan)	60537020
+33996	prodcode	Mebeverine 135mg tablets (IVAX Pharmaceuticals UK Ltd)	58917020
+34127	prodcode	Mebeverine 135mg tablets (A A H Pharmaceuticals Ltd)	54075020
+34160	prodcode	Mebeverine 135mg tablets (Actavis UK Ltd)	57032020
+34186	prodcode	Mebeverine 135mg Tablet (Berk Pharmaceuticals Ltd)	54072020
+34483	prodcode	Mebeverine 135mg tablets (Kent Pharmaceuticals Ltd)	63400020
+35268	prodcode	Hyoscine hydrobromide 500micrograms/5ml oral suspension	92829020
+39912	prodcode	Merbentyl 10mg tablets (Sanofi)	96891020
+39978	prodcode	Merbentyl 10mg/5ml syrup (Sanofi)	96895020
+40014	prodcode	Merbentyl 20 tablets (Sanofi)	96893020
+40697	prodcode	Mintec 0.2ml gastro-resistant capsules (Almirall Ltd)	97387020
+42403	prodcode	Peppermint oil 50mg capsule	65576020
+42642	prodcode	Peppermint oil 0.2ml gastro-resistant capsules (A A H Pharmaceuticals Ltd)	75764020
+43073	prodcode	Pro-Banthine 15mg tablets (Kyowa Kirin Ltd)	98292020
+43224	prodcode	Buscopan Cramps 10mg tablets (Sanofi)	98220020
+44801	prodcode	Audmonal 60mg capsules (Teva UK Ltd)	98879020
+46074	prodcode	Ibs relief 135mg Tablet (Generics (UK) Ltd)	99622020
+46332	prodcode	Audmonal Forte 120mg capsules (Teva UK Ltd)	98881020
+46504	prodcode	Apercap 0.2ml gastro-resistant capsules (Teva UK Ltd)	99980020
+46708	prodcode	Dicycloverine hc 10mg/5ml Oral solution (Sanofi)	78115020
+48854	prodcode	Buscopan 10mg tablets (Waymade Healthcare Plc)	233020
+49248	prodcode	Colofac MR 200mg capsules (Lexon (UK) Ltd)	246020
+49526	prodcode	Hyoscine hydrobromide 500micrograms/5ml oral solution	20146020
+49826	prodcode	Buscopan 10mg tablets (DE Pharmaceuticals)	234020
+50865	prodcode	Hyoscine hydrobromide 300micrograms/5ml oral solution	20144020
+51835	prodcode	Dicycloverine 20mg tablets (Zentiva)	223020
+51904	prodcode	Buscopan 10mg tablets (Sigma Pharmaceuticals Plc)	235020
+52191	prodcode	Colofac 135mg tablets (Lexon (UK) Ltd)	255020
+53651	prodcode	Colofac 135mg tablets (DE Pharmaceuticals)	253020
+53965	prodcode	Peppermint oil 0.2ml gastro-resistant capsules (Sigma Pharmaceuticals Plc)	35567020
+54042	prodcode	Mebeverine 135mg tablets (Arrow Generics Ltd)	252020
+54344	prodcode	Hyoscine butylbromide 10mg/5ml oral suspension	20138020
+54598	prodcode	Hyoscine butylbromide 10mg/5ml oral solution	20136020
+54656	prodcode	Atropine sulphate tablets	92511020
+56168	prodcode	Boots IBS Relief 135mg tablets (The Boots Company Plc)	260020
+57501	prodcode	Colofac 135mg tablets (Dowelhurst Ltd)	251020
+58555	prodcode	Hyoscine butylbromide 5mg/5ml oral solution	99316020
+61521	prodcode	Mebeverine 135mg tablets (Almus Pharmaceuticals Ltd)	259020
+61880	prodcode	Hyoscine hydrobromide 400micrograms/5ml oral solution	32431020
+62267	prodcode	Alverine 60mg capsules (Waymade Healthcare Plc)	47043020
+62299	prodcode	Mebeverine 135mg tablets (Phoenix Healthcare Distribution Ltd)	258020
+65211	prodcode	Hyoscine butylbromide 20mg/5ml oral solution	32414020

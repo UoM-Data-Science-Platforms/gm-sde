@@ -1,0 +1,97 @@
+medcode	readcode	Description	CodingSystem
+412	F59..00	Hearing loss	readcode
+467	F59..11	Deafness	readcode
+536	F591.00	Sensorineural hearing loss	readcode
+626	8D23.00	Ear fitting hearing aid	readcode
+686	F59z.00	Deafness NOS	readcode
+1151	F590000	Unspecified conductive hearing loss	readcode
+1681	1C13100	Unilateral deafness	readcode
+1752	F580100	Presbyacusis	readcode
+1774	1C13200	Partial deafness	readcode
+2061	F591000	Unspecified perceptive hearing loss	readcode
+2348	F591.13	Perceptive deafness	readcode
+2552	F581211	Noise induced deafness	readcode
+2625	F591.11	High frequency deafness	readcode
+2876	ZV53200	[V]Fitting or adjustment of hearing aid	readcode
+3171	F591211	Nerve deafness	readcode
+3747	F593.00	"Deaf mutism, NEC"	readcode
+3912	8D2..12	Hearing aid provision	readcode
+4035	1C13300	Bilateral deafness	readcode
+5016	P40..00	Ear anomalies with hearing impairment	readcode
+5149	2BL4.00	O/E - very deaf	readcode
+5967	1C12.00	Hearing difficulty	readcode
+6082	F582.00	Unspecified sudden hearing loss	readcode
+6641	1C13.11	Deafness symptom	readcode
+6846	F591200	Neural hearing loss	readcode
+7085	2BM2.11	O/E - conductive deafness	readcode
+7301	F592100	"Mixed conductive and sensorineural hearing loss, bilateral"	readcode
+7344	Z911100	Fit hearing aid	readcode
+7825	2BM3.11	O/E - perceptive deafness	readcode
+7891	ZE87.17	HOH - Hard of hearing	readcode
+8033	F591.12	Low frequency deafness	readcode
+8941	F590.00	Conductive hearing loss	readcode
+9830	ZE87.00	Hearing loss	readcode
+9882	F592.11	Mixed hearing loss	readcode
+10112	F591600	"Sensorineural hearing loss, bilateral"	readcode
+10170	2DG..00	Hearing aid worn	readcode
+10367	ZE87.11	Deafness	readcode
+10665	F591400	Congenital sensorineural deafness	readcode
+11619	Z9E8100	Hearing aid provision	readcode
+11704	ZE7..00	Hearing problem	readcode
+12324	ZE87.16	HL - Hearing loss	readcode
+12339	SJ15.12	Deafness - traumatic - NOS	readcode
+12692	ZE87.15	HI - Hearing impairment	readcode
+13113	2BL3.00	O/E - significantly deaf	readcode
+13114	2BL..11	O/E - deaf	readcode
+13115	2BL2.00	O/E - slightly deaf	readcode
+14805	1C13.00	Deafness	readcode
+14893	A560200	Rubella deafness	readcode
+14983	F592.00	Mixed conductive and sensorineural deafness	readcode
+15723	ZV41200	[V]Problems with hearing	readcode
+15940	F581200	Noise-induced hearing loss	readcode
+16393	F591z00	Perceptive hearing loss NOS	readcode
+16648	F59z.11	Chronic deafness	readcode
+17407	Z8B5500	Difficulty using hearing aid	readcode
+17699	1C16.00	Deteriorating hearing	readcode
+18008	ZE87.18	Hearing impairment	readcode
+18375	Z8B5311	Uses hearing aid	readcode
+18520	F591100	Sensory hearing loss	readcode
+18945	F590500	"Conductive hearing loss, bilateral"	readcode
+19068	ZE87.19	Hearing impaired	readcode
+19084	F594.00	High frequency deafness	readcode
+19417	Z8B5300	Does use hearing aid	readcode
+19666	ZE87.12	Difficulty hearing	readcode
+19694	7311A00	Insertn bone anchors subcutaneous bone anchored hearing aid	readcode
+20715	2BM4.00	O/E - High tone deafness	readcode
+22102	ZE87.13	Hard of hearing	readcode
+26539	2BL5.00	O/E - completely deaf	readcode
+27901	F592000	"Mix cond/sensneurl hear loss,unlat unrestrc hear/contrlat sd"	readcode
+29191	F591700	"Sensorineurl hear loss,unilat unrestrict hear/contralat side"	readcode
+30206	Z911.00	Hearing aid procedure	readcode
+30355	2BM3.00	O/E tune fork=perceptive deaf	readcode
+30394	Z911500	Checking hearing aid	readcode
+31374	P40z.11	Deafness due to congenital anomaly NEC	readcode
+31748	F590300	Conductive hearing loss due to disorder of middle ear	readcode
+33583	F590z00	Conductive hearing loss NOS	readcode
+35178	Z8B5200	Unable to use hearing aid	readcode
+36660	F590100	Conductive hearing loss due to disorder of external ear	readcode
+38563	F59y.00	Other specified forms of hearing loss	readcode
+39022	1C18.00	Difficulty hearing with background noise	readcode
+42893	2BM2.00	O/E -tune fork=conductive deaf	readcode
+43581	F590600	"Conduct hear loss,unilat+unrestric hearing on contralat side"	readcode
+44282	F595.00	Low frequency deafness	readcode
+45751	F590.11	Conductive deafness	readcode
+47440	F591500	Ototoxicity - deafness	readcode
+47475	1C17.00	Hearing aid problem	readcode
+52758	F590200	Conductive hearing loss due to disorder of tympanic membrane	readcode
+53800	FyuU100	[X]Other specified hearing loss	readcode
+54116	F591y00	Combined perceptive hearing loss	readcode
+58602	8D21.00	Provide head worn hearing aid	readcode
+60293	1C19.00	Difficulty hearing whispers	readcode
+62906	F590y00	Combined conductive hearing loss	readcode
+69894	F591300	Central hearing loss	readcode
+71827	FyuU000	"[X]Deaf mutism, not elsewhere classified"	readcode
+94782	F590400	Conductive hearing loss due to disorder of inner ear	readcode
+96245	F5A..00	Hearing impairment	readcode
+96803	ZV45N00	[V]Bone anchored hearing aid in situ	readcode
+98253	F596.00	Maternally inherited deafness	readcode

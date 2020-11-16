@@ -1,0 +1,79 @@
+prodcode	CodingSystem	productname	gemscriptcode
+535	prodcode	Naratriptan 2.5mg tablets	84750020
+720	prodcode	Imigran 10mg nasal spray (GlaxoSmithKline UK Ltd)	86977020
+1241	prodcode	Imigran subject 6mg/syringe Subcutaneous injection (GlaxoSmithKline UK Ltd)	68824020
+1522	prodcode	Imigran 100mg tablets (GlaxoSmithKline UK Ltd)	57266020
+1614	prodcode	Imigran 50mg tablets (GlaxoSmithKline UK Ltd)	57267020
+1852	prodcode	Sumatriptan 100mg tablets	57226020
+2138	prodcode	Sumatriptan 50mg tablets	57227020
+2934	prodcode	Zolmitriptan 2.5mg tablets	84536020
+3371	prodcode	Maxalt 5mg tablets (Merck Sharp & Dohme Ltd)	86396020
+4188	prodcode	Imigran 20mg nasal spray (GlaxoSmithKline UK Ltd)	84381020
+4237	prodcode	Zomig 2.5mg tablets (AstraZeneca UK Ltd)	84541020
+4536	prodcode	Rizatriptan 10mg tablets	78041020
+4864	prodcode	Rizatriptan 5mg tablets	78040020
+4994	prodcode	Sumatriptan 20mg/0.1ml nasal spray unit dose	84373020
+5140	prodcode	Sumatriptan 6mg/syringe injection	68821020
+5168	prodcode	Rizatriptan 10mg oral lyophilisates sugar free	78042020
+5367	prodcode	Almotriptan 12.5mg tablets	86916020
+5682	prodcode	Zomig Rapimelt 2.5mg orodispersible tablets (AstraZeneca UK Ltd)	52407020
+5860	prodcode	Maxalt Melt 10mg oral lyophilisates (Merck Sharp & Dohme Ltd)	77065020
+6029	prodcode	Zomig 5mg/0.1ml nasal spray 0.1ml unit dose (AstraZeneca UK Ltd)	79546020
+6090	prodcode	Naramig 2.5mg tablets (GlaxoSmithKline UK Ltd)	84754020
+6137	prodcode	Zolmitriptan 5mg/0.1ml nasal spray unit dose	80509020
+6363	prodcode	Frovatriptan 2.5mg tablets	84044020
+6718	prodcode	Zolmitriptan 5mg orodispersible tablets sugar free	88364020
+7129	prodcode	Sumatriptan 10mg/0.1ml nasal spray unit dose	86975020
+7210	prodcode	Zolmitriptan 2.5mg orodispersible tablets sugar free	86549020
+9676	prodcode	Maxalt 10mg tablets (Merck Sharp & Dohme Ltd)	86397020
+9792	prodcode	Almogran 12.5mg tablets (Almirall Ltd)	69152020
+9941	prodcode	Migard 2.5mg tablets (A. Menarini Farmaceutica Internazionale SRL)	84046020
+10112	prodcode	Imigran Radis 100mg tablets (GlaxoSmithKline UK Ltd)	87978020
+10130	prodcode	Imigran Radis 50mg tablets (GlaxoSmithKline UK Ltd)	87976020
+11555	prodcode	Eletriptan 20mg tablets	80380020
+14815	prodcode	Zomig Rapimelt 5mg orodispersible tablets (AstraZeneca UK Ltd)	88366020
+14910	prodcode	Eletriptan 40mg tablets	76762020
+16041	prodcode	Relpax 40mg tablets (Pfizer Ltd)	54792020
+17547	prodcode	Relpax 20mg tablets (Pfizer Ltd)	76759020
+35281	prodcode	Imigran Recovery 50mg tablets (Forest Laboratories UK Ltd)	90869020
+37684	prodcode	Sumatriptan 50mg tablets (A A H Pharmaceuticals Ltd)	72825020
+42405	prodcode	Migraleve Ultra 50mg tablets (McNeil Products Ltd)	96845020
+46721	prodcode	Sumatriptan 6mg/0.5ml solution for injection pre-filled syringes with device	493021
+46722	prodcode	Sumatriptan 6mg/0.5ml solution for injection syringe refill	495021
+46754	prodcode	Imigran Subject 6mg/0.5ml solution for injection pre-filled syringes with device (GlaxoSmithKline UK Ltd)	499021
+46770	prodcode	Sumatriptan 6mg/0.5ml solution for injection pre-filled disposable devices	497021
+47012	prodcode	Imigran Subject 6mg/0.5ml solution for injection syringe refill pack (GlaxoSmithKline UK Ltd)	501021
+47760	prodcode	Sumatriptan 6mg/0.5ml solution for injection pre-filled pen (Sun Pharmaceuticals UK Ltd)	78426020
+48664	prodcode	Sumatriptan 6mg/0.5ml solution for injection pre-filled pen (A A H Pharmaceuticals Ltd)	38077020
+48681	prodcode	Maxalt Melt 10mg oral lyophilisates (Lexon (UK) Ltd)	39504020
+48759	prodcode	Zolmitriptan 5mg tablets	39903020
+50088	prodcode	Imigran 10mg nasal spray (Lexon (UK) Ltd)	14423020
+50138	prodcode	Imigran Radis 50mg tablets (Waymade Healthcare Plc)	4617020
+51024	prodcode	Zomig Rapimelt 2.5mg orodispersible tablets (Mawdsley-Brooks & Company Ltd)	13450020
+51066	prodcode	Maxalt Melt 10mg oral lyophilisates (DE Pharmaceuticals)	4662020
+51409	prodcode	Zomig 5mg/0.1ml nasal spray 0.1ml unit dose (Waymade Healthcare Plc)	41442020
+51434	prodcode	Imigran 50mg tablets (Lexon (UK) Ltd)	4622020
+51867	prodcode	Imigran Subject 6mg/0.5ml solution for injection syringe refill pack (Lexon (UK) Ltd)	29051020
+53448	prodcode	Sumatriptan 50mg tablets (Pfizer Ltd)	41920020
+53586	prodcode	Maxalt 10mg tablets (DE Pharmaceuticals)	4659020
+54807	prodcode	Sumatriptan 50mg tablets (Bristol Laboratories Ltd)	4629020
+55090	prodcode	Sumatriptan 100mg tablets (Arrow Generics Ltd)	73208020
+56583	prodcode	Sumatriptan 100mg tablets (Almus Pharmaceuticals Ltd)	73365020
+56892	prodcode	Sumatriptan 50mg tablets (Milpharm Ltd)	4630020
+57486	prodcode	Sumatriptan 50mg tablets (Dexcel-Pharma Ltd)	72853020
+58189	prodcode	Sumatriptan 50mg tablets (Teva UK Ltd)	73213020
+58324	prodcode	Rizatriptan 10mg orodispersible tablets sugar free	17741021
+59072	prodcode	Sumatriptan 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)	4608020
+59405	prodcode	Sumatriptan 6mg/0.5ml solution for injection pre-filled pen (Waymade Healthcare Plc)	15925021
+59637	prodcode	Maxalt Melt 10mg oral lyophilisates (Mawdsley-Brooks & Company Ltd)	4664020
+60210	prodcode	Sumatriptan 50mg tablets (Almus Pharmaceuticals Ltd)	73362020
+61574	prodcode	Naramig 2.5mg tablets (DE Pharmaceuticals)	4647020
+61840	prodcode	Zolmitriptan 5mg orodispersible tablets sugar free (Teva UK Ltd)	40015020
+62016	prodcode	Naratriptan 2.5mg tablets (A A H Pharmaceuticals Ltd)	41385020
+62122	prodcode	Sumatriptan 100mg tablets (A A H Pharmaceuticals Ltd)	72829020
+62629	prodcode	Sumatriptan 100mg tablets (Waymade Healthcare Plc)	47353020
+63981	prodcode	Zolmitriptan 2.5mg tablets (Teva UK Ltd)	39815020
+64551	prodcode	Sumatriptan 50mg tablets (Sandoz Ltd)	72973020
+64583	prodcode	Migraitan 50mg tablets (Bristol Laboratories Ltd)	27296021
+65258	prodcode	Sumatriptan 50mg tablets (Actavis UK Ltd)	4614020
+65808	prodcode	Rizatriptan 10mg orodispersible tablets sugar free (Aspire Pharma Ltd)	17743021

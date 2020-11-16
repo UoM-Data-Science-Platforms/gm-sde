@@ -1,0 +1,42 @@
+medcode	readcode	Description	CodingSystem
+398	G580.00	Congestive heart failure	readcode
+884	G581.00	Left ventricular failure	readcode
+1223	G58..11	Cardiac failure	readcode
+2062	G58..00	Heart failure	readcode
+2906	G580.11	Congestive cardiac failure	readcode
+4024	G58z.00	Heart failure NOS	readcode
+5255	G581000	Acute left ventricular failure	readcode
+5942	G581.13	Impaired left ventricular function	readcode
+9524	G580.14	Biventricular failure	readcode
+9913	1O1..00	Heart failure confirmed	readcode
+10079	G580.12	Right heart failure	readcode
+10154	G580.13	Right ventricular failure	readcode
+11424	G580300	Compensated cardiac failure	readcode
+17278	G58z.12	Cardiac failure NOS	readcode
+20822	Q48y100	Congenital cardiac failure	readcode
+21837	G232.00	Hypertensive heart&renal dis wth (congestive) heart failure	readcode
+22262	G1yz100	Rheumatic left ventricular failure	readcode
+23481	G581.11	Asthma - cardiac	readcode
+23566	Q490.00	Neonatal cardiac failure	readcode
+23707	G580000	Acute congestive heart failure	readcode
+27884	G580200	Decompensated cardiac failure	readcode
+27964	G582.00	Acute heart failure	readcode
+32671	G580100	Chronic congestive heart failure	readcode
+43618	G581.12	Pulmonary oedema - acute	readcode
+57987	G234.00	Hyperten heart&renal dis+both(congestv)heart and renal fail	readcode
+74131	4271		OXMIS
+74146	4270C		OXMIS
+74516	7824FH		OXMIS
+75276	7824FC		OXMIS
+75716	4271A		OXMIS
+75877	4270		OXMIS
+80109	7824AC		OXMIS
+82617	4271H		OXMIS
+82757	4270CC		OXMIS
+83557	4270R		OXMIS
+83679	402 C		OXMIS
+83955	4270D		OXMIS
+84356	4270LW		OXMIS
+84734	428 A		OXMIS
+89828	4270DR		OXMIS
+91635	7824A		OXMIS

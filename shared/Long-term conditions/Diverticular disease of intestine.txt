@@ -1,0 +1,41 @@
+medcode	readcode	Description	CodingSystem
+347	J511.00	Diverticulitis	readcode
+1101	J510500	Diverticulosis of the colon	readcode
+2044	J510900	Bleeding diverticulosis	readcode
+2536	J510700	Diverticulosis of the large intestine NOS	readcode
+3538	J510000	Diverticulosis of the duodenum	readcode
+3593	J510.00	Diverticulosis	readcode
+5686	J513.00	Diverticular abscess	readcode
+5857	J51..11	Diverticular disease	readcode
+7662	J510z00	Diverticulosis NOS	readcode
+8322	J51..00	Diverticula of intestine	readcode
+9511	J51z.00	Diverticula of the intestine NOS	readcode
+10437	J511z00	Diverticulitis NOS	readcode
+10483	J511500	Diverticulitis of the colon	readcode
+12345	J511000	Diverticulitis of the duodenum	readcode
+14942	J512.00	Perforated diverticulum	readcode
+17105	J510800	Divertic dis/both sml+lge intestin without perfor or abscess	readcode
+19935	J511y00	Diverticulitis unspecified	readcode
+27444	J510100	Diverticulosis of the jejunum	readcode
+31365	J511300	Diverticulitis of the small intestine unspecified	readcode
+37588	J512000	Perforated diverticulum of duodenum	readcode
+37813	J512500	Perforated diverticulum of colon	readcode
+38941	J512800	Divertic disease/both sml+lge intestin with perforat+abscess	readcode
+42866	J512200	Perforated diverticulum of ileum	readcode
+44647	J510200	Diverticulosis of the ileum	readcode
+47924	J510300	Diverticulosis of the small intestine unspecified	readcode
+48173	J512100	Perforated diverticulum of jejunum	readcode
+48589	J512600	Perforated diverticulum of large intestine unspecified	readcode
+49066	J512y00	Perforated diverticulum unspecified	readcode
+49084	J510y00	Diverticulosis unspecified	readcode
+50313	J512700	Perforated diverticulum of large intestine NOS	readcode
+51511	J511600	Diverticulitis of the large intestine unspecified	readcode
+53092	J510600	Diverticulosis of the large intestine unspecified	readcode
+61664	J511200	Diverticulitis of the ileum	readcode
+61722	J511100	Diverticulitis of the jejunum	readcode
+62979	J511700	Diverticulitis of the large intestine NOS	readcode
+69918	J512z00	Perforated diverticulum of intestine NOS	readcode
+71130	J512300	Perforated diverticulum of small intestine unspecified	readcode
+72590	J511400	Diverticulitis of the small intestine NOS	readcode
+73334	J510400	Diverticulosis of the small intestine NOS	readcode
+106340	J512400	Perforated diverticulum of small intestine NOS	readcode

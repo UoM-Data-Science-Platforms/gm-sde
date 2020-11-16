@@ -1,0 +1,40 @@
+medcode	readcode	Description	CodingSystem
+593	J40..11	Crohn's disease	readcode
+704	J410100	Ulcerative colitis	readcode
+1784	J41..12	Ulcerative colitis and/or proctitis	readcode
+5133	J41..00	Idiopathic proctocolitis	readcode
+6538	J401z11	Crohn's colitis	readcode
+6650	J410.00	Ulcerative proctocolitis	readcode
+8347	J410300	Ulcerative proctitis	readcode
+9359	J400z00	Crohn's disease of the small bowel NOS	readcode
+11286	J40..00	Regional enteritis - Crohn's disease	readcode
+15207	J41z.00	Idiopathic proctocolitis NOS	readcode
+15773	J402.00	Regional ileocolitis	readcode
+20688	J401z00	Crohn's disease of the large bowel NOS	readcode
+22516	J410400	Exacerbation of ulcerative colitis	readcode
+23950	J41..11	Mucous colitis and/or proctitis	readcode
+24550	J41y.00	Other idiopathic proctocolitis	readcode
+24858	J410200	Ulcerative rectosigmoiditis	readcode
+28476	J400200	Crohn's disease of the terminal ileum	readcode
+29616	J08z900	Orofacial Crohn's disease	readcode
+30433	J411.00	Ulcerative (chronic) enterocolitis	readcode
+33456	J410z00	Ulcerative proctocolitis NOS	readcode
+36913	J400500	Exacerbation of Crohn's disease of small intestine	readcode
+39037	J401200	Exacerbation of Crohn's disease of large intestine	readcode
+39278	J400400	Crohn's disease of the ileum NOS	readcode
+42822	J412.00	Ulcerative (chronic) ileocolitis	readcode
+43090	J41yz00	Other idiopathic proctocolitis NOS	readcode
+44426	J401.00	Regional enteritis of the large bowel	readcode
+48732	J410000	Ulcerative ileocolitis	readcode
+51576	J400.00	Regional enteritis of the small bowel	readcode
+51578	J40..12	Granulomatous enteritis	readcode
+52449	J40z.00	Regional enteritis NOS	readcode
+53743	Jyu4100	[X]Other ulcerative colitis	readcode
+59994	J40z.11	Crohn's disease NOS	readcode
+62628	J401000	Regional enteritis of the colon	readcode
+63036	J400100	Regional enteritis of the jejunum	readcode
+64773	J401100	Regional enteritis of the rectum	readcode
+66238	J400300	Crohn's disease of the ileum unspecified	readcode
+69959	Jyu4000	[X]Other Crohn's disease	readcode
+71945	J400000	Regional enteritis of the duodenum	readcode
+104259	J413.00	Ulcerative pancolitis	readcode

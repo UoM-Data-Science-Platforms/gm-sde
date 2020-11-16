@@ -1,0 +1,291 @@
+medcode	readcode	Description	CodingSystem
+240	G3...00	Ischaemic heart disease	readcode
+241	G30..00	Acute myocardial infarction	readcode
+732	7928z00	Transluminal balloon angioplasty of coronary artery NOS	OXMIS
+737	792..11	Coronary artery bypass graft operations	OXMIS
+1204	G30..14	Heart attack	readcode
+1344	G340.12	Coronary artery disease	readcode
+1414	G33z300	Angina on effort	readcode
+1430	G33..00	Angina pectoris	readcode
+1431	G311.13	Unstable angina	readcode
+1655	G340.11	Triple vessel disease of the heart	readcode
+1676	G3z..00	Ischaemic heart disease NOS	readcode
+1677	G30..15	MI - acute myocardial infarction	readcode
+1678	G308.00	Inferior myocardial infarction NOS	readcode
+1792	G3...13	IHD - Ischaemic heart disease	readcode
+2155	G341000	Ventricular cardiac aneurysm	readcode
+2491	G30..12	Coronary thrombosis	readcode
+2901	7928	Transluminal balloon angioplasty of coronary artery	OXMIS
+3159	792Dy00	Other specified other bypass of coronary artery	OXMIS
+3704	G307.00	Acute subendocardial infarction	readcode
+3999	G340000	Single coronary vessel disease	readcode
+4017	G32..00	Old myocardial infarction	readcode
+4656	G311.11	Crescendo angina	readcode
+5030	ZV45K00	[V]Presence of coronary artery bypass graft	OXMIS
+5254	G340100	Double coronary vessel disease	readcode
+5387	G301.00	Other specified anterior myocardial infarction	readcode
+5413	G340.00	Coronary atherosclerosis	readcode
+5674	ZV45K11	[V]Presence of coronary artery bypass graft - CABG	OXMIS
+5703	7928.11	Percutaneous balloon coronary angioplasty	OXMIS
+5744	7927500	Open angioplasty of coronary artery	OXMIS
+5904	792..00	Coronary artery operations	OXMIS
+6182	7929y00	Other therapeutic transluminal op on coronary artery OS	OXMIS
+6331	G341.00	Aneurysm of heart	readcode
+6336	14A5.00	H/O: angina pectoris	readcode
+6980	ZV45L00	[V]Status following coronary angioplasty NOS	OXMIS
+7134	7921.11	Other autograft bypass of coronary artery	OXMIS
+7137	7920y00	Saphenous vein graft replacement of coronary artery OS	OXMIS
+7320	G343.00	Ischaemic cardiomyopathy	readcode
+7347	G311100	Unstable angina	readcode
+7442	7920200	Saphenous vein graft replacement of three coronary arteries	OXMIS
+7609	7921z00	Other autograft replacement of coronary artery NOS	OXMIS
+7634	7920100	Saphenous vein graft replacement of two coronary arteries	OXMIS
+7696	G33z200	Syncope anginosa	readcode
+8312	7920.11	Saphenous vein graft bypass of coronary artery	OXMIS
+8568	G37..00	Cardiac syndrome X	readcode
+8679	7920000	Saphenous vein graft replacement of one coronary artery	OXMIS
+8935	G302.00	Acute inferolateral infarction	readcode
+8942	7929400	Insertion of coronary artery stent	OXMIS
+9276	G31y000	Acute coronary insufficiency	readcode
+9413	G31y.00	Other acute and subacute ischaemic heart disease	readcode
+9414	7921	Other autograft replacement of coronary artery	OXMIS
+9507	G307000	Acute non-Q wave infarction	readcode
+9555	G33z500	Post infarct angina	readcode
+10209	7921200	Autograft replacement of three coronary arteries NEC	OXMIS
+10562	G307100	Acute non-ST segment elevation myocardial infarction	readcode
+10603	792z.00	Coronary artery operations NOS	OXMIS
+11048	G331.11	Variant angina pectoris	readcode
+11610	7920300	Saphenous vein graft replacement of four+ coronary arteries	OXMIS
+11983	G311500	Acute coronary syndrome	readcode
+12139	G300.00	Acute anterolateral infarction	readcode
+12229	G30X000	Acute ST segment elevation myocardial infarction	readcode
+12734	SP07600	Coronary artery bypass graft occlusion	readcode
+12804	G33z700	Stable angina	readcode
+12986	G331.00	Prinzmetal's angina	readcode
+13566	G30..11	Attack - heart	readcode
+13571	G30..16	Thrombosis - coronary	readcode
+14658	G30z.00	Acute myocardial infarction NOS	readcode
+14897	G301z00	Anterior myocardial infarction NOS	readcode
+14898	G305.00	Lateral myocardial infarction NOS	readcode
+15661	G310.11	Dressler's syndrome	readcode
+15754	G34z.00	Other chronic ischaemic heart disease NOS	readcode
+16408	G32..11	Healed myocardial infarction	readcode
+17133	G30A.00	Mural thrombosis	readcode
+17307	G311200	Angina at rest	readcode
+17464	G32..12	Personal history of myocardial infarction	readcode
+17689	G30..17	Silent myocardial infarction	readcode
+17872	G301100	Acute anteroseptal infarction	readcode
+18118	G311400	Worsening angina	readcode
+18125	G330000	Nocturnal angina	readcode
+18249	7920	Saphenous vein graft replacement of coronary artery	OXMIS
+18643	ZV45800	[V]Presence of coronary angioplasty implant and graft	OXMIS
+18670	7928000	Percut transluminal balloon angioplasty one coronary artery	OXMIS
+18842	G35..00	Subsequent myocardial infarction	readcode
+18889	G34z000	Asymptomatic coronary heart disease	readcode
+18913	ZV45700	[V]Presence of aortocoronary bypass graft	OXMIS
+19046	7929300	Rotary blade coronary angioplasty	OXMIS
+19193	7923z00	Prosthetic replacement of coronary artery NOS	OXMIS
+19402	7923	Prosthetic replacement of coronary artery	OXMIS
+19413	7921100	Autograft replacement of two coronary arteries NEC	OXMIS
+19655	G311.14	Angina at rest	readcode
+20095	G330.00	Angina decubitus	readcode
+20903	7A6G100	Peroperative angioplasty	OXMIS
+21844	G31y300	Transient myocardial ischaemia	readcode
+22020	792B000	Endarterectomy of coronary artery NEC	OXMIS
+22383	G3y..00	Other specified ischaemic heart disease	readcode
+22647	7925311	LIMA single anastomosis	OXMIS
+22828	7929000	Percutaneous transluminal laser coronary angioplasty	OXMIS
+23078	G34y100	Chronic myocardial ischaemia	readcode
+23579	G310.00	Postmyocardial infarction syndrome	readcode
+23708	G361.00	Atrial septal defect/curr comp folow acut myocardal infarct	readcode
+23892	G304.00	Posterior myocardial infarction NOS	readcode
+24126	G360.00	Haemopericardium/current comp folow acut myocard infarct	readcode
+24540	G34y000	Chronic coronary insufficiency	readcode
+24888	7929	Other therapeutic transluminal operations on coronary artery	OXMIS
+25842	G33z.00	Angina pectoris NOS	readcode
+26863	G33z600	New onset angina	readcode
+27484	G341.11	Cardiac aneurysm	readcode
+27951	G31..00	Other acute and subacute ischaemic heart disease	readcode
+27977	G31yz00	Other acute and subacute ischaemic heart disease NOS	readcode
+28138	G34..00	Other chronic ischaemic heart disease	readcode
+28554	G33zz00	Angina pectoris NOS	readcode
+28736	G30y000	Acute atrial infarction	readcode
+28837	7925.11	Creation of bypass from mammary artery to coronary artery	OXMIS
+29421	G344.00	Silent myocardial ischaemia	readcode
+29553	G366.00	"Thrombosis atrium,auric append&vent/curr comp foll acute MI"	readcode
+29643	G303.00	Acute inferoposterior infarction	readcode
+29758	G30X.00	Acute transmural myocardial infarction of unspecif site	readcode
+29902	G330z00	Angina decubitus NOS	readcode
+30330	G309.00	Acute Q-wave infarct	readcode
+30421	G30..13	Cardiac rupture following myocardial infarction (MI)	readcode
+31519	7925100	Double implant of mammary arteries into coronary arteries	OXMIS
+31540	7924200	Revision of bypass for three coronary arteries	OXMIS
+31556	7922	Allograft replacement of coronary artery	OXMIS
+31571	792y.00	Other specified operations on coronary artery	OXMIS
+31679	7929z00	Other therapeutic transluminal op on coronary artery NOS	OXMIS
+32272	G38..00	Postoperative myocardial infarction	readcode
+32450	G33z400	Ischaemic chest pain	readcode
+32651	7922.11	Allograft bypass of coronary artery	OXMIS
+32854	G30B.00	Acute posterolateral myocardial infarction	readcode
+33461	7924	Revision of bypass for coronary artery	OXMIS
+33471	792Dz00	Other bypass of coronary artery NOS	OXMIS
+33620	792B.00	Repair of coronary artery NEC	OXMIS
+33650	7929100	Percut transluminal coronary thrombolysis with streptokinase	OXMIS
+33718	7925000	Double anastomosis of mammary arteries to coronary arteries	OXMIS
+33735	7928100	Percut translum balloon angioplasty mult coronary arteries	OXMIS
+34328	G311300	Refractory angina	readcode
+34633	G34y.00	Other specified chronic ischaemic heart disease	readcode
+34803	G30y.00	Other acute myocardial infarction	readcode
+34963	792D.00	Other bypass of coronary artery	OXMIS
+34965	792A.00	Diagnostic transluminal operations on coronary artery	OXMIS
+35119	G501.00	Post infarction pericarditis	readcode
+35674	14A3.00	H/O: myocardial infarct <60	readcode
+35713	G34yz00	Other specified chronic ischaemic heart disease NOS	readcode
+36011	7923.11	Prosthetic bypass of coronary artery	OXMIS
+36423	G36..00	Certain current complication follow acute myocardial infarct	readcode
+36523	G311.00	Preinfarction syndrome	readcode
+36609	G342.00	Atherosclerotic cardiovascular disease	readcode
+36854	G332.00	Coronary artery spasm	readcode
+37657	G362.00	Ventric septal defect/curr comp fol acut myocardal infarctn	readcode
+37682	7925	Connection of mammary artery to coronary artery	OXMIS
+37719	7925y00	Connection of mammary artery to coronary artery OS	OXMIS
+38609	G351.00	Subsequent myocardial infarction of inferior wall	readcode
+38813	7A54500	Rotary blade angioplasty	OXMIS
+39449	G312.00	Coronary thrombosis not resulting in myocardial infarction	readcode
+39546	Gyu3000	[X]Other forms of angina pectoris	readcode
+39655	G311.12	Impending infarction	readcode
+39693	G31y200	Subendocardial ischaemia	readcode
+40399	14A4.00	H/O: myocardial infarct >60	readcode
+40429	G301000	Acute anteroapical infarction	readcode
+40996	7929111	Percut translum coronary thrombolytic therapy- streptokinase	OXMIS
+41221	G30y200	Acute septal infarction	readcode
+41547	7928y00	Transluminal balloon angioplasty of coronary artery OS	OXMIS
+41677	G341z00	Aneurysm of heart NOS	readcode
+41757	7927z00	Other open operation on coronary artery NOS	OXMIS
+41835	G384.00	Postoperative subendocardial myocardial infarction	readcode
+42304	7929500	Insertion of drug-eluting coronary artery stent	OXMIS
+42462	7928200	Percut translum balloon angioplasty bypass graft coronary a	OXMIS
+42708	7921300	Autograft replacement of four of more coronary arteries NEC	OXMIS
+43939	793G.00	Perc translumin balloon angioplasty stenting coronary artery	OXMIS
+44561	7921000	Autograft replacement of one coronary artery NEC	OXMIS
+44585	792Bz00	Repair of coronary artery NOS	OXMIS
+44723	7925200	Single anast mammary art to left ant descend coronary art	OXMIS
+45370	7922300	Allograft replacement of four or more coronary arteries	OXMIS
+45809	G350.00	Subsequent myocardial infarction of anterior wall	readcode
+45886	7922200	Allograft replacement of three coronary arteries	OXMIS
+46017	G30yz00	Other acute myocardial infarction NOS	readcode
+46112	G380.00	Postoperative transmural myocardial infarction anterior wall	readcode
+46166	G35X.00	Subsequent myocardial infarction of unspecified site	readcode
+46276	G381.00	Postoperative transmural myocardial infarction inferior wall	readcode
+47788	7927	Other open operations on coronary artery	OXMIS
+48206	7927300	Transposition of coronary artery NEC	OXMIS
+48767	7922z00	Allograft replacement of coronary artery NOS	OXMIS
+48822	7925011	LIMA sequential anastomosis	OXMIS
+50372	14AH.00	H/O: Myocardial infarction in last year	readcode
+51507	7925300	Single anastomosis of mammary artery to coronary artery NEC	OXMIS
+51515	7920z00	Saphenous vein graft replacement coronary artery NOS	OXMIS
+51702	7927400	Exploration of coronary artery	OXMIS
+52938	7924000	Revision of bypass for one coronary artery	OXMIS
+54251	G311z00	Preinfarction syndrome NOS	readcode
+54535	G33z100	Stenocardia	readcode
+55092	792C000	Replacement of coronary arteries using multiple methods	OXMIS
+55137	G311011	MI - myocardial infarction aborted	readcode
+55598	792C.00	Other replacement of coronary artery	OXMIS
+56905	792Ay00	Diagnostic transluminal operation on coronary artery OS	OXMIS
+56990	7925z00	Connection of mammary artery to coronary artery NOS	OXMIS
+57062	14AJ.00	H/O: Angina in last year	readcode
+57241	7922100	Allograft replacement of two coronary arteries	OXMIS
+57634	7924z00	Revision of bypass for coronary artery NOS	OXMIS
+58198	K306 A		OXMIS
+58256	K3043C		OXMIS
+58401	K3043T		OXMIS
+59189	G363.00	Ruptur cardiac wall w'out haemopericard/cur comp fol ac MI	readcode
+59193	G341200	Aneurysm of coronary vessels	readcode
+59423	7922y00	Other specified allograft replacement of coronary artery	OXMIS
+59940	G364.00	Ruptur chordae tendinae/curr comp fol acute myocard infarct	readcode
+60067	793G000	Perc translum ball angio insert 1-2 drug elut stents cor art	OXMIS
+60753	7926300	Single implantation thoracic artery into coronary artery NEC	OXMIS
+61208	793Gz00	Perc translum balloon angioplasty stenting coronary art NOS	OXMIS
+61248	792Az00	Diagnostic transluminal operation on coronary artery NOS	OXMIS
+61310	7921y00	Other autograft replacement of coronary artery OS	OXMIS
+62608	7926000	Double anastom thoracic arteries to coronary arteries NEC	OXMIS
+62626	G30y100	Acute papillary muscle infarction	readcode
+63153	7924500	Revision of implantation of thoracic artery into heart	OXMIS
+63467	G306.00	True posterior myocardial infarction	readcode
+64923	7A6H300	Prosthetic graft patch angioplasty	OXMIS
+66236	7923200	Prosthetic replacement of three coronary arteries	OXMIS
+66388	G33z000	Status anginosus	readcode
+66583	7929200	Percut translum inject therap subst to coronary artery NEC	OXMIS
+66664	7923100	Prosthetic replacement of two coronary arteries	OXMIS
+66921	7A6H400	Percutaneous transluminal angioplasty of vascular graft	OXMIS
+67087	G341100	Other cardiac wall aneurysm	readcode
+67554	7924100	Revision of bypass for two coronary arteries	OXMIS
+67591	7926200	Single anastomosis of thoracic artery to coronary artery NEC	OXMIS
+67761	7923300	Prosthetic replacement of four or more coronary arteries	OXMIS
+68123	7925312	RIMA single anastomosis	OXMIS
+68139	7925400	Single implantation of mammary artery into coronary artery	OXMIS
+68357	G31y100	Microinfarction of heart	readcode
+68748	G38z.00	"Postoperative myocardial infarction, unspecified"	readcode
+69247	792By00	Other specified repair of coronary artery	OXMIS
+69474	G365.00	Rupture papillary muscle/curr comp fol acute myocard infarct	readcode
+70111	7922000	Allograft replacement of one coronary artery	OXMIS
+70755	792Cz00	Replacement of coronary artery NOS	OXMIS
+72562	G353.00	Subsequent myocardial infarction of other sites	readcode
+72780	7926z00	Connection of other thoracic artery to coronary artery NOS	OXMIS
+74092	4109N		OXMIS
+74151	4139N		OXMIS
+74336	4139U		OXMIS
+74379	4119N		OXMIS
+74480	4139		OXMIS
+74618	4109NA		OXMIS
+74634	4130		OXMIS
+74650	4109H		OXMIS
+74803	4100N		OXMIS
+75123	4109NC		OXMIS
+75840	4109TC		OXMIS
+76830	4109NH		OXMIS
+76831	429 AH		OXMIS
+77092	4119P		OXMIS
+77280	4109CL		OXMIS
+77374	4139AA		OXMIS
+77984	4129T		OXMIS
+79034	4139M		OXMIS
+79268	4139CO		OXMIS
+79499	4139E		OXMIS
+80024	4130E		OXMIS
+81779	K3043		OXMIS
+83376	4109HE		OXMIS
+84228	4109TL		OXMIS
+84273	4129TH		OXMIS
+84291	4109TM		OXMIS
+84418	4139C		OXMIS
+84951	4129B		OXMIS
+85001	4100NA		OXMIS
+85947	793G200	Perc translum balloon angioplasty insert 1-2 stents cor art	OXMIS
+86071	7928300	Percut translum cutting balloon angioplasty coronary artery	OXMIS
+86094	4139AT		OXMIS
+87849	793G100	Perc tran ball angio ins 3 or more drug elut stents cor art	OXMIS
+87937	4109TE		OXMIS
+88735	4139PB		OXMIS
+89513	4100T		OXMIS
+89832	4139PA		OXMIS
+90211	4109CA		OXMIS
+91358	4109CR		OXMIS
+91532	4139PC		OXMIS
+91774	G341300	Acquired atrioventricular fistula of heart	readcode
+92233	7925012	RIMA sequential anastomosis	OXMIS
+92419	7923000	Prosthetic replacement of one coronary artery	OXMIS
+92927	793G300	Percutaneous cor balloon angiop 3 more stents cor art NEC	OXMIS
+93618	7929600	Percutaneous transluminal atherectomy of coronary artery	OXMIS
+93706	793H000	Percutaneous transluminal balloon dilation cardiac conduit	OXMIS
+93828	792Cy00	Other specified replacement of coronary artery	OXMIS
+95382	7927y00	Other specified other open operation on coronary artery	OXMIS
+96804	7926	Connection of other thoracic artery to coronary artery	OXMIS
+96838	Gyu3400	[X]Acute transmural myocardial infarction of unspecif site	readcode
+97953	7924y00	Other specified revision of bypass for coronary artery	OXMIS
+99991	Gyu3600	[X]Subsequent myocardial infarction of unspecified site	readcode
+101569	7924300	Revision of bypass for four or more coronary arteries	OXMIS
+105250	G341111	Mural cardiac aneurysm	readcode
+105479	G39..00	Coronary microvascular disease	readcode
+106812	G383.00	Postoperative transmural myocardial infarction unspec site	readcode
+109035	Gyu3500	[X]Subsequent myocardial infarction of other sites	readcode

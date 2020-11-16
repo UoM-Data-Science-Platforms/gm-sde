@@ -1,0 +1,69 @@
+medcode	readcode	Description	CodingSystem
+1350	E00..12	Senile/presenile dementia	readcode
+1916	E00..11	Senile dementia	readcode
+1917	F110.00	Alzheimer's disease	readcode
+4357	Eu02z14	[X] Senile dementia NOS	readcode
+4693	Eu02z00	[X] Unspecified dementia	readcode
+5931	1461	H/O: dementia	readcode
+6578	Eu01.00	[X]Vascular dementia	readcode
+7323	E000.00	Uncomplicated senile dementia	readcode
+7572	F116.00	Lewy body disease	readcode
+7664	Eu00.00	[X]Dementia in Alzheimer's disease	readcode
+8195	Eu00z11	[X]Alzheimer's dementia unspec	readcode
+8634	E004.11	Multi infarct dementia	readcode
+8934	Eu01200	[X]Subcortical vascular dementia	readcode
+9509	Eu02300	[X]Dementia in Parkinson's disease	readcode
+9565	Eu01.11	[X]Arteriosclerotic dementia	readcode
+11136	F111.00	Pick's disease	readcode
+11175	Eu01100	[X]Multi-infarct dementia	readcode
+11379	Eu00112	"[X]Senile dementia,Alzheimer's type"	readcode
+12621	Eu02.00	[X]Dementia in other diseases classified elsewhere	readcode
+15165	E001.00	Presenile dementia	readcode
+16797	F110000	Alzheimer's disease with early onset	readcode
+18386	E002000	Senile dementia with paranoia	readcode
+19393	Eu01z00	"[X]Vascular dementia, unspecified"	readcode
+19477	E004.00	Arteriosclerotic dementia	readcode
+21887	E002100	Senile dementia with depression	readcode
+25386	E041.00	Dementia in conditions EC	readcode
+25704	Eu00011	"[X]Presenile dementia,Alzheimer's type"	readcode
+26270	Eu02500	[X]Lewy body dementia	readcode
+26323	Eu10711	[X]Alcoholic dementia NOS	readcode
+27342	E012.11	Alcoholic dementia NOS	readcode
+27677	E001300	Presenile dementia with depression	readcode
+27759	Eu02z16	"[X] Senile dementia, depressed or paranoid type"	readcode
+28402	Eu02000	[X]Dementia in Pick's disease	readcode
+29386	Eu00z00	"[X]Dementia in Alzheimer's disease, unspecified"	readcode
+30032	E001200	Presenile dementia with paranoia	readcode
+30706	Eu00200	"[X]Dementia in Alzheimer's dis, atypical or mixed type"	readcode
+31016	Eu01300	[X]Mixed cortical and subcortical vascular dementia	readcode
+32057	F110100	Alzheimer's disease with late onset	readcode
+33707	E00..00	Senile and presenile organic psychotic conditions	readcode
+34944	Eu02z13	[X] Primary degenerative dementia NOS	readcode
+37014	Eu02200	[X]Dementia in Huntington's disease	readcode
+37015	E003.00	Senile dementia with delirium	readcode
+38438	E001z00	Presenile dementia NOS	readcode
+38678	Eu00100	[X]Dementia in Alzheimer's disease with late onset	readcode
+41089	E002z00	Senile dementia with depressive or paranoid features NOS	readcode
+41185	Eu02400	[X]Dementia in human immunodef virus [HIV] disease	readcode
+42279	E004z00	Arteriosclerotic dementia NOS	readcode
+42602	E001000	Uncomplicated presenile dementia	readcode
+43089	E004000	Uncomplicated arteriosclerotic dementia	readcode
+43292	E004300	Arteriosclerotic dementia with depression	readcode
+43346	Eu00113	"[X]Primary degen dementia of Alzheimer's type, senile onset"	readcode
+44674	E002.00	Senile dementia with depressive or paranoid features	readcode
+46488	Eu01000	[X]Vascular dementia of acute onset	readcode
+46762	Eu00111	[X]Alzheimer's disease type 1	readcode
+48501	Eu02z11	[X] Presenile dementia NOS	readcode
+49263	Eu00000	[X]Dementia in Alzheimer's disease with early onset	readcode
+49513	E001100	Presenile dementia with delirium	readcode
+53446	Eu04100	[X]Delirium superimposed on dementia	readcode
+54106	Eu02100	[X]Dementia in Creutzfeldt-Jakob disease	readcode
+54505	E012.00	Other alcoholic dementia	readcode
+55313	Eu01y00	[X]Other vascular dementia	readcode
+55467	E004200	Arteriosclerotic dementia with paranoia	readcode
+55838	Eu01111	[X]Predominantly cortical dementia	readcode
+56912	E004100	Arteriosclerotic dementia with delirium	readcode
+59122	Fyu3000	[X]Other Alzheimer's disease	readcode
+60059	Eu00012	"[X]Primary degen dementia, Alzheimer's type, presenile onset"	readcode
+61528	Eu00013	[X]Alzheimer's disease type 2	readcode
+64267	Eu02y00	[X]Dementia in other specified diseases classif elsewhere	readcode

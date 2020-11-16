@@ -1,0 +1,55 @@
+medcode	readcode	Description	CodingSystem
+669	E250000	Nondependent alcohol abuse, unspecified	readcode
+2082	E01y000	Alcohol withdrawal syndrome	readcode
+2084	E23..00	Alcohol dependence syndrome	readcode
+4500	E011000	Korsakov's alcoholic psychosis	readcode
+5611	Eu10.00	[X]Mental and behavioural disorders due to use of alcohol	readcode
+5740	E230.00	Acute alcoholic intoxication in alcoholism	readcode
+6169	E23z.00	Alcohol dependence syndrome NOS	readcode
+7746	E250.00	Nondependent alcohol abuse	readcode
+11106	E011100	Korsakov's alcoholic psychosis with peripheral neuritis	readcode
+12353	Eu10500	[X]Mental & behav dis due to use alcohol: psychotic disorder	readcode
+12442	66e..00	Alcohol disorder monitoring	readcode
+12974	E250200	Nondependent alcohol abuse, episodic	readcode
+16225	E010.00	Alcohol withdrawal delirium	readcode
+16237	E01..00	Alcoholic psychoses	readcode
+17266	63C7.00	Maternal alcohol abuse	readcode
+18636	E011200	Wernicke-Korsakov syndrome	readcode
+19494	136S.00	Hazardous alcohol use	readcode
+20514	Eu10300	[X]Mental and behav dis due to use alcohol: withdrawal state	readcode
+20762	E011.00	Alcohol amnestic syndrome	readcode
+21624	E230200	Episodic acute alcoholic intoxication in alcoholism	readcode
+21879	Eu10100	[X]Mental and behav dis due to use of alcohol: harmful use	readcode
+23610	E250100	Nondependent alcohol abuse, continuous	readcode
+24064	E231100	Continuous chronic alcoholism	readcode
+24485	E231300	Chronic alcoholism in remission	readcode
+25110	E013.00	Alcohol withdrawal hallucinosis	readcode
+26106	E231200	Episodic chronic alcoholism	readcode
+28150	E250z00	Nondependent alcohol abuse NOS	readcode
+30404	E015.00	Alcoholic paranoia	readcode
+30695	136T.00	Harmful alcohol use	readcode
+31443	E231.00	Chronic alcoholism	readcode
+31569	E250300	Nondependent alcohol abuse in remission	readcode
+32927	Eu10800	[X]Alcohol withdrawal-induced seizure	readcode
+32964	66e0.00	Alcohol abuse monitoring	readcode
+33635	E231z00	Chronic alcoholism NOS	readcode
+33670	E01y.00	Other alcoholic psychosis	readcode
+36296	E230z00	Acute alcoholic intoxication in alcoholism NOS	readcode
+37946	E012000	Chronic alcoholic brain syndrome	readcode
+39327	Eu10200	[X]Mental and behav dis due to use alcohol: dependence syndr	readcode
+39799	Eu10600	[X]Mental and behav dis due to use alcohol: amnesic syndrome	readcode
+40530	E230000	Acute alcoholic intoxication, unspecified, in alcoholism	readcode
+41920	E011z00	Alcohol amnestic syndrome NOS	readcode
+41983	Z191.00	Alcohol detoxification	readcode
+43193	E231000	Unspecified chronic alcoholism	readcode
+44299	Eu10000	[X]Mental & behav dis due to use alcohol: acute intoxication	readcode
+45169	Eu10y00	[X]Men & behav dis due to use alcohol: oth men & behav dis	readcode
+54505	E012.00	Other alcoholic dementia	readcode
+56947	E230100	Continuous acute alcoholic intoxication in alcoholism	readcode
+57939	E014.00	Pathological alcohol intoxication	readcode
+59574	E230300	Acute alcoholic intoxication in remission, in alcoholism	readcode
+62000	Eu10700	[X]Men & behav dis due alcoh: resid & late-onset psychot dis	readcode
+64101	Eu10400	[X]Men & behav dis due alcohl: withdrawl state with delirium	readcode
+64389	Eu10z00	[X]Ment & behav dis due use alcohol: unsp ment & behav dis	readcode
+67651	E01z.00	Alcoholic psychosis NOS	readcode
+68111	E01yz00	Other alcoholic psychosis NOS	readcode

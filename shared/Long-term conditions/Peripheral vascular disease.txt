@@ -1,0 +1,6 @@
+medcode	readcode	Description	CodingSystem
+1517	G73z000	Intermittent claudication	readcode
+2760	G73zz00	Peripheral vascular disease NOS	readcode
+3530	G73z.00	Peripheral vascular disease NOS	readcode
+5943	G73..00	Other peripheral vascular disease	readcode
+18499	662U.00	Peripheral vascular disease monitoring	readcode
