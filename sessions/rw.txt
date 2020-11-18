@@ -30,3 +30,21 @@
 2020-11-05 13:30-14:00
 - To what extent do we have secondary care prescribing. Looking for methotrexate as an example.
 - Issue connecting to VM so session halted
+
+2020-11-18 08:35-10:05
+- Investigate discharge summaries looking for COVID for people without a positive test
+- We only have covid codes for Tameside and University Hospital South Manchester (Wythenshawe)
+- Both only have covid codes from August this year
+- Most of the codes found are either:
+  - B972 (ICD)	Coronavirus as the cause of diseases classified to other chapters
+  - U071 (ICD)	2019-nCoV (acute respiratory disease)
+- Totals are:
+  Site            	Year	Month	Frequency
+  Tameside Hospital	2020	08  	5
+  Tameside Hospital	2020	09  	258
+  Tameside Hospital	2020	10  	197
+  Tameside Hospital	2020	11  	209
+  South Manchester	2020	08  	2
+  South Manchester	2020	09  	14
+  South Manchester	2020	10  	198
+  South Manchester	2020	11  	254
