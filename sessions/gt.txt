@@ -26,3 +26,6 @@ Attempted to find the location of information related to project no.1 (Grant), i
 06/11/20 10:00 - 12:00
 - using methotrexate code lists to find secondary care prescribing of this drug, split by trust and month
 - noticed that the SNOMED codes aren't featuring in the final table so need to investigate this
+
+18/11 09:30 - 10:00
+- checking how much hospital data we have: produced counts of acute data per tenancy, with minimum dates
