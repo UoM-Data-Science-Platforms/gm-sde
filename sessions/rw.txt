@@ -49,7 +49,10 @@
   South Manchester	2020	10  	198
   South Manchester	2020	11  	254
 
-2020-11-18 15:11
+2020-11-18 15:11-16:00
 - Checking out consultation types in GP_Encounter/GP_Appointment table
 - GP_Appointment is just for TPP systems
 - Will need to classify 1500 Read codes to determine encounter types and then cross validate with the GP_Events/GP_Medications tables
+
+2020-11-19 08:11-09:00
+- Check how many patients have a recorded COVID test around the date of a hospital admission
