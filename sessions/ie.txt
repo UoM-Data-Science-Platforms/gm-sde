@@ -1,3 +1,15 @@
 2020-10-22 12:15-12:30
 - Set up VM, look around to ensure access to the dataset.
 
+2020-11-15 17.00-20.00
+--Total unique patients in Patient_link 
+--Total number of deceased patients in Patient_Link
+--Total number of COVID-19 related events per group description
+--Total number of COVID-19 related events per group description
+
+2020-11-23 18.00 - 21.00
+Find out the following total number of rows to investigate how big the chohorts are:
+-- Number of unique patients in the platform
+-- Number of COVID positive patients in the sample
+-- Number of unique patients who were positive and have a deceased flag
+-- Number of unique patients who were alive on 1st Feb 2020
