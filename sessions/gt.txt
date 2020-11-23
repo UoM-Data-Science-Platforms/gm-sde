@@ -15,17 +15,23 @@ Attempted to find the location of information related to project no.1 (Grant), i
 - investigating clinical codes in the data using Type 2 Diabetes as an example
 - creating a list of codes related to Type 2 Diabetes
 
-27/10/20 09:00 - 10:45
+27/10/20 	09:00 - 10:45
 - produced list of SNOMED codes for Type 2 Diabetes
 - producing aggregate counts for each tenancy to find those that are missing. Several missing for acute
 
-29/10/20 09:00 - 12:00
+29/10/20 	09:00 - 12:00
 - looking for demographics needed for the Bakerly study and creating basic script with those that have been found
 - using GP_events to find most recent BMI recording for a cohort of patients
 
-06/11/20 10:00 - 12:00
+06/11/20 	10:00 - 12:00
 - using methotrexate code lists to find secondary care prescribing of this drug, split by trust and month
 - noticed that the SNOMED codes aren't featuring in the final table so need to investigate this
 
-18/11 09:30 - 10:00
+18/11/20 	09:30 - 10:00
 - checking how much hospital data we have: produced counts of acute data per tenancy, with minimum dates
+
+20/11/20 	09:30 - 12:00
+ - investigating covid tests, admissions and discharges for info on patients that got covid whilst in hospital
+
+20/11/20 	13:15 - 14:00
+ - checking covid codes to send to graphnet for potential inclusion to covid19 table
