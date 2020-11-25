@@ -56,3 +56,6 @@
 
 2020-11-19 08:11-09:00
 - Check how many patients have a recorded COVID test around the date of a hospital admission
+
+2020-11-25 14:30-14:45
+- Investigating the referrals table - specifically if it classifies referrals as Urgent/non-urgent. It does.
