@@ -35,3 +35,7 @@ Attempted to find the location of information related to project no.1 (Grant), i
 
 20/11/20 	13:15 - 14:00
  - checking covid codes to send to graphnet for potential inclusion to covid19 table
+
+25/11/20 09:00 - 09:05
+ - documenting some covid codes that do not appear in the covid19 table, to report as a bug
+
