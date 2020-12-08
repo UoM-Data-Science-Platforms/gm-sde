@@ -59,3 +59,15 @@
 
 2020-11-25 14:30-14:45
 - Investigating the referrals table - specifically if it classifies referrals as Urgent/non-urgent. It does.
+
+2020-12-02 13:45-17:20
+- Beginning to write queries to extract data for RQ01 (Grant)
+
+2020-12-03 10:30-12:25
+- More queries for RQ01 (Grant)
+
+2020-12-04 10:00-11:00
+- Further queries for RQ01 (Grant)
+
+2020-12-08 08:25-11:00
+- Trying to categorise the GP encounters
