@@ -1,0 +1,16 @@
+CTV3Code	Description
+G573.	Atrial fibrillation and flutter
+G5730	Atrial fibrillation
+G5731	Atrial flutter
+G573z	Atrial fibrillation and flutter NOS
+X202R	Lone atrial fibrillation
+X202S	Non-rheumatic atrial fibrillation
+Xa2E8	Paroxysmal atrial fibrillation
+Xa7nI	Controlled atrial fibrillation
+XaEga	Rapid atrial fibrillation
+XaOfa	Persistent atrial fibrillation
+XaOft	Permanent atrial fibrillation
+XaaUH	Paroxysmal atrial flutter
+XaeUP	Chronic atrial fibrillation
+XaeUQ	Typical atrial flutter
+XaeUR	Atypical atrial flutter
