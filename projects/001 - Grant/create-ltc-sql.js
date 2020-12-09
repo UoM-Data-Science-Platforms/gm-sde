@@ -271,7 +271,7 @@ function getAllTerminologyCodes(terminology) {
   return LTCCodesetsArray
     .filter(item => item.terminology === terminology)
     .map(item => item.codes.map(code => `('${item.condition}','${item.ltcGroup}','${code}','')`).join(','))
-    .join('\n');
+    .join(',\n');
 }
 
 function loadCodeset(ltcGroup, conditionCodeSet, terminology) {

@@ -1,3 +1,63 @@
+--Just want the output, not the messages
+SET NOCOUNT ON;
+
+-- Set the start date
+DECLARE @StartDate datetime;
+SET @StartDate = '2020-01-01';
+
+--┌───────────────────────────────┐
+--│ CLASSIFY SECONDARY ADMISSIONS │
+--└───────────────────────────────┘
+
+-- OUTPUT: A temp table as follows:
+-- #AdmissionTypes (FK_Patient_Link_ID, AdmissionDate, AdmissionType)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- AdmissionDate - date of admission (YYYY-MM-DD)
+--	- AcuteProvider - Bolton, SRFT, Stockport etc..
+--	- AdmissionType - One of: Maternity/Unplanned/Planned/Transfer/Unknown
+
+-- For each acute admission we find the type. If multiple admissions on same day
+-- we group and take the 'highest' category e.g.
+-- choose Unplanned, then Planned, then Maternity, then Transfer, then Unknown
+IF OBJECT_ID('tempdb..#AdmissionTypes') IS NOT NULL DROP TABLE #AdmissionTypes;
+SELECT 
+	FK_Patient_Link_ID, AdmissionDate, 
+	CASE 
+		WHEN AdmissionId = 5 THEN 'Maternity' 
+		WHEN AdmissionId = 4 THEN 'Unplanned' 
+		WHEN AdmissionId = 3 THEN 'Planned' 
+		WHEN AdmissionId = 2 THEN 'Transfer' 
+		WHEN AdmissionId = 1 THEN 'Unknown' 
+	END as AdmissionType,
+	AcuteProvider 
+INTO #AdmissionTypes FROM (
+	SELECT 
+		FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) as AdmissionDate, 
+		MAX(
+			CASE 
+				WHEN AdmissionTypeCode IN ('PL','11','WL','13','12','BL','TR','IPPlannedAd') THEN 3 --'Planned'
+				WHEN AdmissionTypeCode IN ('AE','21','22','23','EM','28','2D','24','AI','BB','DO','2A','A+E Admission','Emerg GP') THEN 4 --'Unplanned'
+				WHEN AdmissionTypeCode IN ('31','BH','AN','82','PN','32','BHOSP','83') THEN 5 --'Maternity'
+				WHEN AdmissionTypeCode IN ('81', 'ET','T','HospTran') THEN 2 --'Transfer'
+				ELSE 1 --'Unknown'
+			END
+		)	AS AdmissionId,
+		t.TenancyName AS AcuteProvider
+	FROM RLS.vw_Acute_Inpatients i
+	LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
+	WHERE EventType = 'Admission'
+	AND AdmissionDate >= @StartDate
+	GROUP BY FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate), t.TenancyName
+) sub;
+-- 523477 rows	523477 rows
+-- 00:00:16		00:00:45
+
+-- Populate a table with all the patients so in the future we can get their LTCs and deprivation score etc.
+IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
+SELECT DISTINCT FK_Patient_Link_ID INTO #Patients FROM #AdmissionTypes;
+-- 286087 rows
+-- 00:00:01
+
 --
 --┌──────────┐
 --│ GET LTCS │
@@ -130,3 +190,137 @@ SELECT DISTINCT
   END AS LTC
 INTO #PatientsWithLTCs
 FROM #LTCTemp;
+
+
+--
+-- ┌────────────────────────────┐
+-- │ GET LTC Groups per patient │
+-- └────────────────────────────┘
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
+-- Therefore this is run after query-patient-ltcs.sql
+
+-- OUTPUT: A temp table with a row for each patient and ltc group combo
+-- #LTCGroups (FK_Patient_Link_ID, LTCGroup)
+
+-- Calculate the LTC groups for each patient
+IF OBJECT_ID('tempdb..#LTCGroups') IS NOT NULL DROP TABLE #LTCGroups;
+SELECT 
+  DISTINCT FK_Patient_Link_ID, 
+  CASE
+    WHEN LTC IN ('atrial fibrillation','heart failure') THEN 'Cardiovascular'
+		WHEN LTC IN ('') THEN 'Endocrine'
+		WHEN LTC IN ('peptic ulcer disease') THEN 'Gastrointestinal'
+		WHEN LTC IN ('') THEN 'Musculoskeletal or Skin'
+		WHEN LTC IN ('') THEN 'Neurological'
+		WHEN LTC IN ('') THEN 'Psychiatric'
+		WHEN LTC IN ('') THEN 'Renal or Urological'
+		WHEN LTC IN ('asthma') THEN 'Respiratory'
+		WHEN LTC IN ('') THEN 'Sensory Impairment or Learning Disability'
+		WHEN LTC IN ('') THEN 'Substance Abuse'
+  END AS LTCGroup INTO #LTCGroups
+FROM #PatientsWithLTCs;
+
+
+--┌──────────┐
+--│ GET IMDs │
+--└──────────┘
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+-- A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #PatientIMDDecile (FK_Patient_Link_ID, IMD2019Decile1IsMostDeprived10IsLeastDeprived)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- IMD2019Decile1IsMostDeprived10IsLeastDeprived - number 1 to 10 inclusive
+
+-- Get all patients IMD_Score (which is a rank) for the cohort and map to decile
+-- (Data on mapping thresholds at: https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019
+IF OBJECT_ID('tempdb..#AllPatientIMDDeciles') IS NOT NULL DROP TABLE #AllPatientIMDDeciles;
+SELECT 
+	FK_Patient_Link_ID,
+	FK_Reference_Tenancy_ID,
+	HDMModifDate,
+	CASE 
+		WHEN IMD_Score <= 3284 THEN 1
+		WHEN IMD_Score <= 6568 THEN 2
+		WHEN IMD_Score <= 9853 THEN 3
+		WHEN IMD_Score <= 13137 THEN 4
+		WHEN IMD_Score <= 16422 THEN 5
+		WHEN IMD_Score <= 19706 THEN 6
+		WHEN IMD_Score <= 22990 THEN 7
+		WHEN IMD_Score <= 26275 THEN 8
+		WHEN IMD_Score <= 29559 THEN 9
+		ELSE 10
+	END AS IMD2019Decile1IsMostDeprived10IsLeastDeprived 
+INTO #AllPatientIMDDeciles
+FROM RLS.vw_Patient p
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND IMD_Score IS NOT NULL
+AND IMD_Score != -1;
+-- 972479 rows
+-- 00:00:11
+
+-- If patients have a tenancy id of 2 we take this as their most likely IMD_Score
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientIMDDecile') IS NOT NULL DROP TABLE #PatientIMDDecile;
+SELECT FK_Patient_Link_ID, MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) as IMD2019Decile1IsMostDeprived10IsLeastDeprived INTO #PatientIMDDecile FROM #AllPatientIMDDeciles
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+GROUP BY FK_Patient_Link_ID;
+-- 247377 rows
+-- 00:00:00
+
+-- Find the patients who remain unmatched
+IF OBJECT_ID('tempdb..#UnmatchedPatients') IS NOT NULL DROP TABLE #UnmatchedPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedPatients FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientIMDDecile;
+-- 38710 rows
+-- 00:00:00
+
+-- If every IMD_Score is the same for all their linked patient ids then we use that
+INSERT INTO #PatientIMDDecile
+SELECT FK_Patient_Link_ID, MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) FROM #AllPatientIMDDeciles
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1IsMostDeprived10IsLeastDeprived);
+-- 36656
+-- 00:00:00
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedPatients;
+INSERT INTO #UnmatchedPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientIMDDecile;
+-- 2054 rows
+-- 00:00:00
+
+-- If there is a unique most recent imd decile then use that
+INSERT INTO #PatientIMDDecile
+SELECT p.FK_Patient_Link_ID, MIN(p.IMD2019Decile1IsMostDeprived10IsLeastDeprived) FROM #AllPatientIMDDeciles p
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientIMDDeciles
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatients)
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+GROUP BY p.FK_Patient_Link_ID
+HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1IsMostDeprived10IsLeastDeprived);
+-- 489
+-- 00:00:00
+
+-- Generate cohort so at most one patient per acute provider
+IF OBJECT_ID('tempdb..#FinalCohort') IS NOT NULL DROP TABLE #FinalCohort;
+SELECT DISTINCT FK_Patient_Link_ID, AcuteProvider INTO #FinalCohort FROM #AdmissionTypes;
+
+SELECT 
+	p.AcuteProvider, ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
+	ISNULL(LTCGroup, 'None') AS LTCGroup, count(*)
+FROM #FinalCohort p
+	LEFT OUTER JOIN #LTCGroups ltc ON ltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+	LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+GROUP BY p.AcuteProvider,IMD2019Decile1IsMostDeprived10IsLeastDeprived, LTCGroup
+ORDER BY p.AcuteProvider,IMD2019Decile1IsMostDeprived10IsLeastDeprived, LTCGroup
