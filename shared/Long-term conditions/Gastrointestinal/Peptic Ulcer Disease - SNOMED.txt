@@ -1,0 +1,289 @@
+snomed	description
+235648004	Acute drug-induced ulcer of stomach
+196652006	Acute duodenal ulcer
+12847006	Acute duodenal ulcer with haemorrhage
+87756006	Acute duodenal ulcer with haemorrhage AND obstruction
+86895006	Acute duodenal ulcer with haemorrhage AND perforation
+51847008	Acute duodenal ulcer with haemorrhage AND with perforation but without obstruction
+66767006	Acute duodenal ulcer with haemorrhage but without obstruction
+41986000	Acute duodenal ulcer with haemorrhage, with perforation AND with obstruction
+196658005	Acute duodenal ulcer with obstruction
+61347001	Acute duodenal ulcer with perforation
+62936002	Acute duodenal ulcer with perforation AND obstruction
+22511002	Acute duodenal ulcer with perforation but without obstruction
+32490005	Acute duodenal ulcer without haemorrhage AND without perforation
+75342000	Acute duodenal ulcer without haemorrhage AND without perforation but with obstruction
+23693000	Acute duodenal ulcer without haemorrhage, without perforation AND without obstruction
+39344002	Acute erosion of duodenum
+444926003	Acute erosive gastritis
+111350000	Acute gastric erosion associated with drug ingestion
+18665000	Acute gastric mucosal erosion
+95529005	Acute gastric ulcer
+89748001	Acute gastric ulcer with haemorrhage
+46708007	Acute gastric ulcer with haemorrhage AND obstruction
+48974009	Acute gastric ulcer with haemorrhage AND perforation
+17067009	Acute gastric ulcer with haemorrhage AND with perforation but without obstruction
+70418001	Acute gastric ulcer with haemorrhage but without obstruction
+53337006	Acute gastric ulcer with haemorrhage, with perforation AND with obstruction
+196632005	Acute gastric ulcer with obstruction
+19850005	Acute gastric ulcer with perforation
+43694004	Acute gastric ulcer with perforation AND obstruction
+90628007	Acute gastric ulcer with perforation but without obstruction
+67964002	Acute gastric ulcer without haemorrhage AND without perforation
+81225008	Acute gastric ulcer without haemorrhage AND without perforation but with obstruction
+54053008	Acute gastric ulcer without haemorrhage, without perforation AND without obstruction
+196707000	Acute gastrojejunal ulcer
+63954007	Acute gastrojejunal ulcer with haemorrhage
+72408002	Acute gastrojejunal ulcer with haemorrhage AND obstruction
+81387001	Acute gastrojejunal ulcer with haemorrhage AND perforation
+66673003	Acute gastrojejunal ulcer with haemorrhage AND with perforation but without obstruction
+59515005	Acute gastrojejunal ulcer with haemorrhage but without obstruction
+58711008	Acute gastrojejunal ulcer with haemorrhage, with perforation AND with obstruction
+196712004	Acute gastrojejunal ulcer with obstruction
+66636001	Acute gastrojejunal ulcer with perforation
+72219001	Acute gastrojejunal ulcer with perforation AND obstruction
+72395008	Acute gastrojejunal ulcer with perforation but without obstruction
+30514008	Acute gastrojejunal ulcer without haemorrhage AND without perforation
+10389003	Acute gastrojejunal ulcer without haemorrhage AND without perforation but with obstruction
+77987006	Acute gastrojejunal ulcer without haemorrhage, without perforation AND without obstruction
+183281000119107	Acute marginal gastrojejunal ulcer
+196682000	Acute peptic ulcer
+235687004	Acute peptic ulcer of duodenum
+235647009	Acute peptic ulcer of stomach
+12274003	Acute peptic ulcer with haemorrhage
+43406003	Acute peptic ulcer with haemorrhage AND obstruction
+111353003	Acute peptic ulcer with haemorrhage and perforation
+47064007	Acute peptic ulcer with haemorrhage AND with perforation but without obstruction
+22157005	Acute peptic ulcer with haemorrhage but without obstruction
+28945005	Acute peptic ulcer with haemorrhage, with perforation AND with obstruction
+196687006	Acute peptic ulcer with obstruction
+79118000	Acute peptic ulcer with perforation
+35681000	Acute peptic ulcer with perforation AND obstruction
+34921009	Acute peptic ulcer with perforation but without obstruction
+45485004	Acute peptic ulcer without haemorrhage AND without perforation
+58085004	Acute peptic ulcer without haemorrhage AND without perforation but with obstruction
+3023008	Acute peptic ulcer without haemorrhage, without perforation AND without obstruction
+109814008	Acute ulcerative gastroenteritis complicating pneumonia
+724523000	Anastomotic ulcer of stomach caused by drug
+724522005	Anastomotic ulcer of stomach caused by Helicobacter pylori
+4911000119101	Antral ulcer
+307233002	Bleeding gastric erosion
+308882008	Bleeding stress ulcer of stomach
+43035002	Childhood duodenal ulcer
+235650007	Chronic drug-induced ulcer of stomach
+128286008	Chronic duodenal ulcer
+89469000	Chronic duodenal ulcer with haemorrhage
+34021006	Chronic duodenal ulcer with haemorrhage AND obstruction
+36975000	Chronic duodenal ulcer with haemorrhage AND perforation
+81142005	Chronic duodenal ulcer with haemorrhage AND with perforation but without obstruction
+62341002	Chronic duodenal ulcer with haemorrhage but without obstruction
+86258000	Chronic duodenal ulcer with haemorrhage, with perforation AND with obstruction
+196666001	Chronic duodenal ulcer with obstruction
+49916007	Chronic duodenal ulcer with perforation
+60551006	Chronic duodenal ulcer with perforation AND obstruction
+34602004	Chronic duodenal ulcer with perforation but without obstruction
+40214005	Chronic duodenal ulcer without haemorrhage AND without perforation
+28082003	Chronic duodenal ulcer without haemorrhage AND without perforation but with obstruction
+57940000	Chronic duodenal ulcer without haemorrhage, without perforation AND without obstruction
+63137003	Chronic erosive gastritis
+95530000	Chronic gastric ulcer
+57246001	Chronic gastric ulcer with haemorrhage
+85859006	Chronic gastric ulcer with haemorrhage AND with obstruction
+76181002	Chronic gastric ulcer with haemorrhage AND with perforation
+74341002	Chronic gastric ulcer with haemorrhage AND with perforation but without obstruction
+76078009	Chronic gastric ulcer with haemorrhage but without obstruction
+85787009	Chronic gastric ulcer with haemorrhage, with perforation AND with obstruction
+196639001	Chronic gastric ulcer with obstruction
+31301004	Chronic gastric ulcer with perforation
+55483002	Chronic gastric ulcer with perforation AND with obstruction
+36246001	Chronic gastric ulcer with perforation but without obstruction
+76796008	Chronic gastric ulcer without haemorrhage AND without perforation
+60531007	Chronic gastric ulcer without haemorrhage AND without perforation but with obstruction
+1567007	Chronic gastric ulcer without haemorrhage, without perforation AND without obstruction
+128288009	Chronic gastrojejunal ulcer
+62838000	Chronic gastrojejunal ulcer with haemorrhage
+90257004	Chronic gastrojejunal ulcer with haemorrhage AND obstruction
+45640006	Chronic gastrojejunal ulcer with haemorrhage AND perforation
+46523000	Chronic gastrojejunal ulcer with haemorrhage AND with perforation but without obstruction
+59356009	Chronic gastrojejunal ulcer with haemorrhage but without perforation
+24001002	Chronic gastrojejunal ulcer with haemorrhage, with perforation AND with obstruction
+196719008	Chronic gastrojejunal ulcer with obstruction
+2807004	Chronic gastrojejunal ulcer with perforation
+10897002	Chronic gastrojejunal ulcer with perforation AND with obstruction
+62477005	Chronic gastrojejunal ulcer with perforation but without obstruction
+4269005	Chronic gastrojejunal ulcer without haemorrhage AND without perforation
+56579005	Chronic gastrojejunal ulcer without haemorrhage AND without perforation but with obstruction
+41626001	Chronic gastrojejunal ulcer without haemorrhage, without perforation AND without obstruction
+128287004	Chronic peptic ulcer
+235691009	Chronic peptic ulcer of duodenum
+235649007	Chronic peptic ulcer of stomach
+49232000	Chronic peptic ulcer with haemorrhage
+56461008	Chronic peptic ulcer with haemorrhage AND obstruction
+61300005	Chronic peptic ulcer with haemorrhage AND perforation
+55746001	Chronic peptic ulcer with haemorrhage AND with perforation but without obstruction
+81518000	Chronic peptic ulcer with haemorrhage but without obstruction
+77661009	Chronic peptic ulcer with haemorrhage, with perforation AND with obstruction
+196694009	Chronic peptic ulcer with obstruction
+3483000	Chronic peptic ulcer with perforation
+57871005	Chronic peptic ulcer with perforation AND obstruction
+80953005	Chronic peptic ulcer with perforation but without obstruction
+5492000	Chronic peptic ulcer without haemorrhage AND without perforation
+12384004	Chronic peptic ulcer without haemorrhage AND without perforation but with obstruction
+60400003	Chronic peptic ulcer without haemorrhage, without perforation AND without obstruction
+173889005	Closure of perforated duodenal ulcer
+173842008	Closure of perforated gastric ulcer
+8322005	Closure of stomach ulcer
+359574001	Closure of ulcer of duodenum
+79806007	Combined gastric AND duodenal ulcer
+367474008	Common duodenal ulcer
+235690005	Curling's ulcer of duodenum
+39755000	Curling's ulcers
+235689001	Cushing ulcer of duodenum
+738791006	Cushing ulcer of stomach
+308212008	Deformed duodenal cap
+109813002	Drug-induced peptic ulcer
+235692002	Duodenal erosion
+196764005	Duodenal scar
+723884008	Duodenal ulcer caused by bacterium
+724529001	Duodenal ulcer caused by drug
+724534002	Duodenal ulcer caused by fungus
+724528009	Duodenal ulcer caused by Helicobacter pylori
+724530006	Duodenal ulcer caused by Helicobacter pylori and non-steroidal anti-inflammatory agent
+724531005	Duodenal ulcer caused by ionising radiation
+722200003	Duodenal ulcer caused by non-steroidal anti-inflammatory drug
+724533008	Duodenal ulcer caused by virus
+51868009	Duodenal ulcer disease
+717892001	Duodenal ulcer due to Zollinger-Ellison syndrome
+287828006	Duodenal ulcer excision
+423643000	Duodenal ulcer induced by anti-platelet agent
+173887007	Duodenal ulcer operation
+27281001	Duodenal ulcer with haemorrhage
+18367003	Duodenal ulcer with haemorrhage AND obstruction
+23812009	Duodenal ulcer with haemorrhage AND perforation
+15115006	Duodenal ulcer with haemorrhage AND with perforation but without obstruction
+35560008	Duodenal ulcer with haemorrhage but without obstruction
+12355008	Duodenal ulcer with haemorrhage, with perforation AND with obstruction
+29755007	Duodenal ulcer with increased serum pepsinogen I
+849601000000109	Duodenal ulcer with obstruction
+88968005	Duodenal ulcer with perforation
+77410006	Duodenal ulcer with perforation AND obstruction
+86983005	Duodenal ulcer with perforation but without obstruction
+56776001	Duodenal ulcer without haemorrhage AND without perforation
+18169007	Duodenal ulcer without haemorrhage AND without perforation but with obstruction
+34580000	Duodenal ulcer without haemorrhage, without perforation AND without obstruction
+314627002	Endoscopic injection haemostasis of duodenal ulcer
+314629004	Endoscopic injection haemostasis of gastric ulcer
+717878007	Eosinophilic duodenal ulcer
+1086791000119100	Erosive gastritis
+16516008	Familial duodenal ulcer associated with rapid gastric emptying
+6761005	Familial hypergastrinaemic duodenal ulcer
+235651006	Gastric erosion
+397825006	Gastric ulcer
+723103002	Gastric ulcer caused by alcohol
+723099007	Gastric ulcer caused by bacterium
+723105009	Gastric ulcer caused by chemical
+713638002	Gastric ulcer caused by drug
+723101000	Gastric ulcer caused by fungus
+724519008	Gastric ulcer caused by Helicobacter pylori and non-steroidal anti-inflammatory agent
+723104008	Gastric ulcer caused by ionising radiation
+129141000119104	Gastric ulcer caused by non-steroidal anti-inflammatory drug in therapeutic use
+723100004	Gastric ulcer caused by virus
+103691000119106	Gastric ulcer due to Helicobacter pylori
+723102007	Gastric ulcer due to parasitic infection
+717891008	Gastric ulcer due to Zollinger-Ellison syndrome
+424301005	Gastric ulcer induced by anti-platelet agent
+173841001	Gastric ulcer operation
+15902003	Gastric ulcer with haemorrhage
+53877005	Gastric ulcer with haemorrhage AND obstruction
+62366003	Gastric ulcer with haemorrhage AND perforation
+2066005	Gastric ulcer with haemorrhage AND perforation but without obstruction
+16694003	Gastric ulcer with haemorrhage but without obstruction
+17593008	Gastric ulcer with haemorrhage, with perforation AND with obstruction
+849591000000103	Gastric ulcer with obstruction
+9829001	Gastric ulcer with perforation
+72486001	Gastric ulcer with perforation AND obstruction
+84038009	Gastric ulcer with perforation but without obstruction
+73481001	Gastric ulcer without haemorrhage AND without perforation
+31452001	Gastric ulcer without haemorrhage AND without perforation but with obstruction
+59913009	Gastric ulcer without haemorrhage, without perforation AND without obstruction
+24060004	Gastrocolic ulcer
+16121001	Gastrojejunal ulcer
+84124004	Gastrojejunal ulcer with haemorrhage
+42698006	Gastrojejunal ulcer with haemorrhage AND obstruction
+64094003	Gastrojejunal ulcer with haemorrhage AND perforation
+87796008	Gastrojejunal ulcer with haemorrhage AND with perforation but without obstruction
+50663005	Gastrojejunal ulcer with haemorrhage but without obstruction
+54798007	Gastrojejunal ulcer with haemorrhage, with perforation AND with obstruction
+849621000000100	Gastrojejunal ulcer with obstruction
+30183003	Gastrojejunal ulcer with perforation
+21759003	Gastrojejunal ulcer with perforation AND obstruction
+11818002	Gastrojejunal ulcer with perforation but without obstruction
+2783007	Gastrojejunal ulcer without haemorrhage AND without perforation
+47152002	Gastrojejunal ulcer without haemorrhage AND without perforation but with obstruction
+35517004	Gastrojejunal ulcer without haemorrhage, without perforation AND without obstruction
+301007008	Gastro-oesophageal erosion
+245754007	Gastro-oesophageal reflux disease with ulceration
+360372005	Gastrorrhaphy for perforated gastric ulcer
+68834009	Giant duodenal ulcer
+275547005	H/O: duodenal ulcer
+275548000	H/O: gastric ulcer
+266998003	H/O: peptic ulcer
+235702004	Healed gastric ulcer
+196775009	Healed gastric ulcer leaving a scar
+89662003	Helicobacter-associated pyloric ulcer
+16089131000119108	History of pyloric channel ulcer
+442805003	Incision of stomach and suture of bleeding gastric ulcer
+762274007	Infection causing ulcer of stomach
+708645007	Laparoscopic closure of duodenal ulcer using patch
+307190008	Laparoscopic closure of perforated gastric ulcer
+708644006	Laparoscopic closure of stomach ulcer using patch
+31256001	Ligation of gastric ulcer
+717879004	Lymphocytic duodenal ulcer
+235652004	Multiple gastric erosions
+313425006	Multiple gastric ulcers
+248891000000103	Non-steroidal anti-inflammatory drug induced gastric ulcer
+76338009	Normopepsinogenaemic familial duodenal ulcer
+10699001	Oesophagogastric ulcer
+307557003	Omental patch repair of perforated pyloric ulcer
+226891000000104	Oversew of blood vessel of duodenal ulcer
+307510004	Oversewing of bleeding duodenal ulcer
+307512007	Oversewing of bleeding gastric ulcer
+35892001	Oversewing of perforated duodenal ulcer
+360377004	Oversewing of ulcer crater of stomach
+235232008	Oversewing perforated gastric ulcer
+698496004	Patch repair of perforated duodenal ulcer
+717863000	Peptic anastomotic ulcer
+13200003	Peptic ulcer
+276525003	Peptic ulcer of newborn
+6129004	Peptic ulcer of oesophagus
+398177004	Peptic ulcer of stomach
+64121000	Peptic ulcer with haemorrhage
+64398008	Peptic ulcer with haemorrhage AND obstruction
+55617001	Peptic ulcer with haemorrhage AND perforation
+90489006	Peptic ulcer with haemorrhage AND with perforation but without obstruction
+48658001	Peptic ulcer with haemorrhage but without obstruction
+26221006	Peptic ulcer with haemorrhage, with perforation AND with obstruction
+849611000000106	Peptic ulcer with obstruction
+88169003	Peptic ulcer with perforation
+48336009	Peptic ulcer with perforation AND obstruction
+12625009	Peptic ulcer with perforation but without obstruction
+37442009	Peptic ulcer without haemorrhage AND without perforation
+54157007	Peptic ulcer without haemorrhage AND without perforation but with obstruction
+38365000	Peptic ulcer without haemorrhage, without perforation AND without obstruction
+78054007	Postpyloric ulcer
+22620000	Prepyloric ulcer
+39204006	Pyloric ulcer
+196671008	Recurrent duodenal ulcer
+307556007	Repair of perforated pyloric ulcer
+287832000	Stomach ulcer excision
+235688009	Stress ulcer of duodenum
+415624002	Stress ulcer of stomach
+307259004	Suture of gastric ulcer
+307260009	Suture of ulcer of duodenum
+724532003	Ulcer of duodenum caused by chemical
+762276009	Ulcer of duodenum due to infection
+724520002	Ulcer of stomach due to eosinophilic gastritis
+724521003	Ulcer of stomach due to lymphocytic gastritis
+307511000	Under-running of bleeding duodenal ulcer
+314632001	Under-running of bleeding gastric ulcer
+53132006	Zollinger-Ellison syndrome
