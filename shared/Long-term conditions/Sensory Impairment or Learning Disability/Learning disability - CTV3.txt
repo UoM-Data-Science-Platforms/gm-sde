@@ -1,0 +1,51 @@
+CTV3Code	Description
+E3...	Mental retardation
+E30..	(Mild mental retard (& [feeble-mind][moron])) or (educ subn)
+E31..	Other specified mental retardation
+E310.	"Moderate mental retardation, IQ in range 35-49"
+E311.	"Severe mental retardation, IQ in range 20-34"
+E312.	Profound mental retardation with IQ less than 20
+E31z.	Other specified mental retardation NOS
+E3z..	Mental retardation NOS
+Eu700	[X]Mld mental retard with statement no or min impairm behav
+Eu701	[X]Mld mental retard sig impairment behav req attent/treatmt
+Eu70y	"[X]Mild mental retardation, other impairments of behaviour"
+Eu70z	[X]Mild mental retardation without mention impairment behav
+Eu710	[X]Mod mental retard with statement no or min impairm behav
+Eu711	[X]Mod mental retard sig impairment behav req attent/treatmt
+Eu71y	[X]Mod retard oth behav impair
+Eu71z	[X]Mod mental retardation without mention impairment behav
+Eu720	[X]Sev mental retard with statement no or min impairm behav
+Eu721	[X]Sev mental retard sig impairment behav req attent/treatmt
+Eu72y	"[X]Severe mental retardation, other impairments of behaviour"
+Eu72z	[X]Sev mental retardation without mention impairment behav
+Eu730	[X]Profound ment retrd wth statement no or min impairm behav
+Eu731	[X]Profound ment retard sig impairmnt behav req attent/treat
+Eu73y	"[X]Profound mental retardation, other impairments of behavr"
+Eu73z	[X]Prfnd mental retardation without mention impairment behav
+Eu7y.	[X]Other mental retardation
+Eu7y0	[X]Oth mental retard with statement no or min impairm behav
+Eu7y1	[X]Oth mental retard sig impairment behav req attent/treatmt
+Eu7yy	"[X]Other mental retardation, other impairments of behaviour"
+Eu7yz	[X]Other mental retardation without mention impairment behav
+Eu7z.	[X] (Unspec mental retard) or (mental defic [& subnorm] NOS)
+Eu7z0	[X]Unsp mental retard with statement no or min impairm behav
+Eu7z1	[X]Unsp mentl retard sig impairment behav req attent/treatmt
+Eu7zy	"[X]Unspecified mental retardatn, other impairments of behav"
+Eu7zz	[X]Unsp mental retardation without mention impairment behav
+Eu81z	"[X]Developmental disorder of scholastic skills, unspecified"
+XE1a2	[X]Unspecified mental retardation
+XE2a3	"Mild mental retardation, IQ in range 50-70"
+Xa0ER	Educationally subnormal
+Xa1aW	Borderline mental retardation
+Xa3HI	Severely educationally subnormal
+XaKYb	On learning disability register
+XaQZ3	Moderate learning disability
+XaQZ4	Severe learning disability
+XaREt	Mild learning disability
+XaREu	Profound learning disability
+XaaiS	Specific learning disability
+Xabk1	Significant learning disability
+Y1642	Other Mental Disability
+Y9981	Profound mental retardation
+YA841	Severe learning disability
