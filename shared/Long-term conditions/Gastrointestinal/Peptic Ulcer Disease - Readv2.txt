@@ -8,7 +8,7 @@ medcode	readcode	Description	CodingSystem
 3462	J123.00	Duodenal erosion	readcode
 4741	7627000	Closure of perforated duodenal ulcer	readcode
 5521	J130200	Acute peptic ulcer with perforation	readcode
-5928	7627	Operations on duodenal ulcer	readcode
+5928	7627..	Operations on duodenal ulcer	readcode
 6333	J11..11	Prepyloric ulcer	readcode
 6865	761J.11	Stomach ulcer operations	readcode
 9853	J121.00	Chronic duodenal ulcer	readcode
@@ -99,25 +99,25 @@ medcode	readcode	Description	CodingSystem
 73338	J11y000	Unspecified gastric ulcer without mention of complication	readcode
 73417	J120400	Acute duodenal ulcer with obstruction	readcode
 73697	J11y400	Unspecified gastric ulcer with obstruction	readcode
-74496	5329		readcode
-74539	5329PT		readcode
-74848	5320		readcode
-75354	5319TM		readcode
-75550	5319PP		readcode
-75673	5339		readcode
-76394	5339DB		readcode
-77740	5329BD		readcode
-79977	5310		readcode
-82043	5349MR		readcode
-82405	5330		readcode
-83017	5319PT		readcode
-83963	5310PT		readcode
-84227	K4271		readcode
-88061	5349GJ		readcode
-88070	5320PT		readcode
-88195	5310TM		readcode
-90208	5340GJ		readcode
-90899	K458 PT		readcode
+74496	5329		OXMIS
+74539	5329PT		OXMIS
+74848	5320		OXMIS
+75354	5319TM		OXMIS
+75550	5319PP		OXMIS
+75673	5339		OXMIS
+76394	5339DB		OXMIS
+77740	5329BD		OXMIS
+79977	5310		OXMIS
+82043	5349MR		OXMIS
+82405	5330		OXMIS
+83017	5319PT		OXMIS
+83963	5310PT		OXMIS
+84227	K4271		OXMIS
+88061	5349GJ		OXMIS
+88070	5320PT		OXMIS
+88195	5310TM		OXMIS
+90208	5340GJ		OXMIS
+90899	K458 PT		OXMIS
 92695	7612111	Balfour excision of gastric ulcer	readcode
 93436	J12y300	Unspecified duodenal ulcer with haemorrhage and perforation	readcode
 94104	761Jy00	Other specified operation on gastric ulcer	readcode

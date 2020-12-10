@@ -1,6 +1,6 @@
 CTV3ID	CTV3PreferredTermDesc	CTV3Source
 13B1.	Diabetic diet	High_Level_SNOMED
-1434	H/O: diabetes mellitus	High_Level_SNOMED
+1434.	H/O: diabetes mellitus	High_Level_SNOMED
 14P3.	H/O: insulin therapy	CTV3Map_Code_And_Term
 42W1.	Hb. A1C < 7% - good control	CTV3_Children
 42W2.	Hb. A1C 7-10% - borderline	CTV3_Children

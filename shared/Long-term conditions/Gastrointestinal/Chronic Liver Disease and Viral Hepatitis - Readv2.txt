@@ -39,7 +39,7 @@ medcode	readcode	Description	CodingSystem
 21713	J612000	Alcoholic fibrosis and sclerosis of liver	readcode
 22841	J615z11	Macronodular cirrhosis of liver	readcode
 23578	J614000	Chronic persistent hepatitis	readcode
-24220	7609	Open operations on oesophageal varices	readcode
+24220	7609.00	Open operations on oesophageal varices	readcode
 24813	A707000	Chronic viral hepatitis B with delta-agent	readcode
 24989	G850.00	Oesophageal varices with bleeding	readcode
 25383	J61y400	Hepatic fibrosis	readcode

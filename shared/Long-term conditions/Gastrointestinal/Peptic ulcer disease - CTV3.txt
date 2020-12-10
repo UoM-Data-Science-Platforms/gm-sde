@@ -109,7 +109,7 @@ J12..	Duodenal ulcer	CTV3Map_Code_And_Term
 J12z.	Duodenal ulcer NOS	CTV3Map_Code_And_Term
 J122.	Duodenal ulcer disease	CTV3_Children
 X302b	Duodenal ulcer disease	CTV3Map_Code_And_Term
-7627	Duodenal ulcer operation	CTV3Map_Code_And_Term
+7627.	Duodenal ulcer operation	CTV3Map_Code_And_Term
 XaFBq	Endoscopic injection haemostasis of duodenal ulcer	CTV3Map_Code_And_Term
 XaFBs	Endoscopic injection haemostasis of gastric ulcer	CTV3Map_Code_And_Term
 X300K	Eosinophilic ulcer of oesophagus	CTV3_Children
@@ -189,7 +189,7 @@ J13z.	Peptic ulcer NOS	CTV3Map_Code_And_Term
 XM0BZ	Peptic ulcer disease	High_Level_SNOMED
 X302c	Peptic ulcer of duodenum	CTV3_Children
 X302X	Peptic ulcer of stomach	High_Level_SNOMED
-1956	Peptic ulcer symptoms	CTV3Map_Code_And_Term
+1956.	Peptic ulcer symptoms	CTV3Map_Code_And_Term
 XE0c1	Perforated DU (& [acute])	High_Level_SNOMED
 XE0bz	Perforated GU (& [acute])	CTV3_Children
 XM0sI	Perforated peptic ulcer	High_Level_SNOMED
