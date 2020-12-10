@@ -25,7 +25,7 @@ function getListOfLTCGroups() {
   validateLTCDirectory()
   return readdirSync(LTC_DIRECTORY, { withFileTypes: true }) // read all children of the LTC directory
     .filter(item => item.isDirectory()) // ..then filter to just directories under LTC_DIRECTORY
-    .map(dir => dir.name); // ..then return the directory name
+    .map(dir => dir.name.replace(/'/g,'')); // ..then return the directory name
 }
 
 function validateLTCDirectory() {
@@ -53,7 +53,7 @@ function getCodesets() {
     
     // Add the codesets
     conditionCodeSets.forEach((conditionCodeSet) => {
-      const [condition, terminology] = conditionCodeSet.toLowerCase().replace('.txt', '').split(' - ');
+      const [condition, terminology] = conditionCodeSet.toLowerCase().replace(/'/g,'').replace('.txt', '').split(' - ');
       if(!codesetObject[ltcGroup][condition]) {
         codesetObject[ltcGroup][condition] = {}
       }
@@ -126,8 +126,7 @@ CREATE TABLE #codesemis (
   [description] [varchar](255) NULL
 )ON [PRIMARY];
 
-INSERT INTO #codesemis
-VALUES ${getAllTerminologyCodes('emis')};`
+${getInsertStatementForTerminology('emis')};`
 :''}
 
 ${hasTerminology('readv2')
@@ -139,8 +138,7 @@ CREATE TABLE #codesreadv2 (
 	[description] [varchar](255) NULL
 ) ON [PRIMARY];
 
-INSERT INTO #codesreadv2
-VALUES ${getAllTerminologyCodes('readv2')};`
+${getInsertStatementForTerminology('readv2')};`
 :''}
 
 ${hasTerminology('ctv3')
@@ -152,8 +150,7 @@ CREATE TABLE #codesctv3 (
 	[description] [varchar](255) NULL
 ) ON [PRIMARY];
 
-INSERT INTO #codesctv3
-VALUES ${getAllTerminologyCodes('ctv3')};`
+${getInsertStatementForTerminology('ctv3')};`
 :''}
 
 ${hasTerminology('snomed')
@@ -165,8 +162,7 @@ CREATE TABLE #codessnomed (
 	[description] [varchar](255) NULL
 ) ON [PRIMARY];
 
-INSERT INTO #codessnomed
-VALUES ${getAllTerminologyCodes('snomed')};`
+${getInsertStatementForTerminology('snomed')};`
 :''}
 
 IF OBJECT_ID('tempdb..#TempRefCodes') IS NOT NULL DROP TABLE #TempRefCodes;
@@ -267,11 +263,33 @@ function hasTerminology(terminology) {
     .length > 0;
 }
 
-function getAllTerminologyCodes(terminology) {
+function getInsertStatementForTerminology(terminology) {
   return LTCCodesetsArray
     .filter(item => item.terminology === terminology)
-    .map(item => item.codes.map(code => `('${item.condition}','${item.ltcGroup}','${code}','')`).join(','))
-    .join(',\n');
+    .map(item => item.codes.map(code => `('${item.condition}','${item.ltcGroup}','${code}','')`))
+    .flat()
+    .filter(row => row.length > 2)
+    .reduce((soFar, nextValue) => {
+      if(soFar.itemCount === 999) {
+        // SQL only allows 1000 items to be inserted after each INSERT INTO statememt
+        // so need to start again
+        soFar.sql = `${soFar.sql.slice(0, -1)};\nINSERT INTO #codes${terminology}\nVALUES `;
+        soFar.lineLength = 7;
+        soFar.itemCount = 0;
+      }
+      if(soFar.lineLength > 9900) {
+        // the sql management studio doesn't style lines much longer than this
+        soFar.sql += `\n${nextValue},`
+        soFar.lineLength = nextValue.length + 1;
+      } else {
+        soFar.sql += `${nextValue},`
+        soFar.lineLength += nextValue.length + 1;
+      }
+      soFar.itemCount += 1;
+      return soFar;
+    },
+      {sql:`INSERT INTO #codes${terminology}\nVALUES `, itemCount: 0, lineLength: 7}
+    ).sql.slice(0, -1);
 }
 
 function loadCodeset(ltcGroup, conditionCodeSet, terminology) {
@@ -287,14 +305,34 @@ function loadCodesetReadv2(ltcGroup, conditionCodeSet) {
     .split('\n')
     .map(row => row.split('\t'))
     .filter(items => items.length > 1);
-  const readcodeIndex = fileHeader.indexOf('readcode');
-  const readcodes = fileBody.map(items => items[readcodeIndex]);
+  const readcodeIndex = fileHeader.map(x => x.toLowerCase()).indexOf('readcode');
+
+  if(readcodeIndex < 0) {
+    console.log(`The file ${conditionCodeSet} in ${ltcGroup} does not have a column with the header 'readcode'.`);
+    return [];
+  }
+
+  const codingSystemIndex = fileHeader.indexOf('CodingSystem');
+  const codingSystemFilter = codingSystemIndex > -1
+    ? (items) => items[codingSystemIndex].toLowerCase() === 'readcode'
+    : () => true;
+  const readcodes = fileBody.filter(codingSystemFilter).map(items => items[readcodeIndex]);
+
+  if(readcodes.length === 0) {
+    console.log(`The file ${conditionCodeSet} in ${ltcGroup} does not have any read codes.`);
+    return [];
+  }
 
   // Add 5 byte codes if we have any 7 character ones
   // e.g. if the code is "G30..00" then we would also 
   // add the code "G30.."
   const readcodeSet = {};
   readcodes.forEach((readcode) => {
+    if(!readcode) {
+      console.log(filepath);
+      console.log(fileHeader);
+      console.log(readcodes);
+    }
     readcodeSet[readcode] = true;
     if(readcode.length === 7) {
       readcodeSet[readcode.substr(0,5)] = true;
@@ -309,8 +347,19 @@ function loadCodesetCTV3(ltcGroup, conditionCodeSet) {
     .split('\n')
     .map(row => row.split('\t'))
     .filter(items => items.length > 1);
-  const ctv3Index = fileHeader.indexOf('CTV3Code');
+  let ctv3Index = fileHeader.map(x => x.toLowerCase()).indexOf('ctv3code');
+  if(ctv3Index < 0) ctv3Index = fileHeader.map(x => x.toLowerCase()).indexOf('ctv3id');
+  if(ctv3Index < 0) {
+    console.log(`The file ${conditionCodeSet} in ${ltcGroup} does not have a column with the header 'ctv3code' or 'ctv3id'.`);
+    return [];
+  }
   const ctv3Codes = fileBody.map(items => items[ctv3Index]);
+
+  if(ctv3Codes.length === 0) {
+    console.log(`The file ${conditionCodeSet} in ${ltcGroup} does not have any ctv3 codes.`);
+    return [];
+  }
+
   return ctv3Codes;
 }
 
