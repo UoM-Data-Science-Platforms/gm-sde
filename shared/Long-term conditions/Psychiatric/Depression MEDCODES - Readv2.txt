@@ -6,10 +6,10 @@ medcode	readcode	Description	CodingSystem
 1055	E135.00	Agitated depression	readcode
 1131	E204.00	Neurotic depression reactive type	readcode
 1533	E290.00	Brief depressive reaction	readcode
-1908	2257	O/E - depressed	readcode
+1908	2257.00	O/E - depressed	readcode
 1996	1B17.00	Depressed	readcode
 2639	E204.11	Postnatal depression	readcode
-2716	1465	H/O: depression	readcode
+2716	1465.00	H/O: depression	readcode
 2923	62T1.00	Puerperal depression	readcode
 2970	Eu32z00	"[X]Depressive episode, unspecified"	readcode
 2972	E2B0.00	Postviral depression	readcode

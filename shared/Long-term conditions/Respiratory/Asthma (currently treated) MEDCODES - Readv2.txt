@@ -38,7 +38,7 @@ medcode	readcode	Description	CodingSystem
 32727	H33z.11	Hyperreactive airways disease	readcode
 39478	H35y700	Wood asthma	readcode
 40823	H334.00	Brittle asthma	readcode
-41017	1780	Aspirin induced asthma	readcode
+41017	1780.00	Aspirin induced asthma	readcode
 45073	H331z00	Intrinsic asthma NOS	readcode
 45782	H330z00	Extrinsic asthma NOS	readcode
 47684	H47y000	Detergent asthma	readcode

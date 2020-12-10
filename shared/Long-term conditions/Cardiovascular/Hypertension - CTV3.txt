@@ -1,12 +1,12 @@
 CTV3ID	CTV3PreferredTermDesc	CTV3Source
 14A2.	H/O: hypertension	CTV3Map_Code_And_Term
 21261	Hypertension resolved	QOF
-2466	O/E - BP reading raised	QOF
-2467	O/E - BP reading very high	QOF
+2466.	O/E - BP reading raised	QOF
+2467.	O/E - BP reading very high	QOF
 662..	Cardiac disease monitoring (& [hypertension])	CTV3_Children
-6627	Good hypertension control	CTV3Map_Code_And_Term
-6628	Poor hypertension control	CTV3Map_Code_And_Term
-6629	Hypertension:follow-up default	CTV3Map_Code_And_Term
+6627.	Good hypertension control	CTV3Map_Code_And_Term
+6628.	Poor hypertension control	CTV3Map_Code_And_Term
+6629.	Hypertension:follow-up default	CTV3Map_Code_And_Term
 662F.	Hypertension treatm. started	CTV3Map_Code_And_Term
 662G.	Hypertensive treatm.changed	CTV3Map_Code_And_Term
 662H.	Hypertension treatm.stopped	CTV3Map_Code_And_Term

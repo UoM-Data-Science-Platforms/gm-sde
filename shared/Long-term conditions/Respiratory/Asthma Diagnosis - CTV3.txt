@@ -31,20 +31,20 @@ CTV3ID	CTV3PreferredTermDesc	CTV3Source
 663d.	Emergency asthma admission since last appointment	CTV3Map_Code_And_Term
 663e.	Asthma restricts exercise	CTV3Map_Code_And_Term
 663e.	Asthma restricts exercise	QOF
-6.63E+02	Asthma sometimes restricts exercise	CTV3Map_Code_And_Term
-6.63E+02	Asthma sometimes restricts exercise	QOF
-6.63E+03	Asthma severely restricts exercise	CTV3Map_Code_And_Term
-6.63E+03	Asthma severely restricts exercise	QOF
+663e2	Asthma sometimes restricts exercise	CTV3Map_Code_And_Term
+663e2	Asthma sometimes restricts exercise	QOF
+663e3	Asthma severely restricts exercise	CTV3Map_Code_And_Term
+663e3	Asthma severely restricts exercise	QOF
 663f.	Asthma never restricts exercise	CTV3Map_Code_And_Term
 663f.	Asthma never restricts exercise	QOF
 679J.	Health education - asthma	High_Level_SNOMED
-8791	Further asthma - drug prevention	CTV3Map_Code_And_Term
-8793	Asthma control step 0	High_Level_SNOMED
-8794	Asthma control step 1	CTV3Map_Code_And_Term
-8795	Asthma control step 2	CTV3Map_Code_And_Term
-8796	Asthma control step 3	CTV3Map_Code_And_Term
-8797	Asthma control step 4	CTV3Map_Code_And_Term
-8798	Asthma control step 5	CTV3Map_Code_And_Term
+8791.	Further asthma - drug prevention	CTV3Map_Code_And_Term
+8793.	Asthma control step 0	High_Level_SNOMED
+8794.	Asthma control step 1	CTV3Map_Code_And_Term
+8795.	Asthma control step 2	CTV3Map_Code_And_Term
+8796.	Asthma control step 3	CTV3Map_Code_And_Term
+8797.	Asthma control step 4	CTV3Map_Code_And_Term
+8798.	Asthma control step 5	CTV3Map_Code_And_Term
 8H2P.	"Emergency admission, asthma"	CTV3Map_Code_And_Term
 8H2P.	"Emergency admission, asthma"	QOF
 9OJ1.	Attends asthma monitoring	CTV3Map_Code_And_Term

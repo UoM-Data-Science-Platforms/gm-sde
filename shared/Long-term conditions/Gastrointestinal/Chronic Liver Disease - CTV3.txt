@@ -1,5 +1,5 @@
 CTV3ID	CTV3PreferredTermDesc	CTV3Source
-7609	Open operations on oesophageal varices	CTV3Map_Code_And_Term
+7609.	Open operations on oesophageal varices	CTV3Map_Code_And_Term
 76093	Local ligation of oesophageal varices	CTV3Map_Code_And_Term
 76094	Open injection sclerotherapy to oesophageal varices	CTV3Map_Code_And_Term
 7609y	Oesophageal varices operation: [OS open] or [Tanner]	CTV3_Children
@@ -9,7 +9,7 @@ CTV3ID	CTV3PreferredTermDesc	CTV3Source
 760F3	Rigid oesophagoscopy and injection sclerotherapy of varices	CTV3Map_Code_And_Term
 760F4	Rigid oesophagoscopy and banding of oesophageal varices	CTV3Map_Code_And_Term
 760J4	Balloon tamponade of oesophagus	CTV3Map_Code_And_Term
-7800	Liver transplant	CTV3Map_Code_And_Term
+7800.	Liver transplant	CTV3Map_Code_And_Term
 78000	Orthotopic liver transplant	CTV3Map_Code_And_Term
 78001	Heterotopic liver transplant	CTV3Map_Code_And_Term
 78001	Heterotopic liver transplant	CTV3Map_Code_Only

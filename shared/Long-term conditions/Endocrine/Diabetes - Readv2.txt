@@ -22,7 +22,7 @@ medcode	readcode	Description	CodingSystem
 5884	C109.11	NIDDM - Non-insulin dependent diabetes mellitus	readcode
 6509	C108700	Insulin dependent diabetes mellitus with retinopathy	readcode
 6791	C108800	Insulin dependent diabetes mellitus - poor control	readcode
-6813	1434	H/O: diabetes mellitus	readcode
+6813	1434.00	H/O: diabetes mellitus	readcode
 7563	66A3.00	Diabetic on diet only	readcode
 7795	C106.12	Diabetes mellitus with neuropathy	readcode
 8403	C109700	Non-insulin dependent diabetes mellitus - poor control	readcode

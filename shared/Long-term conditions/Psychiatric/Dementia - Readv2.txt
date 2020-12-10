@@ -4,7 +4,7 @@ medcode	readcode	Description	CodingSystem
 1917	F110.00	Alzheimer's disease	readcode
 4357	Eu02z14	[X] Senile dementia NOS	readcode
 4693	Eu02z00	[X] Unspecified dementia	readcode
-5931	1461	H/O: dementia	readcode
+5931	1461.00	H/O: dementia	readcode
 6578	Eu01.00	[X]Vascular dementia	readcode
 7323	E000.00	Uncomplicated senile dementia	readcode
 7572	F116.00	Lewy body disease	readcode
