@@ -11,5 +11,14 @@
 
 -- Calculate the number of LTCs for each patient
 IF OBJECT_ID('tempdb..#NumLTCs') IS NOT NULL DROP TABLE #NumLTCs;
-SELECT FK_Patient_Link_ID, COUNT(*) AS NumberOfLTCs INTO #NumLTCs FROM #PatientsWithLTCs
-GROUP BY FK_Patient_Link_ID;
+SELECT 
+  FK_Patient_Link_ID, 
+  CASE
+    WHEN NumberOfLTCs > 2 THEN 2 
+    ELSE NumberOfLTCs
+  END AS NumberOfLTCs
+INTO #NumLTCs
+FROM (
+  SELECT FK_Patient_Link_ID, COUNT(*) AS NumberOfLTCs FROM #PatientsWithLTCs
+  GROUP BY FK_Patient_Link_ID
+) subquery;

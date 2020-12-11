@@ -3,7 +3,7 @@
 --└───────────────────────────────┘
 
 -- OUTPUT: A temp table as follows:
--- #AdmissionTypes (FK_Patient_Link_ID, AdmissionDate, AdmissionType)
+-- #AdmissionTypes (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, AdmissionType)
 -- 	- FK_Patient_Link_ID - unique patient id
 --	- AdmissionDate - date of admission (YYYY-MM-DD)
 --	- AcuteProvider - Bolton, SRFT, Stockport etc..

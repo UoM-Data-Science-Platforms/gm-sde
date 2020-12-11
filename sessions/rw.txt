@@ -77,3 +77,12 @@
 
 2020-12-09 13:15-17:15
 - Automating the sql generation for data extraction
+
+2020-12-10 13:00-14:00
+- Testing the secondary utilisation data extract queries for RQ01
+- Checking how many TPP practices there are (as these are the only ones that provide referral data)
+- There are about 40 TPP practices
+
+2020-12-11 07:48-10:00
+- Investigating whether Salford and Stockport hosptials classify admissions
+- Stockport do, Salford don't
