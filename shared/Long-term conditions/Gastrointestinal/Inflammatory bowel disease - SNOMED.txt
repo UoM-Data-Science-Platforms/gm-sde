@@ -1,0 +1,114 @@
+id	name	active	notes
+38106008	Crohn's disease of ileum (disorder)	y	direct mapping
+444548001	Ulcerative pancolitis (disorder)	y	direct mapping
+52231000	Chronic ulcerative proctitis (disorder)	y	direct mapping
+52506002	Chronic ulcerative rectosigmoiditis (disorder)	y	direct mapping
+196976000	Regional enteritis of the jejunum (disorder)	y	direct mapping
+201807008	Juvenile arthritis in ulcerative colitis (disorder)	y	direct mapping
+50440006	Crohn's disease of colon (disorder)	y	direct mapping
+34000006	Crohn's disease (disorder)	y	direct mapping
+307418008	Non-infective enteritis and colitis (disorder)	y	direct mapping
+201805000	Juvenile arthritis in Crohn's disease (disorder)	y	direct mapping
+71207007	Noninfectious enteritis (disorder)	y	direct mapping
+196983007	Regional ileocolitis (disorder)	y	direct mapping
+14066009	Noninfectious colitis (disorder)	y	direct mapping
+414155001	Exacerbation of non-infective colitis (disorder)	y	direct mapping
+56287005	Crohn's disease of duodenum (disorder)	y	direct mapping
+201728006	Arthropathy in Crohn's disease (disorder)	y	direct mapping
+56689002	Crohn's disease of small intestine (disorder)	y	direct mapping
+235746007	Indeterminate colitis (disorder)	y	direct mapping
+445243001	Left sided ulcerative colitis (disorder)	y	direct mapping
+235664007	Crohn's disease of stomach (disorder)	y	direct mapping
+295046003	Ulcerative proctocolitis (disorder)	y	direct mapping
+91390005	Crohn's disease of jejunum (disorder)	y	direct mapping
+414153008	Exacerbation of Crohn's disease of large intestine (disorder)	y	direct mapping
+7620006	Crohn's disease of large bowel (disorder)	y	direct mapping
+43752006	Inflammation of small intestine and colon (disorder)	y	direct mapping
+3815005	Crohn's disease of rectum (disorder)	y	direct mapping
+235714007	Ulcerative enterocolitis (disorder)	y	direct mapping
+266999006	History of colitis (situation)	y	direct mapping
+235607002	Crohn's disease of esophagus (disorder)	y	direct mapping
+235796008	Perianal Crohn's disease (disorder)	y	direct mapping
+201727001	Arthropathy in ulcerative colitis (disorder)	y	direct mapping
+196578009	Crohn's disease of oral soft tissues (disorder)	y	direct mapping
+275549008	History of ulcerative colitis (situation)	y	direct mapping
+64766004	Ulcerative colitis (disorder)	y	direct mapping
+414154002	Exacerbation of Crohn's disease of small intestine (disorder)	y	direct mapping
+414156000	Exacerbation of ulcerative colitis (disorder)	y	direct mapping
+196977009	Crohn's disease of terminal ileum (disorder)	y	direct mapping
+196987008	Ulcerative ileocolitis (disorder)	y	direct mapping
+24526004	Inflammatory bowel disease (disorder)	y	direct mapping
+70622003	Crohn's disease of pyloric antrum (disorder)	y	descendant of concept mapped from leaf
+53372009	Noninfectious sigmoiditis (disorder)	y	descendant of concept mapped from leaf
+737193000	Allergic enteritis of small intestine (disorder)	y	descendant of concept mapped from leaf
+359656003	Idiopathic diffuse ulcerative nongranulomatous enteritis (disorder)	y	descendant of concept mapped from leaf
+444546002	Chronic ulcerative colitis (disorder)	y	descendant of concept mapped from leaf
+78712000	Moderate chronic ulcerative colitis (disorder)	y	descendant of concept mapped from leaf
+242004	Noninfectious jejunitis (disorder)	y	descendant of concept mapped from leaf
+1092841000119100	Abscess of intestine co-occurrent and due to ulcerative colitis (disorder)	y	descendant of concept mapped from leaf
+1085181000119100	Abscess of intestine co-occurrent and due to chronic ulcerative proctitis (disorder)	y	descendant of concept mapped from leaf
+410483002	Iritis with inflammatory bowel disease (disorder)	y	descendant of concept mapped from leaf
+25887009	Allergic sigmoiditis (disorder)	y	descendant of concept mapped from leaf
+30719001	Dietetic enteritis (disorder)	y	descendant of concept mapped from leaf
+720820000	Cutaneous photosensitivity and lethal colitis syndrome (disorder)	y	descendant of concept mapped from leaf
+733157003	Crohn disease of appendix (disorder)	y	descendant of concept mapped from leaf
+14311001	Severe chronic ulcerative colitis (disorder)	y	descendant of concept mapped from leaf
+266451002	Allergic gastroenteritis and colitis (disorder)	y	descendant of concept mapped from leaf
+197024006	Allergic enterocolitis (disorder)	y	descendant of concept mapped from leaf
+71833008	Crohn's disease of small AND large intestines (disorder)	y	descendant of concept mapped from leaf
+721686000	Inflammatory polyps co-occurrent and due to inflammatory bowel disease (disorder)	y	descendant of concept mapped from leaf
+1085801000119100	Abscess of intestine co-occurrent and due to Crohn's disease of small and large intestine (disorder)	y	descendant of concept mapped from leaf
+359664009	Idiopathic chronic inflammatory bowel disease (disorder)	y	descendant of concept mapped from leaf
+49464009	Dietetic sigmoiditis (disorder)	y	descendant of concept mapped from leaf
+13470001	Chronic ulcerative ileocolitis (disorder)	y	descendant of concept mapped from leaf
+128600008	Acute ulcerative colitis (disorder)	y	descendant of concept mapped from leaf
+939131000000104	History of Clostridium difficile infection (situation)	y	descendant of concept mapped from leaf
+397173003	Crohn's disease of intestine (disorder)	y	descendant of concept mapped from leaf
+30304000	Allergic colitis (disorder)	y	descendant of concept mapped from leaf
+1085231000119100	Abscess of intestine co-occurrent and due to chronic ulcerative rectosigmoiditis (disorder)	y	descendant of concept mapped from leaf
+1085751000119100	Abscess of intestine co-occurrent and due to Crohn's disease of large intestine (disorder)	y	descendant of concept mapped from leaf
+1085131000119100	Abscess of intestine co-occurrent and due to chronic ulcerative pancolitis (disorder)	y	descendant of concept mapped from leaf
+61424003	Crohn's disease of pylorus (disorder)	y	descendant of concept mapped from leaf
+22231002	Allergic enteritis (disorder)	y	descendant of concept mapped from leaf
+441971007	Chronic left-sided ulcerative colitis (disorder)	y	descendant of concept mapped from leaf
+8161000119106	Arthritis co-occurrent and due to Crohn's disease (disorder)	y	descendant of concept mapped from leaf
+442159003	Chronic ulcerative pancolitis (disorder)	y	descendant of concept mapped from leaf
+737194006	Dietetic enteritis of small intestine (disorder)	y	descendant of concept mapped from leaf
+22207007	Chronic proliferative enteritis (disorder)	y	descendant of concept mapped from leaf
+737195007	Crohn disease of upper gastrointestinal tract (disorder)	y	descendant of concept mapped from leaf
+1085901000119100	Abscess of intestine co-occurrent and due to Crohn's disease (disorder)	y	descendant of concept mapped from leaf
+72547003	Dietetic colitis (disorder)	y	descendant of concept mapped from leaf
+721702009	Crohn disease of anal canal (disorder)	y	descendant of concept mapped from leaf
+234999001	Crohn's disease of gingivae (disorder)	y	descendant of concept mapped from leaf
+722850002	Crohn's disease of gastrointestinal anastomosis (disorder)	y	descendant of concept mapped from leaf
+78324009	Mild chronic ulcerative colitis (disorder)	y	descendant of concept mapped from leaf
+426549001	Crohn's disease in remission (disorder)	y	descendant of concept mapped from leaf
+15342002	Chronic ulcerative enterocolitis (disorder)	y	descendant of concept mapped from leaf
+697969008	Ulcerative colitis in remission (disorder)	y	descendant of concept mapped from leaf
+410484008	Iritis with ulcerative colitis (disorder)	y	descendant of concept mapped from leaf
+735731005	Chronic non-infectious enteritis of uncertain etiology (disorder)	y	descendant of concept mapped from leaf
+1085851000119100	Abscess of intestine co-occurrent and due to Crohn's disease of small intestine (disorder)	y	descendant of concept mapped from leaf
+397172008	Gastrointestinal Crohn's disease (disorder)	y	descendant of concept mapped from leaf
+26006005	Allergic gastroenteritis (disorder)	y	descendant of concept mapped from leaf
+632681000000100	Crohn's disease of the ileum unspecified (disorder)	n	via Query Table
+176401000000106	Exacerbation of non-infective colitis	n	via Query Table
+609161000000100	Allergic gastroenteritis NOS (disorder)	n	via Query Table
+70882003	Staphylococcal enteritis of chinchillas (disorder)	n	via Query Table
+176371000000109	Exacerbation of Crohn's disease of small intestine	n	via Query Table
+412691000000107	[X]Other ulcerative colitis (disorder)	n	via Query Table
+793781000000104	Perinatal necrotising enterocolitis (disorder)	n	via Query Table
+624791000000102	Crohn's disease of the large bowel NOS (disorder)	n	via Query Table
+197533001	[X]Non-infective enteritis and colitis (disorder)	n	via Query Table
+491331000000106	Indeterminate colitis 	n	via Query Table
+823401000000107	Left sided ulcerative colitis (disorder)	n	via Query Table
+822251000000103	Ulcerative pancolitis (disorder)	n	via Query Table
+27701000	Proctocolitis (disorder)	n	via Query Table
+632691000000103	Crohn's disease of the ileum NOS (disorder)	n	via Query Table
+834601000000106	Ulcerative pancolitis	n	via Query Table
+455601000000104	[X]Other Crohn's disease (disorder)	n	via Query Table
+834721000000108	Left sided ulcerative colitis	n	via Query Table
+793751000000105	Neonatal necrotising enterocolitis (disorder)	n	via Query Table
+400651000000102	[X]Non-infective enteritis and colitis (disorder)	n	via Query Table
+176391000000108	Exacerbation of ulcerative colitis	n	via Query Table
+176381000000106	Exacerbation of Crohn's disease of large intestine	n	via Query Table
+939141000000108	History of clostridium difficile 	n	via Query Table

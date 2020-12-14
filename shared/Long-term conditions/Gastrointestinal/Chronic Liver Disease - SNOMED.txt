@@ -1,0 +1,285 @@
+id	name	active	notes
+197286002	Recurrent hepatitis (disorder)	y	direct mapping
+235869004	Chronic viral hepatitis B with hepatitis D (disorder)	y	direct mapping
+235899008	Hepatic sclerosis (disorder)	y	direct mapping
+213231008	Hepatorenal syndrome as a complication of care (disorder)	y	direct mapping
+17709002	Bleeding esophageal varices (disorder)	y	direct mapping
+15999000	Mixed micro AND macronodular cirrhosis (disorder)	y	direct mapping
+266470007	Cardiac portal cirrhosis (disorder)	y	direct mapping
+186628001	Viral hepatitis C with coma (disorder)	y	direct mapping
+12368000	Secondary biliary cirrhosis (disorder)	y	direct mapping
+186639003	Chronic viral hepatitis B without delta-agent (disorder)	y	direct mapping
+235212007	Balloon tamponade of esophagus using Sengstaken-Blakemore tube (procedure)	y	direct mapping
+204782009	Atresia of hepatic ducts (disorder)	y	direct mapping
+235898000	Pericellular fibrosis of congenital syphilis (disorder)	y	direct mapping
+197303009	Bacterial portal cirrhosis (disorder)	y	direct mapping
+173660005	Rigid esophagoscopy and injection sclerotherapy of varices (procedure)	y	direct mapping
+408335007	Autoimmune hepatitis (disorder)	y	direct mapping
+235897005	Hypoxia-associated cirrhosis (disorder)	y	direct mapping
+174425003	Orthotopic liver transplant (procedure)	y	direct mapping
+197360009	Toxic liver disease with chronic lobular hepatitis (disorder)	y	direct mapping
+6183001	Indian childhood cirrhosis (disorder)	y	direct mapping
+18027006	Transplantation of liver (procedure)	y	direct mapping
+197368002	Hepatic granulomas in sarcoidosis (disorder)	y	direct mapping
+197324004	Liver abscess and sequelae of chronic liver disease (disorder)	y	direct mapping
+89580002	Cryptogenic cirrhosis (disorder)	y	direct mapping
+41309000	Alcoholic liver damage (disorder)	y	direct mapping
+204781002	Congenital absence of hepatic ducts (disorder)	y	direct mapping
+19943007	Cirrhosis of liver (disorder)	y	direct mapping
+10295004	Chronic viral hepatitis (disorder)	y	direct mapping
+174426002	Heterotopic liver transplant (procedure)	y	direct mapping
+235896001	Infectious cirrhosis (disorder)	y	direct mapping
+197300007	Pipestem portal cirrhosis (disorder)	y	direct mapping
+235911006	Liver transplant rejection (disorder)	y	direct mapping
+197361008	Toxic liver disease with chronic active hepatitis (disorder)	y	direct mapping
+419728003	Portal cirrhosis (disorder)	y	direct mapping
+235886005	Chronic hepatic failure (disorder)	y	direct mapping
+173639004	Fiberoptic esophagoscopy and injection sclerotherapy of varices (procedure)	y	direct mapping
+307757001	Chronic alcoholic hepatitis (disorder)	y	direct mapping
+67364009	Ligation of esophageal varices (procedure)	y	direct mapping
+197301006	Toxic portal cirrhosis (disorder)	y	direct mapping
+57339008	Chronic lobular hepatitis (disorder)	y	direct mapping
+197275004	Subacute hepatic failure (disorder)	y	direct mapping
+235880004	Alcoholic fibrosis and sclerosis of liver (disorder)	y	direct mapping
+195476002	"Esophageal varices without bleeding, associated with another disorder (disorder)"	y	direct mapping
+235895002	"Laennec's cirrhosis, non-alcoholic (disorder)"	y	direct mapping
+235902006	Intrahepatic phlebosclerosis and fibrosis (disorder)	y	direct mapping
+235912004	Liver transplant failure (disorder)	y	direct mapping
+14223005	Esophageal varices without bleeding (disorder)	y	direct mapping
+197284004	Chronic active hepatitis (disorder)	y	direct mapping
+31712002	Primary biliary cholangitis (disorder)	y	direct mapping
+197270009	Acute hepatic failure (disorder)	y	direct mapping
+197299004	Pigmentary portal cirrhosis (disorder)	y	direct mapping
+235889003	Drug-induced chronic hepatitis (disorder)	y	direct mapping
+91109007	Gastric varices (disorder)	y	direct mapping
+43904005	Macronodular cirrhosis (disorder)	y	direct mapping
+362421000000102	Chronic hepatitis annual review - enhanced services administration (procedure)	y	direct mapping
+34742003	Portal hypertension (disorder)	y	direct mapping
+51292008	Hepatorenal syndrome (disorder)	y	direct mapping
+235916001	Ichthyosis congenita with biliary atresia (disorder)	y	direct mapping
+195474004	Esophageal varices associated with another disorder (disorder)	y	direct mapping
+1287007	Congenital absence of bile duct (disorder)	y	direct mapping
+128302006	Chronic hepatitis C (disorder)	y	direct mapping
+20415001	Progressive sclerosing poliodystrophy (disorder)	y	direct mapping
+197310003	Biliary cirrhosis of children (disorder)	y	direct mapping
+235870003	Chronic non-A non-B hepatitis (disorder)	y	direct mapping
+21861000	Micronodular cirrhosis (disorder)	y	direct mapping
+31742004	Arteriohepatic dysplasia (disorder)	y	direct mapping
+174427006	Replacement of previous liver transplant (procedure)	y	direct mapping
+271440004	Cirrhosis secondary to cholestasis (disorder)	y	direct mapping
+235875008	Alcoholic hepatitis (disorder)	y	direct mapping
+235458006	Exploration of liver transplant (procedure)	y	direct mapping
+413438002	Acute hepatic failure due to drugs (disorder)	y	direct mapping
+308129003	Esophageal varices in cirrhosis of the liver (disorder)	y	direct mapping
+173617001	Open operations on esophageal varices (procedure)	y	direct mapping
+213230009	Hepatic failure as a complication of care (disorder)	y	direct mapping
+426841006	Fiberoptic endoscopic rubber band ligation of upper gastrointestinal tract varices (procedure)	y	direct mapping
+34736002	Chronic passive congestion of liver (disorder)	y	direct mapping
+328383001	Chronic liver disease (disorder)	y	direct mapping
+309783001	Esophageal varices in alcoholic cirrhosis of the liver (disorder)	y	direct mapping
+427022004	Liver disease due to cystic fibrosis (disorder)	y	direct mapping
+28670008	Esophageal varices (disorder)	y	direct mapping
+197359004	Toxic liver disease with chronic persistent hepatitis (disorder)	y	direct mapping
+197305002	Syphilitic portal cirrhosis (disorder)	y	direct mapping
+197316009	Portal fibrosis without cirrhosis (disorder)	y	direct mapping
+428198008	Transplantation of hepatocytes (procedure)	y	direct mapping
+235910007	Liver transplant disorder (disorder)	y	direct mapping
+197362001	Toxic liver disease with fibrosis and cirrhosis of liver (disorder)	y	direct mapping
+253807009	Intrahepatic biliary atresia (disorder)	y	direct mapping
+213153001	Liver transplant failure and rejection (disorder)	y	direct mapping
+195475003	"Esophageal varices with bleeding, associated with another disorder (disorder)"	y	direct mapping
+235884008	Fulminant hepatic failure (disorder)	y	direct mapping
+426356008	Orthotopic transplantation of whole liver (procedure)	y	direct mapping
+74669004	Cardiac cirrhosis (disorder)	y	direct mapping
+266469006	Multilobular portal cirrhosis (disorder)	y	direct mapping
+76301009	Florid cirrhosis (disorder)	y	direct mapping
+123604002	Toxic cirrhosis (disorder)	y	direct mapping
+173679008	Balloon tamponade of esophagus (procedure)	y	direct mapping
+265437009	Exploration of liver (procedure)	y	direct mapping
+76783007	Chronic hepatitis (disorder)	y	direct mapping
+197291001	Unilobular portal cirrhosis (disorder)	y	direct mapping
+79720007	Chronic nonalcoholic liver disease (disorder)	y	direct mapping
+68094008	Congenital hypoplasia of bile duct (disorder)	y	direct mapping
+235213002	Balloon tamponade of esophagus using Minnesota tube (procedure)	y	direct mapping
+197293003	Diffuse nodular cirrhosis (disorder)	y	direct mapping
+40946000	Hepatic coma due to viral hepatitis (disorder)	y	direct mapping
+41889008	Chronic persistent hepatitis (disorder)	y	direct mapping
+61977001	Chronic type B viral hepatitis (disorder)	y	direct mapping
+776981000000103	Cirrhosis associated with cystic fibrosis (disorder)	y	direct mapping
+81675001	Chronic yellow atrophy of liver (disorder)	y	direct mapping
+235881000	Alcoholic hepatic failure (disorder)	y	direct mapping
+1761006	Biliary cirrhosis (disorder)	y	direct mapping
+62484002	Hepatic fibrosis (disorder)	y	direct mapping
+235900003	Portal and splenic vein sclerosis (disorder)	y	direct mapping
+82821008	Congenital atresia of extrahepatic bile duct (disorder)	y	direct mapping
+773411000000107	Liver failure support management (procedure)	y	direct mapping
+197296006	Capsular portal cirrhosis (disorder)	y	direct mapping
+266471006	Juvenile portal cirrhosis (disorder)	y	direct mapping
+9953008	Acute alcoholic liver disease (disorder)	y	direct mapping
+50325005	Alcoholic fatty liver (disorder)	y	direct mapping
+197279005	Cirrhosis and chronic liver disease (disorder)	y	direct mapping
+77480004	Congenital biliary atresia (disorder)	y	direct mapping
+59927004	Hepatic failure (disorder)	y	direct mapping
+235901004	Hepatic fibrosis with hepatic sclerosis (disorder)	y	direct mapping
+737297006	Transplanted liver present (finding)	y	direct mapping
+266468003	Cirrhosis - non-alcoholic (disorder)	y	direct mapping
+235885009	Subfulminant hepatic failure (disorder)	y	direct mapping
+173661009	Rigid esophagoscopy and banding of esophageal varices (procedure)	y	direct mapping
+79607001	Congenital hepatic fibrosis (disorder)	y	direct mapping
+197441003	Primary sclerosing cholangitis (disorder)	y	direct mapping
+173621008	Open injection sclerotherapy to esophageal varices (procedure)	y	direct mapping
+173641003	Fiberoptic esophagoscopy and banding of esophageal varices (procedure)	y	direct mapping
+197294009	Fatty portal cirrhosis (disorder)	y	direct mapping
+420054005	Alcoholic cirrhosis (disorder)	y	direct mapping
+721711009	Autoimmune hepatitis type 1 (disorder)	y	descendant of concept mapped from leaf
+314587006	Trial dissection of liver mass (procedure)	y	descendant of concept mapped from leaf
+721710005	Fibrosis of liver caused by alcohol (disorder)	y	descendant of concept mapped from leaf
+24807004	Bleeding gastric varices (disorder)	y	descendant of concept mapped from leaf
+424340000	Hepatic coma due to chronic hepatitis B (disorder)	y	descendant of concept mapped from leaf
+1092801000119100	Hepatic ascites co-occurrent with chronic active hepatitis due to toxic liver disease (disorder)	y	descendant of concept mapped from leaf
+768288001	Chronic hepatitis C caused by Hepatitis C virus genotype 1b (disorder)	y	descendant of concept mapped from leaf
+721206006	Solitary varix of esophagus (disorder)	y	descendant of concept mapped from leaf
+146371000119104	Hepatic coma due to chronic hepatitis C (disorder)	y	descendant of concept mapped from leaf
+78208005	Pigment cirrhosis (disorder)	y	descendant of concept mapped from leaf
+424099008	Hepatic coma due to acute hepatitis B (disorder)	y	descendant of concept mapped from leaf
+425413006	Drug-induced cirrhosis of liver (disorder)	y	descendant of concept mapped from leaf
+737202006	Fibropolycystic disease of liver (disorder)	y	descendant of concept mapped from leaf
+61477008	Incision and exploration of liver (procedure)	y	descendant of concept mapped from leaf
+26206000	Hepatic coma due to viral hepatitis B (disorder)	y	descendant of concept mapped from leaf
+536002	Glissonian cirrhosis (disorder)	y	descendant of concept mapped from leaf
+125921000119106	Hepatic coma due to acute hepatitis C (disorder)	y	descendant of concept mapped from leaf
+716203000	Decompensated cirrhosis of liver (disorder)	y	descendant of concept mapped from leaf
+721847002	Joubert syndrome with congenital hepatic fibrosis (disorder)	y	descendant of concept mapped from leaf
+722864002	Acute hepatic failure caused by hepatitis virus (disorder)	y	descendant of concept mapped from leaf
+89789003	Chronic aggressive viral hepatitis (disorder)	y	descendant of concept mapped from leaf
+720461006	Acute infantile liver failure due to synthesis defect of mitochondrial deoxyribonucleic acid encoded protein (disorder)	y	descendant of concept mapped from leaf
+240792005	Symmer's pipe-stem fibrosis (disorder)	y	descendant of concept mapped from leaf
+22508003	Hepatic failure due to a procedure (disorder)	y	descendant of concept mapped from leaf
+725938001	Cirrhosis of liver caused by methotrexate (disorder)	y	descendant of concept mapped from leaf
+33167004	Complication of transplanted liver (disorder)	y	descendant of concept mapped from leaf
+60037002	Chronic persistent viral hepatitis (disorder)	y	descendant of concept mapped from leaf
+432777003	Accelerated rejection of liver transplant (disorder)	y	descendant of concept mapped from leaf
+725939009	Cirrhosis of liver caused by amiodarone (disorder)	y	descendant of concept mapped from leaf
+768006009	Chronic hepatitis C caused by Hepatitis C virus genotype 3 (disorder)	y	descendant of concept mapped from leaf
+725940006	Cirrhosis of liver caused by methyldopa (disorder)	y	descendant of concept mapped from leaf
+853761000000103	Living donor liver transplantation (procedure)	y	descendant of concept mapped from leaf
+708248004	End stage liver disease (disorder)	y	descendant of concept mapped from leaf
+62216007	Familial arthrogryposis-cholestatic hepatorenal syndrome (disorder)	y	descendant of concept mapped from leaf
+735733008	Cirrhosis of liver co-occurrent and due to primary sclerosing cholangitis (disorder)	y	descendant of concept mapped from leaf
+19682006	Lupus hepatitis (disorder)	y	descendant of concept mapped from leaf
+1116000	Chronic aggressive type B viral hepatitis (disorder)	y	descendant of concept mapped from leaf
+27280000	Liver transplant with recipient hepatectomy (procedure)	y	descendant of concept mapped from leaf
+703866000	Chronic hepatitis C with stage 2 fibrosis (disorder)	y	descendant of concept mapped from leaf
+722865001	Subacute hepatic failure caused by hepatitis virus (disorder)	y	descendant of concept mapped from leaf
+45256007	Cruveilhier-Baumgarten syndrome (disorder)	y	descendant of concept mapped from leaf
+22846003	Hepatorenal syndrome following delivery (disorder)	y	descendant of concept mapped from leaf
+715401008	Primary biliary cirrhosis co-occurrent with systemic scleroderma (disorder)	y	descendant of concept mapped from leaf
+713542007	Portal hypertension caused by antiretroviral drug (disorder)	y	descendant of concept mapped from leaf
+123606000	Cholangiolitic cirrhosis (disorder)	y	descendant of concept mapped from leaf
+371139006	Early cirrhosis (disorder)	y	descendant of concept mapped from leaf
+717156002	Biliary atresia with splenic malformation syndrome (disorder)	y	descendant of concept mapped from leaf
+717865007	Gastric varices without bleeding (disorder)	y	descendant of concept mapped from leaf
+276723008	Intrahepatic biliary hypoplasia (disorder)	y	descendant of concept mapped from leaf
+768289009	Chronic hepatitis C caused by Hepatitis C virus genotype 1a (disorder)	y	descendant of concept mapped from leaf
+33144001	Parasitic cirrhosis (disorder)	y	descendant of concept mapped from leaf
+347891000119103	Chronic hepatitis C with stage 3 fibrosis (disorder)	y	descendant of concept mapped from leaf
+50167007	Chronic active type B viral hepatitis (disorder)	y	descendant of concept mapped from leaf
+707420003	Portal hypertension due to cystic fibrosis (disorder)	y	descendant of concept mapped from leaf
+314963000	Local recurrence of malignant tumor of liver (disorder)	y	descendant of concept mapped from leaf
+432772009	Hyperacute rejection of liver transplant (disorder)	y	descendant of concept mapped from leaf
+721160006	Downhill varices of esophagus (disorder)	y	descendant of concept mapped from leaf
+66870002	Chronic active viral hepatitis (disorder)	y	descendant of concept mapped from leaf
+768127002	Chronic hepatitis C caused by Hepatitis C virus genotype 1 (disorder)	y	descendant of concept mapped from leaf
+721712002	Autoimmune hepatitis type 2 (disorder)	y	descendant of concept mapped from leaf
+721713007	Autoimmune hepatitis type 3 (disorder)	y	descendant of concept mapped from leaf
+37688005	Clonorchiasis with biliary cirrhosis (disorder)	y	descendant of concept mapped from leaf
+153091000119109	Hepatic coma due to chronic hepatitis B with delta agent (disorder)	y	descendant of concept mapped from leaf
+103611000119102	Cirrhosis of liver due to hepatitis B (disorder)	y	descendant of concept mapped from leaf
+186624004	Acute hepatitis B with delta agent (coinfection) with hepatic coma (disorder)	y	descendant of concept mapped from leaf
+86454000	Postnecrotic cirrhosis (disorder)	y	descendant of concept mapped from leaf
+307008007	Exploration of liver hilum (procedure)	y	descendant of concept mapped from leaf
+767809001	Chronic hepatitis C caused by hepatitis C virus genotype 6 (disorder)	y	descendant of concept mapped from leaf
+123717006	Advanced cirrhosis (disorder)	y	descendant of concept mapped from leaf
+717187000	Nephronophthisis hepatic fibrosis syndrome (disorder)	y	descendant of concept mapped from leaf
+713966008	Occult chronic type B viral hepatitis (disorder)	y	descendant of concept mapped from leaf
+713965007	Sclerosis of portal vein and splenic vein caused by antiretroviral drug (disorder)	y	descendant of concept mapped from leaf
+31005002	Hepatorenal syndrome due to a procedure (disorder)	y	descendant of concept mapped from leaf
+16060001	Hepatic coma due to viral hepatitis A (disorder)	y	descendant of concept mapped from leaf
+713181003	Chronic alcoholic liver disease (disorder)	y	descendant of concept mapped from leaf
+16070004	Syphilitic cirrhosis (disorder)	y	descendant of concept mapped from leaf
+28009009	Liver transplant without recipient hepatectomy (procedure)	y	descendant of concept mapped from leaf
+722867009	Idiopathic portal hypertension (disorder)	y	descendant of concept mapped from leaf
+450880008	Chronic hepatitis E (disorder)	y	descendant of concept mapped from leaf
+699189004	North American Indian childhood cirrhosis (disorder)	y	descendant of concept mapped from leaf
+109819003	Obstructive biliary cirrhosis (disorder)	y	descendant of concept mapped from leaf
+27156006	Posthepatitic cirrhosis (disorder)	y	descendant of concept mapped from leaf
+715864007	Non-Wilsonian hepatic copper toxicosis of infancy and childhood (disorder)	y	descendant of concept mapped from leaf
+31155007	Benign recurrent intrahepatic cholestasis (disorder)	y	descendant of concept mapped from leaf
+708198006	Chronic active hepatitis C (disorder)	y	descendant of concept mapped from leaf
+713370005	Acute on chronic alcoholic liver disease (disorder)	y	descendant of concept mapped from leaf
+123605001	Nutritional cirrhosis (disorder)	y	descendant of concept mapped from leaf
+768125005	Chronic hepatitis C caused by Hepatitis C virus genotype 2 (disorder)	y	descendant of concept mapped from leaf
+725416005	Cardiomyopathy co-occurrent and due to cirrhosis of liver (disorder)	y	descendant of concept mapped from leaf
+767810006	Chronic hepatitis C caused by hepatitis C virus genotype 5 (disorder)	y	descendant of concept mapped from leaf
+73475009	Hepatogenous chronic copper poisoning (disorder)	y	descendant of concept mapped from leaf
+768126006	Chronic hepatitis C caused by Hepatitis C virus genotype 4 (disorder)	y	descendant of concept mapped from leaf
+431222008	Acute rejection of liver transplant (disorder)	y	descendant of concept mapped from leaf
+123607009	Septal fibrosis of liver (disorder)	y	descendant of concept mapped from leaf
+9843006	Chronic lymphocytic cholangitis-cholangiohepatitis (disorder)	y	descendant of concept mapped from leaf
+38662009	Chronic persistent type B viral hepatitis (disorder)	y	descendant of concept mapped from leaf
+44047000	Zieve's syndrome (disorder)	y	descendant of concept mapped from leaf
+831000119103	Cirrhosis of liver due to chronic hepatitis C (disorder)	y	descendant of concept mapped from leaf
+432908002	Chronic rejection of liver transplant (disorder)	y	descendant of concept mapped from leaf
+123716002	Latent cirrhosis (disorder)	y	descendant of concept mapped from leaf
+735451005	Chronic infection caused by Hepatitis D virus (disorder)	y	descendant of concept mapped from leaf
+812271000000102	Viral hepatitis with hepatic coma (disorder)	n	via Query Table
+227071000000107	Fibreoptic endoscopic rubber band ligation of upper gastrointestinal tract varices (procedure)	n	via Query Table
+256971000000107	Fibreoptic endoscopic rubber band ligation of upper gastrointestinal tract varices 	n	via Query Table
+702777009	Liver transplant recipient (finding)	n	via Query Table
+362441000000109	Chronic hepatitis annual review - enhanced services administration 	n	via Query Table
+885861000000104	Liver transplant recipient (finding)	n	via Query Table
+595961000000105	Transplantation of liver NOS (procedure)	n	via Query Table
+696141000000105	Other specified open operation on esophageal varices (procedure)	n	via Query Table
+187435007	"[X]Chronic viral hepatitis, unspecified (disorder)"	n	via Query Table
+257811000000106	Transplantation of liver cells 	n	via Query Table
+832381000000103	Viral hepatitis with hepatic coma	n	via Query Table
+589511000000102	Alcoholic liver damage unspecified (disorder)	n	via Query Table
+362431000000100	Chronic hepatitis annual review - enhanced services administration 	n	via Query Table
+662341000000105	Cirrhosis of liver NOS (disorder)	n	via Query Table
+592421000000102	Other non-alcoholic chronic liver disease NOS (disorder)	n	via Query Table
+187436008	[X]Unspecified viral hepatitis with coma (disorder)	n	via Query Table
+662331000000101	Hepatic failure NOS (disorder)	n	via Query Table
+592411000000108	Other non-alcoholic chronic liver disease (disorder)	n	via Query Table
+596791000000105	Biliary atresia NOS (disorder)	n	via Query Table
+197553002	[X]Other and unspecified cirrhosis of liver (disorder)	n	via Query Table
+233331000000102	Orthotopic transplantation of liver NEC (procedure)	n	via Query Table
+713652000	Decompensated liver disease (disorder)	n	via Query Table
+875211000000105	Chronic viral hepatitis B	n	via Query Table
+470971000000107	[X]Other and unspecified cirrhosis of liver (disorder)	n	via Query Table
+589521000000108	Chronic hepatitis unspecified (disorder)	n	via Query Table
+707011000000103	Liver disease due to cystic fibrosis	n	via Query Table
+652571000000102	Esophageal varices in diseases EC NOS (disorder)	n	via Query Table
+444071000000104	[X]Unspecified viral hepatitis with coma (disorder)	n	via Query Table
+671731000000104	Non-alcoholic cirrhosis NOS (disorder)	n	via Query Table
+226951000000102	Orthotopic transplantation of whole liver (procedure)	n	via Query Table
+197285003	Chronic aggressive hepatitis (disorder)	n	via Query Table
+589561000000100	Biliary cirrhosis NOS (disorder)	n	via Query Table
+464381000000109	[V]Liver transplanted (context-dependent category)	n	via Query Table
+589541000000101	Infectious cirrhosis NOS (disorder)	n	via Query Table
+538521000000107	Other specified transplantation of liver (procedure)	n	via Query Table
+663501000000108	Open operation on esophageal varices NOS (procedure)	n	via Query Table
+257821000000100	Orthotopic transplantation of whole liver 	n	via Query Table
+778131000000103	Cystic fibrosis related cirrhosis	n	via Query Table
+235894003	Portal cirrhosis (disorder)	n	via Query Table
+419541000000109	"[X]Chronic viral hepatitis, unspecified (disorder)"	n	via Query Table
+417371000000102	[X]Esophageal varices in diseases classified elsewhere (disorder)	n	via Query Table
+589551000000103	Portal cirrhosis unspecified (disorder)	n	via Query Table
+111370006	Cirrhosis of liver not due to alcohol (disorder)	n	via Query Table
+316061004	[V]Liver transplanted (situation)	n	via Query Table
+176411000000108	Acute hepatic failure due to drugs	n	via Query Table
+186621007	Viral hepatitis A with coma (disorder)	n	via Query Table
+186623005	Viral hepatitis B with coma (disorder)	n	via Query Table
+432261000000109	"[X]Chronic viral hepatitis, unspecified"	n	via Query Table
+226941000000100	Transplantation of liver cells (procedure)	n	via Query Table
+526101000000108	Liver disease due to cystic fibrosis (disorder)	n	via Query Table
+622551000000105	Liver abscess and chronic liver disease causing sequelae NOS (disorder)	n	via Query Table

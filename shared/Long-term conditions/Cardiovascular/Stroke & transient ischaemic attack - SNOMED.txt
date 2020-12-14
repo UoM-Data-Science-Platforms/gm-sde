@@ -1,0 +1,954 @@
+id	name	active	notes
+34781003	Vertebral artery syndrome (disorder)	y	direct mapping
+64009001	Basilar artery syndrome (disorder)	y	direct mapping
+230718007	Subarachnoid hemorrhage due to ruptured arteriovenous malformation (disorder)	y	direct mapping
+237702003	Pituitary hemorrhage (disorder)	y	direct mapping
+277325005	Ruptured aneurysm of posterior inferior cerebellar artery (disorder)	y	direct mapping
+195200006	Carotid artery syndrome hemispheric (disorder)	y	direct mapping
+230704000	Multi-infarct state (disorder)	y	direct mapping
+195236009	Occlusion and stenosis of multiple and bilateral cerebral arteries (disorder)	y	direct mapping
+270907008	Spontaneous intracranial subarachnoid hemorrhage (disorder)	y	direct mapping
+230695002	Partial anterior cerebral circulation infarction (disorder)	y	direct mapping
+195216008	Left sided cerebral hemisphere cerebrovascular accident (disorder)	y	direct mapping
+230693009	Anterior cerebral circulation infarction (disorder)	y	direct mapping
+231231000000107	Delivery of rehabilitation for stroke (regime/therapy)	y	direct mapping
+275526006	History of cerebrovascular accident (situation)	y	direct mapping
+195201005	Multiple and bilateral precerebral artery syndromes (disorder)	y	direct mapping
+230694003	Total anterior cerebral circulation infarction (disorder)	y	direct mapping
+195232006	Occlusion and stenosis of middle cerebral artery (disorder)	y	direct mapping
+195234007	Occlusion and stenosis of posterior cerebral artery (disorder)	y	direct mapping
+810991000000109	Stroke self-management plan review (procedure)	y	direct mapping
+195160000	Intracranial subarachnoid hemorrhage from vertebral artery (disorder)	y	direct mapping
+195189003	Cerebral infarction due to thrombosis of cerebral arteries (disorder)	y	direct mapping
+206196005	Cerebral hemorrhage due to birth injury (disorder)	y	direct mapping
+276219001	Occipital cerebral infarction (disorder)	y	direct mapping
+195241001	Sequelae of intracerebral hemorrhage (disorder)	y	direct mapping
+230700009	Pure sensory lacunar infarction (disorder)	y	direct mapping
+240313004	Intracerebral hemorrhage in fetus or newborn (disorder)	y	direct mapping
+277328007	Ruptured internal carotid-anterior communicating artery zone aneurysm (disorder)	y	direct mapping
+195209007	Middle cerebral artery syndrome (disorder)	y	direct mapping
+277319006	Ruptured aneurysm of posterior cerebral artery (disorder)	y	direct mapping
+75543006	Cerebral embolism (disorder)	y	direct mapping
+1386000	Intracranial hemorrhage (disorder)	y	direct mapping
+450410005	Intracranial hemorrhage following injury (disorder)	y	direct mapping
+230713003	Stroke of uncertain pathology (disorder)	y	direct mapping
+7713009	Intrapontine hemorrhage (disorder)	y	direct mapping
+519751000000106	Cerebrovascular accident 6 month review (regime/therapy)	y	direct mapping
+230698000	Lacunar infarction (disorder)	y	direct mapping
+195212005	Brainstem stroke syndrome (disorder)	y	direct mapping
+413102000	Infarction of basal ganglia (disorder)	y	direct mapping
+230708002	Posterior cerebral circulation hemorrhagic infarction (disorder)	y	direct mapping
+277315000	Ruptured aneurysm of anterior cerebral artery (disorder)	y	direct mapping
+230701008	Pure sensorimotor lacunar infarction (disorder)	y	direct mapping
+206398001	Intraventricular hemorrhage due to birth injury (disorder)	y	direct mapping
+230696001	Posterior cerebral circulation infarction (disorder)	y	direct mapping
+432504007	Cerebral infarction (disorder)	y	direct mapping
+390936003	Cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy (disorder)	y	direct mapping
+307766002	Left sided cerebral infarction (disorder)	y	direct mapping
+277324009	Ruptured aneurysm of basilar artery (disorder)	y	direct mapping
+195190007	Cerebral infarction due to embolism of cerebral arteries (disorder)	y	direct mapping
+71444005	Cerebral arterial thrombosis (disorder)	y	direct mapping
+195199008	Vertebrobasilar artery syndrome (disorder)	y	direct mapping
+62914000	Cerebrovascular disease (disorder)	y	direct mapping
+230712008	Lacunar hemorrhage (disorder)	y	direct mapping
+195185009	Cerebral infarct due to thrombosis of precerebral arteries (disorder)	y	direct mapping
+95454007	Brain stem hemorrhage (disorder)	y	direct mapping
+195213000	Cerebellar stroke syndrome (disorder)	y	direct mapping
+195154000	Ruptured berry aneurysm (disorder)	y	direct mapping
+230690007	Cerebrovascular accident (disorder)	y	direct mapping
+195211003	Posterior cerebral artery syndrome (disorder)	y	direct mapping
+230709005	Massive supratentorial cerebral hemorrhage (disorder)	y	direct mapping
+230707007	Anterior cerebral circulation hemorrhagic infarction (disorder)	y	direct mapping
+206188000	Subdural and cerebral hemorrhage due to birth trauma (disorder)	y	direct mapping
+30400005	Middle meningeal hemorrhage following injury (disorder)	y	direct mapping
+306803007	Admission to stroke unit (procedure)	y	direct mapping
+195243003	Sequelae of cerebral infarction (disorder)	y	direct mapping
+288276001	Fetal cerebral hemorrhage (disorder)	y	direct mapping
+20908003	Subcortical cerebral hemorrhage (disorder)	y	direct mapping
+373606000	Occlusive stroke (disorder)	y	direct mapping
+1032761000000100	"Intraventricular (nontraumatic) haemorrhage, grade 4, of fetus and newborn (disorder)"	y	direct mapping
+233983001	Ruptured cerebral aneurysm (disorder)	y	direct mapping
+195235008	Occlusion and stenosis of cerebellar arteries (disorder)	y	direct mapping
+230706003	Hemorrhagic cerebral infarction (disorder)	y	direct mapping
+277322008	Ruptured aneurysm of posterior communicating artery (disorder)	y	direct mapping
+195182007	Vertebral artery occlusion (disorder)	y	direct mapping
+95460007	Cerebellar infarction (disorder)	y	direct mapping
+125081000119106	Cerebral infarction due to occlusion of precerebral artery (disorder)	y	direct mapping
+195210002	Anterior cerebral artery syndrome (disorder)	y	direct mapping
+195167002	External capsule hemorrhage (disorder)	y	direct mapping
+276722003	Intracerebellar and posterior fossa hemorrhage (disorder)	y	direct mapping
+307767006	Right sided cerebral infarction (disorder)	y	direct mapping
+276648002	Intraventricular hemorrhage of prematurity (disorder)	y	direct mapping
+274100004	Cerebral hemorrhage (disorder)	y	direct mapping
+195169004	"Intracerebral hemorrhage, multiple localized (disorder)"	y	direct mapping
+195180004	Basilar artery occlusion (disorder)	y	direct mapping
+450418003	Cerebral hemorrhage following injury (disorder)	y	direct mapping
+195231004	"Occlusion and stenosis of cerebral arteries, not resulting in cerebral infarction (disorder)"	y	direct mapping
+275434003	Stroke in the puerperium (disorder)	y	direct mapping
+20059004	Occlusion of cerebral artery (disorder)	y	direct mapping
+195240000	Sequelae of subarachnoid hemorrhage (disorder)	y	direct mapping
+699270006	Cerebrovascular accident annual review (regime/therapy)	y	direct mapping
+39925003	"Juvenile myopathy, encephalopathy, lactic acidosis AND stroke (disorder)"	y	direct mapping
+266253001	Precerebral arterial occlusion (disorder)	y	direct mapping
+195168007	Intracerebral hemorrhage with intraventricular hemorrhage (disorder)	y	direct mapping
+70611002	Perinatal intraventricular hemorrhage (disorder)	y	direct mapping
+112901000000108	Referral to multidisciplinary stroke function improvement service (procedure)	y	direct mapping
+308067002	History of stroke in last year (situation)	y	direct mapping
+56453003	"Hereditary cerebral amyloid angiopathy, Dutch type (disorder)"	y	direct mapping
+277299009	Ruptured cerebral arteriovenous malformation (disorder)	y	direct mapping
+812041000000104	Stroke self-management plan agreed (finding)	y	direct mapping
+213208008	Anoxic brain damage complication (disorder)	y	direct mapping
+230692004	Infarction - precerebral (disorder)	y	direct mapping
+72986009	Acute hemorrhagic leukoencephalitis (disorder)	y	direct mapping
+230691006	Cerebrovascular accident due to occlusion of cerebral artery (disorder)	y	direct mapping
+230711001	Thalamic hemorrhage (disorder)	y	direct mapping
+195183002	Multiple and bilateral precerebral arterial occlusion (disorder)	y	direct mapping
+195165005	Basal ganglia hemorrhage (disorder)	y	direct mapping
+95457000	Brain stem infarction (disorder)	y	direct mapping
+307363008	Multiple lacunar infarcts (disorder)	y	direct mapping
+213209000	Cerebral anoxia complication (disorder)	y	direct mapping
+277303004	Angiogram-negative intracranial subarachnoid hemorrhage (disorder)	y	direct mapping
+195186005	Cerebral infarction due to embolism of precerebral arteries (disorder)	y	direct mapping
+277286006	Central post-stroke pain (finding)	y	direct mapping
+277320000	Ruptured aneurysm of anterior communicating artery (disorder)	y	direct mapping
+277329004	Ruptured internal carotid-posterior communicating artery zone aneurysm (disorder)	y	direct mapping
+75038005	Cerebellar hemorrhage (disorder)	y	direct mapping
+277330009	Ruptured internal carotid bifurcation aneurysm (disorder)	y	direct mapping
+195230003	"Cerebral infarction due to cerebral venous thrombosis, non-pyogenic (disorder)"	y	direct mapping
+195233001	Occlusion and stenosis of anterior cerebral artery (disorder)	y	direct mapping
+38023001	Locked in syndrome (disorder)	y	direct mapping
+56267009	Multi-infarct dementia (disorder)	y	direct mapping
+281240008	Extension of cerebrovascular accident (disorder)	y	direct mapping
+230714009	Anterior circulation stroke of uncertain pathology (disorder)	y	direct mapping
+21454007	Subarachnoid intracranial hemorrhage (disorder)	y	direct mapping
+186893003	Rupture of syphilitic cerebral aneurysm (disorder)	y	direct mapping
+195155004	Subarachnoid hemorrhage from carotid siphon and bifurcation (disorder)	y	direct mapping
+230710000	Lobar cerebral hemorrhage (disorder)	y	direct mapping
+49422009	Cortical hemorrhage (disorder)	y	direct mapping
+195217004	Right sided cerebral hemisphere cerebrovascular accident (disorder)	y	direct mapping
+195239002	Late effects of cerebrovascular disease (disorder)	y	direct mapping
+277316004	Ruptured aneurysm of middle cerebral artery (disorder)	y	direct mapping
+230715005	Posterior circulation stroke of uncertain pathology (disorder)	y	direct mapping
+230699008	Pure motor lacunar infarction (disorder)	y	direct mapping
+52201006	Internal capsule hemorrhage (disorder)	y	direct mapping
+291111000119105	Monoplegia of right nondominant upper limb due to and following cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+90165008	Subdural hemorrhage following injury with open intracranial wound AND moderate loss of consciousness (1-24 hours) (disorder)	y	descendant of concept mapped from leaf
+291411000119104	Spontaneous hemorrhage of subarachnoid space from left posterior communicating artery (disorder)	y	descendant of concept mapped from leaf
+126011000119107	Acquired caroticocavernous sinus fistula (disorder)	y	descendant of concept mapped from leaf
+690201000119109	Ataxia due to and following embolic cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+42970005	Nonpyogenic thrombosis of intracranial venous sinus (disorder)	y	descendant of concept mapped from leaf
+275363001	Rupture of superficial cerebral vein (disorder)	y	descendant of concept mapped from leaf
+703156006	Deep hemispheric cerebral hemorrhage (disorder)	y	descendant of concept mapped from leaf
+722628000	Traumatic hemorrhage of subdural space of infratentorial region (disorder)	y	descendant of concept mapped from leaf
+329451000119104	Cerebrovascular accident due to occlusion of right cerebellar artery by embolus (disorder)	y	descendant of concept mapped from leaf
+206576006	Neonatal cerebral ischemia (disorder)	y	descendant of concept mapped from leaf
+329561000119101	Occlusion of right posterior cerebral artery (disorder)	y	descendant of concept mapped from leaf
+735115007	Occlusion of left pontine artery (disorder)	y	descendant of concept mapped from leaf
+431266005	Intraparenchymal hematoma of brain (disorder)	y	descendant of concept mapped from leaf
+699429007	History of cerebrovascular accident in last eight weeks (situation)	y	descendant of concept mapped from leaf
+12237951000119100	Amaurosis fugax of right eye (disorder)	y	descendant of concept mapped from leaf
+292861000119106	Lacunar ataxic hemiparesis of left dominant side (disorder)	y	descendant of concept mapped from leaf
+34135005	Subdural hemorrhage following injury without open intracranial wound AND with loss of consciousness (disorder)	y	descendant of concept mapped from leaf
+703184001	Asymptomatic occlusion of intracranial carotid artery (disorder)	y	descendant of concept mapped from leaf
+291571000119106	Spontaneous cerebral hemorrhage (disorder)	y	descendant of concept mapped from leaf
+127308007	Intracranial hemorrhage following injury with loss of consciousness (disorder)	y	descendant of concept mapped from leaf
+3681008	Thrombophlebitis of torcular Herophili (disorder)	y	descendant of concept mapped from leaf
+97531000119106	History of parietal cerebrovascular accident (situation)	y	descendant of concept mapped from leaf
+722623009	Focal traumatic hemorrhage of brainstem (disorder)	y	descendant of concept mapped from leaf
+254775002	Bregeat's syndrome (disorder)	y	descendant of concept mapped from leaf
+408664007	Pontine artery occlusion (disorder)	y	descendant of concept mapped from leaf
+734961002	Embolus of left posterior cerebral artery (disorder)	y	descendant of concept mapped from leaf
+734963004	Embolus of right posterior cerebral artery (disorder)	y	descendant of concept mapped from leaf
+17667005	Intracranial hemorrhage following injury without open intracranial wound AND with brief loss of consciousness (less than one hour) (disorder)	y	descendant of concept mapped from leaf
+735131004	Occlusion of left cerebellar artery (disorder)	y	descendant of concept mapped from leaf
+276649005	Perinatal periventricular hemorrhage (disorder)	y	descendant of concept mapped from leaf
+65587001	Congenital anomaly of cerebrovascular system (disorder)	y	descendant of concept mapped from leaf
+195176009	Non-traumatic intracranial subdural hemorrhage (disorder)	y	descendant of concept mapped from leaf
+192763001	Phlebitis of central nervous system venous sinuses (disorder)	y	descendant of concept mapped from leaf
+281864001	Non-traumatic intracranial subdural hematoma (disorder)	y	descendant of concept mapped from leaf
+88747000	Subarachnoid hemorrhage following injury without open intracranial wound AND with prolonged loss of consciousness (more than 24 hours) AND return to pre-existing conscious level (disorder)	y	descendant of concept mapped from leaf
+34181000119102	Cerebral infarction due to occlusion of basilar artery (disorder)	y	descendant of concept mapped from leaf
+26954004	Thrombophlebitis of superior sagittal sinus (disorder)	y	descendant of concept mapped from leaf
+62973004	Extradural hemorrhage following injury without open intracranial wound AND with moderate loss of consciousness (1-24 hours) (disorder)	y	descendant of concept mapped from leaf
+16002031000119100	Cerebrovascular accident due to thrombus of right middle cerebral artery (disorder)	y	descendant of concept mapped from leaf
+110997000	Fahr's syndrome (disorder)	y	descendant of concept mapped from leaf
+329371000119101	Cerebrovascular accident due to occlusion of left middle cerebral artery by embolus (disorder)	y	descendant of concept mapped from leaf
+127311008	Intracranial hemorrhage following injury with prolonged loss of consciousness AND return to pre-existing conscious level (disorder)	y	descendant of concept mapped from leaf
+230223008	Septic thrombophlebitis of sigmoid sinus (disorder)	y	descendant of concept mapped from leaf
+290641000119107	Dysphagia due to and following non-traumatic intracerebral hemorrhage (disorder)	y	descendant of concept mapped from leaf
+95453001	Subdural intracranial hematoma (disorder)	y	descendant of concept mapped from leaf
+127310009	Intracranial hemorrhage following injury with moderate loss of consciousness (disorder)	y	descendant of concept mapped from leaf
+441887006	Monoplegia of lower limb as late effect of cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+291091000119102	Monoplegia of left nondominant upper limb due to and following cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+674361000119104	Apraxia due to and following ischemic cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+428268007	Epidural intracranial hematoma (disorder)	y	descendant of concept mapped from leaf
+291371000119100	Spontaneous hemorrhage of subarachnoid space from intracranial artery (disorder)	y	descendant of concept mapped from leaf
+738779002	Spontaneous intracranial hemorrhage (disorder)	y	descendant of concept mapped from leaf
+209978003	"Extradural hemorrhage following injury with open intracranial wound, with no loss of consciousness (disorder)"	y	descendant of concept mapped from leaf
+723141009	Intracranial hemorrhage co-occurrent and due to complex wound of head (disorder)	y	descendant of concept mapped from leaf
+16000391000119100	Cerebrovascular accident due to occlusion of right posterior cerebral artery (disorder)	y	descendant of concept mapped from leaf
+762633000	Occlusion of right cerebellar artery by embolus (disorder)	y	descendant of concept mapped from leaf
+762652006	Occlusion of left posterior cerebral artery by embolus (disorder)	y	descendant of concept mapped from leaf
+672531000119106	Dysphasia due to and following hemorrhagic cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+89142007	Progressive intracranial arterial occlusion (disorder)	y	descendant of concept mapped from leaf
+762648006	Stenosis of right cerebellar artery (disorder)	y	descendant of concept mapped from leaf
+291531000119108	Spontaneous hemorrhage of cerebral hemisphere (disorder)	y	descendant of concept mapped from leaf
+4332009	Subarachnoid hemorrhage following injury without open intracranial wound AND with concussion (disorder)	y	descendant of concept mapped from leaf
+703313007	Cerebral amyloid angiopathy associated with systemic amyloidosis (disorder)	y	descendant of concept mapped from leaf
+200330000	Puerperal cerebrovascular disorder - delivered (disorder)	y	descendant of concept mapped from leaf
+703207000	Asymptomatic occlusion of anterior cerebral artery (disorder)	y	descendant of concept mapped from leaf
+330791000119108	Cerebrovascular accident due to thrombus of left carotid artery (disorder)	y	descendant of concept mapped from leaf
+80901002	Endophlebitis of torcular Herophili (disorder)	y	descendant of concept mapped from leaf
+312586003	Intracranial thrombophlebitis (disorder)	y	descendant of concept mapped from leaf
+73173006	Spasm of cerebral arteries (disorder)	y	descendant of concept mapped from leaf
+291621000119109	Cognitive deficit due to and following nontraumatic subarachnoid hemorrhage (disorder)	y	descendant of concept mapped from leaf
+43216008	Extradural hemorrhage following injury without open intracranial wound (disorder)	y	descendant of concept mapped from leaf
+590005	Congenital aneurysm of anterior communicating artery (disorder)	y	descendant of concept mapped from leaf
+230724001	Cerebral amyloid angiopathy (disorder)	y	descendant of concept mapped from leaf
+723857007	Silent micro-hemorrhage of brain (disorder)	y	descendant of concept mapped from leaf
+149821000119103	Cerebral infarction due to carotid artery occlusion (disorder)	y	descendant of concept mapped from leaf
+702374000	Neonatal noninfectious cerebral venous sinus thrombosis (disorder)	y	descendant of concept mapped from leaf
+292621000119100	Occlusion of right vertebral artery (disorder)	y	descendant of concept mapped from leaf
+734959006	Embolus of left cerebellar artery (disorder)	y	descendant of concept mapped from leaf
+703208005	Asymptomatic occlusion of middle cerebral artery (disorder)	y	descendant of concept mapped from leaf
+397809001	Nontraumatic extradural intracranial hemorrhage (disorder)	y	descendant of concept mapped from leaf
+133991000119109	Fluency disorder as sequela of cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+95456009	Brain stem ischemia (disorder)	y	descendant of concept mapped from leaf
+142851000119103	Spontaneous cerebellar hemorrhage (disorder)	y	descendant of concept mapped from leaf
+79341000119107	Mixed dementia (disorder)	y	descendant of concept mapped from leaf
+724993002	Cerebral ischemic stroke due to occlusion of extracranial large artery (disorder)	y	descendant of concept mapped from leaf
+63795001	Thrombosis of intracranial venous sinus of pregnancy AND/OR puerperium (disorder)	y	descendant of concept mapped from leaf
+762632005	Occlusion of left cerebellar artery by embolus (disorder)	y	descendant of concept mapped from leaf
+716051003	Cerebrovascular accident during surgery (disorder)	y	descendant of concept mapped from leaf
+287731003	Cerebral ischemia (disorder)	y	descendant of concept mapped from leaf
+87020000	Subarachnoid hemorrhage following injury without open intracranial wound AND with brief loss of consciousness (less than one hour) (disorder)	y	descendant of concept mapped from leaf
+230716006	Carotid territory transient ischemic attack (disorder)	y	descendant of concept mapped from leaf
+230732009	Cerebral arteritis in giant cell arteritis (disorder)	y	descendant of concept mapped from leaf
+276284000	Subarachnoid hemorrhage from basilar artery aneurysm (disorder)	y	descendant of concept mapped from leaf
+722615007	Focal hemorrhagic contusion of cerebrum (disorder)	y	descendant of concept mapped from leaf
+18058007	Phlebitis of intracranial venous sinus (disorder)	y	descendant of concept mapped from leaf
+15978631000119100	Occlusion of bilateral vertebral arteries (disorder)	y	descendant of concept mapped from leaf
+206395003	"Intraventricular (nontraumatic) hemorrhage, grade 1, of fetus and newborn (disorder)"	y	descendant of concept mapped from leaf
+69178005	Subarachnoid hemorrhage following injury with open intracranial wound AND prolonged loss of consciousness (more than 24 hours) without return to pre-existing conscious level (disorder)	y	descendant of concept mapped from leaf
+16418006	Embolism of basilar sinus (disorder)	y	descendant of concept mapped from leaf
+237867001	Hereditary cerebrovascular amyloidosis (disorder)	y	descendant of concept mapped from leaf
+722619001	Focal traumatic hemorrhage of cerebellum (disorder)	y	descendant of concept mapped from leaf
+78477003	Intracranial hemorrhage following injury without open intracranial wound AND with prolonged loss of consciousness (more than 24 hours) AND return to pre-existing conscious level (disorder)	y	descendant of concept mapped from leaf
+16023991000119100	Cerebrovascular accident due to occlusion of left pontine artery (disorder)	y	descendant of concept mapped from leaf
+329491000119109	Occlusion of left middle cerebral artery (disorder)	y	descendant of concept mapped from leaf
+276278003	Subarachnoid hemorrhage from anterior cerebral artery aneurysm (disorder)	y	descendant of concept mapped from leaf
+90520006	Vertebral artery stenosis (disorder)	y	descendant of concept mapped from leaf
+209956005	Open traumatic subdural intracranial hemorrhage (disorder)	y	descendant of concept mapped from leaf
+73439007	Subarachnoid hemorrhage following injury with open intracranial wound AND prolonged loss of consciousness (more than 24 hours) AND return to pre-existing conscious level (disorder)	y	descendant of concept mapped from leaf
+111601003	Closed fracture of base of skull with intracranial hemorrhage (disorder)	y	descendant of concept mapped from leaf
+192757005	Embolism transverse sinus (disorder)	y	descendant of concept mapped from leaf
+723138000	Primary traumatic hemorrhage of brainstem (disorder)	y	descendant of concept mapped from leaf
+290631000119103	Dysarthria due to and following cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+450376009	Hemorrhage of intracranial meningeal space (disorder)	y	descendant of concept mapped from leaf
+1089421000000100	Cerebral infarction due to stenosis of cerebral artery (disorder)	y	descendant of concept mapped from leaf
+16371781000119100	Cerebellar stroke (disorder)	y	descendant of concept mapped from leaf
+230702001	Lacunar ataxic hemiparesis (disorder)	y	descendant of concept mapped from leaf
+111615001	Open skull fracture with intracranial hemorrhage (disorder)	y	descendant of concept mapped from leaf
+1055001	Stenosis of precerebral artery (disorder)	y	descendant of concept mapped from leaf
+425932008	Thrombosis of posterior communicating artery (disorder)	y	descendant of concept mapped from leaf
+276650005	Perinatal subependymal hemorrhage (disorder)	y	descendant of concept mapped from leaf
+936271000000100	Congenital anomaly of precerebral vessel (disorder)	y	descendant of concept mapped from leaf
+28318001	Basilar hemorrhage (disorder)	y	descendant of concept mapped from leaf
+721412003	Minor laceration of vertebral artery (disorder)	y	descendant of concept mapped from leaf
+33331000119103	Sequela of lacunar stroke (disorder)	y	descendant of concept mapped from leaf
+291631000119107	Aphasia due to and following non-traumatic subarachnoid hemorrhage (disorder)	y	descendant of concept mapped from leaf
+291351000119109	Spontaneous hemorrhage of subarachnoid space from basilar artery (disorder)	y	descendant of concept mapped from leaf
+276269009	Unruptured aneurysm of anterior cerebral artery (disorder)	y	descendant of concept mapped from leaf
+674401000119108	Speech and language deficit due to and following ischemic cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+12237911000119100	Amaurosis fugax of left eye (disorder)	y	descendant of concept mapped from leaf
+286742002	Impending cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+425957003	Non-traumatic intracerebral ventricular hemorrhage (disorder)	y	descendant of concept mapped from leaf
+266257000	Transient ischemic attack (disorder)	y	descendant of concept mapped from leaf
+106016005	"Intracranial sinus thrombosis, embolism AND/OR inflammation (disorder)"	y	descendant of concept mapped from leaf
+9901000119100	Occlusion of cerebral artery with stroke (disorder)	y	descendant of concept mapped from leaf
+14070001	Multi-infarct dementia with depression (disorder)	y	descendant of concept mapped from leaf
+6729006	Cerebral-retinal arteriovenous aneurysm (disorder)	y	descendant of concept mapped from leaf
+276282001	Subarachnoid hemorrhage from anterior communicating artery aneurysm (disorder)	y	descendant of concept mapped from leaf
+141151000119101	Nontraumatic subdural hematoma with brain compression (disorder)	y	descendant of concept mapped from leaf
+443929000	Small vessel cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+59648004	Extradural hemorrhage following injury with open intracranial wound AND moderate loss of consciousness (1-24 hours) (disorder)	y	descendant of concept mapped from leaf
+281865000	Non-traumatic extradural intracranial hematoma (disorder)	y	descendant of concept mapped from leaf
+276277008	Subarachnoid hemorrhage from multiple aneurysms (disorder)	y	descendant of concept mapped from leaf
+1078001000000100	Haemorrhagic stroke (disorder)	y	descendant of concept mapped from leaf
+16000351000119100	Cerebrovascular accident due to occlusion of left posterior cerebral artery (disorder)	y	descendant of concept mapped from leaf
+204497008	Cerebrovascular system anomalies (disorder)	y	descendant of concept mapped from leaf
+195205001	Impending cerebral ischemia (disorder)	y	descendant of concept mapped from leaf
+698838008	Benign intracranial hypertension due to drug (disorder)	y	descendant of concept mapped from leaf
+329421000119107	Cerebrovascular accident due to occlusion of right posterior cerebral artery by embolus (disorder)	y	descendant of concept mapped from leaf
+722631004	Traumatic hemorrhage of cerebellum (disorder)	y	descendant of concept mapped from leaf
+34501004	Intracranial hemorrhage following injury with intracranial wound AND moderate loss of consciousness (1-24 hours) (disorder)	y	descendant of concept mapped from leaf
+292631000119102	Occlusion of left vertebral artery (disorder)	y	descendant of concept mapped from leaf
+762651004	Occlusion of right posterior cerebral artery by embolus (disorder)	y	descendant of concept mapped from leaf
+87253004	Subarachnoid hemorrhage following injury with open intracranial wound AND moderate loss of consciousness (1-24 hours) (disorder)	y	descendant of concept mapped from leaf
+703163006	Secondary cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+276271009	Unruptured aneurysm of posterior cerebral artery (disorder)	y	descendant of concept mapped from leaf
+111677000	Subdural hemorrhage following injury with open intracranial wound and prolonged loss of consciousness (more than 24 hours) and without return to pre-existing conscious level (disorder)	y	descendant of concept mapped from leaf
+425642008	Monoplegia of dominant lower limb as a late effect of cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+15710721000119100	Dissecting hemorrhage of left vertebral artery (disorder)	y	descendant of concept mapped from leaf
+413758000	Cardioembolic stroke (disorder)	y	descendant of concept mapped from leaf
+192753009	Phlebitis and thrombophlebitis of intracranial sinuses (disorder)	y	descendant of concept mapped from leaf
+118961000119101	History of hemorrhagic cerebrovascular accident without residual deficits (situation)	y	descendant of concept mapped from leaf
+698627005	Postoperative phlebitis and thrombophlebitis of intracranial sinuses (disorder)	y	descendant of concept mapped from leaf
+111593004	Closed fracture of vault of skull with intracranial hemorrhage (disorder)	y	descendant of concept mapped from leaf
+674121000119107	Ataxia due to and following hemorrhagic cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+42994005	Nonruptured cerebral aneurysm (disorder)	y	descendant of concept mapped from leaf
+16218291000119100	Acute cerebral ischemia (disorder)	y	descendant of concept mapped from leaf
+705130002	Cerebral infarction due to thrombosis of middle cerebral artery (disorder)	y	descendant of concept mapped from leaf
+450425005	Intracranial hematoma (disorder)	y	descendant of concept mapped from leaf
+21202004	Perinatal intracranial subarachnoid hemorrhage (disorder)	y	descendant of concept mapped from leaf
+86182004	Extradural hemorrhage following injury with open intracranial wound AND prolonged loss of consciousness (more than 24 hours) without return to pre-existing conscious level (disorder)	y	descendant of concept mapped from leaf
+48601002	Thrombosis of precerebral artery (disorder)	y	descendant of concept mapped from leaf
+302880005	Septic thrombophlebitis of sagittal sinus (disorder)	y	descendant of concept mapped from leaf
+65189006	Extradural hemorrhage following injury with open intracranial wound (disorder)	y	descendant of concept mapped from leaf
+40276003	Embolism of precerebral artery (disorder)	y	descendant of concept mapped from leaf
+724425005	Cerebral ischemic stroke due to intracranial large artery atherosclerosis (disorder)	y	descendant of concept mapped from leaf
+290931000119108	Monoplegia of lower limb due to and following cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+230703006	Dysarthria-clumsy hand syndrome (disorder)	y	descendant of concept mapped from leaf
+45502001	Cerebrovascular amyloidosis (disorder)	y	descendant of concept mapped from leaf
+15742000	Thrombosis of inferior sagittal sinus (disorder)	y	descendant of concept mapped from leaf
+703267003	Cerebrofacial arteriovenous metameric syndrome type 1 (disorder)	y	descendant of concept mapped from leaf
+90099008	Subcortical leukoencephalopathy (disorder)	y	descendant of concept mapped from leaf
+444172003	Recurrent transient cerebral ischemic attack (disorder)	y	descendant of concept mapped from leaf
+291511000119103	Spontaneous hemorrhage of deep cerebral hemisphere (disorder)	y	descendant of concept mapped from leaf
+200332008	Puerperal cerebrovascular disorder with antenatal complication (disorder)	y	descendant of concept mapped from leaf
+16061002	Endophlebitis of lateral venous sinus (disorder)	y	descendant of concept mapped from leaf
+16026991000119100	Cerebrovascular accident due to stenosis of left carotid artery (disorder)	y	descendant of concept mapped from leaf
+65084004	Vertebral artery embolism (disorder)	y	descendant of concept mapped from leaf
+65312002	Cerebral arteriosclerosis (disorder)	y	descendant of concept mapped from leaf
+441960006	Speech and language deficit as late effect of cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+672461000119104	Hemiplegia of dominant side due to and following ischemic cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+762630002	Occlusion of left middle cerebral artery by embolus (disorder)	y	descendant of concept mapped from leaf
+70607008	Thrombosis of superior sagittal sinus (disorder)	y	descendant of concept mapped from leaf
+111297002	Nonparalytic stroke (disorder)	y	descendant of concept mapped from leaf
+95458005	Cerebellar artery occlusion (disorder)	y	descendant of concept mapped from leaf
+674161000119102	Monoplegia of upper limb due to and following ischemic cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+703161008	Occlusion of internal auditory artery (disorder)	y	descendant of concept mapped from leaf
+276276004	Unruptured aneurysm of posterior inferior cerebellar artery (disorder)	y	descendant of concept mapped from leaf
+230221005	Intracranial arterial septic embolism (disorder)	y	descendant of concept mapped from leaf
+672511000119101	Dysarthria due to and following hemorrhagic cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+276221006	Millard-Gubler syndrome (disorder)	y	descendant of concept mapped from leaf
+18761000119108	Monoplegia of arm dominant side as sequela of cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+206417009	Intracranial nontraumatic hemorrhage of fetus and newborn (disorder)	y	descendant of concept mapped from leaf
+43658003	Vertebral artery obstruction (disorder)	y	descendant of concept mapped from leaf
+89980009	Thrombosis of cavernous venous sinus (disorder)	y	descendant of concept mapped from leaf
+16000511000119100	Cerebrovascular accident due to occlusion of left middle cerebral artery (disorder)	y	descendant of concept mapped from leaf
+302878004	Intracranial septic thrombophlebitis (disorder)	y	descendant of concept mapped from leaf
+141811000119106	History of hemorrhagic cerebrovascular accident with residual deficit (situation)	y	descendant of concept mapped from leaf
+62702001	Cerebral vein occlusion (disorder)	y	descendant of concept mapped from leaf
+442668000	Hemiplegia of nondominant side as late effect of cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+1131000119105	Sequela of cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+297176007	Vertebral artery aneurysm (disorder)	y	descendant of concept mapped from leaf
+276281008	Subarachnoid hemorrhage from posterior cerebral artery aneurysm (disorder)	y	descendant of concept mapped from leaf
+723139008	Secondary traumatic hemorrhage of brainstem (disorder)	y	descendant of concept mapped from leaf
+253194008	Aneurysm of the vein of Galen (disorder)	y	descendant of concept mapped from leaf
+7931000119101	Anterior choroidal artery thrombosis (disorder)	y	descendant of concept mapped from leaf
+88922007	Thrombosis of basilar sinus (disorder)	y	descendant of concept mapped from leaf
+78569004	Posterior inferior cerebellar artery syndrome (disorder)	y	descendant of concept mapped from leaf
+195206000	Intermittent cerebral ischemia (disorder)	y	descendant of concept mapped from leaf
+302881009	Septic thrombophlebitis of lateral sinus (disorder)	y	descendant of concept mapped from leaf
+428561000	Occipital subdural hematoma (disorder)	y	descendant of concept mapped from leaf
+15982271000119100	Weakness of right facial muscle due to and following cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+674391000119106	Speech and language deficit due to and following hemorrhagic cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+442097001	Monoplegia of upper limb as late effect of cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+371041009	Embolic stroke (disorder)	y	descendant of concept mapped from leaf
+209958006	"Subdural hemorrhage following injury with open intracranial wound, with no loss of consciousness (disorder)"	y	descendant of concept mapped from leaf
+762649003	Stenosis of left cerebellar artery (disorder)	y	descendant of concept mapped from leaf
+408665008	Pontine artery thrombosis (disorder)	y	descendant of concept mapped from leaf
+737232003	Traumatic hemorrhage of basal ganglia (disorder)	y	descendant of concept mapped from leaf
+16024031000119100	Cerebrovascular accident due to occlusion of right pontine artery (disorder)	y	descendant of concept mapped from leaf
+724994008	Cerebral ischemic stroke due to stenosis of extracranial large artery (disorder)	y	descendant of concept mapped from leaf
+111673001	Subarachnoid hemorrhage following injury without open intracranial wound AND with moderate loss of consciousness (1-24 hours) (disorder)	y	descendant of concept mapped from leaf
+111668007	Intracranial hemorrhage following injury without open intracranial wound (disorder)	y	descendant of concept mapped from leaf
+710575003	Transient ischemic attack due to embolism (disorder)	y	descendant of concept mapped from leaf
+195229008	Non-pyogenic venous sinus thrombosis (disorder)	y	descendant of concept mapped from leaf
+276651009	Perinatal subependymal hemorrhage with intraventricular extension (disorder)	y	descendant of concept mapped from leaf
+1430001	Intracranial hemorrhage following injury without open intracranial wound AND with prolonged loss of consciousness (more than 24 hours) without return to pre-existing level (disorder)	y	descendant of concept mapped from leaf
+722930000	Neonatal thrombosis of cerebral venous sinus (disorder)	y	descendant of concept mapped from leaf
+95459002	Cerebellar artery thrombosis (disorder)	y	descendant of concept mapped from leaf
+140281000119108	Hemipares as late effect of cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+60706008	Phlebitis of torcular Herophili (disorder)	y	descendant of concept mapped from leaf
+442181008	Monoplegia of nondominant upper limb as a late effect of cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+45639009	"Hereditary cerebral amyloid angiopathy, Icelandic type (disorder)"	y	descendant of concept mapped from leaf
+427020007	Cerebral vasculitis (disorder)	y	descendant of concept mapped from leaf
+140711000119106	History of hemorrhagic stroke with hemiplegia (situation)	y	descendant of concept mapped from leaf
+276280009	Subarachnoid hemorrhage from middle cerebral artery aneurysm (disorder)	y	descendant of concept mapped from leaf
+703216001	Perimesencephalic subarachnoid hemorrhage (disorder)	y	descendant of concept mapped from leaf
+91601000119109	Sequela of thrombotic stroke (disorder)	y	descendant of concept mapped from leaf
+293831000119105	Cerebral infarction due to stenosis of precerebral artery (disorder)	y	descendant of concept mapped from leaf
+28048009	Subarachnoid hemorrhage following injury without open intracranial wound (disorder)	y	descendant of concept mapped from leaf
+24654003	Weber-Gubler syndrome (disorder)	y	descendant of concept mapped from leaf
+206194008	Cerebral hematoma in fetus or newborn (disorder)	y	descendant of concept mapped from leaf
+111679002	Extradural hemorrhage following injury without open intracranial wound AND with no loss of consciousness (disorder)	y	descendant of concept mapped from leaf
+82999001	Epidural intracranial hemorrhage (disorder)	y	descendant of concept mapped from leaf
+276275000	Unruptured aneurysm of basilar artery (disorder)	y	descendant of concept mapped from leaf
+32728005	Hemorrhage due to ruptured congenital cerebral aneurysm (disorder)	y	descendant of concept mapped from leaf
+37955001	Intracranial hematoma following injury (disorder)	y	descendant of concept mapped from leaf
+192771002	Thrombophlebitis of superior longitudinal venous sinus (disorder)	y	descendant of concept mapped from leaf
+724357007	Hereditary cerebral hemorrhage with amyloidosis (disorder)	y	descendant of concept mapped from leaf
+672561000119103	Cognitive deficit due to and following ischemic cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+25004000	Subdural hemorrhage due to intrapartum anoxia AND/OR hypoxia (disorder)	y	descendant of concept mapped from leaf
+230717002	Vertebrobasilar territory transient ischemic attack (disorder)	y	descendant of concept mapped from leaf
+35486000	Subdural intracranial hemorrhage (disorder)	y	descendant of concept mapped from leaf
+73020009	Cerebral hemisphere hemorrhage (disorder)	y	descendant of concept mapped from leaf
+16000431000119100	Cerebrovascular accident due to occlusion of right middle cerebral artery (disorder)	y	descendant of concept mapped from leaf
+1089411000000100	Cerebral infarction due to occlusion of cerebral artery (disorder)	y	descendant of concept mapped from leaf
+690051000119100	History of cerebellar stroke (situation)	y	descendant of concept mapped from leaf
+698839000	Benign intracranial hypertension due to hypervitaminosis A (disorder)	y	descendant of concept mapped from leaf
+200258006	Obstetric cerebral venous thrombosis (disorder)	y	descendant of concept mapped from leaf
+118951000119103	History of thrombotic stroke without residual deficits (situation)	y	descendant of concept mapped from leaf
+88755007	Phlebitis of lateral venous sinus (disorder)	y	descendant of concept mapped from leaf
+703268008	Cerebrofacial arteriovenous metameric syndrome type 3 (disorder)	y	descendant of concept mapped from leaf
+734397002	Spontaneous rupture of right posterior communicating artery (disorder)	y	descendant of concept mapped from leaf
+329361000119107	Cerebrovascular accident due to occlusion of right middle cerebral artery by embolus (disorder)	y	descendant of concept mapped from leaf
+315048006	Traumatic extradural hematoma without open intracranial wound (disorder)	y	descendant of concept mapped from leaf
+720854004	Cerebroretinal vasculopathy (disorder)	y	descendant of concept mapped from leaf
+291721000119102	Aphasia due to and following non-traumatic intracerebral hemorrhage (disorder)	y	descendant of concept mapped from leaf
+81520002	Extradural hemorrhage following injury with open intracranial wound AND prolonged loss of consciousness (more than 24 hours) AND return to pre-existing conscious level (disorder)	y	descendant of concept mapped from leaf
+733199002	Multifocal cerebral infarction due to and following procedure on cardiovascular system (disorder)	y	descendant of concept mapped from leaf
+88032003	Amaurosis fugax (disorder)	y	descendant of concept mapped from leaf
+449020009	Intraparenchymal hemorrhage of brain (disorder)	y	descendant of concept mapped from leaf
+460880006	Arteriovenous fistula of great cerebral vein of Galen (disorder)	y	descendant of concept mapped from leaf
+230224002	Septic thrombophlebitis of cortical vein (disorder)	y	descendant of concept mapped from leaf
+25133001	Completed stroke (disorder)	y	descendant of concept mapped from leaf
+140921000119102	Ischemic stroke without coma (disorder)	y	descendant of concept mapped from leaf
+14309005	Anterior choroidal artery syndrome (disorder)	y	descendant of concept mapped from leaf
+703217005	Convexal subarachnoid hemorrhage (disorder)	y	descendant of concept mapped from leaf
+276594006	Perinatal rupture of superficial cerebral vein (disorder)	y	descendant of concept mapped from leaf
+722581000	Fetal or neonatal non-traumatic intraventricular hemorrhage (disorder)	y	descendant of concept mapped from leaf
+690351000119103	Dysphasia due to and following embolic cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+128609009	Intracranial aneurysm (disorder)	y	descendant of concept mapped from leaf
+54265003	Congenital anomaly of cerebral artery (disorder)	y	descendant of concept mapped from leaf
+416792008	Vein of Galen malformation (disorder)	y	descendant of concept mapped from leaf
+291481000119105	Spontaneous haemorrhage of subarachnoid space from right posterior communicating artery (disorder)	y	descendant of concept mapped from leaf
+329671000119106	Traumatic subarachnoid hemorrhage with loss of consciousness (disorder)	y	descendant of concept mapped from leaf
+40135004	Subdural hemorrhage following injury without open intracranial wound AND with no loss of consciousness (disorder)	y	descendant of concept mapped from leaf
+87555007	Claude's syndrome (disorder)	y	descendant of concept mapped from leaf
+722643003	Major laceration of vertebral artery (disorder)	y	descendant of concept mapped from leaf
+111611005	Closed skull fracture with intracranial hemorrhage (disorder)	y	descendant of concept mapped from leaf
+451037005	Hemorrhage in globus pallidus (disorder)	y	descendant of concept mapped from leaf
+722582007	Fetal or neonatal intracerebral non-traumatic hemorrhage (disorder)	y	descendant of concept mapped from leaf
+430959006	Paralytic syndrome of dominant side as late effect of stroke (disorder)	y	descendant of concept mapped from leaf
+95461006	Thrombophlebitis of cerebral vein (disorder)	y	descendant of concept mapped from leaf
+276652002	Perinatal subependymal hemorrhage with intraventricular and intracerebral extension (disorder)	y	descendant of concept mapped from leaf
+192767000	Phlebitis transverse sinus (disorder)	y	descendant of concept mapped from leaf
+422504002	Ischemic stroke (disorder)	y	descendant of concept mapped from leaf
+703311009	Cerebral arteritis due to infectious disease (disorder)	y	descendant of concept mapped from leaf
+111298007	Chronic cerebral ischemia (disorder)	y	descendant of concept mapped from leaf
+690341000119100	Cognitive deficit due to and following embolic cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+192756001	Embolism lateral sinus (disorder)	y	descendant of concept mapped from leaf
+37943007	Multiple AND bilateral precerebral artery embolism (disorder)	y	descendant of concept mapped from leaf
+262949005	Traumatic intracranial extradural hematoma (disorder)	y	descendant of concept mapped from leaf
+285171000119104	Right carotid artery occlusion (disorder)	y	descendant of concept mapped from leaf
+46758000	"Open fracture of base of skull with subarachnoid, subdural AND/OR extradural hemorrhage (disorder)"	y	descendant of concept mapped from leaf
+734396006	Spontaneous rupture of left posterior communicating artery (disorder)	y	descendant of concept mapped from leaf
+56384000	Embolism of inferior sagittal sinus (disorder)	y	descendant of concept mapped from leaf
+29635000	Subdural hemorrhage following injury with open intracranial wound AND brief loss of consciousness (less than one hour) (disorder)	y	descendant of concept mapped from leaf
+277313007	Unruptured internal carotid-anterior communicating artery zone aneurysm (disorder)	y	descendant of concept mapped from leaf
+77498000	Extradural hemorrhage following injury without open intracranial wound AND with concussion (disorder)	y	descendant of concept mapped from leaf
+116288000	Paralytic stroke (disorder)	y	descendant of concept mapped from leaf
+713265001	Nontraumatic ruptured cerebral aneurysm (disorder)	y	descendant of concept mapped from leaf
+302909007	Diffuse cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+20276007	Subarachnoid hemorrhage following injury without open intracranial wound AND with prolonged loss of consciousness (more than 24 hours) AND without return to pre-existing conscious level (disorder)	y	descendant of concept mapped from leaf
+209947002	Closed traumatic subdural intracranial hemorrhage (disorder)	y	descendant of concept mapped from leaf
+73390009	Endophlebitis of cavernous venous sinus (disorder)	y	descendant of concept mapped from leaf
+735114006	Occlusion of right pontine artery (disorder)	y	descendant of concept mapped from leaf
+722620007	Focal traumatic hematoma of cerebellum (disorder)	y	descendant of concept mapped from leaf
+16024151000119100	Cerebrovascular accident due to occlusion of left cerebellar artery (disorder)	y	descendant of concept mapped from leaf
+33301000119105	Sequela of cardioembolic stroke (disorder)	y	descendant of concept mapped from leaf
+93468003	Hemangioma of intracranial structure (disorder)	y	descendant of concept mapped from leaf
+6666006	Subdural hemorrhage following injury without open intracranial wound AND with concussion (disorder)	y	descendant of concept mapped from leaf
+724097003	"Moyamoya angiopathy, short stature, facial dysmorphism, hypergonadotropic hypogonadism syndrome (disorder)"	y	descendant of concept mapped from leaf
+5251007	Subarachnoid hemorrhage following injury with open intracranial wound (disorder)	y	descendant of concept mapped from leaf
+441894009	Monoplegia of nondominant lower limb as a late effect of cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+145741000119101	Apraxia as late effect of cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+16024111000119100	Cerebrovascular accident due to occlusion of left carotid artery (disorder)	y	descendant of concept mapped from leaf
+330421000119102	Lacunar ataxic hemiparesis of right nondominant side (disorder)	y	descendant of concept mapped from leaf
+721979005	Lymphedema and cerebral arteriovenous anomaly syndrome (disorder)	y	descendant of concept mapped from leaf
+230287006	Mixed cortical and subcortical vascular dementia (disorder)	y	descendant of concept mapped from leaf
+330411000119109	Lacunar ataxic hemiparesis of left nondominant side (disorder)	y	descendant of concept mapped from leaf
+15985031000119100	Neonatal non-traumatic intraventricular hemorrhage (disorder)	y	descendant of concept mapped from leaf
+71266000	"Open fracture of vault of skull with subarachnoid, subdural AND/OR extradural hemorrhage (disorder)"	y	descendant of concept mapped from leaf
+672441000119103	Hemiplegia of nondominant side due to and following ischemic cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+95644001	Systemic lupus erythematosus encephalitis (disorder)	y	descendant of concept mapped from leaf
+192760003	Thrombosis of superior longitudinal sinus (disorder)	y	descendant of concept mapped from leaf
+126941005	Subdural intracranial hemorrhage due to birth trauma (disorder)	y	descendant of concept mapped from leaf
+40161000119102	Weakness of face muscles as sequela of stroke (disorder)	y	descendant of concept mapped from leaf
+230735006	Syphilitic cerebral arteritis (disorder)	y	descendant of concept mapped from leaf
+87551000119101	Visual disturbance as sequela of cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+734879002	Ruptured aneurysm of right posterior communicating artery (disorder)	y	descendant of concept mapped from leaf
+724428007	Asymptomatic stenosis of extracranial artery (disorder)	y	descendant of concept mapped from leaf
+111597003	Open fracture of vault of skull with intracranial hemorrhage (disorder)	y	descendant of concept mapped from leaf
+293811000119100	Cerebral infarction due to vertebral artery stenosis (disorder)	y	descendant of concept mapped from leaf
+32112006	Phlebitis of inferior sagittal sinus (disorder)	y	descendant of concept mapped from leaf
+700467001	Reversible cerebral vasoconstriction syndrome (disorder)	y	descendant of concept mapped from leaf
+672571000119109	Cognitive deficit due to and following hemorrhagic cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+95830009	Pituitary infarction (disorder)	y	descendant of concept mapped from leaf
+87345009	Subdural hemorrhage following injury without open intracranial wound AND with prolonged loss of consciousness (more than 24 hours) AND return to pre-existing conscious level (disorder)	y	descendant of concept mapped from leaf
+7819003	Intracranial hemorrhage following injury with open intracranial wound AND no loss of consciousness (disorder)	y	descendant of concept mapped from leaf
+68267002	Benign intracranial hypertension (disorder)	y	descendant of concept mapped from leaf
+34191000119104	Cerebral infarction due to vertebral artery occlusion (disorder)	y	descendant of concept mapped from leaf
+23276006	Ventricular hemorrhage (disorder)	y	descendant of concept mapped from leaf
+302904002	Infarction of visual cortex (disorder)	y	descendant of concept mapped from leaf
+234142008	Cerebral arteriovenous malformation (disorder)	y	descendant of concept mapped from leaf
+690271000119104	Hemiplegia of nondominant side due to and following embolic cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+12853006	Embolism of torcular Herophili (disorder)	y	descendant of concept mapped from leaf
+48518008	Subarachnoid hemorrhage following injury with open intracranial wound AND concussion (disorder)	y	descendant of concept mapped from leaf
+80758005	Embolism of lateral venous sinus (disorder)	y	descendant of concept mapped from leaf
+84216001	Cerebral venous thrombosis of pregnancy AND/OR puerperium (disorder)	y	descendant of concept mapped from leaf
+703312002	Primary cerebral arteritis (disorder)	y	descendant of concept mapped from leaf
+441735003	Sensory disorder as a late effect of cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+95455008	Thrombosis of cerebral veins (disorder)	y	descendant of concept mapped from leaf
+291581000119109	Acute nontraumatic subdural hemorrhage (disorder)	y	descendant of concept mapped from leaf
+703266007	Cerebrofacial arteriovenous metameric syndrome (disorder)	y	descendant of concept mapped from leaf
+722909009	Traumatic hemorrhage of intracranial epidural space due to birth trauma (disorder)	y	descendant of concept mapped from leaf
+71074007	"Open skull fracture with subarachnoid, subdural AND/OR extradural hemorrhage (disorder)"	y	descendant of concept mapped from leaf
+724429004	Stroke co-occurrent with migraine (disorder)	y	descendant of concept mapped from leaf
+16260551000119100	Dysphasia due to and following cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+451039008	Hemorrhage in putamen (disorder)	y	descendant of concept mapped from leaf
+723085008	Sequela of non-traumatic intracranial subarachnoid hemorrhage (disorder)	y	descendant of concept mapped from leaf
+426033005	Dysphagia as a late effect of cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+64775002	Vertebral artery thrombosis (disorder)	y	descendant of concept mapped from leaf
+472746006	Cerebrovascular disorder due to paradoxical embolus (disorder)	y	descendant of concept mapped from leaf
+18751000119106	Monoplegia of leg dominant side as sequela of cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+12242711000119100	Weakness of left facial muscle due to and following cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+12367511000119100	Paraplegia due to and following cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+28155008	Extradural hemorrhage following injury with open intracranial wound AND concussion (disorder)	y	descendant of concept mapped from leaf
+63323000	Subdural hemorrhage following injury without open intracranial wound AND with moderate loss of consciousness (1-24 hours) (disorder)	y	descendant of concept mapped from leaf
+734964005	Embolus of left middle cerebral artery (disorder)	y	descendant of concept mapped from leaf
+106021000119105	Multi-infarct dementia due to atherosclerosis (disorder)	y	descendant of concept mapped from leaf
+29264003	"Closed fracture of base of skull with subarachnoid, subdural AND/OR extradural hemorrhage (disorder)"	y	descendant of concept mapped from leaf
+672521000119108	Dysphasia due to and following ischemic cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+429993008	History of cerebrovascular accident without residual deficits (situation)	y	descendant of concept mapped from leaf
+371121002	Neonatal stroke (disorder)	y	descendant of concept mapped from leaf
+103761000119107	Paralytic syndrome of all four limbs as sequela of stroke (disorder)	y	descendant of concept mapped from leaf
+18322005	Thrombosis of torcular Herophili (disorder)	y	descendant of concept mapped from leaf
+200331001	Puerperal cerebrovascular disorder - delivered with postnatal complication (disorder)	y	descendant of concept mapped from leaf
+14246007	Embolism of intracranial venous sinus (disorder)	y	descendant of concept mapped from leaf
+69458009	Subarachnoid hemorrhage following injury without open intracranial wound AND with loss of consciousness (disorder)	y	descendant of concept mapped from leaf
+307362003	Intracranial venous septic embolism (disorder)	y	descendant of concept mapped from leaf
+725132001	Ischemic stroke without residual deficits (disorder)	y	descendant of concept mapped from leaf
+15978431000119100	Thrombosis of right vertebral artery (disorder)	y	descendant of concept mapped from leaf
+290791000119105	Fluency disorder due to and following cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+75138007	Endophlebitis of superior sagittal sinus (disorder)	y	descendant of concept mapped from leaf
+276706004	Perinatal cerebral ischemia (disorder)	y	descendant of concept mapped from leaf
+209940000	"Subarachnoid hemorrhage following injury with open intracranial wound, with no loss of consciousness (disorder)"	y	descendant of concept mapped from leaf
+722633001	Multiple traumatic hemorrhages of brain tissue (disorder)	y	descendant of concept mapped from leaf
+78879009	Intracranial hemorrhage following injury with open intracranial wound AND concussion (disorder)	y	descendant of concept mapped from leaf
+230720005	Cerebral venous thrombosis of straight sinus (disorder)	y	descendant of concept mapped from leaf
+734965006	Embolus of right middle cerebral artery (disorder)	y	descendant of concept mapped from leaf
+315047001	Traumatic subdural hematoma with open intracranial wound (disorder)	y	descendant of concept mapped from leaf
+10349009	Multi-infarct dementia with delirium (disorder)	y	descendant of concept mapped from leaf
+440140008	History of cerebrovascular accident with residual deficit (situation)	y	descendant of concept mapped from leaf
+57998008	"Closed fracture of vault of skull with subarachnoid, subdural AND/OR extradural hemorrhage (disorder)"	y	descendant of concept mapped from leaf
+315046005	Traumatic subdural hematoma without open intracranial wound (disorder)	y	descendant of concept mapped from leaf
+329571000119107	Occlusion of left posterior cerebral artery (disorder)	y	descendant of concept mapped from leaf
+292671000119104	Cerebrovascular accident due to stenosis of left vertebral artery (disorder)	y	descendant of concept mapped from leaf
+722630003	Traumatic hemorrhage of cerebral white matter (disorder)	y	descendant of concept mapped from leaf
+427065003	Monoplegia of dominant upper limb as a late effect of cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+128218002	Disorder of intracranial venous sinus (disorder)	y	descendant of concept mapped from leaf
+192759008	Cerebral venous sinus thrombosis (disorder)	y	descendant of concept mapped from leaf
+200260008	Cerebral venous thrombosis in the puerperium (disorder)	y	descendant of concept mapped from leaf
+722632006	Traumatic hemorrhage of brainstem (disorder)	y	descendant of concept mapped from leaf
+301765007	Cerebellar hematoma (disorder)	y	descendant of concept mapped from leaf
+14977000	Multiple AND bilateral precerebral artery thrombosis (disorder)	y	descendant of concept mapped from leaf
+52902005	Subdural hemorrhage following injury with open intracranial wound AND prolonged loss of consciousness (more than 24 hours) AND return to pre-existing conscious level (disorder)	y	descendant of concept mapped from leaf
+672551000119100	Aphasia due to and following hemorrhagic cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+703158007	Embolism of internal auditory artery (disorder)	y	descendant of concept mapped from leaf
+276283006	Subarachnoid hemorrhage from posterior communicating artery aneurysm (disorder)	y	descendant of concept mapped from leaf
+70861009	Subdural hemorrhage following injury without open intracranial wound AND with prolonged loss of consciousness (more than 24 hours) without return to pre-existing conscious level (disorder)	y	descendant of concept mapped from leaf
+291521000119105	Spontaneous hemorrhage of cortical intracerebral hemisphere (disorder)	y	descendant of concept mapped from leaf
+442676003	Hemiplegia of dominant side as late effect of cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+40549004	Extradural hemorrhage following injury without open intracranial wound AND with brief loss of consciousness (less than one hour) (disorder)	y	descendant of concept mapped from leaf
+133981000119106	Dysarthria as late effects of cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+285161000119105	Left carotid artery occlusion (disorder)	y	descendant of concept mapped from leaf
+206397006	"Intraventricular (nontraumatic) hemorrhage, grade 3, of fetus and newborn (disorder)"	y	descendant of concept mapped from leaf
+451038000	Hemorrhage in caudate nucleus (disorder)	y	descendant of concept mapped from leaf
+84792001	Extradural hemorrhage following injury without open intracranial wound AND with prolonged loss of consciousness (more than 24 hours) AND return to pre-existing conscious level (disorder)	y	descendant of concept mapped from leaf
+721328009	Injury of intracranial vessel of head (disorder)	y	descendant of concept mapped from leaf
+25772007	Multi-infarct dementia with delusions (disorder)	y	descendant of concept mapped from leaf
+276274001	Unruptured aneurysm of posterior communicating artery (disorder)	y	descendant of concept mapped from leaf
+329461000119102	Cerebrovascular accident due to occlusion of left cerebellar artery by embolus (disorder)	y	descendant of concept mapped from leaf
+276220007	Foville syndrome (disorder)	y	descendant of concept mapped from leaf
+276273007	Unruptured aneurysm of anterior communicating artery (disorder)	y	descendant of concept mapped from leaf
+15988351000119100	Acquired right carotid cavernous fistula (disorder)	y	descendant of concept mapped from leaf
+329431000119105	Cerebrovascular accident due to occlusion of left posterior cerebral artery by embolus (disorder)	y	descendant of concept mapped from leaf
+234149004	Congenital arteriovenous fistula of brain (disorder)	y	descendant of concept mapped from leaf
+442024001	Hemiplegia as late effect of cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+292691000119103	Cerebrovascular accident due to occlusion of left vertebral artery (disorder)	y	descendant of concept mapped from leaf
+38453000	Cerebral hemorrhage due to intrapartum anoxia or hypoxia (disorder)	y	descendant of concept mapped from leaf
+304831001	Chronic intracranial subdural hematoma (disorder)	y	descendant of concept mapped from leaf
+291591000119107	Subacute non-traumatic intracranial subdural hemorrhage (disorder)	y	descendant of concept mapped from leaf
+59633005	Subarachnoid hemorrhage following injury with open intracranial wound AND brief loss of consciousness (less than one hour) (disorder)	y	descendant of concept mapped from leaf
+329651000119102	Cerebrovascular accident due to thrombus of right carotid artery (disorder)	y	descendant of concept mapped from leaf
+16023911000119100	Cerebrovascular accident due to occlusion of right carotid artery (disorder)	y	descendant of concept mapped from leaf
+276647007	Perinatal intracranial hemorrhage (disorder)	y	descendant of concept mapped from leaf
+16024271000119100	Cerebrovascular accident due to occlusion of right cerebellar artery (disorder)	y	descendant of concept mapped from leaf
+302213007	Caroticocavernous sinus fistula (disorder)	y	descendant of concept mapped from leaf
+206419007	Cerebellar (nontraumatic) and posterior fossa hemorrhage of fetus and newborn (disorder)	y	descendant of concept mapped from leaf
+276286003	Subarachnoid hemorrhage from carotid artery aneurysm (disorder)	y	descendant of concept mapped from leaf
+111605007	Open fracture of base of skull with intracranial hemorrhage (disorder)	y	descendant of concept mapped from leaf
+609382000	Chronic non-traumatic intracranial subdural hemorrhage (disorder)	y	descendant of concept mapped from leaf
+724424009	Cerebral ischemic stroke due to small artery occlusion (disorder)	y	descendant of concept mapped from leaf
+444657001	Superior cerebellar artery syndrome (disorder)	y	descendant of concept mapped from leaf
+18605003	Intracranial hemorrhage following injury with open intracranial wound AND brief loss of consciousness (less than one hour) (disorder)	y	descendant of concept mapped from leaf
+288723005	Acute ill-defined cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+441526008	Infarct of cerebrum due to iatrogenic cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+99051000119101	History of lacunar cerebrovascular accident (situation)	y	descendant of concept mapped from leaf
+732923001	Hemorrhage of medulla oblongata (disorder)	y	descendant of concept mapped from leaf
+137991000119103	Seizure disorder as sequela of stroke (disorder)	y	descendant of concept mapped from leaf
+230731002	Cerebral arteritis in systemic vasculitis (disorder)	y	descendant of concept mapped from leaf
+722580004	Fetal or neonatal intraventricular non-traumatic hemorrhage grade 4 (disorder)	y	descendant of concept mapped from leaf
+75507000	Subarachnoid hemorrhage following injury with open intracranial wound AND loss of consciousness (disorder)	y	descendant of concept mapped from leaf
+704079000	Non-aneurysmal perimesencephalic subarachnoid hemorrhage (disorder)	y	descendant of concept mapped from leaf
+48248005	Thrombophlebitis of inferior sagittal sinus (disorder)	y	descendant of concept mapped from leaf
+230220006	Intracranial septic embolism (disorder)	y	descendant of concept mapped from leaf
+703193000	Congenital malformation of dural sinus (disorder)	y	descendant of concept mapped from leaf
+141281000119101	History of ischemic stroke without residual deficits (situation)	y	descendant of concept mapped from leaf
+140911000119109	Ischemic stroke with coma (disorder)	y	descendant of concept mapped from leaf
+371040005	Thrombotic stroke (disorder)	y	descendant of concept mapped from leaf
+35672006	Subarachnoid hemorrhage following injury without open intracranial wound AND with no loss of consciousness (disorder)	y	descendant of concept mapped from leaf
+206396002	"Intraventricular (nontraumatic) hemorrhage, grade 2, of fetus and newborn (disorder)"	y	descendant of concept mapped from leaf
+26205001	Subdural hemorrhage following injury without open intracranial wound AND with brief loss of consciousness (less than one hour) (disorder)	y	descendant of concept mapped from leaf
+292681000119101	Cerebrovascular accident due to occlusion of right vertebral artery (disorder)	y	descendant of concept mapped from leaf
+723084007	Sequela of non-traumatic intracerebral hemorrhage (disorder)	y	descendant of concept mapped from leaf
+329481000119106	Occlusion of right middle cerebral artery (disorder)	y	descendant of concept mapped from leaf
+111681000	Extradural hemorrhage following injury with open intracranial wound AND loss of consciousness (disorder)	y	descendant of concept mapped from leaf
+102831000119104	Paralytic syndrome of both lower limbs as sequela of stroke (disorder)	y	descendant of concept mapped from leaf
+192765008	Phlebitis of superior longitudinal sinus (disorder)	y	descendant of concept mapped from leaf
+290581000119101	Ataxia due to and following cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+723082006	Silent cerebral infarct (disorder)	y	descendant of concept mapped from leaf
+91216000	Intracranial hemorrhage following injury with open intracranial wound AND prolonged loss of consciousness (more than 24 hours) AND return to pre-existing conscious level (disorder)	y	descendant of concept mapped from leaf
+441630004	Aphasia as late effect of cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+18485009	Intracranial hemorrhage following injury without open intracranial wound AND with loss of consciousness (disorder)	y	descendant of concept mapped from leaf
+427296003	Thalamic infarction (disorder)	y	descendant of concept mapped from leaf
+23671000119107	Sequela of ischemic cerebral infarction (disorder)	y	descendant of concept mapped from leaf
+23808003	Rolandic vein occlusion syndrome (disorder)	y	descendant of concept mapped from leaf
+141831000119101	History of embolic stroke with deficits (situation)	y	descendant of concept mapped from leaf
+737231005	Traumatic hemorrhage of thalamus (disorder)	y	descendant of concept mapped from leaf
+451035002	Subpial intracranial hemorrhage (disorder)	y	descendant of concept mapped from leaf
+734960001	Embolus of right cerebellar artery (disorder)	y	descendant of concept mapped from leaf
+690331000119109	Speech and language deficit due to and following embolic cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+262955000	Traumatic intracranial subarachnoid hemorrhage (disorder)	y	descendant of concept mapped from leaf
+23819000	Embolism of cavernous venous sinus (disorder)	y	descendant of concept mapped from leaf
+427432001	Paralytic syndrome as late effect of thalamic stroke (disorder)	y	descendant of concept mapped from leaf
+87937009	Endophlebitis of intracranial venous sinus (disorder)	y	descendant of concept mapped from leaf
+13289004	Intracranial hemorrhage following injury with open intracranial wound AND loss of consciousness (disorder)	y	descendant of concept mapped from leaf
+6594005	Cerebrovascular disorder in the puerperium (disorder)	y	descendant of concept mapped from leaf
+118971000119107	History of embolic stroke without deficits (situation)	y	descendant of concept mapped from leaf
+735132006	Occlusion of right cerebellar artery (disorder)	y	descendant of concept mapped from leaf
+237701005	Pituitary apoplexy (disorder)	y	descendant of concept mapped from leaf
+70936005	"Multi-infarct dementia, uncomplicated (disorder)"	y	descendant of concept mapped from leaf
+261808007	Neonatal cerebral hemorrhage (disorder)	y	descendant of concept mapped from leaf
+15710641000119100	Dissecting hemorrhage of bilateral vertebral arteries (disorder)	y	descendant of concept mapped from leaf
+29322000	Acute cerebrovascular insufficiency (disorder)	y	descendant of concept mapped from leaf
+291665000	Postpartum intrapituitary hemorrhage (disorder)	y	descendant of concept mapped from leaf
+127312001	Intracranial hemorrhage following injury with prolonged loss of consciousness without return to pre-existing conscious level (disorder)	y	descendant of concept mapped from leaf
+141821000119104	History of ischemic cerebrovascular accident with residual deficit (situation)	y	descendant of concept mapped from leaf
+703206009	Asymptomatic occlusion of basilar artery (disorder)	y	descendant of concept mapped from leaf
+690071000119109	History of nontraumatic ruptured cerebral aneurysm (situation)	y	descendant of concept mapped from leaf
+230723007	Cerebral venous thrombosis of great cerebral vein (disorder)	y	descendant of concept mapped from leaf
+705128004	Cerebral infarction due to embolism of middle cerebral artery (disorder)	y	descendant of concept mapped from leaf
+276285004	Subarachnoid hemorrhage from posterior inferior cerebellar artery aneurysm (disorder)	y	descendant of concept mapped from leaf
+262940009	Transection of vertebral artery (disorder)	y	descendant of concept mapped from leaf
+716745004	Livedo reticularis and cerebrovascular accident syndrome (disorder)	y	descendant of concept mapped from leaf
+429743002	Occipital extradural hematoma (disorder)	y	descendant of concept mapped from leaf
+361000119103	Paralytic syndrome on one side of the body as late effect of cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+92341000119107	Weakness of extremities as sequela of stroke (disorder)	y	descendant of concept mapped from leaf
+200333003	Puerperal cerebrovascular disorder with postnatal complication (disorder)	y	descendant of concept mapped from leaf
+718551002	Moyamoya disease with early onset achalasia (disorder)	y	descendant of concept mapped from leaf
+206195009	Extradural intracranial hemorrhage in fetus or newborn (disorder)	y	descendant of concept mapped from leaf
+291121000119103	Monoplegia of upper limb due to and following cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+35386004	Cavernous sinus syndrome (disorder)	y	descendant of concept mapped from leaf
+141091000119105	Compression of brain co-occurrent and due to nontraumatic subarachnoid hemorrhage (disorder)	y	descendant of concept mapped from leaf
+73308006	Extradural hemorrhage following injury with open intracranial wound AND brief loss of consciousness (less than one hour) (disorder)	y	descendant of concept mapped from leaf
+58020007	"Closed skull fracture with subarachnoid, subdural AND/OR extradural hemorrhage (disorder)"	y	descendant of concept mapped from leaf
+703174002	Subarachnoid hemorrhage from vertebral artery aneurysm (disorder)	y	descendant of concept mapped from leaf
+703220002	Hereditary cystatin C amyloid angiopathy (disorder)	y	descendant of concept mapped from leaf
+262717000	Injury of vertebral artery (disorder)	y	descendant of concept mapped from leaf
+143521000119103	Nontraumatic intraparenchymal cerebral hemorrhage (disorder)	y	descendant of concept mapped from leaf
+46421000119102	Behavior disorder as sequela of cerebral infarction (disorder)	y	descendant of concept mapped from leaf
+703176000	Ruptured aneurysm of vertebral artery (disorder)	y	descendant of concept mapped from leaf
+21258007	Thrombosis of lateral venous sinus (disorder)	y	descendant of concept mapped from leaf
+230725000	Sporadic cerebral amyloid angiopathy (disorder)	y	descendant of concept mapped from leaf
+690171000119105	Weakness of facial muscle due to and following embolic cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+277196008	Berry aneurysm (disorder)	y	descendant of concept mapped from leaf
+42429001	Cerebromeningeal hemorrhage (disorder)	y	descendant of concept mapped from leaf
+703218000	Cerebral vasoconstriction syndrome (disorder)	y	descendant of concept mapped from leaf
+330081000119108	Nonruptured congenital aneurysm of cerebral artery (disorder)	y	descendant of concept mapped from leaf
+442733008	Hemiplegia as late effect of cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+297138001	Embolus of circle of Willis (disorder)	y	descendant of concept mapped from leaf
+722906002	Intracranial hemorrhage due to birth trauma (disorder)	y	descendant of concept mapped from leaf
+55382008	Cerebral atherosclerosis (disorder)	y	descendant of concept mapped from leaf
+426788002	Vertigo as late effect of stroke (disorder)	y	descendant of concept mapped from leaf
+722929005	Perinatal arterial ischemic stroke (disorder)	y	descendant of concept mapped from leaf
+192754003	Embolism cavernous sinus (disorder)	y	descendant of concept mapped from leaf
+36179005	Reversible ischemic neurologic deficit syndrome (disorder)	y	descendant of concept mapped from leaf
+192764007	Phlebitis cavernous sinus (disorder)	y	descendant of concept mapped from leaf
+722575008	Traumatic hemorrhage of cerebellum due to birth trauma (disorder)	y	descendant of concept mapped from leaf
+722584008	Fetal or neonatal non-traumatic hemorrhage of subdural space of brain (disorder)	y	descendant of concept mapped from leaf
+73192008	Multiple AND bilateral precerebral artery stenosis (disorder)	y	descendant of concept mapped from leaf
+2495006	Congenital cerebral arteriovenous aneurysm (disorder)	y	descendant of concept mapped from leaf
+441759008	Abnormal vision as a late effect of cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+78757009	Intracranial hemorrhage following injury without open intracranial wound AND with concussion (disorder)	y	descendant of concept mapped from leaf
+45659008	Subdural hemorrhage following injury with open intracranial wound AND loss of consciousness (disorder)	y	descendant of concept mapped from leaf
+111028009	Arteriopathic granular atrophy of cerebral cortex (disorder)	y	descendant of concept mapped from leaf
+722583002	Fetal or neonatal non-traumatic hemorrhage of subarachnoid space of brain (disorder)	y	descendant of concept mapped from leaf
+4262001	Phlebitis of superior sagittal sinus (disorder)	y	descendant of concept mapped from leaf
+127309004	Intracranial hemorrhage following injury with brief loss of consciousness (disorder)	y	descendant of concept mapped from leaf
+329641000119104	Cerebrovascular accident due to thrombus of basilar artery (disorder)	y	descendant of concept mapped from leaf
+315049003	Traumatic extradural hematoma with open intracranial wound (disorder)	y	descendant of concept mapped from leaf
+292661000119105	Cerebrovascular accident due to stenosis of right vertebral artery (disorder)	y	descendant of concept mapped from leaf
+703226008	Familial cerebral saccular aneurysm (disorder)	y	descendant of concept mapped from leaf
+16907002	Extradural hemorrhage following injury without open intracranial wound AND with prolonged loss of consciousness (more than 24 hours) without return to pre-existing conscious level (disorder)	y	descendant of concept mapped from leaf
+99451000119105	Cerebral infarction due to stenosis of carotid artery (disorder)	y	descendant of concept mapped from leaf
+330091000119106	Non-ruptured acquired aneurysm of cerebral artery (disorder)	y	descendant of concept mapped from leaf
+442212003	Residual cognitive deficit as late effect of cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+15705007	Phlebitis of basilar sinus (disorder)	y	descendant of concept mapped from leaf
+266254007	Occlusion of carotid artery (disorder)	y	descendant of concept mapped from leaf
+43262000	Subdural hemorrhage following injury with open intracranial wound AND concussion (disorder)	y	descendant of concept mapped from leaf
+703180005	Asymptomatic occlusion of extracranial carotid artery (disorder)	y	descendant of concept mapped from leaf
+426651005	Occlusion of bilateral carotid arteries (disorder)	y	descendant of concept mapped from leaf
+230225001	Septic thrombophlebitis of great cerebral vein (disorder)	y	descendant of concept mapped from leaf
+276270005	Unruptured aneurysm of middle cerebral artery (disorder)	y	descendant of concept mapped from leaf
+230722002	Cerebral venous thrombosis of cortical vein (disorder)	y	descendant of concept mapped from leaf
+206191000	Local intracranial subdural hematoma due to birth trauma (disorder)	y	descendant of concept mapped from leaf
+426814001	Transient cerebral ischemia due to atrial fibrillation (disorder)	y	descendant of concept mapped from leaf
+441991000	Hemiparesis as late effect of cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+206399009	Intracranial subarachnoid hemorrhage due to birth injury (disorder)	y	descendant of concept mapped from leaf
+724427002	Asymptomatic stenosis of intracranial artery (disorder)	y	descendant of concept mapped from leaf
+292851000119109	Lacunar ataxic hemiparesis of right dominant side (disorder)	y	descendant of concept mapped from leaf
+734384004	Thrombosis of right middle cerebral artery (disorder)	y	descendant of concept mapped from leaf
+230285003	Vascular dementia of acute onset (disorder)	y	descendant of concept mapped from leaf
+722624003	Focal traumatic hematoma of brainstem (disorder)	y	descendant of concept mapped from leaf
+15978471000119100	Thrombosis of left vertebral artery (disorder)	y	descendant of concept mapped from leaf
+703205008	Asymptomatic occlusion of posterior cerebral artery (disorder)	y	descendant of concept mapped from leaf
+230523009	Infarction of optic radiation (disorder)	y	descendant of concept mapped from leaf
+230730001	Dissection of vertebral artery (disorder)	y	descendant of concept mapped from leaf
+50751005	Sinus pericranii (disorder)	y	descendant of concept mapped from leaf
+37134004	Intracranial hemorrhage following injury without open intracranial wound AND with no loss of consciousness (disorder)	y	descendant of concept mapped from leaf
+699706000	Embolism of middle cerebral artery (disorder)	y	descendant of concept mapped from leaf
+291681000119108	Dysphagia due to and following non-traumatic subarachnoid hemorrhage (disorder)	y	descendant of concept mapped from leaf
+61687004	Endophlebitis of inferior sagittal sinus (disorder)	y	descendant of concept mapped from leaf
+433183000	Neurogenic bladder as late effect of cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+276224003	Multiple unruptured cerebral aneurysms (disorder)	y	descendant of concept mapped from leaf
+762629007	Occlusion of right middle cerebral artery by embolus (disorder)	y	descendant of concept mapped from leaf
+77768006	Intracranial hemorrhage following injury with open intracranial wound (disorder)	y	descendant of concept mapped from leaf
+128171000119104	Spontaneous caroticocavernous sinus fistula (disorder)	y	descendant of concept mapped from leaf
+15982311000119100	Weakness of left facial muscle due to and following cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+15988391000119100	Acquired left carotid cavernous fistula (disorder)	y	descendant of concept mapped from leaf
+723083001	Late effects of cerebral ischemic stroke (disorder)	y	descendant of concept mapped from leaf
+134771000119108	Alteration of sensation as late effect of stroke (disorder)	y	descendant of concept mapped from leaf
+290621000119101	Cognitive deficit due to and following cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+722703002	Traumatic intraventricular hemorrhage (disorder)	y	descendant of concept mapped from leaf
+192755002	Embolism superior longitudinal sinus (disorder)	y	descendant of concept mapped from leaf
+425882004	Paralytic syndrome as late effect of stroke (disorder)	y	descendant of concept mapped from leaf
+724426006	Cerebral ischemic stroke due to extracranial large artery atherosclerosis (disorder)	y	descendant of concept mapped from leaf
+724779000	White matter disorder co-occurrent and due to cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy (disorder)	y	descendant of concept mapped from leaf
+230738008	Asymptomatic cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+230222003	Septic thrombophlebitis of straight sinus (disorder)	y	descendant of concept mapped from leaf
+29941000119105	Ataxia as sequela of cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+703215002	Non-aneurysmal subarachnoid intracranial hemorrhage (disorder)	y	descendant of concept mapped from leaf
+26021000119107	Vertigo as sequela of cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+90178008	Extradural hemorrhage following injury without open intracranial wound AND with loss of consciousness (disorder)	y	descendant of concept mapped from leaf
+40450001	Embolism of superior sagittal sinus (disorder)	y	descendant of concept mapped from leaf
+705129007	Thrombosis of middle cerebral artery (disorder)	y	descendant of concept mapped from leaf
+16026951000119100	Cerebrovascular accident due to stenosis of right carotid artery (disorder)	y	descendant of concept mapped from leaf
+192769002	Thrombophlebitis of central nervous system venous sinuses (disorder)	y	descendant of concept mapped from leaf
+15710681000119100	Dissecting hemorrhage of right vertebral artery (disorder)	y	descendant of concept mapped from leaf
+262952002	Traumatic intracranial subdural hematoma (disorder)	y	descendant of concept mapped from leaf
+230719004	Intracranial subarachnoid hemorrhage due to ruptured aneurysm (disorder)	y	descendant of concept mapped from leaf
+66976009	Intracranial hemorrhage following injury without intracranial wound AND with moderate loss of consciousness (1-24 hours) (disorder)	y	descendant of concept mapped from leaf
+702575003	Retinocochleocerebral vasculopathy (disorder)	y	descendant of concept mapped from leaf
+734880004	Ruptured aneurysm of left posterior communicating artery (disorder)	y	descendant of concept mapped from leaf
+108691000119102	Spasticity as sequela of stroke (disorder)	y	descendant of concept mapped from leaf
+186317009	Listerial cerebral arteritis (disorder)	y	descendant of concept mapped from leaf
+703221003	Congenital intracranial vascular malformation (disorder)	y	descendant of concept mapped from leaf
+674381000119108	Weakness of facial muscle due to and following ischemic cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+192761004	Thrombosis transverse sinus (disorder)	y	descendant of concept mapped from leaf
+43602006	Subdural intracranial hemorrhage in fetus OR newborn (disorder)	y	descendant of concept mapped from leaf
+230721009	Cerebral venous thrombosis of sigmoid sinus (disorder)	y	descendant of concept mapped from leaf
+111299004	Atheroma of cerebral arteries (disorder)	y	descendant of concept mapped from leaf
+186831000119104	Apraxia due to and following cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+55734000	Endophlebitis of basilar sinus (disorder)	y	descendant of concept mapped from leaf
+204501003	Congenital stricture of cerebral artery (disorder)	y	descendant of concept mapped from leaf
+371050006	Traumatic intracranial subdural hematoma with brief loss of consciousness (disorder)	y	descendant of concept mapped from leaf
+430947007	Paralytic syndrome of nondominant side as late effect of stroke (disorder)	y	descendant of concept mapped from leaf
+722629008	Traumatic subarachnoid hemorrhage without coma (disorder)	y	descendant of concept mapped from leaf
+69116000	Moyamoya disease (disorder)	y	descendant of concept mapped from leaf
+8269002	Cerebrospinal angiopathy (disorder)	y	descendant of concept mapped from leaf
+28366008	Cerebral arteritis (disorder)	y	descendant of concept mapped from leaf
+301764006	Hematoma of brain (disorder)	y	descendant of concept mapped from leaf
+297157005	Intracranial venous thrombosis (disorder)	y	descendant of concept mapped from leaf
+12242751000119100	Weakness of right facial muscle due to and following cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+61642003	"Multiple open fractures of skull AND/OR face with subarachnoid, subdural AND/OR extradural hemorrhage (disorder)"	y	descendant of concept mapped from leaf
+713081000	Dissection of cerebral artery (disorder)	y	descendant of concept mapped from leaf
+234005004	Vertebral artery rupture (disorder)	y	descendant of concept mapped from leaf
+734383005	Thrombosis of left middle cerebral artery (disorder)	y	descendant of concept mapped from leaf
+291711000119109	Cognitive deficit due to and following nontraumatic intracerebral hemorrhage (disorder)	y	descendant of concept mapped from leaf
+57981008	Progressing stroke (disorder)	y	descendant of concept mapped from leaf
+442617003	Aphasia as late effect of cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+148871000119109	Weakness as a late effect of cerebrovascular accident (disorder)	y	descendant of concept mapped from leaf
+111671004	Intracranial hemorrhage following injury with open intracranial wound and prolonged loss of consciousness (more than 24 hours) without return to pre-existing level (disorder)	y	descendant of concept mapped from leaf
+128608001	Cerebral arterial aneurysm (disorder)	y	descendant of concept mapped from leaf
+713082007	Nonruptured cerebral aneurysm due to dissection of cerebral artery (disorder)	y	descendant of concept mapped from leaf
+429235008	History of cardioembolic stroke (situation)	y	descendant of concept mapped from leaf
+291541000119104	Spontaneous hemorrhage of brain stem (disorder)	y	descendant of concept mapped from leaf
+209987007	Traumatic subdural intracranial hemorrhage (disorder)	y	descendant of concept mapped from leaf
+140881000119109	Compression of brain co-occurrent and due to spontaneous cerebral hemorrhage (disorder)	y	descendant of concept mapped from leaf
+140701000119108	History of hemorrhagic stroke with hemiparesis (situation)	y	descendant of concept mapped from leaf
+703219008	Cerebral autosomal recessive arteriopathy with subcortical infarcts and leukoencephalopathy (disorder)	y	descendant of concept mapped from leaf
+16002111000119100	Cerebrovascular accident due to thrombus of left middle cerebral artery (disorder)	y	descendant of concept mapped from leaf
+277311009	Unruptured internal carotid-posterior communicating artery zone aneurysm (disorder)	y	descendant of concept mapped from leaf
+200259003	Cerebral venous thrombosis in pregnancy (disorder)	y	descendant of concept mapped from leaf
+426107000	Acute lacunar infarction (disorder)	y	descendant of concept mapped from leaf
+441529001	Dysphasia as late effect of cerebrovascular disease (disorder)	y	descendant of concept mapped from leaf
+428241007	Ventricular hemorrhage of fetus (disorder)	y	descendant of concept mapped from leaf
+632611000000107	"Subarachnoid hemorrhage following injury with open intracranial wound, with loss of consciousness of unspecified duration (disorder)"	n	via Query Table
+269147009	Closed traumatic extradural hemorrhage (disorder)	n	via Query Table
+706691000000101	Central post-stroke pain	n	via Query Table
+209981008	"Extradural hemorrhage following injury with open intracranial wound, with more than 24 hours loss of consciousness and return to pre-existing conscious level (disorder)"	n	via Query Table
+417791000000102	"[X]Sequelae of stroke, not specified as haemorrhage or infarction"	n	via Query Table
+619831000000101	Cerebrovascular system anomaly NOS (disorder)	n	via Query Table
+1032681000000100	Locked in syndrome (disorder)	n	via Query Table
+491301000000100	Vertebral artery dissection 	n	via Query Table
+14936004	Subdural hemorrhage following injury with open intracranial wound (disorder)	n	via Query Table
+670211000000106	"Extradural hemorrhage following injury without mention of open intracranial wound, with loss of consciousness of unspecified duration (disorder)"	n	via Query Table
+670161000000101	"Subdural hemorrhage following injury with open intracranial wound, unspecified state of consciousness (disorder)"	n	via Query Table
+439121000000104	[X]Intracranial nontraumatic haemorrhage fetus newborn unspecified (disorder)	n	via Query Table
+586561000000106	Phlebitis of central nervous system venous sinus NOS (disorder)	n	via Query Table
+529421000000101	"Subdural hemorrhage following injury without mention of open intracranial wound, with less than 1 hour loss of consciousness (disorder)"	n	via Query Table
+262954001	Traumatic subarachnoid intracranial hemorrhage (disorder)	n	via Query Table
+670221000000100	"Extradural hemorrhage following injury without mention of open intracranial wound, with concussion, unspecified (disorder)"	n	via Query Table
+670231000000103	"Extradural hemorrhage following injury with open intracranial wound, with loss of consciousness of unspecified duration (disorder)"	n	via Query Table
+426661000000105	[X]Cerebral infarction due to unspecified occlusion or stenosis of precerebral arteries (disorder)	n	via Query Table
+63590009	Subdural hemorrhage following injury with open intracranial wound AND no loss of consciousness (disorder)	n	via Query Table
+195226001	"Dissection of cerebral arteries, nonruptured (disorder)"	n	via Query Table
+532071000000103	"Subdural hemorrhage following injury without mention of open intracranial wound, with 1-24 hours loss of consciousness (disorder)"	n	via Query Table
+209943003	"Subarachnoid hemorrhage following injury with open intracranial wound, with more than 24 hours loss of consciousness and return to pre-existing conscious level (disorder)"	n	via Query Table
+471931000000103	[X]Other vascular syndromes of the brain in cerebrovascular diseases (disorder)	n	via Query Table
+876451000000104	Reversible cerebral vasoconstriction syndrome 	n	via Query Table
+402531000000107	"[X]Intracerebral haemorrhage in hemisphere, unspecified"	n	via Query Table
+397591000000103	[X]Other specified cerebrovascular diseases (disorder)	n	via Query Table
+632631000000104	"Subdural hemorrhage following injury without mention of open intracranial wound, unspecified state of consciousness (disorder)"	n	via Query Table
+710053005	Nontraumatic subarachnoid intracranial hemorrhage (disorder)	n	via Query Table
+692701000000109	Phlebitis or thrombophlebitis of central nervous system venous sinus NOS (disorder)	n	via Query Table
+878921000000101	Retinocochleocerebral vasculopathy 	n	via Query Table
+272701000000103	Delivery of rehabilitation for stroke 	n	via Query Table
+878911000000107	Retinocochleocerebral vasculopathy (disorder)	n	via Query Table
+262739003	Cerebral hemorrhage in fetus OR newborn (disorder)	n	via Query Table
+65971006	Cerebral hemorrhage due to birth trauma (disorder)	n	via Query Table
+206673009	[X]Intracranial nontraumatic hemorrhage fetus newborn unspecified (disorder)	n	via Query Table
+269146000	Closed traumatic subarachnoid hemorrhage (disorder)	n	via Query Table
+856891000000108	Pituitary apoplexy	n	via Query Table
+209959003	"Subdural hemorrhage following injury with open intracranial wound, with less than 1 hour loss of consciousness (disorder)"	n	via Query Table
+209944009	"Subarachnoid hemorrhage following injury with open intracranial wound, with more than 24 hours loss of consciousness without return to pre-existing conscious level (disorder)"	n	via Query Table
+209982001	"Extradural hemorrhage following injury with open intracranial wound, with more than 24 hours loss of consciousness without return to pre-existing conscious level (disorder)"	n	via Query Table
+431501000000102	[X]Other cerebrovascular disorders in diseases classified elsewhere (disorder)	n	via Query Table
+402521000000105	"[X]Subarachnoid haemorrhage from intracranial artery, unspecified"	n	via Query Table
+876441000000102	Reversible cerebral vasoconstriction syndrome (disorder)	n	via Query Table
+415151000000100	[X]Cerebral infarction due to unspecified occlusion or stenosis of precerebral arteries	n	via Query Table
+615841000000107	Puerperal cerebrovascular disorder NOS (disorder)	n	via Query Table
+419711000000101	[X]Occlusion and stenosis of other precerebral arteries (disorder)	n	via Query Table
+614911000000103	"Extradural hemorrhage following injury with open intracranial wound, unspecified state of consciousness (disorder)"	n	via Query Table
+78658006	Basilar artery obstruction (disorder)	n	via Query Table
+209979006	"Extradural hemorrhage following injury with open intracranial wound, with less than 1 hour loss of consciousness (disorder)"	n	via Query Table
+431511000000100	[X]Sequelae of other and unspecified cerebrovascular diseases (disorder)	n	via Query Table
+619811000000109	Other specified cerebrovascular anomaly (disorder)	n	via Query Table
+682621000000105	Cerebral infarction NOS (disorder)	n	via Query Table
+262950005	Traumatic intracranial extradural hematoma (disorder)	n	via Query Table
+288272004	Cerebral hemorrhage - birth (disorder)	n	via Query Table
+209961007	"Subdural hemorrhage following injury with open intracranial wound, with more than 24 hours loss of consciousness and return to pre-existing conscious level (disorder)"	n	via Query Table
+1508000	Intracerebral hemorrhage (disorder)	n	via Query Table
+532081000000101	"Subdural hemorrhage following injury without mention of open intracranial wound, with more than 24 hours loss of consciousness and return to pre-existing conscious level (disorder)"	n	via Query Table
+632601000000105	"Subarachnoid hemorrhage following injury with open intracranial wound, unspecified state of consciousness (disorder)"	n	via Query Table
+527981000000104	Subdural hemorrhage NOS (disorder)	n	via Query Table
+431611000000101	[X]Cerebral arteritis in infectious and parasitic diseases (disorder)	n	via Query Table
+206624000	[X]Other intracranial lacerations and hemorrhages due to birth injury (disorder)	n	via Query Table
+530681000000107	"Extradural hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness (disorder)"	n	via Query Table
+530691000000109	"Extradural hemorrhage following injury without mention of open intracranial wound, with less than 1 hour loss of consciousness (disorder)"	n	via Query Table
+431981000000102	[X]Other subarachnoid haemorrhage (disorder)	n	via Query Table
+262951009	Traumatic subdural hematoma (disorder)	n	via Query Table
+670171000000108	"Subdural hemorrhage following injury with open intracranial wound, with loss of consciousness of unspecified duration (disorder)"	n	via Query Table
+857261000000101	Carotid territory transient ischaemic attack	n	via Query Table
+664231000000102	"Congenital anomaly of cerebral vessel, unspecified (disorder)"	n	via Query Table
+631871000000105	Embolism central nervous system venous sinus NOS (disorder)	n	via Query Table
+586571000000104	Thrombophlebitis of central nervous system venous sinus NOS (disorder)	n	via Query Table
+812051000000101	Stroke self-management plan agreed 	n	via Query Table
+508311000000103	Small vessel cerebrovascular disease (disorder)	n	via Query Table
+584201000000101	Generalized ischemic cerebrovascular disease NOS (disorder)	n	via Query Table
+478941000000104	[X]Other intracranial (nontraumatic) haemorrhages of fetus and newborn (disorder)	n	via Query Table
+530711000000106	"Extradural hemorrhage following injury without mention of open intracranial wound, with more than 24 hours loss of consciousness and return to pre-existing conscious level (disorder)"	n	via Query Table
+632641000000108	"Subdural hemorrhage following injury without mention of open intracranial wound, with loss of consciousness of unspecified duration (disorder)"	n	via Query Table
+82894007	Intracranial hemorrhage following injury (disorder)	n	via Query Table
+307213001	Occipital hematoma (disorder)	n	via Query Table
+467951000000108	[X]Occlusion and stenosis of other cerebral arteries (disorder)	n	via Query Table
+510141000000103	Small vessel cerebrovascular disease	n	via Query Table
+670251000000105	"Extradural hemorrhage following injury with open intracranial wound, with concussion, unspecified (disorder)"	n	via Query Table
+444151000000109	[X]Cerebral infarction due to unspecified occlusion or stenosis of cerebral arteries	n	via Query Table
+532091000000104	"Subdural hemorrhage following injury without mention of open intracranial wound, with more than 24 hours loss of consciousness without return to pre-existing conscious level (disorder)"	n	via Query Table
+7602002	Subdural hemorrhage following injury without open intracranial wound (disorder)	n	via Query Table
+209995006	Other cerebral hemorrhage following injury (disorder)	n	via Query Table
+28837001	Bulbar hemorrhage (disorder)	n	via Query Table
+192781000000100	Vein of Galen malformation	n	via Query Table
+670191000000107	"Extradural hemorrhage following injury without mention of open intracranial wound, unspecified state of consciousness (disorder)"	n	via Query Table
+209938005	Open traumatic subarachnoid hemorrhage (disorder)	n	via Query Table
+444531000000107	"[X]Intracerebral haemorrhage in hemisphere, unspecified (disorder)"	n	via Query Table
+467401000000101	"[X]Subarachnoid haemorrhage from intracranial artery, unspecified (disorder)"	n	via Query Table
+1032691000000100	Locked in syndrome 	n	via Query Table
+419691000000103	[X]Cerebral infarction due to unspecified occlusion or stenosis of cerebral arteries (disorder)	n	via Query Table
+509371000000101	Pure sensory lacunar syndrome (disorder)	n	via Query Table
+758321000000100	Cerebral lupus	n	via Query Table
+567211000000105	Other cerebral hemorrhage following injury NOS (disorder)	n	via Query Table
+530721000000100	"Extradural hemorrhage following injury without mention of open intracranial wound, with more than 24 hours loss of consciousness without return to pre-existing conscious level (disorder)"	n	via Query Table
+584151000000106	Other precerebral artery occlusion (disorder)	n	via Query Table
+858181000000100	Cerebrovascular amyloidosis (disorder)	n	via Query Table
+209960008	"Subdural hemorrhage following injury with open intracranial wound, with 1-24 hours loss of consciousness (disorder)"	n	via Query Table
+450951000000100	[X]Other intracranial lacerations and haemorrhages due to birth injury (disorder)	n	via Query Table
+69533002	Foville's syndrome II (disorder)	n	via Query Table
+209963005	"Subdural hemorrhage following injury with open intracranial wound, with more than 24 hours loss of consciousness without return to pre-existing conscious level (disorder)"	n	via Query Table
+469471000000100	[X]Sequelae of other and unspecified cerebrovascular diseases	n	via Query Table
+13410009	Foville's syndrome I (disorder)	n	via Query Table
+530701000000109	"Extradural hemorrhage following injury without mention of open intracranial wound, with 1-24 hours loss of consciousness (disorder)"	n	via Query Table
+685631000000102	Stroke and cerebrovascular accident unspecified (disorder)	n	via Query Table
+398283005	Nontraumatic extradural hematoma (disorder)	n	via Query Table
+471041000000108	[X]Subarachnoid haemorrhage from other intracranial arteries (disorder)	n	via Query Table
+584161000000109	Precerebral artery occlusion NOS (disorder)	n	via Query Table
+401103008	Cerebrovascular accident annual review (regime/therapy)	n	via Query Table
+411911000000103	[X]Other intracerebral haemorrhage (disorder)	n	via Query Table
+413751000000100	"[X]Sequelae of stroke, not specified as haemorrhage or infarction (disorder)"	n	via Query Table
+891101000000105	Lobar cerebral haemorrhage	n	via Query Table
+1051081000000100	Vertebral artery aneurysm	n	via Query Table
+670181000000105	"Subdural hemorrhage following injury with open intracranial wound, with concussion, unspecified (disorder)"	n	via Query Table
+874711000000100	Cerebrovascular amyloidosis	n	via Query Table
+419701000000103	[X]Other cerebral infarction (disorder)	n	via Query Table
+1032771000000100	"Intraventricular (nontraumatic) haemorrhage, grade 4, of fetus and newborn "	n	via Query Table
+410064000	Non-traumatic subdural hematoma (disorder)	n	via Query Table
+586551000000108	Thrombosis of central nervous system venous sinus NOS (disorder)	n	via Query Table
+856601000000100	Admission to stroke unit	n	via Query Table
+832161000000105	Stroke self-management plan review	n	via Query Table
+209980009	"Extradural hemorrhage following injury with open intracranial wound, with 1-24 hours loss of consciousness (disorder)"	n	via Query Table
+401961000000103	[X]Cerebral arteritis in other diseases classified elsewhere (disorder)	n	via Query Table
+756921000000102	Cerebral vein thrombosis	n	via Query Table
+632261000000107	Brainstem infarction NOS (disorder)	n	via Query Table
+209976004	Open traumatic extradural hemorrhage (disorder)	n	via Query Table
+467911000000109	[X]Other transient cerebral ischaemic attacks and related syndromes (disorder)	n	via Query Table
+528471000000107	"Subdural hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness (disorder)"	n	via Query Table
+670261000000108	Cerebral hemorrhage following injury NOS (disorder)	n	via Query Table
+509351000000105	Pure motor lacunar syndrome (disorder)	n	via Query Table
+209933001	"Subarachnoid hemorrhage following injury without mention of open intracranial wound, with 1-24 hours loss of consciousness (disorder)"	n	via Query Table
+639511000000102	Acute cerebrovascular insufficiency NOS (disorder)	n	via Query Table
+632621000000101	"Subarachnoid hemorrhage following injury with open intracranial wound, with concussion, unspecified (disorder)"	n	via Query Table
+206418004	Intracerebral (nontraumatic) hemorrhage of fetus and newborn (disorder)	n	via Query Table
+581761000000107	Puerperal cerebrovascular disorder unspecified (disorder)	n	via Query Table
+700251000000105	Intracranial hemorrhage NOS (disorder)	n	via Query Table
+313242003	Transient ischemic attacks (disorder)	n	via Query Table
+209941001	"Subarachnoid hemorrhage following injury with open intracranial wound, with less than 1 hour loss of consciousness (disorder)"	n	via Query Table
+831191000000105	Stroke 6 month review	n	via Query Table
+632651000000106	"Subdural hemorrhage following injury without mention of open intracranial wound, with concussion, unspecified (disorder)"	n	via Query Table
+209942008	"Subarachnoid hemorrhage following injury with open intracranial wound, with 1-24 hours loss of consciousness (disorder)"	n	via Query Table
+670271000000101	Other cerebral hemorrhage following injury (disorder)	n	via Query Table

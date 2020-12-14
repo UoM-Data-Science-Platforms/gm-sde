@@ -1,0 +1,381 @@
+id	name	active	notes
+38481006	Hypertensive renal disease (disorder)	y	direct mapping
+83105008	Malignant hypertensive heart disease with congestive heart failure (disorder)	y	direct mapping
+48146000	Diastolic hypertension (disorder)	y	direct mapping
+199006004	"Pre-existing hypertensive heart disease complicating pregnancy, childbirth and the puerperium (disorder)"	y	direct mapping
+270440008	Hypertension monitoring check done (finding)	y	direct mapping
+697929007	Intermittent hypertension (disorder)	y	direct mapping
+185716009	Attends hypertension monitoring (finding)	y	direct mapping
+66610008	Malignant hypertensive heart AND renal disease (disorder)	y	direct mapping
+308502002	Hypertension monitoring status (finding)	y	direct mapping
+308427006	Hypertension screening recall (procedure)	y	direct mapping
+163028000	On examination - blood pressure reading very high (finding)	y	direct mapping
+713641000000103	Hypertension monitoring administration (record artifact)	y	direct mapping
+736286003	Hypertension clinical management plan (record artifact)	y	direct mapping
+268509003	Cardiac disease monitoring (regime/therapy)	y	direct mapping
+302192008	On treatment for hypertension (regime/therapy)	y	direct mapping
+220901000000101	High cost hypertension drug therapy - OPCS Classification of Interventions and Procedures (procedure)	y	direct mapping
+194767001	Benign hypertensive heart disease with congestive cardiac failure (disorder)	y	direct mapping
+1201005	Benign essential hypertension (disorder)	y	direct mapping
+38341003	"Hypertensive disorder, systemic arterial (disorder)"	y	direct mapping
+1066941000000100	Hypertension monitoring invitation short message service text message (procedure)	y	direct mapping
+401118009	Hypertension annual review (procedure)	y	direct mapping
+198997005	Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)	y	direct mapping
+73410007	Benign secondary renovascular hypertension (disorder)	y	direct mapping
+66052004	Benign hypertensive heart AND renal disease (disorder)	y	direct mapping
+199005000	"Pre-existing hypertension complicating pregnancy, childbirth and puerperium (disorder)"	y	direct mapping
+1066961000000100	Hypertension monitoring short message service text message second invitation (procedure)	y	direct mapping
+185723005	Hypertension monitoring telephone invite (procedure)	y	direct mapping
+161501007	History of hypertension (situation)	y	direct mapping
+845891000000103	Hypertension resistant to drug therapy (disorder)	y	direct mapping
+194780003	Hypertensive heart and renal disease with renal failure (disorder)	y	direct mapping
+163027005	On examination - blood pressure reading raised (finding)	y	direct mapping
+194783001	Secondary malignant renovascular hypertension (disorder)	y	direct mapping
+86234004	Hypertensive heart AND renal disease (disorder)	y	direct mapping
+275516004	Cardiomegaly - hypertensive (disorder)	y	direct mapping
+401117004	Moderate hypertension control (finding)	y	direct mapping
+193003	Benign hypertensive renal disease (disorder)	y	direct mapping
+199007008	"Pre-existing hypertensive heart and renal disease complicating pregnancy, childbirth and the puerperium (disorder)"	y	direct mapping
+162659009	Hypertension resolved (finding)	y	direct mapping
+308503007	Hypertension monitoring call (procedure)	y	direct mapping
+1083101000000100	Hypertension monitoring invitation email (procedure)	y	direct mapping
+65443008	Malignant hypertensive renal disease (disorder)	y	direct mapping
+863191000000102	Nocturnal hypertension (disorder)	y	direct mapping
+275944005	Hypertension monitoring (regime/therapy)	y	direct mapping
+185264001	Seen in hypertension clinic (finding)	y	direct mapping
+183856001	Referral to hypertension clinic (procedure)	y	direct mapping
+48194001	Pregnancy-induced hypertension (disorder)	y	direct mapping
+908651000000101	Stage 1 hypertension (National Institute for Health and Clinical Excellence 2011) with evidence of end organ damage (disorder)	y	direct mapping
+31992008	Secondary hypertension (disorder)	y	direct mapping
+64715009	Hypertensive heart disease (disorder)	y	direct mapping
+59621000	Essential hypertension (disorder)	y	direct mapping
+185718005	Hypertension monitoring offer default (finding)	y	direct mapping
+1066971000000100	Hypertension monitoring short message service text message third invitation (procedure)	y	direct mapping
+36221001	Benign hypertensive heart disease (disorder)	y	direct mapping
+194788005	Hypertension secondary to endocrine disorder (disorder)	y	direct mapping
+846371000000103	Stage 2 hypertension (National Institute for Health and Clinical Excellence 2011) (disorder)	y	direct mapping
+401048005	Hypertension six month review (procedure)	y	direct mapping
+170579000	Hypertension:follow-up default (finding)	y	direct mapping
+36315003	Malignant hypertensive heart disease without congestive heart failure (disorder)	y	direct mapping
+185721007	Hypertension monitoring third letter (procedure)	y	direct mapping
+810981000000107	Hypertension self-management plan review (procedure)	y	direct mapping
+6962006	Hypertensive retinopathy (disorder)	y	direct mapping
+50490005	Hypertensive encephalopathy (disorder)	y	direct mapping
+908631000000108	Stage 1 hypertension (National Institute for Health and Clinical Excellence 2011) without evidence of end organ damage (disorder)	y	direct mapping
+199008003	"Pre-existing secondary hypertension complicating pregnancy, childbirth and puerperium (disorder)"	y	direct mapping
+713661000000102	Hypertension clinic administration (record artifact)	y	direct mapping
+78975002	Malignant essential hypertension (disorder)	y	direct mapping
+89242004	Malignant secondary hypertension (disorder)	y	direct mapping
+170578008	Poor hypertension control (finding)	y	direct mapping
+194779001	Hypertensive heart and renal disease with (congestive) heart failure (disorder)	y	direct mapping
+170577003	Good hypertension control (finding)	y	direct mapping
+123799005	Renovascular hypertension (disorder)	y	direct mapping
+194781004	Hypertensive heart and renal disease with both (congestive) heart failure and renal failure (disorder)	y	direct mapping
+843821000000102	Stage 1 hypertension (National Institute for Health and Clinical Excellence 2011) (disorder)	y	direct mapping
+185722000	Hypertension monitoring verbal invite (procedure)	y	direct mapping
+54225002	Malignant hypertensive heart disease (disorder)	y	direct mapping
+407567007	Patient on maximal tolerated antihypertensive therapy (finding)	y	direct mapping
+170587004	Hypertensive treatment changed (situation)	y	direct mapping
+86041002	Pre-existing hypertension in obstetric context (disorder)	y	direct mapping
+185719002	Hypertension monitoring first letter (procedure)	y	direct mapping
+170586008	Treatment for hypertension started (situation)	y	direct mapping
+95691008	Arteriosclerotic retinopathy (disorder)	y	direct mapping
+194785008	Secondary benign hypertension (disorder)	y	direct mapping
+70272006	Malignant hypertension (disorder)	y	direct mapping
+170588009	Treatment for hypertension stopped (situation)	y	direct mapping
+56218007	Systolic hypertension (disorder)	y	direct mapping
+766211000000109	Hypertension 9 month review (regime/therapy)	y	direct mapping
+185720008	Hypertension monitoring second letter (procedure)	y	direct mapping
+308116003	Antihypertensive therapy (procedure)	y	direct mapping
+843841000000109	Severe hypertension (National Institute for Health and Clinical Excellence 2011) (disorder)	y	direct mapping
+1066951000000100	Hypertension monitoring short message service text message first invitation (procedure)	y	direct mapping
+698640000	Hypertension in the puerperium with pulmonary edema (disorder)	y	descendant of concept mapped from leaf
+96731000119100	Hypertensive heart AND chronic kidney disease stage 3 (disorder)	y	descendant of concept mapped from leaf
+285831000119108	Malignant hypertensive chronic kidney disease (disorder)	y	descendant of concept mapped from leaf
+371125006	Labile essential hypertension (disorder)	y	descendant of concept mapped from leaf
+23717007	Benign essential hypertension complicating AND/OR reason for care during pregnancy (disorder)	y	descendant of concept mapped from leaf
+39018007	Renal arterial hypertension (disorder)	y	descendant of concept mapped from leaf
+62240004	Benign arteriolar nephrosclerosis (disorder)	y	descendant of concept mapped from leaf
+198954000	"Renal hypertension complicating pregnancy, childbirth and the puerperium with postnatal complication (disorder)"	y	descendant of concept mapped from leaf
+37618003	Chronic hypertension complicating AND/OR reason for care during pregnancy (disorder)	y	descendant of concept mapped from leaf
+198951008	"Renal hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)"	y	descendant of concept mapped from leaf
+1474004	Hypertensive heart AND renal disease complicating AND/OR reason for care during childbirth (disorder)	y	descendant of concept mapped from leaf
+726513006	History of hemolysis-elevated liver enzymes-low platelet count syndrome (situation)	y	descendant of concept mapped from leaf
+129151000119102	Chronic kidney disease stage 4 due to hypertension (disorder)	y	descendant of concept mapped from leaf
+198966006	Transient hypertension of pregnancy - delivered with postnatal complication (disorder)	y	descendant of concept mapped from leaf
+851071000000108	Heart failure initial assessment (regime/therapy)	y	descendant of concept mapped from leaf
+248411000000105	Atrial fibrillation annual review (regime/therapy)	y	descendant of concept mapped from leaf
+153891000119101	End stage renal disease on dialysis due to hypertension on (disorder)	y	descendant of concept mapped from leaf
+31407004	Pre-existing hypertension complicating AND/OR reason for care during puerperium (disorder)	y	descendant of concept mapped from leaf
+198949009	"Renal hypertension complicating pregnancy, childbirth and the puerperium (disorder)"	y	descendant of concept mapped from leaf
+29259002	Malignant hypertension complicating AND/OR reason for care during pregnancy (disorder)	y	descendant of concept mapped from leaf
+390885007	Heart failure annual review (regime/therapy)	y	descendant of concept mapped from leaf
+71874008	Benign essential hypertension complicating AND/OR reason for care during childbirth (disorder)	y	descendant of concept mapped from leaf
+105651000119100	History of pre-eclampsia (situation)	y	descendant of concept mapped from leaf
+140111000119107	Hypertension in chronic kidney disease stage 4 due to type 2 diabetes mellitus (disorder)	y	descendant of concept mapped from leaf
+428575007	Hypertension secondary to kidney transplant (disorder)	y	descendant of concept mapped from leaf
+40521000119100	Postpartum pregnancy-induced hypertension (disorder)	y	descendant of concept mapped from leaf
+23786008	Malignant hypertension complicating AND/OR reason for care during puerperium (disorder)	y	descendant of concept mapped from leaf
+96741000119109	Hypertensive heart AND chronic kidney disease stage 2 (disorder)	y	descendant of concept mapped from leaf
+34694006	Pre-existing hypertension complicating AND/OR reason for care during childbirth (disorder)	y	descendant of concept mapped from leaf
+10757441000119100	Pre-existing hypertensive heart disease in mother complicating childbirth (disorder)	y	descendant of concept mapped from leaf
+123800009	Goldblatt hypertension (disorder)	y	descendant of concept mapped from leaf
+49220004	Hypertensive renal failure (disorder)	y	descendant of concept mapped from leaf
+81626002	Malignant hypertension in obstetric context (disorder)	y	descendant of concept mapped from leaf
+199003007	Pre-eclampsia or eclampsia with pre-existing hypertension with postnatal complication (disorder)	y	descendant of concept mapped from leaf
+712832005	Supine hypertension (disorder)	y	descendant of concept mapped from leaf
+284961000119106	Chronic kidney disease due to benign hypertension (disorder)	y	descendant of concept mapped from leaf
+698638005	Pregnancy induced hypertension with pulmonary edema (disorder)	y	descendant of concept mapped from leaf
+762463000	Diastolic hypertension co-occurrent with systolic hypertension (disorder)	y	descendant of concept mapped from leaf
+198953006	"Renal hypertension complicating pregnancy, childbirth and the puerperium - not delivered (disorder)"	y	descendant of concept mapped from leaf
+709881001	History of gestational hypertension (situation)	y	descendant of concept mapped from leaf
+5501000119106	Postoperative hypertension (disorder)	y	descendant of concept mapped from leaf
+712487000	End stage renal disease due to benign hypertension (disorder)	y	descendant of concept mapped from leaf
+96751000119106	Hypertensive heart AND chronic kidney disease stage 1 (disorder)	y	descendant of concept mapped from leaf
+134377004	Atrial fibrillation monitoring (regime/therapy)	y	descendant of concept mapped from leaf
+74451002	Secondary diastolic hypertension (disorder)	y	descendant of concept mapped from leaf
+697930002	Labile hypertension due to being in a clinical environment (disorder)	y	descendant of concept mapped from leaf
+237279007	Transient hypertension of pregnancy (disorder)	y	descendant of concept mapped from leaf
+77970009	Benign hypertensive heart disease without congestive heart failure (disorder)	y	descendant of concept mapped from leaf
+286371000119107	Malignant hypertensive end stage renal disease on dialysis (disorder)	y	descendant of concept mapped from leaf
+170571002	Initial cardiac assessment (regime/therapy)	y	descendant of concept mapped from leaf
+703310005	Autosomal dominant progressive nephropathy with hypertension (disorder)	y	descendant of concept mapped from leaf
+134378009	Congestive heart failure monitoring (regime/therapy)	y	descendant of concept mapped from leaf
+198967002	Transient hypertension of pregnancy - not delivered (disorder)	y	descendant of concept mapped from leaf
+26078007	Hypertension secondary to renal disease complicating AND/OR reason for care during childbirth (disorder)	y	descendant of concept mapped from leaf
+417206009	Cardiovascular disease monitoring (regime/therapy)	y	descendant of concept mapped from leaf
+104931000119100	Chronic kidney disease due to hypertension (disorder)	y	descendant of concept mapped from leaf
+59720008	Sustained diastolic hypertension (disorder)	y	descendant of concept mapped from leaf
+199000005	Pre-eclampsia or eclampsia with pre-existing hypertension - delivered with postnatal complication (disorder)	y	descendant of concept mapped from leaf
+765182005	Pre-eclampsia in puerperium (disorder)	y	descendant of concept mapped from leaf
+10562009	Malignant hypertension complicating AND/OR reason for care during childbirth (disorder)	y	descendant of concept mapped from leaf
+39727004	Hypertension secondary to renal disease complicating AND/OR reason for care during puerperium (disorder)	y	descendant of concept mapped from leaf
+140121000119100	Hypertension in chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)	y	descendant of concept mapped from leaf
+198965005	Transient hypertension of pregnancy - delivered (disorder)	y	descendant of concept mapped from leaf
+15781000119107	Hypertensive heart AND chronic kidney disease with congestive heart failure (disorder)	y	descendant of concept mapped from leaf
+67359005	Pre-eclampsia added to pre-existing hypertension (disorder)	y	descendant of concept mapped from leaf
+715280009	Telehealth hypertension monitoring (regime/therapy)	y	descendant of concept mapped from leaf
+59997006	Endocrine hypertension (disorder)	y	descendant of concept mapped from leaf
+473392002	Hypertensive nephrosclerosis (disorder)	y	descendant of concept mapped from leaf
+31881008	Cardiovascular renal disease (disorder)	y	descendant of concept mapped from leaf
+284991000119104	Chronic kidney disease stage 3 due to benign hypertension (disorder)	y	descendant of concept mapped from leaf
+198986005	Severe pre-eclampsia with postnatal complication (disorder)	y	descendant of concept mapped from leaf
+199002002	Pre-eclampsia or eclampsia with pre-existing hypertension - not delivered (disorder)	y	descendant of concept mapped from leaf
+307632004	Non-proteinuric hypertension of pregnancy (disorder)	y	descendant of concept mapped from leaf
+18416000	Essential hypertension complicating AND/OR reason for care during childbirth (disorder)	y	descendant of concept mapped from leaf
+16229371000119100	Labile systemic arterial hypertension (disorder)	y	descendant of concept mapped from leaf
+198942000	"Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)"	y	descendant of concept mapped from leaf
+10752641000119100	Eclampsia with pre-existing hypertension in childbirth (disorder)	y	descendant of concept mapped from leaf
+140101000119109	Hypertension in chronic kidney disease stage 5 due to type 2 diabetes mellitus (disorder)	y	descendant of concept mapped from leaf
+161807003	History of severe pre-eclampsia (situation)	y	descendant of concept mapped from leaf
+52698002	Transient hypertension (disorder)	y	descendant of concept mapped from leaf
+82771000119102	Hypertension complicating pregnancy (disorder)	y	descendant of concept mapped from leaf
+288250001	Maternal hypertension (disorder)	y	descendant of concept mapped from leaf
+8762007	Chronic hypertension in obstetric context (disorder)	y	descendant of concept mapped from leaf
+19769006	High-renin essential hypertension (disorder)	y	descendant of concept mapped from leaf
+118781000119108	Pre-existing hypertensive chronic kidney disease in mother complicating pregnancy (disorder)	y	descendant of concept mapped from leaf
+24042004	Chronic hypertension complicating AND/OR reason for care during puerperium (disorder)	y	descendant of concept mapped from leaf
+429198000	Exertional hypertension (disorder)	y	descendant of concept mapped from leaf
+284981000119102	Chronic kidney disease stage 2 due to benign hypertension (disorder)	y	descendant of concept mapped from leaf
+398254007	Pre-eclampsia (disorder)	y	descendant of concept mapped from leaf
+40511000119107	Postpartum pre-existing essential hypertension (disorder)	y	descendant of concept mapped from leaf
+48552006	Hypertension secondary to renal disease complicating AND/OR reason for care during pregnancy (disorder)	y	descendant of concept mapped from leaf
+198984008	Severe pre-eclampsia - delivered with postnatal complication (disorder)	y	descendant of concept mapped from leaf
+10725009	Benign hypertension (disorder)	y	descendant of concept mapped from leaf
+111438007	Hypertension secondary to renal disease in obstetric context (disorder)	y	descendant of concept mapped from leaf
+285011000119108	Chronic kidney disease stage 5 due to benign hypertension (disorder)	y	descendant of concept mapped from leaf
+198944004	"Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)"	y	descendant of concept mapped from leaf
+132721000119104	Hypertensive emergency (disorder)	y	descendant of concept mapped from leaf
+720568003	Brachydactyly and arterial hypertension syndrome (disorder)	y	descendant of concept mapped from leaf
+117681000119102	Chronic kidney disease stage 1 due to hypertension (disorder)	y	descendant of concept mapped from leaf
+65402008	Pre-existing hypertension complicating AND/OR reason for care during pregnancy (disorder)	y	descendant of concept mapped from leaf
+96711000119105	Hypertensive heart AND chronic kidney disease stage 5 (disorder)	y	descendant of concept mapped from leaf
+57684003	Parenchymal renal hypertension (disorder)	y	descendant of concept mapped from leaf
+23130000	Paroxysmal hypertension (disorder)	y	descendant of concept mapped from leaf
+28119000	Renal hypertension (disorder)	y	descendant of concept mapped from leaf
+541000119105	"Hypertension complicating pregnancy, childbirth and the puerperium, antepartum (disorder)"	y	descendant of concept mapped from leaf
+285001000119105	Chronic kidney disease stage 4 due to benign hypertension (disorder)	y	descendant of concept mapped from leaf
+46764007	Severe pre-eclampsia (disorder)	y	descendant of concept mapped from leaf
+16147005	Arteriolar nephritis (disorder)	y	descendant of concept mapped from leaf
+367390009	Hypertension in the obstetric context (disorder)	y	descendant of concept mapped from leaf
+698591006	Benign hypertensive renal disease with renal failure (disorder)	y	descendant of concept mapped from leaf
+170601008	Coronary heart disease monitoring (regime/therapy)	y	descendant of concept mapped from leaf
+198985009	Severe pre-eclampsia - not delivered (disorder)	y	descendant of concept mapped from leaf
+9901000	Essential hypertension complicating AND/OR reason for care during puerperium (disorder)	y	descendant of concept mapped from leaf
+8218002	Chronic hypertension complicating AND/OR reason for care during childbirth (disorder)	y	descendant of concept mapped from leaf
+417322008	Cardiovascular disease annual review (regime/therapy)	y	descendant of concept mapped from leaf
+492611000000102	Cardiovascular disease high risk review (regime/therapy)	y	descendant of concept mapped from leaf
+49102001	Hypertensive heart AND renal disease in obstetric context (disorder)	y	descendant of concept mapped from leaf
+78808002	Essential hypertension complicating AND/OR reason for care during pregnancy (disorder)	y	descendant of concept mapped from leaf
+706882009	Hypertensive crisis (disorder)	y	descendant of concept mapped from leaf
+140131000119102	Hypertension in chronic kidney disease stage 2 due to type 2 diabetes mellitus (disorder)	y	descendant of concept mapped from leaf
+96701000119107	Hypertensive heart AND chronic kidney disease on dialysis (disorder)	y	descendant of concept mapped from leaf
+153851000119106	Malignant hypertensive chronic kidney disease stage 5 (disorder)	y	descendant of concept mapped from leaf
+284971000119100	Chronic kidney disease stage 1 due to benign hypertension (disorder)	y	descendant of concept mapped from leaf
+41114007	Mild pre-eclampsia (disorder)	y	descendant of concept mapped from leaf
+8501000119104	Hypertensive heart and chronic kidney disease (disorder)	y	descendant of concept mapped from leaf
+14973001	Renal sclerosis with hypertension (disorder)	y	descendant of concept mapped from leaf
+170572009	Follow-up cardiac assessment (regime/therapy)	y	descendant of concept mapped from leaf
+198945003	"Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered with postnatal complication (disorder)"	y	descendant of concept mapped from leaf
+845331000000109	Amiodarone monitoring (regime/therapy)	y	descendant of concept mapped from leaf
+285881000119109	Malignant hypertensive chronic kidney disease stage 4 (disorder)	y	descendant of concept mapped from leaf
+129181000119109	Chronic kidney disease stage 2 due to hypertension (disorder)	y	descendant of concept mapped from leaf
+198983002	Severe pre-eclampsia - delivered (disorder)	y	descendant of concept mapped from leaf
+129161000119100	Chronic kidney disease stage 5 due to hypertension (disorder)	y	descendant of concept mapped from leaf
+247361000000100	Heart failure 6 month review (regime/therapy)	y	descendant of concept mapped from leaf
+206596003	Neonatal hypertension (disorder)	y	descendant of concept mapped from leaf
+198999008	Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)	y	descendant of concept mapped from leaf
+169465000	Hypertension caused by oral contraceptive pill (disorder)	y	descendant of concept mapped from leaf
+128001000119105	Hypertension concurrent and due to end stage renal disease on dialysis due to type 1 diabetes mellitus (disorder)	y	descendant of concept mapped from leaf
+63287004	Benign essential hypertension in obstetric context (disorder)	y	descendant of concept mapped from leaf
+10757481000119100	Pre-existing hypertensive heart and chronic kidney disease in mother complicating pregnancy (disorder)	y	descendant of concept mapped from leaf
+198947006	"Benign essential hypertension complicating pregnancy, childbirth and the puerperium with postnatal complication (disorder)"	y	descendant of concept mapped from leaf
+367821000119106	Hypertension due to compression of renal parenchyma (disorder)	y	descendant of concept mapped from leaf
+237282002	Impending eclampsia (disorder)	y	descendant of concept mapped from leaf
+198968007	Transient hypertension of pregnancy with postnatal complication (disorder)	y	descendant of concept mapped from leaf
+95605009	Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)	y	descendant of concept mapped from leaf
+170574005	Yearly observation of borderline hypertension (regime/therapy)	y	descendant of concept mapped from leaf
+49171007	Hypertensive renal disease complicating AND/OR reason for care during childbirth (disorder)	y	descendant of concept mapped from leaf
+46481004	Low-renin essential hypertension (disorder)	y	descendant of concept mapped from leaf
+170573004	Pre-treatment blood pressure reading (regime/therapy)	y	descendant of concept mapped from leaf
+57873008	Hypertensive renal disease complicating AND/OR reason for care during puerperium (disorder)	y	descendant of concept mapped from leaf
+707265005	Aortic aneurysm monitoring (regime/therapy)	y	descendant of concept mapped from leaf
+198952001	"Renal hypertension complicating pregnancy, childbirth and the puerperium - delivered with postnatal complication (disorder)"	y	descendant of concept mapped from leaf
+72022006	Essential hypertension in obstetric context (disorder)	y	descendant of concept mapped from leaf
+429457004	Systolic essential hypertension (disorder)	y	descendant of concept mapped from leaf
+84094009	Rebound hypertension (disorder)	y	descendant of concept mapped from leaf
+65518004	Labile diastolic hypertension (disorder)	y	descendant of concept mapped from leaf
+198941007	"Hypertension complicating pregnancy, childbirth and the puerperium (disorder)"	y	descendant of concept mapped from leaf
+10757401000119100	Pre-existing hypertensive heart and chronic kidney disease in mother complicating childbirth (disorder)	y	descendant of concept mapped from leaf
+194791005	Hypertension caused by drug (disorder)	y	descendant of concept mapped from leaf
+443482000	Hypertensive urgency (disorder)	y	descendant of concept mapped from leaf
+96721000119103	Hypertensive heart AND chronic kidney disease stage 4 (disorder)	y	descendant of concept mapped from leaf
+427889009	Hypertension associated with transplantation (disorder)	y	descendant of concept mapped from leaf
+78544004	Chronic hypertensive uremia (disorder)	y	descendant of concept mapped from leaf
+73030000	Hypertensive renal disease in obstetric context (disorder)	y	descendant of concept mapped from leaf
+81363003	Malignant arteriolar nephrosclerosis (disorder)	y	descendant of concept mapped from leaf
+66709007	Hypertensive renal disease complicating AND/OR reason for care during pregnancy (disorder)	y	descendant of concept mapped from leaf
+417287002	Cardiovascular disease interim monitoring (regime/therapy)	y	descendant of concept mapped from leaf
+69909000	Eclampsia added to pre-existing hypertension (disorder)	y	descendant of concept mapped from leaf
+285841000119104	Malignant hypertensive end stage renal disease (disorder)	y	descendant of concept mapped from leaf
+395148004	Cardiac event recording (regime/therapy)	y	descendant of concept mapped from leaf
+285871000119106	Malignant hypertensive chronic kidney disease stage 3 (disorder)	y	descendant of concept mapped from leaf
+871681000000102	Heart failure monitoring (regime/therapy)	y	descendant of concept mapped from leaf
+111411000119103	End stage renal disease due to hypertension (disorder)	y	descendant of concept mapped from leaf
+35303009	Benign essential hypertension complicating AND/OR reason for care during puerperium (disorder)	y	descendant of concept mapped from leaf
+127991000119101	Hypertension concurrent and due to end stage renal disease on dialysis due to type 2 diabetes mellitus (disorder)	y	descendant of concept mapped from leaf
+285861000119100	Malignant hypertensive chronic kidney disease stage 2 (disorder)	y	descendant of concept mapped from leaf
+71421000119105	Hypertension in chronic kidney disease due to type 2 diabetes mellitus (disorder)	y	descendant of concept mapped from leaf
+704667004	Hypertension concurrent and due to end stage renal disease on dialysis (disorder)	y	descendant of concept mapped from leaf
+71701000119105	Hypertension in chronic kidney disease due to type 1 diabetes mellitus (disorder)	y	descendant of concept mapped from leaf
+285851000119102	Malignant hypertensive chronic kidney disease stage 1 (disorder)	y	descendant of concept mapped from leaf
+170591009	Digoxin monitoring (regime/therapy)	y	descendant of concept mapped from leaf
+397748008	Hypertension with albuminuria (disorder)	y	descendant of concept mapped from leaf
+22966008	Hypertensive heart AND renal disease complicating AND/OR reason for care during pregnancy (disorder)	y	descendant of concept mapped from leaf
+15394000	Toxemia of pregnancy (disorder)	y	descendant of concept mapped from leaf
+237281009	Moderate proteinuric hypertension of pregnancy (disorder)	y	descendant of concept mapped from leaf
+198946002	"Benign essential hypertension complicating pregnancy, childbirth and the puerperium - not delivered (disorder)"	y	descendant of concept mapped from leaf
+170590005	Cardiac drug monitoring (regime/therapy)	y	descendant of concept mapped from leaf
+766937004	Hypertension due to gain-of-function mutation in mineralocorticoid receptor (disorder)	y	descendant of concept mapped from leaf
+129171000119106	Chronic kidney disease stage 3 due to hypertension (disorder)	y	descendant of concept mapped from leaf
+221281000000109	High cost hypertension drug therapy NOS - OPCS Classification of Interventions and Procedures (procedure)	n	via Query Table
+843851000000107	Severe hypertension 	n	via Query Table
+692801000000103	"Benign essential hypertension complicating pregnancy, childbirth and the puerperium NOS (disorder)"	n	via Query Table
+272821000000100	Primary pulmonary hypertension drugs band 4 	n	via Query Table
+221291000000106	Other specified high cost hypertension drug therapy - OPCS Classification of Interventions and Procedures (procedure)	n	via Query Table
+492621000000108	At risk of cardiovascular disease review 	n	via Query Table
+253041000000107	Heart failure 6 month review 	n	via Query Table
+1051531000000100	"History of haemolysis, elevated liver enzymes, low platelet count syndrome (situation)"	n	via Query Table
+635071000000100	Mild or unspecified pre-eclampsia - delivered (disorder)	n	via Query Table
+478861000000109	"[X]Edema, proteinuria and hypertensive disorders in pregnancy, childbirth and the puerperium (disorder)"	n	via Query Table
+587111000000100	Pre-eclampsia or eclampsia with pre-existing hypertension unspecified (disorder)	n	via Query Table
+247111000000104	Diastolic hypertension (disorder)	n	via Query Table
+648001000000103	Mild or unspecified pre-eclampsia NOS (disorder)	n	via Query Table
+599281000000106	Hypertensive heart and renal disease NOS (disorder)	n	via Query Table
+684221000000101	Hypertensive heart disease NOS without congestive cardiac failure (disorder)	n	via Query Table
+892411000000107	Pulmonary arterial hypertension drugs Band 1 	n	via Query Table
+802941000000103	Aortic aneurysm monitoring (regime/therapy)	n	via Query Table
+1076211000000100	Arteriosclerotic retinopathy (disorder)	n	via Query Table
+845341000000100	Amiodarone monitoring 	n	via Query Table
+695711000000100	Transient hypertension of pregnancy NOS (disorder)	n	via Query Table
+672551000000109	Mild or unspecified pre-eclampsia (disorder)	n	via Query Table
+419571000000103	[X]Hypertension secondary to other renal disorders (disorder)	n	via Query Table
+471521000000108	[X]Hypertensive diseases (disorder)	n	via Query Table
+606221000000105	"Other pre-existing hypertension complicating pregnancy, childbirth and the puerperium unspecified (disorder)"	n	via Query Table
+272841000000107	High cost hypertension drugs NOS 	n	via Query Table
+586581000000102	Secondary benign hypertension NOS (disorder)	n	via Query Table
+599321000000103	Other specified hypertensive disease (disorder)	n	via Query Table
+272801000000109	Primary pulmonary hypertension drugs band 2 	n	via Query Table
+703671000000107	Pre-eclampsia NOS (disorder)	n	via Query Table
+492631000000105	At risk of cardiovascular disease review 	n	via Query Table
+414391000000105	[X]Other secondary hypertension (disorder)	n	via Query Table
+276789009	Labile hypertension (disorder)	n	via Query Table
+695701000000102	Transient hypertension of pregnancy unspecified (disorder)	n	via Query Table
+191241000000108	Cardiovascular disease annual review	n	via Query Table
+565761000000106	Cardiac disease monitoring NOS (regime/therapy)	n	via Query Table
+599261000000102	Hypertensive heart disease NOS (disorder)	n	via Query Table
+846381000000101	Stage 2 hypertension (NICE - National Institute for Health and Clinical Excellence 2011) 	n	via Query Table
+892431000000104	Pulmonary arterial hypertension drugs Band 2 	n	via Query Table
+587121000000106	Pre-eclampsia or eclampsia with pre-existing hypertension NOS (disorder)	n	via Query Table
+599341000000105	Hypertensive disease NOS (disorder)	n	via Query Table
+11721000000102	Hypertension clinic admin. (administrative concept)	n	via Query Table
+684211000000107	Essential hypertension NOS (disorder)	n	via Query Table
+713651000000100	Hypertension monitoring administration NOS (record artifact)	n	via Query Table
+187811000000103	Cardiovascular disease interim monitoring	n	via Query Table
+194766005	Benign hypertensive heart disease without congestive cardiac failure (disorder)	n	via Query Table
+187801000000100	Cardiovascular disease annual review	n	via Query Table
+77737007	Benign hypertensive heart disease with congestive heart failure (disorder)	n	via Query Table
+645721000000102	Benign hypertensive heart disease NOS (disorder)	n	via Query Table
+948151000000100	Telehealth hypertension monitoring (regime/therapy)	n	via Query Table
+272781000000108	High cost hypertension drugs 	n	via Query Table
+766221000000103	Hypertension 9 month review 	n	via Query Table
+599291000000108	Secondary malignant hypertension NOS (disorder)	n	via Query Table
+674201000000103	Hypertension of pregnancy NOS (disorder)	n	via Query Table
+832151000000107	Hypertension self-management plan review	n	via Query Table
+292601000000100	Diastolic hypertension	n	via Query Table
+609021000000109	"Other pre-existing hypertension complicating pregnancy, childbirth and the puerperium - delivered with postnatal complication (disorder)"	n	via Query Table
+635061000000107	Mild or unspecified pre-eclampsia unspecified (disorder)	n	via Query Table
+635101000000109	Severe pre-eclampsia unspecified (disorder)	n	via Query Table
+250411000000105	Heart failure 6 month review 	n	via Query Table
+191231000000104	Cardiovascular disease monitoring	n	via Query Table
+412779008	Hypertension clinical management plan (qualifier value)	n	via Query Table
+167031000000101	Hypertension resolved	n	via Query Table
+883971000000102	History of pre-eclampsia (situation)	n	via Query Table
+609011000000103	"Other pre-existing hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)"	n	via Query Table
+250591000000100	Atrial fibrillation annual review 	n	via Query Table
+845901000000102	Hypertension resistant to drug therapy 	n	via Query Table
+802951000000100	Aortic aneurysm monitoring 	n	via Query Table
+908661000000103	Stage 1 hypertension (NICE - National Institute for Health and Clinical Excellence 2011) with evidence of end organ damage 	n	via Query Table
+892451000000106	Pulmonary arterial hypertension drugs Band 3 	n	via Query Table
+948161000000102	Telehealth hypertension monitoring 	n	via Query Table
+843831000000100	Stage 1 hypertension 	n	via Query Table
+599311000000109	Secondary renovascular hypertension NOS (disorder)	n	via Query Table
+272811000000106	Primary pulmonary hypertension drugs band 3 	n	via Query Table
+892471000000102	Pulmonary arterial hypertension drugs Band 4 	n	via Query Table
+40555009	Toxemia (disorder)	n	via Query Table
+187791000000104	Cardiovascular disease monitoring	n	via Query Table
+308551004	Gestational hypertension (disorder)	n	via Query Table
+647991000000107	Mild or unspecified pre-eclampsia with postnatal complication (disorder)	n	via Query Table
+698810000	Hypertensive renal disease with end stage renal failure (disorder)	n	via Query Table
+883981000000100	H/O: pre-eclampsia 	n	via Query Table
+606231000000107	"Other pre-existing hypertension complicating pregnancy, childbirth and the puerperium - not delivered (disorder)"	n	via Query Table
+627791000000106	"Other pre-existing hypertension complicating pregnancy, childbirth and the puerperium with postnatal complication (disorder)"	n	via Query Table
+3331000000104	Hypertension monitoring admin. (administrative concept)	n	via Query Table
+171791000000104	Hypertension resolved	n	via Query Table
+608991000000100	"Renal hypertension complicating pregnancy, childbirth and the puerperium unspecified (disorder)"	n	via Query Table
+627801000000105	"Other pre-existing hypertension complicating pregnancy, childbirth and the puerperium NOS (disorder)"	n	via Query Table
+662181000000100	Hypertensive renal disease NOS (disorder)	n	via Query Table
+635081000000103	Mild or unspecified pre-eclampsia - delivered with postnatal complication (disorder)	n	via Query Table
+908641000000104	Stage 1 hypertension (NICE - National Institute for Health and Clinical Excellence 2011) without evidence of end organ damage 	n	via Query Table
+272791000000105	Primary pulmonary hypertension drugs band 1 	n	via Query Table
+599271000000109	Hypertensive heart disease NOS with congestive cardiac failure (disorder)	n	via Query Table
+606201000000101	"Renal hypertension complicating pregnancy, childbirth and the puerperium NOS (disorder)"	n	via Query Table
+565741000000105	Cardiac drug monitoring NOS (regime/therapy)	n	via Query Table
+253221000000105	Atrial fibrillation annual review 	n	via Query Table
+11511004	Hypertensive heart AND renal disease complicating AND/OR reason for care during puerperium (disorder)	n	via Query Table
+635091000000101	Mild or unspecified pre-eclampsia - not delivered (disorder)	n	via Query Table
+544581000000102	Toxemia NOS (disorder)	n	via Query Table
+606211000000104	"Other pre-existing hypertension complicating pregnancy, childbirth and the puerperium (disorder)"	n	via Query Table
+194774006	Hypertensive renal disease with renal failure (disorder)	n	via Query Table
+191251000000106	Cardiovascular disease interim monitoring	n	via Query Table
+692791000000102	"Benign essential hypertension complicating pregnancy, childbirth and the puerperium unspecified (disorder)"	n	via Query Table

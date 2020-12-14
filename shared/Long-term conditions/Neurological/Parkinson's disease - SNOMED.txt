@@ -1,0 +1,32 @@
+id	name	active	notes
+907000000000000	Seen by Parkinson's disease service (finding)	y	direct mapping
+425390006	Dementia associated with Parkinson's Disease (disorder)	y	direct mapping
+230291001	Juvenile Parkinson's disease (disorder)	y	direct mapping
+342000000000000	Cerebral degeneration in Parkinson's disease (disorder)	y	direct mapping
+516000000000000	History of Parkinson's disease (situation)	y	direct mapping
+845000000000000	Lindop Parkinson's assessment scale (assessment scale)	y	direct mapping
+924000000000000	Referral to community Parkinson's disease clinical nurse specialist (procedure)	y	direct mapping
+49049000	Parkinson's disease (disorder)	y	direct mapping
+879000000000000	Referral to community Parkinson's service (procedure)	y	direct mapping
+862000000000000	Referral to Parkinson's service (procedure)	y	direct mapping
+444197004	"Multiple system atrophy, Parkinson variant (disorder)"	y	direct mapping
+716107009	Early onset parkinsonism and intellectual disability syndrome (disorder)	y	descendant of concept mapped from leaf
+716662004	Autosomal dominant late onset Parkinson disease (disorder)	y	descendant of concept mapped from leaf
+718685006	Orthostatic hypotension co-occurrent and due to Parkinson's disease (disorder)	y	descendant of concept mapped from leaf
+101000000000000	Dementia due to Parkinson's disease (disorder)	y	descendant of concept mapped from leaf
+725146001	Atypical juvenile parkinsonism (disorder)	y	descendant of concept mapped from leaf
+724761004	Sporadic Parkinson disease (disorder)	y	descendant of concept mapped from leaf
+715345007	Young onset Parkinson disease (disorder)	y	descendant of concept mapped from leaf
+924000000000000	Referral to community Parkinson's disease clinical nurse specialist 	n	via Query Table
+879000000000000	Referral to community Parkinson's service 	n	via Query Table
+907000000000000	Seen by Parkinson's service 	n	via Query Table
+1030000000000000	"Multiple system atrophy, Parkinson variant (disorder)"	n	via Query Table
+478000000000000	[X]Parkinsonism in diseases classified elsewhere (disorder)	n	via Query Table
+479000000000000	[X]Dementia in Parkinson's disease (disorder)	n	via Query Table
+862000000000000	Referral to Parkinson's service 	n	via Query Table
+1030000000000000	"Multiple system atrophy, Parkinson variant "	n	via Query Table
+192177005	[X]Dementia in Parkinson's disease (disorder)	n	via Query Table
+757000000000000	History of Parkinson's disease	n	via Query Table
+369000000000000	Cerebral degeneration in Parkinson's disease 	n	via Query Table
+845000000000000	Lindop Parkinson's assessment scale 	n	via Query Table
+192835007	Parkinsonism with orthostatic hypotension (disorder)	n	via Query Table

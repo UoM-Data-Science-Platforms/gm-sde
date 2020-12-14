@@ -1,0 +1,321 @@
+id	name	active	notes
+708038006	Acute exacerbation of asthma (disorder)	y	direct mapping
+370221004	Severe asthma (disorder)	y	direct mapping
+185728001	Attends asthma monitoring (finding)	y	direct mapping
+708373002	Emergency asthma patient visit since last encounter (situation)	y	direct mapping
+185734008	Asthma monitoring call third letter (procedure)	y	direct mapping
+772051000000106	Asthma limits activities most days (finding)	y	direct mapping
+93432008	Drug-induced asthma (disorder)	y	direct mapping
+1086701000000100	Life threatening acute exacerbation of allergic asthma (disorder)	y	direct mapping
+390798007	Asthma finding (finding)	y	direct mapping
+370218001	Mild asthma (disorder)	y	direct mapping
+185737001	Asthma monitoring deleted (finding)	y	direct mapping
+63088003	Extrinsic asthma without status asthmaticus (disorder)	y	direct mapping
+161527007	History of asthma (situation)	y	direct mapping
+443450003	Asthma control test (assessment scale)	y	direct mapping
+708090002	Acute severe exacerbation of asthma (disorder)	y	direct mapping
+401182001	Asthma monitoring by nurse (regime/therapy)	y	direct mapping
+708093000	Acute exacerbation of immunoglobulin E-mediated allergic asthma (disorder)	y	direct mapping
+959421000000105	Asthma monitoring short message service text message second invitation (procedure)	y	direct mapping
+390940007	Asthma monitoring due (finding)	y	direct mapping
+201051000000101	Asthma trigger - animal (finding)	y	direct mapping
+201211000000107	Asthma trigger - emotion (finding)	y	direct mapping
+405720007	Allergic bronchitis (disorder)	y	direct mapping
+201031000000108	Asthma trigger - respiratory infection (finding)	y	direct mapping
+201191000000108	Asthma trigger - cold air (finding)	y	direct mapping
+170638008	Asthma not limiting activities (finding)	y	direct mapping
+340911000000109	Asthma trigger - pollen (finding)	y	direct mapping
+698509001	Under care of asthma specialist nurse (finding)	y	direct mapping
+170657004	Asthma severely restricts exercise (finding)	y	direct mapping
+366874008	Number of asthma exacerbations in past year (observable entity)	y	direct mapping
+818161000000104	Asthma trigger - perfume (finding)	y	direct mapping
+195977004	Mixed asthma (disorder)	y	direct mapping
+275908000	Asthma monitoring (regime/therapy)	y	direct mapping
+734905008	Moderate acute exacerbation of asthma (disorder)	y	direct mapping
+928511000000107	Asthma monitoring invitation email (procedure)	y	direct mapping
+370202007	Asthma causes daytime symptoms 1 to 2 times per month (finding)	y	direct mapping
+390872009	Change in asthma management plan (regime/therapy)	y	direct mapping
+182724005	Further asthma - drug prevention (regime/therapy)	y	direct mapping
+170658009	Asthma never restricts exercise (finding)	y	direct mapping
+34015007	Bakers' asthma (disorder)	y	direct mapping
+170632009	Asthma causing night waking (finding)	y	direct mapping
+10692761000119100	Asthma-chronic obstructive pulmonary disease overlap syndrome (disorder)	y	direct mapping
+183478001	Emergency hospital admission for asthma (procedure)	y	direct mapping
+170656008	Asthma sometimes restricts exercise (finding)	y	direct mapping
+400987003	Asthma trigger (observable entity)	y	direct mapping
+340921000000103	Asthma trigger - tobacco smoke (finding)	y	direct mapping
+711442001	Recent asthma management (situation)	y	direct mapping
+185731000	Asthma monitoring call first letter (procedure)	y	direct mapping
+57607007	Occupational asthma (disorder)	y	direct mapping
+401135008	Asthma education (procedure)	y	direct mapping
+445074007	Mini asthma quality of life questionnaire (assessment scale)	y	direct mapping
+170642006	Asthma severity (regime/therapy)	y	direct mapping
+771941000000102	Asthma causes symptoms most nights (finding)	y	direct mapping
+370225008	Asthma treatment compliance unsatisfactory (finding)	y	direct mapping
+281239006	Exacerbation of asthma (disorder)	y	direct mapping
+370203002	Asthma causes daytime symptoms 1 to 2 times per week (finding)	y	direct mapping
+233679003	Late onset asthma (disorder)	y	direct mapping
+445531003	Asthma control questionnaire (assessment scale)	y	direct mapping
+185732007	Asthma monitoring call second letter (procedure)	y	direct mapping
+182728008	Asthma control step 2 (procedure)	y	direct mapping
+170631002	Asthma disturbing sleep (finding)	y	direct mapping
+233688007	Sulfite-induced asthma (disorder)	y	direct mapping
+195967001	Asthma (disorder)	y	direct mapping
+233687002	Colophony asthma (disorder)	y	direct mapping
+308501009	Asthma monitoring status (finding)	y	direct mapping
+182727003	Asthma control step 1 (procedure)	y	direct mapping
+170636007	Asthma never disturbs sleep (finding)	y	direct mapping
+734904007	Life threatening acute exacerbation of asthma (disorder)	y	direct mapping
+270442000	Asthma monitoring check done (finding)	y	direct mapping
+225057002	Brittle asthma (disorder)	y	direct mapping
+810901000000102	Asthma self-management plan review (procedure)	y	direct mapping
+867171000000106	No asthma trigger identified by subject (finding)	y	direct mapping
+699191007	Did not attend asthma review (finding)	y	direct mapping
+928451000000107	Asthma monitoring invitation short message service text message (procedure)	y	direct mapping
+423889005	Non-immunoglobulin E mediated allergic asthma (disorder)	y	direct mapping
+527211000000100	Health education - structured asthma discussion (procedure)	y	direct mapping
+185735009	Asthma monitoring call verbal invite (procedure)	y	direct mapping
+407674008	Aspirin-induced asthma (disorder)	y	direct mapping
+170635006	Asthma not disturbing sleep (finding)	y	direct mapping
+736056000	Asthma clinical management plan (record artifact)	y	direct mapping
+170647000	Asthma prophylactic medication used (situation)	y	direct mapping
+340901000000107	Asthma trigger - exercise (finding)	y	direct mapping
+390921001	Absent from work or school due to asthma (finding)	y	direct mapping
+527171000000103	Patient has a written asthma personal action plan (finding)	y	direct mapping
+527191000000104	Health education - asthma self management (procedure)	y	direct mapping
+233678006	Childhood asthma (disorder)	y	direct mapping
+170634005	Asthma disturbs sleep frequently (finding)	y	direct mapping
+233683003	Hay fever with asthma (disorder)	y	direct mapping
+170637003	Asthma limiting activities (finding)	y	direct mapping
+811921000000103	Asthma self-management plan agreed (finding)	y	direct mapping
+182731009	Asthma control step 5 (procedure)	y	direct mapping
+395022009	Asthma night-time symptoms (finding)	y	direct mapping
+170633004	Asthma disturbs sleep weekly (finding)	y	direct mapping
+394700004	Asthma annual review (regime/therapy)	y	direct mapping
+754061000000100	Asthma review using Royal College of Physicians three questions (regime/therapy)	y	direct mapping
+182726007	Asthma control step 0 (procedure)	y	direct mapping
+405944004	Asthmatic bronchitis (disorder)	y	direct mapping
+394720003	Asthma medication review (procedure)	y	direct mapping
+182729000	Asthma control step 3 (procedure)	y	direct mapping
+708358003	Emergency asthma admission since last encounter (situation)	y	direct mapping
+170655007	Asthma restricts exercise (finding)	y	direct mapping
+406162001	Asthma management (regime/therapy)	y	direct mapping
+370208006	Asthma never causes daytime symptoms (finding)	y	direct mapping
+182730005	Asthma control step 4 (procedure)	y	direct mapping
+302331000000106	Royal College of Physicians asthma assessment (assessment scale)	y	direct mapping
+312453004	Asthma - currently active (finding)	y	direct mapping
+370204008	Asthma causes daytime symptoms most days (finding)	y	direct mapping
+266361008	Non-allergic asthma (disorder)	y	direct mapping
+401183006	Asthma monitoring by doctor (regime/therapy)	y	direct mapping
+771981000000105	Asthma limits activities 1 to 2 times per month (finding)	y	direct mapping
+708094006	Acute exacerbation of intrinsic asthma (disorder)	y	direct mapping
+715191006	Telehealth asthma monitoring (regime/therapy)	y	direct mapping
+734346005	Asthma monitoring using asthma symptom diary (regime/therapy)	y	direct mapping
+370207001	Asthma limits walking up hills or stairs (finding)	y	direct mapping
+527231000000108	Health education - structured patient focused asthma discussion (procedure)	y	direct mapping
+959401000000101	Asthma monitoring short message service text message first invitation (procedure)	y	direct mapping
+394701000	Asthma follow-up (regime/therapy)	y	direct mapping
+1086711000000100	Life threatening acute exacerbation of intrinsic asthma (disorder)	y	direct mapping
+390878008	Step down change in asthma management plan (regime/therapy)	y	direct mapping
+473391009	Asthma never causes night symptoms (situation)	y	direct mapping
+959441000000103	Asthma monitoring short message service text message third invitation (procedure)	y	direct mapping
+12428000	Intrinsic asthma without status asthmaticus (disorder)	y	direct mapping
+312454005	Asthma - currently dormant (finding)	y	direct mapping
+233691007	Asthmatic pulmonary eosinophilia (disorder)	y	direct mapping
+11641008	Millers' asthma (disorder)	y	direct mapping
+389145006	Allergic asthma (disorder)	y	direct mapping
+185736005	Asthma monitoring call telephone invite (procedure)	y	direct mapping
+340931000000101	Asthma trigger - warm air (finding)	y	direct mapping
+370226009	Asthma treatment compliance satisfactory (finding)	y	direct mapping
+340891000000106	Asthma trigger - airborne dust (finding)	y	direct mapping
+41553006	Detergent asthma (disorder)	y	direct mapping
+370219009	Moderate asthma (disorder)	y	direct mapping
+966011000000109	At risk of severe asthma exacerbation (finding)	y	direct mapping
+448003001	Royal College of Physicians 3 questions score (observable entity)	y	direct mapping
+304527002	Acute asthma (disorder)	y	direct mapping
+771901000000100	Asthma causes night time symptoms 1 to 2 times per week (finding)	y	direct mapping
+401193004	Asthma confirmed (situation)	y	direct mapping
+31387002	Exercise-induced asthma (disorder)	y	direct mapping
+201201000000105	Asthma trigger - damp (finding)	y	direct mapping
+185940009	Patient in asthma study (finding)	y	direct mapping
+772011000000107	Asthma limits activities 1 to 2 times per week (finding)	y	direct mapping
+815631000000106	Asthma trigger - wind (finding)	y	direct mapping
+390877003	Step up change in asthma management plan (regime/therapy)	y	direct mapping
+370205009	Asthma causes night symptoms 1 to 2 times per month (finding)	y	direct mapping
+370220003	Occasional asthma (disorder)	y	direct mapping
+373899003	Asthma daytime symptoms (finding)	y	direct mapping
+424643009	Immunoglobulin E-mediated allergic asthma (disorder)	y	direct mapping
+370206005	Asthma limits walking on the flat (finding)	y	direct mapping
+185730004	Asthma monitor offer default (finding)	y	direct mapping
+866881000000101	Chronic asthma with fixed airflow obstruction (disorder)	y	direct mapping
+308500005	Asthma monitoring call (procedure)	y	direct mapping
+302220000	Asthma control steps (procedure)	y	direct mapping
+811151000000105	Number of days absent from school due to asthma in past 6 months (observable entity)	y	direct mapping
+195949008	Chronic asthmatic bronchitis (disorder)	y	direct mapping
+201041000000104	Asthma trigger - seasonal (finding)	y	direct mapping
+429258006	History of aspirin exacerbated respiratory disease (situation)	y	descendant of concept mapped from leaf
+10675391000119100	Severe controlled persistent asthma (disorder)	y	descendant of concept mapped from leaf
+10674711000119100	Acute severe exacerbation of asthma co-occurrent with allergic rhinitis (disorder)	y	descendant of concept mapped from leaf
+92807009	Chemical-induced asthma (disorder)	y	descendant of concept mapped from leaf
+1741000119102	Intermittent asthma uncontrolled (disorder)	y	descendant of concept mapped from leaf
+426656000	Severe persistent asthma (disorder)	y	descendant of concept mapped from leaf
+233672007	Byssinosis grade 3 (disorder)	y	descendant of concept mapped from leaf
+232430006	Recurrent allergic croup (disorder)	y	descendant of concept mapped from leaf
+707980005	Acute severe exacerbation of moderate persistent asthma (disorder)	y	descendant of concept mapped from leaf
+707512002	Uncomplicated moderate persistent asthma (disorder)	y	descendant of concept mapped from leaf
+10675751000119100	Severe uncontrolled persistent asthma (disorder)	y	descendant of concept mapped from leaf
+703954005	Allergic asthma caused by Dermatophagoides farinae (disorder)	y	descendant of concept mapped from leaf
+707511009	Uncomplicated mild persistent asthma (disorder)	y	descendant of concept mapped from leaf
+707513007	Uncomplicated severe persistent asthma (disorder)	y	descendant of concept mapped from leaf
+10675911000119100	Acute severe exacerbation of mild persistent allergic asthma (disorder)	y	descendant of concept mapped from leaf
+707444001	Uncomplicated asthma (disorder)	y	descendant of concept mapped from leaf
+733858005	Acute severe refractory exacerbation of asthma (disorder)	y	descendant of concept mapped from leaf
+427603009	Intermittent asthma (disorder)	y	descendant of concept mapped from leaf
+707447008	Exacerbation of severe persistent asthma (disorder)	y	descendant of concept mapped from leaf
+10676511000119100	Acute severe exacerbation of moderate persistent asthma co-occurrent with allergic rhinitis (disorder)	y	descendant of concept mapped from leaf
+85761009	Byssinosis (disorder)	y	descendant of concept mapped from leaf
+135181000119109	Acute exacerbation of mild persistent asthma (disorder)	y	descendant of concept mapped from leaf
+401000119107	Asthma with irreversible airway obstruction (disorder)	y	descendant of concept mapped from leaf
+59786004	Weavers' cough (disorder)	y	descendant of concept mapped from leaf
+10675991000119100	Acute severe exacerbation of mild persistent allergic asthma co-occurrent with allergic rhinitis (disorder)	y	descendant of concept mapped from leaf
+72301000119103	Asthma in pregnancy (disorder)	y	descendant of concept mapped from leaf
+707445000	Exacerbation of mild persistent asthma (disorder)	y	descendant of concept mapped from leaf
+10675551000119100	Acute severe exacerbation of severe persistent asthma co-occurrent with allergic rhinitis (disorder)	y	descendant of concept mapped from leaf
+707446004	Exacerbation of moderate persistent asthma (disorder)	y	descendant of concept mapped from leaf
+707979007	Acute severe exacerbation of severe persistent asthma (disorder)	y	descendant of concept mapped from leaf
+427295004	Moderate persistent asthma (disorder)	y	descendant of concept mapped from leaf
+418395004	Tea-makers' asthma (disorder)	y	descendant of concept mapped from leaf
+99031000119107	Acute exacerbation of asthma co-occurrent with allergic rhinitis (disorder)	y	descendant of concept mapped from leaf
+56968009	Wood asthma (disorder)	y	descendant of concept mapped from leaf
+10676391000119100	Moderate persistent allergic asthma (disorder)	y	descendant of concept mapped from leaf
+442025000	Acute exacerbation of chronic asthmatic bronchitis (disorder)	y	descendant of concept mapped from leaf
+707981009	Acute severe exacerbation of mild persistent asthma (disorder)	y	descendant of concept mapped from leaf
+735589002	Uncomplicated non-allergic asthma (disorder)	y	descendant of concept mapped from leaf
+55570000	Asthma without status asthmaticus (disorder)	y	descendant of concept mapped from leaf
+124991000119109	Severe persistent asthma co-occurrent with allergic rhinitis (disorder)	y	descendant of concept mapped from leaf
+735588005	Uncomplicated allergic asthma (disorder)	y	descendant of concept mapped from leaf
+703953004	Allergic asthma caused by Dermatophagoides pteronyssinus (disorder)	y	descendant of concept mapped from leaf
+89099002	Chronic allergic bronchitis (disorder)	y	descendant of concept mapped from leaf
+1103911000000100	Severe asthma with fungal sensitisation (disorder)	y	descendant of concept mapped from leaf
+708095007	Acute severe exacerbation of immunoglobin E-mediated allergic asthma (disorder)	y	descendant of concept mapped from leaf
+125021000119107	Intermittent asthma co-occurrent with allergic rhinitis (disorder)	y	descendant of concept mapped from leaf
+10676431000119100	Acute severe exacerbation of moderate persistent allergic asthma (disorder)	y	descendant of concept mapped from leaf
+708096008	Acute severe exacerbation of intrinsic asthma (disorder)	y	descendant of concept mapped from leaf
+404808000	Isocyanate induced asthma (disorder)	y	descendant of concept mapped from leaf
+404806001	Cheese-makers' asthma (disorder)	y	descendant of concept mapped from leaf
+2360001000004100	Steroid dependent asthma (disorder)	y	descendant of concept mapped from leaf
+425969006	Exacerbation of intermittent asthma (disorder)	y	descendant of concept mapped from leaf
+135171000119106	Acute exacerbation of moderate persistent asthma (disorder)	y	descendant of concept mapped from leaf
+10675871000119100	Mild persistent allergic asthma (disorder)	y	descendant of concept mapped from leaf
+19849005	Meat-wrappers' asthma (disorder)	y	descendant of concept mapped from leaf
+30352005	Allergic-infective asthma (disorder)	y	descendant of concept mapped from leaf
+18041002	Printers' asthma (disorder)	y	descendant of concept mapped from leaf
+404804003	Platinum asthma (disorder)	y	descendant of concept mapped from leaf
+445427006	Seasonal asthma (disorder)	y	descendant of concept mapped from leaf
+16584951000119100	Oral steroid-dependent asthma (disorder)	y	descendant of concept mapped from leaf
+699728000	Asthma self management (regime/therapy)	y	descendant of concept mapped from leaf
+409663006	Cough variant asthma (disorder)	y	descendant of concept mapped from leaf
+762521001	Exacerbation of allergic asthma (disorder)	y	descendant of concept mapped from leaf
+10742121000119100	Asthma in mother complicating childbirth (disorder)	y	descendant of concept mapped from leaf
+10675471000119100	Acute severe exacerbation of severe persistent allergic asthma (disorder)	y	descendant of concept mapped from leaf
+125001000119103	Moderate persistent asthma co-occurrent with allergic rhinitis (disorder)	y	descendant of concept mapped from leaf
+10692721000119100	Chronic obstructive asthma co-occurrent with acute exacerbation of asthma (disorder)	y	descendant of concept mapped from leaf
+1751000119100	Acute exacerbation of chronic obstructive airways disease with asthma (disorder)	y	descendant of concept mapped from leaf
+426979002	Mild persistent asthma (disorder)	y	descendant of concept mapped from leaf
+427679007	Mild intermittent asthma (disorder)	y	descendant of concept mapped from leaf
+13151001	Flax-dressers' disease (disorder)	y	descendant of concept mapped from leaf
+735587000	Acute severe exacerbation of asthma co-occurrent and due to allergic asthma (disorder)	y	descendant of concept mapped from leaf
+424199006	Substance induced asthma (disorder)	y	descendant of concept mapped from leaf
+10692681000119100	Aspirin exacerbated respiratory disease (disorder)	y	descendant of concept mapped from leaf
+125011000119100	Mild persistent asthma co-occurrent with allergic rhinitis (disorder)	y	descendant of concept mapped from leaf
+10675431000119100	Severe persistent allergic asthma (disorder)	y	descendant of concept mapped from leaf
+653751000000109	Asthma attack NOS (disorder)	n	via Query Table
+689421000000104	Status asthmaticus NOS (disorder)	n	via Query Table
+512231000000100	Under care of asthma specialist nurse (finding)	n	via Query Table
+778601000000103	Asthma trigger - respiratory infection	n	via Query Table
+186081000000101	Work aggravated asthma	n	via Query Table
+389146007	Extrinsic asthma (disorder)	n	via Query Table
+948091000000109	Telehealth asthma monitoring (regime/therapy)	n	via Query Table
+170654006	Emergency asthma admission since last appointment (regime/therapy)	n	via Query Table
+512211000000108	Mini asthma quality of life questionnaire 	n	via Query Table
+59327009	Intrinsic asthma with status asthmaticus (disorder)	n	via Query Table
+772061000000109	Asthma limits activities most days 	n	via Query Table
+56507008	Tea-tasters' disease (disorder)	n	via Query Table
+233686006	Aspirin-sensitive asthma with nasal polyps (disorder)	n	via Query Table
+771951000000104	Asthma causes night time symptoms most nights 	n	via Query Table
+791171000000104	Asthma never causes night symptoms (finding)	n	via Query Table
+928461000000105	Asthma monitoring invitation SMS (short message service) text message 	n	via Query Table
+579691000000102	Intrinsic asthma NOS (disorder)	n	via Query Table
+233689004	Mill fever (disorder)	n	via Query Table
+778531000000108	Asthma trigger - tobacco smoke	n	via Query Table
+959431000000107	Asthma monitoring SMS (short message service text message) second invitation 	n	via Query Table
+202571000000105	Nocturnal asthma (disorder)	n	via Query Table
+771991000000107	Asthma limits activities 1 to 2 times per month 	n	via Query Table
+791181000000102	Asthma causes no night symptoms 	n	via Query Table
+57546000	Asthma with status asthmaticus (disorder)	n	via Query Table
+928521000000101	Asthma monitoring invitation email 	n	via Query Table
+512241000000109	Under care of asthma specialist nurse 	n	via Query Table
+307580006	Recent asthma management (regime/therapy)	n	via Query Table
+512181000000107	Asthma control questionnaire (assessment scale)	n	via Query Table
+233685005	Intrinsic asthma with asthma attack (disorder)	n	via Query Table
+165621000000103	Brittle asthma	n	via Query Table
+503301000000106	Asthma control test (assessment scale)	n	via Query Table
+233682008	Allergic asthma NEC (disorder)	n	via Query Table
+771911000000103	Asthma causes night time symptoms 1 to 2 times per week 	n	via Query Table
+778571000000105	Asthma trigger - animals	n	via Query Table
+778541000000104	Asthma trigger - warm air	n	via Query Table
+1064821000000100	Life threatening acute exacerbation of asthma (disorder)	n	via Query Table
+778621000000107	Asthma trigger - exercise	n	via Query Table
+91340006	Extrinsic asthma with status asthmaticus (disorder)	n	via Query Table
+966021000000103	At risk of severe asthma exacerbation 	n	via Query Table
+527221000000106	Health education - structured asthma discussion 	n	via Query Table
+527181000000101	Patient has a written asthma personal action plan 	n	via Query Table
+944971000000100	Asthma-chronic obstructive pulmonary disease overlap syndrome 	n	via Query Table
+416601004	Work aggravated asthma (disorder)	n	via Query Table
+589231000000108	Extrinsic asthma NOS (disorder)	n	via Query Table
+527201000000102	Health education - asthma self management 	n	via Query Table
+593601000000101	Pneumopathy due to inhalation of other dust (disorder)	n	via Query Table
+778581000000107	Asthma trigger - seasonal	n	via Query Table
+67415000	Hay asthma (disorder)	n	via Query Table
+233681001	Extrinsic asthma with asthma attack (disorder)	n	via Query Table
+811161000000108	Number of days absent from school due to asthma in past 6 months 	n	via Query Table
+1761000119103	Chronic obstructive airway disease with asthma (disorder)	n	via Query Table
+832091000000103	Asthma self-management plan review	n	via Query Table
+503311000000108	Asthma control test 	n	via Query Table
+948101000000101	Telehealth asthma monitoring 	n	via Query Table
+772021000000101	Asthma limits activities 1 to 2 time per week 	n	via Query Table
+866891000000104	Chronic asthma with fixed airflow obstruction 	n	via Query Table
+186071000000103	Occupational asthma	n	via Query Table
+778611000000101	Asthma trigger - airborne dust	n	via Query Table
+772091000000103	Royal College of Physicians asthma assessment three questions score (observable entity)	n	via Query Table
+1064811000000100	Moderate acute exacerbation of asthma (disorder)	n	via Query Table
+427354000	Exacerbation of persistent asthma (disorder)	n	via Query Table
+302351000000104	Royal College of Physicians asthma outcome measure 	n	via Query Table
+959451000000100	Asthma monitoring SMS (short message service text message) third invitation 	n	via Query Table
+959411000000104	Asthma monitoring SMS (short message service) text message first invitation	n	via Query Table
+778591000000109	Asthma trigger - cold air	n	via Query Table
+644281000000107	Allergic asthma NEC (disorder)	n	via Query Table
+370210008	Number of asthma exacerbations in past year (finding)	n	via Query Table
+512191000000109	Asthma control questionnaire 	n	via Query Table
+412775002	Asthma clinical management plan (qualifier value)	n	via Query Table
+189521000000104	Work aggravated asthma	n	via Query Table
+521381000000109	Did not attend asthma review (finding)	n	via Query Table
+302341000000102	Royal College of Physicians asthma outcome measure 	n	via Query Table
+512201000000106	Mini asthma quality of life questionnaire (assessment scale)	n	via Query Table
+778551000000101	Asthma trigger - emotion	n	via Query Table
+1065181000000100	Use of asthma symptom diary (regime/therapy)	n	via Query Table
+503321000000102	Asthma control test 	n	via Query Table
+778561000000103	Asthma trigger - damp	n	via Query Table
+772101000000106	Royal College of Physicians asthma assessment three questions score 	n	via Query Table
+189511000000105	Occupational asthma	n	via Query Table
+1064771000000100	Acute severe exacerbation of asthma (disorder)	n	via Query Table
+754071000000107	Asthma review (three Royal College of Pysicisan questions) 	n	via Query Table
+778521000000106	Asthma trigger - pollen	n	via Query Table
+1945002	Allergic asthma with stated cause (disorder)	n	via Query Table
+170641004	Asthma management plan given (regime/therapy)	n	via Query Table
+527241000000104	Health education - structured patient focussed asthma discussion 	n	via Query Table
+593201000000103	Pneumopathy due to inhalation of other dust NOS (disorder)	n	via Query Table
+266364000	Asthma attack (disorder)	n	via Query Table
+811931000000101	Asthma self-management plan agreed 	n	via Query Table
+134380003	Asthma Accident and Emergency attendance since last visit (regime/therapy)	n	via Query Table
+944961000000107	Asthma-chronic obstructive pulmonary disease overlap syndrome (disorder)	n	via Query Table

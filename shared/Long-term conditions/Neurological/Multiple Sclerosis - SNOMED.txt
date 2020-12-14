@@ -1,0 +1,76 @@
+id	name	active	notes
+367591000000000	Management of multiple sclerosis in early disease phase (regime/therapy)	y	direct mapping
+438511000	Benign multiple sclerosis (disorder)	y	direct mapping
+367561000000000	Management of multiple sclerosis in onset phase (regime/therapy)	y	direct mapping
+192927008	Multiple sclerosis of the spinal cord (disorder)	y	direct mapping
+24700007	Multiple sclerosis (disorder)	y	direct mapping
+785851000000000	Referral to community multiple sclerosis team (procedure)	y	direct mapping
+192926004	Multiple sclerosis of the brainstem (disorder)	y	direct mapping
+425500002	Secondary progressive multiple sclerosis (disorder)	y	direct mapping
+205631000000000	Multiple sclerosis multidisciplinary review (regime/therapy)	y	direct mapping
+439567002	Malignant multiple sclerosis (disorder)	y	direct mapping
+230372003	Acute relapsing multiple sclerosis (disorder)	y	direct mapping
+367681000000000	Management of multiple sclerosis in palliative phase (regime/therapy)	y	direct mapping
+759051000000000	Multiple sclerosis monitoring first letter (procedure)	y	direct mapping
+758981000000000	Multiple sclerosis monitoring administration (record artifact)	y	direct mapping
+367621000000000	Management of multiple sclerosis in stable disability phase (regime/therapy)	y	direct mapping
+192928003	Generalized multiple sclerosis (disorder)	y	direct mapping
+86044005	Amyotrophic lateral sclerosis (disorder)	y	direct mapping
+811881000000000	Multiple sclerosis care plan agreed (finding)	y	direct mapping
+367651000000000	Management of multiple sclerosis in progressive disability phase (regime/therapy)	y	direct mapping
+81211007	Primary lateral sclerosis (disorder)	y	direct mapping
+198491000000000	Multiple sclerosis review (regime/therapy)	y	direct mapping
+166411000000000	Specialised services for patients with multiple sclerosis - enhanced services administration (procedure)	y	direct mapping
+426373005	Relapsing remitting multiple sclerosis (disorder)	y	direct mapping
+230373008	Chronic progressive multiple sclerosis (disorder)	y	direct mapping
+192929006	Exacerbation of multiple sclerosis (disorder)	y	direct mapping
+428700003	Primary progressive multiple sclerosis (disorder)	y	direct mapping
+759091000000000	Multiple sclerosis monitoring second letter (procedure)	y	direct mapping
+759131000000000	Multiple sclerosis monitoring telephone invitation (procedure)	y	direct mapping
+759171000000000	Multiple sclerosis monitoring third letter (procedure)	y	direct mapping
+717964007	Juvenile primary lateral sclerosis (disorder)	y	descendant of concept mapped from leaf
+722987009	Amyotrophic lateral sclerosis plus syndrome (disorder)	y	descendant of concept mapped from leaf
+733028000	"Multiple sclerosis, ichthyosis, factor VIII deficiency syndrome (disorder)"	y	descendant of concept mapped from leaf
+724778008	Progressive relapsing multiple sclerosis (disorder)	y	descendant of concept mapped from leaf
+230258005	Amyotrophic lateral sclerosis with dementia (disorder)	y	descendant of concept mapped from leaf
+766246000	Marburg acute multiple sclerosis (disorder)	y	descendant of concept mapped from leaf
+718555006	Juvenile amyotrophic lateral sclerosis (disorder)	y	descendant of concept mapped from leaf
+198881000000000	Multiple sclerosis care plan agreed (procedure)	n	via Query Table
+367571000000000	Management of multiple sclerosis in onset phase 	n	via Query Table
+367601000000000	Management of multiple sclerosis in early disease phase 	n	via Query Table
+368791000000000	Malignant multiple sclerosis 	n	via Query Table
+207291000000000	Multiple sclerosis care plan agreed	n	via Query Table
+367691000000000	Management of multiple sclerosis in palliative phase 	n	via Query Table
+367611000000000	Management of multiple sclerosis in early disease phase 	n	via Query Table
+368781000000000	Benign multiple sclerosis 	n	via Query Table
+343571000000000	Malignant multiple sclerosis (disorder)	n	via Query Table
+368801000000000	Primary progressive multiple sclerosis 	n	via Query Table
+213631000000000	Multiple sclerosis review	n	via Query Table
+207281000000000	Multiple sclerosis care plan agreed	n	via Query Table
+213641000000000	Multiple sclerosis multidisciplinary review	n	via Query Table
+759141000000000	Multiple sclerosis monitoring telephone invitation 	n	via Query Table
+367671000000000	Management of multiple sclerosis in progressive disability phase 	n	via Query Table
+16092000	Cord multiple sclerosis (disorder)	n	via Query Table
+343601000000000	Secondary progressive multiple sclerosis (disorder)	n	via Query Table
+171451000000000	Specialised services for patients with multiple sclerosis - enhanced services administration	n	via Query Table
+343591000000000	Relapsing and remitting multiple sclerosis (disorder)	n	via Query Table
+759101000000000	Multiple sclerosis monitoring second letter 	n	via Query Table
+230374002	Remittent-progressive multiple sclerosis (disorder)	n	via Query Table
+759181000000000	Multiple sclerosis monitoring third letter 	n	via Query Table
+213651000000000	Multiple sclerosis multidisciplinary review	n	via Query Table
+785861000000000	Referral to community multiple sclerosis team 	n	via Query Table
+368811000000000	Relapsing and remitting multiple sclerosis 	n	via Query Table
+213621000000000	Multiple sclerosis review	n	via Query Table
+343541000000000	Benign multiple sclerosis (disorder)	n	via Query Table
+368821000000000	Secondary progressive multiple sclerosis 	n	via Query Table
+586591000000000	Multiple sclerosis NOS (disorder)	n	via Query Table
+367641000000000	Management of multiple sclerosis in stable disability phase 	n	via Query Table
+759061000000000	Multiple sclerosis monitoring first letter 	n	via Query Table
+176111000000000	Specialised services for patients with multiple sclerosis - enhanced services administration	n	via Query Table
+367631000000000	Management of multiple sclerosis in stable disability phase 	n	via Query Table
+758991000000000	Multiple sclerosis monitoring administration 	n	via Query Table
+18353007	Brain stem multiple sclerosis (disorder)	n	via Query Table
+367661000000000	Management of multiple sclerosis in progressive disability phase 	n	via Query Table
+343581000000000	Primary progressive multiple sclerosis (disorder)	n	via Query Table
+367701000000000	Management of multiple sclerosis in palliative phase 	n	via Query Table
+367581000000000	Management of multiple sclerosis in onset phase 	n	via Query Table

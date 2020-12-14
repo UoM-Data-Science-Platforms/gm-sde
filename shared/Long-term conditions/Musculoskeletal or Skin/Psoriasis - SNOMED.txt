@@ -1,0 +1,338 @@
+id	name	active	notes
+195136004	Rheumatoid myocarditis (disorder)	y	direct mapping
+7119001	Cutaneous lupus erythematosus (disorder)	y	direct mapping
+95644001	Systemic lupus erythematosus encephalitis (disorder)	y	direct mapping
+239795001	Rheumatoid arthritis with multisystem involvement (disorder)	y	direct mapping
+201791009	Flare of rheumatoid arthritis (disorder)	y	direct mapping
+200938002	Discoid lupus erythematosus (disorder)	y	direct mapping
+307755009	Renal tubulo-interstitial disorder in systemic lupus erythematosus (disorder)	y	direct mapping
+201796004	Systemic onset juvenile chronic arthritis (disorder)	y	direct mapping
+882401000000000	Rheumatoid arthritis monitoring invitation first letter (procedure)	y	direct mapping
+200956002	Psoriatic arthritis with spine involvement (disorder)	y	direct mapping
+239813000	Psoriatic dactylitis (disorder)	y	direct mapping
+882321000000000	Rheumatoid arthritis monitoring invitation (procedure)	y	direct mapping
+200977004	Erythrodermic psoriasis (disorder)	y	direct mapping
+238601002	Unstable psoriasis (disorder)	y	direct mapping
+200966005	Psoriasis geographica (disorder)	y	direct mapping
+11013005	"Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class VI (disorder)"	y	direct mapping
+201779000	Rheumatoid arthritis of ankle (disorder)	y	direct mapping
+68815009	Systemic lupus erythematosus glomerulonephritis syndrome (disorder)	y	direct mapping
+193178008	Polyneuropathy in disseminated lupus erythematosus (disorder)	y	direct mapping
+76521009	"Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class III (disorder)"	y	direct mapping
+238612002	Generalized pustular psoriasis (disorder)	y	direct mapping
+52042003	"Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class V (disorder)"	y	direct mapping
+200965009	Plaque psoriasis (disorder)	y	direct mapping
+238600001	Flexural psoriasis (disorder)	y	direct mapping
+201771002	Rheumatoid arthritis of wrist (disorder)	y	direct mapping
+239888002	Lupus panniculitis (disorder)	y	direct mapping
+200964008	Psoriasis diffusa (disorder)	y	direct mapping
+9014002	Psoriasis (disorder)	y	direct mapping
+239793008	Rheumatoid arthritis with organ / system involvement (disorder)	y	direct mapping
+74391003	Pauciarticular juvenile rheumatoid arthritis (disorder)	y	direct mapping
+200939005	Lupus erythematosus migrans (disorder)	y	direct mapping
+239791005	Seropositive rheumatoid arthritis (disorder)	y	direct mapping
+201764007	Rheumatoid arthritis of cervical spine (disorder)	y	direct mapping
+239804002	Juvenile psoriatic arthritis without psoriasis (disorder)	y	direct mapping
+19514005	Arthritis mutilans (disorder)	y	direct mapping
+95609003	Neonatal lupus erythematosus (disorder)	y	direct mapping
+239792003	Seronegative rheumatoid arthritis (disorder)	y	direct mapping
+239891002	Subacute cutaneous lupus erythematosus (disorder)	y	direct mapping
+10713006	Diffuse interstitial rheumatoid disease of lung (disorder)	y	direct mapping
+882461000000000	Rheumatoid arthritis monitoring verbal invitation (procedure)	y	direct mapping
+73286009	"Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class I (disorder)"	y	direct mapping
+238609000	Köbner psoriasis (disorder)	y	direct mapping
+238926009	Lupus erythematosus and erythema multiforme-like syndrome (disorder)	y	direct mapping
+57160007	Felty's syndrome (disorder)	y	direct mapping
+201768005	Rheumatoid arthritis of acromioclavicular joint (disorder)	y	direct mapping
+201766009	Rheumatoid arthritis of shoulder (disorder)	y	direct mapping
+65539006	Impetigo herpetiformis (disorder)	y	direct mapping
+882441000000000	Rheumatoid arthritis monitoring invitation third letter (procedure)	y	direct mapping
+161567008	History of rheumatoid arthritis (situation)	y	direct mapping
+239920006	Adult onset Still's disease (disorder)	y	direct mapping
+200936003	Lupus erythematosus (disorder)	y	direct mapping
+882481000000000	Rheumatoid arthritis monitoring telephone invitation (procedure)	y	direct mapping
+1961000	Chronic polyarticular juvenile rheumatoid arthritis (disorder)	y	direct mapping
+164456005	On examination - hands-rheumatoid spindling (finding)	y	direct mapping
+55464009	Systemic lupus erythematosus (disorder)	y	direct mapping
+201776007	Rheumatoid arthritis of sacroiliac joint (disorder)	y	direct mapping
+156370009	Psoriatic arthritis (disorder)	y	direct mapping
+410797009	Juvenile seronegative polyarthritis (disorder)	y	direct mapping
+239098009	Acropustulosis of infancy (disorder)	y	direct mapping
+37042000	Guttate psoriasis (disorder)	y	direct mapping
+238602009	Psoriasis-eczema overlap condition (disorder)	y	direct mapping
+238605006	Psoriatic nail dystrophy (disorder)	y	direct mapping
+238613007	Generalized pustular psoriasis of pregnancy (disorder)	y	direct mapping
+201781003	Rheumatoid arthritis of talonavicular joint (disorder)	y	direct mapping
+238614001	Pustular psoriasis in children (disorder)	y	direct mapping
+238604005	Psoriasis of nail (disorder)	y	direct mapping
+400054000	Rheumatoid vasculitis (disorder)	y	direct mapping
+239886003	Limited lupus erythematosus (disorder)	y	direct mapping
+238611009	Lapiere type of psoriasis (disorder)	y	direct mapping
+200967001	Psoriasis gyrata (disorder)	y	direct mapping
+238927000	Chronic discoid lupus erythematosus (disorder)	y	direct mapping
+398726004	Rheumatoid lung disease (disorder)	y	direct mapping
+201770001	Rheumatoid arthritis of distal radioulnar joint (disorder)	y	direct mapping
+201780002	Rheumatoid arthritis of subtalar joint (disorder)	y	direct mapping
+201785007	Rheumatoid arthritis of interphalangeal joint of toe (disorder)	y	direct mapping
+239943002	Necrotizing rheumatoid vasculitis (disorder)	y	direct mapping
+309762007	Systemic lupus erythematosus with pericarditis (disorder)	y	direct mapping
+75822003	Acute polyarticular juvenile rheumatoid arthritis (disorder)	y	direct mapping
+201767000	Rheumatoid arthritis of sternoclavicular joint (disorder)	y	direct mapping
+239941000	Nailfold rheumatoid vasculitis (disorder)	y	direct mapping
+33339001	Psoriasis with arthropathy (disorder)	y	direct mapping
+201799006	Monarticular juvenile rheumatoid arthritis (disorder)	y	direct mapping
+9631008	Ankylosing spondylitis (disorder)	y	direct mapping
+410795001	Juvenile rheumatoid arthritis (disorder)	y	direct mapping
+15084002	Lupus erythematosus profundus (disorder)	y	direct mapping
+28880005	Rheumatoid carditis (disorder)	y	direct mapping
+1083080000000000	Rheumatoid arthritis monitoring invitation email (procedure)	y	direct mapping
+200941006	Lupus erythematosus tumidus (disorder)	y	direct mapping
+196138005	Lung disease with systemic lupus erythematosus (disorder)	y	direct mapping
+275902004	Rheumatoid arthritis monitoring (regime/therapy)	y	direct mapping
+238617008	Circinate and annular pustular psoriasis (disorder)	y	direct mapping
+38360005	Generalized pustular psoriasis of von Zumbush (disorder)	y	direct mapping
+287008006	Rheumatoid arthritis of ankle and/or foot (disorder)	y	direct mapping
+193180002	Polyneuropathy in rheumatoid arthritis (disorder)	y	direct mapping
+200942004	Lupus erythematosus unguium mutilans (disorder)	y	direct mapping
+239802003	Juvenile psoriatic arthritis (disorder)	y	direct mapping
+200968006	Psoriasis inveterata (disorder)	y	direct mapping
+201773004	Rheumatoid arthritis of proximal interphalangeal joint of finger (disorder)	y	direct mapping
+239812005	Psoriatic arthritis with distal interphalangeal joint involvement (disorder)	y	direct mapping
+201783000	Rheumatoid arthritis of first metatarsophalangeal joint (disorder)	y	direct mapping
+882421000000000	Rheumatoid arthritis monitoring invitation second letter (procedure)	y	direct mapping
+238606007	Psoriatic nail pitting (disorder)	y	direct mapping
+36402006	"Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class IV (disorder)"	y	direct mapping
+238616004	Infantile pustular psoriasis (disorder)	y	direct mapping
+69896004	Rheumatoid arthritis (disorder)	y	direct mapping
+200971003	Psoriasis plantaris (disorder)	y	direct mapping
+1067020000000000	Rheumatoid arthritis monitoring short message service text message third invitation (procedure)	y	direct mapping
+239803008	Juvenile psoriatic arthritis with psoriasis (disorder)	y	direct mapping
+239800006	Late onset polyarticular juvenile chronic arthritis (disorder)	y	direct mapping
+398640008	Rheumatoid pneumoconiosis (disorder)	y	direct mapping
+200973000	Pustular psoriasis (disorder)	y	direct mapping
+200975007	Psoriasis vulgaris (disorder)	y	direct mapping
+402307000	Chronic large plaque psoriasis (disorder)	y	direct mapping
+238928005	Chilblain lupus erythematosus (disorder)	y	direct mapping
+308143008	Seropositive erosive rheumatoid arthritis (disorder)	y	direct mapping
+201778008	Rheumatoid arthritis of tibiofibular joint (disorder)	y	direct mapping
+1067010000000000	Rheumatoid arthritis monitoring short message service text message second invitation (procedure)	y	direct mapping
+200937007	Lupus erythematosus chronicus (disorder)	y	direct mapping
+201769002	Rheumatoid arthritis of elbow (disorder)	y	direct mapping
+81271001	Localized pustular psoriasis (disorder)	y	direct mapping
+201775006	Rheumatoid arthritis of hip (disorder)	y	direct mapping
+33719002	Subcutaneous rheumatoid nodule (disorder)	y	direct mapping
+201774005	Rheumatoid arthritis of distal interphalangeal joint of finger (disorder)	y	direct mapping
+399937000	Acquired disorder of keratinization (disorder)	y	direct mapping
+200972005	Psoriasis punctata (disorder)	y	direct mapping
+193248005	Myopathy due to disseminated lupus erythematosus (disorder)	y	direct mapping
+4676006	"Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class II (disorder)"	y	direct mapping
+239798004	Late onset pauciarticular chronic arthritis (disorder)	y	direct mapping
+88233000	Parapsoriasis (disorder)	y	direct mapping
+79291003	Discoid lupus erythematosus of eyelid (disorder)	y	direct mapping
+200963002	Psoriasis circinata (disorder)	y	direct mapping
+238603004	Eczematized psoriasis (disorder)	y	direct mapping
+239887007	Systemic lupus erythematosus with organ/system involvement (disorder)	y	direct mapping
+3533007	Pustular bacterid (disorder)	y	direct mapping
+200974006	Psoriasis universalis (disorder)	y	direct mapping
+201777003	Rheumatoid arthritis of knee (disorder)	y	direct mapping
+238615000	Juvenile pustular psoriasis (disorder)	y	direct mapping
+239942007	Systemic rheumatoid vasculitis (disorder)	y	direct mapping
+1067000000000000	Rheumatoid arthritis monitoring short message service text message first invitation (procedure)	y	direct mapping
+1066990000000000	Rheumatoid arthritis monitoring invitation by short message service text messaging (procedure)	y	direct mapping
+201436003	Drug-induced systemic lupus erythematosus (disorder)	y	direct mapping
+239799007	Early onset polyarticular juvenile chronic arthritis (disorder)	y	direct mapping
+200962007	Psoriasis annularis (disorder)	y	direct mapping
+200969003	Rupioid psoriasis (disorder)	y	direct mapping
+161562002	History of psoriasis (situation)	y	direct mapping
+27520001	Pustular psoriasis of the palms AND/OR soles (disorder)	y	direct mapping
+287006005	Rheumatoid arthritis of multiple joints (disorder)	y	direct mapping
+239889005	Bullous systemic lupus erythematosus (disorder)	y	direct mapping
+847261000000000	Rheumatoid arthritis annual review (regime/therapy)	y	direct mapping
+238608008	Scalp psoriasis (disorder)	y	direct mapping
+239890001	Systemic lupus erythematosus with multisystem involvement (disorder)	y	direct mapping
+201772009	Rheumatoid arthritis of metacarpophalangeal joint (disorder)	y	direct mapping
+193250002	Myopathy due to rheumatoid arthritis (disorder)	y	direct mapping
+200970002	Psoriasis palmaris (disorder)	y	direct mapping
+239797009	Early onset pauciarticular chronic arthritis (disorder)	y	direct mapping
+201784006	Rheumatoid arthritis of lesser metatarsophalangeal joint (disorder)	y	direct mapping
+200940007	Lupus erythematosus nodularis (disorder)	y	direct mapping
+287007001	Rheumatoid arthritis of hand joint (disorder)	y	direct mapping
+403500006	Discoid lupus erythematosus of hands (disorder)	y	descendant of concept mapped from leaf
+95332009	Rash of systemic lupus erythematosus (disorder)	y	descendant of concept mapped from leaf
+238635004	Drug-induced acanthosis nigricans (disorder)	y	descendant of concept mapped from leaf
+396227001	Acquired palmoplantar keratoderma (disorder)	y	descendant of concept mapped from leaf
+402320002	Psoriasis of face (disorder)	y	descendant of concept mapped from leaf
+402330006	Onset of psoriasis in infancy (<1 year) (disorder)	y	descendant of concept mapped from leaf
+10629300000000000	Psoriatic arthritis mutilans (disorder)	y	descendant of concept mapped from leaf
+402335001	Familial psoriasis (disorder)	y	descendant of concept mapped from leaf
+402340009	Nail dystrophy due to pityriasis rubra pilaris (disorder)	y	descendant of concept mapped from leaf
+402332003	Onset of psoriasis in adolescence (10-20 years) (disorder)	y	descendant of concept mapped from leaf
+1073730000000000	Rheumatoid arthritis of left knee (disorder)	y	descendant of concept mapped from leaf
+295111000000000	Nephrotic syndrome co-occurrent and due to systemic lupus erythematosus (disorder)	y	descendant of concept mapped from leaf
+402312004	Acute guttate psoriasis (disorder)	y	descendant of concept mapped from leaf
+22888007	Drug-induced lupus erythematosus caused by procainamide (disorder)	y	descendant of concept mapped from leaf
+238641006	Acquired keratosis follicularis (disorder)	y	descendant of concept mapped from leaf
+402337009	Familial psoriasis without affected first degree relative (disorder)	y	descendant of concept mapped from leaf
+260046006	Dry skin dermatitis (disorder)	y	descendant of concept mapped from leaf
+402319008	Psoriasis of scalp margin (disorder)	y	descendant of concept mapped from leaf
+403497000	Discoid lupus erythematosus of scalp (disorder)	y	descendant of concept mapped from leaf
+403489007	"Subacute cutaneous lupus erythematosus, annular/polycyclic type (disorder)"	y	descendant of concept mapped from leaf
+402318000	Photoaggravated psoriasis (disorder)	y	descendant of concept mapped from leaf
+200948000	Pityriasis rubra (Hebra) (disorder)	y	descendant of concept mapped from leaf
+414555007	Keratoderma blennorrhagicum (disorder)	y	descendant of concept mapped from leaf
+238637007	Acanthosis palmaris (disorder)	y	descendant of concept mapped from leaf
+403741004	Arsenical keratosis (disorder)	y	descendant of concept mapped from leaf
+67081008	Large plaque parapsoriasis (disorder)	y	descendant of concept mapped from leaf
+402313009	Guttate flare of psoriasis with preexisting plaques (disorder)	y	descendant of concept mapped from leaf
+402324006	Non-pustular psoriasis of hands and feet (disorder)	y	descendant of concept mapped from leaf
+402433007	Nailfold/finger-pulp infarcts in rheumatoid disease (disorder)	y	descendant of concept mapped from leaf
+403496009	Discoid lupus erythematosus of genital mucous membranes (disorder)	y	descendant of concept mapped from leaf
+239811003	Ankylosing spondylitis with multisystem involvement (disorder)	y	descendant of concept mapped from leaf
+402329001	Early onset psoriasis type 1 (disorder)	y	descendant of concept mapped from leaf
+402308005	Chronic small plaque psoriasis (disorder)	y	descendant of concept mapped from leaf
+239805001	Juvenile ankylosing spondylitis (disorder)	y	descendant of concept mapped from leaf
+77753005	Lupus disease of the lung (disorder)	y	descendant of concept mapped from leaf
+16341002	Parapsoriasis lichenoides (disorder)	y	descendant of concept mapped from leaf
+1073800000000000	Rheumatoid arthritis of right hip (disorder)	y	descendant of concept mapped from leaf
+162930007	On examination - ankylosing spondylitis chest deformity (disorder)	y	descendant of concept mapped from leaf
+403495008	Discoid lupus erythematosus of oral mucosa (disorder)	y	descendant of concept mapped from leaf
+61458006	Drug-induced lupus erythematosus caused by diphenylhydantoin (disorder)	y	descendant of concept mapped from leaf
+724767000	Chorea co-occurrent and due to systemic lupus erythematosus (disorder)	y	descendant of concept mapped from leaf
+200981004	Parapsoriasis atrophicans (disorder)	y	descendant of concept mapped from leaf
+399885000	Acquired palmoplantar keratosis (disorder)	y	descendant of concept mapped from leaf
+402310007	Chronic stable plaque psoriasis (disorder)	y	descendant of concept mapped from leaf
+238619006	Atypical adult pityriasis rubra pilaris (disorder)	y	descendant of concept mapped from leaf
+54072008	Nonbacterial verrucal endocardiosis (disorder)	y	descendant of concept mapped from leaf
+403492006	Hypertrophic type discoid lupus erythematosus (disorder)	y	descendant of concept mapped from leaf
+201054008	Keratoderma climactericum (disorder)	y	descendant of concept mapped from leaf
+403513000	Lupus erythematosus-associated nail dystrophy (disorder)	y	descendant of concept mapped from leaf
+200985008	Parapsoriasis varioliformis (disorder)	y	descendant of concept mapped from leaf
+54912002	Drug-induced lupus erythematosus caused by hydralazine (disorder)	y	descendant of concept mapped from leaf
+239810002	Ankylosing spondylitis with organ / system involvement (disorder)	y	descendant of concept mapped from leaf
+719810000	X-linked intellectual disability with seizure and psoriasis syndrome (disorder)	y	descendant of concept mapped from leaf
+402426007	Rheumatoid nodulosis (disorder)	y	descendant of concept mapped from leaf
+402317005	Generalized psoriasis (disorder)	y	descendant of concept mapped from leaf
+403490003	"Subacute cutaneous lupus erythematosus, papulosquamous type (disorder)"	y	descendant of concept mapped from leaf
+7607008	Pericarditis co-occurrent with extraarticular rheumatoid arthritis (disorder)	y	descendant of concept mapped from leaf
+403498005	Discoid lupus erythematosus of face (disorder)	y	descendant of concept mapped from leaf
+143441000000000	Rheumatoid arthritis in remission (disorder)	y	descendant of concept mapped from leaf
+402333008	Onset of psoriasis in early adulthood (20-40 years) (disorder)	y	descendant of concept mapped from leaf
+3755001	Pityriasis rubra pilaris (disorder)	y	descendant of concept mapped from leaf
+403501005	Discoid lupus erythematosus of foot (disorder)	y	descendant of concept mapped from leaf
+19682006	Lupus hepatitis (disorder)	y	descendant of concept mapped from leaf
+402323000	Hypertrophic palmoplantar psoriasis (disorder)	y	descendant of concept mapped from leaf
+402427003	Accelerated rheumatoid nodulosis (disorder)	y	descendant of concept mapped from leaf
+403502003	Disseminated discoid lupus erythematosus (disorder)	y	descendant of concept mapped from leaf
+427770001	Rheumatoid arthritis of temporomandibular joint (disorder)	y	descendant of concept mapped from leaf
+319841000000000	Rheumatoid lung disease with rheumatoid arthritis (disorder)	y	descendant of concept mapped from leaf
+713225000	Gingival disease co-occurrent and due to lupus erythematosus (disorder)	y	descendant of concept mapped from leaf
+724781003	Demyelination of central nervous system co-occurrent and due to systemic lupus erythematosus (disorder)	y	descendant of concept mapped from leaf
+700334001	Discoid lupus erythematosus of upper eyelid (disorder)	y	descendant of concept mapped from leaf
+723544007	Trichodysplasia spinulosa caused by Polyomavirus (disorder)	y	descendant of concept mapped from leaf
+403486000	Acute systemic lupus erythematosus (disorder)	y	descendant of concept mapped from leaf
+402316001	Psoriasis of perianal skin (disorder)	y	descendant of concept mapped from leaf
+402327004	Acute generalized pustular flare of preexisting plaque psoriasis (disorder)	y	descendant of concept mapped from leaf
+402314003	Psoriasis of vulva (disorder)	y	descendant of concept mapped from leaf
+402428008	Accelerated rheumatoid nodulosis due to methotrexate (disorder)	y	descendant of concept mapped from leaf
+410482007	Iritis in psoriatic arthritis (disorder)	y	descendant of concept mapped from leaf
+238997007	Drug-induced ichthyosiform reaction (disorder)	y	descendant of concept mapped from leaf
+735600005	Rheumatoid arthritis without erosion (disorder)	y	descendant of concept mapped from leaf
+400115004	Focal acral hyperkeratosis (disorder)	y	descendant of concept mapped from leaf
+23854007	Small plaque parapsoriasis (disorder)	y	descendant of concept mapped from leaf
+72129000	Acquired acanthosis nigricans (disorder)	y	descendant of concept mapped from leaf
+400166009	Acquired keratoderma (disorder)	y	descendant of concept mapped from leaf
+1073710000000000	Rheumatoid arthritis of left hand (disorder)	y	descendant of concept mapped from leaf
+445479007	Polyarticular juvenile rheumatoid arthritis (disorder)	y	descendant of concept mapped from leaf
+399901005	Acquired plantar keratoderma (disorder)	y	descendant of concept mapped from leaf
+402322005	Hypertrophic palmar psoriasis (disorder)	y	descendant of concept mapped from leaf
+86219005	Uveitis-rheumatoid arthritis syndrome (disorder)	y	descendant of concept mapped from leaf
+1073720000000000	Rheumatoid arthritis of left hip (disorder)	y	descendant of concept mapped from leaf
+1073810000000000	Rheumatoid arthritis of right knee (disorder)	y	descendant of concept mapped from leaf
+95408003	Systemic lupus erythematosus arthritis (disorder)	y	descendant of concept mapped from leaf
+402309002	Chronic guttate pattern psoriasis (disorder)	y	descendant of concept mapped from leaf
+735599007	Erosion of joint surface co-occurrent and due to rheumatoid arthritis (disorder)	y	descendant of concept mapped from leaf
+238621001	Circumscribed juvenile pityriasis rubra pilaris (disorder)	y	descendant of concept mapped from leaf
+129564003	Ankylosing spondylarthritis and eye lesions (disorder)	y	descendant of concept mapped from leaf
+402328009	Childhood pustular psoriasis (disorder)	y	descendant of concept mapped from leaf
+238622008	Atypical juvenile pityriasis rubra pilaris (disorder)	y	descendant of concept mapped from leaf
+95334005	Senile ichthyosis (disorder)	y	descendant of concept mapped from leaf
+707301001	Lupus erythematosus of oral mucous membrane (disorder)	y	descendant of concept mapped from leaf
+295121000000000	Nephrosis co-occurrent and due to systemic lupus erythematosus (disorder)	y	descendant of concept mapped from leaf
+295101000000000	Nephropathy co-occurrent and due to systemic lupus erythematosus (disorder)	y	descendant of concept mapped from leaf
+402321003	Non-pustular psoriasis of hands (disorder)	y	descendant of concept mapped from leaf
+56253000	Parapsoriasis en plaques (disorder)	y	descendant of concept mapped from leaf
+403491004	Erythema multiforme-like lupus erythematosus (disorder)	y	descendant of concept mapped from leaf
+238640007	Acrokeratosis paraneoplastica of Bazex (disorder)	y	descendant of concept mapped from leaf
+201055009	Symmetrical keratoderma (disorder)	y	descendant of concept mapped from leaf
+402334002	Late onset psoriasis type 2 (disorder)	y	descendant of concept mapped from leaf
+410796000	Juvenile seropositive polyarthritis (disorder)	y	descendant of concept mapped from leaf
+402429000	Rheumatoid linear subcutaneous bands (disorder)	y	descendant of concept mapped from leaf
+402326008	Acute generalized pustular psoriasis de novo (disorder)	y	descendant of concept mapped from leaf
+1073790000000000	Rheumatoid arthritis of right hand (disorder)	y	descendant of concept mapped from leaf
+25380002	Pericarditis co-occurrent and due to systemic lupus erythematosus (disorder)	y	descendant of concept mapped from leaf
+700269001	Discoid lupus erythematosus of lower eyelid (disorder)	y	descendant of concept mapped from leaf
+1073820000000000	Rheumatoid arthritis of right shoulder (disorder)	y	descendant of concept mapped from leaf
+399923009	Rheumatoid arteritis (disorder)	y	descendant of concept mapped from leaf
+200984007	Parapsoriasis papulata (disorder)	y	descendant of concept mapped from leaf
+239806000	Juvenile spondyloarthropathy (disorder)	y	descendant of concept mapped from leaf
+402311006	Actively extending plaque psoriasis (disorder)	y	descendant of concept mapped from leaf
+698694005	Systemic lupus erythematosus in remission (disorder)	y	descendant of concept mapped from leaf
+403493001	Rosaceous type discoid lupus erythematosus (disorder)	y	descendant of concept mapped from leaf
+238620000	Classical juvenile pityriasis rubra pilaris (disorder)	y	descendant of concept mapped from leaf
+8691004	Acquired ichthyosis (disorder)	y	descendant of concept mapped from leaf
+402325007	Drug-exacerbated psoriasis (disorder)	y	descendant of concept mapped from leaf
+11055200000000000	Seropositive rheumatoid arthritis of multiple joints (disorder)	y	descendant of concept mapped from leaf
+721538000	Psoriasis of anogenital region (disorder)	y	descendant of concept mapped from leaf
+402331005	Onset of psoriasis in childhood (1-10 years) (disorder)	y	descendant of concept mapped from leaf
+702617007	Acute generalized exanthematous pustulosis (disorder)	y	descendant of concept mapped from leaf
+80258006	Drug-induced lupus erythematosus (disorder)	y	descendant of concept mapped from leaf
+200982006	Parapsoriasis herpetiformis (disorder)	y	descendant of concept mapped from leaf
+238636003	Malignant acanthosis nigricans (disorder)	y	descendant of concept mapped from leaf
+403488004	Systemic lupus erythematosus of childhood (disorder)	y	descendant of concept mapped from leaf
+402336000	Familial psoriasis with affected first degree relative (disorder)	y	descendant of concept mapped from leaf
+1151000000000	Acquired keratosis pilaris (disorder)	y	descendant of concept mapped from leaf
+9859006	Type 2 diabetes mellitus with acanthosis nigricans (disorder)	y	descendant of concept mapped from leaf
+403487009	Fulminating systemic lupus erythematosus (disorder)	y	descendant of concept mapped from leaf
+238618003	Classical adult pityriasis rubra pilaris (disorder)	y	descendant of concept mapped from leaf
+429192004	Rheumatoid arthritis of foot (disorder)	y	descendant of concept mapped from leaf
+28840001	"Generalized pustular psoriasis, exanthematous type (disorder)"	y	descendant of concept mapped from leaf
+403494007	Discoid lupus erythematosus of mucous membranes (disorder)	y	descendant of concept mapped from leaf
+402315002	Psoriasis of penis (disorder)	y	descendant of concept mapped from leaf
+1073740000000000	Rheumatoid arthritis of left shoulder (disorder)	y	descendant of concept mapped from leaf
+52661003	Extra-articular rheumatoid process (disorder)	y	descendant of concept mapped from leaf
+403499002	Discoid lupus erythematosus of lip (disorder)	y	descendant of concept mapped from leaf
+25847004	Seborrheic psoriasis (disorder)	y	descendant of concept mapped from leaf
+409421000000000	[X]Other forms of systemic lupus erythematosus (disorder)	n	via Query Table
+471971000000000	"[X]Seropositive rheumatoid arthritis, unspecified"	n	via Query Table
+891191000000000	Flexural psoriasis	n	via Query Table
+674721000000000	Psoriasis and similar disorders NOS (disorder)	n	via Query Table
+882411000000000	Rheumatoid arthritis monitoring invitation first letter 	n	via Query Table
+203746006	"[X]Seropositive rheumatoid arthritis, unspecified (disorder)"	n	via Query Table
+656671000000000	Juvenile rheumatoid arthritis NOS (disorder)	n	via Query Table
+882471000000000	Rheumatoid arthritis monitoring verbal invitation 	n	via Query Table
+431621000000000	[X]Other psoriatic arthropathies (disorder)	n	via Query Table
+509441000000000	Poikiloderma vasculare atrophicans (disorder)	n	via Query Table
+758321000000000	Cerebral lupus	n	via Query Table
+674711000000000	Other psoriasis and similar disorders (disorder)	n	via Query Table
+85207007	Bacterid (disorder)	n	via Query Table
+803971000000000	Impetigo herpetiformis (disorder)	n	via Query Table
+307911000000000	Psoriasis vulgaris (disorder)	n	via Query Table
+882491000000000	Rheumatoid monitoring telephone invitation 	n	via Query Table
+413821000000000	[X]Other psoriasis (disorder)	n	via Query Table
+463161000000000	[X]Other parapsoriasis (disorder)	n	via Query Table
+471921000000000	[X]Other local lupus erythematosus (disorder)	n	via Query Table
+603341000000000	Acquired keratoderma NOS (disorder)	n	via Query Table
+425481000000000	[X]Other specified rheumatoid arthritis (disorder)	n	via Query Table
+778321000000000	Asteatotic eczema	n	via Query Table
+803991000000000	Pustular psoriasis (disorder)	n	via Query Table
+856181000000000	Rheumatoid arthritis annual review	n	via Query Table
+307891000000000	Chronic large plaque psoriasis (disorder)	n	via Query Table
+292681000000000	Neonatal lupus erythematosus	n	via Query Table
+414821000000000	"[X]Seropositive rheumatoid arthritis, unspecified (disorder)"	n	via Query Table
+882451000000000	Rheumatoid arthritis monitoring invitation third lettter 	n	via Query Table
+408751000000000	[X]Other seropositive rheumatoid arthritis (disorder)	n	via Query Table
+855741000000000	Palmoplantar pustular psoriasis	n	via Query Table
+882431000000000	Rheumatoid arthritis monitoring invitation second letter 	n	via Query Table
+882331000000000	Rheumatoid arthritis monitoring invitation 	n	via Query Table
+425091000000000	[X]Rheumatoid arthritis with involvement of other organs or systems (disorder)	n	via Query Table
+52665007	Reiter's disease of the skin (disorder)	n	via Query Table

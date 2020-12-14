@@ -1,0 +1,36 @@
+id	name	active	notes
+191464005	Arteriosclerotic dementia with delirium (disorder)	y	direct mapping
+429998004	Vascular dementia (disorder)	y	direct mapping
+191463004	Uncomplicated arteriosclerotic dementia (disorder)	y	direct mapping
+312991009	Senile dementia of the Lewy body type (disorder)	y	direct mapping
+230287006	Mixed cortical and subcortical vascular dementia (disorder)	y	direct mapping
+230258005	Amyotrophic lateral sclerosis with dementia (disorder)	y	direct mapping
+56267009	Multi-infarct dementia (disorder)	y	direct mapping
+191466007	Arteriosclerotic dementia with depression (disorder)	y	direct mapping
+230285003	Vascular dementia of acute onset (disorder)	y	direct mapping
+429458009	Dementia due to Creutzfeldt Jakob disease (disorder)	y	direct mapping
+191465006	Arteriosclerotic dementia with paranoia (disorder)	y	direct mapping
+230286002	Subcortical vascular dementia (disorder)	y	direct mapping
+1089521000000100	Predominantly cortical dementia (disorder)	y	direct mapping
+80098002	Diffuse Lewy body disease (disorder)	y	direct mapping
+10349009	Multi-infarct dementia with delirium (disorder)	y	descendant of concept mapped from leaf
+42769004	Diffuse Lewy body disease with spongiform cortical change (disorder)	y	descendant of concept mapped from leaf
+135811000119107	Lewy body dementia with behavioral disturbance (disorder)	y	descendant of concept mapped from leaf
+90099008	Subcortical leukoencephalopathy (disorder)	y	descendant of concept mapped from leaf
+698948009	Vascular dementia in remission (disorder)	y	descendant of concept mapped from leaf
+723123001	Ischemic vascular dementia (disorder)	y	descendant of concept mapped from leaf
+1089531000000100	Predominantly cortical vascular dementia (disorder)	y	descendant of concept mapped from leaf
+288631000119104	Vascular dementia with behavioral disturbance (disorder)	y	descendant of concept mapped from leaf
+70936005	"Multi-infarct dementia, uncomplicated (disorder)"	y	descendant of concept mapped from leaf
+25772007	Multi-infarct dementia with delusions (disorder)	y	descendant of concept mapped from leaf
+14070001	Multi-infarct dementia with depression (disorder)	y	descendant of concept mapped from leaf
+16276361000119100	Vascular dementia without behavioral disturbance (disorder)	y	descendant of concept mapped from leaf
+106021000119105	Multi-infarct dementia due to atherosclerosis (disorder)	y	descendant of concept mapped from leaf
+198681000000106	[X]Lewy body dementia (disorder)	n	via Query Table
+1089581000000100	Predominantly cortical dementia (disorder)	n	via Query Table
+192171006	"[X]Vascular dementia, unspecified (disorder)"	n	via Query Table
+214031000000108	[X]Lewy body dementia	n	via Query Table
+412631000000106	[X]Other vascular dementia (disorder)	n	via Query Table
+414351000000102	[X]Dementia in Creutzfeldt-Jakob disease (disorder)	n	via Query Table
+192175002	[X]Dementia in Creutzfeldt-Jakob disease (disorder)	n	via Query Table
+413281000000101	"[X]Vascular dementia, unspecified (disorder)"	n	via Query Table
