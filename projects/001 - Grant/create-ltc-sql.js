@@ -305,6 +305,10 @@ function loadCodesetReadv2(ltcGroup, conditionCodeSet) {
     .split('\n')
     .map(row => row.split('\t'))
     .filter(items => items.length > 1);
+  if(!fileHeader) {
+    console.log(`The file ${conditionCodeSet} in ${ltcGroup} does not have a header row.`);
+    return [];
+  }
   const readcodeIndex = fileHeader.map(x => x.toLowerCase()).indexOf('readcode');
 
   if(readcodeIndex < 0) {

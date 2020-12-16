@@ -86,3 +86,6 @@
 2020-12-11 07:48-10:00
 - Investigating whether Salford and Stockport hosptials classify admissions
 - Stockport do, Salford don't
+
+2020-12-16 11:00-12:10, 13:10-15:10
+- Generating extraction queries for the medication utilisation data for RQ01

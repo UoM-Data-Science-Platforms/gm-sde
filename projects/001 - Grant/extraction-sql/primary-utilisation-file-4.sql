@@ -1,3 +1,16 @@
+--┌─────────────────────────────────┐
+--│ Primary care utilisation file 4 │
+--└─────────────────────────────────┘
+
+-- OUTPUT: Data with the following fields
+-- 	•	Date (YYYY-MM-DD) 
+-- 	•	CCG (Bolton/Salford/HMR/etc.)
+-- 	•	Practice (P27001/P27001/etc..)
+-- 	•	CovidHealthcareUtilisation (TRUE/FALSE)
+-- 	•	2019IMDDecile (integer 1-10)
+-- 	•	LTCGroup  (none/respiratory/mental health/cardiovascular/ etc.) 
+-- 	•	NumberFirstPrescriptions (integer) 
+
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
@@ -5,58 +18,57 @@ SET NOCOUNT ON;
 DECLARE @StartDate datetime;
 SET @StartDate = '2020-01-01';
 
---┌───────────────────────────────┐
---│ CLASSIFY SECONDARY ADMISSIONS │
---└───────────────────────────────┘
+--┌──────────────────────────────────────┐
+--│ GET First prescriptions from GP data │
+--└──────────────────────────────────────┘
+
+-- INPUT: No pre-requisites
 
 -- OUTPUT: A temp table as follows:
--- #AdmissionTypes (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, AdmissionType)
+-- #FirstMedications (FK_Patient_Link_ID, FirstMedDate, Code)
 -- 	- FK_Patient_Link_ID - unique patient id
---	- AdmissionDate - date of admission (YYYY-MM-DD)
---	- AcuteProvider - Bolton, SRFT, Stockport etc..
---	- AdmissionType - One of: Maternity/Unplanned/Planned/Transfer/Unknown
+--	- FirstMedDate - date of discharge (YYYY-MM-DD)
+--	- Code - The medication code as either:
+--					 "FNNNNNN" where 'NNNNNN' is a FK_Reference_Coding_ID or 
+--					 "SNNNNNN" where 'NNNNNN' is a FK_Reference_SnomedCT_ID
 
--- For each acute admission we find the type. If multiple admissions on same day
--- we group and take the 'highest' category e.g.
--- choose Unplanned, then Planned, then Maternity, then Transfer, then Unknown
-IF OBJECT_ID('tempdb..#AdmissionTypes') IS NOT NULL DROP TABLE #AdmissionTypes;
+-- Finds the first medication dates for each person. That is the dates on which each
+-- new medication was first given to a patient. We rely on the first occurrence of
+-- either the FK_Reference_Coding_ID or the FK_Reference_SnomedCT_ID instead of the
+-- SuppliedCode field. Partly for performance reasons as grouping the entire table
+-- on the VARCHAR field SuppliedCode takes several hours, but mainly because a person
+-- receiving the same drug sometimes with the Read code and sometimes with the EMIS
+-- code would appear as having two drugs prescribed. This is mitigated to some degree
+-- by using the FK...IDs where the same drug with multiple clinical codes would only
+-- appear once in the lookup tables.
+IF OBJECT_ID('tempdb..#FirstMedications') IS NOT NULL DROP TABLE #FirstMedications;
 SELECT 
-	FK_Patient_Link_ID, AdmissionDate, 
-	CASE 
-		WHEN AdmissionId = 5 THEN 'Maternity' 
-		WHEN AdmissionId = 4 THEN 'Unplanned' 
-		WHEN AdmissionId = 3 THEN 'Planned' 
-		WHEN AdmissionId = 2 THEN 'Transfer' 
-		WHEN AdmissionId = 1 THEN 'Unknown' 
-	END as AdmissionType,
-	AcuteProvider 
-INTO #AdmissionTypes FROM (
-	SELECT 
-		FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) as AdmissionDate, 
-		MAX(
-			CASE 
-				WHEN AdmissionTypeCode IN ('PL','11','WL','13','12','BL','TR','IPPlannedAd') THEN 3 --'Planned'
-				WHEN AdmissionTypeCode IN ('AE','21','22','23','EM','28','2D','24','AI','BB','DO','2A','A+E Admission','Emerg GP') THEN 4 --'Unplanned'
-				WHEN AdmissionTypeCode IN ('31','BH','AN','82','PN','32','BHOSP','83') THEN 5 --'Maternity'
-				WHEN AdmissionTypeCode IN ('81', 'ET','T','HospTran') THEN 2 --'Transfer'
-				ELSE 1 --'Unknown'
-			END
-		)	AS AdmissionId,
-		t.TenancyName AS AcuteProvider
-	FROM RLS.vw_Acute_Inpatients i
-	LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
-	WHERE EventType = 'Admission'
-	AND AdmissionDate >= @StartDate
-	GROUP BY FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate), t.TenancyName
-) sub;
--- 523477 rows	523477 rows
--- 00:00:16		00:00:45
+	FK_Patient_Link_ID, 
+	MIN(CONVERT(DATE, MedicationDate)) AS FirstMedDate,
+	CASE
+		WHEN FK_Reference_Coding_ID != -1 THEN 'F'+CONVERT(VARCHAR,FK_Reference_Coding_ID)
+		ELSE 'S'+CONVERT(VARCHAR,FK_Reference_SnomedCT_ID)
+	END AS Code
+INTO #FirstMedications
+FROM RLS.vw_GP_Medications
+WHERE (FK_Reference_Coding_ID != -1 OR FK_Reference_SnomedCT_ID != -1)
+GROUP BY 
+	FK_Patient_Link_ID, 
+	CASE
+		WHEN FK_Reference_Coding_ID != -1 THEN 'F'+CONVERT(VARCHAR,FK_Reference_Coding_ID)
+		ELSE 'S'+CONVERT(VARCHAR,FK_Reference_SnomedCT_ID)
+	END
+HAVING MIN(CONVERT(DATE, MedicationDate)) >= @StartDate;
+-- 3681476
+-- 00:08:58
 
 -- Populate a table with all the patients so in the future we can get their LTCs and deprivation score etc.
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT DISTINCT FK_Patient_Link_ID INTO #Patients FROM #AdmissionTypes;
--- 286087 rows
--- 00:00:01
+SELECT DISTINCT FK_Patient_Link_ID INTO #Patients FROM #FirstMedications;
+
+-- Populate a table with all the patients and the event dates for use later classifying as COVID/non-COVID
+IF OBJECT_ID('tempdb..#PatientDates') IS NOT NULL DROP TABLE #PatientDates;
+SELECT DISTINCT FK_Patient_Link_ID, FirstMedDate as EventDate INTO #PatientDates FROM #FirstMedications;
 
 --
 --┌──────────┐
@@ -517,96 +529,23 @@ HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1Is
 -- 489
 -- 00:00:00
 
---┌─────────────────────────────────────────────┐
---│ GET Secondary Admissions and Length of Stay │
---└─────────────────────────────────────────────┘
-
--- INPUT: No pre-requisites
-
--- OUTPUT: Two temp table as follows:
--- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
--- 	- FK_Patient_Link_ID - unique patient id
---	- AdmissionDate - date of discharge (YYYY-MM-DD)
---	- AcuteProvider - Bolton, SRFT, Stockport etc..
---  (Limited to one admission per person per hospital per day, because if a patient has 2 admissions 
---   on the same day to the same hopsital then it's most likely data duplication rather than two short
---   hospital stays)
--- #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
--- 	- FK_Patient_Link_ID - unique patient id
---	- AdmissionDate - date of discharge (YYYY-MM-DD)
---	- DischargeDate - date of discharge (YYYY-MM-DD)
---	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
-
--- Populate temporary table with admissions
--- Convert AdmissionDate to a date to avoid issues where a person has two admissions
--- on the same day (but only one discharge)
-IF OBJECT_ID('tempdb..#Admissions') IS NOT NULL DROP TABLE #Admissions;
-SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) AS AdmissionDate, t.TenancyName AS AcuteProvider INTO #Admissions FROM [RLS].[vw_Acute_Inpatients] i
-LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
-WHERE EventType = 'Admission'
-AND AdmissionDate >= @StartDate;
--- 523477 rows	523477 rows
--- 00:00:19		00:00:15
-
---┌──────────────────────────┐
---│ GET Secondary Discharges │
---└──────────────────────────┘
-
--- INPUT: No pre-requisites
-
--- OUTPUT: A temp table as follows:
--- #Discharges (FK_Patient_Link_ID, DischargeDate, AcuteProvider)
--- 	- FK_Patient_Link_ID - unique patient id
---	- DischargeDate - date of discharge (YYYY-MM-DD)
---	- AcuteProvider - Bolton, SRFT, Stockport etc..
---  (Limited to one discharge per person per hospital per day, because if a patient has 2 discharges 
---   on the same day to the same hopsital then it's most likely data duplication rather than two short
---   hospital stays)
-
--- Populate temporary table with discharges
-IF OBJECT_ID('tempdb..#Discharges') IS NOT NULL DROP TABLE #Discharges;
-SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, DischargeDate) AS DischargeDate, t.TenancyName AS AcuteProvider INTO #Discharges FROM [RLS].[vw_Acute_Inpatients] i
-LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
-WHERE EventType = 'Discharge'
-AND DischargeDate >= @StartDate;
--- 535285 rows	535285 rows
--- 00:00:28		00:00:14
-
-
--- Link admission with discharge to get length of stay
--- Length of stay is zero-indexed e.g. 
--- 1 = [0,1) days
--- 2 = [1,2) days
-IF OBJECT_ID('tempdb..#LengthOfStay') IS NOT NULL DROP TABLE #LengthOfStay;
-SELECT 
-	a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider, 
-	MIN(d.DischargeDate) AS DischargeDate, 
-	1 + DATEDIFF(day,a.AdmissionDate, MIN(d.DischargeDate)) AS LengthOfStay
-	INTO #LengthOfStay
-FROM #Admissions a
-INNER JOIN #Discharges d ON d.FK_Patient_Link_ID = a.FK_Patient_Link_ID AND d.DischargeDate >= a.AdmissionDate AND d.AcuteProvider = a.AcuteProvider
-GROUP BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider
-ORDER BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider;
--- 511740 rows	511740 rows	
--- 00:00:04		00:00:05
-
-
---┌─────────────────────────────────────────────────┐
---│ GET COVID utilisation from secondary admissions │
---└─────────────────────────────────────────────────┘
+--┌──────────────────────────────────────────────┐
+--│ GET COVID utilisation from primary care data │
+--└──────────────────────────────────────────────┘
 
 -- INPUT: Assumes there exists two temp tables as follows:
 -- #Patients (FK_Patient_Link_ID)
 --  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
--- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
---  A distinct list of the admissions for each patient in the cohort
+-- #PatientDates (FK_Patient_Link_ID, EventDate)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- EventDate - date of the event to classify as COVID/non-COVID
+--  A distinct list of the dates of the event for each patient in the cohort
 
 -- OUTPUT: A temp table as follows:
--- #COVIDUtilisationAdmissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
+-- #COVIDUtilisationPrimaryCare (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
 -- 	- FK_Patient_Link_ID - unique patient id
---	- AdmissionDate - date of discharge (YYYY-MM-DD)
---	- AcuteProvider - Bolton, SRFT, Stockport etc..
---  - CovidHealthcareUtilisation - 'TRUE' if admission within 4 weeks after, or up to 14 days before, a positive test
+--	- EventDate - date of the event to classify as COVID/non-COVID
+--  - CovidHealthcareUtilisation - 'TRUE' if event within 4 weeks after, or up to 14 days before, a positive test
 
 -- Get first positive covid test for each patient
 IF OBJECT_ID('tempdb..#CovidCases') IS NOT NULL DROP TABLE #CovidCases;
@@ -616,87 +555,128 @@ WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND GroupDescription = 'Confirmed'
 GROUP BY FK_Patient_Link_ID;
 
-
-IF OBJECT_ID('tempdb..#COVIDUtilisationAdmissions') IS NOT NULL DROP TABLE #COVIDUtilisationAdmissions;
+IF OBJECT_ID('tempdb..#COVIDUtilisationPrimaryCare') IS NOT NULL DROP TABLE #COVIDUtilisationPrimaryCare;
 SELECT 
-	a.*, 
+	pd.*, 
 	CASE
 		WHEN c.FK_Patient_Link_ID IS NOT NULL THEN 'TRUE'
 		ELSE 'FALSE'
 	END AS CovidHealthcareUtilisation
-INTO #COVIDUtilisationAdmissions 
-FROM #Admissions a
+INTO #COVIDUtilisationPrimaryCare 
+FROM #PatientDates pd
 LEFT OUTER join #CovidCases c ON 
-	a.FK_Patient_Link_ID = c.FK_Patient_Link_ID 
-	AND a.AdmissionDate <= DATEADD(WEEK, 4, c.CovidPositiveDate)
-	AND a.AdmissionDate >= DATEADD(DAY, -14, c.CovidPositiveDate);
+	pd.FK_Patient_Link_ID = c.FK_Patient_Link_ID 
+	AND pd.EventDate <= DATEADD(WEEK, 4, c.CovidPositiveDate)
+	AND pd.EventDate >= DATEADD(DAY, -14, c.CovidPositiveDate);
 
+--┌───────────────────────────────────────┐
+--│ GET practice and ccg for each patient │
+--└───────────────────────────────────────┘
 
--- Prepare discharge data
-IF OBJECT_ID('tempdb..#FinalDischarges') IS NOT NULL DROP TABLE #FinalDischarges;
-SELECT 
-	DischargeDate, l.AcuteProvider,	ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
-	ISNULL(LTCGroup, 'None') AS LTCGroup, CovidHealthcareUtilisation, count(*) AS NumberDischarged 
-	INTO #FinalDischarges
-FROM #LengthOfStay l
-LEFT OUTER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND c.AdmissionDate = l.AdmissionDate AND c.AcuteProvider = l.AcuteProvider
-LEFT OUTER JOIN #LTCGroups ltc ON ltc.FK_Patient_Link_ID = l.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = l.FK_Patient_Link_ID
-GROUP BY DischargeDate, l.AcuteProvider,IMD2019Decile1IsMostDeprived10IsLeastDeprived, LTCGroup, CovidHealthcareUtilisation;
--- 28764
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 
--- Prepare admission data
-IF OBJECT_ID('tempdb..#FinalAdmissions') IS NOT NULL DROP TABLE #FinalAdmissions;
-SELECT 
-	p.AdmissionDate, p.AcuteProvider, ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
-	ISNULL(LTCGroup, 'None') AS LTCGroup, CovidHealthcareUtilisation,
-	SUM(CASE WHEN AdmissionType = 'Unplanned' THEN 1 ELSE 0 END) AS NumberUnplannedAdmissions,
-	SUM(CASE WHEN AdmissionType = 'Planned' THEN 1 ELSE 0 END) AS NumberPlannedAdmissions,
-	SUM(CASE WHEN AdmissionType = 'Maternity' THEN 1 ELSE 0 END) AS NumberMaternityAdmissions,
-	SUM(CASE WHEN AdmissionType = 'Transfer' THEN 1 ELSE 0 END) AS NumberTransferAdmissions,
-	SUM(CASE WHEN AdmissionType = 'Unknown' THEN 1 ELSE 0 END) AS NumberUnknownAdmissions,
-	avg(CAST(l.LengthOfStay AS FLOAT)) AS AverageLengthOfStay
-	INTO #FinalAdmissions
-FROM #AdmissionTypes p
-	LEFT OUTER JOIN #Admissions a ON a.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND a.AdmissionDate = p.AdmissionDate AND a.AcuteProvider = p.AcuteProvider
-	LEFT OUTER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND c.AdmissionDate = p.AdmissionDate AND c.AcuteProvider = p.AcuteProvider
-	LEFT OUTER JOIN #LengthOfStay l ON l.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND l.AdmissionDate = p.AdmissionDate AND l.AcuteProvider = p.AcuteProvider
-	LEFT OUTER JOIN #LTCGroups ltc ON ltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-	LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-GROUP BY p.AdmissionDate,p.AcuteProvider,IMD2019Decile1IsMostDeprived10IsLeastDeprived, CovidHealthcareUtilisation,LTCGroup;
--- 29833
+-- OUTPUT: Two temp tables as follows:
+-- #PatientPractice (FK_Patient_Link_ID, GPPracticeCode)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- GPPracticeCode - the nationally recognised practice id for the patient
+-- #PatientPracticeAndCCG (FK_Patient_Link_ID, GPPracticeCode, CCG)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- GPPracticeCode - the nationally recognised practice id for the patient
+--  - CCG - the name of the patient's CCG
 
--- Find unique combinations of data, provider, decile, ltcGroup and covid utilisation
-IF OBJECT_ID('tempdb..#CovariateCombinations') IS NOT NULL DROP TABLE #CovariateCombinations;
-SELECT DISTINCT DischargeDate AS [Date], AcuteProvider, IMD2019Decile1IsMostDeprived10IsLeastDeprived, LTCGroup, CovidHealthcareUtilisation
-INTO #CovariateCombinations
-FROM #FinalDischarges
-UNION
-SELECT DISTINCT AdmissionDate, AcuteProvider,IMD2019Decile1IsMostDeprived10IsLeastDeprived, LTCGroup, CovidHealthcareUtilisation
-FROM #FinalAdmissions
---32352
+-- If patients have a tenancy id of 2 we take this as their most likely GP practice
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientPractice') IS NOT NULL DROP TABLE #PatientPractice;
+SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) as GPPracticeCode INTO #PatientPractice FROM RLS.vw_Patient
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+GROUP BY FK_Patient_Link_ID;
+-- 1298467 rows
+-- 00:00:11
+
+-- Find the patients who remain unmatched
+IF OBJECT_ID('tempdb..#UnmatchedPatientsForPracticeCode') IS NOT NULL DROP TABLE #UnmatchedPatientsForPracticeCode;
+SELECT FK_Patient_Link_ID INTO #UnmatchedPatientsForPracticeCode FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientPractice;
+-- 12702 rows
+-- 00:00:00
+
+-- If every GPPracticeCode is the same for all their linked patient ids then we use that
+INSERT INTO #PatientPractice
+SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) FROM RLS.vw_Patient
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatientsForPracticeCode)
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(GPPracticeCode) = MAX(GPPracticeCode);
+-- 12141
+-- 00:00:00
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedPatientsForPracticeCode;
+INSERT INTO #UnmatchedPatientsForPracticeCode
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientPractice;
+-- 561 rows
+-- 00:00:00
+
+-- If there is a unique most recent gp practice then we use that
+INSERT INTO #PatientPractice
+SELECT p.FK_Patient_Link_ID, MIN(p.GPPracticeCode) FROM RLS.vw_Patient p
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM RLS.vw_Patient
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatientsForPracticeCode)
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+GROUP BY p.FK_Patient_Link_ID
+HAVING MIN(GPPracticeCode) = MAX(GPPracticeCode);
+-- 15
+
+--┌──────────────────┐
+--│ CCG Lookup table │
+--└──────────────────┘
+
+-- The GMCR provides the CCG id (e.g. '00T', '01G') but not the CCG name.
+-- This table can be used in other queries when the output is required to
+-- be a ccg name rather than an id.
+
+-- OUTPUT: A temp table as follows:
+-- #CCGLookup (CcgId, CcgName)
+-- 	- CcgId - Nationally recognised ccg id
+--	- CcgName - Bolton, Stockport etc..
+
+IF OBJECT_ID('tempdb..#CCGLookup') IS NOT NULL DROP TABLE #CCGLookup;
+CREATE TABLE #CCGLookup (CcgId nchar(3), CcgName nvarchar(20));
+INSERT INTO #CCGLookup VALUES ('01G', 'Salford'); 
+INSERT INTO #CCGLookup VALUES ('00T', 'Bolton'); 
+INSERT INTO #CCGLookup VALUES ('01D', 'HMR'); 
+INSERT INTO #CCGLookup VALUES ('02A', 'Trafford'); 
+INSERT INTO #CCGLookup VALUES ('01W', 'Stockport');
+INSERT INTO #CCGLookup VALUES ('00Y', 'Oldham'); 
+INSERT INTO #CCGLookup VALUES ('02H', 'Wigan'); 
+INSERT INTO #CCGLookup VALUES ('00V', 'Bury'); 
+INSERT INTO #CCGLookup VALUES ('14L', 'Manchester'); 
+INSERT INTO #CCGLookup VALUES ('01Y', 'Tameside Glossop'); 
+
+IF OBJECT_ID('tempdb..#PatientPracticeAndCCG') IS NOT NULL DROP TABLE #PatientPracticeAndCCG;
+SELECT p.FK_Patient_Link_ID, ISNULL(pp.GPPracticeCode,'') AS GPPracticeCode, ISNULL(ccg.CcgName, '') AS CCG
+INTO #PatientPracticeAndCCG
+FROM #Patients p
+LEFT OUTER JOIN #PatientPractice pp ON pp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN SharedCare.Reference_GP_Practice gp ON gp.OrganisationCode = pp.GPPracticeCode
+LEFT OUTER JOIN #CCGLookup ccg ON ccg.CcgId = gp.Commissioner;
 
 -- Bring it all together for output
 SELECT 
-	cc.[Date], cc.AcuteProvider, cc.IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
-	cc.LTCGroup, cc.CovidHealthcareUtilisation,
-	ISNULL(fa.NumberMaternityAdmissions, 0) AS NumberMaternityAdmissions, 
-	ISNULL(fa.NumberPlannedAdmissions, 0) AS NumberPlannedAdmissions, 
-	ISNULL(fa.NumberTransferAdmissions, 0) AS NumberTransferAdmissions,
-	ISNULL(fa.NumberUnknownAdmissions, 0) AS NumberUnknownAdmissions, 
-	ISNULL(fa.NumberUnplannedAdmissions, 0) AS NumberUnplannedAdmissions, 
-	ISNULL(fd.NumberDischarged, 0) AS NumberDischarged
-	FROM #CovariateCombinations cc
-LEFT OUTER JOIN #FinalAdmissions fa ON 
-	fa.AdmissionDate = cc.[Date] AND
-	fa.AcuteProvider = cc.AcuteProvider AND
-	fa.IMD2019Decile1IsMostDeprived10IsLeastDeprived = cc.IMD2019Decile1IsMostDeprived10IsLeastDeprived AND
-	fa.LTCGroup = cc.LTCGroup AND
-	fa.CovidHealthcareUtilisation = cc.CovidHealthcareUtilisation
-LEFT OUTER JOIN #FinalDischarges fd ON 
-	fd.DischargeDate = cc.[Date] AND
-	fd.AcuteProvider = cc.AcuteProvider AND
-	fd.IMD2019Decile1IsMostDeprived10IsLeastDeprived = cc.IMD2019Decile1IsMostDeprived10IsLeastDeprived AND
-	fd.LTCGroup = cc.LTCGroup AND
-	fd.CovidHealthcareUtilisation = cc.CovidHealthcareUtilisation
-ORDER BY cc.[Date], cc.AcuteProvider, cc.IMD2019Decile1IsMostDeprived10IsLeastDeprived, cc.LTCGroup, cc.CovidHealthcareUtilisation;
+	fm.FirstMedDate, CCG, GPPracticeCode, 
+	ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
+	ISNULL(LTCGroup, 'None') AS LTCGroup, CovidHealthcareUtilisation, count(*) AS NumberFirstPrescriptions  
+FROM #FirstMedications fm
+LEFT OUTER JOIN #COVIDUtilisationPrimaryCare c ON c.FK_Patient_Link_ID = fm.FK_Patient_Link_ID AND c.EventDate = fm.FirstMedDate
+LEFT OUTER JOIN #LTCGroups ltc ON ltc.FK_Patient_Link_ID = fm.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = fm.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientPracticeAndCCG pc ON pc.FK_Patient_Link_ID = fm.FK_Patient_Link_ID
+GROUP BY FirstMedDate, CCG, GPPracticeCode,IMD2019Decile1IsMostDeprived10IsLeastDeprived, LTCGroup, CovidHealthcareUtilisation
+ORDER BY FirstMedDate, CCG, GPPracticeCode,IMD2019Decile1IsMostDeprived10IsLeastDeprived, LTCGroup, CovidHealthcareUtilisation;

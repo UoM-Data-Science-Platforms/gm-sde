@@ -1,5 +1,5 @@
 --┌─────────────────────────────────┐
---│ Primary care utilisation file 3 │
+--│ Primary care utilisation file 4 │
 --└─────────────────────────────────┘
 
 -- OUTPUT: Data with the following fields
@@ -8,7 +8,7 @@
 -- 	•	Practice (P27001/P27001/etc..)
 -- 	•	CovidHealthcareUtilisation (TRUE/FALSE)
 -- 	•	2019IMDDecile (integer 1-10)
--- 	•	NumberOfLTCs (integer 0,1,2) – where 2 represents 2 or more
+-- 	•	LTCGroup  (none/respiratory/mental health/cardiovascular/ etc.) 
 -- 	•	NumberFirstPrescriptions (integer) 
 
 --Just want the output, not the messages
@@ -30,7 +30,7 @@ SELECT DISTINCT FK_Patient_Link_ID, FirstMedDate as EventDate INTO #PatientDates
 
 --> EXECUTE query-patient-ltcs.sql
 
---> EXECUTE query-patient-ltcs-number-of.sql
+--> EXECUTE query-patient-ltcs-group.sql
 
 --> EXECUTE query-patient-imd.sql
 
@@ -42,11 +42,11 @@ SELECT DISTINCT FK_Patient_Link_ID, FirstMedDate as EventDate INTO #PatientDates
 SELECT 
 	fm.FirstMedDate, CCG, GPPracticeCode, 
 	ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
-	ISNULL(NumberOfLTCs,0) AS NumberOfLTCs, CovidHealthcareUtilisation, count(*) AS NumberFirstPrescriptions  
+	ISNULL(LTCGroup, 'None') AS LTCGroup, CovidHealthcareUtilisation, count(*) AS NumberFirstPrescriptions  
 FROM #FirstMedications fm
 LEFT OUTER JOIN #COVIDUtilisationPrimaryCare c ON c.FK_Patient_Link_ID = fm.FK_Patient_Link_ID AND c.EventDate = fm.FirstMedDate
-LEFT OUTER JOIN #NumLTCs ltc ON ltc.FK_Patient_Link_ID = fm.FK_Patient_Link_ID
+LEFT OUTER JOIN #LTCGroups ltc ON ltc.FK_Patient_Link_ID = fm.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = fm.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientPracticeAndCCG pc ON pc.FK_Patient_Link_ID = fm.FK_Patient_Link_ID
-GROUP BY FirstMedDate, CCG, GPPracticeCode,IMD2019Decile1IsMostDeprived10IsLeastDeprived, NumberOfLTCs, CovidHealthcareUtilisation
-ORDER BY FirstMedDate, CCG, GPPracticeCode,IMD2019Decile1IsMostDeprived10IsLeastDeprived, NumberOfLTCs, CovidHealthcareUtilisation;
+GROUP BY FirstMedDate, CCG, GPPracticeCode,IMD2019Decile1IsMostDeprived10IsLeastDeprived, LTCGroup, CovidHealthcareUtilisation
+ORDER BY FirstMedDate, CCG, GPPracticeCode,IMD2019Decile1IsMostDeprived10IsLeastDeprived, LTCGroup, CovidHealthcareUtilisation;
