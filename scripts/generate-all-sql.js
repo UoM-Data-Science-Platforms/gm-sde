@@ -1,42 +1,53 @@
 const { readFileSync, readdirSync, writeFileSync } = require('fs');
 const { join } = require('path');
 
-const OUTPUT_DIRECTORY = join(__dirname, 'extraction-sql');
-const TEMPLATE_DIRECTORY = join(__dirname);
-const REUSABLE_DIRECTORY = join(__dirname, '..', '..', 'shared', 'Reusable queries for data extraction');
+const PROJECT_DIRECTORY = join(__dirname, '..', 'projects');
+const REUSABLE_DIRECTORY = join(__dirname, '..', 'shared', 'Reusable queries for data extraction');
 
-// Find templates
-const templates = findTemplates();
+// Find projects
+const projects = findProjects();
 
-// Warning if no templates found
-warnIfNoTemplatesFound();
+projects.forEach((project) => {
+  // Find templates
+  const templates = findTemplates(project);
 
-// Generate sql to execute on server
-generateSql();
+  // Warning if no templates found
+  warnIfNoTemplatesFound(project, templates);
 
+  // Generate sql to execute on server
+  generateSql(project, templates);
+})
 
 //
 // FUNCTIONS
 //
 
-function findTemplates() {
-  return readdirSync(TEMPLATE_DIRECTORY, { withFileTypes: true }) // read all children of this directory
-    .filter(item => item.isFile()) // ..then filter to just directories under LTC_DIRECTORY
-    .map(file => file.name) // ..then return the file name
-    .filter(filename => filename.toLowerCase().match(/^.+-file-[0-9]+.sql$/));
+function findProjects() {
+  return readdirSync(PROJECT_DIRECTORY, { withFileTypes: true }) // read all children of this directory
+    .filter(item => item.isDirectory()) // ..then filter to just directories under PROJECT_DIRECTORY
+    .map(dir => dir.name) // ..then return the directory name
+    .filter(filename => filename.toLowerCase().match(/^[0-9]+ - .+$/)); // Must be of the form "NNN - [Name]"
 }
 
-function warnIfNoTemplatesFound() {
+function findTemplates(project) {
+  return readdirSync(join(PROJECT_DIRECTORY, project), { withFileTypes: true }) // read all children of this directory
+    .filter(item => item.isFile()) // ..then filter to just files under the project directory
+    .map(file => file.name) // ..then return the file name
+    .filter(filename => filename.toLowerCase().match(/^.+-file-[0-9]+.sql$/));// Filename must end "-file-NN.sql"
+}
+
+function warnIfNoTemplatesFound(project, templates) {
   if(templates.length === 0) {
-    console.error(`There are no template files in ${TEMPLATE_DIRECTORY}.`);
+    console.error(`There are no template files in ${project}.`);
     console.log('There should be at least one file with a name like: [group]-file-[n].sql.');
     console.log('E.g. "secondary-utilisation-file-1.sql');
   }
 }
 
-function generateSql() {
+function generateSql(project, templates) {
+  const OUTPUT_DIRECTORY = join(PROJECT_DIRECTORY, project, 'extraction-sql');
   templates.forEach((templateName) => {
-    const filename = join(__dirname, templateName);
+    const filename = join(PROJECT_DIRECTORY, project, templateName);
     const sql = processFile(filename)
 
     writeFileSync(join(OUTPUT_DIRECTORY, templateName), sql);
