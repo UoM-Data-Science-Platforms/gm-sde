@@ -3,7 +3,7 @@ const { join } = require('path');
 
 const OUTPUT_DIRECTORY = join(__dirname, 'extraction-sql');
 const TEMPLATE_DIRECTORY = join(__dirname);
-const REUSABLE_DIRECTORY = join(__dirname, 'reusable');
+const REUSABLE_DIRECTORY = join(__dirname, '..', '..', 'shared', 'Reusable queries for data extraction');
 
 // Find templates
 const templates = findTemplates();
