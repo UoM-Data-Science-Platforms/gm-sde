@@ -2,8 +2,8 @@ const { readFileSync, readdirSync, writeFileSync } = require('fs');
 const { join } = require('path');
 
 const LTC_DIRECTORY = join(__dirname, '..', '..', 'shared', 'Long-term conditions');
-const OUTPUT_FILE = join(__dirname, 'reusable', 'query-patient-ltcs.sql');
-const OUTPUT_GROUP_FILE = join(__dirname, 'reusable', 'query-patient-ltcs-group.sql');
+const OUTPUT_FILE = join(__dirname, '..', '..', 'shared', 'Reusable queries for data extraction', 'query-patient-ltcs.sql');
+const OUTPUT_GROUP_FILE = join(__dirname, '..', '..', 'shared', 'Reusable queries for data extraction', 'query-patient-ltcs-group.sql');
 
 // A list of the LTC groups
 const LTCGroups = getListOfLTCGroups();
