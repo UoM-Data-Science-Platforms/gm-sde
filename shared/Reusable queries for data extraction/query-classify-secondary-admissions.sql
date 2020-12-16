@@ -2,6 +2,16 @@
 --│ CLASSIFY SECONDARY ADMISSIONS │
 --└───────────────────────────────┘
 
+-- OBJECTIVE: To categorise admissions to secondary care into 5 categories: Maternity, 
+--						Unplanned, Planned, Transfer and Unknown.
+
+-- ASSUMPTIONS:
+--	-	We assume patients can only have one admission per day. This is probably not true, but 
+--		where we see multiple admissions it is more likely to be data duplication, or internal
+--		admissions, than an admission, discharge and another admission in the same day.
+--	-	Where patients have multiple admissions we choose the "highest" category for admission
+--		with the categories ranked as follows: Maternity > Unplanned > Planned > Transfer > Unknown
+
 -- OUTPUT: A temp table as follows:
 -- #AdmissionTypes (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, AdmissionType)
 -- 	- FK_Patient_Link_ID - unique patient id

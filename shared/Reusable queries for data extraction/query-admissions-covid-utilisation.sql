@@ -2,6 +2,10 @@
 --│ GET COVID utilisation from secondary admissions │
 --└─────────────────────────────────────────────────┘
 
+-- OBJECTIVE: To classify every admission to secondary care based on whether it is a COVID or non-COVID related. 
+--						A COVID-related admission is classed as an admission within 4 weeks after, or up to 2 weeks before
+--						a positive test.
+
 -- INPUT: Assumes there exists two temp tables as follows:
 -- #Patients (FK_Patient_Link_ID)
 --  A distinct list of FK_Patient_Link_IDs for each patient in the cohort

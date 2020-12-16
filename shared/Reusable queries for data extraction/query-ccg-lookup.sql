@@ -2,9 +2,9 @@
 --│ CCG Lookup table │
 --└──────────────────┘
 
--- The GMCR provides the CCG id (e.g. '00T', '01G') but not the CCG name.
--- This table can be used in other queries when the output is required to
--- be a ccg name rather than an id.
+-- OBJECTIVE: To provide a CCG name lookup table. The GMCR provides the CCG id (e.g. '00T', '01G') but not 
+--            the CCG name. This table can be used in other queries when the output is required to be a ccg 
+--            name rather than an id.
 
 -- OUTPUT: A temp table as follows:
 -- #CCGLookup (CcgId, CcgName)
