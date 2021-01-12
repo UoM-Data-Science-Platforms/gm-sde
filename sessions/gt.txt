@@ -42,3 +42,6 @@ Attempted to find the location of information related to project no.1 (Grant), i
 07/12/20 12:15 - 12:30
  - checking potential missing covid codes for Graphnet
 
+06/01/21 13:45 - 14:00
+- confirming that the covid codes now appear in the covid19 table
+
