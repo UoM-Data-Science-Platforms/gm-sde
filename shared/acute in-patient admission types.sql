@@ -26,11 +26,18 @@ ORDER BY MAX(a.tot) DESC
 -- 13	Elective - Planned	58921
 -- 12	Elective - Booked	37468
 -- BL	ELECTIVE BOOKED	36475
+-- D	NULL	11805
+-- Endoscopy	Endoscopy	1537
 -- OP	DIRECT OUTPAT CLINIC	1474
+-- Venesection	X36.2 Venesection	830
+-- Colonoscopy	H22.9 Colonoscopy	591
+-- Medical	 Medical	486
 
 --UNPLANNED
 -- AE	AE.DEPT.OF PROVIDER	315265
 -- 21	Emergency - Local A&E	252606
+-- I	NULL	45379
+-- GP	GP OR LOCUM GP	30651
 -- 22	Emergency - GP	26028
 -- 23	Emergency - Bed Bureau	25329
 -- 28	Emergency - Other (inc other provider A&E)	7102
@@ -63,17 +70,7 @@ ORDER BY MAX(a.tot) DESC
 -- CentTrans	Transfer from CEN Site	118
 
 --OTHER
--- I	NULL	45379
--- GP	GP OR LOCUM GP	30651
--- D	NULL	11805
--- Endoscopy	Endoscopy	1537
 -- 18	CHILDRENS ONLY	1053
--- Venesection	X36.2 Venesection	830
--- Colonoscopy	H22.9 Colonoscopy	591
--- Medical	 Medical	486
-
--- IGNORE BELOW - DONT OCCUR ENOUGH
-
 -- NSP	Not Specified	455
 -- Blood test	X36.9 Blood test	317
 -- Flex sigmoidosco	H25.9 Flexible sigmoidoscopy FOS	270
