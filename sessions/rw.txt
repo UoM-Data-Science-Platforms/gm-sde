@@ -89,3 +89,13 @@
 
 2020-12-16 11:00-12:10, 13:10-15:10
 - Generating extraction queries for the medication utilisation data for RQ01
+
+2021-01-07 08:40-09:20
+- Checking whether we have measurements (e.g. oxygen saturation, respiratory rate) in the acute data
+- We don't
+- Checking whether we have measurements in the GP data that are close to admission dates
+- Yes - but only between 0.5% (same day) and 1.5% (within 2 weeks either side)
+
+2021-01-13 15:19-15:24
+- Checking status of the track and trace test results
+- Not there yet
