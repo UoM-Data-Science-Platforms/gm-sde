@@ -69,9 +69,9 @@ function getCodesets() {
 
 function createGroupSQL() {
   const sql = `--
--- ┌────────────────────────────┐
--- │ GET LTC Groups per patient │
--- └────────────────────────────┘
+--┌────────────────────────────┐
+--│ GET LTC Groups per patient │
+--└────────────────────────────┘
 
 -- INPUT: Assumes there exists a temp table as follows:
 -- #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
