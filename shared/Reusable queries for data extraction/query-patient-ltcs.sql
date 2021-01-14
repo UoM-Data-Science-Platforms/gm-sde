@@ -1,7 +1,9 @@
 --
---┌──────────┐
---│ GET LTCS │
---└──────────┘
+--┌──────────────────────┐
+--│ Long-term conditions │
+--└──────────────────────┘
+
+-- OBJECTIVE: To get every long-term condition for each patient.
 
 -- INPUT: Assumes there exists a temp table as follows:
 -- #Patients (FK_Patient_Link_ID)

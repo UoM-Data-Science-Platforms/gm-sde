@@ -1,6 +1,9 @@
---┌──────────────────────────┐
---│ GET Secondary Discharges │
---└──────────────────────────┘
+--┌──────────────────────┐
+--│ Secondary discharges │
+--└──────────────────────┘
+
+-- OBJECTIVE: To obtain a table with every secondary care discharge, along with the acute provider,
+--						and the date of discharge.
 
 -- INPUT: No pre-requisites
 

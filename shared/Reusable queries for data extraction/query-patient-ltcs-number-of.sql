@@ -2,6 +2,8 @@
 --│ GET No. LTCS per patient │
 --└──────────────────────────┘
 
+-- OBJECTIVE: To get the number of long-term conditions for each patient.
+
 -- INPUT: Assumes there exists a temp table as follows:
 -- #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
 -- Therefore this is run after query-patient-ltcs.sql
@@ -11,10 +13,10 @@
 
 -- Calculate the number of LTCs for each patient
 IF OBJECT_ID('tempdb..#NumLTCs') IS NOT NULL DROP TABLE #NumLTCs;
-SELECT 
-  FK_Patient_Link_ID, 
+SELECT
+  FK_Patient_Link_ID,
   CASE
-    WHEN NumberOfLTCs > 2 THEN 2 
+    WHEN NumberOfLTCs > 2 THEN 2
     ELSE NumberOfLTCs
   END AS NumberOfLTCs
 INTO #NumLTCs

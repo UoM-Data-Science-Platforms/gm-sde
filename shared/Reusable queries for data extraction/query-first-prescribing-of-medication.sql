@@ -1,8 +1,8 @@
---┌──────────────────────────────────────┐
---│ GET First prescriptions from GP data │
---└──────────────────────────────────────┘
+--┌──────────────────────────────────┐
+--│ First prescriptions from GP data │
+--└──────────────────────────────────┘
 
--- OBJECTIVE: To obtain for each patient the first date for each medications they have ever
+-- OBJECTIVE: To obtain, for each patient, the first date for each medication they have ever
 --						been prescribed.
 
 -- ASSUMPTIONS:

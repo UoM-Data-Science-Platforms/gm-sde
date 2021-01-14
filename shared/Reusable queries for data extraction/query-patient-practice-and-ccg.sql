@@ -2,6 +2,9 @@
 --│ GET practice and ccg for each patient │
 --└───────────────────────────────────────┘
 
+-- OBJECTIVE:	For each patient to get the practice id that they are registered to, and 
+--						the CCG name that the practice belongs to.
+
 -- INPUT: Assumes there exists a temp table as follows:
 -- #Patients (FK_Patient_Link_ID)
 --  A distinct list of FK_Patient_Link_IDs for each patient in the cohort

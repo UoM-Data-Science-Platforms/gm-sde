@@ -1,8 +1,8 @@
---┌─────────────────────────────────────────────────┐
---│ GET COVID utilisation from secondary admissions │
---└─────────────────────────────────────────────────┘
+--┌────────────────────────────────────┐
+--│ COVID-related secondary admissions │
+--└────────────────────────────────────┘
 
--- OBJECTIVE: To classify every admission to secondary care based on whether it is a COVID or non-COVID related. 
+-- OBJECTIVE: To classify every admission to secondary care based on whether it is a COVID or non-COVID related.
 --						A COVID-related admission is classed as an admission within 4 weeks after, or up to 2 weeks before
 --						a positive test.
 

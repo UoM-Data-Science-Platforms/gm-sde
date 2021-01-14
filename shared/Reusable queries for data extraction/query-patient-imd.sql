@@ -1,10 +1,12 @@
---┌──────────┐
---│ GET IMDs │
---└──────────┘
+--┌────────────────────────────┐
+--│ Index Multiple Deprivation │
+--└────────────────────────────┘
+
+-- OBJECTIVE: To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.
 
 -- INPUT: Assumes there exists a temp table as follows:
 -- #Patients (FK_Patient_Link_ID)
--- A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 
 -- OUTPUT: A temp table as follows:
 -- #PatientIMDDecile (FK_Patient_Link_ID, IMD2019Decile1IsMostDeprived10IsLeastDeprived)

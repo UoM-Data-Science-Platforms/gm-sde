@@ -1,6 +1,10 @@
---┌──────────────────────────────────────────────┐
---│ GET COVID utilisation from primary care data │
---└──────────────────────────────────────────────┘
+--┌──────────────────────────────────────────┐
+--│ COVID utilisation from primary care data │
+--└──────────────────────────────────────────┘
+
+-- OBJECTIVE:	Classifies a list of events as COVID or non-COVID. An event is classified as
+--						"COVID" if the date of the event is within 4 weeks after, or up to 14 days 
+--						before, a positive COVID test.
 
 -- INPUT: Assumes there exists two temp tables as follows:
 -- #Patients (FK_Patient_Link_ID)
