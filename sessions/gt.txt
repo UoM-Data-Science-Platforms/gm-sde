@@ -45,3 +45,8 @@ Attempted to find the location of information related to project no.1 (Grant), i
 06/01/21 13:45 - 14:00
 - confirming that the covid codes now appear in the covid19 table
 
+14:35 - 17:00 session
+- Checking what data we have in relation to studies 14, 16 and 21.
+- Found that smoking status isn't available
+
+

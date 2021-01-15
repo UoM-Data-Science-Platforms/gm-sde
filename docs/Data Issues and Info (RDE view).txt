@@ -1,0 +1,11 @@
+
+Data Issues and Info (RDE view)
+
+1. BMI will need to be calculated using GP_events
+
+2. Smoking Status can be inferred from GP_events
+
+3. Dates for covid tests don't seem too reliable
+
+4. Many discrepancies between public records and IDCR testing data from GP record.
+ E.G. people from outside GM being tested at airport.
