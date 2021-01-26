@@ -13,3 +13,23 @@ Find out the following total number of rows to investigate how big the chohorts 
 -- Number of COVID positive patients in the sample
 -- Number of unique patients who were positive and have a deceased flag
 -- Number of unique patients who were alive on 1st Feb 2020
+
+2020-12-03 11.00 - 14.00
+-- Find variables related with polypharmacy. 
+
+2020-12-07 17.00 - 20.00
+-- Check acute inpatients table contains the variables needed for the Christie study
+-- Identify high risk (shielding) and moderate risk patient information  
+-- Query for searching a particular SNOMED code in a table
+
+
+2020-12-08 20.00 - 20.30
+-- Get updated number of total unique patients with at least one positive test confirmed 
+-- Get updated number of unique patients who were alive on 1st Feb 2020
+
+2021-01-12 7.00 - 7.05
+-- Check access to the Christie dataset
+
+2021-01-26 13.40 - 
+-- Sort out MFA and check access to database
+-- 
