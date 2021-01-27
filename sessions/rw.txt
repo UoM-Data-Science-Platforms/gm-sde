@@ -99,3 +99,12 @@
 2021-01-13 15:19-15:24
 - Checking status of the track and trace test results
 - Not there yet
+
+2021-01-20 10:20-11:00
+- Checking status of vaccination data
+- Currently shows ~3600 people receiving a vaccine in December
+- Currently shows ~4000 vaccinations in December, but the largest gap between vaccinations is 7 days suggesting these are all duplicates.
+
+2021-01-27 09:24-09:52
+- Checking whether events in the GP_Encounters table are proportionate to the practice system
+- Nothing from Vision practices. Much more from TPP than EMIS - but without descriptions don't know what that means.
