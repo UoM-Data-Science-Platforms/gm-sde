@@ -45,3 +45,17 @@ Attempted to find the location of information related to project no.1 (Grant), i
 06/01/21 13:45 - 14:00
 - confirming that the covid codes now appear in the covid19 table
 
+15/01/21 14:35 - 17:00 
+- Checking what data we have in relation to studies 14, 16 and 21.
+
+18/01/21 09:30 - 12:00
+- investigating procedure data in acute_coding.
+- found that only 3 tenancies provide PROC data - Tameside, UHSM and Pennine
+- for vent/oxygen data, only UHSM has records, starting from Sept 20.
+
+20/01/21 10:00 - 11:30
+- checking minimum dates for each CCG, to create metadata that can be viewed by prospective researchers
+
+
+
+
