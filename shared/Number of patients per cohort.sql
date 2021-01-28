@@ -99,13 +99,6 @@ where  (Deceased IN ('N') AND DeathDateOnly is NULL)
 -- 1.1060.656 rows
 
 
-
-
--- Number of cancer patients in the sample
-
-
-
-
 -- Number of high risk shielding patients in GP_Events
 WITH
     TotalNoHighRiskPatients
@@ -131,7 +124,7 @@ from TotalNoHighRiskPatients;
 
 
 
--- Number of moderate risk patients in GP_Events
+/****** Number of moderate risk patients in GP_Events ******/
 WITH
     TotalNoModerateRiskPatients
     AS
@@ -147,3 +140,12 @@ WITH
 select count(1)
 from TotalNoModerateRiskPatients;
 -- 30455 (as of 7th Dec 2020)
+
+
+/****** Total number of patients in the Christie dataset  ******/
+Select count(1) 
+From RLS.vw_Patient
+where FK_Reference_Tenancy_ID = 4 
+-- 127944 - as of 27th Jan 2021
+
+/****** Number of cancer patients in the sample ******/
