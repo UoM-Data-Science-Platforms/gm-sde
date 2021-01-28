@@ -56,6 +56,14 @@ Attempted to find the location of information related to project no.1 (Grant), i
 20/01/21 10:00 - 11:30
 - checking minimum dates for each CCG, to create metadata that can be viewed by prospective researchers
 
+26/01/21 13:20 - 16:00
+- looking into lab test data for study 21 - only available for UHSM and Central Manc Uni Hospital
+- looking into whether admissions can be classified as respiratory or non-resp - we don't have data that specific
 
+27/01/21 09:30 - 10:00
+- checking demographics and non-clinical vars for RQ14.
+
+27/01/21 10:30 - 12:30
+ - looking into radiology data - we have it for 7 trusts but not Trafford and Salford.
 
 

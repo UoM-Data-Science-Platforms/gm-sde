@@ -10,4 +10,6 @@ Data Limitations (public view)
 3. Prescribing data is only available for primary care, not secondary care.
 
 4. Covid-19 testing data currently only comes from the GP record, and is not fully representative.
-
+ This will have a greater impact on studies where the covid diagnosis date is needed, for example if 
+ covid admissions need to be identified. We are hoping to get full track and trace data soon, which would
+ improve accuracy of the dates and volumes.
