@@ -30,6 +30,10 @@ Find out the following total number of rows to investigate how big the chohorts 
 2021-01-12 7.00 - 7.05
 -- Check access to the Christie dataset
 
-2021-01-26 13.40 - 
--- Sort out MFA and check access to database
--- 
+2021-01-26 13.40 - 14.00 & 19.00 - 21.00
+-- Sort out MFA and verify access to database
+-- Check cancer-related ICD10 codes to identify the cancer cohort for the 004 study. - couldn't find the 
+
+2021-01-27 8.30 - 9.30
+-- Find total no of Christie patients
+-- Find a way to match ICD10 codes with readcodes
