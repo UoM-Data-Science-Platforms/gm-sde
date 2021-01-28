@@ -1,0 +1,18 @@
+ICD10 codes included (provided by Christie)
+
+C00-C14  Malignant neoplasms of lip, oral cavity and pharynx
+C15-C26  Malignant neoplasms of digestive organs
+C30-C39  Malignant neoplasms of respiratory and intrathoracic organs
+C40-C41  Malignant neoplasms of bone and articular cartilage
+C43-C44  Melanoma and other malignant neoplasms of skin
+C45-C49  Malignant neoplasms of mesothelial and soft tissue
+C50-C50  Malignant neoplasms of breast
+C51-C58  Malignant neoplasms of female genital organs
+C60-C63  Malignant neoplasms of male genital organs
+C64-C68  Malignant neoplasms of urinary tract
+C69-C72  Malignant neoplasms of eye, brain and other parts of central nervous system
+C73-C75  Malignant neoplasms of thyroid and other endocrine glands
+C76-C80  Malignant neoplasms of ill-defined, other secondary and unspecified sites
+C7A-C7A  Malignant neuroendocrine tumors
+C7B-C7B  Secondary neuroendocrine tumors
+C81-C96  Malignant neoplasms of lymphoid, hematopoietic and related tissue
