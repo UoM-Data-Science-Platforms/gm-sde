@@ -56,6 +56,30 @@ Attempted to find the location of information related to project no.1 (Grant), i
 20/01/21 10:00 - 11:30
 - checking minimum dates for each CCG, to create metadata that can be viewed by prospective researchers
 
+26/01/21 13:20 - 16:00
+- looking into lab test data for study RQ21 (Bakerly)
+- looking into whether admissions can be classified as respiratory or non-resp - we don't have data that specific
 
+27/01/21 09:30 - 10:00
+- checking demographics and non-clinical vars for RQ14 (Shi)
+
+27/01/21 10:30 - 12:30
+ - looking into radiology data - we have it for 7 trusts but not Trafford and Salford.
+
+28/01/21 09:45 - 11:30
+- looking for respiratory sample data in both primary and secondary care, for study 21
+
+28/01/21 15:00 - 16:00
+- looking into ventilation data in the GP record - as only two trusts supply it in the acute data
+
+29/01/21 09:25 - 10:25
+- further investigations of lab test data
+
+08/02/21 10:25 - 12: 45
+- finding field names for acute data and observations - for stage 2a RQ15 (Bakerly)
+- answering queries about data from PI for RQ29
+
+08/02/21 16:30 - 16:40 
+- checking how far back we can get patient diagnoses in GP Events
 
 
