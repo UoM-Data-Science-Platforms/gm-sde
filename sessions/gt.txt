@@ -75,3 +75,11 @@ Attempted to find the location of information related to project no.1 (Grant), i
 29/01/21 09:25 - 10:25
 - further investigations of lab test data
 
+08/02/21 10:25 - 12: 45
+- finding field names for acute data and observations - for stage 2a RQ15 (Bakerly)
+- answering queries about data from PI for RQ29
+
+08/02/21 16:30 - 16:40 
+- checking how far back we can get patient diagnoses in GP Events
+
+
