@@ -6,8 +6,26 @@ DECLARE @StartDate datetime;
 SET @StartDate = '2020-01-01';
 
 --┌───────────────────────────────┐
---│ CLASSIFY SECONDARY ADMISSIONS │
+--│ Classify secondary admissions │
 --└───────────────────────────────┘
+
+-- OBJECTIVE: To categorise admissions to secondary care into 5 categories: Maternity, 
+--						Unplanned, Planned, Transfer and Unknown.
+
+-- ASSUMPTIONS:
+--	-	We assume patients can only have one admission per day. This is probably not true, but 
+--		where we see multiple admissions it is more likely to be data duplication, or internal
+--		admissions, than an admission, discharge and another admission in the same day.
+--	-	Where patients have multiple admissions we choose the "highest" category for admission
+--		with the categories ranked as follows: Maternity > Unplanned > Planned > Transfer > Unknown
+--	-	We have used the following classifications based on the AdmissionTypeCode:
+--		PLANNED: PL (ELECTIVE PLANNED), 11 (Elective - Waiting List), WL (ELECTIVE WL), 13 (Elective - Planned), 12 (Elective - Booked), BL (ELECTIVE BOOKED), D (NULL), Endoscopy (Endoscopy), OP (DIRECT OUTPAT CLINIC), Venesection (X36.2 Venesection), Colonoscopy (H22.9 Colonoscopy), Medical (Medical)
+--		UNPLANNED: AE (AE.DEPT.OF PROVIDER), 21 (Emergency - Local A&E), I (NULL), GP (GP OR LOCUM GP), 22 (Emergency - GP), 23 (Emergency - Bed Bureau), 28 (Emergency - Other (inc other provider A&E)), 2D (Emergency - Other), 24 (Emergency - Clinic), EM (EMERGENCY OTHER), AI (ACUTE TO INTMED CARE), BB (EMERGENCY BED BUREAU), DO (EMERGENCY DOMICILE), 2A (A+E Department of another provider where the Patient has not been admitted), A+E (Admission	 A+E Admission), Emerg (GP	Emergency GP Patient)
+--		MATERNITY: 31 (Maternity ante-partum), BH (BABY BORN IN HOSP), AN (MATERNITY ANTENATAL), 82 (Birth in this Health Care Provider), PN (MATERNITY POST NATAL), B (NULL), 32 (Maternity post-partum), BHOSP (Birth in this Health Care Provider)
+--		TRANSFER: 81 (Transfer from other hosp (not A&E)), TR (PLAN TRANS TO TRUST), ET (EM TRAN (OTHER PROV)), HospTran (Transfer from other NHS Hospital), T (TRANSFER), CentTrans (Transfer from CEN Site)
+--		OTHER:
+
+-- INPUT: No pre-requisites
 
 -- OUTPUT: A temp table as follows:
 -- #AdmissionTypes (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, AdmissionType)
@@ -59,9 +77,11 @@ SELECT DISTINCT FK_Patient_Link_ID INTO #Patients FROM #AdmissionTypes;
 -- 00:00:01
 
 --
---┌──────────┐
---│ GET LTCS │
---└──────────┘
+--┌──────────────────────┐
+--│ Long-term conditions │
+--└──────────────────────┘
+
+-- OBJECTIVE: To get every long-term condition for each patient.
 
 -- INPUT: Assumes there exists a temp table as follows:
 -- #Patients (FK_Patient_Link_ID)
@@ -401,6 +421,8 @@ FROM #LTCTemp;
 --│ GET No. LTCS per patient │
 --└──────────────────────────┘
 
+-- OBJECTIVE: To get the number of long-term conditions for each patient.
+
 -- INPUT: Assumes there exists a temp table as follows:
 -- #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
 -- Therefore this is run after query-patient-ltcs.sql
@@ -410,10 +432,10 @@ FROM #LTCTemp;
 
 -- Calculate the number of LTCs for each patient
 IF OBJECT_ID('tempdb..#NumLTCs') IS NOT NULL DROP TABLE #NumLTCs;
-SELECT 
-  FK_Patient_Link_ID, 
+SELECT
+  FK_Patient_Link_ID,
   CASE
-    WHEN NumberOfLTCs > 2 THEN 2 
+    WHEN NumberOfLTCs > 2 THEN 2
     ELSE NumberOfLTCs
   END AS NumberOfLTCs
 INTO #NumLTCs
@@ -423,13 +445,15 @@ FROM (
 ) subquery;
 
 
---┌──────────┐
---│ GET IMDs │
---└──────────┘
+--┌────────────────────────────┐
+--│ Index Multiple Deprivation │
+--└────────────────────────────┘
+
+-- OBJECTIVE: To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.
 
 -- INPUT: Assumes there exists a temp table as follows:
 -- #Patients (FK_Patient_Link_ID)
--- A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 
 -- OUTPUT: A temp table as follows:
 -- #PatientIMDDecile (FK_Patient_Link_ID, IMD2019Decile1IsMostDeprived10IsLeastDeprived)
@@ -512,9 +536,12 @@ HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1Is
 -- 489
 -- 00:00:00
 
---┌─────────────────────────────────────────────┐
---│ GET Secondary Admissions and Length of Stay │
---└─────────────────────────────────────────────┘
+--┌─────────────────────────────────────────┐
+--│ Secondary admissions and length of stay │
+--└─────────────────────────────────────────┘
+
+-- OBJECTIVE: To obtain a table with every secondary care admission, along with the acute provider,
+--						the date of admission, the date of discharge, and the length of stay.
 
 -- INPUT: No pre-requisites
 
@@ -543,9 +570,12 @@ AND AdmissionDate >= @StartDate;
 -- 523477 rows	523477 rows
 -- 00:00:19		00:00:15
 
---┌──────────────────────────┐
---│ GET Secondary Discharges │
---└──────────────────────────┘
+--┌──────────────────────┐
+--│ Secondary discharges │
+--└──────────────────────┘
+
+-- OBJECTIVE: To obtain a table with every secondary care discharge, along with the acute provider,
+--						and the date of discharge.
 
 -- INPUT: No pre-requisites
 
@@ -586,9 +616,13 @@ ORDER BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider;
 -- 00:00:04		00:00:05
 
 
---┌─────────────────────────────────────────────────┐
---│ GET COVID utilisation from secondary admissions │
---└─────────────────────────────────────────────────┘
+--┌────────────────────────────────────┐
+--│ COVID-related secondary admissions │
+--└────────────────────────────────────┘
+
+-- OBJECTIVE: To classify every admission to secondary care based on whether it is a COVID or non-COVID related.
+--						A COVID-related admission is classed as an admission within 4 weeks after, or up to 2 weeks before
+--						a positive test.
 
 -- INPUT: Assumes there exists two temp tables as follows:
 -- #Patients (FK_Patient_Link_ID)

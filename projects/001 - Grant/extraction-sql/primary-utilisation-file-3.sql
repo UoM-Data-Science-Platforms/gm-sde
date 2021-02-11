@@ -18,16 +18,25 @@ SET NOCOUNT ON;
 DECLARE @StartDate datetime;
 SET @StartDate = '2020-01-01';
 
---┌──────────────────────────────────────┐
---│ GET First prescriptions from GP data │
---└──────────────────────────────────────┘
+--┌──────────────────────────────────┐
+--│ First prescriptions from GP data │
+--└──────────────────────────────────┘
+
+-- OBJECTIVE: To obtain, for each patient, the first date for each medication they have ever
+--						been prescribed.
+
+-- ASSUMPTIONS:
+--	-	The same medication can have multiple clinical codes. GraphNet attempt to standardize
+--		the coding across different providers by giving each code an id. Therefore the Readv2
+--		code for a medication and the EMIS code for the same medication will have the same id.
+--	-	
 
 -- INPUT: No pre-requisites
 
 -- OUTPUT: A temp table as follows:
 -- #FirstMedications (FK_Patient_Link_ID, FirstMedDate, Code)
 -- 	- FK_Patient_Link_ID - unique patient id
---	- FirstMedDate - date of discharge (YYYY-MM-DD)
+--	- FirstMedDate - first date for this medication (YYYY-MM-DD)
 --	- Code - The medication code as either:
 --					 "FNNNNNN" where 'NNNNNN' is a FK_Reference_Coding_ID or 
 --					 "SNNNNNN" where 'NNNNNN' is a FK_Reference_SnomedCT_ID
@@ -71,9 +80,11 @@ IF OBJECT_ID('tempdb..#PatientDates') IS NOT NULL DROP TABLE #PatientDates;
 SELECT DISTINCT FK_Patient_Link_ID, FirstMedDate as EventDate INTO #PatientDates FROM #FirstMedications;
 
 --
---┌──────────┐
---│ GET LTCS │
---└──────────┘
+--┌──────────────────────┐
+--│ Long-term conditions │
+--└──────────────────────┘
+
+-- OBJECTIVE: To get every long-term condition for each patient.
 
 -- INPUT: Assumes there exists a temp table as follows:
 -- #Patients (FK_Patient_Link_ID)
@@ -413,6 +424,8 @@ FROM #LTCTemp;
 --│ GET No. LTCS per patient │
 --└──────────────────────────┘
 
+-- OBJECTIVE: To get the number of long-term conditions for each patient.
+
 -- INPUT: Assumes there exists a temp table as follows:
 -- #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
 -- Therefore this is run after query-patient-ltcs.sql
@@ -422,10 +435,10 @@ FROM #LTCTemp;
 
 -- Calculate the number of LTCs for each patient
 IF OBJECT_ID('tempdb..#NumLTCs') IS NOT NULL DROP TABLE #NumLTCs;
-SELECT 
-  FK_Patient_Link_ID, 
+SELECT
+  FK_Patient_Link_ID,
   CASE
-    WHEN NumberOfLTCs > 2 THEN 2 
+    WHEN NumberOfLTCs > 2 THEN 2
     ELSE NumberOfLTCs
   END AS NumberOfLTCs
 INTO #NumLTCs
@@ -435,13 +448,15 @@ FROM (
 ) subquery;
 
 
---┌──────────┐
---│ GET IMDs │
---└──────────┘
+--┌────────────────────────────┐
+--│ Index Multiple Deprivation │
+--└────────────────────────────┘
+
+-- OBJECTIVE: To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.
 
 -- INPUT: Assumes there exists a temp table as follows:
 -- #Patients (FK_Patient_Link_ID)
--- A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 
 -- OUTPUT: A temp table as follows:
 -- #PatientIMDDecile (FK_Patient_Link_ID, IMD2019Decile1IsMostDeprived10IsLeastDeprived)
@@ -524,9 +539,13 @@ HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1Is
 -- 489
 -- 00:00:00
 
---┌──────────────────────────────────────────────┐
---│ GET COVID utilisation from primary care data │
---└──────────────────────────────────────────────┘
+--┌──────────────────────────────────────────┐
+--│ COVID utilisation from primary care data │
+--└──────────────────────────────────────────┘
+
+-- OBJECTIVE:	Classifies a list of events as COVID or non-COVID. An event is classified as
+--						"COVID" if the date of the event is within 4 weeks after, or up to 14 days 
+--						before, a positive COVID test.
 
 -- INPUT: Assumes there exists two temp tables as follows:
 -- #Patients (FK_Patient_Link_ID)
@@ -567,6 +586,9 @@ LEFT OUTER join #CovidCases c ON
 --┌───────────────────────────────────────┐
 --│ GET practice and ccg for each patient │
 --└───────────────────────────────────────┘
+
+-- OBJECTIVE:	For each patient to get the practice id that they are registered to, and 
+--						the CCG name that the practice belongs to.
 
 -- INPUT: Assumes there exists a temp table as follows:
 -- #Patients (FK_Patient_Link_ID)
@@ -630,12 +652,14 @@ HAVING MIN(GPPracticeCode) = MAX(GPPracticeCode);
 -- 15
 
 --┌──────────────────┐
---│ CCG Lookup table │
+--│ CCG lookup table │
 --└──────────────────┘
 
--- The GMCR provides the CCG id (e.g. '00T', '01G') but not the CCG name.
--- This table can be used in other queries when the output is required to
--- be a ccg name rather than an id.
+-- OBJECTIVE: To provide lookup table for CCG names. The GMCR provides the CCG id (e.g. '00T', '01G') but not 
+--            the CCG name. This table can be used in other queries when the output is required to be a ccg 
+--            name rather than an id.
+
+-- INPUT: No pre-requisites
 
 -- OUTPUT: A temp table as follows:
 -- #CCGLookup (CcgId, CcgName)
