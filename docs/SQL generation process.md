@@ -186,13 +186,13 @@ Concept, Version, FK_Coding_ID
 Concept, Version, FK_SNOMED_ID
 ```
 
-The `#Versioned...` tables allow queries based on the concept and the version. The other two tables just contain the most recent version (highest version number) of each concept.
+The two `#Versioned...` tables allow queries based on the concept and the version. The other two tables just contain the most recent version (highest version number) of each concept.
 
 `FK_Coding_ID` and `FK_SNOMED_ID` are the (bigint) id fields that the GMCR database use to identify codes. All codes are mapped to one of both of these fields.
 
 The temporary tables can be used as follows on any table containing the `FK_Coding_ID` or `FK_SNOMED_ID` fields:
 
-```sql
+```tsql
 -- Finding all hypertension records using the most recent code set
 SELECT * FROM [RLS].[vw_GP_Events]
 WHERE (
