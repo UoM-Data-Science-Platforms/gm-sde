@@ -108,3 +108,10 @@
 2021-01-27 09:24-09:52
 - Checking whether events in the GP_Encounters table are proportionate to the practice system
 - Nothing from Vision practices. Much more from TPP than EMIS - but without descriptions don't know what that means.
+
+2021-02-17 09:42-11:49
+- Check if death within 28 days of test has landed
+- Establishing if we can make a clinical code/description lookup from the data.
+
+2021-02-17 16:57-17:24
+- Checking code set generation code
