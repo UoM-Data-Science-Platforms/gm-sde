@@ -215,3 +215,5 @@ AND ...
 The sql can be generated as follows:
 
 -
+
+NB **Need to do different pseudonymisation for each study**

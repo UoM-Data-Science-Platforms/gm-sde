@@ -1,0 +1,25 @@
+G2...00	Hypertensive disease
+G20..11	High blood pressure
+G20..00	Essential hypertension
+G201.00	Benign essential hypertension
+G20z.11	Hypertension NOS
+G202.00	Systolic hypertension
+G2z..00	Hypertensive disease NOS
+G24..00	Secondary hypertension
+G20z.00	Essential hypertension NOS
+G200.00	Malignant essential hypertension
+G24z.00	Secondary hypertension NOS
+G2y..00	Other specified hypertensive disease
+G241000	Secondary benign renovascular hypertension
+G24z100	Hypertension secondary to drug
+G24z000	Secondary renovascular hypertension NOS
+G240.00	Secondary malignant hypertension
+G244.00	Hypertension secondary to endocrine disorders
+G24zz00	Secondary hypertension NOS
+G241z00	Secondary benign hypertension NOS
+G241.00	Secondary benign hypertension
+G240000	Secondary malignant renovascular hypertension
+Gyu2.00	[X]Hypertensive diseases
+G240z00	Secondary malignant hypertension NOS
+G203.00	Diastolic hypertension
+Gyu2000	[X]Other secondary hypertension

@@ -1,0 +1,223 @@
+14A2.	H/O: hypertension
+21261	Hypertension resolved
+2466.	O/E - BP reading raised
+2467.	O/E - BP reading very high
+662..	Cardiac disease monitoring (& [hypertension])
+6627.	Good hypertension control
+6628.	Poor hypertension control
+6629.	Hypertension:follow-up default
+662F.	Hypertension treatm. started
+662G.	Hypertensive treatm.changed
+662H.	Hypertension treatm.stopped
+662O.	On treatment for hypertension
+662P.	Hypertension monitoring
+8HT5.	Referral to hypertension clinic
+9N03.	Seen in hypertension clinic
+9N1y2	Seen in hypertension clinic
+9OI..	Hypertension admin: [monitoring] or [clinic]
+9OI1.	Attends hypertension monitoring
+9OI3.	Hypertension monitoring offer default
+9OI4.	Hypertension monitoring first letter
+9OI4.	Hypertension monitoring first letter
+9OI5.	Hypertension monitoring second letter
+9OI5.	Hypertension monitoring second letter
+9OI6.	Hypertension monitoring third letter
+9OI6.	Hypertension monitoring third letter
+9OI7.	Hypertension monitoring verbal invite
+9OI7.	Hypertension monitoring verbal invite
+9OI8.	Hypertension monitoring telephone invite
+9OI8.	Hypertension monitoring telephone invite
+9OIA.	Hypertension monitor (& check done)
+9OIZ.	Hypertens.monitoring admin.NOS
+F4211	Hypertensive retinopathy
+G2...	Hypertensive disease
+G2...	Hypertensive disease
+G2...	Hypertensive disease
+G20..	High blood pressure (& [essential hypertension])
+G20..	High blood pressure (& [essential hypertension])
+G200.	Malignant essential hypertension
+G200.	Malignant essential hypertension
+G201.	Benign essential hypertension
+G201.	Benign essential hypertension
+G202.	Systolic hypertension
+G202.	Systolic hypertension
+G20z.	Hypertension NOS (& [essential])
+G20z.	Hypertension NOS (& [essential])
+G21..	Hypertensive heart disease
+G21..	Hypertensive heart disease
+G210.	Malignant hypertensive heart disease
+G210.	Malignant hypertensive heart disease
+G2100	Malignant hypertensive heart disease without CCF
+G2100	Malignant hypertensive heart disease without CCF
+G2101	Malignant hypertensive heart disease with CCF
+G2101	Malignant hypertensive heart disease with CCF
+G210z	Malignant hypertensive heart disease NOS
+G210z	Malignant hypertensive heart disease NOS
+G211.	Benign hypertensive heart disease
+G211.	Benign hypertensive heart disease
+G2110	Benign hypertensive heart disease without CCF
+G2110	Benign hypertensive heart disease without CCF
+G2111	Benign hypertensive heart disease with CCF
+G2111	Benign hypertensive heart disease with CCF
+G211z	Benign hypertensive heart disease NOS
+G211z	Benign hypertensive heart disease NOS
+G21z.	Hypertensive heart disease NOS
+G21z.	Hypertensive heart disease NOS
+G21z0	"Hypertensiv:[cardiomeg][heart dis NOS, no congest card fail]"
+G21z0	"Hypertensiv:[cardiomeg][heart dis NOS, no congest card fail]"
+G21z1	Hypertensive heart disease NOS with CCF
+G21z1	Hypertensive heart disease NOS with CCF
+G22..	Hypertensive renal disease (& [nephrosclerosis])
+G220.	Malignant hypertensive renal disease
+G221.	Benign hypertensive renal disease
+G222.	Hypertensive renal disease with renal failure
+G22z.	(Renal hypertension) or (hypertensive renal disease NOS)
+G23..	Hypertensive heart and renal disease
+G23..	Hypertensive heart and renal disease
+G230.	Malignant hypertensive heart and renal disease
+G230.	Malignant hypertensive heart and renal disease
+G231.	Benign hypertensive heart and renal disease
+G231.	Benign hypertensive heart and renal disease
+G232.	Hypertensive heart&renal dis wth (congestive) heart failure
+G232.	Hypertensive heart&renal dis wth (congestive) heart failure
+G233.	Hypertensive heart and renal disease with renal failure
+G233.	Hypertensive heart and renal disease with renal failure
+G234.	Hyperten heart&renal dis+both(congestv)heart and renal fail
+G234.	Hyperten heart&renal dis+both(congestv)heart and renal fail
+G23z.	Hypertensive heart and renal disease NOS
+G23z.	Hypertensive heart and renal disease NOS
+G24..	Secondary hypertension
+G24..	Secondary hypertension
+G240.	Malignant secondary hypertension
+G240.	Malignant secondary hypertension
+G2400	Secondary malignant renovascular hypertension
+G2400	Secondary malignant renovascular hypertension
+G240z	Secondary malignant hypertension NOS
+G240z	Secondary malignant hypertension NOS
+G241.	Secondary benign hypertension
+G241.	Secondary benign hypertension
+G2410	Secondary benign renovascular hypertension
+G2410	Secondary benign renovascular hypertension
+G241z	Secondary benign hypertension NOS
+G241z	Secondary benign hypertension NOS
+G244.	Hypertension secondary to endocrine disorders
+G244.	Hypertension secondary to endocrine disorders
+G24z.	Secondary hypertension NOS
+G24z.	Secondary hypertension NOS
+G24z0	Secondary renovascular hypertension NOS
+G24z0	Secondary renovascular hypertension NOS
+G24zz	Secondary hypertension NOS
+G24zz	Secondary hypertension NOS
+G2y..	Other specified hypertensive disease
+G2y..	Other specified hypertensive disease
+G2z..	Hypertensive disease NOS
+G2z..	Hypertensive disease NOS
+G672.	Hypertensive: [encephalopathy] or [crisis]
+Gyu2.	[X]Hypertensive diseases
+Gyu2.	[X]Hypertensive diseases
+Gyu20	[X]Other secondary hypertension
+Gyu20	[X]Other secondary hypertension
+Gyu21	[X]Hypertension secondary to other renal disorders
+Gyu21	[X]Hypertension secondary to other renal disorders
+L122.	Other pre-existing hypertension in preg/childbirth/puerp
+L122.	Other pre-existing hypertension in preg/childbirth/puerp
+L1220	Other pre-existing hypertension in preg/childb/puerp unspec
+L1220	Other pre-existing hypertension in preg/childb/puerp unspec
+L1221	Other pre-existing hypertension in preg/childb/puerp - deliv
+L1221	Other pre-existing hypertension in preg/childb/puerp - deliv
+L1222	Oth pre-exist hypert in preg/childb/puerp -del with p/n comp
+L1222	Oth pre-exist hypert in preg/childb/puerp -del with p/n comp
+L1223	Other pre-exist hypertension in preg/childb/puerp-not deliv
+L1223	Other pre-exist hypertension in preg/childb/puerp-not deliv
+L1224	Other pre-exist hypertension in preg/childb/puerp + p/n comp
+L1224	Other pre-exist hypertension in preg/childb/puerp + p/n comp
+L122z	Other pre-existing hypertension in preg/childb/puerp NOS
+L122z	Other pre-existing hypertension in preg/childb/puerp NOS
+L127.	Pre-eclampsia or eclampsia with pre-existing hypertension
+L127.	Pre-eclampsia or eclampsia with pre-existing hypertension
+L127z	Pre-eclampsia or eclampsia + pre-existing hypertension NOS
+L127z	Pre-eclampsia or eclampsia + pre-existing hypertension NOS
+L128.	Pre-exist hypertension compl preg childbirth and puerperium
+L128.	Pre-exist hypertension compl preg childbirth and puerperium
+L1280	Pre-exist hyperten heart dis compl preg childbth+puerperium
+L1281	Pre-exist hyperten heart renal dis comp preg chldbirth/puerp
+L1281	Pre-exist hyperten heart renal dis comp preg chldbirth/puerp
+L1282	Pre-exist 2ndry hypertens comp preg childbth and puerprum
+L1282	Pre-exist 2ndry hypertens comp preg childbth and puerprum
+XE0Ub	Hypertension
+XE0Ub	Hypertension
+XE0Ub	Hypertension
+XE0Uc	Essential hypertension
+XE0Uc	Essential hypertension
+XE0Uc	Essential hypertension
+XE0Ud	Essential hypertension NOS
+XE0Ud	Essential hypertension NOS
+XE0Ud	Essential hypertension NOS
+XE0Ue	Hypertensive heart disease NOS without CCF
+XE0Ue	Hypertensive heart disease NOS without CCF
+XE0Ue	Hypertensive heart disease NOS without CCF
+XE0Uf	Hypertensive renal disease
+XE0Uf	Hypertensive renal disease
+XE0VM	Hypertensive encephalopathy
+XE0VM	Hypertensive encephalopathy
+XE0W8	(Hypertensive disease) or (hypertension)
+XE0W8	(Hypertensive disease) or (hypertension)
+XE0xu	Pregnancy with hypertension (& [pre-existing])
+XE2NY	Hypertension monitoring admin.
+XE2NY	Hypertension monitoring admin.
+XE2NZ	Hypertension monitoring check done
+XE2NZ	Hypertension monitoring check done
+XM1Qp	Cardiomegaly - hypertensive
+XM1Qp	Cardiomegaly - hypertensive
+XM1Qp	Cardiomegaly - hypertensive
+XM1U2	Hypertension clinic admin.
+XM1U2	Hypertension clinic admin.
+XM1YA	Hypertension monitoring
+XSDSb	Diastolic hypertension
+XSDSb	Diastolic hypertension
+Xa0Cs	Labile hypertension
+Xa0Cs	Labile hypertension
+Xa0kX	Renovascular hypertension
+Xa0kX	Renovascular hypertension
+Xa0lt	Pre-existing hypertension complicating pregnancy
+Xa0lt	Pre-existing hypertension complicating pregnancy
+Xa3fQ	Malignant hypertension
+Xa3fQ	Malignant hypertension
+Xa8HD	On treatment for hypertension
+XaBLq	Antihypertensive therapy
+XaBSX	Hypertension screening recall
+XaBU4	Hypertension monitoring status
+XaBU5	Hypertension monitoring call
+XaIy8	Moderate hypertension control
+XaIyD	Hypertension six month review
+XaIyE	Hypertension annual review
+XaJ5h	Patient on maximal tolerated antihypertensive therapy
+XaJ5h	Patient on maximal tolerated antihypertensive therapy
+XaJYi	Hypertension clinical management plan
+XaM5f	High cost hypertension drugs
+XaM5n	Other specified high cost hypertension drugs
+XaM5p	High cost hypertension drugs NOS
+XaXOi	Hypertension 9 month review
+XaYZS	Hypertension self-management plan review
+XaZWm	Stage 1 hypertension (NICE - Nat Ins for Hth Clin Excl 2011)
+XaZWm	Stage 1 hypertension (NICE - Nat Ins for Hth Clin Excl 2011)
+XaZWm	Stage 1 hypertension (NICE - Nat Ins for Hth Clin Excl 2011)
+XaZWn	Severe hypertension (Nat Inst for Health Clinical Ex 2011)
+XaZWn	Severe hypertension (Nat Inst for Health Clinical Ex 2011)
+XaZWn	Severe hypertension (Nat Inst for Health Clinical Ex 2011)
+XaZbT	Hypertension resistant to drug therapy
+XaZbT	Hypertension resistant to drug therapy
+XaZbz	Stage 2 hypertension (NICE - Nat Ins for Hth Clin Excl 2011)
+XaZbz	Stage 2 hypertension (NICE - Nat Ins for Hth Clin Excl 2011)
+XaZzo	Nocturnal hypertension
+XaZzo	Nocturnal hypertension
+Xab9L	Stage 1 hyperten (NICE 2011) without evidnce end organ damge
+Xab9L	Stage 1 hyperten (NICE 2011) without evidnce end organ damge
+Xab9M	Stage 1 hyperten (NICE 2011) with evidnce end organ damge
+Xab9M	Stage 1 hyperten (NICE 2011) with evidnce end organ damge
+Xafj3	Hypertension monitoring invitation short msg service txt msg
+Xafj4	Hypertension mnitoring short msg service text msg 1st invitn
+Xafj5	Hypertension mnitoring short msg service text msg 2nd invitn
+Xafj6	Hypertension mnitoring short msg service text msg 3rd invitn
+XagLb	Hypertension monitoring invitation email
+Y1328	Refractory Hypertension

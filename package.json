@@ -1,0 +1,26 @@
+{
+  "name": "gm-idcr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts/main.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node scripts/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rw251/gm-idcr.git"
+  },
+  "author": "Richard Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rw251/gm-idcr/issues"
+  },
+  "homepage": "https://github.com/rw251/gm-idcr#readme"
+}
