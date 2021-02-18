@@ -1,0 +1,9 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Declare files that will always have LF line endings on checkout.
+*.js text eol=lf
+
+# Ensure batch files retain CRLF endings otherwise strange things happen
+*.bat text eol=crlf
+*.bat.example text eol=crlf
