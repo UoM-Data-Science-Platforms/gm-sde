@@ -446,5 +446,5 @@ function isValidCodeSetMetadataFile(codeSet) {
 function isValidDataRow(row) {
   return row.match(/^[^\t]+\t[^\t]+$/);
 }
-createCodeSetSQL()
+
 module.exports = { evaulateCodeSets, createCodeSetSQL };
