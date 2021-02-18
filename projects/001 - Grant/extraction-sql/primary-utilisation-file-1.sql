@@ -12,6 +12,15 @@
 -- 	•	LTCGroup  (none/respiratory/mental health/cardiovascular/ etc.) 
 -- 	•	NumberOfConsultations (integer) 
 
+-- TODO questions
+-- * If someone has 2 GP consulations on the same day does that count as 1 or 2?
+--	 Can only count as one, because it could be duplication.
+-- * Frequently encounters have the code '.....' which basically means no code. Can happen several times a day. Risk of including is that it is perhaps recording
+--	 every time someone looks at the record - e.g. to check appointment. Risk of excluding is that it means something else.
+-- * Will need to just look for consultations with a particular set of codes.
+-- * IMD score not useful. IMD decile is useful.
+-- * For patients without an IMD - or with multiple conflicting ones - do we ignore? Or put in separate column?
+
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
