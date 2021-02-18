@@ -1,7 +1,6 @@
 ## Index
 
 1. **Overview**
-1. [Terms of reference](docs/terms-of-reference.md)
 1. [Full end to end process](docs/process-end-2-end.md)
 1. [Research data engineer process](docs/process-for-research-data-engineers.md)
 
@@ -16,6 +15,30 @@ Due to the ongoing COVID-19 pandemic and more specifically the UK [Control of Pa
 ## Documentation
 
 Full documentation can be found in the [docs](docs/) folder. Specific links to individual files are available in the **Index** above.
+
+## Automation
+
+Several parts of the process are automated. For example the generation of SQL for extracting data, and the inserting of clinical code sets.
+
+### Prerequisites
+
+[nodejs](https://nodejs.org/en/) should be installed and available to execute from a terminal/command line.
+
+Once installed execute the following from a terminal/command line in the root of the project to install the dependencies:
+
+```
+npm install
+```
+
+### Execution
+
+Most things like this can be accessed by executing the following command:
+
+```
+npm start
+```
+
+This launches a command line interface that allows you to specify what you want to do.
 
 ## Things to check
 

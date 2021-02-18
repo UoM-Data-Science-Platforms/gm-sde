@@ -1,7 +1,8 @@
+** This is out of date. Further details on how to view the full end to end process will be made available shortly.**
+
 ## Index
 
 1. [Overview](../README.md)
-1. [Terms of reference](terms-of-reference.md)
 1. **Full end to end process**
 1. [Research data engineer process](process-for-research-data-engineers.md)
 

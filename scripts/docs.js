@@ -145,6 +145,6 @@ ${o.output}
 _File_: \`${o.query}\`
 `).join('\n---\n')}`;
 
-  writeFileSync(join(__dirname, '..', 'docs', 'Reusable SQL query reference.md'), readme);
+  writeFileSync(join(__dirname, '..', 'docs', 'Reusable-SQL-query-reference.md'), readme);
 }
 
