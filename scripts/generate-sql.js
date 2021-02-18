@@ -24,7 +24,7 @@ Stitching them together...
   generateSql(projectDirectory, templates);
 
   console.log(`
-Unless there were errors, you should find your extraction SQL files in ${join(projectDirectory, EXTRACTION_SQL_DIR )}.
+Unless there were errors, you should find your extraction SQL files in ${join(projectDirectory, EXTRACTION_SQL_DIR)}.
 `);
 }
 
