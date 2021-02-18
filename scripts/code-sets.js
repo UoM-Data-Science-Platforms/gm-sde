@@ -1,10 +1,11 @@
+const chalk = require('chalk');
 const { readdirSync, readFileSync, writeFileSync } = require('fs');
 const { join } = require('path');
+const { log, warn, error, setSilence } = require('./log');
 
 const CODE_SET_PARENT_DIR = join(__dirname, '..', 'shared', 'clinical-code-sets');
 let clinicalCodesByTerminology = { emis: {}, readv2: {}, snomed: {}, ctv3: {} };
 let clinicalCodesByConcept = {};
-let isSilent = false;
 
 /**
  * Method to validate and evaulate the existing clinical code sets.
@@ -17,7 +18,7 @@ const evaulateCodeSets = () => {
   const codeSetTypes = getClinicalCodeSetTypes();
 
   log(`
-There are ${codeSetTypes.length} code set types. They are: ${codeSetTypes.join(', ')}.`);
+There are ${codeSetTypes.length} code set types. They are: ${codeSetTypes.map(x => chalk.bgWhite.black(x)).join(' ')}.`);
 
   codeSetTypes.forEach((codeSetType) => {
     const codeSets = getClinicalCodeSets(codeSetType);
@@ -41,7 +42,15 @@ The code sets found are as follows:
 
 ${Object
     .keys(clinicalCodesByConcept)
-    .map(concept => `${spaceIt(concept)}: ${Object.keys(clinicalCodesByConcept[concept]).join(', ')}`)
+    .map(concept => `  ${chalk.cyan(spaceIt(concept))}: ${Object.keys(clinicalCodesByConcept[concept])
+      .map((x) => {
+        if(x==='emis') return chalk.bgRed.bold(x);
+        if(x==='readv2') return chalk.bgGreen.bold(x);
+        if(x==='ctv3') return chalk.bgYellow.black(x);
+        if(x==='snomed') return chalk.bgWhite.black(x);
+        return x;
+      })
+      .join(' ')}`)
     .join('\n')}
 
 The code sets look ok. 
@@ -54,8 +63,13 @@ If there are minor issues they will appear above this message.
  * Method to create the reusable clinical code set SQL file
  */
 const createCodeSetSQL = () => {
-  isSilent = true;
+  setSilence(true);
   evaulateCodeSets();
+  
+  setSilence(false);
+
+  log(`
+Generating the SQL...`);
 
   const SQL = `--
 --┌────────────────────┐
@@ -63,7 +77,7 @@ const createCodeSetSQL = () => {
 --└────────────────────┘
 
 -- OBJECTIVE: To populate temporary tables with the existing clinical code sets.
---            See the "SQL generation process.md" for more details.
+--            See the [SQL-generation-process.md](SQL-generation-process.md) for more details.
 
 -- INPUT: No pre-requisites
 
@@ -193,11 +207,13 @@ INNER JOIN (
   GROUP BY concept)
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 `;
-  writeFileSync(join(__dirname, '..', 'shared', 'Reusable queries for data extraction', 'load-code-sets.sql'), SQL);
-}
+  const filename = join(__dirname, '..', 'shared', 'Reusable queries for data extraction', 'load-code-sets.sql');
+  writeFileSync(filename, SQL);
 
-function log(message) {
-  if(!isSilent) console.log(message);
+  log(`
+Unless there were errors, the code set SQL file has been written to:
+${filename}
+`);
 }
 
 function processFiles(codeSetType, codeSetName, version) {
@@ -241,7 +257,7 @@ However there appears to already by a code set for ${codeSetName} and ${terminol
 
 function parseCodeSet(codeSetData, name, codeSetFile, terminology) {
   if(codeSetData.toLowerCase().indexOf(name.split('-').join(' ')) < 0) {
-    console.warn(`
+    warn(`
 The code set ${codeSetFile} in ${name} does not appear to have any descriptions that match "${name.split('-').join(' ')}".
 This might be ok - but you probably should know about it.
     `);

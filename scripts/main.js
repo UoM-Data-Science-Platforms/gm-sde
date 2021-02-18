@@ -1,5 +1,8 @@
 const { initialMenu } = require('./questions');
 const { stitch } = require('./generate-sql');
+const { error } = require('./log');
+const clear = require('clear');
+clear();
 
 async function start() {
   await initialMenu();
@@ -20,5 +23,5 @@ process.kill = () => {
 start()
   .then(() => console.log('Goodbye!'))
   .catch((err)=> {
-    console.log(err.message);
+    error(err.message);
   });

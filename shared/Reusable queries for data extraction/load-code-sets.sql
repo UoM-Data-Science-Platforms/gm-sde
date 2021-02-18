@@ -4,7 +4,7 @@
 --└────────────────────┘
 
 -- OBJECTIVE: To populate temporary tables with the existing clinical code sets.
---            See the "SQL generation process.md" for more details.
+--            See the [SQL-generation-process.md](SQL-generation-process.md) for more details.
 
 -- INPUT: No pre-requisites
 

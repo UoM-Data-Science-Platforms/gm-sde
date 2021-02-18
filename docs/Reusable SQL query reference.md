@@ -1,6 +1,6 @@
 # Reusable queries
 
-***Do not manually edit this file. To recreate run `node generate-reusable-query-doc.js` in the `scripts` directory.***
+***Do not manually edit this file. To recreate run `npm start` and follow the onscreen instructions.***
 
 ---
 
@@ -41,6 +41,31 @@ A temp table as follows:
 	- CcgName - Bolton, Stockport etc..
 ```
 _File_: `query-ccg-lookup.sql`
+
+---
+## COVID utilisation from primary care data
+Classifies a list of events as COVID or non-COVID. An event is classified as "COVID" if the date of the event is within 4 weeks after, or up to 14 days before, a positive COVID test.
+
+_Input_
+```
+Assumes there exists two temp tables as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+ #PatientDates (FK_Patient_Link_ID, EventDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- EventDate - date of the event to classify as COVID/non-COVID
+  A distinct list of the dates of the event for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #COVIDUtilisationPrimaryCare (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
+ 	- FK_Patient_Link_ID - unique patient id
+	- EventDate - date of the event to classify as COVID/non-COVID
+  - CovidHealthcareUtilisation - 'TRUE' if event within 4 weeks after, or up to 14 days before, a positive test
+```
+_File_: `query-primary-care-covid-utilisation.sql`
 
 ---
 ## COVID-related secondary admissions
@@ -87,6 +112,25 @@ A temp table as follows:
 _File_: `query-classify-secondary-admissions.sql`
 
 ---
+## Clinical code sets
+To populate temporary tables with the existing clinical code sets. See the [SQL-generation-process.md](SQL-generation-process.md) for more details.
+
+_Input_
+```
+No pre-requisites
+```
+
+_Output_
+```
+Four temp tables as follows:
+  #CodeSets (Concept, FK_Coding_ID)
+  #SnomedSets (Concept, FK_SNOMED_ID)
+  #VersionedCodeSets (Concept, Version, FK_Coding_ID)
+  #VersionedSnomedSets (Concept, Version, FK_SNOMED_ID)
+```
+_File_: `load-code-sets.sql`
+
+---
 ## First prescriptions from GP data
 To obtain, for each patient, the first date for each medication they have ever been prescribed.
 
@@ -106,31 +150,6 @@ A temp table as follows:
 					 "SNNNNNN" where 'NNNNNN' is a FK_Reference_SnomedCT_ID
 ```
 _File_: `query-first-prescribing-of-medication.sql`
-
----
-## GET COVID utilisation from primary care data
-Classifies a list of events as COVID or non-COVID. An event is classified as "COVID" if the date of the event is within 4 weeks after, or up to 14 days before, a positive COVID test.
-
-_Input_
-```
-Assumes there exists two temp tables as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
- #PatientDates (FK_Patient_Link_ID, EventDate)
- 	- FK_Patient_Link_ID - unique patient id
-	- EventDate - date of the event to classify as COVID/non-COVID
-  A distinct list of the dates of the event for each patient in the cohort
-```
-
-_Output_
-```
-A temp table as follows:
- #COVIDUtilisationPrimaryCare (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
- 	- FK_Patient_Link_ID - unique patient id
-	- EventDate - date of the event to classify as COVID/non-COVID
-  - CovidHealthcareUtilisation - 'TRUE' if event within 4 weeks after, or up to 14 days before, a positive test
-```
-_File_: `query-primary-care-covid-utilisation.sql`
 
 ---
 ## GET No. LTCS per patient
@@ -229,6 +248,24 @@ A temp table with a row for each patient and ltc combo
  #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
 ```
 _File_: `query-patient-ltcs.sql`
+
+---
+## Practice system lookup table
+To provide lookup table for GP systems. The GMCR doesn't hold this information in the data so here is a lookup. This was accurate on 27th Jan 2021 and will likely drift out of date slowly as practices change systems. Though this doesn't happen very often.
+
+_Input_
+```
+No pre-requisites
+```
+
+_Output_
+```
+A temp table as follows:
+ #PracticeSystemLookup (PracticeId, System)
+ 	- PracticeId - Nationally recognised practice id
+	- System - EMIS, TPP, VISION
+```
+_File_: `query-practice-systems-lookup.sql`
 
 ---
 ## Secondary admissions and length of stay
