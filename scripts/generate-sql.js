@@ -53,8 +53,9 @@ function generateSql(project, templates) {
   templates.forEach((templateName) => {
     const filename = join(project, TEMPLATE_SQL_DIR, templateName);
     const sql = processFile(filename);
+    const outputName = templateName.replace(".template", "");
 
-    writeFileSync(join(OUTPUT_DIRECTORY, templateName), sql);
+    writeFileSync(join(OUTPUT_DIRECTORY, outputName), sql);
   });
 }
 
