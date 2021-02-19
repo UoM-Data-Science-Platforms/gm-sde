@@ -1,0 +1,284 @@
+18027006	Transplantation of liver (procedure)
+27280000	Liver transplant with recipient hepatectomy (procedure)
+28009009	Liver transplant without recipient hepatectomy (procedure)
+32413006	Transplantation of heart (procedure)
+32477003	Heart-lung transplant with recipient cardiectomy-pneumonectomy (procedure)
+33167004	Complication of transplanted liver (disorder)
+44165003	Complication of transplanted lung (disorder)
+47058000	Heart transplant with recipient cardiectomy (procedure)
+48994000	Renal homotransplantation with unilateral recipient nephrectomy (situation)
+61535006	Transplantation of spleen (procedure)
+62438007	Transplantation of pancreas (procedure)
+67562009	Heterotransplant of pancreas (procedure)
+70536003	Transplant of kidney (procedure)
+71947008	Homotransplant of pancreas (procedure)
+76077004	Total pancreatectomy with transplantation (procedure)
+81443009	Complication of transplant (disorder)
+88039007	Transplant of lung (procedure)
+127219007	Post-transplantation lymphoproliferative syndrome (disorder)
+128531006	Islet cell transplant (procedure)
+161663000	History of being a tissue or organ recipient (situation)
+161665007	History of renal transplant (situation)
+161666008	History of heart recipient (situation)
+161669001	History of bone tissue recipient (situation)
+161671001	History of liver recipient (situation)
+161672008	History of being lung transplant recipient (situation)
+174425003	Orthotopic liver transplant (procedure)
+174426002	Heterotopic liver transplant (procedure)
+174427006	Replacement of previous liver transplant (procedure)
+174691005	Transplantation of pancreas and duodenum (procedure)
+174692003	Whole organ pancreatic transplant (procedure)
+174693008	Transplantation of tail of pancreas (procedure)
+174694002	Renewal of transplanted pancreatic tissue (procedure)
+174699007	Excision of transplanted pancreas (procedure)
+174802006	Allotransplant of heart and lung (procedure)
+174803001	Revision of transplantation of heart and lung (procedure)
+174808005	Xenotransplant of heart (procedure)
+174809002	Heterotopic allotransplant of heart (procedure)
+175899003	Autotransplantation of kidney (procedure)
+175901007	Live donor renal transplant (procedure)
+175902000	Cadaveric renal transplant (procedure)
+183023001	Transplant immunosuppression (procedure)
+183655000	Transplant follow-up (finding)
+197747000	Renal tubulo-interstitial disorders in transplant rejection (disorder)
+213146005	Complication of transplanted organ (disorder)
+213148006	Transplanted organ rejection (disorder)
+213150003	Kidney transplant failure and rejection (disorder)
+213151004	Heart transplant failure and rejection (disorder)
+213152006	Heart-lung transplant failure and rejection (disorder)
+213153001	Liver transplant failure and rejection (disorder)
+232657004	Single lung transplant (procedure)
+232658009	Double lung transplant (procedure)
+232659001	Double lung transplant as a block (procedure)
+232660006	Bilateral sequential single lung transplant (procedure)
+232973007	Allotransplant of heart (procedure)
+232974001	Orthotopic allotransplant of heart (procedure)
+233634002	Post-lung transplantation bronchiectasis (disorder)
+233844002	Accelerated coronary artery disease in transplanted heart (disorder)
+233932001	Cardiac transplant disorder (disorder)
+233933006	Cardiac transplant rejection (disorder)
+233934000	Cardiac transplant failure (disorder)
+234518003	Bone marrow transplant disorder (disorder)
+234519006	Bone marrow transplant rejection (disorder)
+234520000	Bone marrow transplant failure (disorder)
+235910007	Liver transplant disorder (disorder)
+235911006	Liver transplant rejection (disorder)
+235912004	Liver transplant failure (disorder)
+236138007	Xenograft renal transplant (procedure)
+236568008	Renal transplant disorder (disorder)
+236569000	Primary non-function of renal transplant (disorder)
+236570004	Renal transplant rejection (disorder)
+236571000	Hyperacute rejection of renal transplant (disorder)
+236572007	Accelerated rejection of renal transplant (disorder)
+236573002	Very mild acute rejection of renal transplant (disorder)
+236574008	Acute rejection of renal transplant (disorder)
+236575009	Acute rejection of renal transplant - grade I (disorder)
+236576005	Acute rejection of renal transplant - grade II (disorder)
+236577001	Acute rejection of renal transplant - grade III (disorder)
+236578006	Chronic rejection of renal transplant (disorder)
+236579003	Chronic rejection of renal transplant - grade 1 (disorder)
+236580000	Chronic rejection of renal transplant - grade II (disorder)
+236581001	Chronic rejection of renal transplant - grade III (disorder)
+236582008	Acute-on-chronic rejection of renal transplant (disorder)
+236583003	Failed renal transplant (disorder)
+236584009	Perfusion injury of renal transplant (disorder)
+236585005	De novo transplant disease (disorder)
+236586006	De novo glomerulonephritis (disorder)
+236587002	Transplant glomerulopathy (disorder)
+236588007	Transplant glomerulopathy - early form (disorder)
+236589004	Transplant glomerulopathy - late form (disorder)
+236610003	Escape of urine from transplanted ureter (disorder)
+236614007	Perirenal and periureteric post-transplant lymphocele (disorder)
+254289008	Post-transplant neoplasia (disorder)
+254290004	Post-transplant lymphoproliferative disorder (disorder)
+263903005	Transplant (qualifier value)
+265550007	Transplant nephrectomy (procedure)
+269295009	Transplanted organ failure (disorder)
+277010001	Unexplained episode of renal transplant dysfunction (disorder)
+277011002	Pre-existing disease in renal transplant (disorder)
+277451006	Part organ pancreatic transplant (procedure)
+284348003	Excision of rejected transplanted kidney (procedure)
+287239002	Thymus transplantation (procedure)
+288004005	Kidney replacement (disorder)
+303408002	Entire transplanted ureter (body structure)
+312602005	Lung transplant disorder (disorder)
+312603000	Lung transplant rejection (disorder)
+313030004	Donor renal transplantation (procedure)
+316053009	[V]Transplanted organ or tissue (situation)
+316054003	[V]Kidney transplanted (situation)
+316055002	[V]Heart transplanted (situation)
+316056001	[V]Heart valve transplanted (situation)
+316057005	[V]Skin transplanted (situation)
+316059008	[V]Cornea transplanted (situation)
+316060003	[V]Lung transplanted (situation)
+316061004	[V]Liver transplanted (situation)
+316062006	[V]Other specified transplanted organ or tissue (situation)
+316063001	[V]Unspecified transplanted organ or tissue (situation)
+316068005	[V]Has artificial heart valve (situation)
+345797001	Autotransplantation of pancreatic tissue (procedure)
+405768001	Autotransplantation of heart (procedure)
+408471009	Cardiothoracic transplantation (qualifier value)
+408477008	Transplantation surgery (qualifier value)
+425616008	Transplantation of ileum (procedure)
+426356008	Orthotopic transplantation of whole liver (procedure)
+426463009	Allotransplantation of ileum (procedure)
+426984008	Allotransplantation of thymus gland (procedure)
+428198008	Transplantation of hepatocytes (procedure)
+429054002	Disorder related to transplantation (disorder)
+429332008	Transplantation of single lobe of lung (procedure)
+429451003	Disorder related to renal transplantation (disorder)
+429496005	Examination of live donor after kidney transplant (procedure)
+431186002	Accelerated rejection of cardiac transplant (disorder)
+431222008	Acute rejection of liver transplant (disorder)
+431223003	Acute rejection of lung transplant (disorder)
+431456004	Accelerated rejection of bone marrow transplant (disorder)
+431507002	Accelerated rejection of lung transplant (disorder)
+431862001	Acute rejection of bone marrow transplant (disorder)
+431896008	Chronic rejection of cardiac transplant (disorder)
+431953002	Chronic rejection of bone marrow transplant (disorder)
+432772009	Hyperacute rejection of liver transplant (disorder)
+432773004	Hyperacute rejection of cardiac transplant (disorder)
+432774005	Hyperacute rejection of lung transplant (disorder)
+432777003	Accelerated rejection of liver transplant (disorder)
+432782005	Hyperacute rejection of bone marrow transplant (disorder)
+432843002	Acute rejection of cardiac transplant (disorder)
+432908002	Chronic rejection of liver transplant (disorder)
+432958009	Chronic rejection of lung transplant (disorder)
+441754003	Percutaneous transhepatic transplantation of pancreatic islet cell using fluoroscopic guidance (procedure)
+445964006	Monomorphic posttransplant lymphoproliferative disorder (disorder)
+447981001	Allotransplantation of islets of Langerhans (procedure)
+702773008	Cornea transplant recipient (finding)
+702777009	Liver transplant recipient (finding)
+711411006	Allotransplantation of kidney from beating heart cadaver (procedure)
+711413009	Allotransplantation of kidney from non-beating heart cadaver (procedure)
+711446003	Transplantation of kidney regime (regime/therapy)
+722956007	Early post-transplant lymphoproliferative disorder (disorder)
+737297006	Transplanted liver present (finding)
+737299009	Transplanted cornea present (finding)
+765478004	Allotransplantation of left kidney (procedure)
+765479007	Allotransplantation of right kidney (procedure)
+6471000179103	Transplantation of kidney and pancreas (procedure)
+169761000000104	Heart and lung transplant
+226461000000108	Single lobe lung transplant (procedure)
+226931000000109	Transplantation of ileum (procedure)
+226941000000100	Transplantation of liver cells (procedure)
+226951000000102	Orthotopic transplantation of whole liver (procedure)
+228751000000100	Interventions associated with transplantation of kidney (regime/therapy)
+231691000000106	Allotransplantation of kidney from cadaver, heart non-beating (procedure)
+231721000000102	Allotransplantation of kidney from cadaver, heart-beating (procedure)
+233331000000102	Orthotopic transplantation of liver NEC (procedure)
+234761000000108	Allotransplantation of ileum (procedure)
+234771000000101	Transplantation of ileum NOS (procedure)
+235291000000105	Interventions associated with transplantation of kidney NOS (regime/therapy)
+237191000000107	Other specified transplantation of ileum (procedure)
+238241000000106	Other specified interventions associated with transplantation of kidney (regime/therapy)
+238251000000109	Pre-transplantation of kidney work-up of recipient (regime/therapy)
+238821000000100	Post-transplantation of kidney examination of live donor (regime/therapy)
+239101000000109	Pre-transplantation of kidney work-up of live donor (regime/therapy)
+244811000000102	Allotransplantation of kidney from cadaver NEC (procedure)
+255621000000109	Double lung transplant
+255631000000106	Single lung transplant
+255641000000102	Single lobe lung transplant
+257161000000100	Transplantation of ileum
+257171000000107	Allotransplantation of ileum
+257191000000106	Transplantation of ileum NOS
+257811000000106	Transplantation of liver cells
+257821000000100	Orthotopic transplantation of whole liver
+261981000000107	Allotransplantation of kidney from cadaver, heart-beating
+261991000000109	Allotransplantation of kidney from cadaver, heart non-beating
+262111000000105	Interventions associated with transplantation of kidney
+262131000000102	Pre-transplantation of kidney work-up, recipient
+262141000000106	Pre-transplantation of kidney work-up, live donor
+262161000000107	Post-transplantation of kidney examination, live donor
+262181000000103	Interventions associated with transplantation of kidney NOS
+281181000000107	Allotransplantation of thymus gland (procedure)
+281531000000103	Other specified transplantation of thymus gland (procedure)
+281551000000105	Transplantation of thymus gland NOS (procedure)
+288831000000109	Thymus transplantation
+288841000000100	Allotransplantation of thymus gland
+288861000000104	Transplantation of thymus gland NOS
+366961000000102	Renal transplant recipient (finding)
+377121000000100	Percutaneous transhepatic transplantation of pancreatic islet cell using fluoroscopic guidance (procedure)
+399241000000100	[V]Kidney transplanted (context-dependent category)
+399631000000107	[V]Heart valve transplanted (context-dependent category)
+400271000000108	[V]Has artificial heart valve (context-dependent category)
+410751000000109	[V]Cornea transplanted (context-dependent category)
+417051000000108	[X]Failure and rejection of other transplanted organ and tissue (disorder)
+427761000000102	[V]Skin transplanted (context-dependent category)
+429681000000105	[V]Transplanted organ or tissue (context-dependent category)
+431301000000106	[V]Other specified transplanted organ or tissue (context-dependent category)
+464381000000109	[V]Liver transplanted (context-dependent category)
+466831000000107	[V]Unspecified transplanted organ or tissue (context-dependent category)
+526211000000102	Complication of transplanted lung (disorder)
+538521000000107	Other specified transplantation of liver (procedure)
+550501000000102	Transplantation of lung NOS (procedure)
+552991000000104	Transplantation of pancreas NOS (procedure)
+555141000000100	Other specified transplantation of lung (procedure)
+555681000000104	Other specified transplantation of pancreas (procedure)
+562851000000107	Allotransplantation of heart NEC (procedure)
+568721000000106	Other specified transplantation of heart and lung (procedure)
+586331000000109	Revision of transplantation of heart NEC (procedure)
+586341000000100	Transplantation of heart and lung NOS (procedure)
+586351000000102	Other transplantation of heart (procedure)
+591031000000104	History of - tissue/organ recipient NOS (situation)
+595961000000105	Transplantation of liver NOS (procedure)
+595991000000104	Other specified other transplantation of heart (procedure)
+596001000000100	Other transplantation of heart NOS (procedure)
+622431000000104	Other specified transplantation of kidney (procedure)
+622441000000108	Transplantation of kidney NOS (procedure)
+707891000000102	Complication of transplanted lung
+707901000000101	Post-transplant lymphoproliferative disorder
+805261000000101	Bronchiolitis obliterans syndrome after lung transplantation (disorder)
+807651000000109	Bronchiolitis obliterans syndrome after lung transplantation
+807951000000103	Cardiothoracic transplantation
+808091000000109	Transplantation surgery
+830871000000105	Acute-on-chronic rejection of renal transplant
+830881000000107	Acute rejection of renal transplant - grade I
+830891000000109	Acute rejection of renal transplant - grade II
+830901000000105	Acute rejection of renal transplant - grade III
+830931000000104	Acute rejection of renal transplant
+834931000000108	Accelerated rejection of renal transplant
+843691000000100	Urological complication of renal transplant (disorder)
+843701000000100	Urological complication of renal transplant
+843901000000103	Allogeneic transplantation of pancreatic islet cells (procedure)
+844191000000106	Autologous transplantation of pancreatic islet cells (procedure)
+844661000000109	Vascular complication of renal transplant (disorder)
+844671000000102	Vascular complication of renal transplant
+847791000000101	Rupture of artery of transplanted kidney (disorder)
+847801000000102	Rupture of artery of transplanted kidney
+847811000000100	Rupture of vein of transplanted kidney (disorder)
+847821000000106	Rupture of vein of transplanted kidney
+847881000000107	Stenosis of vein of transplanted kidney (disorder)
+847891000000109	Stenosis of vein of transplanted kidney
+852981000000100	Aneurysm of vein of transplanted kidney (disorder)
+853021000000108	Aneurysm of artery of transplanted kidney (disorder)
+853031000000105	Aneurysm of artery of transplanted kidney
+853761000000103	Living donor liver transplantation (procedure)
+855231000000100	Aneurysm of vein of transplanted kidney
+855271000000103	Very mild acute rejection of renal transplant
+856681000000105	Chronic rejection of renal transplant
+856691000000107	Chronic rejection of renal transplant - grade 1
+856701000000107	Chronic rejection of renal transplant - grade II
+856711000000109	Chronic rejection of renal transplant - grade III
+856931000000103	Unexplained episode of renal transplant dysfunction
+857241000000102	Xenograft renal transplant
+857311000000108	Renal transplant rejection
+864271000000105	Thrombosis of artery of transplanted kidney (disorder)
+864281000000107	Thrombosis of artery of transplanted kidney
+864311000000105	Thrombosis of vein of transplanted kidney (disorder)
+864321000000104	Thrombosis of vein of transplanted kidney
+885861000000104	Liver transplant recipient (finding)
+885891000000105	Cornea transplant recipient (finding)
+896561000000109	Transplantation of stomach (procedure)
+896571000000102	Transplantation of stomach
+896581000000100	Allotransplantation of stomach (procedure)
+896591000000103	Allotransplantation of stomach
+916371000000101	Excision of rejected transplanted kidney
+916381000000104	Transplantation of stomach
+916391000000102	Transplantation of stomach
+916401000000104	Transplantation of stomach
+916411000000102	Transplantation of stomach
+928341000000103	History of heart-lung transplant recipient (situation)
+938271000000101	Dissection of transplant artery
+938371000000106	De novo transplant disease
+938441000000106	De novo glomerulonephritis

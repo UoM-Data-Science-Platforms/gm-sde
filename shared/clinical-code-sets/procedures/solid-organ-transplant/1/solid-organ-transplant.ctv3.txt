@@ -1,0 +1,153 @@
+14S2.	H/O: kidney recipient
+14S3.	H/O: heart recipient
+14S8.	H/O: liver recipient
+14S9.	H/O: lung recipient
+7450	Lung transplant
+7450y	Other specified transplantation of lung
+7450z	Transplantation of lung NOS
+7800	Liver transplant
+78000	Orthotopic liver transplant
+78001	Heterotopic liver transplant
+78002	Replacement of previous liver transplant
+7800y	Other specified transplantation of liver
+7800z	Transplantation of liver NOS
+7830	Pancreatic transplant
+78300	Transplantation of pancreas and duodenum
+78301	Whole organ pancreatic transplant
+78302	Transplantation of tail of pancreas
+78303	Islet cell transplant
+78304	Renewal of transplanted pancreatic tissue
+7830y	Other specified transplantation of pancreas
+7830z	Transplantation of pancreas NOS
+78312	Excision of transplanted pancreas
+78420	Spleen transplant
+7900	Heart and lung transplant
+79000	Allotransplant of heart and lung
+79001	Revision of transplantation of heart and lung
+7900y	Other specified transplantation of heart and lung
+7900z	Transplantation of heart and lung NOS
+7901	Other transplantation of heart
+79010	Allotransplantation of heart NEC
+79011	Xenotransplant of heart
+79013	Heterotopic allotransplant of heart
+79015	Revision of transplantation of heart NEC
+7901y	Other specified other transplantation of heart
+7901z	Other transplantation of heart NOS
+7B00.	Renal transplant
+7B000	Autotransplantation of kidney
+7B001	Live donor renal transplant
+7B002	Cadaveric renal transplant
+7B00y	Other specified transplantation of kidney
+7B00z	Transplantation of kidney NOS
+7B015	Transplant nephrectomy (& for rejection)
+8C31.	Transplant immunosuppression
+8HBB.	Transplant follow-up
+K0B5.	Renal tubulo-interstitial disorders in transplant rejection
+SP08.	Transplanted organ complication
+SP080	(Transpl organ fail) or (deterior ren func aft ren transpl)
+SP081	Transplanted organ rejection
+SP083	Kidney transplant failure and rejection
+SP084	Heart transplant failure and rejection
+SP085	Heart-lung transplant failure and rejection
+SP086	Liver transplant failure and rejection
+SP08z	Transplanted organ complication NOS
+TB000	Heart transplant with complication, without blame
+TB001	Kidney transplant with complication, without blame
+TB002	Liver transplant with complication, without blame
+X00s1	Single lung transplant
+X00s2	Double lung transplant
+X00s3	Double lung transplant as a block
+X00s4	Bilateral sequential single lung transplant
+X200b	Accelerated coronary artery disease in transplanted heart
+X202u	Cardiac transplant disorder
+X202v	Cardiac transplant rejection
+X202w	Cardiac transplant failure
+X307x	Liver transplant disorder
+X307y	Liver transplant rejection
+X307z	Liver transplant failure
+X30D2	Xenograft renal transplant
+X30Ma	Chronic rejection of renal transplant - grade III
+X30Mb	Acute-on-chronic rejection of renal transplant
+X30Mc	Failed renal transplant
+X30Md	Perfusion injury of renal transplant
+X30Me	De novo transplant disease
+X30Mf	De novo glomerulonephritis
+X30Mg	Transplant glomerulopathy
+X30Mh	Transplant glomerulopathy - early form
+X30Mi	Transplant glomerulopathy - late form
+X30MN	Renal transplant disorder
+X30MO	Primary non-function of renal transplant
+X30MP	Renal transplant rejection
+X30MQ	Hyperacute rejection of renal transplant
+X30MR	Accelerated rejection of renal transplant
+X30MS	Very mild acute rejection of renal transplant
+X30MT	Acute rejection of renal transplant
+X30MU	Acute rejection of renal transplant - grade I
+X30MV	Acute rejection of renal transplant - grade II
+X30MW	Acute rejection of renal transplant - grade III
+X30MX	Chronic rejection of renal transplant
+X30MY	Chronic rejection of renal transplant - grade 1
+X30MZ	Chronic rejection of renal transplant - grade II
+X30NE	Escape of urine from transplanted ureter
+X30NN	Perirenal and periureteric post-transplant lymphocele
+X78FE	Post-transplant neoplasia
+X78FF	Post-transplant lymphoproliferative disorder
+Xa0HK	Unexplained episode of renal transplant dysfunction
+Xa0HL	Pre-existing disease in renal transplant
+Xa0Pz	Part organ pancreatic transplant
+Xa2h5	Excision of rejected transplanted kidney
+Xa3kB	Thymus transplantation
+Xa3x6	Kidney replacement
+Xa9UX	Transplanted ureter
+Xaa2O	Thrombosis of artery of transplanted kidney
+Xaa2Q	Thrombosis of vein of transplanted kidney
+Xaat5	Transplantation of stomach
+Xaat6	Allotransplantation of stomach
+XaDya	Lung transplant disorder
+XaDyb	Lung transplant rejection
+XaE9T	Donor renal transplantation
+XaJJo	Transplantation surgery
+XaJJv	Cardiothoracic transplantation
+XaLcH	Single lobe lung transplant
+XaLda	Transplantation of ileum
+XaLdb	Allotransplantation of ileum
+XaLdc	Other specified transplantation of ileum
+XaLdd	Transplantation of ileum NOS
+XaLde	Transplantation of liver cells
+XaLdf	Orthotopic transplantation of whole liver
+XaM1o	Allotransplantation of kidney from cadaver, heart-beating
+XaM1p	Allotransplantation kidney from cadaver, heart non-beating
+XaM4e	Interventions associated with transplantation of kidney
+XaM4f	OS interventions associated with transplantation of kidney
+XaM4g	Interventions associated with transplantation of kidney NOS
+XaM4j	Post-transplantation of kidney examination, live donor
+XaM4l	Post-transplantation of kidney examination, recipient
+XaMKM	Allotransplantation of kidney from cadaver NEC
+XaMm9	Allotransplantation of thymus gland
+XaMMe	Orthotopic transplantation of liver NEC
+XaMmq	Other specified transplantation of thymus gland
+XaMms	Transplantation of thymus gland NOS
+XaYR1	Bronchiolitis obliterans syndrome after lung transplantation
+XaZe2	Rupture of artery of transplanted kidney
+XaZe3	Rupture of vein of transplanted kidney
+XaZe7	Stenosis of vein of transplanted kidney
+XaZkw	Aneurysm of vein of transplanted kidney
+XaZl0	Aneurysm of artery of transplanted kidney
+XaZWa	Urological complication of renal transplant
+XaZYx	Vascular complication of renal transplant
+XC0CV	Transplant
+XE0Fv	Transplant nephrectomy
+XE1p5	Transplanted organ failure
+XE1pM	[X]Failure & rejection of other transplanted organ & tissue
+XM0Bl	Transplant disorder
+XSC3p	Complication of transplanted lung
+Y1602	Kidney-pancreas transplant
+ZV42.	[V]Transplanted organ or tissue
+ZV420	[V]Kidney transplanted
+ZV421	[V]Heart transplanted
+ZV422	[V]Heart valve transplanted
+ZV423	[V]Skin transplanted
+ZV424	[V]Bone transplanted
+ZV425	[V]Cornea transplanted
+ZV426	[V]Lung transplanted
+ZV427	[V]Liver transplanted

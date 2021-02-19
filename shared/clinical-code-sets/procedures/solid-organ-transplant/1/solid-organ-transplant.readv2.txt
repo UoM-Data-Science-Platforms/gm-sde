@@ -1,0 +1,108 @@
+7901000	Allotransplantation of heart NEC
+7900.00	Transplantation of heart and lung
+8HBB.00	Transplant follow-up
+7B00.00	Transplantation of kidney
+7800.00	Transplantation of liver
+7901.00	Other transplantation of heart
+7B00z00	Transplantation of kidney NOS
+ZV42000	[V]Kidney transplanted
+SP08600	Liver transplant failure and rejection
+ZV42700	[V]Liver transplanted
+ZV42100	[V]Heart transplanted
+ZV42600	[V]Lung transplanted
+7450.00	Transplantation of lung
+SP08100	Transplanted organ rejection
+SP08300	Kidney transplant failure and rejection
+7B00100	Transplantation of kidney from live donor
+TB00111	Renal transplant with complication, without blame
+ZV42.00	[V]Transplanted organ or tissue
+7B00200	Transplantation of kidney from cadaver
+SP08z00	Transplanted organ complication NOS
+7B06300	Exploration of renal transplant
+7800z00	Transplantation of liver NOS
+SP08500	Heart-lung transplant failure and rejection
+SP08000	Transplanted organ failure
+SP...18	Transplant complications
+TB00200	Liver transplant with complication, without blame
+7800000	Orthotopic transplantation of liver
+7830.00	Transplantation of pancreas
+14S8.00	H/O: liver recipient
+7450z00	Transplantation of lung NOS
+7901z00	Other transplantation of heart NOS
+ZV42y12	[V]Pancreas transplanted
+SP08.00	Transplanted organ complication
+ZLEQJ00	Discharge from transplant surgery service
+SP08400	Heart transplant failure and rejection
+K0B5.00	Renal tubulo-interstitial disordrs in transplant rejectn
+7B01500	Transplant nephrectomy
+14S2.00	H/O: kidney recipient
+7900000	Allotransplantation of heart and lung
+TB00100	Kidney transplant with complication, without blame
+7B00000	Autotransplant of kidney
+7830100	Transplantation of whole pancreas
+14S3.00	H/O: heart recipient
+8C31.00	Transplant immunosuppression
+7830300	Transplantation of islets of Langerhans
+7900z00	Transplantation of heart and lung NOS
+TB00000	Heart transplant with complication, without blame
+14S9.00	H/O: lung recipient
+7B00111	Allotransplantation of kidney from live donor
+7830z00	Transplantation of pancreas NOS
+ZLD4K00	Discharge by transplant surgeon
+7800200	Replacement of previous liver transplant
+7901y00	Other specified other transplantation of heart
+SP08011	Det.ren.func.after ren.transpl
+7B00y00	Other specified transplantation of kidney
+7800100	Heterotopic transplantation of liver
+7B01511	Excision of rejected transplanted kidney
+7901100	Xenotransplantation of heart
+7450y00	Other specified transplantation of lung
+7800111	Auxillary liver transplant
+7B00300	Allotransplantation of kidney from cadaver, heart-beating
+7B0F100	Pre-transplantation of kidney work-up, recipient
+7B0F.00	Interventions associated with transplantation of kidney
+7450100	Single lung transplant
+ZV42y11	[V]Intestine transplanted
+7901500	Revision of transplantation of heart NEC
+7B0F400	Post-transplantation of kidney examination, live donor
+7B0F200	Pre-transplantation of kidney work-up, live donor
+7831200	Excision of transplanted pancreas
+7B00400	Allotransplantation kidney from cadaver, heart non-beating
+ZV42.11	[V]Transplanted organ
+7450000	Double lung transplant
+7800500	Orthotopic transplantation of liver NEC
+7B00211	Allotransplantation of kidney from cadaver
+7800y00	Other specified transplantation of liver
+SP08A00	Post-transplant lymphoproliferative disorder
+7800112	Piggy back liver transplant
+764C.00	Transplantation of ileum
+Kyu1C00	[X]Renal tubulo-interstitial disorders/transplant rejection
+7830200	Transplantation of tail of pancreas
+7125.00	Transplantation of thymus gland
+7B0F300	Post-transplantation of kidney examination, recipient
+9b8K.00	Transplantation surgery
+7B0Fz00	Interventions associated with transplantation of kidney NOS
+7B0Fy00	OS interventions associated with transplantation of kidney
+SP08H00	Acute rejection of renal transplant
+SP08G00	Acute rejection of renal transplant - grade III
+SP08D00	Acute-on-chronic rejection of renal transplant
+SP08E00	Acute rejection of renal transplant - grade I
+7B00212	Cadaveric renal transplant
+7800400	Orthotopic transplantation of whole liver
+SP08N00	Unexplained episode of renal transplant dysfunction
+7B00600	Xenograft renal transplant
+SP08R00	Renal transplant rejection
+7842000	Transplantation of spleen
+SP08P00	Stenosis of vein of transplanted kidney
+SP08J00	Chronic rejection of renal transplant
+SP08W00	Vascular complication of renal transplant
+SP08F00	Acute rejection of renal transplant - grade II
+7901300	Piggyback transplantation of heart
+SP08T00	Urological complication of renal transplant
+SP08900	Complication of transplanted lung
+SP08V00	Very mild acute rejection of renal transplant
+SP08V11	Borderline changes of acute rejection
+9b8B200	Cardiothoracic transplantation
+7B00500	Allotransplantation of kidney from cadaver NEC
+761N.00	Transplantation of stomach
+SP08B00	Post-transplant bronchiolitis obliterans syndrome
