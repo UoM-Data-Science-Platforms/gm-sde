@@ -1,0 +1,83 @@
+43C3.	HIV positive
+65QA.	AIDS carrier
+65VE.	Notification of AIDS
+A788.	(AIDS) or (HIV infection)
+A7880	Acute human immunodeficiency virus seroconversion illness
+A7881	Asymptomatic human immunodeficiency virus infection
+A7882	HIV infection with persistent generalised lymphadenopathy
+A7883	HIV infection constitutional disease
+A7884	Human immunodeficiency virus with neurological disease
+A7885	Human immunodeficiency virus with secondary infection
+A7886	Human immunodeficiency virus with secondary cancers
+A788y	Human immunodeficiency virus with other clinical findings
+A788z	Acquired human immunodeficiency virus infection syndrome NOS
+A789.	Human immunodef virus resulting in other disease
+A7890	HIV disease resulting in mycobacterial infection
+A7891	HIV disease resulting in cytomegaloviral disease
+A7892	HIV disease resulting in candidiasis
+A7893	HIV disease resulting in Pneumocystis carinii pneumonia
+A7894	HIV disease resulting in multiple infections
+A7895	HIV disease resulting in Kaposi's sarcoma
+A7896	HIV disease resulting in Burkitt's lymphoma
+A7897	HIV dis resulting oth types of non-Hodgkin's lymphoma
+A7898	HIV disease resulting in multiple malignant neoplasms
+A7899	HIV disease resulting in lymphoid interstitial pneumonitis
+AyuC.	[X]Human immunodeficiency virus disease
+AyuC0	[X]HIV disease resulting in other bacterial infections
+AyuC1	[X]HIV disease resulting in other viral infections
+AyuC2	[X]HIV disease resulting in other mycoses
+AyuC4	[X]HIV disease resulting/other infectious+parasitic diseases
+AyuC5	[X]HIV disease resulting/unspcf infectious+parasitic disease
+AyuC6	[X]HIV disease resulting in other non-Hodgkin's lymphoma
+AyuC7	[X]HIV dis reslt/oth mal neopl/lymph,h'matopoetc+reltd tissu
+AyuC8	[X]HIV disease resulting in other malignant neoplasms
+AyuC9	[X]HIV disease resulting in unspecified malignant neoplasm
+AyuCA	[X]HIV disease resulting in multiple diseases CE
+AyuCB	[X]HIV disease result/haematological+immunologic abnorms,NEC
+AyuCC	[X]HIV disease resulting in other specified conditions
+AyuCD	[X]Unspecified human immunodeficiency virus [HIV] disease
+R109.	[D]Laboratory evidence of human immunodeficiency virus [HIV]
+X001B	Human immunodefiency virus encephalitis
+X001C	Human immunodefiency virus leucoencephalopathy
+X001h	Human immunodeficiency virus myelitis
+X003P	Acquired immune deficiency syndrome dementia complex
+X00B7	Neuropathy due to human immunodeficiency virus
+X00cZ	HIV-associated retinitis
+X20Q9	Human immunodeficiency virus-associated periodontitis
+X303J	Human immunodeficiency virus enteropathy
+X30IP	Acquired immune deficiency syndrome-related nephropathy
+X709a	Human immunodeficiency virus myopathy
+X70M6	Human immunodeficiency virus infection
+X70O0	Acquired immune deficiency syndrome-related complex
+X70O1	Human immunodeficiency virus infection wasting syndrome
+X70O5	Human immunodeficiency viral myelitis
+X70O6	Human immunodeficiency virus neuropathy
+X73kd	Human immunodeficiency virus type 1
+X73ke	Human immunodeficiency virus type 2
+X80bg	Human immunodeficiency virus antibody
+X80bh	Human immunodeficiency virus type 1 antibody
+X80bi	Human immunodeficiency virus type 2 antibody
+X80t8	Human immunodeficiency virus p24 antigen
+Xa0Ae	Congenital acquired immune deficiency syndrome
+Xa0Af	Congenital human immunodeficiency virus positive status synd
+Xa0ye	Human immunodeficiency virus
+Xa1k1	HIV-related sclerosing cholangitis
+Xa1k3	HIV-related gut disease - cause unknown
+Xa3e8	AIDS with viral/chlamydial disease NOS
+Xaapx	Human immunodeficiency virus infection monitoring invitation
+Xaapy	HIV infection monitoring telephone invitation
+Xaapz	HIV infection monitoring first telephone invitation
+XaaqE	HIV infection monitoring second telephone invitation
+XaaqF	HIV infection monitoring third telephone invitation
+XabfF	Human immunodeficiency virus drug resistance test
+Xabnk	Human immunodeficiency virus type 1 subtype identification
+XaFuL	HIV viral load
+XaILa	HIV 1 nucleic acid detection
+XaMBK	Human immunodeficiency virus RNA/DNA ratio
+XaO9K	Human immunodeficiency virus viral load by log rank
+XaQOu	Human immunodeficiency virus annual review
+XaQOv	HIV positive general health check service declined
+XaZxo	Seen by community HIV (human immunodeficiency virus) nurse
+XE0RX	Acquired immune deficiency syndrome
+XE0Tk	Acquired immune deficiency syndrome (& [ARC])
+ZV01A	[V]Asymptomatic human immunodeficency virus infection status
