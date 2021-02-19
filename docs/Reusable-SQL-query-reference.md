@@ -250,6 +250,26 @@ A temp table with a row for each patient and ltc combo
 _File_: `query-patient-ltcs.sql`
 
 ---
+## Lower level super output area
+To get the LSOA for each patient.
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientLSOA (FK_Patient_Link_ID, LSOA)
+ 	- FK_Patient_Link_ID - unique patient id
+	- LSOA - nationally recognised LSOA identifier
+```
+_File_: `query-patient-lsoa.sql`
+
+---
 ## Practice system lookup table
 To provide lookup table for GP systems. The GMCR doesn't hold this information in the data so here is a lookup. This was accurate on 27th Jan 2021 and will likely drift out of date slowly as practices change systems. Though this doesn't happen very often.
 
