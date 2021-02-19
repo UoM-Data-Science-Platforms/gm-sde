@@ -38,7 +38,12 @@ Most things like this can be accessed by executing the following command:
 npm start
 ```
 
-This launches a command line interface that allows you to specify what you want to do.
+This launches a command line interface that allows you to specify what you want to do. Currently the options are:
+
+- Evaulate the existing code sets to check they conform to our standards (such as naming convention, file format etc..)
+- Create a new clinical code set
+- Generate the SQL required for injecting clinical code sets
+- Generate documentation for the reusable SQL queries
 
 ## Things to check
 

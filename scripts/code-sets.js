@@ -1,11 +1,35 @@
 const chalk = require('chalk');
-const { readdirSync, readFileSync, writeFileSync } = require('fs');
+const { readdirSync, readFileSync, writeFileSync, mkdirSync } = require('fs');
 const { join } = require('path');
-const { log, warn, error, setSilence } = require('./log');
+const { log, warn, setSilence } = require('./log');
 
 const CODE_SET_PARENT_DIR = join(__dirname, '..', 'shared', 'clinical-code-sets');
 let clinicalCodesByTerminology = { emis: {}, readv2: {}, snomed: {}, ctv3: {} };
 let clinicalCodesByConcept = {};
+
+const createCodeSet = (type, codeSetName) => {
+  // Create the code set directory
+  const CODE_SET_DIR = join(CODE_SET_PARENT_DIR, type, codeSetName);
+  mkdirSync(CODE_SET_DIR);
+
+  const VERSION_DIR = join(CODE_SET_DIR, '1');
+  // Create the first version
+  mkdirSync(VERSION_DIR);
+
+  // Create the skeleton files
+  writeFileSync(join(VERSION_DIR, `${codeSetName}.ctv3.txt`), '');
+  writeFileSync(join(VERSION_DIR, `${codeSetName}.readv2.txt`), '');
+  writeFileSync(join(VERSION_DIR, `${codeSetName}.snomed.txt`), '');
+  writeFileSync(join(VERSION_DIR, `README.md`), '');
+
+  log(`
+The code set directory and skeleton files have been created.
+
+Please fill out the code sets in:
+
+${VERSION_DIR}
+`);
+}
 
 /**
  * Method to validate and evaulate the existing clinical code sets.
@@ -463,4 +487,11 @@ function isValidDataRow(row) {
   return row.match(/^[^\t]+\t[^\t]+$/);
 }
 
-module.exports = { evaulateCodeSets, createCodeSetSQL };
+module.exports = { 
+  evaulateCodeSets, 
+  createCodeSetSQL, 
+  getClinicalCodeSetTypes, 
+  getClinicalCodeSets,
+  isValidCodeSet,
+  createCodeSet,
+};

@@ -118,3 +118,6 @@
 
 2021-02-18 09:30-09:53
 - Testing data extraction scripts
+
+2021-02-18 14:08-15:00
+- Looking for high/moderate risk clinical codes
