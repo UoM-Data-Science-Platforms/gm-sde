@@ -1,0 +1,68 @@
+43C3.11	HIV positive
+43j7.00	HIV 1 nucleic acid detection
+43w3.00	Human immunodeficiency virus RNA/DNA ratio
+4J34.00	HIV viral load
+4J3F.00	Human immunodeficiency virus viral load by log rank
+4J3N.00	Human immunodeficiency virus drug resistance test
+4J3P.00	Human immunodeficiency virus type 1 subtype identification
+65QA.00	AIDS carrier
+65VE.00	Notification of AIDS
+66j0.00	Human immunodeficiency virus annual review
+9kl..00	HIV pos gen health check serv declind - enhanc service admin
+9kl..11	HIV positive general health check service declined
+9mN0000	HIV infection monitoring first telephone invitation
+9mN0100	HIV infection monitoring second telephone invitation
+9mN0200	HIV infection monitoring third telephone invitation
+A788.00	Acquired immune deficiency syndrome
+A788.11	Human immunodeficiency virus infection
+A788000	Acute human immunodeficiency virus infection
+A788100	Asymptomatic human immunodeficiency virus infection
+A788200	HIV infection with persistent generalised lymphadenopathy
+A788300	Human immunodeficiency virus with constitutional disease
+A788400	Human immunodeficiency virus with neurological disease
+A788500	Human immunodeficiency virus with secondary infection
+A788600	Human immunodeficiency virus with secondary cancers
+A788U00	HIV disease result/haematological+immunologic abnorms,NEC
+A788V00	HIV disease resulting in multiple diseases CE
+A788W00	HIV disease resulting in unspecified malignant neoplasm
+A788X00	HIV disease resulting/unspcf infectious+parasitic disease
+A788y00	Human immunodeficiency virus with other clinical findings
+A788z00	Acquired human immunodeficiency virus infection syndrome NOS
+A789.00	Human immunodef virus resulting in other disease
+A789000	HIV disease resulting in mycobacterial infection
+A789100	HIV disease resulting in cytomegaloviral disease
+A789200	HIV disease resulting in candidiasis
+A789300	HIV disease resulting in Pneumocystis carinii pneumonia
+A789311	HIV disease resulting in Pneumocystis jirovecii pneumonia
+A789400	HIV disease resulting in multiple infections
+A789500	HIV disease resulting in Kaposi's sarcoma
+A789511	HIV disease resulting in Kaposi sarcoma
+A789600	HIV disease resulting in Burkitt's lymphoma
+A789611	HIV disease resulting in Burkitt lymphoma
+A789700	HIV dis resulting oth types of non-Hodgkin's lymphoma
+A789711	HIV disease resulting in other types of non-Hodgkin lymphoma
+A789800	HIV disease resulting in multiple malignant neoplasms
+A789900	HIV disease resulting in lymphoid interstitial pneumonitis
+A789A00	HIV disease resulting in wasting syndrome
+A789X00	HIV dis reslt/oth mal neopl/lymph,h'matopoetc+reltd tissu
+AyuC.00	[X]Human immunodeficiency virus disease
+AyuC000	[X]HIV disease resulting in other bacterial infections
+AyuC100	[X]HIV disease resulting in other viral infections
+AyuC200	[X]HIV disease resulting in other mycoses
+AyuC300	[X]HIV disease resulting in multiple infections
+AyuC400	[X]HIV disease resulting/other infectious+parasitic diseases
+AyuC500	[X]HIV disease resulting/unspcf infectious+parasitic disease
+AyuC600	[X]HIV disease resulting in other non-Hodgkin's lymphoma
+AyuC611	[X]HIV disease resulting in other non-Hodgkin lymphoma
+AyuC700	[X]HIV dis reslt/oth mal neopl/lymph,h'matopoetc+reltd tissu
+AyuC800	[X]HIV disease resulting in other malignant neoplasms
+AyuC900	[X]HIV disease resulting in unspecified malignant neoplasm
+AyuCA00	[X]HIV disease resulting in multiple diseases CE
+AyuCB00	[X]HIV disease result/haematological+immunologic abnorms,NEC
+AyuCC00	[X]HIV disease resulting in other specified conditions
+AyuCD00	[X]Unspecified human immunodeficiency virus [HIV] disease
+Eu02400	[X]Dementia in human immunodef virus [HIV] disease
+L179.00	HIV disease complicating pregnancy childbirth puerperium
+R109.00	[D]Laboratory evidence of human immunodeficiency virus [HIV]
+ZV01A00	[V]Asymptomatic human immunodeficency virus infection status
+9mN..00	Human immunodeficiency virus infection monitoring invitation
