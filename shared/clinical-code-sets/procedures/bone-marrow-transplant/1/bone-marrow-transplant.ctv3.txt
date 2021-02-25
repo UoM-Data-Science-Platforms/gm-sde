@@ -1,0 +1,28 @@
+7K1Q.	Bone marrow transplant
+7K1Q0	Autologous bone marrow transplant
+7K1Q1	Allograft of bone marrow NEC
+7K1Qy	Other specified graft of bone marrow
+7K1Qz	Graft of bone marrow NOS
+X20Bc	Marrow-treated bone marrow transplant
+X20Bd	Syngeneic bone marrow transplant
+X20Be	T-cell depleted allogeneic bone marrow graft
+X20Bf	Imperfect T-cell depleted allogeneic bone marrow graft
+X20Bg	Allogeneic related bone marrow transplant
+X20Bh	Allogeneic unrelated bone marrow transplant
+X20Bi	Haemopoietic stem cell transplant
+X20Fz	Bone marrow transplant disorder
+X20G0	Bone marrow transplant rejection
+X20G1	Bone marrow transplant failure
+X20G3	Disease relapse in transplant marrow
+Xa0fK	Peripheral blood stem cell graft
+Xa3wp	Injection of bone marrow - blood cells
+Xa8Ry	Allogeneic bone marrow transplant
+XaKK4	Acute graft-versus-host disease
+XaKKM	Chronic graft-versus-host disease
+XaM83	Allograft of bone marrow from sibling donor
+XaM84	Allograft of bone marrow from matched unrelated donor
+XaM85	Allograft of bone marrow from haploidentical donor
+XaMuA	Autologous peripheral blood stem cell transplant
+XaMuB	Syngeneic peripheral blood stem cell transplant
+XaMuC	Allogeneic peripheral blood stem cell transplant
+XaPt6	Allograft of bone marrow from unmatched unrelated donor

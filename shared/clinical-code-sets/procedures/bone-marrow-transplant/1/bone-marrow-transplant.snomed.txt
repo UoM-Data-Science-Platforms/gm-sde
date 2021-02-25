@@ -1,0 +1,59 @@
+23719005	Transplantation of bone marrow (procedure)
+46280001	Autologous bone marrow transplant with purging (procedure)
+58390007	Allogeneic bone marrow transplantation (procedure)
+58776007	Autologous bone marrow transplant (procedure)
+180217003	Transfusion of bone marrow (procedure)
+234331007	Syngeneic bone marrow transplant (procedure)
+234332000	T-cell depleted allogeneic bone marrow graft (procedure)
+234333005	Imperfect T-cell depleted allogeneic bone marrow graft (procedure)
+234334004	Allogeneic related bone marrow transplant (procedure)
+234335003	Allogeneic unrelated bone marrow transplant (procedure)
+234336002	Hemopoietic stem cell transplant (procedure)
+234519006	Bone marrow transplant rejection (disorder)
+234520000	Bone marrow transplant failure (disorder)
+234522008	Disease relapse in transplant marrow (disorder)
+278257006	Peripheral blood stem cell graft (procedure)
+287989002	Injection of bone marrow - blood cells (procedure)
+402355000	Acute graft-versus-host disease (disorder)
+402356004	Chronic graft-versus-host disease (disorder)
+402357008	Lichenoid chronic graft-versus-host disease (disorder)
+402358003	Sclerodermoid chronic graft-versus-host disease (disorder)
+425563003	Grafting of cord blood to bone marrow (procedure)
+425843001	Allogeneic peripheral blood stem cell transplant (procedure)
+425983008	Autologous peripheral blood stem cell transplant (procedure)
+426425001	Allograft of bone marrow from sibling donor (procedure)
+427423003	Allograft of bone marrow from matched unrelated donor (procedure)
+431456004	Accelerated rejection of bone marrow transplant (disorder)
+431862001	Acute rejection of bone marrow transplant (disorder)
+431953002	Chronic rejection of bone marrow transplant (disorder)
+432782005	Hyperacute rejection of bone marrow transplant (disorder)
+698075004	Syngeneic peripheral blood stem cell transplantation (procedure)
+121131000119109	Chronic graft versus host disease after transplantation of bone marrow (disorder)
+166951000000109	Acute graft-versus-host disease (disorder)
+166981000000103	Chronic graft-versus-host disease (disorder)
+176641000000107	Acute graft-versus-host disease
+176651000000105	Chronic graft-versus-host disease
+228291000000104	Allograft of bone marrow from sibling donor (procedure)
+228301000000100	Allograft of bone marrow from matched unrelated donor (procedure)
+228311000000103	Allograft of bone marrow from haploidentical donor (procedure)
+229381000000104	Graft of cord blood to bone marrow (procedure)
+235511000000103	Allograft of cord blood to bone marrow (procedure)
+235521000000109	Graft of cord blood to bone marrow NOS (procedure)
+238541000000109	Other specified graft of cord blood to bone marrow (procedure)
+265571000000102	Allograft of bone marrow from sibling donor
+265581000000100	Allograft of bone marrow from matched unrelated donor
+265591000000103	Allograft of bone marrow from haploidentical donor
+266391000000102	Graft of cord blood to bone marrow
+266401000000104	Allograft of cord blood to bone marrow
+266421000000108	Graft of cord blood to bone marrow NOS
+284671000000102	Autologous peripheral blood stem cell transplant (procedure)
+284681000000100	Syngeneic peripheral blood stem cell transplant (procedure)
+284691000000103	Allogeneic peripheral blood stem cell transplant (procedure)
+291281000000102	Autologous peripheral blood stem cell transplant
+291291000000100	Syngeneic peripheral blood stem cell transplant
+291301000000101	Allogeneic peripheral blood stem cell transplant
+378841000000102	Allograft of bone marrow from unmatched unrelated donor (procedure)
+489351000000104	Allograft of bone marrow from unmatched unrelated donor
+628041000000102	Allograft of bone marrow NEC (procedure)
+628051000000104	Other specified graft of bone marrow (procedure)
+633831000000109	Grafting of bone marrow NOS (procedure)

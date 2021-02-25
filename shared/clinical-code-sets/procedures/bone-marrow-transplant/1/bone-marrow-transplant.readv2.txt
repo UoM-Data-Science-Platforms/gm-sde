@@ -1,0 +1,19 @@
+7K1Q.11	Bone marrow transplant
+7K1Q100	Allograft of bone marrow NEC
+7K1Q200	Transfusion of stem cells
+7K1Q.00	Graft of bone marrow
+SP08700	Acute graft-versus-host disease
+SP08800	Chronic graft-versus-host disease
+7L14400	Peripheral blood stem cell graft
+SP08200	Bone-marrow transplant rejection
+7L14411	Second stage peripheral stem cell infusion
+7L17311	First stage peripheral stem cell infusion
+7K1Qz00	Graft of bone marrow NOS
+7K1Qy00	Other specified graft of bone marrow
+7K1Q300	Allograft of bone marrow from sibling donor
+7L14500	Autologous peripheral blood stem cell transplant
+7L14700	Allogeneic peripheral blood stem cell transplant
+7K1Q400	Allograft of bone marrow from matched unrelated donor
+7K1Q600	Allograft of bone marrow from unmatched unrelated donor
+7K1Q500	Allograft of bone marrow from haploidentical donor
+7L14600	Syngeneic peripheral blood stem cell transplant
