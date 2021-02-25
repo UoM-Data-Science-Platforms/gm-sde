@@ -92,6 +92,26 @@ A temp table as follows:
 _File_: `query-admissions-covid-utilisation.sql`
 
 ---
+## Care home status
+To get the care home status for each patient.
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientCareHomeStatus (FK_Patient_Link_ID, IsCareHomeResident)
+ 	- FK_Patient_Link_ID - unique patient id
+	- IsCareHomeResident - Y/N
+```
+_File_: `query-patient-care-home-resident.sql`
+
+---
 ## Classify secondary admissions
 To categorise admissions to secondary care into 5 categories: Maternity, Unplanned, Planned, Transfer and Unknown.
 
@@ -335,3 +355,43 @@ A temp table as follows:
    hospital stays)
 ```
 _File_: `query-get-discharges.sql`
+
+---
+## Sex
+To get the Sex for each patient.
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientSex (FK_Patient_Link_ID, Sex)
+ 	- FK_Patient_Link_ID - unique patient id
+	- Sex - M/F
+```
+_File_: `query-patient-sex.sql`
+
+---
+## Year of birth
+To get the year of birth for each patient.
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
+ 	- FK_Patient_Link_ID - unique patient id
+	- YearOfBirth - INT
+```
+_File_: `query-patient-year-of-birth.sql`
