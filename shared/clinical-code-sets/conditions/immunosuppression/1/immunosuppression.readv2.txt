@@ -1,0 +1,62 @@
+D20..00	Aplastic anaemia
+D201.00	Acquired aplastic anaemia
+D201000	Aplastic anaemia due to chronic disease
+D201z00	Acquired aplastic anaemia NOS
+D201611	Pancytopenia with malformation
+D200211	Pancytopenia-dysmelia
+D201111	Hypoplastic anaemia due to drug or chemical substance
+D200100	Fanconi's familial refractory anaemia
+D200000	Congenital hypoplastic anaemia
+D2...00	Aplastic and other anaemias
+D204.00	Idiopathic aplastic anaemia
+D201100	Aplastic anaemia due to drugs
+D200.15	Hypoplastic anaemia - familial
+D201412	Hypoplastic anaemia due to toxic cause
+D201200	Aplastic anaemia due to infection
+D200111	Fanconi's hypoplastic anaemia
+D201400	Aplastic anaemia due to toxic cause
+D20z.00	Aplastic anaemia NOS
+D200.00	Constitutional aplastic anaemia
+D200011	Constitutional aplastic anaemia without malformation
+D200y00	Other specified constitutional aplastic anaemia
+D201311	Radiation aplastic anaemia
+7Q09000	Hypoplastic haemolytic and renal anaemia drugs Band 1
+7Q09100	Hypoplastic haemolytic and renal anaemia drugs Band 2
+D200200	Constitutional aplastic anaemia with malformation
+C300700	Adult Fanconi syndrome
+C300600	Acquired Fanconi syndrome
+C300A00	Congenital Fanconi syndrome
+D201300	Aplastic anaemia due to radiation
+D201600	Pancytopenia NOS
+C393.00	Unspecified immunity deficiency
+D201500	Pancytopenia - acquired
+C390z00	Deficiency of humoral immunity NOS
+2J31.00	Patient immunosuppressed
+2J30.00	Patient immunocompromised
+C391011	T-lymphocyte deficiency
+C391000	Predominantly T-cell immuno-deficiency NOS
+8BPE.00	Immunosuppressant drug therapy
+8C32.00	Immunosuppressive therapy
+C391100	Di George syndrome
+F14y011	Louis - Bar syndrome
+C391200	Wiskott - Aldrich syndrome
+C392300	Severe combined immunodefiency with reticular dysgenesis
+C39X.00	Immunodeficiency associated+major defect, unspecified
+C391211	Thrombocytopenic eczema with immunodeficiency
+C392100	Severe combined immunodeficiency
+BBmC.00	[M] T-gamma lymphoproliferative disease
+C392500	Severe combined immunodef with low or normal B-cell numbers
+C392800	Major histocompatibility complex class I deficiency
+C39y000	Lymphocyte function antigen-1 defect
+C396.00	Immunodef follow hereditary defect respon Epstein-Barr vir
+C30yy11	Adenosine-deaminase deficiency
+D401111	FEL-Familial erythrophagocytic lymph histiocytosis
+D201612	Pancytopenia with pancreatitis
+C392.00	Combined immunity deficiency
+C392z00	Combined immunity deficiency NOS
+C395.00	Immunodeficiency with short-limbed stature
+C392400	Severe combined immunodef with low T- and B-cell numbers
+C392600	Adenosine deaminase deficiency
+F14y000	Ataxia-telangiectasia
+C392700	Purine nucleoside phosphorylase deficiency
+C392900	Major histocompatibility complex class II deficiency
