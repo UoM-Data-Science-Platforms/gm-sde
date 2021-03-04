@@ -691,6 +691,7 @@ FROM #AdmissionTypes p
 	LEFT OUTER JOIN #LengthOfStay l ON l.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND l.AdmissionDate = p.AdmissionDate AND l.AcuteProvider = p.AcuteProvider
 	LEFT OUTER JOIN #NumLTCs ltc ON ltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 	LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+WHERE l.LengthOfStay IS NOT NULL
 GROUP BY p.AdmissionDate,p.AcuteProvider,IMD2019Decile1IsMostDeprived10IsLeastDeprived, CovidHealthcareUtilisation,NumberOfLTCs;
 -- 29833
 
@@ -705,6 +706,7 @@ FROM #FinalAdmissions
 --32352
 
 -- Bring it all together for output
+PRINT 'Date,AcuteProvider,IMD2019Decile1IsMostDeprived10IsLeastDeprived,NumberOfLTCs,CovidHealthcareUtilisation,NumberMaternityAdmissions,NumberPlannedAdmissions,NumberTransferAdmissions,NumberUnknownAdmissions,NumberUnplannedAdmissions,NumberDischarged';
 SELECT 
 	cc.[Date], cc.AcuteProvider, cc.IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
 	cc.NumberOfLTCs, cc.CovidHealthcareUtilisation,
