@@ -61,6 +61,7 @@ SELECT
 INTO #FirstMedications
 FROM RLS.vw_GP_Medications
 WHERE (FK_Reference_Coding_ID != -1 OR FK_Reference_SnomedCT_ID != -1)
+AND MedicationDate IS NOT NULL
 GROUP BY 
 	FK_Patient_Link_ID, 
 	CASE
@@ -609,6 +610,7 @@ IF OBJECT_ID('tempdb..#PatientPractice') IS NOT NULL DROP TABLE #PatientPractice
 SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) as GPPracticeCode INTO #PatientPractice FROM RLS.vw_Patient
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND FK_Reference_Tenancy_ID = 2
+AND GPPracticeCode IS NOT NULL
 GROUP BY FK_Patient_Link_ID;
 -- 1298467 rows
 -- 00:00:11
@@ -625,6 +627,7 @@ SELECT FK_Patient_Link_ID FROM #PatientPractice;
 INSERT INTO #PatientPractice
 SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) FROM RLS.vw_Patient
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatientsForPracticeCode)
+AND GPPracticeCode IS NOT NULL
 GROUP BY FK_Patient_Link_ID
 HAVING MIN(GPPracticeCode) = MAX(GPPracticeCode);
 -- 12141
@@ -647,6 +650,7 @@ INNER JOIN (
 	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatientsForPracticeCode)
 	GROUP BY FK_Patient_Link_ID
 ) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+WHERE p.GPPracticeCode IS NOT NULL
 GROUP BY p.FK_Patient_Link_ID
 HAVING MIN(GPPracticeCode) = MAX(GPPracticeCode);
 -- 15
@@ -688,6 +692,7 @@ LEFT OUTER JOIN SharedCare.Reference_GP_Practice gp ON gp.OrganisationCode = pp.
 LEFT OUTER JOIN #CCGLookup ccg ON ccg.CcgId = gp.Commissioner;
 
 -- Bring it all together for output
+PRINT 'FirstMedDate,CCG,GPPracticeCode,IMD2019Decile1IsMostDeprived10IsLeastDeprived,NumberOfLTCs,CovidHealthcareUtilisation,NumberFirstPrescriptions';
 SELECT 
 	fm.FirstMedDate, CCG, GPPracticeCode, 
 	ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, 

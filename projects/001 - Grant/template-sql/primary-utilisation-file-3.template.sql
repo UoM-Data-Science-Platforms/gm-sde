@@ -39,6 +39,7 @@ SELECT DISTINCT FK_Patient_Link_ID, FirstMedDate as EventDate INTO #PatientDates
 --> EXECUTE query-patient-practice-and-ccg.sql
 
 -- Bring it all together for output
+PRINT 'FirstMedDate,CCG,GPPracticeCode,IMD2019Decile1IsMostDeprived10IsLeastDeprived,NumberOfLTCs,CovidHealthcareUtilisation,NumberFirstPrescriptions';
 SELECT 
 	fm.FirstMedDate, CCG, GPPracticeCode, 
 	ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
