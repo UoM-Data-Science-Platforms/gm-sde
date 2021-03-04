@@ -41,6 +41,7 @@ SELECT
 INTO #FirstMedications
 FROM RLS.vw_GP_Medications
 WHERE (FK_Reference_Coding_ID != -1 OR FK_Reference_SnomedCT_ID != -1)
+AND MedicationDate IS NOT NULL
 GROUP BY 
 	FK_Patient_Link_ID, 
 	CASE
