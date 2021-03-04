@@ -88,3 +88,6 @@ Attempted to find the location of information related to project no.1 (Grant), i
 12/02/21 14:40 - 16:00
 - exploring long-term conditions code for RQ28 (Hassan)
 
+03/03/21
+- investigating microbiology and culture data
+
