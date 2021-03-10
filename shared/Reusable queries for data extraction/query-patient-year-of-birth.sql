@@ -42,21 +42,21 @@ AND FK_Reference_Tenancy_ID = 2
 GROUP BY FK_Patient_Link_ID;
 
 -- Find the patients who remain unmatched
-IF OBJECT_ID('tempdb..#UnmatchedPatients') IS NOT NULL DROP TABLE #UnmatchedPatients;
-SELECT FK_Patient_Link_ID INTO #UnmatchedPatients FROM #Patients
+IF OBJECT_ID('tempdb..#UnmatchedYobPatients') IS NOT NULL DROP TABLE #UnmatchedYobPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedYobPatients FROM #Patients
 EXCEPT
 SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
 
 -- If every YOB is the same for all their linked patient ids then we use that
 INSERT INTO #PatientYearOfBirth
 SELECT FK_Patient_Link_ID, MIN(YearOfBirth) FROM #AllPatientYearOfBirths
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatients)
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
 GROUP BY FK_Patient_Link_ID
 HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
 
 -- Find any still unmatched patients
-TRUNCATE TABLE #UnmatchedPatients;
-INSERT INTO #UnmatchedPatients
+TRUNCATE TABLE #UnmatchedYobPatients;
+INSERT INTO #UnmatchedYobPatients
 SELECT FK_Patient_Link_ID FROM #Patients
 EXCEPT
 SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
@@ -66,15 +66,15 @@ INSERT INTO #PatientYearOfBirth
 SELECT p.FK_Patient_Link_ID, MIN(p.YearOfBirth) FROM #AllPatientYearOfBirths p
 INNER JOIN (
 	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientYearOfBirths
-	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatients)
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
 	GROUP BY FK_Patient_Link_ID
 ) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
 GROUP BY p.FK_Patient_Link_ID
 HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
 
 -- Find any still unmatched patients
-TRUNCATE TABLE #UnmatchedPatients;
-INSERT INTO #UnmatchedPatients
+TRUNCATE TABLE #UnmatchedYobPatients;
+INSERT INTO #UnmatchedYobPatients
 SELECT FK_Patient_Link_ID FROM #Patients
 EXCEPT
 SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
@@ -82,6 +82,6 @@ SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
 -- Otherwise just use the highest value (with the exception that can't be in the future)
 INSERT INTO #PatientYearOfBirth
 SELECT FK_Patient_Link_ID, MAX(YearOfBirth) FROM #AllPatientYearOfBirths
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatients)
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
 GROUP BY FK_Patient_Link_ID
 HAVING MAX(YearOfBirth) <= YEAR(GETDATE());

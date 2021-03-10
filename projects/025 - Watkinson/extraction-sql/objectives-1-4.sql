@@ -1,3 +1,441 @@
+--┌────────────────────────────────────┐
+--│ An example SQL generation template │
+--└────────────────────────────────────┘
+
+-- OUTPUT: Data with the following fields
+-- 	- PatientId
+--  - AgeAtIndexDate
+--  - Sex (M/F)
+--  - Ethnicity
+--  - LSOA
+--  - IsCareHomeResident (Y/N)
+--  - HasHighClinicalVulnerabilityIndicator (Y/N)
+--  - DateOfHighClinicalVulnerabilityIndicator
+--  - HasModerateClinicalVulnerabilityIndicator (Y/N)
+--  - DateOfModerateClinicalVulnerabilityIndicator
+--  - HasCovidHospitalisation (Y/N)
+--  - HasCovidDeathWithin28Days (Y/N)
+--  - HasCovidVaccine1stDose (Y/N)
+--  - HasCovidVaccine2ndDose (Y/N)
+--  - DistanceFromHomeTo1stVaccine
+--  - DistanceFromHomeTo2ndVaccine
+--  - DistanceFromHomeToNearestVaccineHub
+--  - DateOfFirstCovidHospitalisation
+--  - DateOfDeath
+--  - DateOfEntry
+--  - DateOfExit
+
+--Just want the output, not the messages
+SET NOCOUNT ON;
+
+-- Set the start date
+DECLARE @StartDate datetime;
+SET @StartDate = '2020-02-01';
+
+-- Get all patients
+IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
+SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #Patients FROM [RLS].vw_Patient_Link;
+
+--┌───────────────┐
+--│ Year of birth │
+--└───────────────┘
+
+-- OBJECTIVE: To get the year of birth for each patient.
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- YearOfBirth - INT
+
+-- ASSUMPTIONS:
+--	- Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:
+--	-	If the patients has a YOB in their primary care data feed we use that as most likely to be up to date
+--	-	If every YOB for a paient is the same, then we use that
+--	-	If there is a single most recently updated YOB in the database then we use that
+--	-	Otherwise we take the highest YOB for the patient that is not in the future
+
+-- Get all patients year of birth for the cohort
+IF OBJECT_ID('tempdb..#AllPatientYearOfBirths') IS NOT NULL DROP TABLE #AllPatientYearOfBirths;
+SELECT 
+	FK_Patient_Link_ID,
+	FK_Reference_Tenancy_ID,
+	HDMModifDate,
+	YEAR(Dob) AS YearOfBirth
+INTO #AllPatientYearOfBirths
+FROM RLS.vw_Patient p
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND Dob IS NOT NULL;
+
+
+-- If patients have a tenancy id of 2 we take this as their most likely YOB
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientYearOfBirth') IS NOT NULL DROP TABLE #PatientYearOfBirth;
+SELECT FK_Patient_Link_ID, MIN(YearOfBirth) as YearOfBirth INTO #PatientYearOfBirth FROM #AllPatientYearOfBirths
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+GROUP BY FK_Patient_Link_ID;
+
+-- Find the patients who remain unmatched
+IF OBJECT_ID('tempdb..#UnmatchedYobPatients') IS NOT NULL DROP TABLE #UnmatchedYobPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedYobPatients FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+
+-- If every YOB is the same for all their linked patient ids then we use that
+INSERT INTO #PatientYearOfBirth
+SELECT FK_Patient_Link_ID, MIN(YearOfBirth) FROM #AllPatientYearOfBirths
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedYobPatients;
+INSERT INTO #UnmatchedYobPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+
+-- If there is a unique most recent YOB then use that
+INSERT INTO #PatientYearOfBirth
+SELECT p.FK_Patient_Link_ID, MIN(p.YearOfBirth) FROM #AllPatientYearOfBirths p
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientYearOfBirths
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+GROUP BY p.FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedYobPatients;
+INSERT INTO #UnmatchedYobPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+
+-- Otherwise just use the highest value (with the exception that can't be in the future)
+INSERT INTO #PatientYearOfBirth
+SELECT FK_Patient_Link_ID, MAX(YearOfBirth) FROM #AllPatientYearOfBirths
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MAX(YearOfBirth) <= YEAR(GETDATE());
+
+-- Remove patients who were <16 on 1st Feb 2020
+DELETE FROM #PatientYearOfBirth WHERE 2020 - YearOfBirth <= 16;
+IF OBJECT_ID('tempdb..#Temp') IS NOT NULL DROP TABLE #Temp;
+SELECT p.FK_Patient_Link_ID, EthnicMainGroup INTO #Temp FROM #Patients p
+	INNER JOIN #PatientYearOfBirth y ON y.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
+TRUNCATE TABLE #Patients;
+INSERT INTO #Patients
+SELECT * FROM #Temp;
+
+--┌───────────────────────────────┐
+--│ Lower level super output area │
+--└───────────────────────────────┘
+
+-- OBJECTIVE: To get the LSOA for each patient.
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #PatientLSOA (FK_Patient_Link_ID, LSOA)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- LSOA - nationally recognised LSOA identifier
+
+-- ASSUMPTIONS:
+--	- Patient data is obtained from multiple sources. Where patients have multiple LSOAs we determine the LSOA as follows:
+--	-	If the patients has an LSOA in their primary care data feed we use that as most likely to be up to date
+--	-	If every LSOA for a paient is the same, then we use that
+--	-	If there is a single most recently updated LSOA in the database then we use that
+--	-	Otherwise the patient's LSOA is considered unknown
+
+-- Get all patients LSOA for the cohort
+IF OBJECT_ID('tempdb..#AllPatientLSOAs') IS NOT NULL DROP TABLE #AllPatientLSOAs;
+SELECT 
+	FK_Patient_Link_ID,
+	FK_Reference_Tenancy_ID,
+	HDMModifDate,
+	LSOA_Code
+INTO #AllPatientLSOAs
+FROM RLS.vw_Patient p
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND LSOA_Code IS NOT NULL;
+
+
+-- If patients have a tenancy id of 2 we take this as their most likely LSOA_Code
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientLSOA') IS NOT NULL DROP TABLE #PatientLSOA;
+SELECT FK_Patient_Link_ID, MIN(LSOA_Code) as LSOA_Code INTO #PatientLSOA FROM #AllPatientLSOAs
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+GROUP BY FK_Patient_Link_ID;
+
+-- Find the patients who remain unmatched
+IF OBJECT_ID('tempdb..#UnmatchedLsoaPatients') IS NOT NULL DROP TABLE #UnmatchedLsoaPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedLsoaPatients FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientLSOA;
+-- 38710 rows
+-- 00:00:00
+
+-- If every LSOA_Code is the same for all their linked patient ids then we use that
+INSERT INTO #PatientLSOA
+SELECT FK_Patient_Link_ID, MIN(LSOA_Code) FROM #AllPatientLSOAs
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedLsoaPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedLsoaPatients;
+INSERT INTO #UnmatchedLsoaPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientLSOA;
+
+-- If there is a unique most recent lsoa then use that
+INSERT INTO #PatientLSOA
+SELECT p.FK_Patient_Link_ID, MIN(p.LSOA_Code) FROM #AllPatientLSOAs p
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientLSOAs
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedLsoaPatients)
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+GROUP BY p.FK_Patient_Link_ID
+HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
+
+--┌─────┐
+--│ Sex │
+--└─────┘
+
+-- OBJECTIVE: To get the Sex for each patient.
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #PatientSex (FK_Patient_Link_ID, Sex)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- Sex - M/F
+
+-- ASSUMPTIONS:
+--	- Patient data is obtained from multiple sources. Where patients have multiple sexes we determine the sex as follows:
+--	-	If the patients has a sex in their primary care data feed we use that as most likely to be up to date
+--	-	If every sex for a paient is the same, then we use that
+--	-	If there is a single most recently updated sex in the database then we use that
+--	-	Otherwise the patient's sex is considered unknown
+
+-- Get all patients sex for the cohort
+IF OBJECT_ID('tempdb..#AllPatientSexs') IS NOT NULL DROP TABLE #AllPatientSexs;
+SELECT 
+	FK_Patient_Link_ID,
+	FK_Reference_Tenancy_ID,
+	HDMModifDate,
+	Sex
+INTO #AllPatientSexs
+FROM RLS.vw_Patient p
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND Sex IS NOT NULL;
+
+
+-- If patients have a tenancy id of 2 we take this as their most likely Sex
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientSex') IS NOT NULL DROP TABLE #PatientSex;
+SELECT FK_Patient_Link_ID, MIN(Sex) as Sex INTO #PatientSex FROM #AllPatientSexs
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+GROUP BY FK_Patient_Link_ID;
+
+-- Find the patients who remain unmatched
+IF OBJECT_ID('tempdb..#UnmatchedSexPatients') IS NOT NULL DROP TABLE #UnmatchedSexPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedSexPatients FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientSex;
+
+-- If every Sex is the same for all their linked patient ids then we use that
+INSERT INTO #PatientSex
+SELECT FK_Patient_Link_ID, MIN(Sex) FROM #AllPatientSexs
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedSexPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(Sex) = MAX(Sex);
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedSexPatients;
+INSERT INTO #UnmatchedSexPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientSex;
+
+-- If there is a unique most recent Sex then use that
+INSERT INTO #PatientSex
+SELECT p.FK_Patient_Link_ID, MIN(p.Sex) FROM #AllPatientSexs p
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientSexs
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedSexPatients)
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+GROUP BY p.FK_Patient_Link_ID
+HAVING MIN(Sex) = MAX(Sex);
+
+--┌──────────────────┐
+--│ Care home status │
+--└──────────────────┘
+
+-- OBJECTIVE: To get the care home status for each patient.
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #PatientCareHomeStatus (FK_Patient_Link_ID, IsCareHomeResident)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- IsCareHomeResident - Y/N
+
+-- ASSUMPTIONS:
+--	-	If any of the patient records suggests the patients lives in a care home we will assume that they do
+
+-- Get all patients sex for the cohort
+IF OBJECT_ID('tempdb..#PatientCareHomeStatus') IS NOT NULL DROP TABLE #PatientCareHomeStatus;
+SELECT 
+	FK_Patient_Link_ID,
+	MAX(NursingCareHomeFlag) AS IsCareHomeResident -- max as Y > N > NULL
+INTO #PatientCareHomeStatus
+FROM RLS.vw_Patient p
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND NursingCareHomeFlag IS NOT NULL
+GROUP BY FK_Patient_Link_ID;
+
+
+--┌─────────────────────────────────────────┐
+--│ Secondary admissions and length of stay │
+--└─────────────────────────────────────────┘
+
+-- OBJECTIVE: To obtain a table with every secondary care admission, along with the acute provider,
+--						the date of admission, the date of discharge, and the length of stay.
+
+-- INPUT: No pre-requisites
+
+-- OUTPUT: Two temp table as follows:
+-- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- AdmissionDate - date of discharge (YYYY-MM-DD)
+--	- AcuteProvider - Bolton, SRFT, Stockport etc..
+--  (Limited to one admission per person per hospital per day, because if a patient has 2 admissions 
+--   on the same day to the same hopsital then it's most likely data duplication rather than two short
+--   hospital stays)
+-- #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- AdmissionDate - date of discharge (YYYY-MM-DD)
+--	- DischargeDate - date of discharge (YYYY-MM-DD)
+--	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
+
+-- Populate temporary table with admissions
+-- Convert AdmissionDate to a date to avoid issues where a person has two admissions
+-- on the same day (but only one discharge)
+IF OBJECT_ID('tempdb..#Admissions') IS NOT NULL DROP TABLE #Admissions;
+SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) AS AdmissionDate, t.TenancyName AS AcuteProvider INTO #Admissions FROM [RLS].[vw_Acute_Inpatients] i
+LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
+WHERE EventType = 'Admission'
+AND AdmissionDate >= @StartDate;
+-- 523477 rows	523477 rows
+-- 00:00:19		00:00:15
+
+--┌──────────────────────┐
+--│ Secondary discharges │
+--└──────────────────────┘
+
+-- OBJECTIVE: To obtain a table with every secondary care discharge, along with the acute provider,
+--						and the date of discharge.
+
+-- INPUT: No pre-requisites
+
+-- OUTPUT: A temp table as follows:
+-- #Discharges (FK_Patient_Link_ID, DischargeDate, AcuteProvider)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- DischargeDate - date of discharge (YYYY-MM-DD)
+--	- AcuteProvider - Bolton, SRFT, Stockport etc..
+--  (Limited to one discharge per person per hospital per day, because if a patient has 2 discharges 
+--   on the same day to the same hopsital then it's most likely data duplication rather than two short
+--   hospital stays)
+
+-- Populate temporary table with discharges
+IF OBJECT_ID('tempdb..#Discharges') IS NOT NULL DROP TABLE #Discharges;
+SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, DischargeDate) AS DischargeDate, t.TenancyName AS AcuteProvider INTO #Discharges FROM [RLS].[vw_Acute_Inpatients] i
+LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
+WHERE EventType = 'Discharge'
+AND DischargeDate >= @StartDate;
+-- 535285 rows	535285 rows
+-- 00:00:28		00:00:14
+
+
+-- Link admission with discharge to get length of stay
+-- Length of stay is zero-indexed e.g. 
+-- 1 = [0,1) days
+-- 2 = [1,2) days
+IF OBJECT_ID('tempdb..#LengthOfStay') IS NOT NULL DROP TABLE #LengthOfStay;
+SELECT 
+	a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider, 
+	MIN(d.DischargeDate) AS DischargeDate, 
+	1 + DATEDIFF(day,a.AdmissionDate, MIN(d.DischargeDate)) AS LengthOfStay
+	INTO #LengthOfStay
+FROM #Admissions a
+INNER JOIN #Discharges d ON d.FK_Patient_Link_ID = a.FK_Patient_Link_ID AND d.DischargeDate >= a.AdmissionDate AND d.AcuteProvider = a.AcuteProvider
+GROUP BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider
+ORDER BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider;
+-- 511740 rows	511740 rows	
+-- 00:00:04		00:00:05
+
+--┌────────────────────────────────────┐
+--│ COVID-related secondary admissions │
+--└────────────────────────────────────┘
+
+-- OBJECTIVE: To classify every admission to secondary care based on whether it is a COVID or non-COVID related.
+--						A COVID-related admission is classed as an admission within 4 weeks after, or up to 2 weeks before
+--						a positive test.
+
+-- INPUT: Assumes there exists two temp tables as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+-- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
+--  A distinct list of the admissions for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #COVIDUtilisationAdmissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- AdmissionDate - date of discharge (YYYY-MM-DD)
+--	- AcuteProvider - Bolton, SRFT, Stockport etc..
+--  - CovidHealthcareUtilisation - 'TRUE' if admission within 4 weeks after, or up to 14 days before, a positive test
+
+-- Get first positive covid test for each patient
+IF OBJECT_ID('tempdb..#CovidCases') IS NOT NULL DROP TABLE #CovidCases;
+SELECT FK_Patient_Link_ID, MIN(CONVERT(DATE, [EventDate])) AS CovidPositiveDate INTO #CovidCases
+FROM [RLS].[vw_COVID19]
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND GroupDescription = 'Confirmed'
+GROUP BY FK_Patient_Link_ID;
+
+
+IF OBJECT_ID('tempdb..#COVIDUtilisationAdmissions') IS NOT NULL DROP TABLE #COVIDUtilisationAdmissions;
+SELECT 
+	a.*, 
+	CASE
+		WHEN c.FK_Patient_Link_ID IS NOT NULL THEN 'TRUE'
+		ELSE 'FALSE'
+	END AS CovidHealthcareUtilisation
+INTO #COVIDUtilisationAdmissions 
+FROM #Admissions a
+LEFT OUTER join #CovidCases c ON 
+	a.FK_Patient_Link_ID = c.FK_Patient_Link_ID 
+	AND a.AdmissionDate <= DATEADD(WEEK, 4, c.CovidPositiveDate)
+	AND a.AdmissionDate >= DATEADD(DAY, -14, c.CovidPositiveDate);
+
 --
 --┌────────────────────┐
 --│ Clinical code sets │
@@ -259,3 +697,97 @@ INNER JOIN (
   SELECT concept, MAX(version) AS maxVersion FROM #VersionedSnomedSets
   GROUP BY concept)
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
+
+
+--┌────────────────────┐
+--│ COVID vaccinations │
+--└────────────────────┘
+
+-- OBJECTIVE: To obtain a table with first and second vaccine doses per patient.
+
+-- ASSUMPTIONS:
+--	-	GP records can often be duplicated. The assumption is that if a patient receives
+--    two vaccines within 14 days of each other then it is likely that both codes refer
+--    to the same vaccine. However, it is possible that the first code's entry into the
+--    record was delayed and therefore the second code is in fact a second dose. This
+--    query simply gives the earliest and latest vaccine for each person together with
+--    the number of days since the first vaccine.
+
+-- INPUT: No pre-requisites
+
+-- OUTPUT: A temp table as follows:
+-- #COVIDVaccinations (FK_Patient_Link_ID, VaccineDate, DaysSinceFirstVaccine)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- VaccineDate - date of vaccine (YYYY-MM-DD)
+--	- DaysSinceFirstVaccine - 0 if first vaccine, > 0 otherwise
+
+-- Get patients with covid vaccine and earliest and latest date
+IF OBJECT_ID('tempdb..#COVIDVaccines') IS NOT NULL DROP TABLE #COVIDVaccines;
+SELECT 
+  FK_Patient_Link_ID, 
+  MIN(CONVERT(DATE, EventDate)) AS FirstVaccineDate, 
+  MAX(CONVERT(DATE, EventDate)) AS SecondVaccineDate 
+INTO #COVIDVaccines
+FROM [RLS].[vw_GP_Events]
+WHERE SuppliedCode IN (
+  SELECT [code] FROM #AllCodes WHERE [concept] = 'covid-vaccination' AND [version] = 1
+)
+AND EventDate > '2020-12-01'
+GROUP BY FK_Patient_Link_ID;
+
+IF OBJECT_ID('tempdb..#COVIDVaccinations') IS NOT NULL DROP TABLE #COVIDVaccinations;
+SELECT FK_Patient_Link_ID, FirstVaccineDate AS VaccineDate, 0 AS DaysSinceFirstVaccine
+INTO #COVIDVaccinations
+FROM #COVIDVaccines;
+
+INSERT INTO #COVIDVaccinations
+SELECT FK_Patient_Link_ID, SecondVaccineDate, DATEDIFF(day, FirstVaccineDate, SecondVaccineDate)
+FROM #COVIDVaccines
+WHERE FirstVaccineDate != SecondVaccineDate;
+
+
+
+-- Get patients with high covid vulnerability flag and date of first entry
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS HighVulnerabilityCodeDate INTO #HighVulnerabilityPatients FROM [RLS].[vw_GP_Events]
+WHERE SuppliedCode IN (SELECT [code] FROM #AllCodes WHERE [concept] = 'high-clinical-vulnerability' AND [version] = 1)
+GROUP BY FK_Patient_Link_ID;
+
+-- Get first COVID admission rather than all admissions
+IF OBJECT_ID('tempdb..#FirstCOVIDAdmission') IS NOT NULL DROP TABLE #FirstCOVIDAdmission;
+SELECT p.FK_Patient_Link_ID, MIN(AdmissionDate) AS DateOfFirstCovidHospitalisation INTO #FirstCOVIDAdmission FROM #Patients p
+INNER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+WHERE CovidHealthcareUtilisation = 'TRUE'
+GROUP BY p.FK_Patient_Link_ID;
+
+-- Get patient list of those with COVID death within 28 days of positive test
+IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
+SELECT FK_Patient_Link_ID INTO #COVIDDeath FROM RLS.vw_COVID19
+WHERE DeathWithin28Days = 'Y';
+
+-- Bring it all together for output
+PRINT 'PatientId,AgeAtIndexDate,Sex,Ethnicity,LSOA,IsCareHomeResident,HasHighClinicalVulnerabilityIndicator,DateOfHighClinicalVulnerabilityIndicator,HasCovidHospitalisation,DateOfFirstCovidHospitalisation,HasCovidDeathWithin28Days,FirstVaccineDate,SecondVaccineDate,DateOfDeath';
+SELECT 
+	p.FK_Patient_Link_ID AS PatientId,
+	2020 - YearOfBirth AS AgeAtIndexDate,
+	Sex,
+	EthnicMainGroup AS Ethnicity,
+	LSOA_Code AS LSOA,
+	IsCareHomeResident,
+	CASE WHEN HighVulnerabilityCodeDate IS NOT NULL THEN 'Y' ELSE 'N' END AS HasHighClinicalVulnerabilityIndicator,
+	HighVulnerabilityCodeDate AS DateOfHighClinicalVulnerabilityIndicator,
+	CASE WHEN DateOfFirstCovidHospitalisation IS NOT NULL THEN 'Y' ELSE 'N' END AS HasCovidHospitalisation,
+	DateOfFirstCovidHospitalisation,
+	CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN 'Y' ELSE 'N' END AS HasCovidDeathWithin28Days,
+	FirstVaccineDate,
+	CASE WHEN SecondVaccineDate > FirstVaccineDate THEN SecondVaccineDate ELSE NULL END AS SecondVaccineDate,
+	DeathDate AS DateOfDeath
+FROM #Patients p
+LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientLSOA l ON l.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientCareHomeStatus chs ON chs.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #HighVulnerabilityPatients hv ON hv.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #FirstCOVIDAdmission ca ON ca.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #COVIDVaccines v ON v.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
+

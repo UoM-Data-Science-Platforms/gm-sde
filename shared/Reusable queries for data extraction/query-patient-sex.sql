@@ -42,21 +42,21 @@ AND FK_Reference_Tenancy_ID = 2
 GROUP BY FK_Patient_Link_ID;
 
 -- Find the patients who remain unmatched
-IF OBJECT_ID('tempdb..#UnmatchedPatients') IS NOT NULL DROP TABLE #UnmatchedPatients;
-SELECT FK_Patient_Link_ID INTO #UnmatchedPatients FROM #Patients
+IF OBJECT_ID('tempdb..#UnmatchedSexPatients') IS NOT NULL DROP TABLE #UnmatchedSexPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedSexPatients FROM #Patients
 EXCEPT
 SELECT FK_Patient_Link_ID FROM #PatientSex;
 
 -- If every Sex is the same for all their linked patient ids then we use that
 INSERT INTO #PatientSex
 SELECT FK_Patient_Link_ID, MIN(Sex) FROM #AllPatientSexs
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatients)
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedSexPatients)
 GROUP BY FK_Patient_Link_ID
 HAVING MIN(Sex) = MAX(Sex);
 
 -- Find any still unmatched patients
-TRUNCATE TABLE #UnmatchedPatients;
-INSERT INTO #UnmatchedPatients
+TRUNCATE TABLE #UnmatchedSexPatients;
+INSERT INTO #UnmatchedSexPatients
 SELECT FK_Patient_Link_ID FROM #Patients
 EXCEPT
 SELECT FK_Patient_Link_ID FROM #PatientSex;
@@ -66,7 +66,7 @@ INSERT INTO #PatientSex
 SELECT p.FK_Patient_Link_ID, MIN(p.Sex) FROM #AllPatientSexs p
 INNER JOIN (
 	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientSexs
-	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatients)
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedSexPatients)
 	GROUP BY FK_Patient_Link_ID
 ) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
 GROUP BY p.FK_Patient_Link_ID

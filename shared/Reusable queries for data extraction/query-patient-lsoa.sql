@@ -42,8 +42,8 @@ AND FK_Reference_Tenancy_ID = 2
 GROUP BY FK_Patient_Link_ID;
 
 -- Find the patients who remain unmatched
-IF OBJECT_ID('tempdb..#UnmatchedPatients') IS NOT NULL DROP TABLE #UnmatchedPatients;
-SELECT FK_Patient_Link_ID INTO #UnmatchedPatients FROM #Patients
+IF OBJECT_ID('tempdb..#UnmatchedLsoaPatients') IS NOT NULL DROP TABLE #UnmatchedLsoaPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedLsoaPatients FROM #Patients
 EXCEPT
 SELECT FK_Patient_Link_ID FROM #PatientLSOA;
 -- 38710 rows
@@ -52,13 +52,13 @@ SELECT FK_Patient_Link_ID FROM #PatientLSOA;
 -- If every LSOA_Code is the same for all their linked patient ids then we use that
 INSERT INTO #PatientLSOA
 SELECT FK_Patient_Link_ID, MIN(LSOA_Code) FROM #AllPatientLSOAs
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatients)
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedLsoaPatients)
 GROUP BY FK_Patient_Link_ID
 HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
 
 -- Find any still unmatched patients
-TRUNCATE TABLE #UnmatchedPatients;
-INSERT INTO #UnmatchedPatients
+TRUNCATE TABLE #UnmatchedLsoaPatients;
+INSERT INTO #UnmatchedLsoaPatients
 SELECT FK_Patient_Link_ID FROM #Patients
 EXCEPT
 SELECT FK_Patient_Link_ID FROM #PatientLSOA;
@@ -68,7 +68,7 @@ INSERT INTO #PatientLSOA
 SELECT p.FK_Patient_Link_ID, MIN(p.LSOA_Code) FROM #AllPatientLSOAs p
 INNER JOIN (
 	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientLSOAs
-	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatients)
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedLsoaPatients)
 	GROUP BY FK_Patient_Link_ID
 ) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
 GROUP BY p.FK_Patient_Link_ID

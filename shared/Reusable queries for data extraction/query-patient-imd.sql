@@ -51,8 +51,8 @@ GROUP BY FK_Patient_Link_ID;
 -- 00:00:00
 
 -- Find the patients who remain unmatched
-IF OBJECT_ID('tempdb..#UnmatchedPatients') IS NOT NULL DROP TABLE #UnmatchedPatients;
-SELECT FK_Patient_Link_ID INTO #UnmatchedPatients FROM #Patients
+IF OBJECT_ID('tempdb..#UnmatchedImdPatients') IS NOT NULL DROP TABLE #UnmatchedImdPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedImdPatients FROM #Patients
 EXCEPT
 SELECT FK_Patient_Link_ID FROM #PatientIMDDecile;
 -- 38710 rows
@@ -61,15 +61,15 @@ SELECT FK_Patient_Link_ID FROM #PatientIMDDecile;
 -- If every IMD_Score is the same for all their linked patient ids then we use that
 INSERT INTO #PatientIMDDecile
 SELECT FK_Patient_Link_ID, MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) FROM #AllPatientIMDDeciles
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatients)
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedImdPatients)
 GROUP BY FK_Patient_Link_ID
 HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1IsMostDeprived10IsLeastDeprived);
 -- 36656
 -- 00:00:00
 
 -- Find any still unmatched patients
-TRUNCATE TABLE #UnmatchedPatients;
-INSERT INTO #UnmatchedPatients
+TRUNCATE TABLE #UnmatchedImdPatients;
+INSERT INTO #UnmatchedImdPatients
 SELECT FK_Patient_Link_ID FROM #Patients
 EXCEPT
 SELECT FK_Patient_Link_ID FROM #PatientIMDDecile;
@@ -81,7 +81,7 @@ INSERT INTO #PatientIMDDecile
 SELECT p.FK_Patient_Link_ID, MIN(p.IMD2019Decile1IsMostDeprived10IsLeastDeprived) FROM #AllPatientIMDDeciles p
 INNER JOIN (
 	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientIMDDeciles
-	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatients)
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedImdPatients)
 	GROUP BY FK_Patient_Link_ID
 ) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
 GROUP BY p.FK_Patient_Link_ID

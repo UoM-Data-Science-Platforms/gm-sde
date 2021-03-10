@@ -1,6 +1,6 @@
---┌─────┐
---│ Sex │
---└─────┘
+--┌──────────────────┐
+--│ Care home status │
+--└──────────────────┘
 
 -- OBJECTIVE: To get the care home status for each patient.
 
