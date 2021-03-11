@@ -53,10 +53,12 @@ INTO #AdmissionTypes FROM (
 		FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) as AdmissionDate, 
 		MAX(
 			CASE 
-				WHEN AdmissionTypeCode IN ('PL','11','WL','13','12','BL','TR','IPPlannedAd') THEN 3 --'Planned'
-				WHEN AdmissionTypeCode IN ('AE','21','22','23','EM','28','2D','24','AI','BB','DO','2A','A+E Admission','Emerg GP') THEN 4 --'Unplanned'
-				WHEN AdmissionTypeCode IN ('31','BH','AN','82','PN','32','BHOSP','83') THEN 5 --'Maternity'
-				WHEN AdmissionTypeCode IN ('81', 'ET','T','HospTran') THEN 2 --'Transfer'
+				WHEN AdmissionTypeCode IN ('PL','11','WL','13','12','BL','D','Endoscopy','OP','Venesection','Colonoscopy','Flex sigmoidosco','Infliximab','IPPlannedAd','S.I. joint inj','Daycase','Extraction Multi','Chemotherapy','Total knee rep c','Total rep hip ce') THEN 3 --'Planned'
+				WHEN AdmissionTypeCode IN ('AE','21','I','GP','22','23','EM','28','2D','24','AI','BB','DO','2A','A+E Admission','Emerg GP') THEN 4 --'Unplanned'
+				WHEN AdmissionTypeCode IN ('31','BH','AN','82','PN','B','32','BHOSP') THEN 5 --'Maternity'
+				WHEN AdmissionTypeCode IN ('81','TR','ET','HospTran','T','CentTrans') THEN 2 --'Transfer'
+				WHEN AdmissionTypeCode IN ('Blood test','Blood transfusio','Medical') AND ReasonForAdmissionDescription LIKE ('Elective%') THEN 3 --'Planned'
+				WHEN AdmissionTypeCode IN ('Blood test','Blood transfusio','Medical') AND ReasonForAdmissionDescription LIKE ('Emergency%') THEN 4 --'Unplanned'
 				ELSE 1 --'Unknown'
 			END
 		)	AS AdmissionId,
@@ -498,8 +500,8 @@ GROUP BY FK_Patient_Link_ID;
 -- 00:00:00
 
 -- Find the patients who remain unmatched
-IF OBJECT_ID('tempdb..#UnmatchedPatients') IS NOT NULL DROP TABLE #UnmatchedPatients;
-SELECT FK_Patient_Link_ID INTO #UnmatchedPatients FROM #Patients
+IF OBJECT_ID('tempdb..#UnmatchedImdPatients') IS NOT NULL DROP TABLE #UnmatchedImdPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedImdPatients FROM #Patients
 EXCEPT
 SELECT FK_Patient_Link_ID FROM #PatientIMDDecile;
 -- 38710 rows
@@ -508,15 +510,15 @@ SELECT FK_Patient_Link_ID FROM #PatientIMDDecile;
 -- If every IMD_Score is the same for all their linked patient ids then we use that
 INSERT INTO #PatientIMDDecile
 SELECT FK_Patient_Link_ID, MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) FROM #AllPatientIMDDeciles
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatients)
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedImdPatients)
 GROUP BY FK_Patient_Link_ID
 HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1IsMostDeprived10IsLeastDeprived);
 -- 36656
 -- 00:00:00
 
 -- Find any still unmatched patients
-TRUNCATE TABLE #UnmatchedPatients;
-INSERT INTO #UnmatchedPatients
+TRUNCATE TABLE #UnmatchedImdPatients;
+INSERT INTO #UnmatchedImdPatients
 SELECT FK_Patient_Link_ID FROM #Patients
 EXCEPT
 SELECT FK_Patient_Link_ID FROM #PatientIMDDecile;
@@ -528,7 +530,7 @@ INSERT INTO #PatientIMDDecile
 SELECT p.FK_Patient_Link_ID, MIN(p.IMD2019Decile1IsMostDeprived10IsLeastDeprived) FROM #AllPatientIMDDeciles p
 INNER JOIN (
 	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientIMDDeciles
-	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatients)
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedImdPatients)
 	GROUP BY FK_Patient_Link_ID
 ) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
 GROUP BY p.FK_Patient_Link_ID

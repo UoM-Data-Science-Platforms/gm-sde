@@ -46,10 +46,12 @@ INTO #AdmissionTypes FROM (
 		FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) as AdmissionDate, 
 		MAX(
 			CASE 
-				WHEN AdmissionTypeCode IN ('PL','11','WL','13','12','BL','TR','IPPlannedAd') THEN 3 --'Planned'
-				WHEN AdmissionTypeCode IN ('AE','21','22','23','EM','28','2D','24','AI','BB','DO','2A','A+E Admission','Emerg GP') THEN 4 --'Unplanned'
-				WHEN AdmissionTypeCode IN ('31','BH','AN','82','PN','32','BHOSP','83') THEN 5 --'Maternity'
-				WHEN AdmissionTypeCode IN ('81', 'ET','T','HospTran') THEN 2 --'Transfer'
+				WHEN AdmissionTypeCode IN ('PL','11','WL','13','12','BL','D','Endoscopy','OP','Venesection','Colonoscopy','Flex sigmoidosco','Infliximab','IPPlannedAd','S.I. joint inj','Daycase','Extraction Multi','Chemotherapy','Total knee rep c','Total rep hip ce') THEN 3 --'Planned'
+				WHEN AdmissionTypeCode IN ('AE','21','I','GP','22','23','EM','28','2D','24','AI','BB','DO','2A','A+E Admission','Emerg GP') THEN 4 --'Unplanned'
+				WHEN AdmissionTypeCode IN ('31','BH','AN','82','PN','B','32','BHOSP') THEN 5 --'Maternity'
+				WHEN AdmissionTypeCode IN ('81','TR','ET','HospTran','T','CentTrans') THEN 2 --'Transfer'
+				WHEN AdmissionTypeCode IN ('Blood test','Blood transfusio','Medical') AND ReasonForAdmissionDescription LIKE ('Elective%') THEN 3 --'Planned'
+				WHEN AdmissionTypeCode IN ('Blood test','Blood transfusio','Medical') AND ReasonForAdmissionDescription LIKE ('Emergency%') THEN 4 --'Unplanned'
 				ELSE 1 --'Unknown'
 			END
 		)	AS AdmissionId,
