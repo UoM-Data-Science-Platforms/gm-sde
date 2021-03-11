@@ -60,3 +60,25 @@ C392600	Adenosine deaminase deficiency
 F14y000	Ataxia-telangiectasia
 C392700	Purine nucleoside phosphorylase deficiency
 C392900	Major histocompatibility complex class II deficiency
+42J2.00	Neutropenia
+C302800	Chediak-Higashi syndrome
+C37y800	Haemophagocytic lymphohistiocytosis
+C390C00	Immunoglobulin G4 deficiency
+C397.00	Hyperimmunoglobulin E syndrome
+C398.00	Common variable immunodeficiency
+C399.00	Defects in the complement system
+C399000	Mannose-binding lectin deficiency
+C39y100	Immune reconstitution syndrome
+D203.00	Transient acquired pure red cell aplasia
+D400.00	Agranulocytosis
+D400700	Acquired neutropenia in newborn
+D401200	Chronic granulomatous disease
+D402.00	Genetic leucocyte anomalies
+PH3yA00	Bloom syndrome
+PJ3y000	Shprintzen syndrome
+PJ53500	Shwachman-Diamond syndrome
+Q457.00	Transient neonatal neutropenia
+Q457000	Neonatal isoimmune neutropenia
+Q457100	Maternal transfer neutropenia
+Q457z00	Transient neonatal neutropenia NOS
+SN51100	Hereditary C1 esterase inhibitor deficiency

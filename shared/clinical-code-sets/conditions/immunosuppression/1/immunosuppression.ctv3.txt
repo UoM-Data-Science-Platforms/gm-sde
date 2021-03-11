@@ -229,3 +229,16 @@ XM0BV	Predominantly B-cell defect
 XM0BW	Predominantly T-cell defect
 XM1WJ	Preventing infection of immunocompromised patient
 XM1WL	Reverse barrier nursing
+42J2.	Neutropenia
+D203.	Transient acquired pure red cell aplasia
+D4007	Acquired neutropenia in newborn
+Q457.	Transient neonatal neutropenia
+Q4570	Neonatal isoimmune neutropenia
+Q4571	Maternal transfer neutropenia
+Q457z	Transient neonatal neutropenia NOS
+X00mm	Shprintzen syndrome
+X20Dj	Chronic benign neutropenia
+X20E8	Haemophagocytic lymphohistiocytosis
+X20Gl	Selective immunoglobulin E deficiency
+X20H3	Specific immunoglobulin response defect
+X20H4	Anti-polysaccharide antibody deficiency
