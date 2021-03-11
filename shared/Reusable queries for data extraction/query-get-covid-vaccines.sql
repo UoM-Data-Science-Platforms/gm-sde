@@ -11,6 +11,8 @@
 --    record was delayed and therefore the second code is in fact a second dose. This
 --    query simply gives the earliest and latest vaccine for each person together with
 --    the number of days since the first vaccine.
+--  - The vaccine can appear as a procedure or as a medication. We assume that the
+--    presence of either represents a vaccination
 
 -- INPUT: No pre-requisites
 
@@ -25,13 +27,23 @@ IF OBJECT_ID('tempdb..#COVIDVaccines') IS NOT NULL DROP TABLE #COVIDVaccines;
 SELECT 
   FK_Patient_Link_ID, 
   MIN(CONVERT(DATE, EventDate)) AS FirstVaccineDate, 
-  MAX(CONVERT(DATE, EventDate)) AS SecondVaccineDate 
+  MAX(CONVERT(DATE, EventDate)) AS SecondVaccineDate
 INTO #COVIDVaccines
-FROM [RLS].[vw_GP_Events]
-WHERE SuppliedCode IN (
-  SELECT [code] FROM #AllCodes WHERE [concept] = 'covid-vaccination' AND [version] = 1
-)
-AND EventDate > '2020-12-01'
+FROM (
+	SELECT FK_Patient_Link_ID, EventDate
+	FROM [RLS].[vw_GP_Events]
+	WHERE SuppliedCode IN (
+	  SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
+	)
+	AND EventDate > '2020-12-01'
+	UNION 
+	SELECT FK_Patient_Link_ID, MedicationDate
+	FROM [RLS].[vw_GP_Medications]
+	WHERE SuppliedCode IN (
+	  SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
+	)
+	AND MedicationDate > '2020-12-01'
+) sub
 GROUP BY FK_Patient_Link_ID;
 
 IF OBJECT_ID('tempdb..#COVIDVaccinations') IS NOT NULL DROP TABLE #COVIDVaccinations;
