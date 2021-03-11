@@ -1,0 +1,95 @@
+14A6.	H/O: heart failure
+G1yz1	Rheumatic left ventricular failure
+G2101	Malignant hypertensive heart disease with CCF
+G2111	Benign hypertensive heart disease with CCF
+G21z1	Hypertensive heart disease NOS with CCF
+G232.	Hypertensive heart&renal dis wth (congestive) heart failure
+G234.	Hyperten heart&renal dis+both(congestv)heart and renal fail
+G400.	Acute cor pulmonale
+G41..	Chronic pulmonary heart disease
+G41y.	Other chronic pulmonary heart disease
+G41yz	Other chronic pulmonary heart disease NOS
+G41z.	Chronic cor pulmonale (& [NOS])
+G58..	Heart failure
+G58..	Heart failure
+G580.	Heart failure: [right] or [congestive]
+G5800	Acute congestive heart failure
+G5801	Chronic congestive heart failure
+G5802	Decompensated cardiac failure
+G5803	Compensated cardiac failure
+G581.	(L ventric:[fail][imp func]) or (card asth) or (ac pulm oed)
+G5810	Acute left ventricular failure
+G582.	Acute heart failure
+G58z.	Heart: [weak] or [failure NOS]
+G5y4z	Post cardiac operation heart failure NOS
+H541z	Pulmonary oedema NOS
+H584.	Acute pulmonary oedema unspecified
+H584z	Acute pulmonary oedema NOS
+Q48y1	Congenital cardiac failure
+SP111	[Cardiac insuffic] or [heart fail] as a complication of care
+X102X	Acute pulmonary oedema
+X102Y	Acute cardiac pulmonary oedema
+X102Y	Acute cardiac pulmonary oedema
+X202k	Heart failure as a complication of care
+X202k	Heart failure as a complication of care
+X202l	Right ventricular failure
+X202l	Right ventricular failure
+X203E	Chronic cor pulmonale
+X203E	Chronic cor pulmonale
+Xa07h	Neonatal cardiac failure
+Xa0TT	Sepsis-associated left ventricular failure
+Xa0TU	Sepsis-associated right ventricular failure
+Xaacj	Left ventricular cardiac dysfunction
+XaaH6	Referral to rapid access heart failure clinic
+Xaapw	Right ventricular systolic dysfunction
+XaBLt	Cardiac failure therapy
+XabM9	On optimal heart failure therapy
+XaBwi	H/O: Heart failure in last year
+XaEgY	Refractory heart failure
+XafeB	Heart failure with reduced ejection fraction
+XaIIq	Left ventricular systolic dysfunction
+XaIpn	Heart failure confirmed
+XaIQM	Heart failure follow-up
+XaIQN	Heart failure annual review
+XaItG	Left ventricular diastolic dysfunction
+XaJ98	Echocardiogram shows left ventricular systolic dysfunction
+XaJ99	Echocardiogram shows left ventricular diastolic dysfunction
+XaJ9G	New York Heart Association classification - class I
+XaJ9H	New York Heart Association classification - class II
+XaJ9I	New York Heart Association classification - class III
+XaJ9J	New York Heart Association classification - class IV
+XaKNW	Admit heart failure emergency
+XaLN7	Heart failure review completed
+XaLNA	Heart failure care plan discussed with patient
+XaLon	Heart failure 6 month review
+XaMFr	Heart failure monitoring telephone invite
+XaMGo	Heart failure monitoring verbal invite
+XaMGs	Heart failure monitoring first letter
+XaMGt	Heart failure monitoring second letter
+XaMGu	Heart failure monitoring third letter
+XaO5n	Congestive heart failure due to valvular disease
+XaWyi	Heart failure with normal ejection fraction
+XaWyi	Heart failure with normal ejection fraction
+XaXkR	Has heart failure management plan
+XaXLu	Worsening pulmonary oedema
+XaXzw	Preferred place of care for next exacerbation heart failure
+XaYbC	Heart failure self-management plan agreed
+XaYft	Education about deteriorating heart failure
+XaYYr	Right ventricular diastolic dysfunction
+XaYYs	Diastolic dysfunction
+XaZih	Heart failure clinical pathway
+XE0V8	Biventricular failure
+XE0V8	Biventricular failure
+XE0V9	Heart failure NOS
+XE0V9	Heart failure NOS
+XE0WM	(Chronic cor pulmonale) or (pulmonary heart disease NOS)
+XE0Wo	(Conges card fail)(dropsy)(card insuf)(R hrt fail)(LV fail)
+XE1p9	Cardiac insufficiency as a complication of care
+XE1p9	Cardiac insufficiency as a complication of care
+XE2QG	Left ventricular failure
+XE2QG	Left ventricular failure
+XM1Qn	Impaired left ventricular function
+XM1Qn	Impaired left ventricular function
+Y1f20	Heart failure monitoring invitation
+Y1f9c	Quality and Outcomes Framework heart failure quality indicator-related care invitation (procedure)
+R2y10	[D]Cardiorespiratory failure
