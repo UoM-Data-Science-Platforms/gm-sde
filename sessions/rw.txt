@@ -138,3 +138,6 @@
 2021-03-11 08:30-11:50
 - Data extraction for RQ025
 - Secondary classsification revisited for RQ001
+
+2021-03-11 13:30-16:00
+- Code set evaulation
