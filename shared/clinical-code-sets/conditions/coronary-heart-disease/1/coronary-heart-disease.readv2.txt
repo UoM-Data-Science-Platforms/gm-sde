@@ -1,0 +1,134 @@
+G3...00	Ischaemic heart disease
+G30..00	Acute myocardial infarction
+G30..14	Heart attack
+G340.12	Coronary artery disease
+G33z300	Angina on effort
+G33..00	Angina pectoris
+G311.13	Unstable angina
+G340.11	Triple vessel disease of the heart
+G3z..00	Ischaemic heart disease NOS
+G30..15	MI - acute myocardial infarction
+G308.00	Inferior myocardial infarction NOS
+G3...13	IHD - Ischaemic heart disease
+G341000	Ventricular cardiac aneurysm
+G30..12	Coronary thrombosis
+G307.00	Acute subendocardial infarction
+G340000	Single coronary vessel disease
+G32..00	Old myocardial infarction
+G311.11	Crescendo angina
+G340100	Double coronary vessel disease
+G301.00	Other specified anterior myocardial infarction
+G340.00	Coronary atherosclerosis
+G341.00	Aneurysm of heart
+14A5.00	H/O: angina pectoris
+G343.00	Ischaemic cardiomyopathy
+G311100	Unstable angina
+G33z200	Syncope anginosa
+G37..00	Cardiac syndrome X
+G302.00	Acute inferolateral infarction
+G31y000	Acute coronary insufficiency
+G31y.00	Other acute and subacute ischaemic heart disease
+G307000	Acute non-Q wave infarction
+G33z500	Post infarct angina
+G307100	Acute non-ST segment elevation myocardial infarction
+G331.11	Variant angina pectoris
+G311500	Acute coronary syndrome
+G300.00	Acute anterolateral infarction
+G30X000	Acute ST segment elevation myocardial infarction
+SP07600	Coronary artery bypass graft occlusion
+G33z700	Stable angina
+G331.00	Prinzmetal's angina
+G30..11	Attack - heart
+G30..16	Thrombosis - coronary
+G30z.00	Acute myocardial infarction NOS
+G301z00	Anterior myocardial infarction NOS
+G305.00	Lateral myocardial infarction NOS
+G310.11	Dressler's syndrome
+G34z.00	Other chronic ischaemic heart disease NOS
+G32..11	Healed myocardial infarction
+G30A.00	Mural thrombosis
+G311200	Angina at rest
+G32..12	Personal history of myocardial infarction
+G30..17	Silent myocardial infarction
+G301100	Acute anteroseptal infarction
+G311400	Worsening angina
+G330000	Nocturnal angina
+G35..00	Subsequent myocardial infarction
+G34z000	Asymptomatic coronary heart disease
+G311.14	Angina at rest
+G330.00	Angina decubitus
+G31y300	Transient myocardial ischaemia
+G3y..00	Other specified ischaemic heart disease
+G34y100	Chronic myocardial ischaemia
+G310.00	Postmyocardial infarction syndrome
+G361.00	Atrial septal defect/curr comp folow acut myocardal infarct
+G304.00	Posterior myocardial infarction NOS
+G360.00	Haemopericardium/current comp folow acut myocard infarct
+G34y000	Chronic coronary insufficiency
+G33z.00	Angina pectoris NOS
+G33z600	New onset angina
+G341.11	Cardiac aneurysm
+G31..00	Other acute and subacute ischaemic heart disease
+G31yz00	Other acute and subacute ischaemic heart disease NOS
+G34..00	Other chronic ischaemic heart disease
+G33zz00	Angina pectoris NOS
+G30y000	Acute atrial infarction
+G344.00	Silent myocardial ischaemia
+G366.00	"Thrombosis atrium,auric append&vent/curr comp foll acute MI"
+G303.00	Acute inferoposterior infarction
+G30X.00	Acute transmural myocardial infarction of unspecif site
+G330z00	Angina decubitus NOS
+G309.00	Acute Q-wave infarct
+G30..13	Cardiac rupture following myocardial infarction (MI)
+G38..00	Postoperative myocardial infarction
+G33z400	Ischaemic chest pain
+G30B.00	Acute posterolateral myocardial infarction
+G311300	Refractory angina
+G34y.00	Other specified chronic ischaemic heart disease
+G30y.00	Other acute myocardial infarction
+G501.00	Post infarction pericarditis
+14A3.00	H/O: myocardial infarct <60
+G34yz00	Other specified chronic ischaemic heart disease NOS
+G36..00	Certain current complication follow acute myocardial infarct
+G311.00	Preinfarction syndrome
+G342.00	Atherosclerotic cardiovascular disease
+G332.00	Coronary artery spasm
+G362.00	Ventric septal defect/curr comp fol acut myocardal infarctn
+G351.00	Subsequent myocardial infarction of inferior wall
+G312.00	Coronary thrombosis not resulting in myocardial infarction
+Gyu3000	[X]Other forms of angina pectoris
+G311.12	Impending infarction
+G31y200	Subendocardial ischaemia
+14A4.00	H/O: myocardial infarct >60
+G301000	Acute anteroapical infarction
+G30y200	Acute septal infarction
+G341z00	Aneurysm of heart NOS
+G384.00	Postoperative subendocardial myocardial infarction
+G350.00	Subsequent myocardial infarction of anterior wall
+G30yz00	Other acute myocardial infarction NOS
+G380.00	Postoperative transmural myocardial infarction anterior wall
+G35X.00	Subsequent myocardial infarction of unspecified site
+G381.00	Postoperative transmural myocardial infarction inferior wall
+14AH.00	H/O: Myocardial infarction in last year
+G311z00	Preinfarction syndrome NOS
+G33z100	Stenocardia
+G311011	MI - myocardial infarction aborted
+14AJ.00	H/O: Angina in last year
+G363.00	Ruptur cardiac wall w'out haemopericard/cur comp fol ac MI
+G341200	Aneurysm of coronary vessels
+G364.00	Ruptur chordae tendinae/curr comp fol acute myocard infarct
+G30y100	Acute papillary muscle infarction
+G306.00	True posterior myocardial infarction
+G33z000	Status anginosus
+G341100	Other cardiac wall aneurysm
+G31y100	Microinfarction of heart
+G38z.00	"Postoperative myocardial infarction, unspecified"
+G365.00	Rupture papillary muscle/curr comp fol acute myocard infarct
+G353.00	Subsequent myocardial infarction of other sites
+G341300	Acquired atrioventricular fistula of heart
+Gyu3400	[X]Acute transmural myocardial infarction of unspecif site
+Gyu3600	[X]Subsequent myocardial infarction of unspecified site
+G341111	Mural cardiac aneurysm
+G39..00	Coronary microvascular disease
+G383.00	Postoperative transmural myocardial infarction unspec site
+Gyu3500	[X]Subsequent myocardial infarction of other sites
