@@ -121,3 +121,20 @@
 
 2021-02-18 14:08-15:00
 - Looking for high/moderate risk clinical codes
+
+2021-03-03 14:49-17:20
+- Producing reports of concepts by GP system
+
+2021-03-04 07:47-12:00
+- Working on sql to help identify missing clinical codes from our code sets
+- Starting extract for Grant
+
+2021-03-04 08:08-09:00
+- Evaluating alternative to moderate vulnerability based on flu vaccine
+
+2021-03-10 13:50-17:00
+- Evaluating alternative to moderate vulnerability based on flu vaccine
+
+2021-03-11 08:30-11:50
+- Data extraction for RQ025
+- Secondary classsification revisited for RQ001
