@@ -6,3 +6,7 @@ G573z00	Atrial fibrillation and flutter NOS
 G573300	Non-rheumatic atrial fibrillation
 G573500	Persistent atrial fibrillation
 G573400	Permanent atrial fibrillation
+G573700	Chronic atrial fibrillation
+G573900	Atypical atrial flutter
+G573800	Typical atrial flutter
+G573600	Paroxysmal atrial flutter
