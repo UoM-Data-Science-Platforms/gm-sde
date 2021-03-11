@@ -151,3 +151,8 @@ ZV424	[V]Bone transplanted
 ZV425	[V]Cornea transplanted
 ZV426	[V]Lung transplanted
 ZV427	[V]Liver transplanted
+14S6.	H/O: bone tissue recipient
+7B063	Exploration of renal transplant
+X00y3	Heart transplant
+Xa1dw	Transplant kidney
+XaM4i	Pre-transplantation of kidney work-up, live donor

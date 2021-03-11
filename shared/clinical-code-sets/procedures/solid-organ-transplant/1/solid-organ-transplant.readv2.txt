@@ -106,3 +106,6 @@ SP08V11	Borderline changes of acute rejection
 7B00500	Allotransplantation of kidney from cadaver NEC
 761N.00	Transplantation of stomach
 SP08B00	Post-transplant bronchiolitis obliterans syndrome
+14S6.00	H/O: bone tissue recipient
+ZV42200	[V]Heart valve transplanted
+ZV42300	[V]Skin transplanted

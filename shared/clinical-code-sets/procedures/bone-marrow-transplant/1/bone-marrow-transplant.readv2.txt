@@ -17,3 +17,5 @@ SP08200	Bone-marrow transplant rejection
 7K1Q600	Allograft of bone marrow from unmatched unrelated donor
 7K1Q500	Allograft of bone marrow from haploidentical donor
 7L14600	Syngeneic peripheral blood stem cell transplant
+7L15500	Transfusion of bone marrow
+7K6i.00	Graft of cord blood to bone marrow
