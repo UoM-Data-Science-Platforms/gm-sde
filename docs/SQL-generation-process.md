@@ -177,9 +177,12 @@ Any query that requires code sets should include the following in the template p
 --> EXECUTE load-code-sets.sql
 ```
 
-This populates four temporary tables as follows:
+This populates five temporary tables as follows:
 
 ```sql
+#AllCodes
+Concept, Version, Code
+
 #CodeSets
 Concept, FK_Coding_ID
 
@@ -193,7 +196,7 @@ Concept, Version, FK_Coding_ID
 Concept, Version, FK_SNOMED_ID
 ```
 
-The two `#Versioned...` tables allow queries based on the concept and the version. The other two tables just contain the most recent version (highest version number) of each concept.
+The `#AllCodes` table allows you to retrieve all clinical codes relating to a concept. The remaining four table link concepts to foreign key ids specific to the GraphNet database. The two `#Versioned...` tables allow queries based on the concept and the version. The other two tables just contain the most recent version (highest version number) of each concept.
 
 `FK_Coding_ID` and `FK_SNOMED_ID` are the (bigint) id fields that the GMCR database use to identify codes. All codes are mapped to one of both of these fields.
 
@@ -214,6 +217,15 @@ WHERE (
   FK_Coding_ID IN (SELECT FK_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'hypertension' AND Version = 2) OR
   FK_SNOMED_ID IN (SELECT FK_SNOMED_ID FROM #VersionedSnomedSets WHERE Concept = 'hypertension' AND Version = 2)
 )
+AND ...
+```
+
+Occasionally it is necessary to search based on the clinical code rather than the foreign key ids. For example when new codes are recorded in clinical systems but have not yet been added to the Graphnet DB. In which case the `#AllCodes` table can be used instead as follows:
+
+```tsql
+-- Find COVID vaccinations
+SELECT * FROM [RLS].[vw_GP_Events]
+WHERE SuppliedCode IN (SELECT Code FROM #AllCodes WHERE Concept = 'covid-vaccination' AND [Version] = 1)
 AND ...
 ```
 
