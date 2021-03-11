@@ -1,0 +1,43 @@
+
+-- First get all the unique codes in the GP_Medications table
+IF OBJECT_ID('tempdb..#MEDCODES') IS NOT NULL DROP TABLE #MEDCODES;
+SELECT distinct [SuppliedCode] into #MEDCODES
+FROM [RLS].[vw_GP_Medications];
+--SELECT COUNT(*) FROM #MEDCODES
+--67908 unique codes
+
+-- Then find all those that are in the LocalCodes table and therefore EMIS codes
+IF OBJECT_ID('tempdb..#EMISCODES') IS NOT NULL DROP TABLE #EMISCODES;
+SELECT SuppliedCode AS EMIS_Code into #EMISCODES FROM #MEDCODES
+WHERE SuppliedCode IN (SELECT LocalCode FROM [SharedCare].Reference_Local_Code);
+--SELECT COUNT(*) FROM #EMISCODES
+--38173  codes
+
+-- Remove the EMIS codes from the #MEDCODES table
+DELETE FROM #MEDCODES WHERE SuppliedCode IN (SELECT EMIS_Code FROM #EMISCODES);
+
+-- Find all the Readv2 codes
+IF OBJECT_ID('tempdb..#READv2CODES') IS NOT NULL DROP TABLE #READv2CODES;
+SELECT SuppliedCode AS Readv2_Code into #READv2CODES FROM #MEDCODES
+WHERE SuppliedCode IN (SELECT MainCode FROM [SharedCare].Reference_Coding WHERE CodingType = 'ReadCodeV2');
+--SELECT COUNT(*) FROM #READv2CODES
+--27009  codes
+
+-- Find all the CTV3 codes
+IF OBJECT_ID('tempdb..#CTV3CODES') IS NOT NULL DROP TABLE #CTV3CODES;
+SELECT SuppliedCode AS CTV3_Code into #CTV3CODES FROM #MEDCODES
+WHERE SuppliedCode IN (SELECT MainCode FROM [SharedCare].Reference_Coding WHERE CodingType = 'CTV3');
+--SELECT COUNT(*) FROM #CTV3CODES
+--26926  codes
+
+-- Remove the Readv2 and CTV3 codes from the #MEDCODES table
+DELETE FROM #MEDCODES WHERE SuppliedCode IN (SELECT Readv2_Code FROM #READv2CODES);
+DELETE FROM #MEDCODES WHERE SuppliedCode IN (SELECT CTV3_Code FROM #CTV3CODES);
+
+select top 1000 * from RLS.vw_GP_Medications where SuppliedCode in (select SuppliedCode from #MEDCODES)
+order by MedicationDate desc
+SELECT * FROM #MEDCODES
+
+-- vaccines??
+--COCO138186NEMIS
+--TASO138184NEMIS

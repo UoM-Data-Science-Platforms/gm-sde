@@ -1,0 +1,1845 @@
+ResultCode	ResultDescription	(No column name)
+C	Full Blood Count +Differential	500576
+UE	U/E'S	442513
+SBC	FBC	390486
+CRP	C-REACTIVE PROTEIN	364555
+H	Hepatic Profile	360769
+B	Bone Profile	223932
+XR Chest	XR Chest	191370
+TFT	FT4 + TSH	161231
+IFCC	Haemoglobin A1c IFCC	156947
+EGFR	GFR estimate(4vMDRD)	129567
+L	LIPID PROFILE	127776
+186710	MSU for M,C&S	116695
+186870	MRSA Screen	112884
+A1C	HbA1c (IFCC)	107185
+XCHES	XR Chest	104846
+MG	MAGNESIUM	102655
+GS1	Group and Antibody Screen	86635
+FBC	Full Blood Count	84091
+ESR	ESR	83018
+FER	Serum Ferritin Assay	79410
+187532	GeneXpert CPE	73184
+COAG	Coagulation profile	72323
+SB12	Serum Vitamin B12 Assay	67368
+SFOL	Serum Folate Assay	65924
+TCO2	BICARBONATE	65835
+VITDP	Vitamin D Profile (LCMS)	65075
+GLU	Glucose	64825
+SRP	Std Renal Profile	63365
+BloodBank	BloodBank	61958
+E2	UE	55657
+PA	PT APTT	54793
+AKI	AKI Stage	53401
+UE	Urea and Electrolyte	53369
+LFT3	Liver Function	53095
+TNT	TROPONIN-T	51940
+US Obstetric foetal growth	US Obstetric foetal growth	43623
+CRPS	C-Reactive Protein	41819
+CGFR	Estimated GFR	41465
+ROU	Routine Profile	40143
+INR	INR	37390
+MACR	micro alb creat ratio	37287
+LFT	LFT	35169
+Histology	Histology	35007
+TFT1	Thyroids (new)	34680
+LPS	Lipase	34426
+HDL	Lipids & HDL	34228
+601695	2019 Novel Corona Virus 8800	34099
+CT Head	CT Head	33873
+I	IRON + IRON SATURATION	30715
+PV	Plasma Viscocity	30208
+NCOV	2019-nCoV	30124
+CPROF	Childrens profile	29622
+TFT	Thyr. Function Test	29484
+HI_RRPT	Report	29277
+VD23	Vit D Metabolites	29250
+187405	BC - Peripheral	28852
+MICALB	MicAlbumin Excretion	26470
+FBC	FBC	26452
+GGT	GAMMA-GLUTAMYLTRANSPEPTIDASE	25883
+HBA1C	Haemoglobin A1c	25835
+SG	Transfusion 2nd Group required	24915
+POCT_Glucose (Nova_Statstrip)	POCT_Glucose (Nova_Statstrip)	24608
+SICL	Haemoglobinopathy Screen	24218
+FBC2	Full Blood Count	24090
+1XT	Christie Profile	23960
+QHCG	Quantitative HCG	23885
+FER1	Ferritin	23247
+PT	Prothrombin Time	22927
+186700	Urine - M,C&S	22723
+187195	Syphilis Screen	22480
+PTH	PARATHYROID HORMONE	22345
+UPCR	Urine protein/creatine ratio	21534
+US Obstetric doppler study	US Obstetric doppler study	21028
+CHLT	Full Lipids(inc HDL)	20924
+XR Pelvis	XR Pelvis	20897
+186865	Wound swab	20103
+187675	C.trachomatis PCR	19856
+186765	HVS Swab	19435
+US Obstetric Foetal Anatomy Scan	US Obstetric Foetal Anatomy Scan	19111
+IGS	IMMUNOGLOBULIN PROFILE	18631
+UA	URATE	18460
+AST	ASPARTATE TRANSAMINASE	18458
+GLU1	Glucose	17780
+HEP	Heparin Control	17578
+PT	PT and INR	17460
+TTG	tTG IgA Antibody (serum)	16946
+CSKUH	CT Head	16710
+VB12	B12/Folate	16475
+LDH	LACTATE DEHYDROGENASE	16373
+US Obstetric TV	US Obstetric TV	16362
+186830	Routine Faeces	16009
+B12	Vitamin B12	15741
+XR Abdomen	XR Abdomen	15522
+PSA	PROSTATE SPECIFIC ANTIGEN	15302
+XR Knee Rt	XR Knee Rt	15174
+FERR	Serum Ferritin	14993
+CK	CREATINE KINASE	14784
+XR Knee Lt	XR Knee Lt	14593
+UC	Urine Culture	14510
+UOFG	US Obstetric foetal growth	14319
+US Obstetric Nuchal Dating Scan	US Obstetric Nuchal Dating Scan	14190
+187105	HIV Screen	13768
+US Abdomen	US Abdomen	13668
+FASGLU	Fasting Glucose	13481
+FOL	Serum Folate	13172
+OMEDP	Medical photography	13065
+XMAMB	XR Mammogram Both	13018
+FDP	FDP/D-DIMER	12989
+CT Abdomen and pelvis with contrast	CT Abdomen and pelvis with contrast	12724
+187235	Sputum - R?outine	12576
+B	Bone	12382
+XR Orthopantomogram full	XR Orthopantomogram full	12247
+BONE	Bone Profile	12221
+XR Foot Rt	XR Foot Rt	12217
+PCT	PROCALCITONIN	12053
+XR Ankle Rt	XR Ankle Rt	11999
+FK	FK506/Tacrolimus	11898
+R	Retics	11834
+XPELV	XR Pelvis	11585
+Medical photography	Medical photography	11579
+XR Foot Lt	XR Foot Lt	11574
+Haemoglobin A1c	Haemoglobin A1c	11214
+XR Ankle Lt	XR Ankle Lt	11153
+BNP	nt-pro BNP	11044
+WIG	WY - Immunoglobulins	10891
+MRI Head	MRI Head	10832
+LP	Lipase	10565
+COVID-19 PCR	COVID-19 PCR	10456
+600045	VRE Screen	10376
+CHO	CHOLESTEROL	10355
+CCHAPC	CT Thorax abdomen pelvis with contrast	10348
+AMY	AMYLASE	10308
+US Urinary tract	US Urinary tract	10304
+PSA	Serum PSA	10220
+U,Creat,Electrolytes	U,Creat,Electrolytes	9903
+RHFCTR	Rheumtd.factor (serum)	9711
+US Pelvis transvaginal	US Pelvis transvaginal	9642
+LFH	LH + FSH	9623
+186775	LVS Swab	9474
+TNT	Troponin T	9471
+XR Wrist Lt	XR Wrist Lt	9001
+CABPEC	CT Abdomen and pelvis with contrast	8752
+XR Hand Rt	XR Hand Rt	8721
+R2	REJECTED Transfusion request	8671
+GLUF	Fasting Glucose	8640
+XABDO	XR Abdomen	8609
+XR Shoulder Rt	XR Shoulder Rt	8599
+US Obstetric Dating Scan	US Obstetric Dating Scan	8585
+XR Dental periapical 5	XR Dental periapical 5	8581
+GLACT	Glucose and Lactate	8559
+UR	UREA	8531
+TTG	Tissue TTG (IgA)	8481
+US Pelvis	US Pelvis	8429
+HEP10A	Anti Factor Xa	8365
+C-REACTIVE PROTEIN	C-REACTIVE PROTEIN	8352
+PROL	Prolactin	8322
+ANAP	AntiNuclear Ab (Serum)	8320
+PAED	Paediatric profile	8318
+CHOL	Cholesterol	8242
+TROPHS	Hi.sens.troponin I	8223
+UABDO	US Abdomen	8188
+XR Wrist Rt	XR Wrist Rt	8160
+Liver Function Tests	Liver Function Tests	8093
+1MAG	Magnesium	7997
+UANOM	US Obstetric Foetal Anatomy Scan	7988
+187255	Respiratory PCR	7743
+XR Shoulder Lt	XR Shoulder Lt	7714
+XKNER	XR Knee Rt	7695
+OEST	OESTRADIOL	7574
+HV	Hb variants & HbA2	7512
+FCAL	Faecal Calprotectin	7457
+IGS1	Group and screen	7449
+TRIS	Trisomy Screening	7354
+LIGHT	Serum free light chains	7233
+XKNEL	XR Knee Lt	7215
+UMAML	US Breast Lt	7183
+XR Lumbar Spine	XR Lumbar Spine	7104
+UODNU	US Obstetric Nuchal Dating Scan	7099
+MAG	Magnesium	7093
+LR	Random Lipid profile	7053
+NULL	LAB_IN	6990
+MRSA Screen	MRSA Screen	6926
+187808	Helicobacter Antigen	6911
+DNA-G	IgG ds-DNA Ab (serum)	6852
+CORT	Cortisol	6835
+HCG	HCG	6830
+VITDT	Vitamin D (Total)	6794
+6603	EBV viral load PCR	6777
+UMAMR	US Breast Rt	6658
+601695	Novel Cornoavirus Infinity	6588
+CT Urinary tract	CT Urinary tract	6372
+ACOV2I	SARS-CoV-2 Ab	6329
+Urine Cult and Sens	Urine Cult and Sens	6261
+GTT	Oral Glucose Tolerance	5986
+187853	GeneXpert CPE	5946
+ZRXTI	Import of External Images	5942
+CA125	CA-125	5901
+XANKR	XR Ankle Rt	5873
+UPELD	US Pelvis TA and transvaginal	5839
+COVAB	SARS-CoV 2 Ab	5839
+CT Thorax	CT Thorax	5830
+CL	CHLORIDE	5824
+XR Mammogram Both	XR Mammogram Both	5780
+XR Hand Lt	XR Hand Lt	5728
+XFOOR	XR Foot Rt	5643
+XANKL	XR Ankle Lt	5628
+FIB	Fibrinogen	5613
+CLDTH	CT Low dose thorax	5519
+XFOOL	XR Foot Lt	5402
+186905	Throat swab	5387
+C3	C3 (serum)	5277
+C4	C4 (serum)	5266
+Bone Densitometry DEXA	Bone Densitometry DEXA	5251
+EGFR	eGFR CKD-EPI	5246
+XSHRR	XR Shoulder Rt	5238
+XWRIL	XR Wrist Lt	5232
+ANCAP	MPO and PR3 profile	5228
+STTG	Tissue TTG (IgA)	5225
+1CRP	CRP	5164
+UODOP	US Obstetric doppler study	5147
+ZRMDT	Review Images at MDT	5048
+US Doppler lower limb veins Lt	US Doppler lower limb veins Lt	4991
+IGE	Total IgE (serum)	4934
+FDP	D-Dimers	4888
+XR Elbow Lt	XR Elbow Lt	4864
+XSHRL	XR Shoulder Lt	4851
+PSA	PSA	4828
+DSA	Downs Screen (SAWAY)	4814
+UO3T	US Obstetric 3rd trimester	4788
+Clotting screen	Clotting screen	4786
+CCHES	CT Thorax	4776
+DDM	D-Dimer	4730
+US Doppler lower limb veins Rt	US Doppler lower limb veins Rt	4726
+XR Elbow Rt	XR Elbow Rt	4609
+ENA6	ENA PROFILE	4538
+XWRIR	XR Wrist Rt	4537
+NG_RRPT	Report	4478
+Bone profile	Bone profile	4476
+HSTNI	High Sens Troponin I	4475
+187110	Pre Dialysis Screen	4475
+APTT	APTT	4444
+MA	Malb:Creat Ratio	4377
+MSKUH	MRI Head	4322
+ACOV2P	SARS-CoV-2 antibodies	4311
+CT Thorax abdomen pelvis with contrast	CT Thorax abdomen pelvis with contrast	4309
+XHANR	XR Hand Rt	4302
+Photographic Image	Photographic Image	4291
+XR Hip Rt	XR Hip Rt	4182
+U/E'S	U/E'S	4148
+TBIL	BILIRUBIN	4143
+1GLUF	Pl.Glucose(Fluoride)	4101
+CT Angiogram pulmonary	CT Angiogram pulmonary	4032
+XR Hip Lt	XR Hip Lt	4012
+ANAX	Antinuclear Abs	3914
+THCG	Total HCG	3784
+XR Cervical Spine	XR Cervical Spine	3780
+601695	Respiratory PCR Panel	3754
+PAR	PARACETAMOL	3750
+CYC	CYCLOSPORIN	3748
+VAN	VANCOMYCIN	3739
+6645	Hepatitis B viral Ld	3728
+CT Thorax with contrast	CT Thorax with contrast	3703
+SHT	TESTOSTERONE + SHBG	3691
+COAG	Coag	3685
+ACOV2S	SARS-CoV-2 antibodies Staff	3672
+US Neck	US Neck	3636
+US Obstetric detailed anatomy scan	US Obstetric detailed anatomy scan	3611
+TEST	TESTOSTERONE	3527
+Hepatic Profile	Hepatic Profile	3515
+FAI	FREE ANDROGEN INDEX	3467
+MRI Spine whole	MRI Spine whole	3446
+1COVR	Virology - COVID Rep	3400
+XR Tibia and Fibula Lt	XR Tibia and Fibula Lt	3387
+US Pelvis TA and transvaginal	US Pelvis TA and transvaginal	3356
+GENT	GENTAMICIN	3290
+US Doppler carotid artery Both	US Doppler carotid artery Both	3286
+MRI Spine Lumbar and Sacral	MRI Spine Lumbar and Sacral	3246
+CAPUG	CT Angiogram pulmonary	3243
+CCABDC	CT Thorax and abdomen with contrast	3224
+XR Tibia and Fibula Rt	XR Tibia and Fibula Rt	3155
+PH_RRPT	Report	3123
+XOPTBO	XR Orthopantomogram full	3116
+GP TFT (not on T4)	GP TFT (not on T4)	3116
+SAL	SALICYLATE	3067
+CT Urinary Tract with Contrast	CT Urinary Tract with Contrast	3045
+MRSA	MRSA screen	3032
+A1C	Haemoglobin A1c	3031
+SMG	Sm/mito/LKM/GPC	3020
+BIC	Bicarbonate	3017
+UOEPV	US Obstetric (Early Pregnancy)	2975
+SOS	SAMPLE REFERRED OFF SITE	2964
+US Testes	US Testes	2954
+ANA	AntiNuclear Ab (serum)	2944
+GLACT	Children's Glucose & Lactate	2930
+US Abdomen and Pelvis	US Abdomen and Pelvis	2923
+MLUSP	MRI Spine lumbar	2916
+187090	Hep C antibody	2908
+XR Thoracic Spine	XR Thoracic Spine	2881
+XDEXA	Bone Densitometry DEXA	2875
+CLIP	CLIP PROFILE	2872
+FTEST	Testost/And'dion(MS)	2858
+LHISTSP	Histology, Specimen	2854
+PROG	PROGESTERONE	2828
+CA125A	CA 125 antigen (new)	2825
+187085	Hep Bs Ag screen	2819
+NDIF	Manual Differential	2810
+GS	Group and Antibody Screen	2804
+EGFR	GFR estimate CKD-EPI	2779
+BILEA	BILE ACIDS	2772
+HDM	H.Dust Mite (serum)	2736
+XKNEB	XR Knee Both	2733
+OROSO	OROSOMUCOID	2723
+ZMDTREV	MDT Review report	2722
+XR Radius and Ulna Lt	XR Radius and Ulna Lt	2720
+Magnesium	Magnesium	2714
+CYSTC	Cystatin C	2714
+IRONS	Iron Studies	2705
+XR Facial bones	XR Facial bones	2704
+1COV	VirologyCOVID Swab	2703
+XHANL	XR Hand Lt	2699
+US Obstetric 1st trimester	US Obstetric 1st trimester	2661
+XR Thumb Rt	XR Thumb Rt	2658
+TBILI	Total Bilirubin	2639
+1POCT	P.O.C.T. Results	2636
+AMH	Anti-Mullerian Hormone	2631
+GIFN	gIFN	2615
+UUTR	US Urinary tract	2611
+XHIPR	XR Hip Rt	2603
+ACOV2P	SARS-CoV-2 antibodies Patient	2593
+187865	Trichomonas Microscopy	2591
+MIXGR	Mixed Grass (serum)	2568
+US Breast Lt	US Breast Lt	2557
+CURIT	CT Urinary tract	2542
+AFP	Alpha-feto protein	2539
+Full Blood Count +Differential	Full Blood Count +Differential	2529
+US Hip Both	US Hip Both	2525
+SCOVAB	Staff SARS-CoV 2 Ab	2485
+XHIPL	XR Hip Lt	2475
+MRI Head with contrast	MRI Head with contrast	2460
+UODAT	US Obstetric Dating Scan	2459
+MIXTR	Mixed Tree(serum)	2444
+NM whole body FDG PET CT	NM whole body FDG PET CT	2439
+UNECK	US Neck	2427
+6604	Enterovirus PCR	2425
+1TFT	Thyroid function	2423
+ACCP	CCP IgG Antibody (serum)	2414
+6605	HSV PCR	2405
+NULL	NULL	2379
+URI	Uric Acid	2375
+XELBL	XR Elbow Lt	2370
+CAT	Cat dander (serum)	2364
+XR Radius and Ulna Rt	XR Radius and Ulna Rt	2355
+DOG	Dog dander (serum)	2328
+601695	Novel Coronavirus Infinity	2314
+MCSPN	MRI Spine Cervical	2314
+6105	BC - Red Lumen	2296
+URATE	Urate	2287
+RA	Rheumatoid Factor	2282
+ULLVL	US Doppler lower limb veins Lt	2279
+1ALT	ALT	2254
+187550	Mycology - Nail	2250
+XR Scaphoid Lt	XR Scaphoid Lt	2244
+TPO	Thyroid Peroxidase (serum)	2241
+NTBNP	NT-proBNP	2239
+US Breast Rt	US Breast Rt	2228
+XELBR	XR Elbow Rt	2228
+OKL	KLEIHAUER PROFILE	2224
+TRAN	Transferrin/TIBC	2215
+XR Scaphoid Rt	XR Scaphoid Rt	2208
+CULT	Routine Swabs	2205
+XR Thumb Lt	XR Thumb Lt	2200
+187651	Cepheid Resp PCR	2194
+MIXMO	Mixed Mould (serum)	2184
+UABPE	US Abdomen and Pelvis	2180
+AR	APTT Ratio	2158
+187765	Pneumococcal ur Ag	2149
+SA	Semen Analysis	2142
+ENEO	Neonatal Group and DAT(Erytra)	2121
+PROL	Serum Prolactin	2115
+CHRC	CT Chest high resolution	2111
+XR Hand Both	XR Hand Both	2102
+u Albumin/Creatinine	u Albumin/Creatinine	2099
+IGEX2	Total IgE	2095
+DLE	LUPUS ANTICOAGULANT SCREEN	2093
+IFAB	Intrinsic Factor Antibodies	2079
+US Ankle /Brachial Pressure Index	US Ankle /Brachial Pressure Index	2079
+XR Knee Both	XR Knee Both	2071
+BENCE	Bence Jones (urine)	2063
+BCT	Blood Culture MRI	2056
+GLANF	Glandular Fever Screen	2045
+CT Spine cervical	CT Spine cervical	2031
+ULLVR	US Doppler lower limb veins Rt	2013
+187095	Hep B post vaccine	2000
+UKIDB	US Kidney Both	1983
+MRI Knee Rt	MRI Knee Rt	1973
+UO1T	US Obstetric 1st trimester	1971
+187435	AFB - Sputum sample	1968
+MRI Knee Lt	MRI Knee Lt	1945
+XCSPN	XR Cervical Spine	1943
+Troponin I (hs)	Troponin I (hs)	1936
+XR Dental maxillary occlusal	XR Dental maxillary occlusal	1931
+1CA12	Ca125 Grp	1931
+AAS2X	Auto Antibody screen	1915
+XHANB	XR Hand Both	1912
+187710	Hep C Viral Load PCR	1904
+MRI Internal auditory meatus Both	MRI Internal auditory meatus Both	1902
+GUMC	Genital Swabs	1896
+HIV	HIV	1892
+MRI Spine Cervical	MRI Spine Cervical	1887
+XR Femur Lt	XR Femur Lt	1881
+HBSAG	Hep B Surf Antigen	1865
+CURITC	CT Urinary Tract with Contrast	1863
+CT Colonoscopy Virtual	CT Colonoscopy Virtual	1852
+UDCAB	US Doppler carotid artery Both	1845
+BJP	Bence Jones Protein	1843
+RET	Reticulocytes	1832
+NUT2	TPN/Nutrition	1827
+AMONIA	Ammonia	1823
+CACRY	CT Cardiac angiogram coronary	1822
+UE2	GP renal profile	1822
+1CEA	CEA	1814
+US Kidney Both	US Kidney Both	1811
+Cepheid Rapid CPE	Cepheid Rapid CPE	1810
+XR Mandible	XR Mandible	1804
+6106	BC - White Lumen	1799
+XR Femur Rt	XR Femur Rt	1794
+MDIFF2	Blood Film Micro	1792
+NCGENW	NM whole body FDG PET CT	1788
+ZN	ZINC	1771
+LAC	Lactate	1767
+GD	Gonadatrophins	1764
+GENT	Gentamycin	1761
+187680	CMV Viral load PCR	1757
+FK506	Tacrolimus FK506	1754
+Vitamin B12	Vitamin B12	1753
+FT3	FREE T3	1749
+PAN	ANTIBODY PANEL PROFILE	1746
+NM Cardio stress PET Rb81	NM Cardio stress PET Rb81	1743
+NM CT attenuation correction	NM CT attenuation correction	1742
+MSKUHC	MRI Head with contrast	1740
+CKA	CK	1734
+Assessment or Pre Assessment	Assessment or Pre Assessment	1733
+MRCP	MRCP	1730
+TEST	Serum Testosterone	1728
+XLSSJ	XR Lumbar Spine and sacroiliac Joint	1714
+US Liver	US Liver	1705
+Glucose rand. plasma	Glucose rand. plasma	1704
+FT4 + TSH	FT4 + TSH	1699
+XR Humerus Lt	XR Humerus Lt	1694
+Vitamin D	Vitamin D	1693
+CT Cardiac angiogram coronary	CT Cardiac angiogram coronary	1689
+ACE	ANGI. CONV. ENZYME	1683
+CA125	CA125	1680
+DGTT2	GTT2	1645
+ULIVE	US Liver	1632
+6624	Varicella Zoster IgG	1628
+CTNG	C.trac/N.Gon PCR	1624
+CT Thorax and abdomen with contrast	CT Thorax and abdomen with contrast	1623
+MRI Pelvis Gynaecological	MRI Pelvis Gynaecological	1621
+OSM	OSMOLALITY	1619
+AST	AST	1618
+CEA	CARCINO EMBRYONIC ANTIGEN	1611
+GGT	GGT	1606
+LIT	LITHIUM + CREATININE	1600
+MKNER	MRI Knee Rt	1599
+MMRCP	MRCP	1586
+ARETA	Retics (abs.)	1578
+ZPP	Zinc Protoporphrin	1571
+XFINL	XR Fingers Lt	1567
+Haemoglobin A1c IFCC	Haemoglobin A1c IFCC	1558
+BETA2	Beta-2 Microglobulin (serum)	1552
+186850	Enteric Virus PCR	1551
+187725	HIV viral load	1550
+UHIPB	US Hip Both	1549
+XLSPN	XR Lumbar Spine	1543
+XMAML	XR Mammogram Lt	1539
+UPELV	US Pelvis	1527
+XFINR	XR Fingers Rt	1524
+MKNEL	MRI Knee Lt	1514
+MDT Review report	MDT Review report	1512
+UAXIL	US Axilla Lt	1508
+601530	Transplant recipient	1507
+XR Humerus Rt	XR Humerus Rt	1506
+STTG	TTG Coeliac Screen	1504
+FC	Faeces Culture	1500
+CHL2	Chloride	1496
+FINJTJ	Fluoroscopic Guided Injection	1495
+CT Cardiac Cor artery calcium scoring	CT Cardiac Cor artery calcium scoring	1494
+US Doppler aortoiliac	US Doppler aortoiliac	1494
+186950	Tissue/Biopsy	1493
+ID	Immuno deficiency panel	1488
+UMAMB	US Breast Both	1483
+PTH1	Parathyroid Hormone	1477
+Std Renal Profile	Std Renal Profile	1473
+CCPX	Anti CCP	1471
+TRF	TRANSFERRIN	1468
+UTEST	US Testes	1463
+TPO1	ThyPeroxidaseAutoAB	1459
+EAS	Erytra 2 Cell Antibody Screen	1459
+CKNA	C.K.	1454
+UAXIR	US Axilla Rt	1450
+IGF1	INSULIN LIKE GROWTH FACTOR 1	1445
+6613	EBV Screen	1442
+XMAMR	XR Mammogram Rt	1437
+GeneXpert CPE	GeneXpert CPE	1436
+ASP-F	IgE ab Aspergillus f (serum)	1428
+6692	CF - Cough swab	1426
+Cardiac Angio coronaries	Cardiac Angio coronaries	1426
+XR Finger Little Lt	XR Finger Little Lt	1425
+PREVI	Urine	1425
+MIXWD	Mixed Weed (serum)	1416
+XTHUR	XR Thumb Rt	1415
+US Obstetric cervical length TV	US Obstetric cervical length TV	1412
+CCHESC	CT Thorax with contrast	1412
+XLOLR	XR Tibia and Fibula Rt	1409
+XCHAB	XR Chest and Abdomen	1408
+HBV	Hb Variant Analysis	1397
+XR Finger Little Rt	XR Finger Little Rt	1396
+CT Angiogram aorta	CT Angiogram aorta	1390
+187320	CSF - M,C&S	1387
+RADC	Radiology Creatinine	1384
+NM Bone Whole Body	NM Bone Whole Body	1376
+BILI	Bilirubin (Total)	1374
+Ferritin	Ferritin	1368
+NTPBNP	NT pro BNP	1367
+MRI Pelvis	MRI Pelvis	1360
+600000	Foreign Travel Faec	1355
+XR Finger Middle Rt	XR Finger Middle Rt	1349
+US Obstetric 2nd trimester	US Obstetric 2nd trimester	1344
+UOSMNA	Urine Osmolality and Sodium	1338
+Cardiac Angio coronary stent	Cardiac Angio coronary stent	1333
+FT3A	Free T3 (new)	1319
+Barium swallow	Barium swallow	1310
+LIPID PROFILE	LIPID PROFILE	1307
+XLOLL	XR Tibia and Fibula Lt	1301
+MTSPN	MRI Spine Thoracic	1290
+MLSPN	MRI Spine Lumbar and Sacral	1288
+IFAX	Intrinsic Factor Abs	1283
+UPETV	US Pelvis transvaginal	1283
+WR	Syphilis Results	1283
+SM	Smooth Muscle/Mito	1282
+LI	Lithium	1276
+SFLCX	Serum Free Light Ch	1269
+XR Finger Middle Lt	XR Finger Middle Lt	1269
+XSCAL	XR Scaphoid Lt	1259
+CYC	Blood Cyclosporin	1255
+AMIC	AMIKACIN	1253
+OSM	Serum Osmolality	1248
+LH1	LH/FSH	1240
+XTHUL	XR Thumb Lt	1236
+US Doppler lower limb arteries Rt	US Doppler lower limb arteries Rt	1234
+XR Finger Ring Rt	XR Finger Ring Rt	1230
+XFARL	XR Radius and Ulna Lt	1229
+General culture	General culture	1228
+TRPCAP	Mast Cell Tryptase (serum)	1224
+RF	Rheumatoid Factor	1220
+186875	Exit site swab	1217
+AFP	AFP	1216
+US Doppler lower limb arteries Lt	US Doppler lower limb arteries Lt	1212
+XR Dental bitewing Both	XR Dental bitewing Both	1201
+CT Abdomen and pelvis	CT Abdomen and pelvis	1200
+186940	Left ear swab	1199
+MRI Neck with contrast	MRI Neck with contrast	1198
+FIBC	Fibrinogen Assay	1192
+US Thyroid	US Thyroid	1191
+ATNT	Add on Troponin T	1187
+CEA	CEA	1183
+US Multiple Pregnancy	US Multiple Pregnancy	1177
+PB	Inf. Mononucleosis	1175
+Genital swabs	Genital swabs	1167
+186970	Pus/Aspirate	1162
+LH	Luteinising Hormone	1158
+IFA	Intrinsic Factor Abs	1156
+Folate (serum)	Folate (serum)	1155
+ZASSESS	Assessment or Pre Assessment	1151
+HNI	H'nics not indicated	1150
+XFACI	XR Facial bones	1150
+Virology	Virology	1149
+PINP	TYPE I PROCOLLAGEN N PEPTIDE	1147
+ERCP	ERCP	1143
+XR Finger Index Lt	XR Finger Index Lt	1138
+UODA	US Obstetric detailed anatomy scan	1134
+UMACLB	US Guided core biopsy breast Lt	1127
+186935	Right ear swab	1126
+6101	BC - Arterial	1125
+US Cranial contents	US Cranial contents	1124
+DIC	DIC Screen	1123
+186766	GR1 - HVS Genital Swab	1120
+UMACRB	US Guided core biopsy breast Rt	1120
+XSCAR	XR Scaphoid Rt	1116
+XR Toes Lt	XR Toes Lt	1115
+US Obstetric Placental Localisation	US Obstetric Placental Localisation	1108
+XR Toes Rt	XR Toes Rt	1107
+XR Finger Ring Lt	XR Finger Ring Lt	1106
+VANC	Vancomycin	1102
+MILK	Milk (serum)	1102
+PNUT	Peanut (serum)	1102
+DIG	DIGOXIN	1097
+DXA Vertebral morphometry	DXA Vertebral morphometry	1097
+MPEGY	MRI Pelvis Gynaecological	1095
+WC34	WY - COMPLEMENT	1095
+186890	left eye swab	1093
+APTT	APTT.	1089
+187532	Not tested	1086
+186885	Right eye swab	1086
+601695	2019 Novel Corona Virus	1083
+Lipids - non fasting	Lipids - non fasting	1080
+XTSPN	XR Thoracic Spine	1075
+XR Toe Great Rt	XR Toe Great Rt	1069
+GBM	Ab To GBM (serum)	1061
+Glucose fast. plasma	Glucose fast. plasma	1059
+TROPONIN-T	TROPONIN-T	1058
+RPCR2	2019 Novel Corona Virus 8800	1054
+XR Finger Index Rt	XR Finger Index Rt	1049
+XR Clavicle Rt	XR Clavicle Rt	1045
+XR Whole spine	XR Whole spine	1041
+TMET	Thiopurine Metabolites	1033
+D-dimer	D-dimer	1033
+1COR	Cortisol	1033
+ARET	Absolute Retic	1031
+MIAMB	MRI Internal auditory meatus Both	1030
+XR Clavicle Lt	XR Clavicle Lt	1028
+187790	Rubella Immunity IgG	1027
+FBASW	Barium swallow	1023
+UO2T	US Obstetric 2nd trimester	1016
+VWD	VON WILLEBRANDS SCREEN	1014
+USHRR	US Shoulder Rt	1011
+UTHYD	US Thyroid	1006
+FE	Iron	1005
+CVCOY	CT Colonoscopy Virtual	1004
+XFOOB	XR Foot Both	1004
+NBONW	NM Bone Whole Body	999
+XFARR	XR Radius and Ulna Rt	998
+CCSPN	CT Spine cervical	993
+THROMB	Thrombophilia Screen	986
+MCVIA	MRI Cardiac Myocardial Viability	983
+A1AT	ALPHA-1-ANTITRYPSIN	981
+IGS	Immunoglobulins	978
+EDATSC	DAT screen (Erytra)	961
+186770	Cerivcal Swab	959
+EGG	Egg (hen) (serum)	958
+PHOS	Phosphorus	954
+CT Sinuses	CT Sinuses	953
+SPLIT	CON/DIRECT BILIRUBIN.	950
+THE	Theophylline	950
+MCORP	MRI Cardiac Perfusion	948
+XR Toe Great Lt	XR Toe Great Lt	939
+CASHW	Cashew nut (serum)	936
+CE	BLOOD COUNT + ESR	934
+USHRL	US Shoulder Lt	931
+UPCR	uProtein/Creat Ratio	931
+BICARBONATE	BICARBONATE	929
+Blood Culture	Blood Culture	927
+WALNT	Walnut (serum)	925
+ULLVB	US Doppler lower limb veins Both	924
+ELEC	Electrophoresis	924
+TRIG	TRIGLYCERIDE	922
+ALMOND	Almond (serum)	919
+HAZEL	Hazelnut (serum)	919
+XR Foot Both	XR Foot Both	917
+FM	Film	912
+BRAZL	Brazil nut (serum)	909
+NM MPS Tf stress	NM MPS Tf stress	904
+PARA	Paracetamol	902
+XR Chest and Abdomen	XR Chest and Abdomen	892
+XR Cephalogram	XR Cephalogram	892
+CT Angiogram lower limb Both	CT Angiogram lower limb Both	890
+CEA1	CEA (new)	889
+601520	Polyoma Virus PCR	889
+PARA3	Paracetamol	888
+BHCG	Beta-HCG	887
+XR Calcaneus Lt	XR Calcaneus Lt	886
+6647	Mycoplasma PCR	885
+Blood Film	Blood Film	884
+CD4P	CD4 Profile	877
+QUANT4	Quantiferon	875
+NM CT Atten Correct & localisation	NM CT Atten Correct & localisation	874
+MPBIN	Malaria screen with FBC	873
+Fluoroscopy thorax	Fluoroscopy thorax	871
+AFGS	Diamed Full Gp   Abs	871
+WHEAT	Wheat (serum)	871
+ANAT	Anti Nuclear AB	869
+US Guided injection	US Guided injection	861
+MRI Pelvis Prostate	MRI Pelvis Prostate	859
+FT3A	Free T3	858
+ALT	ALANINE TRANSAMINASE	858
+CT Neck with contrast	CT Neck with contrast	856
+MRI Orbit Both	MRI Orbit Both	855
+CPEP	C-PEPTIDE	854
+US Doppler lower limb arteries Both	US Doppler lower limb arteries Both	854
+LDH	Lactate DHydrogenase	852
+1PSA	PSA	846
+NM MPS Tf rest	NM MPS Tf rest	844
+SEL	SELENIUM	840
+CNCAPC	CT Neck thorax abdomen pelvis with Cont	838
+187206	Pneumococal Sero (c)	837
+MRI Small bowel study	MRI Small bowel study	836
+CT Chest high resolution	CT Chest high resolution	834
+AMYLASE	AMYLASE	834
+MRI Cardiac complex congenital	MRI Cardiac complex congenital	832
+GP TFT (on T4)	GP TFT (on T4)	830
+QUAT	QUAT TEST	830
+MMAMBC	MRI Breast with contrast Both	828
+XR Calcaneus Rt	XR Calcaneus Rt	827
+MPO	MPO (serum)	825
+XR Leg Length Measurement Both	XR Leg Length Measurement Both	821
+UOSM	Urine Osmolality	818
+XUPAL	XR Humerus Lt	817
+HC	Hepatitis C Screen	816
+PRL	Prolactin	813
+US Guided Biopsy	US Guided Biopsy	804
+DSDNA2	IgG ds-DNA Ab	804
+UBIOPB	US Guided Biopsy	803
+TOBR	Tobramycin	802
+CSFGTP	CSF Glucose and Total Protein	800
+PR3	PR3 (serum)	796
+MSPNW	MRI Spine whole	794
+TBC	Sample for AFBs	790
+UPLAC	US Obstetric Placental Localisation	790
+XR Orthopantomogram Lt	XR Orthopantomogram Lt	790
+SALY	Salicylate	787
+NM Lung ventilation and perfusion	NM Lung ventilation and perfusion	787
+DOWNS	Downs Screening	780
+UAOTD	US Doppler Aorta	773
+ULLAL	US Doppler lower limb arteries Lt	767
+Video swallow	Video swallow	763
+US Multiple Pregnancy Doppler	US Multiple Pregnancy Doppler	752
+CT Head neck thorax Abdo and pelvis Cont	CT Head neck thorax Abdo and pelvis Cont	749
+MCTX	Mast Cell Tryptase	749
+MPEST	MRI Pelvis Prostate	748
+XM	Cross Match	748
+XTLSP	XR Thoracolumbar spine	747
+ULLAR	US Doppler lower limb arteries Rt	747
+XFEML	XR Femur Lt	746
+601770	Atypical pneumonia	746
+6607	Meningococcal PCR	746
+CE1	Card.Enz	744
+600035	Genital - Other	742
+LUP	Lupus anticoagulant	738
+187415	BC - Central	736
+ETOH	ALCOHOL (Ethanol)	736
+NM Renogram with diuretic	NM Renogram with diuretic	735
+XUPAR	XR Humerus Rt	735
+UMAMLN	US Guided Aspiration Breast Lt	731
+Glucose	Glucose	731
+ULLAB	US Doppler lower limb arteries Both	730
+MNECKC	MRI Neck with contrast	728
+ASPF	IgG ab Aspergillus f (serum)	725
+ENA1	ENA Screen (CMFT)	724
+XR Orthopantomogram Rt	XR Orthopantomogram Rt	718
+PLGFP	PLGF : sFlt ratio	717
+MRI Neck	MRI Neck	715
+XFEMR	XR Femur Rt	715
+US Arteriovenous fistula	US Arteriovenous fistula	714
+PVIS	Plasma Viscosity	710
+XR Thoracolumbar spine	XR Thoracolumbar spine	704
+MRI Prostate with contrast	MRI Prostate with contrast	701
+2COV	VirologyCOVID Sputum	700
+TPMT	Thiopurine Methyl Transferase	700
+SPC	Respiratory Culture	700
+PIIINP	PIIINP	684
+EERCP	ERCP	684
+Enteric PCR	Enteric PCR	684
+Group and Antibody Screen	Group and Antibody Screen	680
+XBRTL	XR Breast tomosynthesis Left	680
+UOCLT	US Obstetric cervical length TV	678
+MRI Liver with contrast	MRI Liver with contrast	677
+CT Pelvis	CT Pelvis	673
+BIRCH	Birch pollen (serum)	671
+Coeliac Screen	Coeliac Screen	671
+CEPH	GeneXpert CPE	670
+XBRTR	XR Breast tomosynthesis Right	670
+UABRE	US Abdomen and Renal Tract	669
+CT Angiogram intracranial	CT Angiogram intracranial	666
+CT Thorax abdomen and pelvis	CT Thorax abdomen and pelvis	665
+187651	Respiratory PCR Panel	664
+CCP	Anti-CCP	663
+US Doppler Aorta	US Doppler Aorta	662
+TFT (not on T4)	TFT (not on T4)	660
+Iron saturation	Iron saturation	658
+EPO	Serum Erythropoietin	657
+UM	Urine no culture	655
+UM	Not tested	652
+1VIT	Total Vitamin D	650
+TSHREC	TSH Receptor Antibody (serum)	649
+CSINU	CT Sinuses	649
+6693	CF - Sputum	646
+UMAMRN	US Guided aspiration breast Rt	646
+THEO	Theophylline	643
+US Transplant Kidney	US Transplant Kidney	639
+US Obstetric Foetal Anomaly Scan	US Obstetric Foetal Anomaly Scan	636
+IRON	Iron Studies	636
+ASPIGG	Aspergillus F IgG Ab	635
+6687	BC - CVC line	632
+187445	AFB - BAL sample	630
+Vitamin D Profile (LCMS)	Vitamin D Profile (LCMS)	629
+USHRLJ	US Guided injection shoulder Lt	627
+USHRRJ	US Guided injection shoulder Rt	626
+US Shoulder Rt	US Shoulder Rt	625
+NM Renal DMSA	NM Renal DMSA	625
+186835	Faeces - C. diff	623
+XM1	X-MATCH	622
+MSMBO	MRI Small bowel study	621
+US Guided drainage	US Guided drainage	619
+XHIPB	XR Hip Both	618
+ROUS	Routine ( Stored )	617
+MRI Pelvis Rectum	MRI Pelvis Rectum	614
+ENAX	ENA Ab	612
+ACTH	ACTH	611
+CU	COPPER	605
+UM	Urine	605
+HP_RRPT	Report	601
+FISH	Fish (cod) (serum)	601
+CUCAE	Copper/Caeruloplasmin	596
+6608	Pneumocystis PCR	595
+MRI Pelvis with contrast	MRI Pelvis with contrast	594
+186930	Ascitic fluid	593
+US Groin Rt	US Groin Rt	591
+CT Angio aortic arch and carotid Both	CT Angio aortic arch and carotid Both	588
+DS1	ROUTINE DRUG SCREEN	587
+CTX	CTX	585
+CABPE	CT Abdomen and pelvis	583
+1CA19	CA19-9	583
+1CA15	CA15-3	583
+XR Mammogram Rt	XR Mammogram Rt	580
+186750	Legionella urine Ag	579
+US Guided Aspiration Neck	US Guided Aspiration Neck	578
+Tissue culture	Tissue culture	577
+187870	Group B Strep Screen	576
+US Breast Both	US Breast Both	575
+XR Neck Soft Tissue	XR Neck Soft Tissue	573
+XPATH	XR Pathological Specimen	573
+187075	Chronic Hepatitis	573
+6637	H Influenza (Hib)	570
+CALP1	Calprotectin	569
+CT Head with contrast	CT Head with contrast	567
+ELAS	Faecal Elastase	567
+micro alb creat ratio	micro alb creat ratio	567
+HBCAB	Hep B Core Antibody	566
+ZRREV	Review of External Images	566
+HEL	Helicobacter Results	564
+6126	Drain Fluid	558
+B2GP	B2 Glycoprotein	558
+187715	BAL - M,C&S	558
+FLOLL	Fluoroscopy lower limb Lt	556
+FSH	Follicle Stimulating Hormone	556
+600080	Tracheal Aspirate	556
+TESM	Testosterone (male)	555
+XTOGR	XR Toe Great Rt	554
+MLIVEC	MRI Liver with contrast	551
+CT Face with contrast	CT Face with contrast	550
+186965	Synovial fluid	548
+TCBIL	Total+Conj Bilirubin	548
+MRA Head	MRA Head	547
+CT Angiogram	CT Angiogram	544
+1CL	Chloride	544
+CULT	W1 Superficial Skin	544
+BILAC	Bile Acids	539
+CT Neck thorax abdomen pelvis with Cont	CT Neck thorax abdomen pelvis with Cont	539
+XCLAR	XR Clavicle Rt	538
+Respiratory culture	Respiratory culture	537
+PCT	Pro-Calcitonin	536
+AASX	Auto Antibody Screen	535
+186910	Line Tip	534
+Rejected sample	Rejected sample	534
+XMAND	XR Mandible	534
+CCHAP	CT Thorax abdomen and pelvis	533
+US Axilla Lt	US Axilla Lt	532
+XR Mammogram Lt	XR Mammogram Lt	530
+UMULT	US Multiple Pregnancy	529
+US Obst Foetal Echocardiogram	US Obst Foetal Echocardiogram	529
+CA	CA/ALB	527
+IGG	IgG (serum)	525
+ASPIGE	Aspergillus IgE	524
+6109	BC - Blue Lumen	523
+PHOS	Phosphate	523
+MPEHB	MRI Pelvis and Hip Both	521
+Faecal calprotectin	Faecal calprotectin	521
+LDHA	LDH (new)	520
+US Shoulder Lt	US Shoulder Lt	520
+US Abdominal Aorta	US Abdominal Aorta	519
+LATEX	Latex (serum)	519
+CCA	ADJUSTED CALCIUM	516
+Lipids - fasting	Lipids - fasting	515
+BMA	Bone Marrow Aspirate	513
+PRG	Serum Progesterone	513
+ANDROG	Androgen Profile	511
+IGFBP3	IGF Binding Protein 3	510
+BANAN	Banana (serum)	509
+FLOLR	Fluoroscopy lower limb Rt	505
+APPLE	Apple (serum)	504
+PLA2R	PLA2R antibody (serum)	501
+UOTV	US Obstetric TV	501
+US Anterior Abdominal Wall	US Anterior Abdominal Wall	497
+AHSTNI	HiSens Trop I add-on	497
+MACAX	Cardiolipin Antibody	497
+Free T4	Free T4	496
+US Axilla Rt	US Axilla Rt	495
+VAL	VALPROATE	494
+MRI Pituitary	MRI Pituitary	494
+GUMC	GR1 - HVS Genital Swab	493
+P	PHOSPHATE	489
+XTOGL	XR Toe Great Lt	488
+US Doppler vein map lower limb Lt	US Doppler vein map lower limb Lt	487
+Orthopaedic pinning lower limb Lt	Orthopaedic pinning lower limb Lt	486
+XCLAL	XR Clavicle Lt	485
+PICC Line Insertion	PICC Line Insertion	484
+MPO2X	MPO-ANCA & PR3-ANCA	484
+CU4	Copper CMFT	484
+CTP	CSF TOTAL PROTEIN	482
+6691	BC - Tessio line	481
+US Groin Lt	US Groin Lt	480
+CA199A	CA19-9 (new)	477
+VITAE	Vitamins A and E	476
+SHBG	SEX HORMONE BINDING GLOBULIN	475
+CA19-9	CA 19-9	474
+PMET	Plasma metadrenalines	474
+Wound swab	Wound swab	473
+187805	Rubella Acute IgM	472
+TESTMS	Testosterone (MS)	472
+CSFG	CSF GLUCOSE	472
+MSHRR	MRI Shoulder Rt	471
+187545	Mycology - Skin	469
+186915	Mouth swab	468
+NB	Bone NPEx	468
+MNECK	MRI Neck	466
+UHAWR	US Hand and wrist Rt	465
+6336	Penile swab	464
+GAD	Anti GAD antibody (serum)	464
+AFPNG	AFP	462
+Cardiac permanent pacemaker insertion	Cardiac permanent pacemaker insertion	462
+6690	BC - Portacath blood	461
+Immunoglobulins	Immunoglobulins	461
+CO2	Bicarbonate	458
+UXRELL	Extracorporeal Lithotripsy Renal Lt	458
+XR Dental periapical 10	XR Dental periapical 10	458
+GC_RRPT	Report	457
+Creatine Kinase	Creatine Kinase	457
+Orthopaedic pinning lower limb Rt	Orthopaedic pinning lower limb Rt	456
+Chlamydia PCR	Chlamydia PCR	455
+DDNAX	DS DNA Antibody	454
+CT Facial bones	CT Facial bones	453
+1BF	B12/Fol	453
+ALB	ALBUMIN	452
+MRI Spine whole with contrast	MRI Spine whole with contrast	451
+1IG	Ig's	451
+TPMT2	TPMT	451
+US Pelvis (Transvaginal)	US Pelvis (Transvaginal)	450
+CA199	CA 19-9	450
+CT Renal with contrast Both	CT Renal with contrast Both	448
+Word processor	Word processor	447
+FVIDS	Video swallow	446
+UHAWL	US Hand and wrist Lt	446
+MRI Shoulder Rt	MRI Shoulder Rt	446
+NM Bone SPECT	NM Bone SPECT	446
+METNP	Plasma Metanephrines	445
+6689	BC - PICC Line	445
+Paediatric bilirubin	Paediatric bilirubin	443
+MR UNDER ORAL SEDATION	MR UNDER ORAL SEDATION	443
+US Doppler vein map lower limb Rt	US Doppler vein map lower limb Rt	443
+Orthopaedic pinning upper limb Lt	Orthopaedic pinning upper limb Lt	442
+ANCA3	ANCA	441
+1EL	Electros	440
+BGAS	Blood Gases	439
+NM Lung Perfusion Scan Q	NM Lung Perfusion Scan Q	438
+BC - Peripheral	BC - Peripheral	437
+MARKR	Cell Markers	437
+6213	ETA sample	436
+6131	Pleural Fluid	434
+MDB	CONJ BILIRUBIN	432
+Gated CT thorax	Gated CT thorax	431
+REF	Beta glucan	430
+UTIED	US Tissue doppler echocardiogram	430
+XR Skull	XR Skull	430
+HBSM	Repeat HBS Estimation	429
+CA	CALCIUM	429
+ACE1	ACE (new)	429
+Nephrostomy catheter exchange	Nephrostomy catheter exchange	429
+US Salivary Glands parotid	US Salivary Glands parotid	427
+6648	Parvovirus viral Ld	426
+187655	Adenovirus PCR	426
+CT Orbit Both	CT Orbit Both	424
+FUPLL	Fluoroscopy upper limb Lt	424
+MSIJB	MRI Pelvis SIJ Both	423
+PCRAT2	Protein:Creat.Ratio	422
+XSHRB	XR Shoulder Both	416
+CPE	CPE Screening	416
+CP	CITRATED PLATELET COUNT	415
+6609	Varicella Viral load	415
+TTG	Tissue TTG IgA	415
+Orthopaedic pinning upper limb Rt	Orthopaedic pinning upper limb Rt	414
+AAB	Auto Antibodies	413
+CNECKC	CT Neck with contrast	412
+CT Neck	CT Neck	412
+600090	AFB - Other	411
+TSH	THYROID STIMULATING HORMONE	410
+Sputum - R???outine	Sputum - R???outine	410
+US Hand and wrist Rt	US Hand and wrist Rt	408
+MLIVE	MRI Liver and Spleen	406
+ACH-R	AcetylCh Recp ab (serum)	405
+186840	Faeces - Parasites	405
+PARATHYROID HORMONE	PARATHYROID HORMONE	404
+CYSC	Cystatin C	401
+Hysterosalpingogram	Hysterosalpingogram	400
+ANCAX	Neut.Cytoplasmic Abs	397
+CHOLESTEROL	CHOLESTEROL	396
+XTOEL	XR Toes Lt	396
+1CO2	Bicarbonate	395
+TMA	C.trachomatis TMA	393
+RCREA2	Ur.Creatinine-mmol/L	393
+187000	Corneal scrapes	392
+XTOER	XR Toes Rt	389
+XR Hip Both	XR Hip Both	389
+SIRO	Sirolimus	388
+MRI Foot Rt	MRI Foot Rt	388
+FT3	Free T3 (FT3)	388
+ZUCHESA	EBUS-TBNA	387
+UABDA	US Anterior Abdominal Wall	387
+ALDPRA	aldosterone and renin adults	386
+MRI Foot Lt	MRI Foot Lt	386
+TEST	Testosterone Andgens	385
+1UE2	U+E.Ca.Alb	385
+FUPLR	Fluoroscopy upper limb Rt	383
+1HBC	HbA1c(IFCC)	383
+DIGM	Digoxin (ug/L)	383
+ATP	FLUID TOTAL PROTEIN	383
+CAAAG	CT Angiogram aorta	383
+MRI Hip Rt	MRI Hip Rt	382
+MRI Spine Thoracic	MRI Spine Thoracic	381
+1URI	Uric acid	381
+Serum Vitamin B12 Assay	Serum Vitamin B12 Assay	379
+187330	MRI CSF ? virus dete	379
+BCT	Blood Culture	379
+MSHRL	MRI Shoulder Lt	378
+P	Platelet req.......	378
+TSHRX	TSH Receptors Abs	378
+17-OH	17-HYDROXY PROGESTERONE	377
+187070	Acute hepatitis	376
+Serum Folate Assay	Serum Folate Assay	376
+ULAMB	US Doppler artery map lower limb Both	375
+ZN3	Zinc CMFT	375
+F8C	Factor VIII	374
+MRI Ankle Rt	MRI Ankle Rt	373
+TMET	Thiopurine Metabs	373
+IA	Issue albumin.	370
+CRITH	Crith Luciliae Ab	369
+US Hand and wrist Lt	US Hand and wrist Lt	369
+MRI Shoulder Lt	MRI Shoulder Lt	368
+MRECT	MRI Pelvis Rectum	368
+IPICCI	PICC Line Insertion	366
+XR Fingers Rt	XR Fingers Rt	366
+ZUCHES	US Pleural Cavity	365
+UINGU	US Groin and Inguinal Region	365
+MPELV	MRI Pelvis	365
+1FERR	Ferritin	364
+CUCACR	Children's Ca/Creat Ratio	363
+CACR	Calcium/Creat ratio	363
+COMP	Complement	362
+XR Fingers Lt	XR Fingers Lt	362
+ZRXTC	Review of external CT images	361
+Rheumatoid Factor	Rheumatoid Factor	359
+BJPROT	Bence Jones Protein	359
+ALC	Alcohol	358
+AMM	Plasma Ammonia	358
+LITH	Lithium	357
+600070	Aspirate	357
+187400	Blood Culture -Other	357
+CALLB	CT Angiogram lower limb Both	356
+GUMM	Genital Micros	356
+Bone Donor Serology / Referred Tests	Bone Donor Serology / Referred Tests	355
+6672	Solid organ donor	355
+XR Hand & Wrist for Bone Age	XR Hand & Wrist for Bone Age	355
+187186	Beta Glucan	354
+601720	Needlestick Donor	353
+NSENT	NM Sentinel Node Loc and Imaging	352
+1AMY	Amylase	352
+TAB	Thyroid Antibodies	350
+SALCOR	SalivaryCortisol(MS)	348
+187440	AFB - Tissue Sample	348
+US Abdomen and Renal Tract	US Abdomen and Renal Tract	347
+US Guided aspiration	US Guided aspiration	346
+ALDH	FLUID LDH	345
+Proctogram	Proctogram	344
+CSF	CSF	343
+IFANA	Immunofluo'scent ANA	343
+E-GFR	Estimated GFR	342
+UPREG	Urine Pregnancy Test	342
+FILM	BLOOD FILM	340
+IRON + IRON SATURATION	IRON + IRON SATURATION	339
+UELLI	US Elastography of liver	339
+SAL3	Salicylate	338
+CCP	CREAT AND PROTEIN	338
+CT Spine lumbar	CT Spine lumbar	338
+AND	ANDROSTENEDIONE	337
+MRI Ankle Lt	MRI Ankle Lt	337
+OSMS	Osmolality	336
+KC5	APTT N/P 50:50	336
+VORI	Voriconazole	334
+ADALAB	Adalimumab Abs (serum)	333
+MYC	Mycology	333
+P1NP	P1NP	332
+6200	7 RIGHT CHEST	332
+XANTH	Xanthochromia screen	332
+US Doppler transcranial	US Doppler transcranial	332
+US Guided Aspiration Breast Lt	US Guided Aspiration Breast Lt	332
+601695	Virology MisMatch	331
+GEN	Gentamicin	331
+SYNC	Synacthen test CORT ONLY	329
+NLFT	LFT NPEx	328
+DHEA	DHEA-SULPHATE	328
+F10	Factor X	327
+XR Dental periapical full	XR Dental periapical full	327
+XCALL	XR Calcaneus Lt	327
+PETOH	ETHANOL	325
+6112	BC - Purple lumen	325
+Barium swallow and meal	Barium swallow and meal	325
+REF	Galactomannan	324
+XR Sternum	XR Sternum	324
+6674	Varicella Zoster IgM	323
+PTA Dialysis fistula	PTA Dialysis fistula	323
+1LF	LH/FSH	323
+A10A	Anti Xa Assay	323
+VITDM	1,25-dihydroxy vitamin D	322
+Shuntogram	Shuntogram	321
+US Doppler upper limb veins Rt	US Doppler upper limb veins Rt	321
+6183	30 upper rgt lg frnt	320
+1DPD	DPD-5FU Toxicity	320
+UXRERL	Extracorporeal Lithotripsy Renal Rt	319
+CT Abdomen	CT Abdomen	319
+601740	Needlestick store	319
+ZINC	Zinc	319
+MRI Pelvis SIJ Both	MRI Pelvis SIJ Both	318
+HS	Hepatitis screen	318
+Gamma GT	Gamma GT	316
+ELAST	Faecal Elastase	316
+600100	Serratia Screening	316
+187200	Streptococcal sero	315
+ADAL	Adalimumab (serum)	315
+1LAH	AFP HCG LDH	315
+CULT	Not tested	314
+F5LPGV	F5L AND PGV	313
+XCALR	XR Calcaneus Rt	313
+US Soft tissue	US Soft tissue	311
+CT Pancreas with contrast	CT Pancreas with contrast	311
+6185	32 upper lft lg frnt	311
+6665	Lyme disease sero	311
+PANCR	B-islet Ab (serum)	310
+UASPNN	US Guided aspiration	310
+US Doppler upper limb veins Lt	US Doppler upper limb veins Lt	309
+G4	IgG4 subclass (serum)	309
+HELG	Helicobacter Antigen	308
+CT Aorta whole with contrast	CT Aorta whole with contrast	307
+XFILR	XR Finger Little Rt	307
+CT Neck and thorax with contrast	CT Neck and thorax with contrast	306
+Mobile image intensifier lower limb Rt	Mobile image intensifier lower limb Rt	305
+US Guided core biopsy breast Lt	US Guided core biopsy breast Lt	305
+1RCOV	Rapid Covid PCR	305
+DAU1	Screen:Drugs ofAbuse	304
+US Groin and Inguinal Region	US Groin and Inguinal Region	303
+Electrophoresis	Electrophoresis	302
+Barium meal and follow through	Barium meal and follow through	302
+COCKR	Cockroach (serum)	302
+Coagulation profile	Coagulation profile	302
+Mobile image intensifier lower limb Lt	Mobile image intensifier lower limb Lt	301
+C	Transfusion comment	301
+CT Internal auditory meatus Both	CT Internal auditory meatus Both	300
+CT Liver triple phase	CT Liver triple phase	299
+ADEQ	DIALYSIS ADEQUACY URINE	299
+FIT	Faecal Immunochemical Testing	298
+CBIOPB	CT Guided biopsy	298
+ALDO1	Aldosterone/Renin	298
+187565	Post Mortem Sample	298
+MRI Hip Lt	MRI Hip Lt	298
+6668	Mumps Immunity IgG	298
+CSKUHC	CT Head with contrast	297
+TG	ABO&Rh Group	296
+MMPMP	MRI Multiparametric prostate	295
+IMMUNOGLOBULIN PROFILE	IMMUNOGLOBULIN PROFILE	295
+MY	Mycology via NPEx	294
+Cardiac ablation	Cardiac ablation	294
+MGEN	Medical Genetics	291
+ETCG	ABO Confirmed group	288
+US Guided aspiration breast Rt	US Guided aspiration breast Rt	288
+Report	Report	287
+FLC	Free light chains	287
+1LIPI	Lipids	286
+Rejected haem sample	Rejected haem sample	286
+UAUTB	US Doppler uterine artery Both	286
+XR Dental oblique lateral Rt	XR Dental oblique lateral Rt	286
+XFILL	XR Finger Little Lt	285
+MTX	Methotrexate	285
+CERULO	CAERULOPLASMIN	285
+6173	25 left hand palmar	284
+HBSAB1	Hep B Surf Antibody	283
+NM Bile study day 1 (SeHCAT)	NM Bile study day 1 (SeHCAT)	283
+Tunnelled dialysis catheter placement	Tunnelled dialysis catheter placement	283
+187711	HCV Genotype	282
+FRUC	FRUCTOSAMINE	282
+XFIML	XR Finger Middle Lt	281
+XANKB	XR Ankle Both	281
+XR Dental oblique lateral Lt	XR Dental oblique lateral Lt	280
+PT	PHENYTOIN	280
+NM Bile study day 7 (SeHCAT)	NM Bile study day 7 (SeHCAT)	279
+CLUNGB	CT Guided biopsy lung	279
+Fluoroscopy abdomen	Fluoroscopy abdomen	278
+1DBIL	Direct Bilirubin	278
+MPELVC	MRI Pelvis with contrast	278
+nt-pro BNP	nt-pro BNP	278
+XR Foreign body demonstration	XR Foreign body demonstration	278
+US Graft Surveillance	US Graft Surveillance	275
+Positron emission tomography with CT	Positron emission tomography with CT	275
+ERESP	Endoscopy of respiratory system	275
+6171	23 right hand palmar	275
+CT Cone beam mandible	CT Cone beam mandible	274
+CLACT	CSF LACTATE	273
+NM Renogram	NM Renogram	273
+G6SC	G6PD Screen	272
+MR UNDER GA	MR UNDER GA	272
+JAK2	JAK2 Investigation	272
+1FT3	Free T3	271
+US Guided core biopsy breast Rt	US Guided core biopsy breast Rt	270
+UNAK	Urine electrolytes	269
+US Salivary Glands submandibular	US Salivary Glands submandibular	267
+187860	36C SAB Plate (Yeast)	267
+CT Venogram Intracranial	CT Venogram Intracranial	266
+187325	CSF - Other	265
+USOTI	US Soft tissue	265
+XFIMR	XR Finger Middle Rt	265
+UKNER	US Knee Rt	264
+REF	Hepatitis E PCR	264
+MPERI	MRI Perineum	264
+2CSA	Cyclosporin	263
+UINJTJ	US Guided injection	263
+XR Sacroiliac Joint Both	XR Sacroiliac Joint Both	263
+XR Pathological Specimen	XR Pathological Specimen	262
+UGRNR	US Groin Rt	262
+UKNEL	US Knee Lt	262
+INSULI	Insulin Profile	262
+OED	Serum Oestradiol	261
+186920	Umbilical swab	260
+XWRIB	XR Wrist Both	260
+MANKR	MRI Ankle Rt	260
+MIXTR	MIXED TREE IgE Ab	259
+HFE	HFE gene studies	259
+IGF1B	IGF-1 MRI	258
+186945	CAPD fluid	258
+UREA	UREA	258
+CT Mastoid Both	CT Mastoid Both	257
+601620	Galactomannan Sero	257
+MRI Spine lumbar	MRI Spine lumbar	257
+ALPS	FLUID LIPASE	256
+ARAH2	rAra h 2 (serum)	256
+XFIRL	XR Finger Ring Lt	255
+FABDO	Fluoroscopy abdomen	255
+MRI Renal with contrast Both	MRI Renal with contrast Both	255
+NMREN	NM Renogram	254
+FCM	Not tested	254
+Orthopaedic pinning hip Lt	Orthopaedic pinning hip Lt	254
+CT Ankle Rt	CT Ankle Rt	254
+Mobile image intensifier upper limb Lt	Mobile image intensifier upper limb Lt	253
+PT	PT	253
+1TEST	Testosterone.....	253
+CRTPOR	CT Radiotherapy planning scan prostate	252
+CT Ankle Lt	CT Ankle Lt	251
+INB	Inn baby gp/DAT	251
+INFABS	Inflectra antibodies (serum)	251
+ULVMB	US Doppler vein map lower limb Both	251
+F9	Factor IX	250
+ANCA	ANCA (serum)	250
+6612	CMV Immunity screen	249
+Lactate	Lactate	249
+XR Dental bitewing Left	XR Dental bitewing Left	249
+Virology(2)	Virology(2)	248
+XFIIR	XR Finger Index Rt	248
+US Guided fine needle aspiration	US Guided fine needle aspiration	248
+Tunnelled central venous line insertion	Tunnelled central venous line insertion	248
+XDPD	DPD-5FU req	248
+FIT	FIT	248
+F11	Factor XI	247
+EP	Electrophoresis	247
+MABDO	MRI Abdomen	247
+CPELV	CT Pelvis	245
+Bioplex CTD Screen	Bioplex CTD Screen	245
+DSYCO	SYNACTHEN STIMULATION	245
+US Thorax and Pleural Cavity	US Thorax and Pleural Cavity	245
+XR Skeletal survey	XR Skeletal survey	244
+NC	Virology MisMatch	244
+1LIP	Lipase...........	243
+NAK	NA K	243
+MRI Liver with hepatobiliary contrast	MRI Liver with hepatobiliary contrast	242
+ASPARTATE TRANSAMINASE	ASPARTATE TRANSAMINASE	241
+TT	Thrombin Time.	241
+UFOOR	US Foot Rt	240
+Androgens(in female)	Androgens(in female)	240
+PLFL	Pleural Fluid	240
+HAG	Hepatitis A IgG	240
+INEPXG	Nephrostomy catheter exchange	239
+Orthopaedic pinning hip Rt	Orthopaedic pinning hip Rt	238
+Fluoroscopy upper limb Lt	Fluoroscopy upper limb Lt	238
+CHSYNC	Synacthen test CORT ONLY	238
+UDRAID	US Guided drainage	237
+HIV	HIV tests	237
+OSMU	Osmolality (Urine)	237
+CT Hip Rt	CT Hip Rt	237
+XR Dental bitewing Right	XR Dental bitewing Right	236
+UGRNL	US Groin Lt	235
+IPF	Immature platelet fraction	235
+MANKL	MRI Ankle Lt	234
+NT ProBNP	NT ProBNP	234
+CRYOG	Cryoglobulin (serum)	234
+ZEFOBR3	BRONCH WITH BAL	234
+XFIRR	XR Finger Ring Rt	234
+Routine Faeces	Routine Faeces	234
+UMAMRI	US Guided marker insertion breast Rt	233
+CKITB	CT Kidney triple phase Both	233
+FLSPNM	Mobile image intensifier lumbar spine	233
+HAM	Hepatitis A IgM	233
+ANCAX	Neut Cytoplasmic Abs	232
+CT Hip Lt	CT Hip Lt	232
+CAER2	Caeruloplasmin CMFT	232
+UFOOL	US Foot Lt	231
+UAXILB	US Guided core biopsy axilla Lt	231
+XCEP	XR Cephalogram	231
+UAXIRB	US Guided core biopsy axilla Rt	230
+ARAH8	rAra h 8 (serum)	230
+UMAMLI	US Guided marker insertion breast Lt	229
+XFIIL	XR Finger Index Lt	229
+MRI Wrist Rt	MRI Wrist Rt	228
+GAMMA-GLUTAMYLTRANSPEPTIDASE	GAMMA-GLUTAMYLTRANSPEPTIDASE	227
+THCG1	Total HCG	227
+PROSTATE SPECIFIC ANTIGEN	PROSTATE SPECIFIC ANTIGEN	226
+ITRA	Itraconazole	226
+CSWT	Children's Sweat Test	226
+6203	8 LEFT CHEST	226
+Fluoroscopy lumbar spine	Fluoroscopy lumbar spine	225
+IXM	INNOVA XM	225
+XMACLB	XR Mammo guided core biopsy breast Lt	225
+US Guided Amniocentesis	US Guided Amniocentesis	225
+XFBD	XR Foreign body demonstration	224
+WALNT	WALNUT IgE Ab	223
+Triple Test	Triple Test	223
+FPROL	Free monomeric prolactin	223
+Mobile image intensifier upper limb Rt	Mobile image intensifier upper limb Rt	222
+Prolactin	Prolactin	222
+IMMU	Serum Immunofixation	222
+PIIINP	Type III Procollagen N Peptide	221
+US Guided aspiration thyroid	US Guided aspiration thyroid	221
+F7	Factor VII	221
+COVID Antibody staff	COVID Antibody staff	221
+6162	19 lower rgt arm fnt	220
+186766	GRX1 - Genital Swab	220
+US Foot Lt	US Foot Lt	219
+UAXIB	US Axilla Both	219
+Heparin Control	Heparin Control	218
+XDPF	XR Dental periapical full	217
+ZEFOBR4	AUTOFLUORESCENCE BRONCH	216
+BCR	BCR-ABL	216
+CT Cone beam maxilla	CT Cone beam maxilla	216
+CLSPN	CT Spine lumbar	216
+TRICOP	Trichophyton IgE	215
+Ureteric stent retrograde Lt	Ureteric stent retrograde Lt	214
+CHIPR	CT Hip Rt	214
+MAAOT	MRA Aorta Thoracic	214
+KL	Kleihauer	214
+ARAH1	rAra h 1 (serum)	213
+UHIPR	US Hip Rt	213
+ARAH3	rAra h 3 (serum)	212
+SAWAY	Sent to another lab	211
+XR AP pelvis for hip surveillance	XR AP pelvis for hip surveillance	211
+Intravascular ultrasound	Intravascular ultrasound	210
+Free Light Chains.	Free Light Chains.	210
+ZNSEB1	NM Bile study day 1 (SeHCAT)	210
+CT Spine thoracic	CT Spine thoracic	209
+CAOWHC	CT Aorta whole with contrast	209
+UWRIR	US Wrist Rt	209
+601850	Trichomonas Vaginali	208
+1E2	Oestradiol	208
+2FLC	Free light chains	208
+MAICA	MRA Head	207
+ZNSEB7	NM Bile study day 7 (SeHCAT)	207
+187410	BC - Hickman Line	207
+CFACE	CT Facial bones	206
+ARAH9	rAra h 9 (serum)	206
+USGPA	US Salivary Glands parotid	206
+1IRON	Iron studies	205
+INFLEC	Inflectra (serum)	205
+IGET	IgE (total)	204
+CRTMAR	CT Radiotherapy planning scan breast	204
+US Obstetric Dating Scan Viability	US Obstetric Dating Scan Viability	204
+US Foot Rt	US Foot Rt	204
+TBCM	TB CULTURE	204
+RELEC2	urine Na/K-mmol/l	203
+CRE	Creatinine	203
+LACSA	Lactate	202
+UCCCR	Ur Calcium:creat clear ratio	202
+UDIAR	US Doppler iliac and femoral artery Rt	201
+PBNP	BNP	201
+CGLU	CSF Glucose	200
+CT Guided biopsy lung	CT Guided biopsy lung	200
+FIT	Faecal Immuno Test	200
+DBIL	Direct Bilirubin	199
+XDPA	XR Dental periapical 5	199
+XMACRB	XR Mammo guided core biopsy breast Rt	198
+6174	26 left hand dorsum	198
+Fluoroscopy upper limb Rt	Fluoroscopy upper limb Rt	197
+600075	PD Fluid	197
+UCRAN	US Cranial contents	197
+US Doppler uterine artery Both	US Doppler uterine artery Both	196
+601710	Mycoplasma Serology	196
+MRI Liver and Spleen	MRI Liver and Spleen	196
+Nephrostomy Rt	Nephrostomy Rt	195
+A1AT1	Alpha-1-antitrypsin	195
+Serum Ferritin Assay	Serum Ferritin Assay	195
+RF	Rheum Factor	194
+UDIAL	US Doppler iliac and femoral artery Lt	194
+XFANKR	XR Foot and ankle Right	194
+UVOL	URINE VOLUME	193
+CD34P	CD34 Profile	193
+MYO	Myositis screen	192
+MPITF	MRI Pituitary	192
+PT5	Prothrombin Time Pat/Norm	192
+XR Dental mandibular occlusal	XR Dental mandibular occlusal	192
+US Guided Biopsy Liver	US Guided Biopsy Liver	192
+UHIPL	US Hip Lt	191
+CCL	CREATININE CLEARANCE	191
+HAPTO	Haptoglobin	190
+UKNELJ	US Guided injection knee Lt	190
+UHIPRJ	US Guided injection hip Rt	190
+UKNERJ	US Guided injection knee Rt	190
+Gastrostomy Insertion	Gastrostomy Insertion	189
+6212	Cough Swab	189
+FK506/Tacrolimus	FK506/Tacrolimus	189
+CALCUL	CALCULUS:	188
+ASFL	Ascitic Fluid	188
+2TNI	Troponin I	188
+US Doppler vein map upper limb Both	US Doppler vein map upper limb Both	187
+USMLI	US Small bowel	187
+Gastric/liver autoab	Gastric/liver autoab	187
+FSHP	Follicle Stim Hormone (Paed)	187
+LHP	Luteinising Hormone (Paeds)	186
+Operative cholangiogram	Operative cholangiogram	186
+UWRIL	US Wrist Lt	186
+TTGI	tTG IgG Antibody (serum)	186
+MRI Cerebrospinal fluid flow	MRI Cerebrospinal fluid flow	185
+CAR	Anti Cardiolipin	184
+CRTPER	CT Radiotherapy planning scan pelvis	184
+CRTCHR	CT Radiotherapy planning scan thorax	184
+CKIDBC	CT Renal with contrast Both	184
+XR Sacrum	XR Sacrum	183
+6172	24 right hand dorsum	182
+186900	Left Nasal swab	182
+APH	Pleural fluid pH	182
+MRI Wrist Lt	MRI Wrist Lt	182
+187660	Aspergillus PCR	181
+UAORT	US Abdominal Aorta	181
+UANKL	US Ankle Lt	180
+XMMAL	XR Mammogram magnification view Lt	180
+MRSA	Not tested	180
+LPA	Lipoprotein (a)	179
+600010	Burn Swab - Other	179
+CSHRR	CT Shoulder Rt	179
+Fluoroscopic guided injection hip Rt	Fluoroscopic guided injection hip Rt	179
+XR Colonic Transit Study	XR Colonic Transit Study	179
+PTH	PTH	179
+SEND	SEND-AWAY	179
+XR Skeletal Survey post mortem	XR Skeletal Survey post mortem	178
+CSFPRO	CSF Protein	178
+CT Adrenal with contrast Both	CT Adrenal with contrast Both	177
+CT Kidney triple phase Both	CT Kidney triple phase Both	177
+CPANSC	CT Pancreas with contrast	177
+MFOOR	MRI Foot Rt	177
+Salicylate	Salicylate	177
+Urine protein/creatine ratio	Urine protein/creatine ratio	176
+1THG	TG+Thyro autoabs	176
+CT Knee Lt	CT Knee Lt	176
+CHIGTT	Child GTT with insulin	176
+CENTB	Centromere (serum)	176
+AQUA	Aquaporin 4 (serum)	176
+6194	40 lft foot dorsum	175
+CPTRS	CT Petrous bones	175
+LYMPHD	Lymphoma panel	175
+601690	MERS Coronavirus PCR	175
+XR Wrist Both	XR Wrist Both	175
+XR Ankle Both	XR Ankle Both	175
+RPCR	Respiratory PCR Panel	174
+MTLSP	MRI Spine thoracolumbar	174
+601730	Needlestick recipien	173
+REF	Itraconazole	173
+ACUTE	Acute leukaemia panel	173
+187430	AFB - Urine Sample	173
+CHIPL	CT Hip Lt	172
+HFEG	HFE genotyping	172
+1OSMS	Serum Osmolality....	172
+Ureteric stent retrograde Rt	Ureteric stent retrograde Rt	172
+UCACR	URINE CALCIUM / CREAT.	171
+Water soluble contrast swallow	Water soluble contrast swallow	171
+MRI Spine thoracolumbar	MRI Spine thoracolumbar	171
+Fibrinogen (Clauss)	Fibrinogen (Clauss)	171
+FDP/D-DIMER	FDP/D-DIMER	171
+CANKR	CT Ankle Rt	170
+MFOOL	MRI Foot Lt	170
+MRV Venogram	MRV Venogram	170
+6660	HSV total antibody	170
+ID	Issue anti-D.	170
+VITS	Vit A,E & ratio	170
+XNEST	XR Neck Soft Tissue	169
+MRI Orbit with contrast Both	MRI Orbit with contrast Both	169
+PFA	PFA 100	169
+CT Foot Lt	CT Foot Lt	168
+DETECT	Detected:	168
+XSTRM	XR Sternum	168
+US Spine	US Spine	168
+XFANKL	XR Foot and ankle Left	167
+TM	Tobramycin	167
+CR	CREATININE	167
+6191	38 right foot dorsum	167
+IDP	Issue D proph	167
+6656	Hepatitis E Screen	166
+Free T3	Free T3	166
+6187	34 lower rgt lg frt	166
+FLP	fluid Lipase	166
+ABIL	FLUID BILIRUBIN	165
+187809	Anti-Delta	165
+MAR	CELL MARKERS	165
+MRI Hip Both	MRI Hip Both	165
+NGFR3	NM GFR Estimation (3 samples)	165
+UULVR	US Doppler upper limb veins Rt	165
+CT Foot Rt	CT Foot Rt	164
+CT Abdomen with contrast	CT Abdomen with contrast	163
+Angioplasty superficial femoral Lt	Angioplasty superficial femoral Lt	163
+NCAC	NM CT attenuation correction	163
+XMMAR	XR Mammogram magnification view Rt	163
+US Knee Rt	US Knee Rt	162
+Paracetamol	Paracetamol	162
+INR	I.N.R.	162
+AT3F	Anti-Thrombin Functn	162
+6189	36 lower lft lg frnt	162
+EFOBR	Bronchoscopy	162
+IVEPOI	Fluoro Guid Insert venous access port	161
+CHGNRH	GnRH Stimulation test	161
+US Obstetric 3rd trimester	US Obstetric 3rd trimester	161
+XSIJB	XR Sacroiliac Joint Both	161
+TFT (monitoring Rx)	TFT (monitoring Rx)	161
+SPC	Sputum Sample for M,C&S	161
+US Knee Lt	US Knee Lt	160
+UULVL	US Doppler upper limb veins Lt	160
+ZNSENTR	NM SENTINAL NODE LOCATION RT	160
+MWRIL	MRI Wrist Lt	160
+MCTSP	MRI Spine cervicothoracic	160
+SACMV	Cytomegalovirus	160
+EENDU	Endoscopic US	160
+CNECHC	CT Neck and thorax with contrast	160
+CSHRL	CT Shoulder Lt	160
+CAOTHC	CT Aorta thoracic with contrast	159
+INFL	Infliximab-not Inflectra(serum	159
+XR Lumbar Spine and sacroiliac Joint	XR Lumbar Spine and sacroiliac Joint	159
+CULT	Wound Deep, Choc + SAB	159
+UFCOR	uFree Cortisol	159
+UPHO	URINE PHOSPHATE	158
+UHIPLJ	US Guided injection hip Lt	158
+6169	21 Lower lft arm fnt	158
+AMMO	Ammonia	158
+Creatinine (enz)	Creatinine (enz)	157
+CT Renal Both	CT Renal Both	157
+CT Knee Rt	CT Knee Rt	157
+EMIF8	Emicizumab profile	157
+US Vein Mapping	US Vein Mapping	157
+XR Dental periapical 10+	XR Dental periapical 10+	157
+FCM	F1 Routine enteric sample	156
+IFANA	Immunofluorescent ANA(serum)	156
+MRI Fetus	MRI Fetus	156
+IMMFIX	ImmFix (serum)	155
+MRI Femur Lt	MRI Femur Lt	155
+ADEQ1	DIALYSATE ADEQUACY DIALYSATE	155
+FLSPN	Fluoroscopy lumbar spine	155
+XR Shoulder Both	XR Shoulder Both	155
+GRASS	Timothy grass (serum)	155
+RENIN	Renin (concentration)	155
+FPRCT	Proctogram	154
+THY	Thyroglobulin profile	154
+UHANR	US Hand Rt	154
+CKIDB	CT Renal Both	154
+HGH	GROWTH HORMONE	154
+Nm Radionuclide SeHCAT bile study	Nm Radionuclide SeHCAT bile study	154
+MABPA	MRI Pancreas	153
+Fluoroscopy lower limb Lt	Fluoroscopy lower limb Lt	153
+US Arterial	US Arterial	153
+Cardiac pressure wire and Cath insertion	Cardiac pressure wire and Cath insertion	152
+LUPIN	Lupus Inhibitor	152
+MRI Abdomen	MRI Abdomen	151
+CANKL	CT Ankle Lt	151
+UANKR	US Ankle Rt	151
+2VANC	Vancomycin	151
+AALB	FLUID ALBUMIN	150
+RASTN	Allergy Testing	149
+Nephrostomy Lt	Nephrostomy Lt	149
+MSPNWC	MRI Spine whole with contrast	148
+CTX	beta-CTX	148
+US Obstetric fetal growth	US Obstetric fetal growth	148
+UTHIL	US Thigh Lt	148
+US Doppler upper limb arteries Lt	US Doppler upper limb arteries Lt	148
+RUUE	Random Urine Elecs	148
+FCM	Routine Faeces (Diff screen)	147
+F8CH	VIII (Chrom)	147
+XR Mammogram compression view Rt	XR Mammogram compression view Rt	147
+CT Wrist Rt	CT Wrist Rt	147
+CT Cone beam	CT Cone beam	147
+COVID Antibody (pt)	COVID Antibody (pt)	147
+1CK	CPK	147
+Arthrogram shoulder Rt	Arthrogram shoulder Rt	146
+1RHCG	HCG Rapid test	146
+US Thigh Rt	US Thigh Rt	146
+SNT	Sample not tested	145
+6662	HTLV screen	145
+NCLAC	NM CT Atten Correct & localisation	145
+NM Solid gastric emptying study	NM Solid gastric emptying study	145
+187853	Not tested	145
+NMDA	NMDA rec.abs (serum)	145
+6168	20 lower rgt arm bk	145
+CACDB	CT Angio aortic arch and carotid Both	145
+Fluoroscopy lower limb Rt	Fluoroscopy lower limb Rt	144
+Fluoroscopy hip Rt	Fluoroscopy hip Rt	144
+BILA	Bile Acids	144
+MRI Femur Rt	MRI Femur Rt	143
+XR Mammogram compression view Lt	XR Mammogram compression view Lt	143
+US Hip Lt	US Hip Lt	142
+186895	Right nasal swab	142
+NM Parathyroid MIBI	NM Parathyroid MIBI	142
+186975	Coil	142
+CT Shoulder Rt	CT Shoulder Rt	142
+SAEBV	Epstein-Barr Virus	141
+RAST	RAST (Allergy Tests)	141
+UPG	Pregnancy Test	141
+US Hip Rt	US Hip Rt	140
+CT Hip Both	CT Hip Both	140
+CHNTPC	CT Head neck thorax Abdo and pelvis Cont	140
+CAICN	CT Angiogram intracranial	140
+Cortisol	Cortisol	139
+1AH	AFP HCG	139
+GFR estimate by MDRD	GFR estimate by MDRD	139
+MRI Arthrogram Shoulder Rt	MRI Arthrogram Shoulder Rt	139
+UGBLD	US Gallbladder	139
+Water soluble contrast enema	Water soluble contrast enema	139
+UTHIR	US Thigh Rt	138
+MBL	MannoseBindingLectin	138
+6156	15 upper rgt arm fnt	138
+6159	17 upper lft arm fnt	138
+GUTH	Cord Blood Analysis (Guthrie)	137
+US Thigh Lt	US Thigh Lt	137
+US Obstetric Chorionic Villus Sampling	US Obstetric Chorionic Villus Sampling	137
+RUE2	Random Ur.Urea+Elecs	137
+VALM	Valproate (mg/L)	136
+CTSPN	CT Spine thoracic	136
+CT Wrist Lt	CT Wrist Lt	136
+ISAC	ISAC allergy test	136
+GADAB	Glutamic Acid Abs	135
+NCHEQ	NM Lung Perfusion Scan Q	135
+AGLU	FLUID GLUCOSE	135
+XAN	CSF Xanthochromia	135
+UHANL	US Hand Lt	135
+US Doppler upper limb arteries Rt	US Doppler upper limb arteries Rt	135
+SAVED	Serum Save	135
+Serum free light chains	Serum free light chains	134
+Testosterone(IA)	Testosterone(IA)	134
+Fluoroscopic joint injection	Fluoroscopic joint injection	134
+NDMSA	NM Renal DMSA	134
+RPCR2	Novel Cornoavirus Infinity	134
+601695	Novel Cornoavirus Genetics	133
+Micturating cystourethrogram	Micturating cystourethrogram	133
+Fluoroscopic guided injection hip Lt	Fluoroscopic guided injection hip Lt	133
+RPCR2	2019 Novel Corona Virus	133
+CGAS	Childrens Blood Gas	133
+UXORTL	Extracorporeal Lithotripsy Orthopaedic	132
+XR Forefoot Rt	XR Forefoot Rt	132
+Bone mineral densitometry peripheral	Bone mineral densitometry peripheral	131
+Angio lower limbs Left	Angio lower limbs Left	131
+GTT0	GTT Basal Sample	130
+IMST	IM Screening Test	130
+MWRIR	MRI Wrist Rt	130
+FHIPRM	Mobile image intensifier hip Rt	129
+BHB	Betahydroxybutyrate	129
+VALP	Valproate	129
+PROCALCITONIN	PROCALCITONIN	129
+XR Forefoot Lt	XR Forefoot Lt	128
+US Obstetric (Doppler Study)	US Obstetric (Doppler Study)	128
+VGKCAB	Anti VGKC Antibodies (serum)	128
+VITD3	25-hydroxy vitamin D3	128
+F12	Factor XII	128
+CABDO	CT Abdomen	128
+INSC	Inhibitor Screen	128
+INFLAB	Infliximab Abs not Inflectra	127
+NM Thyroid scan With Uptake (Tc)	NM Thyroid scan With Uptake (Tc)	127
+CT Shoulder Lt	CT Shoulder Lt	127
+Anti CCP Antibodies	Anti CCP Antibodies	127
+6206	9 RIGHT ABDOMEN	126
+ZUMAGL	US Guided Magseed Insertion Left	126
+AHTN	Urine Anti-Hypertensive Screen	125
+APOB	Apolipoprotein B	125
+SPC	Broncoaveolar lavage	125
+BM	Bone Marrow	125
+PB	PHENOBARBITONE	125
+MRI Whole body	MRI Whole body	125
+Angioplasty superficial femoral Rt	Angioplasty superficial femoral Rt	124
+SATOR	TORCH SCREEN	124
+Retrograde ureteropyelogram Lt	Retrograde ureteropyelogram Lt	124
+US Guided core needle biopsy	US Guided core needle biopsy	124
+USGSM	US Salivary Glands submandibular	124
+XR Tibia/Fibula (Lower Leg) Lt	XR Tibia/Fibula (Lower Leg) Lt	124
+FREC	URINE CORTISOL PROFILE	123
+APXBN	Apixaban levels	123
+Calcium	Calcium	123
+CT Whole spine	CT Whole spine	123
+NM Bone Dynamic	NM Bone Dynamic	123
+FHIPLM	Mobile image intensifier hip Lt	123
+NM Blood Pool Scan	NM Blood Pool Scan	122
+MRI Pituitary with contrast	MRI Pituitary with contrast	122
+MRI Renal Both	MRI Renal Both	122
+CRTSKR	CT Radiotherapy planning scan head	122
+FLUID	All Fluids	122
+CVEIC	CT Venogram Intracranial	121
+Fluoroscopy hip Lt	Fluoroscopy hip Lt	121
+JAK2	JAK2 studies	121
+US Hand Rt	US Hand Rt	121
+1OSMU	Urine Osmolality....	120
+MARK	Cell Markers	120
+IPACEI	Cardiac permanent pacemaker insertion	119
+Angio lower limbs Right	Angio lower limbs Right	119
+MMAMB	MRI Breast Both	119
+US Ankle Rt	US Ankle Rt	119
+DEX	Serum Dexamethasone	119
+XR Orbit Both	XR Orbit Both	119
+Retrograde ureteropyelogram Rt	Retrograde ureteropyelogram Rt	118
+Pre Dialysis Screen	Pre Dialysis Screen	118
+MRI Breast with contrast Both	MRI Breast with contrast Both	118
+MRA Renal and Visceral	MRA Renal and Visceral	118
+Anti-Mullerian Horm.	Anti-Mullerian Horm.	118
+ alpha-Fetoprotein	 alpha-Fetoprotein	118
+CWRIR	CT Wrist Rt	118
+CCABD	CT Thorax and abdomen	117
+1CGA	Chromogranin A	117
+MRI Pancreas with contrast	MRI Pancreas with contrast	117
+PARVM	Parvovirus IgM	117
+PLGF	PreEclampsia markers	117
+TRP	Tubular reabsorp. phosphate	117
+THI	Thiamine	117
+CULT	W6 Superficial Skin (+Sab)	116
+US Hand Lt	US Hand Lt	116
+US Guided marker insertion breast Rt	US Guided marker insertion breast Rt	116
+UAMNI	US Guided Amniocentesis	116
+MRI Lower leg Lt	MRI Lower leg Lt	116
+APO-E	Apo E genotype	116
+CKNEL	CT Knee Lt	116
+CB2	Conjugated Bilirubin	116
+REN	COMPLETE URINE PROFILE	115
+CKNER	CT Knee Rt	115
+Anti Factor Xa	Anti Factor Xa	115
+Bone, LFT	Bone, LFT	115
+MVICV	MRV Cranial	115
+PARVG	Parvovirus IgG	115
+Triglycerides	Triglycerides	115
+UCOT	Urine COTININE	115
+UNECKN	US Guided Aspiration Neck	114
+CHIPB	CT Hip Both	114
+CWRIL	CT Wrist Lt	113
+Percutaneous transhepatic cholangiogram	Percutaneous transhepatic cholangiogram	113
+Mycology	Mycology	113
+LACTATE DEHYDROGENASE	LACTATE DEHYDROGENASE	113
+UCHES	US Thorax and Pleural Cavity	113
+tTG IgA Antibody (serum)	tTG IgA Antibody (serum)	113
+US Wrist Rt	US Wrist Rt	112
+UELBR	US Elbow Rt	112
+MALLB	MRA Lower Limb Both	112
+MISC	Misc.Invest.	112
+FCYSM	Fluoroscopic cystometrogram	112
+CRITH	Crithidia (serum)	111
+GTT120	GTT 2Hr Post Gluc	111
+TEICO	TEICOPLANIN	111
+1PROL	Prolactin	110
+ZUMAGR	US Guided Magseed insertion Right	110
+CBA	Collagen Binding Assay	110
+Arthrogram shoulder Lt	Arthrogram shoulder Lt	110
+FIT	FIT Test GP	109
+MRI Lower leg Rt	MRI Lower leg Rt	109
+US Lower leg Rt	US Lower leg Rt	109
+XPEHL	XR Pelvis and hip left	109
+187770	Toxoplasma serology	109
+SESME	Sesame Seed (serum)	108
+UFNA	US Guided fine needle aspiration	108
+UDTAB	US Doppler temporal artery Both	108
+MRI Perineum	MRI Perineum	108
+K	Potassium	108
+2GENT	Gentamicin	108
+1IGFA	IGF-1	108
+COMM	Comment	108
+CRTSPR	CT Radiotherapy planning scan spine	107
+OB	Occult Blood	107
+XPEHR	XR Pelvis and hip right	107
+US Guided marker insertion breast Lt	US Guided marker insertion breast Lt	106
+PRED	Serum Prednisolone	106
+601930	HHV6/7 PCR	106
+MRI Arthrogram Shoulder Lt	MRI Arthrogram Shoulder Lt	106
+CADRB	CT Adrenal Both	106
+AntiNuclear Ab (serum)	AntiNuclear Ab (serum)	106
+C1INH	C1 Inhibitor (serum)	106
+CALRG	CALR investigation	106
+Barium meal	Barium meal	105
+LEG	Legionella Results	105
+MRI Multiparametric prostate	MRI Multiparametric prostate	105
+MRI Thorax	MRI Thorax	105
+ur Protein/Cre ratio	ur Protein/Cre ratio	105
+UFNECN	US Guided FNA biopsy neck	105
+XR Acromioclavicular Joint Rt	XR Acromioclavicular Joint Rt	105
+SAVZ	Varicella-Zoster	104
+Urgents MCandS	Urgents MCandS	104
+NM GFR Estimation 3 and late sample	NM GFR Estimation 3 and late sample	104
+6120	Peritoneal Fluid	104
+MIXMO	MIXED MOULD IgE Ab	104
+C_SICL	FOQ FBC SICL	104
+CT Angiogram renal and abdominal	CT Angiogram renal and abdominal	104
+CT Aorta abdominal with contrast	CT Aorta abdominal with contrast	103
+Aspart. Transaminase	Aspart. Transaminase	103
+CHARG	Arginine Stimulation Test	103
+Osmolality (serum)	Osmolality (serum)	103
+MPROSC	MRI Prostate with contrast	103
+XR Tibia/Fibula (Lower Leg) Rt	XR Tibia/Fibula (Lower Leg) Rt	103
+XWSPN	XR Whole spine	102
+UELBL	US Elbow Lt	102
+1SHIA	Serum 5HIAA	102
+HbOpathy Screen	HbOpathy Screen	102
+MPROL	Macro Prolactin	102
+ZABPAR	Abdominal Paracentesis	102
+MIXDST	Dust Mix (serum)	102
+CA153	CA15-3	101
+MRI Temporomandibular Joint Both	MRI Temporomandibular Joint Both	101
+186780	Urethral swab	101
+US Hand Both	US Hand Both	101
+XTHUB	XR Thumb Both	100
+TP	TOTAL PROTEIN	100
+MYOENA	Myositis ENA	100
+SANSI	Needle Stick Injury	100
+NMSTT	NM MPS Tf stress	100
+Angioplasty infrapopliteal Lt	Angioplasty infrapopliteal Lt	100
+ANCA.	ANCA.	100
+CT Mandible	CT Mandible	100

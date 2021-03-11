@@ -1,0 +1,11 @@
+-- Order_Notes table only contains 13 records
+select count(*) from RLS.vw_Order_Notes;
+
+-- Observation_Request_Notes doesn't contain anything of interest
+-- There are 0 records where the two fields of interest are not null
+SELECT COUNT(*)  FROM [RLS].[vw_Observation_Request_Notes]
+WHERE InvestigationComments is not null or SpecimenComments is not null;
+
+-- Similarly for Observation_Result_Notes
+SELECT count(*) FROM [RLS].[vw_Observation_Result_Notes]
+where ResultNotes is not null;

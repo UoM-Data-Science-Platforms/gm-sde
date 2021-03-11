@@ -1,0 +1,109 @@
+-- an attempt to see how many codes are not mapped to a terminology
+
+IF OBJECT_ID('tempdb..#EVENTCODES') IS NOT NULL DROP TABLE #EVENTCODES;
+SELECT distinct [SuppliedCode] into #EVENTCODES
+FROM [RLS].[vw_GP_Events];
+
+--SELECT COUNT(*) FROM #EVENTCODES
+--439862 unique codes
+
+-- Then find all those that are in the LocalCodes table and therefore EMIS codes
+IF OBJECT_ID('tempdb..#EMISCODES') IS NOT NULL DROP TABLE #EMISCODES;
+SELECT SuppliedCode AS EMIS_Code into #EMISCODES FROM #EVENTCODES
+WHERE SuppliedCode IN (SELECT LocalCode FROM [SharedCare].Reference_Local_Code);
+--SELECT COUNT(*) FROM #EMISCODES
+--14297  codes
+
+-- Remove the EMIS codes from the #MEDCODES table
+DELETE FROM #EVENTCODES WHERE SuppliedCode IN (SELECT EMIS_Code FROM #EMISCODES);
+
+-- Find all the Readv2 codes
+IF OBJECT_ID('tempdb..#READv2CODES') IS NOT NULL DROP TABLE #READv2CODES;
+SELECT SuppliedCode AS Readv2_Code into #READv2CODES FROM #EVENTCODES
+WHERE SuppliedCode IN (SELECT MainCode FROM [SharedCare].Reference_Coding WHERE CodingType = 'ReadCodeV2');
+--SELECT COUNT(*) FROM #READv2CODES
+--74475  codes
+
+-- Find all the CTV3 codes
+IF OBJECT_ID('tempdb..#CTV3CODES') IS NOT NULL DROP TABLE #CTV3CODES;
+SELECT SuppliedCode AS CTV3_Code into #CTV3CODES FROM #EVENTCODES
+WHERE SuppliedCode IN (SELECT MainCode FROM [SharedCare].Reference_Coding WHERE CodingType = 'CTV3');
+--SELECT COUNT(*) FROM #CTV3CODES
+--102006  codes
+
+-- Find all the ICD10 codes
+IF OBJECT_ID('tempdb..#ICD10CODES') IS NOT NULL DROP TABLE #ICD10CODES;
+SELECT SuppliedCode AS ICD10_Code into #ICD10CODES FROM #EVENTCODES
+WHERE SuppliedCode IN (SELECT MainCode FROM [SharedCare].Reference_Coding WHERE CodingType = 'I10');
+--SELECT COUNT(*) FROM #CTV3CODES
+--250  codes
+
+-- Find all the OPCS4 codes
+IF OBJECT_ID('tempdb..#OPCS4CODES') IS NOT NULL DROP TABLE #OPCS4CODES;
+SELECT SuppliedCode AS OPCS4_Code into #OPCS4CODES FROM #EVENTCODES
+WHERE SuppliedCode IN (SELECT MainCode FROM [SharedCare].Reference_Coding WHERE CodingType = 'OPCS4');
+--SELECT COUNT(*) FROM #CTV3CODES
+--0  codes
+
+-- Remove the Readv2 and CTV3 codes from the #MEDCODES table
+DELETE FROM #EVENTCODES WHERE SuppliedCode IN (SELECT Readv2_Code FROM #READv2CODES);
+DELETE FROM #EVENTCODES WHERE SuppliedCode IN (SELECT CTV3_Code FROM #CTV3CODES);
+DELETE FROM #EVENTCODES WHERE SuppliedCode IN (SELECT ICD10_Code FROM #ICD10CODES);
+
+-- Find all the SNOMED codes
+IF OBJECT_ID('tempdb..#SNOMEDCODES') IS NOT NULL DROP TABLE #SNOMEDCODES;
+SELECT SuppliedCode AS SNOMED_Code into #SNOMEDCODES FROM #EVENTCODES
+WHERE SuppliedCode IN (SELECT ConceptID FROM [SharedCare].Reference_SnomedCT);
+--SELECT COUNT(*) FROM #CTV3CODES
+--5492  codes
+
+DELETE FROM #EVENTCODES WHERE SuppliedCode IN (SELECT SNOMED_Code FROM #SNOMEDCODES);
+
+select top 1000 SuppliedCode from RLS.vw_GP_Events where SuppliedCode in (select SuppliedCode from #EVENTCODES)
+and SuppliedCode not in ('@GNRC','PHONE')
+
+select count(*) from RLS.vw_GP_Events
+where EventDate >= '2020-01-13' and EventDate <= '2020-01-14';
+-- 1535603
+
+-- No matching
+select count(*) from RLS.vw_GP_Events
+where EventDate >= '2020-01-13' and EventDate <= '2020-01-14'
+and SuppliedCode in (select SuppliedCode from #EVENTCODES)
+-- 110137
+
+-- No matching
+select count(*) from RLS.vw_GP_Events
+where EventDate >= '2020-01-13' and EventDate <= '2020-01-14'
+and SuppliedCode in (select SuppliedCode from #EVENTCODES)
+and FK_Reference_Coding_ID = -1
+and FK_Reference_SnomedCT_ID = -1
+-- 102153
+
+-- EMIS
+select count(*) from RLS.vw_GP_Events
+where EventDate >= '2020-01-13' and EventDate <= '2020-01-14'
+and SuppliedCode in (SELECT EMIS_Code FROM #EMISCODES);
+--43114
+
+-- Read v2
+select count(*) from RLS.vw_GP_Events
+where EventDate >= '2020-01-13' and EventDate <= '2020-01-14'
+and SuppliedCode in (SELECT Readv2_Code FROM #READv2CODES);
+-- 1347613
+
+-- CTV3
+select count(*) from RLS.vw_GP_Events
+where EventDate >= '2020-01-13' and EventDate <= '2020-01-14'
+and SuppliedCode in (SELECT CTV3_Code FROM #CTV3CODES);
+-- 826525
+
+-- SNOMED
+select count(*) from RLS.vw_GP_Events
+where EventDate >= '2020-01-13' and EventDate <= '2020-01-14'
+and SuppliedCode in (SELECT SNOMED_Code FROM #SNOMEDCODES);
+-- 45
+
+-- vaccines??
+--COCO138186NEMIS
+--TASO138184NEMIS
