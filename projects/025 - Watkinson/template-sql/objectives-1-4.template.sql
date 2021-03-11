@@ -60,7 +60,7 @@ SELECT * FROM #Temp;
 
 -- Get patients with high covid vulnerability flag and date of first entry
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS HighVulnerabilityCodeDate INTO #HighVulnerabilityPatients FROM [RLS].[vw_GP_Events]
-WHERE SuppliedCode IN (SELECT [code] FROM #AllCodes WHERE [concept] = 'high-clinical-vulnerability' AND [version] = 1)
+WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 'high-clinical-vulnerability' AND [Version] = 1)
 GROUP BY FK_Patient_Link_ID;
 
 -- Get first COVID admission rather than all admissions
@@ -72,7 +72,7 @@ GROUP BY p.FK_Patient_Link_ID;
 
 -- Get patient list of those with COVID death within 28 days of positive test
 IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
-SELECT FK_Patient_Link_ID INTO #COVIDDeath FROM RLS.vw_COVID19
+SELECT DISTINCT FK_Patient_Link_ID INTO #COVIDDeath FROM RLS.vw_COVID19
 WHERE DeathWithin28Days = 'Y';
 
 -- Bring it all together for output
