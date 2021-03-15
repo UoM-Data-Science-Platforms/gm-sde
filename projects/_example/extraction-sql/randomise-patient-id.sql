@@ -10,6 +10,8 @@
 --  - PK_Patient_Link_ID - Original PatientID
 --  - Random_Patient_ID - A random, unique identifier for the patient
 
+SET NOCOUNT ON
+
 IF OBJECT_ID('tempdb..#patients') IS NOT NULL DROP TABLE #patients;
 SELECT PK_Patient_Link_ID
 INTO #PATIENTS
@@ -23,5 +25,5 @@ FROM #PATIENTS
 ORDER BY NEWID()
 
 -- FINAL OUTPUT STATEMENT
-
+PRINT 'PATIENT_LINK_ID, RANDOM_PATIENT_ID'
 select * from #random_patient_ids order by newid()
