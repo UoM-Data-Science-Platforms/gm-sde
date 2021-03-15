@@ -91,3 +91,7 @@ Attempted to find the location of information related to project no.1 (Grant), i
 03/03/21
 - investigating microbiology and culture data
 
+12/03/21
+- writing some example code for lab test ResultNotes which we don't have access to. Will ask Graphnet to run this, to extract useful terms.
+- writing code to randomise PatientIDs for each individual study
+
