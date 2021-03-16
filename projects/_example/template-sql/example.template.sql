@@ -9,6 +9,8 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
+--> EXECUTE query-get-random-patient-id.sql
+
 --> EXECUTE load-code-sets.sql
 
 SELECT FK_Patient_Link_ID, MIN(EventDate) FROM [RLS].[vw_GP_Events]
