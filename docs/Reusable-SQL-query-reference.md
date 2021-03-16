@@ -68,6 +68,25 @@ A temp table as follows:
 _File_: `query-primary-care-covid-utilisation.sql`
 
 ---
+## COVID vaccinations
+To obtain a table with first and second vaccine doses per patient.
+
+_Input_
+```
+No pre-requisites
+```
+
+_Output_
+```
+A temp table as follows:
+ #COVIDVaccinations (FK_Patient_Link_ID, VaccineDate, DaysSinceFirstVaccine)
+ 	- FK_Patient_Link_ID - unique patient id
+	- VaccineDate - date of vaccine (YYYY-MM-DD)
+	- DaysSinceFirstVaccine - 0 if first vaccine, > 0 otherwise
+```
+_File_: `query-get-covid-vaccines.sql`
+
+---
 ## COVID-related secondary admissions
 To classify every admission to secondary care based on whether it is a COVID or non-COVID related. A COVID-related admission is classed as an admission within 4 weeks after, or up to 2 weeks before a positive test.
 
@@ -142,7 +161,8 @@ No pre-requisites
 
 _Output_
 ```
-Four temp tables as follows:
+Five temp tables as follows:
+  #AllCodes (Concept, Version, Code)
   #CodeSets (Concept, FK_Coding_ID)
   #SnomedSets (Concept, FK_SNOMED_ID)
   #VersionedCodeSets (Concept, Version, FK_Coding_ID)

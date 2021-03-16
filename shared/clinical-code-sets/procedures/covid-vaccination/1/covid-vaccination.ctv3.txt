@@ -1,1 +1,3 @@
 Y210d	2019-nCoV (novel coronavirus) vaccination
+Y29e7	Administration of first dose of SARS-CoV-2 vaccine
+Y29e8	Administration of second dose of SARS-CoV-2 vaccine

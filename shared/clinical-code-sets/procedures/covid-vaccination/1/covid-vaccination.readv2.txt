@@ -1,1 +1,3 @@
-65F0.	2019-nCoV (novel coronavirus) vaccination 1222
+65F0.	2019-nCoV (novel coronavirus) vaccination
+65F0100	Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine
+65F0200	2019-nCoV (novel coronavirus) vaccination
