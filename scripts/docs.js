@@ -23,12 +23,13 @@ function generateReusableQueryDocs() {
     if (!properties.NAME) {
       console.error(`${query} does not have a short name/description.`);
       console.log(`The file should start with a short name/description like this:
-  --┌───────────────────────────┐
-  --│ Short name or description │
-  --└───────────────────────────┘
+
+--┌───────────────────────────┐
+--│ Short name or description │
+--└───────────────────────────┘
       `);
       console.log('Aborting...');
-      process.exit(1);
+      process.exit(0);
     }
     if (!properties.OBJECTIVE) {
       console.error(`${query} does not have an OBJECTVIVE. This is required.`);

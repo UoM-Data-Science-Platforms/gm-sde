@@ -24,7 +24,7 @@ queries.forEach((query) => {
 --└───────────────────────────┘
     `);
     console.log('Aborting...');
-    process.exit(1);
+    process.exit(0);
   }
   if (!properties.OBJECTIVE) {
     console.error(`${query} does not have an OBJECTVIVE. This is required.`);

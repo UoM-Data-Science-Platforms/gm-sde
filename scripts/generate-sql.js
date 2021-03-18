@@ -47,7 +47,7 @@ function warnIfNoTemplatesFound(project, templates) {
     console.error(`There are no template files in ${project}.`);
     console.log('There should be at least one file with a name ending: .template.sql.');
     console.log('E.g. "secondary-utilisation-file.template.sql');
-    process.exit(1);
+    process.exit(0);
   }
 }
 
