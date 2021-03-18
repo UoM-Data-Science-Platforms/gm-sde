@@ -70,7 +70,7 @@ FROM #FinalAdmissions
 --32352
 
 -- Bring it all together for output
-PRINT 'Date,AcuteProvider,IMD2019Decile1IsMostDeprived10IsLeastDeprived,LTCGroup,CovidHealthcareUtilisation,NumberMaternityAdmissions,NumberPlannedAdmissions,NumberTransferAdmissions,NumberUnknownAdmissions,NumberUnplannedAdmissions,NumberDischarged';
+-- PRINT 'Date,AcuteProvider,IMD2019Decile1IsMostDeprived10IsLeastDeprived,LTCGroup,CovidHealthcareUtilisation,NumberMaternityAdmissions,NumberPlannedAdmissions,NumberTransferAdmissions,NumberUnknownAdmissions,NumberUnplannedAdmissions,NumberDischarged';
 SELECT 
 	cc.[Date], cc.AcuteProvider, cc.IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
 	cc.LTCGroup, cc.CovidHealthcareUtilisation,

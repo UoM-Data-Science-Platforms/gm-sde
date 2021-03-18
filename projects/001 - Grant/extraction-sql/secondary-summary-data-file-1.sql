@@ -552,10 +552,10 @@ HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1Is
 IF OBJECT_ID('tempdb..#FinalCohort') IS NOT NULL DROP TABLE #FinalCohort;
 SELECT DISTINCT FK_Patient_Link_ID, AcuteProvider INTO #FinalCohort FROM #AdmissionTypes;
 
-PRINT 'AcuteProvider,IMD2019Decile1IsMostDeprived10IsLeastDeprived,LTCGroup,Number';
+-- PRINT 'AcuteProvider,IMD2019Decile1IsMostDeprived10IsLeastDeprived,LTCGroup,Number';
 SELECT 
 	p.AcuteProvider, ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
-	ISNULL(LTCGroup, 'None') AS LTCGroup, count(*)
+	ISNULL(LTCGroup, 'None') AS LTCGroup, count(*) AS Number
 FROM #FinalCohort p
 	LEFT OUTER JOIN #LTCGroups ltc ON ltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 	LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID

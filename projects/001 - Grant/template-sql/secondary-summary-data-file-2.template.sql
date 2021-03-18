@@ -23,10 +23,10 @@ SELECT DISTINCT FK_Patient_Link_ID INTO #Patients FROM #AdmissionTypes;
 IF OBJECT_ID('tempdb..#FinalCohort') IS NOT NULL DROP TABLE #FinalCohort;
 SELECT DISTINCT FK_Patient_Link_ID, AcuteProvider INTO #FinalCohort FROM #AdmissionTypes;
 
-PRINT 'AcuteProvider,IMD2019Decile1IsMostDeprived10IsLeastDeprived,NumberOfLTCs,Number';
+--PRINT 'AcuteProvider,IMD2019Decile1IsMostDeprived10IsLeastDeprived,NumberOfLTCs,Number';
 SELECT 
 	p.AcuteProvider, ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
-	ISNULL(NumberOfLTCs,0) AS NumberOfLTCs, count(*)
+	ISNULL(NumberOfLTCs,0) AS NumberOfLTCs, count(*) AS Number
 FROM #FinalCohort p
 	LEFT OUTER JOIN #NumLTCs ltc ON ltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 	LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
