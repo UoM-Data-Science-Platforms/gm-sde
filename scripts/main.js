@@ -22,6 +22,6 @@ process.kill = () => {
 
 start()
   .then(() => console.log('Goodbye!'))
-  .catch((err)=> {
+  .catch((err) => {
     error(err.message);
   });

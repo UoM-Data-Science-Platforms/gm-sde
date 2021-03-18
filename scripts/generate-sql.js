@@ -6,12 +6,12 @@ const TEMPLATE_SQL_DIR = 'template-sql';
 const REUSABLE_DIRECTORY = join(__dirname, '..', 'shared', 'Reusable queries for data extraction');
 
 const stitch = (projectDirectory) => {
-  console.log(`Finding templates in ${join(projectDirectory,TEMPLATE_SQL_DIR)}...`);
+  console.log(`Finding templates in ${join(projectDirectory, TEMPLATE_SQL_DIR)}...`);
   const templates = findTemplates(projectDirectory);
 
   // Warning if no templates found
   warnIfNoTemplatesFound(projectDirectory, templates);
-  
+
   console.log(`
 The following template files were found:
 
@@ -24,9 +24,12 @@ Stitching them together...
   generateSql(projectDirectory, templates);
 
   console.log(`
-Unless there were errors, you should find your extraction SQL files in ${join(projectDirectory, EXTRACTION_SQL_DIR)}.
+Unless there were errors, you should find your extraction SQL files in ${join(
+    projectDirectory,
+    EXTRACTION_SQL_DIR
+  )}.
 `);
-}
+};
 
 //
 // FUNCTIONS
@@ -34,13 +37,13 @@ Unless there were errors, you should find your extraction SQL files in ${join(pr
 
 function findTemplates(project) {
   return readdirSync(join(project, TEMPLATE_SQL_DIR), { withFileTypes: true }) // read all children of this directory
-    .filter(item => item.isFile()) // ..then filter to just files under the project directory
-    .map(file => file.name) // ..then return the file name
-    .filter(filename => filename.toLowerCase().match(/\.template\.sql$/));// Filename must end ".template.sql"
+    .filter((item) => item.isFile()) // ..then filter to just files under the project directory
+    .map((file) => file.name) // ..then return the file name
+    .filter((filename) => filename.toLowerCase().match(/\.template\.sql$/)); // Filename must end ".template.sql"
 }
 
 function warnIfNoTemplatesFound(project, templates) {
-  if(templates.length === 0) {
+  if (templates.length === 0) {
     console.error(`There are no template files in ${project}.`);
     console.log('There should be at least one file with a name ending: .template.sql.');
     console.log('E.g. "secondary-utilisation-file.template.sql');
@@ -53,7 +56,7 @@ function generateSql(project, templates) {
   templates.forEach((templateName) => {
     const filename = join(project, TEMPLATE_SQL_DIR, templateName);
     const sql = processFile(filename);
-    const outputName = templateName.replace(".template", "");
+    const outputName = templateName.replace('.template', '');
 
     writeFileSync(join(OUTPUT_DIRECTORY, outputName), sql);
   });
@@ -63,7 +66,7 @@ function processFile(filename) {
   const sqlLines = readFileSync(filename, 'utf8').split('\n');
   const generatedSql = sqlLines
     .map((line) => {
-      if(line.trim().match(/^--> EXECUTE.+\.sql/)) {
+      if (line.trim().match(/^--> EXECUTE.+\.sql/)) {
         const sqlFileToInsert = line.trim().split(' ').slice(-1)[0];
         const sqlToInsert = processFile(join(REUSABLE_DIRECTORY, sqlFileToInsert));
         return sqlToInsert;

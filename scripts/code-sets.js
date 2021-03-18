@@ -29,7 +29,7 @@ Please fill out the code sets in:
 
 ${VERSION_DIR}
 `);
-}
+};
 
 /**
  * Method to validate and evaulate the existing clinical code sets.
@@ -42,7 +42,9 @@ const evaulateCodeSets = () => {
   const codeSetTypes = getClinicalCodeSetTypes();
 
   log(`
-There are ${codeSetTypes.length} code set types. They are: ${codeSetTypes.map(x => chalk.bgWhite.black(x)).join(' ')}.`);
+There are ${codeSetTypes.length} code set types. They are: ${codeSetTypes
+    .map((x) => chalk.bgWhite.black(x))
+    .join(' ')}.`);
 
   codeSetTypes.forEach((codeSetType) => {
     const codeSets = getClinicalCodeSets(codeSetType);
@@ -51,31 +53,38 @@ There are ${codeSetTypes.length} code set types. They are: ${codeSetTypes.map(x 
       versions.forEach((version) => {
         checkForUnexpectedFiles(codeSetType, codeSetName, version);
         processFiles(codeSetType, codeSetName, version);
-      })
-    })
+      });
+    });
   });
 
-  const longestConceptLength = Object.keys(clinicalCodesByConcept).sort((a,b) => b.length - a.length)[0].length;
+  const longestConceptLength = Object.keys(clinicalCodesByConcept).sort(
+    (a, b) => b.length - a.length
+  )[0].length;
   const spacing = '                                                    ';
   function spaceIt(concept) {
-    return (spacing + concept).substr((spacing + concept).length - longestConceptLength, longestConceptLength);
+    return (spacing + concept).substr(
+      (spacing + concept).length - longestConceptLength,
+      longestConceptLength
+    );
   }
 
   log(`
 The code sets found are as follows:
 
-${Object
-    .keys(clinicalCodesByConcept)
-    .map(concept => `  ${chalk.cyan(spaceIt(concept))}: ${Object.keys(clinicalCodesByConcept[concept])
-      .map((x) => {
-        if(x==='emis') return chalk.bgRed.bold(x);
-        if(x==='readv2') return chalk.bgGreen.bold(x);
-        if(x==='ctv3') return chalk.bgYellow.black(x);
-        if(x==='snomed') return chalk.bgWhite.black(x);
-        return x;
-      })
-      .join(' ')}`)
-    .join('\n')}
+${Object.keys(clinicalCodesByConcept)
+  .map(
+    (concept) =>
+      `  ${chalk.cyan(spaceIt(concept))}: ${Object.keys(clinicalCodesByConcept[concept])
+        .map((x) => {
+          if (x === 'emis') return chalk.bgRed.bold(x);
+          if (x === 'readv2') return chalk.bgGreen.bold(x);
+          if (x === 'ctv3') return chalk.bgYellow.black(x);
+          if (x === 'snomed') return chalk.bgWhite.black(x);
+          return x;
+        })
+        .join(' ')}`
+  )
+  .join('\n')}
 
 The code sets look ok. 
 If there were any major issues you wouldn't see this message.
@@ -89,7 +98,7 @@ If there are minor issues they will appear above this message.
 const createCodeSetSQL = () => {
   setSilence(true);
   evaulateCodeSets();
-  
+
   setSilence(false);
 
   log(`
@@ -123,7 +132,11 @@ CREATE TABLE #AllCodes (
   [Code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL
 );
 
-${['readv2', 'ctv3', 'snomed', 'emis'].map((terminology) => `IF OBJECT_ID('tempdb..#codes${terminology}') IS NOT NULL DROP TABLE #codes${terminology};
+${['readv2', 'ctv3', 'snomed', 'emis']
+  .map(
+    (
+      terminology
+    ) => `IF OBJECT_ID('tempdb..#codes${terminology}') IS NOT NULL DROP TABLE #codes${terminology};
 CREATE TABLE #codes${terminology} (
   [concept] [varchar](255) NOT NULL,
   [version] INT NOT NULL,
@@ -131,38 +144,46 @@ CREATE TABLE #codes${terminology} (
 	[description] [varchar](255) NULL
 ) ON [PRIMARY];
 
-${Object
-  .keys(clinicalCodesByTerminology[terminology])
-  .map((concept) => Object.keys(clinicalCodesByTerminology[terminology][concept])
-      .map((version) => clinicalCodesByTerminology[terminology][concept][version]
-        .map(item => `('${concept}',${version},'${item.code}','${item.description}')`))
+${Object.keys(clinicalCodesByTerminology[terminology])
+  .map((concept) =>
+    Object.keys(clinicalCodesByTerminology[terminology][concept])
+      .map((version) =>
+        clinicalCodesByTerminology[terminology][concept][version].map(
+          (item) => `('${concept}',${version},'${item.code}','${item.description}')`
+        )
+      )
       .flat()
-      .reduce((soFar, nextValue) => {
-        if(soFar.itemCount === 999) {
-          // SQL only allows 1000 items to be inserted after each INSERT INTO statememt
-          // so need to start again
-          soFar.sql = `${soFar.sql.slice(0, -1)};\nINSERT INTO #codes${terminology}\nVALUES `;
-          soFar.lineLength = 7;
-          soFar.itemCount = 0;
-        }
-        if(soFar.lineLength > 9900) {
-          // the sql management studio doesn't style lines much longer than this
-          soFar.sql += `\n${nextValue},`
-          soFar.lineLength = nextValue.length + 1;
-        } else {
-          soFar.sql += `${nextValue},`
-          soFar.lineLength += nextValue.length + 1;
-        }
-        soFar.itemCount += 1;
-        return soFar;
-      },
-        {sql:`INSERT INTO #codes${terminology}\nVALUES `, itemCount: 0, lineLength: 7}
-      ).sql.slice(0, -1)
-  ).join(';\n')}
+      .reduce(
+        (soFar, nextValue) => {
+          if (soFar.itemCount === 999) {
+            // SQL only allows 1000 items to be inserted after each INSERT INTO statememt
+            // so need to start again
+            soFar.sql = `${soFar.sql.slice(0, -1)};\nINSERT INTO #codes${terminology}\nVALUES `;
+            soFar.lineLength = 7;
+            soFar.itemCount = 0;
+          }
+          if (soFar.lineLength > 9900) {
+            // the sql management studio doesn't style lines much longer than this
+            soFar.sql += `\n${nextValue},`;
+            soFar.lineLength = nextValue.length + 1;
+          } else {
+            soFar.sql += `${nextValue},`;
+            soFar.lineLength += nextValue.length + 1;
+          }
+          soFar.itemCount += 1;
+          return soFar;
+        },
+        { sql: `INSERT INTO #codes${terminology}\nVALUES `, itemCount: 0, lineLength: 7 }
+      )
+      .sql.slice(0, -1)
+  )
+  .join(';\n')}
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code] from #codes${terminology};
-`).join('\n')}
+`
+  )
+  .join('\n')}
 
 IF OBJECT_ID('tempdb..#TempRefCodes') IS NOT NULL DROP TABLE #TempRefCodes;
 CREATE TABLE #TempRefCodes (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, version INT NOT NULL);
@@ -242,67 +263,85 @@ INNER JOIN (
   GROUP BY concept)
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 `;
-  const filename = join(__dirname, '..', 'shared', 'Reusable queries for data extraction', 'load-code-sets.sql');
+  const filename = join(
+    __dirname,
+    '..',
+    'shared',
+    'Reusable queries for data extraction',
+    'load-code-sets.sql'
+  );
   writeFileSync(filename, SQL);
 
   log(`
 Unless there were errors, the code set SQL file has been written to:
 ${filename}
 `);
-}
+};
 
 function processFiles(codeSetType, codeSetName, version) {
   const CODE_SET_DIR = join(CODE_SET_PARENT_DIR, codeSetType, codeSetName, version);
 
   // Find the files
   const codeSetFiles = readdirSync(CODE_SET_DIR, { withFileTypes: true }) // read all children of the CODE_SET_DIR
-    .filter(item => item.isFile()) // ..then filter to just files
-    .map(file => file.name) // ..then return the file name
-    .filter(filename => isValidCodeSetFile(filename)); // ..then return the valid code set files
+    .filter((item) => item.isFile()) // ..then filter to just files
+    .map((file) => file.name) // ..then return the file name
+    .filter((filename) => isValidCodeSetFile(filename)); // ..then return the valid code set files
 
   codeSetFiles.forEach((codeSetFile) => {
     const codeSetData = readFileSync(join(CODE_SET_DIR, codeSetFile), 'utf8');
     const [, terminology] = codeSetFile.split('.');
     const codeSet = parseCodeSet(codeSetData, codeSetName, codeSetFile, terminology);
-    if(clinicalCodesByTerminology[terminology][codeSetName] && clinicalCodesByTerminology[terminology][codeSetName][version]) {
+    if (
+      clinicalCodesByTerminology[terminology][codeSetName] &&
+      clinicalCodesByTerminology[terminology][codeSetName][version]
+    ) {
       throw new Error(`
 Attempting to add a code set ${codeSetName} from the file ${codeSetFile}.
 However there appears to already by a code set for ${codeSetName} and ${terminology} with version ${version}.
-      `)
+      `);
     }
-    if(!clinicalCodesByTerminology[terminology][codeSetName]) {
-      clinicalCodesByTerminology[terminology][codeSetName] = {}
+    if (!clinicalCodesByTerminology[terminology][codeSetName]) {
+      clinicalCodesByTerminology[terminology][codeSetName] = {};
     }
     clinicalCodesByTerminology[terminology][codeSetName][version] = codeSet;
-    if(!clinicalCodesByConcept[codeSetName]) {
+    if (!clinicalCodesByConcept[codeSetName]) {
       clinicalCodesByConcept[codeSetName] = {};
     }
-    if(clinicalCodesByConcept[codeSetName][terminology] && clinicalCodesByConcept[codeSetName][terminology][version]) {
+    if (
+      clinicalCodesByConcept[codeSetName][terminology] &&
+      clinicalCodesByConcept[codeSetName][terminology][version]
+    ) {
       throw new Error(`
 Attempting to add a code set ${codeSetName} from the file ${codeSetFile}.
 However there appears to already by a code set for ${codeSetName} and ${terminology} with version ${version}.
-      `)
+      `);
     }
-    if(!clinicalCodesByConcept[codeSetName][terminology]) {
-      clinicalCodesByConcept[codeSetName][terminology] = {}
+    if (!clinicalCodesByConcept[codeSetName][terminology]) {
+      clinicalCodesByConcept[codeSetName][terminology] = {};
     }
     clinicalCodesByConcept[codeSetName][terminology][version] = codeSet;
-  })
+  });
 }
 
 function parseCodeSet(codeSetData, name, codeSetFile, terminology) {
-  if(codeSetData.toLowerCase().indexOf(name.split('-').join(' ')) < 0) {
-    warn(`The code set ${chalk.white.bold(codeSetFile)} does not appear to have any descriptions that match "${chalk.white(name.split('-').join(' '))}".`);
+  if (codeSetData.toLowerCase().indexOf(name.split('-').join(' ')) < 0) {
+    warn(
+      `The code set ${chalk.white.bold(
+        codeSetFile
+      )} does not appear to have any descriptions that match "${chalk.white(
+        name.split('-').join(' ')
+      )}".`
+    );
   }
 
   const rows = codeSetData
-    .replace(/\r/g,'') // Get rid of windows carriage returns
+    .replace(/\r/g, '') // Get rid of windows carriage returns
     .split('\n') // ..then split into rows
-    .map(x => x.trim()) // ..then trim blank space from each line
-    .filter(x => x.length > 0); // ..then get rid of empty lines
-  
+    .map((x) => x.trim()) // ..then trim blank space from each line
+    .filter((x) => x.length > 0); // ..then get rid of empty lines
+
   rows.forEach((row, i) => {
-    if(!isValidDataRow(row)) {
+    if (!isValidDataRow(row)) {
       throw new Error(`
 The data rows in the code sets should contain 2 tab separated values: the code and the description.
 
@@ -311,28 +350,28 @@ Row ${i} in ${codeSetFile} in ${name} is not of this format.
 The broken row is:
 
 ${row}
-      `)
+      `);
     }
   });
 
-  if(rows.length===0) {
+  if (rows.length === 0) {
     throw new Error(`
 The code set ${codeSetFile} in ${name} appears to be empty.
-    `)
+    `);
   }
 
   const codes = [];
 
   rows.forEach((row) => {
     const [code, description] = row.split('\t');
-    codes.push({code, description: description.replace(/'/g,"")});
-    if(terminology === 'readv2') {
-      if(code.length === 5) {
+    codes.push({ code, description: description.replace(/'/g, '') });
+    if (terminology === 'readv2') {
+      if (code.length === 5) {
         // add '00' term code as well
-        codes.push({code: `${code}00`, description: description.replace(/'/g,"")});
-      } else if(code.length === 7) {
+        codes.push({ code: `${code}00`, description: description.replace(/'/g, '') });
+      } else if (code.length === 7) {
         // add 5 byte term as well
-        codes.push({code: code.substr(0,5), description: description.replace(/'/g,"")});
+        codes.push({ code: code.substr(0, 5), description: description.replace(/'/g, '') });
       }
     }
   });
@@ -350,21 +389,27 @@ function checkForUnexpectedFiles(codeSetType, codeSetName, version) {
   const CODE_SET_DIR = join(CODE_SET_PARENT_DIR, codeSetType, codeSetName, version);
   // Should only be files in the code set directory
   const folders = readdirSync(CODE_SET_DIR, { withFileTypes: true }) // read all children of the CODE_SET_DIR
-    .filter(item => item.isDirectory()) // ..then filter to just folders
-    .map(dir => dir.name) // ..then return the folder name
+    .filter((item) => item.isDirectory()) // ..then filter to just folders
+    .map((dir) => dir.name); // ..then return the folder name
 
-  if(folders && folders.length > 0) {
-    throw new Error(`There should only be files in the ${CODE_SET_DIR} directory. However there appear to be the following directories: ${folders.join(', ')}.`);
+  if (folders && folders.length > 0) {
+    throw new Error(
+      `There should only be files in the ${CODE_SET_DIR} directory. However there appear to be the following directories: ${folders.join(
+        ', '
+      )}.`
+    );
   }
   // Find the files
   const codeSetFiles = readdirSync(CODE_SET_DIR, { withFileTypes: true }) // read all children of the CODE_SET_DIR
-    .filter(item => item.isFile()) // ..then filter to just files
-    .map(file => file.name); // ..then return the file name
-  
-  // Find any that don't conform to the naming convention
-  const invalidNames = codeSetFiles.filter((codeSetFile) => !isValidCodeSetFile(codeSetFile) && !isValidCodeSetMetadataFile(codeSetFile));
+    .filter((item) => item.isFile()) // ..then filter to just files
+    .map((file) => file.name); // ..then return the file name
 
-  if(invalidNames.length > 0) {
+  // Find any that don't conform to the naming convention
+  const invalidNames = codeSetFiles.filter(
+    (codeSetFile) => !isValidCodeSetFile(codeSetFile) && !isValidCodeSetMetadataFile(codeSetFile)
+  );
+
+  if (invalidNames.length > 0) {
     throw new Error(`
 The file names in the ${CODE_SET_DIR} directory should either be:
 
@@ -387,22 +432,30 @@ function getCodeSetVersions(codeSetType, codeSetName) {
   const CODE_SET_DIR = join(CODE_SET_PARENT_DIR, codeSetType, codeSetName);
   // Should only be folders in the code set directory
   const files = readdirSync(CODE_SET_DIR, { withFileTypes: true }) // read all children of the CODE_SET_DIR
-    .filter(item => item.isFile()) // ..then filter to just files
-    .map(file => file.name) // ..then return the file name
+    .filter((item) => item.isFile()) // ..then filter to just files
+    .map((file) => file.name); // ..then return the file name
 
-  if(files && files.length > 0) {
-    throw new Error(`There should only be directories in the ${CODE_SET_DIR} directory. However there appear to be the following files: ${files.join(', ')}.`);
+  if (files && files.length > 0) {
+    throw new Error(
+      `There should only be directories in the ${CODE_SET_DIR} directory. However there appear to be the following files: ${files.join(
+        ', '
+      )}.`
+    );
   }
   // Find clinical code sets versions
   const codeSetVersions = readdirSync(CODE_SET_DIR, { withFileTypes: true }) // read all children of the CODE_SET_DIR
-    .filter(item => item.isDirectory()) // ..then filter to just directories
-    .map(dir => dir.name); // ..then return the folder name
-  
+    .filter((item) => item.isDirectory()) // ..then filter to just directories
+    .map((dir) => dir.name); // ..then return the folder name
+
   // Find any that don't conform to the naming convention
   const invalidNames = codeSetVersions.filter((codeSetVersion) => !isValidVersion(codeSetVersion));
 
-  if(invalidNames.length > 0) {
-    throw new Error(`The directory names in the ${CODE_SET_DIR} directory should all be numbers starting at 1. The following directory names do not conform:\n\n${invalidNames.join('\n')}\n\n`);
+  if (invalidNames.length > 0) {
+    throw new Error(
+      `The directory names in the ${CODE_SET_DIR} directory should all be numbers starting at 1. The following directory names do not conform:\n\n${invalidNames.join(
+        '\n'
+      )}\n\n`
+    );
   }
 
   return codeSetVersions;
@@ -416,22 +469,30 @@ function getClinicalCodeSets(codeSetType) {
   const CODE_SET_DIR = join(CODE_SET_PARENT_DIR, codeSetType);
   // Should only be folders in the code set directory
   const files = readdirSync(CODE_SET_DIR, { withFileTypes: true }) // read all children of the CODE_SET_DIR
-    .filter(item => item.isFile()) // ..then filter to just files
-    .map(file => file.name) // ..then return the file name
+    .filter((item) => item.isFile()) // ..then filter to just files
+    .map((file) => file.name); // ..then return the file name
 
-  if(files && files.length > 0) {
-    throw new Error(`There should only be directories in the ${CODE_SET_DIR} directory. However there appear to be the following files: ${files.join(', ')}.`);
+  if (files && files.length > 0) {
+    throw new Error(
+      `There should only be directories in the ${CODE_SET_DIR} directory. However there appear to be the following files: ${files.join(
+        ', '
+      )}.`
+    );
   }
   // Find clinical code sets
   const clinicalCodeSets = readdirSync(CODE_SET_DIR, { withFileTypes: true }) // read all children of the CODE_SET_DIR
-    .filter(item => item.isDirectory()) // ..then filter to just directories
-    .map(dir => dir.name); // ..then return the folder name
-  
+    .filter((item) => item.isDirectory()) // ..then filter to just directories
+    .map((dir) => dir.name); // ..then return the folder name
+
   // Find any that don't conform to the naming convention
   const invalidNames = clinicalCodeSets.filter((codeSet) => !isValidCodeSet(codeSet));
 
-  if(invalidNames.length > 0) {
-    throw new Error(`The directory names in the ${CODE_SET_DIR} directory should be lower case, alphanumeric, with spaces replaced with "-"s. The following directory names do not conform:\n\n${invalidNames.join('\n')}\n\n`);
+  if (invalidNames.length > 0) {
+    throw new Error(
+      `The directory names in the ${CODE_SET_DIR} directory should be lower case, alphanumeric, with spaces replaced with "-"s. The following directory names do not conform:\n\n${invalidNames.join(
+        '\n'
+      )}\n\n`
+    );
   }
 
   return clinicalCodeSets;
@@ -443,37 +504,41 @@ function getClinicalCodeSets(codeSetType) {
 function getClinicalCodeSetTypes() {
   // Should only be folders in the code set directory
   const files = readdirSync(CODE_SET_PARENT_DIR, { withFileTypes: true }) // read all children of the CODE_SET_PARENT_DIR
-    .filter(item => item.isFile()) // ..then filter to just files
-    .map(file => file.name) // ..then return the file name
+    .filter((item) => item.isFile()) // ..then filter to just files
+    .map((file) => file.name); // ..then return the file name
 
-  if(files && files.length > 0) {
-    throw new Error(`There should only be directories in the ${CODE_SET_PARENT_DIR} directory. However there appear to be the following files: ${files.join(', ')}.`);
+  if (files && files.length > 0) {
+    throw new Error(
+      `There should only be directories in the ${CODE_SET_PARENT_DIR} directory. However there appear to be the following files: ${files.join(
+        ', '
+      )}.`
+    );
   }
   // Find type of clinical code sets
   return readdirSync(CODE_SET_PARENT_DIR, { withFileTypes: true }) // read all children of the CODE_SET_PARENT_DIR
-    .filter(item => item.isDirectory()) // ..then filter to just directories
-    .map(dir => dir.name) // ..then return the folder name
+    .filter((item) => item.isDirectory()) // ..then filter to just directories
+    .map((dir) => dir.name); // ..then return the folder name
 }
 
 /**
  * Tests that the version directory is a non-zero padded number
- * @param {sting} version 
+ * @param {sting} version
  */
 function isValidVersion(version) {
-  return version.match(/^[1-9][0-9]*$/)
+  return version.match(/^[1-9][0-9]*$/);
 }
 
 /**
  * Tests that the code set directory is like "atrial-fibrillation" or "type-2-diabetes"
- * @param {sting} codeSet 
+ * @param {sting} codeSet
  */
 function isValidCodeSet(codeSet) {
-  return codeSet.match(/^[a-z][a-z0-9\-]*[a-z0-9]$/)
+  return codeSet.match(/^[a-z][a-z0-9-]*[a-z0-9]$/);
 }
 
 /**
  * Tests that the code set filename is valid
- * @param {sting} version 
+ * @param {sting} version
  */
 function isValidCodeSetFile(codeSet) {
   return codeSet.match(/\.(ctv3|emis|readv2|snomed)\.txt$/);
@@ -481,7 +546,7 @@ function isValidCodeSetFile(codeSet) {
 
 /**
  * Tests that the code set metadata filename is valid
- * @param {sting} codeSet 
+ * @param {sting} codeSet
  */
 function isValidCodeSetMetadataFile(codeSet) {
   return codeSet.match(/\.(ctv3|emis|readv2|snomed)\.metadata\.txt$/) || codeSet === 'README.md';
@@ -489,16 +554,16 @@ function isValidCodeSetMetadataFile(codeSet) {
 
 /**
  * Tests that the code set data row is valid. Two fields tab separated.
- * @param {sting} version 
+ * @param {sting} version
  */
 function isValidDataRow(row) {
   return row.match(/^[^\t]+\t[^\t]+$/);
 }
 
-module.exports = { 
-  evaulateCodeSets, 
-  createCodeSetSQL, 
-  getClinicalCodeSetTypes, 
+module.exports = {
+  evaulateCodeSets,
+  createCodeSetSQL,
+  getClinicalCodeSetTypes,
   getClinicalCodeSets,
   isValidCodeSet,
   createCodeSet,

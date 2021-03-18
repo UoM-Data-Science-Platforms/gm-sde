@@ -1,13 +1,13 @@
-const inquirer =require('inquirer');
+const inquirer = require('inquirer');
 const chalk = require('chalk');
 
-const { 
-    evaulateCodeSets,
-    createCodeSet,
-    createCodeSetSQL,
-    getClinicalCodeSetTypes,
-    getClinicalCodeSets,
-    isValidCodeSet,
+const {
+  evaulateCodeSets,
+  createCodeSet,
+  createCodeSetSQL,
+  getClinicalCodeSetTypes,
+  getClinicalCodeSets,
+  isValidCodeSet,
 } = require('./code-sets');
 const { generateReusableQueryDocs } = require('./docs');
 
@@ -24,23 +24,27 @@ const getCodeSetName = async (codeSets) => {
     {
       type: 'input',
       name: 'codeSetName',
-      message: 'If you still want to add a code set please enter it\s name now',
+      message: 'If you still want to add a code set please enter its name now',
     },
   ]);
 
-  const formattedName = codeSetName.toLowerCase().trim().replace(/ +/g,"-");
-  if(!isValidCodeSet(formattedName)) {
-    console.log(chalk.red.bold('That name is invalid. It must be lower case alphanumeric with spaces substituted with "-"s.'))
+  const formattedName = codeSetName.toLowerCase().trim().replace(/ +/g, '-');
+  if (!isValidCodeSet(formattedName)) {
+    console.log(
+      chalk.red.bold(
+        'That name is invalid. It must be lower case alphanumeric with spaces substituted with "-"s.'
+      )
+    );
     return await getCodeSetName(codeSets);
-  } 
-  if(codeSets.indexOf(formattedName) > -1) {
+  }
+  if (codeSets.indexOf(formattedName) > -1) {
     throw new Error('There is already a code set with that name.');
-  } 
+  }
   return formattedName;
-}
+};
 
 const initCreateCodeSet = async () => {
-  const {type} = await inquirer.prompt([
+  const { type } = await inquirer.prompt([
     {
       type: 'list',
       name: 'type',
@@ -54,13 +58,13 @@ const initCreateCodeSet = async () => {
   console.log(`
 We currently have the following code sets:
 
-${codeSets.map(x => ` ${chalk.cyan.bold(x)}`).join('\n')}
+${codeSets.map((x) => ` ${chalk.cyan.bold(x)}`).join('\n')}
 `);
 
   const codeSetName = await getCodeSetName(codeSets);
 
   createCodeSet(type, codeSetName);
-}
+};
 
 const initialMenu = async () => {
   const answer = await inquirer.prompt([
@@ -71,8 +75,8 @@ const initialMenu = async () => {
       choices: Object.values(choices),
     },
   ]);
-  
-  switch(answer.action) {
+
+  switch (answer.action) {
     case choices.EVALUATE_CODE_SETS:
       await evaulateCodeSets();
       break;
@@ -80,14 +84,14 @@ const initialMenu = async () => {
       await initCreateCodeSet();
       break;
     case choices.CODE_SET_SQL:
-      await createCodeSetSQL()
+      await createCodeSetSQL();
       break;
     case choices.DOCS:
-      await generateReusableQueryDocs()
+      await generateReusableQueryDocs();
       break;
     default:
-      console.log('You seem to have selected something that I wasn\'t expecting');
+      console.log("You seem to have selected something that I wasn't expecting");
   }
-}
+};
 
 module.exports = { initialMenu };
