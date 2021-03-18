@@ -31,6 +31,21 @@ confirmClearOutputDirectory()
   .then(getQueriesToRun)
   .then(getQueryContent)
   .then(executeSql)
+  .then(() => {
+    console.log(
+      chalk.yellowBright(`
+All data files have now been written. You can now copy the contents of the directory:
+
+${OUTPUT_DIR}
+
+to the study shared folder. This will have the form ${chalk.cyanBright(
+        'gmcr-rqxxx-name'
+      )} and be located under ${chalk.cyanBright('This PC')} in ${chalk.cyanBright(
+        'File Explorer'
+      )}.
+		`)
+    );
+  })
   .catch((err) => {
     log('An error occurred.');
     log(err.message);
@@ -71,6 +86,10 @@ function getQueryContent(files) {
 }
 
 function confirmClearOutputDirectory() {
+  if (!existsSync(OUTPUT_DIR)) {
+    createDirectoryStructure();
+    return Promise.resolve();
+  }
   console.log(
     chalk.bold(`This will first empty the output directory:
 
@@ -170,7 +189,7 @@ function saveTokens({ refreshToken, accessToken, expiresOn }) {
 function doQuery({ filename, sql }) {
   log(`Executing ${filename}...`);
   return new Promise((resolve) => {
-    const outputStream = createWriteStream(join(OUTPUT_DIR, `${filename}.txt`));
+    const outputStream = createWriteStream(join(OUTPUT_DIR, 'data', 'raw', `${filename}.txt`));
     const readable = new Stream.Readable({
       read(size) {
         return !!size;
