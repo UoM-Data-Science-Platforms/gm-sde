@@ -1,24 +1,18 @@
-const msRestNodeAuth = require('@azure/ms-rest-nodeauth');
 const { Connection, Request } = require('tedious');
-const inquirer = require('inquirer');
-const {
-  readdirSync,
-  readFileSync,
-  createWriteStream,
-  writeFileSync,
-  existsSync,
-  rmdirSync,
-  mkdirSync,
-} = require('fs');
-const { join } = require('path');
 const Stream = require('stream');
+const fs = require('fs');
+const msRestNodeAuth = require('@azure/ms-rest-nodeauth');
 const chalk = require('chalk');
+const inquirer = require('inquirer');
+const { join } = require('path');
 require('clear')();
 const { version } = require('./package.json');
 
 const EXTRACTION_DIR = join(__dirname, '..', 'extraction-sql');
 const OUTPUT_DIR = join(__dirname, '..', 'output-for-analysts');
-const store = {};
+const PSEUDO_ID_DIR = join(__dirname, '..', 'pseudo-id-data');
+const PSEUDO_ID_FILE = join(PSEUDO_ID_DIR, 'pseudo-ids.txt');
+const store = { pseudoLookup: {} };
 
 // Catch any attempt to kill the process e.g. CTRL-C / CMD-C and exit gracefully
 process.kill = () => {
@@ -30,8 +24,20 @@ process.kill = () => {
 confirmClearOutputDirectory()
   .then(getQueriesToRun)
   .then(getQueryContent)
+  .then(confirmPseudoIdRequired)
+  .then(finalConfirmation)
+  .then(getPatientPseudoIds)
   .then(executeSql)
   .then(() => {
+    if (store.updateLookup) {
+      log('The lookup was changed due to unknown patient ids. Writing new lookup file...');
+      fs.writeFileSync(
+        PSEUDO_ID_FILE,
+        Object.keys(store.pseudoLookup)
+          .map((x) => `${x},${store.pseudoLookup[x]}`)
+          .join('\n')
+      );
+    }
     console.log(
       chalk.yellowBright(`
 All data files have now been written. You can now copy the contents of the directory:
@@ -52,15 +58,8 @@ to the study shared folder. This will have the form ${chalk.cyanBright(
     log(err);
   });
 
-function executeSql(sqlFiles) {
-  console.log(`
-You're about to execute the following files:
-
-${chalk.bold(sqlFiles.map((x) => x.filename).join('\n'))}
-	
-First you need to be authenticated.
-`);
-  return authenticate().then(() => Promise.all(sqlFiles.map(executeSqlFile)));
+function executeSql() {
+  return authenticate().then(() => Promise.all(store.files.map(executeSqlFile)));
 }
 
 function executeSqlFile(sqlFile) {
@@ -72,6 +71,9 @@ function executeSqlFile(sqlFile) {
  * @returns {Promise}
  */
 function authenticate() {
+  if (store.accessToken) return Promise.resolve();
+  console.log(`
+First you need to be authenticated.`);
   return msRestNodeAuth
     .interactiveLoginWithAuthResponse({ tokenAudience: 'https://database.windows.net/' })
     .then(({ credentials }) => credentials.getToken())
@@ -79,14 +81,96 @@ function authenticate() {
 }
 
 function getQueryContent(files) {
-  return files.map((file) => ({
+  store.files = files.map((file) => ({
     filename: file,
-    sql: readFileSync(join(EXTRACTION_DIR, file), 'utf8'),
+    sql: fs.readFileSync(join(EXTRACTION_DIR, file), 'utf8'),
   }));
 }
 
+function finalConfirmation() {
+  console.log(
+    chalk.bold(`
+You are about to execute the following files:
+
+${chalk.greenBright(store.files.map((x) => x.filename).join('\n'))}
+
+and your data ${
+      store.shouldPseudo
+        ? `contains patient ids that will be pseudonymised${
+            store.shouldOverwrite ? '' : ' using the existing pseudonymisation'
+          }.`
+        : 'does not contain patient ids.'
+    }
+`)
+  );
+  return inquirer
+    .prompt([
+      {
+        type: 'confirm',
+        name: 'confirm',
+        message: `Is that right?`,
+        default: false,
+      },
+    ])
+    .then(({ confirm }) => {
+      if (confirm) {
+        return true;
+      }
+      console.log('Ok. Goodbye.');
+      process.exit(0);
+    });
+}
+
+function confirmPseudoIdRequired() {
+  console.log(
+    chalk.bold(
+      `
+All patient ids (Patient_Link_Ids) extracted will be pseudonymised. This takes time, so we won't do it unless your data actually contains patients ids.`
+    )
+  );
+  return inquirer
+    .prompt([
+      {
+        type: 'confirm',
+        name: 'shouldPseudo',
+        message: `Does your data require the patient ids to be pseudonymised?`,
+        default: true,
+      },
+    ])
+    .then(({ shouldPseudo }) => {
+      store.shouldPseudo = shouldPseudo;
+      if (!shouldPseudo) {
+        return;
+      }
+      // So they want to pseudonymise
+      if (!fs.existsSync(PSEUDO_ID_DIR) || !fs.existsSync(PSEUDO_ID_FILE)) {
+        // Nothing exists so just do it
+        if (!fs.existsSync(PSEUDO_ID_DIR)) fs.mkdirSync(PSEUDO_ID_DIR);
+        store.shouldOverwrite = true;
+        return;
+      }
+      console.log(
+        chalk.bold(`
+There is already a mapping between pseudo ids and patient ids for this project.`)
+      );
+      return inquirer
+        .prompt([
+          {
+            type: 'confirm',
+            name: 'shouldReuse',
+            message: `Do you want to reuse this?`,
+            default: false,
+          },
+        ])
+        .then(({ shouldReuse }) => {
+          store.shouldOverwrite = !shouldReuse;
+          return;
+        });
+    });
+}
+
 function confirmClearOutputDirectory() {
-  if (!existsSync(OUTPUT_DIR)) {
+  if (!fs.existsSync(OUTPUT_DIR)) {
     createDirectoryStructure();
     return Promise.resolve();
   }
@@ -120,7 +204,7 @@ ${chalk.green(OUTPUT_DIR)}
  * @returns {Promise}
  */
 function getQueriesToRun() {
-  const files = readdirSync(EXTRACTION_DIR).filter((x) => x.match(/.+\.sql$/));
+  const files = fs.readdirSync(EXTRACTION_DIR).filter((x) => x.match(/.+\.sql$/));
   return runAllOrSome().then((shouldRunAll) => {
     if (shouldRunAll) return files;
     return inquirer
@@ -189,7 +273,7 @@ function saveTokens({ refreshToken, accessToken, expiresOn }) {
 function doQuery({ filename, sql }) {
   log(`Executing ${filename}...`);
   return new Promise((resolve) => {
-    const outputStream = createWriteStream(join(OUTPUT_DIR, 'data', 'raw', `${filename}.txt`));
+    const outputStream = fs.createWriteStream(join(OUTPUT_DIR, 'data', 'raw', `${filename}.txt`));
     const readable = new Stream.Readable({
       read(size) {
         return !!size;
@@ -222,6 +306,7 @@ function doQuery({ filename, sql }) {
 
     connection.connect();
 
+    let patientIdColumns = [];
     function executeStatement() {
       const request = new Request(sql, (err) => {
         if (err) {
@@ -237,16 +322,43 @@ function doQuery({ filename, sql }) {
       // Pipe the rows to the output stream
       request.on('row', (columns) => {
         const row = [];
-        columns.forEach((column) => {
+        let nullPatientIdWarning = false;
+        columns.forEach((column, i) => {
           if (column.value === null) {
             row.push('NULL');
+            if (patientIdColumns.indexOf(i) > -1) {
+              nullPatientIdWarning = true;
+            }
           } else if (column.value.toISOString) {
             row.push(column.value.toISOString().substr(0, 10));
+          } else if (patientIdColumns.indexOf(i) > -1) {
+            if (
+              typeof column.value === 'number' &&
+              (column.value > Number.MAX_SAFE_INTEGER || column.value < Number.MIN_SAFE_INTEGER)
+            ) {
+              logError(`${filename} has a patient id outside the max safe range for JS.`);
+            }
+            if (!store.pseudoLookup[column.value]) {
+              logWarning(
+                `${filename} has a patient id (${column.value}) that isn't in the Patient_Link table.`
+              );
+              logWarning('Adding a new id for this patient to the lookup.');
+              store.highestId += 1;
+              store.pseudoLookup[column.value] = store.highestId;
+              store.updateLookup = true;
+              row.push(store.highestId);
+            } else {
+              row.push(store.pseudoLookup[column.value]);
+            }
           } else {
             row.push(column.value);
           }
         });
         readable.push(row.join(',') + '\n');
+        if (nullPatientIdWarning) {
+          logWarning(`${filename} has a row where a patient id is null. Is that expected?
+          ${row.join(',')}`);
+        }
       });
 
       // Add the header row from the column metadata
@@ -261,11 +373,19 @@ function doQuery({ filename, sql }) {
                   )} column. Please make sure the final SELECT statement has an "AS COLUMN_NAME" for this column.`
                 );
                 return '';
+              } else if (column.colName.match(/.*PatientId$/g)) {
+                patientIdColumns.push(i);
               }
               return column.colName;
             })
             .join(',') + '\n'
         );
+        if (patientIdColumns.length === 0) {
+          logWarning(
+            `${filename} doesn't have any patient id columns. If you have a patient id column 
+but where the name doesn't end with 'PatientId' then the ids will not be pseudonymised.`
+          );
+        }
       });
 
       request.on('doneInProc', (rowCount) => {
@@ -279,15 +399,117 @@ function doQuery({ filename, sql }) {
   });
 }
 
+function getPatientPseudoIds() {
+  if (!store.shouldPseudo) return Promise.resolve();
+  return authenticate().then(
+    () =>
+      new Promise((resolve) => {
+        log(`Querying the database for ${store.shouldOverwrite ? '' : 'any new '}patient ids...`);
+        const patientIds = [];
+
+        const connection = new Connection({
+          server: 'GM-ccbi-live-01.database.windows.net',
+          authentication: {
+            type: 'azure-active-directory-access-token',
+            options: { token: store.accessToken },
+          },
+          options: { encrypt: true, database: 'HDM_Research' },
+        });
+
+        connection.on('connect', (err) => {
+          if (err) {
+            logError(`Connection failed while attempting to generate the pseudo patient ids.`);
+            throw err;
+          }
+
+          executeStatement();
+        });
+
+        connection.connect();
+
+        function executeStatement() {
+          const request = new Request(
+            'SELECT PK_Patient_Link_ID FROM RLS.vw_Patient_Link;',
+            (err) => {
+              if (err) {
+                throw err;
+              }
+              connection.close();
+
+              if (!store.shouldOverwrite) {
+                log('Loading the existing mapping file...');
+                let maxPseudoId = 0;
+                fs.readFileSync(PSEUDO_ID_FILE, 'utf8')
+                  .split('\n')
+                  .forEach((x) => {
+                    if (x.trim().length < 2) return;
+                    const [fkid, pseudoId] = x.split(',');
+                    store.pseudoLookup[fkid.trim()] = +pseudoId.trim();
+                    maxPseudoId = Math.max(maxPseudoId, +pseudoId.trim());
+                  });
+                log(
+                  `There are ${
+                    Object.keys(store.pseudoLookup).length
+                  } patient ids in the mapping file.`
+                );
+                const newPatientIds = patientIds.filter(
+                  (patientId) => !store.pseudoLookup[patientId]
+                );
+                log(`There are ${newPatientIds.length} new patient ids from the database.`);
+                if (newPatientIds.length > 0) {
+                  const newPatientIdRows = randomIdGenerator(maxPseudoId, newPatientIds);
+                  fs.writeFileSync(PSEUDO_ID_FILE, newPatientIdRows.join('\n'), { flag: 'a' });
+                  log(`New patient ids added to the pseudo id lookup file.`);
+                }
+              } else {
+                log(chalk.bold(`${patientIds.length} patient ids retrived.`));
+                const patientIdRows = randomIdGenerator(0, patientIds);
+                fs.writeFileSync(PSEUDO_ID_FILE, patientIdRows.join('\n'));
+                log(`Patient ids written to the pseudo id lookup file.`);
+              }
+              return resolve();
+            }
+          );
+
+          request.setTimeout(0);
+
+          // Pipe the rows to the output stream
+          request.on('row', (columns) => {
+            patientIds.push(columns[0].value);
+          });
+
+          connection.execSql(request);
+        }
+      })
+  );
+}
+
+function randomIdGenerator(start = 0, ids) {
+  log('Randomly assigning ids...');
+  shuffleArray(ids);
+  return ids.map((id, i) => {
+    store.highestId = start + i + 1;
+    store.pseudoLookup[id] = store.highestId;
+    return `${id},${store.highestId}`;
+  });
+}
+
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
 function createDirectoryStructure() {
   console.log(
     chalk.bold(`
 Creating the output directory structure...`)
   );
-  if (existsSync(OUTPUT_DIR)) {
-    rmdirSync(OUTPUT_DIR, { recursive: true });
+  if (fs.existsSync(OUTPUT_DIR)) {
+    fs.rmdirSync(OUTPUT_DIR, { recursive: true });
   }
-  if (existsSync(OUTPUT_DIR)) {
+  if (fs.existsSync(OUTPUT_DIR)) {
     console.log(
       chalk.bold(`
 Failed. This usually means you have a file open from within the output directory:
@@ -298,16 +520,16 @@ Please close any files and try again.`)
     );
     process.exit(0);
   }
-  mkdirSync(OUTPUT_DIR);
-  mkdirSync(join(OUTPUT_DIR, 'code'));
-  mkdirSync(join(OUTPUT_DIR, 'data'));
-  mkdirSync(join(OUTPUT_DIR, 'data', 'raw'));
-  mkdirSync(join(OUTPUT_DIR, 'data', 'processed'));
-  mkdirSync(join(OUTPUT_DIR, 'doc'));
-  mkdirSync(join(OUTPUT_DIR, 'output'));
-  mkdirSync(join(OUTPUT_DIR, 'output', 'approved'));
-  mkdirSync(join(OUTPUT_DIR, 'output', 'check'));
-  mkdirSync(join(OUTPUT_DIR, 'output', 'export'));
+  fs.mkdirSync(OUTPUT_DIR);
+  fs.mkdirSync(join(OUTPUT_DIR, 'code'));
+  fs.mkdirSync(join(OUTPUT_DIR, 'data'));
+  fs.mkdirSync(join(OUTPUT_DIR, 'data', 'raw'));
+  fs.mkdirSync(join(OUTPUT_DIR, 'data', 'processed'));
+  fs.mkdirSync(join(OUTPUT_DIR, 'doc'));
+  fs.mkdirSync(join(OUTPUT_DIR, 'output'));
+  fs.mkdirSync(join(OUTPUT_DIR, 'output', 'approved'));
+  fs.mkdirSync(join(OUTPUT_DIR, 'output', 'check'));
+  fs.mkdirSync(join(OUTPUT_DIR, 'output', 'export'));
   writeReadme();
   console.log(
     chalk.bold(`Done.
@@ -316,7 +538,7 @@ Please close any files and try again.`)
 }
 
 function writeReadme() {
-  writeFileSync(
+  fs.writeFileSync(
     join(OUTPUT_DIR, '_README_FIRST.txt'),
     `* Data from the RDEs will be in the data/raw folder. Do not edit the contents of this folder.
 
