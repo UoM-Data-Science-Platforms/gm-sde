@@ -23,7 +23,7 @@ SNOMED code set created from the following codes and all their descendants:
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
 
-The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filter through to the main Graphnet dictionary. The prevalence range `1.04% - 1.77%` is perhaps too wide suggesting there is an underreporting from TPP practices - or the CTV3 code set differs from the others.
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `1.04% - 1.77%` is perhaps too wide suggesting there is an underreporting from TPP practices - or the CTV3 code set differs from the others.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |

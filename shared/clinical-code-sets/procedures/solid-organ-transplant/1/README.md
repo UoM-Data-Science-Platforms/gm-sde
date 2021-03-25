@@ -6,7 +6,7 @@ Codes indicating a solid organ transplantation has been carried out. SNOMED and 
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
 
-The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filter through to the main Graphnet dictionary. The prevalence range `0.10% - 0.13%` is sufficiently narrow that this code set is likely well defined.
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.10% - 0.13%` is sufficiently narrow that this code set is likely well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
