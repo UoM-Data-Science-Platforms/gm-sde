@@ -141,3 +141,20 @@
 
 2021-03-11 13:30-16:00
 - Code set evaulation
+
+2021-03-12 09:30-12:00
+- Determing patients eligible for flu vaccine for RQ025
+
+2021-03-16 13:30-1700
+- Slight change to summary data for RQ001 Grant
+- Investigate dip in Tameside admissions in July
+
+2021-03-17/18/19
+- Standardizing the data extraction
+- Patient pseudonymisation
+
+2021-03-24
+- Further work finding flu vaccine patients for RQ025
+
+2021-03-25
+- Work on data extraction for RQ025
