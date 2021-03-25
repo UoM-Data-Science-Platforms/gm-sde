@@ -1,0 +1,4 @@
+Y29ed	SARS-CoV-2 vaccination first dose declined
+Y29ec	SARS-CoV-2 vaccination dose declined
+Y29ee	SARS-CoV-2 vaccination second dose declined
+Y211e	SARS-CoV-2 immunisation course declined

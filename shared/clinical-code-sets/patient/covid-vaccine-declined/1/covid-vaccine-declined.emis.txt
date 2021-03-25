@@ -1,0 +1,6 @@
+^ESCT1348329	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination dose declined
+^ESCT1348345	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) immunisation course declined
+^ESCT1348333	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination first dose declined
+^ESCT1348335	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination second dose declined
+^ESCT1301234	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination declined
+^ESCT1299086	2019-nCoV (novel coronavirus) Vaccination declined

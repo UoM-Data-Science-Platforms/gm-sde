@@ -1,0 +1,4 @@
+1324721000000108	Severe acute respiratory syndrome coronavirus 2 vaccination dose declined (situation)
+1324811000000107	Severe acute respiratory syndrome coronavirus 2 immunisation course declined (situation)
+1324741000000101	Severe acute respiratory syndrome coronavirus 2 vaccination first dose declined (situation)
+1324751000000103	Severe acute respiratory syndrome coronavirus 2 vaccination second dose declined (situation)

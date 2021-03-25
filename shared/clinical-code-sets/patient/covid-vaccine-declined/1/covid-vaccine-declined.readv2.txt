@@ -1,0 +1,4 @@
+8IAI.00	2019-nCoV (novel coronavirus) vaccination declined
+8IAI100	SARS-CoV-2 immun course declin
+8IAI200	SARS-CoV-2 vac first dose declined
+8IAI300	SARS-CoV-2 vac second dose dec
