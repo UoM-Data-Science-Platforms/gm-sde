@@ -1,0 +1,181 @@
+68NV.	Influenza vacc consent given
+F034G	Post influenza vaccination encephalitis
+n4n..	HIB - Haemophilus influenzae Type B vaccine
+n4n4.	Haemophilus influenzae Type B 10micrograms vaccine 0.5mL
+n4n5.	Haemophilus influenzae Type b vaccine injection (pdr)+diluent+syringe
+n4p..	Haemophilus influenzae Type b (Hib)/diphtheria/tetanus/pertussis vaccine
+n4p2.	Haemophilus influenzae Type b (Hib)/diphtheria/tetanus/pertussis vaccine vial+prefilled syringe
+n4p4.	Haemophilus influenzae Type b (Hib)/diphtheria/tetanus/pertussis vaccine prefilled syringe
+n4pz.	Haemophilus influenzae Type b (Hib)/diphtheria/tetanus/pertussis vaccine vial
+x006a	Inactivated Influenza surface antigen sub-unit vaccine
+x006Z	Inactivated Influenza split virion vaccine
+x00Ry	Haemophilus influenzae Type b vaccine injection (pdr for recon)+diluent
+x00Yd	Fluvirin vaccine prefilled syringe
+x00Ye	Fluzone vaccine prefilled syringe
+x00Yi	Inactivated Influenza (split virion) vaccine prefilled syringe
+x00Yj	Inactivated Influenza (surface antigen sub-unit ) vaccine prefilled syringe
+x00Yk	Influvac Sub-unit vaccine prefilled syringe
+x01LF	Influvac Sub-unit injection
+x0453	Influvac Sub-unit
+x05yO	Inactivated Influenza surface antigen virosome vaccine prefilled syringe
+x05yP	Inactivated Influenza surface antigen virosome vaccine
+Xa5A9	Haemophilus influenzae Type B vaccine poisoning
+Xa5AA	Accidental haemophilus influenzae Type B vaccine poisoning
+Xa5AB	Intentional haemophilus influenzae Type B vaccine poisoning
+Xa5AC	Haemophilus influenzae Type B vaccine poisoning of undetermined intent
+Xa5AU	Influenza vaccine poisoning
+Xa5AV	Accidental influenza vaccine poisoning
+Xa5AW	Intentional influenza vaccine poisoning
+Xa5AX	Influenza vaccine poisoning of undetermined intent
+Xa5WJ	Influenza vaccine adverse reaction
+Xa5WK	Influenza split virion vaccine adverse reaction
+Xa5WL	Influenza surface antigen vaccine adverse reaction
+Xa5WZ	Haemophilus influenzae Type B vaccine adverse reaction
+Xaa9f	No consent for seasonal influenza vaccination
+Xaa9G	Administration of intranasal influenza vaccination
+Xaac1	Administration of first intranasal pandemic influenza vaccination
+Xaac2	Administration of second intranasal pandemic influenza vaccination
+Xaac3	Administration of first intranasal seasonal influenza vaccination
+Xaac4	Administration of second intranasal seasonal influenza vaccination
+Xaac5	First intranasal pandemic influenza vaccination given by other healthcare provider
+Xaac6	Second intranasal pandemic influenza vaccination given by other healthcare provider
+Xaac7	First intranasal seasonal influenza vaccination given by other healthcare provider
+Xaac8	Second intranasal seasonal influenza vaccination given by other healthcare provider
+XaaDp	First intranasal influenza vaccination declined
+XaaDq	Second intranasal influenza vaccination declined
+XaadS	First intranasal seasonal influenza vaccination declined
+XaadT	First intranasal pandemic influenza vaccination declined
+XaadU	Second intranasal seasonal influenza vaccination declined
+XaadV	Second intranasal pandemic influenza vaccination declined
+XaadX	Did not attend first intranasal pandemic influenza vaccination
+XaadZ	Did not attend second intranasal pandemic influenza vaccination
+XaaED	Administration of first intranasal influenza vaccination
+XaaEF	Administration of second intranasal influenza vaccination
+XaaGs	Provision of information about seasonal influenza vaccination
+XaavB	Haemophilus influenzae type b and meningitis C vaccination contraindicated
+XaaWK	Did not attend second intranasal seasonal influenza vaccination
+XaaWM	Did not attend first intranasal seasonal influenza vaccination
+XaaZp	Seasonal influenza vaccination given while hospital inpatient
+XabGL	Education about influenza vaccination
+Xabq1	Long term indication for seasonal influenza vaccination
+XabvT	Second intramuscular seasonal influenza vaccination given by other healthcare provider
+Xac5J	First intramuscular seasonal influenza vaccination given by other healthcare provider
+Xad9j	Administration of first inactivated seasonal influenza vaccination
+Xad9k	Administration of second inactivated seasonal influenza vaccination
+Xaeet	First intranasal seasonal influenza vaccination given by pharmacist
+Xaeeu	Second intranasal seasonal influenza vaccination given by pharmacist
+Xaeev	First inactivated seasonal influenza vaccination given by pharmacist
+Xaeew	Second inactivated seasonal influenza vaccination given by pharmacist
+XafhP	Seasonal influenza vaccination given by midwife
+XafhQ	First inactivated seasonal influenza vaccination given by midwife
+XafhR	Second inactivated seasonal influenza vaccination given by midwife
+XaIBI	Influenza vaccination declined
+XaIBJ	Influenza vaccination invitation letter sent
+XaJ7u	[X]Influenza vaccine causing adverse effects in therapeutic use
+XaK2d	Influenza vaccination telephone invite
+XaL1V	Did not attend flu vaccination appointment
+XaLHL	Influenza vaccination invitation first letter sent
+XaLHM	Influenza vaccination invitation second letter sent
+XaLHN	Influenza vaccination invitation third letter sent
+XaLK4	Booster influenza vaccination
+XaLNG	First pandemic influenza vaccination
+XaLNH	Second pandemic influenza vaccination
+XaPw1	Consent given for pandemic influenza vaccination
+XaPw7	Pandemic influenza vaccination declined
+XaPwi	First pandemic influenza vaccination given by other healthcare provider
+XaPwj	Second pandemic influenza vaccination given by other healthcare provider
+XaPyT	Influenza vaccination given by other healthcare provider
+XaQhk	CELVAPAN - first influenza A (H1N1v) 2009 vaccination given
+XaQhl	CELVAPAN - second influenza A (H1N1v) 2009 vaccination given
+XaQhm	PANDEMRIX - first influenza A (H1N1v) 2009 vaccination given
+XaQhn	PANDEMRIX - second influenza A (H1N1v) 2009 vaccination given
+XaQhn	PANDEMRIX - second influenza A (H1N1v) 2009 vaccination given
+XaQho	CELVAPAN - first influenza A (H1N1v) 2009 vaccination given by other healthcare provider
+XaQho	CELVAPAN - first influenza A (H1N1v) 2009 vaccination given by other healthcare provider
+XaQhp	CELVAPAN - second influenza A (H1N1v) 2009 vaccination given by other healthcare provider
+XaQhp	CELVAPAN - second influenza A (H1N1v) 2009 vaccination given by other healthcare provider
+XaQhq	PANDEMRIX - first influenza A (H1N1v) 2009 vaccination given by other healthcare provider
+XaQhq	PANDEMRIX - first influenza A (H1N1v) 2009 vaccination given by other healthcare provider
+XaQhr	PANDEMRIX - second influenza A (H1N1v) 2009 vaccination given by other healthcare provider
+XaQhr	PANDEMRIX - second influenza A (H1N1v) 2009 vaccination given by other healthcare provider
+XaQhs	No consent for influenza A (H1N1v) 2009 vaccination
+XaQxM	No response to influenza vaccination invitation
+XaR54	Consent given for influenza A subtype H1N1 vaccination
+XaR5c	Did not attend haemophilus influenzae type B and meningitis C vaccination
+XaVwE	Did not attend influenza A virus subtype H1N1 vaccination
+XaVyA	Influenza vaccination invitation short message service text message sent
+XaVz8	High priority for influenza A subtype H1N1 vaccination
+XaX4R	Influenza A virus subtype H1N1 vaccination declined
+XaXEH	Influenza vaccination verbal invitation
+XaXeW	Influenza A virus subtype H1N1 vaccination invitation short message service text message sent
+XaXjn	Influenza vaccination invitation first short message service text message sent
+XaXjp	Influenza vaccination invitation second short message service text message sent
+XaXjq	Influenza vaccination invitation third short message service text message sent
+XaXsK	Influenza vaccination requested
+XaZ0d	Seasonal influenza vaccination
+XaZ0e	Seasonal influenza vaccination given by other healthcare provider
+XaZ0i	Seasonal influenza vaccination declined
+XaZ0j	Seasonal influenza vaccination contraindicated
+XaZ0k	Seasonal influenza vaccination not indicated
+XaZ0l	Consent given for seasonal influenza vaccination
+XaZfY	Seasonal influenza vaccination given by pharmacist
+XaZtC	Influenza vaccination first verbal invitation
+XaZtD	Influenza vaccination second verbal invitation
+XaZtE	Influenza vaccination first telephone invitation
+XaZtF	Influenza vaccination second telephone invitation
+XaZtI	Influenza vaccination third telephone invitation
+XaZtJ	Influenza vaccination third verbal invitation
+XaZZa	Influenza vaccination invitation email
+XaZZb	Influenza vaccination invitation first email
+XaZZc	Influenza vaccination invitation second email
+XaZZd	Influenza vaccination invitation third email
+ZV048	[V]Influenza vaccination
+65E..	Influenza vaccination
+9OX..	Influenza vacc. administratn.
+9OX1.	Has influenza vaccination at home
+9OX2.	Has influenza vaccination at surgery
+9OX3.	Has influenza vaccination at hospital
+9OX4.	Needs influenza immunisation
+9OXZ.	Influenza vacc.administrat.NOS
+n47..	Influenza vaccine
+n471.	Fluvirin prefilled syringe 0.5mL
+n473.	Influvac sub-unit prefilled syringe 0.5mL
+n474.	Influvac sub-unit Vials 5mL
+n475.	Influvac sub-unit Vials 25mL
+n476.	MFV-Ject prefilled syringe 0.5mL
+n477.	Inactivated Influenza vaccine injection 0.5mL
+n478.	Inactivated Influenza vaccine prefilled syringe 0.5mL
+n479.	Influenza vaccine Vials 5mL
+n47a.	Influenza vaccine Vials 25mL
+n47A.	PANDEMRIX INFLUENZA A VACCINE (H1N1v) 2009 injection
+n47b.	Fluzone prefilled syringe 0.5mL
+n47B.	CELVAPAN INFLUENZA A VACCINE (H1N1v) 2009 injection
+n47c.	Fluzone Vials 5mL
+n47C.	PREFLUCEL suspension for injection prefilled syringe 0.5mL
+n47d.	Fluarix vaccine prefilled syringe
+n47D.	FLUENZ nasal suspension 0.2mL
+n47e.	Begrivac vaccine pre-filled syringe 0.5mL
+n47E.	INFLUENZA VACCINE (LIVE ATTENUATED) nasal suspension 0.2mL
+n47f.	Agrippal vaccine prefilled syringe 0.5mL
+n47F.	OPTAFLU suspension for injection prefilled syringe 0.5mL
+n47g.	Inactivated Influenza vaccine (split virion) prefilled syringe 0.5mL
+n47G.	INFLUVAC DESU suspension for injection prefill syringe 0.5mL
+n47h.	Inactivated Influenza vaccine (surface antigen) prefilled syringe 0.5mL
+n47H.	FLUARIX TETRA suspension for injection prefill syringe 0.5mL
+n47i.	Inflexal Berna V prefilled syringe 0.5mL
+n47I.	FLUENZ TETRA nasal spray suspension 0.2mL
+n47j.	MASTAFLU prefilled syringe 0.5mL
+n47k.	Inflexal V prefilled syringe 0.5mL
+n47l.	Invivac prefilled syringe 0.5mL
+n47m.	Enzira prefilled syringe 0.5mL
+n47n.	Viroflu prefilled syringe 0.5mL
+n47o.	IMUVAC prefilled syringe 0.5mL
+n47p.	INTANZA 15micrograms/strain susp for inj pfs 0.1mL
+n47q.	INACT INFLUENZA VACC (SPLIT VIRION) 15mcg/strain pfs 0.1mL
+n47r.	CELVAPAN (H1N1) suspension for injection vials 5mL
+n47s.	CELVAPAN (H5N1) suspension for injection vials 5mL
+n47t.	PANDEMRIX (H5N1) injection vials
+n47u.	INTANZA 9micrograms/strain susp for inj pfs 0.1mL
+n47v.	INACT INFLUENZA VACC (SPLIT VIRION) 9mcg/strain pfs 0.1mL
+n47y.	Inactivated Influenza vaccine (split virion) prefilled syringe 0.25mL
+n47z.	Inactivated Influenza vaccine (surface antigen virosome) prefilled syringe 0.5mL

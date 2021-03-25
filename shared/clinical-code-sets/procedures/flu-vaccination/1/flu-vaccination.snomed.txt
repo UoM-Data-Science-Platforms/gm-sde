@@ -1,0 +1,39 @@
+3252611000001103	Influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes (Novartis Vaccines and Diagnostics Ltd)
+3244411000001106	Influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
+10133911000001103	Influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes (A A H Pharmaceuticals Ltd)
+11278411000001109	Influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes (Pfizer Ltd)
+37547211000001103	Adjuvanted trivalent influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes (Seqirus Vaccines Ltd)
+3249511000001109	Fluvirin vaccine suspension for injection 0.5ml pre-filled syringes (Novartis Vaccines and Diagnostics Ltd)
+3255011000001100	Influvac Sub-unit vaccine suspension for injection 0.5ml pre-filled syringes (Mylan)
+35727111000001109	Influvac sub-unit Tetra vaccine suspension for injection 0.5ml pre-filled syringes (Mylan)
+3245911000001104	Fluarix vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+3247011000001105	Begrivac vaccine suspension for injection 0.5ml pre-filled syringes (Novartis Vaccines and Diagnostics Ltd)
+3255311000001102	Agrippal vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus Vaccines Ltd)
+10306611000001101	Inflexal V vaccine suspension for injection 0.5ml pre-filled syringes (Janssen-Cilag Ltd)
+4365711000001104	Mastaflu vaccine suspension for injection 0.5ml pre-filled syringes (Masta Ltd)
+9511411000001107	Enzira vaccine suspension for injection 0.5ml pre-filled syringes (Pfizer Ltd)
+10455811000001107	Viroflu vaccine suspension for injection 0.5ml pre-filled syringes (Janssen-Cilag Ltd)
+10859911000001105	Imuvac vaccine suspension for injection 0.5ml pre-filled syringes (Mylan)
+15382311000001101	Optaflu vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus Vaccines Ltd)
+15454511000001101	Intanza 9microgram strain vaccine suspension for injection 0.1ml pre-filled syringes (sanofi pasteur MSD Ltd)
+15506511000001107	Intanza 15microgram strain vaccine suspension for injection 0.1ml pre-filled syringes (sanofi pasteur MSD Ltd)
+19820511000001106	Fluenz vaccine nasal suspension 0.2ml unit dose (AstraZeneca UK Ltd)
+27114211000001105	Fluenz Tetra vaccine nasal suspension 0.2ml unit dose (AstraZeneca UK Ltd)
+20292211000001109	Preflucel vaccine suspension for injection 0.5ml pre-filled syringes (Baxter Healthcare Ltd)
+22628411000001107	Influvac Desu vaccine suspension for injection 0.5ml pre-filled syringes (Abbott Healthcare Products Ltd)
+22704311000001109	Fluarix Tetra vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+30935711000001104	FluMist Quadrivalent vaccine nasal suspension 0.2ml unit dose (AstraZeneca UK Ltd)
+34680411000001107	Quadrivalent influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
+37514711000001105	Fluad vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus Vaccines Ltd)
+35726811000001104	Influenza Tetra MYL vaccine suspension for injection 0.5ml pre-filled syringes (Mylan)
+35727411000001104	Influenza MYL vaccine suspension for injection 0.5ml pre-filled syringes (Mylan)
+36509011000001106	Flucelvax Tetra vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus Vaccines Ltd)
+36754111000001101	Trivalent influenza vaccine (split virion, inactivated) High Dose suspension for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
+348047008	Influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes
+10309511000001105	Influenza vaccine (surface antigen, inactivated, virosome) suspension for injection 0.5ml pre-filled syringes
+15474011000001107	Influenza vaccine (split virion, inactivated) 9microgram strain suspension for injection 0.1ml pre-filled syringes
+15507511000001109	Influenza vaccine (split virion, inactivated) 15microgram strain suspension for injection 0.1ml pre-filled syringes
+19821411000001103	Influenza vaccine (live attenuated) nasal suspension 0.2ml unit dose
+348046004	Influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes
+36755311000001100	Influenza vaccine (split virion, inactivated) High Dose suspension for injection 0.5ml pre-filled syringes
+37531311000001101	Adjuvanted trivalent influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes
