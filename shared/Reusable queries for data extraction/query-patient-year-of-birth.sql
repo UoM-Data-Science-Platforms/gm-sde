@@ -16,7 +16,7 @@
 -- ASSUMPTIONS:
 --	- Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:
 --	-	If the patients has a YOB in their primary care data feed we use that as most likely to be up to date
---	-	If every YOB for a paient is the same, then we use that
+--	-	If every YOB for a patient is the same, then we use that
 --	-	If there is a single most recently updated YOB in the database then we use that
 --	-	Otherwise we take the highest YOB for the patient that is not in the future
 

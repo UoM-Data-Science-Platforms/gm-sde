@@ -16,7 +16,7 @@
 -- ASSUMPTIONS:
 --	- Patient data is obtained from multiple sources. Where patients have multiple LSOAs we determine the LSOA as follows:
 --	-	If the patients has an LSOA in their primary care data feed we use that as most likely to be up to date
---	-	If every LSOA for a paient is the same, then we use that
+--	-	If every LSOA for a paitent is the same, then we use that
 --	-	If there is a single most recently updated LSOA in the database then we use that
 --	-	Otherwise the patient's LSOA is considered unknown
 

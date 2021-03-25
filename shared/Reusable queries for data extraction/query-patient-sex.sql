@@ -16,7 +16,7 @@
 -- ASSUMPTIONS:
 --	- Patient data is obtained from multiple sources. Where patients have multiple sexes we determine the sex as follows:
 --	-	If the patients has a sex in their primary care data feed we use that as most likely to be up to date
---	-	If every sex for a paient is the same, then we use that
+--	-	If every sex for a patient is the same, then we use that
 --	-	If there is a single most recently updated sex in the database then we use that
 --	-	Otherwise the patient's sex is considered unknown
 
