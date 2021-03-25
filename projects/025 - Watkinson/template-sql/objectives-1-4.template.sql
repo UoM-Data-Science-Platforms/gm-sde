@@ -32,16 +32,27 @@ SET NOCOUNT ON;
 DECLARE @StartDate datetime;
 SET @StartDate = '2020-02-01';
 
--- Get all patients
+-- Find all patients alive at start date
+IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
+SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
+WHERE (DeathDate IS NULL OR DeathDate >= @StartDate);
+
+-- Find all patients registered with a GP
+IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
+SELECT FK_Patient_Link_ID INTO #PatientsWithGP FROM [RLS].vw_Patient
+where FK_Reference_Tenancy_ID = 2;
+
+-- Make cohort from patients alive at start date and registered with a GP
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #Patients FROM [RLS].vw_Patient_Link;
+SELECT pp.* INTO #Patients FROM #PossiblePatients pp
+INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
 --> EXECUTE query-patient-year-of-birth.sql
 
--- Remove patients who were <16 on 1st Feb 2020
-DELETE FROM #PatientYearOfBirth WHERE 2020 - YearOfBirth <= 16;
+-- Remove patients who are currently <16
+DELETE FROM #PatientYearOfBirth WHERE 2021 - YearOfBirth <= 16;
 IF OBJECT_ID('tempdb..#Temp') IS NOT NULL DROP TABLE #Temp;
-SELECT p.FK_Patient_Link_ID, EthnicMainGroup INTO #Temp FROM #Patients p
+SELECT p.FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #Temp FROM #Patients p
 	INNER JOIN #PatientYearOfBirth y ON y.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
 TRUNCATE TABLE #Patients;
 INSERT INTO #Patients
@@ -57,6 +68,19 @@ SELECT * FROM #Temp;
 --> EXECUTE load-code-sets.sql
 
 --> EXECUTE query-get-covid-vaccines.sql
+
+--> EXECUTE query-get-flu-vaccine-eligible.sql
+
+-- Get patients with moderate covid vulnerability defined as
+-- 	-	eligible for a flu vaccine
+--	-	has a sever mental illness
+--	-	has a moderate clinical vulnerability to COVID code in their record
+SELECT FK_Patient_Link_ID INTO #ModerateVulnerabilityPatients FROM [RLS].[vw_GP_Events]
+WHERE SuppliedCode IN (
+	SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('moderate-clinical-vulnerability','severe-mental-illness') AND [Version] = 1
+)
+UNION
+SELECT FK_Patient_Link_ID FROM #FluVaccPatients;
 
 -- Get patients with high covid vulnerability flag and date of first entry
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS HighVulnerabilityCodeDate INTO #HighVulnerabilityPatients FROM [RLS].[vw_GP_Events]
@@ -86,6 +110,7 @@ SELECT
 	IsCareHomeResident,
 	CASE WHEN HighVulnerabilityCodeDate IS NOT NULL THEN 'Y' ELSE 'N' END AS HasHighClinicalVulnerabilityIndicator,
 	HighVulnerabilityCodeDate AS DateOfHighClinicalVulnerabilityIndicator,
+	CASE WHEN mv.FK_Patient_Link_ID IS NOT NULL THEN 'Y' ELSE 'N' END AS HasModerateClinicalVulnerability,
 	CASE WHEN DateOfFirstCovidHospitalisation IS NOT NULL THEN 'Y' ELSE 'N' END AS HasCovidHospitalisation,
 	DateOfFirstCovidHospitalisation,
 	CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN 'Y' ELSE 'N' END AS HasCovidDeathWithin28Days,
@@ -98,6 +123,7 @@ LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA l ON l.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientCareHomeStatus chs ON chs.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #HighVulnerabilityPatients hv ON hv.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #ModerateVulnerabilityPatients mv ON mv.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #FirstCOVIDAdmission ca ON ca.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDVaccines v ON v.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
