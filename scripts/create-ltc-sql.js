@@ -16,18 +16,27 @@ const OUTPUT_GROUP_FILE = join(
   'Reusable queries for data extraction',
   'query-patient-ltcs-group.sql'
 );
+let LTCGroups;
+let LTCCodesetsArray;
+let LTCConditions;
 
-// A list of the LTC groups
-const LTCGroups = getListOfLTCGroups();
+const createLtcSql = () => {
+  // A list of the LTC groups
+  getListOfLTCGroups();
 
-// Get the code sets
-const { LTCCodesetsArray, LTCConditions } = getCodesets();
+  // Get the code sets
+  getCodesets();
 
-const sql = createSQL();
-writeFileSync(OUTPUT_FILE, sql);
+  const sql = createSQL();
+  writeFileSync(OUTPUT_FILE, sql);
 
-const groupSql = createGroupSQL();
-writeFileSync(OUTPUT_GROUP_FILE, groupSql);
+  const groupSql = createGroupSQL();
+  writeFileSync(OUTPUT_GROUP_FILE, groupSql);
+};
+
+// createLtcSql();
+
+module.exports = { createLtcSql };
 
 //
 // FUNCTIONS
@@ -35,7 +44,7 @@ writeFileSync(OUTPUT_GROUP_FILE, groupSql);
 
 function getListOfLTCGroups() {
   validateLTCDirectory();
-  return readdirSync(LTC_DIRECTORY, { withFileTypes: true }) // read all children of the LTC directory
+  LTCGroups = readdirSync(LTC_DIRECTORY, { withFileTypes: true }) // read all children of the LTC directory
     .filter((item) => item.isDirectory()) // ..then filter to just directories under LTC_DIRECTORY
     .map((dir) => dir.name.replace(/'/g, '')); // ..then return the directory name
 }
@@ -53,7 +62,7 @@ function validateLTCDirectory() {
 function getCodesets() {
   // Objects to store the code sets
   const codesetObject = {};
-  const LTCCodesetsArray = [];
+  LTCCodesetsArray = [];
 
   LTCGroups.forEach((ltcGroup) => {
     codesetObject[ltcGroup] = {};
@@ -91,9 +100,7 @@ function getCodesets() {
     });
   });
 
-  const LTCConditions = makeArrayUnique(LTCCodesetsArray.map((x) => x.condition));
-
-  return { codesetObject, LTCCodesetsArray, LTCConditions };
+  LTCConditions = makeArrayUnique(LTCCodesetsArray.map((x) => x.condition));
 }
 
 function createGroupSQL() {

@@ -9,12 +9,14 @@ const {
   getClinicalCodeSets,
   isValidCodeSet,
 } = require('./code-sets');
+const { createLtcSql } = require('./create-ltc-sql');
 const { generateReusableQueryDocs } = require('./docs');
 
 const choices = {
   EVALUATE_CODE_SETS: 'Evaluate the existing code sets',
   CREATE_CODE_SET: 'Create a new code set',
   CODE_SET_SQL: 'Create the clinical code set reusable SQL',
+  LTC_SQL: 'Create the long-term conditions reusable SQL',
   SEP1: new inquirer.Separator(),
   DOCS: 'Generate documentation for the reusable SQL queries',
 };
@@ -85,6 +87,9 @@ const initialMenu = async () => {
       break;
     case choices.CODE_SET_SQL:
       await createCodeSetSQL();
+      break;
+    case choices.LTC_SQL:
+      await createLtcSql();
       break;
     case choices.DOCS:
       await generateReusableQueryDocs();
