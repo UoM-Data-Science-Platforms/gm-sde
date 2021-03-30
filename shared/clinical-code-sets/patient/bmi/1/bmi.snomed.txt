@@ -1,0 +1,48 @@
+6497000	Decreased body mass index (finding)
+35425004	Normal body mass index (finding)
+48499001	Increased body mass index (finding)
+162863004	Body mass index 25-29 - overweight
+162864005	BMI 30+ - obesity
+301331008	Observation of body mass index
+310252000	BMI less than 20
+408512008	Body mass index 40+ - morbidly obese
+412768003	Body mass index 20-24 - normal
+427090001	Body mass index less than 16.5
+450451007	Childhood overweight BMI greater than 85 percentile
+722595002	Overweight in adulthood with BMI of 25 or more but less than 30
+920141000000102	Child BMI (body mass index) less than 0.4th centile
+920161000000101	Child BMI (body mass index) 0.4th-1.9th centile
+920181000000105	Child BMI (body mass index) on 2nd centile
+920201000000109	Child BMI (body mass index) 3rd-8th centile
+920231000000103	Child BMI (body mass index) on 9th centile
+920251000000105	Child BMI (body mass index) 10th-24th centile
+920271000000101	Child BMI (body mass index) on 25th centile
+920291000000102	Child BMI (body mass index) 26th-49th centile
+920311000000101	Child BMI (body mass index) on 50th centile
+920841000000108	Child BMI (body mass index) 51st-74th centile
+920931000000108	Child BMI (body mass index) on 75th centile
+920951000000101	Child BMI (body mass index) 76th-90th centile
+920971000000105	Child BMI (body mass index) on 91st centile
+920991000000109	Child BMI (body mass index) 92nd-97th centile
+921011000000105	Child BMI (body mass index) on 98th centile
+921031000000102	Child BMI (body mass index) 98.1st-99.6th centile
+921051000000109	Child BMI (body mass index) greater than 99.6th centile
+914721000000105	Obese class I (body mass index 30.0 - 34.9)
+914731000000107	Obese class II (body mass index 35.0 - 39.9)
+914741000000103	Obese class III (body mass index equal to or greater than 40.0)
+443371000124107	Body mass index 30.00 to 34.99
+443381000124105	Body mass index 35.00 to 39.99
+60621009	Quetelet index
+846931000000101	Baseline BMI (body mass index)
+852451000000103	Maximum body mass index (observable entity)
+852461000000100	Minimum body mass index (observable entity)
+446974000	Body mass index centile
+846911000000109	Baseline BMI (body mass index) centile
+896691000000102	Child BMI (body mass index) centile
+926011000000101	Down's syndrome BMI (body mass index) centile
+722562008	Foetal or neonatal effect or suspected effect of maternal obesity with adult body mass index 30 or greater but less than 40
+722563003	Foetal or neonatal effect of maternal obesity with adult body mass index equal to or greater than 40
+705131003	Child at risk for overweight body mass index greater than 85 percentile
+43991000119102	History of childhood obesity BMI 95-100 percentile
+698094009	Calculation of body mass index
+444862003	Childhood obesity BMI 95-100 percentile

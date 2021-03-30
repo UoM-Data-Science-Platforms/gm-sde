@@ -1,0 +1,135 @@
+13p4.	Smoking free weeks
+13p7.	Smoking status at 12 weeks
+13p3.	Smoking status at 52 weeks
+13p2.	Smoking status between 4 and 52 weeks
+13p1.	Smoking status at 4 weeks
+137..	Tobacco consumption
+137..	Smoker - amount smoked
+137l.	Ex roll-up cigarette smoker
+137j.	Ex-cigarette smoker
+137U.	Not a passive smoker
+137S.	Ex smoker
+137R.	Current smoker
+137P.	Cigarette smoker
+137P.	Smoker
+137O.	Ex cigar smoker
+137N.	Ex pipe smoker
+137L.	Current non-smoker
+137J.	Cigar smoker
+137I.	Passive smoker
+137H.	Pipe smoker
+137F.	Ex-smoker - amount unknown
+137B.	Ex-very heavy smoker (40+/day)
+137A.	Ex-heavy smoker (20-39/day)
+1379.	Ex-moderate smoker (10-19/day)
+1378.	Ex-light smoker (1-9/day)
+1377.	Ex-trivial smoker (<1/day)
+1376.	Very heavy smoker - 40+cigs/d
+1375.	Heavy smoker - 20-39 cigs/day
+1374.	Moderate smoker - 10-19 cigs/d
+1373.	Light smoker - 1-9 cigs/day
+1372.	Trivial smoker - < 1 cig/day
+1372.	Occasional smoker
+137o.	Waterpipe tobacco consumption
+137n.	Total time smoked
+137m.	Failed attempt to stop smoking
+137k.	Refusal to give smoking status
+137i.	Ex-tobacco chewer
+137h.	Minutes from waking to first tobacco consumption
+137g.	Cigarette pack-years
+137f.	Reason for restarting smoking
+137e.	Smoking restarted
+137d.	Not interested in stopping smoking
+137c.	Thinking about stopping smoking
+137b.	Ready to stop smoking
+137a.	Pipe tobacco consumption
+137Z.	Tobacco consumption NOS
+137Y.	Cigar consumption
+137X.	Cigarette consumption
+137W.	Chews tobacco
+137V.	Smoking reduced
+137T.	Date ceased smoking
+137Q.	Smoking started
+137Q.	Smoking restarted
+137M.	Rolls own cigarettes
+137K.	Stopped smoking
+137K0	Recently stopped smoking
+137G.	Trying to give up smoking
+137E.	Tobacco consumption unknown
+137D.	Admitted tobacco cons untrue ?
+137C.	Keeps trying to stop smoking
+1371.	Never smoked tobacco
+1371.	Non-smoker
+13WF.	Family smoking history
+13WF4	Passive smoking risk
+Ub0oo	Smoking
+Ub0oq	Non-smoker
+Ub0p1	Time since stopped smoking
+Ub0p2	Total time smoked
+Ub0p3	Age at starting smoking
+Ub0pa	Time since stop chew tobacco
+Ub0pb	Total time chewed tobacco
+Ub0pc	Age at start chewing tobacco
+Ub0pF	Moist tobacco consumption
+Ub0pO	Tobacco chewing
+Ub0pP	Chewed tobacco consumption
+Ub0pQ	Does not chew tobacco
+Ub0pR	Never chewed tobacco
+Ub0pS	Ex-tobacco chewer
+Ub0pT	Chews tobacco
+Ub0pU	Chews plug tobacco
+Ub0pV	Chews twist tobacco
+Ub0pW	Chews loose leaf tobacco
+Ub0pX	Chews fine cut tobacco
+Ub0pY	Chews products contain tobacco
+Ub0pZ	Frequency of chewing tobacco
+Ub1na	Ex-smoker
+Ub1tI	Cigarette consumption
+Ub1tJ	Cigar consumption
+Ub1tK	Pipe tobacco consumption
+Ub1tR	Occasional cigarette smoker
+Ub1tS	Light cigarette smoker
+Ub1tT	Moderate cigarette smoker
+Ub1tU	Heavy cigarette smoker
+Ub1tV	Very heavy cigarette smoker
+Ub1tW	Chain smoker
+Xa1bv	Ex-cigarette smoker
+Xaa26	Num prev attempt stop smoking
+XaBSp	Smoking restarted
+XagO3	Occasional smoker
+XaIIu	Smoking reduced
+XaIkW	Thinking about stop smoking
+XaIkX	Ready to stop smoking
+XaIkY	Not interested stop smoking
+XaIQk	Smoking status at 4 weeks
+XaIQl	Smoking status 4 - 52 wks
+XaIQm	Smoking status at 52 weeks
+XaIr7	Smoking free weeks
+XaItg	Reason for restarting smoking
+XaIuQ	Cigarette pack-years
+XaJX2	Min from wake to 1st tobac con
+XaKlS	[V]PH of tobacco abuse
+XaLQh	Wants to stop smoking
+XaQ8V	Ex roll-up cigarette smoker
+XaQzw	Recently stopped smoking
+XaWNE	Failed attempt to stop smoking
+XaXP6	Stoppd smoking durin pregnancy
+XaXP8	Stoppd smoking befor pregnancy
+XaXP9	Smoker befor confirm pregnancy
+XaXPD	Smoker in household
+XaXPX	Smoking status at 12 weeks
+XaZIE	Waterpipe tobacco consumption
+XE0og	Amount+type of tobacco smoked
+XE0oh	Never smoked
+XE0oi	Occ cigarette smok, <1cig/day
+XE0oj	Ex-triv cigaret smoker, <1/day
+XE0ok	Ex-light cigaret smok, 1-9/day
+XE0ol	Ex-mod cigaret smok, 10-19/day
+XE0om	Ex-heav cigaret smok,20-39/day
+XE0on	Ex-very hv cigaret smk,40+/day
+XE0oo	Tobacco smok consumpt unknown
+XE0op	Ex-cigaret smoker amnt unknown
+XE0oq	Cigarette smoker
+XE0or	Smoking started
+XE0sl	Non-smoker
+XE2tc	Family smoking history
