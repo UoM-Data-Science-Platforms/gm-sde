@@ -1,0 +1,48 @@
+44P..00	Serum cholesterol
+44PZ.00	Serum cholesterol NOS
+44PL.00	Non HDL cholesterol level
+44PL100	Estimated serum non-high density lipoprotein cholesterol level
+44PL000	Serum non high density lipoprotein cholesterol level
+44PK.00	Serum fasting total cholesterol
+44PJ.00	Serum total cholesterol level
+44PI.00	Calculated LDL cholesterol level
+44PH.00	Total cholesterol measurement
+44PG.00	HDL : total cholesterol ratio
+44PF.00	Total cholesterol:HDL ratio
+44PE.00	Serum random LDL cholesterol level
+44PD.00	Serum fasting LDL cholesterol level
+44PC.00	Serum random HDL cholesterol level
+44PB.00	Serum fasting HDL cholesterol level
+44P9.00	Serum cholesterol studies
+44P8.00	Serum HDL:non-HDL cholesterol ratio
+44P7.00	Serum VLDL cholesterol level
+44P6.00	Serum LDL cholesterol level
+44P5.00	Serum HDL cholesterol level
+44P4.00	Serum cholesterol very high
+44P3.00	Serum cholesterol raised
+44P2.00	Serum cholesterol borderline
+44P1.00	Serum cholesterol normal
+44PA.00	HDL : LDL ratio
+44lM.00	Plasma LDL/HDL ratio
+44lL.00	Serum LDL/HDL ratio
+44lK.00	Plasma cholesterol/VLDL ratio
+44lJ.00	Serum cholesterol/VLDL ratio
+44lI.00	Plasma cholesterol/LDL ratio
+44lH.00	Serum cholesterol/LDL ratio
+44lG.00	Plasma cholesterol/HDL ratio
+44lF.00	Serum cholesterol/HDL ratio
+44l2.00	Cholesterol/HDL ratio
+44dB.00	Plasma LDL cholesterol level
+44dA.00	Plasma HDL cholesterol level
+44d5.00	Plasma fasting LDL cholesterol level
+44d4.00	Plasma random LDL cholesterol level
+44d3.00	Plasma fasting HDL cholesterol level
+44d2.00	Plasma random HDL cholesterol level
+44R4.11	LDL - electrophoresis
+44R4.00	Lipoprotein electroph. - LDL
+44R3.11	HDL - electrophoresis
+44R3.00	Lipoprotein electroph. - HDL
+662a.00	Pre-treatment serum cholesterol level
+44OE.00	Plasma total cholesterol level
+44lzY00	Serum high density lipoprotein cholesterol:triglyceride ratio
+4I3O.00	Fluid sample cholesterol level

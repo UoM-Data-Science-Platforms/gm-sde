@@ -1,0 +1,25 @@
+X772q	Haemoglobin A1c level
+XE24t	Hb. A1C - diabetic control
+42W1.	Hb. A1C < 7% - good control
+42W2.	Hb. A1C 7-10% - borderline
+42W3.	Hb. A1C > 10% - bad control
+42WZ.	Hb. A1C - diabetic control NOS
+X80U4	Glycosylat haemoglobin-c frac
+XaCES	HbA1 - diabetic control
+XaCET	HbA1 <7% - good control
+XaCEV	HbA1 >10% - bad control
+XaCEU	HbA1 7-10% - borderline contrl
+XaERp	HbA1c level (DCCT aligned)
+XaPbt	HbA1c levl - IFCC standardised
+XabrE	HbA1c (diagnostic refrn range)
+XabrF	HbA1c (monitoring ranges)
+Xaezd	HbA1c(diagnos ref rnge)IFCC st
+Xaeze	HbA1c(monitoring rnges)IFCC st
+42W..	Hb. A1C - diabetic control
+42W5.	Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised
+42W51	HbA1c (haemoglobin A1c) level (monitoring ranges) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised
+42W50	HbA1c (haemoglobin A1c) level (diagnostic reference range) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised
+42W4.	HbA1c level (DCCT aligned)
+44TB.	Haemoglobin A1c level
+44TB1	Haemoglobin A1c (monitoring ranges)
+44TB0	Haemoglobin A1c (diagnostic reference range)

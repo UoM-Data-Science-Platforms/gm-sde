@@ -1,0 +1,20 @@
+1019431000000105	HbA1c level (Diabetes Control and Complications Trial aligned)
+1003671000000109	Haemoglobin A1c level
+1049301000000100	HbA1c (haemoglobin A1c) level (diagnostic reference range) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised
+1049321000000109	HbA1c (haemoglobin A1c) level (monitoring ranges) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised
+1107481000000106	HbA1c (haemoglobin A1c) molar concentration in blood
+999791000000106	Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised
+1010941000000103	Haemoglobin A1c (monitoring ranges)
+1010951000000100	Haemoglobin A1c (diagnostic reference range)
+165679005	Haemoglobin A1c (HbA1c) less than 7% indicating good diabetic control
+165680008	Haemoglobin A1c (HbA1c) between 7%-10% indicating borderline diabetic control
+165681007	Hemoglobin A1c (HbA1c) greater than 10% indicating poor diabetic control
+365845005	Haemoglobin A1C - diabetic control finding
+444751005	High hemoglobin A1c level
+43396009	Hemoglobin A1c measurement (procedure)
+313835008	Hemoglobin A1c measurement aligned to the Diabetes Control and Complications Trial
+371981000000106	Hb A1c (Haemoglobin A1c) level - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised
+444257008	Calculation of estimated average glucose based on haemoglobin A1c
+269823000	Haemoglobin A1C - diabetic control interpretation
+443911005	Ordinal level of hemoglobin A1c
+733830002	HbA1c - Glycated haemoglobin-A1c

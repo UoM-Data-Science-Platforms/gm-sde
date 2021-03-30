@@ -1,0 +1,19 @@
+{
+  "includeTerms": [
+    "hba1c",
+    "haemoglobin a1c",
+    "hb a1c",
+    "glycated haemoglobin",
+    "glycosylated hb",
+    "hba1"
+  ],
+  "excludeTerms": ["information about", "target", "measurement not done"],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdBy": {
+    "name": "Richard Williams",
+    "email": "1234richardwilliams@gmail.com"
+  },
+  "createdOn": "2021-03-30T10:11:02.043Z",
+  "lastUpdated": "2021-03-30T10:47:51.129Z"
+}
