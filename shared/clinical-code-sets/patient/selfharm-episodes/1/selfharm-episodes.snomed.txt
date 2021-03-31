@@ -1,4 +1,492 @@
-8.44631E+14	ARF induced by poison
+61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at sports and athletics area, undetermined intent"
+61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence on street and highway, undetermined intent"
+61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at trade and service area, undetermined intent"
+61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at industrial and construction area, undetermined intent"
+61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence on farm, undetermined intent"
+61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at other specified place, undetermined intent"
+61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at unspecified place, undetermined intent"
+32835006	"[X]Poisoning by and exposure to other autonomic drugs, undetermined intent"
+32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at home, undetermined intent"
+32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence in residential institution, undetermined intent"
+32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at school, other institution and public administrative area, undetermined intent"
+32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at sports and athletics area, undetermined intent"
+32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence on street and highway, undetermined intent"
+32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at trade and service area, undetermined intent"
+32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at industrial and construction area, undetermined intent"
+32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence on farm, undetermined intent"
+32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at other specified place, undetermined intent"
+32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at unspecified place, undetermined intent"
+269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, undetermined intent"
+269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at home, undetermined intent"
+269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence in residential institution, undetermined intent"
+269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at school, other institution and public administrative area, undetermined intent"
+269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at sports and athletics area, undetermined intent"
+269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence on street and highway, undetermined intent"
+269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at trade and service area, undetermined intent"
+269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at industrial and construction area, undetermined intent"
+269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence on farm, undetermined intent"
+269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at other specified place, undetermined intent"
+269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at unspecified place, undetermined intent"
+67426006	"[X]Poisoning by and exposure to alcohol, undetermined intent"
+67426006	"[X]Poisoning by and exposure to alcohol, occurrence at home, undetermined intent"
+67426006	"[X]Poisoning by and exposure to alcohol, occurrence in residential institution, undetermined intent"
+67426006	"[X]Poisoning by and exposure to alcohol, occurrence at school, other institution and public administrative area, undetermined intent"
+67426006	"[X]Poisoning by and exposure to alcohol, occurrence at sports and athletics area, undetermined intent"
+67426006	"[X]Poisoning by and exposure to alcohol, occurrence on street and highway, undetermined intent"
+67426006	"[X]Poisoning by and exposure to alcohol, occurrence at trade and service area, undetermined intent"
+67426006	"[X]Poisoning by and exposure to alcohol, occurrence at industrial and construction area, undetermined intent"
+67426006	"[X]Poisoning by and exposure to alcohol, occurrence on farm, undetermined intent"
+67426006	"[X]Poisoning by and exposure to alcohol, occurrence at other specified place, undetermined intent"
+67426006	"[X]Poisoning by and exposure to alcohol, occurrence at unspecified place, undetermined intent"
+57335002	"[X]Poisoning by and exposure to other gas and vapours, undetermined intent"
+57335002	"[X]Poisoning by and exposure to other gas and vapours, occurrence at home, undetermined intent"
+57335002	"[X]Poisoning by and exposure to other gas and vapours, occurrence in residential institution, undetermined intent"
+57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence at school, other institution and public administrative area, undetermined intent"
+57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence at sports and athletics area, undetermined intent"
+57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence on street and highway, undetermined intent"
+57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence at trade and service area, undetermined intent"
+57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence at industrial and construction area, undetermined intent"
+57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence on farm, undetermined intent"
+57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence at other specified place, undetermined intent"
+57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence at unspecified place, undetermined intent"
+37131007	"[X]Poisoning by and exposure to pesticides, undetermined intent"
+37131007	"[X]Poisoning by and exposure to pesticides, occurrence at home, undetermined intent"
+37131007	"[X]Poisoning by and exposure to pesticides, occurrence in residential institution, undetermined intent"
+37131007	"[X]Poisoning by and exposure to pesticides, occurrence at school, other institution and public administrative area, undetermined intent"
+37131007	"[X]Poisoning by and exposure to pesticides, occurrence at sports and athletics area, undetermined intent"
+37131007	"[X]Poisoning by and exposure to pesticides, occurrence on street and highway, undetermined intent"
+37131007	"[X]Poisoning by and exposure to pesticides, occurrence at trade and service area, undetermined intent"
+37131007	"[X]Poisoning by and exposure to pesticides, occurrence at industrial and construction area, undetermined intent"
+37131007	"[X]Poisoning by and exposure to pesticides, occurrence on farm, undetermined intent"
+37131007	"[X]Poisoning by and exposure to pesticides, occurrence at other specified place, undetermined intent"
+37131007	"[X]Poisoning by and exposure to pesticides, occurrence at unspecified place, undetermined intent"
+75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, undetermined intent"
+75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at home, undetermined intent"
+75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence in residential institution, undetermined intent"
+75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at school, other institution and public administrative area, undetermined intent"
+75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at sports and athletics area, undetermined intent"
+75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence on street and highway, undetermined intent"
+75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at trade and service area, undetermined intent"
+75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at industrial and construction area, undetermined intent"
+75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence on farm, undetermined intent"
+75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at other specified place, undetermined intent"
+75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at unspecified place, undetermined intent"
+219328003	"[X]Hanging, strangulation and suffocation undetermined intent"
+219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at home"
+219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence in residential institution"
+219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at school, other institution and public administrative area"
+219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at sports and athletics area"
+219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence on street and highway"
+219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at trade and service area"
+219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at industrial and construction area"
+219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence on farm"
+219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at other specified place"
+219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at unspecified place"
+362977000	"[X]Sequelae of intentional self-harm, assault and events of undetermined intent"
+362977000	[X]Sequelae of intentional self-harm
+161589007	[V]Personal history of poisoning
+314550003	[V]Personal history of self-harm
+275385007	(Poisoning (& [drug] &/or [biological substance] or [medicinal])) or (overdose: [biological substance] or [drug])
+212586004	Analgesic &/or antipyretic and antirheumatic drug poisoning
+85337000	Poisoning: [sedative] &/or [hypnotic drug]
+85337000	Poisoning: [sleeping drug] or [sedative and hypnotic drug NOS]
+212640009	Poisoning: [anaesthetic (& agent)] &/or [central nervous system depressants]
+61438005	Poisoning: [tranquilliser] or [psychotropic agent]
+20260003	Poisoning: [psychostimulant] or [stimulant]
+248062006	(Selfinflicted injury) or (cause of deliberate overdose) or (suicide) or (para-suicide)
+418420002	[X](Intentional self-harm) or (suicide)
+271982007	[X]Intentional poisoning: [self] or [drug overdose] or [other]
+290221007	[X](Intentional self poisoning by narcotic drugs) or (heroin overdose)
+271982007	[X]Self poisoning: [intentional - exposure to other gas and vapours] or [carbon monoxide]
+401901000000000	[X]Self poisoning (& intentional): [pesticides] or [weedkiller] or [paraquat]
+64921004	Phenobarbitone poisoning
+242836008	Suicide and selfinflicted poisoning by solid and liquid substances
+314550003	[V]Personal history of self-harm
+275385007	[X]Poisoning by drugs and biological substances
+241748001	"[X]Poisoning by other analgesics, not elsewhere classified"
+290486002	[X]Poisoning by other and unspecified general anaesthetics
+42377002	"[X]Poisoning by mixed antiepileptics, not elsewhere classified"
+441931000000000	[X]Poisoning by other antiepileptic and sedative-hypnotic drugs
+4836003	[X]Poisoning by antiparkinsonism drugs and other central muscle-tone depressants
+82276009	[X]Poisoning by other and unspecified antidepressants
+288293001	[X]Poisoning by other and unspecified antipsychotics and neuroleptics
+61438005	"[X]Poisoning by other psychotropic drugs, not elsewhere classified"
+7895008	[X]Poisoning by other and unspecified drugs and biological substances
+241756003	"[X]Poisoning by anaesthetic, unspecified"
+248062006	[X]Intentional self-harm
+461371000000000	[X]Intentional self poisoning by and exposure to noxious substances
+446901000000000	[X]Intentional self poisoning by and exposure to nonopioid analgesics
+393341000000000	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at home"
+474461000000000	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence in residential institution"
+422721000000000	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at school, other institution and public administrative area"
+387071000000000	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at sports and athletics area"
+385711000000000	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence on street and highway"
+473621000000000	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at trade and service area"
+385731000000000	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at industrial and construction area"
+458171000000000	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence on farm"
+459381000000000	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at other specified place"
+459421000000000	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at unspecified place"
+271982007	[X]Intentional self poisoning by and exposure to antiepileptics
+42377002	"[X]Intentional self poisoning by and exposure to antiepileptics, occurrence at home"
+42377002	"[X]Intentional self poisoning by and exposure to antiepileptics, occurrence in residential institution"
+42377002	"[X]Intentional self poisoning by and exposure to antiepileptics, occurrence at school, other institution and public administrative area"
+42377002	"[X]Intentional self poisoning by and exposure to antiepileptics, occurrence on street and highway"
+42377002	"[X]Intentional self poisoning by and exposure to antiepileptics, occurrence at trade and service area"
+42377002	"[X]Intentional self poisoning by and exposure to antiepileptics, occurrence at industrial and construction area"
+42377002	"[X]Intentional self poisoning by and exposure to antiepileptics, occurrence on farm"
+42377002	"[X]Intentional self poisoning by and exposure to antiepileptics, occurrence at other specified place"
+42377002	"[X]Intentional self poisoning by and exposure to antiepileptics, occurrence at unspecified place"
+271982007	[X]Intentional self poisoning by and exposure to sedative hypnotics
+85337000	"[X]Intentional self poisoning by and exposure to sedative hypnotics, occurrence at home"
+85337000	"[X]Intentional self poisoning by and exposure to sedative hypnotics, occurrence in residential institution"
+85337000	"[X]Intentional self poisoning by and exposure to sedative hypnotics, occurrence at school, other institution and public administrative area"
+85337000	"[X]Intentional self poisoning by and exposure to sedative hypnotics, occurrence at sports and athletics area"
+85337000	"[X]Intentional self poisoning by and exposure to sedative hypnotics, occurrence on street and highway"
+85337000	"[X]Intentional self poisoning by and exposure to sedative hypnotics, occurrence at trade and service area"
+85337000	"[X]Intentional self poisoning by and exposure to sedative hypnotics, occurrence at industrial and construction area"
+85337000	"[X]Intentional self poisoning by and exposure to sedative hypnotics, occurrence on farm"
+85337000	"[X]Intentional self poisoning by and exposure to sedative hypnotics, occurrence at other specified place"
+85337000	"[X]Intentional self poisoning by and exposure to sedative hypnotics, occurrence at unspecified place"
+271982007	[X]Intentional self poisoning by and exposure to antiparkinson drugs
+4836003	"[X]Intentional self poisoning by and exposure to antiparkinson drugs, occurrence at home"
+4836003	"[X]Intentional self poisoning by and exposure to antiparkinson drugs, occurrence in residential institution"
+4836003	"[X]Intentional self poisoning by and exposure to antiparkinson drugs, occurrence at school, other institution and public administrative area"
+4836003	"[X]Intentional self poisoning by and exposure to antiparkinson drugs, occurrence at sports and athletics area"
+4836003	"[X]Intentional self poisoning by and exposure to antiparkinson drugs, occurrence on street and highway"
+4836003	"[X]Intentional self poisoning by and exposure to antiparkinson drugs, occurrence at trade and service area"
+4836003	"[X]Intentional self poisoning by and exposure to antiparkinson drugs, occurrence at industrial and construction area"
+4836003	"[X]Intentional self poisoning by and exposure to antiparkinson drugs, occurrence on farm"
+4836003	"[X]Intentional self poisoning by and exposure to antiparkinson drugs, occurrence at other specified place"
+4836003	"[X]Intentional self poisoning by and exposure to antiparkinson drugs, occurrence at unspecified place"
+271982007	[X]Intentional self poisoning by and exposure to psychotropic drugs
+271982007	"[X]Intentional self poisoning by and exposure to psychotropic drugs, occurrence at home"
+61438005	"[X]Intentional self poisoning by and exposure to psychotropic drugs, occurrence in residential institution"
+61438005	"[X]Intentional self poisoning by and exposure to psychotropic drugs, occurrence at school, other institution and public administrative area"
+61438005	"[X]Intentional self poisoning by and exposure to psychotropic drugs, occurrence at sports and athletics area"
+61438005	"[X]Intentional self poisoning by and exposure to psychotropic drugs, occurrence on street and highway"
+61438005	"[X]Intentional self poisoning by and exposure to psychotropic drugs, occurrence at trade and service area"
+61438005	"[X]Intentional self poisoning by and exposure to psychotropic drugs, occurrence at industrial and construction area"
+61438005	"[X]Intentional self poisoning by and exposure to psychotropic drugs, occurrence on farm"
+61438005	"[X]Intentional self poisoning by and exposure to psychotropic drugs, occurrence at other specified place"
+61438005	"[X]Intentional self poisoning by and exposure to psychotropic drugs, occurrence at unspecified place"
+290221007	[X]Intentional self poisoning by and exposure to narcotic drugs
+433941000000000	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at home"
+385601000000000	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence in residential institution"
+421581000000000	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at school, other institution and public administrative area"
+446651000000000	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at sports and athletics area"
+446661000000000	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence on street and highway"
+393011000000000	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at trade and service area"
+446791000000000	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at industrial and construction area"
+393331000000000	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence on farm"
+458971000000000	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at other specified place"
+403681000000000	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at unspecified place"
+271982007	[X]Intentional self poisoning by and exposure to hallucinogens
+85975005	"[X]Intentional self poisoning by and exposure to hallucinogens, occurrence at home"
+85975005	"[X]Intentional self poisoning by and exposure to hallucinogens, occurrence in residential institution"
+85975005	"[X]Intentional self poisoning by and exposure to hallucinogens, occurrence at school, other institution and public administrative area"
+85975005	"[X]Intentional self poisoning by and exposure to hallucinogens, occurrence at sports and athletics area"
+85975005	"[X]Intentional self poisoning by and exposure to hallucinogens, occurrence on street and highway"
+85975005	"[X]Intentional self poisoning by and exposure to hallucinogens, occurrence at trade and service area"
+85975005	"[X]Intentional self poisoning by and exposure to hallucinogens, occurrence at industrial and construction area"
+85975005	"[X]Intentional self poisoning by and exposure to hallucinogens, occurrence on farm"
+85975005	"[X]Intentional self poisoning by and exposure to hallucinogens, occurrence at other specified place"
+85975005	"[X]Intentional self poisoning by and exposure to hallucinogens, occurrence at unspecified place"
+271982007	[X]Intentional self poisoning by and exposure to other autonomic drugs
+32835006	"[X]Intentional self poisoning by and exposure to other autonomic drugs, occurrence at home"
+32835006	"[X]Intentional self poisoning by and exposure to other autonomic drugs, occurrence in residential institution"
+32835006	"[X]Intentional self poisoning by and exposure to other autonomic drugs, occurrence at school, other institution and public administrative area"
+32835006	"[X]Intentional self poisoning by and exposure to other autonomic drugs, occurrence at sports and athletics area"
+32835006	"[X]Intentional self poisoning by and exposure to other autonomic drugs, occurrence on street and highway"
+32835006	"[X]Intentional self poisoning by and exposure to other autonomic drugs, occurrence at trade and service area"
+32835006	"[X]Intentional self poisoning by and exposure to other autonomic drugs, occurrence at industrial and construction area"
+32835006	"[X]Intentional self poisoning by and exposure to other autonomic drugs, occurrence on farm"
+32835006	"[X]Intentional self poisoning by and exposure to other autonomic drugs, occurrence at other specified place"
+32835006	"[X]Intentional self poisoning by and exposure to other autonomic drugs, occurrence at unspecified place"
+271982007	"[X]Intentional self poisoning by and exposure to other and unspecified drug, medicament and biological substance"
+271982007	"[X]Intentional self poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at home"
+271982007	"[X]Intentional self poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence in residential institution"
+271982007	"[X]Intentional self poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at school, other institution and public administrative area"
+271982007	"[X]Intentional self poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at sports and athletics area"
+271982007	"[X]Intentional self poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence on street and highway"
+271982007	"[X]Intentional self poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at trade and service area"
+271982007	"[X]Intentional self poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at industrial and construction area"
+271982007	"[X]Intentional self poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence on farm"
+271982007	"[X]Intentional self poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at other specified place"
+271982007	"[X]Intentional self poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at unspecified place"
+271982007	[X]Intentional self poisoning by and exposure to alcohol
+67426006	"[X]Intentional self poisoning by and exposure to alcohol, occurrence at home"
+67426006	"[X]Intentional self poisoning by and exposure to alcohol, occurrence in residential institution"
+67426006	"[X]Intentional self poisoning by and exposure to alcohol, occurrence at school, other institution and public administrative area"
+67426006	"[X]Intentional self poisoning by and exposure to alcohol, occurrence at sports and athletics area"
+67426006	"[X]Intentional self poisoning by and exposure to alcohol, occurrence on street and highway"
+67426006	"[X]Intentional self poisoning by and exposure to alcohol, occurrence at trade and service area"
+67426006	"[X]Intentional self poisoning by and exposure to alcohol, occurrence at industrial and construction area"
+67426006	"[X]Intentional self poisoning by and exposure to alcohol, occurrence on farm"
+67426006	"[X]Intentional self poisoning by and exposure to alcohol, occurrence at other specified place"
+67426006	"[X]Intentional self poisoning by and exposure to alcohol, occurrence at unspecified place"
+271982007	[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours
+241769004	"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence at home"
+241769004	"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence in residential institution"
+241769004	"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence at school, other institution and public administrative area"
+241769004	"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, halogens, occurrence at sports and athletics area"
+241769004	"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence on street and highway"
+241769004	"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence at trade and service area"
+241769004	"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence at industrial and construction area"
+241769004	"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence on farm"
+241769004	"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence at other specified place"
+241769004	"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, halogens, occurrence at unspecified place"
+271982007	[X]Intentional self poisoning by and exposure to other gas and vapours
+271982007	"[X]Intentional self poisoning by and exposure to other gas and vapours, occurrence at home"
+271982007	"[X]Intentional self poisoning by and exposure to other gas and vapours, occurrence in residential institution"
+271982007	"[X]Intentional self poisoning by and exposure to other gas and vapour, occurrence at school, other institution and public administrative area"
+271982007	"[X]Intentional self poisoning by and exposure to other gas and vapour, occurrence at sports and athletics area"
+271982007	"[X]Intentional self poisoning by and exposure to other gas and vapour, occurrence on street and highway"
+271982007	"[X]Intentional self poisoning by and exposure to other gas and vapour, occurrence at trade and service area"
+271982007	"[X]Intentional self poisoning by and exposure to other gas and vapour, occurrence at industrial and construction area"
+271982007	"[X]Intentional self poisoning by and exposure to other gas and vapour, occurrence on farm"
+271982007	"[X]Intentional self poisoning by and exposure to other gas and vapour, occurrence at other specified place"
+271982007	"[X]Intentional self poisoning by and exposure to other gas and vapour, occurrence at unspecified place"
+461331000000000	[X]Intentional self poisoning by and exposure to pesticides
+392701000000000	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at home"
+420741000000000	"[X]Intentional self poisoning by and exposure to pesticides, occurrence in residential institution"
+392001000000000	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at school, other institution and public administrative area"
+445311000000000	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at sports and athletics area"
+457141000000000	"[X]Intentional self poisoning by and exposure to pesticides, occurrence on street and highway"
+457161000000000	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at trade and service area"
+391791000000000	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at industrial and construction area"
+472721000000000	"[X]Intentional self poisoning by and exposure to pesticides, occurrence on farm"
+445341000000000	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at other specified place"
+403581000000000	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at unspecified place"
+271982007	[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances
+271982007	"[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at home"
+271982007	"[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence in residential institution"
+271982007	"[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at school, other institution and public administrative area"
+271982007	"[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at sports and athletics area"
+271982007	"[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence on street and highway"
+271982007	"[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at trade and service area"
+271982007	"[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at industrial and construction area"
+271982007	"[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence on farm"
+271982007	"[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at other specified place"
+271982007	"[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at unspecified place"
+248062006	"[X]Intentional self harm by hanging, strangulation and suffocation"
+434241000000000	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence at home"
+473791000000000	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence in residential institution"
+248062006	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence at sports and athletics area"
+248062006	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence on street and highway"
+248062006	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence at trade and service area"
+248062006	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence at industrial and construction area"
+248062006	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence on farm"
+248062006	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence at other specified place"
+391821000000000	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence at unspecified place"
+446891000000000	[X]Intentional self harm by drowning and submersion
+458281000000000	"[X]Intentional self harm by drowning and submersion, occurrence at home"
+473731000000000	"[X]Intentional self harm by drowning and submersion, occurrence in residential institution"
+457321000000000	"[X]Intentional self harm by drowning and submersion, occurrence at school, other institution and public administrative area"
+385231000000000	"[X]Intentional self harm by drowning and submersion, occurrence at sports and athletics area"
+457331000000000	"[X]Intentional self harm by drowning and submersion, occurrence on street and highway"
+392011000000000	"[X]Intentional self harm by drowning and submersion, occurrence at trade and service area"
+392021000000000	"[X]Intentional self harm by drowning and submersion, occurrence at industrial and construction area"
+392031000000000	"[X]Intentional self harm by drowning and submersion, occurrence on farm"
+472681000000000	"[X]Intentional self harm by drowning and submersion, occurrence at other specified place"
+415591000000000	"[X]Intentional self harm by drowning and submersion, occurrence at unspecified place"
+472701000000000	[X]Intentional self harm by handgun discharge
+420511000000000	"[X]Intentional self harm by handgun discharge, occurrence at home"
+391801000000000	"[X]Intentional self harm by handgun discharge, occurrence in residential institution"
+405051000000000	"[X]Intentional self harm by handgun discharge, occurrence at school, other institution and public administrative area"
+405061000000000	"[X]Intentional self harm by handgun discharge, occurrence at sports and athletics area"
+393111000000000	"[X]Intentional self harm by handgun discharge, occurrence on street and highway"
+458381000000000	"[X]Intentional self harm by handgun discharge, occurrence at trade and service area"
+458391000000000	"[X]Intentional self harm by handgun discharge, occurrence at industrial and construction area"
+434261000000000	"[X]Intentional self harm by handgun discharge, occurrence on farm"
+422691000000000	"[X]Intentional self harm by handgun discharge, occurrence at other specified place"
+393841000000000	"[X]Intentional self harm by handgun discharge, occurrence at unspecified place"
+387051000000000	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge"
+393871000000000	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence at home"
+393881000000000	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence in residential institution"
+421331000000000	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence at sports and athletics area"
+446251000000000	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence on street and highway"
+473371000000000	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence at trade and service area"
+404741000000000	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence on farm"
+432991000000000	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence at other specified place"
+445021000000000	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence at unspecified place"
+403641000000000	[X]Intentional self harm by other and unspecified firearm discharge
+433281000000000	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at home"
+472751000000000	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence in residential institution"
+403671000000000	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at school, other institution and public administrative area"
+445351000000000	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at sports and athletics area"
+404831000000000	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence on street and highway"
+458531000000000	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at trade and service area"
+457721000000000	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at industrial and construction area"
+385481000000000	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence on farm"
+445891000000000	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at other specified place"
+445901000000000	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at unspecified place"
+418420002	[X]Intentional self harm by explosive material
+219340003	"[X]Intentional self harm by explosive material, occurrence at home"
+219340003	"[X]Intentional self harm by explosive material, occurrence in residential institution"
+219340003	"[X]Intentional self harm by explosive material, occurrence at school, other institution and public administrative area"
+219340003	"[X]Intentional self harm by explosive material, occurrence at sports and athletics area"
+219340003	"[X]Intentional self harm by explosive material, occurrence on street and highway"
+219340003	"[X]Intentional self harm by explosive material, occurrence at trade and service area"
+219340003	"[X]Intentional self harm by explosive material, occurrence at industrial and construction area"
+219340003	"[X]Intentional self harm by explosive material, occurrence on farm"
+219340003	"[X]Intentional self harm by explosive material, occurrence at other specified place"
+219340003	"[X]Intentional self harm by explosive material, occurrence at unspecified place"
+418420002	"[X]Intentional self harm by smoke, fire and flames"
+418420002	"[X]Intentional self harm by smoke, fire and flames, occurrence at home"
+284744004	"[X]Intentional self harm by smoke, fire and flames, occurrence in residential institution"
+284744004	"[X]Intentional self harm by smoke, fire and flames, occurrence at school, other institution and public administrative area"
+284744004	"[X]Intentional self harm by smoke, fire and flames, occurrence at sports and athletics area"
+284744004	"[X]Intentional self harm by smoke, fire and flames, occurrence on street and highway"
+284744004	"[X]Intentional self harm by smoke, fire and flames, occurrence at trade and service area"
+284744004	"[X]Intentional self harm by smoke, fire and flames, occurrence at industrial and construction area"
+284744004	"[X]Intentional self harm by smoke, fire and flames, occurrence on farm"
+284744004	"[X]Intentional self harm by smoke, fire and flames, occurrence at other specified place"
+284744004	"[X]Intentional self harm by smoke, fire and flames, occurrence at unspecified place"
+418420002	"[X]Intentional self harm by steam, hot vapours and hot objects"
+285142001	"[X]Intentional self harm by steam, hot vapours and hot objects, occurrence at home"
+285142001	"[X]Intentional self harm by steam, hot vapours and hot objects, occurrence in residential institution"
+285142001	"[X]Intentional self harm by steam, hot vapours and hot objects, occurrence at school, other institution and public administrative area"
+285142001	"[X]Intentional self harm by steam, hot vapours and hot objects, occurrence at sports and athletics area"
+285142001	"[X]Intentional self harm by steam, hot vapours and hot objects, occurrence on street and highway"
+285142001	"[X]Intentional self harm by steam, hot vapours and hot objects, occurrence at trade and service area"
+285142001	"[X]Intentional self harm by steam, hot vapours and hot objects, occurrence at industrial and construction area"
+285142001	"[X]Intentional self harm by steam, hot vapours and hot objects, occurrence on farm"
+285142001	"[X]Intentional self harm by steam, hot vapours and hot objects, occurrence at other specified place"
+285142001	"[X]Intentional self harm by steam, hot vapours and hot objects, occurrence at unspecified place"
+248073004	[X]Intentional self harm by sharp object
+446551000000000	"[X]Intentional self harm by sharp object, occurrence at home"
+459811000000000	"[X]Intentional self harm by sharp object, occurrence in residential institution"
+459821000000000	"[X]Intentional self harm by sharp object, occurrence at school, other institution and public administrative area"
+385441000000000	"[X]Intentional self harm by sharp object, occurrence at sports and athletics area"
+385451000000000	"[X]Intentional self harm by sharp object, occurrence on street and highway"
+385461000000000	"[X]Intentional self harm by sharp object, occurrence at trade and service area"
+385491000000000	"[X]Intentional self harm by sharp object, occurrence at industrial and construction area"
+385501000000000	"[X]Intentional self harm by sharp object, occurrence on farm"
+433701000000000	"[X]Intentional self harm by sharp object, occurrence at other specified place"
+445911000000000	"[X]Intentional self harm by sharp object, occurrence at unspecified place"
+418420002	[X]Intentional self harm by blunt object
+284756003	"[X]Intentional self harm by blunt object, occurrence at home"
+284756003	"[X]Intentional self harm by blunt object, occurrence in residential institution"
+284756003	"[X]Intentional self harm by blunt object, occurrence at school, other institution and public administrative area"
+284756003	"[X]Intentional self harm by blunt object, occurrence at sports and athletics area"
+284756003	"[X]Intentional self harm by blunt object, occurrence on street and highway"
+284756003	"[X]Intentional self harm by blunt object, occurrence at trade and service area"
+284756003	"[X]Intentional self harm by blunt object, occurrence at industrial and construction area"
+284756003	"[X]Intentional self harm by blunt object, occurrence on farm"
+284756003	"[X]Intentional self harm by blunt object, occurrence at other specified place"
+284756003	"[X]Intentional self harm by blunt object, occurrence at unspecified place"
+287186005	[X]Intentional self harm by jumping from a high place
+287186005	"[X]Intentional self harm by jumping from a high place, occurrence at home"
+287186005	"[X]Intentional self harm by jumping from a high place, occurrence in residential institution"
+287186005	"[X]Intentional self harm by jumping from a high place, occurrence at school, other institution and public administrative area"
+287186005	"[X]Intentional self harm by jumping from a high place, occurrence at sports and athletics area"
+287186005	"[X]Intentional self harm by jumping from a high place, occurrence on street and highway"
+287186005	"[X]Intentional self harm by jumping from a high place, occurrence at trade and service area"
+287186005	"[X]Intentional self harm by jumping from a high place, occurrence at industrial and construction area"
+287186005	"[X]Intentional self harm by jumping from a high place, occurrence on farm"
+287186005	"[X]Intentional self harm by jumping from a high place, occurrence at other specified place"
+392501000000000	"[X]Intentional self harm by jumping from a high place, occurrence at unspecified place"
+418420002	[X]Intentional self harm by jumping or lying before moving object
+224948000	"[X]Intentional self harm by jumping or lying before moving object, occurrence at home"
+224948000	"[X]Intentional self harm by jumping or lying before moving object, occurrence in residential institution"
+224948000	"[X]Intentional self harm by jumping or lying before moving object, occurrence at school, other institution and public administrative area"
+224948000	"[X]Intentional self harm by jumping or lying before moving object, occurrence at sports and athletics area"
+224948000	"[X]Intentional self harm by jumping or lying before moving object, occurrence on street and highway"
+224948000	"[X]Intentional self harm by jumping or lying before moving object, occurrence at trade and service area"
+224948000	"[X]Intentional self harm by jumping or lying before moving object, occurrence at industrial and construction area"
+224948000	"[X]Intentional self harm by jumping or lying before moving object, occurrence on farm"
+224948000	"[X]Intentional self harm by jumping or lying before moving object, occurrence at other specified place"
+224948000	"[X]Intentional self harm by jumping or lying before moving object, occurrence at unspecified place"
+418420002	[X]Intentional self harm by crashing of motor vehicle
+418420002	"[X]Intentional self harm by crashing of motor vehicle, occurrence at home"
+418420002	"[X]Intentional self harm by crashing of motor vehicle, occurrence in residential institution"
+418420002	"[X]Intentional self harm by crashing of motor vehicle, occurrence at school, other institution and public administrative area"
+418420002	"[X]Intentional self harm by crashing of motor vehicle, occurrence at sports and athletics area"
+418420002	"[X]Intentional self harm by crashing of motor vehicle, occurrence on street and highway"
+418420002	"[X]Intentional self harm by crashing of motor vehicle, occurrence at trade and service area"
+418420002	"[X]Intentional self harm by crashing of motor vehicle, occurrence at industrial and construction area"
+418420002	"[X]Intentional self harm by crashing of motor vehicle, occurrence on farm"
+418420002	"[X]Intentional self harm by crashing of motor vehicle, occurrence at other specified place"
+418420002	"[X]Intentional self harm by crashing of motor vehicle, occurrence at unspecified place"
+418420002	[X]Intentional self harm by other specified means
+418420002	"[X]Intentional self harm by other specified means, occurrence at home"
+418420002	"[X]Intentional self harm by other specified means, occurrence in residential institution"
+418420002	"[X]Intentional self harm by other specified means, occurrence at school, other institution and public administrative area"
+418420002	"[X]Intentional self harm by other specified means, occurrence at sports and athletics area"
+418420002	"[X]Intentional self harm by other specified means, occurrence on street and highway"
+418420002	"[X]Intentional self harm by other specified means, occurrence at trade and service area"
+418420002	"[X]Intentional self harm by other specified means, occurrence at industrial and construction area"
+418420002	"[X]Intentional self harm by other specified means, occurrence on farm"
+418420002	"[X]Intentional self harm by other specified means, occurrence at other specified place"
+418420002	"[X]Intentional self harm by other specified means, occurrence at unspecified place"
+418420002	[X]Intentional self harm by unspecified means
+418420002	"[X]Intentional self harm by unspecified means, occurrence at home"
+418420002	"[X]Intentional self harm by unspecified means, occurrence in residential institution"
+418420002	"[X]Intentional self harm by unspecified means, occurrence at school, other institution and public administrative area"
+418420002	"[X]Intentional self harm by unspecified means, occurrence at sports and athletics area"
+418420002	"[X]Intentional self harm by unspecified means, occurrence on street and highway"
+418420002	"[X]Intentional self harm by unspecified means, occurrence at trade and service area"
+418420002	"[X]Intentional self harm by unspecified means, occurrence at industrial and construction area"
+418420002	"[X]Intentional self harm by unspecified means, occurrence on farm"
+418420002	"[X]Intentional self harm by unspecified means, occurrence at other specified place"
+418420002	"[X]Intentional self harm by unspecified means, occurrence at unspecified place"
+219187002	"[X]Assault by drugs, medicaments and biological substances"
+75478009	"[X]Poisoning by and exposure to noxious substances, undetermined intent"
+290133008	"[X]Poisoning by and exposure to nonopioid analgesics, undetermined intent"
+290133008	"[X]Poisoning by and exposure to nonopioid analgesics, occurrence at home, undetermined intent"
+290133008	"[X]Poisoning by and exposure to nonopioid analgesics, occurrence in residential institution, undetermined intent"
+290133008	"[X]Poisoning by and exposure to nonopioid analgesics, occurrence at school, other institution and public administrative area, undetermined intent"
+290133008	"[X]Poisoning by and exposure to nonopioid analgesics, occurrence at sports and athletics area, undetermined intent"
+290133008	"[X]Poisoning by and exposure to nonopioid analgesics, occurrence on street and highway, undetermined intent"
+290133008	"[X]Poisoning by and exposure to nonopioid analgesics, occurrence at trade and service area, undetermined intent"
+290133008	"[X]Poisoning by and exposure to nonopioid analgesics, occurrence at industrial and construction area, undetermined intent"
+290133008	"[X]Poisoning by and exposure to nonopioid analgesics, occurrence on farm, undetermined intent"
+290133008	"[X]Poisoning by and exposure to nonopioid analgesics, occurrence at other specified place, undetermined intent"
+290133008	"[X]Poisoning by and exposure to nonopioid analgesics, occurrence at unspecified place, undetermined intent"
+42377002	"[X]Poisoning by and exposure to antiepileptics, undetermined intent"
+42377002	"[X]Poisoning by and exposure to antiepileptics, occurrence at home, undetermined intent"
+42377002	"[X]Poisoning by and exposure to antiepileptics, occurrence in residential institution, undetermined intent"
+42377002	"[X]Poisoning by and exposure to antiepileptics, occurrence at school, other institution and public administrative area, undetermined intent"
+42377002	"[X]Poisoning by and exposure to antiepileptics, occurrence on street and highway, undetermined intent"
+42377002	"[X]Poisoning by and exposure to antiepileptics, occurrence at trade and service area, undetermined intent"
+42377002	"[X]Poisoning by and exposure to antiepileptics, occurrence at industrial and construction area, undetermined intent"
+42377002	"[X]Poisoning by and exposure to antiepileptics, occurrence on farm, undetermined intent"
+42377002	"[X]Poisoning by and exposure to antiepileptics, occurrence at other specified place, undetermined intent"
+42377002	"[X]Poisoning by and exposure to antiepileptics, occurrence at unspecified place, undetermined intent"
+85337000	"[X]Poisoning by and exposure to sedative hypnotics, undetermined intent"
+85337000	"[X]Poisoning by and exposure to sedative hypnotics, occurrence at home, undetermined intent"
+85337000	"[X]Poisoning by and exposure to sedative hypnotics, occurrence in residential institution, undetermined intent"
+85337000	"[X]Poisoning by and exposure to sedative hypnotics, occurrence at school, other institution and public administrative area, undetermined intent"
+85337000	"[X]Poisoning by and exposure to sedative hypnotics, occurrence at sports and athletics area, undetermined intent"
+85337000	"[X]Poisoning by and exposure to sedative hypnotics, occurrence on street and highway, undetermined intent"
+85337000	"[X]Poisoning by and exposure to sedative hypnotics, occurrence at trade and service area, undetermined intent"
+85337000	"[X]Poisoning by and exposure to sedative hypnotics, occurrence at industrial and construction area, undetermined intent"
+85337000	"[X]Poisoning by and exposure to sedative hypnotics, occurrence on farm, undetermined intent"
+85337000	"[X]Poisoning by and exposure to sedative hypnotics, occurrence at other specified place, undetermined intent"
+85337000	"[X]Poisoning by and exposure to sedative hypnotics, occurrence at unspecified place, undetermined intent"
+4836003	"[X]Poisoning by and exposure to antiparkinson drugs, undetermined intent"
+4836003	"[X]Poisoning by and exposure to antiparkinson drugs, occurrence at home, undetermined intent"
+4836003	"[X]Poisoning by and exposure to antiparkinson drugs, occurrence in residential institution, undetermined intent"
+4836003	"[X]Poisoning by and exposure to antiparkinson drugs, occurrence at school, other institution and public administrative area, undetermined intent"
+4836003	"[X]Poisoning by and exposure to antiparkinson drugs, occurrence at sports and athletics area, undetermined intent"
+4836003	"[X]Poisoning by and exposure to antiparkinson drugs, occurrence on street and highway, undetermined intent"
+4836003	"[X]Poisoning by and exposure to antiparkinson drugs, occurrence at trade and service area, undetermined intent"
+4836003	"[X]Poisoning by and exposure to antiparkinson drugs, occurrence at industrial and construction area, undetermined intent"
+4836003	"[X]Poisoning by and exposure to antiparkinson drugs, occurrence on farm, undetermined intent"
+4836003	"[X]Poisoning by and exposure to antiparkinson drugs, occurrence at other specified place, undetermined intent"
+4836003	"[X]Poisoning by and exposure to antiparkinson drugs, occurrence at unspecified place, undetermined intent"
+61438005	"[X]Poisoning by and exposure to psychotropic drugs, undetermined intent"
+61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at home, undetermined intent"
+61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence in residential institution, undetermined intent"
+61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at school, other institution and public administrative area, undetermined intent"
+61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at sports and athletics area, undetermined intent"
+61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence on street and highway, undetermined intent"
+61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at trade and service area, undetermined intent"
+61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at industrial and construction area, undetermined intent"
+61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence on farm, undetermined intent"
+61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at other specified place, undetermined intent"
+61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at unspecified place, undetermined intent"
+844631000000000	ARF induced by poison
 241748001	Aromatic analges.poisoning NEC
 212597004	Phenacetin poisoning
 241748001	Aromatic analges.poisoning NOS
@@ -206,16 +694,16 @@
 241762008	Beta blocker poisoning
 7895008	Other drug/medic.poisoning NOS
 7895008	Drug/medicament poisoning NOS
-288293001	"Pois,oth/uns antipsy/n'lept"
+288293001	"Pois,oth/uns antipsy/nlept"
 75478009	Drug/medicam./biol.poison.NOS
 275385007	"[X]Poisoning, drug/biol subst"
 241748001	"[X]Poisoning by oth analg,NEC"
 290486002	"[X]Poisoning,oth/uns gen anaes"
 42377002	"[X]Pois,mix antiepileptics,NEC"
-4.41931E+14	"[X]Pois,oth antiep/sed-hyp drg"
+441931000000000	"[X]Pois,oth antiep/sed-hyp drg"
 4836003	"[X]Pois,antipk dr/mus tone dep"
 82276009	"[X]Pois,oth/unsp antidepressan"
-288293001	"[X]Pois,oth/uns antipsy/n'lept"
+288293001	"[X]Pois,oth/uns antipsy/nlept"
 61438005	"[X]Pois,oth psychtrop drug,NEC"
 7895008	"[X]Pois,oth uns drug/biol subs"
 241756003	"[X]Poisn anaesthetic, unspecif"
@@ -295,17 +783,17 @@
 219344007	Inj.?acc-stabbing
 219342006	Inj.?acc-cutting/stabbing NOS
 219359001	Inj.?acc - electrocution
-4.61371E+14	[X]Intentional self poisoning
-3.93341E+14	[X]Self pois nonop analg home
-4.74461E+14	[X]S/pois nonop analg res ins
-4.22721E+14	[X]S/pois nonop analg pub ins
-3.87071E+14	[X]S/pois nonop anal sport ar
-3.85711E+14	[X]S/pois nonop analg on hway
-4.73621E+14	[X]S/pois nonop anal trade ar
-3.85731E+14	[X]S/pois nonop anal indus ar
-4.58171E+14	[X]S/pois nonop analg on farm
-4.59381E+14	[X]S/pois nonop anal OS place
-4.59421E+14	[X]S/pois nonop analg unsp pl
+461371000000000	[X]Intentional self poisoning
+393341000000000	[X]Self pois nonop analg home
+474461000000000	[X]S/pois nonop analg res ins
+422721000000000	[X]S/pois nonop analg pub ins
+387071000000000	[X]S/pois nonop anal sport ar
+385711000000000	[X]S/pois nonop analg on hway
+473621000000000	[X]S/pois nonop anal trade ar
+385731000000000	[X]S/pois nonop anal indus ar
+458171000000000	[X]S/pois nonop analg on farm
+459381000000000	[X]S/pois nonop anal OS place
+459421000000000	[X]S/pois nonop analg unsp pl
 271982007	[X]Self poison antiepileptic
 42377002	[X]Self pois antiepilept home
 42377002	[X]S/pois antiepilept res ins
@@ -348,16 +836,16 @@
 61438005	[X]S/pois psychotrop on farm
 61438005	[X]S/pois psychotrop OS place
 61438005	[X]S/pois psychotrop unsp pl
-4.33941E+14	[X]Self pois narcotic home
-3.85601E+14	[X]S/pois narcotic res ins
-4.21581E+14	[X]S/pois narcotic pub ins
-4.46651E+14	[X]S/pois narcotic sport ar
-4.46661E+14	[X]S/pois narcotic on hway
-3.93011E+14	[X]S/pois narcotic trade ar
-4.46791E+14	[X]S/pois narcotic indus ar
-3.93331E+14	[X]S/pois narcotic on farm
-4.58971E+14	[X]S/pois narcotic OS place
-4.03681E+14	[X]S/pois narcotic unsp pl
+433941000000000	[X]Self pois narcotic home
+385601000000000	[X]S/pois narcotic res ins
+421581000000000	[X]S/pois narcotic pub ins
+446651000000000	[X]S/pois narcotic sport ar
+446661000000000	[X]S/pois narcotic on hway
+393011000000000	[X]S/pois narcotic trade ar
+446791000000000	[X]S/pois narcotic indus ar
+393331000000000	[X]S/pois narcotic on farm
+458971000000000	[X]S/pois narcotic OS place
+403681000000000	[X]S/pois narcotic unsp pl
 271982007	[X]Int s/poising hallucinogens
 85975005	[X]Self pois hallucinog home
 85975005	[X]S/pois hallucinog res ins
@@ -424,16 +912,16 @@
 271982007	[X]S/pois other gases on farm
 271982007	[X]S/pois oth gases OS place
 271982007	[X]S/pois other gases unsp pl
-3.92701E+14	[X]Self pois pesticide home
-4.20741E+14	[X]S/pois pesticide res ins
-3.92001E+14	[X]S/pois pesticide pub ins
-4.45311E+14	[X]S/pois pesticide sport ar
-4.57141E+14	[X]S/pois pesticide on hway
-4.57161E+14	[X]S/pois pesticide trade ar
-3.91791E+14	[X]S/pois pesticide indus ar
-4.72721E+14	[X]S/pois pesticide on farm
-4.45341E+14	[X]S/pois pesticide OS place
-4.03581E+14	[X]S/pois pesticide unsp pl
+392701000000000	[X]Self pois pesticide home
+420741000000000	[X]S/pois pesticide res ins
+392001000000000	[X]S/pois pesticide pub ins
+445311000000000	[X]S/pois pesticide sport ar
+457141000000000	[X]S/pois pesticide on hway
+457161000000000	[X]S/pois pesticide trade ar
+391791000000000	[X]S/pois pesticide indus ar
+472721000000000	[X]S/pois pesticide on farm
+445341000000000	[X]S/pois pesticide OS place
+403581000000000	[X]S/pois pesticide unsp pl
 271982007	[X]Slf/pois oth/unsp chemical
 271982007	[X]Self pois chemical in home
 271982007	[X]S/pois chemical res instit
@@ -446,66 +934,66 @@
 271982007	[X]S/pois chemical OS place
 271982007	[X]S/pois chemical unsp place
 248062006	[X]Int self hang/strang/suffoc
-4.34241E+14	[X]Int self hang/suffoc home
-4.73791E+14	[X]Int self hang/suffoc res in
+434241000000000	[X]Int self hang/suffoc home
+473791000000000	[X]Int self hang/suffoc res in
 248062006	[X]Int self hang/suff sport ar
 248062006	[X]Int self hang/suffoc hway
 248062006	[X]Int self hang/suff trade ar
 248062006	[X]Int self hang/suff indus ar
 248062006	[X]Int self hang/suff farm
 248062006	[X]Int self hang/suff OS place
-3.91821E+14	[X]Int self hang/suff unsp pl
-4.46891E+14	[X]Inten self drown/submersion
-4.58281E+14	[X]Inten self submersion home
-4.73731E+14	[X]Inten self submers res ins
-4.57321E+14	[X]Inten self submers pub inst
-3.85231E+14	[X]Inten self submers sport ar
-4.57331E+14	[X]Inten self submersion hway
-3.92011E+14	[X]Inten self submers trade ar
-3.92021E+14	[X]Inten self submers indus ar
-3.92031E+14	[X]Inten self submersion farm
-4.72681E+14	[X]Inten self submers OS place
-4.15591E+14	[X]Inten self submers unsp pl
-4.72701E+14	[X]Intention self harm handgun
-4.20511E+14	[X]Int shot self handgun home
-3.91801E+14	[X]Int shot self h'gun res ins
-4.05051E+14	[X]Int shot self h'gun pub ins
-4.05061E+14	[X]Int shot slf h'gun sport ar
-3.93111E+14	[X]Int shot self h'gun highway
-4.58381E+14	[X]Int shot slf h'gun trade ar
-4.58391E+14	[X]Int shot slf h'gun indus ar
-4.34261E+14	[X]Int shot self handgun farm
-4.22691E+14	[X]Int shot self h'gun OS plce
-3.93841E+14	[X]Int shot self h'gun unsp pl
-3.87051E+14	[X]Intent self harm larger gun
-3.93871E+14	[X]Int shot self larg gun home
-3.93881E+14	[X]Int shot self lg gun res in
-4.21331E+14	[X]Int shot slf lg gun sportpl
-4.46251E+14	[X]Int shot self larg gun hway
-4.73371E+14	[X]Int shot slf lg gun tradepl
-4.04741E+14	[X]Int shot self larg gun farm
-4.32991E+14	[X]Int shot self lg gun OS plc
-4.45021E+14	[X]Int shot self lg gun uns pl
-4.03641E+14	[X]Int self harm ot/un firearm
-4.33281E+14	[X]Int self harm firearm home
-4.72751E+14	[X]Int slf harm firearm res in
-4.03671E+14	[X]Int slf harm firearm pub in
-4.45351E+14	[X]Int slf harm firearm sportp
-4.04831E+14	[X]Int self harm firearm hway
-4.58531E+14	[X]Int slf harm firearm tradep
-4.57721E+14	[X]Int slf harm firearm indust
-3.85481E+14	[X]Int self harm firearm farm
-4.45891E+14	[X]Int slf harm firearm OS plc
-4.45901E+14	[X]Int slf harm firearm uns pl
+391821000000000	[X]Int self hang/suff unsp pl
+446891000000000	[X]Inten self drown/submersion
+458281000000000	[X]Inten self submersion home
+473731000000000	[X]Inten self submers res ins
+457321000000000	[X]Inten self submers pub inst
+385231000000000	[X]Inten self submers sport ar
+457331000000000	[X]Inten self submersion hway
+392011000000000	[X]Inten self submers trade ar
+392021000000000	[X]Inten self submers indus ar
+392031000000000	[X]Inten self submersion farm
+472681000000000	[X]Inten self submers OS place
+415591000000000	[X]Inten self submers unsp pl
+472701000000000	[X]Intention self harm handgun
+420511000000000	[X]Int shot self handgun home
+391801000000000	[X]Int shot self hgun res ins
+405051000000000	[X]Int shot self hgun pub ins
+405061000000000	[X]Int shot slf hgun sport ar
+393111000000000	[X]Int shot self hgun highway
+458381000000000	[X]Int shot slf hgun trade ar
+458391000000000	[X]Int shot slf hgun indus ar
+434261000000000	[X]Int shot self handgun farm
+422691000000000	[X]Int shot self hgun OS plce
+393841000000000	[X]Int shot self hgun unsp pl
+387051000000000	[X]Intent self harm larger gun
+393871000000000	[X]Int shot self larg gun home
+393881000000000	[X]Int shot self lg gun res in
+421331000000000	[X]Int shot slf lg gun sportpl
+446251000000000	[X]Int shot self larg gun hway
+473371000000000	[X]Int shot slf lg gun tradepl
+404741000000000	[X]Int shot self larg gun farm
+432991000000000	[X]Int shot self lg gun OS plc
+445021000000000	[X]Int shot self lg gun uns pl
+403641000000000	[X]Int self harm ot/un firearm
+433281000000000	[X]Int self harm firearm home
+472751000000000	[X]Int slf harm firearm res in
+403671000000000	[X]Int slf harm firearm pub in
+445351000000000	[X]Int slf harm firearm sportp
+404831000000000	[X]Int self harm firearm hway
+458531000000000	[X]Int slf harm firearm tradep
+457721000000000	[X]Int slf harm firearm indust
+385481000000000	[X]Int self harm firearm farm
+445891000000000	[X]Int slf harm firearm OS plc
+445901000000000	[X]Int slf harm firearm uns pl
 418420002	[X]Intent self harm explosion
-219340003	[X]Int self harm explos'n home
+219340003	[X]Int self harm explosn home
 219340003	[X]Int slf harm explos res ins
 219340003	[X]Int slf harm explos pub ins
 219340003	[X]Int slf harm explos sportpl
-219340003	[X]Int self harm explos'n hway
+219340003	[X]Int self harm explosn hway
 219340003	[X]Int slf harm explos tradepl
 219340003	[X]Int self harm explos indust
-219340003	[X]Int self harm explos'n farm
+219340003	[X]Int self harm explosn farm
 219340003	[X]Int slf harm explos OS plce
 219340003	[X]Int slf harm explos unsp pl
 418420002	[X]Intent self harm smoke/fire
@@ -531,16 +1019,16 @@
 285142001	[X]Int self burn vap/obj OS pl
 285142001	[X]Int slf burn vap/obj uns pl
 248073004	[X]Inten cut self sharp object
-4.46551E+14	[X]Intention cut self at home
-4.59811E+14	[X]Int cut self at res instit
-4.59821E+14	[X]Int cut self at public inst
-3.85441E+14	[X]Int cut self at sport area
-3.85451E+14	[X]Intent cut self on highway
-3.85461E+14	[X]Intent cut self trade area
-3.85491E+14	[X]Int cut self in indus area
-3.85501E+14	[X]Intention cut self at farm
-4.33701E+14	[X]Intent cut self at OS place
-4.45911E+14	[X]Int cut self at unsp pl
+446551000000000	[X]Intention cut self at home
+459811000000000	[X]Int cut self at res instit
+459821000000000	[X]Int cut self at public inst
+385441000000000	[X]Int cut self at sport area
+385451000000000	[X]Intent cut self on highway
+385461000000000	[X]Intent cut self trade area
+385491000000000	[X]Int cut self in indus area
+385501000000000	[X]Intention cut self at farm
+433701000000000	[X]Intent cut self at OS place
+445911000000000	[X]Int cut self at unsp pl
 418420002	[X]Intention blunt self injury
 284756003	[X]Int blunt self injury home
 284756003	[X]Int blunt self inj res inst
@@ -562,7 +1050,7 @@
 287186005	[X]Int jump from high indus ar
 287186005	[X]Int jump from high at farm
 287186005	[X]Int jump from high OS place
-3.92501E+14	[X]Int jump from high unsp pl
+392501000000000	[X]Int jump from high unsp pl
 418420002	[X]Inten lie bef moving object
 224948000	[X]Lie before movin objec home
 224948000	[X]Lie before mov obj res inst
@@ -750,7 +1238,7 @@
 314550003	H/O: deliberate self harm
 161589007	H/O: poisoning
 390867000	H/O: repeated overdose
-5.18431E+14	Intentional overdose of POM
+518431000000000	Intentional overdose of POM
 473128000	Suspected drug overdose
 242836008	Suicide+SII - solid/liquid
 314550003	[V]Personal history/self-harm
@@ -758,23 +1246,23 @@
 241748001	"[X]Poisoning by oth analg,NEC"
 290486002	"[X]Poisoning,oth/uns gen anaes"
 42377002	"[X]Pois,mix antiepileptics,NEC"
-4.41931E+14	"[X]Pois,oth antiep/sed-hyp drg"
+441931000000000	"[X]Pois,oth antiep/sed-hyp drg"
 4836003	"[X]Pois,antipk dr/mus tone dep"
 82276009	"[X]Pois,oth/unsp antidepressan"
-288293001	"[X]Pois,oth/uns antipsy/n'lept"
+288293001	"[X]Pois,oth/uns antipsy/nlept"
 61438005	"[X]Pois,oth psychtrop drug,NEC"
 7895008	"[X]Pois,oth uns drug/biol subs"
 241756003	"[X]Poisn anaesthetic, unspecif"
-3.93341E+14	[X]Self pois nonop analg home
-4.74461E+14	[X]S/pois nonop analg res ins
-4.22721E+14	[X]S/pois nonop analg pub ins
-3.87071E+14	[X]S/pois nonop anal sport ar
-3.85711E+14	[X]S/pois nonop analg on hway
-4.73621E+14	[X]S/pois nonop anal trade ar
-3.85731E+14	[X]S/pois nonop anal indus ar
-4.58171E+14	[X]S/pois nonop analg on farm
-4.59381E+14	[X]S/pois nonop anal OS place
-4.59421E+14	[X]S/pois nonop analg unsp pl
+393341000000000	[X]Self pois nonop analg home
+474461000000000	[X]S/pois nonop analg res ins
+422721000000000	[X]S/pois nonop analg pub ins
+387071000000000	[X]S/pois nonop anal sport ar
+385711000000000	[X]S/pois nonop analg on hway
+473621000000000	[X]S/pois nonop anal trade ar
+385731000000000	[X]S/pois nonop anal indus ar
+458171000000000	[X]S/pois nonop analg on farm
+459381000000000	[X]S/pois nonop anal OS place
+459421000000000	[X]S/pois nonop analg unsp pl
 271982007	[X]Self poison antiepileptic
 42377002	[X]Self pois antiepilept home
 42377002	[X]S/pois antiepilept res ins
@@ -816,16 +1304,16 @@
 61438005	[X]S/pois psychotrop on farm
 61438005	[X]S/pois psychotrop OS place
 61438005	[X]S/pois psychotrop unsp pl
-4.33941E+14	[X]Self pois narcotic home
-3.85601E+14	[X]S/pois narcotic res ins
-4.21581E+14	[X]S/pois narcotic pub ins
-4.46651E+14	[X]S/pois narcotic sport ar
-4.46661E+14	[X]S/pois narcotic on hway
-3.93011E+14	[X]S/pois narcotic trade ar
-4.46791E+14	[X]S/pois narcotic indus ar
-3.93331E+14	[X]S/pois narcotic on farm
-4.58971E+14	[X]S/pois narcotic OS place
-4.03681E+14	[X]S/pois narcotic unsp pl
+433941000000000	[X]Self pois narcotic home
+385601000000000	[X]S/pois narcotic res ins
+421581000000000	[X]S/pois narcotic pub ins
+446651000000000	[X]S/pois narcotic sport ar
+446661000000000	[X]S/pois narcotic on hway
+393011000000000	[X]S/pois narcotic trade ar
+446791000000000	[X]S/pois narcotic indus ar
+393331000000000	[X]S/pois narcotic on farm
+458971000000000	[X]S/pois narcotic OS place
+403681000000000	[X]S/pois narcotic unsp pl
 271982007	[X]Int s/poising hallucinogens
 85975005	[X]Self pois hallucinog home
 85975005	[X]S/pois hallucinog res ins
@@ -859,6 +1347,132 @@
 271982007	[X]S/pois drug/medic on farm
 271982007	[X]S/pois drug/medic OS place
 271982007	[X]S/pois drug/medic unsp pl
+32835006	"[X]Poisoning by and exposure to other autonomic drugs, undetermined intent"
+32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at home, undetermined intent"
+32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence in residential institution, undetermined intent"
+32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at school, other institution and public administrative area, undetermined intent"
+32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at sports and athletics area, undetermined intent"
+32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence on street and highway, undetermined intent"
+32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at trade and service area, undetermined intent"
+32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at industrial and construction area, undetermined intent"
+32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence on farm, undetermined intent"
+32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at other specified place, undetermined intent"
+32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at unspecified place, undetermined intent"
+269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, undetermined intent"
+269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at home, undetermined intent"
+269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence in residential institution, undetermined intent"
+269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at school, other institution and public administrative area, undetermined intent"
+269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at sports and athletics area, undetermined intent"
+269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence on street and highway, undetermined intent"
+269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at trade and service area, undetermined intent"
+269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at industrial and construction area, undetermined intent"
+269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence on farm, undetermined intent"
+269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at other specified place, undetermined intent"
+269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at unspecified place, undetermined intent"
+67426006	"[X]Poisoning by and exposure to alcohol, undetermined intent"
+67426006	"[X]Poisoning by and exposure to alcohol, occurrence at home, undetermined intent"
+67426006	"[X]Poisoning by and exposure to alcohol, occurrence in residential institution, undetermined intent"
+67426006	"[X]Poisoning by and exposure to alcohol, occurrence at school, other institution and public administrative area, undetermined intent"
+67426006	"[X]Poisoning by and exposure to alcohol, occurrence at sports and athletics area, undetermined intent"
+67426006	"[X]Poisoning by and exposure to alcohol, occurrence on street and highway, undetermined intent"
+67426006	"[X]Poisoning by and exposure to alcohol, occurrence at trade and service area, undetermined intent"
+67426006	"[X]Poisoning by and exposure to alcohol, occurrence at industrial and construction area, undetermined intent"
+67426006	"[X]Poisoning by and exposure to alcohol, occurrence on farm, undetermined intent"
+67426006	"[X]Poisoning by and exposure to alcohol, occurrence at other specified place, undetermined intent"
+67426006	"[X]Poisoning by and exposure to alcohol, occurrence at unspecified place, undetermined intent"
+57335002	"[X]Poisoning by and exposure to other gas and vapours, undetermined intent"
+57335002	"[X]Poisoning by and exposure to other gas and vapours, occurrence at home, undetermined intent"
+57335002	"[X]Poisoning by and exposure to other gas and vapours, occurrence in residential institution, undetermined intent"
+57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence at school, other institution and public administrative area, undetermined intent"
+57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence at sports and athletics area, undetermined intent"
+57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence on street and highway, undetermined intent"
+57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence at trade and service area, undetermined intent"
+57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence at industrial and construction area, undetermined intent"
+57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence on farm, undetermined intent"
+57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence at other specified place, undetermined intent"
+57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence at unspecified place, undetermined intent"
+37131007	"[X]Poisoning by and exposure to pesticides, undetermined intent"
+37131007	"[X]Poisoning by and exposure to pesticides, occurrence at home, undetermined intent"
+37131007	"[X]Poisoning by and exposure to pesticides, occurrence in residential institution, undetermined intent"
+37131007	"[X]Poisoning by and exposure to pesticides, occurrence at school, other institution and public administrative area, undetermined intent"
+37131007	"[X]Poisoning by and exposure to pesticides, occurrence at sports and athletics area, undetermined intent"
+37131007	"[X]Poisoning by and exposure to pesticides, occurrence on street and highway, undetermined intent"
+37131007	"[X]Poisoning by and exposure to pesticides, occurrence at trade and service area, undetermined intent"
+37131007	"[X]Poisoning by and exposure to pesticides, occurrence at industrial and construction area, undetermined intent"
+37131007	"[X]Poisoning by and exposure to pesticides, occurrence on farm, undetermined intent"
+37131007	"[X]Poisoning by and exposure to pesticides, occurrence at other specified place, undetermined intent"
+37131007	"[X]Poisoning by and exposure to pesticides, occurrence at unspecified place, undetermined intent"
+75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, undetermined intent"
+75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at home, undetermined intent"
+75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence in residential institution, undetermined intent"
+75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at school, other institution and public administrative area, undetermined intent"
+75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at sports and athletics area, undetermined intent"
+75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence on street and highway, undetermined intent"
+75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at trade and service area, undetermined intent"
+75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at industrial and construction area, undetermined intent"
+75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence on farm, undetermined intent"
+75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at other specified place, undetermined intent"
+75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at unspecified place, undetermined intent"
+219328003	"[X]Hanging, strangulation and suffocation undetermined intent"
+219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at home"
+219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence in residential institution"
+219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at school, other institution and public administrative area"
+219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at sports and athletics area"
+219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence on street and highway"
+219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at trade and service area"
+219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at industrial and construction area"
+219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence on farm"
+219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at other specified place"
+219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at unspecified place"
+362977000	"[X]Sequelae of intentional self-harm, assault and events of undetermined intent"
+362977000	[X]Sequelae of intentional self-harm
+295250003	[X]Overdose - ibuprofen
+296125001	[X]Overdose - temazepam
+296058008	[X]Overdose - flurazepam
+296070007	[X]Overdose - nitrazepam
+295830007	[X]Overdose - antidepressant
+295835002	[X]Overdose - amitriptyline
+295918002	[X]Overdose - SSRI
+271982007	[X]Self poisoning from glue solvent
+431307001	[X]Overdose - sleeping tabs
+296015009	[X]Overdose - sleeping tabs
+271982007	[X]Self carbon monoxide poisoning
+271982007	[X]Self carbon monoxide poisoning
+274912004	[X]Self poisoning with weedkiller
+7895008	Drug poisoning
+274912004	Suicide and selfinflicted poisoning by agricultural and horticultural chemical and pharmaceutical preparations other than plant foods and fertilizers
+248062006	"Suicide and selfinflicted injury by hanging, strangulation and suffocation"
+248062006	[X]Self inflicted injury
+248062006	[X]Injury - self-inflicted
+44301001	[X]Suicide
+82313006	[X]Attempted suicide
+48981002	[X]Para-suicide
+242837004	[X]Self poisoning with paraquat
+403582001	"Suicide and selfinflicted injury by caustic substances, excluding poisoning"
+461371000000000	[X]Deliberate drug overdose / other poisoning
+295174006	[X]Overdose - heroin
+287183002	Suicide and selfinflicted injury by drowning
+241748001	Analgesic poisoning
+241756003	Anaesthetic poisoning
+48981002	Para-suicide
+161474000	H/O: attempted suicide
+161589007	H/O: poisoning
+161589007	[V]Personal history of poisoning
+248062006	Parasuicide
+130968006	[X]Self mutilation
+42377002	"[X] Intentional self poisoning by and exposure to antiepileptics, occurrence at sports and athletics area"
+42377002	"[X] Poisoning by and exposure to antiepileptics, occurrence at sports and athletics area, undetermined intent"
+82276009	Antidepressant poisoning NOS
+287186005	Suicide and selfinflicted injury by jumping from other man-made structure
+296036006	Suicide and selfinflicted poisoning by barbiturates
+242839001	Suicide and selfinflicted poisoning by gases and vapours NOS
+219125007	Suicide and selfinflicted poisoning by gases in domestic use
+271982007	Suicide and selfinflicted poisoning by drug or medicine NOS
+25980005	Secobarbital poisoning
+296036006	Suicide and self inflicted injury by phenobarbital
+296036006	Suicide and self inflicted injury by secobarbital
+64921004	Phenobarbital poisoning
+296039004	Suicide and self inflicted injury by amobarbital
 271982007	[X]Intent self poison by alcoh
 67426006	[X]Self pois alcohol home
 67426006	[X]S/pois alcohol res instit
@@ -891,16 +1505,16 @@
 271982007	[X]S/pois other gases on farm
 271982007	[X]S/pois oth gases OS place
 271982007	[X]S/pois other gases unsp pl
-3.92701E+14	[X]Self pois pesticide home
-4.20741E+14	[X]S/pois pesticide res ins
-3.92001E+14	[X]S/pois pesticide pub ins
-4.45311E+14	[X]S/pois pesticide sport ar
-4.57141E+14	[X]S/pois pesticide on hway
-4.57161E+14	[X]S/pois pesticide trade ar
-3.91791E+14	[X]S/pois pesticide indus ar
-4.72721E+14	[X]S/pois pesticide on farm
-4.45341E+14	[X]S/pois pesticide OS place
-4.03581E+14	[X]S/pois pesticide unsp pl
+392701000000000	[X]Self pois pesticide home
+420741000000000	[X]S/pois pesticide res ins
+392001000000000	[X]S/pois pesticide pub ins
+445311000000000	[X]S/pois pesticide sport ar
+457141000000000	[X]S/pois pesticide on hway
+457161000000000	[X]S/pois pesticide trade ar
+391791000000000	[X]S/pois pesticide indus ar
+472721000000000	[X]S/pois pesticide on farm
+445341000000000	[X]S/pois pesticide OS place
+403581000000000	[X]S/pois pesticide unsp pl
 271982007	[X]Slf/pois oth/unsp chemical
 271982007	[X]Self pois chemical in home
 271982007	[X]S/pois chemical res instit
@@ -913,66 +1527,66 @@
 271982007	[X]S/pois chemical OS place
 271982007	[X]S/pois chemical unsp place
 248062006	[X]Int self hang/strang/suffoc
-4.34241E+14	[X]Int self hang/suffoc home
-4.73791E+14	[X]Int self hang/suffoc res in
+434241000000000	[X]Int self hang/suffoc home
+473791000000000	[X]Int self hang/suffoc res in
 248062006	[X]Int self hang/suff sport ar
 248062006	[X]Int self hang/suffoc hway
 248062006	[X]Int self hang/suff trade ar
 248062006	[X]Int self hang/suff indus ar
 248062006	[X]Int self hang/suff farm
 248062006	[X]Int self hang/suff OS place
-3.91821E+14	[X]Int self hang/suff unsp pl
-4.46891E+14	[X]Inten self drown/submersion
-4.58281E+14	[X]Inten self submersion home
-4.73731E+14	[X]Inten self submers res ins
-4.57321E+14	[X]Inten self submers pub inst
-3.85231E+14	[X]Inten self submers sport ar
-4.57331E+14	[X]Inten self submersion hway
-3.92011E+14	[X]Inten self submers trade ar
-3.92021E+14	[X]Inten self submers indus ar
-3.92031E+14	[X]Inten self submersion farm
-4.72681E+14	[X]Inten self submers OS place
-4.15591E+14	[X]Inten self submers unsp pl
-4.72701E+14	[X]Intention self harm handgun
-4.20511E+14	[X]Int shot self handgun home
-3.91801E+14	[X]Int shot self h'gun res ins
-4.05051E+14	[X]Int shot self h'gun pub ins
-4.05061E+14	[X]Int shot slf h'gun sport ar
-3.93111E+14	[X]Int shot self h'gun highway
-4.58381E+14	[X]Int shot slf h'gun trade ar
-4.58391E+14	[X]Int shot slf h'gun indus ar
-4.34261E+14	[X]Int shot self handgun farm
-4.22691E+14	[X]Int shot self h'gun OS plce
-3.93841E+14	[X]Int shot self h'gun unsp pl
-3.87051E+14	[X]Intent self harm larger gun
-3.93871E+14	[X]Int shot self larg gun home
-3.93881E+14	[X]Int shot self lg gun res in
-4.21331E+14	[X]Int shot slf lg gun sportpl
-4.46251E+14	[X]Int shot self larg gun hway
-4.73371E+14	[X]Int shot slf lg gun tradepl
-4.04741E+14	[X]Int shot self larg gun farm
-4.32991E+14	[X]Int shot self lg gun OS plc
-4.45021E+14	[X]Int shot self lg gun uns pl
-4.03641E+14	[X]Int self harm ot/un firearm
-4.33281E+14	[X]Int self harm firearm home
-4.72751E+14	[X]Int slf harm firearm res in
-4.03671E+14	[X]Int slf harm firearm pub in
-4.45351E+14	[X]Int slf harm firearm sportp
-4.04831E+14	[X]Int self harm firearm hway
-4.58531E+14	[X]Int slf harm firearm tradep
-4.57721E+14	[X]Int slf harm firearm indust
-3.85481E+14	[X]Int self harm firearm farm
-4.45891E+14	[X]Int slf harm firearm OS plc
-4.45901E+14	[X]Int slf harm firearm uns pl
+391821000000000	[X]Int self hang/suff unsp pl
+446891000000000	[X]Inten self drown/submersion
+458281000000000	[X]Inten self submersion home
+473731000000000	[X]Inten self submers res ins
+457321000000000	[X]Inten self submers pub inst
+385231000000000	[X]Inten self submers sport ar
+457331000000000	[X]Inten self submersion hway
+392011000000000	[X]Inten self submers trade ar
+392021000000000	[X]Inten self submers indus ar
+392031000000000	[X]Inten self submersion farm
+472681000000000	[X]Inten self submers OS place
+415591000000000	[X]Inten self submers unsp pl
+472701000000000	[X]Intention self harm handgun
+420511000000000	[X]Int shot self handgun home
+391801000000000	[X]Int shot self hgun res ins
+405051000000000	[X]Int shot self hgun pub ins
+405061000000000	[X]Int shot slf hgun sport ar
+393111000000000	[X]Int shot self hgun highway
+458381000000000	[X]Int shot slf hgun trade ar
+458391000000000	[X]Int shot slf hgun indus ar
+434261000000000	[X]Int shot self handgun farm
+422691000000000	[X]Int shot self hgun OS plce
+393841000000000	[X]Int shot self hgun unsp pl
+387051000000000	[X]Intent self harm larger gun
+393871000000000	[X]Int shot self larg gun home
+393881000000000	[X]Int shot self lg gun res in
+421331000000000	[X]Int shot slf lg gun sportpl
+446251000000000	[X]Int shot self larg gun hway
+473371000000000	[X]Int shot slf lg gun tradepl
+404741000000000	[X]Int shot self larg gun farm
+432991000000000	[X]Int shot self lg gun OS plc
+445021000000000	[X]Int shot self lg gun uns pl
+403641000000000	[X]Int self harm ot/un firearm
+433281000000000	[X]Int self harm firearm home
+472751000000000	[X]Int slf harm firearm res in
+403671000000000	[X]Int slf harm firearm pub in
+445351000000000	[X]Int slf harm firearm sportp
+404831000000000	[X]Int self harm firearm hway
+458531000000000	[X]Int slf harm firearm tradep
+457721000000000	[X]Int slf harm firearm indust
+385481000000000	[X]Int self harm firearm farm
+445891000000000	[X]Int slf harm firearm OS plc
+445901000000000	[X]Int slf harm firearm uns pl
 418420002	[X]Intent self harm explosion
-219340003	[X]Int self harm explos'n home
+219340003	[X]Int self harm explosn home
 219340003	[X]Int slf harm explos res ins
 219340003	[X]Int slf harm explos pub ins
 219340003	[X]Int slf harm explos sportpl
-219340003	[X]Int self harm explos'n hway
+219340003	[X]Int self harm explosn hway
 219340003	[X]Int slf harm explos tradepl
 219340003	[X]Int self harm explos indust
-219340003	[X]Int self harm explos'n farm
+219340003	[X]Int self harm explosn farm
 219340003	[X]Int slf harm explos OS plce
 219340003	[X]Int slf harm explos unsp pl
 418420002	[X]Intent self harm smoke/fire
@@ -998,16 +1612,16 @@
 285142001	[X]Int self burn vap/obj OS pl
 285142001	[X]Int slf burn vap/obj uns pl
 248073004	[X]Inten cut self sharp object
-4.46551E+14	[X]Intention cut self at home
-4.59811E+14	[X]Int cut self at res instit
-4.59821E+14	[X]Int cut self at public inst
-3.85441E+14	[X]Int cut self at sport area
-3.85451E+14	[X]Intent cut self on highway
-3.85461E+14	[X]Intent cut self trade area
-3.85491E+14	[X]Int cut self in indus area
-3.85501E+14	[X]Intention cut self on farm
-4.33701E+14	[X]Intent cut self at OS place
-4.45911E+14	[X]Int cut self at unsp pl
+446551000000000	[X]Intention cut self at home
+459811000000000	[X]Int cut self at res instit
+459821000000000	[X]Int cut self at public inst
+385441000000000	[X]Int cut self at sport area
+385451000000000	[X]Intent cut self on highway
+385461000000000	[X]Intent cut self trade area
+385491000000000	[X]Int cut self in indus area
+385501000000000	[X]Intention cut self on farm
+433701000000000	[X]Intent cut self at OS place
+445911000000000	[X]Int cut self at unsp pl
 418420002	[X]Intention blunt self injury
 284756003	"[X]Int self inj blunt ob, home"
 284756003	[X]Int blunt self inj res inst
@@ -1029,7 +1643,7 @@
 287186005	[X]Int jump from high indus ar
 287186005	[X]Int jump from high at farm
 287186005	[X]Int jump from high OS place
-3.92501E+14	[X]Int jump from high unsp pl
+392501000000000	[X]Int jump from high unsp pl
 418420002	[X]Inten lie bef moving object
 224948000	[X]Lie before movin objec home
 224948000	[X]Lie before mov obj res inst
@@ -1238,9 +1852,9 @@
 314550003	H/O: deliberate self harm
 161589007	H/O: poisoning
 390867000	H/O: repeated overdose
-5.18431E+14	Intentional overdose of prescription only medication
+518431000000000	Intentional overdose of prescription only medication
 473128000	Suspected drug overdose
-8.44631E+14	Acute renal failure induced by poison
+844631000000000	Acute renal failure induced by poison
 75478009	Poisoning
 275385007	Poisoning by drug and biological substances
 275385007	Overdose of biological substance
@@ -1507,7 +2121,7 @@
 241748001	"[X]Poisoning by other analgesics, not elsewhere classified"
 290486002	[X]Poisoning by other and unspecified general anaesthetics
 42377002	"[X]Poisoning by mixed antiepileptics, not elsewhere classified"
-4.41931E+14	[X]Poisoning by other antiepileptic and sedative-hypnotic drugs
+441931000000000	[X]Poisoning by other antiepileptic and sedative-hypnotic drugs
 4836003	[X]Poisoning by antiparkinsonism drugs and other central muscle-tone depressants
 82276009	[X]Poisoning by other and unspecified antidepressants
 288293001	[X]Poisoning by other and unspecified antipsychotics and neuroleptics
@@ -1607,22 +2221,22 @@
 44301001	[X]Suicide
 82313006	[X]Attempted suicide
 48981002	[X]Para-suicide
-4.61371E+14	[X]Intentional self poisoning by and exposure to noxious substances
-4.61371E+14	[X]Deliberate drug overdose / other poisoning
-4.46901E+14	[X]Intentional self poisoning by and exposure to nonopioid analgesics
+461371000000000	[X]Intentional self poisoning by and exposure to noxious substances
+461371000000000	[X]Deliberate drug overdose / other poisoning
+446901000000000	[X]Intentional self poisoning by and exposure to nonopioid analgesics
 295124009	[X]Overdose - paracetamol
 295250003	[X]Overdose - ibuprofen
-4.46901E+14	[X]Overdose - aspirin
-3.93341E+14	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at home"
-4.74461E+14	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence in residential institution"
-4.22721E+14	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at school, other institution and public administrative area"
-3.87071E+14	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at sports and athletics area"
-3.85711E+14	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence on street and highway"
-4.73621E+14	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at trade and service area"
-3.85731E+14	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at industrial and construction area"
-4.58171E+14	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence on farm"
-4.59381E+14	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at other specified place"
-4.59421E+14	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at unspecified place"
+446901000000000	[X]Overdose - aspirin
+393341000000000	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at home"
+474461000000000	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence in residential institution"
+422721000000000	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at school, other institution and public administrative area"
+387071000000000	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at sports and athletics area"
+385711000000000	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence on street and highway"
+473621000000000	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at trade and service area"
+385731000000000	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at industrial and construction area"
+458171000000000	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence on farm"
+459381000000000	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at other specified place"
+459421000000000	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at unspecified place"
 271982007	[X]Intentional self poisoning by and exposure to antiepileptics
 42377002	"[X]Intentional self poisoning by and exposure to antiepileptics, occurrence at home"
 42377002	"[X]Intentional self poisoning by and exposure to antiepileptics, occurrence in residential institution"
@@ -1680,16 +2294,16 @@
 61438005	"[X]Intentional self poisoning by and exposure to psychotropic drugs, occurrence at unspecified place"
 290221007	[X]Intentional self poisoning by and exposure to narcotic drugs
 295174006	[X]Overdose - heroin
-4.33941E+14	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at home"
-3.85601E+14	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence in residential institution"
-4.21581E+14	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at school, other institution and public administrative area"
-4.46651E+14	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at sports and athletics area"
-4.46661E+14	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence on street and highway"
-3.93011E+14	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at trade and service area"
-4.46791E+14	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at industrial and construction area"
-3.93331E+14	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence on farm"
-4.58971E+14	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at other specified place"
-4.03681E+14	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at unspecified place"
+433941000000000	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at home"
+385601000000000	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence in residential institution"
+421581000000000	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at school, other institution and public administrative area"
+446651000000000	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at sports and athletics area"
+446661000000000	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence on street and highway"
+393011000000000	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at trade and service area"
+446791000000000	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at industrial and construction area"
+393331000000000	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence on farm"
+458971000000000	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at other specified place"
+403681000000000	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at unspecified place"
 271982007	[X]Intentional self poisoning by and exposure to hallucinogens
 85975005	"[X]Intentional self poisoning by and exposure to hallucinogens, occurrence at home"
 85975005	"[X]Intentional self poisoning by and exposure to hallucinogens, occurrence in residential institution"
@@ -1758,19 +2372,19 @@
 271982007	"[X]Intentional self poisoning by and exposure to other gas and vapour, occurrence on farm"
 271982007	"[X]Intentional self poisoning by and exposure to other gas and vapour, occurrence at other specified place"
 271982007	"[X]Intentional self poisoning by and exposure to other gas and vapour, occurrence at unspecified place"
-4.61331E+14	[X]Intentional self poisoning by and exposure to pesticides
+461331000000000	[X]Intentional self poisoning by and exposure to pesticides
 274912004	[X]Self poisoning with weedkiller
 242837004	[X]Self poisoning with paraquat
-3.92701E+14	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at home"
-4.20741E+14	"[X]Intentional self poisoning by and exposure to pesticides, occurrence in residential institution"
-3.92001E+14	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at school, other institution and public administrative area"
-4.45311E+14	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at sports and athletics area"
-4.57141E+14	"[X]Intentional self poisoning by and exposure to pesticides, occurrence on street and highway"
-4.57161E+14	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at trade and service area"
-3.91791E+14	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at industrial and construction area"
-4.72721E+14	"[X]Intentional self poisoning by and exposure to pesticides, occurrence on farm"
-4.45341E+14	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at other specified place"
-4.03581E+14	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at unspecified place"
+392701000000000	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at home"
+420741000000000	"[X]Intentional self poisoning by and exposure to pesticides, occurrence in residential institution"
+392001000000000	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at school, other institution and public administrative area"
+445311000000000	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at sports and athletics area"
+457141000000000	"[X]Intentional self poisoning by and exposure to pesticides, occurrence on street and highway"
+457161000000000	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at trade and service area"
+391791000000000	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at industrial and construction area"
+472721000000000	"[X]Intentional self poisoning by and exposure to pesticides, occurrence on farm"
+445341000000000	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at other specified place"
+403581000000000	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at unspecified place"
 271982007	[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances
 271982007	"[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at home"
 271982007	"[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence in residential institution"
@@ -1783,57 +2397,57 @@
 271982007	"[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at other specified place"
 271982007	"[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at unspecified place"
 248062006	"[X]Intentional self harm by hanging, strangulation and suffocation"
-4.34241E+14	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence at home"
-4.73791E+14	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence in residential institution"
+434241000000000	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence at home"
+473791000000000	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence in residential institution"
 248062006	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence at sports and athletics area"
 248062006	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence on street and highway"
 248062006	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence at trade and service area"
 248062006	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence at industrial and construction area"
 248062006	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence on farm"
 248062006	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence at other specified place"
-3.91821E+14	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence at unspecified place"
-4.46891E+14	[X]Intentional self harm by drowning and submersion
-4.58281E+14	"[X]Intentional self harm by drowning and submersion, occurrence at home"
-4.73731E+14	"[X]Intentional self harm by drowning and submersion, occurrence in residential institution"
-4.57321E+14	"[X]Intentional self harm by drowning and submersion, occurrence at school, other institution and public administrative area"
-3.85231E+14	"[X]Intentional self harm by drowning and submersion, occurrence at sports and athletics area"
-4.57331E+14	"[X]Intentional self harm by drowning and submersion, occurrence on street and highway"
-3.92011E+14	"[X]Intentional self harm by drowning and submersion, occurrence at trade and service area"
-3.92021E+14	"[X]Intentional self harm by drowning and submersion, occurrence at industrial and construction area"
-3.92031E+14	"[X]Intentional self harm by drowning and submersion, occurrence on farm"
-4.72681E+14	"[X]Intentional self harm by drowning and submersion, occurrence at other specified place"
-4.15591E+14	"[X]Intentional self harm by drowning and submersion, occurrence at unspecified place"
-4.72701E+14	[X]Intentional self harm by handgun discharge
-4.20511E+14	"[X]Intentional self harm by handgun discharge, occurrence at home"
-3.91801E+14	"[X]Intentional self harm by handgun discharge, occurrence in residential institution"
-4.05051E+14	"[X]Intentional self harm by handgun discharge, occurrence at school, other institution and public administrative area"
-4.05061E+14	"[X]Intentional self harm by handgun discharge, occurrence at sports and athletics area"
-3.93111E+14	"[X]Intentional self harm by handgun discharge, occurrence on street and highway"
-4.58381E+14	"[X]Intentional self harm by handgun discharge, occurrence at trade and service area"
-4.58391E+14	"[X]Intentional self harm by handgun discharge, occurrence at industrial and construction area"
-4.34261E+14	"[X]Intentional self harm by handgun discharge, occurrence on farm"
-4.22691E+14	"[X]Intentional self harm by handgun discharge, occurrence at other specified place"
-3.93841E+14	"[X]Intentional self harm by handgun discharge, occurrence at unspecified place"
-3.87051E+14	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge"
-3.93871E+14	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence at home"
-3.93881E+14	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence in residential institution"
-4.21331E+14	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence at sports and athletics area"
-4.46251E+14	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence on street and highway"
-4.73371E+14	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence at trade and service area"
-4.04741E+14	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence on farm"
-4.32991E+14	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence at other specified place"
-4.45021E+14	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence at unspecified place"
-4.03641E+14	[X]Intentional self harm by other and unspecified firearm discharge
-4.33281E+14	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at home"
-4.72751E+14	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence in residential institution"
-4.03671E+14	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at school, other institution and public administrative area"
-4.45351E+14	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at sports and athletics area"
-4.04831E+14	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence on street and highway"
-4.58531E+14	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at trade and service area"
-4.57721E+14	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at industrial and construction area"
-3.85481E+14	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence on farm"
-4.45891E+14	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at other specified place"
-4.45901E+14	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at unspecified place"
+391821000000000	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence at unspecified place"
+446891000000000	[X]Intentional self harm by drowning and submersion
+458281000000000	"[X]Intentional self harm by drowning and submersion, occurrence at home"
+473731000000000	"[X]Intentional self harm by drowning and submersion, occurrence in residential institution"
+457321000000000	"[X]Intentional self harm by drowning and submersion, occurrence at school, other institution and public administrative area"
+385231000000000	"[X]Intentional self harm by drowning and submersion, occurrence at sports and athletics area"
+457331000000000	"[X]Intentional self harm by drowning and submersion, occurrence on street and highway"
+392011000000000	"[X]Intentional self harm by drowning and submersion, occurrence at trade and service area"
+392021000000000	"[X]Intentional self harm by drowning and submersion, occurrence at industrial and construction area"
+392031000000000	"[X]Intentional self harm by drowning and submersion, occurrence on farm"
+472681000000000	"[X]Intentional self harm by drowning and submersion, occurrence at other specified place"
+415591000000000	"[X]Intentional self harm by drowning and submersion, occurrence at unspecified place"
+472701000000000	[X]Intentional self harm by handgun discharge
+420511000000000	"[X]Intentional self harm by handgun discharge, occurrence at home"
+391801000000000	"[X]Intentional self harm by handgun discharge, occurrence in residential institution"
+405051000000000	"[X]Intentional self harm by handgun discharge, occurrence at school, other institution and public administrative area"
+405061000000000	"[X]Intentional self harm by handgun discharge, occurrence at sports and athletics area"
+393111000000000	"[X]Intentional self harm by handgun discharge, occurrence on street and highway"
+458381000000000	"[X]Intentional self harm by handgun discharge, occurrence at trade and service area"
+458391000000000	"[X]Intentional self harm by handgun discharge, occurrence at industrial and construction area"
+434261000000000	"[X]Intentional self harm by handgun discharge, occurrence on farm"
+422691000000000	"[X]Intentional self harm by handgun discharge, occurrence at other specified place"
+393841000000000	"[X]Intentional self harm by handgun discharge, occurrence at unspecified place"
+387051000000000	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge"
+393871000000000	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence at home"
+393881000000000	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence in residential institution"
+421331000000000	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence at sports and athletics area"
+446251000000000	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence on street and highway"
+473371000000000	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence at trade and service area"
+404741000000000	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence on farm"
+432991000000000	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence at other specified place"
+445021000000000	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence at unspecified place"
+403641000000000	[X]Intentional self harm by other and unspecified firearm discharge
+433281000000000	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at home"
+472751000000000	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence in residential institution"
+403671000000000	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at school, other institution and public administrative area"
+445351000000000	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at sports and athletics area"
+404831000000000	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence on street and highway"
+458531000000000	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at trade and service area"
+457721000000000	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at industrial and construction area"
+385481000000000	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence on farm"
+445891000000000	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at other specified place"
+445901000000000	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at unspecified place"
 418420002	[X]Intentional self harm by explosive material
 219340003	"[X]Intentional self harm by explosive material, occurrence at home"
 219340003	"[X]Intentional self harm by explosive material, occurrence in residential institution"
@@ -1868,16 +2482,16 @@
 285142001	"[X]Intentional self harm by steam, hot vapours and hot objects, occurrence at other specified place"
 285142001	"[X]Intentional self harm by steam, hot vapours and hot objects, occurrence at unspecified place"
 248073004	[X]Intentional self harm by sharp object
-4.46551E+14	"[X]Intentional self harm by sharp object, occurrence at home"
-4.59811E+14	"[X]Intentional self harm by sharp object, occurrence in residential institution"
-4.59821E+14	"[X]Intentional self harm by sharp object, occurrence at school, other institution and public administrative area"
-3.85441E+14	"[X]Intentional self harm by sharp object, occurrence at sports and athletics area"
-3.85451E+14	"[X]Intentional self harm by sharp object, occurrence on street and highway"
-3.85461E+14	"[X]Intentional self harm by sharp object, occurrence at trade and service area"
-3.85491E+14	"[X]Intentional self harm by sharp object, occurrence at industrial and construction area"
-3.85501E+14	"[X]Intentional self harm by sharp object, occurrence on farm"
-4.33701E+14	"[X]Intentional self harm by sharp object, occurrence at other specified place"
-4.45911E+14	"[X]Intentional self harm by sharp object, occurrence at unspecified place"
+446551000000000	"[X]Intentional self harm by sharp object, occurrence at home"
+459811000000000	"[X]Intentional self harm by sharp object, occurrence in residential institution"
+459821000000000	"[X]Intentional self harm by sharp object, occurrence at school, other institution and public administrative area"
+385441000000000	"[X]Intentional self harm by sharp object, occurrence at sports and athletics area"
+385451000000000	"[X]Intentional self harm by sharp object, occurrence on street and highway"
+385461000000000	"[X]Intentional self harm by sharp object, occurrence at trade and service area"
+385491000000000	"[X]Intentional self harm by sharp object, occurrence at industrial and construction area"
+385501000000000	"[X]Intentional self harm by sharp object, occurrence on farm"
+433701000000000	"[X]Intentional self harm by sharp object, occurrence at other specified place"
+445911000000000	"[X]Intentional self harm by sharp object, occurrence at unspecified place"
 418420002	[X]Intentional self harm by blunt object
 284756003	"[X]Intentional self harm by blunt object, occurrence at home"
 284756003	"[X]Intentional self harm by blunt object, occurrence in residential institution"
@@ -1899,7 +2513,7 @@
 287186005	"[X]Intentional self harm by jumping from a high place, occurrence at industrial and construction area"
 287186005	"[X]Intentional self harm by jumping from a high place, occurrence on farm"
 287186005	"[X]Intentional self harm by jumping from a high place, occurrence at other specified place"
-3.92501E+14	"[X]Intentional self harm by jumping from a high place, occurrence at unspecified place"
+392501000000000	"[X]Intentional self harm by jumping from a high place, occurrence at unspecified place"
 418420002	[X]Intentional self harm by jumping or lying before moving object
 224948000	"[X]Intentional self harm by jumping or lying before moving object, occurrence at home"
 224948000	"[X]Intentional self harm by jumping or lying before moving object, occurrence in residential institution"
@@ -1996,617 +2610,3 @@
 61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at home, undetermined intent"
 61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence in residential institution, undetermined intent"
 61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at school, other institution and public administrative area, undetermined intent"
-61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at sports and athletics area, undetermined intent"
-61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence on street and highway, undetermined intent"
-61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at trade and service area, undetermined intent"
-61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at industrial and construction area, undetermined intent"
-61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence on farm, undetermined intent"
-61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at other specified place, undetermined intent"
-61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at unspecified place, undetermined intent"
-32835006	"[X]Poisoning by and exposure to other autonomic drugs, undetermined intent"
-32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at home, undetermined intent"
-32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence in residential institution, undetermined intent"
-32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at school, other institution and public administrative area, undetermined intent"
-32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at sports and athletics area, undetermined intent"
-32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence on street and highway, undetermined intent"
-32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at trade and service area, undetermined intent"
-32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at industrial and construction area, undetermined intent"
-32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence on farm, undetermined intent"
-32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at other specified place, undetermined intent"
-32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at unspecified place, undetermined intent"
-269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, undetermined intent"
-269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at home, undetermined intent"
-269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence in residential institution, undetermined intent"
-269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at school, other institution and public administrative area, undetermined intent"
-269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at sports and athletics area, undetermined intent"
-269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence on street and highway, undetermined intent"
-269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at trade and service area, undetermined intent"
-269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at industrial and construction area, undetermined intent"
-269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence on farm, undetermined intent"
-269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at other specified place, undetermined intent"
-269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at unspecified place, undetermined intent"
-67426006	"[X]Poisoning by and exposure to alcohol, undetermined intent"
-67426006	"[X]Poisoning by and exposure to alcohol, occurrence at home, undetermined intent"
-67426006	"[X]Poisoning by and exposure to alcohol, occurrence in residential institution, undetermined intent"
-67426006	"[X]Poisoning by and exposure to alcohol, occurrence at school, other institution and public administrative area, undetermined intent"
-67426006	"[X]Poisoning by and exposure to alcohol, occurrence at sports and athletics area, undetermined intent"
-67426006	"[X]Poisoning by and exposure to alcohol, occurrence on street and highway, undetermined intent"
-67426006	"[X]Poisoning by and exposure to alcohol, occurrence at trade and service area, undetermined intent"
-67426006	"[X]Poisoning by and exposure to alcohol, occurrence at industrial and construction area, undetermined intent"
-67426006	"[X]Poisoning by and exposure to alcohol, occurrence on farm, undetermined intent"
-67426006	"[X]Poisoning by and exposure to alcohol, occurrence at other specified place, undetermined intent"
-67426006	"[X]Poisoning by and exposure to alcohol, occurrence at unspecified place, undetermined intent"
-57335002	"[X]Poisoning by and exposure to other gas and vapours, undetermined intent"
-57335002	"[X]Poisoning by and exposure to other gas and vapours, occurrence at home, undetermined intent"
-57335002	"[X]Poisoning by and exposure to other gas and vapours, occurrence in residential institution, undetermined intent"
-57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence at school, other institution and public administrative area, undetermined intent"
-57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence at sports and athletics area, undetermined intent"
-57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence on street and highway, undetermined intent"
-57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence at trade and service area, undetermined intent"
-57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence at industrial and construction area, undetermined intent"
-57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence on farm, undetermined intent"
-57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence at other specified place, undetermined intent"
-57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence at unspecified place, undetermined intent"
-37131007	"[X]Poisoning by and exposure to pesticides, undetermined intent"
-37131007	"[X]Poisoning by and exposure to pesticides, occurrence at home, undetermined intent"
-37131007	"[X]Poisoning by and exposure to pesticides, occurrence in residential institution, undetermined intent"
-37131007	"[X]Poisoning by and exposure to pesticides, occurrence at school, other institution and public administrative area, undetermined intent"
-37131007	"[X]Poisoning by and exposure to pesticides, occurrence at sports and athletics area, undetermined intent"
-37131007	"[X]Poisoning by and exposure to pesticides, occurrence on street and highway, undetermined intent"
-37131007	"[X]Poisoning by and exposure to pesticides, occurrence at trade and service area, undetermined intent"
-37131007	"[X]Poisoning by and exposure to pesticides, occurrence at industrial and construction area, undetermined intent"
-37131007	"[X]Poisoning by and exposure to pesticides, occurrence on farm, undetermined intent"
-37131007	"[X]Poisoning by and exposure to pesticides, occurrence at other specified place, undetermined intent"
-37131007	"[X]Poisoning by and exposure to pesticides, occurrence at unspecified place, undetermined intent"
-75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, undetermined intent"
-75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at home, undetermined intent"
-75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence in residential institution, undetermined intent"
-75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at school, other institution and public administrative area, undetermined intent"
-75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at sports and athletics area, undetermined intent"
-75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence on street and highway, undetermined intent"
-75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at trade and service area, undetermined intent"
-75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at industrial and construction area, undetermined intent"
-75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence on farm, undetermined intent"
-75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at other specified place, undetermined intent"
-75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at unspecified place, undetermined intent"
-219328003	"[X]Hanging, strangulation and suffocation undetermined intent"
-219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at home"
-219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence in residential institution"
-219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at school, other institution and public administrative area"
-219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at sports and athletics area"
-219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence on street and highway"
-219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at trade and service area"
-219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at industrial and construction area"
-219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence on farm"
-219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at other specified place"
-219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at unspecified place"
-362977000	"[X]Sequelae of intentional self-harm, assault and events of undetermined intent"
-362977000	[X]Sequelae of intentional self-harm
-161589007	[V]Personal history of poisoning
-314550003	[V]Personal history of self-harm
-275385007	(Poisoning (& [drug] &/or [biological substance] or [medicinal])) or (overdose: [biological substance] or [drug])
-212586004	Analgesic &/or antipyretic and antirheumatic drug poisoning
-85337000	Poisoning: [sedative] &/or [hypnotic drug]
-85337000	Poisoning: [sleeping drug] or [sedative and hypnotic drug NOS]
-212640009	Poisoning: [anaesthetic (& agent)] &/or [central nervous system depressants]
-61438005	Poisoning: [tranquilliser] or [psychotropic agent]
-20260003	Poisoning: [psychostimulant] or [stimulant]
-248062006	(Selfinflicted injury) or (cause of deliberate overdose) or (suicide) or (para-suicide)
-418420002	[X](Intentional self-harm) or (suicide)
-271982007	[X]Intentional poisoning: [self] or [drug overdose] or [other]
-290221007	[X](Intentional self poisoning by narcotic drugs) or (heroin overdose)
-271982007	[X]Self poisoning: [intentional - exposure to other gas and vapours] or [carbon monoxide]
-4.01901E+14	[X]Self poisoning (& intentional): [pesticides] or [weedkiller] or [paraquat]
-64921004	Phenobarbitone poisoning
-242836008	Suicide and selfinflicted poisoning by solid and liquid substances
-314550003	[V]Personal history of self-harm
-275385007	[X]Poisoning by drugs and biological substances
-241748001	"[X]Poisoning by other analgesics, not elsewhere classified"
-290486002	[X]Poisoning by other and unspecified general anaesthetics
-42377002	"[X]Poisoning by mixed antiepileptics, not elsewhere classified"
-4.41931E+14	[X]Poisoning by other antiepileptic and sedative-hypnotic drugs
-4836003	[X]Poisoning by antiparkinsonism drugs and other central muscle-tone depressants
-82276009	[X]Poisoning by other and unspecified antidepressants
-288293001	[X]Poisoning by other and unspecified antipsychotics and neuroleptics
-61438005	"[X]Poisoning by other psychotropic drugs, not elsewhere classified"
-7895008	[X]Poisoning by other and unspecified drugs and biological substances
-241756003	"[X]Poisoning by anaesthetic, unspecified"
-248062006	[X]Intentional self-harm
-4.61371E+14	[X]Intentional self poisoning by and exposure to noxious substances
-4.46901E+14	[X]Intentional self poisoning by and exposure to nonopioid analgesics
-3.93341E+14	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at home"
-4.74461E+14	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence in residential institution"
-4.22721E+14	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at school, other institution and public administrative area"
-3.87071E+14	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at sports and athletics area"
-3.85711E+14	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence on street and highway"
-4.73621E+14	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at trade and service area"
-3.85731E+14	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at industrial and construction area"
-4.58171E+14	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence on farm"
-4.59381E+14	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at other specified place"
-4.59421E+14	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at unspecified place"
-271982007	[X]Intentional self poisoning by and exposure to antiepileptics
-42377002	"[X]Intentional self poisoning by and exposure to antiepileptics, occurrence at home"
-42377002	"[X]Intentional self poisoning by and exposure to antiepileptics, occurrence in residential institution"
-42377002	"[X]Intentional self poisoning by and exposure to antiepileptics, occurrence at school, other institution and public administrative area"
-42377002	"[X]Intentional self poisoning by and exposure to antiepileptics, occurrence on street and highway"
-42377002	"[X]Intentional self poisoning by and exposure to antiepileptics, occurrence at trade and service area"
-42377002	"[X]Intentional self poisoning by and exposure to antiepileptics, occurrence at industrial and construction area"
-42377002	"[X]Intentional self poisoning by and exposure to antiepileptics, occurrence on farm"
-42377002	"[X]Intentional self poisoning by and exposure to antiepileptics, occurrence at other specified place"
-42377002	"[X]Intentional self poisoning by and exposure to antiepileptics, occurrence at unspecified place"
-271982007	[X]Intentional self poisoning by and exposure to sedative hypnotics
-85337000	"[X]Intentional self poisoning by and exposure to sedative hypnotics, occurrence at home"
-85337000	"[X]Intentional self poisoning by and exposure to sedative hypnotics, occurrence in residential institution"
-85337000	"[X]Intentional self poisoning by and exposure to sedative hypnotics, occurrence at school, other institution and public administrative area"
-85337000	"[X]Intentional self poisoning by and exposure to sedative hypnotics, occurrence at sports and athletics area"
-85337000	"[X]Intentional self poisoning by and exposure to sedative hypnotics, occurrence on street and highway"
-85337000	"[X]Intentional self poisoning by and exposure to sedative hypnotics, occurrence at trade and service area"
-85337000	"[X]Intentional self poisoning by and exposure to sedative hypnotics, occurrence at industrial and construction area"
-85337000	"[X]Intentional self poisoning by and exposure to sedative hypnotics, occurrence on farm"
-85337000	"[X]Intentional self poisoning by and exposure to sedative hypnotics, occurrence at other specified place"
-85337000	"[X]Intentional self poisoning by and exposure to sedative hypnotics, occurrence at unspecified place"
-271982007	[X]Intentional self poisoning by and exposure to antiparkinson drugs
-4836003	"[X]Intentional self poisoning by and exposure to antiparkinson drugs, occurrence at home"
-4836003	"[X]Intentional self poisoning by and exposure to antiparkinson drugs, occurrence in residential institution"
-4836003	"[X]Intentional self poisoning by and exposure to antiparkinson drugs, occurrence at school, other institution and public administrative area"
-4836003	"[X]Intentional self poisoning by and exposure to antiparkinson drugs, occurrence at sports and athletics area"
-4836003	"[X]Intentional self poisoning by and exposure to antiparkinson drugs, occurrence on street and highway"
-4836003	"[X]Intentional self poisoning by and exposure to antiparkinson drugs, occurrence at trade and service area"
-4836003	"[X]Intentional self poisoning by and exposure to antiparkinson drugs, occurrence at industrial and construction area"
-4836003	"[X]Intentional self poisoning by and exposure to antiparkinson drugs, occurrence on farm"
-4836003	"[X]Intentional self poisoning by and exposure to antiparkinson drugs, occurrence at other specified place"
-4836003	"[X]Intentional self poisoning by and exposure to antiparkinson drugs, occurrence at unspecified place"
-271982007	[X]Intentional self poisoning by and exposure to psychotropic drugs
-271982007	"[X]Intentional self poisoning by and exposure to psychotropic drugs, occurrence at home"
-61438005	"[X]Intentional self poisoning by and exposure to psychotropic drugs, occurrence in residential institution"
-61438005	"[X]Intentional self poisoning by and exposure to psychotropic drugs, occurrence at school, other institution and public administrative area"
-61438005	"[X]Intentional self poisoning by and exposure to psychotropic drugs, occurrence at sports and athletics area"
-61438005	"[X]Intentional self poisoning by and exposure to psychotropic drugs, occurrence on street and highway"
-61438005	"[X]Intentional self poisoning by and exposure to psychotropic drugs, occurrence at trade and service area"
-61438005	"[X]Intentional self poisoning by and exposure to psychotropic drugs, occurrence at industrial and construction area"
-61438005	"[X]Intentional self poisoning by and exposure to psychotropic drugs, occurrence on farm"
-61438005	"[X]Intentional self poisoning by and exposure to psychotropic drugs, occurrence at other specified place"
-61438005	"[X]Intentional self poisoning by and exposure to psychotropic drugs, occurrence at unspecified place"
-290221007	[X]Intentional self poisoning by and exposure to narcotic drugs
-4.33941E+14	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at home"
-3.85601E+14	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence in residential institution"
-4.21581E+14	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at school, other institution and public administrative area"
-4.46651E+14	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at sports and athletics area"
-4.46661E+14	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence on street and highway"
-3.93011E+14	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at trade and service area"
-4.46791E+14	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at industrial and construction area"
-3.93331E+14	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence on farm"
-4.58971E+14	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at other specified place"
-4.03681E+14	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at unspecified place"
-271982007	[X]Intentional self poisoning by and exposure to hallucinogens
-85975005	"[X]Intentional self poisoning by and exposure to hallucinogens, occurrence at home"
-85975005	"[X]Intentional self poisoning by and exposure to hallucinogens, occurrence in residential institution"
-85975005	"[X]Intentional self poisoning by and exposure to hallucinogens, occurrence at school, other institution and public administrative area"
-85975005	"[X]Intentional self poisoning by and exposure to hallucinogens, occurrence at sports and athletics area"
-85975005	"[X]Intentional self poisoning by and exposure to hallucinogens, occurrence on street and highway"
-85975005	"[X]Intentional self poisoning by and exposure to hallucinogens, occurrence at trade and service area"
-85975005	"[X]Intentional self poisoning by and exposure to hallucinogens, occurrence at industrial and construction area"
-85975005	"[X]Intentional self poisoning by and exposure to hallucinogens, occurrence on farm"
-85975005	"[X]Intentional self poisoning by and exposure to hallucinogens, occurrence at other specified place"
-85975005	"[X]Intentional self poisoning by and exposure to hallucinogens, occurrence at unspecified place"
-271982007	[X]Intentional self poisoning by and exposure to other autonomic drugs
-32835006	"[X]Intentional self poisoning by and exposure to other autonomic drugs, occurrence at home"
-32835006	"[X]Intentional self poisoning by and exposure to other autonomic drugs, occurrence in residential institution"
-32835006	"[X]Intentional self poisoning by and exposure to other autonomic drugs, occurrence at school, other institution and public administrative area"
-32835006	"[X]Intentional self poisoning by and exposure to other autonomic drugs, occurrence at sports and athletics area"
-32835006	"[X]Intentional self poisoning by and exposure to other autonomic drugs, occurrence on street and highway"
-32835006	"[X]Intentional self poisoning by and exposure to other autonomic drugs, occurrence at trade and service area"
-32835006	"[X]Intentional self poisoning by and exposure to other autonomic drugs, occurrence at industrial and construction area"
-32835006	"[X]Intentional self poisoning by and exposure to other autonomic drugs, occurrence on farm"
-32835006	"[X]Intentional self poisoning by and exposure to other autonomic drugs, occurrence at other specified place"
-32835006	"[X]Intentional self poisoning by and exposure to other autonomic drugs, occurrence at unspecified place"
-271982007	"[X]Intentional self poisoning by and exposure to other and unspecified drug, medicament and biological substance"
-271982007	"[X]Intentional self poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at home"
-271982007	"[X]Intentional self poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence in residential institution"
-271982007	"[X]Intentional self poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at school, other institution and public administrative area"
-271982007	"[X]Intentional self poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at sports and athletics area"
-271982007	"[X]Intentional self poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence on street and highway"
-271982007	"[X]Intentional self poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at trade and service area"
-271982007	"[X]Intentional self poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at industrial and construction area"
-271982007	"[X]Intentional self poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence on farm"
-271982007	"[X]Intentional self poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at other specified place"
-271982007	"[X]Intentional self poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at unspecified place"
-271982007	[X]Intentional self poisoning by and exposure to alcohol
-67426006	"[X]Intentional self poisoning by and exposure to alcohol, occurrence at home"
-67426006	"[X]Intentional self poisoning by and exposure to alcohol, occurrence in residential institution"
-67426006	"[X]Intentional self poisoning by and exposure to alcohol, occurrence at school, other institution and public administrative area"
-67426006	"[X]Intentional self poisoning by and exposure to alcohol, occurrence at sports and athletics area"
-67426006	"[X]Intentional self poisoning by and exposure to alcohol, occurrence on street and highway"
-67426006	"[X]Intentional self poisoning by and exposure to alcohol, occurrence at trade and service area"
-67426006	"[X]Intentional self poisoning by and exposure to alcohol, occurrence at industrial and construction area"
-67426006	"[X]Intentional self poisoning by and exposure to alcohol, occurrence on farm"
-67426006	"[X]Intentional self poisoning by and exposure to alcohol, occurrence at other specified place"
-67426006	"[X]Intentional self poisoning by and exposure to alcohol, occurrence at unspecified place"
-271982007	[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours
-241769004	"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence at home"
-241769004	"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence in residential institution"
-241769004	"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence at school, other institution and public administrative area"
-241769004	"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, halogens, occurrence at sports and athletics area"
-241769004	"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence on street and highway"
-241769004	"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence at trade and service area"
-241769004	"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence at industrial and construction area"
-241769004	"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence on farm"
-241769004	"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence at other specified place"
-241769004	"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, halogens, occurrence at unspecified place"
-271982007	[X]Intentional self poisoning by and exposure to other gas and vapours
-271982007	"[X]Intentional self poisoning by and exposure to other gas and vapours, occurrence at home"
-271982007	"[X]Intentional self poisoning by and exposure to other gas and vapours, occurrence in residential institution"
-271982007	"[X]Intentional self poisoning by and exposure to other gas and vapour, occurrence at school, other institution and public administrative area"
-271982007	"[X]Intentional self poisoning by and exposure to other gas and vapour, occurrence at sports and athletics area"
-271982007	"[X]Intentional self poisoning by and exposure to other gas and vapour, occurrence on street and highway"
-271982007	"[X]Intentional self poisoning by and exposure to other gas and vapour, occurrence at trade and service area"
-271982007	"[X]Intentional self poisoning by and exposure to other gas and vapour, occurrence at industrial and construction area"
-271982007	"[X]Intentional self poisoning by and exposure to other gas and vapour, occurrence on farm"
-271982007	"[X]Intentional self poisoning by and exposure to other gas and vapour, occurrence at other specified place"
-271982007	"[X]Intentional self poisoning by and exposure to other gas and vapour, occurrence at unspecified place"
-4.61331E+14	[X]Intentional self poisoning by and exposure to pesticides
-3.92701E+14	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at home"
-4.20741E+14	"[X]Intentional self poisoning by and exposure to pesticides, occurrence in residential institution"
-3.92001E+14	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at school, other institution and public administrative area"
-4.45311E+14	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at sports and athletics area"
-4.57141E+14	"[X]Intentional self poisoning by and exposure to pesticides, occurrence on street and highway"
-4.57161E+14	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at trade and service area"
-3.91791E+14	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at industrial and construction area"
-4.72721E+14	"[X]Intentional self poisoning by and exposure to pesticides, occurrence on farm"
-4.45341E+14	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at other specified place"
-4.03581E+14	"[X]Intentional self poisoning by and exposure to pesticides, occurrence at unspecified place"
-271982007	[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances
-271982007	"[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at home"
-271982007	"[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence in residential institution"
-271982007	"[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at school, other institution and public administrative area"
-271982007	"[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at sports and athletics area"
-271982007	"[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence on street and highway"
-271982007	"[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at trade and service area"
-271982007	"[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at industrial and construction area"
-271982007	"[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence on farm"
-271982007	"[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at other specified place"
-271982007	"[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at unspecified place"
-248062006	"[X]Intentional self harm by hanging, strangulation and suffocation"
-4.34241E+14	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence at home"
-4.73791E+14	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence in residential institution"
-248062006	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence at sports and athletics area"
-248062006	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence on street and highway"
-248062006	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence at trade and service area"
-248062006	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence at industrial and construction area"
-248062006	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence on farm"
-248062006	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence at other specified place"
-3.91821E+14	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence at unspecified place"
-4.46891E+14	[X]Intentional self harm by drowning and submersion
-4.58281E+14	"[X]Intentional self harm by drowning and submersion, occurrence at home"
-4.73731E+14	"[X]Intentional self harm by drowning and submersion, occurrence in residential institution"
-4.57321E+14	"[X]Intentional self harm by drowning and submersion, occurrence at school, other institution and public administrative area"
-3.85231E+14	"[X]Intentional self harm by drowning and submersion, occurrence at sports and athletics area"
-4.57331E+14	"[X]Intentional self harm by drowning and submersion, occurrence on street and highway"
-3.92011E+14	"[X]Intentional self harm by drowning and submersion, occurrence at trade and service area"
-3.92021E+14	"[X]Intentional self harm by drowning and submersion, occurrence at industrial and construction area"
-3.92031E+14	"[X]Intentional self harm by drowning and submersion, occurrence on farm"
-4.72681E+14	"[X]Intentional self harm by drowning and submersion, occurrence at other specified place"
-4.15591E+14	"[X]Intentional self harm by drowning and submersion, occurrence at unspecified place"
-4.72701E+14	[X]Intentional self harm by handgun discharge
-4.20511E+14	"[X]Intentional self harm by handgun discharge, occurrence at home"
-3.91801E+14	"[X]Intentional self harm by handgun discharge, occurrence in residential institution"
-4.05051E+14	"[X]Intentional self harm by handgun discharge, occurrence at school, other institution and public administrative area"
-4.05061E+14	"[X]Intentional self harm by handgun discharge, occurrence at sports and athletics area"
-3.93111E+14	"[X]Intentional self harm by handgun discharge, occurrence on street and highway"
-4.58381E+14	"[X]Intentional self harm by handgun discharge, occurrence at trade and service area"
-4.58391E+14	"[X]Intentional self harm by handgun discharge, occurrence at industrial and construction area"
-4.34261E+14	"[X]Intentional self harm by handgun discharge, occurrence on farm"
-4.22691E+14	"[X]Intentional self harm by handgun discharge, occurrence at other specified place"
-3.93841E+14	"[X]Intentional self harm by handgun discharge, occurrence at unspecified place"
-3.87051E+14	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge"
-3.93871E+14	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence at home"
-3.93881E+14	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence in residential institution"
-4.21331E+14	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence at sports and athletics area"
-4.46251E+14	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence on street and highway"
-4.73371E+14	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence at trade and service area"
-4.04741E+14	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence on farm"
-4.32991E+14	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence at other specified place"
-4.45021E+14	"[X]Intentional self harm by rifle, shotgun and larger firearm discharge, occurrence at unspecified place"
-4.03641E+14	[X]Intentional self harm by other and unspecified firearm discharge
-4.33281E+14	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at home"
-4.72751E+14	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence in residential institution"
-4.03671E+14	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at school, other institution and public administrative area"
-4.45351E+14	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at sports and athletics area"
-4.04831E+14	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence on street and highway"
-4.58531E+14	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at trade and service area"
-4.57721E+14	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at industrial and construction area"
-3.85481E+14	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence on farm"
-4.45891E+14	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at other specified place"
-4.45901E+14	"[X]Intentional self harm by other and unspecified firearm discharge, occurrence at unspecified place"
-418420002	[X]Intentional self harm by explosive material
-219340003	"[X]Intentional self harm by explosive material, occurrence at home"
-219340003	"[X]Intentional self harm by explosive material, occurrence in residential institution"
-219340003	"[X]Intentional self harm by explosive material, occurrence at school, other institution and public administrative area"
-219340003	"[X]Intentional self harm by explosive material, occurrence at sports and athletics area"
-219340003	"[X]Intentional self harm by explosive material, occurrence on street and highway"
-219340003	"[X]Intentional self harm by explosive material, occurrence at trade and service area"
-219340003	"[X]Intentional self harm by explosive material, occurrence at industrial and construction area"
-219340003	"[X]Intentional self harm by explosive material, occurrence on farm"
-219340003	"[X]Intentional self harm by explosive material, occurrence at other specified place"
-219340003	"[X]Intentional self harm by explosive material, occurrence at unspecified place"
-418420002	"[X]Intentional self harm by smoke, fire and flames"
-418420002	"[X]Intentional self harm by smoke, fire and flames, occurrence at home"
-284744004	"[X]Intentional self harm by smoke, fire and flames, occurrence in residential institution"
-284744004	"[X]Intentional self harm by smoke, fire and flames, occurrence at school, other institution and public administrative area"
-284744004	"[X]Intentional self harm by smoke, fire and flames, occurrence at sports and athletics area"
-284744004	"[X]Intentional self harm by smoke, fire and flames, occurrence on street and highway"
-284744004	"[X]Intentional self harm by smoke, fire and flames, occurrence at trade and service area"
-284744004	"[X]Intentional self harm by smoke, fire and flames, occurrence at industrial and construction area"
-284744004	"[X]Intentional self harm by smoke, fire and flames, occurrence on farm"
-284744004	"[X]Intentional self harm by smoke, fire and flames, occurrence at other specified place"
-284744004	"[X]Intentional self harm by smoke, fire and flames, occurrence at unspecified place"
-418420002	"[X]Intentional self harm by steam, hot vapours and hot objects"
-285142001	"[X]Intentional self harm by steam, hot vapours and hot objects, occurrence at home"
-285142001	"[X]Intentional self harm by steam, hot vapours and hot objects, occurrence in residential institution"
-285142001	"[X]Intentional self harm by steam, hot vapours and hot objects, occurrence at school, other institution and public administrative area"
-285142001	"[X]Intentional self harm by steam, hot vapours and hot objects, occurrence at sports and athletics area"
-285142001	"[X]Intentional self harm by steam, hot vapours and hot objects, occurrence on street and highway"
-285142001	"[X]Intentional self harm by steam, hot vapours and hot objects, occurrence at trade and service area"
-285142001	"[X]Intentional self harm by steam, hot vapours and hot objects, occurrence at industrial and construction area"
-285142001	"[X]Intentional self harm by steam, hot vapours and hot objects, occurrence on farm"
-285142001	"[X]Intentional self harm by steam, hot vapours and hot objects, occurrence at other specified place"
-285142001	"[X]Intentional self harm by steam, hot vapours and hot objects, occurrence at unspecified place"
-248073004	[X]Intentional self harm by sharp object
-4.46551E+14	"[X]Intentional self harm by sharp object, occurrence at home"
-4.59811E+14	"[X]Intentional self harm by sharp object, occurrence in residential institution"
-4.59821E+14	"[X]Intentional self harm by sharp object, occurrence at school, other institution and public administrative area"
-3.85441E+14	"[X]Intentional self harm by sharp object, occurrence at sports and athletics area"
-3.85451E+14	"[X]Intentional self harm by sharp object, occurrence on street and highway"
-3.85461E+14	"[X]Intentional self harm by sharp object, occurrence at trade and service area"
-3.85491E+14	"[X]Intentional self harm by sharp object, occurrence at industrial and construction area"
-3.85501E+14	"[X]Intentional self harm by sharp object, occurrence on farm"
-4.33701E+14	"[X]Intentional self harm by sharp object, occurrence at other specified place"
-4.45911E+14	"[X]Intentional self harm by sharp object, occurrence at unspecified place"
-418420002	[X]Intentional self harm by blunt object
-284756003	"[X]Intentional self harm by blunt object, occurrence at home"
-284756003	"[X]Intentional self harm by blunt object, occurrence in residential institution"
-284756003	"[X]Intentional self harm by blunt object, occurrence at school, other institution and public administrative area"
-284756003	"[X]Intentional self harm by blunt object, occurrence at sports and athletics area"
-284756003	"[X]Intentional self harm by blunt object, occurrence on street and highway"
-284756003	"[X]Intentional self harm by blunt object, occurrence at trade and service area"
-284756003	"[X]Intentional self harm by blunt object, occurrence at industrial and construction area"
-284756003	"[X]Intentional self harm by blunt object, occurrence on farm"
-284756003	"[X]Intentional self harm by blunt object, occurrence at other specified place"
-284756003	"[X]Intentional self harm by blunt object, occurrence at unspecified place"
-287186005	[X]Intentional self harm by jumping from a high place
-287186005	"[X]Intentional self harm by jumping from a high place, occurrence at home"
-287186005	"[X]Intentional self harm by jumping from a high place, occurrence in residential institution"
-287186005	"[X]Intentional self harm by jumping from a high place, occurrence at school, other institution and public administrative area"
-287186005	"[X]Intentional self harm by jumping from a high place, occurrence at sports and athletics area"
-287186005	"[X]Intentional self harm by jumping from a high place, occurrence on street and highway"
-287186005	"[X]Intentional self harm by jumping from a high place, occurrence at trade and service area"
-287186005	"[X]Intentional self harm by jumping from a high place, occurrence at industrial and construction area"
-287186005	"[X]Intentional self harm by jumping from a high place, occurrence on farm"
-287186005	"[X]Intentional self harm by jumping from a high place, occurrence at other specified place"
-3.92501E+14	"[X]Intentional self harm by jumping from a high place, occurrence at unspecified place"
-418420002	[X]Intentional self harm by jumping or lying before moving object
-224948000	"[X]Intentional self harm by jumping or lying before moving object, occurrence at home"
-224948000	"[X]Intentional self harm by jumping or lying before moving object, occurrence in residential institution"
-224948000	"[X]Intentional self harm by jumping or lying before moving object, occurrence at school, other institution and public administrative area"
-224948000	"[X]Intentional self harm by jumping or lying before moving object, occurrence at sports and athletics area"
-224948000	"[X]Intentional self harm by jumping or lying before moving object, occurrence on street and highway"
-224948000	"[X]Intentional self harm by jumping or lying before moving object, occurrence at trade and service area"
-224948000	"[X]Intentional self harm by jumping or lying before moving object, occurrence at industrial and construction area"
-224948000	"[X]Intentional self harm by jumping or lying before moving object, occurrence on farm"
-224948000	"[X]Intentional self harm by jumping or lying before moving object, occurrence at other specified place"
-224948000	"[X]Intentional self harm by jumping or lying before moving object, occurrence at unspecified place"
-418420002	[X]Intentional self harm by crashing of motor vehicle
-418420002	"[X]Intentional self harm by crashing of motor vehicle, occurrence at home"
-418420002	"[X]Intentional self harm by crashing of motor vehicle, occurrence in residential institution"
-418420002	"[X]Intentional self harm by crashing of motor vehicle, occurrence at school, other institution and public administrative area"
-418420002	"[X]Intentional self harm by crashing of motor vehicle, occurrence at sports and athletics area"
-418420002	"[X]Intentional self harm by crashing of motor vehicle, occurrence on street and highway"
-418420002	"[X]Intentional self harm by crashing of motor vehicle, occurrence at trade and service area"
-418420002	"[X]Intentional self harm by crashing of motor vehicle, occurrence at industrial and construction area"
-418420002	"[X]Intentional self harm by crashing of motor vehicle, occurrence on farm"
-418420002	"[X]Intentional self harm by crashing of motor vehicle, occurrence at other specified place"
-418420002	"[X]Intentional self harm by crashing of motor vehicle, occurrence at unspecified place"
-418420002	[X]Intentional self harm by other specified means
-418420002	"[X]Intentional self harm by other specified means, occurrence at home"
-418420002	"[X]Intentional self harm by other specified means, occurrence in residential institution"
-418420002	"[X]Intentional self harm by other specified means, occurrence at school, other institution and public administrative area"
-418420002	"[X]Intentional self harm by other specified means, occurrence at sports and athletics area"
-418420002	"[X]Intentional self harm by other specified means, occurrence on street and highway"
-418420002	"[X]Intentional self harm by other specified means, occurrence at trade and service area"
-418420002	"[X]Intentional self harm by other specified means, occurrence at industrial and construction area"
-418420002	"[X]Intentional self harm by other specified means, occurrence on farm"
-418420002	"[X]Intentional self harm by other specified means, occurrence at other specified place"
-418420002	"[X]Intentional self harm by other specified means, occurrence at unspecified place"
-418420002	[X]Intentional self harm by unspecified means
-418420002	"[X]Intentional self harm by unspecified means, occurrence at home"
-418420002	"[X]Intentional self harm by unspecified means, occurrence in residential institution"
-418420002	"[X]Intentional self harm by unspecified means, occurrence at school, other institution and public administrative area"
-418420002	"[X]Intentional self harm by unspecified means, occurrence at sports and athletics area"
-418420002	"[X]Intentional self harm by unspecified means, occurrence on street and highway"
-418420002	"[X]Intentional self harm by unspecified means, occurrence at trade and service area"
-418420002	"[X]Intentional self harm by unspecified means, occurrence at industrial and construction area"
-418420002	"[X]Intentional self harm by unspecified means, occurrence on farm"
-418420002	"[X]Intentional self harm by unspecified means, occurrence at other specified place"
-418420002	"[X]Intentional self harm by unspecified means, occurrence at unspecified place"
-219187002	"[X]Assault by drugs, medicaments and biological substances"
-75478009	"[X]Poisoning by and exposure to noxious substances, undetermined intent"
-290133008	"[X]Poisoning by and exposure to nonopioid analgesics, undetermined intent"
-290133008	"[X]Poisoning by and exposure to nonopioid analgesics, occurrence at home, undetermined intent"
-290133008	"[X]Poisoning by and exposure to nonopioid analgesics, occurrence in residential institution, undetermined intent"
-290133008	"[X]Poisoning by and exposure to nonopioid analgesics, occurrence at school, other institution and public administrative area, undetermined intent"
-290133008	"[X]Poisoning by and exposure to nonopioid analgesics, occurrence at sports and athletics area, undetermined intent"
-290133008	"[X]Poisoning by and exposure to nonopioid analgesics, occurrence on street and highway, undetermined intent"
-290133008	"[X]Poisoning by and exposure to nonopioid analgesics, occurrence at trade and service area, undetermined intent"
-290133008	"[X]Poisoning by and exposure to nonopioid analgesics, occurrence at industrial and construction area, undetermined intent"
-290133008	"[X]Poisoning by and exposure to nonopioid analgesics, occurrence on farm, undetermined intent"
-290133008	"[X]Poisoning by and exposure to nonopioid analgesics, occurrence at other specified place, undetermined intent"
-290133008	"[X]Poisoning by and exposure to nonopioid analgesics, occurrence at unspecified place, undetermined intent"
-42377002	"[X]Poisoning by and exposure to antiepileptics, undetermined intent"
-42377002	"[X]Poisoning by and exposure to antiepileptics, occurrence at home, undetermined intent"
-42377002	"[X]Poisoning by and exposure to antiepileptics, occurrence in residential institution, undetermined intent"
-42377002	"[X]Poisoning by and exposure to antiepileptics, occurrence at school, other institution and public administrative area, undetermined intent"
-42377002	"[X]Poisoning by and exposure to antiepileptics, occurrence on street and highway, undetermined intent"
-42377002	"[X]Poisoning by and exposure to antiepileptics, occurrence at trade and service area, undetermined intent"
-42377002	"[X]Poisoning by and exposure to antiepileptics, occurrence at industrial and construction area, undetermined intent"
-42377002	"[X]Poisoning by and exposure to antiepileptics, occurrence on farm, undetermined intent"
-42377002	"[X]Poisoning by and exposure to antiepileptics, occurrence at other specified place, undetermined intent"
-42377002	"[X]Poisoning by and exposure to antiepileptics, occurrence at unspecified place, undetermined intent"
-85337000	"[X]Poisoning by and exposure to sedative hypnotics, undetermined intent"
-85337000	"[X]Poisoning by and exposure to sedative hypnotics, occurrence at home, undetermined intent"
-85337000	"[X]Poisoning by and exposure to sedative hypnotics, occurrence in residential institution, undetermined intent"
-85337000	"[X]Poisoning by and exposure to sedative hypnotics, occurrence at school, other institution and public administrative area, undetermined intent"
-85337000	"[X]Poisoning by and exposure to sedative hypnotics, occurrence at sports and athletics area, undetermined intent"
-85337000	"[X]Poisoning by and exposure to sedative hypnotics, occurrence on street and highway, undetermined intent"
-85337000	"[X]Poisoning by and exposure to sedative hypnotics, occurrence at trade and service area, undetermined intent"
-85337000	"[X]Poisoning by and exposure to sedative hypnotics, occurrence at industrial and construction area, undetermined intent"
-85337000	"[X]Poisoning by and exposure to sedative hypnotics, occurrence on farm, undetermined intent"
-85337000	"[X]Poisoning by and exposure to sedative hypnotics, occurrence at other specified place, undetermined intent"
-85337000	"[X]Poisoning by and exposure to sedative hypnotics, occurrence at unspecified place, undetermined intent"
-4836003	"[X]Poisoning by and exposure to antiparkinson drugs, undetermined intent"
-4836003	"[X]Poisoning by and exposure to antiparkinson drugs, occurrence at home, undetermined intent"
-4836003	"[X]Poisoning by and exposure to antiparkinson drugs, occurrence in residential institution, undetermined intent"
-4836003	"[X]Poisoning by and exposure to antiparkinson drugs, occurrence at school, other institution and public administrative area, undetermined intent"
-4836003	"[X]Poisoning by and exposure to antiparkinson drugs, occurrence at sports and athletics area, undetermined intent"
-4836003	"[X]Poisoning by and exposure to antiparkinson drugs, occurrence on street and highway, undetermined intent"
-4836003	"[X]Poisoning by and exposure to antiparkinson drugs, occurrence at trade and service area, undetermined intent"
-4836003	"[X]Poisoning by and exposure to antiparkinson drugs, occurrence at industrial and construction area, undetermined intent"
-4836003	"[X]Poisoning by and exposure to antiparkinson drugs, occurrence on farm, undetermined intent"
-4836003	"[X]Poisoning by and exposure to antiparkinson drugs, occurrence at other specified place, undetermined intent"
-4836003	"[X]Poisoning by and exposure to antiparkinson drugs, occurrence at unspecified place, undetermined intent"
-61438005	"[X]Poisoning by and exposure to psychotropic drugs, undetermined intent"
-61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at home, undetermined intent"
-61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence in residential institution, undetermined intent"
-61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at school, other institution and public administrative area, undetermined intent"
-61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at sports and athletics area, undetermined intent"
-61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence on street and highway, undetermined intent"
-61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at trade and service area, undetermined intent"
-61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at industrial and construction area, undetermined intent"
-61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence on farm, undetermined intent"
-61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at other specified place, undetermined intent"
-61438005	"[X]Poisoning by and exposure to psychotropic drugs, occurrence at unspecified place, undetermined intent"
-32835006	"[X]Poisoning by and exposure to other autonomic drugs, undetermined intent"
-32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at home, undetermined intent"
-32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence in residential institution, undetermined intent"
-32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at school, other institution and public administrative area, undetermined intent"
-32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at sports and athletics area, undetermined intent"
-32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence on street and highway, undetermined intent"
-32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at trade and service area, undetermined intent"
-32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at industrial and construction area, undetermined intent"
-32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence on farm, undetermined intent"
-32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at other specified place, undetermined intent"
-32835006	"[X]Poisoning by and exposure to other autonomic drugs, occurrence at unspecified place, undetermined intent"
-269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, undetermined intent"
-269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at home, undetermined intent"
-269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence in residential institution, undetermined intent"
-269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at school, other institution and public administrative area, undetermined intent"
-269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at sports and athletics area, undetermined intent"
-269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence on street and highway, undetermined intent"
-269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at trade and service area, undetermined intent"
-269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at industrial and construction area, undetermined intent"
-269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence on farm, undetermined intent"
-269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at other specified place, undetermined intent"
-269688005	"[X]Poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at unspecified place, undetermined intent"
-67426006	"[X]Poisoning by and exposure to alcohol, undetermined intent"
-67426006	"[X]Poisoning by and exposure to alcohol, occurrence at home, undetermined intent"
-67426006	"[X]Poisoning by and exposure to alcohol, occurrence in residential institution, undetermined intent"
-67426006	"[X]Poisoning by and exposure to alcohol, occurrence at school, other institution and public administrative area, undetermined intent"
-67426006	"[X]Poisoning by and exposure to alcohol, occurrence at sports and athletics area, undetermined intent"
-67426006	"[X]Poisoning by and exposure to alcohol, occurrence on street and highway, undetermined intent"
-67426006	"[X]Poisoning by and exposure to alcohol, occurrence at trade and service area, undetermined intent"
-67426006	"[X]Poisoning by and exposure to alcohol, occurrence at industrial and construction area, undetermined intent"
-67426006	"[X]Poisoning by and exposure to alcohol, occurrence on farm, undetermined intent"
-67426006	"[X]Poisoning by and exposure to alcohol, occurrence at other specified place, undetermined intent"
-67426006	"[X]Poisoning by and exposure to alcohol, occurrence at unspecified place, undetermined intent"
-57335002	"[X]Poisoning by and exposure to other gas and vapours, undetermined intent"
-57335002	"[X]Poisoning by and exposure to other gas and vapours, occurrence at home, undetermined intent"
-57335002	"[X]Poisoning by and exposure to other gas and vapours, occurrence in residential institution, undetermined intent"
-57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence at school, other institution and public administrative area, undetermined intent"
-57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence at sports and athletics area, undetermined intent"
-57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence on street and highway, undetermined intent"
-57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence at trade and service area, undetermined intent"
-57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence at industrial and construction area, undetermined intent"
-57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence on farm, undetermined intent"
-57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence at other specified place, undetermined intent"
-57335002	"[X]Poisoning by and exposure to other gas and vapour, occurrence at unspecified place, undetermined intent"
-37131007	"[X]Poisoning by and exposure to pesticides, undetermined intent"
-37131007	"[X]Poisoning by and exposure to pesticides, occurrence at home, undetermined intent"
-37131007	"[X]Poisoning by and exposure to pesticides, occurrence in residential institution, undetermined intent"
-37131007	"[X]Poisoning by and exposure to pesticides, occurrence at school, other institution and public administrative area, undetermined intent"
-37131007	"[X]Poisoning by and exposure to pesticides, occurrence at sports and athletics area, undetermined intent"
-37131007	"[X]Poisoning by and exposure to pesticides, occurrence on street and highway, undetermined intent"
-37131007	"[X]Poisoning by and exposure to pesticides, occurrence at trade and service area, undetermined intent"
-37131007	"[X]Poisoning by and exposure to pesticides, occurrence at industrial and construction area, undetermined intent"
-37131007	"[X]Poisoning by and exposure to pesticides, occurrence on farm, undetermined intent"
-37131007	"[X]Poisoning by and exposure to pesticides, occurrence at other specified place, undetermined intent"
-37131007	"[X]Poisoning by and exposure to pesticides, occurrence at unspecified place, undetermined intent"
-75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, undetermined intent"
-75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at home, undetermined intent"
-75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence in residential institution, undetermined intent"
-75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at school, other institution and public administrative area, undetermined intent"
-75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at sports and athletics area, undetermined intent"
-75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence on street and highway, undetermined intent"
-75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at trade and service area, undetermined intent"
-75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at industrial and construction area, undetermined intent"
-75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence on farm, undetermined intent"
-75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at other specified place, undetermined intent"
-75478009	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at unspecified place, undetermined intent"
-219328003	"[X]Hanging, strangulation and suffocation undetermined intent"
-219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at home"
-219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence in residential institution"
-219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at school, other institution and public administrative area"
-219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at sports and athletics area"
-219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence on street and highway"
-219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at trade and service area"
-219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at industrial and construction area"
-219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence on farm"
-219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at other specified place"
-219328003	"[X]Hanging, strangulation and suffocation, undetermined intent, occurrence at unspecified place"
-362977000	"[X]Sequelae of intentional self-harm, assault and events of undetermined intent"
-362977000	[X]Sequelae of intentional self-harm
-295250003	[X]Overdose - ibuprofen
-296125001	[X]Overdose - temazepam
-296058008	[X]Overdose - flurazepam
-296070007	[X]Overdose - nitrazepam
-295830007	[X]Overdose - antidepressant
-295835002	[X]Overdose - amitriptyline
-295918002	[X]Overdose - SSRI
-271982007	[X]Self poisoning from glue solvent
-431307001	[X]Overdose - sleeping tabs
-296015009	[X]Overdose - sleeping tabs
-271982007	[X]Self carbon monoxide poisoning
-271982007	[X]Self carbon monoxide poisoning
-274912004	[X]Self poisoning with weedkiller
-7895008	Drug poisoning
-274912004	Suicide and selfinflicted poisoning by agricultural and horticultural chemical and pharmaceutical preparations other than plant foods and fertilizers
-248062006	"Suicide and selfinflicted injury by hanging, strangulation and suffocation"
-248062006	[X]Self inflicted injury
-248062006	[X]Injury - self-inflicted
-44301001	[X]Suicide
-82313006	[X]Attempted suicide
-48981002	[X]Para-suicide
-242837004	[X]Self poisoning with paraquat
-403582001	"Suicide and selfinflicted injury by caustic substances, excluding poisoning"
-4.61371E+14	[X]Deliberate drug overdose / other poisoning
-295174006	[X]Overdose - heroin
-287183002	Suicide and selfinflicted injury by drowning
-241748001	Analgesic poisoning
-241756003	Anaesthetic poisoning
-48981002	Para-suicide
-161474000	H/O: attempted suicide
-161589007	H/O: poisoning
-161589007	[V]Personal history of poisoning
-248062006	Parasuicide
-130968006	[X]Self mutilation
-42377002	"[X] Intentional self poisoning by and exposure to antiepileptics, occurrence at sports and athletics area"
-42377002	"[X] Poisoning by and exposure to antiepileptics, occurrence at sports and athletics area, undetermined intent"
-82276009	Antidepressant poisoning NOS
-287186005	Suicide and selfinflicted injury by jumping from other man-made structure
-296036006	Suicide and selfinflicted poisoning by barbiturates
-242839001	Suicide and selfinflicted poisoning by gases and vapours NOS
-219125007	Suicide and selfinflicted poisoning by gases in domestic use
-271982007	Suicide and selfinflicted poisoning by drug or medicine NOS
-25980005	Secobarbital poisoning
-296036006	Suicide and self inflicted injury by phenobarbital
-296036006	Suicide and self inflicted injury by secobarbital
-64921004	Phenobarbital poisoning
-296039004	Suicide and self inflicted injury by amobarbital

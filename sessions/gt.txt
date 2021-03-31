@@ -109,3 +109,8 @@ Attempted to find the location of information related to project no.1 (Grant), i
 
 30/03/21 
 - using readcode list for self-harm to find CTV3 and SNOMED equivalents, for RQ29
+
+31/03/21
+- validating self-harm code sets for RQ29
+- altered RQ29 extraction code to accomodate temporary fix for linking patient_link to GP_events
+

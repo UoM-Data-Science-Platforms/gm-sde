@@ -16,25 +16,28 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
--- FIND BASIC PATIENT INFO FOR ALL PATIENTS
-IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #Patients;
-SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate 
+-- *************** INTERIM WORKAROUND DUE TO MISSING PATIENT_LINK_ID'S ***************************
+-- find patient_id for all patients, this will be used to link the gp_events table to patient_link
+-- ***********************************************************************************************
+
+IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
+SELECT P.PK_Patient_ID, PL.PK_Patient_Link_ID AS FK_Patient_Link_ID, PL.EthnicMainGroup
 INTO #Patients 
-FROM [RLS].vw_Patient_Link
+FROM [RLS].vw_Patient P
+LEFT JOIN [RLS].vw_Patient_Link PL ON P.FK_Patient_Link_ID = PL.PK_Patient_Link_ID
 
 --> EXECUTE load-code-sets.sql
 --> EXECUTE query-patient-sex.sql
 --> EXECUTE query-patient-imd.sql
 --> EXECUTE query-patient-year-of-birth.sql
 
-
 -- CREATE TABLE OF ALL RELEVANT EPISODES FROM GP_EVENTS, WITH PATIENT INFO APPENDED, AND ROWNUMBER TO IDENTIFY FIRST EPISODES FOR EACH PATIENT
+
 IF OBJECT_ID('tempdb..#SelfHarmEpisodes_all') IS NOT NULL DROP TABLE #SelfHarmEpisodes_all;
 SELECT gp.FK_Patient_Link_ID, 
 	   EventDate, 
 	   EpisodeNumber = ROW_NUMBER() OVER(PARTITION BY gp.FK_Patient_Link_ID ORDER BY EventDate),
 	   Sex,
-	 --AgeAtEpisode = YEAR(sha.EventDate) - yob.YearOfBirth,
 	   AgeCategory = CASE WHEN (YEAR(gp.EventDate) - yob.YearOfBirth) BETWEEN 0 AND 9 THEN '0-9'
 			WHEN (YEAR(gp.EventDate) - yob.YearOfBirth) BETWEEN 10 AND 19 THEN '10-19'
 			WHEN (YEAR(gp.EventDate) - yob.YearOfBirth) BETWEEN 20 AND 29 THEN '20-29'
@@ -55,15 +58,17 @@ SELECT gp.FK_Patient_Link_ID,
 			ELSE NULL END 
 INTO #SelfHarmEpisodes_all 
 FROM [RLS].[vw_GP_Events] gp
-LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
+LEFT OUTER JOIN #Patients p ON p.PK_Patient_ID = gp.FK_Patient_ID
+LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE SuppliedCode IN (
 	SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('selfharm-episodes') AND [Version] = 1
 )
 	AND (YEAR(gp.EventDate) - yob.YearOfBirth) >= 10
 --237,931
+--238,040 with new patient_id workaround
+
 
 -- CREATE SUMMARY TABLE AT MONTH LEVEL
 
@@ -100,7 +105,6 @@ SELECT gp.FK_Patient_Link_ID,
 	   EventDate, 
 	   EpisodeNumber = ROW_NUMBER() OVER(PARTITION BY gp.FK_Patient_Link_ID ORDER BY EventDate),
 	   Sex,
-	 --AgeAtEpisode = YEAR(sha.EventDate) - yob.YearOfBirth,
 	   AgeCategory = CASE WHEN (YEAR(gp.EventDate) - yob.YearOfBirth) BETWEEN 0 AND 9 THEN '0-9'
 			WHEN (YEAR(gp.EventDate) - yob.YearOfBirth) BETWEEN 10 AND 19 THEN '10-19'
 			WHEN (YEAR(gp.EventDate) - yob.YearOfBirth) BETWEEN 20 AND 29 THEN '20-29'
@@ -161,7 +165,7 @@ ORDER BY
 
 --- FINAL OUTPUT
 
-PRINT('Month, Sex, AgeCategory, EthnicMainGroup, IMD2019Quintile1IsMostDeprived5IsLeastDeprived, SelfHarmEpisodes, FirstRecordedSelfharmEpisodes_FullLookback, FirstRecordedSelfharmEpisodes_2019Lookback ')
+PRINT('Month, Sex, AgeCategory, EthnicMainGroup, IMD2019Quintile1IsMostDeprived5IsLeastDeprived, SelfHarmEpisodes, FirstRecordedSelfharmEpisodes_FullLookback, FirstRecordedSelfharmEpisodes_2019Lookback')
 SELECT
 	SA.[Month],
 	SA.Sex,
