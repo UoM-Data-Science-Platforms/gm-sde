@@ -1,0 +1,741 @@
+146A.00	H/O: attempted suicide			
+146B.00	H/O: deliberate self harm			
+14K..00	H/O: poisoning			
+14K0.00	H/O: repeated overdose			
+14K1.00	Intentional overdose of prescription only medication			
+1JP..00	Suspected drug overdose			
+K048.00	Acute renal failure induced by poison			
+SL...14	Overdose of biological substance			
+SL...15	Overdose of drug			
+SL...16	Poisoning by drug and biological substances			
+SL...97	Poisoning by CNS drugs			
+SL...98	Poisoning by drugs/medicaments			
+SL5..00	"Analgesic, antipyretic and antirheumatic drug poisoning"			
+SL5..11	Analgesic poisoning			
+SL5..12	Antipyretic poisoning			
+SL5..99	Poisoning by analgesics			
+SL50400	Meperidine (pethidine) poisoning			
+SL50500	Morphine poisoning			
+SL50600	Dextropropoxyphene poisoning			
+SL50700	Dihydrocodeine poisoning			
+SL51.00	Salicylate poisoning			
+SL51000	Aspirin poisoning			
+SL51100	Salicylic acid salt poisoning			
+SL51z00	Salicylate poisoning NOS			
+SL52.00	Aromatic analgesic poisoning NEC			
+SL52100	Paracetamol poisoning			
+SL52200	Phenacetin poisoning			
+SL52z00	Aromatic analgesic poisoning NOS			
+SL53100	Phenylbutazone poisoning			
+SL54200	Ibuprofen poisoning			
+SL54300	Naproxen poisoning			
+SL54400	Mefenamic acid poisoning			
+SL5x.00	Other non-narcotic analgesic poisoning			
+SL5xz00	Non-narcotic analgesic poisoning NOS			
+SL5y.00	Other analgesic and antipyretic poisoning			
+SL5y000	Pentazocine poisoning			
+SL5y100	"Analgesic poisoning, NEC"			
+SL5y199	Poisoning by analgesics			
+SL5y200	"Antipyretic poisoning, NEC"			
+SL5yz00	Other analgesic or antipyretic poisoning NOS			
+SL5z.00	"Analgesic, antipyretic or antirheumatic poisoning NOS"			
+SL7..00	Sedative and hypnotic drug poisoning			
+SL7..11	Hypnotic poisoning			
+SL7..12	Sedative poisoning			
+SL70.00	Barbiturate poisoning			
+SL70400	Phenobarbital poisoning			
+SL70511	Quinalbarbitone poisoning			
+SL70z00	Barbiturate poisoning NOS			
+SL76.00	Mixed sedative poisoning NEC			
+SL7y.00	Other sedative and hypnotic poisoning			
+SL7z.00	Sedative and hypnotic drug poisoning NOS			
+SL7z.11	Sleeping drug poisoning			
+SL8..00	Central nervous system depressants and anaesthetic poisoning			
+SL8..11	Anaesthetic poisoning			
+SL80.00	Central nervous system muscle-tone depressant poisoning			
+SL80z00	Central nervous system muscle-tone depressant poisoning NOS			
+SL83200	Thiopental sodium poisoning			
+SL83x00	Other thiobarbiturate poisoning			
+SL84.00	Other general anaesthetic agent poisoning			
+SL9..00	Psychotropic agent poisoning			
+SL90.00	Antidepressant poisoning			
+SL90000	Amitriptyline poisoning			
+SL90100	Imipramine poisoning			
+SL90200	Monoamine oxidase inhibitor poisoning			
+SL90211	MAOI - Monoamine oxidase inhibitor poisoning			
+SL90300	Trazodone poisoning			
+SL90z00	Anti-depressant poisoning NOS			
+SL91.00	Phenothiazine poisoning			
+SL91000	Chlorpromazine poisoning			
+SL91100	Fluphenazine poisoning			
+SL91200	Prochlorperazine poisoning			
+SL91300	Promazine poisoning			
+SL91400	Thioridazine poisoning			
+SL91z00	Phenothiazine poisoning NOS			
+SL92.00	Butyrophenone poisoning			
+SL92000	Haloperidol poisoning			
+SL92100	Spiperone poisoning			
+SL92200	Trifluperidol poisoning			
+SL92z00	Butyrophenone poisoning NOS			
+SL93.00	Other antipsychotics/neuroleptics/tranquilliser poisoning			
+SL94.00	Benzodiazepine poisoning			
+SL94000	Chlordiazepoxide poisoning			
+SL94100	Diazepam poisoning			
+SL94200	Flurazepam poisoning			
+SL94300	Lorazepam poisoning			
+SL94400	Medazepam poisoning			
+SL94500	Nitrazepam poisoning			
+SL94600	Poisoning by temazepam			
+SL94z00	Benzodiazepine poisoning NOS			
+SL95.00	Other tranquilliser poisoning			
+SL95000	Hydroxyzine poisoning			
+SL95z00	Tranquilliser poisoning NOS			
+SL97.00	Psychostimulant poisoning			
+SL97.11	Stimulant poisoning			
+SL97z00	Psychostimulant poisoning NOS			
+SL9y.00	Other psychotropic agent poisoning			
+SL9z.00	Psychotropic agent poisoning NOS			
+SLA..00	Central nervous system stimulant poisoning			
+SLAy.00	Other central nervous system stimulant poisoning			
+SLAz.00	Central nervous system stimulant poisoning NOS			
+SLB..00	Autonomic nervous system drug poisoning			
+SLC0200	Propranolol poisoning			
+SLC0400	Beta blocker poisoning			
+SLHyz00	Other drug and medicament poisoning NOS			
+SLHz.00	Drug and medicament poisoning NOS			
+SLHz.98	Poisoning by drugs/medicaments			
+SLHz.99	Poisoning by medicaments NOS			
+SLX..00	Poisoning by oth & unspec antipsychotics & neuroleptics			
+SLz..00	"Drug, medicament or biological substance poisoning NOS"			
+SyuF.00	[X]Poisoning by drugs and biological substances			
+SyuFA00	"[X]Poisoning by other analgesics, not elsewhere classified"			
+SyuFc00	[X]Poisoning by oth & unspecif drugs & biologic substances			
+SyuFd00	"[X]Poisoning by anaesthetic, unspecified"			
+SyuFF00	[X]Poisoning by other and unspecified general anaesthetics			
+SyuFG00	"[X]Poisoning by mixed antiepileptics, NEC"			
+SyuFH00	[X]Poisoning by oth antiepileptic & sedative-hypnotic drugs			
+SyuFJ00	[X]Poisoning by antipark drug/oth central musc-tone depress			
+SyuFK00	[X]Poisoning by other and unspecified antidepressants			
+SyuFL00	[X]Poisoning by oth & unspec antipsychotics & neuroleptics			
+SyuFM00	"[X]Poisoning by other psychotropic drugs, NEC"			
+T....98	Suicide/assault/other inj caus			
+TK...00	Suicide and selfinflicted injury			
+TK...11	Cause of overdose - deliberate			
+TK...12	Injury - self-inflicted			
+TK...13	Poisoning - self-inflicted			
+TK...14	Suicide and self harm			
+TK...15	Attempted suicide			
+TK...17	Para-suicide			
+TK...97	Suicide - NOS			
+TK...98	Attempt suicide - NOS			
+TK...99	Suicide - successful			
+TK0..00	Suicide + selfinflicted poisoning by solid/liquid substances			
+TK00.00	Suicide + selfinflicted poisoning by analgesic/antipyretic			
+TK01.00	Suicide + selfinflicted poisoning by barbiturates			
+TK01000	Suicide and self inflicted injury by Amylobarbitone			
+TK01011	Suicide and self inflicted injury by amobarbital			
+TK01100	Suicide and self inflicted injury by Barbitone			
+TK01200	Suicide and self inflicted injury by Butabarbitone			
+TK01300	Suicide and self inflicted injury by Pentabarbitone			
+TK01400	Suicide and self inflicted injury by Phenobarbitone			
+TK01411	Suicide and self inflicted injury by Phenobarbital			
+TK01500	Suicide and self inflicted injury by Quinalbarbitone			
+TK01511	Suicide and self inflicted injury by secobarbital			
+TK01z00	Suicide and self inflicted injury by barbiturates			
+TK02.00	Suicide + selfinflicted poisoning by oth sedatives/hypnotics			
+TK03.00	Suicide + selfinflicted poisoning tranquilliser/psychotropic			
+TK04.00	Suicide + selfinflicted poisoning by other drugs/medicines			
+TK05.00	Suicide + selfinflicted poisoning by drug or medicine NOS			
+TK05.98	Suicide - drug overdose			
+TK05.99	Attempt suicide -drug overdose			
+TK06.00	Suicide + selfinflicted poisoning by agricultural chemical			
+TK07.00	Suicide + selfinflicted poisoning by corrosive/caustic subst			
+TK08.00	Suicide + selfinflicted poisoning by arsenic + its compounds			
+TK0z.00	Suicide + selfinflicted poisoning by solid/liquid subst NOS			
+TK1..00	Suicide + selfinflicted poisoning by gases in domestic use			
+TK1..98	Suicide - domestic gas			
+TK1..99	Attempt suicide - domestic gas			
+TK10.00	Suicide + selfinflicted poisoning by gas via pipeline			
+TK11.00	Suicide + selfinflicted poisoning by liquified petrol gas			
+TK1y.00	Suicide and selfinflicted poisoning by other utility gas			
+TK1z.00	Suicide + selfinflicted poisoning by domestic gases NOS			
+TK2..00	Suicide + selfinflicted poisoning by other gases and vapours			
+TK20.00	Suicide + selfinflicted poisoning by motor veh exhaust gas			
+TK20.98	Suicide - car exhaust			
+TK20.99	Attempt suicide - car exhaust			
+TK21.00	Suicide and selfinflicted poisoning by other carbon monoxide			
+TK2y.00	Suicide + selfinflicted poisoning by other gases and vapours			
+TK2z.00	Suicide + selfinflicted poisoning by gases and vapours NOS			
+TK3..00	Suicide + selfinflicted injury by hang/strangulate/suffocate			
+TK30.00	Suicide and selfinflicted injury by hanging			
+TK30.98	Suicide - hanging			
+TK30.99	Attempt suicide - hanging			
+TK31.00	Suicide + selfinflicted injury by suffocation by plastic bag			
+TK31.98	Suicide - suffocate			
+TK31.99	Attempt suicide - suffocate			
+TK3y.00	Suicide + selfinflicted inj oth mean hang/strangle/suffocate			
+TK3z.00	Suicide + selfinflicted inj by hang/strangle/suffocate NOS			
+TK4..00	Suicide and selfinflicted injury by drowning			
+TK4..98	Suicide - drowning			
+TK4..99	Attempt suicide - drowning			
+TK5..00	Suicide and selfinflicted injury by firearms and explosives			
+TK5..98	Suicide - firearms			
+TK5..99	Attempt suicide - firearms			
+TK50.00	Suicide and selfinflicted injury by handgun			
+TK51.00	Suicide and selfinflicted injury by shotgun			
+TK52.00	Suicide and selfinflicted injury by hunting rifle			
+TK53.00	Suicide and selfinflicted injury by military firearms			
+TK54.00	Suicide and selfinflicted injury by other firearm			
+TK55.00	Suicide and selfinflicted injury by explosives			
+TK5z.00	Suicide and selfinflicted injury by firearms/explosives NOS			
+TK6..00	Suicide and selfinflicted injury by cutting and stabbing			
+TK6..98	Suicide - cut/stab			
+TK6..99	Attempt suicide - cut/stab			
+TK60.00	Suicide and selfinflicted injury by cutting			
+TK60100	Self inflicted lacerations to wrist			
+TK60111	Slashed wrists self inflicted			
+TK61.00	Suicide and selfinflicted injury by stabbing			
+TK6z.00	Suicide and selfinflicted injury by cutting and stabbing NOS			
+TK7..00	Suicide and selfinflicted injury by jumping from high place			
+TK7..98	Suicide - jump from high			
+TK7..99	Attempt suicide-jump from high			
+TK70.00	Suicide+selfinflicted injury-jump from residential premises			
+TK71.00	Suicide+selfinflicted injury-jump from oth manmade structure			
+TK72.00	Suicide+selfinflicted injury-jump from natural sites			
+TK7z.00	Suicide+selfinflicted injury-jump from high place NOS			
+TKx..00	Suicide and selfinflicted injury by other means			
+TKx0.00	Suicide + selfinflicted injury-jump/lie before moving object			
+TKx0000	Suicide + selfinflicted injury-jumping before moving object			
+TKx0100	Suicide + selfinflicted injury-lying before moving object			
+TKx0z00	Suicide + selfinflicted inj-jump/lie before moving obj NOS			
+TKx1.00	Suicide and selfinflicted injury by burns or fire			
+TKx2.00	Suicide and selfinflicted injury by scald			
+TKx3.00	Suicide and selfinflicted injury by extremes of cold			
+TKx4.00	Suicide and selfinflicted injury by electrocution			
+TKx5.00	Suicide and selfinflicted injury by crashing motor vehicle			
+TKx6.00	Suicide and selfinflicted injury by crashing of aircraft			
+TKx7.00	"Suicide and selfinflicted injury caustic subst, excl poison"			
+TKxy.00	Suicide and selfinflicted injury by other specified means			
+TKxz.00	Suicide and selfinflicted injury by other means NOS			
+TKy..00	Late effects of selfinflicted injury			
+TKz..00	Suicide and selfinflicted injury NOS			
+TKz..98	Suicide - NOS			
+TKz..99	Attempt suicide - NOS			
+TN3..00	"Injury ?accidental, hanging, strangulation and suffocation"			
+TN3z.00	"Injury ?accidental, hanging/strangulation/suffocation NOS"			
+TN6..00	"Injury ?accidental, by cutting and stabbing instruments"			
+TN60.00	"Injury ?accidental, by cutting instrument"			
+TN61.00	"Injury ?accidental, by stabbing instrument"			
+TN6z.00	"Injury ?accidental, by cutting or stabbing instrument NOS"			
+TN84.00	"Injury ?accidental, by electrocution"			
+U2...00	[X]Intentional self-harm			
+U2...11	[X]Self inflicted injury			
+U2...12	[X]Injury - self-inflicted			
+U2...13	[X]Suicide			
+U2...14	[X]Attempted suicide			
+U2...15	[X]Para-suicide			
+U20..00	[X]Intentional self poisoning/exposure to noxious substances			
+U20..11	[X]Deliberate drug overdose / other poisoning			
+U200.00	[X]Intent self poison/exposure to nonopioid analgesic			
+U200.11	[X]Overdose - paracetamol			
+U200.12	[X]Overdose - ibuprofen			
+U200.13	[X]Overdose - aspirin			
+U200000	[X]Int self poison/exposure to nonopioid analgesic at home			
+U200100	[X]Intent self poison nonopioid analgesic at res institut			
+U200200	[X]Int self poison nonopioid analges school/pub admin area			
+U200300	[X]Int self poison nonopioid analges in sport/athletic area			
+U200400	[X]Intent self pois nonopioid analgesic in street/highway			
+U200500	[X]Intent self pois nonopioid analgesic trade/service area			
+U200600	[X]Int self pois nonopioid analgesic indust/construct area			
+U200700	[X]Int self poison/exposure to nonopioid analgesic on farm			
+U200y00	[X]Int self poison nonopioid analgesic other spec place			
+U200z00	[X]Intent self poison nonopioid analgesic unspecif place			
+U201.00	[X]Intent self poison/exposure to antiepileptic			
+U201000	[X]Int self poison/exposure to antiepileptic at home			
+U201100	[X]Intent self poison antiepileptic at res institut			
+U201200	[X]Intent self pois nonopioid analges school/pub admin area			
+U201300	[X]Int self poison antiepileptic in sport/athletic area			
+U201400	[X]Intent self pois antiepileptic in street/highway			
+U201500	[X]Intent self pois antiepileptic trade/service area			
+U201600	[X]Int self poison antiepileptic indust/construct area			
+U201700	[X]Int self poison/exposure to antiepileptic on farm			
+U201y00	[X]Intent self poison antiepileptic other spec place			
+U201z00	[X]Intent self poison antiepileptic unspecif place			
+U202.00	[X]Intent self poison/exposure to sedative hypnotic			
+U202.11	[X]Overdose - sleeping tabs			
+U202.12	[X]Overdose - diazepam			
+U202.13	[X]Overdose - temazepam			
+U202.14	[X]Overdose - flurazepam			
+U202.15	[X]Overdose - nitrazepam			
+U202.16	[X]Overdose - benzodiazepine			
+U202.17	[X]Overdose - barbiturate			
+U202.18	[X]Overdose - amobarbital			
+U202000	[X]Int self poison/exposure to sedative hypnotic at home			
+U202100	[X]Intent self poison sedative hypnotic at res institut			
+U202200	[X]Int self poison sedative hypnotic school/pub admin area			
+U202300	[X]Int self poison sedative hypnotic in sport/athletic area			
+U202400	[X]Intent self pois sedative hypnotic in street/highway			
+U202500	[X]Intent self pois sedative hypnotic trade/service area			
+U202600	[X]Int self pois sedative hypnotic indust/construct area			
+U202700	[X]Int self poison/exposure to sedative hypnotic on farm			
+U202y00	[X]Int self poison sedative hypnotic other spec place			
+U202z00	[X]Intent self poison sedative hypnotic unspecif place			
+U203.00	[X]Intent self poison/exposure to antiparkinson drug			
+U203000	[X]Int self poison/exposure to antiparkinson drug at home			
+U203100	[X]Intent self poison antiparkinson drug at res institut			
+U203200	[X]Int self poison antparkinson drug school/pub admin area			
+U203300	[X]Int self poison antparkinson drug in sport/athletic area			
+U203400	[X]Intent self pois antiparkinson drug in street/highway			
+U203500	[X]Intent self pois antiparkinson drug trade/service area			
+U203600	[X]Int self pois antiparkinson drug indust/construct area			
+U203700	[X]Int self poison/exposure to antiparkinson drug on farm			
+U203y00	[X]Int self poison antiparkinson drug other spec place			
+U203z00	[X]Intent self poison antiparkinson drug unspecif place			
+U204.00	[X]Intent self poison/exposure to psychotropic drug			
+U204.11	[X]Overdose - antidepressant			
+U204.12	[X]Overdose - amitriptyline			
+U204.13	[X]Overdose - SSRI			
+U204000	[X]Int self poison/exposure to psychotropic drug at home			
+U204100	[X]Intent self poison psychotropic drug at res institut			
+U204200	[X]Int self poison psychotropic drug school/pub admin area			
+U204300	[X]Int self poison psychotropic drug in sport/athletic area			
+U204400	[X]Intent self pois psychotropic drug in street/highway			
+U204500	[X]Intent self pois psychotropic drug trade/service area			
+U204600	[X]Int self pois psychotropic drug indust/construct area			
+U204700	[X]Int self poison/exposure to psychotropic drug on farm			
+U204y00	[X]Int self poison psychotropic drug other spec place			
+U204z00	[X]Intent self poison psychotropic drug unspecif place			
+U205.00	[X]Intent self poison/exposure to narcotic drug			
+U205000	[X]Int self poison/exposure to narcotic drug at home			
+U205100	[X]Intent self poison narcotic drug at res institut			
+U205200	[X]Int self poison narcotic drug school/pub admin area			
+U205300	[X]Int self poison narcotic drug in sport/athletic area			
+U205400	[X]Intent self pois narcotic drug in street/highway			
+U205500	[X]Intent self pois narcotic drug trade/service area			
+U205600	[X]Int self pois narcotic drug indust/construct area			
+U205700	[X]Int self poison/exposure to narcotic drug on farm			
+U205y00	[X]Int self poison narcotic drug other spec place			
+U205z00	[X]Intent self poison narcotic drug unspecif place			
+U206.00	[X]Intent self poison/exposure to hallucinogen			
+U206000	[X]Int self poison/exposure to hallucinogen at home			
+U206100	[X]Intent self poison hallucinogen at res institut			
+U206200	[X]Int self poison hallucinogenschool/pub admin area			
+U206300	[X]Int self poison hallucinogenin sport/athletic area			
+U206400	[X]Intent self pois hallucinogen in street/highway			
+U206500	[X]Intent self pois hallucinogen trade/service area			
+U206600	[X]Int self pois hallucinogen indust/construct area			
+U206700	[X]Int self poison/exposure to hallucinogen on farm			
+U206y00	[X]Int self poison hallucinogen other spec place			
+U206z00	[X]Intent self poison hallucinogen unspecif place			
+U207.00	[X]Intent self poison/exposure to oth autonomic drug			
+U207000	[X]Int self poison/exposure to oth autonomic drug at home			
+U207100	[X]Intent self poison oth autonomic drug at res institut			
+U207200	[X]Int self poison oth autonom drug school/pub admin area			
+U207300	[X]Int self poison oth autonom drug in sport/athletic area			
+U207400	[X]Intent self pois oth autonomic drug in street/highway			
+U207500	[X]Intent self pois oth autonomic drug trade/service area			
+U207600	[X]Int self pois oth autonomic drug indust/construct area			
+U207700	[X]Int self poison/exposure to oth autonomic drug on farm			
+U207y00	[X]Int self poison oth autonomic drug other spec place			
+U207z00	[X]Intent self poison oth autonomic drug unspecif place			
+U208.00	[X]Int self poison/exposure to other/unspec drug/medicament			
+U208000	[X]Int self poison/exposure to oth/unsp drug/medicam home			
+U208100	[X]Intent self poison oth/unsp drug/medicam res institut			
+U208200	[X]Int self poison oth/uns drug/med school/pub admin area			
+U208300	[X]Int self poison oth/uns drug/med in sport/athletic area			
+U208400	[X]Intent self pois oth/unsp drug/medic in street/highway			
+U208500	[X]Intent self pois oth/unsp drug/medic trade/service area			
+U208600	[X]Int self pois oth/unsp drug/medic indust/construct area			
+U208700	[X]Int self poison/exposure to oth/unsp drug/medic on farm			
+U208y00	[X]Int self poison oth/unsp drug/medic other spec place			
+U208z00	[X]Intent self poison oth/unsp drug/medic unspecif place			
+U209.00	[X]Intent self poison/exposure to alcohol			
+U209000	[X]Int self poison/exposure to alcohol at home			
+U209100	[X]Intent self poison alcohol at res institut			
+U209200	[X]Int self poison alcohol school/pub admin area			
+U209300	[X]Int self poison alcohol in sport/athletic area			
+U209400	[X]Intent self pois alcohol in street/highway			
+U209500	[X]Intent self pois alcohol trade/service area			
+U209600	[X]Int self pois alcohol indust/construct area			
+U209700	[X]Int self poison/exposure to alcohol on farm			
+U209y00	[X]Int self poison alcohol other spec place			
+U209z00	[X]Intent self poison alcohol unspecif place			
+U20A.00	"[X]Intentional self poison organ solvent,halogen hydrocarb"			
+U20A.11	[X]Self poisoning from glue solvent			
+U20A000	"[X]Intent self pois organ solvent,halogen hydrocarb, home"			
+U20A100	"[X]Int self poison org solvent,halogen hydrocarb,res instit"			
+U20A200	"[X]Int self poison org solvent,halogen hydrocarb, school"			
+U20A300	"[X]Int self poison org solvent,halogen hydrocarb,sport area"			
+U20A400	"[X]Int self poison org solvent,halogen hydrocarb,in highway"			
+U20A500	"[X]Int self poison org solvent,halogen hydrocarb,trade area"			
+U20A600	"[X]Int self pois org solvent,halogen hydrocarb,indust area"			
+U20A700	"[X]Int self poison org solvent,halogen hydrocarb,on farm"			
+U20Ay00	"[X]Int self pois org solv,halogen hydrocarb,oth spec place"			
+U20Az00	"[X]Int self pois org solv,halogen hydrocarb, unspec place"			
+U20B.00	[X]Intent self poison/exposure to other gas/vapour			
+U20B.11	[X]Self carbon monoxide poisoning			
+U20B000	[X]Int self poison/exposure to other gas/vapour at home			
+U20B100	[X]Intent self poison other gas/vapour at res institut			
+U20B200	[X]Int self poison other gas/vapour school/pub admin area			
+U20B300	[X]Int self poison other gas/vapour in sport/athletic area			
+U20B400	[X]Intent self pois other gas/vapour in street/highway			
+U20B500	[X]Intent self pois other gas/vapour trade/service area			
+U20B600	[X]Int self pois other gas/vapour indust/construct area			
+U20B700	[X]Int self poison/exposure to other gas/vapour on farm			
+U20By00	[X]Int self poison other gas/vapour other spec place			
+U20Bz00	[X]Intent self poison other gas/vapour unspecif place			
+U20C.00	[X]Intent self poison/exposure to pesticide			
+U20C.11	[X]Self poisoning with weedkiller			
+U20C.12	[X]Self poisoning with paraquat			
+U20C000	[X]Int self poison/exposure to pesticide at home			
+U20C100	[X]Intent self poison pesticide at res institut			
+U20C200	[X]Int self poison pesticide school/pub admin area			
+U20C300	[X]Int self poison pesticide in sport/athletic area			
+U20C400	[X]Intent self pois pesticide in street/highway			
+U20C500	[X]Intent self pois pesticide trade/service area			
+U20C600	[X]Int self pois pesticide indust/construct area			
+U20C700	[X]Int self poison/exposure to pesticide on farm			
+U20Cy00	[X]Int self poison pesticide other spec place			
+U20Cz00	[X]Intent self poison pesticide unspecif place			
+U20y.00	[X]Intent self poison/exposure to unspecif chemical			
+U20y000	[X]Int self poison/exposure to unspecif chemical at home			
+U20y100	[X]Intent self poison unspecif chemical at res institut			
+U20y200	[X]Int self poison unspecif chemical school/pub admin area			
+U20y300	[X]Int self poison unspecif chemical in sport/athletic area			
+U20y400	[X]Intent self pois unspecif chemical in street/highway			
+U20y500	[X]Intent self pois unspecif chemical trade/service area			
+U20y600	[X]Int self pois unspecif chemical indust/construct area			
+U20y700	[X]Int self poison/exposure to unspecif chemical on farm			
+U20yy00	[X]Int self poison unspecif chemical other spec place			
+U20yz00	[X]Intent self poison unspecif chemical unspecif place			
+U21..00	[X]Intent self harm by hanging strangulation / suffocation			
+U210.00	[X]Intent self harm by hanging strangulat/suffocat occ home			
+U211.00	[X]Intent self harm by hangng strangult/suffoct resid instit			
+U213.00	[X]Intent self harm by hang strangl/suffc sport/athlet area			
+U214.00	[X]Intent self harm by hangng strangult/suffoct street/h'way			
+U215.00	[X]Intent self harm by hang strangl/suffc trade/service area			
+U216.00	[X]Intent self harm by hang strangl/suffc indust/constr area			
+U217.00	[X]Intent self harm by hanging strangulat/suffocat occ farm			
+U21y.00	[X]Intent self harm by hangng strangul/suffoct oth spec plce			
+U21z.00	[X]Intent self harm by hangng strangul/suffoct unspecif plce			
+U22..00	[X]Intentional self harm by drowning and submersion			
+U220.00	[X]Intent self harm by drowning/submersion occurrn at home			
+U221.00	[X]Intent self harm by drowning/submersn occ resid instit'n			
+U222.00	[X]Intent self harm drown/submers occ sch/ins/pub adm area			
+U223.00	[X]Intent self harm by drown/submersn occ sport/athlet area			
+U224.00	[X]Intent self harm by drowning/submersn occ street/highway			
+U225.00	[X]Intent self harm by drown/submersn occ trade/servce area			
+U226.00	[X]Intent self harm by drown/submers occ indust/constr area			
+U227.00	[X]Intent self harm by drowning/submersion occurrn on farm			
+U22y.00	[X]Intent self harm by drown/submersn occ oth specif place			
+U22z.00	[X]Intent self harm by drown/submersn occ unspecified place			
+U23..00	[X]Intentional self harm by handgun discharge			
+U230.00	[X]Intention self harm by handgun discharge occurrn at home			
+U231.00	[X]Intent self harm by handgun disch occ in resid instit'n			
+U232.00	[X]Intent self harm h'gun disch occ sch oth ins/pub adm area			
+U233.00	[X]Intent self harm by handgun disch occ sport/athlet area			
+U234.00	[X]Intent self harm by handgun disch occ on street/highway			
+U235.00	[X]Intent self harm by handgun disch occ trade/service area			
+U236.00	[X]Intent self harm by handgun disch occ indust/constr area			
+U237.00	[X]Intention self harm by handgun discharge occurrn on farm			
+U23y.00	[X]Intent self harm by handgun disch occ at oth specif plce			
+U23z.00	[X]Intent self harm by handgun disch occ at unspecif place			
+U24..00	[X]Intent self harm by rifle shotgun/larger firearm disch			
+U240.00	[X]Intent self harm rifle sh'gun/largr firarm disch occ home			
+U241.00	[X]Int self harm rifl s'gun/lrg frarm disch occ resid instit			
+U243.00	[X]Int self harm rifl s'gun/lrg frarm disch sprt/athlet area			
+U244.00	[X]Int self harm rifl s'gun/lrg frarm disch occ street/h'way			
+U245.00	[X]Int self harm rifl s'gun/lrg frarm disch trad/servce area			
+U247.00	[X]Intent self harm rifle sh'gun/largr firarm disch occ farm			
+U24y.00	[X]Int self harm rifl s'gun/lrg frarm disch oth specif place			
+U24z.00	[X]Int self harm rifl s'gun/lrg frarm disch occ unspec place			
+U25..00	[X]Intent self harm by other/unspecified firearm discharge			
+U250.00	[X]Intent self harm oth/unspecif firearm disch occ at home			
+U251.00	[X]Intent self harm oth/unsp firearm disch occ resid instit			
+U252.00	[X]Inten self harm oth/uns firarm disch sch/ins/pub adm area			
+U253.00	[X]Inten self harm oth/uns firearm disch occ sprt/athl area			
+U254.00	[X]Intent self harm oth/unsp firearm disch occ street/h'way			
+U255.00	[X]Intent self harm oth/uns firearm disch trade/servce area			
+U256.00	[X]Inten self harm oth/uns firearm disch indust/constr area			
+U257.00	[X]Intent self harm oth/unspecif firearm disch occ on farm			
+U25y.00	[X]Intent self harm oth/unsp firearm disch oth specif place			
+U25z.00	[X]Intent self harm oth/unsp firearm disch occ unspecif plce			
+U26..00	[X]Intentional self harm by explosive material			
+U260.00	[X]Intention self harm by explosive material occurrn home			
+U261.00	[X]Intention self harm by explosiv materl occ resid instit			
+U262.00	[X]Intent self harm by explosiv materl sch/ins/pub adm area			
+U263.00	[X]Intent self harm by explosv materl occ sport/athlet area			
+U264.00	[X]Intention self harm by explosiv materl occ street/highway			
+U265.00	[X]Intent self harm by explosv materl occ trade/servce area			
+U266.00	[X]Intent self harm by explosv materl occ indust/constr area			
+U267.00	[X]Intention self harm by explosive material occurrn farm			
+U26y.00	[X]Intent self harm by explosiv materl occ oth specif place			
+U26z.00	[X]Intent self harm by explosiv materl occ unspecif place			
+U27..00	"[X]Intentional self harm by smoke, fire and flames"			
+U270.00	[X]Intention self harm by smoke fire/flames occurrn at home			
+U271.00	[X]Intent self harm by smoke fire/flame occ resid instit'n			
+U272.00	[X]Intent self harm by smoke fire/flame sch/ins/pub adm area			
+U273.00	[X]Intent self harm by smok fire/flam occ sport/athlet area			
+U274.00	[X]Intent self harm by smoke fire/flame occ street/highway			
+U275.00	[X]Intent self harm by smok fire/flam occ trade/servce area			
+U276.00	[X]Intent self harm by smok fire/flam occ indust/constr area			
+U277.00	[X]Intention self harm by smoke fire/flames occurrn on farm			
+U27y.00	[X]Intent self harm by smoke fire/flame occ oth specif plce			
+U27z.00	[X]Intent self harm by smoke fire/flames occ unspecif place			
+U28..00	[X]Intentional self harm by steam hot vapours / hot objects			
+U280.00	[X]Intent self harm by steam hot vapour/hot obj occ at home			
+U281.00	[X]Intent self harm by steam hot vapour/obj occ resid instit			
+U282.00	[X]Int self harm by steam hot vapor/obj sch/ins/pub adm area			
+U283.00	[X]Int self harm by steam hot vapour/obj occ sport/athl area			
+U284.00	[X]Intent self harm by steam hot vapour/obj occ street/h'way			
+U285.00	[X]Int self harm by steam hot vapour/obj trade/service area			
+U286.00	[X]Int self harm by steam hot vapour/obj indust/constr area			
+U287.00	[X]Intent self harm by steam hot vapour/hot obj occ on farm			
+U28y.00	[X]Intent self harm by steam hot vapour/obj oth specif place			
+U28z.00	[X]Intent self harm by steam hot vapour/obj occ unspec place			
+U29..00	[X]Intentional self harm by sharp object			
+U290.00	[X]Intentional self harm by sharp object occurrence at home			
+U291.00	[X]Intent self harm by sharp object occ resident instit'n			
+U292.00	[X]Intent self harm sharp obj occ sch oth ins/pub adm area			
+U293.00	[X]Intent self harm by sharp object occ sports/athlet area			
+U294.00	[X]Intention self harm by sharp object occ street/highway			
+U295.00	[X]Intent self harm by sharp object occ trade/service area			
+U296.00	[X]Intent self harm by sharp object occ indust/constr area			
+U297.00	[X]Intentional self harm by sharp object occurrence on farm			
+U29y.00	[X]Intention self harm by sharp object occ oth specif place			
+U29z.00	[X]Intentional self harm by sharp object occ unspecif place			
+U2A..00	[X]Intentional self harm by blunt object			
+U2A0.00	[X]Intentional self harm by blunt object occurrence at home			
+U2A1.00	[X]Intent self harm by blunt object occ resident instit'n			
+U2A2.00	[X]Intent self harm blunt obj occ sch oth ins/pub adm area			
+U2A3.00	[X]Intent self harm by blunt object occ sports/athlet area			
+U2A4.00	[X]Intention self harm by blunt object occ street/highway			
+U2A5.00	[X]Intent self harm by blunt object occ trade/service area			
+U2A6.00	[X]Intent self harm by blunt object occ indust/constr area			
+U2A7.00	[X]Intentional self harm by blunt object occurrence on farm			
+U2Ay.00	[X]Intention self harm by blunt object occ oth specif place			
+U2Az.00	[X]Intentional self harm by blunt object occ unspecif place			
+U2B..00	[X]Intentional self harm by jumping from a high place			
+U2B0.00	[X]Intent self harm by jumping from high place occ at home			
+U2B1.00	[X]Intent self harm by jump from high place occ resid instit			
+U2B2.00	[X]Int self harm jump fr high place sch oth ins/pub adm area			
+U2B3.00	[X]Intent self harm by jump from high place sport/athl area			
+U2B4.00	[X]Intent self harm by jump from high place occ street/h'way			
+U2B5.00	[X]Intent self harm by jump from high place trad/servce area			
+U2B6.00	[X]Int self harm by jump from high place indust/constr area			
+U2B7.00	[X]Intent self harm by jumping from high place occ on farm			
+U2By.00	[X]Int self harm by jump from high place occ oth specif plce			
+U2Bz.00	[X]Int self harm by jump from high place occ unspecif place			
+U2C..00	[X]Intent self harm by jumping / lying before moving object			
+U2C0.00	[X]Intent self harm by jump/lying befor moving obj occ home			
+U2C1.00	[X]Int self harm jump/lying befr mov obje occ resid instit'n			
+U2C2.00	[X]Int self harm jump/lying bef mov obj sch/ins/pub adm area			
+U2C3.00	[X]Int self harm jump/lying bef mov obj occ sprt/athlet area			
+U2C4.00	[X]Int self harm jump/lying befr mov obje occ street/highway			
+U2C5.00	[X]Int self harm jump/lying bef mov obj occ trad/servce area			
+U2C6.00	[X]Int self harm jump/lying befr mov obj indust/constr area			
+U2C7.00	[X]Intent self harm by jump/lying befor moving obj occ farm			
+U2Cy.00	[X]Int self harm jump/lying bef mov obje occ oth specif plce			
+U2Cz.00	[X]Int self harm jump/lying bef mov obje occ unspecif place			
+U2D..00	[X]Intentional self harm by crashing of motor vehicle			
+U2D0.00	[X]Intent self harm by crash of motor vehicl occurrn at home			
+U2D1.00	[X]Intent self harm by crash motor vehicl occ resid instit'n			
+U2D2.00	[X]Int self harm crash motor vehicl occ sch/ins/pub adm area			
+U2D3.00	[X]Intent self harm by crash motor vehicl occ sprt/athl area			
+U2D4.00	[X]Intent self harm by crash motor vehicl occ street/highway			
+U2D5.00	[X]Intent self harm crash motor vehicl occ trade/servce area			
+U2D6.00	[X]Intent self harm crash motor vehic occ indust/constr area			
+U2D7.00	[X]Intent self harm by crash of motor vehicl occurrn on farm			
+U2Dy.00	[X]Intent self harm by crash motor vehic occ oth specif plce			
+U2Dz.00	[X]Intent self harm by crash motor vehic occ unspecif place			
+U2E..00	[X]Self mutilation			
+U2y..00	[X]Intentional self harm by other specified means			
+U2y0.00	[X]Intentionl self harm by oth specif means occurrn at home			
+U2y1.00	[X]Intent self harm by oth specif means occ resid instit'n			
+U2y2.00	[X]Intent self harm oth specif mean occ sch/ins/pub adm area			
+U2y3.00	[X]Intent self harm by oth specif means occ sport/athl area			
+U2y4.00	[X]Intent self harm by oth specif means occ street/highway			
+U2y5.00	[X]Intent self harm by oth specif means occ trad/servce area			
+U2y6.00	[X]Intent self harm oth specif means occ indust/constr area			
+U2y7.00	[X]Intentionl self harm by oth specif means occurrn on farm			
+U2yy.00	[X]Intent self harm oth specif means occ oth specif place			
+U2yz.00	[X]Intent self harm by oth specif means occ unspecif place			
+U2z..00	[X]Intentional self harm by unspecified means			
+U2z0.00	[X]Intentional self harm by unspecif means occurrn at home			
+U2z1.00	[X]Intent self harm by unspecif means occurrn resid instit'n			
+U2z2.00	[X]Intent self harm by unspec mean occ sch/ins/pub adm area			
+U2z3.00	[X]Intent self harm unspecif means occurrn sport/athlet area			
+U2z4.00	[X]Intent self harm by unspecif means occurrn street/highway			
+U2z5.00	[X]Intent self harm unspecif means occurrn trade/servce area			
+U2z6.00	[X]Intent self harm unspecif mean occurrn indust/constr area			
+U2z7.00	[X]Intentional self harm by unspecif means occurrn on farm			
+U2zy.00	[X]Intent self harm by unspecif means occ oth specif place			
+U2zz.00	[X]Intent self harm by unspecif means occ at unspecif place			
+U30..11	[X]Deliberate drug poisoning			
+U40..00	"[X]Poisoning/expos to noxious substance,undetermined intent"			
+U400.00	"[X]Poisoning/exposure, ? intent, to nonopioid analgesic"			
+U400000	"[X]Poison/exposure ?intent, to nonopioid analgesic at home"			
+U400100	[X]Pois/expos ?intent to nonopioid analgesic at res institut			
+U400200	[X]Pois/exp ?intent nonopioid analges school/pub admin area			
+U400300	[X]Pois/exp ?intent nonopioid analges in sport/athletic area			
+U400400	[X]Pois/expos ?intent nonopioid analgesic in street/highway			
+U400500	[X]Pois/expos ?intent nonopioid analgesic trade/service area			
+U400600	[X]Pois/exp ?intent nonopioid analges indust/construct area			
+U400700	"[X]Poison/exposure ?intent, to nonopioid analgesic on farm"			
+U400y00	[X]Pois/exp ?intent to nonopioid analgesic other spec place			
+U400z00	[X]Pois/expos ?intent to nonopioid analgesic unspecif place			
+U401.00	"[X]Poisoning/exposure, ? intent, to antiepileptic"			
+U401000	"[X]Poison/exposure ?intent, to antiepileptic at home"			
+U401100	[X]Pois/expos ?intent to antiepileptic at res institut			
+U401200	[X]Pois/expos ?intent nonopioid analgs school/pub admin area			
+U401300	[X]Pois/exp ?intent antiepileptics in sport/athletic area			
+U401400	[X]Pois/expos ?intent antiepileptic in street/highway			
+U401500	[X]Pois/expos ?intent antiepileptic trade/service area			
+U401600	[X]Pois/exp ?intent antiepileptic indust/construct area			
+U401700	"[X]Poison/exposure ?intent, to antiepileptic on farm"			
+U401y00	[X]Pois/expos ?intent to antiepileptic other spec place			
+U401z00	[X]Pois/expos ?intent to antiepileptic unspecif place			
+U402.00	"[X]Poisoning/exposure, ? intent, to sedative hypnotic"			
+U402000	"[X]Poison/exposure ?intent, to sedative hypnotic at home"			
+U402100	[X]Pois/expos ?intent to sedative hypnotic at res institut			
+U402200	[X]Pois/exp ?intent sedative hypnotic school/pub admin area			
+U402300	[X]Pois/exp ?intent sedative hypnotic in sport/athletic area			
+U402400	[X]Pois/expos ?intent sedative hypnotic in street/highway			
+U402500	[X]Pois/expos ?intent sedative hypnotic trade/service area			
+U402600	[X]Pois/exp ?intent sedative hypnotic indust/construct area			
+U402700	"[X]Poison/exposure ?intent, to sedative hypnotic on farm"			
+U402y00	[X]Pois/exp ?intent to sedative hypnotic other spec place			
+U402z00	[X]Pois/expos ?intent to sedative hypnotic unspecif place			
+U403.00	"[X]Poisoning/exposure, ? intent, to antiparkinson drug"			
+U403000	"[X]Poison/exposure ?intent, to antiparkinson drug at home"			
+U403100	[X]Pois/expos ?intent to antiparkinson drug at res institut			
+U403200	[X]Pois/exp ?intent antparkinson drug school/pub admin area			
+U403300	[X]Pois/exp ?intent antparkinson drug in sport/athletic area			
+U403400	[X]Pois/expos ?intent antiparkinson drug in street/highway			
+U403500	[X]Pois/expos ?intent antiparkinson drug trade/service area			
+U403600	[X]Pois/exp ?intent antiparkinson drug indust/construct area			
+U403700	"[X]Poison/exposure ?intent, to antiparkinson drug on farm"			
+U403y00	[X]Pois/exp ?intent to antiparkinson drug other spec place			
+U403z00	[X]Pois/expos ?intent to antiparkinson drug unspecif place			
+U404.00	"[X]Poisoning/exposure, ? intent, to psychotropic drug"			
+U404000	"[X]Poison/exposure ?intent, to psychotropic drug at home"			
+U404100	[X]Pois/expos ?intent to psychotropic drug at res institut			
+U404200	[X]Pois/exp ?intent psychotropic drug school/pub admin area			
+U404300	[X]Pois/exp ?intent psychotropic drug in sport/athletic area			
+U404400	[X]Pois/expos ?intent psychotropic drug in street/highway			
+U404500	[X]Pois/expos ?intent psychotropic drug trade/service area			
+U404600	[X]Pois/exp ?intent psychotropic drug indust/construct area			
+U404700	"[X]Poison/exposure ?intent, to psychotropic drug on farm"			
+U404y00	[X]Pois/exp ?intent to psychotropic drug other spec place			
+U404z00	[X]Pois/expos ?intent to psychotropic drug unspecif place			
+U407.00	"[X]Poisoning/exposure, ? intent, to other autonomic drug"			
+U407000	"[X]Poison/exposure ?intent, to oth autonomic drug at home"			
+U407100	[X]Pois/expos ?intent to oth autonomic drug at res institut			
+U407200	[X]Pois/exp ?intent oth autonom drug school/pub admin area			
+U407300	[X]Pois/exp ?intent oth autonom drug in sport/athletic area			
+U407400	[X]Pois/expos ?intent oth autonomic drug in street/highway			
+U407500	[X]Pois/expos ?intent oth autonomic drug trade/service area			
+U407600	[X]Pois/exp ?intent oth autonomic drug indust/construct area			
+U407700	"[X]Poison/exposure ?intent, to oth autonomic drug on farm"			
+U407y00	[X]Pois/exp ?intent to oth autonomic drug other spec place			
+U407z00	[X]Pois/expos ?intent to oth autonomic drug unspecif place			
+U408.00	"[X]Poison/exposure, ?intent, to other/unspec drug/medicament"			
+U408000	"[X]Poison/exposure ?intent, to oth/unsp drug/medicam home"			
+U408100	[X]Pois/expos ?intent to oth/unsp drug/medicam res institut			
+U408200	[X]Pois/exp ?intent oth/uns drug/med school/pub admin area			
+U408300	[X]Pois/exp ?intent oth/uns drug/med in sport/athletic area			
+U408400	[X]Pois/expos ?intent oth/unsp drug/medic in street/highway			
+U408500	[X]Pois/expos ?intent oth/unsp drug/medic trade/service area			
+U408600	[X]Pois/exp ?intent oth/unsp drug/medic indust/construc area			
+U408700	"[X]Poison/exposure ?intent, to oth/unsp drug/medic on farm"			
+U408y00	[X]Pois/exp ?intent to oth/unsp drug/medic other spec place			
+U408z00	[X]Pois/expos ?intent to oth/unsp drug/medic unspecif place			
+U409.00	"[X]Poisoning/exposure, ? intent, to alcohol"			
+U409000	"[X]Poison/exposure ?intent, to alcohol at home"			
+U409100	[X]Pois/expos ?intent to alcohol at res institut			
+U409200	[X]Pois/exp ?intent alcohol school/pub admin area			
+U409300	[X]Pois/exp ?intent alcohol in sport/athletic area			
+U409400	[X]Pois/expos ?intent alcohol in street/highway			
+U409500	[X]Pois/expos ?intent alcohol trade/service area			
+U409600	"[X]Poison/exposure, ?intent, alcohol indust/construct area"			
+U409700	"[X]Poison/exposure ?intent, to alcohol on farm"			
+U409y00	[X]Pois/exp ?intent to alcohol other spec place			
+U409z00	[X]Pois/expos ?intent to alcohol unspecif place			
+U40B.00	"[X]Poisoning/exposure, ? intent, to other gas/vapour"			
+U40B000	"[X]Poison/exposure ?intent, to other gas/vapour at home"			
+U40B100	[X]Pois/expos ?intent to other gas/vapour at res institut			
+U40B200	[X]Pois/exp ?intent other gas/vapour school/pub admin area			
+U40B300	[X]Pois/exp ?intent other gas/vapour in sport/athletic area			
+U40B400	[X]Pois/expos ?intent other gas/vapour in street/highway			
+U40B500	[X]Pois/expos ?intent other gas/vapour trade/service area			
+U40B600	[X]Pois/exp ?intent other gas/vapour indust/construct area			
+U40B700	"[X]Poison/exposure ?intent, to other gas/vapour on farm"			
+U40By00	[X]Pois/exp ?intent to other gas/vapour other spec place			
+U40Bz00	[X]Pois/expos ?intent to other gas/vapour unspecif place			
+U40C.00	"[X]Poisoning/exposure, ? intent, to pesticide"			
+U40C000	"[X]Poison/exposure ?intent, to pesticide at home"			
+U40C100	[X]Pois/expos ?intent to pesticide at res institut			
+U40C200	[X]Pois/exp ?intent pesticide school/pub admin area			
+U40C300	[X]Pois/exp ?intent pesticide in sport/athletic area			
+U40C400	[X]Pois/expos ?intent pesticide in street/highway			
+U40C500	[X]Pois/expos ?intent pesticide trade/service area			
+U40C600	"[X]Poison/exposure, ?intent, pesticide indust/construct area"			
+U40C700	"[X]Poison/exposure ?intent, to pesticide on farm"			
+U40Cy00	[X]Pois/exp ?intent to pesticide other spec place			
+U40Cz00	[X]Pois/expos ?intent to pesticide unspecif place			
+U40y.00	"[X]Poisoning/exposure, ? intent, to unspecif chemical"			
+U40y000	"[X]Poison/exposure ?intent, to unspecif chemical at home"			
+U40y100	[X]Pois/expos ?intent to unspecif chemical at res institut			
+U40y200	[X]Pois/exp ?intent unspecif chemical school/pub admin area			
+U40y300	[X]Pois/exp ?intent unspecif chemical in sport/athletic area			
+U40y400	[X]Pois/expos ?intent unspecif chemical in street/highway			
+U40y500	[X]Pois/expos ?intent unspecif chemical trade/service area			
+U40y600	[X]Poison/expos ?intent unspec chemic indust/construct area			
+U40y700	"[X]Poison/exposure ?intent, to unspecif chemical on farm"			
+U40yy00	[X]Pois/exp ?intent to unspecif chemical other spec place			
+U40yz00	[X]Pois/expos ?intent to unspecif chemical unspecif place			
+U41..00	[X]Hanging strangulation + suffocation undetermined intent			
+U410.00	[X]Hanging strangulat+suffocat undet intent occurrn at home			
+U411.00	[X]Hangng strangulat+suffocat undet intent resident instit'n			
+U412.00	[X]Hang strangl+suffoc undet intent sch oth ins/pub adm area			
+U413.00	[X]Hangng strangulat+suffocat undet intent sport/athlet area			
+U414.00	[X]Hangng strangult+suffocat undet intent occ street/highway			
+U415.00	[X]Hangng strangulat+suffocat undet intent trade/servce area			
+U416.00	[X]Hangng strangult+suffocat undet intent indust/constr area			
+U417.00	[X]Hanging strangulat+suffocat undet intent occurrn on farm			
+U41y.00	[X]Hangng strangult+suffoct undet intent occ oth specif plce			
+U41z.00	[X]Hangng strangult+suffoct undet intent occ unspecif place			
+U72..00	[X]Sequel intentn self-harm assault+event of undeterm intent			
+U720.00	[X]Sequelae of intentional self-harm			
+ZV15600	[V]Personal history of poisoning			
+ZV1B200	[V]Personal history of self-harm			
+ZX...00	Self-harm			
+ZX...11	Self-damage			
+ZX1..00	Self-injurious behaviour			
+ZX1..11	Self-destructive behaviour			
+ZX1..12	SIB - Self-injurious behaviour			
+ZX1..13	Deliberate self-harm			
+ZX1..14	Self-abusive behaviour			
+ZX13.00	Cutting self			
+ZX13.11	Cuts self			
+ZX13100	Cutting own wrists			
+ZX13200	Cutting own throat			
+ZX1H100	Self-strangulation			
+ZX1J.00	Self-electrocution			
+ZX1L.00	Self-mutilation			
+ZX1L100	Self-mutilation of hands			
+ZX1L200	Self-mutilation of genitalia			
+ZX1L300	Self-mutilation of penis			
+ZX1L500	Enucleation of own eyes			
+ZX1L600	Self-mutilation of ears			
+ZX1L700	Self-inducing a prolapse			
+ZX1L800	Breaking own bones			
+ZX1L811	Snapping own bones			
+ZX1L900	Pulling own teeth out			
+ZX1L911	Extracting own teeth			
+ZX1LA00	Removing own nails			
+ZX1LB00	Eating own flesh			
+ZX1LC00	Stripping own skin			
+ZX1LD00	[X]Self mutilation			
+ZX1M.00	Shooting self			
+ZX1N.00	Stabbing self			

@@ -1,0 +1,47 @@
+{
+  "includeTerms": [
+    "smoker",
+    "tobacco consumption",
+    "smoking status",
+    "smoking",
+    "total time smoked",
+    "tobacco chew*",
+    "cigarette pack",
+    "cigar consumption",
+    "cigarette consumption",
+    "rolls own cigarettes",
+    "never smoked",
+    "tobacco cons"
+  ],
+  "excludeTerms": [
+    "annual review",
+    "in the family",
+    "exacerbation frequency index",
+    "monitor",
+    "invitation",
+    "consent",
+    "admin",
+    "clinic",
+    "referral",
+    "advice",
+    "assessment",
+    "declined",
+    "therapy",
+    "exception reporting",
+    "quality indicator",
+    "health ed",
+    "cessation",
+    "face to face follow-up",
+    "service opportunity signposted",
+    "review not indicated",
+    "exposed to tobacco smoke"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdBy": {
+    "name": "Richard Williams",
+    "email": "1234richardwilliams@gmail.com"
+  },
+  "createdOn": "2021-03-30T09:26:10.757Z",
+  "lastUpdated": "2021-03-30T09:26:33.189Z"
+}

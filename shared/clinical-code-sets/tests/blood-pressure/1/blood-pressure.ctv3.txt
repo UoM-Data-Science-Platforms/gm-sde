@@ -1,0 +1,147 @@
+9ODC.	BP ABNORMAL - deleted
+Ua1fM	Normal blood pressure
+X76LJ	Raised jugular venous pressure
+X76LK	JVP raised on inspiration
+X773t	ABP - Arterial blood pressure
+X779b	ABP - Arterial blood pressure
+X779f	Post-vasodilatatn arter press
+X779g	Segmental pressure
+X779h	Labile blood pressure
+X779Q	Non-invasive systol art press
+X779R	Invasive systol arterial press
+X779S	DAP-Diastolic arterial pressur
+X779T	DAP-Diastolic arterial pressur
+X779U	MAP - Mean arterial pressure
+X779V	MAP - Mean arterial pressure
+X779W	Invasive mean arterial press
+X779X	Cuff blood pressure
+X77UU	ABI - Arterial pressure index
+X77UV	Upstroke time arter pressure
+Xa42K	[D]BP raised,hyperten not diag
+Xa42M	[D]BP abn, not diagnostic NOS
+Xabhx	Baseline blood pressure
+Xac5K	Baseline diastolic BP
+Xac5L	Baseline systolic BP
+Xaedn	Non-invasive central BP
+Xaedo	Non-invasive central systlc BP
+Xaedp	Non-invasive centrl diastlc BP
+XaF4a	Ave day diastol blood pressure
+XaF4b	Ave 24h diastol blood pressure
+XaF4c	24 hour blood pressure
+XaF4d	24h systolic blood pressure
+XaF4D	Min systolic blood pressure
+XaF4e	24h diastolic blood pressure
+XaF4E	Max systolic blood pressure
+XaF4F	Ave systolic blood pressure
+XaF4G	Min day systol blood pressure
+XaF4H	Min night syst blood pressure
+XaF4I	Max night syst blood pressure
+XaF4J	Max day syst blood pressure
+XaF4K	Ave night syst blood pressure
+XaF4L	Ave day systol blood pressure
+XaF4M	Min 24h systol blood pressure
+XaF4N	Max 24h systol blood pressure
+XaF4O	Ave 24h systol blood pressure
+XaF4Q	Min diastolic blood pressure
+XaF4R	Max diastolic blood pressure
+XaF4S	Ave diastolic blood pressure
+XaF4T	Min day diastol blood pressure
+XaF4U	Min night diast blood pressure
+XaF4V	Min 24h diastol blood pressure
+XaF4W	Max night diast blood pressure
+XaF4X	Max day diast blood pressure
+XaF4Y	Max 24h diastol blood pressure
+XaF4Z	Ave night diast blood pressure
+XaFr9	Borderline blood pressure
+XaIwj	Standing systolic BP
+XaIwk	Standing diastolic BP
+XaJ2E	Sitting systolic BP
+XaJ2F	Sitting diastolic BP
+XaJ2G	Lying systolic blood pressure
+XaJ2H	Lying diastolic blood pressure
+XaKFw	Average home diastolic BP
+XaKFx	Average home systolic BP
+XaKjF	Ambulatory systolic BP
+XaKjG	Ambulatory diastolic BP
+XaOQP	Self measured BP reading
+XaXfX	Post exerc sys BP respons norm
+XaXfY	Post exer sys BP respon abnorm
+XaXKa	JVP no abnormality detected
+XaYg8	Diastolic BP centile
+XaYg9	Systolic BP centile
+XaZvo	Unequal blood pressure in arms
+XaZxj	Unusual variability in BP
+XM02T	Blood pressure unrecordable
+XM02V	Elevated blood pressure
+XM02W	Postural drop, blood pressure
+XM02X	SAP - Systol arterial pressure
+XM02Y	DAP-Diastolic arterial pressur
+XM02Z	Stable blood pressure
+XM09K	Raised blood pressure reading
+XM09M	BP reading labile
+XM0zx	BP abnorm,but not diagnost.[D]
+246..	O/E - BP reading
+246..	O/E - blood pressure
+246..	O/E - blood pressure reading
+246o.	Non-invasive central blood pressure
+246o1	Non-invasive central diastolic blood pressure
+246o0	Non-invasive central systolic blood pressure
+246n.	Baseline blood pressure
+246n1	Baseline systolic blood pressure
+246n0	Baseline diastolic blood pressure
+246m.	Average diastolic blood pressure
+246l.	Average systolic blood pressure
+246k.	Unequal blood pressure in arms
+246j.	Systolic blood pressure centile
+246i.	Diastolic blood pressure centile
+246g.	Self measured blood pressure reading
+246f.	Ambulatory diastolic blood pressure
+246e.	Ambulatory systolic blood pressure
+246d.	Average home systolic blood pressure
+246c.	Average home diastolic blood pressure
+246b.	Average night interval systolic blood pressure
+246a.	Average night interval diastolic blood pressure
+246Z.	O/E-blood pressure reading NOS
+246Y.	Average day interval systolic blood pressure
+246X.	Average day interval diastolic blood pressure
+246W.	Average 24 hour systolic blood pressure
+246V.	Average 24 hour diastolic blood pressure
+246T.	Lying diastolic blood pressure
+246S.	Lying systolic blood pressure
+246R.	Sitting diastolic blood pressure
+246Q.	Sitting systolic blood pressure
+246P.	Standing diastolic blood pressure
+246N.	Standing systolic blood pressure
+246L.	Target diastolic blood pressure
+246K.	Target systolic blood pressure
+246F.	O/E - blood pressure decreased
+246E.	Sitting blood pressure reading
+246D.	Standing blood pressure reading
+246C.	Lying blood pressure reading
+246h.	Arterial pulse pressure
+246J.	O/E - BP reading: no postural drop
+246I.	O/E - Arterial pressure index abnormal
+246H.	O/E - Arterial pressure index normal
+246G.	O/E - BP labile
+246B.	O/E - BP stable
+246A.	O/E - Diastolic BP reading
+2469.	O/E - Systolic BP reading
+2468.	O/E - BP reading:postural drop
+2467.	O/E - BP reading very high
+2466.	O/E - BP reading raised
+2465.	O/E - BP borderline raised
+2464.	O/E - BP reading normal
+2463.	O/E - BP borderline low
+2462.	O/E - BP reading low
+2461.	O/E - BP reading very low
+2460.	O/E - BP unrecordable
+662C.	O/E - check high BP
+662B.	O/E - initial high BP
+6623.	Pre-treatment BP reading
+662j.	Blood pressure recorded by patient at home
+662Q.	Borderline blood pressure
+R1y4.	[D]BP reading labile
+R1y3.	[D]Low blood pressure reading
+R1y2.	[D]Raised blood pressure reading
+315B.	Ambulatory blood pressure recording
+ZV70B	[V]Examination of blood pressure

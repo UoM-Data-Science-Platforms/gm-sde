@@ -1,0 +1,37 @@
+22K..	Body Mass Index
+22K1.	Body Mass Index normal K/M2
+22K2.	Body Mass Index high K/M2
+22K3.	Body Mass Index low K/M2
+22K4.	Body mass index index 25-29 - overweight
+22K5.	Body mass index 30+ - obesity
+X76CO	Quetelet index
+Xa7wG	Observation of body mass index
+Xaa0k	Childhood obesity
+Xaatm	Child BMI centile
+Xabdn	Down's syndrome BMI centile
+XabHx	Obese class I (BMI 30.0-34.9)
+XabHy	Obese class II (BMI 35.0-39.9)
+XabHz	Obese cls III (BMI eq/gr 40.0)
+XabSe	Child BMI < 0.4th centile
+XabSf	Child BMI 0.4th-1.9th centile
+XabSg	Child BMI on 2nd centile
+XabSh	Child BMI 3rd-8th centile
+XabSj	Child BMI on 9th centile
+XabSk	Child BMI 10th-24th centile
+XabSl	Child BMI on 25th centile
+XabSm	Child BMI 26th-49th centile
+XabSn	Child BMI on 50th centile
+XabTe	Child BMI on 75th centile
+XabTf	Child BMI 76th-90th centile
+XabTg	Child BMI on 91st centile
+XabTh	Child BMI 92nd-97th centile
+XabTi	Child BMI on 98th centile
+XabTj	Child BMI 98.1-99.6 centile
+XabTk	Child BMI > 99.6th centile
+XabTZ	Child BMI 51st-74th centile
+XaCDR	Body mass index less than 20
+XaJJH	BMI 40+ - severely obese
+XaJqk	Body mass index 20-24 - normal
+XaVwA	Body mass index centile
+XaZck	Baseline BMI centile
+XaZcl	Baseline body mass index
