@@ -27,7 +27,7 @@ SELECT
 		WHEN LTC IN ('chronic liver disease','chronic liver disease and viral hepatitis','constipation (treated)','diverticular disease of intestine','dyspepsia (treated)','inflammatory bowel disease','irritable bowel syndrome','peptic ulcer disease') THEN 'Gastrointestinal'
 		WHEN LTC IN ('psoriasis','psoriasis or eczema medcodes','rheumatoid arthritis, other inflammatory polyarthropathies & systematic connective tissue disorders','rheumatoid arthritis, sle') THEN 'Musculoskeletal or Skin'
 		WHEN LTC IN ('multiple sclerosis','other neurological conditions','parkinsons disease') THEN 'Neurological'
-		WHEN LTC IN ('dementia','depression','depression medcodes','depression prodcodes','schizophrenia (and related non-organic psychosis) or bipolar disorder','schizophrenia (and related non-organic psychosis) or bipolar disorder medcodes','schizophrenia (and related non-organic psychosis) or bipolar disorder prodcodes') THEN 'Psychiatric'
+		WHEN LTC IN ('dementia','depression','schizophrenia (and related non-organic psychosis) or bipolar disorder','schizophrenia (and related non-organic psychosis) or bipolar disorder medcodes','schizophrenia (and related non-organic psychosis) or bipolar disorder prodcodes') THEN 'Psychiatric'
 		WHEN LTC IN ('chronic kidney disease') THEN 'Renal or Urological'
 		WHEN LTC IN ('asthma (currently treated) medcodes','asthma (currently treated) prodcodes','asthma','asthma diagnosis','bronchiectasis','copd') THEN 'Respiratory'
 		WHEN LTC IN ('learning disability') THEN 'Sensory Impairment or Learning Disability'

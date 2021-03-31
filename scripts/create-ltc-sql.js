@@ -166,8 +166,8 @@ function createSQL() {
 
 ${
   hasTerminology('emis')
-    ? `IF OBJECT_ID('tempdb..#codesemis') IS NOT NULL DROP TABLE #codesemis;
-CREATE TABLE #codesemis (
+    ? `IF OBJECT_ID('tempdb..#ltccodesemis') IS NOT NULL DROP TABLE #ltccodesemis;
+CREATE TABLE #ltccodesemis (
   [condition] [varchar](255) NOT NULL,
   [group] [varchar](255) NOT NULL,
   [code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
@@ -180,8 +180,8 @@ ${getInsertStatementForTerminology('emis')};`
 
 ${
   hasTerminology('readv2')
-    ? `IF OBJECT_ID('tempdb..#codesreadv2') IS NOT NULL DROP TABLE #codesreadv2;
-CREATE TABLE #codesreadv2 (
+    ? `IF OBJECT_ID('tempdb..#ltccodesreadv2') IS NOT NULL DROP TABLE #ltccodesreadv2;
+CREATE TABLE #ltccodesreadv2 (
   [condition] [varchar](255) NOT NULL,
   [group] [varchar](255) NOT NULL,
 	[code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
@@ -194,8 +194,8 @@ ${getInsertStatementForTerminology('readv2')};`
 
 ${
   hasTerminology('ctv3')
-    ? `IF OBJECT_ID('tempdb..#codesctv3') IS NOT NULL DROP TABLE #codesctv3;
-CREATE TABLE #codesctv3 (
+    ? `IF OBJECT_ID('tempdb..#ltccodesctv3') IS NOT NULL DROP TABLE #ltccodesctv3;
+CREATE TABLE #ltccodesctv3 (
   [condition] [varchar](255) NOT NULL,
   [group] [varchar](255) NOT NULL,
 	[code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
@@ -208,8 +208,8 @@ ${getInsertStatementForTerminology('ctv3')};`
 
 ${
   hasTerminology('snomed')
-    ? `IF OBJECT_ID('tempdb..#codessnomed') IS NOT NULL DROP TABLE #codessnomed;
-CREATE TABLE #codessnomed (
+    ? `IF OBJECT_ID('tempdb..#ltccodessnomed') IS NOT NULL DROP TABLE #ltccodessnomed;
+CREATE TABLE #ltccodessnomed (
   [condition] [varchar](255) NOT NULL,
   [group] [varchar](255) NOT NULL,
 	[code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
@@ -220,16 +220,16 @@ ${getInsertStatementForTerminology('snomed')};`
     : ''
 }
 
-IF OBJECT_ID('tempdb..#TempRefCodes') IS NOT NULL DROP TABLE #TempRefCodes;
-CREATE TABLE #TempRefCodes (FK_Reference_Coding_ID BIGINT NOT NULL, condition VARCHAR(255) NOT NULL, [group] VARCHAR(255) NOT NULL);
+IF OBJECT_ID('tempdb..#LtcTempRefCodes') IS NOT NULL DROP TABLE #LtcTempRefCodes;
+CREATE TABLE #LtcTempRefCodes (FK_Reference_Coding_ID BIGINT NOT NULL, condition VARCHAR(255) NOT NULL, [group] VARCHAR(255) NOT NULL);
 
 ${
   hasTerminology('emis')
     ? `-- EMIS codes with a FK Reference Coding ID
-INSERT INTO #TempRefCodes
+INSERT INTO #LtcTempRefCodes
 SELECT FK_Reference_Coding_ID, dce.condition, dce.[group]
 FROM [SharedCare].[Reference_Local_Code] rlc
-INNER JOIN #codesemis dce on dce.code = rlc.LocalCode
+INNER JOIN #ltccodesemis dce on dce.code = rlc.LocalCode
 WHERE FK_Reference_Coding_ID != -1;`
     : ''
 }
@@ -237,10 +237,10 @@ WHERE FK_Reference_Coding_ID != -1;`
 ${
   hasTerminology('readv2')
     ? `-- Read v2 codes
-INSERT INTO #TempRefCodes
+INSERT INTO #LtcTempRefCodes
 SELECT PK_Reference_Coding_ID, dcr.condition, dcr.[group]
 FROM [SharedCare].[Reference_Coding] rc
-INNER JOIN #codesreadv2 dcr on dcr.code = rc.MainCode
+INNER JOIN #ltccodesreadv2 dcr on dcr.code = rc.MainCode
 WHERE CodingType='ReadCodeV2'
 and PK_Reference_Coding_ID != -1;`
     : ''
@@ -249,25 +249,25 @@ and PK_Reference_Coding_ID != -1;`
 ${
   hasTerminology('ctv3')
     ? `-- CTV3 codes
-INSERT INTO #TempRefCodes
+INSERT INTO #LtcTempRefCodes
 SELECT PK_Reference_Coding_ID, dcc.condition, dcc.[group]
 FROM [SharedCare].[Reference_Coding] rc
-INNER JOIN #codesctv3 dcc on dcc.code = rc.MainCode
+INNER JOIN #ltccodesctv3 dcc on dcc.code = rc.MainCode
 WHERE CodingType='CTV3'
 and PK_Reference_Coding_ID != -1;`
     : ''
 }
 
-IF OBJECT_ID('tempdb..#TempSNOMEDRefCodes') IS NOT NULL DROP TABLE #TempSNOMEDRefCodes;
-CREATE TABLE #TempSNOMEDRefCodes (FK_Reference_SnomedCT_ID BIGINT NOT NULL, condition VARCHAR(255) NOT NULL, [group] VARCHAR(255) NOT NULL);
+IF OBJECT_ID('tempdb..#LtcTempSNOMEDRefCodes') IS NOT NULL DROP TABLE #LtcTempSNOMEDRefCodes;
+CREATE TABLE #LtcTempSNOMEDRefCodes (FK_Reference_SnomedCT_ID BIGINT NOT NULL, condition VARCHAR(255) NOT NULL, [group] VARCHAR(255) NOT NULL);
 
 ${
   hasTerminology('emis')
     ? `-- EMIS codes with a FK SNOMED ID but without a FK Reference Coding ID
-INSERT INTO #TempSNOMEDRefCodes
+INSERT INTO #LtcTempSNOMEDRefCodes
 SELECT FK_Reference_SnomedCT_ID, dce.condition, dce.[group]
 FROM [SharedCare].[Reference_Local_Code] rlc
-INNER JOIN #codesemis dce on dce.code = rlc.LocalCode
+INNER JOIN #ltccodesemis dce on dce.code = rlc.LocalCode
 WHERE FK_Reference_Coding_ID = -1
 AND FK_Reference_SnomedCT_ID != -1;`
     : ''
@@ -276,10 +276,10 @@ AND FK_Reference_SnomedCT_ID != -1;`
 ${
   hasTerminology('snomed')
     ? `-- SNOMED codes
-INSERT INTO #TempSNOMEDRefCodes
+INSERT INTO #LtcTempSNOMEDRefCodes
 SELECT PK_Reference_SnomedCT_ID, dcs.condition, dcs.[group]
 FROM SharedCare.Reference_SnomedCT rs
-INNER JOIN #codessnomed dcs on dcs.code = rs.ConceptID;`
+INNER JOIN #ltccodessnomed dcs on dcs.code = rs.ConceptID;`
     : ''
 }
 
@@ -290,10 +290,10 @@ CREATE TABLE #RefCodes (FK_Reference_Coding_ID BIGINT NOT NULL, condition VARCHA
 CREATE TABLE #SNOMEDRefCodes (FK_Reference_SnomedCT_ID BIGINT NOT NULL, condition VARCHAR(255) NOT NULL, [group] VARCHAR(255) NOT NULL);
 
 INSERT INTO #RefCodes
-SELECT DISTINCT * FROM #TempRefCodes;
+SELECT DISTINCT * FROM #LtcTempRefCodes;
 
 INSERT INTO #SNOMEDRefCodes
-SELECT DISTINCT * FROM #TempSNOMEDRefCodes;
+SELECT DISTINCT * FROM #LtcTempSNOMEDRefCodes;
 
 IF OBJECT_ID('tempdb..#LTCTemp') IS NOT NULL DROP TABLE #LTCTemp;
 SELECT DISTINCT FK_Patient_Link_ID, FK_Reference_SnomedCT_ID, FK_Reference_Coding_ID INTO #LTCTemp 
@@ -338,7 +338,7 @@ function getInsertStatementForTerminology(terminology) {
         if (soFar.itemCount === 999) {
           // SQL only allows 1000 items to be inserted after each INSERT INTO statememt
           // so need to start again
-          soFar.sql = `${soFar.sql.slice(0, -1)};\nINSERT INTO #codes${terminology}\nVALUES `;
+          soFar.sql = `${soFar.sql.slice(0, -1)};\nINSERT INTO #ltccodes${terminology}\nVALUES `;
           soFar.lineLength = 7;
           soFar.itemCount = 0;
         }
@@ -353,7 +353,7 @@ function getInsertStatementForTerminology(terminology) {
         soFar.itemCount += 1;
         return soFar;
       },
-      { sql: `INSERT INTO #codes${terminology}\nVALUES `, itemCount: 0, lineLength: 7 }
+      { sql: `INSERT INTO #ltccodes${terminology}\nVALUES `, itemCount: 0, lineLength: 7 }
     )
     .sql.slice(0, -1);
 }
