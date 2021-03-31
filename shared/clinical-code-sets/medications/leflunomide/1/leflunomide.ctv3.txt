@@ -1,0 +1,8 @@
+j59..	LEFLUNOMIDE
+j59z.	LEFLUNOMIDE 100mg tablets
+j59y.	LEFLUNOMIDE 20mg tablets
+j59x.	LEFLUNOMIDE 10mg tablets
+j59w.	LEFLUNOMIDE 15mg tablets
+j593.	ARAVA 100mg tablets
+j592.	ARAVA 20mg tablets
+j591.	ARAVA 10mg tablets

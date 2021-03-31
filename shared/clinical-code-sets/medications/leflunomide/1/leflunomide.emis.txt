@@ -1,0 +1,7 @@
+LETA1669NEMIS	Leflunomide  Tablets  100 mg
+LETA1666NEMIS	Leflunomide  Tablets  10 mg
+LETA1668NEMIS	Leflunomide  Tablets  20 mg
+LETA89217NEMIS	Leflunomide  Tablets  15 mg
+ARTA1672NEMIS	Arava  Tablets  100 mg
+ARTA1670NEMIS	Arava  Tablets  10 mg
+ARTA1671NEMIS	Arava  Tablets  20 mg

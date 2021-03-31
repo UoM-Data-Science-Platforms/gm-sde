@@ -1,0 +1,5 @@
+109143003	Leflunomide product
+330057007	Product containing precisely leflunomide 10 milligram/1 each conventional release oral tablet
+330058002	Product containing precisely leflunomide 20 milligram/1 each conventional release oral tablet
+330059005	Product containing precisely leflunomide 100 milligram/1 each conventional release oral tablet
+386981009	Leflunomide
