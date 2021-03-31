@@ -1,0 +1,27 @@
+x019y	Oral sulphasalazine
+x019z	Rectal sulphasalazine
+aa6..	SULPHASALAZINE [GASTRO-INTESTINAL USE]
+aa6..	SULFASALAZINE [GASTRO-INTESTINAL USE]
+aa6t.	SULFASALAZINE 250mg/5mL sugar free suspension
+aa6z.	*SULPHASALAZINE 3g/100mL enema
+aa6z.	*SULFASALAZINE 3g/100mL enema
+aa6y.	SULPHASALAZINE 500mg suppositories
+aa6y.	SULFASALAZINE 500mg suppositories
+aa6v.	SULPHASALAZINE 500mg tablets
+aa6v.	SULFASALAZINE 500mg tablets
+aa6u.	SULPHASALAZINE 250mg/5mL suspension
+aa6u.	SULFASALAZINE 250mg/5mL suspension
+aa67.	*UCINE 500mg tablets
+aa66.	SULPHASALAZINE 500mg e/c tablets
+aa66.	SULFASALAZINE 500mg e/c tablets
+aa65.	SALAZOPYRIN 250mg/5mL suspension
+aa64.	*SALAZOPYRIN 3g/100mL enema
+aa63.	SALAZOPYRIN 500mg suppositories
+aa62.	SALAZOPYRIN-EN 500mg e/c tablets
+aa61.	SALAZOPYRIN 500mg tablets
+j55..	SULPHASALAZINE [MUSCULO-SKELETAL USE]
+j55..	SULFASALAZINE [MUSCULOSKELETAL USE]
+j55z.	SULPHASALAZINE 500mg e/c tablets
+j55z.	SULFASALAZINE 500mg e/c tablets
+j552.	SULAZINE EC 500mg e/c tablets
+j551.	SALAZOPYRIN EN 500mg e/c tablets

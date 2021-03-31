@@ -1,0 +1,10 @@
+45844004	Sulfasalazine product
+317430009	Product containing precisely sulfasalazine 50 milligram/1 milliliter conventional release oral suspension (clinical drug)
+317431008	Product containing precisely sulfasalazine 500 milligram/1 each conventional release oral tablet
+317432001	Sulfasalazine 500 mg rectal suppository
+317433006	Sulfasalazine 3g/100mL retention enema (product)
+330040008	Product containing precisely sulfasalazine 500 milligram/1 each gastro-resistant oral tablet (clinical drug)
+349822001	Product containing sulfasalazine in oral dosage form
+349823006	Product containing sulfasalazine in rectal dosage form
+765595005	Sulfasalazine 500mg gastro-resistant oral tablet (product)
+387248006	Salicylazosulfapyridine

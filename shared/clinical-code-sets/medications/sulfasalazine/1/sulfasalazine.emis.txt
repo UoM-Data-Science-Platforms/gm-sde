@@ -1,0 +1,30 @@
+SASU10642BRIDL	Salazopyrin 250mg/5ml oral suspension (Pfizer Ltd)
+SASU4298	Salazopyrin 500mg suppositories (Pfizer Ltd)
+SATA2478	Salazopyrin 500mg tablets (Pfizer Ltd)
+SUE/17828NEMIS	Sulfasalazine 500mg gastro-resistant tablets
+SUE/896NEMIS	Sulphasalazine E/C Tablets 500 mg
+SUOR45683NEMIS	Sulfasalazine 250mg/5ml oral suspension sugar free
+SUSU17835NEMIS	Sulfasalazine 250mg/5ml oral suspension
+SUTA17836NEMIS	Sulfasalazine 500mg tablets
+SARE8978EGTON	Salazopyrin  Retention enema  3 g/enema
+SUTA2732	Sulphasalazine  Tablets  500 mg
+SUEN2731	Sulphasalazine  En-tablets  500 mg
+UCTA32637EMIS	Ucine  Tablets  500 mg
+SAEN2477	Salazopyrin  En-tablets  500 mg
+SUGA78926NEMIS	Sulazine Ec  Gastro-resistant Tablets  500 mg
+SUSU17832NEMIS	Sulfasalazine  Suppositories  500 mg
+SUSU10709BRIDL	Sulphasalazine  Suspension  250mg/5 ml
+SUSU5409	Sulphasalazine  Suppositories  500 mg
+SURE10711BRIDL	Sulphasalazine  Retention enema  3g in 100 ml
+SUE/38259MGEMIS	Sulfasalazine  E/c tablets  500 mg (A.A.H. Pharm)
+SUTA38268MGEMIS	Sulfasalazine  Tablets  500 mg (Unichem)
+SUTA38266MGEMIS	Sulfasalazine  Tablets  500 mg (Kent Pharm)
+SUE/38261MGEMIS	Sulfasalazine  E/c tablets  500 mg (Alpharma)
+SUE/38260MGEMIS	Sulfasalazine  E/c tablets  500 mg (Kent Pharm)
+SUTA38267MGEMIS	Sulfasalazine  Tablets  500 mg (Alpharma)
+SUTA38264MGEMIS	Sulfasalazine  Tablets  500 mg (A.A.H. Pharm)
+SUTA38269MGEMIS	Sulfasalazine  Tablets  500 mg (Ivax Pharmaceuticals)
+EMISNQRH11	Rheumatology drug monitoring - Sulfasalazine
+SUE/38263MGEMIS	Sulfasalazine  E/c tablets  500 mg (Generics (UK))
+SUE/38262MGEMIS	Sulfasalazine  E/c tablets  500 mg (Unichem)
+SUTA38265MGEMIS	Sulfasalazine  Tablets  500 mg (Generics (UK))

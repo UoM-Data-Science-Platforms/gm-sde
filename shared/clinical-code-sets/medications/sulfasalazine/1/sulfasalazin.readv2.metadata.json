@@ -1,0 +1,12 @@
+{
+  "includeTerms": ["sulfasalazine", "sulphasalazine", "salazopyrin", "sulazine", "ucine"],
+  "excludeTerms": ["adverse reaction"],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdBy": {
+    "name": "Richard Williams",
+    "email": "1234richardwilliams@gmail.com"
+  },
+  "createdOn": "2021-03-30T14:58:35.750Z",
+  "lastUpdated": "2021-03-30T14:59:05.223Z"
+}
