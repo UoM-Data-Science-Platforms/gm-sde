@@ -1,0 +1,8 @@
+HYTA5012	Hydroxychloroquine Sulfate  Tablets  200 mg
+PLTA2289	Plaquenil  Tablets  200 mg
+PLTA2289	Plaquenil  Tablets  200 mg
+QUTA40431NEMIS	Quinoric  Tablets  200 mg
+HYOR34435NEMIS	Hydroxychloroquine  Oral suspension  400 mg/5 ml
+HYOR46475NEMIS	Hydroxychloroquine  Oral suspension  200 mg/5 ml
+HYOR46474NEMIS	Hydroxychloroquine  Oral solution  200 mg/5 ml
+HYOR77631NEMIS	Hydroxychloroquine  Oral suspension  100 mg/5 ml
