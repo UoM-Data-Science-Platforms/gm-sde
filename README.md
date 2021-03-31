@@ -1,8 +1,8 @@
 ## Index
 
 1. **Overview**
-1. [Full end to end process](docs/process-end-2-end.md)
-1. [Research data engineer process](docs/process-for-research-data-engineers.md)
+2. [Full end to end process](docs/process-end-2-end.md)
+3. [Research data engineer process](docs/process-for-research-data-engineers.md)
 
 # Greater Manchester Integrated Digital Care Record
 
