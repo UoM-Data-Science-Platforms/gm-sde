@@ -1,0 +1,79 @@
+66HB000	Rheumatoid arthritis annual review
+Nyu1100	[X]Other seropositive rheumatoid arthritis
+Nyu1G00	[X]Seropositive rheumatoid arthritis, unspecified
+N040.00	Rheumatoid arthritis
+9mM..00	Rheumatoid arthritis monitoring invitation
+38DZ000	Disease activity score 28 joint in rheumatoid arthritis
+Nyu1200	[X]Other specified rheumatoid arthritis
+G5y8.00	Rheumatoid myocarditis
+N040000	Rheumatoid arthritis of cervical spine
+H570.00	Rheumatoid lung
+N040R00	Rheumatoid nodule
+9mM2.00	Rheumatoid arthritis monitoring invitation third letter
+9mM0.00	Rheumatoid arthritis monitoring invitation first letter
+G5yA.00	Rheumatoid carditis
+N005.00	Adult Still's Disease
+7P20300	Delivery of rehabilitation for rheumatoid arthritis
+F371200	Polyneuropathy in rheumatoid arthritis
+66H..13	Rheumatoid arthrit. monitoring
+9mM3.00	Rheumatoid arthritis monitoring verbal invitation
+9mM1.00	Rheumatoid arthritis monitoring invitation second letter
+38DZ.00	Disease activity score in rheumatoid arthritis
+N04X.00	Seropositive rheumatoid arthritis, unspecified
+N04y011	Caplan's syndrome
+N04y012	Fibrosing alveolitis associated with rheumatoid arthritis
+N040100	Other rheumatoid arthritis of spine
+N040P00	Seronegative rheumatoid arthritis
+N04y200	Adult-onset Still's disease
+N041.00	Felty's syndrome
+F396400	Myopathy due to rheumatoid arthritis
+9mM4.00	Rheumatoid arthritis monitoring telephone invitation
+Nyu1000	[X]Rheumatoid arthritis+involvement/other organs or systems
+M160.00	Psoriatic arthropathy
+N20..00	Polymyalgia rheumatica
+M154100	Discoid lupus erythematosus
+N241z00	Myalgia or myositis NOS
+N044.00	Chronic post-rheumatic arthropathy
+M154.00	Lupus erythematosus
+N043.00	Juvenile rheumatoid arthritis - Still's disease
+N04y100	Sero negative arthritis
+N003.00	Dermatomyositis
+N241100	Myositis unspecified
+N045.00	Other juvenile arthritis
+N045.00	Other juvenile arthritis
+M154z00	Lupus erythematosus NOS
+N000.00	Systemic lupus erythematosus
+N042000	Rheumatic carditis
+M160z00	Psoriatic arthropathy NOS
+N045300	Juvenile arthritis in Crohn's disease
+N045300	Juvenile arthritis in Crohn's disease
+N004.00	Polymyositis
+N001100	CREST syndrome
+N040Q00	Rheumatoid bursitis
+N04..11	Inflammatory polyarthropathy
+N043200	Pauciarticular juvenile rheumatoid arthritis
+N04yz00	Other specified inflammatory polyarthropathy NOS
+N04z.00	Inflammatory polyarthropathy NOS
+N065.00	Unspecified polyarthropathy or polyarthritis
+M154700	Subacute cutaneous lupus erythematosus
+M160000	Psoriasis spondylitica
+N241.00	Myalgia and myositis unspecified
+N043z00	Juvenile rheumatoid arthritis NOS
+N003X00	Dermatopolymyositis, unspecified
+N001.12	Systemic sclerosis
+N045200	Juvenile arthritis in psoriasis
+N045100	Juvenile seronegative polyarthritis
+N045500	Juvenile rheumatoid arthritis
+N003000	Juvenile dermatomyositis
+N10..00	Inflammatory spondylopathies
+N043300	Monarticular juvenile rheumatoid arthritis
+N04y.00	Other specified inflammatory polyarthropathy
+N241200	Fibromyositis NOS
+N045000	Juvenile ankylosing spondylitis
+N001000	Progressive systemic sclerosis
+N045600	Pauciarticular onset juvenile chronic arthritis
+N043100	Acute polyarticular juvenile rheumatoid arthritis
+N043000	Juvenile rheumatoid arthropathy unspecified
+N045400	Juvenile arthritis in ulcerative colitis
+Nyu1500	[X]Other juvenile arthritis
+M160.11	Psoriatic arthritis
