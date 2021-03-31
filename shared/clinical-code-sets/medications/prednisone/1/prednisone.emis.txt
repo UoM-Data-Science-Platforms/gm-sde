@@ -1,0 +1,9 @@
+PRM/46706NEMIS	Prednisone  M/R tablets  1 mg
+PRM/46707NEMIS	Prednisone  M/R tablets  2 mg
+LOM/46714NEMIS	Lodotra  M/R tablets  5 mg
+LOM/46712NEMIS	Lodotra  M/R tablets  1 mg
+PRTA2329	Prednisone  Tablets  1 mg
+DETA3394	Decortisyl  Tablets  5 mg
+PRM/46708NEMIS	Prednisone  M/R tablets  5 mg
+PRTA2330	Prednisone  Tablets  5 mg
+LOM/46713NEMIS	Lodotra  M/R tablets  2 mg

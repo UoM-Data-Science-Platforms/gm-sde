@@ -1,0 +1,9 @@
+10312003	Prednisone product
+325456002	Product containing precisely prednisone 20 milligram/1 each conventional release oral tablet (clinical drug)
+373989007	Product containing precisely prednisone 2.5 milligram/1 each conventional release oral tablet
+373994007	Product containing precisely prednisone 5 milligram/1 each conventional release oral tablet
+374058000	Product containing precisely prednisone 10 milligram/1 each conventional release oral tablet (clinical drug)
+374072009	Product containing precisely prednisone 50 milligram/1 each conventional release oral tablet (clinical drug)
+418349006	Product containing precisely prednisone 1 milligram/1 each conventional release oral tablet (clinical drug)
+768296006	Product containing prednisone in oral dosage form (medicinal product form)
+116602009	Prednisone (substance)

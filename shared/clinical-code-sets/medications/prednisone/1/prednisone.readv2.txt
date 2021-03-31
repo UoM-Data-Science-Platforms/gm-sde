@@ -1,0 +1,13 @@
+fe7..00	PREDNISONE
+fe7z.00	PREDNISONE 1mg m/r tablets
+fe7y.00	PREDNISONE 2mg m/r tablets
+fe7x.00	PREDNISONE 5mg m/r tablets
+fe72.00	*PREDNISONE 5mg tablets
+fe71.00	*PREDNISONE 1mg tablets
+fe79.00	LODOTRA 1mg m/r tablets
+fe78.00	LODOTRA 5mg m/r tablets
+fe77.00	LODOTRA 2mg m/r tablets
+fe75.00	*ECONOSONE 5mg tablets
+fe74.00	*ECONOSONE 1mg tablets
+fe73.00	*DECORTISYL 5mg tablets
+fe76.00	Prednisone 20mg tablet

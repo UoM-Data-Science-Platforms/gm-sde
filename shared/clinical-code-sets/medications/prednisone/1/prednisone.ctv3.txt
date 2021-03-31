@@ -1,0 +1,14 @@
+fe7..	PREDNISONE
+fe7z.	PREDNISONE 1mg m/r tablets
+fe7y.	PREDNISONE 2mg m/r tablets
+fe7x.	PREDNISONE 5mg m/r tablets
+fe72.	*PREDNISONE 5mg tablets
+fe71.	*PREDNISONE 1mg tablets
+fe79.	LODOTRA 1mg m/r tablets
+fe78.	LODOTRA 5mg m/r tablets
+fe77.	LODOTRA 2mg m/r tablets
+fe75.	*ECONOSONE 5mg tablets
+fe74.	*ECONOSONE 1mg tablets
+fe73.	*DECORTISYL 5mg tablets
+fe76.	Prednisone 20mg tablet
+x02Ys	Decortisyl

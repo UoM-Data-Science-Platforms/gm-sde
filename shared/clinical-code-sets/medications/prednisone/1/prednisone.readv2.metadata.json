@@ -1,0 +1,34 @@
+{
+  "includeTerms": ["prednisone", "lodotra", "econosone", "decortisyl"],
+  "excludeTerms": [
+    "adverse reaction",
+    "allergy",
+    "therapy",
+    "long-term current use of",
+    "retinopathy",
+    "measurement",
+    "toxicity screening",
+    "rectal",
+    "enema",
+    "aerosol",
+    "suppository",
+    "eye",
+    "injection",
+    "ear drops",
+    "level",
+    "ear",
+    "ocular dosage",
+    "topical",
+    "drops",
+    "ointment",
+    "overdose"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdBy": {
+    "name": "Richard Williams",
+    "email": "1234richardwilliams@gmail.com"
+  },
+  "createdOn": "2021-03-30T16:06:08.078Z",
+  "lastUpdated": "2021-03-30T16:06:12.544Z"
+}
