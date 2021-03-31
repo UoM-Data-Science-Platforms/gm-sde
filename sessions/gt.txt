@@ -101,3 +101,11 @@ Attempted to find the location of information related to project no.1 (Grant), i
 16/03
 - testing randomise ID process
 
+22/03/21
+- comparing MFT admissions with other data source
+
+29/03/21
+-  creating SQL scripts for RQ29 Steeg extraction
+
+30/03/21 
+- using readcode list for self-harm to find CTV3 and SNOMED equivalents, for RQ29

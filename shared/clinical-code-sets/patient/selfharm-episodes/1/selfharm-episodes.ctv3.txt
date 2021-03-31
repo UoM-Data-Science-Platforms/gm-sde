@@ -1,0 +1,265 @@
+SL521	Paracetamol poisoning
+SL51.	Salicylate poisoning
+SL510	Aspirin poisoning
+SL505	Morphine poisoning
+SL5y.	Other analg/antipyr.poisoning
+SL542	Ibuprofen poisoning
+SL543	Naproxen poisoning
+SL70.	Barbiturate poisoning
+SL90.	Poisoning - antidepress drug
+SL900	Amitriptyline poisoning
+SL902	Poisoning-MOAI antidepres drug
+SL920	Haloperidol poisoning
+SL94.	Benzodiazepine poisoning
+SL93.	Other antipsychotics poisoning
+SL9y.	Other psychotropic poisoning
+SLC02	Propranolol poisoning
+SLHyz	Other drug/medic.poisoning NOS
+SLHz.	Drug/medicament poisoning NOS
+SL70z	Barbiturate poisoning NOS
+SLz..	Drug/medicam./biol.poison.NOS
+T....	Causes of injury and poisoning
+TK0z.	Suicide + selfinflicted poisoning by solid/liquid subst NOS
+TKz..	Suicide and selfinflicted injury NOS
+TKx..	Suicide and selfinflicted injury by other means
+TKx01	Suicide + selfinflicted injury-lying before moving object
+TK02.	Suicide + selfinflicted poisoning by oth sedatives/hypnotics
+TK03.	Suicide + selfinflicted poisoning tranquilliser/psychotropic
+TK04.	Suicide + selfinflicted poisoning by other drugs/medicines
+TK00.	Suicide + selfinflicted poisoning by analgesic/antipyretic
+TK07.	Self poisoning by corrosive or caustic substance
+TK21.	Suicide and selfinflicted poisoning by other carbon monoxide
+TK1y.	Suicide and selfinflicted poisoning by other utility gas
+TK20.	Self poisoning by motor vehicle exhaust gas
+TK3y.	Suicide + selfinflicted inj oth mean hang/strangle/suffocate
+TK30.	Suicide or attempted suicide by hanging
+TK50.	Suicide or selfinflicted injury by handgun
+TK6..	Suicide or selfinflicted injury by cutting and stabbing
+TK60.	Suicide or selfinflicted injury by cutting
+TK601	Self inflicted lacerations to wrist
+TK61.	Suicide or selfinflicted injury by stabbing
+TK7..	Suicide or self injury by jumping from a height
+TK7z.	Suicide+selfinflicted injury-jump from high place NOS
+TK70.	Suicide+selfinflicted injury-jump from residential premises
+TKx5.	Suicide or selfinflicted injury by crashing motor vehicle
+TKx1.	Suicide or self injury by burning or fire
+TKx2.	Suicide or self injury by scalding
+TN6z.	"Injury ?accidental, by cutting or stabbing instrument NOS"
+TN60.	Injury of unknown intent by cutting instrument
+TN61.	Injury of unknown intent by stabbing instrument
+TN84.	Injury of unknown intent by electrocution
+TK0..	Suicide + selfinflicted poisoning by solid/liquid substances
+ZV1B2	[V]Personal history of self-harm
+SyuF.	[X]Poisoning by drugs and biological substances
+SyuFL	[X]Poisoning by oth & unspec antipsychotics & neuroleptics
+SyuFc	[X]Poisoning by oth & unspecif drugs & biologic substances
+U200.	[X]Intent self poison/exposure to nonopioid analgesic
+U2000	[X]Int self poison/exposure to nonopioid analgesic at home
+U2006	[X]Int self pois nonopioid analgesic indust/construct area
+U202.	[X]Intent self poison/exposure to sedative hypnotic
+U2020	[X]Int self poison/exposure to sedative hypnotic at home
+U204.	[X]Intent self poison/exposure to psychotropic drug
+U2047	[X]Int self poison/exposure to psychotropic drug on farm
+U204z	[X]Intent self poison psychotropic drug unspecif place
+U205y	[X]Int self poison narcotic drug other spec place
+U208.	[X]Int self poison/exposure to other/unspec drug/medicament
+U2080	[X]Int self poison/exposure to oth/unsp drug/medicam home
+U208y	[X]Int self poison oth/unsp drug/medic other spec place
+U209.	[X]Intentional self poisoning by and exposure to alcohol
+U2090	[X]Int self poison/exposure to alcohol at home
+U2094	[X]Intent self pois alcohol in street/highway
+U209z	[X]Intent self poison alcohol unspecif place
+U20A.	"[X]Intentional self poison organ solvent,halogen hydrocarb"
+U20B0	[X]Int self poison/exposure to other gas/vapour at home
+U20y.	[X]Intent self poison/exposure to unspecif chemical
+U20yy	[X]Int self poison unspecif chemical other spec place
+U21..	[X]Intent self harm by hanging strangulation / suffocation
+U210.	[X]Intent self harm by hanging strangulat/suffocat occ home
+U211.	[X]Intent self harm by hangng strangult/suffoct resid instit
+U213.	[X]Intent self harm by hang strangl/suffc sport/athlet area
+U214.	[X]Intent self harm by hangng strangult/suffoct street/h'way
+U21z.	[X]Intent self harm by hangng strangul/suffoct unspecif plce
+U22..	[X]Intentional self harm by drowning and submersion
+U22z.	[X]Intent self harm by drown/submersn occ unspecified place
+U26..	[X]Intentional self harm by explosive material
+U27..	"[X]Intentional self harm by smoke, fire and flames"
+U270.	[X]Intention self harm by smoke fire/flames occurrn at home
+U28..	[X]Intentional self harm by steam hot vapours / hot objects
+U29..	[X]Intentional self harm by sharp object
+U290.	"[X]Intentional self harm by sharp object, occurrence at home"
+U291.	[X]Intent self harm by sharp object occ resident instit'n
+U29y.	[X]Intention self harm by sharp object occ oth specif place
+U29z.	[X]Intentional self harm by sharp object occ unspecif place
+U2A..	[X]Intentional self harm by blunt object
+U2A0.	"[X]Intentional self harm by blunt object, occurrence at home"
+U2Ay.	[X]Intention self harm by blunt object occ oth specif place
+U2B..	[X]Intentional self harm by jumping from a high place
+U2Bz.	[X]Int self harm by jump from high place occ unspecif place
+U2y..	[X]Intentional self harm by other specified means
+U2y0.	[X]Intentionl self harm by oth specif means occurrn at home
+U2y1.	[X]Intent self harm by oth specif means occ resid instit'n
+U2yz.	[X]Intent self harm by oth specif means occ unspecif place
+U2z..	[X]Intentional self harm by unspecified means
+U2z0.	[X]Intentional self harm by unspecif means occurrn at home
+U2z2.	[X]Intent self harm by unspec mean occ sch/ins/pub adm area
+U2z7.	[X]Intentional self harm by unspecif means occurrn on farm
+U2zz.	[X]Intent self harm by unspecif means occ at unspecif place
+U30..	"[X]Assault by drugs, medicaments and biological substances"
+U409.	"[X]Poisoning by and exposure to alcohol, undetermined intent"
+U40y0	"[X]Poison/exposure ?intent, to unspecif chemical at home"
+146A.	H/O: attempted suicide
+14K..	H/O: poisoning
+ZV156	[V]PH - Poisoning
+SL...	(Poisng (& [drug]/[biol sub]++
+TK...	(Selfinfl inj)/(cause delib ++
+U20..	[X]Intentional poisoning: [s++
+U2E..	[X]Self mutilation
+TK01.	Suic/selfinflic pois barbitur
+TK05.	Suic selfinf pois drug/med NOS
+SL...	Poisoning
+SL...	Poisoning by drug and biological substances
+SL...	Overdose of biological substance
+SL...	Biological substance poisoning
+SL...	Medicinal poisoning
+SL...	Overdose of drug
+SL521	Paracetamol poisoning
+SL51.	Salicylate poisoning
+SL510	Aspirin poisoning
+SL505	Morphine poisoning
+SL5y.	Other analgesic and antipyretic poisoning
+SL542	Ibuprofen poisoning
+SL543	Naproxen poisoning
+SL70.	Barbiturate poisoning
+SL90.	Poisoning by antidepressant drug
+SL900	Amitriptyline poisoning
+SL902	Poisoning by monoamine oxidase inhibitor antidepressant drug
+SL902	MAOI - Monoamine oxidase inhibitor poisoning
+SL920	Haloperidol poisoning
+SL94.	Benzodiazepine poisoning
+SL93.	"Other antipsychotics, neuroleptics and major tranquilliser poisoning"
+SL9y.	Other psychotropic agent poisoning
+SLC02	Propranolol poisoning
+SLHyz	Other drug and medicament poisoning NOS
+SLHz.	Drug and medicament poisoning NOS
+SL70z	Barbiturate poisoning NOS
+SLz..	"Drug, medicament or biological substance poisoning NOS"
+T....	Causes of injury and poisoning
+TK...	Suicide and selfinflicted injury
+TK...	Attempted suicide
+TK...	Suicide and self harm
+TK...	Injury - self-inflicted
+TK...	Cause of overdose - deliberate
+TK...	Poisoning - self-inflicted
+TK0z.	Suicide and selfinflicted poisoning by solid and liquid substances NOS
+TKz..	Suicide and selfinflicted injury NOS
+TKx..	Suicide and selfinflicted injury by other means
+TKx01	Suicide and selfinflicted injury by lying before moving object
+TK02.	Suicide and selfinflicted poisoning by other sedatives and hypnotics
+TK03.	Suicide and selfinflicted poisoning by tranquillisers and other psychotropic agents
+TK04.	Suicide and selfinflicted poisoning by other drugs and medicines
+TK00.	"Suicide and selfinflicted poisoning by analgesics, antipyretics and anti-rheumatics"
+TK07.	Self poisoning by corrosive or caustic substance
+TK21.	Suicide and selfinflicted poisoning by other carbon monoxide
+TK1y.	Suicide and selfinflicted poisoning by other utility gas
+TK20.	Self poisoning by motor vehicle exhaust gas
+TK3y.	"Suicide and selfinflicted injury by other means of hanging, strangulation and suffocation"
+TK30.	Suicide or attempted suicide by hanging
+TK50.	Suicide or selfinflicted injury by handgun
+TK6..	Suicide or selfinflicted injury by cutting and stabbing
+TK60.	Suicide or selfinflicted injury by cutting
+TK601	Self inflicted lacerations to wrist
+TK61.	Suicide or selfinflicted injury by stabbing
+TK7..	Suicide or self injury by jumping from a height
+TK7z.	Suicide and selfinflicted injury by jumping from high place NOS
+TK70.	Suicide and selfinflicted injury by jumping from residential premises
+TKx5.	Suicide or selfinflicted injury by crashing motor vehicle
+TKx1.	Suicide or self injury by burning or fire
+TKx2.	Suicide or self injury by scalding
+TN6z.	"Injury undetermined whether accidentally or purposely inflicted, by cutting or stabbing instrument NOS"
+TN60.	Injury of unknown intent by cutting instrument
+TN61.	Injury of unknown intent by stabbing instrument
+TN84.	Injury of unknown intent by electrocution
+SL...	(Poisoning (& [drug] &/or [biological substance] or [medicinal])) or (overdose: [biological substance] or [drug])
+TK...	(Selfinflicted injury) or (cause of deliberate overdose) or (suicide) or (para-suicide)
+U20..	[X]Intentional poisoning: [self] or [drug overdose] or [other]
+TK0..	Suicide and selfinflicted poisoning by solid and liquid substances
+ZV1B2	[V]Personal history of self-harm
+SyuF.	[X]Poisoning by drugs and biological substances
+SyuFL	[X]Poisoning by other and unspecified antipsychotics and neuroleptics
+SyuFc	[X]Poisoning by other and unspecified drugs and biological substances
+U20..	[X]Intentional self poisoning by and exposure to noxious substances
+U200.	[X]Intentional self poisoning by and exposure to nonopioid analgesics
+U2000	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at home"
+U2006	"[X]Intentional self poisoning by and exposure to nonopioid analgesics, occurrence at industrial and construction area"
+U202.	[X]Intentional self poisoning by and exposure to sedative hypnotics
+U2020	"[X]Intentional self poisoning by and exposure to sedative hypnotics, occurrence at home"
+U204.	[X]Intentional self poisoning by and exposure to psychotropic drugs
+U2047	"[X]Intentional self poisoning by and exposure to psychotropic drugs, occurrence on farm"
+U204z	"[X]Intentional self poisoning by and exposure to psychotropic drugs, occurrence at unspecified place"
+U205y	"[X]Intentional self poisoning by and exposure to narcotic drugs, occurrence at other specified place"
+U208.	"[X]Intentional self poisoning by and exposure to other and unspecified drug, medicament and biological substance"
+U2080	"[X]Intentional self poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at home"
+U208y	"[X]Intentional self poisoning by and exposure to other and unspecified drug, medicament and biological substance, occurrence at other specified place"
+U209.	[X]Intentional self poisoning by and exposure to alcohol
+U2090	"[X]Intentional self poisoning by and exposure to alcohol, occurrence at home"
+U2094	"[X]Intentional self poisoning by and exposure to alcohol, occurrence on street and highway"
+U209z	"[X]Intentional self poisoning by and exposure to alcohol, occurrence at unspecified place"
+U20A.	[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours
+U20B0	"[X]Intentional self poisoning by and exposure to other gas and vapours, occurrence at home"
+U20y.	[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances
+U20yy	"[X]Intentional self poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at other specified place"
+U21..	"[X]Intentional self harm by hanging, strangulation and suffocation"
+U210.	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence at home"
+U211.	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence in residential institution"
+U213.	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence at sports and athletics area"
+U214.	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence on street and highway"
+U21z.	"[X]Intentional self harm by hanging, strangulation and suffocation, occurrence at unspecified place"
+U22..	[X]Intentional self harm by drowning and submersion
+U22z.	"[X]Intentional self harm by drowning and submersion, occurrence at unspecified place"
+U26..	[X]Intentional self harm by explosive material
+U27..	"[X]Intentional self harm by smoke, fire and flames"
+U270.	"[X]Intentional self harm by smoke, fire and flames, occurrence at home"
+U28..	"[X]Intentional self harm by steam, hot vapours and hot objects"
+U29..	[X]Intentional self harm by sharp object
+U290.	"[X]Intentional self harm by sharp object, occurrence at home"
+U291.	"[X]Intentional self harm by sharp object, occurrence in residential institution"
+U29y.	"[X]Intentional self harm by sharp object, occurrence at other specified place"
+U29z.	"[X]Intentional self harm by sharp object, occurrence at unspecified place"
+U2A..	[X]Intentional self harm by blunt object
+U2A0.	"[X]Intentional self harm by blunt object, occurrence at home"
+U2Ay.	"[X]Intentional self harm by blunt object, occurrence at other specified place"
+U2B..	[X]Intentional self harm by jumping from a high place
+U2Bz.	"[X]Intentional self harm by jumping from a high place, occurrence at unspecified place"
+U2y..	[X]Intentional self harm by other specified means
+U2y0.	"[X]Intentional self harm by other specified means, occurrence at home"
+U2y1.	"[X]Intentional self harm by other specified means, occurrence in residential institution"
+U2yz.	"[X]Intentional self harm by other specified means, occurrence at unspecified place"
+U2z..	[X]Intentional self harm by unspecified means
+U2z0.	"[X]Intentional self harm by unspecified means, occurrence at home"
+U2z2.	"[X]Intentional self harm by unspecified means, occurrence at school, other institution and public administrative area"
+U2z7.	"[X]Intentional self harm by unspecified means, occurrence on farm"
+U2zz.	"[X]Intentional self harm by unspecified means, occurrence at unspecified place"
+U30..	"[X]Assault by drugs, medicaments and biological substances"
+U409.	"[X]Poisoning by and exposure to alcohol, undetermined intent"
+U40y0	"[X]Poisoning by and exposure to other and unspecified chemicals and noxious substances, occurrence at home, undetermined intent"
+U200.	[X]Overdose - ibuprofen
+U202.	[X]Overdose - temazepam
+U202.	[X]Overdose - flurazepam
+U202.	[X]Overdose - nitrazepam
+U204.	[X]Overdose - antidepressant
+U204.	[X]Overdose - amitriptyline
+U204.	[X]Overdose - SSRI
+U20A.	[X]Self poisoning from glue solvent
+TK02.	[X]Overdose - sleeping tabs
+U202.	[X]Overdose - sleeping tabs
+TK21.	[X]Self carbon monoxide poisoning
+SL...	Drug poisoning
+U20..	[X]Deliberate drug overdose / other poisoning
+TK...	Para-suicide
+146A.	H/O: attempted suicide
+14K..	H/O: poisoning
+ZV156	[V]Personal history of poisoning
+TK...	Parasuicide
+U2E..	[X]Self mutilation
+TK01.	Suicide and selfinflicted poisoning by barbiturates
+TK05.	Suicide and selfinflicted poisoning by drug or medicine NOS
