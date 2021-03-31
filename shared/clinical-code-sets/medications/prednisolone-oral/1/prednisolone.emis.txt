@@ -1,0 +1,55 @@
+PRTA100618NEMIS	Prednisolone  Tablets  10 mg
+DETA3396	Delta-Phoricol  Tablets  5 mg
+PETA100627NEMIS	Pevanti  Tablets  20 mg
+PETA100628NEMIS	Pevanti  Tablets  25 mg
+DIGA81516NEMIS	Dilacort  Gastro-resistant Tablets  2.5 mg
+PRTA4196	Precortisyl  Tablets  5 mg
+PRTA4200	Prednesol  Soluble tablets  5 mg
+DETA3400	Deltastab  Tablets  5 mg
+PRTA18432EMIS	Prednisolone  Tablets  25 mg
+PETA100622NEMIS	Pevanti  Tablets  2.5 mg
+DETA828	Deltacortril Enteric  E/c tablets  5 mg
+PRTA4197	Precortisyl Forte  Tablets  25 mg
+PREN8411EGTON	Prednisolone  E/c tablets  2.5 mg
+PETA100624NEMIS	Pevanti  Tablets  5 mg
+PRTA100619NEMIS	Prednisolone  Tablets  20 mg
+DETA3399	Deltastab  Tablets  1 mg
+PREN8412EGTON	Prednisolone  E/c tablets  5 mg
+PRTA4195	Precortisyl  Tablets  1 mg
+PETA100625NEMIS	Pevanti  Tablets  10 mg
+PRTA2326	Prednisolone  Tablets  1 mg
+PRTA2327	Prednisolone  Tablets  2.5 mg
+PRTA2328	Prednisolone  Tablets  5 mg
+DETA827	Deltacortril Enteric  E/c tablets  2.5 mg
+PRSO10225BRIDL	Prednisolone  Soluble tablets  5 mg
+DIGA81517NEMIS	Dilacort  Gastro-resistant Tablets  5 mg
+PRE/36621MGEMIS	Prednisolone  E/c tablets  2.5 mg (Alpharma)
+PRTA36682MGEMIS	Prednisolone  Tablets  1 mg (Alpharma)
+PRTA116231NEMIS	Prednisolone  Tablets  30 mg
+PRSO36635MGEMIS	Prednisolone  Soluble tablets  5 mg (A.A.H. Pharm)
+PRTA36689MGEMIS	Prednisolone  Tablets  5 mg (Teva UK)
+PRGA114530NEMIS	Prednisolone  Gastro-resistant Tablets  1 mg
+PRTA36687MGEMIS	Prednisolone  Tablets  5 mg (Alpharma)
+PRE/36622MGEMIS	Prednisolone  E/c tablets  2.5 mg (Kent Pharm)
+PRE/36623MGEMIS	Prednisolone  E/c tablets  2.5 mg (Unichem)
+PRTA36688MGEMIS	Prednisolone  Tablets  5 mg (The Boots Company)
+PRTA36692MGEMIS	Prednisolone  Tablets  5 mg (A.A.H. Pharm)
+PRTA36684MGEMIS	Prednisolone  Tablets  1 mg (Kent Pharm)
+PRTA36667MGEMIS	Prednisolone  Tablets  25 mg (Sanofi-Aventis)
+PRSO36634MGEMIS	Prednisolone  Soluble tablets  5 mg (Unichem)
+PRTA36693MGEMIS	Prednisolone  Tablets  5 mg (Wockhardt UK)
+PRE/36628MGEMIS	Prednisolone  E/c tablets  5 mg (A.A.H. Pharm)
+PRE/36624MGEMIS	Prednisolone  E/c tablets  2.5 mg (A.A.H. Pharm)
+PRTA36683MGEMIS	Prednisolone  Tablets  1 mg (A.A.H. Pharm)
+PRTA36681MGEMIS	Prednisolone  Tablets  1 mg (Teva UK)
+PRE/36625MGEMIS	Prednisolone  E/c tablets  5 mg (Unichem)
+PRTA36690MGEMIS	Prednisolone  Tablets  5 mg (Kent Pharm)
+PRTA36685MGEMIS	Prednisolone  Tablets  1 mg (The Boots Company)
+PRTA36686MGEMIS	Prednisolone  Tablets  1 mg (Wockhardt UK)
+PRTA36691MGEMIS	Prednisolone  Tablets  5 mg (Unichem)
+PRTA36666MGEMIS	Prednisolone  Tablets  25 mg (A.A.H. Pharm)
+PRE/36626MGEMIS	Prednisolone  E/c tablets  5 mg (Kent Pharm)
+PRE/36627MGEMIS	Prednisolone  E/c tablets  5 mg (Alpharma)
+PRSO36636MGEMIS	Prednisolone  Soluble tablets  5 mg (Sovereign)
+PRTA36680MGEMIS	Prednisolone  Tablets  1 mg (Unichem)
+PRTA36665MGEMIS	Prednisolone  Tablets  25 mg (Unichem)

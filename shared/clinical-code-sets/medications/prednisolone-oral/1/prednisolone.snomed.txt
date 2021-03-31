@@ -1,0 +1,37 @@
+52388000	Product containing prednisolone
+325426006	Product containing precisely prednisolone 1 milligram/1 each conventional release oral tablet (clinical drug)
+325427002	Product containing precisely prednisolone 5 milligram/1 each conventional release oral tablet (clinical drug)
+325442004	Product containing precisely prednisolone 2.5 milligram/1 each gastro-resistant oral tablet
+325443009	Prednisolone 5 mg gastro-resistant oral tablet
+325444003	Prednisolone 5mg soluble tablet (product)
+325445002	Product containing precisely prednisolone 50 milligram/1 each conventional release oral tablet (clinical drug)
+325450008	Product containing precisely prednisolone 25 milligram/1 each conventional release oral tablet (clinical drug)
+349354003	Product containing prednisolone in oral dosage form
+350459005	Product containing prednisolone in parenteral dosage form
+374290002	Prednisolone 15mg/5mL syrup
+374291003	Prednisolone 5mg/5mL syrup
+374333004	Prednisolone acetate 25mg/mL suspension
+374731004	Prednisolone acetate 0.125% suspension
+374732006	Prednisolone acetate 1% suspension
+374948001	Prednisolone acetate 0.12% suspension
+375101009	Prednisolone sodium phosphate 1% solution
+375850000	Prednisolone sodium phosphate 1/8% solution
+398708002	Neomycin sulfate and polymyxin B sulfate and prednisolone acetate product
+416533002	Product containing precisely prednisolone 3 milligram/1 milliliter conventional release oral solution (clinical drug)
+416646003	Prednisolone 5mg/mL oral solution
+422072007	Cinchocaine and prednisolone product
+422606008	Neomycin and prednisolone product
+424688005	Prednisolone 10mg orally disintegrating tablet
+424869000	Prednisolone 15mg orally disintegrating tablet
+425057000	Prednisolone 30mg orally disintegrating tablet
+429995001	Prednisolone 2 mg/mL oral solution
+432224007	Prednisolone 1 mg/mL oral suspension
+432225008	Prednisolone 3 mg/mL oral suspension
+764596001	Gentamicin and prednisolone product
+96334000	Prednisolone acetate (substance)
+96335004	Prednisolone sodium phosphate (substance)
+96336003	Prednisolone tertiary butylacetate (substance)
+116601002	Prednisolone (substance)
+438443002	Prednisolone hexanoate
+441522005	Prednisolone methylsulfobenzoate (substance)
+735165003	Prednisolone caproate

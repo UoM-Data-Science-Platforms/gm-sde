@@ -1,0 +1,36 @@
+x00yP	Oral prednisolone
+fe6..	PREDNISOLONE [ENDOCRINE]
+fe6z.	PREDNISOLONE 25mg tablets
+fe6w.	*PREDNISOLONE 2.5mg tablets
+fe6v.	PREDNISOLONE 2.5mg tablets
+fe6t.	PREDNISOLONE 10mg tablets
+fe6s.	PREDNISOLONE 20mg tablets
+fe6k.	PREDNISOLONE 50mg tablets
+fe6j.	PREDNISOLONE 5mg soluble tablets
+fe6i.	PREDNISOLONE 5mg e/c tablets
+fe6h.	PREDNISOLONE 2.5mg e/c tablets
+fe62.	PREDNISOLONE 5mg tablets
+fe61.	PREDNISOLONE 1mg tablets
+fe6r.	PEVANTI 20mg tablets
+fe6q.	PEVANTI 10mg tablets
+fe6p.	PEVANTI 5mg tablets
+fe6o.	PEVANTI 25mg tablets
+fe6n.	PEVANTI 2.5mg tablets
+fe6m.	DILACORT 2.5mg gastro-resistant tablets
+fe6l.	DILACORT 5mg gastro-resistant tablets
+fe6g.	*SINTISONE 5mg tablets
+fe6f.	*PREDNESOL 5mg tablets
+fe6e.	PRECORTISYL FORTE 25mg tablets
+fe6d.	*PRECORTISYL 5mg tablets
+fe6c.	*PRECORTISYL 1mg tablets
+fe6a.	*DELTASTAB 5mg tablets
+fe69.	*DELTASTAB 1mg tablets
+fe68.	*DELTALONE 5mg tablets
+fe67.	*DELTALONE 1mg tablets
+fe66.	DELTACORTRIL ENTERIC 5mg tablets
+fe66.	DELTACORTRIL GASTRO-RESISTANT 5mg tablets
+fe65.	DELTACORTRIL ENTERIC 2.5mg tablets
+fe65.	DELTACORTRIL GASTRO-RESISTANT 2.5mg tablets
+fe64.	*DELTA-PHORICOL 5mg tablets
+j45..	PREDNISOLONE SOD PHOS [MUSC-SK]
+j44..	PREDNISOLONE ACETATE [MUSCULOSKELETAL USE]

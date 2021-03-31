@@ -1,0 +1,40 @@
+{
+  "includeTerms": [
+    "prednisolone",
+    "pevanti",
+    "dilacort",
+    "sintisone",
+    "prednesol",
+    "precortisyl",
+    "deltastab",
+    "deltalone",
+    "deltacortril",
+    "delta-phoricol"
+  ],
+  "excludeTerms": [
+    "adverse reaction",
+    "allergy",
+    "therapy",
+    "long-term current use of",
+    "retinopathy",
+    "measurement",
+    "toxicity screening",
+    "rectal",
+    "enema",
+    "aerosol",
+    "suppository",
+    "eye",
+    "injection",
+    "ear drops",
+    "level",
+    "ear"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdBy": {
+    "name": "Richard Williams",
+    "email": "1234richardwilliams@gmail.com"
+  },
+  "createdOn": "2021-03-30T15:59:09.003Z",
+  "lastUpdated": "2021-03-30T15:59:12.277Z"
+}
