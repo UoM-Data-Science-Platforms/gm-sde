@@ -414,7 +414,7 @@ function checkForUnexpectedFiles(codeSetType, codeSetName, version) {
 The file names in the ${CODE_SET_DIR} directory should either be:
 
 - a code set ("name.[ctv3|readv2|snomed|emis].txt")
-- metadata ("name.[ctv3|readv2|snomed|emis].metadata.[txt|json]")
+- metadata ("name.[ctv3|readv2|snomed|emis].metadata.txt")
 - or a readme ("README.md")
 
 The following file names do not conform:\n\n${invalidNames.join('\n')}\n\n`);
@@ -549,9 +549,7 @@ function isValidCodeSetFile(codeSet) {
  * @param {sting} codeSet
  */
 function isValidCodeSetMetadataFile(codeSet) {
-  return (
-    codeSet.match(/\.(ctv3|emis|readv2|snomed)\.metadata\.(txt|json)$/) || codeSet === 'README.md'
-  );
+  return codeSet.match(/\.(ctv3|emis|readv2|snomed)\.metadata\.txt$/) || codeSet === 'README.md';
 }
 
 /**
