@@ -114,3 +114,5 @@ Attempted to find the location of information related to project no.1 (Grant), i
 - validating self-harm code sets for RQ29
 - altered RQ29 extraction code to accomodate temporary fix for linking patient_link to GP_events
 
+09/04/21
+- validating code sets after adding some extra CTV3 ones (Steeg RQ29)
