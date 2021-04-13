@@ -263,3 +263,83 @@ TK...	Parasuicide
 U2E..	[X]Self mutilation
 TK01.	Suicide and selfinflicted poisoning by barbiturates
 TK05.	Suicide and selfinflicted poisoning by drug or medicine NOS
+X766K	Deliberate self-harm
+Xa303	Self-scalding
+Xa4eX	OD - Overdose of drug
+Xa4ma	Mefenamic acid poisoning
+XM0Ba	Deliberate self poisoning
+X71Aq	Intentional overdose by combination analgesic
+Xa3jH	Attempted suicide - jumping from a high place
+Xa62K	Paracetamol overdose
+XaE75	"Analgesic poisoning, NEC"
+XM0xj	Drug poisoning
+Ua14S	Jumping in front of vehicle
+X70ru	Poisoning by analgesic drug
+X766J	Self-damage
+X766K	SIB - Self-injurious behaviour
+Xa0EN	Injury - self-inflicted
+XaF9U	H/O: deliberate self harm
+X71Am	Deliberate overdose of drug or pharmaceutical preparation
+Xa04L	Parasuicide
+Xa0EN	Self inflicted injury
+Xa4xv	Sedative poisoning
+Xa637	Diamorphine overdose
+Xa6DW	Overdose of antidepressant drug
+Xa6ID	Overdose of temazepam
+XaYMB	Suspected drug overdose
+XE1oT	Psychotropic agent poisoning
+XE22c	[X]Intentional self-harm
+XM0xj	Medicament poisoning
+X766V	Cuts self
+X766V	Cutting self
+Xa637	Heroin overdose
+Xa637	Overdose of heroin
+XE1oN	"Analgesic, antipyretic and antirheumatic drug poisoning"
+XE1oQ	Sedative and hypnotic drug poisoning
+XM0xj	Medicinal poisoning
+XM1Fs	"Self hanging, strangulation or suffocation"
+Xa4eX	Overdose of drug
+Ua14S	Throwing self in front of vehicle
+Xa4eX	Drug overdose
+Xa64M	Ibuprofen overdose
+Xa6H4	Benzodiazepine overdose
+XE22H	Suicide and selfinflicted injury
+X766J	Self-harm
+Xa3jC	Attempted suicide - hanging
+Xa3jI	Attempted suicide NOS
+XE1oR	Sedative and hypnotic drug poisoning NOS
+XE22J	Suicide or attempted suicide by drowning
+X79pf	Suicide
+XE22H	Suicide and self harm
+SL6..	Poisoning: [antiParkinsonian drug] &/or [anticonvulsant]
+SL6x.	Other anticonvulsant poisoning
+SL6xz	Anticonvulsant poisoning NOS
+Ua18F	Suicide attempt
+X71B0	Self poisoning by non-drug solid or liquid agents
+X71B8	Suicide or self injury by jumping from bridge
+X766K	Self-injurious behaviour
+Xa6Db	Amitriptyline overdose
+Xa6HL	Nitrazepam overdose
+XM0xj	Overdose of drug with toxic effect
+SL40z	Iron and iron compound poisoning NOS
+SLH..	Other and unspecified drug and medicament poisoning
+SM9..	Other non-medicinal substances causing toxic effect
+U40A.	"[X]Poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, undetermined intent"
+X71BB	Suicide or self injury associated with moving vehicles
+X766K	Self-abusive behaviour
+X766K	Self-destructive behaviour
+X766L	Self-mutilation
+Xa2p5	Burning self
+Xa3jR	Suicide NOS
+Xa6I6	Diazepam overdose
+XaIPy	H/O: repeated overdose
+XE1sl	Toxic effects - substances NOS
+XE22i	[X]Intentional self harm by self mutilation
+SL83.	Intravenous anaesthetic agent poisoning
+SL96.	Poisoning by hallucinogenic drug
+TN...	Poisoning undetermined whether accidentally or purposely inflicted
+X71Aq	Deliberate overdose of combined analgesic
+Xa3jE	Attempted suicide - drowning
+Xa6GS	Sedative overdose
+XE1oH	Poisoning
+XM0xj	Drug toxicity
