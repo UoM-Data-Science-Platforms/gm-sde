@@ -140,6 +140,7 @@ SL93.	"Other antipsychotics, neuroleptics and major tranquilliser poisoning"
 SL9y.	Other psychotropic agent poisoning
 SLC02	Propranolol poisoning
 SLHyz	Other drug and medicament poisoning NOS
+SLHy.	Other drug and medicament poisoning OS
 SLHz.	Drug and medicament poisoning NOS
 SL70z	Barbiturate poisoning NOS
 SLz..	"Drug, medicament or biological substance poisoning NOS"
@@ -343,3 +344,5 @@ Xa3jE	Attempted suicide - drowning
 Xa6GS	Sedative overdose
 XE1oH	Poisoning
 XM0xj	Drug toxicity
+SLBz.	Autonomic nervous system poisoning NOS
+TN3y.	Injury undetermined whether accidentally or purposely inflicted, other specified means of hanging, strangulation or suffocation
