@@ -37,3 +37,13 @@ Find out the following total number of rows to investigate how big the chohorts 
 2021-01-27 8.30 - 9.30
 -- Find total no of Christie patients
 -- Find a way to match ICD10 codes with readcodes
+
+2021-02-04 8.00 - 9.30
+-- Find the link between patients in the Christie dataset and patients in the platform.
+-- Some tables are not linked - have to check with Graphnet. 
+
+2021-02-10 8.30 - 9.00
+-- Find christie tables with no patient_link_ID to make sure linkage is possible. 
+
+2021-03-01 8.30 - 8.40
+-- Check that primary keys are now updated to link Christie records with IDCR.

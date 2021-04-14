@@ -43,15 +43,15 @@ FROM UniquePositivePatients
 -- Number of unique patients who were positive and have a deceased flag
 WITH
     UniquePositivePatientsDeceased
-AS
-(
+    AS
+    (
         SELECT c.FK_Patient_Link_ID
-FROM RLS.vw_COVID19 c
-    INNER JOIN RLS.vw_Patient p ON p.FK_Patient_Link_ID = c.FK_Patient_Link_ID
-WHERE p.FK_Reference_Tenancy_ID = 2
-    AND c.GroupDescription IN ('Confirmed')
-    AND c.DeceasedFlag IN ('Y')
-GROUP BY c.FK_Patient_Link_ID
+        FROM RLS.vw_COVID19 c
+            INNER JOIN RLS.vw_Patient p ON p.FK_Patient_Link_ID = c.FK_Patient_Link_ID
+        WHERE p.FK_Reference_Tenancy_ID = 2
+            AND c.GroupDescription IN ('Confirmed')
+            AND c.DeceasedFlag IN ('Y')
+        GROUP BY c.FK_Patient_Link_ID
     )
 
 SELECT count(1) TotalPositivePatientsDeceased
@@ -104,7 +104,6 @@ WITH
     TotalNoHighRiskPatients
     AS
     (
-
         SELECT [FK_Patient_Link_ID],
             Count(1) as occ
         FROM [RLS].[vw_GP_Events]
@@ -146,6 +145,6 @@ from TotalNoModerateRiskPatients;
 Select count(1) 
 From RLS.vw_Patient
 where FK_Reference_Tenancy_ID = 4 
--- 127944 - as of 27th Jan 2021
+-- 127.944 - as of 27th Jan 2021
 
 /****** Number of cancer patients in the sample ******/
