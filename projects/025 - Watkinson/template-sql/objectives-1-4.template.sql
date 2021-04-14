@@ -12,18 +12,13 @@
 --  - HasHighClinicalVulnerabilityIndicator (Y/N)
 --  - DateOfHighClinicalVulnerabilityIndicator
 --  - HasModerateClinicalVulnerabilityIndicator (Y/N)
---  - DateOfModerateClinicalVulnerabilityIndicator
 --  - HasCovidHospitalisation (Y/N)
---  - HasCovidDeathWithin28Days (Y/N)
---  - HasCovidVaccine1stDose (Y/N)
---  - HasCovidVaccine2ndDose (Y/N)
---  - DistanceFromHomeTo1stVaccine
---  - DistanceFromHomeTo2ndVaccine
---  - DistanceFromHomeToNearestVaccineHub
 --  - DateOfFirstCovidHospitalisation
+--  - HasCovidDeathWithin28Days (Y/N)
+--  - FirstVaccineDate
+--  - SecondVaccineDate
+--	-	DateVaccineDeclined
 --  - DateOfDeath
---  - DateOfEntry
---  - DateOfExit
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -87,6 +82,11 @@ SELECT FK_Patient_Link_ID, MIN(EventDate) AS HighVulnerabilityCodeDate INTO #Hig
 WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 'high-clinical-vulnerability' AND [Version] = 1)
 GROUP BY FK_Patient_Link_ID;
 
+-- Get patients with covid vaccine refusal
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS DateVaccineDeclined INTO #VaccineDeclinedPatients FROM [RLS].[vw_GP_Events]
+WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccine-declined' AND [Version] = 1)
+GROUP BY FK_Patient_Link_ID;
+
 -- Get first COVID admission rather than all admissions
 IF OBJECT_ID('tempdb..#FirstCOVIDAdmission') IS NOT NULL DROP TABLE #FirstCOVIDAdmission;
 SELECT p.FK_Patient_Link_ID, MIN(AdmissionDate) AS DateOfFirstCovidHospitalisation INTO #FirstCOVIDAdmission FROM #Patients p
@@ -100,7 +100,6 @@ SELECT DISTINCT FK_Patient_Link_ID INTO #COVIDDeath FROM RLS.vw_COVID19
 WHERE DeathWithin28Days = 'Y';
 
 -- Bring it all together for output
-PRINT 'PatientId,AgeAtIndexDate,Sex,Ethnicity,LSOA,IsCareHomeResident,HasHighClinicalVulnerabilityIndicator,DateOfHighClinicalVulnerabilityIndicator,HasCovidHospitalisation,DateOfFirstCovidHospitalisation,HasCovidDeathWithin28Days,FirstVaccineDate,SecondVaccineDate,DateOfDeath';
 SELECT 
 	p.FK_Patient_Link_ID AS PatientId,
 	2020 - YearOfBirth AS AgeAtIndexDate,
@@ -116,6 +115,7 @@ SELECT
 	CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN 'Y' ELSE 'N' END AS HasCovidDeathWithin28Days,
 	FirstVaccineDate,
 	CASE WHEN SecondVaccineDate > FirstVaccineDate THEN SecondVaccineDate ELSE NULL END AS SecondVaccineDate,
+	DateVaccineDeclined,
 	DeathDate AS DateOfDeath
 FROM #Patients p
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
@@ -126,5 +126,6 @@ LEFT OUTER JOIN #HighVulnerabilityPatients hv ON hv.FK_Patient_Link_ID = p.FK_Pa
 LEFT OUTER JOIN #ModerateVulnerabilityPatients mv ON mv.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #FirstCOVIDAdmission ca ON ca.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #COVIDVaccines v ON v.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
+LEFT OUTER JOIN #COVIDVaccines v ON v.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #VaccineDeclinedPatients vd ON vd.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
 
