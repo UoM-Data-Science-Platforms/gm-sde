@@ -87,7 +87,7 @@ GROUP BY
 	AgeCategory,
 	EthnicMainGroup,
 	IMD2019Quintile1IsMostDeprived5IsLeastDeprived
-HAVING DATEADD(MONTH, DATEDIFF(MONTH, 0, EventDate), 0) BETWEEN '01 JAN 2019' AND '30 APR 2021'
+HAVING DATEADD(MONTH, DATEDIFF(MONTH, 0, EventDate), 0) BETWEEN '01 JAN 2019' AND '30 APR 2021' --exclude any test records that have a date past 2021
 ORDER BY 
 	DATEADD(MONTH, DATEDIFF(MONTH, 0, EventDate), 0),
 	Sex,
@@ -131,7 +131,7 @@ GROUP BY
 	AgeCategory,
 	EthnicMainGroup,
 	IMD2019Quintile1IsMostDeprived5IsLeastDeprived
-HAVING DATEADD(MONTH, DATEDIFF(MONTH, 0, EventDate), 0) BETWEEN '01 JAN 2020' AND '30 APR 2021'
+HAVING DATEADD(MONTH, DATEDIFF(MONTH, 0, EventDate), 0) BETWEEN '01 JAN 2020' AND '30 APR 2021' --exclude any test records that have a date past 2021
 ORDER BY 
 	DATEADD(MONTH, DATEDIFF(MONTH, 0, EventDate), 0),
 	Sex,
