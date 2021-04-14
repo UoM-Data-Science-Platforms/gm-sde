@@ -1,6 +1,6 @@
---┌────────────────────────────────────┐
---│ An example SQL generation template │
---└────────────────────────────────────┘
+--┌──────────────────────────────────┐
+--│ RQ025 - Watkinson - Data extract │
+--└──────────────────────────────────┘
 
 -- OUTPUT: Data with the following fields
 -- 	- PatientId
@@ -68,7 +68,7 @@ SELECT * FROM #Temp;
 
 -- Get patients with moderate covid vulnerability defined as
 -- 	-	eligible for a flu vaccine
---	-	has a sever mental illness
+--	-	has a severe mental illness
 --	-	has a moderate clinical vulnerability to COVID code in their record
 SELECT FK_Patient_Link_ID INTO #ModerateVulnerabilityPatients FROM [RLS].[vw_GP_Events]
 WHERE SuppliedCode IN (
