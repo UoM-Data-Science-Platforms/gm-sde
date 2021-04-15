@@ -333,6 +333,7 @@ X766L	Self-mutilation
 Xa2p5	Burning self
 Xa3jR	Suicide NOS
 Xa6I6	Diazepam overdose
+Xa6Eu	Selective serotonin re-uptake inhibitor overdose
 XaIPy	H/O: repeated overdose
 XE1sl	Toxic effects - substances NOS
 XE22i	[X]Intentional self harm by self mutilation
