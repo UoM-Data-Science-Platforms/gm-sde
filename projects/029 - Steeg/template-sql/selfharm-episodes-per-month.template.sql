@@ -38,16 +38,12 @@ SELECT gp.FK_Patient_Link_ID,
 	   EventDate, 
 	   EpisodeNumber = ROW_NUMBER() OVER(PARTITION BY gp.FK_Patient_Link_ID ORDER BY EventDate),
 	   Sex,
-	   AgeCategory = CASE WHEN (YEAR(gp.EventDate) - yob.YearOfBirth) BETWEEN 0 AND 9 THEN '0-9'
-			WHEN (YEAR(gp.EventDate) - yob.YearOfBirth) BETWEEN 10 AND 19 THEN '10-19'
-			WHEN (YEAR(gp.EventDate) - yob.YearOfBirth) BETWEEN 20 AND 29 THEN '20-29'
-			WHEN (YEAR(gp.EventDate) - yob.YearOfBirth) BETWEEN 30 AND 39 THEN '30-39'
-			WHEN (YEAR(gp.EventDate) - yob.YearOfBirth) BETWEEN 40 AND 49 THEN '40-49'
-			WHEN (YEAR(gp.EventDate) - yob.YearOfBirth) BETWEEN 50 AND 59 THEN '50-59'
-			WHEN (YEAR(gp.EventDate) - yob.YearOfBirth) BETWEEN 60 AND 69 THEN '60-69'
-			WHEN (YEAR(gp.EventDate) - yob.YearOfBirth) BETWEEN 70 AND 79 THEN '70-79'
-			WHEN (YEAR(gp.EventDate) - yob.YearOfBirth) BETWEEN 80 AND 89 THEN '80-89'
-			WHEN (YEAR(gp.EventDate) - yob.YearOfBirth) >= 90			   THEN '90+'
+	   AgeCategory = 
+			CASE WHEN (YEAR(gp.EventDate) - yob.YearOfBirth) BETWEEN 10 AND 17 THEN '10-17'
+			WHEN (YEAR(gp.EventDate) - yob.YearOfBirth) BETWEEN 18 AND 44 THEN '18-44'
+			WHEN (YEAR(gp.EventDate) - yob.YearOfBirth) BETWEEN 45 AND 64 THEN '45-64'
+			WHEN (YEAR(gp.EventDate) - yob.YearOfBirth) BETWEEN 65 AND 79 THEN '65-79'
+			WHEN (YEAR(gp.EventDate) - yob.YearOfBirth) >= 80 			  THEN '80+'
 					ELSE NULL END,
 	EthnicMainGroup,
 	IMD2019Quintile1IsMostDeprived5IsLeastDeprived = CASE WHEN IMD2019Decile1IsMostDeprived10IsLeastDeprived IN (1,2) THEN 1 
