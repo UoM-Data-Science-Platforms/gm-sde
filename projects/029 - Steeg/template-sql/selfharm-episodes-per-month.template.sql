@@ -37,7 +37,7 @@ IF OBJECT_ID('tempdb..#SelfHarmEpisodes_all') IS NOT NULL DROP TABLE #SelfHarmEp
 SELECT gp.FK_Patient_Link_ID, 
 	   EventDate, 
 	   EpisodeNumber = ROW_NUMBER() OVER(PARTITION BY gp.FK_Patient_Link_ID ORDER BY EventDate),
-	   Dedupe_Flag = ROW_NUMBER() OVER(PARTITION BY gp.FK_Patient_Link_ID, EventDate, SuppliedCode ORDER BY EventDate),
+	   Dedupe_Flag = ROW_NUMBER() OVER(PARTITION BY gp.FK_Patient_Link_ID, CAST(EventDate AS DATE), SuppliedCode ORDER BY CAST(EventDate AS DATE)),
 	   Sex,
 	   AgeCategory = 
 			CASE WHEN (YEAR(gp.EventDate) - yob.YearOfBirth) BETWEEN 10 AND 17 THEN '10-17'
@@ -153,7 +153,7 @@ SELECT
 	SA.IMD2019Quintile1IsMostDeprived5IsLeastDeprived,
     SA.SelfHarmEpisodes,
     SA.FirstRecordedSelfharmEpisodes_FullLookback,
-	S19.FirstRecordedSelfharmEpisodes_2019Lookback = ISNULL(S19.FirstRecordedSelfharmEpisodes_2019Lookback, 0)
+	FirstRecordedSelfharmEpisodes_2019Lookback = ISNULL(S19.FirstRecordedSelfharmEpisodes_2019Lookback, 0)
 FROM #Summary_all SA
 LEFT JOIN #Summary_2019Lookback S19 
 	ON S19.[Month] = SA.[Month] 
