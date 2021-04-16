@@ -1,6 +1,9 @@
 --┌────────────────────────────────────┐
---│ Self-harm episodes per month	   │
+--│ Self-harm episodes per month	     │
 --└────────────────────────────────────┘
+
+-- REVIEW LOG:
+--	-	Richard Williams	2021-04-16	Review complete
 
 -- OUTPUT: Data with the following fields
 -- 	- Month (YYYY-MM)
