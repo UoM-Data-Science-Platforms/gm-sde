@@ -37,6 +37,7 @@ IF OBJECT_ID('tempdb..#SelfHarmEpisodes_all') IS NOT NULL DROP TABLE #SelfHarmEp
 SELECT gp.FK_Patient_Link_ID, 
 	   EventDate, 
 	   EpisodeNumber = ROW_NUMBER() OVER(PARTITION BY gp.FK_Patient_Link_ID ORDER BY EventDate),
+	   Dedupe_Flag = ROW_NUMBER() OVER(PARTITION BY gp.FK_Patient_Link_ID, EventDate, SuppliedCode ORDER BY EventDate),
 	   Sex,
 	   AgeCategory = 
 			CASE WHEN (YEAR(gp.EventDate) - yob.YearOfBirth) BETWEEN 10 AND 17 THEN '10-17'
@@ -64,6 +65,12 @@ WHERE SuppliedCode IN (
 	AND (YEAR(gp.EventDate) - yob.YearOfBirth) >= 10
 --256,088 
 
+---REMOVE EPISODES WHERE THE DATE, CODE, AND PATIENT ARE IDENTICAL. THIS ASSUMES THAT IT IS A DUPLICATE RECORD.
+
+DELETE FROM #SelfHarmEpisodes_all
+WHERE DEDUPE_FLAG > 1
+--13,686
+
 -- CREATE SUMMARY TABLE AT MONTH LEVEL
 
 IF OBJECT_ID('tempdb..#Summary_all') IS NOT NULL DROP TABLE #Summary_all;
@@ -83,7 +90,7 @@ GROUP BY
 	AgeCategory,
 	EthnicMainGroup,
 	IMD2019Quintile1IsMostDeprived5IsLeastDeprived
-HAVING DATEADD(MONTH, DATEDIFF(MONTH, 0, EventDate), 0) BETWEEN '01 JAN 2019' AND '30 APR 2021' --exclude any test records that have a date past 2021
+HAVING DATEADD(MONTH, DATEDIFF(MONTH, 0, EventDate), 0) BETWEEN '01 JAN 2019' AND GETDATE() --exclude any test records that have a date past 2021
 ORDER BY 
 	DATEADD(MONTH, DATEDIFF(MONTH, 0, EventDate), 0),
 	Sex,
@@ -127,7 +134,7 @@ GROUP BY
 	AgeCategory,
 	EthnicMainGroup,
 	IMD2019Quintile1IsMostDeprived5IsLeastDeprived
-HAVING DATEADD(MONTH, DATEDIFF(MONTH, 0, EventDate), 0) BETWEEN '01 JAN 2020' AND '30 APR 2021' --exclude any test records that have a date past 2021
+HAVING DATEADD(MONTH, DATEDIFF(MONTH, 0, EventDate), 0) BETWEEN '01 JAN 2020' AND GETDATE() --exclude any test records that have a date past 2021
 ORDER BY 
 	DATEADD(MONTH, DATEDIFF(MONTH, 0, EventDate), 0),
 	Sex,
@@ -138,7 +145,6 @@ ORDER BY
 
 --- FINAL OUTPUT
 
-PRINT('Month, Sex, AgeCategory, EthnicMainGroup, IMD2019Quintile1IsMostDeprived5IsLeastDeprived, SelfHarmEpisodes, FirstRecordedSelfharmEpisodes_FullLookback, FirstRecordedSelfharmEpisodes_2019Lookback')
 SELECT
 	SA.[Month],
 	SA.Sex,
@@ -147,7 +153,7 @@ SELECT
 	SA.IMD2019Quintile1IsMostDeprived5IsLeastDeprived,
     SA.SelfHarmEpisodes,
     SA.FirstRecordedSelfharmEpisodes_FullLookback,
-	ISNULL(S19.FirstRecordedSelfharmEpisodes_2019Lookback, 0)
+	S19.FirstRecordedSelfharmEpisodes_2019Lookback = ISNULL(S19.FirstRecordedSelfharmEpisodes_2019Lookback, 0)
 FROM #Summary_all SA
 LEFT JOIN #Summary_2019Lookback S19 
 	ON S19.[Month] = SA.[Month] 
