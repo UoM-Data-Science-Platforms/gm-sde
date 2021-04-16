@@ -2,6 +2,9 @@
 --│ RQ025 - Watkinson - Data extract │
 --└──────────────────────────────────┘
 
+-- REVIEW LOG:
+--	-	George Tilston	2021-04-14	Review complete	
+
 -- OUTPUT: Data with the following fields
 -- 	- PatientId
 --  - AgeAtIndexDate
