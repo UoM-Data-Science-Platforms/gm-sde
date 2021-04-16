@@ -62,7 +62,7 @@ WHERE SuppliedCode IN (
 	SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('selfharm-episodes') AND [Version] = 1
 )
 	AND (YEAR(gp.EventDate) - yob.YearOfBirth) >= 10
---255,718 
+--256,088 
 
 -- CREATE SUMMARY TABLE AT MONTH LEVEL
 
@@ -90,7 +90,7 @@ ORDER BY
 	AgeCategory,
 	EthnicMainGroup,
 	IMD2019Quintile1IsMostDeprived5IsLeastDeprived
---4,143
+--2,919
 
 -- CREATE A SUBSET TABLE CONTAINING ONLY EPISODES FROM 2019 ONWARDS
 
@@ -106,7 +106,7 @@ SELECT
 INTO #SelfHarmEpisodes_2019Lookback
 FROM #SelfHarmEpisodes_all
 WHERE EventDate >= '01 jan 2019'
---32,369
+--32,616
 
 -- SUMMARY TABLE USING SUBSET CREATED ABOVE, USING 2019 ONLY AS THE LOOKBACK PERIOD FOR 2020 ONWARDS
 
@@ -134,7 +134,7 @@ ORDER BY
 	AgeCategory,
 	EthnicMainGroup,
 	IMD2019Quintile1IsMostDeprived5IsLeastDeprived
---2223
+--1,582
 
 --- FINAL OUTPUT
 
@@ -147,7 +147,7 @@ SELECT
 	SA.IMD2019Quintile1IsMostDeprived5IsLeastDeprived,
     SA.SelfHarmEpisodes,
     SA.FirstRecordedSelfharmEpisodes_FullLookback,
-	S19.FirstRecordedSelfharmEpisodes_2019Lookback
+	ISNULL(S19.FirstRecordedSelfharmEpisodes_2019Lookback, 0)
 FROM #Summary_all SA
 LEFT JOIN #Summary_2019Lookback S19 
 	ON S19.[Month] = SA.[Month] 
@@ -155,22 +155,5 @@ LEFT JOIN #Summary_2019Lookback S19
 		AND S19.AgeCategory = SA.AgeCategory 
 		AND S19.EthnicMainGroup = SA.EthnicMainGroup 
 		AND S19.IMD2019Quintile1IsMostDeprived5IsLeastDeprived = SA.IMD2019Quintile1IsMostDeprived5IsLeastDeprived
-UNION
-SELECT
-	SA.[Month],
-	SA.Sex,
-	SA.AgeCategory,
-	SA.EthnicMainGroup,
-	SA.IMD2019Quintile1IsMostDeprived5IsLeastDeprived,
-    SA.SelfHarmEpisodes,
-    SA.FirstRecordedSelfharmEpisodes_FullLookback,
-	S19.FirstRecordedSelfharmEpisodes_2019Lookback
-FROM #Summary_all SA
-RIGHT JOIN #Summary_2019Lookback S19 
-	ON S19.[Month] = SA.[Month] 
-		AND S19.Sex = SA.Sex 
-		AND S19.AgeCategory = SA.AgeCategory 
-		AND S19.EthnicMainGroup = SA.EthnicMainGroup 
-		AND S19.IMD2019Quintile1IsMostDeprived5IsLeastDeprived = SA.IMD2019Quintile1IsMostDeprived5IsLeastDeprived
 ORDER BY [Month], Sex, AgeCategory, EthnicMainGroup, IMD2019Quintile1IsMostDeprived5IsLeastDeprived
---4,147
+--2,919
