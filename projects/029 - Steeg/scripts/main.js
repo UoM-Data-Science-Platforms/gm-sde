@@ -569,6 +569,8 @@ Files should not be deleted from the 'output/export' folder***
 
 * Anything else (e.g. documentation that is not code) goes in the 'doc' folder.
 
+* NB. There are known issues with using RStudio on a network shared drive. If you experience slow performance please read the documentation here: https://drive.google.com/file/d/1nRuhT-FJ-Sioh0ntknktPN3kYQCc-5px/view?usp=sharing
+
 v${version}`
   );
 }

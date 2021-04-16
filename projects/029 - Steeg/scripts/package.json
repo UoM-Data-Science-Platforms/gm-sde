@@ -2,7 +2,7 @@
   "description": "",
   "repository": {},
   "license": "ISC",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "@azure/ms-rest-nodeauth": "^3.0.7",
     "chalk": "^4.1.0",
