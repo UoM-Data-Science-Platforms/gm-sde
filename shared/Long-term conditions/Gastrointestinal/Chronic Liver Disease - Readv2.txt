@@ -3,14 +3,11 @@ medcode	readcode	Description	CodingSystem
 1641	G85..11	Oesophageal varices	readcode
 1754	J614.00	Chronic hepatitis	readcode
 1755	J614200	Chronic aggressive hepatitis	readcode
-2834	A705000	Viral hepatitis C without mention of hepatic coma	readcode
-2860	A703.00	Viral (serum) hepatitis B	readcode
 3450	J615300	Diffuse nodular cirrhosis	readcode
 4743	J612.00	Alcoholic cirrhosis of liver	readcode
 5129	J623.00	Portal hypertension	readcode
 5638	J616000	Primary biliary cirrhosis	readcode
 6015	Jyu7100	[X]Other and unspecified cirrhosis of liver	readcode
-6800	65Q7.00	Viral hepatitis carrier	readcode
 6863	J61..00	Cirrhosis and chronic liver disease	readcode
 7602	J617000	Chronic alcoholic hepatitis	readcode
 7943	J617.00	Alcoholic hepatitis	readcode
@@ -29,9 +26,6 @@ medcode	readcode	Description	CodingSystem
 16455	J615z00	Non-alcoholic cirrhosis NOS	readcode
 16725	J615.00	Cirrhosis - non alcoholic	readcode
 16759	760C500	Fibreoptic endoscopic banding of oesophageal varices	readcode
-16766	ZV02600	[V]Viral hepatitis carrier	readcode
-17219	J635300	Toxic liver disease with chronic persistent hepatitis	readcode
-18652	J63B.00	Autoimmune hepatitis	readcode
 18739	J615z12	Cryptogenic cirrhosis of liver	readcode
 19512	C310400	Glycogenosis with hepatic cirrhosis	readcode
 20233	7609z00	Open operation on oesophageal varices NOS	readcode
@@ -40,34 +34,22 @@ medcode	readcode	Description	CodingSystem
 22841	J615z11	Macronodular cirrhosis of liver	readcode
 23578	J614000	Chronic persistent hepatitis	readcode
 24220	7609.00	Open operations on oesophageal varices	readcode
-24813	A707000	Chronic viral hepatitis B with delta-agent	readcode
 24989	G850.00	Oesophageal varices with bleeding	readcode
 25383	J61y400	Hepatic fibrosis	readcode
 25589	C376100	Alpha-1-antitrypsin hepatitis	readcode
 26037	C32y511	Hepatic familial steatosis	readcode
 26319	G852200	Oesophageal varices in cirrhosis of the liver	readcode
-26367	A707.00	Chronic viral hepatitis	readcode
 27438	J615700	Cardiac portal cirrhosis	readcode
-27663	J63X.00	"Granulomatous hepatitis, not elsewhere classified"	readcode
-28703	ZV02C00	[V]Hepatitis C carrier	readcode
-28798	J63y100	Nonspecific reactive hepatitis	readcode
 28929	G857.00	Gastric varices	readcode
-30586	A707200	Chronic viral hepatitis C	readcode
 30655	G851.00	Oesophageal varices without bleeding	readcode
 30729	141E.00	History of hepatitis B	readcode
-31008	J630.00	Chronic passive liver congestion	readcode
 31897	J62..00	Liver abscess and sequelae of chronic liver disease	readcode
-32277	A707X00	"Chronic viral hepatitis, unspecified"	readcode
 33597	J61yz00	Other non-alcoholic chronic liver disease NOS	readcode
 34642	Q48yz11	Congenital hepatic fibrosis	readcode
-39351	J635500	Toxic liver disease with chronic active hepatitis	readcode
 40567	J615600	Capsular portal cirrhosis	readcode
 40963	J61y300	Portal fibrosis without cirrhosis	readcode
-41096	A707100	Chronic viral hepatitis B without delta-agent	readcode
-41237	J631.00	Hepatitis in viral diseases EC	readcode
 42843	J61y.00	Other non-alcoholic chronic liver disease	readcode
 43404	7609300	Local ligation of oesophageal varices	readcode
-44120	J635600	Toxic liver disease with fibrosis and cirrhosis of liver	readcode
 44424	G852.00	Oesophageal varices in diseases EC	readcode
 44676	J615400	Fatty portal cirrhosis	readcode
 46647	760F400	Rigid oesophagoscopic banding of oesophageal varices	readcode
@@ -84,11 +66,8 @@ medcode	readcode	Description	CodingSystem
 58630	J616z00	Biliary cirrhosis NOS	readcode
 60104	J61y500	Hepatic sclerosis	readcode
 62582	G852z00	Oesophageal varices in diseases EC NOS	readcode
-64750	J635400	Toxic liver disease with chronic lobular hepatitis	readcode
-65050	A704000	Viral hepatitis C with coma	readcode
 66534	J614400	Chronic lobular hepatitis	readcode
 68376	J612.11	Florid cirrhosis	readcode
-69053	A702.00	Viral hepatitis B with coma	readcode
 69204	J615100	Multilobular portal cirrhosis	readcode
 69313	J601200	Subacute yellow atrophy	readcode
 71453	J615z15	Hepatic fibrosis	readcode

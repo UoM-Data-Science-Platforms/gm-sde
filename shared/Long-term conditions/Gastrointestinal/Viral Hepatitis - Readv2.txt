@@ -1,0 +1,22 @@
+medcode	readcode	Description	CodingSystem
+24813	A707000	Chronic viral hepatitis B with delta-agent	readcode
+2834	A705000	Viral hepatitis C without mention of hepatic coma	readcode
+2860	A703.00	Viral (serum) hepatitis B	readcode
+6800	65Q7.00	Viral hepatitis carrier	readcode
+16766	ZV02600	[V]Viral hepatitis carrier	readcode
+26367	A707.00	Chronic viral hepatitis	readcode
+30586	A707200	Chronic viral hepatitis C	readcode
+32277	A707X00	"Chronic viral hepatitis, unspecified"	readcode
+41096	A707100	Chronic viral hepatitis B without delta-agent	readcode
+41237	J631.00	Hepatitis in viral diseases EC	readcode
+65050	A704000	Viral hepatitis C with coma	readcode
+69053	A702.00	Viral hepatitis B with coma	readcode
+17219	J635300	Toxic liver disease with chronic persistent hepatitis	readcode
+18652	J63B.00	Autoimmune hepatitis	readcode
+27663	J63X.00	"Granulomatous hepatitis, not elsewhere classified"	readcode
+28703	ZV02C00	[V]Hepatitis C carrier	readcode
+28798	J63y100	Nonspecific reactive hepatitis	readcode
+31008	J630.00	Chronic passive liver congestion	readcode
+39351	J635500	Toxic liver disease with chronic active hepatitis	readcode
+44120	J635600	Toxic liver disease with fibrosis and cirrhosis of liver	readcode
+64750	J635400	Toxic liver disease with chronic lobular hepatitis	readcode
