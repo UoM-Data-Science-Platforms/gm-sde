@@ -1,0 +1,121 @@
+id	name
+2917005	Transient hypothyroidism (disorder)
+4641009	Myxedema heart disease (disorder)
+10718002	Juvenile myxedema (disorder)
+14779006	Hypothyroidism following external radiotherapy (disorder)
+17885001	Iodotyrosine deiodination defect (disorder)
+22558005	Iodide transport defect (disorder)
+23536000	Hypothyroidism due to coupling defect
+26692000	Central hypothyroidism (disorder)
+27059002	Hypothyroidism after surgery
+30229009	Hypothyroidism due to infiltrative disease (disorder)
+37429009	Tertiary hypothyroidism
+39444001	Hypothyroidism due to fibrous invasive thyroiditis (disorder)
+40539002	Hypothyroidism, postradioiodine therapy
+40930008	Hypothyroidism (disorder)
+42785009	Hypothyroidism due to cystinosis (disorder)
+43153006	Myxedema (disorder)
+43507005	Adult myxedema (disorder)
+49830003	Hypothyroidism due to food stuff
+50375007	Thyroid hormone responsiveness defect (disorder)
+52724003	Iodide oxidation defect (disorder)
+54823002	Borderline hypothyroidism
+55838005	Athyrotic hypothyroidism sequence (disorder)
+56041007	Hypothyroidism due to defect in thyroid hormone synthesis (disorder)
+60733007	Hypothyroidism due to amyloidosis (disorder)
+63115005	Hypothyroidism due to systemic sclerosis
+63127008	Thyroglobulin synthesis defect (disorder)
+64491003	Myxedematous form of cretinism (disorder)
+70225006	Hypothyroidism caused by iodide excess (disorder)
+70348004	Pendred syndrome
+75065003	Endemic cretinism (disorder)
+78574007	Hypothyroidism due to sarcoidosis (disorder)
+82598004	Secondary hypothyroidism (disorder)
+83664006	Idiopathic atrophic hypothyroidism (disorder)
+83986005	Severe hypothyroidism (disorder)
+84781002	Sporadic cretinism (disorder)
+88273006	Iatrogenic hypothyroidism (disorder)
+89261000	Isolated TSH deficiency
+92978002	Congenital absence of thyroid gland (disorder)
+111308000	Neurologic form of cretinism (disorder)
+111566002	Acquired hypothyroidism (disorder)
+190268003	Congenital hypothyroidism (disorder)
+190277005	Irradiation hypothyroidism (disorder)
+190279008	Iodine hypothyroidism (disorder)
+190282003	Hypothyroidism resulting from para-aminosalicylic acid (disorder)
+190283008	Hypothyroidism resulting from phenylbutazone (disorder)
+190284002	Hypothyroidism resulting from resorcinol (disorder)
+190309006	Thyroid atrophy (disorder)
+215677009	Congenital hypothyroidism with ectopic thyroid (disorder)
+217710005	Foetal iodine deficiency syndrome
+237515009	Congenital hypothyroidism without goiter (disorder)
+237517001	Congenital atrophy of thyroid (disorder)
+237518006	Hypothyroid goiter, acquired (disorder)
+237519003	Autoimmune hypothyroidism (disorder)
+237520009	Hypothyroidism due to Hashimoto thyroiditis
+237521008	Hypothyroidism due to thyroid stimulating hormone receptor blocking antibody
+237523006	Compensated hypothyroidism (disorder)
+237527007	Postablative hypothyroidism (disorder)
+237528002	Post-infectious hypothyroidism (disorder)
+237555006	Hypothyroidism due to iodide trapping defect (disorder)
+237556007	Hypothyroidism due to iodide organification defect (disorder)
+237558008	Acquired atrophy of thyroid (disorder)
+237565000	Congenital iodine deficiency syndrome - mixed type (disorder)
+237566004	Congenital iodine deficiency syndrome - neurological type (disorder)
+237567008	Subclinical iodine deficiency hypothyroidism (disorder)
+237695004	Idiopathic thyroid stimulating hormone deficiency
+239050000	ANOTHER syndrome
+276566003	Transient neonatal hypothyroidism (disorder)
+278503003	Congenital hypothyroidism with diffuse goiter (disorder)
+405629002	Infant hypothyroidism
+405630007	Infant hypothyroidism to 24 months of age
+428165003	Hypothyroidism in pregnancy, antepartum
+440092001	Endemic congenital iodine deficiency syndrome of myxoedematous type
+698577000	Infant hypothyroidism caused by maternal drug
+716338001	Kocher Debre Semelaigne syndrome
+717333002	Congenital hypothyroidism due to transplacental passage of maternal TSH-binding inhibitory antibody
+717334008	Idiopathic congenital hypothyroidism
+718194004	Hypothyroidism due to mutation in transcription factor of pituitary development
+718690009	Congenital hypothyroidism due to absence of thyroid gland
+719098007	Brain lung thyroid syndrome
+722051004	Obesity, colitis, hypothyroidism, cardiac hypertrophy, developmental delay syndrome
+722375007	Hypothyroidism and cleft palate syndrome
+722938007	Congenital central hypothyroidism
+722939004	Congenital hypothyroidism due to iodine deficiency
+722940002	Acquired central hypothyroidism
+724094005	Neonatal diabetes, congenital hypothyroidism, congenital glaucoma, hepatic fibrosis, polycystic kidney syndrome
+725462002	Congenital central hypothyroidism due to thyrotropin-releasing hormone receptor deficiency
+763890006	Short stature with delayed bone age due to thyroid hormone metabolism deficiency
+10809101000119109	Hypothyroidism in childbirth
+102871000119101	Hypothyroidism due to thyroiditis
+367631000119105	Hypothyroidism caused by drug
+135781000119105	Cerebral degeneration due to hypothyroidism (disorder)
+479003	Graves' disease with pretibial myxedema AND with thyrotoxic crisis (disorder)
+60268006	Toxic diffuse goiter with pretibial myxedema (disorder)
+78146007	Pretibial myxedema (disorder)
+402465005	Circumscribed nodular and tuberous pretibial myxedema
+402466006	Diffuse pretibial myxedema
+402467002	Elephantiasic pretibial myxedema
+193212008	Myasthenic syndrome due to hypothyroidism (disorder)
+230580009	Myxedema neuropathy (disorder)
+21263006	Hypothyroid coma
+192816007	Myxedema encephalopathy (disorder)
+111197009	Lichen myxedematosus (disorder)
+717257000	Atypical tuberous myxoedema of Jadassohn Dosseker
+205101000000104	Hypothyroidism review
+341861000000109	Hypothyroidism annual review
+10736002	Isolated thyroliberin deficiency (disorder)
+111569009	Hyperthermia-hyperphagia-hypothyroidism syndrome (disorder)
+361124009	Self-limiting autoimmune thyroiditis with transient hyperthyroidism and/or hypothyroidism (disorder)
+39244004	Pericarditis due to myxedema
+403315008	Hypertrichosis in hypothyroidism
+83728000	Polyglandular autoimmune syndrome, type 2 (disorder)
+300934004	Family history: Hypothyroidism
+87844004	Hypothyroid myopathy (disorder)
+59909002	Hard edema (morphologic abnormality)
+161443002	History of hypothyroidism (situation)
+190291004	Premature puberty due to hypothyroidism (disorder)
+237544006	Thyroid-binding globulin deficiency (disorder)
+192876003	Myxedema cerebellar degeneration (disorder)
+206457007	Neonatal jaundice with congenital hypothyroidism (disorder)
+736287007	Hypothyroidism clinical management plan (record artifact)

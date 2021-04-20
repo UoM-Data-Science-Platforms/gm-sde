@@ -1,38 +1,59 @@
-medcode	readcode	Description	CodingSystem
-273	C04..13	Hypothyroidism	readcode
-1472	C02..11	Hyperthyroidism	readcode
-1619	C04..11	Myxoedema	readcode
-3290	C04..00	Acquired hypothyroidism	readcode
-3941	C04z.00	Hypothyroidism NOS	readcode
-10097	C03..00	Congenital hypothyroidism	readcode
-11322	C041000	Irradiation hypothyroidism	readcode
-11892	C030.00	Pendred's syndrome	readcode
-14704	C04..12	Thyroid deficiency	readcode
-15743	C043000	Hypothyroidism resulting from para-aminosalicylic acid	readcode
-18282	C04z.13	"Hypothyroid goitre, acquired"	readcode
-20310	C04z.11	Pretibial myxoedema - hypothyroid	readcode
-23014	C04z.12	Thyroid insufficiency	readcode
-24748	C04y.00	Other acquired hypothyroidism	readcode
-25913	C043.00	Other iatrogenic hypothyroidism	readcode
-27533	C03z.12	Cretinism	readcode
-28852	C040.00	Postsurgical hypothyroidism	readcode
-31612	C03y000	Congenital hypothyroidism with diffuse goitre	readcode
-31971	C046.00	Autoimmune myxoedema	readcode
-34221	C042.00	Iodine hypothyroidism	readcode
-38976	C043z00	Iatrogenic hypothyroidism NOS	readcode
-46345	C045.00	Acquired atrophy of thyroid	readcode
-47449	C031.00	Goitrous cretin	readcode
-47521	C040.11	Post ablative hypothyroidism	readcode
-50275	C041.00	Other postablative hypothyroidism	readcode
-50860	C044.00	Postinfectious hypothyroidism	readcode
-51481	C03z.00	Congenital hypothyroidism NOS	readcode
-51706	C041z00	Postablative hypothyroidism NOS	readcode
-56722	C04z000	Premature puberty due to hypothyroidism	readcode
-59702	C04z100	Myxoedema coma	readcode
-67513	C03..11	Cretinism	readcode
-69290	C03y.00	Other specified congenital hypothyroidism	readcode
-93159	C03y100	Congenital hypothyroidism without goitre	readcode
-93323	C03z.11	Congenital thyroid insufficiency	readcode
-94915	C043200	Hypothyroidism resulting from resorcinol	readcode
-95830	C047.00	Subclinical hypothyroidism	readcode
-97090	C043100	Hypothyroidism resulting from phenylbutazone	readcode
+readcode	Description
+C0A..00	Congenital iodine deficiency syndrome
+C0A2.00	Congenital iodine-deficiency syndrome, mixed type
+C0A1.00	Congenital iodine-deficiency syndrome, myxoedematous type
+C0A0.00	Congenital iodine-deficiency syndrome, neurological type
+C0AX.00	Iodine-deficiency-related (endemic) goitre, unspecified
+C0A4.00	Iodine-deficiency-related multinodular (endemic) goitre
+C0A3.00	Iodine-deficiency-related diffuse (endemic) goitre
+C0A5.00	Subclinical iodine-deficiency hypothyroidism
+C04..11	Myxoedema
+C04..12	Thyroid deficiency
+C04..00	Acquired hypothyroidism
+C04..13	Hypothyroidism
+C04y.00	Other acquired hypothyroidism
+C047.00	Subclinical hypothyroidism
+C044.00	Postinfectious hypothyroidism
+C043.00	Other iatrogenic hypothyroidism
+C043z00	Iatrogenic hypothyroidism NOS
+C043200	Hypothyroidism resulting from resorcinol
+C043100	Hypothyroidism resulting from phenylbutazone
+C043000	Hypothyroidism resulting from para-aminosalicylic acid
+C042.00	Iodine hypothyroidism
+C041.00	Other postablative hypothyroidism
+C041z00	Postablative hypothyroidism NOS
+C041000	Irradiation hypothyroidism
+C040.11	Post ablative hypothyroidism
+C040.00	Postsurgical hypothyroidism
+C04z.11	Pretibial myxoedema - hypothyroid
+C04z.12	Thyroid insufficiency
+C04z.13	Hypothyroid goitre, acquired
+C04z.00	Hypothyroidism NOS
+C04z000	Premature puberty due to hypothyroidism
+C04z100	Myxoedema coma
+C046.00	Autoimmune myxoedema
+C045.00	Acquired atrophy of thyroid
+C03..11	Cretinism
+C03..00	Congenital hypothyroidism
+C03y.00	Other specified congenital hypothyroidism
+C03y100	Congenital hypothyroidism without goitre
+C03y000	Congenital hypothyroidism with diffuse goitre
+C03z.11	Congenital thyroid insufficiency
+C03z.12	Cretinism
+C03z.00	Congenital hypothyroidism NOS
+C031.00	Goitrous cretin
+C030.00	Pendred's syndrome
+Cyu1600	[X]Iodine-deficiency-related (endemic) goitre, unspecified
+Cyu1000	[X]Other iodine-deficiency related thyroid disorders and allied conditions
+Cyu1100	[X]Other sp cified hypothyroidism
+1432.00	H/O: hypothyroidism
+66BB.00	Hypothyroidism annual review
+8CR5.00	Hypothyroidism clinical management plan
+F381400	Myasthenic syndrome due to hypothyroidism
+Q433700	Neonatal jaundice with congenital hypothyroidism
+F11x500	Cerebral degeneration due to myxoedema
+F144100	Cerebellar ataxia due to myxoedema
+F395300	Myopathy due to myxoedema
+Fyu1500	[X]Systemic atrophy affecting the central nervous system in myxoedema
+C134300	TSH - thyroid-stimulating hormone deficiency
+C06y100	Thyroid atrophy

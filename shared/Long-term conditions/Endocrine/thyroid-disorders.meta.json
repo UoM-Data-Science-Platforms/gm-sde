@@ -1,0 +1,25 @@
+{
+  "includeTerms": [
+    "hypothyroidism",
+    "myxoedema",
+    "thyroid deficiency",
+    "thyroid insufficiency",
+    "hypothyroid goitre",
+    "thyroid atrophy",
+    "cretinism",
+    "goitrous cretin",
+    "pendred's syndrome",
+    "tsh deficiency",
+    "thyroid aplasia",
+    "thyroid hypoplasia",
+    "thyroid dystopia",
+    "congenital iodine deficiency syndrome",
+    "compensated euthyroidism",
+    "iodine deficiency related goitre"
+  ],
+  "excludeTerms": ["screen", "monitoring", "suspected", "fh", "not susp"],
+  "terminology": "CTV3",
+  "version": "20180401",
+  "createdOn": "2021-04-14T13:49:55.487Z",
+  "lastUpdated": "2021-04-14T13:49:55.487Z"
+}
