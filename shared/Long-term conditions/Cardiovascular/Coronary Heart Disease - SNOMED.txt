@@ -1,4 +1,4 @@
-readcode	Description
+snomed	Description
 G3...00	Ischaemic heart disease
 G3...12	Atherosclerotic heart disease
 G3...13	IHD - Ischaemic heart disease
