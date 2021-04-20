@@ -1,6 +1,15 @@
-medcode	readcode	Description	CodingSystem
-1517	G73z000	Intermittent claudication	readcode
-2760	G73zz00	Peripheral vascular disease NOS	readcode
-3530	G73z.00	Peripheral vascular disease NOS	readcode
-5943	G73..00	Other peripheral vascular disease	readcode
-18499	662U.00	Peripheral vascular disease monitoring	readcode
+readcode	Description	CodingSystem
+G73z000	Intermittent claudication	readcode
+G73zz00	Peripheral vascular disease NOS	readcode
+G73z.00	Peripheral vascular disease NOS	readcode
+G73..00	Other peripheral vascular disease	readcode
+662U.00	Peripheral vascular disease monitoring	readcode
+G73..12	Ischaemia of legs	readcode
+G73..13	Peripheral ischaemia	readcode
+G73..11	Peripheral ischaemic vascular disease	readcode
+G73z011	Claudication	readcode
+G73z012	Vascular claudication	readcode
+G73y.00	Other specified peripheral vascular disease	readcode
+G73yz00	Other specified peripheral vascular disease NOS	readcode
+G734.00	Peripheral arterial disease	readcode
+Gyu7400	[X]Other specified peripheral vascular diseases	readcode
