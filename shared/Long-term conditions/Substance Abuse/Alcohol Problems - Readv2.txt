@@ -1,0 +1,99 @@
+readcode	Description
+136S.00	Hazardous alcohol use
+136T.00	Harmful alcohol use
+1462.00	H/O: alcoholism
+63C7.00	Maternal alcohol abuse
+63CM.00	Paternal alcohol abuse
+66e..00	Alcohol disorder monitoring
+66e0.00	Alcohol abuse monitoring
+7P22100	Delivery of rehabilitation for alcohol addiction
+8BA8.00	Alcohol detoxification
+8G32.00	Aversion therapy - alcoholism
+8H35.00	Admitted to alcohol detoxification centre
+9NJz.00	In-house alcohol detoxification
+9NgzH00	Withdrawn from alcohol detoxification programme
+E01..00	Alcoholic psychoses
+E010.00	Alcohol withdrawal delirium
+E010.11	DTs - delirium tremens
+E010.12	Delirium tremens
+E011.00	Alcohol amnestic syndrome
+E011000	Korsakov's alcoholic psychosis
+E011100	Korsakov's alcoholic psychosis with peripheral neuritis
+E011200	Wernicke-Korsakov syndrome
+E011z00	Alcohol amnestic syndrome NOS
+E012.00	Other alcoholic dementia
+E012.11	Alcoholic dementia NOS
+E012000	Chronic alcoholic brain syndrome
+E013.00	Alcohol withdrawal hallucinosis
+E014.00	Pathological alcohol intoxication
+E014.11	Drunkenness - pathological
+E015.00	Alcoholic paranoia
+E01y.00	Other alcoholic psychosis
+E01y000	Alcohol withdrawal syndrome
+E01yz00	Other alcoholic psychosis NOS
+E01z.00	Alcoholic psychosis NOS
+E23..00	Alcohol dependence syndrome
+E23..11	Alcoholism
+E23..12	Alcohol problem drinking
+E230.00	Acute alcoholic intoxication in alcoholism
+E230.11	Alcohol dependence with acute alcoholic intoxication
+E230000	Acute alcoholic intoxication, unspecified, in alcoholism
+E230100	Continuous acute alcoholic intoxication in alcoholism
+E230200	Episodic acute alcoholic intoxication in alcoholism
+E230300	Acute alcoholic intoxication in remission, in alcoholism
+E230z00	Acute alcoholic intoxication in alcoholism NOS
+E231.00	Chronic alcoholism
+E231.11	Dipsomania
+E231000	Unspecified chronic alcoholism
+E231100	Continuous chronic alcoholism
+E231200	Episodic chronic alcoholism
+E231300	Chronic alcoholism in remission
+E231z00	Chronic alcoholism NOS
+E23z.00	Alcohol dependence syndrome NOS
+E250.00	Nondependent alcohol abuse
+E250000	Nondependent alcohol abuse, unspecified
+E250100	Nondependent alcohol abuse, continuous
+E250200	Nondependent alcohol abuse, episodic
+E250300	Nondependent alcohol abuse in remission
+E250z00	Nondependent alcohol abuse NOS
+Eu10.00	[X]Mental and behavioural disorders due to use of alcohol
+Eu10000	[X]Mental and behavioural disorders due to use of alcohol: acute intoxication
+Eu10011	[X]Acute alcoholic drunkenness
+Eu10100	[X]Mental and behavioural disorders due to use of alcohol: harmful use
+Eu10200	[X]Mental and behavioural disorders due to use of alcohol: dependence syndrome
+Eu10211	[X]Alcohol addiction
+Eu10212	[X]Chronic alcoholism
+Eu10213	[X]Dipsomania
+Eu10300	[X]Mental and behavioural disorders due to use of alcohol: withdrawal state
+Eu10400	[X]Mental and behavioural disorders due to use of alcohol: withdrawal state with delirium
+Eu10411	[X]Delirium tremens, alcohol induced
+Eu10500	[X]Mental and behavioural disorders due to use of alcohol: psychotic disorder
+Eu10511	[X]Alcoholic hallucinosis
+Eu10512	[X]Alcoholic jealousy
+Eu10513	[X]Alcoholic paranoia
+Eu10514	[X]Alcoholic psychosis NOS
+Eu10600	[X]Mental and behavioural disorders due to use of alcohol: amnesic syndrome
+Eu10611	[X]Korsakov's psychosis, alcohol induced
+Eu10700	[X]Mental and behavioural disorders due to use of alcohol: residual and late-onset psychotic disorder
+Eu10711	[X]Alcoholic dementia NOS
+Eu10712	[X]Chronic alcoholic brain syndrome
+Eu10800	[X]Alcohol withdrawal-induced seizure
+Eu10y00	[X]Mental and behavioural disorders due to use of alcohol: other mental and behavioural disorders
+Eu10z00	[X]Mental and behavioural disorders due to use of alcohol: unspecified mental and behavioural disorder
+F11x000	Cerebral degeneration due to alcoholism
+F11x011	Alcoholic encephalopathy
+F144000	Cerebellar ataxia due to alcoholism
+F375.00	Alcoholic polyneuropathy
+F394100	Alcoholic myopathy
+G555.00	Alcoholic cardiomyopathy
+J153.00	Alcoholic gastritis
+J610.00	Alcoholic fatty liver
+J611.00	Acute alcoholic hepatitis
+J612000	Alcoholic fibrosis and sclerosis of liver
+J613.00	Alcoholic liver damage unspecified
+J613000	Alcoholic hepatic failure
+J617.00	Alcoholic hepatitis
+J617000	Chronic alcoholic hepatitis
+ZV11300	[V]Personal history of alcoholism
+ZV11311	[V]Problems related to lifestyle alcohol use
+ZV6D600	[V]Alcohol abuse counselling and surveillance
