@@ -1,0 +1,128 @@
+readcode	Description
+13o8J00	Uses deafblind intervener
+13o8N00	Uses Deafblind Manual Alphabet
+1C12.00	Hearing difficulty
+1C13.00	Deafness
+1C13.11	Deafness symptom
+1C13100	Unilateral deafness
+1C13200	Partial deafness
+1C13300	Bilateral deafness
+1C16.00	Deteriorating hearing
+1C17.00	Hearing aid problem
+1C18.00	Difficulty hearing with background noise
+1C19.00	Difficulty hearing whispers
+2BL..11	O/E - deaf
+2BL2.00	O/E - slightly deaf
+2BL3.00	O/E - significantly deaf
+2BL4.00	O/E - very deaf
+2BL5.00	O/E - completely deaf
+2BM2.00	O/E -tune fork=conductive deaf
+2BM2.11	O/E - conductive deafness
+2BM3.00	O/E tune fork=perceptive deaf
+2BM3.11	O/E - perceptive deafness
+2BM4.00	O/E - High tone deafness
+2DG..00	Hearing aid worn
+2DH1.00	Does use hearing aid
+7311A00	Insertion of bone anchors for subcutaneous bone anchored hearing aid
+8D2..00	Auditory aid
+8D2..11	Auditory aid provision
+8D2..12	Hearing aid provision
+8D21.00	Provide head worn hearing aid
+8D22.00	Provide body worn hearing aid
+8D23.00	Ear fitting hearing aid
+8D24.00	Replace hearing aid battery
+8D26.00	Provision of replacement hearing aid
+8D2Z.00	Auditory aid NOS
+8E3..00	Deafness remedial therapy
+8E3Z.00	Deafness remedial therapy NOS
+8HT2.00	Referral to hearing aid clinic
+8M41.00	Hearing aid requested
+9N0b.00	Seen in hearing aid clinic
+9NfB.00	Requires deafblind communicator guide
+9Nfa.00	Requires deafblind manual alphabet interpreter
+9Nfb.00	Requires deafblind block alphabet interpreter
+9Nfc.00	Requires deafblind haptic communication interpreter
+A560200	Rubella deafness
+C373412	Amyloid nephropathy with deafness and urticaria
+E2F3200	Articulatory defect due to conductive hearing loss
+E2F3211	Articulatory impairment due to conductive hearing loss
+Eu44611	[X]Psychogenic deafness
+F580100	Presbyacusis
+F580111	Senile presbyacusis
+F581200	Noise-induced hearing loss
+F581211	Noise induced deafness
+F582.00	Unspecified sudden hearing loss
+F59..00	Hearing loss
+F59..11	Deafness
+F590.00	Conductive hearing loss
+F590.11	Conductive deafness
+F590000	Unspecified conductive hearing loss
+F590100	Conductive hearing loss due to disorder of external ear
+F590200	Conductive hearing loss due to disorder of tympanic membrane
+F590300	Conductive hearing loss due to disorder of middle ear
+F590400	Conductive hearing loss due to disorder of inner ear
+F590500	Conductive hearing loss, bilateral
+F590600	Conductive hearing loss, unilateral with unrestricted hearing on the contralateral side
+F590y00	Combined conductive hearing loss
+F590z00	Conductive hearing loss NOS
+F591.00	Sensorineural hearing loss
+F591.11	High frequency deafness
+F591.12	Low frequency deafness
+F591.13	Perceptive deafness
+F591.14	Perceptive hearing loss
+F591000	Unspecified perceptive hearing loss
+F591100	Sensory hearing loss
+F591200	Neural hearing loss
+F591211	Nerve deafness
+F591300	Central hearing loss
+F591400	Congenital sensorineural deafness
+F591500	Ototoxicity - deafness
+F591511	Drug ototoxicity - deafness
+F591600	Sensorineural hearing loss, bilateral
+F591700	Sensorineural hearing loss, unilateral with unrestricted hearing on the contralateral side
+F591800	Congenital prelingual deafness
+F591900	Bilateral profound sensorineural hearing loss
+F591A00	Bilateral congenital sensorineural hearing loss
+F591B00	Profound sensorineural hearing loss
+F591C00	Moderate sensorineural hearing loss
+F591D00	Mild sensorineural hearing loss
+F591E00	Severe sensorineural hearing loss
+F591y00	Combined perceptive hearing loss
+F591z00	Perceptive hearing loss NOS
+F592.00	Mixed conductive and sensorineural deafness
+F592.11	Mixed hearing loss
+F592000	Mixed conductive and sensorineural hearing loss, unilateral with unrestricted hearing on the contralateral side
+F592100	Mixed conductive and sensorineural hearing loss, bilateral
+F593.00	Deaf mutism, NEC
+F594.00	High frequency deafness
+F595.00	Low frequency deafness
+F596.00	Maternally inherited deafness
+F597.00	Mild acquired hearing loss
+F598.00	Moderate acquired hearing loss
+F599.00	Severe acquired hearing loss
+F59A.00	Profound acquired hearing loss
+F59A.11	Deafened
+F59y.00	Other specified forms of hearing loss
+F59z.00	Deafness NOS
+F59z.11	Chronic deafness
+F5A..00	Hearing impairment
+Fy1..00	Combined visual and hearing impairment
+Fy1..11	Dual sensory impairment - deafblind
+Fy1..12	Deafblind
+FyuU000	[X]Deaf mutism, not elsewhere classified
+FyuU100	[X]Other specified hearing loss
+K08y800	Renal tubular acidosis with progressive nerve deafness
+P40..00	Ear anomalies with hearing impairment
+P400.00	Ear anomalies with hearing impaired, unspecified
+P402.00	Other external ear anomaly with hearing impairment
+P402z00	Other external ear anomaly with hearing impairment NOS
+P40z.00	Other and unspecified ear anomaly with hearing impaired
+P40z.11	Deafness due to congenital anomaly NEC
+P40zz00	Ear anomaly with hearing impaired NOS
+PKyP.00	Diabetes insipidus, diabetes mellitus, optic atrophy and deafness
+PKyz800	DOOR - Deafness, triphalangeal thumbs, onychodystrophy
+Pyu1B00	[X]Malformation of ear with impairment of hearing, unspecified
+SJ15.12	Deafness - traumatic - NOS
+ZV45G00	[V]Presence of external hearing-aid
+ZV45N00	[V]Bone anchored hearing aid in situ
+ZV53200	[V]Fitting or adjustment of hearing aid

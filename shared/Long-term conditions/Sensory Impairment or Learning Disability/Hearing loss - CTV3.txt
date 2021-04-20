@@ -1,0 +1,182 @@
+CTV3ID	Description
+1C12.	Hearing difficulty
+1C13.	Deafness
+1C131	Unilateral deafness
+1C132	Partial deafness
+1C133	Bilateral deafness
+2BL2.	O/E - slightly deaf
+2BL3.	O/E - significantly deaf
+2BL4.	O/E - very deaf
+2BL5.	O/E - completely deaf
+2BM2.	O/E - conductive deafness
+2BM3.	O/E tune fork=perceptive deaf
+2BM4.	O/E - High tone deafness
+8D2..	Aid - hearing-provision
+8D21.	Provide head worn hearing aid
+8D22.	Provide body worn hearing aid
+8D23.	Ear fitting hearing aid
+8D24.	Replace hearing aid battery
+8D2Z.	Auditory aid NOS
+8E3..	Deafness remedial therapy
+8E3Z.	Deafness remedial therapy NOS
+8HT2.	Refer to hearing aid clinic
+A5602	Rubella deafness
+E2012	Dissociative deafness
+F5801	Presbyacusis
+F5812	NIHL - Noise-induced hearing loss
+F582.	Unspecified sudden hearing loss
+F59..	Deafness
+F590.	Conductive deafness
+F5900	Unspecified conductive hearing loss
+F5901	Conductive hearing loss due to disorder of external ear
+F5902	Conductive hearing loss due to disorder of tympanic membrane
+F5903	Conductive hearing loss due to disorder of middle ear
+F5904	Conductive hearing loss due to disorder of inner ear
+F5905	Conductive hearing loss, bilateral
+F5906	Conductive hearing loss, unilateral with unrestricted hearing on the contralateral side
+F590y	Combined conductive hearing loss
+F590z	Conductive hearing loss NOS
+F591.	Perceptive deafness
+F5910	Unspecified perceptive hearing loss
+F5911	Inner ear hearing loss
+F5912	Neural hearing loss
+F5914	Congenital sensorineural deafness
+F5915	Drug ototoxicity - deafness
+F5916	Sensorineural hearing loss, bilateral
+F5917	Sensorineural hearing loss, unilateral with unrestricted hearing on the contralateral side
+F591y	Combined perceptive hearing loss
+F591z	Perceptive hearing loss NOS
+F592.	Mixed conductive and sensorineural deafness
+F5920	Mixed conductive and sensorineural hearing loss, unilateral with unrestricted hearing on the contralateral side
+F5921	Mixed conductive and sensorineural hearing loss, bilateral
+F593.	Deaf mutism, NEC
+F59y.	Other specified forms of hearing loss
+F59z.	Chronic deafness
+FyuU0	[X]Deaf mutism, not elsewhere classified
+FyuU1	[X]Other specified hearing loss
+P40..	Ear anomalies with hearing impairment
+P400.	Ear anomalies with hearing impaired, unspecified
+P402.	Other external ear anomaly with hearing impairment
+P402z	Other external ear anomaly with hearing impairment NOS
+P40z.	Deafness due to congenital anomaly NEC
+P40zz	Ear anomaly with hearing impaired NOS
+Pyu1B	[X]Malformation of ear with impairment of hearing, unspecified
+Ua0R7	Deaf telephone user
+Ua0R8	Deaf-blind telephone user
+Ua1rW	Turning off hearing aid
+Ua1rX	Listening for feedback whistle of hearing aid
+Ua1rZ	Putting on hearing aid
+Ua1ra	Switching on hearing aid
+Ua1rb	Fit hearing aid
+Ua1rd	Checking hearing aid
+Ua1re	Changing hearing aid battery
+Ua1rf	Hearing aid procedure
+Ub1SV	Voice associated with hearing loss
+X00h2	BAHA - Insertion of anchors for subcutaneous bone anchored hearing aid
+X00h3	Insertion of bone anchors for percutaneous bone anchored hearing aid
+X00kO	Chronic deafness
+X00kP	High frequency deafness
+X00kQ	Low frequency deafness
+X00kR	Dominant sensorineural hearing loss
+X00kS	X-linked sensorineural hearing loss
+X00kT	Recessive sensorineural hearing loss
+X00kU	Perinatal sensorineural hearing loss
+X00kV	Postnatal acquired sensorineural hearing loss
+X00kW	Functional hearing loss
+X00kX	Hearing loss associated with syndrome
+X00ke	Deafness-earpits syndrome
+X30Lf	Prune belly syndrome with pulmonic stenosis, mental retardation and deafness
+X30Li	Renal tubular acidosis with progressive nerve deafness
+X50HE	Alopecia, onychodysplasia, hypohidrosis, deafness ectodermal dysplasia
+X50Hr	Nail dystrophy, deafness syndrome
+X50I0	DOOR - Deafness, triphalangeal thumbs, onychodystrophy
+X50IK	Keratitis ichthyosis and deafness syndrome
+X50IO	Keratosis pilaris with ichthyosis and deafness
+X50Ir	Knuckle pads, leuconychia and deafness
+X74UF	Provision for visual and hearing impairment
+X74UG	Provision of guide help for visual and hearing impairment
+X74UH	Provision of communicator for visual and hearing impairment
+X75Wh	Pattern of hearing loss
+X77g5	REM - Real ear measurement of hearing aid gain
+X77tB	Deafness due to congenital anomaly NEC
+X78CP	Hystrix ichthyosis with deafness
+X79ms	Hearing aid
+XE17N	Perceptive deafness
+XE17O	Ototoxicity - deafness
+XE17P	Deafness NOS
+XE1AD	Loss of hearing
+XE1AH	Senile presbyacusis
+XE1AL	Perceptive deafness [diagnos]
+XE1AN	Deaf mutism NOS
+XE1K4	Other and unspecified ear anomaly with hearing impaired
+XE1jw	O/E - conductive deaf
+XE1jy	O/E - deaf - perceptive
+XM0Cb	Deafness symptom
+XM0F9	Auditory aid
+XM19O	[EDTA] Hereditary nephritis with nerve deafness (Alport's Syndrome) associated with renal failure
+XM1QG	Drug ototoxicity - deafness
+XM1X8	O/E - deaf
+Xa0LN	Hearing aid worn
+Xa0PN	Postoperative profound sensorineural hearing loss
+Xa0PZ	Difficulty hearing in noise
+Xa0U4	Simulated hearing loss
+Xa1pl	Hearing aid provision
+Xa2yU	Ability to use hearing aid
+Xa2yV	Able to use hearing aid
+Xa2yW	Unable to use hearing aid
+Xa2yX	Uses hearing aid
+Xa2yY	Does not use hearing aid
+Xa2yZ	Difficulty using hearing aid
+Xa4hp	Attention to hearing aid
+Xa4hs	Fit ear mould for existing hearing aid
+Xa7SJ	Hearing for whisper impaired
+Xa7SL	Hearing for conversational voice impaired
+Xa7SN	Hearing for loud voice impaired
+Xa7SP	Hearing for voice impaired
+Xa8Ek	Adjust hearing aid settings
+Xa8Ks	Observation of hearing aid
+XaAea	Referral to hearing aid service
+XaAeb	Referral to adult hearing aid service
+XaAec	Referral to paediatric hearing aid service
+XaAf8	Referral to registered hearing aid dispenser
+XaAv5	Bone anchored hearing aid
+XaBIi	Removal of bone anchored hearing aid
+XaBqy	Hearing aid dispenser
+XaC6A	Hearing aid service
+XaC6B	Adult hearing aid service
+XaC6C	Paediatric hearing aid service
+XaE8p	Hearing aid battery
+XaEEV	Seen in hearing aid clinic
+XaEHa	Issue of local authority deaf registration
+XaFo1	Deteriorating hearing
+XaIRo	Hearing aid problem
+XaIkt	Hearing aid requested
+XaIxM	Difficulty hearing with background noise
+XaIxN	Difficulty hearing whispers
+XaNDb	Registered deaf
+XaNFV	Registered hearing impaired
+XaOPs	Maternally inherited deafness
+XaPEU	[V]Bone anchored hearing aid in situ
+XaRE1	Congenital prelingual deafness
+XaRE2	Mild acquired hearing loss
+XaRE3	Moderate acquired hearing loss
+XaRE4	Severe acquired hearing loss
+XaRE5	Profound acquired hearing loss
+XaXeh	H/O: impaired hearing
+XaYB3	Requires deafblind communicator guide
+XaYPJ	Dual sensory impairment - deafblind
+XaZp4	Provision of replacement hearing aid
+XaZuA	Moderate sensorineural hearing loss
+XaZuB	Severe sensorineural hearing loss
+XaZuE	Profound sensorineural hearing loss
+XaZuF	Mild sensorineural hearing loss
+XaaLf	Bilateral profound sensorineural hearing loss
+XaaLg	Bilateral congenital sensorineural hearing loss
+Xabxq	Articulatory impairment due to conductive hearing loss
+XacJE	Uses deafblind intervener
+XacJF	Requires deafblind manual alphabet interpreter
+XacJG	Requires deafblind block alphabet interpreter
+XacJI	Requires deafblind haptic communication interpreter
+Xad2A	Uses Deafblind Manual Alphabet
+ZV45G	[V]Presence of external hearing-aid
+ZV532	[V]Fitting or adjustment of hearing aid
