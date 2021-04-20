@@ -158,3 +158,16 @@
 
 2021-03-25
 - Work on data extraction for RQ025
+
+2021-03-30
+-	Starting data extraction for RQ017 (Humphreys)
+-	Getting extra data for RQ001 (Grant) (BMI/BP/HbA1c/Cholesterol/Smoking)
+
+2021-03-31
+-	Improving the automated data extract process
+
+2021-04-14
+- Perform data extract for RQ025 (Watkinson)
+
+2021-04-16
+- Copy data to file share for RQ025 (Watkinson)
