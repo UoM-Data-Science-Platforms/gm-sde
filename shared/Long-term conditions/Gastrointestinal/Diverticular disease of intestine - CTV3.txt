@@ -1,0 +1,62 @@
+CTV3ID	Description
+J5110	Diverticulitis of the duodenum
+J5100	Diverticulosis of the duodenum
+XE2sg	Diverticulitis of gastrointestinal tract
+XE2sf	Diverticular disorder of intestine
+Xa1bJ	Diverticulitis of small intestine
+Xa1bK	Diverticulitis of large intestine
+XM0v6	Duodenal diverticulum
+J510y	Diverticulosis unspecified
+J510z	Diverticulosis NOS
+X304P	Diverticular disease of large intestine
+J51z.	Diverticula of the intestine NOS
+X303Y	Diverticulum of small intestine
+X783p	Congenital diverticula of the intestine
+J5111	Diverticulitis of the jejunum
+J5112	Diverticulitis of the ileum
+J5113	Diverticulitis of the small intestine unspecified
+J5114	Diverticulitis of the small intestine NOS
+J5115	Diverticulitis of colon
+J5116	Diverticulitis of the large intestine unspecified
+J5117	Diverticulitis of the large intestine NOS
+XM0B9	Complicated diverticular disease
+J512.	Perforated diverticulum
+J5120	Perforated diverticulum of duodenum
+XE2ep	Duodenal diverticulum (& congenital)
+J5106	Diverticulosis of the large intestine unspecified
+J5107	Diverticulosis of the large intestine NOS
+J5108	Diverticular disease of both small and large intestine without perforation or abscess
+J5128	Diverticular disease of both small and large intestine with perforation and abscess
+X304T	Diverticular disease of right side of colon
+XM0B8	Uncomplicated diverticular disease
+Xa2ku	Diverticular disease of left side of colon
+X304Q	Solitary diverticulum of left side of colon
+Xa1d1	Solitary diverticulum of caecum
+J5101	Diverticulosis of the jejunum
+J5102	Diverticulosis of the ileum
+J5103	Diverticulosis of the small intestine unspecified
+J5104	Diverticulosis of the small intestine NOS
+Xa6p2	Diverticulum of jejunum
+X783q	Congenital diverticulosis
+PB50.	Congenital diverticulum of colon
+J5109	Bleeding diverticulosis
+X304R	Diverticular abscess
+Xa1bL	Perforated diverticulum of large intestine
+J512y	Perforated diverticulum unspecified
+J512z	Perforated diverticulum of intestine NOS
+Xa1bM	Perforated diverticulum of small intestine
+J5105	Diverticulosis of the colon
+J5121	Perforated diverticulum of jejunum
+J5125	Perforated diverticulum of colon
+J5126	Perforated diverticulum of large intestine unspecified
+J5127	Perforated diverticulum of large intestine NOS
+J5122	Perforated diverticulum of ileum
+J5123	Perforated diverticulum of small intestine unspecified
+J5124	Perforated diverticulum of small intestine NOS
+J511.	Diverticulitis (& [of intestine])
+XaB8Z	Diverticulitis
+J51..	Diverticular disease(& [of intestine])
+J511y	Diverticulitis unspecified
+J511z	Diverticulitis NOS
+Xa8H6	Excision of duodenal diverticulum
+77180	Excision of diverticulum of colon
