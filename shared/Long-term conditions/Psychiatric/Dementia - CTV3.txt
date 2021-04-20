@@ -1,19 +1,120 @@
-CTV3ID	CTV3PreferredTermDesc	CTV3Source
-E004.	Arteriosclerotic dementia (including [multi infarct dement])	CTV3_Children
-E0040	Uncomplicated arteriosclerotic dementia	CTV3_Children
-E0041	Arteriosclerotic dementia with delirium	CTV3_Children
-E0042	Arteriosclerotic dementia with paranoia	CTV3_Children
-E0043	Arteriosclerotic dementia with depression	CTV3_Children
-E004z	Arteriosclerotic dementia NOS	CTV3_Children
-Eu01.	Vascular dementia	CTV3_Children
-Eu011	[X]Dementia: [multi-infarct] or [predominantly cortical]	CTV3_Children
-Eu01y	[X]Other vascular dementia	CTV3_Children
-Eu01z	"[X]Vascular dementia, unspecified"	CTV3_Children
-Eu021	[X]Dementia in Creutzfeldt-Jakob disease	CTV3Map_Code_And_Term
-X002m	Amyotrophic lateral sclerosis with dementia	CTV3_Children
-X003R	Vascular dementia of acute onset	CTV3_Children
-X003T	Subcortical vascular dementia	CTV3_Children
-X003V	Mixed cortical and subcortical vascular dementia	CTV3_Children
-XE1Xs	Vascular dementia	CTV3Map_Code_Only
-XaE74	Senile dementia of the Lewy body type	CTV3_Children
-XaKyY	[X]Lewy body dementia	CTV3Map_Code_And_Term
+CTV3ID	CTV3PreferredTermDesc
+13Y7.	Alzheimer's disease society member
+1461.	H/O: dementia
+E00..	Senile dementia
+E000.	Uncomplicated senile dementia
+E001.	Presenile dementia
+E0010	Uncomplicated presenile dementia
+E0011	Presenile dementia with delirium
+E0012	Presenile dementia with paranoia
+E0013	Presenile dementia with depression
+E001z	Presenile dementia NOS
+E002.	Senile dementia with depressive or paranoid features
+E0020	Senile dementia with paranoia
+E0021	Senile dementia with depression
+E002z	Senile dementia with depressive or paranoid features NOS
+E003.	Senile dementia with delirium
+E004.	Multi infarct dementia
+E0040	Uncomplicated arteriosclerotic dementia
+E0041	Arteriosclerotic dementia with delirium
+E0042	Arteriosclerotic dementia with paranoia
+E0043	Arteriosclerotic dementia with depression
+E004z	Arteriosclerotic dementia NOS
+E012.	Alcoholic dementia NOS
+E02y1	Drug-induced dementia
+E041.	Dementia in conditions EC
+Eu00.	Dementia in Alzheimer's disease
+Eu002	[X]Dementia in Alzheimer's dis, atypical or mixed type
+Eu00z	[X]Dementia in Alzheimer's disease, unspecified
+Eu011	[X]Multi-infarct dementia
+Eu01y	[X]Other vascular dementia
+Eu01z	[X]Vascular dementia, unspecified
+Eu02.	[X]Dementia in other diseases classified elsewhere
+Eu020	[X]Dementia in Pick's disease
+Eu021	[X]Dementia in Creutzfeldt-Jakob disease
+Eu022	[X]Dementia in Huntington's disease
+Eu023	[X]Dementia in Parkinson's disease
+Eu02y	[X]Dementia in other specified diseases classif elsewhere
+Eu040	[X]Delirium not superimposed on dementia, so described
+Eu041	[X]Delirium superimposed on dementia
+Eu843	[X] Dementia infantalis
+F110.	AD - Alzheimer's disease
+F111.	Pick's disease
+Fyu30	[X]Other Alzheimer's disease
+Ub1T6	Language disorder of dementia
+X002m	Amyotrophic lateral sclerosis with dementia
+X002w	Dementia
+X002x	Dementia in Alzheimer's disease - type 2
+X002y	Familial Alzheimer's disease of early onset
+X002z	Non-familial Alzheimer's disease of early onset
+X0030	Dementia in Alzheimer's disease - type 1
+X0031	Familial Alzheimer's disease of late onset
+X0032	Non-familial Alzheimer's disease of late onset
+X0033	Focal Alzheimer's disease
+X0034	Frontotemporal dementia
+X0035	Pick's disease with Pick bodies
+X0036	Pick's disease with Pick cells and no Pick bodies
+X003A	Dementia of the Lewy body type
+X003F	Non-Alzheimer's progressive dysphasia
+X003G	Progressive aphasia in Alzheimer's disease
+X003I	Post-traumatic dementia
+X003P	Acquired immune deficiency syndrome-related dementia
+X003R	Vascular dementia of acute onset
+X003T	Subcortical vascular dementia
+X003V	Mixed cortical and subcortical vascular dementia
+X003W	Semantic dementia
+X003X	Patchy dementia
+X003Y	Epileptic dementia
+X003l	Parkinson's disease - dementia complex on Guam
+X005A	Dialysis dementia
+X00R2	Senile dementia
+X00Rk	Alcoholic dementia NOS
+XE1Xr	Senile and presenile organic psychotic conditions
+XE1Xs	Arteriosclerotic dementia
+XE1Xu	Other alcoholic dementia
+XE1Z6	[X]Unspecified dementia
+XM0aR	Arizona battery for communication disorders of dementia
+XM0b7	BDRS - Blessed dementia rating scale
+XM0bq	Dementia rating scale
+Xa0lH	Multi-infarct dementia
+Xa0sE	DFT - Dementia frontal lobe type
+Xa1GB	Cerebral degeneration presenting primarily with dementia
+Xa25J	Alcoholic dementia
+Xa3ez	Other senile/presenile dementia
+XaE74	Senile dementia of the Lewy body type
+XaIKB	Alzheimer's disease with early onset
+XaIKC	Alzheimer's disease with late onset
+XaJPy	Anti-dementia drug therapy
+XaKyY	[X]Lewy body dementia
+XaMFy	Dementia monitoring administration
+XaMG0	Dementia monitoring first letter
+XaMGF	Dementia annual review
+XaMGG	Dementia monitoring second letter
+XaMGI	Dementia monitoring third letter
+XaMGJ	Dementia monitoring verbal invite
+XaMGK	Dementia monitoring telephone invite
+XaMJC	Dementia monitoring
+XaYFR	Referral to dementia care advisor
+XaZWz	Participates in Butterfly Scheme for dementia
+XaZX0	Butterfly Scheme for dementia declined
+XaZqJ	Referral to dementia service
+XaaBZ	Dementia care plan
+XaaiW	Antipsychotic drug therapy for dementia
+XabEi	Dementia advance care plan declined
+XabEk	Dementia advance care plan agreed
+XabEl	Review of dementia advance care plan
+Xabd2	Referral to dementia support organisation declined
+Xabd3	Referral to dementia support organisation
+XabtQ	Dementia medication review
+XabvQ	Referral to Alzheimer's Society
+XacIx	Dementia care plan agreed
+XacIy	Dementia care plan reviewed
+XacIz	Dementia care plan declined
+XacJ0	Dementia care plan review declined
+XacLx	Dementia advance care plan
+XacM2	Dementia advance care plan review declined
+Xaefu	Shared care prescribing of drugs for dementia
+Xaefv	Shared care prescribing of drugs for dementia declined
+XagMZ	Signposting to dementia support service
+XagMv	Signposting to Alzheimer's Society
+Xaghb	Predominantly cortical dementia
