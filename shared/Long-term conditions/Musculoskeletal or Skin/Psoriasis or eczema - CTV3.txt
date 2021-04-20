@@ -1,0 +1,238 @@
+CTV3ID	Description
+14F1.	H/O: eczema
+14F2.	H/O: psoriasis
+A540.	Eczema herpeticum
+G831.	Varicose eczema
+G832.	Varicose veins of the leg with ulcer and eczema
+M07y0	Acute palmoplantar pustular psoriasis
+M112.	Infantile eczema
+M113.	Flexural eczema
+M114.	Allergic (intrinsic) eczema
+M12..	Contact dermatitis
+M120.	Contact dermatitis due to detergents
+M121.	Oil contact dermatitis
+M122.	Contact dermatitis due to solvents
+M1220	Contact dermatitis due to chlorocompound
+M1221	Contact dermatitis due to cyclohexane
+M1222	Contact dermatitis due to ester
+M1223	Contact dermatitis due to glycol
+M1224	Contact dermatitis due to hydrocarbon
+M1225	Contact dermatitis due to ketone
+M122z	Contact dermatitis due to solvent NOS
+M123.	Drug-induced contact dermatitis
+M1230	Contact dermatitis due to arnica
+M1231	Contact dermatitis due to fungicides
+M1232	Contact dermatitis due to iodine
+M1233	Contact dermatitis due to keratolytics
+M1234	Contact dermatitis due to mercurials
+M1235	Contact dermatitis due to neomycin
+M1236	Contact dermatitis due to pediculocides
+M1237	Contact dermatitis due to phenols
+M1238	Contact dermatitis due to scabicides
+M123z	Contact dermatitis due to medicament NOS
+M124.	Contact dermatitis due to other chemical products
+M1240	Contact dermatitis due to acids
+M1241	Elastoplast contact dermatitis
+M1242	Contact dermatitis due to alkalis
+M1243	Contact dermatitis due to caustics
+M1244	Contact dermatitis due to dichromate
+M1245	Contact dermatitis due to insecticide
+M1246	Contact dermatitis due to nylon
+M1247	Contact dermatitis due to plastic
+M1248	Contact dermatitis due to rubber
+M124z	Contact dermatitis: other chemicals NOS
+M125.	Contact dermatitis due to food in contact with skin
+M1250	Contact dermatitis due to cereals
+M1251	Contact dermatitis due to fish
+M1252	Contact dermatitis due to flour
+M1253	Contact dermatitis due to fruit
+M1254	Contact dermatitis due to meat
+M1255	Contact dermatitis due to milk
+M125z	Contact dermatitis due to food NOS
+M126.	Contact dermatitis due to plants
+M1260	Contact dermatitis due to lacquer tree
+M1261	Contact dermatitis due to poison-ivy
+M1262	Contact dermatitis due to poison-oak
+M1263	Contact dermatitis due to poison-sumac
+M1264	Contact dermatitis due to poison-vine
+M1265	Contact dermatitis due to primrose
+M1266	Contact dermatitis due to ragweed
+M126z	Contact dermatitis due to plants NOS
+M127.	Contact dermatitis due to solar radiation
+M1270	Unspecified contact dermatitis due to solar radiation
+M127z	Contact dermatitis due to solar radn NOS
+M1280	Allergic contact dermatitis due to adhesives
+M1281	Allergic contact dermatitis due to cosmetics
+M1282	Allergic contact dermatitis due to drugs in contact with the skin
+M1283	Allergic contact dermatitis due to dyes
+M1284	Allergic contact dermatitis due to other chemical products
+M1285	Allergic contact dermatitis due to food in contact with the skin
+M1286	Allergic contact dermatitis due to plants, except food
+M1290	Irritant contact dermatitis due to cosmetics
+M1291	Irritant contact dermatitis due to drugs in contact with the skin
+M1292	Irritant contact dermatitis due to other chemical products
+M1293	Irritant contact dermatitis due to food in contact with the skin
+M1294	Irritant contact dermatitis due to plants, except food
+M12y.	Contact dermatitis due to other specified agents
+M12y0	Contact dermatitis due to cosmetics
+M12y1	Contact dermatitis due to cold weather
+M12y2	Contact dermatitis due to dyes
+M12y3	Contact dermatitis due to furs
+M12y4	Contact dermatitis due to hot weather
+M12y5	Contact dermatitis due to infrared rays
+M12y6	Contact dermatitis due to jewellery
+M12y7	Contact dermatitis due to light (excluding sunlight)
+M12y8	Contact dermatitis due to metals
+M12y9	Contact dermatitis due to preservatives
+M12yA	Contact dermatitis due to radiation NOS
+M12yB	Contact dermatitis due to ultraviolet rays (excluding sunlight)
+M12yC	Contact dermatitis due to X-rays
+M12yD	Contact dermatitis due to casting materials
+M12yz	Contact dermatitis: specified agent NOS
+M12z.	Contact dermatitis NOS
+M12z1	Eczema NOS
+M16..	Psoriasis and similar disorders
+M161.	Other psoriasis
+M1610	Psoriasis unspecified
+M1611	Psoriasis annularis
+M1612	Psoriasis circinata
+M1613	Psoriasis diffusa
+M1614	Plaque psoriasis
+M1615	Psoriasis geographica
+M1616	Guttate psoriasis
+M1617	Psoriasis gyrata
+M1618	Psoriasis inveterata
+M1619	Rupioid psoriasis
+M161A	Psoriasis palmaris
+M161B	Psoriasis plantaris
+M161C	Psoriasis punctata
+M161D	[Pustular psoriasis] or [impetigo herpetiformis]
+M161E	Psoriasis universalis
+M161F	Psoriasis vulgaris & (Chronic large plaque psoriasis)
+M161z	Psoriasis NOS
+M16y.	Other psoriasis and similar disorders
+M16z.	Psoriasis and similar disorders NOS
+Myu2.	[X]Dermatitis and eczema
+Myu21	[X]Allergic contact dermatitis due to other chemical products
+Myu23	[X]Allergic contact dermatitis due to other agents
+Myu24	[X]Irritant contact dermatitis due to other chemical products
+Myu25	[X]Irritant contact dermatitis due to other agents
+Myu26	[X]Unspecified contact dermatitis due to other chemical products
+Myu27	[X]Unspecified contact dermatitis due to other agents
+Myu30	[X]Other psoriasis
+Ua1AR	Occupational eczema
+X00YO	Blepharitis in seborrhoeic eczema
+X00iT	Eczema of external ear
+X30Cp	Peristomal eczema
+X40Fx	Eczema of nipple
+X5005	Eczema vaccinatum
+X503l	Friction eczema
+X503m	Friction palmar eczema
+X504s	Phototoxic eczema
+X504v	Photoallergic eczema
+X505M	Endogenous eczema
+X505Q	Erythrodermic atopic eczema
+X505R	Follicular atopic eczema
+X505S	Pruriginous atopic eczema
+X505T	Light-sensitive atopic eczema
+X505U	Photoaggravated atopic eczema
+X505V	Constitutional eczema of hands and feet
+X505X	Psoriasiform palmoplantar eczema
+X505Y	Discoid eczema of hands and feet
+X505Z	Constitutional eczema of hands
+X505a	Apron pattern of vesicular eczema of hands
+X505b	Hyperkeratotic fissured hand eczema
+X505c	Psoriasiform palmar eczema
+X505d	Constitutional discoid hand eczema
+X505e	Constitutional fingertip eczema
+X505f	Constitutional eczema of feet
+X505i	Hyperkeratotic eczema of soles
+X505k	Discoid hand eczema
+X505l	Psoriasiform eczema
+X505r	Grease contact dermatitis
+X505s	Oil contact dermatitis
+X505t	Elastoplast contact dermatitis
+X505u	Egg contact dermatitis
+X505v	Lanolin contact dermatitis
+X505w	Perfume contact dermatitis
+X505x	ACD - Allergic contact dermatitis
+X505z	Implant allergic nickel contact dermatitis
+X5060	Ingested allergen contact dermatitis
+X5061	Allergic photocontact eczema
+X5062	Occupational allergic contact dermatitis
+X5063	ICD - Irritant contact dermatitis
+X5064	Acute irritant contact dermatitis
+X5065	Subacute irritant contact dermatitis
+X5066	Chronic irritant contact dermatitis
+X5068	Saliva-induced contact dermatitis
+X5069	Faeces-induced contact dermatitis
+X506J	Disseminated secondary eczema
+X506K	Stasis eczema
+X506O	Papular eczema
+X506Q	Eczema craquele
+X506T	Erythrodermic eczema
+X506U	Site-specific eczema
+X506Y	Psoriasis
+X506Z	Flexural psoriasis
+X506a	Unstable psoriasis
+X506b	Erythrodermic psoriasis
+X506c	Psoriasis-eczema overlap condition
+X506d	Eczematised psoriasis
+X506e	Psoriasis of nail
+X506i	Scalp psoriasis
+X506j	Napkin psoriasis
+X506k	Koebner psoriasis
+X506l	Localised pustular psoriasis
+X506m	Pustular psoriasis of palms and soles
+X506o	Lapiere type of psoriasis
+X506p	Generalised pustular psoriasis
+X506q	Generalised pustular psoriasis of von Zumbusch
+X506r	Generalised pustular psoriasis of pregnancy
+X506s	Pustular psoriasis in children
+X506t	Juvenile pustular psoriasis
+X506u	Infantile pustular psoriasis
+X506v	Circinate and annular pustular psoriasis
+X5082	Lichenoid allergic contact dermatitis
+X50Gj	Drug-induced eczema
+X50Gk	Seborrhoeic eczema-like eruption
+X701v	Juvenile arthritis in psoriasis
+X701w	Juvenile psoriatic arthritis without psoriasis
+XE16i	Contact or allergic eyelid dermatitis
+XE1Ap	Contact dermatitis and other eczemas
+XE1Aq	Contact dermatitis due to oils and greases
+XE1Ar	Contact dermatitis due to adhesive plaster
+XE1As	Contact dermatitis due to food NOS
+XE1At	Contact dermatitis due to cosmetics
+XE1Au	Contact dermatitis due to metals
+XE1Av	Eczema NOS
+XE1C4	Seborrhoeic dermatitis/eczema NOS
+XE1C6	Atopic eczema/dermatitis NOS
+XE1C8	Occupational eczema
+XE1CA	Contact dermatitis: chemicals
+XE1CC	Contact dermatitis: sun
+XE1CE	Contact dermatitis: metals
+XE1CG	Nummular eczema
+XE1CQ	Psoriasis NOS
+Xa1dl	Unclassifiable eczema
+Xa3gI	Contact dermatitis - chemicals
+Xa3gJ	Contact dermatitis - foods/plants
+Xa7lZ	Eczema of face
+Xa7lb	Eczema of wrist
+Xa9CV	Contact dermatitis
+XaBml	Eczema of leg
+XaBmm	Eczema of foot
+XaBsL	Chronic lichenified atopic eczema
+XaEJY	Varicose veins of leg in long saphenous vein distribution with eczema
+XaEJZ	Varicose veins of leg in short saphenous vein distribution with eczema
+XaINK	Dry eczema
+XaINM	Exacerbation of eczema
+XaNXa	Chronic large plaque psoriasis
+XaNXt	Psoriasis vulgaris
+XaQfn	Referral to eczema clinic
+XaY4a	Pustular eczema
+XaY4o	Infective eczema
+XaYOx	Pustular psoriasis
+XaZZi	Education for psoriasis care
+Xaa5w	PASI - psoriasis area and severity index
+Xaepv	POEM - Patient-Oriented Eczema Measure
+m5...	Preparations for psoriasis+eczema

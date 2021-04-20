@@ -1,0 +1,17 @@
+{
+    "includeTerms": [
+      "psoriasis",
+      "eczema",
+      "contact dermatitis"
+    ],
+    "excludeTerms": [
+      "salicylic acid",
+      "psoriasis and eczema preparations",
+      "fh",
+      "family history"
+    ],
+    "terminology": "Readv2",
+    "version": "v20160401",
+    "createdOn": "2021-04-20T13:05:08.702Z",
+    "lastUpdated": "2021-04-20T13:05:08.702Z"
+  }
