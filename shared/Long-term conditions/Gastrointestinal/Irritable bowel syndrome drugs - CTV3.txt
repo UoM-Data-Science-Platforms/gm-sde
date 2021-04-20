@@ -1,0 +1,78 @@
+CTV3ID	Description
+XM0l2	Peppermint oil
+a42..	Atropine methonitrate
+a421.	Eumydrin 0.6% solution
+a42z.	Atropine methonitrate 0.6% solution
+a45..	Dicyclomine hydrochloride
+a451.	Kolanticon gel
+a452.	Kolantyl gel
+a453.	Merbentyl 10mg tablet
+a454.	Merbentyl 10mg/5mL syrup
+a455.	Merbentyl 20mg tablet
+a45x.	Dicyclomine hydrochloride 20mg tablet
+a45y.	Dicyclomine hydrochloride 10mg tablet
+a45z.	Dicyclomine hydrochloride 10mg/5mL oral liquid
+a471.	Buscopan 10mg tablet
+a472.	Buscopan 20mg/1mL injection
+a473.	Buscopan IBS Relief 10mg tablet
+a474.	BUSCOPAN CRAMPS 10mg tablets
+a47y.	Hyoscine butylbromide 10mg tablet
+a47z.	Hyoscine butylbromide 20mg/1mL injection
+a4c..	Propantheline bromide [antispasmodic]
+a4c1.	Propantheline bromide 15mg tablet
+a4c2.	Pro-Banthine 15mg tablet
+a4d..	Alverine citrate
+a4d1.	Alvercol granules
+a4d2.	Spasmonal 60mg capsule
+a4d3.	Relaxyl 60mg capsule
+a4d4.	Alverine citrate 120mg capsule
+a4d5.	Spasmonal Forte 120mg capsule
+a4d6.	AUDMONAL 60mg capsules
+a4d7.	AUDMONAL FORTE 120mg capsules
+a4dy.	Alverine citrate+sterculia 0.5%/62% granules
+a4dz.	Alverine citrate 60mg capsule
+a4e..	Mebeverine hydrochloride
+a4e1.	Colofac 135mg tablet
+a4e2.	Colofac 50mg/5mL liquid
+a4e3.	Colven 135mg granules
+a4e4.	Fomac 135mg tablet
+a4e5.	Fybogel Mebeverine sachet
+a4e6.	Equilon 135mg tablet
+a4e7.	Mebeverine hydrochloride 100mg tablet
+a4e8.	Colofac-100 tablet
+a4e9.	Colofac MR 200mg m/r capsule
+a4eA.	IBS RELIEF 135mg tablets
+a4ev.	Mebeverine hydrochloride 200mg m/r capsule
+a4ew.	Mebeverine hydrochloride+ispaghula 135mg/3.5g/sachet granules
+a4ex.	Mebeverine hydrochloride 135mg tablet
+a4ey.	Mebeverine hydrochloride 50mg/5mL s/f oral liquid
+a4ez.	Mebeverine hydrochloride 135mg granules
+a4f..	Oil of peppermint
+a4f1.	Colpermin 0.2mL m/r gel e/c capsule
+a4f2.	Mintec 0.2mL e/c capsule
+a4f3.	Peppermint oil BP 0.2mL e/c capsule
+a4f4.	Peppermint oil BP 0.2mL m/r gel e/c capsule
+a4f5.	APERCAP 0.2mL gastro-resistant capsules
+ab46.	Alvercol granules 500g
+x019u	Alverine
+x019v	Mebeverine
+x01DY	Dicycloverine
+x01Dk	Propantheline
+x02WE	Buscopan
+x02Xm	Colofac
+x02Xo	Colpermin
+x02d8	Fomac
+x02gd	Kolanticon
+x02ic	Merbentyl
+x02jU	Mintec
+x02oJ	Pro-Banthine
+x02pB	Relaxyl
+x02rL	Spasmonal
+x0404	Fybogel Mebeverine
+x0483	Alvercol
+x04bJ	Equilon
+x04cO	Spasmonal Forte
+x04sY	Colofac-100
+x04yW	Colofac MR
+x052H	Spasmonal Fibre
+x05w5	Buscopan IBS Relief

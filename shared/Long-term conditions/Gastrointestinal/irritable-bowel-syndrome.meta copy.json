@@ -1,0 +1,14 @@
+{
+  "includeTerms": ["irritable bowel syndrome", "ibs", "spastic colon"],
+  "excludeTerms": [
+    "history of",
+    "ibs relief",
+    "pseudomembranous colitis",
+    "intraoperative blood salvage",
+    "education about fodmap"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdOn": "2021-04-20T09:23:58.209Z",
+  "lastUpdated": "2021-04-20T09:23:58.209Z"
+}
