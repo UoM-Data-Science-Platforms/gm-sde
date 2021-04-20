@@ -1,0 +1,72 @@
+readcode	Description
+1482.00	H/O: glaucoma
+7259.00	Operations following glaucoma surgery
+7259000	Needling of bleb following glaucoma surgery
+7259100	Injection of bleb following glaucoma surgery
+7259200	Revision of bleb NEC following glaucoma surgery
+7259300	Removal of releasable suture following glaucoma surgery
+7259400	Laser suture lysis following glaucoma surgery
+7259y00	Other specified operations following glaucoma surgery
+7259z00	Operations following glaucoma surgery NOS
+7275.00	Pan retinal photocoagulation for glaucoma
+F404211	Glaucoma - absolute
+F45..00	Glaucoma
+F451.00	Open-angle glaucoma
+F451000	Unspecified open-angle glaucoma
+F451100	Primary open-angle glaucoma
+F451111	Simple chronic glaucoma
+F451200	Low tension glaucoma
+F451211	Normal pressure glaucoma
+F451300	Pigmentary glaucoma
+F451311	Pigment dispersion syndrome
+F451400	Glaucoma of childhood
+F451500	Open-angle glaucoma residual stage
+F451z00	Open-angle glaucoma NOS
+F452.00	Primary angle-closure glaucoma
+F452.11	Closed angle glaucoma
+F452000	Unspecified primary angle-closure glaucoma
+F452100	Intermittent primary angle-closure glaucoma
+F452200	Acute primary angle-closure glaucoma
+F452300	Chronic primary angle-closure glaucoma
+F452400	Primary angle-closure glaucoma residual stage
+F452500	Plateau iris
+F452z00	Primary angle-closure glaucoma NOS
+F453.00	Steroid-induced glaucoma
+F453000	Steroid-induced glaucoma glaucomatous stage
+F453100	Steroid-induced glaucoma residual stage
+F453z00	Steroid-induced glaucoma NOS
+F454.00	Glaucoma due to disease EC
+F454000	Glaucoma due to chamber angle anomaly
+F454100	Glaucoma due to iris anomaly
+F454200	Glaucoma due to other anterior segment anomaly
+F454300	Glaucoma due to systemic syndrome
+F454400	Glaucoma in endocrine, nutritional and metabolic diseases
+F454z00	Glaucoma due to disease NOS
+F455.00	Glaucoma associated with disorders of the lens
+F455000	Phacolytic glaucoma
+F455100	Pseudoexfoliation glaucoma
+F455z00	Glaucoma associated with disorders of the lens NOS
+F456.00	Glaucoma associated with other ocular disorders
+F456000	Glaucoma due to unspecified ocular disorder
+F456100	Glaucoma due to pupillary block
+F456200	Glaucoma due to ocular inflammation
+F456300	Glaucoma due to ocular vascular disorder
+F456400	Glaucoma due to ocular tumour or cyst
+F456411	Glaucoma due to ocular cyst
+F456500	Glaucoma due to ocular trauma
+F456600	Neovascular glaucoma
+F456611	Rubeotic glaucoma
+F456z00	Glaucoma associated with other ocular disorders NOS
+F45y.00	Other specified forms of glaucoma
+F45y000	Hypersecretion glaucoma
+F45y100	Glaucoma due to episode of increased venous pressure
+F45y200	Low tension glaucoma
+F45yz00	Other specified glaucoma NOS
+F45z.00	Glaucoma NOS
+FyuG.00	[X]Glaucoma
+FyuG000	[X]Other glaucoma
+FyuG100	[X]Glaucoma in endocrine, nutritional and metabolic diseases classified elsewhere
+FyuG200	[X]Glaucoma in other diseases classified elsewhere
+P320000	Congenital glaucoma
+P320011	Newborn glaucoma
+Q20y700	Traumatic glaucoma due to birth trauma

@@ -1,0 +1,23 @@
+{
+  "includeTerms": ["glaucoma", "plateau iris", "pigment dispersion syndrome"],
+  "excludeTerms": [
+    "treatment of glaucoma",
+    "acetazolamide",
+    "preglaucoma",
+    "borderline",
+    "blind hypertensive eye",
+    "fh",
+    "no h/o",
+    "screening",
+    "referral",
+    "screen",
+    "monitoring",
+    "family history",
+    "at risk of",
+    "suspect"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdOn": "2021-04-15T08:40:34.681Z",
+  "lastUpdated": "2021-04-15T08:40:34.681Z"
+}
