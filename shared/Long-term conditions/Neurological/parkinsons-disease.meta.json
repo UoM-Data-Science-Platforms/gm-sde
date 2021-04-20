@@ -1,0 +1,27 @@
+{
+  "includeTerms": [
+    "parkinson's disease",
+    "lindop parkinson's assessment",
+    "parkinson's service referral",
+    "parkinson variant",
+    "paralysis agitans"
+  ],
+  "excludeTerms": [
+    "family history of",
+    "excluding parkinson's disease",
+    "excluded",
+    "parkinson's disease nurse",
+    "parkinsonism in diseases classified elsewhere",
+    "parkinsonism",
+    "malignant neuroleptic syndrome",
+    "dementia complex on guam"
+  ],
+  "terminology": "CTV3",
+  "version": "20180401",
+  "createdBy": {
+    "name": "Richard Williams",
+    "email": "1234richardwilliams@gmail.com"
+  },
+  "createdOn": "2020-05-19T12:30:50.476Z",
+  "lastUpdated": "2021-04-14T15:17:28.217Z"
+}
