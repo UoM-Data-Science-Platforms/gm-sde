@@ -1,0 +1,61 @@
+readcode	Description
+dlE..00	FROVATRIPTAN
+dlE1.00	FROVATRIPTAN 2.5mg tablets
+dlE2.00	MIGARD 2.5mg tablets
+dlD..00	ELETRIPTAN
+dlD2.00	ELETRIPTAN 40mg tablets
+dlD1.00	ELETRIPTAN 20mg tablets
+dlDb.00	RELPAX 40mg tablets
+dlDa.00	RELPAX 20mg tablets
+dlC..00	ALMOTRIPTAN
+dlCz.00	ALMOTRIPTAN 12.5mg tablets
+dlC1.00	ALMOGRAN 12.5mg tablets
+dlA..00	RIZATRIPTAN
+dlAz.00	RIZATRIPTAN 10mg oro-dispersible tablets
+dlA3.00	RIZATRIPTAN 10mg wafer
+dlA2.00	RIZATRIPTAN 10mg tablets
+dlA1.00	RIZATRIPTAN 5mg tablets
+dlA6.00	MAXALT MELT 10mg wafer
+dlA5.00	MAXALT 10mg tablets
+dlA4.00	MAXALT 5mg tablets
+dl8..00	ZOLMITRIPTAN
+dl87.00	ZOLMITRIPTAN 5mg oro-dispersible tablets
+dl85.00	ZOLMITRIPTAN 5mg nasal spray
+dl83.00	ZOLMITRIPTAN 2.5mg oro-dispersible tablets
+dl81.00	ZOLMITRIPTAN 2.5mg tablets
+dl88.00	ZOMIG RAPIMELT 5mg oro-dispersible tablets
+dl86.00	ZOMIG 5mg nasal spray
+dl84.00	ZOMIG RAPIMELT 2.5mg oro-dispersible tablets
+dl82.00	ZOMIG 2.5mg tablets
+dl7..00	SUMATRIPTAN
+dl73.00	SUMATRIPTAN 10mg nasal spray
+dl71.00	SUMATRIPTAN 20mg nasal spray
+dl74.00	IMIGRAN 10mg nasal spray
+dl72.00	IMIGRAN 20mg nasal spray
+dl5..00	SUMATRIPTAN SUCCINATE
+dl5B.00	SUMATRIPTAN 6mg/0.5mL injection refill
+dl5A.00	SUMATRIPTAN 50mg tablets
+dl54.00	SUMATRIPTAN 100mg tablets
+dl51.00	SUMATRIPTAN 6mg/0.5mL injection
+dl5F.00	MIGRAITAN 50mg tablets
+dl5E.00	IMIGRAN RECOVERY 50mg tablets
+dl5D.00	IMIGRAN RADIS 50mg tablets
+dl5C.00	IMIGRAN RADIS 100mg tablets
+dl59.00	IMIGRAN 50mg tablets
+dl58.00	*IMIGRAN 100mg tablets x3
+dl57.00	IMIGRAN SUBJECT 6mg/0.5mL injection refill
+dl56.00	IMIGRAN SUBJECT 6mg/0.5mL injection
+dl55.00	IMIGRAN 100mg tablets
+dl53.00	IMIGRAN 6mg/0.5mL injection refill
+dl52.00	*IMIGRAN 6mg/0.5mL injection
+dl9..00	NARATRIPTAN
+dl91.00	NARATRIPTAN 2.5mg tablets
+dl92.00	NARAMIG 2.5mg tablets
+dl1a.00	*MIGRALEVE YELLOW tablets x48
+dl19.00	MIGRALEVE PINK tablets x48
+dl18.00	MIGRALEVE DUO-PACK tablets x48
+dl18.11	MIGRALEVE tablets x48
+dl13.00	MIGRALEVE YELLOW tablets
+dl12.00	MIGRALEVE PINK tablets
+dl11.00	MIGRALEVE DUO-PACK tablets
+dl11.11	MIGRALEVE tablets

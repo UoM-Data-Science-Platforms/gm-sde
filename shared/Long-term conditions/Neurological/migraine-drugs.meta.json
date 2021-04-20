@@ -1,0 +1,29 @@
+{
+  "includeTerms": [
+    "naratriptan",
+    "imigran",
+    "sumatriptan",
+    "zolmitriptan",
+    "zomig",
+    "rizatriptan",
+    "maxalt",
+    "almotriptan",
+    "naramig",
+    "eletriptan",
+    "relpax",
+    "almogran",
+    "migraitan",
+    "frovatriptan",
+    "migard",
+    "migraleve"
+  ],
+  "excludeTerms": [],
+  "terminology": "CTV3",
+  "version": "20180401",
+  "createdBy": {
+    "name": "Richard Williams",
+    "email": "1234richardwilliams@gmail.com"
+  },
+  "createdOn": "2020-05-19T12:30:50.476Z",
+  "lastUpdated": "2021-04-14T15:01:23.308Z"
+}
