@@ -1,0 +1,28 @@
+{
+  "includeTerms": [
+    "prostatic hypertrophy",
+    "adenoma of prostate",
+    "fibroma of prostate",
+    "myoma of prostate",
+    "enlarged prostate",
+    "prostatism",
+    "prostatic hyperplasia",
+    "prostatic swelling",
+    "prostatitis",
+    "prostate inflammatory diseases",
+    "prostatic inflammatory diseases",
+    "abscess of prostate",
+    "prostatocystitis",
+    "prostatic abscess",
+    "amyloid of prostate"
+  ],
+  "excludeTerms": ["risk score"],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdBy": {
+    "name": "Richard Williams",
+    "email": "1234richardwilliams@gmail.com"
+  },
+  "createdOn": "2020-05-19T12:30:50.476Z",
+  "lastUpdated": "2021-04-14T15:28:32.025Z"
+}

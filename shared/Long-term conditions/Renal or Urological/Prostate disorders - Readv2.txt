@@ -1,0 +1,42 @@
+readcode	Description
+14E1.00	H/O: prostatism
+1AA..00	Prostatism
+25Q2.00	O/E - PR - prostatic swelling
+25Q2.11	Prostate enlarged on PR
+7B37300	Aspiration of prostatic abscess
+A981200	Acute gonococcal prostatitis
+A983200	Chronic gonococcal prostatitis
+AD10300	Trichomonal prostatitis
+B7C2000	Adenoma of prostate
+B7C2100	Fibroma of prostate
+B7C2200	Myoma of prostate
+K20..00	Benign prostatic hypertrophy
+K20..11	Benign adenoma of prostate
+K20..12	Benign fibroma of prostate
+K20..13	Benign myoma of prostate
+K20..14	Enlarged prostate - benign
+K20..15	BPH - benign prostatic hypertrophy
+K20..16	Prostatism
+K200.00	Prostatic hyperplasia unspecified
+K201.00	Prostatic hyperplasia of the lateral lobe
+K202.00	Prostatic hyperplasia of the medial lobe
+K20z.00	Prostatic hyperplasia NOS
+K21..00	Prostate inflammatory diseases
+K21..11	Prostatitis and other inflammatory diseases of prostate
+K210.00	Acute prostatitis
+K211.00	Chronic prostatitis
+K212.00	Abscess of prostate
+K213.00	Prostatocystitis
+K214.00	Prostatitis in diseases EC
+K214000	Prostatitis in actinomycosis
+K214100	Prostatitis in blastomycosis
+K214200	Prostatitis in syphilis
+K214300	Prostatitis in tuberculosis
+K214400	Prostatitis in gonorrhoea
+K214500	Prostatitis in moniliasis
+K214600	Prostatitis in trichomoniasis
+K214z00	Prostatitis in diseases EC NOS
+K21y.00	Other prostatic inflammatory diseases
+K21z.00	Prostatitis NOS
+K224.00	Amyloid of prostate
+Kyu6000	[X]Other inflammatory diseases of prostate
