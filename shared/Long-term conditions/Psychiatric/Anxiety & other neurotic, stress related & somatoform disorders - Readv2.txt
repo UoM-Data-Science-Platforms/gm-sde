@@ -1,0 +1,152 @@
+readcode	Description
+173f.00	Anxiety about breathlessness
+1B13.00	Anxiousness
+1B13.11	Anxiousness - symptom
+1B13.12	Anxious
+1B1V.00	C/O - panic attack
+1Ba0.00	Obsessional thoughts
+1Bb0.00	Fear of falling
+1Bb1.00	Fear of getting cancer
+1P3..00	Compulsive behaviour
+2258.00	O/E - anxious
+2259.00	O/E - nervous
+225J.00	O/E - panic attack
+285..00	Neurotic condition, insight present
+286..00	Poor insight into neurotic condition
+8CAZ000	Patient given advice about management of anxiety
+8G52.00	Antiphobic therapy
+8G94.00	Anxiety management training
+8HHp.00	Referral for guided self-help for anxiety
+8IH5300	Referral for guided self-help for anxiety declined
+8IH5700	Referral for psychological management of anxiety declined
+8T23.00	Referral for psychological management of anxiety
+E20..00	Neurotic disorders
+E200.00	Anxiety states
+E200000	Anxiety state unspecified
+E200100	Panic disorder
+E200111	Panic attack
+E200200	Generalised anxiety disorder
+E200300	Anxiety with depression
+E200400	Chronic anxiety
+E200500	Recurrent anxiety
+E200z00	Anxiety state NOS
+E201B00	Compensation neurosis
+E202.00	Phobic disorders
+E202.11	Social phobic disorders
+E202.12	Phobic anxiety
+E202000	Phobia unspecified
+E202100	Agoraphobia with panic attacks
+E202200	Agoraphobia without mention of panic attacks
+E202300	Social phobia, fear of eating in public
+E202400	Social phobia, fear of public speaking
+E202500	Social phobia, fear of public washing
+E202600	Acrophobia
+E202700	Animal phobia
+E202800	Claustrophobia
+E202900	Fear of crowds
+E202A00	Fear of flying
+E202B00	Cancer phobia
+E202C00	Dental phobia
+E202D00	Fear of death
+E202E00	Fear of pregnancy
+E202z00	Phobic disorder NOS
+E203.00	Obsessive-compulsive disorders
+E203.11	Anancastic neurosis
+E203000	Compulsive neurosis
+E203100	Obsessional neurosis
+E203z00	Obsessive-compulsive disorder NOS
+E20y.00	Other neurotic disorders
+E20y300	Psychasthenic neurosis
+E20yz00	Other neurotic disorder NOS
+E20z.00	Neurotic disorder NOS
+E21..11	Neurotic personality disorder
+E227z11	Fear of ejaculation
+E262000	Cardiac neurosis
+E262100	Cardiovascular neurosis
+E28..00	Acute reaction to stress
+E28..11	Combat fatigue
+E280.00	Acute panic state due to acute stress reaction
+E281.00	Acute fugue state due to acute stress reaction
+E282.00	Acute stupor state due to acute stress reaction
+E283.00	Other acute stress reactions
+E283100	Acute posttrauma stress state
+E283z00	Other acute stress reaction NOS
+E28z.00	Acute stress reaction NOS
+E28z.12	Flying phobia
+E292000	Separation anxiety disorder
+E292400	Adjustment reaction with anxious mood
+E29y100	Other post-traumatic stress disorder
+E2D0.00	Disturbance of anxiety and fearfulness in childhood and adolescence
+E2D0000	Childhood and adolescent overanxiousness disturbance
+E2D0z00	Disturbance of anxiety and fearfulness in childhood and adolescence NOS
+E2y..00	Other specified neuroses or other mental disorders
+E2z..00	Neuroses or other mental disorder NOS
+Eu05400	[X]Organic anxiety disorder
+Eu22y11	[X]Delusional dysmorphophobia
+Eu34111	[X]Depressive neurosis
+Eu34114	[X]Persistant anxiety depression
+Eu4..00	[X]Neurotic, stress - related and somoform disorders
+Eu40.00	[X]Phobic anxiety disorders
+Eu40000	[X]Agoraphobia
+Eu40012	[X]Panic disorder with agoraphobia
+Eu40111	[X]Anthropophobia
+Eu40112	[X]Social neurosis
+Eu40200	[X]Specific (isolated) phobias
+Eu40211	[X]Acrophobia
+Eu40213	[X]Claustrophobia
+Eu40214	[X]Simple phobia
+Eu40300	[X]Needle phobia
+Eu40y00	[X]Other phobic anxiety disorders
+Eu40z00	[X]Phobic anxiety disorder, unspecified
+Eu40z11	[X]Phobia NOS
+Eu40z12	[X]Phobic state NOS
+Eu41.00	[X]Other anxiety disorders
+Eu41000	[X]Panic disorder [episodic paroxysmal anxiety]
+Eu41011	[X]Panic attack
+Eu41100	[X]Generalized anxiety disorder
+Eu41111	[X]Anxiety neurosis
+Eu41112	[X]Anxiety reaction
+Eu41113	[X]Anxiety state
+Eu41200	[X]Mixed anxiety and depressive disorder
+Eu41211	[X]Mild anxiety depression
+Eu41300	[X]Other mixed anxiety disorders
+Eu41y00	[X]Other specified anxiety disorders
+Eu41y11	[X]Anxiety hysteria
+Eu41z00	[X]Anxiety disorder, unspecified
+Eu41z11	[X]Anxiety NOS
+Eu42.00	[X]Obsessive - compulsive disorder
+Eu42.11	[X]Anankastic neurosis
+Eu42.12	[X]Obsessive-compulsive neurosis
+Eu42000	[X]Predominantly obsessional thoughts or ruminations
+Eu42100	[X]Predominantly compulsive acts [obsessional rituals]
+Eu42200	[X]Mixed obsessional thoughts and acts
+Eu42y00	[X]Other obsessive-compulsive disorders
+Eu42z00	[X]Obsessive-compulsive disorder, unspecified
+Eu43.00	[X]Reaction to severe stress, and adjustment disorders
+Eu43000	[X]Acute stress reaction
+Eu43012	[X]Acute reaction to stress
+Eu43013	[X]Combat fatigue
+Eu43100	[X]Post - traumatic stress disorder
+Eu43111	[X]Traumatic neurosis
+Eu43300	[X]Acute post-traumatic stress disorder following military combat
+Eu43400	[X]Chronic post-traumatic stress disorder following military combat
+Eu43500	[X]Delayed post-traumatic stress disorder following military combat
+Eu43y00	[X]Other reactions to severe stress
+Eu43z00	[X]Reaction to severe stress, unspecified
+Eu45212	[X]Dysmorphophobia nondelusional
+Eu45213	[X]Hypochondriacal neurosis
+Eu45215	[X]Nosophobia
+Eu45311	[X]Cardiac neurosis
+Eu46.00	[X]Other neurotic disorders
+Eu46y00	[X]Other specified neurotic disorders
+Eu46y15	[X]Psychasthenia neurosis
+Eu46z00	[X]Neurotic disorder, unspecified
+Eu46z11	[X]Neurosis NOS
+Eu51511	[X]Dream anxiety disorder
+Eu60513	[X]Obsessive-compulsive personality disorder
+Eu60600	[X]Anxious [avoidant] personality disorder
+Eu60z11	[X]Character neurosis NOS
+Eu92y12	[X]Conduct disorder associated with neurotic disorder
+Eu93000	[X]Separation anxiety disorder of childhood
+Eu93100	[X]Phobic anxiety disorder of childhood
+Eu93200	[X]Social anxiety disorder of childhood
