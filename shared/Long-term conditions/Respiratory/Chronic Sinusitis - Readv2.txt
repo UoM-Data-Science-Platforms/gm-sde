@@ -1,0 +1,141 @@
+readcode	Description
+741..00	Nasal sinus operations
+7410.00	Operations on maxillary antrum using sublabial approach
+7410000	Ligation of maxillary artery using sublabial approach
+7410100	Caldwell Luc drainage of maxillary antrum
+7410200	Irrigation of maxillary antrum using sublabial approach
+7410300	Transantral neurectomy of vidian nerve using sublabial approach
+7410y00	Other specified operation on maxillary antrum using sublabial approach
+7410z00	Operation on maxillary antrum using sublabial approach NOS
+7411.00	Other operations on maxillary antrum
+7411.11	Reconstruction of maxillary antrum
+7411000	Drainage of maxillary antrum NEC
+7411100	Excision of lesion of maxillary antrum
+7411200	Intranasal antrostomy
+7411211	Intranasal antrostomy and drainage
+7411300	Biopsy of lesion of maxillary antrum
+7411400	Closure of fistula between maxillary antrum and mouth
+7411500	Puncture of maxillary antrum
+7411511	Irrigation of maxillary antrum NEC
+7411600	Removal of antrochoanal polyp
+7411700	Radical maxillary antrotomy
+7411711	Denker radical maxillary antrotomy
+7411800	Direct closure of defect of maxilla
+7411900	Reconstruction of defect of maxilla with skin graft
+7411A00	Reconstruction of maxilla with local flap
+7411B00	Reconstruction of maxilla with distant flap
+7411C00	Reconstruction of maxilla with microvascular transfered flap
+7411C11	Reconstruction of maxillary antrum with free flap
+7411D00	Reconstruction of maxilla with bone graft
+7411E00	Intranasal antrostomy and biopsy of maxillary antrum
+7411F00	Intranasal antrostomy and excision of lesion of maxillary antrum
+7411G00	Bilateral antral washout
+7411y00	Other specified other operation on maxillary antrum
+7411z00	Other operation on maxillary antrum NOS
+7412.00	Operations on frontal sinus
+7412000	External frontoethmoidectomy
+7412011	Killian external frontoethmoidectomy
+7412012	Luc external frontoethmoidectomy
+7412013	Ogston external frontoethmoidectomy
+7412100	Intranasal ethmoidectomy
+7412200	External ethmoidectomy
+7412300	Transantral ethmoidectomy
+7412311	Horgan transantral ethmoidectomy
+7412400	Bone flap to frontal sinus
+7412500	Trephine of frontal sinus
+7412600	Craniofacial ethmoidectomy
+7412700	Radical frontal sinus antrostomy
+7412800	Frontal sinusotomy NEC
+7412900	Median drainage of frontal sinus
+7412A00	Drainage of frontal sinus
+7412y00	Other specified operation on frontal sinus
+7412z00	Operation on frontal sinus NOS
+7413.00	Operations on sphenoid sinus
+7413000	Drainage of sphenoid sinus
+7413100	Puncture of sphenoid sinus
+7413200	Repair of sphenoidal sinus
+7413300	Excision of lesion from sphenoid sinus
+7413y00	Other specified operation on sphenoid sinus
+7413z00	Operation on sphenoid sinus NOS
+7414.00	Operations on unspecified nasal sinus
+7414.11	Reconstruction of defect of nasal sinus
+7414000	Excision of nasal sinus NEC
+7414100	Excision of lesion of nasal sinus
+7414200	Biopsy of lesion of nasal sinus NEC
+7414300	Lateral rhinotomy
+7414400	Catheterisation of nasal sinus
+7414500	Antral washout - nasal
+7414511	BAWO
+7414600	Direct closure of defect of nasal sinus
+7414700	Reconstruction of defect of nasal sinus with skin graft
+7414800	Reconstruction of defect of nasal sinus with local flap
+7414900	Reconstruction of defect of nasal sinus with distant flap
+7414A00	Reconstruction of defect of nasal sinus with microvascular transfered flap
+7414B00	Reconstruction of defect of nasal sinus with bone graft
+7414y00	Other specified operation on unspecified nasal sinus
+7414z00	Operation on unspecified nasal sinus NOS
+7415.00	Functional endoscopic sinus surgery - diagnostic endoscopy of nose and sinus
+7415.11	Functional endoscopic sinus surgery - diagnostic nasal antroscopy
+7415000	Functional endoscopic sinus surgery - diagnostic antroscopy via canine fossa
+7415100	Functional endoscopic sinus surgery - diagnostic antroscopy via inferior meatus
+7415200	Functional endoscopic sinus surgery - diagnostic antroscopy via middle meatus
+7415y00	Other specified functional endoscopic sinus surgery - diagnostic endoscopy of nose or sinus
+7415z00	Functional endoscopic sinus surgery - diagnostic endoscopy of noseor sinus NOS
+7416.00	Functional endoscopic sinus surgery - therapeutic endoscopy of nose and sinus
+7416.11	Functional endoscopic sinus surgery - therapeutic nasal antroscopy
+7416000	Functional endoscopic sinus surgery - therapeutic antroscopy via canine fossa
+7416100	Functional endoscopic sinus surgery - therapeutic antroscopy via inferior meatus
+7416200	Functional endoscopic sinus surgery - therapeutic antroscopy via middle meatus
+7416300	FESS/Uncinectomy
+7416400	Functional endoscopic sinus surgery - uncinectomy and excision of bulla
+7416500	FESS/Anterior ethmoidectomy
+7416600	Functional endoscopic sinus surgery - anterior ethmoidectomy and frontal recess dissection
+7416700	Functional endoscopic sinus surgery - anterior and posterior ethmoidectomy
+7416800	FESS/Sphenoidectomy
+7416900	Functional endoscopic sinus surgery - antrostomy via middle meatus
+7416A00	Functional endoscopic sinus surgery - antrostomy via inferior meatus
+7416B00	Functional endoscopic sinus surgery - excisional surgery to middle turbinate
+7416C00	Functional endoscopic sinus surgery - post operative suction clearance under local anaesthetic
+7416D00	Functional endoscopic sinus surgery - post operative removal of polyps under local anaesthetic
+7416E00	Functional endoscopic sinus surgery - post operative division of adhesions
+7416F00	Functional endoscopic sinus surgery - polypectomy of nasal sinus
+7416y00	Other specified functional endoscopic sinus surgery - therapeutic endoscopy of nose or sinus
+7416z00	Functional endoscopic sinus surgery - therapeutic endoscopy of nose or sinus NOS
+7417.00	Other operations on frontal sinus
+7417000	Frontal sinus osteoplasty
+7417y00	Other specified other operations on frontal sinus
+7417z00	Other operations on frontal sinus NOS
+7418.00	Diagnostic nasendoscopy
+741y.00	Other specified operations on nasal sinus
+741z.00	Nasal sinus operations NOS
+7M1B000	Functional endoscopic sinus surgery
+7M1B100	Functional endoscopic nasal surgery
+H010.00	Acute maxillary sinusitis
+H011.00	Acute frontal sinusitis
+H111.00	Polypoid sinus degeneration
+H111z00	Polypoid sinus degeneration NOS
+H11y.00	Other polyp of sinus
+H11y.11	Nasal sinus polyps
+H11y000	Polyp of frontal sinus
+H11y100	Polyp of ethmoidal sinus
+H11y200	Polyp of maxillary sinus
+H11y300	Polyp of sphenoidal sinus
+H11yz00	Other polyp of sinus NOS
+H13..00	Chronic sinusitis
+H13..11	Chronic rhinosinusitis
+H130.00	Chronic maxillary sinusitis
+H130.11	Antritis - chronic
+H130.12	Maxillary sinusitis
+H131.00	Chronic frontal sinusitis
+H131.11	Frontal sinusitis
+H132.00	Chronic ethmoidal sinusitis
+H133.00	Chronic sphenoidal sinusitis
+H134.00	Fistula of nasal sinus
+H135.00	Recurrent sinusitis
+H13y.00	Other chronic sinusitis
+H13y000	Chronic pansinusitis
+H13yz00	Other chronic sinusitis NOS
+H13z.00	Chronic sinusitis NOS
+Hyu2200	[X]Other chronic sinusitis
+Hyu2300	[X]Other polyp of sinus
+J083500	Oroantral fistula
