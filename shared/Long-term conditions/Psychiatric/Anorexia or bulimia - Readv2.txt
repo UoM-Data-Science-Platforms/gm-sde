@@ -1,0 +1,14 @@
+readcode	Description
+1467.00	H/O: anorexia nervosa
+1612.00	Appetite loss - anorexia
+1612.11	Anorexia symptom
+E271.00	Anorexia nervosa
+E275100	Bulimia (non-organic overeating)
+Eu50000	[X]Anorexia nervosa
+Eu50100	[X]Atypical anorexia nervosa
+Eu50200	[X]Bulimia nervosa
+Eu50211	[X]Bulimia NOS
+Eu50300	[X]Atypical bulimia nervosa
+R030.00	[D]Anorexia
+R030z00	[D]Anorexia NOS
+R036011	[D]Bulimia NOS

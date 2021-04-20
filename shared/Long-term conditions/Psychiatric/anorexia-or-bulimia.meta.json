@@ -1,0 +1,15 @@
+{
+  "includeTerms": ["bulimia", "anorexia", "appetite loss - anorexia"],
+  "excludeTerms": [
+    "appetite loss",
+    "loss of appetite",
+    "compulsive eating disorder",
+    "hyperorexia nervosa",
+    "excessive eating",
+    "test"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdOn": "2021-04-15T10:53:41.156Z",
+  "lastUpdated": "2021-04-15T10:53:41.156Z"
+}
