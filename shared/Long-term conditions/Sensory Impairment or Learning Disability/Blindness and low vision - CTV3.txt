@@ -1,0 +1,182 @@
+CTV3ID	Description
+1B75.	Loss of vision
+2B69.	O/E -R-eye counts fingers only
+2B6A.	O/E - blind R-eye
+2B6B.	O/E - blind R-eye
+2B79.	O/E -L-eye counts fingers only
+2B7A.	O/E-L-eye perceives light only
+2B7B.	O/E - blind L-eye
+6688.	Registered partially blind
+6689.	Registered severely sight impaired
+668B.	Poor visual acuity
+8F61.	Blind rehabilitation
+8F62.	Guide dog training
+F427J	Congenital retinal blindness
+F4811	Sudden visual loss
+F49..	Blindness and low vis.
+F490.	Blindness - both eyes
+F4900	Unspecified blindness both eyes
+F4901	Both eyes total visual impairment
+F4902	Better eye: near total visual impairment, Lesser eye: unspecified
+F4903	Better eye: near total visual impairment, Lesser eye: total visual impairment
+F4904	Better eye: near total visual impairment, Lesser eye: near total visual impairment
+F4905	Better eye: profound visual impairment, Lesser eye: unspecified
+F4906	Better eye: profound visual impairment, Lesser eye: total visual impairment
+F4907	Better eye: profound visual impairment, Lesser eye: near total visual impairment
+F4908	Better eye: profound visual impairment, Lesser eye: profound visual impairment
+F490z	Blindness both eyes NOS
+F491.	Better eye: low vision, Lesser eye: profound visual impairment
+F4910	One eye blind, one eye low vision
+F4911	Better eye: severe visual impairment, Lesser eye: blind, unspecified
+F4912	Better eye: severe visual impairment, Lesser eye: total visual impairment
+F4913	Better eye: severe visual impairment, Lesser eye: near total visual impairment
+F4914	Better eye: severe visual impairment, Lesser eye: profound visual impairment
+F4915	Better eye: moderate visual impairment, Lesser eye: blind, unspecified
+F4916	Better eye: moderate visual impairment, Lesser eye: total visual impairment
+F4917	Better eye: moderate visual impairment, Lesser eye: near total visual impairment
+F4918	Better eye: moderate visual impairment, Lesser eye: profound visual impairment
+F491z	One eye blind, one eye low vision NOS
+F492.	Low vision, both eyes
+F4920	Low vision, both eyes unspecified
+F4921	Better eye: severe visual impairment, Lesser eye: low vision unspecified
+F4922	Better eye: severe visual impairment, Lesser eye: severe visual impairment
+F4923	Better eye: moderate visual impairment, Lesser eye: low vision unspecified
+F4924	Better eye: moderate visual impairment, Lesser eye: severe visual impairment
+F4925	Better eye: moderate visual impairment, Lesser eye: moderate visual impairment
+F492z	Low vision, both eyes NOS
+F493.	Visual loss, both eyes unqualified
+F494.	Legal blindness USA
+F495.	Profound impairment, one eye
+F4950	Blindness, one eye, unspecified
+F4951	Lesser eye: total visual impairment, Better eye: unspecified
+F4952	Lesser eye: total visual impairment, Better eye: near normal vision
+F4953	Lesser eye: total visual impairment, Better eye: normal vision
+F4954	Lesser eye: near total visual impairment, Better eye: unspecified
+F4955	Lesser eye: near total visual impairment, Better eye: near normal vision
+F4956	Lesser eye: near total visual impairment, Better eye: normal vision
+F4957	Lesser eye: profound visual impairment, Better eye: unspecified
+F4958	Lesser eye: profound visual impairment, Better eye: near normal vision
+F4959	Lesser eye: profound visual impairment, Better eye: normal vision
+F495z	Profound impairment one eye NOS
+F496.	Low vision, one eye
+F4960	Low vision, one eye, unspecified
+F4961	Lesser eye: severe visual impairment, Better eye: unspecified
+F4962	Lesser eye: severe visual impairment, Better eye: near normal vision
+F4963	Lesser eye: severe visual impairment, Better eye: normal vision
+F4964	Lesser eye: moderate visual impairment, Better eye: unspecified
+F4965	Lesser eye: moderate visual impairment, Better eye: near normal vision
+F4966	Lesser eye: moderate visual impairment, Better eye: normal vision
+F496z	Low vision, one eye NOS
+F49y.	Visual loss, one eye, unqualified
+F49z.	Acquired blindness
+F49z0	Charles Bonnet syndrome
+F4H6.	Other visual pathway disorder
+F4H60	Visual pathway disorder due to neoplasm
+F4H61	Visual pathway disorder due to vascular disorder
+F4H6z	Other visual pathway disorder NOS
+F4H7.	Visual cortex disorder
+F4H70	Visual cortex disorder due to neoplasm
+F4H71	Visual cortex disorder due to vascular disorder
+F4H72	Inflammatory disorder of visual cortex
+F4H73	Cortical blindness
+F4H7z	Visual cortex disorder NOS
+F4Hz.	Disorder of optic nerve or visual pathway NOS
+FyuL.	[X]Visual disturbances and blindness
+SJ0..	Optic nerve and pathway injury
+SJ00.	Optic nerve (2nd) injury
+SJ01.	Optic chiasm injury
+SJ02.	Optic pathway injury
+SJ03.	Visual cortex injury
+SJ0z.	Optic nerve or pathway injury NOS
+Ua0R6	Blind telephone user
+Ua0R8	Deaf-blind telephone user
+Ua1ez	Painful blind eye
+Ua1f0	Blindness, monocular
+X002O	Olivopontocerebellar atrophy with blindness
+X0092	Injury of optic chiasm
+X0097	Injury of optic tract
+X009C	Injury of optic radiation
+X00gN	Acquired blindness
+X00gP	Partial sight - both eyes
+X00sq	Oropharyngeal blind suction
+X30Ez	Cystoscopy and blind litholapaxy
+X70Tr	River blindness
+X71Ft	Blind and partially sighted rehabilitation - vocational training
+X71Fu	Blind and partially sighted rehabilitation - employment placement
+X74UF	Provision for visual and hearing impairment
+X74Ws	Blind registration
+X74Wt	England and Wales blind certification
+X74Wv	Scottish - blind certification
+X74Ww	Scottish - partially sighted certification
+X74Wx	Scottish partially sighted certification - blindness likely over 16
+X74Wy	Scottish partially sighted certification - blindness likely before 16
+X75bQ	Weak vision
+X75bS	Darkened vision
+X75bT	Cloudy vision
+X75bz	Loss of part of visual field
+X7A4j	Blind technique
+XC0cu	Eye completely blind
+XE0iJ	Blind and partially sighted rehabilitation
+XE15r	Blind hypertensive eye
+XE16L	Visual impairment
+XE16M	Visual loss NOS
+XE16v	Disorder of optic nerve and visual pathway
+XE191	Blind or low vision - both eyes
+XE193	Blind or low vision - one eye only
+XE195	Blindness or low vision NOS
+XE1T1	Registered partially blind
+XE1i1	O/E-R-eye perceives light only
+XE1i2	O/E-L-eye perceives light only
+XE1o4	Optic nerve or pathway injury NOS
+XM0kD	Vineland maturity scales adapted for the blind
+XM19P	Blind left eye
+XM19Q	Blind right eye
+Xa0UI	Blind
+Xa1Ih	Poor vision
+Xa7nF	Registered partially sighted
+XaAvv	Training for blind or partially sighted person
+XaBCt	Spontaneous eye movements associated with visual loss
+XaBLI	O/E - R-eye sees hand movements
+XaBLJ	O/E - L-eye sees hand movements
+XaCGX	Blindness certification
+XaE6s	Acquired blindness, both eyes
+XaE6t	Acquired blindness, one eye
+XaEEm	Functional visual loss
+XaEEn	Loss of visual fusion
+XaEHZ	Issue of local authority blind registration
+XaJTS	O/E - pinhole L-eye sees hand movements
+XaJTT	O/E - pinhole L-eye counts fingers only
+XaJTU	O/E - pinhole L-eye perceives light only
+XaJTV	O/E - pinhole L-eye completely blind
+XaJTW	O/E - pinhole R-eye sees hand movements
+XaJTX	O/E - pinhole R-eye counts fingers only
+XaJTY	O/E - pinhole R-eye perceives light only
+XaJTZ	O/E - pinhole R-eye completely blind
+XaJTa	O/E - R-eye visual acuity (corrected) 1/60
+XaJTb	O/E - R-eye visual acuity (corrected) 2/60
+XaJTc	O/E - R-eye visual acuity (corrected) 4/60
+XaJTd	O/E - R-eye visual acuity (corrected) 5/60
+XaJTg	O/E - L-eye visual acuity (corrected) 1/60
+XaJTi	O/E - L-eye visual acuity (corrected) 2/60
+XaJTj	O/E - L-eye visual acuity (corrected) 4/60
+XaJTl	O/E - L-eye visual acuity (corrected) 5/60
+XaLMz	Certificate of vision impairment
+XaPen	Impaired vision due to diabetic retinopathy
+XaPjK	Excluded from diabetic retinopathy screening as blind
+XaQ8m	Referral to visual impairment multidisciplinary team
+XaW0l	Registered sight impaired
+XaYB3	Requires deafblind communicator guide
+XaYPJ	Dual sensory impairment - deafblind
+XaYfF	Severe binocular visual impairment
+XaYfG	Severe visual impairment, monocular
+XaYfH	Moderate binocular visual impairment
+XaYfI	Moderate monocular visual impairment
+XaYiO	Mild visual impairment
+XaYiP	Mild binocular visual impairment
+XaZyk	Uses guide dog for the blind
+XacJE	Uses deafblind intervener
+XacJF	Requires deafblind manual alphabet interpreter
+XacJG	Requires deafblind block alphabet interpreter
+XacJI	Requires deafblind haptic communication interpreter
+Xad2A	Uses Deafblind Manual Alphabet
+ZV410	[V]Problems with sight
