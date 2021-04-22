@@ -1,0 +1,86 @@
+emis	Description
+ELTA12489NEMIS	Eletriptan Hydrobromide  Tablets  40 mg
+IMNA16218NEMIS	Imigran  Nasal spray  10 mg/0.1 ml
+IMTA18426NEMIS	Imigran Radis  Tablets  100 mg
+IMTA25778EMIS	Imigran  Tablets  50 mg
+NATA31092EMIS	Naramig  Tablets  2.5 mg
+SUTA20311EMIS	Sumatriptan Succinate  Tablets  100 mg
+ZOOR18878NEMIS	Zomig Rapimelt  Orodispersible tablets  5 mg
+ALTA6217NEMIS	Almogran  Tablets  12.5 mg
+IMNA30484EMIS	Imigran  Nasal spray  20 mg/0.1 ml
+MATA34057EMIS	Maxalt  Tablets  5 mg
+NATA31092EMIS	Naramig  Tablets  2.5 mg
+RITA34063EMIS	Rizatriptan Benzoate  Tablets  5 mg
+ZOOR18877NEMIS	Zolmitriptan  Orodispersible Tablets (Sugar Free)  5 mg
+RITA34062EMIS	Rizatriptan Benzoate  Tablets  10 mg
+IMNA30484EMIS	Imigran  Nasal spray  20 mg/0.1 ml
+MIYE8585EGTON	Migraleve  Yellow tablets  
+NATA31094EMIS	Naratriptan Hydrochloride  Tablets  2.5 mg
+SUNA30487EMIS	Sumatriptan Succinate  Nasal spray  20 mg/0.1 ml unit dose
+ZONA14338NEMIS	Zolmitriptan  Nasal spray  5 mg/0.1 ml unit dose
+ZOTA30557EMIS	Zomig  Tablets  2.5 mg
+ELTA12487NEMIS	Eletriptan Hydrobromide  Tablets  20 mg
+IMTA22666NEMIS	Imigran Recovery  Tablets  50 mg
+RETA12492NEMIS	Relpax  Tablets  40 mg
+RIOR83100NEMIS	Rizatriptan Benzoate  Orodispersible Tablets (Sugar Free)  10 mg
+RITA34063EMIS	Rizatriptan Benzoate  Tablets  5 mg
+ZOOR11591NEMIS	Zomig Rapimelt  Orodispersible tablets  2.5 mg
+ELTA12487NEMIS	Eletriptan Hydrobromide  Tablets  20 mg
+MAWA34058EMIS	Maxalt  Wafers  10 mg
+IMTA18425NEMIS	Imigran Radis  Tablets  50 mg
+SUIN9605EMIS	Sumatriptan Succinate  Injection  6 mg/0.5 ml pre-filled syringe with device
+ZONA14339NEMIS	Zomig  Nasal spray  5 mg/0.1 ml unit dose
+ZOOR18877NEMIS	Zolmitriptan  Orodispersible Tablets (Sugar Free)  5 mg
+MAWA15756NEMIS	Maxalt Melt  Wafers (Oral Lyophilisate)  10 mg
+RIOR83100NEMIS	Rizatriptan Benzoate  Orodispersible Tablets (Sugar Free)  10 mg
+ZOOR11591NEMIS	Zomig Rapimelt  Orodispersible tablets  2.5 mg
+NATA31094EMIS	Naratriptan Hydrochloride  Tablets  2.5 mg
+SUNA30487EMIS	Sumatriptan Succinate  Nasal spray  20 mg/0.1 ml unit dose
+SURE17978EMIS	Sumatriptan Succinate  Refill pack  6 mg/0.5 ml pre-filled syringe
+ZONA14338NEMIS	Zolmitriptan  Nasal spray  5 mg/0.1 ml unit dose
+IMTA20309EMIS	Imigran  Tablets  100 mg
+MIPI8584EGTON	Migraleve  Pink tablets  
+IMTA18426NEMIS	Imigran Radis  Tablets  100 mg
+SUTA20311EMIS	Sumatriptan Succinate  Tablets  100 mg
+RETA12492NEMIS	Relpax  Tablets  40 mg
+IMNA16218NEMIS	Imigran  Nasal spray  10 mg/0.1 ml
+IMTA25778EMIS	Imigran  Tablets  50 mg
+MAWA15756NEMIS	Maxalt Melt  Wafers (Oral Lyophilisate)  10 mg
+ZOTA30559EMIS	Zolmitriptan  Tablets  2.5 mg
+IMIN9603EMIS	Imigran  Injection  6 mg/0.5 ml pre-filled syringe
+SUNA16217NEMIS	Sumatriptan Succinate  Nasal spray  10 mg/0.1 ml unit dose
+SURE17978EMIS	Sumatriptan Succinate  Refill pack  6 mg/0.5 ml pre-filled syringe
+SUTA25780EMIS	Sumatriptan Succinate  Tablets  50 mg
+ALTA6214NEMIS	Almotriptan  Tablets  12.5 mg
+FRTA15064NEMIS	Frovatriptan  Tablets  2.5 mg
+MIYE8585EGTON	Migraleve  Yellow tablets  
+ZOOR11589NEMIS	Zolmitriptan  Orodispersible Tablets (Sugar Free)  2.5 mg
+ZOOR18878NEMIS	Zomig Rapimelt  Orodispersible tablets  5 mg
+ALTA6217NEMIS	Almogran  Tablets  12.5 mg
+IMTA22666NEMIS	Imigran Recovery  Tablets  50 mg
+MITA15067NEMIS	Migard  Tablets  2.5 mg
+RETA12491NEMIS	Relpax  Tablets  20 mg
+IMRE17976EMIS	Imigran  Refill pack  6 mg/0.5 ml pre-filled syringe
+IMTA18425NEMIS	Imigran Radis  Tablets  50 mg
+MATA34056EMIS	Maxalt  Tablets  10 mg
+MATA34057EMIS	Maxalt  Tablets  5 mg
+RIWA34064EMIS	Rizatriptan Benzoate  Wafers (Oral Lyophilisate)  Sugar Free 10 mg
+ZONA14339NEMIS	Zomig  Nasal spray  5 mg/0.1 ml unit dose
+ZOOR11589NEMIS	Zolmitriptan  Orodispersible Tablets (Sugar Free)  2.5 mg
+ZOTA30559EMIS	Zolmitriptan  Tablets  2.5 mg
+ELTA12489NEMIS	Eletriptan Hydrobromide  Tablets  40 mg
+MIPI8584EGTON	Migraleve  Pink tablets  
+MITA15067NEMIS	Migard  Tablets  2.5 mg
+ZOTA30557EMIS	Zomig  Tablets  2.5 mg
+ALTA6214NEMIS	Almotriptan  Tablets  12.5 mg
+FRTA15064NEMIS	Frovatriptan  Tablets  2.5 mg
+IMRE17976EMIS	Imigran  Refill pack  6 mg/0.5 ml pre-filled syringe
+RITA34062EMIS	Rizatriptan Benzoate  Tablets  10 mg
+IMIN9603EMIS	Imigran  Injection  6 mg/0.5 ml pre-filled syringe
+RETA12491NEMIS	Relpax  Tablets  20 mg
+RIWA34064EMIS	Rizatriptan Benzoate  Wafers (Oral Lyophilisate)  Sugar Free 10 mg
+SUNA16217NEMIS	Sumatriptan Succinate  Nasal spray  10 mg/0.1 ml unit dose
+SUTA25780EMIS	Sumatriptan Succinate  Tablets  50 mg
+SUIN9605EMIS	Sumatriptan Succinate  Injection  6 mg/0.5 ml pre-filled syringe with device
+IMTA20309EMIS	Imigran  Tablets  100 mg
+MATA34056EMIS	Maxalt  Tablets  10 mg
