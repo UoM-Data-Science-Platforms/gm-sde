@@ -489,6 +489,14 @@ AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 GROUP BY FK_Patient_Link_ID, Condition
 HAVING COUNT(*) >= 4;
 
+-- Dyspepsia >= 4 Rx in last year
+INSERT INTO #PatientsWithLTCs
+SELECT FK_Patient_Link_ID, Condition FROM #LTCTempMedsLastYear
+WHERE Condition = 'Dyspepsia'
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+GROUP BY FK_Patient_Link_ID, Condition
+HAVING COUNT(*) >= 4;
+
 -- Constipation >= 4 Rx in last year
 INSERT INTO #PatientsWithLTCs
 SELECT FK_Patient_Link_ID, Condition FROM #LTCTempMedsLastYear
