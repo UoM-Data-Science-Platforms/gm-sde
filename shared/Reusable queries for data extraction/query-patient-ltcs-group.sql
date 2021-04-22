@@ -22,15 +22,16 @@ IF OBJECT_ID('tempdb..#LTCGroups') IS NOT NULL DROP TABLE #LTCGroups;
 SELECT 
   DISTINCT FK_Patient_Link_ID, 
   CASE
-    WHEN LTC IN ('atrial fibrillation','coronary heart disease','heart failure','hypertension','peripheral vascular disease','stroke & transient ischaemic attack') THEN 'Cardiovascular'
-		WHEN LTC IN ('diabetes','thyroid disorders') THEN 'Endocrine'
-		WHEN LTC IN ('chronic liver disease','chronic liver disease and viral hepatitis','constipation (treated)','diverticular disease of intestine','dyspepsia (treated)','inflammatory bowel disease','irritable bowel syndrome','peptic ulcer disease') THEN 'Gastrointestinal'
-		WHEN LTC IN ('psoriasis','psoriasis or eczema medcodes','rheumatoid arthritis, other inflammatory polyarthropathies & systematic connective tissue disorders','rheumatoid arthritis, sle') THEN 'Musculoskeletal or Skin'
-		WHEN LTC IN ('multiple sclerosis','other neurological conditions','parkinsons disease') THEN 'Neurological'
-		WHEN LTC IN ('dementia','depression','schizophrenia (and related non-organic psychosis) or bipolar disorder','schizophrenia (and related non-organic psychosis) or bipolar disorder medcodes','schizophrenia (and related non-organic psychosis) or bipolar disorder prodcodes') THEN 'Psychiatric'
-		WHEN LTC IN ('chronic kidney disease') THEN 'Renal or Urological'
-		WHEN LTC IN ('asthma (currently treated) medcodes','asthma (currently treated) prodcodes','asthma','asthma diagnosis','bronchiectasis','copd') THEN 'Respiratory'
-		WHEN LTC IN ('learning disability') THEN 'Sensory Impairment or Learning Disability'
-		WHEN LTC IN ('') THEN 'Substance Abuse'
+    WHEN LTC IN ('Cancer') THEN 'Cancer'
+		WHEN LTC IN ('Atrial Fibrillation','Coronary Heart Disease','Heart Failure','Hypertension','Peripheral Vascular Disease','Stroke And Tia') THEN 'Cardiovascular'
+		WHEN LTC IN ('Diabetes','Thyroid Disorders') THEN 'Endocrine'
+		WHEN LTC IN ('Chronic Liver Disease','Diverticular Disease Of Intestine','Inflammatory Bowel Disease','Irritable Bowel Syndrome','Peptic Ulcer Disease') THEN 'Gastrointestinal'
+		WHEN LTC IN ('Painful Condition','Psoriasis Or Eczema','Rheumatoid Arthritis And Other Inflammatory Polyarthropathies') THEN 'Musculoskeletal or Skin'
+		WHEN LTC IN ('Migraine','Multiple Sclerosis','Parkinsons Disease') THEN 'Neurological'
+		WHEN LTC IN ('Anorexia Or Bulimia','Anxiety And Other Somatoform Disorders','Dementia','Depression','Schizophrenia Or Bipolar') THEN 'Psychiatric'
+		WHEN LTC IN ('Chronic Kidney Disease','Prostate Disorders') THEN 'Renal or Urological'
+		WHEN LTC IN ('Asthma','Bronchiectasis','Chronic Sinusitis','COPD') THEN 'Respiratory'
+		WHEN LTC IN ('Blindness And Low Vision','Glaucoma','Hearing Loss','Learning Disability') THEN 'Sensory Impairment or Learning Disability'
+		WHEN LTC IN ('Alcohol Problems','Psychoactive Substance Abuse') THEN 'Substance Abuse'
   END AS LTCGroup INTO #LTCGroups
 FROM #PatientsWithLTCs;

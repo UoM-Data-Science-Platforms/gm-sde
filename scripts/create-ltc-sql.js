@@ -34,7 +34,7 @@ const createLtcSql = () => {
   writeFileSync(OUTPUT_GROUP_FILE, groupSql);
 };
 
-// createLtcSql();
+createLtcSql();
 
 module.exports = { createLtcSql };
 
@@ -74,19 +74,32 @@ function getCodesets() {
     const conditionCodeSets = readdirSync(CONDITION_DIRECTORY, { withFileTypes: true })
       .filter((item) => item.isFile()) // find all files under LTC_DIRECTORY
       .map((file) => file.name) // return the file name
-      .filter((filename) => filename.toLowerCase().match(/^.+ - (readv2|ctv3|snomed|emis).txt$/));
+      .filter((filename) => filename.toLowerCase().match(/^.+\.(readv2|ctv3|snomed|emis).txt$/));
 
     // Add the codesets
     conditionCodeSets.forEach((conditionCodeSet) => {
-      const [condition, terminology] = conditionCodeSet
-        .toLowerCase()
-        .replace(/'/g, '')
-        .replace('.txt', '')
-        .split(' - ');
-      if (!codesetObject[ltcGroup][condition]) {
-        codesetObject[ltcGroup][condition] = {};
+      const [conditionLowerHyphens, dxOrRx, terminology] = conditionCodeSet.split('.');
+      if (['medication', 'diagnosis'].indexOf(dxOrRx) < 0) {
+        console.log(
+          `The file ${conditionCodeSet} in ${CONDITION_DIRECTORY} does not match the following naming convention:`
+        );
+        console.log(
+          'hyphenated-condition-name.[diagnosis|medication].[readv2|ctv3|snomed|emis].txt'
+        );
+        return;
       }
-      codesetObject[ltcGroup][condition][terminology] = loadCodeset(
+      const condition = conditionLowerHyphens
+        .replace(/'/g, '')
+        .split('-')
+        .map((x) => `${x[0].toUpperCase()}${x.slice(1)}`)
+        .join(' ');
+      if (!codesetObject[ltcGroup][conditionLowerHyphens]) {
+        codesetObject[ltcGroup][conditionLowerHyphens] = {};
+      }
+      if (!codesetObject[ltcGroup][conditionLowerHyphens][terminology]) {
+        codesetObject[ltcGroup][conditionLowerHyphens][terminology] = {};
+      }
+      codesetObject[ltcGroup][conditionLowerHyphens][terminology][dxOrRx] = loadCodeset(
         ltcGroup,
         conditionCodeSet,
         terminology
@@ -95,7 +108,8 @@ function getCodesets() {
         ltcGroup,
         condition,
         terminology,
-        codes: codesetObject[ltcGroup][condition][terminology],
+        dxOrRx,
+        codes: codesetObject[ltcGroup][conditionLowerHyphens][terminology],
       });
     });
   });
@@ -144,6 +158,15 @@ function getConditionsFromGroup(group) {
 }
 
 function createSQL() {
+  const specialConditions = [
+    'Cancer',
+    'Irritable Bowel Syndrome',
+    'Constipation',
+    'Dyspepsia',
+    'Painful Condition',
+    'Epilepsy',
+    'Migraine',
+  ];
   const sql = `--
 --┌──────────────────────┐
 --│ Long-term conditions │
@@ -170,6 +193,7 @@ ${
 CREATE TABLE #ltccodesemis (
   [condition] [varchar](255) NOT NULL,
   [group] [varchar](255) NOT NULL,
+  [diagnosisOrMedication] [varchar](255) NOT NULL,
   [code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
   [description] [varchar](255) NULL
 )ON [PRIMARY];
@@ -184,6 +208,7 @@ ${
 CREATE TABLE #ltccodesreadv2 (
   [condition] [varchar](255) NOT NULL,
   [group] [varchar](255) NOT NULL,
+  [diagnosisOrMedication] [varchar](255) NOT NULL,
 	[code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
 	[description] [varchar](255) NULL
 ) ON [PRIMARY];
@@ -198,6 +223,7 @@ ${
 CREATE TABLE #ltccodesctv3 (
   [condition] [varchar](255) NOT NULL,
   [group] [varchar](255) NOT NULL,
+  [diagnosisOrMedication] [varchar](255) NOT NULL,
 	[code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
 	[description] [varchar](255) NULL
 ) ON [PRIMARY];
@@ -212,6 +238,7 @@ ${
 CREATE TABLE #ltccodessnomed (
   [condition] [varchar](255) NOT NULL,
   [group] [varchar](255) NOT NULL,
+  [diagnosisOrMedication] [varchar](255) NOT NULL,
 	[code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
 	[description] [varchar](255) NULL
 ) ON [PRIMARY];
@@ -296,27 +323,147 @@ INSERT INTO #SNOMEDRefCodes
 SELECT DISTINCT * FROM #LtcTempSNOMEDRefCodes;
 
 IF OBJECT_ID('tempdb..#LTCTemp') IS NOT NULL DROP TABLE #LTCTemp;
-SELECT DISTINCT FK_Patient_Link_ID, FK_Reference_SnomedCT_ID, FK_Reference_Coding_ID INTO #LTCTemp 
+SELECT DISTINCT FK_Patient_Link_ID, EventDate, FK_Reference_SnomedCT_ID, FK_Reference_Coding_ID INTO #LTCTemp 
 FROM RLS.vw_GP_Events e
 WHERE (
-	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes) OR
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes)
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition NOT IN ('Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Migraine','Cancer')) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition NOT IN ('Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Migraine','Cancer'))
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND EventDate < @StartDate;
 
+IF OBJECT_ID('tempdb..#LTCCancerTemp') IS NOT NULL DROP TABLE #LTCCancerTemp;
+SELECT FK_Patient_Link_ID, EventDate INTO #LTCCancerTemp 
+FROM RLS.vw_GP_Events e
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Cancer') OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Cancer')
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < @StartDate;
+
+IF OBJECT_ID('tempdb..#LTCTempMedsLastYear') IS NOT NULL DROP TABLE #LTCTempMedsLastYear;
+SELECT DISTINCT FK_Patient_Link_ID, CAST(MedicationDate AS DATE) AS MedicationDate, 
+	CASE 
+		WHEN (
+		  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Painful Condition') OR
+		  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Painful Condition')
+		) THEN 'Painful Condition'
+		WHEN (
+		  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Migraine') OR
+		  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Migraine')
+		) THEN 'Migraine'
+		WHEN (
+		  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Irritable Bowel Syndrome') OR
+		  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Irritable Bowel Syndrome')
+		) THEN 'Irritable Bowel Syndrome'
+		WHEN (
+		  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Constipation') OR
+		  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Constipation')
+		) THEN 'Constipation'
+		WHEN (
+		  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Epilepsy') OR
+		  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Epilepsy')
+		) THEN 'Epilepsy'
+		WHEN (
+		  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Dyspepsia') OR
+		  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Dyspepsia')
+		) THEN 'Dyspepsia'
+	END AS Condition 
+INTO #LTCTempMedsLastYear 
+FROM RLS.vw_GP_Medications
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition in ('Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Migraine')) OR
+	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition in ('Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Migraine'))
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND MedicationDate < @StartDate
+AND MedicationDate >= DATEADD(year, -1, @StartDate);
+
 IF OBJECT_ID('tempdb..#PatientsWithLTCs') IS NOT NULL DROP TABLE #PatientsWithLTCs;
+CREATE TABLE #PatientsWithLTCs (FK_Patient_Link_ID BIGINT, Condition VARCHAR(100));
+
+-- Painful condition >= 4 Rx in last year
+INSERT INTO #PatientsWithLTCs
+SELECT FK_Patient_Link_ID, Condition FROM #LTCTempMedsLastYear
+WHERE Condition = 'Painful Condition'
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+GROUP BY FK_Patient_Link_ID, Condition
+HAVING COUNT(*) >= 4;
+
+-- Migraine >= 4 Rx in last year
+INSERT INTO #PatientsWithLTCs
+SELECT FK_Patient_Link_ID, Condition FROM #LTCTempMedsLastYear
+WHERE Condition = 'Migraine'
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+GROUP BY FK_Patient_Link_ID, Condition
+HAVING COUNT(*) >= 4;
+
+-- Constipation >= 4 Rx in last year
+INSERT INTO #PatientsWithLTCs
+SELECT FK_Patient_Link_ID, Condition FROM #LTCTempMedsLastYear
+WHERE Condition = 'Constipation'
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+GROUP BY FK_Patient_Link_ID, Condition
+HAVING COUNT(*) >= 4;
+
+-- Cancer only if first diagnosis in last 5 years
+INSERT INTO #PatientsWithLTCs
+SELECT FK_Patient_Link_ID, 'Cancer' FROM #LTCCancerTemp
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(EventDate) >= DATEADD(YEAR, -5, @StartDate);
+
+-- Epilepsy read code ever AND Rx in last year
+INSERT INTO #PatientsWithLTCs
+SELECT DISTINCT FK_Patient_Link_ID, 'Epilepsy'
+FROM RLS.vw_GP_Events e
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Epilepsy') OR
+	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Epilepsy')
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < @StartDate
+INTERSECT
+SELECT FK_Patient_Link_ID, 'Epilepsy' FROM #LTCTempMedsLastYear
+WHERE Condition = 'Epilepsy'
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+GROUP BY FK_Patient_Link_ID, Condition;
+
+-- IBS read code ever OR >= 4 Rx in last year
+-- Irritable Bowel Syndrome >= 4 Rx in last year
+INSERT INTO #PatientsWithLTCs
+SELECT FK_Patient_Link_ID, Condition FROM #LTCTempMedsLastYear
+WHERE Condition = 'Irritable Bowel Syndrome'
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+GROUP BY FK_Patient_Link_ID, Condition
+HAVING COUNT(*) >= 4;
+
+-- IBS read code ever
+INSERT INTO #PatientsWithLTCs
+SELECT DISTINCT FK_Patient_Link_ID, 'Irritable Bowel Syndrome'
+FROM RLS.vw_GP_Events e
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Irritable Bowel Syndrome') OR
+	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Irritable Bowel Syndrome')
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < @StartDate;
+
+-- All others just need read code ever
+INSERT INTO #PatientsWithLTCs
 SELECT DISTINCT 
   FK_Patient_Link_ID, 
   CASE
-  ${LTCConditions.map(
-    (condition) => `  WHEN (
+  ${LTCConditions.filter((condition) => specialConditions.indexOf(condition) < 0)
+    .map(
+      (condition) => `  WHEN (
       FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = '${condition}') OR
       FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = '${condition}')
     ) THEN '${condition}'`
-  ).join('\n\t')}
+    )
+    .join('\n\t')}
   END AS LTC
-INTO #PatientsWithLTCs
 FROM #LTCTemp;
 `;
   return sql;
@@ -328,9 +475,22 @@ function hasTerminology(terminology) {
 
 function getInsertStatementForTerminology(terminology) {
   return LTCCodesetsArray.filter((item) => item.terminology === terminology)
-    .map((item) =>
-      item.codes.map((code) => `('${item.condition}','${item.ltcGroup}','${code}','')`)
-    )
+    .map((item) => {
+      let rtn = item.codes.diagnosis
+        ? item.codes.diagnosis.map(
+            (code) => `('${item.condition}','${item.ltcGroup}','${item.dxOrRx}','${code}','')`
+          )
+        : [];
+
+      if (item.codes.medication) {
+        rtn = rtn.concat(
+          item.codes.medication.map(
+            (code) => `('${item.condition}','${item.ltcGroup}','${item.dxOrRx}','${code}','')`
+          )
+        );
+      }
+      return rtn;
+    })
     .flat()
     .filter((row) => row.length > 2)
     .reduce(
@@ -444,7 +604,14 @@ function loadCodesetSnomed(ltcGroup, conditionCodeSet) {
     .split('\n')
     .map((row) => row.split('\t'))
     .filter((items) => items.length > 1);
-  const snomedIndex = fileHeader.indexOf('snomed');
+  let snomedIndex = fileHeader.indexOf('snomed');
+  if (snomedIndex < 0) snomedIndex = fileHeader.map((x) => x.toLowerCase()).indexOf('id');
+  if (snomedIndex < 0) {
+    console.log(
+      `The file ${conditionCodeSet} in ${ltcGroup} does not have a column with the header 'snomed' or 'id'.`
+    );
+    return [];
+  }
   const snomedCodes = fileBody.map((items) => items[snomedIndex]);
   return snomedCodes;
 }

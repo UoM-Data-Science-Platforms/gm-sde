@@ -1,0 +1,123 @@
+readcode	description
+13Y9.00	Epilepsy society member
+14On.00	At risk of sudden unexpected death in epilepsy
+1B1W.00	Transient epileptic amnesia
+1B26.00	Trigger factor for seizure
+1B27.00	Seizures in response to acute event
+1O30.00	Epilepsy confirmed
+2126000	Epilepsy resolved
+212J.00	Epilepsy resolved
+282..13	O/E - a seizure
+2828.00	Absence seizure
+38VX.00	Neurological Disorders Depression Inventory in Epilepsy
+6674.00	Epilepsy associated problems
+6675.00	Fit frequency
+6676.00	Last fit
+6678.00	Epilepsy treatment changed
+6679.00	Epilepsy treatment started
+667A.00	Epilepsy treatment stopped
+667B.00	Nocturnal epilepsy
+667C.00	Epilepsy control good
+667D.00	Epilepsy control poor
+667E.00	Epilepsy care arrangement
+667G.00	Epilepsy restricts employment
+667H.00	Epilepsy prevents employment
+667J.00	Epilepsy impairs education
+667K.00	Epilepsy limits activities
+667L.00	Epilepsy does not limit activities
+667M.00	Epilepsy management plan given
+667N.00	Epilepsy severity
+667Q.00	1 to 12 seizures a year
+667R.00	2 to 4 seizures a month
+667S.00	1 to 7 seizures a week
+667T.00	Daily seizures
+667V.00	Many seizures a day
+667W.00	Emergency epilepsy treatment since last appointment
+667Y.00	Observations of measures of seizures
+8BIF.00	Epilepsy medication review
+8BL3.00	Patient on maximal tolerated anticonvulsant therapy
+94F1.00	SUDEP - sudden unexpected death in epilepsy
+Eu05212	[X]Schizophrenia-like psychosis in epilepsy
+Eu05y11	[X]Epileptic psychosis NOS
+Eu06013	[X]Limbic epilepsy personality
+Eu10800	[X]Alcohol withdrawal-induced seizure
+Eu80300	[X]Acquired aphasia with epilepsy [Landau - Kleffner]
+F132100	Progressive myoclonic epilepsy
+F132z12	Myoclonic seizure
+F25..00	Epilepsy
+F250.00	Generalised nonconvulsive epilepsy
+F250000	Petit mal (minor) epilepsy
+F250011	Epileptic absences
+F250100	Pykno-epilepsy
+F250200	Epileptic seizures - atonic
+F250300	Epileptic seizures - akinetic
+F250400	Juvenile absence epilepsy
+F250500	Lennox-Gastaut syndrome
+F250y00	Other specified generalised nonconvulsive epilepsy
+F250z00	Generalised nonconvulsive epilepsy NOS
+F251.00	Generalised convulsive epilepsy
+F251000	Grand mal (major) epilepsy
+F251011	Tonic-clonic epilepsy
+F251100	Neonatal myoclonic epilepsy
+F251111	Otohara syndrome
+F251200	Epileptic seizures - clonic
+F251300	Epileptic seizures - myoclonic
+F251400	Epileptic seizures - tonic
+F251500	Tonic-clonic epilepsy
+F251600	Grand mal seizure
+F251y00	Other specified generalised convulsive epilepsy
+F251z00	Generalised convulsive epilepsy NOS
+F252.00	Petit mal status
+F253.00	Grand mal status
+F253.11	Status epilepticus
+F254.00	Partial epilepsy with impairment of consciousness
+F254000	Temporal lobe epilepsy
+F254100	Psychomotor epilepsy
+F254200	Psychosensory epilepsy
+F254300	Limbic system epilepsy
+F254400	Epileptic automatism
+F254500	Complex partial epileptic seizure
+F254z00	Partial epilepsy with impairment of consciousness NOS
+F255.00	Partial epilepsy without mention of impairment of consciousness
+F255000	Jacksonian, focal or motor epilepsy
+F255011	Focal epilepsy
+F255012	Motor epilepsy
+F255100	Sensory induced epilepsy
+F255200	Somatosensory epilepsy
+F255300	Visceral reflex epilepsy
+F255311	Partial epilepsy with autonomic symptoms
+F255400	Visual reflex epilepsy
+F255500	Unilateral epilepsy
+F255600	Simple partial epileptic seizure
+F255y00	Other specified partial epilepsy without mention of impairment of consciousness
+F255z00	Partial epilepsy without mention of impairment of consciousness NOS
+F257.00	Kojevnikov's epilepsy
+F259.00	Early infantile epileptic encephalopathy with suppression bursts
+F25A.00	Juvenile myoclonic epilepsy
+F25B.00	Alcohol-induced epilepsy
+F25C.00	Drug-induced epilepsy
+F25D.00	Menstrual epilepsy
+F25E.00	Stress-induced epilepsy
+F25F.00	Photosensitive epilepsy
+F25G.00	Severe myoclonic epilepsy in infancy
+F25H.00	Generalised seizure
+F25X.00	Status epilepticus, unspecified
+F25y.00	Other forms of epilepsy
+F25y000	Cursive (running) epilepsy
+F25y100	Gelastic epilepsy
+F25y200	Localization-related(focal)(partial)idiopathic epilepsy and epileptic syndromes with seizures of localised onset
+F25y300	Complex partial status epilepticus
+F25y400	Benign Rolandic epilepsy
+F25yz00	Other forms of epilepsy NOS
+F25z.00	Epilepsy NOS
+F25z.11	Fit (in known epileptic) NOS
+F2C..00	Non-epileptic attack disorder
+Fyu5000	[X]Other generalized epilepsy and epileptic syndromes
+Fyu5100	[X]Other epilepsy
+Fyu5200	[X]Other status epilepticus
+Fyu5900	[X]Status epilepticus, unspecified
+R003211	[D]Fit (in non epileptic) NOS
+R003300	[D]Reflex anoxic seizure
+R003400	[D]Nocturnal seizure
+R003z11	[D]Seizure NOS
+SC20000	Traumatic epilepsy
