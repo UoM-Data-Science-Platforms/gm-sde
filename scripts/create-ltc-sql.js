@@ -522,7 +522,7 @@ function loadCodeset(ltcGroup, conditionCodeSet, terminology) {
   if (terminology === 'readv2') return loadCodesetReadv2(ltcGroup, conditionCodeSet);
   if (terminology === 'ctv3') return loadCodesetCTV3(ltcGroup, conditionCodeSet);
   if (terminology === 'snomed') return loadCodesetSnomed(ltcGroup, conditionCodeSet);
-  // if (terminology === 'emis') return loadCodesetEmis(ltcGroup, conditionCodeSet);
+  if (terminology === 'emis') return loadCodesetEmis(ltcGroup, conditionCodeSet);
 }
 
 function loadCodesetReadv2(ltcGroup, conditionCodeSet) {
@@ -596,6 +596,29 @@ function loadCodesetCTV3(ltcGroup, conditionCodeSet) {
   }
 
   return ctv3Codes;
+}
+
+function loadCodesetEmis(ltcGroup, conditionCodeSet) {
+  const filepath = join(LTC_DIRECTORY, ltcGroup, conditionCodeSet);
+  const [fileHeader, ...fileBody] = readFileSync(filepath, 'utf8')
+    .split('\n')
+    .map((row) => row.split('\t'))
+    .filter((items) => items.length > 1);
+  let emisIndex = fileHeader.map((x) => x.toLowerCase()).indexOf('emis');
+  if (emisIndex < 0) {
+    console.log(
+      `The file ${conditionCodeSet} in ${ltcGroup} does not have a column with the header 'emiscode' or 'emisid'.`
+    );
+    return [];
+  }
+  const emisCodes = fileBody.map((items) => items[emisIndex]);
+
+  if (emisCodes.length === 0) {
+    console.log(`The file ${conditionCodeSet} in ${ltcGroup} does not have any emis codes.`);
+    return [];
+  }
+
+  return emisCodes;
 }
 
 function loadCodesetSnomed(ltcGroup, conditionCodeSet) {
