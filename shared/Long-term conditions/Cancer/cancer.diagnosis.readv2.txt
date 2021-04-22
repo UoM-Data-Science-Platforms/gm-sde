@@ -1,0 +1,1228 @@
+medcode	readcode	Description	CodingSystem
+318	B210.00	Malignant neoplasm of glottis	readcode
+319	B21..00	Malignant neoplasm of larynx	readcode
+348	B34..11	Ca female breast	readcode
+779	B49..00	Malignant neoplasm of urinary bladder	readcode
+780	B46..00	Malignant neoplasm of prostate	readcode
+865	B32..00	Malignant melanoma of skin	readcode
+1056	B5z..00	Malignant neoplasm of other and unspecified site NOS	readcode
+1062	B10..00	Malignant neoplasm of oesophagus	readcode
+1220	B13..00	Malignant neoplasm of colon	readcode
+1481	B600.00	Reticulosarcoma	readcode
+1599	B4A0.00	Malignant neoplasm of kidney parenchyma	readcode
+1800	B141.00	Malignant neoplasm of rectum	readcode
+1952	B580.00	Secondary malignant neoplasm of kidney	readcode
+1986	B440.11	Cancer of ovary	readcode
+2462	B61..00	Hodgkin's disease	readcode
+2587	B22z.11	Lung cancer	readcode
+2744	B40..00	"Malignant neoplasm of uterus, part unspecified"	readcode
+2747	B41..00	Malignant neoplasm of cervix uteri	readcode
+2815	B133.00	Malignant neoplasm of sigmoid colon	readcode
+2890	B430200	Malignant neoplasm of endometrium of corpus uteri	readcode
+2961	B47z.11	Seminoma of testis	readcode
+3213	B430.00	"Malignant neoplasm of corpus uteri, excluding isthmus"	readcode
+3230	B41..11	Cervical carcinoma (uterus)	readcode
+3357	B1...11	Carcinoma of digestive organs and peritoneum	readcode
+3541	B48..00	Malignant neoplasm of penis and other male genital organs	readcode
+3604	B627.00	Non - Hodgkin's lymphoma	readcode
+3811	B134.00	Malignant neoplasm of caecum	readcode
+3903	B22z.00	Malignant neoplasm of bronchus or lung NOS	readcode
+3968	B34..00	Malignant neoplasm of female breast	readcode
+4072	B680.00	Acute leukaemia NOS	readcode
+4137	B570.00	Secondary malignant neoplasm of lung	readcode
+4218	B541.00	Malignant neoplasm of parathyroid gland	readcode
+4222	B64..11	Lymphatic leukaemia	readcode
+4250	B68z.00	Leukaemia NOS	readcode
+4251	B640.00	Acute lymphoid leukaemia	readcode
+4388	B020.00	Malignant neoplasm of parotid gland	readcode
+4403	B577.11	Liver metastases	readcode
+4413	B650.00	Acute myeloid leukaemia	readcode
+4554	B454.00	Malignant neoplasm of vulva unspecified	readcode
+4555	B45..00	Malig neop of other and unspecified female genital organs	readcode
+4865	B10z.11	Oesophageal cancer	readcode
+4870	B625.11	"Histiocytosis X (acute, progressive)"	readcode
+4944	B630.00	Multiple myeloma	readcode
+5062	B30..11	Chondroma	readcode
+5137	B624.11	Leukaemic reticuloendotheliosis	readcode
+5179	B620.00	Nodular lymphoma (Brill - Symmers disease)	readcode
+5198	B583000	Secondary malignant neoplasm of brain	readcode
+5199	B583200	Cerebral metastasis	readcode
+5637	B53..00	Malignant neoplasm of thyroid gland	readcode
+5842	B58..00	Secondary malignant neoplasm of other specified sites	readcode
+5901	B141.12	Rectal carcinoma	readcode
+6115	B6y0.00	Myeloproliferative disorder	readcode
+6170	B590.11	Carcinomatosis	readcode
+6471	B57..11	Metastases of respiratory and/or digestive systems	readcode
+6701	B565.00	Secondary and unspec malig neop intrapelvic lymph nodes	readcode
+6806	B12..00	Malignant neoplasm of small intestine and duodenum	readcode
+6935	B131.00	Malignant neoplasm of transverse colon	readcode
+7046	B43..00	Malignant neoplasm of body of uterus	readcode
+7176	B65..00	Myeloid leukaemia	readcode
+7219	B141.11	Carcinoma of rectum	readcode
+7484	B226.00	Mesothelioma	readcode
+7654	B585.00	Secondary malignant neoplasm of bone and bone marrow	readcode
+7740	B470200	Seminoma of undescended testis	readcode
+7805	B440.00	Malignant neoplasm of ovary	readcode
+7830	B56..11	Lymph node metastases	readcode
+7940	ByuDF11	[X]Non-Hodgkin's lymphoma NOS	readcode
+7978	B4A0000	Hypernephroma	readcode
+7982	B161200	Malignant neoplasm of common bile duct	readcode
+8154	B576200	Malignant ascites	readcode
+8166	B17..00	Malignant neoplasm of pancreas	readcode
+8386	B11..00	Malignant neoplasm of stomach	readcode
+8550	B542000	Malignant neoplasm of pituitary gland	readcode
+8625	B641.00	Chronic lymphoid leukaemia	readcode
+8649	ByuDF00	"[X]Non-Hodgkin's lymphoma, unspecified type"	readcode
+8693	B5...11	Carcinoma of other and unspecified sites	readcode
+8771	B170.00	Malignant neoplasm of head of pancreas	readcode
+8918	B15..00	Malignant neoplasm of liver and intrahepatic bile ducts	readcode
+9030	B55..00	Malignant neoplasm of other and ill-defined sites	readcode
+9088	B130.00	Malignant neoplasm of hepatic flexure of colon	readcode
+9118	B13z.11	Colonic cancer	readcode
+9237	B21z.00	Malignant neoplasm of larynx NOS	readcode
+9470	B34z.00	Malignant neoplasm of female breast NOS	readcode
+9476	B471100	Teratoma of descended testis	readcode
+9491	B142.11	Anal carcinoma	readcode
+9505	B582600	Secondary malignant neoplasm of skin of breast	readcode
+9600	B232.00	Mesothelioma of pleura	readcode
+9618	B56..00	Secondary and unspecified malignant neoplasm of lymph nodes	readcode
+9622	B525.00	Malignant neoplasm of cauda equina	readcode
+9902	B3...11	"Carcinoma of bone, connective tissue, skin and breast"	readcode
+9984	B00..11	Carcinoma of lip	readcode
+10283	B01..00	Malignant neoplasm of tongue	readcode
+10314	B057.00	Overlapping lesion of other and unspecified parts of mouth	readcode
+10358	B222.00	"Malignant neoplasm of upper lobe, bronchus or lung"	readcode
+10368	B11..11	Gastric neoplasm	readcode
+10698	B450100	Malignant neoplasm of vaginal vault	readcode
+10726	B651.00	Chronic myeloid leukaemia	readcode
+10851	B51..11	Cerebral tumour - malignant	readcode
+10864	B132.00	Malignant neoplasm of descending colon	readcode
+10946	B136.00	Malignant neoplasm of ascending colon	readcode
+10949	B162.00	Malignant neoplasm of ampulla of Vater	readcode
+10995	B5...00	Malignant neoplasm of other and unspecified sites	readcode
+11009	B1z..00	Malig neop oth/ill-defined sites digestive tract/peritoneum	readcode
+11035	B593.00	Primary malignant neoplasm of unknown site	readcode
+11628	B1z0.11	Cancer of bowel	readcode
+11991	B454.11	Primary vulval cancer	readcode
+12006	B621.00	Mycosis fungoides	readcode
+12323	B6...00	Malignant neoplasm of lymphatic and haemopoietic tissue	readcode
+12335	B62y.00	Malignant lymphoma NOS	readcode
+12389	B4A1.00	Malignant neoplasm of renal pelvis	readcode
+12464	B62x200	Peripheral T-cell lymphoma	readcode
+12490	B550200	Malignant neoplasm of nose NOS	readcode
+12499	Byu6.00	[X]Malignant neoplasm of breast	readcode
+12539	B3...12	Sarcoma of bone and connective tissue	readcode
+12582	B224100	Malignant neoplasm of lower lobe of lung	readcode
+12870	B221.00	Malignant neoplasm of main bronchus	readcode
+13243	B22..00	"Malignant neoplasm of trachea, bronchus and lung"	readcode
+13252	B4...00	Malignant neoplasm of genitourinary organ	readcode
+13559	B4A..00	Malig neop of kidney and other unspecified urinary organs	readcode
+13569	B590.00	Disseminated malignancy NOS	readcode
+14712	B00..00	Malignant neoplasm of lip	readcode
+14792	B05..00	Malignant neoplasm of other and unspecified parts of mouth	readcode
+14800	B11z.00	Malignant neoplasm of stomach NOS	readcode
+15027	B62yz00	Malignant lymphoma NOS	readcode
+15036	B626.00	Malignant mast cell tumours	readcode
+15103	B577.00	Secondary malignant neoplasm of liver	readcode
+15148	B47..00	Malignant neoplasm of testis	readcode
+15182	B31z.00	"Malignant neoplasm of connective and soft tissue, site NOS"	readcode
+15211	B630.12	Myelomatosis	readcode
+15221	B220.00	Malignant neoplasm of trachea	readcode
+15223	B4A2.00	Malignant neoplasm of ureter	readcode
+15504	B62y800	Malignant lymphoma NOS of lymph nodes of multiple sites	readcode
+15507	B56z.00	Secondary and unspec malig neop lymph nodes NOS	readcode
+15644	B4A3.00	Malignant neoplasm of urethra	readcode
+15684	B204.00	Malignant neoplasm of frontal sinus	readcode
+15709	B1...00	Malignant neoplasm of digestive organs and peritoneum	readcode
+15711	B510.00	Malignant neoplasm cerebrum (excluding lobes and ventricles)	readcode
+15907	B16z.00	Malignant neoplasm gallbladder/extrahepatic bile ducts NOS	readcode
+15976	B552.00	Malignant neoplasm of abdomen	readcode
+15989	B47z.12	Teratoma of testis	readcode
+15991	B506.00	Malignant neoplasm of choroid	readcode
+16075	B30z.00	Malignant neoplasm of bone and articular cartilage NOS	readcode
+16105	B160.00	Malignant neoplasm of gallbladder	readcode
+16126	B150000	Primary carcinoma of liver	readcode
+16213	B572.00	Secondary malignant neoplasm of pleura	readcode
+16241	B060.00	Malignant neoplasm of tonsil	readcode
+16280	B550400	Malignant neoplasm of neck NOS	readcode
+16297	B0z0.00	Malignant neoplasm of pharynx unspecified	readcode
+16298	B18z.00	Malignant neoplasm of retroperitoneum and peritoneum NOS	readcode
+16416	B681.00	Chronic leukaemia NOS	readcode
+16500	B58z.00	Secondary malignant neoplasm of other specified site NOS	readcode
+16704	B302.00	Malignant neoplasm of vertebral column	readcode
+16760	B58y000	Secondary malignant neoplasm of breast	readcode
+16874	B4...11	Carcinoma of genitourinary organ	readcode
+16915	B151.00	Malignant neoplasm of intrahepatic bile ducts	readcode
+16967	B432.00	Malignant neoplasm of overlapping lesion of corpus uteri	readcode
+17056	B6y0.11	Myeloproliferative disease	readcode
+17182	B627C11	Follicular lymphoma NOS	readcode
+17391	B221000	Malignant neoplasm of carina of bronchus	readcode
+17460	B627700	Diffuse non-Hodgkin's lymphoblastic (diffuse) lymphoma	readcode
+17475	B300A00	Malignant neoplasm of maxilla	readcode
+17559	B1z0.00	"Malignant neoplasm of intestinal tract, part unspecified"	readcode
+17841	B481.00	Malignant neoplasm of glans penis	readcode
+17874	B181.00	Mesothelioma of peritoneum	readcode
+17887	B62x.00	Malignant lymphoma otherwise specified	readcode
+17912	B042.00	"Malignant neoplasm, overlapping lesion of floor of mouth"	readcode
+18231	B540.11	Phaeochromocytoma	readcode
+18314	B30..00	Malignant neoplasm of bone and articular cartilage	readcode
+18608	B3...00	"Malig neop of bone, connective tissue, skin and breast"	readcode
+18613	B120.00	Malignant neoplasm of duodenum	readcode
+18616	B58y.00	Secondary malignant neoplasm of other specified sites	readcode
+18617	B51..00	Malignant neoplasm of brain	readcode
+18619	B137.00	Malignant neoplasm of splenic flexure of colon	readcode
+18632	B135.00	Malignant neoplasm of appendix	readcode
+18658	B562300	Secondary and unspec malig neop common iliac lymph nodes	readcode
+18676	B585000	Pathological fracture due to metastatic bone disease	readcode
+18678	B224000	Malignant neoplasm of lower lobe bronchus	readcode
+18712	B4A..11	Renal malignant neoplasm	readcode
+18882	B006.00	Malignant neoplasm of overlapping lesion of lip	readcode
+19028	B630100	Solitary myeloma	readcode
+19140	B614800	Hodgkin's nodular sclerosis of lymph nodes of multiple sites	readcode
+19141	B44..00	Malignant neoplasm of ovary and other uterine adnexa	readcode
+19144	Byu4.00	[X]Melanoma and other malignant neoplasms of skin	readcode
+19162	B493.00	Malignant neoplasm of anterior wall of urinary bladder	readcode
+19226	B513.00	Malignant neoplasm of parietal lobe	readcode
+19318	B112.00	Malignant neoplasm of pyloric antrum of stomach	readcode
+19321	B311300	Malignant neoplasm of connective and soft tissue of hand	readcode
+19372	B64..00	Lymphoid leukaemia	readcode
+19389	B3y..00	"Malig neop of bone, connective tissue, skin and breast OS"	readcode
+19415	B0...00	"Malignant neoplasm of lip, oral cavity and pharynx"	readcode
+19423	B35..00	Malignant neoplasm of male breast	readcode
+19437	B30z000	Osteosarcoma	readcode
+19444	Byu4100	"[X]Malignant melanoma of skin, unspecified"	readcode
+19475	B471.00	Malignant neoplasm of descended testis	readcode
+19945	B582.00	Secondary malignant neoplasm of skin	readcode
+19974	B660.00	Acute monocytic leukaemia	readcode
+20092	B04..00	Malignant neoplasm of floor of mouth	readcode
+20159	B56y.00	Secondary and unspec malig neop lymph nodes multiple sites	readcode
+20160	B50..00	Malignant neoplasm of eye	readcode
+20166	B45z.00	Malignant neoplasm of female genital organ NOS	readcode
+20170	B222.11	Pancoast's syndrome	readcode
+20292	B02..00	Malignant neoplasm of major salivary glands	readcode
+20440	B69..00	Myelomonocytic leukaemia	readcode
+20685	B346.00	Malignant neoplasm of axillary tail of female breast	readcode
+21329	B630200	Plasmacytoma NOS	readcode
+21330	B180.00	Malignant neoplasm of retroperitoneum	readcode
+21402	B602.00	Burkitt's lymphoma	readcode
+21549	B627C00	Follicular non-Hodgkin's lymphoma	readcode
+21590	B58y500	Secondary malignant neoplasm of prostate	readcode
+21620	B111.00	Malignant neoplasm of pylorus of stomach	readcode
+21698	B221z00	Malignant neoplasm of main bronchus NOS	readcode
+21715	Byu5011	[X]Mesothelioma of lung	readcode
+21786	B471000	Seminoma of descended testis	readcode
+22050	B691.00	Chronic myelomonocytic leukaemia	readcode
+22146	B581100	Secondary malignant neoplasm of bladder	readcode
+22158	B630000	"Malignant plasma cell neoplasm, extramedullary plasmacytoma"	readcode
+22163	B134.11	Carcinoma of caecum	readcode
+22187	B150300	Hepatocellular carcinoma	readcode
+22290	B313.00	Malignant neoplasm of connective and soft tissue of thorax	readcode
+22441	B212.00	Malignant neoplasm of subglottis	readcode
+22524	B58yz00	Secondary malignant neoplasm of other specified site NOS	readcode
+22893	B06..00	Malignant neoplasm of oropharynx	readcode
+22894	B110100	Malignant neoplasm of cardio-oesophageal junction of stomach	readcode
+23380	B340000	Malignant neoplasm of nipple of female breast	readcode
+23389	B200.00	Malignant neoplasm of nasal cavities	readcode
+23399	B344.00	Malignant neoplasm of upper-outer quadrant of female breast	readcode
+23433	B161.00	Malignant neoplasm of extrahepatic bile ducts	readcode
+23861	B551100	Malignant neoplasm of chest wall NOS	readcode
+24048	B180200	Malignant neoplasm of retrocaecal tissue	readcode
+24235	B524.00	Malig neopl peripheral nerves and autonomic nervous system	readcode
+24301	B57..12	Secondary carcinoma of respiratory and/or digestive systems	readcode
+24370	B142.00	Malignant neoplasm of anal canal	readcode
+24374	B0...11	"Carcinoma of lip, oral cavity and pharynx"	readcode
+24397	B061.00	Malignant neoplasm of tonsillar fossa	readcode
+24456	B201.00	"Malig neop auditory tube, middle ear and mastoid air cells"	readcode
+24675	B07..00	Malignant neoplasm of nasopharynx	readcode
+24852	B016.00	Malignant neoplasm of lingual tonsil	readcode
+25191	B68..00	Leukaemia of unspecified cell type	readcode
+25366	B561300	Secondary and unspec malig neop ant mediastinal lymph nodes	readcode
+25535	B150.00	Primary malignant neoplasm of liver	readcode
+25602	B326400	Malignant melanoma of finger	readcode
+25886	B222100	Malignant neoplasm of upper lobe of lung	readcode
+26034	B591.00	Other malignant neoplasm NOS	readcode
+26134	B064000	"Malignant neoplasm of epiglottis, free border"	readcode
+26165	B211.00	Malignant neoplasm of supraglottis	readcode
+26393	B152.00	Malignant neoplasm of liver unspecified	readcode
+26448	B060000	Malignant neoplasm of faucial tonsil	readcode
+26454	B45X.00	Malignant neoplasm/overlapping lesion/feml genital organs	readcode
+26652	B20..00	"Malig neop nasal cavities, middle ear and accessory sinuses"	readcode
+26813	B21y.00	"Malignant neoplasm of larynx, other specified site"	readcode
+26853	B340.00	Malignant neoplasm of nipple and areola of female breast	readcode
+27330	B624.00	Leukaemic reticuloendotheliosis	readcode
+27340	B670.11	Di Guglielmo's disease	readcode
+27391	B576100	Secondary malignant neoplasm of peritoneum	readcode
+27416	B601.00	Lymphosarcoma	readcode
+27449	B554.00	Malignant neoplasm of upper limb NOS	readcode
+27458	B661.00	Chronic monocytic leukaemia	readcode
+27483	B240.00	Malignant neoplasm of thymus	readcode
+27520	B651z00	Chronic myeloid leukaemia NOS	readcode
+27528	B303.00	"Malignant neoplasm of ribs, sternum and clavicle"	readcode
+27540	B4A1000	Malignant neoplasm of renal calyces	readcode
+27617	B45y000	Malignant neoplasm of overlapping lesion of vulva	readcode
+27651	B58..11	Secondary carcinoma of other specified sites	readcode
+27664	B65y100	Acute promyelocytic leukaemia	readcode
+27715	B242.00	Malignant neoplasm of anterior mediastinum	readcode
+27790	B641.11	Chronic lymphatic leukaemia	readcode
+27855	B140.00	Malignant neoplasm of rectosigmoid junction	readcode
+27897	B143.00	Malignant neoplasm of anus unspecified	readcode
+28003	B420.00	Choriocarcinoma	readcode
+28059	B560600	Secondary and unspec malig neop of facial lymph nodes	readcode
+28069	B505.00	Malignant neoplasm of retina	readcode
+28148	B540.00	Malignant neoplasm of adrenal gland	readcode
+28163	B13z.00	Malignant neoplasm of colon NOS	readcode
+28241	B496.00	Malignant neoplasm of ureteric orifice	readcode
+28276	B675.00	Acute myelofibrosis	readcode
+28311	B41z.00	Malignant neoplasm of cervix uteri NOS	readcode
+28451	B08z.00	Malignant neoplasm of hypopharynx NOS	readcode
+28556	B32z.00	Malignant melanoma of skin NOS	readcode
+28559	B055z00	Malignant neoplasm of palate NOS	readcode
+28639	B627000	Follicular non-Hodgkin's small cleaved cell lymphoma	readcode
+28665	B07z.00	Malignant neoplasm of nasopharynx NOS	readcode
+28727	B575000	Secondary malignant neoplasm of colon	readcode
+28919	B521.00	Malignant neoplasm of cerebral meninges	readcode
+29160	B313000	Malignant neoplasm of connective and soft tissue of axilla	readcode
+29178	B614.00	"Hodgkin's disease, nodular sclerosis"	readcode
+29283	B2zy.00	Malignant neoplasm of other site of respiratory tract	readcode
+29462	B4Az.00	Malignant neoplasm of kidney or urinary organs NOS	readcode
+29735	B30..12	Osteoma	readcode
+29826	B342.00	Malignant neoplasm of upper-inner quadrant of female breast	readcode
+29876	B613z00	"Hodgkin's, lymphocytic-histiocytic predominance NOS"	readcode
+30165	B18y200	Malignant neoplasm of mesorectum	readcode
+30402	B050.11	Malignant neoplasm of buccal mucosa	readcode
+30511	B54..00	Malig neop of other endocrine glands and related structures	readcode
+30526	Byu5100	"[X]Mesothelioma, unspecified"	readcode
+30542	B312300	Malig neop of connective and soft tissue of lower leg	readcode
+30632	B67z.00	Other specified leukaemia NOS	readcode
+30646	B6y..00	Malignant neoplasm lymphatic or haematopoietic tissue OS	readcode
+30700	B10z.00	Malignant neoplasm of oesophagus NOS	readcode
+31102	B49z.00	Malignant neoplasm of urinary bladder NOS	readcode
+31188	B224.00	"Malignant neoplasm of lower lobe, bronchus or lung"	readcode
+31210	B150100	Hepatoblastoma of liver	readcode
+31268	B223.00	"Malignant neoplasm of middle lobe, bronchus or lung"	readcode
+31324	B626800	Mast cell malignancy of lymph nodes of multiple sites	readcode
+31364	B050.00	Malignant neoplasm of cheek mucosa	readcode
+31393	B160.11	Carcinoma gallbladder	readcode
+31399	B555.00	Malignant neoplasm of lower limb NOS	readcode
+31546	B341.00	Malignant neoplasm of central part of female breast	readcode
+31573	B23..00	Malignant neoplasm of pleura	readcode
+31576	B627B00	Other types of follicular non-Hodgkin's lymphoma	readcode
+31586	B64y100	Prolymphocytic leukaemia	readcode
+31608	B43y.00	Malignant neoplasm of other site of uterine body	readcode
+31700	B222000	Malignant neoplasm of upper lobe bronchus	readcode
+31701	B651.11	Chronic granulocytic leukaemia	readcode
+31794	B627W00	Unspecified B-cell non-Hodgkin's lymphoma	readcode
+32022	B110.00	Malignant neoplasm of cardia of stomach	readcode
+32024	B030.00	Malignant neoplasm of upper gum	readcode
+32174	B202.00	Malignant neoplasm of maxillary sinus	readcode
+32362	B113.00	Malignant neoplasm of fundus of stomach	readcode
+32372	B302100	Malignant neoplasm of thoracic vertebra	readcode
+32768	B325100	Malignant melanoma of breast	readcode
+32955	B41y.00	Malignant neoplasm of other site of cervix	readcode
+33333	B62..00	Other malignant neoplasm of lymphoid and histiocytic tissue	readcode
+33344	B65z.00	Myeloid leukaemia NOS	readcode
+33388	B071000	Malignant neoplasm of adenoid	readcode
+33395	B560200	Secondary and unspec malig neop superficial cervical LN	readcode
+33444	B221100	Malignant neoplasm of hilus of lung	readcode
+33617	B43z.00	Malignant neoplasm of body of uterus NOS	readcode
+33833	B301.00	Malignant neoplasm of mandible	readcode
+33843	B583.00	Secondary malignant neoplasm of brain and spinal cord	readcode
+33871	B122.00	Malignant neoplasm of ileum	readcode
+34012	B08..00	Malignant neoplasm of hypopharynx	readcode
+34075	B2...00	Malig neop of respiratory tract and intrathoracic organs	readcode
+34089	B62y400	Malignant lymphoma NOS of lymph nodes of axilla and arm	readcode
+34145	B58y600	Secondary malignant neoplasm of testis	readcode
+34259	B325300	Malignant melanoma of groin	readcode
+34388	B17z.00	Malignant neoplasm of pancreas NOS	readcode
+34409	B010000	Malignant neoplasm of base of tongue dorsal surface	readcode
+34451	B31..00	Malignant neoplasm of connective and other soft tissue	readcode
+34692	B68y.00	Other leukaemia of unspecified cell type	readcode
+34742	B23z.00	Malignant neoplasm of pleura NOS	readcode
+34878	B308300	Malignant neoplasm of medial cuneiform	readcode
+34926	B625.00	Letterer-Siwe disease	readcode
+35014	B622.00	Sezary's disease	readcode
+35039	B163.00	"Malignant neoplasm, overlapping lesion of biliary tract"	readcode
+35053	B57..00	Secondary malig neop of respiratory and digestive systems	readcode
+35113	Byu9.00	[X]Malignant neoplasm of urinary tract	readcode
+35180	Byu1.00	[X]Malignant neoplasm of digestive organs	readcode
+35186	ByuC.00	"[X]Malignant neoplasm of ill-defined, secondary and unspeci"	readcode
+35285	ByuA.00	"[X]Malignant neoplasm of eye, brain and other parts of cent"	readcode
+35325	Byu2.00	[X]Malignant neoplasm of respiratory and intrathoracic orga	readcode
+35357	B14..00	"Malignant neoplasm of rectum, rectosigmoid junction and anus"	readcode
+35364	B576000	Secondary malignant neoplasm of retroperitoneum	readcode
+35535	B173.00	Malignant neoplasm of pancreatic duct	readcode
+35795	B174.00	Malignant neoplasm of Islets of Langerhans	readcode
+35875	B66..00	Monocytic leukaemia	readcode
+35963	B492.00	Malignant neoplasm of lateral wall of urinary bladder	readcode
+35999	B582200	Secondary malignant neoplasm of skin of neck	readcode
+36147	B153.00	Secondary malignant neoplasm of liver	readcode
+36161	B012.00	"Malignant neoplasm of tongue, tip and lateral border"	readcode
+36200	B575z00	Secondary malig neop of large intestine or rectum NOS	readcode
+36325	B470300	Teratoma of undescended testis	readcode
+36371	B225.00	Malignant neoplasm of overlapping lesion of bronchus & lung	readcode
+36401	B587.00	Secondary malignant neoplasm of adrenal gland	readcode
+36495	B161211	Carcinoma common bile duct	readcode
+36716	B04z.00	Malignant neoplasm of floor of mouth NOS	readcode
+36899	B327800	Malignant melanoma of toe	readcode
+36949	B49y.00	Malignant neoplasm of other site of urinary bladder	readcode
+37096	B015.00	"Malignant neoplasm of tongue, junctional zone"	readcode
+37112	B6...11	Malignant neoplasm of histiocytic tissue	readcode
+37182	B63..00	Multiple myeloma and immunoproliferative neoplasms	readcode
+37272	B67..00	Other specified leukaemia	readcode
+37328	B450.00	Malignant neoplasm of vagina	readcode
+37461	B64y200	Adult T-cell leukaemia	readcode
+37468	B671.00	Chronic erythraemia	readcode
+37516	B054.00	Malignant neoplasm of uvula	readcode
+37540	B563000	Secondary and unspec malig neop axillary lymph nodes	readcode
+37549	B05z000	Kaposi's sarcoma of palate	readcode
+37553	B007.00	"Malignant neoplasm of lip, unspecified"	readcode
+37590	B052.00	Malignant neoplasm of hard palate	readcode
+37618	B551000	Malignant neoplasm of axilla NOS	readcode
+37724	B056.00	Malignant neoplasm of retromolar area	readcode
+37805	B213100	Malignant neoplasm of cricoid cartilage	readcode
+37810	B220z00	Malignant neoplasm of trachea NOS	readcode
+37842	B303000	Malignant neoplasm of rib	readcode
+37859	B110z00	Malignant neoplasm of cardia of stomach NOS	readcode
+37872	B327400	Malignant melanoma of lower leg	readcode
+37916	B05y.00	Malignant neoplasm of other specified mouth parts	readcode
+37919	B561000	Secondary and unspec malig neop internal mammary lymph nodes	readcode
+37940	B072000	Malignant neoplasm of pharyngeal recess	readcode
+38005	B621z00	Mycosis fungoides NOS	readcode
+38331	B64yz00	Other lymphoid leukaemia NOS	readcode
+38343	B560700	Secondary and unspec malig neop submental lymph nodes	readcode
+38475	B34yz00	Malignant neoplasm of other site of female breast NOS	readcode
+38488	B013z00	Malignant neoplasm of ventral tongue surface NOS	readcode
+38510	B47z.00	Malignant neoplasm of testis NOS	readcode
+38689	B325.00	Malignant melanoma of trunk (excluding scrotum)	readcode
+38736	B5y..00	Malignant neoplasm of other and unspecified site OS	readcode
+38862	B490.00	Malignant neoplasm of trigone of urinary bladder	readcode
+38914	B64z.00	Lymphoid leukaemia NOS	readcode
+38918	B583100	Secondary malignant neoplasm of spinal cord	readcode
+38931	B4y..00	Malignant neoplasm of genitourinary organ OS	readcode
+38938	B306z00	"Malignant neoplasm of pelvis, sacrum or coccyx NOS"	readcode
+38939	B613.00	"Hodgkin's disease, lymphocytic-histiocytic predominance"	readcode
+38961	B22y.00	Malignant neoplasm of other sites of bronchus or lung	readcode
+38978	B15z.00	Malignant neoplasm of liver and intrahepatic bile ducts NOS	readcode
+39027	ByuC000	[X]Malignant neoplasm of other specified sites	readcode
+39084	B0z2.00	Malignant neoplasm of laryngopharynx	readcode
+39088	B514.00	Malignant neoplasm of occipital lobe	readcode
+39187	B631.00	Plasma cell leukaemia	readcode
+39336	B6y1.00	Myelosclerosis with myeloid metaplasia	readcode
+39413	B18y500	Malignant neoplasm of pelvic peritoneum	readcode
+39430	B0zz.00	"Malignant neoplasm of lip, oral cavity and pharynx NOS"	readcode
+39433	B560500	Secondary and unspec malig neop submandibular lymph nodes	readcode
+39531	B25..00	"Malig neo, overlapping lesion of heart, mediastinum & pleura"	readcode
+39554	B063.00	Malignant neoplasm of vallecula	readcode
+39590	B206.00	"Malignant neoplasm, overlapping lesion of accessory sinuses"	readcode
+39629	B653100	Granulocytic sarcoma	readcode
+39798	B627X00	"Diffuse non-Hodgkin's lymphoma, unspecified"	readcode
+39870	B172.00	Malignant neoplasm of tail of pancreas	readcode
+39878	B327300	Malignant melanoma of popliteal fossa area	readcode
+39897	B081.00	Malignant neoplasm of pyriform sinus	readcode
+39899	B542100	Malignant neoplasm of craniopharyngeal duct	readcode
+39923	B223100	Malignant neoplasm of middle lobe of lung	readcode
+40014	B310100	Malignant neoplasm of soft tissue of face	readcode
+40292	B053.00	Malignant neoplasm of soft palate	readcode
+40437	B50y.00	Malignant neoplasm of other specified site of eye	readcode
+40557	B01z.00	Malignant neoplasm of tongue NOS	readcode
+40592	Byu5.00	[X]Malignant neoplasm of mesothelial and soft tissue	readcode
+40595	Byu2000	"[X]Malignant neoplasm of bronchus or lung, unspecified"	readcode
+40598	Byu7.00	[X]Malignant neoplasm of female genital organs	readcode
+40608	ByuB.00	[X]Malignant neoplasm of thyroid and other endocrine glands	readcode
+40671	Byu8.00	[X]Malignant neoplasm of male genital organs	readcode
+40740	ByuD.00	"[X]Malignant neoplasms of lymphoid, haematopoietic and rela"	readcode
+40749	Byu3.00	[X]Malignant neoplasm of bone and articular cartilage	readcode
+40810	B171.00	Malignant neoplasm of body of pancreas	readcode
+40814	B307200	Malignant neoplasm of tibia	readcode
+40966	B306300	Malignant neoplasm of sacral vertebra	readcode
+41011	B3z..00	"Malig neop of bone, connective tissue, skin and breast NOS"	readcode
+41144	B582300	Secondary malignant neoplasm of skin of trunk	readcode
+41215	B111100	Malignant neoplasm of pyloric canal of stomach	readcode
+41278	B323000	Malignant melanoma of external surface of cheek	readcode
+41362	B101.00	Malignant neoplasm of thoracic oesophagus	readcode
+41369	B60..00	Lymphosarcoma and reticulosarcoma	readcode
+41490	B327700	Malignant melanoma of foot	readcode
+41515	ByuA100	"[X]Malignant neoplasm/central nervous system, unspecified"	readcode
+41520	B51z.00	Malignant neoplasm of brain NOS	readcode
+41523	B223000	Malignant neoplasm of middle lobe bronchus	readcode
+41530	B01y.00	Malignant neoplasm of other sites of tongue	readcode
+41571	B495.00	Malignant neoplasm of bladder neck	readcode
+41691	B562000	Secondary and unspec malig neop coeliac lymph nodes	readcode
+41931	B550100	Malignant neoplasm of cheek NOS	readcode
+42012	B494.00	Malignant neoplasm of posterior wall of urinary bladder	readcode
+42023	B497.00	Malignant neoplasm of urachus	readcode
+42070	B345.00	Malignant neoplasm of lower-outer quadrant of female breast	readcode
+42153	B32y.00	Malignant melanoma of other specified skin site	readcode
+42193	B115.00	Malignant neoplasm of lesser curve of stomach unspecified	readcode
+42218	B55y.00	Malignant neoplasm of other specified sites	readcode
+42416	B105.00	Malignant neoplasm of lower third of oesophagus	readcode
+42426	B511.00	Malignant neoplasm of frontal lobe	readcode
+42460	B543.00	Malignant neoplasm of pineal gland	readcode
+42461	B61zz00	Hodgkin's disease NOS	readcode
+42539	B670.00	Acute erythraemia and erythroleukaemia	readcode
+42566	B224z00	"Malignant neoplasm of lower lobe, bronchus or lung NOS"	readcode
+42569	B2zz.00	Malignant neoplasm of respiratory tract NOS	readcode
+42579	B62y300	Malignant lymphoma NOS of intra-abdominal lymph nodes	readcode
+42714	B327500	Malignant melanoma of ankle	readcode
+42856	B200z00	Malignant neoplasm of nasal cavities NOS	readcode
+43111	B213.00	Malignant neoplasm of laryngeal cartilage	readcode
+43151	Byu3300	"[X]Malignant neoplasm/bone+articular cartilage, unspecified"	readcode
+43200	B06z.00	Malignant neoplasm of oropharynx NOS	readcode
+43390	B12z.00	Malignant neoplasm of small intestine NOS	readcode
+43392	B483.00	"Malignant neoplasm of penis, part unspecified"	readcode
+43400	B03..00	Malignant neoplasm of gum	readcode
+43415	ByuD000	[X]Other Hodgkin's disease	readcode
+43431	B010.00	Malignant neoplasm of base of tongue	readcode
+43435	B41yz00	Malignant neoplasm of other site of cervix NOS	readcode
+43450	B63z.00	Immunoproliferative neoplasm or myeloma NOS	readcode
+43463	B325700	Malignant melanoma of back	readcode
+43475	B310.00	"Malig neop of connective and soft tissue head, face and neck"	readcode
+43479	B121.00	Malignant neoplasm of jejunum	readcode
+43490	Byu1100	[X]Other specified carcinomas of liver	readcode
+43548	B080.00	Malignant neoplasm of postcricoid region	readcode
+43552	B630.11	Kahler's disease	readcode
+43572	B114.00	Malignant neoplasm of body of stomach	readcode
+43614	B30X.00	"Malignant neoplasm/bones+articular cartilage/limb,unspfd"	readcode
+43642	B011.00	Malignant neoplasm of dorsal surface of tongue	readcode
+43715	B325600	Malignant melanoma of umbilicus	readcode
+43761	B451.00	Malignant neoplasm of labia majora	readcode
+43781	B011z00	Malignant neoplasm of dorsum of tongue NOS	readcode
+43930	B582000	Secondary malignant neoplasm of skin of head	readcode
+43940	B431.00	Malignant neoplasm of isthmus of uterine body	readcode
+44089	B517.00	Malignant neoplasm of brain stem	readcode
+44108	B18..00	Malignant neoplasm of retroperitoneum and peritoneum	readcode
+44139	B073.00	Malignant neoplasm of anterior wall of nasopharynx	readcode
+44169	B222z00	"Malignant neoplasm of upper lobe, bronchus or lung NOS"	readcode
+44196	B611.00	Hodgkin's granuloma	readcode
+44267	B623.00	Malignant histiocytosis	readcode
+44318	B62xX00	Oth and unspecif peripheral & cutaneous T-cell lymphomas	readcode
+44356	B2z..00	Malig neop other/ill-defined sites resp/intrathoracic organs	readcode
+44399	B150z00	Primary malignant neoplasm of liver NOS	readcode
+44452	B300C00	Malignant neoplasm of vomer	readcode
+44529	B575.00	Secondary malignant neoplasm of large intestine and rectum	readcode
+44609	B306000	Malignant neoplasm of ilium	readcode
+44615	B586.00	Secondary malignant neoplasm of ovary	readcode
+44627	B560800	Secondary and unspec malig neop anterior cervical LN	readcode
+44805	B312100	Malig neop of connective and soft tissue thigh and upper leg	readcode
+44884	B4Ay.00	Malignant neoplasm of other urinary organs	readcode
+44931	B562z00	Secondary and unspec malig neop intra-abdominal LN NOS	readcode
+44996	B491.00	Malignant neoplasm of dome of urinary bladder	readcode
+45071	B314.00	Malignant neoplasm of connective and soft tissue of abdomen	readcode
+45139	B323400	Malignant melanoma of external surface of nose	readcode
+45154	B516.00	Malignant neoplasm of cerebellum	readcode
+45222	B343.00	Malignant neoplasm of lower-inner quadrant of female breast	readcode
+45260	Byu9000	"[X]Malignant neoplasm of urinary organ, unspecified"	readcode
+45262	Byu8200	"[X]Malignant neoplasm of male genital organ, unspecified"	readcode
+45264	B620100	"Nodular lymphoma of lymph nodes of head, face and neck"	readcode
+45267	B55z.00	Malignant neoplasm of other and ill defined site NOS	readcode
+45306	B324100	Malignant melanoma of neck	readcode
+45307	B2...11	Carcinoma of respiratory tract and intrathoracic organs	readcode
+45408	B040.00	Malignant neoplasm of anterior portion of floor of mouth	readcode
+45490	B430z00	Malignant neoplasm of corpus uteri NOS	readcode
+45667	B501.00	Malignant neoplasm of orbit	readcode
+45755	B326200	Malignant melanoma of fore-arm	readcode
+45760	B325z00	"Malignant melanoma of trunk, excluding scrotum, NOS"	readcode
+45766	Byu1200	"[X]Malignant neoplasm of intestinal tract, part unspecified"	readcode
+45793	B430300	Malignant neoplasm of myometrium of corpus uteri	readcode
+45824	B58y900	Secondary malignant neoplasm of tongue	readcode
+45922	B508.00	"Malignant neoplasm, overlapping lesion of eye and adnexa"	readcode
+45986	B041.00	Malignant neoplasm of lateral portion of floor of mouth	readcode
+46042	B630300	Lambda light chain myeloma	readcode
+46114	B0z..00	"Malig neop other/ill-defined sites lip, oral cavity, pharynx"	readcode
+46153	B443.00	Malignant neoplasm of parametrium	readcode
+46159	B142000	Malignant neoplasm of cloacogenic zone	readcode
+46255	B327.00	Malignant melanoma of lower limb and hip	readcode
+46409	B563300	Secondary and unspec malig neop pectoral lymph nodes	readcode
+46548	B071100	Malignant neoplasm of pharyngeal tonsil	readcode
+46613	B18y.00	Malignant neoplasm of specified parts of peritoneum	readcode
+46728	B064.00	Malignant neoplasm of anterior epiglottis	readcode
+46789	B515000	Malignant neoplasm of choroid plexus	readcode
+46792	B512.00	Malignant neoplasm of temporal lobe	readcode
+46905	B545200	Malignant neoplasm of coccygeal body	readcode
+46939	B302000	Malignant neoplasm of cervical vertebra	readcode
+47094	B323200	Malignant melanoma of eyebrow	readcode
+47204	B625z00	Letterer-Siwe disease NOS	readcode
+47205	B017.00	Malignant overlapping lesion of tongue	readcode
+47252	B323.00	Malignant melanoma of other and unspecified parts of face	readcode
+47286	B551.00	Malignant neoplasm of thorax	readcode
+47366	B565300	Secondary and unspec malig neop sacral lymph nodes	readcode
+47556	B512z00	Malignant neoplasm of temporal lobe NOS	readcode
+47633	ByuA300	"[X]Malig neopl, overlap lesion brain & other part of CNS"	readcode
+47668	B48y100	Malignant neoplasm of tunica vaginalis	readcode
+47767	B486.00	Malignant neoplasm of scrotum	readcode
+47801	B49y000	"Malignant neoplasm, overlapping lesion of bladder"	readcode
+47810	B59..00	Malignant neoplasm of unspecified site	readcode
+47840	B545100	Malignant neoplasm of aortic body	readcode
+47862	B213300	Malignant neoplasm of thyroid cartilage	readcode
+47899	B451000	Malignant neoplasm of greater vestibular (Bartholin's) gland	readcode
+48073	B510000	Malignant neoplasm of basal ganglia	readcode
+48231	B13y.00	Malignant neoplasm of other specified sites of colon	readcode
+48237	B111000	Malignant neoplasm of prepylorus of stomach	readcode
+48517	B310200	Malignant neoplasm of soft tissue of neck	readcode
+48519	B065.00	Malignant neoplasm of junctional region of epiglottis	readcode
+48537	B17y.00	Malignant neoplasm of other specified sites of pancreas	readcode
+48743	B482.00	Malignant neoplasm of body of penis	readcode
+48809	B35zz00	Malignant neoplasm of male breast NOS	readcode
+48820	B410.00	Malignant neoplasm of endocervix	readcode
+48828	B582500	Secondary malignant neoplasm of skin of hip and leg	readcode
+49054	B304000	Malignant neoplasm of scapula	readcode
+49132	B517100	Malignant neoplasm of medulla oblongata	readcode
+49145	B58y700	Secondary malignant neoplasm of penis	readcode
+49148	B347.00	"Malignant neoplasm, overlapping lesion of breast"	readcode
+49214	B560.00	Secondary and unspec malig neop lymph nodes head/face/neck	readcode
+49262	B627200	Follicular non-Hodgkin's large cell lymphoma	readcode
+49292	Byu1300	[X]Malignant neoplsm/ill-defin sites within digestive system	readcode
+49301	B6z..00	Malignant neoplasm lymphatic or haematopoietic tissue NOS	readcode
+49360	B031.00	Malignant neoplasm of lower gum	readcode
+49400	B430211	Malignant neoplasm of endometrium	readcode
+49463	B310400	Malignant neoplasm of tarsus of eyelid	readcode
+49491	B303100	Malignant neoplasm of sternum	readcode
+49525	B59zX00	"Kaposi's sarcoma, unspecified"	readcode
+49605	B615.00	"Hodgkin's disease, mixed cellularity"	readcode
+49701	B302z00	Malignant neoplasm of vertebral column NOS	readcode
+49714	B523.00	Malignant neoplasm of spinal meninges	readcode
+49725	B64y.00	Other lymphoid leukaemia	readcode
+49758	B0zy.00	"Malignant neoplasm of other sites lip, oral cavity, pharynx"	readcode
+49814	B325000	Malignant melanoma of axilla	readcode
+49828	B441.00	Malignant neoplasm of fallopian tube	readcode
+49875	B52X.00	"Malignant neoplasm of meninges, unspecified"	readcode
+50035	B545.00	Malignant neoplasm of aortic body and other paraganglia	readcode
+50152	B306500	Malignant sacral teratoma	readcode
+50199	B563.00	Secondary and unspec malig neop axilla and upper limb LN	readcode
+50222	B311000	Malignant neoplasm of connective and soft tissue of shoulder	readcode
+50285	B410z00	Malignant neoplasm of endocervix NOS	readcode
+50289	B241z00	Malignant neoplasm of heart NOS	readcode
+50290	B6z0.00	Kaposi's sarcoma of lymph nodes	readcode
+50292	Byu2500	"[X]Malignant neoplasm of mediastinum, part unspecified"	readcode
+50296	B000100	"Malignant neoplasm of upper lip, lipstick area"	readcode
+50297	B411.00	Malignant neoplasm of exocervix	readcode
+50298	B300500	Malignant neoplasm of orbital bone	readcode
+50299	B300900	Malignant neoplasm of zygomatic bone	readcode
+50402	B307100	Malignant neoplasm of fibula	readcode
+50475	B02z.00	Malignant neoplasm of major salivary gland NOS	readcode
+50505	B326000	Malignant melanoma of shoulder	readcode
+50579	B214.00	"Malignant neoplasm, overlapping lesion of larynx"	readcode
+50668	B627300	Diffuse non-Hodgkin's small cell (diffuse) lymphoma	readcode
+50681	B480.00	Malignant neoplasm of prepuce (foreskin)	readcode
+50695	B627500	Diffuse non-Hodgkin mixed sml & lge cell (diffuse) lymphoma	readcode
+50696	B62y100	"Malignant lymphoma NOS of lymph nodes of head, face and neck"	readcode
+50777	B524600	"Malignant neoplasm,overlap lesion periph nerve & auton ns"	readcode
+50789	B103.00	Malignant neoplasm of upper third of oesophagus	readcode
+50858	B674.00	Acute panmyelosis	readcode
+50898	B18y300	Malignant neoplasm of omentum	readcode
+50904	B563200	Secondary and unspec malig neop infraclavicular lymph nodes	readcode
+50974	B14z.00	"Malignant neoplasm rectum,rectosigmoid junction and anus NOS"	readcode
+51115	B522.00	Malignant neoplasm of spinal cord	readcode
+51209	B325800	Malignant melanoma of chest wall	readcode
+51237	B303z00	"Malignant neoplasm of rib, sternum and clavicle NOS"	readcode
+51255	B1zz.00	Malignant neoplasm of digestive tract and peritoneum NOS	readcode
+51352	B592.00	Malignant neoplasms of independent (primary) multiple sites	readcode
+51551	B571.00	Secondary malignant neoplasm of mediastinum	readcode
+51690	B117.00	"Malignant neoplasm, overlapping lesion of stomach"	readcode
+51786	B021.00	Malignant neoplasm of submandibular gland	readcode
+51795	B545000	Malignant neoplasm of glomus jugulare	readcode
+51818	B550300	Malignant neoplasm of jaw NOS	readcode
+51873	B327100	Malignant melanoma of thigh	readcode
+51921	B306200	Malignant neoplasm of pubis	readcode
+51926	B062000	Malignant neoplasm of faucial pillar	readcode
+51965	B315.00	Malignant neoplasm of connective and soft tissue of pelvis	readcode
+52029	ByuC800	[X]Malignant neoplasm without specification of site	readcode
+52190	B561900	Secondary and unspec malig neop pulmonary lymph nodes	readcode
+52316	B553.00	Malignant neoplasm of pelvis	readcode
+52327	B653000	Chloroma	readcode
+52511	B515.00	Malignant neoplasm of cerebral ventricles	readcode
+52537	B161100	Malignant neoplasm of hepatic duct	readcode
+52570	B487.00	"Malignant neoplasm, overlapping lesion of penis"	readcode
+52594	B4z..00	Malignant neoplasm of genitourinary organ NOS	readcode
+52736	B562.00	Secondary and unspec malig neop intra-abdominal lymph nodes	readcode
+53103	B410100	Malignant neoplasm of endocervical gland	readcode
+53369	B327900	Malignant melanoma of great toe	readcode
+53397	B61z.00	Hodgkin's disease NOS	readcode
+53504	B52W.00	"Malig neopl, overlap lesion brain & other part of CNS"	readcode
+53528	B581200	Secondary malignant neoplasm of urethra	readcode
+53551	B627600	Diffuse non-Hodgkin's immunoblastic (diffuse) lymphoma	readcode
+53591	B10y.00	Malignant neoplasm of other specified part of oesophagus	readcode
+53594	B300000	Malignant neoplasm of ethmoid bone	readcode
+53599	B300100	Malignant neoplasm of frontal bone	readcode
+53629	B325200	Malignant melanoma of buttock	readcode
+53884	B060z00	Malignant neoplasm tonsil NOS	readcode
+53910	B453.00	Malignant neoplasm of clitoris	readcode
+53989	B311.00	Malig neop connective and soft tissue upper limb/shoulder	readcode
+54083	B625800	Letterer-Siwe disease of lymph nodes of multiple sites	readcode
+54103	B16..00	Malignant neoplasm gallbladder and extrahepatic bile ducts	readcode
+54120	B584.00	Secondary malignant neoplasm of other part of nervous system	readcode
+54133	B510z00	Malignant neoplasm of cerebrum NOS	readcode
+54134	B223z00	"Malignant neoplasm of middle lobe, bronchus or lung NOS"	readcode
+54171	B104.00	Malignant neoplasm of middle third of oesophagus	readcode
+54184	B4A1z00	Malignant neoplasm of renal pelvis NOS	readcode
+54186	B313100	Malignant neoplasm of diaphragm	readcode
+54202	B35z.00	Malignant neoplasm of other site of male breast	readcode
+54222	B312400	Malignant neoplasm of connective and soft tissue of foot	readcode
+54253	ByuC700	[X]Secondary malignant neoplasm of other specified sites	readcode
+54267	B59z.00	Malignant neoplasm of unspecified site NOS	readcode
+54278	B564000	Secondary and unspec malig neop superficial inguinal LN	readcode
+54305	B327200	Malignant melanoma of knee	readcode
+54493	B303500	Malignant neoplasm of xiphoid process	readcode
+54494	B350.00	Malignant neoplasm of nipple and areola of male breast	readcode
+54613	B201200	Malignant neoplasm of tympanic antrum	readcode
+54631	B306.00	"Malignant neoplasm of pelvic bones, sacrum and coccyx"	readcode
+54632	B321.00	Malignant melanoma of eyelid including canthus	readcode
+54636	B203.00	Malignant neoplasm of ethmoid sinus	readcode
+54679	B594.00	Secondary malignant neoplasm of unknown site	readcode
+54685	B326100	Malignant melanoma of upper arm	readcode
+54691	B302200	Malignant neoplasm of lumbar vertebra	readcode
+54747	B300600	Malignant neoplasm of parietal bone	readcode
+54793	B682.00	Subacute leukaemia NOS	readcode
+54956	B50z.00	Malignant neoplasm of eye NOS	readcode
+54965	B312200	Malig neop connective and soft tissue of popliteal space	readcode
+55015	B05z.00	Malignant neoplasm of mouth NOS	readcode
+55019	B11y.00	Malignant neoplasm of other specified site of stomach	readcode
+55066	B062.00	Malignant neoplasm of tonsillar pillar	readcode
+55090	B58y100	Secondary malignant neoplasm of uterus	readcode
+55096	B582z00	Secondary malignant neoplasm of skin NOS	readcode
+55098	B550000	Malignant neoplasm of head NOS	readcode
+55101	B553z00	Malignant neoplasm of pelvis NOS	readcode
+55246	B20z.00	Malignant neoplasm of accessory sinus NOS	readcode
+55292	B326z00	Malignant melanoma of upper limb or shoulder NOS	readcode
+55303	B614100	"Hodgkin's nodular sclerosis of head, face and neck"	readcode
+55374	B215.00	Malignant neoplasm of epiglottis NOS	readcode
+55434	B116.00	Malignant neoplasm of greater curve of stomach unspecified	readcode
+55463	B561400	Secondary and unspec malig neop post mediastinal lymph nodes	readcode
+55588	Byu7300	"[X]Malignant neoplasm of female genital organ, unspecified"	readcode
+55595	B300700	Malignant neoplasm of sphenoid bone	readcode
+55630	B07y.00	Malignant neoplasm of other specified site of nasopharynx	readcode
+55659	B14y.00	"Malig neop other site rectum, rectosigmoid junction and anus"	readcode
+55881	B324000	Malignant melanoma of scalp	readcode
+55946	B574000	Secondary malignant neoplasm of duodenum	readcode
+55953	B300400	Malignant neoplasm of occipital bone	readcode
+56345	B57y.00	Secondary malignant neoplasm of other digestive organ	readcode
+56355	B066.00	Malignant neoplasm of lateral wall of oropharynx	readcode
+56490	B52z.00	Malignant neoplasm of nervous system NOS	readcode
+56513	B307000	Malignant neoplasm of femur	readcode
+56709	B04y.00	Malignant neoplasm of other sites of floor of mouth	readcode
+56715	B34y.00	Malignant neoplasm of other site of female breast	readcode
+56718	B500z00	Malignant neoplasm of eyeball NOS	readcode
+56918	B1zy.00	Malignant neoplasm other spec digestive tract and peritoneum	readcode
+56925	Byu4000	[X]Malignant melanoma of other+unspecified parts of face	readcode
+57047	B544.00	Malignant neoplasm of carotid body	readcode
+57191	Byu8000	[X]Malignant neoplasm/other specified male genital organs	readcode
+57225	B614000	"Hodgkin's disease, nodular sclerosis of unspecified site"	readcode
+57235	B410000	Malignant neoplasm of endocervical canal	readcode
+57248	B082.00	"Malignant neoplasm aryepiglottic fold, hypopharyngeal aspect"	readcode
+57260	B322.00	Malignant melanoma of ear and external auricular canal	readcode
+57427	B62y000	Malignant lymphoma NOS of unspecified site	readcode
+57471	B316.00	Malig neop of connective and soft tissue trunk unspecified	readcode
+57481	ByuC300	[X]Secondary malignant neoplasm/oth+unspc respiratory organs	readcode
+57482	B311200	Malignant neoplasm of connective and soft tissue of fore-arm	readcode
+57671	B672.00	Megakaryocytic leukaemia	readcode
+57719	B41y100	Malignant neoplasm of squamocolumnar junction of cervix	readcode
+57737	B62x100	Lymphoepithelioid lymphoma	readcode
+57756	Byu7100	[X]Malignant neoplasm/other specified female genital organs	readcode
+57854	B553000	Malignant neoplasm of inguinal region NOS	readcode
+57988	B305000	Malignant neoplasm of carpal bone - scaphoid	readcode
+58061	B452.00	Malignant neoplasm of labia minora	readcode
+58082	B620800	Nodular lymphoma of lymph nodes of multiple sites	readcode
+58088	B151400	Malignant neoplasm of intrahepatic gall duct	readcode
+58094	B412.00	"Malignant neoplasm, overlapping lesion of cervix uteri"	readcode
+58121	B014.00	Malignant neoplasm of anterior 2/3 of tongue unspecified	readcode
+58684	B615200	Hodgkin's mixed cellularity of intrathoracic lymph nodes	readcode
+58692	B561500	Secondary and unspec malig neop paratracheal lymph nodes	readcode
+58836	B315z00	Malig neop of connective and soft tissue of pelvis NOS	readcode
+58871	B623z00	Malignant histiocytosis NOS	readcode
+58903	B550z00	"Malignant neoplasm of head, neck and face NOS"	readcode
+58949	B308D00	Malignant neoplasm of phalanges of foot	readcode
+58958	B323500	Malignant melanoma of temple	readcode
+58962	B62x500	Malignant immunoproliferative small intestinal disease	readcode
+58973	Byu0.00	"[X]Malignant neoplasm of lip, oral cavity and pharynx"	readcode
+59004	B072.00	Malignant neoplasm of lateral wall of nasopharynx	readcode
+59036	B300.00	Malignant neoplasm of bones of skull and face	readcode
+59041	B500000	Malignant neoplasm of ciliary body	readcode
+59061	B322000	Malignant melanoma of auricle (ear)	readcode
+59092	B111z00	Malignant neoplasm of pylorus of stomach NOS	readcode
+59097	B431000	Malignant neoplasm of lower uterine segment	readcode
+59115	B602100	"Burkitt's lymphoma of lymph nodes of head, face and neck"	readcode
+59152	B315200	Malignant neoplasm of connective and soft tissue of perineum	readcode
+59170	B51y000	Malignant neoplasm of corpus callosum	readcode
+59223	B306100	Malignant neoplasm of ischium	readcode
+59286	B4Ay000	Malignant neoplasm of overlapping lesion of urinary organs	readcode
+59362	B451z00	Malignant neoplasm of labia majora NOS	readcode
+59375	B583z00	Secondary malignant neoplasm of brain or spinal cord NOS	readcode
+59381	B500100	Malignant neoplasm of iris	readcode
+59382	B310000	Malignant neoplasm of soft tissue of head	readcode
+59388	B18y100	Malignant neoplasm of mesocaecum	readcode
+59520	B300200	Malignant neoplasm of malar bone	readcode
+59718	B542z00	Malig neop pituitary gland or craniopharyngeal duct NOS	readcode
+59755	B61z200	Hodgkin's disease NOS of intrathoracic lymph nodes	readcode
+59778	B61z100	"Hodgkin's disease NOS of lymph nodes of head, face and neck"	readcode
+59823	B542.00	Malignant neoplasm pituitary gland and craniopharyngeal duct	readcode
+59831	B340z00	Malignant neoplasm of nipple or areola of female breast NOS	readcode
+60035	B310300	Malignant neoplasm of cartilage of ear	readcode
+60052	B55yz00	Malignant neoplasm of specified site NOS	readcode
+60053	Byu..00	[X]Additional neoplasm classification terms	readcode
+60092	B62y700	Malignant lymphoma NOS of spleen	readcode
+60134	B581000	Secondary malignant neoplasm of ureter	readcode
+60162	Byu5A00	[X]Malignant neoplasm overlapping lesion of skin	readcode
+60242	B600000	Reticulosarcoma of unspecified site	readcode
+60247	B314z00	Malig neop of connective and soft tissue of abdomen NOS	readcode
+60312	B16y.00	Malignant neoplasm other gallbladder/extrahepatic bile duct	readcode
+60335	B58y400	Secondary malignant neoplasm of vulva	readcode
+60403	B303300	Malignant neoplasm of costal cartilage	readcode
+60772	B450z00	Malignant neoplasm of vagina NOS	readcode
+61064	B24X.00	"Malignant neoplasm of mediastinum, part unspecified"	readcode
+61149	B614300	Hodgkin's nodular sclerosis of intra-abdominal lymph nodes	readcode
+61246	B327600	Malignant melanoma of heel	readcode
+61289	B564100	Secondary and unspec malig neop deep inguinal lymph nodes	readcode
+61390	B540000	Malignant neoplasm of adrenal cortex	readcode
+61399	B510100	Malignant neoplasm of cerebral cortex	readcode
+61500	B690.00	Acute myelomonocytic leukaemia	readcode
+61510	B062200	Malignant neoplasm of palatoglossal arch	readcode
+61555	B180z00	Malignant neoplasm of retroperitoneum NOS	readcode
+61643	B151z00	Malignant neoplasm of intrahepatic bile ducts NOS	readcode
+61662	B61z000	"Hodgkin's disease NOS, unspecified site"	readcode
+61677	B562200	Secondary and unspec malig neop inferior mesenteric LN	readcode
+61692	B004.00	"Malignant neoplasm of lip unspecified, inner aspect"	readcode
+61693	ByuD600	[X]Other myeloid leukaemia	readcode
+61695	B100.00	Malignant neoplasm of cervical oesophagus	readcode
+61716	B524100	"Malignant neoplasm of peripheral nerve,upp limb,incl should"	readcode
+61741	B304200	Malignant neoplasm of humerus	readcode
+62104	B300800	Malignant neoplasm of temporal bone	readcode
+62124	B561800	Secondary and unspec malig neop bronchopulmonary lymph nodes	readcode
+62126	B510500	Malignant neoplasm of thalamus	readcode
+62182	B200300	Malignant neoplasm of vestibule of nose	readcode
+62380	B601200	Lymphosarcoma of intrathoracic lymph nodes	readcode
+62437	B62x400	Malignant reticulosis	readcode
+62475	B326300	Malignant melanoma of hand	readcode
+62556	B24..00	"Malignant neoplasm of thymus, heart and mediastinum"	readcode
+62584	B573.00	Secondary malignant neoplasm of other respiratory organs	readcode
+62630	B307z00	Malignant neoplasm of long bones of leg NOS	readcode
+62761	B200200	Malignant neoplasm of septum of nose	readcode
+62828	B581z00	Secondary malignant neoplasm of other urinary organ NOS	readcode
+62840	B013.00	Malignant neoplasm of ventral surface of tongue	readcode
+62909	B575100	Secondary malignant neoplasm of rectum	readcode
+63054	B614z00	"Hodgkin's disease, nodular sclerosis NOS"	readcode
+63104	B501z00	Malignant neoplasm of orbit NOS	readcode
+63105	B62y500	Malignant lymphoma NOS of lymph node inguinal region and leg	readcode
+63224	B48z.00	Malignant neoplasm of penis and other male genital organ NOS	readcode
+63300	Byu3200	[X]Malignant neoplasm/overlap lesion/bone+articulr cartilage	readcode
+63331	B485.00	Malignant neoplasm of spermatic cord	readcode
+63375	ByuDE00	[X]Unspecified B-cell non-Hodgkin's lymphoma	readcode
+63430	B241000	Malignant neoplasm of endocardium	readcode
+63460	B213000	Malignant neoplasm of arytenoid cartilage	readcode
+63470	B102.00	Malignant neoplasm of abdominal oesophagus	readcode
+63475	B652.00	Subacute myeloid leukaemia	readcode
+63568	B524000	"Malignant neoplasm of peripheral nerves of head, face & neck"	readcode
+63598	ByuE.00	[X]Malignant neoplasms/independent (primary) multiple sites	readcode
+63625	B616400	Hodgkin's lymphocytic depletion lymph nodes axilla and arm	readcode
+63653	B671.11	Heilmeyer - Schoner disease	readcode
+63657	B503.00	Malignant neoplasm of conjunctiva	readcode
+63695	B524300	Malignant neoplasm of peripheral nerve of thorax	readcode
+63723	B601z00	Lymphosarcoma NOS	readcode
+63896	B582400	Secondary malignant neoplasm of skin of shoulder and arm	readcode
+63915	B564.00	Secondary and unspec malig neop inguinal and lower limb LN	readcode
+63925	ByuA200	"[X]Malignant neoplasm of meninges, unspecified"	readcode
+63979	B013100	Malignant neoplasm of frenulum linguae	readcode
+63988	B311500	Malignant neoplasm of connective and soft tissue of thumb	readcode
+63995	B123.00	Malignant neoplasm of Meckel's diverticulum	readcode
+63997	B326500	Malignant melanoma of thumb	readcode
+64036	B612.00	Hodgkin's sarcoma	readcode
+64106	B18yz00	Malignant neoplasm of specified parts of peritoneum NOS	readcode
+64116	B561.00	Secondary and unspec malig neop intrathoracic lymph nodes	readcode
+64195	B54z.00	Malig neop of endocrine gland or related structure NOS	readcode
+64309	ByuB100	"[X]Malignant neoplasm of endocrine gland, unspecified"	readcode
+64327	B327z00	Malignant melanoma of lower limb or hip NOS	readcode
+64336	ByuD300	[X]Other specified types of non-Hodgkin's lymphoma	readcode
+64345	B311100	"Malignant neoplasm of connective and soft tissue, upper arm"	readcode
+64427	B62z100	Unspec malig neop lymphoid/histiocytic lymph node head/neck	readcode
+64462	B083.00	Malignant neoplasm of posterior pharynx	readcode
+64497	Byu7000	"[X]Malignant neoplasm of uterine adnexa, unspecified"	readcode
+64515	ByuDC00	"[X]Diffuse non-Hodgkin's lymphoma, unspecified"	readcode
+64516	B18y400	Malignant neoplasm of parietal peritoneum	readcode
+64557	B517000	Malignant neoplasm of cerebral peduncle	readcode
+64567	B63y.00	Other immunoproliferative neoplasms	readcode
+64602	B470.00	Malignant neoplasm of undescended testis	readcode
+64670	B601300	Lymphosarcoma of intra-abdominal lymph nodes	readcode
+64680	B574.00	Secondary malignant neoplasm of small intestine and duodenum	readcode
+64686	B340100	Malignant neoplasm of areola of female breast	readcode
+64810	B551z00	Malignant neoplasm of thorax NOS	readcode
+64817	B502.00	Malignant neoplasm of lacrimal gland	readcode
+64848	B304400	Malignant neoplasm of ulna	readcode
+64897	ByuE000	[X]Malignant neoplasms/independent(primary)multiple sites	readcode
+64918	B560000	Secondary and unspec malig neop of superficial parotid LN	readcode
+64971	B520000	Malignant neoplasm of olfactory bulb	readcode
+65106	B44z.00	Malignant neoplasm of uterine adnexa NOS	readcode
+65122	B624000	Leukaemic reticuloendotheliosis of unspecified sites	readcode
+65123	B624300	Leukaemic reticuloend of intra-abdominal lymph nodes	readcode
+65124	B151000	Malignant neoplasm of interlobular bile ducts	readcode
+65159	B180100	Malignant neoplasm of perinephric tissue	readcode
+65164	B326.00	Malignant melanoma of upper limb and shoulder	readcode
+65165	ByuD900	[X]Other leukaemia of unspecified cell type	readcode
+65180	B627800	Diffuse non-Hodgkin's lymphoma undifferentiated (diffuse)	readcode
+65215	B205.00	Malignant neoplasm of sphenoidal sinus	readcode
+65233	B31y.00	Malig neop connective and soft tissue other specified site	readcode
+65241	B51y200	"Malignant neoplasm, overlapping lesion of brain"	readcode
+65253	B560300	Secondary and unspec malignant neoplasm occipital lymph node	readcode
+65312	B11y000	Malignant neoplasm of anterior wall of stomach NEC	readcode
+65357	B507100	Malignant neoplasm of nasolacrimal duct	readcode
+65372	B11yz00	Malignant neoplasm of other specified site of stomach NOS	readcode
+65434	B62z.00	Malignant neoplasms of lymphoid and histiocytic tissue NOS	readcode
+65458	B52..00	Malig neop of other and unspecified parts of nervous system	readcode
+65460	B1z1.00	Malignant neoplasm of spleen NEC	readcode
+65466	B592X00	Kaposi's sarcoma of multiple organs	readcode
+65483	B614400	Hodgkin's nodular sclerosis of lymph nodes of axilla and arm	readcode
+65489	B610.00	Hodgkin's paragranuloma	readcode
+65490	B58y411	Secondary cancer of the vulva	readcode
+65599	B520200	Malignant neoplasm of acoustic nerve	readcode
+65605	B241200	Malignant neoplasm of myocardium	readcode
+65625	B324.00	Malignant melanoma of scalp and neck	readcode
+65642	B623300	Malignant histiocytosis of intra-abdominal lymph nodes	readcode
+65701	B620z00	Nodular lymphoma NOS	readcode
+65721	B673.00	Mast cell leukaemia	readcode
+65777	B672.11	Thrombocytic leukaemia	readcode
+65793	B2z0.00	"Malig neop of upper respiratory tract, part unspecified"	readcode
+65880	B304z00	Malig neop of scapula and long bones of upper arm NOS	readcode
+66083	B57z.00	Secondary malig neop of respiratory or digestive system NOS	readcode
+66088	B312.00	Malig neop of connective and soft tissue of hip and leg	readcode
+66089	B65yz00	Other myeloid leukaemia NOS	readcode
+66163	ByuC200	[X]2ndry+unspcf malignant neoplasm lymph nodes/multi regions	readcode
+66166	B124.00	"Malignant neoplasm, overlapping lesion of small intestine"	readcode
+66270	B000000	"Malignant neoplasm of upper lip, external"	readcode
+66327	B620000	Nodular lymphoma of unspecified site	readcode
+66384	B001000	"Malignant neoplasm of lower lip, external"	readcode
+66422	B074.00	"Malignant neoplasm, overlapping lesion of nasopharynx"	readcode
+66444	Byu2100	"[X]Malignant neoplasm/overlap lesion/heart,mediastinm+pleura"	readcode
+66488	B314000	Malig neop of connective and soft tissue of abdominal wall	readcode
+66639	B303200	Malignant neoplasm of clavicle	readcode
+66646	B26..00	"Malignant neoplasm, overlap lesion of resp & intrathor orgs"	readcode
+66750	B24z.00	"Malignant neoplasm of heart, thymus and mediastinum NOS"	readcode
+66775	B560100	Secondary and unspec malignant neoplasm mastoid lymph nodes	readcode
+66908	B306400	Malignant neoplasm of coccygeal vertebra	readcode
+67029	ByuD500	[X]Other lymphoid leukaemia	readcode
+67034	Byu5000	[X]Mesothelioma of other sites	readcode
+67107	B230.00	Malignant neoplasm of parietal pleura	readcode
+67129	B560z00	Secondary unspec malig neop lymph nodes head/face/neck NOS	readcode
+67211	B523z00	Malignant neoplasm of spinal meninges NOS	readcode
+67217	B55y100	Malignant neoplasm of trunk NOS	readcode
+67236	B512000	Malignant neoplasm of hippocampus	readcode
+67323	B06y.00	"Malignant neoplasm of oropharynx, other specified sites"	readcode
+67324	B315100	Malig neop of connective and soft tissue of inguinal region	readcode
+67396	B576.00	Secondary malig neop of retroperitoneum and peritoneum	readcode
+67446	B001.00	"Malignant neoplasm of lower lip, vermilion border"	readcode
+67451	B30W.00	Malignant neoplasm/overlap lesion/bone+articulr cartilage	readcode
+67497	B106.00	"Malignant neoplasm, overlapping lesion of oesophagus"	readcode
+67504	B003000	"Malignant neoplasm of lower lip, buccal aspect"	readcode
+67506	B614200	Hodgkin's nodular sclerosis of intrathoracic lymph nodes	readcode
+67518	ByuD100	[X]Other types of follicular non-Hodgkin's lymphoma	readcode
+67700	B66..12	Monoblastic leukaemia	readcode
+67703	B616.00	"Hodgkin's disease, lymphocytic depletion"	readcode
+67763	B303400	Malignant neoplasm of costo-vertebral joint	readcode
+67797	B561600	Secondary and unspec malig neop superfic tracheobronchial LN	readcode
+67806	B323z00	Malignant melanoma of face NOS	readcode
+67884	B350100	Malignant neoplasm of areola of male breast	readcode
+67949	B48y.00	Malignant neoplasm of other male genital organ	readcode
+68027	ByuA000	[X]Malignant neoplasm/other and unspecified cranial nerves	readcode
+68039	B612400	Hodgkin's sarcoma of lymph nodes of axilla and upper limb	readcode
+68055	B307.00	Malignant neoplasm of long bones of leg	readcode
+68133	B323300	Malignant melanoma of forehead	readcode
+68155	B430100	Malignant neoplasm of fundus of corpus uteri	readcode
+68161	B48y000	Malignant neoplasm of seminal vesicle	readcode
+68236	B550.00	"Malignant neoplasm of head, neck and face"	readcode
+68330	B613100	"Hodgkin's, lymphocytic-histiocytic pred of head, face, neck"	readcode
+68332	ByuC600	[X]2ndry malignant neoplasm/oth+unspec parts/nervous system	readcode
+68399	B004200	"Malignant neoplasm of lip unspecified, mucosa"	readcode
+68410	B150200	Primary angiosarcoma of liver	readcode
+68480	B350000	Malignant neoplasm of nipple of male breast	readcode
+68611	B560900	Secondary and unspec malig neop deep cervical LN	readcode
+68641	B517z00	Malignant neoplasm of brain stem NOS	readcode
+68787	B55y000	Malignant neoplasm of back NOS	readcode
+68824	B48y200	"Malignant neoplasm, overlapping lesion male genital orgs"	readcode
+69104	B305100	Malignant neoplasm of carpal bone - lunate	readcode
+69132	B562400	Secondary and unspec malig neop external iliac lymph nodes	readcode
+69146	B300z00	Malignant neoplasm of bones of skull and face NOS	readcode
+69392	B561700	Secondary and unspec malig neop inferior tracheobronchial LN	readcode
+69497	B623000	Malignant histiocytosis of unspecified site	readcode
+69671	B010.11	Malignant neoplasm of posterior third of tongue	readcode
+69761	B00zz00	"Malignant neoplasm of lip, vermilion border NOS"	readcode
+69821	B18y600	Malignant neoplasm of the pouch of Douglas	readcode
+69927	B308800	Malignant neoplasm of first metatarsal bone	readcode
+69951	B055100	Malignant neoplasm of roof of mouth	readcode
+70026	B574z00	Secondary malig neop of small intestine or duodenum NOS	readcode
+70104	B521z00	Malignant neoplasm of cerebral meninges NOS	readcode
+70126	B520100	Malignant neoplasm of optic nerve	readcode
+70374	B600300	Reticulosarcoma of intra-abdominal lymph nodes	readcode
+70463	B315000	Malignant neoplasm of connective and soft tissue of buttock	readcode
+70509	B627D00	Diffuse non-Hodgkin's centroblastic lymphoma	readcode
+70637	B320.00	Malignant melanoma of lip	readcode
+70696	B02y.00	Malignant neoplasm of other major salivary glands	readcode
+70716	B62zz11	Immunoproliferative neoplasm	readcode
+70724	B653.00	Myeloid sarcoma	readcode
+70729	B431z00	Malignant neoplasm of isthmus of uterine body NOS	readcode
+70736	B58y300	Secondary malignant neoplasm of vagina	readcode
+70747	B564z00	Secondary and unspec malig neop of inguinal and leg LN NOS	readcode
+70819	B055.00	Malignant neoplasm of palate unspecified	readcode
+70824	B540z00	Malignant neoplasm of adrenal gland NOS	readcode
+70842	B627100	Follicular non-Hodg mixed sml cleavd & lge cell lymphoma	readcode
+70928	B022.00	Malignant neoplasm of sublingual gland	readcode
+70942	B510400	Malignant neoplasm of hypothalamus	readcode
+71031	B600100	"Reticulosarcoma of lymph nodes of head, face and neck"	readcode
+71136	B323100	Malignant melanoma of chin	readcode
+71139	B51y.00	Malignant neoplasm of other parts of brain	readcode
+71142	B613000	"Hodgkin's, lymphocytic-histiocytic predominance unspec site"	readcode
+71147	B003.00	"Malignant neoplasm of lower lip, inner aspect"	readcode
+71204	B200000	Malignant neoplasm of cartilage of nose	readcode
+71238	B601100	"Lymphosarcoma of lymph nodes of head, face and neck"	readcode
+71262	B62y600	Malignant lymphoma NOS of intrapelvic lymph nodes	readcode
+71304	B602z00	Burkitt's lymphoma NOS	readcode
+71584	B507.00	Malignant neoplasm of lacrimal duct	readcode
+71609	B62z500	Unspec malig neop lymphoid/histiocytic nodes inguinal/leg	readcode
+71625	B601000	Lymphosarcoma of unspecified site	readcode
+71810	B304.00	Malignant neoplasm of scapula and long bones of upper arm	readcode
+71946	B201300	Malignant neoplasm of mastoid air cells	readcode
+72127	B484.00	Malignant neoplasm of epididymis	readcode
+72174	B4A4.00	Malignant neoplasm of paraurethral glands	readcode
+72197	B67y000	Lymphosarcoma cell leukaemia	readcode
+72212	B308200	Malignant neoplasm of calcaneum	readcode
+72224	B1z1100	Fibrosarcoma of spleen	readcode
+72445	B161000	Malignant neoplasm of cystic duct	readcode
+72464	B305.12	Malignant neoplasm of metacarpal bones	readcode
+72500	ByuDB00	"[X]Mal neoplasm/lymphoid,haematopoietic+related tissu,unspcf"	readcode
+72522	B313200	Malignant neoplasm of great vessels	readcode
+72713	B562100	Secondary and unspec malig neop superficial mesenteric LN	readcode
+72714	B621500	Mycosis fungoides of lymph nodes of inguinal region and leg	readcode
+72723	B430000	Malignant neoplasm of cornu of corpus uteri	readcode
+72725	B62y200	Malignant lymphoma NOS of intrathoracic lymph nodes	readcode
+72774	B642.00	Subacute lymphoid leukaemia	readcode
+72803	B565z00	Secondary and unspec malig neop intrapelvic LN NOS	readcode
+73213	B581.00	Secondary malignant neoplasm of other urinary organs	readcode
+73296	Byu3100	"[X]Malignant neoplasm/bones+articular cartilage/limb,unspfd"	readcode
+73439	B064z00	Malignant neoplasm of anterior epiglottis NOS	readcode
+73510	B550500	Malignant neoplasm of supraclavicular fossa NOS	readcode
+73530	B305.00	Malignant neoplasm of hand bones	readcode
+73532	B613300	"Hodgkin's, lymphocytic-histiocytic pred intra-abdominal node"	readcode
+73536	B327000	Malignant melanoma of hip	readcode
+73537	B201z00	"Malig neop auditory tube, middle ear, mastoid air cells NOS"	readcode
+73538	B563z00	Secondary and unspec malig neop axilla and upper limb LN NOS	readcode
+73556	B305z00	Malignant neoplasm of hand bones NOS	readcode
+73614	B004000	"Malignant neoplasm of lip unspecified, buccal aspect"	readcode
+73616	B58y200	Secondary malignant neoplasm of cervix uteri	readcode
+73718	B310z00	"Malig neop connective and soft tissue head, face, neck NOS"	readcode
+73744	B322z00	Malignant melanoma of ear and external auricular canal NOS	readcode
+73777	B624z00	Leukaemic reticuloendotheliosis NOS	readcode
+73962	B000.00	"Malignant neoplasm of upper lip, vermilion border"	readcode
+73988	B524500	Malignant neoplasm of peripheral nerve of pelvis	readcode
+73992	B504.00	Malignant neoplasm of cornea	readcode
+74896	B161z00	Malignant neoplasm of extrahepatic bile ducts NOS	readcode
+84368	B565000	Secondary and unspec malig neop internal iliac lymph nodes	readcode
+86046	B524400	Malignant neoplasm of peripheral nerve of abdomen	readcode
+86812	B305D00	Malignant neoplasm of phalanges of hand	readcode
+86996	B501000	Malignant neoplasm of connective tissue of orbit	readcode
+86997	Byu2400	[X]Malignant neoplasm/ill-defined sites within resp system	readcode
+87113	B54X.00	"Malignant neoplasm-pluriglandular involvement,unspecified"	readcode
+87335	B624.12	Hairy cell leukaemia	readcode
+88022	ByuC400	[X]Secondary malignant neoplasm/oth+unspcfd digestive organs	readcode
+88144	B52y.00	Malignant neoplasm of other specified part of nervous system	readcode
+88362	B08y.00	Malignant neoplasm of other specified hypopharyngeal site	readcode
+89258	B524200	"Malignant neoplasm of peripheral nerve of low limb, incl hip"	readcode
+89329	ByuD800	[X]Other specified leukaemias	readcode
+89593	B151200	Malignant neoplasm of intrahepatic biliary passages	readcode
+89657	B626z00	Malignant mast cell tumour NOS	readcode
+89762	ByuD700	[X]Other monocytic leukaemia	readcode
+89909	B003200	"Malignant neoplasm of lower lip, mucosa"	readcode
+89916	B553100	Malignant neoplasm of presacral region	readcode
+90124	B067.00	Malignant neoplasm of posterior wall of oropharynx	readcode
+90201	B62x000	T-zone lymphoma	readcode
+90290	B18y700	Malignant neoplasm of mesentery	readcode
+90546	B312z00	Malig neop connective and soft tissue hip and leg NOS	readcode
+90610	B002300	"Malignant neoplasm of upper lip, oral aspect"	readcode
+90659	B54y.00	Malignant neoplasm of other specified endocrine gland	readcode
+91035	B010z00	Malignant neoplasm of fixed part of tongue NOS	readcode
+91037	B06yz00	Malignant neoplasm of other specified site of oropharynx NOS	readcode
+91240	B517300	Malignant neoplasm of pons	readcode
+91457	Byu5900	"[X]Malignant neoplasm/connective + soft tissue,unspecified"	readcode
+91509	B471z00	Malignant neoplasm of descended testis NOS	readcode
+91586	B311400	Malignant neoplasm of connective and soft tissue of finger	readcode
+91674	B621300	Mycosis fungoides of intra-abdominal lymph nodes	readcode
+91843	B003100	"Malignant neoplasm of lower lip, frenulum"	readcode
+91895	B064100	Malignant neoplasm of glossoepiglottic fold	readcode
+91896	Byu5800	"[X]Mal neoplasm/connective+soft tissue of trunk,unspecified"	readcode
+91900	B61z400	Hodgkin's disease NOS of lymph nodes of axilla and arm	readcode
+92068	B620300	Nodular lymphoma of intra-abdominal lymph nodes	readcode
+92245	B613200	"Hodgkin's, lymphocytic-histiocytic pred intrathoracic nodes"	readcode
+92329	B48yz00	Malignant neoplasm of other male genital organ NOS	readcode
+92371	B304300	Malignant neoplasm of radius	readcode
+92380	B602500	Burkitt's lymphoma of lymph nodes of inguinal region and leg	readcode
+92382	B308B00	Malignant neoplasm of fourth metatarsal bone	readcode
+92703	B560400	Secondary and unspec malig neop deep parotid lymph nodes	readcode
+92720	B243.00	Malignant neoplasm of posterior mediastinum	readcode
+93218	B03z.00	Malignant neoplasm of gum NOS	readcode
+93342	B66z.00	Monocytic leukaemia NOS	readcode
+93384	B62z200	Unspec malig neop lymphoid/histiocytic of intrathoracic node	readcode
+93478	B138.00	"Malignant neoplasm, overlapping lesion of colon"	readcode
+93537	B517200	Malignant neoplasm of midbrain	readcode
+93665	Byu5300	"[X]Kaposi's sarcoma, unspecified"	readcode
+93716	B561z00	Secondary and unspec malig neop intrathoracic LN NOS	readcode
+93762	B42..00	Malignant neoplasm of placenta	readcode
+93778	B1z1z00	Malignant neoplasm of spleen NOS	readcode
+93842	B062300	Malignant neoplasm of palatopharyngeal arch	readcode
+93951	B613500	"Hodgkin's, lymphocytic-histiocytic pred inguinal and leg"	readcode
+94005	B615z00	"Hodgkin's disease, mixed cellularity NOS"	readcode
+94174	B67y.00	Other and unspecified leukaemia	readcode
+94220	B540100	Malignant neoplasm of adrenal medulla	readcode
+94251	B00z100	"Malignant neoplasm of lip, unspecified, lipstick area"	readcode
+94272	B314100	Malig neoplasm of connective and soft tissues of lumb spine	readcode
+94278	B110111	Malignant neoplasm of gastro-oesophageal junction	readcode
+94279	B61z700	Hodgkin's disease NOS of spleen	readcode
+94355	B55y200	Malignant neoplasm of flank NOS	readcode
+94390	B070.00	Malignant neoplasm of roof of nasopharynx	readcode
+94407	B615100	"Hodgkin's mixed cellularity of lymph nodes head, face, neck"	readcode
+94415	B623100	"Malignant histiocytosis of lymph nodes head, face and neck"	readcode
+94427	B305C00	Malignant neoplasm of fifth metacarpal bone	readcode
+94441	B003300	"Malignant neoplasm of lower lip, oral aspect"	readcode
+94776	B1z2.00	"Malignant neoplasm, overlapping lesion of digestive system"	readcode
+94975	B241300	Malignant neoplasm of pericardium	readcode
+94995	B620500	Nodular lymphoma of lymph nodes of inguinal region and leg	readcode
+95012	B621800	Mycosis fungoides of lymph nodes of multiple sites	readcode
+95016	B0z1.00	Malignant neoplasm of Waldeyer's ring	readcode
+95049	B616000	Hodgkin's lymphocytic depletion of unspecified site	readcode
+95057	B34y000	Malignant neoplasm of ectopic site of female breast	readcode
+95058	B600700	Reticulosarcoma of spleen	readcode
+95182	B308100	Malignant neoplasm of talus	readcode
+95323	B35z000	Malignant neoplasm of ectopic site of male breast	readcode
+95338	B613600	"Hodgkin's, lymphocytic-histiocytic pred intrapelvic nodes"	readcode
+95378	B561200	Secondary and unspec malig neop diaphragmatic lymph nodes	readcode
+95421	B45y.00	Malignant neoplasm of other specified female genital organ	readcode
+95429	B071.00	Malignant neoplasm of posterior wall of nasopharynx	readcode
+95458	B300300	Malignant neoplasm of nasal bone	readcode
+95480	B001100	"Malignant neoplasm of lower lip, lipstick area"	readcode
+95505	B41y000	Malignant neoplasm of cervical stump	readcode
+95545	B627911	Maltoma	readcode
+95629	B325500	Malignant melanoma of perineum	readcode
+95630	B62x600	True histiocytic lymphoma	readcode
+95644	B241.00	Malignant neoplasm of heart	readcode
+95671	Byu5700	"[X]Malignant neoplasm of peritoneum, unspecified"	readcode
+95715	B627900	Mucosa-associated lymphoma	readcode
+95772	B051000	Malignant neoplasm of upper buccal sulcus	readcode
+95783	B17yz00	Malignant neoplasm of specified site of pancreas NOS	readcode
+95792	B62zz00	Lymphoid and histiocytic malignancy NOS	readcode
+95949	B621000	Mycosis fungoides of unspecified site	readcode
+96003	B055000	Malignant neoplasm of junction of hard and soft palate	readcode
+96094	B119.00	Siewert type III adenocarcinoma	readcode
+96226	ByuC100	[X]Malignant neoplasm/overlap lesion/other+ill-defined sites	readcode
+96379	B621400	Mycosis fungoides of lymph nodes of axilla and upper limb	readcode
+96429	B470z00	Malignant neoplasm of undescended testis NOS	readcode
+96445	B300B00	Malignant neoplasm of turbinate	readcode
+96585	B32y000	Overlapping malignant melanoma of skin	readcode
+96635	B17y000	Malignant neoplasm of ectopic pancreatic tissue	readcode
+96782	B003z00	"Malignant neoplasm of lower lip, inner aspect NOS"	readcode
+96783	B005.00	Malignant neoplasm of commissure of lip	readcode
+96802	B11y100	Malignant neoplasm of posterior wall of stomach NEC	readcode
+96869	B071z00	Malignant neoplasm of posterior wall of nasopharynx NOS	readcode
+96971	B20y.00	"Malig neop other site nasal cavity, middle ear and sinuses"	readcode
+97091	ByuC500	[X]2ndry malignant neoplasm/bladder+oth+unsp urinary organs	readcode
+97332	B213z00	Malignant neoplasm of laryngeal cartilage NOS	readcode
+97499	B118.00	Siewert type II adenocarcinoma	readcode
+97530	B051100	Malignant neoplasm of lower buccal sulcus	readcode
+97547	B551200	Malignant neoplasm of intrathoracic site NOS	readcode
+97577	B602300	Burkitt's lymphoma of intra-abdominal lymph nodes	readcode
+97672	B576z00	Secondary malig neop of retroperitoneum or peritoneum NOS	readcode
+97746	B61z800	Hodgkin's disease NOS of lymph nodes of multiple sites	readcode
+97832	B58y211	Secondary cancer of the cervix	readcode
+97863	B615000	"Hodgkin's disease, mixed cellularity of unspecified site"	readcode
+97875	B175.00	"Malignant neoplasm, overlapping lesion of pancreas"	readcode
+97996	B44y.00	Malignant neoplasm of other site of uterine adnexa	readcode
+98104	B23y.00	Malignant neoplasm of other specified pleura	readcode
+98142	B107.00	Siewert type I adenocarcinoma	readcode
+98361	Byu5B00	[X]Kaposi's sarcoma of other sites	readcode
+98408	B313z00	Malig neop of connective and soft tissue of thorax NOS	readcode
+98500	B002200	"Malignant neoplasm of upper lip, mucosa"	readcode
+98537	B201100	Malignant neoplasm of tympanic cavity	readcode
+98596	ByuD200	[X]Other types of diffuse non-Hodgkin's lymphoma	readcode
+98626	B563100	Secondary and unspec malig neop supratrochlear lymph nodes	readcode
+98740	B000z00	"Malignant neoplasm of upper lip, vermilion border NOS"	readcode
+98813	B500.00	"Malig neop eyeball excl conjunctiva, cornea, retina, choroid"	readcode
+98840	B610300	Hodgkin's paragranuloma of intra-abdominal lymph nodes	readcode
+98909	B611100	"Hodgkin's granuloma of lymph nodes of head, face and neck"	readcode
+98911	B200100	Malignant neoplasm of nasal conchae	readcode
+99001	B002100	"Malignant neoplasm of upper lip, frenulum"	readcode
+99012	B61z500	Hodgkin's disease NOS of lymph nodes inguinal region and leg	readcode
+99015	B66y.00	Other monocytic leukaemia	readcode
+99096	Byu2300	[X]Malignant neopl/overlapping les/resp+intrathoracic organs	readcode
+99185	B062100	Malignant neoplasm of glossopalatine fold	readcode
+99240	B600z00	Reticulosarcoma NOS	readcode
+99257	B324z00	Malignant melanoma of scalp and neck NOS	readcode
+99386	B073200	Malignant neoplasm posterior margin nasal septum and choanae	readcode
+99413	B67yz00	Other and unspecified leukaemia NOS	readcode
+99493	B002.00	"Malignant neoplasm of upper lip, inner aspect"	readcode
+99511	B574200	Secondary malignant neoplasm of ileum	readcode
+99572	B312500	Malignant neoplasm of connective and soft tissue of toe	readcode
+99621	B520.00	Malignant neoplasm of cranial nerves	readcode
+99887	B60y.00	Other specified reticulosarcoma or lymphosarcoma	readcode
+99896	B12y.00	Malignant neoplasm of other specified site small intestine	readcode
+99913	B510300	Malignant neoplasm of globus pallidus	readcode
+99951	B60z.00	Reticulosarcoma or lymphosarcoma NOS	readcode
+100002	B062z00	Malignant neoplasm of tonsillar fossa NOS	readcode
+100006	B602200	Burkitt's lymphoma of intrathoracic lymph nodes	readcode
+100083	B546.00	Neuroblastoma	readcode
+100144	B004300	"Malignant neoplasm of lip, oral aspect"	readcode
+100232	B24y.00	"Malig neop of other site of heart, thymus and mediastinum"	readcode
+100296	B582100	Secondary malignant neoplasm of skin of face	readcode
+100352	B601500	Lymphosarcoma of lymph nodes of inguinal region and leg	readcode
+100423	B610100	"Hodgkin's paragranuloma of lymph nodes of head, face, neck"	readcode
+100532	B622z00	Sezary's disease NOS	readcode
+100584	B110000	Malignant neoplasm of cardiac orifice of stomach	readcode
+100615	B626500	Mast cell malignancy of lymph nodes inguinal region and leg	readcode
+100721	B002z00	"Malignant neoplasm of upper lip, inner aspect NOS"	readcode
+100733	B51yz00	Malignant neoplasm of other part of brain NOS	readcode
+100786	B651000	Chronic eosinophilic leukaemia	readcode
+100906	B00z000	"Malignant neoplasm of lip, unspecified, external"	readcode
+100918	B073z00	Malignant neoplasm of anterior wall of nasopharynx NOS	readcode
+101086	B520z00	Malignant neoplasm of cranial nerves NOS	readcode
+101114	B627A00	Diffuse non-Hodgkin's large cell lymphoma	readcode
+101465	B62z800	Unspec malig neop lymphoid/histiocytic of multiple sites	readcode
+101530	B616z00	"Hodgkin's disease, lymphocytic depletion NOS"	readcode
+101606	B662.00	Subacute monocytic leukaemia	readcode
+101608	B4A1100	Malignant neoplasm of ureteropelvic junction	readcode
+101662	B565200	Secondary and unspec malig neop circumflex iliac LN	readcode
+101668	Byu5400	"[X]Malignant neoplasm/peripheral nerves of trunk,unspecified"	readcode
+101700	B139.00	Hereditary nonpolyposis colon cancer	readcode
+101707	B001z00	"Malignant neoplasm of lower lip, vermilion border NOS"	readcode
+101715	B616700	"Hodgkin's disease, lymphocytic depletion of spleen"	readcode
+101753	B03y.00	Malignant neoplasm of other sites of gum	readcode
+101778	B442.00	Malignant neoplasm of broad ligament	readcode
+101805	B507000	Malignant neoplasm of lacrimal sac	readcode
+101885	B241400	Mesothelioma of pericardium	readcode
+101907	B182.00	Overlapping malign lesion of retroperitoneum and peritoneum	readcode
+101988	B060100	Malignant neoplasm of palatine tonsil	readcode
+102142	B013000	Malignant neoplasm of anterior 2/3 of tongue ventral surface	readcode
+102145	B322100	Malignant melanoma of external auditory meatus	readcode
+102151	B060200	Malignant neoplasm of overlapping lesion of tonsil	readcode
+102158	B625200	Letterer-Siwe disease of intrathoracic lymph nodes	readcode
+102205	B072z00	Malignant neoplasm of lateral wall of nasopharynx NOS	readcode
+102594	B627E00	Diffuse large B-cell lymphoma	readcode
+102688	ByuD400	[X]Other malignant immunoproliferative diseases	readcode
+102715	B625000	Letterer-Siwe disease of unspecified sites	readcode
+102783	B651200	Chronic neutrophilic leukaemia	readcode
+102949	B312000	Malignant neoplasm of connective and soft tissue of hip	readcode
+103245	B601700	Lymphosarcoma of spleen	readcode
+103353	B62z300	Unspec malig neop lymphoid/histiocytic intra-abdominal nodes	readcode
+103354	B308z00	Malignant neoplasm of short bones of leg NOS	readcode
+103645	B66yz00	Other monocytic leukaemia NOS	readcode
+103796	B051.00	Malignant neoplasm of vestibule of mouth	readcode
+103900	B626000	Mast cell malignancy of unspecified site	readcode
+103946	B220100	Malignant neoplasm of mucosa of trachea	readcode
+103995	B545z00	Malignant neoplasm of aortic body or paraganglia NOS	readcode
+104128	B31z000	Kaposi's sarcoma of soft tissue	readcode
+104139	B313300	Malig neoplasm of connective and soft tissues of thor spine	readcode
+104152	B628.00	Follicular lymphoma	readcode
+104273	B677.00	Myelodysplastic and myeloproliferative disease	readcode
+104291	B61..11	Hodgkin lymphoma	readcode
+104324	B595.00	Malignant tumour of unknown origin	readcode
+104325	B640000	B-cell acute lymphoblastic leukaemia	readcode
+104328	B641000	B-cell chronic lymphocytic leukaemia	readcode
+104386	B62F000	Small cell B-cell lymphoma	readcode
+104391	B627.11	Non-Hodgkin lymphoma	readcode
+104412	B62F200	Lymphoblastic (diffuse) lymphoma	readcode
+104418	B630400	Solitary plasmacytoma	readcode
+104475	B692.00	Subacute myelomonocytic leukaemia	readcode
+104480	B58y800	Secondary malignant neoplasm of epididymis and vas deferens	readcode
+104484	B61C.00	Other classical Hodgkin lymphoma	readcode
+104620	B62F100	Mantle cell lymphoma	readcode
