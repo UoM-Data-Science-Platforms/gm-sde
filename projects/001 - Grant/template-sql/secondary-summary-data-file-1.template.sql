@@ -34,7 +34,7 @@ WHERE FK_Reference_Tenancy_ID=2;
 --> EXECUTE query-patient-lsoa-likely-hospital.sql
 
 SELECT 
-	ISNULL(LikelyLSOAHospital, 'Unknown') AS MostLikelyHospitalFromLSOA, 
+	ISNULL(LikelyLSOAHospital, 'UnknownLSOA') AS MostLikelyHospitalFromLSOA, 
 	ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
 	ISNULL(LTCGroup, 'None') AS LTCGroup,
 	COUNT(*) AS Number

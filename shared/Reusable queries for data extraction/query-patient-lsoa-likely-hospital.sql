@@ -14,7 +14,7 @@
 -- ASSUMPTIONS:
 --	- We count the number of hospital admissions per LSOA
 --	-	If there is a single hospital with the most admissions then we assign that as the most likely hospital
---	-	If there are 2 or more that tie for the most admissions then we classify that LSOA as 'Unknown'
+--	-	If there are 2 or more that tie for the most admissions then we classify that LSOA as 'AmbiguousHospital'
 
 -- Get the patient id and tenancy id of all hospital admission
 IF OBJECT_ID('tempdb..#AdmissionPatients') IS NOT NULL DROP TABLE #AdmissionPatients;
@@ -81,7 +81,7 @@ INNER JOIN #AdmissionPatients p ON p.FK_Patient_Link_ID = pl.FK_Patient_Link_ID
 GROUP BY LSOA_Code,FK_Reference_Tenancy_ID;
 
 IF OBJECT_ID('tempdb..#LikelyLSOAHospital') IS NOT NULL DROP TABLE #LikelyLSOAHospital;
-SELECT a.LSOA_Code AS LSOA,CASE WHEN MIN(TenancyName) = MAX(TenancyName) THEN MAX(TenancyName) ELSE 'Unknown' END AS LikelyLSOAHospital
+SELECT a.LSOA_Code AS LSOA,CASE WHEN MIN(TenancyName) = MAX(TenancyName) THEN MAX(TenancyName) ELSE 'AmbiguousHospital' END AS LikelyLSOAHospital
 INTO #LikelyLSOAHospital
 FROM #LSOATenancyCounts a
 INNER JOIN (
