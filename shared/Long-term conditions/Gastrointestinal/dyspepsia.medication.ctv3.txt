@@ -1,0 +1,219 @@
+ctv3id	description
+a24x.	Pepcidtwo chewable indigestion tablet
+a61..	Cimetidine
+a611.	Tagamet 200mg tablet
+a612.	Tagamet 400mg tablet
+a613.	Tagamet 800mg tablet
+a614.	Tagamet 200mg/5mL syrup
+a617.	Dyspamet Chewtab 200mg chewable tablet
+a618.	Dyspamet 200mg/5mL suspension
+a619.	Cimetidine 200mg/5mL suspension 600mL
+a61A.	Galenamet 200mg tablet
+a61B.	Galenamet 400mg tablet
+a61C.	Galenamet 800mg tablet
+a61D.	Cimetidine 400mg effervescent tablet
+a61E.	Cimetidine 200mg chewable tablet
+a61F.	Phimetin 200mg tablet
+a61G.	Phimetin 400mg tablet
+a61H.	Phimetin 800mg tablet
+a61I.	Cimetidine 200mg/5mL s/f oral solution
+a61K.	Zita 200mg tablet
+a61L.	Zita 400mg tablet
+a61M.	Zita 800mg tablet
+a61N.	Ultec 200mg tablet
+a61O.	Ultec 400mg tablet
+a61P.	Ultec 800mg tablet
+a61Q.	Acitak 200 tablet
+a61R.	Acitak 400 tablet
+a61S.	Acitak 800 tablet
+a61T.	Tagamet Dual Action liquid 200mL
+a61U.	Tagamet Dual Action liquid 600mL
+a61a.	Algitec chewable tablet
+a61b.	Algitec 100mg/250mg/5mL suspension 600mL
+a61c.	Cimetidine compound suspension
+a61d.	Tagamet 400mg effervescent tablet
+a61e.	Peptimax 200 tablet
+a61f.	Peptimax 400 tablet
+a61g.	Peptimax 800 tablet
+a61s.	Cimetidine+alginic acid 200mg/500mg chewable tablet
+a61t.	Cimetidine+sodium alginate 100mg/250mg/5mL oral suspension
+a61u.	Cimetidine 200mg tablet
+a61v.	Cimetidine 400mg tablet
+a61w.	Cimetidine 800mg tablet
+a61x.	Cimetidine 200mg/5mL syrup
+a62..	Ranitidine hydrochloride
+a621.	Zantac 150mg tablet
+a622.	Zantac 150mg dispersible tablet
+a623.	Zantac 300mg tablet
+a625.	Zantac 150mg/10mL sugar free syrup 300mL
+a626.	Zantac 150mg effervescent tablet
+a627.	Zantac 300mg effervescent tablet
+a628.	Ranitidine 150mg effervescent tablet
+a629.	Ranitidine 300mg effervescent tablet
+a62A.	Raciran 150mg tablet
+a62B.	Raciran 300mg tablet
+a62C.	Zaedoc 150 tablet
+a62D.	Zaedoc 300 tablet
+a62E.	Rantec 150mg tablet
+a62F.	Rantec 300mg tablet
+a62G.	Ranitic 150mg tablet
+a62H.	Ranitic 300mg tablet
+a62I.	Histac 150mg tablet
+a62J.	Histac 300mg tablet
+a62K.	Ranitil 150mg tablet
+a62L.	Ranitil 300mg tablet
+a62M.	Zantac 75 Dissolve effervescent tablet
+a62N.	Ranitidine 75mg tablet
+a62O.	Gavilast-P 75mg tablet
+a62P.	Ranzac 75mg tablet
+a62Q.	Zantac 75 tablet
+a62u.	Ranitidine 75mg effervescent tablet
+a62v.	Ranitidine 75mg/5mL sugar free syrup
+a62w.	Ranitidine 150mg tablet
+a62x.	Ranitidine 150mg dispersible tablet
+a62y.	Ranitidine 300mg tablet
+a68..	Famotidine
+a681.	Famotidine 20mg tablet
+a682.	Famotidine 40mg tablet
+a683.	Pepcid 20mg tablet
+a684.	Pepcid 40mg tablet
+a69..	Nizatidine
+a691.	Nizatidine 150mg capsule
+a692.	Nizatidine 300mg capsule
+a693.	Axid 150mg capsule
+a694.	Axid 300mg capsule
+a697.	Zinga 150mg capsule
+a698.	Zinga 300mg capsule
+a6b..	Omeprazole
+a6b1.	Omeprazole 20mg capsule
+a6b2.	Losec 20mg capsules x28
+a6b3.	Losec 20mg capsule
+a6b4.	Losec 40mg capsule
+a6b5.	Omeprazole 40mg capsule
+a6b6.	Losec 10mg capsule
+a6b7.	Omeprazole 10mg capsule
+a6bC.	Losec MUPS 10mg tablet
+a6bD.	Losec MUPS 20mg tablet
+a6bE.	Losec MUPS 40mg tablet
+a6bF.	Omeran 10mg e/c tablet
+a6bG.	Omeran 20mg e/c tablet
+a6bH.	Omeran 40mg e/c tablet
+a6bI.	Zanprol 10mg e/c tablet
+a6bJ.	Galpharm Heartburn Relief 10mg e/c tablet
+a6bK.	Unichem Heartburn Relief 10mg e/c tablet
+a6bL.	Vantage Pharmacy Heartburn Relief 10mg e/c tablet
+a6bM.	Care Heartburn Relief 10mg e/c tablet
+a6bN.	Numark Heartburn Relief 10mg e/c tablet
+a6bO.	MEPRADEC 10mg e/c capsules
+a6bP.	MEPRADEC 20mg e/c capsules
+a6bQ.	MEZZOPRAM 10mg gastro-resistant tablets
+a6bR.	MEZZOPRAM 20mg gastro-resistant tablets
+a6bS.	MEZZOPRAM 40mg gastro-resistant tablets
+a6bu.	Omeprazole 10mg e/c tablet
+a6bv.	Omeprazole 20mg e/c tablet
+a6bw.	Omeprazole 40mg e/c tablet
+a6bx.	Omeprazole 10mg tablet
+a6by.	Omeprazole 20mg tablet
+a6bz.	Omeprazole 40mg tablet
+a6c..	Lansoprazole
+a6c1.	Zoton 30mg capsule
+a6c2.	Lansoprazole 30mg capsule
+a6c3.	Lansoprazole 15mg capsule
+a6c4.	Zoton 15mg capsule
+a6c5.	Lansoprazole 30mg oral suspension
+a6c6.	Zoton 30mg oral suspension
+a6c7.	Lansoprazole 15mg oro-dispersible tablet
+a6c8.	Lansoprazole 30mg oro-dispersible tablet
+a6c9.	Zoton FasTab 15mg oro-dispersible tablet
+a6cA.	Zoton FasTab 30mg oro-dispersible tablet
+a6d..	Ranitidine bismuth citrate
+a6d1.	Ranitidine bismuth citrate 400mg tablet
+a6d2.	Pylorid 400mg tablet
+a6e..	Pantoprazole
+a6e1.	Pantoprazole 40mg e/c tablet
+a6e2.	Protium 40mg e/c tablet
+a6e5.	Pantoprazole 20mg e/c tablet
+a6e6.	Protium 20mg e/c tablet
+a6e7.	PANTOLOC CONTROL 20mg gastro-resistant tablets
+a6f..	Rabeprazole sodium
+a6f1.	Rabeprazole sodium 10mg e/c tablet
+a6f2.	Rabeprazole sodium 20mg e/c tablet
+a6f3.	Pariet 10mg e/c tablet
+a6f4.	Pariet 20mg e/c tablet
+a6g1.	Clarithromycin tablet+lansoprazole capsule+amoxicillin capsule 500mg/30mg/500mg pack
+a6g3.	Clarithromycin tablet+lansoprazole capsule+metronidazole tablet 500mg/30mg/400mg pack
+a6h..	Esomeprazole
+a6h1.	Nexium 20mg tablet
+a6h2.	Nexium 40mg tablet
+a6h4.	NEXIUM 10mg gastro-resistant granules for oral suspension
+a6h5.	EMOZUL 20mg gastro-resistant capsules
+a6h6.	EMOZUL 40mg gastro-resistant capsules
+a6hu.	ESOMEPRAZOLE 40mg gastro-resistant capsules
+a6hv.	ESOMEPRAZOLE 20mg gastro-resistant capsules
+a6hw.	ESOMEPRAZOLE 10mg gastro-resistant granules for oral susp
+a6hy.	Esomeprazole 40mg tablet
+a6hz.	Esomeprazole 20mg tablet
+j2au.	KETOPROFEN+OMEPRAZOLE 200mg/20mg m/r capsules
+j2av.	KETOPROFEN+OMEPRAZOLE 100mg/20mg m/r capsules
+j2cP.	VIMOVO 500mg/20mg m/r tablets
+j2cZ.	NAPROXEN+ESOMEPRAZOLE 500mg/20mg m/r tablets
+x00Xy	Cimetidine 200mg/5mL oral suspension
+x00eJ	Algitec suspension
+x00em	Zantac 75mg/5mL sugar free syrup
+x019N	Oral cimetidine
+x019O	Parenteral cimetidine
+x019P	Cimetidine+alginate
+x019Q	Ranitidine
+x019R	Oral ranitidine
+x019S	Parenteral ranitidine
+x02AK	Famotidine 10mg tablet
+x02AL	Pepcid AC indigestion tablet
+x02AM	Cimetidine 100mg tablet
+x02AN	Tagamet 100 tablet
+x02Sf	Acitak
+x02TC	Algitec
+x02Ur	Axid
+x02aq	Dyspamet
+x02db	Galenamet
+x02hx	Losec
+x02nB	Pepcid
+x02nC	Pepcid AC
+x02nD	Peptimax
+x02nP	Phimetin
+x02op	Pylorid
+x02s6	Tagamet
+x02tg	Ultec
+x02uu	Zantac
+x02v5	Zinga
+x02v8	Zita
+x02vD	Zoton
+x03dL	Tagamet Dual Action liquid
+x03ij	Protium
+x03n4	Raciran
+x03ug	Peptimax 200
+x03uh	Peptimax 400
+x03ui	Peptimax 800
+x03yG	Tagamet 100
+x03yH	Tagamet Dual Action
+x047P	Acitak 200
+x047Q	Acitak 400
+x047R	Acitak 800
+x049w	Zantac 75
+x04cM	Zaedoc 150
+x04cN	Zaedoc 300
+x04sG	Rantec
+x04uW	Pariet
+x04wh	Protium i.v
+x0538	Losec MUPS
+x054I	Ranitic
+x05BT	Nexium
+x05Er	Ranzac
+x05G6	Histac
+x05Xr	Ranitil
+x05hY	Ultec Pro
+x05i0	Omeran
+x05mC	Zantac Dissolve
+x05mn	Pepcidtwo
+x05pc	Gavilast-P
+x05sN	Zanprol
+x05uG	Galpharm Heartburn Relief
