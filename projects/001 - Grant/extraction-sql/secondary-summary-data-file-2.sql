@@ -1,3 +1,16 @@
+--┌──────────────────────────┐
+--│ Secondary summary file 2 │
+--└──────────────────────────┘
+
+-- OBJECTIVE: To provide a denominator population when working with the secondary data files. This
+--						file gives counts per hospital, imd and the number of LTCs
+
+-- OUTPUT: Data with the following fields
+-- 	•	MostLikelyHospitalFromLSOA
+-- 	•	IMD2019Decile1IsMostDeprived10IsLeastDeprived
+-- 	•	NumberOfLTCs
+-- 	•	Number
+
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
@@ -5,78 +18,10 @@ SET NOCOUNT ON;
 DECLARE @StartDate datetime;
 SET @StartDate = '2020-01-01';
 
---┌───────────────────────────────┐
---│ Classify secondary admissions │
---└───────────────────────────────┘
-
--- OBJECTIVE: To categorise admissions to secondary care into 5 categories: Maternity, 
---						Unplanned, Planned, Transfer and Unknown.
-
--- ASSUMPTIONS:
---	-	We assume patients can only have one admission per day. This is probably not true, but 
---		where we see multiple admissions it is more likely to be data duplication, or internal
---		admissions, than an admission, discharge and another admission in the same day.
---	-	Where patients have multiple admissions we choose the "highest" category for admission
---		with the categories ranked as follows: Maternity > Unplanned > Planned > Transfer > Unknown
---	-	We have used the following classifications based on the AdmissionTypeCode:
---		PLANNED: PL (ELECTIVE PLANNED), 11 (Elective - Waiting List), WL (ELECTIVE WL), 13 (Elective - Planned), 12 (Elective - Booked), BL (ELECTIVE BOOKED), D (NULL), Endoscopy (Endoscopy), OP (DIRECT OUTPAT CLINIC), Venesection (X36.2 Venesection), Colonoscopy (H22.9 Colonoscopy), Medical (Medical)
---		UNPLANNED: AE (AE.DEPT.OF PROVIDER), 21 (Emergency - Local A&E), I (NULL), GP (GP OR LOCUM GP), 22 (Emergency - GP), 23 (Emergency - Bed Bureau), 28 (Emergency - Other (inc other provider A&E)), 2D (Emergency - Other), 24 (Emergency - Clinic), EM (EMERGENCY OTHER), AI (ACUTE TO INTMED CARE), BB (EMERGENCY BED BUREAU), DO (EMERGENCY DOMICILE), 2A (A+E Department of another provider where the Patient has not been admitted), A+E (Admission	 A+E Admission), Emerg (GP	Emergency GP Patient)
---		MATERNITY: 31 (Maternity ante-partum), BH (BABY BORN IN HOSP), AN (MATERNITY ANTENATAL), 82 (Birth in this Health Care Provider), PN (MATERNITY POST NATAL), B (NULL), 32 (Maternity post-partum), BHOSP (Birth in this Health Care Provider)
---		TRANSFER: 81 (Transfer from other hosp (not A&E)), TR (PLAN TRANS TO TRUST), ET (EM TRAN (OTHER PROV)), HospTran (Transfer from other NHS Hospital), T (TRANSFER), CentTrans (Transfer from CEN Site)
---		OTHER:
-
--- INPUT: No pre-requisites
-
--- OUTPUT: A temp table as follows:
--- #AdmissionTypes (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, AdmissionType)
--- 	- FK_Patient_Link_ID - unique patient id
---	- AdmissionDate - date of admission (YYYY-MM-DD)
---	- AcuteProvider - Bolton, SRFT, Stockport etc..
---	- AdmissionType - One of: Maternity/Unplanned/Planned/Transfer/Unknown
-
--- For each acute admission we find the type. If multiple admissions on same day
--- we group and take the 'highest' category e.g.
--- choose Unplanned, then Planned, then Maternity, then Transfer, then Unknown
-IF OBJECT_ID('tempdb..#AdmissionTypes') IS NOT NULL DROP TABLE #AdmissionTypes;
-SELECT 
-	FK_Patient_Link_ID, AdmissionDate, 
-	CASE 
-		WHEN AdmissionId = 5 THEN 'Maternity' 
-		WHEN AdmissionId = 4 THEN 'Unplanned' 
-		WHEN AdmissionId = 3 THEN 'Planned' 
-		WHEN AdmissionId = 2 THEN 'Transfer' 
-		WHEN AdmissionId = 1 THEN 'Unknown' 
-	END as AdmissionType,
-	AcuteProvider 
-INTO #AdmissionTypes FROM (
-	SELECT 
-		FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) as AdmissionDate, 
-		MAX(
-			CASE 
-				WHEN AdmissionTypeCode IN ('PL','11','WL','13','12','BL','D','Endoscopy','OP','Venesection','Colonoscopy','Flex sigmoidosco','Infliximab','IPPlannedAd','S.I. joint inj','Daycase','Extraction Multi','Chemotherapy','Total knee rep c','Total rep hip ce') THEN 3 --'Planned'
-				WHEN AdmissionTypeCode IN ('AE','21','I','GP','22','23','EM','28','2D','24','AI','BB','DO','2A','A+E Admission','Emerg GP') THEN 4 --'Unplanned'
-				WHEN AdmissionTypeCode IN ('31','BH','AN','82','PN','B','32','BHOSP') THEN 5 --'Maternity'
-				WHEN AdmissionTypeCode IN ('81','TR','ET','HospTran','T','CentTrans') THEN 2 --'Transfer'
-				WHEN AdmissionTypeCode IN ('Blood test','Blood transfusio','Medical') AND ReasonForAdmissionDescription LIKE ('Elective%') THEN 3 --'Planned'
-				WHEN AdmissionTypeCode IN ('Blood test','Blood transfusio','Medical') AND ReasonForAdmissionDescription LIKE ('Emergency%') THEN 4 --'Unplanned'
-				ELSE 1 --'Unknown'
-			END
-		)	AS AdmissionId,
-		t.TenancyName AS AcuteProvider
-	FROM RLS.vw_Acute_Inpatients i
-	LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
-	WHERE EventType = 'Admission'
-	AND AdmissionDate >= @StartDate
-	GROUP BY FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate), t.TenancyName
-) sub;
--- 523477 rows	523477 rows
--- 00:00:16		00:00:45
-
--- Populate a table with all the patients so in the future we can get their LTCs and deprivation score etc.
+-- Populate a table with all the GM registered patients
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT DISTINCT FK_Patient_Link_ID INTO #Patients FROM #AdmissionTypes;
--- 286087 rows
--- 00:00:01
+SELECT DISTINCT FK_Patient_Link_ID INTO #Patients FROM RLS.vw_Patient
+WHERE FK_Reference_Tenancy_ID=2;
 
 --
 --┌──────────────────────┐
@@ -537,16 +482,189 @@ HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1Is
 -- 489
 -- 00:00:00
 
--- Generate cohort so at most one patient per acute provider
-IF OBJECT_ID('tempdb..#FinalCohort') IS NOT NULL DROP TABLE #FinalCohort;
-SELECT DISTINCT FK_Patient_Link_ID, AcuteProvider INTO #FinalCohort FROM #AdmissionTypes;
+--┌───────────────────────────────┐
+--│ Lower level super output area │
+--└───────────────────────────────┘
 
---PRINT 'AcuteProvider,IMD2019Decile1IsMostDeprived10IsLeastDeprived,NumberOfLTCs,Number';
+-- OBJECTIVE: To get the LSOA for each patient.
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #PatientLSOA (FK_Patient_Link_ID, LSOA)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- LSOA - nationally recognised LSOA identifier
+
+-- ASSUMPTIONS:
+--	- Patient data is obtained from multiple sources. Where patients have multiple LSOAs we determine the LSOA as follows:
+--	-	If the patients has an LSOA in their primary care data feed we use that as most likely to be up to date
+--	-	If every LSOA for a paitent is the same, then we use that
+--	-	If there is a single most recently updated LSOA in the database then we use that
+--	-	Otherwise the patient's LSOA is considered unknown
+
+-- Get all patients LSOA for the cohort
+IF OBJECT_ID('tempdb..#AllPatientLSOAs') IS NOT NULL DROP TABLE #AllPatientLSOAs;
 SELECT 
-	p.AcuteProvider, ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
-	ISNULL(NumberOfLTCs,0) AS NumberOfLTCs, count(*) AS Number
-FROM #FinalCohort p
-	LEFT OUTER JOIN #NumLTCs ltc ON ltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+	FK_Patient_Link_ID,
+	FK_Reference_Tenancy_ID,
+	HDMModifDate,
+	LSOA_Code
+INTO #AllPatientLSOAs
+FROM RLS.vw_Patient p
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND LSOA_Code IS NOT NULL;
+
+
+-- If patients have a tenancy id of 2 we take this as their most likely LSOA_Code
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientLSOA') IS NOT NULL DROP TABLE #PatientLSOA;
+SELECT FK_Patient_Link_ID, MIN(LSOA_Code) as LSOA_Code INTO #PatientLSOA FROM #AllPatientLSOAs
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+GROUP BY FK_Patient_Link_ID;
+
+-- Find the patients who remain unmatched
+IF OBJECT_ID('tempdb..#UnmatchedLsoaPatients') IS NOT NULL DROP TABLE #UnmatchedLsoaPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedLsoaPatients FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientLSOA;
+-- 38710 rows
+-- 00:00:00
+
+-- If every LSOA_Code is the same for all their linked patient ids then we use that
+INSERT INTO #PatientLSOA
+SELECT FK_Patient_Link_ID, MIN(LSOA_Code) FROM #AllPatientLSOAs
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedLsoaPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedLsoaPatients;
+INSERT INTO #UnmatchedLsoaPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientLSOA;
+
+-- If there is a unique most recent lsoa then use that
+INSERT INTO #PatientLSOA
+SELECT p.FK_Patient_Link_ID, MIN(p.LSOA_Code) FROM #AllPatientLSOAs p
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientLSOAs
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedLsoaPatients)
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+GROUP BY p.FK_Patient_Link_ID
+HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
+
+
+--┌───────────────────────────────┐
+--│ Likely hospital for each LSOA │
+--└───────────────────────────────┘
+
+-- OBJECTIVE: For each LSOA to get the hospital that most residents would visit.
+
+-- INPUT: No pre-requisites
+
+-- OUTPUT: A temp table as follows:
+-- #LikelyLSOAHospital (LSOA, LikelyLSOAHospital)
+--	- LSOA - nationally recognised LSOA identifier
+-- 	- LikelyLSOAHospital - name of most likely hospital for this LSOA
+
+-- ASSUMPTIONS:
+--	- We count the number of hospital admissions per LSOA
+--	-	If there is a single hospital with the most admissions then we assign that as the most likely hospital
+--	-	If there are 2 or more that tie for the most admissions then we classify that LSOA as 'Unknown'
+
+-- Get the patient id and tenancy id of all hospital admission
+IF OBJECT_ID('tempdb..#AdmissionPatients') IS NOT NULL DROP TABLE #AdmissionPatients;
+SELECT DISTINCT FK_Patient_Link_ID, FK_Reference_Tenancy_ID INTO #AdmissionPatients FROM RLS.vw_Acute_Inpatients;
+
+-- Get all patients LSOA for the cohort
+IF OBJECT_ID('tempdb..#AllAdmissionPatientLSOAs') IS NOT NULL DROP TABLE #AllAdmissionPatientLSOAs;
+SELECT 
+	FK_Patient_Link_ID,
+	FK_Reference_Tenancy_ID,
+	HDMModifDate,
+	LSOA_Code
+INTO #AllAdmissionPatientLSOAs
+FROM RLS.vw_Patient p
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #AdmissionPatients)
+AND LSOA_Code IS NOT NULL;
+
+-- If patients have a tenancy id of 2 we take this as their most likely LSOA_Code
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientAdmissionLSOA') IS NOT NULL DROP TABLE #PatientAdmissionLSOA;
+SELECT FK_Patient_Link_ID, MIN(LSOA_Code) as LSOA_Code INTO #PatientAdmissionLSOA FROM #AllAdmissionPatientLSOAs
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #AdmissionPatients)
+AND FK_Reference_Tenancy_ID = 2
+GROUP BY FK_Patient_Link_ID;
+
+-- Find the patients who remain unmatched
+IF OBJECT_ID('tempdb..#UnmatchedAdmissionLsoaPatients') IS NOT NULL DROP TABLE #UnmatchedAdmissionLsoaPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedAdmissionLsoaPatients FROM #AdmissionPatients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientAdmissionLSOA;
+-- 38710 rows
+-- 00:00:00
+
+-- If every LSOA_Code is the same for all their linked patient ids then we use that
+INSERT INTO #PatientAdmissionLSOA
+SELECT FK_Patient_Link_ID, MIN(LSOA_Code) FROM #AllAdmissionPatientLSOAs
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedAdmissionLsoaPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedAdmissionLsoaPatients;
+INSERT INTO #UnmatchedAdmissionLsoaPatients
+SELECT FK_Patient_Link_ID FROM #AdmissionPatients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientAdmissionLSOA;
+
+-- If there is a unique most recent lsoa then use that
+INSERT INTO #PatientAdmissionLSOA
+SELECT p.FK_Patient_Link_ID, MIN(p.LSOA_Code) FROM #AllAdmissionPatientLSOAs p
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllAdmissionPatientLSOAs
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedAdmissionLsoaPatients)
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+GROUP BY p.FK_Patient_Link_ID
+HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
+
+IF OBJECT_ID('tempdb..#LSOATenancyCounts') IS NOT NULL DROP TABLE #LSOATenancyCounts;
+SELECT LSOA_Code, FK_Reference_Tenancy_ID, COUNT(*) AS Frequency
+INTO #LSOATenancyCounts
+FROM #PatientAdmissionLSOA pl
+INNER JOIN #AdmissionPatients p ON p.FK_Patient_Link_ID = pl.FK_Patient_Link_ID
+GROUP BY LSOA_Code,FK_Reference_Tenancy_ID;
+
+IF OBJECT_ID('tempdb..#LikelyLSOAHospital') IS NOT NULL DROP TABLE #LikelyLSOAHospital;
+SELECT a.LSOA_Code AS LSOA,CASE WHEN MIN(TenancyName) = MAX(TenancyName) THEN MAX(TenancyName) ELSE 'Unknown' END AS LikelyLSOAHospital
+INTO #LikelyLSOAHospital
+FROM #LSOATenancyCounts a
+INNER JOIN (
+	SELECT LSOA_Code, MAX(Frequency) AS MaxFrequency FROM #LSOATenancyCounts
+	GROUP BY LSOA_Code
+) b on b.LSOA_Code = a.LSOA_Code and a.Frequency = b.MaxFrequency
+INNER JOIN SharedCare.Reference_Tenancy t on t.PK_Reference_Tenancy_ID = FK_Reference_Tenancy_ID
+GROUP BY a.LSOA_Code
+
+
+
+
+SELECT 
+	ISNULL(LikelyLSOAHospital, 'Unknown') AS MostLikelyHospitalFromLSOA, 
+	ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
+	ISNULL(NumberOfLTCs,0) AS NumberOfLTCs,
+	COUNT(*) AS Number
+FROM #Patients p
 	LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-GROUP BY p.AcuteProvider,IMD2019Decile1IsMostDeprived10IsLeastDeprived, NumberOfLTCs
-ORDER BY p.AcuteProvider,IMD2019Decile1IsMostDeprived10IsLeastDeprived, NumberOfLTCs
+	LEFT OUTER JOIN #NumLTCs ltc ON ltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+	LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+	LEFT OUTER JOIN #LikelyLSOAHospital hosp ON hosp.LSOA = lsoa.LSOA_Code
+GROUP BY LikelyLSOAHospital, IMD2019Decile1IsMostDeprived10IsLeastDeprived, NumberOfLTCs
+ORDER BY LikelyLSOAHospital, IMD2019Decile1IsMostDeprived10IsLeastDeprived, NumberOfLTCs;
+
