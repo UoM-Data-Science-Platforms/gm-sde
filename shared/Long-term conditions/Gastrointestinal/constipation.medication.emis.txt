@@ -1,0 +1,270 @@
+emis	Description
+AISU29827EMIS	Ailax Forte  Strong Suspension  
+CIPO27040NEMIS	Citrafleet  Powder For Oral Solution  16.11 gram sachets
+COOR100555NEMIS	Cosmocol Plain  Oral powder  
+DOCA23707EMIS	Docusate Sodium  Capsules  100 mg
+DUCA11673NEMIS	Dulco-lax Pico Perles  Capsules  2.5 mg
+LAPO29886NEMIS	Laxido Orange  Oral powder  13.8 gram/sachet
+MAMI10362BRIDL	Magnesium Sulfate  Mixture  
+META1784	Mestinon  Tablets  60 mg
+NOSU25393EMIS	Normax  Suspension  
+PRTA42096NEMIS	Prucalopride  Tablets  2 mg
+REMI2442	Relaxit  Micro-enema  
+SETA2535	Senna  Tablets  7.5 mg
+SETA2539	Senokot  Tablets  7.5 mg
+FIGR20242NEMIS	Fibrelief  Granules for Oral Suspension  Natural, 3.5 grams/sachet
+GLSU10323BRIDL	Glycerol (Infant)  Suppositories  1 gram
+GLSU11871NEMIS	Glycerol (Adult)  Suppositories  4 gram
+IDPO12827NEMIS	Idrolax  Powder for oral solution (orange-grapefruit)  10 grams/sachet
+ISGR1525	Ispaghula Husk  Granules  Sugar Free 90 %
+LESU82333NEMIS	Lecicarbon A  Suppositories  
+MAMI10362BRIDL	Magnesium Sulfate  Mixture  
+PYTA5353	Pyridostigmine Bromide  Tablets  60 mg
+SOOR17897NEMIS	Sodium Picosulfate  Oral Solution, Sugar Free  5 mg/5 ml
+COSU8986EGTON	Codalax  Suspension  
+DUSUEGTON6657	Dulcolax  Suppositories  10 mg
+FLOR28329EMIS	Fleet Phospho-Soda  Oral solution  
+ISSA1073NEMIS	Ispaghula Husk  Sachets Sugar Free (Orange)  3.5 grams/sachet
+LIOR10494BRIDL	Liquid Paraffin  Oral emulsion  
+MEGR5141	Methylcellulose  Granules  64 %
+META1793	Methylcellulose  Tablets  500 mg
+MOOR38718NEMIS	Molaxole  Oral powder  13.8 grams/sachet
+MOSA28315EMIS	Movicol  Oral powder (lemon and lime)  13.8 grams/sachet
+NOCA2031	Normax  Capsules  
+RESA28575EMIS	Regulan  Sachets (orange)  3.4 grams/sachet
+RESO35055EMIS	Regulose  Solution  3.35 grams/5 ml
+SETA17492NEMIS	Senokot Max Strength  Tablets  15 mg
+BISU3249	Bisacodyl  Suppositories  5 mg
+CACA27007EMIS	Capsuvac  Capsules  
+COOR100555NEMIS	Cosmocol Plain  Oral powder  
+FYEF13036NEMIS	Fybogel  Effervescent granules (orange)  150 grams Bulk Pack
+FYEF23543EMIS	Fybogel Mebeverine  Effervescent granules  
+KLPO10171BRIDL	Klean-Prep  Powder for reconstitution  
+MOPO17000NEMIS	Movicol Paediatric Plain  Powder sachets  6.9 grams/sachet
+NOSU25393EMIS	Normax  Suspension  
+AISU26080EMIS	Ailax  Suspension  
+BISU3249	Bisacodyl  Suppositories  5 mg
+COOR88761NEMIS	Cosmocol Orange Lemon And Lime  Oral powder sachets  
+DITA8627EGTON	Dioctyl  Tablets  100 mg
+ISGR1525	Ispaghula Husk  Granules  Sugar Free 90 %
+ISSA25807EMIS	Ispaghula Husk  Sachets (orange)  3.4 grams/sachet
+KETA3804	Kest  Tablets  
+KOSA25800EMIS	Konsyl  Sachets  6 grams/sachet
+LASY5071	Lactulose  Syrup  3.1-3.7 g/5 ml
+LESU101262NEMIS	Lecicarbon C  Suppositories  
+MACO5091NEMIS	Macrogol  Compound Oral Powder (sachets)  NPF Sugar Free
+MEPO3892	Metamucil  Powder  49 %
+MIEN3922	Micralax Micro-Enema  Enema  
+MOPO14661NEMIS	Movicol-Half  Powder sachets  6.9 grams/sachet
+PHEN15280NEMIS	Phosphates Enema Formula B  Enema  Standard Tube, 128 ml
+RESA25699EMIS	Regulan  Sachets (flavoured)  3.4 grams/sachet
+STGR5085NEMIS	Sterculia And Frangula  Granules  62 % + 8 %, gluten free
+LASO23988EMIS	Lactugal  Solution  3.1-3.7 grams/5 ml
+LESU101262NEMIS	Lecicarbon C  Suppositories  
+MIEN3922	Micralax Micro-Enema  Enema  
+MOSA28315EMIS	Movicol  Oral powder (lemon and lime)  13.8 grams/sachet
+PIPO4167	Picolax  Oral powder  16.1 gram sachets
+COSU25096EMIS	Co-Danthrusate 50/60  Suspension  Sugar Free
+COSU9616BRIDL	Co-Danthramer 25/200  Suspension  Sugar Free
+FIGR20244NEMIS	Fibrelief Orange  Granules for Oral Suspension  3.5 grams/sachet
+FLRE6306NEMIS	Fletchers Arachis Oil  Retention enema  130 ml
+GLSU10323BRIDL	Glycerol (Infant)  Suppositories  1 gram
+GLSU8824BRIDL	Glycerol (Child)  Suppositories  2 gram
+LAOR101954NEMIS	Laxido Paediatric Plain  Oral powder  6.9 gram sachet
+MOPO76087NEMIS	Movicol Paediatric Chocolate  Powder sachets  6.9 grams/sachet
+PHEN15279NEMIS	Phosphates Enema Formula B  Enema  Long Tube, 128 ml
+RESA28574EMIS	Regulan  Sachets (lemon/lime)  3.4 grams/sachet
+COCA26264EMIS	Co-Danthramer 25/200  Capsules  
+COOR100557NEMIS	Cosmocol Half  Oral powder  6.9 grams/sachet
+DOPA541NEMIS	Docusol  Paediatric Oral Solution  12.5 mg/5 ml
+ISSA12002NEMIS	Ispagel  Sachets (orange)  3.5 grams/sachet
+MOOR34393NEMIS	Movicol Chocolate  Oral powder  13.9 grams/sachet
+MOPO25192NEMIS	Movicol Plain  Powder sachets  13.7 grams/sachet
+PHEN15280NEMIS	Phosphates Enema Formula B  Enema  Standard Tube, 128 ml
+REMI2442	Relaxit  Micro-enema  
+RESA28575EMIS	Regulan  Sachets (orange)  3.4 grams/sachet
+RETA42098NEMIS	Resolor  Tablets  1 mg
+SESA5090NEMIS	Senna And Ispaghula  Sachets  12.4 % + 54.2 %, 4 grams/sachet
+SETA2535	Senna  Tablets  7.5 mg
+COCA26264EMIS	Co-Danthramer 25/200  Capsules  
+COCA4761	Co-Danthrusate 50/60  Capsules  
+COGR4769	Coated Sterculia  Granules  62 %, gluten free
+DICA23705EMIS	Dioctyl  Capsules  100 mg
+DOAD347NEMIS	Docusate Sodium  Adult Oral Solution  Sugar Free 50 mg/5 ml
+FYSA1271	Fybogel Orange  Granules  3.5 grams/sachet
+GLSU1312	Glycerol  Suppositories  
+ISPO1526	Ispaghula Husk  Powder  3.6 grams/sachet
+ISSA12002NEMIS	Ispagel  Sachets (orange)  3.5 grams/sachet
+MAGR10577BRIDL	Manevac  Granules  
+MAMI3870	Magnesium Hydroxide  Mixture  550 mg/10 ml
+MOOR47279NEMIS	Moviprep Orange  Oral Powder For Solution (Sachets)  
+PIPO4167	Picolax  Oral powder  16.1 gram sachets
+AISU26080EMIS	Ailax  Suspension  
+AREN6895	Arachis Oil  Enema  130 ml
+COGR4769	Coated Sterculia  Granules  62 %, gluten free
+COOR90153NEMIS	Cosmocol Orange Flavour  Oral powder sachets  
+DUCA11673NEMIS	Dulco-lax Pico Perles  Capsules  2.5 mg
+META1784	Mestinon  Tablets  60 mg
+NOMI9581EMIS	Norgalax  Micro-enema  120 mg/10 gram enema
+PRTA42094NEMIS	Prucalopride  Tablets  1 mg
+PRTA42096NEMIS	Prucalopride  Tablets  2 mg
+RETA42099NEMIS	Resolor  Tablets  2 mg
+SESY2534	Senna  Oral Solution, Sugar Free  7.5 mg/5 ml
+STGR5085NEMIS	Sterculia And Frangula  Granules  62 % + 8 %, gluten free
+CIEF9052EMIS	Citramag  Effervescent powder  sachets
+DOAD345NEMIS	Docusol  Adult Oral Solution  50 mg/5 ml
+ISSA25701EMIS	Ispaghula Husk  Sachets (flavoured)  3.4 grams/sachet
+MIEN8576BRID	Micralax Disposable  Enemas  
+NOSA26972EMIS	Normacol Plus  Sachets  
+PRTA42094NEMIS	Prucalopride  Tablets  1 mg
+RETA42099NEMIS	Resolor  Tablets  2 mg
+STSA5086NEMIS	Sterculia And Frangula  Sachets  62 % + 8 %, 7 grams/sachet, gluten free
+TRPO4447	Trifyba  Powder  80 %
+DUOR41121NEMIS	Dulcobalance  Oral powder sachets  10 grams/sachet
+MIEN3921	Micolette Micro-  Enema  
+MOOR47279NEMIS	Moviprep Orange  Oral Powder For Solution (Sachets)  
+SEGR2537	Senokot  Granules  15 mg/5 ml
+CACA27007EMIS	Capsuvac  Capsules  
+CETA512	Celevac  Tablets  500 mg
+COCA26267EMIS	Co-Danthramer Strong  Capsules  37.5 mg + 500 mg
+DUSY1007	Duphalac  Oral solution  3.35 g/5 ml
+FLEN24018EMIS	Fleet Ready-To-Use  Enema  133 ml
+FYEF13036NEMIS	Fybogel  Effervescent granules (orange)  150 grams Bulk Pack
+FYSA1270	Fybogel  Granules  3.5 grams/sachet
+ISEF12645NEMIS	Ispaghula Husk Sugar and Gluten Free  Effervescent Granules (Lemon)  3.5 grams/sachet
+KOSA25801EMIS	Konsyl  Sachets (orange)  3.4 grams/sachet
+LASA19617EMIS	Lactitol Monohydrate  Sachets  10 grams/sachet
+MEMIEGTON6653	Methylcellulose  Mixture  900 mg/10 ml
+SESA5090NEMIS	Senna And Ispaghula  Sachets  12.4 % + 54.2 %, 4 grams/sachet
+SESY2534	Senna  Oral Solution, Sugar Free  7.5 mg/5 ml
+COCA26267EMIS	Co-Danthramer Strong  Capsules  37.5 mg + 500 mg
+GLSU8824BRIDL	Glycerol (Child)  Suppositories  2 gram
+ISGR1500	Isogel  Granules  90 %
+KOSA25800EMIS	Konsyl  Sachets  6 grams/sachet
+LASY1587	Lactulose  Solution  3.1-3.7 g/5 ml
+MOOR38718NEMIS	Molaxole  Oral powder  13.8 grams/sachet
+MOPO76087NEMIS	Movicol Paediatric Chocolate  Powder sachets  6.9 grams/sachet
+BISU3248	Bisacodyl  Suppositories  10 mg
+BITA381	Bisacodyl  E/c tablets  5 mg
+CATA9223HILLI	Cascara  Tablets  20 mg
+COOR100562NEMIS	Cosmocol Paediatric  Oral powder  6.9 grams/sachet
+DOTA10360BRIDL	Docusate Sodium  Tablets  100 mg
+ISGR1500	Isogel  Granules  90 %
+ISSA26488EMIS	Ispaghula Husk  Sachets (lemon)  3.5 grams/sachet
+SOCA17895NEMIS	Sodium Picosulfate  Capsules  2.5 mg
+AISU29827EMIS	Ailax Forte  Strong Suspension  
+COOR100562NEMIS	Cosmocol Paediatric  Oral powder  6.9 grams/sachet
+DOAD345NEMIS	Docusol  Adult Oral Solution  50 mg/5 ml
+LAOR101954NEMIS	Laxido Paediatric Plain  Oral powder  6.9 gram sachet
+LIOR10494BRIDL	Liquid Paraffin  Oral emulsion  
+SEGR5089NEMIS	Senna And Ispaghula  Granules  12.4 % + 54.2 %
+SOCA17895NEMIS	Sodium Picosulfate  Capsules  2.5 mg
+STSA5086NEMIS	Sterculia And Frangula  Sachets  62 % + 8 %, 7 grams/sachet, gluten free
+COSA4772NEMIS	Coated Sterculia  Sachets  62 %, 7 grams/sachet, gluten free
+DOPA542NEMIS	Docusate Sodium  Paediatric Oral Solution  Sugar Free 12.5 mg/5 ml
+FIGR20242NEMIS	Fibrelief  Granules for Oral Suspension  Natural, 3.5 grams/sachet
+FLEN3594	Fletchers Enemette  Enema  
+FYSA26486EMIS	Fybogel  Granules (Lemon)  3.5 grams/sachet
+IDPO12827NEMIS	Idrolax  Powder for oral solution (orange-grapefruit)  10 grams/sachet
+ISEF12644NEMIS	Ispaghula Husk Sugar and Gluten Free  Effervescent granules (orange)  3.5 grams/sachet
+LASO23988EMIS	Lactugal  Solution  3.1-3.7 grams/5 ml
+MAMI5527NEMIS	Magnesium Hydroxide  Mixture  BP
+COCA4761	Co-Danthrusate 50/60  Capsules  
+DUTA1005	Dulcolax  E/c tablets  5 mg
+FYGR12647NEMIS	Fybogel  Granules (Plain)  3.5 grams/sachet
+LAPO29886NEMIS	Laxido Orange  Oral powder  13.8 gram/sachet
+MAGR10577BRIDL	Manevac  Granules  
+MAPO29059EMIS	Magnesium Sulfate  Powder  bp
+META1793	Methylcellulose  Tablets  500 mg
+MOOR23884NEMIS	Moviprep  Oral Powder For Solution (Sachets)  
+NOGR20686EMIS	Normacol  Granules  62 %
+NOGR8981EGTON	Normacol Plus  Granules  
+NOSA26972EMIS	Normacol Plus  Sachets  
+NOSA4771NEMIS	Normacol  Sachets  62 %, 7 grams/sachet
+RESO35055EMIS	Regulose  Solution  3.35 grams/5 ml
+SEGR2533	Senna  Granules  15 mg/5 ml
+AREN6895	Arachis Oil  Enema  130 ml
+COOR100557NEMIS	Cosmocol Half  Oral powder  6.9 grams/sachet
+COOR90149NEMIS	Cosmocol Lemon And Lime Flavour  Oral powder sachets  
+COOR90153NEMIS	Cosmocol Orange Flavour  Oral powder sachets  
+COSU8989EGTON	Codalax Forte  Strong Suspension  
+DOMI9584EMIS	Docusate Sodium  Micro-enema  120 mg/10 gram enema
+DOPA541NEMIS	Docusol  Paediatric Oral Solution  12.5 mg/5 ml
+FLEN3596	Fletchers Phosphate  Enema  standard tube
+ISSA28577EMIS	Ispaghula Husk  Sachets (lemon/lime)  3.4 grams/sachet
+LAPO26618EMIS	Lactulose  Powder  10 grams/sachet
+LASY1587	Lactulose  Solution  3.1-3.7 g/5 ml
+LESU82333NEMIS	Lecicarbon A  Suppositories  
+MIEN3921	Micolette Micro-  Enema  
+NOSA4771NEMIS	Normacol  Sachets  62 %, 7 grams/sachet
+SEGR5089NEMIS	Senna And Ispaghula  Granules  12.4 % + 54.2 %
+SOEL4328	Sodium Picosulphate  Elixir  Sugar Free 5 mg/5 ml
+CIEF9052EMIS	Citramag  Effervescent powder  sachets
+COSA4772NEMIS	Coated Sterculia  Sachets  62 %, 7 grams/sachet, gluten free
+COSU25096EMIS	Co-Danthrusate 50/60  Suspension  Sugar Free
+COSU9616BRIDL	Co-Danthramer 25/200  Suspension  Sugar Free
+COSU9619BRIDL	Co-Danthramer 75/1000  Strong Suspension  Sugar Free
+DUPA8993EGTON	Dulcolax  Paediatric suppositories  5 mg
+DUSUEGTON6657	Dulcolax  Suppositories  10 mg
+DUSY1007	Duphalac  Oral solution  3.35 g/5 ml
+MOPO14661NEMIS	Movicol-Half  Powder sachets  6.9 grams/sachet
+PHEN15279NEMIS	Phosphates Enema Formula B  Enema  Long Tube, 128 ml
+AGGR3124	Agiolax  Granules
+COSU9619BRIDL	Co-Danthramer 75/1000  Strong Suspension  Sugar Free
+DUOR41121NEMIS	Dulcobalance  Oral powder sachets  10 grams/sachet
+DUPO26616EMIS	Duphalac Dry  Powder  10 grams/sachet
+FLEN8500BRID	Fletchers Phosphate  Enema  long tube
+ISPO18817EMIS	Ispaghula Husk  Powder  49 %
+ISSA18818EMIS	Ispaghula Husk  Sachets (orange)  3.5 g/sachet
+MOPO25192NEMIS	Movicol Plain  Powder sachets  13.7 grams/sachet
+NOGR20686EMIS	Normacol  Granules  62 %
+NOGR8981EGTON	Normacol Plus  Granules  
+NOMI9581EMIS	Norgalax  Micro-enema  120 mg/10 gram enema
+PYTA5353	Pyridostigmine Bromide  Tablets  60 mg
+RESA2441	Regulan  Sachets  3.6 grams/sachet
+SESY2538	Senokot  Syrup  Sugar Free 7.5 mg/5 ml
+SOCA12875NEMIS	Sodium Picosulphate  Capsules  2.5 mg
+SOOR17900NEMIS	Sodium Picosulfate  Oral powder  10 mg/sachet
+CETA512	Celevac  Tablets  500 mg
+DOAD347NEMIS	Docusate Sodium  Adult Oral Solution  Sugar Free 50 mg/5 ml
+DOMI9584EMIS	Docusate Sodium  Micro-enema  120 mg/10 gram enema
+FIGR20244NEMIS	Fibrelief Orange  Granules for Oral Suspension  3.5 grams/sachet
+FLEN3594	Fletchers Enemette  Enema  
+FLEN3596	Fletchers Phosphate  Enema  standard tube
+FLEN8500BRID	Fletchers Phosphate  Enema  long tube
+FYSA1271	Fybogel Orange  Granules  3.5 grams/sachet
+KOSA1074NEMIS	Konsyl  Sachets Sugar Free (Orange)  3.5 grams/sachet
+MACO5091NEMIS	Macrogol  Compound Oral Powder (sachets)  NPF Sugar Free
+NOCA2031	Normax  Capsules  
+RESA28574EMIS	Regulan  Sachets (lemon/lime)  3.4 grams/sachet
+SETA17492NEMIS	Senokot Max Strength  Tablets  15 mg
+DUPA8993EGTON	Dulcolax  Paediatric suppositories  5 mg
+DUTA1005	Dulcolax  E/c tablets  5 mg
+FYEF23543EMIS	Fybogel Mebeverine  Effervescent granules  
+FYGR12647NEMIS	Fybogel  Granules (Plain)  3.5 grams/sachet
+GLSU11871NEMIS	Glycerol (Adult)  Suppositories  4 gram
+ISSA1527	Ispaghula Husk  Sachets  3.5 g/sachet
+KLPO10171BRIDL	Klean-Prep  Powder for reconstitution  
+KOSA1074NEMIS	Konsyl  Sachets Sugar Free (Orange)  3.5 grams/sachet
+MAPO29059EMIS	Magnesium Sulfate  Powder  bp
+MOOR23884NEMIS	Moviprep  Oral Powder For Solution (Sachets)  
+MOOR34393NEMIS	Movicol Chocolate  Oral powder  13.9 grams/sachet
+MOPO17000NEMIS	Movicol Paediatric Plain  Powder sachets  6.9 grams/sachet
+PRGR2332	Prefil  Granules  55 %
+RETA42098NEMIS	Resolor  Tablets  1 mg
+SEGR2533	Senna  Granules  15 mg/5 ml
+SEGR2537	Senokot  Granules  15 mg/5 ml
+SOOR17897NEMIS	Sodium Picosulfate  Oral Solution, Sugar Free  5 mg/5 ml
+SOPO5387	Sodium Picosulphate  Powder  10 mg/sachet
+BISU3248	Bisacodyl  Suppositories  10 mg
+BITA381	Bisacodyl  E/c tablets  5 mg
+CIPO27040NEMIS	Citrafleet  Powder For Oral Solution  16.11 gram sachets
+COOR88761NEMIS	Cosmocol Orange Lemon And Lime  Oral powder sachets  
+COOR90149NEMIS	Cosmocol Lemon And Lime Flavour  Oral powder sachets  
+DICA23705EMIS	Dioctyl  Capsules  100 mg
+DOCA23707EMIS	Docusate Sodium  Capsules  100 mg
+DOPA542NEMIS	Docusate Sodium  Paediatric Oral Solution  Sugar Free 12.5 mg/5 ml
+FLRE6306NEMIS	Fletchers Arachis Oil  Retention enema  130 ml
+FYSA26486EMIS	Fybogel  Granules (Lemon)  3.5 grams/sachet
+SESY2538	Senokot  Syrup  Sugar Free 7.5 mg/5 ml
+SETA2539	Senokot  Tablets  7.5 mg
