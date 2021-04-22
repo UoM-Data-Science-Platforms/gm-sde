@@ -5,19 +5,19 @@ SET NOCOUNT ON;
 DECLARE @StartDate datetime;
 SET @StartDate = '2020-01-01';
 
---> EXECUTE query-classify-secondary-admissions.sql
-
 -- Populate a table with all the patients so in the future we can get their LTCs and deprivation score etc.
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT DISTINCT FK_Patient_Link_ID INTO #Patients FROM #AdmissionTypes;
--- 286087 rows
--- 00:00:01
+SELECT DISTINCT FK_Patient_Link_ID INTO #Patients FROM RLS.vw_Patient;
 
 --> EXECUTE query-patient-ltcs.sql
 
 --> EXECUTE query-patient-ltcs-group.sql
 
 --> EXECUTE query-patient-imd.sql
+
+--> EXECUTE query-patient-lsoa.sql
+
+--> EXECUTE query-patient-lsoa-likely-hospital.sql
 
 -- Generate cohort so at most one patient per acute provider
 IF OBJECT_ID('tempdb..#FinalCohort') IS NOT NULL DROP TABLE #FinalCohort;
