@@ -781,7 +781,7 @@ LEFT OUTER JOIN #CCGLookup ccg ON ccg.CcgId = gp.Commissioner;
 -- Prepare discharge data
 IF OBJECT_ID('tempdb..#FinalDischarges') IS NOT NULL DROP TABLE #FinalDischarges;
 SELECT 
-	DischargeDate, l.AcuteProvider, CASE WHEN CCG = '14L' THEN 'Y' ELSE 'N' END AS IsManchesterCCGResident,
+	DischargeDate, l.AcuteProvider, CASE WHEN CCG = 'Manchester' THEN 'Y' ELSE 'N' END AS IsManchesterCCGResident,
 	ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
 	ISNULL(LTCGroup, 'None') AS LTCGroup, CovidHealthcareUtilisation, count(*) AS NumberDischarged 
 	INTO #FinalDischarges
@@ -790,13 +790,13 @@ LEFT OUTER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Pat
 LEFT OUTER JOIN #LTCGroups ltc ON ltc.FK_Patient_Link_ID = l.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = l.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientPracticeAndCCG ppc ON ppc.FK_Patient_Link_ID = l.FK_Patient_Link_ID
-GROUP BY DischargeDate, l.AcuteProvider,CASE WHEN CCG = '14L' THEN 'Y' ELSE 'N' END,IMD2019Decile1IsMostDeprived10IsLeastDeprived, LTCGroup, CovidHealthcareUtilisation;
+GROUP BY DischargeDate, l.AcuteProvider,CASE WHEN CCG = 'Manchester' THEN 'Y' ELSE 'N' END,IMD2019Decile1IsMostDeprived10IsLeastDeprived, LTCGroup, CovidHealthcareUtilisation;
 -- 28764
 
 -- Prepare admission data
 IF OBJECT_ID('tempdb..#FinalAdmissions') IS NOT NULL DROP TABLE #FinalAdmissions;
 SELECT 
-	p.AdmissionDate, p.AcuteProvider, CASE WHEN CCG = '14L' THEN 'Y' ELSE 'N' END AS IsManchesterCCGResident,
+	p.AdmissionDate, p.AcuteProvider, CASE WHEN CCG = 'Manchester' THEN 'Y' ELSE 'N' END AS IsManchesterCCGResident,
 	ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
 	ISNULL(LTCGroup, 'None') AS LTCGroup, CovidHealthcareUtilisation,
 	SUM(CASE WHEN AdmissionType = 'Unplanned' THEN 1 ELSE 0 END) AS NumberUnplannedAdmissions,
@@ -814,7 +814,7 @@ FROM #AdmissionTypes p
 	LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 	LEFT OUTER JOIN #PatientPracticeAndCCG ppc ON ppc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE l.LengthOfStay IS NOT NULL
-GROUP BY p.AdmissionDate,p.AcuteProvider,CASE WHEN CCG = '14L' THEN 'Y' ELSE 'N' END,IMD2019Decile1IsMostDeprived10IsLeastDeprived, CovidHealthcareUtilisation,LTCGroup;
+GROUP BY p.AdmissionDate,p.AcuteProvider,CASE WHEN CCG = 'Manchester' THEN 'Y' ELSE 'N' END,IMD2019Decile1IsMostDeprived10IsLeastDeprived, CovidHealthcareUtilisation,LTCGroup;
 -- 29833
 
 -- Find unique combinations of data, provider, decile, ltcGroup and covid utilisation
@@ -830,7 +830,7 @@ FROM #FinalAdmissions
 -- Bring it all together for output
 -- PRINT 'Date,AcuteProvider,IMD2019Decile1IsMostDeprived10IsLeastDeprived,LTCGroup,CovidHealthcareUtilisation,NumberMaternityAdmissions,NumberPlannedAdmissions,NumberTransferAdmissions,NumberUnknownAdmissions,NumberUnplannedAdmissions,NumberDischarged';
 SELECT 
-	cc.[Date], cc.AcuteProvider, fa.IsManchesterCCGResident, cc.IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
+	cc.[Date], cc.AcuteProvider, cc.IsManchesterCCGResident, cc.IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
 	cc.LTCGroup, cc.CovidHealthcareUtilisation,
 	ISNULL(fa.NumberMaternityAdmissions, 0) AS NumberMaternityAdmissions, 
 	ISNULL(fa.NumberPlannedAdmissions, 0) AS NumberPlannedAdmissions, 
@@ -844,11 +844,13 @@ LEFT OUTER JOIN #FinalAdmissions fa ON
 	fa.AcuteProvider = cc.AcuteProvider AND
 	fa.IMD2019Decile1IsMostDeprived10IsLeastDeprived = cc.IMD2019Decile1IsMostDeprived10IsLeastDeprived AND
 	fa.LTCGroup = cc.LTCGroup AND
-	fa.CovidHealthcareUtilisation = cc.CovidHealthcareUtilisation
+	fa.CovidHealthcareUtilisation = cc.CovidHealthcareUtilisation AND
+	fa.IsManchesterCCGResident = cc.IsManchesterCCGResident
 LEFT OUTER JOIN #FinalDischarges fd ON 
 	fd.DischargeDate = cc.[Date] AND
 	fd.AcuteProvider = cc.AcuteProvider AND
 	fd.IMD2019Decile1IsMostDeprived10IsLeastDeprived = cc.IMD2019Decile1IsMostDeprived10IsLeastDeprived AND
 	fd.LTCGroup = cc.LTCGroup AND
-	fd.CovidHealthcareUtilisation = cc.CovidHealthcareUtilisation
-ORDER BY cc.[Date], cc.AcuteProvider, cc.IMD2019Decile1IsMostDeprived10IsLeastDeprived, cc.LTCGroup, cc.CovidHealthcareUtilisation;
+	fd.CovidHealthcareUtilisation = cc.CovidHealthcareUtilisation AND
+	fd.IsManchesterCCGResident = cc.IsManchesterCCGResident
+ORDER BY cc.[Date], cc.AcuteProvider, cc.IsManchesterCCGResident, cc.IMD2019Decile1IsMostDeprived10IsLeastDeprived, cc.LTCGroup, cc.CovidHealthcareUtilisation;
