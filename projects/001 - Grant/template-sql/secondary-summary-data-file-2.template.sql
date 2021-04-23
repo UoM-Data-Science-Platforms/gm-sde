@@ -36,8 +36,11 @@ WHERE FK_Reference_Tenancy_ID=2;
 
 --> EXECUTE query-patient-lsoa-likely-hospital.sql
 
+--> EXECUTE query-patient-practice-and-ccg.sql
+
 SELECT 
-	ISNULL(LikelyLSOAHospital, 'UnknownLSOA') AS MostLikelyHospitalFromLSOA, 
+	ISNULL(LikelyLSOAHospital, 'UnknownLSOA') AS MostLikelyHospitalFromLSOA,
+	CASE WHEN CCG = 'Manchester' THEN 'Y' ELSE 'N' END AS IsManchesterCCGResident,
 	ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
 	ISNULL(NumberOfLTCs,0) AS NumberOfLTCs,
 	COUNT(*) AS Number
@@ -46,6 +49,7 @@ FROM #Patients p
 	LEFT OUTER JOIN #NumLTCs ltc ON ltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 	LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 	LEFT OUTER JOIN #LikelyLSOAHospital hosp ON hosp.LSOA = lsoa.LSOA_Code
-GROUP BY LikelyLSOAHospital, IMD2019Decile1IsMostDeprived10IsLeastDeprived, NumberOfLTCs
-ORDER BY LikelyLSOAHospital, IMD2019Decile1IsMostDeprived10IsLeastDeprived, NumberOfLTCs;
+	LEFT OUTER JOIN #PatientPracticeAndCCG ppc ON ppc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+GROUP BY LikelyLSOAHospital, CASE WHEN CCG = 'Manchester' THEN 'Y' ELSE 'N' END, IMD2019Decile1IsMostDeprived10IsLeastDeprived, NumberOfLTCs
+ORDER BY LikelyLSOAHospital, CASE WHEN CCG = 'Manchester' THEN 'Y' ELSE 'N' END, IMD2019Decile1IsMostDeprived10IsLeastDeprived, NumberOfLTCs;
 
