@@ -1,0 +1,187 @@
+emis	description
+ACTA26301EMIS	Acitak  Tablets  200 mg
+ACTA26302EMIS	Acitak  Tablets  400 mg
+ACTA26303EMIS	Acitak  Tablets  800 mg
+ALSU9283BRIDL	Algitec  Suspension
+ALTA8881EGTON	Algitec  Chewable tablets
+AXCA5859	Axid  Capsules  150 mg
+AXCA9142BRIDL	Axid  Capsules  300 mg
+CICH8422EGTON	Cimetidine  Chewable tablets  
+CICH8966DLSEM	Cimetidine + Alginic Acid  Che
+CIEF9243EMIS	Cimetidine  Effervescent table
+CIOR14287NEMIS	Cimetidine  Oral solution  200
+CISU13821NEMIS	Cimetidine  Sugar free suspens
+CISU8967DLSEM	Cimetidine + Alginic Acid  Sus
+CISY625	Cimetidine  Syrup  200 mg/5 ml
+CITA626	Cimetidine  Tablets  200 mg
+CITA627	Cimetidine  Tablets  400 mg
+CITA628	Cimetidine  Tablets  800 mg
+DYSU10204BRIDL	Dyspamet  Suspension  
+DYTA5853	Dyspamet  Chewable tablets  20
+FATA10123BRIDL	Famotidine  Tablets  40 mg
+FATA7033	Famotidine  Tablets  20 mg
+GATA23984EMIS	Galenamet  Tablets  200 mg
+GATA23985EMIS	Galenamet  Tablets  400 mg
+GATA23986EMIS	Galenamet  Tablets  800 mg
+HITA6654NEMIS	Histac  Tablets  150 mg
+HITA6655NEMIS	Histac  Tablets  300 mg
+NICA6794	Nizatidine  Capsules  150 mg
+NICA8558BRID	Nizatidine  Capsules  300 mg
+PETA10769BRIDL	Peptimax 200  Tablets  200 mg
+PETA10771BRIDL	Peptimax 400  Tablets  400 mg
+PETA10773BRIDL	Peptimax 800  Tablets  800 mg
+PETA5855	Pepcid  Tablets  20 mg
+PETA9082BRIDL	Pepcid  Tablets  40 mg
+PHTA22233EMIS	Phimetin  Tablets  200 mg
+PHTA22234EMIS	Phimetin  Tablets  400 mg
+PHTA22235EMIS	Phimetin  Tablets  800 mg
+PYTA26985EMIS	Pylorid  Tablets  400 mg
+RADI10652BRIDL	Ranitidine  Dispersible tablet
+RAEF17935EMIS	Ranitidine  Effervescent table
+RAEF17936EMIS	Ranitidine  Effervescent table
+RAOR14288NEMIS	Ranitidine  Oral solution  Sug
+RAS/10802BRIDL	Ranitidine  S/f syrup  75 mg/5
+RASY8927BRECO	Ranitidine  Syrup  150 mg/10 m
+RATA11631NEMIS	Ranitil  Tablets  150 mg
+RATA11632NEMIS	Ranitil  Tablets  300 mg
+RATA16163NEMIS	Ranzac  Tablets  75 mg
+RATA2432	Ranitidine  Tablets  150 mg
+RATA2433	Ranitidine  Tablets  300 mg
+RATA26987EMIS	Ranitidine Bismuth Citrate  Ta
+RATA31414EMIS	Raciran  Tablets  150 mg
+RATA31415EMIS	Raciran  Tablets  300 mg
+RATA35233EMIS	Ranitidine  Tablets  75 mg
+RATA35520EMIS	Rantec  Tablets  150 mg
+RATA35521EMIS	Rantec  Tablets  300 mg
+RATA45008NEMIS	Ranitic  Tablets  150 mg
+RATA45009NEMIS	Ranitic  Tablets  300 mg
+TAEF9241EMIS	Tagamet  Effervescent tablets 
+TASU29442EMIS	Tagamet Dual Action  Suspensio
+TASY2774	Tagamet  Syrup  200 mg/5 ml
+TATA2775	Tagamet  Tablets  200 mg
+TATA2776	Tagamet  Tablets  400 mg
+TATA2777	Tagamet  Tablets  800 mg
+ULTA24242EMIS	Ultec  Tablets  200 mg
+ULTA24243EMIS	Ultec  Tablets  400 mg
+ULTA8961DLSEM	Ultec  Tablets  800 mg
+ZADI8963EGTON	Zantac  Dispersible tablets  1
+ZAEF16095NEMIS	Zantac 75 Relief Dissolve  Eff
+ZAEF17931EMIS	Zantac  Effervescent tablets  
+ZAEF17932EMIS	Zantac  Effervescent tablets  
+ZAS/10816BRIDL	Zantac  S/f syrup  75 mg/5 ml
+ZATA16093NEMIS	Zantac 75 Relief  Tablets  75 
+ZATA3090	Zantac  Tablets  150 mg
+ZATA3091	Zantac  Tablets  300 mg
+ZATA32170EMIS	Zaedoc 150  Tablets  150 mg
+ZATA32172EMIS	Zaedoc 300  Tablets  300 mg
+ZATA35231EMIS	Zantac 75  Tablets  75 mg
+ZICA26141EMIS	Zinga  Capsules  150 mg
+ZICA26142EMIS	Zinga  Capsules  300 mg
+ZITA23671EMIS	Zita  Tablets  200 mg
+ZITA23672EMIS	Zita  Tablets  400 mg
+ZITA23673EMIS	Zita  Tablets  800 mg
+RAEF18098EMIS	Ranitidine  Effervescent Granules  150 mg
+RAEF18099EMIS	Ranitidine Effervescent granules 300 mg
+RAOR48248NEMIS	Ranitidine 5mg/5ml oral suspension
+RAOR77545NEMIS	Ranitidine 5mg/5ml oral solution
+EMGA45519NEMIS	Emozul  Gastro-resistant Capsu
+EMGA45520NEMIS	Emozul  Gastro-resistant Capsu
+ESGA39420NEMIS	Esomeprazole  Granules for Ora
+ESGA45517NEMIS	Esomeprazole  Gastro-resistant
+ESGA45518NEMIS	Esomeprazole  Gastro-resistant
+ESPO17143NEMIS	Esomeprazole  Powder For Solut
+ESTA5124NEMIS	Esomeprazole  Gastro-resistant
+ESTA5126NEMIS	Esomeprazole  Gastro-resistant
+KEM/39417NEMIS	Ketoprofen And Omeprazole  M/R
+KEM/39418NEMIS	Ketoprofen And Omeprazole  M/R
+LACA24446EMIS	Lansoprazole  Capsules (Gastro
+LACA28117EMIS	Lansoprazole  Capsules (Gastro
+LAOR14898NEMIS	Lansoprazole  Orodispersible t
+LAOR14900NEMIS	Lansoprazole  Orodispersible t
+LASU34195EMIS	Lansoprazole  Granules for Ora
+LOCA23820EMIS	Losec  Capsules  40 mg
+LOCA25323EMIS	Losec  Capsules  10 mg
+LOCA9369BRIDL	Losec  Capsules  20 mg
+LOTA1189NEMIS	Losec Mups  Tablets  10 mg
+LOTA1190NEMIS	Losec Mups  Tablets  20 mg
+LOTA1191NEMIS	Losec Mups  Tablets  40 mg
+MECA23120NEMIS	Mepradec  Capsules (Gastro-Res
+MEGA23119NEMIS	Mepradec  Capsules (Gastro-Res
+MEGA48143NEMIS	Mezzopram  Gastro-resistant Ta
+MEGA48144NEMIS	Mezzopram  Gastro-resistant Ta
+MEGA48145NEMIS	Mezzopram  Gastro-resistant Ta
+NAM/47266NEMIS	Naproxen And Esomeprazole  M/R
+NEGR39419NEMIS	Nexium  Granules for Oral Susp
+NETA5128NEMIS	Nexium  Tablets  20 mg
+NETA5129NEMIS	Nexium  Tablets  40 mg
+OMCA10940BRIDL	Omeprazole  Capsules (Gastro-R
+OMCA23822EMIS	Omeprazole  Capsules (Gastro-R
+OMCA25325EMIS	Omeprazole  Capsules (Gastro-R
+OMCA36304MGEMIS	Omeprazole  Capsules  20 mg (A
+OMCA36305MGEMIS	Omeprazole  Capsules  20 mg (U
+OMCA36306MGEMIS	Omeprazole  Capsules  20 mg (T
+OMCA36307MGEMIS	Omeprazole  Capsules  20 mg (S
+OMCA36308MGEMIS	Omeprazole  Capsules  20 mg (I
+OMCA36309MGEMIS	Omeprazole  Capsules  20 mg (R
+OMCA36310MGEMIS	Omeprazole  Capsules  20 mg (A
+OMCA36311MGEMIS	Omeprazole  Capsules  20 mg (W
+OMCA36312MGEMIS	Omeprazole  Capsules  20 mg (G
+OMCA36313MGEMIS	Omeprazole  Capsules  20 mg (K
+OMCA36314MGEMIS	Omeprazole  Capsules  20 mg (S
+OMCA36315MGEMIS	Omeprazole  Capsules  20 mg (W
+OMCA36316MGEMIS	Omeprazole  Capsules  40 mg (W
+OMCA36317MGEMIS	Omeprazole  Capsules  40 mg (U
+OMCA36318MGEMIS	Omeprazole  Capsules  40 mg (K
+OMCA36319MGEMIS	Omeprazole  Capsules  40 mg (R
+OMCA36320MGEMIS	Omeprazole  Capsules  40 mg (S
+OMCA36321MGEMIS	Omeprazole  Capsules  40 mg (G
+OMCA36322MGEMIS	Omeprazole  Capsules  40 mg (I
+OMCA36323MGEMIS	Omeprazole  Capsules  40 mg (T
+OMCA36324MGEMIS	Omeprazole  Capsules  40 mg (A
+OMCA36325MGEMIS	Omeprazole  Capsules  40 mg (S
+OMCA36326MGEMIS	Omeprazole  Capsules  40 mg (P
+OMCA36327MGEMIS	Omeprazole  Capsules  40 mg (W
+OMCA36328MGEMIS	Omeprazole  Capsules  10 mg (R
+OMCA36329MGEMIS	Omeprazole  Capsules  10 mg (I
+OMCA36330MGEMIS	Omeprazole  Capsules  10 mg (A
+OMCA36331MGEMIS	Omeprazole  Capsules  10 mg (W
+OMCA36332MGEMIS	Omeprazole  Capsules  10 mg (T
+OMCA36333MGEMIS	Omeprazole  Capsules  10 mg (K
+OMCA36334MGEMIS	Omeprazole  Capsules  10 mg (U
+OMCA36335MGEMIS	Omeprazole  Capsules  10 mg (S
+OMCA36336MGEMIS	Omeprazole  Capsules  10 mg (G
+OMCA36337MGEMIS	Omeprazole  Capsules  10 mg (A
+OMCA36338MGEMIS	Omeprazole  Capsules  10 mg (S
+OMCA36339MGEMIS	Omeprazole  Capsules  10 mg (P
+OMCA36340MGEMIS	Omeprazole  Capsules  10 mg (W
+OMDI13049NEMIS	Omeprazole  Dispersible (Gastr
+OMDI13050NEMIS	Omeprazole  Dispersible (Gastr
+OMDI13051NEMIS	Omeprazole  Dispersible (Gastr
+OMIN931NEMIS	Omeprazole  Powder for solutio
+OMOR22068NEMIS	Omeprazole  Oral suspension  2
+OMOR23126NEMIS	Omeprazole  Oral suspension  1
+OMOR46512NEMIS	Omeprazole  Oral solution  40 
+OMOR46513NEMIS	Omeprazole  Oral suspension  4
+OMPO4912NEMIS	Omeprazole  Powder with solven
+OMTA1186NEMIS	Omeprazole  Tablets (Gastro-Re
+OMTA1187NEMIS	Omeprazole  Tablets (Gastro-Re
+OMTA1188NEMIS	Omeprazole  Tablets (Gastro-Re
+OMTA14454NEMIS	Omeran  Tablets  10 mg
+OMTA14455NEMIS	Omeran  Tablets  20 mg
+OMTA14456NEMIS	Omeran  Tablets  40 mg
+PATA199NEMIS	Pantoprazole  Gastro-resistant
+PATA29719EMIS	Pantoprazole  Gastro-resistant
+PATA34090EMIS	Pariet  E/c tablets  10 mg
+PATA34091EMIS	Pariet  E/c tablets  20 mg
+PRTA200NEMIS	Protium  E/c tablets  20 mg
+PRTA29717EMIS	Protium  E/c tablets  40 mg
+RATA34094EMIS	Rabeprazole Sodium  E/c tablet
+RATA34095EMIS	Rabeprazole Sodium  E/c tablet
+ZATA17254NEMIS	Zanprol  Tablets (Gastro-Resis
+ZOCA24444EMIS	Zoton  Capsules (Gastro-Resist
+ZOCA28115EMIS	Zoton  Capsules (Gastro-Resist
+ZOOR14902NEMIS	Zoton Fastab  Orodispersible t
+ZOOR14903NEMIS	Zoton Fastab  Orodispersible t
+ZOSU34193EMIS	Zoton  Granules for Oral Suspe
+LAOR42925NEMIS	Lansoprazole  Oral suspension  5 mg/5 ml
+OMOR45586NEMIS	Omeprazole 5mg/5ml oral suspension

@@ -1,0 +1,13 @@
+readcode	Description
+147F.00	History of Parkinson's disease
+38GM.00	Lindop Parkinson's assessment scale
+8Hx0.00	Referral to community Parkinson's disease clinical nurse specialist
+8T06.00	Referral to Parkinson's service
+8T06000	Referral to community Parkinson's service
+9Nle.00	Seen by Parkinson's disease service
+Eu02300	[X]Dementia in Parkinson's disease
+F11x900	Cerebral degeneration in Parkinson's disease
+F12..00	Parkinson's disease
+F120.00	Paralysis agitans
+F12z.00	Parkinson's disease NOS
+F174100	Multiple system atrophy, Parkinson variant

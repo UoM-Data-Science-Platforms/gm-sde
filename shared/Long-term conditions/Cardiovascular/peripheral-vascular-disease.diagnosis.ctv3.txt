@@ -1,0 +1,18 @@
+CTV3ID	Description
+G73y.	Other specified peripheral vascular disease
+G73yz	Other specified peripheral vascular disease NOS
+G73z.	Peripheral vascular disease NOS
+G73zz	Peripheral vascular disease NOS
+G742z	Peripheral arterial embolism and thrombosis NOS
+Gyu74	[X]Other specified peripheral vascular diseases
+X203Q	Peripheral ischaemia
+X203T	Lower limb ischaemia
+X203U	Critical lower limb ischaemia
+XE0VP	Other peripheral vascular disease
+XE0VR	Intermittent claudication
+XE0XC	Peripheral vascular disease (& [NOS])
+Xa0lV	Peripheral vascular disease
+Xa7lT	Ischaemia of feet
+Xa84U	Ischaemic foot
+XaBL7	H/O: Peripheral vascular disease procedure
+Y2572	H/O: Intermittent claudication

@@ -1,0 +1,89 @@
+CTV3ID	Description
+1482.	H/O: glaucoma
+7275.	Panretinal photocoagulation for glaucoma
+F4042	Glaucoma - absolute
+F45..	Glaucoma
+F451.	Open-angle glaucoma
+F4510	Unspecified open-angle glaucoma
+F4511	Primary open-angle glaucoma
+F4512	Normal tension glaucoma
+F4514	Glaucoma of childhood
+F4515	Open-angle glaucoma residual stage
+F451z	Open-angle glaucoma NOS
+F452.	Closed angle glaucoma
+F4520	Unspecified primary angle-closure glaucoma
+F4521	Intermittent angle-closure glaucoma
+F4522	Acute closed-angle glaucoma
+F4523	Chronic narrow angle glaucoma
+F4524	Primary angle-closure glaucoma residual stage
+F452z	Primary angle-closure glaucoma NOS
+F453.	Steroid-induced glaucoma
+F4530	Steroid-induced glaucoma glaucomatous stage
+F4531	Steroid-induced glaucoma residual stage
+F453z	Steroid-induced glaucoma NOS
+F454.	Glaucoma due to disease EC
+F4540	Glaucoma due to chamber angle anomaly
+F4541	Glaucoma due to iris anomaly
+F4542	Glaucoma due to other anterior segment anomaly
+F4543	Glaucoma due to systemic syndrome
+F4544	Glaucoma in endocrine, nutritional and metabolic diseases
+F454z	Glaucoma due to disease NOS
+F455.	Glaucoma with lens disorder
+F4550	Phacolytic glaucoma
+F4551	Secondary open-angle glaucoma with pseudoexfoliation
+F455z	Glaucoma associated with disorders of the lens NOS
+F456.	Glaucoma associated with other ocular disorders
+F4560	Glaucoma due to unspecified ocular disorder
+F4561	Secondary angle-closure glaucoma with pupil block
+F4562	Glaucoma with ocular inflammation
+F4563	Glaucoma due to ocular vascular disorder
+F4564	Glaucoma due to ocular tumour or cyst
+F4565	Glaucoma due to ocular trauma
+F456z	Glaucoma associated with other ocular disorders NOS
+F45y.	Other specified forms of glaucoma
+F45y0	Hypersecretion glaucoma
+F45y1	Glaucoma due to raised episcleral venous pressure
+F45yz	Other specified glaucoma NOS
+F45z.	Glaucoma NOS
+FyuG0	[X]Other glaucoma
+FyuG1	[X]Glaucoma in endocrine, nutritional and metabolic diseases classified elsewhere
+FyuG2	[X]Glaucoma in other diseases classified elsewhere
+Q20y7	Traumatic glaucoma due to birth trauma
+X00ed	Plateau iris
+X00ee	Mixed open and angle-closure glaucoma
+X00ef	Absolute glaucoma
+X00eg	Iatrogenic glaucoma
+X00eh	Mydriatic-induced glaucoma
+X00ei	Glaucoma and corneal anomaly
+X00el	Phacogenic glaucoma
+X00em	Neovascular glaucoma
+X00en	Glaucoma with intraocular haemorrhage
+X00eo	Ghost cell glaucoma
+X00eq	Glaucoma due to contusion injury
+X00er	Angle recession glaucoma
+X00es	Glaucoma following surgery
+X00et	Malignant glaucoma
+XE0Kk	Glaucoma relief operation
+XE16F	Glaucoma due to ocular tumour or cyst
+XE2a8	Primary angle-closure glaucoma
+XM1QA	Glaucoma due to ocular cyst
+Xa3fE	Secondary/other glaucoma
+Xa3mu	Glaucoma drainage surgery
+Xa9BT	Glaucoma due to ocular disease
+XaEVW	Acute-on-chronic glaucoma
+XaEVp	Uveitic glaucoma
+XaF9D	Primary open-angle glaucoma with narrow angles
+XaF9I	Secondary open-angle glaucoma
+XaF9J	Secondary angle-closure glaucoma
+XaFao	Secondary angle-closure glaucoma - synechial
+XaFap	Secondary angle-closure glaucoma with rubeosis
+XaI97	Glaucoma due to silicon oil
+XaKb6	Removal of glaucoma drainage tube
+XaL58	Operations following glaucoma surgery
+XaL59	Removal of releasable suture following glaucoma surgery
+XaL5A	Laser suture lysis following glaucoma surgery
+XaL5B	Other specified operations following glaucoma surgery
+XaL5C	Operations following glaucoma surgery NOS
+XaL5m	Needling of bleb following glaucoma surgery
+XaL5n	Injection of bleb following glaucoma surgery
+XaL5o	Revision of bleb NEC following glaucoma surgery

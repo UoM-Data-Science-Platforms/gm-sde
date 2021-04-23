@@ -1,0 +1,102 @@
+CTV3ID	Description
+1462.	H/O: alcoholism
+63C7.	Maternal alcohol abuse
+8BA8.	Alcohol detoxification
+8G32.	Aversion therapy - alcoholism
+8H35.	Admitted to alcohol detoxification centre
+E01..	Alcoholic psychoses
+E010.	DTs - delirium tremens
+E0111	Korsakov's alcoholic psychosis with peripheral neuritis
+E0112	Wernicke-Korsakov syndrome
+E011z	Alcohol amnestic syndrome NOS
+E012.	Alcoholic dementia NOS
+E0120	Chronic alcoholic brain syndrome
+E013.	Alcohol withdrawal hallucinosis
+E014.	Drunkenness - pathological
+E015.	Alcoholic paranoia
+E01y.	Other alcoholic psychosis
+E01y0	Alcohol withdrawal syndrome
+E01yz	Other alcoholic psychosis NOS
+E01z.	Alcoholic psychosis NOS
+E23..	Alcohol dependence syndrome
+E230.	Alcohol dependence with acute alcoholic intoxication
+E2300	Acute alcoholic intoxication, unspecified, in alcoholism
+E2301	Continuous acute alcoholic intoxication in alcoholism
+E2302	Episodic acute alcoholic intoxication in alcoholism
+E2303	Acute alcoholic intoxication in remission, in alcoholism
+E230z	Acute alcoholic intoxication in alcoholism NOS
+E231.	Chronic alcoholism
+E2310	Unspecified chronic alcoholism
+E2311	Continuous chronic alcoholism
+E2312	Episodic chronic alcoholism
+E2313	Chronic alcoholism in remission
+E231z	Chronic alcoholism NOS
+E23z.	Alcohol dependence syndrome NOS
+E2500	Nondependent alcohol abuse, unspecified
+E2501	Nondependent alcohol abuse, continuous
+E2502	Nondependent alcohol abuse, episodic
+E2503	Nondependent alcohol abuse in remission
+E250z	Nondependent alcohol abuse NOS
+Eu10.	[X]Mental and behavioural disorders due to use of alcohol
+Eu100	[X]Mental and behavioural disorders due to use of alcohol: acute intoxication
+Eu101	[X]Mental and behavioural disorders due to use of alcohol: harmful use
+Eu102	[X]Mental and behavioural disorders due to use of alcohol: dependence syndrome
+Eu103	[X]Mental and behavioural disorders due to use of alcohol: withdrawal state
+Eu104	[X]Mental and behavioural disorders due to use of alcohol: withdrawal state with delirium
+Eu105	[X]Mental and behavioural disorders due to use of alcohol: psychotic disorder
+Eu106	[X]Mental and behavioural disorders due to use of alcohol: amnesic syndrome
+Eu107	[X]Mental and behavioural disorders due to use of alcohol: residual and late-onset psychotic disorder
+Eu10y	[X]Mental and behavioural disorders due to use of alcohol: other mental and behavioural disorders
+Eu10z	[X]Mental and behavioural disorders due to use of alcohol: unspecified mental and behavioural disorder
+F11x0	Alcoholic encephalopathy
+F1440	Alcoholic cerebellar degeneration
+G555.	Alcoholic cardiomyopathy
+J153.	Alcoholic gastritis
+J610.	Alcoholic fatty liver
+J611.	Acute alcoholic hepatitis
+J613.	Alcoholic liver damage unspecified
+Ub0lz	Alcoholic binges exceeding sensible amounts
+Ub0m0	Alcoholic binges exceeding safe amounts
+Ub0ml	Feels afraid of being an alcoholic
+X00FS	Alcoholic coma
+X00Rk	Alcoholic dementia NOS
+X306r	Alcoholic hepatitis
+X3071	ALD - Alcoholic liver disease
+X3072	Alcoholic fibrosis and sclerosis of liver
+X3073	Alcoholic hepatic failure
+X709V	Alcoholic myopathy
+XE0dF	Alcoholic liver damage NOS
+XE1US	Alcohol abuse -maternal
+XE1Xu	Other alcoholic dementia
+XE1YQ	Alcohol dependence
+XE1YX	Nondependent alcohol abuse
+XE1ZE	[X]Mental and behavioural disorders due to use of alcohol: dependence syndrome
+XE1ZF	[X]Mental and behavioural disorders due to use of alcohol: psychotic disorder
+XE1ZG	[X]Mental and behavioural disorders due to use of alcohol: residual and late-onset psychotic disorder
+XE1aw	Alcohol dependence
+XE1b2	Alcohol abuse -non dep.
+XM0aC	Alcohol dependence scale
+XM0il	SADD - Short alcohol dependence data
+XM18Y	Alcoholism detoxication centre
+Xa0hK	Alcoholic macrocytosis
+Xa17e	Alcoholic hallucinosis
+Xa17m	Alcoholic jealousy
+Xa25J	Alcoholic dementia
+Xa2lt	Chronic alcohol abuse
+Xa7On	Alcoholism counselling
+Xa7lt	Abstinent alcoholic
+XaBE3	Chronic alcoholic hepatitis
+XaJni	Alcohol disorder monitoring
+XaKvA	Hazardous alcohol use
+XaKvB	Harmful alcohol use
+XaLWu	[X]Alcohol withdrawal-induced seizure
+XaLrN	Alcohol abuse monitoring
+XaLsx	Delivery of rehabilitation for alcohol addiction
+XaamS	In-house alcohol detoxification
+Xabi7	Mild alcohol dependence
+Xabi8	Moderate alcohol dependence
+Xabi9	Severe alcohol dependence
+Xacab	Withdrawn from alcohol detoxification programme
+XaeZJ	Paternal alcohol abuse
+ZV113	[V]Problems related to lifestyle - alcohol use
+ZV6D6	[V]Alcohol abuse counselling and surveillance

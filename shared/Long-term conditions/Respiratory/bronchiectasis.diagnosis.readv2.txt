@@ -1,0 +1,8 @@
+readcode	Description
+14BA.00	H/O: bronchiectasis
+A115.00	Tuberculous bronchiectasis
+H34..00	Bronchiectasis
+H340.00	Recurrent bronchiectasis
+H341.00	Post-infective bronchiectasis
+H34z.00	Bronchiectasis NOS
+P861.00	Congenital bronchiectasis

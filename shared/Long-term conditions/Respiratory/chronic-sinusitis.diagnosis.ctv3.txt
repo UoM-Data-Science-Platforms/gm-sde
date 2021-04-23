@@ -1,0 +1,173 @@
+CTV3ID	Description
+7410.	Operations on maxillary antrum using sublabial approach
+74100	Ligation of maxillary artery using sublabial approach
+74101	Caldwell-Luc operation
+74102	Irrigation of maxillary antrum using sublabial approach
+74103	Transantral neurectomy of vidian nerve using sublabial approach
+7410y	Other specified operation on maxillary antrum using sublabial approach
+7410z	Operation on maxillary antrum using sublabial approach NOS
+7411.	Maxillary antrum: [other operations] or [reconstruction]
+74110	Drainage of maxillary antrum NEC
+74111	Excision of lesion of maxillary antrum
+74112	Intranasal antrostomy (& with drainage)
+74113	Biopsy of lesion of maxillary antrum
+74114	Closure of fistula between maxillary antrum and mouth
+74115	Maxillary antrum: [puncture] or [irrigation NEC]
+74116	Removal of antrochoanal polyp
+74117	Radical maxillary antrotomy (& Denker)
+74118	Direct closure of defect of maxilla
+74119	Reconstruction of defect of maxilla with skin graft
+7411A	Reconstruction of maxilla with local flap
+7411B	Reconstruction of maxilla with distant flap
+7411C	Reconstruction of maxilla with microvascular transferred flap
+7411D	Reconstruction of maxilla with bone graft
+7411y	Other specified other operation on maxillary antrum
+7411z	Other operation on maxillary antrum NOS
+7412.	Frontal sinus operation
+74120	External frontoethmoidectomy (& [Killian] or [Luc] or [Ogston])
+74121	Intranasal ethmoidectomy
+74122	External ethmoidectomy
+74123	Transantral ethmoidectomy (& Horgan)
+74125	Trephine of frontal sinus
+74127	Radical frontal sinus antrostomy
+74128	Frontal sinusotomy NEC
+7412y	Other specified operation on frontal sinus
+7412z	Operation on frontal sinus NOS
+7413.	Operation on sphenoid sinus
+74130	Drainage of sphenoid sinus
+7413y	Other specified operation on sphenoid sinus
+7413z	Operation on sphenoid sinus NOS
+7414.	Unspecified nasal sinus: [operations] or [reconstruction defect]
+74140	Excision of nasal sinus NEC
+74141	Excision of lesion of nasal sinus
+74142	Biopsy of lesion of nasal sinus NEC
+74143	Lateral rhinotomy
+74144	Catheterisation of nasal sinus
+74146	Direct closure of defect of nasal sinus
+74147	Reconstruction of defect of nasal sinus with skin graft
+74148	Reconstruction of defect of nasal sinus with local flap
+74149	Reconstruction of defect of nasal sinus with distant flap
+7414A	Reconstruction of defect of nasal sinus with microvascular transferred flap
+7414B	Reconstruction of defect of nasal sinus with bone graft
+7414y	Other specified operation on unspecified nasal sinus
+7414z	Operation on unspecified nasal sinus NOS
+7415.	Functional endoscopic sinus surgery - diagnostic endoscopy of nose and sinus
+74150	Functional endoscopic sinus surgery - diagnostic antroscopy via canine fossa
+74151	Functional endoscopic sinus surgery - diagnostic antroscopy via inferior meatus
+74152	Functional endoscopic sinus surgery - diagnostic antroscopy via middle meatus
+7415y	Other specified functional endoscopic sinus surgery - diagnostic endoscopy of nose or sinus
+7415z	Functional endoscopic sinus surgery - diagnostic endoscopy of nose or sinus NOS
+7416.	Functional endoscopic sinus surgery - therapeutic nasal antroscopy
+74160	Functional endoscopic sinus surgery - therapeutic antroscopy via canine fossa
+74161	Functional endoscopic sinus surgery - therapeutic antroscopy via inferior meatus
+74162	Functional endoscopic sinus surgery - therapeutic antroscopy via middle meatus
+74165	Intranasal anterior ethmoidectomy
+74166	Functional endoscopic sinus surgery - anterior ethmoidectomy and frontal recess dissection
+74167	Intranasal anterior and posterior ethmoidectomy
+74169	Functional endoscopic sinus surgery - antrostomy via middle meatus
+7416A	Functional endoscopic sinus surgery - antrostomy via inferior meatus
+7416B	Functional endoscopic sinus surgery - excisional surgery to middle turbinate
+7416C	Functional endoscopic sinus surgery - postoperative suction clearance under local anaesthetic
+7416D	Functional endoscopic sinus surgery - postoperative removal of polyps under local anaesthetic
+7416E	Functional endoscopic sinus surgery - postoperative division of adhesions
+7416y	Other specified functional endoscopic sinus surgery - therapeutic endoscopy of nose or sinus
+7416z	Functional endoscopic sinus surgery - therapeutic endoscopy of nose or sinus NOS
+741y.	Other specified operations on nasal sinus
+741z.	Nasal sinus operations NOS
+790F0	Repair of persistent sinus venosus
+7H1A4	Excision umbilical: [fistula] or [sinus]
+H011.	Acute frontal sinusitis
+H111.	Polypoid sinus degeneration
+H111z	Polypoid sinus degeneration NOS
+H11y.	Nasal sinus polyps
+H11y0	Polyp of frontal sinus
+H11y3	Polyp of sphenoidal sinus
+H11yz	Other polyp of sinus NOS
+H13..	Chronic rhinosinusitis
+H130.	Antritis - chronic
+H131.	Frontal sinusitis
+H133.	Chronic sphenoidal sinusitis
+H134.	Fistula of nasal sinus
+H135.	Recurrent sinusitis
+H13y.	Other chronic sinusitis
+H13y0	Chronic pansinusitis
+H13yz	Other chronic sinusitis NOS
+H13z.	Chronic sinusitis NOS
+Hyu22	[X]Other chronic sinusitis
+Hyu23	[X]Other polyp of sinus
+X00Ig	FESS - Functional sinus surgery - optic nerve decompression
+X00gU	Excision of preauricular sinus
+X00m4	Recurrent acute sinusitis
+X00m6	Chronic anterior ethmoidal sinusitis
+X00m7	Chronic posterior ethmoidal sinusitis
+X00m8	Chronic panethmoidal sinusitis
+X00mA	Chronic frontoethmoidal sinusitis
+X00oO	FESS - Functional sinus surgery - excision concha bullosa
+X00oh	Operation on maxillary antrum
+X00oi	Reconstruction of maxillary antrum
+X00oj	Irrigation of maxillary antrum NEC
+X00ok	Inferior meatal antrostomy
+X00ol	Middle meatal antrostomy
+X00on	Reconstruction of maxilla
+X00op	Operation via maxillary antrum
+X00oy	FESS - Functional sinus surgery - frontoethmoidectomy
+X00oz	FESS - Functional sinus surgery - frontoethmosphenoidectomy
+X00pC	Reconstruction of defect of nasal sinus
+X00pD	Diagnostic endoscopy of nose and sinuses
+X00pE	Diagnostic nasendoscopy
+X00y7	Operation on the great veins (including coronary sinus)
+X00ya	Coronary sinus operation
+X00yb	Repair of unroofed coronary sinus to create tunnel
+X012h	SOV - Sinus of Valsalva operations
+X40aV	Excision of vitelline sinus
+X40aW	Excision of urachal sinus
+X40d3	Excision of branchial sinus
+X812G	Sublabial approach
+X90QU	FESS - Functional endoscopic sinus surgery
+XE05q	Other operations on maxillary antrum
+XE05r	Intranasal antrostomy
+XE05s	Drainage of maxillary antrum
+XE05t	Radical maxillary antrotomy
+XE05u	External frontoethmoidectomy
+XE05v	Transantral ethmoidectomy
+XE05w	Operation on unspecified nasal sinus
+XE0L6	Caldwell-Luc operation
+XE0LA	Ethmoidectomy
+XE0Xv	Other polyp of sinus
+XE0Xw	Polyp of maxillary sinus
+XE0Y0	Chronic antritis
+XE0Y1	Chronic frontal sinusitis
+XM0nP	Ethmoidectomy
+XM1QI	Maxillary sinusitis
+XM1QJ	Frontal sinusitis
+Xa0CA	FESS - uncinectomy and polypectomy
+Xa0MF	Nasal sinus polyp
+Xa2Ha	Excision of sinus of skin
+Xa2j1	Extended ethmoidectomy
+Xa3mN	Nasal sinus puncture and irrigation
+Xa3mY	Nasal sinus puncture
+Xa3n5	External maxillary antrostomy
+Xa9Tc	Mastoid antrum drainage
+XaBSt	Intranasal antrostomy and biopsy of maxillary antrum
+XaBSv	Intranasal antrostomy and excision of lesion of maxillary antrum
+XaBXU	Frontal sinusotomy
+XaC3l	FESS - FSS sphenoidotomy
+XaDtU	Oroantral fistula - immediate
+XaDtV	Oroantral fistula - established
+XaDtW	Repair of oroantral fistula - immediate
+XaDtX	Repair of oroantral fistula - established
+XaE17	Drainage of intersphincteric rectal sinus
+XaEId	BAWO - Bilateral antral washouts
+XaFxo	Reconstruction of maxilla with flap
+XaI9v	FESS - Functional endoscopic sinus surgery - sphenoethmoidectomy
+XaIA2	FESS - Functional endoscopic sinus surgery - posterior ethmoidectomy
+XaIwR	Functional endoscopic sinus surgery - polypectomy of nasal sinus
+XaLn4	Other specified other operations on frontal sinus
+XaLn5	Other operations on frontal sinus NOS
+XaLn6	Other operations on frontal sinus
+XaLn7	Frontal sinus osteoplasty
+XaLn8	Median drainage of frontal sinus
+XaLn9	Repair of sphenoidal sinus
+XaM0c	Functional endoscopic nasal surgery
+Xaasx	Drainage of frontal sinus
+Xaat0	Excision of lesion from sphenoid sinus

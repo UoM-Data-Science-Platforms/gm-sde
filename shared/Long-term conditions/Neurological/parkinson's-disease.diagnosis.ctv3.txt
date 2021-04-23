@@ -1,0 +1,14 @@
+CTV3ID	CTV3PreferredTermDesc	CTV3Source
+Eu023	[X]Dementia in Parkinson's disease	CTV3Map_Code_And_Term	
+F12..	Parkinson's disease	CTV3Map_Code_And_Term	
+F12z.	Parkinson's disease NOS	CTV3Map_Code_And_Term	
+X003a	Juvenile Parkinson's disease	CTV3_Children	
+XaOfZ	Cerebral degeneration in Parkinson's disease	CTV3Map_Code_And_Term	
+XaQwf	History of Parkinson's disease	CTV3Map_Code_And_Term	
+XaZYZ	Lindop Parkinson's assessment scale	CTV3Map_Code_And_Term	
+XaZxQ	Referral to Parkinson's service	CTV3Map_Code_And_Term	
+XaaRV	Referral to community Parkinson's service	CTV3Map_Code_And_Term	
+Xab7w	Seen by Parkinson's disease service	CTV3Map_Code_And_Term	
+XabbC	Referral to community Parkinson disease clin nurse spcialist	CTV3Map_Code_And_Term	
+XaeUN	Multiple system atrophy, Parkinson variant	CTV3_Children	
+XaOm1	Unified Parkinson's disease rating scale score	CTV3_FROM_GETSET	

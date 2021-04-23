@@ -1,5 +1,0 @@
-medcode	readcode	Description	CodingSystem
-2195	H34..00	Bronchiectasis	readcode
-20364	H340.00	Recurrent bronchiectasis	readcode
-32679	H34z.00	Bronchiectasis NOS	readcode
-41491	H341.00	Post-infective bronchiectasis	readcode

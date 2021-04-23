@@ -1,0 +1,78 @@
+CTV3ID	Description
+C03y.	Other specified congenital hypothyroidism
+C03..	Cretinism
+X40H8	Congenital hypothyroidism without goitre
+XE107	Congenital hypothyroidism NOS
+Xa0l7	Congenital hypothyroidism with diffuse goitre
+C03z.	Congenital thyroid insufficiency
+X40IQ	Hypothyroidism
+PK251	Congenital thyroid aplasia
+X40HA	Congenital thyroid hypoplasia
+X40HB	Congenital atrophy of thyroid
+X40HC	Congenital thyroid dystopia
+C1343	Secondary hypothyroidism
+Cyu11	[X]Other specified hypothyroidism
+X40Hv	Hypothyroidism due to iodide trapping defect
+X40Hw	Hypothyroidism due to iodide organification defect
+X40Hx	Hypothyroidism due to coupling defect
+X40Hy	Hypothyroidism due to deiodase defect
+X40Hz	Hypothyroidism due to thyroglobulin synthesis defect
+X40I7	Congenital iodine deficiency hypothyroidism
+XE108	Acquired hypothyroidism
+XE124	Hypothyroidism-congen.+ acqui.
+Xa3ec	Hypothyroidism - congenital and acquired
+XaJ9F	Subclinical hypothyroidism
+C04..	Thyroid deficiency
+C04z.	Pretibial myxoedema - hypothyroid
+X40LB	Isolated TSH deficiency
+X40LC	Idiopathic TSH deficiency
+X40I8	Congenital iodine deficiency syndrome - myxoedematous type
+X40I9	Congenital iodine deficiency syndrome - mixed type
+X40I6	Congenital iodine deficiency syndrome
+C042.	Iodine hypothyroidism
+C04y.	Other acquired hypothyroidism
+X40HH	Borderline hypothyroidism
+X40HI	Compensated hypothyroidism
+X40HL	Iatrogenic hypothyroidism
+X40HO	Drug-induced hypothyroidism
+X40HP	Post-infectious hypothyroidism
+X40IB	Subclinical iodine deficiency hypothyroidism
+XE10A	Hypothyroidism NOS
+Xa3ed	Acquired hypothyroidism NOS
+X005I	Myxoedema coma
+X40HD	Hypothyroid goitre, acquired
+X40HE	Autoimmune myxoedema
+X40HJ	Compensated euthyroidism
+Cyu10	[X]Other iodine-deficiency related thyroid disorders and allied conditions
+C06y1	Thyroid atrophy
+X40IA	Congenital iodine deficiency syndrome - neurological type
+C040.	Post ablative hypothyroidism
+C043.	Other iatrogenic hypothyroidism
+C043z	Iatrogenic hypothyroidism NOS
+X40HM	Postablative hypothyroidism
+C0430	Hypothyroidism resulting from para-aminosalicylic acid
+C0431	Hypothyroidism resulting from phenylbutazone
+C0432	Hypothyroidism resulting from resorcinol
+X40HF	Hypothyroidism due to Hashimoto's thyroiditis
+X40HG	Hypothyroidism due to TSH receptor blocking antibody
+X40I1	Acquired atrophy of thyroid
+C041.	Other postablative hypothyroidism
+C0410	Irradiation hypothyroidism
+C041z	Postablative hypothyroidism NOS
+XE109	Post-surgical hypothyroidism
+F11x5	Myxoedema encephalopathy
+X40HN	Radioactive iodine-induced hypothyroidism
+XaLUg	Hypothyroidism review
+XaOjl	Hypothyroidism annual review
+1432.	H/O: hypothyroidism
+C04z0	Premature puberty due to hypothyroidism
+F3814	Myasthenic syndrome due to hypothyroidism
+Q4337	Neonatal jaundice with congenital hypothyroidism
+Xa08g	Transient neonatal hypothyroidism
+XaJYj	Hypothyroidism clinical management plan
+F1441	Myxoedema cerebellar degeneration
+F3953	Myxoedema myopathy
+Fyu15	[X]Systemic atrophy affecting the central nervous system in myxoedema
+X00Ao	Myxoedema neuropathy
+X40OP	Pretibial myxoedema
+X40Hk	Thyroid-binding globulin deficiency

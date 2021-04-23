@@ -1,0 +1,260 @@
+readcode	description
+a4e3.00	*COLVEN 135mg granules
+a4e5.00	FYBOGEL-MEBEVERINE orange granules
+ab11.00	*FYBRANTA 2g tablets
+ab13.00	*PROCTOFIBE 375mg tablets
+ab14.00	*TRIFYBA 3.5g powder
+ab15.00	*TRIFYBA 250g powder
+ab2..00	ISPAGHULA HUSK [GASTRO-INTESTINAL BULK LAXATIVE]
+ab21.00	FYBOGEL 3.5g plain sugar free granules
+ab22.00	FYBOGEL 3.5g orange sugar free granules
+ab23.00	*ISOGEL 90% granules
+ab24.00	*METAMUCIL 49% powder 7g
+ab25.00	*METAMUCIL 49% powder
+ab26.00	*REGULAN powder 3.6g
+ab28.00	*MANEVAC granules 250g
+ab28.11	*AGIOLAX granules 250g
+ab29.00	*MANEVAC sachets 4x14
+ab2A.00	MANEVAC granules 400g
+ab2B.00	REGULAN orange sugar free powder
+ab2C.00	*KONSYL 6g s/f powder sachet
+ab2D.00	*KONSYL DEX 3.4g powder sachet
+ab2E.00	*KONSYL ORANGE 3.4g pdr sachet
+ab2F.00	REGULAN lemon/lime sugar free powder
+ab2G.00	ISPAGHULA HUSK 3.4g/sachet powder
+ab2H.00	FYBOGEL 3.5g lemon sugar free granules
+ab2J.00	ISPAGHULA HUSK 3.4g/sachet sugar free powder
+ab2K.00	ISPAGHULA HUSK 6g/sachet sugar free powder
+ab2L.00	KONSYL ORANGE 3.5g/sachet sugar free granules
+ab2M.00	ISPAGEL 3.5g/sachet sugar free powder
+ab2N.00	FYBOGEL orange s/f granules 150g
+ab2O.00	SENOKOT HI-FIBRE ORANGE 3.5g sachets s/f granules
+ab2P.00	SENOKOT HI-FIBRE LEMON 3.5g sachets s/f granules
+ab2Q.00	FIBRELIEF ORANGE 3.5g/sachet sugar free granules
+ab2R.00	FIBRELIEF 3.5g/sachet sugar free granules
+ab2n.00	ISPAGHULA HUSK 3.5g/sachet sugar free powder
+ab2o.00	ISPAGHULA HUSK lemon/lime 3.4g/sachet sugar free powder
+ab2p.00	ISPAGHULA HUSK orange 3.4g/sachet sugar free powder
+ab2q.00	ISPAGHULA HUSK orange 3.5g/sachet sugar free granules
+ab2r.00	ISPAGHULA HUSK lemon 3.5g/sachet sugar free granules
+ab2t.00	ISPAGHULA HUSK 3.6g/sachet powder
+ab2u.00	ISPAGHULA HUSK 3.5g/sachet sugar free granules
+ab2v.00	*ISPAGHULA HUSK 90% granules
+ab2w.00	*ISPAGHULA HUSK 49% powder 7g
+ab2x.00	*ISPAGHULA HUSK 49% powder
+ab2y.00	ISPAGHULA HUSK 56% powder 6.4g
+ab2z.00	*ISPAGHULA HUSK 66% granules
+ab3..00	METHYLCELLULOSE [GASTRO-INTESTINAL BULK LAXATIVE]
+ab31.00	*METHYLCELLULOSE granules
+ab32.00	METHYLCELLULOSE 900mg/10mL mixture
+ab33.00	CELEVAC 500mg tablets
+ab34.00	*CELEVAC granules
+ab35.00	*CELLUCON 500mg tablets
+ab36.00	*COLOGEL 900mg/10mL mixture
+ab37.00	METHYLCELLULOSE 500mg tablets
+ab3y.00	*METHYLCELLULOSE granules
+ab4..00	STERCULIA [BULK LAXATIVE]
+ab41.00	NORMACOL 500g granules
+ab42.00	NORMACOL granules 7g/sachet
+ab43.00	*NORMACOL PLUS granules 200g
+ab44.00	NORMACOL PLUS granules 500g
+ab45.00	NORMACOL PLUS granules 7g/sachet
+ab4x.00	STERCULIA + FRANGULA 62%/8% granules
+ab4y.00	STERCULIA 62% granules
+ab4z.00	*STERCULIA granules 7g
+ac...00	STIMULANT LAXATIVES
+ac1..00	BISACODYL
+ac11.00	BISACODYL 5mg tablets
+ac12.00	DULCO-LAX 5mg tablets
+ac13.00	*DULCODOS tablets
+ac14.00	ENTROLAX 5mg e/c tablets
+ac15.00	ENTROLAX CONSTIPATION RELIEF 5mg e/c tablets
+ac16.00	VANTAGE PHARMACY CONSTIPATION RELIEF 5mg e/c tablets
+ac2..00	CASCARA
+ac21.00	*CASCARA 20mg tablets
+ac3..00	CASTOR OIL [LAXATIVE]
+ac41.00	CO-DANTHRAMER 200mg/25mg capsules
+ac42.00	CO-DANTHRAMER 200mg/25mg/5mL suspension
+ac43.00	CO-DANTHRAMER STRONG 1000mg/75mg/5mL suspension
+ac44.00	CO-DANTHRUSATE capsules
+ac45.00	NORMAX capsules
+ac46.00	*CODALAX liquid 300mL
+ac47.00	*CODALAX liquid 1 litre
+ac48.00	*CODALAX FORTE liquid 300mL
+ac49.00	*CODALAX FORTE liquid 1 litre
+ac4A.00	NORMAX suspension
+ac4B.00	CO-DANTHRUSATE suspension
+ac4C.00	CO-DANTHRAMER STRONG 500mg/37.5mg capsules
+ac4D.00	*AILAX suspension
+ac4E.00	*CAPSUVAC capsules
+ac4F.00	*AILAX FORTE suspension
+ac4a.00	*CODALAX FORTE liquid 100mL
+ac5..00	DOCUSATE SODIUM
+ac51.00	*DIOCTYL 100mg tablets
+ac52.00	DIOCTYL PAED 12.5mg/5mL syrup 125mL
+ac53.00	DIOCTYL 50mg/5mL solution
+ac53.11	DOCUSOL 50mg/5mL solution
+ac54.00	*DOCUSATE SODIUM 100mg tablets
+ac55.00	DOCUSATE SODIUM PAEDIATRIC 12.5mg/5mL syrup
+ac56.00	DOCUSATE 50mg/5mL solution
+ac57.00	DIOCTYL PAEDIATRIC 12.5mg/5mL syrup 300mL
+ac57.11	DOCUSOL 12.5mg/5mL paediatric solution 300mL
+ac58.00	DIOCTYL 100mg capsules
+ac59.00	DOCUSATE SODIUM 100mg capsules
+ac5A.00	DOCUSOL 12.5mg/5mL paediatric solution 100mL
+ac5B.00	DULCOEASE 100mg capsules
+ac7..00	SENNA
+ac71.00	SENNA 7.5mg tablets
+ac72.00	*AGIOLAX granules 100g
+ac73.00	*AGIOLAX granules 250g
+ac74.00	SENOKOT 7.5mg tablets
+ac75.00	*SENOKOT 15mg/5mL granules
+ac76.00	*SENOKOT 7.5mg/5mL syrup
+ac77.00	*X-PREP 1mg/mL liquid
+ac78.00	SENOKOT DOUBLE STRENGTH 15mg tablets
+ac78.11	SENOKOT MAX STRENGTH 15mg tablets
+ac79.00	NYLAX WITH SENNA 7.5mg tablets
+ac7A.00	SENOKOT 7.5mg/5mL s/f syrup
+ac7v.00	SENNA 7.5mg/5mL s/f syrup
+ac7w.00	SENNA 15mg tablets
+ac7x.00	*SENNA 15mg/5mL granules
+ac7y.00	*SENNA 7.5mg/5mL syrup
+ac7z.00	*SENNA 1mg/mL liquid
+ac8..00	SODIUM PICOSULFATE
+ac8..11	SODIUM PICOSULPHATE
+ac81.00	SODIUM PICOSULPHATE 5mg/5mL elixir
+ac82.00	*LAXOBERAL 5mg/5mL liquid
+ac82.11	*LAXOBERAL 5mg/5mL elixir
+ac83.00	PICOLAX 10mg oral powder
+ac84.00	DULCO-LAX 5mg/5mL liquid
+ac84.11	DULCOLAX PICO 5mg/5mL liquid
+ac85.00	*DULCO-LAX 2.5mg Perles
+ac85.11	DULCOLAX PICO PERLES 2.5mg capsules
+ac86.00	CITRAFLEET oral powder sachets 16.11g
+ac8w.00	SODIUM PICOSULFATE 2.5mg capsules
+ac8w.11	SODIUM PICOSULPHATE 2.5mg capsules
+ac8x.00	SODIUM PICOSULFATE 5mg/5mL liquid
+ac8x.11	SODIUM PICOSULPHATE 5mg/5mL liquid
+ac8y.00	SODIUM PICOSULFATE 5mg/5mL elixir
+ac8y.11	SODIUM PICOSULPHATE 5mg/5mL elixir
+ac8z.00	SODIUM PICOSULFATE 10mg oral powder
+ac8z.11	SODIUM PICOSULPHATE 10mg oral powder
+ad1..00	LIQUID PARAFFIN [LAXATIVE]
+ad11.00	LIQUID PARAFFIN 50% mixture
+ad13.00	LIQUID PARAFFIN emulsion
+ae...00	OSMOTIC LAXATIVES
+ae1..00	LACTULOSE
+ae11.00	LACTULOSE 3.35g/5mL solution
+ae11.11	LACTULOSE 3.1g-3.7g/5mL solution
+ae12.00	DUPHALAC 3.35g/5mL solution
+ae12.11	DUPHALAC 3.335g/5mL solution
+ae13.00	*LAXOSE solution
+ae14.00	LACTUGAL liquid
+ae15.00	*REGULOSE liquid
+ae16.00	*LACTULOSE syrup
+ae17.00	DUPHALAC DRY 10g/sachet powder
+ae18.00	*LACTULOSE 10g/sachet powder
+ae19.00	*LAXOSE ORANGE solution
+ae1A.00	*LEMLAX liquid
+ae1B.00	LACTULOSE 10g/15mL oral solution sachet
+ae2..00	MAGNESIUM HYDROXIDE [LAXATIVE]
+ae23.00	MAGNESIUM HYDROX [LAXATIVE] mixture
+ae3..00	MAGNESIUM SULFATE
+ae3..11	MAGNESIUM SULPHATE
+ae31.00	MAGNESIUM SULFATE powder
+ae31.11	DRIED EPSOM SALTS
+ae31.12	MAGNESIUM SULPHATE powder
+ae32.00	MAGNESIUM SULFATE 4g/10mL mixture
+ae32.11	MAGNESIUM SULPHATE 4g/10mL mixture
+ae33.00	MAGNESIUM SULFATE BP crystals
+ae33.11	EPSOM SALTS
+ae33.12	MAGNESIUM SULPHATE BP crystals
+ae4..00	POLYETHYLENE GLYCOL ELECTROLYTE
+ae41.00	POLYETHYLENE GLYCOL ELECTROLYTE powder
+ae42.00	*GOLYTELY powder 4litre
+ae43.00	KLEAN-PREP powder
+ae44.00	*GOLYTELY sachets 4x24
+ae45.00	*GOLYTELY sachets 8x24
+ae46.00	MOVICOL oral powder
+ae47.00	IDROLAX oral powder
+ae48.00	MOVICOL-HALF oral powder
+ae49.00	MOVICOL PAEDIATRIC PLAIN 6.9g/sachet oral powder
+ae4a.00	MOVIPREP oral powder sachets
+ae4b.00	MOVICOL PLAIN 13.7g/sachet oral powder
+ae4c.00	LAXIDO ORANGE oral powder sachets
+ae4d.00	MOVICOL CHOCOLATE 13.9g/sachet oral powder
+ae4e.00	COMPOUND MACROGOL sugar free oral powder sachet
+ae4f.00	MOLAXOLE oral powder sachets
+ae4g.00	DULCOBALANCE 10g/sachet oral powder
+ae4h.00	MOVIPREP ORANGE oral powder sachets
+ae4i.00	MOVICOL orange concentrate for oral solution 500mL
+ae4j.00	MOVICOL PAEDIATRIC chocolate flavour 6.9g/sachet oral powder
+ae4k.00	COSMOCOL orange oral powder sachet
+ae4l.00	COSMOCOL lemon+lime oral powder sachet
+ae4m.00	COSMOCOL orange+lemon+lime oral powder sachet
+ae4n.00	COSMOCOL plain oral powder sachet
+ae4o.00	COSMOCOL PAEDIATRIC 6.9g/sachet oral powder
+ae4p.00	COSMOCOL HALF 6.9g/sachet oral powder
+ae4q.00	LAXIDO PAEDIATRIC PLAIN 6.9g/sachet oral powder
+ae52.00	CITRAMAG effervescent powder 17.7g
+ae6..00	LACTITOL
+ae6z.00	*LACTITOL 10g/sachet powder
+ae71.00	FLEET PHOSPHO-SODA oral solution 2x45mL
+af...00	RECTALLY GIVEN LAXATIVES
+af1..00	RECTAL LAXATIVES A-Z
+af11.00	BISACODYL 10mg suppositories
+af12.00	BISACODYL PAEDIATRIC 5mg suppositories
+af13.00	GLYCEROL 2g suppositories (child)
+af14.00	GLYCEROL 1g suppositories (infant)
+af15.00	GLYCEROL 4g suppositories (adult)
+af16.00	PHOSPHATES FORMULA "B" enema 128mL
+af18.00	*DIOCTYL PAEDIATRIC enema
+af19.00	*DIOCTYL enema
+af1A.00	FLETCHERS PHOSPHATE standard tube bottle enema 128mL
+af1B.00	PHOSPHATES FORMULA B standard tube bottle enema BP
+af1C.00	*FLEET Micro-enema 5mL
+af1a.00	DULCO-LAX 10mg suppositories
+af1b.00	DULCO-LAX PAEDIATRIC 5mg suppositories
+af1c.00	*DULCO-LAX 2.74mg/mL enema
+af1d.00	*FLETCHERS' ARACHIS OIL enema
+af1e.00	*FLETCHERS' ENEMETTE 5mL enema
+af1e.11	*FLETCHERS' micro-enema 5mL
+af1f.00	FLETCHERS' MAG. SULPHATE 50% enema 130mL
+af1g.00	FLETCHERS PHOS standard tube enema 128mL
+af1h.00	FLETCHERS PHOS long tube enema 128mL
+af1k.00	MICRALAX Micro-enema 5mL
+af1l.00	MICOLETTE Micro-enema 5mL
+af1m.00	RELAXIT Micro-enema 5mL
+af1n.00	*VERIPAQUE 50mg/3g enema
+af1p.00	NORGALAX 10g micro-enema x6
+af1q.00	OXYPHENISATIN 50mg in 3g enema
+af1r.00	SODIUM ACID PHOSPHATE 1.69g / SODIUM BICARBONATE 1.08g suppositories
+af1s.00	*ARACHIS OIL enema
+af1t.00	DOCUSATE SODIUM 120mg enema 10g
+af1v.00	MAGNESIUM SULPHATE 50% retention enema
+af1w.00	PHOSPHATES FORMULA A standard tube enema BP
+af1x.00	PHOSPHATES FORMULA B long tube enema BP
+af1y.00	FLEET enema
+ag...00	OTHER LAXATIVES
+ag1..00	OTHER LAXATIVES A-Z
+ag11.00	PARAFFIN LIQUID+PHENOLPHTHALEIN suspension
+ag12.00	*PHENOLPHTHALEIN 125mg tablets
+ag16.00	*ALOPHEN pills
+ag17.00	KEST tablets
+ag1B.00	RESOLOR 1mg tablets
+ag1C.00	PRUCALOPRIDE 1mg tablets
+ag1D.00	RESOLOR 2mg tablets
+ag1E.00	PRUCALOPRIDE 2mg tablets
+ag1F.00	LECICARBON A suppositories
+ag1I.00	LECICARBON C suppositories
+ax1..00	METHYLNALTREXONE BROMIDE
+bxh..00	ISPAGHULA HUSK [LIPID LOWERING USE]
+bxh1.00	ISPAGHULA HUSK 3.5g orange sugar free granules
+bxh2.00	FYBOZEST ORANGE 3.5g sugar free granules
+de11.00	CELEVAC 500mg tablets
+de12.00	*CELLUCON 500mg tablets
+de1y.00	METHYLCELLULOSE 500mg tablets
+j74..00	PYRIDOSTIGMINE BROMIDE
+j741.00	MESTINON 60mg tablets
+j743.00	PYRIDOSTIGMINE BROMIDE 60mg tablets
+mige.00	*PYRIDOSTIGMINE 60mg tablets

@@ -1,0 +1,73 @@
+CTV3ID	Description
+dl9..	Naratriptan
+dl91.	Naratriptan 2.5mg tablet
+dl92.	Naramig 2.5mg tablet
+dl7..	Sumatriptan
+dl8..	Zolmitriptan
+dlA..	Rizatriptan
+dlC..	Almotriptan
+dlD..	Eletriptan
+dlE..	Frovatriptan
+dl5..	Sumatriptan Succinate
+dl51.	Sumatriptan 6mg/0.5mL injection
+dl54.	Sumatriptan 100mg tablet
+dl5A.	Sumatriptan 50mg tablet
+dl5B.	Sumatriptan 6mg/0.5mL injection refill
+dl71.	Sumatriptan 20mg nasal spray
+dl73.	Sumatriptan 10mg nasal spray
+dl81.	Zolmitriptan 2.5mg tablet
+dl83.	Zolmitriptan 2.5mg oro-dispersible tablet
+dl85.	Zolmitriptan 5mg nasal spray
+dl87.	Zolmitriptan 5mg oro-dispersible tablet
+dlA1.	Rizatriptan 5mg tablet
+dlA2.	Rizatriptan 10mg tablet
+dlA3.	Rizatriptan 10mg wafer
+dlAz.	RIZATRIPTAN 10mg oro-dispersible tablets
+dlCz.	Almotriptan 12.5mg tablet
+dlD1.	Eletriptan 20mg tablet
+dlD2.	Eletriptan 40mg tablet
+dlE1.	Frovatriptan 2.5mg tablet
+dl5F.	MIGRAITAN 50mg tablets
+dl52.	Imigran 6mg injection treatment pack
+dl56.	Imigran Subject 6mg/0.5mL injection
+dl55.	Imigran 100mg tablet
+dl5C.	Imigran Radis 100mg tablet
+dl59.	Imigran 50mg tablet
+dl5D.	Imigran Radis 50mg tablet
+dl5E.	IMIGRAN RECOVERY 50mg tablets
+dl53.	Imigran 6mg injection refill pack
+dl57.	Imigran Subject 6mg/0.5mL injection refill
+dl72.	Imigran 20mg nasal spray
+dl74.	Imigran 10mg nasal spray
+dl82.	Zomig 2.5mg tablet
+dl84.	Zomig Rapimelt 2.5mg oro-dispersible tablet
+dl86.	Zomig 5mg nasal spray
+dl88.	Zomig Rapimelt 5mg oro-dispersible tablet
+dlA4.	Maxalt 5mg tablet
+dlA5.	Maxalt 10mg tablet
+dlA6.	Maxalt Melt 10mg wafer
+dlC1.	Almogran 12.5mg tablet
+dlDa.	Relpax 20mg tablet
+dlDb.	Relpax 40mg tablet
+dlE2.	Migard 2.5mg tablet
+dl58.	Imigran 100mg tablets x3
+dl11.	Migraleve tablet
+dl18.	Migraleve Duo-Pack tablets x48
+dl12.	Migraleve pink tablet
+dl19.	Migraleve pink tablets x48
+x02fP	Imigran
+x044y	Imigran Subject
+x05tj	Imigran Radis
+x05lx	Migard
+x041g	Migraleve
+x041h	Migraleve Duopack
+x03lT	Zomig
+x05Xk	Zomig Rapimelt
+x04tc	Maxalt
+x04td	Maxalt Melt
+dl13.	Migraleve yellow tablet
+dl1a.	Migraleve yellow tablets x48
+x05KW	Almotriptan - chemical
+x03mq	Naramig
+x05bl	Relpax
+x05Dy	Almogran

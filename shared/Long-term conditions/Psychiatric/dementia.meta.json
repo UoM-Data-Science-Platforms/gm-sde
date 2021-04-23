@@ -1,0 +1,28 @@
+{
+  "includeTerms": [
+    "dementia",
+    "alzheimer*",
+    "lewy body disease",
+    "pick's disease",
+    "senile psychotic condition*"
+  ],
+  "excludeTerms": [
+    "fh",
+    "family history",
+    "at risk of",
+    "suspected",
+    "assess",
+    "test",
+    "pick's disease of heart",
+    "carer of",
+    "leaflet given",
+    "raising awareness",
+    "exception reporting",
+    "excepted from",
+    "screen"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdOn": "2021-04-16T13:49:07.617Z",
+  "lastUpdated": "2021-04-16T13:49:07.617Z"
+}

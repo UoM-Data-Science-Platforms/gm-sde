@@ -1,6 +1,0 @@
-medcode	readcode	Description	CodingSystem
-1691	F120.00	Paralysis agitans	readcode
-4321	F12..00	Parkinson's disease	readcode
-8956	F130300	Parkinsonism with orthostatic hypotension	readcode
-14912	F12z.00	Parkinson's disease NOS	readcode
-96860	F11x900	Cerebral degeneration in Parkinson's disease	readcode

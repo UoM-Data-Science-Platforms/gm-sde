@@ -1,0 +1,37 @@
+{
+  "includeTerms": [
+    "chronic kidney disease",
+    "ckd stage 5",
+    "ckd stage 4",
+    "ckd stage 3b",
+    "ckd stage 3a",
+    "ckd stage 3",
+    "chronic renal failure",
+    "end stage renal failure"
+  ],
+  "excludeTerms": [
+    "stage 1",
+    "stage 2",
+    "monitoring",
+    "review",
+    "g2",
+    "g1",
+    "predicted stage",
+    "estimated glomerular filtration rate",
+    "exception",
+    "excepted from",
+    "at risk of",
+    "screening",
+    "resolved",
+    "laboratory study",
+    "plan agreed"
+  ],
+  "terminology": "CTV3",
+  "version": "20180401",
+  "createdBy": {
+    "name": "Richard Williams",
+    "email": "1234richardwilliams@gmail.com"
+  },
+  "createdOn": "2020-05-19T12:30:50.476Z",
+  "lastUpdated": "2021-04-14T15:24:45.091Z"
+}

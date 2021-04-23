@@ -1,0 +1,147 @@
+CTV3Code	Description
+1B17.	C/O - feeling unhappy
+2257.	O/E - depressed
+62T1.	Postnatal depressive disorder
+E02y3	Drug-induced depressive state
+E112.	Agitated depression
+E1120	Single major depressive episode, unspecified
+E1121	Single major depressive episode, mild
+E1122	Single major depressive episode, moderate
+E1123	Single major depressive episode, severe, without mention of psychosis
+E1124	Single major depressive episode, severe, with psychosis
+E1125	Single major depressive episode, in partial or unspecified remission
+E1126	Single major depressive episode, in full remission
+E112z	Single major depressive episode NOS
+E113.	Recurrent major depressive episode
+E1130	Recurrent major depressive episodes, unspecified
+E1131	Recurrent major depressive episodes, mild
+E1132	Recurrent major depressive episodes, moderate
+E1133	Recurrent major depressive episodes, severe, without mention of psychosis
+E1134	Recurrent major depressive episodes, severe, with psychosis
+E1135	Recurrent major depressive episodes, in partial or unspecified remission
+E1136	Recurrent major depressive episodes, in full remission
+E1137	Recurrent depression
+E113z	Recurrent major depressive episode NOS
+E11y2	Atypical depressive disorder
+E130.	Psychotic reactive depression
+E204.	Postnatal depression
+E2112	Neurotic depression
+E290.	Brief depressive adjustment reaction
+E2900	Grief reaction
+E290z	Brief depressive reaction NOS
+E291.	Prolonged depressive adjustment reaction
+E2B..	Depressive disorder NEC
+E2B0.	Postviral depression
+E2B1.	Chronic depression
+Eu320	[X]Mild depressive episode
+Eu321	[X]Moderate depressive episode
+Eu322	[X] Single episode agitated depression without psychotic symptoms
+Eu323	[X] Single episode of reactive depressive psychosis
+Eu32y	[X] Single episode of masked depression NOS
+Eu32z	[X] Depression NOS
+Eu33.	[X] Recurrent episodes of psychogenic depression
+Eu330	[X]Recurrent depressive disorder, current episode mild
+Eu331	[X]Recurrent depressive disorder, current episode moderate
+Eu332	[X] Vital depression, recurrent without psychotic symptoms
+Eu333	[X]Recurrent severe episodes of reactive depressive psychosis
+Eu334	[X]Recurrent depressive disorder, currently in remission
+Eu33y	[X]Other recurrent depressive disorders
+Eu33z	[X] Monopolar depression NOS
+Eu34.	[X]Persistent mood affective disorders
+Eu34y	[X]Other persistent mood affective disorders
+Eu34z	[X]Persistent mood affective disorder, unspecified
+Eu3y.	[X]Other mood affective disorders
+Eu3y0	[X] Mixed affective episode
+Eu3y1	[X] Recurrent brief depressive episodes
+Eu3yy	[X]Other specified mood affective disorders
+Eu412	[X]Mixed anxiety and depressive disorder
+R007z	[D]Postoperative depression
+Ua18k	Abnormal bereavement reaction
+X00RM	Right hemispheric organic affective disorder
+X00S8	Post-schizophrenic depression
+X00SO	Depressive illness
+X00SQ	Agitated depression
+X00SS	Endogenous depression first episode
+X00SU	Masked depression
+X00Sb	Mixed anxiety and depressive disorder
+X00TX	Depressive conduct disorder
+X40Dl	Mild postnatal depression
+X40Dm	Severe postnatal depression
+X40MH	Pseudo-Cushing's syndrome of depression
+X75zA	Depressive delusion of catastrophe
+X75zC	Depressive delusion of poverty
+X75zE	Depressive hypochondriacal delusion
+X760u	Depressive preoccupation
+X761J	Depression worse in morning
+X761K	Depression worse later in day
+X761L	SAD - Seasonal affective disorder
+XE0re	Sad mood
+XE0uv	Unhappy
+XE1Xy	Mood disorder
+XE1Y0	Single major depressive episode
+XE1Y1	Recurrent major depressive episodes
+XE1YC	Neurotic depression reactive type
+XE1Yo	Bereavement reaction
+XE1ZY	[X]Severe depressive episode without psychotic symptoms
+XE1ZZ	[X]Severe depressive episode with psychotic symptoms
+XE1Za	[X]Other depressive episodes
+XE1Zb	[X] Depression NOS
+XE1Zc	[X]Recurrent depressive disorder
+XE1Zd	[X]Recurrent depressive disorder, current episode severe without psychotic symptoms
+XE1Ze	[X]Recurrent depressive disorder, current episode severe with psychotic symptoms
+XE1Zf	[X]Recurrent depressive disorder, unspecified
+XE1Zg	[X]Other single mood affective disorders
+XE1Zh	[X]Other recurrent mood affective disorders
+XE1Zi	[X]Unspecified mood affective disorder
+XE1aY	Reactive (neurotic) depression
+XE1ae	Depressive personality
+XM0CR	C/O - feeling depressed
+XM0CS	C/O - feeling unhappy
+XM1GC	Endogenous depression - recurrent
+XSEGJ	Major depression
+XSGok	Mild major depression
+XSGol	Moderate major depression
+XSGom	Severe major depression without psychotic features
+XSGon	Psychotic depression
+Xa0wV	Recurrent brief depressive disorder
+Xa19c	Normal bereavement reaction
+XaA9r	Depressive position relationship
+XaB9J	Depression NOS
+XaCHr	[X] Single episode agitated depression without psychotic symptoms
+XaCHs	[X] Single episode major depression without psychotic symptoms
+XaCIs	[X]Mild depression
+XaCIt	Moderate depression
+XaCIu	Severe depression
+XaImU	Depressive symptoms
+XaIoF	Patient unhappy with medication regime
+XaIpB	Postnatal depression counselling
+XaItx	Depression management programme
+XaJWh	On depression register
+XaK9p	Depression enhanced services administration
+XaKAK	Depression enhanced service completed
+XaKEz	Patient given advice about management of depression
+XaKUk	Dysphoric mood
+XaL0r	Referral for guided self-help for depression
+XaLQw	Discussion about maternal wellbeing - postnatal depression
+XaMGL	Depression monitoring administration
+XaMGN	Depression monitoring first letter
+XaMGO	Depression monitoring second letter
+XaMGP	Depression monitoring third letter
+XaMGQ	Depression monitoring verbal invite
+XaMGR	Depression monitoring telephone invite
+XaPKm	On full dose long term treatment for depression
+XaX2L	Postnatal depression not discussed
+XaX53	Single major depressive episode, severe, with psychosis, psychosis in remission
+XaX54	Recurrent major depressive episodes, severe, with psychosis, psychosis in remission
+XaXe3	Antidepressant drug treatment started
+XaY2C	Antenatal depression
+XaYgS	Referral to postnatal depression group
+Xabaf	Referral for depression self-help video
+XaboL	Referral for guided self-help for depression declined
+Xaeft	Maternal postnatal depression
+XafMM	Signposting to depression self-help group
+XagLW	Depression monitoring invitation email
+XagLY	Depression monitoring invitation SMS (short message service) text message
+XagO4	Depressive personality disorder
+XagU1	Recurrent reactive depressive episodes, severe, with psychosis
+XagUK	Prolonged single episode of reactive depression

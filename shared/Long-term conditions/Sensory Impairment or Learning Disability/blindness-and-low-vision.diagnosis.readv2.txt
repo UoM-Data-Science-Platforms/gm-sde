@@ -1,0 +1,146 @@
+readcode	Description
+13o8J00	Uses deafblind intervener
+13o8N00	Uses Deafblind Manual Alphabet
+1B75.00	Loss of vision
+1a00000	Uses guide dog for the blind
+2B69.00	O/E -R-eye counts fingers only
+2B6A.00	O/E-R-eye perceives light only
+2B6A.11	O/E - blind R-eye
+2B6B.00	O/E - R-eye completely blind
+2B6C.00	O/E - R-eye sees hand movements
+2B6P.00	O/E - pinhole R-eye sees hand movements
+2B6Q.00	O/E - pinhole R-eye counts fingers only
+2B6R.00	O/E - pinhole R-eye perceives light only
+2B6S.00	O/E - pinhole R-eye completely blind
+2B6T.00	O/E - R-eye visual acuity (corrected) 1/60
+2B6V.00	O/E - R-eye visual acuity (corrected) 2/60
+2B6W.00	O/E - R-eye visual acuity (corrected) 4/60
+2B6X.00	O/E - R-eye visual acuity (corrected) 5/60
+2B79.00	O/E -L-eye counts fingers only
+2B7A.00	O/E-L-eye perceives light only
+2B7A.11	O/E - blind L-eye
+2B7B.00	O/E - L-eye completely blind
+2B7C.00	O/E - L-eye sees hand movements
+2B7P.00	O/E - pinhole L-eye sees hand movements
+2B7Q.00	O/E - pinhole L-eye counts fingers only
+2B7R.00	O/E - pinhole L-eye perceives light only
+2B7S.00	O/E - pinhole L-eye completely blind
+2B7T.00	O/E - L-eye visual acuity (corrected) 1/60
+2B7V.00	O/E - L-eye visual acuity (corrected) 2/60
+2B7W.00	O/E - L-eye visual acuity (corrected) 4/60
+2B7X.00	O/E - L-eye visual acuity (corrected) 5/60
+2BBr.00	Impaired vision due to diabetic retinopathy
+6688.00	Registered partially sighted
+6688.11	Registered partially blind
+6689.00	Registered blind
+6689.11	Registered severely sight impaired
+668B.00	Poor visual acuity
+668C.00	Certificate of vision impairment
+668D.00	Registered sight impaired
+8F6..11	Blind rehabilitation
+8F61.00	Blind rehabilitation
+8F62.00	Blind lead dog rehabilitation
+8HlE.00	Referral to visual impairment multidisciplinary team
+9NfB.00	Requires deafblind communicator guide
+9Nfa.00	Requires deafblind manual alphabet interpreter
+9Nfb.00	Requires deafblind block alphabet interpreter
+9Nfc.00	Requires deafblind haptic communication interpreter
+9m08.00	Excluded from diabetic retinopathy screening as blind
+F404100	Blind hypotensive eye
+F404200	Blind hypertensive eye
+F481100	Sudden visual loss
+F48y011	Cloudy vision NOS
+F49..00	Blindness and low vision
+F49..11	Impaired vision
+F49..12	Low vision
+F49..13	Partial sight
+F49..14	Sight impaired
+F490.00	Blindness, both eyes
+F490000	Unspecified blindness both eyes
+F490100	Both eyes total visual impairment
+F490200	Better eye: near total visual impairment, Lesser eye: unspecified
+F490300	Better eye: near total visual impairment, Lesser eye: total visual impairment
+F490400	Better eye: near total visual impairment, Lesser eye: near total visual impairment
+F490500	Better eye: profound visual impairment, Lesser eye: unspecified
+F490600	Better eye: profound visual impairment, Lesser eye: total visual impairment
+F490700	Better eye: profound visual impairment, Lesser eye: near total visual impairment
+F490800	Better eye: profound visual impairment, Lesser eye: profound visual impairment
+F490900	Acquired blindness, both eyes
+F490z00	Blindness both eyes NOS
+F491.00	Better eye: low vision, Lesser eye: profound visual impairment
+F491000	One eye blind, one eye low vision
+F491100	Better eye: severe visual impairment, Lesser eye: blind, unspecified
+F491200	Better eye: severe visual impairment, Lesser eye: total visual impairment
+F491300	Better eye: severe visual impairment, Lesser eye: near total visual impairment
+F491400	Better eye: severe visual impairment, Lesser eye: profound visual impairment
+F491500	Better eye: moderate visual impairment, Lesser eye: blind, unspecified
+F491600	Better eye: moderate visual impairment, Lesser eye: total visual impairment
+F491700	Better eye: moderate visual impairment, Lesser eye: near total visual impairment
+F491800	Better eye: moderate visual impairment, Lesser eye: profound visual impairment
+F491z00	One eye blind, one eye low vision NOS
+F492.00	Low vision, both eyes
+F492000	Low vision, both eyes unspecified
+F492100	Better eye: severe visual impairment, Lesser eye: low vision unspecified
+F492200	Better eye: severe visual impairment, Lesser eye: severe visual impairment
+F492300	Better eye: moderate visual impairment, Lesser eye: low vision unspecified
+F492400	Better eye: moderate visual impairment, Lesser eye: severe visual impairment
+F492500	Better eye: moderate visual impairment, Lesser eye: moderate visual impairment
+F492z00	Low vision, both eyes NOS
+F493.00	Visual loss, both eyes unqualified
+F494.00	Legal blindness USA
+F495.00	Profound impairment, one eye
+F495000	Blindness, one eye, unspecified
+F495100	Lesser eye: total visual impairment, Better eye: unspecified
+F495200	Lesser eye: total visual impairment, Better eye: near normal vision
+F495300	Lesser eye: total visual impairment, Better eye: normal vision
+F495400	Lesser eye: near total visual impairment, Better eye: unspecified
+F495500	Lesser eye: near total visual impairment, Better eye: near normal vision
+F495600	Lesser eye: near total visual impairment, Better eye: normal vision
+F495700	Lesser eye: profound visual impairment, Better eye: unspecified
+F495800	Lesser eye: profound visual impairment, Better eye: near normal vision
+F495900	Lesser eye: profound visual impairment, Better eye: normal vision
+F495A00	Acquired blindness, one eye
+F495z00	Profound impairment one eye NOS
+F496.00	Low vision, one eye
+F496000	Low vision, one eye, unspecified
+F496100	Lesser eye: severe visual impairment, Better eye: unspecified
+F496200	Lesser eye: severe visual impairment, Better eye: near normal vision
+F496300	Lesser eye: severe visual impairment, Better eye: normal vision
+F496400	Lesser eye: moderate visual impairment, Better eye: unspecified
+F496500	Lesser eye: moderate visual impairment, Better eye: near normal vision
+F496600	Lesser eye: moderate visual impairment, Better eye: normal vision
+F496z00	Low vision, one eye NOS
+F497.00	Severe visual impairment, binocular
+F498.00	Moderate visual impairment, binocular
+F49A.00	Blindness, monocular
+F49B.00	Severe visual impairment, monocular
+F49C.00	Moderate visual impairment, monocular
+F49D.00	Visual impairment
+F49y.00	Visual loss, one eye, unqualified
+F49z.00	Visual loss NOS
+F49z.11	Acquired blindness
+F49z000	Charles Bonnet syndrome
+F4H6.00	Other visual pathway disorder
+F4H6000	Visual pathway disorder due to neoplasm
+F4H6100	Visual pathway disorder due to vascular disorder
+F4H6200	Visual pathway disorder due to inflammatory disorder
+F4H6z00	Other visual pathway disorder NOS
+F4H7.00	Visual cortex disorder
+F4H7000	Visual cortex disorder due to neoplasm
+F4H7100	Visual cortex disorder due to vascular disorder
+F4H7200	Visual cortex disorder due to inflammatory disorder
+F4H7300	Cortical blindness
+F4H7z00	Visual cortex disorder NOS
+F4Hz.00	Disorder of optic nerve or visual pathway NOS
+Fy1..00	Combined visual and hearing impairment
+Fy1..11	Dual sensory impairment - deafblind
+Fy1..12	Deafblind
+FyuL.00	[X]Visual disturbances and blindness
+SJ0..00	Optic nerve and pathway injury
+SJ00.00	Optic nerve (2nd) injury
+SJ01.00	Optic chiasm injury
+SJ02.00	Optic pathway injury
+SJ03.00	Visual cortex injury
+SJ0z.00	Optic nerve or pathway injury NOS
+SJ0z.11	Blindness - traumatic - NOS
+ZV41000	[V]Problems with sight

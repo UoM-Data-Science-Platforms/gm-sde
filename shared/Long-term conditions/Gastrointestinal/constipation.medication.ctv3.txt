@@ -1,0 +1,349 @@
+CTV3ID	Description
+Ub0eF	Lactitol - value
+X771E	Presence of laxative
+X77Yb	Sodium sulphate loading test
+X796i	Phenolphthalein
+X7A0i	Polyethylene glycol precipitation
+X807j	PEG - Polyethylene glycol
+XM0l3	Lactulose
+a4dy.	Alverine citrate+sterculia 0.5%/62% granules
+a4e3.	Colven 135mg granules
+a4e5.	Fybogel Mebeverine sachet
+ab11.	Fybranta 2g tablet
+ab13.	Proctofibe tablet
+ab14.	Trifyba 3.5g/sachet powder
+ab15.	Trifyba 250g powder
+ab16.	Wheat fibre 80% powder
+ab2..	Ispaghula husk [gastro-intestinal bulk laxative]
+ab21.	Fybogel 3.5g/sachet s/f granules
+ab22.	Fybogel Orange 3.5g/sachet s/f granules
+ab23.	Isogel granules
+ab24.	Metamucil 49% powder 7g
+ab25.	Metamucil powder
+ab26.	Regulan 3.6g/sachet powder
+ab28.	Manevac granules 250g
+ab29.	Manevac sachets 4x14
+ab2A.	Manevac granules 400g
+ab2B.	Regulan orange s/f powder
+ab2C.	Konsyl 6g/sachet s/f powder
+ab2D.	Konsyl Dex 3.4g/sachet powder
+ab2E.	Konsyl Orange 3.4g/sachet powder
+ab2F.	Regulan lemon/lime s/f powder
+ab2G.	Ispaghula husk 3.4g/sachet powder
+ab2H.	Fybogel Lemon 3.5g/sachet s/f granules
+ab2J.	Ispaghula husk 3.4g/sachet s/f powder
+ab2K.	Ispaghula husk 6g/sachet s/f powder
+ab2L.	Konsyl Orange 3.5g/sachet s/f granules
+ab2M.	Ispagel 3.5g/sachet s/f powder
+ab2N.	Fybogel Orange s/f granules 150g
+ab2O.	Senokot Hi-Fibre Orange 3.5g/sachet s/f granules
+ab2P.	Senokot Hi-Fibre Lemon 3.5g/sachet s/f granules
+ab2Q.	Fibrelief Orange 3.5g/sachet s/f granules
+ab2R.	Fibrelief 3.5g/sachet s/f granules
+ab2n.	Ispaghula husk 3.5g/sachet s/f powder
+ab2o.	Ispaghula husk lemon/lime 3.4g/sachet s/f powder
+ab2p.	Ispaghula husk orange 3.4g/sachet s/f powder
+ab2q.	Ispaghula husk orange 3.5g/sachet s/f granules
+ab2r.	Ispaghula husk lemon 3.5g/sachet s/f granules
+ab2s.	Senna+ispaghula 12.4%/54.2% granules
+ab2t.	Ispaghula husk 3.6g/sachet powder
+ab2u.	Ispaghula husk 3.5g/sachet s/f granules
+ab2v.	Ispaghula husk 90% granules
+ab2w.	Ispaghula husk 49% powder 7g
+ab2x.	Ispaghula husk 49% powder
+ab2y.	Ispaghula husk 56% powder 6.4g
+ab2z.	Ispaghula husk 66% granules
+ab3..	Methylcellulose [gastro-intestinal bulk laxative]
+ab31.	Methylcellulose granules
+ab32.	Methylcellulose 900mg/10mL mixture
+ab33.	Celevac 500mg tablet
+ab34.	Celevac granules
+ab35.	Cellucon 500mg tablet
+ab36.	Cologel 900mg/10mL mixture
+ab37.	Methylcellulose-450 500mg tablet
+ab4..	Sterculia [bulk laxative]
+ab41.	Normacol 500g granules
+ab42.	Normacol granules 7g/sachet
+ab43.	Normacol Plus granules 200g
+ab44.	Normacol Plus granules 500g
+ab45.	Normacol Plus granules 7g/sachet
+ab4x.	Sterculia+frangula 62%/8% granules
+ab4y.	Sterculia 62% granules
+ab4z.	Sterculia granules 7g
+ac...	Stimulant laxatives
+ac1..	Bisacodyl
+ac11.	Bisacodyl 5mg e/c tablet
+ac12.	Dulco-lax 5mg e/c tablet
+ac13.	Dulcodos tablet
+ac14.	Entrolax 5mg e/c tablet
+ac15.	Entrolax Constipation Relief 5mg e/c tablet
+ac16.	Vantage Pharmacy Constipation Relief 5mg e/c tablet
+ac2..	Cascara
+ac21.	Cascara 20mg tablet
+ac3..	Castor oil [laxative]
+ac41.	Co-danthramer 200mg/25mg capsule
+ac42.	Co-danthramer 200mg/25mg/5mL oral suspension
+ac43.	Co-danthramer strong 1000mg/75mg/5mL oral suspension
+ac44.	Co-danthrusate 50mg/60mg capsule
+ac45.	Normax capsule
+ac46.	Codalax liquid 300mL
+ac47.	Codalax liquid 1 litre
+ac48.	Codalax Forte liquid 300mL
+ac49.	Codalax Forte liquid 1 litre
+ac4A.	Normax suspension
+ac4B.	Co-danthrusate 50mg/60mg/5mL suspension
+ac4C.	Co-danthramer strong 500mg/37.5mg capsule
+ac4D.	Ailax suspension
+ac4E.	Capsuvac capsule
+ac4F.	Ailax Forte suspension
+ac4a.	Codalax Forte liquid 100mL
+ac51.	Dioctyl 100mg tablet
+ac52.	Dioctyl Paed 12.5mg/5mL syrup 125mL
+ac53.	Dioctyl 50mg/5mL solution
+ac54.	Docusate sodium 100mg tablet
+ac55.	Docusate sodium 12.5mg/5mL paediatric oral solution
+ac56.	Docusate sodium 50mg/5mL oral solution
+ac57.	Dioctyl Paed 12.5mg/5mL syrup 300mL
+ac58.	Dioctyl 100mg capsule
+ac59.	Docusate sodium 100mg capsule
+ac5A.	Docusol 12.5mg/5mL paediatric solution 100mL
+ac5B.	DULCOEASE 100mg capsules
+ac71.	Senna 7.5mg tablet
+ac72.	Agiolax granules 100g
+ac74.	Senokot 7.5mg tablet
+ac75.	Senokot 15mg/5mL granules
+ac76.	Senokot 7.5mg/5mL syrup
+ac77.	X-Prep 1mg/mL liquid
+ac78.	Senokot Double Strength 15mg tablet
+ac79.	Nylax with Senna 7.5mg tablet
+ac7A.	Senokot 7.5mg/5mL s/f syrup
+ac7v.	Senna 7.5mg/5mL s/f syrup
+ac7w.	Senna 15mg tablet
+ac7x.	Senna 15mg/5mL granules
+ac7y.	Senna 7.5mg/5mL syrup
+ac7z.	Senna 1mg/mL liquid
+ac82.	Laxoberal 5mg/5mL elixir
+ac83.	Picolax 10mg/sachet oral powder
+ac84.	Dulco-lax 5mg/5mL liquid
+ac85.	Dulco-lax 2.5mg Perles
+ac86.	CITRAFLEET oral powder sachets 16.11g
+ac8w.	Sodium picosulfate 2.5mg capsule
+ac8x.	Sodium picosulfate 5mg/5mL liquid
+ac8y.	Sodium picosulfate 5mg/5mL elixir
+ac8z.	Sodium picosulfate 10mg/sachet oral powder
+ad...	Faecal softening laxatives
+ad1..	Liquid paraffin [laxative]
+ad11.	Liquid paraffin 50% mixture
+ad13.	Liquid paraffin oral emulsion BP
+ad14.	Liquid paraffin+light liquid paraffin 7%/18% emulsion
+ae...	Osmotic laxatives
+ae1..	Lactulose product
+ae11.	Lactulose 3.35g/5mL oral solution
+ae12.	Duphalac solution
+ae13.	Laxose solution
+ae14.	Lactugal solution
+ae15.	Regulose solution
+ae16.	Lactulose syrup
+ae17.	Duphalac dry 10g/sachet powder
+ae18.	Lactulose 10g/sachet powder
+ae19.	Laxose Orange solution
+ae1A.	Lemlax liquid
+ae1B.	LACTULOSE 10g/15mL oral solution sachet
+ae2..	Magnesium hydroxide [laxative]
+ae23.	Magnesium hydroxide[laxative] mixture
+ae3..	Magnesium sulphate
+ae31.	Dried Epsom salts
+ae32.	Magnesium sulphate 4g/10mL mixture
+ae33.	Magnesium sulphate BP crystals
+ae4..	Polyethylene glycol electrolyte
+ae41.	Polyethylene glycol electrolyte powder
+ae42.	Golytely powder 4litre
+ae43.	Klean-Prep oral powder
+ae44.	Golytely sachets 4x24
+ae45.	Golytely sachets 8x24
+ae46.	Movicol oral powder
+ae47.	Idrolax oral powder
+ae48.	Movicol-Half oral powder
+ae49.	Movicol Paediatric Plain 6.9g/sachet oral powder
+ae4a.	MOVIPREP oral powder sachets
+ae4b.	MOVICOL PLAIN 13.7g/sachet oral powder
+ae4c.	LAXIDO ORANGE oral powder sachets
+ae4d.	MOVICOL CHOCOLATE 13.9g/sachet oral powder
+ae4e.	COMPOUND MACROGOL sugar free oral powder sachet
+ae4f.	MOLAXOLE oral powder sachets
+ae4g.	DULCOBALANCE 10g/sachet oral powder
+ae4h.	MOVIPREP ORANGE oral powder sachets
+ae4i.	MOVICOL orange concentrate for oral solution 500mL
+ae4j.	MOVICOL PAEDIATRIC chocolate flavour 6.9g/sachet oral powder
+ae4k.	COSMOCOL orange oral powder sachet
+ae4l.	COSMOCOL lemon+lime oral powder sachet
+ae4m.	COSMOCOL orange+lemon+lime oral powder sachet
+ae4n.	COSMOCOL plain oral powder sachet
+ae4o.	COSMOCOL PAEDIATRIC 6.9g/sachet oral powder
+ae4p.	COSMOCOL HALF 6.9g/sachet oral powder
+ae4q.	LAXIDO PAEDIATRIC PLAIN 6.9g/sachet oral powder
+ae52.	Citramag 17.7g/sachet powder
+ae6..	Lactitol
+ae6z.	Lactitol 10g/sachet powder
+ae71.	Fleet Phospho-soda soln 2x45mL
+af...	Rectally given laxatives
+af1..	Rectal laxatives A-Z
+af11.	Bisacodyl 10mg suppository
+af12.	Bisacodyl 5mg paediatric suppository
+af13.	Glycerol 2g child suppository
+af14.	Glycerol 1g infant suppository
+af15.	Glycerol 4g adult suppository
+af16.	Phosphates formula b enema 128mL
+af18.	Dioctyl paediatric enema
+af19.	Dioctyl enema
+af1A.	Fletchers Phosphate standard tube bottle enema 128mL
+af1B.	Phosphates Formula B standard tube bottle enema BP
+af1C.	Fleet Micro-enema 5mL
+af1a.	Dulco-lax 10mg suppository
+af1b.	Dulco-lax 5mg paediatric suppository
+af1c.	Dulco-lax 2.74mg/mL enema
+af1d.	Fletchers' Arachis oil retention enema
+af1e.	Fletchers Enemette 5mL enema
+af1f.	Fletchers Mag. sulphate 50% enema 130mL
+af1g.	Fletchers Phos standard tube enema 128mL
+af1h.	Fletchers Phos long tube enema 128mL
+af1k.	Micralax Micro-enema 5mL
+af1l.	Micolette Micro-enema 5mL
+af1m.	Relaxit Micro-enema 5mL
+af1n.	Veripaque 50mg in 3g enema
+af1p.	Norgalax 10g micro-enema x6
+af1q.	Oxyphenisatin 50mg in 3g enema
+af1r.	Sodium acid phosphate 1.69g / sodium bicarbonate 1.08g suppository
+af1s.	Arachis oil retention enema
+af1t.	Docusate sodium 120mg enema 10g
+af1v.	Magnesium sulphate 50% retention enema
+af1w.	Phosphates Formula A standard tube enema BP
+af1x.	Phosphates Formula B long tube enema BP
+af1y.	Fleet enema
+ag...	Other laxatives
+ag1..	Other laxatives A-Z
+ag11.	Paraffin liquid+phenolphthalein suspension
+ag12.	Phenolphthalein 125mg tablet
+ag16.	Alophen pill
+ag17.	Kest tablet
+ag1B.	RESOLOR 1mg tablets
+ag1C.	PRUCALOPRIDE 1mg tablets
+ag1D.	RESOLOR 2mg tablets
+ag1E.	PRUCALOPRIDE 2mg tablets
+ag1F.	LECICARBON A suppositories
+ag1I.	LECICARBON C suppositories
+ax1..	METHYLNALTREXONE BROMIDE
+bxh..	Ispaghula husk [lipid lowering use]
+bxh1.	Ispaghula husk orange 3.5g s/f granules
+bxh2.	Fybozest Orange 3.5g s/f granules
+de1z.	Methylcellulose 400mg tablet
+de21.	Prefil 80% granules
+j74..	Pyridostigmine bromide
+j741.	Mestinon 60mg tablet
+j743.	Pyridostigmine bromide 60mg tablet
+mige.	Pyridostigmine 60mg tablet
+x001a	Bulk-forming laxatives
+x002D	Co-danthramer
+x002E	Co-danthrusate
+x007O	Magnesium hydroxide
+x00Ap	Sodium acid phosphate
+x00Av	Sodium cromoglicate+isoprenaline sulphate
+x00Lw	Cascara elixir BP
+x00M2	Fletchers' Phosphate standard tube enema
+x00M3	Fletchers' Phosphate long tube enema
+x00Q9	Normacol granules
+x00QA	Normacol Plus granules
+x00Vy	Fletchers' micro-enema
+x00Vz	Micralax Micro-enema
+x00W0	Micolette Micro-enema
+x00W1	Norgalax 120mg micro-enema
+x00W2	Relaxit Micro-enema
+x00WA	Magnesium hydroxide mixture BP
+x00Xk	Liquid paraffin+magnesium hydroxide oral emulsion BP
+x00Y3	Dioctyl 12.5mg/5mL paediatric solution
+x00bW	Fletchers' Magnesium sulphate 50% retention enema
+x00eT	Milk of Magnesia suspension
+x00zs	Docusate sodium 120mg micro-enema
+x019h	Laxative
+x019j	Anthraquinone laxatives
+x019k	Ispaghula husk powder
+x019l	Ispaghula husk granules
+x019m	Manevac granules
+x019n	Codalax liquid
+x019o	Codalax Forte liquid
+x019p	Dioctyl sodium sulphosuccinate
+x019s	Golytely powder
+x01DK	Pyridostigmine
+x01Gn	Glycerol/glycol/macrogol
+x02Dg	Glycerol suppository
+x02Do	Agiolax granules
+x02L8	Magnesium hydroxide 415mg/5mL suspension
+x02LA	Ispaghula husk
+x02LB	Methylcellulose
+x02LD	Paraffin liquid
+x02QB	Fletchers' Phosphate standard tube bottle enema
+x02Sx	Ailax
+x02TM	Alophen
+x02Wi	Capsuvac
+x02X4	Celevac
+x02XR	Citramag
+x02ad	Dulco-lax
+x02ag	Duphalac
+x02dZ	Fybogel
+x02fy	Isogel
+x02gN	Kest
+x02gX	Klean-Prep
+x02gg	Konsyl
+x02gn	Lactugal
+x02hB	Laxoberal
+x02ii	Mestinon
+x02j8	Milk of Magnesia
+x02lG	Normax
+x02nV	Picolax
+x02p8	Regulan
+x02p9	Regulose
+x02qm	Senokot
+x02tF	Trifyba
+x03a3	Polyethylene glycol product
+x03aZ	Fleet Phospho-soda solution
+x03aa	Fleet Micro-enema
+x03ch	Movicol
+x03jA	Fybozest Orange
+x03jW	Ailax Forte
+x03nQ	Lemlax
+x03sW	Duphalac dry
+x03sf	Laxose
+x03sg	Laxose Orange
+x03tE	Konsyl Dex
+x03tF	Konsyl Orange
+x03xX	Dioctyl
+x03xr	Regulan lemon/lime
+x03xs	Regulan orange
+x03xu	Relaxit
+x03zB	Codalax
+x03zC	Codalax Forte
+x03ze	Fleet Phospho-soda
+x0403	Fybogel Lemon
+x0404	Fybogel Mebeverine
+x0405	Fybogel Orange
+x040D	Veripaque
+x041e	Micolette
+x041f	Micralax
+x043d	Manevac
+x0466	Norgalax
+x0469	Normacol
+x046A	Normacol Plus
+x04sF	Docusol
+x04sz	Parenteral magnesium sulphate
+x05MT	Bisacodyl - chemical
+x05bj	Ispagel
+x05d4	Fybogel Orange s/f granules
+x05gF	Senokot Double Strength
+x05iI	Movicol-Half
+x05kf	Nylax with Senna
+x05sp	Senokot Max Strength
+x05tN	Entrolax
+x05tO	Entrolax Constipation Relief
+x05uz	Senokot Hi-Fibre
+x05vj	Vantage Pharmacy Constipation Relief
+x05zQ	Fibrelief

@@ -1,0 +1,342 @@
+CTV3ID	Description
+63C6.	Maternal drug abuse
+9G2..	Drug addiction notification
+9G21.	Drug addict notific to CMO
+9G22.	Drug addict re-notific due
+9G23.	Drug addict re-notif to CMO
+9G24.	Drug addict-notify local SMR22
+9G2Z.	Drug addiction notif NOS
+E24..	Drug dependence
+E240.	Opioid type drug dependence
+E2400	Unspecified opioid dependence
+E2401	Continuous opioid dependence
+E2402	Episodic opioid dependence
+E2403	Opioid dependence in remission
+E240z	Opioid drug dependence NOS
+E241.	Valium dependence
+E2410	Hypnotic or anxiolytic dependence, unspecified
+E2411	Hypnotic or anxiolytic dependence, continuous
+E2412	Hypnotic or anxiolytic dependence, episodic
+E2413	Hypnotic or anxiolytic dependence in remission
+E241z	Hypnotic or anxiolytic dependence NOS
+E242.	Cocaine type drug dependence
+E2420	Cocaine dependence, unspecified
+E2421	Cocaine dependence, continuous
+E2422	Cocaine dependence, episodic
+E2423	Cocaine dependence in remission
+E242z	Cocaine drug dependence NOS
+E243.	Hashish dependence
+E2430	Cannabis dependence, unspecified
+E2431	Cannabis dependence, continuous
+E2432	Cannabis dependence, episodic
+E2433	Cannabis dependence in remission
+E243z	Cannabis drug dependence NOS
+E244.	Stimulant dependence
+E2440	Amphetamine or psychostimulant dependence, unspecified
+E2441	Amphetamine or psychostimulant dependence, continuous
+E2442	Amphetamine or psychostimulant dependence, episodic
+E2443	Amphetamine or psychostimulant dependence in remission
+E244z	Amphetamine or psychostimulant dependence NOS
+E245.	Mescaline dependence
+E2450	Hallucinogen dependence, unspecified
+E2451	Hallucinogen dependence, continuous
+E2452	Hallucinogen dependence, episodic
+E2453	Hallucinogen dependence in remission
+E245z	Hallucinogen dependence NOS
+E246.	[X]Drug addiction - solvent
+E2460	Glue sniffing dependence, unspecified
+E2461	Glue sniffing dependence, continuous
+E2462	Glue sniffing dependence, episodic
+E2463	Glue sniffing dependence in remission
+E246z	Glue sniffing dependence NOS
+E247.	Other specified drug dependence
+E2470	Other specified drug dependence, unspecified
+E2471	Other specified drug dependence, continuous
+E2472	Other specified drug dependence, episodic
+E2473	Other specified drug dependence in remission
+E247z	Other specified drug dependence NOS
+E248.	Combined opioid with other drug dependence
+E2480	Combined opioid with other drug dependence, unspecified
+E2481	Combined opioid with other drug dependence, continuous
+E2482	Combined opioid with other drug dependence, episodic
+E2483	Combined opioid with other drug dependence in remission
+E248z	Combined opioid with other drug dependence NOS
+E249.	Combined drug dependence, excluding opioids
+E2490	Combined drug dependence, excluding opioid, unspecified
+E2491	Combined drug dependence, excluding opioid, continuous
+E2492	Combined drug dependence, excluding opioid, episodic
+E2493	Combined drug dependence, excluding opioid, in remission
+E249z	Combined drug dependence, excluding opioid, NOS
+E24A.	Ecstasy type drug dependence
+E24z.	Drug dependence NOS
+E252.	Nondependent cannabis abuse
+E2520	Nondependent cannabis abuse, unspecified
+E2521	Nondependent cannabis abuse, continuous
+E2522	Nondependent cannabis abuse, episodic
+E2523	Nondependent cannabis abuse in remission
+E252z	Nondependent cannabis abuse NOS
+E253.	LSD reaction
+E2530	Nondependent hallucinogen abuse, unspecified
+E2531	Nondependent hallucinogen abuse, continuous
+E2532	Nondependent hallucinogen abuse, episodic
+E2533	Nondependent hallucinogen abuse in remission
+E253z	Nondependent hallucinogen abuse NOS
+E254.	Nondependent hypnotic or anxiolytic abuse
+E2540	Nondependent hypnotic or anxiolytic abuse, unspecified
+E2541	Nondependent hypnotic or anxiolytic abuse, continuous
+E2542	Nondependent hypnotic or anxiolytic abuse, episodic
+E2543	Nondependent hypnotic or anxiolytic abuse in remission
+E254z	Nondependent hypnotic or anxiolytic abuse NOS
+E255.	Nondependent opioid abuse
+E2550	Nondependent opioid abuse, unspecified
+E2551	Nondependent opioid abuse, continuous
+E2552	Nondependent opioid abuse, episodic
+E2553	Nondependent opioid abuse in remission
+E255z	Nondependent opioid abuse NOS
+E256.	Nondependent cocaine abuse
+E2560	Nondependent cocaine abuse, unspecified
+E2561	Nondependent cocaine abuse, continuous
+E2562	Nondependent cocaine abuse, episodic
+E2563	Nondependent cocaine abuse in remission
+E256z	Nondependent cocaine abuse NOS
+E257.	Nondependent amphetamine or other psychostimulant abuse
+E2570	Nondependent amphetamine or psychostimulant abuse, unspecified
+E2571	Nondependent amphetamine or psychostimulant abuse, continuous
+E2572	Nondependent amphetamine or psychostimulant abuse, episodic
+E2573	Nondependent amphetamine or psychostimulant abuse in remission
+E257z	Nondependent amphetamine or psychostimulant abuse NOS
+E258.	Abuse of antidepressant drug
+E2580	Nondependent antidepressant type drug abuse, unspecified
+E2581	Nondependent antidepressant type drug abuse, continuous
+E2582	Nondependent antidepressant type drug abuse, episodic
+E2583	Nondependent antidepressant type drug abuse in remission
+E258z	Nondependent antidepressant type drug abuse NOS
+E259.	Nondependent mixed drug abuse
+E2590	Nondependent mixed drug abuse, unspecified
+E2591	Nondependent mixed drug abuse, continuous
+E2592	Nondependent mixed drug abuse, episodic
+E2593	Nondependent mixed drug abuse in remission
+E2594	Misuse of prescription only drugs
+E259z	Nondependent mixed drug abuse NOS
+E25y0	Nondependent other drug abuse, unspecified
+E25y1	Nondependent other drug abuse, continuous
+E25y2	Nondependent other drug abuse, episodic
+E25y3	Nondependent other drug abuse in remission
+E25yz	Nondependent other drug abuse NOS
+E25z.	Misuse of drugs NOS
+Eu112	[X]Mental and behavioural disorders due to use of opioids: dependence syndrome
+Eu122	[X]Mental and behavioural disorders due to use of cannabinoids: dependence syndrome
+Eu132	[X]Mental and behavioural disorders due to use of sedatives or hypnotics: dependence syndrome
+Eu142	[X]Mental and behavioural disorders due to use of cocaine: dependence syndrome
+Eu152	[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: dependence syndrome
+Eu182	[X]Drug addiction - solvent
+Eu192	[X]Drug addiction NOS
+L183.	Pregnancy and drug dependence
+L1830	Drug dependence - unspecified whether during pregnancy or the puerperium
+L1831	Drug dependence during pregnancy - baby delivered
+L1832	Drug dependence in the puerperium - baby delivered
+L1833	Drug dependence during pregnancy - baby not yet delivered
+L1834	Drug dependence in the puerperium - baby delivered during previous episode of care
+L183z	Drug dependence during pregnancy, childbirth or the puerperium NOS
+Q007C	Fetus or neonate affected by placental or breast transfer of other drug of addiction
+Q4850	Neonatal withdrawal symptoms from maternal use of drugs of addiction
+Ub0mp	Drug abuse behaviour
+Ub0mr	Has never misused drugs
+Ub0ms	Ex-drug user
+Ub0mt	Problem drug user
+Ub0mu	Long-term drug misuser
+Ub0mw	Drug addict
+Ub0my	Misuses drugs orally
+Ub0n0	Smokes drugs
+Ub0n1	Smokes drugs in cigarette form
+Ub0n2	Smokes drugs through a pipe
+Ub0n3	Chases the dragon
+Ub0n5	Misuses drugs vaginally
+Ub0n6	Misuses drugs rectally
+Ub0n7	Misuses drugs sublingually
+Ub0nA	IV - Intravenous drug user
+Ub0nB	Groin injector
+Ub0nC	Frequency of drug misuse
+Ub0nD	Drug injection behaviour
+Ub0nG	Drug injecting equipment hygiene
+Ub0nH	Sharing of drug injecting equipment
+Ub0nI	Does not share drug injection equipment
+Ub0nJ	Shares drug equipment
+Ub0nK	Frontloading
+Ub0nL	Shares syringes
+Ub0nM	Shares needles
+Ub0nN	Cleaning of needles
+Ub0nO	Cleans own needles
+Ub0nP	Cleans needles with bleach
+Ub0nQ	Does not clean needles
+Ub0nR	Obtains clean needles
+Ub0nS	Uses needle exchange scheme
+Ub0nT	Obtains clean syringes
+Ub0nU	Use of needle and syringe exchange scheme
+Ub0nV	Does not use needle and syringe exchange scheme
+Ub0nW	Uses needle and syringe exchange scheme
+Ub0nX	Time since stopped drug misuse
+Ub0nY	Total time drugs misused
+Ub0nZ	Age at starting drug misuse
+Ub0ns	Behavioural tolerance to drug
+Ub0nt	Physical tolerance to drug
+Ub0nu	Psychological tolerance to drug
+Ub0nv	Reverse tolerance to drug
+Ub0nz	Drug-related offending behaviour
+X00Rd	Psychoactive substance misuse disorder
+X00Ri	Hypnotic or anxiolytic abuse
+X00Rq	Absinthe addiction
+X00Rr	Lysergic acid diethylamide dependence
+X00Rs	Mescaline dependence
+X00Rt	Anxiolytic dependence
+X00Ru	Barbiturate dependence
+X00Rv	Benzodiazepine dependence
+X00Rw	Valium dependence
+X00Rx	Librium dependence
+X00Ry	Sedative dependence
+X00Rz	Heroin dependence
+X00S0	Methadone dependence
+X00S1	Morphine dependence
+X00S2	Opium dependence
+X00S3	Controlled drug dependence
+X00S4	Active drug dependence
+X401f	Drug abuse-induced hypospermatogenesis
+X40AW	Pregnancy and drug dependence
+X75zS	Bad trips
+X75zT	LSD reaction
+X767V	Abuse of drugs to lose weight
+X771F	Presence of drugs of abuse
+XE0hi	Drug addiction therapy
+XE0vy	Drug dependence during pregnancy, childbirth and the puerperium
+XE1TQ	Advice on drugs of addiction
+XE1UQ	Drug abuse - maternal
+XE1YR	Opioid type drug dependence
+XE1YS	Dependent sedative or hypnotic drug abuse
+XE1YT	Cannabis type drug dependence
+XE1YU	Amphetamine or other psychostimulant dependence
+XE1YV	Hallucinogen dependence
+XE1YW	Other specified drug dependence
+XE1YY	Nondependent hallucinogen abuse
+XE1YZ	Nondependent hypnotic or anxiolytic abuse
+XE1Ya	Nondependent amphetamine or other psychostimulant abuse
+XE1Yb	Nondependent other drug abuse
+XE1ZH	[X]Mental and behavioural disorders due to use of opioids: dependence syndrome
+XE1ZJ	[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: dependence syndrome
+XE1ZL	[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: dependence syndrome
+XE1b0	Cannabis dependence
+XE1b6	Drug misuse non-depend.
+XE2Mp	Drug addiction notification
+XE2Mq	Drug addiction notification to CMO
+XE2Mr	Drug addiction re-notification to CMO
+XE2XL	Drug addiction notification - HS2A 1(Rev) to HO
+XE2XM	Drug addiction re-notification - HS2A to HO
+XE2um	[X]Mental and behavioural disorders due to use of hallucinogens: dependence syndrome
+XM0a8	Addiction severity index
+XM1Q0	Psychostimulant dependence
+XM1Tm	Drug addict notification administration
+XS79h	Occasional drug user
+Xa1bX	Harmful substance use
+Xa2m3	Drug abuse using speed
+Xa3f4	Cocaine dependence
+XaBF7	MAP - Maudsley addiction profile
+XaCDv	HS2A form - drug addict notification
+XaCFa	Drug addiction notification status
+XaCMF	Drug addiction therapy - methadone
+XaIOs	Mental health addiction programmes
+XaIUQ	Failed heroin detoxification
+XaIWd	Mental health addiction programmes - 24 hour not intensive
+XaIWe	Mental health addiction programmes - 24 hour intensive
+XaIWf	Mental health addiction programmes - full day : day care
+XaIWg	Mental health addiction programmes - part day : day care
+XaIWh	Mental health addiction programmes - daily intensive
+XaIWi	Mental health addiction programmes - 3-5 contacts/week
+XaIWj	Mental health addiction programmes - 1-2 contacts/week
+XaIWk	Mental health addiction programmes - 1-3 contacts/month
+XaIWl	Mental health addiction programmes - <1 contact/month
+XaIvc	Referral to drug abuse counsellor
+XaJRs	Substance misuse team
+XaJgi	Never injecting drug user
+XaJlb	[V]Personal history of drug abuse by injection
+XaJsy	Did not attend substance misuse clinic
+XaJwo	Drug dependence self detoxification
+XaJxt	Substance misuse monitoring
+XaJz5	Substance misuse behaviour
+XaJz6	Frequency of substance misuse
+XaJz7	Substance misuse increased
+XaJz8	Substance misuse decreased
+XaJzi	Substance misuse monitoring status
+XaJzj	Substance misuse clinical management plan agreed
+XaK0g	Drug dependence home detoxification
+XaK0h	Drug dependence home detoxification contraindicated
+XaK9q	Drug misuse enhanced services administration
+XaKAI	Drug misuse enhanced service completed
+XaKBh	Carer of a person with substance misuse
+XaKC1	[X]Mental and behavioural disorders due to use of crack cocaine: dependence syndrome
+XaKSC	Current drug user
+XaKSD	Reduced drugs misuse
+XaKTR	Continuous use of drugs
+XaKTS	Episodic use of drugs
+XaKUa	Prolonged high dose use of cannabis
+XaKUb	Preoccupied with substance misuse
+XaKV9	Persistent substance misuse
+XaKcY	Previously injecting drug user
+XaKze	Substance misuse clinical management plan reviewed
+XaLBR	Drug addiction detoxification therapy - methadone
+XaLBS	Drug addiction maintenance therapy - methadone
+XaLIA	Substance misuse management stopped - self withdrawal
+XaLJF	Substance misuse treatment withdrawn
+XaLJG	Substance misuse treatment programme completed
+XaLJu	Drug addiction therapy - buprenorphine
+XaLJv	Drug addiction maintenance therapy - buprenorphine
+XaLJw	Drug addiction detoxification therapy - buprenorphine
+XaLPD	On substance misuse programme
+XaLQK	Ecstasy misuse
+XaLQN	Heroin misuse
+XaLTr	Episodic nondependent crack cocaine abuse
+XaLsM	Drug abuse monitoring
+XaLsw	Delivery of rehabilitation for drug addiction
+XaMAP	Current non recreational drug user
+XaMFo	Christo inventory for substance-misuse services score
+XaMHY	Neck injector
+XaMfL	Previous history of heroin misuse
+XaMfR	History of daily ecstasy misuse
+XaMfU	Previous history of ecstasy misuse
+XaMgO	History of heroin misuse
+XaMhO	Uses heroin on top of substitution therapy
+XaMyB	History of substance misuse
+XaNH7	Substance misuse treatment declined
+XaNH8	Substance misuse treatment not available
+XaNH9	Substance misuse structured counselling
+XaNPH	Self referral to substance misuse service
+XaPDT	Paternal drug misuse
+XaPe7	Shared care drug misuse treatment
+XaPe8	Drug misuse treatment in primary care
+XaQ0i	Amount of money spent per day on drug habit
+XaQ0j	Health problem secondary to drug misuse
+XaQ0k	Uses drug paraphernalia
+XaQE7	Seen in substance misuse clinic
+XaQQB	Declined consent for notification of drug misuse
+XaQVn	Pharmacy attended for drug misuse
+XaRCP	Admission to substance misuse detoxification centre
+XaXU0	Drug addiction maintenance therapy - naltrexone
+XaXU2	Drug addiction maintenance therapy - lofexidine
+XaXnY	Declined to give substance misuse history
+XaZsv	Brief intervention for substance misuse
+Xaa4g	Provision of information about needle and syringe exchange scheme
+XaaAd	Drug misuse clinic administration
+XaaH9	Benzodiazepine dependence detoxification
+XaaML	Seen in drug misuse clinic
+XaapH	In-house substance misuse treatment
+Xaarq	Substance misuse treatment programme delivered by other healthcare provider
+XaauR	Substance misuse monitoring 6 month review
+XaauS	Substance misuse monitoring annual review
+XabZ3	Witness to adult substance misuse
+XabbR	Novel psychoactive substance misuse
+Xabm0	Drug misuser in household
+XaboU	Referral to mental health services deferred until substance misuse resolved
+XaevR	Opioid analgesic dependence
+XaewP	Referral for brief intervention for substance misuse
+Xaewj	Referral for specialist substance misuse intervention
+XagOK	Signposting to drug misuse service
+XagnL	Referral to substance misuse service declined
+ZV6D7	[V]Drug abuse counselling and surveillance

@@ -1,0 +1,72 @@
+emis	Description
+COCA718	Colpermin  Gastro-Resistant Modified-Release Capsules  
+DIOR17626NEMIS	Dicycloverine  Oral solution  10 mg/5 ml
+DITA10374BRIDL	Dicyclomine Hydrochloride  Tablets  20 mg
+DITA889	Dicyclomine Hydrochloride  Tablets  10 mg
+HYIN1412	Hyoscine Butylbromide  Injection  20 mg/ml, 1 ml ampoule
+PECA2194	Peppermint Oil  Capsules  0.2 ml
+PEE/4784NEMIS	Peppermint Oil  E/C, M/R capsules  0.2 ml
+COTA716	Colofac  Tablets  135 mg
+META1778	Merbentyl  Tablets  10 mg
+ALCA4576	Alverine Citrate  Capsules  60 mg
+HYTA1413	Hyoscine Butylbromide  Tablets  10 mg
+KOGE3808	Kolanticon  Gel  
+DITA17628NEMIS	Dicycloverine  Tablets  20 mg
+META1734	Mebeverine Hydrochloride  Tablets  135 mg
+DITA17628NEMIS	Dicycloverine  Tablets  20 mg
+ALCA4576	Alverine Citrate  Capsules  60 mg
+DITA17627NEMIS	Dicycloverine  Tablets  10 mg
+FYEF23543EMIS	Fybogel Mebeverine  Effervescent granules  
+DITA17627NEMIS	Dicycloverine  Tablets  10 mg
+KOGE3809	Kolantyl  Gel  
+MESY1777	Merbentyl  Syrup  10 mg/5 ml
+DIOR17626NEMIS	Dicycloverine  Oral solution  10 mg/5 ml
+HYTA1413	Hyoscine Butylbromide  Tablets  10 mg
+MICA5851	Mintec  E/c capsules  0.2 ml
+PRTA4212	Pro-Banthine  Tablets  15 mg
+BUTA444	Buscopan  Tablets  10 mg
+META10038BRIDL	Merbentyl  Tablets  20 mg
+META10491BRIDL	Merbentyl 20  Tablets  20 mg
+BUIN443	Buscopan  Injection  20 mg/ml, 1 ml ampoule
+COLI8820EGTON	Colofac  Liquid  50 mg/5 ml
+MELI10477BRIDL	Mebeverine  Oral Suspension Sugar Free  50 mg/5 ml
+MESY1777	Merbentyl  Syrup  10 mg/5 ml
+SPGR957NEMIS	Spasmonal Fibre  Granules  
+ALGR10709BRIDL	Alvercol  Granules  
+APGA51046NEMIS	Apercap  Gastro-resistant Capsules  0.2 ml
+FYEF23543EMIS	Fybogel Mebeverine  Effervescent granules  
+MELI10477BRIDL	Mebeverine  Oral Suspension Sugar Free  50 mg/5 ml
+MICA5851	Mintec  E/c capsules  0.2 ml
+SPCA31973EMIS	Spasmonal Forte  Capsules  120 mg
+ATTA3202	Atropine Sulfate  Tablets  600 micrograms
+COCA718	Colpermin  Gastro-Resistant Modified-Release Capsules  
+PEE/4784NEMIS	Peppermint Oil  E/C, M/R capsules  0.2 ml
+COLI8820EGTON	Colofac  Liquid  50 mg/5 ml
+MEM/196NEMIS	Mebeverine Hydrochloride  M/R capsules  200 mg
+META1734	Mebeverine Hydrochloride  Tablets  135 mg
+BUIN443	Buscopan  Injection  20 mg/ml, 1 ml ampoule
+SPCA4334	Spasmonal  Capsules  60 mg
+ISEF18521NEMIS	Ispaghula Husk And Mebeverine  Effervescent Granules, Sugar Free  3.5 gram + 135 mg/sachet
+KOGE3808	Kolanticon  Gel  
+META10038BRIDL	Merbentyl  Tablets  20 mg
+PRTA5341	Propantheline Bromide  Tablets  15 mg
+SPCA31973EMIS	Spasmonal Forte  Capsules  120 mg
+ISEF18521NEMIS	Ispaghula Husk And Mebeverine  Effervescent Granules, Sugar Free  3.5 gram + 135 mg/sachet
+META1778	Merbentyl  Tablets  10 mg
+PRTA4223	Propantheline  Tablets  15 mg
+PRTA5341	Propantheline Bromide  Tablets  15 mg
+HYIN1412	Hyoscine Butylbromide  Injection  20 mg/ml, 1 ml ampoule
+MEM/196NEMIS	Mebeverine Hydrochloride  M/R capsules  200 mg
+PEE/34097EMIS	Peppermint Oil  E/c capsules  0.2 ml
+ALCA31975EMIS	Alverine Citrate  Capsules  120 mg
+ATTA3202	Atropine Sulfate  Tablets  600 micrograms
+PRTA4212	Pro-Banthine  Tablets  15 mg
+APGA51046NEMIS	Apercap  Gastro-resistant Capsules  0.2 ml
+COM/198NEMIS	Colofac MR  M/R capsules  200 mg
+COTA716	Colofac  Tablets  135 mg
+PEE/34097EMIS	Peppermint Oil  E/c capsules  0.2 ml
+SPGR957NEMIS	Spasmonal Fibre  Granules  
+ALCA31975EMIS	Alverine Citrate  Capsules  120 mg
+BUTA444	Buscopan  Tablets  10 mg
+COM/198NEMIS	Colofac MR  M/R capsules  200 mg
+SPCA4334	Spasmonal  Capsules  60 mg

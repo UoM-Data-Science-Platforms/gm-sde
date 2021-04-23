@@ -1,0 +1,438 @@
+readcode	Description
+12X2.00	Paternal drug misuse
+13Ho.00	Witness to adult substance misuse
+13We.00	Drug misuser in household
+13c..00	Drug user
+13c0.00	Injecting drug user
+13c1.00	Intravenous drug user
+13c2.00	Never injecting drug user
+13c3.00	Intramuscular drug user
+13c4.00	Intranasal drug user
+13c5.00	Substance misuse increased
+13c6.00	Substance misuse decreased
+13c7.00	Current drug user
+13c8.00	Reduced drugs misuse
+13c9.00	Subcutaneous drug user
+13cA.00	Smokes drugs
+13cB.00	Misuses drugs orally
+13cC.00	Continuous use of drugs
+13cD.00	Episodic use of drugs
+13cE.00	Prolonged high dose use of cannabis
+13cF.00	Preoccupied with substance misuse
+13cH.00	Persistent substance misuse
+13cJ.00	Previously injecting drug user
+13cK.00	Current non recreational drug user
+13cM.00	Substance misuse
+13cM000	Novel psychoactive substance misuse
+13cM100	Opioid analgesic dependence
+13cQ.00	Behavioural tolerance to drug
+13cR.00	Physical tolerance to drug
+13cS.00	Psychological tolerance to drug
+13cT.00	Reverse tolerance to drug
+146C.00	Failed heroin detoxification
+1T...00	History of substance misuse
+1T02.00	Previous history of heroin misuse
+1T23.00	Previous history of ecstasy misuse
+1TE..00	Uses heroin on top of substitution therapy
+1V...00	Drug misuse behaviour
+1V0..00	Misuses drugs
+1V00.00	Occasional drug user
+1V01.00	Long-term drug misuser
+1V02.00	Poly-drug misuser
+1V03.00	Misuses drugs sublingually
+1V04.00	Misuses drugs rectally
+1V05.00	Misuses drugs vaginally
+1V06.00	Uses drug paraphernalia
+1V07.00	Notified addict
+1V08.00	Smokes drugs in cigarette form
+1V09.00	Smokes drugs through a pipe
+1V0A.00	Chases the dragon
+1V0B.00	Sniffs drugs
+1V0C.00	Drug addict
+1V0D.00	Amount of money spent per day on drug habit
+1V0E.00	Health problem secondary to drug misuse
+1V2..00	Frequency of drug misuse
+1V22.00	Age at starting drug misuse
+1V23.00	Time since stopped drug misuse
+1V24.00	Total time drugs misused
+1V25.00	Has never misused drugs
+1V26.00	Misused drugs in past
+1V3..00	Drug injection behaviour
+1V30.00	Injects drugs subcutaneously
+1V31.00	Injects drugs intramuscularly
+1V32.00	Neck injector
+1V33.00	Groin injector
+1V35.00	Shares drug equipment
+1V36.00	Frontloading
+1V37.00	Drug injecting equipment hygiene
+1V38.00	Sharing of drug injecting equipment
+1V3A.00	Does not share drug injection equipment
+1V3B.00	Shares syringes
+1V3C.00	Shares needles
+1V3D.00	Cleaning of needles
+1V3E.00	Cleans own needles
+1V3F.00	Cleans needles with bleach
+1V3G.00	Does not clean needles
+1V3H.00	Obtains clean needles
+1V3J.00	Uses needle exchange scheme
+1V3K.00	Obtains clean syringes
+1V3L.00	Use of needle and syringe exchange scheme
+1V3M.00	Does not use needle and syringe exchange scheme
+1V3N.00	Uses needle and syringe exchange scheme
+1V6..00	Drug-related offending behaviour
+1V64.00	Illicit drug use
+1V65.00	Heroin misuse
+1V66.00	Ecstasy misuse
+388k.00	Christo inventory for substance-misuse services score
+63C6.00	Maternal drug abuse
+63C6.11	Maternal drug misuse
+677T.00	Substance misuse structured counselling
+67DD.00	Provision of information about needle and syringe exchange scheme
+7P22000	Delivery of rehabilitation for drug addiction
+8AA..00	Drug abuse monitoring
+8B23.00	Drug addiction therapy
+8B23.13	Drug dependence therapy
+8B23000	Drug addiction maintenance therapy - naltrexone
+8B23100	Drug addiction maintenance therapy - lofexidine
+8B2N.00	Drug addiction detoxification therapy - methadone
+8B2P.00	Drug addiction maintenance therapy - methadone
+8B2Q.00	Drug addiction maintenance therapy - buprenorphine
+8B2R.00	Drug addiction detoxification therapy - buprenorphine
+8BA9.00	Detoxification dependence drug
+8BAW.00	Drug dependence self detoxification
+8BAX.00	Drug dependence home detoxification
+8BAc.00	Substance misuse management stopped - self withdrawal
+8BAo.00	Benzodiazepine dependence detoxification
+8H7x.00	Referral to drug abuse counsellor
+8Hh1.00	Self referral to substance misuse service
+8HkF.00	Referral to substance misuse service
+8Hq..00	Admission to substance misuse detoxification centre
+8I2N.00	Drug dependence home detoxification contraindicated
+8T24.00	Referral for brief intervention for substance misuse
+8T25.00	Referral for specialist substance misuse intervention
+8W1..00	Referral to mental health services deferred until substance misuse resolved
+918a.00	Carer of a person with substance misuse
+9G2..00	Drug addiction notification
+9G2..11	Drug addict notific admin
+9G21.00	Drug addict notific to CMO
+9G22.00	Drug addict re-notific due
+9G23.00	Drug addict re-notif to CMO
+9G2Z.00	Drug addiction notif NOS
+9HC..00	Substance misuse monitoring
+9HC2.00	Substance misuse clinical management plan agreed
+9HC3.00	Substance misuse clinical management plan reviewed
+9HC4.00	Substance misuse treatment withdrawn
+9HC5.00	Substance misuse treatment programme completed
+9HC6.00	Substance misuse treatment declined
+9HC7.00	Substance misuse treatment not available
+9HC8.00	Declined to give substance misuse history
+9HC9.00	Substance misuse treatment programme delivered by other healthcare provider
+9HCA.00	Substance misuse monitoring 6 month review
+9HCB.00	Substance misuse monitoring annual review
+9HCC.00	On substance misuse programme
+9N1yJ00	Seen in drug misuse clinic
+9N4i.00	DNA - Did not attend substance misuse clinic
+9NX2.00	In-house substance misuse treatment
+9NdN.00	Declined consent for notification of drug misuse
+9No5.00	Seen in substance misuse clinic
+9k5..00	Drug misuse - enhanced services administration
+9k50.00	Drug misuse - enhanced service completed
+9k51.00	Shared care drug misuse treatment - enhanced services administration
+9k51.11	Shared care drug misuse treatment
+9k52.00	Drug misuse treatment in primary care - enhanced services administration
+9k52.11	Drug misuse treatment in primary care
+9k53.00	Pharmacy attended for drug misuse - enhanced services administration
+9k53.11	Pharmacy attended for drug misuse
+9s...00	Drug misuse clinic administration
+E24..00	Drug dependence
+E24..11	Drug addiction
+E240.00	Opioid type drug dependence
+E240.11	Heroin dependence
+E240.12	Methadone dependence
+E240.13	Morphine dependence
+E240.14	Opium dependence
+E240000	Unspecified opioid dependence
+E240100	Continuous opioid dependence
+E240200	Episodic opioid dependence
+E240300	Opioid dependence in remission
+E240z00	Opioid drug dependence NOS
+E241.00	Hypnotic or anxiolytic dependence
+E241.11	Anxiolytic dependence
+E241.12	Barbiturate dependence
+E241.13	Benzodiazepine dependence
+E241.14	Diazepam dependence
+E241.15	Librium dependence
+E241.16	Sedative dependence
+E241.17	Valium dependence
+E241000	Hypnotic or anxiolytic dependence, unspecified
+E241100	Hypnotic or anxiolytic dependence, continuous
+E241200	Hypnotic or anxiolytic dependence, episodic
+E241300	Hypnotic or anxiolytic dependence in remission
+E241z00	Hypnotic or anxiolytic dependence NOS
+E242.00	Cocaine type drug dependence
+E242000	Cocaine dependence, unspecified
+E242100	Cocaine dependence, continuous
+E242200	Cocaine dependence, episodic
+E242300	Cocaine dependence in remission
+E242z00	Cocaine drug dependence NOS
+E243.00	Cannabis type drug dependence
+E243.11	Hashish dependence
+E243.12	Hemp dependence
+E243.13	Marihuana dependence
+E243000	Cannabis dependence, unspecified
+E243100	Cannabis dependence, continuous
+E243200	Cannabis dependence, episodic
+E243300	Cannabis dependence in remission
+E243z00	Cannabis drug dependence NOS
+E244.00	Amphetamine or other psychostimulant dependence
+E244.11	Psychostimulant dependence
+E244.12	Stimulant dependence
+E244000	Amphetamine or psychostimulant dependence, unspecified
+E244011	Amfetamine or psychostimulant dependence, unspecified
+E244100	Amphetamine or psychostimulant dependence, continuous
+E244111	Amfetamine or psychostimulant dependence, continuous
+E244200	Amphetamine or psychostimulant dependence, episodic
+E244211	Amfetamine or psychostimulant dependence, episodic
+E244300	Amphetamine or psychostimulant dependence in remission
+E244311	Amfetamine or psychostimulant dependence in remission
+E244z00	Amphetamine or psychostimulant dependence NOS
+E244z11	Amfetamine or psychostimulant dependence NOS
+E245.00	Hallucinogen dependence
+E245.11	LSD dependence
+E245.12	Lysergic acid diethylamide dependence
+E245.13	Mescaline dependence
+E245000	Hallucinogen dependence, unspecified
+E245100	Hallucinogen dependence, continuous
+E245200	Hallucinogen dependence, episodic
+E245300	Hallucinogen dependence in remission
+E245z00	Hallucinogen dependence NOS
+E246.00	Glue sniffing dependence
+E246000	Glue sniffing dependence, unspecified
+E246100	Glue sniffing dependence, continuous
+E246200	Glue sniffing dependence, episodic
+E246300	Glue sniffing dependence in remission
+E246z00	Glue sniffing dependence NOS
+E247.00	Other specified drug dependence
+E247.11	Absinthe addiction
+E247000	Other specified drug dependence, unspecified
+E247100	Other specified drug dependence, continuous
+E247200	Other specified drug dependence, episodic
+E247300	Other specified drug dependence in remission
+E247z00	Other specified drug dependence NOS
+E248.00	Combined opioid with other drug dependence
+E248000	Combined opioid with other drug dependence, unspecified
+E248100	Combined opioid with other drug dependence, continuous
+E248200	Combined opioid with other drug dependence, episodic
+E248300	Combined opioid with other drug dependence in remission
+E248z00	Combined opioid with other drug dependence NOS
+E249.00	Combined drug dependence, excluding opioids
+E249000	Combined drug dependence, excluding opioid, unspecified
+E249100	Combined drug dependence, excluding opioid, continuous
+E249200	Combined drug dependence, excluding opioid, episodic
+E249300	Combined drug dependence, excluding opioid, in remission
+E249z00	Combined drug dependence, excluding opioid, NOS
+E24A.00	Ecstasy type drug dependence
+E24z.00	Drug dependence NOS
+E25..00	Nondependent abuse of drugs
+E252.00	Nondependent cannabis abuse
+E252000	Nondependent cannabis abuse, unspecified
+E252100	Nondependent cannabis abuse, continuous
+E252200	Nondependent cannabis abuse, episodic
+E252300	Nondependent cannabis abuse in remission
+E252z00	Nondependent cannabis abuse NOS
+E253.00	Nondependent hallucinogen abuse
+E253.11	"Bad trips"
+E253.12	LSD reaction
+E253000	Nondependent hallucinogen abuse, unspecified
+E253100	Nondependent hallucinogen abuse, continuous
+E253200	Nondependent hallucinogen abuse, episodic
+E253300	Nondependent hallucinogen abuse in remission
+E253z00	Nondependent hallucinogen abuse NOS
+E254.00	Nondependent hypnotic or anxiolytic abuse
+E254.12	Hypnotic or anxiolytic abuse
+E254000	Nondependent hypnotic or anxiolytic abuse, unspecified
+E254100	Nondependent hypnotic or anxiolytic abuse, continuous
+E254200	Nondependent hypnotic or anxiolytic abuse, episodic
+E254300	Nondependent hypnotic or anxiolytic abuse in remission
+E254z00	Nondependent hypnotic or anxiolytic abuse NOS
+E255.00	Nondependent opioid abuse
+E255000	Nondependent opioid abuse, unspecified
+E255100	Nondependent opioid abuse, continuous
+E255200	Nondependent opioid abuse, episodic
+E255300	Nondependent opioid abuse in remission
+E255z00	Nondependent opioid abuse NOS
+E256.00	Nondependent cocaine abuse
+E256000	Nondependent cocaine abuse, unspecified
+E256100	Nondependent cocaine abuse, continuous
+E256200	Nondependent cocaine abuse, episodic
+E256300	Nondependent cocaine abuse in remission
+E256z00	Nondependent cocaine abuse NOS
+E257.00	Nondependent amphetamine or other psychostimulant abuse
+E257.11	Psychostimulant abuse
+E257.12	Stimulant abuse
+E257000	Nondependent amphetamine or psychostimulant abuse, unspecified
+E257011	Nondependent amfetamine or psychostimulant abuse, unspecified
+E257100	Nondependent amphetamine or psychostimulant abuse, continuous
+E257111	Nondependent amfetamine or psychostimulant abuse, continuous
+E257200	Nondependent amphetamine or psychostimulant abuse, episodic
+E257211	Nondependent amfetamine or psychostimulant abuse, episodic
+E257300	Nondependent amphetamine or psychostimulant abuse in remission
+E257311	Nondependent amfetamine or psychostimulant abuse in remission
+E257z00	Nondependent amphetamine or psychostimulant abuse NOS
+E257z11	Nondependent amfetamine or psychostimulant abuse NOS
+E258.00	Nondependent antidepressant type drug abuse
+E258000	Nondependent antidepressant type drug abuse, unspecified
+E258100	Nondependent antidepressant type drug abuse, continuous
+E258200	Nondependent antidepressant type drug abuse, episodic
+E258300	Nondependent antidepressant type drug abuse in remission
+E258z00	Nondependent antidepressant type drug abuse NOS
+E259.00	Nondependent mixed drug abuse
+E259000	Nondependent mixed drug abuse, unspecified
+E259100	Nondependent mixed drug abuse, continuous
+E259200	Nondependent mixed drug abuse, episodic
+E259300	Nondependent mixed drug abuse in remission
+E259400	Misuse of prescription only drugs
+E259z00	Nondependent mixed drug abuse NOS
+E25y.00	Nondependent other drug abuse
+E25y000	Nondependent other drug abuse, unspecified
+E25y100	Nondependent other drug abuse, continuous
+E25y200	Nondependent other drug abuse, episodic
+E25y300	Nondependent other drug abuse in remission
+E25yz00	Nondependent other drug abuse NOS
+E25z.00	Misuse of drugs NOS
+Eu11200	[X]Mental and behavioural disorders due to use of opioids: dependence syndrome
+Eu11211	[X]Drug addiction - opioids
+Eu11212	[X]Heroin addiction
+Eu12200	[X]Mental and behavioural disorders due to use of cannabinoids: dependence syndrome
+Eu12211	[X]Drug addiction - cannabis
+Eu13200	[X]Mental and behavioural disorders due to use of sedatives or hypnotics: dependence syndrome
+Eu13211	[X]Drug addiction- sedative / hypnotics
+Eu14200	[X]Mental and behavioural disorders due to use of cocaine: dependence syndrome
+Eu14211	[X]Drug addiction - cocaine
+Eu15200	[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: dependence syndrome
+Eu15211	[X]Drug addiction-other stimul
+Eu16200	[X]Mental and behavioural disorders due to use of hallucinogens: dependence syndrome
+Eu16211	[X]Drug addiction - hallucinogen
+Eu18211	[X]Drug addiction - solvent
+Eu19200	[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: dependence syndrome
+Eu19211	[X]Drug addiction NOS
+Eu1A200	[X]Mental and behavioural disorders due to use of crack cocaine: dependence syndrome
+L183.00	Drug dependence during pregnancy, childbirth and the puerperium
+L183.11	Pregnancy and drug dependence
+L183000	Drug dependence - unspecified whether during pregnancy or the puerperium
+L183100	Drug dependence during pregnancy - baby delivered
+L183200	Drug dependence in the puerperium - baby delivered
+L183300	Drug dependence during pregnancy - baby not yet delivered
+L183400	Drug dependence in the puerperium - baby delivered during previous episode of care
+L183z00	Drug dependence during pregnancy, childbirth or the puerperium NOS
+Q007C00	Fetus or neonate affected by placental or breast transfer of other drug of addiction
+Q485000	Neonatal withdrawal symptoms from maternal use of drugs of addiction
+TJ96100	Adverse reaction to lysergide, LSD
+ZV11500	[V]Personal history of drug abuse by injection
+ZV6D700	[V]Drug abuse counselling and surveillance
+1V62.00	Buying drugs
+1V63.00	Possession of drugs
+8B23.11	Drug addictn therap-methadone
+8B2S.00	Opioid agonist substitution therapy
+8B2T.00	Opioid antagonist therapy
+8BE0.00	Reinduction to methadone maintenance therapy
+9G24.00	Drug addict-notify local SMR22
+9HC0.00	Initial substance misuse assessment
+9K4..00	SMR25a drug misuse initial assessment form
+9kS..00	Drug misuse assessment declined - enhanced services administ
+Eu1..00	[X]Mental and behavioural disorders due to psychoactive subs
+Eu11.00	[X]Mental and behavioural disorders due to use of opioids
+Eu11000	[X]Mental & behav dis due to use opioids: acute intoxication
+Eu11100	[X]Mental and behav dis due to use of opioids: harmful use
+Eu11211	[X]Drug addiction - opioids
+Eu11212	[X]Heroin addiction
+Eu11300	[X]Mental and behav dis due to use opioids: withdrawal state
+Eu11311	[X]Cold turkey, opiate withdrawal
+Eu11400	[X]Men & behav dis due opioid: withdrawl state with delirium
+Eu11500	[X]Mental & behav dis due to use opioids: psychotic disorder
+Eu11600	[X]Mental and behav dis due to use opioids: amnesic syndrome
+Eu11700	[X]Men & beh dis due opioids: resid & late-onset psychot dis
+Eu11y00	[X]Men & behav dis due to use opioids: oth men & behav dis
+Eu11z00	[X]Ment & behav dis due use opioids: unsp ment & behav dis
+Eu12.00	[X]Mental and behavioural disorders due to use cannabinoids
+Eu12000	[X]Mental & behav dis due cannabinoids: acute intoxication
+Eu12100	[X]Mental and behav dis due to use cannabinoids: harmful use
+Eu12200	[X]Mental and behav dis due to cannabinoids: dependence synd
+Eu12211	[X]Drug addiction - cannabis
+Eu12300	[X]Mental and behav dis due cannabinoids: withdrawal state
+Eu12500	[X]Mental & behav dis due to cannabinoids: psychotic disordr
+Eu12600	[X]Mental and behav dis due to use cannabinoids: amnesic syn
+Eu12700	[X]Mnt/bh dis due cannabinds: resid & late-onset psychot dis
+Eu12y00	[X]Men/behav dis due to use cannabinoids: oth men/behav disd
+Eu12z00	[X]Ment/behav dis due use cannabinoids: unsp ment/behav disd
+Eu14.00	[X]Mental and behavioural disorders due to use of cocaine
+Eu14000	[X]Mental & behav dis due to use cocaine: acute intoxication
+Eu14100	[X]Mental and behav dis due to use of cocaine: harmful use
+Eu14200	[X]Mental and behav dis due to use cocaine: dependence syndr
+Eu14211	[X]Drug addiction - cocaine
+Eu14300	[X]Mental and behav dis due to use cocaine: withdrawal state
+Eu14500	[X]Mental & behav dis due to use cocaine: psychotic disorder
+Eu14700	[X]Men & beh dis due cocaine: resid & late-onset psychot dis
+Eu15211	[X]Drug addiction-other stimul
+Eu15z00	[X]Ment/beh dis oth stims inc caffeine: unsp ment/behav disd
+Eu16.00	[X]Mental and behavioural disorders due to use hallucinogens
+Eu16000	[X]Mental & behav dis due hallucinogens: acute intoxicatn
+Eu16100	[X]Mental and behav dis due to use hallucinogens: harmfl use
+Eu16200	[X]Mental and behav dis due to hallucinogens: dependence syn
+Eu16211	[X]Drug addiction - hallucinogen
+Eu16300	[X]Mental and behav dis due hallucinogens: withdrawal state
+Eu16500	[X]Mental & behav dis due to hallucinogens: psychotic disord
+Eu16700	[X]Mnt/bh dis due hallucngns: resid & late-onset psychot dis
+Eu16711	[X]Post hallucinogen perception disorder
+Eu16z00	[X]Ment/behav dis due use hallucinogens: unsp ment/behav dis
+Eu18.00	[X]Mental & behav disorders due to use of volatile solvents
+Eu18000	[X]Mental & behav dis due vol solvents: acute intoxication
+Eu18100	[X]Mental and behav dis due volatile solvents: harmful use
+Eu18200	[X]Mental and behav dis due to vol solvents: dependence synd
+Eu18211	[X]Drug addiction - solvent
+Eu18400	[X]Men & beh dis vol solvents: withdrawal state wth delirium
+Eu18500	[X]Mental & behav dis due to vol solvents: psychotic disordr
+Eu18z00	[X]Ment/behav dis due use vol solvents: unsp ment/behav dis
+Eu19.00	[X]Men & behav disorder multiple drug use/psychoactive subst
+Eu19000	[X]Mental/behav dis multi drg use/psychoac subs: acute intox
+Eu19100	[X]Mental and behav dis mlti drg/oth psychoa sbs: harmfl use
+Eu19200	[X]Mental and behav dis mlti/oth psych sbs: dependence syndr
+Eu19211	[X]Drug addiction NOS
+Eu19300	[X]Mental and behav dis mlti/oth psychoa sbs: withdrwl state
+Eu19400	[X]Mnt/bh dis mlti drg use/oth psy sbs: wthdr state + dlrium
+Eu19500	[X]Ment/behav dis mlti drug use/oth psyc sbs: psychotc dis
+Eu19600	[X]Mental/behav dis multi drg use/oth psy sbs: amnesic syndr
+Eu19700	[X]Men/beh dis mlt drg use/oth subs: resid/late psychot dis
+Eu19y00	[X]Men/beh dis mlt drg use/oth psy sbs: oth men & behav dis
+Eu19z00	[X]Ment/beh dis multi drug use/oth psy sbs unsp mnt/beh dis
+Eu1A.00	[X]Mental and behavioural disorders due use of crack cocaine
+Eu1A000	[X]Ment behav dis due use crack cocaine: acute intoxication
+Eu1A100	[X]Mental behav disorders due use crack cocaine: harmful use
+Eu1A200	[X]Mental behav disorders due use crack cocaine: depend synd
+Eu1A300	[X]Mental behav disord due crack cocaine: withdrawal state
+Eu1A500	[X]Mental behav disord due crack cocaine: psychotic disorder
+Eu1Az00	[X]Ment behav dis due crack cocaine: unsp ment and behav dis
+L183.00	Drug dependence in pregnancy, childbirth and the puerperium
+L183.11	Pregnancy and drug dependence
+L183100	Drug dependence during pregnancy - baby delivered
+L183300	Drug dependence during pregnancy - baby not yet delivered
+L183z00	Drug dependence during pregnancy/childbirth/puerperium NOS
+SL50.00	Opiate and narcotic poisoning
+SL50.12	Opiate poisoning
+SL50100	Heroin poisoning
+SL50500	Morphine poisoning
+SL85000	Cocaine poisoning
+SL96000	Cannabis poisoning
+SL97000	Amfetamine poisoning
+SL97011	Amphetamine poisoning
+SL97200	Ecstasy poisoning
+T800.00	Accidental poisoning by heroin
+TJ85000	Adverse reaction to cocaine
+TJ96000	Adverse reaction to cannabis
+U1A5.11	[X]Accidental poisoning with heroin
+U205.11	[X]Overdose - heroin
+U606312	[X] Adverse reaction to cocaine
+U60A100	[X]Opioid recept antag causing adverse effect in therap use
+Z1Q6200	Methadone maintenance
+Z1Q6212	Methadone therapy
+Z1Q6214	Heroin maintenance

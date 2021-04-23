@@ -1,0 +1,41 @@
+CTV3ID	Description
+14E1.	H/O: prostatism
+1AA..	Prostatism
+25Q2.	Prostate enlarged on PR
+7B373	Aspiration of prostatic abscess
+A9812	Acute gonococcal prostatitis
+A9832	Chronic gonococcal prostatitis
+K20..	BPH - benign prostatic hypertrophy
+K200.	Prostatic hyperplasia unspecified
+K201.	Prostatic hyperplasia of the lateral lobe
+K202.	Prostatic hyperplasia of the medial lobe
+K20z.	Prostatic hyperplasia NOS
+K21..	Prostate inflammatory diseases
+K210.	Acute prostatitis
+K211.	Chronic prostatitis
+K212.	Prostatic abscess
+K213.	Prostatocystitis
+K214.	Prostatitis in diseases EC
+K2140	Actinomycotic prostatitis
+K2141	Blastomycotic prostatitis
+K2142	Syphilitic prostatitis
+K2143	Tuberculous prostatitis
+K2144	Gonococcal prostatitis
+K2145	Monilial prostatitis
+K2146	Trichomonal prostatitis
+K214z	Prostatitis in diseases EC NOS
+K21y.	Other prostatic inflammatory diseases
+K21z.	Prostatitis NOS
+Kyu60	[X]Other inflammatory diseases of prostate
+X30Oi	Chlamydial prostatitis
+X30Oj	Non-bacterial prostatitis
+XE0e7	Prostatitis
+XE0fn	Abscess - prostatic
+XE2rJ	O/E - PR - prostatic swelling
+XM1N5	Prostate enlarged on PR
+Xa24Q	Amyloid of prostate
+Xa3fu	Adenoma of prostate
+Xa3zA	Therapeutic aspiration prostatic abscess
+Xa8P8	Transurethral drainage of prostatic abscess
+XaYyg	Fibroma of prostate
+XaYyh	Myoma of prostate

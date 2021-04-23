@@ -1,0 +1,29 @@
+{
+  "includeTerms": [
+    "hearing loss",
+    "deaf*",
+    "hearing aid",
+    "presbyacusis",
+    "hearing impair*",
+    "hearing difficulty",
+    "auditory aid",
+    "hard of hearing",
+    "deteriorating hearing"
+  ],
+  "excludeTerms": [
+    "fh",
+    "family history",
+    "teacher",
+    "welfare officer",
+    "hysterical deafness",
+    "suspected",
+    "no h/o",
+    "test",
+    "transient",
+    "word deafness"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdOn": "2021-04-15T09:05:15.260Z",
+  "lastUpdated": "2021-04-15T09:05:15.260Z"
+}

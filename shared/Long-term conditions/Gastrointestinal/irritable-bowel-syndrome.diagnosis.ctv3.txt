@@ -1,0 +1,10 @@
+CTV3ID	Description
+J521.	Irritable bowel syndrome
+J5210	Irritable bowel syndrome with diarrhoea
+X305z	Irritable bowel syndrome variant of childhood
+X3060	Irritable bowel syndrome variant of childhood with diarrhoea
+X3061	Irritable bowel syndrome variant of childhood with constipation
+XaYnp	Management of irritable bowel syndrome
+XabEx	Dietary education for irritable bowel syndrome
+XabiP	Irritable bowel syndrome characterised by constipation
+XabiQ	Irritable bowel syndrome characterised by alternating bowel habit

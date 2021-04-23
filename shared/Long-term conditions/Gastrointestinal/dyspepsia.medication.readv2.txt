@@ -1,0 +1,164 @@
+readcode	description
+a24x.00	PEPCIDTWO chewable indigestion tablets
+a61..00	CIMETIDINE
+a611.00	TAGAMET 200mg tablets
+a612.00	TAGAMET 400mg tablets
+a613.00	TAGAMET 800mg tablets
+a614.00	TAGAMET 200mg/5mL syrup
+a617.00	DYSPAMET CHEWTAB 200mg chewable tablets
+a618.00	*DYSPAMET 200mg/5mL suspension
+a619.00	CIMETIDINE 200mg/5mL suspension 600mL
+a61A.00	*GALENAMET 200mg tablets
+a61B.00	*GALENAMET 400mg tablets
+a61C.00	*GALENAMET 800mg tablets
+a61D.00	CIMETIDINE 400mg effervescent tablets
+a61E.00	CIMETIDINE 200mg chewable tablets
+a61F.00	*PHIMETIN 200mg tablets
+a61G.00	*PHIMETIN 400mg tablets
+a61H.00	*PHIMETIN 800mg tablets
+a61I.00	CIMETIDINE 200mg/5mL sugar free oral solution
+a61K.00	*ZITA 200mg tablets
+a61L.00	*ZITA 400mg tablets
+a61M.00	*ZITA 800mg tablets
+a61N.00	*ULTEC 200mg tablets
+a61O.00	*ULTEC 400mg tablets
+a61P.00	*ULTEC 800mg tablets
+a61Q.00	*ACITAK-200 tablets
+a61R.00	*ACITAK-400 tablets
+a61S.00	*ACITAK-800 tablets
+a61T.00	TAGAMET DUAL ACTION liquid 200mL
+a61U.00	TAGAMET DUAL ACTION liquid 600mL
+a61a.00	ALGITEC 200mg/500mg chewable tablets
+a61b.00	ALGITEC 100mg/250mg/5mL suspension 600mL
+a61c.00	CIMETIDINE COMPOUND suspension
+a61d.00	TAGAMET EFFERVESCENT 400mg tablets
+a61e.00	*PEPTIMAX 200mg tablets
+a61f.00	*PEPTIMAX 400mg tablets
+a61g.00	*PEPTIMAX 800mg tablets
+a61s.00	CIMETIDINE+ALGINIC ACID 200mg/500mg chewable tablets
+a61t.00	CIMETIDINE+SODIUM ALGINATE 100/250mg/5mL suspension
+a61u.00	CIMETIDINE 200mg tablets
+a61v.00	CIMETIDINE 400mg tablets
+a61w.00	CIMETIDINE 800mg tablets
+a61x.00	CIMETIDINE 200mg/5mL syrup
+a62..00	RANITIDINE
+a621.00	ZANTAC 150mg tablets
+a622.00	ZANTAC 150mg dispersible tablets
+a623.00	ZANTAC 300mg tablets
+a625.00	ZANTAC 150mg/10mL sugar free syrup 300mL
+a626.00	ZANTAC EFFERVESCENT 150mg tablets
+a627.00	ZANTAC EFFERVESCENT 300mg tablets
+a628.00	RANITIDINE 150mg effervescent tablets
+a629.00	RANITIDINE 300mg effervescent tablets
+a62A.00	*RACIRAN 150mg tablets
+a62B.00	*RACIRAN 300mg tablets
+a62C.00	*ZAEDOC 150 tablets
+a62D.00	*ZAEDOC 300 tablets
+a62E.00	*RANTEC 150mg tablets
+a62F.00	*RANTEC 300mg tablets
+a62G.00	RANITIC 150mg tablets
+a62H.00	RANITIC 300mg tablets
+a62I.00	HISTAC 150mg tablets
+a62J.00	HISTAC 300mg tablets
+a62K.00	RANITIL 150mg tablets
+a62L.00	RANITIL 300mg tablets
+a62M.00	ZANTAC 75 DISSOLVE effervescent tablets
+a62N.00	RANITIDINE 75mg tablets
+a62O.00	GAVILAST-P 75mg tablets
+a62P.00	RANZAC 75mg tablets
+a62Q.00	ZANTAC 75 tablets
+a62u.00	RANITIDINE 75mg effervescent tablets
+a62v.00	RANITIDINE 150mg/10mL sugar free syrup
+a62v.11	RANITIDINE 150mg/10mL sugar free oral solution
+a62w.00	RANITIDINE 150mg tablets
+a62x.00	RANITIDINE 150mg dispersible tablets
+a62y.00	RANITIDINE 300mg tablets
+a68..00	FAMOTIDINE
+a681.00	FAMOTIDINE 20mg tablets
+a682.00	FAMOTIDINE 40mg tablets
+a683.00	*PEPCID 20mg tablets
+a684.00	*PEPCID 40mg tablets
+a69..00	NIZATIDINE
+a691.00	NIZATIDINE 150mg capsules
+a692.00	NIZATIDINE 300mg capsules
+a693.00	*AXID 150mg capsules
+a694.00	*AXID 300mg capsules
+a697.00	*ZINGA 150mg capsules
+a698.00	*ZINGA 300mg capsules
+a6b..00	OMEPRAZOLE
+a6b1.00	OMEPRAZOLE 20mg e/c capsules
+a6b2.00	*LOSEC 20mg capsules x28
+a6b3.00	LOSEC 20mg capsules
+a6b4.00	LOSEC 40mg capsules
+a6b5.00	OMEPRAZOLE 40mg e/c capsules
+a6b6.00	LOSEC 10mg capsules
+a6b7.00	OMEPRAZOLE 10mg e/c capsules
+a6bC.00	LOSEC MUPS 10mg tablets
+a6bD.00	LOSEC MUPS 20mg tablets
+a6bE.00	LOSEC MUPS 40mg tablets
+a6bF.00	*OMERAN 10mg e/c tablets
+a6bG.00	*OMERAN 20mg e/c tablets
+a6bH.00	*OMERAN 40mg e/c tablets
+a6bI.00	ZANPROL 10mg e/c tablets
+a6bJ.00	GALPHARM HEARTBURN RELIEF 10mg e/c tablets
+a6bK.00	UNICHEM HEARTBURN RELIEF 10mg e/c tablets
+a6bL.00	VANTAGE PHARMACY HEARTBURN RELIEF 10mg e/c tablets
+a6bM.00	CARE HEARTBURN RELIEF 10mg e/c tablets
+a6bN.00	NUMARK HEARTBURN RELIEF 10mg e/c tablets
+a6bO.00	MEPRADEC 10mg e/c capsules
+a6bP.00	MEPRADEC 20mg e/c capsules
+a6bQ.00	MEZZOPRAM 10mg gastro-resistant tablets
+a6bQ.11	MEZZOPRAM 10mg dispersible gastro-resistant tablets
+a6bR.00	MEZZOPRAM 20mg gastro-resistant tablets
+a6bR.11	MEZZOPRAM 20mg dispersible gastro-resistant tablets
+a6bS.00	MEZZOPRAM 40mg gastro-resistant tablets
+a6bS.11	MEZZOPRAM 40mg dispersible gastro-resistant tablets
+a6bu.00	OMEPRAZOLE 10mg e/c tablets
+a6bv.00	OMEPRAZOLE 20mg e/c tablets
+a6bw.00	OMEPRAZOLE 40mg e/c tablets
+a6bx.00	OMEPRAZOLE 10mg tablets
+a6by.00	OMEPRAZOLE 20mg tablets
+a6bz.00	OMEPRAZOLE 40mg tablets
+a6c..00	LANSOPRAZOLE
+a6c1.00	*ZOTON 30mg capsules
+a6c2.00	LANSOPRAZOLE 30mg capsules
+a6c3.00	LANSOPRAZOLE 15mg capsules
+a6c4.00	*ZOTON 15mg capsules
+a6c5.00	LANSOPRAZOLE 30mg oral suspension
+a6c6.00	*ZOTON 30mg oral suspension
+a6c7.00	LANSOPRAZOLE 15mg oro-dispersible tablets
+a6c8.00	LANSOPRAZOLE 30mg oro-dispersible tablets
+a6c9.00	ZOTON FASTAB 15mg oro-dispersible tablets
+a6cA.00	ZOTON FASTAB 30mg oro-dispersible tablets
+a6d..00	RANITIDINE BISMUTH CITRATE
+a6d1.00	RANITIDINE BISMUTH CITRATE 400mg tablets
+a6d2.00	*PYLORID 400mg tablets
+a6e..00	PANTOPRAZOLE
+a6e1.00	PANTOPRAZOLE 40mg e/c tablets
+a6e2.00	*PROTIUM 40mg e/c tablets
+a6e5.00	PANTOPRAZOLE 20mg e/c tablets
+a6e5.11	PANTOPRAZOLE 20mg gastro-resistant tablets
+a6e6.00	*PROTIUM 20mg e/c tablets
+a6e7.00	PANTOLOC CONTROL 20mg gastro-resistant tablets
+a6f..00	RABEPRAZOLE SODIUM
+a6f1.00	RABEPRAZOLE SODIUM 10mg e/c tablets
+a6f2.00	RABEPRAZOLE SODIUM 20mg e/c tablets
+a6f3.00	PARIET 10mg e/c tablets
+a6f4.00	PARIET 20mg e/c tablets
+a6g1.00	CLARITHROMYCIN tablets+LANSOPRAZOLE capsules+AMOXICILLIN capsules500mg/30mg/500mg pack
+a6g3.00	CLARITHROMYCIN tablets+LANSOPRAZOLE capsules+METRONIDAZOLE tablets 500mg/30mg/400mg pack
+a6h..00	ESOMEPRAZOLE
+a6h1.00	NEXIUM 20mg tablets
+a6h2.00	NEXIUM 40mg tablets
+a6h4.00	NEXIUM 10mg gastro-resistant granules for oral suspension
+a6h5.00	EMOZUL 20mg gastro-resistant capsules
+a6h6.00	EMOZUL 40mg gastro-resistant capsules
+a6hu.00	ESOMEPRAZOLE 40mg gastro-resistant capsules
+a6hv.00	ESOMEPRAZOLE 20mg gastro-resistant capsules
+a6hw.00	ESOMEPRAZOLE 10mg gastro-resistant granules for oral susp
+a6hy.00	ESOMEPRAZOLE 40mg tablets
+a6hz.00	ESOMEPRAZOLE 20mg tablets
+j2au.00	KETOPROFEN+OMEPRAZOLE 200mg/20mg m/r capsules
+j2av.00	KETOPROFEN+OMEPRAZOLE 100mg/20mg m/r capsules
+j2cP.00	VIMOVO 500mg/20mg m/r tablets
+j2cZ.00	NAPROXEN+ESOMEPRAZOLE 500mg/20mg m/r tablets

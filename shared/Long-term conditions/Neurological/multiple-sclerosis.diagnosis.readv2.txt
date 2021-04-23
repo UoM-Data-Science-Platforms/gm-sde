@@ -1,0 +1,28 @@
+readcode	Description
+666A.00	Multiple sclerosis review
+666B.00	Multiple sclerosis multidisciplinary review
+8CS1.00	Multiple sclerosis care plan agreed
+8Cc0.00	Management of multiple sclerosis in onset phase
+8Cc1.00	Management of multiple sclerosis in early disease phase
+8Cc2.00	Management of multiple sclerosis in stable disability phase
+8Cc3.00	Management of multiple sclerosis in progressive disability phase
+8Cc4.00	Management of multiple sclerosis in palliative phase
+8Hkv.00	Referral to community multiple sclerosis team
+9kG..00	Specialised services for patients with multiple sclerosis - enhanced services administration
+9mD..00	Multiple sclerosis monitoring administration
+9mD0.00	Multiple sclerosis monitoring first letter
+9mD1.00	Multiple sclerosis monitoring second letter
+9mD2.00	Multiple sclerosis monitoring telephone invitation
+9mD3.00	Multiple sclerosis monitoring third letter
+F20..00	Multiple sclerosis
+F20..11	Disseminated sclerosis
+F200.00	Multiple sclerosis of the brain stem
+F201.00	Multiple sclerosis of the spinal cord
+F202.00	Generalised multiple sclerosis
+F203.00	Exacerbation of multiple sclerosis
+F204.00	Benign multiple sclerosis
+F205.00	Malignant multiple sclerosis
+F206.00	Primary progressive multiple sclerosis
+F207.00	Relapsing and remitting multiple sclerosis
+F208.00	Secondary progressive multiple sclerosis
+F20z.00	Multiple sclerosis NOS

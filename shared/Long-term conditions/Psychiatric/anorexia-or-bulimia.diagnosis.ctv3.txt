@@ -1,0 +1,14 @@
+CTV3ID	Description
+1467.	H/O: anorexia nervosa
+1612.	Anorexia symptom
+E271.	Anorexia nervosa
+E2751	Bulimia (non-organic overeating)
+Eu502	[X]Bulimia nervosa
+R030.	[D]Anorexia
+R030z	[D]Anorexia NOS
+R0360	[D]Bulimia NOS
+X00Sz	Atypical anorexia nervosa
+X00T1	Atypical bulimia nervosa
+X76cG	Anorexia symptom
+XE1Yk	Bulimia nervosa
+XE24f	Appetite loss - anorexia

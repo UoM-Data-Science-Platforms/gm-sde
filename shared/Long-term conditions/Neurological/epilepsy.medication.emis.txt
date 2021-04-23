@@ -1,0 +1,549 @@
+emis	description
+ACTA22	Acetazolamide  Tablets  250 mg
+CLIN4751	Clonazepam  Injection  1mg/ml, 1 ml ampoule
+DIRE25093EMIS	Diazepam  Rectubes  5 mg
+DIRE29885EMIS	Diazepam Rectubes  Rectal tubes  10 mg
+DISU13303NEMIS	Diazepam  Suspension  10 mg/5 ml
+EPCA1071	Epanutin  Capsules  100 mg
+EPM/23962EMIS	Epilim Chrono  M/R tablets  500 mg
+EPTA1091	Epilim  E/c tablets  200 mg
+ETCA4905	Ethosuximide  Capsules  250 mg
+ETSY4906	Ethosuximide  Oral solution  250 mg/5 ml
+GATA4734NEMIS	Gabapentin  Tablets  800 mg
+KETA5620NEMIS	Keppra  Tablets  1000 mg
+LADI24491EMIS	Lamictal  Dispersible tablets  5 mg
+LATA17992EMIS	Lamictal  Tablets  100 mg
+LETA100738NEMIS	Lecaent  Capsules  300 mg
+LYCA18437NEMIS	Lyrica  Capsules  25 mg
+MIIN6930	Midazolam  Injection  10 mg/5 ml ampoule
+MYSU4005	Mysoline  Suspension  250mg/5 ml
+PHTA17819NEMIS	Phenobarbital  Tablets  60 mg
+SATA9641BRIDL	Sabril  Tablets  500 mg
+SOM/25447NEMIS	Sodium Valproate  M/R capsules  150 mg
+SOOR26540EMIS	Sodium Valproate  Oral solution  200 mg/5 ml
+TECH9560BRIDL	Tegretol Chewtabs  Chewable tablets  100 mg
+TOTA27749EMIS	Topamax  Tablets  100 mg
+ZOCA20276NEMIS	Zonegran  Capsules  25 mg
+CATA3285	Carbamazepine  Tablets  100 mg
+COE/23446EMIS	Convulex  E/c capsules  500 mg
+EPCA1071	Epanutin  Capsules  100 mg
+EPM/30464NEMIS	Epilim Chronosphere  M/R granules  100 mg
+LADI24489EMIS	Lamictal  Dispersible tablets  100 mg
+LADI24490EMIS	Lamictal  Dispersible tablets  25 mg
+LATA17993EMIS	Lamictal  Tablets  50 mg
+NECA23639EMIS	Neurontin  Capsules  100 mg
+NOTA23827EMIS	Nootropil  Tablets  1.2 grams
+PHIN17812NEMIS	Phenobarbital  Solution for injection  200 mg/1 ml ampoule
+PRCA18434NEMIS	Pregabalin  Capsules  200 mg
+PRTA47630NEMIS	Primidone  Tablets  50 mg
+RECA100514NEMIS	Rewisca  Capsules  50 mg
+RITA2459	Rivotril  Tablets  2 mg
+ACCA20	Acetazolamide  Capsules  500 mg
+CAM/6325NEMIS	Carbamazepine  M/R tablets  200 mg
+CATA3287	Carbamazepine  Tablets  400 mg
+DEGR78275NEMIS	Desitrend  Granules  1000 mg sachet
+DISY4827	Diazepam  Syrup  2 mg/5 ml
+EPM/36261NEMIS	Epilim Chronosphere  M/R granules  1 gram
+LETA5613NEMIS	Levetiracetam  Tablets  250 mg
+LYCA18439NEMIS	Lyrica  Capsules  75 mg
+MIOR40606NEMIS	Midazolam  Oromucosal Solution  (5 mg/ml) 2.5 mg/0.5 ml Oral Syringe
+NOTA23828EMIS	Nootropil  Tablets  800 mg
+PHCA19758EMIS	Phenytoin Sodium  Capsules  300 mg
+PHSU1331NEMIS	Phenytoin  Suspension  30 mg/5 ml
+PRCA18432NEMIS	Pregabalin  Capsules  100 mg
+PRTA47630NEMIS	Primidone  Tablets  50 mg
+RECA100514NEMIS	Rewisca  Capsules  50 mg
+RECA100518NEMIS	Rewisca  Capsules  200 mg
+RECA100519NEMIS	Rewisca  Capsules  225 mg
+SOSU26541EMIS	Sodium Valproate  Sugar-free oral solution  200 mg/5 ml
+SOTA2629	Sodium Valproate  Crushable tablets  100 mg
+TOCA18896NEMIS	Topiramate  Capsules  25 mg
+VISA21949EMIS	Vigabatrin  Sachets  Sugar Free 500 mg
+ZOCA20271NEMIS	Zonisamide  Capsules  25 mg
+ZOCA20277NEMIS	Zonegran  Capsules  50 mg
+DETA6400NEMIS	Depakote  E/c tablets  250 mg
+DETA6402NEMIS	Depakote  E/c tablets  500 mg
+DITA880	Diazepam  Tablets  2 mg
+EPM/25450NEMIS	Episenta  M/R capsules  150 mg
+EPTA35450EMIS	Epimaz  Tablets  200 mg
+MIIN6930	Midazolam  Injection  10 mg/5 ml ampoule
+MIOR40607NEMIS	Midazolam  Oromucosal Solution  (5 mg/ml) 5 mg/1 ml Oral Syringe
+NECA23640EMIS	Neurontin  Capsules  300 mg
+ORTA35095EMIS	Orlept  E/c tablets  500 mg
+PRCA18435NEMIS	Pregabalin  Capsules  300 mg
+PROR74091NEMIS	Pregabalin  Oral Solution, Sugar Free  20 mg/ml
+RECA100515NEMIS	Rewisca  Capsules  75 mg
+TECH9560BRIDL	Tegretol Chewtabs  Chewable tablets  100 mg
+ZACA4542	Zarontin  Capsules  250 mg
+ZOCA20274NEMIS	Zonisamide  Capsules  100 mg
+SOM/25457NEMIS	Sodium Valproate  M/R Granules Sugar Free  1 gram
+TECH9562BRIDL	Tegretol Chewtabs  Chewable tablets  200 mg
+TOCA18897NEMIS	Topiramate  Capsules  50 mg
+ZASY4543	Zarontin  Syrup  250 mg/5 ml
+CACH8954DLSEM	Carbamazepine  Chewtabs  100 mg
+CATA488	Carbamazepine  Tablets  200 mg
+CLCA8843BRIDL	Clobazam Sls  Tablets  10 mg
+COE/23446EMIS	Convulex  E/c capsules  500 mg
+DEGR78276NEMIS	Desitrend  Granules  250 mg sachet
+DETA6400NEMIS	Depakote  E/c tablets  250 mg
+DIRE29891EMIS	Diazepam  Rectal tubes  2.5 mg dose (2 mg/ml, 1.25 ml tube)
+DITA881	Diazepam  Tablets  5 mg
+EMCA3510	Emeside  Capsules  250 mg
+EPCA1072	Epanutin  Capsules  25 mg
+EPLI1088	Epilim  Sugar-free liquid  200 mg/5 ml
+EPM/30464NEMIS	Epilim Chronosphere  M/R granules  100 mg
+GATA4733NEMIS	Gabapentin  Tablets  600 mg
+LETA5616NEMIS	Levetiracetam  Tablets  1000 mg
+MYTA4006	Mysoline  Tablets  250 mg
+NOSO23826EMIS	Nootropil  Oral Solution, Sugar Free  333.3 mg/ml
+PHCA2241	Phenytoin Sodium  Capsules  100 mg
+TECH9562BRIDL	Tegretol Chewtabs  Chewable tablets  200 mg
+TETA9540BRIDL	Tegretol Prolonged Release  M/R tablets  200 mg
+TITA34050EMIS	Tiagabine Hydrochloride  Tablets  10 mg
+TOCA18900NEMIS	Topamax Sprinkle  Capsules  50 mg
+TOTA30054EMIS	Topiramate  Tablets  50 mg
+TROR14324NEMIS	Trileptal  Oral suspension  60 mg/ml
+ZASY4543	Zarontin  Syrup  250 mg/5 ml
+CAM/6326NEMIS	Carbamazepine  M/R tablets  400 mg
+CASU24183EMIS	Carbamazepine  Suppositories  125 mg
+COE/23444EMIS	Convulex  E/c capsules  150 mg
+COE/23445EMIS	Convulex  E/c capsules  300 mg
+EPM/23961EMIS	Epilim Chrono  M/R tablets  300 mg
+GACA15344NEMIS	Gabapentin Titration Pack  Capsules And Tablets  300 mg x 40, 600 mg x 10
+LADI24495EMIS	Lamotrigine  Dispersible tablets  Sugar Free 100 mg
+LETA100731NEMIS	Lecaent  Capsules  50 mg
+ORSU35093EMIS	Orlept  Sugar-free oral solution  200 mg/5 ml
+OXTA3256NEMIS	Oxcarbazepine  Tablets  300 mg
+PHEL17811NEMIS	Phenobarbital  Elixir  15 mg/5 ml
+PRCA18433NEMIS	Pregabalin  Capsules  150 mg
+SASA21947EMIS	Sabril  Sachets  500 mg
+SATA9641BRIDL	Sabril  Tablets  500 mg
+DIRE29892EMIS	Diazepam  Rectal tubes  20 mg
+DIST35087EMIS	Diazepam  Strong Oral Solution  5 mg/5 ml
+EPTA1092	Epilim  E/c tablets  500 mg
+LETA100733NEMIS	Lecaent  Capsules  100 mg
+LETA100734NEMIS	Lecaent  Capsules  150 mg
+LETA5615NEMIS	Levetiracetam  Tablets  500 mg
+LYCA18442NEMIS	Lyrica  Capsules  200 mg
+MIOR40608NEMIS	Midazolam  Oromucosal Solution  (5 mg/ml) 7.5 mg/1.5 ml Oral Syringe
+MIOR40609NEMIS	Midazolam  Oromucosal Solution  (5 mg/ml) 10 mg/2 ml Oral Syringe
+MYTA47631NEMIS	Mysoline  Tablets  50 mg
+ORTA35095EMIS	Orlept  E/c tablets  500 mg
+OXTA3256NEMIS	Oxcarbazepine  Tablets  300 mg
+PHIN8957DLSEM	Phenytoin  Chewable tablets  50 mg
+PITA23833EMIS	Piracetam  Tablets  1.2 grams
+PRCA18431NEMIS	Pregabalin  Capsules  75 mg
+PROR74091NEMIS	Pregabalin  Oral Solution, Sugar Free  20 mg/ml
+RECA100517NEMIS	Rewisca  Capsules  150 mg
+RITA2459	Rivotril  Tablets  2 mg
+SOM/25449NEMIS	Sodium Valproate  M/R capsules  300 mg
+TOCA5683NEMIS	Topiramate  Capsules+e/c pellets  50 mg
+ZACA4542	Zarontin  Capsules  250 mg
+CACH8954DLSEM	Carbamazepine  Chewtabs  100 mg
+DIRE7076	Diazepam  Rectal tubes  5 mg dose (2 mg/ml, 2.5 ml tube)
+EPM/13812NEMIS	Epival Cr  M/R tablets  300 mg
+EPM/25458NEMIS	Episenta  M/R granules  500 mg
+EPM/30467NEMIS	Epilim Chronosphere  M/R granules  750 mg
+KETA5619NEMIS	Keppra  Tablets  500 mg
+LATA27770EMIS	Lamotrigine  Tablets  200 mg
+LESU78272NEMIS	Levetiracetam  Sugar free granules  250 mg sachet
+LESU78273NEMIS	Levetiracetam  Sugar free granules  500 mg sachet
+LYCA18437NEMIS	Lyrica  Capsules  25 mg
+MIIN6931	Midazolam  Injection  10 mg/2 ml ampoule
+PHTA7038	Phenytoin Sodium  Tablets  50 mg
+PRCA18431NEMIS	Pregabalin  Capsules  75 mg
+RECA100516NEMIS	Rewisca  Capsules  100 mg
+RECA100517NEMIS	Rewisca  Capsules  150 mg
+SOSU26541EMIS	Sodium Valproate  Sugar-free oral solution  200 mg/5 ml
+TEM/12012NEMIS	Teril Retard  M/R tablets  200 mg
+CAM/15562NEMIS	Carbagen Sr  M/R tablets  200 mg
+CATA9592BRIDL	Carbamazepine  C/r tablets  200 mg
+COE/23444EMIS	Convulex  E/c capsules  150 mg
+DIRE25092EMIS	Diazepam  Rectubes  10 mg
+DIRE29888EMIS	Diazepam Rectubes  Rectal tubes  5 mg
+DIRE7076	Diazepam  Rectal tubes  5 mg dose (2 mg/ml, 2.5 ml tube)
+DISU4826	Diazepam  Suppositories  10 mg
+EPCA19756EMIS	Epanutin  Capsules  300 mg
+EPM/25452NEMIS	Episenta  M/R capsules  300 mg
+EPM/30466NEMIS	Epilim Chronosphere  M/R granules  500 mg
+EPSU1074	Epanutin  Suspension  30 mg/5 ml
+EPSY1089	Epilim  Syrup  200 mg/5 ml
+GACA15344NEMIS	Gabapentin Titration Pack  Capsules And Tablets  300 mg x 40, 600 mg x 10
+GAOR13764NEMIS	Gabapentin  Oral solution  250 mg/5 ml
+LATA17993EMIS	Lamictal  Tablets  50 mg
+LATA17997EMIS	Lamotrigine  Tablets  50 mg
+LYCA18438NEMIS	Lyrica  Capsules  50 mg
+NECA23641EMIS	Neurontin  Capsules  400 mg
+OXOR14323NEMIS	Oxcarbazepine  Oral Suspension Sugar Free  60 mg/ml
+PHIN17812NEMIS	Phenobarbital  Solution for injection  200 mg/1 ml ampoule
+PHTA17818NEMIS	Phenobarbital  Tablets  30 mg
+PHTA5282	Phenytoin Sodium  Tablets  100 mg
+PRCA18433NEMIS	Pregabalin  Capsules  150 mg
+SOLI2627	Sodium Valproate  Sugar-free liquid  200 mg/5 ml
+TIM/1960NEMIS	Timonil Retard  M/R tablets  200 mg
+TOCA18899NEMIS	Topamax Sprinkle  Capsules  25 mg
+VAE/23450EMIS	Valproic Acid  E/c capsules  150 mg
+CAM/6325NEMIS	Carbamazepine  M/R tablets  200 mg
+DEOR86015NEMIS	Desitrend  Oral solution  100 mg/ml
+EPM/25459NEMIS	Episenta  M/R granules  1 gram
+EPSU1074	Epanutin  Suspension  30 mg/5 ml
+GAIN3629	Gardenal Sodium  Injection  200mg/ml, 1 ml ampoule
+LATA17997EMIS	Lamotrigine  Tablets  50 mg
+LETA100733NEMIS	Lecaent  Capsules  100 mg
+LETA100734NEMIS	Lecaent  Capsules  150 mg
+LETA19078NEMIS	Levetiracetam  Tablets  750 mg
+LYCA18443NEMIS	Lyrica  Capsules  300 mg
+NOTA23828EMIS	Nootropil  Tablets  800 mg
+ACM/20349EMIS	Acetazolamide  M/R capsules  250 mg
+CALI10618BRIDL	Carbamazepine  Sugar-free liquid  100 mg/5 ml
+CASU24183EMIS	Carbamazepine  Suppositories  125 mg
+CLTA655	Clonazepam  Tablets  2 mg
+DEOR86015NEMIS	Desitrend  Oral solution  100 mg/ml
+DITA871	Diamox  Tablets  250 mg
+DITA879	Diazepam  Tablets  10 mg
+EPIN9030BRIDL	Epanutin  Infatabs  50 mg
+ORTA35094EMIS	Orlept  E/c tablets  200 mg
+PHEL17811NEMIS	Phenobarbital  Elixir  15 mg/5 ml
+PHSU2244	Phenytoin Sodium  Suspension  30 mg/5 ml
+PHTA2233	Phenobarbitone  Tablets  30 mg
+RECA100516NEMIS	Rewisca  Capsules  100 mg
+RITA2458	Rivotril  Tablets  500 micrograms
+SOM/23966EMIS	Sodium Valproate  M/R tablets  200 mg
+SOM/25456NEMIS	Sodium Valproate  M/R Granules Sugar Free  500 mg
+SOSY2628	Sodium Valproate  Syrup  200 mg/5 ml
+TETA2790	Tegretol  Tablets  400 mg
+TOCA5684NEMIS	Topamax Sprinkle  Capsules+e/c pellets  50 mg
+TOTA27750EMIS	Topamax  Tablets  200 mg
+TRTA3258NEMIS	Trileptal  Tablets  150 mg
+VAE/12514NEMIS	Valproic Acid (As Semisodium Valproate)  E/c tablets  500 mg
+VAE/23452EMIS	Valproic Acid  E/c capsules  500 mg
+VITA10033BRIDL	Vigabatrin  Tablets  500 mg
+CATA3287	Carbamazepine  Tablets  400 mg
+DIRE4825	Diazepam  Rectal tubes  10 mg dose (4 mg/ml, 2.5 ml tube)
+DISU4826	Diazepam  Suppositories  10 mg
+DITA871	Diamox  Tablets  250 mg
+EPCA1072	Epanutin  Capsules  25 mg
+EPM/25452NEMIS	Episenta  M/R capsules  300 mg
+EPTA1090	Epilim  Crushable tablets  100 mg
+EPTA1091	Epilim  E/c tablets  200 mg
+GATA34046EMIS	Gabitril  Tablets  5 mg
+GATA4734NEMIS	Gabapentin  Tablets  800 mg
+KETA5620NEMIS	Keppra  Tablets  1000 mg
+LATA27768EMIS	Lamictal  Tablets  200 mg
+LEOR19079NEMIS	Levetiracetam  Oral Solution, Sugar Free  100 mg/ml
+LETA100732NEMIS	Lecaent  Capsules  75 mg
+LETA5615NEMIS	Levetiracetam  Tablets  500 mg
+CASU24184EMIS	Carbamazepine  Suppositories  250 mg
+CATA3285	Carbamazepine  Tablets  100 mg
+CATA3286	Carbamazepine  Tablets  200 mg
+DETA6402NEMIS	Depakote  E/c tablets  500 mg
+DIM/20347EMIS	Diamox Sr  M/R capsules  250 mg
+DISU9203BRIDL	Diamox  Sustets  500 mg
+EPTA1090	Epilim  Crushable tablets  100 mg
+LADI24490EMIS	Lamictal  Dispersible tablets  25 mg
+LADI24496EMIS	Lamotrigine  Dispersible tablets  Sugar Free 25 mg
+LADI24497EMIS	Lamotrigine  Dispersible tablets  Sugar Free 5 mg
+LATA17996EMIS	Lamotrigine  Tablets  100 mg
+LATA22481EMIS	Lamotrigine  Tablets  25 mg
+LESU78271NEMIS	Levetiracetam  Sugar free granules  1000 mg sachet
+LESU78273NEMIS	Levetiracetam  Sugar free granules  500 mg sachet
+LYCA18441NEMIS	Lyrica  Capsules  150 mg
+LYCA18443NEMIS	Lyrica  Capsules  300 mg
+LYOR74092NEMIS	Lyrica  Oral solution  20 mg/ml
+NECA15349NEMIS	Neurontin Titration Pack  Capsules And Tablets  300 mg x 40, 600 mg x 10
+NETA4735NEMIS	Neurontin  Tablets  600 mg
+OXTA3257NEMIS	Oxcarbazepine  Tablets  600 mg
+PHTA2234	Phenobarbitone  Tablets  60 mg
+PHTA7038	Phenytoin Sodium  Tablets  50 mg
+PHTAEGTON7126	Phenytoin  Tablets  100 mg
+PRCA18434NEMIS	Pregabalin  Capsules  200 mg
+RECA100515NEMIS	Rewisca  Capsules  75 mg
+SOM/23967EMIS	Sodium Valproate  M/R tablets  300 mg
+TOCA1013NEMIS	Topamax Sprinkle  Capsules+e/c pellets  15 mg
+TOCA18895NEMIS	Topiramate  Capsules  15 mg
+TOCA18897NEMIS	Topiramate  Capsules  50 mg
+TOTA30046EMIS	Topamax  Tablets  25 mg
+TOTA30053EMIS	Topiramate  Tablets  25 mg
+TRTA3260NEMIS	Trileptal  Tablets  600 mg
+CACH8955DLSEM	Carbamazepine  Chewtabs  200 mg
+CALI10618BRIDL	Carbamazepine  Sugar-free liquid  100 mg/5 ml
+CAM/15563NEMIS	Carbagen Sr  M/R tablets  400 mg
+CLTA655	Clonazepam  Tablets  2 mg
+DISU13303NEMIS	Diazepam  Suspension  10 mg/5 ml
+DITA879	Diazepam  Tablets  10 mg
+CLTA654	Clonazepam  Tablets  500 micrograms
+DIOR13302NEMIS	Diazepam  Oral solution  2 mg/5 ml
+EPM/30463NEMIS	Epilim Chronosphere  M/R granules  50 mg
+EPTA35450EMIS	Epimaz  Tablets  200 mg
+GACA23646EMIS	Gabapentin  Capsules  300 mg
+KEOR19081NEMIS	Keppra  Oral Solution, Sugar Free  100 mg/ml
+LADI24489EMIS	Lamictal  Dispersible tablets  100 mg
+MIOR40607NEMIS	Midazolam  Oromucosal Solution  (5 mg/ml) 5 mg/1 ml Oral Syringe
+PRCA28503NEMIS	Pregabalin  Capsules  225 mg
+SASA21947EMIS	Sabril  Sachets  500 mg
+TEM/12013NEMIS	Teril Retard  M/R tablets  400 mg
+TESY2787	Tegretol  Sugar-free liquid  100 mg/5 ml
+TETA9542BRIDL	Tegretol Prolonged Release  M/R tablets  400 mg
+TOTA30051EMIS	Topiramate  Tablets  100 mg
+VAE/12513NEMIS	Valproic Acid (As Semisodium Valproate)  E/c tablets  250 mg
+CAM/15562NEMIS	Carbagen Sr  M/R tablets  200 mg
+CATA3286	Carbamazepine  Tablets  200 mg
+CLCA8843BRIDL	Clobazam Sls  Tablets  10 mg
+DEGR78276NEMIS	Desitrend  Granules  250 mg sachet
+DIIN9205BRIDL	Diamox  Powder For Solution For Injection  500 mg vial
+DIM/20347EMIS	Diamox Sr  M/R capsules  250 mg
+DIRE29888EMIS	Diazepam Rectubes  Rectal tubes  5 mg
+DIRE29891EMIS	Diazepam  Rectal tubes  2.5 mg dose (2 mg/ml, 1.25 ml tube)
+DIST35087EMIS	Diazepam  Strong Oral Solution  5 mg/5 ml
+ETCA4905	Ethosuximide  Capsules  250 mg
+GACA23646EMIS	Gabapentin  Capsules  300 mg
+GAOR13764NEMIS	Gabapentin  Oral solution  250 mg/5 ml
+KECO22656NEMIS	Keppra  Concentrate For Solution For Infusion  100 mg/ml, 5 ml vial
+LETA5616NEMIS	Levetiracetam  Tablets  1000 mg
+MIOR40608NEMIS	Midazolam  Oromucosal Solution  (5 mg/ml) 7.5 mg/1.5 ml Oral Syringe
+NECA15349NEMIS	Neurontin Titration Pack  Capsules And Tablets  300 mg x 40, 600 mg x 10
+PHCA2241	Phenytoin Sodium  Capsules  100 mg
+PITA23833EMIS	Piracetam  Tablets  1.2 grams
+RECA100513NEMIS	Rewisca  Capsules  25 mg
+SOOR26540EMIS	Sodium Valproate  Oral solution  200 mg/5 ml
+TETA9542BRIDL	Tegretol Prolonged Release  M/R tablets  400 mg
+ZOCA20271NEMIS	Zonisamide  Capsules  25 mg
+ACIN9238HILLI	Acetazolamide  Powder For Solution For Injection  500 mg vial
+CACH8955DLSEM	Carbamazepine  Chewtabs  200 mg
+CAM/15563NEMIS	Carbagen Sr  M/R tablets  400 mg
+CATA487	Carbamazepine  Tablets  100 mg
+DICA877	Diazepam  Capsules  5 mg
+DIIN9205BRIDL	Diamox  Powder For Solution For Injection  500 mg vial
+EPM/25458NEMIS	Episenta  M/R granules  500 mg
+GATA34046EMIS	Gabitril  Tablets  5 mg
+KECO22656NEMIS	Keppra  Concentrate For Solution For Infusion  100 mg/ml, 5 ml vial
+LADI10804NEMIS	Lamotrigine  Dispersible tablets  Sugar Free 2 mg
+LADI10805NEMIS	Lamictal  Dispersible tablets  2 mg
+LADI24495EMIS	Lamotrigine  Dispersible tablets  Sugar Free 100 mg
+LATA27768EMIS	Lamictal  Tablets  200 mg
+LYCA18440NEMIS	Lyrica  Capsules  100 mg
+MIIN3553NEMIS	Midazolam  Solution for infusion  1 mg/ml, 50 ml vial
+MIIN6931	Midazolam  Injection  10 mg/2 ml ampoule
+NECA23640EMIS	Neurontin  Capsules  300 mg
+NETA4736NEMIS	Neurontin  Tablets  800 mg
+PHCA2243	Phenytoin Sodium  Capsules  50 mg
+PHTA2231	Phenobarbitone  Tablets  100 mg
+PISO23832EMIS	Piracetam  Oral Solution, Sugar Free  333.3 mg/ml
+PITA23834EMIS	Piracetam  Tablets  800 mg
+SOM/23968EMIS	Sodium Valproate  M/R tablets  500 mg
+SOSO23847NEMIS	Sodium Valproate  Solution for injection  100 mg/ml, 3 ml ampoule
+SOTA2631	Sodium Valproate  E/c tablets  500 mg
+TEM/12012NEMIS	Teril Retard  M/R tablets  200 mg
+TETA2788	Tegretol  Tablets  100 mg
+TIM/1961NEMIS	Timonil Retard  M/R tablets  400 mg
+ZOCA20274NEMIS	Zonisamide  Capsules  100 mg
+CLTA654	Clonazepam  Tablets  500 micrograms
+DEGR78275NEMIS	Desitrend  Granules  1000 mg sachet
+DIRE29885EMIS	Diazepam Rectubes  Rectal tubes  10 mg
+EMSY3511	Emeside  Syrup  250mg/5 ml
+EPM/36261NEMIS	Epilim Chronosphere  M/R granules  1 gram
+ETSY4906	Ethosuximide  Oral solution  250 mg/5 ml
+GATA34044EMIS	Gabitril  Tablets  10 mg
+LADI10805NEMIS	Lamictal  Dispersible tablets  2 mg
+CAM/6326NEMIS	Carbamazepine  M/R tablets  400 mg
+CATA9594BRIDL	Carbamazepine  C/r tablets  400 mg
+EPM/13811NEMIS	Epival Cr  M/R tablets  500 mg
+EPM/13812NEMIS	Epival Cr  M/R tablets  300 mg
+EPM/15552NEMIS	Epimaz Retard  M/R tablets  400 mg
+EPM/23961EMIS	Epilim Chrono  M/R tablets  300 mg
+EPM/25459NEMIS	Episenta  M/R granules  1 gram
+EPM/30467NEMIS	Epilim Chronosphere  M/R granules  750 mg
+GAIN3629	Gardenal Sodium  Injection  200mg/ml, 1 ml ampoule
+KETA5619NEMIS	Keppra  Tablets  500 mg
+LATA22479EMIS	Lamictal  Tablets  25 mg
+LETA100731NEMIS	Lecaent  Capsules  50 mg
+LETA19078NEMIS	Levetiracetam  Tablets  750 mg
+NECA23639EMIS	Neurontin  Capsules  100 mg
+NOTA23827EMIS	Nootropil  Tablets  1.2 grams
+PHS/8959DLSEM	Phenytoin  S/f suspension  90 mg/5 ml
+PHTA17817NEMIS	Phenobarbital  Tablets  15 mg
+PRCA18430NEMIS	Pregabalin  Capsules  50 mg
+PRTA5332	Primidone  Tablets  250 mg
+TESU24179EMIS	Tegretol  Suppositories  125 mg
+TETA2789	Tegretol  Tablets  200 mg
+TOTA27751EMIS	Topamax  Tablets  50 mg
+VAE/23451EMIS	Valproic Acid  E/c capsules  300 mg
+ZOCA20278NEMIS	Zonegran  Capsules  100 mg
+CLOR13132NEMIS	Clonazepam  Oral solution  2 mg/5 ml
+DEGR78277NEMIS	Desitrend  Granules  500 mg sachet
+DIOR13302NEMIS	Diazepam  Oral solution  2 mg/5 ml
+EPCA1073	Epanutin  Capsules  50 mg
+EPTA1092	Epilim  E/c tablets  500 mg
+EPTA35449EMIS	Epimaz  Tablets  100 mg
+GACA23647EMIS	Gabapentin  Capsules  400 mg
+LATA17992EMIS	Lamictal  Tablets  100 mg
+LATA22481EMIS	Lamotrigine  Tablets  25 mg
+LYCA28504NEMIS	Lyrica  Capsules  225 mg
+MYSU4005	Mysoline  Suspension  250mg/5 ml
+NECA23641EMIS	Neurontin  Capsules  400 mg
+PHTA17818NEMIS	Phenobarbital  Tablets  30 mg
+PRSU5331	Primidone  Suspension  250 mg/5 ml
+PRTA5332	Primidone  Tablets  250 mg
+RITA2458	Rivotril  Tablets  500 micrograms
+TEM/12013NEMIS	Teril Retard  M/R tablets  400 mg
+TESU24180EMIS	Tegretol  Suppositories  250 mg
+TESY2787	Tegretol  Sugar-free liquid  100 mg/5 ml
+TOCA1013NEMIS	Topamax Sprinkle  Capsules+e/c pellets  15 mg
+TOTA27750EMIS	Topamax  Tablets  200 mg
+TOTA30052EMIS	Topiramate  Tablets  200 mg
+ZOCA20278NEMIS	Zonegran  Capsules  100 mg
+CLOR13132NEMIS	Clonazepam  Oral solution  2 mg/5 ml
+DICA876	Diazepam  Capsules  2 mg
+DIRE29886EMIS	Diazepam Rectubes  Rectal tubes  2.5 mg
+DIRE4825	Diazepam  Rectal tubes  10 mg dose (4 mg/ml, 2.5 ml tube)
+EPM/30465NEMIS	Epilim Chronosphere  M/R granules  250 mg
+EPTA35449EMIS	Epimaz  Tablets  100 mg
+GACA23645EMIS	Gabapentin  Capsules  100 mg
+GATA34044EMIS	Gabitril  Tablets  10 mg
+KETA5618NEMIS	Keppra  Tablets  250 mg
+LEOR19079NEMIS	Levetiracetam  Oral Solution, Sugar Free  100 mg/ml
+LESU78272NEMIS	Levetiracetam  Sugar free granules  250 mg sachet
+LETA100732NEMIS	Lecaent  Capsules  75 mg
+LYCA28504NEMIS	Lyrica  Capsules  225 mg
+ORSU35093EMIS	Orlept  Sugar-free oral solution  200 mg/5 ml
+PHTA2235	Phenobarbitone Sodium  Tablets  30 mg
+PRSU5331	Primidone  Suspension  250 mg/5 ml
+RECA100520NEMIS	Rewisca  Capsules  300 mg
+SOM/25457NEMIS	Sodium Valproate  M/R Granules Sugar Free  1 gram
+TITA34052EMIS	Tiagabine Hydrochloride  Tablets  5 mg
+TOTA30052EMIS	Topiramate  Tablets  200 mg
+ACIN9238HILLI	Acetazolamide  Powder For Solution For Injection  500 mg vial
+ACTA22	Acetazolamide  Tablets  250 mg
+CASU24184EMIS	Carbamazepine  Suppositories  250 mg
+DITA881	Diazepam  Tablets  5 mg
+EPIN9030BRIDL	Epanutin  Infatabs  50 mg
+EPLI1088	Epilim  Sugar-free liquid  200 mg/5 ml
+KEOR19081NEMIS	Keppra  Oral Solution, Sugar Free  100 mg/ml
+LADI10804NEMIS	Lamotrigine  Dispersible tablets  Sugar Free 2 mg
+LADI24491EMIS	Lamictal  Dispersible tablets  5 mg
+LADI24496EMIS	Lamotrigine  Dispersible tablets  Sugar Free 25 mg
+LATA17996EMIS	Lamotrigine  Tablets  100 mg
+NETA4735NEMIS	Neurontin  Tablets  600 mg
+PHIN8957DLSEM	Phenytoin  Chewable tablets  50 mg
+PITA23834EMIS	Piracetam  Tablets  800 mg
+SOM/25456NEMIS	Sodium Valproate  M/R Granules Sugar Free  500 mg
+SOTA2630	Sodium Valproate  E/c tablets  200 mg
+TETA2788	Tegretol  Tablets  100 mg
+ORTA35094EMIS	Orlept  E/c tablets  200 mg
+OXOR14323NEMIS	Oxcarbazepine  Oral Suspension Sugar Free  60 mg/ml
+PHCA2242	Phenytoin Sodium  Capsules  25 mg
+PHTA17819NEMIS	Phenobarbital  Tablets  60 mg
+RECA100520NEMIS	Rewisca  Capsules  300 mg
+SOM/25449NEMIS	Sodium Valproate  M/R capsules  300 mg
+TOCA1014NEMIS	Topamax Sprinkle  Capsules+e/c pellets  25 mg
+TOCA18895NEMIS	Topiramate  Capsules  15 mg
+TOTA30054EMIS	Topiramate  Tablets  50 mg
+COE/23445EMIS	Convulex  E/c capsules  300 mg
+DEGR78277NEMIS	Desitrend  Granules  500 mg sachet
+DITA880	Diazepam  Tablets  2 mg
+EMSY3511	Emeside  Syrup  250mg/5 ml
+EPCA1073	Epanutin  Capsules  50 mg
+EPM/23960EMIS	Epilim Chrono  M/R tablets  200 mg
+EPM/25450NEMIS	Episenta  M/R capsules  150 mg
+GACA23647EMIS	Gabapentin  Capsules  400 mg
+KETA19080NEMIS	Keppra  Tablets  750 mg
+LATA27770EMIS	Lamotrigine  Tablets  200 mg
+LECO22655NEMIS	Levetiracetam  Concentrate For Solution For Infusion  100 mg/ml, 5 ml vial
+OXTA3254NEMIS	Oxcarbazepine  Tablets  150 mg
+PHCA2242	Phenytoin Sodium  Capsules  25 mg
+PHTA2232	Phenobarbitone  Tablets  15 mg
+PHTA2236	Phenobarbitone Sodium  Tablets  60 mg
+PHTAEGTON7127	Phenytoin  Tablets  50 mg
+PRCA18428NEMIS	Pregabalin  Capsules  25 mg
+PRCA18435NEMIS	Pregabalin  Capsules  300 mg
+RECA100513NEMIS	Rewisca  Capsules  25 mg
+SOTA2630	Sodium Valproate  E/c tablets  200 mg
+TESU24180EMIS	Tegretol  Suppositories  250 mg
+TITA34051EMIS	Tiagabine Hydrochloride  Tablets  15 mg
+TOCA1014NEMIS	Topamax Sprinkle  Capsules+e/c pellets  25 mg
+TRTA3259NEMIS	Trileptal  Tablets  300 mg
+ZOCA20273NEMIS	Zonisamide  Capsules  50 mg
+ACM/20349EMIS	Acetazolamide  M/R capsules  250 mg
+DIRE29886EMIS	Diazepam Rectubes  Rectal tubes  2.5 mg
+EMCA3510	Emeside  Capsules  250 mg
+EPCA19756EMIS	Epanutin  Capsules  300 mg
+EPM/15552NEMIS	Epimaz Retard  M/R tablets  400 mg
+EPM/23960EMIS	Epilim Chrono  M/R tablets  200 mg
+EPM/30463NEMIS	Epilim Chronosphere  M/R granules  50 mg
+EPM/30465NEMIS	Epilim Chronosphere  M/R granules  250 mg
+GACA23645EMIS	Gabapentin  Capsules  100 mg
+GATA4733NEMIS	Gabapentin  Tablets  600 mg
+LATA22479EMIS	Lamictal  Tablets  25 mg
+LYCA18439NEMIS	Lyrica  Capsules  75 mg
+LYCA18441NEMIS	Lyrica  Capsules  150 mg
+MYTA47631NEMIS	Mysoline  Tablets  50 mg
+TOCA18896NEMIS	Topiramate  Capsules  25 mg
+VITA10033BRIDL	Vigabatrin  Tablets  500 mg
+SOTA2631	Sodium Valproate  E/c tablets  500 mg
+TETA2789	Tegretol  Tablets  200 mg
+TETA2790	Tegretol  Tablets  400 mg
+TETA9540BRIDL	Tegretol Prolonged Release  M/R tablets  200 mg
+TOCA5684NEMIS	Topamax Sprinkle  Capsules+e/c pellets  50 mg
+TOTA27749EMIS	Topamax  Tablets  100 mg
+TOTA30053EMIS	Topiramate  Tablets  25 mg
+TROR14324NEMIS	Trileptal  Oral suspension  60 mg/ml
+ZOCA20276NEMIS	Zonegran  Capsules  25 mg
+LYCA18442NEMIS	Lyrica  Capsules  200 mg
+LYOR74092NEMIS	Lyrica  Oral solution  20 mg/ml
+MIIN3553NEMIS	Midazolam  Solution for infusion  1 mg/ml, 50 ml vial
+NETA4736NEMIS	Neurontin  Tablets  800 mg
+NOSO23826EMIS	Nootropil  Oral Solution, Sugar Free  333.3 mg/ml
+PHTA17817NEMIS	Phenobarbital  Tablets  15 mg
+PISO23832EMIS	Piracetam  Oral Solution, Sugar Free  333.3 mg/ml
+PRCA18430NEMIS	Pregabalin  Capsules  50 mg
+PRCA18432NEMIS	Pregabalin  Capsules  100 mg
+SOM/23968EMIS	Sodium Valproate  M/R tablets  500 mg
+TITA34051EMIS	Tiagabine Hydrochloride  Tablets  15 mg
+TOTA30046EMIS	Topamax  Tablets  25 mg
+TRTA3259NEMIS	Trileptal  Tablets  300 mg
+VAE/12514NEMIS	Valproic Acid (As Semisodium Valproate)  E/c tablets  500 mg
+VISA21949EMIS	Vigabatrin  Sachets  Sugar Free 500 mg
+ZOCA20273NEMIS	Zonisamide  Capsules  50 mg
+LECO22655NEMIS	Levetiracetam  Concentrate For Solution For Infusion  100 mg/ml, 5 ml vial
+LYCA18438NEMIS	Lyrica  Capsules  50 mg
+LYCA18440NEMIS	Lyrica  Capsules  100 mg
+MIOR40609NEMIS	Midazolam  Oromucosal Solution  (5 mg/ml) 10 mg/2 ml Oral Syringe
+MYTA4006	Mysoline  Tablets  250 mg
+OXTA3257NEMIS	Oxcarbazepine  Tablets  600 mg
+PHCA2243	Phenytoin Sodium  Capsules  50 mg
+PHSU1331NEMIS	Phenytoin  Suspension  30 mg/5 ml
+RECA100519NEMIS	Rewisca  Capsules  225 mg
+SOM/23967EMIS	Sodium Valproate  M/R tablets  300 mg
+SOSO23847NEMIS	Sodium Valproate  Solution for injection  100 mg/ml, 3 ml ampoule
+TITA34050EMIS	Tiagabine Hydrochloride  Tablets  10 mg
+TOTA27751EMIS	Topamax  Tablets  50 mg
+TRTA3258NEMIS	Trileptal  Tablets  150 mg
+VAE/23451EMIS	Valproic Acid  E/c capsules  300 mg
+PHCA19758EMIS	Phenytoin Sodium  Capsules  300 mg
+PRCA18428NEMIS	Pregabalin  Capsules  25 mg
+PRCA28503NEMIS	Pregabalin  Capsules  225 mg
+SOM/23966EMIS	Sodium Valproate  M/R tablets  200 mg
+SOM/25447NEMIS	Sodium Valproate  M/R capsules  150 mg
+TITA34052EMIS	Tiagabine Hydrochloride  Tablets  5 mg
+VAE/23452EMIS	Valproic Acid  E/c capsules  500 mg
+ZOCA20277NEMIS	Zonegran  Capsules  50 mg
+EPM/13811NEMIS	Epival Cr  M/R tablets  500 mg
+EPM/23962EMIS	Epilim Chrono  M/R tablets  500 mg
+EPM/30466NEMIS	Epilim Chronosphere  M/R granules  500 mg
+EPSY1089	Epilim  Syrup  200 mg/5 ml
+KETA19080NEMIS	Keppra  Tablets  750 mg
+KETA5618NEMIS	Keppra  Tablets  250 mg
+LADI24497EMIS	Lamotrigine  Dispersible tablets  Sugar Free 5 mg
+LESU78271NEMIS	Levetiracetam  Sugar free granules  1000 mg sachet
+LETA100738NEMIS	Lecaent  Capsules  300 mg
+LETA5613NEMIS	Levetiracetam  Tablets  250 mg
+MIOR40606NEMIS	Midazolam  Oromucosal Solution  (5 mg/ml) 2.5 mg/0.5 ml Oral Syringe
+OXTA3254NEMIS	Oxcarbazepine  Tablets  150 mg
+PHTA5282	Phenytoin Sodium  Tablets  100 mg
+RECA100518NEMIS	Rewisca  Capsules  200 mg
+SOTA2629	Sodium Valproate  Crushable tablets  100 mg
+TESU24179EMIS	Tegretol  Suppositories  125 mg
+TOTA30051EMIS	Topiramate  Tablets  100 mg
+TRTA3260NEMIS	Trileptal  Tablets  600 mg
+VAE/12513NEMIS	Valproic Acid (As Semisodium Valproate)  E/c tablets  250 mg
+VAE/23450EMIS	Valproic Acid  E/c capsules  150 mg

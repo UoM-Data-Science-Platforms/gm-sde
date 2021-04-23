@@ -1,0 +1,424 @@
+CTV3ID	description
+44W2.	Phenobarbitone: blood
+X78EL	Fetal carbamazepine syndrome
+X78EQ	Fetal primidone syndrome
+X7957	Carbamazepine - chemical
+X796h	Phenobarbitone - chemical
+X796l	Phenytoin - chemical
+XC0RS	Valproate
+XaCE2	Vigabatrin - chemical
+XaD4O	Valproic acid and derivatives
+a517.	Cantil+phenobarbitone tablet
+bc6..	Phenytoin sodium [antiarrythmic]
+bc61.	Epanutin Ready Mixed Parenteral 250mg/5mL injection
+bc62.	Phenytoin 250mg/5mL injection
+d21..	Diazepam [anxiolytic]
+d211.	Diazepam 2mg capsule
+d212.	Diazepam 5mg capsule
+d213.	Diazepam 2mg tablet
+d214.	Diazepam 5mg tablet
+d215.	Diazepam 10mg tablet
+d216.	Diazepam 2mg/5mL oral solution
+d21A.	Diazepam 5mg/5mL oral solution
+d21H.	Diazepam 1mg/5mL suspension
+d21I.	Diazepam 2.5mg/5mL suspension
+d21J.	Diazepam 10mg/5mL suspension
+d21z.	Diazepam 10mg suppository
+d26..	Clobazam
+d261.	Clobazam 10mg capsule
+d263.	Clobazam 10mg tablet
+d266.	CLOBAZAM 5mg/5mL oral suspension
+d268.	CLOBAZAM 10mg/5mL oral suspension
+dn1..	Acetazolamide [epilepsy]
+dn11.	Diamox [ep] 500mg m/r capsules
+dn12.	Diamox [ep] 250mg tablets
+dn13.	Diamox [ep] 500mg injection
+dn1y.	Acetazolamide [ep] 250mg tablets
+dn1z.	Acetazolamide [ep] 500mg injection
+dn3..	Carbamazepine product
+dn31.	Carbamazepine 100mg tablet
+dn32.	Carbamazepine 200mg tablet
+dn33.	Carbamazepine 400mg tablet
+dn34.	Tegretol 100mg tablet
+dn35.	Tegretol 200mg tablet
+dn36.	Tegretol 400mg tablet
+dn37.	Tegretol 100mg/5mL oral liquid
+dn38.	Tegretol Retard 200mg m/r tablet
+dn39.	Tegretol Retard 400mg m/r tablet
+dn3A.	Epimaz 100mg tablet
+dn3B.	Epimaz 200mg tablet
+dn3C.	Epimaz 400mg tablet
+dn3D.	Tegretol 125mg suppository
+dn3E.	Tegretol 250mg suppository
+dn3F.	Timonil Retard 200mg m/r tablet
+dn3G.	Timonil Retard 400mg m/r tablet
+dn3H.	Teril Retard 200mg m/r tablet
+dn3I.	Teril Retard 400mg m/r tablet
+dn3J.	Carbagen SR 200mg m/r tablet
+dn3K.	Carbagen SR 400mg m/r tablet
+dn3a.	Carbamazepine 200mg m/r tablet
+dn3b.	Carbamazepine 400mg m/r tablet
+dn3c.	Tegretol 100mg chewable tablet
+dn3d.	Tegretol 200mg chewable tablet
+dn3e.	Arbil MR 200mg m/r tablet
+dn3f.	Arbil MR 400mg m/r tablet
+dn3v.	Carbamazepine 125mg suppository
+dn3w.	Carbamazepine 250mg suppository
+dn3x.	Carbamazepine 200mg chewable tablet
+dn3y.	Carbamazepine 100mg chewable tablet
+dn3z.	Carbamazepine 100mg/5mL oral liquid
+dn4..	Clonazepam [epilepsy control]
+dn41.	Rivotril 500mcg tablet
+dn42.	Rivotril 2mg tablet
+dn4w.	Clonazepam 0.5mg/5mL s/f oral solution
+dn4x.	Clonazepam 2mg/5mL s/f oral solution
+dn4y.	Clonazepam 500micrograms tablet
+dn4z.	Clonazepam 2mg tablet
+dn5..	Ethosuximide
+dn53.	Emeside 250mg capsule
+dn54.	Emeside 250mg/5mL syrup
+dn55.	Zarontin 250mg capsule
+dn56.	Zarontin 250mg/5mL syrup
+dn5x.	Ethosuximide 250mg capsule
+dn5y.	Ethosuximide 250mg/5mL elixir
+dn5z.	Ethosuximide 250mg/5mL oral solution
+dn7..	Phenobarbital
+dn71.	Phenobarbital 15mg tablet
+dn72.	Phenobarbital 30mg tablet
+dn73.	Phenobarbital 60mg tablet
+dn74.	Phenobarbital 100mg tablet
+dn75.	Phenobarbitone sodium 30mg tablets
+dn76.	Phenobarbitone sodium 60mg tablets
+dn77.	Phenobarbitone 15mg/10mL elixir
+dn78.	Phenobarbital sodium 200mg/1mL injection
+dn79.	Gardenal Sodium 200mg/1mL injection
+dn7a.	Luminal 15mg tablet
+dn7b.	Luminal 30mg tablet
+dn7c.	Luminal 60mg tablet
+dn7d.	Phenobarbital 15mg/5mL elixir
+dn81.	Epanutin 30mg/5mL suspension
+dn82.	Epanutin 50mg Infatab
+dn83.	Phenytoin 50mg chewable tablet
+dn8y.	Phenytoin 30mg/5mL oral suspension
+dn8z.	Phenytoin 90mg/5mL s/f suspension
+dn9..	Phenytoin sodium
+dn91.	Phenytoin sodium 50mg tablet
+dn92.	Phenytoin sodium 100mg tablet
+dn93.	Epanutin 25mg capsule
+dn94.	Epanutin 50mg capsule
+dn95.	Epanutin 100mg capsule
+dn96.	Epanutin 300mg capsule
+dn97.	Pentran 50mg tablet
+dn98.	Pentran 100mg tablet
+dn9w.	Phenytoin sodium 300mg capsule
+dn9x.	Phenytoin sodium 25mg capsule
+dn9y.	Phenytoin sodium 50mg capsule
+dn9z.	Phenytoin sodium 100mg capsule
+dna1.	Mysoline 250mg tablet
+dna2.	Mysoline 250mg/5mL oral suspension
+dna3.	MYSOLINE 50mg tablets
+dnax.	PRIMIDONE 50mg tablets
+dnay.	Primidone 250mg tablet
+dnaz.	Primidone 250mg/5mL oral suspension
+dnb..	Sodium valproate
+dnb1.	Epilim 100mg crushable tablet
+dnb2.	Epilim 200mg e/c tablet
+dnb3.	Epilim 500mg e/c tablet
+dnb4.	Epilim 200mg/5mL s/f liquid
+dnb5.	Epilim 200mg/5mL syrup
+dnb6.	Epilim Intravenous 400mg injection+diluent
+dnb7.	Sodium valproate 200mg e/c tablet
+dnb8.	Sodium valproate 500mg e/c tablet
+dnb9.	Orlept starter Pack 200mg e/c tablets x10
+dnbA.	Orlept 200mg/5mL s/f liquid
+dnbB.	Epival CR 300mg m/r tablet
+dnbC.	Epival CR 500mg m/r tablet
+dnbE.	SODIUM VALPROATE 300mg/3mL solution for injection
+dnbF.	EPISENTA 150mg m/r capsules
+dnbG.	EPISENTA 300mg m/r capsules
+dnbH.	EPISENTA 500mg/sachet m/r granules
+dnbI.	EPISENTA 1g/sachet m/r granules
+dnbJ.	SODIUM VALPROATE 150mg m/r capsules
+dnbK.	SODIUM VALPROATE 300mg m/r capsules
+dnbL.	SODIUM VALPROATE 500mg/sachet m/r granules
+dnbM.	SODIUM VALPROATE 1g/sachet m/r granules
+dnbN.	SODIUM VALPROATE 1g/10mL solution for injection
+dnbO.	EPISENTA 1g/10mL solution for injection
+dnbP.	EPILIM CHRONOSPHERE 50mg/sachet m/r granules
+dnbQ.	EPILIM CHRONOSPHERE 100mg/sachet m/r granules
+dnbR.	EPILIM CHRONOSPHERE 250mg/sachet m/r granules
+dnbS.	EPILIM CHRONOSPHERE 500mg/sachet m/r granules
+dnbT.	EPILIM CHRONOSPHERE 750mg/sachet m/r granules
+dnbU.	EPILIM CHRONOSPHERE 1g/sachet m/r granules
+dnba.	Orlept 200mg e/c tablet
+dnbb.	Orlept 500mg e/c tablet
+dnbc.	Epilim Chrono 200 m/r tablet
+dnbd.	Epilim Chrono 300 m/r tablet
+dnbe.	Epilim Chrono 500 m/r tablet
+dnbn.	SODIUM VALPROATE 50mg/sachet m/r granules
+dnbo.	SODIUM VALPROATE 100mg/sachet m/r granules
+dnbp.	SODIUM VALPROATE 250mg/sachet m/r granules
+dnbq.	SODIUM VALPROATE 750mg/sachet m/r granules
+dnbr.	Sodium valproate 200mg m/r tablet
+dnbs.	Sodium valproate 300mg m/r tablet
+dnbt.	Sodium valproate 500mg m/r tablet
+dnbu.	Sodium valproate 400mg injection+diluent
+dnbv.	Sodium valproate 100mg crushable tablet
+dnbw.	Sodium valproate 200mg crushable tablets
+dnbx.	Sodium valproate 500mg tablets
+dnby.	Sodium valproate 200mg/5mL s/f oral liquid
+dnbz.	Sodium valproate 200mg/5mL syrup
+dnc..	Clobazam [epilepsy only]
+dnc1.	Clobazam SLS 10mg capsules
+dne..	Vigabatrin
+dne1.	Vigabatrin 500mg tablet
+dne2.	Sabril 500mg tablet
+dne3.	Vigabatrin 500mg/sachet powder
+dne4.	Sabril 500mg/sachet powder
+dnf..	Lamotrigine
+dnf1.	Lamotrigine 50mg tablet
+dnf2.	Lamotrigine 100mg tablet
+dnf3.	Lamictal 50mg tablet
+dnf4.	Lamictal 100mg tablet
+dnf5.	Lamotrigine 25mg tablet
+dnf6.	Lamictal 25mg tablet
+dnf7.	Lamictal 5mg dispersible tablet
+dnf8.	Lamictal 25mg dispersible tablet
+dnf9.	Lamictal 100mg dispersible tablet
+dnfA.	Lamotrigine 5mg dispersible tablet
+dnfB.	Lamotrigine 25mg dispersible tablet
+dnfC.	Lamotrigine 100mg dispersible tablet
+dnfD.	Lamictal 200mg tablet
+dnfE.	Lamotrigine 200mg tablet
+dnfF.	Lamictal Monotherapy 25mg starter pack
+dnfG.	Lamictal Valproate Add-On 25mg starter pack
+dnfH.	Lamictal Non-Valproate Add-On 50mg starter pack
+dnfJ.	Lamictal 2mg dispersible tablet
+dnfz.	Lamotrigine 2mg dispersible tablet
+dng..	Piracetam
+dng1.	Nootropil 800mg tablet
+dng2.	Nootropil 1.2g tablet
+dng3.	Nootropil 333.1mg/mL solution
+dng4.	Piracetam 800mg tablet
+dng5.	Piracetam 1.2g tablet
+dng6.	Piracetam 333.3mg/1mL oral solution
+dnh..	Valproic acid
+dnh1.	Convulex 150mg e/c capsule
+dnh2.	Convulex 300mg e/c capsule
+dnh3.	Convulex 500mg e/c capsule
+dnh4.	Valproic acid 150mg e/c capsule
+dnh5.	Valproic acid 300mg e/c capsule
+dnh6.	Valproic acid 500mg e/c capsule
+dnh7.	Depakote 250mg e/c tablet
+dnh8.	Depakote 500mg e/c tablet
+dnhy.	Valproic acid 500mg e/c tablet
+dnhz.	Valproic acid 250mg e/c tablet
+dni2.	Pro-Epanutin 750mg/10mL injection concentrate
+dnj..	Gabapentin
+dnj1.	Gabapentin 100mg capsule
+dnj2.	Gabapentin 300mg capsule
+dnj3.	Gabapentin 400mg capsule
+dnj4.	Neurontin 100mg capsule
+dnj5.	Neurontin 300mg capsule
+dnj6.	Neurontin 400mg capsule
+dnj7.	Neurontin 600mg tablet
+dnj8.	Neurontin 800mg tablet
+dnj9.	Neurontin 300mg capsule/600mg tablet titration pack
+dnjA.	GABAPENTIN 50mg/mL oral solution
+dnjx.	Gabapentin 300mg capsule/600mg tablet titration pack
+dnjy.	Gabapentin 600mg tablet
+dnjz.	Gabapentin 800mg tablet
+dnk..	Topiramate
+dnk1.	Topiramate 50mg tablet
+dnk2.	Topiramate 100mg tablet
+dnk3.	Topiramate 200mg tablet
+dnk4.	Topamax 50mg tablet
+dnk5.	Topamax 100mg tablet
+dnk6.	Topamax 200mg tablet
+dnk7.	Topiramate 25mg tablet
+dnk8.	Topamax 25mg tablet
+dnk9.	Topiramate 15mg beads in capsule
+dnkA.	Topiramate 25mg beads in capsule
+dnkB.	Topamax Sprinkle 15mg capsule
+dnkC.	Topamax Sprinkle 25mg capsule
+dnkD.	Topiramate 50mg beads in capsule
+dnkE.	Topamax Sprinkle 50mg capsule
+dnl..	Tiagabine
+dnl1.	Tiagabine 5mg tablet
+dnl2.	Tiagabine 10mg tablet
+dnl3.	Tiagabine 15mg tablet
+dnl4.	Gabitril 5mg tablet
+dnl5.	Gabitril 10mg tablet
+dnl6.	Gabitril 15mg tablet
+dnm..	Oxcarbazepine
+dnm1.	Trileptal 150 tablet
+dnm2.	Trileptal 300 tablet
+dnm3.	Trileptal 600 tablet
+dnm4.	Trileptal 60mg/mL s/f oral suspension
+dnmw.	Oxcarbazepine 60mg/mL s/f oral suspension
+dnmx.	Oxcarbazepine 150mg tablet
+dnmy.	Oxcarbazepine 300mg tablet
+dnmz.	Oxcarbazepine 600mg tablet
+dno..	Levetiracetam
+dno1.	Keppra 250mg tablet
+dno2.	Keppra 500mg tablet
+dno3.	Keppra 1g tablet
+dno4.	Keppra 750mg tablet
+dno5.	Keppra 100mg/mL s/f oral solution
+dno6.	KEPPRA 500mg/5mL solution for injection
+dno7.	DESITREND 250mg/sachet granules
+dno8.	DESITREND 500mg/sachet granules
+dno9.	DESITREND 1g/sachet granules
+dnoA.	DESITREND 100mg/mL oral solution
+dnoB.	DESITREND 500mg/5mL concentrate for solution for infusion
+dnor.	LEVETIRACETAM 1g/sachet granules
+dnos.	LEVETIRACETAM 500mg/sachet granules
+dnot.	LEVETIRACETAM 250mg/sachet granules
+dnou.	LEVETIRACETAM 500mg/5mL solution for injection
+dnov.	Levetiracetam 100mg/mL s/f oral solution
+dnow.	Levetiracetam 750mg tablet
+dnox.	Levetiracetam 1g tablet
+dnoy.	Levetiracetam 500mg tablet
+dnoz.	Levetiracetam 250mg tablet
+dnp..	Pregabalin
+dnp1.	Lyrica 25mg capsule
+dnp2.	Lyrica 50mg capsule
+dnp3.	Lyrica 75mg capsule
+dnp4.	Lyrica 100mg capsule
+dnp5.	Lyrica 150mg capsule
+dnp6.	Lyrica 200mg capsule
+dnp7.	Lyrica 300mg capsule
+dnp8.	LYRICA 225mg capsules
+dnp9.	LYRICA 20mg/1mL oral solution
+dnpA.	LECAENT 25mg capsules
+dnpB.	LECAENT 50mg capsules
+dnpC.	LECAENT 75mg capsules
+dnpD.	LECAENT 100mg capsules
+dnpE.	LECAENT 150mg capsules
+dnpF.	LECAENT 200mg capsules
+dnpG.	LECAENT 225mg capsules
+dnpH.	LECAENT 300mg capsules
+dnpI.	REWISCA 25mg capsules
+dnpJ.	REWISCA 50mg capsules
+dnpK.	REWISCA 75mg capsules
+dnpL.	REWISCA 100mg capsules
+dnpM.	REWISCA 150mg capsules
+dnpN.	REWISCA 200mg capsules
+dnpO.	REWISCA 225mg capsules
+dnpP.	REWISCA 300mg capsules
+dnpr.	PREGABALIN 20mg/1mL oral solution
+dnps.	PREGABALIN 225mg capsules
+dnpt.	Pregabalin 300mg capsule
+dnpu.	Pregabalin 200mg capsule
+dnpv.	Pregabalin 100mg capsule
+dnpw.	Pregabalin 150mg capsule
+dnpx.	Pregabalin 75mg capsule
+dnpy.	Pregabalin 50mg capsule
+dnpz.	Pregabalin 25mg capsule
+dnq..	Zonisamide
+dnq1.	Zonisamide 25mg capsule
+dnq2.	Zonisamide 50mg capsule
+dnq3.	Zonisamide 100mg capsule
+dnq4.	Zonegran 25mg capsule
+dnq5.	Zonegran 50mg capsule
+dnq6.	Zonegran 100mg capsule
+do1..	Diazepam [epilepsy use]
+do18.	Diazepam 5mg/2.5mL RecTube
+do19.	Diazepam 10mg/2.5mL RecTube
+do1A.	Diazepam 2.5mg/1.25mL RecTube
+do1B.	Diazepam 20mg/5mL RecTube
+do1t.	Diazepam 2.5mg/1.25mL rectal solution
+do1u.	Diazepam 20mg/5mL rectal solution
+do1v.	Diazepam 10mg/2mL injection emulsion
+do1w.	Diazepam 10mg/2mL injection
+do1x.	Diazepam 5mg/2.5mL rectal solution
+do1y.	Diazepam 10mg/2.5mL rectal solution
+do1z.	Diazepam 20mg/4mL injection
+do2..	Clonazepam [status epilepsy]
+do21.	Rivotril 1mg/1mL injection
+do2z.	Clonazepam 1mg/1mL injection
+do6..	Phenytoin sodium [status epilepsy]
+do61.	Epanutin [ep] 250mg/5mL injection
+do6z.	Phenytoin sodium 250mg/5mL injection
+k81..	Acetazolamide [glaucoma]
+k811.	Diamox 500mg Sustet
+k812.	Diamox 250mg tablet
+k813.	Diamox powder
+k814.	Diamox 500mg injection (pdr for recon)+diluent
+k815.	Diamox SR 250mg m/r capsule
+k81v.	Acetazolamide powder
+k81w.	Acetazolamide 250mg m/r capsule
+k81x.	Acetazolamide 500mg m/r capsule
+k81y.	Acetazolamide 250mg tablet
+k81z.	Acetazolamide 500mg injection (pdr for recon)+diluent
+o57..	Midazolam
+o57r.	MIDAZOLAM 10mg/2mL oromucosal soln pre-filled oral syringe
+o57s.	MIDAZOLAM 5mg/1mL oromucosal soln pre-filled oral syringe
+o57t.	MIDAZOLAM 7.5mg/1.5mL oromucosal soln prefilled oral syringe
+o57u.	MIDAZOLAM 2.5mg/0.5mL oromucosal soln prefilled oral syringe
+o57v.	Midazolam 100mg/50mL injection
+o57w.	Midazolam 50mg/50mL injection
+o57y.	Midazolam 10mg/5mL injection
+o57z.	Midazolam 10mg/2mL injection
+x0041	Emeside 250mg/5mL orange syrup
+x0042	Emeside 250mg/5mL blackcurrant syrup
+x00Bp	Valproate product
+x00RW	Phenobarbital sodium 15mg/1mL injection
+x00RX	Phenobarbital sodium 30mg/1mL injection
+x00RY	Phenobarbital sodium 60mg/1mL injection
+x01BA	Oral diazepam
+x01BB	Parenteral diazepam
+x01BC	Rectal diazepam
+x01Bc	Oral phenobarbital
+x01Bd	Parenteral phenobarbital
+x01Bj	Oral sodium valproate
+x01Bk	Parenteral sodium valproate
+x02LM	Diazepam
+x02Lk	Clonazepam
+x02MU	Acetazolamide
+x02Xy	Convulex
+x02ZV	Diamox
+x02ZW	Diamox SR
+x02bE	Emeside
+x02bQ	Epanutin
+x02bS	Epilim
+x02bT	Epilim Chrono
+x02bU	Epimaz
+x02dn	Gardenal Sodium
+x02gp	Lamictal
+x02gq	Lamictal Monotherapy
+x02gr	Lamictal Non-Valproate Add-on
+x02gs	Lamictal Valproate Add-on
+x02kG	Mysoline
+x02ko	Neurontin
+x02l7	Nootropil
+x02mA	Orlept
+x02nA	Pentran
+x02pu	Rivotril
+x02qF	Sabril
+x02sG	Tegretol
+x02sH	Tegretol Retard
+x02uv	Zarontin
+x03tH	Topamax
+x0419	Epanutin Ready Mixed Parenteral
+x041A	Epilim Chrono 200
+x041B	Epilim Chrono 300
+x041C	Epilim Chrono 500
+x041D	Epilim Intravenous
+x04Ox	Timonil Retard
+x04tE	Teril Retard
+x04uD	Pro-Epanutin
+x04uQ	Gabitril
+x052w	Topamax Sprinkle
+x0572	Trileptal 150
+x0573	Trileptal 300
+x0574	Trileptal 600
+x05CD	Carbagen SR
+x05Ct	Keppra
+x05E8	Depakote
+x05Jw	Acetazolamide - chemical
+x05cb	Arbil MR
+x05gO	Epival CR
+x05i7	Trileptal
+x05uJ	Lyrica
+x05xI	Zonegran

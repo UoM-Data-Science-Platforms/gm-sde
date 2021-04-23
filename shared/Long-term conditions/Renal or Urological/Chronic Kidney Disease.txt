@@ -1,4 +1,0 @@
-medcode	readcode	Description	CodingSystem
-19747	451F.00	Glomerular filtration rate	readcode
-23250	451E.00	GFR calculated abbreviated MDRD	readcode
-30898	451G.00	GFR calculated abbreviated MDRD adj for African Americ orign	readcode

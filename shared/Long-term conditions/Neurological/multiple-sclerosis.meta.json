@@ -1,0 +1,19 @@
+{
+  "includeTerms": ["multiple sclerosis", "disseminated sclerosis"],
+  "excludeTerms": [
+    "drugs used for the treatment of",
+    "fh",
+    "suspected",
+    "sclerosis of lymph nodes of multiple sites",
+    "review declined",
+    "family history of"
+  ],
+  "terminology": "CTV3",
+  "version": "20180401",
+  "createdBy": {
+    "name": "Richard Williams",
+    "email": "1234richardwilliams@gmail.com"
+  },
+  "createdOn": "2020-05-19T12:30:50.476Z",
+  "lastUpdated": "2021-04-14T15:08:54.355Z"
+}
