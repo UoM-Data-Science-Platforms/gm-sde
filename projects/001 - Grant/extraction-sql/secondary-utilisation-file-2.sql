@@ -1122,24 +1122,133 @@ LEFT OUTER join #CovidCases c ON
 	AND a.AdmissionDate <= DATEADD(WEEK, 4, c.CovidPositiveDate)
 	AND a.AdmissionDate >= DATEADD(DAY, -14, c.CovidPositiveDate);
 
+--┌───────────────────────────────────────┐
+--│ GET practice and ccg for each patient │
+--└───────────────────────────────────────┘
+
+-- OBJECTIVE:	For each patient to get the practice id that they are registered to, and 
+--						the CCG name that the practice belongs to.
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: Two temp tables as follows:
+-- #PatientPractice (FK_Patient_Link_ID, GPPracticeCode)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- GPPracticeCode - the nationally recognised practice id for the patient
+-- #PatientPracticeAndCCG (FK_Patient_Link_ID, GPPracticeCode, CCG)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- GPPracticeCode - the nationally recognised practice id for the patient
+--  - CCG - the name of the patient's CCG
+
+-- If patients have a tenancy id of 2 we take this as their most likely GP practice
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientPractice') IS NOT NULL DROP TABLE #PatientPractice;
+SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) as GPPracticeCode INTO #PatientPractice FROM RLS.vw_Patient
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+AND GPPracticeCode IS NOT NULL
+GROUP BY FK_Patient_Link_ID;
+-- 1298467 rows
+-- 00:00:11
+
+-- Find the patients who remain unmatched
+IF OBJECT_ID('tempdb..#UnmatchedPatientsForPracticeCode') IS NOT NULL DROP TABLE #UnmatchedPatientsForPracticeCode;
+SELECT FK_Patient_Link_ID INTO #UnmatchedPatientsForPracticeCode FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientPractice;
+-- 12702 rows
+-- 00:00:00
+
+-- If every GPPracticeCode is the same for all their linked patient ids then we use that
+INSERT INTO #PatientPractice
+SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) FROM RLS.vw_Patient
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatientsForPracticeCode)
+AND GPPracticeCode IS NOT NULL
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(GPPracticeCode) = MAX(GPPracticeCode);
+-- 12141
+-- 00:00:00
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedPatientsForPracticeCode;
+INSERT INTO #UnmatchedPatientsForPracticeCode
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientPractice;
+-- 561 rows
+-- 00:00:00
+
+-- If there is a unique most recent gp practice then we use that
+INSERT INTO #PatientPractice
+SELECT p.FK_Patient_Link_ID, MIN(p.GPPracticeCode) FROM RLS.vw_Patient p
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM RLS.vw_Patient
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatientsForPracticeCode)
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+WHERE p.GPPracticeCode IS NOT NULL
+GROUP BY p.FK_Patient_Link_ID
+HAVING MIN(GPPracticeCode) = MAX(GPPracticeCode);
+-- 15
+
+--┌──────────────────┐
+--│ CCG lookup table │
+--└──────────────────┘
+
+-- OBJECTIVE: To provide lookup table for CCG names. The GMCR provides the CCG id (e.g. '00T', '01G') but not 
+--            the CCG name. This table can be used in other queries when the output is required to be a ccg 
+--            name rather than an id.
+
+-- INPUT: No pre-requisites
+
+-- OUTPUT: A temp table as follows:
+-- #CCGLookup (CcgId, CcgName)
+-- 	- CcgId - Nationally recognised ccg id
+--	- CcgName - Bolton, Stockport etc..
+
+IF OBJECT_ID('tempdb..#CCGLookup') IS NOT NULL DROP TABLE #CCGLookup;
+CREATE TABLE #CCGLookup (CcgId nchar(3), CcgName nvarchar(20));
+INSERT INTO #CCGLookup VALUES ('01G', 'Salford'); 
+INSERT INTO #CCGLookup VALUES ('00T', 'Bolton'); 
+INSERT INTO #CCGLookup VALUES ('01D', 'HMR'); 
+INSERT INTO #CCGLookup VALUES ('02A', 'Trafford'); 
+INSERT INTO #CCGLookup VALUES ('01W', 'Stockport');
+INSERT INTO #CCGLookup VALUES ('00Y', 'Oldham'); 
+INSERT INTO #CCGLookup VALUES ('02H', 'Wigan'); 
+INSERT INTO #CCGLookup VALUES ('00V', 'Bury'); 
+INSERT INTO #CCGLookup VALUES ('14L', 'Manchester'); 
+INSERT INTO #CCGLookup VALUES ('01Y', 'Tameside Glossop'); 
+
+IF OBJECT_ID('tempdb..#PatientPracticeAndCCG') IS NOT NULL DROP TABLE #PatientPracticeAndCCG;
+SELECT p.FK_Patient_Link_ID, ISNULL(pp.GPPracticeCode,'') AS GPPracticeCode, ISNULL(ccg.CcgName, '') AS CCG
+INTO #PatientPracticeAndCCG
+FROM #Patients p
+LEFT OUTER JOIN #PatientPractice pp ON pp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN SharedCare.Reference_GP_Practice gp ON gp.OrganisationCode = pp.GPPracticeCode
+LEFT OUTER JOIN #CCGLookup ccg ON ccg.CcgId = gp.Commissioner;
 
 -- Prepare discharge data
 IF OBJECT_ID('tempdb..#FinalDischarges') IS NOT NULL DROP TABLE #FinalDischarges;
 SELECT 
-	DischargeDate, l.AcuteProvider,	ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
+	DischargeDate, l.AcuteProvider, CASE WHEN CCG = 'Manchester' THEN 'Y' ELSE 'N' END AS IsManchesterCCGResident,
+	ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
 	ISNULL(LTCGroup, 'None') AS LTCGroup, CovidHealthcareUtilisation, count(*) AS NumberDischarged 
 	INTO #FinalDischarges
 FROM #LengthOfStay l
 LEFT OUTER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND c.AdmissionDate = l.AdmissionDate AND c.AcuteProvider = l.AcuteProvider
 LEFT OUTER JOIN #LTCGroups ltc ON ltc.FK_Patient_Link_ID = l.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = l.FK_Patient_Link_ID
-GROUP BY DischargeDate, l.AcuteProvider,IMD2019Decile1IsMostDeprived10IsLeastDeprived, LTCGroup, CovidHealthcareUtilisation;
+LEFT OUTER JOIN #PatientPracticeAndCCG ppc ON ppc.FK_Patient_Link_ID = l.FK_Patient_Link_ID
+GROUP BY DischargeDate, l.AcuteProvider,CASE WHEN CCG = 'Manchester' THEN 'Y' ELSE 'N' END,IMD2019Decile1IsMostDeprived10IsLeastDeprived, LTCGroup, CovidHealthcareUtilisation;
 -- 28764
 
 -- Prepare admission data
 IF OBJECT_ID('tempdb..#FinalAdmissions') IS NOT NULL DROP TABLE #FinalAdmissions;
 SELECT 
-	p.AdmissionDate, p.AcuteProvider, ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
+	p.AdmissionDate, p.AcuteProvider, CASE WHEN CCG = 'Manchester' THEN 'Y' ELSE 'N' END AS IsManchesterCCGResident,
+	ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
 	ISNULL(LTCGroup, 'None') AS LTCGroup, CovidHealthcareUtilisation,
 	SUM(CASE WHEN AdmissionType = 'Unplanned' THEN 1 ELSE 0 END) AS NumberUnplannedAdmissions,
 	SUM(CASE WHEN AdmissionType = 'Planned' THEN 1 ELSE 0 END) AS NumberPlannedAdmissions,
@@ -1154,24 +1263,25 @@ FROM #AdmissionTypes p
 	LEFT OUTER JOIN #LengthOfStay l ON l.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND l.AdmissionDate = p.AdmissionDate AND l.AcuteProvider = p.AcuteProvider
 	LEFT OUTER JOIN #LTCGroups ltc ON ltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 	LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+	LEFT OUTER JOIN #PatientPracticeAndCCG ppc ON ppc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE l.LengthOfStay IS NOT NULL
-GROUP BY p.AdmissionDate,p.AcuteProvider,IMD2019Decile1IsMostDeprived10IsLeastDeprived, CovidHealthcareUtilisation,LTCGroup;
+GROUP BY p.AdmissionDate,p.AcuteProvider,CASE WHEN CCG = 'Manchester' THEN 'Y' ELSE 'N' END,IMD2019Decile1IsMostDeprived10IsLeastDeprived, CovidHealthcareUtilisation,LTCGroup;
 -- 29833
 
 -- Find unique combinations of data, provider, decile, ltcGroup and covid utilisation
 IF OBJECT_ID('tempdb..#CovariateCombinations') IS NOT NULL DROP TABLE #CovariateCombinations;
-SELECT DISTINCT DischargeDate AS [Date], AcuteProvider, IMD2019Decile1IsMostDeprived10IsLeastDeprived, LTCGroup, CovidHealthcareUtilisation
+SELECT DISTINCT DischargeDate AS [Date], AcuteProvider, IsManchesterCCGResident, IMD2019Decile1IsMostDeprived10IsLeastDeprived, LTCGroup, CovidHealthcareUtilisation
 INTO #CovariateCombinations
 FROM #FinalDischarges
 UNION
-SELECT DISTINCT AdmissionDate, AcuteProvider,IMD2019Decile1IsMostDeprived10IsLeastDeprived, LTCGroup, CovidHealthcareUtilisation
+SELECT DISTINCT AdmissionDate, AcuteProvider,IsManchesterCCGResident,IMD2019Decile1IsMostDeprived10IsLeastDeprived, LTCGroup, CovidHealthcareUtilisation
 FROM #FinalAdmissions
 --32352
 
 -- Bring it all together for output
 -- PRINT 'Date,AcuteProvider,IMD2019Decile1IsMostDeprived10IsLeastDeprived,LTCGroup,CovidHealthcareUtilisation,NumberMaternityAdmissions,NumberPlannedAdmissions,NumberTransferAdmissions,NumberUnknownAdmissions,NumberUnplannedAdmissions,NumberDischarged';
 SELECT 
-	cc.[Date], cc.AcuteProvider, cc.IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
+	cc.[Date], cc.AcuteProvider, cc.IsManchesterCCGResident, cc.IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
 	cc.LTCGroup, cc.CovidHealthcareUtilisation,
 	ISNULL(fa.NumberMaternityAdmissions, 0) AS NumberMaternityAdmissions, 
 	ISNULL(fa.NumberPlannedAdmissions, 0) AS NumberPlannedAdmissions, 
@@ -1185,11 +1295,13 @@ LEFT OUTER JOIN #FinalAdmissions fa ON
 	fa.AcuteProvider = cc.AcuteProvider AND
 	fa.IMD2019Decile1IsMostDeprived10IsLeastDeprived = cc.IMD2019Decile1IsMostDeprived10IsLeastDeprived AND
 	fa.LTCGroup = cc.LTCGroup AND
-	fa.CovidHealthcareUtilisation = cc.CovidHealthcareUtilisation
+	fa.CovidHealthcareUtilisation = cc.CovidHealthcareUtilisation AND
+	fa.IsManchesterCCGResident = cc.IsManchesterCCGResident
 LEFT OUTER JOIN #FinalDischarges fd ON 
 	fd.DischargeDate = cc.[Date] AND
 	fd.AcuteProvider = cc.AcuteProvider AND
 	fd.IMD2019Decile1IsMostDeprived10IsLeastDeprived = cc.IMD2019Decile1IsMostDeprived10IsLeastDeprived AND
 	fd.LTCGroup = cc.LTCGroup AND
-	fd.CovidHealthcareUtilisation = cc.CovidHealthcareUtilisation
-ORDER BY cc.[Date], cc.AcuteProvider, cc.IMD2019Decile1IsMostDeprived10IsLeastDeprived, cc.LTCGroup, cc.CovidHealthcareUtilisation;
+	fd.CovidHealthcareUtilisation = cc.CovidHealthcareUtilisation AND
+	fd.IsManchesterCCGResident = cc.IsManchesterCCGResident
+ORDER BY cc.[Date], cc.AcuteProvider, cc.IsManchesterCCGResident, cc.IMD2019Decile1IsMostDeprived10IsLeastDeprived, cc.LTCGroup, cc.CovidHealthcareUtilisation;

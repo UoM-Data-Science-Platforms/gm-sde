@@ -1,5 +1,5 @@
 --┌─────────────────────────────────┐
---│ Primary care utilisation file 3 │
+--│ Primary care utilisation file 6 │
 --└─────────────────────────────────┘
 
 -- OUTPUT: Data with the following fields

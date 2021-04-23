@@ -271,6 +271,24 @@ A temp table as follows:
 _File_: `query-patient-imd.sql`
 
 ---
+## Likely hospital for each LSOA
+For each LSOA to get the hospital that most residents would visit.
+
+_Input_
+```
+No pre-requisites
+```
+
+_Output_
+```
+A temp table as follows:
+ #LikelyLSOAHospital (LSOA, LikelyLSOAHospital)
+	- LSOA - nationally recognised LSOA identifier
+ 	- LikelyLSOAHospital - name of most likely hospital for this LSOA
+```
+_File_: `query-patient-lsoa-likely-hospital.sql`
+
+---
 ## Long-term condition groups per patient
 To provide the long-term condition group or groups for each patient. Examples of long term condition groups would be: Cardiovascular, Endocrine, Respiratory
 
