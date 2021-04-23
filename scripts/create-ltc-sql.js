@@ -166,6 +166,7 @@ function createSQL() {
     'Painful Condition',
     'Epilepsy',
     'Migraine',
+    'Psoriasis Or Eczema',
   ];
   const sql = `--
 --┌──────────────────────┐
@@ -326,8 +327,12 @@ IF OBJECT_ID('tempdb..#LTCTemp') IS NOT NULL DROP TABLE #LTCTemp;
 SELECT DISTINCT FK_Patient_Link_ID, EventDate, FK_Reference_SnomedCT_ID, FK_Reference_Coding_ID INTO #LTCTemp 
 FROM RLS.vw_GP_Events e
 WHERE (
-	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition NOT IN ('Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Migraine','Cancer')) OR
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition NOT IN ('Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Migraine','Cancer'))
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition NOT IN ('${specialConditions.join(
+    "','"
+  )}')) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition NOT IN ('${specialConditions.join(
+    "','"
+  )}'))
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND EventDate < @StartDate;
@@ -366,6 +371,10 @@ SELECT DISTINCT FK_Patient_Link_ID, CAST(MedicationDate AS DATE) AS MedicationDa
 		  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Epilepsy')
 		) THEN 'Epilepsy'
 		WHEN (
+		  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Psoriasis Or Eczema') OR
+		  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Psoriasis Or Eczema')
+		) THEN 'Psoriasis Or Eczema'
+		WHEN (
 		  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Dyspepsia') OR
 		  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Dyspepsia')
 		) THEN 'Dyspepsia'
@@ -373,8 +382,8 @@ SELECT DISTINCT FK_Patient_Link_ID, CAST(MedicationDate AS DATE) AS MedicationDa
 INTO #LTCTempMedsLastYear 
 FROM RLS.vw_GP_Medications
 WHERE (
-	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition in ('Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Migraine')) OR
-	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition in ('Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Migraine'))
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition in ('Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Psoriasis Or Eczema','Migraine')) OR
+	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition in ('Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Psoriasis Or Eczema','Migraine'))
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate < @StartDate
@@ -437,6 +446,23 @@ SELECT FK_Patient_Link_ID, 'Epilepsy' FROM #LTCTempMedsLastYear
 WHERE Condition = 'Epilepsy'
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 GROUP BY FK_Patient_Link_ID, Condition;
+
+-- Psoriasis Or Eczema read code ever AND >= 4 Rx in last year
+INSERT INTO #PatientsWithLTCs
+SELECT DISTINCT FK_Patient_Link_ID, 'Psoriasis Or Eczema'
+FROM RLS.vw_GP_Events e
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #SNOMEDRefCodes WHERE condition = 'Psoriasis Or Eczema') OR
+	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #RefCodes WHERE condition = 'Psoriasis Or Eczema')
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < @StartDate
+INTERSECT
+SELECT FK_Patient_Link_ID, 'Psoriasis Or Eczema' FROM #LTCTempMedsLastYear
+WHERE Condition = 'Psoriasis Or Eczema'
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+GROUP BY FK_Patient_Link_ID, Condition
+HAVING COUNT(*) >= 4;
 
 -- IBS read code ever OR >= 4 Rx in last year
 -- Irritable Bowel Syndrome >= 4 Rx in last year
