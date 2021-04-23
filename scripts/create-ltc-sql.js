@@ -34,7 +34,7 @@ const createLtcSql = () => {
   writeFileSync(OUTPUT_GROUP_FILE, groupSql);
 };
 
-createLtcSql();
+// createLtcSql();
 
 module.exports = { createLtcSql };
 
