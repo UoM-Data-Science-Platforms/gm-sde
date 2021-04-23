@@ -1,0 +1,650 @@
+emis	Description
+ALOI4565	Alclometasone Dipropionate  Ointment  0.05 %
+AUCR250	Aureocort  Cream  
+BELO9285BRIDL	Betnovate  Lotion  0.1 %
+BEOI4642	Betamethasone  Ointment  0.05 % (as dipropionate)
+CACR477	Canesten Hc  Cream  
+CLSC643	Clobetasol Propionate  Scalp application  0.05 %
+DEOI9530EMIS	Desoxymethasone  Oily cream  0.05 %
+DICR8836EGTON	Dithrocream Hp  Cream  1.0 %
+DILO3454	Diprosalic  Scalp application  0.05 % + 2 %
+DIOI6779	Dithranol  Ointment  2 %
+DIPAEGTON6493	Dithranol  Paste  0.1 %
+DISC3458	Diprosone  Lotion  0.05 %
+EFOI1026	Efcortelan  Ointment  0.5 %
+EPOR34197EMIS	Epogam  Oral emulsion  160 mg/5 ml
+EUOI1125	Eumovate  Ointment  0.05 %
+EXLO33003EMIS	Exorex  Lotion  5 % Cutaneous Emulsion (1 % prepared coal tar)
+FUCR984NEMIS	Fusidic Acid And Betamethasone Valerate  Cream  2 % + 0.1 %
+FUCR986NEMIS	Fusidic Acid And Hydrocortisone Acetate  Cream  2 % + 1 %
+GROI3669	Gregoderm  Ointment  
+HYOI1395	Hydrocortisone  Ointment  0.5 %
+ICOIEGTON6520	Ichthammol  Ointment  10 % BP
+NELO1958	Neo-Medrone  Lotion  
+PRCR2385	Propaderm  Cream  0.025 %
+PSBA9884BRIDL	Psoriderm  Bath emulsion  40 %
+QUCR4250	Quinocort  Cream  
+SIGE77608NEMIS	Silderm Scar  Gel  
+SISP79258NEMIS	Silderm Scar  Spray  
+TECR4401	Terra-Cortril Nystatin  Cream  
+TEOI2821	Terra-Cortril  Ointment  
+ALCREGTON6483	Alphosyl Hc  Cream  
+BEOI16714NEMIS	Betamethasone Dipropionate And Calcipotriol  Ointment  0.05 % + 50 micrograms/gram
+BEOI357	Betnovate  Ointment  0.1 %
+CLCR644	Clobetasone Butyrate  Cream  0.05 %
+COOIEGTON6437	Coal Tar And Salicylic Acid  Ointment  BP
+COSH8177	Coal Tar Extract  Shampoo  2 %
+DECR840	Dermovate  Cream  0.05 %
+DEOI841	Dermovate  Ointment  0.05 %
+DICR27177EMIS	Dithranol  Cream  0.5 %
+DOOI12900NEMIS	Dovobet  Ointment  
+EFOI1026	Efcortelan  Ointment  0.5 %
+ADCR9287BRIDL	Adcortyl  Cream  0.1 %
+ALCA31056NEMIS	Alitretinoin  Capsules  30 mg
+ALOI9174EMIS	Alphodith  Ointment  0.4 %
+ANWAEGTON6506	Antraderm Forte  Wax stick  2 %
+BECR19371NEMIS	Betamethasone Valerate And Clioquinol  Cream  0.1 % + 3 %
+BEOI17530NEMIS	Beclometasone  Ointment  0.025 %
+BEOI20607EMIS	Betamethasone Valerate  Ointment  0.025 %
+BESC358	Betnovate  Scalp application  0.1 %
+CASC25445EMIS	Calcipotriol  Scalp solution  50 micrograms/ml
+DIOI9416HILLI	Diflucortolone Valerate  Ointment  0.3 %
+DOGE103696NEMIS	Dovobet  Gel Applicator  
+EUCR1123	Eumovate  Cream  0.05 %
+FLOI17666NEMIS	Fludroxycortide  Ointment  0.0125 %
+FLOI7099	Fluclorolone Acetonide  Ointment  0.025 %
+GAPA34976EMIS	Gamolenic Acid  Paediatric Capsules  80 mg
+GEOI9230EMIS	Gentisone Hc  Ointment  
+HYOIEGTON6230	Hydromol Bath And Shower  Emollient  
+LECR1633	Ledercort  Cream  0.1 %
+LOEM28231EMIS	Locoid Crelo  Emulsion  0.1 %
+LOOI8683EGTON	Locoid  Ointment  0.1 %
+NECR4020	Nerisone  Cream  0.1 %
+NEOI10464BRIDL	Nerisone Forte  Ointment  0.3 %
+NEOI4021	Nerisone  Ointment  0.1 %
+NYOI2048	Nystaform-Hc  Ointment  
+PROI12895NEMIS	Protopic  Ointment  0.03 %
+PSGE2408	Psorigel  Gel  7.5 %
+PSSC26051EMIS	Psorin  Scalp gel  
+PSSCEGTON8184	Psoriderm  Scalp lotion  
+STLO9650BRIDL	Stiedex  Lotion  
+SYCR2762	Synalar  Cream  1 in 4 dilution 0.00625 %
+TOCA31058NEMIS	Toctino  Capsules  10 mg
+TOCREGTON6245	Topilar  Cream  0.025 %
+TROI2908	Triamcinolone  Ointment  0.1 %
+ULCREGTON6268	Ultralanum Plain  Cream  
+ZIPAEGTON6447	Zinc And Coal Tar  Paste  
+ALSH15458NEMIS	Alcoholic Coal Tar Extract  Shampoo  5 %
+BECR17529NEMIS	Beclometasone  Cream  0.025 %
+BECR356	Betnovate  Cream  0.1 %
+BEMO28663EMIS	Betamethasone Valerate  Mousse  0.12 % (= 0.1 % betamethasone)
+BEOI3241	Betnovate-Rd  Ointment  0.025 %
+FLOI17666NEMIS	Fludroxycortide  Ointment  0.0125 %
+HAOIEGTON6273	Haelan  Ointment  0.0125 %
+HYLO5008	Hydrocortisone Butyrate  Scalp lotion  0.1 %
+HYOI1397	Hydrocortisone  Ointment  2.5 %
+LOCR3847	Locoid  Cream  0.1 %
+PICR14319NEMIS	Pimecrolimus  Cream  1 %
+PROI12895NEMIS	Protopic  Ointment  0.03 %
+ALCA31054NEMIS	Alitretinoin  Capsules  10 mg
+AUOI251	Aureocort  Ointment  
+BECR4224NEMIS	Betamethasone  Cream  0.05 % (as dipropionate)
+BEME37176NEMIS	Betesil  Medicated Plaster  2.25 mg
+CAOIEGTON6429	Calamine And Coal Tar  Ointment  
+COLO3454NEMIS	Coal Tar  Lotion  1 %
+DEOI841	Dermovate  Ointment  0.05 %
+DICR27176EMIS	Dithranol  Cream  0.25 %
+DICR951	Dithranol  Cream  0.1 %
+DIOI9415HILLI	Diflucortolone Valerate  Oily cream  0.3 %
+DIPAEGTON6494	Dithranol  Paste  1 %
+DOOI9048EMIS	Dovonex  Ointment  50 micrograms/gram
+ELCR22373EMIS	Elocon  Cream  0.1 %
+EXCREGTON6514	Exolan  Cream  1 %
+FLCR24418EMIS	Fluticasone Propionate  Cream  0.05 %
+FLOI6919	Flurandrenolone  Ointment  0.05 %
+FUGE3612	Fucidin H  Gel  
+GEGEEGTON6459	Gelcosal  Gel  
+GELIEGTON8202	Gelcotar  Liquid  
+HYCR19695NEMIS	Hydrocortisone And Econazole  Cream  1 % + 1 %
+MESC1810	Metosyn  Scalp lotion  0.05 %
+PIBA20875NEMIS	Pinetarsol  Bath oil  2.3 %
+PRCR9447BRIDL	Preferid  Cream  0.025 %
+STCR4341	Stiedex Lpn  Oily cream  
+SYCR9250BRIDL	Synalar N  Cream  
+SYGE2763	Synalar  Gel  0.025 %
+SYOI2766	Synalar-N  Ointment  
+SYOIEGTON6251	Synalar 1 In 4 Dilution  Ointment  0.00625 %
+TAOI12897NEMIS	Tacrolimus  Ointment  0.03 %
+BECR20606EMIS	Betamethasone Valerate  Cream  0.025 %
+BEME37176NEMIS	Betesil  Medicated Plaster  2.25 mg
+CACR23976EMIS	Calcipotriol  Cream  50 micrograms/gram
+CLOI642	Clobetasol Propionate  Ointment  0.05 %
+CLOI76909NEMIS	Clobaderm  Ointment  0.05 %
+COSH3455NEMIS	Coal Tar  Shampoo  4.3 %
+DICR27178EMIS	Dithranol  Cream  1 %
+DICR27179EMIS	Dithranol  Cream  2 %
+DOGE103696NEMIS	Dovobet  Gel Applicator  
+EUOI1125	Eumovate  Ointment  0.05 %
+FUOI3613	Fucidin H  Ointment  
+ICBAEGTON7996	Ichthopaste  Bandage  7.5 cm x 6 m
+BECR279	Beclomethasone Dipropionate  Cream  0.025 %
+CACR462	Calmurid Hc  Cream  
+CULO28858NEMIS	Curatoderm  Lotion  4 micrograms/gram
+CUOI28149EMIS	Cutivate  Ointment  0.005 %
+DICR3449	Dioderm  Cream  0.1 %
+DICR8834EGTON	Dithrocream  Cream  2.0 %
+DIOI6777	Dithranol  Ointment  0.4 %
+ELLO22376EMIS	Elocon  Scalp lotion  0.1 %
+EUCR1130	Eurax-Hydrocortisone  Cream  
+FLCR6918	Flurandrenolone  Cream  0.05 %
+GACA9247EMIS	Gamolenic Acid  Capsules  80 mg
+GEOI1294	Genticin Hc  Ointment  
+HAOIEGTON6283	Haelan-C  Ointment  
+HYCR3725	Hydrocortisone And Neomycin  Cream  
+HYCR9283BRIDL	Hydrocortisone  Cream  0.1 %
+HYLI24449EMIS	Hydrocortisone Butyrate  Lipocream  0.1 %
+HYLO5008	Hydrocortisone Butyrate  Scalp lotion  0.1 %
+HYOI5002	Hydrocortisone  Ointment  1 %
+LOCR10176BRIDL	Lotriderm  Cream  
+PICR14319NEMIS	Pimecrolimus  Cream  1 %
+PROI2386	Propaderm  Ointment  0.025 %
+PSCR10465BRIDL	Psoradrate  Cream  0.2 %
+SECR9535BRIDL	Sential E  Cream  
+SYCR2761	Synalar  Cream  0.025 %
+TROI4457	Trimovate  Ointment  
+ZIBA7645	Zinc Paste And Coal Tar  Bandage Bp  7.5 cm x 6 m
+COBA3456NEMIS	Coal Tar  Bath emulsion  40 %
+CULO28858NEMIS	Curatoderm  Lotion  4 micrograms/gram
+DACR792	Daktacort  Cream  2 % + 1 %
+DICR29934EMIS	Dithranol  Cream  3 %
+DISC3458	Diprosone  Lotion  0.05 %
+EFCR1025	Efcortelan  Cream  2.5 %
+ELLO22376EMIS	Elocon  Scalp lotion  0.1 %
+FLOI1202	Fluocinonide  Ointment  0.05 %
+FUCR29325NEMIS	Fucibet Lipid  Cream  
+FUCR3611	Fucidin H  Cream  
+FUCR984NEMIS	Fusidic Acid And Betamethasone Valerate  Cream  2 % + 0.1 %
+HATA41275NEMIS	Haelan  Tape  4 micrograms/square cm, 7.5 cm
+HYCR48123NEMIS	Hydromol Hc Intensive  Cream  
+HYCR5007	Hydrocortisone Butyrate  Cream  0.1 %
+HYOI1395	Hydrocortisone  Ointment  0.5 %
+ALOI9176EMIS	Alphodith  Ointment  2 %
+BECR19489NEMIS	Betamethasone Valerate And Neomycin  Cream  0.1 % + 0.5 %
+BEOI16714NEMIS	Betamethasone Dipropionate And Calcipotriol  Ointment  0.05 % + 50 micrograms/gram
+BESC348	Betamethasone Valerate  Scalp application  0.1 %
+CLCR644	Clobetasone Butyrate  Cream  0.05 %
+DACR792	Daktacort  Cream  2 % + 1 %
+DECR4813	Desoxymethasone  Oily cream  0.25 %
+DECR840	Dermovate  Cream  0.05 %
+DICR29934EMIS	Dithranol  Cream  3 %
+DICR4836	Diflucortolone Valerate  Cream  0.1 %
+DOCR23974EMIS	Dovonex  Cream  50 micrograms/gram
+EFLO3497	Efcortelan  Lotion  1 %
+FLCR7098	Fluclorolone Acetonide  Cream  0.025 %
+FLGE1199	Fluocinolone Acetonide  Gel  0.025 %
+FLOI7087	Fluocinolone Acetonide  Ointment  0.01 %
+FROI9292BRIDL	Framycort  Ointment  
+HYCR1389	Hydrocortisone  Cream  0.5 %
+HYCR40021NEMIS	Hydromol Intensive  Cream  10 %
+MOOI22382EMIS	Mometasone Furoate  Ointment  0.1 %
+PRCR8887BRIDL	Pragmatar  Cream  
+STCR4340	Stiedex  Oily cream  0.25 %
+STOI10474HILLI	Stiedex Lp  Oily cream  0.05 %
+TAGE31233EMIS	Tazarotene  Gel  0.1 %
+TICR2861	Timodine  Cream  
+TROI2905	Tri-Adcortyl  Ointment  
+ULCREGTON6262	Ultradil Plain  Cream  
+ULOIEGTON6269	Ultralanum Plain  Ointment  
+ALCREGTON6452	Alphosyl  Cream  
+BECR361	Betnovate-N  Cream  
+CLCR972NEMIS	Clotrimazole And Hydrocortisone  Cream  1 % + 1 %
+CLCU22350NEMIS	Clarelux  Cutaneous Foam  500 micrograms/gram
+CUOI28093EMIS	Curatoderm  Ointment  4 micrograms/gram
+DESC842	Dermovate  Scalp application  0.05 %
+DOSC25443EMIS	Dovonex  Scalp solution  50 micrograms/ml
+EFCR1024	Efcortelan  Cream  1 %
+EFOI1027	Efcortelan  Ointment  1 %
+EFOI1028	Efcortelan  Ointment  2.5 %
+ETSH26228NEMIS	Etrivex  Shampoo  500 micrograms/gram
+EXLO33003EMIS	Exorex  Lotion  5 % Cutaneous Emulsion (1 % prepared coal tar)
+ALCREGTON6452	Alphosyl  Cream  
+ALSH15458NEMIS	Alcoholic Coal Tar Extract  Shampoo  5 %
+ANWAEGTON6504	Antraderm  Wax stick  1 %
+BECR4641	Betamethasone  Cream  0.025 %
+BELO25403EMIS	Betamethasone Valerate  Lotion  0.1 %
+BELO3068NEMIS	Betamethasone  Lotion  0.05 % (as dipropionate)
+CASOEGTON8223	Calmurid  Solution  
+CLCR76911NEMIS	Clobaderm  Cream  0.05 %
+CLOI76909NEMIS	Clobaderm  Ointment  0.05 %
+COCR10749BRIDL	Cobadex 1%  Cream  
+COCR6832	Coal Tar Solution  Cream  10 %
+DEOI3407	Dermovate-Nn  Ointment  
+DIOI3455	Diprosalic  Ointment  0.05 % + 3 %
+DIOI3457	Diprosone  Ointment  0.05 %
+FLCR7083	Fluocinolone Acetonide  Cream  0.0025 %
+FLCR7084	Fluocinolone Acetonide  Cream  0.00625 %
+HACREGTON7205	Halciderm Topical  Cream  0.1 %
+HYCR990NEMIS	Hydrocortisone And Miconazole  Cream  1 % + 2 %
+HYOI3733	Hydroderm  Ointment  
+QUCREGTON7257	Quinoderm With Hydrocortisone  Cream  
+SYCREGTON6250	Synalar 1 In 4 Dilution  Cream  0.00625 %
+TRCR4445	Tridesilon  Cream  0.05 %
+VICR4514	Vioform-Hydrocortisone  Cream  
+ACCA22022EMIS	Acitretin  Capsules  25 mg
+ALCA31054NEMIS	Alitretinoin  Capsules  10 mg
+ALSH22044EMIS	Alphosyl 2 In 1  Shampoo  5 %
+BECR346	Betamethasone Valerate  Cream  0.1 %
+BELO25403EMIS	Betamethasone Valerate  Lotion  0.1 %
+CAOI9050EMIS	Calcipotriol  Ointment  50 micrograms/gram
+CLSC643	Clobetasol Propionate  Scalp application  0.05 %
+DICR8834EGTON	Dithrocream  Cream  2.0 %
+EUCR1130	Eurax-Hydrocortisone  Cream  
+GACA9247EMIS	Gamolenic Acid  Capsules  80 mg
+HYCR10214BRIDL	Hydromol  Cream  
+HYCR19695NEMIS	Hydrocortisone And Econazole  Cream  1 % + 1 %
+HYEM28233EMIS	Hydrocortisone Butyrate  Emulsion  0.1 %
+HYOI15521NEMIS	Hydromol  Ointment  
+ICBA10492BRIDL	Icthaband  Bandage  7.5 cm x 6 m
+LOCR1680	Locoid C  Cream  
+LOEM28231EMIS	Locoid Crelo  Emulsion  0.1 %
+ACCA22021EMIS	Acitretin  Capsules  10 mg
+ALCR81	Alphaderm  Cream  1 % + 10 %
+ALOI9177EMIS	Alphodith  Ointment  3 %
+ALSH8938BRIDL	Alphosyl  Shampoo  
+AUCR81523NEMIS	Audavate Rd  Cream  0.025 %
+BACR3218	Barquinol Hc  Cream  
+BECR17529NEMIS	Beclometasone  Cream  0.025 %
+BECR346	Betamethasone Valerate  Cream  0.1 %
+BECR359	Betnovate-C  Cream  
+BEOI360	Betnovate-C  Ointment  
+BUOI9458EMIS	Budesonide  Ointment  0.025 %
+CLCR10591BRIDL	Clinitar  Cream  1 %
+CLCR972NEMIS	Clotrimazole And Hydrocortisone  Cream  1 % + 1 %
+CLOI642	Clobetasol Propionate  Ointment  0.05 %
+CLOI646	Clobetasone Butyrate  Ointment  0.05 %
+COSH3455NEMIS	Coal Tar  Shampoo  4.3 %
+CUOI10969NEMIS	Curatoderm  Ointment (pump dispenser)  4 micrograms/gram
+DICR3456	Diprosone  Cream  0.05 %
+DIOI953	Dithrolan  Ointment  
+DOGE51183NEMIS	Doublebase Dayleve  Gel  
+EFOI1028	Efcortelan  Ointment  2.5 %
+FLCR17665NEMIS	Fludroxycortide  Cream  0.0125 %
+GACA26356EMIS	Gammolin  Capsules  40 mg
+HYCR48123NEMIS	Hydromol Hc Intensive  Cream  
+HYOI15521NEMIS	Hydromol  Ointment  
+HYOI3730	Hydrocortisyl  Ointment  1 %
+HYOI991NEMIS	Hydrocortisone And Miconazole  Ointment  1 % + 2 %
+MEOI1809	Metosyn  Ointment  0.05 %
+PIGE20878NEMIS	Pine Tar  Gel  1.6 %
+PILI26048EMIS	Pixol  Liquid
+PROI9449BRIDL	Preferid  Ointment  0.025 %
+SYCR10746BRIDL	Synalar C  Cream  
+SYOI2764	Synalar  Ointment  0.025 %
+TABA10112BRIDL	Tarband  Bandage  7.5cm x 6m
+TEOIEGTON6243	Temetex  Ointment  0.1 %
+TOOIEGTON6247	Topilar  Ointment  0.025 %
+ZOGE31228EMIS	Zorac  Gel  0.05 %
+ALOI4565	Alclometasone Dipropionate  Ointment  0.05 %
+BECR19489NEMIS	Betamethasone Valerate And Neomycin  Cream  0.1 % + 0.5 %
+BECR359	Betnovate-C  Cream  
+BECR4224NEMIS	Betamethasone  Cream  0.05 % (as dipropionate)
+ANOIEGTON6496	Anthranol 0.4  Ointment  0.4 %
+BEMO28663EMIS	Betamethasone Valerate  Mousse  0.12 % (= 0.1 % betamethasone)
+BUCR9191HILLI	Budesonide  Cream  0.025 %
+CACREGTON7230	Carbo-Dome  Cream  10 %
+DAOI8859BRIDL	Daktacort  Ointment  
+DICR27178EMIS	Dithranol  Cream  1 %
+DICR8830EGTON	Dithrocream  Cream  0.25 %
+EFCA32881EMIS	Efamast 80  Capsules  80 mg
+EPFO3522	Epifoam  Foam
+FUOI3613	Fucidin H  Ointment  
+HYCREGTON6239	Hydrocortisone  Cream  1 %
+LOLO3848	Locoid  Scalp lotion  0.1 %
+MECR1808	Metosyn  Cream  0.05 %
+MOCR3962	Modrasone  Cream  0.05 %
+NECR9298BRIDL	Neo-Medrone  Cream  
+NYCREGTON7208	Nystadermal  Cream  
+PACREGTON6488	Parfenac  Cream  5 %
+PECR9525BRIDL	Pevaryl Tc  Cream  
+PIGE20879NEMIS	Pinetarsol  Gel  1.6 %
+SECR4309	Sential  Cream  
+TACR10968NEMIS	Tacalcitol Monohydrate  Ointment (pump dispenser)  4 micrograms/gram
+TRCR2904	Tri-Adcortyl  Cream  
+TROI4444	Tri-Adcortyl Otic  Ointment  
+TROI8562EGTON	Tri-Cicatrin  Ointment  
+VIOI4515	Vioform-Hydrocortisone  Ointment  
+ZIPAEGTON6536	Zinc And Salicylic Acid  Paste  
+AUOI251	Aureocort  Ointment  
+BEMO28661EMIS	Bettamousse  Mousse  0.12 %
+BEOI17530NEMIS	Beclometasone  Ointment  0.025 %
+BEOI19372NEMIS	Betamethasone Valerate And Clioquinol  Ointment  0.1 % + 3 %
+BEOI347	Betamethasone Valerate  Ointment  0.1 %
+BESC26818EMIS	Betacap  Scalp application  0.1 %
+BESC358	Betnovate  Scalp application  0.1 %
+CLCR10591BRIDL	Clinitar  Cream  1 %
+CUCR24416EMIS	Cutivate  Cream  0.05 %
+DICR27176EMIS	Dithranol  Cream  0.25 %
+DICR4836	Diflucortolone Valerate  Cream  0.1 %
+DICR9302BRIDL	Dithrocream  Cream  0.5 %
+DIOI9416HILLI	Diflucortolone Valerate  Ointment  0.3 %
+ECCR3485	Econacort  Cream  
+GROI3669	Gregoderm  Ointment  
+ALCR4564	Alclometasone Dipropionate  Cream  0.05 %
+BECR20606EMIS	Betamethasone Valerate  Cream  0.025 %
+BECR361	Betnovate-N  Cream  
+BEOI19372NEMIS	Betamethasone Valerate And Clioquinol  Ointment  0.1 % + 3 %
+BEOI8753BRIDL	Betnovate-N  Ointment  
+CACR11263NEMIS	Canesten Hydrocortisone  Cream  
+CACR22644EMIS	Carbo-Cort  Cream  
+CACR23976EMIS	Calcipotriol  Cream  50 micrograms/gram
+CLCU22350NEMIS	Clarelux  Cutaneous Foam  500 micrograms/gram
+COCR3458NEMIS	Coal Tar Extract  Cream  1 %
+COOI699	Coal Tar  Ointment  bpc 1934
+CUCR24416EMIS	Cutivate  Cream  0.05 %
+DESC842	Dermovate  Scalp application  0.05 %
+DICR9302BRIDL	Dithrocream  Cream  0.5 %
+DICR952	Dithrocream  Cream  0.1 %
+DIOI6778	Dithranol  Ointment  1 %
+ELOI22374EMIS	Elocon  Ointment  0.1 %
+EPCA9245EMIS	Epogam Paediatric  Paediatric Capsules  80 mg
+ETSH26228NEMIS	Etrivex  Shampoo  500 micrograms/gram
+FLOI28151EMIS	Fluticasone Propionate  Ointment  0.005 %
+HACREGTON6272	Haelan  Cream  0.0125 %
+HYCR5007	Hydrocortisone Butyrate  Cream  0.1 %
+HYEM28233EMIS	Hydrocortisone Butyrate  Emulsion  0.1 %
+LOCR3847	Locoid  Cream  0.1 %
+MICR29932EMIS	Micanol  Cream  3 %
+SAOIEGTON6584	Salicylic Acid And Sulfur  Ointment  
+T/SHEGTON8178	T/Gel  Therapeutic Shampoo  2 %
+TAOI12898NEMIS	Tacrolimus  Ointment  0.1 %
+TOCA31059NEMIS	Toctino  Capsules  30 mg
+TRCR2907	Triamcinolone  Cream  0.1 %
+XAGE33328NEMIS	Xamiol  Gel  
+ZIBA7995	Zinc Paste And Ichthammol  Bandage Bp  7.5 cm x 6 m
+ZOGE31229EMIS	Zorac  Gel  0.1 %
+ALLOEGTON6453	Alphosyl  Lotion  
+BECR3240	Betnovate-Rd  Cream  0.025 %
+BESC348	Betamethasone Valerate  Scalp application  0.1 %
+CACR477	Canesten Hc  Cream  
+CLCR641	Clobetasol Propionate  Cream  0.05 %
+CLCU22348NEMIS	Clobetasol Propionate  Cutaneous Foam  500 micrograms/gram
+ALCREGTON6483	Alphosyl Hc  Cream  
+AUOI81524NEMIS	Audavate Rd  Ointment  0.025 %
+BABA10250BRIDL	Balneum With Tar  Bath oil
+BEMO28661EMIS	Bettamousse  Mousse  0.12 %
+BEOI19490NEMIS	Betamethasone Valerate And Neomycin  Ointment  0.1 % + 0.5 %
+CACR461	Calmurid  Cream  10 %
+CAOI9050EMIS	Calcipotriol  Ointment  50 micrograms/gram
+CLCU22348NEMIS	Clobetasol Propionate  Cutaneous Foam  500 micrograms/gram
+DOOI12900NEMIS	Dovobet  Ointment  
+DOSC25443EMIS	Dovonex  Scalp solution  50 micrograms/ml
+EFCR1024	Efcortelan  Cream  1 %
+ETCA10566BRIDL	Etretinate  Capsules  25 mg
+EVCR15221NEMIS	Evening Primrose Oil  Cream  20 %
+FLCR1197	Fluocinolone Acetonide  Cream  0.025 %
+FUCR29325NEMIS	Fucibet Lipid  Cream  
+GECR9229EMIS	Gentisone Hc  Cream  
+HATA35113EMIS	Haelan  Tape  4 micrograms/sq cm, 7.5 cm x 50 cm
+HATA41275NEMIS	Haelan  Tape  4 micrograms/square cm, 7.5 cm
+HYCR9606HILLI	Hydrocortistab  Cream  1 %
+HYOI3728	Hydrocortistab  Ointment  1 %
+KEGEEGTON6538	Keralyt  Gel  6 %
+LOCR1680	Locoid C  Cream  
+MICR29931EMIS	Micanol  Cream  1 %
+MOCR22380EMIS	Mometasone Furoate  Cream  0.1 %
+NECA22017EMIS	Neotigason  Capsules  10 mg
+NECA22018EMIS	Neotigason  Capsules  25 mg
+NYCR2047	Nystaform-Hc  Cream  
+PITO20877NEMIS	Pinetarsol  Topical solution  2.3 %
+POEM2299	Polytar  Emollient  
+PROI12896NEMIS	Protopic  Ointment  0.1 %
+PSCREGTON6470	Psoriderm  Cream  
+SAOI8787EGTON	Salicylic Acid  Ointment  2 %
+SEOI15013NEMIS	Sebco  Ointment  
+SYOI2765	Synalar-C  Ointment  
+TACREGTON6486	Tarcortin  Cream  
+TALO28857NEMIS	Tacalcitol Monohydrate  Lotion  4 micrograms/gram
+ACCA22021EMIS	Acitretin  Capsules  10 mg
+ALCA31056NEMIS	Alitretinoin  Capsules  30 mg
+ALCR81	Alphaderm  Cream  1 % + 10 %
+BEOI8753BRIDL	Betnovate-N  Ointment  
+ADOI9289BRIDL	Adcortyl  Ointment  0.1 %
+ALLOEGTON6453	Alphosyl  Lotion  
+ALSH22044EMIS	Alphosyl 2 In 1  Shampoo  5 %
+BECR356	Betnovate  Cream  0.1 %
+BEOI347	Betamethasone Valerate  Ointment  0.1 %
+CLSHEGTON8210	Clinitar  Shampoo  2 %
+COPA9999	Coal Tar  Paint  10 %
+CUOI28093EMIS	Curatoderm  Ointment  4 micrograms/gram
+DICR27177EMIS	Dithranol  Cream  0.5 %
+DICR27179EMIS	Dithranol  Cream  2 %
+DIOI4837	Diflucortolone Valerate  Ointment  0.1 %
+DIOI9490EMIS	Diflucortolone Valerate  Oily cream  0.1 %
+ECCR3485	Econacort  Cream  
+EFOI1027	Efcortelan  Ointment  1 %
+EUCR11329NEMIS	Eurax Hc  Cream  
+FLOI1200	Fluocinolone Acetonide  Ointment  0.025 %
+FLOI1202	Fluocinonide  Ointment  0.05 %
+GACA8477EGTON	Gamolenic Acid  Capsules  40 mg
+GEGEEGTON7233	Gelcotar  Gel  
+HYCR10214BRIDL	Hydromol  Cream  
+HYCR1391	Hydrocortisone  Cream  2.5 %
+HYCR9604HILLI	Hydrocal  Cream  1 %
+HYOI24450EMIS	Hydrocortisone Butyrate  Ointment  0.1 %
+ICBA10492BRIDL	Icthaband  Bandage  7.5 cm x 6 m
+ICBAEGTON7996	Ichthopaste  Bandage  7.5 cm x 6 m
+LOOI9295BRIDL	Locoid C  Ointment  
+MILI8502EGTON	Mildison  Lipocream  1 %
+MOLO22381EMIS	Mometasone Furoate  Scalp lotion  0.1 %
+MOOI3963	Modrasone  Ointment  0.05 %
+PITO20876NEMIS	Pine Tar  Topical solution  2.3 %
+PSCREGTON6508	Psoradrate  Cream  0.1 %
+SAOI34803EMIS	Salicylic Acid  Ointment  bp
+SAOI7271	Salicylic Acid  Ointment  50 %
+SYCREGTON6253	Synalar 1 In 10 Dilution  Cream  0.0025 %
+TAGE31232EMIS	Tazarotene  Gel  0.05 %
+TAOI28095EMIS	Tacalcitol Monohydrate  Ointment  4 micrograms/gram
+TESP2822	Terra-Cortril  Spray
+AUCR81523NEMIS	Audavate Rd  Cream  0.025 %
+BECR19371NEMIS	Betamethasone Valerate And Clioquinol  Cream  0.1 % + 3 %
+BEOI19490NEMIS	Betamethasone Valerate And Neomycin  Ointment  0.1 % + 0.5 %
+ACCA22022EMIS	Acitretin  Capsules  25 mg
+BECR3240	Betnovate-Rd  Cream  0.025 %
+BEME37226NEMIS	Betamethasone Valerate  Medicated Plaster  2.25 mg
+BEOI3241	Betnovate-Rd  Ointment  0.025 %
+BEOI357	Betnovate  Ointment  0.1 %
+BESC26818EMIS	Betacap  Scalp application  0.1 %
+BUCR9195HILLI	Bufexamac  Cream  5 %
+CLCR641	Clobetasol Propionate  Cream  0.05 %
+COBA3456NEMIS	Coal Tar  Bath emulsion  40 %
+COOIEGTON6437	Coal Tar And Salicylic Acid  Ointment  BP
+COPAEGTON6441	Coal Tar  Paste  bp, 7.5 %
+COSH8177	Coal Tar Extract  Shampoo  2 %
+DECR3406	Dermovate-Nn  Cream  
+DEOI17618NEMIS	Desoximetasone  Oily cream  0.05 %
+DIOI18884EMIS	Dithranol  Ointment  3 %
+DOGE45841NEMIS	Dovobet  Gel  
+ECCR3496	Eczederm With Hydrocortisone  Cream  
+EFCR1023	Efcortelan  Cream  0.5 %
+EFCR1025	Efcortelan  Cream  2.5 %
+ELCR14322NEMIS	Elidel  Cream  1 %
+FLCR1201	Fluocinonide  Cream  0.05 %
+FLSC1203	Fluocinonide  Scalp lotion  0.05 %
+FLTA41274NEMIS	Fludroxycortide  Tape  4 micrograms/square cm, 7.5 cm
+FUCR3609	Fucibet  Cream  
+FUCR3611	Fucidin H  Cream  
+HACR7204	Halcinonide  Cream  0.1 %
+HAOIEGTON6273	Haelan  Ointment  0.0125 %
+HYCR3729	Hydrocortisyl  Cream  1 %
+HYLO5001	Hydrocortisone  Lotion  1 %
+HYOI1397	Hydrocortisone  Ointment  2.5 %
+LEOI1634	Ledercort  Ointment  0.1 %
+LOCR6963	Locoid Lipocream  Cream  0.1 %
+MECREGTON6463	Meditar  Cream  5 %
+NEOI10458BRIDL	Nerisone  Oily cream  0.1 %
+NEOI10462BRIDL	Nerisone Forte  Oily cream  0.3 %
+NESH28314NEMIS	Neutrogena T/Gel  Shampoo  For Dry Hair
+PIBA20873NEMIS	Pine Tar  Bath oil  2.3 %
+PROI4221	Propaderm-A  Ointment  
+PSOIEGTON6512	Psorin  Ointment  
+TRCR4456	Trimovate  Cream  
+ULOIEGTON6263	Ultradil Plain  Ointment  
+FLCR17665NEMIS	Fludroxycortide  Cream  0.0125 %
+LOCR10176BRIDL	Lotriderm  Cream  
+LOOI9295BRIDL	Locoid C  Ointment  
+NEOI4021	Nerisone  Ointment  0.1 %
+NYCR2047	Nystaform-Hc  Cream  
+PITO20877NEMIS	Pinetarsol  Topical solution  2.3 %
+POEM2299	Polytar  Emollient  
+TROI2905	Tri-Adcortyl  Ointment  
+XAGE33328NEMIS	Xamiol  Gel  
+HYOI24450EMIS	Hydrocortisone Butyrate  Ointment  0.1 %
+HYOI5002	Hydrocortisone  Ointment  1 %
+MOOI3963	Modrasone  Ointment  0.05 %
+NESH28314NEMIS	Neutrogena T/Gel  Shampoo  For Dry Hair
+PSOIEGTON6512	Psorin  Ointment  
+SEOI15013NEMIS	Sebco  Ointment  
+SYOI2765	Synalar-C  Ointment  
+SYOI2766	Synalar-N  Ointment  
+TROI4444	Tri-Adcortyl Otic  Ointment  
+DILO3454	Diprosalic  Scalp application  0.05 % + 2 %
+DOCR23974EMIS	Dovonex  Cream  50 micrograms/gram
+EUCR1123	Eumovate  Cream  0.05 %
+EVCR15221NEMIS	Evening Primrose Oil  Cream  20 %
+FLCR24418EMIS	Fluticasone Propionate  Cream  0.05 %
+FLGE1199	Fluocinolone Acetonide  Gel  0.025 %
+FLTA41274NEMIS	Fludroxycortide  Tape  4 micrograms/square cm, 7.5 cm
+MILI8502EGTON	Mildison  Lipocream  1 %
+MOCR22380EMIS	Mometasone Furoate  Cream  0.1 %
+NEOI10458BRIDL	Nerisone  Oily cream  0.1 %
+NEOI10462BRIDL	Nerisone Forte  Oily cream  0.3 %
+PRCR2385	Propaderm  Cream  0.025 %
+PSCREGTON6470	Psoriderm  Cream  
+SYCR9250BRIDL	Synalar N  Cream  
+SYGE2763	Synalar  Gel  0.025 %
+TAGE31233EMIS	Tazarotene  Gel  0.1 %
+TAOI12897NEMIS	Tacrolimus  Ointment  0.03 %
+TECR4401	Terra-Cortril Nystatin  Cream  
+TRCR4456	Trimovate  Cream  
+LOLO3848	Locoid  Scalp lotion  0.1 %
+LOOI8683EGTON	Locoid  Ointment  0.1 %
+MEOI1809	Metosyn  Ointment  0.05 %
+MOOI22382EMIS	Mometasone Furoate  Ointment  0.1 %
+NEOI10464BRIDL	Nerisone Forte  Ointment  0.3 %
+QUCR4250	Quinocort  Cream  
+SAOI8787EGTON	Salicylic Acid  Ointment  2 %
+SYCREGTON6250	Synalar 1 In 4 Dilution  Cream  0.00625 %
+ZIPAEGTON6536	Zinc And Salicylic Acid  Paste  
+STLO9650BRIDL	Stiedex  Lotion  
+SYCR2761	Synalar  Cream  0.025 %
+SYOI2764	Synalar  Ointment  0.025 %
+TICR2861	Timodine  Cream  
+TOCA31059NEMIS	Toctino  Capsules  30 mg
+TRCR2904	Tri-Adcortyl  Cream  
+ZIPAEGTON6447	Zinc And Coal Tar  Paste  
+ZOGE31229EMIS	Zorac  Gel  0.1 %
+BEOI20607EMIS	Betamethasone Valerate  Ointment  0.025 %
+BEOI4642	Betamethasone  Ointment  0.05 % (as dipropionate)
+CAOIEGTON6429	Calamine And Coal Tar  Ointment  
+CUOI28149EMIS	Cutivate  Ointment  0.005 %
+DEOI3407	Dermovate-Nn  Ointment  
+DICR8830EGTON	Dithrocream  Cream  0.25 %
+DOGE45841NEMIS	Dovobet  Gel  
+EFCR1023	Efcortelan  Cream  0.5 %
+FLOI1200	Fluocinolone Acetonide  Ointment  0.025 %
+FUCR3609	Fucibet  Cream  
+HYCREGTON6239	Hydrocortisone  Cream  1 %
+HYOIEGTON6230	Hydromol Bath And Shower  Emollient  
+MICR29932EMIS	Micanol  Cream  3 %
+PIBA20873NEMIS	Pine Tar  Bath oil  2.3 %
+PIGE20879NEMIS	Pinetarsol  Gel  1.6 %
+PROI2386	Propaderm  Ointment  0.025 %
+T/SHEGTON8178	T/Gel  Therapeutic Shampoo  2 %
+TALO28857NEMIS	Tacalcitol Monohydrate  Lotion  4 micrograms/gram
+ULCREGTON6268	Ultralanum Plain  Cream  
+HACR7204	Halcinonide  Cream  0.1 %
+HYCR9283BRIDL	Hydrocortisone  Cream  0.1 %
+LOCR6963	Locoid Lipocream  Cream  0.1 %
+NECA22017EMIS	Neotigason  Capsules  10 mg
+PIBA20875NEMIS	Pinetarsol  Bath oil  2.3 %
+PITO20876NEMIS	Pine Tar  Topical solution  2.3 %
+PSSCEGTON8184	Psoriderm  Scalp lotion  
+SIGE77608NEMIS	Silderm Scar  Gel  
+SYCR10746BRIDL	Synalar C  Cream  
+SYOIEGTON6251	Synalar 1 In 4 Dilution  Ointment  0.00625 %
+TOCA31058NEMIS	Toctino  Capsules  10 mg
+CACR461	Calmurid  Cream  10 %
+DICR952	Dithrocream  Cream  0.1 %
+DIOI4837	Diflucortolone Valerate  Ointment  0.1 %
+DOGE51183NEMIS	Doublebase Dayleve  Gel  
+ELCR22373EMIS	Elocon  Cream  0.1 %
+ELOI22374EMIS	Elocon  Ointment  0.1 %
+EUCR11329NEMIS	Eurax Hc  Cream  
+FUCR986NEMIS	Fusidic Acid And Hydrocortisone Acetate  Cream  2 % + 1 %
+HYOI991NEMIS	Hydrocortisone And Miconazole  Ointment  1 % + 2 %
+MECR1808	Metosyn  Cream  0.05 %
+PIGE20878NEMIS	Pine Tar  Gel  1.6 %
+PSBA9884BRIDL	Psoriderm  Bath emulsion  40 %
+SAOI7271	Salicylic Acid  Ointment  50 %
+STOI10474HILLI	Stiedex Lp  Oily cream  0.05 %
+TAOI12898NEMIS	Tacrolimus  Ointment  0.1 %
+CLSHEGTON8210	Clinitar  Shampoo  2 %
+COCR3458NEMIS	Coal Tar Extract  Cream  1 %
+DAOI8859BRIDL	Daktacort  Ointment  
+DICR3449	Dioderm  Cream  0.1 %
+DICR3456	Diprosone  Cream  0.05 %
+DICR951	Dithranol  Cream  0.1 %
+DIOI9415HILLI	Diflucortolone Valerate  Oily cream  0.3 %
+DOOI9048EMIS	Dovonex  Ointment  50 micrograms/gram
+ELCR14322NEMIS	Elidel  Cream  1 %
+FLCR1197	Fluocinolone Acetonide  Cream  0.025 %
+FLCR1201	Fluocinonide  Cream  0.05 %
+FLCR7083	Fluocinolone Acetonide  Cream  0.0025 %
+FLOI28151EMIS	Fluticasone Propionate  Ointment  0.005 %
+GELIEGTON8202	Gelcotar  Liquid  
+HACREGTON6272	Haelan  Cream  0.0125 %
+HYCR1389	Hydrocortisone  Cream  0.5 %
+HYCR40021NEMIS	Hydromol Intensive  Cream  10 %
+MOCR3962	Modrasone  Cream  0.05 %
+NECR4020	Nerisone  Cream  0.1 %
+SYCREGTON6253	Synalar 1 In 10 Dilution  Cream  0.0025 %
+ALCR4564	Alclometasone Dipropionate  Cream  0.05 %
+AUOI81524NEMIS	Audavate Rd  Ointment  0.025 %
+BELO3068NEMIS	Betamethasone  Lotion  0.05 % (as dipropionate)
+BELO9285BRIDL	Betnovate  Lotion  0.1 %
+BEOI360	Betnovate-C  Ointment  
+CACR11263NEMIS	Canesten Hydrocortisone  Cream  
+CACR462	Calmurid Hc  Cream  
+CACREGTON7230	Carbo-Dome  Cream  10 %
+DEOI17618NEMIS	Desoximetasone  Oily cream  0.05 %
+DIOI3455	Diprosalic  Ointment  0.05 % + 3 %
+DIOI6777	Dithranol  Ointment  0.4 %
+DIOI9490EMIS	Diflucortolone Valerate  Oily cream  0.1 %
+HYCR1391	Hydrocortisone  Cream  2.5 %
+MICR29931EMIS	Micanol  Cream  1 %
+MOLO22381EMIS	Mometasone Furoate  Scalp lotion  0.1 %
+PRCR8887BRIDL	Pragmatar  Cream  
+SISP79258NEMIS	Silderm Scar  Spray  
+TAGE31232EMIS	Tazarotene  Gel  0.05 %
+TEOI2821	Terra-Cortril  Ointment  
+VIOI4515	Vioform-Hydrocortisone  Ointment  
+ZOGE31228EMIS	Zorac  Gel  0.05 %
+BEME37226NEMIS	Betamethasone Valerate  Medicated Plaster  2.25 mg
+CASC25445EMIS	Calcipotriol  Scalp solution  50 micrograms/ml
+CLCR76911NEMIS	Clobaderm  Cream  0.05 %
+CLOI646	Clobetasone Butyrate  Ointment  0.05 %
+COCR6832	Coal Tar Solution  Cream  10 %
+DECR3406	Dermovate-Nn  Cream  
+DIOI3457	Diprosone  Ointment  0.05 %
+FLCR7084	Fluocinolone Acetonide  Cream  0.00625 %
+GACA8477EGTON	Gamolenic Acid  Capsules  40 mg
+HACREGTON7205	Halciderm Topical  Cream  0.1 %
+HYCR990NEMIS	Hydrocortisone And Miconazole  Cream  1 % + 2 %
+ICOIEGTON6520	Ichthammol  Ointment  10 % BP
+NECA22018EMIS	Neotigason  Capsules  25 mg
+NYOI2048	Nystaform-Hc  Ointment  
+PROI12896NEMIS	Protopic  Ointment  0.1 %
+PSSC26051EMIS	Psorin  Scalp gel  
+TAOI28095EMIS	Tacalcitol Monohydrate  Ointment  4 micrograms/gram
+ULOIEGTON6269	Ultralanum Plain  Ointment  
+VICR4514	Vioform-Hydrocortisone  Cream  

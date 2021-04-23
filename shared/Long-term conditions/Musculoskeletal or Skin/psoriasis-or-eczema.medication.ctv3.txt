@@ -1,0 +1,1089 @@
+ctv3id	Description
+X79N9	Pine tar
+X79NA	Coal tar
+XM0lO	Bufexamac
+XaAxw	Coal tar dyes
+fe43.	Hydrocortistab 20mg tablet
+fe86.	Ledercort 2mg tablet
+fe87.	Ledercort 4mg tablet
+l41a.	Tri-adcortyl otic ear ointment 10g
+m22D.	Evening primrose oil 20% cream
+m22G.	Hydromol ointment 125g
+m22H.	Hydromol ointment 500g
+m22L.	HYDROMOL ointment 1Kg
+m22i.	Hydromol cream 50g
+m22j.	Hydromol cream 100g
+m22k.	Hydromol cream 500g
+m22n.	Hydromol bath Emollient 1 litre
+m23j.	Sential E cream 100g
+m243.	Calmurid cream 50g
+m244.	Calmurid cream 100g
+m245.	Calmurid 300g
+m247.	Calmurid cream 400g
+m249.	Calmurid cream 500g
+m24R.	HYDROMOL INTENSIVE 10% cream 30g
+m24S.	HYDROMOL INTENSIVE 10% cream 100g
+m25M.	Hydromol Emollient bath additive 500mL
+m25T.	HYDROMOL BATH & SHOWER EMOLLIENT bath additive 50mL
+m25a.	Hydromol Emollient bath additive 150mL
+m25b.	Hydromol Emollient bath additive 350mL
+m28j.	DOUBLEBASE DAYLEVE gel 500g
+m28k.	DOUBLEBASE DAYLEVE gel 100g
+m4...	Topical corticosteroids
+m41..	Hydrocortisone creams
+m411.	Hydrocortisone 1% cream 15g
+m412.	Hydrocortisone 1% cream 30g
+m413.	Hydrocortisone 1% cream 50g
+m414.	Hydrocortisone 1% cream 100g
+m415.	Hydrocortisone 0.1% cream 30g
+m416.	Hydrocortisone 0.125% cream
+m417.	Hydrocortisone 0.5% cream 15g
+m418.	Hydrocortisone 0.5% cream 30g
+m419.	Hydrocortisone 0.5% cream 50g
+m41A.	Hydrocortisone 2.5% cream 15g
+m41B.	Hydrocortisone 2.5% cream 30g
+m41C.	Hydrocortisone 2.5% cream 50g
+m41D.	Hydrocortisone 1% aqueous cream
+m41a.	Hydrocortisone 0.5% cream 100g
+m41b.	Hydrocortisone 2.5% cream
+m41c.	Cobadex 0.5% cream 20g
+m41d.	Cobadex 1% cream 20g
+m41e.	Dioderm 0.1% cream 30g
+m41f.	Dome-Cort 0.125% cream
+m41g.	Efcortelan 0.5% cream 15g
+m41h.	Efcortelan P 1% cream 15g
+m41i.	Efcortelan 1% cream 50g
+m41j.	Efcortelan 2.5% cream 15g
+m41k.	Hydrocortistab 1% cream 15g
+m41l.	Hydrocortisyl 1% cream 15g
+m41m.	Mildison Lipocream 1% cream 30g
+m41n.	Efcortelan 0.5% cream 30g
+m41o.	Efcortelan 1% cream 30g
+m41p.	Efcortelan 2.5% cream 30g
+m41q.	Dermacort cream
+m41r.	HC45 cream
+m41s.	Kerfoot hydrocortisone cream
+m41t.	Dayleve 0.1% cream 15g
+m41u.	Hydrocortisone 0.1% cream
+m41v.	Zenoxone 1% aqueous cream
+m41w.	Exe-Cort Hydrocortisone 1% cream 15g
+m42..	Hydrocortisone ointments
+m421.	Hydrocortisone 0.5% ointment 15g
+m422.	Hydrocortisone 1% ointment 15g
+m423.	Hydrocortisone 1% ointment 30g
+m424.	Hydrocortisone 1% ointment 100g
+m425.	Efcortelan 0.5% ointment 15g
+m426.	Efcortelan P 1% ointment 15g
+m427.	Efcortelan 1% ointment 50g
+m428.	Efcortelan 2.5% ointment 15g
+m429.	Hydrocortistab 1% ointment 15g
+m42A.	Hydrocortisone 2.5% ointment 15g
+m42B.	Hydrocortisone 2.5% ointment 30g
+m42C.	Hydrocortisone 2.5% ointment 50g
+m42D.	HYDROCORTISONE 1% ointment 50g
+m42a.	Hydrocortisyl 1% ointment 15g
+m42b.	Hydrocortisone 2.5% ointment
+m42c.	Efcortelan 0.5% ointment 30g
+m42d.	Efcortelan 1% ointment 30g
+m42e.	Efcortelan 2.5% ointment 30g
+m42f.	Lanacort ointment
+m42g.	Hydrocortisone acetate 1% ointment
+m43..	Hydrocortisone lotions/dressng
+m431.	Hydrocortisone 1% lotion
+m432.	Efcortelan 1% lotion 20mL
+m433.	Cortacream 1% band
+m441.	Alphaderm cream 30g
+m442.	Alphaderm cream 100g
+m443.	Calmurid-HC cream 30g
+m444.	Calmurid-HC cream 100g
+m445.	Eczederm+hydrocort cream 25g
+m446.	Epifoam foam 10.6g
+m447.	Eurax-hydrocortisone cream 30g
+m448.	Sential cream 30g
+m449.	Sential cream 100g
+m44a.	Tri-cicatrin ointment 15g
+m44b.	Tri-cicatrin ointment 30g
+m44c.	Eurax-HC cream 15g
+m44d.	Calmurid HC cream 50g
+m44e.	HYDROMOL HC INTENSIVE cream 30g
+m44f.	HYDROMOL HC INTENSIVE cream 100g
+m44v.	Sential HC cream
+m44w.	Hydrocortisone+crotamiton 0.25%/10% cream
+m44z.	Hydrocortisone+urea 1%/10% cream
+m451.	Hydrocortisone/neomycin cream
+m452.	Barquinol-HC cream 15g
+m453.	Canesten-HC cream 30g
+m454.	Daktacort cream 30g
+m455.	Econacort cream 30g
+m456.	Framycort ointment 15g
+m457.	Fucidin-H cream 15g
+m458.	Fucidin-H cream 30g
+m459.	Fucidin-H gel 15g
+m45A.	Fucidin-H cream 60g
+m45B.	Fucidin-H ointment 60g
+m45C.	Daktacort HC cream 15g
+m45H.	Hydrocortisone+clioquinol 1%/3% ointment
+m45J.	Hydrocortisone+clioquinol 1%/3% cream
+m45N.	Hydrocortisone+oxytetracycline 1.0/3% ointment
+m45S.	Hydrocortisone acetate+gentamicin 1%/0.3% cream
+m45T.	Hydrocortisone acetate+fucidic acid 1%/2% ointment
+m45V.	Hydrocortisone acetate+fusidic acid 1%/2% cream
+m45W.	Hydrocortisone+econazole nitrate 1%/1% cream
+m45X.	Hydrocortisone+miconazole nitrate 1%/2% ointment
+m45Y.	Hydrocortisone+miconazole nitrate 1%/2% cream
+m45Z.	Hydrocortisone+clotrimazole 1%/1% cream
+m45a.	Fucidin-H gel 30g
+m45b.	Fucidin-H ointment 15g
+m45c.	Fucidin-H ointment 30g
+m45d.	Gentisone HC cream 15g
+m45e.	Gentisone HC ointment 15g
+m45f.	Gregoderm ointment 4g
+m45g.	Gregoderm ointment 15g
+m45h.	Hydroderm ointment
+m45i.	Nybadex ointment
+m45j.	Nystaform-HC 0.5% cream 15g
+m45k.	Nystaform-HC 0.5% cream 30g
+m45l.	Nystaform-HC 1% ointment 30g
+m45m.	Quinocort cream 30g
+m45n.	Terra-cortril ointment 15g
+m45o.	Terra-cortril ointment 30g
+m45p.	Terra-cortril spray 30mL
+m45q.	Terra-cortril spray 60mL
+m45r.	Terra-cortril Nystatin cream 30g
+m45s.	Timodine cream 30g
+m45t.	Vioform-hydrocortisone cream 30g
+m45u.	Vioform-hydrocortisone ointment 30g
+m45v.	Daktacort ointment 30g
+m45w.	Canesten Hydrocortisone cream 15g
+m45x.	Hydrocortisone+neomycin 1%/0.5% ointment
+m45y.	Hydrocortisone+neomycin 1%/0.5% cream
+m46..	Alclometasone dipropionate
+m461.	Modrasone 0.05% cream 15g
+m462.	Modrasone 0.05% cream 50g
+m463.	Modrasone 0.05% ointment 15g
+m464.	Modrasone 0.05% ointment 50g
+m46y.	Alclometasone dipropionate 0.05% cream
+m46z.	Alclometasone dipropionate 0.05% ointment
+m47..	Beclometasone diprop [skin]
+m471.	Propaderm 0.025% cream 15g
+m472.	Propaderm 0.025% cream 50g
+m473.	Propaderm 0.025% ointment 15g
+m474.	Propaderm 0.025% ointment 50g
+m475.	Propaderm A 0.025% ointment 15g
+m476.	Propaderm A 0.025% ointment 50g
+m477.	Propaderm C 0.025% cream
+m478.	Propaderm C 0.025% ointment
+m479.	Propaderm 0.025% cream 30g
+m47a.	Propaderm 0.025% ointment 30g
+m47b.	Propaderm A ointment 30g
+m47c.	Propaderm A cream 30g
+m47y.	Beclometasone dipropionate 0.025% cream
+m47z.	Beclometasone dipropionate 0.025% ointment
+m481.	Betnovate 0.1% cream 15g
+m482.	Betnovate 0.1% cream 30g
+m483.	Betnovate 0.1% cream 100g
+m484.	Betnovate 0.1% ointment 15g
+m485.	Betnovate 0.1% ointment 30g
+m486.	Betnovate 0.1% ointment 100g
+m487.	Betnovate 0.1% lotion 100mL
+m488.	Betnovate 0.1% scalp application 30mL
+m489.	Betnovate 0.1% scalp application 100mL
+m48A.	Betacap scalp application
+m48B.	Betamethasone valerate 0.12% foam
+m48C.	Bettamousse 0.12% foam 100g
+m48D.	BETESIL 2.25mg medicated plasters
+m48E.	BETAMETHASONE VALERATE 2.25mg medicated plasters
+m48F.	AUDAVATE RD 0.025% cream 100g
+m48G.	AUDAVATE RD 0.025% ointment 100g
+m48a.	Betnovate RD 0.025% cream 100g
+m48b.	Betnovate RD 0.025% ointment 100g
+m48c.	Diprosalic 0.05% ointment 30g
+m48d.	Diprosalic 0.05% ointment 100g
+m48e.	Diprosalic 0.05% scalp application 30mL
+m48f.	Diprosalic 0.05% scalp application 100mL
+m48g.	Diprosone 0.05% cream 30g
+m48h.	Diprosone 0.05% cream 100g
+m48i.	Diprosone 0.05% ointment 30g
+m48j.	Diprosone 0.05% ointment 100g
+m48k.	Diprosone 0.05% lotion 30mL
+m48l.	Diprosone 0.05% lotion 100mL
+m48m.	Betamethasone 0.025% cream
+m48n.	Betamethasone 0.025% ointment
+m48o.	Betamethasone 0.1% scalp application
+m48p.	Betnovate 0.1% cream pump dispenser 100g
+m48q.	Betamethasone 0.1% cream
+m48r.	Betamethasone 0.1% ointment
+m48s.	Betamethasone 0.1% lotion
+m48t.	Betnovate 0.1% ointment pump dispenser 100g
+m48u.	Betamethasone+salicylic acid 0.05/3% ointment
+m48v.	Betamethasone+salicylic acid 0.05/3% scalp application
+m48w.	Betamethasone 0.05% cream
+m48x.	Betamethasone 0.05% ointment
+m48y.	Betamethasone 0.05% lotion
+m48z.	Vipsogal ointment
+m491.	Betnovate C 0.1% cream 15g
+m492.	Betnovate-C 0.1% cream 30g
+m493.	Betnovate C 0.1% ointment 15g
+m494.	Betnovate-C 0.1% ointment 30g
+m495.	Betnovate N 0.1% cream 15g
+m496.	Betnovate-N 0.1% cream 30g
+m497.	Betnovate-N 0.1% cream 100g
+m498.	Betnovate N 0.1% ointment 15g
+m499.	Betnovate-N 0.1% ointment 30g
+m49a.	Betnovate-N 0.1% ointment 100g
+m49b.	Betnovate N 0.1% lotion
+m49c.	Fucibet cream 15g
+m49d.	Fucibet cream 30g
+m49e.	Fucibet cream 60g
+m49f.	FUCIBET LIPID cream 30g
+m49r.	BETAMETHASONE+NEOMYCIN 0.1%/0.5% ointment
+m49s.	BETAMETHASONE+NEOMYCIN 0.1%/0.5% cream
+m49t.	BETAMETHASONE+CLIOQUINOL 0.1%/3% cream
+m49u.	BETAMETHASONE+CLIOQUINOL 0.1%/3% ointment
+m49v.	Betamethasone+fusidic acid 0.1/2% cream
+m49w.	Betamethasone+neomycin sulphate 0.1/0.5% ointment
+m49x.	Betamethasone+neomycin sulphate 0.1/0.5% cream
+m49y.	Betamethasone+clioquinol 0.1/3% ointment
+m49z.	Betamethasone+clioquinol 0.1/3% cream
+m4a..	Clobetasol propionate
+m4a1.	Dermovate 0.05% cream 30g
+m4a2.	Dermovate 0.05% cream 100g
+m4a3.	Dermovate 0.05% ointment 30g
+m4a4.	Dermovate 0.05% ointment 100g
+m4a5.	Dermovate 0.25% scalp application 25mL
+m4a6.	Dermovate 0.05% scalp application 100mL
+m4a7.	Dermovate-NN 0.05% cream 30g
+m4a8.	Dermovate-NN 0.05% ointment 30g
+m4a9.	Clobetasol 0.05% cream 30g
+m4aa.	Clobetasol 0.05% cream 100g
+m4ab.	Clobetasol 0.05% ointment 30g
+m4ac.	Clobetasol 0.05% ointment 100g
+m4ad.	Clobetasol 0.05% scalp application 25mL
+m4ae.	Clobetasol 0.05% scalp application 100mL
+m4af.	Dermovate 0.05% scalp application 30mL
+m4ag.	Clarelux 500microgram/g foam 100g
+m4ah.	ETRIVEX 500micrograms/g shampoo 125mL
+m4ai.	CLOBADERM 0.05% cream 30g
+m4aj.	CLOBADERM 0.05% cream 100g
+m4ak.	CLOBADERM 0.05% ointment 30g
+m4al.	CLOBADERM 0.05% ointment 100g
+m4aw.	CLOBETASOL 500micrograms/g shampoo 125mL
+m4ax.	Clobetasol scalp application 100mL
+m4ay.	Clobetasol scalp application 100g
+m4az.	Clobetasol 500micrograms/g foam 100g
+m4b..	Clobetasone butyrate [skin]
+m4b1.	Eumovate 0.05% cream 30g
+m4b2.	Eumovate 0.05% cream 100g
+m4b3.	Eumovate 0.05% ointment 30g
+m4b4.	Eumovate 0.05% ointment 100g
+m4b5.	Trimovate cream 30g
+m4b6.	Trimovate ointment 30g
+m4b7.	Eumovate 0.05% cream 15g
+m4by.	Clobetasone butyrate 0.05% cream
+m4bz.	Clobetasone butyrate 0.05% ointment
+m4c..	Desonide
+m4c1.	Tridesilon 0.05% cream 15g
+m4c2.	Tridesilon 0.05% cream
+m4c3.	Tridesilon 0.05% ointment
+m4cy.	Desonide 0.05% cream
+m4cz.	Desonide 0.05% ointment
+m4d..	Desoximetasone
+m4d1.	Stiedex 0.25% oily cream 30g
+m4d2.	Stiedex LP 0.05% oily cream 30g
+m4d3.	Stiedex LPN oily cream 15g
+m4d4.	Stiedex 0.25% lotion 50mL
+m4d5.	Stiedex LP 0.05% oily cream 100g
+m4dy.	Desoxymethasone 0.25% oily cream
+m4dz.	Desoximetasone 0.05% oily cream
+m4e..	Diflucortolone valerate
+m4e1.	Nerisone 0.1% cream 30g
+m4e2.	Nerisone 0.1% oily cream 30g
+m4e3.	Nerisone 0.1% ointment 30g
+m4e4.	Nerisone Forte 0.3% oily cream 15g
+m4e5.	Nerisone Forte 0.3% ointment 15g
+m4e6.	Temetex 0.1% cream
+m4e7.	Temetex 0.1% fatty ointment
+m4e8.	Temetex 0.1% ointment
+m4eu.	Diflucortolone valerate 0.1% cream
+m4ev.	Diflucortolone valerate 0.1% oily cream
+m4ew.	Diflucortolone valerate 0.1% ointment
+m4ex.	Diflucortolone valerate 0.3% oily cream
+m4ey.	Diflucortolone valerate 0.3% ointment
+m4ez.	Diflucortolone val 0.1% fatty ointment
+m4f1.	Topilar 0.025% cream 30g
+m4f2.	Topilar 0.025% cream 100g
+m4f3.	Topilar 0.025% ointment 30g
+m4f4.	Topilar 0.025% ointment 100g
+m4fy.	Fluclorolone acetonide 0.025% cream
+m4fz.	Fluclorolone acetonide 0.025% ointment
+m4g1.	Synalar 0.025% cream 15g
+m4g2.	Synalar 0.025% cream 30g
+m4g3.	Synalar 0.025% cream 50g
+m4g4.	Synalar 0.025% gel 30g
+m4g5.	Synalar 0.025% ointment 15g
+m4g6.	Synalar 0.025% ointment 30g
+m4g7.	Synalar 0.025% ointment 50g
+m4g8.	Synalar 1:4 cream 50g
+m4g9.	Synalar 1:10 cream 50g
+m4ga.	Synandone 0.01% cream
+m4gb.	Synandone 0.01% ointment
+m4gc.	Synalar C 0.025% cream 15g
+m4gd.	Synalar C 0.025% ointment 15g
+m4ge.	Synalar N 0.025% cream 15g
+m4gf.	Synalar N 0.025% cream 30g
+m4gg.	Synalar N 0.025% ointment 15g
+m4gh.	Synalar N 0.025% ointment 30g
+m4gi.	Synalar 1:4 ointment 50g
+m4gj.	SYNALAR 0.025% gel 60g
+m4go.	Fluocinolone acetonide+clioquinol 0.025%/3% cream
+m4gp.	Fluocinolone acetonide+clioquinol 0.025%/3% ointment
+m4gq.	Fluocinolone acetonide+neomycin sulphate 0.025%/0.5% cream
+m4gr.	Fluocinolone acetonide+neomycin sulphate 0.025%/0.5% ointment
+m4gs.	Fluocinolone acetonide 0.00625% ointment
+m4gt.	Fluocinolone acetonide 0.025% gel
+m4gu.	Fluocinolone acetonide 0.025% ointment
+m4gv.	Fluocinolone acetonide 0.00625% cream
+m4gw.	Fluocinolone acetonide 0.0025% cream
+m4gx.	Fluocinolone acetonide 0.01% cream
+m4gy.	Fluocinolone acetonide 0.01% ointment
+m4gz.	Fluocinolone acetonide 0.025% cream
+m4h1.	Metosyn 0.05% cream 25g
+m4h2.	Metosyn 0.05% cream 100g
+m4h3.	Metosyn 0.05% ointment 25g
+m4h4.	Metosyn 0.05% ointment 100g
+m4h5.	Metosyn 0.05% scalp application 30mL
+m4hx.	Fluocinonide 0.05% cream
+m4hy.	Fluocinonide 0.05% ointment
+m4hz.	Fluocinonide 0.05% scalp application
+m4i1.	Ultradil cream 50g
+m4i2.	Ultradil Plain cream 100g
+m4i3.	Ultradil ointment 50g
+m4i4.	Ultradil Plain ointment 100g
+m4i5.	Ultralanum Plain cream 30g
+m4i6.	Ultralanum cream 50g
+m4i7.	Ultralanum Plain ointment 30g
+m4i8.	Ultralanum ointment 50g
+m4i9.	Fluocortolone 0.2% cream
+m4ia.	Fluocortolone 0.2% ointment
+m4ib.	Fluocortolone 0.5% cream
+m4ic.	Fluocortolone 0.5% ointment
+m4id.	Ultradil Plain ointment 50g
+m4ie.	Ultradil Plain cream 50g
+m4if.	Ultralanum Plain cream 50g
+m4ig.	Ultralanum Plain ointment 50g
+m4j1.	Haelan 0.0125% cream 60g
+m4j2.	Haelan 0.0125% ointment 60g
+m4j3.	Haelan-X 0.05% cream 15g
+m4j4.	Haelan-X 0.05% ointment 15g
+m4j5.	Haelan-C 0.0125% cream 30g
+m4j6.	Haelan-C 0.0125% ointment 30g
+m4j7.	HAELAN 4micrograms/square centimetre 7.5cmx50cm tape
+m4j8.	HAELAN 4micrograms/square centimetre 7.5cmx200cm tape
+m4ju.	FLUDROXYCORTIDE 4micrograms/square centimetre 7.5x200cm tape
+m4jv.	FLUDROXYCORTIDE 4micrograms/square centimetre 7.5x50cm tape
+m4jw.	Flurandrenolone 0.0125% cream
+m4jx.	Flurandrenolone 0.0125% ointment
+m4jy.	Flurandrenolone 0.05% cream
+m4jz.	Flurandrenolone 0.05% ointment
+m4k..	Halcinonide
+m4k1.	Halciderm Topical 0.1% cream 30g
+m4kz.	Halcinonide 0.1% cream
+m4l1.	Locoid 0.1% cream 30g
+m4l2.	Locoid 0.1% cream 100g
+m4l3.	Locoid 0.1% lipocream 30g
+m4l4.	Locoid 0.1% ointment 30g
+m4l5.	Locoid 0.1% ointment 100g
+m4l6.	Locoid 0.1% scalp lotion 30mL
+m4l7.	Locoid 0.1% scalp lotion 100mL
+m4l8.	Locoid C 0.1% cream 30g
+m4l9.	Locoid C 0.1% ointment 30g
+m4la.	Locoid 0.1% lipocream 100g
+m4lb.	Locoid Crelo 0.1% emulsion
+m4lt.	Hydrocortisone butyrate 0.1% emulsion
+m4lu.	Hydrocortisone butyrate+chlorquinaldol 0.1%/3% ointment
+m4lv.	Hydrocortisone butyrate+chlorquinaldol 0.1%/3% cream
+m4lw.	Hydrocortisone butyrate 0.1% cream
+m4lx.	Hydrocortisone butyrate 0.1% lipocream
+m4ly.	Hydrocortisone butyrate 0.1% ointment
+m4lz.	Hydrocortisone butyrate 0.1% scalp lotion
+m4m1.	Neo-Medrone 0.25% cream 15g
+m4my.	Methylprednisolone/neomycin 0.25/0.5% cream 15g
+m4mz.	Methylprednisolone acet 0.25% cream
+m4n..	Triamcinolone acetonide [skin]
+m4n1.	Adcortyl 0.1% cream 30g
+m4n2.	Adcortyl 0.1% ointment 30g
+m4n3.	Ledercort 0.1% cream 15g
+m4n4.	Ledercort 0.1% cream 250g
+m4n5.	Ledercort 0.1% ointment 15g
+m4n6.	Ledercort 0.1% ointment 250g
+m4n7.	Adcortyl+graneodin cream 25g
+m4n8.	Adcortyl+Graneodin ointment
+m4n9.	Aureocort cream 15g
+m4na.	Aureocort ointment 15g
+m4nb.	Nystadermal cream 15g
+m4nc.	Silderm cream
+m4nd.	Tri-adcortyl cream 15g
+m4ne.	Tri-adcortyl cream 30g
+m4nf.	Tri-adcortyl ointment 15g
+m4ng.	Tri-adcortyl ointment 30g
+m4nu.	Triamcinolone acetonide+nystatin 0.1%/100000units/g cream
+m4nv.	Triamcinolone acetonide+chlortetracycline hydrochloride 0.1/3% ointment
+m4nw.	Triamcinolone acetonide+chlortetracycline hydrochloride 0.1/3% cream
+m4ny.	Triamcinolone acetonide 0.1% ointment
+m4nz.	Triamcinolone acetonide 0.1% cream
+m4o..	Budesonide Topical
+m4o1.	Budesonide 0.025% cream 30g
+m4o2.	Budesonide 0.025% cream 100g
+m4o3.	Budesonide 0.025% ointment 30g
+m4o4.	Budesonide 0.025% ointment 100g
+m4o5.	Preferid 0.025% cream 30g
+m4o6.	Preferid 0.025% cream 100g
+m4o7.	Preferid 0.025% ointment 30g
+m4o8.	Preferid 0.025% ointment 100g
+m4p..	Hydrocortisone acetate [topical]
+m4p1.	Hydrocal 1% cream
+m4p2.	Lanacort cream
+m4pz.	Hydrocortisone acetate 1% cream
+m4q..	Mometasone furoate [topical]
+m4q1.	Elocon cream 30g
+m4q2.	Elocon lotion 30mL
+m4q3.	Elocon ointment 30g
+m4q4.	Mometasone furoate 0.1% cream 30g
+m4q5.	Mometasone furoate 0.1% lotion 30mL
+m4q6.	Mometasone furoate 0.1% ointment 30g
+m4q7.	Mometasone furoate 0.1% cream
+m4q8.	Mometasone furoate 0.1% ointment
+m4q9.	Mometasone furoate 0.1% lotion
+m4qA.	Elocon cream 100g
+m4qB.	Elocon ointment 100g
+m4r..	Fluticasone propionate[skin]
+m4r1.	Cutivate 0.05% cream
+m4r2.	Fluticasone propionate 0.05% cream
+m4r3.	Cutivate 0.05% cream 15g
+m4r4.	Cutivate 0.05% cream 50g
+m4r5.	Fluticasone propionate 0.005% ointment
+m4r6.	Cutivate 0.005% ointment
+m4r7.	Cutivate 0.005% ointment 15g
+m4r8.	Cutivate 0.005% ointment 50g
+m4r9.	CUTIVATE 0.005% ointment 30g
+m4rA.	CUTIVATE 0.05% cream 30g
+m4s..	Mometasone furoate monohydrate
+m5...	Preparations for psoriasis+eczema
+m51..	Coal tar product
+m511.	Calamine+coal tar ointment BP
+m512.	Coal tar+salicylic acid ointment BP
+m513.	Coal tar 10% paint
+m514.	Coal tar 7.5% paste BP
+m515.	Zinc+coal tar paste BP
+m516.	Alphosyl cream 100g
+m517.	Alphosyl lotion 250mL
+m518.	Carbo-Dome 10% cream 30g
+m519.	Carbo-Dome 10% cream 100g
+m51A.	Coal tar ointment BPC
+m51B.	Tarcortin cream 100g
+m51C.	Clinitar 1% cream 100g
+m51D.	Strong coal tar 40% solution
+m51E.	Balneum+tar bath oil 200mL
+m51F.	Pixol bath and shower gel
+m51G.	Baltar 1.5% scalp application 200mL
+m51H.	Coal tar 1% lotion
+m51I.	Exorex lotion 100mL
+m51J.	Coal tar distillate 1.5% shampoo
+m51K.	Coal tar distillate+soya oil 30/50% bath oil
+m51L.	Exorex lotion 250mL
+m51N.	Coal tar solution+hydrocortisone 3%/0.25% cream
+m51Q.	Coal tar USP solution 7.5% gel
+m51R.	Coal tar 40% bath emulsion
+m51S.	Coal tar+lecithin 6/0.4% cream
+m51T.	Psorigel 7.5% gel 100g
+m51U.	Strong coal tar solution+pine tar 5/5% gel
+m51V.	Coal tar extract 1% cream
+m51W.	Coal tar extract+hydrocortisone 3%/0.25% cream
+m51X.	Coal tar solution 10% cream
+m51Y.	Coal tar extract+allantoin 5%/2% lotion
+m51Z.	Coal tar extract+allantoin 5%/2% cream
+m51a.	Clinitar 1% cream 60g
+m51b.	Clinitar 2.5% gel 40g
+m51c.	Gelcotar gel 50g
+m51d.	Gelcotar gel 500g
+m51e.	Meditar 5% wax stick x1
+m51f.	Pragmatar cream 25g
+m51g.	Psoriderm cream 225mL
+m51h.	Psorigel 7.5% gel 90g
+m51j.	Coltapaste 7.5cmx6m bandage
+m51k.	Tarband 7.5cmx6m bandage
+m51m.	Polytar Emollient 350mL
+m51n.	Psoriderm 40% bath emulsion 200mL
+m51o.	Alphosyl HC cream 30g
+m51p.	Alphosyl HC cream 45g
+m51q.	Carbo-Cort cream 30g
+m51r.	Tarcortin cream 30g
+m51s.	Tarcortin cream 45g
+m51t.	Gelcosal 5% gel 50g
+m51u.	Baltar 1.5% scalp application 225mL
+m51v.	Baltar 1.5% scalp application 500mL
+m51w.	Balneum with tar bath oil 225mL
+m51x.	Pragmatar cream 100g
+m51y.	Polytar Emollient 1L
+m51z.	Alphosyl HC cream 100g
+m52..	Bufexamac product
+m521.	Parfenac 5% cream 15g
+m522.	Parfenac 5% cream 30g
+m52z.	Bufexamac 5% cream
+m531.	Dithranol ointment
+m532.	Dithranol weak 0.1% paste
+m533.	Dithranol strong 1% paste
+m534.	Anthranol 0.4% ointment 50g
+m535.	Anthranol 1% ointment 50g
+m536.	Anthranol 2% ointment 50g
+m537.	Antraderm mild 0.5% waxstick
+m538.	Antraderm 1% waxstick x1
+m539.	Antraderm Forte 2% waxstick x1
+m53A.	Psorin scalp gel
+m53B.	Dithranol+salicylic acid 0.25%/1.6% scalp gel
+m53C.	Dithranol+salicylic acid+coal tar 0.11%/1.6%/1% ointment
+m53D.	Dithranol+urea 0.2% cream
+m53E.	Dithranol+urea 0.1% cream
+m53F.	Dithranol+salicylic acid 0.5/0.5% ointment
+m53a.	Dithrocream 0.1% cream 50g
+m53b.	Dithrocream 0.25% cream 50g
+m53c.	Dithrocream Forte 0.5% cream 50g
+m53d.	Dithrocream HP 1% cream 50g
+m53e.	Dithrolan ointment 90g
+m53f.	Psoradrate 0.1% cream 30g
+m53g.	Psoradrate 0.1% cream 100g
+m53h.	Psoradrate 0.2% cream 30g
+m53i.	Psoradrate 0.2% cream 100g
+m53j.	Psoradrate 0.4% cream 100g
+m53k.	Psorin ointment 25g
+m53l.	Psorin ointment 50g
+m53m.	Psorin ointment 100g
+m53n.	Dithrocream 2% cream 50g
+m53o.	Alphodith 0.4% ointment 50g
+m53p.	Alphodith 1% ointment 50g
+m53q.	Alphodith 2% ointment 50g
+m53r.	Alphodith 3% ointment 50g
+m53s.	Micanol 1% cream 50g
+m53t.	Micanol 3% cream 50g
+m54..	Dithranol triacetate
+m541.	Exolan 1% cream 50g
+m54z.	Dithranol triacetate 1% cream
+m55..	Etretinate
+m551.	Tigason 10mg capsule
+m552.	Tigason 25mg capsule
+m55y.	Etretinate 10mg capsule
+m55z.	Etretinate 25mg capsule
+m56..	Ichthammol
+m561.	Ichthammol 10% ointment BP
+m562.	Zinc+ichthammol cream BP
+m564.	Ichthopaste 7.5cmx6m bandage
+m565.	Ichthaband 7.5cmx6m bandage
+m566.	Zinc paste and ichthammol 6%/2% 7.5cmx6m bandage
+m567.	Zinc paste and ichthammol 15%/2% 7.5cmx6m bandage
+m57..	Salicylic acid [psoriasis]
+m571.	Salicylic acid 2% ointment BP
+m572.	Lassar's paste
+m573.	Keralyt 6% gel 55g
+m574.	Zinc+salicylic acid paste half strength
+m581.	Gamolenic acid 40mg capsule
+m582.	Epogam 40mg capsule
+m583.	Epogam 80mg paediatric capsule
+m584.	Efamast 40mg capsule
+m586.	Gammolin 40mg capsule
+m587.	Gamophase 40mg capsule
+m588.	LinGam 40mg capsule
+m589.	Gamolenic acid 80mg capsule
+m58A.	Epogam 80 capsule
+m58B.	Efamast 80 capsule
+m58C.	Gamolenic acid 80mg paediatric capsule
+m58D.	Gamolenic acid 160mg/5mL oral emulsion
+m58E.	Epogam 160mg/5mL oral emulsion
+m59..	Calcipotriol
+m591.	Calcipotriol 50micrograms/g ointment
+m592.	Dovonex 0.005% ointment 30g
+m593.	Dovonex 0.005% ointment 100g
+m594.	Dovonex 50micrograms/g cream
+m595.	Calcipotriol 50micrograms/g cream
+m596.	Dovonex scalp solution 60mL
+m597.	Calcipotriol 50micrograms/mL scalp solution
+m598.	Dovonex 50micrograms/g ointment
+m599.	Dovonex 0.005% ointment 60g
+m59A.	Dovonex 0.005% ointment 120g
+m59B.	Dovonex 0.005% cream 30g
+m59C.	Dovonex 0.005% cream 60g
+m59D.	Dovonex 0.005% cream 120g
+m59E.	Dovonex scalp solution 120mL
+m59F.	Dovonex 0.005% ointment 240g
+m59G.	Calcipotriol+betamethasone 50micrograms/500micrograms/g ointment
+m59H.	Dovobet ointment 120g
+m59I.	Dovobet ointment 60g
+m59J.	XAMIOL gel 60g
+m59K.	CALCIPOTRIOL+BETAMETHASONE 50micrograms/500micrograms/g gel
+m59L.	DOVOBET gel 60g
+m59M.	DOVOBET gel 120g
+m59N.	DOVOBET ointment 30g
+m59O.	DOVOBET gel 30g
+m59P.	DOVOBET gel 60g with applicator
+m5A..	Acitretin
+m5A1.	Neotigason 10mg capsule
+m5A2.	Acitretin 10mg capsule
+m5A3.	Neotigason 25mg capsule
+m5A4.	Acitretin 25mg capsule
+m5B..	Tacalcitol
+m5B1.	Tacalcitol 4micrograms/g ointment
+m5B2.	Curatoderm 4micrograms/g ointment 30g
+m5B3.	Curatoderm 4micrograms/g ointment 60g
+m5B4.	Curatoderm 4micrograms/g ointment 100g
+m5B5.	CURATODERM 4micrograms/g lotion 30mL
+m5B6.	TACALCITOL 4micrograms/g lotion
+m5C..	Tazarotene
+m5C1.	Tazarotene 0.05% aqueous gel
+m5C2.	Tazarotene 0.1% aqueous gel
+m5C3.	Zorac 0.05% aqueous gel 30g
+m5C4.	Zorac 0.05% aqueous gel 60g
+m5C5.	Zorac 0.1% aqueous gel 30g
+m5C6.	Zorac 0.1% aqueous gel 60g
+m5D..	Coal Tar [2]
+m5D1.	Polytar emollient 500mL
+m5D2.	Coal tar 12%/sulphur 4%/salicylic acid 2% ointment
+m5D3.	Sebco ointment 40g
+m5D4.	Sebco ointment 100g
+m5E..	Tacrolimus [skin]
+m5E1.	Tacrolimus monohydrate 0.03% ointment
+m5E2.	Tacrolimus monohydrate 0.1% ointment
+m5E3.	Protopic 0.03% ointment 30g
+m5E4.	Protopic 0.03% ointment 60g
+m5E5.	Protopic 0.1% ointment 30g
+m5E6.	Protopic 0.1% ointment 60g
+m5F..	Pimecrolimus
+m5F1.	Pimecrolimus 10mg/g cream
+m5F2.	Elidel 1% cream 30g
+m5G..	PINE TAR
+m5G1.	PINE TAR 2.3% solution
+m5G2.	PINETARSOL solution 200mL
+m5G3.	PINETARSOL solution 500mL
+m5G4.	PINE TAR 2.3% bath oil
+m5G5.	PINETARSOL bath oil 200mL
+m5G6.	PINETARSOL bath oil 500mL
+m5G7.	PINE TAR 1.6% gel
+m5G8.	PINETARSOL gel 100g
+m5H..	ALITRETINOIN
+m5H1.	TOCTINO 10mg capsules
+m5H2.	TOCTINO 30mg capsules
+m5HY.	ALITRETINOIN 30mg capsules
+m5HZ.	ALITRETINOIN 10mg capsules
+m5z..	Dithranol [generic additions]
+m5z1.	Dithranol 0.1% ointment BP
+m5z2.	Dithranol 0.2% ointment BP
+m5z3.	Dithranol 0.5% ointment BP
+m5z4.	Dithranol 1.5% ointment BP
+m5z5.	Dithranol 0.2% paste BP
+m5z6.	Dithranol 0.5% paste BP
+m5z7.	Dithranol 3% ointment BP
+m5z8.	Dithranol 2% cream
+m5z9.	Dithranol 3% cream
+m5zm.	Dithranol 0.1% paste BP
+m5zn.	Dithranol 1% paste BP
+m5zo.	Dithranol 0.4% ointment BP
+m5zp.	Dithranol 1% ointment BP
+m5zq.	Dithranol 2% ointment BP
+m5zr.	Dithranol 0.5% waxstick
+m5zs.	Dithranol 1% waxstick
+m5zt.	Dithranol 2% waxstick
+m5zu.	Dithranol 0.25% cream
+m5zv.	Dithranol 0.5% cream
+m5zw.	Dithranol 1% cream
+m5zx.	Dithranol 0.1% cream
+m5zy.	Dithranol 0.2% cream
+m5zz.	Dithranol 0.4% cream
+m633.	Sulphur+salicylic acid ointment BPC
+m664.	Neo-Medrone lotion 50mL
+m665.	Neo-Medrone lotion 75mL
+m666.	Quinoderm+hydrocortisone cream 30g
+m81A.	Salicylic acid+lactic acid 25%/25% ointment
+m81D.	Salicylic acid in white soft paraffin 60%/40% ointment
+m81z.	Salicylic acid 50% ointment
+m853.	Podophyllin+salicylic acid 20/25% ointment
+mb11.	Alphosyl shampoo 60g
+mb13.	Calmurid solution 125mL
+mb19.	Clinitar 2% shampoo 60g
+mb1A.	T/Gel 2% shampoo 200mL
+mb1B.	T/Gel 2% shampoo 250mL
+mb1C.	Clinitar 2% shampoo 100g
+mb1D.	Alphosyl 2-in-1 combined shampoo and conditioner 125mL
+mb1E.	Alphosyl 2-in-1 combined shampoo and conditioner 250mL
+mb1L.	Cocois scalp ointment
+mb1Q.	Coal tar extract 2% shampoo
+mb1R.	Cocois scalp ointment 100g
+mb1S.	Cocois scalp ointment 40g
+mb1V.	Coal tar+lecithin 2.5/0.3% shampoo
+mb1W.	Alcoholic coal tar extract 5% shampoo
+mb1Z.	Coal tar 4.3% shampoo
+mb1a.	Gelcotar liquid 150mL
+mb1n.	Psoriderm shampoo 120mL
+mb1o.	Psoriderm shampoo 250mL
+mb1t.	T/Gel 2% shampoo 125mL
+mb1w.	Alphosyl shampoo 125mL
+mb1x.	Gelcotar liquid 350mL
+mb1y.	Alphosyl shampoo 250mL
+mb58.	T/GEL shampoo for dry hair 125mL
+mb59.	T/GEL shampoo for dry hair 250mL
+me46.	Lotriderm cream 15g
+me4D.	Lotriderm cream 30g
+me4x.	Betamethasone+clotrimazole 0.05%/1% cream
+me5C.	Triamcinolone+econazole nitrate 0.1%/1.0% cream
+me5d.	Pevaryl TC 1% cream 15g
+p1EG.	SILDERM SCAR GEL 15g
+p1EH.	SILDERM SCAR GEL 6g
+p1EI.	SILDERM SCAR spray 30mL
+p1EJ.	SILDERM SCAR spray 60mL
+p581.	Cortacream 7.5cmx2m bandage
+p5f3.	Zinc paste+coal tar bandage
+p5f4.	Zinc paste+ichthammol bandage
+x000D	Alphosyl 2 in 1 shampoo
+x0026	Clobetasol propionate+neomycin sulphate+Nystatin
+x00D0	Hydromol emollient bath additive
+x00D3	Polytar emollient bath additive
+x00D8	Psoriderm bath emulsion
+x00DD	Balneum with Tar bath oil
+x00FJ	Adcortyl 0.1% cream
+x00FK	Adcortyl+Graneodin cream
+x00FN	Alphaderm cream
+x00FO	Alphosyl cream
+x00FP	Alphosyl HC cream
+x00FW	Aureocort cream
+x00Fa	Betnovate cream
+x00Fb	Betnovate C cream
+x00Fc	Betnovate N cream
+x00Fd	Betnovate RD cream
+x00Fh	Budesonide 0.025% cream
+x00Fj	Calmurid cream
+x00Fk	Calmurid HC cream
+x00Fm	Canesten HC cream
+x00Fn	Carbo-Cort cream
+x00Fo	Carbo-Dome cream
+x00Ft	Clinitar cream
+x00Fu	Clobetasol propionate 0.05% cream
+x00Fv	Cobadex 0.5% cream
+x00Fw	Cobadex 1% cream
+x00G0	Daktacort cream
+x00G3	Dermovate cream
+x00G4	Dermovate-NN cream
+x00G6	Dioderm cream
+x00G8	Diprosone cream
+x00G9	Dithrocream 0.1% cream
+x00GA	Dithrocream 0.25% cream
+x00GB	Dithrocream 2% cream
+x00GC	Dithrocream Forte 0.5% cream
+x00GD	Dithrocream HP 1% cream
+x00GI	Econacort cream
+x00GM	Efcortelan 0.5% cream
+x00GN	Efcortelan 1% cream
+x00GO	Efcortelan 2.5% cream
+x00GS	Eumovate cream
+x00GU	Eurax-Hydrocortisone cream
+x00GW	Exolan cream
+x00GY	Fucibet cream
+x00Ga	Fucidin H cream
+x00Gc	Gentisone HC cream
+x00Gl	Hydrocortisone 0.5% cream
+x00Gm	Hydrocortisone 1% cream
+x00Go	Hydrocortistab 1% cream
+x00Gp	Hydrocortisyl 1% cream
+x00Gq	Hydromol cream
+x00Gs	Ledercort 0.1% cream
+x00Gw	Locoid 0.1% cream
+x00Gx	Locoid C 0.1% cream
+x00Gy	Lotriderm cream
+x00H1	Methylprednisolone acetate+neomycin sulphate 0.25/0.5% cream
+x00H2	Mildison Lipocream 1% cream
+x00H6	Neo-Medrone 0.25% cream
+x00H8	Nystadermal cream
+x00H9	Nystaform-HC 0.5% cream
+x00HC	Pevaryl TC cream
+x00HE	Pragmatar cream
+x00HF	Preferid cream
+x00HH	Propaderm cream
+x00HI	Psoradrate 0.1% cream
+x00HJ	Psoradrate 0.2% cream
+x00HK	Psoriderm cream
+x00HL	Quinocort cream
+x00HO	Quinoderm+hydrocortisone cream
+x00Hb	Tarcortin cream
+x00Hd	Terra-Cortril Nystatin cream
+x00He	Timodine cream
+x00Hj	Tri-adcortyl cream
+x00Hl	Trimovate cream
+x00Hu	Vioform Hydrocortisone cream
+x00MG	Epifoam foam
+x00Mo	Fucidin H gel
+x00Mp	Gelcosal gel
+x00Mq	Gelcotar gel
+x00N7	Psorigel 7.5% gel
+x00T7	Alphosyl lotion
+x00TA	Betnovate lotion
+x00TG	Diprosone lotion
+x00Tx	Locoid 0.1% lipocream
+x00V6	Gelcotar liquid
+x00WO	Adcortyl 0.1% ointment
+x00WP	Alphodith 0.4% ointment
+x00WQ	Alphodith 1% ointment
+x00WR	Alphodith 2% ointment
+x00WS	Alphodith 3% ointment
+x00WU	Anthranol 0.4% ointment
+x00WV	Anthranol 1% ointment
+x00WW	Anthranol 2% ointment
+x00WY	Aureocort ointment
+x00Wb	Betnovate ointment
+x00Wc	Betnovate C ointment
+x00Wd	Betnovate N ointment
+x00We	Betnovate RD ointment
+x00Wf	Budesonide 0.025% ointment
+x00Wj	Clobetasol propionate 0.05% ointment
+x00Wl	Daktacort ointment
+x00Wm	Dermovate ointment
+x00Wn	Dermovate-NN ointment
+x00Wp	Diprosalic ointment
+x00Wq	Diprosone ointment
+x00Wr	Dithrolan ointment
+x00Wu	Efcortelan 0.5% ointment
+x00Wv	Efcortelan 1% ointment
+x00Ww	Efcortelan 2.5% ointment
+x00Wx	Eumovate ointment
+x00X0	Fucidin H ointment
+x00X2	Gregoderm ointment
+x00X5	Hydrocortisone 1% ointment
+x00X7	Hydrocortistab 1% ointment
+x00X8	Hydrocortisyl 1% ointment
+x00XB	Locoid 0.1% ointment
+x00XC	Locoid C 0.1% ointment
+x00XI	Nystaform-HC 1% ointment
+x00XK	Preferid ointment
+x00XN	Propaderm ointment
+x00XO	Psorin ointment
+x00XQ	Terra-Cortril ointment
+x00XS	Tri-adcortyl ointment
+x00XT	Tri-Cicatrin ointment
+x00XX	Vioform Hydrocortisone ointment
+x00bo	Betnovate scalp application
+x00bp	Clobetasol propionate 0.05% scalp application
+x00bq	Dermovate scalp application
+x00br	Diprosalic scalp application
+x00bs	Locoid 0.1% scalp lotion
+x00by	Baltar shampoo
+x00c3	Clinitar shampoo
+x00c9	Psoriderm shampoo
+x00cC	T/Gel shampoo
+x00cx	Terra-Cortril spray
+x00dH	Calmurid solution
+x00yI	Topical hydrocortisone
+x00z8	Topical budesonide
+x01F7	Sential E cream
+x01Fd	Parfenac 5% cream
+x01Fe	Meditar 5% waxstick
+x01Ff	Clinitar 2.5% gel
+x01Fg	Coal tar scalp preparations
+x01Fi	Coal tar bath preparations
+x01Fj	Dithranol cream
+x01Fl	Psoradrate 0.4% cream
+x01Fm	Keralyt 6% gel
+x01MN	Alclometasone
+x01MO	Modrasone 0.05% cream
+x01MP	Modrasone 0.05% ointment
+x01MT	Propaderm A cream
+x01MU	Propaderm A ointment
+x01MZ	Clobetasol
+x01Mb	Trimovate ointment
+x01Md	Stiedex 0.25% lotion
+x01Me	Stiedex LPN oily cream
+x01Mf	Stiedex LP 0.05% oily cream
+x01Mg	Stiedex 0.25% oily cream
+x01Ml	Diflucortolone
+x01Mm	Nerisone 0.1% cream
+x01Mn	Nerisone 0.1% ointment
+x01Mo	Nerisone Forte 0.3% ointment
+x01Mp	Nerisone 0.1% oily cream
+x01Mq	Nerisone Forte 0.3% oily cream
+x01Ms	Topilar 0.025% cream
+x01Mt	Topilar 0.025% ointment
+x01Mw	Synalar N 0.025% ointment
+x01Mx	Synalar N 0.025% cream
+x01My	Synalar C 0.025% ointment
+x01Mz	Synalar C 0.025% cream
+x01N1	Synalar 1:4 ointment
+x01N2	Synalar 1:4 cream
+x01N3	Synalar 0.025% cream
+x01N4	Synalar 0.025% ointment
+x01N5	Synalar 0.025% gel
+x01N6	Metosyn 0.05% cream
+x01N7	Metosyn 0.05% ointment
+x01N8	Metosyn 0.05% scalp application
+x01N9	Ultradil Plain cream
+x01NA	Ultradil cream
+x01NB	Ultradil Plain ointment
+x01NC	Ultradil ointment
+x01ND	Ultralanum Plain cream
+x01NE	Ultralanum cream
+x01NF	Ultralanum Plain ointment
+x01NG	Ultralanum ointment
+x01NH	Haelan 0.0125% cream
+x01NI	Haelan 0.0125% ointment
+x01NJ	Haelan X 0.05% ointment
+x01NK	Haelan X 0.05% cream
+x01NL	Haelan C 0.0125% ointment
+x01NM	Haelan C 0.0125% cream
+x01NR	Efcortelan 1% lotion
+x01NU	Topical compound hydrocortisone preparation
+x01NV	Framycort ointment
+x01NW	Eczederm+hydrocortisone cream
+x01NX	Barquinol-HC cream
+x01NY	Gentisone HC ointment
+x01Nd	Neo-Medrone lotion
+x01Nf	Mometasone
+x01Nh	Elocon ointment
+x01Nj	Elocon scalp lotion
+x01Nl	Elocon cream
+x0272	Tri-adcortyl Otic ear ointment
+x027S	Hydrocortisone 0.5% ointment
+x029T	Synalar 1:10 cream
+x029U	Ledercort 0.1% ointment
+x02Ap	Antraderm 1% waxstick
+x02Aq	Antraderm Forte 2% waxstick
+x02Dj	Dovonex scalp solution
+x02KK	Haelan 7.5cmx50cm tape
+x02KL	Haelan 7.5cmx200cm tape
+x02SM	Curatoderm 4micrograms/g ointment
+x02Sp	Adcortyl
+x02VW	Betacap
+x02Vf	Betnovate
+x02YM	Cutivate
+x02ZD	Dermacort
+x02az	Efamast
+x02bX	Epogam
+x02dl	Gammolin
+x02dm	Gamophase
+x02f8	Hydrocal
+x02f9	Hydrocortistab
+x02hD	Ledercort
+x02kj	Neotigason
+x02oj	Psorin
+x03ca	Locoid Crelo
+x03cb	Locoid
+x03e4	Bettamousse
+x03eA	Bettamousse 0.12% foam
+x03i6	Micanol 1% cream
+x03i7	Micanol 3% cream
+x03i9	Micanol
+x03ie	Halciderm Topical 0.1% cream
+x03iq	Alphosyl shampoo
+x03ky	Canesten Hydrocortisone cream
+x03m3	Eurax HC cream
+x03oN	Zorac 0.05% aqueous gel
+x03oO	Zorac 0.1% aqueous gel
+x03oP	Zorac
+x03rV	Epogam 40
+x03rW	Epogam 80
+x03s2	Quinocort
+x03sP	Dovonex
+x03so	Modrasone
+x03tO	Tri-adcortyl
+x03tP	Tri-adcortyl Otic
+x03tQ	Trimovate
+x03us	Pixol bath and shower
+x03uz	Polytar emollient
+x03vP	LinGam
+x03vX	Locoid C
+x03wR	Clinitar
+x03wW	Pragmatar
+x03wa	Preferid
+x03wl	Propaderm
+x03wr	Psoriderm
+x03ws	Psorigel
+x03wt	Psorin scalp
+x03x2	Econacort
+x03x5	Efcortelan
+x03xG	Elocon
+x03xY	Dioderm
+x03xd	Diprosalic
+x03xe	Diprosone
+x03xj	Dithrocream
+x03xk	Dithrocream Forte
+x03xl	Dithrocream HP
+x03yK	Tarcortin
+x03yW	Terra-Cortril
+x03yX	Terra-Cortril nystatin
+x03yb	Timodine
+x03yg	Ultralanum Plain
+x03z8	Cobadex
+x03zZ	Curatoderm
+x03zz	Fucibet
+x0400	Fucidin H
+x040K	Vipsogal
+x040k	Calmurid
+x040l	Calmurid HC
+x0414	Carbo-Dome
+x041P	Eumovate
+x041i	Mildison Lipocream
+x042J	Baltar
+x042f	Betnovate C
+x042g	Betnovate N
+x042h	Betnovate RD
+x0436	Gelcosal
+x0437	Gelcotar
+x043A	Gentisone HC
+x043P	Gregoderm
+x0448	Metosyn
+x045l	Nerisone
+x045m	Nerisone Forte
+x046K	Nystadermal
+x046M	Nystaform-HC
+x0477	Aureocort
+x047b	Adcortyl Intra-articular/Intradermal
+x047c	Adcortyl in Orabase
+x047d	Adcortyl+Graneodin
+x047y	Alphaderm
+x047z	Alphosyl
+x0480	Alphosyl 2 in 1
+x0481	Alphosyl HC
+x048Z	Stiedex
+x048a	Stiedex LP
+x048o	Synalar
+x048p	Synalar 1:4
+x048q	Synalar C
+x048r	Synalar N
+x048v	Haelan
+x048w	Halciderm Topical
+x049f	Hydrocortisyl
+x049h	Hydromol
+x049i	Hydromol emollient
+x049j	Dayleve
+x04AG	Daktacort
+x04Ad	Dermovate
+x04Ae	Dermovate-NN
+x04pc	Dayleve 0.1% cream
+x04rl	Efamast 40
+x04rm	Efamast 80
+x04rs	Exorex lotion
+x04rt	Exorex
+x05K3	Acitretin - chemical
+x05KF	Alclometasone dipropionate - chemical
+x05YY	Daktacort HC cream
+x05YZ	Daktacort HC
+x05co	Protopic
+x05cp	Protopic 0.03% ointment
+x05cq	Protopic 0.1% ointment
+x05cu	Dovobet
+x05cv	Betamethasone+calcipotriol
+x05cz	Dovobet ointment
+x05hy	Elidel 1% cream
+x05iD	Elidel
+x05kq	Respiratory mometasone
+x05ks	Topical mometasone
+x05m0	Sebco
+x05m1	Sebco ointment
+x05md	Zenoxone
+x05oW	Hydromol ointment
+x05r8	Exe-Cort Hydrocortisone 1% cream
+x060R	Clobetasol propionate 500micrograms/g foam
+x060S	Clarelux 500micrograms/g foam
+x060T	Clarelux
