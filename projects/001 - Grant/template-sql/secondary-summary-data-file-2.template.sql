@@ -2,6 +2,9 @@
 --│ Secondary summary file 2 │
 --└──────────────────────────┘
 
+------------ RESEARCH DATA ENGINEER CHECK ------------
+-- GEORGE TILSTON	DATE: 23/04/21
+
 -- OBJECTIVE: To provide a denominator population when working with the secondary data files. This
 --						file gives counts per hospital, imd and the number of LTCs
 

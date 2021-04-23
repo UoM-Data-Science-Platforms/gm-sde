@@ -2,6 +2,9 @@
 --│ Primary care utilisation file 6 │
 --└─────────────────────────────────┘
 
+------------ RESEARCH DATA ENGINEER CHECK ------------
+-- GEORGE TILSTON	DATE: 23/04/21
+
 -- OUTPUT: Data with the following fields
 -- 	•	Date (YYYY-MM-DD) 
 -- 	•	CCG (Bolton/Salford/HMR/etc.)
