@@ -23,24 +23,28 @@ SELECT DISTINCT FK_Patient_Link_ID INTO #Patients FROM #AdmissionTypes;
 
 --> EXECUTE query-admissions-covid-utilisation.sql
 
+--> EXECUTE query-patient-practice-and-ccg.sql
 
 -- Prepare discharge data
 IF OBJECT_ID('tempdb..#FinalDischarges') IS NOT NULL DROP TABLE #FinalDischarges;
 SELECT 
-	DischargeDate, l.AcuteProvider,	ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
+	DischargeDate, l.AcuteProvider, CASE WHEN CCG = 'Manchester' THEN 'Y' ELSE 'N' END AS IsManchesterCCGResident,
+	ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
 	ISNULL(NumberOfLTCs,0) AS NumberOfLTCs, CovidHealthcareUtilisation, count(*) AS NumberDischarged 
 	INTO #FinalDischarges
 FROM #LengthOfStay l
 LEFT OUTER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND c.AdmissionDate = l.AdmissionDate AND c.AcuteProvider = l.AcuteProvider
 LEFT OUTER JOIN #NumLTCs ltc ON ltc.FK_Patient_Link_ID = l.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = l.FK_Patient_Link_ID
-GROUP BY DischargeDate, l.AcuteProvider,IMD2019Decile1IsMostDeprived10IsLeastDeprived, NumberOfLTCs, CovidHealthcareUtilisation;
+LEFT OUTER JOIN #PatientPracticeAndCCG ppc ON ppc.FK_Patient_Link_ID = l.FK_Patient_Link_ID
+GROUP BY DischargeDate, l.AcuteProvider, CASE WHEN CCG = 'Manchester' THEN 'Y' ELSE 'N' END, IMD2019Decile1IsMostDeprived10IsLeastDeprived, NumberOfLTCs, CovidHealthcareUtilisation;
 -- 28764
 
 -- Prepare admission data
 IF OBJECT_ID('tempdb..#FinalAdmissions') IS NOT NULL DROP TABLE #FinalAdmissions;
 SELECT 
-	p.AdmissionDate, p.AcuteProvider, ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, ISNULL(NumberOfLTCs,0) AS NumberOfLTCs, CovidHealthcareUtilisation,
+	p.AdmissionDate, p.AcuteProvider, CASE WHEN CCG = 'Manchester' THEN 'Y' ELSE 'N' END AS IsManchesterCCGResident,
+	ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, ISNULL(NumberOfLTCs,0) AS NumberOfLTCs, CovidHealthcareUtilisation,
 	SUM(CASE WHEN AdmissionType = 'Unplanned' THEN 1 ELSE 0 END) AS NumberUnplannedAdmissions,
 	SUM(CASE WHEN AdmissionType = 'Planned' THEN 1 ELSE 0 END) AS NumberPlannedAdmissions,
 	SUM(CASE WHEN AdmissionType = 'Maternity' THEN 1 ELSE 0 END) AS NumberMaternityAdmissions,
@@ -54,24 +58,25 @@ FROM #AdmissionTypes p
 	LEFT OUTER JOIN #LengthOfStay l ON l.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND l.AdmissionDate = p.AdmissionDate AND l.AcuteProvider = p.AcuteProvider
 	LEFT OUTER JOIN #NumLTCs ltc ON ltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 	LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+	LEFT OUTER JOIN #PatientPracticeAndCCG ppc ON ppc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE l.LengthOfStay IS NOT NULL
-GROUP BY p.AdmissionDate,p.AcuteProvider,IMD2019Decile1IsMostDeprived10IsLeastDeprived, CovidHealthcareUtilisation,NumberOfLTCs;
+GROUP BY p.AdmissionDate,p.AcuteProvider,CASE WHEN CCG = 'Manchester' THEN 'Y' ELSE 'N' END,IMD2019Decile1IsMostDeprived10IsLeastDeprived, CovidHealthcareUtilisation,NumberOfLTCs;
 -- 29833
 
 -- Find unique combinations of data, provider, decile, numLTCs and covid utilisation
 IF OBJECT_ID('tempdb..#CovariateCombinations') IS NOT NULL DROP TABLE #CovariateCombinations;
-SELECT DISTINCT DischargeDate AS [Date], AcuteProvider, IMD2019Decile1IsMostDeprived10IsLeastDeprived, NumberOfLTCs, CovidHealthcareUtilisation
+SELECT DISTINCT DischargeDate AS [Date], AcuteProvider, IsManchesterCCGResident,IMD2019Decile1IsMostDeprived10IsLeastDeprived, NumberOfLTCs, CovidHealthcareUtilisation
 INTO #CovariateCombinations
 FROM #FinalDischarges
 UNION
-SELECT DISTINCT AdmissionDate, AcuteProvider,IMD2019Decile1IsMostDeprived10IsLeastDeprived, NumberOfLTCs, CovidHealthcareUtilisation
+SELECT DISTINCT AdmissionDate, AcuteProvider,IsManchesterCCGResident,IMD2019Decile1IsMostDeprived10IsLeastDeprived, NumberOfLTCs, CovidHealthcareUtilisation
 FROM #FinalAdmissions
 --32352
 
 -- Bring it all together for output
 -- PRINT 'Date,AcuteProvider,IMD2019Decile1IsMostDeprived10IsLeastDeprived,NumberOfLTCs,CovidHealthcareUtilisation,NumberMaternityAdmissions,NumberPlannedAdmissions,NumberTransferAdmissions,NumberUnknownAdmissions,NumberUnplannedAdmissions,NumberDischarged';
 SELECT 
-	cc.[Date], cc.AcuteProvider, cc.IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
+	cc.[Date], cc.AcuteProvider, cc.IsManchesterCCGResident, cc.IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
 	cc.NumberOfLTCs, cc.CovidHealthcareUtilisation,
 	ISNULL(fa.NumberMaternityAdmissions, 0) AS NumberMaternityAdmissions, 
 	ISNULL(fa.NumberPlannedAdmissions, 0) AS NumberPlannedAdmissions, 
@@ -85,11 +90,13 @@ LEFT OUTER JOIN #FinalAdmissions fa ON
 	fa.AcuteProvider = cc.AcuteProvider AND
 	fa.IMD2019Decile1IsMostDeprived10IsLeastDeprived = cc.IMD2019Decile1IsMostDeprived10IsLeastDeprived AND
 	fa.NumberOfLTCs = cc.NumberOfLTCs AND
-	fa.CovidHealthcareUtilisation = cc.CovidHealthcareUtilisation
+	fa.CovidHealthcareUtilisation = cc.CovidHealthcareUtilisation AND
+	fa.IsManchesterCCGResident = cc.IsManchesterCCGResident
 LEFT OUTER JOIN #FinalDischarges fd ON 
 	fd.DischargeDate = cc.[Date] AND
 	fd.AcuteProvider = cc.AcuteProvider AND
 	fd.IMD2019Decile1IsMostDeprived10IsLeastDeprived = cc.IMD2019Decile1IsMostDeprived10IsLeastDeprived AND
 	fd.NumberOfLTCs = cc.NumberOfLTCs AND
-	fd.CovidHealthcareUtilisation = cc.CovidHealthcareUtilisation
-ORDER BY cc.[Date], cc.AcuteProvider, cc.IMD2019Decile1IsMostDeprived10IsLeastDeprived, cc.NumberOfLTCs, cc.CovidHealthcareUtilisation;
+	fd.CovidHealthcareUtilisation = cc.CovidHealthcareUtilisation AND
+	fd.IsManchesterCCGResident = cc.IsManchesterCCGResident
+ORDER BY cc.[Date], cc.AcuteProvider, cc.IsManchesterCCGResident, cc.IMD2019Decile1IsMostDeprived10IsLeastDeprived, cc.NumberOfLTCs, cc.CovidHealthcareUtilisation;

@@ -116,3 +116,17 @@ Attempted to find the location of information related to project no.1 (Grant), i
 
 09/04/21
 - validating code sets after adding some extra CTV3 ones (Steeg RQ29)
+
+12/04/21
+- tidying up extraction code for RQ29 and checking potential missing codes again
+
+14/04/21
+- added a couple of extra codes for RQ29, and running the codeset validation script again
+
+15/04/21
+- sense checks of data and output for RQ29
+- checking monthly self-harm volumes against estimated from other studies
+
+16/04/21
+- finalising extract for RQ029 with help from Richard
+
