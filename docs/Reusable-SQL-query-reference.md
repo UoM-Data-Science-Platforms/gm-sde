@@ -163,10 +163,10 @@ _Output_
 ```
 Five temp tables as follows:
   #AllCodes (Concept, Version, Code)
-  #CodeSets (Concept, FK_Coding_ID)
-  #SnomedSets (Concept, FK_SNOMED_ID)
-  #VersionedCodeSets (Concept, Version, FK_Coding_ID)
-  #VersionedSnomedSets (Concept, Version, FK_SNOMED_ID)
+  #CodeSets (FK_Reference_Coding_ID, Concept)
+  #SnomedSets (FK_Reference_SnomedCT_ID, FK_SNOMED_ID)
+  #VersionedCodeSets (FK_Reference_Coding_ID, Concept, Version)
+  #VersionedSnomedSets (FK_Reference_SnomedCT_ID, Version, FK_SNOMED_ID)
 ```
 _File_: `load-code-sets.sql`
 
@@ -190,6 +190,23 @@ A temp table as follows:
 					 "SNNNNNN" where 'NNNNNN' is a FK_Reference_SnomedCT_ID
 ```
 _File_: `query-first-prescribing-of-medication.sql`
+
+---
+## Flu vaccine eligibile patients
+To obtain a table with a list of patients who are currently entitled to a flu vaccine.
+
+_Input_
+```
+No pre-requisites
+```
+
+_Output_
+```
+A temp table as follows:
+ #FluVaccPatients (FK_Patient_Link_ID)
+ 	- FK_Patient_Link_ID - unique patient id
+```
+_File_: `query-get-flu-vaccine-eligible.sql`
 
 ---
 ## GET No. LTCS per patient
