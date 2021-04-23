@@ -32,7 +32,7 @@ SET @StartDate = '2020-02-01';
 
 -- Find all patients alive at start date
 IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
-SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
+SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicCategoryDescription, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
 WHERE (DeathDate IS NULL OR DeathDate >= @StartDate);
 
 -- Find all patients registered with a GP
@@ -50,7 +50,7 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 -- Remove patients who are currently <16
 DELETE FROM #PatientYearOfBirth WHERE 2021 - YearOfBirth <= 16;
 IF OBJECT_ID('tempdb..#Temp') IS NOT NULL DROP TABLE #Temp;
-SELECT p.FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #Temp FROM #Patients p
+SELECT p.FK_Patient_Link_ID, EthnicCategoryDescription, DeathDate INTO #Temp FROM #Patients p
 	INNER JOIN #PatientYearOfBirth y ON y.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
 TRUNCATE TABLE #Patients;
 INSERT INTO #Patients
@@ -107,7 +107,7 @@ SELECT
 	p.FK_Patient_Link_ID AS PatientId,
 	2020 - YearOfBirth AS AgeAtIndexDate,
 	Sex,
-	EthnicMainGroup AS Ethnicity,
+	EthnicCategoryDescription AS Ethnicity,
 	LSOA_Code AS LSOA,
 	IsCareHomeResident,
 	CASE WHEN HighVulnerabilityCodeDate IS NOT NULL THEN 'Y' ELSE 'N' END AS HasHighClinicalVulnerabilityIndicator,
