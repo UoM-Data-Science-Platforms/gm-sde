@@ -557,7 +557,7 @@ AND MedicationDate < @StartDate
 AND MedicationDate >= DATEADD(year, -1, @StartDate);
 
 IF OBJECT_ID('tempdb..#PatientsWithLTCs') IS NOT NULL DROP TABLE #PatientsWithLTCs;
-CREATE TABLE #PatientsWithLTCs (FK_Patient_Link_ID BIGINT, Condition VARCHAR(100));
+CREATE TABLE #PatientsWithLTCs (FK_Patient_Link_ID BIGINT, LTC VARCHAR(100));
 
 -- Painful condition >= 4 Rx in last year
 INSERT INTO #PatientsWithLTCs
