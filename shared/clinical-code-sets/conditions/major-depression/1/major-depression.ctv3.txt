@@ -1,0 +1,28 @@
+E112.	Depression: [single major episode] or [agitated] or [endogenous (including first episode)]
+E1120	Single major depressive episode, unspecified
+E1121	Single major depressive episode, mild
+E1122	Single major depressive episode, moderate
+E1123	Single major depressive episode, severe, without mention of psychosis
+E1124	Single major depressive episode, severe, with psychosis
+E1125	Single major depressive episode, in partial or unspecified remission
+E1126	Single major depressive episode, in full remission
+E112z	Single major depressive episode NOS
+E113.	Recurrent major depressive episode
+E1130	Recurrent major depressive episodes, unspecified
+E1131	Recurrent major depressive episodes, mild
+E1132	Recurrent major depressive episodes, moderate
+E1133	Recurrent major depressive episodes, severe, without mention of psychosis
+E1134	Recurrent major depressive episodes, severe, with psychosis
+E1135	Recurrent major depressive episodes, in partial or unspecified remission
+E1136	Recurrent major depressive episodes, in full remission
+E113z	Recurrent major depressive episode NOS
+Eu332	[X]Depression without psychotic symptoms: [recurrent: [major] or [manic-depressive psychosis, depressed type] or [vital] or [current severe episode]] or [endogenous]
+XE1Y0	Single major depressive episode
+XE1Y1	Recurrent major depressive episodes
+XSEGJ	Major depression
+XSGok	Mild major depression
+XSGol	Moderate major depression
+XSGom	Severe major depression without psychotic features
+XaCIu	Severe depression
+XaX53	Single major depressive episode, severe, with psychosis, psychosis in remission
+XaX54	Recurrent major depressive episodes, severe, with psychosis, psychosis in remission

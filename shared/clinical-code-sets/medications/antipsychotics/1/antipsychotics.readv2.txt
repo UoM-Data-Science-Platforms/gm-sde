@@ -1,0 +1,6 @@
+d48y.	LEVOMEPROMAZINE 25mg/1mL injection
+d4ev.	PROMAZINE 25mg/5mL syrup
+d4r1.	OLANZAPINE 5mg tablets
+d4s..	QUETIAPINE
+d551.	HALDOL DECANOATE 50mg/1mL injection
+d576.	ZUCLOPENTHIXOL DECANOATE 200mg/1mL injection

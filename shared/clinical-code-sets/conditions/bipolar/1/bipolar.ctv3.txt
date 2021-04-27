@@ -1,0 +1,64 @@
+E114.	"Bipolar affective disorder, current episode manic"			
+E1140	"Bipolar affective disorder, currently manic, unspecified"			
+E1141	"Bipolar affective disorder, currently manic, mild"			
+E1142	"Bipolar affective disorder, currently manic, moderate"			
+E1143	"Bipolar affective disorder, currently manic, severe, without mention of psychosis"			
+E1144	"Bipolar affective disorder, currently manic, severe, with psychosis"			
+E1145	"Bipolar affective disorder, currently manic, in partial or unspecified remission"			
+E1146	"Bipolar affective disorder, currently manic, in full remission"			
+E114z	"Bipolar affective disorder, currently manic, NOS"			
+E115.	"Bipolar affective disorder, current episode depression"			
+E1150	"Bipolar affective disorder, currently depressed, unspecified"			
+E1151	"Bipolar affective disorder, currently depressed, mild"			
+E1152	"Bipolar affective disorder, currently depressed, moderate"			
+E1153	"Bipolar affective disorder, currently depressed, severe, without mention of psychosis"			
+E1154	"Bipolar affective disorder, currently depressed, severe, with psychosis"			
+E1155	"Bipolar affective disorder, currently depressed, in partial or unspecified remission"			
+E1156	"Bipolar affective disorder, currently depressed, in full remission"			
+E115z	"Bipolar affective disorder, currently depressed, NOS"			
+E116.	Mixed bipolar affective disorder			
+E1160	"Mixed bipolar affective disorder, unspecified"			
+E1161	"Mixed bipolar affective disorder, mild"			
+E1162	"Mixed bipolar affective disorder, moderate"			
+E1163	"Mixed bipolar affective disorder, severe, without mention of psychosis"			
+E1164	"Mixed bipolar affective disorder, severe, with psychosis"			
+E1165	"Mixed bipolar affective disorder, in partial or unspecified remission"			
+E1166	"Mixed bipolar affective disorder, in full remission"			
+E116z	"Mixed bipolar affective disorder, NOS"			
+E117.	Unspecified bipolar affective disorder			
+E1170	"Unspecified bipolar affective disorder, unspecified"			
+E1171	"Unspecified bipolar affective disorder, mild"			
+E1172	"Unspecified bipolar affective disorder, moderate"			
+E1173	"Unspecified bipolar affective disorder, severe, without mention of psychosis"			
+E1174	"Unspecified bipolar affective disorder, severe, with psychosis"			
+E1175	"Unspecified bipolar affective disorder, in partial or unspecified remission"			
+E1176	"Unspecified bipolar affective disorder, in full remission"			
+E117z	"Unspecified bipolar affective disorder, NOS"			
+Eu30.	"[X]Bipolar disorder, single manic episode"			
+Eu310	"Bipolar affective disorder, current episode hypomanic"			
+Eu311	"[X]Bipolar affective disorder, current episode manic without psychotic symptoms"			
+Eu312	"[X]Bipolar affective disorder, current episode manic with psychotic symptoms"			
+Eu313	"[X]Bipolar affective disorder, current episode mild or moderate depression"			
+Eu314	"[X]Bipolar affective disorder, current episode severe depression without psychotic symptoms"			
+Eu316	"Bipolar affective disorder , current episode mixed"			
+Eu317	"[X]Bipolar affective disorder, currently in remission"			
+Eu31y	[X]Other bipolar affective disorders			
+Eu31z	"[X]Bipolar affective disorder, unspecified"			
+Eu34.	[X]Persistent mood affective disorders			
+Eu34y	[X]Other persistent mood affective disorders			
+Eu34z	"[X]Persistent mood affective disorder, unspecified"			
+Eu3y.	[X]Other mood affective disorders			
+Eu3yy	[X]Other specified mood affective disorders			
+X00RO	Organic bipolar disorder			
+X00SM	Bipolar affective disorder			
+X00SN	Bipolar II disorder			
+X79ul	Bipolar diathermy			
+X9078	Bipolar			
+XE1Zg	[X]Other single mood affective disorders			
+XE1Zh	[X]Other recurrent mood affective disorders			
+XE1Zi	[X]Unspecified mood affective disorder			
+XaMwc	Bipolar affective disorder resolved			
+XaY1Y	Bipolar I disorder			
+XafEv	Signposting to Bipolar UK			
+Eu3y0	[X] Mood affective disorders: [other single] or [mixed episode]
+E11..	Affective psychoses (& [bipolar] or [depressive] or [manic])

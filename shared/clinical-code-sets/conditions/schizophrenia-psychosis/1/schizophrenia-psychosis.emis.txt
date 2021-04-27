@@ -1,0 +1,14 @@
+EMISICD10|F03X0	Unspecified dementia, without additional symptoms
+EMISICD10|F03X4	Unspecified dementia, other mixed symptoms
+EMISICD10|F2320	Acute schizophrenia-like psychotic disorder, without associated acute stress
+EMISICD10|F0633	Organic mixed affective disorder
+EMISQLI3	Lithium monitoring by out patient clinic
+EMISICD10|F2310	Acute polymorphic psychot disord with symp of schizophren, without associated acute stress
+EMISICD10|F2391	Acute and transient psychotic disorder, unspecified, with associated acute stress
+EMISQLI1	Lithium monitoring by GP
+EMISICD10|F0632	Organic depressive disorder
+EMISICD10|F2321	Acute schizophrenia-like psychotic disorder, with associated acute stress
+EMISQLI2	Lithium monitoring by mental health team
+EMISICD10|F2095	Schizophrenia, unspecified, complete remission
+EMISICD10|F2018	Hebephrenic schizophrenia, other
+EMISICD10|F2311	Acute polymorphic psychot disord with symp of schizophren, with associated acute stress
