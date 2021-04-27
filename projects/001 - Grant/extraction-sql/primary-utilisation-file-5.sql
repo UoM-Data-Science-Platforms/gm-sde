@@ -447,7 +447,8 @@ FROM RLS.vw_GP_Events
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('bmi','smoking-status','blood-pressure','cholesterol','hba1c') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('bmi','smoking-status','blood-pressure','cholesterol','hba1c') AND [Version]=1)
-);
+)
+AND EventDate >= @StartDate;
 
 IF OBJECT_ID('tempdb..#KeyEventsPerPatient') IS NOT NULL DROP TABLE #KeyEventsPerPatient;
 select FK_Patient_Link_ID, EventDate, CASE WHEN s.Concept IS NULL THEN c.Concept ELSE s.Concept END AS Concept
