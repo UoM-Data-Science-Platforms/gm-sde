@@ -1,0 +1,3 @@
+1005681000000107	Serum high density lipoprotein cholesterol level (observable entity)
+1010581000000101	Plasma high density lipoprotein cholesterol level (observable entity)
+1026461000000104	Serum random high density lipoprotein cholesterol level (observable entity)
