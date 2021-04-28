@@ -1,0 +1,7 @@
+1007991000000105	Serum total 25-hydroxy vitamin D level (observable entity)
+1029801000000105	Total 25-hydroxyvitamin D level (observable entity)
+1031181000000107	Serum vitamin D level (observable entity)
+12199005	Vitamin D, 25-hydroxy measurement (procedure)
+270990000	Serum vitamin D measurement (procedure)
+83729008	Vitamin D measurement (procedure)
+996641000000102	Combined total vitamin D2 and D3 level (observable entity)
