@@ -1,0 +1,3 @@
+44PI.00	Calculated LDL cholesterol level
+44P6.00	Serum LDL cholesterol level
+44dB.00	Plasma LDL cholesterol level

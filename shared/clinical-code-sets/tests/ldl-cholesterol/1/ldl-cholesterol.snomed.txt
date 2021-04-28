@@ -1,0 +1,3 @@
+1010591000000104	Plasma low density lipoprotein cholesterol level (observable entity)
+1014501000000104	Calculated low density lipoprotein cholesterol level (observable entity)
+1022191000000100	Serum low density lipoprotein cholesterol level (observable entity)
