@@ -1,0 +1,298 @@
+19954111000001103	Ebetrex 10mg/1ml solution for injection pre-filled syringes (Sandoz Ltd)
+19954411000001108	Ebetrex 15mg/1.5ml solution for injection pre-filled syringes (Sandoz Ltd)
+19956011000001109	Ebetrex 20mg/1ml solution for injection pre-filled syringes (Sandoz Ltd)
+19955711000001103	Ebetrex 25mg/1.25ml solution for injection pre-filled syringes (Sandoz Ltd)
+19972411000001103	Ebetrex 30mg/1.5ml solution for injection pre-filled syringes (Sandoz Ltd)
+19953911000001102	Ebetrex 7.5mg/0.75ml solution for injection pre-filled syringes (Sandoz Ltd)
+34871011000001105	Jylamvo 2mg/ml oral solution (Intrapharm Laboratories Ltd)
+322011000001106	Maxtrex 10mg tablets (Pfizer Ltd)
+644711000001108	Maxtrex 2.5mg tablets (Pfizer Ltd)
+34776911000001102	Methofill 10mg/0.2ml solution for injection pre-filled injector (Accord Healthcare Ltd)
+34777311000001100	Methofill 12.5mg/0.25ml solution for injection pre-filled injector (Accord Healthcare Ltd)
+34777111000001102	Methofill 15mg/0.3ml solution for injection pre-filled injector (Accord Healthcare Ltd)
+34777611000001105	Methofill 17.5mg/0.35ml solution for injection pre-filled injector (Accord Healthcare Ltd)
+34777811000001109	Methofill 20mg/0.4ml solution for injection pre-filled injector (Accord Healthcare Ltd)
+34778011000001102	Methofill 22.5mg/0.45ml solution for injection pre-filled injector (Accord Healthcare Ltd)
+34778211000001107	Methofill 25mg/0.5ml solution for injection pre-filled injector (Accord Healthcare Ltd)
+34778411000001106	Methofill 27.5mg/0.55ml solution for injection pre-filled injector (Accord Healthcare Ltd)
+34778611000001109	Methofill 30mg/0.6ml solution for injection pre-filled injector (Accord Healthcare Ltd)
+34776411000001105	Methofill 7.5mg/0.15ml solution for injection pre-filled injector (Accord Healthcare Ltd)
+68887009	Methotrexate
+769892005	Methotrexate (as methotrexate sodium) 1 g/10 mL solution for injection vial
+769898009	Methotrexate (as methotrexate sodium) 1 g/40 mL solution for injection vial
+769899001	Methotrexate (as methotrexate sodium) 200 mg/8 mL solution for injection vial
+769895007	Methotrexate (as methotrexate sodium) 5 g/200 mL solution for injection vial
+769893000	Methotrexate (as methotrexate sodium) 5 g/50 mL solution for injection vial
+769894006	Methotrexate (as methotrexate sodium) 5 mg/2 mL solution for injection vial
+769897004	Methotrexate (as methotrexate sodium) 50 mg/2 mL solution for injection vial
+769896008	Methotrexate (as methotrexate sodium) 500 mg/20 mL solution for injection vial
+326875008	Methotrexate 10mg tablets
+928011000001103	Methotrexate 10mg tablets (A A H Pharmaceuticals Ltd)
+136411000001105	Methotrexate 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+24381411000001107	Methotrexate 10mg tablets (DE Pharmaceuticals)
+24135711000001100	Methotrexate 10mg tablets (Morningside Healthcare Ltd)
+14963911000001107	Methotrexate 10mg tablets (Orion Pharma (UK) Ltd)
+191111000001100	Methotrexate 10mg tablets (Pfizer Ltd)
+20310811000001101	Methotrexate 10mg tablets (Sandoz Ltd)
+15109411000001107	Methotrexate 10mg tablets (Sigma Pharmaceuticals Plc)
+22222111000001103	Methotrexate 10mg tablets (Teva UK Ltd)
+21796511000001106	Methotrexate 10mg tablets (Waymade Healthcare Plc)
+11026611000001103	Methotrexate 10mg tablets (Wockhardt UK Ltd)
+24594311000001100	Methotrexate 10mg/0.2ml solution for injection pre-filled disposable devices
+15517911000001104	Methotrexate 10mg/0.2ml solution for injection pre-filled syringes
+34167711000001101	Methotrexate 10mg/0.4ml solution for injection pre-filled disposable devices
+9468211000001108	Methotrexate 10mg/0.4ml solution for injection pre-filled syringes
+9455911000001104	Methotrexate 10mg/0.4ml solution for injection pre-filled syringes (Special Order)
+10675611000001107	Methotrexate 10mg/1ml solution for injection pre-filled syringes
+8664911000001105	Methotrexate 10mg/5ml oral solution
+8618111000001102	Methotrexate 10mg/5ml oral solution (Special Order)
+8665011000001105	Methotrexate 10mg/5ml oral suspension
+8618811000001109	Methotrexate 10mg/5ml oral suspension (Special Order)
+24594411000001107	Methotrexate 12.5mg/0.25ml solution for injection pre-filled disposable devices
+19231311000001104	Methotrexate 12.5mg/0.25ml solution for injection pre-filled syringes
+34167811000001109	Methotrexate 12.5mg/0.5ml solution for injection pre-filled disposable devices
+9468311000001100	Methotrexate 12.5mg/0.5ml solution for injection pre-filled syringes
+9455211000001108	Methotrexate 12.5mg/0.5ml solution for injection pre-filled syringes (Special Order)
+8665111000001106	Methotrexate 12.5mg/5ml oral solution
+8619311000001106	Methotrexate 12.5mg/5ml oral solution (Special Order)
+8665211000001100	Methotrexate 12.5mg/5ml oral suspension
+8619611000001101	Methotrexate 12.5mg/5ml oral suspension (Special Order)
+12813911000001109	Methotrexate 12mg/5ml oral solution
+12794011000001105	Methotrexate 12mg/5ml oral solution (Special Order)
+12814011000001107	Methotrexate 12mg/5ml oral suspension
+12793711000001105	Methotrexate 12mg/5ml oral suspension (Special Order)
+374444008	Methotrexate 15 mg oral tablet
+24594511000001106	Methotrexate 15mg/0.3ml solution for injection pre-filled disposable devices
+15518011000001102	Methotrexate 15mg/0.3ml solution for injection pre-filled syringes
+34167911000001104	Methotrexate 15mg/0.6ml solution for injection pre-filled disposable devices
+9468411000001107	Methotrexate 15mg/0.6ml solution for injection pre-filled syringes
+9454211000001107	Methotrexate 15mg/0.6ml solution for injection pre-filled syringes (Special Order)
+10675711000001103	Methotrexate 15mg/1.5ml solution for injection pre-filled syringes
+8665311000001108	Methotrexate 15mg/5ml oral solution
+8619911000001107	Methotrexate 15mg/5ml oral solution (Special Order)
+8665411000001101	Methotrexate 15mg/5ml oral suspension
+8620311000001107	Methotrexate 15mg/5ml oral suspension (Special Order)
+24594611000001105	Methotrexate 17.5mg/0.35ml solution for injection pre-filled disposable devices
+19231411000001106	Methotrexate 17.5mg/0.35ml solution for injection pre-filled syringes
+34168011000001102	Methotrexate 17.5mg/0.7ml solution for injection pre-filled disposable devices
+9468511000001106	Methotrexate 17.5mg/0.7ml solution for injection pre-filled syringes
+9453611000001106	Methotrexate 17.5mg/0.7ml solution for injection pre-filled syringes (Special Order)
+12814111000001108	Methotrexate 17.5mg/5ml oral solution
+12794611000001103	Methotrexate 17.5mg/5ml oral solution (Special Order)
+12814211000001102	Methotrexate 17.5mg/5ml oral suspension
+12794311000001108	Methotrexate 17.5mg/5ml oral suspension (Special Order)
+12814311000001105	Methotrexate 18mg/5ml oral solution
+12796111000001104	Methotrexate 18mg/5ml oral solution (Special Order)
+12814411000001103	Methotrexate 18mg/5ml oral suspension
+12795811000001103	Methotrexate 18mg/5ml oral suspension (Special Order)
+36032911000001108	Methotrexate 1g/10ml solution for injection vials
+3618611000001106	Methotrexate 1g/10ml solution for injection vials (A A H Pharmaceuticals Ltd)
+3619511000001101	Methotrexate 1g/10ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+3619211000001104	Methotrexate 1g/10ml solution for injection vials (Pfizer Ltd)
+9561911000001100	Methotrexate 1g/10ml solution for injection vials (Wockhardt UK Ltd)
+36033011000001100	Methotrexate 1g/40ml solution for injection vials
+3624511000001106	Methotrexate 1g/40ml solution for injection vials (A A H Pharmaceuticals Ltd)
+27951711000001108	Methotrexate 1g/40ml solution for injection vials (Accord Healthcare Ltd)
+3625011000001104	Methotrexate 1g/40ml solution for injection vials (Advanz Pharma)
+3624711000001101	Methotrexate 1g/40ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+11091011000001108	Methotrexate 1g/40ml solution for injection vials (Teva UK Ltd)
+12814511000001104	Methotrexate 1mg/5ml oral solution
+12796711000001103	Methotrexate 1mg/5ml oral solution (Special Order)
+12814611000001100	Methotrexate 1mg/5ml oral suspension
+12796411000001109	Methotrexate 1mg/5ml oral suspension (Special Order)
+326874007	Methotrexate 2.5mg tablets
+201811000001107	Methotrexate 2.5mg tablets (A A H Pharmaceuticals Ltd)
+683611000001105	Methotrexate 2.5mg tablets (Advanz Pharma)
+706911000001103	Methotrexate 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+34956611000001101	Methotrexate 2.5mg tablets (Almus Pharmaceuticals Ltd)
+24381611000001105	Methotrexate 2.5mg tablets (DE Pharmaceuticals)
+167911000001107	Methotrexate 2.5mg tablets (Kent Pharmaceuticals Ltd)
+24136011000001106	Methotrexate 2.5mg tablets (Morningside Healthcare Ltd)
+14962511000001107	Methotrexate 2.5mg tablets (Orion Pharma (UK) Ltd)
+383711000001107	Methotrexate 2.5mg tablets (Pfizer Ltd)
+20310611000001100	Methotrexate 2.5mg tablets (Sandoz Ltd)
+14709211000001105	Methotrexate 2.5mg tablets (Sigma Pharmaceuticals Plc)
+29918911000001101	Methotrexate 2.5mg tablets (Sigma Pharmaceuticals Plc)
+22222311000001101	Methotrexate 2.5mg tablets (Teva UK Ltd)
+14946711000001105	Methotrexate 2.5mg tablets (Waymade Healthcare Plc)
+21796211000001108	Methotrexate 2.5mg tablets (Waymade Healthcare Plc)
+11026411000001101	Methotrexate 2.5mg tablets (Wockhardt UK Ltd)
+8665611000001103	Methotrexate 2.5mg/5ml oral solution
+8622711000001105	Methotrexate 2.5mg/5ml oral solution (Special Order)
+8665711000001107	Methotrexate 2.5mg/5ml oral suspension
+8624211000001107	Methotrexate 2.5mg/5ml oral suspension (Special Order)
+36033111000001104	Methotrexate 200mg/8ml solution for injection vials
+3621611000001108	Methotrexate 200mg/8ml solution for injection vials (A A H Pharmaceuticals Ltd)
+3621811000001107	Methotrexate 200mg/8ml solution for injection vials (Advanz Pharma)
+3622011000001109	Methotrexate 200mg/8ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+24594711000001101	Methotrexate 20mg/0.4ml solution for injection pre-filled disposable devices
+15518111000001101	Methotrexate 20mg/0.4ml solution for injection pre-filled syringes
+34168111000001101	Methotrexate 20mg/0.8ml solution for injection pre-filled disposable devices
+9468611000001105	Methotrexate 20mg/0.8ml solution for injection pre-filled syringes
+9453111000001103	Methotrexate 20mg/0.8ml solution for injection pre-filled syringes (Special Order)
+19976011000001106	Methotrexate 20mg/1ml solution for injection pre-filled syringes
+10675811000001106	Methotrexate 20mg/2ml solution for injection pre-filled syringes
+12814711000001109	Methotrexate 20mg/5ml oral solution
+12798611000001108	Methotrexate 20mg/5ml oral solution (Special Order)
+12814811000001101	Methotrexate 20mg/5ml oral suspension
+12798211000001106	Methotrexate 20mg/5ml oral suspension (Special Order)
+24594811000001109	Methotrexate 22.5mg/0.45ml solution for injection pre-filled disposable devices
+19231511000001105	Methotrexate 22.5mg/0.45ml solution for injection pre-filled syringes
+34168211000001107	Methotrexate 22.5mg/0.9ml solution for injection pre-filled disposable devices
+9468711000001101	Methotrexate 22.5mg/0.9ml solution for injection pre-filled syringes
+9452811000001102	Methotrexate 22.5mg/0.9ml solution for injection pre-filled syringes (Special Order)
+12814911000001106	Methotrexate 22.5mg/5ml oral solution
+12800111000001102	Methotrexate 22.5mg/5ml oral solution (Special Order)
+12815011000001106	Methotrexate 22.5mg/5ml oral suspension
+12799711000001108	Methotrexate 22.5mg/5ml oral suspension (Special Order)
+24594911000001104	Methotrexate 25mg/0.5ml solution for injection pre-filled disposable devices
+15518211000001107	Methotrexate 25mg/0.5ml solution for injection pre-filled syringes
+19976111000001107	Methotrexate 25mg/1.25ml solution for injection pre-filled syringes
+34168311000001104	Methotrexate 25mg/1ml solution for injection pre-filled disposable devices
+9468811000001109	Methotrexate 25mg/1ml solution for injection pre-filled syringes
+9452311000001106	Methotrexate 25mg/1ml solution for injection pre-filled syringes (Special Order)
+10675911000001101	Methotrexate 25mg/2.5ml solution for injection pre-filled syringes
+14967911000001103	Methotrexate 25mg/3ml solution for injection pre-filled syringes
+14966611000001107	Methotrexate 25mg/3ml solution for injection pre-filled syringes (Special Order)
+12816911000001103	Methotrexate 25mg/5ml oral solution
+12800911000001104	Methotrexate 25mg/5ml oral solution (Special Order)
+12817011000001104	Methotrexate 25mg/5ml oral suspension
+12800611000001105	Methotrexate 25mg/5ml oral suspension (Special Order)
+766413008	Methotrexate 25mg/mL conventional release solution for injection
+24595011000001104	Methotrexate 27.5mg/0.55ml solution for injection pre-filled disposable devices
+19231611000001109	Methotrexate 27.5mg/0.55ml solution for injection pre-filled syringes
+9468911000001104	Methotrexate 27.5mg/1.1ml solution for injection pre-filled syringes
+9451611000001107	Methotrexate 27.5mg/1.1ml solution for injection pre-filled syringes (Special Order)
+30799911000001104	Methotrexate 2mg/ml oral solution sugar free
+31065011000001106	Methotrexate 2mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+30985211000001103	Methotrexate 2mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+30595111000001100	Methotrexate 2mg/ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+12817111000001103	Methotrexate 3.75mg/5ml oral solution
+12801511000001104	Methotrexate 3.75mg/5ml oral solution (Special Order)
+12817211000001109	Methotrexate 3.75mg/5ml oral suspension
+12801211000001102	Methotrexate 3.75mg/5ml oral suspension (Special Order)
+24595111000001103	Methotrexate 30mg/0.6ml solution for injection pre-filled disposable devices
+18245711000001104	Methotrexate 30mg/0.6ml solution for injection pre-filled syringes
+9469011000001108	Methotrexate 30mg/1.2ml solution for injection pre-filled syringes
+9450111000001105	Methotrexate 30mg/1.2ml solution for injection pre-filled syringes (Special Order)
+19976211000001101	Methotrexate 30mg/1.5ml solution for injection pre-filled syringes
+9469111000001109	Methotrexate 32.5mg/1.3ml solution for injection pre-filled syringes
+9449511000001107	Methotrexate 32.5mg/1.3ml solution for injection pre-filled syringes (Special Order)
+9469211000001103	Methotrexate 35mg/1.4ml solution for injection pre-filled syringes
+9448511000001101	Methotrexate 35mg/1.4ml solution for injection pre-filled syringes (Special Order)
+12817311000001101	Methotrexate 4mg/5ml oral solution
+12802211000001109	Methotrexate 4mg/5ml oral solution (Special Order)
+12817411000001108	Methotrexate 4mg/5ml oral suspension
+12801911000001106	Methotrexate 4mg/5ml oral suspension (Special Order)
+374442007	Methotrexate 5 mg oral tablet
+36033211000001105	Methotrexate 500mg/20ml solution for injection vials
+3622611000001102	Methotrexate 500mg/20ml solution for injection vials (A A H Pharmaceuticals Ltd)
+27952411000001107	Methotrexate 500mg/20ml solution for injection vials (Accord Healthcare Ltd)
+3623611000001107	Methotrexate 500mg/20ml solution for injection vials (Advanz Pharma)
+3623211000001105	Methotrexate 500mg/20ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+14966811000001106	Methotrexate 500mg/20ml solution for injection vials (Hameln Pharmaceuticals Ltd)
+3622911000001108	Methotrexate 500mg/20ml solution for injection vials (Pfizer Ltd)
+10988211000001107	Methotrexate 500mg/20ml solution for injection vials (Teva UK Ltd)
+9469311000001106	Methotrexate 50mg/2ml solution for injection pre-filled syringes
+9448011000001109	Methotrexate 50mg/2ml solution for injection pre-filled syringes (Special Order)
+36033311000001102	Methotrexate 50mg/2ml solution for injection vials
+3610011000001101	Methotrexate 50mg/2ml solution for injection vials (A A H Pharmaceuticals Ltd)
+28991611000001102	Methotrexate 50mg/2ml solution for injection vials (Accord Healthcare Ltd)
+3615611000001100	Methotrexate 50mg/2ml solution for injection vials (Advanz Pharma)
+3613311000001109	Methotrexate 50mg/2ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+15138411000001109	Methotrexate 50mg/2ml solution for injection vials (Hameln Pharmaceuticals Ltd)
+3612811000001108	Methotrexate 50mg/2ml solution for injection vials (Pfizer Ltd)
+10988011000001102	Methotrexate 50mg/2ml solution for injection vials (Teva UK Ltd)
+12817511000001107	Methotrexate 50mg/5ml oral solution
+12803011000001108	Methotrexate 50mg/5ml oral solution (Special Order)
+12815111000001107	Methotrexate 50mg/5ml oral suspension
+12802611000001106	Methotrexate 50mg/5ml oral suspension (Special Order)
+36033411000001109	Methotrexate 5g/200ml solution for infusion vials
+3620611000001103	Methotrexate 5g/200ml solution for infusion vials (A A H Pharmaceuticals Ltd)
+3621111000001100	Methotrexate 5g/200ml solution for infusion vials (Advanz Pharma)
+3620811000001104	Methotrexate 5g/200ml solution for infusion vials (Alliance Healthcare (Distribution) Ltd)
+36033511000001108	Methotrexate 5g/50ml solution for infusion vials
+3615811000001101	Methotrexate 5g/50ml solution for infusion vials (A A H Pharmaceuticals Ltd)
+3616911000001104	Methotrexate 5g/50ml solution for infusion vials (Alliance Healthcare (Distribution) Ltd)
+3616411000001107	Methotrexate 5g/50ml solution for infusion vials (Pfizer Ltd)
+9562111000001108	Methotrexate 5g/50ml solution for infusion vials (Wockhardt UK Ltd)
+9469411000001104	Methotrexate 5mg/0.2ml solution for injection pre-filled syringes
+9457411000001101	Methotrexate 5mg/0.2ml solution for injection pre-filled syringes (Special Order)
+36033611000001107	Methotrexate 5mg/2ml solution for injection vials
+3612511000001105	Methotrexate 5mg/2ml solution for injection vials (A A H Pharmaceuticals Ltd)
+3614911000001107	Methotrexate 5mg/2ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+3614611000001101	Methotrexate 5mg/2ml solution for injection vials (Pfizer Ltd)
+8665811000001104	Methotrexate 5mg/5ml oral solution
+8625911000001104	Methotrexate 5mg/5ml oral solution (Special Order)
+8665911000001109	Methotrexate 5mg/5ml oral suspension
+8626511000001104	Methotrexate 5mg/5ml oral suspension (Special Order)
+12815211000001101	Methotrexate 6mg/5ml oral solution
+12803611000001101	Methotrexate 6mg/5ml oral solution (Special Order)
+12815311000001109	Methotrexate 6mg/5ml oral suspension
+12803311000001106	Methotrexate 6mg/5ml oral suspension (Special Order)
+374443002	Methotrexate 7.5 mg oral tablet
+24595211000001109	Methotrexate 7.5mg/0.15ml solution for injection pre-filled disposable devices
+15518311000001104	Methotrexate 7.5mg/0.15ml solution for injection pre-filled syringes
+34168411000001106	Methotrexate 7.5mg/0.3ml solution for injection pre-filled disposable devices
+9469511000001100	Methotrexate 7.5mg/0.3ml solution for injection pre-filled syringes
+9456611000001100	Methotrexate 7.5mg/0.3ml solution for injection pre-filled syringes (Special Order)
+10676011000001109	Methotrexate 7.5mg/0.75ml solution for injection pre-filled syringes
+8666011000001101	Methotrexate 7.5mg/5ml oral solution
+8625811000001109	Methotrexate 7.5mg/5ml oral solution (Special Order)
+8666111000001100	Methotrexate 7.5mg/5ml oral suspension
+8626411000001103	Methotrexate 7.5mg/5ml oral suspension (Special Order)
+12815411000001102	Methotrexate 750micrograms/5ml oral solution
+12804611000001103	Methotrexate 750micrograms/5ml oral solution (Special Order)
+12815511000001103	Methotrexate 750micrograms/5ml oral suspension
+12804011000001105	Methotrexate 750micrograms/5ml oral suspension (Special Order)
+12815611000001104	Methotrexate 7mg/5ml oral solution
+12805711000001106	Methotrexate 7mg/5ml oral solution (Special Order)
+12815711000001108	Methotrexate 7mg/5ml oral suspension
+12805111000001105	Methotrexate 7mg/5ml oral suspension (Special Order)
+12815811000001100	Methotrexate 8mg/5ml oral solution
+12806611000001107	Methotrexate 8mg/5ml oral solution (Special Order)
+12815911000001105	Methotrexate 8mg/5ml oral suspension
+12806311000001102	Methotrexate 8mg/5ml oral suspension (Special Order)
+714206006	Methotrexate in oral dosage form
+714204009	Methotrexate in parenteral dosage form
+15513411000001100	Metoject 10mg/0.2ml solution for injection pre-filled syringes (medac UK)
+10672911000001109	Metoject 10mg/1ml solution for injection pre-filled syringes (medac UK)
+19224611000001108	Metoject 12.5mg/0.25ml solution for injection pre-filled syringes (medac UK)
+15513711000001106	Metoject 15mg/0.3ml solution for injection pre-filled syringes (medac UK)
+10673211000001106	Metoject 15mg/1.5ml solution for injection pre-filled syringes (medac UK)
+19225111000001101	Metoject 17.5mg/0.35ml solution for injection pre-filled syringes (medac UK)
+15514311000001109	Metoject 20mg/0.4ml solution for injection pre-filled syringes (medac UK)
+10673511000001109	Metoject 20mg/2ml solution for injection pre-filled syringes (medac UK)
+19225411000001106	Metoject 22.5mg/0.45ml solution for injection pre-filled syringes (medac UK)
+15514011000001106	Metoject 25mg/0.5ml solution for injection pre-filled syringes (medac UK)
+10674011000001104	Metoject 25mg/2.5ml solution for injection pre-filled syringes (medac UK)
+19225811000001108	Metoject 27.5mg/0.55ml solution for injection pre-filled syringes (medac UK)
+18208411000001106	Metoject 30mg/0.6ml solution for injection pre-filled syringes (medac UK)
+15513111000001105	Metoject 7.5mg/0.15ml solution for injection pre-filled syringes (medac UK)
+10672611000001103	Metoject 7.5mg/0.75ml solution for injection pre-filled syringes (medac UK)
+24590211000001100	Metoject PEN 10mg/0.2ml solution for injection pre-filled pen (medac UK)
+24589911000001102	Metoject PEN 12.5mg/0.25ml solution for injection pre-filled pen (medac UK)
+24589611000001108	Metoject PEN 15mg/0.3ml solution for injection pre-filled pen (medac UK)
+24591111000001100	Metoject PEN 17.5mg/0.35ml solution for injection pre-filled pen (medac UK)
+24590811000001104	Metoject PEN 20mg/0.4ml solution for injection pre-filled pen (medac UK)
+24590411000001101	Metoject PEN 22.5mg/0.45ml solution for injection pre-filled pen (medac UK)
+24589311000001103	Metoject PEN 25mg/0.5ml solution for injection pre-filled pen (medac UK)
+24589011000001101	Metoject PEN 27.5mg/0.55ml solution for injection pre-filled pen (medac UK)
+24588711000001108	Metoject PEN 30mg/0.6ml solution for injection pre-filled pen (medac UK)
+24588411000001102	Metoject PEN 7.5mg/0.15ml solution for injection pre-filled pen (medac UK)
+34162611000001107	Nordimet 10mg/0.4ml solution for injection pre-filled pens (Nordic Pharma Ltd)
+34162911000001101	Nordimet 12.5mg/0.5ml solution for injection pre-filled pens (Nordic Pharma Ltd)
+34163211000001104	Nordimet 15mg/0.6ml solution for injection pre-filled pens (Nordic Pharma Ltd)
+34163511000001101	Nordimet 17.5mg/0.7ml solution for injection pre-filled pens (Nordic Pharma Ltd)
+34163811000001103	Nordimet 20mg/0.8ml solution for injection pre-filled pens (Nordic Pharma Ltd)
+34164111000001107	Nordimet 22.5mg/0.9ml solution for injection pre-filled pens (Nordic Pharma Ltd)
+34164411000001102	Nordimet 25mg/1ml solution for injection pre-filled pens (Nordic Pharma Ltd)
+34161711000001105	Nordimet 7.5mg/0.3ml solution for injection pre-filled pens (Nordic Pharma Ltd)
+31407911000001106	Zlatal 10mg/0.4ml solution for injection pre-filled syringes (Nordic Pharma Ltd)
+31409011000001103	Zlatal 12.5mg/0.5ml solution for injection pre-filled syringes (Nordic Pharma Ltd)
+31409611000001105	Zlatal 15mg/0.6ml solution for injection pre-filled syringes (Nordic Pharma Ltd)
+31410211000001104	Zlatal 17.5mg/0.7ml solution for injection pre-filled syringes (Nordic Pharma Ltd)
+31406711000001106	Zlatal 20mg/0.8ml solution for injection pre-filled syringes (Nordic Pharma Ltd)
+31407211000001102	Zlatal 22.5mg/0.9ml solution for injection pre-filled syringes (Nordic Pharma Ltd)
+31407411000001103	Zlatal 25mg/1ml solution for injection pre-filled syringes (Nordic Pharma Ltd)
+31408511000001100	Zlatal 7.5mg/0.3ml solution for injection pre-filled syringes (Nordic Pharma Ltd)

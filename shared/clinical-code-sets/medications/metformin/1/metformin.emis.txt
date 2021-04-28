@@ -1,0 +1,19 @@
+EMTA3515	Emtexate  Tablets  10 mg
+MATA3882	Maxtrex  Tablets  10 mg
+MATA3883	Maxtrex  Tablets  2.5 mg
+META3900	Methotrexate  Tablets  2.5 mg
+META5136	Methotrexate  Tablets  10 mg
+MEIN18088EMIS	Methotrexate  Injection  5 grams/200 ml vial
+MEIN18089EMIS	Methotrexate  Injection  5 mg/2 ml vial
+MEIN18090EMIS	Methotrexate  Injection  50 mg/2 ml vial
+MEIN21800NEMIS	Methotrexate 15mg/1.5ml solution for injection pre-filled syringes
+MEIN21802NEMIS	Methotrexate 25mg/2.5ml solution for injection pre-filled syringes
+MEIN22304NEMIS	Methotrexate 15mg/0.6ml solution for injection pre-filled syringes
+MEIN3551NEMIS	Methotrexate 1g/10ml solution for injection vials
+MEIN36535NEMIS	Methotrexate 15mg/0.3ml solution for injection pre-filled syringes
+MEIN51051NEMIS	Methotrexate 12.5mg/0.25ml solution for injection pre-filled syringes
+MEIN90725NEMIS	Methotrexate 12.5mg/0.25ml solution for injection pre-filled disposable devices
+MEIN90728NEMIS	Methotrexate 20mg/0.4ml solution for injection pre-filled disposable devices
+MEOR12018NEMIS	Methotrexate  Oral Suspension  2.5 mg/5 ml
+MEOR14798NEMIS	Methotrexate 15mg/5ml oral solution
+MEOR15494NEMIS	Methotrexate 10mg/5ml oral solution
