@@ -47,7 +47,7 @@ LEFT JOIN [RLS].vw_Patient_Link PL ON P.FK_Patient_Link_ID = PL.PK_Patient_Link_
 --> EXECUTE query-patient-year-of-birth.sql
 --> EXECUTE query-patient-practice-and-ccg.sql
 
---> EXECUTE query-get-patient-ltcs.sql
+--> EXECUTE query-patient-ltcs.sql
 --> EXECUTE query-patient-ltcs-group.sql
 
 
