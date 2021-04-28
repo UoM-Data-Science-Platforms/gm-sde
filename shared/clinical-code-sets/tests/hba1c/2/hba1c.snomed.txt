@@ -1,0 +1,2 @@
+1019431000000105	HbA1c level (Diabetes Control and Complications Trial aligned)
+999791000000106	Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised
