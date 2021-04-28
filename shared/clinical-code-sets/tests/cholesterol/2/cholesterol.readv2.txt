@@ -1,0 +1,4 @@
+44P..00	Serum cholesterol
+44PZ.00	Serum cholesterol NOS
+44PJ.00	Serum total cholesterol level
+44PH.00	Total cholesterol measurement
