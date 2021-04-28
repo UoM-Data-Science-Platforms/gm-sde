@@ -1,0 +1,43 @@
+{
+  "includeTerms": [
+    "diabetes mellitus",
+    "insulin-dependent diabetes",
+    "insulin dependent diabetes",
+    "maturity onset diabetes"
+  ],
+  "excludeTerms": [
+    "in remission",
+    "review",
+    "exception reporting",
+    "admin",
+    "screen",
+    "h/o",
+    "drug",
+    "score",
+    "seen",
+    "during pregnancy",
+    "family history",
+    "fh",
+    "pregnancy",
+    "suspected",
+    "excluded",
+    "pre-existing",
+    "gestational",
+    "in the pueperium",
+    "neonatal",
+    "glomerular disorder",
+    "due to",
+    "risk of",
+    "nephrotic syndrome",
+    "dietary counselling",
+    "acute myocardial infarction",
+    "advice",
+    "in the puerperium",
+    "diabetes insipidus",
+    "risk assessment"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdOn": "2021-04-27T13:10:02.512Z",
+  "lastUpdated": "2021-04-27T13:10:02.512Z"
+}
