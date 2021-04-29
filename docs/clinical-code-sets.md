@@ -1,10 +1,10 @@
 ## Index
 
-1. [Overview](../README.md)
-1. [Data description](index.md)
-1. [Current projects](current-projects.md)
-1. **Clinical code sets**
-1. [Additional technical information](additional-technical-information.md)
+- [Overview](../README.md)
+- [Data description](index.md)
+- [Current projects](current-projects.md)
+- **CLINICAL CODE SETS**
+- [Additional technical information](additional-technical-information.md)
 
 # Greater Manchester Care Record - clinical code sets
 

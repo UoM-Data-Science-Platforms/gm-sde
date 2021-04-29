@@ -1,10 +1,10 @@
 ## Index
 
-1. **Overview**
-1. [Data description](docs/index.md)
-1. [Current projects](docs/current-projects.md)
-1. [Clinical code sets](docs/clinical-code-sets.md)
-1. [Additional technical information](docs/additional-technical-information.md)
+- **OVERVIEW**
+- [Data description](docs/index.md)
+- [Current projects](docs/current-projects.md)
+- [Clinical code sets](docs/clinical-code-sets.md)
+- [Additional technical information](docs/additional-technical-information.md)
 
 # Greater Manchester Integrated Digital Care Record
 
