@@ -95,7 +95,7 @@ If there are minor issues they will appear above this message.
 /**
  * Method to create the reusable clinical code set SQL file
  */
-const createCodeSetSQL = () => {
+const createCodeSetSQL = (conditions = []) => {
   setSilence(true);
   evaulateCodeSets();
 
@@ -145,6 +145,7 @@ CREATE TABLE #codes${terminology} (
 ) ON [PRIMARY];
 
 ${Object.keys(clinicalCodesByTerminology[terminology])
+  .filter((concept) => conditions.length === 0 || conditions.indexOf(concept) > -1)
   .map((concept) =>
     Object.keys(clinicalCodesByTerminology[terminology][concept])
       .map((version) =>
@@ -263,6 +264,11 @@ INNER JOIN (
   GROUP BY concept)
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 `;
+  return SQL;
+};
+
+const createAndWriteCodeSetSQL = (conditions = []) => {
+  const SQL = createCodeSetSQL(conditions);
   const filename = join(
     __dirname,
     '..',
@@ -565,6 +571,7 @@ function isValidDataRow(row) {
 module.exports = {
   evaulateCodeSets,
   createCodeSetSQL,
+  createAndWriteCodeSetSQL,
   getClinicalCodeSetTypes,
   getClinicalCodeSets,
   isValidCodeSet,

@@ -171,6 +171,42 @@ Five temp tables as follows:
 _File_: `load-code-sets.sql`
 
 ---
+## Cohort matching on year of birth / sex / and an index date
+To take a primary cohort and find a 1:5 matched cohort based on year of birth, sex, and an index date of an event.
+
+_Input_
+```
+Takes two parameters
+  - yob-flex: integer - number of years each way that still allow a year of birth match
+  - index-date-flex: integer - number of days either side of the index date that we allow matching
+ Requires two temp tables to exist as follows:
+ #MainCohort (FK_Patient_Link_ID, IndexDate, Sex, YearOfBirth)
+ 	- FK_Patient_Link_ID - unique patient id
+	- IndexDate - date of event of interest (YYYY-MM-DD)
+	- Sex - M/F
+	- YearOfBirth - Integer
+ #PotentialMatches (FK_Patient_Link_ID, IndexDate, Sex, YearOfBirth)
+ 	- FK_Patient_Link_ID - unique patient id
+	- IndexDate - date of event of interest (YYYY-MM-DD)
+	- Sex - M/F
+	- YearOfBirth - Integer
+```
+
+_Output_
+```
+A temp table as follows:
+ #CohortStore (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, AdmissionType)
+  - FK_Patient_Link_ID - unique patient id for primary cohort patient
+  - YearOfBirth - of the primary cohort patient
+  - Sex - of the primary cohort patient
+  - IndexDate - date of event of interest (YYYY-MM-DD)
+  - MatchingPatientId - id of the matched patient
+  - MatchingYearOfBirth - year of birth of the matched patient
+  - MatchingIndexDate - index date for the matched patient
+```
+_File_: `query-cohort-matching-yob-sex-index-date.sql`
+
+---
 ## First prescriptions from GP data
 To obtain, for each patient, the first date for each medication they have ever been prescribed.
 

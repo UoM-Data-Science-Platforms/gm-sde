@@ -4,7 +4,7 @@ const chalk = require('chalk');
 const {
   evaulateCodeSets,
   createCodeSet,
-  createCodeSetSQL,
+  createAndWriteCodeSetSQL,
   getClinicalCodeSetTypes,
   getClinicalCodeSets,
   isValidCodeSet,
@@ -86,7 +86,7 @@ const initialMenu = async () => {
       await initCreateCodeSet();
       break;
     case choices.CODE_SET_SQL:
-      await createCodeSetSQL();
+      await createAndWriteCodeSetSQL();
       break;
     case choices.LTC_SQL:
       await createLtcSql();

@@ -1,5 +1,6 @@
 const { readFileSync, readdirSync, writeFileSync } = require('fs');
-const { join } = require('path');
+const { join, basename } = require('path');
+const { createCodeSetSQL } = require('./code-sets');
 
 const EXTRACTION_SQL_DIR = 'extraction-sql';
 const TEMPLATE_SQL_DIR = 'template-sql';
@@ -62,20 +63,63 @@ function generateSql(project, templates) {
   });
 }
 
-function processFile(filename) {
+function processParams(line, params) {
+  const parameters = {};
+  params.forEach((param) => {
+    if (!param.match(/^[^ :]+:[^ :]+$/)) {
+      console.log('The following line has invalid parameters:');
+      console.log(line);
+      console.log('They should appear as follows:');
+      console.log('--> EXECUTE query.sql param-1-name:param1value param-2-name:param2value');
+      process.exit();
+    }
+    const [name, value] = param.split(':');
+    parameters[name] = value;
+  });
+  return parameters;
+}
+
+function processFile(filename, parameters) {
   const sqlLines = readFileSync(filename, 'utf8').split('\n');
   const generatedSql = sqlLines
     .map((line) => {
       if (line.trim().match(/^--> EXECUTE.+\.sql/)) {
-        const sqlFileToInsert = line.trim().split(' ').slice(-1)[0];
+        const [sqlFileToInsert, ...params] = line
+          .replace(/^--> EXECUTE +/, '')
+          .trim()
+          .split(' ');
+        if (sqlFileToInsert === 'load-code-sets.sql' && params && params.length > 0) {
+          // special case for load-code-sets
+          return createCodeSetSQL(params);
+        }
+        if (params && params.length > 0) {
+          const processedParameters = processParams(line, params);
+          return processFile(join(REUSABLE_DIRECTORY, sqlFileToInsert), processedParameters);
+        }
         const sqlToInsert = processFile(join(REUSABLE_DIRECTORY, sqlFileToInsert));
         return sqlToInsert;
       } else {
+        const possibleParamRegex = new RegExp('{param:([^}]+)}');
+        let possibleParamMatch = line.match(possibleParamRegex);
+        while (possibleParamMatch) {
+          const paramName = possibleParamMatch[1];
+          if (!parameters[paramName] && parameters[paramName] !== 0) {
+            console.log(
+              `The file ${basename(filename)} requires a value for the parameter: ${paramName}`
+            );
+            console.log('However this is not provided. You should call it like this:');
+            console.log(`--> EXECUTE ${basename(filename)} ${paramName}:value`);
+            process.exit();
+          }
+          const reg = new RegExp(`{param:${paramName}}`, 'g');
+          line = line.replace(reg, parameters[paramName]);
+          possibleParamMatch = line.match(possibleParamRegex);
+        }
         return line;
       }
     })
     .join('\n');
   return generatedSql;
 }
-
+//stitch(join(__dirname, '..', 'projects', '020 - Heald'));
 module.exports = { stitch };
