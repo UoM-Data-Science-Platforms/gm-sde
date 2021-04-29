@@ -3,8 +3,6 @@
 --└──────────────────────┘
 
 -- ACTION
--- Add testosterone
--- Add SHBG
 -- Add hospital admissions
 -- Add length of stay
 -- Add smoking (current / never / ex)
@@ -12,7 +10,7 @@
 
 -- Cohort is diabetic patients with a positive covid test
 
---> EXECUTE load-code-sets.sql diabetes bmi hba1c cholesterol ldl hdl vitamin-d severe-mental-illness metformin ace-inhibitor
+--> EXECUTE load-code-sets.sql diabetes bmi hba1c cholesterol ldl hdl vitamin-d severe-mental-illness metformin ace-inhibitor testosterone sex-hormone-binding-globulin
 
 -- First get all the diabetic patients and the date of first diagnosis
 IF OBJECT_ID('tempdb..#DiabeticPatients') IS NOT NULL DROP TABLE #DiabeticPatients;
@@ -88,7 +86,9 @@ WHERE (
       Concept IN ('cholesterol') AND [Version]=2 OR
       Concept IN ('ldl') AND [Version]=1 OR
       Concept IN ('hdl') AND [Version]=1 OR
-      Concept IN ('vitamin-d') AND [Version]=1
+      Concept IN ('vitamin-d') AND [Version]=1 OR
+      Concept IN ('testosterone') AND [Version]=1 OR
+      Concept IN ('sex-hormone-binding-globulin') AND [Version]=1
     )
   ) OR
   FK_Reference_Coding_ID IN (
@@ -98,7 +98,9 @@ WHERE (
       Concept IN ('cholesterol') AND [Version]=2 OR
       Concept IN ('ldl') AND [Version]=1 OR
       Concept IN ('hdl') AND [Version]=1 OR
-      Concept IN ('vitamin-d') AND [Version]=1
+      Concept IN ('vitamin-d') AND [Version]=1 OR
+      Concept IN ('testosterone') AND [Version]=1 OR
+      Concept IN ('sex-hormone-binding-globulin') AND [Version]=1
     )
   )
 )
