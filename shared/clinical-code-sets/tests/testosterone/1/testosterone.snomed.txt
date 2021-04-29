@@ -1,0 +1,3 @@
+270973006	Serum testosterone measurement (procedure)
+995571000000101	Plasma testosterone level (observable entity)
+997161000000108	Serum testosterone level (observable entity)
