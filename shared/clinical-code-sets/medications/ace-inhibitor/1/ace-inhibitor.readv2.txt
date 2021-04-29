@@ -1,0 +1,356 @@
+bA...	CA-CHANNEL BLOCKER+ACE INHIBIT
+bA1..	FELODIPINE+RAMIPRIL
+bA11.	TRIAPIN MITE 2.5mg/2.5mg tabs
+bA12.	TRIAPIN 5mg/5mg tablets
+bA1y.	FELODIP+RAMIPRL 2.5/2.5mg tabs
+bA1z.	FELODIPINE+RAMIPRIL 5/5mg tabs
+bi...	ACE INHIBITORS
+bi1..	CAPTOPRIL
+bi11.	ACEPRIL 12.5mg tablets
+bi12.	ACEPRIL 25mg tablets
+bi13.	ACEPRIL 25mg tablets x56
+bi14.	ACEPRIL 50mg tablets
+bi15.	ACEPRIL 50mg tablets x56
+bi16.	*CAPOTEN 12.5mg tablets
+bi17.	CAPOTEN 25mg tablets
+bi18.	CAPOTEN 25mg tablets x56
+bi19.	CAPOTEN 50mg tablets
+bi1a.	CAPOTEN 50mg tablets x56
+bi1A.	*HYPAPRIL 12.5mg tablets
+bi1b.	ACEZIDE 50mg tablets x56
+bi1B.	*HYPAPRIL 25mg tablets
+bi1c.	*CAPOZIDE 50mg tablets x28
+bi1C.	*HYPAPRIL 50mg tablets
+bi1d.	*CAPOZIDE LS 25mg tabletsx28CP
+bi1D.	*CAPTO-CO 25mg/12.5mg tablets
+bi1e.	CAPTOP+HYDROCHL 25/12.5mg tabs
+bi1E.	*CAPTO-CO 50mg/25mg tablets
+bi1F.	*CO-ZIDOCAPT 25/12.5mg tablets
+bi1g.	ECOPACE 12.5mg tablets
+bi1G.	*CO-ZIDOCAPT 50mg/25mg tablets
+bi1h.	ECOPACE 25mg tablets
+bi1i.	ECOPACE 50mg tablets
+bi1j.	*KAPLON 12.5mg tablets
+bi1H.	NOYADA 5mg/5mL oral solution
+bi1J.	NOYADA 25mg/5mL oral solution
+bi1k.	*KAPLON 25mg tablets
+bi1l.	*KAPLON 50mg tablets
+bi1m.	*HYTENEZE 12.5 tablets
+bi1n.	*HYTENEZE 25 tablets
+bi1o.	*HYTENEZE 50 tablets
+bi1p.	*TENSOPRIL 12.5mg tablets
+bi1q.	*TENSOPRIL 25mg tablets
+bi1r.	*TENSOPRIL 50mg tablets
+bi1s.	CAPOZIDE 50mg/25mg tablets
+bi1v.	CAPTOPRIL 12.5mg tablets
+bi1w.	CAPTOPRIL 25mg tablets
+bi1x.	CAPTOPRIL 25mg tablets x56
+bi1y.	CAPTOPRIL 50mg tablets x56
+bi1z.	CAPTOPRIL 50mg tablets
+bi2..	ENALAPRIL MALEATE
+bi21.	INNOVACE 2.5mg tablets
+bi22.	INNOVACE 5mg tablets
+bi23.	INNOVACE 5mg tablets x28
+bi24.	INNOVACE 10mg tablets
+bi25.	INNOVACE 10mg tablets x28
+bi26.	INNOVACE 20mg tablets
+bi27.	INNOVACE 20mg tablets x28
+bi28.	INNOZIDE 20/12.5mg tablets
+bi29.	*INNOVACE tabs titration pack
+bi2a.	*ENALAPRIL MAL tabs titre pack
+bi2A.	*ENALAPRIL MALEATE 2.5mg wafer
+bi2b.	ENALAP+HYDROCHL 20/12.5mg tabs
+bi2B.	*ENALAPRIL MALEATE 5mg wafer
+bi2C.	*ENALAPRIL MALEATE 10mg wafer
+bi2D.	*ENALAPRIL MALEATE 20mg wafer
+bi2E.	*INNOVACE MELT 2.5mg wafer
+bi2F.	*INNOVACE MELT 5mg wafer
+bi2G.	*INNOVACE MELT 10mg wafer
+bi2H.	*INNOVACE MELT 20mg wafer
+bi2J.	*PRALENAL 2.5mg tablets
+bi2K.	*PRALENAL 5mg tablets
+bi2L.	*PRALENAL 10mg tablets
+bi2M.	*PRALENAL 20mg tablets
+bi2t.	ENALAPRIL MALEATE 2.5mg tabs
+bi2u.	ENALAPRIL MALEATE 5mg tablets
+bi2v.	ENALAPRIL MALEATE 5mg tabs x28
+bi2w.	ENALAPRIL MALEATE 10mg tablets
+bi2x.	ENALAPRIL MAL 10mg tabs x28
+bi2y.	ENALAPRIL MALEATE 20mg tablets
+bi2z.	ENALAPRIL MAL 20mg tabs x28
+bi3..	LISINOPRIL
+bi31.	LISINOPRIL 2.5mg tablets
+bi32.	LISINOPRIL 5mg tablets
+bi33.	LISINOPRIL 10mg tablets
+bi34.	LISINOPRIL 20mg tablets
+bi35.	*CARACE 2.5mg tablets
+bi36.	*CARACE 5mg tablets 28CP
+bi37.	*CARACE 5mg tablets
+bi38.	*CARACE 10mg tablets 28CP
+bi39.	*CARACE 10mg tablets
+bi3a.	*CARACE 20mg tablets 28CP
+bi3b.	*CARACE 20mg tablets
+bi3c.	*ZESTRIL 2.5mg tablets 28CP
+bi3d.	*ZESTRIL 2.5mg tablets
+bi3e.	ZESTRIL 5mg tablets 28CP
+bi3f.	ZESTRIL 5mg tablets
+bi3g.	ZESTRIL 10mg tablets 28CP
+bi3h.	ZESTRIL 10mg tablets
+bi3i.	ZESTRIL 20mg tablets 28CP
+bi3j.	ZESTRIL 20mg tablets
+bi3k.	CARACE 20 PLUS tablets
+bi3l.	*CARACE 10 PLUS tablets
+bi3m.	*ZESTORETIC tablets 28CP
+bi3n.	ZESTORETIC 20/12.5mg tablets
+bi3p.	LISINO+HYDROCHL 20/12.5mg tabs
+bi3q.	*ZESTRIL 2.5mg starter pack
+bi3r.	*LISINOPRIL 2.5mg tabs starter
+bi3s.	ZESTORETIC 10/12.5mg tablets
+bi3t.	LISINO+HYDROCHL 10/12.5mg tabs
+bi3u.	*CARALPHA 10/12.5mg tablets
+bi3v.	*CARALPHA 20/12.5mg tablets
+bi3w.	*LISICOSTAD HCT 20/12.5mg tabs
+bi3x.	*LISICOSTAD HCT 10/12.5mg tabs
+bi3y.	LISINOPRIL 1mg/mL oral soln
+bi4..	QUINAPRIL
+bi41.	QUINAPRIL 5mg tablets
+bi42.	QUINAPRIL 10mg tablets
+bi43.	QUINAPRIL 20mg tablets
+bi44.	ACCUPRO 5mg tablets 28CP
+bi45.	ACCUPRO 10mg tablets 28CP
+bi46.	ACCUPRO 20mg tablets 28CP
+bi47.	ACCURETIC tablets
+bi48.	QUINAPRIL+HYDROCHLOROTHIAZIDE
+bi49.	ACCUPRO 40mg tablets
+bi4A.	QUINAPRIL 40mg tablets
+bi4B.	QUINIL 5mg tablets
+bi4C.	QUINIL 10mg tablets
+bi4D.	QUINIL 20mg tablets
+bi4E.	QUINIL 40mg tablets
+bi4F.	QUINAP+HYDROCHL 20/12.5mg tabs
+bi5..	PERINDOPRIL ERBUMINE
+bi51.	PERINDOPRIL ERBUMINE 2mg tabs
+bi52.	PERINDOPRIL ERBUMINE 4mg tabs
+bi53.	*COVERSYL 2mg tablets
+bi54.	*COVERSYL 4mg tablets
+bi55.	*PERIND ERB+INDAP 4/1.25mg tab
+bi56.	*COVERSYL PLUS 4mg/1.25mg tabs
+bi57.	PERINDOPRIL ERBUMINE 8mg tabs
+bi58.	*COVERSYL 8mg tablets
+bi6..	RAMIPRIL
+bi61.	RAMIPRIL 1.25mg capsules
+bi62.	RAMIPRIL 2.5mg capsules
+bi63.	RAMIPRIL 5mg capsules
+bi64.	*TRITACE 1.25mg capsules
+bi65.	*TRITACE 2.5mg capsules
+bi66.	*TRITACE 5mg capsules
+bi67.	RAMIPRIL 10mg capsules
+bi68.	*TRITACE 10mg capsules
+bi69.	*RAMIPRIL 2.5mg+5mg+10mg caps
+bi6A.	*TRITACE Titration Pack caps
+bi6B.	RAMIPRIL 1.25mg tablets
+bi6C.	RAMIPRIL 2.5mg tablets
+bi6D.	RAMIPRIL 5mg tablets
+bi6E.	RAMIPRIL 10mg tablets
+bi6F.	RAMIPRIL 2.5+5+10mg tabs pack
+bi6G.	RAMIPRIL 2.5mg/5mL solution
+bi6o.	TRITACE Titration Pack tablets
+bi6p.	*RANACE 10mg capsules
+bi6q.	*RANACE 5mg capsules
+bi6r.	*RANACE 2.5mg capsules
+bi6s.	*RANACE 1.25mg capsules
+bi6t.	*LOPACE 2.5mg capsules
+bi6u.	*LOPACE 5mg capsules
+bi6v.	*LOPACE 10mg capsules
+bi6w.	TRITACE 10mg tablets
+bi6x.	TRITACE 5mg tablets
+bi6y.	TRITACE 2.5mg tablets
+bi6z.	TRITACE 1.25mg tablets
+bi7..	SODIUM FOSINOPRIL
+bi71.	FOSINOPRIL 10mg tablets
+bi72.	FOSINOPRIL 20mg tablets
+bi73.	*STARIL 10mg tablets
+bi74.	*STARIL 20mg tablets
+bi8..	CILAZAPRIL
+bi81.	*CILAZAPRIL 250mcg tablets
+bi82.	CILAZAPRIL 500mcg tablets
+bi83.	CILAZAPRIL 1mg tablets
+bi84.	CILAZAPRIL 2.5mg tablets
+bi85.	*VASCACE 250micrograms tablets
+bi86.	VASCACE 500micrograms tablets
+bi87.	VASCACE 1mg tablets
+bi88.	VASCACE 2.5mg tablets
+bi89.	VASCACE 5mg tablets
+bi8a.	CILAZAPRIL 5mg tablets
+bi9..	TRANDOLAPRIL
+bi91.	TRANDOLAPRIL 500mcg capsules
+bi92.	TRANDOLAPRIL 1mg capsules
+bi93.	TRANDOLAPRIL 2mg capsules
+bi94.	GOPTEN 500micrograms capsules
+bi95.	GOPTEN 1mg capsules
+bi96.	GOPTEN 2mg capsules
+bi97.	*ODRIK 500micrograms capsules
+bi98.	*ODRIK 1mg capsules
+bi99.	*ODRIK 2mg capsules
+bi9A.	GOPTEN 4mg capsules
+bi9z.	TRANDOLAPRIL 4mg capsules
+biA..	MOEXIPRIL
+biA1.	MOEXIPRIL HCL 7.5mg tablets
+biA2.	MOEXIPRIL HCL 15mg tablets
+biA3.	PERDIX 7.5mg tablets
+biA4.	PERDIX 15mg tablets
+biB..	IMIDAPRIL HYDROCHLORIDE
+biB1.	TANATRIL 5mg tablets
+biB2.	TANATRIL 10mg tablets
+biB3.	TANATRIL 20mg tablets
+biBx.	IMIDAPRIL HCL 20mg tablets
+biBy.	IMIDAPRIL HCL 5mg tablets
+biBz.	IMIDAPRIL HCL 10mg tablets
+biC..	PERINDOPRIL ARGININE
+biC1.	COVERSYL ARGININE 2.5mg tabs
+biC2.	PERINDOPRIL ARGININE 2.5mg tab
+biC3.	COVERSYL ARGININE 5mg tablets
+biC4.	PERINDOPRIL ARGININE 5mg tabs
+biC5.	COVERSYL ARGININE 10mg tablets
+biC6.	PERINDOPRIL ARGININE 10mg tabs
+biC7.	COVRSYL ARGIN PLS 5/1.25mg tab
+biC8.	PERIND ARG+INDAP 5/1.25mg tabs
+bk...	OTHER ANTIHYPERTENSIVES
+bk3..	LOSARTAN
+bk31.	LOSARTAN POTASSIUM 25mg tabs
+bk32.	LOSARTAN POTASSIUM 50mg tabs
+bk33.	COZAAR HALF-STRENGTH 25mg tabs
+bk34.	COZAAR 50mg tablets
+bk35.	LOSART+HYDROCHLTHZ 50/12.5 tab
+bk36.	COZAAR-COMP 50mg/12.5mg tabs
+bk37.	LOSARTAN POTASSIUM 100mg tabs
+bk38.	COZAAR 100mg tablets
+bk39.	COZAAR-COMP 100mg/25mg tablets
+bk3A.	COZAAR-COMP 100mg/12.5mg tabs
+bk3B.	COZAAR 12.5mg tablets
+bk3C.	LOSARTAN POTASSIUM 12.5mg tabs
+bk3D.	COZAAR 2.5mg/mL oral susp
+bk3E.	LOSARTAN POTASS 2.5mg/mL susp
+bk3F.	ZOVENCAL 25mg tablets
+bk3G.	ZOVENCAL 50mg tablets
+bk3H.	ZOVENCAL 100mg tablets
+bk3y.	LOSART+HYDRCHL 100/12.5mg tabs
+bk3z.	LOSART+HYDROCHLTHZ 100/25 tabs
+bk4..	VALSARTAN
+bk41.	VALSARTAN 40mg capsules
+bk42.	VALSARTAN 80mg capsules
+bk43.	VALSARTAN 160mg capsules
+bk44.	DIOVAN 40mg capsules
+bk45.	DIOVAN 80mg capsules
+bk46.	DIOVAN 160mg capsules
+bk47.	CO-DIOVAN 160mg/12.5mg tablets
+bk48.	CO-DIOVAN 160mg/25mg tablets
+bk49.	CO-DIOVAN 80mg/12.5mg tablets
+bk4A.	DIOVAN 40mg tablets
+bk4B.	DIOVAN 320mg tablets
+bk4C.	DIOVAN 3mg/mL oral solution
+bk4u.	VALSARTAN 3mg/mL oral solution
+bk4v.	VALSARTAN 320mg tablets
+bk4w.	VALSARTAN 40mg tablets
+bk4x.	VALSART+HYDROCHL 80/12.5mg tab
+bk4y.	VALSART+HYDROCHL 160/25mg tabs
+bk4z.	VALSRT+HYDROCHL 160/12.5mg tab
+bk5..	IRBESARTAN
+bk51.	IRBESARTAN 75mg tablets
+bk52.	IRBESARTAN 150mg tablets
+bk53.	IRBESARTAN 300mg tablets
+bk54.	APROVEL 75mg tablets
+bk55.	APROVEL 150mg tablets
+bk56.	APROVEL 300mg tablets
+bk57.	COAPROVEL 150mg/12.5mg tablets
+bk58.	COAPROVEL 300mg/12.5mg tablets
+bk59.	COAPROVEL 300mg/25mg tablets
+bk5x.	IRBES+HYDROCHL 300mg/25mg tabs
+bk5y.	IRBES+HYDROCHL 300/12.5mg tabs
+bk5z.	IRBES+HYDROCHL 150/12.5mg tabs
+bk6..	TRANDOLAPRIL+VERAPAMIL HCL
+bk61.	TRANDOL+VERAP 2/180mg m/r caps
+bk62.	TARKA 2mg/180mg m/r capsules
+bk7..	CANDESARTAN CILEXETIL
+bk71.	CANDESARTAN CILEXETIL 2mg tabs
+bk72.	CANDESARTAN CILEXETIL 4mg tabs
+bk73.	CANDESARTAN CILEXETIL 8mg tabs
+bk74.	CANDESARTAN CILEXET 16mg tabs
+bk75.	AMIAS 2mg tablets
+bk76.	AMIAS 4mg tablets
+bk77.	AMIAS 8mg tablets
+bk78.	AMIAS 16mg tablets
+bk79.	AMIAS 32mg tablets
+bk7z.	CANDESARTAN CILEXETL 32mg tabs
+bk8..	TELMISARTAN
+bk81.	TELMISARTAN 40mg tablets
+bk82.	TELMISARTAN 80mg tablets
+bk83.	MICARDIS 40mg tablets
+bk84.	MICARDIS 80mg tablets
+bk85.	MICARDIS 20mg tablets
+bk86.	MICARDISPLUS 40mg/12.5mg tabs
+bk87.	MICARDISPLUS 80mg/12.5mg tabs
+bk88.	MICARDISPLUS 80mg/25mg tablets
+bk8w.	TELMIS+HYDROCHL 80mg/25mg tabs
+bk8x.	TELMIS+HYDROCHL 40/12.5mg tabs
+bk8y.	TELMIS+HYDROCHL 80/12.5mg tabs
+bk8z.	TELMISARTAN 20mg tablets
+bk9..	EPROSARTAN
+bk91.	TEVETEN 300mg tablets
+bk92.	TEVETEN 400mg tablets
+bk93.	TEVETEN 600mg tablets
+bk9x.	EPROSARTAN 300mg tablets
+bk9y.	EPROSARTAN 400mg tablets
+bk9z.	EPROSARTAN 600mg tablets
+bkB..	OLMESARTAN
+bkB1.	OLMESARTAN MEDOXOMIL 10mg tabs
+bkB2.	OLMESARTAN MEDOXOMIL 20mg tabs
+bkB3.	OLMESARTAN MEDOXOMIL 40mg tabs
+bkB4.	OLMETEC 10mg tablets
+bkB5.	OLMETEC 20mg tablets
+bkB6.	OLMETEC 40mg tablets
+bkC..	HYDROCHLOROTHIAZIDE+OLMESARTAN
+bkC1.	OLMETEC PLUS 20mg/12.5mg tabs
+bkC2.	OLMETEC PLUS 20mg/25mg tablets
+bkC3.	OLMETEC PLUS 40mg/12.5mg tabs
+bkCx.	OLMESAR+HYDROCH 40/12.5mg tabs
+bkCy.	OLMESART+HYDROCHL 20/25mg tabs
+bkCz.	OLMESAR+HYDROCH 20/12.5mg tabs
+bkD..	AMLODIPINE + VALSARTAN
+bkD1.	AMLODIPNE+VALSARTN 5/80mg tabs
+bkD2.	AMLODPNE+VALSARTN 5/160mg tabs
+bkD3.	AMLODPNE+VALSRTN 10/160mg tabs
+bkDx.	EXFORGE 10mg/160mg tablets
+bkDy.	EXFORGE 5mg/160mg tablets
+bkDz.	EXFORGE 5mg/80mg tablets
+bkH..	OLMESARTAN+AMLODIPINE
+bkH1.	SEVIKAR 20mg/5mg tablets
+bkH2.	SEVIKAR 40mg/5mg tablets
+bkH3.	SEVIKAR 40mg/10mg tablets
+bkHx.	OLMESART+AMLODIPN 40/10mg tabs
+bkHy.	OLMESART+AMLODIPNE 40/5mg tabs
+bkHz.	OLMESART+AMLODIPNE 20/5mg tabs
+bi1I.	Captopril 5mg/5ml oral solution sugar free  
+bi1K.	Captopril 25mg/5ml oral solution sugar free  
+bk4s.	Valsartan 80mg tablets  
+bk4t.	Valsartan 160mg tablets  
+bkI1.	Sevikar HCT 20mg/5mg/12.5mg tablets (Daiichi Sankyo UK Ltd)
+bkI..	OLMESART+AMLODIP+HYDRCHLRTHIAZ
+bkI2.	SEVIKAR HCT 40/5/12.5mg tabs
+bkI3.	SEVIKAR HCT 40/10/12.5mg tabs
+bkI4.	SEVIKAR HCT 40mg/5mg/25mg tabs
+bkI5.	SEVIKAR HCT 40/10/25mg tabs
+bkJ..	AZILSARTAN
+bkJ1.	EDARBI 20mg tablets
+bkJ2.	AZILSARTAN MEDOXOMIL 20mg tabs
+bkJ3.	EDARBI 40mg tablets
+bkJ4.	AZILSARTAN MEDOXOMIL 40mg tabs
+bkJ5.	EDARBI 80mg tablets
+bkJ6.	AZILSARTAN MEDOXOMIL 80mg tabs
+bkL..	SACUBITRIL+VALSARTAN
+bkL1.	ENTRESTO 24mg/26mg tablets
+bkL2.	SACUBITRL+VALSRTN 24/26mg tabs
+bkL3.	ENTRESTO 49mg/51mg tablets
+bkL4.	SACUBITRL+VALSRTN 49/51mg tabs
+bkL5.	ENTRESTO 97mg/103mg tablets
+bkL6.	SACUBTRL+VALSRTN 97/103mg tabs
