@@ -16,13 +16,19 @@ E1134	Recurrent major depressive episodes, severe, with psychosis
 E1135	Recurrent major depressive episodes, in partial or unspecified remission
 E1136	Recurrent major depressive episodes, in full remission
 E113z	Recurrent major depressive episode NOS
+E1154	Bipolar affect disord, now depressed, severe with psychosis
+Eu322	[X]Sev depress epis, no psych: (& single [agit][maj][vital])
+Eu323	[X]Sev depress epis + psych symp:(& singl epis [named vars])
 Eu332	[X]Depression without psychotic symptoms: [recurrent: [major] or [manic-depressive psychosis, depressed type] or [vital] or [current severe episode]] or [endogenous]
 XE1Y0	Single major depressive episode
 XE1Y1	Recurrent major depressive episodes
+XE1Zd	[X]Recurr depress disorder cur epi severe without psyc sympt
+XE1Ze	[X]Recurrent depress disorder cur epi severe with psyc symp
 XSEGJ	Major depression
 XSGok	Mild major depression
 XSGol	Moderate major depression
 XSGom	Severe major depression without psychotic features
+XSGon	Severe major depression with psychotic features
 XaCIu	Severe depression
 XaX53	Single major depressive episode, severe, with psychosis, psychosis in remission
 XaX54	Recurrent major depressive episodes, severe, with psychosis, psychosis in remission

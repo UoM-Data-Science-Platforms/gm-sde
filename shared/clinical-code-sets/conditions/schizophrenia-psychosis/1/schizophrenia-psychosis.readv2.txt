@@ -340,4 +340,47 @@ ZV11111	[V]Personal history of manic-depressive psychosis
 ZV11112	[V]Personal history of manic-depressive psychosis
 E0...	Organic psychotic conditions
 E03y0	Organic delusional syndrome
+E00..	Senile dementia
+E02z.	Drug psychosis NOS
+E03z.	Transient organic psychoses NOS
+E04z.	Chronic organic psychosis NOS
+E012.	Other alcoholic dementia
+Eu107	[X]Alcoholic dementia NOS
+Eu195	[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: psychotic disorder
+E021.	Drug-induced paranoia or hallucinatory states
+E021z	Drug-induced paranoia or hallucinatory state NOS
+E02y4	Drug-induced personality disorder
+E04y.	Other specified chronic organic psychoses
+E0111	Korsakov's alcoholic psychosis with peripheral neuritis
+E0211	Drug-induced hallucinosis
+E03..	Transient organic psychoses
+Eu106	[X]Korsakov's psychosis, alcohol induced
+E012.	Alcoholic dementia NOS
+E02y.	Other drug psychoses
+E0y..	Other specified organic psychoses
+E010.	Alcohol withdrawal delirium
+E011.	Alcohol amnestic syndrome
+Eu155	[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: psychotic disorder
+E00..	Senile and presenile organic psychotic conditions
+E00y.	Other senile and presenile organic psychoses
+E010.	DTs - delirium tremens
+E0110	Korsakov's alcoholic psychosis
+E0112	Wernicke-Korsakov syndrome
+E02y0	Drug-induced delirium
+Eu104	[X]Delirium tremens, alcohol induced
+Eu107	[X]Chronic alcoholic brain syndrome
+E00..	Senile/presenile dementia
+E0210	Drug-induced paranoid state
+E03y.	Other transient organic psychoses
+E0z..	Organic psychoses NOS
+Eu106	[X]Mental and behavioural disorders due to use of alcohol: amnesic syndrome
+Eu107	[X]Mental and behavioural disorders due to use of alcohol: residual and late-onset psychotic disorder
+E02..	Drug psychoses
+E02y3	Drug-induced depressive state
+E00y.	Presbyophrenic psychosis
+E010.	Delirium tremens
+Eu23.	[X]Acute and transient psychotic disorders
+E04..	Other chronic organic psychoses
+Eu104	[X]Mental and behavioural disorders due to use of alcohol: withdrawal state with delirium
+Eu23y	[X]Other acute and transient psychotic disorders
 

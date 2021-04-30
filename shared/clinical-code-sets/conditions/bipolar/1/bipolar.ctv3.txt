@@ -1,3 +1,5 @@
+E1100	Single manic episode, unspecified
+E1106	Single manic episode in full remission
 E114.	"Bipolar affective disorder, current episode manic"			
 E1140	"Bipolar affective disorder, currently manic, unspecified"			
 E1141	"Bipolar affective disorder, currently manic, mild"			
@@ -33,7 +35,20 @@ E1173	"Unspecified bipolar affective disorder, severe, without mention of psycho
 E1174	"Unspecified bipolar affective disorder, severe, with psychosis"			
 E1175	"Unspecified bipolar affective disorder, in partial or unspecified remission"			
 E1176	"Unspecified bipolar affective disorder, in full remission"			
-E117z	"Unspecified bipolar affective disorder, NOS"			
+E117z	"Unspecified bipolar affective disorder, NOS"
+E11y.	Other and unspecified manic-depressive psychoses
+E11y0	Unspecified manic-depressive psychoses
+E11y3	Other mixed manic-depressive psychoses
+E11yz	Other and unspecified manic-depressive psychoses NOS
+E2110	Unspecified affective personality disorder
+E2113	Affective personality disorder
+E2113	Cycloid personality
+E2113	Cyclothymia
+E2113	Cyclothymic personality
+E211z	Affective personality disorder NOS
+XE1ZX	[X]Other bipolar affective disorders
+Eu301	[X]Mania without psychotic symptoms
+Eu30y	[X]Other manic episodes			
 Eu30.	"[X]Bipolar disorder, single manic episode"			
 Eu310	"Bipolar affective disorder, current episode hypomanic"			
 Eu311	"[X]Bipolar affective disorder, current episode manic without psychotic symptoms"			

@@ -37,6 +37,14 @@ E117400	"Unspecified bipolar affective disorder, severe, with psychosis"
 E117500	"Unspecified bipolar affective disorder, in partial or unspecified remission"
 E117600	"Unspecified bipolar affective disorder, in full remission"
 E117z00	"Unspecified bipolar affective disorder, NOS"
+E11y.	Other and unspecified manic-depressive psychoses
+E11y0	Unspecified manic-depressive psychoses
+E11y3	Other mixed manic-depressive psychoses
+E11yz	Other and unspecified manic-depressive psychoses NOS
+E211.	Affective personality disorder
+E2110	Unspecified affective personality disorder
+E2113	Cyclothymic personality disorder
+E211z	Affective personality disorder NOS
 Eu30.11	"[X]Bipolar disorder, single manic episode"
 Eu30000	[X]Hypomania
 Eu30100	[X]Mania without psychotic symptoms
