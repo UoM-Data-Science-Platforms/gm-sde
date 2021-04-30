@@ -4,7 +4,7 @@
 1B1E.	Hallucinations			
 286..	Poor insight into psychotic condition			
 6657	On lithium	
-6657.		
+6657.	.		
 665B.	Lithium stopped			
 E0...	Organic psychotic condition			
 E00z.	[X]Presenile psychosis NOS			
