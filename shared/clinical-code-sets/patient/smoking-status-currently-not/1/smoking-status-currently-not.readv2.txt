@@ -1,0 +1,4 @@
+137L.00	Current non-smoker
+1377.00	Ex-trivial smoker (<1/day)
+1372.00	Trivial smoker - < 1 cig/day
+1372.11	Occasional smoker

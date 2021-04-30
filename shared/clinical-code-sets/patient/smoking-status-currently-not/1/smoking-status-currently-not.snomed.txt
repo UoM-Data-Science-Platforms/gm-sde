@@ -1,0 +1,5 @@
+160618006	Current non-smoker (life style)
+8392000	Non-smoker (life style)
+266920004	Trivial cigarette smoker (less than one cigarette/day) (life style)
+266921000	Ex-trivial cigarette smoker (<1/day) (life style)
+428041000124106	Occasional tobacco smoker (finding)
