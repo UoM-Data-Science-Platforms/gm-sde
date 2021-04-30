@@ -169,5 +169,22 @@
 2021-04-14
 - Perform data extract for RQ025 (Watkinson)
 
+2021-04-15
+- Improving the long term condition code sets
+
 2021-04-16
 - Copy data to file share for RQ025 (Watkinson)
+- Improving the long term condition code sets
+
+2021-04-20
+- Improving the long term condition code sets
+
+2021-04-21
+- Improving the long term condition code sets
+
+2021-04-22
+- Improving the long term condition code sets
+
+2021-04-23
+- Evaluating the LTC code sets by examining their prevalence
+

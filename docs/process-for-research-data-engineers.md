@@ -1,8 +1,12 @@
 ## Index
 
-1. [Overview](../README.md)
-1. [Full end to end process](process-end-2-end.md)
-1. **Research data engineer process**
+- [Overview](../README.md)
+- [Data description](index.md)
+- [Current projects](current-projects.md)
+- [Clinical code sets](clinical-code-sets.md)
+- [Additional technical information](additional-technical-information.md)
+  - **RESEARCH DATA ENGINEER PROCESS**
+  - [SQL generation process](SQL-generation-process.md)
 
 # Research Data Engineer processes
 
