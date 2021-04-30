@@ -1,0 +1,34 @@
+1373.	Lt cigaret smok, 1-9 cigs/day
+1374.	Mod cigaret smok, 10-19 cigs/d
+1375.	Hvy cigaret smok, 20-39 cigs/d
+1376.	Very hvy cigs smoker,40+cigs/d
+137C.	Keeps trying to stop smoking
+137D.	Admitted tobacco cons untrue ?
+137G.	Trying to give up smoking
+137H.	Pipe smoker
+137I.	Passive smoker
+137J.	Cigar smoker
+137M.	Rolls own cigarettes
+137P.	Cigarette smoker
+137Q.	Smoking started
+137R.	Current smoker
+137Z.	Tobacco consumption NOS
+Ub0p2	Total time smoked
+Ub0pT	Chews tobacco
+Ub1tI	Cigarette consumption
+Ub1tJ	Cigar consumption
+Ub1tK	Pipe tobacco consumption
+XaBSp	Smoking restarted
+XaIIu	Smoking reduced
+XaIkW	Thinking about stop smoking
+XaIkX	Ready to stop smoking
+XaIkY	Not interested stop smoking
+XaIQm	Smoking status at 52 weeks
+XaItg	Reason for restarting smoking
+XaIuQ	Cigarette pack-years
+XaJX2	Min from wake to 1st tobac con
+XaWNE	Failed attempt to stop smoking
+XaZIE	Waterpipe tobacco consumption
+XE0og	Tobacco smoking consumption
+XE0oq	Cigarette smoker
+XE0or	Smoking started
