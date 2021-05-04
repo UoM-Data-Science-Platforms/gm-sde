@@ -1,0 +1,41 @@
+C1000	Diabetes mellitus, juvenile type, with no mention of complication
+C1010	Diabetes mellitus, juvenile type, with ketoacidosis
+C1020	Diabetes mellitus, juvenile type, with hyperosmolar coma
+C1030	Diabetes mellitus, juvenile type, with ketoacidotic coma
+C1040	Diabetes mellitus, juvenile type, with renal manifestation
+C1050	Diabetes mellitus, juvenile type, with ophthalmic manifestation
+C1060	Diabetes mellitus, juvenile type, with neurological manifestation
+C1070	Diabetes mellitus, juvenile type, with peripheral circulatory disorder
+C1080	Insulin-dependent diabetes mellitus with renal complications
+C1081	Insulin-dependent diabetes mellitus with ophthalmic complications
+C1082	Insulin-dependent diabetes mellitus with neurological complications
+C1083	Insulin-dependent diabetes mellitus with multiple complications
+C1085	Insulin-dependent diabetes mellitus with ulcer
+C1086	Insulin-dependent diabetes mellitus with gangrene
+C1087	IDDM - Insulin-dependent diabetes mellitus with retinopathy
+C1088	Insulin-dependent diabetes mellitus - poor control
+C1089	Insulin-dependent diabetes maturity onset
+C10y0	Diabetes mellitus, juvenile type, with other specified manifestation
+C10z0	Diabetes mellitus, juvenile type, with unspecified complication
+X40J4	Insulin-dependent diabetes mellitus
+X40JY	Congenital insulin-dependent diabetes mellitus with fatal secretory diarrhoea
+XE10E	Diabetes mellitus, juvenile type, with no mention of complication
+XE12C	Insulin dependent diabetes mel
+XM19i	[EDTA] Diabetes Type I (insulin dependent) associated with renal failure
+Xa4g7	Unstable type 1 diabetes mellitus
+XaA6b	Perceived control of insulin-dependent diabetes
+XaELP	Insulin-dependent diabetes without complication
+XaEnn	Type I diabetes mellitus with mononeuropathy
+XaEno	Insulin dependent diabetes mellitus with polyneuropathy
+XaF04	Type 1 diabetes mellitus with nephropathy
+XaFWG	Type 1 diabetes mellitus with hypoglycaemic coma
+XaFm8	Type 1 diabetes mellitus with diabetic cataract
+XaFmK	Type I diabetes mellitus with peripheral angiopathy
+XaFmL	Type 1 diabetes mellitus with arthropathy
+XaFmM	Type 1 diabetes mellitus with neuropathic arthropathy
+XaIzM	Type 1 diabetes mellitus with persistent proteinuria
+XaIzN	Type 1 diabetes mellitus with persistent microalbuminuria
+XaJSr	Type I diabetes mellitus with exudative maculopathy
+XaKyW	Type I diabetes mellitus with gastroparesis
+XaX49	Referral to type I diabetes structured education programme
+XaXZv	History of diabetes mellitus type 1

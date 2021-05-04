@@ -135,6 +135,7 @@ C109612	Type 2 diabetes mellitus with retinopathy
 C109700	Non-insulin dependent diabetes mellitus - poor control
 C109711	Type II diabetes mellitus - poor control
 C109712	Type 2 diabetes mellitus - poor control
+C109800	Reaven's syndrome
 C109900	Non-insulin-dependent diabetes mellitus without complication
 C109911	Type II diabetes mellitus without complication
 C109912	Type 2 diabetes mellitus without complication
@@ -275,6 +276,8 @@ C10F600	Type 2 diabetes mellitus with retinopathy
 C10F611	Type II diabetes mellitus with retinopathy
 C10F700	Type 2 diabetes mellitus - poor control
 C10F711	Type II diabetes mellitus - poor control
+C10F800	Reaven's syndrome
+C10F811	Metabolic syndrome X
 C10F900	Type 2 diabetes mellitus without complication
 C10F911	Type II diabetes mellitus without complication
 C10FA00	Type 2 diabetes mellitus with mononeuropathy
@@ -312,6 +315,8 @@ C10FR11	Type II diabetes mellitus with gastroparesis
 C10FS00	Maternally inherited diabetes mellitus
 C10G.00	Secondary pancreatic diabetes mellitus
 C10G000	Secondary pancreatic diabetes mellitus without complication
+C10H.00	Diabetes mellitus induced by non-steroid drugs
+C10H000	Diabetes mellitus induced by non-steroid drugs without complication
 C10M.00	Lipoatrophic diabetes mellitus
 C10M000	Lipoatrophic diabetes mellitus without complication
 C10N.00	Secondary diabetes mellitus
@@ -328,8 +333,30 @@ C10z000	Diabetes mellitus, juvenile type, with unspecified complication
 C10z100	Diabetes mellitus, adult onset, with unspecified complication
 C10zy00	Other specified diabetes mellitus with unspecified complications
 C10zz00	Diabetes mellitus NOS with unspecified complication
+C1A0.00	Metabolic syndrome
 Cyu2.00	[X]Diabetes mellitus
 Cyu2000	[X]Other specified diabetes mellitus
 Cyu2100	[X]Malnutrition-related diabetes mellitus with other specified complications
 Cyu2200	[X]Malnutrition-related diabetes mellitus with unspecified complications
 Cyu2300	[X]Unspecified diabetes mellitus with renal complications
+L180.00	Diabetes mellitus during pregnancy, childbirth and the puerperium
+L180000	Diabetes mellitus - unspecified whether during pregnancy or the puerperium
+L180100	Diabetes mellitus during pregnancy - baby delivered
+L180200	Diabetes mellitus in the puerperium - baby delivered during current episode of care
+L180300	Diabetes mellitus during pregnancy - baby not yet delivered
+L180400	Diabetes mellitus in the pueperium - baby delivered during previous episode of care
+L180500	Pre-existing diabetes mellitus, insulin-dependent
+L180600	Pre-existing diabetes mellitus, non-insulin-dependent
+L180700	Pre-existing malnutrition-related diabetes mellitus
+L180800	Diabetes mellitus arising in pregnancy
+L180811	Gestational diabetes mellitus
+L180900	Gestational diabetes mellitus
+L180A00	Pre-existing type 1 diabetes mellitus in pregnancy
+L180B00	Pre-existing type 2 diabetes mellitus in pregnancy
+L180X00	Pre-existing diabetes mellitus, unspecified
+L180z00	Diabetes mellitus during pregnancy, childbirth or the puerperium NOS
+Lyu2900	[X]Pre-existing diabetes mellitus, unspecified
+PKyP.00	Diabetes insipidus, diabetes mellitus, optic atrophy and deafness
+Q441.00	Neonatal diabetes mellitus
+ZV13F00	[V]Personal history of gestational diabetes mellitus
+ZV65312	[V]Dietary counselling in diabetes mellitus

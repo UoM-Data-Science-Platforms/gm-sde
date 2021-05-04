@@ -76,6 +76,19 @@ Cyu20	[X]Other specified diabetes mellitus
 Cyu21	[X]Malnutrition-related diabetes mellitus with other specified complications
 Cyu22	[X]Malnutrition-related diabetes mellitus with unspecified complications
 Cyu23	[X]Unspecified diabetes mellitus with renal complications
+L180.	Diabetes mellitus during pregnancy, childbirth and the puerperium
+L1800	Diabetes mellitus - unspecified whether during pregnancy or the puerperium
+L1801	Diabetes mellitus during pregnancy - baby delivered
+L1802	Diabetes mellitus in the puerperium - baby delivered during current episode of care
+L1803	Diabetes mellitus during pregnancy - baby not yet delivered
+L1804	Diabetes mellitus in the puerperium - baby delivered during previous episode of care
+L1805	Pre-existing diabetes mellitus, insulin-dependent
+L1806	Pre-existing diabetes mellitus, non-insulin-dependent
+L1807	Pre-existing malnutrition-related diabetes mellitus
+L1808	Diabetes mellitus arising in pregnancy
+L180z	Diabetes mellitus during pregnancy, childbirth or the puerperium NOS
+Lyu29	[X]Pre-existing diabetes mellitus, unspecified
+Q441.	Neonatal diabetes mellitus
 X40J4	Insulin-dependent diabetes mellitus
 X40J5	Non-insulin-dependent diabetes mellitus
 X40J6	Insulin treated Type 2 diabetes mellitus
@@ -85,6 +98,8 @@ X40J9	Malnutrition-related diabetes mellitus - protein-deficient
 X40JA	Secondary diabetes mellitus
 X40JB	Secondary pancreatic diabetes mellitus
 X40JC	Secondary endocrine diabetes mellitus
+X40JE	Reaven's syndrome
+X40JF	Transitory neonatal diabetes mellitus
 X40JG	Genetic syndromes of diabetes mellitus
 X40JI	Maturity onset diabetes in youth type 1
 X40JJ	Diabetes mellitus autosomal dominant type 2
@@ -106,6 +121,9 @@ XM19i	[EDTA] Diabetes Type I (insulin dependent) associated with renal failure
 XM19j	[EDTA] Diabetes Type II (non-insulin-dependent) associated with renal failure
 XM1Qx	Diabetes mellitus with gangrene
 XSETH	Maturity onset diabetes mellitus in young
+XSETK	Drug-induced diabetes mellitus
+XSETp	Diabetes mellitus due to insulin receptor antibodies
+Xa08a	Small for gestation neonatal diabetes mellitus
 Xa4g7	Unstable type 1 diabetes mellitus
 Xa9FG	Postpancreatectomy diabetes mellitus
 XaA6b	Perceived control of insulin-dependent diabetes
@@ -136,7 +154,9 @@ XaIzQ	Type 2 diabetes mellitus with persistent proteinuria
 XaIzR	Type 2 diabetes mellitus with persistent microalbuminuria
 XaJQp	Type II diabetes mellitus with exudative maculopathy
 XaJSr	Type I diabetes mellitus with exudative maculopathy
+XaJUI	Diabetes mellitus induced by non-steroid drugs
 XaJlL	Secondary pancreatic diabetes mellitus without complication
+XaJlM	Diabetes mellitus induced by non-steroid drugs without complication
 XaJlQ	Lipoatrophic diabetes mellitus without complication
 XaJlR	Secondary diabetes mellitus without complication
 XaKyW	Type I diabetes mellitus with gastroparesis
@@ -144,6 +164,4 @@ XaKyX	Type II diabetes mellitus with gastroparesis
 XaMzI	Cystic fibrosis related diabetes mellitus
 XaOPt	Maternally inherited diabetes mellitus
 XaOPu	Latent autoimmune diabetes mellitus in adult
-XaXZR	History of diabetes mellitus type 2
-XaXZv	History of diabetes mellitus type 1
 XacoB	Maturity onset diabetes of the young type 5
