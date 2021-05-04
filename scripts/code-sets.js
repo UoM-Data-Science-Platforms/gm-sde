@@ -1,5 +1,5 @@
 const chalk = require('chalk');
-const { readdirSync, readFileSync, writeFileSync, mkdirSync } = require('fs');
+const { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } = require('fs');
 const { join } = require('path');
 const { log, warn, setSilence } = require('./log');
 
@@ -29,6 +29,19 @@ Please fill out the code sets in:
 
 ${VERSION_DIR}
 `);
+};
+
+/**
+ * Method to check that a code set exists
+ */
+const checkCodeSetExists = (codeSetName) => {
+  const codeSetTypes = getClinicalCodeSetTypes();
+  for (let i = 0; i < codeSetTypes.length; i++) {
+    if (existsSync(join(CODE_SET_PARENT_DIR, codeSetTypes[i], codeSetName))) {
+      return true;
+    }
+  }
+  return false;
 };
 
 /**
@@ -576,4 +589,5 @@ module.exports = {
   getClinicalCodeSets,
   isValidCodeSet,
   createCodeSet,
+  checkCodeSetExists,
 };
