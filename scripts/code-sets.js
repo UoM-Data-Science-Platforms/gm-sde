@@ -280,23 +280,6 @@ sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
   return SQL;
 };
 
-const createAndWriteCodeSetSQL = (conditions = []) => {
-  const SQL = createCodeSetSQL(conditions);
-  const filename = join(
-    __dirname,
-    '..',
-    'shared',
-    'Reusable queries for data extraction',
-    'load-code-sets.sql'
-  );
-  writeFileSync(filename, SQL);
-
-  log(`
-Unless there were errors, the code set SQL file has been written to:
-${filename}
-`);
-};
-
 function processFiles(codeSetType, codeSetName, version) {
   const CODE_SET_DIR = join(CODE_SET_PARENT_DIR, codeSetType, codeSetName, version);
 
@@ -584,7 +567,6 @@ function isValidDataRow(row) {
 module.exports = {
   evaulateCodeSets,
   createCodeSetSQL,
-  createAndWriteCodeSetSQL,
   getClinicalCodeSetTypes,
   getClinicalCodeSets,
   isValidCodeSet,
