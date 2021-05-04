@@ -1,0 +1,64 @@
+68C2.	Chronic obstructive pulmonary disease screening
+H3...	COPD - Chronic obstructive pulmonary disease
+H31..	Chronic bronchitis
+H310.	Simple chronic bronchitis
+H310z	Simple chronic bronchitis NOS
+H311.	Mucopurulent chronic bronchitis
+H311z	Mucopurulent chronic bronchitis NOS
+H3120	Chronic asthmatic bronchitis
+H3121	Emphysematous bronchitis
+H3122	Acute exacerbation of chronic bronchitis
+H312z	Obstructive chronic bronchitis NOS
+H313.	Mixed simple and mucopurulent chronic bronchitis
+H31y.	Other chronic bronchitis
+H31y1	Chronic tracheobronchitis
+H31yz	Other chronic bronchitis NOS
+H31z.	Chronic bronchitis NOS
+H32..	Emphysema
+H320.	Chronic bullous emphysema
+H3200	Segmental bullous emphysema
+H3201	Zonal bullous emphysema
+H3202	Giant bullous emphysema
+H320z	Chronic bullous emphysema NOS
+H321.	Panlobular emphysema
+H322.	Centrilobular emphysema
+H32y.	Other emphysema
+H32y0	Acute vesicular emphysema
+H32y2	MacLeod's unilateral emphysema
+H32z.	Emphysema NOS
+H3y..	Other specified chronic obstructive pulmonary disease
+H3y0.	Chronic obstructive pulmonary disease with acute lower respiratory infection
+H3z..	Chronic obstructive pulmonary disease NOS
+H4640	Chronic emphysema due to chemical fumes
+H4641	Chemical bronchiolitis obliterans
+H581.	(Emphysema: [interstitial] or [mediastinal]) or (pneumomediastinum)
+Hyu30	[X]Other emphysema
+Hyu31	[X]Other specified chronic obstructive pulmonary disease
+X00Zc	Orbital emphysema
+X101i	Chronic obstructive pulmonary disease with acute exacerbation, unspecified
+X101l	Obliterative bronchiolitis
+X101m	Drug-induced bronchiolitis obliterans
+X101n	Pulmonary emphysema
+X101o	Pulmonary emphysema in alpha-1 PI deficiency
+X101p	Toxic emphysema
+X101q	CLE - Congenital lobar emphysema
+X101r	Scar emphysema
+X102z	Bronchiolitis obliterans with usual interstitial pneumonitis
+XE0YM	Purulent chronic bronchitis
+XE0YN	Bullous emphysema with collapse
+XE0YO	Atrophic (senile) emphysema
+XE0YP	Other emphysema NOS
+XE0ZN	Tracheobronchitis - chronic
+Xa35l	Acute infective exacerbation of chronic obstructive airways disease
+XaEIV	Mild chronic obstructive pulmonary disease
+XaEIW	Moderate chronic obstructive pulmonary disease
+XaEIY	Severe chronic obstructive pulmonary disease
+XaIND	End stage chronic obstructive airways disease
+XaIQg	Interstitial pulmonary emphysema
+XaJFu	Admit COPD emergency
+XaK8Q	Chronic obstructive pulmonary disease finding
+XaN4a	Very severe chronic obstructive pulmonary disease
+XaPZH	Chronic obstructive pulmonary disease patient unsuitable for pulmonary rehabilitation
+XaZd1	Acute non-infective exacerbation of COPD (chronic obstructive pulmonary disease)
+Xaa7C	Eosinophilic bronchitis
+Xac33	Asthma-chronic obstructive pulmonary disease overlap syndrome

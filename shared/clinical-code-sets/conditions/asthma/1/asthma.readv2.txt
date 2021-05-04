@@ -1,0 +1,44 @@
+14B4.	H/O: asthma
+173d.	Work aggravated asthma
+1O2..	Asthma confirmed
+8H2P.	Emergency admission, asthma
+H3120	Chronic asthmatic bronchitis
+H312000	Chronic asthmatic bronchitis
+H312011	Chronic asthmatic bronchitis
+H33..	Asthma
+H330.	Extrinsic (atopic) asthma
+H3300	Extrinsic asthma - no status
+H330000	Extrinsic asthma - no status
+H330011	Extrinsic asthma - no status
+H3301	Extrinsic asthma + status
+H330100	Extrinsic asthma + status
+H330111	Extrinsic asthma + status
+H330z	Extrinsic asthma NOS
+H330z00	Extrinsic asthma NOS
+H331.	Intrinsic asthma
+H3310	Intrinsic asthma - no status
+H331000	Intrinsic asthma - no status
+H3311	Intrinsic asthma + status
+H331111	Intrinsic asthma + status
+H331z	Intrinsic asthma NOS
+H331z00	Intrinsic asthma NOS
+H332.	Mixed asthma
+H333.	Acute exacerbation of asthma
+H334.	Brittle asthma
+H335.	Chron asthm w fix airflw obstr
+H33z.	Asthma unspecified
+H33z0	Status asthmaticus NOS
+H33z000	Status asthmaticus NOS
+H33z011	Status asthmaticus NOS
+H33z1	Asthma attack
+H33z100	Asthma attack
+H33z111	Asthma attack
+H33z2	Late-onset asthma
+H33z200	Late-onset asthma
+H33zz	Asthma NOS
+H33zz00	Asthma NOS
+H33zz11	Asthma NOS
+H33zz12	Asthma NOS
+H33zz13	Asthma NOS
+H3B..	Asthma-COPD overlap syndrome
+H47y0	Detergent asthma
