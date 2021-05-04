@@ -36,6 +36,3 @@ XaIzQ	Type 2 diabetes mellitus with persistent proteinuria
 XaIzR	Type 2 diabetes mellitus with persistent microalbuminuria
 XaJQp	Type II diabetes mellitus with exudative maculopathy
 XaKyX	Type II diabetes mellitus with gastroparesis
-XaXZR	History of diabetes mellitus type 2
-XaIfG	Type II diabetes on insulin
-XaIfI	Type II diabetes on diet only

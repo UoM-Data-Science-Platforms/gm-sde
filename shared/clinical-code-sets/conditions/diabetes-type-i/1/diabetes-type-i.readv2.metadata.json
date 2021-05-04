@@ -19,7 +19,9 @@
     "non-insulin-dependent",
     "latent autoimmune diabetes mellitus in adult",
     "unspecified diabetes mellitus",
-    "other specified diabetes"
+    "other specified diabetes",
+    "referral",
+    "history of"
   ],
   "terminology": "Readv2",
   "version": "v20160401",

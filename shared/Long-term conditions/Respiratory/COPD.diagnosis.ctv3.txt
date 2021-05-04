@@ -1,117 +1,64 @@
-CTV3PreferredTermDesc	CTV3ID	CTV3Source
-Acute exacerbation of chronic obstructive airways disease	H3122	CTV3Map_Code_And_Term
-Acute infective exacerbation chronic obstruct airway disease	Xa35l	CTV3_Children
-Acute non-infective exacerbation of COPD	XaZd1	CTV3_Children
-"Chron obstruct pulmonary dis wth acute exacerbation, unspec"	X101i	CTV3Map_Code_And_Term
-"Chron obstruct pulmonary dis wth acute exacerbation, unspec"	H3y1.	CTV3_Children
-[X]Acute bronchiolitis due to other specified organisms	Hyu11	CTV3Map_Code_And_Term
-[X]Acute bronchitis due to other specified organisms	Hyu10	CTV3Map_Code_And_Term
-"[X]Flu+oth respiratory manifestations,'flu virus identified"	Hyu04	CTV3Map_Code_And_Term
-"[X]Influenza+oth respiratory manifestatns,virus not identifd"	Hyu06	CTV3Map_Code_And_Term
-"[X]Influenza+other manifestations,influenza virus identified"	Hyu05	CTV3Map_Code_And_Term
-[X]Other acute lower respiratory infections	Hyu1.	CTV3Map_Code_And_Term
-Acute bacterial bronchitis	X1007	CTV3_Children
-Acute bacterial bronchitis unspecified	H060x	CTV3Map_Code_And_Term
-Acute bronchiolitis	H061.	CTV3Map_Code_And_Term
-Acute bronchiolitis due to adenovirus	X100D	CTV3_Children
-Acute bronchiolitis due to human metapneumovirus	XaYYt	CTV3_Children
-Acute bronchiolitis due to other specified organisms	H0616	CTV3Map_Code_And_Term
-Acute bronchiolitis due to respiratory syncytial virus	H0615	CTV3Map_Code_And_Term
-Acute bronchiolitis NOS	H061z	CTV3Map_Code_And_Term
-Acute bronchiolitis with bronchospasm	H0612	CTV3Map_Code_And_Term
-Acute bronchitis	XE0Xr	CTV3Map_Code_Only
-Acute bronchitis	XE0Xr	CTV3Map_Code_And_Term
-Acute bronchitis (& wheezy)	H060.	CTV3_Children
-Acute bronchitis and bronchiolitis	H06..	CTV3Map_Code_And_Term
-Acute bronchitis due to rhinovirus	H060E	CTV3Map_Code_And_Term
-Acute bronchitis NOS	H060z	CTV3Map_Code_And_Term
-Acute bronchitis or bronchiolitis NOS	H06z.	CTV3Map_Code_And_Term
-Acute capillary bronchiolitis	H0610	CTV3Map_Code_And_Term
-Acute chlamydial bronchitis	X100A	CTV3_Children
-Acute coxsackievirus bronchitis	H060B	CTV3Map_Code_And_Term
-Acute croupous bronchitis	H0604	CTV3Map_Code_And_Term
-Acute echovirus bronchitis	H060F	CTV3Map_Code_And_Term
-Acute exudative bronchiolitis	H0613	CTV3Map_Code_And_Term
-Acute fibrinous bronchitis	H0600	CTV3_Children
-Acute haemophilus influenzae bronchitis	H0608	CTV3Map_Code_And_Term
-Acute infective bronchitis	XaDtB	CTV3_Children
-Acute lower respiratory tract infection	XE0Xt	CTV3Map_Code_Only
-Acute lower respiratory tract infection	XE0Xt	CTV3Map_Code_And_Term
-Acute membranous bronchitis	H0601	CTV3Map_Code_And_Term
-Acute mycoplasmal bronchitis	X1009	CTV3_Children
-Acute Neisseria catarrhalis bronchitis	H0609	CTV3Map_Code_And_Term
-Acute obliterating bronchiolitis	H0611	CTV3Map_Code_And_Term
-Acute parainfluenza virus bronchitis	H060C	CTV3Map_Code_And_Term
-Acute pneumococcal bronchitis	H0606	CTV3Map_Code_And_Term
-Acute pseudomembranous bronchitis	H0602	CTV3Map_Code_And_Term
-Acute purulent bronchitis	H0603	CTV3Map_Code_And_Term
-Acute respiratory syncytial virus bronchitis	H060D	CTV3Map_Code_And_Term
-Acute streptococcal bronchitis	H0607	CTV3Map_Code_And_Term
-Acute viral bronchiolitis	X100C	CTV3_Children
-Acute viral bronchitis	X100B	CTV3_Children
-Acute viral bronchitis unspecified	H060w	CTV3Map_Code_And_Term
-Acute wheezy bronchitis	XM1QX	CTV3Map_Code_And_Term
-Acute wheezy bronchitis	XM1QX	CTV3Map_Code_Only
-Acute: [bronchitis]/[chest infections]/[tracheobronchitis]	XE0Yt	CTV3_Children
-Avian influenza	XaMih	CTV3Map_Code_And_Term
-Avian influenza virus nucleic acid detection	XaLT5	CTV3Map_Code_And_Term
-Bronchiolitis obliterans	X101l	CTV3Map_Code_And_Term
-Bronchiolitis obliterans with usual interstitial pneumonitis	X102z	CTV3_Children
-Chest cold	H07..	CTV3Map_Code_And_Term
-Chest infection - unspecified bronchitis	X1006	CTV3Map_Code_And_Term
-Chest infection (& NOS)	H06z0	CTV3_Children
-Chest infection NOS	XE0Xs	CTV3Map_Code_Only
-Chest infection NOS	XE0Xs	CTV3Map_Code_And_Term
-Chronic obstruct pulmonary dis with acute lower resp infectn	H3y0.	CTV3Map_Code_And_Term
-Drug-induced bronchiolitis obliterans	X101m	CTV3_Children
-Flu-like illness NOS	XM0s0	CTV3_Children
-Human parainfluenza virus detected	XaPOk	CTV3Map_Code_And_Term
-Infection of lower respiratory tract	X1004	CTV3Map_Code_Only
-Infection of lower respiratory tract	X1004	CTV3Map_Code_And_Term
-Infection of lower respiratory tract and mediastinum	XM1QV	CTV3_Children
-Influenza	H27..	CTV3Map_Code_And_Term
-Influenza A virus H1N1 subtype detected	XaQVd	CTV3Map_Code_And_Term
-"Influenza A virus, other or untyped strain detected"	XaPIR	CTV3Map_Code_And_Term
-Influenza B virus detected	XaPIS	CTV3Map_Code_And_Term
-Influenza due to Influenza A virus subtype H1N1	XaQQp	CTV3Map_Code_Only
-Influenza due to Influenza A virus subtype H1N1	XaQQp	CTV3Map_Code_And_Term
-Influenza due to pandemic influenza virus	XaeVL	CTV3_Children
-Influenza due to seasonal influenza virus	XaeVM	CTV3_Children
-Influenza due to zoonotic influenza virus	XaeVK	CTV3_Children
-Influenza H1 virus detected	XaPIN	CTV3Map_Code_And_Term
-Influenza H2 virus detected	XaPIO	CTV3Map_Code_And_Term
-Influenza H3 virus detected	XaPIP	CTV3Map_Code_And_Term
-Influenza H5 virus detected	XaPIQ	CTV3Map_Code_And_Term
-Influenza NOS	XE0YK	CTV3Map_Code_And_Term
-Influenza NOS	XE0YK	CTV3Map_Code_Only
-Influenza with bronchopneumonia	H2700	CTV3_Children
-Influenza with encephalopathy	H27y0	CTV3Map_Code_And_Term
-Influenza with gastrointestinal tract involvement	H27y1	CTV3Map_Code_And_Term
-Influenza with laryngitis	H2710	CTV3Map_Code_And_Term
-Influenza with other manifestations	H27y.	CTV3Map_Code_And_Term
-Influenza with other manifestations NOS	H27yz	CTV3Map_Code_And_Term
-Influenza with other respiratory manifestation	H271.	CTV3Map_Code_And_Term
-Influenza with pharyngitis	H2711	CTV3Map_Code_And_Term
-Influenza with pneumonia due to seasonal influenza virus	XaeVN	CTV3_Children
-Influenza with pneumonia NOS	H270z	CTV3_Children
-"Influenza with pneumonia, influenza virus identified"	H2701	CTV3_Children
-Influenza with respiratory manifestations NOS	H271z	CTV3Map_Code_And_Term
-Influenzal pneumonia	H270.	CTV3_Children
-Influenza-like illness	XM0rz	CTV3Map_Code_And_Term
-Influenza-like illness	XM0rz	CTV3Map_Code_Only
-Influenza-like symptoms	XaIBK	CTV3Map_Code_And_Term
-Obliterating fibrous bronchiolitis	H0614	CTV3Map_Code_And_Term
-Parainfluenza type 1 nucleic acid detection	XaMB6	CTV3Map_Code_And_Term
-Parainfluenza type 2 nucleic acid detection	XaMB7	CTV3Map_Code_And_Term
-Parainfluenza type 3 nucleic acid detection	XaMB8	CTV3Map_Code_And_Term
-Parainfluenzal pneumonia	H202.	CTV3_Children
-Pneumonia and influenza	H2...	CTV3_Children
-Possible influenza A virus H1N1 subtype	XaQVc	CTV3Map_Code_And_Term
-Postoperative chest infection	SP132	CTV3_Children
-Respiratory tract infection (& [acute lower] or [lower])	H06z1	CTV3_Children
-Subacute bronchitis unspecified	H060v	CTV3_Children
-Suspected influenza A virus subtype H1N1 infection	XaQSm	CTV3Map_Code_Only
-Suspected influenza A virus subtype H1N1 infection	XaQSm	CTV3Map_Code_And_Term
-Toxic bronchiolitis obliterans	H4641	CTV3_Children
-Viral pneumonia (& chest infection)	H20..	CTV3_Children
-"[X]Influenza with other manifestations, virus not identified"	Hyu07	CTV3Map_Code_And_Term
+68C2.	Chronic obstructive pulmonary disease screening
+H3...	COPD - Chronic obstructive pulmonary disease
+H31..	Chronic bronchitis
+H310.	Simple chronic bronchitis
+H310z	Simple chronic bronchitis NOS
+H311.	Mucopurulent chronic bronchitis
+H311z	Mucopurulent chronic bronchitis NOS
+H3120	Chronic asthmatic bronchitis
+H3121	Emphysematous bronchitis
+H3122	Acute exacerbation of chronic bronchitis
+H312z	Obstructive chronic bronchitis NOS
+H313.	Mixed simple and mucopurulent chronic bronchitis
+H31y.	Other chronic bronchitis
+H31y1	Chronic tracheobronchitis
+H31yz	Other chronic bronchitis NOS
+H31z.	Chronic bronchitis NOS
+H32..	Emphysema
+H320.	Chronic bullous emphysema
+H3200	Segmental bullous emphysema
+H3201	Zonal bullous emphysema
+H3202	Giant bullous emphysema
+H320z	Chronic bullous emphysema NOS
+H321.	Panlobular emphysema
+H322.	Centrilobular emphysema
+H32y.	Other emphysema
+H32y0	Acute vesicular emphysema
+H32y2	MacLeod's unilateral emphysema
+H32z.	Emphysema NOS
+H3y..	Other specified chronic obstructive pulmonary disease
+H3y0.	Chronic obstructive pulmonary disease with acute lower respiratory infection
+H3z..	Chronic obstructive pulmonary disease NOS
+H4640	Chronic emphysema due to chemical fumes
+H4641	Chemical bronchiolitis obliterans
+H581.	(Emphysema: [interstitial] or [mediastinal]) or (pneumomediastinum)
+Hyu30	[X]Other emphysema
+Hyu31	[X]Other specified chronic obstructive pulmonary disease
+X00Zc	Orbital emphysema
+X101i	Chronic obstructive pulmonary disease with acute exacerbation, unspecified
+X101l	Obliterative bronchiolitis
+X101m	Drug-induced bronchiolitis obliterans
+X101n	Pulmonary emphysema
+X101o	Pulmonary emphysema in alpha-1 PI deficiency
+X101p	Toxic emphysema
+X101q	CLE - Congenital lobar emphysema
+X101r	Scar emphysema
+X102z	Bronchiolitis obliterans with usual interstitial pneumonitis
+XE0YM	Purulent chronic bronchitis
+XE0YN	Bullous emphysema with collapse
+XE0YO	Atrophic (senile) emphysema
+XE0YP	Other emphysema NOS
+XE0ZN	Tracheobronchitis - chronic
+Xa35l	Acute infective exacerbation of chronic obstructive airways disease
+XaEIV	Mild chronic obstructive pulmonary disease
+XaEIW	Moderate chronic obstructive pulmonary disease
+XaEIY	Severe chronic obstructive pulmonary disease
+XaIND	End stage chronic obstructive airways disease
+XaIQg	Interstitial pulmonary emphysema
+XaJFu	Admit COPD emergency
+XaK8Q	Chronic obstructive pulmonary disease finding
+XaN4a	Very severe chronic obstructive pulmonary disease
+XaPZH	Chronic obstructive pulmonary disease patient unsuitable for pulmonary rehabilitation
+XaZd1	Acute non-infective exacerbation of COPD (chronic obstructive pulmonary disease)
+Xaa7C	Eosinophilic bronchitis
+Xac33	Asthma-chronic obstructive pulmonary disease overlap syndrome

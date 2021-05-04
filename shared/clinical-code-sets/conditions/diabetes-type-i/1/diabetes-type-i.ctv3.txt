@@ -37,5 +37,3 @@ XaIzM	Type 1 diabetes mellitus with persistent proteinuria
 XaIzN	Type 1 diabetes mellitus with persistent microalbuminuria
 XaJSr	Type I diabetes mellitus with exudative maculopathy
 XaKyW	Type I diabetes mellitus with gastroparesis
-XaX49	Referral to type I diabetes structured education programme
-XaXZv	History of diabetes mellitus type 1

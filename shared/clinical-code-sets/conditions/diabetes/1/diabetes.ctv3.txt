@@ -165,3 +165,5 @@ XaMzI	Cystic fibrosis related diabetes mellitus
 XaOPt	Maternally inherited diabetes mellitus
 XaOPu	Latent autoimmune diabetes mellitus in adult
 XacoB	Maturity onset diabetes of the young type 5
+XaIfG	Type II diabetes on insulin
+XaIfI	Type II diabetes on diet only
