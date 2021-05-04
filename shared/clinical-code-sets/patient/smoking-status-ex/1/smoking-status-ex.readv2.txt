@@ -8,11 +8,7 @@
 137A.00	Ex-heavy smoker (20-39/day)
 1379.00	Ex-moderate smoker (10-19/day)
 1378.00	Ex-light smoker (1-9/day)
-137i.00	Ex-tobacco chewer
 137K.00	Stopped smoking
 137K000	Recently stopped smoking
 137T.00	Date ceased smoking
 13p4.00	Smoking free weeks
-13p7.00	Smoking status at 12 weeks
-13p2.00	Smoking status between 4 and 52 weeks
-13p1.00	Smoking status at 4 weeks

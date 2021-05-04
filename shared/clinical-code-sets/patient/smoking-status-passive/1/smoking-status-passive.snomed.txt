@@ -1,0 +1,7 @@
+43381005	Passive smoker (finding)
+161080002	Passive smoking risk (environment)
+228523000	Exposed to tobacco smoke at work (finding)
+228524006	Exposed to tobacco smoke at home (finding)
+228525007	Exposed to tobacco smoke in public places (finding)
+713142003	At risk from passive smoking (finding)
+722451000000101	Passive smoking (qualifier value)

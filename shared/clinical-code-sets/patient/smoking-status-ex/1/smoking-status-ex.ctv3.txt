@@ -7,16 +7,12 @@
 137N.	Ex-pipe smoker
 137O.	Ex-cigar smoker
 137T.	Date ceased smoking
-Ub0pS	Ex-tobacco chewer
 Ub1na	Ex-smoker
 Xa1bv	Ex-cigarette smoker
-XaIQk	Smoking status at 4 weeks
-XaIQl	Smoking status 4 - 52 wks
 XaIr7	Smoking free weeks
 XaKlS	[V]PH of tobacco abuse
 XaQ8V	Ex roll-up cigarette smoker
 XaQzw	Recently stopped smoking
-XaXPX	Smoking status at 12 weeks
 XE0ok	Ex-light cigaret smok, 1-9/day
 XE0ol	Ex-mod cigaret smok, 10-19/day
 XE0om	Ex-heav cigaret smok,20-39/day
