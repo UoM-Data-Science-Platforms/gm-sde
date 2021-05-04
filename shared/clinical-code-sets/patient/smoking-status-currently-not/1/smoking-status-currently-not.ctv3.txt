@@ -1,7 +1,2 @@
 Ub0oq	Non-smoker
 137L.	Current non-smoker
-XagO3	Occasional tobacco smoker
-XE0oi	Triv cigaret smok, < 1 cig/day
-XE0oj	Ex-triv cigaret smoker, <1/day
-1377.	Ex-trivial smoker (<1/day)
-1372.	Trivial smoker - < 1 cig/day
