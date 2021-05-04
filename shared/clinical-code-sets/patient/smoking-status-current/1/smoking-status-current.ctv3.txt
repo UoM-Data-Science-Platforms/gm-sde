@@ -6,15 +6,12 @@
 137D.	Admitted tobacco cons untrue ?
 137G.	Trying to give up smoking
 137H.	Pipe smoker
-137I.	Passive smoker
 137J.	Cigar smoker
 137M.	Rolls own cigarettes
 137P.	Cigarette smoker
 137Q.	Smoking started
 137R.	Current smoker
 137Z.	Tobacco consumption NOS
-Ub0p2	Total time smoked
-Ub0pT	Chews tobacco
 Ub1tI	Cigarette consumption
 Ub1tJ	Cigar consumption
 Ub1tK	Pipe tobacco consumption
@@ -23,7 +20,6 @@ XaIIu	Smoking reduced
 XaIkW	Thinking about stop smoking
 XaIkX	Ready to stop smoking
 XaIkY	Not interested stop smoking
-XaIQm	Smoking status at 52 weeks
 XaItg	Reason for restarting smoking
 XaIuQ	Cigarette pack-years
 XaJX2	Min from wake to 1st tobac con

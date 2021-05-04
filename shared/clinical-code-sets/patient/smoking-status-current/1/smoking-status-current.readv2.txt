@@ -9,7 +9,6 @@
 1373.00	Light smoker - 1-9 cigs/day
 137M.00	Rolls own cigarettes
 137o.00	Waterpipe tobacco consumption
-137n.00	Total time smoked
 137m.00	Failed attempt to stop smoking
 137h.00	Minutes from waking to first tobacco consumption
 137g.00	Cigarette pack-years
@@ -18,16 +17,13 @@
 137d.00	Not interested in stopping smoking
 137c.00	Thinking about stopping smoking
 137b.00	Ready to stop smoking
-137D.00	Admitted tobacco cons untrue ?
 137C.00	Keeps trying to stop smoking
 137J.00	Cigar smoker
-137I.00	Passive smoker
 137H.00	Pipe smoker
 137a.00	Pipe tobacco consumption
 137Z.00	Tobacco consumption NOS
 137Y.00	Cigar consumption
 137X.00	Cigarette consumption
-137W.00	Chews tobacco
 137V.00	Smoking reduced
 137Q.00	Smoking started
 137Q.11	Smoking restarted
