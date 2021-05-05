@@ -1,0 +1,42 @@
+{
+  "includeTerms": [
+    "metformin",
+    "synjardy",
+    "vokanamet",
+    "xigduo",
+    "vipdomet",
+    "diagemet",
+    "sukkarto",
+    "komboglyze",
+    "metabet",
+    "glucophage",
+    "glucamet",
+    "orabet",
+    "jentadueto",
+    "janumet",
+    "eucreas",
+    "competact",
+    "glucient",
+    "bolamyn",
+    "metsol",
+    "avandamet"
+  ],
+  "excludeTerms": [
+    "not indicated",
+    "declined",
+    "adverse reaction",
+    "contraindicated",
+    "not tolerated",
+    "poisoning",
+    "allergy",
+    "overdose"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdBy": {
+    "name": "Richard Williams",
+    "email": "1234richardwilliams@gmail.com"
+  },
+  "createdOn": "2021-05-05T08:52:24.575Z",
+  "lastUpdated": "2021-05-05T08:52:24.575Z"
+}

@@ -1,98 +1,87 @@
-h34..	Methotrexate
-h34B.	METHOTREXATE 20mg/2mL solution for injection p/f syringe
-h341.	Methotrexate 2.5mg tablet
-h34p.	Maxtrex 2.5mg tablet
-h34A.	METHOTREXATE 15mg/1.5mL solution for injection p/f syringe
-h34F.	METOJECT 15mg/1.5mL solution for injection prefilled syringe
-h34G.	METOJECT 20mg/2mL solution for injection prefilled syringe
-h34y.	METHOTREXATE 7.5mg/0.75mL solution for injection p/f syringe
-h34D.	METOJECT 7.5mg/0.75mL solution for injection p/f syringe
-h34z.	METHOTREXATE 10mg/1mL solution for injection p/f syringe
-h34E.	METOJECT 10mg/1mL solution for injection prefilled syringe
-h34H.	METOJECT 25mg/2.5mL solution for injection prefilled syringe
-h34C.	METHOTREXATE 25mg/2.5mL solution for injection p/f syringe
-h34H.	METOJECT 25mg/2.5mL solution for injection prefilled syringe
-h342.	Methotrexate 10mg tablet
-h34d.	Emtexate 10mg tablet
-h34q.	Maxtrex 10mg tablet
-h343.	Methotrexate 2.5mg/1mL injection solution
-h344.	Methotrexate 5mg/2mL injection
-h34r.	Maxtrex 5mg/2mL injection solution
-h34e.	Emtexate 5mg/2mL injection solution
-h345.	Methotrexate 25mg/1mL injection
-h346.	Methotrexate 50mg/2mL injection
-h34s.	Maxtrex 50mg/2mL injection solution
-h34f.	Emtexate 50mg/2mL injection solution
-h347.	Methotrexate 100mg/4mL injection
-h348.	Methotrexate 200mg/8mL injection
-h34c.	Methotrexate 500mg injection (pdr for recon)
-h34m.	Emtexate 0.5g injection (pdr for recon)
-h349.	Methotrexate 500mg/20mL injection
-h34t.	Maxtrex 500mg/20mL injection solution
-h34h.	Emtexate 500mg/20mL injection solution
-h34w.	Methotrexate 1g/10mL injection
-h34k.	Emtexate 1g/10mL injection solution
-h34a.	Methotrexate 1g/40mL injection
-h34u.	Maxtrex 1g/40mL injection solution
-h34i.	Emtexate 1g/40mL injection solution
-h34x.	Methotrexate 5g/50mL injection
-h34l.	Emtexate 5g/50mL injection solution
-h34b.	Methotrexate 5g/200mL injection
-h34v.	Maxtrex 5g/200mL injection solution
-h34j.	Emtexate 5g/200mL injection solution
-x00Oq	Methotrexate 375mg/30mL infusion
-x00Or	Methotrexate 750mg/60mL infusion
-h34g.	Emtexate 250mg/10mL injection solution
-h34o.	Emtexate 5g injection (pdr for recon)
-h34n.	Emtexate 1g injection (pdr for recon)
-h34L.	METOJECT 7.5mg/0.15mL solution for injection pfs
-h34M.	METHOTREXATE 7.5mg/0.15mL solution for injection pfs
-h34N.	METOJECT 10mg/0.2mL solution for injection prefilled syringe
-h34O.	METHOTREXATE 10mg/0.2mL solution for injection pfs
-h34P.	METOJECT 15mg/0.3mL solution for injection prefilled syringe
-h34Q.	METHOTREXATE 15mg/0.3mL solution for injection pfs
-h34R.	METOJECT 20mg/0.4mL solution for injection prefilled syringe
-h34S.	METHOTREXATE 20mg/0.4mL solution for injection pfs
-h34T.	METOJECT 25mg/0.5mL solution for injection prefilled syringe
-h34U.	METHOTREXATE 25mg/0.5mL solution for injection pfs
-h34V.	METOJECT 30mg/0.6mL solution for injection prefilled syringe
-h34W.	METHOTREXATE 30mg/0.6mL solution for injection pfs
-h34X.	EBETREX 7.5mg/0.75mL soln for injection prefilled syringe
-h34Y.	EBETREX 10mg/1mL solution for injection prefilled syringe
-h34Z.	EBETREX 15mg/1.5mL solution for injection prefilled syringe
-h3G..	METHOTREXATE(2)
-h3G1.	EBETREX 20mg/1mL solution for injection prefilled syringe
-h3G2.	EBETREX 25mg/1.25mL solution for injection prefilled syringe
-h3G3.	EBETREX 30mg/1.5mL solution for injection prefilled syringe
-h3G4.	METHOTREXATE 20mg/1mL solution for injection p/f syringe
-h3G5.	METHOTREXATE 25mg/1.25mL solution for injection p/f syringe
-h3G6.	METHOTREXATE 30mg/1.5mL solution for injection p/f syringe
-h3G7.	METOJECT 12.5mg/0.25mL soln for injection prefilled syringe
-h3G8.	METHOTREXATE 12.5mg/0.25mL solution for injection pfs
-h3G9.	METOJECT 17.5mg/0.35mL soln for injection prefilled syringe
-h3GA.	METHOTREXATE 17.5mg/0.35mL solution for injection pfs
-h3GB.	METOJECT 22.5mg/0.45mL soln for injection prefilled syringe
-h3GC.	METHOTREXATE 22.5mg/0.45mL solution for injection pfs
-h3GD.	METOJECT 27.5mg/0.55mL soln for injection prefilled syringe
-h3GE.	METHOTREXATE 27.5mg/0.55mL solution for injection pfs
-h3GF.	METOJECT PEN 7.5mg/0.15mL soln for injection prefilled pen
-h3GG.	METHOTREXATE 7.5mg/0.15mL soln for injection prefilled pen
-h3GH.	METOJECT PEN 10mg/0.2mL solution for injection prefilled pen
-h3GI.	METHOTREXATE 10mg/0.2mL solution for injection prefilled pen
-h3GJ.	METOJECT PEN 12.5mg/0.25mL soln for injection prefilled pen
-h3GK.	METHOTREXATE 12.5mg/0.25mL soln for injection prefilled pen
-h3GL.	METOJECT PEN 15mg/0.3mL solution for injection prefilled pen
-h3GM.	METHOTREXATE 15mg/0.3mL solution for injection prefilled pen
-h3GN.	METOJECT PEN 17.5mg/0.35mL soln for injection prefilled pen
-h3GO.	METHOTREXATE 17.5mg/0.35mL soln for injection prefilled pen
-h3GP.	METOJECT PEN 20mg/0.4mL solution for injection prefilled pen
-h3GQ.	METHOTREXATE 20mg/0.4mL solution for injection prefilled pen
-h3GR.	METOJECT PEN 22.5mg/0.45mL soln for injection prefilled pen
-h3GS.	METHOTREXATE 22.5mg/0.45mL soln for injection prefilled pen
-h3GT.	METOJECT PEN 25mg/0.5mL solution for injection prefilled pen
-h3GU.	METHOTREXATE 25mg/0.5mL solution for injection prefilled pen
-h3GV.	METOJECT PEN 27.5mg/0.55mL soln for injection prefilled pen
-h3GW.	METHOTREXATE 27.5mg/0.55mL soln for injection prefilled pen
-h3GX.	METOJECT PEN 30mg/0.6mL solution for injection prefilled pen
-h3GY.	METHOTREXATE 30mg/0.6mL solution for injection prefilled pen
-h3GZ.	METHOTREXATE 2mg/mL oral solution
+f41..	Metformin hydrochloride
+f411.	Glucophage 500mg tablet
+f412.	Glucophage 850mg tablet
+f413.	Orabet 500mg tablet
+f414.	Orabet 850mg tablet
+f415.	Glucamet 500 tablet
+f416.	Glucamet 850 tablet
+f417.	Glucophage SR 500mg m/r tablet
+f418.	METSOL 500mg/5mL oral solution
+f419.	GLUCOPHAGE SR 750mg m/r tablets
+f41A.	GLUCOPHAGE SR 1000mg m/r tablets
+f41B.	BOLAMYN SR 500mg m/r tablets
+f41C.	GLUCOPHAGE 500mg/sachet oral powder
+f41D.	GLUCOPHAGE 1000mg/sachet oral powder
+f41E.	METABET SR 500mg m/r tablets
+f41F.	METABET SR 1000mg m/r tablets
+f41G.	GLUCIENT SR 500mg m/r tablets
+f41H.	DIAGEMET XL 500mg m/r tablets
+f41I.	SUKKARTO SR 500mg m/r tablets
+f41J.	SUKKARTO SR 1000mg m/r tablets
+f41s.	METFORMIN HYDROCHLORIDE 1000mg/sachet oral powder
+f41t.	METFORMIN HYDROCHLORIDE 500mg/sachet oral powder
+f41u.	METFORMIN HYDROCHLORIDE 1000mg m/r tablets
+f41v.	METFORMIN HYDROCHLORIDE 750mg m/r tablets
+f41w.	METFORMIN 500mg/5mL oral solution
+f41x.	Metformin hydrochloride 500mg m/r tablet
+f41y.	Metformin hydrochloride 500mg tablet
+f41z.	Metformin hydrochloride 850mg tablet
+ft43.	Avandamet 1mg / 500mg tablet
+ft44.	Avandamet 2mg / 500mg tablet
+ft45.	Avandamet 2mg / 1000mg tablet
+ft46.	Avandamet 4mg / 1000mg tablet
+ft4u.	Rosiglitazone 2mg / Metformin 1000mg tablet
+ft4v.	Rosiglitazone 4mg / Metformin 1000mg tablet
+ft4w.	Rosiglitazone 2mg / metformin 500mg tablet
+ft4x.	Rosiglitazone 1mg / metformin 500mg tablet
+ft7..	METFORMIN + PIOGLITAZONE
+ft71.	COMPETACT 15mg/850mg tablets
+ft7z.	METFORMIN 850mg/PIOGLITAZONE 15mg tablets
+ftb..	METFORMIN + VILDAGLIPTIN
+ftb1.	EUCREAS 50mg/850mg tablets
+ftb2.	EUCREAS 50mg/1000mg tablets
+ftby.	VILDAGLIPTIN/METFORMIN 50mg/1000mg tablets
+ftbz.	VILDAGLIPTIN/METFORMIN 50mg/850mg tablets
+fte..	METFORMIN + SITAGLIPTIN
+fte1.	JANUMET 50mg/1000mg tablets
+ftez.	SITAGLIPTIN/METFORMIN HYDROCHLORIDE 50mg/1000mg tablets
+ftg..	METFORMIN + LINAGLIPTIN
+ftg1.	JENTADUETO 2.5mg/850mg tablets
+ftg2.	LINAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/850mg tablets
+ftg3.	JENTADUETO 2.5mg/1000mg tablets
+ftg4.	LINAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/1000mg tablets
+fti..	METFORMIN + SAXAGLIPTIN
+fti1.	KOMBOGLYZE 2.5mg/850mg tablets
+fti2.	SAXAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/850mg tablets
+fti3.	KOMBOGLYZE 2.5mg/1000mg tablets
+fti4.	SAXAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/1000mg tablets
+ftl..	METFORMIN + ALOGLIPTIN
+ftl1.	VIPDOMET 12.5mg/1000mg tablets
+ftl2.	ALOGLIPTIN+METFORMIN HYDROCHLORIDE 12.5mg/1000mg tablets
+ftm..	METFORMIN + DAPAGLIFLOZIN
+ftm1.	XIGDUO 5mg/850mg tablets
+ftm2.	DAPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/850mg tablets
+ftm3.	XIGDUO 5mg/1000mg tablets
+ftm4.	DAPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/1000mg tablets
+ftp..	METFORMIN + CANAGLIFLOZIN
+ftp1.	VOKANAMET 50mg/850mg tablets
+ftp2.	CANAGLIFLOZIN+METFORMIN HYDROCHLORIDE 50mg/850mg tablets
+ftp3.	VOKANAMET 50mg/1000mg tablets
+ftp4.	CANAGLIFLOZIN+METFORMIN HYDROCHLORIDE 50mg/1000mg tablets
+ftr..	METFORMIN + EMPAGLIFLOZIN
+ftr1.	SYNJARDY 5mg/850mg tablets
+ftr2.	EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/850mg tablets
+ftr3.	SYNJARDY 5mg/1000mg tablets
+ftr4.	EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/1000mg tablets
+ftr5.	SYNJARDY 12.5mg/850mg tablets
+ftr6.	EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 12.5mg/850mg tablets
+ftr7.	SYNJARDY 12.5mg/1000mg tablets
+ftr8.	EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 12.5mg/1000mg tablets
+x01Li	Metformin
+x02e3	Glucamet
+x02e6	Glucophage
+x02m0	Orabet
+x043H	Glucamet 500
+x043I	Glucamet 850
+x05ql	Avandamet
+x05vz	Glucophage SR
