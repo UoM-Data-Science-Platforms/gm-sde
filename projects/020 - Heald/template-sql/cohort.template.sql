@@ -2,12 +2,16 @@
 --│ Diabetes cohort file │
 --└──────────────────────┘
 
+-- TODO change methotrexate to metformin
+-- TODO add townsend index
+
 -- Cohort is diabetic patients with a positive covid test. Also a 1:5 matched cohort, 
 -- matched on year of birth (+-5 years), sex, and date of positive covid test (+-14 days).
 -- For each we provide the following:
 
 -- DEMOGRAPHIC
--- PatientId, MainCohortMatchedPatientId, YearOfBirth, DeathDate, Sex, LSOA, EthnicCategoryDescription
+-- PatientId, MainCohortMatchedPatientId (NULL if patient in main cohort), YearOfBirth,
+-- DeathDate, Sex, LSOA, EthnicCategoryDescription
 -- COHORT SPECIFIC
 -- FirstDiagnosisDate, FirstT1DiagnosisDate, FirstT2DiagnosisDate, COVIDPositiveTestDate
 -- BIOMARKERS
@@ -114,15 +118,15 @@ SELECT FK_Patient_Link_ID, IndexDate, Sex, YearOfBirth FROM #MainCohort;
 IF OBJECT_ID('tempdb..#MatchedCohort') IS NOT NULL DROP TABLE #MatchedCohort;
 SELECT 
   c.MatchingPatientId AS FK_Patient_Link_ID,
-  MatchingIndexDate AS IndexDate,
+  MatchingCovidPositiveDate AS IndexDate,
   Sex,
   MatchingYearOfBirth,
   LSOA_Code,
-  FK_Patient_Link_ID AS PatientWhoIsMatched
+  PatientId AS PatientWhoIsMatched
 INTO #MatchedCohort
 FROM #CohortStore c
-LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = c.FK_Patient_Link_ID
-WHERE c.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #DiabeticPatients);
+LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = c.PatientId
+WHERE c.PatientId IN (SELECT FK_Patient_Link_ID FROM #DiabeticPatients);
 
 -- Define a table with all the patient ids and index dates for the main cohort and the matched cohort
 IF OBJECT_ID('tempdb..#PatientIdsAndIndexDates') IS NOT NULL DROP TABLE #PatientIdsAndIndexDates;
@@ -443,4 +447,4 @@ LEFT OUTER JOIN #PatientValuesSHBG shbg ON shbg.FK_Patient_Link_ID = m.FK_Patien
 LEFT OUTER JOIN #PatientDiagnosesCOPD copd ON copd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesASTHMA asthma ON asthma.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesSEVEREMENTALILLNESS smi ON smi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientMedications pm ON pm.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientMedications pm ON pm.FK_Patient_Link_ID = m.FK_Patient_Link_ID;
