@@ -4,7 +4,7 @@
 
 -- Cohort is diabetic patients with a positive covid test
 
---> EXECUTE load-code-sets.sql hba1c
+--> CODESET hba1c
 
 -- Get all covid positive patients as this is the population of the matched cohort
 IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;

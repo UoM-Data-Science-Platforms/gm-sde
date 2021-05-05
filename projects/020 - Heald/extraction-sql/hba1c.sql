@@ -1,9 +1,3 @@
---┌────────────┐
---│ HbA1c file │
---└────────────┘
-
--- Cohort is diabetic patients with a positive covid test
-
 --
 --┌────────────────────┐
 --│ Clinical code sets │
@@ -165,7 +159,13 @@ INNER JOIN (
   SELECT concept, MAX(version) AS maxVersion FROM #VersionedSnomedSets
   GROUP BY concept)
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
+--┌────────────┐
+--│ HbA1c file │
+--└────────────┘
 
+-- Cohort is diabetic patients with a positive covid test
+
+-- >>> Following codesets injected: hba1c
 
 -- Get all covid positive patients as this is the population of the matched cohort
 IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
