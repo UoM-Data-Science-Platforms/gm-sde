@@ -12,7 +12,7 @@
 -- PatientId, MainCohortMatchedPatientId (NULL if patient in main cohort), YearOfBirth, DeathDate,
 -- Sex, LSOA, EthnicCategoryDescription, TownsendScoreHigherIsMoreDeprived, TownsendQuintileHigherIsMoreDeprived,
 -- COHORT SPECIFIC
--- FirstDiagnosisDate, FirstT1DiagnosisDate, FirstT2DiagnosisDate, COVIDPositiveTestDate
+-- FirstDiagnosisDate, FirstT1DiagnosisDate, FirstT2DiagnosisDate, COVIDPositiveTestDate, FirstAdmissionPostCOVIDTest, LengthOfStay,
 -- BIOMARKERS
 -- LatestBMIValue, LatestHBA1CValue, LatestCHOLESTEROLValue, LatestLDLValue, LatestHDLValue,
 -- LatestVITAMINDValue, LatestTESTOSTERONEValue, LatestSHBGValue
@@ -76,7 +76,6 @@ FROM #CovidPatients;
 --> EXECUTE query-patient-sex.sql
 --> EXECUTE query-patient-lsoa.sql
 --> EXECUTE query-patient-townsend.sql
---> EXECUTE query-get-admissions-and-length-of-stay.sql
 
 -- Define the main cohort that will be matched
 IF OBJECT_ID('tempdb..#MainCohort') IS NOT NULL DROP TABLE #MainCohort;
@@ -133,6 +132,23 @@ IF OBJECT_ID('tempdb..#PatientIdsAndIndexDates') IS NOT NULL DROP TABLE #Patient
 SELECT PatientId AS FK_Patient_Link_ID, IndexDate INTO #PatientIdsAndIndexDates FROM #CohortStore
 UNION
 SELECT MatchingPatientId, MatchingCovidPositiveDate FROM #CohortStore;
+
+--> EXECUTE query-get-admissions-and-length-of-stay.sql
+
+-- For each patient find the first hospital admission following their positive covid test
+IF OBJECT_ID('tempdb..#PatientsFirstAdmissionPostTest') IS NOT NULL DROP TABLE #PatientsFirstAdmissionPostTest;
+SELECT l.FK_Patient_Link_ID, MAX(l.AdmissionDate) AS FirstAdmissionPostCOVIDTest, MAX(LengthOfStay) AS LengthOfStay
+INTO #PatientsFirstAdmissionPostTest
+FROM #LengthOfStay l
+INNER JOIN (
+  SELECT p.FK_Patient_Link_ID, MIN(AdmissionDate) AS FirstAdmission
+  FROM #PatientIdsAndIndexDates p
+  LEFT OUTER JOIN #LengthOfStay los
+    ON los.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+    AND los.AdmissionDate >= p.IndexDate
+  GROUP BY p.FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND sub.FirstAdmission = l.AdmissionDate
+GROUP BY l.FK_Patient_Link_ID;
 
 --> CODESET bmi hba1c cholesterol ldl-cholesterol hdl-cholesterol vitamin-d testosterone sex-hormone-binding-globulin
 IF OBJECT_ID('tempdb..#PatientValuesWithIds') IS NOT NULL DROP TABLE #PatientValuesWithIds;
@@ -377,6 +393,8 @@ SELECT
   FirstT1DiagnosisDate,
   FirstT2DiagnosisDate,
   IndexDate AS COVIDPositiveTestDate,
+  FirstAdmissionPostCOVIDTest,
+  LengthOfStay,
   EthnicCategoryDescription,
   LatestBMIValue,
   LatestHBA1CValue,
@@ -408,6 +426,7 @@ LEFT OUTER JOIN #PatientDiagnosesCOPD copd ON copd.FK_Patient_Link_ID = m.FK_Pat
 LEFT OUTER JOIN #PatientDiagnosesASTHMA asthma ON asthma.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesSEVEREMENTALILLNESS smi ON smi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientMedications pm ON pm.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientsFirstAdmissionPostTest fa ON fa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 UNION
 --Patients in matched cohort
 SELECT 
@@ -423,6 +442,8 @@ SELECT
   NULL AS FirstT1DiagnosisDate,
   NULL AS FirstT2DiagnosisDate,
   IndexDate AS COVIDPositiveTestDate,
+  FirstAdmissionPostCOVIDTest,
+  LengthOfStay,
   EthnicCategoryDescription,
   LatestBMIValue,
   LatestHBA1CValue,
@@ -452,4 +473,5 @@ LEFT OUTER JOIN #PatientValuesSHBG shbg ON shbg.FK_Patient_Link_ID = m.FK_Patien
 LEFT OUTER JOIN #PatientDiagnosesCOPD copd ON copd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesASTHMA asthma ON asthma.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesSEVEREMENTALILLNESS smi ON smi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientMedications pm ON pm.FK_Patient_Link_ID = m.FK_Patient_Link_ID;
+LEFT OUTER JOIN #PatientMedications pm ON pm.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientsFirstAdmissionPostTest fa ON fa.FK_Patient_Link_ID = m.FK_Patient_Link_ID;
