@@ -1,3 +1,13 @@
+## Index
+
+- [Overview](../README.md)
+- [Data description](index.md)
+- [Current projects](current-projects.md)
+- [Clinical code sets](clinical-code-sets.md)
+- [Additional technical information](additional-technical-information.md)
+  - [Research Data Engineer process](process-for-research-data-engineers.md)
+  - **SQL GENERATION PROCESS**
+
 # SQL generation for data extracts
 
 The SQL required for data extracts should be generated from templates rather than created freehand. This has two main advantages:

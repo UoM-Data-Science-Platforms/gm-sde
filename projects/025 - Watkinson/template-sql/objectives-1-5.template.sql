@@ -37,7 +37,7 @@ WHERE (DeathDate IS NULL OR DeathDate >= @StartDate);
 
 -- Find all patients registered with a GP
 IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
-SELECT FK_Patient_Link_ID INTO #PatientsWithGP FROM [RLS].vw_Patient
+SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [RLS].vw_Patient
 where FK_Reference_Tenancy_ID = 2;
 
 -- Make cohort from patients alive at start date and registered with a GP

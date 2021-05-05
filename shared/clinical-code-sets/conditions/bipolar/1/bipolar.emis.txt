@@ -1,0 +1,2 @@
+EMISICD10|F3800	Other single mood affective disorders, mixed affective episode
+EMISICD10|F3810	Other recurrent mood affective disorders, recurrent brief depressive disorder

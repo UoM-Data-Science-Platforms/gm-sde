@@ -1,0 +1,50 @@
+E113.00	Recurrent major depressive episode
+E113000	Recurrent major depressive episodes, unspecified
+E113100	Recurrent major depressive episodes, mild
+E113200	Recurrent major depressive episodes, moderate
+E113300	Recurrent major depressive episodes, severe, without mention of psychosis
+E113400	Recurrent major depressive episodes, severe, with psychosis
+E113500	Recurrent major depressive episodes, in partial or unspecified remission
+E113600	Recurrent major depressive episodes, in full remission
+E113700	Recurrent depression
+E113z00	Recurrent major depressive episode NOS
+E130.00	Reactive depressive psychosis
+E130.00	Psychotic reactive depression
+Eu32200	[X]Severe depressive episode without psychotic symptoms
+Eu32300	[X]Severe depressive episode with psychotic symptoms
+Eu32500	[X]Major depression, mild
+Eu32600	[X]Major depression, moderately severe
+Eu32700	[X]Major depression, severe without psychotic symptoms
+Eu32800	[X]Major depression, severe with psychotic symptoms
+Eu32A00	[X]Recurrent major depressive episodes, severe, with psychosis, psychosis in remission
+Eu33212	[X]Major depression, recurrent without psychotic symptoms
+Eu33000	[X]Recurrent depressive disorder, current episode mild
+Eu33100	[X]Recurrent depressive disorder, current episode moderate
+Eu33200	[X]Recurrent depressive disorder, current episode severe without psychotic symptoms
+Eu33300	[X]Recurrent depressive disorder, current episode severe with psychotic symptoms
+Eu33400	[X]Recurrent depressive disorder, currently in remission
+Eu33y00	[X]Other recurrent depressive disorders
+Eu33z00	[X]Recurrent depressive disorder, unspecified
+E113100	Recurrent major depressive episodes, mild
+E113200	Recurrent major depressive episodes, moderate
+E113300	Recurrent major depressive episodes, severe, no psychosis
+E113400	Recurrent major depressive episodes, severe, with psychosis
+E113500	Recurrent major depressive episodes,partial/unspec remission
+E113600	Recurrent major depressive episodes, in full remission
+E115400	Bipolar affective disorder, currently depressed, severe, with psychosis
+Eu33200	[X]Recurrent depressive disorder, current episode severe without psychotic symptoms
+Eu33200	[X]Endogenous depression without psychotic symptoms
+Eu33200	[X]Major depression, recurrent without psychotic symptoms
+Eu33200	[X]Manic-depressive psychosis, depressed type without psychotic symptoms
+Eu33200	[X]Vital depression, recurrent without psychotic symptoms
+Eu33300	[X]Recurrent depressive disorder, current episode severe with psychotic symptoms
+Eu33300	[X]Endogenous depression with psychotic symptoms
+Eu33300	[X]Manic-depressive psychosis, depressed type with psychotic symptoms
+Eu33300	[X]Recurrent severe episodes of major depression with psychotic symptoms
+Eu33300	[X]Recurrent severe episodes of psychogenic depressive psychosis
+Eu33300	[X]Recurrent severe episodes of psychotic depression
+Eu33300	[X]Recurrent severe episodes of reactive depressive psychosis
+Eu33400	[X]Recurrent depressive disorder, currently in remission
+Eu33y00	[X]Other recurrent depressive disorders
+Eu33z00	[X]Recurrent depressive disorder, unspecified
+Eu33z00	[X]Monopolar depression NOS

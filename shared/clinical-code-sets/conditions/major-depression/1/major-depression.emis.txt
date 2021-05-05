@@ -1,0 +1,4 @@
+EMISICD10|F3300	Recurrent depressive disorder, current episode mild, without somatic syndrome
+EMISICD10|F3301	Recurrent depressive disorder, current episode mild, with somatic syndrome
+EMISICD10|F3310	Recurrent depressive disorder, current episode moderate, without somatic syndrome
+EMISICD10|F3311	Recurrent depressive disorder, current episode moderate, with somatic syndrome
