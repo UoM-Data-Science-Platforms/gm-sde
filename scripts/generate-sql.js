@@ -1,5 +1,6 @@
 const { readFileSync, readdirSync, writeFileSync } = require('fs');
-const { join } = require('path');
+const { join, basename } = require('path');
+const { createCodeSetSQL, checkCodeSetExists } = require('./code-sets');
 
 const EXTRACTION_SQL_DIR = 'extraction-sql';
 const TEMPLATE_SQL_DIR = 'template-sql';
@@ -55,27 +56,116 @@ function generateSql(project, templates) {
   const OUTPUT_DIRECTORY = join(project, EXTRACTION_SQL_DIR);
   templates.forEach((templateName) => {
     const filename = join(project, TEMPLATE_SQL_DIR, templateName);
-    const sql = processFile(filename);
+    const { sql, codesets } = processFile(filename);
+    let codesetSql = codesets.length > 0 ? createCodeSetSQL(codesets) : '';
     const outputName = templateName.replace('.template', '');
 
-    writeFileSync(join(OUTPUT_DIRECTORY, outputName), sql);
+    writeFileSync(join(OUTPUT_DIRECTORY, outputName), codesetSql + sql);
   });
 }
 
-function processFile(filename) {
+function processParams(line, params) {
+  const parameters = {};
+  params.forEach((param) => {
+    if (!param.match(/^[^ :]+:[^ :]+$/)) {
+      console.log('The following line has invalid parameters:');
+      console.log(line);
+      console.log('They should appear as follows:');
+      console.log('--> EXECUTE query.sql param-1-name:param1value param-2-name:param2value');
+      process.exit();
+    }
+    const [name, value] = param.split(':');
+    parameters[name] = value;
+  });
+  return parameters;
+}
+
+function processFile(filename, requiredCodeSets = [], alreadyProcessed = {}, parameters) {
+  alreadyProcessed[filename] = true;
   const sqlLines = readFileSync(filename, 'utf8').split('\n');
   const generatedSql = sqlLines
     .map((line) => {
-      if (line.trim().match(/^--> EXECUTE.+\.sql/)) {
-        const sqlFileToInsert = line.trim().split(' ').slice(-1)[0];
-        const sqlToInsert = processFile(join(REUSABLE_DIRECTORY, sqlFileToInsert));
+      if (line.trim().match(/^--> CODESETS? /)) {
+        const codeSets = line
+          .replace(/^--> CODESETS? +/, '')
+          .trim()
+          .split(' ');
+        const foundCodeSets = codeSets.filter((codeset) => checkCodeSetExists(codeset));
+        const notFoundCodeSets = codeSets.filter((codeset) => !checkCodeSetExists(codeset));
+
+        if (notFoundCodeSets.length > 0) {
+          console.log('The following line has invalid codesets:');
+          console.log(line);
+          console.log(
+            `The codeset(s): ${notFoundCodeSets.join(
+              '/'
+            )} do not appear in the clinical-code-sets directory`
+          );
+          process.exit();
+        }
+        requiredCodeSets = requiredCodeSets.concat(foundCodeSets);
+        return `-- >>> Following codesets injected: ${foundCodeSets.join('/')}`;
+      } else if (line.trim().match(/^--> EXECUTE/)) {
+        const [sqlFileToInsert, ...params] = line
+          .replace(/^--> EXECUTE +/, '')
+          .trim()
+          .split(' ');
+        if (sqlFileToInsert === 'load-code-sets.sql') {
+          // special case for load-code-sets
+          console.log('Your code calls:');
+          console.log('--> EXECUTE load-code-sets.sql');
+          console.log(
+            'This is the old way of doing things. Please remove this line and replace it with one or more lines as follows:'
+          );
+          console.log('--> CODESET [space separated list of code sets required]');
+          console.log('');
+          console.log('E.g. --> CODESET diabetes-type-i hba1c smoking-status');
+          process.exit();
+        }
+        const fileToInject = join(REUSABLE_DIRECTORY, sqlFileToInsert);
+        if (alreadyProcessed[fileToInject]) {
+          return `-- >>> Ignoring following query as already injected: ${sqlFileToInsert}`;
+        }
+        if (params && params.length > 0) {
+          const processedParameters = processParams(line, params);
+          const { sql: sqlToInsert, codesets } = processFile(
+            fileToInject,
+            requiredCodeSets,
+            alreadyProcessed,
+            processedParameters
+          );
+          requiredCodeSets = codesets;
+          return sqlToInsert;
+        }
+        const { sql: sqlToInsert, codesets } = processFile(
+          fileToInject,
+          requiredCodeSets,
+          alreadyProcessed
+        );
+        requiredCodeSets = codesets;
         return sqlToInsert;
       } else {
+        const possibleParamRegex = new RegExp('{param:([^}]+)}');
+        let possibleParamMatch = line.match(possibleParamRegex);
+        while (possibleParamMatch) {
+          const paramName = possibleParamMatch[1];
+          if (!parameters[paramName] && parameters[paramName] !== 0) {
+            console.log(
+              `The file ${basename(filename)} requires a value for the parameter: ${paramName}`
+            );
+            console.log('However this is not provided. You should call it like this:');
+            console.log(`--> EXECUTE ${basename(filename)} ${paramName}:value`);
+            process.exit();
+          }
+          const reg = new RegExp(`{param:${paramName}}`, 'g');
+          line = line.replace(reg, parameters[paramName]);
+          possibleParamMatch = line.match(possibleParamRegex);
+        }
         return line;
       }
     })
     .join('\n');
-  return generatedSql;
+  return { sql: generatedSql, codesets: requiredCodeSets };
 }
-
+//stitch(join(__dirname, '..', 'projects', '020 - Heald'));
 module.exports = { stitch };

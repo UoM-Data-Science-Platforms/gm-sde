@@ -1,5 +1,5 @@
 const chalk = require('chalk');
-const { readdirSync, readFileSync, writeFileSync, mkdirSync } = require('fs');
+const { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } = require('fs');
 const { join } = require('path');
 const { log, warn, setSilence } = require('./log');
 
@@ -29,6 +29,19 @@ Please fill out the code sets in:
 
 ${VERSION_DIR}
 `);
+};
+
+/**
+ * Method to check that a code set exists
+ */
+const checkCodeSetExists = (codeSetName) => {
+  const codeSetTypes = getClinicalCodeSetTypes();
+  for (let i = 0; i < codeSetTypes.length; i++) {
+    if (existsSync(join(CODE_SET_PARENT_DIR, codeSetTypes[i], codeSetName))) {
+      return true;
+    }
+  }
+  return false;
 };
 
 /**
@@ -95,7 +108,7 @@ If there are minor issues they will appear above this message.
 /**
  * Method to create the reusable clinical code set SQL file
  */
-const createCodeSetSQL = () => {
+const createCodeSetSQL = (conditions = []) => {
   setSilence(true);
   evaulateCodeSets();
 
@@ -145,6 +158,7 @@ CREATE TABLE #codes${terminology} (
 ) ON [PRIMARY];
 
 ${Object.keys(clinicalCodesByTerminology[terminology])
+  .filter((concept) => conditions.length === 0 || conditions.indexOf(concept) > -1)
   .map((concept) =>
     Object.keys(clinicalCodesByTerminology[terminology][concept])
       .map((version) =>
@@ -263,19 +277,7 @@ INNER JOIN (
   GROUP BY concept)
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 `;
-  const filename = join(
-    __dirname,
-    '..',
-    'shared',
-    'Reusable queries for data extraction',
-    'load-code-sets.sql'
-  );
-  writeFileSync(filename, SQL);
-
-  log(`
-Unless there were errors, the code set SQL file has been written to:
-${filename}
-`);
+  return SQL;
 };
 
 function processFiles(codeSetType, codeSetName, version) {
@@ -569,4 +571,5 @@ module.exports = {
   getClinicalCodeSets,
   isValidCodeSet,
   createCodeSet,
+  checkCodeSetExists,
 };
