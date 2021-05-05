@@ -1,12 +1,3 @@
-E112.00	Single major depressive episode
-E112000	Single major depressive episode, unspecified
-E112100	Single major depressive episode, mild
-E112200	Single major depressive episode, moderate
-E112300	Single major depressive episode, severe, without mention of psychosis
-E112400	Single major depressive episode, severe, with psychosis
-E112500	Single major depressive episode, in partial or unspecified remission
-E112600	Single major depressive episode, in full remission
-E112z00	Single major depressive episode NOS
 E113.00	Recurrent major depressive episode
 E113000	Recurrent major depressive episodes, unspecified
 E113100	Recurrent major depressive episodes, mild
@@ -20,14 +11,11 @@ E113z00	Recurrent major depressive episode NOS
 E130.00	Reactive depressive psychosis
 E130.00	Psychotic reactive depression
 Eu32200	[X]Severe depressive episode without psychotic symptoms
-Eu32212	[X]Single episode major depression without psychotic symptoms
 Eu32300	[X]Severe depressive episode with psychotic symptoms
-Eu32311	[X]Single episode of major depression with psychotic symptoms
 Eu32500	[X]Major depression, mild
 Eu32600	[X]Major depression, moderately severe
 Eu32700	[X]Major depression, severe without psychotic symptoms
 Eu32800	[X]Major depression, severe with psychotic symptoms
-Eu32900	[X]Single major depressive episode, severe, with psychosis, psychosis in remission
 Eu32A00	[X]Recurrent major depressive episodes, severe, with psychosis, psychosis in remission
 Eu33212	[X]Major depression, recurrent without psychotic symptoms
 Eu33000	[X]Recurrent depressive disorder, current episode mild
@@ -43,6 +31,7 @@ E113300	Recurrent major depressive episodes, severe, no psychosis
 E113400	Recurrent major depressive episodes, severe, with psychosis
 E113500	Recurrent major depressive episodes,partial/unspec remission
 E113600	Recurrent major depressive episodes, in full remission
+E115400	Bipolar affective disorder, currently depressed, severe, with psychosis
 Eu33200	[X]Recurrent depressive disorder, current episode severe without psychotic symptoms
 Eu33200	[X]Endogenous depression without psychotic symptoms
 Eu33200	[X]Major depression, recurrent without psychotic symptoms
