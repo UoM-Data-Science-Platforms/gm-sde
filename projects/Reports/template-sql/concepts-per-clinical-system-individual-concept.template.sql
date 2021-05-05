@@ -20,10 +20,10 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
---> EXECUTE load-code-sets.sql
+
 --> EXECUTE query-practice-systems-lookup.sql
 
-
+--> CODESET insert-concept-here
 DECLARE @concept varchar(255);
 SET @concept = 'insert-concept-here';
 
