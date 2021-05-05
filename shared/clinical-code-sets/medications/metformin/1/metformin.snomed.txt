@@ -1,0 +1,53 @@
+109081006	Metformin product
+109083009	Metformin hydrochloride (substance)
+1097191000000106	Metformin therapy (procedure)
+325278007	Product containing precisely metformin hydrochloride 500 milligram/1 each conventional release oral tablet
+325279004	Product containing precisely metformin hydrochloride 850 milligram/1 each conventional release oral tablet (clinical drug)
+372567009	Metformin
+376701008	Product containing precisely metformin hydrochloride 1 gram/1 each conventional release oral tablet
+409120009	Metformin and rosiglitazone product
+409121008	Product containing precisely metformin hydrochloride 500 milligram and rosiglitazone (as rosiglitazone maleate) 1 milligram/1 each conventional release oral tablet (clinical drug)
+409122001	Metformin hydrochloride 500 mg and rosiglitazone (as rosiglitazone maleate) 2 mg oral tablet
+409123006	Product containing precisely metformin hydrochloride 500 milligram and rosiglitazone maleate 4 milligram/1 each conventional release oral tablet (clinical drug)
+409124000	Metformin hydrochloride 1 g and rosiglitazone (as rosiglitazone maleate) 2 mg oral tablet
+409125004	Product containing precisely metformin hydrochloride 1 gram and rosiglitazone (as rosiglitazone maleate) 4 milligram/1 each conventional release oral tablet
+409187009	Product containing precisely glibenclamide 1.25 milligram and metformin hydrochloride 250 milligram/1 each conventional release oral tablet
+409188004	Glibenclamide 2.5 mg and metformin hydrochloride 500 mg oral tablet
+409189007	Product containing precisely glibenclamide 5 milligram and metformin hydrochloride 500 milligram/1 each conventional release oral tablet
+409197000	Product containing precisely metformin hydrochloride 100 milligram/1 milliliter conventional release oral solution
+409363003	Product containing precisely glipizide 2.5 milligram and metformin hydrochloride 250 milligram/1 each conventional release oral tablet (clinical drug)
+409364009	Product containing precisely glipizide 2.5 milligram and metformin hydrochloride 500 milligram/1 each conventional release oral tablet
+409365005	Product containing precisely glipizide 5 milligram and metformin hydrochloride 500 milligram/1 each conventional release oral tablet
+409366006	Product containing precisely metformin hydrochloride 625 milligram/1 each conventional release oral tablet (clinical drug)
+418835009	Metformin and pioglitazone product
+419575000	Product containing precisely metformin hydrochloride 500 milligram and pioglitazone hydrochloride 15 milligram/1 each conventional release oral tablet
+419873003	Metformin hydrochloride 850 mg and pioglitazone (as pioglitazone hydrochloride) 15 mg oral tablet
+425651000	Product containing precisely metformin hydrochloride 1 gram and sitagliptin phosphate 50 milligram/1 each conventional release oral tablet
+426046000	Product containing precisely metformin hydrochloride 500 milligram and sitagliptin phosphate 50 milligram/1 each conventional release oral tablet (clinical drug)
+427522005	Metformin and sitagliptin product
+438340003	Metformin and repaglinide product
+441011003	Product containing precisely metformin hydrochloride 500 milligram and repaglinide 2 milligram/1 each conventional release oral tablet
+441071009	Product containing precisely metformin hydrochloride 500 milligram and repaglinide 1 milligram/1 each conventional release oral tablet (clinical drug)
+448802007	Metformin hydrochloride 1000mg + Saxagliptin 2.5mg extended release tablet
+448832004	Metformin hydrochloride 500mg + Saxagliptin 5mg extended release tablet
+448833009	Metformin hydrochloride 1000mg + Saxagliptin 5mg extended release tablet
+714599005	Product containing metformin in oral dosage form
+714686000	Empagliflozin and metformin product
+714779001	Canagliflozin and metformin product
+714780003	Product containing canagliflozin and metformin in oral dosage form
+715702002	Linagliptin and metformin product
+715703007	Linagliptin and metformin in oral dosage form
+734558009	Metformin pamoate (substance)
+765507008	Metformin hydrochloride 500 mg prolonged-release oral tablet
+765550003	Product containing precisely metformin hydrochloride 1 gram/1 each prolonged-release oral tablet
+765582000	Pioglitazone 30mg + metformin 1g prolonged-release oral tablet
+765681004	Pioglitazone 15mg + metformin 1g prolonged-release oral tablet (product)
+765703005	Product containing precisely metformin hydrochloride 750 milligram/1 each prolonged-release oral tablet (clinical drug)
+768156002	Product containing metformin and rosiglitazone in oral dosage form (medicinal product form)
+768291001	Product containing metformin and pioglitazone in oral dosage form
+768500006	Glyburide and metformin product
+768501005	Glibenclamide and metformin in oral dosage form
+768506000	Product containing glipizide and metformin
+768507009	Glipizide and metformin in oral dosage form
+768920004	Product containing metformin and sitagliptin in oral dosage form
+768921000	Metformin and repaglinide in oral dosage form

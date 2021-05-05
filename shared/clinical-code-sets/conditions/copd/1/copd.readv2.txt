@@ -1,0 +1,56 @@
+8H2R.00	Admit COPD emergency
+9kf0.11	Chronic obstructive pulmonary disease patient unsuitable for pulmonary rehabilitation
+H3...00	Chronic obstructive pulmonary disease
+H3...11	Chronic obstructive airways disease
+H31..00	Chronic bronchitis
+H310.00	Simple chronic bronchitis
+H310000	Chronic catarrhal bronchitis
+H310z00	Simple chronic bronchitis NOS
+H311.00	Mucopurulent chronic bronchitis
+H311000	Purulent chronic bronchitis
+H311100	Fetid chronic bronchitis
+H311z00	Mucopurulent chronic bronchitis NOS
+H312.00	Obstructive chronic bronchitis
+H312000	Chronic asthmatic bronchitis
+H312011	Chronic wheezy bronchitis
+H312100	Emphysematous bronchitis
+H312200	Acute exacerbation of chronic obstructive airways disease
+H312300	Bronchiolitis obliterans
+H312z00	Obstructive chronic bronchitis NOS
+H313.00	Mixed simple and mucopurulent chronic bronchitis
+H31y.00	Other chronic bronchitis
+H31y100	Chronic tracheobronchitis
+H31yz00	Other chronic bronchitis NOS
+H31z.00	Chronic bronchitis NOS
+H32..00	Emphysema
+H320.00	Chronic bullous emphysema
+H320000	Segmental bullous emphysema
+H320100	Zonal bullous emphysema
+H320200	Giant bullous emphysema
+H320300	Bullous emphysema with collapse
+H320z00	Chronic bullous emphysema NOS
+H321.00	Panlobular emphysema
+H322.00	Centrilobular emphysema
+H32y.00	Other emphysema
+H32y000	Acute vesicular emphysema
+H32y100	Atrophic (senile) emphysema
+H32y200	MacLeod's unilateral emphysema
+H32yz00	Other emphysema NOS
+H32z.00	Emphysema NOS
+H36..00	Mild chronic obstructive pulmonary disease
+H37..00	Moderate chronic obstructive pulmonary disease
+H38..00	Severe chronic obstructive pulmonary disease
+H39..00	Very severe chronic obstructive pulmonary disease
+H3A..00	End stage chronic obstructive airways disease
+H3B..00	Asthma-chronic obstructive pulmonary disease overlap syndrome
+H3y..00	Other specified chronic obstructive airways disease
+H3y..11	Other specified chronic obstructive pulmonary disease
+H3y0.00	Chronic obstructive pulmonary disease with acute lower respiratory infection
+H3y1.00	Chronic obstructive pulmonary disease with acute exacerbation, unspecified
+H3z..00	Chronic obstructive airways disease NOS
+H3z..11	Chronic obstructive pulmonary disease NOS
+H464000	Chronic emphysema due to chemical fumes
+H464100	Obliterative bronchiolitis due to chemical fumes
+H583200	Eosinophilic bronchitis
+Hyu3000	[X]Other emphysema
+Hyu3100	[X]Other specified chronic obstructive pulmonary disease

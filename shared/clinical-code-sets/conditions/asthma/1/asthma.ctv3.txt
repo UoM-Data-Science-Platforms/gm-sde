@@ -1,0 +1,56 @@
+14B4.	H/O: asthma
+8H2P.	Emergency admission, asthma
+H33..	Asthma
+173A.	Exercise-induced asthma
+H330.	Asthma: [extrins - atop][allerg][pollen][childh][+ hay fev]
+H3300	(Hay fever + asthma) or (extr asthma without status asthmat)
+H331.	(Intrinsic asthma) or (late onset asthma)
+H332.	Mixed asthma
+H33z.	Asthma unspecified
+XE0YX	Asthma NOS
+H33z0	(Severe asthma attack) or (status asthmaticus NOS)
+H33zz	(Asthma:[exerc ind][allerg NEC][NOS]) or (allerg bronch NEC)
+Ua1AX	Brittle asthma
+X101t	Childhood asthma
+X101u	Late onset asthma
+X101x	Allergic asthma
+XE0YQ	Allergic atopic asthma
+XE0ZP	Extrinsic asthma - atopy (& pollen)
+X1021	Allergic non-atopic asthma
+H330z	Extrinsic asthma NOS
+X101y	Extrinsic asthma with asthma attack
+X101z	Allergic asthma NEC
+XE0YR	Extrinsic asthma without status asthmaticus
+XE0YS	Extrinsic asthma with status asthmaticus
+X1023	Drug-induced asthma
+XaJFG	Aspirin-induced asthma
+X1024	Aspirin-sensitive asthma with nasal polyps
+X1025	Occupational asthma
+H47y0	Detergent asthma
+X1026	Baker's asthma
+X1027	Colophony asthma
+X1028	Grain worker's asthma
+X1029	Sulphite-induced asthma
+XE0YT	Non-allergic asthma
+H3310	Intrinsic asthma without status asthmaticus
+H331z	Intrinsic asthma NOS
+X1022	Intrinsic asthma with asthma attack
+XE0YU	Intrinsic asthma with status asthmaticus
+H3311	Intrins asthma with: [asthma attack] or [status asthmaticus]
+XE0YW	Asthma attack
+XM0s2	Asthma attack NOS
+H3301	Extrins asthma with: [asthma attack] or [status asthmaticus]
+H33z1	Asthma attack (& NOS)
+XE0ZR	Asthma: [intrinsic] or [late onset]
+XE0ZT	Asthma: [NOS] or [attack]
+Xa0lZ	Asthmatic bronchitis
+H3120	Chronic asthmatic bronchitis
+Xa1hD	Exacerbation of asthma
+Xa9zf	Acute asthma
+X102D	Status asthmaticus
+XE0YV	Status asthmaticus NOS
+XaKdk	Work aggravated asthma
+XaLPE	Nocturnal asthma
+Xaa7B	Chronic asthma with fixed airflow obstruction
+XaIuG	Asthma confirmed
+Xac33	Asthma-chronic obstructive pulmonary disease overlap syndrom

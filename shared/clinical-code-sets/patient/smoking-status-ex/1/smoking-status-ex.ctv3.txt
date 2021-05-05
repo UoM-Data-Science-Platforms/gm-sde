@@ -1,0 +1,19 @@
+1378.	Ex-light smoker (1-9/day)
+1379.	Ex-moderate smoker (10-19/day)
+137A.	Ex-heavy smoker (20-39/day)
+137B.	Ex-very heavy smoker (40+/day)
+137F.	Ex-smoker - amount unknown
+137K.	Stopped smoking
+137N.	Ex-pipe smoker
+137O.	Ex-cigar smoker
+137T.	Date ceased smoking
+Ub1na	Ex-smoker
+Xa1bv	Ex-cigarette smoker
+XaIr7	Smoking free weeks
+XaKlS	[V]PH of tobacco abuse
+XaQ8V	Ex roll-up cigarette smoker
+XaQzw	Recently stopped smoking
+XE0ok	Ex-light cigaret smok, 1-9/day
+XE0ol	Ex-mod cigaret smok, 10-19/day
+XE0om	Ex-heav cigaret smok,20-39/day
+XE0on	Ex-very hv cigaret smk,40+/day

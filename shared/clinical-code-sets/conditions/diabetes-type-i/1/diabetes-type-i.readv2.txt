@@ -1,0 +1,144 @@
+C100000	Diabetes mellitus, juvenile type, with no mention of complication
+C100011	Insulin dependent diabetes mellitus
+C101000	Diabetes mellitus, juvenile type, with ketoacidosis
+C102000	Diabetes mellitus, juvenile type, with hyperosmolar coma
+C103000	Diabetes mellitus, juvenile type, with ketoacidotic coma
+C104000	Diabetes mellitus, juvenile type, with renal manifestation
+C105000	Diabetes mellitus, juvenile type, with ophthalmic manifestation
+C106000	Diabetes mellitus, juvenile type, with neurological manifestation
+C107000	Diabetes mellitus, juvenile type, with peripheral circulatory disorder
+C108.00	Insulin dependent diabetes mellitus
+C108.11	IDDM-Insulin dependent diabetes mellitus
+C108.12	Type 1 diabetes mellitus
+C108.13	Type I diabetes mellitus
+C108000	Insulin-dependent diabetes mellitus with renal complications
+C108011	Type I diabetes mellitus with renal complications
+C108012	Type 1 diabetes mellitus with renal complications
+C108100	Insulin-dependent diabetes mellitus with ophthalmic complications
+C108111	Type I diabetes mellitus with ophthalmic complications
+C108112	Type 1 diabetes mellitus with ophthalmic complications
+C108200	Insulin-dependent diabetes mellitus with neurological complications
+C108211	Type I diabetes mellitus with neurological complications
+C108212	Type 1 diabetes mellitus with neurological complications
+C108300	Insulin dependent diabetes mellitus with multiple complications
+C108311	Type I diabetes mellitus with multiple complications
+C108312	Type 1 diabetes mellitus with multiple complications
+C108400	Unstable insulin dependent diabetes mellitus
+C108411	Unstable type I diabetes mellitus
+C108412	Unstable type 1 diabetes mellitus
+C108500	Insulin dependent diabetes mellitus with ulcer
+C108511	Type I diabetes mellitus with ulcer
+C108512	Type 1 diabetes mellitus with ulcer
+C108600	Insulin dependent diabetes mellitus with gangrene
+C108611	Type I diabetes mellitus with gangrene
+C108612	Type 1 diabetes mellitus with gangrene
+C108700	Insulin dependent diabetes mellitus with retinopathy
+C108711	Type I diabetes mellitus with retinopathy
+C108712	Type 1 diabetes mellitus with retinopathy
+C108800	Insulin dependent diabetes mellitus - poor control
+C108811	Type I diabetes mellitus - poor control
+C108812	Type 1 diabetes mellitus - poor control
+C108900	Insulin dependent diabetes maturity onset
+C108911	Type I diabetes mellitus maturity onset
+C108912	Type 1 diabetes mellitus maturity onset
+C108A00	Insulin-dependent diabetes without complication
+C108A11	Type I diabetes mellitus without complication
+C108A12	Type 1 diabetes mellitus without complication
+C108B00	Insulin dependent diabetes mellitus with mononeuropathy
+C108B11	Type I diabetes mellitus with mononeuropathy
+C108B12	Type 1 diabetes mellitus with mononeuropathy
+C108C00	Insulin dependent diabetes mellitus with polyneuropathy
+C108C11	Type I diabetes mellitus with polyneuropathy
+C108C12	Type 1 diabetes mellitus with polyneuropathy
+C108D00	Insulin dependent diabetes mellitus with nephropathy
+C108D11	Type I diabetes mellitus with nephropathy
+C108D12	Type 1 diabetes mellitus with nephropathy
+C108E00	Insulin dependent diabetes mellitus with hypoglycaemic coma
+C108E11	Type I diabetes mellitus with hypoglycaemic coma
+C108E12	Type 1 diabetes mellitus with hypoglycaemic coma
+C108F00	Insulin dependent diabetes mellitus with diabetic cataract
+C108F11	Type I diabetes mellitus with diabetic cataract
+C108F12	Type 1 diabetes mellitus with diabetic cataract
+C108G00	Insulin dependent diabetes mellitus with peripheral angiopathy
+C108G11	Type I diabetes mellitus with peripheral angiopathy
+C108G12	Type 1 diabetes mellitus with peripheral angiopathy
+C108H00	Insulin dependent diabetes mellitus with arthropathy
+C108H11	Type I diabetes mellitus with arthropathy
+C108H12	Type 1 diabetes mellitus with arthropathy
+C108J00	Insulin dependent diabetes mellitus with neuropathic arthropathy
+C108J11	Type I diabetes mellitus with neuropathic arthropathy
+C108J12	Type 1 diabetes mellitus with neuropathic arthropathy
+C10E.00	Type 1 diabetes mellitus
+C10E.11	Type I diabetes mellitus
+C10E.12	Insulin dependent diabetes mellitus
+C10E000	Type 1 diabetes mellitus with renal complications
+C10E011	Type I diabetes mellitus with renal complications
+C10E012	Insulin-dependent diabetes mellitus with renal complications
+C10E100	Type 1 diabetes mellitus with ophthalmic complications
+C10E111	Type I diabetes mellitus with ophthalmic complications
+C10E112	Insulin-dependent diabetes mellitus with ophthalmic complications
+C10E200	Type 1 diabetes mellitus with neurological complications
+C10E211	Type I diabetes mellitus with neurological complications
+C10E212	Insulin-dependent diabetes mellitus with neurological complications
+C10E300	Type 1 diabetes mellitus with multiple complications
+C10E311	Type I diabetes mellitus with multiple complications
+C10E312	Insulin dependent diabetes mellitus with multiple complications
+C10E400	Unstable type 1 diabetes mellitus
+C10E411	Unstable type I diabetes mellitus
+C10E412	Unstable insulin dependent diabetes mellitus
+C10E500	Type 1 diabetes mellitus with ulcer
+C10E511	Type I diabetes mellitus with ulcer
+C10E512	Insulin dependent diabetes mellitus with ulcer
+C10E600	Type 1 diabetes mellitus with gangrene
+C10E611	Type I diabetes mellitus with gangrene
+C10E612	Insulin dependent diabetes mellitus with gangrene
+C10E700	Type 1 diabetes mellitus with retinopathy
+C10E711	Type I diabetes mellitus with retinopathy
+C10E712	Insulin dependent diabetes mellitus with retinopathy
+C10E800	Type 1 diabetes mellitus - poor control
+C10E811	Type I diabetes mellitus - poor control
+C10E812	Insulin dependent diabetes mellitus - poor control
+C10E900	Type 1 diabetes mellitus maturity onset
+C10E911	Type I diabetes mellitus maturity onset
+C10E912	Insulin dependent diabetes maturity onset
+C10EA00	Type 1 diabetes mellitus without complication
+C10EA11	Type I diabetes mellitus without complication
+C10EA12	Insulin-dependent diabetes without complication
+C10EB00	Type 1 diabetes mellitus with mononeuropathy
+C10EB11	Type I diabetes mellitus with mononeuropathy
+C10EB12	Insulin dependent diabetes mellitus with mononeuropathy
+C10EC00	Type 1 diabetes mellitus with polyneuropathy
+C10EC11	Type I diabetes mellitus with polyneuropathy
+C10EC12	Insulin dependent diabetes mellitus with polyneuropathy
+C10ED00	Type 1 diabetes mellitus with nephropathy
+C10ED11	Type I diabetes mellitus with nephropathy
+C10ED12	Insulin dependent diabetes mellitus with nephropathy
+C10EE00	Type 1 diabetes mellitus with hypoglycaemic coma
+C10EE11	Type I diabetes mellitus with hypoglycaemic coma
+C10EE12	Insulin dependent diabetes mellitus with hypoglycaemic coma
+C10EF00	Type 1 diabetes mellitus with diabetic cataract
+C10EF11	Type I diabetes mellitus with diabetic cataract
+C10EF12	Insulin dependent diabetes mellitus with diabetic cataract
+C10EG00	Type 1 diabetes mellitus with peripheral angiopathy
+C10EG11	Type I diabetes mellitus with peripheral angiopathy
+C10EG12	Insulin dependent diabetes mellitus with peripheral angiopathy
+C10EH00	Type 1 diabetes mellitus with arthropathy
+C10EH11	Type I diabetes mellitus with arthropathy
+C10EH12	Insulin dependent diabetes mellitus with arthropathy
+C10EJ00	Type 1 diabetes mellitus with neuropathic arthropathy
+C10EJ11	Type I diabetes mellitus with neuropathic arthropathy
+C10EJ12	Insulin dependent diabetes mellitus with neuropathic arthropathy
+C10EK00	Type 1 diabetes mellitus with persistent proteinuria
+C10EK11	Type I diabetes mellitus with persistent proteinuria
+C10EL00	Type 1 diabetes mellitus with persistent microalbuminuria
+C10EL11	Type I diabetes mellitus with persistent microalbuminuria
+C10EM00	Type 1 diabetes mellitus with ketoacidosis
+C10EM11	Type I diabetes mellitus with ketoacidosis
+C10EN00	Type 1 diabetes mellitus with ketoacidotic coma
+C10EN11	Type I diabetes mellitus with ketoacidotic coma
+C10EP00	Type 1 diabetes mellitus with exudative maculopathy
+C10EP11	Type I diabetes mellitus with exudative maculopathy
+C10EQ00	Type 1 diabetes mellitus with gastroparesis
+C10EQ11	Type I diabetes mellitus with gastroparesis
+C10y000	Diabetes mellitus, juvenile type, with other specified manifestation
+C10z000	Diabetes mellitus, juvenile type, with unspecified complication

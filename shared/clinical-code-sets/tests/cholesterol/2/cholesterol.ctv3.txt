@@ -1,0 +1,7 @@
+XSK14	Total cholesterol measurement
+44PH.	Total cholesterol measurement
+44PJ.	Serum total cholesterol level
+44P..	Serum cholesterol
+44PZ.	Serum cholesterol NOS
+XE2eD	Serum cholesterol
+XaJe9	Serum total cholesterol level

@@ -1,0 +1,169 @@
+C10..	DM - Diabetes mellitus
+C100.	Diabetes mellitus with no mention of complication
+C1000	Diabetes mellitus, juvenile type, with no mention of complication
+C1001	Maturity onset diabetes
+C100z	Diabetes mellitus NOS with no mention of complication
+C1010	Diabetes mellitus, juvenile type, with ketoacidosis
+C1011	Diabetes mellitus, adult onset, with ketoacidosis
+C101y	Other specified diabetes mellitus with ketoacidosis
+C101z	Diabetes mellitus NOS with ketoacidosis
+C102.	Diabetes mellitus with hyperosmolar coma
+C1020	Diabetes mellitus, juvenile type, with hyperosmolar coma
+C1021	Diabetes mellitus, adult onset, with hyperosmolar coma
+C102z	Diabetes mellitus NOS with hyperosmolar coma
+C103.	Diabetes mellitus with ketoacidotic coma
+C1030	Diabetes mellitus, juvenile type, with ketoacidotic coma
+C1031	Diabetes mellitus, adult onset, with ketoacidotic coma
+C103y	Other specified diabetes mellitus with coma
+C103z	Diabetes mellitus NOS with ketoacidotic coma
+C1040	Diabetes mellitus, juvenile type, with renal manifestation
+C1041	Diabetes mellitus, adult onset, with renal manifestation
+C104y	Other specified diabetes mellitus with renal complications
+C104z	Diabetes mellitus with nephropathy NOS
+C105.	Diabetes mellitus with ophthalmic manifestation
+C1050	Diabetes mellitus, juvenile type, with ophthalmic manifestation
+C1051	Diabetes mellitus, adult onset, with ophthalmic manifestation
+C105y	Other specified diabetes mellitus with ophthalmic complications
+C105z	Diabetes mellitus NOS with ophthalmic manifestation
+C1060	Diabetes mellitus, juvenile type, with neurological manifestation
+C1061	Diabetes mellitus, adult onset, with neurological manifestation
+C106y	Other specified diabetes mellitus with neurological complications
+C106z	Diabetes mellitus NOS with neurological manifestation
+C1070	Diabetes mellitus, juvenile type, with peripheral circulatory disorder
+C1071	Diabetes mellitus, adult onset, with peripheral circulatory disorder
+C1072	Diabetes mellitus, adult with gangrene
+C107y	Other specified diabetes mellitus with peripheral circulatory complications
+C107z	Diabetes mellitus NOS with peripheral circulatory disorder
+C1080	Insulin-dependent diabetes mellitus with renal complications
+C1081	Insulin-dependent diabetes mellitus with ophthalmic complications
+C1082	Insulin-dependent diabetes mellitus with neurological complications
+C1083	Insulin-dependent diabetes mellitus with multiple complications
+C1085	Insulin-dependent diabetes mellitus with ulcer
+C1086	Insulin-dependent diabetes mellitus with gangrene
+C1087	IDDM - Insulin-dependent diabetes mellitus with retinopathy
+C1088	Insulin-dependent diabetes mellitus - poor control
+C1089	Insulin-dependent diabetes maturity onset
+C108y	Other specified diabetes mellitus with multiple complications
+C108z	Unspecified diabetes mellitus with multiple complications
+C1090	Non-insulin-dependent diabetes mellitus with renal complications
+C1091	Non-insulin-dependent diabetes mellitus with ophthalmic complications
+C1092	Non-insulin-dependent diabetes mellitus with neurological complications
+C1093	Non-insulin-dependent diabetes mellitus with multiple complications
+C1094	Non-insulin-dependent diabetes mellitus with ulcer
+C1095	Non-insulin-dependent diabetes mellitus with gangrene
+C1096	NIDDM - Non-insulin-dependent diabetes mellitus with retinopathy
+C1097	Non-insulin-dependent diabetes mellitus - poor control
+C10A0	Malnutrition-related diabetes mellitus with coma
+C10A1	Malnutrition-related diabetes mellitus with ketoacidosis
+C10A2	Malnutrition-related diabetes mellitus with renal complications
+C10A3	Malnutrition-related diabetes mellitus with ophthalmic complications
+C10A4	Malnutrition-related diabetes mellitus with neurological complications
+C10A5	Malnutrition-related diabetes mellitus with peripheral circulatory complications
+C10A6	Malnutrition-related diabetes mellitus with multiple complications
+C10A7	Malnutrition-related diabetes mellitus without complications
+C10B0	Steroid-induced diabetes mellitus without complication
+C10y.	Diabetes mellitus with other specified manifestation
+C10y0	Diabetes mellitus, juvenile type, with other specified manifestation
+C10y1	Diabetes mellitus, adult onset, with other specified manifestation
+C10yy	Other specified diabetes mellitus with other specified complications
+C10yz	Diabetes mellitus NOS with other specified manifestation
+C10z.	Diabetes mellitus with unspecified complication
+C10z0	Diabetes mellitus, juvenile type, with unspecified complication
+C10z1	Diabetes mellitus, adult onset, with unspecified complication
+C10zy	Other specified diabetes mellitus with unspecified complications
+C10zz	Diabetes mellitus NOS with unspecified complication
+Cyu20	[X]Other specified diabetes mellitus
+Cyu21	[X]Malnutrition-related diabetes mellitus with other specified complications
+Cyu22	[X]Malnutrition-related diabetes mellitus with unspecified complications
+Cyu23	[X]Unspecified diabetes mellitus with renal complications
+L180.	Diabetes mellitus during pregnancy, childbirth and the puerperium
+L1800	Diabetes mellitus - unspecified whether during pregnancy or the puerperium
+L1801	Diabetes mellitus during pregnancy - baby delivered
+L1802	Diabetes mellitus in the puerperium - baby delivered during current episode of care
+L1803	Diabetes mellitus during pregnancy - baby not yet delivered
+L1804	Diabetes mellitus in the puerperium - baby delivered during previous episode of care
+L1805	Pre-existing diabetes mellitus, insulin-dependent
+L1806	Pre-existing diabetes mellitus, non-insulin-dependent
+L1807	Pre-existing malnutrition-related diabetes mellitus
+L1808	Diabetes mellitus arising in pregnancy
+L180z	Diabetes mellitus during pregnancy, childbirth or the puerperium NOS
+Lyu29	[X]Pre-existing diabetes mellitus, unspecified
+Q441.	Neonatal diabetes mellitus
+X40J4	Insulin-dependent diabetes mellitus
+X40J5	Non-insulin-dependent diabetes mellitus
+X40J6	Insulin treated Type 2 diabetes mellitus
+X40J7	Malnutrition-related diabetes mellitus
+X40J8	Malnutrition-related diabetes mellitus - fibrocalculous
+X40J9	Malnutrition-related diabetes mellitus - protein-deficient
+X40JA	Secondary diabetes mellitus
+X40JB	Secondary pancreatic diabetes mellitus
+X40JC	Secondary endocrine diabetes mellitus
+X40JE	Reaven's syndrome
+X40JF	Transitory neonatal diabetes mellitus
+X40JG	Genetic syndromes of diabetes mellitus
+X40JI	Maturity onset diabetes in youth type 1
+X40JJ	Diabetes mellitus autosomal dominant type 2
+X40JN	Lipodystrophy, partial, with Reiger anomaly, short stature, and insulinopenic diabetes mellitus
+X40JQ	Muscular atrophy, ataxia, retinitis pigmentosa, and diabetes mellitus
+X40JV	Hypogonadism, diabetes mellitus, alopecia ,mental retardation and electrocardiographic abnormalities
+X40JX	Pineal hyperplasia, insulin-resistant diabetes mellitus and somatic abnormalities
+X40JY	Congenital insulin-dependent diabetes mellitus with fatal secretory diarrhoea
+X40Ja	Abnormal metabolic state in diabetes mellitus
+X50GO	Soft tissue complication of diabetes mellitus
+XE10E	Diabetes mellitus, juvenile type, with no mention of complication
+XE10F	Diabetes mellitus, adult onset, with no mention of complication
+XE10G	Diabetes mellitus with renal manifestation
+XE10H	Diabetes mellitus with neurological manifestation
+XE10I	Diabetes mellitus with peripheral circulatory disorder
+XE12C	Insulin dependent diabetes mel
+XE15k	Diabetes mellitus with polyneuropathy
+XM19i	[EDTA] Diabetes Type I (insulin dependent) associated with renal failure
+XM19j	[EDTA] Diabetes Type II (non-insulin-dependent) associated with renal failure
+XM1Qx	Diabetes mellitus with gangrene
+XSETH	Maturity onset diabetes mellitus in young
+XSETK	Drug-induced diabetes mellitus
+XSETp	Diabetes mellitus due to insulin receptor antibodies
+Xa08a	Small for gestation neonatal diabetes mellitus
+Xa4g7	Unstable type 1 diabetes mellitus
+Xa9FG	Postpancreatectomy diabetes mellitus
+XaA6b	Perceived control of insulin-dependent diabetes
+XaELP	Insulin-dependent diabetes without complication
+XaELQ	Non-insulin-dependent diabetes mellitus without complication
+XaEnn	Type I diabetes mellitus with mononeuropathy
+XaEno	Insulin dependent diabetes mellitus with polyneuropathy
+XaEnp	Type II diabetes mellitus with mononeuropathy
+XaEnq	Type 2 diabetes mellitus with polyneuropathy
+XaF04	Type 1 diabetes mellitus with nephropathy
+XaF05	Type 2 diabetes mellitus with nephropathy
+XaFWG	Type 1 diabetes mellitus with hypoglycaemic coma
+XaFWI	Type II diabetes mellitus with hypoglycaemic coma
+XaFm8	Type 1 diabetes mellitus with diabetic cataract
+XaFmA	Type II diabetes mellitus with diabetic cataract
+XaFmK	Type I diabetes mellitus with peripheral angiopathy
+XaFmL	Type 1 diabetes mellitus with arthropathy
+XaFmM	Type 1 diabetes mellitus with neuropathic arthropathy
+XaFn7	Non-insulin-dependent diabetes mellitus with peripheral angiopathy
+XaFn8	Non-insulin dependent diabetes mellitus with arthropathy
+XaFn9	Non-insulin dependent diabetes mellitus with neuropathic arthropathy
+XaIrf	Hyperosmolar non-ketotic state in type II diabetes mellitus
+XaIyz	Diabetes mellitus with persistent microalbuminuria
+XaIz0	Diabetes mellitus with persistent proteinuria
+XaIzM	Type 1 diabetes mellitus with persistent proteinuria
+XaIzN	Type 1 diabetes mellitus with persistent microalbuminuria
+XaIzQ	Type 2 diabetes mellitus with persistent proteinuria
+XaIzR	Type 2 diabetes mellitus with persistent microalbuminuria
+XaJQp	Type II diabetes mellitus with exudative maculopathy
+XaJSr	Type I diabetes mellitus with exudative maculopathy
+XaJUI	Diabetes mellitus induced by non-steroid drugs
+XaJlL	Secondary pancreatic diabetes mellitus without complication
+XaJlM	Diabetes mellitus induced by non-steroid drugs without complication
+XaJlQ	Lipoatrophic diabetes mellitus without complication
+XaJlR	Secondary diabetes mellitus without complication
+XaKyW	Type I diabetes mellitus with gastroparesis
+XaKyX	Type II diabetes mellitus with gastroparesis
+XaMzI	Cystic fibrosis related diabetes mellitus
+XaOPt	Maternally inherited diabetes mellitus
+XaOPu	Latent autoimmune diabetes mellitus in adult
+XacoB	Maturity onset diabetes of the young type 5
+XaIfG	Type II diabetes on insulin
+XaIfI	Type II diabetes on diet only

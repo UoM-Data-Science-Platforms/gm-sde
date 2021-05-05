@@ -1,0 +1,5 @@
+CLTA30106NEMIS	Clopidogrel  Tablets  300 mg
+CLTA34068EMIS	Clopidogrel  Tablets  75 mg
+GRTA38472NEMIS	Grepid  Tablets  75 mg
+PLTA30107NEMIS	Plavix  Tablets  300 mg
+PLTA34066EMIS	Plavix  Tablets  75 mg

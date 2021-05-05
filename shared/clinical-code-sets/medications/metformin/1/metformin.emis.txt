@@ -1,0 +1,38 @@
+META1787	Metformin Hydrochloride  Tablets  500 mg
+MEM/19420NEMIS	Metformin Hydrochloride  M/R Tablets  500 mg
+META1788	Metformin Hydrochloride  Tablets  850 mg
+MEM/35043NEMIS	Metformin Hydrochloride  M/R Tablets  1 gram
+META29314NEMIS	Vildagliptin 50mg / Metformin 1g tablets
+META42230NEMIS	Metformin And Sitagliptin  Tablets  1000 mg + 50 mg
+PITA23356NEMIS	Pioglitazone And Metformin  Tablets  15 mg + 850 mg
+ROTA19075NEMIS	Rosiglitazone And Metformin  Tablets  4 mg + 1 gram
+MEM/30449NEMIS	Metformin Hydrochloride  M/R Tablets  750 mg
+ROTA19074NEMIS	Rosiglitazone And Metformin  Tablets  2 mg + 1 gram
+SATA78212NEMIS	Saxagliptin 2.5mg / Metformin 1g tablets
+ROTA18930NEMIS	Rosiglitazone And Metformin  Tablets  2 mg + 500 mg
+META29313NEMIS	Vildagliptin 50mg / Metformin 850mg tablets
+MEOR35740NEMIS	Metformin Hydrochloride  Oral Powder Sachets Sugar Free  500 mg
+MEOR35741NEMIS	Metformin Hydrochloride  Oral Powder Sachets Sugar Free  1 gram
+MEOR23336NEMIS	Metformin 500mg/5ml oral solution sugar free
+EMTA104969NEMIS	Empagliflozin 12.5mg / Metformin 1g tablets
+META76743NEMIS	Linagliptin 2.5mg / Metformin 1g tablets
+CATA96770NEMIS	Canagliflozin 50mg / Metformin 1g tablets
+DATA88552NEMIS	Dapagliflozin 5mg / Metformin 1g tablets
+ALTA86909NEMIS	Alogliptin 12.5mg / Metformin 1g tablets
+ROTA18929NEMIS	Rosiglitazone 1mg / Metformin 500mg tablets
+MEOR117653NEMIS	Metformin 850mg/5ml oral solution sugar free
+MESU11377NEMIS	Metformin 500mg/5ml oral suspension
+EMTA104967NEMIS	Empagliflozin 5mg / Metformin 1g tablets
+GLM/19422NEMIS	Glucophage SR 500mg tablets (Merck Serono Ltd)
+GLM/35044NEMIS	Glucophage SR 1000mg tablets (Merck Serono Ltd)
+GLTA1307	Glucophage 500mg tablets (Merck Serono Ltd)
+DIM/74131NEMIS	Diagemet XL 500mg tablets (Genus Pharmaceuticals Ltd)
+GLTA1308	Glucophage 850mg tablets (Merck Serono Ltd)
+GLM/30450NEMIS	Glucophage SR 750mg tablets (Merck Serono Ltd)
+BOM/35196NEMIS	Bolamyn SR 500mg tablets (Teva UK Ltd)
+JATA37230NEMIS	Janumet 50mg/1000mg tablets (Merck Sharp & Dohme Ltd)
+MEM/49996NEMIS	Metabet SR 1000mg tablets (Morningside Healthcare Ltd)
+VITA86911NEMIS	Vipdomet 12.5mg/1000mg tablets (Takeda UK Ltd)
+GLOR35742NEMIS	Glucophage 500mg oral powder sachets (Merck Serono Ltd)
+COTA23359NEMIS	Competact  Tablets  15 mg + 850 mg
+MEM/47158NEMIS	Metabet SR 500mg tablets (Morningside Healthcare Ltd)

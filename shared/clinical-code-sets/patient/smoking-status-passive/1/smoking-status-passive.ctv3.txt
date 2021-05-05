@@ -1,0 +1,5 @@
+137I.	Passive smoker
+Ub0pe	Exposed to tobacco smoke at work
+Ub0pf	Exposed to tobacco smoke at home
+Ub0pg	Exposed to tobacco smoke in public places
+13WF4	Passive smoking risk

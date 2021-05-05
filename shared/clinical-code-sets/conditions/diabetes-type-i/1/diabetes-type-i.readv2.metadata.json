@@ -1,0 +1,34 @@
+{
+  "includeTerms": [
+    "type 1 diabetes",
+    "type i diabetes",
+    "insulin dependent diabetes",
+    "diabetes mellitus juvenile"
+  ],
+  "excludeTerms": [
+    "family history",
+    "in remission",
+    "in pregnancy",
+    "review",
+    "reaven's syndrome",
+    "metabolic syndrome x",
+    "pre-existing diabetes mellitus",
+    "maternally inherited diabetes mellitus",
+    "maturity onset diabetes",
+    "non-insulin dependent",
+    "non-insulin-dependent",
+    "latent autoimmune diabetes mellitus in adult",
+    "unspecified diabetes mellitus",
+    "other specified diabetes",
+    "referral",
+    "history of"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdBy": {
+    "name": "Richard Williams",
+    "email": "1234richardwilliams@gmail.com"
+  },
+  "createdOn": "2020-05-29T11:05:02.745Z",
+  "lastUpdated": "2021-05-04T09:26:54.147Z"
+}

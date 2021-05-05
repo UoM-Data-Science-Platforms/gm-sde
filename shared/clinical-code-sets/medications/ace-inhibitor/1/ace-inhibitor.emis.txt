@@ -1,0 +1,340 @@
+ACTA17	Acepril  Tablets  12.5 mg
+ACTA18	Acepril  Tablets  25 mg
+ACTA19	Acepril  Tablets  50 mg
+ACTA22351EMIS	Accuretic  Tablets  
+ACTA24202EMIS	Accupro  Tablets  40 mg
+ACTA8597BRID	Acezide  Tablets  
+ACTA8873EGTON	Accupro  Tablets  10 mg
+ACTA8874EGTON	Accupro  Tablets  20 mg
+ACTA8875EGTON	Accupro  Tablets  5 mg
+AMTA19407NEMIS	Amias  Tablets  32 mg
+AMTA23852NEMIS	Amlodipine And Valsartan  Tabl
+AMTA23853NEMIS	Amlodipine And Valsartan  Tabl
+AMTA31816EMIS	Amias  Tablets  16 mg
+AMTA31817EMIS	Amias  Tablets  2 mg
+AMTA31818EMIS	Amias  Tablets  4 mg
+AMTA31819EMIS	Amias  Tablets  8 mg
+APTA31570EMIS	Aprovel  Tablets  150 mg
+APTA31571EMIS	Aprovel  Tablets  300 mg
+APTA31572EMIS	Aprovel  Tablets  75 mg
+CATA1598NEMIS	Capto-Co  Tablets  12.5 mg/25 
+CATA1599NEMIS	Capto-Co  Tablets  25 mg/50 mg
+CATA18202NEMIS	Caralpha  Tablets  10 mg + 12.
+CATA18203NEMIS	Caralpha  Tablets  20 mg + 12.
+CATA19406NEMIS	Candesartan Cilexetil  Tablets
+CATA19668EMIS	Capozide Ls  Tablets  
+CATA24703EMIS	Carace 10 Plus  Tablets  
+CATA31824EMIS	Candesartan Cilexetil  Tablets
+CATA31825EMIS	Candesartan Cilexetil  Tablets
+CATA31826EMIS	Candesartan Cilexetil  Tablets
+CATA31827EMIS	Candesartan Cilexetil  Tablets
+CATA4675	Captopril  Tablets  12.5 mg
+CATA480	Capoten  Tablets  12.5 mg
+CATA481	Capoten  Tablets  25 mg
+CATA482	Capoten  Tablets  50 mg
+CATA483	Captopril  Tablets  25 mg
+CATA484	Captopril  Tablets  50 mg
+CATA8616EGTON	Carace  Tablets  10 mg
+CATA8617EGTON	Carace  Tablets  2.5 mg
+CATA8618EGTON	Carace  Tablets  20 mg
+CATA8619EGTON	Carace  Tablets  5 mg
+CATA8735BRIDL	Capozide  Tablets  
+CATA9093EMIS	Carace 20 Plus  Tablets  
+CITA18897EMIS	Cilazapril  Tablets  1 mg
+CITA18898EMIS	Cilazapril  Tablets  2.5 mg
+CITA18899EMIS	Cilazapril  Tablets  250 micro
+CITA18900EMIS	Cilazapril  Tablets  500 micro
+CITA21966EMIS	Cilazapril  Tablets  5 mg
+COOR37465NEMIS	Cozaar  Oral suspension  2.5 m
+COTA12634NEMIS	Cozaar  Tablets  100 mg
+COTA12941NEMIS	Coversyl Plus  Tablets  
+COTA14418NEMIS	Coversyl  Tablets  8 mg
+COTA1596NEMIS	Co-Zidocapt 12.5/25  Tablets  
+COTA1597NEMIS	Co-Zidocapt 25/50  Tablets  
+COTA18415NEMIS	Co-Diovan  Tablets  160 mg/12.
+COTA18416NEMIS	Co-Diovan  Tablets  160 mg/25 
+COTA18922NEMIS	Co-Diovan  Tablets  80 mg/12.5
+COTA21151NEMIS	Cozaar-Comp  Tablets  100 mg +
+COTA23522NEMIS	Coaprovel  Tablets  300 mg + 2
+COTA26210EMIS	Cozaar  Tablets  25 mg
+COTA26211EMIS	Cozaar  Tablets  50 mg
+COTA28963NEMIS	Cozaar-Comp  Tablets  100 mg +
+COTA29341NEMIS	Coversyl Arginine  Tablets  2.
+COTA29342NEMIS	Coversyl Arginine  Tablets  5 
+COTA29343NEMIS	Coversyl Arginine  Tablets  10
+COTA29347NEMIS	Coversyl Arginine Plus  Tablet
+COTA30977EMIS	Cozaar-Comp  Tablets  50 mg + 
+COTA35194NEMIS	Cozaar  Tablets  12.5 mg
+COTA37620MGEMIS	Co-Zidocapt 12.5/25  Tablets  
+COTA37621MGEMIS	Co-Zidocapt 12.5/25  Tablets  
+COTA37622MGEMIS	Co-Zidocapt 12.5/25  Tablets  
+COTA37623MGEMIS	Co-Zidocapt 12.5/25  Tablets  
+COTA37624MGEMIS	Co-Zidocapt 25/50  Tablets  (S
+COTA37625MGEMIS	Co-Zidocapt 25/50  Tablets  (U
+COTA37626MGEMIS	Co-Zidocapt 25/50  Tablets  (A
+COTA37627MGEMIS	Co-Zidocapt 25/50  Tablets  (K
+COTA5665NEMIS	Coaprovel  Tablets  150 mg + 1
+COTA5666NEMIS	Coaprovel  Tablets  300 mg + 1
+COTA9937BRIDL	Coversyl  Tablets  2 mg
+COTA9939BRIDL	Coversyl  Tablets  4 mg
+DICA29699EMIS	Diovan  Capsules  160 mg
+DICA29700EMIS	Diovan  Capsules  40 mg
+DICA29701EMIS	Diovan  Capsules  80 mg
+DIOR52801NEMIS	Diovan  Oral solution  3 mg/ml
+DITA19083NEMIS	Diovan  Tablets  40 mg
+DITA28965NEMIS	Diovan  Tablets  320 mg
+ECTA15781NEMIS	Ecopace  Tablets  12.5 mg
+ECTA15782NEMIS	Ecopace  Tablets  25 mg
+ECTA15783NEMIS	Ecopace  Tablets  50 mg
+ENTA1060	Enalapril Maleate  Tablets  10
+ENTA1062	Enalapril Maleate  Tablets  20
+ENTA1063	Enalapril Maleate  Tablets  5 
+ENTA18559NEMIS	Enalapril And Hydrochlorothiaz
+ENTA6935	Enalapril Maleate  Tablets  2.
+ENTI23994EMIS	Enalapril Maleate  Titration p
+ENWA31548LEEDS	Enalapril Maleate  Wafers  10 
+ENWA31549LEEDS	Enalapril Maleate  Wafers  2.5
+ENWA31550LEEDS	Enalapril Maleate  Wafers  20 
+ENWA31551LEEDS	Enalapril Maleate  Wafers  5 m
+ENWA31764EMIS	Enalapril Maleate  Wafers  10 
+ENWA31765EMIS	Enalapril Maleate  Wafers  2.5
+ENWA31766EMIS	Enalapril Maleate  Wafers  20 
+ENWA31767EMIS	Enalapril Maleate  Wafers  5 m
+EPTA3293NEMIS	Eprosartan  Tablets  300 mg
+EPTA3295NEMIS	Eprosartan  Tablets  400 mg
+EPTA3296NEMIS	Eprosartan  Tablets  600 mg
+EXTA23855NEMIS	Exforge  Tablets  5 mg/80 mg
+EXTA23856NEMIS	Exforge  Tablets  5 mg/160 mg
+EXTA23857NEMIS	Exforge  Tablets  10 mg/160 mg
+FOTA9320EMIS	Fosinopril Sodium  Tablets  10
+FOTA9321EMIS	Fosinopril Sodium  Tablets  20
+GOCA16732NEMIS	Gopten  Capsules  4 mg
+GOCA23759EMIS	Gopten  Capsules  1 mg
+GOCA23760EMIS	Gopten  Capsules  2 mg
+GOCA23761EMIS	Gopten  Capsules  500 microgra
+HYTA33752EMIS	Hyteneze  Tablets  12.5 mg
+HYTA33753EMIS	Hyteneze  Tablets  25 mg
+HYTA33754EMIS	Hyteneze  Tablets  50 mg
+IMTA35377EMIS	Imidapril Hydrochloride  Table
+IMTA35378EMIS	Imidapril Hydrochloride  Table
+IMTA4732NEMIS	Imidapril Hydrochloride  Table
+INTA1470	Innovace  Tablets  10 mg
+INTA1471	Innovace  Tablets  2.5 mg
+INTA1472	Innovace  Tablets  20 mg
+INTA1473	Innovace  Tablets  5 mg
+INTA9233EMIS	Innozide  Tablets  
+INTI23991EMIS	Innovace  Titration pack
+INWA31540LEEDS	Innovace Melt  Wafers  10 mg
+INWA31541LEEDS	Innovace Melt  Wafers  2.5 mg
+INWA31542LEEDS	Innovace Melt  Wafers  20 mg
+INWA31543LEEDS	Innovace Melt  Wafers  5 mg
+INWA31756EMIS	Innovace Melt  Wafers  10 mg
+INWA31757EMIS	Innovace Melt  Wafers  2.5 mg
+INWA31758EMIS	Innovace Melt  Wafers  20 mg
+INWA31759EMIS	Innovace Melt  Wafers  5 mg
+IRTA18540NEMIS	Irbesartan And Hydrochlorothia
+IRTA18541NEMIS	Irbesartan And Hydrochlorothia
+IRTA23521NEMIS	Irbesartan And Hydrochlorothia
+IRTA31576EMIS	Irbesartan  Tablets  150 mg
+IRTA31577EMIS	Irbesartan  Tablets  300 mg
+IRTA31578EMIS	Irbesartan  Tablets  75 mg
+KATA32855EMIS	Kaplon  Tablets  12.5 mg
+KATA32856EMIS	Kaplon  Tablets  25 mg
+KATA32857EMIS	Kaplon  Tablets  50 mg
+LITA18535NEMIS	Lisinopril And Hydrochlorothia
+LITA18536NEMIS	Lisinopril And Hydrochlorothia
+LITA20104NEMIS	Lisicostad  Tablets  10 mg + 1
+LITA20105NEMIS	Lisicostad  Tablets  20 mg + 1
+LITA8608EGTON	Lisinopril  Tablets  10 mg
+LITA8609EGTON	Lisinopril  Tablets  2.5 mg
+LITA8610EGTON	Lisinopril  Tablets  20 mg
+LITA8611EGTON	Lisinopril  Tablets  5 mg
+LOCA18516NEMIS	Lopace  Capsules  2.5 mg
+LOCA18517NEMIS	Lopace  Capsules  5 mg
+LOCA18518NEMIS	Lopace  Capsules  10 mg
+LOOR37464NEMIS	Losartan Potassium  Oral Suspe
+LOTA12633NEMIS	Losartan Potassium  Tablets  1
+LOTA18550NEMIS	Losartan And Hydrochlorothiazi
+LOTA21150NEMIS	Losartan And Hydrochlorothiazi
+LOTA26214EMIS	Losartan Potassium  Tablets  2
+LOTA26215EMIS	Losartan Potassium  Tablets  5
+LOTA28962NEMIS	Losartan And Hydrochlorothiazi
+LOTA35193NEMIS	Losartan Potassium  Tablets  1
+MITA1045NEMIS	Micardis  Tablets  40 mg
+MITA1046NEMIS	Micardis  Tablets  80 mg
+MITA14652NEMIS	Micardis Plus  Tablets  40 mg/
+MITA14653NEMIS	Micardis Plus  Tablets  80 mg/
+MITA30444NEMIS	Micardis Plus  Tablets  80 mg/
+MITA6417NEMIS	Micardis  Tablets  20 mg
+MOTA28131EMIS	Moexipril Hydrochloride  Table
+MOTA28132EMIS	Moexipril Hydrochloride  Table
+ODCA23765EMIS	Odrik  Capsules  1 mg
+ODCA23766EMIS	Odrik  Capsules  2 mg
+ODCA23767EMIS	Odrik  Capsules  500 microgram
+OLTA15758NEMIS	Olmesartan Medoxomil  Tablets 
+OLTA15760NEMIS	Olmesartan Medoxomil  Tablets 
+OLTA15761NEMIS	Olmesartan Medoxomil  Tablets 
+OLTA15763NEMIS	Olmetec  Tablets  10 mg
+OLTA15764NEMIS	Olmetec  Tablets  20 mg
+OLTA15765NEMIS	Olmetec  Tablets  40 mg
+OLTA22330NEMIS	Olmesartan Medoxomil And Hydro
+OLTA22331NEMIS	Olmesartan Medoxomil And Hydro
+OLTA22333NEMIS	Olmetec Plus  Tablets  20 mg/1
+OLTA22334NEMIS	Olmetec Plus  Tablets  20 mg/2
+OLTA35715NEMIS	Olmesartan Medoxomil And Amlod
+OLTA35716NEMIS	Olmesartan Medoxomil And Amlod
+OLTA35717NEMIS	Olmesartan Medoxomil And Amlod
+OLTA42106NEMIS	Olmesartan Medoxomil And Hydro
+OLTA42107NEMIS	Olmetec Plus  Tablets  40 mg/1
+PETA14419NEMIS	Perindopril Erbumine  Tablets 
+PETA18548NEMIS	Perindopril And Indapamide  Ta
+PETA28127EMIS	Perdix  Tablets  15 mg
+PETA28128EMIS	Perdix  Tablets  7.5 mg
+PETA29336NEMIS	Perindopril Arginine  Tablets 
+PETA29338NEMIS	Perindopril Arginine  Tablets 
+PETA29339NEMIS	Perindopril Arginine  Tablets 
+PETA29345NEMIS	Perindopril Arginine And Indap
+PETA9809HILLI	Perindopril Erbumine  Tablets 
+PETA9810HILLI	Perindopril Erbumine  Tablets 
+PRTA1932NEMIS	Pralenal  Tablets  2.5 mg
+PRTA1933NEMIS	Pralenal  Tablets  5 mg
+PRTA1934NEMIS	Pralenal  Tablets  10 mg
+PRTA1935NEMIS	Pralenal  Tablets  20 mg
+QUTA10125BRIDL	Quinapril  Tablets  5 mg
+QUTA10127BRIDL	Quinapril  Tablets  10 mg
+QUTA10129BRIDL	Quinapril  Tablets  20 mg
+QUTA10131BRIDL	Quinapril  Tablets  40 mg
+QUTA18531NEMIS	Quinapril And Hydrochlorothiaz
+QUTA20155NEMIS	Quinil  Tablets  5 mg
+QUTA20156NEMIS	Quinil  Tablets  10 mg
+QUTA20157NEMIS	Quinil  Tablets  20 mg
+QUTA20158NEMIS	Quinil  Tablets  40 mg
+RACA19070NEMIS	Ranace  Capsules  1.25 mg
+RACA19071NEMIS	Ranace  Capsules  2.5 mg
+RACA19072NEMIS	Ranace  Capsules  5 mg
+RACA19073NEMIS	Ranace  Capsules  10 mg
+RACA36826MGEMIS	Ramipril  Capsules  2.5 mg (Te
+RACA36827MGEMIS	Ramipril  Capsules  2.5 mg (Sa
+RACA36828MGEMIS	Ramipril  Capsules  2.5 mg (Ge
+RACA36829MGEMIS	Ramipril  Capsules  2.5 mg (Wi
+RACA36830MGEMIS	Ramipril  Capsules  2.5 mg (Ke
+RACA36831MGEMIS	Ramipril  Capsules  2.5 mg (A.
+RACA36832MGEMIS	Ramipril  Capsules  2.5 mg (Un
+RACA36833MGEMIS	Ramipril  Capsules  2.5 mg (Ge
+RACA36834MGEMIS	Ramipril  Capsules  2.5 mg (Ra
+RACA36835MGEMIS	Ramipril  Capsules  2.5 mg (Al
+RACA36836MGEMIS	Ramipril  Capsules  5 mg (Teva
+RACA36837MGEMIS	Ramipril  Capsules  5 mg (Sand
+RACA36838MGEMIS	Ramipril  Capsules  5 mg (Genu
+RACA36839MGEMIS	Ramipril  Capsules  5 mg (Wint
+RACA36840MGEMIS	Ramipril  Capsules  5 mg (Kent
+RACA36841MGEMIS	Ramipril  Capsules  5 mg (A.A.
+RACA36842MGEMIS	Ramipril  Capsules  5 mg (Unic
+RACA36843MGEMIS	Ramipril  Capsules  5 mg (Gene
+RACA36844MGEMIS	Ramipril  Capsules  5 mg (Ranb
+RACA36845MGEMIS	Ramipril  Capsules  5 mg (Alph
+RACA37593MGEMIS	Ramipril  Capsules  10 mg (Tev
+RACA37594MGEMIS	Ramipril  Capsules  10 mg (San
+RACA37595MGEMIS	Ramipril  Capsules  10 mg (Gen
+RACA37596MGEMIS	Ramipril  Capsules  10 mg (Win
+RACA37597MGEMIS	Ramipril  Capsules  10 mg (Ken
+RACA37598MGEMIS	Ramipril  Capsules  10 mg (A.A
+RACA37599MGEMIS	Ramipril  Capsules  10 mg (Uni
+RACA37600MGEMIS	Ramipril  Capsules  10 mg (Gen
+RACA37601MGEMIS	Ramipril  Capsules  10 mg (Ran
+RACA37602MGEMIS	Ramipril  Capsules  10 mg (Alp
+RACA57NEMIS	Ramipril  Capsules  10 mg
+RACA8950EMIS	Ramipril  Capsules  1.25 mg
+RACA8951EMIS	Ramipril  Capsules  2.5 mg
+RACA8952EMIS	Ramipril  Capsules  5 mg
+RAOR33337NEMIS	Ramipril  Oral suspension  2.5
+RAOR45589NEMIS	Ramipril  Oral solution  10 mg
+RAOR45617NEMIS	Ramipril  Oral solution  5 mg/
+RAOR45619NEMIS	Ramipril  Oral solution  2.5 m
+RAOR46795NEMIS	Ramipril  Oral solution  1.25 
+RAOR52661NEMIS	Ramipril  Oral Solution
+RAPO22025NEMIS	Ramipril  Powder For Oral Susp
+RASU14943NEMIS	Ramipril  Suspension  5 mg/5 m
+RASU25475NEMIS	Ramipril  Suspension  1.25 mg/
+RASU45590NEMIS	Ramipril  Oral suspension  10 
+RATA16399NEMIS	Ramipril  Tablets  1.25 mg
+RATA16400NEMIS	Ramipril  Tablets  2.5 mg
+RATA16401NEMIS	Ramipril  Tablets  5 mg
+RATA16402NEMIS	Ramipril  Tablets  10 mg
+RATA18576NEMIS	Ramipril And M/r Felodipine  T
+RATA18577NEMIS	Ramipril And M/r Felodipine  T
+RATI12695NEMIS	Ramipril  Titration pack  7 x 
+SETA35719NEMIS	Sevikar  Tablets  20 mg + 5 mg
+SETA35720NEMIS	Sevikar  Tablets  40 mg + 5 mg
+SETA35721NEMIS	Sevikar  Tablets  40 mg + 10 m
+SETA48962NEMIS	Sevikar Hct  Tablets  20 mg + 
+SETA48963NEMIS	Sevikar Hct  Tablets  40 mg + 
+SETA48964NEMIS	Sevikar Hct  Tablets  40 mg + 
+SETA48965NEMIS	Sevikar Hct  Tablets  40 mg + 
+SETA48966NEMIS	Sevikar Hct  Tablets  40 mg + 
+STTA9316EMIS	Staril  Tablets  10 mg
+STTA9317EMIS	Staril  Tablets  20 mg
+TAM/31589EMIS	Tarka  M/R capsules  
+TATA35373EMIS	Tanatril  Tablets  10 mg
+TATA35374EMIS	Tanatril  Tablets  5 mg
+TATA4731NEMIS	Tanatril  Tablets  20 mg
+TETA1042NEMIS	Telmisartan  Tablets  40 mg
+TETA1044NEMIS	Telmisartan  Tablets  80 mg
+TETA15547NEMIS	Tensopril  Tablets  12.5 mg
+TETA15548NEMIS	Tensopril  Tablets  25 mg
+TETA15549NEMIS	Tensopril  Tablets  50 mg
+TETA18566NEMIS	Telmisartan And Hydrochlorothi
+TETA18567NEMIS	Telmisartan And Hydrochlorothi
+TETA3339NEMIS	Teveten  Tablets  300 mg
+TETA3340NEMIS	Teveten  Tablets  400 mg
+TETA3341NEMIS	Teveten  Tablets  600 mg
+TETA6416NEMIS	Telmisartan  Tablets  20 mg
+TRCA16731NEMIS	Trandolapril  Capsules  4 mg
+TRCA23771EMIS	Trandolapril  Capsules  1 mg
+TRCA23772EMIS	Trandolapril  Capsules  2 mg
+TRCA23773EMIS	Trandolapril  Capsules  500 mi
+TRCA58NEMIS	Tritace  Capsules  10 mg
+TRCA8944EMIS	Tritace  Capsules  1.25 mg
+TRCA8945EMIS	Tritace  Capsules  2.5 mg
+TRCA8946EMIS	Tritace  Capsules  5 mg
+TRM/18572NEMIS	Trandolapril And Verapamil  M/
+TRTA16403NEMIS	Tritace  Tablets  1.25 mg
+TRTA16404NEMIS	Tritace  Tablets  2.5 mg
+TRTA16405NEMIS	Tritace  Tablets  5 mg
+TRTA16406NEMIS	Tritace  Tablets  10 mg
+TRTA30134NEMIS	Tritace  Tablet Titration Pack
+TRTA828NEMIS	Triapin Mite  Tablets  
+TRTA829NEMIS	Triapin  M/R tablets  5 mg + 5
+TRTI12696NEMIS	Tritace  Titration pack  7 x 2
+VACA29705EMIS	Valsartan  Capsules  160 mg
+VACA29706EMIS	Valsartan  Capsules  40 mg
+VACA29707EMIS	Valsartan  Capsules  80 mg
+VAOR52800NEMIS	Valsartan  Oral solution  3 mg
+VATA18545NEMIS	Valsartan And Hydrochlorothiaz
+VATA18546NEMIS	Valsartan And Hydrochlorothiaz
+VATA18921NEMIS	Valsartan And Hydrochlorothiaz
+VATA19082NEMIS	Valsartan  Tablets  40 mg
+VATA21964EMIS	Vascace  Tablets  5 mg
+VATA28964NEMIS	Valsartan  Tablets  320 mg
+VATA9150EMIS	Vascace  Tablets  1 mg
+VATA9151EMIS	Vascace  Tablets  2.5 mg
+VATA9152EMIS	Vascace  Tablets  250 microgra
+VATA9153EMIS	Vascace  Tablets  500 microgra
+ZETA24152EMIS	Zestoretic 10  Tablets  
+ZETA8600EGTON	Zestril  Tablets  10 mg
+ZETA8601EGTON	Zestril  Tablets  2.5 mg
+ZETA8602EGTON	Zestril  Tablets  20 mg
+ZETA8603EGTON	Zestril  Tablets  5 mg
+ZETA9096EMIS	Zestoretic 20  Tablets  
+AMTA23851NEMIS	Amlodipine 5mg / Valsartan 80mg tablets  
+CAOR16699NEMIS	Captopril 25mg/5ml oral solution  
+CAOR37227NEMIS	Captopril 25mg/5ml oral suspension  
+CATA27881EMIS	Captopril  Tablets  2 mg  
+ENOR20099NEMIS	Enalapril Maleate  Oral Suspension Sugar Free  5 mg/5 ml  
+LIOR46489NEMIS	Lisinopril  Oral Solution  7.5 mg/5 ml  
+LISU18409NEMIS	Lisinopril 5mg/5ml oral suspension  
+OLOR27110NEMIS	Olmesartan  Oral Suspension  10 mg/5 ml  
+PEOR25486NEMIS	Perindopril  Oral Suspension  8 mg/5 ml  
+PEOR45595NEMIS	Perindopril  Oral suspension  4 mg/5 ml  
+TETA30443NEMIS	Telmisartan 80mg / Hydrochlorothiazide 25mg tablets  
+VATA52642NEMIS	Valsartan 160mg tablets  

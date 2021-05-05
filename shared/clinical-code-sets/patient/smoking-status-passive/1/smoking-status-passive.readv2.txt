@@ -1,0 +1,3 @@
+137I.00	Passive smoker
+137I000	Exposed to tobacco smoke at home
+13WF400	Passive smoking risk

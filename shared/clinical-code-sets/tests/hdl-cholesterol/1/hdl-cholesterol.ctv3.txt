@@ -1,0 +1,3 @@
+44P5.	Serum HDL cholesterol level
+44PC.	Ser random HDL cholesterol lev
+XaEVr	Plasma HDL cholesterol level

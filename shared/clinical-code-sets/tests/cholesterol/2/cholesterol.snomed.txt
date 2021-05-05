@@ -1,0 +1,4 @@
+1005671000000105	Serum cholesterol level
+412808005	Serum total cholesterol level
+121868005	Total cholesterol measurement (procedure)
+994351000000103	Serum total cholesterol level

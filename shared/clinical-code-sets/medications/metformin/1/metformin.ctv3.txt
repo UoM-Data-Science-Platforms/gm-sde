@@ -1,0 +1,87 @@
+f41..	Metformin hydrochloride
+f411.	Glucophage 500mg tablet
+f412.	Glucophage 850mg tablet
+f413.	Orabet 500mg tablet
+f414.	Orabet 850mg tablet
+f415.	Glucamet 500 tablet
+f416.	Glucamet 850 tablet
+f417.	Glucophage SR 500mg m/r tablet
+f418.	METSOL 500mg/5mL oral solution
+f419.	GLUCOPHAGE SR 750mg m/r tablets
+f41A.	GLUCOPHAGE SR 1000mg m/r tablets
+f41B.	BOLAMYN SR 500mg m/r tablets
+f41C.	GLUCOPHAGE 500mg/sachet oral powder
+f41D.	GLUCOPHAGE 1000mg/sachet oral powder
+f41E.	METABET SR 500mg m/r tablets
+f41F.	METABET SR 1000mg m/r tablets
+f41G.	GLUCIENT SR 500mg m/r tablets
+f41H.	DIAGEMET XL 500mg m/r tablets
+f41I.	SUKKARTO SR 500mg m/r tablets
+f41J.	SUKKARTO SR 1000mg m/r tablets
+f41s.	METFORMIN HYDROCHLORIDE 1000mg/sachet oral powder
+f41t.	METFORMIN HYDROCHLORIDE 500mg/sachet oral powder
+f41u.	METFORMIN HYDROCHLORIDE 1000mg m/r tablets
+f41v.	METFORMIN HYDROCHLORIDE 750mg m/r tablets
+f41w.	METFORMIN 500mg/5mL oral solution
+f41x.	Metformin hydrochloride 500mg m/r tablet
+f41y.	Metformin hydrochloride 500mg tablet
+f41z.	Metformin hydrochloride 850mg tablet
+ft43.	Avandamet 1mg / 500mg tablet
+ft44.	Avandamet 2mg / 500mg tablet
+ft45.	Avandamet 2mg / 1000mg tablet
+ft46.	Avandamet 4mg / 1000mg tablet
+ft4u.	Rosiglitazone 2mg / Metformin 1000mg tablet
+ft4v.	Rosiglitazone 4mg / Metformin 1000mg tablet
+ft4w.	Rosiglitazone 2mg / metformin 500mg tablet
+ft4x.	Rosiglitazone 1mg / metformin 500mg tablet
+ft7..	METFORMIN + PIOGLITAZONE
+ft71.	COMPETACT 15mg/850mg tablets
+ft7z.	METFORMIN 850mg/PIOGLITAZONE 15mg tablets
+ftb..	METFORMIN + VILDAGLIPTIN
+ftb1.	EUCREAS 50mg/850mg tablets
+ftb2.	EUCREAS 50mg/1000mg tablets
+ftby.	VILDAGLIPTIN/METFORMIN 50mg/1000mg tablets
+ftbz.	VILDAGLIPTIN/METFORMIN 50mg/850mg tablets
+fte..	METFORMIN + SITAGLIPTIN
+fte1.	JANUMET 50mg/1000mg tablets
+ftez.	SITAGLIPTIN/METFORMIN HYDROCHLORIDE 50mg/1000mg tablets
+ftg..	METFORMIN + LINAGLIPTIN
+ftg1.	JENTADUETO 2.5mg/850mg tablets
+ftg2.	LINAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/850mg tablets
+ftg3.	JENTADUETO 2.5mg/1000mg tablets
+ftg4.	LINAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/1000mg tablets
+fti..	METFORMIN + SAXAGLIPTIN
+fti1.	KOMBOGLYZE 2.5mg/850mg tablets
+fti2.	SAXAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/850mg tablets
+fti3.	KOMBOGLYZE 2.5mg/1000mg tablets
+fti4.	SAXAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/1000mg tablets
+ftl..	METFORMIN + ALOGLIPTIN
+ftl1.	VIPDOMET 12.5mg/1000mg tablets
+ftl2.	ALOGLIPTIN+METFORMIN HYDROCHLORIDE 12.5mg/1000mg tablets
+ftm..	METFORMIN + DAPAGLIFLOZIN
+ftm1.	XIGDUO 5mg/850mg tablets
+ftm2.	DAPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/850mg tablets
+ftm3.	XIGDUO 5mg/1000mg tablets
+ftm4.	DAPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/1000mg tablets
+ftp..	METFORMIN + CANAGLIFLOZIN
+ftp1.	VOKANAMET 50mg/850mg tablets
+ftp2.	CANAGLIFLOZIN+METFORMIN HYDROCHLORIDE 50mg/850mg tablets
+ftp3.	VOKANAMET 50mg/1000mg tablets
+ftp4.	CANAGLIFLOZIN+METFORMIN HYDROCHLORIDE 50mg/1000mg tablets
+ftr..	METFORMIN + EMPAGLIFLOZIN
+ftr1.	SYNJARDY 5mg/850mg tablets
+ftr2.	EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/850mg tablets
+ftr3.	SYNJARDY 5mg/1000mg tablets
+ftr4.	EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/1000mg tablets
+ftr5.	SYNJARDY 12.5mg/850mg tablets
+ftr6.	EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 12.5mg/850mg tablets
+ftr7.	SYNJARDY 12.5mg/1000mg tablets
+ftr8.	EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 12.5mg/1000mg tablets
+x01Li	Metformin
+x02e3	Glucamet
+x02e6	Glucophage
+x02m0	Orabet
+x043H	Glucamet 500
+x043I	Glucamet 850
+x05ql	Avandamet
+x05vz	Glucophage SR

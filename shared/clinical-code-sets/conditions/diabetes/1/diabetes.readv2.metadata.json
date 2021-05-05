@@ -1,0 +1,39 @@
+{
+  "includeTerms": [
+    "diabetes mellitus",
+    "reaven's syndrome",
+    "metabolic syndrome",
+    "insulin-dependent diabetes",
+    "insulin dependent diabetes",
+    "maturity onset diabetes"
+  ],
+  "excludeTerms": [
+    "in remission",
+    "admin",
+    "screen",
+    "family history",
+    "excluded",
+    "suspected",
+    "fh",
+    "risk of",
+    "review",
+    "advice",
+    "glomerular disorders",
+    "due to diabetes",
+    "score",
+    "h/o",
+    "nephrotic syndrome",
+    "acute myocardial infarction",
+    "metabolic disturbance",
+    "assessment",
+    "history of"
+  ],
+  "terminology": "CTV3",
+  "version": "20180401",
+  "createdBy": {
+    "name": "Richard Williams",
+    "email": "1234richardwilliams@gmail.com"
+  },
+  "createdOn": "2020-05-29T11:18:52.450Z",
+  "lastUpdated": "2021-05-04T09:47:02.120Z"
+}

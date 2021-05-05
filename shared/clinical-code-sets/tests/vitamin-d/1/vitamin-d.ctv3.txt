@@ -1,0 +1,7 @@
+44LA.	Serum vitamin D
+Xabo0	Serum total 25-OH vit D level
+XaY6m	Total 25-hydroxyvitamin D levl
+XE2e7	Serum vitamin D level
+XaXhN	Vitamin D level
+XaXhT	Combined total vit D2 + D3 lvl
+XaXm0	25-Hydroxyvitamin D level

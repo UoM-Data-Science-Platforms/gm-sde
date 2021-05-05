@@ -1,0 +1,29 @@
+137P.00	Cigarette smoker
+137P.11	Smoker
+13p3.00	Smoking status at 52 weeks
+1374.00	Moderate smoker - 10-19 cigs/d
+137G.00	Trying to give up smoking
+137R.00	Current smoker
+1376.00	Very heavy smoker - 40+cigs/d
+1375.00	Heavy smoker - 20-39 cigs/day
+1373.00	Light smoker - 1-9 cigs/day
+137M.00	Rolls own cigarettes
+137o.00	Waterpipe tobacco consumption
+137m.00	Failed attempt to stop smoking
+137h.00	Minutes from waking to first tobacco consumption
+137g.00	Cigarette pack-years
+137f.00	Reason for restarting smoking
+137e.00	Smoking restarted
+137d.00	Not interested in stopping smoking
+137c.00	Thinking about stopping smoking
+137b.00	Ready to stop smoking
+137C.00	Keeps trying to stop smoking
+137J.00	Cigar smoker
+137H.00	Pipe smoker
+137a.00	Pipe tobacco consumption
+137Z.00	Tobacco consumption NOS
+137Y.00	Cigar consumption
+137X.00	Cigarette consumption
+137V.00	Smoking reduced
+137Q.00	Smoking started
+137Q.11	Smoking restarted

@@ -1,0 +1,2 @@
+1372.00	Trivial smoker - < 1 cig/day
+1372.11	Occasional smoker

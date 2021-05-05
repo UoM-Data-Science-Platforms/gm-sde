@@ -1,0 +1,6 @@
+bu5..	Clopidogrel
+bu51.	Clopidogrel 75mg tablet
+bu54.	CLOPIDOGREL 300mg tablets
+bu52.	Plavix 75mg tablet
+bu53.	PLAVIX 300mg tablets
+bu55.	GREPID 75mg tablets

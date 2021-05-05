@@ -1,0 +1,38 @@
+C1011	Diabetes mellitus, adult onset, with ketoacidosis
+C1021	Diabetes mellitus, adult onset, with hyperosmolar coma
+C1031	Diabetes mellitus, adult onset, with ketoacidotic coma
+C1041	Diabetes mellitus, adult onset, with renal manifestation
+C1051	Diabetes mellitus, adult onset, with ophthalmic manifestation
+C1061	Diabetes mellitus, adult onset, with neurological manifestation
+C1071	Diabetes mellitus, adult onset, with peripheral circulatory disorder
+C1090	Non-insulin-dependent diabetes mellitus with renal complications
+C1091	Non-insulin-dependent diabetes mellitus with ophthalmic complications
+C1092	Non-insulin-dependent diabetes mellitus with neurological complications
+C1093	Non-insulin-dependent diabetes mellitus with multiple complications
+C1094	Non-insulin-dependent diabetes mellitus with ulcer
+C1095	Non-insulin-dependent diabetes mellitus with gangrene
+C1096	NIDDM - Non-insulin-dependent diabetes mellitus with retinopathy
+C1097	Non-insulin-dependent diabetes mellitus - poor control
+C10y1	Diabetes mellitus, adult onset, with other specified manifestation
+C10z1	Diabetes mellitus, adult onset, with unspecified complication
+X40J5	Non-insulin-dependent diabetes mellitus
+X40J6	Insulin treated Type 2 diabetes mellitus
+X40JJ	Diabetes mellitus autosomal dominant type 2
+XE10F	Diabetes mellitus, adult onset, with no mention of complication
+XM19j	[EDTA] Diabetes Type II (non-insulin-dependent) associated with renal failure
+XaELQ	Non-insulin-dependent diabetes mellitus without complication
+XaEnp	Type II diabetes mellitus with mononeuropathy
+XaEnq	Type 2 diabetes mellitus with polyneuropathy
+XaF05	Type 2 diabetes mellitus with nephropathy
+XaFWI	Type II diabetes mellitus with hypoglycaemic coma
+XaFmA	Type II diabetes mellitus with diabetic cataract
+XaFn7	Non-insulin-dependent diabetes mellitus with peripheral angiopathy
+XaFn8	Non-insulin dependent diabetes mellitus with arthropathy
+XaFn9	Non-insulin dependent diabetes mellitus with neuropathic arthropathy
+XaIfG	Type II diabetes on insulin
+XaIfI	Type II diabetes on diet only
+XaIrf	Hyperosmolar non-ketotic state in type II diabetes mellitus
+XaIzQ	Type 2 diabetes mellitus with persistent proteinuria
+XaIzR	Type 2 diabetes mellitus with persistent microalbuminuria
+XaJQp	Type II diabetes mellitus with exudative maculopathy
+XaKyX	Type II diabetes mellitus with gastroparesis

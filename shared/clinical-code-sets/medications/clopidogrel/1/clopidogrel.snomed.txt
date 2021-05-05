@@ -1,0 +1,69 @@
+16089411000001101	Clopidogrel 11mg oral powder sachets
+16087211000001106	Clopidogrel 11mg oral powder sachets (Special Order)
+18747911000001101	Clopidogrel 1mg/ml oral suspension
+18739811000001102	Clopidogrel 1mg/ml oral suspension (Drug Tariff Special Order)
+16072911000001108	Clopidogrel 25mg/5ml oral suspension
+16060011000001104	Clopidogrel 25mg/5ml oral suspension (Special Order)
+31140711000001100	Clopidogrel 3.5mg oral powder sachets
+31135811000001101	Clopidogrel 3.5mg oral powder sachets (Special Order)
+429540001	Clopidogrel 300mg tablets
+22342711000001109	Clopidogrel 4mg oral powder sachets
+22334911000001103	Clopidogrel 4mg oral powder sachets (Special Order)
+28415011000001107	Clopidogrel 5mg oral powder sachets
+28407211000001108	Clopidogrel 5mg oral powder sachets (Special Order)
+36903411000001109	Clopidogrel 5mg/5ml oral solution
+36894011000001107	Clopidogrel 5mg/5ml oral solution (Special Order)
+30919611000001101	Clopidogrel 6mg oral powder sachets
+30874811000001100	Clopidogrel 6mg oral powder sachets (Special Order)
+32392111000001102	Clopidogrel 6mg/ml oral suspension
+32338411000001101	Clopidogrel 6mg/ml oral suspension (Special Order)
+8816311000001106	Clopidogrel 75mg oral powder sachets
+8808611000001102	Clopidogrel 75mg oral powder sachets (Special Order)
+319799004	Clopidogrel 75mg tablets
+15933611000001103	Clopidogrel 75mg tablets (A A H Pharmaceuticals Ltd)
+27841311000001100	Clopidogrel 75mg tablets (Accord Healthcare Ltd)
+15981011000001101	Clopidogrel 75mg tablets (Actavis UK Ltd)
+15927711000001100	Clopidogrel 75mg tablets (Alliance Healthcare (Distribution) Ltd)
+21643011000001107	Clopidogrel 75mg tablets (Almus Pharmaceuticals Ltd)
+15923011000001108	Clopidogrel 75mg tablets (Arrow Generics Ltd)
+18045011000001105	Clopidogrel 75mg tablets (Aspire Pharma Ltd)
+17217211000001101	Clopidogrel 75mg tablets (Consilient Health Ltd)
+13852611000001105	Clopidogrel 75mg tablets (DE Pharmaceuticals)
+30138011000001107	Clopidogrel 75mg tablets (DE Pharmaceuticals)
+17561911000001105	Clopidogrel 75mg tablets (Dexcel-Pharma Ltd)
+10484111000001109	Clopidogrel 75mg tablets (Dowelhurst Ltd)
+18474811000001106	Clopidogrel 75mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+32398611000001107	Clopidogrel 75mg tablets (Kent Pharmaceuticals Ltd)
+29667511000001107	Clopidogrel 75mg tablets (Macleods Pharma UK Ltd)
+16508911000001104	Clopidogrel 75mg tablets (Mawdsley-Brooks & Company Ltd)
+30015311000001101	Clopidogrel 75mg tablets (Mawdsley-Brooks & Company Ltd)
+23953911000001104	Clopidogrel 75mg tablets (Milpharm Ltd)
+16247711000001100	Clopidogrel 75mg tablets (Mylan)
+18221811000001107	Clopidogrel 75mg tablets (Necessity Supplies Ltd)
+17861911000001109	Clopidogrel 75mg tablets (Phoenix Healthcare Distribution Ltd)
+24108111000001101	Clopidogrel 75mg tablets (Sandoz Ltd)
+14714411000001108	Clopidogrel 75mg tablets (Sigma Pharmaceuticals Plc)
+18720411000001107	Clopidogrel 75mg tablets (Sigma Pharmaceuticals Plc)
+15926111000001104	Clopidogrel 75mg tablets (Teva UK Ltd)
+36870711000001106	Clopidogrel 75mg tablets (Torrent Pharma (UK) Ltd)
+10511211000001106	Clopidogrel 75mg tablets (Waymade Healthcare Plc)
+21936211000001107	Clopidogrel 75mg tablets (Waymade Healthcare Plc)
+18548711000001103	Clopidogrel 75mg tablets (Wockhardt UK Ltd)
+22700111000001103	Clopidogrel 75mg tablets (Zentiva)
+22402511000001104	Clopidogrel 75mg/5ml oral solution
+22244311000001106	Clopidogrel 75mg/5ml oral solution (Drug Tariff Special Order)
+8426611000001103	Clopidogrel 75mg/5ml oral suspension
+8400511000001109	Clopidogrel 75mg/5ml oral suspension (Drug Tariff Special Order)
+34682711000001102	Clopidogrel 7mg/ml oral suspension
+34676811000001103	Clopidogrel 7mg/ml oral suspension (Special Order)
+714142006	Clopidogrel in oral dosage form
+13663511000001101	Plavix 300mg tablets (Sanofi)
+13945811000001107	Plavix 75mg tablets (DE Pharmaceuticals)
+10485911000001106	Plavix 75mg tablets (Dowelhurst Ltd)
+18063411000001105	Plavix 75mg tablets (Lexon (UK) Ltd)
+17419511000001109	Plavix 75mg tablets (Mawdsley-Brooks & Company Ltd)
+17620011000001103	Plavix 75mg tablets (Necessity Supplies Ltd)
+454611000001104	Plavix 75mg tablets (Sanofi)
+14721411000001102	Plavix 75mg tablets (Sigma Pharmaceuticals Plc)
+5400911000001107	Plavix 75mg tablets (Waymade Healthcare Plc)
+15907411000001101	Grepid 75mg tablets (Kent Pharmaceuticals Ltd)
