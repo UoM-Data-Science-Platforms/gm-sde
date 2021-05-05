@@ -359,4 +359,3 @@ Lyu2900	[X]Pre-existing diabetes mellitus, unspecified
 PKyP.00	Diabetes insipidus, diabetes mellitus, optic atrophy and deafness
 Q441.00	Neonatal diabetes mellitus
 ZV13F00	[V]Personal history of gestational diabetes mellitus
-ZV65312	[V]Dietary counselling in diabetes mellitus
