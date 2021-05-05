@@ -80,7 +80,8 @@ function processParams(line, params) {
   return parameters;
 }
 
-function processFile(filename, requiredCodeSets = [], parameters) {
+function processFile(filename, requiredCodeSets = [], alreadyProcessed = {}, parameters) {
+  alreadyProcessed[filename] = true;
   const sqlLines = readFileSync(filename, 'utf8').split('\n');
   const generatedSql = sqlLines
     .map((line) => {
@@ -104,7 +105,7 @@ function processFile(filename, requiredCodeSets = [], parameters) {
         }
         requiredCodeSets = requiredCodeSets.concat(foundCodeSets);
         return `-- >>> Following codesets injected: ${foundCodeSets.join('/')}`;
-      } else if (line.trim().match(/^--> EXECUTE.+\.sql/)) {
+      } else if (line.trim().match(/^--> EXECUTE/)) {
         const [sqlFileToInsert, ...params] = line
           .replace(/^--> EXECUTE +/, '')
           .trim()
@@ -121,19 +122,25 @@ function processFile(filename, requiredCodeSets = [], parameters) {
           console.log('E.g. --> CODESET diabetes-type-i hba1c smoking-status');
           process.exit();
         }
+        const fileToInject = join(REUSABLE_DIRECTORY, sqlFileToInsert);
+        if (alreadyProcessed[fileToInject]) {
+          return `-- >>> Ignoring following query as already injected: ${sqlFileToInsert}`;
+        }
         if (params && params.length > 0) {
           const processedParameters = processParams(line, params);
           const { sql: sqlToInsert, codesets } = processFile(
-            join(REUSABLE_DIRECTORY, sqlFileToInsert),
+            fileToInject,
             requiredCodeSets,
+            alreadyProcessed,
             processedParameters
           );
           requiredCodeSets = codesets;
           return sqlToInsert;
         }
         const { sql: sqlToInsert, codesets } = processFile(
-          join(REUSABLE_DIRECTORY, sqlFileToInsert),
-          requiredCodeSets
+          fileToInject,
+          requiredCodeSets,
+          alreadyProcessed
         );
         requiredCodeSets = codesets;
         return sqlToInsert;
