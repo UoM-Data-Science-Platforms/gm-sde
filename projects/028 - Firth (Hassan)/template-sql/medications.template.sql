@@ -12,7 +12,7 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
---> EXECUTE load-code-sets.sql
+--> CODESET antipsychotics
 
 -- Define medication cohort -- 
 

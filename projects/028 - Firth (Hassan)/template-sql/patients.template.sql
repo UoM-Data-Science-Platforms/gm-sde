@@ -41,7 +41,8 @@ INTO #Patients
 FROM [RLS].vw_Patient P
 LEFT JOIN [RLS].vw_Patient_Link PL ON P.FK_Patient_Link_ID = PL.PK_Patient_Link_ID
 
---> EXECUTE load-code-sets.sql
+--> CODESET major-depression schizophrenia-psychosis bipolar severe-mental-illness
+
 --> EXECUTE query-patient-sex.sql
 --> EXECUTE query-patient-imd.sql
 --> EXECUTE query-patient-year-of-birth.sql
@@ -99,8 +100,8 @@ SELECT gp.FK_Patient_Link_ID,
 		GPPracticeCode, -- needs anonymising
 		EventDate,
 		SuppliedCode,
-		Schizophrenia_Code = CASE WHEN SuppliedCode IN 
-					( SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('schizophrenia') AND [Version] = 1 ) THEN 1 ELSE 0 END,
+		Schizophrenia_Psychosis_Code = CASE WHEN SuppliedCode IN 
+					( SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('schizophrenia-psychosis') AND [Version] = 1 ) THEN 1 ELSE 0 END,
 		Bipolar_Code = CASE WHEN SuppliedCode IN 
 					( SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('bipolar') AND [Version] = 1 ) THEN 1 ELSE 0 END,			
 		Major_Depression_Code = CASE WHEN SuppliedCode IN 
@@ -127,4 +128,17 @@ SELECT smi.*, ltc.*
 INTO #SMI_Patients
 FROM #SMI_Episodes smi
 LEFT JOIN #HistoryOfLTCs ltc on ltc.FK_Patient_Link_ID = smi.FK_Patient_Link_ID
+LEFT JOIN #COVIDVaccinations vac ON vac.FK_Patient_Link_ID = 
 
+----- APPEND ON PATIENT DEATH AND VACCINATION INFO
+
+--Death after 31.01.2020 (yes/no)
+--Death within 28 days of Covid Diagnosis (yes/no)
+--Date of death due to Covid-19 (YYYY-MM or N/A)
+--Vaccination offered (yes/no)
+--Patient refused vaccination (yes/no)
+--Date of vaccination (YYYY-MM or N/A)
+
+--> EXECUTE query-get-covid-vaccines.sql
+
+#COVIDVaccinations

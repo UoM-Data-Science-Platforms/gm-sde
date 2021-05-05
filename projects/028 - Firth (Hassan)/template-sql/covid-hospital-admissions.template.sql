@@ -15,7 +15,7 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
---> EXECUTE load-code-sets.sql
+--> CODESET severe-mental-illness
 
 -- COHORT: PATIENTS THAT HAVE AN SMI DIAGNOSIS AS OF 31.01.20
 
