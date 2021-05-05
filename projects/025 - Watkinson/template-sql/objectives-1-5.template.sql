@@ -63,8 +63,6 @@ SELECT * FROM #Temp;
 --> EXECUTE query-get-admissions-and-length-of-stay.sql
 --> EXECUTE query-admissions-covid-utilisation.sql
 
---> EXECUTE load-code-sets.sql
-
 --> EXECUTE query-get-covid-vaccines.sql
 
 --> EXECUTE query-get-flu-vaccine-eligible.sql
@@ -73,6 +71,7 @@ SELECT * FROM #Temp;
 -- 	-	eligible for a flu vaccine
 --	-	has a severe mental illness
 --	-	has a moderate clinical vulnerability to COVID code in their record
+--> CODESET moderate-clinical-vulnerability severe-mental-illness
 SELECT FK_Patient_Link_ID INTO #ModerateVulnerabilityPatients FROM [RLS].[vw_GP_Events]
 WHERE SuppliedCode IN (
 	SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('moderate-clinical-vulnerability','severe-mental-illness') AND [Version] = 1
@@ -81,11 +80,13 @@ UNION
 SELECT FK_Patient_Link_ID FROM #FluVaccPatients;
 
 -- Get patients with high covid vulnerability flag and date of first entry
+--> CODESET high-clinical-vulnerability
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS HighVulnerabilityCodeDate INTO #HighVulnerabilityPatients FROM [RLS].[vw_GP_Events]
 WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 'high-clinical-vulnerability' AND [Version] = 1)
 GROUP BY FK_Patient_Link_ID;
 
 -- Get patients with covid vaccine refusal
+--> CODESET covid-vaccine-declined
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS DateVaccineDeclined INTO #VaccineDeclinedPatients FROM [RLS].[vw_GP_Events]
 WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccine-declined' AND [Version] = 1)
 GROUP BY FK_Patient_Link_ID;

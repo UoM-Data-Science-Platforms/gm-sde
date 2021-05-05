@@ -24,8 +24,7 @@ SET NOCOUNT ON;
 DECLARE @StartDate datetime;
 SET @StartDate = '2020-01-01';
 
---> EXECUTE load-code-sets.sql
-
+--> CODESET bmi smoking-status blood-pressure cholesterol hba1c
 IF OBJECT_ID('tempdb..#KeyEvents') IS NOT NULL DROP TABLE #KeyEvents;
 SELECT CAST(EventDate AS DATE) AS EventDate, FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID, FK_Patient_Link_ID
 INTO #KeyEvents
