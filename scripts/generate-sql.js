@@ -5,6 +5,7 @@ const { createCodeSetSQL, checkCodeSetExists } = require('./code-sets');
 const EXTRACTION_SQL_DIR = 'extraction-sql';
 const TEMPLATE_SQL_DIR = 'template-sql';
 const REUSABLE_DIRECTORY = join(__dirname, '..', 'shared', 'Reusable queries for data extraction');
+const CODESET_MARKER = '[[[{{{(((CODESET_SQL)))}}}]]]';
 
 const stitch = (projectDirectory) => {
   console.log(`Finding templates in ${join(projectDirectory, TEMPLATE_SQL_DIR)}...`);
@@ -60,7 +61,9 @@ function generateSql(project, templates) {
     let codesetSql = codesets.length > 0 ? createCodeSetSQL(codesets) : '';
     const outputName = templateName.replace('.template', '');
 
-    writeFileSync(join(OUTPUT_DIRECTORY, outputName), codesetSql + sql);
+    const finalSQL = sql.replace(CODESET_MARKER, codesetSql);
+
+    writeFileSync(join(OUTPUT_DIRECTORY, outputName), finalSQL);
   });
 }
 
@@ -103,8 +106,14 @@ function processFile(filename, requiredCodeSets = [], alreadyProcessed = {}, par
           );
           process.exit();
         }
+        const textToReturn =
+          requiredCodeSets.length === 0
+            ? `-- >>> Codesets required... Inserting the code set code
+${CODESET_MARKER}
+-- >>> Following codesets injected: ${foundCodeSets.join('/')}`
+            : `-- >>> Following codesets injected: ${foundCodeSets.join('/')}`;
         requiredCodeSets = requiredCodeSets.concat(foundCodeSets);
-        return `-- >>> Following codesets injected: ${foundCodeSets.join('/')}`;
+        return `${textToReturn}`;
       } else if (line.trim().match(/^--> EXECUTE/)) {
         const [sqlFileToInsert, ...params] = line
           .replace(/^--> EXECUTE +/, '')

@@ -1,3 +1,30 @@
+--┌─────────────────────────────────┐
+--│ Primary care utilisation file 6 │
+--└─────────────────────────────────┘
+
+------------ RESEARCH DATA ENGINEER CHECK ------------
+-- GEORGE TILSTON	DATE: 23/04/21
+
+-- OUTPUT: Data with the following fields
+-- 	•	Date (YYYY-MM-DD) 
+-- 	•	CCG (Bolton/Salford/HMR/etc.)
+-- 	•	Practice (P27001/P27001/etc..)
+-- 	•	2019IMDDecile (integer 1-10)
+-- 	•	LTCGroup  (none/respiratory/mental health/cardiovascular/ etc.) 
+-- 	•	NumberBP (integer) 
+-- 	•	NumberBMI (integer) 
+-- 	•	NumberCholesterol (integer) 
+-- 	•	NumberHbA1c (integer) 
+-- 	•	NumberSmokingStatus (integer) 
+
+--Just want the output, not the messages
+SET NOCOUNT ON;
+
+-- Set the start date
+DECLARE @StartDate datetime;
+SET @StartDate = '2020-01-01';
+
+-- >>> Codesets required... Inserting the code set code
 --
 --┌────────────────────┐
 --│ Clinical code sets │
@@ -185,31 +212,6 @@ INNER JOIN (
   SELECT concept, MAX(version) AS maxVersion FROM #VersionedSnomedSets
   GROUP BY concept)
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
---┌─────────────────────────────────┐
---│ Primary care utilisation file 6 │
---└─────────────────────────────────┘
-
------------- RESEARCH DATA ENGINEER CHECK ------------
--- GEORGE TILSTON	DATE: 23/04/21
-
--- OUTPUT: Data with the following fields
--- 	•	Date (YYYY-MM-DD) 
--- 	•	CCG (Bolton/Salford/HMR/etc.)
--- 	•	Practice (P27001/P27001/etc..)
--- 	•	2019IMDDecile (integer 1-10)
--- 	•	LTCGroup  (none/respiratory/mental health/cardiovascular/ etc.) 
--- 	•	NumberBP (integer) 
--- 	•	NumberBMI (integer) 
--- 	•	NumberCholesterol (integer) 
--- 	•	NumberHbA1c (integer) 
--- 	•	NumberSmokingStatus (integer) 
-
---Just want the output, not the messages
-SET NOCOUNT ON;
-
--- Set the start date
-DECLARE @StartDate datetime;
-SET @StartDate = '2020-01-01';
 
 -- >>> Following codesets injected: bmi/smoking-status/blood-pressure/cholesterol/hba1c
 IF OBJECT_ID('tempdb..#KeyEvents') IS NOT NULL DROP TABLE #KeyEvents;
