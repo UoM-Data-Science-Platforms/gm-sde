@@ -2,16 +2,15 @@
 --│ Diabetes cohort file │
 --└──────────────────────┘
 
--- TODO change methotrexate to metformin
--- TODO add townsend index
+-- TODO add admissions and length of stay
 
 -- Cohort is diabetic patients with a positive covid test. Also a 1:5 matched cohort, 
 -- matched on year of birth (+-5 years), sex, and date of positive covid test (+-14 days).
 -- For each we provide the following:
 
 -- DEMOGRAPHIC
--- PatientId, MainCohortMatchedPatientId (NULL if patient in main cohort), YearOfBirth,
--- DeathDate, Sex, LSOA, EthnicCategoryDescription
+-- PatientId, MainCohortMatchedPatientId (NULL if patient in main cohort), YearOfBirth, DeathDate,
+-- Sex, LSOA, EthnicCategoryDescription, TownsendScoreHigherIsMoreDeprived, TownsendQuintileHigherIsMoreDeprived,
 -- COHORT SPECIFIC
 -- FirstDiagnosisDate, FirstT1DiagnosisDate, FirstT2DiagnosisDate, COVIDPositiveTestDate
 -- BIOMARKERS
@@ -76,7 +75,8 @@ FROM #CovidPatients;
 --> EXECUTE query-patient-year-of-birth.sql
 --> EXECUTE query-patient-sex.sql
 --> EXECUTE query-patient-lsoa.sql
---> EXECUTE query-get-admissions-and-length-of-stay
+--> EXECUTE query-patient-townsend.sql
+--> EXECUTE query-get-admissions-and-length-of-stay.sql
 
 -- Define the main cohort that will be matched
 IF OBJECT_ID('tempdb..#MainCohort') IS NOT NULL DROP TABLE #MainCohort;
@@ -371,6 +371,8 @@ SELECT
   DeathDate,
   Sex,
   LSOA_Code AS LSOA,
+  TownsendScoreHigherIsMoreDeprived,
+  TownsendQuintileHigherIsMoreDeprived,
   FirstDiagnosisDate,
   FirstT1DiagnosisDate,
   FirstT2DiagnosisDate,
@@ -394,6 +396,7 @@ SELECT
 FROM #MainCohort m
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesBMI bmi ON bmi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientTownsend town ON town.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesHBA1C hba1c ON hba1c.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesCHOLESTEROL cholesterol ON cholesterol.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesLDL ldl ON ldl.FK_Patient_Link_ID = m.FK_Patient_Link_ID
@@ -414,6 +417,8 @@ SELECT
   DeathDate,
   Sex,
   LSOA_Code AS LSOA,
+  TownsendScoreHigherIsMoreDeprived,
+  TownsendQuintileHigherIsMoreDeprived,
   NULL AS FirstDiagnosisDate,
   NULL AS FirstT1DiagnosisDate,
   NULL AS FirstT2DiagnosisDate,

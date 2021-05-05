@@ -2,7 +2,8 @@
 --│ HbA1c file │
 --└────────────┘
 
--- Cohort is diabetic patients with a positive covid test
+-- For each patient with a COVID positive test, this produces 2 years of hbA1c readings
+-- leading up to the date of the positive test.
 
 --> CODESET hba1c
 
