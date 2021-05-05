@@ -89,8 +89,6 @@ UPDATE #AllPatientSmokingStatusConcept
 SET Severity = 0
 WHERE Concept IN ('smoking-status-currently-not');
 
-select * from #AllPatientSmokingStatusConcept where Severity < 0;
-
 -- passive smokers
 IF OBJECT_ID('tempdb..#TempPassiveSmokers') IS NOT NULL DROP TABLE #TempPassiveSmokers;
 select DISTINCT FK_Patient_Link_ID into #TempPassiveSmokers from #AllPatientSmokingStatusConcept

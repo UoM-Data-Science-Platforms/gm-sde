@@ -21,7 +21,7 @@
 --	- YearOfBirth - Integer
 
 -- OUTPUT: A temp table as follows:
--- #CohortStore (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, AdmissionType)
+-- #CohortStore (FK_Patient_Link_ID, YearOfBirth, Sex, IndexDate, MatchingPatientId, MatchingYearOfBirth, MatchingIndexDate)
 --  - FK_Patient_Link_ID - unique patient id for primary cohort patient
 --  - YearOfBirth - of the primary cohort patient
 --  - Sex - of the primary cohort patient
