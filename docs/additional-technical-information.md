@@ -38,6 +38,5 @@ This launches a command line interface that allows you to specify what you want 
 
 - Evaulate the existing code sets to check they conform to our standards (such as naming convention, file format etc..)
 - Create a new clinical code set
-- Generate the SQL required for injecting clinical code sets
 - Generate the SQL specific to long term conditions
 - Generate documentation for the reusable SQL queries
