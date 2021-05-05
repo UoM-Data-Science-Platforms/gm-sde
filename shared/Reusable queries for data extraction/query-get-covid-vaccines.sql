@@ -23,6 +23,7 @@
 --	- DaysSinceFirstVaccine - 0 if first vaccine, > 0 otherwise
 
 -- Get patients with covid vaccine and earliest and latest date
+--> CODESET covid-vaccination
 IF OBJECT_ID('tempdb..#COVIDVaccines') IS NOT NULL DROP TABLE #COVIDVaccines;
 SELECT 
   FK_Patient_Link_ID, 

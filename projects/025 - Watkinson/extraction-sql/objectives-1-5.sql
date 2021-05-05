@@ -47,7 +47,9 @@ VALUES ('covid-vaccine-declined',1,'8IAI.00','2019-nCoV (novel coronavirus) vacc
 INSERT INTO #codesreadv2
 VALUES ('high-clinical-vulnerability',1,'14Or.','High risk category for developing complications from COVID-19 severe acute respiratory syndrome coronavirus infection (finding)'),('high-clinical-vulnerability',1,'14Or.00','High risk category for developing complications from COVID-19 severe acute respiratory syndrome coronavirus infection (finding)'),('high-clinical-vulnerability',1,'9d44.','Risk of exposure to communicable disease (situation)'),('high-clinical-vulnerability',1,'9d44.00','Risk of exposure to communicable disease (situation)');
 INSERT INTO #codesreadv2
-VALUES ('moderate-clinical-vulnerability',1,'14Oq.','Moderate risk category for developing complications from COVID-19'),('moderate-clinical-vulnerability',1,'14Oq.00','Moderate risk category for developing complications from COVID-19')
+VALUES ('moderate-clinical-vulnerability',1,'14Oq.','Moderate risk category for developing complications from COVID-19'),('moderate-clinical-vulnerability',1,'14Oq.00','Moderate risk category for developing complications from COVID-19');
+INSERT INTO #codesreadv2
+VALUES ('covid-vaccination',1,'65F0.','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F0.00','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F0100','Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'65F01','Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'65F0200','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F02','2019-nCoV (novel coronavirus) vaccination')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code] from #codesreadv2;
@@ -69,7 +71,9 @@ VALUES ('covid-vaccine-declined',1,'Y29ed','SARS-CoV-2 vaccination first dose de
 INSERT INTO #codesctv3
 VALUES ('high-clinical-vulnerability',1,'Y228a','High risk category for developing complications from COVID-19 severe acute respiratory syndrome coronavirus infection');
 INSERT INTO #codesctv3
-VALUES ('moderate-clinical-vulnerability',1,'Y228b','Moderate risk category for developing complication from coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2 infection (finding)')
+VALUES ('moderate-clinical-vulnerability',1,'Y228b','Moderate risk category for developing complication from coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2 infection (finding)');
+INSERT INTO #codesctv3
+VALUES ('covid-vaccination',1,'Y210d','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'Y29e7','Administration of first dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y29e8','Administration of second dose of SARS-CoV-2 vaccine')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code] from #codesctv3;
@@ -94,7 +98,9 @@ VALUES ('covid-vaccine-declined',1,'1324721000000108','Severe acute respiratory 
 INSERT INTO #codessnomed
 VALUES ('high-clinical-vulnerability',1,'1300561000000107','High risk category for developing complication from coronavirus disease caused by severe acute respiratory syndrome coronavirus infection (finding)');
 INSERT INTO #codessnomed
-VALUES ('moderate-clinical-vulnerability',1,'1300571000000100','Moderate risk category for developing complication from coronavirus disease caused by severe acute respiratory syndrome coronavirus infection (finding)')
+VALUES ('moderate-clinical-vulnerability',1,'1300571000000100','Moderate risk category for developing complication from coronavirus disease caused by severe acute respiratory syndrome coronavirus infection (finding)');
+INSERT INTO #codessnomed
+VALUES ('covid-vaccination',1,'1240491000000103','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'2807821000000115','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'840534001','Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code] from #codessnomed;
@@ -112,7 +118,9 @@ VALUES ('covid-vaccine-declined',1,'^ESCT1348329','SARS-CoV-2 (severe acute resp
 INSERT INTO #codesemis
 VALUES ('high-clinical-vulnerability',1,'^ESCT1300222','High risk category for developing complications from COVID-19 infection');
 INSERT INTO #codesemis
-VALUES ('moderate-clinical-vulnerability',1,'^ESCT1300223','Moderate risk category for developing complications from COVID-19 infection')
+VALUES ('moderate-clinical-vulnerability',1,'^ESCT1300223','Moderate risk category for developing complications from COVID-19 infection');
+INSERT INTO #codesemis
+VALUES ('covid-vaccination',1,'^ESCT1348323','Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'COCO138186NEMIS','COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)'),('covid-vaccination',1,'^ESCT1348325','Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348298','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'^ESCT1348301','COVID-19 vaccination'),('covid-vaccination',1,'^ESCT1299050','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'^ESCT1301222','??2019-nCoV (novel coronavirus) vaccination??')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code] from #codesemis;
@@ -667,6 +675,7 @@ LEFT OUTER join #CovidCases c ON
 --	- DaysSinceFirstVaccine - 0 if first vaccine, > 0 otherwise
 
 -- Get patients with covid vaccine and earliest and latest date
+-- >>> Following codesets injected: covid-vaccination
 IF OBJECT_ID('tempdb..#COVIDVaccines') IS NOT NULL DROP TABLE #COVIDVaccines;
 SELECT 
   FK_Patient_Link_ID, 
