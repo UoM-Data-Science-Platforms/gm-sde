@@ -151,26 +151,6 @@ A temp table as follows:
 _File_: `query-classify-secondary-admissions.sql`
 
 ---
-## Clinical code sets
-To populate temporary tables with the existing clinical code sets. See the [SQL-generation-process.md](SQL-generation-process.md) for more details.
-
-_Input_
-```
-No pre-requisites
-```
-
-_Output_
-```
-Five temp tables as follows:
-  #AllCodes (Concept, Version, Code)
-  #CodeSets (FK_Reference_Coding_ID, Concept)
-  #SnomedSets (FK_Reference_SnomedCT_ID, FK_SNOMED_ID)
-  #VersionedCodeSets (FK_Reference_Coding_ID, Concept, Version)
-  #VersionedSnomedSets (FK_Reference_SnomedCT_ID, Version, FK_SNOMED_ID)
-```
-_File_: `load-code-sets.sql`
-
----
 ## Cohort matching on year of birth / sex / and an index date
 To take a primary cohort and find a 1:5 matched cohort based on year of birth, sex, and an index date of an event.
 
@@ -195,7 +175,7 @@ Takes two parameters
 _Output_
 ```
 A temp table as follows:
- #CohortStore (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, AdmissionType)
+ #CohortStore (FK_Patient_Link_ID, YearOfBirth, Sex, IndexDate, MatchingPatientId, MatchingYearOfBirth, MatchingIndexDate)
   - FK_Patient_Link_ID - unique patient id for primary cohort patient
   - YearOfBirth - of the primary cohort patient
   - Sex - of the primary cohort patient
@@ -466,6 +446,49 @@ A temp table as follows:
 	- Sex - M/F
 ```
 _File_: `query-patient-sex.sql`
+
+---
+## Smoking status
+To get the smoking status for each patient in a cohort.
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientSmokingStatus (FK_Patient_Link_ID, PassiveSmoker, WorstSmokingStatus, CurrentSmokingStatus)
+ 	- FK_Patient_Link_ID - unique patient id
+	-	PassiveSmoker - Y/N (whether a patient has ever had a code for passive smoking)
+	-	WorstSmokingStatus - [non-trivial-smoker/trivial-smoker/non-smoker]
+	-	CurrentSmokingStatus - [non-trivial-smoker/trivial-smoker/non-smoker]
+```
+_File_: `query-patient-smoking-status.sql`
+
+---
+## Townsend Score (2011)
+To get the 2011 Townsend score and quintile for each patient.
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientTownsend (FK_Patient_Link_ID, TownsendScoreHigherIsMoreDeprived, TownsendQuintileHigherIsMoreDeprived)
+ 	- FK_Patient_Link_ID - unique patient id
+	- TownsendScoreHigherIsMoreDeprived - number range approx [-7,13]
+	- TownsendQuintileHigherIsMoreDeprived - number 1 to 5 inclusive
+```
+_File_: `query-patient-townsend.sql`
 
 ---
 ## Year of birth

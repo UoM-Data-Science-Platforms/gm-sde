@@ -206,6 +206,8 @@ The SQL file referenced should exist under [./shared/Reusable queries for data e
 
 Any query that requires code sets should include the following in the template prior to using the code sets:
 
+TODO - this is out of date
+
 ```sql
 --> EXECUTE load-code-sets.sql
 ```
