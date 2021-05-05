@@ -1,0 +1,85 @@
+blm..	*ISMN+ASPIRIN
+blm1.	*IMAZIN XL 60mg/75mg m/r tabs
+blm2.	*IMAZIN XL FORT 60/150 m/r tab
+blmy.	*ISMN+ASPIRIN 60/150mg m/r tab
+blmz.	*ISMN+ASPIRIN 60/75mg m/r tabs
+bu2..	ASPIRIN [ANTIPLATELET]
+bu21.	*ASPIRIN 100mg eff tabs
+bu22.	*PLATET 100mg eff tabs
+bu23.	ASPIRIN 75mg disp tabs
+bu24.	*ANGETTES 75mg tablets
+bu25.	*ASPIRIN 75mg tablets
+bu26.	*PLATET 300mg eff tabs
+bu27.	*ASPIRIN 300mg eff tabs
+bu28.	*DISPRIN CV 100mg m/r tablets
+bu29.	*ASPIRIN 100mg m/r tablets
+bu2a.	*DISPRIN CV 300mg m/r tablets
+bu2A.	NU-SEALS ASPIRIN 75mg e/c tabs
+bu2b.	*ASPIRIN 300mg m/r tablets
+bu2B.	ASPIRIN 75mg e/c tablets
+bu2c.	ASPIRIN 75mg soluble tablets
+bu2C.	*POSTMI 300mg e/c tablets
+bu2d.	FLAMASACARD 162.5mg m/r caps
+bu2D.	*POSTMI 75mg dispersible tabs
+bu2E.	*POSTMI 75mg e/c tablets
+bu2F.	CAPRIN 75mg e/c tablets
+bu2G.	*NU-SEALS CARDIO 75 e/c tabs
+bu2H.	*ENPRIN 75mg e/c tablets
+bu2I.	ASPIRIN 162.5mg m/r capsules
+bu2J.	*CASPAC XL 162.5mg m/r caps
+bu2K.	MICROPIRIN 75mg e/c tablets
+bu4..	DIPYRIDAMOLE+ASPIRIN
+bu41.	DIPYRID+ASP 200mg/25mg m/r cap
+bu42.	ASASANTIN RETARD m/r capsules
+bu43.	MOLITA 200mg/25mg m/r capsules
+di1..	ASPIRIN [CNS]
+di11.	ASPIRIN [CNS] 300mg tablets
+di12.	ASPIRIN [CNS] 300mg disp tabs
+di13.	*ASPIRIN 75mg disp tabs
+di14.	*ASPERGUM 227mg chewing gum
+di15.	*CLARADIN 300mg tablets
+di16.	*LABOPRIN 300mg tablets
+di17.	*PAYNOCIL 600mg tablets
+di18.	*SOLPRIN 300mg disp tabs
+di19.	*ASPIRIN 500mg m/r tablets
+di1a.	*CAPRIN 324mg e/c tablets
+di1b.	*LEVIUS 500mg m/r tablets
+di1c.	NU-SEALS ASPIRIN 300mg e/ctabs
+di1d.	*NU-SEALS ASPIRIN 600mg tabs
+di1e.	*PALAPRIN FORTE 600mg tablets
+di1f.	ASPIRIN 300mg e/c tablets
+di1g.	*ASPIRIN 600mg e/c tablets
+di1h.	*ASPIRIN 324mg e/c tablets
+di1i.	*ASPIRIN 600mg tablets
+di1j.	*LABOPRIN DL 900mg sachets
+di1k.	CAPRIN 300mg e/c tablets
+di1m.	ASPIRIN 300mg soluble tablets
+di1n.	ASPIRIN 300mg suppositories
+di1o.	ASPIRIN 150mg suppositories
+di1r.	DISPRIN 300mg disp tabs
+j11..	ASPIRIN [MUSCULOSKELETAL USE]
+j111.	ASPIRIN 300mg tablets
+j112.	ASPIRIN 300mg disp tablets
+dia1.	PARACETAMOL + ASPIRIN & CODEINE tabs 250mg+250mg+6.8mg
+dia4.	ASPIRIN + CODEINE tabs 400mg + 8mg
+dia5.	ASPIRIN + CODEINE disp tab 400mg + 8mg
+diaO.	CO-CODAPRIN sol tab 8mg+500mg
+dl1b.	Aspirin 900mg / Metoclopramide 10mg oral powder sachets s...
+dia8.	*ANTOIN dispersible tablets
+dia9.	*ASPAV dispersible tablets
+diaB.	BEECHAMS powders
+diaD.	ANADIN EXTRA tablets
+diaE.	ALKA-SELTZER tablets
+diaG.	*ASPIRIN+PAPAVE 500/7.71mg tab
+diaP.	CODIS 500 dispersible tablets
+diab.	*CODIS dispersible tablets
+diae.	*DOLOXENE COMPOUND capsules
+diaf.	*EQUAGESIC tablets
+diai.	*HYPON tablets
+diay.	ANADIN tablets
+diaz.	ASKIT powder
+dibk.	*ROBAXISAL FORTE tablets
+dibq.	*TRANCOPRIN tablets
+dibs.	VEGANIN tablets
+dicH.	PHENSIC tablets
+dl1C.	MIGRAMAX sachet powder

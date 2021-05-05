@@ -1,0 +1,91 @@
+ANTA9568BRIDL	Angettes 75  Tablets  75 mg
+ASDI223	Aspirin  Dispersible tablets  
+ASDI224	Aspirin  Dispersible tablets  
+ASDI33798MGEMIS	Aspirin  Dispersible tablets  
+ASDI33799MGEMIS	Aspirin  Dispersible tablets  
+ASDI33800MGEMIS	Aspirin  Dispersible tablets  
+ASDI33801MGEMIS	Aspirin  Dispersible tablets  
+ASDI33802MGEMIS	Aspirin  Dispersible tablets  
+ASDI33803MGEMIS	Aspirin  Dispersible tablets  
+ASDI33804MGEMIS	Aspirin  Dispersible tablets  
+ASDI33805MGEMIS	Aspirin  Dispersible tablets  
+ASDI33806MGEMIS	Aspirin  Dispersible tablets  
+ASDI33807MGEMIS	Aspirin  Dispersible tablets  
+ASDI33808MGEMIS	Aspirin  Dispersible tablets  
+ASDI33809MGEMIS	Aspirin  Dispersible tablets  
+ASDI33810MGEMIS	Aspirin  Dispersible tablets  
+ASDI33811MGEMIS	Aspirin  Dispersible tablets  
+ASE/24520EMIS	Aspirin  E/c tablets  75 mg
+ASE/24522EMIS	Aspirin  E/c tablets  300 mg
+ASE/26084EMIS	Aspirin  E/c tablets  600 mg
+ASE/33812MGEMIS	Aspirin  E/c tablets  75 mg (K
+ASE/33813MGEMIS	Aspirin  E/c tablets  75 mg (A
+ASE/33814MGEMIS	Aspirin  E/c tablets  75 mg (A
+ASE/33815MGEMIS	Aspirin  E/c tablets  75 mg (T
+ASE/33816MGEMIS	Aspirin  E/c tablets  75 mg (U
+ASE/33817MGEMIS	Aspirin  E/c tablets  75 mg (S
+ASE/33818MGEMIS	Aspirin  E/c tablets  75 mg (S
+ASE/33819MGEMIS	Aspirin  E/c tablets  75 mg (I
+ASE/33820MGEMIS	Aspirin  E/c tablets  75 mg (G
+ASE/33821MGEMIS	Aspirin  E/c tablets  75 mg (C
+ASE/33822MGEMIS	Aspirin  E/c tablets  300 mg (
+ASE/33823MGEMIS	Aspirin  E/c tablets  300 mg (
+ASE/33824MGEMIS	Aspirin  E/c tablets  300 mg (
+ASE/33825MGEMIS	Aspirin  E/c tablets  300 mg (
+ASE/33826MGEMIS	Aspirin  E/c tablets  300 mg (
+ASE/37491NEMIS	Aspirin Protect  E/c tablets  
+ASM/22792EMIS	Aspirin  M/R tablets  100 mg
+ASM/22793EMIS	Aspirin  M/R tablets  300 mg
+ASM/33164EMIS	Asasantin Retard  M/R capsules
+ASPO24105NEMIS	Aspirin  Powder Sachets Lactos
+ASS/9158HILLI	Aspirin  E/c tablets  324 mg
+ASSU3023NEMIS	Aspirin  Suppositories  300 mg
+ASSU3024NEMIS	Aspirin  Suppositories  150 mg
+ASSU37686MGEMIS	Aspirin  Suppositories  300 mg
+ASSU37687MGEMIS	Aspirin  Suppositories  300 mg
+ASSU37688MGEMIS	Aspirin  Suppositories  300 mg
+ASSU37689MGEMIS	Aspirin  Suppositories  300 mg
+ASTA10221BRIDL	Aspirin E/C  Tablets  300 mg
+ASTA225	Aspirin  Tablets  300 mg
+ASTA33850MGEMIS	Aspirin  Tablets  300 mg (Kent
+ASTA33851MGEMIS	Aspirin  Tablets  300 mg (Unic
+ASTA33852MGEMIS	Aspirin  Tablets  300 mg (Alph
+ASTA33853MGEMIS	Aspirin  Tablets  300 mg (OBG 
+ASTA33854MGEMIS	Aspirin  Tablets  300 mg (Aspa
+ASTA33855MGEMIS	Aspirin  Tablets  300 mg (A.A.
+ASTA33856MGEMIS	Aspirin  Tablets  300 mg (Vant
+ASTA33857MGEMIS	Aspirin  Tablets  300 mg (Lloy
+ASTA4609	Aspirin  Tablets  75 mg
+ASTA5694	Aspirin Dispersible Low Dose  
+ASTA5696	Aspergum  Chewable tablets  22
+ASTA6958	Aspirin  Tablets  500 mg
+ASTA7014	Aspirin  Tablets  600 mg
+ASTA9082HILLI	Aspirin E/C  Tablets  600 mg
+CACA32883EMIS	Caspac Xl  Capsules  162.5 mg
+CAE/28376EMIS	Caprin  E/c tablets  75 mg
+CATA3282	Caprin  E/c tablets  300 mg
+DIM/18533NEMIS	Dipyridamole And Aspirin  M/R 
+DIM/22788EMIS	Disprin Cv  M/R tablets  100 m
+DIM/22789EMIS	Disprin Cv  M/R tablets  300 m
+ENE/35388EMIS	Enprin  E/c tablets  75 mg
+IMM/35359EMIS	Imazin Xl  M/R tablets  
+IMM/35362EMIS	Imazin Xl Forte  M/R tablets  
+ISM/18556NEMIS	Isosorbide Mononitrate And Asp
+ISM/18557NEMIS	Isosorbide Mononitrate And Asp
+LETA3828	Levius  Tablets  500 mg
+MIE/6437NEMIS	Micropirin  E/c tablets  75 mg
+NUE/24518EMIS	Nu-Seals Aspirin  E/c tablets 
+NUTA2039	Nu-Seals Aspirin  E/c tablets 
+NUTA2040	Nu-Seals Aspirin  E/c tablets 
+PATA4105	Palaprin Forte  Tablets
+PATA5699	Paynocil  Tablets
+PLEF8526EGTON	Platet 300  Effervescent table
+PLEF8528EGTON	Platet  Effervescent tablets  
+PODI27089EMIS	Postmi 75  Dispersible tablets
+POE/24317EMIS	Postmi 300  E/c tablets  300 m
+POE/26999EMIS	Postmi 75  E/c tablets  75 mg
+SOTA2638	Soluble Aspirin  Tablets  300 
+SOTA2639	Soluble Aspirin Paediatric  Ta
+SOTA5701	Solprin  Tablets  300 mg
+ASDI21516NEMIS	Aspirin And Papaveretum  Dispersible Tablets Sugar Free  500 mg + 7.71 mg
+ASSA21346NEMIS	Aspirin 900mg / Metoclopramide 10mg oral powder sachets sugar free

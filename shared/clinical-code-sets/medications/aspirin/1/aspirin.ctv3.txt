@@ -1,0 +1,123 @@
+bu2..%	Antiplatelet aspirin
+bu25.	Aspirin 75mg tablet
+bu24.	Angettes 75mg tablet
+bu23.	Aspirin 75mg dispersible tablet
+bu2D.	postMI 75mg dispersible tablet
+bu2B.	Aspirin 75mg e/c tablet
+bu2F.	Caprin 75mg e/c tablet
+bu2H.	Enprin 75mg e/c tablet
+bu2K.	Micropirin 75mg e/c tablet
+bu2A.	Nu-Seals Aspirin 75mg e/c tablet
+bu2G.	Nu-Seals Cardio 75 e/c tablet
+bu2E.	postMI 75mg e/c tablet
+bu2c.	Aspirin 75mg soluble tablet
+bu21.	Aspirin 100mg effervescent tablet
+bu22.	Platet 100mg effervescent tablet
+bu29.	Aspirin 100mg m/r tablet
+bu28.	Disprin CV 100mg m/r tablet
+bu27.	Aspirin 300mg effervescent tablet
+bu26.	Platet 300mg effervescent tablet
+di1f.	Aspirin 300mg e/c tablet
+bu2C.	postMI 300mg e/c tablet
+di1k.	Caprin 300mg e/c tablet
+di1c.	Nu-Seals Aspirin 300mg e/c tablet
+bu2b.	Aspirin 300mg m/r tablet
+bu2a.	Disprin CV 300mg m/r tablet
+bu2I.	Aspirin 162.5mg m/r capsule
+bu2J.	Caspac XL 162.5mg m/r capsule
+blm..	Isosorbide mononitrate+aspirin
+blmz.	Isosorbide mononitrate+aspirin 60mg/75mg m/r tablet
+blm1.	IMAZIN XL 60mg/75mg m/r tablet
+blmy.	Isosorbide mononitrate+aspirin 60mg/150mg m/r tablet
+blm2.	IMAZIN XL forte 60mg/150mg m/r tablet
+bu2d.	FLAMASACARD 162.5mg m/r capsules
+bu4..%	Dipyridamole+aspirin
+bu41.	Dipyridamole+aspirin 200mg/25mg m/r capsule
+bu42.	Asasantin Retard m/r capsule
+bu43.	MOLITA 200mg/25mg m/r capsules
+dibs.	Veganin tablet
+dl1C.	MigraMax sachet powder
+x02LX%	Aspirin
+x04tL%	Oral aspirin
+bu25.	Aspirin 75mg tablet
+bu24.	Angettes 75mg tablet
+bu23.	Aspirin 75mg dispersible tablet
+bu2D.	postMI 75mg dispersible tablet
+bu2B.	Aspirin 75mg e/c tablet
+bu2F.	Caprin 75mg e/c tablet
+bu2H.	Enprin 75mg e/c tablet
+bu2K.	Micropirin 75mg e/c tablet
+bu2A.	Nu-Seals Aspirin 75mg e/c tablet
+bu2G.	Nu-Seals Cardio 75 e/c tablet
+bu2E.	postMI 75mg e/c tablet
+bu2c.	Aspirin 75mg soluble tablet
+bu21.	Aspirin 100mg effervescent tablet
+bu22.	Platet 100mg effervescent tablet
+bu29.	Aspirin 100mg m/r tablet
+bu28.	Disprin CV 100mg m/r tablet
+j111.	Aspirin 300mg tablet
+di15.	Claradin 300mg tablet
+di16.	Laboprin 300mg tablet
+di11.	Aspirin [CNS] 300mg tablet
+j112.	Aspirin 300mg dispersible tablet
+di1r.	Disprin 300mg dispersible tablet
+di18.	Solprin 300mg dispersible tablet
+di12.	Aspirin [CNS] 300mg dispersible tablet
+bu27.	Aspirin 300mg effervescent tablet
+bu26.	Platet 300mg effervescent tablet
+di1m.	Aspirin 300mg soluble tablet
+di1f.	Aspirin 300mg e/c tablet
+bu2C.	postMI 300mg e/c tablet
+di1k.	Caprin 300mg e/c tablet
+di1c.	Nu-Seals Aspirin 300mg e/c tablet
+bu2b.	Aspirin 300mg m/r tablet
+bu2a.	Disprin CV 300mg m/r tablet
+di1h.	Aspirin 324mg e/c tablet
+di1a.	Caprin 324mg e/c tablet
+di19.	Aspirin 500mg m/r tablet
+x02AA	Anadin All-Night 500mg m/r tablet
+di1b.	Levius 500mg m/r tablet
+di1p.	Aspirin 500mg soluble tablet
+di1q.	Aspro Clear Maximum Strength soluble tablet
+di1i.	Aspirin 600mg tablet
+di17.	Paynocil 600mg tablet
+di1e.	Palaprin Forte 600mg tablet
+di1g.	Aspirin 600mg e/c tablet
+di1d.	Nu-Seals Aspirin 600mg e/c tablet
+bu2I.	Aspirin 162.5mg m/r capsule
+bu2J.	Caspac XL 162.5mg m/r capsule
+di14.	Aspergum 227mg chewing gum
+di1j.	Laboprin DL 900mg sachet
+x01Kv	Aspirin tablets
+x01Kw%	Rectal Aspirin
+di1o.	Aspirin 150mg suppository
+di1n.	Aspirin 300mg suppository
+x01Kx%	Aspirin compound preparation
+x000x	Co-codaprin
+dia4.	Co-codaprin 8mg/400mg tablet
+dia5.	Co-codaprin 8mg/400mg dispersible tablet
+diab.	Codis dispersible tablet
+diaO.	Co-codaprin 8mg/500mg dispersible tablet
+diaP.	Codis 500 dispersible tablet
+x00et	Aspirin+codeine 300mg/8mg tablet
+x00I6	Aspirin+glycine 500mg/133mg dispersible tablet
+x00I7	Disprin Direct dispersible tablet
+dibA.	Aspirin+methocarbamol 325mg/400mg tablet
+dibk.	Robaxisal Forte tablet
+diaG.	Aspirin+papaveretum 500mg/7.71mg dispersible tablet
+dia9.	Aspav dispersible tablet
+diaE.	Alka-Seltzer tablet
+diay.	Anadin tablet
+diaD.	Anadin Extra tablet
+dia8.	Antoin dispersible tablet
+diaz.	Askit powder
+diaB.	Beechams powder
+diae.	Doloxene Compound capsule
+diaf.	Equagesic tablet
+diai.	Hypon tablet
+dicH.	Phensic tablet
+dibq.	Trancoprin tablet
+dia1.	Aspirin/paracetamol/codeine tablets
+diat.	Aspirin+papaveretum 500mg/10mg dispersible tablet
+di1..	Aspirin [central nervous system use]
+j11..	Aspirin [musculoskeletal use]
