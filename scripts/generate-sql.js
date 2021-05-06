@@ -69,17 +69,33 @@ function generateSql(project, templates) {
 
 function processParams(line, params) {
   const parameters = {};
-  params.forEach((param) => {
-    if (!param.match(/^[^ :]+:[^ :]+$/)) {
-      console.log('The following line has invalid parameters:');
-      console.log(line);
-      console.log('They should appear as follows:');
-      console.log('--> EXECUTE query.sql param-1-name:param1value param-2-name:param2value');
-      process.exit();
+  while (params.match(/^[^ :]+:/)) {
+    const [, name, rest] = params.match(/^([^ :]+):(.*)$/);
+    const singleQuoteMatch = rest.match(/^'([^']+)'(.*)$/);
+    const doubleQuoteMatch = rest.match(/^"([^"]+)"(.*)$/);
+    if (singleQuoteMatch) {
+      const [, value, x] = singleQuoteMatch;
+      parameters[name] = value;
+      params = x.trim();
+    } else if (doubleQuoteMatch) {
+      const [, value, x] = doubleQuoteMatch;
+      parameters[name] = value;
+      params = x.trim();
+    } else {
+      const [value, ...y] = rest.split(' ');
+      parameters[name] = value;
+      params = y.join(' ').trim();
     }
-    const [name, value] = param.split(':');
-    parameters[name] = value;
-  });
+  }
+  if (params.trim().length > 0) {
+    console.log('The following line has invalid parameters:');
+    console.log(line);
+    console.log('They should appear as follows:');
+    console.log('--> EXECUTE query.sql param-1-name:param1value param-2-name:param2value');
+    console.log('NB string parameters with spaces should be enclosed in "s. E.g.');
+    console.log('--> EXECUTE query.sql param-1-name:"param1 value" param-2-name:"param2 value"');
+    process.exit();
+  }
   return parameters;
 }
 
@@ -136,7 +152,7 @@ ${CODESET_MARKER}
           return `-- >>> Ignoring following query as already injected: ${sqlFileToInsert}`;
         }
         if (params && params.length > 0) {
-          const processedParameters = processParams(line, params);
+          const processedParameters = processParams(line, params.join(' '));
           const { sql: sqlToInsert, codesets } = processFile(
             fileToInject,
             requiredCodeSets,
@@ -176,5 +192,5 @@ ${CODESET_MARKER}
     .join('\n');
   return { sql: generatedSql, codesets: requiredCodeSets };
 }
-//stitch(join(__dirname, '..', 'projects', '020 - Heald'));
+// stitch(join(__dirname, '..', 'projects', '017 - Humphreys'));
 module.exports = { stitch };

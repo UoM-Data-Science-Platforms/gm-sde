@@ -16,6 +16,20 @@
 SET NOCOUNT ON;
 
 -- For now let's use the in-built QOF rule for the RA cohort. We can refine this over time
+--┌──────────────────────────────────────────────────────┐
+--│ Create a cohort of patients based on QOF definitions │
+--└──────────────────────────────────────────────────────┘
+
+-- OBJECTIVE: To obtain a cohort of patients defined by a particular QOF condition.
+
+-- INPUT: Takes two parameters
+--  - condition: string - the name of the QOF condition as recorded in the SharedCare.Cohort_Category table
+--  - outputtable: string - the name of the temp table that will be created to store the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #[outputtable] (FK_Patient_Link_ID)
+--  - FK_Patient_Link_ID - unique patient id for cohort patient
+
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #Patients
