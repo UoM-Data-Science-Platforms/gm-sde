@@ -2,6 +2,9 @@
 --│ Patient orders │
 --└────────────────┘
 
+------------------- RDE CHECK ---------------------
+-- RDE Name: George Tilston, Date checked: 06/05/21
+
 -- OUTPUT: Data with the following fields
 -- 	- PatientId (int)
 -- 	- ResultType

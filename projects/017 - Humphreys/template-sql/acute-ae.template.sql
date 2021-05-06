@@ -2,6 +2,9 @@
 --│ Acute A&E data │
 --└────────────────┘
 
+------------- RDE CHECK --------------
+-- RDE Name: George Tilston, Date of check: 06/05/21
+
 -- OUTPUT: Data with the following fields
 -- 	- PatientId (int)
 -- 	- AttendanceDate (YYYY-MM-DD)

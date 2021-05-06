@@ -2,6 +2,9 @@
 --│ GP Events │
 --└───────────┘
 
+------------- RDE CHECK --------------
+-- RDE Name: George Tilston, Date of check: 06/05/21
+
 -- All GP events for the cohort of RA patients
 
 -- OUTPUT: Data with the following fields
