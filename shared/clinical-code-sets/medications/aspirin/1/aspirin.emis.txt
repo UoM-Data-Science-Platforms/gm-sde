@@ -89,3 +89,22 @@ SOTA2639	Soluble Aspirin Paediatric  Ta
 SOTA5701	Solprin  Tablets  300 mg
 ASDI21516NEMIS	Aspirin And Papaveretum  Dispersible Tablets Sugar Free  500 mg + 7.71 mg
 ASSA21346NEMIS	Aspirin 900mg / Metoclopramide 10mg oral powder sachets sugar free
+ASPO3910NEMIS	Aspirin  Powder  BP
+ASTA3198	Aspav Dispersible  Tablets  
+CODI9009BRIDL	Codis  Dispersible tablets  
+COTA3322	Co-Codaprin  Tablets  
+COTA3323	Co-Codaprin Dispersible  Tablets  
+EQTA8493BRID	Equagesic  Tablets  
+MISA3939NEMIS	Migramax  Oral powder sachets  
+ROTA2461	Robaxisal Forte  Tablets
+ASDI22726NEMIS	Aspirin And Codeine  Dispersible Tablets Sugar Free  500 mg + 8 mg
+ASEF29054NEMIS	Aspro Clear  Effervescent tablets  300 mg
+ASPO3910NEMIS	Aspirin  Powder  BP
+ASTA3198	Aspav Dispersible  Tablets  
+BICA98660NEMIS	Bisoprolol And Aspirin  Capsules  5 mg + 100 mg
+CODI22728NEMIS	Codis 500  Dispersible Tablets Sugar Free  
+COTA3322	Co-Codaprin  Tablets  
+COTA3323	Co-Codaprin Dispersible  Tablets  
+DADI116859NEMIS	Danamep  Dispersible tablets  75 mg
+MADI128230NEMIS	Mandaprin  Dispersible tablets  75 mg
+MISA3939NEMIS	Migramax  Oral powder sachets  
