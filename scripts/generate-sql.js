@@ -112,7 +112,9 @@ function processFile(filename, requiredCodeSets = [], alreadyProcessed = {}, par
         const foundCodeSets = codeSets.filter((codeset) => checkCodeSetExists(codeset));
         const notFoundCodeSets = codeSets.filter((codeset) => !checkCodeSetExists(codeset));
 
-        if (notFoundCodeSets.length > 0) {
+        if (notFoundCodeSets.length === 1 && notFoundCodeSets[0].match(/^insert-concepts?-here$/)) {
+          console.log('Ignoring "insert-concept-here" codeset...');
+        } else if (notFoundCodeSets.length > 0) {
           console.log('The following line has invalid codesets:');
           console.log(line);
           console.log(
