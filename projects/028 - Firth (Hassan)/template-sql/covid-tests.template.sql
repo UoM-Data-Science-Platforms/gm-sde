@@ -8,7 +8,15 @@
 -- Patient Id
 -- TestOutcome (positive/negative/inconclusive)
 -- TestDate (DD-MM-YYYY)
--- TestLocation (hospital/elsewhere)
+-- TestLocation (hospital/elsewhere) - NOT AVAILABLE
+
+IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
+SELECT P.PK_Patient_ID, PL.PK_Patient_Link_ID AS FK_Patient_Link_ID, PL.EthnicMainGroup
+INTO #Patients 
+FROM [RLS].vw_Patient P
+LEFT JOIN [RLS].vw_Patient_Link PL ON P.FK_Patient_Link_ID = PL.PK_Patient_Link_ID
+
+--> CODESET severe-mental-illness
 
 --COHORT: PATIENTS WITH SMI DIAGNOSES AS OF 31.01.20
 
@@ -33,10 +41,7 @@ SELECT
       ,[GroupDescription]
       ,[SubGroupDescription]
       ,[DeathWithin28Days]
-	  ,TestOutcome = CASE WHEN SubGroupDescription = 'Post complication' and GroupDescription = 'Confirmed'						then 'Positive'
-			WHEN GroupDescription = 'Confirmed'																		then 'Positive'
-			WHEN SubGroupDescription = 'Post complication' and  GroupDescription = 'Confirmed'						then 'Positive'
-			WHEN SubGroupDescription = 'Organism' and  GroupDescription = 'Confirmed'								then 'Positive'
+	  ,TestOutcome = CASE WHEN GroupDescription = 'Confirmed'														then 'Positive'
 			WHEN SubGroupDescription = '' and GroupDescription = 'Excluded'											then 'Negative'
 			WHEN SubGroupDescription = '' and GroupDescription = 'Tested' and CodeDescription like '%not detected%' then 'Negative'
 			WHEN SubGroupDescription = 'Offered' and GroupDescription = 'Tested'									then 'Unknown/Inconclusive'
@@ -44,7 +49,7 @@ SELECT
 			WHEN SubGroupDescription = '' and GroupDescription = 'Tested' and CodeDescription not like '%detected%' 
 							and CodeDescription not like '%positive%' and CodeDescription not like '%negative%'		then 'Unknown/Inconclusive'
 			WHEN SubGroupDescription != ''																			then SubGroupDescription
-			WHEN SubGroupDescription = '' and CodeDescription like '%reslt unknow%'									then 'Inconclusive'
+			WHEN SubGroupDescription = '' and CodeDescription like '%reslt unknow%'									then 'Unknown/Inconclusive'
 							ELSE 'CHECK' END
   INTO #covidtests
   FROM [RLS].[vw_COVID19]
@@ -53,3 +58,8 @@ SELECT
 	and GroupDescription != 'Vaccination' 
 	and GroupDescription not in ('Exposed', 'Suspected', 'Tested for immunity')
 	and (GroupDescription != 'Unknown' and SubGroupDescription != '')
+
+SELECT FK_Patient_Link_ID
+	,TestOutcome
+	,TestDate = EventDate
+FROM #covidtests

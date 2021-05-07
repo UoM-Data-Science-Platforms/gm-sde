@@ -1,0 +1,389 @@
+ABOR22952NEMIS	Abilify  Orodispersible tablets  10 mg
+ABOR22953NEMIS	Abilify  Orodispersible tablets  15 mg
+ABOR22954NEMIS	Abilify  Oral solution  1 mg/ml
+ABPO86920NEMIS	Abilify Maintena  Prolonged release suspension for injection  400 mg vial
+ABSO29381NEMIS	"Abilify  Solution for injection  7.5 mg/ml, 1.3 ml (9.75 mg) vial"
+ABTA18231NEMIS	Abilify  Tablets  10 mg
+ABTA18232NEMIS	Abilify  Tablets  15 mg
+ABTA18233NEMIS	Abilify  Tablets  30 mg
+ABTA19380NEMIS	Abilify  Tablets  5 mg
+AMOR11702NEMIS	Amisulpride  Oral solution  Sugar Free 100 mg/ml
+AMTA14267NEMIS	Amisulpride  Tablets  100 mg
+AMTA18788NEMIS	Amitriptyline And Perphenazine  Tablets  25 mg + 2 mg
+AMTA18789NEMIS	Amitriptyline And Perphenazine  Tablets  10 mg + 2 mg
+AMTA31585EMIS	Amisulpride  Tablets  200 mg
+AMTA31586EMIS	Amisulpride  Tablets  50 mg
+AMTA5672NEMIS	Amisulpride  Tablets  400 mg
+ANTA173	Anquil  Tablets  250 micrograms
+AROR22949NEMIS	Aripiprazole  Orodispersible Tablets (Sugar Free)  10 mg
+AROR22950NEMIS	Aripiprazole  Orodispersible Tablets (Sugar Free)  15 mg
+AROR22951NEMIS	Aripiprazole  Oral solution  1 mg/ml
+ARPO86916NEMIS	Aripiprazole  Powder and solvent for suspension for injection  400 mg vial
+ARSO29380NEMIS	"Aripiprazole  Solution for injection  7.5 mg/ml, 1.3 ml (9.75 mg) vial"
+ARTA18226NEMIS	Aripiprazole  Tablets  10 mg
+ARTA18228NEMIS	Aripiprazole  Tablets  15 mg
+ARTA18229NEMIS	Aripiprazole  Tablets  30 mg
+ARTA19379NEMIS	Aripiprazole  Tablets  5 mg
+ASSU51779NEMIS	Asenapine  Sublingual Tablets Sugar Free  5 mg
+ASSU51781NEMIS	Asenapine  Sublingual Tablets Sugar Free  10 mg
+BETA14415NEMIS	Benquil  Tablets  250 micrograms
+BETA4628	Benperidol  Tablets  250 micrograms
+CHEL7170	Chlorpromazine Hydrochloride  Oral solution  25 mg/5 ml
+CHIN20615EMIS	Chlorpromazine Hydrochloride  Injection  50 mg/2 ml ampoule
+CHIN589	Chlorpromazine Hydrochloride  Injection  25 mg/ml
+CHOR35370EMIS	Chlorpromazine Hydrochloride  Oral solution  100 mg/5 ml
+CHSU592	Chlorpromazine Hydrochloride  Suppositories  100 mg
+CHSY594	Chlorpromazine Hydrochloride  Syrup  25 mg/5 ml
+CHTA596	Chlorpromazine Hydrochloride  Tablets  10 mg
+CHTA597	Chlorpromazine Hydrochloride  Tablets  100 mg
+CHTA598	Chlorpromazine Hydrochloride  Tablets  25 mg
+CHTA599	Chlorpromazine Hydrochloride  Tablets  50 mg
+CHTAEGTON6692	Chloractil  Tablets  100 mg
+CHTAEGTON6693	Chloractil  Tablets  25 mg
+CHTAEGTON6694	Chloractil  Tablets  50 mg
+CLIN10979BRIDL	Clopixol Acuphase  Injection  50 mg/1 ml ampoule
+CLIN29855EMIS	Clopixol Acuphase  Injection  100 mg/2 ml ampoule
+CLIN656	"Clopixol  Injection  200 mg/ml, 1 ml ampoule"
+CLIN661	"Clopixol Conc.  Injection  500mg/ml, 1 ml ampoule"
+CLOR36513NEMIS	Clozapine  Oral Suspension Sugar Free  50 mg/ml
+CLTA10156BRIDL	Clozaril  Tablets  25 mg
+CLTA10158BRIDL	Clozaril  Tablets  100 mg
+CLTA36517NEMIS	Clozapine  Tablets  200 mg
+CLTA36518NEMIS	Clozapine  Tablets  50 mg
+CLTA658	Clopixol  Tablets  10 mg
+CLTA659	Clopixol  Tablets  2 mg
+CLTA660	Clopixol  Tablets  25 mg
+CLTA9311HILLI	Clozapine  Tablets  100 mg
+CLTA9313HILLI	Clozapine  Tablets  25 mg
+DEIN19569EMIS	"Depixol Low Volume  Injection  200 mg/ml, 1 ml ampoule"
+DEIN19577EMIS	Depixol  Injection  40 mg/2 ml ampoule
+DEIN19578EMIS	Depixol  Injection (syringe)  20 mg/1 ml
+DEIN19579EMIS	Depixol  Injection (syringe)  40 mg/2 ml
+DEIN19590EMIS	Depixol Conc.  Injection  50 mg/0.5 ml ampoule
+DEIN832	Depixol  Injection  20 mg/1 ml ampoule
+DEIN834	Depixol Conc.  Injection  100 mg/1 ml ampoule
+DEOR36514NEMIS	Denzapine  Oral suspension  50 mg/ml
+DETA18502NEMIS	Denzapine  Tablets  25 mg
+DETA18503NEMIS	Denzapine  Tablets  100 mg
+DETA36519NEMIS	Denzapine  Tablets  200 mg
+DETA36520NEMIS	Denzapine  Tablets  50 mg
+DETA833	Depixol  Tablets  3 mg
+DOLI984	Dozic  Liquid  1mg/ml
+DOLI985	Dozic  Liquid  2mg/ml
+DOTA28250EMIS	Dolmatil  Tablets  400 mg
+DOTA961	Dolmatil  Tablets  200 mg
+DRIN4873	Droperidol  Injection  5mg/ml
+DRIN998	Droleptan  Injection  5mg/ml
+DRLI4874	Droperidol  Liquid  1mg/ml
+DRLI999	Droleptan  Liquid  1mg/ml
+DRSO36266NEMIS	"Droperidol  Solution for injection  2.5 mg/ml, 1 ml ampoule"
+DRTA1000	Droleptan  Tablets  10 mg
+DRTA4875	Droperidol  Tablets  10 mg
+FEIN1163	Fentazin  Injection  5 mg/ml
+FETA1164	Fentazin  Tablets  2 mg
+FETA1165	Fentazin  Tablets  4 mg
+FETA1166	Fentazin  Tablets  8 mg
+FLDI25934EMIS	Fluphenazine Decanoate  Disposable syringe  25 mg/1 ml
+FLDI25935EMIS	Fluphenazine Decanoate  Disposable syringe  50 mg/2 ml
+FLIN1211	Flupenthixol Decanoate  Injection  20 mg/1 ml ampoule
+FLIN1212	Fluphenazine Decanoate  Injection  25 mg/1 ml ampoule
+FLIN1213	Fluphenazine Enanthate  Injection  25 mg/ml
+FLIN17656NEMIS	"Flupentixol  Injection  100 mg/ml, 0.5 ml ampoule"
+FLIN17657NEMIS	"Flupentixol  Injection  100 mg/ml, 1 ml ampoule"
+FLIN17658NEMIS	"Flupentixol  Injection  200 mg/ml, 1 ml ampoule"
+FLIN17659NEMIS	"Flupentixol  Injection  20 mg/ml, 1 ml ampoule"
+FLIN17660NEMIS	"Flupentixol  Injection  20 mg/ml, 2 ml ampoule"
+FLIN19571EMIS	"Flupenthixol Decanoate  Injection  200 mg/ml, 1 ml ampoule"
+FLIN19585EMIS	Flupenthixol Decanoate  Injection  40 mg/2 ml ampoule
+FLIN19587EMIS	Flupenthixol Decanoate  Injection (syringe)  40 mg/2 ml
+FLIN19594EMIS	Flupenthixol Decanoate  Injection  50 mg/0.5 ml ampoule
+FLIN25936EMIS	Fluphenazine Decanoate  Injection  12.5 mg/0.5 ml ampoule
+FLIN25937EMIS	Fluphenazine Decanoate  Injection  250 mg/10 ml vial
+FLIN25938EMIS	Fluphenazine Decanoate  Injection  50 mg/2 ml ampoule
+FLIN25940EMIS	Fluphenazine Decanoate  Injection  50 mg/0.5 ml ampoule
+FLIN4936	Flupenthixol Decanoate  Injection  100 mg/1 ml ampoule
+FLIN4937	Fluphenazine Decanoate  Injection  100 mg/1 ml ampoule
+FLTA1208	Flupenthixol  Tablets  1 mg
+FLTA1209	Flupenthixol  Tablets  3 mg
+FLTA1210	Flupenthixol  Tablets  500 micrograms
+FLTA17661NEMIS	Flupentixol  Tablets  1 mg
+FLTA17662NEMIS	Flupentixol  Tablets  500 micrograms
+FLTA17663NEMIS	Flupentixol  Tablets  3 mg
+FLTA4939	Fluphenazine Hydrochloride  Tablets  1 mg
+FLTA6994	Fluphenazine Hydrochloride  Tablets  2.5 mg
+FLTA6995	Fluphenazine Hydrochloride  Tablets  5 mg
+HACA1338	Haloperidol  Capsules  500 micrograms
+HAEL1339	Haloperidol  Elixir  2 mg/5 ml
+HAIN1335	"Haldol Decanoate  Injection  100 mg/ml, 1 ml ampoule"
+HAIN1336	"Haldol Decanoate  Injection  50 mg/ml, 1 ml ampoule"
+HAIN1340	"Haloperidol  Injection  10 mg/ml, 2 ml ampoule"
+HAIN1341	"Haloperidol  Injection  100 mg/ml, 1 ml ampoule"
+HAIN1343	"Haloperidol  Injection  50 mg/ml, 1 ml ampoule"
+HAIN15566NEMIS	"Haloperidol  Injection  5 mg/ml, 1 ml ampoule"
+HAIN15567NEMIS	"Haldol  Injection  5 mg/ml, 1 ml ampoule"
+HAIN6920	Haloperidol  Injection  5 mg/ml
+HAINEGTON6700	Haldol  Injection  5 mg/ml
+HALI4981	Haloperidol  Liquid  Sugar Free 1mg/ml
+HAOR13227NEMIS	"Haloperidol  Oral Solution, Sugar Free  1 mg/5 ml (200 micrograms/ml)"
+HAOR6921	Haloperidol  Oral liquid  Sugar Free 2 mg/ml
+HAOR6922	Haloperidol  Oral liquid conc.  10 mg/ml
+HAOREGTON6701	Haldol  Oral solution  2 mg/ml
+HAOREGTON6702	Haldol  Oral liquid conc.  10 mg/ml
+HATA1344	Haloperidol  Tablets  1.5 mg
+HATA1346	Haloperidol  Tablets  20 mg
+HATA1347	Haloperidol  Tablets  5 mg
+HATA4983	Haloperidol  Tablets  10 mg
+HATA6901	Haloperidol  Tablets  500 micrograms
+HATAEGTON6703	Haldol  Tablets  10 mg
+HATAEGTON6704	Haldol  Tablets  5 mg
+INCA1485	Integrin  Capsules  10 mg
+INM/26218NEMIS	Invega  M/R tablets  3 mg
+INM/26219NEMIS	Invega  M/R tablets  6 mg
+INM/26220NEMIS	Invega  M/R tablets  9 mg
+INTA1486	Integrin  Tablets  40 mg
+LAIN1610	Largactil  Injection  50 mg/2 ml ampoule
+LASU1614	Largactil  Suppositories  100 mg
+LASU1615	Largactil  Suspension forte  100 mg/5 ml
+LASY1616	Largactil  Syrup  25 mg/5 ml
+LATA1618	Largactil  Tablets  10 mg
+LATA1619	Largactil  Tablets  100 mg
+LATA1620	Largactil  Tablets  25 mg
+LATA1621	Largactil  Tablets  50 mg
+LEIN17312NEMIS	"Levomepromazine  Solution for injection  25 mg/ml, 1 ml ampoule"
+LETA17313NEMIS	Levomepromazine  Tablets  25 mg
+MEIN5137	"Methotrimeprazine Hydrochloride  Injection  25mg/ml, 1 ml ampoule"
+META5138	Methotrimeprazine Maleate  Tablets  25 mg
+MODI10308BRIDL	Modecate  Disposable syringe  25 mg/1 ml
+MODI10310BRIDL	Modecate  Disposable syringe  50 mg/2 ml
+MOIN10029BRIDL	Modecate  Injection  50 mg/2 ml ampoule
+MOIN1858	Modecate  Injection  12.5 mg/0.5 ml ampoule
+MOIN1859	Modecate Concentrate  Injection  100 mg/1 ml ampoule
+MOIN1864	Moditen Enanthate  Injection  25 mg/ml
+MOIN25942EMIS	Modecate  Injection  250 mg/10 ml vial
+MOIN25944EMIS	Modecate Concentrate  Injection  50 mg/0.5 ml ampoule
+MOSY8788BRIDL	Modecate  Injection  25 mg/1 ml ampoule
+MOTA1861	Moditen  Tablets  1 mg
+MOTA1862	Moditen  Tablets  2.5 mg
+MOTA1863	Moditen  Tablets  5 mg
+NESY1969	Neulactil  Syrup forte  10mg/5 ml
+NETA1970	Neulactil  Tablets  10 mg
+NETA1971	Neulactil  Tablets  2.5 mg
+NETA1972	Neulactil  Tablets  25 mg
+NOIN2038	"Nozinan  Solution for injection  25mg/ml, 1 ml ampoule"
+NOTA18780NEMIS	Nortriptyline And Fluphenazine  Tablets  10 mg + 500 micrograms
+OLOR13260NEMIS	Olanzapine  Oral Lyophilisate Sugar Free  15 mg
+OLOR21754NEMIS	Olanzapine  Oral Lyophilisate Sugar Free  20 mg
+OLOR3800NEMIS	Olanzapine  Oral Lyophilisate Sugar Free  5 mg
+OLOR3801NEMIS	Olanzapine  Oral Lyophilisate Sugar Free  10 mg
+OLPO16908NEMIS	Olanzapine  Powder For Solution For Injection  10 mg vial
+OLPR42225NEMIS	Olanzapine  Prolonged release suspension for injection  210 mg vial
+OLPR42227NEMIS	Olanzapine  Prolonged release suspension for injection  300 mg vial
+OLPR42228NEMIS	Olanzapine  Prolonged release suspension for injection  405 mg vial
+OLTA13258NEMIS	Olanzapine  Tablets  15 mg
+OLTA29729EMIS	Olanzapine  Tablets  10 mg
+OLTA29730EMIS	Olanzapine  Tablets  5 mg
+OLTA29731EMIS	Olanzapine  Tablets  7.5 mg
+OLTA34085EMIS	Olanzapine  Tablets  2.5 mg
+ORTA2093	Orap  Tablets  10 mg
+ORTA2095	Orap  Tablets  2 mg
+ORTA2096	Orap  Tablets  4 mg
+PAM/26213NEMIS	Paliperidone  M/R tablets  3 mg
+PAM/26215NEMIS	Paliperidone  M/R tablets  6 mg
+PAM/26216NEMIS	Paliperidone  M/R tablets  9 mg
+PASU50807NEMIS	Paliperidone  Suspension For Injection  50 mg/0.5 ml pre-filled syringe
+PASU50808NEMIS	Paliperidone  Suspension For Injection  75 mg/0.75 ml pre-filled syringe
+PASU50809NEMIS	Paliperidone  Suspension For Injection  100 mg/1 ml pre-filled syringe
+PASU50810NEMIS	Paliperidone  Suspension For Injection  150 mg/1.5 ml pre-filled syringe
+PATA4125	Parstelin  Tablets
+PEIN2201	Perphenazine  Injection  5 mg/ml
+PESY5253	Pericyazine  Oral solution  10mg/5 ml
+PETA2202	Perphenazine  Tablets  2 mg
+PETA2203	Perphenazine  Tablets  4 mg
+PETA2204	Perphenazine  Tablets  8 mg
+PETA5254	Pericyazine  Tablets  10 mg
+PETA7008	Pericyazine  Tablets  2.5 mg
+PETA7009	Pericyazine  Tablets  25 mg
+PIIN17829NEMIS	"Pipotiazine  Injection  50 mg/ml, 2 ml ampoule"
+PIIN17830NEMIS	"Pipotiazine  Injection  50 mg/ml, 1 ml ampoule"
+PIIN2270	Piportil Depot  Injection  50 mg/1 ml ampoule
+PIIN27780EMIS	Piportil Depot  Injection  100 mg/2 ml ampoule
+PIIN5296	Pipothiazine Palmitate  Injection  50 mg/1 ml ampoule
+PITA2262	Pimozide  Tablets  10 mg
+PITA2263	Pimozide  Tablets  2 mg
+PITA2264	Pimozide  Tablets  4 mg
+PRIN2374	Promazine Hydrochloride  Injection  50 mg/ml
+PROR11626NEMIS	Promazine Hydrochloride  Oral solution  50 mg/5 ml
+PRSU2375	Promazine Hydrochloride  Suspension  50 mg/5 ml
+PRSY12797NEMIS	Promazine Hydrochloride  Syrup  50 mg/5 ml
+PRSY29334EMIS	Promazine Hydrochloride  Oral solution  25 mg/5 ml
+PRTA2377	Promazine Hydrochloride  Tablets  25 mg
+PRTA2378	Promazine Hydrochloride  Tablets  50 mg
+QUM/31060NEMIS	Quetiapine Fumarate  M/R tablets  50 mg
+QUM/31061NEMIS	Quetiapine Fumarate  M/R tablets  200 mg
+QUM/31062NEMIS	Quetiapine Fumarate  M/R tablets  300 mg
+QUM/31063NEMIS	Quetiapine Fumarate  M/R tablets  400 mg
+QUM/45842NEMIS	Quetiapine Fumarate  M/R tablets  150 mg
+QUTA16219NEMIS	Quetiapine Fumarate  Tablets  300 mg
+QUTA31563EMIS	Quetiapine Fumarate  Tablets  100 mg
+QUTA31564EMIS	Quetiapine Fumarate  Tablets  200 mg
+QUTA31565EMIS	Quetiapine Fumarate  Tablets  25 mg
+QUTA31566EMIS	"Quetiapine Fumarate  Tablets (starter pack)  6 x 25 mg, 2 x 100 mg"
+QUTA959NEMIS	Quetiapine Fumarate  Tablets  150 mg
+REM/18891EMIS	Remoxipride Hydrochloride  M/R capsules  150 mg
+REM/18892EMIS	Remoxipride Hydrochloride  M/R capsules  300 mg
+RILI28308EMIS	Risperdal  Oral solution  1 mg/1 ml
+RILI28310EMIS	"Risperidone  Oral Solution, Sugar Free  1 mg/1 ml"
+RIOR14731NEMIS	Risperidone  Orodispersible tablets  Sugar Free 1 mg
+RIOR14732NEMIS	Risperidone  Orodispersible tablets  Sugar Free 2 mg
+RIOR14734NEMIS	Risperdal Quicklet  Orodispersible tablets  1 mg
+RIOR14735NEMIS	Risperdal Quicklet  Orodispersible tablets  2 mg
+RIOR19655NEMIS	Risperidone  Orodispersible tablets  Sugar Free 500 micrograms
+RIOR19656NEMIS	Risperdal Quicklet  Orodispersible tablets  500 micrograms
+RIOR23720NEMIS	Risperidone  Orodispersible tablets  Sugar Free 3 mg
+RIOR23721NEMIS	Risperidone  Orodispersible tablets  Sugar Free 4 mg
+RIOR23722NEMIS	Risperdal Quicklet  Orodispersible tablets  3 mg
+RIOR23723NEMIS	Risperdal Quicklet  Orodispersible tablets  4 mg
+RIPO13559NEMIS	Risperdal Consta  Powder and solvent for suspension for injection  25 mg vial
+RIPO13560NEMIS	Risperdal Consta  Powder and solvent for suspension for injection  37.5 mg vial
+RIPO13561NEMIS	Risperdal Consta  Powder and solvent for suspension for injection  50 mg vial
+RIPO13562NEMIS	Risperidone  Powder and solvent for suspension for injection  25 mg vial
+RIPO13563NEMIS	Risperidone  Powder and solvent for suspension for injection  37.5 mg vial
+RIPO13564NEMIS	Risperidone  Powder and solvent for suspension for injection  50 mg vial
+RITA23782EMIS	Risperdal  Tablets  1 mg
+RITA23783EMIS	Risperdal  Tablets  2 mg
+RITA23784EMIS	Risperdal  Tablets  3 mg
+RITA23785EMIS	Risperdal  Tablets  4 mg
+RITA23790EMIS	Risperidone  Tablets  1 mg
+RITA23791EMIS	Risperidone  Tablets  2 mg
+RITA23792EMIS	Risperidone  Tablets  3 mg
+RITA23793EMIS	Risperidone  Tablets  4 mg
+RITA31679EMIS	Risperdal  Tablets  6 mg
+RITA31681EMIS	Risperidone  Tablets  6 mg
+RITA5272NEMIS	Risperdal  Tablets  500 micrograms
+RITA5273NEMIS	Risperidone  Tablets  500 micrograms
+ROM/18887EMIS	Roxiam  M/R capsules  150 mg
+ROM/18888EMIS	Roxiam  M/R capsules  300 mg
+SECA2552	Serenace  Capsules  500 micrograms
+SEEL9000BRIDL	Serenace  Elixir  2mg/ml
+SEIN2554	"Serenace  Injection  10 mg/ml, 2 ml ampoule"
+SEIN2555	"Serenace  Injection  5 mg/ml, 1 ml ampoule"
+SEM/31065NEMIS	Seroquel Xl  M/R tablets  50 mg
+SEM/31066NEMIS	Seroquel Xl  M/R tablets  200 mg
+SEM/31067NEMIS	Seroquel Xl  M/R tablets  300 mg
+SEM/31068NEMIS	Seroquel Xl  M/R tablets  400 mg
+SEM/45843NEMIS	Seroquel Xl  M/R tablets  150 mg
+SETA16220NEMIS	Seroquel  Tablets  300 mg
+SETA2556	Serenace  Tablets  1.5 mg
+SETA2557	Serenace  Tablets  10 mg
+SETA2558	Serenace  Tablets  20 mg
+SETA2559	Serenace  Tablets  5 mg
+SETA29198EMIS	Serdolect  Tablets  12 mg
+SETA29199EMIS	Serdolect  Tablets  16 mg
+SETA29200EMIS	Serdolect  Tablets  20 mg
+SETA29201EMIS	Serdolect  Tablets  4 mg
+SETA29206EMIS	Sertindole  Tablets  12 mg
+SETA29207EMIS	Sertindole  Tablets  16 mg
+SETA29208EMIS	Sertindole  Tablets  20 mg
+SETA29209EMIS	Sertindole  Tablets  4 mg
+SETA31555EMIS	Seroquel  Tablets  100 mg
+SETA31556EMIS	Seroquel  Tablets  200 mg
+SETA31557EMIS	Seroquel  Tablets  25 mg
+SETA31558EMIS	"Seroquel  Tablets (starter pack)  6 x 25 mg, 2 x 100 mg"
+SETA803NEMIS	"Seroquel  Tablets (starter pack)  6x25 mg, 2x100 mg, 2x150 mg"
+SETA960NEMIS	Seroquel  Tablets  150 mg
+SOM/71618NEMIS	Sondate Xl  M/R tablets  50 mg
+SOM/71619NEMIS	Sondate Xl  M/R tablets  200 mg
+SOM/71620NEMIS	Sondate Xl  M/R tablets  300 mg
+SOM/71621NEMIS	Sondate Xl  M/R tablets  400 mg
+SOOR11703NEMIS	Solian  Oral solution  100 mg/ml
+SOTA14268NEMIS	Solian  Tablets  100 mg
+SOTA31581EMIS	Solian  Tablets  200 mg
+SOTA31582EMIS	Solian  Tablets  50 mg
+SOTA5673NEMIS	Solian  Tablets  400 mg
+SPIN2652	Sparine  Injection  50 mg/ml
+SPSU2653	Sparine  Suspension  50 mg/5 ml
+STIN2680	Stelazine  Injection  1 mg/ml
+STLI2682	Stelazine  Liquid  10mg/ml
+STOR18275NEMIS	"Stelazine Forte  Oral Solution, Sugar Free  5 mg/5 ml"
+STSP2683	Stelazine  Spansules  10 mg
+STSP2684	Stelazine  Spansules  15 mg
+STSP2685	Stelazine  Spansules  2 mg
+STSY2686	Stelazine  Syrup  1 mg/5 ml
+STTA2688	Stelazine  Tablets  1 mg
+STTA2689	Stelazine  Tablets  5 mg
+SUOR11892NEMIS	Sulpor  Sugar-free oral solution  200 mg/5 ml
+SUSU32911EMIS	Sulpiride  Sugar-free oral solution  200 mg/5 ml
+SUTA2733	Sulpiride  Tablets  200 mg
+SUTA2734	Sulpitil  Tablets  200 mg
+SUTA28248EMIS	Sulpiride  Tablets  400 mg
+SUTA3785NEMIS	Sulparex  Tablets  200 mg
+THSU5441	Thioridazine  Suspension  100mg/5 ml
+THSU6978	Thioridazine  Suspension  25mg/5 ml
+THSY2845	Thioridazine  Syrup  25 mg/5 ml
+THTA2846	Thioridazine  Tablets  10 mg
+THTA2847	Thioridazine  Tablets  100 mg
+THTA2848	Thioridazine  Tablets  25 mg
+THTA2849	Thioridazine  Tablets  50 mg
+TRIN2923	Trifluoperazine  Injection  1 mg/ml
+TRLI5471	Trifluoperazine  Liquid  10mg/ml
+TROR28542EMIS	Trifluoperazine  Oral solution  Sugar Free 5 mg/5 ml
+TRSP2924	Trifluoperazine  Spansules  10 mg
+TRSP2925	Trifluoperazine  Spansules  15 mg
+TRSP2926	Trifluoperazine  Spansules  2 mg
+TRSY2927	"Trifluoperazine  Oral Solution, Sugar Free  1 mg/5 ml"
+TRTA13267NEMIS	Tranquilyn  Tablets  5 mg
+TRTA13268NEMIS	Tranquilyn  Tablets  10 mg
+TRTA13269NEMIS	Tranquilyn  Tablets  20 mg
+TRTA2894	Tranylcypromine  Tablets  10 mg
+TRTA2928	Trifluoperazine  Tablets  1 mg
+TRTA2929	Trifluoperazine  Tablets  5 mg
+TRTA2944	Triperidol  Tablets  1 mg
+TRTA2945	Triperidol  Tablets  500 mcg
+TRTA4462	Triptafen  Tablets  
+TRTA4463	Triptafen-M  Tablets  
+TRTA5473	Trifluperidol  Tablets  1 mg
+TRTA7103	Trifluperidol  Tablets  500 mcg
+VETA3038	Nozinan  Tablets  25 mg
+XESU50812NEMIS	Xeplion  Suspension For Injection  50 mg/0.5 ml pre-filled syringe
+XESU50813NEMIS	Xeplion  Suspension For Injection  75 mg/0.75 ml pre-filled syringe
+XESU50814NEMIS	Xeplion  Suspension For Injection  100 mg/1 ml pre-filled syringe
+XESU50815NEMIS	Xeplion  Suspension For Injection  150 mg/1.5 ml pre-filled syringe
+ZAOR52077NEMIS	Zalasta  Orodispersible tablets  10 mg
+ZAOR52078NEMIS	Zalasta  Orodispersible tablets  15 mg
+ZAOR52079NEMIS	Zalasta  Orodispersible tablets  20 mg
+ZAOR52080NEMIS	Zalasta  Orodispersible tablets  5 mg
+ZATA19394NEMIS	Zaponex  Tablets  25 mg
+ZATA19395NEMIS	Zaponex  Tablets  100 mg
+ZATA51977NEMIS	Zalasta  Tablets  10 mg
+ZATA51978NEMIS	Zalasta  Tablets  15 mg
+ZATA51979NEMIS	Zalasta  Tablets  2.5 mg
+ZATA51980NEMIS	Zalasta  Tablets  20 mg
+ZATA51981NEMIS	Zalasta  Tablets  5 mg
+ZATA51982NEMIS	Zalasta  Tablets  7.5 mg
+ZOTA34924EMIS	Zoleptil  Tablets  100 mg
+ZOTA34925EMIS	Zoleptil  Tablets  25 mg
+ZOTA34926EMIS	Zoleptil  Tablets  50 mg
+ZOTA34930EMIS	Zotepine  Tablets  100 mg
+ZOTA34931EMIS	Zotepine  Tablets  25 mg
+ZOTA34932EMIS	Zotepine  Tablets  50 mg
+ZUIN29852EMIS	Zuclopenthixol Acetate  Injection  100 mg/2 ml ampoule
+ZUIN29853EMIS	Zuclopenthixol Acetate  Injection  50 mg/1 ml ampoule
+ZUIN5509	"Zuclopenthixol Decanoate  Injection  200 mg/ml, 1 ml ampoule"
+ZUIN5510	"Zuclopenthixol Decanoate  Injection  500mg/ml, 1 ml ampoule"
+ZUTA5511	Zuclopenthixol Dihydrochloride  Tablets  10 mg
+ZUTA6848	Zuclopenthixol Dihydrochloride  Tablets  2 mg
+ZUTA6849	Zuclopenthixol Dihydrochloride  Tablets  25 mg
+ZYOR13262NEMIS	Zyprexa Velotab  Orodispersible tablets  15 mg
+ZYOR21755NEMIS	Zyprexa Velotab  Orodispersible tablets  20 mg
+ZYOR3803NEMIS	Zyprexa Velotab  Orodispersible tablets  5 mg
+ZYOR3804NEMIS	Zyprexa Velotab  Orodispersible tablets  10 mg
+ZYPO16909NEMIS	Zyprexa  Powder For Solution For Injection  10 mg vial
+ZYPR42083NEMIS	Zypadhera  Prolonged release suspension for injection  210 mg vial
+ZYPR42084NEMIS	Zypadhera  Prolonged release suspension for injection  300 mg vial
+ZYPR42085NEMIS	Zypadhera  Prolonged release suspension for injection  405 mg vial
+ZYTA13261NEMIS	Zyprexa  Tablets  15 mg
+ZYTA23535NEMIS	Zyprexa  Tablets  20 mg
+ZYTA29723EMIS	Zyprexa  Tablets  10 mg
+ZYTA29724EMIS	Zyprexa  Tablets  5 mg
+ZYTA29725EMIS	Zyprexa  Tablets  7.5 mg
+ZYTA34083EMIS	Zyprexa  Tablets  2.5 mg
