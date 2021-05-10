@@ -38,12 +38,11 @@ Reports
 │  ├─ concepts-per-clinical-system.template.sql
 │  ├─ concepts-per-clinical-system-individual-concept.template.sql
 │  ├─ moderate-covid-vulnerability-investigation.template.sql
-├─ output-data-files
-├─ template-sql
 ├─ extract-data.bat
 ├─ generate-sql.sh
 ├─ generate-sql-windows.bat
 ├─ README.md
+```
 
 ### Investigating prevalence of a code set across GP systems
 
