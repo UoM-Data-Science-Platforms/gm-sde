@@ -139,6 +139,15 @@ Attempted to find the location of information related to project no.1 (Grant), i
 28/04/21
 - extracted data for RQ029 and uploaded to fileshare for analysts
 
-30/04
+30/04/21
 - mental illness code sets validation, RQ-028
 
+05/05/21
+- developing extraction code for patient file, RQ-028
+
+06/05/21
+- RDE checks of RQ-017
+
+07/05/21
+- RQ-028 extraction code and code set work 
+- cohort matching preparation RQ-028 
