@@ -26,7 +26,7 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
---> CODESET big long list of all code-sets required
+--> CODESET insert-concepts-here
 --> EXECUTE query-practice-systems-lookup.sql
 
 -- Finds all patients with one of the clinical codes in the GP_Events table
