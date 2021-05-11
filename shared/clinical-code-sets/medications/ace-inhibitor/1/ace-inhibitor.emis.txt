@@ -337,4 +337,40 @@ OLOR27110NEMIS	Olmesartan  Oral Suspension  10 mg/5 ml
 PEOR25486NEMIS	Perindopril  Oral Suspension  8 mg/5 ml  
 PEOR45595NEMIS	Perindopril  Oral suspension  4 mg/5 ml  
 TETA30443NEMIS	Telmisartan 80mg / Hydrochlorothiazide 25mg tablets  
-VATA52642NEMIS	Valsartan 160mg tablets  
+VATA52642NEMIS	Valsartan 160mg tablets
+NOOR86935NEMIS	Noyada  Oral solution  5 mg/5 ml
+ENOR46734NEMIS	Enalapril Maleate  Oral solution  5 mg/5 ml
+LIOR45616NEMIS	Lisinopril  Oral solution  5 mg/5 ml
+SATA108558NEMIS	Sacubitril And Valsartan  Tablets  97 mg + 103 mg
+AZTA72358NEMIS	Azilsartan Medoxomil  Tablets  40 mg
+CAOR46832NEMIS	Captopril  Oral solution  5 mg/5 ml
+LIOR46490NEMIS	Lisinopril  Oral suspension  7.5 mg/5 ml
+LOOR46493NEMIS	Losartan Potassium  Oral solution  50 mg/5 ml
+PETA88540NEMIS	Perindopril Erbumine And Amlodipine  Tablets  4 mg + 5 mg
+VATA52641NEMIS	Valsartan  Tablets  80 mg
+CAOR88580NEMIS	Captopril  Oral Solution, Sugar Free  25 mg/5 ml
+CAOR88581NEMIS	Captopril  Oral Solution, Sugar Free  5 mg/5 ml
+CASU11859NEMIS	Captopril  Suspension  1 mg/ml
+LIOR47356NEMIS	Lisinopril  Oral solution  20 mg/5 ml
+ENTA108560NEMIS	Entresto  Tablets  24 mg + 26 mg
+NOOR86935NEMIS	Noyada  Oral solution  5 mg/5 ml
+LIOR105352NEMIS	Lisinopril  Oral Solution, Sugar Free  5 mg/5 ml
+LIOR46488NEMIS	Lisinopril  Oral suspension  2.5 mg/5 ml
+VATA52641NEMIS	Valsartan  Tablets  80 mg
+AZTA72356NEMIS	Azilsartan Medoxomil  Tablets  20 mg
+CAOR45712NEMIS	Captopril  Oral solution  12.5 mg/5 ml
+TRTA121058NEMIS	Tritace  Tablet Titration Pack  
+CAOR46832NEMIS	Captopril  Oral solution  5 mg/5 ml
+AZTA72358NEMIS	Azilsartan Medoxomil  Tablets  40 mg
+CAOR21537NEMIS	Captopril  Oral solution  3 mg/5 ml
+ENTA108561NEMIS	Entresto  Tablets  49 mg + 51 mg
+LOOR46494NEMIS	Losartan Potassium  Oral suspension  50 mg/5 ml
+CAOR88581NEMIS	Captopril  Oral Solution, Sugar Free  5 mg/5 ml
+ENOR46735NEMIS	Enalapril Maleate  Oral suspension  5 mg/5 ml
+ENTA108562NEMIS	Entresto  Tablets  97 mg + 103 mg
+LIOR105352NEMIS	Lisinopril  Oral Solution, Sugar Free  5 mg/5 ml
+SATA108555NEMIS	Sacubitril And Valsartan  Tablets  24 mg + 26 mg
+SATA108557NEMIS	Sacubitril And Valsartan  Tablets  49 mg + 51 mg
+AZTA72356NEMIS	Azilsartan Medoxomil  Tablets  20 mg
+CAOR88580NEMIS	Captopril  Oral Solution, Sugar Free  25 mg/5 ml
+PETA88542NEMIS	Perindopril Erbumine And Amlodipine  Tablets  8 mg + 5 mg

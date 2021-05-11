@@ -1028,7 +1028,7 @@ HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
 -- ASSUMPTIONS:
 --	- We count the number of hospital admissions per LSOA
 --	-	If there is a single hospital with the most admissions then we assign that as the most likely hospital
---	-	If there are 2 or more that tie for the most admissions then we classify that LSOA as 'AmbiguousHospital'
+--	-	If there are 2 or more that tie for the most admissions then we randomly assign one of the tied hospitals
 
 -- Get the patient id and tenancy id of all hospital admission
 IF OBJECT_ID('tempdb..#AdmissionPatients') IS NOT NULL DROP TABLE #AdmissionPatients;
@@ -1094,19 +1094,25 @@ FROM #PatientAdmissionLSOA pl
 INNER JOIN #AdmissionPatients p ON p.FK_Patient_Link_ID = pl.FK_Patient_Link_ID
 GROUP BY LSOA_Code,FK_Reference_Tenancy_ID;
 
+-- Assign the likely hospital to each LSOA by taking just those places where the number
+-- of hospital admissions is equal to the maximum for all hospital visits in that LSOA
+-- In the case of a tie, the NEWID/Row_number trick gives us one at random
 IF OBJECT_ID('tempdb..#LikelyLSOAHospital') IS NOT NULL DROP TABLE #LikelyLSOAHospital;
-SELECT a.LSOA_Code AS LSOA,CASE WHEN MIN(TenancyName) = MAX(TenancyName) THEN MAX(TenancyName) ELSE 'AmbiguousHospital' END AS LikelyLSOAHospital
+WITH T
+     AS (SELECT a.LSOA_Code AS LSOA,
+				TenancyName,
+                Row_number() OVER (PARTITION BY a.LSOA_Code ORDER BY NEWID()) AS RN
+		FROM #LSOATenancyCounts a
+		INNER JOIN (
+			SELECT LSOA_Code, MAX(Frequency) AS MaxFrequency FROM #LSOATenancyCounts
+			GROUP BY LSOA_Code
+		) b on b.LSOA_Code = a.LSOA_Code and a.Frequency = b.MaxFrequency
+		INNER JOIN SharedCare.Reference_Tenancy t on t.PK_Reference_Tenancy_ID = FK_Reference_Tenancy_ID)
+SELECT LSOA,
+       TenancyName AS LikelyLSOAHospital
 INTO #LikelyLSOAHospital
-FROM #LSOATenancyCounts a
-INNER JOIN (
-	SELECT LSOA_Code, MAX(Frequency) AS MaxFrequency FROM #LSOATenancyCounts
-	GROUP BY LSOA_Code
-) b on b.LSOA_Code = a.LSOA_Code and a.Frequency = b.MaxFrequency
-INNER JOIN SharedCare.Reference_Tenancy t on t.PK_Reference_Tenancy_ID = FK_Reference_Tenancy_ID
-GROUP BY a.LSOA_Code
-
-
-
+FROM   T
+WHERE  RN = 1;
 
 --┌───────────────────────────────────────┐
 --│ GET practice and ccg for each patient │

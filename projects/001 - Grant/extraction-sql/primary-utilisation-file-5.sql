@@ -129,7 +129,8 @@ CREATE TABLE #codesemis (
 	[description] [varchar](255) NULL
 ) ON [PRIMARY];
 
-
+INSERT INTO #codesemis
+VALUES ('bmi',1,'EMISNQBM1','BMI centile')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code] from #codesemis;

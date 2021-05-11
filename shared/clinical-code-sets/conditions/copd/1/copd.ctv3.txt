@@ -1,4 +1,3 @@
-68C2.	Chronic obstructive pulmonary disease screening
 H3...	COPD - Chronic obstructive pulmonary disease
 H31..	Chronic bronchitis
 H310.	Simple chronic bronchitis

@@ -54,3 +54,8 @@ XaLPE	Nocturnal asthma
 Xaa7B	Chronic asthma with fixed airflow obstruction
 XaIuG	Asthma confirmed
 Xac33	Asthma-chronic obstructive pulmonary disease overlap syndrom
+663V2	Moderate asthma
+663V3	Severe asthma
+X1020	Hay fever with asthma
+Xafdj	Acute severe exacerbation of asthma
+Xafdy	Moderate acute exacerbation of asthma

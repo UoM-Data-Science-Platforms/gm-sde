@@ -2,8 +2,6 @@
 --│ Diabetes cohort file │
 --└──────────────────────┘
 
--- TODO add admissions and length of stay
-
 -- Cohort is diabetic patients with a positive covid test. Also a 1:5 matched cohort, 
 -- matched on year of birth (+-5 years), sex, and date of positive covid test (+-14 days).
 -- For each we provide the following:
@@ -24,6 +22,14 @@
 -- Set the start date
 DECLARE @StartDate datetime;
 SET @StartDate = '2020-01-01';
+
+-- Only need medications if in 6 months prior to COVID test
+DECLARE @MedicationsFromDate datetime;
+SET @MedicationsFromDate = DATEADD(month, -6, @StartDate);
+
+-- Only need bp/bmi etc if in 2 years prior to COVID test
+DECLARE @EventsFromDate datetime;
+SET @EventsFromDate = DATEADD(year, -2, @StartDate);
 
 -- First get all the diabetic (type 1/type 2/other) patients and the date of first diagnosis
 --> CODESET diabetes
@@ -62,7 +68,7 @@ IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
 SELECT FK_Patient_Link_ID, MIN(CONVERT(DATE, [EventDate])) AS FirstCovidPositiveDate INTO #CovidPatients
 FROM [RLS].[vw_COVID19]
 WHERE GroupDescription = 'Confirmed'
-AND EventDate > '2020-01-01'
+AND EventDate > @StartDate
 AND EventDate <= GETDATE()
 GROUP BY FK_Patient_Link_ID;
 
@@ -187,7 +193,7 @@ WHERE (
   )
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate > '2018-01-01'
+AND EventDate > @EventsFromDate
 AND [Value] IS NOT NULL
 AND [Value] != '0';
 
@@ -306,7 +312,7 @@ WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('metformin') AND [Version]=1))
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND MedicationDate > '2019-07-01';
+AND MedicationDate > @MedicationsFromDate;
 
 --> CODESET ace-inhibitor
 IF OBJECT_ID('tempdb..#PatientMedicationsACEI') IS NOT NULL DROP TABLE #PatientMedicationsACEI;
@@ -320,7 +326,7 @@ WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('ace-inhibitor') AND [Version]=1))
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND MedicationDate > '2019-07-01';
+AND MedicationDate > @MedicationsFromDate;
 
 --> CODESET aspirin
 IF OBJECT_ID('tempdb..#PatientMedicationsASPIRIN') IS NOT NULL DROP TABLE #PatientMedicationsASPIRIN;
@@ -334,7 +340,7 @@ WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('aspirin') AND [Version]=1))
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND MedicationDate > '2019-07-01';
+AND MedicationDate > @MedicationsFromDate;
 
 --> CODESET clopidogrel
 IF OBJECT_ID('tempdb..#PatientMedicationsCLOPIDOGREL') IS NOT NULL DROP TABLE #PatientMedicationsCLOPIDOGREL;
@@ -348,7 +354,7 @@ WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('clopidogrel') AND [Version]=1))
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND MedicationDate > '2019-07-01';
+AND MedicationDate > @MedicationsFromDate;
 
 -- record as on med if value within 6 months on index date
 IF OBJECT_ID('tempdb..#PatientMedications') IS NOT NULL DROP TABLE #PatientMedications;

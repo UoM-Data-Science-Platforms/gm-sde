@@ -42,3 +42,6 @@ H33zz12	Asthma NOS
 H33zz13	Asthma NOS
 H3B..	Asthma-COPD overlap syndrome
 H47y0	Detergent asthma
+173c.	Occupational asthma
+663V2	Moderate asthma
+663V3	Severe asthma

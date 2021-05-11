@@ -1,0 +1,9 @@
+^ESCTGE801661	Gestational diabetes, delivered
+^ESCTGE801662	Gestational diabetes mellitus complicating pregnancy
+^ESCTMA257526	Maternal diabetes mellitus with hypoglycaemia affecting foetus OR newborn
+EMISQNU2	Number of admissions for ketoacidosis
+ESCTDI20	Diabetic ketoacidosis without coma
+ESCTDI22	Diabetic severe hyperglycaemia
+ESCTDI23	Diabetic hyperosmolar non-ketotic state
+ESCTDR3	Drug-induced diabetes mellitus
+ESCTSE11	Secondary endocrine diabetes mellitus

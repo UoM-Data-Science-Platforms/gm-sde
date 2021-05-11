@@ -1,0 +1,2 @@
+EMISNQAC876	Acute infective exacerbation of asthma
+EMISNQAC877	Acute non-infective exacerbation of asthma

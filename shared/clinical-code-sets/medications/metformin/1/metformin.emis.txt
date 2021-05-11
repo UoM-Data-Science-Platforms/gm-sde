@@ -36,3 +36,38 @@ VITA86911NEMIS	Vipdomet 12.5mg/1000mg tablets (Takeda UK Ltd)
 GLOR35742NEMIS	Glucophage 500mg oral powder sachets (Merck Serono Ltd)
 COTA23359NEMIS	Competact  Tablets  15 mg + 850 mg
 MEM/47158NEMIS	Metabet SR 500mg tablets (Morningside Healthcare Ltd)
+AVTA16477NEMIS	Avandamet  Tablets  1 mg + 500 mg
+AVTA16478NEMIS	Avandamet  Tablets  2 mg + 500 mg
+AVTA19076NEMIS	Avandamet  Tablets  2 mg + 1 gram
+AVTA19077NEMIS	Avandamet  Tablets  4 mg + 1 gram
+CATA96771NEMIS	Canagliflozin And Metformin  Tablets  50 mg + 850 mg
+DATA88553NEMIS	Dapagliflozin And Metformin  Tablets  5 mg + 850 mg
+EMTA104966NEMIS	Empagliflozin And Metformin  Tablets  5 mg + 850 mg
+EMTA104968NEMIS	Empagliflozin And Metformin  Tablets  12.5 mg + 850 mg
+EUTA29316NEMIS	Eucreas  Tablets  1 gram + 50 mg
+EUTA29317NEMIS	Eucreas  Tablets  850 mg + 50 mg
+META76744NEMIS	Metformin And Linagliptin  Tablets  850 mg + 2.5 mg
+SUM/90087NEMIS	Sukkarto Sr  M/R tablets  500 mg
+SUM/90090NEMIS	Sukkarto Sr  M/R tablets  1 gram
+SYTA104973NEMIS	Synjardy  Tablets  12.5 mg + 850 mg
+SYTA104974NEMIS	Synjardy  Tablets  12.5 mg + 1000 mg
+XITA88555NEMIS	Xigduo  Tablets  5 mg + 1000 mg
+XITA88556NEMIS	Xigduo  Tablets  5 mg + 850 mg
+AVTA16477NEMIS	Avandamet  Tablets  1 mg + 500 mg
+AVTA16478NEMIS	Avandamet  Tablets  2 mg + 500 mg
+AVTA19076NEMIS	Avandamet  Tablets  2 mg + 1 gram
+AVTA19077NEMIS	Avandamet  Tablets  4 mg + 1 gram
+CATA96771NEMIS	Canagliflozin And Metformin  Tablets  50 mg + 850 mg
+DATA88553NEMIS	Dapagliflozin And Metformin  Tablets  5 mg + 850 mg
+EMTA104966NEMIS	Empagliflozin And Metformin  Tablets  5 mg + 850 mg
+EMTA104968NEMIS	Empagliflozin And Metformin  Tablets  12.5 mg + 850 mg
+EUTA29316NEMIS	Eucreas  Tablets  1 gram + 50 mg
+EUTA29317NEMIS	Eucreas  Tablets  850 mg + 50 mg
+MEOR46782NEMIS	Metformin Hydrochloride  Oral solution  500 mg/5 ml
+META76744NEMIS	Metformin And Linagliptin  Tablets  850 mg + 2.5 mg
+SUM/90087NEMIS	Sukkarto Sr  M/R tablets  500 mg
+SUM/90090NEMIS	Sukkarto Sr  M/R tablets  1 gram
+SYTA104973NEMIS	Synjardy  Tablets  12.5 mg + 850 mg
+SYTA104974NEMIS	Synjardy  Tablets  12.5 mg + 1000 mg
+XITA88555NEMIS	Xigduo  Tablets  5 mg + 1000 mg
+XITA88556NEMIS	Xigduo  Tablets  5 mg + 850 mg

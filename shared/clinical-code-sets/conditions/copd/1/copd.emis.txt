@@ -1,0 +1,2 @@
+EMISNQAC878	Acute non-infective exacerbation of chronic obstructive pulmonary disease
+ESCTAC8	Acute infective exacerbation of chronic obstructive airways disease
