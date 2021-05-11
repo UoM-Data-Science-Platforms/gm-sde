@@ -3,6 +3,7 @@ C100.	Diabetes mellitus with no mention of complication
 C1000	Diabetes mellitus, juvenile type, with no mention of complication
 C1001	Maturity onset diabetes
 C100z	Diabetes mellitus NOS with no mention of complication
+C101.	Diabetic ketoacidosis
 C1010	Diabetes mellitus, juvenile type, with ketoacidosis
 C1011	Diabetes mellitus, adult onset, with ketoacidosis
 C101y	Other specified diabetes mellitus with ketoacidosis
