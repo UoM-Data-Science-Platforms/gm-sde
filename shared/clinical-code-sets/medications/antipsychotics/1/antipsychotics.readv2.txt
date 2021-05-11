@@ -1,6 +1,462 @@
-d48y.	LEVOMEPROMAZINE 25mg/1mL injection
+d4ew.	PROMAZINE 50mg/5mL syrup
+d4ex.	*PROMAZINE 50mg/5mL suspension
+d4ey.	PROMAZINE 50mg/1mL injection
+d4ez.	*PROMAZINE 100mg/2mL injection
+d4f..	SULPIRIDE
+d4f1.	DOLMATIL 200mg tablets
+d4f2.	*SULPITIL 200mg tablets x28CP
+d4f3.	*SULPITIL 200mg tablets x112CP
+d4f4.	*SULPAREX 200mg tablets
+d4f5.	DOLMATIL 400mg tablets
+d4f6.	SULPOR 200mg/5mL oral solution
+d4fw.	SULPIRIDE 200mg/5mL oral soln
+d4fx.	SULPIRIDE 400mg tablets
+d4fy.	SULPIRIDE 200mg/5mL s/f soln
+d4fz.	SULPIRIDE 200mg tablets
+d4g..	THIORIDAZINE
+d4gp.	THIORIDAZINE 10mg/5mL syrup
+d4gq.	THIORIDAZINE 25mg/5mL s/f soln
+d4gr.	THIORIDAZINE 50mg/5mL s/f soln
+d4gs.	THIORIDAZINE 100mg/5mL sf soln
+d4gt.	*THIORIDAZINE 10mg tablets
+d4gu.	THIORIDAZINE 25mg tablets
+d4gv.	THIORIDAZINE 50mg tablets
+d4gw.	THIORIDAZINE 100mg tablets
+d4gx.	*THIORIDAZINE 25mg/5mL susp
+d4gy.	*THIORIDAZINE 100mg/5mL susp
+d4gz.	*THIORIDAZINE 25mg/5mL syrup
+d4h..	TRIFLUOPERAZINE [ANTIPSYCHOTIC
+d4h1.	*STELAZINE 1mg tablets
+d4h2.	*STELAZINE 5mg tablets
+d4h3.	*STELAZINE 2mg m/r capsules
+d4h4.	*STELAZINE 10mg m/r capsules
+d4h5.	*STELAZINE 15mg m/r capsules
+d4h6.	*STELAZINE 1mg/5mL syrup
+d4h7.	*STELAZINE 10mg/mL liquid
+d4h8.	*STELAZINE 1mg/1mL injection
+d4h9.	TRIFLUOPERAZ 5mg/5mL s/f syrup
+d4hA.	*STELAZINE FORTE 5mg/5mL susp
+d4hr.	*TRIFLUOPERAZINE 5mg/5mL susp
+d4hs.	TRIFLUOPERAZINE 1mg tablets
+d4ht.	TRIFLUOPERAZINE 5mg tablets
+d4hu.	*TRIFLUOPERAZINE 2mg m/r caps
+d4hv.	*TRIFLUOPERAZINE 10mg m/r caps
+d4hw.	*TRIFLUOPERAZINE 15mg m/r caps
+d4hx.	TRIFLUOPERAZINE 1mg/5mL syrup
+d4hy.	*TRIFLUOPERAZINE 10mg/mL liq
+d4hz.	*TRIFLUOPERAZINE 1mg/1mL inj
+d4i..	TRIFLUPERIDOL
+d4i1.	*TRIPERIDOL 500mcg tablets
+d4i2.	*TRIPERIDOL 1mg tablets
+d4iy.	*TRIFLUPERIDOL 500mcg tablets
+d41..	CHLORPROMAZINE HYDROCHLORIDE
+d411.	CHLORPROMAZINE 10mg tablets
+d412.	CHLORPROMAZINE 25mg tablets
+d413.	CHLORPROMAZINE 50mg tablets
+d414.	CHLORPROMAZINE 100mg tablets
+d415.	CHLORPROMAZINE 25mg/5mL syrup
+d416.	CHLORACTIL 25mg tablets
+d417.	CHLORACTIL 50mg tablets
+d418.	CHLORACTIL 100mg tablets
+d41A.	CHLORPROMAZ 25mg/5mL s/f soln
+d41B.	CHLORPROMAZ 100mg/5mL s/f soln
+d41a.	*LARGACTIL 10mg tablets
+d41b.	*LARGACTIL 25mg tablets
+d41c.	*LARGACTIL 50mg tablets
+d41d.	*LARGACTIL 100mg tablets
+d41e.	*LARGACTIL 25mg/5mL syrup
+d41f.	*LARGACTIL FORTE 100mg/5mL syr
+d41g.	*LARGACTIL 25mg/mL injection
+d41h.	LARGACTIL [CNS] 50mg/2mL inj
+d41i.	*LARGACTIL 100mg suppositories
+d41j.	*CHLORPROMAZINE 100mg/5mL susp
+d41k.	CHLORPROMAZINE 100mg supps
+d41l.	CHLORPROMAZINE 25mg/1mL inj
+d41m.	CHLORPROMAZINE 50mg/2mL inj
+d41o.	CHLORPROMAZINE 100mg/5mL syrup
+d42..	BENPERIDOL
+d421.	ANQUIL 250micrograms tablets
+d422.	*BENQUIL 250micrograms tablets
+d42z.	BENPERIDOL 250mcg tablets
+d43..	*CHLORPROTHIXENE
+d431.	*TARACTAN 15mg tablets
+d432.	*TARACTAN 50mg tablets
+d43y.	*CHLORPROTHIXENE 15mg tablets
+d43z.	*CHLORPROTHIXENE 50mg tablets
+d44..	DROPERIDOL [CNS]
+d441.	*DROLEPTAN 10mg tablets
+d442.	*DROLEPTAN 1mg/mL oral liquid
+d443.	*DROLEPTAN 10mg/2mL injection
+d44w.	DROPERIDOL 2.5mg/1mL inj
+d44x.	*DROPERIDOL 10mg tablets
+d44y.	*DROPERIDOL 1mg/mL oral liquid
+d44z.	*DROPERIDOL 10mg/2mL injection
+d45..	FLUPENTIXOL [ANTIPSYCHOTIC]
+d451.	DEPIXOL 3mg tablets
+d45z.	FLUPENTIXOL 3mg tablets
+d46..	FLUPHENAZINE HYDROCHLORIDE
+d461.	*MODITEN 1mg tablets
+d462.	*MODITEN 2.5mg tablets
+d463.	*MODITEN 5mg tablets
+d46x.	*FLUPHENAZINE HCL 1mg tablets
+d46y.	*FLUPHENAZINE HCL 2.5mg tabs
+d46z.	*FLUPHENAZINE HCL 5mg tablets
+d47..	HALOPERIDOL [ANTIPSYCHOTIC]
+d471.	HALOPERIDOL 1.5mg tablets
+d472.	HALOPERIDOL 5mg tablets
+d473.	HALOPERIDOL 10mg tablets
+d474.	HALOPERIDOL 20mg tablets
+d475.	HALOPERIDOL 2mg/mL liquid
+d476.	DOZIC 1mg/mL liquid
+d477.	*DOZIC 2mg/mL liquid
+d47A.	HALOPERIDOL 2mg/5mL s/f soln
+d47B.	HALOPERIDOL 1mg/5mL s/f soln
+d47d.	*HALDOL 5mg tablets
+d47e.	*HALDOL 10mg tablets
+d47f.	HALDOL 2mg/mL liquid
+d47g.	*HALDOL 10mg/mL liquid
+d47h.	*HALDOL 5mg/1mL injection
+d47i.	*HALDOL 10mg/2mL injection
+d47j.	SERENACE 500mcg capsules
+d47k.	SERENACE 1.5mg tablets
+d47l.	SERENACE 5mg tablets
+d47m.	SERENACE 10mg tablets
+d47n.	SERENACE 20mg tablets
+d47o.	SERENACE 2mg/mL liquid 100mL
+d47p.	SERENACE 5mg/1mL injection
+d47q.	SERENACE 20mg/2mL injection
+d47r.	HALOPERIDOL 500mcg capsules
+d47s.	SERENACE 2mg/mL liquid 500mL
+d47t.	HALOPERIDOL 1mg/mL liquid
+d47u.	HALOPERIDOL 500mcg tablets
+d47v.	*HALOPERIDOL 5mg/1mL injection
+d47w.	*HALOPERIDOL 10mg/2mL inj
+d47x.	HALOPERIDOL 20mg/2mL injection
+d47y.	*HALOPERIDOL 10mg/mL oral soln
+d48..	LEVOMEPROMAZINE
+d481.	NOZINAN 25mg/1mL injection
+d482.	*VERACTIL 25mg tablets
+d483.	NOZINAN 25mg tablets
+d48y.	LEVOMEPROMAZINE 25mg/1mL inj
+d48z.	LEVOMEPROMAZINE 25mg tablets
+d491.	*INTEGRIN 10mg capsules
+d492.	*INTEGRIN 40mg tablets
+d4a..	PERICYAZINE
+d4a1.	*NEULACTIL 2.5mg tablets
+d4a2.	*NEULACTIL 10mg tablets
+d4a3.	*NEULACTIL 25mg tablets
+d4a4.	*NEULACTIL FORTE 10mg/5mL syrp
+d4aw.	PERICYAZINE 2.5mg tablets
+d4ax.	PERICYAZINE 10mg tablets
+d4ay.	*PERICYAZINE 25mg tablets
+d4az.	PERICYAZINE 10mg/5mL syrup
+d4b..	PERPHENAZINE [CNS]
+d4b1.	FENTAZIN 2mg tablets
+d4b2.	FENTAZIN 4mg tablets
+d4b3.	*FENTAZIN 8mg tablets
+d4b4.	*FENTAZIN 5mg/1mL injection
+d4b5.	PERPHENAZINE 2mg/5mL s/f soln
+d4b6.	PERPHENAZINE 4mg/5mL s/f soln
+d4bx.	PERPHENAZINE 2mg tablets
+d4by.	PERPHENAZINE 4mg tablets
+d4bz.	*PERPHENAZINE 8mg tablets
+d4c..	PIMOZIDE
+d4c2.	ORAP 4mg tablets
+d4cx.	*PIMOZIDE 2mg tablets
+d4cy.	PIMOZIDE 4mg tablets
+d4cz.	*PIMOZIDE 10mg tablets
+d4e..	PROMAZINE HYDROCHLORIDE
+d4e1.	*SPARINE 50mg/5mL suspension
+d4e2.	*SPARINE 50mg/1mL injection
+d4e3.	*SPARINE 100mg/2mL injection
+d4e4.	PROMAZINE 25mg tablets
+d4e5.	PROMAZINE 50mg tablets
 d4ev.	PROMAZINE 25mg/5mL syrup
+d4l..	CLOZAPINE
+d4l1.	CLOZAPINE 25mg tablets
+d4l2.	CLOZAPINE 100mg tablets
+d4l3.	CLOZARIL 25mg tablets x84CP
+d4l4.	CLOZARIL 100mg tablets x84CP
+d4l5.	CLOZARIL 25mg tabs x28CP
+d4l6.	CLOZARIL 100mg tabs x28CP
+d4l7.	DENZAPINE 25mg tablets
+d4l8.	DENZAPINE 100mg tablets
+d4l9.	ZAPONEX 25mg tablets
+d4lA.	ZAPONEX 100mg tablets
+d4lB.	DENZAPINE 50mg/mL susp 100mL
+d4lC.	CLOZAPINE 50mg/mL suspension
+d4lD.	DENZAPINE 50mg tablets
+d4lE.	CLOZAPINE 50mg tablets
+d4lF.	DENZAPINE 200mg tablets
+d4lG.	CLOZAPINE 200mg tablets
+d4m..	REMOXIPRIDE
+d4m1.	*REMOXIPRIDE 150mg m/r caps
+d4m2.	*REMOXIPRIDE 300mg m/r caps
+d4m3.	*ROXIAM 150mg m/r capsules
+d4m4.	*ROXIAM 300mg m/r capsules
+d4n..	ZUCLOPENTHIXOL ACETATE
+d4n1.	CLOPIXOL ACUPHASE 50mg/1mL inj
+d4n2.	*CLOPIXOL ACUPHA 100mg/2mL inj
+d4n3.	ZUCLOPENTHIXOL AC 50mg/1mL inj
+d4n4.	*ZUCLOPENTHIXOL 100mg/2mL inj
+d4p..	RISPERIDONE
+d4p1.	RISPERIDONE 1mg tablets
+d4p2.	RISPERIDONE 2mg tablets
+d4p3.	RISPERIDONE 3mg tablets
+d4p4.	RISPERIDONE 4mg tablets
+d4p5.	RISPERDAL 1mg tablets
+d4p6.	RISPERDAL 2mg tablets
+d4p7.	RISPERDAL 3mg tablets
+d4p8.	RISPERDAL 4mg tablets
+d4p9.	RISPERIDONE 1mg/mL liquid
+d4pA.	RISPERDAL 1mg/mL liquid
+d4pB.	RISPERIDONE 6mg tablets
+d4pC.	RISPERDAL 6mg tablets
+d4pD.	RISPERDAL 0.5mg tablets
+d4pE.	RISPERDAL CONSTA 25mg pdr inj
+d4pF.	RISPERDAL CONSTA 37.5mg inj
+d4pG.	RISPERDAL CONSTA 50mg pdr inj
+d4pH.	RISPERIDONE 1mg disp tablets
+d4pJ.	RISPERIDONE 2mg disp tablets
+d4pK.	RISPERDAL QUICKLET 1mg tabs
+d4pL.	RISPERDAL QUICKLET 2mg tabs
+d4pM.	RISPERIDONE 0.5mg disp tablets
+d4pN.	RISPERDAL QUICKLET 0.5mg tabs
+d4pO.	RISPERDAL QUICKLET 3mg tabs
+d4pP.	RISPERDAL QUICKLET 4mg tabs
+d4pQ.	RISPERIDONE 3mg disp tabs
+d4pR.	RISPERIDONE 4mg disp tabs
+d4pS.	RISPERIDONE 1mg/mL oral soln
+d4pw.	RISPERIDONE 50mg pdr+solv inj
+d4px.	RISPERIDONE 37.5mg pdr inj
+d4py.	RISPERIDONE 25mg pdr+solv inj
+d4pz.	RISPERIDONE 0.5mg tablets
+d4q..	SERTINDOLE
+d4q1.	SERTINDOLE 4mg tablets
+d4q2.	SERTINDOLE 12mg tablets
+d4q3.	SERTINDOLE 16mg tablets
+d4q4.	SERTINDOLE 20mg tablets
+d4q5.	SERDOLECT 4mg tablets
+d4q6.	SERDOLECT 12mg tablets
+d4q7.	SERDOLECT 16mg tablets
+d4q8.	SERDOLECT 20mg tablets
+d4r..	OLANZAPINE
 d4r1.	OLANZAPINE 5mg tablets
+d4r2.	OLANZAPINE 7.5mg tablets
+d4r3.	OLANZAPINE 10mg tablets
+d4r4.	ZYPREXA 5mg tablets
+d4r5.	ZYPREXA 7.5mg tablets
+d4r6.	ZYPREXA 10mg tablets
+d4r7.	OLANZAPINE 2.5mg tablets
+d4r8.	ZYPREXA 2.5mg tablets
+d4r9.	ZYPREXA VELOTAB 5mg disp tabs
+d4rA.	ZYPREXA VELOTAB 10mg disp tabs
+d4rB.	ZYPREXA 15mg tablets
+d4rC.	ZYPREXA VELOTAB 15mg disp tabs
+d4rD.	ZYPREXA 10mg inj powder
+d4rE.	ZYPREXA VELOTAB 20mg disp tabs
+d4rF.	ZYPREXA 20mg tablets
+d4rG.	ZALASTA 2.5mg tablets
+d4rH.	ZALASTA 5mg tablets
+d4rI.	ZALASTA 7.5mg tablets
+d4rJ.	ZALASTA 15mg tablets
+d4rK.	ZALASTA 20mg tablets
+d4rL.	ZALASTA 5mg disp tablets
+d4rM.	ZALASTA 10mg disp tablets
+d4rN.	ZALASTA 15mg disp tablets
+d4rO.	ZALASTA 20mg disp tablets
+d4rP.	ZALASTA 10mg tablets
+d4rt.	OLANZAPINE 20mg tablets
+d4ru.	OLANZAPINE 20mg disp tabs
+d4rv.	OLANZAPINE 10mg inj powder
+d4rw.	OLANZAPINE 15mg disp tabs
+d4rx.	OLANZAPINE 15mg tablets
+d4ry.	OLANZAPINE 5mg disp tabs
+d4rz.	OLANZAPINE 10mg disp tabs
 d4s..	QUETIAPINE
-d551.	HALDOL DECANOATE 50mg/1mL injection
-d576.	ZUCLOPENTHIXOL DECANOATE 200mg/1mL injection
+d4s1.	QUETIAPINE 25mg tablets
+d4s2.	QUETIAPINE 100mg tablets
+d4s3.	QUETIAPINE 200mg tablets
+d4s4.	*QUETIAPINE tabs starter pack
+d4s5.	SEROQUEL 25mg tablets
+d4s6.	SEROQUEL 100mg tablets
+d4s7.	SEROQUEL 200mg tablets
+d4s8.	*SEROQUEL tablets starter pack
+d4s9.	SEROQUEL 150mg tablets
+d4sA.	*SEROQUEL 25mg+100mg+150mg tab
+d4sB.	SEROQUEL 300mg tablets
+d4sC.	SEROQUEL XL 50mg m/r tablets
+d4sD.	SEROQUEL XL 200mg m/r tablets
+d4sE.	SEROQUEL XL 300mg m/r tablets
+d4sF.	SEROQUEL XL 400mg m/r tablets
+d4sG.	SEROQUEL XL 150mg m/r tablets
+d4sH.	SONDATE XL 50mg m/r tablets
+d4sI.	SONDATE XL 200mg m/r tablets
+d4sJ.	SONDATE XL 300mg m/r tablets
+d4sK.	SONDATE XL 400mg m/r tablets
+d4ss.	QUETIAPINE 150mg m/r tablets
+d4st.	QUETIAPINE 400mg m/r tablets
+d4su.	QUETIAPINE 300mg m/r tablets
+d4sv.	QUETIAPINE 200mg m/r tablets
+d4sw.	QUETIAPINE 50mg m/r tablets
+d4sx.	QUETIAPINE 300mg tablets
+d4sy.	*QUETIAPINE 25+100+150mg tabs
+d4sz.	QUETIAPINE 150mg tablets
+d4t..	AMISULPRIDE
+d4t1.	AMISULPRIDE 50mg tablets
+d4t2.	AMISULPRIDE 200mg tablets
+d4t3.	SOLIAN 50mg tablets
+d4t4.	SOLIAN 200mg tablets
+d4t5.	SOLIAN 400mg tablets
+d4t6.	SOLIAN 100mg/mL s/f oral soln
+d4t7.	SOLIAN 100mg tablets
+d4tx.	AMISULPRIDE 100mg tablets
+d4ty.	AMISULPRIDE 100mg/mL s/f soln
+d4tz.	AMISULPRIDE 400mg tablets
+d4u..	ZOTEPINE
+d4u1.	*ZOTEPINE 25mg tablets
+d4u2.	*ZOTEPINE 50mg tablets
+d4u3.	*ZOTEPINE 100mg tablets
+d4u4.	*ZOLEPTIL 25mg tablets
+d4u5.	*ZOLEPTIL 50mg tablets
+d4u6.	*ZOLEPTIL 100mg tablets
+d4v..	ARIPIPRAZOLE
+d4v1.	ABILIFY 10mg tablets
+d4v2.	ABILIFY 15mg tablets
+d4v3.	ABILIFY 30mg tablets
+d4v4.	ABILIFY 5mg tablets
+d4v5.	ABILIFY 10mg disp tabs
+d4v6.	ABILIFY 15mg disp tabs
+d4v7.	ABILIFY 1mg/mL oral solution
+d4v8.	ABILIFY 9.75mg/1.3mL inj
+d4v9.	ABILIFY MAINTENA 400mg pdr inj
+d4vr.	ARIPIPRAZOLE 400mg pdr inj
+d4vs.	ARIPIPRAZOLE 9.75mg/1.3mL inj
+d4vt.	ARIPIPRAZOLE 1mg/mL oral soln
+d4vu.	ARIPIPRAZOLE 10mg disp tabs
+d4vv.	ARIPIPRAZOLE 15mg disp tabs
+d4vw.	ARIPIPRAZOLE 5mg tablets
+d4vx.	ARIPIPRAZOLE 30mg tablets
+d4vy.	ARIPIPRAZOLE 15mg tablets
+d4vz.	ARIPIPRAZOLE 10mg tablets
+d4w..	PALIPERIDONE
+d4w1.	INVEGA 3mg m/r tablets
+d4w2.	INVEGA 6mg m/r tablets
+d4w3.	INVEGA 9mg m/r tablets
+d4w4.	*INVEGA 12mg m/r tablets
+d4w5.	XEPLION 50mg susp for inj pfs
+d4w6.	XEPLION 75mg susp for inj pfs
+d4w7.	XEPLION 100mg susp for inj pfs
+d4w8.	XEPLION 150mg susp for inj pfs
+d4w9.	*XEPLION 100mg + 150mg inj pfs
+d4wr.	*PALIPERIDONE 100mg+150mg inj
+d4ws.	PALIPERIDON 150mg susp inj pfs
+d4wt.	PALIPERIDON 100mg susp inj pfs
+d4wu.	PALIPERIDONE 75mg susp inj pfs
+d4wv.	PALIPERIDONE 50mg susp inj pfs
+d4ww.	*PALIPERIDONE 12mg m/r tablets
+d4wx.	PALIPERIDONE 9mg m/r tablets
+d4wy.	PALIPERIDONE 6mg m/r tablets
+d4wz.	PALIPERIDONE 3mg m/r tablets
+d4x..	ASENAPINE
+d4x2.	ASENAPINE 5mg sublingual tabs
+d4x4.	ASENAPINE 10mg sublingual tabs
+d51..	FLUPENTIXOL DECANOATE
+d511.	DEPIXOL 20mg/1mL injection
+d512.	*DEPIXOL 20mg/1mL syringe
+d513.	DEPIXOL 40mg/2mL injection
+d514.	*DEPIXOL 40mg/2mL syringe
+d515.	*DEPIXOL 200mg/10mL injection
+d516.	DEPIXOL CONC. 100mg/1mL inj
+d517.	*DEPIXOL CONC. 500mg/5mL inj
+d518.	*DEPIXOL CONC. 50mg/0.5mL inj
+d519.	FLUPENTIXOL 50mg/0.5mL inj
+d51a.	DEPIXOL LV 200mg/1mL i-m inj
+d51u.	FLUPENTIXOL 200mg/1ml i-m inj
+d51v.	FLUPENTIXOL DEC 20mg/1mL inj
+d51w.	FLUPENTIXOL DEC 40mg/2mL inj
+d51y.	FLUPENTIXOL DEC 100mg/1mL inj
+d52..	FLUPHENAZINE DECANOATE
+d521.	MODECATE 12.5mg/0.5mL inj
+d522.	MODECATE 25mg/1mL injection
+d523.	*MODECATE 25mg/1mL syringe
+d524.	MODECATE 50mg/2mL injection
+d525.	*MODECATE 50mg/2mL syringe
+d526.	*MODECATE 250mg/10mL injection
+d527.	MODECATE CONC 50mg/0.5mL inj
+d528.	MODECATE CONC 100mg/1mL inj
+d529.	FLUPHENAZINE 50mg/0.5mL inj
+d52a.	FLUPHENAZINE DEC 100mg/1mL inj
+d52s.	*FLUPHENAZ DEC 25mg/1mL syrnge
+d52t.	*FLUPHENAZ DEC 50mg/2mL syrnge
+d52u.	FLUPHENAZ DEC 12.5mg/0.5mL inj
+d52v.	FLUPHENAZINE DEC 25mg/1mL inj
+d52w.	FLUPHENAZINE DEC 50mg/2mL inj
+d52x.	*FLUPHENAZINE 250mg/10mL inj
+d53..	*FLUPHENAZINE ENANTHATE
+d531.	*MODITEN ENANTHATE 25mg/mL inj
+d532.	*FLUPHENAZINE ENAN 25mg/1mL in
+d55..	HALOPERIDOL DECANOATE
+d551.	HALDOL DECANOATE 50mg/1mL inj
+d552.	HALDOL DECANOATE 100mg/1mL inj
+d553.	HALOPERIDOL 50mg/1mL injection
+d554.	HALOPERIDOL 100mg/1mL inj
+d56..	PIPOTIAZINE PALMITATE
+d561.	PIPORTIL DEPOT 50mg/1mL inj
+d562.	PIPORTIL DEPOT 100mg/2mL inj
+d563.	PIPOTIAZINE 50mg/1mL injection
+dw19.	*TRANQUILYN 5mg tablets
+dw1A.	*TRANQUILYN 10mg tablets
+dw1B.	*TRANQUILYN 20mg tablets
+o42w.	*FENTANYL+DROP 100mcg/5mg inj
+o52..	CHLORPROMAZINE HCL [ANAESTH]
+o521.	*LARGACTIL 25mg/1mL injection
+o522.	LARGACTIL 50mg injection
+o52y.	CHLORPROMAZINE 25mg/1mL inj
+o52z.	CHLORPROMAZINE 50mg/2mL inj
+o54..	*DROPERIDOL [ANAESTHESIA]
+o541.	*DROLEPTAN 10mg injection
+o58..	*PERPHENAZINE [ANAESTHESIA]
+o581.	*FENTAZIN 5mg/1mL injection
+o58z.	*PERPHENAZINE 5mg/1mL inj
+d4iz.	*TRIFLUPERIDOL 1mg tablets
+d4j..	ZUCLOPENTHIXOL DIHYDROCHLORIDE
+d4j1.	CLOPIXOL 2mg tablets
+d4j2.	CLOPIXOL 10mg tablets
+d4j3.	CLOPIXOL 25mg tablets
+d4jx.	ZUCLOPENTHIXOL DIHCL 2mg tabs
+d4jy.	ZUCLOPENTHIXOL DIHCL 10mg tabs
+d4jz.	ZUCLOPENTHIXOL DIHCL 25mg tabs
+da1..	FLUPENTIXOL [ANTIDEPRESSANT]
+da1y.	FLUPENTIXOL 500mcg tablets
+da1z.	FLUPENTIXOL 1mg tablets
+dj24.	*DIAMORPH/COCAINE/CHLORPR elix
+dj26.	*MORPHINE/COCAINE/CHLORPR elix
+d564.	PIPOTIAZINE 100mg/2mL inj
+d57..	ZUCLOPENTHIXOL DECANOATE
+d571.	CLOPIXOL 200mg/1mL injection
+d572.	*CLOPIXOL 2g/10mL injection
+d573.	CLOPIXOL CONC. 500mg/1mL inj
+d574.	*CLOPIXOL ACUPHASE 50mg/1mL
+d575.	*CLOPIXOL ACUPHASE 100mg/2mL
+d576.	ZUCLOPENTHIX DEC 200mg/1mL inj
+d577.	*ZUCLOPENTHIXOL DEC 50mg/1mL
+d578.	*ZUCLOPENTHIXOL DEC 100mg/2mL
+d57y.	*ZUCLOPENTHIX DEC 2g/10mL inj
+d57z.	ZUCLOPENTHIX DEC 500mg/1mL inj
+d58..	OLANZAPINE PAMOATE
+d581.	ZYPADHERA 210mg pdr+solv inj
+d582.	ZYPADHERA 300mg pdr+solv inj
+d583.	ZYPADHERA 405mg pdr+solv inj
+d58x.	OLANZAPINE 405mg pdr+solv inj
+d58y.	OLANZAPINE 300mg pdr+solv inj
+d58z.	OLANZAPINE 210mg pdr+solv inj
+d84..	TRANYLCYPROMINE
+d84z.	TRANYLCYPROMINE 10mg tablets
+d915.	*PARSTELIN tablets
+d916.	TRIPTAFEN tablets
+d917.	*TRIPTAFEN-M tablets
+dh2..	*CHLORPROMAZINE HCL [NAUSEA]
+dhd..	*PERPHENAZINE [NO DRUGS HERE]
+dhi..	*TRIFLUOPERAZINE [NAUSEA]
+ds1..	"*HALOPERIDOL [TICS, CHOREA]"

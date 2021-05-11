@@ -33,8 +33,7 @@ d4x4.	ASENAPINE 10mg sublingual tablets
 d42..	Benperidol									
 d42z.	Benperidol 250micrograms tablet									
 x05h1	Benquil									
-d422.	Benquil 250micrograms tablet									
-MainCode	FullDescription									
+d422.	Benquil 250micrograms tablet								
 d416.	Chloractil 25mg tablet									
 d417.	Chloractil 50mg tablet									
 d418.	Chloractil 100mg tablet									
@@ -124,7 +123,8 @@ d4b2.	Fentazin 4mg tablet
 x02cS	Fentazin									
 d4b3.	Fentazin 8mg tablet									
 d4b4.	Fentazin 5mg/1mL injection									
-x02LQ	Flupentixol									
+x02LQ	Flupentixol
+da1..	Flupentixol [antidepressant]									
 d45..	Flupentixol [antipsychotic]									
 d45z.	Flupentixol 3mg tablet									
 d51..	Flupentixol decanoate									
