@@ -151,3 +151,7 @@ Attempted to find the location of information related to project no.1 (Grant), i
 07/05/21
 - RQ-028 extraction code and code set work 
 - cohort matching preparation RQ-028 
+
+08/05/21
+- troubleshooting fileshare issues for analysts on RQ-029
+- building SNOMED codeset for antipsychotics, RQ-028
