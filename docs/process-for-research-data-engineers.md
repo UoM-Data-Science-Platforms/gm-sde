@@ -139,7 +139,7 @@ Pre-requisite: All users must have a VDE and appear in the list of names on the 
 - Complete one row per person who requires access. The first 4 columns need completing. The `Person Name` and `Study ID` are dropdowns populated by the other two sheets. If the person name or the study id do not appear then please check the earlier steps in this section.
 - Once done you can now make the request to GraphNet for the file share.
 - First obtain the email addresses that the analysts have been assigned when their VDE was created. This will be of the form `firstname.secondname@grhapp.com`. You will also need the grhapp email address for the RDE who will extract and send the data.
-- Make a note of the RQ number and PI name as the name of the fileshare will have these in it.
+- Make a note of the RQ number and PI name as the name of the file share will have these in it.
 - Navigate to the [GMSS service desk](https://nwcsu.service-now.com/gmss) and login (Firefox doesn't seem to work but Chrome does).
 - Select `IDCR Portal` from the top menu bar
 - Select `Request something`
@@ -149,14 +149,23 @@ Pre-requisite: All users must have a VDE and appear in the list of names on the 
   - Company: `The University of Manchester`
   - Organisations: `Health Innovation Manchester`
   - General Request: `Other`
-  - General Information: `Please set up a fileshare, with the name "GMCR-RQXXX-[PI name]", accessible by the following users: [insert list of emails for all the analysts and the RDE who will send the data]`
-  - E.g. the general information box will look like: `Please set up a fileshare, with the name "GMCR-RQ027-Williams", accessible by the following users: richard.william@grhapp.com another.user@grhapp.com one.more@grhapp.com`
+  - General Information: `Please set up a file share, with the name "GMCR-RQXXX-[PI name]", accessible by the following users: [insert list of emails for all the analysts and the RDE who will send the data]`
+  - E.g. the general information box will look like: `Please set up a file share, with the name "GMCR-RQ027-Williams", accessible by the following users: richard.william@grhapp.com another.user@grhapp.com one.more@grhapp.com`
 
 - Click `Add to cart`
 - Click the `HERE` hyperlink in the popup
 - Close the popup
 - Click `Order`
 - Once confirmation is received that this has been set up, the `File Share Request by User` sheet of the `VDE and Data Extract Tracker` google sheet should be updated with the date that access was granted.
+
+**NB sometimes the file share is not visible in the VDE. If that happens try the following steps:**
+
+- Open Windows Explorer and navigate to "This PC"
+- Right click anywhere in "This PC"
+- Select "Add a network location"
+- Follow the onscreen prompts, entering "\\gmvdireportstorage.file.core.windows.net\gmcr-rqXXX-[PI name]" as the "Internet or Network Address".
+- Enter "gmcr-rqXXX-[PI name]" as the file share name when prompted
+- If the file share has been correctly set up you will now be able to access it. Otherwise you'll need to re-open the support ticket with GMSS/GraphNet
 
 ### Clinical code sets
 
