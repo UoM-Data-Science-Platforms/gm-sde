@@ -134,7 +134,7 @@ SELECT
   PatientId AS PatientWhoIsMatched
 INTO #MatchedCohort
 FROM #CohortStore c
-LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = c.PatientId
+LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = c.MatchingPatientId
 WHERE c.PatientId IN (SELECT FK_Patient_Link_ID FROM #DiabeticPatients);
 
 -- Define a table with all the patient ids and index dates for the main cohort and the matched cohort
