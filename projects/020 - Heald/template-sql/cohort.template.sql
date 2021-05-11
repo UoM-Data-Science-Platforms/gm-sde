@@ -2,6 +2,10 @@
 --│ Diabetes cohort file │
 --└──────────────────────┘
 
+------------------------ RDE CHECK -------------------------
+-- RDE NAME: GEORGE TILSTON, DATE OF CHECK: 11/05/21 -------
+------------------------------------------------------------
+
 -- Cohort is diabetic patients with a positive covid test. Also a 1:5 matched cohort, 
 -- matched on year of birth (+-5 years), sex, and date of positive covid test (+-14 days).
 -- For each we provide the following:
