@@ -2,6 +2,10 @@
 --│ HbA1c file │
 --└────────────┘
 
+------------------------ RDE CHECK -------------------------
+-- RDE NAME: GEORGE TILSTON, DATE OF CHECK: 11/05/21 -------
+------------------------------------------------------------
+
 -- For each patient with a COVID positive test, this produces 2 years of hbA1c readings
 -- leading up to the date of the positive test.
 

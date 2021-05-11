@@ -48,9 +48,13 @@ Reports
 
 If you want to investigate the prevalence of the codeset across each GP system (TPP, Vision, EMIS):
 
-1. Open 'concepts-per-clinical-system.template-individual-concept.sql' 
+1. Open 'concepts-per-clinical-system-individual-concept.template.sql' 
 2. Edit line 29 by adding the name of the code set that you are interested in. The code should then look something like:
+
+```sql
 	--> CODESET antipsychotics
+```
+
 3. Replace 'insert-concept-here' with the name of the code set on lines 213 and 368. 
 4. Save and close the file.
 5. Run the file 'generate-sql-windows.bat'.
