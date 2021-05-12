@@ -34,7 +34,7 @@ IF OBJECT_ID('tempdb..#Matches') IS NOT NULL DROP TABLE #Matches;
 SELECT FK_Patient_Link_ID AS PatientId, YearOfBirth, Sex
 INTO #Matches FROM (select p.FK_Patient_Link_ID, p.YearOfBirth, p.Sex from #Cases c inner join (
 	SELECT FK_Patient_Link_ID, YearOfBirth, Sex FROM #PotentialMatches
-) p on c.Sex = p.Sex and c.YearOfBirth >= p.YearOfBirth - {param:yob-flex} and c.YearOfBirth <= p.YearOfBirth + {param:yob-flex} 
+) p on c.Sex = p.Sex and c.YearOfBirth >= p.YearOfBirth - 1 and c.YearOfBirth <= p.YearOfBirth + 1 
 group by p.FK_Patient_Link_ID, p.YearOfBirth, p.Sex) sub;
 
 -- Table to store the matches
@@ -151,12 +151,12 @@ WHILE ( @LastRowInsert4 > 0)
 BEGIN
   INSERT INTO #CohortStore
   SELECT sub.PatientId, sub.YearOfBirth, sub.Sex, MatchedPatientId, MAX(m.YearOfBirth) FROM (
-  SELECT c.PatientId, c.YearOfBirth, c.Sex MAX(p.PatientId) AS MatchedPatientId, Row_Number() OVER(PARTITION BY MAX(p.PatientId) ORDER BY NewID()) AS AssignedPersonNumber
+  SELECT c.PatientId, c.YearOfBirth, c.Sex, MAX(p.PatientId) AS MatchedPatientId, Row_Number() OVER(PARTITION BY MAX(p.PatientId) ORDER BY NewID()) AS AssignedPersonNumber
   FROM #Cases c
   INNER JOIN #Matches p 
     ON p.Sex = c.Sex 
-    AND p.YearOfBirth >= c.YearOfBirth - {param:yob-flex}
-    AND p.YearOfBirth <= c.YearOfBirth + {param:yob-flex}
+    AND p.YearOfBirth >= c.YearOfBirth - 1
+    AND p.YearOfBirth <= c.YearOfBirth + 1
   WHERE c.PatientId in (
     -- find patients who aren't currently matched
 select PatientId from #Cases except select PatientId from #CohortStore
@@ -165,8 +165,8 @@ select PatientId from #Cases except select PatientId from #CohortStore
   INNER JOIN #Matches m 
     ON m.Sex = sub.Sex 
     AND m.PatientId = sub.MatchedPatientId
-    AND m.YearOfBirth >= sub.YearOfBirth - {param:yob-flex}
-    AND m.YearOfBirth <= sub.YearOfBirth + {param:yob-flex}
+    AND m.YearOfBirth >= sub.YearOfBirth - 1
+    AND m.YearOfBirth <= sub.YearOfBirth + 1
   WHERE sub.AssignedPersonNumber = 1
   GROUP BY sub.PatientId, sub.YearOfBirth, sub.Sex, MatchedPatientId;
   SELECT @LastRowInsert4=@@ROWCOUNT;
@@ -239,8 +239,8 @@ BEGIN
   FROM #Cases c
   INNER JOIN #Matches p 
     ON p.Sex = c.Sex 
-    AND p.YearOfBirth >= c.YearOfBirth - {param:yob-flex}
-    AND p.YearOfBirth <= c.YearOfBirth + {param:yob-flex}
+    AND p.YearOfBirth >= c.YearOfBirth - 1
+    AND p.YearOfBirth <= c.YearOfBirth + 1
   WHERE c.PatientId in (
     -- find patients who currently only have 1 match(es)
 select PatientId from #CohortStore group by PatientId having count(*) = 1
@@ -249,8 +249,8 @@ select PatientId from #CohortStore group by PatientId having count(*) = 1
   INNER JOIN #Matches m 
     ON m.Sex = sub.Sex 
     AND m.PatientId = sub.MatchedPatientId
-    AND m.YearOfBirth >= sub.YearOfBirth - {param:yob-flex}
-    AND m.YearOfBirth <= sub.YearOfBirth + {param:yob-flex}
+    AND m.YearOfBirth >= sub.YearOfBirth - 1
+    AND m.YearOfBirth <= sub.YearOfBirth + 1
   WHERE sub.AssignedPersonNumber = 1
   GROUP BY sub.PatientId, sub.YearOfBirth, sub.Sex, MatchedPatientId;
   SELECT @LastRowInsert7=@@ROWCOUNT;
@@ -323,8 +323,8 @@ BEGIN
   FROM #Cases c
   INNER JOIN #Matches p 
     ON p.Sex = c.Sex 
-    AND p.YearOfBirth >= c.YearOfBirth - {param:yob-flex}
-    AND p.YearOfBirth <= c.YearOfBirth + {param:yob-flex}
+    AND p.YearOfBirth >= c.YearOfBirth - 1
+    AND p.YearOfBirth <= c.YearOfBirth + 1
   WHERE c.PatientId in (
     -- find patients who currently only have 2 match(es)
 select PatientId from #CohortStore group by PatientId having count(*) = 2
@@ -333,8 +333,8 @@ select PatientId from #CohortStore group by PatientId having count(*) = 2
   INNER JOIN #Matches m 
     ON m.Sex = sub.Sex 
     AND m.PatientId = sub.MatchedPatientId
-    AND m.YearOfBirth >= sub.YearOfBirth - {param:yob-flex}
-    AND m.YearOfBirth <= sub.YearOfBirth + {param:yob-flex}
+    AND m.YearOfBirth >= sub.YearOfBirth - 1
+    AND m.YearOfBirth <= sub.YearOfBirth + 1
   WHERE sub.AssignedPersonNumber = 1
   GROUP BY sub.PatientId, sub.YearOfBirth, sub.Sex, MatchedPatientId;
   SELECT @LastRowInsert10=@@ROWCOUNT;
@@ -374,7 +374,7 @@ SET @LastRowInsert12=1;
 WHILE ( @LastRowInsert12 > 0)
 BEGIN
   INSERT INTO #CohortStore
-  SELECT sub.PatientId, sub.YearOfBirth, sub.Sex, MatchedPatientId, m.YearOfBirth) FROM (
+  SELECT sub.PatientId, sub.YearOfBirth, sub.Sex, MatchedPatientId, m.YearOfBirth FROM (
   SELECT c.PatientId, c.YearOfBirth, c.Sex, MAX(p.PatientId) AS MatchedPatientId, Row_Number() OVER(PARTITION BY MAX(p.PatientId) ORDER BY NewID()) AS AssignedPersonNumber
   FROM #Cases c
   INNER JOIN #Matches p 
@@ -407,8 +407,8 @@ BEGIN
   FROM #Cases c
   INNER JOIN #Matches p 
     ON p.Sex = c.Sex 
-    AND p.YearOfBirth >= c.YearOfBirth - {param:yob-flex}
-    AND p.YearOfBirth <= c.YearOfBirth + {param:yob-flex}
+    AND p.YearOfBirth >= c.YearOfBirth - 1
+    AND p.YearOfBirth <= c.YearOfBirth + 1
   WHERE c.PatientId in (
     -- find patients who currently only have 3 match(es)
 select PatientId from #CohortStore group by PatientId having count(*) = 3
@@ -417,8 +417,8 @@ select PatientId from #CohortStore group by PatientId having count(*) = 3
   INNER JOIN #Matches m 
     ON m.Sex = sub.Sex 
     AND m.PatientId = sub.MatchedPatientId
-    AND m.YearOfBirth >= sub.YearOfBirth - {param:yob-flex}
-    AND m.YearOfBirth <= sub.YearOfBirth + {param:yob-flex}
+    AND m.YearOfBirth >= sub.YearOfBirth - 1
+    AND m.YearOfBirth <= sub.YearOfBirth + 1
   WHERE sub.AssignedPersonNumber = 1
   GROUP BY sub.PatientId, sub.YearOfBirth, sub.Sex, MatchedPatientId;
   SELECT @LastRowInsert13=@@ROWCOUNT;
@@ -491,8 +491,8 @@ BEGIN
   FROM #Cases c
   INNER JOIN #Matches p 
     ON p.Sex = c.Sex 
-    AND p.YearOfBirth >= c.YearOfBirth - {param:yob-flex}
-    AND p.YearOfBirth <= c.YearOfBirth + {param:yob-flex}
+    AND p.YearOfBirth >= c.YearOfBirth - 1
+    AND p.YearOfBirth <= c.YearOfBirth + 1
   WHERE c.PatientId in (
     -- find patients who currently only have 4 match(es)
 select PatientId from #CohortStore group by PatientId having count(*) = 4
@@ -501,8 +501,8 @@ select PatientId from #CohortStore group by PatientId having count(*) = 4
   INNER JOIN #Matches m 
     ON m.Sex = sub.Sex 
     AND m.PatientId = sub.MatchedPatientId
-    AND m.YearOfBirth >= sub.YearOfBirth - {param:yob-flex}
-    AND m.YearOfBirth <= sub.YearOfBirth + {param:yob-flex}
+    AND m.YearOfBirth >= sub.YearOfBirth - 1
+    AND m.YearOfBirth <= sub.YearOfBirth + 1
   WHERE sub.AssignedPersonNumber = 1
   GROUP BY sub.PatientId, sub.YearOfBirth, sub.Sex, MatchedPatientId;
   SELECT @LastRowInsert16=@@ROWCOUNT;
