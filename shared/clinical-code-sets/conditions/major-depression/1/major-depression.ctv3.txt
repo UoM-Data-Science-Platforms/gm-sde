@@ -1,30 +1,125 @@
-E113.	Recurrent major depressive episode
-E1130	Recurrent major depressive episodes, unspecified
+E0043	Arterioscl.dementia+depression
+E1154	Depr.bipol.affect.-severe+psyc
+X00SO	Depressive disorder
+E2B..	Depressive disorder NEC
 E130.	Reactive depressive psychosis
-E1131	Recurrent major depressive episodes, mild
-E1132	Recurrent major depressive episodes, moderate
-E1133	Recurrent major depressive episodes, severe, without mention of psychosis
-E1134	Recurrent major depressive episodes, severe, with psychosis
-E1135	Recurrent major depressive episodes, in partial or unspecified remission
-E1136	Recurrent major depressive episodes, in full remission
-E1137	Recurrent depression
-E113z	Recurrent major depressive episode NOS
-E1154	Bipolar affect disord, now depressed, severe with psychosis
-Eu322	[X]Sev depress epis, no psych: (& single [agit][maj][vital])
-Eu323	[X]Sev depress epis + psych symp:(& singl epis [named vars])
-Eu330	[X]Recurrent depressive disorder, current episode mild
-Eu331	[X]Recurrent depressive disorder, current episode moderate
-Eu334	[X]Recurrent depressive disorder, currently in remission
+X00SR	Endogenous depression
+XE1Y1	Recur major depressive episod
+Eu322	[X] Severe depressive episode without psychotic symptoms: (& [single episode agitated depression] or [single episode major depression] or [single episode vital depression])
+Eu32y	[X] Depression: [other episodes] or [atypical] or [single episode masked NOS]
+Eu32z	"[X] (Depression: [episode, unspecified] or [NOS (& reactive)] or [depressive disorder NOS]"
+Eu33.	[X]Recurrent depressive disorder (& [episodes of depressive reaction] or [episodes of psychogenic depression] or [episodes of reactive depression] or [seasonal depressive disorder])
+Eu332	"[X]Depression without psychotic symptoms: [recurrent: [major] or [manic-depressive psychosis, depressed type] or [vital] or [current severe episode]] or [endogenous]"
+Eu333	"[X] Depression with psychotic symptoms: [recurrent: (current episode severe) or (manic-depressive, depressed type) or (severe major episodes) or (severe episodes)] or [endogenous]"
+Eu320	[X]Mild depressive episode
+Eu321	[X]Moderate depressive episode
+Eu330	[X]Recurr depress current mild
+Eu331	[X]Recurr depress current mod
+XE1Zd	[X]Recurr dep now sever no psy
+XE1Ze	[X]Recurr dep now sever+psych
+Eu334	[X]Recurr depress in remission
+Eu33y	[X]Oth recurr depressve disord
+XE1Zf	[X]Recurrent depress dis unsp
+X00SO	Depressed
+Eu322	[X] Single episode agitated depression without psychotic symptoms
+XaCHr	[X] Single episode agitated depression without psychotic symptoms
+Eu322	[X] Single episode major depression without psychotic symptoms
+XaCHs	[X] Single episode major depression without psychotic symptoms
+Eu32y	[X] Single episode of masked depression NOS
+Eu32z	[X] Depression NOS
+XE1Zb	[X] Depression NOS
+Eu33.	[X] Recurrent episodes of depressive reaction
+Eu33.	[X] Recurrent episodes of psychogenic depression
+Eu33.	[X] Recurrent episodes of reactive depression
+Eu33.	[X] Seasonal depressive disorder
+Eu332	[X]Endogenous depression without psychotic symptoms
+Eu332	"[X] Manic-depressive psychosis, depressed type without psychotic symptoms"
+XaCHo	"[X] Manic-depressive psychosis, depressed type without psychotic symptoms"
+Eu332	"[X] Vital depression, recurrent without psychotic symptoms"
+Eu333	[X]Endogenous depression with psychotic symptoms
+Eu333	"[X]Manic-depressive psychosis, depressed type with psychotic symptoms"
+Eu333	[X]Recurrent severe episodes of psychogenic depressive psychosis
+Eu333	[X]Recurrent severe episodes of psychotic depression
+Eu320	[X]Mild depressive episode
+Eu321	[X]Moderate depressive episode
+Eu322	[X]Severe depressive episode without psychotic symptoms
+XE1ZY	[X]Severe depressive episode without psychotic symptoms
+Eu32y	[X]Other depressive episodes
+XE1Za	[X]Other depressive episodes
+Eu32z	"[X]Depressive episode, unspecified"
+XE1Zb	"[X]Depressive episode, unspecified"
+Eu33.	[X]Recurrent depressive disorder
+XE1Zc	[X]Recurrent depressive disorder
+Eu330	"[X]Recurrent depressive disorder, current episode mild"
+Eu331	"[X]Recurrent depressive disorder, current episode moderate"
+Eu332	"[X]Recurrent depressive disorder, current episode severe without psychotic symptoms"
+XE1Zd	"[X]Recurrent depressive disorder, current episode severe without psychotic symptoms"
+Eu333	"[X]Recurrent depressive disorder, current episode severe with psychotic symptoms"
+XE1Ze	"[X]Recurrent depressive disorder, current episode severe with psychotic symptoms"
+Eu334	"[X]Recurrent depressive disorder, currently in remission"
 Eu33y	[X]Other recurrent depressive disorders
-Eu33z	[X] Depression recurrent: [unspecified] or [monopolar NOS]
-Eu332	[X]Depression without psychotic symptoms: [recurrent: [major] or [manic-depressive psychosis, depressed type] or [vital] or [current severe episode]] or [endogenous]
-XE1Y1	Recurrent major depressive episodes
-XE1Zd	[X]Recurr depress disorder cur epi severe without psyc sympt
-XE1Ze	[X]Recurrent depress disorder cur epi severe with psyc symp
-XSEGJ	Major depression
-XSGok	Mild major depression
-XSGol	Moderate major depression
-XSGom	Severe major depression without psychotic features
-XSGon	Severe major depression with psychotic features
+Eu33z	"[X]Recurrent depressive disorder, unspecified"
+XE1Zf	"[X]Recurrent depressive disorder, unspecified"
+XSGon	Sev maj depres with psyctc ftr
+XaCIs	Mild depression
+XaCIt	Moderate depression
 XaCIu	Severe depression
-XaX54	Recurrent major depressive episodes, severe, with psychosis, psychosis in remission
+XaB9J	Depression NOS
+E11..	Depressive psychoses
+Eu322	[X]Single episode agitated depression without psychotic symptoms
+Eu322	[X]Single episode major depression without psychotic symptoms
+Eu323	[X]Single episode of psychogenic depressive psychosis
+Eu32z	[X]Depression NOS
+Eu33.	[X]Recurrent episodes of depressive reaction
+Eu33.	[X]Recurrent episodes of psychogenic depression
+Eu33.	[X]Recurrent episodes of reactive depression
+E113z	Recurr. major depression NOS
+Eu322	[X]Single episode vital depression without psychotic symptoms
+Eu32z	[X]Depressive disorder NOS
+Eu333	[X]Recurrent severe episodes of major depression with psychotic symptoms
+XaCIs	Mild depression
+XaCIt	Moderate depression
+XaCIu	Severe depression
+E0043	Arteriosclerotic dementia with depression
+E1154	"Bipolar affective disorder, currently depressed, severe, with psychosis"
+X00SO	Depressive disorder
+X00SO	Depressive episode
+E2B..	Depressive disorder NEC
+E130.	Reactive depressive psychosis
+E130.	Psychotic reactive depression
+E112.	Endogenous depression
+X00SR	Endogenous depression
+X00SR	Melancholia
+XE1Y1	Recurrent major depressive episodes
+E1130	"Recurrent major depressive episodes, unspecified"
+E1131	"Recurrent major depressive episodes, mild"
+E1132	"Recurrent major depressive episodes, moderate"
+E1133	"Recurrent major depressive episodes, severe, without mention of psychosis"
+E1134	"Recurrent major depressive episodes, severe, with psychosis"
+E1135	"Recurrent major depressive episodes, in partial or unspecified remission"
+E1136	Recurr.maj.depres.-full remiss
+E113.	Recurrent major depressive episode
+2257	O/E - depressed
+XagU1	Recr react depress ep svr +psy
+X00SO	Depressive illness
+XaCIs	[X]Mild depression
+E1137	Recurrent depression
+2257	O/E - depressed
+Eu332	"[X]Manic-depressive psychosis, depressed type without psychotic symptoms"
+Eu332	"[X]Vital depression, recurrent without psychotic symptoms"
+Eu33z	[X]Monopolar depression NOS
+XagU1	"Recurrent reactive depressive episodes, severe, with psychosis"
+XaCHr	"[X]Sgl epi,ag depress,no psch"
+XaCHs	"[X]Sgl epi ,maj depres,no psyc"
+XaCHo	"[X]Manic-dep,depress,no psych"
+Eu333	[X]Recurrent severe episodes of reactive depressive psychosis
+Eu33z	[X] Monopolar depression NOS
+X00SO	Depression
+XSGon	"[X]Major depression, severe with psychotic symptoms"
+E1136	"Recurrent major depressive episodes, in full remission"
+E113z	Recurrent major depressive episode NOS
+XaB9J	Depression NOS
+E1137	Recurrent depression
+Eu33z	[X] Depression recurrent: [unspecified] or [monopolar NOS]
+XSGon	Severe major depression with psychotic features
+XSGon	Psychotic depression
