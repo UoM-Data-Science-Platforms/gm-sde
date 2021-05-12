@@ -53,7 +53,7 @@ IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
---> CODESET major-depression schizophrenia-psychosis bipolar severe-mental-illness
+--> CODESET recurrent-depressive schizophrenia-psychosis bipolar severe-mental-illness
 
 --> EXECUTE query-patient-sex.sql
 --> EXECUTE query-patient-imd.sql
@@ -65,6 +65,129 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 --> EXECUTE query-patient-ltcs-group.sql
 
 --> EXECUTE query-get-covid-vaccines.sql
+
+IF OBJECT_ID('tempdb..#COVIDVaccinations1') IS NOT NULL DROP TABLE #COVIDVaccinations1;
+SELECT 
+	FK_Patient_Link_ID
+	,FirstVaccineDate = MAX(CASE WHEN VaccineDate IS NOT NULL AND DaysSinceFirstVaccine = 0 THEN VaccineDate ELSE NULL END) 
+	,SecondVaccineDate = MAX(CASE WHEN VaccineDate IS NOT NULL AND DaysSinceFirstVaccine != 0 THEN VaccineDate ELSE NULL END) 
+INTO #COVIDVaccinations1
+FROM #COVIDVaccinations
+GROUP BY FK_Patient_Link_ID
+
+
+---- CREATE TABLE OF ALL PATIENTS THAT HAVE ANY LIFETIME DIAGNOSES OF SMI AS OF 31.01.20
+
+IF OBJECT_ID('tempdb..#SMI_Episodes') IS NOT NULL DROP TABLE #SMI_Episodes;
+SELECT gp.FK_Patient_Link_ID, 
+		YearOfBirth, 
+		Sex,
+		LSOA_Code,
+		EthnicMainGroup,
+		IMD2019Decile1IsMostDeprived10IsLeastDeprived, --may need changing to IMD Score
+		prac.GPPracticeCode, -- needs anonymising
+		EventDate,
+		SuppliedCode,
+		Schizophrenia_Psychosis_Code = CASE WHEN SuppliedCode IN 
+					( SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('schizophrenia-psychosis') AND [Version] = 1 ) THEN 1 ELSE 0 END,
+		Bipolar_Code = CASE WHEN SuppliedCode IN 
+					( SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('bipolar') AND [Version] = 1 ) THEN 1 ELSE 0 END,			
+		Recurrent_Depressive_Code = CASE WHEN SuppliedCode IN 
+					( SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('recurrent-depressive') AND [Version] = 1 ) THEN 1 ELSE 0 END
+INTO #SMI_Episodes
+FROM [RLS].[vw_GP_Events] gp
+LEFT OUTER JOIN #Patients p ON p.PK_Patient_ID = gp.FK_Patient_ID
+LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientPracticeAndCCG prac ON prac.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+WHERE SuppliedCode IN (
+	SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('severe-mental-illness') AND [Version] = 1
+)
+	AND (gp.EventDate) <= '2020-01-31'
+
+-- Define the main cohort to be matched
+
+IF OBJECT_ID('tempdb..#MainCohort') IS NOT NULL DROP TABLE #MainCohort;
+SELECT DISTINCT FK_Patient_Link_ID, 
+		YearOfBirth, 
+		Sex,
+		LSOA_Code,
+		EthnicMainGroup,
+		IMD2019Decile1IsMostDeprived10IsLeastDeprived, --may need changing to IMD Score
+		GPPracticeCode -- needs anonymising
+INTO #MainCohort
+FROM #SMI_Episodes
+--57,622
+
+-- Define the population of potential matches for the cohort
+IF OBJECT_ID('tempdb..#PotentialMatches') IS NOT NULL DROP TABLE #PotentialMatches;
+SELECT p.FK_Patient_Link_ID, Sex, YearOfBirth
+INTO #PotentialMatches
+FROM #Patients p
+LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+EXCEPT
+SELECT FK_Patient_Link_ID, Sex, YearOfBirth FROM #MainCohort;
+-- 3,378,730
+
+--> EXECUTE query-cohort-matching-yob-sex.sql yob-flex:1
+
+-- Get the matched cohort detail - same as main cohort
+IF OBJECT_ID('tempdb..#MatchedCohort') IS NOT NULL DROP TABLE #MatchedCohort;
+SELECT 
+  c.MatchingPatientId AS FK_Patient_Link_ID,
+  Sex,
+  MatchingYearOfBirth,
+  LSOA_Code,
+  EthnicMainGroup,
+  IMD2019Decile1IsMostDeprived10IsLeastDeprived, --may need changing to IMD Score
+  GPPracticeCode, -- needs anonymising
+  PatientId AS PatientWhoIsMatched
+INTO #MatchedCohort
+FROM #CohortStore c
+LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = c.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = c.MatchingPatientId
+LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = c.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientPracticeAndCCG prac ON prac.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+WHERE c.PatientId IN (SELECT FK_Patient_Link_ID FROM #Patients);
+--254,824
+
+-- Define a table with all the patient ids for the main cohort and the matched cohort
+IF OBJECT_ID('tempdb..#PatientIds') IS NOT NULL DROP TABLE #PatientIds;
+SELECT PatientId AS FK_Patient_Link_ID INTO #PatientIds FROM #CohortStore
+UNION
+SELECT MatchingPatientId FROM #CohortStore;
+
+
+
+-- TABLES WITH EARLIEST DIAGNOSES OF SMI DIAGNOSES
+
+IF OBJECT_ID('tempdb..#EarliestDiagnosis_Schizophrenia_Psychosis') IS NOT NULL DROP TABLE #EarliestDiagnosis_Schizophrenia_Psychosis;
+SELECT FK_Patient_Link_ID
+	,EarliestDiagnosis_Schizophrenia_Psychosis = MIN(EventDate)
+INTO #EarliestDiagnosis_Schizophrenia_Psychosis
+FROM #SMI_Episodes 
+WHERE Schizophrenia_Psychosis_Code = 1
+GROUP BY FK_Patient_Link_ID
+
+IF OBJECT_ID('tempdb..#EarliestDiagnosis_Bipolar') IS NOT NULL DROP TABLE #EarliestDiagnosis_Bipolar;
+SELECT FK_Patient_Link_ID
+	,EarliestDiagnosis_Bipolar = MIN(EventDate)
+INTO #EarliestDiagnosis_Bipolar
+FROM #SMI_Episodes 
+WHERE Bipolar_Code = 1
+GROUP BY FK_Patient_Link_ID
+
+IF OBJECT_ID('tempdb..#EarliestDiagnosis_Recurrent_Depressive ') IS NOT NULL DROP TABLE #EarliestDiagnosis_Recurrent_Depressive ;
+SELECT FK_Patient_Link_ID
+	,EarliestDiagnosis_Recurrent_Depressive = MIN(EventDate)
+INTO #EarliestDiagnosis_Recurrent_Depressive
+FROM #SMI_Episodes 
+WHERE Recurrent_Depressive_Code = 1
+GROUP BY FK_Patient_Link_ID
+
 
 
 -- CREATE WIDE TABLE SHOWING WHICH PATIENTS HAVE A HISTORY OF EACH LTC
@@ -104,72 +227,16 @@ INTO #HistoryOfLTCs
 FROM #PatientsWithLTCs
 GROUP BY FK_Patient_Link_ID
 
----- CREATE TABLE OF ALL PATIENTS THAT HAVE ANY LIFETIME DIAGNOSES OF SMI AS OF 31.01.20
 
-IF OBJECT_ID('tempdb..#SMI_Episodes') IS NOT NULL DROP TABLE #SMI_Episodes;
-SELECT gp.FK_Patient_Link_ID, 
-		YearOfBirth, -- may need month adding
-		Sex,
-		LSOA_Code,
-		EthnicMainGroup,
-		IMD2019Decile1IsMostDeprived10IsLeastDeprived, --may need changing to IMD Score
-		GPPracticeCode, -- needs anonymising
-		EventDate,
-		SuppliedCode,
-		Schizophrenia_Psychosis_Code = CASE WHEN SuppliedCode IN 
-					( SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('schizophrenia-psychosis') AND [Version] = 1 ) THEN 1 ELSE 0 END,
-		Bipolar_Code = CASE WHEN SuppliedCode IN 
-					( SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('bipolar') AND [Version] = 1 ) THEN 1 ELSE 0 END,			
-		Major_Depression_Code = CASE WHEN SuppliedCode IN 
-					( SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('major-depression') AND [Version] = 1 ) THEN 1 ELSE 0 END
-					
-
-INTO #SMI_Episodes
-FROM [RLS].[vw_GP_Events] gp
-LEFT OUTER JOIN #Patients p ON p.PK_Patient_ID = gp.FK_Patient_ID
-LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientsWithLTCs ltc ON ltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-WHERE SuppliedCode IN (
-	SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('severe-mental-illness') AND [Version] = 1
-)
-	AND (gp.EventDate) <= '2020-01-31'
-
-
--- TABLES WITH EARLIEST DIAGNOSES OF SMI DIAGNOSES
-
-SELECT FK_Patient_Link_ID
-	,EarliestDiagnosis_Schizophrenia_Psychosis = MIN(EventDate)
-INTO #EarliestDiagnosis_Schizophrenia_Psychosis
-FROM #SMI_Episodes 
-WHERE Schizophrenia_Psychosis_Code = 1
-GROUP BY FK_Patient_Link_ID
-
-SELECT FK_Patient_Link_ID
-	,EarliestDiagnosis_Bipolar = MIN(EventDate)
-INTO #EarliestDiagnosis_Bipolar
-FROM #SMI_Episodes 
-WHERE Bipolar_Code = 1
-GROUP BY FK_Patient_Link_ID
-
-SELECT FK_Patient_Link_ID
-	,EarliestDiagnosis_Major_Depression = MIN(EventDate)
-INTO #EarliestDiagnosis_Major_Depression
-FROM #SMI_Episodes 
-WHERE Major_Depression_Code = 1
-GROUP BY FK_Patient_Link_ID
-
-
--- Define the main cohort to be matched
-
-DROP TABLE #Main_Cohort
-SELECT	smi.FK_Patient_Link_ID
-		,YearOfBirth -- may need month adding
+--bring together for final output
+--patients in main cohort
+SELECT	 m.FK_Patient_Link_ID
+		,NULL AS MainCohortMatchedPatientId
+		,YearOfBirth
+		,DeathDate
 		,Sex
 		,LSOA_Code
-		,EthnicMainGroup
+		,m.EthnicMainGroup
 		,IMD2019Decile1IsMostDeprived10IsLeastDeprived --may need changing to IMD Score
 		,GPPracticeCode -- needs anonymising
 		,HO_coronary_heart_disease
@@ -201,27 +268,30 @@ SELECT	smi.FK_Patient_Link_ID
 		,HO_bronchiectasis
 		,HO_copd
 		,HO_learning_disability
-		,HO_Schizophrenia_Psychosis = MAX(Schizophrenia_Psychosis_Code)
+		,HO_Schizophrenia_Psychosis = CASE WHEN EarliestDiagnosis_Schizophrenia_Psychosis IS NULL THEN 0 ELSE 1 END
 		,EarliestDiagnosis_Schizophrenia_Psychosis
-		,HO_Bipolar = MAX(Bipolar_Code)
+		,HO_Bipolar = CASE WHEN EarliestDiagnosis_Bipolar IS NULL THEN 0 ELSE 1 END
 		,EarliestDiagnosis_Bipolar
-		,HO_Major_Depression = MAX(Major_Depression_Code)
-		,EarliestDiagnosis_Major_Depression
-		,max(CASE WHEN VaccineDate IS NOT NULL AND DaysSinceFirstVaccine = 0 THEN VaccineDate ELSE NULL END) AS FirstVaccineDate
-		,max(CASE WHEN VaccineDate IS NOT NULL AND DaysSinceFirstVaccine != 0 THEN VaccineDate ELSE NULL END) AS SecondVaccineDate
-INTO #Main_Cohort
-FROM #SMI_Episodes smi
-LEFT JOIN #HistoryOfLTCs ltc on ltc.FK_Patient_Link_ID = smi.FK_Patient_Link_ID
-LEFT JOIN #EarliestDiagnosis_Schizophrenia_Psychosis edsc on edsc.FK_Patient_Link_ID = smi.FK_Patient_Link_ID
-LEFT JOIN #EarliestDiagnosis_Bipolar edbp on edbp.FK_Patient_Link_ID = smi.FK_Patient_Link_ID
-LEFT JOIN #EarliestDiagnosis_Major_Depression edmd on edmd.FK_Patient_Link_ID = smi.FK_Patient_Link_ID
-LEFT JOIN #COVIDVaccinations vac on vac.FK_Patient_Link_ID = smi.FK_Patient_Link_ID
-GROUP BY 
-smi.FK_Patient_Link_ID
-		,YearOfBirth -- may need month adding
+		,HO_Recurrent_Depressive = CASE WHEN EarliestDiagnosis_Recurrent_Depressive IS NULL THEN 0 ELSE 1 END
+		,EarliestDiagnosis_Recurrent_Depressive
+		,FirstVaccineDate
+		,SecondVaccineDate
+FROM #MainCohort m
+LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #HistoryOfLTCs ltc on ltc.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #EarliestDiagnosis_Schizophrenia_Psychosis edsc on edsc.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #EarliestDiagnosis_Bipolar edbp on edbp.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #EarliestDiagnosis_Recurrent_Depressive edmd on edmd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #COVIDVaccinations1 vac on vac.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+UNION
+--patients in matched cohort
+SELECT	 m.FK_Patient_Link_ID
+		,m.PatientWhoIsMatched AS MainCohortMatchedPatientId
+		,MatchingYearOfBirth
+		,DeathDate
 		,Sex
 		,LSOA_Code
-		,EthnicMainGroup
+		,m.EthnicMainGroup
 		,IMD2019Decile1IsMostDeprived10IsLeastDeprived --may need changing to IMD Score
 		,GPPracticeCode -- needs anonymising
 		,HO_coronary_heart_disease
@@ -253,21 +323,20 @@ smi.FK_Patient_Link_ID
 		,HO_bronchiectasis
 		,HO_copd
 		,HO_learning_disability
+		,HO_Schizophrenia_Psychosis = CASE WHEN EarliestDiagnosis_Schizophrenia_Psychosis IS NULL THEN 0 ELSE 1 END
 		,EarliestDiagnosis_Schizophrenia_Psychosis
+		,HO_Bipolar = CASE WHEN EarliestDiagnosis_Bipolar IS NULL THEN 0 ELSE 1 END
 		,EarliestDiagnosis_Bipolar
-		,EarliestDiagnosis_Major_Depression
+		,HO_Recurrent_Depressive = CASE WHEN EarliestDiagnosis_Recurrent_Depressive IS NULL THEN 0 ELSE 1 END
+		,EarliestDiagnosis_Recurrent_Depressive
+		,FirstVaccineDate
+		,SecondVaccineDate
+FROM #MatchedCohort m
+LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #HistoryOfLTCs ltc on ltc.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #EarliestDiagnosis_Schizophrenia_Psychosis edsc on edsc.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #EarliestDiagnosis_Bipolar edbp on edbp.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #EarliestDiagnosis_Recurrent_Depressive edmd on edmd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #COVIDVaccinations1 vac on vac.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+--312,446
 
-
--- Define the population of potential matches for the cohort
-IF OBJECT_ID('tempdb..#PotentialMatches') IS NOT NULL DROP TABLE #PotentialMatches;
-SELECT p.FK_Patient_Link_ID, Sex, YearOfBirth
-INTO #PotentialMatches
-FROM #Patients p
-LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-EXCEPT
-SELECT FK_Patient_Link_ID, Sex, YearOfBirth FROM #MainCohort;
--- 88197
-
---> EXECUTE query-cohort-matching-yob-sex.sql yob-flex:1
