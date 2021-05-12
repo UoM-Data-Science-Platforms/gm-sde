@@ -58,7 +58,15 @@ If you want to investigate the prevalence of the codeset across each GP system (
 4. Save and close the file.
 5. Run the file 'generate-sql-windows.bat'.
 6. Open 'concepts-per-clinical-system.sql' and copy the contents into a new SQL query on your VDE.
-7. Run the query, and the output will be a table of prevalence across the GP systems.
+7. Run the query, and the output will be three tables:
+   - Prevalence of **medication** codes across the GP systems
+   - Prevalence of **event** codes (that aren't associated with a value, such as diagnoses) across the GP systems
+   - Prevalence of **event** codes (that have associated values, such as BMI) across the GP systems
+
+You should hopefully know which table is relevant for your code set/s. For example if you are just looking at
+diagnoses like 'Bipolar', then you would only be interested in the second table (events with no associated value).
+
+### Searching for potential missing codes for a code set
 
 Once the above process has been followed, if you wish to investigate further and look for potential missing codes for a particular code set, follow the below processes.
 
