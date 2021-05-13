@@ -1,6 +1,5 @@
-const { Connection, Request } = require('tedious');
-const Stream = require('stream');
 const fs = require('fs');
+const mssql = require('mssql');
 const msRestNodeAuth = require('@azure/ms-rest-nodeauth');
 const chalk = require('chalk');
 const inquirer = require('inquirer');
@@ -26,6 +25,7 @@ confirmClearOutputDirectory()
   .then(getQueryContent)
   .then(confirmPseudoIdRequired)
   .then(finalConfirmation)
+  .then(connectToSqlServer)
   .then(getPatientPseudoIds)
   .then(executeSql)
   .then(() => {
@@ -51,6 +51,7 @@ to the study shared folder. This will have the form ${chalk.cyanBright(
       )}.
 		`)
     );
+    mssql.close();
   })
   .catch((err) => {
     log('An error occurred.');
@@ -59,25 +60,42 @@ to the study shared folder. This will have the form ${chalk.cyanBright(
   });
 
 function executeSql() {
-  return authenticate().then(() => Promise.all(store.files.map(executeSqlFile)));
+  return Promise.all(store.files.map(executeSqlFile));
 }
 
 function executeSqlFile(sqlFile) {
   return doQuery(sqlFile);
 }
 
-/**
- * Authenticate with Azure via multi-factor authentication
- * @returns {Promise}
- */
-function authenticate() {
+async function connectToSqlServer() {
   if (store.accessToken) return Promise.resolve();
   console.log(`
 First you need to be authenticated.`);
-  return msRestNodeAuth
+  await msRestNodeAuth
     .interactiveLoginWithAuthResponse({ tokenAudience: 'https://database.windows.net/' })
     .then(({ credentials }) => credentials.getToken())
     .then(saveTokens);
+  const sqlConfig = {
+    authentication: {
+      type: 'azure-active-directory-access-token',
+      options: { token: store.accessToken },
+    },
+    database: 'HDM_Research',
+    server: 'GM-ccbi-live-01.database.windows.net',
+    pool: {
+      max: 10,
+      min: 0,
+      idleTimeoutMillis: 30000,
+    },
+    requestTimeout: 5 * 60 * 60 * 1000, //5 hours probably long enough
+    options: { encrypt: true },
+  };
+  try {
+    await mssql.connect(sqlConfig);
+  } catch (err) {
+    logError('Error connecting to sql server:');
+    console.log(err);
+  }
 }
 
 function getQueryContent(files) {
@@ -274,214 +292,181 @@ function doQuery({ filename, sql }) {
   log(`Executing ${filename}...`);
   return new Promise((resolve) => {
     const outputStream = fs.createWriteStream(join(OUTPUT_DIR, 'data', 'raw', `${filename}.txt`));
-    const readable = new Stream.Readable({
-      read(size) {
-        return !!size;
-      },
-    });
-    readable.pipe(outputStream);
+    const drainProcess = () =>
+      new Promise((res) => {
+        outputStream.once('drain', res);
+      });
 
     outputStream.on('finish', () => {
       log(`${filename} - Output written. All Done!`);
       return resolve();
     });
 
-    const connection = new Connection({
-      server: 'GM-ccbi-live-01.database.windows.net',
-      authentication: {
-        type: 'azure-active-directory-access-token',
-        options: { token: store.accessToken },
-      },
-      options: { encrypt: true, database: 'HDM_Research' },
-    });
+    const patientIdColumns = [];
+    let rowsToWrite = [];
 
-    connection.on('connect', (err) => {
-      if (err) {
-        logError(`Connection Failed for ${filename}`);
-        throw err;
-      }
+    const request = new mssql.Request();
+    request.stream = true;
+    request.query(sql); // or request.execute(procedure)
 
-      executeStatement();
-    });
-
-    connection.connect();
-
-    let patientIdColumns = [];
-    function executeStatement() {
-      const request = new Request(sql, (err) => {
-        if (err) {
-          throw err;
-        }
-        connection.close();
-        log(filename + ' request done');
-        readable.push(null);
-      });
-
-      request.setTimeout(0);
-
-      // Pipe the rows to the output stream
-      request.on('row', (columns) => {
-        const row = [];
-        let nullPatientIdWarning = false;
-        columns.forEach((column, i) => {
-          if (column.value === null) {
-            row.push('NULL');
-            if (patientIdColumns.indexOf(i) > -1) {
-              nullPatientIdWarning = true;
-            }
-          } else if (column.value.toISOString) {
-            row.push(column.value.toISOString().substr(0, 10));
-          } else if (patientIdColumns.indexOf(i) > -1) {
-            if (
-              typeof column.value === 'number' &&
-              (column.value > Number.MAX_SAFE_INTEGER || column.value < Number.MIN_SAFE_INTEGER)
-            ) {
-              logError(`${filename} has a patient id outside the max safe range for JS.`);
-            }
-            if (!store.pseudoLookup[column.value]) {
+    let cols = [];
+    request.on('recordset', (columns) => {
+      // Emitted once for each recordset in a query
+      outputStream.write(
+        Object.keys(columns)
+          .map((key, i) => {
+            const column = columns[key];
+            cols.push(key);
+            if (!column.name) {
               logWarning(
-                `${filename} has a patient id (${column.value}) that isn't in the Patient_Link table.`
+                `${filename} doesn't have a name for the ${nth(
+                  i + 1
+                )} column. Please make sure the final SELECT statement has an "AS COLUMN_NAME" for this column.`
               );
-              logWarning('Adding a new id for this patient to the lookup.');
-              store.highestId += 1;
-              store.pseudoLookup[column.value] = store.highestId;
-              store.updateLookup = true;
-              row.push(store.highestId);
-            } else {
-              row.push(store.pseudoLookup[column.value]);
+              return '';
+            } else if (column.name.match(/.*PatientId$/g)) {
+              patientIdColumns.push(key);
             }
-          } else {
-            row.push(column.value);
-          }
-        });
-        readable.push(row.join(',') + '\n');
-        if (nullPatientIdWarning) {
-          logWarning(`${filename} has a row where a patient id is null. Is that expected?
-          ${row.join(',')}`);
-        }
-      });
-
-      // Add the header row from the column metadata
-      request.on('columnMetadata', (columns) => {
-        readable.push(
-          columns
-            .map((column, i) => {
-              if (!column.colName) {
-                logWarning(
-                  `${filename} doesn't have a name for the ${nth(
-                    i + 1
-                  )} column. Please make sure the final SELECT statement has an "AS COLUMN_NAME" for this column.`
-                );
-                return '';
-              } else if (column.colName.match(/.*PatientId$/g)) {
-                patientIdColumns.push(i);
-              }
-              return column.colName;
-            })
-            .join(',') + '\n'
-        );
-        if (patientIdColumns.length === 0) {
-          logWarning(
-            `${filename} doesn't have any patient id columns. If you have a patient id column 
+            return column.name;
+          })
+          .join(',') + '\n'
+      );
+      if (patientIdColumns.length === 0) {
+        logWarning(
+          `${filename} doesn't have any patient id columns. If you have a patient id column 
 but where the name doesn't end with 'PatientId' then the ids will not be pseudonymised.`
-          );
+        );
+      }
+    });
+
+    request.on('row', (row) => {
+      // Emitted for each row in a recordset
+      const rowArr = [];
+      let nullPatientIdWarning = false;
+      cols.forEach((key) => {
+        const value = row[key];
+        if (value === null) {
+          rowArr.push('NULL');
+          if (patientIdColumns.indexOf(key) > -1) {
+            nullPatientIdWarning = true;
+          }
+        } else if (value.toISOString) {
+          rowArr.push(value.toISOString().substr(0, 10));
+        } else if (patientIdColumns.indexOf(key) > -1) {
+          if (
+            typeof value === 'number' &&
+            (value > Number.MAX_SAFE_INTEGER || value < Number.MIN_SAFE_INTEGER)
+          ) {
+            logError(`${filename} has a patient id outside the max safe range for JS.`);
+          }
+          if (!store.pseudoLookup[value]) {
+            logWarning(
+              `${filename} has a patient id (${value}) that isn't in the Patient_Link table.`
+            );
+            logWarning('Adding a new id for this patient to the lookup.');
+            store.highestId += 1;
+            store.pseudoLookup[value] = store.highestId;
+            store.updateLookup = true;
+            rowArr.push(store.highestId);
+          } else {
+            rowArr.push(store.pseudoLookup[value]);
+          }
+        } else {
+          rowArr.push(value);
         }
       });
-
-      request.on('doneInProc', (rowCount) => {
-        if (rowCount || rowCount === 0) {
-          log(chalk.bold(`${filename} has completed. ${rowCount} rows were returned.`));
+      rowsToWrite.push(rowArr.join(',') + '\n');
+      if (nullPatientIdWarning) {
+        logWarning(`${filename} has a row where a patient id is null. Is that expected?
+			  ${rowArr.join(',')}`);
+      }
+      if (rowsToWrite.length >= 200) {
+        // request.pause();
+        const shouldContinue = outputStream.write(rowsToWrite.join(''));
+        rowsToWrite = [];
+        if (!shouldContinue) {
+          request.pause();
+          drainProcess().then(() => {
+            // console.log('drain done');
+            request.resume();
+          });
         }
-      });
+      }
+    });
 
-      connection.execSql(request);
-    }
+    request.on('rowsaffected', () => {
+      // Emitted for each `INSERT`, `UPDATE` or `DELETE` statement
+      // Requires NOCOUNT to be OFF (default)
+      // console.log('ROWCOUNT', rowCount);
+    });
+
+    request.on('error', (err) => {
+      // May be emitted multiple times
+      logError(`ERROR: ${filename}
+${err}`);
+    });
+
+    request.on('done', (result) => {
+      // Always emitted as the last one
+      outputStream.end(rowsToWrite.join(''));
+      if (result.rowsAffected || result.rowsAffected === 0) {
+        log(chalk.bold(`${filename} has completed. ${result.rowsAffected} rows were returned.`));
+      }
+    });
   });
 }
 
-function getPatientPseudoIds() {
+async function getPatientPseudoIds() {
   if (!store.shouldPseudo) return Promise.resolve();
-  return authenticate().then(
-    () =>
-      new Promise((resolve) => {
-        log(`Querying the database for ${store.shouldOverwrite ? '' : 'any new '}patient ids...`);
-        const patientIds = [];
+  log(`Querying the database for ${store.shouldOverwrite ? '' : 'any new '}patient ids...`);
+  const patientIds = [];
 
-        const connection = new Connection({
-          server: 'GM-ccbi-live-01.database.windows.net',
-          authentication: {
-            type: 'azure-active-directory-access-token',
-            options: { token: store.accessToken },
-          },
-          options: { encrypt: true, database: 'HDM_Research' },
-        });
+  return new Promise((resolve) => {
+    const request = new mssql.Request();
+    request.stream = true;
+    request.query('SELECT PK_Patient_Link_ID FROM RLS.vw_Patient_Link;');
 
-        connection.on('connect', (err) => {
-          if (err) {
-            logError(`Connection failed while attempting to generate the pseudo patient ids.`);
-            throw err;
-          }
+    request.on('row', (row) => {
+      // Emitted for each row in a recordset
+      patientIds.push(row.PK_Patient_Link_ID);
+    });
 
-          executeStatement();
-        });
+    request.on('error', (err) => {
+      // May be emitted multiple times
+      logError(`ERROR: getPatientPseudoIds
+${err}`);
+    });
 
-        connection.connect();
-
-        function executeStatement() {
-          const request = new Request(
-            'SELECT PK_Patient_Link_ID FROM RLS.vw_Patient_Link;',
-            (err) => {
-              if (err) {
-                throw err;
-              }
-              connection.close();
-
-              if (!store.shouldOverwrite) {
-                log('Loading the existing mapping file...');
-                let maxPseudoId = 0;
-                fs.readFileSync(PSEUDO_ID_FILE, 'utf8')
-                  .split('\n')
-                  .forEach((x) => {
-                    if (x.trim().length < 2) return;
-                    const [fkid, pseudoId] = x.split(',');
-                    store.pseudoLookup[fkid.trim()] = +pseudoId.trim();
-                    maxPseudoId = Math.max(maxPseudoId, +pseudoId.trim());
-                  });
-                log(
-                  `There are ${
-                    Object.keys(store.pseudoLookup).length
-                  } patient ids in the mapping file.`
-                );
-                const newPatientIds = patientIds.filter(
-                  (patientId) => !store.pseudoLookup[patientId]
-                );
-                log(`There are ${newPatientIds.length} new patient ids from the database.`);
-                if (newPatientIds.length > 0) {
-                  const newPatientIdRows = randomIdGenerator(maxPseudoId, newPatientIds);
-                  fs.writeFileSync(PSEUDO_ID_FILE, newPatientIdRows.join('\n'), { flag: 'a' });
-                  log(`New patient ids added to the pseudo id lookup file.`);
-                }
-              } else {
-                log(chalk.bold(`${patientIds.length} patient ids retrived.`));
-                const patientIdRows = randomIdGenerator(0, patientIds);
-                fs.writeFileSync(PSEUDO_ID_FILE, patientIdRows.join('\n'));
-                log(`Patient ids written to the pseudo id lookup file.`);
-              }
-              return resolve();
-            }
-          );
-
-          request.setTimeout(0);
-
-          // Pipe the rows to the output stream
-          request.on('row', (columns) => {
-            patientIds.push(columns[0].value);
+    request.on('done', () => {
+      // Always emitted as the last one
+      if (!store.shouldOverwrite) {
+        log('Loading the existing mapping file...');
+        let maxPseudoId = 0;
+        fs.readFileSync(PSEUDO_ID_FILE, 'utf8')
+          .split('\n')
+          .forEach((x) => {
+            if (x.trim().length < 2) return;
+            const [fkid, pseudoId] = x.split(',');
+            store.pseudoLookup[fkid.trim()] = +pseudoId.trim();
+            maxPseudoId = Math.max(maxPseudoId, +pseudoId.trim());
           });
-
-          connection.execSql(request);
+        log(`There are ${Object.keys(store.pseudoLookup).length} patient ids in the mapping file.`);
+        const newPatientIds = patientIds.filter((patientId) => !store.pseudoLookup[patientId]);
+        log(`There are ${newPatientIds.length} new patient ids from the database.`);
+        if (newPatientIds.length > 0) {
+          const newPatientIdRows = randomIdGenerator(maxPseudoId, newPatientIds);
+          fs.writeFileSync(PSEUDO_ID_FILE, newPatientIdRows.join('\n'), { flag: 'a' });
+          log(`New patient ids added to the pseudo id lookup file.`);
         }
-      })
-  );
+      } else {
+        log(chalk.bold(`${patientIds.length} patient ids retrived.`));
+        const patientIdRows = randomIdGenerator(0, patientIds);
+        fs.writeFileSync(PSEUDO_ID_FILE, patientIdRows.join('\n'));
+        log(`Patient ids written to the pseudo id lookup file.`);
+      }
+      return resolve();
+    });
+  });
 }
 
 function randomIdGenerator(start = 0, ids) {
