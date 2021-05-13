@@ -275,6 +275,6 @@ LEFT OUTER JOIN #VersionedSnomedSets s ON s.FK_Reference_SnomedCT_ID = m.FK_Refe
 LEFT OUTER JOIN #VersionedCodeSets c ON c.FK_Reference_Coding_ID = m.FK_Reference_Coding_ID
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND (
-	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('hydroxychloroquine','leflunomide','methotrexate','prednisolone-oral','prednisone','sulfasalazine') AND [Version]=1) OR
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('hydroxychloroquine','leflunomide','methotrexate','prednisolone-oral','prednisone','sulfasalazine') AND [Version]=1)
+  m.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('hydroxychloroquine','leflunomide','methotrexate','prednisolone-oral','prednisone','sulfasalazine') AND [Version]=1) OR
+  m.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('hydroxychloroquine','leflunomide','methotrexate','prednisolone-oral','prednisone','sulfasalazine') AND [Version]=1)
 );
