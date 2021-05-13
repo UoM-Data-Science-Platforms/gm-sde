@@ -2,6 +2,9 @@
 --│ Medications │
 --└─────────────┘
 
+------------------- RDE CHECK ----------------------
+-- RDE Name: George Tilston, Date of check: 06/05/21
+
 -- All prescriptions of: methotrexate, sulfasalazine, leflunomide, hydroxychloroquine
 -- and the glucocorticoids predisolone and predisone.
 

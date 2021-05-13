@@ -2,6 +2,9 @@
 --│ Observation results │
 --└─────────────────────┘
 
+----------------------- RDE CHECK -----------------------
+--RDE Name: George Tilston, Date of check: 06/05/21
+
 -- OUTPUT: Data with the following fields
 -- 	- PatientId (int)
 --	-	TestDescription
