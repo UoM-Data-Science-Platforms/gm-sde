@@ -1,0 +1,6 @@
+D111100	Microangiopathic haemolytic anaemia
+D111300	Haemolytic-uraemic syndrome
+G756.00	Thrombotic microangiopathy
+G756000	Moschcowitz syndrome
+G756100	Thrombotic thrombocytopenic purpura
+G756z00	Thrombotic microangiopathy NOS
