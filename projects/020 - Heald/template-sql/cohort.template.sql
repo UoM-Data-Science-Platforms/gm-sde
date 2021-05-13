@@ -23,6 +23,9 @@
 -- MEDICATIONS
 -- IsOnACEI, IsOnAspirin, IsOnClopidogrel, IsOnMetformin
 
+--Just want the output, not the messages
+SET NOCOUNT ON;
+
 -- Set the start date
 DECLARE @StartDate datetime;
 SET @StartDate = '2020-01-01';
