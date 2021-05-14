@@ -1,4 +1,3 @@
-readcode	Description
 B210.00	Malignant neoplasm of glottis
 B21..00	Malignant neoplasm of larynx
 B34..11	Ca female breast
