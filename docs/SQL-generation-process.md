@@ -71,7 +71,7 @@ To make creating a new code set simple, an interactive command line tool can be 
 
 ### Validation
 
-It is also possible to use the interactice command line tool to validate the existing code sets. This checks that the directory structue is as above, and also that the code set files have the correct format - namely two tab-separated columns code and description.
+It is also possible to use the interactive command line tool to validate the existing code sets. This checks that the directory structure is as above, and also that the code set files have the correct format - namely two tab-separated columns code and description.
 
 ## Project structure
 
