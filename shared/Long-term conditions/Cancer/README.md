@@ -7,3 +7,5 @@ The above paper used the definition of LTCs as first determined in:
 Barnett K, Mercer SW, Norbury M, Watt G, Wyke S, Guthrie B. Epidemiology of multimorbidity and implications for health care, research, and medical education: A cross-sectional study. Lancet [Internet]. 2012 Jul 7 [cited 2021 Apr 14];380(9836):37–43. Available from: www.thelancet.com
 
 CTV3 and SNOMED code sets from OpenSafely.
+
+ICD10 codes have been provided and verified by the Christie team. 

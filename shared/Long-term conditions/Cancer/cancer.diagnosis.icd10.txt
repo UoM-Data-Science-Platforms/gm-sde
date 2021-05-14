@@ -1,4 +1,4 @@
-ICD10 codes included (provided by Christie)
+ICD10 code range  Description
 
 C00-C14  Malignant neoplasms of lip, oral cavity and pharynx
 C15-C26  Malignant neoplasms of digestive organs
