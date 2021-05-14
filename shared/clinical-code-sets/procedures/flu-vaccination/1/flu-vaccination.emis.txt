@@ -1,12 +1,3 @@
-^ESCT1173898	Fluad vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus Vaccines Ltd)
-FLVA127091NEMIS	Fluad vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus Vaccines Ltd)
-FLVA137918NEMIS	Fluad Tetra vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus Vaccines Ltd)
-^ESCT1188861	Influvac Sub-unit vaccine suspension for injection 0.5ml pre-filled syringes (Mylan)
-^ESCT1199425	Influvac sub-unit Tetra vaccine suspension for injection 0.5ml pre-filled syringes (Mylan) 1 pre-filled disposable injection
-ININ1468	Influvac Sub-unit vaccine suspension for injection 0.5ml pre-filled syringes (Mylan)
-INSU82033NEMIS	Influvac Desu  Suspension For Injection  0.5 ml pre-filled syringe
-INSU82033NEMIS	Influvac Desu vaccine suspension for injection 0.5ml pre-filled syringes (Abbott Healthcare Products Ltd)
-INVA127171NEMIS	Influvac sub-unit Tetra vaccine suspension for injection 0.5ml pre-filled syringes (Mylan)
 ^ESCT1300221	Seasonal influenza vaccination given in school
 ^ESCTFI843902	First inactivated seasonal influenza vaccination given by midwife
 ^ESCTIN802297	Influenza vaccination given
@@ -25,47 +16,9 @@ EMISNQFI45	First quadrivalent (QIV) inactivated seasonal influenza vaccination g
 EMISNQFI46	First non adjuvanted trivalent (TIV) inactivated seasonal influenza vaccination given by pharmacist
 EMISNQIN160	Intranasal influenza vaccination
 EMISNQSE164	Second quadrivalent (QIV) inactivated seasonal influenza vaccination given by pharmacist
-AVVA5297NEMIS	Influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes (sanofi pasteur MSD Ltd)
-AVVA5297NEMIS	Influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
-ININ27868EMIS	Inactivated Influenza Vaccine, Surface Antigen  Injection  0.5 ml pre-filled syringe
-ININ27868EMIS	Influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes
-INNA52407NEMIS	Influenza vaccine (live attenuated) nasal suspension 0.2ml unit dose
-INSU127173NEMIS	Influenza Vaccine Tetra Myl Suspension For Injection 0.5 ml pre-filled syringe
-INSU23004NEMIS	Inactivated Influenza Vaccine, Surface Antigen, Virosome  Suspension For Injection  0.5 ml pre-filled syringe
-INSU23004NEMIS	Influenza vaccine (surface antigen, inactivated, virosome) suspension for injection 0.5ml pre-filled syringes
-INVA30366EMIS	Influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes
-INVA36706NEMIS	Influenza vaccine (split virion, inactivated) 15microgram strain suspension for injection 0.1ml pre-filled syringes
-PAVA19010EMIS	Pasteur Merieux Inactivated Influenza Vaccine 0.5 ml
-PFVA95151NEMIS	Influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes (Pfizer Ltd)
-QUVA124210NEMIS	Quadrivalent influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
-SAVA131918NEMIS	Trivalent influenza vaccine (split virion, inactivated) High Dose suspension for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
-SEVA133336NEMIS	Adjuvanted trivalent influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes (Seqirus Vaccines Ltd)
-FLIN9810BRIDL	Fluvirin vaccine suspension for injection 0.5ml pre-filled syringes (Novartis Vaccines and Diagnostics Ltd)
-FLNA52410NEMIS	Fluenz  Vaccine Nasal Suspension  0.2 ml unit dose
-FLNA52410NEMIS	Fluenz vaccine nasal suspension 0.2ml unit dose (AstraZeneca UK Ltd)
-FLVA90951NEMIS	Fluenz Tetra vaccine nasal suspension 0.2ml unit dose (AstraZeneca UK Ltd)
-FLVA105396NEMIS	FluMist Quadrivalent vaccine nasal suspension 0.2ml unit dose (AstraZeneca UK Ltd)
-FLVA130397NEMIS	Flucelvax Tetra vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus Vaccines Ltd)
-FLVA19006EMIS	Fluzone Vaccine 0.5 ml
-FLVA24698EMIS	Fluarix vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
-FLVA82448NEMIS	Fluarix Tetra vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
-INSU127173NEMIS	Influenza Tetra MYL vaccine suspension for injection 0.5ml pre-filled syringes (Mylan)
-MASU15057NEMIS	Mastaflu vaccine suspension for injection 0.5ml pre-filled syringes (Masta Ltd)
-OPSU76843NEMIS	Optaflu vaccine suspension for injection 0.5ml pre-filled syringes (Novartis Vaccines and Diagnostics Ltd)
-OPSU76843NEMIS	Optaflu vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus Vaccines Ltd)
 PCSDT18434_779	First intranasal seasonal influenza vacc given by pharmacist
 PCSDT18439_1184	First intranasal seasonal influenza vacc given by pharmacist
 PCSDT18439_711	Second intranasal seasonal influenza vacc givn by pharmacist
 PCSDT28849_483	First intranasal seasonal influenza vacc given by pharmacist
 PCSDT7022_652	First intranasal seasonal influenza vacc given by pharmacist
-PRSU51924NEMIS	Preflucel vaccine suspension for injection 0.5ml pre-filled syringes (Baxter Healthcare Ltd)
-VISU23002NEMIS	Viroflu vaccine suspension for injection 0.5ml pre-filled syringes (Janssen-Cilag Ltd)
-ENSU20871NEMIS	Enzira  Suspension For Injection  0.5 ml pre-filled syringe
-IMSU22976NEMIS	Imuvac  Suspension For Injection  0.5 ml pre-filled syringe
-INVA36708NEMIS	Intanza  Vaccine  15 microgram strain, 0.1 ml pre-filled syringe
-INVA40484NEMIS	Intanza  Vaccine  9 microgram strain, 0.1 ml pre-filled syringe
-AGIN11649NEMIS	Agrippal  Injection
-BEVA30364EMIS	Begrivac  Vaccine
-AGIN11649NEMIS	Agrippal  Injection
-BEVA30364EMIS	Begrivac  Vaccine
 ^ESCTSE843903	Second inactivated seasonal influenza vaccination given by midwife

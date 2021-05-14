@@ -1,77 +1,4 @@
 65E..	Influenza vaccination
-n47..	FLU - Influenza vaccine
-n471.	Fluvirin prefilled syringe 0.5mL
-n473.	Influvac sub-unit prefilled syringe 0.5mL
-n474.	Influvac sub-unit Vials 5mL
-n475.	Influvac sub-unit Vials 25mL
-n476.	MFV-Ject prefilled syringe 0.5mL
-n477.	Inactivated Influenza vaccine injection 0.5mL
-n478.	Inactivated Influenza vaccine prefilled syringe 0.5mL
-n479.	Influenza vaccine Vials 5mL
-n47a.	Influenza vaccine Vials 25mL
-n47A.	PANDEMRIX INFLUENZA A VACCINE (H1N1v) 2009 injection
-n47B.	CELVAPAN INFLUENZA A VACCINE (H1N1v) 2009 injection
-n47b.	Fluzone prefilled syringe 0.5mL
-n47c.	Fluzone Vials 5mL
-n47C.	PREFLUCEL suspension for injection prefilled syringe 0.5mL
-n47d.	Fluarix vaccine prefilled syringe
-n47D.	FLUENZ nasal suspension 0.2mL
-n47e.	Begrivac vaccine pre-filled syringe 0.5mL
-n47E.	INFLUENZA VACCINE (LIVE ATTENUATED) nasal suspension 0.2mL
-n47f.	Agrippal vaccine prefilled syringe 0.5mL
-n47F.	OPTAFLU suspension for injection prefilled syringe 0.5mL
-n47g.	Inactivated Influenza vaccine (split virion) prefilled syringe 0.5mL
-n47G.	INFLUVAC DESU suspension for injection prefill syringe 0.5mL
-n47H.	FLUARIX TETRA suspension for injection prefill syringe 0.5mL
-n47h.	Inactivated Influenza vaccine (surface antigen) prefilled syringe 0.5mL
-n47I.	FLUENZ TETRA nasal spray suspension 0.2mL
-n47i.	Inflexal Berna V prefilled syringe 0.5mL
-n47j.	MASTAFLU prefilled syringe 0.5mL
-n47k.	Inflexal V prefilled syringe 0.5mL
-n47l.	Invivac prefilled syringe 0.5mL
-n47m.	Enzira prefilled syringe 0.5mL
-n47n.	Viroflu prefilled syringe 0.5mL
-n47o.	IMUVAC prefilled syringe 0.5mL
-n47p.	INTANZA 15micrograms/strain susp for inj pfs 0.1mL
-n47q.	INACT INFLUENZA VACC (SPLIT VIRION) 15mcg/strain pfs 0.1mL
-n47r.	CELVAPAN (H1N1) suspension for injection vials 5mL
-n47s.	CELVAPAN (H5N1) suspension for injection vials 5mL
-n47t.	PANDEMRIX (H5N1) injection vials
-n47u.	INTANZA 9micrograms/strain susp for inj pfs 0.1mL
-n47v.	INACT INFLUENZA VACC (SPLIT VIRION) 9mcg/strain pfs 0.1mL
-n47y.	Inactivated Influenza vaccine (split virion) prefilled syringe 0.25mL
-n47z.	Inactivated Influenza vaccine (surface antigen virosome) prefilled syringe 0.5mL
-x006a	Inactivated Influenza surface antigen sub-unit vaccine
-x006Z	Inactivated Influenza split virion vaccine
-x00Yd	Fluvirin vaccine prefilled syringe
-x00Ye	Fluzone vaccine prefilled syringe
-x00Yi	Inactivated Influenza (split virion) vaccine prefilled syringe
-x00Yj	Inactivated Influenza (surface antigen sub-unit ) vaccine prefilled syringe
-x00Yk	Influvac Sub-unit vaccine prefilled syringe
-x00Yp	MFV-Ject vaccine prefilled syringe
-x01LF	Influvac Sub-unit injection
-x01LG	Fluzone injection vial
-x02d0	Fluarix
-x03qt	Begrivac vaccine prefilled syringe
-x03qu	Begrivac
-x03zt	Fluvirin
-x03zu	Fluzone
-x0453	Influvac Sub-unit
-x05cg	Inflexal Berna V prefilled syringe
-x05cj	Inflexal Berna V
-x05oa	MASTAFLU prefilled syringe
-x05ob	MASTAFLU
-x05pi	Inflexal V
-x05pY	Inflexal V prefilled syringe
-x05vU	Invivac vaccine prefilled syringe
-x05vV	Invivac
-x05Y1	Agrippal vaccine prefilled syringe
-x05yK	Enzira vaccine prefilled syringe
-x05yL	Enzira
-x05yO	Inactivated Influenza surface antigen virosome vaccine prefilled syringe
-x05yP	Inactivated Influenza surface antigen virosome vaccine
-x05zC	Viroflu prefilled syringe
-x05zD	Viroflu
 Xaa9G	Administration of intranasal influenza vaccination
 Xaac1	Administration of first intranasal pandemic influenza vaccination
 Xaac2	Administration of second intranasal pandemic influenza vaccination
@@ -113,3 +40,5 @@ XaZ0d	Seasonal influenza vaccination
 XaZ0e	Seasonal influenza vaccination given by other healthcare provider
 XaZfY	Seasonal influenza vaccination given by pharmacist
 ZV048	[V]Flu - influenza vaccination
+Y0c3f	First influenza A (H1N1v) 2009 vaccination given
+Y0c40	Second influenza A (H1N1v) 2009 vaccination given
