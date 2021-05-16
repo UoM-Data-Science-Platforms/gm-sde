@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 # ┌──────────────────────────────────────────────────────────────────────────┐
 # │ Linux/mac bash script to stitch the template SQL into the extraction SQL │
