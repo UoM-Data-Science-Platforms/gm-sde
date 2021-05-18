@@ -75,6 +75,19 @@ INTO #COVIDVaccinations1
 FROM #COVIDVaccinations
 GROUP BY FK_Patient_Link_ID
 
+-- Get patients with covid vaccine refusal
+--> CODESET covid-vaccine-declined
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS DateVaccineDeclined 
+INTO #VaccineDeclinedPatients FROM [RLS].[vw_GP_Events]
+WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccine-declined' AND [Version] = 1)
+GROUP BY FK_Patient_Link_ID;
+
+-- Get patient list of those with COVID death within 28 days of positive test
+IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
+SELECT DISTINCT FK_Patient_Link_ID 
+INTO #COVIDDeath FROM RLS.vw_COVID19
+WHERE DeathWithin28Days = 'Y';
+
 
 ---- CREATE TABLE OF ALL PATIENTS THAT HAVE ANY LIFETIME DIAGNOSES OF SMI AS OF 31.01.20
 
@@ -193,36 +206,45 @@ GROUP BY FK_Patient_Link_ID
 -- CREATE WIDE TABLE SHOWING WHICH PATIENTS HAVE A HISTORY OF EACH LTC
 
 SELECT FK_Patient_Link_ID,
+		HO_cancer 						= MAX(CASE WHEN LTC = 'cancer' then 1 else 0 end),
+		HO_painful_condition 			= MAX(CASE WHEN LTC = 'painful condition' then 1 else 0 end),
+		HO_migraine 					= MAX(CASE WHEN LTC = 'migraine' then 1 else 0 end),
+		HO_epilepsy						= MAX(CASE WHEN LTC = 'epilepsy' then 1 else 0 end),
 		HO_coronary_heart_disease 		= MAX(CASE WHEN LTC = 'coronary heart disease' then 1 else 0 end),
 		HO_atrial_fibrillation 			= MAX(CASE WHEN LTC = 'atrial fibrillation' then 1 else 0 end),
 		HO_heart_failure 				= MAX(CASE WHEN LTC = 'heart failure' then 1 else 0 end),
 		HO_hypertension 				= MAX(CASE WHEN LTC = 'hypertension' then 1 else 0 end),
-		HO_peripheral_vascular_disease = MAX(CASE WHEN LTC = 'peripheral vascular disease' then 1 else 0 end),
+		HO_peripheral_vascular_disease  = MAX(CASE WHEN LTC = 'peripheral vascular disease' then 1 else 0 end),
 		HO_stroke_and_transient_ischaemic_attack = MAX(CASE WHEN LTC = 'stroke & transient ischaemic attack' then 1 else 0 end),
 		HO_diabetes 					= MAX(CASE WHEN LTC = 'diabetes' then 1 else 0 end),
-		HO_thyroid_disorders 					= MAX(CASE WHEN LTC = 'thyroid disorders' then 1 else 0 end),
+		HO_thyroid_disorders 			= MAX(CASE WHEN LTC = 'thyroid disorders' then 1 else 0 end),
 		HO_chronic_liver_disease 		= MAX(CASE WHEN LTC = 'chronic liver disease' then 1 else 0 end),
-		HO_chronic_liver_disease_and_viral_hepatitis = MAX(CASE WHEN LTC = 'chronic liver disease and viral hepatitis' then 1 else 0 end),
-		HO_constipation_treated 				= MAX(CASE WHEN LTC = 'constipation (treated)' then 1 else 0 end),
 		HO_diverticular_disease_of_intestine = MAX(CASE WHEN LTC = 'diverticular disease of intestine' then 1 else 0 end),
-		HO_dyspepsia_treated 					= MAX(CASE WHEN LTC = 'dyspepsia (treated)' then 1 else 0 end),
-		HO_inflammatory_bowel_disease 			= MAX(CASE WHEN LTC = 'inflammatory bowel disease' then 1 else 0 end),
-		HO_irritable_bowel_syndrome 			= MAX(CASE WHEN LTC = 'irritable bowel syndrome' then 1 else 0 end),
-		HO_peptic_ulcer_disease 				= MAX(CASE WHEN LTC = 'peptic ulcer disease' then 1 else 0 end),
-		HO_psoriasis 							= MAX(CASE WHEN LTC = 'psoriasis' then 1 else 0 end),
-		HO_psoriasis_or_eczema_medcodes 		= MAX(CASE WHEN LTC = 'psoriasis or eczema medcodes' then 1 else 0 end),
-		HO_rheumatoid_arthritis_other_inflammatory_polyarthropathies_and_systematic_connective_tissue_disorders			= MAX(CASE WHEN LTC = 'rheumatoid arthritis, other inflammatory polyarthropathies & systematic connective tissue disorders' then 1 else 0 end),
-		HO_rheumatoid_arthritis_sle				= MAX(CASE WHEN LTC = 'rheumatoid arthritis, sle' then 1 else 0 end),
-		HO_multiple_sclerosis					= MAX(CASE WHEN LTC = 'multiple sclerosis' then 1 else 0 end),
-		HO_other_neurological_conditions 		= MAX(CASE WHEN LTC = 'other neurological conditions' then 1 else 0 end),
-		HO_parkinsons_disease 		= MAX(CASE WHEN LTC = 'parkinsons disease' then 1 else 0 end),
-		HO_dementia			= MAX(CASE WHEN LTC = 'dementia' then 1 else 0 end),
-		HO_chronic_kidney_disease				= MAX(CASE WHEN LTC = 'chronic kidney disease' then 1 else 0 end),
-		HO_asthma				= MAX(CASE WHEN LTC IN 
-									('asthma (currently treated) medcodes', 'asthma (currently treated) prodcodes', 'asthma diagnosis', 'asthma') then 1 else 0 end),
+		HO_inflammatory_bowel_disease 	= MAX(CASE WHEN LTC = 'inflammatory bowel disease' then 1 else 0 end),
+		HO_irritable_bowel_syndrome 	= MAX(CASE WHEN LTC = 'irritable bowel syndrome' then 1 else 0 end),
+		HO_constipation					= MAX(CASE WHEN LTC = 'constipation' then 1 else 0 end),
+		HO_dyspepsia					= MAX(CASE WHEN LTC = 'dyspepsia' then 1 else 0 end),
+		HO_peptic_ulcer_disease 		= MAX(CASE WHEN LTC = 'peptic ulcer disease' then 1 else 0 end),
+		HO_psoriasis_or_eczema 			= MAX(CASE WHEN LTC = 'psoriasis or eczema' then 1 else 0 end),
+		HO_rheumatoid_arthritis_other_inflammatory_polyarthropathies	= MAX(CASE WHEN LTC = 'rheumatoid arthritis and other inflammatory polyarthropathies' then 1 else 0 end),
+		HO_multiple_sclerosis			= MAX(CASE WHEN LTC = 'multiple sclerosis' then 1 else 0 end),
+		HO_parkinsons_disease 			= MAX(CASE WHEN LTC = 'parkinsons disease' then 1 else 0 end),
+		HO_anorexia_bulimia 			= MAX(CASE WHEN LTC = 'anorexia or bulimia' then 1 else 0 end),
+		HO_anxiety_other_somatoform_disorders	= MAX(CASE WHEN LTC = 'anxiety and other somatoform disorders' then 1 else 0 end),
+		HO_dementia						= MAX(CASE WHEN LTC = 'dementia' then 1 else 0 end),
+		HO_chronic_kidney_disease		= MAX(CASE WHEN LTC = 'chronic kidney disease' then 1 else 0 end),
+		HO_prostate_disorders			= MAX(CASE WHEN LTC = 'prostate disorders') then 1 else 0 end),
+		HO_asthma						= MAX(CASE WHEN LTC = 'asthma') then 1 else 0 end),
 		HO_bronchiectasis				= MAX(CASE WHEN LTC = 'bronchiectasis' then 1 else 0 end),
-		HO_copd				= MAX(CASE WHEN LTC = 'copd' then 1 else 0 end),
-		HO_learning_disability				= MAX(CASE WHEN LTC = 'learning disability' then 1 else 0 end)
+		HO_chronic_sinusitis			= MAX(CASE WHEN LTC = 'chronic sinusitis') then 1 else 0 end),
+		HO_copd							= MAX(CASE WHEN LTC = 'copd' then 1 else 0 end),
+		HO_blindness_low_vision			= MAX(CASE WHEN LTC = 'blindness and low vision') then 1 else 0 end),
+		HO_glaucoma						= MAX(CASE WHEN LTC = 'glaucoma') then 1 else 0 end),
+		HO_hearing_loss					= MAX(CASE WHEN LTC = 'hearing loss') then 1 else 0 end),
+		HO_asthma						= MAX(CASE WHEN LTC = 'asthma') then 1 else 0 end),
+		HO_learning_disability			= MAX(CASE WHEN LTC = 'learning disability' then 1 else 0 end),
+		HO_alcohol_problems				= MAX(CASE WHEN LTC = 'alcohol problems') then 1 else 0 end),
+		HO_psychoactive_substance_abuse	= MAX(CASE WHEN LTC = 'psychoactive substance abuse') then 1 else 0 end)
 INTO #HistoryOfLTCs
 FROM #PatientsWithLTCs
 GROUP BY FK_Patient_Link_ID
@@ -239,41 +261,54 @@ SELECT	 m.FK_Patient_Link_ID
 		,m.EthnicMainGroup
 		,IMD2019Decile1IsMostDeprived10IsLeastDeprived --may need changing to IMD Score
 		,GPPracticeCode -- needs anonymising
-		,HO_coronary_heart_disease
-		,HO_atrial_fibrillation
-		,HO_heart_failure
-		,HO_hypertension
+		,HO_cancer 
+		,HO_painful_condition 
+		,HO_migraine 
+		,HO_epilepsy
+		,HO_coronary_heart_disease 
+		,HO_atrial_fibrillation 
+		,HO_heart_failure 
+		,HO_hypertension 
 		,HO_peripheral_vascular_disease
 		,HO_stroke_and_transient_ischaemic_attack
-		,HO_diabetes
-		,HO_thyroid_disorders
-		,HO_chronic_liver_disease
-		,HO_chronic_liver_disease_and_viral_hepatitis
-		,HO_constipation_treated
+		,HO_diabetes 
+		,HO_thyroid_disorders 
+		,HO_chronic_liver_disease 
 		,HO_diverticular_disease_of_intestine
-		,HO_dyspepsia_treated
-		,HO_inflammatory_bowel_disease
-		,HO_irritable_bowel_syndrome
-		,HO_peptic_ulcer_disease
-		,HO_psoriasis
-		,HO_psoriasis_or_eczema_medcodes
-		,HO_rheumatoid_arthritis_other_inflammatory_polyarthropathies_and_systematic_connective_tissue_disorders
-		,HO_rheumatoid_arthritis_sle
+		,HO_inflammatory_bowel_disease 
+		,HO_irritable_bowel_syndrome 
+		,HO_constipation
+		,HO_dyspepsia
+		,HO_peptic_ulcer_disease 
+		,HO_psoriasis_or_eczema 
+		,HO_rheumatoid_arthritis_other_inflammatory_polyarthropathies
 		,HO_multiple_sclerosis
-		,HO_other_neurological_conditions
-		,HO_parkinsons_disease
+		,HO_parkinsons_disease 
+		,HO_anorexia_bulimia 
+		,HO_anxiety_other_somatoform_disorders
 		,HO_dementia
 		,HO_chronic_kidney_disease
+		,HO_prostate_disorders
 		,HO_asthma
 		,HO_bronchiectasis
+		,HO_chronic_sinusitis
 		,HO_copd
+		,HO_blindness_low_vision
+		,HO_glaucoma
+		,HO_hearing_loss
+		,HO_asthma
 		,HO_learning_disability
+		,HO_alcohol_problems
+		,HO_psychoactive_substance_abuse
 		,HO_Schizophrenia_Psychosis = CASE WHEN EarliestDiagnosis_Schizophrenia_Psychosis IS NULL THEN 0 ELSE 1 END
 		,EarliestDiagnosis_Schizophrenia_Psychosis
 		,HO_Bipolar = CASE WHEN EarliestDiagnosis_Bipolar IS NULL THEN 0 ELSE 1 END
 		,EarliestDiagnosis_Bipolar
 		,HO_Recurrent_Depressive = CASE WHEN EarliestDiagnosis_Recurrent_Depressive IS NULL THEN 0 ELSE 1 END
 		,EarliestDiagnosis_Recurrent_Depressive
+		,DeathAfter31Jan20 = CASE WHEN pl.DeathDate > '2020-01-31' THEN 'Y' ELSE 'N' END
+		,DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID IA NOT NULL THEN 'Y' ELSE 'N' END
+		,pl.DeathDate
 		,FirstVaccineDate
 		,SecondVaccineDate
 FROM #MainCohort m
@@ -283,6 +318,8 @@ LEFT OUTER JOIN #EarliestDiagnosis_Schizophrenia_Psychosis edsc on edsc.FK_Patie
 LEFT OUTER JOIN #EarliestDiagnosis_Bipolar edbp on edbp.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #EarliestDiagnosis_Recurrent_Depressive edmd on edmd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDVaccinations1 vac on vac.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #VaccineDeclinedPatients vd ON vd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = m.FK_Patient_Link_ID;
 UNION
 --patients in matched cohort
 SELECT	 m.FK_Patient_Link_ID
@@ -294,35 +331,44 @@ SELECT	 m.FK_Patient_Link_ID
 		,m.EthnicMainGroup
 		,IMD2019Decile1IsMostDeprived10IsLeastDeprived --may need changing to IMD Score
 		,GPPracticeCode -- needs anonymising
-		,HO_coronary_heart_disease
-		,HO_atrial_fibrillation
-		,HO_heart_failure
-		,HO_hypertension
+		,HO_painful_condition 
+		,HO_migraine 
+		,HO_epilepsy
+		,HO_coronary_heart_disease 
+		,HO_atrial_fibrillation 
+		,HO_heart_failure 
+		,HO_hypertension 
 		,HO_peripheral_vascular_disease
 		,HO_stroke_and_transient_ischaemic_attack
-		,HO_diabetes
-		,HO_thyroid_disorders
-		,HO_chronic_liver_disease
-		,HO_chronic_liver_disease_and_viral_hepatitis
-		,HO_constipation_treated
+		,HO_diabetes 
+		,HO_thyroid_disorders 
+		,HO_chronic_liver_disease 
 		,HO_diverticular_disease_of_intestine
-		,HO_dyspepsia_treated
-		,HO_inflammatory_bowel_disease
-		,HO_irritable_bowel_syndrome
-		,HO_peptic_ulcer_disease
-		,HO_psoriasis
-		,HO_psoriasis_or_eczema_medcodes
-		,HO_rheumatoid_arthritis_other_inflammatory_polyarthropathies_and_systematic_connective_tissue_disorders
-		,HO_rheumatoid_arthritis_sle
+		,HO_inflammatory_bowel_disease 
+		,HO_irritable_bowel_syndrome 
+		,HO_constipation
+		,HO_dyspepsia
+		,HO_peptic_ulcer_disease 
+		,HO_psoriasis_or_eczema 
+		,HO_rheumatoid_arthritis_other_inflammatory_polyarthropathies
 		,HO_multiple_sclerosis
-		,HO_other_neurological_conditions
-		,HO_parkinsons_disease
+		,HO_parkinsons_disease 
+		,HO_anorexia_bulimia 
+		,HO_anxiety_other_somatoform_disorders
 		,HO_dementia
 		,HO_chronic_kidney_disease
+		,HO_prostate_disorders
 		,HO_asthma
 		,HO_bronchiectasis
+		,HO_chronic_sinusitis
 		,HO_copd
+		,HO_blindness_low_vision
+		,HO_glaucoma
+		,HO_hearing_loss
+		,HO_asthma
 		,HO_learning_disability
+		,HO_alcohol_problems
+		,HO_psychoactive_substance_abuse
 		,HO_Schizophrenia_Psychosis = CASE WHEN EarliestDiagnosis_Schizophrenia_Psychosis IS NULL THEN 0 ELSE 1 END
 		,EarliestDiagnosis_Schizophrenia_Psychosis
 		,HO_Bipolar = CASE WHEN EarliestDiagnosis_Bipolar IS NULL THEN 0 ELSE 1 END
@@ -338,5 +384,7 @@ LEFT OUTER JOIN #EarliestDiagnosis_Schizophrenia_Psychosis edsc on edsc.FK_Patie
 LEFT OUTER JOIN #EarliestDiagnosis_Bipolar edbp on edbp.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #EarliestDiagnosis_Recurrent_Depressive edmd on edmd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDVaccinations1 vac on vac.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #VaccineDeclinedPatients vd ON vd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = m.FK_Patient_Link_ID;
 --312,446
 
