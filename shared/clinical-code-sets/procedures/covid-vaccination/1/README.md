@@ -6,11 +6,20 @@ The discrepancy between the patients counted when using the IDs vs using the cli
 
 **UPDATE - 25th March 2021** Missing Read and CTV3 codes were added to the vaccination list and now the range of `26.91% - 32.96%` seems reasonable. It should be noted that there is an approx 2 week lag between events occurring and them being entered in the record.
 
+**UPDATE - 12th April 2021, latest prevalence figures:
+
+MED
+
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-03-11 | EMIS            | 2600658    |           2 (0%) |   690414 (26.55%) |
-| 2021-03-11 | TPP             | 210333     |           0 (0%) |      2525 (1.20%) |
-| 2021-03-11 | Vision          | 333251     |           0 (0%) |      3955 (1.19%) |
-| 2021-03-25 | EMIS            | 2602984    |     4550 (0.17%) |   857956 (32.96%) |
-| 2021-03-25 | TPP             | 210441     |        5 (0.00%) |    56620 (26.91%) |
-| 2021-03-25 | Vision          | 333572     |        1 (0.00%) |    93113 (27.91%) |
+| 2021-05-12 | EMIS            | 2606497    |           0 (0%) |    379577(14.56%) |
+| 2021-05-12 | TPP             | 210810	    |           0 (0%) |       1637(0.78%) |
+| 2021-05-12 | Vision          | 334784	    |           0 (0%) |         93(0.03%) |
+
+EVENT
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-12 | 	EMIS	       | 2606497    |	4446 (0.17%)   |  1101577 (42.26%) |
+| 2021-05-12 |	TPP	       | 210810	    |	7 (0.00%)      |    87841 (41.66%) |
+| 2021-05-12 |	Vision	       | 334784	    |	1 (0.00%)      |   142724 (42.63%) |

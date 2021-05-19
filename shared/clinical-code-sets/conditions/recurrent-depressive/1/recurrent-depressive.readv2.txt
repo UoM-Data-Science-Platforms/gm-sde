@@ -1,5 +1,7 @@
+2257	O/E - depressed
+E0043	Arteriosclerotic dementia with depression
 E113.	Recurrent major depressive episode
-E1130	Recurrent major depressive episodes, unspecified
+E1130	"Recurrent major depressive episodes, unspecified"
 E1131	"Recurrent major depressive episodes, mild"
 E1132	"Recurrent major depressive episodes, moderate"
 E1133	"Recurrent major depressive episodes, severe, without mention of psychosis"
@@ -20,15 +22,6 @@ Eu332	"[X]Recurrent depressive disorder, current episode severe without psychoti
 Eu332	[X]Endogenous depression without psychotic symptoms
 Eu332	"[X]Major depression, recurrent without psychotic symptoms"
 Eu332	"[X]Manic-depressive psychosis, depressed type without psychotic symptoms"
-E0043	Arteriosclerotic dementia with depression
-Eu330	[X]Recurr depress current mild
-Eu331	[X]Recurr depress current mod
-Eu332	[X]Recurr dep now sever no psy
-Eu333	[X]Recurr dep now sever+psych
-Eu334	[X]Recurr depress in remission
-Eu33y	[X]Oth recurr depressve disord
-Eu33z	[X]Recurrent depress dis unsp
-2257	O/E - depressed
 Eu332	"[X]Vital depression, recurrent without psychotic symptoms"
 Eu333	"[X]Recurrent depressive disorder, current episode severe with psychotic symptoms"
 Eu333	[X]Endogenous depression with psychotic symptoms
@@ -37,7 +30,10 @@ Eu333	[X]Recurrent severe episodes of major depression with psychotic symptoms
 Eu333	[X]Recurrent severe episodes of psychogenic depressive psychosis
 Eu333	[X]Recurrent severe episodes of psychotic depression
 Eu333	[X]Recurrent severe episodes of reactive depressive psychosis
+Eu334	[X]Recurr depress in remission
 Eu334	"[X]Recurrent depressive disorder, currently in remission"
+Eu33y	[X]Oth recurr depressve disord
 Eu33y	[X]Other recurrent depressive disorders
+Eu33z	[X]Recurrent depress dis unsp
 Eu33z	"[X]Recurrent depressive disorder, unspecified"
 Eu33z	[X]Monopolar depression NOS

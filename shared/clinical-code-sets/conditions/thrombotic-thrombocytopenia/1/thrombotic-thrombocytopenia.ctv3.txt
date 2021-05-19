@@ -1,0 +1,6 @@
+D1111	Microangiopathic haemolytic anaemia
+D1113	HUS - Haemolytic uraemic syndrome
+G756.	Thrombotic thrombocytopenic purpura
+G756z	Thrombotic microangiopathy NOS
+XM190	[EDTA] Haemolytic uraemic syndrome including Moschcowitz syndrome associated with renal failure
+Xagde	Suspected HUS (haemolytic uraemic syndrome)

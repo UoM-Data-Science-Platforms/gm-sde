@@ -163,7 +163,7 @@ Pre-requisite: All users must have a VDE and appear in the list of names on the 
 - Open Windows Explorer and navigate to "This PC"
 - Right click anywhere in "This PC"
 - Select "Add a network location"
-- Follow the onscreen prompts, entering "\\gmvdireportstorage.file.core.windows.net\gmcr-rqXXX-[PI name]" as the "Internet or Network Address".
+- Follow the onscreen prompts, entering "\\\\gmvdireportstorage.file.core.windows.net\\gmcr-rqXXX-[PI name]" as the "Internet or Network Address".
 - Enter "gmcr-rqXXX-[PI name]" as the file share name when prompted
 - If the file share has been correctly set up you will now be able to access it. Otherwise you'll need to re-open the support ticket with GMSS/GraphNet
 

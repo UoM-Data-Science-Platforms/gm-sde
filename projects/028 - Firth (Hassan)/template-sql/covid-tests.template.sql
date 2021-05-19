@@ -30,7 +30,7 @@ WHERE SuppliedCode IN (
 )
 	AND (gp.EventDate) <= '2020-01-31'
 
-DROP TABLE #covidtests
+IF OBJECT_ID('tempdb..#covidtests') IS NOT NULL DROP TABLE #covidtests;
 SELECT 
       [FK_Patient_Link_ID]
       ,[EventDate]
@@ -54,7 +54,7 @@ SELECT
   INTO #covidtests
   FROM [RLS].[vw_COVID19]
   WHERE 
-	FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+	FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients_1)
 	and GroupDescription != 'Vaccination' 
 	and GroupDescription not in ('Exposed', 'Suspected', 'Tested for immunity')
 	and (GroupDescription != 'Unknown' and SubGroupDescription != '')

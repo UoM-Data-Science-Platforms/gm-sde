@@ -1,3 +1,49 @@
 2020-10-22 12:15-12:30
 - Set up VM, look around to ensure access to the dataset.
 
+2020-11-15 17.00-20.00
+--Total unique patients in Patient_link 
+--Total number of deceased patients in Patient_Link
+--Total number of COVID-19 related events per group description
+--Total number of COVID-19 related events per group description
+
+2020-11-23 18.00 - 21.00
+Find out the following total number of rows to investigate how big the chohorts are:
+-- Number of unique patients in the platform
+-- Number of COVID positive patients in the sample
+-- Number of unique patients who were positive and have a deceased flag
+-- Number of unique patients who were alive on 1st Feb 2020
+
+2020-12-03 11.00 - 14.00
+-- Find variables related with polypharmacy. 
+
+2020-12-07 17.00 - 20.00
+-- Check acute inpatients table contains the variables needed for the Christie study
+-- Identify high risk (shielding) and moderate risk patient information  
+-- Query for searching a particular SNOMED code in a table
+
+
+2020-12-08 20.00 - 20.30
+-- Get updated number of total unique patients with at least one positive test confirmed 
+-- Get updated number of unique patients who were alive on 1st Feb 2020
+
+2021-01-12 7.00 - 7.05
+-- Check access to the Christie dataset
+
+2021-01-26 13.40 - 14.00 & 19.00 - 21.00
+-- Sort out MFA and verify access to database
+-- Check cancer-related ICD10 codes to identify the cancer cohort for the 004 study. - couldn't find the 
+
+2021-01-27 8.30 - 9.30
+-- Find total no of Christie patients
+-- Find a way to match ICD10 codes with readcodes
+
+2021-02-04 8.00 - 9.30
+-- Find the link between patients in the Christie dataset and patients in the platform.
+-- Some tables are not linked - have to check with Graphnet. 
+
+2021-02-10 8.30 - 9.00
+-- Find christie tables with no patient_link_ID to make sure linkage is possible. 
+
+2021-03-01 8.30 - 8.40
+-- Check that primary keys are now updated to link Christie records with IDCR.

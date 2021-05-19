@@ -1,0 +1,14 @@
+{
+  "includeTerms": [
+    "thrombotic thrombocytopenic",
+    "thrombotic microangiopathy",
+    "moschcowitz syndrome",
+    "haemolytic uraemic syndrome",
+    "microangiopathic haemolytic anaemia"
+  ],
+  "excludeTerms": [],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdOn": "2021-05-13T14:15:35.582Z",
+  "lastUpdated": "2021-05-13T14:15:35.582Z"
+}

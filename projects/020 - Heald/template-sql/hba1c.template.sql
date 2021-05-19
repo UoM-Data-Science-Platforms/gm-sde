@@ -9,6 +9,9 @@
 -- For each patient with a COVID positive test, this produces 2 years of hbA1c readings
 -- leading up to the date of the positive test.
 
+--Just want the output, not the messages
+SET NOCOUNT ON;
+
 -- Set the start date
 DECLARE @StartDate datetime;
 SET @StartDate = '2020-01-01';

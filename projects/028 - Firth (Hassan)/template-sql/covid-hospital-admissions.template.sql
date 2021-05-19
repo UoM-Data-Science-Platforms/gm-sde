@@ -32,15 +32,30 @@ WHERE SuppliedCode IN (
 --> EXECUTE query-get-admissions-and-length-of-stay.sql
 --> EXECUTE query-admissions-covid-utilisation.sql
 
+
+----- create anonymised identifier for each hospital
+
+IF OBJECT_ID('tempdb..#hospitals') IS NOT NULL DROP TABLE #hospitals;
+SELECT DISTINCT AcuteProvider
+INTO #hospitals
+FROM #LengthOfStay
+
+IF OBJECT_ID('tempdb..#RandomiseHospital') IS NOT NULL DROP TABLE #RandomiseHospital;
+SELECT AcuteProvider
+	, HospitalID = ROW_NUMBER() OVER (order by AcuteProvider)
+INTO #RandomiseHospital
+FROM #hospitals
+
+-- final table containing all covid-related admissions for the SMI cohort
+
 IF OBJECT_ID('tempdb..#HospitalAdmissions') IS NOT NULL DROP TABLE #HospitalAdmissions;
 SELECT 
-	FK_Patient_Link_ID,
-	AdmissionDate,
+	l.FK_Patient_Link_ID,
+	l.AdmissionDate,
 	DischargeDate,
-	LengthOfStay,
-	Hospital = l.AcuteProvider
+	rh.HospitalID
 INTO #HospitalAdmissions
 FROM #LengthOfStay l
 LEFT OUTER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND c.AdmissionDate = l.AdmissionDate AND c.AcuteProvider = l.AcuteProvider
-LEFT OUTER JOIN #PatientPracticeAndCCG ppc ON ppc.FK_Patient_Link_ID = l.FK_Patient_Link_ID
+LEFT OUTER JOIN #RandomiseHospital rh ON rh.AcuteProvider = l.AcuteProvider
 WHERE c.CovidHealthcareUtilisation = 'TRUE'
