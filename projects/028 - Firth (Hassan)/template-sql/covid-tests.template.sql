@@ -10,37 +10,101 @@
 -- TestDate (DD-MM-YYYY)
 -- TestLocation (hospital/elsewhere) - NOT AVAILABLE
 
+-- Set the start date
+DECLARE @StartDate datetime;
+SET @StartDate = '2020-01-31';
+
+--Just want the output, not the messages
+SET NOCOUNT ON;
+
+-- Find all patients alive at start date
+IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
+SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
+WHERE (DeathDate IS NULL OR DeathDate >= @StartDate);
+
+-- Find all patients registered with a GP
+IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
+SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [RLS].vw_Patient
+where FK_Reference_Tenancy_ID = 2;
+
+-- Make cohort from patients alive at start date and registered with a GP
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT P.PK_Patient_ID, PL.PK_Patient_Link_ID AS FK_Patient_Link_ID, PL.EthnicMainGroup
-INTO #Patients 
-FROM [RLS].vw_Patient P
-LEFT JOIN [RLS].vw_Patient_Link PL ON P.FK_Patient_Link_ID = PL.PK_Patient_Link_ID
+SELECT pp.* INTO #Patients FROM #PossiblePatients pp
+INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
+
+--> EXECUTE query-patient-sex.sql
+--> EXECUTE query-patient-year-of-birth.sql
 
 --> CODESET severe-mental-illness
 
---COHORT: PATIENTS WITH SMI DIAGNOSES AS OF 31.01.20
+-- SMI episodes to identify cohort
 
-IF OBJECT_ID('tempdb..#Patients_1') IS NOT NULL DROP TABLE #Patients_1;
-SELECT distinct gp.FK_Patient_Link_ID 
-INTO #Patients_1
+IF OBJECT_ID('tempdb..#SMI_Episodes') IS NOT NULL DROP TABLE #SMI_Episodes;
+SELECT gp.FK_Patient_Link_ID, 
+		YearOfBirth, 
+		Sex
+INTO #SMI_Episodes
 FROM [RLS].[vw_GP_Events] gp
 LEFT OUTER JOIN #Patients p ON p.PK_Patient_ID = gp.FK_Patient_ID
+LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE SuppliedCode IN (
 	SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('severe-mental-illness') AND [Version] = 1
 )
 	AND (gp.EventDate) <= '2020-01-31'
 
+-- Define the main cohort to be matched
+
+IF OBJECT_ID('tempdb..#MainCohort') IS NOT NULL DROP TABLE #MainCohort;
+SELECT DISTINCT FK_Patient_Link_ID, 
+		YearOfBirth, 
+		Sex
+INTO #MainCohort
+FROM #SMI_Episodes
+--57,622
+
+-- Define the population of potential matches for the cohort
+IF OBJECT_ID('tempdb..#PotentialMatches') IS NOT NULL DROP TABLE #PotentialMatches;
+SELECT p.FK_Patient_Link_ID, Sex, YearOfBirth
+INTO #PotentialMatches
+FROM #Patients p
+LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+EXCEPT
+SELECT FK_Patient_Link_ID, Sex, YearOfBirth FROM #MainCohort;
+-- 3,378,730
+
+--> EXECUTE query-cohort-matching-yob-sex.sql yob-flex:1
+
+
+-- Get the matched cohort detail - same as main cohort
+IF OBJECT_ID('tempdb..#MatchedCohort') IS NOT NULL DROP TABLE #MatchedCohort;
+SELECT 
+  c.MatchingPatientId AS FK_Patient_Link_ID,
+  Sex,
+  MatchingYearOfBirth,
+  PatientId AS PatientWhoIsMatched
+INTO #MatchedCohort
+FROM #CohortStore c
+WHERE c.PatientId IN (SELECT FK_Patient_Link_ID FROM #Patients);
+--254,824
+
+-- Define a table with all the patient ids for the main cohort and the matched cohort
+IF OBJECT_ID('tempdb..#PatientIds') IS NOT NULL DROP TABLE #PatientIds;
+SELECT PatientId AS FK_Patient_Link_ID INTO #PatientIds FROM #CohortStore
+UNION
+SELECT MatchingPatientId FROM #CohortStore;
+
+
+-- find all covid tests for the main and matched cohort
 IF OBJECT_ID('tempdb..#covidtests') IS NOT NULL DROP TABLE #covidtests;
 SELECT 
       [FK_Patient_Link_ID]
       ,[EventDate]
-      ,[DeathDate]
-      ,[DeceasedFlag]
       ,[MainCode]
       ,[CodeDescription]
       ,[GroupDescription]
       ,[SubGroupDescription]
-      ,[DeathWithin28Days]
 	  ,TestOutcome = CASE WHEN GroupDescription = 'Confirmed'														then 'Positive'
 			WHEN SubGroupDescription = '' and GroupDescription = 'Excluded'											then 'Negative'
 			WHEN SubGroupDescription = '' and GroupDescription = 'Tested' and CodeDescription like '%not detected%' then 'Negative'
@@ -51,15 +115,29 @@ SELECT
 			WHEN SubGroupDescription != ''																			then SubGroupDescription
 			WHEN SubGroupDescription = '' and CodeDescription like '%reslt unknow%'									then 'Unknown/Inconclusive'
 							ELSE 'CHECK' END
-  INTO #covidtests
-  FROM [RLS].[vw_COVID19]
-  WHERE 
-	FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients_1)
+INTO #covidtests
+FROM [RLS].[vw_COVID19]
+WHERE 
+	(FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #MainCohort) OR FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #MatchedCohort))
 	and GroupDescription != 'Vaccination' 
 	and GroupDescription not in ('Exposed', 'Suspected', 'Tested for immunity')
 	and (GroupDescription != 'Unknown' and SubGroupDescription != '')
 
-SELECT FK_Patient_Link_ID
+--bring together for final output
+--patients in main cohort
+SELECT m.FK_Patient_Link_ID
+	,NULL AS MainCohortMatchedPatientId
 	,TestOutcome
 	,TestDate = EventDate
-FROM #covidtests
+FROM #covidtests cv
+LEFT JOIN #MainCohort m ON cv.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+where m.FK_Patient_Link_ID is not null
+UNION 
+--patients in matched cohort
+SELECT m.FK_Patient_Link_ID
+	,PatientWhoIsMatched AS MainCohortMatchedPatientId
+	,TestOutcome
+	,TestDate = EventDate
+FROM #covidtests cv
+LEFT JOIN #MatchedCohort m ON cv.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+where m.FK_Patient_Link_ID is not null

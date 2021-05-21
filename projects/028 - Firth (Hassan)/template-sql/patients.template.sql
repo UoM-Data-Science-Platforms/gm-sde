@@ -34,10 +34,6 @@ SET @StartDate = '2020-01-31';
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
--- *************** INTERIM WORKAROUND DUE TO MISSING PATIENT_LINK_ID'S ***************************
--- find patient_id for all patients, this will be used to link the gp_events table to patient_link
--- ***********************************************************************************************
-
 -- Find all patients alive at start date
 IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
 SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
@@ -109,7 +105,7 @@ SELECT gp.FK_Patient_Link_ID,
 					( SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('recurrent-depressive') AND [Version] = 1 ) THEN 1 ELSE 0 END
 INTO #SMI_Episodes
 FROM [RLS].[vw_GP_Events] gp
-LEFT OUTER JOIN #Patients p ON p.PK_Patient_ID = gp.FK_Patient_ID
+LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
@@ -160,9 +156,9 @@ SELECT
   PatientId AS PatientWhoIsMatched
 INTO #MatchedCohort
 FROM #CohortStore c
-LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = c.FK_Patient_Link_ID
+LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = c.MatchingPatientId
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = c.MatchingPatientId
-LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = c.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = c.MatchingPatientId
 LEFT OUTER JOIN #PatientPracticeAndCCG prac ON prac.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE c.PatientId IN (SELECT FK_Patient_Link_ID FROM #Patients);
 --254,824
@@ -233,18 +229,17 @@ SELECT FK_Patient_Link_ID,
 		HO_anxiety_other_somatoform_disorders	= MAX(CASE WHEN LTC = 'anxiety and other somatoform disorders' then 1 else 0 end),
 		HO_dementia						= MAX(CASE WHEN LTC = 'dementia' then 1 else 0 end),
 		HO_chronic_kidney_disease		= MAX(CASE WHEN LTC = 'chronic kidney disease' then 1 else 0 end),
-		HO_prostate_disorders			= MAX(CASE WHEN LTC = 'prostate disorders') then 1 else 0 end),
-		HO_asthma						= MAX(CASE WHEN LTC = 'asthma') then 1 else 0 end),
+		HO_prostate_disorders			= MAX(CASE WHEN LTC = 'prostate disorders' then 1 else 0 end),
+		HO_asthma						= MAX(CASE WHEN LTC = 'asthma' then 1 else 0 end),
 		HO_bronchiectasis				= MAX(CASE WHEN LTC = 'bronchiectasis' then 1 else 0 end),
-		HO_chronic_sinusitis			= MAX(CASE WHEN LTC = 'chronic sinusitis') then 1 else 0 end),
+		HO_chronic_sinusitis			= MAX(CASE WHEN LTC = 'chronic sinusitis' then 1 else 0 end),
 		HO_copd							= MAX(CASE WHEN LTC = 'copd' then 1 else 0 end),
-		HO_blindness_low_vision			= MAX(CASE WHEN LTC = 'blindness and low vision') then 1 else 0 end),
-		HO_glaucoma						= MAX(CASE WHEN LTC = 'glaucoma') then 1 else 0 end),
-		HO_hearing_loss					= MAX(CASE WHEN LTC = 'hearing loss') then 1 else 0 end),
-		HO_asthma						= MAX(CASE WHEN LTC = 'asthma') then 1 else 0 end),
+		HO_blindness_low_vision			= MAX(CASE WHEN LTC = 'blindness and low vision' then 1 else 0 end),
+		HO_glaucoma						= MAX(CASE WHEN LTC = 'glaucoma' then 1 else 0 end),
+		HO_hearing_loss					= MAX(CASE WHEN LTC = 'hearing loss' then 1 else 0 end),
 		HO_learning_disability			= MAX(CASE WHEN LTC = 'learning disability' then 1 else 0 end),
-		HO_alcohol_problems				= MAX(CASE WHEN LTC = 'alcohol problems') then 1 else 0 end),
-		HO_psychoactive_substance_abuse	= MAX(CASE WHEN LTC = 'psychoactive substance abuse') then 1 else 0 end)
+		HO_alcohol_problems				= MAX(CASE WHEN LTC = 'alcohol problems' then 1 else 0 end),
+		HO_psychoactive_substance_abuse	= MAX(CASE WHEN LTC = 'psychoactive substance abuse' then 1 else 0 end)
 INTO #HistoryOfLTCs
 FROM #PatientsWithLTCs
 GROUP BY FK_Patient_Link_ID
@@ -254,9 +249,8 @@ GROUP BY FK_Patient_Link_ID
 --patients in main cohort
 SELECT	 m.FK_Patient_Link_ID
 		,NULL AS MainCohortMatchedPatientId
-		,YearOfBirth
-		,DeathDate
-		,Sex
+		,m.YearOfBirth
+		,m.Sex
 		,LSOA_Code
 		,m.EthnicMainGroup
 		,IMD2019Decile1IsMostDeprived10IsLeastDeprived --may need changing to IMD Score
@@ -307,8 +301,8 @@ SELECT	 m.FK_Patient_Link_ID
 		,HO_Recurrent_Depressive = CASE WHEN EarliestDiagnosis_Recurrent_Depressive IS NULL THEN 0 ELSE 1 END
 		,EarliestDiagnosis_Recurrent_Depressive
 		,DeathAfter31Jan20 = CASE WHEN pl.DeathDate > '2020-01-31' THEN 'Y' ELSE 'N' END
-		,DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID IA NOT NULL THEN 'Y' ELSE 'N' END
-		,pl.DeathDate
+		,DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END
+		,DeathDateDueToCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN pl.DeathDate ELSE null END
 		,FirstVaccineDate
 		,SecondVaccineDate
 FROM #MainCohort m
@@ -319,18 +313,18 @@ LEFT OUTER JOIN #EarliestDiagnosis_Bipolar edbp on edbp.FK_Patient_Link_ID = m.F
 LEFT OUTER JOIN #EarliestDiagnosis_Recurrent_Depressive edmd on edmd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDVaccinations1 vac on vac.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #VaccineDeclinedPatients vd ON vd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = m.FK_Patient_Link_ID;
+LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 UNION
 --patients in matched cohort
-SELECT	 m.FK_Patient_Link_ID
+SELECT	m.FK_Patient_Link_ID
 		,m.PatientWhoIsMatched AS MainCohortMatchedPatientId
-		,MatchingYearOfBirth
-		,DeathDate
-		,Sex
+		,m.MatchingYearOfBirth
+		,m.Sex
 		,LSOA_Code
 		,m.EthnicMainGroup
 		,IMD2019Decile1IsMostDeprived10IsLeastDeprived --may need changing to IMD Score
 		,GPPracticeCode -- needs anonymising
+		,HO_cancer 
 		,HO_painful_condition 
 		,HO_migraine 
 		,HO_epilepsy
@@ -375,6 +369,9 @@ SELECT	 m.FK_Patient_Link_ID
 		,EarliestDiagnosis_Bipolar
 		,HO_Recurrent_Depressive = CASE WHEN EarliestDiagnosis_Recurrent_Depressive IS NULL THEN 0 ELSE 1 END
 		,EarliestDiagnosis_Recurrent_Depressive
+		,DeathAfter31Jan20 = CASE WHEN pl.DeathDate > '2020-01-31' THEN 'Y' ELSE 'N' END
+		,DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END
+		,DeathDateDueToCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN pl.DeathDate ELSE null END
 		,FirstVaccineDate
 		,SecondVaccineDate
 FROM #MatchedCohort m
