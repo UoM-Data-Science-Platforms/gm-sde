@@ -15,6 +15,8 @@
 --  - HasHighClinicalVulnerabilityIndicator (Y/N)
 --  - DateOfHighClinicalVulnerabilityIndicator
 --  - HasModerateClinicalVulnerabilityIndicator (Y/N)
+--	-	IsClinicallyEligibleForFluVaccine (Y/N)
+--	-	DateOfFluVaccineIn20192020Season (YYYY-MM-DD)
 --  - HasCovidHospitalisation (Y/N)
 --  - DateOfFirstCovidHospitalisation
 --  - HasCovidDeathWithin28Days (Y/N)
@@ -65,6 +67,8 @@ SELECT * FROM #Temp;
 
 --> EXECUTE query-get-covid-vaccines.sql
 
+--> EXECUTE query-received-flu-vaccine.sql date-from:2019-07-01 date-to:2020-06-30
+
 --> EXECUTE query-get-flu-vaccine-eligible.sql
 
 -- Get patients with moderate covid vulnerability defined as
@@ -114,6 +118,8 @@ SELECT
 	CASE WHEN HighVulnerabilityCodeDate IS NOT NULL THEN 'Y' ELSE 'N' END AS HasHighClinicalVulnerabilityIndicator,
 	HighVulnerabilityCodeDate AS DateOfHighClinicalVulnerabilityIndicator,
 	CASE WHEN mv.FK_Patient_Link_ID IS NOT NULL THEN 'Y' ELSE 'N' END AS HasModerateClinicalVulnerability,
+	CASE WHEN flu.FK_Patient_Link_ID IS NOT NULL THEN 'Y' ELSE 'N' END AS IsClinicallyEligibleForFluVaccine,
+	fluvac.FluVaccineDate AS DateOfFluVaccineIn20192020Season,
 	CASE WHEN DateOfFirstCovidHospitalisation IS NOT NULL THEN 'Y' ELSE 'N' END AS HasCovidHospitalisation,
 	DateOfFirstCovidHospitalisation,
 	CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN 'Y' ELSE 'N' END AS HasCovidDeathWithin28Days,
@@ -131,5 +137,6 @@ LEFT OUTER JOIN #ModerateVulnerabilityPatients mv ON mv.FK_Patient_Link_ID = p.F
 LEFT OUTER JOIN #FirstCOVIDAdmission ca ON ca.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDVaccines v ON v.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #VaccineDeclinedPatients vd ON vd.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
-
+LEFT OUTER JOIN #VaccineDeclinedPatients vd ON vd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #FluVaccPatients flu ON flu.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientHadFluVaccine fluvac ON fluvac.FK_Patient_Link_ID = p.FK_Patient_Link_ID;

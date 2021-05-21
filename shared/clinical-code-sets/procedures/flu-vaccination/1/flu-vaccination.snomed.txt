@@ -1,39 +1,70 @@
-3252611000001103	Influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes (Novartis Vaccines and Diagnostics Ltd)
-3244411000001106	Influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
-10133911000001103	Influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes (A A H Pharmaceuticals Ltd)
-11278411000001109	Influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes (Pfizer Ltd)
-37547211000001103	Adjuvanted trivalent influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes (Seqirus Vaccines Ltd)
-3249511000001109	Fluvirin vaccine suspension for injection 0.5ml pre-filled syringes (Novartis Vaccines and Diagnostics Ltd)
-3255011000001100	Influvac Sub-unit vaccine suspension for injection 0.5ml pre-filled syringes (Mylan)
-35727111000001109	Influvac sub-unit Tetra vaccine suspension for injection 0.5ml pre-filled syringes (Mylan)
-3245911000001104	Fluarix vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
-3247011000001105	Begrivac vaccine suspension for injection 0.5ml pre-filled syringes (Novartis Vaccines and Diagnostics Ltd)
-3255311000001102	Agrippal vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus Vaccines Ltd)
-10306611000001101	Inflexal V vaccine suspension for injection 0.5ml pre-filled syringes (Janssen-Cilag Ltd)
-4365711000001104	Mastaflu vaccine suspension for injection 0.5ml pre-filled syringes (Masta Ltd)
-9511411000001107	Enzira vaccine suspension for injection 0.5ml pre-filled syringes (Pfizer Ltd)
-10455811000001107	Viroflu vaccine suspension for injection 0.5ml pre-filled syringes (Janssen-Cilag Ltd)
-10859911000001105	Imuvac vaccine suspension for injection 0.5ml pre-filled syringes (Mylan)
-15382311000001101	Optaflu vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus Vaccines Ltd)
-15454511000001101	Intanza 9microgram strain vaccine suspension for injection 0.1ml pre-filled syringes (sanofi pasteur MSD Ltd)
-15506511000001107	Intanza 15microgram strain vaccine suspension for injection 0.1ml pre-filled syringes (sanofi pasteur MSD Ltd)
-19820511000001106	Fluenz vaccine nasal suspension 0.2ml unit dose (AstraZeneca UK Ltd)
-27114211000001105	Fluenz Tetra vaccine nasal suspension 0.2ml unit dose (AstraZeneca UK Ltd)
-20292211000001109	Preflucel vaccine suspension for injection 0.5ml pre-filled syringes (Baxter Healthcare Ltd)
-22628411000001107	Influvac Desu vaccine suspension for injection 0.5ml pre-filled syringes (Abbott Healthcare Products Ltd)
-22704311000001109	Fluarix Tetra vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
-30935711000001104	FluMist Quadrivalent vaccine nasal suspension 0.2ml unit dose (AstraZeneca UK Ltd)
-34680411000001107	Quadrivalent influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
-37514711000001105	Fluad vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus Vaccines Ltd)
-35726811000001104	Influenza Tetra MYL vaccine suspension for injection 0.5ml pre-filled syringes (Mylan)
-35727411000001104	Influenza MYL vaccine suspension for injection 0.5ml pre-filled syringes (Mylan)
-36509011000001106	Flucelvax Tetra vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus Vaccines Ltd)
-36754111000001101	Trivalent influenza vaccine (split virion, inactivated) High Dose suspension for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
-348047008	Influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes
-10309511000001105	Influenza vaccine (surface antigen, inactivated, virosome) suspension for injection 0.5ml pre-filled syringes
-15474011000001107	Influenza vaccine (split virion, inactivated) 9microgram strain suspension for injection 0.1ml pre-filled syringes
-15507511000001109	Influenza vaccine (split virion, inactivated) 15microgram strain suspension for injection 0.1ml pre-filled syringes
-19821411000001103	Influenza vaccine (live attenuated) nasal suspension 0.2ml unit dose
-348046004	Influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes
-36755311000001100	Influenza vaccine (split virion, inactivated) High Dose suspension for injection 0.5ml pre-filled syringes
-37531311000001101	Adjuvanted trivalent influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes
+1037311000000106	First intranasal seasonal influenza vaccination given by pharmacist
+1037331000000103	Second intranasal seasonal influenza vaccination given by pharmacist
+1037351000000105	First inactivated seasonal influenza vaccination given by pharmacist
+1037371000000101	Second inactivated seasonal influenza vaccination given by pharmacist
+1066171000000108	Seasonal influenza vaccination given by midwife (situation)
+1066181000000105	First inactivated seasonal influenza vaccination given by midwife (situation)
+1066191000000107	Second inactivated seasonal influenza vaccination given by midwife (situation)
+1239861000000100	Seasonal influenza vaccination given in school
+201391000000106	Booster influenza vaccination
+202301000000106	First pandemic flu vaccination
+202311000000108	Second pandemic influenza vaccination
+325631000000101	Annual influenza vaccination (finding)
+346524008	Inactivated Influenza split virion vaccine
+346525009	Inactivated Influenza surface antigen sub-unit vaccine
+348046004	Influenza (split virion) vaccine injection suspension prefilled syringe
+348047008	Inactivated Influenza surface antigen sub-unit vaccine prefilled syringe
+380741000000101	First pandemic influenza vaccination given by other healthcare provider
+380771000000107	Second pandemic influenza vaccination given by other healthcare provider
+396425006	FLU - Influenza vaccine
+400564003	Influenza virus vaccine trivalent 45mcg/0.5mL injection solution 5mL vial
+400788004	Influenza virus vaccine triv 45mcg/0.5mL injection
+408752008	Inactivated influenza split virion vaccine
+409269001	Intranasal influenza live virus vaccine
+418707004	Inactivated Influenza surface antigen virosome vaccine prefilled syringe
+419456007	Influenza surface antigen vaccine
+419562000	Inactivated Influenza surface antigen virosome vaccine
+419826009	Influenza split virion vaccine
+426849008	Influenza virus H5N1 vaccine
+427036009	Influenza virus H5N1 vaccine
+427077008	Influenza virus H5N1 vaccine injection solution 5mL multi-dose vial
+428771000	Swine influenza virus vaccine
+430410002	Product containing Influenza virus vaccine in nasal dosage form
+442315004	Influenza A virus subtype H1N1 vaccine (substance)
+442333005	Influenza A virus subtype H1N1 vaccination (procedure)
+443161002	Influenza A virus subtype H1N1 monovalent vaccine 0.5mL injection solution
+443651005	Influenza A virus subtype H1N1 vaccine
+448897007	Inactivated Influenza split virion subtype H1N1v-like strain adjuvant vaccine
+451022006	Inactivated Influenza split virion subtype H1N1v-like strain unadjuvanted vaccine
+46233009	Influenza vaccine
+515281000000108	PANDEMRIX - first influenza A (H1N1v) 2009 vaccination given
+515291000000105	CELVAPAN - first influenza A (H1N1v) 2009 vaccination given
+515301000000109	PANDEMRIX - second influenza A (H1N1v) 2009 vaccination given
+515321000000100	CELVAPAN - second influenza A (H1N1v) 2009 vaccination given
+515331000000103	CELVAPAN - first influenza A (H1N1v) 2009 vaccination given by other healthcare provider
+515341000000107	PANDEMRIX - first influenza A (H1N1v) 2009 vaccination given by other healthcare provider
+515351000000105	CELVAPAN - second influenza A (H1N1v) 2009 vaccination given by other healthcare provider
+515361000000108	PANDEMRIX - second influenza A (H1N1v) 2009 vaccination given by other healthcare provider
+73701000119109	Influenza vaccination given
+81970008	Swine influenza virus vaccine (product)
+822851000000102	Seasonal influenza vaccination
+86198006	Influenza vaccination (procedure)
+868241000000109	Administration of intranasal influenza vaccination
+871751000000104	Administration of first intranasal influenza vaccination
+871781000000105	Administration of second intranasal influenza vaccination
+884821000000108	Administration of first intranasal pandemic influenza vaccination
+884841000000101	Administration of second intranasal pandemic influenza vaccination
+884861000000100	Administration of first intranasal seasonal influenza vaccination
+884881000000109	Administration of second intranasal seasonal influenza vaccination
+884901000000107	First intranasal pandemic influenza vaccination given by other healthcare provider
+884921000000103	Second intranasal pandemic influenza vaccination given by other healthcare provider
+945831000000105	First intramuscular seasonal influenza vaccination given by other healthcare provider
+955641000000103	Influenza vaccination given by other healthcare provider (situation)
+955651000000100	Seasonal influenza vaccination given by other healthcare provider (situation)
+955661000000102	First intranasal seasonal influenza vaccination given by other healthcare provider (situation)
+955671000000109	Second intramuscular seasonal influenza vaccination given by other healthcare provider (situation)
+955681000000106	Second intranasal seasonal influenza vaccination given by other healthcare provider (situation)
+955691000000108	Seasonal influenza vaccination given by pharmacist (situation)
+955701000000108	Seasonal influenza vaccination given while hospital inpatient (situation)
+985151000000100	Administration of first inactivated seasonal influenza vaccination
+985171000000109	Administration of second inactivated seasonal influenza vaccination

@@ -1,0 +1,24 @@
+^ESCT1300221	Seasonal influenza vaccination given in school
+^ESCTFI843902	First inactivated seasonal influenza vaccination given by midwife
+^ESCTIN802297	Influenza vaccination given
+^ESCTSE843901	Seasonal influenza vaccination given by midwife
+EMISNQAD138	Administration of first quadrivalent (QIV) inactivated seasonal influenza vaccination
+EMISNQAD139	Administration of first non adjuvanted trivalent (TIV) inactivated seasonal influenza vaccination
+EMISNQAD142	Administration of adjuvanted trivalent (aTIV) inactivated seasonal influenza vaccination
+EMISNQAD144	Administration of first quadrivalent (QIV) inactivated seasonal influenza vaccination given by other healthcare provider
+EMISNQAD145	Administration of first non adjuvanted trivalent (TIV) inactivated seasonal influenza vaccination given by other healthcare provider
+EMISNQAD147	Administration of adjuvanted trivalent (aTIV) inactivated seasonal influenza vaccination given by other healthcare provider
+EMISNQAD148	Administration of second quadrivalent (QIV) inactivated seasonal influenza vaccination given by other healthcare provider
+EMISNQAD149	Adjuvanted trivalent (aTIV) inactivated seasonal influenza vaccination given by pharmacist
+EMISNQAD150	Administration of second non adjuvanted trivalent (TIV) inactivated seasonal influenza vaccination given by other healthcare provider
+EMISNQAD151	Administration of second quadrivalent (QIV) inactivated seasonal influenza vaccination
+EMISNQFI45	First quadrivalent (QIV) inactivated seasonal influenza vaccination given by pharmacist
+EMISNQFI46	First non adjuvanted trivalent (TIV) inactivated seasonal influenza vaccination given by pharmacist
+EMISNQIN160	Intranasal influenza vaccination
+EMISNQSE164	Second quadrivalent (QIV) inactivated seasonal influenza vaccination given by pharmacist
+PCSDT18434_779	First intranasal seasonal influenza vacc given by pharmacist
+PCSDT18439_1184	First intranasal seasonal influenza vacc given by pharmacist
+PCSDT18439_711	Second intranasal seasonal influenza vacc givn by pharmacist
+PCSDT28849_483	First intranasal seasonal influenza vacc given by pharmacist
+PCSDT7022_652	First intranasal seasonal influenza vacc given by pharmacist
+^ESCTSE843903	Second inactivated seasonal influenza vaccination given by midwife
