@@ -29,7 +29,7 @@ WHERE (
 	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'flu-vaccination' AND [Version] = 1) OR
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'flu-vaccination' AND [Version] = 1)
 )
-AND EventDate > '{param:date-from}'
+AND EventDate >= '{param:date-from}'
 AND EventDate <= '{param:date-to}';
 
 --> CODESETS flu-vaccine
