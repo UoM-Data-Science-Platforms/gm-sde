@@ -760,7 +760,7 @@ WHERE (
 	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'flu-vaccination' AND [Version] = 1) OR
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'flu-vaccination' AND [Version] = 1)
 )
-AND EventDate > '2019-07-01'
+AND EventDate >= '2019-07-01'
 AND EventDate <= '2020-06-30';
 
 -- >>> Following codesets injected: flu-vaccine
@@ -771,7 +771,7 @@ WHERE (
 	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'flu-vaccine' AND [Version] = 1) OR
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'flu-vaccine' AND [Version] = 1)
 )
-and MedicationDate > '2019-07-01'
+and MedicationDate >= '2019-07-01'
 and MedicationDate <= '2020-06-30';
 
 -- Bring all together in final table
@@ -781,6 +781,7 @@ SELECT
 	MIN(FluVaccineDate) AS FluVaccineDate
 INTO #PatientHadFluVaccine FROM #PatientsWithFluVacConcept
 GROUP BY FK_Patient_Link_ID;
+
 
 --┌────────────────────────────────┐
 --│ Flu vaccine eligibile patients │
@@ -857,7 +858,7 @@ SELECT
 	HighVulnerabilityCodeDate AS DateOfHighClinicalVulnerabilityIndicator,
 	CASE WHEN mv.FK_Patient_Link_ID IS NOT NULL THEN 'Y' ELSE 'N' END AS HasModerateClinicalVulnerability,
 	CASE WHEN flu.FK_Patient_Link_ID IS NOT NULL THEN 'Y' ELSE 'N' END AS IsClinicallyEligibleForFluVaccine,
-	FluVaccineDate AS DateOfFluVaccineIn20192020Season,
+	fluvac.FluVaccineDate AS DateOfFluVaccineIn20192020Season,
 	CASE WHEN DateOfFirstCovidHospitalisation IS NOT NULL THEN 'Y' ELSE 'N' END AS HasCovidHospitalisation,
 	DateOfFirstCovidHospitalisation,
 	CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN 'Y' ELSE 'N' END AS HasCovidDeathWithin28Days,
@@ -877,4 +878,4 @@ LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDVaccines v ON v.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #VaccineDeclinedPatients vd ON vd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #FluVaccPatients flu ON flu.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientHadFluVaccine fluvac ON fluvac.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientHadFluVaccine fluvac ON fluvac.FK_Patient_Link_ID = p.FK_Patient_Link_ID;

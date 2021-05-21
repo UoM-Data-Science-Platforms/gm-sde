@@ -40,7 +40,7 @@ WHERE (
 	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'flu-vaccine' AND [Version] = 1) OR
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'flu-vaccine' AND [Version] = 1)
 )
-and MedicationDate > '{param:date-from}'
+and MedicationDate >= '{param:date-from}'
 and MedicationDate <= '{param:date-to}';
 
 -- Bring all together in final table
