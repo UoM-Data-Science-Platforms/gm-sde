@@ -8,18 +8,58 @@
 
 # Greater Manchester Care Record - clinical code sets
 
+Clinical code sets are shared lists of codes that are used in place of longer names or exaplanations.
+Medical professionals use these codes to quickly record the following types of information for patients:
+- Diagnoses
+- Treatments, procedures and tests
+- Medical equipment and supplies
+- Medications
+
+As the sharing of code sets is becoming more important for research, several online repositories have been developed:
+- [OpenCodelists](https://www.opencodelists.org/) (created by OpenSAFELY)
+- [ClinicalCodes.org] (https://clinicalcodes.rss.mhs.man.ac.uk/)
+- [Value Set Authority Center (VSAC)](https://vsac.nlm.nih.gov/)
+
+There are also several published papers that describe different methods for creating, managing and sharing clinical code sets:
+
+1. [Clinical code set engineering for reusing EHR data for research: A review.
+Williams, R., Kontopantelis, E., Buchan, I. & Peek, N., Jun 2017, Journal of
+Biomedical Informatics. 70, p. 1-13.] (https://pubmed.ncbi.nlm.nih.gov/28442434/)
+
+2. [Term sets: A transparent and reproducible representation of clinical code sets.
+Williams, R., Brown, B., Kontopantelis, E., Van Staa, T., Peek, N., 2019, PLoS ONE.
+14, 2, p. e0212291.] (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0212291)
+
 **_Needs writing_**
-Clinical code sets are...
-
-Link to papers...
-
-Link to clinical codes .org, opensafely, VSAC etc..
 
 auto generated list of code sets
 
+## Creating Clinical Code Sets
+
+Within the GMCR, we have an automated process for creating clinical code sets within SQL Server.
+
+The Research Data Engineer (RDE) must find, or create, at least one set of codes for the concept that they are interested in. 
+This text file can either be SNOMED, CTV3, ReadV2, or EMIS codes.
+The file/s should be stored at [.shared/clinical-code-sets] in the relevant folder based on the type of concept.
+
+The typical file structure for a code set looks like:
+
+```js
+1
+├─ asthma.ctv3.txt
+├─ asthma.readv2.txt
+├─ asthma.snomed.txt
+├─ asthma.emis.txt
+├─ README.md
+```
+
+The README.md file is used to provide information about the code set, including how broad it is in scope, the source of the codes, and prevalence (see below section on validation).
+
+## Loading code sets into SQL scripts
 
 
-## Validating Code Sets
+
+## Validating Clinical Code Sets
 
 This process is designed to provide an idea of how well represented a condition is across each GP system. If the prevalence of the code among the 
 three systems is relatively similar (within 10%) then it would seem that the code sets are suitably complete. If there are discrepancies, then
