@@ -455,7 +455,7 @@ ${err}`);
         log(`There are ${newPatientIds.length} new patient ids from the database.`);
         if (newPatientIds.length > 0) {
           const newPatientIdRows = randomIdGenerator(maxPseudoId, newPatientIds);
-          fs.writeFileSync(PSEUDO_ID_FILE, newPatientIdRows.join('\n'), { flag: 'a' });
+          fs.writeFileSync(PSEUDO_ID_FILE, '\n' + newPatientIdRows.join('\n'), { flag: 'a' });
           log(`New patient ids added to the pseudo id lookup file.`);
         }
       } else {
