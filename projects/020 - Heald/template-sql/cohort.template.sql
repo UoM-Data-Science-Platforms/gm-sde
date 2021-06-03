@@ -18,6 +18,8 @@
 -- BIOMARKERS
 -- LatestBMIValue, LatestHBA1CValue, LatestCHOLESTEROLValue, LatestLDLValue, LatestHDLValue,
 -- LatestVITAMINDValue, LatestTESTOSTERONEValue, LatestSHBGValue
+-- PATIENT STATUS
+-- IsPassiveSmoker, WorstSmokingStatus, CurrentSmokingStatus
 -- DIAGNOSES
 -- PatientHasCOPD, PatientHasASTHMA, PatientHasSMI
 -- MEDICATIONS
@@ -466,6 +468,9 @@ SELECT
   LatestVITAMINDValue,
   LatestTESTOSTERONEValue,
   LatestSHBGValue,
+  smok.PassiveSmoker AS IsPassiveSmoker,
+  smok.WorstSmokingStatus,
+  smok.CurrentSmokingStatus,
   CASE WHEN copd.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasCOPD,
   CASE WHEN asthma.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasASTHMA,
   CASE WHEN smi.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasSMI,
@@ -488,4 +493,5 @@ LEFT OUTER JOIN #PatientDiagnosesCOPD copd ON copd.FK_Patient_Link_ID = m.FK_Pat
 LEFT OUTER JOIN #PatientDiagnosesASTHMA asthma ON asthma.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesSEVEREMENTALILLNESS smi ON smi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientMedications pm ON pm.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientsFirstAdmissionPostTest fa ON fa.FK_Patient_Link_ID = m.FK_Patient_Link_ID;
