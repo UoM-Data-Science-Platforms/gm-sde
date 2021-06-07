@@ -25,10 +25,11 @@ SELECT
 	distinct gp.FK_Patient_Link_ID
 INTO #SMI_patients
 FROM [RLS].[vw_GP_Events] gp
-WHERE SuppliedCode IN (
-	SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('severe-mental-illness') AND [Version] = 1
-)
+WHERE SuppliedCode IN 
+	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('severe-mental-illness') AND [Version] = 1)
+	AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND (gp.EventDate) <= '2020-01-31'
+
 
 -- SMI PATIENTS WITH PX OF PSYCHOTROPIC MEDS SINCE 31.07.19
 

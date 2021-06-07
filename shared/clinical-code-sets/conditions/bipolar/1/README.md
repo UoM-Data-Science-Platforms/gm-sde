@@ -4,6 +4,6 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
-2021-05-25   |	EMIS		2608685		10681 (0.41%)  | 10675 (0.41%)	   |
-2021-05-25   |	TPP		210985	          467 (0.22%)  |   467 (0.22%)	   |
-2021-05-25   |	Vision		335010	         1201 (0.36%)  |  1165 (0.35%)	   |
+2021-06-01   |	EMIS		2608685		11258 (0.43%)  | 11252 (0.43%)	   |
+2021-06-01   |	TPP		210985	          504 (0.24%)  |   504 (0.24%)	   |
+2021-06-01   |	Vision		335010	         1201 (0.39%)  |  1165 (0.39%)	   |

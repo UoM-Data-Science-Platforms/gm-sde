@@ -40,20 +40,20 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
 
 -- COHORT: PATIENTS THAT HAVE AN SMI DIAGNOSIS AS OF 31.01.20
-
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
+IF OBJECT_ID('tempdb..#SMI_Episodes') IS NOT NULL DROP TABLE #SMI_Episodes;
 SELECT gp.FK_Patient_Link_ID,
 	YearOfBirth,
 	Sex
 INTO #SMI_Episodes
 FROM [RLS].[vw_GP_Events] gp
-LEFT OUTER JOIN #Patients p ON p.PK_Patient_ID = gp.FK_Patient_ID
+LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID  = gp.FK_Patient_Link_ID 
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-WHERE SuppliedCode IN (
-	SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('severe-mental-illness') AND [Version] = 1
-)
+WHERE SuppliedCode IN 
+	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('severe-mental-illness') AND [Version] = 1)
+	AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND (gp.EventDate) <= '2020-01-31'
+
 
 -- Define the main cohort to be matched
 
@@ -124,7 +124,6 @@ SELECT
 	l.AdmissionDate,
 	l.DischargeDate,
 	rh.HospitalID
-INTO #HospitalAdmissions
 FROM #MainCohort m 
 LEFT JOIN #LengthOfStay l ON m.FK_Patient_Link_ID = l.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND c.AdmissionDate = l.AdmissionDate AND c.AcuteProvider = l.AcuteProvider
@@ -143,3 +142,4 @@ LEFT JOIN #LengthOfStay l ON m.FK_Patient_Link_ID = l.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND c.AdmissionDate = l.AdmissionDate AND c.AcuteProvider = l.AcuteProvider
 LEFT OUTER JOIN #RandomiseHospital rh ON rh.AcuteProvider = l.AcuteProvider
 WHERE c.CovidHealthcareUtilisation = 'TRUE'
+--2,007

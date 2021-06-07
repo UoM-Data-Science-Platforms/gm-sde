@@ -45,12 +45,12 @@ SELECT gp.FK_Patient_Link_ID,
 		Sex
 INTO #SMI_Episodes
 FROM [RLS].[vw_GP_Events] gp
-LEFT OUTER JOIN #Patients p ON p.PK_Patient_ID = gp.FK_Patient_ID
+LEFT OUTER JOIN #Patients p ON p.FK_Patient_link_ID = gp.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-WHERE SuppliedCode IN (
-	SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('severe-mental-illness') AND [Version] = 1
-)
+WHERE SuppliedCode IN 
+	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('severe-mental-illness') AND [Version] = 1)
+	AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND (gp.EventDate) <= '2020-01-31'
 
 -- Define the main cohort to be matched
@@ -61,7 +61,7 @@ SELECT DISTINCT FK_Patient_Link_ID,
 		Sex
 INTO #MainCohort
 FROM #SMI_Episodes
---57,622
+--51,082
 
 -- Define the population of potential matches for the cohort
 IF OBJECT_ID('tempdb..#PotentialMatches') IS NOT NULL DROP TABLE #PotentialMatches;
@@ -141,3 +141,4 @@ SELECT m.FK_Patient_Link_ID
 FROM #covidtests cv
 LEFT JOIN #MatchedCohort m ON cv.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 where m.FK_Patient_Link_ID is not null
+--146,101
