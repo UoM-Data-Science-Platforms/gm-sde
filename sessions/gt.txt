@@ -167,3 +167,18 @@ Attempted to find the location of information related to project no.1 (Grant), i
 
 20/05/21
 - cohort matching for covid-tests file RQ-028
+
+25/05/21
+- running code for output data files and validating results/fixing errors
+
+27/05/21 
+- checking that cohort matching in each data file is the same - it isn't so need to look into this
+
+28/05/21
+
+01/06/21
+- refreshed the data extract for RQ029
+- added more codes from SMI code set into bipolar and schizophrenia code sets for RQ-028
+
+02/06/21
+- look into why the cohort matching isn't consistent across data files
