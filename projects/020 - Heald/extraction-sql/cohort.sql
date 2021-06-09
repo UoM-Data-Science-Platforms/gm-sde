@@ -1,6 +1,6 @@
---┌──────────────────────┐
---│ Diabetes cohort file │
---└──────────────────────┘
+--┌────────────────────────────────┐
+--│ Diabetes and COVID cohort file │
+--└────────────────────────────────┘
 
 ------------------------ RDE CHECK -------------------------
 -- RDE NAME: GEORGE TILSTON, DATE OF CHECK: 11/05/21 -------
@@ -11,13 +11,15 @@
 -- For each we provide the following:
 
 -- DEMOGRAPHIC
--- PatientId, MainCohortMatchedPatientId (NULL if patient in main cohort), YearOfBirth, DeathDate,
+-- PatientId, MainCohortMatchedPatientId (NULL if patient in main cohort), YearOfBirth, DeathDate, DeathWithin28Days,
 -- Sex, LSOA, EthnicCategoryDescription, TownsendScoreHigherIsMoreDeprived, TownsendQuintileHigherIsMoreDeprived,
 -- COHORT SPECIFIC
 -- FirstDiagnosisDate, FirstT1DiagnosisDate, FirstT2DiagnosisDate, COVIDPositiveTestDate, FirstAdmissionPostCOVIDTest, LengthOfStay,
 -- BIOMARKERS
 -- LatestBMIValue, LatestHBA1CValue, LatestCHOLESTEROLValue, LatestLDLValue, LatestHDLValue,
--- LatestVITAMINDValue, LatestTESTOSTERONEValue, LatestSHBGValue
+-- LatestVITAMINDValue, LatestTESTOSTERONEValue, LatestEGFRValue, LatestSHBGValue
+-- PATIENT STATUS
+-- IsPassiveSmoker, WorstSmokingStatus, CurrentSmokingStatus
 -- DIAGNOSES
 -- PatientHasCOPD, PatientHasASTHMA, PatientHasSMI
 -- MEDICATIONS
@@ -135,6 +137,8 @@ VALUES ('smoking-status-trivial',1,'1372.00','Trivial smoker - < 1 cig/day'),('s
 INSERT INTO #codesreadv2
 VALUES ('cholesterol',1,'44P..00','Serum cholesterol'),('cholesterol',1,'44P..','Serum cholesterol'),('cholesterol',1,'44PZ.00','Serum cholesterol NOS'),('cholesterol',1,'44PZ.','Serum cholesterol NOS'),('cholesterol',1,'44PL.00','Non HDL cholesterol level'),('cholesterol',1,'44PL.','Non HDL cholesterol level'),('cholesterol',1,'44PL100','Estimated serum non-high density lipoprotein cholesterol level'),('cholesterol',1,'44PL1','Estimated serum non-high density lipoprotein cholesterol level'),('cholesterol',1,'44PL000','Serum non high density lipoprotein cholesterol level'),('cholesterol',1,'44PL0','Serum non high density lipoprotein cholesterol level'),('cholesterol',1,'44PK.00','Serum fasting total cholesterol'),('cholesterol',1,'44PK.','Serum fasting total cholesterol'),('cholesterol',1,'44PJ.00','Serum total cholesterol level'),('cholesterol',1,'44PJ.','Serum total cholesterol level'),('cholesterol',1,'44PI.00','Calculated LDL cholesterol level'),('cholesterol',1,'44PI.','Calculated LDL cholesterol level'),('cholesterol',1,'44PH.00','Total cholesterol measurement'),('cholesterol',1,'44PH.','Total cholesterol measurement'),('cholesterol',1,'44PG.00','HDL : total cholesterol ratio'),('cholesterol',1,'44PG.','HDL : total cholesterol ratio'),('cholesterol',1,'44PF.00','Total cholesterol:HDL ratio'),('cholesterol',1,'44PF.','Total cholesterol:HDL ratio'),('cholesterol',1,'44PE.00','Serum random LDL cholesterol level'),('cholesterol',1,'44PE.','Serum random LDL cholesterol level'),('cholesterol',1,'44PD.00','Serum fasting LDL cholesterol level'),('cholesterol',1,'44PD.','Serum fasting LDL cholesterol level'),('cholesterol',1,'44PC.00','Serum random HDL cholesterol level'),('cholesterol',1,'44PC.','Serum random HDL cholesterol level'),('cholesterol',1,'44PB.00','Serum fasting HDL cholesterol level'),('cholesterol',1,'44PB.','Serum fasting HDL cholesterol level'),('cholesterol',1,'44P9.00','Serum cholesterol studies'),('cholesterol',1,'44P9.','Serum cholesterol studies'),('cholesterol',1,'44P8.00','Serum HDL:non-HDL cholesterol ratio'),('cholesterol',1,'44P8.','Serum HDL:non-HDL cholesterol ratio'),('cholesterol',1,'44P7.00','Serum VLDL cholesterol level'),('cholesterol',1,'44P7.','Serum VLDL cholesterol level'),('cholesterol',1,'44P6.00','Serum LDL cholesterol level'),('cholesterol',1,'44P6.','Serum LDL cholesterol level'),('cholesterol',1,'44P5.00','Serum HDL cholesterol level'),('cholesterol',1,'44P5.','Serum HDL cholesterol level'),('cholesterol',1,'44P4.00','Serum cholesterol very high'),('cholesterol',1,'44P4.','Serum cholesterol very high'),('cholesterol',1,'44P3.00','Serum cholesterol raised'),('cholesterol',1,'44P3.','Serum cholesterol raised'),('cholesterol',1,'44P2.00','Serum cholesterol borderline'),('cholesterol',1,'44P2.','Serum cholesterol borderline'),('cholesterol',1,'44P1.00','Serum cholesterol normal'),('cholesterol',1,'44P1.','Serum cholesterol normal'),('cholesterol',1,'44PA.00','HDL : LDL ratio'),('cholesterol',1,'44PA.','HDL : LDL ratio'),('cholesterol',1,'44lM.00','Plasma LDL/HDL ratio'),('cholesterol',1,'44lM.','Plasma LDL/HDL ratio'),('cholesterol',1,'44lL.00','Serum LDL/HDL ratio'),('cholesterol',1,'44lL.','Serum LDL/HDL ratio'),('cholesterol',1,'44lK.00','Plasma cholesterol/VLDL ratio'),('cholesterol',1,'44lK.','Plasma cholesterol/VLDL ratio'),('cholesterol',1,'44lJ.00','Serum cholesterol/VLDL ratio'),('cholesterol',1,'44lJ.','Serum cholesterol/VLDL ratio'),('cholesterol',1,'44lI.00','Plasma cholesterol/LDL ratio'),('cholesterol',1,'44lI.','Plasma cholesterol/LDL ratio'),('cholesterol',1,'44lH.00','Serum cholesterol/LDL ratio'),('cholesterol',1,'44lH.','Serum cholesterol/LDL ratio'),('cholesterol',1,'44lG.00','Plasma cholesterol/HDL ratio'),('cholesterol',1,'44lG.','Plasma cholesterol/HDL ratio'),('cholesterol',1,'44lF.00','Serum cholesterol/HDL ratio'),('cholesterol',1,'44lF.','Serum cholesterol/HDL ratio'),('cholesterol',1,'44l2.00','Cholesterol/HDL ratio'),('cholesterol',1,'44l2.','Cholesterol/HDL ratio'),('cholesterol',1,'44dB.00','Plasma LDL cholesterol level'),('cholesterol',1,'44dB.','Plasma LDL cholesterol level'),('cholesterol',1,'44dA.00','Plasma HDL cholesterol level'),('cholesterol',1,'44dA.','Plasma HDL cholesterol level'),('cholesterol',1,'44d5.00','Plasma fasting LDL cholesterol level'),('cholesterol',1,'44d5.','Plasma fasting LDL cholesterol level'),('cholesterol',1,'44d4.00','Plasma random LDL cholesterol level'),('cholesterol',1,'44d4.','Plasma random LDL cholesterol level'),('cholesterol',1,'44d3.00','Plasma fasting HDL cholesterol level'),('cholesterol',1,'44d3.','Plasma fasting HDL cholesterol level'),('cholesterol',1,'44d2.00','Plasma random HDL cholesterol level'),('cholesterol',1,'44d2.','Plasma random HDL cholesterol level'),('cholesterol',1,'44R4.11','LDL - electrophoresis'),('cholesterol',1,'44R4.','LDL - electrophoresis'),('cholesterol',1,'44R4.00','Lipoprotein electroph. - LDL'),('cholesterol',1,'44R4.','Lipoprotein electroph. - LDL'),('cholesterol',1,'44R3.11','HDL - electrophoresis'),('cholesterol',1,'44R3.','HDL - electrophoresis'),('cholesterol',1,'44R3.00','Lipoprotein electroph. - HDL'),('cholesterol',1,'44R3.','Lipoprotein electroph. - HDL'),('cholesterol',1,'662a.00','Pre-treatment serum cholesterol level'),('cholesterol',1,'662a.','Pre-treatment serum cholesterol level'),('cholesterol',1,'44OE.00','Plasma total cholesterol level'),('cholesterol',1,'44OE.','Plasma total cholesterol level'),('cholesterol',1,'44lzY00','Serum high density lipoprotein cholesterol:triglyceride ratio'),('cholesterol',1,'44lzY','Serum high density lipoprotein cholesterol:triglyceride ratio'),('cholesterol',1,'4I3O.00','Fluid sample cholesterol level'),('cholesterol',1,'4I3O.','Fluid sample cholesterol level'),('cholesterol',2,'44P..00','Serum cholesterol'),('cholesterol',2,'44P..','Serum cholesterol'),('cholesterol',2,'44PZ.00','Serum cholesterol NOS'),('cholesterol',2,'44PZ.','Serum cholesterol NOS'),('cholesterol',2,'44PJ.00','Serum total cholesterol level'),('cholesterol',2,'44PJ.','Serum total cholesterol level'),('cholesterol',2,'44PH.00','Total cholesterol measurement'),('cholesterol',2,'44PH.','Total cholesterol measurement');
 INSERT INTO #codesreadv2
+VALUES ('egfr',1,'451K.00','Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres'),('egfr',1,'451K.','Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres'),('egfr',1,'451M.00','Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'451M.','Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'451N.00','Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'451N.','Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres');
+INSERT INTO #codesreadv2
 VALUES ('hba1c',1,'42c..00','HbA1 - diabetic control'),('hba1c',1,'42c..','HbA1 - diabetic control'),('hba1c',1,'42c3.00','HbA1 level (DCCT aligned)'),('hba1c',1,'42c3.','HbA1 level (DCCT aligned)'),('hba1c',1,'42c2.00','HbA1 > 10% - bad control'),('hba1c',1,'42c2.','HbA1 > 10% - bad control'),('hba1c',1,'42c1.00','HbA1 7 - 10% - borderline control'),('hba1c',1,'42c1.','HbA1 7 - 10% - borderline control'),('hba1c',1,'42c0.00','HbA1 < 7% - good control'),('hba1c',1,'42c0.','HbA1 < 7% - good control'),('hba1c',1,'42W..11','Glycosylated Hb'),('hba1c',1,'42W..','Glycosylated Hb'),('hba1c',1,'42W..12','Glycated haemoglobin'),('hba1c',1,'42W..','Glycated haemoglobin'),('hba1c',1,'42W..00','Hb. A1C - diabetic control'),('hba1c',1,'42W..','Hb. A1C - diabetic control'),('hba1c',1,'42WZ.00','Hb. A1C - diabetic control NOS'),('hba1c',1,'42WZ.','Hb. A1C - diabetic control NOS'),('hba1c',1,'42W3.00','Hb. A1C > 10% - bad control'),('hba1c',1,'42W3.','Hb. A1C > 10% - bad control'),('hba1c',1,'42W2.00','Hb. A1C 7-10% - borderline'),('hba1c',1,'42W2.','Hb. A1C 7-10% - borderline'),('hba1c',1,'42W1.00','Hb. A1C < 7% - good control'),('hba1c',1,'42W1.','Hb. A1C < 7% - good control'),('hba1c',1,'42W5.00','Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',1,'42W5.','Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',1,'42W5100','HbA1c (haemoglobin A1c) level (monitoring ranges) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised'),('hba1c',1,'42W51','HbA1c (haemoglobin A1c) level (monitoring ranges) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised'),('hba1c',1,'42W5000','HbA1c (haemoglobin A1c) level (diagnostic reference range) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised'),('hba1c',1,'42W50','HbA1c (haemoglobin A1c) level (diagnostic reference range) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised'),('hba1c',1,'42W4.00','HbA1c level (DCCT aligned)'),('hba1c',1,'42W4.','HbA1c level (DCCT aligned)'),('hba1c',1,'44TL.00','Total glycosylated haemoglobin level'),('hba1c',1,'44TL.','Total glycosylated haemoglobin level'),('hba1c',1,'44TB.00','Haemoglobin A1c level'),('hba1c',1,'44TB.','Haemoglobin A1c level'),('hba1c',1,'44TB100','Haemoglobin A1c (monitoring ranges)'),('hba1c',1,'44TB1','Haemoglobin A1c (monitoring ranges)'),('hba1c',1,'44TB000','Haemoglobin A1c (diagnostic reference range)'),('hba1c',1,'44TB0','Haemoglobin A1c (diagnostic reference range)'),('hba1c',2,'42W5.00','Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',2,'42W5.','Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',2,'42W4.00','HbA1c level (DCCT aligned)'),('hba1c',2,'42W4.','HbA1c level (DCCT aligned)');
 INSERT INTO #codesreadv2
 VALUES ('hdl-cholesterol',1,'44PC.00','Serum random HDL cholesterol level'),('hdl-cholesterol',1,'44PC.','Serum random HDL cholesterol level'),('hdl-cholesterol',1,'44P5.00','Serum HDL cholesterol level'),('hdl-cholesterol',1,'44P5.','Serum HDL cholesterol level'),('hdl-cholesterol',1,'44dA.00','Plasma HDL cholesterol level'),('hdl-cholesterol',1,'44dA.','Plasma HDL cholesterol level');
@@ -201,6 +205,8 @@ INSERT INTO #codesctv3
 VALUES ('smoking-status-trivial',1,'XagO3','Occasional tobacco smoker'),('smoking-status-trivial',1,'XE0oi','Triv cigaret smok, < 1 cig/day'),('smoking-status-trivial',1,'1372.','Trivial smoker - < 1 cig/day');
 INSERT INTO #codesctv3
 VALUES ('cholesterol',1,'X772L','Cholesterol level'),('cholesterol',1,'X772M','High density lipoprot chol lev'),('cholesterol',1,'X772N','LDL-Low dens lipoprot chol lev'),('cholesterol',1,'X773m','Percentage chol as ester'),('cholesterol',1,'X773W','HDL/LDL ratio'),('cholesterol',1,'X80J1','HDL - High density lipoprotein'),('cholesterol',1,'X80Nb','Hi density lipoprot subfrac 2'),('cholesterol',1,'X80Nc','Hi density lipoprot subfrac 3'),('cholesterol',1,'X80Ne','LDL - Low density lipoprotein'),('cholesterol',1,'X80NT','Free cholesterol'),('cholesterol',1,'X80NU','Cholesterol ester'),('cholesterol',1,'XabE1','Se non HDL cholesterol level'),('cholesterol',1,'XabT0','Estim serum non-HDL cholest lv'),('cholesterol',1,'Xabub','Se HDL chol:triglyceride ratio'),('cholesterol',1,'XaEil','Hi dens lipoprt/tot chol ratio'),('cholesterol',1,'XaERR','Cholesterol/HDL ratio'),('cholesterol',1,'XaEUp','Lipoprotein cholesterol ratio'),('cholesterol',1,'XaEUq','Serum cholesterol/HDL ratio'),('cholesterol',1,'XaEUr','Plasma cholesterol/HDL ratio'),('cholesterol',1,'XaEUs','Serum cholesterol/LDL ratio'),('cholesterol',1,'XaEUt','Plasma cholesterol/LDL ratio'),('cholesterol',1,'XaEUu','Serum cholesterol/VLDL ratio'),('cholesterol',1,'XaEUv','Plasma cholesterol/VLDL ratio'),('cholesterol',1,'XaEVQ','Serum LDL/HDL ratio'),('cholesterol',1,'XaEVr','Plasma HDL cholesterol level'),('cholesterol',1,'XaEVR','Plasma LDL/HDL ratio'),('cholesterol',1,'XaEVs','Plasma LDL cholesterol level'),('cholesterol',1,'XaFs9','Fasting cholesterol level'),('cholesterol',1,'XaIp4','Calculated LDL cholesterol lev'),('cholesterol',1,'XaIqd','Pre-treatmnt serum cholest lev'),('cholesterol',1,'XaIRd','Plasma total cholesterol level'),('cholesterol',1,'XaIYp','Fluid sample cholesterol level'),('cholesterol',1,'XaJe9','Serum total cholesterol level'),('cholesterol',1,'XaLux','Serum fastng total cholesterol'),('cholesterol',1,'XaN3z','Non HDL cholesterol level'),('cholesterol',1,'XE28o','HDL : LDL ratio'),('cholesterol',1,'XE2eD','Serum cholesterol'),('cholesterol',1,'XE2mn','Ser HDL/non-HDL cholest ratio'),('cholesterol',1,'XSK14','Total cholesterol measurement'),('cholesterol',1,'44P..','Serum cholesterol'),('cholesterol',1,'44PZ.','Serum cholesterol NOS'),('cholesterol',1,'44PL.','Non HDL cholesterol level'),('cholesterol',1,'44PL1','Estimated serum non-high density lipoprotein cholesterol level'),('cholesterol',1,'44PL0','Serum non high density lipoprotein cholesterol level'),('cholesterol',1,'44PK.','Serum fasting total cholesterol'),('cholesterol',1,'44PJ.','Serum total cholesterol level'),('cholesterol',1,'44PI.','Calculated LDL cholesterol level'),('cholesterol',1,'44PH.','Total cholesterol measurement'),('cholesterol',1,'44PG.','HDL : total cholesterol ratio'),('cholesterol',1,'44PF.','Total cholesterol:HDL ratio'),('cholesterol',1,'44PE.','Serum random LDL cholesterol level'),('cholesterol',1,'44PD.','Serum fasting LDL cholesterol level'),('cholesterol',1,'44PC.','Serum random HDL cholesterol level'),('cholesterol',1,'44PB.','Serum fasting HDL cholesterol level'),('cholesterol',1,'44P9.','Serum cholesterol studies'),('cholesterol',1,'44P8.','Serum HDL:non-HDL cholesterol ratio'),('cholesterol',1,'44P7.','Serum VLDL cholesterol level'),('cholesterol',1,'44P6.','Serum LDL cholesterol level'),('cholesterol',1,'44P5.','Serum HDL cholesterol level'),('cholesterol',1,'44P4.','Serum cholesterol very high'),('cholesterol',1,'44P3.','Serum cholesterol raised'),('cholesterol',1,'44P2.','Serum cholesterol borderline'),('cholesterol',1,'44P1.','Serum cholesterol normal'),('cholesterol',1,'44PA.','HDL : LDL ratio'),('cholesterol',1,'44lM.','Plasma LDL/HDL ratio'),('cholesterol',1,'44lL.','Serum LDL/HDL ratio'),('cholesterol',1,'44lK.','Plasma cholesterol/VLDL ratio'),('cholesterol',1,'44lJ.','Serum cholesterol/VLDL ratio'),('cholesterol',1,'44lI.','Plasma cholesterol/LDL ratio'),('cholesterol',1,'44lH.','Serum cholesterol/LDL ratio'),('cholesterol',1,'44lG.','Plasma cholesterol/HDL ratio'),('cholesterol',1,'44lF.','Serum cholesterol/HDL ratio'),('cholesterol',1,'44l2.','Cholesterol/HDL ratio'),('cholesterol',1,'44dB.','Plasma LDL cholesterol level'),('cholesterol',1,'44dA.','Plasma HDL cholesterol level'),('cholesterol',1,'44d5.','Plasma fasting LDL cholesterol level'),('cholesterol',1,'44d4.','Plasma random LDL cholesterol level'),('cholesterol',1,'44d3.','Plasma fasting HDL cholesterol level'),('cholesterol',1,'44d2.','Plasma random HDL cholesterol level'),('cholesterol',1,'44R4.','LDL - electrophoresis'),('cholesterol',1,'44R4.','Lipoprotein electroph. - LDL'),('cholesterol',1,'44R3.','HDL - electrophoresis'),('cholesterol',1,'44R3.','Lipoprotein electroph. - HDL'),('cholesterol',1,'662a.','Pre-treatment serum cholesterol level'),('cholesterol',1,'44OE.','Plasma total cholesterol level'),('cholesterol',1,'44lzY','Serum high density lipoprotein cholesterol:triglyceride ratio'),('cholesterol',1,'4I3O.','Fluid sample cholesterol level'),('cholesterol',2,'XSK14','Total cholesterol measurement'),('cholesterol',2,'44PH.','Total cholesterol measurement'),('cholesterol',2,'44PJ.','Serum total cholesterol level'),('cholesterol',2,'44P..','Serum cholesterol'),('cholesterol',2,'44PZ.','Serum cholesterol NOS'),('cholesterol',2,'XE2eD','Serum cholesterol'),('cholesterol',2,'XaJe9','Serum total cholesterol level');
+INSERT INTO #codesctv3
+VALUES ('egfr',1,'XaZpN','Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres'),('egfr',1,'XacUJ','Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'XacUK','Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres');
 INSERT INTO #codesctv3
 VALUES ('hba1c',1,'X772q','Haemoglobin A1c level'),('hba1c',1,'XE24t','Hb. A1C - diabetic control'),('hba1c',1,'42W1.','Hb. A1C < 7% - good control'),('hba1c',1,'42W2.','Hb. A1C 7-10% - borderline'),('hba1c',1,'42W3.','Hb. A1C > 10% - bad control'),('hba1c',1,'42WZ.','Hb. A1C - diabetic control NOS'),('hba1c',1,'X80U4','Glycosylat haemoglobin-c frac'),('hba1c',1,'XaCES','HbA1 - diabetic control'),('hba1c',1,'XaCET','HbA1 <7% - good control'),('hba1c',1,'XaCEV','HbA1 >10% - bad control'),('hba1c',1,'XaCEU','HbA1 7-10% - borderline contrl'),('hba1c',1,'XaERp','HbA1c level (DCCT aligned)'),('hba1c',1,'XaPbt','HbA1c levl - IFCC standardised'),('hba1c',1,'XabrE','HbA1c (diagnostic refrn range)'),('hba1c',1,'XabrF','HbA1c (monitoring ranges)'),('hba1c',1,'Xaezd','HbA1c(diagnos ref rnge)IFCC st'),('hba1c',1,'Xaeze','HbA1c(monitoring rnges)IFCC st'),('hba1c',1,'42W..','Hb. A1C - diabetic control'),('hba1c',1,'42W5.','Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',1,'42W51','HbA1c (haemoglobin A1c) level (monitoring ranges) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised'),('hba1c',1,'42W50','HbA1c (haemoglobin A1c) level (diagnostic reference range) - IFCC (International Federation of Clinical Chemistry and Laboratory Medicine) standardised'),('hba1c',1,'42W4.','HbA1c level (DCCT aligned)'),('hba1c',1,'44TB.','Haemoglobin A1c level'),('hba1c',1,'44TB1','Haemoglobin A1c (monitoring ranges)'),('hba1c',1,'44TB0','Haemoglobin A1c (diagnostic reference range)'),('hba1c',2,'XaERp','HbA1c level (DCCT aligned)'),('hba1c',2,'XaPbt','HbA1c levl - IFCC standardised'),('hba1c',2,'42W5.','Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised'),('hba1c',2,'42W4.','HbA1c level (DCCT aligned)');
 INSERT INTO #codesctv3
@@ -1988,7 +1994,7 @@ INNER JOIN (
 ) sub ON sub.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND sub.FirstAdmission = l.AdmissionDate
 GROUP BY l.FK_Patient_Link_ID;
 
--- >>> Following codesets injected: bmi/hba1c/cholesterol/ldl-cholesterol/hdl-cholesterol/vitamin-d/testosterone/sex-hormone-binding-globulin
+-- >>> Following codesets injected: bmi/hba1c/cholesterol/ldl-cholesterol/hdl-cholesterol/vitamin-d/testosterone/sex-hormone-binding-globulin/egfr
 IF OBJECT_ID('tempdb..#PatientValuesWithIds') IS NOT NULL DROP TABLE #PatientValuesWithIds;
 SELECT 
 	FK_Patient_Link_ID,
@@ -2008,6 +2014,7 @@ WHERE (
       Concept IN ('hdl-cholesterol') AND [Version]=1 OR
       Concept IN ('vitamin-d') AND [Version]=1 OR
       Concept IN ('testosterone') AND [Version]=1 OR
+      Concept IN ('egfr') AND [Version]=1 OR
       Concept IN ('sex-hormone-binding-globulin') AND [Version]=1
     )
   ) OR
@@ -2020,6 +2027,7 @@ WHERE (
       Concept IN ('hdl-cholesterol') AND [Version]=1 OR
       Concept IN ('vitamin-d') AND [Version]=1 OR
       Concept IN ('testosterone') AND [Version]=1 OR
+      Concept IN ('egfr') AND [Version]=1 OR
       Concept IN ('sex-hormone-binding-globulin') AND [Version]=1
     )
   )
@@ -2089,6 +2097,11 @@ IF OBJECT_ID('tempdb..#PatientValuesTESTOSTERONE') IS NOT NULL DROP TABLE #Patie
 SELECT FK_Patient_Link_ID, LatestValue AS LatestTESTOSTERONEValue INTO #PatientValuesTESTOSTERONE
 FROM #PatientValues
 WHERE Concept = 'testosterone';
+
+IF OBJECT_ID('tempdb..#PatientValuesEGFR') IS NOT NULL DROP TABLE #PatientValuesEGFR;
+SELECT FK_Patient_Link_ID, LatestValue AS LatestEGFRValue INTO #PatientValuesEGFR
+FROM #PatientValues
+WHERE Concept = 'egfr';
 
 IF OBJECT_ID('tempdb..#PatientValuesSHBG') IS NOT NULL DROP TABLE #PatientValuesSHBG;
 SELECT FK_Patient_Link_ID, LatestValue AS LatestSHBGValue INTO #PatientValuesSHBG
@@ -2216,6 +2229,12 @@ LEFT OUTER JOIN #PatientMedicationsMETFORMIN met
   AND met.MedicationDate >= DATEADD(day, -183, p.IndexDate)
 GROUP BY p.FK_Patient_Link_ID;
 
+-- Get patient list of those with COVID death within 28 days of positive test
+IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
+SELECT DISTINCT FK_Patient_Link_ID 
+INTO #COVIDDeath FROM RLS.vw_COVID19
+WHERE DeathWithin28Days = 'Y';
+
 -- Bring together for final output
 -- Patients in main cohort
 SELECT 
@@ -2223,6 +2242,7 @@ SELECT
   NULL AS MainCohortMatchedPatientId,
   YearOfBirth,
   DeathDate,
+  DeathWithin28Days,
   Sex,
   LSOA_Code AS LSOA,
   TownsendScoreHigherIsMoreDeprived,
@@ -2241,7 +2261,11 @@ SELECT
   LatestHDLValue,
   LatestVITAMINDValue,
   LatestTESTOSTERONEValue,
+  LatestEGFRValue,
   LatestSHBGValue,
+  smok.PassiveSmoker AS IsPassiveSmoker,
+  smok.WorstSmokingStatus,
+  smok.CurrentSmokingStatus,
   CASE WHEN copd.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasCOPD,
   CASE WHEN asthma.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasASTHMA,
   CASE WHEN smi.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasSMI,
@@ -2259,11 +2283,14 @@ LEFT OUTER JOIN #PatientValuesLDL ldl ON ldl.FK_Patient_Link_ID = m.FK_Patient_L
 LEFT OUTER JOIN #PatientValuesHDL hdl ON hdl.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesVITAMIND vitamind ON vitamind.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesTESTOSTERONE testosterone ON testosterone.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientValuesEGFR egfr ON egfr.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesSHBG shbg ON shbg.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesCOPD copd ON copd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesASTHMA asthma ON asthma.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesSEVEREMENTALILLNESS smi ON smi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientMedications pm ON pm.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientsFirstAdmissionPostTest fa ON fa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 UNION
 --Patients in matched cohort
@@ -2272,6 +2299,7 @@ SELECT
   m.PatientWhoIsMatched AS MainCohortMatchedPatientId,
   MatchingYearOfBirth,
   DeathDate,
+  DeathWithin28Days,
   Sex,
   LSOA_Code AS LSOA,
   TownsendScoreHigherIsMoreDeprived,
@@ -2290,7 +2318,11 @@ SELECT
   LatestHDLValue,
   LatestVITAMINDValue,
   LatestTESTOSTERONEValue,
+  LatestEGFRValue,
   LatestSHBGValue,
+  smok.PassiveSmoker AS IsPassiveSmoker,
+  smok.WorstSmokingStatus,
+  smok.CurrentSmokingStatus,
   CASE WHEN copd.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasCOPD,
   CASE WHEN asthma.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasASTHMA,
   CASE WHEN smi.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasSMI,
@@ -2308,9 +2340,12 @@ LEFT OUTER JOIN #PatientValuesLDL ldl ON ldl.FK_Patient_Link_ID = m.FK_Patient_L
 LEFT OUTER JOIN #PatientValuesHDL hdl ON hdl.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesVITAMIND vitamind ON vitamind.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesTESTOSTERONE testosterone ON testosterone.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientValuesEGFR egfr ON egfr.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesSHBG shbg ON shbg.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesCOPD copd ON copd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesASTHMA asthma ON asthma.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesSEVEREMENTALILLNESS smi ON smi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientMedications pm ON pm.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientsFirstAdmissionPostTest fa ON fa.FK_Patient_Link_ID = m.FK_Patient_Link_ID;
