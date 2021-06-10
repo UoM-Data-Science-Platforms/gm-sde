@@ -1,0 +1,8 @@
+X70kK	Tc99m-DTPA clearance - GFR
+X70kL	Cr51- EDTA clearance - GFR
+X90kf	With GFR
+XaK8y	Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation
+XaMDA	Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin
+XaZpN	Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres
+XacUJ	Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres
+XacUK	Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres

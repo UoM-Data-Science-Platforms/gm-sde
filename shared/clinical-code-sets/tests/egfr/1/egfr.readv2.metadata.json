@@ -1,0 +1,14 @@
+{
+  "includeTerms": ["egfr", "estimated glomerular filtration rate", "gfr"],
+  "excludeTerms": [
+    "egfr antagonist",
+    "egfr inhibitor",
+    "epidermal growth factor receptor",
+    "ckd",
+    "tubular maximal reabsorption of phosphate"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdOn": "2021-06-10T08:06:28.622Z",
+  "lastUpdated": "2021-06-10T08:06:28.622Z"
+}
