@@ -525,7 +525,9 @@ Please close any files and try again.`)
 function writeReadme() {
   fs.writeFileSync(
     join(OUTPUT_DIR, '_README_FIRST.txt'),
-    `* Data from the RDEs will be in the data/raw folder. Do not edit the contents of this folder.
+    `* NB. All analysis files should be stored in this shared drive. Although it is possible to store files elsewhere on this machine e.g. the C:\\ and D:\\ drives, these locations are not guaranteed to persist, and you could lose your files.
+
+* Data from the RDEs will be in the data/raw folder. Do not edit the contents of this folder.
 
 * Data that you have processed through your scripts goes in the data/processed folder.
 
