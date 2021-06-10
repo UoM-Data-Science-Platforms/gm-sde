@@ -117,7 +117,7 @@ END
 --3. Now relax the yob restriction to get extra matches for people with only 1, 2, 3, ... n-1 matches
 DECLARE @Counter2 INT; 
 SET @Counter2=1;
-WHILE (@Counter2 < 5)
+WHILE (@Counter2 < {param:num-matches})
 BEGIN
   DECLARE @LastRowInsert INT;
   SET @LastRowInsert=1;
@@ -130,8 +130,8 @@ BEGIN
     FROM #Matches p
     INNER JOIN #Cases c
       ON p.Sex = c.Sex 
-      AND p.YearOfBirth >= c.YearOfBirth - 5
-      AND p.YearOfBirth <= c.YearOfBirth + 5
+      AND p.YearOfBirth >= c.YearOfBirth - {param:yob-flex}
+      AND p.YearOfBirth <= c.YearOfBirth + {param:yob-flex}
     WHERE c.PatientId IN (
       -- find patients who only have @Counter2 matches
       SELECT PatientId FROM #CohortStore GROUP BY PatientId HAVING count(*) = @Counter2
