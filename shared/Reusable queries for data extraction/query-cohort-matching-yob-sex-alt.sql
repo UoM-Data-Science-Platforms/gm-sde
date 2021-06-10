@@ -33,7 +33,7 @@ INTO #Cases FROM #MainCohort;
 
 -- Then we do the same with the #PotentialMatches
 IF OBJECT_ID('tempdb..#Matches') IS NOT NULL DROP TABLE #Matches;
-SELECT FK_Patient_Link_ID AS PatientId, YearOfBirth, Sex, Row_Number() OVER(PARTITION BY YearOfBirth, Sex ORDER BY NewID()) AS AssignedPersonNumber
+SELECT FK_Patient_Link_ID AS PatientId, YearOfBirth, Sex, Row_Number() OVER(PARTITION BY YearOfBirth, Sex ORDER BY FK_Patient_Link_ID) AS AssignedPersonNumber
 INTO #Matches FROM #PotentialMatches;
 
 -- Find the number of people with each characteristic in the main cohort
@@ -91,7 +91,7 @@ WHILE ( @LastRowInsert1 > 0)
 BEGIN
   INSERT INTO #CohortStore
   SELECT sub.PatientId, sub.YearOfBirth, sub.Sex, MatchedPatientId, MAX(m.YearOfBirth) FROM (
-  SELECT c.PatientId, c.YearOfBirth, c.Sex, MAX(p.PatientId) AS MatchedPatientId, Row_Number() OVER(PARTITION BY MAX(p.PatientId) ORDER BY NewID()) AS AssignedPersonNumber
+  SELECT c.PatientId, c.YearOfBirth, c.Sex, MAX(p.PatientId) AS MatchedPatientId, Row_Number() OVER(PARTITION BY MAX(p.PatientId) ORDER BY p.PatientId) AS AssignedPersonNumber
   FROM #Cases c
   INNER JOIN #Matches p 
     ON p.Sex = c.Sex 
@@ -101,7 +101,7 @@ BEGIN
     -- find patients who aren't currently matched
     select PatientId from #Cases except select PatientId from #CohortStore
   )
-  GROUP BY c.PatientId, c.YearOfBirth, c.Sex) sub
+  GROUP BY c.PatientId, c.YearOfBirth, c.Sex, p.PatientId) sub
   INNER JOIN #Matches m 
     ON m.Sex = sub.Sex 
     AND m.PatientId = sub.MatchedPatientId
@@ -125,7 +125,7 @@ BEGIN
   BEGIN
 
     IF OBJECT_ID('tempdb..#CohortPatientForEachMatchingPatient') IS NOT NULL DROP TABLE #CohortPatientForEachMatchingPatient;
-    SELECT p.PatientId AS MatchedPatientId, c.PatientId, Row_Number() OVER(PARTITION BY p.PatientId ORDER BY NewID()) AS MatchedPatientNumber
+    SELECT p.PatientId AS MatchedPatientId, c.PatientId, Row_Number() OVER(PARTITION BY p.PatientId ORDER BY p.PatientId) AS MatchedPatientNumber
     INTO #CohortPatientForEachMatchingPatient
     FROM #Matches p
     INNER JOIN #Cases c
@@ -138,7 +138,7 @@ BEGIN
     );
 
     IF OBJECT_ID('tempdb..#CohortPatientForEachMatchingPatientWithCohortNumbered') IS NOT NULL DROP TABLE #CohortPatientForEachMatchingPatientWithCohortNumbered;
-    SELECT PatientId, MatchedPatientId, Row_Number() OVER(PARTITION BY PatientId ORDER BY NewID()) AS PatientNumber
+    SELECT PatientId, MatchedPatientId, Row_Number() OVER(PARTITION BY PatientId ORDER BY MatchedPatientId) AS PatientNumber
     INTO #CohortPatientForEachMatchingPatientWithCohortNumbered
     FROM #CohortPatientForEachMatchingPatient
     WHERE MatchedPatientNumber = 1;
