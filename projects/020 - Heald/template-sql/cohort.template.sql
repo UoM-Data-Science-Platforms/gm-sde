@@ -413,7 +413,7 @@ SELECT
   NULL AS MainCohortMatchedPatientId,
   YearOfBirth,
   DeathDate,
-  DeathWithin28Days,
+  CASE WHEN covidDeath.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS DeathWithin28DaysCovidPositiveTest,
   Sex,
   LSOA_Code AS LSOA,
   TownsendScoreHigherIsMoreDeprived,
@@ -461,7 +461,7 @@ LEFT OUTER JOIN #PatientDiagnosesASTHMA asthma ON asthma.FK_Patient_Link_ID = m.
 LEFT OUTER JOIN #PatientDiagnosesSEVEREMENTALILLNESS smi ON smi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientMedications pm ON pm.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #COVIDDeath covidDeath ON covidDeath.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientsFirstAdmissionPostTest fa ON fa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 UNION
 --Patients in matched cohort
@@ -470,7 +470,7 @@ SELECT
   m.PatientWhoIsMatched AS MainCohortMatchedPatientId,
   MatchingYearOfBirth,
   DeathDate,
-  DeathWithin28Days,
+  CASE WHEN covidDeath.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS DeathWithin28DaysCovidPositiveTest,
   Sex,
   LSOA_Code AS LSOA,
   TownsendScoreHigherIsMoreDeprived,
@@ -518,5 +518,5 @@ LEFT OUTER JOIN #PatientDiagnosesASTHMA asthma ON asthma.FK_Patient_Link_ID = m.
 LEFT OUTER JOIN #PatientDiagnosesSEVEREMENTALILLNESS smi ON smi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientMedications pm ON pm.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #COVIDDeath covidDeath ON covidDeath.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientsFirstAdmissionPostTest fa ON fa.FK_Patient_Link_ID = m.FK_Patient_Link_ID;
