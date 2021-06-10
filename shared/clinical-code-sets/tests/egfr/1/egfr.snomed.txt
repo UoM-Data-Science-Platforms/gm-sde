@@ -1,0 +1,9 @@
+1011481000000105	eGFR (estimated glomerular filtration rate) using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres
+1011491000000107	eGFR (estimated glomerular filtration rate) using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres
+1020291000000106	GFR (glomerular filtration rate) calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation
+1107411000000104	eGFR (estimated glomerular filtration rate) by laboratory calculation
+241373003	Technetium-99m-diethylenetriamine pentaacetic acid clearance - glomerular filtration rate (procedure)
+262300005	With glomerular filtration rate
+737105002	GFR (glomerular filtration rate) calculation technique
+80274001	Glomerular filtration rate (observable entity)
+996231000000108	GFR (glomerular filtration rate) calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin
