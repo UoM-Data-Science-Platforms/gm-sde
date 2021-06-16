@@ -76,7 +76,7 @@ EXCEPT
 SELECT FK_Patient_Link_ID, Sex, YearOfBirth FROM #MainCohort;
 -- 3,378,730
 
---> EXECUTE query-cohort-matching-yob-sex.sql yob-flex:1
+--> EXECUTE query-cohort-matching-yob-sex-alt.sql yob-flex:1 num-matches:5
 
 
 -- Get the matched cohort detail - same as main cohort
@@ -119,7 +119,7 @@ FROM #hospitals
 --bring together for final output
 --patients in main cohort
 SELECT 
-	m.FK_Patient_Link_ID,
+	PatientId = m.FK_Patient_Link_ID,
 	NULL AS MainCohortMatchedPatientId,
 	l.AdmissionDate,
 	l.DischargeDate,
@@ -132,7 +132,7 @@ WHERE c.CovidHealthcareUtilisation = 'TRUE'
 --patients in matched cohort
 UNION
 SELECT 
-	m.FK_Patient_Link_ID,
+	PatientId = m.FK_Patient_Link_ID,
 	PatientWhoIsMatched AS MainCohortMatchedPatientId,
 	l.AdmissionDate,
 	DischargeDate,

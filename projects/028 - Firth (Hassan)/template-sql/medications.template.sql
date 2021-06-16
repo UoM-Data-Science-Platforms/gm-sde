@@ -15,6 +15,23 @@ SET NOCOUNT ON;
 DECLARE @StartDate datetime;
 SET @StartDate = '2020-01-31';
 
+
+-- Find all patients alive at start date
+IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
+SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
+WHERE (DeathDate IS NULL OR DeathDate >= @StartDate);
+
+-- Find all patients registered with a GP
+IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
+SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [RLS].vw_Patient
+where FK_Reference_Tenancy_ID = 2;
+
+-- Make cohort from patients alive at start date and registered with a GP
+IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
+SELECT pp.* INTO #Patients FROM #PossiblePatients pp
+INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
+
+
 --> CODESET severe-mental-illness
 --> CODESET antipsychotics
 
@@ -50,8 +67,10 @@ AND (
 );
 
 
-SELECT FK_Patient_Link_ID, [description],
-	MainIngredient = CASE WHEN UPPER([description]) like '%ABILIFY%' THEN 'abilify'
+SELECT 
+	PatientId = FK_Patient_Link_ID, 
+	[description],
+	ActiveIngredient = CASE WHEN UPPER([description]) like '%ABILIFY%' THEN 'abilify'
 	WHEN UPPER([description]) like '%AMISULPRIDE%' THEN 'amisulpride'
 	WHEN UPPER([description]) like '%ANQUIL%' THEN 'anquil'
 	WHEN UPPER([description]) like '%ARIPIPRAZOLE%' THEN 'aripiprazole'
@@ -219,8 +238,8 @@ CASE WHEN UPPER([description]) like '%ABILIFY%' THEN 'abilify'
 -- Produce final table of most recent antipsychotic prescriptions for SMI patients
 
 SELECT 
-	FK_Patient_Link_ID, 
-	MainIngredient,
+	PatientId, 
+	ActiveIngredient,
 	MostRecentPrescriptionDate
 FROM #final
 

@@ -74,8 +74,7 @@ EXCEPT
 SELECT FK_Patient_Link_ID, Sex, YearOfBirth FROM #MainCohort;
 -- 3,378,730
 
---> EXECUTE query-cohort-matching-yob-sex.sql yob-flex:1
-
+--> EXECUTE query-cohort-matching-yob-sex-alt.sql yob-flex:1 num-matches:5
 
 -- Get the matched cohort detail - same as main cohort
 IF OBJECT_ID('tempdb..#MatchedCohort') IS NOT NULL DROP TABLE #MatchedCohort;
@@ -125,7 +124,8 @@ WHERE
 
 --bring together for final output
 --patients in main cohort
-SELECT m.FK_Patient_Link_ID
+SELECT 
+	 PatientId = m.FK_Patient_Link_ID
 	,NULL AS MainCohortMatchedPatientId
 	,TestOutcome
 	,TestDate = EventDate
@@ -134,7 +134,8 @@ LEFT JOIN #MainCohort m ON cv.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 where m.FK_Patient_Link_ID is not null
 UNION 
 --patients in matched cohort
-SELECT m.FK_Patient_Link_ID
+SELECT 
+	 PatientId = m.FK_Patient_Link_ID
 	,PatientWhoIsMatched AS MainCohortMatchedPatientId
 	,TestOutcome
 	,TestDate = EventDate

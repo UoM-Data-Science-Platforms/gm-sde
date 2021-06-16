@@ -140,7 +140,7 @@ EXCEPT
 SELECT FK_Patient_Link_ID, Sex, YearOfBirth FROM #MainCohort;
 -- 3,378,730
 
---> EXECUTE query-cohort-matching-yob-sex.sql yob-flex:1
+--> EXECUTE query-cohort-matching-yob-sex-alt.sql yob-flex:1 num-matches:5
 
 -- Get the matched cohort detail - same as main cohort
 IF OBJECT_ID('tempdb..#MatchedCohort') IS NOT NULL DROP TABLE #MatchedCohort;
@@ -258,10 +258,9 @@ SELECT GPPracticeCode
 INTO #RandomisePractice
 FROM #UniquePractices
 
-
 --bring together for final output
 --patients in main cohort
-SELECT	 m.FK_Patient_Link_ID
+SELECT	 PatientId = m.FK_Patient_Link_ID
 		,NULL AS MainCohortMatchedPatientId
 		,m.YearOfBirth
 		,m.Sex
@@ -319,6 +318,7 @@ SELECT	 m.FK_Patient_Link_ID
 		,DeathDateDueToCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN STUFF(CONVERT(varchar(10), pl.DeathDate,104),1,3,'') ELSE null END
 		,FirstVaccineDate
 		,SecondVaccineDate
+		,VaccineDeclined = CASE WHEN vd.FK_Patient_Link_ID is not null and DateVaccineDeclined is not null THEN 1 ELSE 0 END
 FROM #MainCohort m
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #HistoryOfLTCs ltc on ltc.FK_Patient_Link_ID = m.FK_Patient_Link_ID
@@ -328,11 +328,11 @@ LEFT OUTER JOIN #EarliestDiagnosis_Recurrent_Depressive edmd on edmd.FK_Patient_
 LEFT OUTER JOIN #COVIDVaccinations1 vac on vac.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #VaccineDeclinedPatients vd ON vd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #RandomisePractice rp ON rp.GPPracticeCode = pl.GPPracticeCode
+LEFT OUTER JOIN #RandomisePractice rp ON rp.GPPracticeCode = m.GPPracticeCode
 WHERE M.FK_Patient_Link_ID in (SELECT FK_Patient_Link_ID FROM #Patients)
 UNION
 --patients in matched cohort
-SELECT	m.FK_Patient_Link_ID
+SELECT	PatientId = m.FK_Patient_Link_ID
 		,m.PatientWhoIsMatched AS MainCohortMatchedPatientId
 		,m.MatchingYearOfBirth
 		,m.Sex
@@ -390,6 +390,7 @@ SELECT	m.FK_Patient_Link_ID
 		,DeathDateDueToCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN STUFF(CONVERT(varchar(10), pl.DeathDate,104),1,3,'') ELSE null END
 		,FirstVaccineDate
 		,SecondVaccineDate
+		,VaccineDeclined = CASE WHEN vd.FK_Patient_Link_ID is not null and DateVaccineDeclined is not null THEN 1 ELSE 0 END
 FROM #MatchedCohort m
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #HistoryOfLTCs ltc on ltc.FK_Patient_Link_ID = m.FK_Patient_Link_ID
@@ -399,6 +400,5 @@ LEFT OUTER JOIN #EarliestDiagnosis_Recurrent_Depressive edmd on edmd.FK_Patient_
 LEFT OUTER JOIN #COVIDVaccinations1 vac on vac.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #VaccineDeclinedPatients vd ON vd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #RandomisePractice rp ON rp.GPPracticeCode = pl.GPPracticeCode;
-
---306,485
+LEFT OUTER JOIN #RandomisePractice rp ON rp.GPPracticeCode = m.GPPracticeCode;
+--306,745
