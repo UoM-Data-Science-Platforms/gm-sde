@@ -1,4 +1,5 @@
 E113.00	Recurrent major depressive episode
+E113.11	Endogenous depression - recurrent
 E113000	"Recurrent major depressive episodes, unspecified"
 E113100	"Recurrent major depressive episodes, mild"
 E113200	"Recurrent major depressive episodes, moderate"
@@ -13,46 +14,32 @@ E115400	"Bipolar affect disord, now depressed, severe with psychosis"
 Eu31400	"[X]Bipol aff disord, curr epis sev depress, no psychot symp"
 Eu31500	[X]Bipolar affect dis cur epi severe depres with psyc symp
 Eu322	[X]Severe depressive episode without psychotic symptoms
-Eu33.00	[X]Recurrent depressive disorder
-Eu33.00	[X]Recurrent episodes of depressive reaction
-Eu33.00	[X]Recurrent episodes of psychogenic depression
-Eu33.00	[X]Recurrent episodes of reactive depression
-Eu33000	"[X]Recurrent depressive disorder, current episode mild"
-Eu33100	"[X]Recurrent depressive disorder, current episode moderate"
-Eu33200	"[X]Recurrent depressive disorder, current episode severe without psychotic symptoms"
-Eu33200	[X]Endogenous depression without psychotic symptoms
-Eu33200	"[X]Major depression, recurrent without psychotic symptoms"
-Eu33200	"[X]Manic-depressive psychosis, depressed type without psychotic symptoms"
-Eu33200	"[X]Vital depression, recurrent without psychotic symptoms"
-Eu33300	"[X]Recurrent depressive disorder, current episode severe with psychotic symptoms"
-Eu33300	[X]Endogenous depression with psychotic symptoms
-Eu33300	"[X]Manic-depressive psychosis, depressed type with psychotic symptoms"
-Eu33300	[X]Recurrent severe episodes of major depression with psychotic symptoms
-Eu33300	[X]Recurrent severe episodes of psychogenic depressive psychosis
-Eu33300	[X]Recurrent severe episodes of psychotic depression
-Eu33300	[X]Recurrent severe episodes of reactive depressive psychosis
-Eu33400	[X]Recurr depress in remission
-Eu33400	"[X]Recurrent depressive disorder, currently in remission"
-Eu33y00	[X]Oth recurr depressve disord
-Eu33y00	[X]Other recurrent depressive disorders
-Eu33z00	[X]Recurrent depress dis unsp
-Eu33z00	"[X]Recurrent depressive disorder, unspecified"
-
-Eu32100	[X]Moderate depressive episode
-Eu32y00	[X]Atypical depression
-Eu32y00	[X]Other depressive episodes
-Eu32y00	[X]Single episode of masked depression NOS
-Eu32z00	[X] Reactive depression NOS
 Eu32z00	[X]Depression NOS
 Eu32z00	[X]Depressive disorder NOS
 Eu32z00	[X]Depressive episode, unspecified
 Eu32z00	[X]Prolonged single episode of reactive depression
 Eu34100	[X]Persistant anxiety depression
 Eu32600	[X]Major depression, moderately severe
-E114.00	Manic-depressive - now manic
 Eu32700	[X]Major depression, severe without psychotic symptoms
-E115.00	Manic-depressive - now depressed
 Eu32800	[X]Major depression, severe with psychotic symptoms
-E11y.00	Other and unspecified manic-depressive psychoses
-E11y0	Unspecified manic-depressive psychoses
-Eu32A	[X]Recurrent major depressive episodes, severe, with psychosis, psychosis in remission
+Eu32A00	[X]Recurrent major depressive episodes, severe, with psychosis, psychosis in remission
+Eu33.00	[X]Recurrent depressive disorder
+Eu33.11	[X]Recurrent episodes of depressive reaction
+Eu33.12	[X]Recurrent episodes of psychogenic depression
+Eu33.13	[X]Recurrent episodes of reactive depression
+Eu33000	[X]Recurrent depressive disorder, current episode mild
+Eu33100	[X]Recurrent depressive disorder, current episode moderate
+Eu33200	[X]Recurrent depressive disorder, current episode severe without psychotic symptoms
+Eu33211	[X]Endogenous depression without psychotic symptoms
+Eu33212	[X]Major depression, recurrent without psychotic symptoms
+Eu33214	[X]Vital depression, recurrent without psychotic symptoms
+Eu33300	[X]Recurrent depressive disorder, current episode severe with psychotic symptoms
+Eu33311	[X]Endogenous depression with psychotic symptoms
+Eu33313	[X]Recurrent severe episodes of major depression with psychotic symptoms
+Eu33314	[X]Recurrent severe episodes of psychogenic depressive psychosis
+Eu33315	[X]Recurrent severe episodes of psychotic depression
+Eu33316	[X]Recurrent severe episodes of reactive depressive psychosis
+Eu33400	[X]Recurrent depressive disorder, currently in remission
+Eu33y00	[X]Other recurrent depressive disorders
+Eu33z00	[X]Recurrent depressive disorder, unspecified
+Eu3y111	[X]Recurrent brief depressive episodes

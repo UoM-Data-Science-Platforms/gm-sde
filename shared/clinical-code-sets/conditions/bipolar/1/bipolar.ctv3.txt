@@ -11,6 +11,9 @@ E111.	Recurrent manic episodes
 E1110	"Recurrent manic episodes, unspecified"
 E1111	"Recurrent manic episodes, mild"
 E1112	"Recurrent manic episodes, moderate"
+E1113	"Recurrent manic episodes, severe without mention of psychosis"
+E1114	"Recurrent manic episodes, severe, with psychosis"
+E1115	"Recurrent manic episodes, in partial or unspecified remission"
 E1116	"Recurrent manic episodes, in full remission"
 E111z	Recurrent manic episode NOS
 E114.	"Bipolar affective disorder, current episode manic"
@@ -46,6 +49,7 @@ E1171	"Unspecified bipolar affective disorder, mild"
 E1172	"Unspecified bipolar affective disorder, moderate"
 E1173	"Unspecified bipolar affective disorder, severe, no psychosis"
 E1174	"Unspecified bipolar affective disorder, severe, with psychosis"
+E1175	"Unspecified bipolar affective disorder, in partial or unspecified remission"
 E1176	"Unspecified bipolar affective disorder, in full remission"
 E117z	"Unspecified bipolar affective disorder, NOS"
 E11y.	Other and unspecified manic-depressive psychoses
@@ -71,6 +75,11 @@ Eu31y	[X]Bipolar II disorder
 Eu31y	[X]Recurrent manic episodes
 Eu31z	"[X]Bipolar affective disorder, unspecified"
 Eu333	"[X]Manic-depressive psychosis, depressed type with psychotic symptoms"
+Eu34.	[X]Persistent mood affective disorders
+Eu34y	[X]Other persistent mood affective disorders
+Eu34z	"[X]Persistent mood affective disorder, unspecified"
+Eu3y.	[X]Other mood affective disorders
+Eu3yy	[X]Other specified mood affective disorders
 Eu3y0	[X]Mixed affective episode
 X00SM	Bipolar disorder
 X00SM	Manic-depressive illness
@@ -78,4 +87,28 @@ X00SM	Manic-depressive psychosis
 X00SM	Bipolar affective disorder
 X00SN	Bipolar II disorder
 XaB95	Other manic-depressive psychos
+XE1ZX	[X]Other bipolar affective disorders
+6657	On lithium
+X00RN	Organic manic disorder
+X00RO	Organic bipolar disorder
+X00SJ	Mania
+X00SK	Manic stupor
+X00SL	Hypomania
+X79ul	Bipolar diathermy
+X9078	Bipolar
+Xa2kP	Manic behaviour
+Xa3WO	Manic
+Xa3YM	Manic defence
+XaA6j	"Profile of mood states, bipolar"
+XaB95	Other manic-depressive psychos
+XaCHo	"[X] Manic-depressive psychosis, depressed type without psychotic symptoms"
+XafEv	Signposting to Bipolar UK
+XaMwc	Bipolar affective disorder resolved
+XaY1Y	Bipolar I disorder
+XE1aS	Hypomania
+XE1ZV	[X]Mania with psychotic symptoms
+XE1Zg	[X]Other single mood affective disorders
+XE1Zh	[X]Other recurrent mood affective disorders
+XE1Zi	[X]Unspecified mood affective disorder
+XE1ZW	"[X]Manic episode, unspecified"
 XE1ZX	[X]Other bipolar affective disorders
