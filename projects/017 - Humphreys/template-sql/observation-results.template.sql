@@ -40,4 +40,4 @@ SELECT
 	res.ResultUnit
 FROM RLS.vw_Orders ord
 LEFT OUTER JOIN RLS.vw_Observation_Results res ON res.FK_Order_ID = ord.PK_Order_ID
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+WHERE ord.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
