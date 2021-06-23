@@ -27,13 +27,6 @@ DECLARE @StartDate datetime;
 SET @StartDate = '2020-02-01';
 
 
---> EXECUTE patients2.template.sql
-
-
-
-
-
-
 
 
 
@@ -42,6 +35,11 @@ SET @StartDate = '2020-02-01';
 -- OUTPUT: Two temp table as follows:
 -- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
 -- #LengthOfStay (FK_Patient_Link_ID, AdmissionDate, DischargeDate, LengthOfStay)
+
+
+
+
+
 
 -- For each patient find the first hospital admission following their positive covid test
 -- IF OBJECT_ID('tempdb..#PatientsFirstAdmissionPostTest') IS NOT NULL DROP TABLE #PatientsFirstAdmissionPostTest;
