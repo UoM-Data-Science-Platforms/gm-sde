@@ -71,3 +71,8 @@ Find out the following total number of rows to investigate how big the chohorts 
 -- Get patients with secondary cancer diagnosis captured in GP rec. 
 -- Add to the cacner cohort and get numbers
 -- Cohort matching with cancer patients including secondary codes. 
+
+2021-06-23 5.50 - 9.30pm
+-- Run cohort matching for Finn 
+-- Find coding references for cancer history
+-- Get all cancer history events for 004-Finn. 

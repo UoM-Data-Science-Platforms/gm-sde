@@ -48,48 +48,7 @@ SET @IndexDate = '2020-02-01';
 
 --> EXECUTE query-cancer-cohort-matching.sql
 -- OUTPUTS:
--- - #CohortStore (FK_Patient_Link_ID, YearOfBirth, Sex, MatchingPatientId, MatchingYearOfBirth)
-
--- Define #Patients temp table to get age/sex and other demographics details.
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID INTO #Patients
-FROM RLS.vw_Patient_Link
-GROUP BY PK_Patient_Link_ID;
-
-
--- Define a table with all the patient ids for the entire cohort (main cohort and the matched cohort)
-IF OBJECT_ID('tempdb..#AllPatientCohortIds') IS NOT NULL DROP TABLE #AllPatientCohortIds;
-SELECT 
-  PatientId As FK_Patient_Link_ID, 
-  YearOfBirth, 
-  Sex,
-  'Y' AS HasCancer
-INTO #AllPatientCohortIds 
-FROM #CohortStore
-
-UNION ALL
-SELECT 
-  MatchingPatientId,
-  MatchingYearOfBirth,
-  Sex,
-  'N' AS HasCancer
-FROM #CohortStore;
-
-
-
-
-
--- Get a table with unique patients for the entire cohort 
--- TODO
---   Find how many matches each cancer patient had. 
---   This will also remove any duplicates.
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT *, count(1) as NumberOfMatches
-INTO #Patients
-FROM #AllPatientCohortIds
-GROUP BY FK_Patient_Link_ID, YearOfBirth, Sex, HasCancer;
--- 338.064 distinct patients
--- All cancer patients have 5 matches each.
+-- - #Patients
 
 
 -- Following query has copied in and adjusted to extract current smoking status on index date. 

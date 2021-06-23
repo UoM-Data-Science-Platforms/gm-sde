@@ -1,10 +1,10 @@
---┌─────────────────────────────────┐
---│ Cancer cohort matching for 004-Finn       │
---└─────────────────────────────────┘
+--┌────────────────────────────────--------─┐
+--│ Cancer cohort matching for 004-Finn     │
+--└───────────────────────────────--------──┘
 
 -- Study index date: 1st Feb 2020
 
--- Defines the cohort (cancer and non cancer patients) that will be used for the study, based on: 
+-- OBJECTIVE: Defines the cohort (cancer and non cancer patients) that will be used for the study, based on: 
 -- Main cohort (cancer patients):
 --	- Cancer diagnosis between 1st February 2015 and 1st February 2020
 --	- >= 18 year old 
@@ -16,10 +16,17 @@
 -- Index date is: 1st February 2020
 
 
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 
--- Set the start date
-DECLARE @IndexDate datetime;
-SET @IndexDate = '2020-02-01';
+-- OUTPUT: A temp table as follows:
+-- #Patients2
+-- 	- FK_Patient_Link_ID
+-- 	- YearOfBirth
+-- 	- Sex
+-- 	- HasCancer
+--  - NumberOfMatches
 
 --> CODESET cancer
 
@@ -89,6 +96,12 @@ SELECT
   FK_Patient_Link_ID
 FROM #SecondaryCancerPatients;
 -- 63.095
+
+-- Define #Patients temp table to get age/sex and other demographics details.
+IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
+SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID INTO #Patients
+FROM RLS.vw_Patient_Link
+GROUP BY PK_Patient_Link_ID;
 
 
 --> EXECUTE query-patient-year-of-birth.sql
@@ -161,3 +174,40 @@ WHERE cp.FK_Patient_Link_ID IS NULL;
 -- OUTPUT: A temp table as follows:
 -- #CohortStore (FK_Patient_Link_ID, YearOfBirth, Sex, MatchingPatientId, MatchingYearOfBirth)
 -- 281.720 rows. running time: 2 hours.
+
+-- Define a table with all the patient ids for the entire cohort (main cohort and the matched cohort)
+IF OBJECT_ID('tempdb..#AllPatientCohortIds') IS NOT NULL DROP TABLE #AllPatientCohortIds;
+SELECT 
+  PatientId As FK_Patient_Link_ID, 
+  YearOfBirth, 
+  Sex,
+  'Y' AS HasCancer
+INTO #AllPatientCohortIds 
+FROM #CohortStore
+
+UNION ALL
+SELECT 
+  MatchingPatientId,
+  MatchingYearOfBirth,
+  Sex,
+  'N' AS HasCancer
+FROM #CohortStore;
+
+
+
+-- Get a table with unique patients for the entire cohort 
+--   Find how many matches each cancer patient had. 
+--   This will also remove any duplicates.
+IF OBJECT_ID('tempdb..#Patients2') IS NOT NULL DROP TABLE #Patients2;
+SELECT 
+  FK_Patient_Link_ID, 
+  YearOfBirth, 
+  Sex, 
+  HasCancer, 
+  count(1) as NumberOfMatches
+INTO #Patients2
+FROM #AllPatientCohortIds
+GROUP BY FK_Patient_Link_ID, YearOfBirth, Sex, HasCancer;
+-- 338.034 distinct patients, running time: 28min, all cancer patients have 5 matches each, cancer cohort = 56.339, as of 23rd June 
+-- 338.064 distinct patients, all cancer patients have 5 matches each, as of 9th June 
+
