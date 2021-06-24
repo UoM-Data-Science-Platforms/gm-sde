@@ -15,11 +15,19 @@ We will use the GMCR to study how the healthcare system in Greater Manchester ha
 
 ## Introduction
 
-Here we describe what this page is...
+The aim of this document is to provide full transparency for all parts of the data extraction process.
+This includes:
+
+- The methodology around how the data extraction process is managed and quality is maintained.
+- A full list of all queries used in the extraction, and their associated objectives and assumptions.
+- A full list of all clinical codes used for the extraction.
 
 ## Methodology
 
-Here we describe the RDE process...
+After each proposal is approved, a Research Data Engineer (RDE) works closely with the research team to establish precisely what data they require and in what format.
+The RDE has access to the entire de-identified database and so builds up an expertise as to which projects are feasible and how best to extract the relevant data.
+The RDE has access to a library of resusable SQL queries for common tasks, and sets of clinical codes for different phenotypes, built up from previous studies.
+Prior to data extraction, the code is checked and signed off by another RDE.
 
 ## Reusable queries
   
