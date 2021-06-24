@@ -47,3 +47,32 @@ Find out the following total number of rows to investigate how big the chohorts 
 
 2021-03-01 8.30 - 8.40
 -- Check that primary keys are now updated to link Christie records with IDCR.
+
+2021-04-12 
+--Verification of cancer codes for 004-Finn
+
+2021-04-13 11.00
+--Investigate numbers of patients from Christie tenancy/feeds in the IDCR for cohort matching.
+
+2021-05-18 15.00 - 10.30
+-- Evaluate main cohort sql code for cohort matching, and get number of patients. 
+-- Match cohorts and get total no of matched patients.
+
+2021-05-19 10.00 - 12.00
+-- Evaluate matched cohort and get number of patients. 
+
+2021-05-20 3pm-7pm
+-- Get total number of adult, alive patients with a first cancer diagnosis in the 5-year period - 004-Finn
+
+2021-06-02 2-3pm and 7-8
+-- Find frailty information and hospital addmissions for 004-Finn. 
+
+2021-06-09 
+-- Get patients with secondary cancer diagnosis captured in GP rec. 
+-- Add to the cacner cohort and get numbers
+-- Cohort matching with cancer patients including secondary codes. 
+
+2021-06-23 5.50 - 9.30pm
+-- Run cohort matching for Finn 
+-- Find coding references for cancer history
+-- Get all cancer history events for 004-Finn. 

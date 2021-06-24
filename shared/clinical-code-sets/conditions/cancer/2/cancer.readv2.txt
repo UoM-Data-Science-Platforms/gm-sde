@@ -1,0 +1,123 @@
+B580.00	Secondary malignant neoplasm of kidney
+B570.00	Secondary malignant neoplasm of lung
+B577.11	Liver metastases
+B583000	Secondary malignant neoplasm of brain
+B583200	Cerebral metastasis
+B58..00	Secondary malignant neoplasm of other specified sites
+B57..11	Metastases of respiratory and/or digestive systems
+B565.00	Secondary and unspec malig neop intrapelvic lymph nodes
+B585.00	Secondary malignant neoplasm of bone and bone marrow
+B56..11	Lymph node metastases
+B582600	Secondary malignant neoplasm of skin of breast
+B56..00	Secondary and unspecified malignant neoplasm of lymph nodes
+B590.00	Disseminated malignancy NOS
+B577.00	Secondary malignant neoplasm of liver
+B56z.00	Secondary and unspec malig neop lymph nodes NOS
+B572.00	Secondary malignant neoplasm of pleura
+B58z.00	Secondary malignant neoplasm of other specified site NOS
+B58y000	Secondary malignant neoplasm of breast
+B58y.00	Secondary malignant neoplasm of other specified sites
+B562300	Secondary and unspec malig neop common iliac lymph nodes
+B585000	Pathological fracture due to metastatic bone disease
+B582.00	Secondary malignant neoplasm of skin
+B56y.00	Secondary and unspec malig neop lymph nodes multiple sites
+B58y500	Secondary malignant neoplasm of prostate
+B581100	Secondary malignant neoplasm of bladder
+B58yz00	Secondary malignant neoplasm of other specified site NOS
+B57..12	Secondary carcinoma of respiratory and/or digestive systems
+B561300	Secondary and unspec malig neop ant mediastinal lymph nodes
+B240.00	Malignant neoplasm of thymus
+B58..11	Secondary carcinoma of other specified sites
+B560600	Secondary and unspec malig neop of facial lymph nodes
+B575000	Secondary malignant neoplasm of colon
+B560200	Secondary and unspec malig neop superficial cervical LN
+B58y600	Secondary malignant neoplasm of testis
+B57..00	Secondary malig neop of respiratory and digestive systems
+B576000	Secondary malignant neoplasm of retroperitoneum
+B582200	Secondary malignant neoplasm of skin of neck
+B153.00	Secondary malignant neoplasm of liver
+B575z00	Secondary malig neop of large intestine or rectum NOS
+B587.00	Secondary malignant neoplasm of adrenal gland
+B563000	Secondary and unspec malig neop axillary lymph nodes
+B561000	Secondary and unspec malig neop internal mammary lymph nodes
+B560700	Secondary and unspec malig neop submental lymph nodes
+B583100	Secondary malignant neoplasm of spinal cord
+B560500	Secondary and unspec malig neop submandibular lymph nodes
+B582300	Secondary malignant neoplasm of skin of trunk
+B562000	Secondary and unspec malig neop coeliac lymph nodes
+B582000	Secondary malignant neoplasm of skin of head
+B575.00	Secondary malignant neoplasm of large intestine and rectum
+B586.00	Secondary malignant neoplasm of ovary
+B560800	Secondary and unspec malig neop anterior cervical LN
+B562z00	Secondary and unspec malig neop intra-abdominal LN NOS
+B58y900	Secondary malignant neoplasm of tongue
+B563300	Secondary and unspec malig neop pectoral lymph nodes
+B565300	Secondary and unspec malig neop sacral lymph nodes
+B582500	Secondary malignant neoplasm of skin of hip and leg
+B58y700	Secondary malignant neoplasm of penis
+B560.00	Secondary and unspec malig neop lymph nodes head/face/neck
+B563.00	Secondary and unspec malig neop axilla and upper limb LN
+B563200	Secondary and unspec malig neop infraclavicular lymph nodes
+B571.00	Secondary malignant neoplasm of mediastinum
+B561900	Secondary and unspec malig neop pulmonary lymph nodes
+B562.00	Secondary and unspec malig neop intra-abdominal lymph nodes
+B581200	Secondary malignant neoplasm of urethra
+B584.00	Secondary malignant neoplasm of other part of nervous system
+ByuC700	[X]Secondary malignant neoplasm of other specified sites
+B564000	Secondary and unspec malig neop superficial inguinal LN
+B594.00	Secondary malignant neoplasm of unknown site
+B58y100	Secondary malignant neoplasm of uterus
+B582z00	Secondary malignant neoplasm of skin NOS
+B561400	Secondary and unspec malig neop post mediastinal lymph nodes
+B574000	Secondary malignant neoplasm of duodenum
+B57y.00	Secondary malignant neoplasm of other digestive organ
+ByuC300	[X]Secondary malignant neoplasm/oth+unspc respiratory organs
+B561500	Secondary and unspec malig neop paratracheal lymph nodes
+B583z00	Secondary malignant neoplasm of brain or spinal cord NOS
+B581000	Secondary malignant neoplasm of ureter
+B58y400	Secondary malignant neoplasm of vulva
+B564100	Secondary and unspec malig neop deep inguinal lymph nodes
+B562200	Secondary and unspec malig neop inferior mesenteric LN
+B561800	Secondary and unspec malig neop bronchopulmonary lymph nodes
+B573.00	Secondary malignant neoplasm of other respiratory organs
+B581z00	Secondary malignant neoplasm of other urinary organ NOS
+B575100	Secondary malignant neoplasm of rectum
+B582400	Secondary malignant neoplasm of skin of shoulder and arm
+B564.00	Secondary and unspec malig neop inguinal and lower limb LN
+B561.00	Secondary and unspec malig neop intrathoracic lymph nodes
+B574.00	Secondary malignant neoplasm of small intestine and duodenum
+B560000	Secondary and unspec malig neop of superficial parotid LN
+B560300	Secondary and unspec malignant neoplasm occipital lymph node
+B58y411	Secondary cancer of the vulva
+B57z.00	Secondary malig neop of respiratory or digestive system NOS
+ByuC200	[X]2ndry+unspcf malignant neoplasm lymph nodes/multi regions
+B560100	Secondary and unspec malignant neoplasm mastoid lymph nodes
+B560z00	Secondary unspec malig neop lymph nodes head/face/neck NOS
+B576.00	Secondary malig neop of retroperitoneum and peritoneum
+B561600	Secondary and unspec malig neop superfic tracheobronchial LN
+ByuC600	[X]2ndry malignant neoplasm/oth+unspec parts/nervous system
+B560900	Secondary and unspec malig neop deep cervical LN
+B562400	Secondary and unspec malig neop external iliac lymph nodes
+B561700	Secondary and unspec malig neop inferior tracheobronchial LN
+B574z00	Secondary malig neop of small intestine or duodenum NOS
+B58y300	Secondary malignant neoplasm of vagina
+B564z00	Secondary and unspec malig neop of inguinal and leg LN NOS
+B562100	Secondary and unspec malig neop superficial mesenteric LN
+B565z00	Secondary and unspec malig neop intrapelvic LN NOS
+B581.00	Secondary malignant neoplasm of other urinary organs
+B563z00	Secondary and unspec malig neop axilla and upper limb LN NOS
+B58y200	Secondary malignant neoplasm of cervix uteri
+B565000	Secondary and unspec malig neop internal iliac lymph nodes
+ByuC400	[X]Secondary malignant neoplasm/oth+unspcfd digestive organs
+B560400	Secondary and unspec malig neop deep parotid lymph nodes
+B561z00	Secondary and unspec malig neop intrathoracic LN NOS
+B561200	Secondary and unspec malig neop diaphragmatic lymph nodes
+ByuC500	[X]2ndry malignant neoplasm/bladder+oth+unsp urinary organs
+B576z00	Secondary malig neop of retroperitoneum or peritoneum NOS
+B58y211	Secondary cancer of the cervix
+B563100	Secondary and unspec malig neop supratrochlear lymph nodes
+B574200	Secondary malignant neoplasm of ileum
+B582100	Secondary malignant neoplasm of skin of face
+B565200	Secondary and unspec malig neop circumflex iliac LN
+B58y800	Secondary malignant neoplasm of epididymis and vas deferens
+
