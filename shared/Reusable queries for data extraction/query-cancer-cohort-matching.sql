@@ -22,10 +22,10 @@
 
 -- OUTPUT: A temp table as follows:
 -- #Patients2
--- 	- FK_Patient_Link_ID
--- 	- YearOfBirth
--- 	- Sex
--- 	- HasCancer
+--  - FK_Patient_Link_ID
+--  - YearOfBirth
+--  - Sex
+--  - HasCancer
 --  - NumberOfMatches
 
 --> CODESET cancer
