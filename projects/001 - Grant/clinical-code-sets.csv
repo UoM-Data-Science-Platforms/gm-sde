@@ -1,6 +1,6 @@
 All clinical codes used by this project.
 NB. This file is auto-generated.
-Some clinical codes become garbled when opening csv files in MS Excel. This is because Excel attempts to convert them to a number. For example SNOMED codes above 11 digits appear in scientific notation format (1.03e11) while Read codes with a trailing decimal point such as "1371." lose the "." and becomes 1371
+Some clinical codes become garbled when opening csv files in MS Excel. This is because Excel attempts to convert them to a number. For example SNOMED codes above 11 digits appear in scientific notation format (1.03e11) while Read codes with a trailing decimal point such as ""1371."" lose the ""."" and becomes 1371
 To get round this we provide the clinical codes in two columns:
 - The "Code" column contains the raw values and can be used if this file is viewed in a text editor or processed by statistical software.
 - The "ExcelCode" column behaves when opened in Excel and is to be used if the column needs to be copy/pasted
