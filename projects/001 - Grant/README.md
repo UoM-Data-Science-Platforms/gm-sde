@@ -33,80 +33,141 @@ Prior to data extraction, the code is checked and signed off by another RDE.
   
 This project required the following reusable queries:
 
-- COVID-related secondary admissions
-- Secondary admissions and length of stay
-- Secondary discharges
-- Classify secondary admissions
-- Likely hospital for each LSOA
-- Lower level super output area
-- Long-term condition groups per patient
-- GET practice and ccg for each patient
-- CCG lookup table
-- COVID utilisation from primary care data
-- Index Multiple Deprivation
-- GET No. LTCS per patient
-- Long-term conditions
 - First prescriptions from GP data
+- Long-term conditions
+- GET No. LTCS per patient
+- Index Multiple Deprivation
+- COVID utilisation from primary care data
+- CCG lookup table
+- GET practice and ccg for each patient
+- Long-term condition groups per patient
+- Lower level super output area
+- Likely hospital for each LSOA
+- Classify secondary admissions
+- Secondary discharges
+- Secondary admissions and length of stay
+- COVID-related secondary admissions
 
 Further details for each query can be found below.
 
-### COVID-related secondary admissions
-To classify every admission to secondary care based on whether it is a COVID or non-COVID related. A COVID-related admission is classed as an admission within 4 weeks after, or up to 2 weeks before a positive test.
+### First prescriptions from GP data
+To obtain, for each patient, the first date for each medication they have ever been prescribed.
+
+_Assumptions_
+
+- The same medication can have multiple clinical codes. GraphNet attempt to standardize the coding across different providers by giving each code an id. Therefore the Readv2 code for a medication and the EMIS code for the same medication will have the same id. -
+
+_Input_
+```
+No pre-requisites
+```
+
+_Output_
+```
+A temp table as follows:
+ #FirstMedications (FK_Patient_Link_ID, FirstMedDate, Code)
+ 	- FK_Patient_Link_ID - unique patient id
+	- FirstMedDate - first date for this medication (YYYY-MM-DD)
+	- Code - The medication code as either:
+					 "FNNNNNN" where 'NNNNNN' is a FK_Reference_Coding_ID or
+					 "SNNNNNN" where 'NNNNNN' is a FK_Reference_SnomedCT_ID
+```
+_File_: `query-first-prescribing-of-medication.sql`
+
+_Link_: [https://github.com/rw251/.../query-first-prescribing-of-medication.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-first-prescribing-of-medication.sql)
+
+---
+### Long-term conditions
+To get every long-term condition for each patient.
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+ A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table with a row for each patient and ltc combo
+ #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
+```
+_File_: `query-patient-ltcs.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-ltcs.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs.sql)
+
+---
+### GET No. LTCS per patient
+To get the number of long-term conditions for each patient.
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
+ Therefore this is run after query-patient-ltcs.sql
+```
+
+_Output_
+```
+A temp table with a row for each patient with the number of LTCs they have
+ #NumLTCs (FK_Patient_Link_ID, NumberOfLTCs)
+```
+_File_: `query-patient-ltcs-number-of.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-ltcs-number-of.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-number-of.sql)
+
+---
+### Index Multiple Deprivation
+To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientIMDDecile (FK_Patient_Link_ID, IMD2019Decile1IsMostDeprived10IsLeastDeprived)
+ 	- FK_Patient_Link_ID - unique patient id
+	- IMD2019Decile1IsMostDeprived10IsLeastDeprived - number 1 to 10 inclusive
+```
+_File_: `query-patient-imd.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-imd.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-imd.sql)
+
+---
+### COVID utilisation from primary care data
+Classifies a list of events as COVID or non-COVID. An event is classified as "COVID" if the date of the event is within 4 weeks after, or up to 14 days before, a positive COVID test.
 
 _Input_
 ```
 Assumes there exists two temp tables as follows:
  #Patients (FK_Patient_Link_ID)
   A distinct list of FK_Patient_Link_IDs for each patient in the cohort
- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
-  A distinct list of the admissions for each patient in the cohort
+ #PatientDates (FK_Patient_Link_ID, EventDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- EventDate - date of the event to classify as COVID/non-COVID
+  A distinct list of the dates of the event for each patient in the cohort
 ```
 
 _Output_
 ```
 A temp table as follows:
- #COVIDUtilisationAdmissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
+ #COVIDUtilisationPrimaryCare (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
  	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of discharge (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-  - CovidHealthcareUtilisation - 'TRUE' if admission within 4 weeks after, or up to 14 days before, a positive test
+	- EventDate - date of the event to classify as COVID/non-COVID
+  - CovidHealthcareUtilisation - 'TRUE' if event within 4 weeks after, or up to 14 days before, a positive test
 ```
-_File_: `query-admissions-covid-utilisation.sql`
+_File_: `query-primary-care-covid-utilisation.sql`
 
-_Link_: [https://github.com/rw251/.../query-admissions-covid-utilisation.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-admissions-covid-utilisation.sql)
+_Link_: [https://github.com/rw251/.../query-primary-care-covid-utilisation.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-primary-care-covid-utilisation.sql)
 
 ---
-### Secondary admissions and length of stay
-To obtain a table with every secondary care admission, along with the acute provider, the date of admission, the date of discharge, and the length of stay.
-
-_Input_
-```
-No pre-requisites
-```
-
-_Output_
-```
-Two temp table as follows:
- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
- 	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of discharge (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-  (Limited to one admission per person per hospital per day, because if a patient has 2 admissions
-   on the same day to the same hopsital then it's most likely data duplication rather than two short
-   hospital stays)
- #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
- 	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of discharge (YYYY-MM-DD)
-	- DischargeDate - date of discharge (YYYY-MM-DD)
-	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
-```
-_File_: `query-get-admissions-and-length-of-stay.sql`
-
-_Link_: [https://github.com/rw251/.../query-get-admissions-and-length-of-stay.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-admissions-and-length-of-stay.sql)
-
----
-### Secondary discharges
-To obtain a table with every secondary care discharge, along with the acute provider, and the date of discharge.
+### CCG lookup table
+To provide lookup table for CCG names. The GMCR provides the CCG id (e.g. '00T', '01G') but not the CCG name. This table can be used in other queries when the output is required to be a ccg name rather than an id.
 
 _Input_
 ```
@@ -116,71 +177,59 @@ No pre-requisites
 _Output_
 ```
 A temp table as follows:
- #Discharges (FK_Patient_Link_ID, DischargeDate, AcuteProvider)
- 	- FK_Patient_Link_ID - unique patient id
-	- DischargeDate - date of discharge (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-  (Limited to one discharge per person per hospital per day, because if a patient has 2 discharges
-   on the same day to the same hopsital then it's most likely data duplication rather than two short
-   hospital stays)
+ #CCGLookup (CcgId, CcgName)
+ 	- CcgId - Nationally recognised ccg id
+	- CcgName - Bolton, Stockport etc..
 ```
-_File_: `query-get-discharges.sql`
+_File_: `query-ccg-lookup.sql`
 
-_Link_: [https://github.com/rw251/.../query-get-discharges.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-discharges.sql)
+_Link_: [https://github.com/rw251/.../query-ccg-lookup.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-ccg-lookup.sql)
 
 ---
-### Classify secondary admissions
-To categorise admissions to secondary care into 5 categories: Maternity, Unplanned, Planned, Transfer and Unknown.
-
-_Assumptions_
-
-- We assume patients can only have one admission per day. This is probably not true, but where we see multiple admissions it is more likely to be data duplication, or internal admissions, than an admission, discharge and another admission in the same day.
-- Where patients have multiple admissions we choose the "highest" category for admission with the categories ranked as follows: Maternity > Unplanned > Planned > Transfer > Unknown
-- We have used the following classifications based on the AdmissionTypeCode: PLANNED: PL (ELECTIVE PLANNED), 11 (Elective - Waiting List), WL (ELECTIVE WL), 13 (Elective - Planned), 12 (Elective - Booked), BL (ELECTIVE BOOKED), D (NULL), Endoscopy (Endoscopy), OP (DIRECT OUTPAT CLINIC), Venesection (X36.2 Venesection), Colonoscopy (H22.9 Colonoscopy), Medical (Medical) UNPLANNED: AE (AE.DEPT.OF PROVIDER), 21 (Emergency - Local A&E), I (NULL), GP (GP OR LOCUM GP), 22 (Emergency - GP), 23 (Emergency - Bed Bureau), 28 (Emergency - Other (inc other provider A&E)), 2D (Emergency - Other), 24 (Emergency - Clinic), EM (EMERGENCY OTHER), AI (ACUTE TO INTMED CARE), BB (EMERGENCY BED BUREAU), DO (EMERGENCY DOMICILE), 2A (A+E Department of another provider where the Patient has not been admitted), A+E (Admission	 A+E Admission), Emerg (GP	Emergency GP Patient) MATERNITY: 31 (Maternity ante-partum), BH (BABY BORN IN HOSP), AN (MATERNITY ANTENATAL), 82 (Birth in this Health Care Provider), PN (MATERNITY POST NATAL), B (NULL), 32 (Maternity post-partum), BHOSP (Birth in this Health Care Provider) TRANSFER: 81 (Transfer from other hosp (not A&E)), TR (PLAN TRANS TO TRUST), ET (EM TRAN (OTHER PROV)), HospTran (Transfer from other NHS Hospital), T (TRANSFER), CentTrans (Transfer from CEN Site) OTHER:
+### GET practice and ccg for each patient
+For each patient to get the practice id that they are registered to, and the CCG name that the practice belongs to.
 
 _Input_
 ```
-No pre-requisites
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 ```
 
 _Output_
 ```
-A temp table as follows:
- #AdmissionTypes (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, AdmissionType)
- 	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of admission (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-	- AdmissionType - One of: Maternity/Unplanned/Planned/Transfer/Unknown
+Two temp tables as follows:
+ #PatientPractice (FK_Patient_Link_ID, GPPracticeCode)
+	- FK_Patient_Link_ID - unique patient id
+	- GPPracticeCode - the nationally recognised practice id for the patient
+ #PatientPracticeAndCCG (FK_Patient_Link_ID, GPPracticeCode, CCG)
+	- FK_Patient_Link_ID - unique patient id
+	- GPPracticeCode - the nationally recognised practice id for the patient
+	- CCG - the name of the patient's CCG
 ```
-_File_: `query-classify-secondary-admissions.sql`
+_File_: `query-patient-practice-and-ccg.sql`
 
-_Link_: [https://github.com/rw251/.../query-classify-secondary-admissions.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-classify-secondary-admissions.sql)
+_Link_: [https://github.com/rw251/.../query-patient-practice-and-ccg.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-practice-and-ccg.sql)
 
 ---
-### Likely hospital for each LSOA
-For each LSOA to get the hospital that most residents would visit.
-
-_Assumptions_
-
-- We count the number of hospital admissions per LSOA
-- If there is a single hospital with the most admissions then we assign that as the most likely hospital
-- If there are 2 or more that tie for the most admissions then we randomly assign one of the tied hospitals
+### Long-term condition groups per patient
+To provide the long-term condition group or groups for each patient. Examples of long term condition groups would be: Cardiovascular, Endocrine, Respiratory
 
 _Input_
 ```
-No pre-requisites
+Assumes there exists a temp table as follows:
+ #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
+ Therefore this is run after query-patient-ltcs.sql
 ```
 
 _Output_
 ```
-A temp table as follows:
- #LikelyLSOAHospital (LSOA, LikelyLSOAHospital)
-	- LSOA - nationally recognised LSOA identifier
- 	- LikelyLSOAHospital - name of most likely hospital for this LSOA
+A temp table with a row for each patient and ltc group combo
+ #LTCGroups (FK_Patient_Link_ID, LTCGroup)
 ```
-_File_: `query-patient-lsoa-likely-hospital.sql`
+_File_: `query-patient-ltcs-group.sql`
 
-_Link_: [https://github.com/rw251/.../query-patient-lsoa-likely-hospital.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-lsoa-likely-hospital.sql)
+_Link_: [https://github.com/rw251/.../query-patient-ltcs-group.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-group.sql)
 
 ---
 ### Lower level super output area
@@ -213,54 +262,14 @@ _File_: `query-patient-lsoa.sql`
 _Link_: [https://github.com/rw251/.../query-patient-lsoa.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-lsoa.sql)
 
 ---
-### Long-term condition groups per patient
-To provide the long-term condition group or groups for each patient. Examples of long term condition groups would be: Cardiovascular, Endocrine, Respiratory
+### Likely hospital for each LSOA
+For each LSOA to get the hospital that most residents would visit.
 
-_Input_
-```
-Assumes there exists a temp table as follows:
- #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
- Therefore this is run after query-patient-ltcs.sql
-```
+_Assumptions_
 
-_Output_
-```
-A temp table with a row for each patient and ltc group combo
- #LTCGroups (FK_Patient_Link_ID, LTCGroup)
-```
-_File_: `query-patient-ltcs-group.sql`
-
-_Link_: [https://github.com/rw251/.../query-patient-ltcs-group.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-group.sql)
-
----
-### GET practice and ccg for each patient
-For each patient to get the practice id that they are registered to, and the CCG name that the practice belongs to.
-
-_Input_
-```
-Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-```
-
-_Output_
-```
-Two temp tables as follows:
- #PatientPractice (FK_Patient_Link_ID, GPPracticeCode)
- 	- FK_Patient_Link_ID - unique patient id
-	- GPPracticeCode - the nationally recognised practice id for the patient
- #PatientPracticeAndCCG (FK_Patient_Link_ID, GPPracticeCode, CCG)
- 	- FK_Patient_Link_ID - unique patient id
-	- GPPracticeCode - the nationally recognised practice id for the patient
-  - CCG - the name of the patient's CCG
-```
-_File_: `query-patient-practice-and-ccg.sql`
-
-_Link_: [https://github.com/rw251/.../query-patient-practice-and-ccg.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-practice-and-ccg.sql)
-
----
-### CCG lookup table
-To provide lookup table for CCG names. The GMCR provides the CCG id (e.g. '00T', '01G') but not the CCG name. This table can be used in other queries when the output is required to be a ccg name rather than an id.
+- We count the number of hospital admissions per LSOA
+- If there is a single hospital with the most admissions then we assign that as the most likely hospital
+- If there are 2 or more that tie for the most admissions then we randomly assign one of the tied hospitals
 
 _Input_
 ```
@@ -270,129 +279,125 @@ No pre-requisites
 _Output_
 ```
 A temp table as follows:
- #CCGLookup (CcgId, CcgName)
- 	- CcgId - Nationally recognised ccg id
-	- CcgName - Bolton, Stockport etc..
+ #LikelyLSOAHospital (LSOA, LikelyLSOAHospital)
+	- LSOA - nationally recognised LSOA identifier
+ 	- LikelyLSOAHospital - name of most likely hospital for this LSOA
 ```
-_File_: `query-ccg-lookup.sql`
+_File_: `query-patient-lsoa-likely-hospital.sql`
 
-_Link_: [https://github.com/rw251/.../query-ccg-lookup.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-ccg-lookup.sql)
+_Link_: [https://github.com/rw251/.../query-patient-lsoa-likely-hospital.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-lsoa-likely-hospital.sql)
 
 ---
-### COVID utilisation from primary care data
-Classifies a list of events as COVID or non-COVID. An event is classified as "COVID" if the date of the event is within 4 weeks after, or up to 14 days before, a positive COVID test.
+### Classify secondary admissions
+To categorise admissions to secondary care into 5 categories: Maternity, Unplanned, Planned, Transfer and Unknown.
+
+_Assumptions_
+
+- We assume patients can only have one admission per day. This is probably not true, but where we see multiple admissions it is more likely to be data duplication, or internal admissions, than an admission, discharge and another admission in the same day.
+- Where patients have multiple admissions we choose the "highest" category for admission with the categories ranked as follows: Maternity > Unplanned > Planned > Transfer > Unknown
+- We have used the following classifications based on the AdmissionTypeCode:
+	- PLANNED: PL (ELECTIVE PLANNED), 11 (Elective - Waiting List), WL (ELECTIVE WL), 13 (Elective - Planned), 12 (Elective - Booked), BL (ELECTIVE BOOKED), D (NULL), Endoscopy (Endoscopy), OP (DIRECT OUTPAT CLINIC), Venesection (X36.2 Venesection), Colonoscopy (H22.9 Colonoscopy), Medical (Medical)
+	- UNPLANNED: AE (AE.DEPT.OF PROVIDER), 21 (Emergency - Local A&E), I (NULL), GP (GP OR LOCUM GP), 22 (Emergency - GP), 23 (Emergency - Bed Bureau), 28 (Emergency - Other (inc other provider A&E)), 2D (Emergency - Other), 24 (Emergency - Clinic), EM (EMERGENCY OTHER), AI (ACUTE TO INTMED CARE), BB (EMERGENCY BED BUREAU), DO (EMERGENCY DOMICILE), 2A (A+E Department of another provider where the Patient has not been admitted), A+E (Admission	 A+E Admission), Emerg (GP	Emergency GP Patient)
+	- MATERNITY: 31 (Maternity ante-partum), BH (BABY BORN IN HOSP), AN (MATERNITY ANTENATAL), 82 (Birth in this Health Care Provider), PN (MATERNITY POST NATAL), B (NULL), 32 (Maternity post-partum), BHOSP (Birth in this Health Care Provider)
+	- TRANSFER: 81 (Transfer from other hosp (not A&E)), TR (PLAN TRANS TO TRUST), ET (EM TRAN (OTHER PROV)), HospTran (Transfer from other NHS Hospital), T (TRANSFER), CentTrans (Transfer from CEN Site)
+	- OTHER: Anything else not previously classified
+
+_Input_
+```
+No pre-requisites
+```
+
+_Output_
+```
+A temp table as follows:
+ #AdmissionTypes (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, AdmissionType)
+ 	- FK_Patient_Link_ID - unique patient id
+	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+	- AdmissionType - One of: Maternity/Unplanned/Planned/Transfer/Unknown
+```
+_File_: `query-classify-secondary-admissions.sql`
+
+_Link_: [https://github.com/rw251/.../query-classify-secondary-admissions.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-classify-secondary-admissions.sql)
+
+---
+### Secondary discharges
+To obtain a table with every secondary care discharge, along with the acute provider, and the date of discharge.
+
+_Input_
+```
+No pre-requisites
+```
+
+_Output_
+```
+A temp table as follows:
+ #Discharges (FK_Patient_Link_ID, DischargeDate, AcuteProvider)
+ 	- FK_Patient_Link_ID - unique patient id
+	- DischargeDate - date of discharge (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+  (Limited to one discharge per person per hospital per day, because if a patient has 2 discharges
+   on the same day to the same hopsital then it's most likely data duplication rather than two short
+   hospital stays)
+```
+_File_: `query-get-discharges.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-discharges.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-discharges.sql)
+
+---
+### Secondary admissions and length of stay
+To obtain a table with every secondary care admission, along with the acute provider, the date of admission, the date of discharge, and the length of stay.
+
+_Input_
+```
+No pre-requisites
+```
+
+_Output_
+```
+Two temp table as follows:
+ #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
+ 	- FK_Patient_Link_ID - unique patient id
+	- AdmissionDate - date of discharge (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+  (Limited to one admission per person per hospital per day, because if a patient has 2 admissions
+   on the same day to the same hopsital then it's most likely data duplication rather than two short
+   hospital stays)
+ #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- AdmissionDate - date of discharge (YYYY-MM-DD)
+	- DischargeDate - date of discharge (YYYY-MM-DD)
+	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
+```
+_File_: `query-get-admissions-and-length-of-stay.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-admissions-and-length-of-stay.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-admissions-and-length-of-stay.sql)
+
+---
+### COVID-related secondary admissions
+To classify every admission to secondary care based on whether it is a COVID or non-COVID related. A COVID-related admission is classed as an admission within 4 weeks after, or up to 2 weeks before a positive test.
 
 _Input_
 ```
 Assumes there exists two temp tables as follows:
  #Patients (FK_Patient_Link_ID)
   A distinct list of FK_Patient_Link_IDs for each patient in the cohort
- #PatientDates (FK_Patient_Link_ID, EventDate)
- 	- FK_Patient_Link_ID - unique patient id
-	- EventDate - date of the event to classify as COVID/non-COVID
-  A distinct list of the dates of the event for each patient in the cohort
+ #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
+  A distinct list of the admissions for each patient in the cohort
 ```
 
 _Output_
 ```
 A temp table as follows:
- #COVIDUtilisationPrimaryCare (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
- 	- FK_Patient_Link_ID - unique patient id
-	- EventDate - date of the event to classify as COVID/non-COVID
-  - CovidHealthcareUtilisation - 'TRUE' if event within 4 weeks after, or up to 14 days before, a positive test
+ #COVIDUtilisationAdmissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
+	- FK_Patient_Link_ID - unique patient id
+	- AdmissionDate - date of discharge (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+	- CovidHealthcareUtilisation - 'TRUE' if admission within 4 weeks after, or up to 14 days before, a positive test
 ```
-_File_: `query-primary-care-covid-utilisation.sql`
+_File_: `query-admissions-covid-utilisation.sql`
 
-_Link_: [https://github.com/rw251/.../query-primary-care-covid-utilisation.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-primary-care-covid-utilisation.sql)
-
----
-### Index Multiple Deprivation
-To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.
-
-_Input_
-```
-Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-```
-
-_Output_
-```
-A temp table as follows:
- #PatientIMDDecile (FK_Patient_Link_ID, IMD2019Decile1IsMostDeprived10IsLeastDeprived)
- 	- FK_Patient_Link_ID - unique patient id
-	- IMD2019Decile1IsMostDeprived10IsLeastDeprived - number 1 to 10 inclusive
-```
-_File_: `query-patient-imd.sql`
-
-_Link_: [https://github.com/rw251/.../query-patient-imd.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-imd.sql)
-
----
-### GET No. LTCS per patient
-To get the number of long-term conditions for each patient.
-
-_Input_
-```
-Assumes there exists a temp table as follows:
- #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
- Therefore this is run after query-patient-ltcs.sql
-```
-
-_Output_
-```
-A temp table with a row for each patient with the number of LTCs they have
- #NumLTCs (FK_Patient_Link_ID, NumberOfLTCs)
-```
-_File_: `query-patient-ltcs-number-of.sql`
-
-_Link_: [https://github.com/rw251/.../query-patient-ltcs-number-of.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-number-of.sql)
-
----
-### Long-term conditions
-To get every long-term condition for each patient.
-
-_Input_
-```
-Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
- A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-```
-
-_Output_
-```
-A temp table with a row for each patient and ltc combo
- #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
-```
-_File_: `query-patient-ltcs.sql`
-
-_Link_: [https://github.com/rw251/.../query-patient-ltcs.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs.sql)
-
----
-### First prescriptions from GP data
-To obtain, for each patient, the first date for each medication they have ever been prescribed.
-
-_Assumptions_
-
-- The same medication can have multiple clinical codes. GraphNet attempt to standardize the coding across different providers by giving each code an id. Therefore the Readv2 code for a medication and the EMIS code for the same medication will have the same id. -
-
-_Input_
-```
-No pre-requisites
-```
-
-_Output_
-```
-A temp table as follows:
- #FirstMedications (FK_Patient_Link_ID, FirstMedDate, Code)
- 	- FK_Patient_Link_ID - unique patient id
-	- FirstMedDate - first date for this medication (YYYY-MM-DD)
-	- Code - The medication code as either:
-					 "FNNNNNN" where 'NNNNNN' is a FK_Reference_Coding_ID or
-					 "SNNNNNN" where 'NNNNNN' is a FK_Reference_SnomedCT_ID
-```
-_File_: `query-first-prescribing-of-medication.sql`
-
-_Link_: [https://github.com/rw251/.../query-first-prescribing-of-medication.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-first-prescribing-of-medication.sql)
+_Link_: [https://github.com/rw251/.../query-admissions-covid-utilisation.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-admissions-covid-utilisation.sql)
 ## Clinical code sets
 
 This project required the following clinical code sets:
