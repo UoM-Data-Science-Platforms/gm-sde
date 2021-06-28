@@ -1,3 +1,4 @@
+CTV3ID	Description
 68C2.	Chronic obstructive pulmonary disease screening
 H3...	COPD - Chronic obstructive pulmonary disease
 H31..	Chronic bronchitis

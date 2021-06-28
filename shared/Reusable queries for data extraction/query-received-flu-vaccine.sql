@@ -13,8 +13,8 @@
 
 -- OUTPUT: A temp table as follows:
 -- #PatientHadFluVaccine (FK_Patient_Link_ID, FluVaccineDate)
--- 	- FK_Patient_Link_ID - unique patient id
---	-	FluVaccineDate - YYYY-MM-DD (first date of flu vaccine in given time period)
+--	- FK_Patient_Link_ID - unique patient id
+--	- FluVaccineDate - YYYY-MM-DD (first date of flu vaccine in given time period)
 
 -- ASSUMPTIONS:
 --	- We look for codes related to the administration of flu vaccines and codes for the vaccine itself

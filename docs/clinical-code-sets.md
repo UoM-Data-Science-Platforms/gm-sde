@@ -10,12 +10,14 @@
 
 Clinical code sets are shared lists of codes that are used in place of longer names or explanations.
 Medical professionals use these codes to quickly record the following types of information for patients:
+
 - Diagnoses
 - Treatments, procedures and tests
 - Medical equipment and supplies
 - Medications
 
 As the sharing of code sets is becoming more important for research, several online repositories have been developed:
+
 - [OpenCodelists](https://www.opencodelists.org/) (created by OpenSAFELY)
 - [ClinicalCodes](https://clinicalcodes.rss.mhs.man.ac.uk/)
 - [Value Set Authority Center (VSAC)](https://vsac.nlm.nih.gov/)
@@ -23,12 +25,12 @@ As the sharing of code sets is becoming more important for research, several onl
 There are also several published papers that describe different methods for creating, managing and sharing clinical code sets:
 
 1. [Clinical code set engineering for reusing EHR data for research: A review.
-Williams, R., Kontopantelis, E., Buchan, I. & Peek, N., Jun 2017, Journal of
-Biomedical Informatics. 70, p. 1-13.](https://pubmed.ncbi.nlm.nih.gov/28442434/)
+   Williams, R., Kontopantelis, E., Buchan, I. & Peek, N., Jun 2017, Journal of
+   Biomedical Informatics. 70, p. 1-13.](https://pubmed.ncbi.nlm.nih.gov/28442434/)
 
 2. [Term sets: A transparent and reproducible representation of clinical code sets.
-Williams, R., Brown, B., Kontopantelis, E., Van Staa, T., Peek, N., 2019, PLoS ONE.
-14, 2, p. e0212291.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0212291)
+   Williams, R., Brown, B., Kontopantelis, E., Van Staa, T., Peek, N., 2019, PLoS ONE.
+   14, 2, p. e0212291.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0212291)
 
 **_Needs writing_**
 
@@ -36,9 +38,7 @@ auto generated list of code sets
 
 ## Creating Clinical Code Sets
 
-The Research Data Engineer (RDE) must find, or create, at least one set of codes for the concept that they are interested in. 
-This text file can either be SNOMED, CTV3, ReadV2, or EMIS codes.
-The file/s should be stored at [.shared/clinical-code-sets] in the relevant folder based on the type of concept.
+The Research Data Engineer (RDE) must find, or create, at least one set of codes for the concept that they are interested in. This text file can either be SNOMED, CTV3, ReadV2, or EMIS codes. The file/s should be stored at [.shared/clinical-code-sets] in the relevant folder based on the type of concept.
 
 The typical file structure for a code set looks like:
 
@@ -58,13 +58,9 @@ The README.md file is used to provide information about the code set, including 
 
 ## Loading code sets into SQL scripts
 
-
-
 ## Validating Clinical Code Sets
 
-This process is designed to provide an idea of how well represented a condition is across each GP system. If the prevalence of the code among the 
-three systems is relatively similar (within 10%) then it would seem that the code sets are suitably complete. If there are discrepancies, then
-there may be missing codes from one or more code sets.
+This process is designed to provide an idea of how well represented a condition is across each GP system. If the prevalence of the code among the three systems is relatively similar (within 10%) then it would seem that the code sets are suitably complete. If there are discrepancies, then there may be missing codes from one or more code sets.
 
 The clinical code sets that have been created by the RDEs can be validated using the [.projects/Reports] directory. The directory structure is as follows:
 
@@ -87,15 +83,15 @@ Reports
 
 ### Investigating prevalence of a code set across GP systems
 
-If you want to investigate the prevalence of the codeset across each GP system (TPP, Vision, EMIS):
+If you want to investigate the prevalence of the code set across each GP system (TPP, Vision, EMIS):
 
-1. Open 'concepts-per-clinical-system.template.sql' 
+1. Open 'concepts-per-clinical-system.template.sql'
 2. Edit line 29 by adding the name of the code set/s that you are interested in, with spaces inbetween terms. The code should then look something like:
 
 ```sql
 	--> CODESET antipsychotics bipolar recurrent-depressive
 ```
- 
+
 4. Save and close the file.
 5. Run the file 'generate-sql-windows.bat'.
 6. Open 'concepts-per-clinical-system.sql' and copy the contents into a new SQL query on your VDE.
@@ -155,7 +151,3 @@ An example of a prevalence log table:
 | 2021-03-31 | EMIS            | 2604007    | 1917797 (73.65%) |  1917707 (73.64%) |
 | 2021-03-31 | TPP             | 210535     |  143525 (68.17%) |   143525 (68.17%) |
 | 2021-03-31 | Vision          | 333730     |  244403 (73.23%) |   244403 (73.23%) |
-
-
-
-

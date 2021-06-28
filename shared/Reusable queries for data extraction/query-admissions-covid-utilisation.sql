@@ -14,10 +14,10 @@
 
 -- OUTPUT: A temp table as follows:
 -- #COVIDUtilisationAdmissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
--- 	- FK_Patient_Link_ID - unique patient id
+--	- FK_Patient_Link_ID - unique patient id
 --	- AdmissionDate - date of discharge (YYYY-MM-DD)
 --	- AcuteProvider - Bolton, SRFT, Stockport etc..
---  - CovidHealthcareUtilisation - 'TRUE' if admission within 4 weeks after, or up to 14 days before, a positive test
+--	- CovidHealthcareUtilisation - 'TRUE' if admission within 4 weeks after, or up to 14 days before, a positive test
 
 -- Get first positive covid test for each patient
 IF OBJECT_ID('tempdb..#CovidCases') IS NOT NULL DROP TABLE #CovidCases;
