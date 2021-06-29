@@ -293,7 +293,7 @@ Assumes there exists two temp tables as follows:
  #Patients (FK_Patient_Link_ID)
   A distinct list of FK_Patient_Link_IDs for each patient in the cohort
  #PatientDates (FK_Patient_Link_ID, EventDate)
- 	- FK_Patient_Link_ID - unique patient id
+	- FK_Patient_Link_ID - unique patient id
 	- EventDate - date of the event to classify as COVID/non-COVID
   A distinct list of the dates of the event for each patient in the cohort
 ```
@@ -302,9 +302,9 @@ _Output_
 ```
 A temp table as follows:
  #COVIDUtilisationPrimaryCare (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
- 	- FK_Patient_Link_ID - unique patient id
+	- FK_Patient_Link_ID - unique patient id
 	- EventDate - date of the event to classify as COVID/non-COVID
-  - CovidHealthcareUtilisation - 'TRUE' if event within 4 weeks after, or up to 14 days before, a positive test
+	- CovidHealthcareUtilisation - 'TRUE' if event within 4 weeks after, or up to 14 days before, a positive test
 ```
 _File_: `query-primary-care-covid-utilisation.sql`
 
