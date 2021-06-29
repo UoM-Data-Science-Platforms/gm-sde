@@ -420,7 +420,7 @@ INNER JOIN (
   GROUP BY concept)
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
--- >>> Following codesets injected: diabetes
+-- >>> Following code sets injected: diabetes v1
 IF OBJECT_ID('tempdb..#DiabeticPatients') IS NOT NULL DROP TABLE #DiabeticPatients;
 SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstDiagnosisDate INTO #DiabeticPatients
 FROM RLS.vw_GP_Events
@@ -431,7 +431,7 @@ WHERE (
 GROUP BY FK_Patient_Link_ID;
 
 -- Get separate cohorts for paients with type 1 diabetes and type 2 diabetes
--- >>> Following codesets injected: diabetes-type-i
+-- >>> Following code sets injected: diabetes-type-i v1
 IF OBJECT_ID('tempdb..#DiabeticTypeIPatients') IS NOT NULL DROP TABLE #DiabeticTypeIPatients;
 SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstT1DiagnosisDate INTO #DiabeticTypeIPatients
 FROM RLS.vw_GP_Events
@@ -441,7 +441,7 @@ WHERE (
 )
 GROUP BY FK_Patient_Link_ID;
 
--- >>> Following codesets injected: diabetes-type-ii
+-- >>> Following code sets injected: diabetes-type-ii v1
 IF OBJECT_ID('tempdb..#DiabeticTypeIIPatients') IS NOT NULL DROP TABLE #DiabeticTypeIIPatients;
 SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstT2DiagnosisDate INTO #DiabeticTypeIIPatients
 FROM RLS.vw_GP_Events
@@ -477,16 +477,16 @@ FROM #CovidPatients;
 
 -- OUTPUT: A temp table as follows:
 -- #PatientSmokingStatus (FK_Patient_Link_ID, PassiveSmoker, WorstSmokingStatus, CurrentSmokingStatus)
--- 	- FK_Patient_Link_ID - unique patient id
---	-	PassiveSmoker - Y/N (whether a patient has ever had a code for passive smoking)
---	-	WorstSmokingStatus - [non-trivial-smoker/trivial-smoker/non-smoker]
---	-	CurrentSmokingStatus - [non-trivial-smoker/trivial-smoker/non-smoker]
+--	- FK_Patient_Link_ID - unique patient id
+--	- PassiveSmoker - Y/N (whether a patient has ever had a code for passive smoking)
+--	- WorstSmokingStatus - [non-trivial-smoker/trivial-smoker/non-smoker]
+--	- CurrentSmokingStatus - [non-trivial-smoker/trivial-smoker/non-smoker]
 
 -- ASSUMPTIONS:
 --	- We take the most recent smoking status in a patient's record to be correct
---	-	However, there is likely confusion between the "non smoker" and "never smoked" codes. Especially as sometimes the synonyms for these codes overlap. Therefore, a patient wih a most recent smoking status of "never", but who has previous smoking codes, would be classed as WorstSmokingStatus=non-trivial-smoker / CurrentSmokingStatus=non-smoker
+--	- However, there is likely confusion between the "non smoker" and "never smoked" codes. Especially as sometimes the synonyms for these codes overlap. Therefore, a patient wih a most recent smoking status of "never", but who has previous smoking codes, would be classed as WorstSmokingStatus=non-trivial-smoker / CurrentSmokingStatus=non-smoker
 
--- >>> Following codesets injected: smoking-status-current/smoking-status-currently-not/smoking-status-ex/smoking-status-ex-trivial/smoking-status-never/smoking-status-passive/smoking-status-trivial
+-- >>> Following code sets injected: smoking-status-current v1/smoking-status-currently-not v1/smoking-status-ex v1/smoking-status-ex-trivial v1/smoking-status-never v1/smoking-status-passive v1/smoking-status-trivial v1
 -- Get all patients year of birth for the cohort
 IF OBJECT_ID('tempdb..#AllPatientSmokingStatusCodes') IS NOT NULL DROP TABLE #AllPatientSmokingStatusCodes;
 SELECT 
@@ -1996,7 +1996,7 @@ INNER JOIN (
 ) sub ON sub.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND sub.FirstAdmission = l.AdmissionDate
 GROUP BY l.FK_Patient_Link_ID;
 
--- >>> Following codesets injected: bmi/hba1c/cholesterol/ldl-cholesterol/hdl-cholesterol/vitamin-d/testosterone/sex-hormone-binding-globulin/egfr
+-- >>> Following code sets injected: bmi v2/hba1c v2/cholesterol v2/ldl-cholesterol v1/hdl-cholesterol v1/vitamin-d v1/testosterone v1/sex-hormone-binding-globulin v1/egfr v1
 IF OBJECT_ID('tempdb..#PatientValuesWithIds') IS NOT NULL DROP TABLE #PatientValuesWithIds;
 SELECT 
 	FK_Patient_Link_ID,
@@ -2112,7 +2112,7 @@ WHERE Concept = 'sex-hormone-binding-globulin';
 
 
 -- diagnoses
--- >>> Following codesets injected: copd
+-- >>> Following code sets injected: copd v1
 IF OBJECT_ID('tempdb..#PatientDiagnosesCOPD') IS NOT NULL DROP TABLE #PatientDiagnosesCOPD;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #PatientDiagnosesCOPD
@@ -2123,7 +2123,7 @@ WHERE (
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
--- >>> Following codesets injected: asthma
+-- >>> Following code sets injected: asthma v1
 IF OBJECT_ID('tempdb..#PatientDiagnosesASTHMA') IS NOT NULL DROP TABLE #PatientDiagnosesASTHMA;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #PatientDiagnosesASTHMA
@@ -2134,7 +2134,7 @@ WHERE (
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
--- >>> Following codesets injected: severe-mental-illness
+-- >>> Following code sets injected: severe-mental-illness v1
 IF OBJECT_ID('tempdb..#PatientDiagnosesSEVEREMENTALILLNESS') IS NOT NULL DROP TABLE #PatientDiagnosesSEVEREMENTALILLNESS;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #PatientDiagnosesSEVEREMENTALILLNESS
@@ -2147,7 +2147,7 @@ AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 
 -- medications
--- >>> Following codesets injected: metformin
+-- >>> Following code sets injected: metformin v1
 IF OBJECT_ID('tempdb..#PatientMedicationsMETFORMIN') IS NOT NULL DROP TABLE #PatientMedicationsMETFORMIN;
 SELECT 
 	FK_Patient_Link_ID,
@@ -2161,7 +2161,7 @@ WHERE (
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate > @MedicationsFromDate;
 
--- >>> Following codesets injected: ace-inhibitor
+-- >>> Following code sets injected: ace-inhibitor v1
 IF OBJECT_ID('tempdb..#PatientMedicationsACEI') IS NOT NULL DROP TABLE #PatientMedicationsACEI;
 SELECT 
 	FK_Patient_Link_ID,
@@ -2175,7 +2175,7 @@ WHERE (
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate > @MedicationsFromDate;
 
--- >>> Following codesets injected: aspirin
+-- >>> Following code sets injected: aspirin v1
 IF OBJECT_ID('tempdb..#PatientMedicationsASPIRIN') IS NOT NULL DROP TABLE #PatientMedicationsASPIRIN;
 SELECT 
 	FK_Patient_Link_ID,
@@ -2189,7 +2189,7 @@ WHERE (
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate > @MedicationsFromDate;
 
--- >>> Following codesets injected: clopidogrel
+-- >>> Following code sets injected: clopidogrel v1
 IF OBJECT_ID('tempdb..#PatientMedicationsCLOPIDOGREL') IS NOT NULL DROP TABLE #PatientMedicationsCLOPIDOGREL;
 SELECT 
 	FK_Patient_Link_ID,

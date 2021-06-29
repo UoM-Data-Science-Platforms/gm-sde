@@ -183,7 +183,7 @@ INNER JOIN (
   GROUP BY concept)
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
--- >>> Following codesets injected: hba1c
+-- >>> Following code sets injected: hba1c v2
 
 -- Get all covid positive patients as this is the population of the matched cohort
 IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
