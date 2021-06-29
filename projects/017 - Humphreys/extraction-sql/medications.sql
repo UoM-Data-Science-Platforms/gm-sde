@@ -258,7 +258,7 @@ INNER JOIN (
   GROUP BY concept)
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
--- >>> Following codesets injected: hydroxychloroquine/leflunomide/methotrexate/prednisolone-oral/prednisone/sulfasalazine
+-- >>> Following code sets injected: hydroxychloroquine v1/leflunomide v1/methotrexate v1/prednisolone-oral v1/prednisone v1/sulfasalazine v1
 SELECT 
 	FK_Patient_Link_ID AS PatientId,
 	GPPracticeCode,

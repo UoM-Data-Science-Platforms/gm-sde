@@ -26,7 +26,7 @@ SET NOCOUNT ON;
 -- For now let's use the in-built QOF rule for the RA cohort. We can refine this over time
 --> EXECUTE query-qof-cohort.sql condition:"Rheumatoid Arthritis" outputtable:Patients
 
---> CODESET hydroxychloroquine leflunomide methotrexate prednisolone-oral prednisone sulfasalazine
+--> CODESET hydroxychloroquine:1 leflunomide:1 methotrexate:1 prednisolone-oral:1 prednisone:1 sulfasalazine:1
 SELECT 
 	FK_Patient_Link_ID AS PatientId,
 	GPPracticeCode,
