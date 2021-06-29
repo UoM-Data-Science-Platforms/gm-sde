@@ -22,7 +22,7 @@ SET NOCOUNT ON;
 
 -- Set the start date
 DECLARE @StartDate datetime;
-SET @StartDate = '2020-01-01';
+SET @StartDate = '2019-12-23';
 
 -- >>> Codesets required... Inserting the code set code
 --

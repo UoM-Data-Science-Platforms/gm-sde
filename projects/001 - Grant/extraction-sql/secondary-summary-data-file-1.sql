@@ -19,7 +19,7 @@ SET NOCOUNT ON;
 
 -- Set the start date
 DECLARE @StartDate datetime;
-SET @StartDate = '2020-01-01';
+SET @StartDate = '2019-12-23';
 
 -- Populate a table with all the GM registered patients
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
