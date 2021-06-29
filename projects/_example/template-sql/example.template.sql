@@ -9,7 +9,7 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
---> CODESET hypertension
+--> CODESET hypertension:1
 SELECT FK_Patient_Link_ID AS PatientId, MIN(EventDate) AS DateOfFirstDiagnosis FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'hypertension' AND Version = 1) OR

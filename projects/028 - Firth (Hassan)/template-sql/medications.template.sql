@@ -32,8 +32,8 @@ SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
 
---> CODESET severe-mental-illness
---> CODESET antipsychotics
+--> CODESET severe-mental-illness:1
+--> CODESET antipsychotics:1
 
 --FIND PATIENTS THAT HAVE AN SMI DIAGNOSIS AS OF 31.01.20
 

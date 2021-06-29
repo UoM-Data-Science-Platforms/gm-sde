@@ -73,7 +73,7 @@ SET @IndexDate = '2020-02-01';
 --	- We take the most recent smoking status in a patient's record to be correct
 --	-	However, there is likely confusion between the "non smoker" and "never smoked" codes. Especially as sometimes the synonyms for these codes overlap. Therefore, a patient wih a most recent smoking status of "never", but who has previous smoking codes, would be classed as WorstSmokingStatus=non-trivial-smoker / CurrentSmokingStatus=non-smoker
 
---> CODESETS smoking-status-current smoking-status-currently-not smoking-status-ex smoking-status-ex-trivial smoking-status-never smoking-status-passive smoking-status-trivial
+--> CODESET smoking-status-current:1 smoking-status-currently-not:1 smoking-status-ex:1 smoking-status-ex-trivial:1 smoking-status-never:1 smoking-status-passive:1 smoking-status-trivial:1
 -- Get all patients year of birth for the cohort
 IF OBJECT_ID('tempdb..#AllPatientSmokingStatusCodes') IS NOT NULL DROP TABLE #AllPatientSmokingStatusCodes;
 SELECT 
@@ -219,7 +219,7 @@ LEFT OUTER JOIN #TempCurrent c on c.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
 
 
 
---> CODESET bmi 
+--> CODESET bmi:2
 
 -- Get BMI for all patients in the cohort on 1 month prior to index date - 1st Jan 2020
 -- Uses the BMI codeset version 2 to get the BMI values

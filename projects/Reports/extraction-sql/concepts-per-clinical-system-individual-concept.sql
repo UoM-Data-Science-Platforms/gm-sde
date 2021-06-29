@@ -45,7 +45,7 @@ INSERT INTO #PracticeSystemLookup VALUES
 
 -- >>> Codesets required... Inserting the code set code
 
--- >>> Following codesets injected: 
+-- >>> Following code sets injected: 
 DECLARE @concept varchar(255);
 SET @concept = 'insert-concept-here';
 

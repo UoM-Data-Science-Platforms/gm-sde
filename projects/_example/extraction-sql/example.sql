@@ -1,3 +1,15 @@
+--┌────────────────────────────────────┐
+--│ An example SQL generation template │
+--└────────────────────────────────────┘
+
+-- OUTPUT: Data with the following fields
+-- 	- PatientId (int)
+--  - DateOfFirstDiagnosis (YYYY-MM-DD) 
+
+--Just want the output, not the messages
+SET NOCOUNT ON;
+
+-- >>> Codesets required... Inserting the code set code
 --
 --┌────────────────────┐
 --│ Clinical code sets │
@@ -163,18 +175,8 @@ INNER JOIN (
   SELECT concept, MAX(version) AS maxVersion FROM #VersionedSnomedSets
   GROUP BY concept)
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
---┌────────────────────────────────────┐
---│ An example SQL generation template │
---└────────────────────────────────────┘
 
--- OUTPUT: Data with the following fields
--- 	- PatientId (int)
---  - DateOfFirstDiagnosis (YYYY-MM-DD) 
-
---Just want the output, not the messages
-SET NOCOUNT ON;
-
--- >>> Following codesets injected: hypertension
+-- >>> Following code sets injected: hypertension v1
 SELECT FK_Patient_Link_ID AS PatientId, MIN(EventDate) AS DateOfFirstDiagnosis FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'hypertension' AND Version = 1) OR

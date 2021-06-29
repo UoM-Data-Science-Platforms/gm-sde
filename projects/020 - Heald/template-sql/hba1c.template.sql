@@ -20,7 +20,7 @@ SET @StartDate = '2020-01-01';
 DECLARE @EventsFromDate datetime;
 SET @EventsFromDate = DATEADD(year, -2, @StartDate);
 
---> CODESET hba1c
+--> CODESET hba1c:2
 
 -- Get all covid positive patients as this is the population of the matched cohort
 IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;

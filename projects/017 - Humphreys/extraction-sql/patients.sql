@@ -214,12 +214,12 @@ HAVING MAX(YearOfBirth) <= YEAR(GETDATE());
 
 -- OUTPUT: Two temp tables as follows:
 -- #PatientPractice (FK_Patient_Link_ID, GPPracticeCode)
--- 	- FK_Patient_Link_ID - unique patient id
+--	- FK_Patient_Link_ID - unique patient id
 --	- GPPracticeCode - the nationally recognised practice id for the patient
 -- #PatientPracticeAndCCG (FK_Patient_Link_ID, GPPracticeCode, CCG)
--- 	- FK_Patient_Link_ID - unique patient id
+--	- FK_Patient_Link_ID - unique patient id
 --	- GPPracticeCode - the nationally recognised practice id for the patient
---  - CCG - the name of the patient's CCG
+--	- CCG - the name of the patient's CCG
 
 -- If patients have a tenancy id of 2 we take this as their most likely GP practice
 -- as this is the GP data feed and so most likely to be up to date

@@ -33,7 +33,7 @@ IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
---> CODESET severe-mental-illness
+--> CODESET severe-mental-illness:1
 
 --> EXECUTE query-patient-sex.sql
 --> EXECUTE query-patient-year-of-birth.sql
