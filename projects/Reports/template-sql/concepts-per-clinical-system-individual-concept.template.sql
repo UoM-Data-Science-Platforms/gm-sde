@@ -23,7 +23,7 @@ SET NOCOUNT ON;
 
 --> EXECUTE query-practice-systems-lookup.sql
 
---> CODESET insert-concept-here
+--> CODESET insert-concept-here:version-number
 DECLARE @concept varchar(255);
 SET @concept = 'insert-concept-here';
 

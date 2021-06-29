@@ -28,7 +28,7 @@ SET NOCOUNT ON;
 
 -- >>> Codesets required... Inserting the code set code
 
--- >>> Following codesets injected: 
+-- >>> Following code sets injected: 
 --┌──────────────────────────────┐
 --│ Practice system lookup table │
 --└──────────────────────────────┘
