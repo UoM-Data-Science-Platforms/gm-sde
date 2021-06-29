@@ -49,7 +49,7 @@ IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
---> CODESET recurrent-depressive schizophrenia-psychosis bipolar severe-mental-illness
+--> CODESET recurrent-depressive:1 schizophrenia-psychosis:1 bipolar:1 severe-mental-illness:1
 
 --> EXECUTE query-patient-sex.sql
 --> EXECUTE query-patient-imd.sql
@@ -71,7 +71,7 @@ FROM #COVIDVaccinations
 GROUP BY FK_Patient_Link_ID
 
 -- Get patients with covid vaccine refusal
---> CODESET covid-vaccine-declined
+--> CODESET covid-vaccine-declined:1
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS DateVaccineDeclined 
 INTO #VaccineDeclinedPatients FROM [RLS].[vw_GP_Events]
 WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccine-declined' AND [Version] = 1)

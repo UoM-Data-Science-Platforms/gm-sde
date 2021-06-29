@@ -19,7 +19,7 @@
 -- ASSUMPTIONS:
 --	- We look for codes related to the administration of flu vaccines and codes for the vaccine itself
 
---> CODESETS flu-vaccination
+--> CODESET flu-vaccination:1
 -- First get all patients from the GP_Events table who have a flu vaccination (procedure) code
 IF OBJECT_ID('tempdb..#PatientsWithFluVacConcept') IS NOT NULL DROP TABLE #PatientsWithFluVacConcept;
 SELECT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS FluVaccineDate
@@ -32,7 +32,7 @@ WHERE (
 AND EventDate >= '{param:date-from}'
 AND EventDate <= '{param:date-to}';
 
---> CODESETS flu-vaccine
+--> CODESET flu-vaccine:1
 -- Then get all patients from the GP_Medications table who have a flu vaccine (medication) code
 INSERT INTO #PatientsWithFluVacConcept
 SELECT FK_Patient_Link_ID, CAST(MedicationDate AS DATE) FROM RLS.vw_GP_Medications

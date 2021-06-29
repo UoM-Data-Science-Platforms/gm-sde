@@ -2,10 +2,24 @@ const chalk = require('chalk');
 const { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } = require('fs');
 const { join } = require('path');
 const { log, warn, setSilence } = require('./log');
+const { GITHUB_BASE_URL, GITHUB_REPO } = require('./config');
 
 const CODE_SET_PARENT_DIR = join(__dirname, '..', 'shared', 'clinical-code-sets');
-let clinicalCodesByTerminology = { emis: {}, readv2: {}, snomed: {}, ctv3: {} };
-let clinicalCodesByConcept = {};
+const EMIS = 'emis';
+const SNOMED = 'snomed';
+const READv2 = 'readv2';
+const CTV3 = 'ctv3';
+const terminologies = [EMIS, SNOMED, READv2, CTV3];
+let clinicalCodesByTerminology;
+let clinicalCodesByConcept;
+
+function initializeClinicalCodeObjects() {
+  clinicalCodesByTerminology = {};
+  terminologies.forEach((terminology) => {
+    clinicalCodesByTerminology[terminology] = {};
+  });
+  clinicalCodesByConcept = {};
+}
 
 const createCodeSet = (type, codeSetName) => {
   // Create the code set directory
@@ -31,17 +45,65 @@ ${VERSION_DIR}
 `);
 };
 
-/**
- * Method to check that a code set exists
- */
-const checkCodeSetExists = (codeSetName) => {
+const getCodesetType = (codeSet) => {
   const codeSetTypes = getClinicalCodeSetTypes();
   for (let i = 0; i < codeSetTypes.length; i++) {
-    if (existsSync(join(CODE_SET_PARENT_DIR, codeSetTypes[i], codeSetName))) {
-      return true;
+    const codeSetDir = join(CODE_SET_PARENT_DIR, codeSetTypes[i], codeSet);
+    if (existsSync(codeSetDir)) {
+      return codeSetTypes[i];
     }
   }
   return false;
+};
+
+/**
+ * Method to check that a code set exists
+ * @param {Object} config
+ * @param {string} config.codeSet - The hyphen-delimited code set name
+ * @param {string} [config.version] - The code set version
+ * @returns {Boolean} Whether the code set exists
+ */
+const theCodeSetExists = ({ codeSet, version }) => {
+  const codeSetType = getCodesetType(codeSet);
+  if (!codeSetType) return false; // can't find the code set type so doesn't exist
+  if (!version) return true; // code set type exists, therefore it does and version is unimportant
+
+  // If here, then we are looking for a particular version of an existing code set
+  const codeSetVersionDir = join(CODE_SET_PARENT_DIR, codeSetType, codeSet, version);
+  return existsSync(codeSetVersionDir);
+};
+
+const getCodeSets = ({ codeSet, type = getCodesetType(codeSet), version }) => {
+  const codeSetVersionDir = join(CODE_SET_PARENT_DIR, type, codeSet, version);
+  const codeSetFiles = readdirSync(codeSetVersionDir)
+    .map((filename) => {
+      const [txt, terminology, ...codeSetName] = filename.split('.').reverse();
+      if (txt !== 'txt') return false;
+      if (!codeSetName || codeSetName.length === 0) return false;
+      if (terminologies.indexOf(terminology) < 0) {
+        warn(
+          `Unknown code set type for [${codeSet} v${version}]. Expecting one of [${terminologies.join(
+            '|'
+          )}], but instead found "${terminology}"`
+        );
+        return false;
+      }
+      const file = readFileSync(join(codeSetVersionDir, filename), 'utf8');
+      return { terminology, file };
+    })
+    .filter(Boolean);
+  return codeSetFiles;
+};
+
+const getCodeSet = (codeSet) => {
+  const type = getCodesetType(codeSet);
+  const versions = getCodeSetVersions(type, codeSet);
+  const codeSetObject = {};
+  versions.forEach((version) => {
+    codeSetObject[version] = getCodeSets({ codeSet, type, version });
+  });
+
+  return codeSetObject;
 };
 
 /**
@@ -49,8 +111,7 @@ const checkCodeSetExists = (codeSetName) => {
  */
 const evaulateCodeSets = () => {
   log('\nEvaluating the code sets...');
-  clinicalCodesByTerminology = { emis: {}, readv2: {}, snomed: {}, ctv3: {} };
-  clinicalCodesByConcept = {};
+  initializeClinicalCodeObjects();
 
   const codeSetTypes = getClinicalCodeSetTypes();
 
@@ -158,7 +219,9 @@ CREATE TABLE #codes${terminology} (
 ) ON [PRIMARY];
 
 ${Object.keys(clinicalCodesByTerminology[terminology])
-  .filter((concept) => conditions.length === 0 || conditions.indexOf(concept) > -1)
+  .filter(
+    (concept) => conditions.length === 0 || conditions.map((x) => x.codeSet).indexOf(concept) > -1
+  )
   .map((concept) =>
     Object.keys(clinicalCodesByTerminology[terminology][concept])
       .map((version) =>
@@ -564,6 +627,33 @@ function isValidDataRow(row) {
   return row.match(/^[^\t]+\t[^\t]+$/);
 }
 
+function getReadMe(codeSet, version) {
+  const codeSetTypes = getClinicalCodeSetTypes();
+  for (let i = 0; i < codeSetTypes.length; i++) {
+    if (existsSync(join(CODE_SET_PARENT_DIR, codeSetTypes[i], codeSet, version))) {
+      const readmeFile = join(CODE_SET_PARENT_DIR, codeSetTypes[i], codeSet, version, 'README.md');
+      if (existsSync(readmeFile)) {
+        return {
+          link: `${GITHUB_BASE_URL}/shared/clinical-code-sets/${codeSetTypes[i]}/${codeSet}/${version}`,
+          linkName: `${GITHUB_REPO}/.../${codeSetTypes[i]}/${codeSet}/${version}`,
+          file: readFileSync(readmeFile, 'utf8'),
+        };
+      } else {
+        warn(
+          `You are using version ${version} of the ${codeSet} code set, but that doesn't have a README.md file.`
+        );
+        return false;
+      }
+    }
+  }
+  warn(`The version ${version} of the ${codeSet} code set doesn't seem to exist.`);
+  return false;
+}
+
+function getReadMes(codeSets) {
+  return codeSets.map((x) => getReadMe(x.codeSet, x.version)).filter(Boolean);
+}
+
 module.exports = {
   evaulateCodeSets,
   createCodeSetSQL,
@@ -571,5 +661,7 @@ module.exports = {
   getClinicalCodeSets,
   isValidCodeSet,
   createCodeSet,
-  checkCodeSetExists,
+  theCodeSetExists,
+  getReadMes,
+  getCodeSet,
 };

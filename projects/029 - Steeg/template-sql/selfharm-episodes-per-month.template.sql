@@ -29,7 +29,7 @@ INTO #Patients
 FROM [RLS].vw_Patient P
 LEFT JOIN [RLS].vw_Patient_Link PL ON P.FK_Patient_Link_ID = PL.PK_Patient_Link_ID
 
---> CODESET selfharm-episodes
+--> CODESET selfharm-episodes:1
 
 --> EXECUTE query-patient-sex.sql
 --> EXECUTE query-patient-imd.sql

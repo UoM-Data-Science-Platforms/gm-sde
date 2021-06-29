@@ -28,7 +28,7 @@
 --  - HasCancer
 --  - NumberOfMatches
 
---> CODESET cancer
+--> CODESET cancer:1
 
 -- Get the first cancer diagnosis date of cancer patients 
 IF OBJECT_ID('tempdb..#AllCancerPatients') IS NOT NULL DROP TABLE #AllCancerPatients;

@@ -67,7 +67,7 @@ _Output_
 A temp table as follows:
  #COVIDUtilisationAdmissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
 	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of discharge (YYYY-MM-DD)
+	- AdmissionDate - date of admission (YYYY-MM-DD)
 	- AcuteProvider - Bolton, SRFT, Stockport etc..
 	- CovidHealthcareUtilisation - 'TRUE' if admission within 4 weeks after, or up to 14 days before, a positive test
 ```
@@ -89,14 +89,14 @@ _Output_
 Two temp table as follows:
  #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
  	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of discharge (YYYY-MM-DD)
+	- AdmissionDate - date of admission (YYYY-MM-DD)
 	- AcuteProvider - Bolton, SRFT, Stockport etc..
   (Limited to one admission per person per hospital per day, because if a patient has 2 admissions
    on the same day to the same hopsital then it's most likely data duplication rather than two short
    hospital stays)
  #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
  	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of discharge (YYYY-MM-DD)
+	- AdmissionDate - date of admission (YYYY-MM-DD)
 	- DischargeDate - date of discharge (YYYY-MM-DD)
 	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
 ```
@@ -419,7 +419,7 @@ BMI codes retrieved from [GetSet](https://getset.ga) and metadata available in t
 **NB: This code set is intended to indicate whether a BMI has been recorded, NOT what the value was. If you require a patient's BMI then this is not the code set for you.**
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `66.22% - 79.69%` suggests that this code set is perhaps not well defined. However, as EMIS (80% of practices) and TPP (10% of practices) are close, it could simply be down to Vision automatically recording BMIs and therefore increasing the prevalence there.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `64.05% - 79.69%` suggests that this code set is perhaps not well defined. However, as EMIS (80% of practices) and TPP (10% of practices) are close, it could simply be down to Vision automatically recording BMIs and therefore increasing the prevalence there.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |

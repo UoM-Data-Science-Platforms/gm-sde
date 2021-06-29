@@ -35,7 +35,7 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 --> EXECUTE query-patient-sex.sql
 --> EXECUTE query-patient-year-of-birth.sql
 
---> CODESET severe-mental-illness
+--> CODESET severe-mental-illness:1
 
 -- SMI episodes to identify cohort
 
