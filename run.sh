@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 # ┌───────────────────────────────────────────────┐
 # │ Linux/mac bash script to call the main script │
