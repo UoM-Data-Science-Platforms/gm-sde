@@ -182,3 +182,27 @@ Attempted to find the location of information related to project no.1 (Grant), i
 
 02/06/21
 - look into why the cohort matching isn't consistent across data files
+
+03/06/21
+- test cohort matching using a different order_by
+
+04/06/21
+- try running each data file to validate - having issues with SQL connection dropping out
+
+08/06/21
+- running final output files and checking outputs
+
+10/06/21
+- apply shortened matching code to RQ-028 files and validate outputs
+- edit the yob-sex matching code so that it is consistent across multiple data files
+
+14/06/21
+- refreshed RQ029 data to include May
+- investigated positive covid tests with date after death date
+
+16/06/21
+- calculate prevalences for all code sets used in RQ028
+
+17/06/21
+- looking into the TPP discrepancy in major-recurrent-depression code set
+
