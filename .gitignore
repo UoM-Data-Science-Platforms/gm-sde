@@ -1,2 +1,6 @@
 node_modules/
 .DS_Store
+
+projects/_example/clinical-code-sets.csv
+projects/_example/README.html
+projects/_example/README.md
