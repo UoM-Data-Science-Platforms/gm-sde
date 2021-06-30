@@ -49,7 +49,7 @@ IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
---> CODESET recurrent-depressive:1 schizophrenia-psychosis:1 bipolar:1 severe-mental-illness:1
+--> CODESET recurrent-depressive:1 schizophrenia-psychosis:1 bipolar:1 depression:1
 
 --> EXECUTE query-patient-sex.sql
 --> EXECUTE query-patient-imd.sql
@@ -83,6 +83,26 @@ SELECT DISTINCT FK_Patient_Link_ID
 INTO #COVIDDeath FROM RLS.vw_COVID19
 WHERE DeathWithin28Days = 'Y';
 
+-- cohort of patients with depression
+
+IF OBJECT_ID('tempdb..#depression_cohort') IS NOT NULL DROP TABLE #depression_cohort;
+SELECT DISTINCT gp.FK_Patient_Link_ID
+INTO #depression_cohort
+FROM [RLS].[vw_GP_Events] gp
+WHERE SuppliedCode IN 
+	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('depression') AND [Version] = 1)
+    AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+	AND (gp.EventDate) <= '2020-01-31'
+--655,657
+
+-- take a 10 percent sample of depression patients, to add to SMI cohort later on
+
+IF OBJECT_ID('tempdb..#depression_cohort_sample') IS NOT NULL DROP TABLE #depression_cohort_sample;
+SELECT TOP 10 PERCENT *
+INTO #depression_cohort_sample
+FROM #depression_cohort
+ORDER BY FK_Patient_Link_ID --not ideal to order by this but need it to be the same across files
+--65,566
 
 ---- CREATE TABLE OF ALL PATIENTS THAT HAVE ANY LIFETIME DIAGNOSES OF SMI AS OF 31.01.20
 
@@ -101,7 +121,9 @@ SELECT gp.FK_Patient_Link_ID,
 		Bipolar_Code = CASE WHEN SuppliedCode IN 
 					( SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('bipolar') AND [Version] = 1 ) THEN 1 ELSE 0 END,			
 		Recurrent_Depressive_Code = CASE WHEN SuppliedCode IN 
-					( SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('recurrent-depressive') AND [Version] = 1 ) THEN 1 ELSE 0 END
+					( SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('recurrent-depressive') AND [Version] = 1 ) THEN 1 ELSE 0 END,
+		Depression_Code = CASE WHEN SuppliedCode IN 
+					( SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('depression') AND [Version] = 1 ) THEN 1 ELSE 0 END
 INTO #SMI_Episodes
 FROM [RLS].[vw_GP_Events] gp
 LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
@@ -110,10 +132,14 @@ LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientPracticeAndCCG prac ON prac.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-WHERE SuppliedCode IN 
-	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('severe-mental-illness') AND [Version] = 1)
+WHERE ((SuppliedCode IN 
+	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('recurrent-depressive', 'bipolar', 'schizophrenia-psychosis') AND [Version] = 1)) 
+	OR 
+	  (SuppliedCode IN 
+	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('depression') AND [Version] = 1) AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #depression_cohort_sample)))
     AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND (gp.EventDate) <= '2020-01-31'
+
 
 -- Define the main cohort to be matched
 
@@ -194,6 +220,14 @@ SELECT FK_Patient_Link_ID
 INTO #EarliestDiagnosis_Recurrent_Depressive
 FROM #SMI_Episodes 
 WHERE Recurrent_Depressive_Code = 1
+GROUP BY FK_Patient_Link_ID
+
+IF OBJECT_ID('tempdb..#EarliestDiagnosis_Depression ') IS NOT NULL DROP TABLE #EarliestDiagnosis_Depression ;
+SELECT FK_Patient_Link_ID
+	,EarliestDiagnosis_Depression = MIN(EventDate)
+INTO #EarliestDiagnosis_Depression
+FROM #SMI_Episodes 
+WHERE Depression_Code = 1
 GROUP BY FK_Patient_Link_ID
 
 
@@ -303,7 +337,6 @@ SELECT	 PatientId = m.FK_Patient_Link_ID
 		,HO_blindness_low_vision = ISNULL(HO_blindness_low_vision, 0)
 		,HO_glaucoma = ISNULL(HO_glaucoma, 0)
 		,HO_hearing_loss = ISNULL(HO_hearing_loss, 0)
-		,HO_asthma = ISNULL(HO_asthma, 0)
 		,HO_learning_disability = ISNULL(HO_learning_disability, 0)
 		,HO_alcohol_problems = ISNULL(HO_alcohol_problems, 0)
 		,HO_psychoactive_substance_abuse = ISNULL(HO_psychoactive_substance_abuse, 0)
@@ -313,6 +346,8 @@ SELECT	 PatientId = m.FK_Patient_Link_ID
 		,EarliestDiagnosis_Bipolar
 		,HO_Recurrent_Depressive = ISNULL(CASE WHEN EarliestDiagnosis_Recurrent_Depressive IS NULL THEN 0 ELSE 1 END, 0)
 		,EarliestDiagnosis_Recurrent_Depressive
+		,HO_Depression = ISNULL(CASE WHEN EarliestDiagnosis_Depression IS NULL THEN 0 ELSE 1 END, 0)
+		,EarliestDiagnosis_Depression
 		,DeathAfter31Jan20 = CASE WHEN pl.DeathDate > '2020-01-31' THEN 'Y' ELSE 'N' END
 		,DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END
 		,DeathDateDueToCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN STUFF(CONVERT(varchar(10), pl.DeathDate,104),1,3,'') ELSE null END
@@ -375,7 +410,6 @@ SELECT	PatientId = m.FK_Patient_Link_ID
 		,HO_blindness_low_vision = ISNULL(HO_blindness_low_vision, 0)
 		,HO_glaucoma = ISNULL(HO_glaucoma, 0)
 		,HO_hearing_loss = ISNULL(HO_hearing_loss, 0)
-		,HO_asthma = ISNULL(HO_asthma, 0)
 		,HO_learning_disability = ISNULL(HO_learning_disability, 0)
 		,HO_alcohol_problems = ISNULL(HO_alcohol_problems, 0)
 		,HO_psychoactive_substance_abuse = ISNULL(HO_psychoactive_substance_abuse, 0)
@@ -385,6 +419,8 @@ SELECT	PatientId = m.FK_Patient_Link_ID
 		,EarliestDiagnosis_Bipolar
 		,HO_Recurrent_Depressive = ISNULL(CASE WHEN EarliestDiagnosis_Recurrent_Depressive IS NULL THEN 0 ELSE 1 END, 0)
 		,EarliestDiagnosis_Recurrent_Depressive
+		,HO_Depression = ISNULL(CASE WHEN EarliestDiagnosis_Depression IS NULL THEN 0 ELSE 1 END, 0)
+		,EarliestDiagnosis_Depression
 		,DeathAfter31Jan20 = CASE WHEN pl.DeathDate > '2020-01-31' THEN 'Y' ELSE 'N' END
 		,DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END
 		,DeathDateDueToCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN STUFF(CONVERT(varchar(10), pl.DeathDate,104),1,3,'') ELSE null END
