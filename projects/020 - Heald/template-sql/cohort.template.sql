@@ -41,7 +41,7 @@ DECLARE @EventsFromDate datetime;
 SET @EventsFromDate = DATEADD(year, -2, @StartDate);
 
 -- First get all the diabetic (type 1/type 2/other) patients and the date of first diagnosis
---> CODESET diabetes
+--> CODESET diabetes:1
 IF OBJECT_ID('tempdb..#DiabeticPatients') IS NOT NULL DROP TABLE #DiabeticPatients;
 SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstDiagnosisDate INTO #DiabeticPatients
 FROM RLS.vw_GP_Events
@@ -52,7 +52,7 @@ WHERE (
 GROUP BY FK_Patient_Link_ID;
 
 -- Get separate cohorts for paients with type 1 diabetes and type 2 diabetes
---> CODESET diabetes-type-i
+--> CODESET diabetes-type-i:1
 IF OBJECT_ID('tempdb..#DiabeticTypeIPatients') IS NOT NULL DROP TABLE #DiabeticTypeIPatients;
 SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstT1DiagnosisDate INTO #DiabeticTypeIPatients
 FROM RLS.vw_GP_Events
@@ -62,7 +62,7 @@ WHERE (
 )
 GROUP BY FK_Patient_Link_ID;
 
---> CODESET diabetes-type-ii
+--> CODESET diabetes-type-ii:1
 IF OBJECT_ID('tempdb..#DiabeticTypeIIPatients') IS NOT NULL DROP TABLE #DiabeticTypeIIPatients;
 SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstT2DiagnosisDate INTO #DiabeticTypeIIPatients
 FROM RLS.vw_GP_Events
@@ -165,7 +165,7 @@ INNER JOIN (
 ) sub ON sub.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND sub.FirstAdmission = l.AdmissionDate
 GROUP BY l.FK_Patient_Link_ID;
 
---> CODESET bmi hba1c cholesterol ldl-cholesterol hdl-cholesterol vitamin-d testosterone sex-hormone-binding-globulin egfr
+--> CODESET bmi:2 hba1c:2 cholesterol:2 ldl-cholesterol:1 hdl-cholesterol:1 vitamin-d:1 testosterone:1 sex-hormone-binding-globulin:1 egfr:1
 IF OBJECT_ID('tempdb..#PatientValuesWithIds') IS NOT NULL DROP TABLE #PatientValuesWithIds;
 SELECT 
 	FK_Patient_Link_ID,
@@ -281,7 +281,7 @@ WHERE Concept = 'sex-hormone-binding-globulin';
 
 
 -- diagnoses
---> CODESET copd
+--> CODESET copd:1
 IF OBJECT_ID('tempdb..#PatientDiagnosesCOPD') IS NOT NULL DROP TABLE #PatientDiagnosesCOPD;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #PatientDiagnosesCOPD
@@ -292,7 +292,7 @@ WHERE (
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
---> CODESET asthma
+--> CODESET asthma:1
 IF OBJECT_ID('tempdb..#PatientDiagnosesASTHMA') IS NOT NULL DROP TABLE #PatientDiagnosesASTHMA;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #PatientDiagnosesASTHMA
@@ -303,7 +303,7 @@ WHERE (
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
---> CODESET severe-mental-illness
+--> CODESET severe-mental-illness:1
 IF OBJECT_ID('tempdb..#PatientDiagnosesSEVEREMENTALILLNESS') IS NOT NULL DROP TABLE #PatientDiagnosesSEVEREMENTALILLNESS;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #PatientDiagnosesSEVEREMENTALILLNESS
@@ -316,7 +316,7 @@ AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 
 -- medications
---> CODESET metformin
+--> CODESET metformin:1
 IF OBJECT_ID('tempdb..#PatientMedicationsMETFORMIN') IS NOT NULL DROP TABLE #PatientMedicationsMETFORMIN;
 SELECT 
 	FK_Patient_Link_ID,
@@ -330,7 +330,7 @@ WHERE (
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate > @MedicationsFromDate;
 
---> CODESET ace-inhibitor
+--> CODESET ace-inhibitor:1
 IF OBJECT_ID('tempdb..#PatientMedicationsACEI') IS NOT NULL DROP TABLE #PatientMedicationsACEI;
 SELECT 
 	FK_Patient_Link_ID,
@@ -344,7 +344,7 @@ WHERE (
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate > @MedicationsFromDate;
 
---> CODESET aspirin
+--> CODESET aspirin:1
 IF OBJECT_ID('tempdb..#PatientMedicationsASPIRIN') IS NOT NULL DROP TABLE #PatientMedicationsASPIRIN;
 SELECT 
 	FK_Patient_Link_ID,
@@ -358,7 +358,7 @@ WHERE (
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate > @MedicationsFromDate;
 
---> CODESET clopidogrel
+--> CODESET clopidogrel:1
 IF OBJECT_ID('tempdb..#PatientMedicationsCLOPIDOGREL') IS NOT NULL DROP TABLE #PatientMedicationsCLOPIDOGREL;
 SELECT 
 	FK_Patient_Link_ID,

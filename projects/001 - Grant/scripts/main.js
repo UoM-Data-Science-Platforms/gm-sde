@@ -4,12 +4,14 @@ const msRestNodeAuth = require('@azure/ms-rest-nodeauth');
 const chalk = require('chalk');
 const inquirer = require('inquirer');
 const { join } = require('path');
+const puppeteer = require('puppeteer');
 require('clear')();
 const { version } = require('./package.json');
 
-const EXTRACTION_DIR = join(__dirname, '..', 'extraction-sql');
-const OUTPUT_DIR = join(__dirname, '..', 'output-for-analysts');
-const PSEUDO_ID_DIR = join(__dirname, '..', 'pseudo-id-data');
+const PROJECT_DIR = join(__dirname, '..');
+const EXTRACTION_DIR = join(PROJECT_DIR, 'extraction-sql');
+const OUTPUT_DIR = join(PROJECT_DIR, 'output-for-analysts');
+const PSEUDO_ID_DIR = join(PROJECT_DIR, 'pseudo-id-data');
 const PSEUDO_ID_FILE = join(PSEUDO_ID_DIR, 'pseudo-ids.txt');
 const store = { pseudoLookup: {} };
 
@@ -21,6 +23,7 @@ process.kill = () => {
 };
 
 confirmClearOutputDirectory()
+  .then(createReadMePdf)
   .then(getQueriesToRun)
   .then(getQueryContent)
   .then(confirmPseudoIdRequired)
@@ -58,6 +61,43 @@ to the study shared folder. This will have the form ${chalk.cyanBright(
     log(err.message);
     log(err);
   });
+
+async function createReadMePdf() {
+  const readmeHTML = join(PROJECT_DIR, `README.html`);
+  const readmePDF = join(OUTPUT_DIR, `README.pdf`);
+
+  log('Creating a pdf from the README.html...');
+
+  // launch a new chrome instance
+  const browser = await puppeteer.launch({
+    headless: true,
+  });
+
+  // create a new page
+  const page = await browser.newPage();
+
+  // set your html as the pages content
+  const html = fs.readFileSync(readmeHTML, 'utf8');
+  await page.setContent(html, {
+    waitUntil: 'domcontentloaded',
+  });
+
+  await page
+    .pdf({
+      format: 'A4',
+      path: readmePDF,
+      printBackground: true,
+    })
+    .then(() => {
+      log('README pdf written successfully.');
+    })
+    .catch(() => {
+      logWarning('Saving pdf failed. Perhaps it is open?');
+    });
+
+  // close the browser
+  await browser.close();
+}
 
 function executeSql() {
   return Promise.all(store.files.map(executeSqlFile));
@@ -525,7 +565,9 @@ Please close any files and try again.`)
 function writeReadme() {
   fs.writeFileSync(
     join(OUTPUT_DIR, '_README_FIRST.txt'),
-    `* Data from the RDEs will be in the data/raw folder. Do not edit the contents of this folder.
+    `* NB. All analysis files should be stored in this shared drive. Although it is possible to store files elsewhere on this machine e.g. the C:\\ and D:\\ drives, these locations are not guaranteed to persist, and you could lose your files.
+
+* Data from the RDEs will be in the data/raw folder. Do not edit the contents of this folder.
 
 * Data that you have processed through your scripts goes in the data/processed folder.
 

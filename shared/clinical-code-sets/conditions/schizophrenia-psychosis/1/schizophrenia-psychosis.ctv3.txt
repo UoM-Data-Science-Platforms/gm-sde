@@ -1,11 +1,43 @@
+13Y2.	Schizophrenia association member
+286..	Poor insight into psychotic condition
 1BC..	Morbid jealousy
+1B1E.	Hallucinations
+1464	H/O: schizophrenia
+E0...	Organic psychotic condition
+E00..	Senile and presenile organic psychotic conditions (& dementia)
+E00y.	(Other senile and presenile organic psychoses) or (presbyophrenic psychosis)
+E00z.	Senile or presenile psychoses NOS
+E010.	Delirium tremens
+E011.	Korsakoff psychosis
+E0111	Korsakov's alcoholic psychosis with peripheral neuritis
+E0112	Wernicke-Korsakov syndrome
+E02..	Drug-induced psychosis
+E021.	Drug-induced paranoia or hallucinatory states
+E0210	Drug-induced paranoid state
+E0211	Drug-induced hallucinosis
+E021z	Drug-induced paranoia or hallucinatory state NOS
+E02y.	Other drug psychoses
+E02y0	Drug-induced delirium
+E02y3	Drug-induced depressive state
+E02y4	Drug-induced personality disorder
+E02z.	Drug psychosis NOS
+E03..	Transient organic psychoses
+E03y.	Other transient organic psychoses
 E03y0	Organic delusional disorder
 E03y0	Paranoid organic state
+E03y3	Unspecified puerperal psychosis
+E03z.	Transient organic psychoses NOS
+E04..	Other chronic organic psychoses
+E04y.	Other specified chronic organic psychoses
+E04z.	Chronic organic psychosis NOS
+E0y..	Other specified organic psychoses
+E0z..	Organic psychoses NOS
 E1...	Non-organic psychoses
 E100.	Schizophrenia simplex
 E100.	Simple schizophrenia
 E1000	Unspecified schizophrenia
 E1001	Subchronic schizophrenia
+E1002	Chronic schizophrenic
 E1003	Acute exacerbation of subchronic schizophrenia
 E1004	Acute exacerbation of chronic schizophrenia
 E1005	Schizophrenia in remission
@@ -66,31 +98,80 @@ E10y1	Cenesthopathic schizophrenia
 E10y1	Coenesthopathic schizophrenia
 E10yz	Other schizophrenia NOS
 E10z.	Schizophrenia NOS
+E11..	Affective psychoses (& [bipolar] or [depressive] or [manic])
+E1104	"Single manic episode, severe, with psychosis"
+E1114	"Recurrent manic episodes, severe, with psychosis"
+E1134	"Recurrent major depressive episodes, severe, with psychosis"
+E1144	"Bipolar affect disord, currently manic,severe with psychosis"
+E1154	"Bipolar affect disord, now depressed, severe with psychosis"
+E1164	"Mixed bipolar affective disorder, severe, with psychosis"
+E1174	"Unspecified bipolar affective disorder,severe with psychosis"
+E11y.	Other and unspecified manic-depressive psychoses
+E11y0	Unspecified manic-depressive psychoses
+E11yz	Other and unspecified manic-depressive psychoses NOS
+E11z.	Other and unspecified affective psychoses
+E11z0	Unspecified affective psychoses NOS
+E11zz	Other affective psychosis NOS
+E12..	Paranoid disorder
 E12..	Paranoid disorder
 E120.	Simple paranoid state
 E122.	Paraphrenia
 E123.	Folie a deux
 E123.	Shared paranoid disorder
 E12y.	Other paranoid states
+E12y.	Other paranoid states
+E12y0	Paranoia querulans
 E12yz	Other paranoid states NOS
 E12z.	Paranoid psychosis NOS
-E13..	Other nonorganic psychoses
 E13..	Psychoses: [other nonorganic] or [reactive]
 E13..	Reactive psychoses
+E130.	Reactive depressive psychosis
+E131.	Acute hysterical psychosis
 E133.	Bouffee delirante
 E134.	Psychogenic paranoid psychosis
 E13y.	Other reactive psychoses
+E13y0	Psychogenic stupor
+E13y1	Brief reactive psychosis
 E13yz	Other reactive psychoses NOS
 E13z.	Nonorganic psychosis NOS
 E13z.	Psychosis: [nonorganic NOS] or [episode NOS]
 E13z.	Psychotic episode NOS
+E14..	Psychoses with origin in childhood
+E141.	Disintegrative psychosis
+E141.	Childhood disintegrative disorder
+E141z	Disintegrative psychosis NOS
+E14y0	Atypical childhood psychoses
+E14y1	Borderline psychosis of childhood
+E14yz	Other childhood psychoses NOS
+E14z.	Childhood schizophrenia NOS
+E1410	Active disintegrative psychoses
+E1411	Residual disintegrative psychoses
 E1y..	Other specified non-organic psychoses
-E2122	Schizoptypal disorder
+E201.	Hysteria
+E2010	Hysteria unspecified
+E2110	Unspecified affective personality disorder
+E2113	Affective personality disorder
+E211z	Affective personality disorder NOS
+E212.	Schizoid personality disorder
+E2120	Unspecified schizoid personality disorder
 E2122	Schizotypal personality disorder
+E212z	Schizoid personality disorder NOS
+Eu04.	[X]Acute / subacute infective psychosis
+Eu02z	[X] Dementia: [unspecif] or [presenile NOS (including presenile psychosis NOS)] or [primary degenerative NOS] or [senile NOS (including senile psychosis NOS)] or [senile depressed or paranoid type]
 Eu052	[X] (Organic delusional (schizophrenia-like) disorder) or (paranoid organic state) or (schizophrenia-like psychosis in epilepsy)
 Eu052	[X]Organic delusional [schizophrenia-like] disorder
 Eu052	[X]Paranoid organic state
 Eu052	[X]Schizophrenia-like psychosis in epilepsy
+Eu104	[X]Mental and behavioural disorders due to use of alcohol: withdrawal state with delirium
+Eu106	[X]Mental and behavioural disorders due to use of alcohol: amnesic syndrome
+Eu107	[X] (Mental and behavioural disorders due to use of alcohol: residual and late-onset psychotic disorder) or (chronic alcoholic brain syndrome [& dementia NOS])
+Eu115	[X]Mental and behavioural disorders due to use of opioids: psychotic disorder
+Eu125	[X]Mental and behavioural disorders due to use of cannabinoids: psychotic disorder
+Eu135	[X]Mental and behavioural disorders due to use of sedatives or hypnotics: psychotic disorder
+Eu145	[X]Mental and behavioural disorders due to use of cocaine: psychotic disorder
+Eu155	"[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: psychotic disorder"
+Eu195	[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: psychotic disorder
+Eu2..	"[X]Schizophrenia, schizotypal and delusional disorders"
 Eu20.	Schizophrenia
 Eu202	[X] (Catatonic schizophrenia) or (catatonic stupor) or (schizophrenic catalepsy) or (schizophrenic catatonia) or (schizophrenic flexibilatis cerea)
 Eu202	[X]Catatonic schizophrenia
@@ -121,6 +202,7 @@ Eu220	Paranoid state
 Eu220	Sensitiver Beziehungswahm
 Eu22y	[X] (Other persistent delusional disorders) or (delusional dysmorphophobia) or (involutional paranoid state) or (paranoia querulans)
 Eu22y	[X]Other persistent delusional disorders
+Eu22z	"[X]Persistent delusional disorder, unspecified"
 Eu22z	"[X]Persistent delusional disorder, unspecified"
 Eu230	[X]Acute polymorphic psychotic disorder without symptoms of schizophrenia
 Eu230	[X]Bouffee delirante
@@ -156,43 +238,170 @@ Eu2z.	[X] Psychosis NOS
 Eu2z.	[X] Psychosis: [unspecified nonorganic] or [NOS]
 Eu2z.	[X]Psychosis NOS
 Eu2z.	[X]Unspecified nonorganic psychosis
+Eu332	"[X]Depression without psychotic symptoms: [recurrent: [major] or [manic-depressive psychosis, depressed type] or [vital] or [current severe episode]] or [endogenous]"
 X00Qx	Psychotic episode NOS
 X00Qy	Reactive psychoses
+X00RU	Epileptic psychosis
+X00RV	Intensive care psychosis
 X00S6	Psychotic
 X00S6	Psychotic disorder
+X00S7	Childhood schizophrenia NOS
 X00S8	Post-schizophrenic depression
 X00SA	Persistent delusional disorder
+X00SB	Delusional pain
 X00SC	Acute transient psychotic disorder
+X00SD	Schizophreniform disorder
+X40Do	Mild postnatal psychosis
+X40Dp	Severe postnatal psychosis
+X50GE	Cutaneous monosymptomatic delusional psychosis
+X50GF	Delusions of parasitosis
+X50GG	Delusions of infestation
+X50GH	Delusion of foul odour
+X50GJ	Delusional hyperhidrosis
+X75yq	Grandiose delusions
+X75yr	Delusion of grandiose ability
+X75ys	Delusion of grandiose identity
+X75yt	Delusion of special mission
+X75yu	Religious delusion
+X75yv	Delusional mood
+X75yw	Delusional perplexity
+X75yx	Delusion associated with abnormal perception
+X75yy	Delusion associated with smell
+X75yz	Delusion associated with sexual hallucinations
+X75z0	Bizarre delusion associated with bodily sensation
+X75z1	Delusion of depersonalisation
+X75z2	Nihilistic delusion
+X75z3	Delusion concerning appearance
+X75z4	Delusion of persecution
+X75z5	Delusional jealousy
+X75z6	Erotomanic delusion
+X75z7	Capgras syndrome
+X75z8	Delusion of guilt
+X75z9	Delusion of catastrophe
+X75zA	Depressive delusion of catastrophe
+X75zB	Delusion of poverty
+X75zC	Depressive delusion of poverty
+X75zD	Hypochondriacal delusion
+X75zE	Depressive hypochondriacal delusion
+X75zH	Delusion of replacement of will by external force
+X75zI	Delusion of control of voice
+X75zJ	Delusion of control of handwriting
+X75zM	Delusion of own appearance
+X75zz	Verbal auditory hallucinations
+X7600	Non-verbal auditory hallucinations
+X7601	Hallucinations of music
+X7603	Unformed visual hallucinations
+X7604	Formed visual hallucinations
+X7605	Scenic visual hallucinations
+X7606	Hallucination of self giving off a smell
+X7607	Hallucination of others giving off a smell
+X7608	Hallucinations of pain
+X7609	Hallucinations of temperature
+X760A	Hallucinations in several modalities at once
+X760B	Hallucinations of internal bodily sensation
+X760C	Hallucinations associated with bereavement
+X760D	Sexual hallucinations
+X760F	Hypnopompic hallucination
+X761M	Schizophrenic prodrome
 X75yp	Delusion
 X75yp	Delusional ideas
 X75yp	Delusional thoughts
 X75yp	Delusions
 X75z5	Delusional jealousy
-X761M	Prepsychotic schizophrenia
-X761M	Prodromal schizophrenia
-X761M	Schizophrenic prodrome
 X763T	Catatonia
+Xa00w	Retrospective delusions
+Xa0lD	Involutional paranoid state
+Xa0lF	Delusional dysmorphophobia
+Xa0RT	Second person verbal auditory hallucinations
+Xa0RX	Third person verbal auditory hallucinations
+Xa0s8	Paranoid-hallucinatory epileptic psychosis
+Xa0s9	Acute schizophrenia-like psychotic disorder
 Xa0s9	Acute schizophrenia-like psychotic disorder
 Xa0tC	Late paraphrenia
+Xa0tC	Late paraphrenia
+Xa1aD	Monosymptomatic hypochondriacal psychosis
+Xa1aF	Erotomania
+Xa1bS	Othello syndrome
+Xa25J	Alcoholic dementia
+Xa33b	Delusion of unworthiness
+Xa3b1	Schizoid character
+Xa3Dz	Hallucinations of simple sounds
+Xa3E0	Formed hallucinations of people
+Xa3E1	Formed hallucinations of animals
+Xa3E2	Formed hallucinations of insects
+Xa3E3	Formed hallucinations of objects
+Xa3F9	Extracampine hallucinations
+Xa3FA	Functional hallucinations
+Xa3FB	Reflex hallucinations
+Xa3WO	Manic
+Xa3Y9	Delusional projection - mental defence mechanism
+Xa3YM	Manic defence
+Xa3YW	Schizoid fantasy
+Xa4hZ	Lithium and its derivatives
+Xa5hW	Lithium allergy
+Xa5J3	Lithium adverse reaction
+Xa96U	Guilty ideas of reference
+Xa9B0	Puerperal psychosis
 Xa33a	Delusion of infidelity
 XaAyN	Ideas of reference
 XaB5u	Bouffee delirante
 XaB5v	Cycloid psychosis
 XaB8j	Oneirophrenia
+XaB95	Other manic-depressive psychos
+XaCHo	"[X] Manic-depressive psychosis, depressed type without psychotic symptoms"
+Xad6J	CBTp - cognitive behavioural therapy for psychosis
+XaIOm	Early intervention in psychosis
+XaIWE	Early intervention in psychosis - 24 hour intensive
+XaIWF	Early intervention in psychosis - 24 hour not intensive
+XaIWG	Early intervention in psychosis - Part day : day care
+XaIWH	Early intervention in psychosis - Daily intensive
+XaIWI	Early intervention in psychosis - 3-5 contacts/week
+XaIWJ	Early intervention in psychosis - 1-2 contacts/week
+XaIWK	Early intervention in psychosis - 1-3 contacts/month
+XaIWL	Early intervention in psychosis - <1 contact/month
+XaIXj	Early intervention in psychosis HRGs
+XaJQO	Early intervention in psychosis team
+XagU1	"Recurrent reactiv depressiv episodes, severe, with psychosis"
+XaKUm	O/E - paranoid delusions
+XaKUn	O/E - delusion of persecution
+XaL07	H/O: psychosis
+XaL19	Referral to psychosis early intervention service
+XaLIa	"Psychosis, schizophrenia and bipolar affective disorder resolved"
+XaK4Y	[X]Erotomania
+XaMwd	Schizophrenia resolved
+XaMwe	Psychosis resolved
+XaOmz	Analysing hallucinations
 XaKUl	Paranoid ideation
+XaX51	[X]Paranoid state in remission
+XaX52	Non-organic psychosis in remission
+XaX53	"Single major depress ep, severe with psych, psych in remissn"
+XaX54	"Recurr major depress ep, severe with psych, psych in remissn"
+XE1aI	Korsakov's psychosis
 XE1aM	Paranoid schizophrenia
 XE1aM	Schizophrenic psychoses
 XE1aM	Schizophrenic psychoses (& [paranoid schizophrenia])
 XE1aO	Paranoid schizophrenia
 XE1aO	Paraphrenia
+XE1aQ	Manic-depress.psychoses
 XE1aU	(Paranoid state(s)) or (delusion(s): [paranoid] or [persecution])
 XE1aU	Delusions - paranoid
-XE1aU	Paranoid state
 XE1aU	Paranoid states
 XE1aU	Persecution delusion
+XE1gN	[D]Hallucinations NEC
+XE1hk	"Psychotic condition, insight present"
+XE1Sz	On lithium
+XE1Xr	Senile and presenile organic psychotic conditions
+XE1Xt	Other senile and presenile organic psychoses
+XE1Xw	Acute schizophrenic episode
 XE1Xx	Other schizophrenia
+XE1Xz	"Manic disorder, single episode"
+XE1Y2	Chronic paranoid psychosis
 XE1Y3	Other non-organic psychoses
+XE1Y4	Acute paranoid reaction
 XE1Y5	Non-organic psychosis NOS
+XE1Y6	Child psychosis NOS
+XE1Y9	Hysteria NOS
+XE1YF	Paranoid personality disorder
 XE1ZM	[X]Other schizophrenia
 XE1ZN	[X]Schizotypal disorder
 XE1ZO	Delusional disorder
@@ -205,6 +414,7 @@ XE1ZS	"[X]Acute and transient psychotic disorder, unspecified"
 XE1ZT	[X]Other non-organic psychotic disorders
 XE1ZU	[X] Psychosis NOS
 XE1ZU	[X]Unspecified nonorganic psychosis
+XE1ZV	[X]Mania with psychotic symptoms
 XE2b8	Mixed schizophrenic and affective pschosis
 XE2b8	"Schizoaffective disorder, mixed type"
 XE2un	"Schizoaffective disorder, depressive type"
@@ -212,3 +422,14 @@ XE2un	"Schizophreniform psychosis, depressive type"
 XE2uT	"Schizoaffective disorder, manic type"
 XE2uT	"Schizophreniform psychosis, manic type"
 XM1GG	Borderline schizophrenia
+XM1GH	Acute polymorphic psychotic disorder
+XSGon	Severe major depression with psychotic features
+XM06V	Auditory hallucinations
+XM06W	Hallucinations of taste
+XM06X	Olfactory hallucinations
+XM06Y	Tactile hallucinations
+XM0lB	Lithium
+XM1Xj	Lithium monitoring
+XSKr7	Cotard syndrome
+ZV110	[V]Personal history of schizophrenia
+ZV111	[V]Personal history of manic-depressive psychosis

@@ -1,0 +1,256 @@
+A7886	Human immunodeficiency virus with secondary cancers
+B56..	(Lymph node metast) or (sec unsp malig neop lymph nodes)
+B560.	Secondary and unspec malig neop lymph nodes head/face/neck
+B5600	Secondary and unspec malig neop of superficial parotid LN
+B5601	Secondary and unspec malignant neoplasm mastoid lymph nodes
+B5602	Secondary and unspec malig neop superficial cervical LN
+B5603	Secondary and unspec malignant neoplasm occipital lymph node
+B5604	Secondary and unspec malig neop deep parotid lymph nodes
+B5605	Secondary and unspec malig neop submandibular lymph nodes
+B5606	Secondary and unspec malig neop of facial lymph nodes
+B5607	Secondary and unspec malig neop submental lymph nodes
+B5608	Secondary and unspec malig neop anterior cervical LN
+B5609	Secondary and unspec malig neop deep cervical LN
+B560z	Secondary unspec malig neop lymph nodes head/face/neck NOS
+B561.	Secondary and unspec malig neop intrathoracic lymph nodes
+B5610	Secondary and unspec malig neop internal mammary lymph nodes
+B5611	Secondary and unspec malig neop intercostal lymph nodes
+B5612	Secondary and unspec malig neop diaphragmatic lymph nodes
+B5613	Secondary and unspec malig neop ant mediastinal lymph nodes
+B5614	Secondary and unspec malig neop post mediastinal lymph nodes
+B5615	Secondary and unspec malig neop paratracheal lymph nodes
+B5616	Secondary and unspec malig neop superfic tracheobronchial LN
+B5617	Secondary and unspec malig neop inferior tracheobronchial LN
+B5618	Secondary and unspec malig neop bronchopulmonary lymph nodes
+B5619	Secondary and unspec malig neop pulmonary lymph nodes
+B561z	Secondary and unspec malig neop intrathoracic LN NOS
+B562.	Secondary and unspec malig neop intra-abdominal lymph nodes
+B5620	Secondary and unspec malig neop coeliac lymph nodes
+B5621	Secondary and unspec malig neop superficial mesenteric LN
+B5622	Secondary and unspec malig neop inferior mesenteric LN
+B5623	Secondary and unspec malig neop common iliac lymph nodes
+B5624	Secondary and unspec malig neop external iliac lymph nodes
+B562z	Secondary and unspec malig neop intra-abdominal LN NOS
+B563.	Secondary and unspec malig neop axilla and upper limb LN
+B5630	Secondary and unspec malig neop axillary lymph nodes
+B5631	Secondary and unspec malig neop supratrochlear lymph nodes
+B5632	Secondary and unspec malig neop infraclavicular lymph nodes
+B5633	Secondary and unspec malig neop pectoral lymph nodes
+B563z	Secondary and unspec malig neop axilla and upper limb LN NOS
+B564.	Secondary and unspec malig neop inguinal and lower limb LN
+B5640	Secondary and unspec malig neop superficial inguinal LN
+B5641	Secondary and unspec malig neop deep inguinal lymph nodes
+B5642	Secondary and unspec malig neop popliteal lymph nodes
+B564z	Secondary and unspec malig neop of inguinal and leg LN NOS
+B565.	Secondary and unspec malig neop intrapelvic lymph nodes
+B5650	Secondary and unspec malig neop internal iliac lymph nodes
+B5651	Secondary and unspec malig neop inferior epigastric LN
+B5652	Secondary and unspec malig neop circumflex iliac LN
+B5653	Secondary and unspec malig neop sacral lymph nodes
+B5654	Secondary and unspec malig neop obturator lymph nodes
+B565z	Secondary and unspec malig neop intrapelvic LN NOS
+B56y.	Secondary and unspec malig neop lymph nodes multiple sites
+B56z.	Secondary and unspec malig neop lymph nodes NOS
+B57..	Secondary malign neoplasm of resp &/or digest syst (& carc)
+B570.	Metastasis to lung
+B571.	Metastasis to mediastinum
+B572.	Metastasis to pleura
+B573.	Secondary malignant neoplasm of other respiratory organs
+B574.	Secondary malignant neoplasm of small intestine and duodenum
+B5740	Secondary malignant neoplasm of duodenum
+B5741	Secondary malignant neoplasm of jejunum
+B5742	Secondary malignant neoplasm of ileum
+B574z	Secondary malig neop of small intestine or duodenum NOS
+B575.	Sec malignant neoplasm of large intestine(AND/OR?[rectum])
+B5750	Secondary malignant neoplasm of colon
+B5751	Secondary malignant neoplasm of rectum
+B575z	Secondary malig neop of large intestine or rectum NOS
+B576.	Secondary malig neop of retroperitoneum and peritoneum
+B5760	Metastasis to retroperitoneum
+B5761	Metastasis to peritoneum
+B576z	Secondary malig neop of retroperitoneum or peritoneum NOS
+B577.	Metastasis to liver
+B57y.	Secondary malignant neoplasm of other digestive organ
+B57z.	Secondary malig neop of respiratory or digestive system NOS
+B58..	Secondary [malig neopl] or [carcinoma] of other specif sites
+B580.	Metastasis to kidney
+B581.	Secondary malignant neoplasm of other urinary organs
+B5810	Metastasis to ureter
+B5811	Metastasis to bladder
+B5812	Metastasis to urethra
+B581z	Secondary malignant neoplasm of other urinary organ NOS
+B582.	Metastasis to skin
+B5820	Secondary malignant neoplasm of skin of head
+B5821	Secondary malignant neoplasm of skin of face
+B5822	Secondary malignant neoplasm of skin of neck
+B5823	Secondary malignant neoplasm of skin of trunk
+B5824	Secondary malignant neoplasm of skin of shoulder and arm
+B5825	Secondary malignant neoplasm of skin of hip and leg
+B5826	Secondary malignant neoplasm of skin of breast
+B582z	Secondary malignant neoplasm of skin NOS
+B583.	Secondary malignant neoplasm of brain and spinal cord
+B5830	Metastasis to brain
+B5831	Metastasis to spinal cord
+B583z	Secondary malignant neoplasm of brain or spinal cord NOS
+B584.	Secondary malignant neoplasm of other part of nervous system
+B585.	Metastasis to bone
+B586.	Metastasis to ovary
+B587.	Metastasis to adrenal gland
+B58y0	Metastasis to breast
+B58y1	Metastasis to uterus
+B58y2	Secondary malignant neoplasm of cervix uteri
+B58y3	Metastasis to vagina
+B58y4	Secondary malignant neoplasm of vulva
+B58y5	Metastasis to prostate
+B58y6	Metastasis to testis
+B58y7	Metastasis to penis
+B58y8	Secondary malignant neoplasm of epididymis and vas deferens
+B58yz	Secondary malignant neoplasm of other specified site NOS
+ByuC2	[X]2ndry+unspcf malignant neoplasm lymph nodes/multi regions
+ByuC3	[X]Secondary malignant neoplasm/oth+unspc respiratory organs
+ByuC4	[X]Secondary malignant neoplasm/oth+unspcfd digestive organs
+ByuC5	[X]2ndry malignant neoplasm/bladder+oth+unsp urinary organs
+ByuC6	[X]2ndry malignant neoplasm/oth+unspec parts/nervous system
+ByuC7	[X]Secondary malignant neoplasm of other specified sites
+X78kS	Secondary carcinoma of respiratory and/or digestive systems
+X78kT	Metastasis to respiratory and intrathoracic organ
+X78kU	Metastasis to trachea
+X78kV	Metastasis to bronchus
+X78kX	Secondary lymphangitic carcinoma
+X78kY	Lymphangitis carcinomatosa
+X78kZ	Metastasis to heart
+X78ka	Metastasis to thymus
+X78kb	Metastasis to gastrointestinal tract
+X78kc	Metastasis to small intestine
+X78kd	Metastasis to pancreas
+X78ke	Metastasis to spleen
+X78kf	Metastasis to bone marrow
+X78kg	Metastasis to soft tissue
+X78kh	Malignant infiltration of muscle
+X78kk	Carcinomatosis of peritoneal cavity
+X78kl	Metastasis to omentum
+X78kn	Metastasis to female genital organ
+X78kp	Metastasis to male genital organ
+X78kq	Metastasis to scrotum
+X78kr	Metastasis to spermatic cord
+X78ks	Metastasis to urinary tract
+X78kv	Metastasis to renal pelvis
+X78kw	Metastasis to nervous system and eye
+X78kx	Metastasis to nervous system
+X78ky	Metastasis to pituitary
+X78kz	Metastasis to optic nerve
+X78l0	Metastasis to peripheral nerve
+X78l1	Metastasis to eye
+X78l2	Metastasis to orbit
+X78l3	Metastasis to choroid
+X78l4	Metastasis to endocrine organ
+X78l5	Metastasis to thyroid
+X78l7	Secondary carcinoma of other specified sites
+X78l8	Local tumour spread
+X78lA	Malignant infiltration of peripheral nerve
+X78lB	Malignant infiltration of peripheral nerve plexus
+XE1vm	Secondary malig neop of respiratory and digestive systems
+XE1vn	Disseminated malignancy NOS
+XE205	(Sec Ca sp site) or (metast sp site) or (sec Ca known site)
+XE207	Secondary Ca GIT
+XE209	(Sec Ca brain/spin cord) or (bone sec Ca) or (brain sec Ca)
+XE20B	Secondary Ca NOS
+XE20D	(Ca unspecified site) or (secondary - unknown site)
+XE20F	(Carcinomatos) or (dissem Ca unsp site) or (metastatic carc)
+XE2vT	Secondary malignant neoplasm of other specified sites
+XE2xB	Secondary and unspecified malignant neoplasm of lymph nodes
+XM0pv	Secondary malignant neoplasm of unknown site
+XM1MM	Metastasis to digestive organs
+XM1Pr	Cerebral metastasis
+XSA0M	Secondary malignant neoplasm of mouth
+Xa39z	Metastasis to trachea of unknown primary
+Xa3A4	Metastasis to bronchus of unknown primary
+Xa3A5	Metastasis to lung of unknown primary
+Xa3A6	Metastasis to pleura of unknown primary
+Xa3A7	Metastasis to heart of unknown primary
+Xa3A8	Metastasis to mediastinum of unknown primary
+Xa3A9	Metastasis to thymus of unknown primary
+Xa3AA	Metastasis to small intestine of unknown primary
+Xa3AB	Metastasis to large intestine of unknown primary
+Xa3AC	Metastasis to colon of unknown primary
+Xa3AD	Metastasis to rectum of unknown primary
+Xa3AE	Metastasis to liver of unknown primary
+Xa3AF	Metastasis to pancreas of unknown primary
+Xa3AG	Metastasis to spleen of unknown primary
+Xa3AH	Metastasis to peritoneum of unknown primary
+Xa3AI	Metastasis to retroperitoneum of unknown primary
+Xa3AJ	Metastasis to bone of unknown primary
+Xa3AK	Metastasis to vertebral column of unknown primary
+Xa3BF	Metastasis to skin of unknown primary
+Xa3BG	Metastasis to soft tissue of unknown primary
+Xa3BH	Metastasis to breast of unknown primary
+Xa3BI	Metastasis to uterus of unknown primary
+Xa3BL	Metastasis to ovary of unknown primary
+Xa3BM	Metastasis to vagina of unknown primary
+Xa3BN	Metastasis to kidney of unknown primary
+Xa3BX	Metastasis to bladder of unknown primary
+Xa3BZ	Metastasis to brain of unknown primary
+Xa3Ba	Metastasis to eye of unknown primary
+Xa3Bb	Metastasis to adrenal gland of unknown primary
+Xa3Bc	Metastasis to lymph node of unknown primary
+Xa3Bd	Disseminated malignancy of unknown primary
+Xa980	Metastasis to lymph node
+Xa981	Metastasis to epididymis
+Xa982	Metastatic malignant disease
+Xa983	Disseminated malignancy
+Xa98L	Metastatic adenocarcinoma
+Xa9Jc	Metastasis to head and neck lymph node
+Xa9Je	Metastasis to intrathoracic lymph node
+Xa9Jg	Metastasis to intra-abdominal lymph node
+Xa9Ji	Metastasis to upper limb lymph node
+Xa9Jk	Metastasis to lower limb lymph node
+Xa9Jm	Metastasis to intrapelvic lymph node
+Xa9Jo	Metastasis to multiple lymph nodes
+XaB1p	Metastatic adenocarcinoma of unknown origin
+XaC0y	Secondary malignant neoplasm of tongue
+XaFr4	Local recurrence of malignant tumour of tongue
+XaFr5	Local recurrence of malignant tumour of buccal cavity
+XaFr6	Local recurrence of malignant tumour of thyroid gland
+XaFr8	Local recurrence of malignant tumour of breast
+XaFrD	Local recurrence of malignant tumour of oesophagus
+XaFrE	Local recurrence of malignant tumour of stomach
+XaFrF	Local recurrence of malignant tumour of gallbladder
+XaFrG	Local recurrence of malignant tumour of liver
+XaFrH	Local recurrence of malignant tumour of pancreas
+XaFrI	Local recurrence of malignant tumour of colon
+XaFrJ	Local recurrence of malignant tumour of rectum
+XaFrK	Local recurrence of malignant tumour of kidney
+XaFrL	Local recurrence of malignant tumour of urinary bladder
+XaFrM	Local recurrence of malignant tumour of prostate
+XaFrN	Local recurrence of malignant tumour of cervix
+XaFrQ	Local recurrence of malignant tumour of bone
+XaFrR	Local recurrence of malignant tumour of soft tissue
+XaFrT	Local recurrence of malignant melanoma of skin
+XaFrc	Metastases by primary malignancy
+XaFrd	Metastasis from malignant melanoma of skin
+XaFrf	Metastasis from malignant tumour of soft tissues
+XaFrg	Metastasis from malignant tumour of bone
+XaFrh	Metastasis from malignant tumour of adrenal gland
+XaFri	Metastasis from malignant tumour of cervix
+XaFrj	Metastasis from malignant tumour of uterus
+XaFrk	Metastasis from malignant tumour of prostate
+XaFrl	Metastasis from malignant tumour of bladder
+XaFrm	Metastasis from malignant tumour of kidney
+XaFrn	Metastasis from malignant tumour of rectum
+XaFro	Metastasis from malignant tumour of colon
+XaFrp	Metastasis from malignant tumour of pancreas
+XaFrq	Metastasis from malignant tumour of liver
+XaFrr	Metastasis from malignant tumour of gallbladder
+XaFrs	Metastasis from malignant tumour of stomach
+XaFrt	Metastasis from malignant tumour of oesophagus
+XaFru	Metastasis from malignant tumour of breast
+XaFrv	Metastasis from malignant tumour of bronchus
+XaFrx	Metastasis from malignant tumour of thyroid
+XaFry	Metastasis from malignant tumour of buccal cavity
+XaFrz	Metastasis from malignant tumour of tongue
+XaIJA	Pathological fracture due to metastatic bone disease
+XaXQk	Secondary malignant neoplasm of large intestine and rectum
+XaYeq	Secondary malignant neoplasm of liver intrahepatic bile duct
+XaFr7	Local recurrence of malignant tumour of lung
+XaFrw	Metastasis from malignant tumour of lung
+

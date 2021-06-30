@@ -61,11 +61,11 @@ function validateLTCDirectory() {
 
 function getCodesets() {
   // Objects to store the code sets
-  const codesetObject = {};
+  const codeSetObject = {};
   LTCCodesetsArray = [];
 
   LTCGroups.forEach((ltcGroup) => {
-    codesetObject[ltcGroup] = {};
+    codeSetObject[ltcGroup] = {};
 
     // Get all condition code lists for this group
     const CONDITION_DIRECTORY = join(LTC_DIRECTORY, ltcGroup);
@@ -76,7 +76,7 @@ function getCodesets() {
       .map((file) => file.name) // return the file name
       .filter((filename) => filename.toLowerCase().match(/^.+\.(readv2|ctv3|snomed|emis).txt$/));
 
-    // Add the codesets
+    // Add the code sets
     conditionCodeSets.forEach((conditionCodeSet) => {
       const [conditionLowerHyphens, dxOrRx, terminology] = conditionCodeSet.split('.');
       if (['medication', 'diagnosis'].indexOf(dxOrRx) < 0) {
@@ -93,13 +93,13 @@ function getCodesets() {
         .split('-')
         .map((x) => `${x[0].toUpperCase()}${x.slice(1)}`)
         .join(' ');
-      if (!codesetObject[ltcGroup][conditionLowerHyphens]) {
-        codesetObject[ltcGroup][conditionLowerHyphens] = {};
+      if (!codeSetObject[ltcGroup][conditionLowerHyphens]) {
+        codeSetObject[ltcGroup][conditionLowerHyphens] = {};
       }
-      if (!codesetObject[ltcGroup][conditionLowerHyphens][terminology]) {
-        codesetObject[ltcGroup][conditionLowerHyphens][terminology] = {};
+      if (!codeSetObject[ltcGroup][conditionLowerHyphens][terminology]) {
+        codeSetObject[ltcGroup][conditionLowerHyphens][terminology] = {};
       }
-      codesetObject[ltcGroup][conditionLowerHyphens][terminology][dxOrRx] = loadCodeset(
+      codeSetObject[ltcGroup][conditionLowerHyphens][terminology][dxOrRx] = loadCodeset(
         ltcGroup,
         conditionCodeSet,
         terminology
@@ -109,7 +109,7 @@ function getCodesets() {
         condition,
         terminology,
         dxOrRx,
-        codes: codesetObject[ltcGroup][conditionLowerHyphens][terminology],
+        codes: codeSetObject[ltcGroup][conditionLowerHyphens][terminology],
       });
     });
   });

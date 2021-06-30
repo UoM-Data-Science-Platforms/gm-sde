@@ -246,3 +246,21 @@
 2021-06-02
 - Investigating and resolving issue with latest RQ025 extract
 - Investigating observation codes after query by RQ017
+
+2021-06-03
+- New data file prep for RQ020 - Heald
+
+2021-06-09
+- Improving the cohort matching algorithm
+
+2021-06-15
+- Further data checks for RQ017 Humphreys
+
+2021-06-18
+- Amended data extract for RQ017 Humphreys
+
+
+
+
+
+

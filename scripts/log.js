@@ -6,7 +6,7 @@ const log = (msg) => {
 };
 
 const warn = (msg) => {
-  console.log(chalk.yellow(msg));
+  if (!isSilent) console.log(chalk.yellow(msg));
 };
 
 const error = (msg) => {
