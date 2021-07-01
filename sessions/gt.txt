@@ -174,8 +174,6 @@ Attempted to find the location of information related to project no.1 (Grant), i
 27/05/21 
 - checking that cohort matching in each data file is the same - it isn't so need to look into this
 
-28/05/21
-
 01/06/21
 - refreshed the data extract for RQ029
 - added more codes from SMI code set into bipolar and schizophrenia code sets for RQ-028
@@ -206,3 +204,11 @@ Attempted to find the location of information related to project no.1 (Grant), i
 17/06/21
 - looking into the TPP discrepancy in major-recurrent-depression code set
 
+21/06/21
+- checking EMIS codes for Bipolar
+
+28/06/21
+- checking access to new RDE schema
+
+29/06/21
+- adding sample of depression patients to cohort
