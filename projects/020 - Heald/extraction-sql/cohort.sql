@@ -1913,14 +1913,14 @@ SELECT MatchingPatientId, MatchingCovidPositiveDate FROM #CohortStore;
 -- OUTPUT: Two temp table as follows:
 -- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
 -- 	- FK_Patient_Link_ID - unique patient id
---	- AdmissionDate - date of discharge (YYYY-MM-DD)
+--	- AdmissionDate - date of admission (YYYY-MM-DD)
 --	- AcuteProvider - Bolton, SRFT, Stockport etc..
 --  (Limited to one admission per person per hospital per day, because if a patient has 2 admissions 
 --   on the same day to the same hopsital then it's most likely data duplication rather than two short
 --   hospital stays)
 -- #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
 -- 	- FK_Patient_Link_ID - unique patient id
---	- AdmissionDate - date of discharge (YYYY-MM-DD)
+--	- AdmissionDate - date of admission (YYYY-MM-DD)
 --	- DischargeDate - date of discharge (YYYY-MM-DD)
 --	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
 
@@ -1982,6 +1982,7 @@ ORDER BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider;
 
 
 -- For each patient find the first hospital admission following their positive covid test
+-- We allow the test to be within 48 hours post admission and still count it
 IF OBJECT_ID('tempdb..#PatientsFirstAdmissionPostTest') IS NOT NULL DROP TABLE #PatientsFirstAdmissionPostTest;
 SELECT l.FK_Patient_Link_ID, MAX(l.AdmissionDate) AS FirstAdmissionPostCOVIDTest, MAX(LengthOfStay) AS LengthOfStay
 INTO #PatientsFirstAdmissionPostTest
@@ -1991,7 +1992,7 @@ INNER JOIN (
   FROM #PatientIdsAndIndexDates p
   LEFT OUTER JOIN #LengthOfStay los
     ON los.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-    AND los.AdmissionDate >= p.IndexDate
+    AND los.AdmissionDate >= DATEADD(day, -2, p.IndexDate)
   GROUP BY p.FK_Patient_Link_ID
 ) sub ON sub.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND sub.FirstAdmission = l.AdmissionDate
 GROUP BY l.FK_Patient_Link_ID;
