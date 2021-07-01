@@ -32,8 +32,28 @@ SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
 
---> CODESET severe-mental-illness:1
+--> CODESET recurrent-depressive:1 schizophrenia-psychosis:1 bipolar:1
 --> CODESET antipsychotics:1
+
+-- cohort of patients with depression
+
+IF OBJECT_ID('tempdb..#depression_cohort') IS NOT NULL DROP TABLE #depression_cohort;
+SELECT DISTINCT gp.FK_Patient_Link_ID
+INTO #depression_cohort
+FROM [RLS].[vw_GP_Events] gp
+WHERE SuppliedCode IN 
+	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('depression') AND [Version] = 1)
+    AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+	AND (gp.EventDate) <= '2020-01-31'
+--655,657
+
+-- take a 10 percent sample of depression patients, to add to SMI cohort later on
+IF OBJECT_ID('tempdb..#depression_cohort_sample') IS NOT NULL DROP TABLE #depression_cohort_sample;
+SELECT TOP 10 PERCENT *
+INTO #depression_cohort_sample
+FROM #depression_cohort
+ORDER BY FK_Patient_Link_ID --not ideal to order by this but need it to be the same across files
+--65,566
 
 --FIND PATIENTS THAT HAVE AN SMI DIAGNOSIS AS OF 31.01.20
 
@@ -42,8 +62,11 @@ SELECT
 	distinct gp.FK_Patient_Link_ID
 INTO #SMI_patients
 FROM [RLS].[vw_GP_Events] gp
-WHERE SuppliedCode IN 
-	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('severe-mental-illness') AND [Version] = 1)
+WHERE ((SuppliedCode IN 
+	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('recurrent-depressive', 'bipolar', 'schizophrenia-psychosis') AND [Version] = 1)) 
+	OR 
+	  (SuppliedCode IN 
+	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('depression') AND [Version] = 1) AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #depression_cohort_sample)))
 	AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND (gp.EventDate) <= '2020-01-31'
 
