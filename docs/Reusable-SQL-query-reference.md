@@ -117,7 +117,7 @@ _Output_
 A temp table as follows:
  #COVIDUtilisationAdmissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
 	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of discharge (YYYY-MM-DD)
+	- AdmissionDate - date of admission (YYYY-MM-DD)
 	- AcuteProvider - Bolton, SRFT, Stockport etc..
 	- CovidHealthcareUtilisation - 'TRUE' if admission within 4 weeks after, or up to 14 days before, a positive test
 ```
@@ -513,6 +513,33 @@ _File_: `query-patient-lsoa.sql`
 _Link_: [https://github.com/rw251/.../query-patient-lsoa.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-lsoa.sql)
 
 ---
+## Patient GP history
+To produce a table showing the start and end dates for each practice the patient has been registered at.
+
+_Assumptions_
+
+- We do not have data on patients who move out of GM, though we do know that it happened. For these patients we record the GPPracticeCode as OutOfArea
+- Where two adjacent time periods either overlap, or have a gap between them, we assume that the most recent registration is more accurate and adjust the end date of the first time period accordingly. This is an infrequent occurrence.
+
+_Input_
+```
+No pre-requisites
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientGPHistory (FK_Patient_Link_ID, GPPracticeCode, StartDate, EndDate)
+	- FK_Patient_Link_ID - unique patient id
+	- GPPracticeCode - national GP practice id system
+	- StartDate - date the patient registered at the practice
+	- EndDate - date the patient left the practice
+```
+_File_: `query-patient-gp-history.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-gp-history.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-gp-history.sql)
+
+---
 ## Patient received flu vaccine in a given time period
 To find patients who received a flu vaccine in a given time period
 
@@ -575,14 +602,14 @@ _Output_
 Two temp table as follows:
  #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
  	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of discharge (YYYY-MM-DD)
+	- AdmissionDate - date of admission (YYYY-MM-DD)
 	- AcuteProvider - Bolton, SRFT, Stockport etc..
   (Limited to one admission per person per hospital per day, because if a patient has 2 admissions
    on the same day to the same hopsital then it's most likely data duplication rather than two short
    hospital stays)
  #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
  	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of discharge (YYYY-MM-DD)
+	- AdmissionDate - date of admission (YYYY-MM-DD)
 	- DischargeDate - date of discharge (YYYY-MM-DD)
 	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
 ```
