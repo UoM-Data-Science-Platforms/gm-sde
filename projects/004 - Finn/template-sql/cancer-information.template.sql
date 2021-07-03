@@ -4,11 +4,10 @@
 
 
 -- OUTPUT: A single table with the following:
---	PatientID
---	DiagnosisDate
---	CancerCode
---  CodingScheme
-
+--	FK_Patient_Link_ID
+--	DiagnosisDate (YYYY-MM-DD)
+--	CancerCode 
+--  CodingScheme 
 
 
 --Just want the output, not the messages
@@ -45,18 +44,13 @@ WHERE
   );
 
 
-
-
--- TODO: check granularity
--- Get main codes for each 
+-- Get the actual cancer codes associated for each Ref_Code.
 -- Grain: multiple cancer codes per event date
-IF OBJECT_ID('tempdb..#CancerCodes') IS NOT NULL DROP TABLE #CancerCodes;
 SELECT 
-  FK_Patient_Link_ID,
+  FK_Patient_Link_ID AS PatientId,
   DiagnosisDate,
   map.MainCode AS CancerCode,
   map.CodingScheme
-INTO #CancerCodes
 FROM #CancerDiagnosisHistory p
 INNER JOIN [SharedCare].[Reference_SnomedCT_Mappings] AS map 
   ON (p.FK_Reference_Coding_ID = map.FK_Reference_Coding_ID OR p.FK_Reference_SnomedCT_ID = map.FK_Reference_SnomedCT_ID);

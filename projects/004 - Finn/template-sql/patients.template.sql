@@ -2,7 +2,6 @@
 --│ Patients demographics           │
 --└─────────────────────────────────┘
 
--- Study index date: 1st Feb 2020
 
 -- Defines the cohort (cancer and non cancer patients) that will be used for the study, based on: 
 -- Main cohort (cancer patients):
@@ -12,12 +11,12 @@
 -- Control group (non cancer patients):
 --  -	Alive on 1st February 2020 
 --  -	no current or history of cancer diagnosis.
--- Matching is 1:5 based on sex and year of birth with a flexible year of birth = ??
+-- Matching is 1:5 based on sex and year of birth with a flexible year of birth = 0
 -- Index date is: 1st February 2020
 
 
 -- OUTPUT: A single table with the following:
---  •	PatientID (int)
+--  •	PatientId (int)
 --  •	YearOfBirth (int in this format YYYY)
 --  •	Sex (M/F/U)
 --  •	HasCancer (Y/N)
@@ -30,25 +29,24 @@
 --  •	IndicesOfDeprivation (IMD 2019: number 1 to 10 inclusive)
 --  •	BMIValue ()
 --  •	BMILatestDate (YYYY-MM-DD) Latest date that a BMI value has been captured on or before 1 month prior to index date
---  •	Ethnicity (TODO)
+--  •	Ethnicity 
 --  •	FrailtyScore (as captured in PatientLink)
 --  •	FrailtyDeficits 
 --  •	FrailtyDeficitList 
---  •	VaccineDate (date of vaccine (YYYY-MM-DD)) TODO
---  •	DaysSinceFirstVaccine - 0 if first vaccine, > 0 otherwise TODO
+--  •	FirstVaccineDate (date of vaccine (YYYY-MM-DD)) 
+--  •	SecondVaccineDate (date of second vaccine (YYYY-MM-DD), null otherwise)
 --  •	DeathStatus (Alive/Dead)
---  •	DateOfDeath (YYYY-MM-01 - with precision to month, this will always be the first of the month)
+--  •	DeathDate (YYYY-MM-01 - with precision to month, this will always be the first of the month)
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
 -- Set the start date
-DECLARE @IndexDate datetime;
-SET @IndexDate = '2020-02-01';
+DECLARE @StartDate datetime;
+SET @StartDate = '2020-02-01';
 
 --> EXECUTE query-cancer-cohort-matching.sql
--- OUTPUTS:
--- - #Patients
+-- OUTPUT: #Patients
 
 
 -- Following query has copied in and adjusted to extract current smoking status on index date. 
@@ -175,7 +173,7 @@ INTO #TempCurrent
 FROM #AllPatientSmokingStatusConcept a
 INNER JOIN (
 	SELECT FK_Patient_Link_ID, MAX(EventDate) AS MostRecentDate FROM #AllPatientSmokingStatusConcept
-	WHERE (Severity >= 0 AND EventDate <= @IndexDate)
+	WHERE (Severity >= 0 AND EventDate <= @StartDate)
 	GROUP BY FK_Patient_Link_ID
 ) sub ON sub.MostRecentDate = a.EventDate and sub.FK_Patient_Link_ID = a.FK_Patient_Link_ID
 GROUP BY a.FK_Patient_Link_ID;
@@ -196,25 +194,19 @@ LEFT OUTER JOIN #TempCurrent c on c.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
 
 
 
-
-
-
-
 --> EXECUTE query-patient-lsoa.sql
 --> EXECUTE query-patient-imd.sql
-
--- Uncomment when approved by ERG
--- --> EXECUTE query-get-covid-vaccines.sql
+--> EXECUTE query-get-covid-vaccines.sql
 
 -- Get the first and second vaccine dates of our cohort. 
--- IF OBJECT_ID('tempdb..#COVIDVaccinations') IS NOT NULL DROP TABLE #COVIDVaccinations;
--- SELECT 
--- 	FK_Patient_Link_ID,
--- 	FirstVaccineDate = MAX(CASE WHEN VaccineDate IS NOT NULL AND DaysSinceFirstVaccine = 0 THEN VaccineDate ELSE NULL END), 
--- 	SecondVaccineDate = MAX(CASE WHEN VaccineDate IS NOT NULL AND DaysSinceFirstVaccine != 0 THEN VaccineDate ELSE NULL END) 
--- INTO #COVIDVaccinations
--- FROM #COVIDVaccinations
--- GROUP BY FK_Patient_Link_ID
+IF OBJECT_ID('tempdb..#COVIDVaccinations2') IS NOT NULL DROP TABLE #COVIDVaccinations2;
+SELECT 
+	FK_Patient_Link_ID,
+	FirstVaccineDate = MAX(CASE WHEN VaccineDate IS NOT NULL AND DaysSinceFirstVaccine = 0 THEN VaccineDate ELSE NULL END), 
+	SecondVaccineDate = MAX(CASE WHEN VaccineDate IS NOT NULL AND DaysSinceFirstVaccine != 0 THEN VaccineDate ELSE NULL END) 
+INTO #COVIDVaccinations2
+FROM #COVIDVaccinations
+GROUP BY FK_Patient_Link_ID
 
 
 
@@ -243,18 +235,18 @@ WHERE (
   )
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate <= DATEADD(month, -1, @IndexDate)
+AND EventDate <= DATEADD(month, -1, @StartDate)
 AND [Value] IS NOT NULL
 AND [Value] != '0';
 
 -- Get the latest BMI value before the index date 1st Jan 2020
 IF OBJECT_ID('tempdb..#PatientLatestBMIValues') IS NOT NULL DROP TABLE #PatientLatestBMIValues;
 SELECT
-  FK_Patient_Link_ID,
-	BMIValue,
+  p.FK_Patient_Link_ID,
+  BMIValue,
   sub.BMILatestDate
 INTO #PatientLatestBMIValues
-FROM #PatientBMIValues
+FROM #PatientBMIValues p
 INNER JOIN (
   SELECT 
   	FK_Patient_Link_ID,
@@ -267,31 +259,32 @@ INNER JOIN (
 
 
 -- Get additional demographics information for all the patients in the cohort.
-IF OBJECT_ID('tempdb..#MatchedCohort') IS NOT NULL DROP TABLE #MatchedCohort;
 SELECT 
-  FK_Patient_Link_ID, 
+  FK_Patient_Link_ID AS PatientId, 
   YearOfBirth, 
   Sex, 
   HasCancer,
   NumberOfMatches,
   PassiveSmoker,
-	WorstSmokingStatus,
-	CurrentSmokingStatus,
+  WorstSmokingStatus,
+  CurrentSmokingStatus,
   LSOA,
   IMD2019Decile1IsMostDeprived10IsLeastDeprived As IndicesOfDeprivation,
-  EthnicCategoryDescription,
+  EthnicCategoryDescription AS Ethnicity,
   BMIValue,
   BMILatestDate,
   FrailtyScore,
   FrailtyDeficits,
   FrailtyDeficitList,
-  Deceased,
+  FirstVaccineDate,
+  SecondVaccineDate,
+  Deceased AS DeathStatus,
   DeathDate
-INTO #MatchedCohort
 FROM #Patients p
 LEFT OUTER JOIN #PatientSmokingStatus sm ON sm.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #COVIDVaccinations cv ON cv.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLatestBMIValues bmi ON bmi.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN RLS.vw_Patient pa ON pa.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
