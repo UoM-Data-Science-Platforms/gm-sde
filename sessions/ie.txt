@@ -64,7 +64,7 @@ Find out the following total number of rows to investigate how big the chohorts 
 2021-05-20 3pm-7pm
 -- Get total number of adult, alive patients with a first cancer diagnosis in the 5-year period - 004-Finn
 
-2021-06-02 2-3pm and 7-8
+2021-06-02 2-3pm and 7-8pm
 -- Find frailty information and hospital addmissions for 004-Finn. 
 
 2021-06-09 
@@ -76,3 +76,17 @@ Find out the following total number of rows to investigate how big the chohorts 
 -- Run cohort matching for Finn 
 -- Find coding references for cancer history
 -- Get all cancer history events for 004-Finn. 
+
+2021-06-24 19.05 - 21.30
+-- Check access to create table in HI_Manchester
+-- Investigate hospital admissions for 004-Finn 
+-- Retrieve hospital admissions for patients in the cohort that had a positive covid test. 
+
+2021-06-26 2.30pm - 3.30pm
+-- Investigate starting dates for GP medications - 004Finn. 
+
+2021-07-02 19.00 - 12.00 
+-- Run cohort mathcing and patient information for 004Finn -- Running for 3:58 hours. 
+
+2021-07-3 12.30 - 
+-- Run cohort mathcing and patient information for 004Finn 
