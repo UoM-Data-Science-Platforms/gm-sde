@@ -55,6 +55,9 @@ From #AllCancerPatients
 WHERE FirstDiagnosisDate BETWEEN '2015-02-01' AND @StartDate;
 -- 61.720 patients with a first cancer diagnosis in the last 5 years.
 
+
+--> CODESET cancer:2
+
 -- Get patients with the first date with a secondary cancer diagnosis of patients 
 IF OBJECT_ID('tempdb..#AllSecondaryCancerPatients') IS NOT NULL DROP TABLE #AllSecondaryCancerPatients;
 SELECT 
