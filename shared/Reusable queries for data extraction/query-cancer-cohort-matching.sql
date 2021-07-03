@@ -52,7 +52,7 @@ IF OBJECT_ID('tempdb..#CancerPatients') IS NOT NULL DROP TABLE #CancerPatients;
 Select *
 INTO #CancerPatients
 From #AllCancerPatients
-WHERE FirstDiagnosisDate BETWEEN '2015-02-01' AND @IndexDate;
+WHERE FirstDiagnosisDate BETWEEN '2015-02-01' AND @StartDate;
 -- 61.720 patients with a first cancer diagnosis in the last 5 years.
 
 -- Get patients with the first date with a secondary cancer diagnosis of patients 
@@ -81,7 +81,7 @@ IF OBJECT_ID('tempdb..#SecondaryCancerPatients') IS NOT NULL DROP TABLE #Seconda
 Select *
 INTO #SecondaryCancerPatients
 From #AllSecondaryCancerPatients
-WHERE FirstDiagnosisDate BETWEEN '2015-02-01' AND @IndexDate;
+WHERE FirstDiagnosisDate BETWEEN '2015-02-01' AND @StartDate;
 -- 3.820
 
 -- Get unique patients with a first cancer diagnosis or a secondary diagnosis within the time period 1st Feb 2015 - 1st Feb 2020
@@ -136,7 +136,7 @@ LEFT OUTER JOIN [RLS].[vw_Patient_Link] pl ON pl.PK_Patient_Link_ID = acc.FK_Pat
 WHERE  
   (pl.DeathDate is null and pl.Deceased = 'N') 
   OR
-  (pl.DeathDate is not null and (pl.DeathDate >= @IndexDate));
+  (pl.DeathDate is not null and (pl.DeathDate >= @StartDate));
 
 -- 56.344 
 -- (55.530) adult, alive patients with a first cancer diagnosis in the 5-year period
@@ -154,7 +154,7 @@ LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = pl.PK_Patien
 WHERE  
   (pl.DeathDate is null and pl.Deceased = 'N') 
   OR
-  (pl.DeathDate is not null and (pl.DeathDate >= @IndexDate));
+  (pl.DeathDate is not null and (pl.DeathDate >= @StartDate));
 -- 5.342.653
 -- (5.332.329)
 
