@@ -88,5 +88,16 @@ Find out the following total number of rows to investigate how big the chohorts 
 2021-07-02 19.00 - 12.00 
 -- Run cohort mathcing and patient information for 004Finn -- Running for 3:58 hours. 
 
-2021-07-3 12.30 - 
--- Run cohort mathcing and patient information for 004Finn 
+2021-07-3 12.30 - 23.00 
+-- Run cohort mathcing and patient information for 004Finn  - Running for 9:49 hours
+
+2021-07-04 10.30am - 11.30 and 15.30
+-- Run cohort matching for Finn study. Running for ~20min. 
+
+2021-07-05 10.30am - 11pm
+-- Run cohort matching and queries for patient demographics for smaller subset to check grain - 004Finn. 
+
+2021-07-06 11.30am - 10.30pm
+-- Test and finalise patient demographics, and covid infomration extract files for 004- Finn. 
+-- Run and test comorbidities information extract file. 
+
