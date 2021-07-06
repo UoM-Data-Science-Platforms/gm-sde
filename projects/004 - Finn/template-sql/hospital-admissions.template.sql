@@ -8,7 +8,7 @@
 
 
 -- OUTPUT: A single table with the following:
---	FK: PatientID
+--	FK: PatientId
 --	AdmissionDate 
 --	Admission Type Code
 --	AdmissionTypeDescription
@@ -38,7 +38,6 @@ FROM #Patients2;
 
 --> EXECUTE query-classify-secondary-admissions.sql
 -- OUTPUT: #AdmissionTypes (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, AdmissionType)
-
 
 --> EXECUTE query-get-admissions-and-length-of-stay.sql
 -- OUTPUT: 

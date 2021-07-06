@@ -35,10 +35,11 @@ SELECT
 	CAST(MedicationDate AS DATE) AS MedicationDate,
 	SuppliedCode,
 	MedicationDescription,
---	CASE WHEN s.Concept IS NULL THEN c.Concept ELSE s.Concept END AS DrugType,
+	CASE WHEN s.Concept IS NULL THEN c.Concept ELSE s.Concept END AS DrugType,
 	Quantity,
 	Dosage,
-	Units,
+	LastIssueDate,
+	Units, --??? 
 	RepeatMedicationFlag
 FROM RLS.vw_GP_Medications m
 LEFT OUTER JOIN #VersionedSnomedSets s ON s.FK_Reference_SnomedCT_ID = m.FK_Reference_SnomedCT_ID

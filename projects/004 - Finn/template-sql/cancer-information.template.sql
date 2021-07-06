@@ -14,12 +14,14 @@
 SET NOCOUNT ON;
 
 -- Set the start date
-DECLARE @IndexDate datetime;
-SET @IndexDate = '2020-02-01';
+DECLARE @StartDate datetime;
+SET @StartDate = '2020-02-01';
 
 --> EXECUTE query-cancer-cohort-matching.sql
 -- OUTPUTS:
 -- - #Patients2
+-- - #VersionedCodeSets
+-- - #VersionedSnomedSets
 
 
 -- Get all events with a cancer code captured before index date for all cancer patients from the cohort.
@@ -33,7 +35,7 @@ Select
 INTO #CancerDiagnosisHistory
 FROM RLS.vw_GP_Events
 WHERE  
-  EventDate < '2020-02-01' AND (
+  EventDate <= @StartDate AND (
     FK_Reference_SnomedCT_ID IN (
       SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('cancer') AND [Version]=1
     ) OR FK_Reference_Coding_ID IN (
