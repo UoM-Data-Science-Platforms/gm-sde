@@ -2,7 +2,6 @@
 --│ Patients demographics           │
 --└─────────────────────────────────┘
 
--- Study index date: 1st Feb 2020
 
 -- Defines the cohort (cancer and non cancer patients) that will be used for the study, based on: 
 -- Main cohort (cancer patients):
@@ -12,12 +11,12 @@
 -- Control group (non cancer patients):
 --  -	Alive on 1st February 2020 
 --  -	no current or history of cancer diagnosis.
--- Matching is 1:5 based on sex and year of birth with a flexible year of birth = ??
+-- Matching is 1:5 based on sex and year of birth with a flexible year of birth = 0
 -- Index date is: 1st February 2020
 
 
 -- OUTPUT: A single table with the following:
---  •	PatientID (int)
+--  •	PatientId (int)
 --  •	YearOfBirth (int in this format YYYY)
 --  •	Sex (M/F/U)
 --  •	HasCancer (Y/N)
@@ -30,21 +29,21 @@
 --  •	IndicesOfDeprivation (IMD 2019: number 1 to 10 inclusive)
 --  •	BMIValue ()
 --  •	BMILatestDate (YYYY-MM-DD) Latest date that a BMI value has been captured on or before 1 month prior to index date
---  •	Ethnicity (TODO)
+--  •	Ethnicity 
 --  •	FrailtyScore (as captured in PatientLink)
 --  •	FrailtyDeficits 
 --  •	FrailtyDeficitList 
---  •	VaccineDate (date of vaccine (YYYY-MM-DD)) TODO
---  •	DaysSinceFirstVaccine - 0 if first vaccine, > 0 otherwise TODO
+--  •	FirstVaccineDate (date of vaccine (YYYY-MM-DD)) 
+--  •	SecondVaccineDate (date of second vaccine (YYYY-MM-DD), null otherwise)
 --  •	DeathStatus (Alive/Dead)
---  •	DateOfDeath (YYYY-MM-01 - with precision to month, this will always be the first of the month)
+--  •	DeathDate (YYYY-MM-01 - with precision to month, this will always be the first of the month)
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
 -- Set the start date
-DECLARE @IndexDate datetime;
-SET @IndexDate = '2020-02-01';
+DECLARE @StartDate datetime;
+SET @StartDate = '2020-02-01';
 
 --┌────────────────────────────────--------─┐
 --│ Cancer cohort matching for 004-Finn     │
@@ -64,11 +63,11 @@ SET @IndexDate = '2020-02-01';
 -- Index date is: 1st February 2020
 
 
--- INPUT: Assumes there exists a temp table as follows:
+-- INPUT: Assumes that @StartDate has already been defined and there exists a temp table as follows:
 -- #Patients (FK_Patient_Link_ID)
 --  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 
--- OUTPUT: A temp table as follows:
+-- OUTPUT: A temp table as follows: 
 -- #Patients2
 --  - FK_Patient_Link_ID
 --  - YearOfBirth
@@ -150,7 +149,9 @@ VALUES ('smoking-status-never',1,'1371.00','Never smoked tobacco'),('smoking-sta
 INSERT INTO #codesreadv2
 VALUES ('smoking-status-passive',1,'137I.00','Passive smoker'),('smoking-status-passive',1,'137I.','Passive smoker'),('smoking-status-passive',1,'137I000','Exposed to tobacco smoke at home'),('smoking-status-passive',1,'137I0','Exposed to tobacco smoke at home'),('smoking-status-passive',1,'13WF400','Passive smoking risk'),('smoking-status-passive',1,'13WF4','Passive smoking risk');
 INSERT INTO #codesreadv2
-VALUES ('smoking-status-trivial',1,'1372.00','Trivial smoker - < 1 cig/day'),('smoking-status-trivial',1,'1372.','Trivial smoker - < 1 cig/day'),('smoking-status-trivial',1,'1372.11','Occasional smoker'),('smoking-status-trivial',1,'1372.','Occasional smoker')
+VALUES ('smoking-status-trivial',1,'1372.00','Trivial smoker - < 1 cig/day'),('smoking-status-trivial',1,'1372.','Trivial smoker - < 1 cig/day'),('smoking-status-trivial',1,'1372.11','Occasional smoker'),('smoking-status-trivial',1,'1372.','Occasional smoker');
+INSERT INTO #codesreadv2
+VALUES ('covid-vaccination',1,'65F0.','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F0.00','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F0100','Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'65F01','Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'65F0200','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F02','2019-nCoV (novel coronavirus) vaccination')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code] from #codesreadv2;
@@ -201,7 +202,9 @@ VALUES ('smoking-status-never',1,'XE0oh','Never smoked tobacco'),('smoking-statu
 INSERT INTO #codesctv3
 VALUES ('smoking-status-passive',1,'137I.','Passive smoker'),('smoking-status-passive',1,'Ub0pe','Exposed to tobacco smoke at work'),('smoking-status-passive',1,'Ub0pf','Exposed to tobacco smoke at home'),('smoking-status-passive',1,'Ub0pg','Exposed to tobacco smoke in public places'),('smoking-status-passive',1,'13WF4','Passive smoking risk');
 INSERT INTO #codesctv3
-VALUES ('smoking-status-trivial',1,'XagO3','Occasional tobacco smoker'),('smoking-status-trivial',1,'XE0oi','Triv cigaret smok, < 1 cig/day'),('smoking-status-trivial',1,'1372.','Trivial smoker - < 1 cig/day')
+VALUES ('smoking-status-trivial',1,'XagO3','Occasional tobacco smoker'),('smoking-status-trivial',1,'XE0oi','Triv cigaret smok, < 1 cig/day'),('smoking-status-trivial',1,'1372.','Trivial smoker - < 1 cig/day');
+INSERT INTO #codesctv3
+VALUES ('covid-vaccination',1,'Y210d','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'Y29e7','Administration of first dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y29e8','Administration of second dose of SARS-CoV-2 vaccine')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code] from #codesctv3;
@@ -317,7 +320,9 @@ VALUES ('smoking-status-never',1,'160601007','Non-smoker (& [never smoked tobacc
 INSERT INTO #codessnomed
 VALUES ('smoking-status-passive',1,'43381005','Passive smoker (finding)'),('smoking-status-passive',1,'161080002','Passive smoking risk (environment)'),('smoking-status-passive',1,'228523000','Exposed to tobacco smoke at work (finding)'),('smoking-status-passive',1,'228524006','Exposed to tobacco smoke at home (finding)'),('smoking-status-passive',1,'228525007','Exposed to tobacco smoke in public places (finding)'),('smoking-status-passive',1,'713142003','At risk from passive smoking (finding)'),('smoking-status-passive',1,'722451000000101','Passive smoking (qualifier value)');
 INSERT INTO #codessnomed
-VALUES ('smoking-status-trivial',1,'266920004','Trivial cigarette smoker (less than one cigarette/day) (life style)'),('smoking-status-trivial',1,'428041000124106','Occasional tobacco smoker (finding)')
+VALUES ('smoking-status-trivial',1,'266920004','Trivial cigarette smoker (less than one cigarette/day) (life style)'),('smoking-status-trivial',1,'428041000124106','Occasional tobacco smoker (finding)');
+INSERT INTO #codessnomed
+VALUES ('covid-vaccination',1,'1240491000000103','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'2807821000000115','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'840534001','Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code] from #codessnomed;
@@ -331,7 +336,9 @@ CREATE TABLE #codesemis (
 ) ON [PRIMARY];
 
 INSERT INTO #codesemis
-VALUES ('bmi',1,'EMISNQBM1','BMI centile')
+VALUES ('bmi',1,'EMISNQBM1','BMI centile');
+INSERT INTO #codesemis
+VALUES ('covid-vaccination',1,'^ESCT1348323','Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'COCO138186NEMIS','COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)'),('covid-vaccination',1,'^ESCT1348325','Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348298','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'^ESCT1348301','COVID-19 vaccination'),('covid-vaccination',1,'^ESCT1299050','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'^ESCT1301222','??2019-nCoV (novel coronavirus) vaccination??')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code] from #codesemis;
@@ -439,8 +446,11 @@ IF OBJECT_ID('tempdb..#CancerPatients') IS NOT NULL DROP TABLE #CancerPatients;
 Select *
 INTO #CancerPatients
 From #AllCancerPatients
-WHERE FirstDiagnosisDate BETWEEN '2015-02-01' AND @IndexDate;
+WHERE FirstDiagnosisDate BETWEEN '2015-02-01' AND @StartDate;
 -- 61.720 patients with a first cancer diagnosis in the last 5 years.
+
+
+-- >>> Following code sets injected: cancer v2
 
 -- Get patients with the first date with a secondary cancer diagnosis of patients 
 IF OBJECT_ID('tempdb..#AllSecondaryCancerPatients') IS NOT NULL DROP TABLE #AllSecondaryCancerPatients;
@@ -468,8 +478,8 @@ IF OBJECT_ID('tempdb..#SecondaryCancerPatients') IS NOT NULL DROP TABLE #Seconda
 Select *
 INTO #SecondaryCancerPatients
 From #AllSecondaryCancerPatients
-WHERE FirstDiagnosisDate BETWEEN '2015-02-01' AND @IndexDate;
--- 3.820
+WHERE FirstDiagnosisDate BETWEEN '2015-02-01' AND @StartDate;
+-- 3.820 rows
 
 -- Get unique patients with a first cancer diagnosis or a secondary diagnosis within the time period 1st Feb 2015 - 1st Feb 2020
 -- `UNION` will exclude duplicates
@@ -682,11 +692,10 @@ LEFT OUTER JOIN [RLS].[vw_Patient_Link] pl ON pl.PK_Patient_Link_ID = acc.FK_Pat
 WHERE  
   (pl.DeathDate is null and pl.Deceased = 'N') 
   OR
-  (pl.DeathDate is not null and (pl.DeathDate >= @IndexDate));
+  (pl.DeathDate is not null and (pl.DeathDate >= @StartDate));
 
--- 56.344 
--- (55.530) adult, alive patients with a first cancer diagnosis in the 5-year period
--- (165.623) adult cancer patients alive on index date
+-- 56.344 adult, alive patients with a first cancer diagnosis in the 5-year period
+
 
 
 -- Define the population of potential matches for the cohort
@@ -700,9 +709,9 @@ LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = pl.PK_Patien
 WHERE  
   (pl.DeathDate is null and pl.Deceased = 'N') 
   OR
-  (pl.DeathDate is not null and (pl.DeathDate >= @IndexDate));
--- 5.342.653
--- (5.332.329)
+  (pl.DeathDate is not null and (pl.DeathDate >= @StartDate));
+-- 5.342.653 rows
+
 
 -- Get patients with no current or history of cancer diagnosis (in GP records).
 IF OBJECT_ID('tempdb..#PotentialMatches') IS NOT NULL DROP TABLE #PotentialMatches;
@@ -712,8 +721,8 @@ FROM #PatientsAliveIndex pa
 LEFT OUTER JOIN #AllCancerPatients AS cp 
   ON pa.FK_Patient_Link_ID = cp.FK_Patient_Link_ID
 WHERE cp.FK_Patient_Link_ID IS NULL;
--- 5.174.028
--- (5.163.938) alive non-cancer patients
+-- 5.174.028 rows
+
 
 
 --┌────────────────────────────────────────────────────┐
@@ -911,15 +920,15 @@ SELECT
 INTO #Patients2
 FROM #AllPatientCohortIds
 GROUP BY FK_Patient_Link_ID, YearOfBirth, Sex, HasCancer;
+-- 338.010 distinct patients, running time: 19min, as of 4th July.
 -- 338.034 distinct patients, running time: 28min, all cancer patients have 5 matches each, cancer cohort = 56.339, as of 23rd June 
 -- 338.064 distinct patients, all cancer patients have 5 matches each, as of 9th June 
 
 
--- OUTPUTS:
--- - #Patients
+-- OUTPUT: #Patients2
 
 
--- Following query has copied in and adjusted to extract current smoking status on index date. 
+-- Following query has been copied in and adjusted to extract current smoking status on index date and use #Patients2 instead of #Patients 
 --┌────────────────┐
 --│ Smoking status │
 --└────────────────┘
@@ -942,7 +951,6 @@ GROUP BY FK_Patient_Link_ID, YearOfBirth, Sex, HasCancer;
 --	-	However, there is likely confusion between the "non smoker" and "never smoked" codes. Especially as sometimes the synonyms for these codes overlap. Therefore, a patient wih a most recent smoking status of "never", but who has previous smoking codes, would be classed as WorstSmokingStatus=non-trivial-smoker / CurrentSmokingStatus=non-smoker
 
 -- >>> Following code sets injected: smoking-status-current v1/smoking-status-currently-not v1/smoking-status-ex v1/smoking-status-ex-trivial v1/smoking-status-never v1/smoking-status-passive v1/smoking-status-trivial v1
--- Get all patients year of birth for the cohort
 IF OBJECT_ID('tempdb..#AllPatientSmokingStatusCodes') IS NOT NULL DROP TABLE #AllPatientSmokingStatusCodes;
 SELECT 
 	FK_Patient_Link_ID,
@@ -951,7 +959,7 @@ SELECT
 	FK_Reference_SnomedCT_ID
 INTO #AllPatientSmokingStatusCodes
 FROM RLS.vw_GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients2)
 AND (
 	FK_Reference_SnomedCT_ID IN (
 		SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets 
@@ -1043,7 +1051,7 @@ INTO #TempCurrent
 FROM #AllPatientSmokingStatusConcept a
 INNER JOIN (
 	SELECT FK_Patient_Link_ID, MAX(EventDate) AS MostRecentDate FROM #AllPatientSmokingStatusConcept
-	WHERE (Severity >= 0 AND EventDate <= @IndexDate)
+	WHERE (Severity >= 0 AND EventDate <= @StartDate)
 	GROUP BY FK_Patient_Link_ID
 ) sub ON sub.MostRecentDate = a.EventDate and sub.FK_Patient_Link_ID = a.FK_Patient_Link_ID
 GROUP BY a.FK_Patient_Link_ID;
@@ -1064,10 +1072,6 @@ LEFT OUTER JOIN #TempCurrent c on c.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
 
 
 
-
-
-
-
 --┌───────────────────────────────┐
 --│ Lower level super output area │
 --└───────────────────────────────┘
@@ -1081,7 +1085,7 @@ LEFT OUTER JOIN #TempCurrent c on c.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
 -- OUTPUT: A temp table as follows:
 -- #PatientLSOA (FK_Patient_Link_ID, LSOA)
 -- 	- FK_Patient_Link_ID - unique patient id
---	- LSOA - nationally recognised LSOA identifier
+--	- LSOA_Code - nationally recognised LSOA identifier
 
 -- ASSUMPTIONS:
 --	- Patient data is obtained from multiple sources. Where patients have multiple LSOAs we determine the LSOA as follows:
@@ -1234,19 +1238,76 @@ GROUP BY p.FK_Patient_Link_ID
 HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1IsMostDeprived10IsLeastDeprived);
 -- 489
 -- 00:00:00
+--┌────────────────────┐
+--│ COVID vaccinations │
+--└────────────────────┘
 
--- Uncomment when approved by ERG
--- --> EXECUTE query-get-covid-vaccines.sql
+-- OBJECTIVE: To obtain a table with first and second vaccine doses per patient.
+
+-- ASSUMPTIONS:
+--	-	GP records can often be duplicated. The assumption is that if a patient receives
+--    two vaccines within 14 days of each other then it is likely that both codes refer
+--    to the same vaccine. However, it is possible that the first code's entry into the
+--    record was delayed and therefore the second code is in fact a second dose. This
+--    query simply gives the earliest and latest vaccine for each person together with
+--    the number of days since the first vaccine.
+--  - The vaccine can appear as a procedure or as a medication. We assume that the
+--    presence of either represents a vaccination
+
+-- INPUT: No pre-requisites
+
+-- OUTPUT: A temp table as follows:
+-- #COVIDVaccinations (FK_Patient_Link_ID, VaccineDate, DaysSinceFirstVaccine)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- VaccineDate - date of vaccine (YYYY-MM-DD)
+--	- DaysSinceFirstVaccine - 0 if first vaccine, > 0 otherwise
+
+-- Get patients with covid vaccine and earliest and latest date
+-- >>> Following code sets injected: covid-vaccination v1
+IF OBJECT_ID('tempdb..#COVIDVaccines') IS NOT NULL DROP TABLE #COVIDVaccines;
+SELECT 
+  FK_Patient_Link_ID, 
+  MIN(CONVERT(DATE, EventDate)) AS FirstVaccineDate, 
+  MAX(CONVERT(DATE, EventDate)) AS SecondVaccineDate
+INTO #COVIDVaccines
+FROM (
+	SELECT FK_Patient_Link_ID, EventDate
+	FROM [RLS].[vw_GP_Events]
+	WHERE SuppliedCode IN (
+	  SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
+	)
+	AND EventDate > '2020-12-01'
+	UNION 
+	SELECT FK_Patient_Link_ID, MedicationDate
+	FROM [RLS].[vw_GP_Medications]
+	WHERE SuppliedCode IN (
+	  SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
+	)
+	AND MedicationDate > '2020-12-01'
+) sub
+GROUP BY FK_Patient_Link_ID;
+
+IF OBJECT_ID('tempdb..#COVIDVaccinations') IS NOT NULL DROP TABLE #COVIDVaccinations;
+SELECT FK_Patient_Link_ID, FirstVaccineDate AS VaccineDate, 0 AS DaysSinceFirstVaccine
+INTO #COVIDVaccinations
+FROM #COVIDVaccines;
+
+INSERT INTO #COVIDVaccinations
+SELECT FK_Patient_Link_ID, SecondVaccineDate, DATEDIFF(day, FirstVaccineDate, SecondVaccineDate)
+FROM #COVIDVaccines
+WHERE FirstVaccineDate != SecondVaccineDate;
+
+
 
 -- Get the first and second vaccine dates of our cohort. 
--- IF OBJECT_ID('tempdb..#COVIDVaccinations') IS NOT NULL DROP TABLE #COVIDVaccinations;
--- SELECT 
--- 	FK_Patient_Link_ID,
--- 	FirstVaccineDate = MAX(CASE WHEN VaccineDate IS NOT NULL AND DaysSinceFirstVaccine = 0 THEN VaccineDate ELSE NULL END), 
--- 	SecondVaccineDate = MAX(CASE WHEN VaccineDate IS NOT NULL AND DaysSinceFirstVaccine != 0 THEN VaccineDate ELSE NULL END) 
--- INTO #COVIDVaccinations
--- FROM #COVIDVaccinations
--- GROUP BY FK_Patient_Link_ID
+IF OBJECT_ID('tempdb..#COVIDVaccinations2') IS NOT NULL DROP TABLE #COVIDVaccinations2;
+SELECT 
+	FK_Patient_Link_ID,
+	FirstVaccineDate = MAX(CASE WHEN VaccineDate IS NOT NULL AND DaysSinceFirstVaccine = 0 THEN VaccineDate ELSE NULL END), 
+	SecondVaccineDate = MAX(CASE WHEN VaccineDate IS NOT NULL AND DaysSinceFirstVaccine != 0 THEN VaccineDate ELSE NULL END) 
+INTO #COVIDVaccinations2
+FROM #COVIDVaccinations
+GROUP BY FK_Patient_Link_ID
 
 
 
@@ -1259,7 +1320,8 @@ IF OBJECT_ID('tempdb..#PatientBMIValues') IS NOT NULL DROP TABLE #PatientBMIValu
 SELECT 
 	FK_Patient_Link_ID,
 	CAST(EventDate AS DATE) AS EventDate,
-	[Value] AS BMIValue
+	[Value] AS BMIValue,
+	Row_Number() OVER(PARTITION BY FK_Patient_Link_ID ORDER BY EventDate DESC) AS DateRowNumber
 INTO #PatientBMIValues
 FROM RLS.vw_GP_Events
 WHERE (
@@ -1275,7 +1337,7 @@ WHERE (
   )
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate <= DATEADD(month, -1, @IndexDate)
+AND EventDate <= DATEADD(month, -1, @StartDate)
 AND [Value] IS NOT NULL
 AND [Value] != '0';
 
@@ -1283,49 +1345,70 @@ AND [Value] != '0';
 IF OBJECT_ID('tempdb..#PatientLatestBMIValues') IS NOT NULL DROP TABLE #PatientLatestBMIValues;
 SELECT
   FK_Patient_Link_ID,
-	BMIValue,
-  sub.BMILatestDate
+  BMIValue,
+  EventDate as BMILatestDate
 INTO #PatientLatestBMIValues
 FROM #PatientBMIValues
-INNER JOIN (
-  SELECT 
-  	FK_Patient_Link_ID,
-	  MAX(EventDate) as BMILatestDate
-  FROM #PatientBMIValues
-  GROUP BY FK_Patient_Link_ID
-) sub on sub.FK_Patient_Link_ID = FK_Patient_Link_ID and sub.BMILatestDate = EventDate;
+WHERE 
+  DateRowNumber = 1;
 
-
-
-
--- Get additional demographics information for all the patients in the cohort.
-IF OBJECT_ID('tempdb..#MatchedCohort') IS NOT NULL DROP TABLE #MatchedCohort;
-SELECT 
-  FK_Patient_Link_ID, 
-  YearOfBirth, 
-  Sex, 
-  HasCancer,
-  NumberOfMatches,
-  PassiveSmoker,
-	WorstSmokingStatus,
-	CurrentSmokingStatus,
-  LSOA,
-  IMD2019Decile1IsMostDeprived10IsLeastDeprived As IndicesOfDeprivation,
-  EthnicCategoryDescription,
-  BMIValue,
-  BMILatestDate,
+-- Get  frailty information 
+-- If patients have a tenancy id of 2 we take this as their most likely frailty
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientFrailty') IS NOT NULL DROP TABLE #PatientFrailty;
+SELECT
+  FK_Patient_Link_ID,
   FrailtyScore,
   FrailtyDeficits,
   FrailtyDeficitList,
-  Deceased,
-  DeathDate
-INTO #MatchedCohort
-FROM #Patients p
+  Row_Number() OVER(PARTITION BY FK_Patient_Link_ID ORDER BY FrailtyScore DESC) AS FrailtyRowNumber
+INTO #PatientFrailty
+FROM RLS.vw_Patient
+WHERE 
+  FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients2)
+  AND FK_Reference_Tenancy_ID = 2
+
+-- De-duped to get the highest frailty score per patient. 
+IF OBJECT_ID('tempdb..#PatientHighestFrailty') IS NOT NULL DROP TABLE #PatientHighestFrailty;
+SELECT
+  FK_Patient_Link_ID,
+  FrailtyScore,
+  FrailtyDeficits,
+  FrailtyDeficitList
+INTO #PatientHighestFrailty
+FROM #PatientFrailty
+WHERE 
+  FrailtyRowNumber = 1;
+
+-- Get additional demographics information for all the patients in the cohort.
+SELECT 
+  p.FK_Patient_Link_ID AS PatientId, 
+  p.YearOfBirth, 
+  p.Sex, 
+  p.HasCancer,
+  p.NumberOfMatches,
+  sm.PassiveSmoker,
+  sm.WorstSmokingStatus,
+  sm.CurrentSmokingStatus,
+  lsoa.LSOA_Code AS LSOA,
+  imd.IMD2019Decile1IsMostDeprived10IsLeastDeprived As IndicesOfDeprivation,
+  pl.EthnicCategoryDescription AS Ethnicity,
+  bmi.BMIValue,
+  bmi.BMILatestDate,
+  pa.FrailtyScore,
+  pa.FrailtyDeficits,
+  pa.FrailtyDeficitList,
+  cv.FirstVaccineDate,
+  cv.SecondVaccineDate,
+  pl.Deceased AS DeathStatus,
+  pl.DeathDate
+FROM #Patients2 p
 LEFT OUTER JOIN #PatientSmokingStatus sm ON sm.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #COVIDVaccinations2 cv ON cv.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLatestBMIValues bmi ON bmi.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN RLS.vw_Patient pa ON pa.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
+LEFT OUTER JOIN #PatientHighestFrailty pa ON pa.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
 
 

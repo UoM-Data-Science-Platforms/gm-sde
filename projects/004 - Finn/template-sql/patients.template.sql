@@ -46,10 +46,10 @@ DECLARE @StartDate datetime;
 SET @StartDate = '2020-02-01';
 
 --> EXECUTE query-cancer-cohort-matching.sql
--- OUTPUT: #Patients
+-- OUTPUT: #Patients2
 
 
--- Following query has copied in and adjusted to extract current smoking status on index date. 
+-- Following query has been copied in and adjusted to extract current smoking status on index date and use #Patients2 instead of #Patients 
 --┌────────────────┐
 --│ Smoking status │
 --└────────────────┘
@@ -72,7 +72,6 @@ SET @StartDate = '2020-02-01';
 --	-	However, there is likely confusion between the "non smoker" and "never smoked" codes. Especially as sometimes the synonyms for these codes overlap. Therefore, a patient wih a most recent smoking status of "never", but who has previous smoking codes, would be classed as WorstSmokingStatus=non-trivial-smoker / CurrentSmokingStatus=non-smoker
 
 --> CODESET smoking-status-current:1 smoking-status-currently-not:1 smoking-status-ex:1 smoking-status-ex-trivial:1 smoking-status-never:1 smoking-status-passive:1 smoking-status-trivial:1
--- Get all patients year of birth for the cohort
 IF OBJECT_ID('tempdb..#AllPatientSmokingStatusCodes') IS NOT NULL DROP TABLE #AllPatientSmokingStatusCodes;
 SELECT 
 	FK_Patient_Link_ID,
@@ -81,7 +80,7 @@ SELECT
 	FK_Reference_SnomedCT_ID
 INTO #AllPatientSmokingStatusCodes
 FROM RLS.vw_GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients2)
 AND (
 	FK_Reference_SnomedCT_ID IN (
 		SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets 
@@ -219,7 +218,8 @@ IF OBJECT_ID('tempdb..#PatientBMIValues') IS NOT NULL DROP TABLE #PatientBMIValu
 SELECT 
 	FK_Patient_Link_ID,
 	CAST(EventDate AS DATE) AS EventDate,
-	[Value] AS BMIValue
+	[Value] AS BMIValue,
+	Row_Number() OVER(PARTITION BY FK_Patient_Link_ID ORDER BY EventDate DESC) AS DateRowNumber
 INTO #PatientBMIValues
 FROM RLS.vw_GP_Events
 WHERE (
@@ -242,51 +242,71 @@ AND [Value] != '0';
 -- Get the latest BMI value before the index date 1st Jan 2020
 IF OBJECT_ID('tempdb..#PatientLatestBMIValues') IS NOT NULL DROP TABLE #PatientLatestBMIValues;
 SELECT
-  p.FK_Patient_Link_ID,
+  FK_Patient_Link_ID,
   BMIValue,
-  sub.BMILatestDate
+  EventDate as BMILatestDate
 INTO #PatientLatestBMIValues
-FROM #PatientBMIValues p
-INNER JOIN (
-  SELECT 
-  	FK_Patient_Link_ID,
-	  MAX(EventDate) as BMILatestDate
-  FROM #PatientBMIValues
-  GROUP BY FK_Patient_Link_ID
-) sub on sub.FK_Patient_Link_ID = FK_Patient_Link_ID and sub.BMILatestDate = EventDate;
+FROM #PatientBMIValues
+WHERE 
+  DateRowNumber = 1;
 
-
-
-
--- Get additional demographics information for all the patients in the cohort.
-SELECT 
-  FK_Patient_Link_ID AS PatientId, 
-  YearOfBirth, 
-  Sex, 
-  HasCancer,
-  NumberOfMatches,
-  PassiveSmoker,
-  WorstSmokingStatus,
-  CurrentSmokingStatus,
-  LSOA,
-  IMD2019Decile1IsMostDeprived10IsLeastDeprived As IndicesOfDeprivation,
-  EthnicCategoryDescription AS Ethnicity,
-  BMIValue,
-  BMILatestDate,
+-- Get  frailty information 
+-- If patients have a tenancy id of 2 we take this as their most likely frailty
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientFrailty') IS NOT NULL DROP TABLE #PatientFrailty;
+SELECT
+  FK_Patient_Link_ID,
   FrailtyScore,
   FrailtyDeficits,
   FrailtyDeficitList,
-  FirstVaccineDate,
-  SecondVaccineDate,
-  Deceased AS DeathStatus,
-  DeathDate
-FROM #Patients p
+  Row_Number() OVER(PARTITION BY FK_Patient_Link_ID ORDER BY FrailtyScore DESC) AS FrailtyRowNumber
+INTO #PatientFrailty
+FROM RLS.vw_Patient
+WHERE 
+  FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients2)
+  AND FK_Reference_Tenancy_ID = 2
+
+-- De-duped to get the highest frailty score per patient. 
+IF OBJECT_ID('tempdb..#PatientHighestFrailty') IS NOT NULL DROP TABLE #PatientHighestFrailty;
+SELECT
+  FK_Patient_Link_ID,
+  FrailtyScore,
+  FrailtyDeficits,
+  FrailtyDeficitList
+INTO #PatientHighestFrailty
+FROM #PatientFrailty
+WHERE 
+  FrailtyRowNumber = 1;
+
+-- Get additional demographics information for all the patients in the cohort.
+SELECT 
+  p.FK_Patient_Link_ID AS PatientId, 
+  p.YearOfBirth, 
+  p.Sex, 
+  p.HasCancer,
+  p.NumberOfMatches,
+  sm.PassiveSmoker,
+  sm.WorstSmokingStatus,
+  sm.CurrentSmokingStatus,
+  lsoa.LSOA_Code AS LSOA,
+  imd.IMD2019Decile1IsMostDeprived10IsLeastDeprived As IndicesOfDeprivation,
+  pl.EthnicCategoryDescription AS Ethnicity,
+  bmi.BMIValue,
+  bmi.BMILatestDate,
+  pa.FrailtyScore,
+  pa.FrailtyDeficits,
+  pa.FrailtyDeficitList,
+  cv.FirstVaccineDate,
+  cv.SecondVaccineDate,
+  pl.Deceased AS DeathStatus,
+  pl.DeathDate
+FROM #Patients2 p
 LEFT OUTER JOIN #PatientSmokingStatus sm ON sm.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #COVIDVaccinations cv ON cv.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #COVIDVaccinations2 cv ON cv.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLatestBMIValues bmi ON bmi.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN RLS.vw_Patient pa ON pa.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
+LEFT OUTER JOIN #PatientHighestFrailty pa ON pa.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
 
 
