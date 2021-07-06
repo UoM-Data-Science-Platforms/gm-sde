@@ -123,6 +123,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h2>Reusable queries</h2>
 <p>This project required the following reusable queries:</p>
 <ul>
+<li>Patient GP history</li>
 <li>Secondary admissions and length of stay</li>
 <li>Secondary discharges</li>
 <li>Cohort matching on year of birth / sex / and an index date</li>
@@ -133,6 +134,27 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>Smoking status</li>
 </ul>
 <p>Further details for each query can be found below.</p>
+<h3>Patient GP history</h3>
+<p>To produce a table showing the start and end dates for each practice the patient has been registered at.</p>
+<p><em>Assumptions</em></p>
+<ul>
+<li>We do not have data on patients who move out of GM, though we do know that it happened. For these patients we record the GPPracticeCode as OutOfArea</li>
+<li>Where two adjacent time periods either overlap, or have a gap between them, we assume that the most recent registration is more accurate and adjust the end date of the first time period accordingly. This is an infrequent occurrence.</li>
+</ul>
+<p><em>Input</em></p>
+<pre><code>No pre-requisites
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table as follows:
+ #PatientGPHistory (FK_Patient_Link_ID, GPPracticeCode, StartDate, EndDate)
+	- FK_Patient_Link_ID - unique patient id
+	- GPPracticeCode - national GP practice id system
+	- StartDate - date the patient registered at the practice
+	- EndDate - date the patient left the practice
+</code></pre>
+<p><em>File</em>: <code>query-patient-gp-history.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-gp-history.sql">https://github.com/rw251/.../query-patient-gp-history.sql</a></p>
+<hr>
 <h3>Secondary admissions and length of stay</h3>
 <p>To obtain a table with every secondary care admission, along with the acute provider, the date of admission, the date of discharge, and the length of stay.</p>
 <p><em>Input</em></p>

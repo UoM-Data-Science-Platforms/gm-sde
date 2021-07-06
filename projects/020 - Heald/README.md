@@ -35,6 +35,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.
   
 This project required the following reusable queries:
 
+- Patient GP history
 - Secondary admissions and length of stay
 - Secondary discharges
 - Cohort matching on year of birth / sex / and an index date
@@ -46,6 +47,33 @@ This project required the following reusable queries:
 
 Further details for each query can be found below.
 
+### Patient GP history
+To produce a table showing the start and end dates for each practice the patient has been registered at.
+
+_Assumptions_
+
+- We do not have data on patients who move out of GM, though we do know that it happened. For these patients we record the GPPracticeCode as OutOfArea
+- Where two adjacent time periods either overlap, or have a gap between them, we assume that the most recent registration is more accurate and adjust the end date of the first time period accordingly. This is an infrequent occurrence.
+
+_Input_
+```
+No pre-requisites
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientGPHistory (FK_Patient_Link_ID, GPPracticeCode, StartDate, EndDate)
+	- FK_Patient_Link_ID - unique patient id
+	- GPPracticeCode - national GP practice id system
+	- StartDate - date the patient registered at the practice
+	- EndDate - date the patient left the practice
+```
+_File_: `query-patient-gp-history.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-gp-history.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-gp-history.sql)
+
+---
 ### Secondary admissions and length of stay
 To obtain a table with every secondary care admission, along with the acute provider, the date of admission, the date of discharge, and the length of stay.
 
