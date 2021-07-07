@@ -392,7 +392,7 @@ ORDER BY YEAR(d.date), MONTH(d.date);
 
 -- T1 deaths per month
 IF OBJECT_ID('tempdb..#T1DeathsPerMonth') IS NOT NULL DROP TABLE #T1DeathsPerMonth;
-SELECT YEAR(d.date) AS Year, MONTH(d.date) AS Month, COUNT(*) AS T2Population INTO #T1DeathsPerMonth FROM #DatesFrom2019 d
+SELECT YEAR(d.date) AS Year, MONTH(d.date) AS Month, COUNT(*) AS T1Deaths INTO #T1DeathsPerMonth FROM #DatesFrom2019 d
 INNER JOIN #DiabeticTypeIPatients t1 
 	ON d.date > t1.FirstT1DiagnosisDate --only count people starting in the month AFTER their diagnosis and onwards
 	AND d.date <= t1.DeathDate
@@ -423,7 +423,7 @@ ORDER BY YEAR(d.date), MONTH(d.date);
 
 -- T2 deaths per month
 IF OBJECT_ID('tempdb..#T2DeathsPerMonth') IS NOT NULL DROP TABLE #T2DeathsPerMonth;
-SELECT YEAR(d.date) AS Year, MONTH(d.date) AS Month, COUNT(*) AS T2Population INTO #T2DeathsPerMonth FROM #DatesFrom2019 d
+SELECT YEAR(d.date) AS Year, MONTH(d.date) AS Month, COUNT(*) AS T2Deaths INTO #T2DeathsPerMonth FROM #DatesFrom2019 d
 INNER JOIN #DiabeticTypeIIPatients T2 
 	ON d.date > T2.FirstT2DiagnosisDate --only count people starting in the month AFTER their diagnosis and onwards
 	AND d.date <= T2.DeathDate
@@ -437,9 +437,11 @@ OR h.GPPracticeCode IS NULL
 GROUP BY YEAR(d.date), MONTH(d.date)
 ORDER BY YEAR(d.date), MONTH(d.date);
 
-
-SELECT * FROM #DatesFrom201 d
-LEFT OUTER JOIN #T1DeathsPerMonth t1d on t1d.Year = d.Year and t1d.Month = d.Month
-LEFT OUTER JOIN #T1PopPerMonth t1 on t1.Year = d.Year and t1.Month = d.Month
-LEFT OUTER JOIN #T2DeathsPerMonth t2d on t2d.Year = d.Year and t2d.Month = d.Month
-LEFT OUTER JOIN #T2PopPerMonth t2 on t2.Year = d.Year and t2.Month = d.Month;
+-- Final extract
+SELECT YEAR(d.date) AS Year, MONTH(d.date) AS Month, T1Population, T1Deaths, T2Population, T2Deaths FROM #DatesFrom2019 d
+LEFT OUTER JOIN #T1DeathsPerMonth t1d on t1d.Year = YEAR(d.date) and t1d.Month = MONTH(d.date)
+LEFT OUTER JOIN #T1PopPerMonth t1 on t1.Year = YEAR(d.date) and t1.Month = MONTH(d.date)
+LEFT OUTER JOIN #T2DeathsPerMonth t2d on t2d.Year = YEAR(d.date) and t2d.Month = MONTH(d.date)
+LEFT OUTER JOIN #T2PopPerMonth t2 on t2.Year = YEAR(d.date) and t2.Month = MONTH(d.date)
+WHERE YEAR(d.date) < YEAR(GETDATE())
+OR MONTH(d.date) < MONTH(GETDATE()); -- No deaths in "current" month so no point returning

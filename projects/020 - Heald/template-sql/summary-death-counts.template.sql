@@ -65,6 +65,12 @@ SET d.DeathDate = p.DeathDate
 FROM #DiabeticTypeIIPatients d
 INNER JOIN [RLS].vw_Patient_Link p ON p.PK_Patient_Link_ID = d.FK_Patient_Link_ID;
 
+-- Get all patients and death dates
+IF OBJECT_ID('tempdb..#AllPatientsForSummaryDeathCount') IS NOT NULL DROP TABLE #AllPatientsForSummaryDeathCount;
+SELECT PK_Patient_Link_ID, DeathDate INTO #AllPatientsForSummaryDeathCount FROM [RLS].vw_Patient_Link
+INNER JOIN [RLS].vw_Patient p ON p.FK_Patient_Link_ID = PK_Patient_Link_ID
+WHERE FK_Reference_Tenancy_ID = 2;
+
 --> EXECUTE query-patient-gp-history.sql
 
 -- Table of dates for future joining
@@ -95,7 +101,7 @@ ORDER BY YEAR(d.date), MONTH(d.date);
 
 -- T1 deaths per month
 IF OBJECT_ID('tempdb..#T1DeathsPerMonth') IS NOT NULL DROP TABLE #T1DeathsPerMonth;
-SELECT YEAR(d.date) AS Year, MONTH(d.date) AS Month, COUNT(*) AS T2Population INTO #T1DeathsPerMonth FROM #DatesFrom2019 d
+SELECT YEAR(d.date) AS Year, MONTH(d.date) AS Month, COUNT(*) AS T1Deaths INTO #T1DeathsPerMonth FROM #DatesFrom2019 d
 INNER JOIN #DiabeticTypeIPatients t1 
 	ON d.date > t1.FirstT1DiagnosisDate --only count people starting in the month AFTER their diagnosis and onwards
 	AND d.date <= t1.DeathDate
@@ -126,7 +132,7 @@ ORDER BY YEAR(d.date), MONTH(d.date);
 
 -- T2 deaths per month
 IF OBJECT_ID('tempdb..#T2DeathsPerMonth') IS NOT NULL DROP TABLE #T2DeathsPerMonth;
-SELECT YEAR(d.date) AS Year, MONTH(d.date) AS Month, COUNT(*) AS T2Population INTO #T2DeathsPerMonth FROM #DatesFrom2019 d
+SELECT YEAR(d.date) AS Year, MONTH(d.date) AS Month, COUNT(*) AS T2Deaths INTO #T2DeathsPerMonth FROM #DatesFrom2019 d
 INNER JOIN #DiabeticTypeIIPatients T2 
 	ON d.date > T2.FirstT2DiagnosisDate --only count people starting in the month AFTER their diagnosis and onwards
 	AND d.date <= T2.DeathDate
@@ -140,9 +146,42 @@ OR h.GPPracticeCode IS NULL
 GROUP BY YEAR(d.date), MONTH(d.date)
 ORDER BY YEAR(d.date), MONTH(d.date);
 
+-- ALL population per month
+IF OBJECT_ID('tempdb..#ALLPopPerMonth') IS NOT NULL DROP TABLE #ALLPopPerMonth;
+SELECT YEAR(d.date) AS Year, MONTH(d.date) AS Month, COUNT(*) AS ALLPopulation INTO #ALLPopPerMonth FROM #DatesFrom2019 d
+INNER JOIN #AllPatientsForSummaryDeathCount a 
+	ON (d.date <= a.DeathDate OR a.DeathDate IS NULL) --don't count people who have died before the month
+LEFT OUTER JOIN #PatientGPHistory h
+	on h.StartDate <= d.date -- match the current practice for each patient each month
+	AND h.EndDate >=d.date
+	AND h.FK_Patient_Link_ID=a.PK_Patient_Link_ID
+where h.GPPracticeCode != 'OutOfArea' -- don't count people each month who are not GM GP registered
+OR h.GPPracticeCode IS NULL 
+GROUP BY YEAR(d.date), MONTH(d.date)
+ORDER BY YEAR(d.date), MONTH(d.date);
+
+-- ALL deaths per month
+IF OBJECT_ID('tempdb..#ALLDeathsPerMonth') IS NOT NULL DROP TABLE #ALLDeathsPerMonth;
+SELECT YEAR(d.date) AS Year, MONTH(d.date) AS Month, COUNT(*) AS ALLDeaths INTO #ALLDeathsPerMonth FROM #DatesFrom2019 d
+INNER JOIN #AllPatientsForSummaryDeathCount a 
+	ON d.date <= a.DeathDate
+	AND DATEADD(month, 1, d.date) > a.DeathDate --only count people who have died in this month
+LEFT OUTER JOIN #PatientGPHistory h
+	on h.StartDate <= d.date -- match the current practice for each patient each month
+	AND h.EndDate >=d.date
+	AND h.FK_Patient_Link_ID=a.PK_Patient_Link_ID
+where h.GPPracticeCode != 'OutOfArea' -- don't count people each month who are not GM GP registered
+OR h.GPPracticeCode IS NULL 
+GROUP BY YEAR(d.date), MONTH(d.date)
+ORDER BY YEAR(d.date), MONTH(d.date);
+
 -- Final extract
-SELECT * FROM #DatesFrom2019 d
+SELECT YEAR(d.date) AS Year, MONTH(d.date) AS Month, T1Population, T1Deaths, T2Population, T2Deaths, ALLPopulation, ALLDeaths FROM #DatesFrom2019 d
 LEFT OUTER JOIN #T1DeathsPerMonth t1d on t1d.Year = YEAR(d.date) and t1d.Month = MONTH(d.date)
 LEFT OUTER JOIN #T1PopPerMonth t1 on t1.Year = YEAR(d.date) and t1.Month = MONTH(d.date)
 LEFT OUTER JOIN #T2DeathsPerMonth t2d on t2d.Year = YEAR(d.date) and t2d.Month = MONTH(d.date)
-LEFT OUTER JOIN #T2PopPerMonth t2 on t2.Year = YEAR(d.date) and t2.Month = MONTH(d.date);
+LEFT OUTER JOIN #T2PopPerMonth t2 on t2.Year = YEAR(d.date) and t2.Month = MONTH(d.date)
+LEFT OUTER JOIN #ALLDeathsPerMonth ad on ad.Year = YEAR(d.date) and ad.Month = MONTH(d.date)
+LEFT OUTER JOIN #ALLPopPerMonth a on a.Year = YEAR(d.date) and a.Month = MONTH(d.date)
+WHERE YEAR(d.date) < YEAR(GETDATE())
+OR MONTH(d.date) < MONTH(GETDATE()); -- No deaths in "current" month so no point returning
