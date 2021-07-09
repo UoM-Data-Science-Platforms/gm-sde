@@ -7,20 +7,20 @@
 # └──────────────────────────────────────────────────────────────────────────┘
 
 
-# move to batch dir 
-FULL_PATH=$(realpath "$0")
-PROJECT_DIR="$(dirname "$FULL_PATH")"
-cd "${PROJECT_DIR}"
+PROJECT_REL_PATH=$(dirname "$0")
+PROJECT_FULL_PATH="$(pwd)/$PROJECT_REL_PATH"
+REPO_ROOT_FULL_PATH="$PROJECT_FULL_PATH/../../"
+MAIN_SCRIPT_FULL_PATH="$REPO_ROOT_FULL_PATH/scripts/main.js"
 
-# move to project root
-cd ../..
+# move to repo root
+cd "$REPO_ROOT_FULL_PATH"
 
 # Call npm install to ensure up to date
 npm i --quiet
 
-# Return to project root
-cd "${PROJECT_DIR}"
+# Return to project
+cd "${PROJECT_FULL_PATH}"
 
-node ../../scripts/main.js stitch
+node "$MAIN_SCRIPT_FULL_PATH" stitch
 
 read -p "Press [Enter] to continue..."

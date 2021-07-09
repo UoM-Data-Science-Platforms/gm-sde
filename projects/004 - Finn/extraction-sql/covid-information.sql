@@ -1,42 +1,17 @@
 --┌─────────────────────────────────┐
---│ Patients demographics           │
+--│ Covid information               │
 --└─────────────────────────────────┘
 
-
--- Defines the cohort (cancer and non cancer patients) that will be used for the study, based on: 
--- Main cohort (cancer patients):
---	- Cancer diagnosis between 1st February 2015 and 1st February 2020
---	- >= 18 year old 
---	- Alive on 1st Feb 2020 
--- Control group (non cancer patients):
---  -	Alive on 1st February 2020 
---  -	no current or history of cancer diagnosis.
--- Matching is 1:5 based on sex and year of birth with a flexible year of birth = 0
--- Index date is: 1st February 2020
-
+-- Covid information including shielding for all patients in the entire cohort. 
 
 -- OUTPUT: A single table with the following:
---  •	PatientId (int)
---  •	YearOfBirth (int in this format YYYY)
---  •	Sex (M/F/U)
---  •	HasCancer (Y/N)
---  •	FirstDiagnosisDate (YYYY-MM-DD)
---  •	NumberOfMatches (No from 1-5. Note: Non cancer patients will have 1 in this field.)
---	•	PassiveSmoker - Y/N (whether a patient has ever had a code for passive smoking)
---	•	WorstSmokingStatus - (non-trivial-smoker/trivial-smoker/non-smoker)
---	•	CurrentSmokingStatus - (non-trivial-smoker/trivial-smoker/non-smoker)
---  •	LSOA (nationally recognised LSOA identifier)
---  •	IndicesOfDeprivation (IMD 2019: number 1 to 10 inclusive)
---  •	BMIValue ()
---  •	BMILatestDate (YYYY-MM-DD) Latest date that a BMI value has been captured on or before 1 month prior to index date
---  •	Ethnicity 
---  •	FrailtyScore (as captured in PatientLink)
---  •	FrailtyDeficits 
---  •	FrailtyDeficitList 
---  •	FirstVaccineDate (date of vaccine (YYYY-MM-DD)) 
---  •	SecondVaccineDate (date of second vaccine (YYYY-MM-DD), null otherwise)
---  •	DeathStatus (Alive/Dead)
---  •	DeathDate (YYYY-MM-01 - with precision to month, this will always be the first of the month)
+--	PatientId
+--  ModerateVulnerabilityCodeDate,
+--  HighVulnerabilityCodeDate,
+--  CovidPositiveDate,
+--  DeathWithin28Days
+
+
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -135,23 +110,9 @@ VALUES ('cancer',1,'B327000','Malignant melanoma of hip'),('cancer',1,'B3270','M
 ('cancer',1,'B628.00','Follicular lymphoma'),('cancer',1,'B628.','Follicular lymphoma'),('cancer',1,'B677.00','Myelodysplastic and myeloproliferative disease'),('cancer',1,'B677.','Myelodysplastic and myeloproliferative disease'),('cancer',1,'B61..11','Hodgkin lymphoma'),('cancer',1,'B61..','Hodgkin lymphoma'),('cancer',1,'B595.00','Malignant tumour of unknown origin'),('cancer',1,'B595.','Malignant tumour of unknown origin'),('cancer',1,'B640000','B-cell acute lymphoblastic leukaemia'),('cancer',1,'B6400','B-cell acute lymphoblastic leukaemia'),('cancer',1,'B641000','B-cell chronic lymphocytic leukaemia'),('cancer',1,'B6410','B-cell chronic lymphocytic leukaemia'),('cancer',1,'B62F000','Small cell B-cell lymphoma'),('cancer',1,'B62F0','Small cell B-cell lymphoma'),('cancer',1,'B627.11','Non-Hodgkin lymphoma'),('cancer',1,'B627.','Non-Hodgkin lymphoma'),('cancer',1,'B62F200','Lymphoblastic (diffuse) lymphoma'),('cancer',1,'B62F2','Lymphoblastic (diffuse) lymphoma'),('cancer',1,'B630400','Solitary plasmacytoma'),('cancer',1,'B6304','Solitary plasmacytoma'),('cancer',1,'B692.00','Subacute myelomonocytic leukaemia'),('cancer',1,'B692.','Subacute myelomonocytic leukaemia'),('cancer',1,'B58y800','Secondary malignant neoplasm of epididymis and vas deferens'),('cancer',1,'B58y8','Secondary malignant neoplasm of epididymis and vas deferens'),('cancer',1,'B61C.00','Other classical Hodgkin lymphoma'),('cancer',1,'B61C.','Other classical Hodgkin lymphoma'),('cancer',1,'B62F100','Mantle cell lymphoma'),('cancer',1,'B62F1','Mantle cell lymphoma'),('cancer',2,'B580.00','Secondary malignant neoplasm of kidney'),('cancer',2,'B580.','Secondary malignant neoplasm of kidney'),('cancer',2,'B570.00','Secondary malignant neoplasm of lung'),('cancer',2,'B570.','Secondary malignant neoplasm of lung'),('cancer',2,'B577.11','Liver metastases'),('cancer',2,'B577.','Liver metastases'),('cancer',2,'B583000','Secondary malignant neoplasm of brain'),('cancer',2,'B5830','Secondary malignant neoplasm of brain'),('cancer',2,'B583200','Cerebral metastasis'),('cancer',2,'B5832','Cerebral metastasis'),('cancer',2,'B58..00','Secondary malignant neoplasm of other specified sites'),('cancer',2,'B58..','Secondary malignant neoplasm of other specified sites'),('cancer',2,'B57..11','Metastases of respiratory and/or digestive systems'),('cancer',2,'B57..','Metastases of respiratory and/or digestive systems'),('cancer',2,'B565.00','Secondary and unspec malig neop intrapelvic lymph nodes'),('cancer',2,'B565.','Secondary and unspec malig neop intrapelvic lymph nodes'),('cancer',2,'B585.00','Secondary malignant neoplasm of bone and bone marrow'),('cancer',2,'B585.','Secondary malignant neoplasm of bone and bone marrow'),('cancer',2,'B56..11','Lymph node metastases'),('cancer',2,'B56..','Lymph node metastases'),('cancer',2,'B582600','Secondary malignant neoplasm of skin of breast'),('cancer',2,'B5826','Secondary malignant neoplasm of skin of breast'),('cancer',2,'B56..00','Secondary and unspecified malignant neoplasm of lymph nodes'),('cancer',2,'B56..','Secondary and unspecified malignant neoplasm of lymph nodes'),('cancer',2,'B590.00','Disseminated malignancy NOS'),('cancer',2,'B590.','Disseminated malignancy NOS'),('cancer',2,'B577.00','Secondary malignant neoplasm of liver'),('cancer',2,'B577.','Secondary malignant neoplasm of liver'),('cancer',2,'B56z.00','Secondary and unspec malig neop lymph nodes NOS'),('cancer',2,'B56z.','Secondary and unspec malig neop lymph nodes NOS'),('cancer',2,'B572.00','Secondary malignant neoplasm of pleura'),('cancer',2,'B572.','Secondary malignant neoplasm of pleura'),('cancer',2,'B58z.00','Secondary malignant neoplasm of other specified site NOS'),('cancer',2,'B58z.','Secondary malignant neoplasm of other specified site NOS'),('cancer',2,'B58y000','Secondary malignant neoplasm of breast'),('cancer',2,'B58y0','Secondary malignant neoplasm of breast'),('cancer',2,'B58y.00','Secondary malignant neoplasm of other specified sites'),('cancer',2,'B58y.','Secondary malignant neoplasm of other specified sites'),('cancer',2,'B562300','Secondary and unspec malig neop common iliac lymph nodes'),('cancer',2,'B5623','Secondary and unspec malig neop common iliac lymph nodes'),('cancer',2,'B585000','Pathological fracture due to metastatic bone disease'),('cancer',2,'B5850','Pathological fracture due to metastatic bone disease'),('cancer',2,'B582.00','Secondary malignant neoplasm of skin'),('cancer',2,'B582.','Secondary malignant neoplasm of skin'),('cancer',2,'B56y.00','Secondary and unspec malig neop lymph nodes multiple sites'),('cancer',2,'B56y.','Secondary and unspec malig neop lymph nodes multiple sites'),('cancer',2,'B58y500','Secondary malignant neoplasm of prostate'),('cancer',2,'B58y5','Secondary malignant neoplasm of prostate'),('cancer',2,'B581100','Secondary malignant neoplasm of bladder'),('cancer',2,'B5811','Secondary malignant neoplasm of bladder'),('cancer',2,'B58yz00','Secondary malignant neoplasm of other specified site NOS'),('cancer',2,'B58yz','Secondary malignant neoplasm of other specified site NOS'),('cancer',2,'B57..12','Secondary carcinoma of respiratory and/or digestive systems'),('cancer',2,'B57..','Secondary carcinoma of respiratory and/or digestive systems'),('cancer',2,'B561300','Secondary and unspec malig neop ant mediastinal lymph nodes'),('cancer',2,'B5613','Secondary and unspec malig neop ant mediastinal lymph nodes'),('cancer',2,'B240.00','Malignant neoplasm of thymus'),('cancer',2,'B240.','Malignant neoplasm of thymus'),('cancer',2,'B58..11','Secondary carcinoma of other specified sites'),('cancer',2,'B58..','Secondary carcinoma of other specified sites'),('cancer',2,'B560600','Secondary and unspec malig neop of facial lymph nodes'),('cancer',2,'B5606','Secondary and unspec malig neop of facial lymph nodes'),('cancer',2,'B575000','Secondary malignant neoplasm of colon'),('cancer',2,'B5750','Secondary malignant neoplasm of colon'),('cancer',2,'B560200','Secondary and unspec malig neop superficial cervical LN'),('cancer',2,'B5602','Secondary and unspec malig neop superficial cervical LN'),('cancer',2,'B58y600','Secondary malignant neoplasm of testis'),('cancer',2,'B58y6','Secondary malignant neoplasm of testis'),('cancer',2,'B57..00','Secondary malig neop of respiratory and digestive systems'),('cancer',2,'B57..','Secondary malig neop of respiratory and digestive systems'),('cancer',2,'B576000','Secondary malignant neoplasm of retroperitoneum'),('cancer',2,'B5760','Secondary malignant neoplasm of retroperitoneum'),('cancer',2,'B582200','Secondary malignant neoplasm of skin of neck'),('cancer',2,'B5822','Secondary malignant neoplasm of skin of neck'),('cancer',2,'B153.00','Secondary malignant neoplasm of liver'),('cancer',2,'B153.','Secondary malignant neoplasm of liver'),('cancer',2,'B575z00','Secondary malig neop of large intestine or rectum NOS'),('cancer',2,'B575z','Secondary malig neop of large intestine or rectum NOS'),('cancer',2,'B587.00','Secondary malignant neoplasm of adrenal gland'),('cancer',2,'B587.','Secondary malignant neoplasm of adrenal gland'),('cancer',2,'B563000','Secondary and unspec malig neop axillary lymph nodes'),('cancer',2,'B5630','Secondary and unspec malig neop axillary lymph nodes'),('cancer',2,'B561000','Secondary and unspec malig neop internal mammary lymph nodes'),('cancer',2,'B5610','Secondary and unspec malig neop internal mammary lymph nodes'),('cancer',2,'B560700','Secondary and unspec malig neop submental lymph nodes'),('cancer',2,'B5607','Secondary and unspec malig neop submental lymph nodes'),('cancer',2,'B583100','Secondary malignant neoplasm of spinal cord'),('cancer',2,'B5831','Secondary malignant neoplasm of spinal cord'),('cancer',2,'B560500','Secondary and unspec malig neop submandibular lymph nodes'),('cancer',2,'B5605','Secondary and unspec malig neop submandibular lymph nodes'),('cancer',2,'B582300','Secondary malignant neoplasm of skin of trunk'),('cancer',2,'B5823','Secondary malignant neoplasm of skin of trunk'),('cancer',2,'B562000','Secondary and unspec malig neop coeliac lymph nodes'),('cancer',2,'B5620','Secondary and unspec malig neop coeliac lymph nodes'),('cancer',2,'B582000','Secondary malignant neoplasm of skin of head'),('cancer',2,'B5820','Secondary malignant neoplasm of skin of head'),('cancer',2,'B575.00','Secondary malignant neoplasm of large intestine and rectum'),('cancer',2,'B575.','Secondary malignant neoplasm of large intestine and rectum'),('cancer',2,'B586.00','Secondary malignant neoplasm of ovary'),('cancer',2,'B586.','Secondary malignant neoplasm of ovary'),('cancer',2,'B560800','Secondary and unspec malig neop anterior cervical LN'),('cancer',2,'B5608','Secondary and unspec malig neop anterior cervical LN'),('cancer',2,'B562z00','Secondary and unspec malig neop intra-abdominal LN NOS'),('cancer',2,'B562z','Secondary and unspec malig neop intra-abdominal LN NOS'),('cancer',2,'B58y900','Secondary malignant neoplasm of tongue'),('cancer',2,'B58y9','Secondary malignant neoplasm of tongue'),('cancer',2,'B563300','Secondary and unspec malig neop pectoral lymph nodes'),('cancer',2,'B5633','Secondary and unspec malig neop pectoral lymph nodes'),('cancer',2,'B565300','Secondary and unspec malig neop sacral lymph nodes'),('cancer',2,'B5653','Secondary and unspec malig neop sacral lymph nodes'),('cancer',2,'B582500','Secondary malignant neoplasm of skin of hip and leg'),('cancer',2,'B5825','Secondary malignant neoplasm of skin of hip and leg'),('cancer',2,'B58y700','Secondary malignant neoplasm of penis'),('cancer',2,'B58y7','Secondary malignant neoplasm of penis'),('cancer',2,'B560.00','Secondary and unspec malig neop lymph nodes head/face/neck'),('cancer',2,'B560.','Secondary and unspec malig neop lymph nodes head/face/neck'),('cancer',2,'B563.00','Secondary and unspec malig neop axilla and upper limb LN'),('cancer',2,'B563.','Secondary and unspec malig neop axilla and upper limb LN'),
 ('cancer',2,'B563200','Secondary and unspec malig neop infraclavicular lymph nodes'),('cancer',2,'B5632','Secondary and unspec malig neop infraclavicular lymph nodes'),('cancer',2,'B571.00','Secondary malignant neoplasm of mediastinum'),('cancer',2,'B571.','Secondary malignant neoplasm of mediastinum'),('cancer',2,'B561900','Secondary and unspec malig neop pulmonary lymph nodes'),('cancer',2,'B5619','Secondary and unspec malig neop pulmonary lymph nodes'),('cancer',2,'B562.00','Secondary and unspec malig neop intra-abdominal lymph nodes'),('cancer',2,'B562.','Secondary and unspec malig neop intra-abdominal lymph nodes'),('cancer',2,'B581200','Secondary malignant neoplasm of urethra'),('cancer',2,'B5812','Secondary malignant neoplasm of urethra'),('cancer',2,'B584.00','Secondary malignant neoplasm of other part of nervous system'),('cancer',2,'B584.','Secondary malignant neoplasm of other part of nervous system'),('cancer',2,'ByuC700','[X]Secondary malignant neoplasm of other specified sites'),('cancer',2,'ByuC7','[X]Secondary malignant neoplasm of other specified sites'),('cancer',2,'B564000','Secondary and unspec malig neop superficial inguinal LN'),('cancer',2,'B5640','Secondary and unspec malig neop superficial inguinal LN'),('cancer',2,'B594.00','Secondary malignant neoplasm of unknown site'),('cancer',2,'B594.','Secondary malignant neoplasm of unknown site'),('cancer',2,'B58y100','Secondary malignant neoplasm of uterus'),('cancer',2,'B58y1','Secondary malignant neoplasm of uterus'),('cancer',2,'B582z00','Secondary malignant neoplasm of skin NOS'),('cancer',2,'B582z','Secondary malignant neoplasm of skin NOS'),('cancer',2,'B561400','Secondary and unspec malig neop post mediastinal lymph nodes'),('cancer',2,'B5614','Secondary and unspec malig neop post mediastinal lymph nodes'),('cancer',2,'B574000','Secondary malignant neoplasm of duodenum'),('cancer',2,'B5740','Secondary malignant neoplasm of duodenum'),('cancer',2,'B57y.00','Secondary malignant neoplasm of other digestive organ'),('cancer',2,'B57y.','Secondary malignant neoplasm of other digestive organ'),('cancer',2,'ByuC300','[X]Secondary malignant neoplasm/oth+unspc respiratory organs'),('cancer',2,'ByuC3','[X]Secondary malignant neoplasm/oth+unspc respiratory organs'),('cancer',2,'B561500','Secondary and unspec malig neop paratracheal lymph nodes'),('cancer',2,'B5615','Secondary and unspec malig neop paratracheal lymph nodes'),('cancer',2,'B583z00','Secondary malignant neoplasm of brain or spinal cord NOS'),('cancer',2,'B583z','Secondary malignant neoplasm of brain or spinal cord NOS'),('cancer',2,'B581000','Secondary malignant neoplasm of ureter'),('cancer',2,'B5810','Secondary malignant neoplasm of ureter'),('cancer',2,'B58y400','Secondary malignant neoplasm of vulva'),('cancer',2,'B58y4','Secondary malignant neoplasm of vulva'),('cancer',2,'B564100','Secondary and unspec malig neop deep inguinal lymph nodes'),('cancer',2,'B5641','Secondary and unspec malig neop deep inguinal lymph nodes'),('cancer',2,'B562200','Secondary and unspec malig neop inferior mesenteric LN'),('cancer',2,'B5622','Secondary and unspec malig neop inferior mesenteric LN'),('cancer',2,'B561800','Secondary and unspec malig neop bronchopulmonary lymph nodes'),('cancer',2,'B5618','Secondary and unspec malig neop bronchopulmonary lymph nodes'),('cancer',2,'B573.00','Secondary malignant neoplasm of other respiratory organs'),('cancer',2,'B573.','Secondary malignant neoplasm of other respiratory organs'),('cancer',2,'B581z00','Secondary malignant neoplasm of other urinary organ NOS'),('cancer',2,'B581z','Secondary malignant neoplasm of other urinary organ NOS'),('cancer',2,'B575100','Secondary malignant neoplasm of rectum'),('cancer',2,'B5751','Secondary malignant neoplasm of rectum'),('cancer',2,'B582400','Secondary malignant neoplasm of skin of shoulder and arm'),('cancer',2,'B5824','Secondary malignant neoplasm of skin of shoulder and arm'),('cancer',2,'B564.00','Secondary and unspec malig neop inguinal and lower limb LN'),('cancer',2,'B564.','Secondary and unspec malig neop inguinal and lower limb LN'),('cancer',2,'B561.00','Secondary and unspec malig neop intrathoracic lymph nodes'),('cancer',2,'B561.','Secondary and unspec malig neop intrathoracic lymph nodes'),('cancer',2,'B574.00','Secondary malignant neoplasm of small intestine and duodenum'),('cancer',2,'B574.','Secondary malignant neoplasm of small intestine and duodenum'),('cancer',2,'B560000','Secondary and unspec malig neop of superficial parotid LN'),('cancer',2,'B5600','Secondary and unspec malig neop of superficial parotid LN'),('cancer',2,'B560300','Secondary and unspec malignant neoplasm occipital lymph node'),('cancer',2,'B5603','Secondary and unspec malignant neoplasm occipital lymph node'),('cancer',2,'B58y411','Secondary cancer of the vulva'),('cancer',2,'B58y4','Secondary cancer of the vulva'),('cancer',2,'B57z.00','Secondary malig neop of respiratory or digestive system NOS'),('cancer',2,'B57z.','Secondary malig neop of respiratory or digestive system NOS'),('cancer',2,'ByuC200','[X]2ndry+unspcf malignant neoplasm lymph nodes/multi regions'),('cancer',2,'ByuC2','[X]2ndry+unspcf malignant neoplasm lymph nodes/multi regions'),('cancer',2,'B560100','Secondary and unspec malignant neoplasm mastoid lymph nodes'),('cancer',2,'B5601','Secondary and unspec malignant neoplasm mastoid lymph nodes'),('cancer',2,'B560z00','Secondary unspec malig neop lymph nodes head/face/neck NOS'),('cancer',2,'B560z','Secondary unspec malig neop lymph nodes head/face/neck NOS'),('cancer',2,'B576.00','Secondary malig neop of retroperitoneum and peritoneum'),('cancer',2,'B576.','Secondary malig neop of retroperitoneum and peritoneum'),('cancer',2,'B561600','Secondary and unspec malig neop superfic tracheobronchial LN'),('cancer',2,'B5616','Secondary and unspec malig neop superfic tracheobronchial LN'),('cancer',2,'ByuC600','[X]2ndry malignant neoplasm/oth+unspec parts/nervous system'),('cancer',2,'ByuC6','[X]2ndry malignant neoplasm/oth+unspec parts/nervous system'),('cancer',2,'B560900','Secondary and unspec malig neop deep cervical LN'),('cancer',2,'B5609','Secondary and unspec malig neop deep cervical LN'),('cancer',2,'B562400','Secondary and unspec malig neop external iliac lymph nodes'),('cancer',2,'B5624','Secondary and unspec malig neop external iliac lymph nodes'),('cancer',2,'B561700','Secondary and unspec malig neop inferior tracheobronchial LN'),('cancer',2,'B5617','Secondary and unspec malig neop inferior tracheobronchial LN'),('cancer',2,'B574z00','Secondary malig neop of small intestine or duodenum NOS'),('cancer',2,'B574z','Secondary malig neop of small intestine or duodenum NOS'),('cancer',2,'B58y300','Secondary malignant neoplasm of vagina'),('cancer',2,'B58y3','Secondary malignant neoplasm of vagina'),('cancer',2,'B564z00','Secondary and unspec malig neop of inguinal and leg LN NOS'),('cancer',2,'B564z','Secondary and unspec malig neop of inguinal and leg LN NOS'),('cancer',2,'B562100','Secondary and unspec malig neop superficial mesenteric LN'),('cancer',2,'B5621','Secondary and unspec malig neop superficial mesenteric LN'),('cancer',2,'B565z00','Secondary and unspec malig neop intrapelvic LN NOS'),('cancer',2,'B565z','Secondary and unspec malig neop intrapelvic LN NOS'),('cancer',2,'B581.00','Secondary malignant neoplasm of other urinary organs'),('cancer',2,'B581.','Secondary malignant neoplasm of other urinary organs'),('cancer',2,'B563z00','Secondary and unspec malig neop axilla and upper limb LN NOS'),('cancer',2,'B563z','Secondary and unspec malig neop axilla and upper limb LN NOS'),('cancer',2,'B58y200','Secondary malignant neoplasm of cervix uteri'),('cancer',2,'B58y2','Secondary malignant neoplasm of cervix uteri'),('cancer',2,'B565000','Secondary and unspec malig neop internal iliac lymph nodes'),('cancer',2,'B5650','Secondary and unspec malig neop internal iliac lymph nodes'),('cancer',2,'ByuC400','[X]Secondary malignant neoplasm/oth+unspcfd digestive organs'),('cancer',2,'ByuC4','[X]Secondary malignant neoplasm/oth+unspcfd digestive organs'),('cancer',2,'B560400','Secondary and unspec malig neop deep parotid lymph nodes'),('cancer',2,'B5604','Secondary and unspec malig neop deep parotid lymph nodes'),('cancer',2,'B561z00','Secondary and unspec malig neop intrathoracic LN NOS'),('cancer',2,'B561z','Secondary and unspec malig neop intrathoracic LN NOS'),('cancer',2,'B561200','Secondary and unspec malig neop diaphragmatic lymph nodes'),('cancer',2,'B5612','Secondary and unspec malig neop diaphragmatic lymph nodes'),('cancer',2,'ByuC500','[X]2ndry malignant neoplasm/bladder+oth+unsp urinary organs'),('cancer',2,'ByuC5','[X]2ndry malignant neoplasm/bladder+oth+unsp urinary organs'),('cancer',2,'B576z00','Secondary malig neop of retroperitoneum or peritoneum NOS'),('cancer',2,'B576z','Secondary malig neop of retroperitoneum or peritoneum NOS'),('cancer',2,'B58y211','Secondary cancer of the cervix'),('cancer',2,'B58y2','Secondary cancer of the cervix'),('cancer',2,'B563100','Secondary and unspec malig neop supratrochlear lymph nodes'),('cancer',2,'B5631','Secondary and unspec malig neop supratrochlear lymph nodes'),('cancer',2,'B574200','Secondary malignant neoplasm of ileum'),('cancer',2,'B5742','Secondary malignant neoplasm of ileum'),('cancer',2,'B582100','Secondary malignant neoplasm of skin of face'),('cancer',2,'B5821','Secondary malignant neoplasm of skin of face'),('cancer',2,'B565200','Secondary and unspec malig neop circumflex iliac LN'),('cancer',2,'B5652','Secondary and unspec malig neop circumflex iliac LN'),('cancer',2,'B58y800','Secondary malignant neoplasm of epididymis and vas deferens'),('cancer',2,'B58y8','Secondary malignant neoplasm of epididymis and vas deferens');
 INSERT INTO #codesreadv2
-VALUES ('bmi',1,'22K..00','Body Mass Index'),('bmi',1,'22K..','Body Mass Index'),('bmi',1,'22KE.00','Obese class III (body mass index equal to or greater than 40.0)'),('bmi',1,'22KE.','Obese class III (body mass index equal to or greater than 40.0)'),('bmi',1,'22KD.00','Obese class II (body mass index 35.0 - 39.9)'),('bmi',1,'22KD.','Obese class II (body mass index 35.0 - 39.9)'),('bmi',1,'22KC.00','Obese class I (body mass index 30.0 - 34.9)'),('bmi',1,'22KC.','Obese class I (body mass index 30.0 - 34.9)'),('bmi',1,'22KB.00','Baseline body mass index'),('bmi',1,'22KB.','Baseline body mass index'),('bmi',1,'22KA.00','Target body mass index'),('bmi',1,'22KA.','Target body mass index'),('bmi',1,'22K9.00','Body mass index centile'),('bmi',1,'22K9.','Body mass index centile'),('bmi',1,'22K9K00','Downs syndrome body mass index centile'),('bmi',1,'22K9K','Downs syndrome body mass index centile'),('bmi',1,'22K9J00','Child body mass index greater than 99.6th centile'),('bmi',1,'22K9J','Child body mass index greater than 99.6th centile'),('bmi',1,'22K9H00','Child body mass index 98.1st-99.6th centile'),('bmi',1,'22K9H','Child body mass index 98.1st-99.6th centile'),('bmi',1,'22K9G00','Child body mass index on 98th centile'),('bmi',1,'22K9G','Child body mass index on 98th centile'),('bmi',1,'22K9F00','Child body mass index 92nd-97th centile'),('bmi',1,'22K9F','Child body mass index 92nd-97th centile'),('bmi',1,'22K9E00','Child body mass index on 91st centile'),('bmi',1,'22K9E','Child body mass index on 91st centile'),('bmi',1,'22K9D00','Child body mass index 76th-90th centile'),('bmi',1,'22K9D','Child body mass index 76th-90th centile'),('bmi',1,'22K9C00','Child body mass index on 75th centile'),('bmi',1,'22K9C','Child body mass index on 75th centile'),('bmi',1,'22K9B00','Child body mass index 51st-74th centile'),('bmi',1,'22K9B','Child body mass index 51st-74th centile'),('bmi',1,'22K9A00','Child body mass index on 50th centile'),('bmi',1,'22K9A','Child body mass index on 50th centile'),('bmi',1,'22K9900','Child body mass index 26th-49th centile'),('bmi',1,'22K99','Child body mass index 26th-49th centile'),('bmi',1,'22K9800','Child body mass index on 25th centile'),('bmi',1,'22K98','Child body mass index on 25th centile'),('bmi',1,'22K9700','Child body mass index 10th-24th centile'),('bmi',1,'22K97','Child body mass index 10th-24th centile'),('bmi',1,'22K9600','Child body mass index on 9th centile'),('bmi',1,'22K96','Child body mass index on 9th centile'),('bmi',1,'22K9500','Child body mass index 3rd-8th centile'),('bmi',1,'22K95','Child body mass index 3rd-8th centile'),('bmi',1,'22K9400','Child body mass index on 2nd centile'),('bmi',1,'22K94','Child body mass index on 2nd centile'),('bmi',1,'22K9300','Child body mass index 0.4th-1.9th centile'),('bmi',1,'22K93','Child body mass index 0.4th-1.9th centile'),('bmi',1,'22K9200','Child body mass index less than 0.4th centile'),('bmi',1,'22K92','Child body mass index less than 0.4th centile'),('bmi',1,'22K9100','Child body mass index centile'),('bmi',1,'22K91','Child body mass index centile'),('bmi',1,'22K9000','Baseline body mass index centile'),('bmi',1,'22K90','Baseline body mass index centile'),('bmi',1,'22K8.00','Body mass index 20-24 - normal'),('bmi',1,'22K8.','Body mass index 20-24 - normal'),('bmi',1,'22K7.00','Body mass index 40+ - severely obese'),('bmi',1,'22K7.','Body mass index 40+ - severely obese'),('bmi',1,'22K6.00','Body mass index less than 20'),('bmi',1,'22K6.','Body mass index less than 20'),('bmi',1,'22K5.00','Body mass index 30+ - obesity'),('bmi',1,'22K5.','Body mass index 30+ - obesity'),('bmi',1,'22K4.00','Body mass index index 25-29 - overweight'),('bmi',1,'22K4.','Body mass index index 25-29 - overweight'),('bmi',1,'22K3.00','Body Mass Index low K/M2'),('bmi',1,'22K3.','Body Mass Index low K/M2'),('bmi',1,'22K2.00','Body Mass Index high K/M2'),('bmi',1,'22K2.','Body Mass Index high K/M2'),('bmi',1,'22K1.00','Body Mass Index normal K/M2'),('bmi',1,'22K1.','Body Mass Index normal K/M2'),('bmi',1,'C3808','Childhood obesity'),('bmi',1,'C380800','Childhood obesity'),('bmi',2,'22K..00','Body Mass Index'),('bmi',2,'22K..','Body Mass Index');
+VALUES ('high-clinical-vulnerability',1,'14Or.','High risk category for developing complications from COVID-19 severe acute respiratory syndrome coronavirus infection (finding)'),('high-clinical-vulnerability',1,'14Or.00','High risk category for developing complications from COVID-19 severe acute respiratory syndrome coronavirus infection (finding)'),('high-clinical-vulnerability',1,'9d44.','Risk of exposure to communicable disease (situation)'),('high-clinical-vulnerability',1,'9d44.00','Risk of exposure to communicable disease (situation)');
 INSERT INTO #codesreadv2
-VALUES ('smoking-status-current',1,'137P.00','Cigarette smoker'),('smoking-status-current',1,'137P.','Cigarette smoker'),('smoking-status-current',1,'137P.11','Smoker'),('smoking-status-current',1,'137P.','Smoker'),('smoking-status-current',1,'13p3.00','Smoking status at 52 weeks'),('smoking-status-current',1,'13p3.','Smoking status at 52 weeks'),('smoking-status-current',1,'1374.00','Moderate smoker - 10-19 cigs/d'),('smoking-status-current',1,'1374.','Moderate smoker - 10-19 cigs/d'),('smoking-status-current',1,'137G.00','Trying to give up smoking'),('smoking-status-current',1,'137G.','Trying to give up smoking'),('smoking-status-current',1,'137R.00','Current smoker'),('smoking-status-current',1,'137R.','Current smoker'),('smoking-status-current',1,'1376.00','Very heavy smoker - 40+cigs/d'),('smoking-status-current',1,'1376.','Very heavy smoker - 40+cigs/d'),('smoking-status-current',1,'1375.00','Heavy smoker - 20-39 cigs/day'),('smoking-status-current',1,'1375.','Heavy smoker - 20-39 cigs/day'),('smoking-status-current',1,'1373.00','Light smoker - 1-9 cigs/day'),('smoking-status-current',1,'1373.','Light smoker - 1-9 cigs/day'),('smoking-status-current',1,'137M.00','Rolls own cigarettes'),('smoking-status-current',1,'137M.','Rolls own cigarettes'),('smoking-status-current',1,'137o.00','Waterpipe tobacco consumption'),('smoking-status-current',1,'137o.','Waterpipe tobacco consumption'),('smoking-status-current',1,'137m.00','Failed attempt to stop smoking'),('smoking-status-current',1,'137m.','Failed attempt to stop smoking'),('smoking-status-current',1,'137h.00','Minutes from waking to first tobacco consumption'),('smoking-status-current',1,'137h.','Minutes from waking to first tobacco consumption'),('smoking-status-current',1,'137g.00','Cigarette pack-years'),('smoking-status-current',1,'137g.','Cigarette pack-years'),('smoking-status-current',1,'137f.00','Reason for restarting smoking'),('smoking-status-current',1,'137f.','Reason for restarting smoking'),('smoking-status-current',1,'137e.00','Smoking restarted'),('smoking-status-current',1,'137e.','Smoking restarted'),('smoking-status-current',1,'137d.00','Not interested in stopping smoking'),('smoking-status-current',1,'137d.','Not interested in stopping smoking'),('smoking-status-current',1,'137c.00','Thinking about stopping smoking'),('smoking-status-current',1,'137c.','Thinking about stopping smoking'),('smoking-status-current',1,'137b.00','Ready to stop smoking'),('smoking-status-current',1,'137b.','Ready to stop smoking'),('smoking-status-current',1,'137C.00','Keeps trying to stop smoking'),('smoking-status-current',1,'137C.','Keeps trying to stop smoking'),('smoking-status-current',1,'137J.00','Cigar smoker'),('smoking-status-current',1,'137J.','Cigar smoker'),('smoking-status-current',1,'137H.00','Pipe smoker'),('smoking-status-current',1,'137H.','Pipe smoker'),('smoking-status-current',1,'137a.00','Pipe tobacco consumption'),('smoking-status-current',1,'137a.','Pipe tobacco consumption'),('smoking-status-current',1,'137Z.00','Tobacco consumption NOS'),('smoking-status-current',1,'137Z.','Tobacco consumption NOS'),('smoking-status-current',1,'137Y.00','Cigar consumption'),('smoking-status-current',1,'137Y.','Cigar consumption'),('smoking-status-current',1,'137X.00','Cigarette consumption'),('smoking-status-current',1,'137X.','Cigarette consumption'),('smoking-status-current',1,'137V.00','Smoking reduced'),('smoking-status-current',1,'137V.','Smoking reduced'),('smoking-status-current',1,'137Q.00','Smoking started'),('smoking-status-current',1,'137Q.','Smoking started'),('smoking-status-current',1,'137Q.11','Smoking restarted'),('smoking-status-current',1,'137Q.','Smoking restarted');
-INSERT INTO #codesreadv2
-VALUES ('smoking-status-currently-not',1,'137L.00','Current non-smoker'),('smoking-status-currently-not',1,'137L.','Current non-smoker');
-INSERT INTO #codesreadv2
-VALUES ('smoking-status-ex',1,'137l.00','Ex roll-up cigarette smoker'),('smoking-status-ex',1,'137l.','Ex roll-up cigarette smoker'),('smoking-status-ex',1,'137j.00','Ex-cigarette smoker'),('smoking-status-ex',1,'137j.','Ex-cigarette smoker'),('smoking-status-ex',1,'137S.00','Ex smoker'),('smoking-status-ex',1,'137S.','Ex smoker'),('smoking-status-ex',1,'137O.00','Ex cigar smoker'),('smoking-status-ex',1,'137O.','Ex cigar smoker'),('smoking-status-ex',1,'137N.00','Ex pipe smoker'),('smoking-status-ex',1,'137N.','Ex pipe smoker'),('smoking-status-ex',1,'137F.00','Ex-smoker - amount unknown'),('smoking-status-ex',1,'137F.','Ex-smoker - amount unknown'),('smoking-status-ex',1,'137B.00','Ex-very heavy smoker (40+/day)'),('smoking-status-ex',1,'137B.','Ex-very heavy smoker (40+/day)'),('smoking-status-ex',1,'137A.00','Ex-heavy smoker (20-39/day)'),('smoking-status-ex',1,'137A.','Ex-heavy smoker (20-39/day)'),('smoking-status-ex',1,'1379.00','Ex-moderate smoker (10-19/day)'),('smoking-status-ex',1,'1379.','Ex-moderate smoker (10-19/day)'),('smoking-status-ex',1,'1378.00','Ex-light smoker (1-9/day)'),('smoking-status-ex',1,'1378.','Ex-light smoker (1-9/day)'),('smoking-status-ex',1,'137K.00','Stopped smoking'),('smoking-status-ex',1,'137K.','Stopped smoking'),('smoking-status-ex',1,'137K000','Recently stopped smoking'),('smoking-status-ex',1,'137K0','Recently stopped smoking'),('smoking-status-ex',1,'137T.00','Date ceased smoking'),('smoking-status-ex',1,'137T.','Date ceased smoking'),('smoking-status-ex',1,'13p4.00','Smoking free weeks'),('smoking-status-ex',1,'13p4.','Smoking free weeks');
-INSERT INTO #codesreadv2
-VALUES ('smoking-status-ex-trivial',1,'1377.00','Ex-trivial smoker (<1/day)'),('smoking-status-ex-trivial',1,'1377.','Ex-trivial smoker (<1/day)');
-INSERT INTO #codesreadv2
-VALUES ('smoking-status-never',1,'1371.00','Never smoked tobacco'),('smoking-status-never',1,'1371.','Never smoked tobacco');
-INSERT INTO #codesreadv2
-VALUES ('smoking-status-passive',1,'137I.00','Passive smoker'),('smoking-status-passive',1,'137I.','Passive smoker'),('smoking-status-passive',1,'137I000','Exposed to tobacco smoke at home'),('smoking-status-passive',1,'137I0','Exposed to tobacco smoke at home'),('smoking-status-passive',1,'13WF400','Passive smoking risk'),('smoking-status-passive',1,'13WF4','Passive smoking risk');
-INSERT INTO #codesreadv2
-VALUES ('smoking-status-trivial',1,'1372.00','Trivial smoker - < 1 cig/day'),('smoking-status-trivial',1,'1372.','Trivial smoker - < 1 cig/day'),('smoking-status-trivial',1,'1372.11','Occasional smoker'),('smoking-status-trivial',1,'1372.','Occasional smoker');
-INSERT INTO #codesreadv2
-VALUES ('covid-vaccination',1,'65F0.','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F0.00','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F0100','Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'65F01','Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'65F0200','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F02','2019-nCoV (novel coronavirus) vaccination')
+VALUES ('moderate-clinical-vulnerability',1,'14Oq.','Moderate risk category for developing complications from COVID-19'),('moderate-clinical-vulnerability',1,'14Oq.00','Moderate risk category for developing complications from COVID-19')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code] from #codesreadv2;
@@ -188,23 +149,9 @@ VALUES ('cancer',1,'B6018','Lymphosarcoma of lymph nodes of multiple sites'),('c
 ('cancer',2,'B5740','Secondary malignant neoplasm of duodenum'),('cancer',2,'B5741','Secondary malignant neoplasm of jejunum'),('cancer',2,'B5742','Secondary malignant neoplasm of ileum'),('cancer',2,'B574z','Secondary malig neop of small intestine or duodenum NOS'),('cancer',2,'B575.','Sec malignant neoplasm of large intestine(AND/OR?[rectum])'),('cancer',2,'B5750','Secondary malignant neoplasm of colon'),('cancer',2,'B5751','Secondary malignant neoplasm of rectum'),('cancer',2,'B575z','Secondary malig neop of large intestine or rectum NOS'),('cancer',2,'B576.','Secondary malig neop of retroperitoneum and peritoneum'),('cancer',2,'B5760','Metastasis to retroperitoneum'),('cancer',2,'B5761','Metastasis to peritoneum'),('cancer',2,'B576z','Secondary malig neop of retroperitoneum or peritoneum NOS'),('cancer',2,'B577.','Metastasis to liver'),('cancer',2,'B57y.','Secondary malignant neoplasm of other digestive organ'),('cancer',2,'B57z.','Secondary malig neop of respiratory or digestive system NOS'),('cancer',2,'B58..','Secondary [malig neopl] or [carcinoma] of other specif sites'),('cancer',2,'B580.','Metastasis to kidney'),('cancer',2,'B581.','Secondary malignant neoplasm of other urinary organs'),('cancer',2,'B5810','Metastasis to ureter'),('cancer',2,'B5811','Metastasis to bladder'),('cancer',2,'B5812','Metastasis to urethra'),('cancer',2,'B581z','Secondary malignant neoplasm of other urinary organ NOS'),('cancer',2,'B582.','Metastasis to skin'),('cancer',2,'B5820','Secondary malignant neoplasm of skin of head'),('cancer',2,'B5821','Secondary malignant neoplasm of skin of face'),('cancer',2,'B5822','Secondary malignant neoplasm of skin of neck'),('cancer',2,'B5823','Secondary malignant neoplasm of skin of trunk'),('cancer',2,'B5824','Secondary malignant neoplasm of skin of shoulder and arm'),('cancer',2,'B5825','Secondary malignant neoplasm of skin of hip and leg'),('cancer',2,'B5826','Secondary malignant neoplasm of skin of breast'),('cancer',2,'B582z','Secondary malignant neoplasm of skin NOS'),('cancer',2,'B583.','Secondary malignant neoplasm of brain and spinal cord'),('cancer',2,'B5830','Metastasis to brain'),('cancer',2,'B5831','Metastasis to spinal cord'),('cancer',2,'B583z','Secondary malignant neoplasm of brain or spinal cord NOS'),('cancer',2,'B584.','Secondary malignant neoplasm of other part of nervous system'),('cancer',2,'B585.','Metastasis to bone'),('cancer',2,'B586.','Metastasis to ovary'),('cancer',2,'B587.','Metastasis to adrenal gland'),('cancer',2,'B58y0','Metastasis to breast'),('cancer',2,'B58y1','Metastasis to uterus'),('cancer',2,'B58y2','Secondary malignant neoplasm of cervix uteri'),('cancer',2,'B58y3','Metastasis to vagina'),('cancer',2,'B58y4','Secondary malignant neoplasm of vulva'),('cancer',2,'B58y5','Metastasis to prostate'),('cancer',2,'B58y6','Metastasis to testis'),('cancer',2,'B58y7','Metastasis to penis'),('cancer',2,'B58y8','Secondary malignant neoplasm of epididymis and vas deferens'),('cancer',2,'B58yz','Secondary malignant neoplasm of other specified site NOS'),('cancer',2,'ByuC2','[X]2ndry+unspcf malignant neoplasm lymph nodes/multi regions'),('cancer',2,'ByuC3','[X]Secondary malignant neoplasm/oth+unspc respiratory organs'),('cancer',2,'ByuC4','[X]Secondary malignant neoplasm/oth+unspcfd digestive organs'),('cancer',2,'ByuC5','[X]2ndry malignant neoplasm/bladder+oth+unsp urinary organs'),('cancer',2,'ByuC6','[X]2ndry malignant neoplasm/oth+unspec parts/nervous system'),('cancer',2,'ByuC7','[X]Secondary malignant neoplasm of other specified sites'),('cancer',2,'X78kS','Secondary carcinoma of respiratory and/or digestive systems'),('cancer',2,'X78kT','Metastasis to respiratory and intrathoracic organ'),('cancer',2,'X78kU','Metastasis to trachea'),('cancer',2,'X78kV','Metastasis to bronchus'),('cancer',2,'X78kX','Secondary lymphangitic carcinoma'),('cancer',2,'X78kY','Lymphangitis carcinomatosa'),('cancer',2,'X78kZ','Metastasis to heart'),('cancer',2,'X78ka','Metastasis to thymus'),('cancer',2,'X78kb','Metastasis to gastrointestinal tract'),('cancer',2,'X78kc','Metastasis to small intestine'),('cancer',2,'X78kd','Metastasis to pancreas'),('cancer',2,'X78ke','Metastasis to spleen'),('cancer',2,'X78kf','Metastasis to bone marrow'),('cancer',2,'X78kg','Metastasis to soft tissue'),('cancer',2,'X78kh','Malignant infiltration of muscle'),('cancer',2,'X78kk','Carcinomatosis of peritoneal cavity'),('cancer',2,'X78kl','Metastasis to omentum'),('cancer',2,'X78kn','Metastasis to female genital organ'),('cancer',2,'X78kp','Metastasis to male genital organ'),('cancer',2,'X78kq','Metastasis to scrotum'),('cancer',2,'X78kr','Metastasis to spermatic cord'),('cancer',2,'X78ks','Metastasis to urinary tract'),('cancer',2,'X78kv','Metastasis to renal pelvis'),('cancer',2,'X78kw','Metastasis to nervous system and eye'),('cancer',2,'X78kx','Metastasis to nervous system'),('cancer',2,'X78ky','Metastasis to pituitary'),('cancer',2,'X78kz','Metastasis to optic nerve'),('cancer',2,'X78l0','Metastasis to peripheral nerve'),('cancer',2,'X78l1','Metastasis to eye'),('cancer',2,'X78l2','Metastasis to orbit'),('cancer',2,'X78l3','Metastasis to choroid'),('cancer',2,'X78l4','Metastasis to endocrine organ'),('cancer',2,'X78l5','Metastasis to thyroid'),('cancer',2,'X78l7','Secondary carcinoma of other specified sites'),('cancer',2,'X78l8','Local tumour spread'),('cancer',2,'X78lA','Malignant infiltration of peripheral nerve'),('cancer',2,'X78lB','Malignant infiltration of peripheral nerve plexus'),('cancer',2,'XE1vm','Secondary malig neop of respiratory and digestive systems'),('cancer',2,'XE1vn','Disseminated malignancy NOS'),('cancer',2,'XE205','(Sec Ca sp site) or (metast sp site) or (sec Ca known site)'),('cancer',2,'XE207','Secondary Ca GIT'),('cancer',2,'XE209','(Sec Ca brain/spin cord) or (bone sec Ca) or (brain sec Ca)'),('cancer',2,'XE20B','Secondary Ca NOS'),('cancer',2,'XE20D','(Ca unspecified site) or (secondary - unknown site)'),('cancer',2,'XE20F','(Carcinomatos) or (dissem Ca unsp site) or (metastatic carc)'),('cancer',2,'XE2vT','Secondary malignant neoplasm of other specified sites'),('cancer',2,'XE2xB','Secondary and unspecified malignant neoplasm of lymph nodes'),('cancer',2,'XM0pv','Secondary malignant neoplasm of unknown site'),('cancer',2,'XM1MM','Metastasis to digestive organs'),('cancer',2,'XM1Pr','Cerebral metastasis'),('cancer',2,'XSA0M','Secondary malignant neoplasm of mouth'),('cancer',2,'Xa39z','Metastasis to trachea of unknown primary'),('cancer',2,'Xa3A4','Metastasis to bronchus of unknown primary'),('cancer',2,'Xa3A5','Metastasis to lung of unknown primary'),('cancer',2,'Xa3A6','Metastasis to pleura of unknown primary'),('cancer',2,'Xa3A7','Metastasis to heart of unknown primary'),('cancer',2,'Xa3A8','Metastasis to mediastinum of unknown primary'),('cancer',2,'Xa3A9','Metastasis to thymus of unknown primary'),('cancer',2,'Xa3AA','Metastasis to small intestine of unknown primary'),('cancer',2,'Xa3AB','Metastasis to large intestine of unknown primary'),('cancer',2,'Xa3AC','Metastasis to colon of unknown primary'),('cancer',2,'Xa3AD','Metastasis to rectum of unknown primary'),('cancer',2,'Xa3AE','Metastasis to liver of unknown primary'),('cancer',2,'Xa3AF','Metastasis to pancreas of unknown primary'),('cancer',2,'Xa3AG','Metastasis to spleen of unknown primary'),('cancer',2,'Xa3AH','Metastasis to peritoneum of unknown primary'),('cancer',2,'Xa3AI','Metastasis to retroperitoneum of unknown primary'),('cancer',2,'Xa3AJ','Metastasis to bone of unknown primary'),('cancer',2,'Xa3AK','Metastasis to vertebral column of unknown primary'),('cancer',2,'Xa3BF','Metastasis to skin of unknown primary'),('cancer',2,'Xa3BG','Metastasis to soft tissue of unknown primary'),('cancer',2,'Xa3BH','Metastasis to breast of unknown primary'),('cancer',2,'Xa3BI','Metastasis to uterus of unknown primary'),('cancer',2,'Xa3BL','Metastasis to ovary of unknown primary'),('cancer',2,'Xa3BM','Metastasis to vagina of unknown primary'),('cancer',2,'Xa3BN','Metastasis to kidney of unknown primary'),('cancer',2,'Xa3BX','Metastasis to bladder of unknown primary'),('cancer',2,'Xa3BZ','Metastasis to brain of unknown primary'),('cancer',2,'Xa3Ba','Metastasis to eye of unknown primary'),('cancer',2,'Xa3Bb','Metastasis to adrenal gland of unknown primary'),('cancer',2,'Xa3Bc','Metastasis to lymph node of unknown primary'),('cancer',2,'Xa3Bd','Disseminated malignancy of unknown primary'),('cancer',2,'Xa980','Metastasis to lymph node'),('cancer',2,'Xa981','Metastasis to epididymis'),('cancer',2,'Xa982','Metastatic malignant disease'),('cancer',2,'Xa983','Disseminated malignancy'),('cancer',2,'Xa98L','Metastatic adenocarcinoma'),('cancer',2,'Xa9Jc','Metastasis to head and neck lymph node'),('cancer',2,'Xa9Je','Metastasis to intrathoracic lymph node'),('cancer',2,'Xa9Jg','Metastasis to intra-abdominal lymph node'),('cancer',2,'Xa9Ji','Metastasis to upper limb lymph node'),('cancer',2,'Xa9Jk','Metastasis to lower limb lymph node'),('cancer',2,'Xa9Jm','Metastasis to intrapelvic lymph node'),('cancer',2,'Xa9Jo','Metastasis to multiple lymph nodes'),('cancer',2,'XaB1p','Metastatic adenocarcinoma of unknown origin'),('cancer',2,'XaC0y','Secondary malignant neoplasm of tongue'),('cancer',2,'XaFr4','Local recurrence of malignant tumour of tongue'),('cancer',2,'XaFr5','Local recurrence of malignant tumour of buccal cavity'),('cancer',2,'XaFr6','Local recurrence of malignant tumour of thyroid gland'),('cancer',2,'XaFr8','Local recurrence of malignant tumour of breast'),('cancer',2,'XaFrD','Local recurrence of malignant tumour of oesophagus'),('cancer',2,'XaFrE','Local recurrence of malignant tumour of stomach'),('cancer',2,'XaFrF','Local recurrence of malignant tumour of gallbladder'),('cancer',2,'XaFrG','Local recurrence of malignant tumour of liver'),('cancer',2,'XaFrH','Local recurrence of malignant tumour of pancreas'),('cancer',2,'XaFrI','Local recurrence of malignant tumour of colon'),
 ('cancer',2,'XaFrJ','Local recurrence of malignant tumour of rectum'),('cancer',2,'XaFrK','Local recurrence of malignant tumour of kidney'),('cancer',2,'XaFrL','Local recurrence of malignant tumour of urinary bladder'),('cancer',2,'XaFrM','Local recurrence of malignant tumour of prostate'),('cancer',2,'XaFrN','Local recurrence of malignant tumour of cervix'),('cancer',2,'XaFrQ','Local recurrence of malignant tumour of bone'),('cancer',2,'XaFrR','Local recurrence of malignant tumour of soft tissue'),('cancer',2,'XaFrT','Local recurrence of malignant melanoma of skin'),('cancer',2,'XaFrc','Metastases by primary malignancy'),('cancer',2,'XaFrd','Metastasis from malignant melanoma of skin'),('cancer',2,'XaFrf','Metastasis from malignant tumour of soft tissues'),('cancer',2,'XaFrg','Metastasis from malignant tumour of bone'),('cancer',2,'XaFrh','Metastasis from malignant tumour of adrenal gland'),('cancer',2,'XaFri','Metastasis from malignant tumour of cervix'),('cancer',2,'XaFrj','Metastasis from malignant tumour of uterus'),('cancer',2,'XaFrk','Metastasis from malignant tumour of prostate'),('cancer',2,'XaFrl','Metastasis from malignant tumour of bladder'),('cancer',2,'XaFrm','Metastasis from malignant tumour of kidney'),('cancer',2,'XaFrn','Metastasis from malignant tumour of rectum'),('cancer',2,'XaFro','Metastasis from malignant tumour of colon'),('cancer',2,'XaFrp','Metastasis from malignant tumour of pancreas'),('cancer',2,'XaFrq','Metastasis from malignant tumour of liver'),('cancer',2,'XaFrr','Metastasis from malignant tumour of gallbladder'),('cancer',2,'XaFrs','Metastasis from malignant tumour of stomach'),('cancer',2,'XaFrt','Metastasis from malignant tumour of oesophagus'),('cancer',2,'XaFru','Metastasis from malignant tumour of breast'),('cancer',2,'XaFrv','Metastasis from malignant tumour of bronchus'),('cancer',2,'XaFrx','Metastasis from malignant tumour of thyroid'),('cancer',2,'XaFry','Metastasis from malignant tumour of buccal cavity'),('cancer',2,'XaFrz','Metastasis from malignant tumour of tongue'),('cancer',2,'XaIJA','Pathological fracture due to metastatic bone disease'),('cancer',2,'XaXQk','Secondary malignant neoplasm of large intestine and rectum'),('cancer',2,'XaYeq','Secondary malignant neoplasm of liver intrahepatic bile duct'),('cancer',2,'XaFr7','Local recurrence of malignant tumour of lung'),('cancer',2,'XaFrw','Metastasis from malignant tumour of lung');
 INSERT INTO #codesctv3
-VALUES ('bmi',1,'22K..','Body Mass Index'),('bmi',1,'22K1.','Body Mass Index normal K/M2'),('bmi',1,'22K2.','Body Mass Index high K/M2'),('bmi',1,'22K3.','Body Mass Index low K/M2'),('bmi',1,'22K4.','Body mass index index 25-29 - overweight'),('bmi',1,'22K5.','Body mass index 30+ - obesity'),('bmi',1,'X76CO','Quetelet index'),('bmi',1,'Xa7wG','Observation of body mass index'),('bmi',1,'Xaa0k','Childhood obesity'),('bmi',1,'Xaatm','Child BMI centile'),('bmi',1,'Xabdn','Downs syndrome BMI centile'),('bmi',1,'XabHx','Obese class I (BMI 30.0-34.9)'),('bmi',1,'XabHy','Obese class II (BMI 35.0-39.9)'),('bmi',1,'XabHz','Obese cls III (BMI eq/gr 40.0)'),('bmi',1,'XabSe','Child BMI < 0.4th centile'),('bmi',1,'XabSf','Child BMI 0.4th-1.9th centile'),('bmi',1,'XabSg','Child BMI on 2nd centile'),('bmi',1,'XabSh','Child BMI 3rd-8th centile'),('bmi',1,'XabSj','Child BMI on 9th centile'),('bmi',1,'XabSk','Child BMI 10th-24th centile'),('bmi',1,'XabSl','Child BMI on 25th centile'),('bmi',1,'XabSm','Child BMI 26th-49th centile'),('bmi',1,'XabSn','Child BMI on 50th centile'),('bmi',1,'XabTe','Child BMI on 75th centile'),('bmi',1,'XabTf','Child BMI 76th-90th centile'),('bmi',1,'XabTg','Child BMI on 91st centile'),('bmi',1,'XabTh','Child BMI 92nd-97th centile'),('bmi',1,'XabTi','Child BMI on 98th centile'),('bmi',1,'XabTj','Child BMI 98.1-99.6 centile'),('bmi',1,'XabTk','Child BMI > 99.6th centile'),('bmi',1,'XabTZ','Child BMI 51st-74th centile'),('bmi',1,'XaCDR','Body mass index less than 20'),('bmi',1,'XaJJH','BMI 40+ - severely obese'),('bmi',1,'XaJqk','Body mass index 20-24 - normal'),('bmi',1,'XaVwA','Body mass index centile'),('bmi',1,'XaZck','Baseline BMI centile'),('bmi',1,'XaZcl','Baseline body mass index'),('bmi',2,'22K..','Body Mass Index');
+VALUES ('high-clinical-vulnerability',1,'Y228a','High risk category for developing complications from COVID-19 severe acute respiratory syndrome coronavirus infection');
 INSERT INTO #codesctv3
-VALUES ('smoking-status-current',1,'1373.','Lt cigaret smok, 1-9 cigs/day'),('smoking-status-current',1,'1374.','Mod cigaret smok, 10-19 cigs/d'),('smoking-status-current',1,'1375.','Hvy cigaret smok, 20-39 cigs/d'),('smoking-status-current',1,'1376.','Very hvy cigs smoker,40+cigs/d'),('smoking-status-current',1,'137C.','Keeps trying to stop smoking'),('smoking-status-current',1,'137D.','Admitted tobacco cons untrue ?'),('smoking-status-current',1,'137G.','Trying to give up smoking'),('smoking-status-current',1,'137H.','Pipe smoker'),('smoking-status-current',1,'137J.','Cigar smoker'),('smoking-status-current',1,'137M.','Rolls own cigarettes'),('smoking-status-current',1,'137P.','Cigarette smoker'),('smoking-status-current',1,'137Q.','Smoking started'),('smoking-status-current',1,'137R.','Current smoker'),('smoking-status-current',1,'137Z.','Tobacco consumption NOS'),('smoking-status-current',1,'Ub1tI','Cigarette consumption'),('smoking-status-current',1,'Ub1tJ','Cigar consumption'),('smoking-status-current',1,'Ub1tK','Pipe tobacco consumption'),('smoking-status-current',1,'XaBSp','Smoking restarted'),('smoking-status-current',1,'XaIIu','Smoking reduced'),('smoking-status-current',1,'XaIkW','Thinking about stop smoking'),('smoking-status-current',1,'XaIkX','Ready to stop smoking'),('smoking-status-current',1,'XaIkY','Not interested stop smoking'),('smoking-status-current',1,'XaItg','Reason for restarting smoking'),('smoking-status-current',1,'XaIuQ','Cigarette pack-years'),('smoking-status-current',1,'XaJX2','Min from wake to 1st tobac con'),('smoking-status-current',1,'XaWNE','Failed attempt to stop smoking'),('smoking-status-current',1,'XaZIE','Waterpipe tobacco consumption'),('smoking-status-current',1,'XE0og','Tobacco smoking consumption'),('smoking-status-current',1,'XE0oq','Cigarette smoker'),('smoking-status-current',1,'XE0or','Smoking started');
-INSERT INTO #codesctv3
-VALUES ('smoking-status-currently-not',1,'Ub0oq','Non-smoker'),('smoking-status-currently-not',1,'137L.','Current non-smoker');
-INSERT INTO #codesctv3
-VALUES ('smoking-status-ex',1,'1378.','Ex-light smoker (1-9/day)'),('smoking-status-ex',1,'1379.','Ex-moderate smoker (10-19/day)'),('smoking-status-ex',1,'137A.','Ex-heavy smoker (20-39/day)'),('smoking-status-ex',1,'137B.','Ex-very heavy smoker (40+/day)'),('smoking-status-ex',1,'137F.','Ex-smoker - amount unknown'),('smoking-status-ex',1,'137K.','Stopped smoking'),('smoking-status-ex',1,'137N.','Ex-pipe smoker'),('smoking-status-ex',1,'137O.','Ex-cigar smoker'),('smoking-status-ex',1,'137T.','Date ceased smoking'),('smoking-status-ex',1,'Ub1na','Ex-smoker'),('smoking-status-ex',1,'Xa1bv','Ex-cigarette smoker'),('smoking-status-ex',1,'XaIr7','Smoking free weeks'),('smoking-status-ex',1,'XaKlS','[V]PH of tobacco abuse'),('smoking-status-ex',1,'XaQ8V','Ex roll-up cigarette smoker'),('smoking-status-ex',1,'XaQzw','Recently stopped smoking'),('smoking-status-ex',1,'XE0ok','Ex-light cigaret smok, 1-9/day'),('smoking-status-ex',1,'XE0ol','Ex-mod cigaret smok, 10-19/day'),('smoking-status-ex',1,'XE0om','Ex-heav cigaret smok,20-39/day'),('smoking-status-ex',1,'XE0on','Ex-very hv cigaret smk,40+/day');
-INSERT INTO #codesctv3
-VALUES ('smoking-status-ex-trivial',1,'XE0oj','Ex-triv cigaret smoker, <1/day'),('smoking-status-ex-trivial',1,'1377.','Ex-trivial smoker (<1/day)');
-INSERT INTO #codesctv3
-VALUES ('smoking-status-never',1,'XE0oh','Never smoked tobacco'),('smoking-status-never',1,'1371.','Never smoked tobacco');
-INSERT INTO #codesctv3
-VALUES ('smoking-status-passive',1,'137I.','Passive smoker'),('smoking-status-passive',1,'Ub0pe','Exposed to tobacco smoke at work'),('smoking-status-passive',1,'Ub0pf','Exposed to tobacco smoke at home'),('smoking-status-passive',1,'Ub0pg','Exposed to tobacco smoke in public places'),('smoking-status-passive',1,'13WF4','Passive smoking risk');
-INSERT INTO #codesctv3
-VALUES ('smoking-status-trivial',1,'XagO3','Occasional tobacco smoker'),('smoking-status-trivial',1,'XE0oi','Triv cigaret smok, < 1 cig/day'),('smoking-status-trivial',1,'1372.','Trivial smoker - < 1 cig/day');
-INSERT INTO #codesctv3
-VALUES ('covid-vaccination',1,'Y210d','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'Y29e7','Administration of first dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y29e8','Administration of second dose of SARS-CoV-2 vaccine')
+VALUES ('moderate-clinical-vulnerability',1,'Y228b','Moderate risk category for developing complication from coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2 infection (finding)')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code] from #codesctv3;
@@ -306,23 +253,9 @@ VALUES ('cancer',2,'1090171000000108','Secondary malignant neoplasm of sacral ly
 ('cancer',2,'94243009','Secondary malignant neoplasm of central nervous system (disorder)'),('cancer',2,'94323001','Secondary malignant neoplasm of hand (disorder)'),('cancer',2,'428411000000106','[X]Secondary malignant neoplasm of other and unspecified parts of nervous system (disorder)'),('cancer',2,'565591000000106','Secondary and unspecified malignant neoplasm of posterior mediastinal lymph nodes (disorder)'),('cancer',2,'538081000000104','Secondary and unspecified malignant neoplasm of inguinal and lower limb lymph nodes (disorder)'),('cancer',2,'536201000000102','Secondary and unspecified malignant neoplasm of axillary lymph nodes (disorder)'),('cancer',2,'541711000000100','Secondary malignant neoplasm of large intestine or rectum NOS (disorder)'),('cancer',2,'538031000000103','Secondary and unspecified malignant neoplasm of axilla and upper limb lymph nodes (disorder)'),('cancer',2,'409701000000100','[X]Secondary malignant neoplasm of bladder and other and unspecified urinary organs (disorder)'),('cancer',2,'190146004','[X]Secondary malignant neoplasm of other and unspecified digestive organs (disorder)'),('cancer',2,'190145000','[X]Secondary malignant neoplasm of other and unspecified respiratory organs (disorder)'),('cancer',2,'359777006','Metastatic malignant neoplasm to brachial lymph nodes (disorder)'),('cancer',2,'857651000000102','Local recurrence of malignant tumour of breast'),('cancer',2,'558011000000107','Secondary and unspecified malignant neoplasm of intrathoracic lymph nodes (disorder)'),('cancer',2,'569301000000105','Secondary and unspecified malignant neoplasm of submandibular lymph nodes (disorder)'),('cancer',2,'541661000000108','Secondary and unspecified malignant neoplasm of intrapelvic lymph nodes NOS (disorder)'),('cancer',2,'188434008','Secondary malignant neoplasm of other respiratory organs (disorder)'),('cancer',2,'542881000000106','Secondary and unspecified malignant neoplasm of superficial parotid lymph nodes (disorder)'),('cancer',2,'553641000000108','Secondary and unspecified malignant neoplasm of intercostal lymph nodes (disorder)'),('cancer',2,'702741000000102','Secondary carcinoma of other specified sites (disorder)'),('cancer',2,'190080003','[M]No microscopic confirmation of tumor  clinically metastatic (morphologic abnormality)'),('cancer',2,'190149006','[X]Secondary malignant neoplasm of other specified sites (disorder)'),('cancer',2,'533951000000104','Secondary malignant neoplasm of skin NOS (disorder)'),('cancer',2,'670121000000109','Secondary nodes NOS (disorder)'),('cancer',2,'541121000000107','Secondary and unspecified malignant neoplasm of superficial mesenteric lymph nodes (disorder)'),('cancer',2,'408491000000105','[M]Endometrioid adenoma or carcinoma NOS (morphologic abnormality)'),('cancer',2,'556171000000104','Secondary malignant neoplasm of other part of nervous system (disorder)'),('cancer',2,'541701000000102','Secondary malignant neoplasm of small intestine or duodenum NOS (disorder)'),('cancer',2,'255116009','Secondary carcinoma of respiratory and/or digestive systems (disorder)'),('cancer',2,'1025781000000106','Recurrent squamous cell carcinoma (disorder)'),('cancer',2,'478231000000103','[M]No microscopic confirmation of tumor  clinically metastatic (morphologic abnormality)'),('cancer',2,'541741000000104','Secondary malignant neoplasm of other urinary organs (disorder)'),('cancer',2,'536941000000107','Secondary and unspecified malignant neoplasm of obturator lymph nodes (disorder)'),('cancer',2,'535821000000103','Secondary and unspecified malignant neoplasm of bronchopulmonary lymph nodes (disorder)'),('cancer',2,'462391000000102','[X]Secondary malignant neoplasm of other specified sites (disorder)'),('cancer',2,'94377002','Secondary malignant neoplasm of leg (disorder)'),('cancer',2,'541671000000101','Secondary and unspecified malignant neoplasm of lymph nodes in multiple sites (disorder)'),('cancer',2,'547121000000104','Secondary and unspecified malignant neoplasm of popliteal lymph nodes (disorder)'),('cancer',2,'536091000000103','Secondary and unspecified malignant neoplasm of intrathoracic lymph nodes NOS (disorder)'),('cancer',2,'569311000000107','Secondary and unspecified malignant neoplasm of facial lymph nodes (disorder)'),('cancer',2,'538011000000106','Secondary and unspecified malignant neoplasm of external iliac lymph nodes (disorder)'),('cancer',2,'533471000000103','Secondary malignant neoplasm of other respiratory organs (disorder)'),('cancer',2,'688151000000106','Secondary malignant neoplasm of other specified sites (disorder)'),('cancer',2,'569351000000106','Secondary and unspecified malignant neoplasm of lymph nodes of head  face and neck NOS (disorder)'),('cancer',2,'832581000000109','Secondary malignant neoplasm of liver and intrahepatic bile duct'),('cancer',2,'424671000000107','[M]Endometrioid adenomas and carcinomas (morphologic abnormality)'),('cancer',2,'558021000000101','Secondary and unspecified malignant neoplasm of internal mammary lymph nodes (disorder)'),('cancer',2,'565581000000109','Secondary and unspecified malignant neoplasm of anterior mediastinal lymph nodes (disorder)'),('cancer',2,'579301000000101','Secondary and unspecified malignant neoplasm of submental lymph nodes (disorder)'),('cancer',2,'569291000000106','Secondary and unspecified malignant neoplasm of deep parotid lymph nodes (disorder)'),('cancer',2,'439151000000109','[X]Secondary and unspecified malignant neoplasm lymph nodes of multiple regions (disorder)'),('cancer',2,'546691000000106','Secondary malignant neoplasm of retroperitoneum or peritoneum NOS (disorder)'),('cancer',2,'579231000000101','Secondary and unspecified malignant neoplasm of mastoid lymph nodes (disorder)'),('cancer',2,'539541000000105','Secondary and unspecified malignant neoplasm of inferior tracheobronchial lymph nodes (disorder)'),('cancer',2,'545241000000108','Secondary and unspecified malignant neoplasm of superficial cervical lymph nodes (disorder)'),('cancer',2,'541001000000104','Secondary and unspecified malignant neoplasm of intra-abdominal lymph nodes (disorder)'),('cancer',2,'189652009','[M]Endometrioid adenoma or carcinoma NOS (morphologic abnormality)'),('cancer',2,'189584005','[M]Adenocarcinoma  metastatic  NOS (morphologic abnormality)'),('cancer',2,'190147008','[X]Secondary malignant neoplasm of bladder and other and unspecified urinary organs (disorder)'),('cancer',2,'538001000000109','Secondary and unspecified malignant neoplasm of common iliac lymph nodes (disorder)'),('cancer',2,'539571000000104','Secondary and unspecified malignant neoplasm of paratracheal lymph nodes (disorder)'),('cancer',2,'255117000','Metastasis to respiratory and intrathoracic organ (disorder)'),('cancer',2,'546701000000106','Secondary malignant neoplasm of other digestive organ (disorder)'),('cancer',2,'547161000000107','Secondary and unspecified malignant neoplasm of circumflex iliac lymph nodes (disorder)'),('cancer',2,'703541000000100','Secondary carcinoma NOS (disorder)'),('cancer',2,'547151000000109','Secondary and unspecified malignant neoplasm of internal iliac lymph nodes (disorder)'),('cancer',2,'533491000000104','Secondary and unspecified malignant neoplasm of lymph nodes of head  face and neck (disorder)'),('cancer',2,'538041000000107','Secondary and unspecified malignant neoplasm of supratrochlear lymph nodes (disorder)'),('cancer',2,'189649001','[M]Endometrioid adenomas and carcinomas (morphologic abnormality)'),('cancer',2,'541111000000101','Secondary and unspecified malignant neoplasm of celiac lymph nodes (disorder)'),('cancer',2,'569321000000101','Secondary and unspecified malignant neoplasm of anterior cervical lymph nodes (disorder)'),('cancer',2,'94178002','Secondary malignant neoplasm of arm (disorder)'),('cancer',2,'569281000000109','Secondary malignant neoplasm of other urinary organ NOS (disorder)'),('cancer',2,'555731000000108','Secondary and unspecified malignant neoplasm of sacral lymph nodes (disorder)'),('cancer',2,'541731000000108','Secondary malignant neoplasm of respiratory or digestive system NOS (disorder)'),('cancer',2,'569271000000107','Secondary and unspecified malignant neoplasm of occipital lymph nodes (disorder)'),('cancer',2,'190148003','[X]Secondary malignant neoplasm of other and unspecified parts of nervous system (disorder)'),('cancer',2,'556161000000106','Secondary malignant neoplasm of brain or spinal cord NOS (disorder)'),('cancer',2,'547131000000102','Secondary and unspecified malignant neoplasm of inguinal and lower limb lymph nodes NOS (disorder)'),('cancer',2,'538091000000102','Secondary and unspecified malignant neoplasm of superficial inguinal lymph nodes (disorder)'),('cancer',2,'94563001','Secondary malignant neoplasm of skin of leg (disorder)'),('cancer',2,'547141000000106','Secondary and unspecified malignant neoplasm of intrapelvic lymph nodes (disorder)'),('cancer',2,'565601000000100','Secondary and unspecified malignant neoplasm of superficial tracheobronchial lymph nodes (disorder)'),('cancer',2,'439161000000107','[X]Secondary malignant neoplasm of other and unspecified respiratory organs (disorder)'),('cancer',2,'541131000000109','Secondary and unspecified malignant neoplasm of inferior mesenteric lymph nodes (disorder)'),('cancer',2,'423348002','Secondary malignant neoplasm of lacrimal drainage system (disorder)'),('cancer',2,'190144001','[X]Secondary and unspecified malignant neoplasm lymph nodes of multiple regions (disorder)'),('cancer',2,'451141000000106','[X]Secondary malignant neoplasm of other and unspecified digestive organs (disorder)'),('cancer',2,'541651000000105','Secondary and unspecified malignant neoplasm of inferior epigastric lymph nodes (disorder)'),('cancer',2,'538111000000107','Secondary and unspecified malignant neoplasm of deep inguinal lymph nodes (disorder)'),('cancer',2,'855061000000104','Local recurrence of malignant tumour of urinary bladder'),
 ('cancer',2,'389491000000107','[M]Adenocarcinoma  metastatic  NOS (morphologic abnormality)'),('cancer',2,'569331000000104','Secondary and unspecified malignant neoplasm of deep cervical lymph nodes (disorder)'),('cancer',2,'94541005','Secondary malignant neoplasm of skin of arm (disorder)'),('cancer',2,'538021000000100','Secondary and unspecified malignant neoplasm of intra-abdominal lymph nodes NOS (disorder)'),('cancer',2,'94363000','Secondary malignant neoplasm of lacrimal duct (disorder)'),('cancer',2,'448922007','Secondary malignant neoplasm of large intestine and rectum (disorder)'),('cancer',2,'767511000000109','Secondary malignant neoplasm of large intestine and rectum (disorder)'),('cancer',2,'543391000000107','Secondary and unspecified malignant neoplasm of axilla and upper limb lymph nodes NOS (disorder)'),('cancer',2,'110459008','Malignant lymphoma, metastatic (morphologic abnormality)'),('cancer',2,'116821000119104','Non-Hodgkin lymphoma of central nervous system metastatic to lymph node of upper limb (disorder)'),('cancer',2,'116811000119106','Non-Hodgkin lymphoma of central nervous system metastatic to lymph node of lower limb (disorder)'),('cancer',2,'415287001','Relapsing chronic myeloid leukemia (disorder)'),('cancer',2,'315006004','Metastasis from malignant tumor of lung (disorder)'),('cancer',2,'314954002','Local recurrence of malignant tumor of lung (disorder)'),('cancer',2,'94232001','Secondary malignant neoplasm of bronchus of right upper lobe (disorder)'),('cancer',2,'94238002','Secondary malignant neoplasm of carina (disorder)'),('cancer',2,'94679009','Secondary malignant neoplasm of vocal cord (disorder)'),('cancer',2,'94523002','Secondary malignant neoplasm of right middle lobe of lung (disorder)'),('cancer',2,'94656008','Secondary malignant neoplasm of upper respiratory tract (disorder)'),('cancer',2,'94334003','Secondary malignant neoplasm of hypopharynx (disorder)'),('cancer',2,'94170009','Secondary malignant neoplasm of anterior wall of nasopharynx (disorder)'),('cancer',2,'94272005','Secondary malignant neoplasm of diaphragm (disorder)'),('cancer',2,'94155008','Secondary malignant neoplasm of accessory sinus (disorder)'),('cancer',2,'94367004','Secondary malignant neoplasm of laryngeal aspect of interarytenoid fold (disorder)'),('cancer',2,'15956181000119102','Secondary adenocarcinoma of bilateral lungs (disorder)'),('cancer',2,'242862004','Secondary malignant neoplasm of nasopharyngeal wall (disorder)'),('cancer',2,'94680007','Secondary malignant neoplasm of vomer (disorder)'),('cancer',2,'94581003','Secondary malignant neoplasm of soft palate (disorder)'),('cancer',2,'94376006','Secondary malignant neoplasm of left upper lobe of lung (disorder)'),('cancer',2,'285605009','Metastasis to pleura of unknown primary (disorder)'),('cancer',2,'94677006','Secondary malignant neoplasm of vestibule of nose (disorder)'),('cancer',2,'353741000119106','Secondary malignant neoplasm of left lung (disorder)'),('cancer',2,'94333009','Secondary malignant neoplasm of hypopharyngeal aspect of interarytenoid fold (disorder)'),('cancer',2,'94399005','Secondary malignant neoplasm of main bronchus (disorder)'),('cancer',2,'94368009','Secondary malignant neoplasm of laryngeal commissure (disorder)'),('cancer',2,'94458003','Secondary malignant neoplasm of tonsil (disorder)'),('cancer',2,'94329002','Secondary malignant neoplasm of hilus of lung (disorder)'),('cancer',2,'94372008','Secondary malignant neoplasm of lateral wall of nasopharynx (disorder)'),('cancer',2,'94607007','Secondary malignant neoplasm of subglottis (disorder)'),('cancer',2,'94370000','Secondary malignant neoplasm of larynx (disorder)'),('cancer',2,'94231008','Secondary malignant neoplasm of bronchus of right middle lobe (disorder)'),('cancer',2,'285604008','Metastasis to lung of unknown primary (disorder)'),('cancer',2,'94166001','Secondary malignant neoplasm of anterior aspect of epiglottis (disorder)'),('cancer',2,'94373003','Secondary malignant neoplasm of lateral wall of oropharynx (disorder)'),('cancer',2,'94375005','Secondary malignant neoplasm of left lower lobe of lung (disorder)'),('cancer',2,'94473002','Secondary malignant neoplasm of parietal pleura (disorder)'),('cancer',2,'94507002','Secondary malignant neoplasm of pyriform sinus (disorder)'),('cancer',2,'94233006','Secondary malignant neoplasm of bronchus (disorder)'),('cancer',2,'353561000119103','Secondary malignant neoplasm of right lung (disorder)'),('cancer',2,'94639000','Secondary malignant neoplasm of tonsillar fossa (disorder)'),('cancer',2,'94678001','Secondary malignant neoplasm of visceral pleura (disorder)'),('cancer',2,'94495003','Secondary malignant neoplasm of postcricoid region (disorder)'),('cancer',2,'94498001','Secondary malignant neoplasm of posterior wall of nasopharynx (disorder)'),('cancer',2,'241861008','Metastatic malignant neoplasm to nasopharynx (disorder)'),('cancer',2,'94318001','Secondary malignant neoplasm of glottis (disorder)'),('cancer',2,'94158005','Secondary malignant neoplasm of adenoid (disorder)'),('cancer',2,'94358004','Secondary malignant neoplasm of junctional region of epiglottis (disorder)'),('cancer',2,'94366008','Secondary malignant neoplasm of laryngeal aspect of aryepiglottic fold (disorder)'),('cancer',2,'94515004','Secondary malignant neoplasm of respiratory tract (disorder)'),('cancer',2,'94613003','Secondary malignant neoplasm of superior wall of nasopharynx (disorder)'),('cancer',2,'94640003','Secondary malignant neoplasm of tonsillar pillar (disorder)'),('cancer',2,'94332004','Secondary malignant neoplasm of hypopharyngeal aspect of aryepiglottic fold (disorder)'),('cancer',2,'94391008','Secondary malignant neoplasm of lung (disorder)'),('cancer',2,'94369001','Secondary malignant neoplasm of laryngeal surface of epiglottis (disorder)'),('cancer',2,'94670008','Secondary malignant neoplasm of vallecula (disorder)'),('cancer',2,'94296000','Secondary malignant neoplasm of false vocal cord (disorder)'),('cancer',2,'94616006','Secondary malignant neoplasm of supraglottis (disorder)'),('cancer',2,'94493005','Secondary malignant neoplasm of pleura (disorder)'),('cancer',2,'285598005','Metastasis to trachea of unknown primary (disorder)'),('cancer',2,'94228007','Secondary malignant neoplasm of bronchus of left lower lobe (disorder)'),('cancer',2,'94524008','Secondary malignant neoplasm of right upper lobe of lung (disorder)'),('cancer',2,'94230009','Secondary malignant neoplasm of bronchus of right lower lobe (disorder)'),('cancer',2,'94310008','Secondary malignant neoplasm of frontal sinus (disorder)'),('cancer',2,'94499009','Secondary malignant neoplasm of posterior wall of oropharynx (disorder)'),('cancer',2,'94641004','Secondary malignant neoplasm of trachea (disorder)'),('cancer',2,'94379004','Secondary malignant neoplasm of lingual tonsil (disorder)'),('cancer',2,'94454001','Secondary malignant neoplasm of oropharynx (disorder)'),('cancer',2,'94522007','Secondary malignant neoplasm of right lower lobe of lung (disorder)'),('cancer',2,'94496002','Secondary malignant neoplasm of posterior hypopharyngeal wall (disorder)'),('cancer',2,'94436000','Secondary malignant neoplasm of nasal cavity (disorder)'),('cancer',2,'94599006','Secondary malignant neoplasm of sphenoidal sinus (disorder)'),('cancer',2,'94229004','Secondary malignant neoplasm of bronchus of left upper lobe (disorder)'),('cancer',2,'94682004','Secondary malignant neoplasm of Waldeyers ring (disorder)'),('cancer',2,'94359007','Secondary malignant neoplasm of junctional zone of tongue (disorder)'),('cancer',2,'94184004','Secondary malignant neoplasm of base of tongue (disorder)'),('cancer',2,'94534004','Secondary malignant neoplasm of septum of nose (disorder)'),('cancer',2,'94437009','Secondary malignant neoplasm of nasal concha (disorder)'),('cancer',2,'285603002','Metastasis to bronchus of unknown primary (disorder)'),('cancer',2,'94667009','Secondary malignant neoplasm of uvula (disorder)'),('cancer',2,'94406009','Secondary malignant neoplasm of maxillary sinus (disorder)'),('cancer',2,'94288005','Secondary malignant neoplasm of ethmoidal sinus (disorder)'),('cancer',2,'94488007','Secondary malignant neoplasm of pharynx (disorder)'),('cancer',2,'94284007','Secondary malignant neoplasm of epiglottis (disorder)'),('cancer',2,'1661000119106','Metastasis to lung from adenocarcinoma (disorder)'),('cancer',2,'439161000000107','[X]Secondary malignant neoplasm of other and unspecified respiratory organs (disorder)'),('cancer',2,'190145000','[X]Secondary malignant neoplasm of other and unspecified respiratory organs (disorder)');
 INSERT INTO #codessnomed
-VALUES ('bmi',1,'6497000','Decreased body mass index (finding)'),('bmi',1,'35425004','Normal body mass index (finding)'),('bmi',1,'48499001','Increased body mass index (finding)'),('bmi',1,'162863004','Body mass index 25-29 - overweight'),('bmi',1,'162864005','BMI 30+ - obesity'),('bmi',1,'301331008','Observation of body mass index'),('bmi',1,'310252000','BMI less than 20'),('bmi',1,'408512008','Body mass index 40+ - morbidly obese'),('bmi',1,'412768003','Body mass index 20-24 - normal'),('bmi',1,'427090001','Body mass index less than 16.5'),('bmi',1,'450451007','Childhood overweight BMI greater than 85 percentile'),('bmi',1,'722595002','Overweight in adulthood with BMI of 25 or more but less than 30'),('bmi',1,'920141000000102','Child BMI (body mass index) less than 0.4th centile'),('bmi',1,'920161000000101','Child BMI (body mass index) 0.4th-1.9th centile'),('bmi',1,'920181000000105','Child BMI (body mass index) on 2nd centile'),('bmi',1,'920201000000109','Child BMI (body mass index) 3rd-8th centile'),('bmi',1,'920231000000103','Child BMI (body mass index) on 9th centile'),('bmi',1,'920251000000105','Child BMI (body mass index) 10th-24th centile'),('bmi',1,'920271000000101','Child BMI (body mass index) on 25th centile'),('bmi',1,'920291000000102','Child BMI (body mass index) 26th-49th centile'),('bmi',1,'920311000000101','Child BMI (body mass index) on 50th centile'),('bmi',1,'920841000000108','Child BMI (body mass index) 51st-74th centile'),('bmi',1,'920931000000108','Child BMI (body mass index) on 75th centile'),('bmi',1,'920951000000101','Child BMI (body mass index) 76th-90th centile'),('bmi',1,'920971000000105','Child BMI (body mass index) on 91st centile'),('bmi',1,'920991000000109','Child BMI (body mass index) 92nd-97th centile'),('bmi',1,'921011000000105','Child BMI (body mass index) on 98th centile'),('bmi',1,'921031000000102','Child BMI (body mass index) 98.1st-99.6th centile'),('bmi',1,'921051000000109','Child BMI (body mass index) greater than 99.6th centile'),('bmi',1,'914721000000105','Obese class I (body mass index 30.0 - 34.9)'),('bmi',1,'914731000000107','Obese class II (body mass index 35.0 - 39.9)'),('bmi',1,'914741000000103','Obese class III (body mass index equal to or greater than 40.0)'),('bmi',1,'443371000124107','Body mass index 30.00 to 34.99'),('bmi',1,'443381000124105','Body mass index 35.00 to 39.99'),('bmi',1,'60621009','Quetelet index'),('bmi',1,'846931000000101','Baseline BMI (body mass index)'),('bmi',1,'852451000000103','Maximum body mass index (observable entity)'),('bmi',1,'852461000000100','Minimum body mass index (observable entity)'),('bmi',1,'446974000','Body mass index centile'),('bmi',1,'846911000000109','Baseline BMI (body mass index) centile'),('bmi',1,'896691000000102','Child BMI (body mass index) centile'),('bmi',1,'926011000000101','Downs syndrome BMI (body mass index) centile'),('bmi',1,'722562008','Foetal or neonatal effect or suspected effect of maternal obesity with adult body mass index 30 or greater but less than 40'),('bmi',1,'722563003','Foetal or neonatal effect of maternal obesity with adult body mass index equal to or greater than 40'),('bmi',1,'705131003','Child at risk for overweight body mass index greater than 85 percentile'),('bmi',1,'43991000119102','History of childhood obesity BMI 95-100 percentile'),('bmi',1,'698094009','Calculation of body mass index'),('bmi',1,'444862003','Childhood obesity BMI 95-100 percentile'),('bmi',2,'301331008','Finding of body mass index (finding)');
+VALUES ('high-clinical-vulnerability',1,'1300561000000107','High risk category for developing complication from coronavirus disease caused by severe acute respiratory syndrome coronavirus infection (finding)');
 INSERT INTO #codessnomed
-VALUES ('smoking-status-current',1,'266929003','Smoking started (life style)'),('smoking-status-current',1,'836001000000109','Waterpipe tobacco consumption (observable entity)'),('smoking-status-current',1,'77176002','Smoker (life style)'),('smoking-status-current',1,'65568007','Cigarette smoker (life style)'),('smoking-status-current',1,'394873005','Not interested in stopping smoking (finding)'),('smoking-status-current',1,'394872000','Ready to stop smoking (finding)'),('smoking-status-current',1,'394871007','Thinking about stopping smoking (observable entity)'),('smoking-status-current',1,'266918002','Tobacco smoking consumption (observable entity)'),('smoking-status-current',1,'230057008','Cigar consumption (observable entity)'),('smoking-status-current',1,'230056004','Cigarette consumption (observable entity)'),('smoking-status-current',1,'160623006','Smoking: [started] or [restarted]'),('smoking-status-current',1,'160622001','Smoker (& cigarette)'),('smoking-status-current',1,'160619003','Rolls own cigarettes (finding)'),('smoking-status-current',1,'160616005','Trying to give up smoking (finding)'),('smoking-status-current',1,'160612007','Keeps trying to stop smoking (finding)'),('smoking-status-current',1,'160606002','Very heavy cigarette smoker (40+ cigs/day) (life style)'),('smoking-status-current',1,'160605003','Heavy cigarette smoker (20-39 cigs/day) (life style)'),('smoking-status-current',1,'160604004','Moderate cigarette smoker (10-19 cigs/day) (life style)'),('smoking-status-current',1,'160603005','Light cigarette smoker (1-9 cigs/day) (life style)'),('smoking-status-current',1,'59978006','Cigar smoker (life style)'),('smoking-status-current',1,'446172000','Failed attempt to stop smoking (finding)'),('smoking-status-current',1,'413173009','Minutes from waking to first tobacco consumption (observable entity)'),('smoking-status-current',1,'401201003','Cigarette pack-years (observable entity)'),('smoking-status-current',1,'401159003','Reason for restarting smoking (observable entity)'),('smoking-status-current',1,'308438006','Smoking restarted (life style)'),('smoking-status-current',1,'230058003','Pipe tobacco consumption (observable entity)'),('smoking-status-current',1,'134406006','Smoking reduced (observable entity)'),('smoking-status-current',1,'82302008','Pipe smoker (life style)');
-INSERT INTO #codessnomed
-VALUES ('smoking-status-currently-not',1,'160618006','Current non-smoker (life style)'),('smoking-status-currently-not',1,'8392000','Non-smoker (life style)');
-INSERT INTO #codessnomed
-VALUES ('smoking-status-ex',1,'160617001','Stopped smoking (life style)'),('smoking-status-ex',1,'160620009','Ex-pipe smoker (life style)'),('smoking-status-ex',1,'160621008','Ex-cigar smoker (life style)'),('smoking-status-ex',1,'160625004','Date ceased smoking (observable entity)'),('smoking-status-ex',1,'266922007','Ex-light cigarette smoker (1-9/day) (life style)'),('smoking-status-ex',1,'266923002','Ex-moderate cigarette smoker (10-19/day) (life style)'),('smoking-status-ex',1,'266924008','Ex-heavy cigarette smoker (20-39/day) (life style)'),('smoking-status-ex',1,'266925009','Ex-very heavy cigarette smoker (40+/day) (life style)'),('smoking-status-ex',1,'281018007','Ex-cigarette smoker (life style)'),('smoking-status-ex',1,'395177003','Smoking free weeks (observable entity)'),('smoking-status-ex',1,'492191000000103','Ex roll-up cigarette smoker (finding)'),('smoking-status-ex',1,'517211000000106','Recently stopped smoking (finding)'),('smoking-status-ex',1,'8517006','Ex-smoker (life style)');
-INSERT INTO #codessnomed
-VALUES ('smoking-status-ex-trivial',1,'266921000','Ex-trivial cigarette smoker (<1/day) (life style)');
-INSERT INTO #codessnomed
-VALUES ('smoking-status-never',1,'160601007','Non-smoker (& [never smoked tobacco])'),('smoking-status-never',1,'266919005','Never smoked tobacco (life style)');
-INSERT INTO #codessnomed
-VALUES ('smoking-status-passive',1,'43381005','Passive smoker (finding)'),('smoking-status-passive',1,'161080002','Passive smoking risk (environment)'),('smoking-status-passive',1,'228523000','Exposed to tobacco smoke at work (finding)'),('smoking-status-passive',1,'228524006','Exposed to tobacco smoke at home (finding)'),('smoking-status-passive',1,'228525007','Exposed to tobacco smoke in public places (finding)'),('smoking-status-passive',1,'713142003','At risk from passive smoking (finding)'),('smoking-status-passive',1,'722451000000101','Passive smoking (qualifier value)');
-INSERT INTO #codessnomed
-VALUES ('smoking-status-trivial',1,'266920004','Trivial cigarette smoker (less than one cigarette/day) (life style)'),('smoking-status-trivial',1,'428041000124106','Occasional tobacco smoker (finding)');
-INSERT INTO #codessnomed
-VALUES ('covid-vaccination',1,'1240491000000103','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'2807821000000115','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'840534001','Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)')
+VALUES ('moderate-clinical-vulnerability',1,'1300571000000100','Moderate risk category for developing complication from coronavirus disease caused by severe acute respiratory syndrome coronavirus infection (finding)')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code] from #codessnomed;
@@ -336,9 +269,9 @@ CREATE TABLE #codesemis (
 ) ON [PRIMARY];
 
 INSERT INTO #codesemis
-VALUES ('bmi',1,'EMISNQBM1','BMI centile');
+VALUES ('high-clinical-vulnerability',1,'^ESCT1300222','High risk category for developing complications from COVID-19 infection');
 INSERT INTO #codesemis
-VALUES ('covid-vaccination',1,'^ESCT1348323','Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'COCO138186NEMIS','COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)'),('covid-vaccination',1,'^ESCT1348325','Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348298','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'^ESCT1348301','COVID-19 vaccination'),('covid-vaccination',1,'^ESCT1299050','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'^ESCT1301222','??2019-nCoV (novel coronavirus) vaccination??')
+VALUES ('moderate-clinical-vulnerability',1,'^ESCT1300223','Moderate risk category for developing complications from COVID-19 infection')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code] from #codesemis;
@@ -911,7 +844,7 @@ FROM #CohortStore;
 --   Find how many matches each cancer patient had. 
 --   This will also remove any duplicates.
 IF OBJECT_ID('tempdb..#Patients2') IS NOT NULL DROP TABLE #Patients2;
-SELECT 
+SELECT TOP (1000)
   FK_Patient_Link_ID, 
   YearOfBirth, 
   Sex, 
@@ -925,490 +858,111 @@ GROUP BY FK_Patient_Link_ID, YearOfBirth, Sex, HasCancer;
 -- 338.064 distinct patients, all cancer patients have 5 matches each, as of 9th June 
 
 
--- OUTPUT: #Patients2
+-- OUTPUTS: #Patients2
 
 
--- Following query has been copied in and adjusted to extract current smoking status on index date and use #Patients2 instead of #Patients 
---┌────────────────┐
---│ Smoking status │
---└────────────────┘
-
--- OBJECTIVE: To get the smoking status for each patient in a cohort.
-
--- INPUT: Assumes there exists a temp table as follows:
--- #Patients (FK_Patient_Link_ID)
---  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-
--- OUTPUT: A temp table as follows:
--- #PatientSmokingStatus (FK_Patient_Link_ID, PassiveSmoker, WorstSmokingStatus, CurrentSmokingStatus)
--- 	- FK_Patient_Link_ID - unique patient id
---	-	PassiveSmoker - Y/N (whether a patient has ever had a code for passive smoking)
---	-	WorstSmokingStatus - [non-trivial-smoker/trivial-smoker/non-smoker]
---	-	CurrentSmokingStatus - [non-trivial-smoker/trivial-smoker/non-smoker]
-
--- ASSUMPTIONS:
---	- We take the most recent smoking status in a patient's record to be correct
---	-	However, there is likely confusion between the "non smoker" and "never smoked" codes. Especially as sometimes the synonyms for these codes overlap. Therefore, a patient wih a most recent smoking status of "never", but who has previous smoking codes, would be classed as WorstSmokingStatus=non-trivial-smoker / CurrentSmokingStatus=non-smoker
-
--- >>> Following code sets injected: smoking-status-current v1/smoking-status-currently-not v1/smoking-status-ex v1/smoking-status-ex-trivial v1/smoking-status-never v1/smoking-status-passive v1/smoking-status-trivial v1
-IF OBJECT_ID('tempdb..#AllPatientSmokingStatusCodes') IS NOT NULL DROP TABLE #AllPatientSmokingStatusCodes;
-SELECT 
-	FK_Patient_Link_ID,
-	CAST(EventDate AS DATE) AS EventDate,
-	FK_Reference_Coding_ID,
-	FK_Reference_SnomedCT_ID
-INTO #AllPatientSmokingStatusCodes
-FROM RLS.vw_GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients2)
-AND (
-	FK_Reference_SnomedCT_ID IN (
-		SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets 
-		WHERE Concept IN (
-			'smoking-status-current',
-			'smoking-status-currently-not',
-			'smoking-status-ex',
-			'smoking-status-ex-trivial',
-			'smoking-status-never',
-			'smoking-status-passive',
-			'smoking-status-trivial'
-		)
-		AND [Version]=1
-	) OR
-  FK_Reference_Coding_ID IN (
-		SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets 
-		WHERE Concept IN (
-			'smoking-status-current',
-			'smoking-status-currently-not',
-			'smoking-status-ex',
-			'smoking-status-ex-trivial',
-			'smoking-status-never',
-			'smoking-status-passive',
-			'smoking-status-trivial'
-		)
-		AND [Version]=1
-	)
-);
-
-IF OBJECT_ID('tempdb..#AllPatientSmokingStatusConcept') IS NOT NULL DROP TABLE #AllPatientSmokingStatusConcept;
-SELECT 
-	a.FK_Patient_Link_ID,
-	EventDate,
-	CASE WHEN c.Concept IS NULL THEN s.Concept ELSE c.Concept END AS Concept,
-	-1 AS Severity
-INTO #AllPatientSmokingStatusConcept
-FROM #AllPatientSmokingStatusCodes a
-LEFT OUTER JOIN #VersionedCodeSets c on c.FK_Reference_Coding_ID = a.FK_Reference_Coding_ID
-LEFT OUTER JOIN #VersionedSnomedSets s on s.FK_Reference_SnomedCT_ID = a.FK_Reference_SnomedCT_ID;
-
-UPDATE #AllPatientSmokingStatusConcept
-SET Severity = 2
-WHERE Concept IN ('smoking-status-current');
-UPDATE #AllPatientSmokingStatusConcept
-SET Severity = 2
-WHERE Concept IN ('smoking-status-ex');
-UPDATE #AllPatientSmokingStatusConcept
-SET Severity = 1
-WHERE Concept IN ('smoking-status-ex-trivial');
-UPDATE #AllPatientSmokingStatusConcept
-SET Severity = 1
-WHERE Concept IN ('smoking-status-trivial');
-UPDATE #AllPatientSmokingStatusConcept
-SET Severity = 0
-WHERE Concept IN ('smoking-status-never');
-UPDATE #AllPatientSmokingStatusConcept
-SET Severity = 0
-WHERE Concept IN ('smoking-status-currently-not');
-
--- passive smokers
-IF OBJECT_ID('tempdb..#TempPassiveSmokers') IS NOT NULL DROP TABLE #TempPassiveSmokers;
-select DISTINCT FK_Patient_Link_ID into #TempPassiveSmokers from #AllPatientSmokingStatusConcept
-where Concept = 'smoking-status-passive';
-
--- For "worst" smoking status
-IF OBJECT_ID('tempdb..#TempWorst') IS NOT NULL DROP TABLE #TempWorst;
-SELECT 
-	FK_Patient_Link_ID, 
-	CASE 
-		WHEN MAX(Severity) = 2 THEN 'non-trivial-smoker'
-		WHEN MAX(Severity) = 1 THEN 'trivial-smoker'
-		WHEN MAX(Severity) = 0 THEN 'non-smoker'
-	END AS [Status]
-INTO #TempWorst
-FROM #AllPatientSmokingStatusConcept
-WHERE Severity >= 0
-GROUP BY FK_Patient_Link_ID;
-
--- For "current" smoking status
-IF OBJECT_ID('tempdb..#TempCurrent') IS NOT NULL DROP TABLE #TempCurrent;
-SELECT 
-	a.FK_Patient_Link_ID, 
-	CASE 
-		WHEN MAX(Severity) = 2 THEN 'non-trivial-smoker'
-		WHEN MAX(Severity) = 1 THEN 'trivial-smoker'
-		WHEN MAX(Severity) = 0 THEN 'non-smoker'
-	END AS [Status]
-INTO #TempCurrent
-FROM #AllPatientSmokingStatusConcept a
-INNER JOIN (
-	SELECT FK_Patient_Link_ID, MAX(EventDate) AS MostRecentDate FROM #AllPatientSmokingStatusConcept
-	WHERE (Severity >= 0 AND EventDate <= @StartDate)
-	GROUP BY FK_Patient_Link_ID
-) sub ON sub.MostRecentDate = a.EventDate and sub.FK_Patient_Link_ID = a.FK_Patient_Link_ID
-GROUP BY a.FK_Patient_Link_ID;
-
--- Bring all together in final table
-IF OBJECT_ID('tempdb..#PatientSmokingStatus') IS NOT NULL DROP TABLE #PatientSmokingStatus;
-SELECT 
-	p.FK_Patient_Link_ID,
-	CASE WHEN ps.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PassiveSmoker,
-	CASE WHEN w.[Status] IS NULL THEN 'non-smoker' ELSE w.[Status] END AS WorstSmokingStatus,
-	CASE WHEN c.[Status] IS NULL THEN 'non-smoker' ELSE c.[Status] END AS CurrentSmokingStatus
-INTO #PatientSmokingStatus FROM #Patients p
-LEFT OUTER JOIN #TempPassiveSmokers ps on ps.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #TempWorst w on w.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #TempCurrent c on c.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
-
-
-
-
-
---┌───────────────────────────────┐
---│ Lower level super output area │
---└───────────────────────────────┘
-
--- OBJECTIVE: To get the LSOA for each patient.
-
--- INPUT: Assumes there exists a temp table as follows:
--- #Patients (FK_Patient_Link_ID)
---  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-
--- OUTPUT: A temp table as follows:
--- #PatientLSOA (FK_Patient_Link_ID, LSOA)
--- 	- FK_Patient_Link_ID - unique patient id
---	- LSOA_Code - nationally recognised LSOA identifier
-
--- ASSUMPTIONS:
---	- Patient data is obtained from multiple sources. Where patients have multiple LSOAs we determine the LSOA as follows:
---	-	If the patients has an LSOA in their primary care data feed we use that as most likely to be up to date
---	-	If every LSOA for a paitent is the same, then we use that
---	-	If there is a single most recently updated LSOA in the database then we use that
---	-	Otherwise the patient's LSOA is considered unknown
-
--- Get all patients LSOA for the cohort
-IF OBJECT_ID('tempdb..#AllPatientLSOAs') IS NOT NULL DROP TABLE #AllPatientLSOAs;
-SELECT 
-	FK_Patient_Link_ID,
-	FK_Reference_Tenancy_ID,
-	HDMModifDate,
-	LSOA_Code
-INTO #AllPatientLSOAs
-FROM RLS.vw_Patient p
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND LSOA_Code IS NOT NULL;
-
-
--- If patients have a tenancy id of 2 we take this as their most likely LSOA_Code
--- as this is the GP data feed and so most likely to be up to date
-IF OBJECT_ID('tempdb..#PatientLSOA') IS NOT NULL DROP TABLE #PatientLSOA;
-SELECT FK_Patient_Link_ID, MIN(LSOA_Code) as LSOA_Code INTO #PatientLSOA FROM #AllPatientLSOAs
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND FK_Reference_Tenancy_ID = 2
-GROUP BY FK_Patient_Link_ID;
-
--- Find the patients who remain unmatched
-IF OBJECT_ID('tempdb..#UnmatchedLsoaPatients') IS NOT NULL DROP TABLE #UnmatchedLsoaPatients;
-SELECT FK_Patient_Link_ID INTO #UnmatchedLsoaPatients FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientLSOA;
--- 38710 rows
--- 00:00:00
-
--- If every LSOA_Code is the same for all their linked patient ids then we use that
-INSERT INTO #PatientLSOA
-SELECT FK_Patient_Link_ID, MIN(LSOA_Code) FROM #AllPatientLSOAs
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedLsoaPatients)
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
-
--- Find any still unmatched patients
-TRUNCATE TABLE #UnmatchedLsoaPatients;
-INSERT INTO #UnmatchedLsoaPatients
-SELECT FK_Patient_Link_ID FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientLSOA;
-
--- If there is a unique most recent lsoa then use that
-INSERT INTO #PatientLSOA
-SELECT p.FK_Patient_Link_ID, MIN(p.LSOA_Code) FROM #AllPatientLSOAs p
-INNER JOIN (
-	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientLSOAs
-	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedLsoaPatients)
-	GROUP BY FK_Patient_Link_ID
-) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
-GROUP BY p.FK_Patient_Link_ID
-HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
-
---┌────────────────────────────┐
---│ Index Multiple Deprivation │
---└────────────────────────────┘
-
--- OBJECTIVE: To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.
-
--- INPUT: Assumes there exists a temp table as follows:
--- #Patients (FK_Patient_Link_ID)
---  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-
--- OUTPUT: A temp table as follows:
--- #PatientIMDDecile (FK_Patient_Link_ID, IMD2019Decile1IsMostDeprived10IsLeastDeprived)
--- 	- FK_Patient_Link_ID - unique patient id
---	- IMD2019Decile1IsMostDeprived10IsLeastDeprived - number 1 to 10 inclusive
-
--- Get all patients IMD_Score (which is a rank) for the cohort and map to decile
--- (Data on mapping thresholds at: https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019
-IF OBJECT_ID('tempdb..#AllPatientIMDDeciles') IS NOT NULL DROP TABLE #AllPatientIMDDeciles;
-SELECT 
-	FK_Patient_Link_ID,
-	FK_Reference_Tenancy_ID,
-	HDMModifDate,
-	CASE 
-		WHEN IMD_Score <= 3284 THEN 1
-		WHEN IMD_Score <= 6568 THEN 2
-		WHEN IMD_Score <= 9853 THEN 3
-		WHEN IMD_Score <= 13137 THEN 4
-		WHEN IMD_Score <= 16422 THEN 5
-		WHEN IMD_Score <= 19706 THEN 6
-		WHEN IMD_Score <= 22990 THEN 7
-		WHEN IMD_Score <= 26275 THEN 8
-		WHEN IMD_Score <= 29559 THEN 9
-		ELSE 10
-	END AS IMD2019Decile1IsMostDeprived10IsLeastDeprived 
-INTO #AllPatientIMDDeciles
-FROM RLS.vw_Patient p
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND IMD_Score IS NOT NULL
-AND IMD_Score != -1;
--- 972479 rows
--- 00:00:11
-
--- If patients have a tenancy id of 2 we take this as their most likely IMD_Score
--- as this is the GP data feed and so most likely to be up to date
-IF OBJECT_ID('tempdb..#PatientIMDDecile') IS NOT NULL DROP TABLE #PatientIMDDecile;
-SELECT FK_Patient_Link_ID, MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) as IMD2019Decile1IsMostDeprived10IsLeastDeprived INTO #PatientIMDDecile FROM #AllPatientIMDDeciles
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND FK_Reference_Tenancy_ID = 2
-GROUP BY FK_Patient_Link_ID;
--- 247377 rows
--- 00:00:00
-
--- Find the patients who remain unmatched
-IF OBJECT_ID('tempdb..#UnmatchedImdPatients') IS NOT NULL DROP TABLE #UnmatchedImdPatients;
-SELECT FK_Patient_Link_ID INTO #UnmatchedImdPatients FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientIMDDecile;
--- 38710 rows
--- 00:00:00
-
--- If every IMD_Score is the same for all their linked patient ids then we use that
-INSERT INTO #PatientIMDDecile
-SELECT FK_Patient_Link_ID, MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) FROM #AllPatientIMDDeciles
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedImdPatients)
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1IsMostDeprived10IsLeastDeprived);
--- 36656
--- 00:00:00
-
--- Find any still unmatched patients
-TRUNCATE TABLE #UnmatchedImdPatients;
-INSERT INTO #UnmatchedImdPatients
-SELECT FK_Patient_Link_ID FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientIMDDecile;
--- 2054 rows
--- 00:00:00
-
--- If there is a unique most recent imd decile then use that
-INSERT INTO #PatientIMDDecile
-SELECT p.FK_Patient_Link_ID, MIN(p.IMD2019Decile1IsMostDeprived10IsLeastDeprived) FROM #AllPatientIMDDeciles p
-INNER JOIN (
-	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientIMDDeciles
-	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedImdPatients)
-	GROUP BY FK_Patient_Link_ID
-) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
-GROUP BY p.FK_Patient_Link_ID
-HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1IsMostDeprived10IsLeastDeprived);
--- 489
--- 00:00:00
---┌────────────────────┐
---│ COVID vaccinations │
---└────────────────────┘
-
--- OBJECTIVE: To obtain a table with first and second vaccine doses per patient.
-
--- ASSUMPTIONS:
---	-	GP records can often be duplicated. The assumption is that if a patient receives
---    two vaccines within 14 days of each other then it is likely that both codes refer
---    to the same vaccine. However, it is possible that the first code's entry into the
---    record was delayed and therefore the second code is in fact a second dose. This
---    query simply gives the earliest and latest vaccine for each person together with
---    the number of days since the first vaccine.
---  - The vaccine can appear as a procedure or as a medication. We assume that the
---    presence of either represents a vaccination
-
--- INPUT: No pre-requisites
-
--- OUTPUT: A temp table as follows:
--- #COVIDVaccinations (FK_Patient_Link_ID, VaccineDate, DaysSinceFirstVaccine)
--- 	- FK_Patient_Link_ID - unique patient id
---	- VaccineDate - date of vaccine (YYYY-MM-DD)
---	- DaysSinceFirstVaccine - 0 if first vaccine, > 0 otherwise
-
--- Get patients with covid vaccine and earliest and latest date
--- >>> Following code sets injected: covid-vaccination v1
-IF OBJECT_ID('tempdb..#COVIDVaccines') IS NOT NULL DROP TABLE #COVIDVaccines;
-SELECT 
-  FK_Patient_Link_ID, 
-  MIN(CONVERT(DATE, EventDate)) AS FirstVaccineDate, 
-  MAX(CONVERT(DATE, EventDate)) AS SecondVaccineDate
-INTO #COVIDVaccines
-FROM (
-	SELECT FK_Patient_Link_ID, EventDate
-	FROM [RLS].[vw_GP_Events]
-	WHERE SuppliedCode IN (
-	  SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
-	)
-	AND EventDate > '2020-12-01'
-	UNION 
-	SELECT FK_Patient_Link_ID, MedicationDate
-	FROM [RLS].[vw_GP_Medications]
-	WHERE SuppliedCode IN (
-	  SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
-	)
-	AND MedicationDate > '2020-12-01'
-) sub
-GROUP BY FK_Patient_Link_ID;
-
-IF OBJECT_ID('tempdb..#COVIDVaccinations') IS NOT NULL DROP TABLE #COVIDVaccinations;
-SELECT FK_Patient_Link_ID, FirstVaccineDate AS VaccineDate, 0 AS DaysSinceFirstVaccine
-INTO #COVIDVaccinations
-FROM #COVIDVaccines;
-
-INSERT INTO #COVIDVaccinations
-SELECT FK_Patient_Link_ID, SecondVaccineDate, DATEDIFF(day, FirstVaccineDate, SecondVaccineDate)
-FROM #COVIDVaccines
-WHERE FirstVaccineDate != SecondVaccineDate;
-
-
-
--- Get the first and second vaccine dates of our cohort. 
-IF OBJECT_ID('tempdb..#COVIDVaccinations2') IS NOT NULL DROP TABLE #COVIDVaccinations2;
-SELECT 
-	FK_Patient_Link_ID,
-	FirstVaccineDate = MAX(CASE WHEN VaccineDate IS NOT NULL AND DaysSinceFirstVaccine = 0 THEN VaccineDate ELSE NULL END), 
-	SecondVaccineDate = MAX(CASE WHEN VaccineDate IS NOT NULL AND DaysSinceFirstVaccine != 0 THEN VaccineDate ELSE NULL END) 
-INTO #COVIDVaccinations2
-FROM #COVIDVaccinations
-GROUP BY FK_Patient_Link_ID
-
-
-
-
--- >>> Following code sets injected: bmi v2
-
--- Get BMI for all patients in the cohort on 1 month prior to index date - 1st Jan 2020
--- Uses the BMI codeset version 2 to get the BMI values
-IF OBJECT_ID('tempdb..#PatientBMIValues') IS NOT NULL DROP TABLE #PatientBMIValues;
-SELECT 
-	FK_Patient_Link_ID,
-	CAST(EventDate AS DATE) AS EventDate,
-	[Value] AS BMIValue,
-	Row_Number() OVER(PARTITION BY FK_Patient_Link_ID ORDER BY EventDate DESC) AS DateRowNumber
-INTO #PatientBMIValues
-FROM RLS.vw_GP_Events
-WHERE (
-	FK_Reference_SnomedCT_ID IN (
-    SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets 
-    WHERE 
-      Concept IN ('bmi') AND [Version]=2
-  ) OR
-  FK_Reference_Coding_ID IN (
-    SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets 
-    WHERE 
-      Concept IN ('bmi') AND [Version]=2
-  )
-)
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate <= DATEADD(month, -1, @StartDate)
-AND [Value] IS NOT NULL
-AND [Value] != '0';
-
--- Get the latest BMI value before the index date 1st Jan 2020
-IF OBJECT_ID('tempdb..#PatientLatestBMIValues') IS NOT NULL DROP TABLE #PatientLatestBMIValues;
-SELECT
-  FK_Patient_Link_ID,
-  BMIValue,
-  EventDate as BMILatestDate
-INTO #PatientLatestBMIValues
-FROM #PatientBMIValues
+-- Get all patients with a positive covid test and the date they tested positive.
+-- Grain: multiple dates per patient, De-duped: Assume that a patient can have only one positive tests per day. 
+IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
+SELECT DISTINCT
+    FK_Patient_Link_ID, 
+    CONVERT(DATE, [EventDate]) AS CovidPositiveDate 
+INTO #CovidPatients
+FROM [RLS].[vw_COVID19]
 WHERE 
-  DateRowNumber = 1;
+    (GroupDescription = 'Confirmed' OR (GroupDescription = 'Tested' AND SubGroupDescription = 'Positive'))
+    AND EventDate > @StartDate
+    AND FK_Patient_Link_ID IN (Select FK_Patient_Link_ID from  #Patients2);
 
--- Get  frailty information 
--- If patients have a tenancy id of 2 we take this as their most likely frailty
--- as this is the GP data feed and so most likely to be up to date
-IF OBJECT_ID('tempdb..#PatientFrailty') IS NOT NULL DROP TABLE #PatientFrailty;
-SELECT
-  FK_Patient_Link_ID,
-  FrailtyScore,
-  FrailtyDeficits,
-  FrailtyDeficitList,
-  Row_Number() OVER(PARTITION BY FK_Patient_Link_ID ORDER BY FrailtyScore DESC) AS FrailtyRowNumber
-INTO #PatientFrailty
-FROM RLS.vw_Patient
+
+
+
+
+-- >>> Following code sets injected: high-clinical-vulnerability v1/moderate-clinical-vulnerability v1
+
+-- Get patients with high and moderate covid vulnerability code and date of entry
+-- Get all dates that a code was used to identify any patients with changes from high to moderate and vise versa.
+-- De-duped: Assume that a patient was assessed as high/moderate once within a day. 
+IF OBJECT_ID('tempdb..#HighVulnerabilityPatients') IS NOT NULL DROP TABLE #HighVulnerabilityPatients;
+SELECT DISTINCT
+    FK_Patient_Link_ID, 
+    CONVERT(DATE, [EventDate]) AS HighVulnerabilityCodeDate
+INTO #HighVulnerabilityPatients 
+FROM [RLS].[vw_GP_Events]
 WHERE 
-  FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients2)
-  AND FK_Reference_Tenancy_ID = 2
+    SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 'high-clinical-vulnerability' AND [Version] = 1) 
+    AND EventDate > @StartDate
+    AND FK_Patient_Link_ID IN (Select FK_Patient_Link_ID from  #Patients2);
 
--- De-duped to get the highest frailty score per patient. 
-IF OBJECT_ID('tempdb..#PatientHighestFrailty') IS NOT NULL DROP TABLE #PatientHighestFrailty;
-SELECT
-  FK_Patient_Link_ID,
-  FrailtyScore,
-  FrailtyDeficits,
-  FrailtyDeficitList
-INTO #PatientHighestFrailty
-FROM #PatientFrailty
+IF OBJECT_ID('tempdb..#ModerateVulnerabilityPatients') IS NOT NULL DROP TABLE #ModerateVulnerabilityPatients;
+SELECT DISTINCT
+    FK_Patient_Link_ID, 
+    CONVERT(DATE, [EventDate]) AS ModerateVulnerabilityCodeDate 
+INTO #ModerateVulnerabilityPatients 
+FROM [RLS].[vw_GP_Events]
 WHERE 
-  FrailtyRowNumber = 1;
+    SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 'moderate-clinical-vulnerability' AND [Version] = 1) 
+    AND EventDate > @StartDate
+    AND FK_Patient_Link_ID IN (Select FK_Patient_Link_ID from  #Patients2);
 
--- Get additional demographics information for all the patients in the cohort.
-SELECT 
-  p.FK_Patient_Link_ID AS PatientId, 
-  p.YearOfBirth, 
-  p.Sex, 
-  p.HasCancer,
-  p.NumberOfMatches,
-  sm.PassiveSmoker,
-  sm.WorstSmokingStatus,
-  sm.CurrentSmokingStatus,
-  lsoa.LSOA_Code AS LSOA,
-  imd.IMD2019Decile1IsMostDeprived10IsLeastDeprived As IndicesOfDeprivation,
-  pl.EthnicCategoryDescription AS Ethnicity,
-  bmi.BMIValue,
-  bmi.BMILatestDate,
-  pa.FrailtyScore,
-  pa.FrailtyDeficits,
-  pa.FrailtyDeficitList,
-  cv.FirstVaccineDate,
-  cv.SecondVaccineDate,
-  pl.Deceased AS DeathStatus,
-  pl.DeathDate
-FROM #Patients2 p
-LEFT OUTER JOIN #PatientSmokingStatus sm ON sm.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #COVIDVaccinations2 cv ON cv.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientLatestBMIValues bmi ON bmi.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientHighestFrailty pa ON pa.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
 
+-- Get patient list with COVID death within 28 days of positive test
+IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
+SELECT DISTINCT 
+    FK_Patient_Link_ID,
+    DeathWithin28Days,
+    DeathDate
+INTO #COVIDDeath FROM RLS.vw_COVID19
+WHERE 
+    DeathWithin28Days = 'Y';
+
+
+IF OBJECT_ID('tempdb..#COVIDEvents') IS NOT NULL DROP TABLE #COVIDEvents;
+SELECT
+    FK_Patient_Link_ID AS PatientId,
+    'High Clinical Vulnerability' AS CovidEvent,
+    HighVulnerabilityCodeDate AS CovidEventDate
+INTO #COVIDEvents
+FROM #HighVulnerabilityPatients
+WHERE HighVulnerabilityCodeDate IS NOT NULL 
+
+UNION ALL
+
+SELECT
+    FK_Patient_Link_ID AS PatientId,
+    'Moderate Clinical Vulnerability' AS CovidEvent,
+    ModerateVulnerabilityCodeDate AS CovidEventDate
+FROM #ModerateVulnerabilityPatients
+WHERE ModerateVulnerabilityCodeDate IS NOT NULL 
+
+UNION ALL
+
+SELECT
+    FK_Patient_Link_ID AS PatientId,
+    'Positive Test' AS CovidEvent,
+    CovidPositiveDate AS CovidEventDate
+FROM #CovidPatients
+WHERE CovidPositiveDate IS NOT NULL 
+
+UNION ALL
+
+SELECT
+    FK_Patient_Link_ID AS PatientId,
+    'Death Within 28 Days' AS CovidEvent,
+    DeathDate AS CovidEventDate
+FROM #COVIDDeath
+WHERE DeathDate IS NOT NULL 
+
+-- Grain:
+-- each row corresponds to 1 event that could occur for each patient at a given date
+-- events cover:
+-- - 'High Clinical Vulnerability'
+-- - 'Moderate Clinical Vulnerability'
+-- - 'Positive Test'
+-- - 'Death Within 28 Days'
+SELECT
+    PatientId,
+    CovidEvent,
+    CovidEventDate
+FROM #COVIDEvents
 
