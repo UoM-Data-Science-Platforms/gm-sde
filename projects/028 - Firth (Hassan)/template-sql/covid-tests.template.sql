@@ -50,7 +50,7 @@ WHERE SuppliedCode IN
 	AND (gp.EventDate) <= '2020-01-31'
 --655,657
 
--- take a 10 percent sample of depression patients, to add to SMI cohort later on
+-- take a 10 percent sample of depression patients (as requested by PI), to add to SMI cohort later on
 
 SELECT TOP 10 PERCENT *
 INTO #depression_cohort_sample
@@ -98,7 +98,7 @@ EXCEPT
 SELECT FK_Patient_Link_ID, Sex, YearOfBirth FROM #MainCohort;
 -- 3,378,730
 
---> EXECUTE query-cohort-matching-yob-sex-alt.sql yob-flex:1 num-matches:5
+--> EXECUTE query-cohort-matching-yob-sex-alt.sql yob-flex:1 num-matches:4
 
 -- Get the matched cohort detail - same as main cohort
 IF OBJECT_ID('tempdb..#MatchedCohort') IS NOT NULL DROP TABLE #MatchedCohort;
@@ -110,7 +110,6 @@ SELECT
 INTO #MatchedCohort
 FROM #CohortStore c
 WHERE c.PatientId IN (SELECT FK_Patient_Link_ID FROM #Patients);
---254,824
 
 -- Define a table with all the patient ids for the main cohort and the matched cohort
 IF OBJECT_ID('tempdb..#PatientIds') IS NOT NULL DROP TABLE #PatientIds;
@@ -166,4 +165,3 @@ SELECT
 FROM #covidtests cv
 LEFT JOIN #MatchedCohort m ON cv.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 where m.FK_Patient_Link_ID is not null
---146,101

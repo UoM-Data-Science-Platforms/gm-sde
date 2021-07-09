@@ -1,6 +1,6 @@
---┌────────────────────────────────────┐
---│ Hospital stay information  	       │
---└────────────────────────────────────┘
+--┌────────────────────────────────────────────────────────────┐
+--│ Hospital stay information for SMI cohort and controls      │
+--└────────────────────────────────────────────────────────────┘
 
 -- REVIEW LOG:
 
@@ -50,7 +50,7 @@ WHERE SuppliedCode IN
 	AND (gp.EventDate) <= '2020-01-31'
 --655,657
 
--- take a 10 percent sample of depression patients, to add to SMI cohort later on
+-- take a 10 percent sample of depression patients (as requested by PI), to add to SMI cohort later on
 
 IF OBJECT_ID('tempdb..#depression_cohort_sample') IS NOT NULL DROP TABLE #depression_cohort_sample;
 SELECT TOP 10 PERCENT *
@@ -100,8 +100,7 @@ EXCEPT
 SELECT FK_Patient_Link_ID, Sex, YearOfBirth FROM #MainCohort;
 -- 3,378,730
 
---> EXECUTE query-cohort-matching-yob-sex-alt.sql yob-flex:1 num-matches:5
-
+--> EXECUTE query-cohort-matching-yob-sex-alt.sql yob-flex:1 num-matches:4
 
 -- Get the matched cohort detail - same as main cohort
 IF OBJECT_ID('tempdb..#MatchedCohort') IS NOT NULL DROP TABLE #MatchedCohort;
@@ -113,7 +112,6 @@ SELECT
 INTO #MatchedCohort
 FROM #CohortStore c
 WHERE c.PatientId IN (SELECT FK_Patient_Link_ID FROM #Patients);
---254,824
 
 -- Define a table with all the patient ids for the main cohort and the matched cohort
 IF OBJECT_ID('tempdb..#PatientIds') IS NOT NULL DROP TABLE #PatientIds;
@@ -135,7 +133,7 @@ FROM #LengthOfStay
 
 IF OBJECT_ID('tempdb..#RandomiseHospital') IS NOT NULL DROP TABLE #RandomiseHospital;
 SELECT AcuteProvider
-	, HospitalID = ROW_NUMBER() OVER (order by AcuteProvider)
+	, HospitalID = ROW_NUMBER() OVER (order by newid())
 INTO #RandomiseHospital
 FROM #hospitals
 
@@ -166,4 +164,3 @@ LEFT JOIN #LengthOfStay l ON m.FK_Patient_Link_ID = l.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND c.AdmissionDate = l.AdmissionDate AND c.AcuteProvider = l.AcuteProvider
 LEFT OUTER JOIN #RandomiseHospital rh ON rh.AcuteProvider = l.AcuteProvider
 WHERE c.CovidHealthcareUtilisation = 'TRUE'
---2,007
