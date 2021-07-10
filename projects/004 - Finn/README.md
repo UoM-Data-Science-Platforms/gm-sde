@@ -42,7 +42,6 @@ This project required the following reusable queries:
 - Secondary admissions and length of stay
 - Secondary discharges
 - Classify secondary admissions
-- GET No. LTCS per patient
 - Long-term conditions
 - Cancer cohort matching for 004-Finn
 - Cohort matching on year of birth / sex
@@ -242,26 +241,6 @@ _File_: `query-classify-secondary-admissions.sql`
 _Link_: [https://github.com/rw251/.../query-classify-secondary-admissions.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-classify-secondary-admissions.sql)
 
 ---
-### GET No. LTCS per patient
-To get the number of long-term conditions for each patient.
-
-_Input_
-```
-Assumes there exists a temp table as follows:
- #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
- Therefore this is run after query-patient-ltcs.sql
-```
-
-_Output_
-```
-A temp table with a row for each patient with the number of LTCs they have
- #NumLTCs (FK_Patient_Link_ID, NumberOfLTCs)
-```
-_File_: `query-patient-ltcs-number-of.sql`
-
-_Link_: [https://github.com/rw251/.../query-patient-ltcs-number-of.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-number-of.sql)
-
----
 ### Long-term conditions
 To get every long-term condition for each patient.
 
@@ -287,9 +266,7 @@ Defines the cohort (cancer and non cancer patients) that will be used for the st
 
 _Input_
 ```
-Assumes that @StartDate has already been defined and there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+Assumes that @StartDate has already been defined
 ```
 
 _Output_
@@ -301,6 +278,8 @@ A temp table as follows:
   - Sex
   - HasCancer
   - NumberOfMatches
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 ```
 _File_: `query-cancer-cohort-matching.sql`
 
