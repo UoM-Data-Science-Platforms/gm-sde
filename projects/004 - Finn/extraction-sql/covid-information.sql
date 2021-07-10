@@ -5,13 +5,9 @@
 -- Covid information including shielding for all patients in the entire cohort. 
 
 -- OUTPUT: A single table with the following:
---	PatientId
---  ModerateVulnerabilityCodeDate,
---  HighVulnerabilityCodeDate,
---  CovidPositiveDate,
---  DeathWithin28Days
-
-
+--  PatientId (Int)
+--  CovidEvent ('High Clinical Vulnerability', 'Moderate Clinical Vulnerability', 'Positive Test', 'Death Within 28 Days')
+--  CovidEventDate (YYYY-MM-DD)
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -38,9 +34,7 @@ SET @StartDate = '2020-02-01';
 -- Index date is: 1st February 2020
 
 
--- INPUT: Assumes that @StartDate has already been defined and there exists a temp table as follows:
--- #Patients (FK_Patient_Link_ID)
---  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+-- INPUT: Assumes that @StartDate has already been defined 
 
 -- OUTPUT: A temp table as follows: 
 -- #Patients2
@@ -49,6 +43,8 @@ SET @StartDate = '2020-02-01';
 --  - Sex
 --  - HasCancer
 --  - NumberOfMatches
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 
 -- >>> Codesets required... Inserting the code set code
 --
@@ -844,7 +840,7 @@ FROM #CohortStore;
 --   Find how many matches each cancer patient had. 
 --   This will also remove any duplicates.
 IF OBJECT_ID('tempdb..#Patients2') IS NOT NULL DROP TABLE #Patients2;
-SELECT TOP (1000)
+SELECT 
   FK_Patient_Link_ID, 
   YearOfBirth, 
   Sex, 
@@ -857,7 +853,11 @@ GROUP BY FK_Patient_Link_ID, YearOfBirth, Sex, HasCancer;
 -- 338.034 distinct patients, running time: 28min, all cancer patients have 5 matches each, cancer cohort = 56.339, as of 23rd June 
 -- 338.064 distinct patients, all cancer patients have 5 matches each, as of 9th June 
 
+-- Remove all rows from the patients table to add only the patients from the study cohort. 
+TRUNCATE TABLE #Patients;
 
+Insert into #Patients
+SELECT FK_Patient_Link_ID From #Patients2
 -- OUTPUTS: #Patients2
 
 
@@ -873,8 +873,6 @@ WHERE
     (GroupDescription = 'Confirmed' OR (GroupDescription = 'Tested' AND SubGroupDescription = 'Positive'))
     AND EventDate > @StartDate
     AND FK_Patient_Link_ID IN (Select FK_Patient_Link_ID from  #Patients2);
-
-
 
 
 

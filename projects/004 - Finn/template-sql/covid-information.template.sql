@@ -5,13 +5,9 @@
 -- Covid information including shielding for all patients in the entire cohort. 
 
 -- OUTPUT: A single table with the following:
---	PatientId
---  ModerateVulnerabilityCodeDate,
---  HighVulnerabilityCodeDate,
---  CovidPositiveDate,
---  DeathWithin28Days
-
-
+--  PatientId (Int)
+--  CovidEvent ('High Clinical Vulnerability', 'Moderate Clinical Vulnerability', 'Positive Test', 'Death Within 28 Days')
+--  CovidEventDate (YYYY-MM-DD)
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -36,8 +32,6 @@ WHERE
     (GroupDescription = 'Confirmed' OR (GroupDescription = 'Tested' AND SubGroupDescription = 'Positive'))
     AND EventDate > @StartDate
     AND FK_Patient_Link_ID IN (Select FK_Patient_Link_ID from  #Patients2);
-
-
 
 
 
