@@ -4,10 +4,9 @@
 
 
 -- OUTPUT: A single table with the following:
---	FK_Patient_Link_ID
+--	PatientId
 --	DiagnosisDate (YYYY-MM-DD)
 --	CancerCode 
---  CodingScheme 
 
 
 --Just want the output, not the messages
@@ -19,19 +18,18 @@ SET @StartDate = '2020-02-01';
 
 --> EXECUTE query-cancer-cohort-matching.sql
 -- OUTPUTS:
--- - #Patients2
+-- - #Patients
 -- - #VersionedCodeSets
 -- - #VersionedSnomedSets
 
 
--- Get all events with a cancer code captured before index date for all cancer patients from the cohort.
+-- Get all events with a cancer code captured before index date for all cancer patients from the cohort, de-duped.
 -- Grain: multiple events for each patient
 IF OBJECT_ID('tempdb..#CancerDiagnosisHistory') IS NOT NULL DROP TABLE #CancerDiagnosisHistory;
-Select 
-  FK_Patient_Link_ID,
+Select DISTINCT
+  FK_Patient_Link_ID AS PatientId,
   CAST(EventDate AS DATE) AS DiagnosisDate,
-  FK_Reference_SnomedCT_ID,
-  FK_Reference_Coding_ID 
+  SuppliedCode AS CancerCode
 INTO #CancerDiagnosisHistory
 FROM RLS.vw_GP_Events
 WHERE  
@@ -46,14 +44,5 @@ WHERE
   );
 
 
--- Get the actual cancer codes associated for each Ref_Code.
--- Grain: multiple cancer codes per event date
-SELECT 
-  FK_Patient_Link_ID AS PatientId,
-  DiagnosisDate,
-  map.MainCode AS CancerCode,
-  map.CodingScheme
-FROM #CancerDiagnosisHistory p
-INNER JOIN [SharedCare].[Reference_SnomedCT_Mappings] AS map 
-  ON (p.FK_Reference_Coding_ID = map.FK_Reference_Coding_ID OR p.FK_Reference_SnomedCT_ID = map.FK_Reference_SnomedCT_ID);
+
 
