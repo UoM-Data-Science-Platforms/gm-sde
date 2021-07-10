@@ -4,8 +4,9 @@
 
 
 -- Defines the cohort (cancer and non cancer patients) that will be used for the study, based on: 
--- Main cohort (cancer patients):
---	- Cancer diagnosis between 1st February 2015 and 1st February 2020
+-- Main cohort (cancer patients) includes:
+--	- First cancer diagnosis between 1st February 2015 and 1st February 2020 
+--  - First secondary cancer diagnosis between 1st February 2015 and 1st February 2020
 --	- >= 18 year old 
 --	- Alive on 1st Feb 2020 
 -- Control group (non cancer patients):
@@ -20,7 +21,6 @@
 --  •	YearOfBirth (int in this format YYYY)
 --  •	Sex (M/F/U)
 --  •	HasCancer (Y/N)
---  •	FirstDiagnosisDate (YYYY-MM-DD)
 --  •	NumberOfMatches (No from 1-5. Note: Non cancer patients will have 1 in this field.)
 --	•	PassiveSmoker - Y/N (whether a patient has ever had a code for passive smoking)
 --	•	WorstSmokingStatus - (non-trivial-smoker/trivial-smoker/non-smoker)
@@ -63,9 +63,7 @@ SET @StartDate = '2020-02-01';
 -- Index date is: 1st February 2020
 
 
--- INPUT: Assumes that @StartDate has already been defined and there exists a temp table as follows:
--- #Patients (FK_Patient_Link_ID)
---  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+-- INPUT: Assumes that @StartDate has already been defined 
 
 -- OUTPUT: A temp table as follows: 
 -- #Patients2
@@ -74,6 +72,8 @@ SET @StartDate = '2020-02-01';
 --  - Sex
 --  - HasCancer
 --  - NumberOfMatches
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 
 -- >>> Codesets required... Inserting the code set code
 --
@@ -924,8 +924,12 @@ GROUP BY FK_Patient_Link_ID, YearOfBirth, Sex, HasCancer;
 -- 338.034 distinct patients, running time: 28min, all cancer patients have 5 matches each, cancer cohort = 56.339, as of 23rd June 
 -- 338.064 distinct patients, all cancer patients have 5 matches each, as of 9th June 
 
+-- Remove all rows from the patients table to add only the patients from the study cohort. 
+TRUNCATE TABLE #Patients;
 
--- OUTPUT: #Patients2
+Insert into #Patients
+SELECT FK_Patient_Link_ID From #Patients2
+-- OUTPUT: #Patients2, #Patients
 
 
 -- Following query has been copied in and adjusted to extract current smoking status on index date and use #Patients2 instead of #Patients 

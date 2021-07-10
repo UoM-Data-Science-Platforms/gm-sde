@@ -4,8 +4,9 @@
 
 
 -- Defines the cohort (cancer and non cancer patients) that will be used for the study, based on: 
--- Main cohort (cancer patients):
---	- Cancer diagnosis between 1st February 2015 and 1st February 2020
+-- Main cohort (cancer patients) includes:
+--	- First cancer diagnosis between 1st February 2015 and 1st February 2020 
+--  - First secondary cancer diagnosis between 1st February 2015 and 1st February 2020
 --	- >= 18 year old 
 --	- Alive on 1st Feb 2020 
 -- Control group (non cancer patients):
@@ -20,7 +21,6 @@
 --  •	YearOfBirth (int in this format YYYY)
 --  •	Sex (M/F/U)
 --  •	HasCancer (Y/N)
---  •	FirstDiagnosisDate (YYYY-MM-DD)
 --  •	NumberOfMatches (No from 1-5. Note: Non cancer patients will have 1 in this field.)
 --	•	PassiveSmoker - Y/N (whether a patient has ever had a code for passive smoking)
 --	•	WorstSmokingStatus - (non-trivial-smoker/trivial-smoker/non-smoker)
@@ -46,7 +46,7 @@ DECLARE @StartDate datetime;
 SET @StartDate = '2020-02-01';
 
 --> EXECUTE query-cancer-cohort-matching.sql
--- OUTPUT: #Patients2
+-- OUTPUT: #Patients2, #Patients
 
 
 -- Following query has been copied in and adjusted to extract current smoking status on index date and use #Patients2 instead of #Patients 

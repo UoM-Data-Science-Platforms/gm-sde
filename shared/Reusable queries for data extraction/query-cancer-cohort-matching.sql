@@ -16,9 +16,7 @@
 -- Index date is: 1st February 2020
 
 
--- INPUT: Assumes that @StartDate has already been defined and there exists a temp table as follows:
--- #Patients (FK_Patient_Link_ID)
---  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+-- INPUT: Assumes that @StartDate has already been defined 
 
 -- OUTPUT: A temp table as follows: 
 -- #Patients2
@@ -27,6 +25,8 @@
 --  - Sex
 --  - HasCancer
 --  - NumberOfMatches
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 
 --> CODESET cancer:1
 
@@ -214,3 +214,8 @@ GROUP BY FK_Patient_Link_ID, YearOfBirth, Sex, HasCancer;
 -- 338.034 distinct patients, running time: 28min, all cancer patients have 5 matches each, cancer cohort = 56.339, as of 23rd June 
 -- 338.064 distinct patients, all cancer patients have 5 matches each, as of 9th June 
 
+-- Remove all rows from the patients table to add only the patients from the study cohort. 
+TRUNCATE TABLE #Patients;
+
+Insert into #Patients
+SELECT FK_Patient_Link_ID From #Patients2
