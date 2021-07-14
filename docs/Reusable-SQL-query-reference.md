@@ -131,9 +131,7 @@ Defines the cohort (cancer and non cancer patients) that will be used for the st
 
 _Input_
 ```
-Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+Assumes that @StartDate has already been defined
 ```
 
 _Output_
@@ -145,6 +143,8 @@ A temp table as follows:
   - Sex
   - HasCancer
   - NumberOfMatches
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 ```
 _File_: `query-cancer-cohort-matching.sql`
 
@@ -506,7 +506,7 @@ _Output_
 A temp table as follows:
  #PatientLSOA (FK_Patient_Link_ID, LSOA)
  	- FK_Patient_Link_ID - unique patient id
-	- LSOA - nationally recognised LSOA identifier
+	- LSOA_Code - nationally recognised LSOA identifier
 ```
 _File_: `query-patient-lsoa.sql`
 
@@ -610,6 +610,7 @@ Two temp table as follows:
  #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
  	- FK_Patient_Link_ID - unique patient id
 	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
 	- DischargeDate - date of discharge (YYYY-MM-DD)
 	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
 ```
