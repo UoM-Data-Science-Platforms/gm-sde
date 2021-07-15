@@ -52,7 +52,9 @@ Classifies a list of events as COVID or non-COVID. An event is classified as "CO
 
 _Input_
 ```
-Assumes there exists two temp tables as follows:
+Takes one parameter
+  - start-date: string - (YYYY-MM-DD) the date to count COVID diagnoses from. Usually this should be 2020-01-01.
+ And assumes there exists two temp tables as follows:
  #Patients (FK_Patient_Link_ID)
   A distinct list of FK_Patient_Link_IDs for each patient in the cohort
  #PatientDates (FK_Patient_Link_ID, EventDate)
@@ -105,7 +107,9 @@ To classify every admission to secondary care based on whether it is a COVID or 
 
 _Input_
 ```
-Assumes there exists two temp tables as follows:
+Takes one parameter
+  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+ And assumes there exists two temp tables as follows:
  #Patients (FK_Patient_Link_ID)
   A distinct list of FK_Patient_Link_IDs for each patient in the cohort
  #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
