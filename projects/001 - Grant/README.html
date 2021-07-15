@@ -132,6 +132,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>GET practice and ccg for each patient</li>
 <li>CCG lookup table</li>
 <li>COVID utilisation from primary care data</li>
+<li>Patients with COVID</li>
 <li>Index Multiple Deprivation</li>
 <li>GET No. LTCS per patient</li>
 <li>Long-term conditions</li>
@@ -141,7 +142,9 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h3>COVID-related secondary admissions</h3>
 <p>To classify every admission to secondary care based on whether it is a COVID or non-COVID related. A COVID-related admission is classed as an admission within 4 weeks after, or up to 2 weeks before a positive test.</p>
 <p><em>Input</em></p>
-<pre><code>Assumes there exists two temp tables as follows:
+<pre><code>Takes one parameter
+  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+ And assumes there exists two temp tables as follows:
  #Patients (FK_Patient_Link_ID)
   A distinct list of FK_Patient_Link_IDs for each patient in the cohort
  #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
@@ -175,6 +178,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
  #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
  	- FK_Patient_Link_ID - unique patient id
 	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
 	- DischargeDate - date of discharge (YYYY-MM-DD)
 	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
 </code></pre>
@@ -268,7 +272,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <pre><code>A temp table as follows:
  #PatientLSOA (FK_Patient_Link_ID, LSOA)
  	- FK_Patient_Link_ID - unique patient id
-	- LSOA - nationally recognised LSOA identifier
+	- LSOA_Code - nationally recognised LSOA identifier
 </code></pre>
 <p><em>File</em>: <code>query-patient-lsoa.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-lsoa.sql">https://github.com/rw251/.../query-patient-lsoa.sql</a></p>
@@ -324,7 +328,9 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h3>COVID utilisation from primary care data</h3>
 <p>Classifies a list of events as COVID or non-COVID. An event is classified as &quot;COVID&quot; if the date of the event is within 4 weeks after, or up to 14 days before, a positive COVID test.</p>
 <p><em>Input</em></p>
-<pre><code>Assumes there exists two temp tables as follows:
+<pre><code>Takes one parameter
+  - start-date: string - (YYYY-MM-DD) the date to count COVID diagnoses from. Usually this should be 2020-01-01.
+ And assumes there exists two temp tables as follows:
  #Patients (FK_Patient_Link_ID)
   A distinct list of FK_Patient_Link_IDs for each patient in the cohort
  #PatientDates (FK_Patient_Link_ID, EventDate)
@@ -341,6 +347,21 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </code></pre>
 <p><em>File</em>: <code>query-primary-care-covid-utilisation.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-primary-care-covid-utilisation.sql">https://github.com/rw251/.../query-primary-care-covid-utilisation.sql</a></p>
+<hr>
+<h3>Patients with COVID</h3>
+<p>To get tables of all patients with a COVID diagnosis in their record.</p>
+<p><em>Input</em></p>
+<pre><code>Takes one parameter
+  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>Two temp table as follows:
+ #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- FirstCovidPositiveDate - earliest COVID diagnosis
+</code></pre>
+<p><em>File</em>: <code>query-patients-with-covid.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid.sql">https://github.com/rw251/.../query-patients-with-covid.sql</a></p>
 <hr>
 <h3>Index Multiple Deprivation</h3>
 <p>To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.</p>
