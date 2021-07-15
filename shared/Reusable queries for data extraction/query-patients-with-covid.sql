@@ -11,7 +11,6 @@
 -- #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
 -- 	- FK_Patient_Link_ID - unique patient id
 --	- FirstCovidPositiveDate - earliest COVID diagnosis
-
 -- #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
 -- 	- FK_Patient_Link_ID - unique patient id
 --	- CovidPositiveDate - any COVID diagnosis
