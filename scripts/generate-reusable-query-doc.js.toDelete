@@ -8,6 +8,8 @@ const REUSABLE_QUERY_DIRECTORY = join(
   'Reusable queries for data extraction'
 );
 
+module.exports = { parseQuery };
+
 // A list of the reusable queries
 const queries = getListOfQueries();
 

@@ -1,3 +1,35 @@
+--┌────────────────────────────────────┐
+--│ Self-harm episodes per month	     │
+--└────────────────────────────────────┘
+
+-- REVIEW LOG:
+--	-	Richard Williams	2021-04-16	Review complete
+
+-- OUTPUT: Data with the following fields
+-- 	- Month (YYYY-MM)
+--  - Sex (M/F)
+--  - EthnicGroup ()
+--  - AgeCategory ()
+--  - IMDQuintile (int)
+--  - FirstRecordedSelfharmEpisodes (int)
+--  - SelfharmEpisodes (int)
+--  - FirstRecordedSelfharmEpisodes_2019Lookback (int)
+--  - FirstRecordedSelfharmEpisodes_fullLookback (int)
+
+--Just want the output, not the messages
+SET NOCOUNT ON;
+
+-- *************** INTERIM WORKAROUND DUE TO MISSING PATIENT_LINK_ID'S ***************************
+-- find patient_id for all patients, this will be used to link the gp_events table to patient_link
+-- ***********************************************************************************************
+
+IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
+SELECT P.PK_Patient_ID, PL.PK_Patient_Link_ID AS FK_Patient_Link_ID, PL.EthnicMainGroup
+INTO #Patients 
+FROM [RLS].vw_Patient P
+LEFT JOIN [RLS].vw_Patient_Link PL ON P.FK_Patient_Link_ID = PL.PK_Patient_Link_ID
+
+-- >>> Codesets required... Inserting the code set code
 --
 --┌────────────────────┐
 --│ Clinical code sets │
@@ -204,38 +236,8 @@ INNER JOIN (
   SELECT concept, MAX(version) AS maxVersion FROM #VersionedSnomedSets
   GROUP BY concept)
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
---┌────────────────────────────────────┐
---│ Self-harm episodes per month	     │
---└────────────────────────────────────┘
 
--- REVIEW LOG:
---	-	Richard Williams	2021-04-16	Review complete
-
--- OUTPUT: Data with the following fields
--- 	- Month (YYYY-MM)
---  - Sex (M/F)
---  - EthnicGroup ()
---  - AgeCategory ()
---  - IMDQuintile (int)
---  - FirstRecordedSelfharmEpisodes (int)
---  - SelfharmEpisodes (int)
---  - FirstRecordedSelfharmEpisodes_2019Lookback (int)
---  - FirstRecordedSelfharmEpisodes_fullLookback (int)
-
---Just want the output, not the messages
-SET NOCOUNT ON;
-
--- *************** INTERIM WORKAROUND DUE TO MISSING PATIENT_LINK_ID'S ***************************
--- find patient_id for all patients, this will be used to link the gp_events table to patient_link
--- ***********************************************************************************************
-
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT P.PK_Patient_ID, PL.PK_Patient_Link_ID AS FK_Patient_Link_ID, PL.EthnicMainGroup
-INTO #Patients 
-FROM [RLS].vw_Patient P
-LEFT JOIN [RLS].vw_Patient_Link PL ON P.FK_Patient_Link_ID = PL.PK_Patient_Link_ID
-
--- >>> Following codesets injected: selfharm-episodes
+-- >>> Following code sets injected: selfharm-episodes v1
 
 --┌─────┐
 --│ Sex │

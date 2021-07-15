@@ -1,0 +1,5 @@
+451E.00	Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation
+451G.00	Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin
+451K.00	Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres
+451M.00	Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres
+451N.00	Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres

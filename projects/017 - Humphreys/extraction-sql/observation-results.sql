@@ -7,6 +7,10 @@
 
 -- OUTPUT: Data with the following fields
 -- 	- PatientId (int)
+--	-	ResultType
+--	-	ResultCode
+--	-	ResultDescription
+--	-	SourceDate
 --	-	TestDescription
 --	-	ResultMinimumValue (Currently redacted)
 --	-	ResultMaximumValue(Currently redacted)
@@ -46,13 +50,18 @@ WHERE FK_Cohort_Register_ID IN (
 );
 
 SELECT 
-	FK_Patient_Link_ID AS PatientId,
-	TestDescription,
-	ResultMinimumValue,
-	ResultMaximumValue,
-	ResultFlag,
-	ResultStatus,
-	ResultValue,
-	ResultUnit
-FROM RLS.vw_Observation_Results
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+	ord.FK_Patient_Link_ID AS PatientId, 
+	ord.ResultType,
+	ord.ResultCode,
+	ord.ResultDescription,
+	ord.SourceDate,
+	res.TestDescription,
+	res.ResultMinimumValue,
+	res.ResultMaximumValue,
+	res.ResultFlag,
+	res.ResultStatus,
+	res.ResultValue,
+	res.ResultUnit
+FROM RLS.vw_Orders ord
+LEFT OUTER JOIN RLS.vw_Observation_Results res ON res.FK_Order_ID = ord.PK_Order_ID
+WHERE ord.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);

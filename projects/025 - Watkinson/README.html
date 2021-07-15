@@ -126,7 +126,6 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>Patient received flu vaccine in a given time period</li>
 <li>COVID vaccinations</li>
 <li>COVID-related secondary admissions</li>
-<li>Patients with COVID</li>
 <li>Secondary admissions and length of stay</li>
 <li>Secondary discharges</li>
 <li>Care home status</li>
@@ -194,9 +193,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h3>COVID-related secondary admissions</h3>
 <p>To classify every admission to secondary care based on whether it is a COVID or non-COVID related. A COVID-related admission is classed as an admission within 4 weeks after, or up to 2 weeks before a positive test.</p>
 <p><em>Input</em></p>
-<pre><code>Takes one parameter
-  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
- And assumes there exists two temp tables as follows:
+<pre><code>Assumes there exists two temp tables as follows:
  #Patients (FK_Patient_Link_ID)
   A distinct list of FK_Patient_Link_IDs for each patient in the cohort
  #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
@@ -206,27 +203,12 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <pre><code>A temp table as follows:
  #COVIDUtilisationAdmissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
 	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AdmissionDate - date of discharge (YYYY-MM-DD)
 	- AcuteProvider - Bolton, SRFT, Stockport etc..
 	- CovidHealthcareUtilisation - 'TRUE' if admission within 4 weeks after, or up to 14 days before, a positive test
 </code></pre>
 <p><em>File</em>: <code>query-admissions-covid-utilisation.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-admissions-covid-utilisation.sql">https://github.com/rw251/.../query-admissions-covid-utilisation.sql</a></p>
-<hr>
-<h3>Patients with COVID</h3>
-<p>To get tables of all patients with a COVID diagnosis in their record.</p>
-<p><em>Input</em></p>
-<pre><code>Takes one parameter
-  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>Two temp table as follows:
- #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
- 	- FK_Patient_Link_ID - unique patient id
-	- FirstCovidPositiveDate - earliest COVID diagnosis
-</code></pre>
-<p><em>File</em>: <code>query-patients-with-covid.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid.sql">https://github.com/rw251/.../query-patients-with-covid.sql</a></p>
 <hr>
 <h3>Secondary admissions and length of stay</h3>
 <p>To obtain a table with every secondary care admission, along with the acute provider, the date of admission, the date of discharge, and the length of stay.</p>
@@ -237,14 +219,14 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <pre><code>Two temp table as follows:
  #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
  	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AdmissionDate - date of discharge (YYYY-MM-DD)
 	- AcuteProvider - Bolton, SRFT, Stockport etc..
   (Limited to one admission per person per hospital per day, because if a patient has 2 admissions
    on the same day to the same hopsital then it's most likely data duplication rather than two short
    hospital stays)
  #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
  	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AdmissionDate - date of discharge (YYYY-MM-DD)
 	- DischargeDate - date of discharge (YYYY-MM-DD)
 	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
 </code></pre>
@@ -680,24 +662,6 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </tr>
 <tr>
 <td>covid-vaccination v1</td>
-<td>ctv3</td>
-<td>Y2a0e</td>
-<td>SARS-2 Coronavirus vaccine</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>ctv3</td>
-<td>Y2a0f</td>
-<td>COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 1</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
-<td>ctv3</td>
-<td>Y2a3a</td>
-<td>COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 2</td>
-</tr>
-<tr>
-<td>covid-vaccination v1</td>
 <td>emis</td>
 <td>^ESCT1348323</td>
 <td>Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
@@ -736,7 +700,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td>covid-vaccination v1</td>
 <td>emis</td>
 <td>^ESCT1301222</td>
-<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination</td>
+<td>??2019-nCoV (novel coronavirus) vaccination??</td>
 </tr>
 <tr>
 <td>covid-vaccination v1</td>

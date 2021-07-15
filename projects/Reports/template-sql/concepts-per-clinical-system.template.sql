@@ -23,10 +23,12 @@
 --  - Patients  - the number of patients for this system supplier
 --  - PercentageOfPatients  - the percentage of patients for this system supplier with this concept
 
+--> EXECUTE query-patients-with-covid.sql start-date:2020-01-01
+
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
---> CODESET insert-concepts-here
+--> CODESET insert-concepts-here:version-number
 --> EXECUTE query-practice-systems-lookup.sql
 
 -- First get all patients from the GP_Events table who have a matching FK_Reference_Coding_ID

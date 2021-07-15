@@ -155,3 +155,66 @@ Attempted to find the location of information related to project no.1 (Grant), i
 08/05/21
 - troubleshooting fileshare issues for analysts on RQ-029
 - building SNOMED codeset for antipsychotics, RQ-028
+
+12/05/21
+- testing out cohort matching code for patients file in RQ-028
+
+18/05/21
+- testing template extraction code for RQ-028
+
+19/05/21
+- finalising extraction code for medications file RQ-028
+
+20/05/21
+- cohort matching for covid-tests file RQ-028
+
+25/05/21
+- running code for output data files and validating results/fixing errors
+
+27/05/21 
+- checking that cohort matching in each data file is the same - it isn't so need to look into this
+
+01/06/21
+- refreshed the data extract for RQ029
+- added more codes from SMI code set into bipolar and schizophrenia code sets for RQ-028
+
+02/06/21
+- look into why the cohort matching isn't consistent across data files
+
+03/06/21
+- test cohort matching using a different order_by
+
+04/06/21
+- try running each data file to validate - having issues with SQL connection dropping out
+
+08/06/21
+- running final output files and checking outputs
+
+10/06/21
+- apply shortened matching code to RQ-028 files and validate outputs
+- edit the yob-sex matching code so that it is consistent across multiple data files
+
+14/06/21
+- refreshed RQ029 data to include May
+- investigated positive covid tests with date after death date
+
+16/06/21
+- calculate prevalences for all code sets used in RQ028
+
+17/06/21
+- looking into the TPP discrepancy in major-recurrent-depression code set
+
+21/06/21
+- checking EMIS codes for Bipolar
+
+28/06/21
+- checking access to new RDE schema
+
+29/06/21
+- adding sample of depression patients to cohort
+
+30/06/21
+- finding cohort of patients that have been prescribed lithium to validate bipolar cohort
+
+06/07/21
+- checkig all RQ028 scripts are ready for extraction

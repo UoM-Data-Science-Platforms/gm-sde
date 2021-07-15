@@ -1,6 +1,6 @@
---┌──────────────────────┐
---│ Diabetes cohort file │
---└──────────────────────┘
+--┌────────────────────────────────┐
+--│ Diabetes and COVID cohort file │
+--└────────────────────────────────┘
 
 ------------------------ RDE CHECK -------------------------
 -- RDE NAME: GEORGE TILSTON, DATE OF CHECK: 11/05/21 -------
@@ -11,13 +11,15 @@
 -- For each we provide the following:
 
 -- DEMOGRAPHIC
--- PatientId, MainCohortMatchedPatientId (NULL if patient in main cohort), YearOfBirth, DeathDate,
+-- PatientId, MainCohortMatchedPatientId (NULL if patient in main cohort), YearOfBirth, DeathDate, DeathWithin28Days,
 -- Sex, LSOA, EthnicCategoryDescription, TownsendScoreHigherIsMoreDeprived, TownsendQuintileHigherIsMoreDeprived,
 -- COHORT SPECIFIC
 -- FirstDiagnosisDate, FirstT1DiagnosisDate, FirstT2DiagnosisDate, COVIDPositiveTestDate, FirstAdmissionPostCOVIDTest, LengthOfStay,
 -- BIOMARKERS
 -- LatestBMIValue, LatestHBA1CValue, LatestCHOLESTEROLValue, LatestLDLValue, LatestHDLValue,
--- LatestVITAMINDValue, LatestTESTOSTERONEValue, LatestSHBGValue
+-- LatestVITAMINDValue, LatestTESTOSTERONEValue, LatestEGFRValue, LatestSHBGValue
+-- PATIENT STATUS
+-- IsPassiveSmoker, WorstSmokingStatus, CurrentSmokingStatus
 -- DIAGNOSES
 -- PatientHasCOPD, PatientHasASTHMA, PatientHasSMI
 -- MEDICATIONS
@@ -39,7 +41,7 @@ DECLARE @EventsFromDate datetime;
 SET @EventsFromDate = DATEADD(year, -2, @StartDate);
 
 -- First get all the diabetic (type 1/type 2/other) patients and the date of first diagnosis
---> CODESET diabetes
+--> CODESET diabetes:1
 IF OBJECT_ID('tempdb..#DiabeticPatients') IS NOT NULL DROP TABLE #DiabeticPatients;
 SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstDiagnosisDate INTO #DiabeticPatients
 FROM RLS.vw_GP_Events
@@ -50,7 +52,7 @@ WHERE (
 GROUP BY FK_Patient_Link_ID;
 
 -- Get separate cohorts for paients with type 1 diabetes and type 2 diabetes
---> CODESET diabetes-type-i
+--> CODESET diabetes-type-i:1
 IF OBJECT_ID('tempdb..#DiabeticTypeIPatients') IS NOT NULL DROP TABLE #DiabeticTypeIPatients;
 SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstT1DiagnosisDate INTO #DiabeticTypeIPatients
 FROM RLS.vw_GP_Events
@@ -60,7 +62,7 @@ WHERE (
 )
 GROUP BY FK_Patient_Link_ID;
 
---> CODESET diabetes-type-ii
+--> CODESET diabetes-type-ii:1
 IF OBJECT_ID('tempdb..#DiabeticTypeIIPatients') IS NOT NULL DROP TABLE #DiabeticTypeIIPatients;
 SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstT2DiagnosisDate INTO #DiabeticTypeIIPatients
 FROM RLS.vw_GP_Events
@@ -149,6 +151,7 @@ SELECT MatchingPatientId, MatchingCovidPositiveDate FROM #CohortStore;
 --> EXECUTE query-get-admissions-and-length-of-stay.sql
 
 -- For each patient find the first hospital admission following their positive covid test
+-- We allow the test to be within 48 hours post admission and still count it
 IF OBJECT_ID('tempdb..#PatientsFirstAdmissionPostTest') IS NOT NULL DROP TABLE #PatientsFirstAdmissionPostTest;
 SELECT l.FK_Patient_Link_ID, MAX(l.AdmissionDate) AS FirstAdmissionPostCOVIDTest, MAX(LengthOfStay) AS LengthOfStay
 INTO #PatientsFirstAdmissionPostTest
@@ -158,12 +161,12 @@ INNER JOIN (
   FROM #PatientIdsAndIndexDates p
   LEFT OUTER JOIN #LengthOfStay los
     ON los.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-    AND los.AdmissionDate >= p.IndexDate
+    AND los.AdmissionDate >= DATEADD(day, -2, p.IndexDate)
   GROUP BY p.FK_Patient_Link_ID
 ) sub ON sub.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND sub.FirstAdmission = l.AdmissionDate
 GROUP BY l.FK_Patient_Link_ID;
 
---> CODESET bmi hba1c cholesterol ldl-cholesterol hdl-cholesterol vitamin-d testosterone sex-hormone-binding-globulin
+--> CODESET bmi:2 hba1c:2 cholesterol:2 ldl-cholesterol:1 hdl-cholesterol:1 vitamin-d:1 testosterone:1 sex-hormone-binding-globulin:1 egfr:1
 IF OBJECT_ID('tempdb..#PatientValuesWithIds') IS NOT NULL DROP TABLE #PatientValuesWithIds;
 SELECT 
 	FK_Patient_Link_ID,
@@ -183,6 +186,7 @@ WHERE (
       Concept IN ('hdl-cholesterol') AND [Version]=1 OR
       Concept IN ('vitamin-d') AND [Version]=1 OR
       Concept IN ('testosterone') AND [Version]=1 OR
+      Concept IN ('egfr') AND [Version]=1 OR
       Concept IN ('sex-hormone-binding-globulin') AND [Version]=1
     )
   ) OR
@@ -195,6 +199,7 @@ WHERE (
       Concept IN ('hdl-cholesterol') AND [Version]=1 OR
       Concept IN ('vitamin-d') AND [Version]=1 OR
       Concept IN ('testosterone') AND [Version]=1 OR
+      Concept IN ('egfr') AND [Version]=1 OR
       Concept IN ('sex-hormone-binding-globulin') AND [Version]=1
     )
   )
@@ -265,6 +270,11 @@ SELECT FK_Patient_Link_ID, LatestValue AS LatestTESTOSTERONEValue INTO #PatientV
 FROM #PatientValues
 WHERE Concept = 'testosterone';
 
+IF OBJECT_ID('tempdb..#PatientValuesEGFR') IS NOT NULL DROP TABLE #PatientValuesEGFR;
+SELECT FK_Patient_Link_ID, LatestValue AS LatestEGFRValue INTO #PatientValuesEGFR
+FROM #PatientValues
+WHERE Concept = 'egfr';
+
 IF OBJECT_ID('tempdb..#PatientValuesSHBG') IS NOT NULL DROP TABLE #PatientValuesSHBG;
 SELECT FK_Patient_Link_ID, LatestValue AS LatestSHBGValue INTO #PatientValuesSHBG
 FROM #PatientValues
@@ -272,7 +282,7 @@ WHERE Concept = 'sex-hormone-binding-globulin';
 
 
 -- diagnoses
---> CODESET copd
+--> CODESET copd:1
 IF OBJECT_ID('tempdb..#PatientDiagnosesCOPD') IS NOT NULL DROP TABLE #PatientDiagnosesCOPD;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #PatientDiagnosesCOPD
@@ -283,7 +293,7 @@ WHERE (
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
---> CODESET asthma
+--> CODESET asthma:1
 IF OBJECT_ID('tempdb..#PatientDiagnosesASTHMA') IS NOT NULL DROP TABLE #PatientDiagnosesASTHMA;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #PatientDiagnosesASTHMA
@@ -294,7 +304,7 @@ WHERE (
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
---> CODESET severe-mental-illness
+--> CODESET severe-mental-illness:1
 IF OBJECT_ID('tempdb..#PatientDiagnosesSEVEREMENTALILLNESS') IS NOT NULL DROP TABLE #PatientDiagnosesSEVEREMENTALILLNESS;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #PatientDiagnosesSEVEREMENTALILLNESS
@@ -307,7 +317,7 @@ AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 
 -- medications
---> CODESET metformin
+--> CODESET metformin:1
 IF OBJECT_ID('tempdb..#PatientMedicationsMETFORMIN') IS NOT NULL DROP TABLE #PatientMedicationsMETFORMIN;
 SELECT 
 	FK_Patient_Link_ID,
@@ -321,7 +331,7 @@ WHERE (
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate > @MedicationsFromDate;
 
---> CODESET ace-inhibitor
+--> CODESET ace-inhibitor:1
 IF OBJECT_ID('tempdb..#PatientMedicationsACEI') IS NOT NULL DROP TABLE #PatientMedicationsACEI;
 SELECT 
 	FK_Patient_Link_ID,
@@ -335,7 +345,7 @@ WHERE (
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate > @MedicationsFromDate;
 
---> CODESET aspirin
+--> CODESET aspirin:1
 IF OBJECT_ID('tempdb..#PatientMedicationsASPIRIN') IS NOT NULL DROP TABLE #PatientMedicationsASPIRIN;
 SELECT 
 	FK_Patient_Link_ID,
@@ -349,7 +359,7 @@ WHERE (
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate > @MedicationsFromDate;
 
---> CODESET clopidogrel
+--> CODESET clopidogrel:1
 IF OBJECT_ID('tempdb..#PatientMedicationsCLOPIDOGREL') IS NOT NULL DROP TABLE #PatientMedicationsCLOPIDOGREL;
 SELECT 
 	FK_Patient_Link_ID,
@@ -391,6 +401,12 @@ LEFT OUTER JOIN #PatientMedicationsMETFORMIN met
   AND met.MedicationDate >= DATEADD(day, -183, p.IndexDate)
 GROUP BY p.FK_Patient_Link_ID;
 
+-- Get patient list of those with COVID death within 28 days of positive test
+IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
+SELECT DISTINCT FK_Patient_Link_ID 
+INTO #COVIDDeath FROM RLS.vw_COVID19
+WHERE DeathWithin28Days = 'Y';
+
 -- Bring together for final output
 -- Patients in main cohort
 SELECT 
@@ -398,6 +414,7 @@ SELECT
   NULL AS MainCohortMatchedPatientId,
   YearOfBirth,
   DeathDate,
+  CASE WHEN covidDeath.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS DeathWithin28DaysCovidPositiveTest,
   Sex,
   LSOA_Code AS LSOA,
   TownsendScoreHigherIsMoreDeprived,
@@ -416,7 +433,11 @@ SELECT
   LatestHDLValue,
   LatestVITAMINDValue,
   LatestTESTOSTERONEValue,
+  LatestEGFRValue,
   LatestSHBGValue,
+  smok.PassiveSmoker AS IsPassiveSmoker,
+  smok.WorstSmokingStatus,
+  smok.CurrentSmokingStatus,
   CASE WHEN copd.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasCOPD,
   CASE WHEN asthma.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasASTHMA,
   CASE WHEN smi.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasSMI,
@@ -434,11 +455,14 @@ LEFT OUTER JOIN #PatientValuesLDL ldl ON ldl.FK_Patient_Link_ID = m.FK_Patient_L
 LEFT OUTER JOIN #PatientValuesHDL hdl ON hdl.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesVITAMIND vitamind ON vitamind.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesTESTOSTERONE testosterone ON testosterone.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientValuesEGFR egfr ON egfr.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesSHBG shbg ON shbg.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesCOPD copd ON copd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesASTHMA asthma ON asthma.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesSEVEREMENTALILLNESS smi ON smi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientMedications pm ON pm.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #COVIDDeath covidDeath ON covidDeath.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientsFirstAdmissionPostTest fa ON fa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 UNION
 --Patients in matched cohort
@@ -447,6 +471,7 @@ SELECT
   m.PatientWhoIsMatched AS MainCohortMatchedPatientId,
   MatchingYearOfBirth,
   DeathDate,
+  CASE WHEN covidDeath.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS DeathWithin28DaysCovidPositiveTest,
   Sex,
   LSOA_Code AS LSOA,
   TownsendScoreHigherIsMoreDeprived,
@@ -465,7 +490,11 @@ SELECT
   LatestHDLValue,
   LatestVITAMINDValue,
   LatestTESTOSTERONEValue,
+  LatestEGFRValue,
   LatestSHBGValue,
+  smok.PassiveSmoker AS IsPassiveSmoker,
+  smok.WorstSmokingStatus,
+  smok.CurrentSmokingStatus,
   CASE WHEN copd.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasCOPD,
   CASE WHEN asthma.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasASTHMA,
   CASE WHEN smi.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasSMI,
@@ -483,9 +512,12 @@ LEFT OUTER JOIN #PatientValuesLDL ldl ON ldl.FK_Patient_Link_ID = m.FK_Patient_L
 LEFT OUTER JOIN #PatientValuesHDL hdl ON hdl.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesVITAMIND vitamind ON vitamind.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesTESTOSTERONE testosterone ON testosterone.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientValuesEGFR egfr ON egfr.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesSHBG shbg ON shbg.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesCOPD copd ON copd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesASTHMA asthma ON asthma.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesSEVEREMENTALILLNESS smi ON smi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientMedications pm ON pm.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #COVIDDeath covidDeath ON covidDeath.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientsFirstAdmissionPostTest fa ON fa.FK_Patient_Link_ID = m.FK_Patient_Link_ID;

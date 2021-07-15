@@ -10,16 +10,16 @@
 
 -- OUTPUT: A temp table as follows:
 -- #PatientSmokingStatus (FK_Patient_Link_ID, PassiveSmoker, WorstSmokingStatus, CurrentSmokingStatus)
--- 	- FK_Patient_Link_ID - unique patient id
---	-	PassiveSmoker - Y/N (whether a patient has ever had a code for passive smoking)
---	-	WorstSmokingStatus - [non-trivial-smoker/trivial-smoker/non-smoker]
---	-	CurrentSmokingStatus - [non-trivial-smoker/trivial-smoker/non-smoker]
+--	- FK_Patient_Link_ID - unique patient id
+--	- PassiveSmoker - Y/N (whether a patient has ever had a code for passive smoking)
+--	- WorstSmokingStatus - [non-trivial-smoker/trivial-smoker/non-smoker]
+--	- CurrentSmokingStatus - [non-trivial-smoker/trivial-smoker/non-smoker]
 
 -- ASSUMPTIONS:
 --	- We take the most recent smoking status in a patient's record to be correct
---	-	However, there is likely confusion between the "non smoker" and "never smoked" codes. Especially as sometimes the synonyms for these codes overlap. Therefore, a patient wih a most recent smoking status of "never", but who has previous smoking codes, would be classed as WorstSmokingStatus=non-trivial-smoker / CurrentSmokingStatus=non-smoker
+--	- However, there is likely confusion between the "non smoker" and "never smoked" codes. Especially as sometimes the synonyms for these codes overlap. Therefore, a patient wih a most recent smoking status of "never", but who has previous smoking codes, would be classed as WorstSmokingStatus=non-trivial-smoker / CurrentSmokingStatus=non-smoker
 
---> CODESETS smoking-status-current smoking-status-currently-not smoking-status-ex smoking-status-ex-trivial smoking-status-never smoking-status-passive smoking-status-trivial
+--> CODESET smoking-status-current:1 smoking-status-currently-not:1 smoking-status-ex:1 smoking-status-ex-trivial:1 smoking-status-never:1 smoking-status-passive:1 smoking-status-trivial:1
 -- Get all patients year of birth for the cohort
 IF OBJECT_ID('tempdb..#AllPatientSmokingStatusCodes') IS NOT NULL DROP TABLE #AllPatientSmokingStatusCodes;
 SELECT 

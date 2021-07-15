@@ -47,3 +47,62 @@ Find out the following total number of rows to investigate how big the chohorts 
 
 2021-03-01 8.30 - 8.40
 -- Check that primary keys are now updated to link Christie records with IDCR.
+
+2021-04-12 
+--Verification of cancer codes for 004-Finn
+
+2021-04-13 11.00
+--Investigate numbers of patients from Christie tenancy/feeds in the IDCR for cohort matching.
+
+2021-05-18 15.00 - 10.30
+-- Evaluate main cohort sql code for cohort matching, and get number of patients. 
+-- Match cohorts and get total no of matched patients.
+
+2021-05-19 10.00 - 12.00
+-- Evaluate matched cohort and get number of patients. 
+
+2021-05-20 3pm-7pm
+-- Get total number of adult, alive patients with a first cancer diagnosis in the 5-year period - 004-Finn
+
+2021-06-02 2-3pm and 7-8pm
+-- Find frailty information and hospital addmissions for 004-Finn. 
+
+2021-06-09 
+-- Get patients with secondary cancer diagnosis captured in GP rec. 
+-- Add to the cacner cohort and get numbers
+-- Cohort matching with cancer patients including secondary codes. 
+
+2021-06-23 5.50 - 9.30pm
+-- Run cohort matching for Finn 
+-- Find coding references for cancer history
+-- Get all cancer history events for 004-Finn. 
+
+2021-06-24 19.05 - 21.30
+-- Check access to create table in HI_Manchester
+-- Investigate hospital admissions for 004-Finn 
+-- Retrieve hospital admissions for patients in the cohort that had a positive covid test. 
+
+2021-06-26 2.30pm - 3.30pm
+-- Investigate starting dates for GP medications - 004Finn. 
+
+2021-07-02 19.00 - 12.00 
+-- Run cohort mathcing and patient information for 004Finn -- Running for 3:58 hours. 
+
+2021-07-3 12.30 - 23.00 
+-- Run cohort mathcing and patient information for 004Finn  - Running for 9:49 hours
+
+2021-07-04 10.30am - 11.30 and 15.30
+-- Run cohort matching for Finn study. Running for ~20min. 
+
+2021-07-05 10.30am - 11pm
+-- Run cohort matching and queries for patient demographics for smaller subset to check grain - 004Finn. 
+
+2021-07-06 11.30am - 10.30pm
+-- Test and finalise patient demographics, and covid infomration extract files for 004- Finn. 
+-- Run and test comorbidities information extract file. 
+
+2021-07-07 11.30am
+-- Run patient demographics to check grain of tables 
+
+2021-07-10 11am - 21.00
+-- Run and check cancer information, hospital admissions, medications, comorbidities extract file for 004 - Finn study.

@@ -1,25 +1,34 @@
+G2...11	BP - hypertensive disease
 G2...00	Hypertensive disease
+G2z..00	Hypertensive disease NOS
+G2y..00	Other specified hypertensive disease
+G28..00	Stage 2 hypertension (NICE - National Institute for Health and Clinical Excellence 2011)
+G26..00	Severe hypertension (NICE - National Institute for Health and Clinical Excellence 2011)
+G26..11	Severe hypertension
+G25..00	Stage 1 hypertension (NICE - National Institute for Health and Clinical Excellence 2011)
+G25..11	Stage 1 hypertension
+G251.00	Stage 1 hypertension (NICE 2011) with evidence of end organ damage
+G250.00	Stage 1 hypertension (NICE 2011) without evidence of end organ damage
+G24..00	Secondary hypertension
+G24z.00	Secondary hypertension NOS
+G24zz00	Secondary hypertension NOS
+G24z000	Secondary renovascular hypertension NOS
+G244.00	Hypertension secondary to endocrine disorders
+G241.00	Secondary benign hypertension
+G241z00	Secondary benign hypertension NOS
+G241000	Secondary benign renovascular hypertension
+G240.00	Secondary malignant hypertension
+G240z00	Secondary malignant hypertension NOS
+G240000	Secondary malignant renovascular hypertension
 G20..11	High blood pressure
 G20..00	Essential hypertension
-G201.00	Benign essential hypertension
-G20z.11	Hypertension NOS
-G202.00	Systolic hypertension
-G2z..00	Hypertensive disease NOS
-G24..00	Secondary hypertension
+G20..12	Primary hypertension
 G20z.00	Essential hypertension NOS
-G200.00	Malignant essential hypertension
-G24z.00	Secondary hypertension NOS
-G2y..00	Other specified hypertensive disease
-G241000	Secondary benign renovascular hypertension
-G24z100	Hypertension secondary to drug
-G24z000	Secondary renovascular hypertension NOS
-G240.00	Secondary malignant hypertension
-G244.00	Hypertension secondary to endocrine disorders
-G24zz00	Secondary hypertension NOS
-G241z00	Secondary benign hypertension NOS
-G241.00	Secondary benign hypertension
-G240000	Secondary malignant renovascular hypertension
-Gyu2.00	[X]Hypertensive diseases
-G240z00	Secondary malignant hypertension NOS
+G20z.11	Hypertension NOS
 G203.00	Diastolic hypertension
+G202.00	Systolic hypertension
+G201.00	Benign essential hypertension
+G200.00	Malignant essential hypertension
+Gyu2.00	[X]Hypertensive diseases
+Gyu2100	[X]Hypertension secondary to other renal disorders
 Gyu2000	[X]Other secondary hypertension

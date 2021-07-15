@@ -188,3 +188,79 @@
 2021-04-23
 - Evaluating the LTC code sets by examining their prevalence
 
+2021-04-27
+- Further data extraction for RQ001 Grant
+
+2021-04-28
+- Investigating and fixing the extract for RQ025 Watkinson as it contained duplicate patient ids
+- Preparing data for RQ020 Heald
+
+2021-04-29
+- Improving the code sets
+- Improving the github public documentation
+
+2021-04-30
+- Developing a smoking status algorithm for RQ020 Heald
+
+2021-05-04
+- Developing a smoking status algorithm for RQ020 Heald
+- Data extraction work for RQ020 Heald
+
+2021-05-05
+- More documentation work
+- Reviewing abstract from RQ025 Watkinson
+- Data extraction work for RQ020 Heald
+
+2021-05-06
+- Data extraction work for RQ017 Humphreys
+
+2021-05-07
+- Data extraction work for RQ020 Heald
+- Final data check for RQ017 Humphreys
+
+2021-05-11
+- Checking data extract for RQ020 Heald
+- Minor update to RQ001 Grant data extract
+
+2021-05-12
+- RQ025 Watkinson - investigating extra data for flu vaccination
+
+2021-05-13
+- RQ025 Watkinson - investigating extra data for flu vaccination
+- RQ017 Humphreys final data extract
+
+2021-05-14
+- Providing text for methods section of RQ001 Grant study
+- RQ025 Watkinson - investigating extra data for flu vaccination
+
+2021-05-18
+- Generated some dummy data for RQ020 Heald
+
+2021-05-19
+- RQ025 Watkinson - investigating extra data for flu vaccination
+
+2021-05-21
+- Providing data extract for RQ020 Heald
+- Small modification or RQ017 Humphreys data extract
+
+2021-06-02
+- Investigating and resolving issue with latest RQ025 extract
+- Investigating observation codes after query by RQ017
+
+2021-06-03
+- New data file prep for RQ020 - Heald
+
+2021-06-09
+- Improving the cohort matching algorithm
+
+2021-06-15
+- Further data checks for RQ017 Humphreys
+
+2021-06-18
+- Amended data extract for RQ017 Humphreys
+
+
+
+
+
+

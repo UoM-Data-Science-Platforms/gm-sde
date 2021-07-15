@@ -422,9 +422,9 @@ ORDER BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider;
 -- OUTPUT: A temp table as follows:
 -- #COVIDUtilisationAdmissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
 --	- FK_Patient_Link_ID - unique patient id
---	- AdmissionDate - date of admission (YYYY-MM-DD)
+--	- AdmissionDate - date of discharge (YYYY-MM-DD)
 --	- AcuteProvider - Bolton, SRFT, Stockport etc..
---  - CovidHealthcareUtilisation - 'TRUE' if admission within 4 weeks after, or up to 14 days before, a positive test
+--	- CovidHealthcareUtilisation - 'TRUE' if admission within 4 weeks after, or up to 14 days before, a positive test
 
 -- Get first positive covid test for each patient
 --┌─────────────────────┐
@@ -721,7 +721,7 @@ INNER JOIN (
   GROUP BY concept)
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
--- >>> Following codesets injected: covid-vaccination
+-- >>> Following code sets injected: covid-vaccination v1
 IF OBJECT_ID('tempdb..#COVIDVaccines') IS NOT NULL DROP TABLE #COVIDVaccines;
 SELECT 
   FK_Patient_Link_ID, 
@@ -772,13 +772,13 @@ WHERE FirstVaccineDate != SecondVaccineDate;
 
 -- OUTPUT: A temp table as follows:
 -- #PatientHadFluVaccine (FK_Patient_Link_ID, FluVaccineDate)
--- 	- FK_Patient_Link_ID - unique patient id
---	-	FluVaccineDate - YYYY-MM-DD (first date of flu vaccine in given time period)
+--	- FK_Patient_Link_ID - unique patient id
+--	- FluVaccineDate - YYYY-MM-DD (first date of flu vaccine in given time period)
 
 -- ASSUMPTIONS:
 --	- We look for codes related to the administration of flu vaccines and codes for the vaccine itself
 
--- >>> Following codesets injected: flu-vaccination
+-- >>> Following code sets injected: flu-vaccination v1
 -- First get all patients from the GP_Events table who have a flu vaccination (procedure) code
 IF OBJECT_ID('tempdb..#PatientsWithFluVacConcept') IS NOT NULL DROP TABLE #PatientsWithFluVacConcept;
 SELECT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS FluVaccineDate
@@ -791,7 +791,7 @@ WHERE (
 AND EventDate >= '2019-07-01'
 AND EventDate <= '2020-06-30';
 
--- >>> Following codesets injected: flu-vaccine
+-- >>> Following code sets injected: flu-vaccine v1
 -- Then get all patients from the GP_Medications table who have a flu vaccine (medication) code
 INSERT INTO #PatientsWithFluVacConcept
 SELECT FK_Patient_Link_ID, CAST(MedicationDate AS DATE) FROM RLS.vw_GP_Medications
@@ -842,7 +842,7 @@ WHERE FK_Cohort_Register_ID IN (
 -- 	-	eligible for a flu vaccine
 --	-	has a severe mental illness
 --	-	has a moderate clinical vulnerability to COVID code in their record
--- >>> Following codesets injected: moderate-clinical-vulnerability/severe-mental-illness
+-- >>> Following code sets injected: moderate-clinical-vulnerability v1/severe-mental-illness v1
 SELECT FK_Patient_Link_ID INTO #ModerateVulnerabilityPatients FROM [RLS].[vw_GP_Events]
 WHERE SuppliedCode IN (
 	SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('moderate-clinical-vulnerability','severe-mental-illness') AND [Version] = 1
@@ -851,13 +851,13 @@ UNION
 SELECT FK_Patient_Link_ID FROM #FluVaccPatients;
 
 -- Get patients with high covid vulnerability flag and date of first entry
--- >>> Following codesets injected: high-clinical-vulnerability
+-- >>> Following code sets injected: high-clinical-vulnerability v1
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS HighVulnerabilityCodeDate INTO #HighVulnerabilityPatients FROM [RLS].[vw_GP_Events]
 WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 'high-clinical-vulnerability' AND [Version] = 1)
 GROUP BY FK_Patient_Link_ID;
 
 -- Get patients with covid vaccine refusal
--- >>> Following codesets injected: covid-vaccine-declined
+-- >>> Following code sets injected: covid-vaccine-declined v1
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS DateVaccineDeclined INTO #VaccineDeclinedPatients FROM [RLS].[vw_GP_Events]
 WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccine-declined' AND [Version] = 1)
 GROUP BY FK_Patient_Link_ID;

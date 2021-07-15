@@ -1,0 +1,13 @@
+d618.	LITHIUM CARBONATE 520mg/5mL sugar free liquid
+d61s.	LITHIUM CARBONATE 200mg m/r tablets
+d61v.	LITHIUM CARBONATE 250mg tablets
+d61w.	LITHIUM CARBONATE 400mg tablets
+d61x.	LITHIUM CARBONATE 450mg m/r tablets
+d61y.	LITHIUM CARBONATE 300mg m/r tablets
+d61z.	LITHIUM CARBONATE 400mg m/r tablets
+d62w.	LITHIUM CITRATE 520mg/5mL sugar free liquid
+d62x.	LITHIUM CITRATE 5.4mmol/5mL liquid
+d62y.	LITHIUM CITRATE 10.8mmol/5mL liquid
+d62z.	LITHIUM CITRATE 564mg m/r tablets
+mb41.	LITHIUM SUCCINATE 8% ointment
+mb43.	LITHIUM SUCCINATE 8% cream
