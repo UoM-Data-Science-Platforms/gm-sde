@@ -165,11 +165,32 @@ function processParams(line, params) {
   return parameters;
 }
 
-function processFile(filename, requiredCodeSets = [], alreadyProcessed = {}, parameters) {
+function processFile(filename, requiredCodeSets = [], alreadyProcessed = {}, parameters = []) {
   alreadyProcessed[filename] = true;
   const sqlLines = readFileSync(filename, 'utf8').split('\n');
   const generatedSql = sqlLines
     .map((line) => {
+      // First let's replace any parameters
+      const possibleParamRegex = new RegExp('{param:([^}]+)}');
+      if (line.match(possibleParamRegex)) {
+        let possibleParamMatch = line.match(possibleParamRegex);
+        while (possibleParamMatch) {
+          const paramName = possibleParamMatch[1];
+          if (!parameters[paramName] && parameters[paramName] !== 0) {
+            console.log(
+              `The file ${basename(filename)} requires a value for the parameter: ${paramName}`
+            );
+            console.log('However this is not provided. You should call it like this:');
+            console.log(`--> EXECUTE ${basename(filename)} ${paramName}:value`);
+            process.exit();
+          }
+          const reg = new RegExp(`{param:${paramName}}`, 'g');
+          line = line.replace(reg, parameters[paramName]);
+          possibleParamMatch = line.match(possibleParamRegex);
+        }
+      }
+
+      // Now process the line itself
       if (line.trim().match(/^--> CODESETS? /)) {
         const codeSets = line
           .replace(/^--> CODESETS? +/, '')
@@ -272,22 +293,6 @@ ${CODESET_MARKER}
         }
         return sqlToInsert;
       } else {
-        const possibleParamRegex = new RegExp('{param:([^}]+)}');
-        let possibleParamMatch = line.match(possibleParamRegex);
-        while (possibleParamMatch) {
-          const paramName = possibleParamMatch[1];
-          if (!parameters[paramName] && parameters[paramName] !== 0) {
-            console.log(
-              `The file ${basename(filename)} requires a value for the parameter: ${paramName}`
-            );
-            console.log('However this is not provided. You should call it like this:');
-            console.log(`--> EXECUTE ${basename(filename)} ${paramName}:value`);
-            process.exit();
-          }
-          const reg = new RegExp(`{param:${paramName}}`, 'g');
-          line = line.replace(reg, parameters[paramName]);
-          possibleParamMatch = line.match(possibleParamRegex);
-        }
         return line;
       }
     })
@@ -295,5 +300,5 @@ ${CODESET_MARKER}
   return { sql: generatedSql, codeSets: requiredCodeSets };
 }
 //stitch(join(__dirname, '..', 'projects', '017 - Humphreys'));
-// stitch(join(__dirname, '..', 'projects', '001 - Grant'));
+//stitch(join(__dirname, '..', 'projects', '001 - Grant'));
 module.exports = { stitch };
