@@ -37,6 +37,7 @@ This project required the following reusable queries:
 - Patient received flu vaccine in a given time period
 - COVID vaccinations
 - COVID-related secondary admissions
+- Patients with COVID
 - Secondary admissions and length of stay
 - Secondary discharges
 - Care home status
@@ -125,7 +126,9 @@ To classify every admission to secondary care based on whether it is a COVID or 
 
 _Input_
 ```
-Assumes there exists two temp tables as follows:
+Takes one parameter
+  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+ And assumes there exists two temp tables as follows:
  #Patients (FK_Patient_Link_ID)
   A distinct list of FK_Patient_Link_IDs for each patient in the cohort
  #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
@@ -137,13 +140,34 @@ _Output_
 A temp table as follows:
  #COVIDUtilisationAdmissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
 	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of discharge (YYYY-MM-DD)
+	- AdmissionDate - date of admission (YYYY-MM-DD)
 	- AcuteProvider - Bolton, SRFT, Stockport etc..
 	- CovidHealthcareUtilisation - 'TRUE' if admission within 4 weeks after, or up to 14 days before, a positive test
 ```
 _File_: `query-admissions-covid-utilisation.sql`
 
 _Link_: [https://github.com/rw251/.../query-admissions-covid-utilisation.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-admissions-covid-utilisation.sql)
+
+---
+### Patients with COVID
+To get tables of all patients with a COVID diagnosis in their record.
+
+_Input_
+```
+Takes one parameter
+  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+```
+
+_Output_
+```
+Two temp table as follows:
+ #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- FirstCovidPositiveDate - earliest COVID diagnosis
+```
+_File_: `query-patients-with-covid.sql`
+
+_Link_: [https://github.com/rw251/.../query-patients-with-covid.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid.sql)
 
 ---
 ### Secondary admissions and length of stay
@@ -159,14 +183,15 @@ _Output_
 Two temp table as follows:
  #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
  	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of discharge (YYYY-MM-DD)
+	- AdmissionDate - date of admission (YYYY-MM-DD)
 	- AcuteProvider - Bolton, SRFT, Stockport etc..
   (Limited to one admission per person per hospital per day, because if a patient has 2 admissions
    on the same day to the same hopsital then it's most likely data duplication rather than two short
    hospital stays)
  #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
  	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of discharge (YYYY-MM-DD)
+	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
 	- DischargeDate - date of discharge (YYYY-MM-DD)
 	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
 ```
@@ -278,7 +303,7 @@ _Output_
 A temp table as follows:
  #PatientLSOA (FK_Patient_Link_ID, LSOA)
  	- FK_Patient_Link_ID - unique patient id
-	- LSOA - nationally recognised LSOA identifier
+	- LSOA_Code - nationally recognised LSOA identifier
 ```
 _File_: `query-patient-lsoa.sql`
 
@@ -460,13 +485,16 @@ All code sets required for this analysis are listed here. Individual lists for e
 |covid-vaccination v1|ctv3|Y210d|2019-nCoV (novel coronavirus) vaccination|
 |covid-vaccination v1|ctv3|Y29e7|Administration of first dose of SARS-CoV-2 vaccine|
 |covid-vaccination v1|ctv3|Y29e8|Administration of second dose of SARS-CoV-2 vaccine|
+|covid-vaccination v1|ctv3|Y2a0e|SARS-2 Coronavirus vaccine|
+|covid-vaccination v1|ctv3|Y2a0f|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 1|
+|covid-vaccination v1|ctv3|Y2a3a|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 2|
 |covid-vaccination v1|emis|^ESCT1348323|Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
 |covid-vaccination v1|emis|COCO138186NEMIS|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)|
 |covid-vaccination v1|emis|^ESCT1348325|Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
 |covid-vaccination v1|emis|^ESCT1348298|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination|
 |covid-vaccination v1|emis|^ESCT1348301|COVID-19 vaccination|
 |covid-vaccination v1|emis|^ESCT1299050|2019-nCoV (novel coronavirus) vaccination|
-|covid-vaccination v1|emis|^ESCT1301222|??2019-nCoV (novel coronavirus) vaccination??|
+|covid-vaccination v1|emis|^ESCT1301222|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination|
 |covid-vaccination v1|readv2|65F0.|2019-nCoV (novel coronavirus) vaccination|
 |covid-vaccination v1|readv2|65F0100|Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
 |covid-vaccination v1|readv2|65F0200|2019-nCoV (novel coronavirus) vaccination|

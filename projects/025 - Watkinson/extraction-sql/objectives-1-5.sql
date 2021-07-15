@@ -157,7 +157,7 @@ SELECT * FROM #Temp;
 -- OUTPUT: A temp table as follows:
 -- #PatientLSOA (FK_Patient_Link_ID, LSOA)
 -- 	- FK_Patient_Link_ID - unique patient id
---	- LSOA - nationally recognised LSOA identifier
+--	- LSOA_Code - nationally recognised LSOA identifier
 
 -- ASSUMPTIONS:
 --	- Patient data is obtained from multiple sources. Where patients have multiple LSOAs we determine the LSOA as follows:
@@ -344,6 +344,7 @@ GROUP BY FK_Patient_Link_ID;
 -- #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
 -- 	- FK_Patient_Link_ID - unique patient id
 --	- AdmissionDate - date of admission (YYYY-MM-DD)
+--	- AcuteProvider - Bolton, SRFT, Stockport etc..
 --	- DischargeDate - date of discharge (YYYY-MM-DD)
 --	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
 
@@ -422,7 +423,7 @@ ORDER BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider;
 -- OUTPUT: A temp table as follows:
 -- #COVIDUtilisationAdmissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
 --	- FK_Patient_Link_ID - unique patient id
---	- AdmissionDate - date of discharge (YYYY-MM-DD)
+--	- AdmissionDate - date of admission (YYYY-MM-DD)
 --	- AcuteProvider - Bolton, SRFT, Stockport etc..
 --	- CovidHealthcareUtilisation - 'TRUE' if admission within 4 weeks after, or up to 14 days before, a positive test
 
