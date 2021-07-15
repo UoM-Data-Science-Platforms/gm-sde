@@ -73,13 +73,7 @@ WHERE (
 GROUP BY FK_Patient_Link_ID;
 
 -- Then get all the positive covid test patients
-IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
-SELECT FK_Patient_Link_ID, MIN(CONVERT(DATE, [EventDate])) AS FirstCovidPositiveDate INTO #CovidPatients
-FROM [RLS].[vw_COVID19]
-WHERE GroupDescription = 'Confirmed'
-AND EventDate > @StartDate
-AND EventDate <= GETDATE()
-GROUP BY FK_Patient_Link_ID;
+--> EXECUTE query-patients-with-covid.sql start-date:2020-01-01
 
 -- Define #Patients temp table for getting future things like age/sex etc.
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
