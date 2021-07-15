@@ -61,6 +61,8 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
 --> EXECUTE query-get-covid-vaccines.sql
 
+-- find the first and second vaccine date for each patient
+
 IF OBJECT_ID('tempdb..#COVIDVaccinations1') IS NOT NULL DROP TABLE #COVIDVaccinations1;
 SELECT 
 	FK_Patient_Link_ID
@@ -71,7 +73,9 @@ FROM #COVIDVaccinations
 GROUP BY FK_Patient_Link_ID
 
 -- Get patients with covid vaccine refusal
+
 --> CODESET covid-vaccine-declined:1
+
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS DateVaccineDeclined 
 INTO #VaccineDeclinedPatients FROM [RLS].[vw_GP_Events]
 WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccine-declined' AND [Version] = 1)
@@ -84,7 +88,6 @@ INTO #COVIDDeath FROM RLS.vw_COVID19
 WHERE DeathWithin28Days = 'Y';
 
 -- cohort of patients with depression
-
 IF OBJECT_ID('tempdb..#depression_cohort') IS NOT NULL DROP TABLE #depression_cohort;
 SELECT DISTINCT gp.FK_Patient_Link_ID
 INTO #depression_cohort
@@ -95,8 +98,7 @@ WHERE SuppliedCode IN
 	AND (gp.EventDate) <= '2020-01-31'
 --655,657
 
--- take a 10 percent sample of depression patients, to add to SMI cohort later on
-
+-- take a 10 percent sample of depression patients (as requested by PI), to add to SMI cohort later on
 IF OBJECT_ID('tempdb..#depression_cohort_sample') IS NOT NULL DROP TABLE #depression_cohort_sample;
 SELECT TOP 10 PERCENT *
 INTO #depression_cohort_sample
@@ -166,7 +168,7 @@ EXCEPT
 SELECT FK_Patient_Link_ID, Sex, YearOfBirth FROM #MainCohort;
 -- 3,378,730
 
---> EXECUTE query-cohort-matching-yob-sex-alt.sql yob-flex:1 num-matches:5
+--> EXECUTE query-cohort-matching-yob-sex-alt.sql yob-flex:1 num-matches:4
 
 -- Get the matched cohort detail - same as main cohort
 IF OBJECT_ID('tempdb..#MatchedCohort') IS NOT NULL DROP TABLE #MatchedCohort;
@@ -196,11 +198,11 @@ SELECT MatchingPatientId FROM #CohortStore;
 
 
 
--- TABLES WITH EARLIEST DIAGNOSES OF SMI DIAGNOSES
+-- TABLES WITH EARLIEST DIAGNOSES OF SMI CONDITIONS
 
 IF OBJECT_ID('tempdb..#EarliestDiagnosis_Schizophrenia_Psychosis') IS NOT NULL DROP TABLE #EarliestDiagnosis_Schizophrenia_Psychosis;
 SELECT FK_Patient_Link_ID
-	,EarliestDiagnosis_Schizophrenia_Psychosis = MIN(EventDate)
+	,EarliestDiagnosis_Schizophrenia_Psychosis = MIN(CAST(EventDate AS date))
 INTO #EarliestDiagnosis_Schizophrenia_Psychosis
 FROM #SMI_Episodes 
 WHERE Schizophrenia_Psychosis_Code = 1
@@ -208,7 +210,7 @@ GROUP BY FK_Patient_Link_ID
 
 IF OBJECT_ID('tempdb..#EarliestDiagnosis_Bipolar') IS NOT NULL DROP TABLE #EarliestDiagnosis_Bipolar;
 SELECT FK_Patient_Link_ID
-	,EarliestDiagnosis_Bipolar = MIN(EventDate)
+	,EarliestDiagnosis_Bipolar = MIN(CAST(EventDate AS date))
 INTO #EarliestDiagnosis_Bipolar
 FROM #SMI_Episodes 
 WHERE Bipolar_Code = 1
@@ -216,7 +218,7 @@ GROUP BY FK_Patient_Link_ID
 
 IF OBJECT_ID('tempdb..#EarliestDiagnosis_Recurrent_Depressive ') IS NOT NULL DROP TABLE #EarliestDiagnosis_Recurrent_Depressive ;
 SELECT FK_Patient_Link_ID
-	,EarliestDiagnosis_Recurrent_Depressive = MIN(EventDate)
+	,EarliestDiagnosis_Recurrent_Depressive = MIN(CAST(EventDate AS date))
 INTO #EarliestDiagnosis_Recurrent_Depressive
 FROM #SMI_Episodes 
 WHERE Recurrent_Depressive_Code = 1
@@ -224,11 +226,12 @@ GROUP BY FK_Patient_Link_ID
 
 IF OBJECT_ID('tempdb..#EarliestDiagnosis_Depression ') IS NOT NULL DROP TABLE #EarliestDiagnosis_Depression ;
 SELECT FK_Patient_Link_ID
-	,EarliestDiagnosis_Depression = MIN(EventDate)
+	,EarliestDiagnosis_Depression = MIN(CAST(EventDate AS date))
 INTO #EarliestDiagnosis_Depression
 FROM #SMI_Episodes 
 WHERE Depression_Code = 1
 GROUP BY FK_Patient_Link_ID
+
 
 
 
@@ -300,8 +303,8 @@ SELECT	 PatientId = m.FK_Patient_Link_ID
 		,m.Sex
 		,LSOA_Code
 		,m.EthnicMainGroup
-		,IMD2019Decile1IsMostDeprived10IsLeastDeprived --may need changing to IMD Score
-		,rp.RandomPracticeID -- needs anonymising
+		,IMD2019Decile1IsMostDeprived10IsLeastDeprived
+		,rp.RandomPracticeID 
 		,HO_cancer = ISNULL(HO_painful_condition, 0)
 		,HO_painful_condition = ISNULL(HO_painful_condition, 0)
 		,HO_migraine  = ISNULL(HO_migraine , 0)
@@ -351,8 +354,8 @@ SELECT	 PatientId = m.FK_Patient_Link_ID
 		,DeathAfter31Jan20 = CASE WHEN pl.DeathDate > '2020-01-31' THEN 'Y' ELSE 'N' END
 		,DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END
 		,DeathDateDueToCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN STUFF(CONVERT(varchar(10), pl.DeathDate,104),1,3,'') ELSE null END
-		,FirstVaccineDate
-		,SecondVaccineDate
+		,FirstVaccineDate = STUFF(CONVERT(varchar(10), pl.DeathDate,104),1,3,'')
+		,SecondVaccineDate = STUFF(CONVERT(varchar(10), pl.DeathDate,104),1,3,'')
 		,VaccineDeclined = CASE WHEN vd.FK_Patient_Link_ID is not null and DateVaccineDeclined is not null THEN 1 ELSE 0 END
 FROM #MainCohort m
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
@@ -360,6 +363,7 @@ LEFT OUTER JOIN #HistoryOfLTCs ltc on ltc.FK_Patient_Link_ID = m.FK_Patient_Link
 LEFT OUTER JOIN #EarliestDiagnosis_Schizophrenia_Psychosis edsc on edsc.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #EarliestDiagnosis_Bipolar edbp on edbp.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #EarliestDiagnosis_Recurrent_Depressive edmd on edmd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #EarliestDiagnosis_Depression edde on edde.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDVaccinations1 vac on vac.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #VaccineDeclinedPatients vd ON vd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
@@ -373,8 +377,8 @@ SELECT	PatientId = m.FK_Patient_Link_ID
 		,m.Sex
 		,LSOA_Code
 		,m.EthnicMainGroup
-		,IMD2019Decile1IsMostDeprived10IsLeastDeprived --may need changing to IMD Score
-		,rp.RandomPracticeID -- needs anonymising
+		,IMD2019Decile1IsMostDeprived10IsLeastDeprived 
+		,rp.RandomPracticeID 
 		,HO_cancer = ISNULL(HO_painful_condition, 0)		
 		,HO_painful_condition = ISNULL(HO_painful_condition, 0)
 		,HO_migraine  = ISNULL(HO_migraine , 0)
@@ -424,8 +428,8 @@ SELECT	PatientId = m.FK_Patient_Link_ID
 		,DeathAfter31Jan20 = CASE WHEN pl.DeathDate > '2020-01-31' THEN 'Y' ELSE 'N' END
 		,DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END
 		,DeathDateDueToCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN STUFF(CONVERT(varchar(10), pl.DeathDate,104),1,3,'') ELSE null END
-		,FirstVaccineDate
-		,SecondVaccineDate
+		,FirstVaccineDate = STUFF(CONVERT(varchar(10), pl.DeathDate,104),1,3,'')
+		,SecondVaccineDate = STUFF(CONVERT(varchar(10), pl.DeathDate,104),1,3,'')
 		,VaccineDeclined = CASE WHEN vd.FK_Patient_Link_ID is not null and DateVaccineDeclined is not null THEN 1 ELSE 0 END
 FROM #MatchedCohort m
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
@@ -433,8 +437,9 @@ LEFT OUTER JOIN #HistoryOfLTCs ltc on ltc.FK_Patient_Link_ID = m.FK_Patient_Link
 LEFT OUTER JOIN #EarliestDiagnosis_Schizophrenia_Psychosis edsc on edsc.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #EarliestDiagnosis_Bipolar edbp on edbp.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #EarliestDiagnosis_Recurrent_Depressive edmd on edmd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #EarliestDiagnosis_Depression edde on edde.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDVaccinations1 vac on vac.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #VaccineDeclinedPatients vd ON vd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #RandomisePractice rp ON rp.GPPracticeCode = m.GPPracticeCode;
---306,745
+

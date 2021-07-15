@@ -4,19 +4,14 @@
 
 -- Study index date: 1st Feb 2020
 
--- Hospital admissions for the all the cohort patients who had covid?
-
+-- Hospital admissions for the all the cohort patients who had covid
 
 -- OUTPUT: A single table with the following:
---	PK: AdmissionID
---	FK: PatientID
---	AdmissionDate 
---	Admission Type Code
---	AdmissionTypeDescription
---	ReasonForAdmissionCode 
---	ReasonForAdmissionDescription 
---	LengthOfStay 
---	Discharge date
+--	PatientId (Int)
+--	AdmissionDate (YYYY-MM-DD)
+--	Admission Type (Unplanned, Planned, Maternity, Transfer, Other)
+--	LengthOfStay (Int)
+--	DischargeDate (YYYY-MM-DD)
 
 
 --Just want the output, not the messages
@@ -26,32 +21,34 @@ SET NOCOUNT ON;
 DECLARE @StartDate datetime;
 SET @StartDate = '2020-02-01';
 
+-- Get all the patients in the cohort
+--> EXECUTE query-cancer-cohort-matching.sql
+-- OUTPUTS: #Patients, #Patients2
 
-
-
-
+--> EXECUTE query-classify-secondary-admissions.sql
+-- OUTPUT: #AdmissionTypes (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, AdmissionType)
 
 --> EXECUTE query-get-admissions-and-length-of-stay.sql
--- OUTPUT: Two temp table as follows:
--- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
+-- OUTPUT: 
 -- #LengthOfStay (FK_Patient_Link_ID, AdmissionDate, DischargeDate, LengthOfStay)
+-- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
+
+--> EXECUTE query-admissions-covid-utilisation.sql
+-- OUTPUT: #COVIDUtilisationAdmissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
+
+SELECT 
+    c.FK_Patient_Link_ID AS PatientId,
+    c.AdmissionDate,
+    a.AdmissionType,
+    l.DischargeDate,
+    l.LengthOfStay
+FROM #COVIDUtilisationAdmissions c
+LEFT OUTER JOIN #AdmissionTypes a ON a.FK_Patient_Link_ID = c.FK_Patient_Link_ID AND a.AdmissionDate = c.AdmissionDate 
+LEFT OUTER JOIN #LengthOfStay l ON l.FK_Patient_Link_ID = c.FK_Patient_Link_ID AND l.AdmissionDate = c.AdmissionDate 
+WHERE c.CovidHealthcareUtilisation = 'TRUE';
 
 
 
 
 
 
--- For each patient find the first hospital admission following their positive covid test
--- IF OBJECT_ID('tempdb..#PatientsFirstAdmissionPostTest') IS NOT NULL DROP TABLE #PatientsFirstAdmissionPostTest;
--- SELECT l.FK_Patient_Link_ID, MAX(l.AdmissionDate) AS FirstAdmissionPostCOVIDTest, MAX(LengthOfStay) AS LengthOfStay
--- INTO #PatientsFirstAdmissionPostTest
--- FROM #LengthOfStay l
--- INNER JOIN (
---   SELECT p.FK_Patient_Link_ID, MIN(AdmissionDate) AS FirstAdmission
---   FROM #PatientIdsAndIndexDates p
---   LEFT OUTER JOIN #LengthOfStay los
---     ON los.FK_Patient_Link_ID = p.FK_Patient_Link_ID
---     AND los.AdmissionDate >= p.IndexDate
---   GROUP BY p.FK_Patient_Link_ID
--- ) sub ON sub.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND sub.FirstAdmission = l.AdmissionDate
--- GROUP BY l.FK_Patient_Link_ID;

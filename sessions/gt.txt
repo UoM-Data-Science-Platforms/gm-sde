@@ -212,3 +212,9 @@ Attempted to find the location of information related to project no.1 (Grant), i
 
 29/06/21
 - adding sample of depression patients to cohort
+
+30/06/21
+- finding cohort of patients that have been prescribed lithium to validate bipolar cohort
+
+06/07/21
+- checkig all RQ028 scripts are ready for extraction

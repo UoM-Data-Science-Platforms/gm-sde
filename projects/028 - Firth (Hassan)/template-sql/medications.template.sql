@@ -47,7 +47,7 @@ WHERE SuppliedCode IN
 	AND (gp.EventDate) <= '2020-01-31'
 --655,657
 
--- take a 10 percent sample of depression patients, to add to SMI cohort later on
+-- take a 10 percent sample of depression patients (as requested by PI), to add to SMI cohort later on
 IF OBJECT_ID('tempdb..#depression_cohort_sample') IS NOT NULL DROP TABLE #depression_cohort_sample;
 SELECT TOP 10 PERCENT *
 INTO #depression_cohort_sample

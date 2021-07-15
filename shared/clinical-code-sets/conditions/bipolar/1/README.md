@@ -8,6 +8,6 @@ By examining the prevalence of codes (number of patients with the code in their 
 2021-06-01   |	TPP		210985	          504 (0.24%)  |   504 (0.24%)	   |
 2021-06-01   |	Vision		335010	         1201 (0.39%)  |  1165 (0.39%)	   |
 
-0.54
-0.28
-0.48
+2021-06-30 EMIS   0.54%
+2021-06-30 TPP 	  0.28%
+2021-06-30 Vision 0.48%

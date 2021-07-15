@@ -16,17 +16,17 @@
 -- Index date is: 1st February 2020
 
 
--- INPUT: Assumes there exists a temp table as follows:
--- #Patients (FK_Patient_Link_ID)
---  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+-- INPUT: Assumes that @StartDate has already been defined 
 
--- OUTPUT: A temp table as follows:
+-- OUTPUT: A temp table as follows: 
 -- #Patients2
 --  - FK_Patient_Link_ID
 --  - YearOfBirth
 --  - Sex
 --  - HasCancer
 --  - NumberOfMatches
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 
 --> CODESET cancer:1
 
@@ -52,8 +52,11 @@ IF OBJECT_ID('tempdb..#CancerPatients') IS NOT NULL DROP TABLE #CancerPatients;
 Select *
 INTO #CancerPatients
 From #AllCancerPatients
-WHERE FirstDiagnosisDate BETWEEN '2015-02-01' AND @IndexDate;
+WHERE FirstDiagnosisDate BETWEEN '2015-02-01' AND @StartDate;
 -- 61.720 patients with a first cancer diagnosis in the last 5 years.
+
+
+--> CODESET cancer:2
 
 -- Get patients with the first date with a secondary cancer diagnosis of patients 
 IF OBJECT_ID('tempdb..#AllSecondaryCancerPatients') IS NOT NULL DROP TABLE #AllSecondaryCancerPatients;
@@ -81,8 +84,8 @@ IF OBJECT_ID('tempdb..#SecondaryCancerPatients') IS NOT NULL DROP TABLE #Seconda
 Select *
 INTO #SecondaryCancerPatients
 From #AllSecondaryCancerPatients
-WHERE FirstDiagnosisDate BETWEEN '2015-02-01' AND @IndexDate;
--- 3.820
+WHERE FirstDiagnosisDate BETWEEN '2015-02-01' AND @StartDate;
+-- 3.820 rows
 
 -- Get unique patients with a first cancer diagnosis or a secondary diagnosis within the time period 1st Feb 2015 - 1st Feb 2020
 -- `UNION` will exclude duplicates
@@ -136,11 +139,10 @@ LEFT OUTER JOIN [RLS].[vw_Patient_Link] pl ON pl.PK_Patient_Link_ID = acc.FK_Pat
 WHERE  
   (pl.DeathDate is null and pl.Deceased = 'N') 
   OR
-  (pl.DeathDate is not null and (pl.DeathDate >= @IndexDate));
+  (pl.DeathDate is not null and (pl.DeathDate >= @StartDate));
 
--- 56.344 
--- (55.530) adult, alive patients with a first cancer diagnosis in the 5-year period
--- (165.623) adult cancer patients alive on index date
+-- 56.344 adult, alive patients with a first cancer diagnosis in the 5-year period
+
 
 
 -- Define the population of potential matches for the cohort
@@ -154,9 +156,9 @@ LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = pl.PK_Patien
 WHERE  
   (pl.DeathDate is null and pl.Deceased = 'N') 
   OR
-  (pl.DeathDate is not null and (pl.DeathDate >= @IndexDate));
--- 5.342.653
--- (5.332.329)
+  (pl.DeathDate is not null and (pl.DeathDate >= @StartDate));
+-- 5.342.653 rows
+
 
 -- Get patients with no current or history of cancer diagnosis (in GP records).
 IF OBJECT_ID('tempdb..#PotentialMatches') IS NOT NULL DROP TABLE #PotentialMatches;
@@ -166,8 +168,8 @@ FROM #PatientsAliveIndex pa
 LEFT OUTER JOIN #AllCancerPatients AS cp 
   ON pa.FK_Patient_Link_ID = cp.FK_Patient_Link_ID
 WHERE cp.FK_Patient_Link_ID IS NULL;
--- 5.174.028
--- (5.163.938) alive non-cancer patients
+-- 5.174.028 rows
+
 
 
 --> EXECUTE query-cohort-matching-yob-sex-alt.sql yob-flex:0 num-matches:5
@@ -208,6 +210,12 @@ SELECT
 INTO #Patients2
 FROM #AllPatientCohortIds
 GROUP BY FK_Patient_Link_ID, YearOfBirth, Sex, HasCancer;
+-- 338.010 distinct patients, running time: 19min, as of 4th July.
 -- 338.034 distinct patients, running time: 28min, all cancer patients have 5 matches each, cancer cohort = 56.339, as of 23rd June 
 -- 338.064 distinct patients, all cancer patients have 5 matches each, as of 9th June 
 
+-- Remove all rows from the patients table to add only the patients from the study cohort. 
+TRUNCATE TABLE #Patients;
+
+Insert into #Patients
+SELECT FK_Patient_Link_ID From #Patients2

@@ -18,6 +18,7 @@
 -- #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
 -- 	- FK_Patient_Link_ID - unique patient id
 --	- AdmissionDate - date of admission (YYYY-MM-DD)
+--	- AcuteProvider - Bolton, SRFT, Stockport etc..
 --	- DischargeDate - date of discharge (YYYY-MM-DD)
 --	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
 
