@@ -224,6 +224,9 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
  #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
  	- FK_Patient_Link_ID - unique patient id
 	- FirstCovidPositiveDate - earliest COVID diagnosis
+ #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- CovidPositiveDate - any COVID diagnosis
 </code></pre>
 <p><em>File</em>: <code>query-patients-with-covid.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid.sql">https://github.com/rw251/.../query-patients-with-covid.sql</a></p>
