@@ -1,3 +1,6 @@
+-- NB THIS USES THE OLD WAY OF COUNTING COVID CASES
+-- IF YOU USE THIS CHECK OUT THE query-patients-with-covid.sql REUSABLE QUERY
+
 -- Find the first positive test for each patient. Baseline assumption is that
 -- people typically only get it once (newsworthy if not). So it's far more likely
 -- to be a problem if we count patients multiple times.
