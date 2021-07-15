@@ -452,13 +452,39 @@ WHERE (
 GROUP BY FK_Patient_Link_ID;
 
 -- Then get all the positive covid test patients
-IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
-SELECT FK_Patient_Link_ID, MIN(CONVERT(DATE, [EventDate])) AS FirstCovidPositiveDate INTO #CovidPatients
+--┌─────────────────────┐
+--│ Patients with COVID │
+--└─────────────────────┘
+
+-- OBJECTIVE: To get tables of all patients with a COVID diagnosis in their record.
+
+-- INPUT: Takes one parameter
+--  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+
+-- OUTPUT: Two temp table as follows:
+-- #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- FirstCovidPositiveDate - earliest COVID diagnosis
+
+-- #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- CovidPositiveDate - any COVID diagnosis
+
+IF OBJECT_ID('tempdb..#CovidPatientsAllDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsAllDiagnoses;
+SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate INTO #CovidPatientsAllDiagnoses
 FROM [RLS].[vw_COVID19]
-WHERE GroupDescription = 'Confirmed'
-AND EventDate > @StartDate
-AND EventDate <= GETDATE()
+WHERE (
+	(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+)
+AND EventDate > '2020-01-01'
+AND EventDate <= GETDATE();
+
+IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
+SELECT FK_Patient_Link_ID, MIN(CovidPositiveDate) AS FirstCovidPositiveDate INTO #CovidPatients
+FROM #CovidPatientsAllDiagnoses
 GROUP BY FK_Patient_Link_ID;
+
 
 -- Define #Patients temp table for getting future things like age/sex etc.
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
@@ -778,7 +804,7 @@ HAVING MIN(Sex) = MAX(Sex);
 -- OUTPUT: A temp table as follows:
 -- #PatientLSOA (FK_Patient_Link_ID, LSOA)
 -- 	- FK_Patient_Link_ID - unique patient id
---	- LSOA - nationally recognised LSOA identifier
+--	- LSOA_Code - nationally recognised LSOA identifier
 
 -- ASSUMPTIONS:
 --	- Patient data is obtained from multiple sources. Where patients have multiple LSOAs we determine the LSOA as follows:
@@ -1921,6 +1947,7 @@ SELECT MatchingPatientId, MatchingCovidPositiveDate FROM #CohortStore;
 -- #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
 -- 	- FK_Patient_Link_ID - unique patient id
 --	- AdmissionDate - date of admission (YYYY-MM-DD)
+--	- AcuteProvider - Bolton, SRFT, Stockport etc..
 --	- DischargeDate - date of discharge (YYYY-MM-DD)
 --	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
 

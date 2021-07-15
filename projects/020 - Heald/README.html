@@ -132,6 +132,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>Sex</li>
 <li>Year of birth</li>
 <li>Smoking status</li>
+<li>Patients with COVID</li>
 </ul>
 <p>Further details for each query can be found below.</p>
 <h3>Patient GP history</h3>
@@ -172,6 +173,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
  #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
  	- FK_Patient_Link_ID - unique patient id
 	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
 	- DischargeDate - date of discharge (YYYY-MM-DD)
 	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
 </code></pre>
@@ -264,7 +266,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <pre><code>A temp table as follows:
  #PatientLSOA (FK_Patient_Link_ID, LSOA)
  	- FK_Patient_Link_ID - unique patient id
-	- LSOA - nationally recognised LSOA identifier
+	- LSOA_Code - nationally recognised LSOA identifier
 </code></pre>
 <p><em>File</em>: <code>query-patient-lsoa.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-lsoa.sql">https://github.com/rw251/.../query-patient-lsoa.sql</a></p>
@@ -339,6 +341,21 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </code></pre>
 <p><em>File</em>: <code>query-patient-smoking-status.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-smoking-status.sql">https://github.com/rw251/.../query-patient-smoking-status.sql</a></p>
+<hr>
+<h3>Patients with COVID</h3>
+<p>To get tables of all patients with a COVID diagnosis in their record.</p>
+<p><em>Input</em></p>
+<pre><code>Takes one parameter
+  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>Two temp table as follows:
+ #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- FirstCovidPositiveDate - earliest COVID diagnosis
+</code></pre>
+<p><em>File</em>: <code>query-patients-with-covid.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid.sql">https://github.com/rw251/.../query-patients-with-covid.sql</a></p>
 <h2>Clinical code sets</h2>
 <p>This project required the following clinical code sets:</p>
 <ul>

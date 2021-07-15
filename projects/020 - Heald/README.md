@@ -44,6 +44,7 @@ This project required the following reusable queries:
 - Sex
 - Year of birth
 - Smoking status
+- Patients with COVID
 
 Further details for each query can be found below.
 
@@ -95,6 +96,7 @@ Two temp table as follows:
  #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
  	- FK_Patient_Link_ID - unique patient id
 	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
 	- DischargeDate - date of discharge (YYYY-MM-DD)
 	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
 ```
@@ -211,7 +213,7 @@ _Output_
 A temp table as follows:
  #PatientLSOA (FK_Patient_Link_ID, LSOA)
  	- FK_Patient_Link_ID - unique patient id
-	- LSOA - nationally recognised LSOA identifier
+	- LSOA_Code - nationally recognised LSOA identifier
 ```
 _File_: `query-patient-lsoa.sql`
 
@@ -305,6 +307,27 @@ A temp table as follows:
 _File_: `query-patient-smoking-status.sql`
 
 _Link_: [https://github.com/rw251/.../query-patient-smoking-status.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-smoking-status.sql)
+
+---
+### Patients with COVID
+To get tables of all patients with a COVID diagnosis in their record.
+
+_Input_
+```
+Takes one parameter
+  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+```
+
+_Output_
+```
+Two temp table as follows:
+ #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- FirstCovidPositiveDate - earliest COVID diagnosis
+```
+_File_: `query-patients-with-covid.sql`
+
+_Link_: [https://github.com/rw251/.../query-patients-with-covid.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid.sql)
 ## Clinical code sets
 
 This project required the following clinical code sets:
