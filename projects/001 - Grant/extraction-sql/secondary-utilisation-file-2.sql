@@ -1091,7 +1091,9 @@ ORDER BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider;
 --						A COVID-related admission is classed as an admission within 4 weeks after, or up to 2 weeks before
 --						a positive test.
 
--- INPUT: Assumes there exists two temp tables as follows:
+-- INPUT: Takes one parameter
+--  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+-- And assumes there exists two temp tables as follows:
 -- #Patients (FK_Patient_Link_ID)
 --  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 -- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
@@ -1105,11 +1107,37 @@ ORDER BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider;
 --	- CovidHealthcareUtilisation - 'TRUE' if admission within 4 weeks after, or up to 14 days before, a positive test
 
 -- Get first positive covid test for each patient
-IF OBJECT_ID('tempdb..#CovidCases') IS NOT NULL DROP TABLE #CovidCases;
-SELECT FK_Patient_Link_ID, MIN(CONVERT(DATE, [EventDate])) AS CovidPositiveDate INTO #CovidCases
+--┌─────────────────────┐
+--│ Patients with COVID │
+--└─────────────────────┘
+
+-- OBJECTIVE: To get tables of all patients with a COVID diagnosis in their record.
+
+-- INPUT: Takes one parameter
+--  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+
+-- OUTPUT: Two temp table as follows:
+-- #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- FirstCovidPositiveDate - earliest COVID diagnosis
+
+-- #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- CovidPositiveDate - any COVID diagnosis
+
+IF OBJECT_ID('tempdb..#CovidPatientsAllDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsAllDiagnoses;
+SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate INTO #CovidPatientsAllDiagnoses
 FROM [RLS].[vw_COVID19]
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND GroupDescription = 'Confirmed'
+WHERE (
+	(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+)
+AND EventDate > '2019-12-23'
+AND EventDate <= GETDATE();
+
+IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
+SELECT FK_Patient_Link_ID, MIN(CovidPositiveDate) AS FirstCovidPositiveDate INTO #CovidPatients
+FROM #CovidPatientsAllDiagnoses
 GROUP BY FK_Patient_Link_ID;
 
 
@@ -1122,10 +1150,10 @@ SELECT
 	END AS CovidHealthcareUtilisation
 INTO #COVIDUtilisationAdmissions 
 FROM #Admissions a
-LEFT OUTER join #CovidCases c ON 
+LEFT OUTER join #CovidPatients c ON 
 	a.FK_Patient_Link_ID = c.FK_Patient_Link_ID 
-	AND a.AdmissionDate <= DATEADD(WEEK, 4, c.CovidPositiveDate)
-	AND a.AdmissionDate >= DATEADD(DAY, -14, c.CovidPositiveDate);
+	AND a.AdmissionDate <= DATEADD(WEEK, 4, c.FirstCovidPositiveDate)
+	AND a.AdmissionDate >= DATEADD(DAY, -14, c.FirstCovidPositiveDate);
 
 --┌───────────────────────────────────────┐
 --│ GET practice and ccg for each patient │

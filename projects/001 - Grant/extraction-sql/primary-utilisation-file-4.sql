@@ -1009,7 +1009,9 @@ HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1Is
 --						"COVID" if the date of the event is within 4 weeks after, or up to 14 days 
 --						before, a positive COVID test.
 
--- INPUT: Assumes there exists two temp tables as follows:
+-- INPUT: Takes one parameter
+--  - start-date: string - (YYYY-MM-DD) the date to count COVID diagnoses from. Usually this should be 2020-01-01.
+-- And assumes there exists two temp tables as follows:
 -- #Patients (FK_Patient_Link_ID)
 --  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 -- #PatientDates (FK_Patient_Link_ID, EventDate)
@@ -1023,27 +1025,56 @@ HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1Is
 --	- EventDate - date of the event to classify as COVID/non-COVID
 --	- CovidHealthcareUtilisation - 'TRUE' if event within 4 weeks after, or up to 14 days before, a positive test
 
--- Get first positive covid test for each patient
-IF OBJECT_ID('tempdb..#CovidCases') IS NOT NULL DROP TABLE #CovidCases;
-SELECT FK_Patient_Link_ID, MIN(CONVERT(DATE, [EventDate])) AS CovidPositiveDate INTO #CovidCases
+-- Get positive covid test dates for each patient
+--┌─────────────────────┐
+--│ Patients with COVID │
+--└─────────────────────┘
+
+-- OBJECTIVE: To get tables of all patients with a COVID diagnosis in their record.
+
+-- INPUT: Takes one parameter
+--  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+
+-- OUTPUT: Two temp table as follows:
+-- #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- FirstCovidPositiveDate - earliest COVID diagnosis
+
+-- #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- CovidPositiveDate - any COVID diagnosis
+
+IF OBJECT_ID('tempdb..#CovidPatientsAllDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsAllDiagnoses;
+SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate INTO #CovidPatientsAllDiagnoses
 FROM [RLS].[vw_COVID19]
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND GroupDescription = 'Confirmed'
+WHERE (
+	(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+)
+AND EventDate > '2019-12-23'
+AND EventDate <= GETDATE();
+
+IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
+SELECT FK_Patient_Link_ID, MIN(CovidPositiveDate) AS FirstCovidPositiveDate INTO #CovidPatients
+FROM #CovidPatientsAllDiagnoses
 GROUP BY FK_Patient_Link_ID;
+
 
 IF OBJECT_ID('tempdb..#COVIDUtilisationPrimaryCare') IS NOT NULL DROP TABLE #COVIDUtilisationPrimaryCare;
 SELECT 
-	pd.*, 
-	CASE
-		WHEN c.FK_Patient_Link_ID IS NOT NULL THEN 'TRUE'
-		ELSE 'FALSE'
-	END AS CovidHealthcareUtilisation
+	pd.FK_Patient_Link_ID,
+	pd.EventDate,
+	CASE WHEN MAX(CASE
+		WHEN c.FK_Patient_Link_ID IS NOT NULL THEN 1
+		ELSE 0
+	END) = 1 THEN 'TRUE' ELSE 'FALSE' END AS CovidHealthcareUtilisation
 INTO #COVIDUtilisationPrimaryCare 
 FROM #PatientDates pd
-LEFT OUTER join #CovidCases c ON 
+LEFT OUTER join #CovidPatientsAllDiagnoses c ON 
 	pd.FK_Patient_Link_ID = c.FK_Patient_Link_ID 
 	AND pd.EventDate <= DATEADD(WEEK, 4, c.CovidPositiveDate)
-	AND pd.EventDate >= DATEADD(DAY, -14, c.CovidPositiveDate);
+	AND pd.EventDate >= DATEADD(DAY, -14, c.CovidPositiveDate)
+GROUP BY pd.FK_Patient_Link_ID,	pd.EventDate;
 
 --┌───────────────────────────────────────┐
 --│ GET practice and ccg for each patient │
