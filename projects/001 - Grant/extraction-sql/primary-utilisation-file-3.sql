@@ -1028,7 +1028,6 @@ HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1Is
 -- #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
 -- 	- FK_Patient_Link_ID - unique patient id
 --	- FirstCovidPositiveDate - earliest COVID diagnosis
-
 -- #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
 -- 	- FK_Patient_Link_ID - unique patient id
 --	- CovidPositiveDate - any COVID diagnosis
