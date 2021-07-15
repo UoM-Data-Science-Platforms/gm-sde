@@ -384,6 +384,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>copd v1</li>
 <li>asthma v1</li>
 <li>severe-mental-illness v1</li>
+<li>hypertension v1</li>
 <li>metformin v1</li>
 <li>ace-inhibitor v1</li>
 <li>aspirin v1</li>
@@ -1054,6 +1055,46 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </tbody>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/severe-mental-illness/1">https://github.com/rw251/.../conditions/severe-mental-illness/1</a></p>
+<h3>Hypertension</h3>
+<p>Any diagnosis of hypertension. Excludes hypertension in pregnancy, gestational hyptertension, pre-eclampsia. Based on the QOF code sets for hypertension.</p>
+<p>Developed from https://getset.ga.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>12.55% - 12.95%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-07-14</td>
+<td>EMIS</td>
+<td>2615750</td>
+<td style="text-align:right">328350 (12.55%)</td>
+<td style="text-align:right">328339 ( 12.55%)</td>
+</tr>
+<tr>
+<td>2021-07-14</td>
+<td>TPP</td>
+<td>211345</td>
+<td style="text-align:right">27363 (12.95%)</td>
+<td style="text-align:right">27362 ( 12.95%)</td>
+</tr>
+<tr>
+<td>2021-07-14</td>
+<td>Vision</td>
+<td>336528</td>
+<td style="text-align:right">43389 (12.89%)</td>
+<td style="text-align:right">43389 ( 12.89%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/hypertension/1">https://github.com/rw251/.../conditions/hypertension/1</a></p>
 <h3>Metformin</h3>
 <p>This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.</p>
 <h4>Prevalence log</h4>
@@ -18033,6 +18074,456 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td>snomed</td>
 <td>191563001</td>
 <td>Acute exacerbation of subchronic latent schizophrenia (disorder)</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>G24..</td>
+<td>Secondary hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>G240.</td>
+<td>Malignant secondary hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>G241.</td>
+<td>Secondary benign hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>G244.</td>
+<td>Hypertension secondary to endocrine disorders</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>G24z.</td>
+<td>Secondary hypertension NOS</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>Gyu20</td>
+<td>[X]Other secondary hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>Gyu21</td>
+<td>[X]Hypertension secondary to other renal disorders</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>Xa0kX</td>
+<td>Hypertension due to renovascular disease</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>XE0Ub</td>
+<td>Systemic arterial hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>G2400</td>
+<td>Secondary malignant renovascular hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>G240z</td>
+<td>Secondary malignant hypertension NOS</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>G2410</td>
+<td>Secondary benign renovascular hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>G241z</td>
+<td>Secondary benign hypertension NOS</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>G24z0</td>
+<td>Secondary renovascular hypertension NOS</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>G20..</td>
+<td>Primary hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>G202.</td>
+<td>Systolic hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>G20z.</td>
+<td>Essential hypertension NOS</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>XE0Uc</td>
+<td>Primary hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>XE0W8</td>
+<td>Hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>XSDSb</td>
+<td>Diastolic hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>Xa0Cs</td>
+<td>Labile hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>Xa3fQ</td>
+<td>Malignant hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>XaZWm</td>
+<td>Stage 1 hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>XaZWn</td>
+<td>Severe hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>XaZbz</td>
+<td>Stage 2 hypertension (NICE - National Institute for Health and Clinical Excellence 2011)</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>XaZzo</td>
+<td>Nocturnal hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>G2...</td>
+<td>Hypertensive disease</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>G200.</td>
+<td>Malignant essential hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>G201.</td>
+<td>Benign essential hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>XE0Ud</td>
+<td>Essential hypertension NOS</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>Xa41E</td>
+<td>Maternal hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>Xab9L</td>
+<td>Stage 1 hypertension (NICE 2011) without evidence of end organ damage</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>Xab9M</td>
+<td>Stage 1 hypertension (NICE 2011) with evidence of end organ damage</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>G2y..</td>
+<td>Other specified hypertensive disease</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>G2z..</td>
+<td>Hypertensive disease NOS</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>Gyu2.</td>
+<td>[X]Hypertensive diseases</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>XM19D</td>
+<td>[EDTA] Renal vascular disease due to hypertension (no primary renal disease) associated with renal failure</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>ctv3</td>
+<td>XM19E</td>
+<td>[EDTA] Renal vascular disease due to malignant hypertension (no primary renal disease) associated with renal failure</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>emis</td>
+<td>EMISNQST25</td>
+<td>Stage 2 hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>emis</td>
+<td>^ESCTMA364280</td>
+<td>Malignant hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>emis</td>
+<td>EMISNQST25</td>
+<td>Stage 2 hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G2...11</td>
+<td>BP - hypertensive disease</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G2...00</td>
+<td>Hypertensive disease</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G2z..00</td>
+<td>Hypertensive disease NOS</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G2y..00</td>
+<td>Other specified hypertensive disease</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G28..00</td>
+<td>Stage 2 hypertension (NICE - National Institute for Health and Clinical Excellence 2011)</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G26..00</td>
+<td>Severe hypertension (NICE - National Institute for Health and Clinical Excellence 2011)</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G26..11</td>
+<td>Severe hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G25..00</td>
+<td>Stage 1 hypertension (NICE - National Institute for Health and Clinical Excellence 2011)</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G25..11</td>
+<td>Stage 1 hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G251.00</td>
+<td>Stage 1 hypertension (NICE 2011) with evidence of end organ damage</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G250.00</td>
+<td>Stage 1 hypertension (NICE 2011) without evidence of end organ damage</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G24..00</td>
+<td>Secondary hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G24z.00</td>
+<td>Secondary hypertension NOS</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G24zz00</td>
+<td>Secondary hypertension NOS</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G24z000</td>
+<td>Secondary renovascular hypertension NOS</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G244.00</td>
+<td>Hypertension secondary to endocrine disorders</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G241.00</td>
+<td>Secondary benign hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G241z00</td>
+<td>Secondary benign hypertension NOS</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G241000</td>
+<td>Secondary benign renovascular hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G240.00</td>
+<td>Secondary malignant hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G240z00</td>
+<td>Secondary malignant hypertension NOS</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G240000</td>
+<td>Secondary malignant renovascular hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G20..11</td>
+<td>High blood pressure</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G20..00</td>
+<td>Essential hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G20..12</td>
+<td>Primary hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G20z.00</td>
+<td>Essential hypertension NOS</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G20z.11</td>
+<td>Hypertension NOS</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G203.00</td>
+<td>Diastolic hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G202.00</td>
+<td>Systolic hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G201.00</td>
+<td>Benign essential hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>G200.00</td>
+<td>Malignant essential hypertension</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>Gyu2.00</td>
+<td>[X]Hypertensive diseases</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>Gyu2100</td>
+<td>[X]Hypertension secondary to other renal disorders</td>
+</tr>
+<tr>
+<td>hypertension v1</td>
+<td>readv2</td>
+<td>Gyu2000</td>
+<td>[X]Other secondary hypertension</td>
 </tr>
 <tr>
 <td>metformin v1</td>

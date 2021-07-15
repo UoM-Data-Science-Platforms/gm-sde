@@ -357,6 +357,7 @@ This project required the following clinical code sets:
 - copd v1
 - asthma v1
 - severe-mental-illness v1
+- hypertension v1
 - metformin v1
 - ace-inhibitor v1
 - aspirin v1
@@ -659,6 +660,23 @@ The discrepancy between the patients counted when using the IDs vs using the cli
 | 2021-03-11 | Vision          | 333251     |     6770 (2.03%) |      5338 (1.60%) |
 
 LINK: [https://github.com/rw251/.../conditions/severe-mental-illness/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/severe-mental-illness/1)
+
+### Hypertension
+
+Any diagnosis of hypertension. Excludes hypertension in pregnancy, gestational hyptertension, pre-eclampsia. Based on the QOF code sets for hypertension.
+
+Developed from https://getset.ga.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `12.55% - 12.95%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-07-14 | EMIS            | 2615750    |  328350 (12.55%) |  328339 ( 12.55%) |
+| 2021-07-14 | TPP             | 211345     |   27363 (12.95%) |   27362 ( 12.95%) |
+| 2021-07-14 | Vision          | 336528     |   43389 (12.89%) |   43389 ( 12.89%) |
+
+LINK: [https://github.com/rw251/.../conditions/hypertension/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/hypertension/1)
 
 ### Metformin
 
@@ -3527,6 +3545,81 @@ All code sets required for this analysis are listed here. Individual lists for e
 |severe-mental-illness v1|snomed|35218008|Chronic disorganized schizophrenia with acute exacerbations (disorder)|
 |severe-mental-illness v1|snomed|79204003|Chronic undifferentiated schizophrenia with acute exacerbations (disorder)|
 |severe-mental-illness v1|snomed|191563001|Acute exacerbation of subchronic latent schizophrenia (disorder)|
+|hypertension v1|ctv3|G24..|Secondary hypertension|
+|hypertension v1|ctv3|G240.|Malignant secondary hypertension|
+|hypertension v1|ctv3|G241.|Secondary benign hypertension|
+|hypertension v1|ctv3|G244.|Hypertension secondary to endocrine disorders|
+|hypertension v1|ctv3|G24z.|Secondary hypertension NOS|
+|hypertension v1|ctv3|Gyu20|[X]Other secondary hypertension|
+|hypertension v1|ctv3|Gyu21|[X]Hypertension secondary to other renal disorders|
+|hypertension v1|ctv3|Xa0kX|Hypertension due to renovascular disease|
+|hypertension v1|ctv3|XE0Ub|Systemic arterial hypertension|
+|hypertension v1|ctv3|G2400|Secondary malignant renovascular hypertension|
+|hypertension v1|ctv3|G240z|Secondary malignant hypertension NOS|
+|hypertension v1|ctv3|G2410|Secondary benign renovascular hypertension|
+|hypertension v1|ctv3|G241z|Secondary benign hypertension NOS|
+|hypertension v1|ctv3|G24z0|Secondary renovascular hypertension NOS|
+|hypertension v1|ctv3|G20..|Primary hypertension|
+|hypertension v1|ctv3|G202.|Systolic hypertension|
+|hypertension v1|ctv3|G20z.|Essential hypertension NOS|
+|hypertension v1|ctv3|XE0Uc|Primary hypertension|
+|hypertension v1|ctv3|XE0W8|Hypertension|
+|hypertension v1|ctv3|XSDSb|Diastolic hypertension|
+|hypertension v1|ctv3|Xa0Cs|Labile hypertension|
+|hypertension v1|ctv3|Xa3fQ|Malignant hypertension|
+|hypertension v1|ctv3|XaZWm|Stage 1 hypertension|
+|hypertension v1|ctv3|XaZWn|Severe hypertension|
+|hypertension v1|ctv3|XaZbz|Stage 2 hypertension (NICE - National Institute for Health and Clinical Excellence 2011)|
+|hypertension v1|ctv3|XaZzo|Nocturnal hypertension|
+|hypertension v1|ctv3|G2...|Hypertensive disease|
+|hypertension v1|ctv3|G200.|Malignant essential hypertension|
+|hypertension v1|ctv3|G201.|Benign essential hypertension|
+|hypertension v1|ctv3|XE0Ud|Essential hypertension NOS|
+|hypertension v1|ctv3|Xa41E|Maternal hypertension|
+|hypertension v1|ctv3|Xab9L|Stage 1 hypertension (NICE 2011) without evidence of end organ damage|
+|hypertension v1|ctv3|Xab9M|Stage 1 hypertension (NICE 2011) with evidence of end organ damage|
+|hypertension v1|ctv3|G2y..|Other specified hypertensive disease|
+|hypertension v1|ctv3|G2z..|Hypertensive disease NOS|
+|hypertension v1|ctv3|Gyu2.|[X]Hypertensive diseases|
+|hypertension v1|ctv3|XM19D|[EDTA] Renal vascular disease due to hypertension (no primary renal disease) associated with renal failure|
+|hypertension v1|ctv3|XM19E|[EDTA] Renal vascular disease due to malignant hypertension (no primary renal disease) associated with renal failure|
+|hypertension v1|emis|EMISNQST25|Stage 2 hypertension|
+|hypertension v1|emis|^ESCTMA364280|Malignant hypertension|
+|hypertension v1|emis|EMISNQST25|Stage 2 hypertension|
+|hypertension v1|readv2|G2...11|BP - hypertensive disease|
+|hypertension v1|readv2|G2...00|Hypertensive disease|
+|hypertension v1|readv2|G2z..00|Hypertensive disease NOS|
+|hypertension v1|readv2|G2y..00|Other specified hypertensive disease|
+|hypertension v1|readv2|G28..00|Stage 2 hypertension (NICE - National Institute for Health and Clinical Excellence 2011)|
+|hypertension v1|readv2|G26..00|Severe hypertension (NICE - National Institute for Health and Clinical Excellence 2011)|
+|hypertension v1|readv2|G26..11|Severe hypertension|
+|hypertension v1|readv2|G25..00|Stage 1 hypertension (NICE - National Institute for Health and Clinical Excellence 2011)|
+|hypertension v1|readv2|G25..11|Stage 1 hypertension|
+|hypertension v1|readv2|G251.00|Stage 1 hypertension (NICE 2011) with evidence of end organ damage|
+|hypertension v1|readv2|G250.00|Stage 1 hypertension (NICE 2011) without evidence of end organ damage|
+|hypertension v1|readv2|G24..00|Secondary hypertension|
+|hypertension v1|readv2|G24z.00|Secondary hypertension NOS|
+|hypertension v1|readv2|G24zz00|Secondary hypertension NOS|
+|hypertension v1|readv2|G24z000|Secondary renovascular hypertension NOS|
+|hypertension v1|readv2|G244.00|Hypertension secondary to endocrine disorders|
+|hypertension v1|readv2|G241.00|Secondary benign hypertension|
+|hypertension v1|readv2|G241z00|Secondary benign hypertension NOS|
+|hypertension v1|readv2|G241000|Secondary benign renovascular hypertension|
+|hypertension v1|readv2|G240.00|Secondary malignant hypertension|
+|hypertension v1|readv2|G240z00|Secondary malignant hypertension NOS|
+|hypertension v1|readv2|G240000|Secondary malignant renovascular hypertension|
+|hypertension v1|readv2|G20..11|High blood pressure|
+|hypertension v1|readv2|G20..00|Essential hypertension|
+|hypertension v1|readv2|G20..12|Primary hypertension|
+|hypertension v1|readv2|G20z.00|Essential hypertension NOS|
+|hypertension v1|readv2|G20z.11|Hypertension NOS|
+|hypertension v1|readv2|G203.00|Diastolic hypertension|
+|hypertension v1|readv2|G202.00|Systolic hypertension|
+|hypertension v1|readv2|G201.00|Benign essential hypertension|
+|hypertension v1|readv2|G200.00|Malignant essential hypertension|
+|hypertension v1|readv2|Gyu2.00|[X]Hypertensive diseases|
+|hypertension v1|readv2|Gyu2100|[X]Hypertension secondary to other renal disorders|
+|hypertension v1|readv2|Gyu2000|[X]Other secondary hypertension|
 |metformin v1|ctv3|f41..|Metformin hydrochloride|
 |metformin v1|ctv3|f411.|Glucophage 500mg tablet|
 |metformin v1|ctv3|f412.|Glucophage 850mg tablet|
