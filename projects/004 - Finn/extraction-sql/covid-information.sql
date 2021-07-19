@@ -616,7 +616,6 @@ LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE 
   YearOfBirth <= (YEAR(@StartDate) - 18);
--- (179.082) adult cancer patients
 -- This includes anyone born on Jan 2002. Index date should be Feb 2002.
 
 -- Get cancer patients alive on index date
