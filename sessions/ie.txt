@@ -106,3 +106,6 @@ Find out the following total number of rows to investigate how big the chohorts 
 
 2021-07-10 11am - 21.00
 -- Run and check cancer information, hospital admissions, medications, comorbidities extract file for 004 - Finn study.
+
+2021-07-19 9.30am - 
+-- Removed #Patients2 in cohort matching query and changed all extract files to use #Patients. 
