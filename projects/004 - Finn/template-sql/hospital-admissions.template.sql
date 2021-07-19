@@ -43,6 +43,7 @@ SELECT
     l.DischargeDate,
     l.LengthOfStay
 FROM #COVIDUtilisationAdmissions c
+INNER JOIN #Patients p ON p.FK_Patient_Link_ID = c.FK_Patient_Link_ID
 LEFT OUTER JOIN #AdmissionTypes a ON a.FK_Patient_Link_ID = c.FK_Patient_Link_ID AND a.AdmissionDate = c.AdmissionDate 
 LEFT OUTER JOIN #LengthOfStay l ON l.FK_Patient_Link_ID = c.FK_Patient_Link_ID AND l.AdmissionDate = c.AdmissionDate 
 WHERE c.CovidHealthcareUtilisation = 'TRUE';
