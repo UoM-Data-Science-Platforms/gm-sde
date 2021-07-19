@@ -33,7 +33,7 @@ SET @StartDate = '2020-02-01';
 -- #LengthOfStay (FK_Patient_Link_ID, AdmissionDate, DischargeDate, LengthOfStay)
 -- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
 
---> EXECUTE query-admissions-covid-utilisation.sql start-date:@StartDate
+--> EXECUTE query-admissions-covid-utilisation.sql start-date:2020-02-01
 -- OUTPUT: #COVIDUtilisationAdmissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
 
 SELECT 

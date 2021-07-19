@@ -127,6 +127,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>Index Multiple Deprivation</li>
 <li>Lower level super output area</li>
 <li>COVID-related secondary admissions</li>
+<li>Patients with COVID</li>
 <li>Secondary admissions and length of stay</li>
 <li>Secondary discharges</li>
 <li>Classify secondary admissions</li>
@@ -200,7 +201,9 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h3>COVID-related secondary admissions</h3>
 <p>To classify every admission to secondary care based on whether it is a COVID or non-COVID related. A COVID-related admission is classed as an admission within 4 weeks after, or up to 2 weeks before a positive test.</p>
 <p><em>Input</em></p>
-<pre><code>Assumes there exists two temp tables as follows:
+<pre><code>Takes one parameter
+  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+ And assumes there exists two temp tables as follows:
  #Patients (FK_Patient_Link_ID)
   A distinct list of FK_Patient_Link_IDs for each patient in the cohort
  #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
@@ -216,6 +219,24 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </code></pre>
 <p><em>File</em>: <code>query-admissions-covid-utilisation.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-admissions-covid-utilisation.sql">https://github.com/rw251/.../query-admissions-covid-utilisation.sql</a></p>
+<hr>
+<h3>Patients with COVID</h3>
+<p>To get tables of all patients with a COVID diagnosis in their record.</p>
+<p><em>Input</em></p>
+<pre><code>Takes one parameter
+  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>Two temp table as follows:
+ #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- FirstCovidPositiveDate - earliest COVID diagnosis
+ #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- CovidPositiveDate - any COVID diagnosis
+</code></pre>
+<p><em>File</em>: <code>query-patients-with-covid.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid.sql">https://github.com/rw251/.../query-patients-with-covid.sql</a></p>
 <hr>
 <h3>Secondary admissions and length of stay</h3>
 <p>To obtain a table with every secondary care admission, along with the acute provider, the date of admission, the date of discharge, and the length of stay.</p>
@@ -304,20 +325,18 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs.sql">https://github.com/rw251/.../query-patient-ltcs.sql</a></p>
 <hr>
 <h3>Cancer cohort matching for 004-Finn</h3>
-<p>Defines the cohort (cancer and non cancer patients) that will be used for the study, based on: Main cohort (cancer patients): - Cancer diagnosis between 1st February 2015 and 1st February 2020 - &gt;= 18 year old - Alive on 1st Feb 2020 Control group (non cancer patients): -	Alive on 1st February 2020 -	no current or history of cancer diagnosis. Matching is 1:5 based on sex and year of birth with a flexible year of birth = ?? Index date is: 1st February 2020</p>
+<p>Defines the cohort (cancer and non cancer patients) that will be used for the study, based on: Main cohort (cancer patients): - Cancer diagnosis between 1st February 2015 and 1st February 2020 - &gt;= 18 year old - Alive on 1st Feb 2020 Control group (non cancer patients): -	Alive on 1st February 2020 -	no current or history of cancer diagnosis. Matching is 1:5 based on sex and year of birth with a flexible year of birth = 0 Index date is: 1st February 2020</p>
 <p><em>Input</em></p>
 <pre><code>Assumes that @StartDate has already been defined
 </code></pre>
 <p><em>Output</em></p>
 <pre><code>A temp table as follows:
- #Patients2
+ #Patients
   - FK_Patient_Link_ID
   - YearOfBirth
   - Sex
   - HasCancer
   - NumberOfMatches
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 </code></pre>
 <p><em>File</em>: <code>query-cancer-cohort-matching.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-cancer-cohort-matching.sql">https://github.com/rw251/.../query-cancer-cohort-matching.sql</a></p>

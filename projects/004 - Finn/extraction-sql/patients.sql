@@ -59,21 +59,19 @@ SET @StartDate = '2020-02-01';
 -- Control group (non cancer patients):
 --  -	Alive on 1st February 2020 
 --  -	no current or history of cancer diagnosis.
--- Matching is 1:5 based on sex and year of birth with a flexible year of birth = ??
+-- Matching is 1:5 based on sex and year of birth with a flexible year of birth = 0
 -- Index date is: 1st February 2020
 
 
 -- INPUT: Assumes that @StartDate has already been defined 
 
 -- OUTPUT: A temp table as follows: 
--- #Patients2
+-- #Patients
 --  - FK_Patient_Link_ID
 --  - YearOfBirth
 --  - Sex
 --  - HasCancer
 --  - NumberOfMatches
--- #Patients (FK_Patient_Link_ID)
---  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 
 -- >>> Codesets required... Inserting the code set code
 --
@@ -446,7 +444,7 @@ IF OBJECT_ID('tempdb..#CancerPatients') IS NOT NULL DROP TABLE #CancerPatients;
 Select *
 INTO #CancerPatients
 From #AllCancerPatients
-WHERE FirstDiagnosisDate BETWEEN '2015-02-01' AND @StartDate;
+WHERE FirstDiagnosisDate BETWEEN DATEADD(YEAR, -5, @StartDate) AND @StartDate;
 -- 61.720 patients with a first cancer diagnosis in the last 5 years.
 
 
@@ -478,7 +476,7 @@ IF OBJECT_ID('tempdb..#SecondaryCancerPatients') IS NOT NULL DROP TABLE #Seconda
 Select *
 INTO #SecondaryCancerPatients
 From #AllSecondaryCancerPatients
-WHERE FirstDiagnosisDate BETWEEN '2015-02-01' AND @StartDate;
+WHERE FirstDiagnosisDate BETWEEN DATEADD(YEAR, -5, @StartDate) AND @StartDate;
 -- 3.820 rows
 
 -- Get unique patients with a first cancer diagnosis or a secondary diagnosis within the time period 1st Feb 2015 - 1st Feb 2020
@@ -496,10 +494,24 @@ FROM #SecondaryCancerPatients;
 
 -- Define #Patients temp table to get age/sex and other demographics details.
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT PK_Patient_Link_ID AS FK_Patient_Link_ID INTO #Patients
+CREATE TABLE #Patients
+(
+  FK_Patient_Link_ID bigint,
+  YearOfBirth int,
+  Sex nchar(2), 
+  HasCancer varchar(1), 
+  NumberOfMatches int
+);
+
+INSERT INTO #Patients
+SELECT 
+  PK_Patient_Link_ID AS FK_Patient_Link_ID,
+  NULL AS YearOfBirth,
+  NULL as Sex,
+  NULL AS HasCancer,
+  NULL AS NumberOfMatches
 FROM RLS.vw_Patient_Link
 GROUP BY PK_Patient_Link_ID;
-
 
 --┌───────────────┐
 --│ Year of birth │
@@ -674,7 +686,7 @@ FROM #FirstAndSecondaryCancerPatients p
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE 
-  YearOfBirth <= 2002;
+  YearOfBirth <= (YEAR(@StartDate) - 18);
 -- (179.082) adult cancer patients
 -- This includes anyone born on Jan 2002. Index date should be Feb 2002.
 
@@ -887,14 +899,14 @@ END
 -- #CohortStore (FK_Patient_Link_ID, YearOfBirth, Sex, MatchingPatientId, MatchingYearOfBirth)
 -- 281.720 rows. running time: 2 hours.
 
--- Define a table with all the patient ids for the entire cohort (main cohort and the matched cohort)
-IF OBJECT_ID('tempdb..#AllPatientCohortIds') IS NOT NULL DROP TABLE #AllPatientCohortIds;
+-- Define a table with all the patients for the entire cohort (main cohort and the matched cohort) and add a column to indicate whether they had cancer.
+IF OBJECT_ID('tempdb..#AllPatientsCohort') IS NOT NULL DROP TABLE #AllPatientsCohort;
 SELECT 
   PatientId As FK_Patient_Link_ID, 
   YearOfBirth, 
   Sex,
   'Y' AS HasCancer
-INTO #AllPatientCohortIds 
+INTO #AllPatientsCohort 
 FROM #CohortStore
 
 UNION ALL
@@ -905,34 +917,29 @@ SELECT
   'N' AS HasCancer
 FROM #CohortStore;
 
-
+-- Remove all rows from the patients table to add only the patients from the study cohort. 
+TRUNCATE TABLE #Patients;
 
 -- Get a table with unique patients for the entire cohort 
 --   Find how many matches each cancer patient had. 
 --   This will also remove any duplicates.
-IF OBJECT_ID('tempdb..#Patients2') IS NOT NULL DROP TABLE #Patients2;
+INSERT INTO #Patients
 SELECT 
   FK_Patient_Link_ID, 
   YearOfBirth, 
   Sex, 
   HasCancer, 
   count(1) as NumberOfMatches
-INTO #Patients2
-FROM #AllPatientCohortIds
+FROM #AllPatientsCohort
 GROUP BY FK_Patient_Link_ID, YearOfBirth, Sex, HasCancer;
 -- 338.010 distinct patients, running time: 19min, as of 4th July.
 -- 338.034 distinct patients, running time: 28min, all cancer patients have 5 matches each, cancer cohort = 56.339, as of 23rd June 
 -- 338.064 distinct patients, all cancer patients have 5 matches each, as of 9th June 
 
--- Remove all rows from the patients table to add only the patients from the study cohort. 
-TRUNCATE TABLE #Patients;
-
-Insert into #Patients
-SELECT FK_Patient_Link_ID From #Patients2
--- OUTPUT: #Patients2, #Patients
+-- OUTPUT:, #Patients
 
 
--- Following query has been copied in and adjusted to extract current smoking status on index date and use #Patients2 instead of #Patients 
+-- Following query has been copied in and adjusted to extract current smoking status on index date 
 --┌────────────────┐
 --│ Smoking status │
 --└────────────────┘
@@ -963,7 +970,7 @@ SELECT
 	FK_Reference_SnomedCT_ID
 INTO #AllPatientSmokingStatusCodes
 FROM RLS.vw_GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients2)
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND (
 	FK_Reference_SnomedCT_ID IN (
 		SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets 
@@ -1369,7 +1376,7 @@ SELECT
 INTO #PatientFrailty
 FROM RLS.vw_Patient
 WHERE 
-  FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients2)
+  FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
   AND FK_Reference_Tenancy_ID = 2
 
 -- De-duped to get the highest frailty score per patient. 
@@ -1406,7 +1413,7 @@ SELECT
   cv.SecondVaccineDate,
   pl.Deceased AS DeathStatus,
   pl.DeathDate
-FROM #Patients2 p
+FROM #Patients p
 LEFT OUTER JOIN #PatientSmokingStatus sm ON sm.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
