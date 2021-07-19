@@ -26,8 +26,8 @@
 --	•	WorstSmokingStatus - (non-trivial-smoker/trivial-smoker/non-smoker)
 --	•	CurrentSmokingStatus - (non-trivial-smoker/trivial-smoker/non-smoker)
 --  •	LSOA (nationally recognised LSOA identifier)
---  •	IndicesOfDeprivation (IMD 2019: number 1 to 10 inclusive)
---  •	BMIValue ()
+--  •	IMD2019Decile1IsMostDeprived10IsLeastDeprived (IMD 2019: number 1 to 10 inclusive)
+--  •	BMIValue 
 --  •	BMILatestDate (YYYY-MM-DD) Latest date that a BMI value has been captured on or before 1 month prior to index date
 --  •	Ethnicity 
 --  •	FrailtyScore (as captured in PatientLink)
@@ -289,7 +289,7 @@ SELECT
   sm.WorstSmokingStatus,
   sm.CurrentSmokingStatus,
   lsoa.LSOA_Code AS LSOA,
-  imd.IMD2019Decile1IsMostDeprived10IsLeastDeprived As IndicesOfDeprivation,
+  imd.IMD2019Decile1IsMostDeprived10IsLeastDeprived,
   pl.EthnicCategoryDescription AS Ethnicity,
   bmi.BMIValue,
   bmi.BMILatestDate,
