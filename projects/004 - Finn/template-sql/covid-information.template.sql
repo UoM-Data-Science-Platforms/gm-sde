@@ -17,8 +17,9 @@ DECLARE @StartDate datetime;
 SET @StartDate = '2020-02-01';
 
 --> EXECUTE query-cancer-cohort-matching.sql
--- OUTPUTS: #Patients2
+-- OUTPUTS: #Patients
 
+-- > EXECUTE query-patients-with-covid.sql
 
 -- Get all patients with a positive covid test and the date they tested positive.
 -- Grain: multiple dates per patient, De-duped: Assume that a patient can have only one positive tests per day. 
@@ -31,7 +32,7 @@ FROM [RLS].[vw_COVID19]
 WHERE 
     (GroupDescription = 'Confirmed' OR (GroupDescription = 'Tested' AND SubGroupDescription = 'Positive'))
     AND EventDate > @StartDate
-    AND FK_Patient_Link_ID IN (Select FK_Patient_Link_ID from  #Patients2);
+    AND FK_Patient_Link_ID IN (Select FK_Patient_Link_ID from  #Patients);
 
 
 
@@ -49,7 +50,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE 
     SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 'high-clinical-vulnerability' AND [Version] = 1) 
     AND EventDate > @StartDate
-    AND FK_Patient_Link_ID IN (Select FK_Patient_Link_ID from  #Patients2);
+    AND FK_Patient_Link_ID IN (Select FK_Patient_Link_ID from  #Patients);
 
 IF OBJECT_ID('tempdb..#ModerateVulnerabilityPatients') IS NOT NULL DROP TABLE #ModerateVulnerabilityPatients;
 SELECT DISTINCT
@@ -60,7 +61,7 @@ FROM [RLS].[vw_GP_Events]
 WHERE 
     SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 'moderate-clinical-vulnerability' AND [Version] = 1) 
     AND EventDate > @StartDate
-    AND FK_Patient_Link_ID IN (Select FK_Patient_Link_ID from  #Patients2);
+    AND FK_Patient_Link_ID IN (Select FK_Patient_Link_ID from  #Patients);
 
 
 -- Get patient list with COVID death within 28 days of positive test

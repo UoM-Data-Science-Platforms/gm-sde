@@ -30,7 +30,6 @@ Select DISTINCT
   FK_Patient_Link_ID AS PatientId,
   CAST(EventDate AS DATE) AS DiagnosisDate,
   SuppliedCode AS CancerCode
-INTO #CancerDiagnosisHistory
 FROM RLS.vw_GP_Events
 WHERE  
   EventDate <= @StartDate AND (
@@ -40,7 +39,7 @@ WHERE
       SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('cancer') AND [Version]=1
     )
   ) AND FK_Patient_Link_ID IN (
-    SELECT FK_Patient_Link_ID FROM #Patients2 WHERE HasCancer = 'Y'
+    SELECT FK_Patient_Link_ID FROM #Patients WHERE HasCancer = 'Y'
   );
 
 

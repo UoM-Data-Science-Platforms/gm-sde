@@ -46,10 +46,10 @@ DECLARE @StartDate datetime;
 SET @StartDate = '2020-02-01';
 
 --> EXECUTE query-cancer-cohort-matching.sql
--- OUTPUT: #Patients2, #Patients
+-- OUTPUT:, #Patients
 
 
--- Following query has been copied in and adjusted to extract current smoking status on index date and use #Patients2 instead of #Patients 
+-- Following query has been copied in and adjusted to extract current smoking status on index date 
 --┌────────────────┐
 --│ Smoking status │
 --└────────────────┘
@@ -80,7 +80,7 @@ SELECT
 	FK_Reference_SnomedCT_ID
 INTO #AllPatientSmokingStatusCodes
 FROM RLS.vw_GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients2)
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND (
 	FK_Reference_SnomedCT_ID IN (
 		SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets 
@@ -263,7 +263,7 @@ SELECT
 INTO #PatientFrailty
 FROM RLS.vw_Patient
 WHERE 
-  FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients2)
+  FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
   AND FK_Reference_Tenancy_ID = 2
 
 -- De-duped to get the highest frailty score per patient. 
@@ -300,7 +300,7 @@ SELECT
   cv.SecondVaccineDate,
   pl.Deceased AS DeathStatus,
   pl.DeathDate
-FROM #Patients2 p
+FROM #Patients p
 LEFT OUTER JOIN #PatientSmokingStatus sm ON sm.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID

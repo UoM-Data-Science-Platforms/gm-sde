@@ -26,7 +26,7 @@ SET @StartDate = '2020-02-01';
 
 -- Get all the patients in the cohort
 --> EXECUTE query-cancer-cohort-matching.sql
--- OUTPUTS: #Patients, #Patients2
+-- OUTPUTS: #Patients
 
 
 SELECT 
@@ -41,6 +41,6 @@ SELECT
 	CAST(MedicationStartDate AS DATE) AS MedicationStartDate,
 	CAST(MedicationEndDate AS DATE) AS MedicationEndDate
 FROM RLS.vw_GP_Medications
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients2)
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate >= DATEADD(year, -1, @StartDate);
 

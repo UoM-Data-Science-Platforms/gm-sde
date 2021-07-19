@@ -17,7 +17,7 @@ DECLARE @StartDate datetime;
 SET @StartDate = '2020-02-01';
 
 --> EXECUTE query-cancer-cohort-matching.sql
--- OUTPUTS: #Patients, #Patients2 
+-- OUTPUTS: #Patients
 
 -- Set start date to be 1 year before study index date
 SET @StartDate = '2019-02-01';

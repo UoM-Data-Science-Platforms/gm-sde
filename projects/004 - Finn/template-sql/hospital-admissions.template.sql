@@ -23,7 +23,7 @@ SET @StartDate = '2020-02-01';
 
 -- Get all the patients in the cohort
 --> EXECUTE query-cancer-cohort-matching.sql
--- OUTPUTS: #Patients, #Patients2
+-- OUTPUTS: #Patients
 
 --> EXECUTE query-classify-secondary-admissions.sql
 -- OUTPUT: #AdmissionTypes (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, AdmissionType)
@@ -33,7 +33,7 @@ SET @StartDate = '2020-02-01';
 -- #LengthOfStay (FK_Patient_Link_ID, AdmissionDate, DischargeDate, LengthOfStay)
 -- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
 
---> EXECUTE query-admissions-covid-utilisation.sql
+--> EXECUTE query-admissions-covid-utilisation.sql start-date:@StartDate
 -- OUTPUT: #COVIDUtilisationAdmissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
 
 SELECT 
