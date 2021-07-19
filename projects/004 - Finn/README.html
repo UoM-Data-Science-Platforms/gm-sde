@@ -127,10 +127,10 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>Index Multiple Deprivation</li>
 <li>Lower level super output area</li>
 <li>COVID-related secondary admissions</li>
-<li>Patients with COVID</li>
 <li>Secondary admissions and length of stay</li>
 <li>Secondary discharges</li>
 <li>Classify secondary admissions</li>
+<li>Patients with COVID</li>
 <li>Long-term conditions</li>
 <li>Cancer cohort matching for 004-Finn</li>
 <li>Cohort matching on year of birth / sex</li>
@@ -220,24 +220,6 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p><em>File</em>: <code>query-admissions-covid-utilisation.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-admissions-covid-utilisation.sql">https://github.com/rw251/.../query-admissions-covid-utilisation.sql</a></p>
 <hr>
-<h3>Patients with COVID</h3>
-<p>To get tables of all patients with a COVID diagnosis in their record.</p>
-<p><em>Input</em></p>
-<pre><code>Takes one parameter
-  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>Two temp table as follows:
- #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
- 	- FK_Patient_Link_ID - unique patient id
-	- FirstCovidPositiveDate - earliest COVID diagnosis
- #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
- 	- FK_Patient_Link_ID - unique patient id
-	- CovidPositiveDate - any COVID diagnosis
-</code></pre>
-<p><em>File</em>: <code>query-patients-with-covid.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid.sql">https://github.com/rw251/.../query-patients-with-covid.sql</a></p>
-<hr>
 <h3>Secondary admissions and length of stay</h3>
 <p>To obtain a table with every secondary care admission, along with the acute provider, the date of admission, the date of discharge, and the length of stay.</p>
 <p><em>Input</em></p>
@@ -309,6 +291,24 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </code></pre>
 <p><em>File</em>: <code>query-classify-secondary-admissions.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-classify-secondary-admissions.sql">https://github.com/rw251/.../query-classify-secondary-admissions.sql</a></p>
+<hr>
+<h3>Patients with COVID</h3>
+<p>To get tables of all patients with a COVID diagnosis in their record.</p>
+<p><em>Input</em></p>
+<pre><code>Takes one parameter
+  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>Two temp tables as follows:
+ #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- FirstCovidPositiveDate - earliest COVID diagnosis
+ #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- CovidPositiveDate - any COVID diagnosis
+</code></pre>
+<p><em>File</em>: <code>query-patients-with-covid.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid.sql">https://github.com/rw251/.../query-patients-with-covid.sql</a></p>
 <hr>
 <h3>Long-term conditions</h3>
 <p>To get every long-term condition for each patient.</p>
@@ -434,16 +434,30 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>bmi v2</li>
 </ul>
 <p>Further details for each code set can be found below.</p>
+<h3>Cancer</h3>
 <p>Readv2 codes from code sets published by in:</p>
 <p>Zhu Y, Edwards D, Mant J, Payne RA, Kiddle S. Characteristics, service use and mortality of clusters of multimorbid patients in England: A population-based study. BMC Med [Internet]. 2020 Apr 10 [cited 2021 Apr 14];18(1):78. Available from: https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01543-8</p>
 <p>The above paper used the definition of LTCs as first determined in:</p>
 <p>Barnett K, Mercer SW, Norbury M, Watt G, Wyke S, Guthrie B. Epidemiology of multimorbidity and implications for health care, research, and medical education: A cross-sectional study. Lancet [Internet]. 2012 Jul 7 [cited 2021 Apr 14];380(9836):37–43. Available from: www.thelancet.com</p>
 <p>CTV3 and SNOMED code sets from OpenSafely.</p>
-<p>ICD10 codes have been provided and verified by the Christie team.</p>
+<p>ICD10 codes have been provided and verified by the Christie team (004).</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set, as of 19th July 2021.</p>
+<p>Concept | Version | System | Patients | PatientsWithConceptFromCode | PercentageOfPatients | PercentageOfPatientsFromCode
+cancer	1	EMIS	2615750	118723	78901	4.53877473000096	3.01638153493262
+cancer	1	TPP	211345	9607	7280	4.5456481109087	3.44460479311079
+cancer	1	Vision	336528	16642	11427	4.94520515380592	3.39555698188561</p>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/cancer/1">https://github.com/rw251/.../conditions/cancer/1</a></p>
+<h3>Secondary cancer</h3>
 <p>This set of codes is based on version 1. Vesrion 2 contains only the codes related to  secondary cancer. Retrieval has been made by the 004-Finn team.</p>
 <p>For more information on where the codes came from, see the readme.md file in folder conditions/cancer/1.</p>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/cancer/2">https://github.com/rw251/.../conditions/cancer/2</a></p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set, as of 19th July 2021.</p>
+<p>Concept | Version | System | Patients | PatientsWithConceptFromCode | PercentageOfPatients | PercentageOfPatientsFromCode
+cancer	2	EMIS	2615750	2672	2333	0.102150434865717	0.0891904807416611
+cancer	2	TPP	211345	377	367	0.178381319643237	0.173649719652701
+cancer	2	Vision	336528	268	237	0.0796367612798935	0.0704250463557267
+LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/cancer/2">https://github.com/rw251/.../conditions/cancer/2</a></p>
 <h3>At high risk of complications with COVID-19</h3>
 <p>These codes were used by system suppliers to indicate whether a patient was at high risk of complications if contracting COVID-19. EMIS practices originally used the code &quot;9d44. - Risk of exposure to communicable disease (situation)&quot; until they were able to use the SNOMED codes.</p>
 <h4>Prevalence log</h4>
