@@ -2,6 +2,9 @@
 --│ Hospital Admissions             │
 --└─────────────────────────────────┘
 
+------------ RESEARCH DATA ENGINEER CHECK ------------
+-- RICHARD WILLIAMS |	DATE: 20/07/21
+
 -- Study index date: 1st Feb 2020
 
 -- Hospital admissions for the all the cohort patients who had covid

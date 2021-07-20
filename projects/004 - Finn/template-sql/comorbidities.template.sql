@@ -2,6 +2,9 @@
 --│ Comorbidities                   │
 --└─────────────────────────────────┘
 
+------------ RESEARCH DATA ENGINEER CHECK ------------
+-- RICHARD WILLIAMS |	DATE: 20/07/21
+
 -- This file contains comorbidity information for every patient in the study cohort from 1st February 2019.
 
 -- OUTPUT: A single table with the following:

@@ -2,6 +2,8 @@
 --│ Cancer information              │
 --└─────────────────────────────────┘
 
+------------ RESEARCH DATA ENGINEER CHECK ------------
+-- RICHARD WILLIAMS |	DATE: 20/07/21
 
 -- OUTPUT: A single table with the following:
 --	PatientId

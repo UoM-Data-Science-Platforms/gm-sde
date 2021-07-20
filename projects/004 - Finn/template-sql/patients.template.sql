@@ -2,6 +2,8 @@
 --│ Patients demographics           │
 --└─────────────────────────────────┘
 
+------------ RESEARCH DATA ENGINEER CHECK ------------
+-- RICHARD WILLIAMS |	DATE: 20/07/21
 
 -- Defines the cohort (cancer and non cancer patients) that will be used for the study, based on: 
 -- Main cohort (cancer patients) includes:

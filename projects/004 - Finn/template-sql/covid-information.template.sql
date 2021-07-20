@@ -2,6 +2,9 @@
 --│ Covid information               │
 --└─────────────────────────────────┘
 
+------------ RESEARCH DATA ENGINEER CHECK ------------
+-- RICHARD WILLIAMS |	DATE: 20/07/21
+
 -- Covid information including shielding for all patients in the entire cohort. 
 
 -- OUTPUT: A single table with the following:
