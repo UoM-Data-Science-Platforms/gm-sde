@@ -1,16 +1,17 @@
+# Reccurent Depression
+
+Code set for patients diagnosed with a recurrent depressive disorder
+
+Developed from www.opencodelists.org
+
 ## Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. 
-Here is a log for this code set. The prevalence range (7.04% - 10.97%) 
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, 
+we can attempt to validate the clinical code sets and the reporting of the conditions. 
+Here is a log for this code set.
 
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-2021-05-25	EMIS		2608685		21234 (0.81%)	    227881 (8.73%)	
-2021-05-25	TPP		210985		22380 (10.61%)	     23153 (10.97%)	
-2021-05-25	Vision		335010		 5237 (1.56%)	     23597 (7.04%)	
-
-17/06
-
-5.22340449160247
-1.41671640094353
-6.67316137258757
+|    Date    | Practice system |  Population | Patients from ID | Patient from code |
+| ---------- | ----------------| ------------| ---------------- | ----------------- |
+| 2021-07-19 |	EMIS	       |  2615750    |	136201 (5.21%)  |   136142 (5.21%)  |
+| 2021-07-19 |	TPP	       |   211345    |    2973 (1.41%)  |    2958 (1.40%)   |
+| 2021-07-19 |	Vision	       |   336528    |   22413 (6.66%)  |    7994 (2.38%)   |
