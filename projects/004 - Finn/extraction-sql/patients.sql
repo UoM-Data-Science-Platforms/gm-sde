@@ -26,8 +26,8 @@
 --	•	WorstSmokingStatus - (non-trivial-smoker/trivial-smoker/non-smoker)
 --	•	CurrentSmokingStatus - (non-trivial-smoker/trivial-smoker/non-smoker)
 --  •	LSOA (nationally recognised LSOA identifier)
---  •	IndicesOfDeprivation (IMD 2019: number 1 to 10 inclusive)
---  •	BMIValue ()
+--  •	IMD2019Decile1IsMostDeprived10IsLeastDeprived (IMD 2019: number 1 to 10 inclusive)
+--  •	BMIValue 
 --  •	BMILatestDate (YYYY-MM-DD) Latest date that a BMI value has been captured on or before 1 month prior to index date
 --  •	Ethnicity 
 --  •	FrailtyScore (as captured in PatientLink)
@@ -1401,7 +1401,7 @@ SELECT
   sm.WorstSmokingStatus,
   sm.CurrentSmokingStatus,
   lsoa.LSOA_Code AS LSOA,
-  imd.IMD2019Decile1IsMostDeprived10IsLeastDeprived As IndicesOfDeprivation,
+  imd.IMD2019Decile1IsMostDeprived10IsLeastDeprived,
   pl.EthnicCategoryDescription AS Ethnicity,
   bmi.BMIValue,
   bmi.BMILatestDate,
@@ -1420,5 +1420,9 @@ LEFT OUTER JOIN #COVIDVaccinations2 cv ON cv.FK_Patient_Link_ID = p.FK_Patient_L
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLatestBMIValues bmi ON bmi.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientHighestFrailty pa ON pa.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
-
+-- 338.028 rows, 
+-- 56.338 cancer patients, 
+-- all cancer patients have 5 matches each, 
+-- running time for patient demographics: ~45min, 
+-- as of 19th July 2021.
 

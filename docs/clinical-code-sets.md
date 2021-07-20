@@ -86,7 +86,7 @@ Reports
 If you want to investigate the prevalence of the code set across each GP system (TPP, Vision, EMIS):
 
 1. Open 'concepts-per-clinical-system.template.sql'
-2. Edit line 29 by adding the name and version number of the code set/s that you are interested in. The code should then look something like:
+2. Edit line 31 by adding the name and version number of the code set/s that you are interested in. The code should then look something like:
 
 ```sql
 	--> CODESET antipsychotics:1 bipolar:1 recurrent-depressive:1

@@ -2,6 +2,9 @@
 --│ Hospital Admissions             │
 --└─────────────────────────────────┘
 
+------------ RESEARCH DATA ENGINEER CHECK ------------
+-- RICHARD WILLIAMS |	DATE: 20/07/21
+
 -- Study index date: 1st Feb 2020
 
 -- Hospital admissions for the all the cohort patients who had covid
@@ -43,6 +46,7 @@ SELECT
     l.DischargeDate,
     l.LengthOfStay
 FROM #COVIDUtilisationAdmissions c
+INNER JOIN #Patients p ON p.FK_Patient_Link_ID = c.FK_Patient_Link_ID
 LEFT OUTER JOIN #AdmissionTypes a ON a.FK_Patient_Link_ID = c.FK_Patient_Link_ID AND a.AdmissionDate = c.AdmissionDate 
 LEFT OUTER JOIN #LengthOfStay l ON l.FK_Patient_Link_ID = c.FK_Patient_Link_ID AND l.AdmissionDate = c.AdmissionDate 
 WHERE c.CovidHealthcareUtilisation = 'TRUE';

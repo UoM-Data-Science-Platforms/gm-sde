@@ -1,13 +1,3 @@
-Cohort matching
--- Extracted in a reusable file in shared folder.
--- Uses #Patients to get sex and dob
--- Outputs #Patients2 -- cant use same temp twice. 
-
-
-Patient demographics
--- Takes around 1 hour to run 
--- cohort matching is shared reusable queries. 
-
 
 Covid-information
 -- There are patients who died within28days of positive test but without having any records of a positive test in RLS.vw_COVID19. 
@@ -15,12 +5,13 @@ Covid-information
 select *
 FROM RLS.vw_COVID19 
 where 
-Not ((GroupDescription = 'Confirmed' OR (GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')))
+Not ((
+	(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+))
 and	DeathWithin28Days != 'N'
--- 20,085 rows
+-- 20,405 rows, as of 19th July 2021
 
-
--- when checking for covid positive test include both confirmed and (tested and positive)
 
 -- No of events cohort size = 1000 
 c	CovidEvent
@@ -38,14 +29,3 @@ PK_Reference_Coding_ID	Reference_Coding_ID	CreateDate	ModifDate	LoadID	Deleted	H
 666445	8BAV._00	2020-10-27 12:38:45.8700000	2021-05-18 11:50:39.6860000	698866	N	2021-05-18 11:50:39.6860000	8BAV.	ReadCodeV2	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	720006006	424792	00	Cancer care review
 
 
-
-
-Comorbidities
--- First and last diagnosis date. 
-
-
-Still TODO:
--- Check and finalise hospital admissions and medication extract files.
--- Check documentation
--- Find cancer clinical codes prvalence
--- Check for comorbidities first and last diagnosis date

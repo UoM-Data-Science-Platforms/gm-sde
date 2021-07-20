@@ -2,6 +2,9 @@
 --│ Medications                     │
 --└─────────────────────────────────┘
 
+------------ RESEARCH DATA ENGINEER CHECK ------------
+-- RICHARD WILLIAMS |	DATE: 20/07/21
+
 -- All medications for all patients in the study cohort one year before the index date.
 
 -- OUTPUT: Data with the following fields

@@ -2,6 +2,9 @@
 --│ Covid information               │
 --└─────────────────────────────────┘
 
+------------ RESEARCH DATA ENGINEER CHECK ------------
+-- RICHARD WILLIAMS |	DATE: 20/07/21
+
 -- Covid information including shielding for all patients in the entire cohort. 
 
 -- OUTPUT: A single table with the following:
@@ -19,21 +22,16 @@ SET @StartDate = '2020-02-01';
 --> EXECUTE query-cancer-cohort-matching.sql
 -- OUTPUTS: #Patients
 
--- > EXECUTE query-patients-with-covid.sql
+--> EXECUTE query-patients-with-covid.sql start-date:2020-02-01
+-- Outputs: #CovidPatientsAllDiagnoses, #CovidPatients
 
--- Get all patients with a positive covid test and the date they tested positive.
+-- Get all patients in the study cohort with a positive covid test and the date they tested positive.
 -- Grain: multiple dates per patient, De-duped: Assume that a patient can have only one positive tests per day. 
-IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
-SELECT DISTINCT
-    FK_Patient_Link_ID, 
-    CONVERT(DATE, [EventDate]) AS CovidPositiveDate 
-INTO #CovidPatients
-FROM [RLS].[vw_COVID19]
-WHERE 
-    (GroupDescription = 'Confirmed' OR (GroupDescription = 'Tested' AND SubGroupDescription = 'Positive'))
-    AND EventDate > @StartDate
-    AND FK_Patient_Link_ID IN (Select FK_Patient_Link_ID from  #Patients);
-
+IF OBJECT_ID('tempdb..#AllCohortCovidPatients') IS NOT NULL DROP TABLE #AllCohortCovidPatients;
+SELECT FK_Patient_Link_ID, CovidPositiveDate
+INTO #AllCohortCovidPatients
+FROM #CovidPatientsAllDiagnoses
+WHERE FK_Patient_Link_ID IN (Select FK_Patient_Link_ID from  #Patients);
 
 
 --> CODESET high-clinical-vulnerability:1 moderate-clinical-vulnerability:1 
@@ -72,7 +70,8 @@ SELECT DISTINCT
     DeathDate
 INTO #COVIDDeath FROM RLS.vw_COVID19
 WHERE 
-    DeathWithin28Days = 'Y';
+    DeathWithin28Days = 'Y'
+    AND FK_Patient_Link_ID IN (Select FK_Patient_Link_ID from  #Patients);
 
 
 IF OBJECT_ID('tempdb..#COVIDEvents') IS NOT NULL DROP TABLE #COVIDEvents;
@@ -99,7 +98,7 @@ SELECT
     FK_Patient_Link_ID AS PatientId,
     'Positive Test' AS CovidEvent,
     CovidPositiveDate AS CovidEventDate
-FROM #CovidPatients
+FROM #AllCohortCovidPatients
 WHERE CovidPositiveDate IS NOT NULL 
 
 UNION ALL

@@ -866,21 +866,47 @@ GROUP BY FK_Patient_Link_ID, YearOfBirth, Sex, HasCancer;
 
 -- OUTPUTS: #Patients
 
--- > EXECUTE query-patients-with-covid.sql
+--┌─────────────────────┐
+--│ Patients with COVID │
+--└─────────────────────┘
 
--- Get all patients with a positive covid test and the date they tested positive.
--- Grain: multiple dates per patient, De-duped: Assume that a patient can have only one positive tests per day. 
-IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
-SELECT DISTINCT
-    FK_Patient_Link_ID, 
-    CONVERT(DATE, [EventDate]) AS CovidPositiveDate 
-INTO #CovidPatients
+-- OBJECTIVE: To get tables of all patients with a COVID diagnosis in their record.
+
+-- INPUT: Takes one parameter
+--  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+
+-- OUTPUT: Two temp tables as follows:
+-- #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- FirstCovidPositiveDate - earliest COVID diagnosis
+-- #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- CovidPositiveDate - any COVID diagnosis
+
+IF OBJECT_ID('tempdb..#CovidPatientsAllDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsAllDiagnoses;
+SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate INTO #CovidPatientsAllDiagnoses
 FROM [RLS].[vw_COVID19]
-WHERE 
-    (GroupDescription = 'Confirmed' OR (GroupDescription = 'Tested' AND SubGroupDescription = 'Positive'))
-    AND EventDate > @StartDate
-    AND FK_Patient_Link_ID IN (Select FK_Patient_Link_ID from  #Patients);
+WHERE (
+	(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+)
+AND EventDate > '2020-02-01'
+AND EventDate <= GETDATE();
 
+IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
+SELECT FK_Patient_Link_ID, MIN(CovidPositiveDate) AS FirstCovidPositiveDate INTO #CovidPatients
+FROM #CovidPatientsAllDiagnoses
+GROUP BY FK_Patient_Link_ID;
+
+-- Outputs: #CovidPatientsAllDiagnoses, #CovidPatients
+
+-- Get all patients in the study cohort with a positive covid test and the date they tested positive.
+-- Grain: multiple dates per patient, De-duped: Assume that a patient can have only one positive tests per day. 
+IF OBJECT_ID('tempdb..#AllCohortCovidPatients') IS NOT NULL DROP TABLE #AllCohortCovidPatients;
+SELECT FK_Patient_Link_ID, CovidPositiveDate
+INTO #AllCohortCovidPatients
+FROM #CovidPatientsAllDiagnoses
+WHERE FK_Patient_Link_ID IN (Select FK_Patient_Link_ID from  #Patients);
 
 
 -- >>> Following code sets injected: high-clinical-vulnerability v1/moderate-clinical-vulnerability v1
@@ -919,7 +945,8 @@ SELECT DISTINCT
     DeathDate
 INTO #COVIDDeath FROM RLS.vw_COVID19
 WHERE 
-    DeathWithin28Days = 'Y';
+    DeathWithin28Days = 'Y'
+    AND FK_Patient_Link_ID IN (Select FK_Patient_Link_ID from  #Patients);
 
 
 IF OBJECT_ID('tempdb..#COVIDEvents') IS NOT NULL DROP TABLE #COVIDEvents;
@@ -946,7 +973,7 @@ SELECT
     FK_Patient_Link_ID AS PatientId,
     'Positive Test' AS CovidEvent,
     CovidPositiveDate AS CovidEventDate
-FROM #CovidPatients
+FROM #AllCohortCovidPatients
 WHERE CovidPositiveDate IS NOT NULL 
 
 UNION ALL
