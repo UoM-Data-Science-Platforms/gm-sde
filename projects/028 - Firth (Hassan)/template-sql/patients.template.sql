@@ -164,8 +164,7 @@ INTO #PotentialMatches
 FROM #Patients p
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-EXCEPT
-SELECT FK_Patient_Link_ID, Sex, YearOfBirth FROM #MainCohort;
+WHERE FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #MainCohort)
 -- 3,378,730
 
 --> EXECUTE query-cohort-matching-yob-sex-alt.sql yob-flex:1 num-matches:4
@@ -247,7 +246,7 @@ SELECT FK_Patient_Link_ID,
 		HO_heart_failure 				= MAX(CASE WHEN LTC = 'heart failure' then 1 else 0 end),
 		HO_hypertension 				= MAX(CASE WHEN LTC = 'hypertension' then 1 else 0 end),
 		HO_peripheral_vascular_disease  = MAX(CASE WHEN LTC = 'peripheral vascular disease' then 1 else 0 end),
-		HO_stroke_and_transient_ischaemic_attack = MAX(CASE WHEN LTC = 'stroke & transient ischaemic attack' then 1 else 0 end),
+		HO_stroke_and_transient_ischaemic_attack = MAX(CASE WHEN LTC = 'stroke and tia' then 1 else 0 end),
 		HO_diabetes 					= MAX(CASE WHEN LTC = 'diabetes' then 1 else 0 end),
 		HO_thyroid_disorders 			= MAX(CASE WHEN LTC = 'thyroid disorders' then 1 else 0 end),
 		HO_chronic_liver_disease 		= MAX(CASE WHEN LTC = 'chronic liver disease' then 1 else 0 end),
