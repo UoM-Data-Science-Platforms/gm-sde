@@ -91,7 +91,7 @@ AND (
 
 -- CREATE TABLE OF ALL ANTIPSYCHOTIC RX FOR THE SMI COHORT, WITH THE MAIN INGREDIENT AND PRESCRIPTION DATE
 
-drop table #antipsychotics_rx
+IF OBJECT_ID('tempdb..#antipsychotics_rx') IS NOT NULL DROP TABLE #antipsychotics_rx;
 SELECT 
 	PatientId = FK_Patient_Link_ID,
 	PrescriptionDate,
