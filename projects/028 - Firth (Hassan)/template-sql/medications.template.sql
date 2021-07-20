@@ -2,6 +2,9 @@
 --│ Medications │
 --└─────────────┘
 
+------------ RESEARCH DATA ENGINEER CHECK ------------
+-- RICHARD WILLIAMS |	DATE: 20/07/21
+
 -- All prescriptions of: antipsychotic medication.
 
 -- OUTPUT: Data with the following fields

@@ -2,7 +2,8 @@
 --│ Patient information for SMI cohort │
 --└────────────────────────────────────┘
 
--- REVIEW LOG:
+------------ RESEARCH DATA ENGINEER CHECK ------------
+-- RICHARD WILLIAMS |	DATE: 20/07/21
 
 -- OUTPUT: Data with the following fields
 -- Patient Id
