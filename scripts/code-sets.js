@@ -203,7 +203,8 @@ IF OBJECT_ID('tempdb..#AllCodes') IS NOT NULL DROP TABLE #AllCodes;
 CREATE TABLE #AllCodes (
   [Concept] [varchar](255) NOT NULL,
   [Version] INT NOT NULL,
-  [Code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL
+  [Code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+  [description] [varchar] (255) NULL 
 );
 
 ${['readv2', 'ctv3', 'snomed', 'emis']
@@ -257,17 +258,17 @@ ${Object.keys(clinicalCodesByTerminology[terminology])
   .join(';\n')}
 
 INSERT INTO #AllCodes
-SELECT [concept], [version], [code] from #codes${terminology};
+SELECT [concept], [version], [code], [description] from #codes${terminology};
 `
   )
   .join('\n')}
 
 IF OBJECT_ID('tempdb..#TempRefCodes') IS NOT NULL DROP TABLE #TempRefCodes;
-CREATE TABLE #TempRefCodes (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, version INT NOT NULL);
+CREATE TABLE #TempRefCodes (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, version INT NOT NULL, [description] VARCHAR(255));
 
 -- Read v2 codes
 INSERT INTO #TempRefCodes
-SELECT PK_Reference_Coding_ID, dcr.concept, dcr.[version]
+SELECT PK_Reference_Coding_ID, dcr.concept, dcr.[version], dcr.[description]
 FROM [SharedCare].[Reference_Coding] rc
 INNER JOIN #codesreadv2 dcr on dcr.code = rc.MainCode
 WHERE CodingType='ReadCodeV2'
@@ -275,7 +276,7 @@ and PK_Reference_Coding_ID != -1;
 
 -- CTV3 codes
 INSERT INTO #TempRefCodes
-SELECT PK_Reference_Coding_ID, dcc.concept, dcc.[version]
+SELECT PK_Reference_Coding_ID, dcc.concept, dcc.[version], dcc.[description]
 FROM [SharedCare].[Reference_Coding] rc
 INNER JOIN #codesctv3 dcc on dcc.code = rc.MainCode
 WHERE CodingType='CTV3'
@@ -283,23 +284,23 @@ and PK_Reference_Coding_ID != -1;
 
 -- EMIS codes with a FK Reference Coding ID
 INSERT INTO #TempRefCodes
-SELECT FK_Reference_Coding_ID, ce.concept, ce.[version]
+SELECT FK_Reference_Coding_ID, ce.concept, ce.[version], ce.[description]
 FROM [SharedCare].[Reference_Local_Code] rlc
 INNER JOIN #codesemis ce on ce.code = rlc.LocalCode
 WHERE FK_Reference_Coding_ID != -1;
 
 IF OBJECT_ID('tempdb..#TempSNOMEDRefCodes') IS NOT NULL DROP TABLE #TempSNOMEDRefCodes;
-CREATE TABLE #TempSNOMEDRefCodes (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [version] INT NOT NULL);
+CREATE TABLE #TempSNOMEDRefCodes (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [version] INT NOT NULL, [description] VARCHAR(255));
 
 -- SNOMED codes
 INSERT INTO #TempSNOMEDRefCodes
-SELECT PK_Reference_SnomedCT_ID, dcs.concept, dcs.[version]
+SELECT PK_Reference_SnomedCT_ID, dcs.concept, dcs.[version], dcs.[description]
 FROM SharedCare.Reference_SnomedCT rs
 INNER JOIN #codessnomed dcs on dcs.code = rs.ConceptID;
 
 -- EMIS codes with a FK SNOMED ID but without a FK Reference Coding ID
 INSERT INTO #TempSNOMEDRefCodes
-SELECT FK_Reference_SnomedCT_ID, ce.concept, ce.[version]
+SELECT FK_Reference_SnomedCT_ID, ce.concept, ce.[version], ce.[description]
 FROM [SharedCare].[Reference_Local_Code] rlc
 INNER JOIN #codesemis ce on ce.code = rlc.LocalCode
 WHERE FK_Reference_Coding_ID = -1
@@ -307,16 +308,16 @@ AND FK_Reference_SnomedCT_ID != -1;
 
 -- De-duped tables
 IF OBJECT_ID('tempdb..#CodeSets') IS NOT NULL DROP TABLE #CodeSets;
-CREATE TABLE #CodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL);
+CREATE TABLE #CodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [description] VARCHAR(255));
 
 IF OBJECT_ID('tempdb..#SnomedSets') IS NOT NULL DROP TABLE #SnomedSets;
-CREATE TABLE #SnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL);
+CREATE TABLE #SnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [description] VARCHAR(255));
 
 IF OBJECT_ID('tempdb..#VersionedCodeSets') IS NOT NULL DROP TABLE #VersionedCodeSets;
-CREATE TABLE #VersionedCodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT);
+CREATE TABLE #VersionedCodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT, [description] VARCHAR(255));
 
 IF OBJECT_ID('tempdb..#VersionedSnomedSets') IS NOT NULL DROP TABLE #VersionedSnomedSets;
-CREATE TABLE #VersionedSnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT);
+CREATE TABLE #VersionedSnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT, [description] VARCHAR(255));
 
 INSERT INTO #VersionedCodeSets
 SELECT DISTINCT * FROM #TempRefCodes;
@@ -325,7 +326,7 @@ INSERT INTO #VersionedSnomedSets
 SELECT DISTINCT * FROM #TempSNOMEDRefCodes;
 
 INSERT INTO #CodeSets
-SELECT FK_Reference_Coding_ID, c.concept
+SELECT FK_Reference_Coding_ID, c.concept, [description]
 FROM #VersionedCodeSets c
 INNER JOIN (
   SELECT concept, MAX(version) AS maxVersion FROM #VersionedCodeSets
@@ -333,7 +334,7 @@ INNER JOIN (
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
 INSERT INTO #SnomedSets
-SELECT FK_Reference_SnomedCT_ID, c.concept
+SELECT FK_Reference_SnomedCT_ID, c.concept, [description]
 FROM #VersionedSnomedSets c
 INNER JOIN (
   SELECT concept, MAX(version) AS maxVersion FROM #VersionedSnomedSets
