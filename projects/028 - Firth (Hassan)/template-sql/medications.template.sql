@@ -123,7 +123,7 @@ SELECT
 	WHEN UPPER([description]) like '%INVEGA%' THEN 'invega'
 	WHEN UPPER([description]) like '%LARGACTIL%' THEN 'largactil'
 	WHEN UPPER([description]) like '%LEVINAN%' THEN 'levinan'
-	WHEN UPPER([description]) like '%LEVOMEPROMAZINE%' THEN 'Levomepromazine'
+	WHEN UPPER([description]) like '%LEVOMEPROMAZINE%' THEN 'levomepromazine'
 	WHEN UPPER([description]) like '%Modecate%' THEN 'modecate'
 	WHEN UPPER([description]) like '%MODITEN%' THEN 'moditen'
 	WHEN UPPER([description]) like '%NEULACTIL%' THEN 'neulactil'
