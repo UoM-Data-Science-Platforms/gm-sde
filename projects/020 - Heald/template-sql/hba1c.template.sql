@@ -23,13 +23,7 @@ SET @EventsFromDate = DATEADD(year, -2, @StartDate);
 --> CODESET hba1c:2
 
 -- Get all covid positive patients as this is the population of the matched cohort
-IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
-SELECT FK_Patient_Link_ID, MIN(CONVERT(DATE, [EventDate])) AS FirstCovidPositiveDate INTO #CovidPatients
-FROM [RLS].[vw_COVID19]
-WHERE GroupDescription = 'Confirmed'
-AND EventDate > @StartDate
-AND EventDate <= GETDATE()
-GROUP BY FK_Patient_Link_ID;
+--> EXECUTE query-patients-with-covid.sql start-date:2020-01-01
 
 -- Get all hbA1c values for the cohort
 IF OBJECT_ID('tempdb..#hba1c') IS NOT NULL DROP TABLE #hba1c;

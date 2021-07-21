@@ -1,3 +1,6 @@
+-- NB THIS USES THE OLD WAY OF COUNTING COVID CASES
+-- IF YOU USE THIS CHECK OUT THE query-patients-with-covid.sql REUSABLE QUERY
+
 -- Find the all the positive tests for each patient. We convert the EventDate
 -- to a Date (rather than a DateTime) to ensure that multiple test results on the
 -- same day (probably a duplication, but definitely related to the same spell) only

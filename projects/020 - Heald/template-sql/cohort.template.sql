@@ -21,7 +21,7 @@
 -- PATIENT STATUS
 -- IsPassiveSmoker, WorstSmokingStatus, CurrentSmokingStatus
 -- DIAGNOSES
--- PatientHasCOPD, PatientHasASTHMA, PatientHasSMI
+-- PatientHasCOPD, PatientHasASTHMA, PatientHasSMI, PatientHasHYPERTENSION
 -- MEDICATIONS
 -- IsOnACEI, IsOnAspirin, IsOnClopidogrel, IsOnMetformin
 
@@ -73,13 +73,7 @@ WHERE (
 GROUP BY FK_Patient_Link_ID;
 
 -- Then get all the positive covid test patients
-IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
-SELECT FK_Patient_Link_ID, MIN(CONVERT(DATE, [EventDate])) AS FirstCovidPositiveDate INTO #CovidPatients
-FROM [RLS].[vw_COVID19]
-WHERE GroupDescription = 'Confirmed'
-AND EventDate > @StartDate
-AND EventDate <= GETDATE()
-GROUP BY FK_Patient_Link_ID;
+--> EXECUTE query-patients-with-covid.sql start-date:2020-01-01
 
 -- Define #Patients temp table for getting future things like age/sex etc.
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
@@ -315,6 +309,17 @@ WHERE (
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
+--> CODESET hypertension:1
+IF OBJECT_ID('tempdb..#PatientDiagnosesHYPERTENSION') IS NOT NULL DROP TABLE #PatientDiagnosesHYPERTENSION;
+SELECT DISTINCT FK_Patient_Link_ID
+INTO #PatientDiagnosesHYPERTENSION
+FROM RLS.vw_GP_Events
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('hypertension') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('hypertension') AND [Version]=1))
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+
 
 -- medications
 --> CODESET metformin:1
@@ -444,7 +449,8 @@ SELECT
   IsOnACEI,
   IsOnAspirin,
   IsOnClopidogrel,
-  IsOnMetformin
+  IsOnMetformin,
+  CASE WHEN htn.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasHYPERTENSION
 FROM #MainCohort m
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesBMI bmi ON bmi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
@@ -460,6 +466,7 @@ LEFT OUTER JOIN #PatientValuesSHBG shbg ON shbg.FK_Patient_Link_ID = m.FK_Patien
 LEFT OUTER JOIN #PatientDiagnosesCOPD copd ON copd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesASTHMA asthma ON asthma.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesSEVEREMENTALILLNESS smi ON smi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosesHYPERTENSION htn ON htn.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientMedications pm ON pm.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath covidDeath ON covidDeath.FK_Patient_Link_ID = m.FK_Patient_Link_ID
@@ -501,7 +508,8 @@ SELECT
   IsOnACEI,
   IsOnAspirin,
   IsOnClopidogrel,
-  IsOnMetformin
+  IsOnMetformin,
+  CASE WHEN htn.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasHYPERTENSION
 FROM #MatchedCohort m
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesBMI bmi ON bmi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
@@ -517,6 +525,7 @@ LEFT OUTER JOIN #PatientValuesSHBG shbg ON shbg.FK_Patient_Link_ID = m.FK_Patien
 LEFT OUTER JOIN #PatientDiagnosesCOPD copd ON copd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesASTHMA asthma ON asthma.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesSEVEREMENTALILLNESS smi ON smi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosesHYPERTENSION htn ON htn.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientMedications pm ON pm.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath covidDeath ON covidDeath.FK_Patient_Link_ID = m.FK_Patient_Link_ID
