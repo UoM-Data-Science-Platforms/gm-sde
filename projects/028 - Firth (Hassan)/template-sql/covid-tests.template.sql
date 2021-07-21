@@ -151,7 +151,7 @@ SELECT
 	 PatientId = m.FK_Patient_Link_ID
 	,NULL AS MainCohortMatchedPatientId
 	,TestOutcome
-	,TestDate = CAST(EventDate AS DATE)
+	,TestDate = FORMAT(EventDate, 'yyyy-MM-01')
 FROM #covidtests cv
 LEFT JOIN #MainCohort m ON cv.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 where m.FK_Patient_Link_ID is not null
@@ -161,7 +161,8 @@ SELECT
 	 PatientId = m.FK_Patient_Link_ID
 	,PatientWhoIsMatched AS MainCohortMatchedPatientId
 	,TestOutcome
-	,TestDate = EventDate
+	,TestDate = FORMAT(EventDate, 'yyyy-MM-01')
 FROM #covidtests cv
 LEFT JOIN #MatchedCohort m ON cv.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 where m.FK_Patient_Link_ID is not null
+

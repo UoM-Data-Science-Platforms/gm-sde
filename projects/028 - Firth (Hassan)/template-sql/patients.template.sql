@@ -165,7 +165,7 @@ INTO #PotentialMatches
 FROM #Patients p
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-WHERE FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #MainCohort)
+WHERE p.FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #MainCohort)
 -- 3,378,730
 
 --> EXECUTE query-cohort-matching-yob-sex-alt.sql yob-flex:1 num-matches:4
@@ -353,9 +353,9 @@ SELECT	 PatientId = m.FK_Patient_Link_ID
 		,EarliestDiagnosis_Depression
 		,DeathAfter31Jan20 = CASE WHEN pl.DeathDate > '2020-01-31' THEN 'Y' ELSE 'N' END
 		,DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END
-		,DeathDateDueToCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN STUFF(CONVERT(varchar(10), pl.DeathDate,104),1,3,'') ELSE null END
-		,FirstVaccineDate = STUFF(CONVERT(varchar(10), VaccineDate,104),1,3,'')
-		,SecondVaccineDate = STUFF(CONVERT(varchar(10), VaccineDate,104),1,3,'')
+		,DeathDateDueToCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN FORMAT(pl.DeathDate, 'yyyy-MM-01') ELSE null END
+		,FirstVaccineDate =  FORMAT(FirstVaccineDate, 'yyyy-MM-01')
+		,SecondVaccineDate =  FORMAT(SecondVaccineDate, 'yyyy-MM-01')
 		,VaccineDeclined = CASE WHEN vd.FK_Patient_Link_ID is not null and DateVaccineDeclined is not null THEN 1 ELSE 0 END
 FROM #MainCohort m
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
@@ -427,9 +427,9 @@ SELECT	PatientId = m.FK_Patient_Link_ID
 		,EarliestDiagnosis_Depression
 		,DeathAfter31Jan20 = CASE WHEN pl.DeathDate > '2020-01-31' THEN 'Y' ELSE 'N' END
 		,DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END
-		,DeathDateDueToCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN STUFF(CONVERT(varchar(10), pl.DeathDate,104),1,3,'') ELSE null END
-		,FirstVaccineDate = STUFF(CONVERT(varchar(10), VaccineDate,104),1,3,'')
-		,SecondVaccineDate = STUFF(CONVERT(varchar(10), VaccineDate,104),1,3,'')
+		,DeathDateDueToCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN FORMAT(pl.DeathDate, 'yyyy-MM-01') ELSE null END
+		,FirstVaccineDate =  FORMAT(FirstVaccineDate, 'yyyy-MM-01')
+		,SecondVaccineDate =  FORMAT(SecondVaccineDate, 'yyyy-MM-01')
 		,VaccineDeclined = CASE WHEN vd.FK_Patient_Link_ID is not null and DateVaccineDeclined is not null THEN 1 ELSE 0 END
 FROM #MatchedCohort m
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
