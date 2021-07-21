@@ -157,7 +157,7 @@ SELECT * FROM #Temp;
 -- OUTPUT: A temp table as follows:
 -- #PatientLSOA (FK_Patient_Link_ID, LSOA)
 -- 	- FK_Patient_Link_ID - unique patient id
---	- LSOA - nationally recognised LSOA identifier
+--	- LSOA_Code - nationally recognised LSOA identifier
 
 -- ASSUMPTIONS:
 --	- Patient data is obtained from multiple sources. Where patients have multiple LSOAs we determine the LSOA as follows:
@@ -336,14 +336,15 @@ GROUP BY FK_Patient_Link_ID;
 -- OUTPUT: Two temp table as follows:
 -- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
 -- 	- FK_Patient_Link_ID - unique patient id
---	- AdmissionDate - date of discharge (YYYY-MM-DD)
+--	- AdmissionDate - date of admission (YYYY-MM-DD)
 --	- AcuteProvider - Bolton, SRFT, Stockport etc..
 --  (Limited to one admission per person per hospital per day, because if a patient has 2 admissions 
 --   on the same day to the same hopsital then it's most likely data duplication rather than two short
 --   hospital stays)
 -- #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
 -- 	- FK_Patient_Link_ID - unique patient id
---	- AdmissionDate - date of discharge (YYYY-MM-DD)
+--	- AdmissionDate - date of admission (YYYY-MM-DD)
+--	- AcuteProvider - Bolton, SRFT, Stockport etc..
 --	- DischargeDate - date of discharge (YYYY-MM-DD)
 --	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
 
@@ -411,7 +412,9 @@ ORDER BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider;
 --						A COVID-related admission is classed as an admission within 4 weeks after, or up to 2 weeks before
 --						a positive test.
 
--- INPUT: Assumes there exists two temp tables as follows:
+-- INPUT: Takes one parameter
+--  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+-- And assumes there exists two temp tables as follows:
 -- #Patients (FK_Patient_Link_ID)
 --  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 -- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
@@ -420,16 +423,41 @@ ORDER BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider;
 -- OUTPUT: A temp table as follows:
 -- #COVIDUtilisationAdmissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
 --	- FK_Patient_Link_ID - unique patient id
---	- AdmissionDate - date of discharge (YYYY-MM-DD)
+--	- AdmissionDate - date of admission (YYYY-MM-DD)
 --	- AcuteProvider - Bolton, SRFT, Stockport etc..
 --	- CovidHealthcareUtilisation - 'TRUE' if admission within 4 weeks after, or up to 14 days before, a positive test
 
 -- Get first positive covid test for each patient
-IF OBJECT_ID('tempdb..#CovidCases') IS NOT NULL DROP TABLE #CovidCases;
-SELECT FK_Patient_Link_ID, MIN(CONVERT(DATE, [EventDate])) AS CovidPositiveDate INTO #CovidCases
+--┌─────────────────────┐
+--│ Patients with COVID │
+--└─────────────────────┘
+
+-- OBJECTIVE: To get tables of all patients with a COVID diagnosis in their record.
+
+-- INPUT: Takes one parameter
+--  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+
+-- OUTPUT: Two temp table as follows:
+-- #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- FirstCovidPositiveDate - earliest COVID diagnosis
+-- #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- CovidPositiveDate - any COVID diagnosis
+
+IF OBJECT_ID('tempdb..#CovidPatientsAllDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsAllDiagnoses;
+SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate INTO #CovidPatientsAllDiagnoses
 FROM [RLS].[vw_COVID19]
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND GroupDescription = 'Confirmed'
+WHERE (
+	(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+)
+AND EventDate > '2020-02-01'
+AND EventDate <= GETDATE();
+
+IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
+SELECT FK_Patient_Link_ID, MIN(CovidPositiveDate) AS FirstCovidPositiveDate INTO #CovidPatients
+FROM #CovidPatientsAllDiagnoses
 GROUP BY FK_Patient_Link_ID;
 
 
@@ -442,10 +470,10 @@ SELECT
 	END AS CovidHealthcareUtilisation
 INTO #COVIDUtilisationAdmissions 
 FROM #Admissions a
-LEFT OUTER join #CovidCases c ON 
+LEFT OUTER join #CovidPatients c ON 
 	a.FK_Patient_Link_ID = c.FK_Patient_Link_ID 
-	AND a.AdmissionDate <= DATEADD(WEEK, 4, c.CovidPositiveDate)
-	AND a.AdmissionDate >= DATEADD(DAY, -14, c.CovidPositiveDate);
+	AND a.AdmissionDate <= DATEADD(WEEK, 4, c.FirstCovidPositiveDate)
+	AND a.AdmissionDate >= DATEADD(DAY, -14, c.FirstCovidPositiveDate);
 
 --┌────────────────────┐
 --│ COVID vaccinations │
@@ -554,7 +582,7 @@ VALUES ('high-clinical-vulnerability',1,'Y228a','High risk category for developi
 INSERT INTO #codesctv3
 VALUES ('moderate-clinical-vulnerability',1,'Y228b','Moderate risk category for developing complication from coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2 infection (finding)');
 INSERT INTO #codesctv3
-VALUES ('covid-vaccination',1,'Y210d','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'Y29e7','Administration of first dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y29e8','Administration of second dose of SARS-CoV-2 vaccine');
+VALUES ('covid-vaccination',1,'Y210d','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'Y29e7','Administration of first dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y29e8','Administration of second dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y2a0e','SARS-2 Coronavirus vaccine'),('covid-vaccination',1,'Y2a0f','COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 1'),('covid-vaccination',1,'Y2a3a','COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 2');
 INSERT INTO #codesctv3
 VALUES ('flu-vaccination',1,'65E..','Influenza vaccination'),('flu-vaccination',1,'Xaa9G','Administration of intranasal influenza vaccination'),('flu-vaccination',1,'Xaac1','Administration of first intranasal pandemic influenza vaccination'),('flu-vaccination',1,'Xaac2','Administration of second intranasal pandemic influenza vaccination'),('flu-vaccination',1,'Xaac3','Administration of first intranasal seasonal influenza vaccination'),('flu-vaccination',1,'Xaac4','Administration of second intranasal seasonal influenza vaccination'),('flu-vaccination',1,'Xaac5','First intranasal pandemic influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'Xaac6','Second intranasal pandemic influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'Xaac7','First intranasal seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'Xaac8','Second intranasal seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'XaaED','Administration of first intranasal influenza vaccination'),('flu-vaccination',1,'XaaEF','Administration of second intranasal influenza vaccination'),('flu-vaccination',1,'XaaZp','Seasonal influenza vaccination given while hospital inpatient'),('flu-vaccination',1,'XabvT','Second intramuscular seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'Xac5J','First intramuscular seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'Xad9j','Administration of first inactivated seasonal influenza vaccination'),('flu-vaccination',1,'Xad9k','Administration of second inactivated seasonal influenza vaccination'),('flu-vaccination',1,'Xaeet','First intranasal seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'Xaeeu','Second intranasal seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'Xaeev','First inactivated seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'Xaeew','Second inactivated seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'XafhP','Seasonal influenza vaccination given by midwife'),('flu-vaccination',1,'XafhQ','First inactivated seasonal influenza vaccination given by midwife'),('flu-vaccination',1,'XafhR','Second inactivated seasonal influenza vaccination given by midwife'),('flu-vaccination',1,'XaLK4','Booster influenza vaccination'),('flu-vaccination',1,'XaLNG','First pandemic influenza vaccination'),('flu-vaccination',1,'XaLNH','Second pandemic influenza vaccination'),('flu-vaccination',1,'XaPwi','First pandemic influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'XaPwj','Second pandemic influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'XaPyT','Influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'XaQhk','CELVAPAN - first influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'XaQhl','CELVAPAN - second influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'XaQhm','PANDEMRIX - first influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'XaQhn','PANDEMRIX - second influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'XaQho','CELVAPAN - first influenza A (H1N1v) 2009 vaccination given by other healthcare provider'),('flu-vaccination',1,'XaQhp','CELVAPAN - second influenza A (H1N1v) 2009 vaccination given by other healthcare provider'),('flu-vaccination',1,'XaQhq','PANDEMRIX - first influenza A (H1N1v) 2009 vaccination given by other healthcare provider'),('flu-vaccination',1,'XaQhr','PANDEMRIX - second influenza A (H1N1v) 2009 vaccination given by other healthcare provider'),('flu-vaccination',1,'XaZ0d','Seasonal influenza vaccination'),('flu-vaccination',1,'XaZ0e','Seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'XaZfY','Seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'ZV048','[V]Flu - influenza vaccination'),('flu-vaccination',1,'Y0c3f','First influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'Y0c40','Second influenza A (H1N1v) 2009 vaccination given')
 
@@ -607,7 +635,7 @@ VALUES ('high-clinical-vulnerability',1,'^ESCT1300222','High risk category for d
 INSERT INTO #codesemis
 VALUES ('moderate-clinical-vulnerability',1,'^ESCT1300223','Moderate risk category for developing complications from COVID-19 infection');
 INSERT INTO #codesemis
-VALUES ('covid-vaccination',1,'^ESCT1348323','Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'COCO138186NEMIS','COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)'),('covid-vaccination',1,'^ESCT1348325','Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348298','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'^ESCT1348301','COVID-19 vaccination'),('covid-vaccination',1,'^ESCT1299050','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'^ESCT1301222','??2019-nCoV (novel coronavirus) vaccination??');
+VALUES ('covid-vaccination',1,'^ESCT1348323','Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'COCO138186NEMIS','COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)'),('covid-vaccination',1,'^ESCT1348325','Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348298','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'^ESCT1348301','COVID-19 vaccination'),('covid-vaccination',1,'^ESCT1299050','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'^ESCT1301222','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination');
 INSERT INTO #codesemis
 VALUES ('flu-vaccination',1,'^ESCT1300221','Seasonal influenza vaccination given in school'),('flu-vaccination',1,'^ESCTFI843902','First inactivated seasonal influenza vaccination given by midwife'),('flu-vaccination',1,'^ESCTIN802297','Influenza vaccination given'),('flu-vaccination',1,'^ESCTSE843901','Seasonal influenza vaccination given by midwife'),('flu-vaccination',1,'EMISNQAD138','Administration of first quadrivalent (QIV) inactivated seasonal influenza vaccination'),('flu-vaccination',1,'EMISNQAD139','Administration of first non adjuvanted trivalent (TIV) inactivated seasonal influenza vaccination'),('flu-vaccination',1,'EMISNQAD142','Administration of adjuvanted trivalent (aTIV) inactivated seasonal influenza vaccination'),('flu-vaccination',1,'EMISNQAD144','Administration of first quadrivalent (QIV) inactivated seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'EMISNQAD145','Administration of first non adjuvanted trivalent (TIV) inactivated seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'EMISNQAD147','Administration of adjuvanted trivalent (aTIV) inactivated seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'EMISNQAD148','Administration of second quadrivalent (QIV) inactivated seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'EMISNQAD149','Adjuvanted trivalent (aTIV) inactivated seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'EMISNQAD150','Administration of second non adjuvanted trivalent (TIV) inactivated seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'EMISNQAD151','Administration of second quadrivalent (QIV) inactivated seasonal influenza vaccination'),('flu-vaccination',1,'EMISNQFI45','First quadrivalent (QIV) inactivated seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'EMISNQFI46','First non adjuvanted trivalent (TIV) inactivated seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'EMISNQIN160','Intranasal influenza vaccination'),('flu-vaccination',1,'EMISNQSE164','Second quadrivalent (QIV) inactivated seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'PCSDT18434_779','First intranasal seasonal influenza vacc given by pharmacist'),('flu-vaccination',1,'PCSDT18439_1184','First intranasal seasonal influenza vacc given by pharmacist'),('flu-vaccination',1,'PCSDT18439_711','Second intranasal seasonal influenza vacc givn by pharmacist'),('flu-vaccination',1,'PCSDT28849_483','First intranasal seasonal influenza vacc given by pharmacist'),('flu-vaccination',1,'PCSDT7022_652','First intranasal seasonal influenza vacc given by pharmacist'),('flu-vaccination',1,'^ESCTSE843903','Second inactivated seasonal influenza vaccination given by midwife')
 

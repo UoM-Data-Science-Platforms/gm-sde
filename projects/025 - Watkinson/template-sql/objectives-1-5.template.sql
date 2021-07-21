@@ -63,7 +63,7 @@ SELECT * FROM #Temp;
 --> EXECUTE query-patient-care-home-resident.sql
 
 --> EXECUTE query-get-admissions-and-length-of-stay.sql
---> EXECUTE query-admissions-covid-utilisation.sql
+--> EXECUTE query-admissions-covid-utilisation.sql start-date:2020-02-01
 
 --> EXECUTE query-get-covid-vaccines.sql
 
