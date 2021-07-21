@@ -34,7 +34,7 @@ SELECT DISTINCT FK_Patient_Link_ID, FirstMedDate as EventDate INTO #PatientDates
 
 --> EXECUTE query-patient-imd.sql
 
---> EXECUTE query-primary-care-covid-utilisation.sql
+--> EXECUTE query-primary-care-covid-utilisation.sql start-date:2019-12-23
 
 --> EXECUTE query-patient-practice-and-ccg.sql
 

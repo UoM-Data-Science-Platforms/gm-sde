@@ -949,7 +949,7 @@ HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1Is
 -- OUTPUT: A temp table as follows:
 -- #PatientLSOA (FK_Patient_Link_ID, LSOA)
 -- 	- FK_Patient_Link_ID - unique patient id
---	- LSOA - nationally recognised LSOA identifier
+--	- LSOA_Code - nationally recognised LSOA identifier
 
 -- ASSUMPTIONS:
 --	- Patient data is obtained from multiple sources. Where patients have multiple LSOAs we determine the LSOA as follows:

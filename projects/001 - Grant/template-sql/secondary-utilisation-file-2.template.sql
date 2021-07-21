@@ -25,7 +25,7 @@ SELECT DISTINCT FK_Patient_Link_ID INTO #Patients FROM #AdmissionTypes;
 
 --> EXECUTE query-get-admissions-and-length-of-stay.sql
 
---> EXECUTE query-admissions-covid-utilisation.sql
+--> EXECUTE query-admissions-covid-utilisation.sql start-date:2019-12-23
 
 --> EXECUTE query-patient-practice-and-ccg.sql
 
