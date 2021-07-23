@@ -571,6 +571,8 @@ function writeReadme() {
 
 * Data that you have processed through your scripts goes in the data/processed folder.
 
+* In some situations (see the RStudio issue below) it may be necessary to copy data elsewhere in the VDE. In these situations the data may only be copied to the "Documents" folder. All other locations are potentially visibile to analysts not working on this project.
+
 * Code goes in the 'code' folder.
 
 * ***For any summary data or figures that you wish to export you MUST conform to the following:
