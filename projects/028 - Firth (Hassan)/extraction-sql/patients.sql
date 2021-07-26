@@ -2,7 +2,8 @@
 --│ Patient information for SMI cohort │
 --└────────────────────────────────────┘
 
--- REVIEW LOG:
+------------ RESEARCH DATA ENGINEER CHECK ------------
+-- RICHARD WILLIAMS |	DATE: 20/07/21
 
 -- OUTPUT: Data with the following fields
 -- Patient Id
@@ -75,7 +76,8 @@ IF OBJECT_ID('tempdb..#AllCodes') IS NOT NULL DROP TABLE #AllCodes;
 CREATE TABLE #AllCodes (
   [Concept] [varchar](255) NOT NULL,
   [Version] INT NOT NULL,
-  [Code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL
+  [Code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+  [description] [varchar] (255) NULL 
 );
 
 IF OBJECT_ID('tempdb..#codesreadv2') IS NOT NULL DROP TABLE #codesreadv2;
@@ -108,7 +110,7 @@ INSERT INTO #codesreadv2
 VALUES ('covid-vaccination',1,'65F0.','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F0.00','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F0100','Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'65F01','Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'65F0200','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F02','2019-nCoV (novel coronavirus) vaccination')
 
 INSERT INTO #AllCodes
-SELECT [concept], [version], [code] from #codesreadv2;
+SELECT [concept], [version], [code], [description] from #codesreadv2;
 
 IF OBJECT_ID('tempdb..#codesctv3') IS NOT NULL DROP TABLE #codesctv3;
 CREATE TABLE #codesctv3 (
@@ -132,10 +134,10 @@ VALUES ('schizophrenia-psychosis',1,'13Y2.','Schizophrenia association member'),
 INSERT INTO #codesctv3
 VALUES ('covid-vaccine-declined',1,'Y29ed','SARS-CoV-2 vaccination first dose declined'),('covid-vaccine-declined',1,'Y29ec','SARS-CoV-2 vaccination dose declined'),('covid-vaccine-declined',1,'Y29ee','SARS-CoV-2 vaccination second dose declined'),('covid-vaccine-declined',1,'Y211e','SARS-CoV-2 immunisation course declined');
 INSERT INTO #codesctv3
-VALUES ('covid-vaccination',1,'Y210d','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'Y29e7','Administration of first dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y29e8','Administration of second dose of SARS-CoV-2 vaccine')
+VALUES ('covid-vaccination',1,'Y210d','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'Y29e7','Administration of first dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y29e8','Administration of second dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y2a0e','SARS-2 Coronavirus vaccine'),('covid-vaccination',1,'Y2a0f','COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 1'),('covid-vaccination',1,'Y2a3a','COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 2')
 
 INSERT INTO #AllCodes
-SELECT [concept], [version], [code] from #codesctv3;
+SELECT [concept], [version], [code], [description] from #codesctv3;
 
 IF OBJECT_ID('tempdb..#codessnomed') IS NOT NULL DROP TABLE #codessnomed;
 CREATE TABLE #codessnomed (
@@ -161,7 +163,7 @@ INSERT INTO #codessnomed
 VALUES ('covid-vaccination',1,'1240491000000103','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'2807821000000115','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'840534001','Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)')
 
 INSERT INTO #AllCodes
-SELECT [concept], [version], [code] from #codessnomed;
+SELECT [concept], [version], [code], [description] from #codessnomed;
 
 IF OBJECT_ID('tempdb..#codesemis') IS NOT NULL DROP TABLE #codesemis;
 CREATE TABLE #codesemis (
@@ -180,18 +182,18 @@ VALUES ('schizophrenia-psychosis',1,'EMISICD10|F2310','"Acute polymorphic psycho
 INSERT INTO #codesemis
 VALUES ('covid-vaccine-declined',1,'^ESCT1348329','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination dose declined'),('covid-vaccine-declined',1,'^ESCT1348345','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) immunisation course declined'),('covid-vaccine-declined',1,'^ESCT1348333','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination first dose declined'),('covid-vaccine-declined',1,'^ESCT1348335','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination second dose declined'),('covid-vaccine-declined',1,'^ESCT1301234','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination declined'),('covid-vaccine-declined',1,'^ESCT1299086','2019-nCoV (novel coronavirus) Vaccination declined');
 INSERT INTO #codesemis
-VALUES ('covid-vaccination',1,'^ESCT1348323','Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'COCO138186NEMIS','COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)'),('covid-vaccination',1,'^ESCT1348325','Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348298','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'^ESCT1348301','COVID-19 vaccination'),('covid-vaccination',1,'^ESCT1299050','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'^ESCT1301222','??2019-nCoV (novel coronavirus) vaccination??')
+VALUES ('covid-vaccination',1,'^ESCT1348323','Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'COCO138186NEMIS','COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)'),('covid-vaccination',1,'^ESCT1348325','Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348298','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'^ESCT1348301','COVID-19 vaccination'),('covid-vaccination',1,'^ESCT1299050','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'^ESCT1301222','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination')
 
 INSERT INTO #AllCodes
-SELECT [concept], [version], [code] from #codesemis;
+SELECT [concept], [version], [code], [description] from #codesemis;
 
 
 IF OBJECT_ID('tempdb..#TempRefCodes') IS NOT NULL DROP TABLE #TempRefCodes;
-CREATE TABLE #TempRefCodes (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, version INT NOT NULL);
+CREATE TABLE #TempRefCodes (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, version INT NOT NULL, [description] VARCHAR(255));
 
 -- Read v2 codes
 INSERT INTO #TempRefCodes
-SELECT PK_Reference_Coding_ID, dcr.concept, dcr.[version]
+SELECT PK_Reference_Coding_ID, dcr.concept, dcr.[version], dcr.[description]
 FROM [SharedCare].[Reference_Coding] rc
 INNER JOIN #codesreadv2 dcr on dcr.code = rc.MainCode
 WHERE CodingType='ReadCodeV2'
@@ -199,7 +201,7 @@ and PK_Reference_Coding_ID != -1;
 
 -- CTV3 codes
 INSERT INTO #TempRefCodes
-SELECT PK_Reference_Coding_ID, dcc.concept, dcc.[version]
+SELECT PK_Reference_Coding_ID, dcc.concept, dcc.[version], dcc.[description]
 FROM [SharedCare].[Reference_Coding] rc
 INNER JOIN #codesctv3 dcc on dcc.code = rc.MainCode
 WHERE CodingType='CTV3'
@@ -207,23 +209,23 @@ and PK_Reference_Coding_ID != -1;
 
 -- EMIS codes with a FK Reference Coding ID
 INSERT INTO #TempRefCodes
-SELECT FK_Reference_Coding_ID, ce.concept, ce.[version]
+SELECT FK_Reference_Coding_ID, ce.concept, ce.[version], ce.[description]
 FROM [SharedCare].[Reference_Local_Code] rlc
 INNER JOIN #codesemis ce on ce.code = rlc.LocalCode
 WHERE FK_Reference_Coding_ID != -1;
 
 IF OBJECT_ID('tempdb..#TempSNOMEDRefCodes') IS NOT NULL DROP TABLE #TempSNOMEDRefCodes;
-CREATE TABLE #TempSNOMEDRefCodes (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [version] INT NOT NULL);
+CREATE TABLE #TempSNOMEDRefCodes (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [version] INT NOT NULL, [description] VARCHAR(255));
 
 -- SNOMED codes
 INSERT INTO #TempSNOMEDRefCodes
-SELECT PK_Reference_SnomedCT_ID, dcs.concept, dcs.[version]
+SELECT PK_Reference_SnomedCT_ID, dcs.concept, dcs.[version], dcs.[description]
 FROM SharedCare.Reference_SnomedCT rs
 INNER JOIN #codessnomed dcs on dcs.code = rs.ConceptID;
 
 -- EMIS codes with a FK SNOMED ID but without a FK Reference Coding ID
 INSERT INTO #TempSNOMEDRefCodes
-SELECT FK_Reference_SnomedCT_ID, ce.concept, ce.[version]
+SELECT FK_Reference_SnomedCT_ID, ce.concept, ce.[version], ce.[description]
 FROM [SharedCare].[Reference_Local_Code] rlc
 INNER JOIN #codesemis ce on ce.code = rlc.LocalCode
 WHERE FK_Reference_Coding_ID = -1
@@ -231,16 +233,16 @@ AND FK_Reference_SnomedCT_ID != -1;
 
 -- De-duped tables
 IF OBJECT_ID('tempdb..#CodeSets') IS NOT NULL DROP TABLE #CodeSets;
-CREATE TABLE #CodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL);
+CREATE TABLE #CodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [description] VARCHAR(255));
 
 IF OBJECT_ID('tempdb..#SnomedSets') IS NOT NULL DROP TABLE #SnomedSets;
-CREATE TABLE #SnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL);
+CREATE TABLE #SnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [description] VARCHAR(255));
 
 IF OBJECT_ID('tempdb..#VersionedCodeSets') IS NOT NULL DROP TABLE #VersionedCodeSets;
-CREATE TABLE #VersionedCodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT);
+CREATE TABLE #VersionedCodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT, [description] VARCHAR(255));
 
 IF OBJECT_ID('tempdb..#VersionedSnomedSets') IS NOT NULL DROP TABLE #VersionedSnomedSets;
-CREATE TABLE #VersionedSnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT);
+CREATE TABLE #VersionedSnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT, [description] VARCHAR(255));
 
 INSERT INTO #VersionedCodeSets
 SELECT DISTINCT * FROM #TempRefCodes;
@@ -249,7 +251,7 @@ INSERT INTO #VersionedSnomedSets
 SELECT DISTINCT * FROM #TempSNOMEDRefCodes;
 
 INSERT INTO #CodeSets
-SELECT FK_Reference_Coding_ID, c.concept
+SELECT FK_Reference_Coding_ID, c.concept, [description]
 FROM #VersionedCodeSets c
 INNER JOIN (
   SELECT concept, MAX(version) AS maxVersion FROM #VersionedCodeSets
@@ -257,7 +259,7 @@ INNER JOIN (
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
 INSERT INTO #SnomedSets
-SELECT FK_Reference_SnomedCT_ID, c.concept
+SELECT FK_Reference_SnomedCT_ID, c.concept, [description]
 FROM #VersionedSnomedSets c
 INNER JOIN (
   SELECT concept, MAX(version) AS maxVersion FROM #VersionedSnomedSets
@@ -1655,8 +1657,7 @@ INTO #PotentialMatches
 FROM #Patients p
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-EXCEPT
-SELECT FK_Patient_Link_ID, Sex, YearOfBirth FROM #MainCohort;
+WHERE p.FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #MainCohort)
 -- 3,378,730
 
 --┌────────────────────────────────────────────────────┐
@@ -1895,7 +1896,7 @@ SELECT FK_Patient_Link_ID,
 		HO_heart_failure 				= MAX(CASE WHEN LTC = 'heart failure' then 1 else 0 end),
 		HO_hypertension 				= MAX(CASE WHEN LTC = 'hypertension' then 1 else 0 end),
 		HO_peripheral_vascular_disease  = MAX(CASE WHEN LTC = 'peripheral vascular disease' then 1 else 0 end),
-		HO_stroke_and_transient_ischaemic_attack = MAX(CASE WHEN LTC = 'stroke & transient ischaemic attack' then 1 else 0 end),
+		HO_stroke_and_transient_ischaemic_attack = MAX(CASE WHEN LTC = 'stroke and tia' then 1 else 0 end),
 		HO_diabetes 					= MAX(CASE WHEN LTC = 'diabetes' then 1 else 0 end),
 		HO_thyroid_disorders 			= MAX(CASE WHEN LTC = 'thyroid disorders' then 1 else 0 end),
 		HO_chronic_liver_disease 		= MAX(CASE WHEN LTC = 'chronic liver disease' then 1 else 0 end),
@@ -2001,9 +2002,12 @@ SELECT	 PatientId = m.FK_Patient_Link_ID
 		,EarliestDiagnosis_Depression
 		,DeathAfter31Jan20 = CASE WHEN pl.DeathDate > '2020-01-31' THEN 'Y' ELSE 'N' END
 		,DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END
-		,DeathDateDueToCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN STUFF(CONVERT(varchar(10), pl.DeathDate,104),1,3,'') ELSE null END
-		,FirstVaccineDate = STUFF(CONVERT(varchar(10), pl.DeathDate,104),1,3,'')
-		,SecondVaccineDate = STUFF(CONVERT(varchar(10), pl.DeathDate,104),1,3,'')
+		,DeathDateDueToCovid_Year = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN YEAR(pl.DeathDate) ELSE null END
+		,DeathDateDueToCovid_Month = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN MONTH(pl.DeathDate) ELSE null END
+		,FirstVaccineYear =  YEAR(FirstVaccineDate)
+		,FirstVaccineMonth = MONTH(FirstVaccineDate)
+		,SecondVaccineYear =  YEAR(SecondVaccineDate)
+		,SecondVaccineMonth = MONTH(SecondVaccineDate)
 		,VaccineDeclined = CASE WHEN vd.FK_Patient_Link_ID is not null and DateVaccineDeclined is not null THEN 1 ELSE 0 END
 FROM #MainCohort m
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
@@ -2075,9 +2079,12 @@ SELECT	PatientId = m.FK_Patient_Link_ID
 		,EarliestDiagnosis_Depression
 		,DeathAfter31Jan20 = CASE WHEN pl.DeathDate > '2020-01-31' THEN 'Y' ELSE 'N' END
 		,DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END
-		,DeathDateDueToCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN STUFF(CONVERT(varchar(10), pl.DeathDate,104),1,3,'') ELSE null END
-		,FirstVaccineDate = STUFF(CONVERT(varchar(10), pl.DeathDate,104),1,3,'')
-		,SecondVaccineDate = STUFF(CONVERT(varchar(10), pl.DeathDate,104),1,3,'')
+		,DeathDateDueToCovid_Year = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN YEAR(pl.DeathDate) ELSE null END
+		,DeathDateDueToCovid_Month = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN MONTH(pl.DeathDate) ELSE null END
+		,FirstVaccineYear =  YEAR(FirstVaccineDate)
+		,FirstVaccineMonth = MONTH(FirstVaccineDate)
+		,SecondVaccineYear =  YEAR(SecondVaccineDate)
+		,SecondVaccineMonth = MONTH(SecondVaccineDate)
 		,VaccineDeclined = CASE WHEN vd.FK_Patient_Link_ID is not null and DateVaccineDeclined is not null THEN 1 ELSE 0 END
 FROM #MatchedCohort m
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
