@@ -40,6 +40,7 @@ This project required the following reusable queries:
 - Lower level super output area
 - Index Multiple Deprivation
 - COVID-related secondary admissions
+- Patients with COVID
 - Secondary admissions and length of stay
 - Secondary discharges
 - Cohort matching on year of birth / sex
@@ -197,7 +198,9 @@ To classify every admission to secondary care based on whether it is a COVID or 
 
 _Input_
 ```
-Assumes there exists two temp tables as follows:
+Takes one parameter
+  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+ And assumes there exists two temp tables as follows:
  #Patients (FK_Patient_Link_ID)
   A distinct list of FK_Patient_Link_IDs for each patient in the cohort
  #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
@@ -216,6 +219,30 @@ A temp table as follows:
 _File_: `query-admissions-covid-utilisation.sql`
 
 _Link_: [https://github.com/rw251/.../query-admissions-covid-utilisation.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-admissions-covid-utilisation.sql)
+
+---
+### Patients with COVID
+To get tables of all patients with a COVID diagnosis in their record.
+
+_Input_
+```
+Takes one parameter
+  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+```
+
+_Output_
+```
+Two temp tables as follows:
+ #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- FirstCovidPositiveDate - earliest COVID diagnosis
+ #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- CovidPositiveDate - any COVID diagnosis
+```
+_File_: `query-patients-with-covid.sql`
+
+_Link_: [https://github.com/rw251/.../query-patients-with-covid.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid.sql)
 
 ---
 ### Secondary admissions and length of stay
@@ -378,54 +405,100 @@ This project required the following clinical code sets:
 
 Further details for each code set can be found below.
 
+### Reccurent Depression
+
+Code set for patients diagnosed with a recurrent depressive disorder
+
+Developed from www.opencodelists.org
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. 
-Here is a log for this code set. The prevalence range (7.04% - 10.97%) 
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, 
+we can attempt to validate the clinical code sets and the reporting of the conditions. 
+Here is a log for this code set.
 
+|    Date    | Practice system |  Population | Patients from ID | Patient from code |
+| ---------- | ----------------| ------------| ---------------- | ----------------- |
+| 2021-07-19 |	EMIS	       |  2615750    |	136201 (5.21%)  |   136142 (5.21%)  |
+| 2021-07-19 |	TPP	       |   211345    |    2973 (1.41%)  |    2958 (1.40%)   |
+| 2021-07-19 |	Vision	       |   336528    |   22413 (6.66%)  |    7994 (2.38%)   |
 
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-2021-05-25	EMIS		2608685		21234 (0.81%)	    227881 (8.73%)	
-2021-05-25	TPP		210985		22380 (10.61%)	     23153 (10.97%)	
-2021-05-25	Vision		335010		 5237 (1.56%)	     23597 (7.04%)	
-
-17/06
-
-5.22340449160247
-1.41671640094353
-6.67316137258757
 LINK: [https://github.com/rw251/.../conditions/recurrent-depressive/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/recurrent-depressive/1)
 
+### Schizophrenia and Psychosis
+
+Code set for patients with a diagnosis of psychosis or schizophrenia.
+
+Developed from www.opencodelists.org
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. 
-Here is a log for this code set. The prevalence range (0.67% - 0.76%) 
+Here is a log for this code set. The prevalence range (1.10% - 1.90%) 
 
 
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-2021-05-25	EMIS		2608685		19794 (0.76%)	  19793 (0.76%)
-2021-05-25	TPP		210985		1415 (0.67%)	  1415 (0.67%)	
-2021-05-25	Vision		335010		2463 (0.74%)	  2308 (0.69%)	
+| Date       | Practice system 	| Population 	|   Patients from ID 	| Patient from code |
+| ---------- | ---------------- | ------------- | --------------------- | ----------------- |
+|2021-06-16  |	EMIS		| 2608685	|	46695 (1.79%)	|  46695 (1.79%)    |
+|2021-06-16  |	TPP		| 210985	|	28695 (1.10%)	|  28695 (1.10%)    |
+|2021-06-16  |	Vision		| 335010	|	49565 (1.90%)	|  49565 (1.90%)    |
 
-1.79
-1.10
-1.90
+
 LINK: [https://github.com/rw251/.../conditions/schizophrenia-psychosis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/schizophrenia-psychosis/1)
 
+### Bipolar
+
+Code set for patients with a diagnosis of bipolar.
+
+Developed from www.opencodelists.org
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, 
+we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+Prevalence range: 0.28% - 0.54%
 
+
+|    Date    | Practice system |  Population | Patients from ID | Patient from code |
+| ---------- | ----------------| ------------| ---------------- | ----------------- |
+| 2021-06-30 |	EMIS	       |  2608685    |	14087 (0.54%)   |   14087 (0.54%)   |
+| 2021-06-30 |	TPP	       |   210985    |    591 (0.28%)   |     591 (0.28%)   |
+| 2021-06-30 |	Vision	       |   335010    |   1608 (0.48%)   |    1608 (0.48%)   |
+
+LINK: [https://github.com/rw251/.../conditions/bipolar/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/bipolar/1)
+
+### Depression
+
+Code set for patients with a diagnosis of depression.
+
+Developed from www.opencodelists.org
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, 
+we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+Prevalence range: 21.09% - 22.83%
+
+|    Date    | Practice system |  Population | Patients from ID | Patient from code |
+| ---------- | ----------------| ------------| ---------------- | ----------------- |
+| 2021-07-19 |	EMIS	       |  2615750    |	563434 (21.54%) | 563399 (21.54%)   |
+| 2021-07-19 |	TPP	       |   211345    |   44578 (21.09%) |  44581 (21.09%)   |
+| 2021-07-19 |	Vision	       |   336528    |   76828 (22.83%) |  76125 (22.62%)   |
+LINK: [https://github.com/rw251/.../conditions/depression/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/depression/1)
+
+### Antipychotics
+
+Code set for prescriptions of antipsychotic medication.
+
+Developed from https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/53/
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. 
+Here is a log for this code set. The prevalence range `3.10% - 3.78%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
-2021-06-01   |	EMIS		2608685		11258 (0.43%)  | 11252 (0.43%)	   |
-2021-06-01   |	TPP		210985	          504 (0.24%)  |   504 (0.24%)	   |
-2021-06-01   |	Vision		335010	         1201 (0.39%)  |  1165 (0.39%)	   |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-07-20 | EMIS            | 2616446    |    81113 (3.10%) |     81141 (3.10%) |
+| 2021-07-20 | TPP             | 211414     |     6642 (3.14%) |      7995 (3.78%) |
+| 2021-07-20 | Vision          | 336776     |    10600 (3.15%) |     10600 (3.15%) |
 
-2021-06-30 EMIS   0.54%
-2021-06-30 TPP 	  0.28%
-2021-06-30 Vision 0.48%
-LINK: [https://github.com/rw251/.../conditions/bipolar/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/bipolar/1)
+LINK: [https://github.com/rw251/.../medications/antipsychotics/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/antipsychotics/1)
 
 #### Prevalence log
 
@@ -3961,13 +4034,16 @@ All code sets required for this analysis are listed here. Individual lists for e
 |covid-vaccination v1|ctv3|Y210d|2019-nCoV (novel coronavirus) vaccination|
 |covid-vaccination v1|ctv3|Y29e7|Administration of first dose of SARS-CoV-2 vaccine|
 |covid-vaccination v1|ctv3|Y29e8|Administration of second dose of SARS-CoV-2 vaccine|
+|covid-vaccination v1|ctv3|Y2a0e|SARS-2 Coronavirus vaccine|
+|covid-vaccination v1|ctv3|Y2a0f|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 1|
+|covid-vaccination v1|ctv3|Y2a3a|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 2|
 |covid-vaccination v1|emis|^ESCT1348323|Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
 |covid-vaccination v1|emis|COCO138186NEMIS|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)|
 |covid-vaccination v1|emis|^ESCT1348325|Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
 |covid-vaccination v1|emis|^ESCT1348298|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination|
 |covid-vaccination v1|emis|^ESCT1348301|COVID-19 vaccination|
 |covid-vaccination v1|emis|^ESCT1299050|2019-nCoV (novel coronavirus) vaccination|
-|covid-vaccination v1|emis|^ESCT1301222|??2019-nCoV (novel coronavirus) vaccination??|
+|covid-vaccination v1|emis|^ESCT1301222|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination|
 |covid-vaccination v1|readv2|65F0.|2019-nCoV (novel coronavirus) vaccination|
 |covid-vaccination v1|readv2|65F0100|Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
 |covid-vaccination v1|readv2|65F0200|2019-nCoV (novel coronavirus) vaccination|

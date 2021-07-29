@@ -2,7 +2,8 @@
 --│ Hospital stay information for SMI cohort and controls      │
 --└────────────────────────────────────────────────────────────┘
 
--- REVIEW LOG:
+------------ RESEARCH DATA ENGINEER CHECK ------------
+-- RICHARD WILLIAMS |	DATE: 20/07/21
 
 -- OUTPUT: Data with the following fields
 -- Patient Id
@@ -59,7 +60,8 @@ IF OBJECT_ID('tempdb..#AllCodes') IS NOT NULL DROP TABLE #AllCodes;
 CREATE TABLE #AllCodes (
   [Concept] [varchar](255) NOT NULL,
   [Version] INT NOT NULL,
-  [Code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL
+  [Code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+  [description] [varchar] (255) NULL 
 );
 
 IF OBJECT_ID('tempdb..#codesreadv2') IS NOT NULL DROP TABLE #codesreadv2;
@@ -88,7 +90,7 @@ VALUES ('schizophrenia-psychosis',1,'13Y2.00','Schizophrenia association member'
 ('schizophrenia-psychosis',1,'E1164','Mixed bipolar affective disorder, severe, with psychosis'),('schizophrenia-psychosis',1,'E116400','Mixed bipolar affective disorder, severe, with psychosis'),('schizophrenia-psychosis',1,'E04..','Other chronic organic psychoses'),('schizophrenia-psychosis',1,'E04..00','Other chronic organic psychoses'),('schizophrenia-psychosis',1,'Eu104','[X]Mental and behavioural disorders due to use of alcohol: withdrawal state with delirium'),('schizophrenia-psychosis',1,'Eu10400','[X]Mental and behavioural disorders due to use of alcohol: withdrawal state with delirium')
 
 INSERT INTO #AllCodes
-SELECT [concept], [version], [code] from #codesreadv2;
+SELECT [concept], [version], [code], [description] from #codesreadv2;
 
 IF OBJECT_ID('tempdb..#codesctv3') IS NOT NULL DROP TABLE #codesctv3;
 CREATE TABLE #codesctv3 (
@@ -111,7 +113,7 @@ VALUES ('schizophrenia-psychosis',1,'13Y2.','Schizophrenia association member'),
 ('schizophrenia-psychosis',1,'XE1Sz','On lithium'),('schizophrenia-psychosis',1,'XE1Xr','Senile and presenile organic psychotic conditions'),('schizophrenia-psychosis',1,'XE1Xt','Other senile and presenile organic psychoses'),('schizophrenia-psychosis',1,'XE1Xw','Acute schizophrenic episode'),('schizophrenia-psychosis',1,'XE1Xx','Other schizophrenia'),('schizophrenia-psychosis',1,'XE1Xz','"Manic disorder, single episode"'),('schizophrenia-psychosis',1,'XE1Y2','Chronic paranoid psychosis'),('schizophrenia-psychosis',1,'XE1Y3','Other non-organic psychoses'),('schizophrenia-psychosis',1,'XE1Y4','Acute paranoid reaction'),('schizophrenia-psychosis',1,'XE1Y5','Non-organic psychosis NOS'),('schizophrenia-psychosis',1,'XE1Y6','Child psychosis NOS'),('schizophrenia-psychosis',1,'XE1Y9','Hysteria NOS'),('schizophrenia-psychosis',1,'XE1YF','Paranoid personality disorder'),('schizophrenia-psychosis',1,'XE1ZM','[X]Other schizophrenia'),('schizophrenia-psychosis',1,'XE1ZN','[X]Schizotypal disorder'),('schizophrenia-psychosis',1,'XE1ZO','Delusional disorder'),('schizophrenia-psychosis',1,'XE1ZO','Paranoid psychosis'),('schizophrenia-psychosis',1,'XE1ZO','Sensitiver Beziehungswahm'),('schizophrenia-psychosis',1,'XE1ZP','[X]Other persistent delusional disorders'),('schizophrenia-psychosis',1,'XE1ZQ','[X]Acute polymorphic psychotic disorder without symptoms of schizophrenia'),('schizophrenia-psychosis',1,'XE1ZR','[X]Other acute predominantly delusional psychotic disorders'),('schizophrenia-psychosis',1,'XE1ZS','"[X]Acute and transient psychotic disorder, unspecified"'),('schizophrenia-psychosis',1,'XE1ZT','[X]Other non-organic psychotic disorders'),('schizophrenia-psychosis',1,'XE1ZU','[X] Psychosis NOS'),('schizophrenia-psychosis',1,'XE1ZU','[X]Unspecified nonorganic psychosis'),('schizophrenia-psychosis',1,'XE1ZV','[X]Mania with psychotic symptoms'),('schizophrenia-psychosis',1,'XE2b8','Mixed schizophrenic and affective pschosis'),('schizophrenia-psychosis',1,'XE2b8','"Schizoaffective disorder, mixed type"'),('schizophrenia-psychosis',1,'XE2un','"Schizoaffective disorder, depressive type"'),('schizophrenia-psychosis',1,'XE2un','"Schizophreniform psychosis, depressive type"'),('schizophrenia-psychosis',1,'XE2uT','"Schizoaffective disorder, manic type"'),('schizophrenia-psychosis',1,'XE2uT','"Schizophreniform psychosis, manic type"'),('schizophrenia-psychosis',1,'XM1GG','Borderline schizophrenia'),('schizophrenia-psychosis',1,'XM1GH','Acute polymorphic psychotic disorder'),('schizophrenia-psychosis',1,'XSGon','Severe major depression with psychotic features'),('schizophrenia-psychosis',1,'XM06V','Auditory hallucinations'),('schizophrenia-psychosis',1,'XM06W','Hallucinations of taste'),('schizophrenia-psychosis',1,'XM06X','Olfactory hallucinations'),('schizophrenia-psychosis',1,'XM06Y','Tactile hallucinations'),('schizophrenia-psychosis',1,'XM0lB','Lithium'),('schizophrenia-psychosis',1,'XM1Xj','Lithium monitoring'),('schizophrenia-psychosis',1,'XSKr7','Cotard syndrome'),('schizophrenia-psychosis',1,'ZV110','[V]Personal history of schizophrenia'),('schizophrenia-psychosis',1,'ZV111','[V]Personal history of manic-depressive psychosis')
 
 INSERT INTO #AllCodes
-SELECT [concept], [version], [code] from #codesctv3;
+SELECT [concept], [version], [code], [description] from #codesctv3;
 
 IF OBJECT_ID('tempdb..#codessnomed') IS NOT NULL DROP TABLE #codessnomed;
 CREATE TABLE #codessnomed (
@@ -133,7 +135,7 @@ VALUES ('schizophrenia-psychosis',1,'SnomedCT_ConceptID','FullDescription'),('sc
 ('schizophrenia-psychosis',1,'231437006','[X]Reactive psychosis'),('schizophrenia-psychosis',1,'191670008','[X]Folie a deux'),('schizophrenia-psychosis',1,'61831009','[X]Induced delusional disorder'),('schizophrenia-psychosis',1,'61831009','[X]Induced paranoid disorder'),('schizophrenia-psychosis',1,'61831009','[X]Induced psychotic disorder'),('schizophrenia-psychosis',1,'68890003','[X]Schizoaffective disorders'),('schizophrenia-psychosis',1,'271428004','"[X]Schizoaffective disorder, manic type"'),('schizophrenia-psychosis',1,'271428004','"[X]Schizoaffective psychosis, manic type"'),('schizophrenia-psychosis',1,'271428004','"[X]Schizophreniform psychosis, manic type"'),('schizophrenia-psychosis',1,'84760002','"[X]Schizoaffective disorder, depressive type"'),('schizophrenia-psychosis',1,'84760002','"[X]Schizoaffective psychosis, depressive type"'),('schizophrenia-psychosis',1,'84760002','"[X]Schizophreniform psychosis, depressive type"'),('schizophrenia-psychosis',1,'270901009','[X]Cyclic schizophrenia'),('schizophrenia-psychosis',1,'270901009','[X]Mixed schizophrenic and affective psychosis'),('schizophrenia-psychosis',1,'270901009','"[X]Schizoaffective disorder, mixed type"'),('schizophrenia-psychosis',1,'68890003','[X]Other schizoaffective disorders'),('schizophrenia-psychosis',1,'68890003','"[X]Schizoaffective disorder, unspecified"'),('schizophrenia-psychosis',1,'68890003','[X]Schizoaffective psychosis NOS'),('schizophrenia-psychosis',1,'480111000000107','[X]Chronic hallucinatory psychosis'),('schizophrenia-psychosis',1,'191525009','[X]Other nonorganic psychotic disorders'),('schizophrenia-psychosis',1,'69322001','[X]Psychosis NOS'),('schizophrenia-psychosis',1,'191525009','[X]Unspecified nonorganic psychosis')
 
 INSERT INTO #AllCodes
-SELECT [concept], [version], [code] from #codessnomed;
+SELECT [concept], [version], [code], [description] from #codessnomed;
 
 IF OBJECT_ID('tempdb..#codesemis') IS NOT NULL DROP TABLE #codesemis;
 CREATE TABLE #codesemis (
@@ -151,15 +153,15 @@ INSERT INTO #codesemis
 VALUES ('schizophrenia-psychosis',1,'EMISICD10|F2310','"Acute polymorphic psychot disord with symp of schizophren, without associated acute stress"'),('schizophrenia-psychosis',1,'EMISICD10|F2095','"Schizophrenia, unspecified, complete remission"'),('schizophrenia-psychosis',1,'EMISICD10|F2330','"Other acute predominantly delusional psychotic disorders, without associated acute stress"'),('schizophrenia-psychosis',1,'EMISICD10|F2050','"Residual schizophrenia, continuous"'),('schizophrenia-psychosis',1,'EMISICD10|F2048','"Post-schizophrenic depression, other"'),('schizophrenia-psychosis',1,'EMISICD10|F2009','"Paranoid schizophrenia, course uncertain, period of observation too short"'),('schizophrenia-psychosis',1,'EMISICD10|F2321','"Acute schizophrenia-like psychotic disorder, with associated acute stress"'),('schizophrenia-psychosis',1,'EMISICD10|F2060','"Simple schizophrenia, continuous"'),('schizophrenia-psychosis',1,'EMISICD10|F2081','"Other schizophrenia, episodic with progressive deficit"'),('schizophrenia-psychosis',1,'EMISICD10|F2028','"Catatonic schizophrenia, other"'),('schizophrenia-psychosis',1,'EMISICD10|F2092','"Schizophrenia, unspecified, episodic with stable deficit"'),('schizophrenia-psychosis',1,'EMISICD10|F2091','"Schizophrenia, unspecified, episodic with progressive deficit"'),('schizophrenia-psychosis',1,'EMISICD10|F2011','"Hebephrenic schizophrenia, episodic with progressive deficit"'),('schizophrenia-psychosis',1,'EMISICD10|F2080','"Other schizophrenia, continuous"'),('schizophrenia-psychosis',1,'EMISICD10|F2045','"Post-schizophrenic depression, complete remission"'),('schizophrenia-psychosis',1,'EMISICD10|F2099','"Schizophrenia, unspecified, course uncertain, period of observation too short"'),('schizophrenia-psychosis',1,'EMISICD10|F2055','"Residual schizophrenia, complete remission"'),('schizophrenia-psychosis',1,'EMISICD10|F2044','"Post-schizophrenic depression, incomplete remission"'),('schizophrenia-psychosis',1,'EMISICD10|F2084','"Other schizophrenia, incomplete remission"'),('schizophrenia-psychosis',1,'EMISICD10|F2083','"Other schizophrenia, episodic remittent"'),('schizophrenia-psychosis',1,'EMISICD10|F2038','"Undifferentiated schizophrenia, other"'),('schizophrenia-psychosis',1,'EMISICD10|F2051','"Residual schizophrenia, episodic with progressive deficit"'),('schizophrenia-psychosis',1,'EMISICD10|F2090','"Schizophrenia, unspecified, continuous"'),('schizophrenia-psychosis',1,'EMISICD10|F2035','"Undifferentiated schizophrenia, complete remission"'),('schizophrenia-psychosis',1,'EMISICD10|F2001','"Paranoid schizophrenia, episodic with progressive deficit"'),('schizophrenia-psychosis',1,'EMISICD10|F2014','"Hebephrenic schizophrenia, incomplete remission"'),('schizophrenia-psychosis',1,'EMISICD10|F2082','"Other schizophrenia, episodic with stable deficit"'),('schizophrenia-psychosis',1,'EMISICD10|F2030','"Undifferentiated schizophrenia, continuous"'),('schizophrenia-psychosis',1,'EMISICD10|F2021','"Catatonic schizophrenia, episodic with progressive deficit"'),('schizophrenia-psychosis',1,'EMISICD10|F2041','"Post-schizophrenic depression, episodic with progressive deficit"'),('schizophrenia-psychosis',1,'EMISICD10|F2018','"Hebephrenic schizophrenia, other"'),('schizophrenia-psychosis',1,'EMISICD10|F2039','"Undifferentiated schizophrenia, course uncertain, period of observation too short"'),('schizophrenia-psychosis',1,'EMISICD10|F2023','"Catatonic schizophrenia, episodic remittent"'),('schizophrenia-psychosis',1,'EMISICD10|F2002','"Paranoid schizophrenia, episodic with stable deficit"'),('schizophrenia-psychosis',1,'EMISICD10|F2331','"Other acute predominantly delusional psychotic disorders, with associated acute stress"'),('schizophrenia-psychosis',1,'EMISICD10|F2032','"Undifferentiated schizophrenia, episodic with stable deficit"'),('schizophrenia-psychosis',1,'EMISICD10|F2381','"Other acute and transient psychotic disorders, with associated acute stress"'),('schizophrenia-psychosis',1,'EMISICD10|F2094','"Schizophrenia, unspecified, incomplete remission"'),('schizophrenia-psychosis',1,'EMISICD10|F2015','"Hebephrenic schizophrenia, complete remission"'),('schizophrenia-psychosis',1,'EMISICD10|F2301','"Acute polymorphic psychot disord without symp of schizoph, with associated acute stress"'),('schizophrenia-psychosis',1,'EMISICD10|F2390','"Acute and transient psychotic disorder, unspecified, without associated acute stress"'),('schizophrenia-psychosis',1,'EMISICD10|F2000','"Paranoid schizophrenia, continuous"'),('schizophrenia-psychosis',1,'EMISICD10|F2033','"Undifferentiated schizophrenia, episodic remittent"'),('schizophrenia-psychosis',1,'EMISICD10|F2053','"Residual schizophrenia, episodic remittent"'),('schizophrenia-psychosis',1,'EMISICD10|F2054','"Residual schizophrenia, incomplete remission"'),('schizophrenia-psychosis',1,'EMISICD10|F2320','"Acute schizophrenia-like psychotic disorder, without associated acute stress"'),('schizophrenia-psychosis',1,'EMISICD10|F2063','"Simple schizophrenia, episodic remittent"'),('schizophrenia-psychosis',1,'EMISICD10|F2069','"Simple schizophrenia, course uncertain, period of observation too short"'),('schizophrenia-psychosis',1,'EMISICD10|F2012','"Hebephrenic schizophrenia, episodic with stable deficit"'),('schizophrenia-psychosis',1,'EMISICD10|F2093','"Schizophrenia, unspecified, episodic remittent"'),('schizophrenia-psychosis',1,'EMISICD10|F2058','"Residual schizophrenia, other"'),('schizophrenia-psychosis',1,'EMISICD10|F2061','"Simple schizophrenia, episodic with progressive deficit"'),('schizophrenia-psychosis',1,'EMISICD10|F2040','"Post-schizophrenic depression, continuous"'),('schizophrenia-psychosis',1,'EMISICD10|F2391','"Acute and transient psychotic disorder, unspecified, with associated acute stress"'),('schizophrenia-psychosis',1,'EMISICD10|F2008','"Paranoid schizophrenia, other"'),('schizophrenia-psychosis',1,'EMISICD10|F2003','"Paranoid schizophrenia, episodic remittent"'),('schizophrenia-psychosis',1,'EMISICD10|F2062','"Simple schizophrenia, episodic with stable deficit"'),('schizophrenia-psychosis',1,'EMISICD10|F2043','"Post-schizophrenic depression, episodic remittent"'),('schizophrenia-psychosis',1,'EMISICD10|F2380','"Other acute and transient psychotic disorders, without associated acute stress"'),('schizophrenia-psychosis',1,'EMISICD10|F2020','"Catatonic schizophrenia, continuous"'),('schizophrenia-psychosis',1,'EMISICD10|F2010','"Hebephrenic schizophrenia, continuous"'),('schizophrenia-psychosis',1,'EMISICD10|F2013','"Hebephrenic schizophrenia, episodic remittent"'),('schizophrenia-psychosis',1,'EMISICD10|F2034','"Undifferentiated schizophrenia, incomplete remission"'),('schizophrenia-psychosis',1,'EMISICD10|F2311','"Acute polymorphic psychot disord with symp of schizophren, with associated acute stress"'),('schizophrenia-psychosis',1,'EMISICD10|F2004','"Paranoid schizophrenia, incomplete remission"'),('schizophrenia-psychosis',1,'EMISICD10|F2029','"Catatonic schizophrenia, course uncertain, period of observation too short"'),('schizophrenia-psychosis',1,'EMISICD10|F2022','"Catatonic schizophrenia, episodic with stable deficit"'),('schizophrenia-psychosis',1,'EMISICD10|F2068','"Simple schizophrenia, other"'),('schizophrenia-psychosis',1,'EMISICD10|F2059','"Residual schizophrenia, course uncertain, period of observation too short"'),('schizophrenia-psychosis',1,'EMISICD10|F2085','"Other schizophrenia, complete remission"'),('schizophrenia-psychosis',1,'EMISICD10|F2005','"Paranoid schizophrenia, complete remission"'),('schizophrenia-psychosis',1,'EMISICD10|F2088','"Other schizophrenia, other"'),('schizophrenia-psychosis',1,'EMISICD10|F2065','"Simple schizophrenia, complete remission"'),('schizophrenia-psychosis',1,'EMISICD10|F2019','"Hebephrenic schizophrenia, course uncertain, period of observation too short"'),('schizophrenia-psychosis',1,'EMISICD10|F2098','"Schizophrenia, unspecified, other"'),('schizophrenia-psychosis',1,'EMISICD10|F2049','"Post-schizophrenic depression, course uncertain, period of observation too short"'),('schizophrenia-psychosis',1,'EMISICD10|F2064','"Simple schizophrenia, incomplete remission"'),('schizophrenia-psychosis',1,'EMISICD10|F2089','"Other schizophrenia, course uncertain, period of observation too short"'),('schizophrenia-psychosis',1,'EMISICD10|F2042','"Post-schizophrenic depression, episodic with stable deficit"'),('schizophrenia-psychosis',1,'EMISICD10|F2300','"Acute polymorphic psychot disord without symp of schizoph, without associated acute stress"'),('schizophrenia-psychosis',1,'EMISICD10|F2025','"Catatonic schizophrenia, complete remission"'),('schizophrenia-psychosis',1,'EMISICD10|F2024','"Catatonic schizophrenia, incomplete remission"'),('schizophrenia-psychosis',1,'EMISICD10|F2031','"Undifferentiated schizophrenia, episodic with progressive deficit"'),('schizophrenia-psychosis',1,'EMISICD10|F2052','"Residual schizophrenia, episodic with stable deficit"')
 
 INSERT INTO #AllCodes
-SELECT [concept], [version], [code] from #codesemis;
+SELECT [concept], [version], [code], [description] from #codesemis;
 
 
 IF OBJECT_ID('tempdb..#TempRefCodes') IS NOT NULL DROP TABLE #TempRefCodes;
-CREATE TABLE #TempRefCodes (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, version INT NOT NULL);
+CREATE TABLE #TempRefCodes (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, version INT NOT NULL, [description] VARCHAR(255));
 
 -- Read v2 codes
 INSERT INTO #TempRefCodes
-SELECT PK_Reference_Coding_ID, dcr.concept, dcr.[version]
+SELECT PK_Reference_Coding_ID, dcr.concept, dcr.[version], dcr.[description]
 FROM [SharedCare].[Reference_Coding] rc
 INNER JOIN #codesreadv2 dcr on dcr.code = rc.MainCode
 WHERE CodingType='ReadCodeV2'
@@ -167,7 +169,7 @@ and PK_Reference_Coding_ID != -1;
 
 -- CTV3 codes
 INSERT INTO #TempRefCodes
-SELECT PK_Reference_Coding_ID, dcc.concept, dcc.[version]
+SELECT PK_Reference_Coding_ID, dcc.concept, dcc.[version], dcc.[description]
 FROM [SharedCare].[Reference_Coding] rc
 INNER JOIN #codesctv3 dcc on dcc.code = rc.MainCode
 WHERE CodingType='CTV3'
@@ -175,23 +177,23 @@ and PK_Reference_Coding_ID != -1;
 
 -- EMIS codes with a FK Reference Coding ID
 INSERT INTO #TempRefCodes
-SELECT FK_Reference_Coding_ID, ce.concept, ce.[version]
+SELECT FK_Reference_Coding_ID, ce.concept, ce.[version], ce.[description]
 FROM [SharedCare].[Reference_Local_Code] rlc
 INNER JOIN #codesemis ce on ce.code = rlc.LocalCode
 WHERE FK_Reference_Coding_ID != -1;
 
 IF OBJECT_ID('tempdb..#TempSNOMEDRefCodes') IS NOT NULL DROP TABLE #TempSNOMEDRefCodes;
-CREATE TABLE #TempSNOMEDRefCodes (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [version] INT NOT NULL);
+CREATE TABLE #TempSNOMEDRefCodes (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [version] INT NOT NULL, [description] VARCHAR(255));
 
 -- SNOMED codes
 INSERT INTO #TempSNOMEDRefCodes
-SELECT PK_Reference_SnomedCT_ID, dcs.concept, dcs.[version]
+SELECT PK_Reference_SnomedCT_ID, dcs.concept, dcs.[version], dcs.[description]
 FROM SharedCare.Reference_SnomedCT rs
 INNER JOIN #codessnomed dcs on dcs.code = rs.ConceptID;
 
 -- EMIS codes with a FK SNOMED ID but without a FK Reference Coding ID
 INSERT INTO #TempSNOMEDRefCodes
-SELECT FK_Reference_SnomedCT_ID, ce.concept, ce.[version]
+SELECT FK_Reference_SnomedCT_ID, ce.concept, ce.[version], ce.[description]
 FROM [SharedCare].[Reference_Local_Code] rlc
 INNER JOIN #codesemis ce on ce.code = rlc.LocalCode
 WHERE FK_Reference_Coding_ID = -1
@@ -199,16 +201,16 @@ AND FK_Reference_SnomedCT_ID != -1;
 
 -- De-duped tables
 IF OBJECT_ID('tempdb..#CodeSets') IS NOT NULL DROP TABLE #CodeSets;
-CREATE TABLE #CodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL);
+CREATE TABLE #CodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [description] VARCHAR(255));
 
 IF OBJECT_ID('tempdb..#SnomedSets') IS NOT NULL DROP TABLE #SnomedSets;
-CREATE TABLE #SnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL);
+CREATE TABLE #SnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [description] VARCHAR(255));
 
 IF OBJECT_ID('tempdb..#VersionedCodeSets') IS NOT NULL DROP TABLE #VersionedCodeSets;
-CREATE TABLE #VersionedCodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT);
+CREATE TABLE #VersionedCodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT, [description] VARCHAR(255));
 
 IF OBJECT_ID('tempdb..#VersionedSnomedSets') IS NOT NULL DROP TABLE #VersionedSnomedSets;
-CREATE TABLE #VersionedSnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT);
+CREATE TABLE #VersionedSnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT, [description] VARCHAR(255));
 
 INSERT INTO #VersionedCodeSets
 SELECT DISTINCT * FROM #TempRefCodes;
@@ -217,7 +219,7 @@ INSERT INTO #VersionedSnomedSets
 SELECT DISTINCT * FROM #TempSNOMEDRefCodes;
 
 INSERT INTO #CodeSets
-SELECT FK_Reference_Coding_ID, c.concept
+SELECT FK_Reference_Coding_ID, c.concept, [description]
 FROM #VersionedCodeSets c
 INNER JOIN (
   SELECT concept, MAX(version) AS maxVersion FROM #VersionedCodeSets
@@ -225,7 +227,7 @@ INNER JOIN (
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
 INSERT INTO #SnomedSets
-SELECT FK_Reference_SnomedCT_ID, c.concept
+SELECT FK_Reference_SnomedCT_ID, c.concept, [description]
 FROM #VersionedSnomedSets c
 INNER JOIN (
   SELECT concept, MAX(version) AS maxVersion FROM #VersionedSnomedSets
@@ -431,8 +433,7 @@ LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE ((SuppliedCode IN 
 	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('recurrent-depressive', 'bipolar', 'schizophrenia-psychosis') AND [Version] = 1)) 
 	OR 
-	  (SuppliedCode IN 
-	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('depression') AND [Version] = 1) AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #depression_cohort_sample)))
+	(gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #depression_cohort_sample)))
     AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND (gp.EventDate) <= '2020-01-31'
 
@@ -723,7 +724,9 @@ ORDER BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider;
 --						A COVID-related admission is classed as an admission within 4 weeks after, or up to 2 weeks before
 --						a positive test.
 
--- INPUT: Assumes there exists two temp tables as follows:
+-- INPUT: Takes one parameter
+--  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+-- And assumes there exists two temp tables as follows:
 -- #Patients (FK_Patient_Link_ID)
 --  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 -- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
@@ -737,11 +740,36 @@ ORDER BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider;
 --	- CovidHealthcareUtilisation - 'TRUE' if admission within 4 weeks after, or up to 14 days before, a positive test
 
 -- Get first positive covid test for each patient
-IF OBJECT_ID('tempdb..#CovidCases') IS NOT NULL DROP TABLE #CovidCases;
-SELECT FK_Patient_Link_ID, MIN(CONVERT(DATE, [EventDate])) AS CovidPositiveDate INTO #CovidCases
+--┌─────────────────────┐
+--│ Patients with COVID │
+--└─────────────────────┘
+
+-- OBJECTIVE: To get tables of all patients with a COVID diagnosis in their record.
+
+-- INPUT: Takes one parameter
+--  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+
+-- OUTPUT: Two temp tables as follows:
+-- #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- FirstCovidPositiveDate - earliest COVID diagnosis
+-- #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- CovidPositiveDate - any COVID diagnosis
+
+IF OBJECT_ID('tempdb..#CovidPatientsAllDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsAllDiagnoses;
+SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate INTO #CovidPatientsAllDiagnoses
 FROM [RLS].[vw_COVID19]
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND GroupDescription = 'Confirmed'
+WHERE (
+	(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+)
+AND EventDate > '2020-01-31'
+AND EventDate <= GETDATE();
+
+IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
+SELECT FK_Patient_Link_ID, MIN(CovidPositiveDate) AS FirstCovidPositiveDate INTO #CovidPatients
+FROM #CovidPatientsAllDiagnoses
 GROUP BY FK_Patient_Link_ID;
 
 
@@ -754,10 +782,10 @@ SELECT
 	END AS CovidHealthcareUtilisation
 INTO #COVIDUtilisationAdmissions 
 FROM #Admissions a
-LEFT OUTER join #CovidCases c ON 
+LEFT OUTER join #CovidPatients c ON 
 	a.FK_Patient_Link_ID = c.FK_Patient_Link_ID 
-	AND a.AdmissionDate <= DATEADD(WEEK, 4, c.CovidPositiveDate)
-	AND a.AdmissionDate >= DATEADD(DAY, -14, c.CovidPositiveDate);
+	AND a.AdmissionDate <= DATEADD(WEEK, 4, c.FirstCovidPositiveDate)
+	AND a.AdmissionDate >= DATEADD(DAY, -14, c.FirstCovidPositiveDate);
 
 
 ----- create anonymised identifier for each hospital

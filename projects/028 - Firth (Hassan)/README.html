@@ -129,6 +129,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>Lower level super output area</li>
 <li>Index Multiple Deprivation</li>
 <li>COVID-related secondary admissions</li>
+<li>Patients with COVID</li>
 <li>Secondary admissions and length of stay</li>
 <li>Secondary discharges</li>
 <li>Cohort matching on year of birth / sex</li>
@@ -247,7 +248,9 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h3>COVID-related secondary admissions</h3>
 <p>To classify every admission to secondary care based on whether it is a COVID or non-COVID related. A COVID-related admission is classed as an admission within 4 weeks after, or up to 2 weeks before a positive test.</p>
 <p><em>Input</em></p>
-<pre><code>Assumes there exists two temp tables as follows:
+<pre><code>Takes one parameter
+  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+ And assumes there exists two temp tables as follows:
  #Patients (FK_Patient_Link_ID)
   A distinct list of FK_Patient_Link_IDs for each patient in the cohort
  #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
@@ -263,6 +266,24 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </code></pre>
 <p><em>File</em>: <code>query-admissions-covid-utilisation.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-admissions-covid-utilisation.sql">https://github.com/rw251/.../query-admissions-covid-utilisation.sql</a></p>
+<hr>
+<h3>Patients with COVID</h3>
+<p>To get tables of all patients with a COVID diagnosis in their record.</p>
+<p><em>Input</em></p>
+<pre><code>Takes one parameter
+  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>Two temp tables as follows:
+ #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- FirstCovidPositiveDate - earliest COVID diagnosis
+ #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- CovidPositiveDate - any COVID diagnosis
+</code></pre>
+<p><em>File</em>: <code>query-patients-with-covid.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid.sql">https://github.com/rw251/.../query-patients-with-covid.sql</a></p>
 <hr>
 <h3>Secondary admissions and length of stay</h3>
 <p>To obtain a table with every secondary care admission, along with the acute provider, the date of admission, the date of discharge, and the length of stay.</p>
@@ -393,39 +414,220 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>covid-vaccine-declined v1</li>
 </ul>
 <p>Further details for each code set can be found below.</p>
+<h3>Reccurent Depression</h3>
+<p>Code set for patients diagnosed with a recurrent depressive disorder</p>
+<p>Developed from www.opencodelists.org</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system,
+we can attempt to validate the clinical code sets and the reporting of the conditions.
+Here is a log for this code set.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th>Patients from ID</th>
+<th>Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-07-19</td>
+<td>EMIS</td>
+<td>2615750</td>
+<td>136201 (5.21%)</td>
+<td>136142 (5.21%)</td>
+</tr>
+<tr>
+<td>2021-07-19</td>
+<td>TPP</td>
+<td>211345</td>
+<td>2973 (1.41%)</td>
+<td>2958 (1.40%)</td>
+</tr>
+<tr>
+<td>2021-07-19</td>
+<td>Vision</td>
+<td>336528</td>
+<td>22413 (6.66%)</td>
+<td>7994 (2.38%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/recurrent-depressive/1">https://github.com/rw251/.../conditions/recurrent-depressive/1</a></p>
+<h3>Schizophrenia and Psychosis</h3>
+<p>Code set for patients with a diagnosis of psychosis or schizophrenia.</p>
+<p>Developed from www.opencodelists.org</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions.
-Here is a log for this code set. The prevalence range (7.04% - 10.97%)</p>
-<p>| Date       | Practice system | Population | Patients from ID | Patient from code |
-2021-05-25	EMIS		2608685		21234 (0.81%)	    227881 (8.73%)	
-2021-05-25	TPP		210985		22380 (10.61%)	     23153 (10.97%)	
-2021-05-25	Vision		335010		 5237 (1.56%)	     23597 (7.04%)</p>
-<p>17/06</p>
-<p>5.22340449160247
-1.41671640094353
-6.67316137258757
-LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/recurrent-depressive/1">https://github.com/rw251/.../conditions/recurrent-depressive/1</a></p>
+Here is a log for this code set. The prevalence range (1.10% - 1.90%)</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th>Patients from ID</th>
+<th>Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-06-16</td>
+<td>EMIS</td>
+<td>2608685</td>
+<td>46695 (1.79%)</td>
+<td>46695 (1.79%)</td>
+</tr>
+<tr>
+<td>2021-06-16</td>
+<td>TPP</td>
+<td>210985</td>
+<td>28695 (1.10%)</td>
+<td>28695 (1.10%)</td>
+</tr>
+<tr>
+<td>2021-06-16</td>
+<td>Vision</td>
+<td>335010</td>
+<td>49565 (1.90%)</td>
+<td>49565 (1.90%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/schizophrenia-psychosis/1">https://github.com/rw251/.../conditions/schizophrenia-psychosis/1</a></p>
+<h3>Bipolar</h3>
+<p>Code set for patients with a diagnosis of bipolar.</p>
+<p>Developed from www.opencodelists.org</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system,
+we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+Prevalence range: 0.28% - 0.54%</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th>Patients from ID</th>
+<th>Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-06-30</td>
+<td>EMIS</td>
+<td>2608685</td>
+<td>14087 (0.54%)</td>
+<td>14087 (0.54%)</td>
+</tr>
+<tr>
+<td>2021-06-30</td>
+<td>TPP</td>
+<td>210985</td>
+<td>591 (0.28%)</td>
+<td>591 (0.28%)</td>
+</tr>
+<tr>
+<td>2021-06-30</td>
+<td>Vision</td>
+<td>335010</td>
+<td>1608 (0.48%)</td>
+<td>1608 (0.48%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/bipolar/1">https://github.com/rw251/.../conditions/bipolar/1</a></p>
+<h3>Depression</h3>
+<p>Code set for patients with a diagnosis of depression.</p>
+<p>Developed from www.opencodelists.org</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system,
+we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+Prevalence range: 21.09% - 22.83%</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th>Patients from ID</th>
+<th>Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-07-19</td>
+<td>EMIS</td>
+<td>2615750</td>
+<td>563434 (21.54%)</td>
+<td>563399 (21.54%)</td>
+</tr>
+<tr>
+<td>2021-07-19</td>
+<td>TPP</td>
+<td>211345</td>
+<td>44578 (21.09%)</td>
+<td>44581 (21.09%)</td>
+</tr>
+<tr>
+<td>2021-07-19</td>
+<td>Vision</td>
+<td>336528</td>
+<td>76828 (22.83%)</td>
+<td>76125 (22.62%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/depression/1">https://github.com/rw251/.../conditions/depression/1</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>Antipychotics</h3>
+<p>Code set for prescriptions of antipsychotic medication.</p>
+<p>Developed from https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/53/</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions.
-Here is a log for this code set. The prevalence range (0.67% - 0.76%)</p>
-<p>| Date       | Practice system | Population | Patients from ID | Patient from code |
-2021-05-25	EMIS		2608685		19794 (0.76%)	  19793 (0.76%)
-2021-05-25	TPP		210985		1415 (0.67%)	  1415 (0.67%)	
-2021-05-25	Vision		335010		2463 (0.74%)	  2308 (0.69%)</p>
-<p>1.79
-1.10
-1.90
-LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/schizophrenia-psychosis/1">https://github.com/rw251/.../conditions/schizophrenia-psychosis/1</a></p>
-<h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
-<p>| Date       | Practice system | Population | Patients from ID | Patient from code |
-2021-06-01   |	EMIS		2608685		11258 (0.43%)  | 11252 (0.43%)	   |
-2021-06-01   |	TPP		210985	          504 (0.24%)  |   504 (0.24%)	   |
-2021-06-01   |	Vision		335010	         1201 (0.39%)  |  1165 (0.39%)	   |</p>
-<p>2021-06-30 EMIS   0.54%
-2021-06-30 TPP 	  0.28%
-2021-06-30 Vision 0.48%
-LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/bipolar/1">https://github.com/rw251/.../conditions/bipolar/1</a></p>
+Here is a log for this code set. The prevalence range <code>3.10% - 3.78%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-07-20</td>
+<td>EMIS</td>
+<td>2616446</td>
+<td style="text-align:right">81113 (3.10%)</td>
+<td style="text-align:right">81141 (3.10%)</td>
+</tr>
+<tr>
+<td>2021-07-20</td>
+<td>TPP</td>
+<td>211414</td>
+<td style="text-align:right">6642 (3.14%)</td>
+<td style="text-align:right">7995 (3.78%)</td>
+</tr>
+<tr>
+<td>2021-07-20</td>
+<td>Vision</td>
+<td>336776</td>
+<td style="text-align:right">10600 (3.15%)</td>
+<td style="text-align:right">10600 (3.15%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/antipsychotics/1">https://github.com/rw251/.../medications/antipsychotics/1</a></p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
 <p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>1.19% - 26.55%</code> as of 11th March 2021 is too wide. However the prevalence figure of 26.55% from EMIS is close to public data and is likely ok.</p>
@@ -39292,6 +39494,36 @@ LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code
 </tr>
 <tr>
 <td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y2a0e</td>
+<td>SARS-2 Coronavirus vaccine</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y2a0f</td>
+<td>COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 1</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y2a3a</td>
+<td>COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 2</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
 <td>emis</td>
 <td>^ESCT1348323</td>
 <td>Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
@@ -39366,7 +39598,7 @@ LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code
 <td>covid-vaccination v1</td>
 <td>emis</td>
 <td>^ESCT1301222</td>
-<td>??2019-nCoV (novel coronavirus) vaccination??</td>
+<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination</td>
 </tr>
 <tr>
 <td>covid-vaccination v1</td>
