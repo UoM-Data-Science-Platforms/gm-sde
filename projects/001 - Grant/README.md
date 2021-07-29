@@ -328,7 +328,7 @@ Takes one parameter
 
 _Output_
 ```
-Two temp table as follows:
+Two temp tables as follows:
  #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
  	- FK_Patient_Link_ID - unique patient id
 	- FirstCovidPositiveDate - earliest COVID diagnosis

@@ -1117,7 +1117,7 @@ ORDER BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider;
 -- INPUT: Takes one parameter
 --  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
 
--- OUTPUT: Two temp table as follows:
+-- OUTPUT: Two temp tables as follows:
 -- #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
 -- 	- FK_Patient_Link_ID - unique patient id
 --	- FirstCovidPositiveDate - earliest COVID diagnosis

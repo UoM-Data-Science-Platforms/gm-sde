@@ -1035,7 +1035,7 @@ HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1Is
 -- INPUT: Takes one parameter
 --  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
 
--- OUTPUT: Two temp table as follows:
+-- OUTPUT: Two temp tables as follows:
 -- #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
 -- 	- FK_Patient_Link_ID - unique patient id
 --	- FirstCovidPositiveDate - earliest COVID diagnosis
@@ -1182,10 +1182,24 @@ LEFT OUTER JOIN #PatientPractice pp ON pp.FK_Patient_Link_ID = p.FK_Patient_Link
 LEFT OUTER JOIN SharedCare.Reference_GP_Practice gp ON gp.OrganisationCode = pp.GPPracticeCode
 LEFT OUTER JOIN #CCGLookup ccg ON ccg.CcgId = gp.Commissioner;
 
+-- We need to remove the main COVID vaccine codes from the medications as they cause
+-- spikes which we're not interested in
+IF OBJECT_ID('tempdb..#COVIDVaccMedCodes') IS NOT NULL DROP TABLE #COVIDVaccMedCodes;
+SELECT 'S'+CONVERT(VARCHAR,FK_Reference_SnomedCT_ID) AS Code INTO #COVIDVaccMedCodes
+FROM SharedCare.Reference_Local_Code
+WHERE LocalCode IN ('COCO138186NEMIS','CODI138564NEMIS','TASO138184NEMIS')
+AND FK_Reference_SnomedCT_ID != -1
+UNION
+SELECT 'F'+CONVERT(VARCHAR,FK_Reference_Coding_ID) FROM SharedCare.Reference_Local_Code
+WHERE LocalCode IN ('COCO138186NEMIS','CODI138564NEMIS','TASO138184NEMIS')
+AND FK_Reference_Coding_ID != -1;
+
 -- Bring it all together for output
 -- PRINT 'FirstMedDate,CCG,GPPracticeCode,IMD2019Decile1IsMostDeprived10IsLeastDeprived,LTCGroup,CovidHealthcareUtilisation,NumberFirstPrescriptions';
 SELECT 
-	fm.FirstMedDate, CCG, GPPracticeCode, 
+	fm.FirstMedDate,	
+	'Y' AS IsCovidVaccine,
+	CCG, GPPracticeCode, 
 	ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
 	ISNULL(LTCGroup, 'None') AS LTCGroup, CovidHealthcareUtilisation, count(*) AS NumberFirstPrescriptions  
 FROM #FirstMedications fm
@@ -1193,5 +1207,20 @@ LEFT OUTER JOIN #COVIDUtilisationPrimaryCare c ON c.FK_Patient_Link_ID = fm.FK_P
 LEFT OUTER JOIN #LTCGroups ltc ON ltc.FK_Patient_Link_ID = fm.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = fm.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientPracticeAndCCG pc ON pc.FK_Patient_Link_ID = fm.FK_Patient_Link_ID
+WHERE fm.Code IN (SELECT Code FROM #COVIDVaccMedCodes)
 GROUP BY FirstMedDate, CCG, GPPracticeCode,IMD2019Decile1IsMostDeprived10IsLeastDeprived, LTCGroup, CovidHealthcareUtilisation
-ORDER BY FirstMedDate, CCG, GPPracticeCode,IMD2019Decile1IsMostDeprived10IsLeastDeprived, LTCGroup, CovidHealthcareUtilisation;
+UNION
+SELECT 
+	fm.FirstMedDate,	
+	'N' AS IsCovidVaccine,
+	CCG, GPPracticeCode, 
+	ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
+	ISNULL(LTCGroup, 'None') AS LTCGroup, CovidHealthcareUtilisation, count(*) AS NumberFirstPrescriptions  
+FROM #FirstMedications fm
+LEFT OUTER JOIN #COVIDUtilisationPrimaryCare c ON c.FK_Patient_Link_ID = fm.FK_Patient_Link_ID AND c.EventDate = fm.FirstMedDate
+LEFT OUTER JOIN #LTCGroups ltc ON ltc.FK_Patient_Link_ID = fm.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = fm.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientPracticeAndCCG pc ON pc.FK_Patient_Link_ID = fm.FK_Patient_Link_ID
+WHERE fm.Code NOT IN (SELECT Code FROM #COVIDVaccMedCodes)
+GROUP BY FirstMedDate, CCG, GPPracticeCode,IMD2019Decile1IsMostDeprived10IsLeastDeprived, LTCGroup, CovidHealthcareUtilisation
+ORDER BY FirstMedDate, IsCovidVaccine, CCG, GPPracticeCode,IMD2019Decile1IsMostDeprived10IsLeastDeprived, LTCGroup, CovidHealthcareUtilisation;
