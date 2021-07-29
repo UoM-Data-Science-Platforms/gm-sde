@@ -10,13 +10,15 @@
 -- OUTPUT: Data with the following fields
 --     PatientId (Int)
 --     MedicationDate (YYYY-MM-DD)
---     FirstMedicationDate (YYYY-MM-DD)
---     LastMedicationDate (YYYY-MM-DD)
 --     DrugCode (Nvarchar)
 --     Quantity (Nvarchar)
 --     Dosage (Nvarchar)
 --     Last Issue Date (YYYY-MM-DD)
+--	   Units
 --     RepeatMedicationFlag e.g. (Y, N, Null)
+--     MedicationStartDate (YYYY-MM-DD)
+--     MedicationEndDate (YYYY-MM-DD)
+
 
 
 
