@@ -211,10 +211,20 @@ Attempted to find the location of information related to project no.1 (Grant), i
 - checking access to new RDE schema
 
 29/06/21
-- adding sample of depression patients to cohort
+- adding sample of depression patients to cohort RQ028
 
 30/06/21
 - finding cohort of patients that have been prescribed lithium to validate bipolar cohort
 
 06/07/21
-- checkig all RQ028 scripts are ready for extraction
+- checking all RQ028 scripts are ready for extraction
+
+19/07/21
+- make changes to template scripts based on RDE feedback - RQ028
+
+20/07/21
+- finish amending template scripts after RDE feedback - RQ028
+
+21/07/21
+- final checks of output RQ028
+- extract data RQ028
