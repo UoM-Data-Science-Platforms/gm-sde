@@ -5,3 +5,5 @@ COCO138186NEMIS	COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentra
 ^ESCT1348301	COVID-19 vaccination
 ^ESCT1299050	2019-nCoV (novel coronavirus) vaccination
 ^ESCT1301222	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination
+CODI138564NEMIS	Covid-19 mRna (nucleoside modified) Vaccine Moderna  Dispersion for injection  0.1 mg/0.5 ml dose, multidose vial
+TASO138184NEMIS	Covid-19 Vaccine AstraZeneca (ChAdOx1 S recombinant)  Solution for injection  5x10 billion viral particle/0.5 ml multidose vial

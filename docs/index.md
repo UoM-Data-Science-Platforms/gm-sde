@@ -14,7 +14,7 @@ This page describes the data that is available within the GMCR. It is likely use
 
 The GMCR contains linked data from primary and secondary care from the 10 CCGs in Greater Manchester (Bolton, Bury, Heywood Middleton and Rochdale, Manchester, Oldham, Salford, Stockport, Tameside and Glossop, Trafford, and Wigan). This includes:
 
-- all informaion that is typically held within GP systems
+- all information that is typically held within GP systems
 - secondary care data related to A&E admissions, in-patient stays, and out-patient appointments for all hospital trusts (acute and community) in Greater Manchester
 
 Further detail on the data is set out below.
