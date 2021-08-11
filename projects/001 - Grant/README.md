@@ -38,16 +38,16 @@ This project required the following reusable queries:
 - Secondary discharges
 - Classify secondary admissions
 - Likely hospital for each LSOA
-- Lower level super output area
-- Long-term condition groups per patient
-- GET practice and ccg for each patient
-- CCG lookup table
 - COVID utilisation from primary care data
 - Patients with COVID
-- Index Multiple Deprivation
-- GET No. LTCS per patient
-- Long-term conditions
 - First prescriptions from GP data
+- GET No. LTCS per patient
+- GET practice and ccg for each patient
+- CCG lookup table
+- Lower level super output area
+- Index Multiple Deprivation
+- Long-term condition groups per patient
+- Long-term conditions
 
 Further details for each query can be found below.
 
@@ -192,102 +192,6 @@ _File_: `query-patient-lsoa-likely-hospital.sql`
 _Link_: [https://github.com/rw251/.../query-patient-lsoa-likely-hospital.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-lsoa-likely-hospital.sql)
 
 ---
-### Lower level super output area
-To get the LSOA for each patient.
-
-_Assumptions_
-
-- Patient data is obtained from multiple sources. Where patients have multiple LSOAs we determine the LSOA as follows:
-- If the patients has an LSOA in their primary care data feed we use that as most likely to be up to date
-- If every LSOA for a paitent is the same, then we use that
-- If there is a single most recently updated LSOA in the database then we use that
-- Otherwise the patient's LSOA is considered unknown
-
-_Input_
-```
-Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-```
-
-_Output_
-```
-A temp table as follows:
- #PatientLSOA (FK_Patient_Link_ID, LSOA)
- 	- FK_Patient_Link_ID - unique patient id
-	- LSOA_Code - nationally recognised LSOA identifier
-```
-_File_: `query-patient-lsoa.sql`
-
-_Link_: [https://github.com/rw251/.../query-patient-lsoa.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-lsoa.sql)
-
----
-### Long-term condition groups per patient
-To provide the long-term condition group or groups for each patient. Examples of long term condition groups would be: Cardiovascular, Endocrine, Respiratory
-
-_Input_
-```
-Assumes there exists a temp table as follows:
- #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
- Therefore this is run after query-patient-ltcs.sql
-```
-
-_Output_
-```
-A temp table with a row for each patient and ltc group combo
- #LTCGroups (FK_Patient_Link_ID, LTCGroup)
-```
-_File_: `query-patient-ltcs-group.sql`
-
-_Link_: [https://github.com/rw251/.../query-patient-ltcs-group.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-group.sql)
-
----
-### GET practice and ccg for each patient
-For each patient to get the practice id that they are registered to, and the CCG name that the practice belongs to.
-
-_Input_
-```
-Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-```
-
-_Output_
-```
-Two temp tables as follows:
- #PatientPractice (FK_Patient_Link_ID, GPPracticeCode)
-	- FK_Patient_Link_ID - unique patient id
-	- GPPracticeCode - the nationally recognised practice id for the patient
- #PatientPracticeAndCCG (FK_Patient_Link_ID, GPPracticeCode, CCG)
-	- FK_Patient_Link_ID - unique patient id
-	- GPPracticeCode - the nationally recognised practice id for the patient
-	- CCG - the name of the patient's CCG
-```
-_File_: `query-patient-practice-and-ccg.sql`
-
-_Link_: [https://github.com/rw251/.../query-patient-practice-and-ccg.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-practice-and-ccg.sql)
-
----
-### CCG lookup table
-To provide lookup table for CCG names. The GMCR provides the CCG id (e.g. '00T', '01G') but not the CCG name. This table can be used in other queries when the output is required to be a ccg name rather than an id.
-
-_Input_
-```
-No pre-requisites
-```
-
-_Output_
-```
-A temp table as follows:
- #CCGLookup (CcgId, CcgName)
- 	- CcgId - Nationally recognised ccg id
-	- CcgName - Bolton, Stockport etc..
-```
-_File_: `query-ccg-lookup.sql`
-
-_Link_: [https://github.com/rw251/.../query-ccg-lookup.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-ccg-lookup.sql)
-
----
 ### COVID utilisation from primary care data
 Classifies a list of events as COVID or non-COVID. An event is classified as "COVID" if the date of the event is within 4 weeks after, or up to 14 days before, a positive COVID test.
 
@@ -341,68 +245,6 @@ _File_: `query-patients-with-covid.sql`
 _Link_: [https://github.com/rw251/.../query-patients-with-covid.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid.sql)
 
 ---
-### Index Multiple Deprivation
-To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.
-
-_Input_
-```
-Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-```
-
-_Output_
-```
-A temp table as follows:
- #PatientIMDDecile (FK_Patient_Link_ID, IMD2019Decile1IsMostDeprived10IsLeastDeprived)
- 	- FK_Patient_Link_ID - unique patient id
-	- IMD2019Decile1IsMostDeprived10IsLeastDeprived - number 1 to 10 inclusive
-```
-_File_: `query-patient-imd.sql`
-
-_Link_: [https://github.com/rw251/.../query-patient-imd.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-imd.sql)
-
----
-### GET No. LTCS per patient
-To get the number of long-term conditions for each patient.
-
-_Input_
-```
-Assumes there exists a temp table as follows:
- #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
- Therefore this is run after query-patient-ltcs.sql
-```
-
-_Output_
-```
-A temp table with a row for each patient with the number of LTCs they have
- #NumLTCs (FK_Patient_Link_ID, NumberOfLTCs)
-```
-_File_: `query-patient-ltcs-number-of.sql`
-
-_Link_: [https://github.com/rw251/.../query-patient-ltcs-number-of.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-number-of.sql)
-
----
-### Long-term conditions
-To get every long-term condition for each patient.
-
-_Input_
-```
-Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
- A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-```
-
-_Output_
-```
-A temp table with a row for each patient and ltc combo
- #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
-```
-_File_: `query-patient-ltcs.sql`
-
-_Link_: [https://github.com/rw251/.../query-patient-ltcs.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs.sql)
-
----
 ### First prescriptions from GP data
 To obtain, for each patient, the first date for each medication they have ever been prescribed.
 
@@ -428,6 +270,164 @@ A temp table as follows:
 _File_: `query-first-prescribing-of-medication.sql`
 
 _Link_: [https://github.com/rw251/.../query-first-prescribing-of-medication.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-first-prescribing-of-medication.sql)
+
+---
+### GET No. LTCS per patient
+To get the number of long-term conditions for each patient.
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
+ Therefore this is run after query-patient-ltcs.sql
+```
+
+_Output_
+```
+A temp table with a row for each patient with the number of LTCs they have
+ #NumLTCs (FK_Patient_Link_ID, NumberOfLTCs)
+```
+_File_: `query-patient-ltcs-number-of.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-ltcs-number-of.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-number-of.sql)
+
+---
+### GET practice and ccg for each patient
+For each patient to get the practice id that they are registered to, and the CCG name that the practice belongs to.
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+Two temp tables as follows:
+ #PatientPractice (FK_Patient_Link_ID, GPPracticeCode)
+	- FK_Patient_Link_ID - unique patient id
+	- GPPracticeCode - the nationally recognised practice id for the patient
+ #PatientPracticeAndCCG (FK_Patient_Link_ID, GPPracticeCode, CCG)
+	- FK_Patient_Link_ID - unique patient id
+	- GPPracticeCode - the nationally recognised practice id for the patient
+	- CCG - the name of the patient's CCG
+```
+_File_: `query-patient-practice-and-ccg.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-practice-and-ccg.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-practice-and-ccg.sql)
+
+---
+### CCG lookup table
+To provide lookup table for CCG names. The GMCR provides the CCG id (e.g. '00T', '01G') but not the CCG name. This table can be used in other queries when the output is required to be a ccg name rather than an id.
+
+_Input_
+```
+No pre-requisites
+```
+
+_Output_
+```
+A temp table as follows:
+ #CCGLookup (CcgId, CcgName)
+ 	- CcgId - Nationally recognised ccg id
+	- CcgName - Bolton, Stockport etc..
+```
+_File_: `query-ccg-lookup.sql`
+
+_Link_: [https://github.com/rw251/.../query-ccg-lookup.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-ccg-lookup.sql)
+
+---
+### Lower level super output area
+To get the LSOA for each patient.
+
+_Assumptions_
+
+- Patient data is obtained from multiple sources. Where patients have multiple LSOAs we determine the LSOA as follows:
+- If the patients has an LSOA in their primary care data feed we use that as most likely to be up to date
+- If every LSOA for a paitent is the same, then we use that
+- If there is a single most recently updated LSOA in the database then we use that
+- Otherwise the patient's LSOA is considered unknown
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientLSOA (FK_Patient_Link_ID, LSOA)
+ 	- FK_Patient_Link_ID - unique patient id
+	- LSOA_Code - nationally recognised LSOA identifier
+```
+_File_: `query-patient-lsoa.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-lsoa.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-lsoa.sql)
+
+---
+### Index Multiple Deprivation
+To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientIMDDecile (FK_Patient_Link_ID, IMD2019Decile1IsMostDeprived10IsLeastDeprived)
+ 	- FK_Patient_Link_ID - unique patient id
+	- IMD2019Decile1IsMostDeprived10IsLeastDeprived - number 1 to 10 inclusive
+```
+_File_: `query-patient-imd.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-imd.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-imd.sql)
+
+---
+### Long-term condition groups per patient
+To provide the long-term condition group or groups for each patient. Examples of long term condition groups would be: Cardiovascular, Endocrine, Respiratory
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
+ Therefore this is run after query-patient-ltcs.sql
+```
+
+_Output_
+```
+A temp table with a row for each patient and ltc group combo
+ #LTCGroups (FK_Patient_Link_ID, LTCGroup)
+```
+_File_: `query-patient-ltcs-group.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-ltcs-group.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-group.sql)
+
+---
+### Long-term conditions
+To get every long-term condition for each patient.
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+ A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table with a row for each patient and ltc combo
+ #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
+```
+_File_: `query-patient-ltcs.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-ltcs.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs.sql)
 ## Clinical code sets
 
 This project required the following clinical code sets:
