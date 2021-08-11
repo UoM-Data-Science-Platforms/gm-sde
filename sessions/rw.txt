@@ -259,8 +259,17 @@
 2021-06-18
 - Amended data extract for RQ017 Humphreys
 
+2021-06-30
+- Work on in/out of area movements
 
+2021-07-01
+- Extra data for RQ020
 
+2021-07-02
+- T1/T2 death counts for RQ020
 
+2021-07-06
+- T1/T2 death counts for RQ020
 
-
+2021-07-28
+- vaccination data added for RQ001
