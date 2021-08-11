@@ -127,6 +127,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>Secondary admissions and length of stay</li>
 <li>Secondary discharges</li>
 <li>Cohort matching on year of birth / sex / and an index date</li>
+<li>COVID vaccinations</li>
 <li>Townsend Score (2011)</li>
 <li>Lower level super output area</li>
 <li>Sex</li>
@@ -229,6 +230,26 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </code></pre>
 <p><em>File</em>: <code>query-cohort-matching-yob-sex-index-date.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-cohort-matching-yob-sex-index-date.sql">https://github.com/rw251/.../query-cohort-matching-yob-sex-index-date.sql</a></p>
+<hr>
+<h3>COVID vaccinations</h3>
+<p>To obtain a table with first and second vaccine doses per patient.</p>
+<p><em>Assumptions</em></p>
+<ul>
+<li>GP records can often be duplicated. The assumption is that if a patient receives two vaccines within 14 days of each other then it is likely that both codes refer to the same vaccine. However, it is possible that the first code's entry into the record was delayed and therefore the second code is in fact a second dose. This query simply gives the earliest and latest vaccine for each person together with the number of days since the first vaccine.</li>
+<li>The vaccine can appear as a procedure or as a medication. We assume that the presence of either represents a vaccination</li>
+</ul>
+<p><em>Input</em></p>
+<pre><code>No pre-requisites
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table as follows:
+ #COVIDVaccinations (FK_Patient_Link_ID, VaccineDate, DaysSinceFirstVaccine)
+ 	- FK_Patient_Link_ID - unique patient id
+	- VaccineDate - date of vaccine (YYYY-MM-DD)
+	- DaysSinceFirstVaccine - 0 if first vaccine, &gt; 0 otherwise
+</code></pre>
+<p><em>File</em>: <code>query-get-covid-vaccines.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-covid-vaccines.sql">https://github.com/rw251/.../query-get-covid-vaccines.sql</a></p>
 <hr>
 <h3>Townsend Score (2011)</h3>
 <p>To get the 2011 Townsend score and quintile for each patient.</p>
@@ -349,7 +370,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
   - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
 </code></pre>
 <p><em>Output</em></p>
-<pre><code>Two temp table as follows:
+<pre><code>Two temp tables as follows:
  #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
  	- FK_Patient_Link_ID - unique patient id
 	- FirstCovidPositiveDate - earliest COVID diagnosis
@@ -372,6 +393,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>smoking-status-never v1</li>
 <li>smoking-status-passive v1</li>
 <li>smoking-status-trivial v1</li>
+<li>covid-vaccination v1</li>
 <li>bmi v2</li>
 <li>hba1c v2</li>
 <li>cholesterol v2</li>
@@ -526,6 +548,82 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-never/1">https://github.com/rw251/.../patient/smoking-status-never/1</a></p>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-passive/1">https://github.com/rw251/.../patient/smoking-status-passive/1</a></p>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-trivial/1">https://github.com/rw251/.../patient/smoking-status-trivial/1</a></p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
+<p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>1.19% - 26.55%</code> as of 11th March 2021 is too wide. However the prevalence figure of 26.55% from EMIS is close to public data and is likely ok.</p>
+<p><strong>UPDATE - 25th March 2021</strong> Missing Read and CTV3 codes were added to the vaccination list and now the range of <code>26.91% - 32.96%</code> seems reasonable. It should be noted that there is an approx 2 week lag between events occurring and them being entered in the record.</p>
+<p>**UPDATE - 12th April 2021, latest prevalence figures:</p>
+<p>MED</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-05-12</td>
+<td>EMIS</td>
+<td>2606497</td>
+<td style="text-align:right">0 (0%)</td>
+<td style="text-align:right">379577(14.56%)</td>
+</tr>
+<tr>
+<td>2021-05-12</td>
+<td>TPP</td>
+<td>210810</td>
+<td style="text-align:right">0 (0%)</td>
+<td style="text-align:right">1637(0.78%)</td>
+</tr>
+<tr>
+<td>2021-05-12</td>
+<td>Vision</td>
+<td>334784</td>
+<td style="text-align:right">0 (0%)</td>
+<td style="text-align:right">93(0.03%)</td>
+</tr>
+</tbody>
+</table>
+<p>EVENT</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-05-12</td>
+<td>EMIS</td>
+<td>2606497</td>
+<td style="text-align:right">4446 (0.17%)</td>
+<td style="text-align:right">1101577 (42.26%)</td>
+</tr>
+<tr>
+<td>2021-05-12</td>
+<td>TPP</td>
+<td>210810</td>
+<td style="text-align:right">7 (0.00%)</td>
+<td style="text-align:right">87841 (41.66%)</td>
+</tr>
+<tr>
+<td>2021-05-12</td>
+<td>Vision</td>
+<td>334784</td>
+<td style="text-align:right">1 (0.00%)</td>
+<td style="text-align:right">142724 (42.63%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/covid-vaccination/1">https://github.com/rw251/.../procedures/covid-vaccination/1</a></p>
 <h3>Body Mass Index (BMI)</h3>
 <p>A patient's BMI as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>22K.. - Body Mass Index</code>). It does not include codes that indicate a patient's BMI (<code>22K6. - Body mass index less than 20</code>) without giving the actual value.</p>
 <p><strong>NB: This code set is intended to indicate a patient's BMI. If you need to know whether a BMI was recorded then please use v1 of the code set.</strong></p>
@@ -7580,6 +7678,132 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td>snomed</td>
 <td>428041000124106</td>
 <td>Occasional tobacco smoker (finding)</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y210d</td>
+<td>2019-nCoV (novel coronavirus) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y29e7</td>
+<td>Administration of first dose of SARS-CoV-2 vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y29e8</td>
+<td>Administration of second dose of SARS-CoV-2 vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y2a0e</td>
+<td>SARS-2 Coronavirus vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y2a0f</td>
+<td>COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 1</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y2a3a</td>
+<td>COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 2</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>^ESCT1348323</td>
+<td>Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>COCO138186NEMIS</td>
+<td>COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>^ESCT1348325</td>
+<td>Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>^ESCT1348298</td>
+<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>^ESCT1348301</td>
+<td>COVID-19 vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>^ESCT1299050</td>
+<td>2019-nCoV (novel coronavirus) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>^ESCT1301222</td>
+<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>CODI138564NEMIS</td>
+<td>Covid-19 mRna (nucleoside modified) Vaccine Moderna  Dispersion for injection  0.1 mg/0.5 ml dose, multidose vial</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>TASO138184NEMIS</td>
+<td>Covid-19 Vaccine AstraZeneca (ChAdOx1 S recombinant)  Solution for injection  5x10 billion viral particle/0.5 ml multidose vial</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>readv2</td>
+<td>65F0.</td>
+<td>2019-nCoV (novel coronavirus) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>readv2</td>
+<td>65F0100</td>
+<td>Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>readv2</td>
+<td>65F0200</td>
+<td>2019-nCoV (novel coronavirus) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>snomed</td>
+<td>1240491000000103</td>
+<td>2019-nCoV (novel coronavirus) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>snomed</td>
+<td>2807821000000115</td>
+<td>2019-nCoV (novel coronavirus) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>snomed</td>
+<td>840534001</td>
+<td>Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)</td>
 </tr>
 <tr>
 <td>bmi v2</td>

@@ -54,7 +54,8 @@ IF OBJECT_ID('tempdb..#AllCodes') IS NOT NULL DROP TABLE #AllCodes;
 CREATE TABLE #AllCodes (
   [Concept] [varchar](255) NOT NULL,
   [Version] INT NOT NULL,
-  [Code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL
+  [Code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+  [description] [varchar] (255) NULL 
 );
 
 IF OBJECT_ID('tempdb..#codesreadv2') IS NOT NULL DROP TABLE #codesreadv2;
@@ -75,7 +76,7 @@ VALUES ('diabetes-type-ii',1,'C100100','Diabetes mellitus, adult onset, with no 
 ('diabetes-type-ii',1,'C10FQ','Type II diabetes mellitus with exudative maculopathy'),('diabetes-type-ii',1,'C10FR00','Type 2 diabetes mellitus with gastroparesis'),('diabetes-type-ii',1,'C10FR','Type 2 diabetes mellitus with gastroparesis'),('diabetes-type-ii',1,'C10FR11','Type II diabetes mellitus with gastroparesis'),('diabetes-type-ii',1,'C10FR','Type II diabetes mellitus with gastroparesis'),('diabetes-type-ii',1,'C10y100','Diabetes mellitus, adult onset, with other specified manifestation'),('diabetes-type-ii',1,'C10y1','Diabetes mellitus, adult onset, with other specified manifestation'),('diabetes-type-ii',1,'C10z100','Diabetes mellitus, adult onset, with unspecified complication'),('diabetes-type-ii',1,'C10z1','Diabetes mellitus, adult onset, with unspecified complication')
 
 INSERT INTO #AllCodes
-SELECT [concept], [version], [code] from #codesreadv2;
+SELECT [concept], [version], [code], [description] from #codesreadv2;
 
 IF OBJECT_ID('tempdb..#codesctv3') IS NOT NULL DROP TABLE #codesctv3;
 CREATE TABLE #codesctv3 (
@@ -91,7 +92,7 @@ INSERT INTO #codesctv3
 VALUES ('diabetes-type-ii',1,'C1011','Diabetes mellitus, adult onset, with ketoacidosis'),('diabetes-type-ii',1,'C1021','Diabetes mellitus, adult onset, with hyperosmolar coma'),('diabetes-type-ii',1,'C1031','Diabetes mellitus, adult onset, with ketoacidotic coma'),('diabetes-type-ii',1,'C1041','Diabetes mellitus, adult onset, with renal manifestation'),('diabetes-type-ii',1,'C1051','Diabetes mellitus, adult onset, with ophthalmic manifestation'),('diabetes-type-ii',1,'C1061','Diabetes mellitus, adult onset, with neurological manifestation'),('diabetes-type-ii',1,'C1071','Diabetes mellitus, adult onset, with peripheral circulatory disorder'),('diabetes-type-ii',1,'C1090','Non-insulin-dependent diabetes mellitus with renal complications'),('diabetes-type-ii',1,'C1091','Non-insulin-dependent diabetes mellitus with ophthalmic complications'),('diabetes-type-ii',1,'C1092','Non-insulin-dependent diabetes mellitus with neurological complications'),('diabetes-type-ii',1,'C1093','Non-insulin-dependent diabetes mellitus with multiple complications'),('diabetes-type-ii',1,'C1094','Non-insulin-dependent diabetes mellitus with ulcer'),('diabetes-type-ii',1,'C1095','Non-insulin-dependent diabetes mellitus with gangrene'),('diabetes-type-ii',1,'C1096','NIDDM - Non-insulin-dependent diabetes mellitus with retinopathy'),('diabetes-type-ii',1,'C1097','Non-insulin-dependent diabetes mellitus - poor control'),('diabetes-type-ii',1,'C10y1','Diabetes mellitus, adult onset, with other specified manifestation'),('diabetes-type-ii',1,'C10z1','Diabetes mellitus, adult onset, with unspecified complication'),('diabetes-type-ii',1,'X40J5','Non-insulin-dependent diabetes mellitus'),('diabetes-type-ii',1,'X40J6','Insulin treated Type 2 diabetes mellitus'),('diabetes-type-ii',1,'X40JJ','Diabetes mellitus autosomal dominant type 2'),('diabetes-type-ii',1,'XE10F','Diabetes mellitus, adult onset, with no mention of complication'),('diabetes-type-ii',1,'XM19j','[EDTA] Diabetes Type II (non-insulin-dependent) associated with renal failure'),('diabetes-type-ii',1,'XaELQ','Non-insulin-dependent diabetes mellitus without complication'),('diabetes-type-ii',1,'XaEnp','Type II diabetes mellitus with mononeuropathy'),('diabetes-type-ii',1,'XaEnq','Type 2 diabetes mellitus with polyneuropathy'),('diabetes-type-ii',1,'XaF05','Type 2 diabetes mellitus with nephropathy'),('diabetes-type-ii',1,'XaFWI','Type II diabetes mellitus with hypoglycaemic coma'),('diabetes-type-ii',1,'XaFmA','Type II diabetes mellitus with diabetic cataract'),('diabetes-type-ii',1,'XaFn7','Non-insulin-dependent diabetes mellitus with peripheral angiopathy'),('diabetes-type-ii',1,'XaFn8','Non-insulin dependent diabetes mellitus with arthropathy'),('diabetes-type-ii',1,'XaFn9','Non-insulin dependent diabetes mellitus with neuropathic arthropathy'),('diabetes-type-ii',1,'XaIfG','Type II diabetes on insulin'),('diabetes-type-ii',1,'XaIfI','Type II diabetes on diet only'),('diabetes-type-ii',1,'XaIrf','Hyperosmolar non-ketotic state in type II diabetes mellitus'),('diabetes-type-ii',1,'XaIzQ','Type 2 diabetes mellitus with persistent proteinuria'),('diabetes-type-ii',1,'XaIzR','Type 2 diabetes mellitus with persistent microalbuminuria'),('diabetes-type-ii',1,'XaJQp','Type II diabetes mellitus with exudative maculopathy'),('diabetes-type-ii',1,'XaKyX','Type II diabetes mellitus with gastroparesis')
 
 INSERT INTO #AllCodes
-SELECT [concept], [version], [code] from #codesctv3;
+SELECT [concept], [version], [code], [description] from #codesctv3;
 
 IF OBJECT_ID('tempdb..#codessnomed') IS NOT NULL DROP TABLE #codessnomed;
 CREATE TABLE #codessnomed (
@@ -104,7 +105,7 @@ CREATE TABLE #codessnomed (
 
 
 INSERT INTO #AllCodes
-SELECT [concept], [version], [code] from #codessnomed;
+SELECT [concept], [version], [code], [description] from #codessnomed;
 
 IF OBJECT_ID('tempdb..#codesemis') IS NOT NULL DROP TABLE #codesemis;
 CREATE TABLE #codesemis (
@@ -117,15 +118,15 @@ CREATE TABLE #codesemis (
 
 
 INSERT INTO #AllCodes
-SELECT [concept], [version], [code] from #codesemis;
+SELECT [concept], [version], [code], [description] from #codesemis;
 
 
 IF OBJECT_ID('tempdb..#TempRefCodes') IS NOT NULL DROP TABLE #TempRefCodes;
-CREATE TABLE #TempRefCodes (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, version INT NOT NULL);
+CREATE TABLE #TempRefCodes (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, version INT NOT NULL, [description] VARCHAR(255));
 
 -- Read v2 codes
 INSERT INTO #TempRefCodes
-SELECT PK_Reference_Coding_ID, dcr.concept, dcr.[version]
+SELECT PK_Reference_Coding_ID, dcr.concept, dcr.[version], dcr.[description]
 FROM [SharedCare].[Reference_Coding] rc
 INNER JOIN #codesreadv2 dcr on dcr.code = rc.MainCode
 WHERE CodingType='ReadCodeV2'
@@ -133,7 +134,7 @@ and PK_Reference_Coding_ID != -1;
 
 -- CTV3 codes
 INSERT INTO #TempRefCodes
-SELECT PK_Reference_Coding_ID, dcc.concept, dcc.[version]
+SELECT PK_Reference_Coding_ID, dcc.concept, dcc.[version], dcc.[description]
 FROM [SharedCare].[Reference_Coding] rc
 INNER JOIN #codesctv3 dcc on dcc.code = rc.MainCode
 WHERE CodingType='CTV3'
@@ -141,23 +142,23 @@ and PK_Reference_Coding_ID != -1;
 
 -- EMIS codes with a FK Reference Coding ID
 INSERT INTO #TempRefCodes
-SELECT FK_Reference_Coding_ID, ce.concept, ce.[version]
+SELECT FK_Reference_Coding_ID, ce.concept, ce.[version], ce.[description]
 FROM [SharedCare].[Reference_Local_Code] rlc
 INNER JOIN #codesemis ce on ce.code = rlc.LocalCode
 WHERE FK_Reference_Coding_ID != -1;
 
 IF OBJECT_ID('tempdb..#TempSNOMEDRefCodes') IS NOT NULL DROP TABLE #TempSNOMEDRefCodes;
-CREATE TABLE #TempSNOMEDRefCodes (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [version] INT NOT NULL);
+CREATE TABLE #TempSNOMEDRefCodes (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [version] INT NOT NULL, [description] VARCHAR(255));
 
 -- SNOMED codes
 INSERT INTO #TempSNOMEDRefCodes
-SELECT PK_Reference_SnomedCT_ID, dcs.concept, dcs.[version]
+SELECT PK_Reference_SnomedCT_ID, dcs.concept, dcs.[version], dcs.[description]
 FROM SharedCare.Reference_SnomedCT rs
 INNER JOIN #codessnomed dcs on dcs.code = rs.ConceptID;
 
 -- EMIS codes with a FK SNOMED ID but without a FK Reference Coding ID
 INSERT INTO #TempSNOMEDRefCodes
-SELECT FK_Reference_SnomedCT_ID, ce.concept, ce.[version]
+SELECT FK_Reference_SnomedCT_ID, ce.concept, ce.[version], ce.[description]
 FROM [SharedCare].[Reference_Local_Code] rlc
 INNER JOIN #codesemis ce on ce.code = rlc.LocalCode
 WHERE FK_Reference_Coding_ID = -1
@@ -165,16 +166,16 @@ AND FK_Reference_SnomedCT_ID != -1;
 
 -- De-duped tables
 IF OBJECT_ID('tempdb..#CodeSets') IS NOT NULL DROP TABLE #CodeSets;
-CREATE TABLE #CodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL);
+CREATE TABLE #CodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [description] VARCHAR(255));
 
 IF OBJECT_ID('tempdb..#SnomedSets') IS NOT NULL DROP TABLE #SnomedSets;
-CREATE TABLE #SnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL);
+CREATE TABLE #SnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [description] VARCHAR(255));
 
 IF OBJECT_ID('tempdb..#VersionedCodeSets') IS NOT NULL DROP TABLE #VersionedCodeSets;
-CREATE TABLE #VersionedCodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT);
+CREATE TABLE #VersionedCodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT, [description] VARCHAR(255));
 
 IF OBJECT_ID('tempdb..#VersionedSnomedSets') IS NOT NULL DROP TABLE #VersionedSnomedSets;
-CREATE TABLE #VersionedSnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT);
+CREATE TABLE #VersionedSnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT, [description] VARCHAR(255));
 
 INSERT INTO #VersionedCodeSets
 SELECT DISTINCT * FROM #TempRefCodes;
@@ -183,7 +184,7 @@ INSERT INTO #VersionedSnomedSets
 SELECT DISTINCT * FROM #TempSNOMEDRefCodes;
 
 INSERT INTO #CodeSets
-SELECT FK_Reference_Coding_ID, c.concept
+SELECT FK_Reference_Coding_ID, c.concept, [description]
 FROM #VersionedCodeSets c
 INNER JOIN (
   SELECT concept, MAX(version) AS maxVersion FROM #VersionedCodeSets
@@ -191,7 +192,7 @@ INNER JOIN (
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
 INSERT INTO #SnomedSets
-SELECT FK_Reference_SnomedCT_ID, c.concept
+SELECT FK_Reference_SnomedCT_ID, c.concept, [description]
 FROM #VersionedSnomedSets c
 INNER JOIN (
   SELECT concept, MAX(version) AS maxVersion FROM #VersionedSnomedSets
