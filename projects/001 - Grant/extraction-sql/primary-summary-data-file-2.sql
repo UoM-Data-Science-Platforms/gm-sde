@@ -3,7 +3,7 @@
 --└──────────────────────────┘
 
 ------------ RESEARCH DATA ENGINEER CHECK ------------
--- GEORGE TILSTON	DATE: 11/08/21
+-- GEORGE TILSTON  DATE: 11/08/21
 
 -- OBJECTIVE: To provide a denominator population when working with the primary data files. This
 --						file gives counts per CCG, imd and the number of LTCs

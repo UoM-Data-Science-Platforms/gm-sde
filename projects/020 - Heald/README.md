@@ -39,6 +39,7 @@ This project required the following reusable queries:
 - Secondary admissions and length of stay
 - Secondary discharges
 - Cohort matching on year of birth / sex / and an index date
+- COVID vaccinations
 - Townsend Score (2011)
 - Lower level super output area
 - Sex
@@ -165,6 +166,32 @@ A temp table as follows:
 _File_: `query-cohort-matching-yob-sex-index-date.sql`
 
 _Link_: [https://github.com/rw251/.../query-cohort-matching-yob-sex-index-date.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-cohort-matching-yob-sex-index-date.sql)
+
+---
+### COVID vaccinations
+To obtain a table with first and second vaccine doses per patient.
+
+_Assumptions_
+
+- GP records can often be duplicated. The assumption is that if a patient receives two vaccines within 14 days of each other then it is likely that both codes refer to the same vaccine. However, it is possible that the first code's entry into the record was delayed and therefore the second code is in fact a second dose. This query simply gives the earliest and latest vaccine for each person together with the number of days since the first vaccine.
+- The vaccine can appear as a procedure or as a medication. We assume that the presence of either represents a vaccination
+
+_Input_
+```
+No pre-requisites
+```
+
+_Output_
+```
+A temp table as follows:
+ #COVIDVaccinations (FK_Patient_Link_ID, VaccineDate, DaysSinceFirstVaccine)
+ 	- FK_Patient_Link_ID - unique patient id
+	- VaccineDate - date of vaccine (YYYY-MM-DD)
+	- DaysSinceFirstVaccine - 0 if first vaccine, > 0 otherwise
+```
+_File_: `query-get-covid-vaccines.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-covid-vaccines.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-covid-vaccines.sql)
 
 ---
 ### Townsend Score (2011)
@@ -320,7 +347,7 @@ Takes one parameter
 
 _Output_
 ```
-Two temp table as follows:
+Two temp tables as follows:
  #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
  	- FK_Patient_Link_ID - unique patient id
 	- FirstCovidPositiveDate - earliest COVID diagnosis
@@ -345,6 +372,7 @@ This project required the following clinical code sets:
 - smoking-status-never v1
 - smoking-status-passive v1
 - smoking-status-trivial v1
+- covid-vaccination v1
 - bmi v2
 - hba1c v2
 - cholesterol v2
@@ -448,6 +476,34 @@ LINK: [https://github.com/rw251/.../patient/smoking-status-passive/1](https://gi
 
 
 LINK: [https://github.com/rw251/.../patient/smoking-status-trivial/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-trivial/1)
+
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `1.19% - 26.55%` as of 11th March 2021 is too wide. However the prevalence figure of 26.55% from EMIS is close to public data and is likely ok.
+
+**UPDATE - 25th March 2021** Missing Read and CTV3 codes were added to the vaccination list and now the range of `26.91% - 32.96%` seems reasonable. It should be noted that there is an approx 2 week lag between events occurring and them being entered in the record.
+
+**UPDATE - 12th April 2021, latest prevalence figures:
+
+MED
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-12 | EMIS            | 2606497    |           0 (0%) |    379577(14.56%) |
+| 2021-05-12 | TPP             | 210810	    |           0 (0%) |       1637(0.78%) |
+| 2021-05-12 | Vision          | 334784	    |           0 (0%) |         93(0.03%) |
+
+EVENT
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-12 | 	EMIS	       | 2606497    |	4446 (0.17%)   |  1101577 (42.26%) |
+| 2021-05-12 |	TPP	       | 210810	    |	7 (0.00%)      |    87841 (41.66%) |
+| 2021-05-12 |	Vision	       | 334784	    |	1 (0.00%)      |   142724 (42.63%) |
+
+LINK: [https://github.com/rw251/.../procedures/covid-vaccination/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/covid-vaccination/1)
 
 ### Body Mass Index (BMI)
 
@@ -1796,6 +1852,27 @@ All code sets required for this analysis are listed here. Individual lists for e
 |smoking-status-trivial v1|readv2|1372.11|Occasional smoker|
 |smoking-status-trivial v1|snomed|266920004|Trivial cigarette smoker (less than one cigarette/day) (life style)|
 |smoking-status-trivial v1|snomed|428041000124106|Occasional tobacco smoker (finding)|
+|covid-vaccination v1|ctv3|Y210d|2019-nCoV (novel coronavirus) vaccination|
+|covid-vaccination v1|ctv3|Y29e7|Administration of first dose of SARS-CoV-2 vaccine|
+|covid-vaccination v1|ctv3|Y29e8|Administration of second dose of SARS-CoV-2 vaccine|
+|covid-vaccination v1|ctv3|Y2a0e|SARS-2 Coronavirus vaccine|
+|covid-vaccination v1|ctv3|Y2a0f|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 1|
+|covid-vaccination v1|ctv3|Y2a3a|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 2|
+|covid-vaccination v1|emis|^ESCT1348323|Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
+|covid-vaccination v1|emis|COCO138186NEMIS|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)|
+|covid-vaccination v1|emis|^ESCT1348325|Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
+|covid-vaccination v1|emis|^ESCT1348298|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination|
+|covid-vaccination v1|emis|^ESCT1348301|COVID-19 vaccination|
+|covid-vaccination v1|emis|^ESCT1299050|2019-nCoV (novel coronavirus) vaccination|
+|covid-vaccination v1|emis|^ESCT1301222|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination|
+|covid-vaccination v1|emis|CODI138564NEMIS|Covid-19 mRna (nucleoside modified) Vaccine Moderna  Dispersion for injection  0.1 mg/0.5 ml dose, multidose vial|
+|covid-vaccination v1|emis|TASO138184NEMIS|Covid-19 Vaccine AstraZeneca (ChAdOx1 S recombinant)  Solution for injection  5x10 billion viral particle/0.5 ml multidose vial|
+|covid-vaccination v1|readv2|65F0.|2019-nCoV (novel coronavirus) vaccination|
+|covid-vaccination v1|readv2|65F0100|Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
+|covid-vaccination v1|readv2|65F0200|2019-nCoV (novel coronavirus) vaccination|
+|covid-vaccination v1|snomed|1240491000000103|2019-nCoV (novel coronavirus) vaccination|
+|covid-vaccination v1|snomed|2807821000000115|2019-nCoV (novel coronavirus) vaccination|
+|covid-vaccination v1|snomed|840534001|Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)|
 |bmi v2|ctv3|22K..|Body Mass Index|
 |bmi v2|readv2|22K..00|Body Mass Index|
 |bmi v2|snomed|301331008|Finding of body mass index (finding)|
