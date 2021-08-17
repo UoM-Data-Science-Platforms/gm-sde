@@ -2,6 +2,8 @@
 --│ Cancer information              │
 --└─────────────────────────────────┘
 
+------------ RESEARCH DATA ENGINEER CHECK ------------
+-- RICHARD WILLIAMS |	DATE: 20/07/21
 
 -- OUTPUT: A single table with the following:
 --	PatientId
@@ -70,7 +72,8 @@ IF OBJECT_ID('tempdb..#AllCodes') IS NOT NULL DROP TABLE #AllCodes;
 CREATE TABLE #AllCodes (
   [Concept] [varchar](255) NOT NULL,
   [Version] INT NOT NULL,
-  [Code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL
+  [Code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+  [description] [varchar] (255) NULL 
 );
 
 IF OBJECT_ID('tempdb..#codesreadv2') IS NOT NULL DROP TABLE #codesreadv2;
@@ -105,7 +108,7 @@ VALUES ('cancer',1,'B327000','Malignant melanoma of hip'),('cancer',1,'B3270','M
 ('cancer',2,'B563200','Secondary and unspec malig neop infraclavicular lymph nodes'),('cancer',2,'B5632','Secondary and unspec malig neop infraclavicular lymph nodes'),('cancer',2,'B571.00','Secondary malignant neoplasm of mediastinum'),('cancer',2,'B571.','Secondary malignant neoplasm of mediastinum'),('cancer',2,'B561900','Secondary and unspec malig neop pulmonary lymph nodes'),('cancer',2,'B5619','Secondary and unspec malig neop pulmonary lymph nodes'),('cancer',2,'B562.00','Secondary and unspec malig neop intra-abdominal lymph nodes'),('cancer',2,'B562.','Secondary and unspec malig neop intra-abdominal lymph nodes'),('cancer',2,'B581200','Secondary malignant neoplasm of urethra'),('cancer',2,'B5812','Secondary malignant neoplasm of urethra'),('cancer',2,'B584.00','Secondary malignant neoplasm of other part of nervous system'),('cancer',2,'B584.','Secondary malignant neoplasm of other part of nervous system'),('cancer',2,'ByuC700','[X]Secondary malignant neoplasm of other specified sites'),('cancer',2,'ByuC7','[X]Secondary malignant neoplasm of other specified sites'),('cancer',2,'B564000','Secondary and unspec malig neop superficial inguinal LN'),('cancer',2,'B5640','Secondary and unspec malig neop superficial inguinal LN'),('cancer',2,'B594.00','Secondary malignant neoplasm of unknown site'),('cancer',2,'B594.','Secondary malignant neoplasm of unknown site'),('cancer',2,'B58y100','Secondary malignant neoplasm of uterus'),('cancer',2,'B58y1','Secondary malignant neoplasm of uterus'),('cancer',2,'B582z00','Secondary malignant neoplasm of skin NOS'),('cancer',2,'B582z','Secondary malignant neoplasm of skin NOS'),('cancer',2,'B561400','Secondary and unspec malig neop post mediastinal lymph nodes'),('cancer',2,'B5614','Secondary and unspec malig neop post mediastinal lymph nodes'),('cancer',2,'B574000','Secondary malignant neoplasm of duodenum'),('cancer',2,'B5740','Secondary malignant neoplasm of duodenum'),('cancer',2,'B57y.00','Secondary malignant neoplasm of other digestive organ'),('cancer',2,'B57y.','Secondary malignant neoplasm of other digestive organ'),('cancer',2,'ByuC300','[X]Secondary malignant neoplasm/oth+unspc respiratory organs'),('cancer',2,'ByuC3','[X]Secondary malignant neoplasm/oth+unspc respiratory organs'),('cancer',2,'B561500','Secondary and unspec malig neop paratracheal lymph nodes'),('cancer',2,'B5615','Secondary and unspec malig neop paratracheal lymph nodes'),('cancer',2,'B583z00','Secondary malignant neoplasm of brain or spinal cord NOS'),('cancer',2,'B583z','Secondary malignant neoplasm of brain or spinal cord NOS'),('cancer',2,'B581000','Secondary malignant neoplasm of ureter'),('cancer',2,'B5810','Secondary malignant neoplasm of ureter'),('cancer',2,'B58y400','Secondary malignant neoplasm of vulva'),('cancer',2,'B58y4','Secondary malignant neoplasm of vulva'),('cancer',2,'B564100','Secondary and unspec malig neop deep inguinal lymph nodes'),('cancer',2,'B5641','Secondary and unspec malig neop deep inguinal lymph nodes'),('cancer',2,'B562200','Secondary and unspec malig neop inferior mesenteric LN'),('cancer',2,'B5622','Secondary and unspec malig neop inferior mesenteric LN'),('cancer',2,'B561800','Secondary and unspec malig neop bronchopulmonary lymph nodes'),('cancer',2,'B5618','Secondary and unspec malig neop bronchopulmonary lymph nodes'),('cancer',2,'B573.00','Secondary malignant neoplasm of other respiratory organs'),('cancer',2,'B573.','Secondary malignant neoplasm of other respiratory organs'),('cancer',2,'B581z00','Secondary malignant neoplasm of other urinary organ NOS'),('cancer',2,'B581z','Secondary malignant neoplasm of other urinary organ NOS'),('cancer',2,'B575100','Secondary malignant neoplasm of rectum'),('cancer',2,'B5751','Secondary malignant neoplasm of rectum'),('cancer',2,'B582400','Secondary malignant neoplasm of skin of shoulder and arm'),('cancer',2,'B5824','Secondary malignant neoplasm of skin of shoulder and arm'),('cancer',2,'B564.00','Secondary and unspec malig neop inguinal and lower limb LN'),('cancer',2,'B564.','Secondary and unspec malig neop inguinal and lower limb LN'),('cancer',2,'B561.00','Secondary and unspec malig neop intrathoracic lymph nodes'),('cancer',2,'B561.','Secondary and unspec malig neop intrathoracic lymph nodes'),('cancer',2,'B574.00','Secondary malignant neoplasm of small intestine and duodenum'),('cancer',2,'B574.','Secondary malignant neoplasm of small intestine and duodenum'),('cancer',2,'B560000','Secondary and unspec malig neop of superficial parotid LN'),('cancer',2,'B5600','Secondary and unspec malig neop of superficial parotid LN'),('cancer',2,'B560300','Secondary and unspec malignant neoplasm occipital lymph node'),('cancer',2,'B5603','Secondary and unspec malignant neoplasm occipital lymph node'),('cancer',2,'B58y411','Secondary cancer of the vulva'),('cancer',2,'B58y4','Secondary cancer of the vulva'),('cancer',2,'B57z.00','Secondary malig neop of respiratory or digestive system NOS'),('cancer',2,'B57z.','Secondary malig neop of respiratory or digestive system NOS'),('cancer',2,'ByuC200','[X]2ndry+unspcf malignant neoplasm lymph nodes/multi regions'),('cancer',2,'ByuC2','[X]2ndry+unspcf malignant neoplasm lymph nodes/multi regions'),('cancer',2,'B560100','Secondary and unspec malignant neoplasm mastoid lymph nodes'),('cancer',2,'B5601','Secondary and unspec malignant neoplasm mastoid lymph nodes'),('cancer',2,'B560z00','Secondary unspec malig neop lymph nodes head/face/neck NOS'),('cancer',2,'B560z','Secondary unspec malig neop lymph nodes head/face/neck NOS'),('cancer',2,'B576.00','Secondary malig neop of retroperitoneum and peritoneum'),('cancer',2,'B576.','Secondary malig neop of retroperitoneum and peritoneum'),('cancer',2,'B561600','Secondary and unspec malig neop superfic tracheobronchial LN'),('cancer',2,'B5616','Secondary and unspec malig neop superfic tracheobronchial LN'),('cancer',2,'ByuC600','[X]2ndry malignant neoplasm/oth+unspec parts/nervous system'),('cancer',2,'ByuC6','[X]2ndry malignant neoplasm/oth+unspec parts/nervous system'),('cancer',2,'B560900','Secondary and unspec malig neop deep cervical LN'),('cancer',2,'B5609','Secondary and unspec malig neop deep cervical LN'),('cancer',2,'B562400','Secondary and unspec malig neop external iliac lymph nodes'),('cancer',2,'B5624','Secondary and unspec malig neop external iliac lymph nodes'),('cancer',2,'B561700','Secondary and unspec malig neop inferior tracheobronchial LN'),('cancer',2,'B5617','Secondary and unspec malig neop inferior tracheobronchial LN'),('cancer',2,'B574z00','Secondary malig neop of small intestine or duodenum NOS'),('cancer',2,'B574z','Secondary malig neop of small intestine or duodenum NOS'),('cancer',2,'B58y300','Secondary malignant neoplasm of vagina'),('cancer',2,'B58y3','Secondary malignant neoplasm of vagina'),('cancer',2,'B564z00','Secondary and unspec malig neop of inguinal and leg LN NOS'),('cancer',2,'B564z','Secondary and unspec malig neop of inguinal and leg LN NOS'),('cancer',2,'B562100','Secondary and unspec malig neop superficial mesenteric LN'),('cancer',2,'B5621','Secondary and unspec malig neop superficial mesenteric LN'),('cancer',2,'B565z00','Secondary and unspec malig neop intrapelvic LN NOS'),('cancer',2,'B565z','Secondary and unspec malig neop intrapelvic LN NOS'),('cancer',2,'B581.00','Secondary malignant neoplasm of other urinary organs'),('cancer',2,'B581.','Secondary malignant neoplasm of other urinary organs'),('cancer',2,'B563z00','Secondary and unspec malig neop axilla and upper limb LN NOS'),('cancer',2,'B563z','Secondary and unspec malig neop axilla and upper limb LN NOS'),('cancer',2,'B58y200','Secondary malignant neoplasm of cervix uteri'),('cancer',2,'B58y2','Secondary malignant neoplasm of cervix uteri'),('cancer',2,'B565000','Secondary and unspec malig neop internal iliac lymph nodes'),('cancer',2,'B5650','Secondary and unspec malig neop internal iliac lymph nodes'),('cancer',2,'ByuC400','[X]Secondary malignant neoplasm/oth+unspcfd digestive organs'),('cancer',2,'ByuC4','[X]Secondary malignant neoplasm/oth+unspcfd digestive organs'),('cancer',2,'B560400','Secondary and unspec malig neop deep parotid lymph nodes'),('cancer',2,'B5604','Secondary and unspec malig neop deep parotid lymph nodes'),('cancer',2,'B561z00','Secondary and unspec malig neop intrathoracic LN NOS'),('cancer',2,'B561z','Secondary and unspec malig neop intrathoracic LN NOS'),('cancer',2,'B561200','Secondary and unspec malig neop diaphragmatic lymph nodes'),('cancer',2,'B5612','Secondary and unspec malig neop diaphragmatic lymph nodes'),('cancer',2,'ByuC500','[X]2ndry malignant neoplasm/bladder+oth+unsp urinary organs'),('cancer',2,'ByuC5','[X]2ndry malignant neoplasm/bladder+oth+unsp urinary organs'),('cancer',2,'B576z00','Secondary malig neop of retroperitoneum or peritoneum NOS'),('cancer',2,'B576z','Secondary malig neop of retroperitoneum or peritoneum NOS'),('cancer',2,'B58y211','Secondary cancer of the cervix'),('cancer',2,'B58y2','Secondary cancer of the cervix'),('cancer',2,'B563100','Secondary and unspec malig neop supratrochlear lymph nodes'),('cancer',2,'B5631','Secondary and unspec malig neop supratrochlear lymph nodes'),('cancer',2,'B574200','Secondary malignant neoplasm of ileum'),('cancer',2,'B5742','Secondary malignant neoplasm of ileum'),('cancer',2,'B582100','Secondary malignant neoplasm of skin of face'),('cancer',2,'B5821','Secondary malignant neoplasm of skin of face'),('cancer',2,'B565200','Secondary and unspec malig neop circumflex iliac LN'),('cancer',2,'B5652','Secondary and unspec malig neop circumflex iliac LN'),('cancer',2,'B58y800','Secondary malignant neoplasm of epididymis and vas deferens'),('cancer',2,'B58y8','Secondary malignant neoplasm of epididymis and vas deferens')
 
 INSERT INTO #AllCodes
-SELECT [concept], [version], [code] from #codesreadv2;
+SELECT [concept], [version], [code], [description] from #codesreadv2;
 
 IF OBJECT_ID('tempdb..#codesctv3') IS NOT NULL DROP TABLE #codesctv3;
 CREATE TABLE #codesctv3 (
@@ -140,7 +143,7 @@ VALUES ('cancer',1,'B6018','Lymphosarcoma of lymph nodes of multiple sites'),('c
 ('cancer',2,'XaFrJ','Local recurrence of malignant tumour of rectum'),('cancer',2,'XaFrK','Local recurrence of malignant tumour of kidney'),('cancer',2,'XaFrL','Local recurrence of malignant tumour of urinary bladder'),('cancer',2,'XaFrM','Local recurrence of malignant tumour of prostate'),('cancer',2,'XaFrN','Local recurrence of malignant tumour of cervix'),('cancer',2,'XaFrQ','Local recurrence of malignant tumour of bone'),('cancer',2,'XaFrR','Local recurrence of malignant tumour of soft tissue'),('cancer',2,'XaFrT','Local recurrence of malignant melanoma of skin'),('cancer',2,'XaFrc','Metastases by primary malignancy'),('cancer',2,'XaFrd','Metastasis from malignant melanoma of skin'),('cancer',2,'XaFrf','Metastasis from malignant tumour of soft tissues'),('cancer',2,'XaFrg','Metastasis from malignant tumour of bone'),('cancer',2,'XaFrh','Metastasis from malignant tumour of adrenal gland'),('cancer',2,'XaFri','Metastasis from malignant tumour of cervix'),('cancer',2,'XaFrj','Metastasis from malignant tumour of uterus'),('cancer',2,'XaFrk','Metastasis from malignant tumour of prostate'),('cancer',2,'XaFrl','Metastasis from malignant tumour of bladder'),('cancer',2,'XaFrm','Metastasis from malignant tumour of kidney'),('cancer',2,'XaFrn','Metastasis from malignant tumour of rectum'),('cancer',2,'XaFro','Metastasis from malignant tumour of colon'),('cancer',2,'XaFrp','Metastasis from malignant tumour of pancreas'),('cancer',2,'XaFrq','Metastasis from malignant tumour of liver'),('cancer',2,'XaFrr','Metastasis from malignant tumour of gallbladder'),('cancer',2,'XaFrs','Metastasis from malignant tumour of stomach'),('cancer',2,'XaFrt','Metastasis from malignant tumour of oesophagus'),('cancer',2,'XaFru','Metastasis from malignant tumour of breast'),('cancer',2,'XaFrv','Metastasis from malignant tumour of bronchus'),('cancer',2,'XaFrx','Metastasis from malignant tumour of thyroid'),('cancer',2,'XaFry','Metastasis from malignant tumour of buccal cavity'),('cancer',2,'XaFrz','Metastasis from malignant tumour of tongue'),('cancer',2,'XaIJA','Pathological fracture due to metastatic bone disease'),('cancer',2,'XaXQk','Secondary malignant neoplasm of large intestine and rectum'),('cancer',2,'XaYeq','Secondary malignant neoplasm of liver intrahepatic bile duct'),('cancer',2,'XaFr7','Local recurrence of malignant tumour of lung'),('cancer',2,'XaFrw','Metastasis from malignant tumour of lung')
 
 INSERT INTO #AllCodes
-SELECT [concept], [version], [code] from #codesctv3;
+SELECT [concept], [version], [code], [description] from #codesctv3;
 
 IF OBJECT_ID('tempdb..#codessnomed') IS NOT NULL DROP TABLE #codessnomed;
 CREATE TABLE #codessnomed (
@@ -240,7 +243,7 @@ VALUES ('cancer',2,'1090171000000108','Secondary malignant neoplasm of sacral ly
 ('cancer',2,'389491000000107','[M]Adenocarcinoma  metastatic  NOS (morphologic abnormality)'),('cancer',2,'569331000000104','Secondary and unspecified malignant neoplasm of deep cervical lymph nodes (disorder)'),('cancer',2,'94541005','Secondary malignant neoplasm of skin of arm (disorder)'),('cancer',2,'538021000000100','Secondary and unspecified malignant neoplasm of intra-abdominal lymph nodes NOS (disorder)'),('cancer',2,'94363000','Secondary malignant neoplasm of lacrimal duct (disorder)'),('cancer',2,'448922007','Secondary malignant neoplasm of large intestine and rectum (disorder)'),('cancer',2,'767511000000109','Secondary malignant neoplasm of large intestine and rectum (disorder)'),('cancer',2,'543391000000107','Secondary and unspecified malignant neoplasm of axilla and upper limb lymph nodes NOS (disorder)'),('cancer',2,'110459008','Malignant lymphoma, metastatic (morphologic abnormality)'),('cancer',2,'116821000119104','Non-Hodgkin lymphoma of central nervous system metastatic to lymph node of upper limb (disorder)'),('cancer',2,'116811000119106','Non-Hodgkin lymphoma of central nervous system metastatic to lymph node of lower limb (disorder)'),('cancer',2,'415287001','Relapsing chronic myeloid leukemia (disorder)'),('cancer',2,'315006004','Metastasis from malignant tumor of lung (disorder)'),('cancer',2,'314954002','Local recurrence of malignant tumor of lung (disorder)'),('cancer',2,'94232001','Secondary malignant neoplasm of bronchus of right upper lobe (disorder)'),('cancer',2,'94238002','Secondary malignant neoplasm of carina (disorder)'),('cancer',2,'94679009','Secondary malignant neoplasm of vocal cord (disorder)'),('cancer',2,'94523002','Secondary malignant neoplasm of right middle lobe of lung (disorder)'),('cancer',2,'94656008','Secondary malignant neoplasm of upper respiratory tract (disorder)'),('cancer',2,'94334003','Secondary malignant neoplasm of hypopharynx (disorder)'),('cancer',2,'94170009','Secondary malignant neoplasm of anterior wall of nasopharynx (disorder)'),('cancer',2,'94272005','Secondary malignant neoplasm of diaphragm (disorder)'),('cancer',2,'94155008','Secondary malignant neoplasm of accessory sinus (disorder)'),('cancer',2,'94367004','Secondary malignant neoplasm of laryngeal aspect of interarytenoid fold (disorder)'),('cancer',2,'15956181000119102','Secondary adenocarcinoma of bilateral lungs (disorder)'),('cancer',2,'242862004','Secondary malignant neoplasm of nasopharyngeal wall (disorder)'),('cancer',2,'94680007','Secondary malignant neoplasm of vomer (disorder)'),('cancer',2,'94581003','Secondary malignant neoplasm of soft palate (disorder)'),('cancer',2,'94376006','Secondary malignant neoplasm of left upper lobe of lung (disorder)'),('cancer',2,'285605009','Metastasis to pleura of unknown primary (disorder)'),('cancer',2,'94677006','Secondary malignant neoplasm of vestibule of nose (disorder)'),('cancer',2,'353741000119106','Secondary malignant neoplasm of left lung (disorder)'),('cancer',2,'94333009','Secondary malignant neoplasm of hypopharyngeal aspect of interarytenoid fold (disorder)'),('cancer',2,'94399005','Secondary malignant neoplasm of main bronchus (disorder)'),('cancer',2,'94368009','Secondary malignant neoplasm of laryngeal commissure (disorder)'),('cancer',2,'94458003','Secondary malignant neoplasm of tonsil (disorder)'),('cancer',2,'94329002','Secondary malignant neoplasm of hilus of lung (disorder)'),('cancer',2,'94372008','Secondary malignant neoplasm of lateral wall of nasopharynx (disorder)'),('cancer',2,'94607007','Secondary malignant neoplasm of subglottis (disorder)'),('cancer',2,'94370000','Secondary malignant neoplasm of larynx (disorder)'),('cancer',2,'94231008','Secondary malignant neoplasm of bronchus of right middle lobe (disorder)'),('cancer',2,'285604008','Metastasis to lung of unknown primary (disorder)'),('cancer',2,'94166001','Secondary malignant neoplasm of anterior aspect of epiglottis (disorder)'),('cancer',2,'94373003','Secondary malignant neoplasm of lateral wall of oropharynx (disorder)'),('cancer',2,'94375005','Secondary malignant neoplasm of left lower lobe of lung (disorder)'),('cancer',2,'94473002','Secondary malignant neoplasm of parietal pleura (disorder)'),('cancer',2,'94507002','Secondary malignant neoplasm of pyriform sinus (disorder)'),('cancer',2,'94233006','Secondary malignant neoplasm of bronchus (disorder)'),('cancer',2,'353561000119103','Secondary malignant neoplasm of right lung (disorder)'),('cancer',2,'94639000','Secondary malignant neoplasm of tonsillar fossa (disorder)'),('cancer',2,'94678001','Secondary malignant neoplasm of visceral pleura (disorder)'),('cancer',2,'94495003','Secondary malignant neoplasm of postcricoid region (disorder)'),('cancer',2,'94498001','Secondary malignant neoplasm of posterior wall of nasopharynx (disorder)'),('cancer',2,'241861008','Metastatic malignant neoplasm to nasopharynx (disorder)'),('cancer',2,'94318001','Secondary malignant neoplasm of glottis (disorder)'),('cancer',2,'94158005','Secondary malignant neoplasm of adenoid (disorder)'),('cancer',2,'94358004','Secondary malignant neoplasm of junctional region of epiglottis (disorder)'),('cancer',2,'94366008','Secondary malignant neoplasm of laryngeal aspect of aryepiglottic fold (disorder)'),('cancer',2,'94515004','Secondary malignant neoplasm of respiratory tract (disorder)'),('cancer',2,'94613003','Secondary malignant neoplasm of superior wall of nasopharynx (disorder)'),('cancer',2,'94640003','Secondary malignant neoplasm of tonsillar pillar (disorder)'),('cancer',2,'94332004','Secondary malignant neoplasm of hypopharyngeal aspect of aryepiglottic fold (disorder)'),('cancer',2,'94391008','Secondary malignant neoplasm of lung (disorder)'),('cancer',2,'94369001','Secondary malignant neoplasm of laryngeal surface of epiglottis (disorder)'),('cancer',2,'94670008','Secondary malignant neoplasm of vallecula (disorder)'),('cancer',2,'94296000','Secondary malignant neoplasm of false vocal cord (disorder)'),('cancer',2,'94616006','Secondary malignant neoplasm of supraglottis (disorder)'),('cancer',2,'94493005','Secondary malignant neoplasm of pleura (disorder)'),('cancer',2,'285598005','Metastasis to trachea of unknown primary (disorder)'),('cancer',2,'94228007','Secondary malignant neoplasm of bronchus of left lower lobe (disorder)'),('cancer',2,'94524008','Secondary malignant neoplasm of right upper lobe of lung (disorder)'),('cancer',2,'94230009','Secondary malignant neoplasm of bronchus of right lower lobe (disorder)'),('cancer',2,'94310008','Secondary malignant neoplasm of frontal sinus (disorder)'),('cancer',2,'94499009','Secondary malignant neoplasm of posterior wall of oropharynx (disorder)'),('cancer',2,'94641004','Secondary malignant neoplasm of trachea (disorder)'),('cancer',2,'94379004','Secondary malignant neoplasm of lingual tonsil (disorder)'),('cancer',2,'94454001','Secondary malignant neoplasm of oropharynx (disorder)'),('cancer',2,'94522007','Secondary malignant neoplasm of right lower lobe of lung (disorder)'),('cancer',2,'94496002','Secondary malignant neoplasm of posterior hypopharyngeal wall (disorder)'),('cancer',2,'94436000','Secondary malignant neoplasm of nasal cavity (disorder)'),('cancer',2,'94599006','Secondary malignant neoplasm of sphenoidal sinus (disorder)'),('cancer',2,'94229004','Secondary malignant neoplasm of bronchus of left upper lobe (disorder)'),('cancer',2,'94682004','Secondary malignant neoplasm of Waldeyers ring (disorder)'),('cancer',2,'94359007','Secondary malignant neoplasm of junctional zone of tongue (disorder)'),('cancer',2,'94184004','Secondary malignant neoplasm of base of tongue (disorder)'),('cancer',2,'94534004','Secondary malignant neoplasm of septum of nose (disorder)'),('cancer',2,'94437009','Secondary malignant neoplasm of nasal concha (disorder)'),('cancer',2,'285603002','Metastasis to bronchus of unknown primary (disorder)'),('cancer',2,'94667009','Secondary malignant neoplasm of uvula (disorder)'),('cancer',2,'94406009','Secondary malignant neoplasm of maxillary sinus (disorder)'),('cancer',2,'94288005','Secondary malignant neoplasm of ethmoidal sinus (disorder)'),('cancer',2,'94488007','Secondary malignant neoplasm of pharynx (disorder)'),('cancer',2,'94284007','Secondary malignant neoplasm of epiglottis (disorder)'),('cancer',2,'1661000119106','Metastasis to lung from adenocarcinoma (disorder)'),('cancer',2,'439161000000107','[X]Secondary malignant neoplasm of other and unspecified respiratory organs (disorder)'),('cancer',2,'190145000','[X]Secondary malignant neoplasm of other and unspecified respiratory organs (disorder)')
 
 INSERT INTO #AllCodes
-SELECT [concept], [version], [code] from #codessnomed;
+SELECT [concept], [version], [code], [description] from #codessnomed;
 
 IF OBJECT_ID('tempdb..#codesemis') IS NOT NULL DROP TABLE #codesemis;
 CREATE TABLE #codesemis (
@@ -253,15 +256,15 @@ CREATE TABLE #codesemis (
 
 
 INSERT INTO #AllCodes
-SELECT [concept], [version], [code] from #codesemis;
+SELECT [concept], [version], [code], [description] from #codesemis;
 
 
 IF OBJECT_ID('tempdb..#TempRefCodes') IS NOT NULL DROP TABLE #TempRefCodes;
-CREATE TABLE #TempRefCodes (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, version INT NOT NULL);
+CREATE TABLE #TempRefCodes (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, version INT NOT NULL, [description] VARCHAR(255));
 
 -- Read v2 codes
 INSERT INTO #TempRefCodes
-SELECT PK_Reference_Coding_ID, dcr.concept, dcr.[version]
+SELECT PK_Reference_Coding_ID, dcr.concept, dcr.[version], dcr.[description]
 FROM [SharedCare].[Reference_Coding] rc
 INNER JOIN #codesreadv2 dcr on dcr.code = rc.MainCode
 WHERE CodingType='ReadCodeV2'
@@ -269,7 +272,7 @@ and PK_Reference_Coding_ID != -1;
 
 -- CTV3 codes
 INSERT INTO #TempRefCodes
-SELECT PK_Reference_Coding_ID, dcc.concept, dcc.[version]
+SELECT PK_Reference_Coding_ID, dcc.concept, dcc.[version], dcc.[description]
 FROM [SharedCare].[Reference_Coding] rc
 INNER JOIN #codesctv3 dcc on dcc.code = rc.MainCode
 WHERE CodingType='CTV3'
@@ -277,23 +280,23 @@ and PK_Reference_Coding_ID != -1;
 
 -- EMIS codes with a FK Reference Coding ID
 INSERT INTO #TempRefCodes
-SELECT FK_Reference_Coding_ID, ce.concept, ce.[version]
+SELECT FK_Reference_Coding_ID, ce.concept, ce.[version], ce.[description]
 FROM [SharedCare].[Reference_Local_Code] rlc
 INNER JOIN #codesemis ce on ce.code = rlc.LocalCode
 WHERE FK_Reference_Coding_ID != -1;
 
 IF OBJECT_ID('tempdb..#TempSNOMEDRefCodes') IS NOT NULL DROP TABLE #TempSNOMEDRefCodes;
-CREATE TABLE #TempSNOMEDRefCodes (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [version] INT NOT NULL);
+CREATE TABLE #TempSNOMEDRefCodes (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [version] INT NOT NULL, [description] VARCHAR(255));
 
 -- SNOMED codes
 INSERT INTO #TempSNOMEDRefCodes
-SELECT PK_Reference_SnomedCT_ID, dcs.concept, dcs.[version]
+SELECT PK_Reference_SnomedCT_ID, dcs.concept, dcs.[version], dcs.[description]
 FROM SharedCare.Reference_SnomedCT rs
 INNER JOIN #codessnomed dcs on dcs.code = rs.ConceptID;
 
 -- EMIS codes with a FK SNOMED ID but without a FK Reference Coding ID
 INSERT INTO #TempSNOMEDRefCodes
-SELECT FK_Reference_SnomedCT_ID, ce.concept, ce.[version]
+SELECT FK_Reference_SnomedCT_ID, ce.concept, ce.[version], ce.[description]
 FROM [SharedCare].[Reference_Local_Code] rlc
 INNER JOIN #codesemis ce on ce.code = rlc.LocalCode
 WHERE FK_Reference_Coding_ID = -1
@@ -301,16 +304,16 @@ AND FK_Reference_SnomedCT_ID != -1;
 
 -- De-duped tables
 IF OBJECT_ID('tempdb..#CodeSets') IS NOT NULL DROP TABLE #CodeSets;
-CREATE TABLE #CodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL);
+CREATE TABLE #CodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [description] VARCHAR(255));
 
 IF OBJECT_ID('tempdb..#SnomedSets') IS NOT NULL DROP TABLE #SnomedSets;
-CREATE TABLE #SnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL);
+CREATE TABLE #SnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [description] VARCHAR(255));
 
 IF OBJECT_ID('tempdb..#VersionedCodeSets') IS NOT NULL DROP TABLE #VersionedCodeSets;
-CREATE TABLE #VersionedCodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT);
+CREATE TABLE #VersionedCodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT, [description] VARCHAR(255));
 
 IF OBJECT_ID('tempdb..#VersionedSnomedSets') IS NOT NULL DROP TABLE #VersionedSnomedSets;
-CREATE TABLE #VersionedSnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT);
+CREATE TABLE #VersionedSnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT, [description] VARCHAR(255));
 
 INSERT INTO #VersionedCodeSets
 SELECT DISTINCT * FROM #TempRefCodes;
@@ -319,7 +322,7 @@ INSERT INTO #VersionedSnomedSets
 SELECT DISTINCT * FROM #TempSNOMEDRefCodes;
 
 INSERT INTO #CodeSets
-SELECT FK_Reference_Coding_ID, c.concept
+SELECT FK_Reference_Coding_ID, c.concept, [description]
 FROM #VersionedCodeSets c
 INNER JOIN (
   SELECT concept, MAX(version) AS maxVersion FROM #VersionedCodeSets
@@ -327,7 +330,7 @@ INNER JOIN (
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
 INSERT INTO #SnomedSets
-SELECT FK_Reference_SnomedCT_ID, c.concept
+SELECT FK_Reference_SnomedCT_ID, c.concept, [description]
 FROM #VersionedSnomedSets c
 INNER JOIN (
   SELECT concept, MAX(version) AS maxVersion FROM #VersionedSnomedSets

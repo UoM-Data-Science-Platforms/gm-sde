@@ -438,10 +438,11 @@ ICD10 codes have been provided and verified by the Christie team (004).
 #### Prevalence log
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set, as of 19th July 2021.
 
-Concept | Version | System | Patients | PatientsWithConceptFromCode | PercentageOfPatients | PercentageOfPatientsFromCode
-cancer	1	EMIS	2615750	118723	78901	4.53877473000096	3.01638153493262
-cancer	1	TPP	211345	9607	7280	4.5456481109087	3.44460479311079
-cancer	1	Vision	336528	16642	11427	4.94520515380592	3.39555698188561
+| Concept | Version   | System    | Patients | PatientsWithConcept | PatientsWithConceptFromCode | PercentageOfPatients | PercentageOfPatientsFromCode |
+| :-----: | :-------: | :-------: | :------: | :-----------------: | :-------------------------: | :------------------: | :--------------------------: |
+| cancer  | 1         | EMIS      | 2615750  | 118723              | 78901                       | 4.53877473000096     | 3.01638153493262             |
+| cancer  | 1         | TPP       | 211345   | 9607	               | 7280                        | 4.5456481109087      | 3.44460479311079             |
+| cancer  | 1         | Vision    | 336528   | 16642               | 11427                       | 4.94520515380592     | 3.39555698188561             |
 
 
 LINK: [https://github.com/rw251/.../conditions/cancer/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/cancer/1)
@@ -453,10 +454,12 @@ For more information on where the codes came from, see the readme.md file in fol
 #### Prevalence log
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set, as of 19th July 2021.
 
-Concept | Version | System | Patients | PatientsWithConceptFromCode | PercentageOfPatients | PercentageOfPatientsFromCode
-cancer	2	EMIS	2615750	2672	2333	0.102150434865717	0.0891904807416611
-cancer	2	TPP	211345	377	367	0.178381319643237	0.173649719652701
-cancer	2	Vision	336528	268	237	0.0796367612798935	0.0704250463557267
+
+| Concept | Version   | System    | Patients | PatientsWithConcept | PatientsWithConceptFromCode | PercentageOfPatients | PercentageOfPatientsFromCode |
+| :-----: | :-------: | :-------: | :------: | :-----------------: | :-------------------------: | :------------------: | :--------------------------: |
+| cancer  | 2         | EMIS      | 2615750  | 2672                | 2333                        | 0.102150434865717    | 0.0891904807416611           |
+| cancer  | 2         | TPP       | 211345   | 377                 | 367                         | 0.178381319643237    | 0.173649719652701            |
+| cancer  | 2         | Vision    | 336528   | 268                 | 237                         | 0.0796367612798935   | 0.0704250463557267           |
 LINK: [https://github.com/rw251/.../conditions/cancer/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/cancer/2)
 
 ### At high risk of complications with COVID-19
@@ -13945,13 +13948,18 @@ All code sets required for this analysis are listed here. Individual lists for e
 |covid-vaccination v1|ctv3|Y210d|2019-nCoV (novel coronavirus) vaccination|
 |covid-vaccination v1|ctv3|Y29e7|Administration of first dose of SARS-CoV-2 vaccine|
 |covid-vaccination v1|ctv3|Y29e8|Administration of second dose of SARS-CoV-2 vaccine|
+|covid-vaccination v1|ctv3|Y2a0e|SARS-2 Coronavirus vaccine|
+|covid-vaccination v1|ctv3|Y2a0f|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 1|
+|covid-vaccination v1|ctv3|Y2a3a|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 2|
 |covid-vaccination v1|emis|^ESCT1348323|Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
 |covid-vaccination v1|emis|COCO138186NEMIS|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)|
 |covid-vaccination v1|emis|^ESCT1348325|Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
 |covid-vaccination v1|emis|^ESCT1348298|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination|
 |covid-vaccination v1|emis|^ESCT1348301|COVID-19 vaccination|
 |covid-vaccination v1|emis|^ESCT1299050|2019-nCoV (novel coronavirus) vaccination|
-|covid-vaccination v1|emis|^ESCT1301222|??2019-nCoV (novel coronavirus) vaccination??|
+|covid-vaccination v1|emis|^ESCT1301222|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination|
+|covid-vaccination v1|emis|CODI138564NEMIS|Covid-19 mRna (nucleoside modified) Vaccine Moderna  Dispersion for injection  0.1 mg/0.5 ml dose, multidose vial|
+|covid-vaccination v1|emis|TASO138184NEMIS|Covid-19 Vaccine AstraZeneca (ChAdOx1 S recombinant)  Solution for injection  5x10 billion viral particle/0.5 ml multidose vial|
 |covid-vaccination v1|readv2|65F0.|2019-nCoV (novel coronavirus) vaccination|
 |covid-vaccination v1|readv2|65F0100|Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
 |covid-vaccination v1|readv2|65F0200|2019-nCoV (novel coronavirus) vaccination|
