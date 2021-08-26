@@ -1,0 +1,559 @@
+X75XP	Insulin used
+X795r	Insulin
+X797a	Fish insulin
+X797n	Porcine insulin
+XE288	Insulin - C - polypep.
+XSETp	Diabetes mellitus due to insulin receptor antibodies
+Xa0k8	Types of insulin
+XaXTO	Active insulin time
+XaXtQ	Insulin infusion rate
+f1...	Short-acting insulin
+f11..	Soluble insulin
+f111.	Insulin 100iu/mL injection 10mL
+f112.	Hypurin injection 10mL
+f12..	Neutral insulin
+f121.	Neutral insulin 100iu/mL injection 10mL
+f123.	Neusulin 100iu/mL injection vial
+f124.	Quicksol 100iu/mL injection vial
+f125.	Velosulin 100iu/mL injection 10mL
+f126.	Velosulin cartridge 100iu/mL injection 5.7mL
+f127.	Human Actrapid 100iu/mL injection 10mL
+f128.	Human Actrapid Penfill 100iu/mL injection cartridge
+f129.	Human Velosulin 100iu/mL injection 10mL
+f12A.	Human Actrapid 100iu/mL Penfill cartridge 1.5mL
+f12B.	Human Actrapid 100iu/mL preloaded injection pen 3mL
+f12C.	Humaject S 100iu/mL prefilled pen
+f12D.	Pork Velosulin injection 10mL
+f12E.	Neutral insulin 100iu/mL injection cartridge
+f12F.	Hypurin Bovine Neutral 100iu/mL injection cartridge 1.5mL
+f12G.	Hypurin Porcine Neutral 100iu/mL injection cartridge 1.5mL
+f12H.	Hypurin Neutral 100iu/mL injection 10mL
+f12I.	Hypurin Porcine Neutral 100iu/mL injection 10mL
+f12J.	Actrapid (human) Penfill 100iu/mL cartridge 3mL
+f12L.	Insuman Rapid 100iu/mL injection vial 5mL
+f12M.	Insuman Rapid 100iu/mL injection cartridge 3mL
+f12Q.	Insuman Rapid OptiSet 100iu/mL prefilled pen 3mL
+f12R.	Human Velosulin (pyr) 100iu/mL injection 10mL
+f12S.	Hypurin Bovine Neutral 100iu/mL injection cartridge 3mL
+f12T.	Hypurin Porcine Neutral 100iu/mL injection cartridge 3mL
+f12U.	EXUBERA 1mg powder for inhalation
+f12V.	EXUBERA 3mg powder for inhalation
+f12W.	HUMAN INSULIN 1mg powder for inhalation
+f12X.	HUMAN INSULIN 3mg powder for inhalation
+f12Y.	INSUMAN INFUSAT 100iu/mL soln for inj cartridges 3.15mL
+f12Z.	INSUMAN INFUSAT 100iu/mL solution for injection vials 10mL
+f12a.	Humulin S 100iu/mL injection 10mL
+f12d.	Pur-In Neutral 100iu/mL vials 10mL
+f12e.	Pur-In Neutral 100iu/mL cartridges 3mL
+f12g.	Humulin S 100iu/mL cartridges 1.5mL
+f12h.	NovoPen II device
+f12k.	Pur-In Pen 1 device
+f12m.	Pur-In Pen 2 device
+f12n.	Pur-In Pen 4 device
+f12p.	Diapen 1 device
+f12q.	Diapen 2 device
+f12r.	NovoPen I device
+f12s.	Humulin S 100iu/mL cartridges 3mL
+f12y.	Human insulin 100units/mL injection cartridge
+f12z.	Human insulin 100iu/mL injection vial
+f13..	Insulin lispro
+f131.	Insulin lispro 100iu/mL injection vial
+f132.	Humalog 100iu/mL injection 10mL
+f133.	Insulin lispro 100iu/mL injection cartridge
+f134.	Humalog 100iu/mL cartridges 1.5mL
+f135.	Humalog 100iu/mL cartridge 3mL
+f136.	Insulin lispro 100iu/mL prefilled pen
+f137.	Humalog-Pen 100iu/mL prefilled pen 3mL
+f138.	HUMALOG KWIKPEN 100iu/mL prefilled pen 3mL
+f139.	HUMALOG KWIKPEN 200iu/mL prefilled pen 3mL
+f13A.	INSULIN LISPRO 200iu/mL prefilled pen
+f14..	Insulin aspart
+f141.	NovoRapid 100units/mL injection vial
+f142.	NovoRapid NovoLet 100units/mL prefilled syringe 3mL
+f143.	NovoRapid Penfill 100units/mL cartridge 3mL
+f144.	NovoRapid FlexPen 100units/mL prefilled pen 3mL
+f145.	NOVORAPID FLEXTOUCH 100units/mL soln for injection pen 3mL
+f146.	NOVORAPID PUMPCART 100units/mL soln for inj cartridges 1.6mL
+f14w.	Insulin aspart 100units/mL prefilled pen
+f14x.	Insulin aspart 100units/mL injection vial
+f14y.	Insulin aspart 100units/mL prefilled syringe
+f14z.	Insulin aspart 100units/mL cartridge
+f15..	Insulin glulisine
+f151.	Apidra 100iu/mL injection vials 10mL
+f152.	Apidra 100iu/mL injection cartridges 3mL
+f153.	Apidra 100iu/mL OptiSet prefilled pen 3mL
+f154.	APIDRA 100iu/mL OptiClik cartridges 3mL
+f155.	APIDRA 100iu/mL SoloStar prefilled pen 3mL
+f15x.	Insulin glulisine 100iu/mL injection prefilled pen
+f15y.	Insulin glulisine 100iu/mL injection cartridge
+f15z.	Insulin glulisine 100iu/mL injection vial
+f2...	Intermediate and long acting insulins
+f21..	Biphasic insulin injection
+f211.	Rapitard MC 100iu/mL injection 10mL
+f212.	PenMix cartridges 1.5mL
+f21z.	Biphasic insulin 100units/mL injection vial
+f22..	Insulin zinc suspension(mixed)
+f221.	Insulin zinc lente 100iu/mL injection 10mL
+f223.	Lentard MC 100iu/mL injection 10mL
+f224.	Neulente 100iu/mL injection
+f225.	Tempulin 100iu/mL injection
+f226.	Human Monotard 100iu/mL injection 10mL
+f227.	Humulin Lente 100iu/mL injection 10mL
+f228.	Hypurin Lente 100iu/mL injection 10mL
+f22y.	Human insulin zinc suspension 100units/mL injection vial
+f22z.	Insulin zinc suspension 100units/mL injection vial
+f23..	IZS - amorphous
+f231.	Semitard MC 100iu/mL injection 10mL
+f23z.	Insulin zinc amorphous suspension 100units/mL injection vial
+f24..	IZS - crystalline
+f241.	Human Ultratard 100iu/mL injection 10mL
+f242.	Humulin Zn 100iu/mL injection 10mL
+f24z.	Insulin zinc crystalline human suspension 100units/mL injection vial
+f25..	Isophane insulin injection
+f251.	Isophane insulin 100iu/mL injection 10mL
+f253.	Insulatard 100iu/mL injection 10mL
+f254.	Monophane 100iu/mL injection
+f255.	Neuphane 100iu/mL injection
+f256.	Initard 50/50 injection 10mL
+f257.	Mixtard injection 10mL
+f258.	Human Insulatard 100iu/mL injection 10mL
+f25A.	Humulin I 100iu/mL prefilled pen 3mL
+f25B.	Insuman Basal Optiset 100iu/mL prefilled pen 3mL
+f25C.	Insulatard InnoLet 100units/mL prefilled syringe 3mL
+f25D.	Insulatard FlexPen 100iu/mL prefilled pen 3mL
+f25E.	Hypurin Bovine Isophane 100iu/mL injection cartridge 3mL
+f25F.	Hypurin Porcine Isophane 100iu/mL injection cartridge 3mL
+f25G.	HUMULIN I KWIKPEN 100iu/mL prefilled pen 3mL
+f25H.	INSUMAN BASAL SOLOSTAR 100iu/mL prefilled pen 3mL
+f25W.	Human isophane insulin 100units/mL prefilled syringe
+f25X.	Human isophane insulin 100units/mL injection cartridge
+f25Y.	Human isophane insulin 100units/mL injection vial
+f25Z.	Isophane insulin 100iu/mL injection vial
+f25a.	Humulin I 100iu/mL injection 10mL
+f25b.	Human Actraphane injection 10mL
+f25c.	Human Initard injection 10mL
+f25d.	Human Mixtard injection 10mL
+f25e.	Humulin M1 injection 10mL
+f25f.	Humulin M2 injection 10mL
+f25g.	Humulin M3 injection 10mL
+f25h.	Humulin M4 injection 10mL
+f25j.	Pur-In Isophane 100iu/mL vials 10mL
+f25k.	Pur-In Isophane 100iu/mL cartridges 3mL
+f25l.	Humulin I 100iu/mL cartridges 1.5mL
+f25m.	Human Insulatard 100iu/mL preloaded injection pen 3mL
+f25n.	Humaject I 100iu/mL prefilled pen
+f25o.	Humulin I 100iu/mL cartridges 3mL
+f25p.	Human Insulatard ge 100iu/mL injection 10mL
+f25q.	Human Insulatard Penfill 1.5mL
+f25r.	Pork Insulatard 100units/mL injection 10mL
+f25s.	Isophane insulin 100iu/mL injection cartridge
+f25t.	Hypurin Bovine Isophane 100iu/mL injection cartridge 1.5mL
+f25u.	Hypurin Porcine Isophane 100iu/mL injection cartridge 1.5mL
+f25v.	Hypurin isophane 100iu/mL injection 10mL
+f25w.	Hypurin Porcine Isophane 100iu/mL injection 10mL
+f25x.	Insulatard Penfill cartridge 3mL
+f25y.	Insuman Basal 100iu/mL injection vial 5mL
+f25z.	Insuman Basal 100iu/mL injection cartridge 3mL
+f26..	Protamine zinc insulin injection
+f262.	Hypurin Protamine zinc injection 10mL
+f26z.	Protamine zinc insulin 100units/mL injection vial
+f27..	Biphasic isophane insulin injection
+f271.	Mixtard 30/70 injection 10mL
+f273.	Pur-In Mix 15/85 vials 10mL
+f274.	Pur-In Mix 15/85 cartridges 3mL
+f275.	Pur-In Mix 25/75 vials 10mL
+f276.	Pur-In Mix 25/75 cartridges 3mL
+f277.	Pur-In Mix 50/50 vials 10mL
+f278.	Pur-In Mix 50/50 cartridges 3mL
+f279.	Humulin M1 10/90 vials 10mL
+f27A.	Humaject M1 100iu/mL prefilled pen
+f27B.	Humaject M2 100iu/mL prefilled pen
+f27C.	Humaject M3 100iu/mL prefilled pen
+f27D.	Humaject M4 100iu/mL prefilled pen
+f27E.	Humaject M5 100iu/mL prefilled pen
+f27F.	Humulin M4 40/60 cartridges 3mL
+f27G.	Humulin M5 50/50 cartridges 3mL
+f27H.	Human Mixtard 30 ge 100units/mL injection 10mL
+f27I.	Hypurin Porcine Biphasic Isophane 30/70 injection cartridge 3mL
+f27J.	Human Mixtard 10 Penfill 1.5mL
+f27K.	Human Mixtard 20 Penfill 1.5mL
+f27L.	Human Mixtard 30 Penfill 1.5mL
+f27M.	Human Mixtard 40 Penfill 1.5mL
+f27N.	Human Mixtard 50 Penfill 1.5mL
+f27O.	Mixtard 30 InnoLet 100units/mL prefilled syringe 3mL
+f27P.	Human Mixtard 10 prefilled pen
+f27Q.	Human Mixtard 20 prefilled pen
+f27R.	Human Mixtard 30 prefilled pen
+f27S.	Human Mixtard 40 prefilled pen
+f27T.	Human Mixtard 50 prefilled pen
+f27V.	Pork Mixtard 30 injection 10mL
+f27W.	Human Mixtard 50 vial 10mL
+f27X.	Hypurin Porcine 30/70 Mix injection 10mL
+f27Y.	Hypurin Porcine 30/70 Mix injection cartridge 1.5mL
+f27Z.	Insuman Comb 25 100iu/mL injection vial 5mL
+f27a.	Humulin M1 10/90 cartridges 1.5mL
+f27b.	Humulin M2 20/80 vials 10mL
+f27c.	Humulin M2 20/80 cartridges 1.5mL
+f27d.	Humulin M3 30/70 vials 10mL
+f27e.	Humulin M3 30/70 cartridges 1.5mL
+f27f.	Humulin M4 40/60 vials 10mL
+f27g.	Humulin M4 40/60 cartridges 1.5mL
+f27j.	Human Mixtard 30/70 injection 10mL
+f27k.	Human Initard 50/50 injection 10mL
+f27u.	Humulin M5 50/50 injection vial 10mL
+f27v.	Humulin M5 50/50 cartridge 1.5mL
+f27w.	Humulin M1 10/90 cartridges 3mL
+f27x.	Humulin M2 20/80 cartridges 3mL
+f27y.	Insuman Comb 25 100iu/mL injection cartridge 3mL
+f27z.	Humulin M3 30/70 cartridges 3mL
+f28..	Biphasic isophane insulin 2
+f281.	Mixtard 10 (human) Penfill cartridge 3mL
+f282.	Mixtard 20 (human) Penfill cartridge 3mL
+f283.	Mixtard 30 Penfill cartridge 3mL
+f284.	Mixtard 40 (human) Penfill cartridge 3mL
+f285.	Mixtard 50 (human) Penfill cartridge 3mL
+f286.	Insuman Comb 15 100iu/mL injection cartridge 3mL
+f287.	Insuman Comb 50 100iu/mL injection vial 5mL
+f288.	Insuman Comb 15 OptiSet 100iu/mL prefilled pen 3mL
+f289.	Insuman Comb 25 OptiSet 100iu/mL prefilled pen 3mL
+f28A.	Insuman Comb 50 OptiSet 100iu/mL prefilled pen 3mL
+f28B.	Insuman Comb 15 100iu/mL injection vial 5mL
+f28C.	Insuman Comb 50 100iu/mL injection cartridge 3mL
+f28D.	Humulin M3 100iu/mL prefilled pen 3mL
+f28E.	HUMULIN M3 KWIKPEN 100iu/mL prefilled pen 3mL
+f28F.	INSUMAN COMB 25 SOLOSTAR 100iu/mL prefilled pen 3mL
+f29..	Insulin glargine
+f291.	Insulin glargine 100iu/mL injection cartridge
+f292.	Insulin glargine 100iu/mL injection vial
+f293.	Insulin glargine 100iu/mL prefilled pen
+f294.	Lantus 100iu/mL injection cartridge 3mL
+f295.	Lantus 100iu/mL injection vial 10mL
+f296.	Lantus 100iu/mL OptiSet prefilled pen 3mL
+f297.	Lantus 100iu/mL OptiClik cartridges 3mL
+f298.	LANTUS 100iu/mL SoloStar prefilled pen 3mL
+f299.	TOUJEO 300iu/mL SoloStar prefilled pen 1.5mL
+f29A.	INSULIN GLARGINE 300iu/mL prefilled pen
+f29B.	ABASAGLAR 100iu/mL solution for injection cartridges 3mL
+f29C.	ABASAGLAR KWIKPEN 100iu/mL soln for inj prefilled pen 3mL
+f2A..	Insulin detemir
+f2A1.	Levemir Penfill 100iu/mL injection cartridge 3mL
+f2A2.	Levemir FlexPen 100iu/mL prefilled pen 3mL
+f2A3.	LEVEMIR INNOLET 100iu/mL prefilled syringe 3mL
+f2Ax.	INSULIN DETEMIR 100iu/mL prefilled syringe
+f2Ay.	Insulin detemir 100iu/mL prefilled pen
+f2Az.	Insulin detemir 100iu/mL injection cartridge
+f2B..	INSULIN DEGLUDEC
+f2B1.	TRESIBA FLEXTOUCH 100iu/mL prefilled pen 3mL
+f2B2.	INSULIN DEGLUDEC 100iu/mL prefilled pen
+f2B3.	TRESIBA FLEXTOUCH 200iu/mL prefilled pen 3mL
+f2B4.	INSULIN DEGLUDEC 200iu/mL prefilled pen
+f2B5.	TRESIBA PENFILL 100iu/mL injection cartridges
+f2B6.	INSULIN DEGLUDEC 100iu/mL injection cartridges
+f2C..	INSULIN DEGLUDEC + LIRAGLUTIDE
+f2C1.	XULTOPHY 100iu/mL/3.6mg/mL soln for inj prefilled pen 3mL
+f2C2.	INSULIN DEGLUDEC+LIRAGLUTIDE 100iu/mL/3.6mg/mL soln inj pen
+fw...	Short with intermediate-acting insulins
+fw1..	Biphasic isophane insulin lispro
+fw11.	Humalog Mix25 100iu/mL cartridge 3mL
+fw12.	Humalog Mix25 100iu/mL prefilled pen 3mL
+fw13.	Humalog Mix50 100iu/mL prefilled pen 3mL
+fw14.	HUMALOG MIX50 100iu/mL cartridges 3mL
+fw15.	HUMALOG MIX25 KWIKPEN 100iu/mL prefilled pen 3mL
+fw16.	HUMALOG MIX50 KWIKPEN 100iu/mL prefilled pen 3mL
+fw2..	Biphasic insulin aspart
+fw21.	NovoMix 30 Penfill 100units/mL injection cartridge 3mL
+fw22.	NovoMix 30 FlexPen 100units/mL injection prefilled pen 3mL
+p453.	EXUBERA delivery system kit
+p454.	EXUBERA INSULIN RELEASE UNITS
+p455.	EXUBERA delivery system chamber
+ph2..	Insulin U100 syringe
+ph21.	Hypodermic U100 insulin syringe 0.5mL x1
+ph22.	Hypodermic U100 insulin syringe 1mL x1
+ph23.	Pre-set 1mL U100 insulin syringe
+ph24.	Hypoguard 1mL U100 insulin syringe
+ph25.	Click/Count 1mL U100 insulin syringe
+ph26.	ABCare 1mL U100 pre-set syringe
+ph27.	ABCare 0.5mL U100 glass syringe
+ph28.	ABCare 1mL U100 glass syringe
+ph29.	Hypoguard 1mL U100 click/count syringe
+ph2A.	Hypoguard 1mL U100 pre-set syringe
+ph3..	Disposable insulin U100 syringe+needle
+ph31.	Insulin 0.5mL disposable syringe
+ph32.	Insulin 1mL disposable syringe
+ph33.	Insulin 0.3mL disposable syringe
+ph34.	Insulin U100 0.3mL disposable syringe+12mm(29G) needle
+ph35.	Insulin U100 0.5mL disposable syringe+12mm needle
+ph36.	Insulin U100 1mL disposable syringe+12mm needle
+ph39.	Monoject U100 0.5mL disposable syringe+12mm(27G) needle
+ph3A.	Monoject U100 1mL disposable syringe+12mm(27G) needle
+ph3B.	BD U100 Micro-Fine+ 0.3mL disposable syringe+needle
+ph3C.	BD Micro-Fine+ U100 0.5mL disposable syringe+12mm(29G) needle
+ph3D.	BD Micro-Fine+ U100 1mL disposable syringe+12mm(29G) needle
+ph3E.	Omnikan U100 0.5mL disposable syringe+12mm(29G) needle
+ph3F.	Omnikan U100 1mL disposable syringe+12mm(29G) needle
+ph3G.	Myjector 0.5mL U100 disposable syringe+needle
+ph3H.	Myjector 1mL U100 disposable syringe+needle
+ph3I.	Omnifix Solo 1mL U100 disposable syringe
+ph3J.	Insulin U100 0.3mL disposable syringe+8mm(30G) needle
+ph3K.	Insulin U100 0.5mL disposable syringe+8mm(30G) needle
+ph3L.	BD Micro-Fine+ U100 0.3mL disposable syringe+8mm(30G) needle
+ph3M.	BD Micro-Fine+ U100 0.5mL disposable syringe+8mm(30G) needle
+ph3N.	Insulin U100 0.5mL disposable syringe+12mm(27G) needle
+ph3P.	Insulin U100 0.5mL disposable syringe+12mm(29G) needle
+ph3Q.	Insulin U100 0.5mL disposable syringe+12mm(30G) needle
+ph3R.	Myjector U100 0.5mL disposable syringe+12mm(27G) needle
+ph3S.	Myjector U100 0.5mL disposable syringe+12mm(29G) needle
+ph3T.	Insulin U100 1mL disposable syringe+12mm(27G) needle
+ph3U.	Insulin U100 1mL disposable syringe+12mm(29G) needle
+ph3V.	Insulin U100 1mL disposable syringe+12mm(30G) needle
+ph3W.	Myjector U100 1mL disposable syringe+12mm(27G) needle
+ph3X.	Myjector U100 1mL disposable syringe+12mm(29G) needle
+ph3Y.	Unifine U100 0.3mL disposable syringe+12mm(29G) needle
+ph3Z.	Unifine U100 0.5mL disposable syringe+12mm(29G) needle
+ph3a.	Unifine U100 1mL disposable syringe+12mm(29G) needle
+ph3b.	BD MIcro-Fine Plus U100 1mL disposable syringe+8mm(30G) needle
+ph3c.	Insulin U100 1mL disposable syringe+8mm(30G) needle
+ph3d.	Omnican 50 U100 0.5mL disposable syringe+8mm(30G) needle
+ph3e.	Omnican 50 U100 0.5mL disposable syringe+12mm(30G) needle
+ph3f.	Omnican 100 U100 1mL disposable syringe+8mm(30G) needle
+ph3g.	Omnican 100 U100 1mL disposable syringe+12mm(30G) needle
+phB..	INSULIN SYRINGE+NEEDLE
+phB1.	MAGELLAN 0.3mL disposable safety syringe+8mm(30G) needle
+phB2.	MAGELLAN 0.5mL disposable safety syringe+8mm(30G) needle
+phB3.	MAGELLAN 1mL disposable safety syringe+8mm(30G) needle
+phB4.	MAGELLAN 0.3mL disposable safety syringe+13mm(29G) needle
+phB5.	MAGELLAN 0.5mL disposable safety syringe+13mm(29G) needle
+phB6.	MAGELLAN 1mL disposable safety syringe+13mm(29G) needle
+pm16.	NovoPen 3 Classic device
+pm17.	NovoPen 3 Fun device
+pm18.	NovoPen 1.5 Classic device
+pm19.	NovoPen 1.5 Fun device
+pm1A.	NovoPen 3 Demi device
+pm1B.	Autopen 3mL one unit device
+pm1C.	Autopen 1.5mL one unit device
+pm1D.	Autopen 1.5mL two unit device
+pm1E.	Autopen 3mL two unit device
+pm1I.	NovoPen device
+pm1L.	Novopen junior yellow device
+pm1M.	Novopen junior green device
+pm1N.	Autopen Junior 3mL one unit device
+pm1P.	Autopen Junior 3mL two unit device
+pm1S.	mhi-500 Starter Kit MH79002-01 needle-free insulin delivery system
+pm1T.	mhi-500 3-month Consumable Kit (size 6) MH79002-07 needle-free insulin delivery system
+pm1U.	mhi-500 3-month Consumable Kit (size 7) MH79002-08 needle-free insulin delivery system
+pm1Y.	Autopen 24 3mL one unit device
+pm1Z.	Autopen 24 3mL two unit device
+pm1a.	Autopen Special Edition 3mL one unit device
+pm1b.	Autopen Special Edition 3mL two unit device
+pm1h.	mhi-500 Starter Kit MH79002-01A needle-free insulin delivery system with 3mL vial adaptor
+pm1j.	mhi-500 3-month Consumable Kit (size 6) MH79002-12 needle-free insulin delivery system with 3mL vial adaptor
+pm1k.	mhi-500 3-month Consumable Kit (size 7) MH79002-13 needle-free insulin delivery system with 3mL vial adaptor
+pm1o.	SQ-PEN Starter Pack SQ001 needle-free insulin delivery system
+pm1r.	SQ-PEN 3mL 3-month Consumable Pack SQ004 needle-free insulin delivery system
+pm1s.	SQ-PEN 10mL 3-month Consumable Pack SQ006 needle-free insulin delivery system
+pm1w.	SQ-X STARTER PACK SQ-007 needle free insulin delivery system
+pm1y.	NOVOPEN 4 blue device
+pm1z.	NOVOPEN 4 silver device
+pm2A.	NOVOPEN ECHO 3mL blue device
+pm2B.	NOVOPEN ECHO 3mL red device
+pm2I.	NOVOPEN 5 blue injection device
+pm2J.	NOVOPEN 5 silver injection device
+x005Q	Human Mixtard 30 ge 100units/mL injection vial
+x005R	Human Actrapid (pyr) 100iu/mL injection vial
+x005S	Human Initard 50/50 (emp) 100units/mL injection vial
+x005T	Human Insulatard (emp) 100iu/mL injection vial
+x005V	Human Mixtard 30/70 (emp) 100units/mL injection vial
+x005W	Human Monotard (pyr) 100iu/mL injection vial
+x005X	Human Insulatard ge 100units/mL injection vial
+x005Y	Human Insulatard 100units/mL Penfill
+x005Z	Human Ultratard (pyr) 100iu/mL injection vial
+x005a	Human Velosulin (emp) 100iu/mL injection vial
+x005b	Humulin I (prb) 100iu/mL injection vial
+x005c	Humulin I (prb) 100iu/mL injection cartridge
+x005d	Humulin Lente (prb) 100iu/mL injection vial
+x005e	Humulin M1 10/90 (prb) 100units/mL injection vial
+x005f	Humulin M1 10/90 (prb) 100units/mL injection cartridge
+x005g	Humulin M2 20/80 (prb) 100units/mL injection vial
+x005h	Humulin M2 20/80 (prb) 100units/mL injection cartridge
+x005i	Humulin M3 30/70 (prb) 100units/mL injection vial
+x005j	Humulin M3 30/70 (prb) 100units/mL injection cartridge
+x005k	Humulin M4 40/60 (prb) 100units/mL injection vial
+x005l	Humulin M4 40/60 (prb) 100units/mL injection cartridge
+x005m	Humulin Zn (prb) 100iu/mL injection vial
+x005n	Humulin S (prb) 100iu/mL injection vial
+x005o	Humulin S 100iu/mL injection cartridge
+x006L	Hypurin Isophane (bovine) 100iu/mL injection vial
+x006M	Hypurin Lente (bovine) 100iu/mL injection vial
+x006N	Hypurin Neutral (bovine) 100iu/mL injection vial
+x006O	Hypurin Protamine Zinc (bovine) 100units/mL injection vial
+x006c	Initard 50/50 (porcine) 100units/mL injection vial
+x006e	Insulatard (porcine) 100iu/mL injection vial
+x006f	Insulin product
+x0074	Lentard MC (bovine+porcine) 100iu/mL injection vial
+x007t	Mixtard 30/70 (porcine) 100units/mL injection vial
+x008B	Neutral insulin 100iu/mL injection vial
+x009D	Human Mixtard 10 Penfill
+x009E	Human Mixtard 20 Penfill
+x009F	Human Mixtard 30 Penfill
+x009G	Human Mixtard 40 Penfill
+x009H	Human Mixtard 50 Penfill
+x00AB	Pur-In Isophane (emp) 100iu/mL injection vial
+x00AC	Pur-In Isophane (emp) 100iu/mL injection cartridge
+x00AD	Pur-In Mix 15/85 (emp) 100units/mL injection vial
+x00AE	Pur-In Mix 15/85 (emp) 100units/mL injection cartridge
+x00AF	Pur-In Mix 25/75 (emp) 100units/mL injection vial
+x00AG	Pur-In Mix 25/75 (emp) 100units/mL injection cartridge
+x00AH	Pur-In Mix 50/50 (emp) 100units/mL injection vial
+x00AI	Pur-In Mix 50/50 (emp) 100units/mL injection cartridge
+x00AJ	Pur-In Neutral (emp) 100iu/mL injection vial
+x00AK	Pur-In Neutral 100iu/mL injection cartridge
+x00AU	Rapitard MC 100iu/mL injection vial
+x00Aj	Semitard MC (porcine) 100iu/mL injection vial
+x00Bt	Pork Velosulin 100iu/mL injection vial
+x01LZ	Actrapid NovoLet 100iu/mL prefilled pen
+x01La	Hypurin 100units/mL injection vial
+x01Lb	Humulin insulin
+x01Lc	PenMix insulin
+x01Ld	Initard insulin
+x01Le	Pur-In-Mix insulin
+x01Lf	Mixtard insulin
+x01Lg	Actraphane insulin
+x01Lh	Insulatard NovoLet 100units/mL prefilled pen
+x01UL	Glass U100 insulin syringe
+x01UM	Disposable U100 insulin syringe
+x029h	Velosulin 100iu/mL injection cartridge
+x02AO	Humulin M5 50/50 (prb) 100units/mL injection vial
+x02KN	Human insulin 100units/mL prefilled pen
+x02KO	Human isophane insulin 100units/mL prefilled pen
+x02Kh	Humulin M5 50/50 (prb) 100units/mL injection cartridge
+x02er	Humaject I
+x02es	Humaject M1
+x02et	Humaject M2
+x02eu	Humaject M3
+x02ev	Humaject M4
+x02ew	Humaject M5
+x02ex	Humaject S
+x02ey	Human Mixtard
+x03aj	Pork Mixtard 30 100units/mL injection
+x03ak	Pork Insulatard 100units/mL injection
+x03d0	Pork Insulatard
+x03d1	Pork Mixtard
+x03d5	Human Actrapid
+x03d6	Human Ultratard
+x03dA	Human Insulatard
+x03dC	Human Monotard
+x03eI	Humalog 100iu/mL injection vial
+x03eJ	Humalog 100iu/mL injection cartridge
+x03eK	Humalog
+x03jX	Human Mixtard 50 injection vial
+x03ln	Hypurin Bovine Neutral 100iu/mL injection cartridge
+x03lo	Hypurin Bovine Isophane 100iu/mL injection cartridge
+x03lp	Hypurin Porcine Neutral 100iu/mL injection cartridge
+x03lq	Hypurin Porcine Isophane 100iu/mL injection cartridge
+x03lv	Hypurin Porcine Neutral 100iu/mL injection vial
+x03lw	Hypurin Porcine Isophane 100iu/mL injection vial
+x03lx	Hypurin biphasic isophane insulin
+x03ly	Hypurin Porcine 30/70 Mix injection vial
+x03lz	Hypurin Porcine 30/70 Mix injection cartridge
+x03si	Lentard MC
+x03v1	Pork Mixtard 30
+x03v2	Pork Velosulin
+x03vx	Semitard MC
+x03xp	Rapitard MC
+x049L	Human Actrapid Penfill
+x049M	Human Insulatard ge
+x049N	Human Mixtard 10
+x049O	Human Mixtard 20
+x049P	Human Mixtard 30
+x049Q	Human Mixtard 30 ge
+x049R	Human Mixtard 40
+x049S	Human Mixtard 50
+x049T	Human Velosulin
+x049V	Humulin I
+x049W	Humulin Lente
+x049X	Humulin M1 10/90
+x049Y	Humulin M2 20/80
+x049Z	Humulin M3 30/70
+x049a	Humulin M4 40/60
+x049b	Humulin M5
+x049c	Humulin S
+x049d	Humulin Zn
+x049q	Hypurin Bovine Isophane
+x049r	Hypurin Bovine Lente
+x049s	Hypurin Bovine Neutral
+x049t	Hypurin Bovine Protamine Zinc
+x049u	Hypurin Porcine Biphasic Isophane
+x04wm	Humalog biphasic isophane insulin lispro
+x04wn	Humalog Mix25 100iu/mL cartridge
+x04wo	Humalog Mix25 100iu/mL prefilled pen
+x04wp	Humalog Mix25
+x051f	Hypurin Porcine
+x053d	NovoRapid NovoLet 100units/mL prefilled syringe
+x053e	NovoRapid Penfill 100units/mL cartridge
+x053f	NovoRapid
+x053g	NovoRapid NovoLet
+x053h	NovoRapid Penfill
+x056T	Insuman Rapid 100iu/mL injection vial
+x056U	Insuman Rapid 100iu/mL injection cartridge
+x056X	Insuman Basal 100iu/mL injection vial
+x056Y	Insuman Basal
+x056Z	Insuman Basal 100iu/mL injection cartridge
+x056a	Insuman Comb insulin
+x056b	Insuman Comb 25 100iu/mL injection vial
+x056c	Insuman Comb 25 100iu/mL injection cartridge
+x056d	Insuman Rapid
+x056e	Insuman Comb 25
+x059L	Humalog-Pen 100iu/mL prefilled pen
+x059M	Humalog-Pen
+x059N	Humalog Mix50 100iu/mL prefilled pen
+x059O	Humulin I 100iu/mL prefilled pen
+x059P	Humalog Mix50
+x05Cg	Autopen device
+x05Cm	Insuman Comb 15 100iu/mL injection cartridge
+x05Cn	Insuman Comb 50 100iu/mL injection vial
+x05Co	Insuman Comb 15
+x05Cp	Insuman Comb 50
+x05D7	Pur-In Pen device
+x05EY	Insuman Basal OptiSet 100iu/mL prefilled pen
+x05EZ	Insuman Basal OptiSet
+x05Ea	Insuman Rapid OptiSet 100iu/mL prefilled pen
+x05Eb	Insuman Rapid OptiSet
+x05Ec	Insuman Comb 15 OptiSet 100iu/mL prefilled pen
+x05Ed	Insuman Comb 25 OptiSet 100iu/mL prefilled pen
+x05Ee	Insuman Comb 50 OptiSet 100iu/mL prefilled pen
+x05Ef	Insuman Comb 15 OptiSet
+x05Eg	Insuman Comb 25 OptiSet
+x05Eh	Insuman Comb 50 OptiSet
+x05FF	Insuman Comb 15 100iu/mL injection vial
+x05FG	Insuman Comb 50 100iu/mL injection cartridge
+x05MR	Biphasic insulin - chemical
+x05MS	Biphasic isophane insulin - chemical
+x05Xe	Insulatard InnoLet 100units/mL prefilled syringe
+x05Xf	Insulatard InnoLet
+x05Xg	Mixtard 30 InnoLet 100units/mL prefilled syringe
+x05Xh	Mixtard 30 InnoLet
+x05c0	Human Velosulin (pyr) 100iu/mL injection vial
+x05d0	NovoMix
+x05d1	Insulin biphasic aspart 30/70 100units/mL injection cartridge 3mL
+x05d2	Insulin biphasic aspart 30/70 100units/mL injection prefilled pen 3mL
+x05dZ	Omnifix
+x05fE	Lantus
+x05fF	Lantus 100iu/mL injection cartridge
+x05fG	Lantus 100iu/mL injection vial
+x05fH	Lantus 100iu/mL OptiSet prefilled pen
+x05fv	Disposable insulin U100 0.3mL syringe+needle
+x05fw	Disposable insulin U100 0.5mL syringe+needle
+x05fx	Disposable insulin U100 1mL syringe+needle
+x05gU	NovoRapid FlexPen
+x05gV	Insulatard FlexPen
+x05gW	Insulatard FlexPen 100iu/mL prefilled pen
+x05gX	NovoRapid FlexPen 100units/mL prefilled pen
+x05tf	Levemir Penfill 100iu/mL injection cartridge
+x05tg	Levemir
+x05th	Levemir FlexPen 100iu/mL prefilled pen
+x05xd	Humulin M3 100units/mL prefilled pen
+x05ya	Apidra 100iu/mL injection vial
+x05yb	Apidra 100iu/mL injection cartridge
+x05yc	Apidra
+x05zZ	Lantus 100iu/mL OptiClik cartridge
+x05zr	Apidra 100iu/mL OptiSet prefilled pen

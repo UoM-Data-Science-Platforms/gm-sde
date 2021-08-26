@@ -1,0 +1,401 @@
+ACIN15879NEMIS	Actrapid  Injection  100 units/ml, 10 ml vial
+APIN23125NEMIS	Apidra Opticlik  Injection  100 units/ml, 3 ml cartridge
+AURE3057NEMIS	Autopen  Re-usable pen  1.5ml, 1-16 units
+EXIN22785NEMIS	Exubera  Insulin Release Units  box of 6
+HUCA8384BRID	Human Actrapid Penfill  Cartridges (1.5 Ml)  100 units/ml
+HUCA8927PRDGY	Humulin M5 50/50  Cartridges  
+HUIN3718	Humulin I  Suspension For Injection  100 units/ml, 10 ml vial
+HUIN8578EGTON	Human Actraphane(Nova)  Injection
+HUIN8925BRECO	Humulin M3  Suspension For Injection  100 units/ml, 10 ml vial
+HUINEGTON7143	Human Actrapid  Injection  100 units/ml
+HUPE26794EMIS	Human Mixtard 40  Penfill Cartridges (1.5 Ml)  
+HYIN15401NEMIS	Hypurin Porcine Neutral  Injection (cartridges)  100 units/ml, 3 ml Cartridge
+INPR11699NEMIS	Insulatard Innolet  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+LEINEGTON7141	Lentard Mc  Injection  100 units/ml, 10 ml vial
+LEPR18221NEMIS	Levemir Flexpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+MHDE14616NEMIS	Mhi-500 3-Month Consumable Kit  Delivery System  10 ml, 6 nozzle, MH79002-07
+MIIN15902NEMIS	Mixtard 30  Injection  100 units/ml, 10 ml vial
+NORE31135NEMIS	Novopen 4  Re-usable pen  Silver, 3 ml, 1-60 units
+PEPR23950EMIS	Human Mixtard 50  Preloaded pen  
+APIN21135NEMIS	Apidra  Injection  100 units/ml, 10 ml vial
+HUCA28935EMIS	Humalog  Cartridges (1.5 Ml)  100 units/ml
+HUCA32498EMIS	Humulin I  Cartridges (3 Ml)  100 units/ml
+HUIN5904	Humulin Zn  Injection  100 units/ml, 10 ml vial
+HUPR5189NEMIS	Humalog Mix50  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HYIN31696EMIS	Hypurin Porcine Neutral  Solution for injection  100 units/ml, 10 ml vial
+ININ13808NEMIS	Insulin Glargine  Injection  100 units/ml, 3 ml cartridge
+INPR13809NEMIS	Insulin Glargine  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INPR6347NEMIS	Insuman Comb 50 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INSO98875NEMIS	Insulin Degludec And Liraglutide  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen
+KESY78716NEMIS	Kendall Magellan Insulin Safety, Single Use, U100  Syringes with 8mm needles  Sterile, 0.5 ml, 0.3 mm/30 g
+ABSO104799NEMIS	Abasaglar Kwikpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+AURE14954NEMIS	Autopen 24  Re-usable pen  3 ml, 1-21 units, AN4210
+HUCA27551EMIS	Humulin M5  Cartridges (1.5 Ml)  
+HUCA32509EMIS	Humulin M3  Suspension For Injection  100 units/ml, 3 ml cartridge
+HUINEGTON7136	Humulin Lente  Injection  100 units/ml, 10 ml vial
+HUPE26791EMIS	Human Mixtard 30  Penfill Cartridges (1.5 Ml)  
+INCA34843EMIS	Insulin Lispro  Solution for injection  100 units/ml, 3 ml cartridge
+ININ1196NEMIS	Insulin Aspart  Injection  100 units/ml, 10 ml vial
+ININ9075BRIDL	Insulin Zinc Suspension Lente (Evans)  Injection  100u/ml
+INPR18215NEMIS	Insulin Detemir  Solution for injection  100 units/ml, 3 ml pre-filled pen
+INSO78482NEMIS	Insulin Degludec  Solution for injection  200 units/ml, 3 ml pre-filled device
+ISIN668NEMIS	Isophane Insulin (Porcine, Highly Purified)  Injection (cartridges)  100 units/ml, 3 ml cartridge
+KESY78716NEMIS	Kendall Magellan Insulin Safety, Single Use, U100  Syringes with 8mm needles  Sterile, 0.5 ml, 0.3 mm/30 g
+LEIN18219NEMIS	Levemir Penfill  Injection (cartridges)  100 units/ml, 3 ml cartridge
+MHDE14617NEMIS	Mhi-500 3-Month Consumable Kit  Delivery System  10 ml, 7 nozzle, MH79002-08
+MIINEGTON7152	Pork Mixtard 30  Injection  10 ml vial
+MIPR15896NEMIS	Mixtard 20 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+NORE3062NEMIS	Novopen 3  Re-usable pen  Classic
+NORE3063NEMIS	Novopen 3  Re-usable pen  Fun, red
+TOSO103679NEMIS	Toujeo Solostar  Pre-filled Disposable Pen  300 units/ml, 1.5 ml pen
+HUCA32506EMIS	Humulin M2  Cartridges (3 Ml)  
+HUIN28936EMIS	Humalog  Injection  100 units/ml
+HUINEGTON7136	Humulin Lente  Injection  100 units/ml, 10 ml vial
+INSO78482NEMIS	Insulin Degludec  Solution for injection  200 units/ml, 3 ml pre-filled device
+ISIN666NEMIS	Isophane Insulin (Porcine, Highly Purified)  Injection  100 units/ml, 10 ml vial
+ISIN669NEMIS	Isophane Insulin (Bovine, Highly Purified)  Injection  100 units/ml, 10 ml vial
+NOPR1202NEMIS	Novorapid Novolet  Prefilled syringes  100 units/ml
+TRSO78485NEMIS	Tresiba Flextouch  Solution for injection  200 units/ml, 3 ml pre-filled pen
+APIN21136NEMIS	Apidra  Injection  100 units/ml, 3 ml cartridge
+APPR22403NEMIS	Apidra Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+AURE11845NEMIS	Autopen Junior  Re-usable pen  3 ml, 1-21 units
+AURE3060NEMIS	Autopen  Re-usable pen  Classic, 3 ml, 2-42 units, AN3800
+HUCA18386EMIS	Humulin S  Cartridges (1.5 Ml)  100 units/ml
+HUIN8426EGTON	Human Ultratard  Injection  100 units/ml
+HUIN8818BRIDL	Human Initard 50/50 Insulin  Injection  100 units/ml
+HUPR24176EMIS	Human Insulatard Ge  Preloaded pen  100 units/ml
+HUPR31276NEMIS	Humalog Kwikpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+HYIN31696EMIS	Hypurin Porcine Neutral  Solution for injection  100 units/ml, 10 ml vial
+ININ5031	Insulin Zinc Suspension  Injection  100 units/ml
+INPR13809NEMIS	Insulin Glargine  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+ISIN669NEMIS	Isophane Insulin (Bovine, Highly Purified)  Injection  100 units/ml, 10 ml vial
+ISPE33728EMIS	Isophane Insulin (Human Pyr)  Penfill Cartridges (1.5 Ml)  100 units/ml
+PEPR23946EMIS	Human Mixtard 40  Preloaded pen  
+RAIN4251	Rapitard Mc (Novo)  Injection  100 units/ml
+ACPR15881NEMIS	Actrapid Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+AURE12986NEMIS	Autopen Special Edition  Re-usable pen  3 ml, 1-21 units
+EXIN22882NEMIS	Exubera  Inhalation Powder Blisters  1 mg Unit Dose Blister
+HYIN15399NEMIS	Hypurin Bovine Neutral  Injection (cartridges)  100 units/ml, 3ml Cartridge
+ININ28940EMIS	Insulin Lispro  Injection  100 units/ml, 10 ml vial
+ININ28940EMIS	Insulin Lispro  Solution for injection  100 units/ml, 10 ml vial
+INPR6340NEMIS	Insuman Rapid Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INPR6343NEMIS	Insuman Comb 15 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INPR6345NEMIS	Insuman Comb 25 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INSO78486NEMIS	Insulin Degludec  Solution for injection  100 units/ml, 3 ml cartridge
+LEIN18219NEMIS	Levemir Penfill  Injection (cartridges)  100 units/ml, 3 ml cartridge
+MIIN15902NEMIS	Mixtard 30  Injection  100 units/ml, 10 ml vial
+NOPR13769NEMIS	Novorapid Flexpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+ABIN104796NEMIS	Abasaglar  Solution for injection  100 units/ml, 3 ml cartridge
+AURE11846NEMIS	Autopen Junior  Re-usable pen  3 ml, 2-42 units
+AURE12987NEMIS	Autopen Special Edition  Re-usable pen  3 ml, 2-42 units
+DIIN1778NEMIS	Disposable  Insulin syringe with needle  0.3 ml
+EXIN22784NEMIS	Exubera  Insufflator kit  
+HUCA32500EMIS	Humulin S  Cartridges (3 Ml)  100 units/ml
+HUCA34841EMIS	Humalog  Cartridges (3 Ml)  100 units/ml
+HUIN28936EMIS	Humalog  Injection  100 units/ml
+HUPR26732EMIS	Humaject (Humulin I)  Preloaded pen  100 units/ml
+HUPR35541EMIS	Humalog Mix25  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HYIN30855EMIS	Hypurin Porcine Isophane  Suspension For Injection  100 units/ml, 10 ml vial
+INDI10563BRIDL	Insulin Syringe  Disposable  1 ml
+ININ13807NEMIS	Insulin Glargine  Injection  100 units/ml, 10 ml vial
+ININ15887NEMIS	Insulatard  Injection  100 units/ml, 10 ml vial
+ININ3283NEMIS	Insuman Comb 25  Injection  100 units/ml, 5 ml vial
+INPR51153NEMIS	Insuman Basal Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INPR6340NEMIS	Insuman Rapid Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+LAPR13574NEMIS	Lantus Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+MHDE14612NEMIS	Mhi-500 Starter Kit  Delivery System  MH79002-01
+MODI10487BRIDL	Monoject  Disposable syringe with needle  1 ml, 28g
+MOIN15918NEMIS	Monotard  Injection  100 units/ml, 10 ml vial
+NORE101164NEMIS	Novopen 5  Re-usable pen  Blue, 3 ml, 1-60 units
+PEIN9239BRIDL	Human Mixtard 30  Injection (cartridges)  100 u/ml
+PEPR23940EMIS	Human Mixtard 10  Preloaded pen  
+SEIN2532	Semitard Mc (Novo)  Injection  100 units/ml
+TRSO78484NEMIS	Tresiba Flextouch  Solution for injection  100 units/ml, 3 ml pre-filled pen
+TRSO78488NEMIS	Tresiba Penfill  Solution for injection  100 units/ml, 3 ml cartridge
+AURE11845NEMIS	Autopen Junior  Re-usable pen  3 ml, 1-21 units
+AURE14954NEMIS	Autopen 24  Re-usable pen  3 ml, 1-21 units, AN4210
+HUPE26791EMIS	Human Mixtard 30  Penfill Cartridges (1.5 Ml)  
+INCA34843EMIS	Insulin Lispro  Solution for injection  100 units/ml, 3 ml cartridge
+ACPR24174EMIS	Human Actrapid  Preloaded pen  100 units/ml
+AURE12986NEMIS	Autopen Special Edition  Re-usable pen  3 ml, 1-21 units
+HUPR26718EMIS	Humaject (Humulin M1)  Preloaded pen  
+HUPR26730EMIS	Humaject (Humulin M5)  Preloaded pen  
+HUPR5189NEMIS	Humalog Mix50  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+INDI10561BRIDL	Insulin Syringe  Disposable  0.5 ml
+ININ3269NEMIS	Insuman Rapid  Injection  100 units/ml, 5 ml vial
+ISIN5049	Isophane Insulin  Injection  100 units/ml
+KESY78718NEMIS	Kendall Magellan Insulin Safety, Single Use, U100  Syringes with 8mm needles  Sterile, 1.0 ml, 0.3 mm/30 g
+LAIN13572NEMIS	Lantus  Injection  100 units/ml, 3 ml cartridge
+MIPR15900NEMIS	Mixtard 30 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+NEIN1977	Neutral Insulin  Injection  100 units/ml
+NOIN1200NEMIS	Novorapid  Injection  100 units/ml, 10 ml vial
+NOIN12698NEMIS	Novomix 30 Penfill  Injection (cartridges)  100 units/ml, 3 ml cartridge
+PEIN9156EMIS	Human Mixtard 10  Injection  
+SQDE21591NEMIS	Sq-Pen Starter Pack  Delivery System  SQ 001
+EXIN22784NEMIS	Exubera  Insufflator kit  
+HUPE26794EMIS	Human Mixtard 40  Penfill Cartridges (1.5 Ml)  
+HUPR26715EMIS	Humaject (Humulin S)  Preloaded pen  100 units/ml
+HUSU45861NEMIS	Humulin M3 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+ININ15887NEMIS	Insulatard  Injection  100 units/ml, 10 ml vial
+INPR18215NEMIS	Insulin Detemir  Solution for injection  100 units/ml, 3 ml pre-filled pen
+INPR46954NEMIS	Insuman Comb 25 Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+LAPR26863NEMIS	Lantus Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+LEPR18221NEMIS	Levemir Flexpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+MIINEGTON7152	Pork Mixtard 30  Injection  10 ml vial
+BIIN4659	Biphasic Insulin  Injection  100 units/ml
+HUCA18384EMIS	Humulin M4  Cartridges (1.5 Ml)  
+HUPE26788EMIS	Human Mixtard 20  Penfill Cartridges (1.5 Ml)  
+HUPR26721EMIS	Humaject (Humulin M2)  Preloaded pen  
+HUPR5192NEMIS	Humulin I  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HYIN15399NEMIS	Hypurin Bovine Neutral  Injection (cartridges)  100 units/ml, 3ml Cartridge
+INCL10559BRIDL	Insulin Syringe  Click-count  1 ml
+ININ21131NEMIS	Insulin Glulisine  Injection  100 units/ml, 10 ml vial
+ININ3759	Pork Insulatard  Injection  100 units/ml, 10 ml vial
+INPR6345NEMIS	Insuman Comb 25 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INSO78486NEMIS	Insulin Degludec  Solution for injection  100 units/ml, 3 ml cartridge
+ISPE33729EMIS	Isophane Insulin (Human Pyr)  Penfill cartridges (3 ml)  100 units/ml
+NOPR13769NEMIS	Novorapid Flexpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+NORE31134NEMIS	Novopen 4  Re-usable pen  Blue, 3 ml, 1-60 units
+NORE52696NEMIS	Novopen Echo  Re-usable pen  Blue, 3 ml, 0.5 unit dial up, 0.5-30 units
+NOSO94846NEMIS	Novorapid Pumpcart  Solution for injection  100 units/ml, 1.6 ml cartridge
+PEPR23943EMIS	Human Mixtard 20  Preloaded pen  
+ABIN104796NEMIS	Abasaglar  Solution for injection  100 units/ml, 3 ml cartridge
+HUCA8384BRID	Human Actrapid Penfill  Cartridges (1.5 Ml)  100 units/ml
+HUIN3718	Humulin I  Suspension For Injection  100 units/ml, 10 ml vial
+HUIN3721	Humulin S  Injection  100 units/ml
+HUPR31278NEMIS	Humalog Mix25 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+INPR5190NEMIS	Insulin Lispro  Solution for injection  100 units/ml, 3 ml pre-filled pen
+LAIN13572NEMIS	Lantus  Injection  100 units/ml, 3 ml cartridge
+LAPR13574NEMIS	Lantus Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+MHDE14616NEMIS	Mhi-500 3-Month Consumable Kit  Delivery System  10 ml, 6 nozzle, MH79002-07
+MIPR15892NEMIS	Mixtard 10 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+NOPR12702NEMIS	Novomix 30 Flexpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+NORE3064NEMIS	Novopen 3  Re-usable pen  Fun, blue
+LEPR25142NEMIS	Levemir Innolet  Solution for injection  100 units/ml, 3 ml pre-filled pen
+MHDE14612NEMIS	Mhi-500 Starter Kit  Delivery System  MH79002-01
+NOIN12698NEMIS	Novomix 30 Penfill  Injection (cartridges)  100 units/ml, 3 ml cartridge
+NORE101165NEMIS	Novopen 5  Re-usable pen  Silver, 3 ml, 1-60 units
+NORE3063NEMIS	Novopen 3  Re-usable pen  Fun, red
+SQDE21591NEMIS	Sq-Pen Starter Pack  Delivery System  SQ 001
+SQDE21600NEMIS	Sq-Pen 3-Month Consumable Pack  Delivery System  10 ml, SQ 006
+TRSO78484NEMIS	Tresiba Flextouch  Solution for injection  100 units/ml, 3 ml pre-filled pen
+HUCA28935EMIS	Humalog  Cartridges (1.5 Ml)  100 units/ml
+HUCA32498EMIS	Humulin I  Cartridges (3 Ml)  100 units/ml
+HUIN10443BRIDL	Humulin M3 (Lilly)  Injection  100 units/ml, 10 ml vial
+HUIN3721	Humulin S  Injection  100 units/ml
+HUPR26727EMIS	Humaject (Humulin M4)  Preloaded pen  
+HUSO101078NEMIS	Humalog Kwikpen  Solution for injection  200 units/ml, 3 ml pre-filled pen
+INCA34843EMIS	Insulin Lispro  Cartridges (3 Ml)  100 units/ml
+ININ3272NEMIS	Insuman Rapid  Injection (cartridges)  100 units/ml, 3 ml cartridge
+ININ3281NEMIS	Insuman Basal  Injection (cartridges)  100 units/ml, 3 ml cartridge
+ININ3284NEMIS	Insuman Comb 25  Injection (cartridges)  100 units/ml, 3 ml cartridge
+ININ4907NEMIS	Insuman Comb 15  Injection (cartridges)  100 units/ml, 3 ml cartridge
+INPR15885NEMIS	Insulatard Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+INSO98875NEMIS	Insulin Degludec And Liraglutide  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen
+ISIN33727EMIS	Isophane Insulin (Human Pyr)  Injection  100 units/ml, 10 ml vial
+LAPR26863NEMIS	Lantus Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+MHDE18313NEMIS	Mhi-500 3-Month Consumable Kit  Delivery System  3 ml, 6 nozzle, MH79002-12
+NORE11452NEMIS	Novopen Junior  Re-usable pen  Green, 3 ml
+PEIN9159EMIS	Human Mixtard 20  Injection  
+PEIN9165EMIS	Human Mixtard 50  Injection  
+PEPR22308EMIS	Human Mixtard 30  Preloaded pen  
+UNSY30181EMIS	Unifine  Syringes with needle  29g/0.5", 0.5 ml
+HUCA32500EMIS	Humulin S  Cartridges (3 Ml)  100 units/ml
+HUIN25811EMIS	Humulin M5  Injection  10 ml vial
+HUPE26788EMIS	Human Mixtard 20  Penfill Cartridges (1.5 Ml)  
+HUPR5191NEMIS	Humalog  Solution for injection  100 units/ml, 3 ml pre-filled pen
+HYIN15401NEMIS	Hypurin Porcine Neutral  Injection (cartridges)  100 units/ml, 3 ml Cartridge
+HYIN15402NEMIS	Hypurin Porcine Isophane  Injection (cartridges)  100 units/ml, 3 ml Cartridge
+ININ13807NEMIS	Insulin Glargine  Injection  100 units/ml, 10 ml vial
+INPR6338NEMIS	Insuman Basal Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+KESY78718NEMIS	Kendall Magellan Insulin Safety, Single Use, U100  Syringes with 8mm needles  Sterile, 1.0 ml, 0.3 mm/30 g
+NORE11453NEMIS	Novopen Junior  Re-usable pen  Yellow, 3 ml
+NOSO51972NEMIS	Novorapid Flextouch  Solution for injection  100 units/ml, 3 ml pre-filled pen
+U1SY28829EMIS	U100 Insulin Sterile, Single Use  Syringes, No Less Than 12mm Needle  0.3 ml, 0.33 mm/29g
+HUCA18375EMIS	Humulin M1  Cartridges (1.5 Ml)  
+HUCA18381EMIS	Humulin M3 (Lilly)  Cartridges (1.5 Ml)  
+HUIN3720	Humulin M2  Injection  
+HUIN8877BRIDL	Humulin M4  Injection  
+HUIN8983EGTON	Human Velosulin  Injection  100 u/ml
+HUPR31278NEMIS	Humalog Mix25 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+INPR13771NEMIS	Insulatard Flexpen  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INPR46954NEMIS	Insuman Comb 25 Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INPR6338NEMIS	Insuman Basal Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INSO103676NEMIS	Insulin Glargine  Pre-filled Disposable Pen  300 units/ml, 1.5 ml pen
+MHDE18312NEMIS	Mhi-500 Starter Kit  Delivery System  MH79002-01A
+MODI10485BRIDL	Monoject  Disposable syringe with needle  0.5 ml, 28g
+NOPR12702NEMIS	Novomix 30 Flexpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+NORE101165NEMIS	Novopen 5  Re-usable pen  Silver, 3 ml, 1-60 units
+PEIN9162EMIS	Human Mixtard 40  Injection  
+SQDE21600NEMIS	Sq-Pen 3-Month Consumable Pack  Delivery System  10 ml, SQ 006
+ULIN15920NEMIS	Ultratard  Injection  100 units/ml, 10 ml vial
+VEIN15916NEMIS	Velosulin  Injection  100 units/ml, 10 ml vial
+AURE3059NEMIS	Autopen  Re-usable pen  1.5ml, 2-32 units
+BDDI18283NEMIS	Bd-Microfine +  Disposable syringe  1 ml, 0.30 x 8 mm needle
+HUCA35540EMIS	Humalog Mix25  Cartridges (3 Ml)  100 units/ml
+HUPR31280NEMIS	Humalog Mix50 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HUPR35541EMIS	Humalog Mix25  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HUSO101078NEMIS	Humalog Kwikpen  Solution for injection  200 units/ml, 3 ml pre-filled pen
+INCA1198NEMIS	Insulin Aspart  Cartridges (3 Ml)  100 units/ml
+INCA34843EMIS	Insulin Lispro  Cartridges (3 Ml)  100 units/ml
+INSO103676NEMIS	Insulin Glargine  Pre-filled Disposable Pen  300 units/ml, 1.5 ml pen
+LAIN21795NEMIS	Lantus Opticlik  Injection  100 units/ml, 3 ml cartridge
+MHDE18312NEMIS	Mhi-500 Starter Kit  Delivery System  MH79002-01A
+MHDE18313NEMIS	Mhi-500 3-Month Consumable Kit  Delivery System  3 ml, 6 nozzle, MH79002-12
+DIIN10072BRIDL	Disposable  Insulin syringe with needle  1 ml
+EXIN22882NEMIS	Exubera  Inhalation Powder Blisters  1 mg Unit Dose Blister
+HUCA18372EMIS	Humulin I  Cartridges (1.5 Ml)  100 units/ml
+HUIN3713	Human Monotard (Novo)  Injection  100 units/ml
+HYIN15400NEMIS	Hypurin Bovine Isophane  Injection (cartridges)  100 units/ml, 3 ml Cartridge
+HYIN15402NEMIS	Hypurin Porcine Isophane  Injection (cartridges)  100 units/ml, 3 ml Cartridge
+ININ28940EMIS	Insulin Lispro  Solution for injection  100 units/ml, 10 ml vial
+INPR10557BRIDL	Insulin Syringe  Pre-set  1 ml
+INPR22401NEMIS	Insulin Glulisine  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+ISCA28655EMIS	Isophane Insulin (Human, Prb)  Cartridges  100 units/ml
+MHDE18314NEMIS	Mhi-500 3-Month Consumable Kit  Delivery System  3 ml, 7 nozzle, MH79002-13
+NOCA1201NEMIS	Novorapid Penfill  Cartridges (3 Ml)  100 units/ml
+NORE3961NEMIS	Novopen 3  Re-usable pen  Demi
+TRSO78485NEMIS	Tresiba Flextouch  Solution for injection  200 units/ml, 3 ml pre-filled pen
+VEIN4493	Pork Velosulin  Injection  100 units/ml
+ABSO104799NEMIS	Abasaglar Kwikpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+AURE3060NEMIS	Autopen  Re-usable pen  Classic, 3 ml, 2-42 units, AN3800
+HUCA32509EMIS	Humulin M3  Suspension For Injection  100 units/ml, 3 ml cartridge
+HUIN22574NEMIS	Humalog Mix50  Injection (cartridges)  100 units/ml, 3 ml cartridge
+ININ21131NEMIS	Insulin Glulisine  Injection  100 units/ml, 10 ml vial
+INPR11699NEMIS	Insulatard Innolet  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+INPR13771NEMIS	Insulatard Flexpen  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+ISIN671NEMIS	Isophane Insulin (Bovine, Highly Purified)  Injection (cartridges)  100 units/ml, 3 ml cartridge
+MIPR15910NEMIS	Mixtard 50 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+MODI10487BRIDL	Monoject  Disposable syringe with needle  1 ml, 28g
+MOIN15918NEMIS	Monotard  Injection  100 units/ml, 10 ml vial
+NORE101164NEMIS	Novopen 5  Re-usable pen  Blue, 3 ml, 1-60 units
+NORE31134NEMIS	Novopen 4  Re-usable pen  Blue, 3 ml, 1-60 units
+NORE52696NEMIS	Novopen Echo  Re-usable pen  Blue, 3 ml, 0.5 unit dial up, 0.5-30 units
+ACPR15881NEMIS	Actrapid Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+EXIN22884NEMIS	Exubera  Inhalation Powder Blisters  3 mg Unit Dose Blister
+HUCA32506EMIS	Humulin M2  Cartridges (3 Ml)  
+HUCA32512EMIS	Humulin M4  Cartridges (3 Ml)  
+HUIN3719	Humulin M1  Injection  
+HUPE26797EMIS	Human Mixtard 50  Penfill Cartridges (1.5 Ml)  
+HUPR31280NEMIS	Humalog Mix50 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HUSU45871NEMIS	Humulin I Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+ININ13808NEMIS	Insulin Glargine  Injection  100 units/ml, 3 ml cartridge
+ININ1480	Insulin Zinc Suspension (Human)  Injection  100 units/ml, 10 ml vial
+ININ21133NEMIS	Insulin Glulisine  Injection  100 units/ml, 3 ml cartridge
+INPR5190NEMIS	Insulin Lispro  Solution for injection  100 units/ml, 3 ml pre-filled pen
+ISIN671NEMIS	Isophane Insulin (Bovine, Highly Purified)  Injection (cartridges)  100 units/ml, 3 ml cartridge
+ISPR33730EMIS	Isophane Insulin (Human Pyr)  Preloaded pen  100 units/ml
+MIPR15892NEMIS	Mixtard 10 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+MIPR15910NEMIS	Mixtard 50 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+NORE11453NEMIS	Novopen Junior  Re-usable pen  Yellow, 3 ml
+NORE52697NEMIS	Novopen Echo  Re-usable pen  Red, 3 ml, 0.5 unit dial up, 0.5-30 units
+NOSO51972NEMIS	Novorapid Flextouch  Solution for injection  100 units/ml, 3 ml pre-filled pen
+OMDI10577BRIDL	Omnikan  Disposable syringe with needle  1 ml, 27g
+PRIN5344	Protamine Zinc Bovine Insulin  Injection  100 units/ml, 10 ml vial
+APIN21136NEMIS	Apidra  Injection  100 units/ml, 3 ml cartridge
+APPR26865NEMIS	Apidra Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+AURE11846NEMIS	Autopen Junior  Re-usable pen  3 ml, 2-42 units
+EXCH22786NEMIS	Exubera  Chamber  
+EXIN22884NEMIS	Exubera  Inhalation Powder Blisters  3 mg Unit Dose Blister
+HUIN8925BRECO	Humulin M3  Suspension For Injection  100 units/ml, 10 ml vial
+HUPE26785EMIS	Human Mixtard 10  Penfill Cartridges (1.5 Ml)  
+HUPR26724EMIS	Humaject (Humulin M3)  Preloaded pen  
+HUPR5192NEMIS	Humulin I  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+APIN21135NEMIS	Apidra  Injection  100 units/ml, 10 ml vial
+APPR26865NEMIS	Apidra Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+AURE5362NEMIS	Autopen  Re-usable pen  Classic, 3 ml, 1-21 units, AN3810
+BDDI18283NEMIS	Bd-Microfine +  Disposable syringe  1 ml, 0.30 x 8 mm needle
+HUCA18378EMIS	Humulin M2  Cartridges (1.5 Ml)  
+HUCA31132EMIS	Human Actrapid Penfill  Cartridges (3 Ml)  100 units/ml
+HUCA32503EMIS	Humulin M1  Cartridges (3 Ml)  
+HUCA35540EMIS	Humalog Mix25  Cartridges (3 Ml)  100 units/ml
+HUIN25811EMIS	Humulin M5  Injection  10 ml vial
+HUIN5904	Humulin Zn  Injection  100 units/ml, 10 ml vial
+HUPR26715EMIS	Humaject (Humulin S)  Preloaded pen  100 units/ml
+HUPR5191NEMIS	Humalog  Solution for injection  100 units/ml, 3 ml pre-filled pen
+ININ28940EMIS	Insulin Lispro  Injection  100 units/ml, 10 ml vial
+ININ4910NEMIS	Insuman Comb 50  Injection (cartridges)  100 units/ml, 3 ml cartridge
+INPR6343NEMIS	Insuman Comb 15 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INPR6347NEMIS	Insuman Comb 50 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INSO78480NEMIS	Insulin Degludec  Solution for injection  100 units/ml, 3 ml pre-filled device
+LAIN21795NEMIS	Lantus Opticlik  Injection  100 units/ml, 3 ml cartridge
+LEPR25142NEMIS	Levemir Innolet  Solution for injection  100 units/ml, 3 ml pre-filled pen
+MIPR11701NEMIS	Mixtard 30 Innolet  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+NEIN1978	Neutral Insulin (Human)  Injection  100 units/ml
+NORE3064NEMIS	Novopen 3  Re-usable pen  Fun, blue
+U1SY28829EMIS	U100 Insulin Sterile, Single Use  Syringes, No Less Than 12mm Needle  0.3 ml, 0.33 mm/29g
+XUSO98877NEMIS	Xultophy  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen
+ACIN15879NEMIS	Actrapid  Injection  100 units/ml, 10 ml vial
+APIN23125NEMIS	Apidra Opticlik  Injection  100 units/ml, 3 ml cartridge
+AURE12987NEMIS	Autopen Special Edition  Re-usable pen  3 ml, 2-42 units
+AURE14955NEMIS	Autopen 24  Re-usable pen  3 ml, 2-42 units, AN4200
+HUPR31276NEMIS	Humalog Kwikpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+HUSU45871NEMIS	Humulin I Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+MIPR15900NEMIS	Mixtard 30 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+NOIN1200NEMIS	Novorapid  Injection  100 units/ml, 10 ml vial
+XUSO98877NEMIS	Xultophy  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen
+ININ21133NEMIS	Insulin Glulisine  Injection  100 units/ml, 3 ml cartridge
+ININ3283NEMIS	Insuman Comb 25  Injection  100 units/ml, 5 ml vial
+ININ3284NEMIS	Insuman Comb 25  Injection (cartridges)  100 units/ml, 3 ml cartridge
+ININ3759	Pork Insulatard  Injection  100 units/ml, 10 ml vial
+INPR51153NEMIS	Insuman Basal Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+ISIN668NEMIS	Isophane Insulin (Porcine, Highly Purified)  Injection (cartridges)  100 units/ml, 3 ml cartridge
+MIPR15906NEMIS	Mixtard 40 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+NORE3062NEMIS	Novopen 3  Re-usable pen  Classic
+NORE3961NEMIS	Novopen 3  Re-usable pen  Demi
+NOSO94846NEMIS	Novorapid Pumpcart  Solution for injection  100 units/ml, 1.6 ml cartridge
+PRIN5344	Protamine Zinc Bovine Insulin  Injection  100 units/ml, 10 ml vial
+MIPR11701NEMIS	Mixtard 30 Innolet  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+NOCA1201NEMIS	Novorapid Penfill  Cartridges (3 Ml)  100 units/ml
+HYIN30855EMIS	Hypurin Porcine Isophane  Suspension For Injection  100 units/ml, 10 ml vial
+ISIN1507	Isophane Insulin (Human)  Suspension For Injection  100 units/ml, 10 ml vial
+MHDE18314NEMIS	Mhi-500 3-Month Consumable Kit  Delivery System  3 ml, 7 nozzle, MH79002-13
+NORE52697NEMIS	Novopen Echo  Re-usable pen  Red, 3 ml, 0.5 unit dial up, 0.5-30 units
+TOSO103679NEMIS	Toujeo Solostar  Pre-filled Disposable Pen  300 units/ml, 1.5 ml pen
+TRSO78488NEMIS	Tresiba Penfill  Solution for injection  100 units/ml, 3 ml cartridge
+ULIN15920NEMIS	Ultratard  Injection  100 units/ml, 10 ml vial
+UNSY30180EMIS	Unifine  Syringes with needle  29g/0.5", 0.3 ml
+ININ18217NEMIS	Insulin Detemir  Injection (cartridges)  100 units/ml, 3 ml cartridge
+ININ4907NEMIS	Insuman Comb 15  Injection (cartridges)  100 units/ml, 3 ml cartridge
+ININ4910NEMIS	Insuman Comb 50  Injection (cartridges)  100 units/ml, 3 ml cartridge
+INPR22401NEMIS	Insulin Glulisine  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INSO78480NEMIS	Insulin Degludec  Solution for injection  100 units/ml, 3 ml pre-filled device
+LAIN13570NEMIS	Lantus  Injection  100 units/ml, 10 ml vial
+MHDE14617NEMIS	Mhi-500 3-Month Consumable Kit  Delivery System  10 ml, 7 nozzle, MH79002-08
+NORE11452NEMIS	Novopen Junior  Re-usable pen  Green, 3 ml
+VEIN15916NEMIS	Velosulin  Injection  100 units/ml, 10 ml vial
+AURE14955NEMIS	Autopen 24  Re-usable pen  3 ml, 2-42 units, AN4200
+AURE3059NEMIS	Autopen  Re-usable pen  1.5ml, 2-32 units
+DIIN10070BRIDL	Disposable  Insulin syringe with needle  0.5 ml
+EXCH22786NEMIS	Exubera  Chamber  
+HUIN22574NEMIS	Humalog Mix50  Injection (cartridges)  100 units/ml, 3 ml cartridge
+HUINEGTON7149	Human Mixtard 30  Injection  10 ml vial
+HUPE26785EMIS	Human Mixtard 10  Penfill Cartridges (1.5 Ml)  
+HUPR26724EMIS	Humaject (Humulin M3)  Preloaded pen  
+HUSU45861NEMIS	Humulin M3 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+INCA1198NEMIS	Insulin Aspart  Cartridges (3 Ml)  100 units/ml
+ININ18217NEMIS	Insulin Detemir  Injection (cartridges)  100 units/ml, 3 ml cartridge
+ININ3278NEMIS	Insuman Basal  Injection  100 units/ml, 5 ml vial
+ISIN1507	Isophane Insulin (Human)  Suspension For Injection  100 units/ml, 10 ml vial
+ISIN666NEMIS	Isophane Insulin (Porcine, Highly Purified)  Injection  100 units/ml, 10 ml vial
+KESY78712NEMIS	Kendall Magellan Insulin Safety, Single Use, U100  Syringes with 8mm needles  Sterile, 0.3 ml, 0.3 mm/30 g
+LAIN13570NEMIS	Lantus  Injection  100 units/ml, 10 ml vial
+MIPR15906NEMIS	Mixtard 40 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+NOPR1202NEMIS	Novorapid Novolet  Prefilled syringes  100 units/ml
+SQDE21599NEMIS	Sq-Pen 3-Month Consumable Pack  Delivery System  3 ml, SQ 004
+UNSY30180EMIS	Unifine  Syringes with needle  29g/0.5", 0.3 ml
+AURE3057NEMIS	Autopen  Re-usable pen  1.5ml, 1-16 units
+AURE5362NEMIS	Autopen  Re-usable pen  Classic, 3 ml, 1-21 units, AN3810
+HUCA34841EMIS	Humalog  Cartridges (3 Ml)  100 units/ml
+HUPE26797EMIS	Human Mixtard 50  Penfill Cartridges (1.5 Ml)  
+HYIN15400NEMIS	Hypurin Bovine Isophane  Injection (cartridges)  100 units/ml, 3 ml Cartridge
+ININ1196NEMIS	Insulin Aspart  Injection  100 units/ml, 10 ml vial
+ININ3269NEMIS	Insuman Rapid  Injection  100 units/ml, 5 ml vial
+ININ3272NEMIS	Insuman Rapid  Injection (cartridges)  100 units/ml, 3 ml cartridge
+ININ3278NEMIS	Insuman Basal  Injection  100 units/ml, 5 ml vial
+ININ3281NEMIS	Insuman Basal  Injection (cartridges)  100 units/ml, 3 ml cartridge
+INPR15885NEMIS	Insulatard Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+KESY78712NEMIS	Kendall Magellan Insulin Safety, Single Use, U100  Syringes with 8mm needles  Sterile, 0.3 ml, 0.3 mm/30 g
+MIPR15896NEMIS	Mixtard 20 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+NORE31135NEMIS	Novopen 4  Re-usable pen  Silver, 3 ml, 1-60 units
+SQDE21599NEMIS	Sq-Pen 3-Month Consumable Pack  Delivery System  3 ml, SQ 004
