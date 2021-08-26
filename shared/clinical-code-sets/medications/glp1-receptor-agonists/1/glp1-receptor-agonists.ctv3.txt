@@ -1,0 +1,32 @@
+ftq..	DULAGLUTIDE
+ftq7.	TRULICITY 1.5mg/0.5mL soln for injection prefilled syringe
+ftq5.	TRULICITY 750micrograms/0.5mL soln for inj prefilled syringe
+ftq3.	TRULICITY 1.5mg/0.5mL solution for injection prefilled pen
+ftq1.	TRULICITY 750micrograms/0.5mL soln for injection p/f pen
+ftq8.	DULAGLUTIDE 1.5mg/0.5mL soln for injection prefilled syringe
+ftq6.	DULAGLUTIDE 750micrograms/0.5mL solution for injection pfs
+ftq4.	DULAGLUTIDE 1.5mg/0.5mL soln for injection prefilled pen
+ftq2.	DULAGLUTIDE 750micrograms/0.5mL soln for injection p/f pen
+ftj..	LIXISENATIDE
+ftj5.	LYXUMIA 10mcg/0.2mL+20mcg/0.2mL soln inj prefilled pens 3mL
+ftj3.	LYXUMIA 20micrograms/0.2mL soln for inj prefilled pen 3mL
+ftj1.	LYXUMIA 10micrograms/0.2mL soln for inj prefilled pen 3mL
+ftj6.	LIXISENATIDE 10mcg/0.2mL+20mcg/0.2mL soln for inj pens 3mL
+ftj4.	LIXISENATIDE 20micrograms/0.2mL soln for injection pen 3mL
+ftj2.	LIXISENATIDE 10micrograms/0.2mL soln for injection pen 3mL
+ftc..	LIRAGLUTIDE
+ftc1.	VICTOZA 6mg/mL solution for injection prefilled pen 3mL
+ftc2.	LIRAGLUTIDE 6mg/mL solution for injection prefilled pen
+ft9..	EXENATIDE
+ft94.	BYDUREON 2mg powder+solvent for susp for inj prefilled pen
+ft93.	BYDUREON 2mg powder and solvent for suspension for injection
+ft9z.	EXENATIDE 5micrograms/0.02mL injection prefilled pen
+ft91.	BYETTA 5micrograms/0.02mL injection prefilled pen
+ft9y.	EXENATIDE 10micrograms/0.04mL injection prefilled pen
+ft92.	BYETTA 10micrograms/0.04mL injection prefilled pen
+ft9x.	EXENATIDE 2mg powder+solvent for suspension for injection
+ft95.	EXENATIDE 2mg powder+solvent for susp for inj prefilled pen
+f2C..	INSULIN DEGLUDEC + LIRAGLUTIDE
+f2C1.	XULTOPHY 100iu/mL/3.6mg/mL soln for inj prefilled pen 3mL
+f2C2.	INSULIN DEGLUDEC+LIRAGLUTIDE 100iu/mL/3.6mg/mL soln inj pen
+XaREp	Subcutaneous injection of exenatide

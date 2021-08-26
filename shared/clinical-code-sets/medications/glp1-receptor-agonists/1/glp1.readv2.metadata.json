@@ -1,0 +1,24 @@
+{
+  "includeTerms": [
+    "exenatide",
+    "byetta",
+    "bydureon",
+    "liraglutide",
+    "lixisenatide",
+    "dulaglutide",
+    "semaglutide",
+    "victoza",
+    "lyxumia",
+    "trulicity",
+    "xultophy",
+    "ozempic",
+    "suliqua",
+    "saxenda",
+    "rybelsus"
+  ],
+  "excludeTerms": [],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdOn": "2021-08-24T13:59:33.469Z",
+  "lastUpdated": "2021-08-24T13:59:33.469Z"
+}

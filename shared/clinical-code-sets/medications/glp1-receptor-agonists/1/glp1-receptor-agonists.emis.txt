@@ -1,0 +1,42 @@
+EXPO51135NEMIS	Exenatide  Prolonged release suspension for injection  2 mg vial
+EXIN25436NEMIS	Exenatide  Injection (Pre-Filled Pen)  5 micrograms/dose, 60 dose pen
+TRSO100544NEMIS	Trulicity  Solution for injection  0.75 mg/0.5 ml pre-filled pen
+TRSO100545NEMIS	Trulicity  Solution for injection  1.5 mg/0.5 ml pre-filled pen
+EXIN25438NEMIS	Exenatide  Injection (Pre-Filled Pen)  10 micrograms/dose, 60 dose pen
+BYIN25441NEMIS	Byetta  Injection (Pre-Filled Pen)  10 micrograms/dose, 60 dose pen
+INSO98875NEMIS	Insulin Degludec And Liraglutide  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen
+BYIN25440NEMIS	Byetta  Injection (Pre-Filled Pen)  5 micrograms/dose, 60 dose pen
+LISO78535NEMIS	Lixisenatide  Solution for injection  20 micrograms/0.2 ml, 3 ml device
+LIIN78550NEMIS	Lixisenatide  Injection  10 micrograms/0.2ml pen + 20 micrograms/0.2ml pen
+LYSO78538NEMIS	Lyxumia  Solution for injection  20 micrograms/0.2 ml, 3 ml pen
+LISO78533NEMIS	Lixisenatide  Solution for injection  10 micrograms/0.2 ml, 3 ml device
+LISO37216NEMIS	Liraglutide  Solution for injection in pre-filled pen  6 mg/ml, 3 ml pen
+LYSO78538NEMIS	Lyxumia  Solution for injection  20 micrograms/0.2 ml, 3 ml pen
+LYSO78537NEMIS	Lyxumia  Solution for injection  10 micrograms/0.2 ml, 3 ml pen
+VISO37220NEMIS	Victoza  Solution for injection in pre-filled pen  6 mg/ml, 3 ml pen
+LIIN78550NEMIS	Lixisenatide  Injection  10 micrograms/0.2ml pen + 20 micrograms/0.2ml pen
+LYSO78537NEMIS	Lyxumia  Solution for injection  10 micrograms/0.2 ml, 3 ml pen
+BYPO98846NEMIS	Bydureon  Prolonged release suspension for injection  2 mg pen
+DUSO100540NEMIS	Dulaglutide  Solution for injection  0.75 mg/0.5 ml pre-filled device
+EXPO51135NEMIS	Exenatide  Prolonged release suspension for injection  2 mg vial
+BYPO51137NEMIS	Bydureon  Prolonged release suspension for injection  2 mg vial
+DUSO100542NEMIS	Dulaglutide  Solution for injection  1.5 mg/0.5 ml pre-filled device
+LISO37216NEMIS	Liraglutide  Solution for injection in pre-filled pen  6 mg/ml, 3 ml pen
+DUSO100540NEMIS	Dulaglutide  Solution for injection  0.75 mg/0.5 ml pre-filled device
+DUSO100542NEMIS	Dulaglutide  Solution for injection  1.5 mg/0.5 ml pre-filled device
+LYIN78553NEMIS	Lyxumia  Injection  10 micrograms/0.2ml pen + 20 micrograms/0.2ml pen
+BYPO51137NEMIS	Bydureon  Prolonged release suspension for injection  2 mg vial
+EXPO98845NEMIS	Exenatide  Prolonged release suspension for injection  2 mg device
+LISO78533NEMIS	Lixisenatide  Solution for injection  10 micrograms/0.2 ml, 3 ml device
+LYIN78553NEMIS	Lyxumia  Injection  10 micrograms/0.2ml pen + 20 micrograms/0.2ml pen
+TRSO100545NEMIS	Trulicity  Solution for injection  1.5 mg/0.5 ml pre-filled pen
+XUSO98877NEMIS	Xultophy  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen
+EXIN25438NEMIS	Exenatide  Injection (Pre-Filled Pen)  10 micrograms/dose, 60 dose pen
+LISO78535NEMIS	Lixisenatide  Solution for injection  20 micrograms/0.2 ml, 3 ml device
+VISO37220NEMIS	Victoza  Solution for injection in pre-filled pen  6 mg/ml, 3 ml pen
+BYIN25441NEMIS	Byetta  Injection (Pre-Filled Pen)  10 micrograms/dose, 60 dose pen
+BYIN25440NEMIS	Byetta  Injection (Pre-Filled Pen)  5 micrograms/dose, 60 dose pen
+EXIN25436NEMIS	Exenatide  Injection (Pre-Filled Pen)  5 micrograms/dose, 60 dose pen
+INSO98875NEMIS	Insulin Degludec And Liraglutide  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen
+TRSO100544NEMIS	Trulicity  Solution for injection  0.75 mg/0.5 ml pre-filled pen
+XUSO98877NEMIS	Xultophy  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen
