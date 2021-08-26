@@ -1,0 +1,148 @@
+bk3..	Losartan
+bk31.	Losartan potassium 25mg tablet
+bk32.	Losartan potassium 50mg tablet
+bk33.	Cozaar Half Strength 25mg tablet
+bk34.	Cozaar 50mg tablet
+bk35.	Losartan potassium+hydrochlorothiazide 50mg/12.5mg tablet
+bk36.	Cozaar-Comp 50mg/12.5mg tablet
+bk37.	Losartan potassium 100mg tablet
+bk38.	Cozaar 100mg tablet
+bk39.	Cozaar-Comp 100mg/25mg tablet
+bk3A.	COZAAR-COMP 100mg/12.5mg tablets
+bk3B.	COZAAR 12.5mg tablets
+bk3C.	LOSARTAN POTASSIUM 12.5mg tablets
+bk3D.	COZAAR 2.5mg/mL oral suspension
+bk3E.	LOSARTAN POTASSIUM 2.5mg/mL oral suspension
+bk3F.	ZOVENCAL 25mg tablets
+bk3G.	ZOVENCAL 50mg tablets
+bk3H.	ZOVENCAL 100mg tablets
+bk3y.	LOSARTAN POTASSIUM+HYDROCHLOROTHIAZIDE 100mg/12.5mg tablets
+bk3z.	Losartan potassium+hydrochlorothiazide 100mg/25mg tablet
+bk4..	Valsartan
+bk41.	Valsartan 40mg capsule
+bk42.	Valsartan 80mg capsule
+bk43.	Valsartan 160mg capsule
+bk44.	Diovan 40mg capsule
+bk45.	Diovan 80mg capsule
+bk46.	Diovan 160mg capsule
+bk47.	Co-Diovan 160mg/12.5mg tablet
+bk48.	Co-Diovan 160mg/25mg tablet
+bk49.	Co-Diovan 80mg/12.5mg tablet
+bk4A.	Diovan 40mg tablet
+bk4B.	DIOVAN 320mg tablets
+bk4C.	DIOVAN 3mg/mL oral solution
+bk4s.	VALSARTAN 80mg tablets
+bk4t.	VALSARTAN 160mg tablets
+bk4u.	VALSARTAN 3mg/mL oral solution
+bk4v.	VALSARTAN 320mg tablets
+bk4w.	Valsartan 40mg tablet
+bk4x.	Valsartan+hydrochlorothiazide 80mg/12.5mg tablet
+bk4y.	Valsartan+hydrochlorothiazide 160mg/25mg tablet
+bk4z.	Valsartan+hydrochlorothiazide 160mg/12.5mg tablet
+bk5..	Irbesartan
+bk51.	Irbesartan 75mg tablet
+bk52.	Irbesartan 150mg tablet
+bk53.	Irbesartan 300mg tablet
+bk54.	Aprovel 75mg tablet
+bk55.	Aprovel 150mg tablet
+bk56.	Aprovel 300mg tablet
+bk57.	CoAprovel 150mg/12.5mg tablet
+bk58.	CoAprovel 300mg/12.5mg tablet
+bk59.	COAPROVEL 300mg/25mg tablets
+bk5x.	IRBESARTAN+HYDROCHLOROTHIAZIDE 300mg/25mg tablets
+bk5y.	Irbesartan+hydrochlorothiazide 300mg/12.5mg tablet
+bk5z.	Irbesartan+hydrochlorothiazide 150mg/12.5mg tablet
+bk7..	Candesartan cilexetil
+bk71.	Candesartan cilexetil 2mg tablet
+bk72.	Candesartan cilexetil 4mg tablet
+bk73.	Candesartan cilexetil 8mg tablet
+bk74.	Candesartan cilexetil 16mg tablet
+bk75.	Amias 2mg tablet
+bk76.	Amias 4mg tablet
+bk77.	Amias 8mg tablet
+bk78.	Amias 16mg tablet
+bk79.	Amias 32mg tablet
+bk7z.	Candesartan cilexetil 32mg tablet
+bk8..	Telmisartan
+bk81.	Telmisartan 40mg tablet
+bk82.	Telmisartan 80mg tablet
+bk83.	Micardis 40mg tablet
+bk84.	Micardis 80mg tablet
+bk85.	Micardis 20mg tablet
+bk86.	MicardisPlus 40mg/12.5mg tablet
+bk87.	MicardisPlus 80mg/12.5mg tablet
+bk88.	MICARDISPLUS 80mg/25mg tablets
+bk8w.	TELMISARTAN+HYDROCHLOROTHIAZIDE 80mg/25mg tablets
+bk8x.	Telmisartan+hydrochlorothiazide 40mg/12.5mg tablet
+bk8y.	Telmisartan+hydrochlorothiazide 80mg/12.5mg tablet
+bk8z.	Telmisartan 20mg tablet
+bk9..	Eprosartan
+bk91.	Teveten 300mg tablet
+bk92.	Teveten 400mg tablet
+bk93.	Teveten 600mg tablet
+bk9x.	Eprosartan 300mg tablet
+bk9y.	Eprosartan 400mg tablet
+bk9z.	Eprosartan 600mg tablet
+bkB..	Olmesartan
+bkB1.	Olmesartan medoxomil 10mg tablet
+bkB2.	Olmesartan medoxomil 20mg tablet
+bkB3.	Olmesartan medoxomil 40mg tablet
+bkB4.	Olmetec 10mg tablet
+bkB5.	Olmetec 20mg tablet
+bkB6.	Olmetec 40mg tablet
+bkC..	Hydrochlorothiazide + Olmesartan
+bkC1.	Olmetec Plus 20mg/12.5mg tablet
+bkC2.	Olmetec Plus 20mg/25mg tablet
+bkC3.	OLMETEC PLUS 40mg/12.5mg tablets
+bkCx.	OLMESARTAN+HYDROCHLOROTHIAZIDE 40mg/12.5mg tablets
+bkCy.	Olmesartan + hydrochlorothiazide 20mg/25mg tablet
+bkCz.	Olmesartan + hydrochlorothiazide 20mg/12.5mg tablet
+bkD..	AMLODIPINE + VALSARTAN
+bkD1.	AMLODIPINE+VALSARTAN 5mg/80mg tablets
+bkD2.	AMLODIPINE+VALSARTAN 5mg/160mg tablets
+bkD3.	AMLODIPINE+VALSARTAN 10mg/160mg tablets
+bkDx.	EXFORGE 10mg/160mg tablets
+bkDy.	EXFORGE 5mg/160mg tablets
+bkDz.	EXFORGE 5mg/80mg tablets
+bkH..	OLMESARTAN+AMLODIPINE
+bkH1.	SEVIKAR 20mg/5mg tablets
+bkH2.	SEVIKAR 40mg/5mg tablets
+bkH3.	SEVIKAR 40mg/10mg tablets
+bkHx.	OLMESARTAN MEDOXOMIL+AMLODIPINE 40mg/10mg tablets
+bkHy.	OLMESARTAN MEDOXOMIL+AMLODIPINE 40mg/5mg tablets
+bkHz.	OLMESARTAN MEDOXOMIL+AMLODIPINE 20mg/5mg tablets
+bkI..	OLMESARTAN+AMLODIPINE+HYDROCHLOROTHIAZIDE
+bkI1.	SEVIKAR HCT 20mg/5mg/12.5mg tablets
+bkI2.	SEVIKAR HCT 40mg/5mg/12.5mg tablets
+bkI3.	SEVIKAR HCT 40mg/10mg/12.5mg tablets
+bkI4.	SEVIKAR HCT 40mg/5mg/25mg tablets
+bkI5.	SEVIKAR HCT 40mg/10mg/25mg tablets
+bkJ..	AZILSARTAN
+bkJ1.	EDARBI 20mg tablets
+bkJ2.	AZILSARTAN MEDOXOMIL 20mg tablets
+bkJ3.	EDARBI 40mg tablets
+bkJ4.	AZILSARTAN MEDOXOMIL 40mg tablets
+bkJ5.	EDARBI 80mg tablets
+bkJ6.	AZILSARTAN MEDOXOMIL 80mg tablets
+bkL..	SACUBITRIL+VALSARTAN
+bkL1.	ENTRESTO 24mg/26mg tablets
+bkL2.	SACUBITRIL+VALSARTAN 24mg/26mg tablets
+bkL3.	ENTRESTO 49mg/51mg tablets
+bkL4.	SACUBITRIL+VALSARTAN 49mg/51mg tablets
+bkL5.	ENTRESTO 97mg/103mg tablets
+bkL6.	SACUBITRIL+VALSARTAN 97mg/103mg tablets
+x02YE	Cozaar
+x03j2	Angiotensin II receptor antagonist
+x03ls	Angiotensin II receptor antagonist+diuretic
+x03lt	Cozaar-Comp
+x03qX	Aprovel
+x03xa	Diovan
+x03zU	Cozaar Half Strength
+x04bR	Amias
+x052v	Micardis
+x056P	Teveten
+x05Dq	CoAprovel
+x05j2	MicardisPlus
+x05mo	Olmetec
+x05u2	Co-Diovan
+x060W	Olmetec Plus

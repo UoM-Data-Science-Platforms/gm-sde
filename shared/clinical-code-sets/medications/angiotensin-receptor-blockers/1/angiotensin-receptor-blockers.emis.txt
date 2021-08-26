@@ -1,0 +1,119 @@
+AMTA19407NEMIS	Amias  Tablets  32 mg
+AMTA23852NEMIS	Amlodipine And Valsartan  Tabl
+AMTA23853NEMIS	Amlodipine And Valsartan  Tabl
+AMTA31816EMIS	Amias  Tablets  16 mg
+AMTA31817EMIS	Amias  Tablets  2 mg
+AMTA31818EMIS	Amias  Tablets  4 mg
+AMTA31819EMIS	Amias  Tablets  8 mg
+APTA31570EMIS	Aprovel  Tablets  150 mg
+APTA31571EMIS	Aprovel  Tablets  300 mg
+APTA31572EMIS	Aprovel  Tablets  75 mg
+CATA19406NEMIS	Candesartan Cilexetil  Tablets
+CATA31824EMIS	Candesartan Cilexetil  Tablets
+CATA31825EMIS	Candesartan Cilexetil  Tablets
+CATA31826EMIS	Candesartan Cilexetil  Tablets
+CATA31827EMIS	Candesartan Cilexetil  Tablets
+COOR37465NEMIS	Cozaar  Oral suspension  2.5 m
+COTA12634NEMIS	Cozaar  Tablets  100 mg
+COTA18415NEMIS	Co-Diovan  Tablets  160 mg/12.
+COTA18416NEMIS	Co-Diovan  Tablets  160 mg/25
+COTA18922NEMIS	Co-Diovan  Tablets  80 mg/12.5
+COTA21151NEMIS	Cozaar-Comp  Tablets  100 mg +
+COTA23522NEMIS	Coaprovel  Tablets  300 mg + 2
+COTA26210EMIS	Cozaar  Tablets  25 mg
+COTA26211EMIS	Cozaar  Tablets  50 mg
+COTA28963NEMIS	Cozaar-Comp  Tablets  100 mg +
+COTA30977EMIS	Cozaar-Comp  Tablets  50 mg +
+COTA35194NEMIS	Cozaar  Tablets  12.5 mg
+COTA5665NEMIS	Coaprovel  Tablets  150 mg + 1
+COTA5666NEMIS	Coaprovel  Tablets  300 mg + 1
+DICA29699EMIS	Diovan  Capsules  160 mg
+DICA29700EMIS	Diovan  Capsules  40 mg
+DICA29701EMIS	Diovan  Capsules  80 mg
+DIOR52801NEMIS	Diovan  Oral solution  3 mg/ml
+DITA19083NEMIS	Diovan  Tablets  40 mg
+DITA28965NEMIS	Diovan  Tablets  320 mg
+EPTA3293NEMIS	Eprosartan  Tablets  300 mg
+EPTA3295NEMIS	Eprosartan  Tablets  400 mg
+EPTA3296NEMIS	Eprosartan  Tablets  600 mg
+EXTA23855NEMIS	Exforge  Tablets  5 mg/80 mg
+EXTA23856NEMIS	Exforge  Tablets  5 mg/160 mg
+EXTA23857NEMIS	Exforge  Tablets  10 mg/160 mg
+IRTA18540NEMIS	Irbesartan And Hydrochlorothia
+IRTA18541NEMIS	Irbesartan And Hydrochlorothia
+IRTA23521NEMIS	Irbesartan And Hydrochlorothia
+IRTA31576EMIS	Irbesartan  Tablets  150 mg
+IRTA31577EMIS	Irbesartan  Tablets  300 mg
+IRTA31578EMIS	Irbesartan  Tablets  75 mg
+LOOR37464NEMIS	Losartan Potassium  Oral Suspe
+LOTA12633NEMIS	Losartan Potassium  Tablets  1
+LOTA18550NEMIS	Losartan And Hydrochlorothiazi
+LOTA21150NEMIS	Losartan And Hydrochlorothiazi
+LOTA26214EMIS	Losartan Potassium  Tablets  2
+LOTA26215EMIS	Losartan Potassium  Tablets  5
+LOTA28962NEMIS	Losartan And Hydrochlorothiazi
+LOTA35193NEMIS	Losartan Potassium  Tablets  1
+MITA1045NEMIS	Micardis  Tablets  40 mg
+MITA1046NEMIS	Micardis  Tablets  80 mg
+MITA14652NEMIS	Micardis Plus  Tablets  40 mg/
+MITA14653NEMIS	Micardis Plus  Tablets  80 mg/
+MITA30444NEMIS	Micardis Plus  Tablets  80 mg/
+MITA6417NEMIS	Micardis  Tablets  20 mg
+OLTA15758NEMIS	Olmesartan Medoxomil  Tablets
+OLTA15760NEMIS	Olmesartan Medoxomil  Tablets
+OLTA15761NEMIS	Olmesartan Medoxomil  Tablets
+OLTA15763NEMIS	Olmetec  Tablets  10 mg
+OLTA15764NEMIS	Olmetec  Tablets  20 mg
+OLTA15765NEMIS	Olmetec  Tablets  40 mg
+OLTA22330NEMIS	Olmesartan Medoxomil And Hydro
+OLTA22331NEMIS	Olmesartan Medoxomil And Hydro
+OLTA22333NEMIS	Olmetec Plus  Tablets  20 mg/1
+OLTA22334NEMIS	Olmetec Plus  Tablets  20 mg/2
+OLTA35715NEMIS	Olmesartan Medoxomil And Amlod
+OLTA35716NEMIS	Olmesartan Medoxomil And Amlod
+OLTA35717NEMIS	Olmesartan Medoxomil And Amlod
+OLTA42106NEMIS	Olmesartan Medoxomil And Hydro
+OLTA42107NEMIS	Olmetec Plus  Tablets  40 mg/1
+SETA35719NEMIS	Sevikar  Tablets  20 mg + 5 mg
+SETA35720NEMIS	Sevikar  Tablets  40 mg + 5 mg
+SETA35721NEMIS	Sevikar  Tablets  40 mg + 10 m
+SETA48962NEMIS	Sevikar Hct  Tablets  20 mg +
+SETA48963NEMIS	Sevikar Hct  Tablets  40 mg +
+SETA48964NEMIS	Sevikar Hct  Tablets  40 mg +
+SETA48965NEMIS	Sevikar Hct  Tablets  40 mg +
+SETA48966NEMIS	Sevikar Hct  Tablets  40 mg +
+TETA1042NEMIS	Telmisartan  Tablets  40 mg
+TETA1044NEMIS	Telmisartan  Tablets  80 mg
+TETA18566NEMIS	Telmisartan And Hydrochlorothi
+TETA18567NEMIS	Telmisartan And Hydrochlorothi
+TETA3339NEMIS	Teveten  Tablets  300 mg
+TETA3340NEMIS	Teveten  Tablets  400 mg
+TETA3341NEMIS	Teveten  Tablets  600 mg
+TETA6416NEMIS	Telmisartan  Tablets  20 mg
+VACA29705EMIS	Valsartan  Capsules  160 mg
+VACA29706EMIS	Valsartan  Capsules  40 mg
+VACA29707EMIS	Valsartan  Capsules  80 mg
+VAOR52800NEMIS	Valsartan  Oral solution  3 mg
+VATA18545NEMIS	Valsartan And Hydrochlorothiaz
+VATA18546NEMIS	Valsartan And Hydrochlorothiaz
+VATA18921NEMIS	Valsartan And Hydrochlorothiaz
+VATA19082NEMIS	Valsartan  Tablets  40 mg
+VATA28964NEMIS	Valsartan  Tablets  320 mg
+AMTA23851NEMIS	Amlodipine 5mg / Valsartan 80mg tablets
+OLOR27110NEMIS	Olmesartan  Oral Suspension  10 mg/5 ml
+TETA30443NEMIS	Telmisartan 80mg / Hydrochlorothiazide 25mg tablets
+VATA52642NEMIS	Valsartan 160mg tablets
+SATA108558NEMIS	Sacubitril And Valsartan  Tablets  97 mg + 103 mg
+AZTA72358NEMIS	Azilsartan Medoxomil  Tablets  40 mg
+LOOR46493NEMIS	Losartan Potassium  Oral solution  50 mg/5 ml
+VATA52641NEMIS	Valsartan  Tablets  80 mg
+ENTA108560NEMIS	Entresto  Tablets  24 mg + 26 mg
+VATA52641NEMIS	Valsartan  Tablets  80 mg
+AZTA72356NEMIS	Azilsartan Medoxomil  Tablets  20 mg
+AZTA72358NEMIS	Azilsartan Medoxomil  Tablets  40 mg
+ENTA108561NEMIS	Entresto  Tablets  49 mg + 51 mg
+LOOR46494NEMIS	Losartan Potassium  Oral suspension  50 mg/5 ml
+ENTA108562NEMIS	Entresto  Tablets  97 mg + 103 mg
+SATA108555NEMIS	Sacubitril And Valsartan  Tablets  24 mg + 26 mg
+SATA108557NEMIS	Sacubitril And Valsartan  Tablets  49 mg + 51 mg
+AZTA72356NEMIS	Azilsartan Medoxomil  Tablets  20 mg
