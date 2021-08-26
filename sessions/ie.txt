@@ -113,3 +113,7 @@ Find out the following total number of rows to investigate how big the chohorts 
 
 2021-07-20 8.30 - 9.30
 -- Run the script to get the prevalence of the cancer v1 and v2 clinical code sets. 
+
+2021-08-04 9am - 
+-- Run data extract and copy in file share. 
+

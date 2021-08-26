@@ -228,3 +228,9 @@ Attempted to find the location of information related to project no.1 (Grant), i
 21/07/21
 - final checks of output RQ028
 - extract data RQ028
+
+03/08/21
+- checking GMCR for glucose measurements - we already have a code set for hba1c
+
+11/08/21
+- RQ028 - PI has asked about the missing data for sex/ethnicity. Looking into potential patterns for this.
