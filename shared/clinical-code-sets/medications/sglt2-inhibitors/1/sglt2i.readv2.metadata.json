@@ -1,0 +1,26 @@
+{
+  "includeTerms": [
+    "canagliflozin",
+    "dapagliflozin",
+    "empagliflozin",
+    "ertugliflozin",
+    "ipragliflozin",
+    "luseogliflozin",
+    "remogliflozin",
+    "sergliflozin",
+    "sotagliflozin",
+    "tofogliflozin",
+    "synjardy",
+    "jardiance",
+    "xigduo",
+    "forxiga",
+    "vokanamet",
+    "invokana",
+    "steglatro"
+  ],
+  "excludeTerms": [],
+  "terminology": "Readv2",
+  "version": "20180401",
+  "createdOn": "2021-08-24T13:53:05.148Z",
+  "lastUpdated": "2021-08-24T13:53:05.148Z"
+}

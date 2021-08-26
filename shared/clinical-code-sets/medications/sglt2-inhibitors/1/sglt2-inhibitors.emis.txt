@@ -1,0 +1,56 @@
+DATA88553NEMIS	Dapagliflozin And Metformin  Tablets  5 mg + 850 mg
+CATA88608NEMIS	Canagliflozin  Tablets  100 mg
+EMTA104968NEMIS	Empagliflozin And Metformin  Tablets  12.5 mg + 850 mg
+INTA88612NEMIS	Invokana  Tablets  100 mg
+VOTA96773NEMIS	Vokanamet  Tablets  50 mg + 850 mg
+XITA88556NEMIS	Xigduo  Tablets  5 mg + 850 mg
+CATA96771NEMIS	Canagliflozin And Metformin  Tablets  50 mg + 850 mg
+EMTA91265NEMIS	Empagliflozin  Tablets  10 mg
+INTA88612NEMIS	Invokana  Tablets  100 mg
+CATA96770NEMIS	Canagliflozin And Metformin  Tablets  50 mg + 1000 mg
+SYTA104973NEMIS	Synjardy  Tablets  12.5 mg + 850 mg
+EMTA104968NEMIS	Empagliflozin And Metformin  Tablets  12.5 mg + 850 mg
+CATA88610NEMIS	Canagliflozin  Tablets  300 mg
+DATA88553NEMIS	Dapagliflozin And Metformin  Tablets  5 mg + 850 mg
+JATA91277NEMIS	Jardiance  Tablets  25 mg
+DATA77715NEMIS	Dapagliflozin  Tablets  10 mg
+JATA91276NEMIS	Jardiance  Tablets  10 mg
+VOTA96773NEMIS	Vokanamet  Tablets  50 mg + 850 mg
+VOTA96774NEMIS	Vokanamet  Tablets  50 mg + 1000 mg
+DATA77713NEMIS	Dapagliflozin  Tablets  5 mg
+EMTA91265NEMIS	Empagliflozin  Tablets  10 mg
+EMTA91272NEMIS	Empagliflozin  Tablets  25 mg
+INTA88613NEMIS	Invokana  Tablets  300 mg
+FOTA77718NEMIS	Forxiga  Tablets  10 mg
+JATA91277NEMIS	Jardiance  Tablets  25 mg
+SYTA104971NEMIS	Synjardy  Tablets  5 mg + 850 mg
+SYTA104974NEMIS	Synjardy  Tablets  12.5 mg + 1000 mg
+FOTA77718NEMIS	Forxiga  Tablets  10 mg
+DATA88552NEMIS	Dapagliflozin And Metformin  Tablets  5 mg + 1000 mg
+EMTA104966NEMIS	Empagliflozin And Metformin  Tablets  5 mg + 850 mg
+EMTA104969NEMIS	Empagliflozin And Metformin  Tablets  12.5 mg + 1000 mg
+CATA96771NEMIS	Canagliflozin And Metformin  Tablets  50 mg + 850 mg
+EMTA91272NEMIS	Empagliflozin  Tablets  25 mg
+SYTA104971NEMIS	Synjardy  Tablets  5 mg + 850 mg
+VOTA96774NEMIS	Vokanamet  Tablets  50 mg + 1000 mg
+CATA88608NEMIS	Canagliflozin  Tablets  100 mg
+FOTA77717NEMIS	Forxiga  Tablets  5 mg
+EMTA104966NEMIS	Empagliflozin And Metformin  Tablets  5 mg + 850 mg
+EMTA104969NEMIS	Empagliflozin And Metformin  Tablets  12.5 mg + 1000 mg
+SYTA104974NEMIS	Synjardy  Tablets  12.5 mg + 1000 mg
+XITA88555NEMIS	Xigduo  Tablets  5 mg + 1000 mg
+CATA88610NEMIS	Canagliflozin  Tablets  300 mg
+EMTA104967NEMIS	Empagliflozin And Metformin  Tablets  5 mg + 1000 mg
+INTA88613NEMIS	Invokana  Tablets  300 mg
+SYTA104972NEMIS	Synjardy  Tablets  5 mg + 1000 mg
+XITA88556NEMIS	Xigduo  Tablets  5 mg + 850 mg
+DATA88552NEMIS	Dapagliflozin And Metformin  Tablets  5 mg + 1000 mg
+FOTA77717NEMIS	Forxiga  Tablets  5 mg
+JATA91276NEMIS	Jardiance  Tablets  10 mg
+SYTA104972NEMIS	Synjardy  Tablets  5 mg + 1000 mg
+CATA96770NEMIS	Canagliflozin And Metformin  Tablets  50 mg + 1000 mg
+XITA88555NEMIS	Xigduo  Tablets  5 mg + 1000 mg
+DATA77715NEMIS	Dapagliflozin  Tablets  10 mg
+DATA77713NEMIS	Dapagliflozin  Tablets  5 mg
+SYTA104973NEMIS	Synjardy  Tablets  12.5 mg + 850 mg
+EMTA104967NEMIS	Empagliflozin And Metformin  Tablets  5 mg + 1000 mg
