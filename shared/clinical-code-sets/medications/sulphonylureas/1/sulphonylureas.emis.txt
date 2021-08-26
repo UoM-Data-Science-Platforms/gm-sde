@@ -1,0 +1,77 @@
+DIM/6644NEMIS	Diamicron 30 mg Mr  M/R tablets  30 mg
+VAM/98855NEMIS	Vamju  M/R tablets  30 mg
+CHTA600	Chlorpropamide  Tablets  100 mg
+CHTA601	Chlorpropamide  Tablets  250 mg
+DIM/6644NEMIS	Diamicron 30 mg Mr  M/R tablets  30 mg
+GLTA31852EMIS	Glimepiride  Tablets  4 mg
+DATA806	Daonil  Tablets  5 mg
+GLTA6910	Gliquidone  Tablets  30 mg
+RATA2434	Rastinon  Tablets  500 mg
+TOTA7095	Tolazamide  Tablets  250 mg
+GLTA1303	Glibenclamide  Tablets  5 mg
+GLTA4960	Gliclazide  Tablets  80 mg
+GLTA6910	Gliquidone  Tablets  30 mg
+ZITA43643NEMIS	Zicron  Tablets  40 mg
+EUTA3551	Euglucon  Tablets  2.5 mg
+GLTA31482EMIS	Glimepiride  Tablets  2 mg
+GLTA31852EMIS	Glimepiride  Tablets  4 mg
+GLTA1304	Glibenese  Tablets  5 mg
+AMTA31844EMIS	Amaryl  Tablets  1 mg
+CHTA600	Chlorpropamide  Tablets  100 mg
+GLM/6638NEMIS	Gliclazide  M/R tablets  30 mg
+TOTA2876	Tolbutamide  Tablets  500 mg
+SETA4308	Semi-Daonil  Tablets  2.5 mg
+AMTA31846EMIS	Amaryl  Tablets  4 mg
+DITA34375EMIS	Diaglyk  Tablets  80 mg
+MITA3949	Minodiab  Tablets  5 mg
+NAM/34993NEMIS	Nazdol Mr  M/R tablets  30 mg
+DATA806	Daonil  Tablets  5 mg
+EUTA3552	Euglucon  Tablets  5 mg
+LAM/78911NEMIS	Laaglyda Mr  M/R tablets  60 mg
+GLM/6638NEMIS	Gliclazide  M/R tablets  30 mg
+AMTA31845EMIS	Amaryl  Tablets  3 mg
+GLM/78909NEMIS	Gliclazide  M/R tablets  60 mg
+DITA3417	Diamicron  Tablets  80 mg
+GLM/78909NEMIS	Gliclazide  M/R tablets  60 mg
+GLTA4961	Glipizide  Tablets  2.5 mg
+TOTA2876	Tolbutamide  Tablets  500 mg
+VAM/98856NEMIS	Vamju  M/R tablets  60 mg
+DITA3417	Diamicron  Tablets  80 mg
+GLTA1305	Glipizide  Tablets  5 mg
+GLTA43641NEMIS	Gliclazide  Tablets  40 mg
+GLTA4960	Gliclazide  Tablets  80 mg
+AMTA31844EMIS	Amaryl  Tablets  1 mg
+AMTA31845EMIS	Amaryl  Tablets  3 mg
+AMTA31846EMIS	Amaryl  Tablets  4 mg
+GLTA1305	Glipizide  Tablets  5 mg
+DITA857	Diabinese  Tablets  250 mg
+GLTA1302	Glibenclamide  Tablets  2.5 mg
+GLTA1304	Glibenese  Tablets  5 mg
+GLTA31850EMIS	Glimepiride  Tablets  1 mg
+MITA3948	Minodiab  Tablets  2.5 mg
+EUTA3551	Euglucon  Tablets  2.5 mg
+GLTA1303	Glibenclamide  Tablets  5 mg
+MATA3874	Malix  Tablets  5 mg
+AMTA31480EMIS	Amaryl  Tablets  2 mg
+EUTA3552	Euglucon  Tablets  5 mg
+MITA3948	Minodiab  Tablets  2.5 mg
+CHTA601	Chlorpropamide  Tablets  250 mg
+GLTA4961	Glipizide  Tablets  2.5 mg
+GLTA4972	Glymidine  Tablets  500 mg
+SETA4308	Semi-Daonil  Tablets  2.5 mg
+ZITA43643NEMIS	Zicron  Tablets  40 mg
+GLTA1302	Glibenclamide  Tablets  2.5 mg
+GLTA31482EMIS	Glimepiride  Tablets  2 mg
+GLTA31850EMIS	Glimepiride  Tablets  1 mg
+GLTA31851EMIS	Glimepiride  Tablets  3 mg
+LAM/78911NEMIS	Laaglyda Mr  M/R tablets  60 mg
+MITA3949	Minodiab  Tablets  5 mg
+AMTA31480EMIS	Amaryl  Tablets  2 mg
+DITA856	Diabinese  Tablets  100 mg
+GLTA31851EMIS	Glimepiride  Tablets  3 mg
+TOTA4424	Tolanase  Tablets  100 mg
+VAM/98856NEMIS	Vamju  M/R tablets  60 mg
+DITA34375EMIS	Diaglyk  Tablets  80 mg
+GLTA43641NEMIS	Gliclazide  Tablets  40 mg
+NAM/34993NEMIS	Nazdol Mr  M/R tablets  30 mg
+VAM/98855NEMIS	Vamju  M/R tablets  30 mg

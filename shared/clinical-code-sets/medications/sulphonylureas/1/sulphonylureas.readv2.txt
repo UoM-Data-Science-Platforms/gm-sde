@@ -1,0 +1,85 @@
+f3...00	SULFONYLUREAS
+f3...11	SULPHONYLUREAS
+f31..00	*ACETOHEXAMIDE
+f311.00	*DIMELOR 500mg tablets
+f31z.00	*ACETOHEXAMIDE 500mg tablets
+f32..00	CHLORPROPAMIDE
+f321.00	CHLORPROPAMIDE 100mg tablets
+f322.00	CHLORPROPAMIDE 250mg tablets
+f323.00	*DIABINESE 100mg tablets
+f324.00	*DIABINESE 250mg tablets
+f325.00	GLYMESE 250mg tablets
+f33..00	GLIBENCLAMIDE
+f331.00	GLIBENCLAMIDE 2.5mg tablets
+f332.00	GLIBENCLAMIDE 5mg tablets
+f333.00	*DAONIL 5mg tablets
+f334.00	*SEMI-DAONIL 2.5mg tablets
+f335.00	*EUGLUCON 2.5mg tablets
+f336.00	*EUGLUCON 5mg tablets
+f337.00	*LIBANIL 2.5mg tablets
+f338.00	*LIBANIL 5mg tablets
+f339.00	*MALIX 2.5mg tablets
+f33a.00	*MALIX 5mg tablets
+f33b.00	*DAONIL CP 5mg tablets
+f33c.00	*SEMI-DAONIL CP 2.5mg tablets
+f33d.00	*DIABETAMIDE 2.5mg tablets
+f33e.00	*DIABETAMIDE 5mg tablets
+f33f.00	*CALABREN 2.5mg tablets
+f33g.00	*CALABREN 5mg tablets
+f34..00	*GLIBORNURIDE
+f341.00	*GLUTRIL 25mg tablets
+f34z.00	*GLIBORNURIDE 25mg tablets
+f35..00	GLICLAZIDE
+f351.00	DIAMICRON 80mg tablets
+f352.00	DIAGLYK 80mg tablets
+f353.00	VIVAZIDE 80mg tablets
+f354.00	DIAMICRON MR 30mg m/r tablets
+f355.00	NAZDOL MR 30mg m/r tablets
+f356.00	EDICIL MR 30mg m/r tablets
+f357.00	ZICRON 40mg tablets
+f358.00	VITILE XL 30mg m/r tablets
+f359.00	LAAGLYDA MR 60mg m/r tablets
+f35A.00	VAMJU 30mg m/r tablets
+f35B.00	VAMJU 60mg m/r tablets
+f35C.00	BILXONA 30mg m/r tablets
+f35D.00	BILXONA 60mg m/r tablets
+f35w.00	GLICLAZIDE 60mg m/r tablets
+f35x.00	GLICLAZIDE 40mg tablets
+f35y.00	GLICLAZIDE 30mg m/r tablets
+f35z.00	GLICLAZIDE 80mg tablets
+f36..00	GLIPIZIDE
+f361.00	GLIPIZIDE 5mg tablets
+f362.00	*GLIBENESE 5mg tablets
+f363.00	*MINODIAB 2.5mg tablets
+f364.00	MINODIAB 5mg tablets
+f36y.00	*GLIPIZIDE 5mg tablets
+f36z.00	GLIPIZIDE 2.5mg tablets
+f37..00	GLIQUIDONE
+f371.00	*GLURENORM 30mg tablets
+f37z.00	*GLIQUIDONE 30mg tablets
+f38..00	*GLYMIDINE
+f381.00	*GONDAFON 500mg tablets
+f38z.00	*GLYMIDINE 500mg tablets
+f39..00	TOLAZAMIDE
+f391.00	TOLANASE 100mg tablets
+f392.00	TOLANASE 250mg tablets
+f39y.00	TOLAZAMIDE 100mg tablets
+f39z.00	TOLAZAMIDE 250mg tablets
+f3A..00	GLIMEPIRIDE
+f3A1.00	GLIMEPIRIDE 2mg tablets
+f3A2.00	AMARYL 2mg tablets
+f3A3.00	GLIMEPIRIDE 1mg tablets
+f3A4.00	GLIMEPIRIDE 3mg tablets
+f3A5.00	GLIMEPIRIDE 4mg tablets
+f3A6.00	AMARYL 1mg tablets
+f3A7.00	AMARYL 3mg tablets
+f3A8.00	AMARYL 4mg tablets
+f3A9.00	NIDDARYL 1mg tablets
+f3AA.00	NIDDARYL 2mg tablets
+f3AB.00	NIDDARYL 3mg tablets
+f3AC.00	NIDDARYL 4mg tablets
+f3a..00	TOLBUTAMIDE
+f3a1.00	TOLBUTAMIDE 500mg tablets
+f3a2.00	GLYCONON 500mg tablets
+f3a3.00	*PRAMIDEX 500mg tablets
+f3a4.00	*RASTINON 500mg tablets

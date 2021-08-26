@@ -1,0 +1,99 @@
+f31..	Acetohexamide
+f311.	Dimelor 500mg tablet
+f31z.	Acetohexamide 500mg tablet
+f32..	Chlorpropamide
+f321.	Chlorpropamide 100mg tablet
+f322.	Chlorpropamide 250mg tablet
+f323.	Diabinese 100mg tablet
+f324.	Diabinese 250mg tablet
+f325.	Glymese 250mg tablet
+f331.	Glibenclamide 2.5mg tablet
+f332.	Glibenclamide 5mg tablet
+f333.	Daonil 5mg tablet
+f334.	Semi-Daonil 2.5mg tablet
+f335.	Euglucon 2.5mg tablet
+f336.	Euglucon 5mg tablet
+f337.	Libanil 2.5mg tablet
+f338.	Libanil 5mg tablet
+f339.	Malix 2.5mg tablet
+f33a.	Malix 5mg tablet
+f33b.	Daonil CP 5mg tablets
+f33c.	Semi-daonil CP 2.5mg tablets
+f33d.	Diabetamide 2.5mg tablet
+f33e.	Diabetamide 5mg tablet
+f33f.	Calabren 2.5mg tablet
+f33g.	Calabren 5mg tablet
+f34..	Glibornuride
+f341.	Glutril 25mg tablet
+f34z.	Glibornuride 25mg tablet
+f351.	Diamicron 80mg tablet
+f352.	Diaglyk 80mg tablet
+f353.	Vivazide 80mg tablet
+f354.	Diamicron MR 30mg m/r tablet
+f355.	NAZDOL MR 30mg m/r tablets
+f356.	EDICIL MR 30mg m/r tablets
+f357.	ZICRON 40mg tablets
+f358.	VITILE XL 30mg m/r tablets
+f359.	LAAGLYDA MR 60mg m/r tablets
+f35A.	VAMJU 30mg m/r tablets
+f35B.	VAMJU 60mg m/r tablets
+f35C.	BILXONA 30mg m/r tablets
+f35D.	BILXONA 60mg m/r tablets
+f35w.	GLICLAZIDE 60mg m/r tablets
+f35x.	GLICLAZIDE 40mg tablets
+f35y.	Gliclazide 30mg m/r tablet
+f35z.	Gliclazide 80mg tablet
+f36..	Glipizide
+f361.	Glipizide 5mg tablet
+f362.	Glibenese 5mg tablet
+f363.	Minodiab 2.5mg tablet
+f364.	Minodiab 5mg tablet
+f36z.	Glipizide 2.5mg tablet
+f37..	Gliquidone
+f371.	Glurenorm 30mg tablet
+f37z.	Gliquidone 30mg tablet
+f38..	Glymidine
+f381.	Gondafon 500mg tablet
+f38z.	Glymidine 500mg tablet
+f39..	Tolazamide
+f391.	Tolanase 100mg tablet
+f392.	Tolanase 250mg tablet
+f39y.	Tolazamide 100mg tablet
+f39z.	Tolazamide 250mg tablet
+f3A..	Glimepiride
+f3A1.	Glimepiride 2mg tablet
+f3A2.	Amaryl 2mg tablet
+f3A3.	Glimepiride 1mg tablet
+f3A4.	Glimepiride 3mg tablet
+f3A5.	Glimepiride 4mg tablet
+f3A6.	Amaryl 1mg tablet
+f3A7.	Amaryl 3mg tablet
+f3A8.	Amaryl 4mg tablet
+f3A9.	NIDDARYL 1mg tablets
+f3AA.	NIDDARYL 2mg tablets
+f3AB.	NIDDARYL 3mg tablets
+f3AC.	NIDDARYL 4mg tablets
+f3a1.	Tolbutamide 500mg tablet
+f3a2.	Glyconon 500mg tablet
+f3a3.	Pramidex 500mg tablet
+f3a4.	Rastinon 500mg tablet
+x02WJ	Calabren
+x02ZQ	Diabetamide
+x02ZR	Diabinese
+x02ZU	Diamicron
+x02bu	Euglucon
+x02e0	Glibenese
+x02e7	Glurenorm
+x02e8	Glyconon
+x02e9	Glymese
+x02jS	Minodiab
+x02p1	Rastinon
+x02sp	Tolanase
+x03dF	Malix
+x03pe	Amaryl
+x03vw	Semi-Daonil
+x04AM	Daonil
+x04vf	Diaglyk
+x05CI	Vivazide
+x05DE	Diamicron MR
+x05Jy	Acetohexamide - chemical
