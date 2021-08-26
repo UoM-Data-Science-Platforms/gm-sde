@@ -1,0 +1,281 @@
+bA...	Calcium-channel blocker+angiotensin-converting enzyme inhibitor
+bA1..	Felodipine+ramipril
+bA11.	Triapin mite 2.5mg/2.5mg tablet
+bA12.	Triapin 5mg/5mg tablet
+bA1y.	Felodipine+ramipril 2.5mg/2.5mg tablet
+bA1z.	Felodipine+ramipril 5mg/5mg tablet
+bi...	Angiotensin-converting enzyme inhibitor
+bi1..	Captopril
+bi11.	Acepril 12.5mg tablet
+bi12.	Acepril 25mg tablet
+bi13.	Acepril 25mg tablets x56
+bi14.	Acepril 50mg tablet
+bi15.	Acepril 50mg tablets x56
+bi16.	Capoten 12.5mg tablet
+bi17.	Capoten 25mg tablet
+bi18.	Capoten 25mg tablets x56
+bi19.	Capoten 50mg tablet
+bi1A.	Hypapril 12.5mg tablet
+bi1B.	Hypapril 25mg tablet
+bi1C.	Hypapril 50mg tablet
+bi1D.	Capto-Co 25mg/12.5mg tablet
+bi1E.	Capto-Co 50mg/25mg tablet
+bi1H.	NOYADA 5mg/5mL oral solution
+bi1I.	CAPTOPRIL 5mg/5mL oral solution
+bi1J.	NOYADA 25mg/5mL oral solution
+bi1K.	CAPTOPRIL 25mg/5mL oral solution
+bi1a.	Capoten 50mg tablets x56
+bi1b.	Acezide 50mg tablets x56
+bi1c.	Capozide 50mg tablets x28
+bi1d.	Capozide LS 25mg tablets x28CP
+bi1e.	Co-zidocapt 25mg/12.5mg tablet
+bi1f.	Co-zidocapt 50mg/25mg tablet
+bi1g.	Ecopace 12.5mg tablet
+bi1h.	Ecopace 25mg tablet
+bi1i.	Ecopace 50mg tablet
+bi1j.	Kaplon 12.5mg tablet
+bi1k.	Kaplon 25mg tablet
+bi1l.	Kaplon 50mg tablet
+bi1m.	Hyteneze 12.5 tablet
+bi1n.	Hyteneze 25 tablet
+bi1o.	Hyteneze 50 tablet
+bi1p.	Tensopril 12.5mg tablet
+bi1q.	Tensopril 25mg tablet
+bi1r.	Tensopril 50mg tablet
+bi1s.	CAPOZIDE 50mg/25mg tablets
+bi1v.	Captopril 12.5mg tablet
+bi1w.	Captopril 25mg tablet
+bi1x.	Captopril 25mg tablets x56
+bi1y.	Captopril 50mg tablets x56
+bi1z.	Captopril 50mg tablet
+bi2..	Enalapril maleate
+bi21.	Innovace 2.5mg tablet
+bi22.	Innovace 5mg tablet
+bi23.	Innovace 5mg tablets x28
+bi24.	Innovace 10mg tablet
+bi25.	Innovace 10mg tablets x28
+bi26.	Innovace 20mg tablet
+bi27.	Innovace 20mg tablets x28
+bi28.	Innozide tablet
+bi29.	Innovace tablet starter pack
+bi2A.	Enalapril maleate 2.5mg wafer
+bi2B.	Enalapril maleate 5mg wafer
+bi2C.	Enalapril maleate 10mg wafer
+bi2D.	Enalapril maleate 20mg wafer
+bi2E.	Innovace Melt 2.5mg wafer
+bi2F.	Innovace Melt 5mg wafer
+bi2G.	Innovace Melt 10mg wafer
+bi2H.	Innovace Melt 20mg wafer
+bi2J.	Pralenal 2.5mg tablet
+bi2K.	Pralenal 5mg tablet
+bi2L.	Pralenal 10mg tablet
+bi2M.	Pralenal 20mg tablet
+bi2a.	Enalapril maleate 2.5mg+5mg tablet starter pack
+bi2b.	Enalapril maleate+hydrochlorothiazide 20mg/12.5mg tablet
+bi2t.	Enalapril maleate 2.5mg tablet
+bi2u.	Enalapril maleate 5mg tablet
+bi2v.	Enalapril maleate 5mg tablets x28
+bi2w.	Enalapril maleate 10mg tablet
+bi2x.	Enalapril maleate 10mg tablets x28
+bi2y.	Enalapril maleate 20mg tablet
+bi2z.	Enalapril maleate 20mg tablets x28
+bi3..	Lisinopril
+bi31.	Lisinopril 2.5mg tablet
+bi32.	Lisinopril 5mg tablet
+bi33.	Lisinopril 10mg tablet
+bi34.	Lisinopril 20mg tablet
+bi35.	Carace 2.5mg tablet
+bi36.	Carace 5mg tablets 28CP
+bi37.	Carace 5mg tablet
+bi38.	Carace 10mg tablets 28CP
+bi39.	Carace 10mg tablet
+bi3a.	Carace 20mg tablets 28CP
+bi3b.	Carace 20mg tablet
+bi3c.	Zestril 2.5mg tablets 28CP
+bi3d.	Zestril 2.5mg tablet
+bi3e.	Zestril 5mg tablets 28CP
+bi3f.	Zestril 5mg tablet
+bi3g.	Zestril 10mg tablets 28CP
+bi3h.	Zestril 10mg tablet
+bi3i.	Zestril 20mg tablets 28CP
+bi3j.	Zestril 20mg tablet
+bi3k.	Carace 20 Plus tablet
+bi3l.	Carace 10 Plus tablet
+bi3m.	Zestoretic tablets 28CP
+bi3n.	Zestoretic 20 tablet
+bi3p.	Lisinopril+hydrochlorothiazide 20mg/12.5mg tablet
+bi3q.	Zestril 2.5mg starter pack
+bi3r.	Lisinopril 2.5mg tablet starter pack
+bi3s.	Zestoretic 10 tablet
+bi3t.	Lisinopril+hydrochlorothiazide 10mg/12.5mg tablet
+bi3u.	Caralpha 10/12.5mg tablet
+bi3v.	Caralpha 20/12.5mg tablet
+bi3w.	Lisicostad HCT 20/12.5mg tablet
+bi3x.	Lisicostad HCT 10/12.5mg tablet
+bi3y.	LISINOPRIL 1mg/mL oral solution
+bi4..	Quinapril
+bi41.	Quinapril 5mg tablet
+bi42.	Quinapril 10mg tablet
+bi43.	Quinapril 20mg tablet
+bi44.	Accupro 5mg tablets 28CP
+bi45.	Accupro 10mg tablets 28CP
+bi46.	Accupro 20mg tablets 28CP
+bi47.	Accuretic tablet
+bi48.	Quinalapril+hydrochlorothiazide 10mg/12.5mg tablet
+bi49.	Accupro 40mg tablet
+bi4A.	Quinapril 40mg tablet
+bi4B.	Quinil 5mg tablet
+bi4C.	Quinil 10mg tablet
+bi4D.	Quinil 20mg tablet
+bi4E.	Quinil 40mg tablet
+bi4F.	QUINAPRIL+HYDROCHLOROTHIAZIDE 20mg/12.5mg tablets
+bi5..	Perindopril erbumine
+bi51.	Perindopril erbumine 2mg tablet
+bi52.	Perindopril erbumine 4mg tablet
+bi53.	Coversyl 2mg tablet
+bi54.	Coversyl 4mg tablet
+bi55.	Perindopril erbumine+indapamide 4mg/1.25mg tablet
+bi56.	Coversyl Plus 4mg/1.25mg tablet
+bi57.	Perindopril erbumine 8mg tablet
+bi58.	Coversyl 8mg tablet
+bi6..	Ramipril
+bi61.	Ramipril 1.25mg capsule
+bi62.	Ramipril 2.5mg capsule
+bi63.	Ramipril 5mg capsule
+bi64.	Tritace 1.25mg capsule
+bi65.	Tritace 2.5mg capsule
+bi66.	Tritace 5mg capsule
+bi67.	Ramipril 10mg capsule
+bi68.	Tritace 10mg capsule
+bi69.	Ramipril 2.5mg+5mg+10mg capsules titration pack
+bi6A.	Tritace Titration Pack
+bi6B.	Ramipril 1.25mg tablet
+bi6C.	Ramipril 2.5mg tablet
+bi6D.	Ramipril 5mg tablet
+bi6E.	Ramipril 10mg tablet
+bi6F.	RAMIPRIL 2.5mg+5mg+10mg tablets titration pack
+bi6G.	RAMIPRIL 2.5mg/5mL oral solution
+bi6o.	TRITACE Titration Pack tablets
+bi6p.	Ranace 10mg capsule
+bi6q.	Ranace 5mg capsule
+bi6r.	Ranace 2.5mg capsule
+bi6s.	Ranace 1.25mg capsule
+bi6t.	Lopace 2.5mg capsule
+bi6u.	Lopace 5mg capsule
+bi6v.	Lopace 10mg capsule
+bi6w.	Tritace 10mg tablet
+bi6x.	Tritace 5mg tablet
+bi6y.	Tritace 2.5mg tablet
+bi6z.	Tritace 1.25mg tablet
+bi7..	Fosinopril sodium
+bi71.	Fosinopril sodium 10mg tablet
+bi72.	Fosinopril sodium 20mg tablet
+bi73.	Staril 10mg tablet
+bi74.	Staril 20mg tablet
+bi8..	Cilazapril
+bi81.	Cilazapril 250micrograms tablet
+bi82.	Cilazapril 500micrograms tablet
+bi83.	Cilazapril 1mg tablet
+bi84.	Cilazapril 2.5mg tablet
+bi85.	Vascace 250micrograms tablet
+bi86.	Vascace 500mcg tablet
+bi87.	Vascace 1mg tablet
+bi88.	Vascace 2.5mg tablet
+bi89.	Vascace 5mg tablet
+bi8a.	Cilazapril 5mg tablet
+bi9..	Trandolapril
+bi91.	Trandolapril 500micrograms capsule
+bi92.	Trandolapril 1mg capsule
+bi93.	Trandolapril 2mg capsule
+bi94.	Gopten 500micrograms capsule
+bi95.	Gopten 1mg capsule
+bi96.	Gopten 2mg capsule
+bi97.	Odrik 500micrograms capsule
+bi98.	Odrik 1mg capsule
+bi99.	Odrik 2mg capsule
+bi9A.	Gopten 4mg capsule
+bi9z.	Trandolapril 4mg capsule
+biA..	Moexipril
+biA1.	Moexipril hydrochloride 7.5mg tablet
+biA2.	Moexipril hydrochloride 15mg tablet
+biA3.	Perdix 7.5mg tablet
+biA4.	Perdix 15mg tablet
+biB..	Imidapril hydrochloride
+biB1.	Tanatril 5mg tablet
+biB2.	Tanatril 10mg tablet
+biB3.	Tanatril 20mg tablet
+biBx.	Imidapril hydrochloride 20mg tablet
+biBy.	Imidapril hydrochloride 5mg tablet
+biBz.	Imidapril hydrochloride 10mg tablet
+biC..	PERINDOPRIL ARGININE
+biC1.	COVERSYL ARGININE 2.5mg tablets
+biC2.	PERINDOPRIL ARGININE 2.5mg tablets
+biC3.	COVERSYL ARGININE 5mg tablets
+biC4.	PERINDOPRIL ARGININE 5mg tablets
+biC5.	COVERSYL ARGININE 10mg tablets
+biC6.	PERINDOPRIL ARGININE 10mg tablets
+biC7.	COVERSYL ARGININE PLUS 5mg/1.25mg tablets
+biC8.	PERINDOPRIL ARGININE+INDAPAMIDE 5mg/1.25mg tablets
+bk6..	Trandolapril+verapamil hydrochloride
+bk61.	Trandolapril+verapamil hydrochloride 2mg/180mg m/r capsule
+bk62.	Tarka 2mg/180mg m/r capsule
+x001j	Captopril+diuretic
+x0044	Enalapril maleate+diuretic
+x007H	Lisinopril+diuretic
+x00en	Accupro 5mg tablet
+x00eo	Accupro 10mg tablet
+x00ep	Accupro 20mg tablet
+x00eq	Acezide tablet
+x00f0	Capozide tablet
+x00f1	Capozide LS tablet
+x00fw	Renitec 5mg tablet
+x01Qe	Enalapril
+x01Qf	Fosinopril
+x01Qg	Perindopril
+x02Sb	Accupro
+x02Sc	Accuretic
+x02Sd	Acepril
+x02Wf	Capoten
+x02Wj	Carace
+x02Wk	Carace Plus
+x02YD	Coversyl
+x02eC	Gopten
+x02fl	Innovace
+x02fm	Innozide
+x02lk	Odrik
+x02pJ	Renitec
+x02rU	Staril
+x02tS	Tritace
+x02u7	Vascace
+x02uy	Zestoretic
+x03ce	Perdix
+x03h1	Zestril
+x03kD	Ecopace
+x03lH	Kaplon
+x03n3	Hypapril
+x03rX	Tarka
+x040z	Capozide
+x0410	Capozide LS
+x0411	Carace 10 Plus
+x0412	Carace 20 Plus
+x047M	Acezide
+x04A0	Zestoretic 10
+x04A1	Zestoretic 20
+x04c7	Innovace Melt
+x04t5	Hyteneze 12.5
+x04t6	Hyteneze 25
+x04t7	Hyteneze 50
+x04t8	Tensopril
+x04xj	Tanatril
+x051w	Triapin mite
+x051x	Triapin
+x054w	Capto-Co
+x055s	Pralenal
+x05df	Perindopril+indapamide
+x05dg	Coversyl Plus
+x05eT	Co-zidocapt
+x05sk	Caralpha
+x05uH	Lopace
+x05vC	Lisicostad HCT
+x05vO	Ranace
+x05x1	Quinil

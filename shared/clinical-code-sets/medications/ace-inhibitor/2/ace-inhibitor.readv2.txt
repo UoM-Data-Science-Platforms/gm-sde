@@ -1,0 +1,230 @@
+bA...00	CALCIUM-CHANNEL BLOCKER+ANGIOTENSIN-CONVERTING ENZYME INHIBITOR
+bA1..00	FELODIPINE+RAMIPRIL
+bA11.00	TRIAPIN MITE 2.5mg/2.5mg tablets
+bA12.00	TRIAPIN 5mg/5mg tablets
+bA1y.00	FELODIPINE+RAMIPRIL 2.5mg/2.5mg tablets
+bA1z.00	FELODIPINE+RAMIPRIL 5mg/5mg tablets
+bi...00	ANGIOTENSIN-CONVERTING ENZYME INHIBITORS
+bi1..00	CAPTOPRIL
+bi11.00	ACEPRIL 12.5mg tablets
+bi12.00	ACEPRIL 25mg tablets
+bi13.00	ACEPRIL 25mg tablets x56
+bi14.00	ACEPRIL 50mg tablets
+bi15.00	ACEPRIL 50mg tablets x56
+bi16.00	*CAPOTEN 12.5mg tablets
+bi17.00	CAPOTEN 25mg tablets
+bi18.00	CAPOTEN 25mg tablets x56
+bi19.00	CAPOTEN 50mg tablets
+bi1A.00	*HYPAPRIL 12.5mg tablets
+bi1B.00	*HYPAPRIL 25mg tablets
+bi1C.00	*HYPAPRIL 50mg tablets
+bi1D.00	*CAPTO-CO 25mg/12.5mg tablets
+bi1E.00	*CAPTO-CO 50mg/25mg tablets
+bi1F.00	CO-ZIDOCAPT 25mg/12.5mg tablet
+bi1G.00	*CO-ZIDOCAPT 50mg/25mg tablets
+bi1H.00	NOYADA 5mg/5mL oral solution
+bi1I.00	CAPTOPRIL 5mg/5mL oral solution
+bi1J.00	NOYADA 25mg/5mL oral solution
+bi1K.00	CAPTOPRIL 25mg/5mL oral solution
+bi1a.00	CAPOTEN 50mg tablets x56
+bi1b.00	ACEZIDE 50mg tablets x56
+bi1c.00	*CAPOZIDE 50mg tablets x28
+bi1d.00	*CAPOZIDE LS 25mg tabletsx28CP
+bi1e.00	CAPTOPRIL+HYDROCHLOROTHIAZIDE 25mg/12.5mg tablets
+bi1e.11	CO-ZIDOCAPT 25mg/12.5mg tablets
+bi1f.00	CAPTOPRIL+HYDROCHLOROTHIAZIDE 50mg/25mg tablets
+bi1f.11	CO-ZIDOCAPT 50mg/25mg tablets
+bi1g.00	ECOPACE 12.5mg tablets
+bi1h.00	ECOPACE 25mg tablets
+bi1i.00	ECOPACE 50mg tablets
+bi1j.00	*KAPLON 12.5mg tablets
+bi1k.00	*KAPLON 25mg tablets
+bi1l.00	*KAPLON 50mg tablets
+bi1m.00	*HYTENEZE 12.5 tablets
+bi1n.00	*HYTENEZE 25 tablets
+bi1o.00	*HYTENEZE 50 tablets
+bi1p.00	*TENSOPRIL 12.5mg tablets
+bi1q.00	*TENSOPRIL 25mg tablets
+bi1r.00	*TENSOPRIL 50mg tablets
+bi1s.00	CAPOZIDE 50mg/25mg tablets
+bi1v.00	CAPTOPRIL 12.5mg tablets
+bi1w.00	CAPTOPRIL 25mg tablets
+bi1x.00	CAPTOPRIL 25mg tablets x56
+bi1y.00	CAPTOPRIL 50mg tablets x56
+bi1z.00	CAPTOPRIL 50mg tablets
+bi2..00	ENALAPRIL MALEATE
+bi21.00	INNOVACE 2.5mg tablets
+bi22.00	INNOVACE 5mg tablets
+bi23.00	INNOVACE 5mg tablets x28
+bi24.00	INNOVACE 10mg tablets
+bi25.00	INNOVACE 10mg tablets x28
+bi26.00	INNOVACE 20mg tablets
+bi27.00	INNOVACE 20mg tablets x28
+bi28.00	INNOZIDE 20/12.5mg tablets
+bi29.00	INNOVACE tablets titration pack
+bi2A.00	*ENALAPRIL MALEATE 2.5mg wafer
+bi2B.00	*ENALAPRIL MALEATE 5mg wafer
+bi2C.00	*ENALAPRIL MALEATE 10mg wafer
+bi2D.00	*ENALAPRIL MALEATE 20mg wafer
+bi2E.00	*INNOVACE MELT 2.5mg wafer
+bi2F.00	*INNOVACE MELT 5mg wafer
+bi2G.00	*INNOVACE MELT 10mg wafer
+bi2H.00	*INNOVACE MELT 20mg wafer
+bi2J.00	*PRALENAL 2.5mg tablets
+bi2K.00	*PRALENAL 5mg tablets
+bi2L.00	*PRALENAL 10mg tablets
+bi2M.00	*PRALENAL 20mg tablets
+bi2a.00	ENALAPRIL MALEATE tablets titration pack
+bi2b.00	ENALAPRIL MALEATE+HYDROCHLOROTHIAZIDE 20mg/12.5mg tablets
+bi2t.00	ENALAPRIL MALEATE 2.5mg tablets
+bi2u.00	ENALAPRIL MALEATE 5mg tablets
+bi2v.00	ENALAPRIL MALEATE 5mg tablets x28
+bi2w.00	ENALAPRIL MALEATE 10mg tablets
+bi2x.00	ENALAPRIL MALEATE 10mg tablets x28
+bi2y.00	ENALAPRIL MALEATE 20mg tablets
+bi2z.00	ENALAPRIL MALEATE 20mg tablets x28
+bi3..00	LISINOPRIL
+bi31.00	LISINOPRIL 2.5mg tablets
+bi32.00	LISINOPRIL 5mg tablets
+bi33.00	LISINOPRIL 10mg tablets
+bi34.00	LISINOPRIL 20mg tablets
+bi35.00	*CARACE 2.5mg tablets
+bi36.00	*CARACE 5mg tablets 28CP
+bi37.00	*CARACE 5mg tablets
+bi38.00	*CARACE 10mg tablets 28CP
+bi39.00	*CARACE 10mg tablets
+bi3a.00	*CARACE 20mg tablets 28CP
+bi3b.00	*CARACE 20mg tablets
+bi3c.00	*ZESTRIL 2.5mg tablets 28CP
+bi3d.00	*ZESTRIL 2.5mg tablets
+bi3e.00	ZESTRIL 5mg tablets 28CP
+bi3f.00	ZESTRIL 5mg tablets
+bi3g.00	ZESTRIL 10mg tablets 28CP
+bi3h.00	ZESTRIL 10mg tablets
+bi3i.00	ZESTRIL 20mg tablets 28CP
+bi3j.00	ZESTRIL 20mg tablets
+bi3k.00	CARACE 20 PLUS tablets
+bi3l.00	*CARACE 10 PLUS tablets
+bi3m.00	*ZESTORETIC tablets 28CP
+bi3n.00	ZESTORETIC 20/12.5mg tablets
+bi3p.00	LISINOPRIL+HYDROCHLOROTHIAZIDE 20mg/12.5mg tablets
+bi3q.00	*ZESTRIL 2.5mg starter pack
+bi3r.00	LISINOPRIL 2.5mg tablets starter pack
+bi3s.00	ZESTORETIC 10/12.5mg tablets
+bi3t.00	LISINOPRIL+HYDROCHLOROTHIAZIDE 10mg/12.5mg tablets
+bi3u.00	*CARALPHA 10/12.5mg tablets
+bi3v.00	*CARALPHA 20/12.5mg tablets
+bi3w.00	LISICOSTAD HCT 20/12.5mg tablets
+bi3x.00	LISICOSTAD HCT 10/12.5mg tablets
+bi3y.00	LISINOPRIL 1mg/mL oral solution
+bi4..00	QUINAPRIL
+bi41.00	QUINAPRIL 5mg tablets
+bi42.00	QUINAPRIL 10mg tablets
+bi43.00	QUINAPRIL 20mg tablets
+bi44.00	ACCUPRO 5mg tablets 28CP
+bi45.00	ACCUPRO 10mg tablets 28CP
+bi46.00	ACCUPRO 20mg tablets 28CP
+bi47.00	ACCURETIC tablets
+bi48.00	QUINAPRIL+HYDROCHLOROTHIAZIDE 10/12.5mg tablets
+bi49.00	ACCUPRO 40mg tablets
+bi4A.00	QUINAPRIL 40mg tablets
+bi4B.00	QUINIL 5mg tablets
+bi4C.00	QUINIL 10mg tablets
+bi4D.00	QUINIL 20mg tablets
+bi4E.00	QUINIL 40mg tablets
+bi4F.00	QUINAPRIL+HYDROCHLOROTHIAZIDE 20mg/12.5mg tablets
+bi5..00	PERINDOPRIL ERBUMINE
+bi5..11	PERINDOPRIL TERT-BUTYLAMINE
+bi51.00	PERINDOPRIL ERBUMINE 2mg tablets
+bi51.11	PERINDOPRIL TERT-BUTYLAMINE 2mg tablets
+bi52.00	PERINDOPRIL ERBUMINE 4mg tablets
+bi52.11	PERINDOPRIL TERT-BUTYLAMINE 4mg tablets
+bi53.00	*COVERSYL 2mg tablets
+bi54.00	*COVERSYL 4mg tablets
+bi55.00	PERINDOPRIL ERBUMINE+INDAPAMIDE 4mg/1.25mg tablets
+bi55.11	PERINDOPRIL TERT-BUTYLAMINE+INDAPAMIDE 4mg/1.25mg tablets
+bi56.00	COVERSYL PLUS 4mg/1.25mg tablets
+bi57.00	PERINDOPRIL ERBUMINE 8mg tablets
+bi57.11	PERINDOPRIL TERT-BUTYLAMINE 8mg tablets
+bi58.00	*COVERSYL 8mg tablets
+bi6..00	RAMIPRIL
+bi61.00	RAMIPRIL 1.25mg capsules
+bi62.00	RAMIPRIL 2.5mg capsules
+bi63.00	RAMIPRIL 5mg capsules
+bi64.00	*TRITACE 1.25mg capsules
+bi65.00	*TRITACE 2.5mg capsules
+bi66.00	*TRITACE 5mg capsules
+bi67.00	RAMIPRIL 10mg capsules
+bi68.00	*TRITACE 10mg capsules
+bi69.00	RAMIPRIL 2.5mg+5mg+10mg capsules titration pack
+bi6A.00	TRITACE Titration Pack capsules
+bi6B.00	RAMIPRIL 1.25mg tablets
+bi6C.00	RAMIPRIL 2.5mg tablets
+bi6D.00	RAMIPRIL 5mg tablets
+bi6E.00	RAMIPRIL 10mg tablets
+bi6F.00	RAMIPRIL 2.5mg+5mg+10mg tablets titration pack
+bi6G.00	RAMIPRIL 2.5mg/5mL oral solution
+bi6o.00	TRITACE Titration Pack tablets
+bi6p.00	*RANACE 10mg capsules
+bi6q.00	*RANACE 5mg capsules
+bi6r.00	*RANACE 2.5mg capsules
+bi6s.00	*RANACE 1.25mg capsules
+bi6t.00	*LOPACE 2.5mg capsules
+bi6u.00	*LOPACE 5mg capsules
+bi6v.00	*LOPACE 10mg capsules
+bi6w.00	TRITACE 10mg tablets
+bi6x.00	TRITACE 5mg tablets
+bi6y.00	TRITACE 2.5mg tablets
+bi6z.00	TRITACE 1.25mg tablets
+bi7..00	SODIUM FOSINOPRIL
+bi71.00	FOSINOPRIL 10mg tablets
+bi72.00	FOSINOPRIL 20mg tablets
+bi73.00	*STARIL 10mg tablets
+bi74.00	*STARIL 20mg tablets
+bi8..00	CILAZAPRIL
+bi81.00	CILAZAPRIL 250micrograms tablets
+bi82.00	CILAZAPRIL 500micrograms tablets
+bi83.00	*CILAZAPRIL 1mg tablets
+bi84.00	*CILAZAPRIL 2.5mg tablets
+bi85.00	*VASCACE 250micrograms tablets
+bi86.00	*VASCACE 500micrograms tablets
+bi87.00	*VASCACE 1mg tablets
+bi88.00	*VASCACE 2.5mg tablets
+bi89.00	*VASCACE 5mg tablets
+bi8a.00	CILAZAPRIL 5mg tablets
+bi9..00	TRANDOLAPRIL
+bi91.00	TRANDOLAPRIL 500micrograms capsules
+bi92.00	TRANDOLAPRIL 1mg capsules
+bi93.00	TRANDOLAPRIL 2mg capsules
+bi94.00	*GOPTEN 500micrograms capsules
+bi95.00	*GOPTEN 1mg capsules
+bi96.00	*GOPTEN 2mg capsules
+bi97.00	*ODRIK 500micrograms capsules
+bi98.00	*ODRIK 1mg capsules
+bi99.00	*ODRIK 2mg capsules
+bi9A.00	*GOPTEN 4mg capsules
+bi9z.00	TRANDOLAPRIL 4mg capsules
+biA..00	MOEXIPRIL
+biA1.00	MOEXIPRIL HYDROCHLORIDE 7.5mg tablets
+biA2.00	MOEXIPRIL HYDROCHLORIDE 15mg tablets
+biA3.00	PERDIX 7.5mg tablets
+biA4.00	PERDIX 15mg tablets
+biB..00	IMIDAPRIL HYDROCHLORIDE
+biB1.00	TANATRIL 5mg tablets
+biB2.00	TANATRIL 10mg tablets
+biB3.00	TANATRIL 20mg tablets
+biBx.00	IMIDAPRIL HYDROCHLORIDE 20mg tablets
+biBy.00	IMIDAPRIL HYDROCHLORIDE 5mg tablets
+biBz.00	IMIDAPRIL HYDROCHLORIDE 10mg tablets
+biC..00	PERINDOPRIL ARGININE
+biC1.00	COVERSYL ARGININE 2.5mg tablets
+biC2.00	PERINDOPRIL ARGININE 2.5mg tablets
+biC3.00	COVERSYL ARGININE 5mg tablets
+biC4.00	PERINDOPRIL ARGININE 5mg tablets
+biC5.00	COVERSYL ARGININE 10mg tablets
+biC6.00	PERINDOPRIL ARGININE 10mg tablets
+biC7.00	COVERSYL ARGININE PLUS 5mg/1.25mg tablets
+biC8.00	PERINDOPRIL ARGININE+INDAPAMIDE 5mg/1.25mg tablets
+bk6..00	TRANDOLAPRIL+VERAPAMIL HYDROCHLORIDE
+bk61.00	TRANDOLAPRIL+VERAPAMIL HYDROCHLORIDE 2mg/180mg m/r capsules
+bk62.00	*TARKA 2mg/180mg m/r capsules

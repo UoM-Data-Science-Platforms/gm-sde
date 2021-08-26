@@ -1,0 +1,1325 @@
+16254211000001103	Accupro 10mg tablets (Mawdsley-Brooks & Company Ltd)
+231111000001106	Accupro 10mg tablets (Pfizer Ltd)
+829111000001100	Accupro 20mg tablets (Pfizer Ltd)
+86411000001109	Accupro 40mg tablets (Pfizer Ltd)
+5616811000001101	Accupro 5mg tablets (Dowelhurst Ltd)
+582611000001106	Accupro 5mg tablets (Pfizer Ltd)
+5327611000001100	Accupro 5mg tablets (Waymade Healthcare Plc)
+16133111000001106	Accuretic 10mg/12.5mg tablets (Lexon (UK) Ltd)
+16254811000001102	Accuretic 10mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+260211000001104	Accuretic 10mg/12.5mg tablets (Pfizer Ltd)
+14035911000001107	Accuretic 10mg/12.5mg tablets (Sigma Pharmaceuticals Plc)
+5329311000001100	Accuretic 10mg/12.5mg tablets (Waymade Healthcare Plc)
+660111000001107	Acepril 12.5mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+517711000001103	Acepril 25mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+814111000001108	Acepril 50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+263311000001101	Acezide 25mg/50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+134511000001103	Capoten 12.5mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+5528711000001108	Capoten 12.5mg tablets (Dowelhurst Ltd)
+455611000001103	Capoten 25mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+5530211000001102	Capoten 25mg tablets (Dowelhurst Ltd)
+18156511000001101	Capoten 25mg tablets (Mawdsley-Brooks & Company Ltd)
+14328211000001109	Capoten 25mg tablets (Sigma Pharmaceuticals Plc)
+16543011000001103	Capoten 25mg tablets (Stephar (U.K.) Ltd)
+5344511000001109	Capoten 25mg tablets (Waymade Healthcare Plc)
+386611000001109	Capoten 50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+5531711000001101	Capoten 50mg tablets (Dowelhurst Ltd)
+14328511000001107	Capoten 50mg tablets (Sigma Pharmaceuticals Plc)
+16542811000001101	Capoten 50mg tablets (Stephar (U.K.) Ltd)
+5346011000001106	Capoten 50mg tablets (Waymade Healthcare Plc)
+7658811000001109	Capoten 5mg/ml oral solution (Imported (United States))
+17311000001102	Capozide 25mg/50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+13842911000001101	Capozide 25mg/50mg tablets (DE Pharmaceuticals)
+5620211000001105	Capozide 25mg/50mg tablets (Dowelhurst Ltd)
+14330511000001106	Capozide 25mg/50mg tablets (Sigma Pharmaceuticals Plc)
+5347211000001104	Capozide 25mg/50mg tablets (Waymade Healthcare Plc)
+546711000001107	Capozide LS 12.5mg/25mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+372511000001104	Captomex 12.5mg tablets (Actavis UK Ltd)
+562011000001101	Captomex 25mg tablets (Actavis UK Ltd)
+760211000001106	Captomex 50mg tablets (Actavis UK Ltd)
+404829009	Captopril + hydrochlorothiazide
+8346311000001100	Captopril 1.25mg/5ml oral solution
+8311611000001105	Captopril 1.25mg/5ml oral solution (Special Order)
+8346411000001107	Captopril 1.25mg/5ml oral suspension
+8312211000001101	Captopril 1.25mg/5ml oral suspension (Special Order)
+15533211000001106	Captopril 1.5mg capsules
+15530311000001109	Captopril 1.5mg capsules (Special Order)
+8346511000001106	Captopril 1.5mg/5ml oral solution
+8313211000001107	Captopril 1.5mg/5ml oral solution (Special Order)
+8346611000001105	Captopril 1.5mg/5ml oral suspension
+8314011000001100	Captopril 1.5mg/5ml oral suspension (Special Order)
+12291411000001107	Captopril 1.6mg/5ml oral solution
+12282211000001100	Captopril 1.6mg/5ml oral solution (Special Order)
+12291511000001106	Captopril 1.75mg/5ml oral solution
+12283411000001105	Captopril 1.75mg/5ml oral solution (Special Order)
+375105000	Captopril 100 mg oral tablet
+12312411000001108	Captopril 100mg/5ml oral solution
+12306011000001103	Captopril 100mg/5ml oral solution (Special Order)
+12312511000001107	Captopril 100micrograms/5ml oral solution
+12305711000001109	Captopril 100micrograms/5ml oral solution (Special Order)
+8346711000001101	Captopril 10mg/5ml oral solution
+8310711000001109	Captopril 10mg/5ml oral solution (Special Order)
+8346811000001109	Captopril 10mg/5ml oral suspension
+8311111000001102	Captopril 10mg/5ml oral suspension (Special Order)
+8346911000001104	Captopril 11.25mg/5ml oral solution
+8311911000001104	Captopril 11.25mg/5ml oral solution (Special Order)
+8347011000001100	Captopril 11.25mg/5ml oral suspension
+8312311000001109	Captopril 11.25mg/5ml oral suspension (Special Order)
+318820009	Captopril 12.5mg tablets
+226411000001105	Captopril 12.5mg tablets (A A H Pharmaceuticals Ltd)
+23478811000001103	Captopril 12.5mg tablets (Accord Healthcare Ltd)
+605411000001105	Captopril 12.5mg tablets (Actavis UK Ltd)
+653311000001105	Captopril 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+15987811000001100	Captopril 12.5mg tablets (Bristol Laboratories Ltd)
+22627311000001101	Captopril 12.5mg tablets (DE Pharmaceuticals)
+13196211000001107	Captopril 12.5mg tablets (Dowelhurst Ltd)
+665411000001109	Captopril 12.5mg tablets (Kent Pharmaceuticals Ltd)
+332211000001104	Captopril 12.5mg tablets (Mylan)
+17819311000001108	Captopril 12.5mg tablets (Phoenix Healthcare Distribution Ltd)
+654711000001106	Captopril 12.5mg tablets (Sandoz Ltd)
+29778211000001107	Captopril 12.5mg tablets (Sigma Pharmaceuticals Plc)
+762711000001100	Captopril 12.5mg tablets (Sterwin Medicines)
+19311000001107	Captopril 12.5mg tablets (Teva UK Ltd)
+13741311000001109	Captopril 12.5mg tablets (Tillomed Laboratories Ltd)
+21814111000001106	Captopril 12.5mg tablets (Waymade Healthcare Plc)
+8347111000001104	Captopril 12.5mg/5ml oral solution
+8312811000001100	Captopril 12.5mg/5ml oral solution (Special Order)
+8347211000001105	Captopril 12.5mg/5ml oral suspension
+8314111000001104	Captopril 12.5mg/5ml oral suspension (Special Order)
+12312611000001106	Captopril 12mg/5ml oral solution
+12306511000001106	Captopril 12mg/5ml oral solution (Special Order)
+12312711000001102	Captopril 15.625mg/5ml oral solution
+12307911000001101	Captopril 15.625mg/5ml oral solution (Special Order)
+8347311000001102	Captopril 15mg/5ml oral solution
+8313311000001104	Captopril 15mg/5ml oral solution (Special Order)
+8347411000001109	Captopril 15mg/5ml oral suspension
+8313911000001103	Captopril 15mg/5ml oral suspension (Special Order)
+12312811000001105	Captopril 17.5mg/5ml oral solution
+12308611000001106	Captopril 17.5mg/5ml oral solution (Special Order)
+8347511000001108	Captopril 17mg/5ml oral solution
+8314611000001107	Captopril 17mg/5ml oral solution (Special Order)
+8347611000001107	Captopril 17mg/5ml oral suspension
+8314911000001101	Captopril 17mg/5ml oral suspension (Special Order)
+12312911000001100	Captopril 18.5mg/5ml oral solution
+12309211000001104	Captopril 18.5mg/5ml oral solution (Special Order)
+8347811000001106	Captopril 1mg/5ml oral solution
+8315811000001107	Captopril 1mg/5ml oral solution (Special Order)
+8347911000001101	Captopril 1mg/5ml oral suspension
+8316411000001101	Captopril 1mg/5ml oral suspension (Special Order)
+8348011000001104	Captopril 2.5mg/5ml oral solution
+8315611000001108	Captopril 2.5mg/5ml oral solution (Special Order)
+8348111000001103	Captopril 2.5mg/5ml oral suspension
+8316711000001107	Captopril 2.5mg/5ml oral suspension (Special Order)
+8348211000001109	Captopril 20mg/5ml oral solution
+8315311000001103	Captopril 20mg/5ml oral solution (Special Order)
+8348311000001101	Captopril 20mg/5ml oral suspension
+8316011000001105	Captopril 20mg/5ml oral suspension (Special Order)
+12313011000001108	Captopril 22.5mg/5ml oral solution
+12309811000001103	Captopril 22.5mg/5ml oral solution (Special Order)
+377263003	Captopril 25 mg and hydrochlorothiazide 15 mg oral tablet
+377264009	Captopril 25 mg and hydrochlorothiazide 25 mg oral tablet
+318821008	Captopril 25mg tablets
+303411000001102	Captopril 25mg tablets (A A H Pharmaceuticals Ltd)
+23479311000001101	Captopril 25mg tablets (Accord Healthcare Ltd)
+501411000001104	Captopril 25mg tablets (Actavis UK Ltd)
+670111000001104	Captopril 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+15988011000001107	Captopril 25mg tablets (Bristol Laboratories Ltd)
+22627511000001107	Captopril 25mg tablets (DE Pharmaceuticals)
+5454611000001103	Captopril 25mg tablets (Dowelhurst Ltd)
+345711000001101	Captopril 25mg tablets (Kent Pharmaceuticals Ltd)
+260611000001102	Captopril 25mg tablets (Mylan)
+17819611000001103	Captopril 25mg tablets (Phoenix Healthcare Distribution Ltd)
+614411000001107	Captopril 25mg tablets (Sandoz Ltd)
+29778411000001106	Captopril 25mg tablets (Sigma Pharmaceuticals Plc)
+762611000001109	Captopril 25mg tablets (Sterwin Medicines)
+424411000001101	Captopril 25mg tablets (Teva UK Ltd)
+13741611000001104	Captopril 25mg tablets (Tillomed Laboratories Ltd)
+21815211000001104	Captopril 25mg tablets (Waymade Healthcare Plc)
+8348511000001107	Captopril 25mg/5ml oral solution
+8317011000001108	Captopril 25mg/5ml oral solution (Special Order)
+23707311000001108	Captopril 25mg/5ml oral solution sugar free
+35578311000001107	Captopril 25mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+36467911000001107	Captopril 25mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+36326411000001100	Captopril 25mg/5ml oral solution sugar free (Almus Pharmaceuticals Ltd)
+35734911000001104	Captopril 25mg/5ml oral solution sugar free (BCM Specials Ltd)
+37111211000001107	Captopril 25mg/5ml oral solution sugar free (DE Pharmaceuticals)
+35547011000001109	Captopril 25mg/5ml oral solution sugar free (Teva UK Ltd)
+35726411000001101	Captopril 25mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+8348611000001106	Captopril 25mg/5ml oral suspension
+8317611000001101	Captopril 25mg/5ml oral suspension (Special Order)
+8791811000001109	Captopril 2mg capsules
+8743511000001104	Captopril 2mg capsules (Special Order)
+8348711000001102	Captopril 2mg/5ml oral solution
+8317311000001106	Captopril 2mg/5ml oral solution (Special Order)
+8348811000001105	Captopril 2mg/5ml oral suspension
+8317911000001107	Captopril 2mg/5ml oral suspension (Special Order)
+8349711000001106	Captopril 3.125mg/5ml oral solution
+8319811000001105	Captopril 3.125mg/5ml oral solution (Special Order)
+8349911000001108	Captopril 3.125mg/5ml oral suspension
+8320811000001109	Captopril 3.125mg/5ml oral suspension (Special Order)
+8350011000001104	Captopril 3.25mg/5ml oral solution
+8318611000001102	Captopril 3.25mg/5ml oral solution (Special Order)
+8350111000001103	Captopril 3.25mg/5ml oral suspension
+8319211000001109	Captopril 3.25mg/5ml oral suspension (Special Order)
+12313111000001109	Captopril 3.5mg/5ml oral solution
+12310711000001101	Captopril 3.5mg/5ml oral solution (Special Order)
+12313211000001103	Captopril 30mg/5ml oral solution
+12311311000001105	Captopril 30mg/5ml oral solution (Special Order)
+8350211000001109	Captopril 31.25mg/5ml oral solution
+8325711000001106	Captopril 31.25mg/5ml oral solution (Special Order)
+8350311000001101	Captopril 31.25mg/5ml oral suspension
+8327811000001108	Captopril 31.25mg/5ml oral suspension (Special Order)
+20586111000001106	Captopril 3mg capsules
+20586511000001102	Captopril 3mg capsules (Special Order)
+8816111000001109	Captopril 3mg oral powder sachets
+8807311000001106	Captopril 3mg oral powder sachets (Special Order)
+8350511000001107	Captopril 3mg/5ml oral solution
+8324011000001105	Captopril 3mg/5ml oral solution (Special Order)
+8350611000001106	Captopril 3mg/5ml oral suspension
+8324811000001104	Captopril 3mg/5ml oral suspension (Special Order)
+8791911000001104	Captopril 4mg capsules
+8743811000001101	Captopril 4mg capsules (Special Order)
+8350811000001105	Captopril 4mg/5ml oral solution
+8322111000001103	Captopril 4mg/5ml oral solution (Special Order)
+8350911000001100	Captopril 4mg/5ml oral suspension
+8323311000001106	Captopril 4mg/5ml oral suspension (Special Order)
+12313311000001106	Captopril 5.4mg/5ml oral solution
+12311611000001100	Captopril 5.4mg/5ml oral solution (Special Order)
+377265005	Captopril 50 mg and hydrochlorothiazide 15 mg oral tablet
+8351011000001108	Captopril 500micrograms/5ml oral solution
+8320111000001102	Captopril 500micrograms/5ml oral solution (Special Order)
+8351111000001109	Captopril 500micrograms/5ml oral suspension
+8320611000001105	Captopril 500micrograms/5ml oral suspension (Special Order)
+14796411000001104	Captopril 50mg capsules
+14790711000001107	Captopril 50mg capsules (Special Order)
+318824000	Captopril 50mg tablets
+429211000001101	Captopril 50mg tablets (A A H Pharmaceuticals Ltd)
+23479611000001106	Captopril 50mg tablets (Accord Healthcare Ltd)
+248011000001100	Captopril 50mg tablets (Actavis UK Ltd)
+805111000001105	Captopril 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+15988211000001102	Captopril 50mg tablets (Bristol Laboratories Ltd)
+22627711000001102	Captopril 50mg tablets (DE Pharmaceuticals)
+13196811000001108	Captopril 50mg tablets (Dowelhurst Ltd)
+291911000001104	Captopril 50mg tablets (Kent Pharmaceuticals Ltd)
+829011000001101	Captopril 50mg tablets (Mylan)
+17820311000001109	Captopril 50mg tablets (Phoenix Healthcare Distribution Ltd)
+212311000001105	Captopril 50mg tablets (Sandoz Ltd)
+29778611000001109	Captopril 50mg tablets (Sigma Pharmaceuticals Plc)
+827011000001105	Captopril 50mg tablets (Sterwin Medicines)
+3911000001107	Captopril 50mg tablets (Teva UK Ltd)
+13741911000001105	Captopril 50mg tablets (Tillomed Laboratories Ltd)
+21815711000001106	Captopril 50mg tablets (Waymade Healthcare Plc)
+8351211000001103	Captopril 50mg/5ml oral solution
+8321211000001102	Captopril 50mg/5ml oral solution (Special Order)
+8351511000001100	Captopril 50mg/5ml oral suspension
+8321811000001101	Captopril 50mg/5ml oral suspension (Special Order)
+11490011000001105	Captopril 5mg tablets
+11484511000001105	Captopril 5mg tablets (Special Order)
+8351611000001101	Captopril 5mg/5ml oral solution
+8325911000001108	Captopril 5mg/5ml oral solution (Special Order)
+23707511000001102	Captopril 5mg/5ml oral solution sugar free
+35489111000001102	Captopril 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+36467711000001105	Captopril 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+36327011000001107	Captopril 5mg/5ml oral solution sugar free (Almus Pharmaceuticals Ltd)
+35734711000001101	Captopril 5mg/5ml oral solution sugar free (BCM Specials Ltd)
+37111011000001102	Captopril 5mg/5ml oral solution sugar free (DE Pharmaceuticals)
+35548711000001107	Captopril 5mg/5ml oral solution sugar free (Teva UK Ltd)
+35726611000001103	Captopril 5mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+8351811000001102	Captopril 5mg/5ml oral suspension
+8328611000001108	Captopril 5mg/5ml oral suspension (Special Order)
+7659911000001107	Captopril 5mg/ml oral solution sugar free
+15864611000001102	Captopril 5mg/ml oral solution sugar free (Special Order)
+8351911000001107	Captopril 6.25mg/5ml oral solution
+8322411000001108	Captopril 6.25mg/5ml oral solution (Special Order)
+8352011000001100	Captopril 6.25mg/5ml oral suspension
+8322811000001105	Captopril 6.25mg/5ml oral suspension (Special Order)
+8353311000001107	Captopril 6.5mg/5ml oral solution
+8323611000001101	Captopril 6.5mg/5ml oral solution (Special Order)
+8353411000001100	Captopril 6.5mg/5ml oral suspension
+8324211000001100	Captopril 6.5mg/5ml oral suspension (Special Order)
+12387111000001103	Captopril 62.5mg/5ml oral solution
+12344411000001106	Captopril 62.5mg/5ml oral solution (Special Order)
+8353511000001101	Captopril 6mg/5ml oral solution
+8329511000001103	Captopril 6mg/5ml oral solution (Special Order)
+8353611000001102	Captopril 6mg/5ml oral suspension
+8331311000001107	Captopril 6mg/5ml oral suspension (Special Order)
+8353811000001103	Captopril 7.5mg/5ml oral solution
+8325411000001100	Captopril 7.5mg/5ml oral solution (Special Order)
+8353911000001108	Captopril 7.5mg/5ml oral suspension
+8326511000001108	Captopril 7.5mg/5ml oral suspension (Special Order)
+12387211000001109	Captopril 7mg/5ml oral solution
+12321411000001107	Captopril 7mg/5ml oral solution (Special Order)
+12387311000001101	Captopril 8mg/5ml oral solution
+12322411000001102	Captopril 8mg/5ml oral solution (Special Order)
+19820711000001101	Captopril 8mg/5ml oral suspension
+19813411000001106	Captopril 8mg/5ml oral suspension (Special Order)
+8354411000001102	Captopril 9mg/5ml oral solution
+8324711000001107	Captopril 9mg/5ml oral solution (Special Order)
+8354511000001103	Captopril 9mg/5ml oral suspension
+8325311000001107	Captopril 9mg/5ml oral suspension (Special Order)
+768049005	Captopril and hydrochlorothiazide in oral dosage form
+768048002	Captopril in oral dosage form
+3144511000001107	Carace 10 Plus tablets (Merck Sharp & Dohme Ltd)
+315211000001104	Carace 10mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+321011000001103	Carace 2.5mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+3143511000001109	Carace 20 Plus tablets (Merck Sharp & Dohme Ltd)
+56711000001109	Carace 20mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+778011000001109	Carace 5mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+7385911000001108	Caralpha 10mg/12.5mg tablets (Actavis UK Ltd)
+7385711000001106	Caralpha 20mg/12.5mg tablets (Actavis UK Ltd)
+318916009	Cilazapril 1mg tablets
+318917000	Cilazapril 2.5mg tablets
+318915008	Cilazapril 500microgram tablets
+318923005	Cilazapril 5mg tablets
+21676211000001105	Cilazapril 5mg tablets (A A H Pharmaceuticals Ltd)
+23997011000001100	Cilazapril 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+30029911000001108	Cilazapril 5mg tablets (DE Pharmaceuticals)
+30769211000001105	Cilazapril 5mg tablets (Ennogen Healthcare Ltd)
+21304711000001108	Cilazapril 5mg tablets (Genesis Pharmaceuticals Ltd)
+31356011000001106	Cilazapril 5mg tablets (J M McGill Ltd)
+23647711000001108	Cilazapril 5mg tablets (Phoenix Healthcare Distribution Ltd)
+29787511000001100	Cilazapril 5mg tablets (Sigma Pharmaceuticals Plc)
+768076005	Cilazapril in oral dosage form
+18571311000001105	Coversyl Arginine 10mg tablets (DE Pharmaceuticals)
+16153911000001108	Coversyl Arginine 10mg tablets (Lexon (UK) Ltd)
+16521611000001109	Coversyl Arginine 10mg tablets (Mawdsley-Brooks & Company Ltd)
+13444611000001109	Coversyl Arginine 10mg tablets (Servier Laboratories Ltd)
+17536611000001101	Coversyl Arginine 10mg tablets (Sigma Pharmaceuticals Plc)
+15417011000001106	Coversyl Arginine 10mg tablets (Waymade Healthcare Plc)
+13445211000001108	Coversyl Arginine 2.5mg tablets (Servier Laboratories Ltd)
+19720911000001102	Coversyl Arginine 5mg tablets (DE Pharmaceuticals)
+16160511000001100	Coversyl Arginine 5mg tablets (Lexon (UK) Ltd)
+19721111000001106	Coversyl Arginine 5mg tablets (Mawdsley-Brooks & Company Ltd)
+13444911000001103	Coversyl Arginine 5mg tablets (Servier Laboratories Ltd)
+14209511000001103	Coversyl Arginine 5mg tablets (Sigma Pharmaceuticals Plc)
+15416811000001102	Coversyl Arginine 5mg tablets (Waymade Healthcare Plc)
+18571111000001108	Coversyl Arginine Plus 5mg/1.25mg tablets (DE Pharmaceuticals)
+16521811000001108	Coversyl Arginine Plus 5mg/1.25mg tablets (Mawdsley-Brooks & Company Ltd)
+18225711000001102	Coversyl Arginine Plus 5mg/1.25mg tablets (Necessity Supplies Ltd)
+13444311000001104	Coversyl Arginine Plus 5mg/1.25mg tablets (Servier Laboratories Ltd)
+18743311000001109	Coversyl Arginine Plus 5mg/1.25mg tablets (Sigma Pharmaceuticals Plc)
+13939711000001103	Coversyl Arginine Plus 5mg/1.25mg tablets (Waymade Healthcare Plc)
+13108211000001105	Coversyl Plus tablets (Dowelhurst Ltd)
+562511000001109	Coversyl Plus tablets (Servier Laboratories Ltd)
+12198011000001107	Coversyl Plus tablets (Waymade Healthcare Plc)
+18037611000001109	Co-zidocapt
+318806002	Co-zidocapt 12.5mg/25mg tablets
+7492911000001107	Co-zidocapt 12.5mg/25mg tablets (A A H Pharmaceuticals Ltd)
+207311000001109	Co-zidocapt 12.5mg/25mg tablets (Alliance Healthcare (Distribution) Ltd)
+5470311000001103	Co-zidocapt 12.5mg/25mg tablets (Kent Pharmaceuticals Ltd)
+765211000001102	Co-zidocapt 12.5mg/25mg tablets (Sandoz Ltd)
+13747011000001101	Co-zidocapt 12.5mg/25mg tablets (Tillomed Laboratories Ltd)
+318807006	Co-zidocapt 25mg/50mg tablets
+642211000001105	Co-zidocapt 25mg/50mg tablets (A A H Pharmaceuticals Ltd)
+614011000001103	Co-zidocapt 25mg/50mg tablets (Alliance Healthcare (Distribution) Ltd)
+5470811000001107	Co-zidocapt 25mg/50mg tablets (Kent Pharmaceuticals Ltd)
+307811000001106	Co-zidocapt 25mg/50mg tablets (Sandoz Ltd)
+13747211000001106	Co-zidocapt 25mg/50mg tablets (Tillomed Laboratories Ltd)
+768114001	Diltiazem and enalapril in oral dosage form
+768113007	Diltiazem and enalapril product
+377353009	Diltiazem malate 219 mg and enalapril maleate 5 mg oral tablet
+221411000001104	Ecopace 12.5mg tablets (Advanz Pharma)
+817411000001108	Ecopace 25mg tablets (Advanz Pharma)
+767911000001101	Ecopace 50mg tablets (Advanz Pharma)
+422016001	Enalapril + Hydrochlorothiazide
+8485511000001103	Enalapril 1.25mg/5ml oral solution
+8458611000001101	Enalapril 1.25mg/5ml oral solution (Special Order)
+8485611000001104	Enalapril 1.25mg/5ml oral suspension
+8459111000001102	Enalapril 1.25mg/5ml oral suspension (Drug Tariff Special Order)
+12085111000001108	Enalapril 1.2mg/5ml oral solution
+12073111000001103	Enalapril 1.2mg/5ml oral solution (Special Order)
+12085211000001102	Enalapril 1.2mg/5ml oral suspension
+12072511000001100	Enalapril 1.2mg/5ml oral suspension (Special Order)
+12085311000001105	Enalapril 1.5mg/5ml oral solution
+12073711000001102	Enalapril 1.5mg/5ml oral solution (Special Order)
+12085411000001103	Enalapril 1.5mg/5ml oral suspension
+12073411000001108	Enalapril 1.5mg/5ml oral suspension (Special Order)
+318853004	Enalapril 10mg tablets
+225811000001104	Enalapril 10mg tablets (A A H Pharmaceuticals Ltd)
+23483911000001108	Enalapril 10mg tablets (Accord Healthcare Ltd)
+676011000001102	Enalapril 10mg tablets (Actavis UK Ltd)
+688811000001104	Enalapril 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+9794411000001107	Enalapril 10mg tablets (Almus Pharmaceuticals Ltd)
+10405811000001102	Enalapril 10mg tablets (Arrow Generics Ltd)
+36609411000001107	Enalapril 10mg tablets (Bristol Laboratories Ltd)
+23881511000001106	Enalapril 10mg tablets (DE Pharmaceuticals)
+11554111000001100	Enalapril 10mg tablets (Dexcel-Pharma Ltd)
+5506311000001102	Enalapril 10mg tablets (Dowelhurst Ltd)
+414411000001109	Enalapril 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+127311000001103	Enalapril 10mg tablets (Kent Pharmaceuticals Ltd)
+30125011000001101	Enalapril 10mg tablets (Mawdsley-Brooks & Company Ltd)
+19727511000001108	Enalapril 10mg tablets (Medreich Plc)
+19191011000001106	Enalapril 10mg tablets (Milpharm Ltd)
+401711000001103	Enalapril 10mg tablets (Mylan)
+36739811000001106	Enalapril 10mg tablets (Noumed Life Sciences Ltd)
+17901611000001106	Enalapril 10mg tablets (Phoenix Healthcare Distribution Ltd)
+5625211000001101	Enalapril 10mg tablets (Ranbaxy (UK) Ltd)
+450811000001105	Enalapril 10mg tablets (Sandoz Ltd)
+29848511000001106	Enalapril 10mg tablets (Sigma Pharmaceuticals Plc)
+115211000001105	Enalapril 10mg tablets (Teva UK Ltd)
+13749911000001109	Enalapril 10mg tablets (Tillomed Laboratories Ltd)
+21934511000001104	Enalapril 10mg tablets (Waymade Healthcare Plc)
+15969311000001102	Enalapril 10mg tablets (Zanza Specials International Ltd)
+104511000001109	Enalapril 10mg tablets (Zentiva)
+8485711000001108	Enalapril 10mg/5ml oral solution
+8460311000001104	Enalapril 10mg/5ml oral solution (Special Order)
+8485811000001100	Enalapril 10mg/5ml oral suspension
+8461811000001100	Enalapril 10mg/5ml oral suspension (Drug Tariff Special Order)
+12085511000001104	Enalapril 12.5mg/5ml oral solution
+12074311000001104	Enalapril 12.5mg/5ml oral solution (Special Order)
+12085611000001100	Enalapril 12.5mg/5ml oral suspension
+12074011000001102	Enalapril 12.5mg/5ml oral suspension (Special Order)
+8486011000001102	Enalapril 15mg/5ml oral solution
+8459711000001101	Enalapril 15mg/5ml oral solution (Special Order)
+8486111000001101	Enalapril 15mg/5ml oral suspension
+8460511000001105	Enalapril 15mg/5ml oral suspension (Special Order)
+12085711000001109	Enalapril 1mg/5ml oral solution
+12074911000001103	Enalapril 1mg/5ml oral solution (Special Order)
+12085811000001101	Enalapril 1mg/5ml oral suspension
+12074611000001109	Enalapril 1mg/5ml oral suspension (Special Order)
+318850001	Enalapril 2.5mg tablets
+4811000001104	Enalapril 2.5mg tablets (A A H Pharmaceuticals Ltd)
+792211000001109	Enalapril 2.5mg tablets (Actavis UK Ltd)
+289711000001101	Enalapril 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+9793911000001101	Enalapril 2.5mg tablets (Almus Pharmaceuticals Ltd)
+10405411000001104	Enalapril 2.5mg tablets (Arrow Generics Ltd)
+23881711000001101	Enalapril 2.5mg tablets (DE Pharmaceuticals)
+11553711000001101	Enalapril 2.5mg tablets (Dexcel-Pharma Ltd)
+456011000001101	Enalapril 2.5mg tablets (IVAX Pharmaceuticals UK Ltd)
+773011000001102	Enalapril 2.5mg tablets (Kent Pharmaceuticals Ltd)
+19190611000001109	Enalapril 2.5mg tablets (Milpharm Ltd)
+488511000001104	Enalapril 2.5mg tablets (Mylan)
+17901211000001109	Enalapril 2.5mg tablets (Phoenix Healthcare Distribution Ltd)
+5624811000001101	Enalapril 2.5mg tablets (Ranbaxy (UK) Ltd)
+395411000001101	Enalapril 2.5mg tablets (Sandoz Ltd)
+29848711000001101	Enalapril 2.5mg tablets (Sigma Pharmaceuticals Plc)
+795111000001105	Enalapril 2.5mg tablets (Teva UK Ltd)
+13749511000001102	Enalapril 2.5mg tablets (Tillomed Laboratories Ltd)
+21934111000001108	Enalapril 2.5mg tablets (Waymade Healthcare Plc)
+15970011000001102	Enalapril 2.5mg tablets (Zanza Specials International Ltd)
+102611000001100	Enalapril 2.5mg tablets (Zentiva)
+8486211000001107	Enalapril 2.5mg/5ml oral solution
+8461511000001103	Enalapril 2.5mg/5ml oral solution (Special Order)
+8489611000001101	Enalapril 2.5mg/5ml oral suspension
+8462111000001102	Enalapril 2.5mg/5ml oral suspension (Special Order)
+318849001	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets
+9253411000001107	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)
+7846711000001109	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+23973711000001103	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (DE Pharmaceuticals)
+30124611000001107	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+33586411000001104	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Mylan)
+17901011000001104	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Phoenix Healthcare Distribution Ltd)
+4473011000001102	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Sandoz Ltd)
+29849111000001109	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Sigma Pharmaceuticals Plc)
+18743911000001105	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Teva UK Ltd)
+13750511000001108	Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Tillomed Laboratories Ltd)
+318855006	Enalapril 20mg tablets
+526511000001100	Enalapril 20mg tablets (A A H Pharmaceuticals Ltd)
+665211000001105	Enalapril 20mg tablets (Actavis UK Ltd)
+367611000001108	Enalapril 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+9794611000001105	Enalapril 20mg tablets (Almus Pharmaceuticals Ltd)
+10406011000001104	Enalapril 20mg tablets (Arrow Generics Ltd)
+36610011000001109	Enalapril 20mg tablets (Bristol Laboratories Ltd)
+23973911000001101	Enalapril 20mg tablets (DE Pharmaceuticals)
+11554311000001103	Enalapril 20mg tablets (Dexcel-Pharma Ltd)
+5506711000001103	Enalapril 20mg tablets (Dowelhurst Ltd)
+381411000001100	Enalapril 20mg tablets (IVAX Pharmaceuticals UK Ltd)
+233511000001103	Enalapril 20mg tablets (Kent Pharmaceuticals Ltd)
+30125211000001106	Enalapril 20mg tablets (Mawdsley-Brooks & Company Ltd)
+19727711000001103	Enalapril 20mg tablets (Medreich Plc)
+19191211000001101	Enalapril 20mg tablets (Milpharm Ltd)
+923711000001107	Enalapril 20mg tablets (Mylan)
+36740411000001103	Enalapril 20mg tablets (Noumed Life Sciences Ltd)
+17901811000001105	Enalapril 20mg tablets (Phoenix Healthcare Distribution Ltd)
+5625411000001102	Enalapril 20mg tablets (Ranbaxy (UK) Ltd)
+728411000001104	Enalapril 20mg tablets (Sandoz Ltd)
+695511000001106	Enalapril 20mg tablets (Teva UK Ltd)
+13750211000001105	Enalapril 20mg tablets (Tillomed Laboratories Ltd)
+21934711000001109	Enalapril 20mg tablets (Waymade Healthcare Plc)
+15969611000001107	Enalapril 20mg tablets (Zanza Specials International Ltd)
+346311000001105	Enalapril 20mg tablets (Zentiva)
+8486511000001105	Enalapril 20mg/5ml oral solution
+8462411000001107	Enalapril 20mg/5ml oral solution (Special Order)
+8486611000001109	Enalapril 20mg/5ml oral suspension
+8463111000001108	Enalapril 20mg/5ml oral suspension (Special Order)
+12085911000001106	Enalapril 25mg/5ml oral solution
+12076511000001104	Enalapril 25mg/5ml oral solution (Special Order)
+12086011000001103	Enalapril 25mg/5ml oral suspension
+12075611000001105	Enalapril 25mg/5ml oral suspension (Special Order)
+12086111000001102	Enalapril 2mg/5ml oral solution
+12077411000001101	Enalapril 2mg/5ml oral solution (Special Order)
+12086211000001108	Enalapril 2mg/5ml oral suspension
+12077111000001106	Enalapril 2mg/5ml oral suspension (Special Order)
+12086311000001100	Enalapril 3.5mg/5ml oral solution
+12078011000001106	Enalapril 3.5mg/5ml oral solution (Special Order)
+12086411000001107	Enalapril 3.5mg/5ml oral suspension
+12077711000001107	Enalapril 3.5mg/5ml oral suspension (Special Order)
+12292611000001104	Enalapril 3.75mg/5ml oral solution
+12251011000001109	Enalapril 3.75mg/5ml oral solution (Special Order)
+12292711000001108	Enalapril 3.75mg/5ml oral suspension
+12250611000001107	Enalapril 3.75mg/5ml oral suspension (Special Order)
+12292811000001100	Enalapril 3mg/5ml oral solution
+12252011000001101	Enalapril 3mg/5ml oral solution (Special Order)
+12292911000001105	Enalapril 3mg/5ml oral suspension
+12251311000001107	Enalapril 3mg/5ml oral suspension (Special Order)
+12293011000001102	Enalapril 40mg/5ml oral solution
+12252911000001102	Enalapril 40mg/5ml oral solution (Special Order)
+12293111000001101	Enalapril 40mg/5ml oral suspension
+12252411000001105	Enalapril 40mg/5ml oral suspension (Special Order)
+8486711000001100	Enalapril 4mg/5ml oral solution
+8462711000001101	Enalapril 4mg/5ml oral solution (Special Order)
+8486811000001108	Enalapril 4mg/5ml oral suspension
+8463611000001100	Enalapril 4mg/5ml oral suspension (Special Order)
+12293211000001107	Enalapril 500micrograms/5ml oral solution
+12253711000001107	Enalapril 500micrograms/5ml oral solution (Special Order)
+12293311000001104	Enalapril 500micrograms/5ml oral suspension
+12253311000001108	Enalapril 500micrograms/5ml oral suspension (Special Order)
+318851002	Enalapril 5mg tablets
+26111000001109	Enalapril 5mg tablets (A A H Pharmaceuticals Ltd)
+21282011000001108	Enalapril 5mg tablets (Accord Healthcare Ltd)
+92211000001108	Enalapril 5mg tablets (Actavis UK Ltd)
+936511000001107	Enalapril 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+9794111000001102	Enalapril 5mg tablets (Almus Pharmaceuticals Ltd)
+10405611000001101	Enalapril 5mg tablets (Arrow Generics Ltd)
+23881911000001104	Enalapril 5mg tablets (DE Pharmaceuticals)
+11553911000001104	Enalapril 5mg tablets (Dexcel-Pharma Ltd)
+856011000001106	Enalapril 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+50211000001104	Enalapril 5mg tablets (Kent Pharmaceuticals Ltd)
+30124811000001106	Enalapril 5mg tablets (Mawdsley-Brooks & Company Ltd)
+19727011000001100	Enalapril 5mg tablets (Medreich Plc)
+19190811000001108	Enalapril 5mg tablets (Milpharm Ltd)
+766411000001107	Enalapril 5mg tablets (Mylan)
+36739211000001105	Enalapril 5mg tablets (Noumed Life Sciences Ltd)
+17901411000001108	Enalapril 5mg tablets (Phoenix Healthcare Distribution Ltd)
+5625011000001106	Enalapril 5mg tablets (Ranbaxy (UK) Ltd)
+51511000001108	Enalapril 5mg tablets (Sandoz Ltd)
+29848911000001104	Enalapril 5mg tablets (Sigma Pharmaceuticals Plc)
+319411000001102	Enalapril 5mg tablets (Teva UK Ltd)
+13749711000001107	Enalapril 5mg tablets (Tillomed Laboratories Ltd)
+21934311000001105	Enalapril 5mg tablets (Waymade Healthcare Plc)
+15970611000001109	Enalapril 5mg tablets (Zanza Specials International Ltd)
+259111000001109	Enalapril 5mg tablets (Zentiva)
+8486911000001103	Enalapril 5mg/5ml oral solution
+8463911000001106	Enalapril 5mg/5ml oral solution (Drug Tariff Special Order)
+8487011000001104	Enalapril 5mg/5ml oral suspension
+8464211000001104	Enalapril 5mg/5ml oral suspension (Drug Tariff Special Order)
+20092911000001108	Enalapril 5mg/5ml oral suspension sugar free
+20093211000001105	Enalapril 5mg/5ml oral suspension sugar free (Special Order)
+12293411000001106	Enalapril 600micrograms/5ml oral solution
+12254811000001101	Enalapril 600micrograms/5ml oral solution (Special Order)
+12293511000001105	Enalapril 600micrograms/5ml oral suspension
+12254311000001105	Enalapril 600micrograms/5ml oral suspension (Special Order)
+12293611000001109	Enalapril 7.5mg/5ml oral solution
+12255911000001105	Enalapril 7.5mg/5ml oral solution (Special Order)
+12293711000001100	Enalapril 7.5mg/5ml oral suspension
+12255411000001102	Enalapril 7.5mg/5ml oral suspension (Special Order)
+12293811000001108	Enalapril 7mg/5ml oral solution
+12256611000001109	Enalapril 7mg/5ml oral solution (Special Order)
+12293911000001103	Enalapril 7mg/5ml oral suspension
+12256311000001104	Enalapril 7mg/5ml oral suspension (Special Order)
+12294011000001100	Enalapril 8mg/5ml oral solution
+12257711000001102	Enalapril 8mg/5ml oral solution (Special Order)
+12294111000001104	Enalapril 8mg/5ml oral suspension
+12256911000001103	Enalapril 8mg/5ml oral suspension (Special Order)
+768140007	Enalapril and hydrochlorothiazide in oral dosage form
+714571001	Enalapril in oral dosage form
+377369002	Enalapril maleate 10 mg and hydrochlorothiazide 25 mg oral tablet
+377370001	Enalapril maleate 5 mg and hydrochlorothiazide 12.5 mg oral tablet
+318173007	Felodipine + Ramipril
+318176004	Felodipine 2.5mg modified-release / Ramipril 2.5mg tablets
+318177008	Felodipine 5mg modified-release / Ramipril 5mg tablets
+767989004	Felodipine and ramipril in oral dosage form
+409458001	Fosinopril 10 mg and hydrochlorothiazide 12.5 mg oral tablet
+318909008	Fosinopril 10mg tablets
+9474311000001101	Fosinopril 10mg tablets (A A H Pharmaceuticals Ltd)
+9445411000001105	Fosinopril 10mg tablets (Actavis UK Ltd)
+9499611000001103	Fosinopril 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+13765611000001105	Fosinopril 10mg tablets (Apotex UK Ltd)
+10435511000001108	Fosinopril 10mg tablets (Arrow Generics Ltd)
+20925711000001102	Fosinopril 10mg tablets (Aurobindo Pharma Ltd)
+23981411000001102	Fosinopril 10mg tablets (DE Pharmaceuticals)
+5460311000001105	Fosinopril 10mg tablets (Dowelhurst Ltd)
+10294511000001103	Fosinopril 10mg tablets (Focus Pharmaceuticals Ltd)
+9457011000001105	Fosinopril 10mg tablets (Kent Pharmaceuticals Ltd)
+37078211000001101	Fosinopril 10mg tablets (Mawdsley-Brooks & Company Ltd)
+9554711000001108	Fosinopril 10mg tablets (Mylan)
+5367111000001104	Fosinopril 10mg tablets (PI) (Waymade Healthcare Plc)
+9471311000001104	Fosinopril 10mg tablets (Sandoz Ltd)
+15089111000001108	Fosinopril 10mg tablets (Sigma Pharmaceuticals Plc)
+9450311000001107	Fosinopril 10mg tablets (Teva UK Ltd)
+22018011000001101	Fosinopril 10mg tablets (Waymade Healthcare Plc)
+9448711000001106	Fosinopril 10mg tablets (Zentiva)
+409459009	Fosinopril 20 mg and hydrochlorothiazide 12.5 mg oral tablet
+318910003	Fosinopril 20mg tablets
+9474511000001107	Fosinopril 20mg tablets (A A H Pharmaceuticals Ltd)
+9445611000001108	Fosinopril 20mg tablets (Actavis UK Ltd)
+9500311000001107	Fosinopril 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+13765811000001109	Fosinopril 20mg tablets (Apotex UK Ltd)
+10435711000001103	Fosinopril 20mg tablets (Arrow Generics Ltd)
+20937311000001107	Fosinopril 20mg tablets (Aurobindo Pharma Ltd)
+23981611000001104	Fosinopril 20mg tablets (DE Pharmaceuticals)
+5462411000001102	Fosinopril 20mg tablets (Dowelhurst Ltd)
+10294711000001108	Fosinopril 20mg tablets (Focus Pharmaceuticals Ltd)
+9457311000001108	Fosinopril 20mg tablets (Kent Pharmaceuticals Ltd)
+37078911000001105	Fosinopril 20mg tablets (Mawdsley-Brooks & Company Ltd)
+9554911000001105	Fosinopril 20mg tablets (Mylan)
+9471511000001105	Fosinopril 20mg tablets (Sandoz Ltd)
+15209611000001107	Fosinopril 20mg tablets (Sigma Pharmaceuticals Plc)
+9450511000001101	Fosinopril 20mg tablets (Teva UK Ltd)
+5367611000001107	Fosinopril 20mg tablets (Waymade Healthcare Plc)
+9448911000001108	Fosinopril 20mg tablets (Zentiva)
+12034611000001106	Fosinopril 20mg/5ml oral solution
+12006711000001102	Fosinopril 20mg/5ml oral solution (Special Order)
+12034711000001102	Fosinopril 20mg/5ml oral suspension
+12006411000001108	Fosinopril 20mg/5ml oral suspension (Special Order)
+768398009	Fosinopril and hydrochlorothiazide in oral dosage form
+768390002	Fosinopril in oral dosage form
+376699008	Fosinopril sodium 40 mg oral tablet
+409457006	Fosinopril+hydrochlorothiazide
+3464011000001105	Generic Tritace titration pack capsules
+13610111000001104	Generic Tritace titration pack tablets
+346811000001101	Gopten 1mg capsules (Abbott Laboratories Ltd)
+273111000001109	Gopten 2mg capsules (Abbott Laboratories Ltd)
+5549611000001105	Gopten 2mg capsules (Dowelhurst Ltd)
+16503411000001101	Gopten 2mg capsules (Mawdsley-Brooks & Company Ltd)
+18265711000001108	Gopten 2mg capsules (Necessity Supplies Ltd)
+5651611000001103	Gopten 4mg capsules (Abbott Laboratories Ltd)
+21501511000001103	Gopten 4mg capsules (Waymade Healthcare Plc)
+253511000001102	Gopten 500microgram capsules (Abbott Laboratories Ltd)
+5548711000001105	Gopten 500microgram capsules (Dowelhurst Ltd)
+5372611000001104	Gopten 500microgram capsules (Waymade Healthcare Plc)
+377478007	Hydrochlorothiazide 12.5 mg and quinapril hydrochloride 20 mg oral tablet
+377469001	Hydrochlorothiazide 25 mg and lisinopril 20 mg oral tablet
+377479004	Hydrochlorothiazide 25 mg and quinapril hydrochloride 20 mg oral tablet
+768859007	Hydrochlorothiazide and lisinopril in oral dosage form
+768861003	Hydrochlorothiazide and moexipril in oral dosage form
+768860002	Hydrochlorothiazide and moexipril product
+768233000	Hydrochlorothiazide and quinapril in oral dosage form
+318944005	Imidapril 10mg tablets
+318942009	Imidapril 20mg tablets
+318943004	Imidapril 5mg tablets
+768856000	Imidapril in oral dosage form
+5577711000001108	Innovace 10mg tablets (Dowelhurst Ltd)
+16514811000001103	Innovace 10mg tablets (Mawdsley-Brooks & Company Ltd)
+316111000001104	Innovace 10mg tablets (Merck Sharp & Dohme Ltd)
+10839011000001107	Innovace 10mg tablets (Waymade Healthcare Plc)
+749611000001107	Innovace 2.5mg tablets (Merck Sharp & Dohme Ltd)
+10505611000001108	Innovace 20mg tablets (Dowelhurst Ltd)
+16515311000001106	Innovace 20mg tablets (Mawdsley-Brooks & Company Ltd)
+302311000001104	Innovace 20mg tablets (Merck Sharp & Dohme Ltd)
+10767411000001102	Innovace 20mg tablets (Waymade Healthcare Plc)
+13916111000001102	Innovace 5mg tablets (DE Pharmaceuticals)
+10505311000001103	Innovace 5mg tablets (Dowelhurst Ltd)
+16514311000001107	Innovace 5mg tablets (Mawdsley-Brooks & Company Ltd)
+730211000001104	Innovace 5mg tablets (Merck Sharp & Dohme Ltd)
+10838811000001108	Innovace 5mg tablets (Waymade Healthcare Plc)
+16192711000001107	Innozide 20mg/12.5mg tablets (Lexon (UK) Ltd)
+16515811000001102	Innozide 20mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+146811000001108	Innozide 20mg/12.5mg tablets (Merck Sharp & Dohme Ltd)
+14254311000001103	Innozide 20mg/12.5mg tablets (Sigma Pharmaceuticals Plc)
+20562111000001105	Innozide 20mg/12.5mg tablets (Waymade Healthcare Plc)
+777711000001105	Kaplon 12.5mg tablets (Teva UK Ltd)
+477111000001100	Kaplon 25mg tablets (Teva UK Ltd)
+572511000001102	Kaplon 50mg tablets (Teva UK Ltd)
+8145711000001102	Lisicostad 10mg/12.5mg tablets (Genus Pharmaceuticals Ltd)
+8145911000001100	Lisicostad 20mg/12.5mg tablets (Genus Pharmaceuticals Ltd)
+398858004	Lisinopril + Hydrochlorothiazide
+318884002	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets
+7495011000001103	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)
+7513611000001102	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+13845511000001102	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Almus Pharmaceuticals Ltd)
+16061011000001108	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Bristol Laboratories Ltd)
+24366811000001102	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (DE Pharmaceuticals)
+7977211000001106	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Kent Pharmaceuticals Ltd)
+28168411000001108	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Lupin Healthcare (UK) Ltd)
+30221211000001106	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Mawdsley-Brooks & Company Ltd)
+17936611000001108	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Phoenix Healthcare Distribution Ltd)
+8171311000001102	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Sandoz Ltd)
+29892111000001105	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Sigma Pharmaceuticals Plc)
+7334711000001104	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Teva UK Ltd)
+13754611000001100	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Tillomed Laboratories Ltd)
+22071611000001106	Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Waymade Healthcare Plc)
+318859000	Lisinopril 10mg tablets
+532711000001109	Lisinopril 10mg tablets (A A H Pharmaceuticals Ltd)
+18463011000001106	Lisinopril 10mg tablets (Accord Healthcare Ltd)
+247511000001109	Lisinopril 10mg tablets (Actavis UK Ltd)
+912911000001107	Lisinopril 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+9810411000001104	Lisinopril 10mg tablets (Almus Pharmaceuticals Ltd)
+10386411000001100	Lisinopril 10mg tablets (Arrow Generics Ltd)
+35165411000001106	Lisinopril 10mg tablets (Aurobindo Pharma Ltd)
+16060611000001106	Lisinopril 10mg tablets (Bristol Laboratories Ltd)
+14123311000001103	Lisinopril 10mg tablets (Consilient Health Ltd)
+35392011000001101	Lisinopril 10mg tablets (Crescent Pharma Ltd)
+24367411000001102	Lisinopril 10mg tablets (DE Pharmaceuticals)
+5515611000001104	Lisinopril 10mg tablets (Dowelhurst Ltd)
+3695611000001101	Lisinopril 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+832711000001108	Lisinopril 10mg tablets (Kent Pharmaceuticals Ltd)
+27377611000001103	Lisinopril 10mg tablets (Lupin Healthcare (UK) Ltd)
+30221811000001107	Lisinopril 10mg tablets (Mawdsley-Brooks & Company Ltd)
+656411000001108	Lisinopril 10mg tablets (Mylan)
+17937411000001107	Lisinopril 10mg tablets (Phoenix Healthcare Distribution Ltd)
+872611000001102	Lisinopril 10mg tablets (Ranbaxy (UK) Ltd)
+10290011000001104	Lisinopril 10mg tablets (Relonchem Ltd)
+145811000001100	Lisinopril 10mg tablets (Sandoz Ltd)
+15107411000001103	Lisinopril 10mg tablets (Sigma Pharmaceuticals Plc)
+640511000001107	Lisinopril 10mg tablets (Teva UK Ltd)
+13754211000001102	Lisinopril 10mg tablets (Tillomed Laboratories Ltd)
+22072611000001100	Lisinopril 10mg tablets (Waymade Healthcare Plc)
+499711000001101	Lisinopril 10mg tablets (Zentiva)
+8621911000001101	Lisinopril 10mg/5ml oral solution
+8590911000001107	Lisinopril 10mg/5ml oral solution (Special Order)
+8622011000001108	Lisinopril 10mg/5ml oral suspension
+8591311000001101	Lisinopril 10mg/5ml oral suspension (Special Order)
+15880311000001102	Lisinopril 14mg/5ml oral solution
+15879311000001102	Lisinopril 14mg/5ml oral solution (Special Order)
+15880411000001109	Lisinopril 14mg/5ml oral suspension
+15879611000001107	Lisinopril 14mg/5ml oral suspension (Special Order)
+12760911000001102	Lisinopril 15mg/5ml oral solution
+12734311000001104	Lisinopril 15mg/5ml oral solution (Special Order)
+12761011000001105	Lisinopril 15mg/5ml oral suspension
+12733911000001100	Lisinopril 15mg/5ml oral suspension (Special Order)
+318857003	Lisinopril 2.5mg tablets
+874311000001100	Lisinopril 2.5mg tablets (A A H Pharmaceuticals Ltd)
+460011000001108	Lisinopril 2.5mg tablets (Actavis UK Ltd)
+337211000001101	Lisinopril 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+9809811000001108	Lisinopril 2.5mg tablets (Almus Pharmaceuticals Ltd)
+10385711000001103	Lisinopril 2.5mg tablets (Arrow Generics Ltd)
+16060211000001109	Lisinopril 2.5mg tablets (Bristol Laboratories Ltd)
+14122911000001109	Lisinopril 2.5mg tablets (Consilient Health Ltd)
+35391311000001107	Lisinopril 2.5mg tablets (Crescent Pharma Ltd)
+24368011000001107	Lisinopril 2.5mg tablets (DE Pharmaceuticals)
+5515711000001108	Lisinopril 2.5mg tablets (Dowelhurst Ltd)
+3695211000001103	Lisinopril 2.5mg tablets (IVAX Pharmaceuticals UK Ltd)
+709811000001102	Lisinopril 2.5mg tablets (Kent Pharmaceuticals Ltd)
+27377211000001100	Lisinopril 2.5mg tablets (Lupin Healthcare (UK) Ltd)
+30221411000001105	Lisinopril 2.5mg tablets (Mawdsley-Brooks & Company Ltd)
+5253711000001106	Lisinopril 2.5mg tablets (Mylan)
+17937011000001103	Lisinopril 2.5mg tablets (Phoenix Healthcare Distribution Ltd)
+96611000001106	Lisinopril 2.5mg tablets (Ranbaxy (UK) Ltd)
+10290411000001108	Lisinopril 2.5mg tablets (Relonchem Ltd)
+877611000001104	Lisinopril 2.5mg tablets (Sandoz Ltd)
+15107611000001100	Lisinopril 2.5mg tablets (Sigma Pharmaceuticals Plc)
+60211000001105	Lisinopril 2.5mg tablets (Teva UK Ltd)
+22072211000001102	Lisinopril 2.5mg tablets (Waymade Healthcare Plc)
+461611000001106	Lisinopril 2.5mg tablets (Zentiva)
+8622111000001109	Lisinopril 2.5mg/5ml oral solution
+8591911000001100	Lisinopril 2.5mg/5ml oral solution (Special Order)
+8622211000001103	Lisinopril 2.5mg/5ml oral suspension
+8592211000001102	Lisinopril 2.5mg/5ml oral suspension (Special Order)
+318880006	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets
+7495911000001104	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)
+7513811000001103	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+13845711000001107	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Almus Pharmaceuticals Ltd)
+16061211000001103	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Bristol Laboratories Ltd)
+24367111000001107	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (DE Pharmaceuticals)
+7977511000001109	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Kent Pharmaceuticals Ltd)
+27475211000001104	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Lupin Healthcare (UK) Ltd)
+9089111000001103	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Mylan)
+17936811000001107	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Phoenix Healthcare Distribution Ltd)
+8171711000001103	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Sandoz Ltd)
+29891911000001102	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Sigma Pharmaceuticals Plc)
+7334911000001102	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Teva UK Ltd)
+13754811000001101	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Tillomed Laboratories Ltd)
+22071811000001105	Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Waymade Healthcare Plc)
+318860005	Lisinopril 20mg tablets
+668811000001102	Lisinopril 20mg tablets (A A H Pharmaceuticals Ltd)
+18463211000001101	Lisinopril 20mg tablets (Accord Healthcare Ltd)
+460111000001109	Lisinopril 20mg tablets (Actavis UK Ltd)
+580411000001107	Lisinopril 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+9810811000001102	Lisinopril 20mg tablets (Almus Pharmaceuticals Ltd)
+10386911000001108	Lisinopril 20mg tablets (Arrow Generics Ltd)
+35165611000001109	Lisinopril 20mg tablets (Aurobindo Pharma Ltd)
+16060811000001105	Lisinopril 20mg tablets (Bristol Laboratories Ltd)
+14123511000001109	Lisinopril 20mg tablets (Consilient Health Ltd)
+35392311000001103	Lisinopril 20mg tablets (Crescent Pharma Ltd)
+24368611000001100	Lisinopril 20mg tablets (DE Pharmaceuticals)
+5516511000001105	Lisinopril 20mg tablets (Dowelhurst Ltd)
+3695811000001102	Lisinopril 20mg tablets (IVAX Pharmaceuticals UK Ltd)
+607011000001108	Lisinopril 20mg tablets (Kent Pharmaceuticals Ltd)
+27377811000001104	Lisinopril 20mg tablets (Lupin Healthcare (UK) Ltd)
+30222011000001109	Lisinopril 20mg tablets (Mawdsley-Brooks & Company Ltd)
+576511000001101	Lisinopril 20mg tablets (Mylan)
+17937611000001105	Lisinopril 20mg tablets (Phoenix Healthcare Distribution Ltd)
+155311000001107	Lisinopril 20mg tablets (Ranbaxy (UK) Ltd)
+10291011000001108	Lisinopril 20mg tablets (Relonchem Ltd)
+637111000001101	Lisinopril 20mg tablets (Sandoz Ltd)
+15107811000001101	Lisinopril 20mg tablets (Sigma Pharmaceuticals Plc)
+487411000001102	Lisinopril 20mg tablets (Teva UK Ltd)
+13754411000001103	Lisinopril 20mg tablets (Tillomed Laboratories Ltd)
+22072811000001101	Lisinopril 20mg tablets (Waymade Healthcare Plc)
+360711000001100	Lisinopril 20mg tablets (Zentiva)
+8622311000001106	Lisinopril 20mg/5ml oral solution
+8592811000001101	Lisinopril 20mg/5ml oral solution (Drug Tariff Special Order)
+8622411000001104	Lisinopril 20mg/5ml oral suspension
+8593411000001107	Lisinopril 20mg/5ml oral suspension (Drug Tariff Special Order)
+374040006	Lisinopril 30 mg oral tablet
+12761111000001106	Lisinopril 30mg/5ml oral solution
+12735911000001104	Lisinopril 30mg/5ml oral solution (Special Order)
+12761211000001100	Lisinopril 30mg/5ml oral suspension
+12735011000001103	Lisinopril 30mg/5ml oral suspension (Special Order)
+14014711000001100	Lisinopril 37.5mg/5ml oral solution
+13976211000001104	Lisinopril 37.5mg/5ml oral solution (Special Order)
+14014811000001108	Lisinopril 37.5mg/5ml oral suspension
+13976511000001101	Lisinopril 37.5mg/5ml oral suspension (Special Order)
+376772000	Lisinopril 40 mg oral tablet
+20556011000001103	Lisinopril 40mg/5ml oral suspension
+20549611000001104	Lisinopril 40mg/5ml oral suspension (Special Order)
+12761311000001108	Lisinopril 500micrograms/5ml oral solution
+12736911000001106	Lisinopril 500micrograms/5ml oral solution (Special Order)
+12761411000001101	Lisinopril 500micrograms/5ml oral suspension
+12736511000001104	Lisinopril 500micrograms/5ml oral suspension (Special Order)
+318858008	Lisinopril 5mg tablets
+18111000001103	Lisinopril 5mg tablets (A A H Pharmaceuticals Ltd)
+18463411000001102	Lisinopril 5mg tablets (Accord Healthcare Ltd)
+34511000001109	Lisinopril 5mg tablets (Actavis UK Ltd)
+72111000001106	Lisinopril 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+9810211000001103	Lisinopril 5mg tablets (Almus Pharmaceuticals Ltd)
+10386011000001109	Lisinopril 5mg tablets (Arrow Generics Ltd)
+35165211000001107	Lisinopril 5mg tablets (Aurobindo Pharma Ltd)
+16060411000001108	Lisinopril 5mg tablets (Bristol Laboratories Ltd)
+14123111000001100	Lisinopril 5mg tablets (Consilient Health Ltd)
+35391711000001106	Lisinopril 5mg tablets (Crescent Pharma Ltd)
+24368811000001101	Lisinopril 5mg tablets (DE Pharmaceuticals)
+5516711000001100	Lisinopril 5mg tablets (Dowelhurst Ltd)
+3695411000001104	Lisinopril 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+561911000001108	Lisinopril 5mg tablets (Kent Pharmaceuticals Ltd)
+27377411000001101	Lisinopril 5mg tablets (Lupin Healthcare (UK) Ltd)
+30221611000001108	Lisinopril 5mg tablets (Mawdsley-Brooks & Company Ltd)
+35611000001109	Lisinopril 5mg tablets (Mylan)
+17937211000001108	Lisinopril 5mg tablets (Phoenix Healthcare Distribution Ltd)
+854811000001107	Lisinopril 5mg tablets (Ranbaxy (UK) Ltd)
+10291711000001105	Lisinopril 5mg tablets (Relonchem Ltd)
+683211000001108	Lisinopril 5mg tablets (Sandoz Ltd)
+15108011000001108	Lisinopril 5mg tablets (Sigma Pharmaceuticals Plc)
+528611000001100	Lisinopril 5mg tablets (Teva UK Ltd)
+13754011000001107	Lisinopril 5mg tablets (Tillomed Laboratories Ltd)
+22072411000001103	Lisinopril 5mg tablets (Waymade Healthcare Plc)
+574111000001103	Lisinopril 5mg tablets (Zentiva)
+8622511000001100	Lisinopril 5mg/5ml oral solution
+8593711000001101	Lisinopril 5mg/5ml oral solution (Special Order)
+30251811000001106	Lisinopril 5mg/5ml oral solution sugar free
+30987911000001102	Lisinopril 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+30801411000001106	Lisinopril 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+30223811000001106	Lisinopril 5mg/5ml oral solution sugar free (Essential Pharmaceuticals Ltd)
+8622611000001101	Lisinopril 5mg/5ml oral suspension
+8594211000001106	Lisinopril 5mg/5ml oral suspension (Special Order)
+8622811000001102	Lisinopril 7.5mg/5ml oral solution
+8592511000001104	Lisinopril 7.5mg/5ml oral solution (Special Order)
+8622911000001107	Lisinopril 7.5mg/5ml oral suspension
+8593111000001102	Lisinopril 7.5mg/5ml oral suspension (Special Order)
+768857009	Lisinopril in oral dosage form
+7314811000001102	Lisopress 10mg tablets (Teva UK Ltd)
+7314011000001108	Lisopress 2.5mg tablets (Teva UK Ltd)
+7315011000001107	Lisopress 20mg tablets (Teva UK Ltd)
+7314511000001100	Lisopress 5mg tablets (Teva UK Ltd)
+7949111000001105	Lopace 10mg capsules (Discovery Pharmaceuticals)
+7948711000001102	Lopace 2.5mg capsules (Discovery Pharmaceuticals)
+7948911000001100	Lopace 5mg capsules (Discovery Pharmaceuticals)
+318935009	Moexipril 15mg tablets
+318934008	Moexipril 7.5mg tablets
+410903007	Moexipril hydrochloride 15 mg and hydrochlorothiazide 12.5 mg oral tablet
+410904001	Moexipril hydrochloride 15 mg and hydrochlorothiazide 25 mg oral tablet
+410902002	Moexipril hydrochloride 7.5 mg and hydrochlorothiazide 12.5 mg oral tablet
+768855001	Moexipril in oral dosage form
+23681711000001107	Noyada 25mg/5ml oral solution (Martindale Pharmaceuticals Ltd)
+23682011000001102	Noyada 5mg/5ml oral solution (Martindale Pharmaceuticals Ltd)
+432911000001102	Odrik 1mg capsules (Aventis Pharma)
+140511000001108	Odrik 2mg capsules (Aventis Pharma)
+227511000001106	Odrik 500microgram capsules (Aventis Pharma)
+4040311000001101	Perdix 15mg tablets (UCB Pharma Ltd)
+4041111000001109	Perdix 7.5mg tablets (UCB Pharma Ltd)
+13454111000001103	Perindopril arginine 10mg tablets
+13454211000001109	Perindopril arginine 2.5mg tablets
+13454311000001101	Perindopril arginine 5mg / Indapamide 1.25mg tablets
+13454411000001108	Perindopril arginine 5mg tablets
+13011211000001107	Perindopril erbumine 1mg/5ml oral solution
+12996511000001103	Perindopril erbumine 1mg/5ml oral solution (Special Order)
+13011311000001104	Perindopril erbumine 1mg/5ml oral suspension
+12995911000001103	Perindopril erbumine 1mg/5ml oral suspension (Special Order)
+16075011000001104	Perindopril erbumine 2mg oral powder sachets
+16046711000001106	Perindopril erbumine 2mg oral powder sachets (Special Order)
+8671211000001106	Perindopril erbumine 2mg/5ml oral suspension
+8646211000001104	Perindopril erbumine 2mg/5ml oral suspension (Special Order)
+32880611000001107	Perindopril erbumine 3mg/5ml oral solution
+32875411000001106	Perindopril erbumine 3mg/5ml oral solution (Special Order)
+23984911000001108	Perindopril erbumine 4mg / Amlodipine 10mg tablets
+24618911000001101	Perindopril erbumine 4mg / Amlodipine 10mg tablets (A A H Pharmaceuticals Ltd)
+24603311000001108	Perindopril erbumine 4mg / Amlodipine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+23972111000001105	Perindopril erbumine 4mg / Amlodipine 10mg tablets (Consilient Health Ltd)
+23985011000001108	Perindopril erbumine 4mg / Amlodipine 5mg tablets
+24618711000001103	Perindopril erbumine 4mg / Amlodipine 5mg tablets (A A H Pharmaceuticals Ltd)
+24603111000001106	Perindopril erbumine 4mg / Amlodipine 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+23971811000001107	Perindopril erbumine 4mg / Amlodipine 5mg tablets (Consilient Health Ltd)
+3437611000001100	Perindopril erbumine 4mg / Indapamide 1.25mg tablets
+18311211000001107	Perindopril erbumine 4mg / Indapamide 1.25mg tablets (A A H Pharmaceuticals Ltd)
+16641511000001101	Perindopril erbumine 4mg / Indapamide 1.25mg tablets (Alliance Healthcare (Distribution) Ltd)
+16083211000001102	Perindopril erbumine 4mg / Indapamide 1.25mg tablets (Ratiopharm UK Ltd)
+23471511000001106	Perindopril erbumine 4mg/5ml oral solution
+23395011000001104	Perindopril erbumine 4mg/5ml oral solution (Drug Tariff Special Order)
+8671311000001103	Perindopril erbumine 4mg/5ml oral suspension
+8647111000001108	Perindopril erbumine 4mg/5ml oral suspension (Drug Tariff Special Order)
+23985111000001109	Perindopril erbumine 8mg / Amlodipine 10mg tablets
+24619311000001108	Perindopril erbumine 8mg / Amlodipine 10mg tablets (A A H Pharmaceuticals Ltd)
+24603711000001107	Perindopril erbumine 8mg / Amlodipine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+23972411000001100	Perindopril erbumine 8mg / Amlodipine 10mg tablets (Consilient Health Ltd)
+23985211000001103	Perindopril erbumine 8mg / Amlodipine 5mg tablets
+24619111000001106	Perindopril erbumine 8mg / Amlodipine 5mg tablets (A A H Pharmaceuticals Ltd)
+24603511000001102	Perindopril erbumine 8mg / Amlodipine 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+23972711000001106	Perindopril erbumine 8mg / Amlodipine 5mg tablets (Consilient Health Ltd)
+14057311000001102	Perindopril erbumine 8mg/5ml oral solution
+14032211000001108	Perindopril erbumine 8mg/5ml oral solution (Special Order)
+14057411000001109	Perindopril erbumine 8mg/5ml oral suspension
+14032511000001106	Perindopril erbumine 8mg/5ml oral suspension (Special Order)
+21939811000001102	Perindopril tosilate 10mg tablets
+21927711000001100	Perindopril tosilate 10mg tablets (A A H Pharmaceuticals Ltd)
+29983711000001106	Perindopril tosilate 10mg tablets (Sigma Pharmaceuticals Plc)
+21912711000001108	Perindopril tosilate 10mg tablets (Teva UK Ltd)
+21939911000001107	Perindopril tosilate 2.5mg tablets
+21927111000001101	Perindopril tosilate 2.5mg tablets (A A H Pharmaceuticals Ltd)
+29983911000001108	Perindopril tosilate 2.5mg tablets (Sigma Pharmaceuticals Plc)
+21912111000001107	Perindopril tosilate 2.5mg tablets (Teva UK Ltd)
+21940011000001101	Perindopril tosilate 5mg / Indapamide 1.25mg tablets
+21927911000001103	Perindopril tosilate 5mg / Indapamide 1.25mg tablets (A A H Pharmaceuticals Ltd)
+21911811000001109	Perindopril tosilate 5mg / Indapamide 1.25mg tablets (Teva UK Ltd)
+21940111000001100	Perindopril tosilate 5mg tablets
+21927511000001105	Perindopril tosilate 5mg tablets (A A H Pharmaceuticals Ltd)
+29984111000001107	Perindopril tosilate 5mg tablets (Sigma Pharmaceuticals Plc)
+21912411000001102	Perindopril tosilate 5mg tablets (Teva UK Ltd)
+761411000001101	Pralenal 10 tablets (Opus Pharmaceuticals Ltd)
+448611000001106	Pralenal 2.5 tablets (Opus Pharmaceuticals Ltd)
+508511000001105	Pralenal 20 tablets (Opus Pharmaceuticals Ltd)
+578511000001100	Pralenal 5 tablets (Opus Pharmaceuticals Ltd)
+421852001	Quinapril + Hydrochlorothiazide
+318892006	Quinapril 10mg / Hydrochlorothiazide 12.5mg tablets
+22785911000001108	Quinapril 10mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)
+35179711000001107	Quinapril 10mg / Hydrochlorothiazide 12.5mg tablets (Milpharm Ltd)
+318886000	Quinapril 10mg tablets
+7498511000001103	Quinapril 10mg tablets (A A H Pharmaceuticals Ltd)
+7506211000001109	Quinapril 10mg tablets (Actavis UK Ltd)
+7514211000001101	Quinapril 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+10410511000001107	Quinapril 10mg tablets (Arrow Generics Ltd)
+30084211000001106	Quinapril 10mg tablets (DE Pharmaceuticals)
+13250311000001108	Quinapril 10mg tablets (Dowelhurst Ltd)
+8044511000001104	Quinapril 10mg tablets (Genus Pharmaceuticals Ltd)
+7561611000001100	Quinapril 10mg tablets (Kent Pharmaceuticals Ltd)
+27617011000001107	Quinapril 10mg tablets (Lupin Healthcare (UK) Ltd)
+30861711000001104	Quinapril 10mg tablets (Mawdsley-Brooks & Company Ltd)
+7392211000001108	Quinapril 10mg tablets (Mylan)
+18169411000001101	Quinapril 10mg tablets (Phoenix Healthcare Distribution Ltd)
+17912611000001103	Quinapril 10mg tablets (Ranbaxy (UK) Ltd)
+15178411000001106	Quinapril 10mg tablets (Sigma Pharmaceuticals Plc)
+7397111000001100	Quinapril 10mg tablets (Teva UK Ltd)
+21875411000001106	Quinapril 10mg tablets (Waymade Healthcare Plc)
+318887009	Quinapril 20mg tablets
+7498711000001108	Quinapril 20mg tablets (A A H Pharmaceuticals Ltd)
+7506411000001108	Quinapril 20mg tablets (Actavis UK Ltd)
+7514411000001102	Quinapril 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+10410711000001102	Quinapril 20mg tablets (Arrow Generics Ltd)
+30084511000001109	Quinapril 20mg tablets (DE Pharmaceuticals)
+13250811000001104	Quinapril 20mg tablets (Dowelhurst Ltd)
+8044711000001109	Quinapril 20mg tablets (Genus Pharmaceuticals Ltd)
+7561811000001101	Quinapril 20mg tablets (Kent Pharmaceuticals Ltd)
+27618511000001100	Quinapril 20mg tablets (Lupin Healthcare (UK) Ltd)
+30861911000001102	Quinapril 20mg tablets (Mawdsley-Brooks & Company Ltd)
+7392411000001107	Quinapril 20mg tablets (Mylan)
+18169611000001103	Quinapril 20mg tablets (Phoenix Healthcare Distribution Ltd)
+17912811000001104	Quinapril 20mg tablets (Ranbaxy (UK) Ltd)
+15179411000001103	Quinapril 20mg tablets (Sigma Pharmaceuticals Plc)
+7397311000001103	Quinapril 20mg tablets (Teva UK Ltd)
+21875711000001100	Quinapril 20mg tablets (Waymade Healthcare Plc)
+318894007	Quinapril 40mg tablets
+7498911000001105	Quinapril 40mg tablets (A A H Pharmaceuticals Ltd)
+8093311000001102	Quinapril 40mg tablets (Actavis UK Ltd)
+7514611000001104	Quinapril 40mg tablets (Alliance Healthcare (Distribution) Ltd)
+10410911000001100	Quinapril 40mg tablets (Arrow Generics Ltd)
+30084811000001107	Quinapril 40mg tablets (DE Pharmaceuticals)
+13251511000001109	Quinapril 40mg tablets (Dowelhurst Ltd)
+7562011000001104	Quinapril 40mg tablets (Kent Pharmaceuticals Ltd)
+27695411000001108	Quinapril 40mg tablets (Lupin Healthcare (UK) Ltd)
+30862111000001105	Quinapril 40mg tablets (Mawdsley-Brooks & Company Ltd)
+7392611000001105	Quinapril 40mg tablets (Mylan)
+18169811000001104	Quinapril 40mg tablets (Phoenix Healthcare Distribution Ltd)
+17913011000001101	Quinapril 40mg tablets (Ranbaxy (UK) Ltd)
+15179711000001109	Quinapril 40mg tablets (Sigma Pharmaceuticals Plc)
+7397511000001109	Quinapril 40mg tablets (Teva UK Ltd)
+21876011000001106	Quinapril 40mg tablets (Waymade Healthcare Plc)
+318885001	Quinapril 5mg tablets
+7496811000001101	Quinapril 5mg tablets (A A H Pharmaceuticals Ltd)
+7506011000001104	Quinapril 5mg tablets (Actavis UK Ltd)
+7514011000001106	Quinapril 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+10410311000001101	Quinapril 5mg tablets (Arrow Generics Ltd)
+30083611000001105	Quinapril 5mg tablets (DE Pharmaceuticals)
+5505611000001102	Quinapril 5mg tablets (Dowelhurst Ltd)
+8044211000001102	Quinapril 5mg tablets (Genus Pharmaceuticals Ltd)
+7561411000001103	Quinapril 5mg tablets (Kent Pharmaceuticals Ltd)
+27615511000001108	Quinapril 5mg tablets (Lupin Healthcare (UK) Ltd)
+30861511000001109	Quinapril 5mg tablets (Mawdsley-Brooks & Company Ltd)
+7391911000001105	Quinapril 5mg tablets (Mylan)
+18169211000001100	Quinapril 5mg tablets (Phoenix Healthcare Distribution Ltd)
+15180311000001105	Quinapril 5mg tablets (Sigma Pharmaceuticals Plc)
+7396911000001100	Quinapril 5mg tablets (Teva UK Ltd)
+21875211000001107	Quinapril 5mg tablets (Waymade Healthcare Plc)
+768185008	Quinapril in oral dosage form
+9208111000001100	Quinil 10mg tablets (Tillomed Laboratories Ltd)
+9208411000001105	Quinil 20mg tablets (Tillomed Laboratories Ltd)
+9208711000001104	Quinil 40mg tablets (Tillomed Laboratories Ltd)
+9207711000001100	Quinil 5mg tablets (Tillomed Laboratories Ltd)
+318900007	Ramipril 1.25mg capsules
+5873711000001102	Ramipril 1.25mg capsules (A A H Pharmaceuticals Ltd)
+8266111000001102	Ramipril 1.25mg capsules (Actavis UK Ltd)
+5919811000001106	Ramipril 1.25mg capsules (Alliance Healthcare (Distribution) Ltd)
+9806011000001108	Ramipril 1.25mg capsules (Almus Pharmaceuticals Ltd)
+10412011000001100	Ramipril 1.25mg capsules (Arrow Generics Ltd)
+16064611000001104	Ramipril 1.25mg capsules (Bristol Laboratories Ltd)
+32496811000001101	Ramipril 1.25mg capsules (Brown & Burk UK Ltd)
+30086611000001104	Ramipril 1.25mg capsules (DE Pharmaceuticals)
+5515111000001107	Ramipril 1.25mg capsules (Dowelhurst Ltd)
+28779611000001102	Ramipril 1.25mg capsules (Ennogen Pharma Ltd)
+10297411000001107	Ramipril 1.25mg capsules (Focus Pharmaceuticals Ltd)
+5632211000001108	Ramipril 1.25mg capsules (Kent Pharmaceuticals Ltd)
+30865311000001101	Ramipril 1.25mg capsules (Mawdsley-Brooks & Company Ltd)
+7432811000001105	Ramipril 1.25mg capsules (Mylan)
+17920711000001100	Ramipril 1.25mg capsules (Phoenix Healthcare Distribution Ltd)
+7816611000001107	Ramipril 1.25mg capsules (Ranbaxy (UK) Ltd)
+5623311000001108	Ramipril 1.25mg capsules (Sandoz Ltd)
+15181211000001108	Ramipril 1.25mg capsules (Sigma Pharmaceuticals Plc)
+5587511000001109	Ramipril 1.25mg capsules (Teva UK Ltd)
+21877711000001106	Ramipril 1.25mg capsules (Waymade Healthcare Plc)
+34747211000001107	Ramipril 1.25mg capsules (Wockhardt UK Ltd)
+7338611000001103	Ramipril 1.25mg capsules (Zentiva)
+408040007	Ramipril 1.25mg tablets
+5881111000001106	Ramipril 1.25mg tablets (A A H Pharmaceuticals Ltd)
+5927411000001107	Ramipril 1.25mg tablets (Alliance Healthcare (Distribution) Ltd)
+19834511000001104	Ramipril 1.25mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)
+30087611000001102	Ramipril 1.25mg tablets (DE Pharmaceuticals)
+13254011000001103	Ramipril 1.25mg tablets (Dowelhurst Ltd)
+5710811000001107	Ramipril 1.25mg tablets (IVAX Pharmaceuticals UK Ltd)
+7562211000001109	Ramipril 1.25mg tablets (Kent Pharmaceuticals Ltd)
+37137811000001109	Ramipril 1.25mg tablets (Mawdsley-Brooks & Company Ltd)
+5630211000001107	Ramipril 1.25mg tablets (Mylan)
+10441011000001101	Ramipril 1.25mg tablets (Niche Generics Ltd)
+17921611000001104	Ramipril 1.25mg tablets (Phoenix Healthcare Distribution Ltd)
+11413411000001105	Ramipril 1.25mg tablets (PLIVA Pharma Ltd)
+5625611000001104	Ramipril 1.25mg tablets (Ranbaxy (UK) Ltd)
+11533411000001106	Ramipril 1.25mg tablets (Sandoz Ltd)
+15181811000001109	Ramipril 1.25mg tablets (Sigma Pharmaceuticals Plc)
+5590011000001101	Ramipril 1.25mg tablets (Teva UK Ltd)
+13761711000001103	Ramipril 1.25mg tablets (Tillomed Laboratories Ltd)
+36834211000001109	Ramipril 1.25mg tablets (Torrent Pharma (UK) Ltd)
+21878711000001107	Ramipril 1.25mg tablets (Waymade Healthcare Plc)
+7338811000001104	Ramipril 1.25mg tablets (Zentiva)
+8720211000001109	Ramipril 1.25mg/5ml oral solution
+8694311000001106	Ramipril 1.25mg/5ml oral solution (Special Order)
+8720311000001101	Ramipril 1.25mg/5ml oral suspension
+8695511000001104	Ramipril 1.25mg/5ml oral suspension (Special Order)
+318906001	Ramipril 10mg capsules
+5880511000001109	Ramipril 10mg capsules (A A H Pharmaceuticals Ltd)
+8267511000001108	Ramipril 10mg capsules (Actavis UK Ltd)
+5925111000001106	Ramipril 10mg capsules (Alliance Healthcare (Distribution) Ltd)
+11408211000001100	Ramipril 10mg capsules (Almus Pharmaceuticals Ltd)
+10412711000001103	Ramipril 10mg capsules (Arrow Generics Ltd)
+16065411000001101	Ramipril 10mg capsules (Bristol Laboratories Ltd)
+32497411000001101	Ramipril 10mg capsules (Brown & Burk UK Ltd)
+30087411000001100	Ramipril 10mg capsules (DE Pharmaceuticals)
+13253411000001109	Ramipril 10mg capsules (Dowelhurst Ltd)
+28780211000001104	Ramipril 10mg capsules (Ennogen Pharma Ltd)
+10297111000001102	Ramipril 10mg capsules (Focus Pharmaceuticals Ltd)
+5629611000001101	Ramipril 10mg capsules (Genus Pharmaceuticals Ltd)
+5632811000001109	Ramipril 10mg capsules (Kent Pharmaceuticals Ltd)
+30867211000001101	Ramipril 10mg capsules (Mawdsley-Brooks & Company Ltd)
+7433511000001100	Ramipril 10mg capsules (Mylan)
+17921311000001109	Ramipril 10mg capsules (Phoenix Healthcare Distribution Ltd)
+7818511000001109	Ramipril 10mg capsules (Ranbaxy (UK) Ltd)
+5624611000001100	Ramipril 10mg capsules (Sandoz Ltd)
+15182211000001101	Ramipril 10mg capsules (Sigma Pharmaceuticals Plc)
+5589711000001107	Ramipril 10mg capsules (Teva UK Ltd)
+21878311000001108	Ramipril 10mg capsules (Waymade Healthcare Plc)
+34747811000001108	Ramipril 10mg capsules (Wockhardt UK Ltd)
+5631611000001104	Ramipril 10mg capsules (Zentiva)
+408052000	Ramipril 10mg tablets
+5885911000001106	Ramipril 10mg tablets (A A H Pharmaceuticals Ltd)
+10721411000001100	Ramipril 10mg tablets (Actavis UK Ltd)
+5937511000001108	Ramipril 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+19835111000001107	Ramipril 10mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)
+35180111000001106	Ramipril 10mg tablets (Aurobindo Pharma Ltd)
+30088211000001100	Ramipril 10mg tablets (DE Pharmaceuticals)
+13254211000001108	Ramipril 10mg tablets (Dowelhurst Ltd)
+5716011000001103	Ramipril 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+7562811000001105	Ramipril 10mg tablets (Kent Pharmaceuticals Ltd)
+30867911000001105	Ramipril 10mg tablets (Mawdsley-Brooks & Company Ltd)
+5631011000001106	Ramipril 10mg tablets (Mylan)
+10441211000001106	Ramipril 10mg tablets (Niche Generics Ltd)
+20005711000001100	Ramipril 10mg tablets (Pfizer Ltd)
+17922811000001109	Ramipril 10mg tablets (Phoenix Healthcare Distribution Ltd)
+11413611000001108	Ramipril 10mg tablets (PLIVA Pharma Ltd)
+5626211000001107	Ramipril 10mg tablets (Ranbaxy (UK) Ltd)
+11534011000001100	Ramipril 10mg tablets (Sandoz Ltd)
+15182711000001108	Ramipril 10mg tablets (Sigma Pharmaceuticals Plc)
+5591911000001109	Ramipril 10mg tablets (Teva UK Ltd)
+13762311000001106	Ramipril 10mg tablets (Tillomed Laboratories Ltd)
+36835211000001105	Ramipril 10mg tablets (Torrent Pharma (UK) Ltd)
+21879411000001109	Ramipril 10mg tablets (Waymade Healthcare Plc)
+7339411000001109	Ramipril 10mg tablets (Zentiva)
+8720411000001108	Ramipril 10mg/5ml oral solution
+8693211000001101	Ramipril 10mg/5ml oral solution (Special Order)
+8720511000001107	Ramipril 10mg/5ml oral suspension
+8693711000001108	Ramipril 10mg/5ml oral suspension (Special Order)
+318901006	Ramipril 2.5mg capsules
+5875911000001104	Ramipril 2.5mg capsules (A A H Pharmaceuticals Ltd)
+8266411000001107	Ramipril 2.5mg capsules (Actavis UK Ltd)
+5921211000001103	Ramipril 2.5mg capsules (Alliance Healthcare (Distribution) Ltd)
+9805611000001106	Ramipril 2.5mg capsules (Almus Pharmaceuticals Ltd)
+10412211000001105	Ramipril 2.5mg capsules (Arrow Generics Ltd)
+16064811000001100	Ramipril 2.5mg capsules (Bristol Laboratories Ltd)
+32497011000001105	Ramipril 2.5mg capsules (Brown & Burk UK Ltd)
+30086811000001100	Ramipril 2.5mg capsules (DE Pharmaceuticals)
+13253611000001107	Ramipril 2.5mg capsules (Dowelhurst Ltd)
+28779811000001103	Ramipril 2.5mg capsules (Ennogen Pharma Ltd)
+10296711000001104	Ramipril 2.5mg capsules (Focus Pharmaceuticals Ltd)
+5628711000001101	Ramipril 2.5mg capsules (Genus Pharmaceuticals Ltd)
+5632411000001107	Ramipril 2.5mg capsules (Kent Pharmaceuticals Ltd)
+30866311000001106	Ramipril 2.5mg capsules (Mawdsley-Brooks & Company Ltd)
+7433011000001108	Ramipril 2.5mg capsules (Mylan)
+17920911000001103	Ramipril 2.5mg capsules (Phoenix Healthcare Distribution Ltd)
+7817811000001108	Ramipril 2.5mg capsules (Ranbaxy (UK) Ltd)
+5623511000001102	Ramipril 2.5mg capsules (Sandoz Ltd)
+15183111000001101	Ramipril 2.5mg capsules (Sigma Pharmaceuticals Plc)
+5588011000001100	Ramipril 2.5mg capsules (Teva UK Ltd)
+21877911000001108	Ramipril 2.5mg capsules (Waymade Healthcare Plc)
+34747411000001106	Ramipril 2.5mg capsules (Wockhardt UK Ltd)
+5631211000001101	Ramipril 2.5mg capsules (Zentiva)
+408050008	Ramipril 2.5mg tablets
+5884511000001100	Ramipril 2.5mg tablets (A A H Pharmaceuticals Ltd)
+10720911000001101	Ramipril 2.5mg tablets (Actavis UK Ltd)
+5928111000001101	Ramipril 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+19834711000001109	Ramipril 2.5mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)
+30087811000001103	Ramipril 2.5mg tablets (DE Pharmaceuticals)
+13254411000001107	Ramipril 2.5mg tablets (Dowelhurst Ltd)
+5712111000001101	Ramipril 2.5mg tablets (IVAX Pharmaceuticals UK Ltd)
+7562411000001108	Ramipril 2.5mg tablets (Kent Pharmaceuticals Ltd)
+30867511000001103	Ramipril 2.5mg tablets (Mawdsley-Brooks & Company Ltd)
+5630511000001105	Ramipril 2.5mg tablets (Mylan)
+10441411000001105	Ramipril 2.5mg tablets (Niche Generics Ltd)
+17922011000001103	Ramipril 2.5mg tablets (Phoenix Healthcare Distribution Ltd)
+11413811000001107	Ramipril 2.5mg tablets (PLIVA Pharma Ltd)
+5625811000001100	Ramipril 2.5mg tablets (Ranbaxy (UK) Ltd)
+11533611000001109	Ramipril 2.5mg tablets (Sandoz Ltd)
+15183611000001109	Ramipril 2.5mg tablets (Sigma Pharmaceuticals Plc)
+5590811000001107	Ramipril 2.5mg tablets (Teva UK Ltd)
+13761911000001101	Ramipril 2.5mg tablets (Tillomed Laboratories Ltd)
+36834411000001108	Ramipril 2.5mg tablets (Torrent Pharma (UK) Ltd)
+21878911000001109	Ramipril 2.5mg tablets (Waymade Healthcare Plc)
+7339011000001100	Ramipril 2.5mg tablets (Zentiva)
+8720611000001106	Ramipril 2.5mg/5ml oral solution
+8693311000001109	Ramipril 2.5mg/5ml oral solution (Special Order)
+19877111000001100	Ramipril 2.5mg/5ml oral solution sugar free
+20007111000001105	Ramipril 2.5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+20010511000001103	Ramipril 2.5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+30087211000001104	Ramipril 2.5mg/5ml oral solution sugar free (DE Pharmaceuticals)
+19871011000001106	Ramipril 2.5mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+21878511000001102	Ramipril 2.5mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+8720711000001102	Ramipril 2.5mg/5ml oral suspension
+8694011000001108	Ramipril 2.5mg/5ml oral suspension (Special Order)
+318902004	Ramipril 5mg capsules
+5878511000001103	Ramipril 5mg capsules (A A H Pharmaceuticals Ltd)
+8267111000001104	Ramipril 5mg capsules (Actavis UK Ltd)
+5923011000001109	Ramipril 5mg capsules (Alliance Healthcare (Distribution) Ltd)
+11407911000001108	Ramipril 5mg capsules (Almus Pharmaceuticals Ltd)
+10412411000001109	Ramipril 5mg capsules (Arrow Generics Ltd)
+16065011000001105	Ramipril 5mg capsules (Bristol Laboratories Ltd)
+32497211000001100	Ramipril 5mg capsules (Brown & Burk UK Ltd)
+30087011000001109	Ramipril 5mg capsules (DE Pharmaceuticals)
+13253811000001106	Ramipril 5mg capsules (Dowelhurst Ltd)
+28780011000001109	Ramipril 5mg capsules (Ennogen Pharma Ltd)
+10296511000001109	Ramipril 5mg capsules (Focus Pharmaceuticals Ltd)
+5629311000001106	Ramipril 5mg capsules (Genus Pharmaceuticals Ltd)
+5632611000001105	Ramipril 5mg capsules (Kent Pharmaceuticals Ltd)
+30866711000001105	Ramipril 5mg capsules (Mawdsley-Brooks & Company Ltd)
+7433211000001103	Ramipril 5mg capsules (Mylan)
+17921111000001107	Ramipril 5mg capsules (Phoenix Healthcare Distribution Ltd)
+7818311000001103	Ramipril 5mg capsules (Ranbaxy (UK) Ltd)
+5624411000001103	Ramipril 5mg capsules (Sandoz Ltd)
+15183911000001103	Ramipril 5mg capsules (Sigma Pharmaceuticals Plc)
+5588511000001108	Ramipril 5mg capsules (Teva UK Ltd)
+21878111000001106	Ramipril 5mg capsules (Waymade Healthcare Plc)
+34747611000001109	Ramipril 5mg capsules (Wockhardt UK Ltd)
+5631411000001102	Ramipril 5mg capsules (Zentiva)
+408051007	Ramipril 5mg tablets
+5885211000001102	Ramipril 5mg tablets (A A H Pharmaceuticals Ltd)
+10721111000001105	Ramipril 5mg tablets (Actavis UK Ltd)
+5932311000001104	Ramipril 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+19834911000001106	Ramipril 5mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)
+35179911000001109	Ramipril 5mg tablets (Aurobindo Pharma Ltd)
+30088011000001105	Ramipril 5mg tablets (DE Pharmaceuticals)
+13254611000001105	Ramipril 5mg tablets (Dowelhurst Ltd)
+5715011000001107	Ramipril 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+7562611000001106	Ramipril 5mg tablets (Kent Pharmaceuticals Ltd)
+30867711000001108	Ramipril 5mg tablets (Mawdsley-Brooks & Company Ltd)
+5630811000001108	Ramipril 5mg tablets (Mylan)
+10441611000001108	Ramipril 5mg tablets (Niche Generics Ltd)
+20005511000001105	Ramipril 5mg tablets (Pfizer Ltd)
+17922411000001107	Ramipril 5mg tablets (Phoenix Healthcare Distribution Ltd)
+11414011000001104	Ramipril 5mg tablets (PLIVA Pharma Ltd)
+5626011000001102	Ramipril 5mg tablets (Ranbaxy (UK) Ltd)
+11533811000001108	Ramipril 5mg tablets (Sandoz Ltd)
+15184311000001102	Ramipril 5mg tablets (Sigma Pharmaceuticals Plc)
+5591311000001108	Ramipril 5mg tablets (Teva UK Ltd)
+13762111000001109	Ramipril 5mg tablets (Tillomed Laboratories Ltd)
+36834611000001106	Ramipril 5mg tablets (Torrent Pharma (UK) Ltd)
+21879211000001105	Ramipril 5mg tablets (Waymade Healthcare Plc)
+7339211000001105	Ramipril 5mg tablets (Zentiva)
+8720811000001105	Ramipril 5mg/5ml oral solution
+8694911000001107	Ramipril 5mg/5ml oral solution (Special Order)
+8720911000001100	Ramipril 5mg/5ml oral suspension
+8695811000001101	Ramipril 5mg/5ml oral suspension (Special Order)
+13013311000001103	Ramipril 750micrograms/5ml oral solution
+12993511000001106	Ramipril 750micrograms/5ml oral solution (Special Order)
+13013411000001105	Ramipril 750micrograms/5ml oral suspension
+12992911000001106	Ramipril 750micrograms/5ml oral suspension (Special Order)
+768181004	Ramipril in oral dosage form
+462511000001104	Staril 10mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+348111000001107	Staril 20mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)
+5543711000001104	Staril 20mg tablets (Dowelhurst Ltd)
+680811000001102	Tanatril 10mg tablets (Mitsubishi Tanabe Pharma Europe Ltd)
+533511000001106	Tanatril 20mg tablets (Mitsubishi Tanabe Pharma Europe Ltd)
+16262411000001100	Tanatril 5mg tablets (Lexon (UK) Ltd)
+797911000001103	Tanatril 5mg tablets (Mitsubishi Tanabe Pharma Europe Ltd)
+14623111000001101	Tanatril 5mg tablets (Sigma Pharmaceuticals Plc)
+3691211000001101	Tarka modified-release capsules (Abbott Laboratories Ltd)
+5585711000001105	Tarka modified-release capsules (Dowelhurst Ltd)
+16262711000001106	Tarka modified-release capsules (Lexon (UK) Ltd)
+14623711000001100	Tarka modified-release capsules (Sigma Pharmaceuticals Plc)
+673711000001107	Tensopril 12.5mg tablets (Teva UK Ltd)
+597511000001109	Tensopril 25mg tablets (Teva UK Ltd)
+653111000001108	Tensopril 50mg tablets (Teva UK Ltd)
+375094007	Trandolapril 1 mg oral tablet
+318925003	Trandolapril 1mg capsules
+13470111000001109	Trandolapril 1mg capsules (A A H Pharmaceuticals Ltd)
+14407611000001105	Trandolapril 1mg capsules (Accord Healthcare Ltd)
+13432411000001100	Trandolapril 1mg capsules (Alliance Healthcare (Distribution) Ltd)
+15163811000001106	Trandolapril 1mg capsules (Arrow Generics Ltd)
+30104511000001100	Trandolapril 1mg capsules (DE Pharmaceuticals)
+27984311000001103	Trandolapril 1mg capsules (Lupin Healthcare (UK) Ltd)
+30940611000001104	Trandolapril 1mg capsules (Mawdsley-Brooks & Company Ltd)
+13694311000001106	Trandolapril 1mg capsules (Mylan)
+17862311000001104	Trandolapril 1mg capsules (Phoenix Healthcare Distribution Ltd)
+15197511000001101	Trandolapril 1mg capsules (Sigma Pharmaceuticals Plc)
+13433611000001107	Trandolapril 1mg capsules (Teva UK Ltd)
+21892511000001108	Trandolapril 1mg capsules (Waymade Healthcare Plc)
+765926009	Trandolapril 2 mg and verapamil hydrochloride 180 mg prolonged-release oral capsule
+375095008	Trandolapril 2 mg oral tablet
+318926002	Trandolapril 2mg capsules
+13470311000001106	Trandolapril 2mg capsules (A A H Pharmaceuticals Ltd)
+14408411000001106	Trandolapril 2mg capsules (Accord Healthcare Ltd)
+13432611000001102	Trandolapril 2mg capsules (Alliance Healthcare (Distribution) Ltd)
+17662011000001107	Trandolapril 2mg capsules (Arrow Generics Ltd)
+30104711000001105	Trandolapril 2mg capsules (DE Pharmaceuticals)
+5466811000001104	Trandolapril 2mg capsules (Dowelhurst Ltd)
+13707311000001109	Trandolapril 2mg capsules (Kent Pharmaceuticals Ltd)
+27984611000001108	Trandolapril 2mg capsules (Lupin Healthcare (UK) Ltd)
+30940811000001100	Trandolapril 2mg capsules (Mawdsley-Brooks & Company Ltd)
+13694511000001100	Trandolapril 2mg capsules (Mylan)
+17862611000001109	Trandolapril 2mg capsules (Phoenix Healthcare Distribution Ltd)
+15197811000001103	Trandolapril 2mg capsules (Sigma Pharmaceuticals Plc)
+13433811000001106	Trandolapril 2mg capsules (Teva UK Ltd)
+21892711000001103	Trandolapril 2mg capsules (Waymade Healthcare Plc)
+14058511000001107	Trandolapril 2mg/5ml oral suspension
+14032811000001109	Trandolapril 2mg/5ml oral suspension (Special Order)
+375096009	Trandolapril 4 mg oral tablet
+410958005	Trandolapril 4mg capsules
+13470511000001100	Trandolapril 4mg capsules (A A H Pharmaceuticals Ltd)
+14409011000001107	Trandolapril 4mg capsules (Accord Healthcare Ltd)
+13432811000001103	Trandolapril 4mg capsules (Alliance Healthcare (Distribution) Ltd)
+15162111000001105	Trandolapril 4mg capsules (Arrow Generics Ltd)
+30104911000001107	Trandolapril 4mg capsules (DE Pharmaceuticals)
+13707511000001103	Trandolapril 4mg capsules (Kent Pharmaceuticals Ltd)
+30941011000001102	Trandolapril 4mg capsules (Mawdsley-Brooks & Company Ltd)
+13694911000001107	Trandolapril 4mg capsules (Mylan)
+17862911000001103	Trandolapril 4mg capsules (Phoenix Healthcare Distribution Ltd)
+15198011000001105	Trandolapril 4mg capsules (Sigma Pharmaceuticals Plc)
+13494811000001100	Trandolapril 4mg capsules (Teva UK Ltd)
+21892911000001101	Trandolapril 4mg capsules (Waymade Healthcare Plc)
+318924004	Trandolapril 500microgram capsules
+13469911000001109	Trandolapril 500microgram capsules (A A H Pharmaceuticals Ltd)
+14406911000001102	Trandolapril 500microgram capsules (Accord Healthcare Ltd)
+13432211000001104	Trandolapril 500microgram capsules (Alliance Healthcare (Distribution) Ltd)
+30834411000001100	Trandolapril 500microgram capsules (DE Pharmaceuticals)
+5465611000001108	Trandolapril 500microgram capsules (Dowelhurst Ltd)
+13693711000001108	Trandolapril 500microgram capsules (Mylan)
+17862011000001102	Trandolapril 500microgram capsules (Phoenix Healthcare Distribution Ltd)
+15197111000001105	Trandolapril 500microgram capsules (Sigma Pharmaceuticals Plc)
+13433411000001109	Trandolapril 500microgram capsules (Teva UK Ltd)
+21892311000001102	Trandolapril 500microgram capsules (Waymade Healthcare Plc)
+767782002	Trandolapril and verapamil in oral dosage form
+768415009	Trandolapril in oral dosage form
+765583005	Trandolapril+verapamil hydrochloride 1mg/240mg prolonged-release oral tablet
+765639005	Trandolapril+verapamil hydrochloride 2mg/180mg prolonged-release oral tablet
+765600001	Trandolapril+verapamil hydrochloride 2mg/240mg prolonged-release oral tablet
+765542007	Trandolapril+verapamil hydrochloride 4mg/240mg prolonged-release oral tablet
+16279411000001103	Triapin 2.5mg/2.5mg modified-release tablets (Lexon (UK) Ltd)
+4093211000001109	Triapin 2.5mg/2.5mg modified-release tablets (Sanofi)
+14011111000001104	Triapin 5mg/5mg modified-release tablets (DE Pharmaceuticals)
+16279611000001100	Triapin 5mg/5mg modified-release tablets (Lexon (UK) Ltd)
+17468811000001101	Triapin 5mg/5mg modified-release tablets (Mawdsley-Brooks & Company Ltd)
+3887911000001109	Triapin 5mg/5mg modified-release tablets (Sanofi)
+14684911000001106	Triapin 5mg/5mg modified-release tablets (Sigma Pharmaceuticals Plc)
+11580311000001104	Triapin 5mg/5mg modified-release tablets (Waymade Healthcare Plc)
+111611000001109	Tritace 1.25mg capsules (Aventis Pharma)
+5591211000001100	Tritace 1.25mg capsules (Dowelhurst Ltd)
+5010511000001106	Tritace 1.25mg tablets (Sanofi)
+43711000001100	Tritace 10mg capsules (Sanofi)
+5011411000001103	Tritace 10mg tablets (Sanofi)
+5591811000001104	Tritace 2.5mg capsules (Dowelhurst Ltd)
+835411000001105	Tritace 2.5mg capsules (Sanofi)
+5010811000001109	Tritace 2.5mg tablets (Sanofi)
+30274411000001108	Tritace 2.5mg tablets (Waymade Healthcare Plc)
+802311000001101	Tritace 5mg capsules (Sanofi)
+5011111000001108	Tritace 5mg tablets (Sanofi)
+3042211000001107	Tritace titration pack capsules (Sanofi)
+13600911000001104	Tritace titration pack tablets (Sanofi)
+5597911000001101	Vascace 1mg tablets (Dowelhurst Ltd)
+3669711000001105	Vascace 1mg tablets (Roche Products Ltd)
+14749311000001106	Vascace 1mg tablets (Sigma Pharmaceuticals Plc)
+5600211000001101	Vascace 2.5mg tablets (Dowelhurst Ltd)
+3672411000001101	Vascace 2.5mg tablets (Roche Products Ltd)
+14749511000001100	Vascace 2.5mg tablets (Sigma Pharmaceuticals Plc)
+16680011000001109	Vascace 2.5mg tablets (Stephar (U.K.) Ltd)
+5598811000001105	Vascace 500microgram tablets (Dowelhurst Ltd)
+3740211000001108	Vascace 500microgram tablets (Roche Products Ltd)
+5598511000001107	Vascace 5mg tablets (Dowelhurst Ltd)
+3671311000001104	Vascace 5mg tablets (Roche Products Ltd)
+14749711000001105	Vascace 5mg tablets (Sigma Pharmaceuticals Plc)
+422752005	Verapamil + Trandolapril
+36149211000001102	Verapamil 180mg modified-release / Trandolapril 2mg capsules
+3144311000001101	Zestoretic 10 tablets (AstraZeneca UK Ltd)
+13217311000001103	Zestoretic 10 tablets (Dowelhurst Ltd)
+14767411000001104	Zestoretic 10 tablets (Sigma Pharmaceuticals Plc)
+10483611000001104	Zestoretic 10 tablets (Waymade Healthcare Plc)
+3143111000001100	Zestoretic 20 tablets (AstraZeneca UK Ltd)
+13983811000001102	Zestoretic 20 tablets (DE Pharmaceuticals)
+5600911000001105	Zestoretic 20 tablets (Dowelhurst Ltd)
+16449811000001104	Zestoretic 20 tablets (Lexon (UK) Ltd)
+18208811000001108	Zestoretic 20 tablets (Necessity Supplies Ltd)
+14767611000001101	Zestoretic 20 tablets (Sigma Pharmaceuticals Plc)
+5426911000001100	Zestoretic 20 tablets (Waymade Healthcare Plc)
+825311000001100	Zestril 10mg tablets (AstraZeneca UK Ltd)
+5597511000001108	Zestril 10mg tablets (Dowelhurst Ltd)
+30275211000001105	Zestril 10mg tablets (Waymade Healthcare Plc)
+593111000001108	Zestril 2.5mg tablets (AstraZeneca UK Ltd)
+5598211000001109	Zestril 2.5mg tablets (Dowelhurst Ltd)
+17480011000001107	Zestril 2.5mg tablets (Mawdsley-Brooks & Company Ltd)
+5427811000001107	Zestril 2.5mg tablets (Waymade Healthcare Plc)
+891711000001107	Zestril 20mg tablets (AstraZeneca UK Ltd)
+5598911000001100	Zestril 20mg tablets (Dowelhurst Ltd)
+18209011000001107	Zestril 20mg tablets (Necessity Supplies Ltd)
+14767811000001102	Zestril 20mg tablets (Sigma Pharmaceuticals Plc)
+5428911000001101	Zestril 20mg tablets (Waymade Healthcare Plc)
+823211000001109	Zestril 5mg tablets (AstraZeneca UK Ltd)
+5599211000001104	Zestril 5mg tablets (Dowelhurst Ltd)
+16450011000001100	Zestril 5mg tablets (Lexon (UK) Ltd)
+18209211000001102	Zestril 5mg tablets (Necessity Supplies Ltd)
+5428411000001109	Zestril 5mg tablets (Waymade Healthcare Plc)
+32860311000001104	Zofenil 30mg tablets (Imported (Ireland))
+32859211000001108	Zofenil 7.5mg tablets (Imported (Ireland))
+32859811000001109	Zofenopril 30mg tablets
+32858711000001105	Zofenopril 7.5mg tablets
