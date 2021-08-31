@@ -387,6 +387,10 @@ This project required the following clinical code sets:
 - severe-mental-illness v1
 - hypertension v1
 - metformin v1
+- glp1-receptor-agonists v1
+- insulin v1
+- sglt2-inhibitors v1
+- sulphonylureas v1
 - ace-inhibitor v1
 - aspirin v1
 - clopidogrel v1
@@ -749,9 +753,71 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 LINK: [https://github.com/rw251/.../medications/metformin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/metformin/1)
 
+### GLP-1 receptor agonists
+
+Any prescription of a GLP-1 receptor agonist.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.45% - 0.46%` for EMIS and Vision suggests that this code set is well defined. The figure of `0.35%` for TPP is lower than expected, but TPP have the smallest patient population so a degree of variability is to be expected.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-08-26 | EMIS            | 2623304    |    11708 (0.45%) |     11708 (0.45%) |
+| 2021-08-26 | TPP             | 211610     |      751 (0.35%) |       751 (0.35%) |
+| 2021-08-26 | Vision          | 337028     |     1553 (0.46%) |      1553 (0.46%) |
+
+LINK: [https://github.com/rw251/.../medications/glp1-receptor-agonists/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/glp1-receptor-agonists/1)
+
+### Insulin
+
+Any code representing a prescription (or drug) of insulin.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.21% - 1.32%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-08-26 | EMIS            | 2623304    |    34737 (1.32%) |     34737 (1.32%) |
+| 2021-08-26 | TPP             | 211610     |     2573 (1.22%) |      2573 (1.22%) |
+| 2021-08-26 | Vision          | 337028     |     4071 (1.21%) |      4071 (1.21%) |
+
+LINK: [https://github.com/rw251/.../medications/insulin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/insulin/1)
+
+### SGLT2 inhibitors (gliflozins)
+
+Any prescription of a SGLT2 inhibitor (gliflozin).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.25% - 1.25%` for EMIS and Vision suggests that this code set is well defined. The figure of `0.90%` for TPP is lower than expected, but TPP have the smallest patient population so a degree of variability is to be expected.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-08-26 | EMIS            | 2623304    |    32817 (1.25%) |     32817 (1.25%) |
+| 2021-08-26 | TPP             | 211610     |     1899 (0.90%) |      1899 (0.90%) |
+| 2021-08-26 | Vision          | 337028     |     4211 (1.25%) |      4211 (1.25%) |
+
+LINK: [https://github.com/rw251/.../medications/sglt2-inhibitors/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/sglt2-inhibitors/1)
+
+### Sulphonylureas
+
+Any prescription of a sulphonylurea.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. Vision (`1.67%`) is perhaps a little on the low side, but the prevalence range `1.67% - 1.92%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-08-26 | EMIS            | 2623304    |    50292 (1.92%) |     50292 (1.92%) |
+| 2021-08-26 | TPP             | 211610     |     4022 (1.90%) |      4022 (1.90%) |
+| 2021-08-26 | Vision          | 337028     |     5641 (1.67%) |      5641 (1.67%) |
+
+LINK: [https://github.com/rw251/.../medications/sulphonylureas/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/sulphonylureas/1)
+
 ### ACE Inhibitors
 
 This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.
+
+**_NB this code set is for ACE inhibitors AND angiotensin receptor blockers (ARBs). If you just want ACEIs please use v2._**
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `12.36% - 13.02%` suggests that this code set is well defined.
@@ -3989,6 +4055,1869 @@ All code sets required for this analysis are listed here. Individual lists for e
 |metformin v1|snomed|768507009|Glipizide and metformin in oral dosage form|
 |metformin v1|snomed|768920004|Product containing metformin and sitagliptin in oral dosage form|
 |metformin v1|snomed|768921000|Metformin and repaglinide in oral dosage form|
+|glp1-receptor-agonists v1|ctv3|ftq..|DULAGLUTIDE|
+|glp1-receptor-agonists v1|ctv3|ftq7.|TRULICITY 1.5mg/0.5mL soln for injection prefilled syringe|
+|glp1-receptor-agonists v1|ctv3|ftq5.|TRULICITY 750micrograms/0.5mL soln for inj prefilled syringe|
+|glp1-receptor-agonists v1|ctv3|ftq3.|TRULICITY 1.5mg/0.5mL solution for injection prefilled pen|
+|glp1-receptor-agonists v1|ctv3|ftq1.|TRULICITY 750micrograms/0.5mL soln for injection p/f pen|
+|glp1-receptor-agonists v1|ctv3|ftq8.|DULAGLUTIDE 1.5mg/0.5mL soln for injection prefilled syringe|
+|glp1-receptor-agonists v1|ctv3|ftq6.|DULAGLUTIDE 750micrograms/0.5mL solution for injection pfs|
+|glp1-receptor-agonists v1|ctv3|ftq4.|DULAGLUTIDE 1.5mg/0.5mL soln for injection prefilled pen|
+|glp1-receptor-agonists v1|ctv3|ftq2.|DULAGLUTIDE 750micrograms/0.5mL soln for injection p/f pen|
+|glp1-receptor-agonists v1|ctv3|ftj..|LIXISENATIDE|
+|glp1-receptor-agonists v1|ctv3|ftj5.|LYXUMIA 10mcg/0.2mL+20mcg/0.2mL soln inj prefilled pens 3mL|
+|glp1-receptor-agonists v1|ctv3|ftj3.|LYXUMIA 20micrograms/0.2mL soln for inj prefilled pen 3mL|
+|glp1-receptor-agonists v1|ctv3|ftj1.|LYXUMIA 10micrograms/0.2mL soln for inj prefilled pen 3mL|
+|glp1-receptor-agonists v1|ctv3|ftj6.|LIXISENATIDE 10mcg/0.2mL+20mcg/0.2mL soln for inj pens 3mL|
+|glp1-receptor-agonists v1|ctv3|ftj4.|LIXISENATIDE 20micrograms/0.2mL soln for injection pen 3mL|
+|glp1-receptor-agonists v1|ctv3|ftj2.|LIXISENATIDE 10micrograms/0.2mL soln for injection pen 3mL|
+|glp1-receptor-agonists v1|ctv3|ftc..|LIRAGLUTIDE|
+|glp1-receptor-agonists v1|ctv3|ftc1.|VICTOZA 6mg/mL solution for injection prefilled pen 3mL|
+|glp1-receptor-agonists v1|ctv3|ftc2.|LIRAGLUTIDE 6mg/mL solution for injection prefilled pen|
+|glp1-receptor-agonists v1|ctv3|ft9..|EXENATIDE|
+|glp1-receptor-agonists v1|ctv3|ft94.|BYDUREON 2mg powder+solvent for susp for inj prefilled pen|
+|glp1-receptor-agonists v1|ctv3|ft93.|BYDUREON 2mg powder and solvent for suspension for injection|
+|glp1-receptor-agonists v1|ctv3|ft9z.|EXENATIDE 5micrograms/0.02mL injection prefilled pen|
+|glp1-receptor-agonists v1|ctv3|ft91.|BYETTA 5micrograms/0.02mL injection prefilled pen|
+|glp1-receptor-agonists v1|ctv3|ft9y.|EXENATIDE 10micrograms/0.04mL injection prefilled pen|
+|glp1-receptor-agonists v1|ctv3|ft92.|BYETTA 10micrograms/0.04mL injection prefilled pen|
+|glp1-receptor-agonists v1|ctv3|ft9x.|EXENATIDE 2mg powder+solvent for suspension for injection|
+|glp1-receptor-agonists v1|ctv3|ft95.|EXENATIDE 2mg powder+solvent for susp for inj prefilled pen|
+|glp1-receptor-agonists v1|ctv3|f2C..|INSULIN DEGLUDEC + LIRAGLUTIDE|
+|glp1-receptor-agonists v1|ctv3|f2C1.|XULTOPHY 100iu/mL/3.6mg/mL soln for inj prefilled pen 3mL|
+|glp1-receptor-agonists v1|ctv3|f2C2.|INSULIN DEGLUDEC+LIRAGLUTIDE 100iu/mL/3.6mg/mL soln inj pen|
+|glp1-receptor-agonists v1|ctv3|XaREp|Subcutaneous injection of exenatide|
+|glp1-receptor-agonists v1|emis|EXPO51135NEMIS|Exenatide  Prolonged release suspension for injection  2 mg vial|
+|glp1-receptor-agonists v1|emis|EXIN25436NEMIS|Exenatide  Injection (Pre-Filled Pen)  5 micrograms/dose, 60 dose pen|
+|glp1-receptor-agonists v1|emis|TRSO100544NEMIS|Trulicity  Solution for injection  0.75 mg/0.5 ml pre-filled pen|
+|glp1-receptor-agonists v1|emis|TRSO100545NEMIS|Trulicity  Solution for injection  1.5 mg/0.5 ml pre-filled pen|
+|glp1-receptor-agonists v1|emis|EXIN25438NEMIS|Exenatide  Injection (Pre-Filled Pen)  10 micrograms/dose, 60 dose pen|
+|glp1-receptor-agonists v1|emis|BYIN25441NEMIS|Byetta  Injection (Pre-Filled Pen)  10 micrograms/dose, 60 dose pen|
+|glp1-receptor-agonists v1|emis|INSO98875NEMIS|Insulin Degludec And Liraglutide  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen|
+|glp1-receptor-agonists v1|emis|BYIN25440NEMIS|Byetta  Injection (Pre-Filled Pen)  5 micrograms/dose, 60 dose pen|
+|glp1-receptor-agonists v1|emis|LISO78535NEMIS|Lixisenatide  Solution for injection  20 micrograms/0.2 ml, 3 ml device|
+|glp1-receptor-agonists v1|emis|LIIN78550NEMIS|Lixisenatide  Injection  10 micrograms/0.2ml pen + 20 micrograms/0.2ml pen|
+|glp1-receptor-agonists v1|emis|LYSO78538NEMIS|Lyxumia  Solution for injection  20 micrograms/0.2 ml, 3 ml pen|
+|glp1-receptor-agonists v1|emis|LISO78533NEMIS|Lixisenatide  Solution for injection  10 micrograms/0.2 ml, 3 ml device|
+|glp1-receptor-agonists v1|emis|LISO37216NEMIS|Liraglutide  Solution for injection in pre-filled pen  6 mg/ml, 3 ml pen|
+|glp1-receptor-agonists v1|emis|LYSO78538NEMIS|Lyxumia  Solution for injection  20 micrograms/0.2 ml, 3 ml pen|
+|glp1-receptor-agonists v1|emis|LYSO78537NEMIS|Lyxumia  Solution for injection  10 micrograms/0.2 ml, 3 ml pen|
+|glp1-receptor-agonists v1|emis|VISO37220NEMIS|Victoza  Solution for injection in pre-filled pen  6 mg/ml, 3 ml pen|
+|glp1-receptor-agonists v1|emis|LIIN78550NEMIS|Lixisenatide  Injection  10 micrograms/0.2ml pen + 20 micrograms/0.2ml pen|
+|glp1-receptor-agonists v1|emis|LYSO78537NEMIS|Lyxumia  Solution for injection  10 micrograms/0.2 ml, 3 ml pen|
+|glp1-receptor-agonists v1|emis|BYPO98846NEMIS|Bydureon  Prolonged release suspension for injection  2 mg pen|
+|glp1-receptor-agonists v1|emis|DUSO100540NEMIS|Dulaglutide  Solution for injection  0.75 mg/0.5 ml pre-filled device|
+|glp1-receptor-agonists v1|emis|EXPO51135NEMIS|Exenatide  Prolonged release suspension for injection  2 mg vial|
+|glp1-receptor-agonists v1|emis|BYPO51137NEMIS|Bydureon  Prolonged release suspension for injection  2 mg vial|
+|glp1-receptor-agonists v1|emis|DUSO100542NEMIS|Dulaglutide  Solution for injection  1.5 mg/0.5 ml pre-filled device|
+|glp1-receptor-agonists v1|emis|LISO37216NEMIS|Liraglutide  Solution for injection in pre-filled pen  6 mg/ml, 3 ml pen|
+|glp1-receptor-agonists v1|emis|DUSO100540NEMIS|Dulaglutide  Solution for injection  0.75 mg/0.5 ml pre-filled device|
+|glp1-receptor-agonists v1|emis|DUSO100542NEMIS|Dulaglutide  Solution for injection  1.5 mg/0.5 ml pre-filled device|
+|glp1-receptor-agonists v1|emis|LYIN78553NEMIS|Lyxumia  Injection  10 micrograms/0.2ml pen + 20 micrograms/0.2ml pen|
+|glp1-receptor-agonists v1|emis|BYPO51137NEMIS|Bydureon  Prolonged release suspension for injection  2 mg vial|
+|glp1-receptor-agonists v1|emis|EXPO98845NEMIS|Exenatide  Prolonged release suspension for injection  2 mg device|
+|glp1-receptor-agonists v1|emis|LISO78533NEMIS|Lixisenatide  Solution for injection  10 micrograms/0.2 ml, 3 ml device|
+|glp1-receptor-agonists v1|emis|LYIN78553NEMIS|Lyxumia  Injection  10 micrograms/0.2ml pen + 20 micrograms/0.2ml pen|
+|glp1-receptor-agonists v1|emis|TRSO100545NEMIS|Trulicity  Solution for injection  1.5 mg/0.5 ml pre-filled pen|
+|glp1-receptor-agonists v1|emis|XUSO98877NEMIS|Xultophy  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen|
+|glp1-receptor-agonists v1|emis|EXIN25438NEMIS|Exenatide  Injection (Pre-Filled Pen)  10 micrograms/dose, 60 dose pen|
+|glp1-receptor-agonists v1|emis|LISO78535NEMIS|Lixisenatide  Solution for injection  20 micrograms/0.2 ml, 3 ml device|
+|glp1-receptor-agonists v1|emis|VISO37220NEMIS|Victoza  Solution for injection in pre-filled pen  6 mg/ml, 3 ml pen|
+|glp1-receptor-agonists v1|emis|BYIN25441NEMIS|Byetta  Injection (Pre-Filled Pen)  10 micrograms/dose, 60 dose pen|
+|glp1-receptor-agonists v1|emis|BYIN25440NEMIS|Byetta  Injection (Pre-Filled Pen)  5 micrograms/dose, 60 dose pen|
+|glp1-receptor-agonists v1|emis|EXIN25436NEMIS|Exenatide  Injection (Pre-Filled Pen)  5 micrograms/dose, 60 dose pen|
+|glp1-receptor-agonists v1|emis|INSO98875NEMIS|Insulin Degludec And Liraglutide  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen|
+|glp1-receptor-agonists v1|emis|TRSO100544NEMIS|Trulicity  Solution for injection  0.75 mg/0.5 ml pre-filled pen|
+|glp1-receptor-agonists v1|emis|XUSO98877NEMIS|Xultophy  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen|
+|glp1-receptor-agonists v1|readv2|ftq..00|DULAGLUTIDE|
+|glp1-receptor-agonists v1|readv2|ftq8.00|DULAGLUTIDE 1.5mg/0.5mL soln for injection prefilled syringe|
+|glp1-receptor-agonists v1|readv2|ftq6.00|DULAGLUTIDE 750micrograms/0.5mL solution for injection pfs|
+|glp1-receptor-agonists v1|readv2|ftq4.00|DULAGLUTIDE 1.5mg/0.5mL soln for injection prefilled pen|
+|glp1-receptor-agonists v1|readv2|ftq2.00|DULAGLUTIDE 750micrograms/0.5mL soln for injection p/f pen|
+|glp1-receptor-agonists v1|readv2|ftq7.00|TRULICITY 1.5mg/0.5mL soln for injection prefilled syringe|
+|glp1-receptor-agonists v1|readv2|ftq5.00|TRULICITY 750micrograms/0.5mL soln for inj prefilled syringe|
+|glp1-receptor-agonists v1|readv2|ftq3.00|TRULICITY 1.5mg/0.5mL solution for injection prefilled pen|
+|glp1-receptor-agonists v1|readv2|ftq1.00|TRULICITY 750micrograms/0.5mL soln for injection p/f pen|
+|glp1-receptor-agonists v1|readv2|ftj..00|LIXISENATIDE|
+|glp1-receptor-agonists v1|readv2|ftj6.00|LIXISENATIDE 10mcg/0.2mL+20mcg/0.2mL soln for inj pens 3mL|
+|glp1-receptor-agonists v1|readv2|ftj4.00|LIXISENATIDE 20micrograms/0.2mL soln for injection pen 3mL|
+|glp1-receptor-agonists v1|readv2|ftj2.00|LIXISENATIDE 10micrograms/0.2mL soln for injection pen 3mL|
+|glp1-receptor-agonists v1|readv2|ftj5.00|LYXUMIA 10mcg/0.2mL+20mcg/0.2mL soln inj prefilled pens 3mL|
+|glp1-receptor-agonists v1|readv2|ftj3.00|LYXUMIA 20micrograms/0.2mL soln for inj prefilled pen 3mL|
+|glp1-receptor-agonists v1|readv2|ftj1.00|LYXUMIA 10micrograms/0.2mL soln for inj prefilled pen 3mL|
+|glp1-receptor-agonists v1|readv2|ftc..00|LIRAGLUTIDE|
+|glp1-receptor-agonists v1|readv2|ftc2.00|LIRAGLUTIDE 6mg/mL solution for injection prefilled pen|
+|glp1-receptor-agonists v1|readv2|ftc1.00|VICTOZA 6mg/mL solution for injection prefilled pen 3mL|
+|glp1-receptor-agonists v1|readv2|ft9..00|EXENATIDE|
+|glp1-receptor-agonists v1|readv2|ft9z.00|EXENATIDE 5micrograms/0.02mL injection prefilled pen|
+|glp1-receptor-agonists v1|readv2|ft9y.00|EXENATIDE 10micrograms/0.04mL injection prefilled pen|
+|glp1-receptor-agonists v1|readv2|ft9x.00|EXENATIDE 2mg powder+solvent for suspension for injection|
+|glp1-receptor-agonists v1|readv2|ft95.00|EXENATIDE 2mg powder+solvent for susp for inj prefilled pen|
+|glp1-receptor-agonists v1|readv2|ft94.00|BYDUREON 2mg powder+solvent for susp for inj prefilled pen|
+|glp1-receptor-agonists v1|readv2|ft93.00|BYDUREON 2mg powder and solvent for suspension for injection|
+|glp1-receptor-agonists v1|readv2|ft92.00|BYETTA 10micrograms/0.04mL injection prefilled pen|
+|glp1-receptor-agonists v1|readv2|ft91.00|BYETTA 5micrograms/0.02mL injection prefilled pen|
+|glp1-receptor-agonists v1|readv2|f2C..00|INSULIN DEGLUDEC + LIRAGLUTIDE|
+|glp1-receptor-agonists v1|readv2|f2C2.00|INSULIN DEGLUDEC+LIRAGLUTIDE 100iu/mL/3.6mg/mL soln inj pen|
+|glp1-receptor-agonists v1|readv2|f2C1.00|XULTOPHY 100iu/mL/3.6mg/mL soln for inj prefilled pen 3mL|
+|glp1-receptor-agonists v1|readv2|7L19J00|Subcutaneous injection of exenatide|
+|insulin v1|ctv3|X75XP|Insulin used|
+|insulin v1|ctv3|X795r|Insulin|
+|insulin v1|ctv3|X797a|Fish insulin|
+|insulin v1|ctv3|X797n|Porcine insulin|
+|insulin v1|ctv3|XE288|Insulin - C - polypep.|
+|insulin v1|ctv3|XSETp|Diabetes mellitus due to insulin receptor antibodies|
+|insulin v1|ctv3|Xa0k8|Types of insulin|
+|insulin v1|ctv3|XaXTO|Active insulin time|
+|insulin v1|ctv3|XaXtQ|Insulin infusion rate|
+|insulin v1|ctv3|f1...|Short-acting insulin|
+|insulin v1|ctv3|f11..|Soluble insulin|
+|insulin v1|ctv3|f111.|Insulin 100iu/mL injection 10mL|
+|insulin v1|ctv3|f112.|Hypurin injection 10mL|
+|insulin v1|ctv3|f12..|Neutral insulin|
+|insulin v1|ctv3|f121.|Neutral insulin 100iu/mL injection 10mL|
+|insulin v1|ctv3|f123.|Neusulin 100iu/mL injection vial|
+|insulin v1|ctv3|f124.|Quicksol 100iu/mL injection vial|
+|insulin v1|ctv3|f125.|Velosulin 100iu/mL injection 10mL|
+|insulin v1|ctv3|f126.|Velosulin cartridge 100iu/mL injection 5.7mL|
+|insulin v1|ctv3|f127.|Human Actrapid 100iu/mL injection 10mL|
+|insulin v1|ctv3|f128.|Human Actrapid Penfill 100iu/mL injection cartridge|
+|insulin v1|ctv3|f129.|Human Velosulin 100iu/mL injection 10mL|
+|insulin v1|ctv3|f12A.|Human Actrapid 100iu/mL Penfill cartridge 1.5mL|
+|insulin v1|ctv3|f12B.|Human Actrapid 100iu/mL preloaded injection pen 3mL|
+|insulin v1|ctv3|f12C.|Humaject S 100iu/mL prefilled pen|
+|insulin v1|ctv3|f12D.|Pork Velosulin injection 10mL|
+|insulin v1|ctv3|f12E.|Neutral insulin 100iu/mL injection cartridge|
+|insulin v1|ctv3|f12F.|Hypurin Bovine Neutral 100iu/mL injection cartridge 1.5mL|
+|insulin v1|ctv3|f12G.|Hypurin Porcine Neutral 100iu/mL injection cartridge 1.5mL|
+|insulin v1|ctv3|f12H.|Hypurin Neutral 100iu/mL injection 10mL|
+|insulin v1|ctv3|f12I.|Hypurin Porcine Neutral 100iu/mL injection 10mL|
+|insulin v1|ctv3|f12J.|Actrapid (human) Penfill 100iu/mL cartridge 3mL|
+|insulin v1|ctv3|f12L.|Insuman Rapid 100iu/mL injection vial 5mL|
+|insulin v1|ctv3|f12M.|Insuman Rapid 100iu/mL injection cartridge 3mL|
+|insulin v1|ctv3|f12Q.|Insuman Rapid OptiSet 100iu/mL prefilled pen 3mL|
+|insulin v1|ctv3|f12R.|Human Velosulin (pyr) 100iu/mL injection 10mL|
+|insulin v1|ctv3|f12S.|Hypurin Bovine Neutral 100iu/mL injection cartridge 3mL|
+|insulin v1|ctv3|f12T.|Hypurin Porcine Neutral 100iu/mL injection cartridge 3mL|
+|insulin v1|ctv3|f12U.|EXUBERA 1mg powder for inhalation|
+|insulin v1|ctv3|f12V.|EXUBERA 3mg powder for inhalation|
+|insulin v1|ctv3|f12W.|HUMAN INSULIN 1mg powder for inhalation|
+|insulin v1|ctv3|f12X.|HUMAN INSULIN 3mg powder for inhalation|
+|insulin v1|ctv3|f12Y.|INSUMAN INFUSAT 100iu/mL soln for inj cartridges 3.15mL|
+|insulin v1|ctv3|f12Z.|INSUMAN INFUSAT 100iu/mL solution for injection vials 10mL|
+|insulin v1|ctv3|f12a.|Humulin S 100iu/mL injection 10mL|
+|insulin v1|ctv3|f12d.|Pur-In Neutral 100iu/mL vials 10mL|
+|insulin v1|ctv3|f12e.|Pur-In Neutral 100iu/mL cartridges 3mL|
+|insulin v1|ctv3|f12g.|Humulin S 100iu/mL cartridges 1.5mL|
+|insulin v1|ctv3|f12h.|NovoPen II device|
+|insulin v1|ctv3|f12k.|Pur-In Pen 1 device|
+|insulin v1|ctv3|f12m.|Pur-In Pen 2 device|
+|insulin v1|ctv3|f12n.|Pur-In Pen 4 device|
+|insulin v1|ctv3|f12p.|Diapen 1 device|
+|insulin v1|ctv3|f12q.|Diapen 2 device|
+|insulin v1|ctv3|f12r.|NovoPen I device|
+|insulin v1|ctv3|f12s.|Humulin S 100iu/mL cartridges 3mL|
+|insulin v1|ctv3|f12y.|Human insulin 100units/mL injection cartridge|
+|insulin v1|ctv3|f12z.|Human insulin 100iu/mL injection vial|
+|insulin v1|ctv3|f13..|Insulin lispro|
+|insulin v1|ctv3|f131.|Insulin lispro 100iu/mL injection vial|
+|insulin v1|ctv3|f132.|Humalog 100iu/mL injection 10mL|
+|insulin v1|ctv3|f133.|Insulin lispro 100iu/mL injection cartridge|
+|insulin v1|ctv3|f134.|Humalog 100iu/mL cartridges 1.5mL|
+|insulin v1|ctv3|f135.|Humalog 100iu/mL cartridge 3mL|
+|insulin v1|ctv3|f136.|Insulin lispro 100iu/mL prefilled pen|
+|insulin v1|ctv3|f137.|Humalog-Pen 100iu/mL prefilled pen 3mL|
+|insulin v1|ctv3|f138.|HUMALOG KWIKPEN 100iu/mL prefilled pen 3mL|
+|insulin v1|ctv3|f139.|HUMALOG KWIKPEN 200iu/mL prefilled pen 3mL|
+|insulin v1|ctv3|f13A.|INSULIN LISPRO 200iu/mL prefilled pen|
+|insulin v1|ctv3|f14..|Insulin aspart|
+|insulin v1|ctv3|f141.|NovoRapid 100units/mL injection vial|
+|insulin v1|ctv3|f142.|NovoRapid NovoLet 100units/mL prefilled syringe 3mL|
+|insulin v1|ctv3|f143.|NovoRapid Penfill 100units/mL cartridge 3mL|
+|insulin v1|ctv3|f144.|NovoRapid FlexPen 100units/mL prefilled pen 3mL|
+|insulin v1|ctv3|f145.|NOVORAPID FLEXTOUCH 100units/mL soln for injection pen 3mL|
+|insulin v1|ctv3|f146.|NOVORAPID PUMPCART 100units/mL soln for inj cartridges 1.6mL|
+|insulin v1|ctv3|f14w.|Insulin aspart 100units/mL prefilled pen|
+|insulin v1|ctv3|f14x.|Insulin aspart 100units/mL injection vial|
+|insulin v1|ctv3|f14y.|Insulin aspart 100units/mL prefilled syringe|
+|insulin v1|ctv3|f14z.|Insulin aspart 100units/mL cartridge|
+|insulin v1|ctv3|f15..|Insulin glulisine|
+|insulin v1|ctv3|f151.|Apidra 100iu/mL injection vials 10mL|
+|insulin v1|ctv3|f152.|Apidra 100iu/mL injection cartridges 3mL|
+|insulin v1|ctv3|f153.|Apidra 100iu/mL OptiSet prefilled pen 3mL|
+|insulin v1|ctv3|f154.|APIDRA 100iu/mL OptiClik cartridges 3mL|
+|insulin v1|ctv3|f155.|APIDRA 100iu/mL SoloStar prefilled pen 3mL|
+|insulin v1|ctv3|f15x.|Insulin glulisine 100iu/mL injection prefilled pen|
+|insulin v1|ctv3|f15y.|Insulin glulisine 100iu/mL injection cartridge|
+|insulin v1|ctv3|f15z.|Insulin glulisine 100iu/mL injection vial|
+|insulin v1|ctv3|f2...|Intermediate and long acting insulins|
+|insulin v1|ctv3|f21..|Biphasic insulin injection|
+|insulin v1|ctv3|f211.|Rapitard MC 100iu/mL injection 10mL|
+|insulin v1|ctv3|f212.|PenMix cartridges 1.5mL|
+|insulin v1|ctv3|f21z.|Biphasic insulin 100units/mL injection vial|
+|insulin v1|ctv3|f22..|Insulin zinc suspension(mixed)|
+|insulin v1|ctv3|f221.|Insulin zinc lente 100iu/mL injection 10mL|
+|insulin v1|ctv3|f223.|Lentard MC 100iu/mL injection 10mL|
+|insulin v1|ctv3|f224.|Neulente 100iu/mL injection|
+|insulin v1|ctv3|f225.|Tempulin 100iu/mL injection|
+|insulin v1|ctv3|f226.|Human Monotard 100iu/mL injection 10mL|
+|insulin v1|ctv3|f227.|Humulin Lente 100iu/mL injection 10mL|
+|insulin v1|ctv3|f228.|Hypurin Lente 100iu/mL injection 10mL|
+|insulin v1|ctv3|f22y.|Human insulin zinc suspension 100units/mL injection vial|
+|insulin v1|ctv3|f22z.|Insulin zinc suspension 100units/mL injection vial|
+|insulin v1|ctv3|f23..|IZS - amorphous|
+|insulin v1|ctv3|f231.|Semitard MC 100iu/mL injection 10mL|
+|insulin v1|ctv3|f23z.|Insulin zinc amorphous suspension 100units/mL injection vial|
+|insulin v1|ctv3|f24..|IZS - crystalline|
+|insulin v1|ctv3|f241.|Human Ultratard 100iu/mL injection 10mL|
+|insulin v1|ctv3|f242.|Humulin Zn 100iu/mL injection 10mL|
+|insulin v1|ctv3|f24z.|Insulin zinc crystalline human suspension 100units/mL injection vial|
+|insulin v1|ctv3|f25..|Isophane insulin injection|
+|insulin v1|ctv3|f251.|Isophane insulin 100iu/mL injection 10mL|
+|insulin v1|ctv3|f253.|Insulatard 100iu/mL injection 10mL|
+|insulin v1|ctv3|f254.|Monophane 100iu/mL injection|
+|insulin v1|ctv3|f255.|Neuphane 100iu/mL injection|
+|insulin v1|ctv3|f256.|Initard 50/50 injection 10mL|
+|insulin v1|ctv3|f257.|Mixtard injection 10mL|
+|insulin v1|ctv3|f258.|Human Insulatard 100iu/mL injection 10mL|
+|insulin v1|ctv3|f25A.|Humulin I 100iu/mL prefilled pen 3mL|
+|insulin v1|ctv3|f25B.|Insuman Basal Optiset 100iu/mL prefilled pen 3mL|
+|insulin v1|ctv3|f25C.|Insulatard InnoLet 100units/mL prefilled syringe 3mL|
+|insulin v1|ctv3|f25D.|Insulatard FlexPen 100iu/mL prefilled pen 3mL|
+|insulin v1|ctv3|f25E.|Hypurin Bovine Isophane 100iu/mL injection cartridge 3mL|
+|insulin v1|ctv3|f25F.|Hypurin Porcine Isophane 100iu/mL injection cartridge 3mL|
+|insulin v1|ctv3|f25G.|HUMULIN I KWIKPEN 100iu/mL prefilled pen 3mL|
+|insulin v1|ctv3|f25H.|INSUMAN BASAL SOLOSTAR 100iu/mL prefilled pen 3mL|
+|insulin v1|ctv3|f25W.|Human isophane insulin 100units/mL prefilled syringe|
+|insulin v1|ctv3|f25X.|Human isophane insulin 100units/mL injection cartridge|
+|insulin v1|ctv3|f25Y.|Human isophane insulin 100units/mL injection vial|
+|insulin v1|ctv3|f25Z.|Isophane insulin 100iu/mL injection vial|
+|insulin v1|ctv3|f25a.|Humulin I 100iu/mL injection 10mL|
+|insulin v1|ctv3|f25b.|Human Actraphane injection 10mL|
+|insulin v1|ctv3|f25c.|Human Initard injection 10mL|
+|insulin v1|ctv3|f25d.|Human Mixtard injection 10mL|
+|insulin v1|ctv3|f25e.|Humulin M1 injection 10mL|
+|insulin v1|ctv3|f25f.|Humulin M2 injection 10mL|
+|insulin v1|ctv3|f25g.|Humulin M3 injection 10mL|
+|insulin v1|ctv3|f25h.|Humulin M4 injection 10mL|
+|insulin v1|ctv3|f25j.|Pur-In Isophane 100iu/mL vials 10mL|
+|insulin v1|ctv3|f25k.|Pur-In Isophane 100iu/mL cartridges 3mL|
+|insulin v1|ctv3|f25l.|Humulin I 100iu/mL cartridges 1.5mL|
+|insulin v1|ctv3|f25m.|Human Insulatard 100iu/mL preloaded injection pen 3mL|
+|insulin v1|ctv3|f25n.|Humaject I 100iu/mL prefilled pen|
+|insulin v1|ctv3|f25o.|Humulin I 100iu/mL cartridges 3mL|
+|insulin v1|ctv3|f25p.|Human Insulatard ge 100iu/mL injection 10mL|
+|insulin v1|ctv3|f25q.|Human Insulatard Penfill 1.5mL|
+|insulin v1|ctv3|f25r.|Pork Insulatard 100units/mL injection 10mL|
+|insulin v1|ctv3|f25s.|Isophane insulin 100iu/mL injection cartridge|
+|insulin v1|ctv3|f25t.|Hypurin Bovine Isophane 100iu/mL injection cartridge 1.5mL|
+|insulin v1|ctv3|f25u.|Hypurin Porcine Isophane 100iu/mL injection cartridge 1.5mL|
+|insulin v1|ctv3|f25v.|Hypurin isophane 100iu/mL injection 10mL|
+|insulin v1|ctv3|f25w.|Hypurin Porcine Isophane 100iu/mL injection 10mL|
+|insulin v1|ctv3|f25x.|Insulatard Penfill cartridge 3mL|
+|insulin v1|ctv3|f25y.|Insuman Basal 100iu/mL injection vial 5mL|
+|insulin v1|ctv3|f25z.|Insuman Basal 100iu/mL injection cartridge 3mL|
+|insulin v1|ctv3|f26..|Protamine zinc insulin injection|
+|insulin v1|ctv3|f262.|Hypurin Protamine zinc injection 10mL|
+|insulin v1|ctv3|f26z.|Protamine zinc insulin 100units/mL injection vial|
+|insulin v1|ctv3|f27..|Biphasic isophane insulin injection|
+|insulin v1|ctv3|f271.|Mixtard 30/70 injection 10mL|
+|insulin v1|ctv3|f273.|Pur-In Mix 15/85 vials 10mL|
+|insulin v1|ctv3|f274.|Pur-In Mix 15/85 cartridges 3mL|
+|insulin v1|ctv3|f275.|Pur-In Mix 25/75 vials 10mL|
+|insulin v1|ctv3|f276.|Pur-In Mix 25/75 cartridges 3mL|
+|insulin v1|ctv3|f277.|Pur-In Mix 50/50 vials 10mL|
+|insulin v1|ctv3|f278.|Pur-In Mix 50/50 cartridges 3mL|
+|insulin v1|ctv3|f279.|Humulin M1 10/90 vials 10mL|
+|insulin v1|ctv3|f27A.|Humaject M1 100iu/mL prefilled pen|
+|insulin v1|ctv3|f27B.|Humaject M2 100iu/mL prefilled pen|
+|insulin v1|ctv3|f27C.|Humaject M3 100iu/mL prefilled pen|
+|insulin v1|ctv3|f27D.|Humaject M4 100iu/mL prefilled pen|
+|insulin v1|ctv3|f27E.|Humaject M5 100iu/mL prefilled pen|
+|insulin v1|ctv3|f27F.|Humulin M4 40/60 cartridges 3mL|
+|insulin v1|ctv3|f27G.|Humulin M5 50/50 cartridges 3mL|
+|insulin v1|ctv3|f27H.|Human Mixtard 30 ge 100units/mL injection 10mL|
+|insulin v1|ctv3|f27I.|Hypurin Porcine Biphasic Isophane 30/70 injection cartridge 3mL|
+|insulin v1|ctv3|f27J.|Human Mixtard 10 Penfill 1.5mL|
+|insulin v1|ctv3|f27K.|Human Mixtard 20 Penfill 1.5mL|
+|insulin v1|ctv3|f27L.|Human Mixtard 30 Penfill 1.5mL|
+|insulin v1|ctv3|f27M.|Human Mixtard 40 Penfill 1.5mL|
+|insulin v1|ctv3|f27N.|Human Mixtard 50 Penfill 1.5mL|
+|insulin v1|ctv3|f27O.|Mixtard 30 InnoLet 100units/mL prefilled syringe 3mL|
+|insulin v1|ctv3|f27P.|Human Mixtard 10 prefilled pen|
+|insulin v1|ctv3|f27Q.|Human Mixtard 20 prefilled pen|
+|insulin v1|ctv3|f27R.|Human Mixtard 30 prefilled pen|
+|insulin v1|ctv3|f27S.|Human Mixtard 40 prefilled pen|
+|insulin v1|ctv3|f27T.|Human Mixtard 50 prefilled pen|
+|insulin v1|ctv3|f27V.|Pork Mixtard 30 injection 10mL|
+|insulin v1|ctv3|f27W.|Human Mixtard 50 vial 10mL|
+|insulin v1|ctv3|f27X.|Hypurin Porcine 30/70 Mix injection 10mL|
+|insulin v1|ctv3|f27Y.|Hypurin Porcine 30/70 Mix injection cartridge 1.5mL|
+|insulin v1|ctv3|f27Z.|Insuman Comb 25 100iu/mL injection vial 5mL|
+|insulin v1|ctv3|f27a.|Humulin M1 10/90 cartridges 1.5mL|
+|insulin v1|ctv3|f27b.|Humulin M2 20/80 vials 10mL|
+|insulin v1|ctv3|f27c.|Humulin M2 20/80 cartridges 1.5mL|
+|insulin v1|ctv3|f27d.|Humulin M3 30/70 vials 10mL|
+|insulin v1|ctv3|f27e.|Humulin M3 30/70 cartridges 1.5mL|
+|insulin v1|ctv3|f27f.|Humulin M4 40/60 vials 10mL|
+|insulin v1|ctv3|f27g.|Humulin M4 40/60 cartridges 1.5mL|
+|insulin v1|ctv3|f27j.|Human Mixtard 30/70 injection 10mL|
+|insulin v1|ctv3|f27k.|Human Initard 50/50 injection 10mL|
+|insulin v1|ctv3|f27u.|Humulin M5 50/50 injection vial 10mL|
+|insulin v1|ctv3|f27v.|Humulin M5 50/50 cartridge 1.5mL|
+|insulin v1|ctv3|f27w.|Humulin M1 10/90 cartridges 3mL|
+|insulin v1|ctv3|f27x.|Humulin M2 20/80 cartridges 3mL|
+|insulin v1|ctv3|f27y.|Insuman Comb 25 100iu/mL injection cartridge 3mL|
+|insulin v1|ctv3|f27z.|Humulin M3 30/70 cartridges 3mL|
+|insulin v1|ctv3|f28..|Biphasic isophane insulin 2|
+|insulin v1|ctv3|f281.|Mixtard 10 (human) Penfill cartridge 3mL|
+|insulin v1|ctv3|f282.|Mixtard 20 (human) Penfill cartridge 3mL|
+|insulin v1|ctv3|f283.|Mixtard 30 Penfill cartridge 3mL|
+|insulin v1|ctv3|f284.|Mixtard 40 (human) Penfill cartridge 3mL|
+|insulin v1|ctv3|f285.|Mixtard 50 (human) Penfill cartridge 3mL|
+|insulin v1|ctv3|f286.|Insuman Comb 15 100iu/mL injection cartridge 3mL|
+|insulin v1|ctv3|f287.|Insuman Comb 50 100iu/mL injection vial 5mL|
+|insulin v1|ctv3|f288.|Insuman Comb 15 OptiSet 100iu/mL prefilled pen 3mL|
+|insulin v1|ctv3|f289.|Insuman Comb 25 OptiSet 100iu/mL prefilled pen 3mL|
+|insulin v1|ctv3|f28A.|Insuman Comb 50 OptiSet 100iu/mL prefilled pen 3mL|
+|insulin v1|ctv3|f28B.|Insuman Comb 15 100iu/mL injection vial 5mL|
+|insulin v1|ctv3|f28C.|Insuman Comb 50 100iu/mL injection cartridge 3mL|
+|insulin v1|ctv3|f28D.|Humulin M3 100iu/mL prefilled pen 3mL|
+|insulin v1|ctv3|f28E.|HUMULIN M3 KWIKPEN 100iu/mL prefilled pen 3mL|
+|insulin v1|ctv3|f28F.|INSUMAN COMB 25 SOLOSTAR 100iu/mL prefilled pen 3mL|
+|insulin v1|ctv3|f29..|Insulin glargine|
+|insulin v1|ctv3|f291.|Insulin glargine 100iu/mL injection cartridge|
+|insulin v1|ctv3|f292.|Insulin glargine 100iu/mL injection vial|
+|insulin v1|ctv3|f293.|Insulin glargine 100iu/mL prefilled pen|
+|insulin v1|ctv3|f294.|Lantus 100iu/mL injection cartridge 3mL|
+|insulin v1|ctv3|f295.|Lantus 100iu/mL injection vial 10mL|
+|insulin v1|ctv3|f296.|Lantus 100iu/mL OptiSet prefilled pen 3mL|
+|insulin v1|ctv3|f297.|Lantus 100iu/mL OptiClik cartridges 3mL|
+|insulin v1|ctv3|f298.|LANTUS 100iu/mL SoloStar prefilled pen 3mL|
+|insulin v1|ctv3|f299.|TOUJEO 300iu/mL SoloStar prefilled pen 1.5mL|
+|insulin v1|ctv3|f29A.|INSULIN GLARGINE 300iu/mL prefilled pen|
+|insulin v1|ctv3|f29B.|ABASAGLAR 100iu/mL solution for injection cartridges 3mL|
+|insulin v1|ctv3|f29C.|ABASAGLAR KWIKPEN 100iu/mL soln for inj prefilled pen 3mL|
+|insulin v1|ctv3|f2A..|Insulin detemir|
+|insulin v1|ctv3|f2A1.|Levemir Penfill 100iu/mL injection cartridge 3mL|
+|insulin v1|ctv3|f2A2.|Levemir FlexPen 100iu/mL prefilled pen 3mL|
+|insulin v1|ctv3|f2A3.|LEVEMIR INNOLET 100iu/mL prefilled syringe 3mL|
+|insulin v1|ctv3|f2Ax.|INSULIN DETEMIR 100iu/mL prefilled syringe|
+|insulin v1|ctv3|f2Ay.|Insulin detemir 100iu/mL prefilled pen|
+|insulin v1|ctv3|f2Az.|Insulin detemir 100iu/mL injection cartridge|
+|insulin v1|ctv3|f2B..|INSULIN DEGLUDEC|
+|insulin v1|ctv3|f2B1.|TRESIBA FLEXTOUCH 100iu/mL prefilled pen 3mL|
+|insulin v1|ctv3|f2B2.|INSULIN DEGLUDEC 100iu/mL prefilled pen|
+|insulin v1|ctv3|f2B3.|TRESIBA FLEXTOUCH 200iu/mL prefilled pen 3mL|
+|insulin v1|ctv3|f2B4.|INSULIN DEGLUDEC 200iu/mL prefilled pen|
+|insulin v1|ctv3|f2B5.|TRESIBA PENFILL 100iu/mL injection cartridges|
+|insulin v1|ctv3|f2B6.|INSULIN DEGLUDEC 100iu/mL injection cartridges|
+|insulin v1|ctv3|f2C..|INSULIN DEGLUDEC + LIRAGLUTIDE|
+|insulin v1|ctv3|f2C1.|XULTOPHY 100iu/mL/3.6mg/mL soln for inj prefilled pen 3mL|
+|insulin v1|ctv3|f2C2.|INSULIN DEGLUDEC+LIRAGLUTIDE 100iu/mL/3.6mg/mL soln inj pen|
+|insulin v1|ctv3|fw...|Short with intermediate-acting insulins|
+|insulin v1|ctv3|fw1..|Biphasic isophane insulin lispro|
+|insulin v1|ctv3|fw11.|Humalog Mix25 100iu/mL cartridge 3mL|
+|insulin v1|ctv3|fw12.|Humalog Mix25 100iu/mL prefilled pen 3mL|
+|insulin v1|ctv3|fw13.|Humalog Mix50 100iu/mL prefilled pen 3mL|
+|insulin v1|ctv3|fw14.|HUMALOG MIX50 100iu/mL cartridges 3mL|
+|insulin v1|ctv3|fw15.|HUMALOG MIX25 KWIKPEN 100iu/mL prefilled pen 3mL|
+|insulin v1|ctv3|fw16.|HUMALOG MIX50 KWIKPEN 100iu/mL prefilled pen 3mL|
+|insulin v1|ctv3|fw2..|Biphasic insulin aspart|
+|insulin v1|ctv3|fw21.|NovoMix 30 Penfill 100units/mL injection cartridge 3mL|
+|insulin v1|ctv3|fw22.|NovoMix 30 FlexPen 100units/mL injection prefilled pen 3mL|
+|insulin v1|ctv3|p453.|EXUBERA delivery system kit|
+|insulin v1|ctv3|p454.|EXUBERA INSULIN RELEASE UNITS|
+|insulin v1|ctv3|p455.|EXUBERA delivery system chamber|
+|insulin v1|ctv3|ph2..|Insulin U100 syringe|
+|insulin v1|ctv3|ph21.|Hypodermic U100 insulin syringe 0.5mL x1|
+|insulin v1|ctv3|ph22.|Hypodermic U100 insulin syringe 1mL x1|
+|insulin v1|ctv3|ph23.|Pre-set 1mL U100 insulin syringe|
+|insulin v1|ctv3|ph24.|Hypoguard 1mL U100 insulin syringe|
+|insulin v1|ctv3|ph25.|Click/Count 1mL U100 insulin syringe|
+|insulin v1|ctv3|ph26.|ABCare 1mL U100 pre-set syringe|
+|insulin v1|ctv3|ph27.|ABCare 0.5mL U100 glass syringe|
+|insulin v1|ctv3|ph28.|ABCare 1mL U100 glass syringe|
+|insulin v1|ctv3|ph29.|Hypoguard 1mL U100 click/count syringe|
+|insulin v1|ctv3|ph2A.|Hypoguard 1mL U100 pre-set syringe|
+|insulin v1|ctv3|ph3..|Disposable insulin U100 syringe+needle|
+|insulin v1|ctv3|ph31.|Insulin 0.5mL disposable syringe|
+|insulin v1|ctv3|ph32.|Insulin 1mL disposable syringe|
+|insulin v1|ctv3|ph33.|Insulin 0.3mL disposable syringe|
+|insulin v1|ctv3|ph34.|Insulin U100 0.3mL disposable syringe+12mm(29G) needle|
+|insulin v1|ctv3|ph35.|Insulin U100 0.5mL disposable syringe+12mm needle|
+|insulin v1|ctv3|ph36.|Insulin U100 1mL disposable syringe+12mm needle|
+|insulin v1|ctv3|ph39.|Monoject U100 0.5mL disposable syringe+12mm(27G) needle|
+|insulin v1|ctv3|ph3A.|Monoject U100 1mL disposable syringe+12mm(27G) needle|
+|insulin v1|ctv3|ph3B.|BD U100 Micro-Fine+ 0.3mL disposable syringe+needle|
+|insulin v1|ctv3|ph3C.|BD Micro-Fine+ U100 0.5mL disposable syringe+12mm(29G) needle|
+|insulin v1|ctv3|ph3D.|BD Micro-Fine+ U100 1mL disposable syringe+12mm(29G) needle|
+|insulin v1|ctv3|ph3E.|Omnikan U100 0.5mL disposable syringe+12mm(29G) needle|
+|insulin v1|ctv3|ph3F.|Omnikan U100 1mL disposable syringe+12mm(29G) needle|
+|insulin v1|ctv3|ph3G.|Myjector 0.5mL U100 disposable syringe+needle|
+|insulin v1|ctv3|ph3H.|Myjector 1mL U100 disposable syringe+needle|
+|insulin v1|ctv3|ph3I.|Omnifix Solo 1mL U100 disposable syringe|
+|insulin v1|ctv3|ph3J.|Insulin U100 0.3mL disposable syringe+8mm(30G) needle|
+|insulin v1|ctv3|ph3K.|Insulin U100 0.5mL disposable syringe+8mm(30G) needle|
+|insulin v1|ctv3|ph3L.|BD Micro-Fine+ U100 0.3mL disposable syringe+8mm(30G) needle|
+|insulin v1|ctv3|ph3M.|BD Micro-Fine+ U100 0.5mL disposable syringe+8mm(30G) needle|
+|insulin v1|ctv3|ph3N.|Insulin U100 0.5mL disposable syringe+12mm(27G) needle|
+|insulin v1|ctv3|ph3P.|Insulin U100 0.5mL disposable syringe+12mm(29G) needle|
+|insulin v1|ctv3|ph3Q.|Insulin U100 0.5mL disposable syringe+12mm(30G) needle|
+|insulin v1|ctv3|ph3R.|Myjector U100 0.5mL disposable syringe+12mm(27G) needle|
+|insulin v1|ctv3|ph3S.|Myjector U100 0.5mL disposable syringe+12mm(29G) needle|
+|insulin v1|ctv3|ph3T.|Insulin U100 1mL disposable syringe+12mm(27G) needle|
+|insulin v1|ctv3|ph3U.|Insulin U100 1mL disposable syringe+12mm(29G) needle|
+|insulin v1|ctv3|ph3V.|Insulin U100 1mL disposable syringe+12mm(30G) needle|
+|insulin v1|ctv3|ph3W.|Myjector U100 1mL disposable syringe+12mm(27G) needle|
+|insulin v1|ctv3|ph3X.|Myjector U100 1mL disposable syringe+12mm(29G) needle|
+|insulin v1|ctv3|ph3Y.|Unifine U100 0.3mL disposable syringe+12mm(29G) needle|
+|insulin v1|ctv3|ph3Z.|Unifine U100 0.5mL disposable syringe+12mm(29G) needle|
+|insulin v1|ctv3|ph3a.|Unifine U100 1mL disposable syringe+12mm(29G) needle|
+|insulin v1|ctv3|ph3b.|BD MIcro-Fine Plus U100 1mL disposable syringe+8mm(30G) needle|
+|insulin v1|ctv3|ph3c.|Insulin U100 1mL disposable syringe+8mm(30G) needle|
+|insulin v1|ctv3|ph3d.|Omnican 50 U100 0.5mL disposable syringe+8mm(30G) needle|
+|insulin v1|ctv3|ph3e.|Omnican 50 U100 0.5mL disposable syringe+12mm(30G) needle|
+|insulin v1|ctv3|ph3f.|Omnican 100 U100 1mL disposable syringe+8mm(30G) needle|
+|insulin v1|ctv3|ph3g.|Omnican 100 U100 1mL disposable syringe+12mm(30G) needle|
+|insulin v1|ctv3|phB..|INSULIN SYRINGE+NEEDLE|
+|insulin v1|ctv3|phB1.|MAGELLAN 0.3mL disposable safety syringe+8mm(30G) needle|
+|insulin v1|ctv3|phB2.|MAGELLAN 0.5mL disposable safety syringe+8mm(30G) needle|
+|insulin v1|ctv3|phB3.|MAGELLAN 1mL disposable safety syringe+8mm(30G) needle|
+|insulin v1|ctv3|phB4.|MAGELLAN 0.3mL disposable safety syringe+13mm(29G) needle|
+|insulin v1|ctv3|phB5.|MAGELLAN 0.5mL disposable safety syringe+13mm(29G) needle|
+|insulin v1|ctv3|phB6.|MAGELLAN 1mL disposable safety syringe+13mm(29G) needle|
+|insulin v1|ctv3|pm16.|NovoPen 3 Classic device|
+|insulin v1|ctv3|pm17.|NovoPen 3 Fun device|
+|insulin v1|ctv3|pm18.|NovoPen 1.5 Classic device|
+|insulin v1|ctv3|pm19.|NovoPen 1.5 Fun device|
+|insulin v1|ctv3|pm1A.|NovoPen 3 Demi device|
+|insulin v1|ctv3|pm1B.|Autopen 3mL one unit device|
+|insulin v1|ctv3|pm1C.|Autopen 1.5mL one unit device|
+|insulin v1|ctv3|pm1D.|Autopen 1.5mL two unit device|
+|insulin v1|ctv3|pm1E.|Autopen 3mL two unit device|
+|insulin v1|ctv3|pm1I.|NovoPen device|
+|insulin v1|ctv3|pm1L.|Novopen junior yellow device|
+|insulin v1|ctv3|pm1M.|Novopen junior green device|
+|insulin v1|ctv3|pm1N.|Autopen Junior 3mL one unit device|
+|insulin v1|ctv3|pm1P.|Autopen Junior 3mL two unit device|
+|insulin v1|ctv3|pm1S.|mhi-500 Starter Kit MH79002-01 needle-free insulin delivery system|
+|insulin v1|ctv3|pm1T.|mhi-500 3-month Consumable Kit (size 6) MH79002-07 needle-free insulin delivery system|
+|insulin v1|ctv3|pm1U.|mhi-500 3-month Consumable Kit (size 7) MH79002-08 needle-free insulin delivery system|
+|insulin v1|ctv3|pm1Y.|Autopen 24 3mL one unit device|
+|insulin v1|ctv3|pm1Z.|Autopen 24 3mL two unit device|
+|insulin v1|ctv3|pm1a.|Autopen Special Edition 3mL one unit device|
+|insulin v1|ctv3|pm1b.|Autopen Special Edition 3mL two unit device|
+|insulin v1|ctv3|pm1h.|mhi-500 Starter Kit MH79002-01A needle-free insulin delivery system with 3mL vial adaptor|
+|insulin v1|ctv3|pm1j.|mhi-500 3-month Consumable Kit (size 6) MH79002-12 needle-free insulin delivery system with 3mL vial adaptor|
+|insulin v1|ctv3|pm1k.|mhi-500 3-month Consumable Kit (size 7) MH79002-13 needle-free insulin delivery system with 3mL vial adaptor|
+|insulin v1|ctv3|pm1o.|SQ-PEN Starter Pack SQ001 needle-free insulin delivery system|
+|insulin v1|ctv3|pm1r.|SQ-PEN 3mL 3-month Consumable Pack SQ004 needle-free insulin delivery system|
+|insulin v1|ctv3|pm1s.|SQ-PEN 10mL 3-month Consumable Pack SQ006 needle-free insulin delivery system|
+|insulin v1|ctv3|pm1w.|SQ-X STARTER PACK SQ-007 needle free insulin delivery system|
+|insulin v1|ctv3|pm1y.|NOVOPEN 4 blue device|
+|insulin v1|ctv3|pm1z.|NOVOPEN 4 silver device|
+|insulin v1|ctv3|pm2A.|NOVOPEN ECHO 3mL blue device|
+|insulin v1|ctv3|pm2B.|NOVOPEN ECHO 3mL red device|
+|insulin v1|ctv3|pm2I.|NOVOPEN 5 blue injection device|
+|insulin v1|ctv3|pm2J.|NOVOPEN 5 silver injection device|
+|insulin v1|ctv3|x005Q|Human Mixtard 30 ge 100units/mL injection vial|
+|insulin v1|ctv3|x005R|Human Actrapid (pyr) 100iu/mL injection vial|
+|insulin v1|ctv3|x005S|Human Initard 50/50 (emp) 100units/mL injection vial|
+|insulin v1|ctv3|x005T|Human Insulatard (emp) 100iu/mL injection vial|
+|insulin v1|ctv3|x005V|Human Mixtard 30/70 (emp) 100units/mL injection vial|
+|insulin v1|ctv3|x005W|Human Monotard (pyr) 100iu/mL injection vial|
+|insulin v1|ctv3|x005X|Human Insulatard ge 100units/mL injection vial|
+|insulin v1|ctv3|x005Y|Human Insulatard 100units/mL Penfill|
+|insulin v1|ctv3|x005Z|Human Ultratard (pyr) 100iu/mL injection vial|
+|insulin v1|ctv3|x005a|Human Velosulin (emp) 100iu/mL injection vial|
+|insulin v1|ctv3|x005b|Humulin I (prb) 100iu/mL injection vial|
+|insulin v1|ctv3|x005c|Humulin I (prb) 100iu/mL injection cartridge|
+|insulin v1|ctv3|x005d|Humulin Lente (prb) 100iu/mL injection vial|
+|insulin v1|ctv3|x005e|Humulin M1 10/90 (prb) 100units/mL injection vial|
+|insulin v1|ctv3|x005f|Humulin M1 10/90 (prb) 100units/mL injection cartridge|
+|insulin v1|ctv3|x005g|Humulin M2 20/80 (prb) 100units/mL injection vial|
+|insulin v1|ctv3|x005h|Humulin M2 20/80 (prb) 100units/mL injection cartridge|
+|insulin v1|ctv3|x005i|Humulin M3 30/70 (prb) 100units/mL injection vial|
+|insulin v1|ctv3|x005j|Humulin M3 30/70 (prb) 100units/mL injection cartridge|
+|insulin v1|ctv3|x005k|Humulin M4 40/60 (prb) 100units/mL injection vial|
+|insulin v1|ctv3|x005l|Humulin M4 40/60 (prb) 100units/mL injection cartridge|
+|insulin v1|ctv3|x005m|Humulin Zn (prb) 100iu/mL injection vial|
+|insulin v1|ctv3|x005n|Humulin S (prb) 100iu/mL injection vial|
+|insulin v1|ctv3|x005o|Humulin S 100iu/mL injection cartridge|
+|insulin v1|ctv3|x006L|Hypurin Isophane (bovine) 100iu/mL injection vial|
+|insulin v1|ctv3|x006M|Hypurin Lente (bovine) 100iu/mL injection vial|
+|insulin v1|ctv3|x006N|Hypurin Neutral (bovine) 100iu/mL injection vial|
+|insulin v1|ctv3|x006O|Hypurin Protamine Zinc (bovine) 100units/mL injection vial|
+|insulin v1|ctv3|x006c|Initard 50/50 (porcine) 100units/mL injection vial|
+|insulin v1|ctv3|x006e|Insulatard (porcine) 100iu/mL injection vial|
+|insulin v1|ctv3|x006f|Insulin product|
+|insulin v1|ctv3|x0074|Lentard MC (bovine+porcine) 100iu/mL injection vial|
+|insulin v1|ctv3|x007t|Mixtard 30/70 (porcine) 100units/mL injection vial|
+|insulin v1|ctv3|x008B|Neutral insulin 100iu/mL injection vial|
+|insulin v1|ctv3|x009D|Human Mixtard 10 Penfill|
+|insulin v1|ctv3|x009E|Human Mixtard 20 Penfill|
+|insulin v1|ctv3|x009F|Human Mixtard 30 Penfill|
+|insulin v1|ctv3|x009G|Human Mixtard 40 Penfill|
+|insulin v1|ctv3|x009H|Human Mixtard 50 Penfill|
+|insulin v1|ctv3|x00AB|Pur-In Isophane (emp) 100iu/mL injection vial|
+|insulin v1|ctv3|x00AC|Pur-In Isophane (emp) 100iu/mL injection cartridge|
+|insulin v1|ctv3|x00AD|Pur-In Mix 15/85 (emp) 100units/mL injection vial|
+|insulin v1|ctv3|x00AE|Pur-In Mix 15/85 (emp) 100units/mL injection cartridge|
+|insulin v1|ctv3|x00AF|Pur-In Mix 25/75 (emp) 100units/mL injection vial|
+|insulin v1|ctv3|x00AG|Pur-In Mix 25/75 (emp) 100units/mL injection cartridge|
+|insulin v1|ctv3|x00AH|Pur-In Mix 50/50 (emp) 100units/mL injection vial|
+|insulin v1|ctv3|x00AI|Pur-In Mix 50/50 (emp) 100units/mL injection cartridge|
+|insulin v1|ctv3|x00AJ|Pur-In Neutral (emp) 100iu/mL injection vial|
+|insulin v1|ctv3|x00AK|Pur-In Neutral 100iu/mL injection cartridge|
+|insulin v1|ctv3|x00AU|Rapitard MC 100iu/mL injection vial|
+|insulin v1|ctv3|x00Aj|Semitard MC (porcine) 100iu/mL injection vial|
+|insulin v1|ctv3|x00Bt|Pork Velosulin 100iu/mL injection vial|
+|insulin v1|ctv3|x01LZ|Actrapid NovoLet 100iu/mL prefilled pen|
+|insulin v1|ctv3|x01La|Hypurin 100units/mL injection vial|
+|insulin v1|ctv3|x01Lb|Humulin insulin|
+|insulin v1|ctv3|x01Lc|PenMix insulin|
+|insulin v1|ctv3|x01Ld|Initard insulin|
+|insulin v1|ctv3|x01Le|Pur-In-Mix insulin|
+|insulin v1|ctv3|x01Lf|Mixtard insulin|
+|insulin v1|ctv3|x01Lg|Actraphane insulin|
+|insulin v1|ctv3|x01Lh|Insulatard NovoLet 100units/mL prefilled pen|
+|insulin v1|ctv3|x01UL|Glass U100 insulin syringe|
+|insulin v1|ctv3|x01UM|Disposable U100 insulin syringe|
+|insulin v1|ctv3|x029h|Velosulin 100iu/mL injection cartridge|
+|insulin v1|ctv3|x02AO|Humulin M5 50/50 (prb) 100units/mL injection vial|
+|insulin v1|ctv3|x02KN|Human insulin 100units/mL prefilled pen|
+|insulin v1|ctv3|x02KO|Human isophane insulin 100units/mL prefilled pen|
+|insulin v1|ctv3|x02Kh|Humulin M5 50/50 (prb) 100units/mL injection cartridge|
+|insulin v1|ctv3|x02er|Humaject I|
+|insulin v1|ctv3|x02es|Humaject M1|
+|insulin v1|ctv3|x02et|Humaject M2|
+|insulin v1|ctv3|x02eu|Humaject M3|
+|insulin v1|ctv3|x02ev|Humaject M4|
+|insulin v1|ctv3|x02ew|Humaject M5|
+|insulin v1|ctv3|x02ex|Humaject S|
+|insulin v1|ctv3|x02ey|Human Mixtard|
+|insulin v1|ctv3|x03aj|Pork Mixtard 30 100units/mL injection|
+|insulin v1|ctv3|x03ak|Pork Insulatard 100units/mL injection|
+|insulin v1|ctv3|x03d0|Pork Insulatard|
+|insulin v1|ctv3|x03d1|Pork Mixtard|
+|insulin v1|ctv3|x03d5|Human Actrapid|
+|insulin v1|ctv3|x03d6|Human Ultratard|
+|insulin v1|ctv3|x03dA|Human Insulatard|
+|insulin v1|ctv3|x03dC|Human Monotard|
+|insulin v1|ctv3|x03eI|Humalog 100iu/mL injection vial|
+|insulin v1|ctv3|x03eJ|Humalog 100iu/mL injection cartridge|
+|insulin v1|ctv3|x03eK|Humalog|
+|insulin v1|ctv3|x03jX|Human Mixtard 50 injection vial|
+|insulin v1|ctv3|x03ln|Hypurin Bovine Neutral 100iu/mL injection cartridge|
+|insulin v1|ctv3|x03lo|Hypurin Bovine Isophane 100iu/mL injection cartridge|
+|insulin v1|ctv3|x03lp|Hypurin Porcine Neutral 100iu/mL injection cartridge|
+|insulin v1|ctv3|x03lq|Hypurin Porcine Isophane 100iu/mL injection cartridge|
+|insulin v1|ctv3|x03lv|Hypurin Porcine Neutral 100iu/mL injection vial|
+|insulin v1|ctv3|x03lw|Hypurin Porcine Isophane 100iu/mL injection vial|
+|insulin v1|ctv3|x03lx|Hypurin biphasic isophane insulin|
+|insulin v1|ctv3|x03ly|Hypurin Porcine 30/70 Mix injection vial|
+|insulin v1|ctv3|x03lz|Hypurin Porcine 30/70 Mix injection cartridge|
+|insulin v1|ctv3|x03si|Lentard MC|
+|insulin v1|ctv3|x03v1|Pork Mixtard 30|
+|insulin v1|ctv3|x03v2|Pork Velosulin|
+|insulin v1|ctv3|x03vx|Semitard MC|
+|insulin v1|ctv3|x03xp|Rapitard MC|
+|insulin v1|ctv3|x049L|Human Actrapid Penfill|
+|insulin v1|ctv3|x049M|Human Insulatard ge|
+|insulin v1|ctv3|x049N|Human Mixtard 10|
+|insulin v1|ctv3|x049O|Human Mixtard 20|
+|insulin v1|ctv3|x049P|Human Mixtard 30|
+|insulin v1|ctv3|x049Q|Human Mixtard 30 ge|
+|insulin v1|ctv3|x049R|Human Mixtard 40|
+|insulin v1|ctv3|x049S|Human Mixtard 50|
+|insulin v1|ctv3|x049T|Human Velosulin|
+|insulin v1|ctv3|x049V|Humulin I|
+|insulin v1|ctv3|x049W|Humulin Lente|
+|insulin v1|ctv3|x049X|Humulin M1 10/90|
+|insulin v1|ctv3|x049Y|Humulin M2 20/80|
+|insulin v1|ctv3|x049Z|Humulin M3 30/70|
+|insulin v1|ctv3|x049a|Humulin M4 40/60|
+|insulin v1|ctv3|x049b|Humulin M5|
+|insulin v1|ctv3|x049c|Humulin S|
+|insulin v1|ctv3|x049d|Humulin Zn|
+|insulin v1|ctv3|x049q|Hypurin Bovine Isophane|
+|insulin v1|ctv3|x049r|Hypurin Bovine Lente|
+|insulin v1|ctv3|x049s|Hypurin Bovine Neutral|
+|insulin v1|ctv3|x049t|Hypurin Bovine Protamine Zinc|
+|insulin v1|ctv3|x049u|Hypurin Porcine Biphasic Isophane|
+|insulin v1|ctv3|x04wm|Humalog biphasic isophane insulin lispro|
+|insulin v1|ctv3|x04wn|Humalog Mix25 100iu/mL cartridge|
+|insulin v1|ctv3|x04wo|Humalog Mix25 100iu/mL prefilled pen|
+|insulin v1|ctv3|x04wp|Humalog Mix25|
+|insulin v1|ctv3|x051f|Hypurin Porcine|
+|insulin v1|ctv3|x053d|NovoRapid NovoLet 100units/mL prefilled syringe|
+|insulin v1|ctv3|x053e|NovoRapid Penfill 100units/mL cartridge|
+|insulin v1|ctv3|x053f|NovoRapid|
+|insulin v1|ctv3|x053g|NovoRapid NovoLet|
+|insulin v1|ctv3|x053h|NovoRapid Penfill|
+|insulin v1|ctv3|x056T|Insuman Rapid 100iu/mL injection vial|
+|insulin v1|ctv3|x056U|Insuman Rapid 100iu/mL injection cartridge|
+|insulin v1|ctv3|x056X|Insuman Basal 100iu/mL injection vial|
+|insulin v1|ctv3|x056Y|Insuman Basal|
+|insulin v1|ctv3|x056Z|Insuman Basal 100iu/mL injection cartridge|
+|insulin v1|ctv3|x056a|Insuman Comb insulin|
+|insulin v1|ctv3|x056b|Insuman Comb 25 100iu/mL injection vial|
+|insulin v1|ctv3|x056c|Insuman Comb 25 100iu/mL injection cartridge|
+|insulin v1|ctv3|x056d|Insuman Rapid|
+|insulin v1|ctv3|x056e|Insuman Comb 25|
+|insulin v1|ctv3|x059L|Humalog-Pen 100iu/mL prefilled pen|
+|insulin v1|ctv3|x059M|Humalog-Pen|
+|insulin v1|ctv3|x059N|Humalog Mix50 100iu/mL prefilled pen|
+|insulin v1|ctv3|x059O|Humulin I 100iu/mL prefilled pen|
+|insulin v1|ctv3|x059P|Humalog Mix50|
+|insulin v1|ctv3|x05Cg|Autopen device|
+|insulin v1|ctv3|x05Cm|Insuman Comb 15 100iu/mL injection cartridge|
+|insulin v1|ctv3|x05Cn|Insuman Comb 50 100iu/mL injection vial|
+|insulin v1|ctv3|x05Co|Insuman Comb 15|
+|insulin v1|ctv3|x05Cp|Insuman Comb 50|
+|insulin v1|ctv3|x05D7|Pur-In Pen device|
+|insulin v1|ctv3|x05EY|Insuman Basal OptiSet 100iu/mL prefilled pen|
+|insulin v1|ctv3|x05EZ|Insuman Basal OptiSet|
+|insulin v1|ctv3|x05Ea|Insuman Rapid OptiSet 100iu/mL prefilled pen|
+|insulin v1|ctv3|x05Eb|Insuman Rapid OptiSet|
+|insulin v1|ctv3|x05Ec|Insuman Comb 15 OptiSet 100iu/mL prefilled pen|
+|insulin v1|ctv3|x05Ed|Insuman Comb 25 OptiSet 100iu/mL prefilled pen|
+|insulin v1|ctv3|x05Ee|Insuman Comb 50 OptiSet 100iu/mL prefilled pen|
+|insulin v1|ctv3|x05Ef|Insuman Comb 15 OptiSet|
+|insulin v1|ctv3|x05Eg|Insuman Comb 25 OptiSet|
+|insulin v1|ctv3|x05Eh|Insuman Comb 50 OptiSet|
+|insulin v1|ctv3|x05FF|Insuman Comb 15 100iu/mL injection vial|
+|insulin v1|ctv3|x05FG|Insuman Comb 50 100iu/mL injection cartridge|
+|insulin v1|ctv3|x05MR|Biphasic insulin - chemical|
+|insulin v1|ctv3|x05MS|Biphasic isophane insulin - chemical|
+|insulin v1|ctv3|x05Xe|Insulatard InnoLet 100units/mL prefilled syringe|
+|insulin v1|ctv3|x05Xf|Insulatard InnoLet|
+|insulin v1|ctv3|x05Xg|Mixtard 30 InnoLet 100units/mL prefilled syringe|
+|insulin v1|ctv3|x05Xh|Mixtard 30 InnoLet|
+|insulin v1|ctv3|x05c0|Human Velosulin (pyr) 100iu/mL injection vial|
+|insulin v1|ctv3|x05d0|NovoMix|
+|insulin v1|ctv3|x05d1|Insulin biphasic aspart 30/70 100units/mL injection cartridge 3mL|
+|insulin v1|ctv3|x05d2|Insulin biphasic aspart 30/70 100units/mL injection prefilled pen 3mL|
+|insulin v1|ctv3|x05dZ|Omnifix|
+|insulin v1|ctv3|x05fE|Lantus|
+|insulin v1|ctv3|x05fF|Lantus 100iu/mL injection cartridge|
+|insulin v1|ctv3|x05fG|Lantus 100iu/mL injection vial|
+|insulin v1|ctv3|x05fH|Lantus 100iu/mL OptiSet prefilled pen|
+|insulin v1|ctv3|x05fv|Disposable insulin U100 0.3mL syringe+needle|
+|insulin v1|ctv3|x05fw|Disposable insulin U100 0.5mL syringe+needle|
+|insulin v1|ctv3|x05fx|Disposable insulin U100 1mL syringe+needle|
+|insulin v1|ctv3|x05gU|NovoRapid FlexPen|
+|insulin v1|ctv3|x05gV|Insulatard FlexPen|
+|insulin v1|ctv3|x05gW|Insulatard FlexPen 100iu/mL prefilled pen|
+|insulin v1|ctv3|x05gX|NovoRapid FlexPen 100units/mL prefilled pen|
+|insulin v1|ctv3|x05tf|Levemir Penfill 100iu/mL injection cartridge|
+|insulin v1|ctv3|x05tg|Levemir|
+|insulin v1|ctv3|x05th|Levemir FlexPen 100iu/mL prefilled pen|
+|insulin v1|ctv3|x05xd|Humulin M3 100units/mL prefilled pen|
+|insulin v1|ctv3|x05ya|Apidra 100iu/mL injection vial|
+|insulin v1|ctv3|x05yb|Apidra 100iu/mL injection cartridge|
+|insulin v1|ctv3|x05yc|Apidra|
+|insulin v1|ctv3|x05zZ|Lantus 100iu/mL OptiClik cartridge|
+|insulin v1|ctv3|x05zr|Apidra 100iu/mL OptiSet prefilled pen|
+|insulin v1|emis|ACIN15879NEMIS|Actrapid  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|APIN23125NEMIS|Apidra Opticlik  Injection  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|AURE3057NEMIS|Autopen  Re-usable pen  1.5ml, 1-16 units|
+|insulin v1|emis|EXIN22785NEMIS|Exubera  Insulin Release Units  box of 6|
+|insulin v1|emis|HUCA8384BRID|Human Actrapid Penfill  Cartridges (1.5 Ml)  100 units/ml|
+|insulin v1|emis|HUCA8927PRDGY|Humulin M5 50/50  Cartridges  |
+|insulin v1|emis|HUIN3718|Humulin I  Suspension For Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|HUIN8578EGTON|Human Actraphane(Nova)  Injection|
+|insulin v1|emis|HUIN8925BRECO|Humulin M3  Suspension For Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|HUINEGTON7143|Human Actrapid  Injection  100 units/ml|
+|insulin v1|emis|HUPE26794EMIS|Human Mixtard 40  Penfill Cartridges (1.5 Ml)  |
+|insulin v1|emis|HYIN15401NEMIS|Hypurin Porcine Neutral  Injection (cartridges)  100 units/ml, 3 ml Cartridge|
+|insulin v1|emis|INPR11699NEMIS|Insulatard Innolet  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|LEINEGTON7141|Lentard Mc  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|LEPR18221NEMIS|Levemir Flexpen  Solution for injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|MHDE14616NEMIS|Mhi-500 3-Month Consumable Kit  Delivery System  10 ml, 6 nozzle, MH79002-07|
+|insulin v1|emis|MIIN15902NEMIS|Mixtard 30  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|NORE31135NEMIS|Novopen 4  Re-usable pen  Silver, 3 ml, 1-60 units|
+|insulin v1|emis|PEPR23950EMIS|Human Mixtard 50  Preloaded pen  |
+|insulin v1|emis|APIN21135NEMIS|Apidra  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|HUCA28935EMIS|Humalog  Cartridges (1.5 Ml)  100 units/ml|
+|insulin v1|emis|HUCA32498EMIS|Humulin I  Cartridges (3 Ml)  100 units/ml|
+|insulin v1|emis|HUIN5904|Humulin Zn  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|HUPR5189NEMIS|Humalog Mix50  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|HYIN31696EMIS|Hypurin Porcine Neutral  Solution for injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|ININ13808NEMIS|Insulin Glargine  Injection  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|INPR13809NEMIS|Insulin Glargine  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|INPR6347NEMIS|Insuman Comb 50 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|INSO98875NEMIS|Insulin Degludec And Liraglutide  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen|
+|insulin v1|emis|KESY78716NEMIS|Kendall Magellan Insulin Safety, Single Use, U100  Syringes with 8mm needles  Sterile, 0.5 ml, 0.3 mm/30 g|
+|insulin v1|emis|ABSO104799NEMIS|Abasaglar Kwikpen  Solution for injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|AURE14954NEMIS|Autopen 24  Re-usable pen  3 ml, 1-21 units, AN4210|
+|insulin v1|emis|HUCA27551EMIS|Humulin M5  Cartridges (1.5 Ml)  |
+|insulin v1|emis|HUCA32509EMIS|Humulin M3  Suspension For Injection  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|HUINEGTON7136|Humulin Lente  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|HUPE26791EMIS|Human Mixtard 30  Penfill Cartridges (1.5 Ml)  |
+|insulin v1|emis|INCA34843EMIS|Insulin Lispro  Solution for injection  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|ININ1196NEMIS|Insulin Aspart  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|ININ9075BRIDL|Insulin Zinc Suspension Lente (Evans)  Injection  100u/ml|
+|insulin v1|emis|INPR18215NEMIS|Insulin Detemir  Solution for injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|INSO78482NEMIS|Insulin Degludec  Solution for injection  200 units/ml, 3 ml pre-filled device|
+|insulin v1|emis|ISIN668NEMIS|Isophane Insulin (Porcine, Highly Purified)  Injection (cartridges)  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|KESY78716NEMIS|Kendall Magellan Insulin Safety, Single Use, U100  Syringes with 8mm needles  Sterile, 0.5 ml, 0.3 mm/30 g|
+|insulin v1|emis|LEIN18219NEMIS|Levemir Penfill  Injection (cartridges)  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|MHDE14617NEMIS|Mhi-500 3-Month Consumable Kit  Delivery System  10 ml, 7 nozzle, MH79002-08|
+|insulin v1|emis|MIINEGTON7152|Pork Mixtard 30  Injection  10 ml vial|
+|insulin v1|emis|MIPR15896NEMIS|Mixtard 20 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
+|insulin v1|emis|NORE3062NEMIS|Novopen 3  Re-usable pen  Classic|
+|insulin v1|emis|NORE3063NEMIS|Novopen 3  Re-usable pen  Fun, red|
+|insulin v1|emis|TOSO103679NEMIS|Toujeo Solostar  Pre-filled Disposable Pen  300 units/ml, 1.5 ml pen|
+|insulin v1|emis|HUCA32506EMIS|Humulin M2  Cartridges (3 Ml)  |
+|insulin v1|emis|HUIN28936EMIS|Humalog  Injection  100 units/ml|
+|insulin v1|emis|HUINEGTON7136|Humulin Lente  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|INSO78482NEMIS|Insulin Degludec  Solution for injection  200 units/ml, 3 ml pre-filled device|
+|insulin v1|emis|ISIN666NEMIS|Isophane Insulin (Porcine, Highly Purified)  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|ISIN669NEMIS|Isophane Insulin (Bovine, Highly Purified)  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|NOPR1202NEMIS|Novorapid Novolet  Prefilled syringes  100 units/ml|
+|insulin v1|emis|TRSO78485NEMIS|Tresiba Flextouch  Solution for injection  200 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|APIN21136NEMIS|Apidra  Injection  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|APPR22403NEMIS|Apidra Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|AURE11845NEMIS|Autopen Junior  Re-usable pen  3 ml, 1-21 units|
+|insulin v1|emis|AURE3060NEMIS|Autopen  Re-usable pen  Classic, 3 ml, 2-42 units, AN3800|
+|insulin v1|emis|HUCA18386EMIS|Humulin S  Cartridges (1.5 Ml)  100 units/ml|
+|insulin v1|emis|HUIN8426EGTON|Human Ultratard  Injection  100 units/ml|
+|insulin v1|emis|HUIN8818BRIDL|Human Initard 50/50 Insulin  Injection  100 units/ml|
+|insulin v1|emis|HUPR24176EMIS|Human Insulatard Ge  Preloaded pen  100 units/ml|
+|insulin v1|emis|HUPR31276NEMIS|Humalog Kwikpen  Solution for injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|HYIN31696EMIS|Hypurin Porcine Neutral  Solution for injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|ININ5031|Insulin Zinc Suspension  Injection  100 units/ml|
+|insulin v1|emis|INPR13809NEMIS|Insulin Glargine  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|ISIN669NEMIS|Isophane Insulin (Bovine, Highly Purified)  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|ISPE33728EMIS|Isophane Insulin (Human Pyr)  Penfill Cartridges (1.5 Ml)  100 units/ml|
+|insulin v1|emis|PEPR23946EMIS|Human Mixtard 40  Preloaded pen  |
+|insulin v1|emis|RAIN4251|Rapitard Mc (Novo)  Injection  100 units/ml|
+|insulin v1|emis|ACPR15881NEMIS|Actrapid Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
+|insulin v1|emis|AURE12986NEMIS|Autopen Special Edition  Re-usable pen  3 ml, 1-21 units|
+|insulin v1|emis|EXIN22882NEMIS|Exubera  Inhalation Powder Blisters  1 mg Unit Dose Blister|
+|insulin v1|emis|HYIN15399NEMIS|Hypurin Bovine Neutral  Injection (cartridges)  100 units/ml, 3ml Cartridge|
+|insulin v1|emis|ININ28940EMIS|Insulin Lispro  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|ININ28940EMIS|Insulin Lispro  Solution for injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|INPR6340NEMIS|Insuman Rapid Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|INPR6343NEMIS|Insuman Comb 15 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|INPR6345NEMIS|Insuman Comb 25 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|INSO78486NEMIS|Insulin Degludec  Solution for injection  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|LEIN18219NEMIS|Levemir Penfill  Injection (cartridges)  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|MIIN15902NEMIS|Mixtard 30  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|NOPR13769NEMIS|Novorapid Flexpen  Solution for injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|ABIN104796NEMIS|Abasaglar  Solution for injection  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|AURE11846NEMIS|Autopen Junior  Re-usable pen  3 ml, 2-42 units|
+|insulin v1|emis|AURE12987NEMIS|Autopen Special Edition  Re-usable pen  3 ml, 2-42 units|
+|insulin v1|emis|DIIN1778NEMIS|Disposable  Insulin syringe with needle  0.3 ml|
+|insulin v1|emis|EXIN22784NEMIS|Exubera  Insufflator kit  |
+|insulin v1|emis|HUCA32500EMIS|Humulin S  Cartridges (3 Ml)  100 units/ml|
+|insulin v1|emis|HUCA34841EMIS|Humalog  Cartridges (3 Ml)  100 units/ml|
+|insulin v1|emis|HUIN28936EMIS|Humalog  Injection  100 units/ml|
+|insulin v1|emis|HUPR26732EMIS|Humaject (Humulin I)  Preloaded pen  100 units/ml|
+|insulin v1|emis|HUPR35541EMIS|Humalog Mix25  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|HYIN30855EMIS|Hypurin Porcine Isophane  Suspension For Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|INDI10563BRIDL|Insulin Syringe  Disposable  1 ml|
+|insulin v1|emis|ININ13807NEMIS|Insulin Glargine  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|ININ15887NEMIS|Insulatard  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|ININ3283NEMIS|Insuman Comb 25  Injection  100 units/ml, 5 ml vial|
+|insulin v1|emis|INPR51153NEMIS|Insuman Basal Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|INPR6340NEMIS|Insuman Rapid Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|LAPR13574NEMIS|Lantus Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|MHDE14612NEMIS|Mhi-500 Starter Kit  Delivery System  MH79002-01|
+|insulin v1|emis|MODI10487BRIDL|Monoject  Disposable syringe with needle  1 ml, 28g|
+|insulin v1|emis|MOIN15918NEMIS|Monotard  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|NORE101164NEMIS|Novopen 5  Re-usable pen  Blue, 3 ml, 1-60 units|
+|insulin v1|emis|PEIN9239BRIDL|Human Mixtard 30  Injection (cartridges)  100 u/ml|
+|insulin v1|emis|PEPR23940EMIS|Human Mixtard 10  Preloaded pen  |
+|insulin v1|emis|SEIN2532|Semitard Mc (Novo)  Injection  100 units/ml|
+|insulin v1|emis|TRSO78484NEMIS|Tresiba Flextouch  Solution for injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|TRSO78488NEMIS|Tresiba Penfill  Solution for injection  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|AURE11845NEMIS|Autopen Junior  Re-usable pen  3 ml, 1-21 units|
+|insulin v1|emis|AURE14954NEMIS|Autopen 24  Re-usable pen  3 ml, 1-21 units, AN4210|
+|insulin v1|emis|HUPE26791EMIS|Human Mixtard 30  Penfill Cartridges (1.5 Ml)  |
+|insulin v1|emis|INCA34843EMIS|Insulin Lispro  Solution for injection  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|ACPR24174EMIS|Human Actrapid  Preloaded pen  100 units/ml|
+|insulin v1|emis|AURE12986NEMIS|Autopen Special Edition  Re-usable pen  3 ml, 1-21 units|
+|insulin v1|emis|HUPR26718EMIS|Humaject (Humulin M1)  Preloaded pen  |
+|insulin v1|emis|HUPR26730EMIS|Humaject (Humulin M5)  Preloaded pen  |
+|insulin v1|emis|HUPR5189NEMIS|Humalog Mix50  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|INDI10561BRIDL|Insulin Syringe  Disposable  0.5 ml|
+|insulin v1|emis|ININ3269NEMIS|Insuman Rapid  Injection  100 units/ml, 5 ml vial|
+|insulin v1|emis|ISIN5049|Isophane Insulin  Injection  100 units/ml|
+|insulin v1|emis|KESY78718NEMIS|Kendall Magellan Insulin Safety, Single Use, U100  Syringes with 8mm needles  Sterile, 1.0 ml, 0.3 mm/30 g|
+|insulin v1|emis|LAIN13572NEMIS|Lantus  Injection  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|MIPR15900NEMIS|Mixtard 30 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
+|insulin v1|emis|NEIN1977|Neutral Insulin  Injection  100 units/ml|
+|insulin v1|emis|NOIN1200NEMIS|Novorapid  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|NOIN12698NEMIS|Novomix 30 Penfill  Injection (cartridges)  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|PEIN9156EMIS|Human Mixtard 10  Injection  |
+|insulin v1|emis|SQDE21591NEMIS|Sq-Pen Starter Pack  Delivery System  SQ 001|
+|insulin v1|emis|EXIN22784NEMIS|Exubera  Insufflator kit  |
+|insulin v1|emis|HUPE26794EMIS|Human Mixtard 40  Penfill Cartridges (1.5 Ml)  |
+|insulin v1|emis|HUPR26715EMIS|Humaject (Humulin S)  Preloaded pen  100 units/ml|
+|insulin v1|emis|HUSU45861NEMIS|Humulin M3 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|ININ15887NEMIS|Insulatard  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|INPR18215NEMIS|Insulin Detemir  Solution for injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|INPR46954NEMIS|Insuman Comb 25 Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|LAPR26863NEMIS|Lantus Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|LEPR18221NEMIS|Levemir Flexpen  Solution for injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|MIINEGTON7152|Pork Mixtard 30  Injection  10 ml vial|
+|insulin v1|emis|BIIN4659|Biphasic Insulin  Injection  100 units/ml|
+|insulin v1|emis|HUCA18384EMIS|Humulin M4  Cartridges (1.5 Ml)  |
+|insulin v1|emis|HUPE26788EMIS|Human Mixtard 20  Penfill Cartridges (1.5 Ml)  |
+|insulin v1|emis|HUPR26721EMIS|Humaject (Humulin M2)  Preloaded pen  |
+|insulin v1|emis|HUPR5192NEMIS|Humulin I  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|HYIN15399NEMIS|Hypurin Bovine Neutral  Injection (cartridges)  100 units/ml, 3ml Cartridge|
+|insulin v1|emis|INCL10559BRIDL|Insulin Syringe  Click-count  1 ml|
+|insulin v1|emis|ININ21131NEMIS|Insulin Glulisine  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|ININ3759|Pork Insulatard  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|INPR6345NEMIS|Insuman Comb 25 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|INSO78486NEMIS|Insulin Degludec  Solution for injection  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|ISPE33729EMIS|Isophane Insulin (Human Pyr)  Penfill cartridges (3 ml)  100 units/ml|
+|insulin v1|emis|NOPR13769NEMIS|Novorapid Flexpen  Solution for injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|NORE31134NEMIS|Novopen 4  Re-usable pen  Blue, 3 ml, 1-60 units|
+|insulin v1|emis|NORE52696NEMIS|Novopen Echo  Re-usable pen  Blue, 3 ml, 0.5 unit dial up, 0.5-30 units|
+|insulin v1|emis|NOSO94846NEMIS|Novorapid Pumpcart  Solution for injection  100 units/ml, 1.6 ml cartridge|
+|insulin v1|emis|PEPR23943EMIS|Human Mixtard 20  Preloaded pen  |
+|insulin v1|emis|ABIN104796NEMIS|Abasaglar  Solution for injection  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|HUCA8384BRID|Human Actrapid Penfill  Cartridges (1.5 Ml)  100 units/ml|
+|insulin v1|emis|HUIN3718|Humulin I  Suspension For Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|HUIN3721|Humulin S  Injection  100 units/ml|
+|insulin v1|emis|HUPR31278NEMIS|Humalog Mix25 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|INPR5190NEMIS|Insulin Lispro  Solution for injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|LAIN13572NEMIS|Lantus  Injection  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|LAPR13574NEMIS|Lantus Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|MHDE14616NEMIS|Mhi-500 3-Month Consumable Kit  Delivery System  10 ml, 6 nozzle, MH79002-07|
+|insulin v1|emis|MIPR15892NEMIS|Mixtard 10 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
+|insulin v1|emis|NOPR12702NEMIS|Novomix 30 Flexpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|NORE3064NEMIS|Novopen 3  Re-usable pen  Fun, blue|
+|insulin v1|emis|LEPR25142NEMIS|Levemir Innolet  Solution for injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|MHDE14612NEMIS|Mhi-500 Starter Kit  Delivery System  MH79002-01|
+|insulin v1|emis|NOIN12698NEMIS|Novomix 30 Penfill  Injection (cartridges)  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|NORE101165NEMIS|Novopen 5  Re-usable pen  Silver, 3 ml, 1-60 units|
+|insulin v1|emis|NORE3063NEMIS|Novopen 3  Re-usable pen  Fun, red|
+|insulin v1|emis|SQDE21591NEMIS|Sq-Pen Starter Pack  Delivery System  SQ 001|
+|insulin v1|emis|SQDE21600NEMIS|Sq-Pen 3-Month Consumable Pack  Delivery System  10 ml, SQ 006|
+|insulin v1|emis|TRSO78484NEMIS|Tresiba Flextouch  Solution for injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|HUCA28935EMIS|Humalog  Cartridges (1.5 Ml)  100 units/ml|
+|insulin v1|emis|HUCA32498EMIS|Humulin I  Cartridges (3 Ml)  100 units/ml|
+|insulin v1|emis|HUIN10443BRIDL|Humulin M3 (Lilly)  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|HUIN3721|Humulin S  Injection  100 units/ml|
+|insulin v1|emis|HUPR26727EMIS|Humaject (Humulin M4)  Preloaded pen  |
+|insulin v1|emis|HUSO101078NEMIS|Humalog Kwikpen  Solution for injection  200 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|INCA34843EMIS|Insulin Lispro  Cartridges (3 Ml)  100 units/ml|
+|insulin v1|emis|ININ3272NEMIS|Insuman Rapid  Injection (cartridges)  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|ININ3281NEMIS|Insuman Basal  Injection (cartridges)  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|ININ3284NEMIS|Insuman Comb 25  Injection (cartridges)  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|ININ4907NEMIS|Insuman Comb 15  Injection (cartridges)  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|INPR15885NEMIS|Insulatard Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
+|insulin v1|emis|INSO98875NEMIS|Insulin Degludec And Liraglutide  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen|
+|insulin v1|emis|ISIN33727EMIS|Isophane Insulin (Human Pyr)  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|LAPR26863NEMIS|Lantus Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|MHDE18313NEMIS|Mhi-500 3-Month Consumable Kit  Delivery System  3 ml, 6 nozzle, MH79002-12|
+|insulin v1|emis|NORE11452NEMIS|Novopen Junior  Re-usable pen  Green, 3 ml|
+|insulin v1|emis|PEIN9159EMIS|Human Mixtard 20  Injection  |
+|insulin v1|emis|PEIN9165EMIS|Human Mixtard 50  Injection  |
+|insulin v1|emis|PEPR22308EMIS|Human Mixtard 30  Preloaded pen  |
+|insulin v1|emis|UNSY30181EMIS|Unifine  Syringes with needle  29g/0.5", 0.5 ml|
+|insulin v1|emis|HUCA32500EMIS|Humulin S  Cartridges (3 Ml)  100 units/ml|
+|insulin v1|emis|HUIN25811EMIS|Humulin M5  Injection  10 ml vial|
+|insulin v1|emis|HUPE26788EMIS|Human Mixtard 20  Penfill Cartridges (1.5 Ml)  |
+|insulin v1|emis|HUPR5191NEMIS|Humalog  Solution for injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|HYIN15401NEMIS|Hypurin Porcine Neutral  Injection (cartridges)  100 units/ml, 3 ml Cartridge|
+|insulin v1|emis|HYIN15402NEMIS|Hypurin Porcine Isophane  Injection (cartridges)  100 units/ml, 3 ml Cartridge|
+|insulin v1|emis|ININ13807NEMIS|Insulin Glargine  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|INPR6338NEMIS|Insuman Basal Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|KESY78718NEMIS|Kendall Magellan Insulin Safety, Single Use, U100  Syringes with 8mm needles  Sterile, 1.0 ml, 0.3 mm/30 g|
+|insulin v1|emis|NORE11453NEMIS|Novopen Junior  Re-usable pen  Yellow, 3 ml|
+|insulin v1|emis|NOSO51972NEMIS|Novorapid Flextouch  Solution for injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|U1SY28829EMIS|U100 Insulin Sterile, Single Use  Syringes, No Less Than 12mm Needle  0.3 ml, 0.33 mm/29g|
+|insulin v1|emis|HUCA18375EMIS|Humulin M1  Cartridges (1.5 Ml)  |
+|insulin v1|emis|HUCA18381EMIS|Humulin M3 (Lilly)  Cartridges (1.5 Ml)  |
+|insulin v1|emis|HUIN3720|Humulin M2  Injection  |
+|insulin v1|emis|HUIN8877BRIDL|Humulin M4  Injection  |
+|insulin v1|emis|HUIN8983EGTON|Human Velosulin  Injection  100 u/ml|
+|insulin v1|emis|HUPR31278NEMIS|Humalog Mix25 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|INPR13771NEMIS|Insulatard Flexpen  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|INPR46954NEMIS|Insuman Comb 25 Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|INPR6338NEMIS|Insuman Basal Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|INSO103676NEMIS|Insulin Glargine  Pre-filled Disposable Pen  300 units/ml, 1.5 ml pen|
+|insulin v1|emis|MHDE18312NEMIS|Mhi-500 Starter Kit  Delivery System  MH79002-01A|
+|insulin v1|emis|MODI10485BRIDL|Monoject  Disposable syringe with needle  0.5 ml, 28g|
+|insulin v1|emis|NOPR12702NEMIS|Novomix 30 Flexpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|NORE101165NEMIS|Novopen 5  Re-usable pen  Silver, 3 ml, 1-60 units|
+|insulin v1|emis|PEIN9162EMIS|Human Mixtard 40  Injection  |
+|insulin v1|emis|SQDE21600NEMIS|Sq-Pen 3-Month Consumable Pack  Delivery System  10 ml, SQ 006|
+|insulin v1|emis|ULIN15920NEMIS|Ultratard  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|VEIN15916NEMIS|Velosulin  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|AURE3059NEMIS|Autopen  Re-usable pen  1.5ml, 2-32 units|
+|insulin v1|emis|BDDI18283NEMIS|Bd-Microfine +  Disposable syringe  1 ml, 0.30 x 8 mm needle|
+|insulin v1|emis|HUCA35540EMIS|Humalog Mix25  Cartridges (3 Ml)  100 units/ml|
+|insulin v1|emis|HUPR31280NEMIS|Humalog Mix50 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|HUPR35541EMIS|Humalog Mix25  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|HUSO101078NEMIS|Humalog Kwikpen  Solution for injection  200 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|INCA1198NEMIS|Insulin Aspart  Cartridges (3 Ml)  100 units/ml|
+|insulin v1|emis|INCA34843EMIS|Insulin Lispro  Cartridges (3 Ml)  100 units/ml|
+|insulin v1|emis|INSO103676NEMIS|Insulin Glargine  Pre-filled Disposable Pen  300 units/ml, 1.5 ml pen|
+|insulin v1|emis|LAIN21795NEMIS|Lantus Opticlik  Injection  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|MHDE18312NEMIS|Mhi-500 Starter Kit  Delivery System  MH79002-01A|
+|insulin v1|emis|MHDE18313NEMIS|Mhi-500 3-Month Consumable Kit  Delivery System  3 ml, 6 nozzle, MH79002-12|
+|insulin v1|emis|DIIN10072BRIDL|Disposable  Insulin syringe with needle  1 ml|
+|insulin v1|emis|EXIN22882NEMIS|Exubera  Inhalation Powder Blisters  1 mg Unit Dose Blister|
+|insulin v1|emis|HUCA18372EMIS|Humulin I  Cartridges (1.5 Ml)  100 units/ml|
+|insulin v1|emis|HUIN3713|Human Monotard (Novo)  Injection  100 units/ml|
+|insulin v1|emis|HYIN15400NEMIS|Hypurin Bovine Isophane  Injection (cartridges)  100 units/ml, 3 ml Cartridge|
+|insulin v1|emis|HYIN15402NEMIS|Hypurin Porcine Isophane  Injection (cartridges)  100 units/ml, 3 ml Cartridge|
+|insulin v1|emis|ININ28940EMIS|Insulin Lispro  Solution for injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|INPR10557BRIDL|Insulin Syringe  Pre-set  1 ml|
+|insulin v1|emis|INPR22401NEMIS|Insulin Glulisine  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|ISCA28655EMIS|Isophane Insulin (Human, Prb)  Cartridges  100 units/ml|
+|insulin v1|emis|MHDE18314NEMIS|Mhi-500 3-Month Consumable Kit  Delivery System  3 ml, 7 nozzle, MH79002-13|
+|insulin v1|emis|NOCA1201NEMIS|Novorapid Penfill  Cartridges (3 Ml)  100 units/ml|
+|insulin v1|emis|NORE3961NEMIS|Novopen 3  Re-usable pen  Demi|
+|insulin v1|emis|TRSO78485NEMIS|Tresiba Flextouch  Solution for injection  200 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|VEIN4493|Pork Velosulin  Injection  100 units/ml|
+|insulin v1|emis|ABSO104799NEMIS|Abasaglar Kwikpen  Solution for injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|AURE3060NEMIS|Autopen  Re-usable pen  Classic, 3 ml, 2-42 units, AN3800|
+|insulin v1|emis|HUCA32509EMIS|Humulin M3  Suspension For Injection  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|HUIN22574NEMIS|Humalog Mix50  Injection (cartridges)  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|ININ21131NEMIS|Insulin Glulisine  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|INPR11699NEMIS|Insulatard Innolet  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|INPR13771NEMIS|Insulatard Flexpen  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|ISIN671NEMIS|Isophane Insulin (Bovine, Highly Purified)  Injection (cartridges)  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|MIPR15910NEMIS|Mixtard 50 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
+|insulin v1|emis|MODI10487BRIDL|Monoject  Disposable syringe with needle  1 ml, 28g|
+|insulin v1|emis|MOIN15918NEMIS|Monotard  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|NORE101164NEMIS|Novopen 5  Re-usable pen  Blue, 3 ml, 1-60 units|
+|insulin v1|emis|NORE31134NEMIS|Novopen 4  Re-usable pen  Blue, 3 ml, 1-60 units|
+|insulin v1|emis|NORE52696NEMIS|Novopen Echo  Re-usable pen  Blue, 3 ml, 0.5 unit dial up, 0.5-30 units|
+|insulin v1|emis|ACPR15881NEMIS|Actrapid Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
+|insulin v1|emis|EXIN22884NEMIS|Exubera  Inhalation Powder Blisters  3 mg Unit Dose Blister|
+|insulin v1|emis|HUCA32506EMIS|Humulin M2  Cartridges (3 Ml)  |
+|insulin v1|emis|HUCA32512EMIS|Humulin M4  Cartridges (3 Ml)  |
+|insulin v1|emis|HUIN3719|Humulin M1  Injection  |
+|insulin v1|emis|HUPE26797EMIS|Human Mixtard 50  Penfill Cartridges (1.5 Ml)  |
+|insulin v1|emis|HUPR31280NEMIS|Humalog Mix50 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|HUSU45871NEMIS|Humulin I Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|ININ13808NEMIS|Insulin Glargine  Injection  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|ININ1480|Insulin Zinc Suspension (Human)  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|ININ21133NEMIS|Insulin Glulisine  Injection  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|INPR5190NEMIS|Insulin Lispro  Solution for injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|ISIN671NEMIS|Isophane Insulin (Bovine, Highly Purified)  Injection (cartridges)  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|ISPR33730EMIS|Isophane Insulin (Human Pyr)  Preloaded pen  100 units/ml|
+|insulin v1|emis|MIPR15892NEMIS|Mixtard 10 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
+|insulin v1|emis|MIPR15910NEMIS|Mixtard 50 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
+|insulin v1|emis|NORE11453NEMIS|Novopen Junior  Re-usable pen  Yellow, 3 ml|
+|insulin v1|emis|NORE52697NEMIS|Novopen Echo  Re-usable pen  Red, 3 ml, 0.5 unit dial up, 0.5-30 units|
+|insulin v1|emis|NOSO51972NEMIS|Novorapid Flextouch  Solution for injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|OMDI10577BRIDL|Omnikan  Disposable syringe with needle  1 ml, 27g|
+|insulin v1|emis|PRIN5344|Protamine Zinc Bovine Insulin  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|APIN21136NEMIS|Apidra  Injection  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|APPR26865NEMIS|Apidra Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|AURE11846NEMIS|Autopen Junior  Re-usable pen  3 ml, 2-42 units|
+|insulin v1|emis|EXCH22786NEMIS|Exubera  Chamber  |
+|insulin v1|emis|EXIN22884NEMIS|Exubera  Inhalation Powder Blisters  3 mg Unit Dose Blister|
+|insulin v1|emis|HUIN8925BRECO|Humulin M3  Suspension For Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|HUPE26785EMIS|Human Mixtard 10  Penfill Cartridges (1.5 Ml)  |
+|insulin v1|emis|HUPR26724EMIS|Humaject (Humulin M3)  Preloaded pen  |
+|insulin v1|emis|HUPR5192NEMIS|Humulin I  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|APIN21135NEMIS|Apidra  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|APPR26865NEMIS|Apidra Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|AURE5362NEMIS|Autopen  Re-usable pen  Classic, 3 ml, 1-21 units, AN3810|
+|insulin v1|emis|BDDI18283NEMIS|Bd-Microfine +  Disposable syringe  1 ml, 0.30 x 8 mm needle|
+|insulin v1|emis|HUCA18378EMIS|Humulin M2  Cartridges (1.5 Ml)  |
+|insulin v1|emis|HUCA31132EMIS|Human Actrapid Penfill  Cartridges (3 Ml)  100 units/ml|
+|insulin v1|emis|HUCA32503EMIS|Humulin M1  Cartridges (3 Ml)  |
+|insulin v1|emis|HUCA35540EMIS|Humalog Mix25  Cartridges (3 Ml)  100 units/ml|
+|insulin v1|emis|HUIN25811EMIS|Humulin M5  Injection  10 ml vial|
+|insulin v1|emis|HUIN5904|Humulin Zn  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|HUPR26715EMIS|Humaject (Humulin S)  Preloaded pen  100 units/ml|
+|insulin v1|emis|HUPR5191NEMIS|Humalog  Solution for injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|ININ28940EMIS|Insulin Lispro  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|ININ4910NEMIS|Insuman Comb 50  Injection (cartridges)  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|INPR6343NEMIS|Insuman Comb 15 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|INPR6347NEMIS|Insuman Comb 50 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|INSO78480NEMIS|Insulin Degludec  Solution for injection  100 units/ml, 3 ml pre-filled device|
+|insulin v1|emis|LAIN21795NEMIS|Lantus Opticlik  Injection  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|LEPR25142NEMIS|Levemir Innolet  Solution for injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|MIPR11701NEMIS|Mixtard 30 Innolet  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|NEIN1978|Neutral Insulin (Human)  Injection  100 units/ml|
+|insulin v1|emis|NORE3064NEMIS|Novopen 3  Re-usable pen  Fun, blue|
+|insulin v1|emis|U1SY28829EMIS|U100 Insulin Sterile, Single Use  Syringes, No Less Than 12mm Needle  0.3 ml, 0.33 mm/29g|
+|insulin v1|emis|XUSO98877NEMIS|Xultophy  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen|
+|insulin v1|emis|ACIN15879NEMIS|Actrapid  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|APIN23125NEMIS|Apidra Opticlik  Injection  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|AURE12987NEMIS|Autopen Special Edition  Re-usable pen  3 ml, 2-42 units|
+|insulin v1|emis|AURE14955NEMIS|Autopen 24  Re-usable pen  3 ml, 2-42 units, AN4200|
+|insulin v1|emis|HUPR31276NEMIS|Humalog Kwikpen  Solution for injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|HUSU45871NEMIS|Humulin I Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|MIPR15900NEMIS|Mixtard 30 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
+|insulin v1|emis|NOIN1200NEMIS|Novorapid  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|XUSO98877NEMIS|Xultophy  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen|
+|insulin v1|emis|ININ21133NEMIS|Insulin Glulisine  Injection  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|ININ3283NEMIS|Insuman Comb 25  Injection  100 units/ml, 5 ml vial|
+|insulin v1|emis|ININ3284NEMIS|Insuman Comb 25  Injection (cartridges)  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|ININ3759|Pork Insulatard  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|INPR51153NEMIS|Insuman Basal Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|ISIN668NEMIS|Isophane Insulin (Porcine, Highly Purified)  Injection (cartridges)  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|MIPR15906NEMIS|Mixtard 40 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
+|insulin v1|emis|NORE3062NEMIS|Novopen 3  Re-usable pen  Classic|
+|insulin v1|emis|NORE3961NEMIS|Novopen 3  Re-usable pen  Demi|
+|insulin v1|emis|NOSO94846NEMIS|Novorapid Pumpcart  Solution for injection  100 units/ml, 1.6 ml cartridge|
+|insulin v1|emis|PRIN5344|Protamine Zinc Bovine Insulin  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|MIPR11701NEMIS|Mixtard 30 Innolet  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|NOCA1201NEMIS|Novorapid Penfill  Cartridges (3 Ml)  100 units/ml|
+|insulin v1|emis|HYIN30855EMIS|Hypurin Porcine Isophane  Suspension For Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|ISIN1507|Isophane Insulin (Human)  Suspension For Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|MHDE18314NEMIS|Mhi-500 3-Month Consumable Kit  Delivery System  3 ml, 7 nozzle, MH79002-13|
+|insulin v1|emis|NORE52697NEMIS|Novopen Echo  Re-usable pen  Red, 3 ml, 0.5 unit dial up, 0.5-30 units|
+|insulin v1|emis|TOSO103679NEMIS|Toujeo Solostar  Pre-filled Disposable Pen  300 units/ml, 1.5 ml pen|
+|insulin v1|emis|TRSO78488NEMIS|Tresiba Penfill  Solution for injection  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|ULIN15920NEMIS|Ultratard  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|UNSY30180EMIS|Unifine  Syringes with needle  29g/0.5", 0.3 ml|
+|insulin v1|emis|ININ18217NEMIS|Insulin Detemir  Injection (cartridges)  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|ININ4907NEMIS|Insuman Comb 15  Injection (cartridges)  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|ININ4910NEMIS|Insuman Comb 50  Injection (cartridges)  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|INPR22401NEMIS|Insulin Glulisine  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
+|insulin v1|emis|INSO78480NEMIS|Insulin Degludec  Solution for injection  100 units/ml, 3 ml pre-filled device|
+|insulin v1|emis|LAIN13570NEMIS|Lantus  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|MHDE14617NEMIS|Mhi-500 3-Month Consumable Kit  Delivery System  10 ml, 7 nozzle, MH79002-08|
+|insulin v1|emis|NORE11452NEMIS|Novopen Junior  Re-usable pen  Green, 3 ml|
+|insulin v1|emis|VEIN15916NEMIS|Velosulin  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|AURE14955NEMIS|Autopen 24  Re-usable pen  3 ml, 2-42 units, AN4200|
+|insulin v1|emis|AURE3059NEMIS|Autopen  Re-usable pen  1.5ml, 2-32 units|
+|insulin v1|emis|DIIN10070BRIDL|Disposable  Insulin syringe with needle  0.5 ml|
+|insulin v1|emis|EXCH22786NEMIS|Exubera  Chamber  |
+|insulin v1|emis|HUIN22574NEMIS|Humalog Mix50  Injection (cartridges)  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|HUINEGTON7149|Human Mixtard 30  Injection  10 ml vial|
+|insulin v1|emis|HUPE26785EMIS|Human Mixtard 10  Penfill Cartridges (1.5 Ml)  |
+|insulin v1|emis|HUPR26724EMIS|Humaject (Humulin M3)  Preloaded pen  |
+|insulin v1|emis|HUSU45861NEMIS|Humulin M3 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
+|insulin v1|emis|INCA1198NEMIS|Insulin Aspart  Cartridges (3 Ml)  100 units/ml|
+|insulin v1|emis|ININ18217NEMIS|Insulin Detemir  Injection (cartridges)  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|ININ3278NEMIS|Insuman Basal  Injection  100 units/ml, 5 ml vial|
+|insulin v1|emis|ISIN1507|Isophane Insulin (Human)  Suspension For Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|ISIN666NEMIS|Isophane Insulin (Porcine, Highly Purified)  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|KESY78712NEMIS|Kendall Magellan Insulin Safety, Single Use, U100  Syringes with 8mm needles  Sterile, 0.3 ml, 0.3 mm/30 g|
+|insulin v1|emis|LAIN13570NEMIS|Lantus  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|MIPR15906NEMIS|Mixtard 40 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
+|insulin v1|emis|NOPR1202NEMIS|Novorapid Novolet  Prefilled syringes  100 units/ml|
+|insulin v1|emis|SQDE21599NEMIS|Sq-Pen 3-Month Consumable Pack  Delivery System  3 ml, SQ 004|
+|insulin v1|emis|UNSY30180EMIS|Unifine  Syringes with needle  29g/0.5", 0.3 ml|
+|insulin v1|emis|AURE3057NEMIS|Autopen  Re-usable pen  1.5ml, 1-16 units|
+|insulin v1|emis|AURE5362NEMIS|Autopen  Re-usable pen  Classic, 3 ml, 1-21 units, AN3810|
+|insulin v1|emis|HUCA34841EMIS|Humalog  Cartridges (3 Ml)  100 units/ml|
+|insulin v1|emis|HUPE26797EMIS|Human Mixtard 50  Penfill Cartridges (1.5 Ml)  |
+|insulin v1|emis|HYIN15400NEMIS|Hypurin Bovine Isophane  Injection (cartridges)  100 units/ml, 3 ml Cartridge|
+|insulin v1|emis|ININ1196NEMIS|Insulin Aspart  Injection  100 units/ml, 10 ml vial|
+|insulin v1|emis|ININ3269NEMIS|Insuman Rapid  Injection  100 units/ml, 5 ml vial|
+|insulin v1|emis|ININ3272NEMIS|Insuman Rapid  Injection (cartridges)  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|ININ3278NEMIS|Insuman Basal  Injection  100 units/ml, 5 ml vial|
+|insulin v1|emis|ININ3281NEMIS|Insuman Basal  Injection (cartridges)  100 units/ml, 3 ml cartridge|
+|insulin v1|emis|INPR15885NEMIS|Insulatard Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
+|insulin v1|emis|KESY78712NEMIS|Kendall Magellan Insulin Safety, Single Use, U100  Syringes with 8mm needles  Sterile, 0.3 ml, 0.3 mm/30 g|
+|insulin v1|emis|MIPR15896NEMIS|Mixtard 20 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
+|insulin v1|emis|NORE31135NEMIS|Novopen 4  Re-usable pen  Silver, 3 ml, 1-60 units|
+|insulin v1|emis|SQDE21599NEMIS|Sq-Pen 3-Month Consumable Pack  Delivery System  3 ml, SQ 004|
+|insulin v1|readv2|f1...00|SHORT-ACTING INSULIN PREPARATIONS|
+|insulin v1|readv2|f11..00|*SOLUBLE INSULIN|
+|insulin v1|readv2|f111.00|INSULIN 100iu/mL injection 10mL|
+|insulin v1|readv2|f112.00|*HYPURIN injection 10mL|
+|insulin v1|readv2|f12..00|SOLUBLE NEUTRAL INSULIN|
+|insulin v1|readv2|f121.00|NEUTRAL INSULIN 100iu/mL injection 10mL|
+|insulin v1|readv2|f122.00|HYPURIN NEUTRAL 100iu/mL injection 10mL|
+|insulin v1|readv2|f122.11|*HYPURN BOV NEUT 100iu/mL 10mL|
+|insulin v1|readv2|f123.00|*NEUSULIN 100iu/mL injection|
+|insulin v1|readv2|f124.00|*QUICKSOL 100iu/mL injection|
+|insulin v1|readv2|f125.00|VELOSULIN 100iu/mL injection 10mL|
+|insulin v1|readv2|f126.00|VELOSULIN CARTRIDGE 100iu/mL injection 5.7mL|
+|insulin v1|readv2|f127.00|HUMAN ACTRAPID 100iu/mL injection 10mL|
+|insulin v1|readv2|f127.11|ACTRAPID 100iu/mL injection 10mL|
+|insulin v1|readv2|f128.00|HUMAN ACTRAPID 100iu/mL penfill cartridges|
+|insulin v1|readv2|f129.00|HUMAN VELOSULIN 100iu/mL injection 10mL|
+|insulin v1|readv2|f12A.00|HUMAN ACTRAPID 100iu/mL penfill cartridges 1.5mL|
+|insulin v1|readv2|f12B.00|HUMAN ACTRAPID 100iu/mL preloaded injection pen 3mL|
+|insulin v1|readv2|f12B.11|ACTRAPID NOVOLET 100iu/mL preloaded injection pen 3mL|
+|insulin v1|readv2|f12C.00|HUMAJECT S 100iu/mL prefilled pen|
+|insulin v1|readv2|f12D.00|PORK VELOSULIN 100units/mL injection 10mL|
+|insulin v1|readv2|f12D.11|PORK ACTRAPID 100units/mL injection 10mL|
+|insulin v1|readv2|f12E.00|NEUTRAL INSULIN 100iu/mL injection cartridge|
+|insulin v1|readv2|f12F.00|HYPURIN BOVINE NEUTRAL 100iu/mL injection cartridge 1.5mL|
+|insulin v1|readv2|f12G.00|HYPURIN PORCINE NEUTRAL 100iu/mL injection cartridge 1.5mL|
+|insulin v1|readv2|f12H.00|HYPURIN BOVINE NEUTRAL 100iu/mL injection 10mL|
+|insulin v1|readv2|f12I.00|HYPURIN PORCINE NEUTRAL 100iu/mL injection 10mL|
+|insulin v1|readv2|f12J.00|ACTRAPID (HUMAN) PENFILL 100iu/mL cartridges 3mL|
+|insulin v1|readv2|f12J.11|ACTRAPID PENFILL 100iu/mL cartridges 3mL|
+|insulin v1|readv2|f12K.00|PORK ACTRAPID 100iu/mL injection 10mL|
+|insulin v1|readv2|f12L.00|INSUMAN RAPID 100iu/mL injection vials 5mL|
+|insulin v1|readv2|f12M.00|INSUMAN RAPID 100iu/mL injection cartridge 3mL|
+|insulin v1|readv2|f12Q.00|INSUMAN RAPID OPTISET 100iu/mL prefilled pen 3mL|
+|insulin v1|readv2|f12R.00|HUMAN VELOSULIN (PYR) 100iu/mL injection 10mL|
+|insulin v1|readv2|f12R.11|VELOSULIN (PYR) 100iu/mL injection 10mL|
+|insulin v1|readv2|f12S.00|HYPURIN BOVINE NEUTRAL 100iu/mL injection cartridge 3mL|
+|insulin v1|readv2|f12T.00|HYPURIN PORCINE NEUTRAL 100iu/mL injection cartridge 3mL|
+|insulin v1|readv2|f12U.00|EXUBERA 1mg powder for inhalation|
+|insulin v1|readv2|f12V.00|EXUBERA 3mg powder for inhalation|
+|insulin v1|readv2|f12W.00|HUMAN INSULIN 1mg powder for inhalation|
+|insulin v1|readv2|f12X.00|HUMAN INSULIN 3mg powder for inhalation|
+|insulin v1|readv2|f12Y.00|INSUMAN INFUSAT 100iu/mL soln for inj cartridges 3.15mL|
+|insulin v1|readv2|f12Z.00|INSUMAN INFUSAT 100iu/mL solution for injection vials 10mL|
+|insulin v1|readv2|f12a.00|HUMULIN S 100iu/mL injection 10mL|
+|insulin v1|readv2|f12b.00|*NOVOPEN|
+|insulin v1|readv2|f12d.00|PUR-IN NEUTRAL 100iu/mL vials 10mL|
+|insulin v1|readv2|f12e.00|PUR-IN NEUTRAL 100iu/mL cartridges 3mL|
+|insulin v1|readv2|f12f.00|*AUTOPEN|
+|insulin v1|readv2|f12g.00|HUMULIN S 100iu/mL cartridges 1.5mL|
+|insulin v1|readv2|f12h.00|*NOVOPEN II device|
+|insulin v1|readv2|f12j.00|*PUR-IN PEN device|
+|insulin v1|readv2|f12k.00|*PUR-IN PEN 1 device|
+|insulin v1|readv2|f12m.00|*PUR-IN PEN 2 device|
+|insulin v1|readv2|f12n.00|*PUR-IN PEN 4 device|
+|insulin v1|readv2|f12p.00|*DIAPEN 1 device|
+|insulin v1|readv2|f12q.00|*DIAPEN 2 device|
+|insulin v1|readv2|f12r.00|*NOVOPEN I device|
+|insulin v1|readv2|f12s.00|HUMULIN S 100iu/mL cartridges 3mL|
+|insulin v1|readv2|f12t.00|*AUTOPEN 1.5mL one unit device|
+|insulin v1|readv2|f12u.00|*AUTOPEN 1.5mL two unit device|
+|insulin v1|readv2|f12v.00|*AUTOPEN 3mL two unit device|
+|insulin v1|readv2|f12y.00|HUMAN INSULIN 100units/mL injection cartridge|
+|insulin v1|readv2|f12z.00|HUMAN INSULIN 100iu/mL injection vials|
+|insulin v1|readv2|f13..00|INSULIN LISPRO|
+|insulin v1|readv2|f131.00|INSULIN LISPRO 100iu/mL vials|
+|insulin v1|readv2|f132.00|HUMALOG 100iu/mL injection 10mL|
+|insulin v1|readv2|f133.00|INSULIN LISPRO 100iu/mL cartridges|
+|insulin v1|readv2|f134.00|HUMALOG 100iu/mL cartridges 1.5mL|
+|insulin v1|readv2|f135.00|HUMALOG 100iu/mL cartridges 3mL|
+|insulin v1|readv2|f136.00|INSULIN LISPRO 100iu/mL prefilled pen|
+|insulin v1|readv2|f137.00|HUMALOG-PEN 100iu/mL prefilled pen 3mL|
+|insulin v1|readv2|f138.00|HUMALOG KWIKPEN 100iu/mL prefilled pen 3mL|
+|insulin v1|readv2|f139.00|HUMALOG KWIKPEN 200iu/mL prefilled pen 3mL|
+|insulin v1|readv2|f13A.00|INSULIN LISPRO 200iu/mL prefilled pen|
+|insulin v1|readv2|f14..00|INSULIN ASPART|
+|insulin v1|readv2|f141.00|NOVORAPID 100units/mL injection vial|
+|insulin v1|readv2|f142.00|NOVORAPID NOVOLET 100units/mL prefilled syringe 3mL|
+|insulin v1|readv2|f143.00|NOVORAPID PENFILL 100units/mL cartridges 3mL|
+|insulin v1|readv2|f144.00|NOVORAPID FLEXPEN 100units/mL prefilled pen 3mL|
+|insulin v1|readv2|f145.00|NOVORAPID FLEXTOUCH 100units/mL soln for injection pen 3mL|
+|insulin v1|readv2|f146.00|NOVORAPID PUMPCART 100units/mL soln for inj cartridges 1.6mL|
+|insulin v1|readv2|f14w.00|INSULIN ASPART 100units/mL prefilled pen|
+|insulin v1|readv2|f14x.00|INSULIN ASPART 100units/mL injection vial|
+|insulin v1|readv2|f14y.00|INSULIN ASPART 100units/mL prefilled syringe|
+|insulin v1|readv2|f14z.00|INSULIN ASPART 100units/mL cartridges|
+|insulin v1|readv2|f15..00|INSULIN GLULISINE|
+|insulin v1|readv2|f151.00|APIDRA 100iu/mL injection vials 10mL|
+|insulin v1|readv2|f152.00|APIDRA 100iu/mL injection cartridges 3mL|
+|insulin v1|readv2|f153.00|APIDRA 100iu/mL OptiSet prefilled pen 3mL|
+|insulin v1|readv2|f154.00|APIDRA 100iu/mL OptiClik cartridges 3mL|
+|insulin v1|readv2|f155.00|APIDRA 100iu/mL SoloStar prefilled pen 3mL|
+|insulin v1|readv2|f15x.00|INSULIN GLULISINE 100iu/mL prefilled pen|
+|insulin v1|readv2|f15y.00|INSULIN GLULISINE 100iu/mL injection cartridges|
+|insulin v1|readv2|f15z.00|INSULIN GLULISINE 100iu/mL injection vials|
+|insulin v1|readv2|f2...00|MEDIUM/LONG-ACTING INSULINS|
+|insulin v1|readv2|f21..00|BIPHASIC INSULIN|
+|insulin v1|readv2|f211.00|RAPITARD MC 100iu/mL injection 10mL|
+|insulin v1|readv2|f212.00|*PENMIX cartridges 1.5mL|
+|insulin v1|readv2|f22..00|INSULIN ZINC SUSPENSION|
+|insulin v1|readv2|f221.00|INSULIN ZINC LENTE 100iu/mL injection 10mL|
+|insulin v1|readv2|f222.00|HYPURIN LENTE 100iu/mL injection 10mL|
+|insulin v1|readv2|f222.11|*HYPURN BOV LENT 100iu/mL 10mL|
+|insulin v1|readv2|f223.00|LENTARD MC 100iu/mL injection 10mL|
+|insulin v1|readv2|f224.00|*NEULENTE 100iu/mL injection|
+|insulin v1|readv2|f225.00|*TEMPULIN 100iu/mL injection|
+|insulin v1|readv2|f226.00|HUMAN MONOTARD 100iu/mL injection 10mL|
+|insulin v1|readv2|f226.11|MONOTARD 100iu/mL injection 10mL|
+|insulin v1|readv2|f227.00|HUMULIN LENTE 100iu/mL injection 10mL|
+|insulin v1|readv2|f228.00|HYPURIN BOVINE LENTE 100iu/mL injection 10mL|
+|insulin v1|readv2|f23..00|INSULIN ZINC SUSPENSION - AMORPHOUS|
+|insulin v1|readv2|f231.00|SEMITARD MC 100iu/mL injection 10mL|
+|insulin v1|readv2|f24..00|INSULIN ZINC SUSPENSION - CRYSTALLINE|
+|insulin v1|readv2|f241.00|HUMAN ULTRATARD 100iu/mL injection 10mL|
+|insulin v1|readv2|f241.11|ULTRATARD 100iu/mL injection 10mL|
+|insulin v1|readv2|f242.00|HUMULIN ZN 100iu/mL injection 10mL|
+|insulin v1|readv2|f25..00|ISOPHANE INSULIN|
+|insulin v1|readv2|f251.00|ISOPHANE INSULIN 100iu/mL injection 10mL|
+|insulin v1|readv2|f252.00|HYPURIN ISOPHANE 100iu/mL injection 10mL|
+|insulin v1|readv2|f252.11|*HYPURN BV ISOPH 100iu/mL 10mL|
+|insulin v1|readv2|f253.00|INSULATARD 100iu/mL injection 10mL|
+|insulin v1|readv2|f254.00|*MONOPHANE 100iu/mL injection|
+|insulin v1|readv2|f255.00|*NEUPHANE 100iu/mL injection|
+|insulin v1|readv2|f256.00|*INITARD 50/50 injection 10mL|
+|insulin v1|readv2|f257.00|*MIXTARD injection 10mL|
+|insulin v1|readv2|f258.00|HUMAN INSULATARD 100iu/mL injection 10mL|
+|insulin v1|readv2|f259.00|HUMAN PROTAPHANE 100iu/mL injection 10mL|
+|insulin v1|readv2|f259.11|HUMAN INSULATARD ge 100units/mL injection 10mL|
+|insulin v1|readv2|f25A.00|HUMULIN I 100iu/mL prefilled pen 3mL|
+|insulin v1|readv2|f25B.00|INSUMAN BASAL OPTISET 100iu/mL prefilled pen 3mL|
+|insulin v1|readv2|f25C.00|INSULATARD INNOLET 100units/mL prefilled syringe 3mL|
+|insulin v1|readv2|f25D.00|INSULATARD FLEXPEN 100iu/mL prefilled pen 3mL|
+|insulin v1|readv2|f25E.00|HYPURIN BOVINE ISOPHANE 100iu/mL injection cartridge 3mL|
+|insulin v1|readv2|f25F.00|HYPURIN PORCINE ISOPHANE 100iu/mL injection cartridge 3mL|
+|insulin v1|readv2|f25G.00|HUMULIN I KWIKPEN 100iu/mL prefilled pen 3mL|
+|insulin v1|readv2|f25H.00|INSUMAN BASAL SOLOSTAR 100iu/mL prefilled pen 3mL|
+|insulin v1|readv2|f25W.00|HUMAN ISOPHANE INSULIN 100units/mL prefilled syringe|
+|insulin v1|readv2|f25X.00|HUMAN ISOPHANE INSULIN 100units/mL injection cartridge|
+|insulin v1|readv2|f25Y.00|HUMAN ISOPHANE INSULIN 100units/mL injection vials|
+|insulin v1|readv2|f25a.00|HUMULIN I 100iu/mL injection 10mL|
+|insulin v1|readv2|f25b.00|HUMAN ACTRAPHANE injection 10mL|
+|insulin v1|readv2|f25c.00|*HUMAN INITARD injection 10mL|
+|insulin v1|readv2|f25d.00|*HUMAN MIXTARD injection 10mL|
+|insulin v1|readv2|f25e.00|*HUMULIN M1 injection 10mL|
+|insulin v1|readv2|f25f.00|*HUMULIN M2 injection 10mL|
+|insulin v1|readv2|f25g.00|*HUMULIN M3 injection 10mL|
+|insulin v1|readv2|f25h.00|*HUMULIN M4 injection 10mL|
+|insulin v1|readv2|f25i.00|HUMAN PROTAPHANE penfill 1.5mL|
+|insulin v1|readv2|f25i.11|*HUM INSULATARD penfill 1.5mL|
+|insulin v1|readv2|f25j.00|PUR-IN ISOPHANE 100iu/mL vials 10mL|
+|insulin v1|readv2|f25k.00|PUR-IN ISOPHANE 100iu/mL cartridges 3mL|
+|insulin v1|readv2|f25l.00|HUMULIN I 100iu/mL cartridges 1.5mL|
+|insulin v1|readv2|f25m.00|HUMAN INSULATARD 100iu/mL preloaded injection pen 3mL|
+|insulin v1|readv2|f25m.11|INSULATARD NOVOLET 100iu/mL preloaded injection pen 3mL|
+|insulin v1|readv2|f25n.00|HUMAJECT I 100iu/mL prefilled pen|
+|insulin v1|readv2|f25o.00|HUMULIN I 100iu/mL cartridges 3mL|
+|insulin v1|readv2|f25p.00|HUMAN INSULATARD ge injection 10mL|
+|insulin v1|readv2|f25p.11|INSULATARD injection 10mL|
+|insulin v1|readv2|f25q.00|HUMAN INSULATARD PENFILL cartridges 1.5mL|
+|insulin v1|readv2|f25r.00|PORK INSULATARD 100units/mL injection 10mL|
+|insulin v1|readv2|f25s.00|ISOPHANE INSULIN 100iu/mL injection cartridge|
+|insulin v1|readv2|f25t.00|HYPURIN BOVINE ISOPHANE 100iu/mL injection cartridge 1.5mL|
+|insulin v1|readv2|f25u.00|HYPURIN PORCINE ISOPHANE 100iu/mL injection cartridge 1.5mL|
+|insulin v1|readv2|f25v.00|HYPURIN BOVINE ISOPHANE 100iu/mL injection 10mL|
+|insulin v1|readv2|f25w.00|HYPURIN PORCINE ISOPHANE 100iu/mL injection 10mL|
+|insulin v1|readv2|f25x.00|INSULATARD (HUMAN) PENFILL cartridges 3mL|
+|insulin v1|readv2|f25x.11|INSULATARD PENFILL cartridges 3mL|
+|insulin v1|readv2|f25y.00|INSUMAN BASAL 100iu/mL injection vials 5mL|
+|insulin v1|readv2|f25z.00|INSUMAN BASAL 100iu/mL injection cartridge 3mL|
+|insulin v1|readv2|f26..00|PROTAMINE ZINC INSULIN|
+|insulin v1|readv2|f261.00|HYPURIN PROTAMINE ZINC injection 10mL|
+|insulin v1|readv2|f261.11|*HYPURN BV PROT ZN 100iu/mL 10|
+|insulin v1|readv2|f262.00|HYPURIN BOVINE PROTAMINE ZINC 100iu/mL injection 10mL|
+|insulin v1|readv2|f27..00|BIPHASIC ISOPHANE INSULIN|
+|insulin v1|readv2|f271.00|*MIXTARD 30/70 injection 10mL|
+|insulin v1|readv2|f272.00|*PENMIX 30/70 cartridges 1.5mL|
+|insulin v1|readv2|f272.11|*HUM MIXTARD 30 Penfill 1.5mL|
+|insulin v1|readv2|f273.00|*PUR-IN MIX 15/85 vials 10mL|
+|insulin v1|readv2|f274.00|PUR-IN MIX 15/85 cartridges 3mL|
+|insulin v1|readv2|f275.00|*PUR-IN MIX 25/75 vials 10mL|
+|insulin v1|readv2|f276.00|PUR-IN MIX 25/75 cartridges 3mL|
+|insulin v1|readv2|f277.00|*PUR-IN MIX 50/50 vials 10mL|
+|insulin v1|readv2|f278.00|PUR-IN MIX 50/50 cartridges 3mL|
+|insulin v1|readv2|f279.00|*HUMULIN M1 10/90 vials 10mL|
+|insulin v1|readv2|f27A.00|HUMAJECT M1 100iu/mL prefilled pen|
+|insulin v1|readv2|f27B.00|HUMAJECT M2 100iu/mL prefilled pen|
+|insulin v1|readv2|f27C.00|HUMAJECT M3 100iu/mL prefilled pen|
+|insulin v1|readv2|f27D.00|HUMAJECT M4 100iu/mL prefilled pen|
+|insulin v1|readv2|f27E.00|HUMAJECT M5 100iu/mL prefilled pen|
+|insulin v1|readv2|f27F.00|HUMULIN M4 40/60 cartridges 3mL|
+|insulin v1|readv2|f27G.00|HUMULIN M5 50/50 cartridges 3mL|
+|insulin v1|readv2|f27H.00|HUMAN MIXTARD 30 ge injection 10mL|
+|insulin v1|readv2|f27H.11|*MIXTARD 30 injection 10mL|
+|insulin v1|readv2|f27I.00|HYPURIN PORCINE BIPHASIC ISOPHANE 30/70 injection cartridge 3mL|
+|insulin v1|readv2|f27J.00|HUMAN MIXTARD 10 PENFILL cartridges 1.5mL|
+|insulin v1|readv2|f27K.00|HUMAN MIXTARD 20 PENFILL cartridges 1.5mL|
+|insulin v1|readv2|f27L.00|HUMAN MIXTARD 30 PENFILL cartridges 1.5mL|
+|insulin v1|readv2|f27M.00|HUMAN MIXTARD 40 PENFILL cartridges 1.5mL|
+|insulin v1|readv2|f27N.00|HUMAN MIXTARD 50 PENFILL cartridges 1.5mL|
+|insulin v1|readv2|f27O.00|MIXTARD 30 INNOLET 100units/mL prefilled syringe 3mL|
+|insulin v1|readv2|f27P.00|HUMAN MIXTARD 10 prefilled pen|
+|insulin v1|readv2|f27P.11|MIXTARD 10 NOVOLET prefilled pen|
+|insulin v1|readv2|f27Q.00|HUMAN MIXTARD 20 prefilled pen|
+|insulin v1|readv2|f27Q.11|MIXTARD 20 NOVOLET prefilled pen|
+|insulin v1|readv2|f27R.00|HUMAN MIXTARD 30 prefilled pen|
+|insulin v1|readv2|f27R.11|MIXTARD 30 NOVOLET prefilled pen|
+|insulin v1|readv2|f27S.00|HUMAN MIXTARD 40 prefilled pen|
+|insulin v1|readv2|f27S.11|MIXTARD 40 NOVOLET prefilled pen|
+|insulin v1|readv2|f27T.00|HUMAN MIXTARD 50 prefilled pen|
+|insulin v1|readv2|f27T.11|MIXTARD 50 NOVOLET prefilled pen|
+|insulin v1|readv2|f27V.00|PORK MIXTARD 30 100units/mL injection 10mL|
+|insulin v1|readv2|f27W.00|*HUMAN MIXTARD 50 vials 10mL|
+|insulin v1|readv2|f27X.00|HYPURIN PORCINE BIPHASIC ISOPHANE 30/70 injection 10mL|
+|insulin v1|readv2|f27X.11|HYPURIN PORCINE 30/70 MIX injection 10mL|
+|insulin v1|readv2|f27Y.00|HYPURIN PORCINE BIPHASIC ISOPHANE 30/70 injection cartridge 1.5mL|
+|insulin v1|readv2|f27Y.11|HYPURIN PORCINE 30/70 MIX injection cartridge 1.5mL|
+|insulin v1|readv2|f27Z.00|INSUMAN COMB 25 100iu/mL injection vials 5mL|
+|insulin v1|readv2|f27a.00|HUMULIN M1 10/90 cartridges 1.5mL|
+|insulin v1|readv2|f27b.00|*HUMULIN M2 20/80 vials 10mL|
+|insulin v1|readv2|f27c.00|HUMULIN M2 20/80 cartridges 1.5mL|
+|insulin v1|readv2|f27d.00|HUMULIN M3 30/70 vials 10mL|
+|insulin v1|readv2|f27e.00|HUMULIN M3 30/70 cartridges 1.5mL|
+|insulin v1|readv2|f27f.00|*HUMULIN M4 40/60 vials 10mL|
+|insulin v1|readv2|f27g.00|HUMULIN M4 40/60 cartridges 1.5mL|
+|insulin v1|readv2|f27h.00|*INITARD 50/50 injection 10mL|
+|insulin v1|readv2|f27i.00|HUMAN ACTRAPHANE 30/70 injection 10mL|
+|insulin v1|readv2|f27i.11|HUMAN MIXTARD 30 ge 100units/mL injection 10mL|
+|insulin v1|readv2|f27j.00|HUMAN MIXTARD 30/70 injection 10mL|
+|insulin v1|readv2|f27k.00|HUMAN INITARD 50/50 injection 10mL|
+|insulin v1|readv2|f27l.00|*PENMIX 10/90 cartridges 1.5mL|
+|insulin v1|readv2|f27l.11|*HUM MIXTARD 10 Penfill 1.5mL|
+|insulin v1|readv2|f27m.00|*PENMIX 20/80 cartridges 1.5mL|
+|insulin v1|readv2|f27m.11|*HUM MIXTARD 20 Penfill 1.5mL|
+|insulin v1|readv2|f27n.00|*PENMIX 40/60 cartridges 1.5mL|
+|insulin v1|readv2|f27n.11|*HUM MIXTARD 40 Penfill 1.5mL|
+|insulin v1|readv2|f27o.00|*PENMIX 50/50 cartridges 1.5mL|
+|insulin v1|readv2|f27o.11|*HUM MIXTARD 50 Penfill 1.5mL|
+|insulin v1|readv2|f27p.00|PENMIX 30/70 preloaded injection pen|
+|insulin v1|readv2|f27p.11|HUMAN MIXTARD 30 preloaded injection pen|
+|insulin v1|readv2|f27q.00|PENMIX 10/90 preloaded injection pen|
+|insulin v1|readv2|f27q.11|HUMAN MIXTARD 10 preloaded injection pen|
+|insulin v1|readv2|f27r.00|PENMIX 20/80 preloaded injection pen|
+|insulin v1|readv2|f27r.11|HUMAN MIXTARD 20 preloaded injection pen|
+|insulin v1|readv2|f27s.00|PENMIX 40/60 preloaded injection pen|
+|insulin v1|readv2|f27s.11|HUMAN MIXTARD 40 preloaded injection pen|
+|insulin v1|readv2|f27t.00|PENMIX 50/50 preloaded injection pen|
+|insulin v1|readv2|f27t.11|HUMAN MIXTARD 50 preloaded injection pen|
+|insulin v1|readv2|f27u.00|*HUMULIN M5 50/50 vials 10mL|
+|insulin v1|readv2|f27v.00|HUMULIN M5 50/50 cartridges 1.5mL|
+|insulin v1|readv2|f27w.00|HUMULIN M1 10/90 cartridges 3mL|
+|insulin v1|readv2|f27x.00|HUMULIN M2 20/80 cartridges 3mL|
+|insulin v1|readv2|f27y.00|INSUMAN COMB 25 100iu/mL injection cartridge 3mL|
+|insulin v1|readv2|f27z.00|HUMULIN M3 30/70 cartridges 3mL|
+|insulin v1|readv2|f28..00|BIPHASIC ISOPHANE INSULIN 2|
+|insulin v1|readv2|f281.00|MIXTARD 10 (HUMAN) PENFILL cartridges 3mL|
+|insulin v1|readv2|f281.11|MIXTARD 10 PENFILL cartridges 3mL|
+|insulin v1|readv2|f282.00|MIXTARD 20 (HUMAN) PENFILL cartridges 3mL|
+|insulin v1|readv2|f282.11|MIXTARD 20 PENFILL cartridges 3mL|
+|insulin v1|readv2|f283.00|MIXTARD 30 (HUMAN) PENFILL cartridges 3mL|
+|insulin v1|readv2|f283.11|MIXTARD 30 PENFILL cartridges 3mL|
+|insulin v1|readv2|f284.00|MIXTARD 40 (HUMAN) PENFILL cartridges 3mL|
+|insulin v1|readv2|f284.11|MIXTARD 40 PENFILL cartridges 3mL|
+|insulin v1|readv2|f285.00|MIXTARD 50 (HUMAN) PENFILL cartridges 3mL|
+|insulin v1|readv2|f285.11|MIXTARD 50 PENFILL cartridges 3mL|
+|insulin v1|readv2|f286.00|INSUMAN COMB 15 100iu/mL injection cartridge 3mL|
+|insulin v1|readv2|f287.00|INSUMAN COMB 50 100iu/mL injection vials 5mL|
+|insulin v1|readv2|f288.00|INSUMAN COMB 15 OPTISET 100iu/mL prefilled pen 3mL|
+|insulin v1|readv2|f289.00|INSUMAN COMB 25 OPTISET 100iu/mL prefilled pen 3mL|
+|insulin v1|readv2|f28A.00|INSUMAN COMB 50 OPTISET 100iu/mL prefilled pen 3mL|
+|insulin v1|readv2|f28B.00|INSUMAN COMB 15 100iu/mL injection vials 5mL|
+|insulin v1|readv2|f28C.00|INSUMAN COMB 50 100iu/mL injection cartridge 3mL|
+|insulin v1|readv2|f28D.00|HUMULIN M3 100iu/mL prefilled pen 3mL|
+|insulin v1|readv2|f28E.00|HUMULIN M3 KWIKPEN 100iu/mL prefilled pen 3mL|
+|insulin v1|readv2|f28F.00|INSUMAN COMB 25 SOLOSTAR 100iu/mL prefilled pen 3mL|
+|insulin v1|readv2|f29..00|INSULIN GLARGINE|
+|insulin v1|readv2|f291.00|INSULIN GLARGINE 100iu/mL injection cartridges|
+|insulin v1|readv2|f292.00|INSULIN GLARGINE 100iu/mL injection vials|
+|insulin v1|readv2|f293.00|INSULIN GLARGINE 100iu/mL prefilled pen|
+|insulin v1|readv2|f294.00|LANTUS 100iu/mL injection cartridges 3mL|
+|insulin v1|readv2|f295.00|LANTUS 100iu/mL injection vials 10mL|
+|insulin v1|readv2|f296.00|LANTUS 100iu/mL OptiSet prefilled pen 3mL|
+|insulin v1|readv2|f297.00|LANTUS 100iu/mL OptiClik cartridges 3mL|
+|insulin v1|readv2|f298.00|LANTUS 100iu/mL SoloStar prefilled pen 3mL|
+|insulin v1|readv2|f299.00|TOUJEO 300iu/mL SoloStar prefilled pen 1.5mL|
+|insulin v1|readv2|f29A.00|INSULIN GLARGINE 300iu/mL prefilled pen|
+|insulin v1|readv2|f29B.00|ABASAGLAR 100iu/mL solution for injection cartridges 3mL|
+|insulin v1|readv2|f29C.00|ABASAGLAR KWIKPEN 100iu/mL soln for inj prefilled pen 3mL|
+|insulin v1|readv2|f2A..00|INSULIN DETEMIR|
+|insulin v1|readv2|f2A1.00|LEVEMIR PENFILL 100iu/mL injection cartridges 3mL|
+|insulin v1|readv2|f2A2.00|LEVEMIR FLEXPEN 100iu/mL prefilled pen 3mL|
+|insulin v1|readv2|f2A3.00|LEVEMIR INNOLET 100iu/mL prefilled syringe 3mL|
+|insulin v1|readv2|f2Ax.00|INSULIN DETEMIR 100iu/mL prefilled syringe|
+|insulin v1|readv2|f2Ay.00|INSULIN DETEMIR 100iu/mL prefilled pen|
+|insulin v1|readv2|f2Az.00|INSULIN DETEMIR 100iu/mL injection cartridges|
+|insulin v1|readv2|f2B..00|INSULIN DEGLUDEC|
+|insulin v1|readv2|f2B1.00|TRESIBA FLEXTOUCH 100iu/mL prefilled pen 3mL|
+|insulin v1|readv2|f2B2.00|INSULIN DEGLUDEC 100iu/mL prefilled pen|
+|insulin v1|readv2|f2B3.00|TRESIBA FLEXTOUCH 200iu/mL prefilled pen 3mL|
+|insulin v1|readv2|f2B4.00|INSULIN DEGLUDEC 200iu/mL prefilled pen|
+|insulin v1|readv2|f2B5.00|TRESIBA PENFILL 100iu/mL injection cartridges|
+|insulin v1|readv2|f2B6.00|INSULIN DEGLUDEC 100iu/mL injection cartridges|
+|insulin v1|readv2|f2C..00|INSULIN DEGLUDEC + LIRAGLUTIDE|
+|insulin v1|readv2|f2C1.00|XULTOPHY 100iu/mL/3.6mg/mL soln for inj prefilled pen 3mL|
+|insulin v1|readv2|f2C2.00|INSULIN DEGLUDEC+LIRAGLUTIDE 100iu/mL/3.6mg/mL soln inj pen|
+|insulin v1|readv2|fw...00|SHORT WITH INTERMEDIATE-ACTING INSULINS|
+|insulin v1|readv2|fw1..00|BIPHASIC ISOPHANE INSULIN LISPRO|
+|insulin v1|readv2|fw11.00|HUMALOG MIX25 100iu/mL cartridges 3mL|
+|insulin v1|readv2|fw12.00|HUMALOG MIX25 100iu/mL prefilled pen 3mL|
+|insulin v1|readv2|fw13.00|HUMALOG MIX50 100iu/mL prefilled pen 3mL|
+|insulin v1|readv2|fw14.00|HUMALOG MIX50 100iu/mL cartridges 3mL|
+|insulin v1|readv2|fw15.00|HUMALOG MIX25 KWIKPEN 100iu/mL prefilled pen 3mL|
+|insulin v1|readv2|fw16.00|HUMALOG MIX50 KWIKPEN 100iu/mL prefilled pen 3mL|
+|insulin v1|readv2|fw2..00|BIPHASIC INSULIN ASPART|
+|insulin v1|readv2|fw21.00|NOVOMIX 30 PENFILL 100units/mL injection cartridges 3mL|
+|insulin v1|readv2|fw22.00|NOVOMIX 30 FLEXPEN 100units/mL injection prefilled pen 3mL|
+|insulin v1|readv2|p453.00|*EXUBERA delivery system kit|
+|insulin v1|readv2|p454.00|*EXUBERA INSULIN RELEASE UNITS|
+|insulin v1|readv2|p455.00|EXUBERA delivery system chamber|
+|insulin v1|readv2|ph2..00|SYRINGE INSULIN U100|
+|insulin v1|readv2|ph21.00|HYPODERMIC U100 INSULIN 0.5mL syringe x1|
+|insulin v1|readv2|ph22.00|HYPODERMIC U100 INSULIN 1mL syringe x1|
+|insulin v1|readv2|ph23.00|PRE-SET 1mL U100 insulin syringe|
+|insulin v1|readv2|ph24.00|HYPOGUARD 1mL U100 insulin syringe|
+|insulin v1|readv2|ph25.00|CLICKCOUNT 1mL U100 insulin syringe|
+|insulin v1|readv2|ph26.00|ABCARE 1mL U100 pre-set syringe|
+|insulin v1|readv2|ph27.00|ABCARE 0.5mL U100 glass syringe|
+|insulin v1|readv2|ph28.00|*ABCARE 1mL U100 glass syringe|
+|insulin v1|readv2|ph29.00|HYPOGUARD 1mL U100 click/count syringe|
+|insulin v1|readv2|ph2A.00|HYPOGUARD 1mL U100 pre-set syringe|
+|insulin v1|readv2|ph3..00|SYRINGE INSULIN U100 DISPOSABLE+NEEDLE|
+|insulin v1|readv2|ph31.00|INSULIN DISPOSABLE 0.5mL/U100 syringe|
+|insulin v1|readv2|ph32.00|INSULIN DISPOSABLE 1mL/U100 syringe|
+|insulin v1|readv2|ph32.11|INSULIN DISPOSABLE-1ml 1xU100|
+|insulin v1|readv2|ph33.00|INSULIN DISPOSABLE 0.3mL/U100 syringe|
+|insulin v1|readv2|ph34.00|INSULIN U100 0.3mL disposable syringe+12mm(29G) needle|
+|insulin v1|readv2|ph35.00|INSULIN 0.5mL disposable syringe+12mm needle|
+|insulin v1|readv2|ph36.00|INSULIN 1mL disposable syringe+12mm needle|
+|insulin v1|readv2|ph39.00|MONOJECT U100 0.5mL disposable syringe+12mm(27G) needle|
+|insulin v1|readv2|ph3A.00|MONOJECT U100 1mL disposable syringe+12mm(27G) needle|
+|insulin v1|readv2|ph3B.00|BD U100 MICRO-FINE+ 0.3mL disposable syringe+needle|
+|insulin v1|readv2|ph3C.00|BD MICRO-FINE+ U100 0.5mL disposable syringe+12mm(29G) needle|
+|insulin v1|readv2|ph3D.00|BD MICRO-FINE+ U100 1mL disposable syringe+12mm(29G) needle|
+|insulin v1|readv2|ph3E.00|OMNIKAN U100 0.5mL disposable syringe+12mm(29G) needle|
+|insulin v1|readv2|ph3F.00|OMNIKAN U100 1mL disposable syringe+12mm(29G) needle|
+|insulin v1|readv2|ph3G.00|MYJECTOR 0.5mL U100 disposable syringe+needle|
+|insulin v1|readv2|ph3H.00|MYJECTOR 1mL U100 disposable syringe+needle|
+|insulin v1|readv2|ph3I.00|OMNIFIX SOLO 1mL U100 disposable syringe|
+|insulin v1|readv2|ph3J.00|INSULIN U100 0.3mL disposable syringe+8mm(30G) needle|
+|insulin v1|readv2|ph3K.00|INSULIN U100 0.5mL disposable syringe+8mm(30G) needle|
+|insulin v1|readv2|ph3L.00|BD MICRO-FINE+ U100 0.3mL disposable syringe+8mm(30G) needle|
+|insulin v1|readv2|ph3M.00|BD MICRO-FINE+ U100 0.5mL disposable syringe+8mm(30G) needle|
+|insulin v1|readv2|ph3N.00|INSULIN U100 0.5mL disposable syringe+12mm(27G) needle|
+|insulin v1|readv2|ph3P.00|INSULIN U100 0.5mL disposable syringe+12mm(29G) needle|
+|insulin v1|readv2|ph3Q.00|INSULIN U100 0.5mL disposable syringe+12mm(30G) needle|
+|insulin v1|readv2|ph3R.00|MYJECTOR U100 0.5mL disposable syringe+12mm(27G) needle|
+|insulin v1|readv2|ph3S.00|MYJECTOR U100 0.5mL disposable syringe+12mm(29G) needle|
+|insulin v1|readv2|ph3T.00|INSULIN U100 1mL disposable syringe+12mm(27G) needle|
+|insulin v1|readv2|ph3U.00|INSULIN U100 1mL disposable syringe+12mm(29G) needle|
+|insulin v1|readv2|ph3V.00|INSULIN U100 1mL disposable syringe+12mm(30G) needle|
+|insulin v1|readv2|ph3W.00|MYJECTOR U100 1mL disposable syringe+12mm(27G) needle|
+|insulin v1|readv2|ph3X.00|MYJECTOR U100 1mL disposable syringe+12mm(29G) needle|
+|insulin v1|readv2|ph3Y.00|UNIFINE U100 0.3mL disposable syringe+12mm(29G) needle|
+|insulin v1|readv2|ph3Z.00|UNIFINE U100 0.5mL disposable syringe+12mm(29G) needle|
+|insulin v1|readv2|ph3a.00|UNIFINE U100 1mL disposable syringe+12mm(29G) needle|
+|insulin v1|readv2|ph3b.00|BD MICRO-FINE PLUS U100 1mL disposable syringe+8mm(30G) needle|
+|insulin v1|readv2|ph3c.00|INSULIN U100 1mL disposable syringe+8mm(30G) needle|
+|insulin v1|readv2|ph3d.00|OMNICAN 50 U100 0.5mL disposable syringe+8mm(30G) needle|
+|insulin v1|readv2|ph3e.00|OMNICAN 50 U100 0.5mL disposable syringe+12mm(30G) needle|
+|insulin v1|readv2|ph3f.00|OMNICAN 100 U100 1mL disposable syringe+8mm(30G) needle|
+|insulin v1|readv2|ph3g.00|OMNICAN 100 U100 1mL disposable syringe+12mm(30G) needle|
+|insulin v1|readv2|phB..00|INSULIN SYRINGE+NEEDLE|
+|insulin v1|readv2|phB1.00|MAGELLAN 0.3mL disposable safety syringe+8mm(30G) needle|
+|insulin v1|readv2|phB2.00|MAGELLAN 0.5mL disposable safety syringe+8mm(30G) needle|
+|insulin v1|readv2|phB3.00|MAGELLAN 1mL disposable safety syringe+8mm(30G) needle|
+|insulin v1|readv2|phB4.00|MAGELLAN 0.3mL disposable safety syringe+13mm(29G) needle|
+|insulin v1|readv2|phB5.00|MAGELLAN 0.5mL disposable safety syringe+13mm(29G) needle|
+|insulin v1|readv2|phB6.00|MAGELLAN 1mL disposable safety syringe+13mm(29G) needle|
+|insulin v1|readv2|pm16.00|*NOVOPEN 3 Classic device|
+|insulin v1|readv2|pm17.00|*NOVOPEN 3 Fun device|
+|insulin v1|readv2|pm18.00|*NOVOPEN 1.5 Classic device|
+|insulin v1|readv2|pm19.00|*NOVOPEN 1.5 Fun device|
+|insulin v1|readv2|pm1A.00|*NOVOPEN 3 Demi device|
+|insulin v1|readv2|pm1B.00|AUTOPEN 3mL one unit device|
+|insulin v1|readv2|pm1B.11|AUTOPEN CLASSIC 3mL one unit device|
+|insulin v1|readv2|pm1C.00|*AUTOPEN 1.5mL one unit device|
+|insulin v1|readv2|pm1D.00|*AUTOPEN 1.5mL two unit device|
+|insulin v1|readv2|pm1E.00|AUTOPEN 3mL two unit device|
+|insulin v1|readv2|pm1E.11|AUTOPEN CLASSIC 3mL two unit device|
+|insulin v1|readv2|pm1I.00|NOVOPEN|
+|insulin v1|readv2|pm1L.00|*NOVOPEN junior yellow device|
+|insulin v1|readv2|pm1M.00|*NOVOPEN junior green device|
+|insulin v1|readv2|pm1N.00|AUTOPEN JUNIOR 3mL one unit device|
+|insulin v1|readv2|pm1P.00|AUTOPEN JUNIOR 3mL two unit device|
+|insulin v1|readv2|pm1S.00|MHI-500 STARTER KIT MH79002-01 needle-free insulin delivery system|
+|insulin v1|readv2|pm1T.00|MHI-500 3-month CONSUMABLE KIT (size 6) MH79002-07 needle-free insulin delivery system|
+|insulin v1|readv2|pm1U.00|MHI-500 3-month CONSUMABLE KIT (size 7) MH79002-08 needle-free insulin delivery system|
+|insulin v1|readv2|pm1Y.00|AUTOPEN 24 3mL one unit device|
+|insulin v1|readv2|pm1Z.00|AUTOPEN 24 3mL two unit device|
+|insulin v1|readv2|pm1a.00|AUTOPEN SPECIAL EDITION 3mL one unit device|
+|insulin v1|readv2|pm1b.00|AUTOPEN SPECIAL EDITION 3mL two unit device|
+|insulin v1|readv2|pm1h.00|MHI-500 STARTER KIT MH79002-01A needle-free insulin delivery system with 3mL adaptors|
+|insulin v1|readv2|pm1j.00|MHI-500 3-month CONSUMABLE KIT (size 6) MH79002-12 needle-free insulin delivery system with 3mL vial adaptors|
+|insulin v1|readv2|pm1k.00|MHI-500 3-month CONSUMABLE KIT (size 7) MH79002-13 needle-free insulin delivery system with 3mL vial adaptors|
+|insulin v1|readv2|pm1o.00|SQ-PEN STARTER PACK SQ001 needle-free insulin delivery system|
+|insulin v1|readv2|pm1r.00|SQ-PEN 3mL 3-month CONSUMABLE PACK SQ004 needle-free insulin delivery system|
+|insulin v1|readv2|pm1s.00|SQ-PEN 10mL 3-month CONSUMABLE PACK SQ006 needle-free insulin delivery system|
+|insulin v1|readv2|pm1w.00|SQ-X STARTER PACK SQ-007 needle free insulin delivery system|
+|insulin v1|readv2|pm1y.00|*NOVOPEN 4 blue device|
+|insulin v1|readv2|pm1z.00|*NOVOPEN 4 silver device|
+|insulin v1|readv2|pm2A.00|NOVOPEN ECHO 3mL blue device|
+|insulin v1|readv2|pm2B.00|NOVOPEN ECHO 3mL red device|
+|insulin v1|readv2|pm2I.00|NOVOPEN 5 blue injection device|
+|insulin v1|readv2|pm2J.00|NOVOPEN 5 silver injection device|
+|sglt2-inhibitors v1|ctv3|ftr..|METFORMIN + EMPAGLIFLOZIN|
+|sglt2-inhibitors v1|ctv3|ftr7.|SYNJARDY 12.5mg/1000mg tablets|
+|sglt2-inhibitors v1|ctv3|ftr5.|SYNJARDY 12.5mg/850mg tablets|
+|sglt2-inhibitors v1|ctv3|ftr3.|SYNJARDY 5mg/1000mg tablets|
+|sglt2-inhibitors v1|ctv3|ftr1.|SYNJARDY 5mg/850mg tablets|
+|sglt2-inhibitors v1|ctv3|ftr8.|EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 12.5mg/1000mg tablets|
+|sglt2-inhibitors v1|ctv3|ftr6.|EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 12.5mg/850mg tablets|
+|sglt2-inhibitors v1|ctv3|ftr4.|EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/1000mg tablets|
+|sglt2-inhibitors v1|ctv3|ftr2.|EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/850mg tablets|
+|sglt2-inhibitors v1|ctv3|fto..|EMPAGLIFLOZIN|
+|sglt2-inhibitors v1|ctv3|fto3.|JARDIANCE 25mg tablets|
+|sglt2-inhibitors v1|ctv3|fto1.|JARDIANCE 10mg tablets|
+|sglt2-inhibitors v1|ctv3|fto4.|EMPAGLIFLOZIN 25mg tablets|
+|sglt2-inhibitors v1|ctv3|fto2.|EMPAGLIFLOZIN 10mg tablets|
+|sglt2-inhibitors v1|ctv3|ftm..|METFORMIN + DAPAGLIFLOZIN|
+|sglt2-inhibitors v1|ctv3|ftm3.|XIGDUO 5mg/1000mg tablets|
+|sglt2-inhibitors v1|ctv3|ftm1.|XIGDUO 5mg/850mg tablets|
+|sglt2-inhibitors v1|ctv3|ftm4.|DAPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/1000mg tablets|
+|sglt2-inhibitors v1|ctv3|ftm2.|DAPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/850mg tablets|
+|sglt2-inhibitors v1|ctv3|fth..|DAPAGLIFLOZIN|
+|sglt2-inhibitors v1|ctv3|fth2.|FORXIGA 10mg tablets|
+|sglt2-inhibitors v1|ctv3|fth1.|FORXIGA 5mg tablets|
+|sglt2-inhibitors v1|ctv3|fth4.|DAPAGLIFLOZIN 10mg tablets|
+|sglt2-inhibitors v1|ctv3|fth3.|DAPAGLIFLOZIN 5mg tablets|
+|sglt2-inhibitors v1|ctv3|ftp..|METFORMIN + CANAGLIFLOZIN|
+|sglt2-inhibitors v1|ctv3|ftp3.|VOKANAMET 50mg/1000mg tablets|
+|sglt2-inhibitors v1|ctv3|ftp1.|VOKANAMET 50mg/850mg tablets|
+|sglt2-inhibitors v1|ctv3|ftp4.|CANAGLIFLOZIN+METFORMIN HYDROCHLORIDE 50mg/1000mg tablets|
+|sglt2-inhibitors v1|ctv3|ftp2.|CANAGLIFLOZIN+METFORMIN HYDROCHLORIDE 50mg/850mg tablets|
+|sglt2-inhibitors v1|ctv3|ftn..|CANAGLIFLOZIN|
+|sglt2-inhibitors v1|ctv3|ftn3.|INVOKANA 300mg tablets|
+|sglt2-inhibitors v1|ctv3|ftn1.|INVOKANA 100mg tablets|
+|sglt2-inhibitors v1|ctv3|ftn4.|CANAGLIFLOZIN 300mg tablets|
+|sglt2-inhibitors v1|ctv3|ftn2.|CANAGLIFLOZIN 100mg tablets|
+|sglt2-inhibitors v1|emis|DATA88553NEMIS|Dapagliflozin And Metformin  Tablets  5 mg + 850 mg|
+|sglt2-inhibitors v1|emis|CATA88608NEMIS|Canagliflozin  Tablets  100 mg|
+|sglt2-inhibitors v1|emis|EMTA104968NEMIS|Empagliflozin And Metformin  Tablets  12.5 mg + 850 mg|
+|sglt2-inhibitors v1|emis|INTA88612NEMIS|Invokana  Tablets  100 mg|
+|sglt2-inhibitors v1|emis|VOTA96773NEMIS|Vokanamet  Tablets  50 mg + 850 mg|
+|sglt2-inhibitors v1|emis|XITA88556NEMIS|Xigduo  Tablets  5 mg + 850 mg|
+|sglt2-inhibitors v1|emis|CATA96771NEMIS|Canagliflozin And Metformin  Tablets  50 mg + 850 mg|
+|sglt2-inhibitors v1|emis|EMTA91265NEMIS|Empagliflozin  Tablets  10 mg|
+|sglt2-inhibitors v1|emis|INTA88612NEMIS|Invokana  Tablets  100 mg|
+|sglt2-inhibitors v1|emis|CATA96770NEMIS|Canagliflozin And Metformin  Tablets  50 mg + 1000 mg|
+|sglt2-inhibitors v1|emis|SYTA104973NEMIS|Synjardy  Tablets  12.5 mg + 850 mg|
+|sglt2-inhibitors v1|emis|EMTA104968NEMIS|Empagliflozin And Metformin  Tablets  12.5 mg + 850 mg|
+|sglt2-inhibitors v1|emis|CATA88610NEMIS|Canagliflozin  Tablets  300 mg|
+|sglt2-inhibitors v1|emis|DATA88553NEMIS|Dapagliflozin And Metformin  Tablets  5 mg + 850 mg|
+|sglt2-inhibitors v1|emis|JATA91277NEMIS|Jardiance  Tablets  25 mg|
+|sglt2-inhibitors v1|emis|DATA77715NEMIS|Dapagliflozin  Tablets  10 mg|
+|sglt2-inhibitors v1|emis|JATA91276NEMIS|Jardiance  Tablets  10 mg|
+|sglt2-inhibitors v1|emis|VOTA96773NEMIS|Vokanamet  Tablets  50 mg + 850 mg|
+|sglt2-inhibitors v1|emis|VOTA96774NEMIS|Vokanamet  Tablets  50 mg + 1000 mg|
+|sglt2-inhibitors v1|emis|DATA77713NEMIS|Dapagliflozin  Tablets  5 mg|
+|sglt2-inhibitors v1|emis|EMTA91265NEMIS|Empagliflozin  Tablets  10 mg|
+|sglt2-inhibitors v1|emis|EMTA91272NEMIS|Empagliflozin  Tablets  25 mg|
+|sglt2-inhibitors v1|emis|INTA88613NEMIS|Invokana  Tablets  300 mg|
+|sglt2-inhibitors v1|emis|FOTA77718NEMIS|Forxiga  Tablets  10 mg|
+|sglt2-inhibitors v1|emis|JATA91277NEMIS|Jardiance  Tablets  25 mg|
+|sglt2-inhibitors v1|emis|SYTA104971NEMIS|Synjardy  Tablets  5 mg + 850 mg|
+|sglt2-inhibitors v1|emis|SYTA104974NEMIS|Synjardy  Tablets  12.5 mg + 1000 mg|
+|sglt2-inhibitors v1|emis|FOTA77718NEMIS|Forxiga  Tablets  10 mg|
+|sglt2-inhibitors v1|emis|DATA88552NEMIS|Dapagliflozin And Metformin  Tablets  5 mg + 1000 mg|
+|sglt2-inhibitors v1|emis|EMTA104966NEMIS|Empagliflozin And Metformin  Tablets  5 mg + 850 mg|
+|sglt2-inhibitors v1|emis|EMTA104969NEMIS|Empagliflozin And Metformin  Tablets  12.5 mg + 1000 mg|
+|sglt2-inhibitors v1|emis|CATA96771NEMIS|Canagliflozin And Metformin  Tablets  50 mg + 850 mg|
+|sglt2-inhibitors v1|emis|EMTA91272NEMIS|Empagliflozin  Tablets  25 mg|
+|sglt2-inhibitors v1|emis|SYTA104971NEMIS|Synjardy  Tablets  5 mg + 850 mg|
+|sglt2-inhibitors v1|emis|VOTA96774NEMIS|Vokanamet  Tablets  50 mg + 1000 mg|
+|sglt2-inhibitors v1|emis|CATA88608NEMIS|Canagliflozin  Tablets  100 mg|
+|sglt2-inhibitors v1|emis|FOTA77717NEMIS|Forxiga  Tablets  5 mg|
+|sglt2-inhibitors v1|emis|EMTA104966NEMIS|Empagliflozin And Metformin  Tablets  5 mg + 850 mg|
+|sglt2-inhibitors v1|emis|EMTA104969NEMIS|Empagliflozin And Metformin  Tablets  12.5 mg + 1000 mg|
+|sglt2-inhibitors v1|emis|SYTA104974NEMIS|Synjardy  Tablets  12.5 mg + 1000 mg|
+|sglt2-inhibitors v1|emis|XITA88555NEMIS|Xigduo  Tablets  5 mg + 1000 mg|
+|sglt2-inhibitors v1|emis|CATA88610NEMIS|Canagliflozin  Tablets  300 mg|
+|sglt2-inhibitors v1|emis|EMTA104967NEMIS|Empagliflozin And Metformin  Tablets  5 mg + 1000 mg|
+|sglt2-inhibitors v1|emis|INTA88613NEMIS|Invokana  Tablets  300 mg|
+|sglt2-inhibitors v1|emis|SYTA104972NEMIS|Synjardy  Tablets  5 mg + 1000 mg|
+|sglt2-inhibitors v1|emis|XITA88556NEMIS|Xigduo  Tablets  5 mg + 850 mg|
+|sglt2-inhibitors v1|emis|DATA88552NEMIS|Dapagliflozin And Metformin  Tablets  5 mg + 1000 mg|
+|sglt2-inhibitors v1|emis|FOTA77717NEMIS|Forxiga  Tablets  5 mg|
+|sglt2-inhibitors v1|emis|JATA91276NEMIS|Jardiance  Tablets  10 mg|
+|sglt2-inhibitors v1|emis|SYTA104972NEMIS|Synjardy  Tablets  5 mg + 1000 mg|
+|sglt2-inhibitors v1|emis|CATA96770NEMIS|Canagliflozin And Metformin  Tablets  50 mg + 1000 mg|
+|sglt2-inhibitors v1|emis|XITA88555NEMIS|Xigduo  Tablets  5 mg + 1000 mg|
+|sglt2-inhibitors v1|emis|DATA77715NEMIS|Dapagliflozin  Tablets  10 mg|
+|sglt2-inhibitors v1|emis|DATA77713NEMIS|Dapagliflozin  Tablets  5 mg|
+|sglt2-inhibitors v1|emis|SYTA104973NEMIS|Synjardy  Tablets  12.5 mg + 850 mg|
+|sglt2-inhibitors v1|emis|EMTA104967NEMIS|Empagliflozin And Metformin  Tablets  5 mg + 1000 mg|
+|sglt2-inhibitors v1|readv2|ftr..00|METFORMIN + EMPAGLIFLOZIN|
+|sglt2-inhibitors v1|readv2|ftr8.00|EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 12.5mg/1000mg tablets|
+|sglt2-inhibitors v1|readv2|ftr6.00|EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 12.5mg/850mg tablets|
+|sglt2-inhibitors v1|readv2|ftr4.00|EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/1000mg tablets|
+|sglt2-inhibitors v1|readv2|ftr2.00|EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/850mg tablets|
+|sglt2-inhibitors v1|readv2|ftr7.00|SYNJARDY 12.5mg/1000mg tablets|
+|sglt2-inhibitors v1|readv2|ftr5.00|SYNJARDY 12.5mg/850mg tablets|
+|sglt2-inhibitors v1|readv2|ftr3.00|SYNJARDY 5mg/1000mg tablets|
+|sglt2-inhibitors v1|readv2|ftr1.00|SYNJARDY 5mg/850mg tablets|
+|sglt2-inhibitors v1|readv2|fto..00|EMPAGLIFLOZIN|
+|sglt2-inhibitors v1|readv2|fto4.00|EMPAGLIFLOZIN 25mg tablets|
+|sglt2-inhibitors v1|readv2|fto2.00|EMPAGLIFLOZIN 10mg tablets|
+|sglt2-inhibitors v1|readv2|fto3.00|JARDIANCE 25mg tablets|
+|sglt2-inhibitors v1|readv2|fto1.00|JARDIANCE 10mg tablets|
+|sglt2-inhibitors v1|readv2|ftm..00|METFORMIN + DAPAGLIFLOZIN|
+|sglt2-inhibitors v1|readv2|ftm4.00|DAPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/1000mg tablets|
+|sglt2-inhibitors v1|readv2|ftm2.00|DAPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/850mg tablets|
+|sglt2-inhibitors v1|readv2|ftm3.00|XIGDUO 5mg/1000mg tablets|
+|sglt2-inhibitors v1|readv2|ftm1.00|XIGDUO 5mg/850mg tablets|
+|sglt2-inhibitors v1|readv2|fth..00|DAPAGLIFLOZIN|
+|sglt2-inhibitors v1|readv2|fth4.00|DAPAGLIFLOZIN 10mg tablets|
+|sglt2-inhibitors v1|readv2|fth3.00|DAPAGLIFLOZIN 5mg tablets|
+|sglt2-inhibitors v1|readv2|fth2.00|FORXIGA 10mg tablets|
+|sglt2-inhibitors v1|readv2|fth1.00|FORXIGA 5mg tablets|
+|sglt2-inhibitors v1|readv2|ftp..00|METFORMIN + CANAGLIFLOZIN|
+|sglt2-inhibitors v1|readv2|ftp4.00|CANAGLIFLOZIN+METFORMIN HYDROCHLORIDE 50mg/1000mg tablets|
+|sglt2-inhibitors v1|readv2|ftp2.00|CANAGLIFLOZIN+METFORMIN HYDROCHLORIDE 50mg/850mg tablets|
+|sglt2-inhibitors v1|readv2|ftp3.00|VOKANAMET 50mg/1000mg tablets|
+|sglt2-inhibitors v1|readv2|ftp1.00|VOKANAMET 50mg/850mg tablets|
+|sglt2-inhibitors v1|readv2|ftn..00|CANAGLIFLOZIN|
+|sglt2-inhibitors v1|readv2|ftn4.00|CANAGLIFLOZIN 300mg tablets|
+|sglt2-inhibitors v1|readv2|ftn2.00|CANAGLIFLOZIN 100mg tablets|
+|sglt2-inhibitors v1|readv2|ftn3.00|INVOKANA 300mg tablets|
+|sglt2-inhibitors v1|readv2|ftn1.00|INVOKANA 100mg tablets|
+|sulphonylureas v1|ctv3|f31..|Acetohexamide|
+|sulphonylureas v1|ctv3|f311.|Dimelor 500mg tablet|
+|sulphonylureas v1|ctv3|f31z.|Acetohexamide 500mg tablet|
+|sulphonylureas v1|ctv3|f32..|Chlorpropamide|
+|sulphonylureas v1|ctv3|f321.|Chlorpropamide 100mg tablet|
+|sulphonylureas v1|ctv3|f322.|Chlorpropamide 250mg tablet|
+|sulphonylureas v1|ctv3|f323.|Diabinese 100mg tablet|
+|sulphonylureas v1|ctv3|f324.|Diabinese 250mg tablet|
+|sulphonylureas v1|ctv3|f325.|Glymese 250mg tablet|
+|sulphonylureas v1|ctv3|f331.|Glibenclamide 2.5mg tablet|
+|sulphonylureas v1|ctv3|f332.|Glibenclamide 5mg tablet|
+|sulphonylureas v1|ctv3|f333.|Daonil 5mg tablet|
+|sulphonylureas v1|ctv3|f334.|Semi-Daonil 2.5mg tablet|
+|sulphonylureas v1|ctv3|f335.|Euglucon 2.5mg tablet|
+|sulphonylureas v1|ctv3|f336.|Euglucon 5mg tablet|
+|sulphonylureas v1|ctv3|f337.|Libanil 2.5mg tablet|
+|sulphonylureas v1|ctv3|f338.|Libanil 5mg tablet|
+|sulphonylureas v1|ctv3|f339.|Malix 2.5mg tablet|
+|sulphonylureas v1|ctv3|f33a.|Malix 5mg tablet|
+|sulphonylureas v1|ctv3|f33b.|Daonil CP 5mg tablets|
+|sulphonylureas v1|ctv3|f33c.|Semi-daonil CP 2.5mg tablets|
+|sulphonylureas v1|ctv3|f33d.|Diabetamide 2.5mg tablet|
+|sulphonylureas v1|ctv3|f33e.|Diabetamide 5mg tablet|
+|sulphonylureas v1|ctv3|f33f.|Calabren 2.5mg tablet|
+|sulphonylureas v1|ctv3|f33g.|Calabren 5mg tablet|
+|sulphonylureas v1|ctv3|f34..|Glibornuride|
+|sulphonylureas v1|ctv3|f341.|Glutril 25mg tablet|
+|sulphonylureas v1|ctv3|f34z.|Glibornuride 25mg tablet|
+|sulphonylureas v1|ctv3|f351.|Diamicron 80mg tablet|
+|sulphonylureas v1|ctv3|f352.|Diaglyk 80mg tablet|
+|sulphonylureas v1|ctv3|f353.|Vivazide 80mg tablet|
+|sulphonylureas v1|ctv3|f354.|Diamicron MR 30mg m/r tablet|
+|sulphonylureas v1|ctv3|f355.|NAZDOL MR 30mg m/r tablets|
+|sulphonylureas v1|ctv3|f356.|EDICIL MR 30mg m/r tablets|
+|sulphonylureas v1|ctv3|f357.|ZICRON 40mg tablets|
+|sulphonylureas v1|ctv3|f358.|VITILE XL 30mg m/r tablets|
+|sulphonylureas v1|ctv3|f359.|LAAGLYDA MR 60mg m/r tablets|
+|sulphonylureas v1|ctv3|f35A.|VAMJU 30mg m/r tablets|
+|sulphonylureas v1|ctv3|f35B.|VAMJU 60mg m/r tablets|
+|sulphonylureas v1|ctv3|f35C.|BILXONA 30mg m/r tablets|
+|sulphonylureas v1|ctv3|f35D.|BILXONA 60mg m/r tablets|
+|sulphonylureas v1|ctv3|f35w.|GLICLAZIDE 60mg m/r tablets|
+|sulphonylureas v1|ctv3|f35x.|GLICLAZIDE 40mg tablets|
+|sulphonylureas v1|ctv3|f35y.|Gliclazide 30mg m/r tablet|
+|sulphonylureas v1|ctv3|f35z.|Gliclazide 80mg tablet|
+|sulphonylureas v1|ctv3|f36..|Glipizide|
+|sulphonylureas v1|ctv3|f361.|Glipizide 5mg tablet|
+|sulphonylureas v1|ctv3|f362.|Glibenese 5mg tablet|
+|sulphonylureas v1|ctv3|f363.|Minodiab 2.5mg tablet|
+|sulphonylureas v1|ctv3|f364.|Minodiab 5mg tablet|
+|sulphonylureas v1|ctv3|f36z.|Glipizide 2.5mg tablet|
+|sulphonylureas v1|ctv3|f37..|Gliquidone|
+|sulphonylureas v1|ctv3|f371.|Glurenorm 30mg tablet|
+|sulphonylureas v1|ctv3|f37z.|Gliquidone 30mg tablet|
+|sulphonylureas v1|ctv3|f38..|Glymidine|
+|sulphonylureas v1|ctv3|f381.|Gondafon 500mg tablet|
+|sulphonylureas v1|ctv3|f38z.|Glymidine 500mg tablet|
+|sulphonylureas v1|ctv3|f39..|Tolazamide|
+|sulphonylureas v1|ctv3|f391.|Tolanase 100mg tablet|
+|sulphonylureas v1|ctv3|f392.|Tolanase 250mg tablet|
+|sulphonylureas v1|ctv3|f39y.|Tolazamide 100mg tablet|
+|sulphonylureas v1|ctv3|f39z.|Tolazamide 250mg tablet|
+|sulphonylureas v1|ctv3|f3A..|Glimepiride|
+|sulphonylureas v1|ctv3|f3A1.|Glimepiride 2mg tablet|
+|sulphonylureas v1|ctv3|f3A2.|Amaryl 2mg tablet|
+|sulphonylureas v1|ctv3|f3A3.|Glimepiride 1mg tablet|
+|sulphonylureas v1|ctv3|f3A4.|Glimepiride 3mg tablet|
+|sulphonylureas v1|ctv3|f3A5.|Glimepiride 4mg tablet|
+|sulphonylureas v1|ctv3|f3A6.|Amaryl 1mg tablet|
+|sulphonylureas v1|ctv3|f3A7.|Amaryl 3mg tablet|
+|sulphonylureas v1|ctv3|f3A8.|Amaryl 4mg tablet|
+|sulphonylureas v1|ctv3|f3A9.|NIDDARYL 1mg tablets|
+|sulphonylureas v1|ctv3|f3AA.|NIDDARYL 2mg tablets|
+|sulphonylureas v1|ctv3|f3AB.|NIDDARYL 3mg tablets|
+|sulphonylureas v1|ctv3|f3AC.|NIDDARYL 4mg tablets|
+|sulphonylureas v1|ctv3|f3a1.|Tolbutamide 500mg tablet|
+|sulphonylureas v1|ctv3|f3a2.|Glyconon 500mg tablet|
+|sulphonylureas v1|ctv3|f3a3.|Pramidex 500mg tablet|
+|sulphonylureas v1|ctv3|f3a4.|Rastinon 500mg tablet|
+|sulphonylureas v1|ctv3|x02WJ|Calabren|
+|sulphonylureas v1|ctv3|x02ZQ|Diabetamide|
+|sulphonylureas v1|ctv3|x02ZR|Diabinese|
+|sulphonylureas v1|ctv3|x02ZU|Diamicron|
+|sulphonylureas v1|ctv3|x02bu|Euglucon|
+|sulphonylureas v1|ctv3|x02e0|Glibenese|
+|sulphonylureas v1|ctv3|x02e7|Glurenorm|
+|sulphonylureas v1|ctv3|x02e8|Glyconon|
+|sulphonylureas v1|ctv3|x02e9|Glymese|
+|sulphonylureas v1|ctv3|x02jS|Minodiab|
+|sulphonylureas v1|ctv3|x02p1|Rastinon|
+|sulphonylureas v1|ctv3|x02sp|Tolanase|
+|sulphonylureas v1|ctv3|x03dF|Malix|
+|sulphonylureas v1|ctv3|x03pe|Amaryl|
+|sulphonylureas v1|ctv3|x03vw|Semi-Daonil|
+|sulphonylureas v1|ctv3|x04AM|Daonil|
+|sulphonylureas v1|ctv3|x04vf|Diaglyk|
+|sulphonylureas v1|ctv3|x05CI|Vivazide|
+|sulphonylureas v1|ctv3|x05DE|Diamicron MR|
+|sulphonylureas v1|ctv3|x05Jy|Acetohexamide - chemical|
+|sulphonylureas v1|emis|DIM/6644NEMIS|Diamicron 30 mg Mr  M/R tablets  30 mg|
+|sulphonylureas v1|emis|VAM/98855NEMIS|Vamju  M/R tablets  30 mg|
+|sulphonylureas v1|emis|CHTA600|Chlorpropamide  Tablets  100 mg|
+|sulphonylureas v1|emis|CHTA601|Chlorpropamide  Tablets  250 mg|
+|sulphonylureas v1|emis|DIM/6644NEMIS|Diamicron 30 mg Mr  M/R tablets  30 mg|
+|sulphonylureas v1|emis|GLTA31852EMIS|Glimepiride  Tablets  4 mg|
+|sulphonylureas v1|emis|DATA806|Daonil  Tablets  5 mg|
+|sulphonylureas v1|emis|GLTA6910|Gliquidone  Tablets  30 mg|
+|sulphonylureas v1|emis|RATA2434|Rastinon  Tablets  500 mg|
+|sulphonylureas v1|emis|TOTA7095|Tolazamide  Tablets  250 mg|
+|sulphonylureas v1|emis|GLTA1303|Glibenclamide  Tablets  5 mg|
+|sulphonylureas v1|emis|GLTA4960|Gliclazide  Tablets  80 mg|
+|sulphonylureas v1|emis|GLTA6910|Gliquidone  Tablets  30 mg|
+|sulphonylureas v1|emis|ZITA43643NEMIS|Zicron  Tablets  40 mg|
+|sulphonylureas v1|emis|EUTA3551|Euglucon  Tablets  2.5 mg|
+|sulphonylureas v1|emis|GLTA31482EMIS|Glimepiride  Tablets  2 mg|
+|sulphonylureas v1|emis|GLTA31852EMIS|Glimepiride  Tablets  4 mg|
+|sulphonylureas v1|emis|GLTA1304|Glibenese  Tablets  5 mg|
+|sulphonylureas v1|emis|AMTA31844EMIS|Amaryl  Tablets  1 mg|
+|sulphonylureas v1|emis|CHTA600|Chlorpropamide  Tablets  100 mg|
+|sulphonylureas v1|emis|GLM/6638NEMIS|Gliclazide  M/R tablets  30 mg|
+|sulphonylureas v1|emis|TOTA2876|Tolbutamide  Tablets  500 mg|
+|sulphonylureas v1|emis|SETA4308|Semi-Daonil  Tablets  2.5 mg|
+|sulphonylureas v1|emis|AMTA31846EMIS|Amaryl  Tablets  4 mg|
+|sulphonylureas v1|emis|DITA34375EMIS|Diaglyk  Tablets  80 mg|
+|sulphonylureas v1|emis|MITA3949|Minodiab  Tablets  5 mg|
+|sulphonylureas v1|emis|NAM/34993NEMIS|Nazdol Mr  M/R tablets  30 mg|
+|sulphonylureas v1|emis|DATA806|Daonil  Tablets  5 mg|
+|sulphonylureas v1|emis|EUTA3552|Euglucon  Tablets  5 mg|
+|sulphonylureas v1|emis|LAM/78911NEMIS|Laaglyda Mr  M/R tablets  60 mg|
+|sulphonylureas v1|emis|GLM/6638NEMIS|Gliclazide  M/R tablets  30 mg|
+|sulphonylureas v1|emis|AMTA31845EMIS|Amaryl  Tablets  3 mg|
+|sulphonylureas v1|emis|GLM/78909NEMIS|Gliclazide  M/R tablets  60 mg|
+|sulphonylureas v1|emis|DITA3417|Diamicron  Tablets  80 mg|
+|sulphonylureas v1|emis|GLM/78909NEMIS|Gliclazide  M/R tablets  60 mg|
+|sulphonylureas v1|emis|GLTA4961|Glipizide  Tablets  2.5 mg|
+|sulphonylureas v1|emis|TOTA2876|Tolbutamide  Tablets  500 mg|
+|sulphonylureas v1|emis|VAM/98856NEMIS|Vamju  M/R tablets  60 mg|
+|sulphonylureas v1|emis|DITA3417|Diamicron  Tablets  80 mg|
+|sulphonylureas v1|emis|GLTA1305|Glipizide  Tablets  5 mg|
+|sulphonylureas v1|emis|GLTA43641NEMIS|Gliclazide  Tablets  40 mg|
+|sulphonylureas v1|emis|GLTA4960|Gliclazide  Tablets  80 mg|
+|sulphonylureas v1|emis|AMTA31844EMIS|Amaryl  Tablets  1 mg|
+|sulphonylureas v1|emis|AMTA31845EMIS|Amaryl  Tablets  3 mg|
+|sulphonylureas v1|emis|AMTA31846EMIS|Amaryl  Tablets  4 mg|
+|sulphonylureas v1|emis|GLTA1305|Glipizide  Tablets  5 mg|
+|sulphonylureas v1|emis|DITA857|Diabinese  Tablets  250 mg|
+|sulphonylureas v1|emis|GLTA1302|Glibenclamide  Tablets  2.5 mg|
+|sulphonylureas v1|emis|GLTA1304|Glibenese  Tablets  5 mg|
+|sulphonylureas v1|emis|GLTA31850EMIS|Glimepiride  Tablets  1 mg|
+|sulphonylureas v1|emis|MITA3948|Minodiab  Tablets  2.5 mg|
+|sulphonylureas v1|emis|EUTA3551|Euglucon  Tablets  2.5 mg|
+|sulphonylureas v1|emis|GLTA1303|Glibenclamide  Tablets  5 mg|
+|sulphonylureas v1|emis|MATA3874|Malix  Tablets  5 mg|
+|sulphonylureas v1|emis|AMTA31480EMIS|Amaryl  Tablets  2 mg|
+|sulphonylureas v1|emis|EUTA3552|Euglucon  Tablets  5 mg|
+|sulphonylureas v1|emis|MITA3948|Minodiab  Tablets  2.5 mg|
+|sulphonylureas v1|emis|CHTA601|Chlorpropamide  Tablets  250 mg|
+|sulphonylureas v1|emis|GLTA4961|Glipizide  Tablets  2.5 mg|
+|sulphonylureas v1|emis|GLTA4972|Glymidine  Tablets  500 mg|
+|sulphonylureas v1|emis|SETA4308|Semi-Daonil  Tablets  2.5 mg|
+|sulphonylureas v1|emis|ZITA43643NEMIS|Zicron  Tablets  40 mg|
+|sulphonylureas v1|emis|GLTA1302|Glibenclamide  Tablets  2.5 mg|
+|sulphonylureas v1|emis|GLTA31482EMIS|Glimepiride  Tablets  2 mg|
+|sulphonylureas v1|emis|GLTA31850EMIS|Glimepiride  Tablets  1 mg|
+|sulphonylureas v1|emis|GLTA31851EMIS|Glimepiride  Tablets  3 mg|
+|sulphonylureas v1|emis|LAM/78911NEMIS|Laaglyda Mr  M/R tablets  60 mg|
+|sulphonylureas v1|emis|MITA3949|Minodiab  Tablets  5 mg|
+|sulphonylureas v1|emis|AMTA31480EMIS|Amaryl  Tablets  2 mg|
+|sulphonylureas v1|emis|DITA856|Diabinese  Tablets  100 mg|
+|sulphonylureas v1|emis|GLTA31851EMIS|Glimepiride  Tablets  3 mg|
+|sulphonylureas v1|emis|TOTA4424|Tolanase  Tablets  100 mg|
+|sulphonylureas v1|emis|VAM/98856NEMIS|Vamju  M/R tablets  60 mg|
+|sulphonylureas v1|emis|DITA34375EMIS|Diaglyk  Tablets  80 mg|
+|sulphonylureas v1|emis|GLTA43641NEMIS|Gliclazide  Tablets  40 mg|
+|sulphonylureas v1|emis|NAM/34993NEMIS|Nazdol Mr  M/R tablets  30 mg|
+|sulphonylureas v1|emis|VAM/98855NEMIS|Vamju  M/R tablets  30 mg|
+|sulphonylureas v1|readv2|f3...00|SULFONYLUREAS|
+|sulphonylureas v1|readv2|f3...11|SULPHONYLUREAS|
+|sulphonylureas v1|readv2|f31..00|*ACETOHEXAMIDE|
+|sulphonylureas v1|readv2|f311.00|*DIMELOR 500mg tablets|
+|sulphonylureas v1|readv2|f31z.00|*ACETOHEXAMIDE 500mg tablets|
+|sulphonylureas v1|readv2|f32..00|CHLORPROPAMIDE|
+|sulphonylureas v1|readv2|f321.00|CHLORPROPAMIDE 100mg tablets|
+|sulphonylureas v1|readv2|f322.00|CHLORPROPAMIDE 250mg tablets|
+|sulphonylureas v1|readv2|f323.00|*DIABINESE 100mg tablets|
+|sulphonylureas v1|readv2|f324.00|*DIABINESE 250mg tablets|
+|sulphonylureas v1|readv2|f325.00|GLYMESE 250mg tablets|
+|sulphonylureas v1|readv2|f33..00|GLIBENCLAMIDE|
+|sulphonylureas v1|readv2|f331.00|GLIBENCLAMIDE 2.5mg tablets|
+|sulphonylureas v1|readv2|f332.00|GLIBENCLAMIDE 5mg tablets|
+|sulphonylureas v1|readv2|f333.00|*DAONIL 5mg tablets|
+|sulphonylureas v1|readv2|f334.00|*SEMI-DAONIL 2.5mg tablets|
+|sulphonylureas v1|readv2|f335.00|*EUGLUCON 2.5mg tablets|
+|sulphonylureas v1|readv2|f336.00|*EUGLUCON 5mg tablets|
+|sulphonylureas v1|readv2|f337.00|*LIBANIL 2.5mg tablets|
+|sulphonylureas v1|readv2|f338.00|*LIBANIL 5mg tablets|
+|sulphonylureas v1|readv2|f339.00|*MALIX 2.5mg tablets|
+|sulphonylureas v1|readv2|f33a.00|*MALIX 5mg tablets|
+|sulphonylureas v1|readv2|f33b.00|*DAONIL CP 5mg tablets|
+|sulphonylureas v1|readv2|f33c.00|*SEMI-DAONIL CP 2.5mg tablets|
+|sulphonylureas v1|readv2|f33d.00|*DIABETAMIDE 2.5mg tablets|
+|sulphonylureas v1|readv2|f33e.00|*DIABETAMIDE 5mg tablets|
+|sulphonylureas v1|readv2|f33f.00|*CALABREN 2.5mg tablets|
+|sulphonylureas v1|readv2|f33g.00|*CALABREN 5mg tablets|
+|sulphonylureas v1|readv2|f34..00|*GLIBORNURIDE|
+|sulphonylureas v1|readv2|f341.00|*GLUTRIL 25mg tablets|
+|sulphonylureas v1|readv2|f34z.00|*GLIBORNURIDE 25mg tablets|
+|sulphonylureas v1|readv2|f35..00|GLICLAZIDE|
+|sulphonylureas v1|readv2|f351.00|DIAMICRON 80mg tablets|
+|sulphonylureas v1|readv2|f352.00|DIAGLYK 80mg tablets|
+|sulphonylureas v1|readv2|f353.00|VIVAZIDE 80mg tablets|
+|sulphonylureas v1|readv2|f354.00|DIAMICRON MR 30mg m/r tablets|
+|sulphonylureas v1|readv2|f355.00|NAZDOL MR 30mg m/r tablets|
+|sulphonylureas v1|readv2|f356.00|EDICIL MR 30mg m/r tablets|
+|sulphonylureas v1|readv2|f357.00|ZICRON 40mg tablets|
+|sulphonylureas v1|readv2|f358.00|VITILE XL 30mg m/r tablets|
+|sulphonylureas v1|readv2|f359.00|LAAGLYDA MR 60mg m/r tablets|
+|sulphonylureas v1|readv2|f35A.00|VAMJU 30mg m/r tablets|
+|sulphonylureas v1|readv2|f35B.00|VAMJU 60mg m/r tablets|
+|sulphonylureas v1|readv2|f35C.00|BILXONA 30mg m/r tablets|
+|sulphonylureas v1|readv2|f35D.00|BILXONA 60mg m/r tablets|
+|sulphonylureas v1|readv2|f35w.00|GLICLAZIDE 60mg m/r tablets|
+|sulphonylureas v1|readv2|f35x.00|GLICLAZIDE 40mg tablets|
+|sulphonylureas v1|readv2|f35y.00|GLICLAZIDE 30mg m/r tablets|
+|sulphonylureas v1|readv2|f35z.00|GLICLAZIDE 80mg tablets|
+|sulphonylureas v1|readv2|f36..00|GLIPIZIDE|
+|sulphonylureas v1|readv2|f361.00|GLIPIZIDE 5mg tablets|
+|sulphonylureas v1|readv2|f362.00|*GLIBENESE 5mg tablets|
+|sulphonylureas v1|readv2|f363.00|*MINODIAB 2.5mg tablets|
+|sulphonylureas v1|readv2|f364.00|MINODIAB 5mg tablets|
+|sulphonylureas v1|readv2|f36y.00|*GLIPIZIDE 5mg tablets|
+|sulphonylureas v1|readv2|f36z.00|GLIPIZIDE 2.5mg tablets|
+|sulphonylureas v1|readv2|f37..00|GLIQUIDONE|
+|sulphonylureas v1|readv2|f371.00|*GLURENORM 30mg tablets|
+|sulphonylureas v1|readv2|f37z.00|*GLIQUIDONE 30mg tablets|
+|sulphonylureas v1|readv2|f38..00|*GLYMIDINE|
+|sulphonylureas v1|readv2|f381.00|*GONDAFON 500mg tablets|
+|sulphonylureas v1|readv2|f38z.00|*GLYMIDINE 500mg tablets|
+|sulphonylureas v1|readv2|f39..00|TOLAZAMIDE|
+|sulphonylureas v1|readv2|f391.00|TOLANASE 100mg tablets|
+|sulphonylureas v1|readv2|f392.00|TOLANASE 250mg tablets|
+|sulphonylureas v1|readv2|f39y.00|TOLAZAMIDE 100mg tablets|
+|sulphonylureas v1|readv2|f39z.00|TOLAZAMIDE 250mg tablets|
+|sulphonylureas v1|readv2|f3A..00|GLIMEPIRIDE|
+|sulphonylureas v1|readv2|f3A1.00|GLIMEPIRIDE 2mg tablets|
+|sulphonylureas v1|readv2|f3A2.00|AMARYL 2mg tablets|
+|sulphonylureas v1|readv2|f3A3.00|GLIMEPIRIDE 1mg tablets|
+|sulphonylureas v1|readv2|f3A4.00|GLIMEPIRIDE 3mg tablets|
+|sulphonylureas v1|readv2|f3A5.00|GLIMEPIRIDE 4mg tablets|
+|sulphonylureas v1|readv2|f3A6.00|AMARYL 1mg tablets|
+|sulphonylureas v1|readv2|f3A7.00|AMARYL 3mg tablets|
+|sulphonylureas v1|readv2|f3A8.00|AMARYL 4mg tablets|
+|sulphonylureas v1|readv2|f3A9.00|NIDDARYL 1mg tablets|
+|sulphonylureas v1|readv2|f3AA.00|NIDDARYL 2mg tablets|
+|sulphonylureas v1|readv2|f3AB.00|NIDDARYL 3mg tablets|
+|sulphonylureas v1|readv2|f3AC.00|NIDDARYL 4mg tablets|
+|sulphonylureas v1|readv2|f3a..00|TOLBUTAMIDE|
+|sulphonylureas v1|readv2|f3a1.00|TOLBUTAMIDE 500mg tablets|
+|sulphonylureas v1|readv2|f3a2.00|GLYCONON 500mg tablets|
+|sulphonylureas v1|readv2|f3a3.00|*PRAMIDEX 500mg tablets|
+|sulphonylureas v1|readv2|f3a4.00|*RASTINON 500mg tablets|
 |ace-inhibitor v1|ctv3|bA...|Calcium-channel blocker+ACE inhibitor|
 |ace-inhibitor v1|ctv3|bA1..|Felodipine+ramipril|
 |ace-inhibitor v1|ctv3|bA1y.|Felodipine+ramipril 2.5mg/2.5mg tablet|

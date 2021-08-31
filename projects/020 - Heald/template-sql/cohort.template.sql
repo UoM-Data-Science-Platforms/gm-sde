@@ -23,7 +23,9 @@
 -- DIAGNOSES
 -- PatientHasCOPD, PatientHasASTHMA, PatientHasSMI, PatientHasHYPERTENSION
 -- MEDICATIONS
--- IsOnACEI, IsOnAspirin, IsOnClopidogrel, IsOnMetformin
+-- IsOnACEIorARB, IsOnAspirin, IsOnClopidogrel, IsOnMetformin, IsOnInsulin, 
+-- IsOnSGLTI, IsOnGLP1A, IsOnSulphonylurea
+
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -337,6 +339,62 @@ WHERE (
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate > @MedicationsFromDate;
 
+--> CODESET glp1-receptor-agonists:1
+IF OBJECT_ID('tempdb..#PatientMedicationsGLP1') IS NOT NULL DROP TABLE #PatientMedicationsGLP1;
+SELECT 
+	FK_Patient_Link_ID,
+	CAST(MedicationDate AS DATE) AS MedicationDate
+INTO #PatientMedicationsGLP1
+FROM RLS.vw_GP_Medications
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('glp1-receptor-agonists') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('glp1-receptor-agonists') AND [Version]=1))
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND MedicationDate > @MedicationsFromDate;
+
+--> CODESET insulin:1
+IF OBJECT_ID('tempdb..#PatientMedicationsINSULIN') IS NOT NULL DROP TABLE #PatientMedicationsINSULIN;
+SELECT 
+	FK_Patient_Link_ID,
+	CAST(MedicationDate AS DATE) AS MedicationDate
+INTO #PatientMedicationsINSULIN
+FROM RLS.vw_GP_Medications
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('insulin') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('insulin') AND [Version]=1))
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND MedicationDate > @MedicationsFromDate;
+
+--> CODESET sglt2-inhibitors:1
+IF OBJECT_ID('tempdb..#PatientMedicationsSGLT2I') IS NOT NULL DROP TABLE #PatientMedicationsSGLT2I;
+SELECT 
+	FK_Patient_Link_ID,
+	CAST(MedicationDate AS DATE) AS MedicationDate
+INTO #PatientMedicationsSGLT2I
+FROM RLS.vw_GP_Medications
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('sglt2-inhibitors') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('sglt2-inhibitors') AND [Version]=1))
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND MedicationDate > @MedicationsFromDate;
+
+--> CODESET sulphonylureas:1
+IF OBJECT_ID('tempdb..#PatientMedicationsSULPHONYLUREAS') IS NOT NULL DROP TABLE #PatientMedicationsSULPHONYLUREAS;
+SELECT 
+	FK_Patient_Link_ID,
+	CAST(MedicationDate AS DATE) AS MedicationDate
+INTO #PatientMedicationsSULPHONYLUREAS
+FROM RLS.vw_GP_Medications
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('sulphonylureas') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('sulphonylureas') AND [Version]=1))
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND MedicationDate > @MedicationsFromDate;
+
 --> CODESET ace-inhibitor:1
 IF OBJECT_ID('tempdb..#PatientMedicationsACEI') IS NOT NULL DROP TABLE #PatientMedicationsACEI;
 SELECT 
@@ -383,9 +441,13 @@ AND MedicationDate > @MedicationsFromDate;
 IF OBJECT_ID('tempdb..#PatientMedications') IS NOT NULL DROP TABLE #PatientMedications;
 SELECT 
   p.FK_Patient_Link_ID,
-  CASE WHEN MAX(acei.MedicationDate) IS NULL THEN 'N' ELSE 'Y' END AS IsOnACEI,
+  CASE WHEN MAX(acei.MedicationDate) IS NULL THEN 'N' ELSE 'Y' END AS IsOnACEIorARB,
   CASE WHEN MAX(aspirin.MedicationDate) IS NULL THEN 'N' ELSE 'Y' END AS IsOnAspirin,
   CASE WHEN MAX(clop.MedicationDate) IS NULL THEN 'N' ELSE 'Y' END AS IsOnClopidogrel,
+  CASE WHEN MAX(insu.MedicationDate) IS NULL THEN 'N' ELSE 'Y' END AS IsOnInsulin,
+  CASE WHEN MAX(sglt.MedicationDate) IS NULL THEN 'N' ELSE 'Y' END AS IsOnSGLTI,
+  CASE WHEN MAX(glp1.MedicationDate) IS NULL THEN 'N' ELSE 'Y' END AS IsOnGLP1A,
+  CASE WHEN MAX(sulp.MedicationDate) IS NULL THEN 'N' ELSE 'Y' END AS IsOnSulphonylurea,
   CASE WHEN MAX(met.MedicationDate) IS NULL THEN 'N' ELSE 'Y' END AS IsOnMetformin
 INTO #PatientMedications
 FROM #PatientIdsAndIndexDates p
@@ -405,6 +467,22 @@ LEFT OUTER JOIN #PatientMedicationsMETFORMIN met
   ON met.FK_Patient_Link_ID = p.FK_Patient_Link_ID
   AND met.MedicationDate <= p.IndexDate
   AND met.MedicationDate >= DATEADD(day, -183, p.IndexDate)
+LEFT OUTER JOIN #PatientMedicationsGLP1 glp1
+  ON glp1.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+  AND glp1.MedicationDate <= p.IndexDate
+  AND glp1.MedicationDate >= DATEADD(day, -183, p.IndexDate)
+LEFT OUTER JOIN #PatientMedicationsINSULIN insu
+  ON insu.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+  AND insu.MedicationDate <= p.IndexDate
+  AND insu.MedicationDate >= DATEADD(day, -183, p.IndexDate)
+LEFT OUTER JOIN #PatientMedicationsSGLT2I sglt
+  ON sglt.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+  AND sglt.MedicationDate <= p.IndexDate
+  AND sglt.MedicationDate >= DATEADD(day, -183, p.IndexDate)
+LEFT OUTER JOIN #PatientMedicationsSULPHONYLUREAS sulp
+  ON sulp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+  AND sulp.MedicationDate <= p.IndexDate
+  AND sulp.MedicationDate >= DATEADD(day, -183, p.IndexDate)
 GROUP BY p.FK_Patient_Link_ID;
 
 -- Get patient list of those with COVID death within 28 days of positive test
@@ -447,13 +525,17 @@ SELECT
   CASE WHEN copd.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasCOPD,
   CASE WHEN asthma.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasASTHMA,
   CASE WHEN smi.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasSMI,
-  IsOnACEI,
+  IsOnACEIorARB,
   IsOnAspirin,
   IsOnClopidogrel,
   IsOnMetformin,
   CASE WHEN htn.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasHYPERTENSION,
   FirstVaccineDate,
-	CASE WHEN SecondVaccineDate > FirstVaccineDate THEN SecondVaccineDate ELSE NULL END AS SecondVaccineDate
+	CASE WHEN SecondVaccineDate > FirstVaccineDate THEN SecondVaccineDate ELSE NULL END AS SecondVaccineDate,
+  IsOnInsulin,
+  IsOnSGLTI,
+  IsOnGLP1A,
+  IsOnSulphonylurea
 FROM #MainCohort m
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesBMI bmi ON bmi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
@@ -509,13 +591,17 @@ SELECT
   CASE WHEN copd.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasCOPD,
   CASE WHEN asthma.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasASTHMA,
   CASE WHEN smi.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasSMI,
-  IsOnACEI,
+  IsOnACEIorARB,
   IsOnAspirin,
   IsOnClopidogrel,
   IsOnMetformin,
   CASE WHEN htn.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasHYPERTENSION,
   FirstVaccineDate,
-	CASE WHEN SecondVaccineDate > FirstVaccineDate THEN SecondVaccineDate ELSE NULL END AS SecondVaccineDate
+	CASE WHEN SecondVaccineDate > FirstVaccineDate THEN SecondVaccineDate ELSE NULL END AS SecondVaccineDate,
+  IsOnInsulin,
+  IsOnSGLTI,
+  IsOnGLP1A,
+  IsOnSulphonylurea
 FROM #MatchedCohort m
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientValuesBMI bmi ON bmi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
