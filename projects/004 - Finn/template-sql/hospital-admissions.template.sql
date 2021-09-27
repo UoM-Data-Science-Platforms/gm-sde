@@ -7,7 +7,7 @@
 
 -- Study index date: 1st Feb 2020
 
--- Hospital admissions for the all the cohort patients who had covid
+-- Hospital admissions for all the cohort patients who had covid
 
 -- OUTPUT: A single table with the following:
 --	PatientId (Int)
@@ -28,6 +28,8 @@ SET @StartDate = '2020-02-01';
 --> EXECUTE query-cancer-cohort-matching.sql
 -- OUTPUTS: #Patients
 
+-- Categorise admissions to secondary care into 5 categories: Maternity, 
+--		Unplanned, Planned, Transfer and Unknown.
 --> EXECUTE query-classify-secondary-admissions.sql
 -- OUTPUT: #AdmissionTypes (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, AdmissionType)
 

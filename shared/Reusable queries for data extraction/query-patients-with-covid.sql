@@ -4,6 +4,7 @@
 
 -- OBJECTIVE: To get tables of all patients with a COVID diagnosis in their record.
 
+
 -- INPUT: Takes one parameter
 --  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
 
