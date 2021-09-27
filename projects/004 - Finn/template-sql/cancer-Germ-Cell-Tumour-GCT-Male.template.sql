@@ -125,7 +125,7 @@ SET NOCOUNT ON;
 
 /* simulating a select * except one column */
 IF OBJECT_ID('tempdb..#TempTable') IS NOT NULL DROP TABLE #TempTable;
-SELECT [FK_Patient_Link_ID] AS PatientID, * INTO #TempTable
+SELECT [FK_Patient_Link_ID] AS PatientId, * INTO #TempTable
 FROM [SharedCare].[Cancer_Germ_Cell_Tumour_GCT_Male];
 
 /* Drop the columns that are not needed */
