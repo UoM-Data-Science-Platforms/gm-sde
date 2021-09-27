@@ -101,4 +101,4 @@
 SET NOCOUNT ON;
 
 SELECT *
- FROM [SharedCare].[Cancer_Bone_Tumours];
+FROM [SharedCare].[Cancer_Bone_Tumours];

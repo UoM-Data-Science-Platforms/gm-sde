@@ -118,4 +118,4 @@
 SET NOCOUNT ON;
 
 SELECT *
-FROM [SharedCare].[Cancer_Lower_GI]
+FROM [SharedCare].[Cancer_Lower_GI];
