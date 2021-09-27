@@ -856,7 +856,10 @@ GROUP BY FK_Patient_Link_ID, YearOfBirth, Sex, HasCancer;
 -- OUTPUTS: #Patients
 
 -- Set start date to be 1 year before study index date
-SET @StartDate = '2019-02-01';
+SET @StartDate = DATEADD(year, -1, @StartDate);;
+
+DECLARE @EndDate datetime;
+SET @EndDate = '2020-02-01';
 
 --
 --┌──────────────────────┐

@@ -7,7 +7,7 @@
 
 -- Study index date: 1st Feb 2020
 
--- Hospital admissions for the all the cohort patients who had covid
+-- Hospital admissions for all the cohort patients who had covid
 
 -- OUTPUT: A single table with the following:
 --	PatientId (Int)
@@ -861,6 +861,8 @@ GROUP BY FK_Patient_Link_ID, YearOfBirth, Sex, HasCancer;
 
 -- OUTPUTS: #Patients
 
+-- Categorise admissions to secondary care into 5 categories: Maternity, 
+--		Unplanned, Planned, Transfer and Unknown.
 --┌───────────────────────────────┐
 --│ Classify secondary admissions │
 --└───────────────────────────────┘
@@ -1042,6 +1044,7 @@ ORDER BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider;
 --└─────────────────────┘
 
 -- OBJECTIVE: To get tables of all patients with a COVID diagnosis in their record.
+
 
 -- INPUT: Takes one parameter
 --  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
