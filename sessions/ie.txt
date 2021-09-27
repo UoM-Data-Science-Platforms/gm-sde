@@ -117,3 +117,13 @@ Find out the following total number of rows to investigate how big the chohorts 
 2021-08-04 9am - 3pm
 -- Run data extract and copy in file share. 
 
+2021- 09-15 11.00 - 14.00 
+-- Investigate LTCs and check comorbidities extract for RQ004 
+
+2021-09-15 14.00-16.00
+-- Modify query for extracting LTCs to extract LTCs within a data range and extract first date a comorbidity was recorded. 
+
+
+2021-09-27 6.45 - 8pm
+-- Check access to Christie cancer tables for RQ04
+-- Investigate Christie tables to be extracted for RQ04. 
