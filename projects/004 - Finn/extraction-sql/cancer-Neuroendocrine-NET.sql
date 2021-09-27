@@ -120,5 +120,14 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
-SELECT *
+
+/* simulating a select * except one column */
+IF OBJECT_ID('tempdb..#TempTable') IS NOT NULL DROP TABLE #TempTable;
+SELECT [FK_Patient_Link_ID] AS PatientID, * INTO #TempTable
 FROM [SharedCare].[Cancer_Neuroendocrine_NET];
+
+/* Drop the columns that are not needed */
+ALTER TABLE #TempTable
+DROP COLUMN [FK_Patient_Link_ID], [FK_Patient_ID];
+
+SELECT * FROM #TempTable;
