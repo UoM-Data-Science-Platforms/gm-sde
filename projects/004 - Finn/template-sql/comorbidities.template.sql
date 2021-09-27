@@ -23,7 +23,10 @@ SET @StartDate = '2020-02-01';
 -- OUTPUTS: #Patients
 
 -- Set start date to be 1 year before study index date
-SET @StartDate = '2019-02-01';
+SET @StartDate = DATEADD(year, -1, @StartDate);;
+
+DECLARE @EndDate datetime;
+SET @EndDate = '2020-02-01';
 
 --> EXECUTE query-patient-ltcs.sql
 -- OUTPUT: #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
