@@ -788,6 +788,10 @@ SELECT FK_Patient_Link_ID, MAX(YearOfBirth) FROM #AllPatientYearOfBirths
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
 GROUP BY FK_Patient_Link_ID
 HAVING MAX(YearOfBirth) <= YEAR(GETDATE());
+
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientYearOfBirths;
+DROP TABLE #UnmatchedYobPatients;
 --┌─────┐
 --│ Sex │
 --└─────┘
@@ -862,6 +866,9 @@ INNER JOIN (
 GROUP BY p.FK_Patient_Link_ID
 HAVING MIN(Sex) = MAX(Sex);
 
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientSexs;
+DROP TABLE #UnmatchedSexPatients;
 --┌───────────────────────────────┐
 --│ Lower level super output area │
 --└───────────────────────────────┘
@@ -938,6 +945,9 @@ INNER JOIN (
 GROUP BY p.FK_Patient_Link_ID
 HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
 
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientLSOAs;
+DROP TABLE #UnmatchedLsoaPatients;
 --┌───────────────────────┐
 --│ Townsend Score (2011) │
 --└───────────────────────┘
@@ -1395,6 +1405,8 @@ FROM #Patients p
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #TownsendLookup t ON t.LSOA = lsoa.LSOA_Code;
 
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #TownsendLookup;
 --┌────────────────────┐
 --│ COVID vaccinations │
 --└────────────────────┘
@@ -2037,6 +2049,9 @@ select PatientId from #CohortStore group by PatientId having count(*) = 4
   DELETE FROM #Matches WHERE PatientId IN (SELECT MatchingPatientId FROM #CohortStore);
 END
 
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #Cases;
+DROP TABLE #Matches;
 
 -- Get the matched cohort detail - same as main cohort
 IF OBJECT_ID('tempdb..#MatchedCohort') IS NOT NULL DROP TABLE #MatchedCohort;
@@ -2057,6 +2072,9 @@ IF OBJECT_ID('tempdb..#PatientIdsAndIndexDates') IS NOT NULL DROP TABLE #Patient
 SELECT PatientId AS FK_Patient_Link_ID, IndexDate INTO #PatientIdsAndIndexDates FROM #CohortStore
 UNION
 SELECT MatchingPatientId, MatchingCovidPositiveDate FROM #CohortStore;
+
+-- Don't need #CohortStore any more, so tidy up
+DROP TABLE #CohortStore;
 
 --┌─────────────────────────────────────────┐
 --│ Secondary admissions and length of stay │
@@ -2209,6 +2227,9 @@ FROM #PatientValuesWithIds p
 LEFT OUTER JOIN #VersionedCodeSets c on c.FK_Reference_Coding_ID = p.FK_Reference_Coding_ID
 LEFT OUTER JOIN #VersionedSnomedSets s on s.FK_Reference_SnomedCT_ID = p.FK_Reference_SnomedCT_ID;
 
+-- Not needed. Tidy up.
+DROP TABLE #PatientValuesWithIds;
+
 -- get most recent value at in the period [index date - 2 years, index date]
 IF OBJECT_ID('tempdb..#PatientValues') IS NOT NULL DROP TABLE #PatientValues;
 SELECT main.FK_Patient_Link_ID, main.Concept, MAX(main.[Value]) AS LatestValue
@@ -2223,6 +2244,9 @@ INNER JOIN (
   GROUP BY p.FK_Patient_Link_ID, Concept
 ) sub on sub.FK_Patient_Link_ID = main.FK_Patient_Link_ID and sub.LatestDate = main.EventDate and sub.Concept = main.Concept
 GROUP BY main.FK_Patient_Link_ID, main.Concept;
+
+-- Not needed. Tidy up.
+DROP TABLE #PatientValuesWithNames;
 
 IF OBJECT_ID('tempdb..#PatientValuesBMI') IS NOT NULL DROP TABLE #PatientValuesBMI;
 SELECT FK_Patient_Link_ID, LatestValue AS LatestBMIValue INTO #PatientValuesBMI
@@ -2430,53 +2454,117 @@ AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate > @MedicationsFromDate;
 
 -- record as on med if value within 6 months on index date
-IF OBJECT_ID('tempdb..#PatientMedications') IS NOT NULL DROP TABLE #PatientMedications;
+IF OBJECT_ID('tempdb..#TempPatMedsACEI') IS NOT NULL DROP TABLE #TempPatMedsACEI;
 SELECT 
-  p.FK_Patient_Link_ID,
-  CASE WHEN MAX(acei.MedicationDate) IS NULL THEN 'N' ELSE 'Y' END AS IsOnACEIorARB,
-  CASE WHEN MAX(aspirin.MedicationDate) IS NULL THEN 'N' ELSE 'Y' END AS IsOnAspirin,
-  CASE WHEN MAX(clop.MedicationDate) IS NULL THEN 'N' ELSE 'Y' END AS IsOnClopidogrel,
-  CASE WHEN MAX(insu.MedicationDate) IS NULL THEN 'N' ELSE 'Y' END AS IsOnInsulin,
-  CASE WHEN MAX(sglt.MedicationDate) IS NULL THEN 'N' ELSE 'Y' END AS IsOnSGLTI,
-  CASE WHEN MAX(glp1.MedicationDate) IS NULL THEN 'N' ELSE 'Y' END AS IsOnGLP1A,
-  CASE WHEN MAX(sulp.MedicationDate) IS NULL THEN 'N' ELSE 'Y' END AS IsOnSulphonylurea,
-  CASE WHEN MAX(met.MedicationDate) IS NULL THEN 'N' ELSE 'Y' END AS IsOnMetformin
-INTO #PatientMedications
+  p.FK_Patient_Link_ID
+INTO #TempPatMedsACEI
 FROM #PatientIdsAndIndexDates p
-LEFT OUTER JOIN #PatientMedicationsACEI acei
+INNER JOIN #PatientMedicationsACEI acei
   ON acei.FK_Patient_Link_ID = p.FK_Patient_Link_ID
   AND acei.MedicationDate <= p.IndexDate
   AND acei.MedicationDate >= DATEADD(day, -183, p.IndexDate)
-LEFT OUTER JOIN #PatientMedicationsASPIRIN aspirin
+GROUP BY p.FK_Patient_Link_ID;
+
+IF OBJECT_ID('tempdb..#TempPatMedsASPIRIN') IS NOT NULL DROP TABLE #TempPatMedsASPIRIN;
+SELECT 
+  p.FK_Patient_Link_ID
+INTO #TempPatMedsASPIRIN
+FROM #PatientIdsAndIndexDates p
+INNER JOIN #PatientMedicationsASPIRIN aspirin
   ON aspirin.FK_Patient_Link_ID = p.FK_Patient_Link_ID
   AND aspirin.MedicationDate <= p.IndexDate
   AND aspirin.MedicationDate >= DATEADD(day, -183, p.IndexDate)
-LEFT OUTER JOIN #PatientMedicationsCLOPIDOGREL clop
+GROUP BY p.FK_Patient_Link_ID;
+
+IF OBJECT_ID('tempdb..#TempPatMedsCLOPIDOGREL') IS NOT NULL DROP TABLE #TempPatMedsCLOPIDOGREL;
+SELECT 
+  p.FK_Patient_Link_ID
+INTO #TempPatMedsCLOPIDOGREL
+FROM #PatientIdsAndIndexDates p
+INNER JOIN #PatientMedicationsCLOPIDOGREL clop
   ON clop.FK_Patient_Link_ID = p.FK_Patient_Link_ID
   AND clop.MedicationDate <= p.IndexDate
   AND clop.MedicationDate >= DATEADD(day, -183, p.IndexDate)
-LEFT OUTER JOIN #PatientMedicationsMETFORMIN met
+GROUP BY p.FK_Patient_Link_ID;
+
+IF OBJECT_ID('tempdb..#TempPatMedsMETFORMIN') IS NOT NULL DROP TABLE #TempPatMedsMETFORMIN;
+SELECT 
+  p.FK_Patient_Link_ID
+INTO #TempPatMedsMETFORMIN
+FROM #PatientIdsAndIndexDates p
+INNER JOIN #PatientMedicationsMETFORMIN met
   ON met.FK_Patient_Link_ID = p.FK_Patient_Link_ID
   AND met.MedicationDate <= p.IndexDate
   AND met.MedicationDate >= DATEADD(day, -183, p.IndexDate)
-LEFT OUTER JOIN #PatientMedicationsGLP1 glp1
+GROUP BY p.FK_Patient_Link_ID;
+
+IF OBJECT_ID('tempdb..#TempPatMedsGLP1') IS NOT NULL DROP TABLE #TempPatMedsGLP1;
+SELECT 
+  p.FK_Patient_Link_ID
+INTO #TempPatMedsGLP1
+FROM #PatientIdsAndIndexDates p
+INNER JOIN #PatientMedicationsGLP1 glp1
   ON glp1.FK_Patient_Link_ID = p.FK_Patient_Link_ID
   AND glp1.MedicationDate <= p.IndexDate
   AND glp1.MedicationDate >= DATEADD(day, -183, p.IndexDate)
-LEFT OUTER JOIN #PatientMedicationsINSULIN insu
+GROUP BY p.FK_Patient_Link_ID;
+
+IF OBJECT_ID('tempdb..#TempPatMedsINSULIN') IS NOT NULL DROP TABLE #TempPatMedsINSULIN;
+SELECT 
+  p.FK_Patient_Link_ID
+INTO #TempPatMedsINSULIN
+FROM #PatientIdsAndIndexDates p
+INNER JOIN #PatientMedicationsINSULIN insu
   ON insu.FK_Patient_Link_ID = p.FK_Patient_Link_ID
   AND insu.MedicationDate <= p.IndexDate
   AND insu.MedicationDate >= DATEADD(day, -183, p.IndexDate)
-LEFT OUTER JOIN #PatientMedicationsSGLT2I sglt
+GROUP BY p.FK_Patient_Link_ID;
+
+IF OBJECT_ID('tempdb..#TempPatMedsSGLT2I') IS NOT NULL DROP TABLE #TempPatMedsSGLT2I;
+SELECT 
+  p.FK_Patient_Link_ID
+INTO #TempPatMedsSGLT2I
+FROM #PatientIdsAndIndexDates p
+INNER JOIN #PatientMedicationsSGLT2I sglt
   ON sglt.FK_Patient_Link_ID = p.FK_Patient_Link_ID
   AND sglt.MedicationDate <= p.IndexDate
   AND sglt.MedicationDate >= DATEADD(day, -183, p.IndexDate)
-LEFT OUTER JOIN #PatientMedicationsSULPHONYLUREAS sulp
+GROUP BY p.FK_Patient_Link_ID;
+
+IF OBJECT_ID('tempdb..#TempPatMedsSULPHONYLUREAS') IS NOT NULL DROP TABLE #TempPatMedsSULPHONYLUREAS;
+SELECT 
+  p.FK_Patient_Link_ID
+INTO #TempPatMedsSULPHONYLUREAS
+FROM #PatientIdsAndIndexDates p
+INNER JOIN #PatientMedicationsSULPHONYLUREAS sulp
   ON sulp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
   AND sulp.MedicationDate <= p.IndexDate
   AND sulp.MedicationDate >= DATEADD(day, -183, p.IndexDate)
 GROUP BY p.FK_Patient_Link_ID;
 
+-- record as on med if value within 6 months on index date
+IF OBJECT_ID('tempdb..#PatientMedications') IS NOT NULL DROP TABLE #PatientMedications;
+SELECT 
+  p.FK_Patient_Link_ID,
+  CASE WHEN acei.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS IsOnACEIorARB,
+  CASE WHEN aspirin.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS IsOnAspirin,
+  CASE WHEN clop.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS IsOnClopidogrel,
+  CASE WHEN insu.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS IsOnInsulin,
+  CASE WHEN sglt.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS IsOnSGLTI,
+  CASE WHEN glp1.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS IsOnGLP1A,
+  CASE WHEN sulp.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS IsOnSulphonylurea,
+  CASE WHEN met.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS IsOnMetformin
+INTO #PatientMedications
+FROM #PatientIdsAndIndexDates p
+LEFT OUTER JOIN #TempPatMedsACEI acei ON acei.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #TempPatMedsASPIRIN aspirin ON aspirin.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #TempPatMedsCLOPIDOGREL clop ON clop.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #TempPatMedsMETFORMIN met ON met.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #TempPatMedsGLP1 glp1 ON glp1.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #TempPatMedsINSULIN insu ON insu.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #TempPatMedsSGLT2I sglt ON sglt.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #TempPatMedsSULPHONYLUREAS sulp ON sulp.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
+  
 -- Get patient list of those with COVID death within 28 days of positive test
 IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT FK_Patient_Link_ID 
