@@ -454,3 +454,6 @@ INTO #PatientTownsend
 FROM #Patients p
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #TownsendLookup t ON t.LSOA = lsoa.LSOA_Code;
+
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #TownsendLookup;

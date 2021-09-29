@@ -135,6 +135,10 @@ WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatient
 GROUP BY FK_Patient_Link_ID
 HAVING MAX(YearOfBirth) <= YEAR(GETDATE());
 
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientYearOfBirths;
+DROP TABLE #UnmatchedYobPatients;
+
 -- Remove patients who are currently <16
 DELETE FROM #PatientYearOfBirth WHERE 2021 - YearOfBirth <= 16;
 IF OBJECT_ID('tempdb..#Temp') IS NOT NULL DROP TABLE #Temp;
@@ -220,6 +224,9 @@ INNER JOIN (
 GROUP BY p.FK_Patient_Link_ID
 HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
 
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientLSOAs;
+DROP TABLE #UnmatchedLsoaPatients;
 --┌─────┐
 --│ Sex │
 --└─────┘
@@ -294,6 +301,9 @@ INNER JOIN (
 GROUP BY p.FK_Patient_Link_ID
 HAVING MIN(Sex) = MAX(Sex);
 
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientSexs;
+DROP TABLE #UnmatchedSexPatients;
 --┌──────────────────┐
 --│ Care home status │
 --└──────────────────┘
@@ -437,7 +447,7 @@ ORDER BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider;
 -- INPUT: Takes one parameter
 --  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
 
--- OUTPUT: Two temp table as follows:
+-- OUTPUT: Two temp tables as follows:
 -- #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
 -- 	- FK_Patient_Link_ID - unique patient id
 --	- FirstCovidPositiveDate - earliest COVID diagnosis
@@ -526,7 +536,8 @@ IF OBJECT_ID('tempdb..#AllCodes') IS NOT NULL DROP TABLE #AllCodes;
 CREATE TABLE #AllCodes (
   [Concept] [varchar](255) NOT NULL,
   [Version] INT NOT NULL,
-  [Code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL
+  [Code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+  [description] [varchar] (255) NULL 
 );
 
 IF OBJECT_ID('tempdb..#codesreadv2') IS NOT NULL DROP TABLE #codesreadv2;
@@ -559,7 +570,7 @@ INSERT INTO #codesreadv2
 VALUES ('flu-vaccination',1,'65E..00','Influenza vaccination'),('flu-vaccination',1,'65E..','Influenza vaccination'),('flu-vaccination',1,'65E0.00','First pandemic influenza vaccination'),('flu-vaccination',1,'65E0.','First pandemic influenza vaccination'),('flu-vaccination',1,'65E0000','Administration of first intranasal pandemic influenza vaccination'),('flu-vaccination',1,'65E00','Administration of first intranasal pandemic influenza vaccination'),('flu-vaccination',1,'65E1.00','Second pandemic influenza vaccination'),('flu-vaccination',1,'65E1.','Second pandemic influenza vaccination'),('flu-vaccination',1,'65E1000','Administration of second intranasal pandemic influenza vaccination'),('flu-vaccination',1,'65E10','Administration of second intranasal pandemic influenza vaccination'),('flu-vaccination',1,'65E2.00','Influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'65E2.','Influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'65E2000','Seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'65E20','Seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'65E2100','First intranasal seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'65E21','First intranasal seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'65E2200','Second intranasal seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'65E22','Second intranasal seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'65E2300','Second intramuscular seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'65E23','Second intramuscular seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'65E2400','First intramuscular seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'65E24','First intramuscular seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'65E3.00','First pandemic influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'65E3.','First pandemic influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'65E3000','First intranasal pandemic influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'65E30','First intranasal pandemic influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'65E4.00','Second pandemic influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'65E4.','Second pandemic influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'65E4000','Second intranasal pandemic influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'65E40','Second intranasal pandemic influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'65E5.00','CELVAPAN - first influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'65E5.','CELVAPAN - first influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'65E6.00','CELVAPAN - second influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'65E6.','CELVAPAN - second influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'65E7.00','CELVAPAN - first influenza A (H1N1v) 2009 vaccination given by other healthcare provider'),('flu-vaccination',1,'65E7.','CELVAPAN - first influenza A (H1N1v) 2009 vaccination given by other healthcare provider'),('flu-vaccination',1,'65E8.00','CELVAPAN - second influenza A (H1N1v) 2009 vaccination given by other healthcare provider'),('flu-vaccination',1,'65E8.','CELVAPAN - second influenza A (H1N1v) 2009 vaccination given by other healthcare provider'),('flu-vaccination',1,'65E9.00','PANDEMRIX - first influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'65E9.','PANDEMRIX - first influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'65EA.00','PANDEMRIX - second influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'65EA.','PANDEMRIX - second influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'65EB.00','PANDEMRIX - first influenza A (H1N1v) 2009 vaccination given by other healthcare provider'),('flu-vaccination',1,'65EB.','PANDEMRIX - first influenza A (H1N1v) 2009 vaccination given by other healthcare provider'),('flu-vaccination',1,'65EC.00','PANDEMRIX - second influenza A (H1N1v) 2009 vaccination given by other healthcare provider'),('flu-vaccination',1,'65EC.','PANDEMRIX - second influenza A (H1N1v) 2009 vaccination given by other healthcare provider'),('flu-vaccination',1,'65ED.00','Seasonal influenza vaccination'),('flu-vaccination',1,'65ED.','Seasonal influenza vaccination'),('flu-vaccination',1,'65ED000','Seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'65ED0','Seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'65ED100','Administration of first intranasal seasonal influenza vaccination'),('flu-vaccination',1,'65ED1','Administration of first intranasal seasonal influenza vaccination'),('flu-vaccination',1,'65ED200','Seasonal influenza vaccination given while hospital inpatient'),('flu-vaccination',1,'65ED2','Seasonal influenza vaccination given while hospital inpatient'),('flu-vaccination',1,'65ED300','Administration of second intranasal seasonal influenza vaccination'),('flu-vaccination',1,'65ED3','Administration of second intranasal seasonal influenza vaccination'),('flu-vaccination',1,'65ED400','Administration of first inactivated seasonal influenza vaccination'),('flu-vaccination',1,'65ED4','Administration of first inactivated seasonal influenza vaccination'),('flu-vaccination',1,'65ED500','Administration of second inactivated seasonal influenza vaccination'),('flu-vaccination',1,'65ED5','Administration of second inactivated seasonal influenza vaccination'),('flu-vaccination',1,'65ED600','First intranasal seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'65ED6','First intranasal seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'65ED700','Second intranasal seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'65ED7','Second intranasal seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'65ED800','First inactivated seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'65ED8','First inactivated seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'65ED900','Second inactivated seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'65ED9','Second inactivated seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'65EE.00','Administration of intranasal influenza vaccination'),('flu-vaccination',1,'65EE.','Administration of intranasal influenza vaccination'),('flu-vaccination',1,'65EE000','Administration of first intranasal influenza vaccination'),('flu-vaccination',1,'65EE0','Administration of first intranasal influenza vaccination'),('flu-vaccination',1,'65EE100','Administration of second intranasal influenza vaccination'),('flu-vaccination',1,'65EE1','Administration of second intranasal influenza vaccination'),('flu-vaccination',1,'ZV04800','[V]Influenza vaccination'),('flu-vaccination',1,'ZV048','[V]Influenza vaccination'),('flu-vaccination',1,'ZV04811','[V]Flu - influenza vaccination'),('flu-vaccination',1,'ZV048','[V]Flu - influenza vaccination')
 
 INSERT INTO #AllCodes
-SELECT [concept], [version], [code] from #codesreadv2;
+SELECT [concept], [version], [code], [description] from #codesreadv2;
 
 IF OBJECT_ID('tempdb..#codesctv3') IS NOT NULL DROP TABLE #codesctv3;
 CREATE TABLE #codesctv3 (
@@ -587,7 +598,7 @@ INSERT INTO #codesctv3
 VALUES ('flu-vaccination',1,'65E..','Influenza vaccination'),('flu-vaccination',1,'Xaa9G','Administration of intranasal influenza vaccination'),('flu-vaccination',1,'Xaac1','Administration of first intranasal pandemic influenza vaccination'),('flu-vaccination',1,'Xaac2','Administration of second intranasal pandemic influenza vaccination'),('flu-vaccination',1,'Xaac3','Administration of first intranasal seasonal influenza vaccination'),('flu-vaccination',1,'Xaac4','Administration of second intranasal seasonal influenza vaccination'),('flu-vaccination',1,'Xaac5','First intranasal pandemic influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'Xaac6','Second intranasal pandemic influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'Xaac7','First intranasal seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'Xaac8','Second intranasal seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'XaaED','Administration of first intranasal influenza vaccination'),('flu-vaccination',1,'XaaEF','Administration of second intranasal influenza vaccination'),('flu-vaccination',1,'XaaZp','Seasonal influenza vaccination given while hospital inpatient'),('flu-vaccination',1,'XabvT','Second intramuscular seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'Xac5J','First intramuscular seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'Xad9j','Administration of first inactivated seasonal influenza vaccination'),('flu-vaccination',1,'Xad9k','Administration of second inactivated seasonal influenza vaccination'),('flu-vaccination',1,'Xaeet','First intranasal seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'Xaeeu','Second intranasal seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'Xaeev','First inactivated seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'Xaeew','Second inactivated seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'XafhP','Seasonal influenza vaccination given by midwife'),('flu-vaccination',1,'XafhQ','First inactivated seasonal influenza vaccination given by midwife'),('flu-vaccination',1,'XafhR','Second inactivated seasonal influenza vaccination given by midwife'),('flu-vaccination',1,'XaLK4','Booster influenza vaccination'),('flu-vaccination',1,'XaLNG','First pandemic influenza vaccination'),('flu-vaccination',1,'XaLNH','Second pandemic influenza vaccination'),('flu-vaccination',1,'XaPwi','First pandemic influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'XaPwj','Second pandemic influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'XaPyT','Influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'XaQhk','CELVAPAN - first influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'XaQhl','CELVAPAN - second influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'XaQhm','PANDEMRIX - first influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'XaQhn','PANDEMRIX - second influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'XaQho','CELVAPAN - first influenza A (H1N1v) 2009 vaccination given by other healthcare provider'),('flu-vaccination',1,'XaQhp','CELVAPAN - second influenza A (H1N1v) 2009 vaccination given by other healthcare provider'),('flu-vaccination',1,'XaQhq','PANDEMRIX - first influenza A (H1N1v) 2009 vaccination given by other healthcare provider'),('flu-vaccination',1,'XaQhr','PANDEMRIX - second influenza A (H1N1v) 2009 vaccination given by other healthcare provider'),('flu-vaccination',1,'XaZ0d','Seasonal influenza vaccination'),('flu-vaccination',1,'XaZ0e','Seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'XaZfY','Seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'ZV048','[V]Flu - influenza vaccination'),('flu-vaccination',1,'Y0c3f','First influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'Y0c40','Second influenza A (H1N1v) 2009 vaccination given')
 
 INSERT INTO #AllCodes
-SELECT [concept], [version], [code] from #codesctv3;
+SELECT [concept], [version], [code], [description] from #codesctv3;
 
 IF OBJECT_ID('tempdb..#codessnomed') IS NOT NULL DROP TABLE #codessnomed;
 CREATE TABLE #codessnomed (
@@ -616,7 +627,7 @@ INSERT INTO #codessnomed
 VALUES ('flu-vaccination',1,'1037311000000106','First intranasal seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'1037331000000103','Second intranasal seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'1037351000000105','First inactivated seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'1037371000000101','Second inactivated seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'1066171000000108','Seasonal influenza vaccination given by midwife (situation)'),('flu-vaccination',1,'1066181000000105','First inactivated seasonal influenza vaccination given by midwife (situation)'),('flu-vaccination',1,'1066191000000107','Second inactivated seasonal influenza vaccination given by midwife (situation)'),('flu-vaccination',1,'1239861000000100','Seasonal influenza vaccination given in school'),('flu-vaccination',1,'201391000000106','Booster influenza vaccination'),('flu-vaccination',1,'202301000000106','First pandemic flu vaccination'),('flu-vaccination',1,'202311000000108','Second pandemic influenza vaccination'),('flu-vaccination',1,'325631000000101','Annual influenza vaccination (finding)'),('flu-vaccination',1,'346524008','Inactivated Influenza split virion vaccine'),('flu-vaccination',1,'346525009','Inactivated Influenza surface antigen sub-unit vaccine'),('flu-vaccination',1,'348046004','Influenza (split virion) vaccine injection suspension prefilled syringe'),('flu-vaccination',1,'348047008','Inactivated Influenza surface antigen sub-unit vaccine prefilled syringe'),('flu-vaccination',1,'380741000000101','First pandemic influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'380771000000107','Second pandemic influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'396425006','FLU - Influenza vaccine'),('flu-vaccination',1,'400564003','Influenza virus vaccine trivalent 45mcg/0.5mL injection solution 5mL vial'),('flu-vaccination',1,'400788004','Influenza virus vaccine triv 45mcg/0.5mL injection'),('flu-vaccination',1,'408752008','Inactivated influenza split virion vaccine'),('flu-vaccination',1,'409269001','Intranasal influenza live virus vaccine'),('flu-vaccination',1,'418707004','Inactivated Influenza surface antigen virosome vaccine prefilled syringe'),('flu-vaccination',1,'419456007','Influenza surface antigen vaccine'),('flu-vaccination',1,'419562000','Inactivated Influenza surface antigen virosome vaccine'),('flu-vaccination',1,'419826009','Influenza split virion vaccine'),('flu-vaccination',1,'426849008','Influenza virus H5N1 vaccine'),('flu-vaccination',1,'427036009','Influenza virus H5N1 vaccine'),('flu-vaccination',1,'427077008','Influenza virus H5N1 vaccine injection solution 5mL multi-dose vial'),('flu-vaccination',1,'428771000','Swine influenza virus vaccine'),('flu-vaccination',1,'430410002','Product containing Influenza virus vaccine in nasal dosage form'),('flu-vaccination',1,'442315004','Influenza A virus subtype H1N1 vaccine (substance)'),('flu-vaccination',1,'442333005','Influenza A virus subtype H1N1 vaccination (procedure)'),('flu-vaccination',1,'443161002','Influenza A virus subtype H1N1 monovalent vaccine 0.5mL injection solution'),('flu-vaccination',1,'443651005','Influenza A virus subtype H1N1 vaccine'),('flu-vaccination',1,'448897007','Inactivated Influenza split virion subtype H1N1v-like strain adjuvant vaccine'),('flu-vaccination',1,'451022006','Inactivated Influenza split virion subtype H1N1v-like strain unadjuvanted vaccine'),('flu-vaccination',1,'46233009','Influenza vaccine'),('flu-vaccination',1,'515281000000108','PANDEMRIX - first influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'515291000000105','CELVAPAN - first influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'515301000000109','PANDEMRIX - second influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'515321000000100','CELVAPAN - second influenza A (H1N1v) 2009 vaccination given'),('flu-vaccination',1,'515331000000103','CELVAPAN - first influenza A (H1N1v) 2009 vaccination given by other healthcare provider'),('flu-vaccination',1,'515341000000107','PANDEMRIX - first influenza A (H1N1v) 2009 vaccination given by other healthcare provider'),('flu-vaccination',1,'515351000000105','CELVAPAN - second influenza A (H1N1v) 2009 vaccination given by other healthcare provider'),('flu-vaccination',1,'515361000000108','PANDEMRIX - second influenza A (H1N1v) 2009 vaccination given by other healthcare provider'),('flu-vaccination',1,'73701000119109','Influenza vaccination given'),('flu-vaccination',1,'81970008','Swine influenza virus vaccine (product)'),('flu-vaccination',1,'822851000000102','Seasonal influenza vaccination'),('flu-vaccination',1,'86198006','Influenza vaccination (procedure)'),('flu-vaccination',1,'868241000000109','Administration of intranasal influenza vaccination'),('flu-vaccination',1,'871751000000104','Administration of first intranasal influenza vaccination'),('flu-vaccination',1,'871781000000105','Administration of second intranasal influenza vaccination'),('flu-vaccination',1,'884821000000108','Administration of first intranasal pandemic influenza vaccination'),('flu-vaccination',1,'884841000000101','Administration of second intranasal pandemic influenza vaccination'),('flu-vaccination',1,'884861000000100','Administration of first intranasal seasonal influenza vaccination'),('flu-vaccination',1,'884881000000109','Administration of second intranasal seasonal influenza vaccination'),('flu-vaccination',1,'884901000000107','First intranasal pandemic influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'884921000000103','Second intranasal pandemic influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'945831000000105','First intramuscular seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'955641000000103','Influenza vaccination given by other healthcare provider (situation)'),('flu-vaccination',1,'955651000000100','Seasonal influenza vaccination given by other healthcare provider (situation)'),('flu-vaccination',1,'955661000000102','First intranasal seasonal influenza vaccination given by other healthcare provider (situation)'),('flu-vaccination',1,'955671000000109','Second intramuscular seasonal influenza vaccination given by other healthcare provider (situation)'),('flu-vaccination',1,'955681000000106','Second intranasal seasonal influenza vaccination given by other healthcare provider (situation)'),('flu-vaccination',1,'955691000000108','Seasonal influenza vaccination given by pharmacist (situation)'),('flu-vaccination',1,'955701000000108','Seasonal influenza vaccination given while hospital inpatient (situation)'),('flu-vaccination',1,'985151000000100','Administration of first inactivated seasonal influenza vaccination'),('flu-vaccination',1,'985171000000109','Administration of second inactivated seasonal influenza vaccination')
 
 INSERT INTO #AllCodes
-SELECT [concept], [version], [code] from #codessnomed;
+SELECT [concept], [version], [code], [description] from #codessnomed;
 
 IF OBJECT_ID('tempdb..#codesemis') IS NOT NULL DROP TABLE #codesemis;
 CREATE TABLE #codesemis (
@@ -635,20 +646,20 @@ VALUES ('high-clinical-vulnerability',1,'^ESCT1300222','High risk category for d
 INSERT INTO #codesemis
 VALUES ('moderate-clinical-vulnerability',1,'^ESCT1300223','Moderate risk category for developing complications from COVID-19 infection');
 INSERT INTO #codesemis
-VALUES ('covid-vaccination',1,'^ESCT1348323','Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'COCO138186NEMIS','COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)'),('covid-vaccination',1,'^ESCT1348325','Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348298','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'^ESCT1348301','COVID-19 vaccination'),('covid-vaccination',1,'^ESCT1299050','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'^ESCT1301222','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination');
+VALUES ('covid-vaccination',1,'^ESCT1348323','Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'COCO138186NEMIS','COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)'),('covid-vaccination',1,'^ESCT1348325','Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348298','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'^ESCT1348301','COVID-19 vaccination'),('covid-vaccination',1,'^ESCT1299050','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'^ESCT1301222','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'CODI138564NEMIS','Covid-19 mRna (nucleoside modified) Vaccine Moderna  Dispersion for injection  0.1 mg/0.5 ml dose, multidose vial'),('covid-vaccination',1,'TASO138184NEMIS','Covid-19 Vaccine AstraZeneca (ChAdOx1 S recombinant)  Solution for injection  5x10 billion viral particle/0.5 ml multidose vial');
 INSERT INTO #codesemis
 VALUES ('flu-vaccination',1,'^ESCT1300221','Seasonal influenza vaccination given in school'),('flu-vaccination',1,'^ESCTFI843902','First inactivated seasonal influenza vaccination given by midwife'),('flu-vaccination',1,'^ESCTIN802297','Influenza vaccination given'),('flu-vaccination',1,'^ESCTSE843901','Seasonal influenza vaccination given by midwife'),('flu-vaccination',1,'EMISNQAD138','Administration of first quadrivalent (QIV) inactivated seasonal influenza vaccination'),('flu-vaccination',1,'EMISNQAD139','Administration of first non adjuvanted trivalent (TIV) inactivated seasonal influenza vaccination'),('flu-vaccination',1,'EMISNQAD142','Administration of adjuvanted trivalent (aTIV) inactivated seasonal influenza vaccination'),('flu-vaccination',1,'EMISNQAD144','Administration of first quadrivalent (QIV) inactivated seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'EMISNQAD145','Administration of first non adjuvanted trivalent (TIV) inactivated seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'EMISNQAD147','Administration of adjuvanted trivalent (aTIV) inactivated seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'EMISNQAD148','Administration of second quadrivalent (QIV) inactivated seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'EMISNQAD149','Adjuvanted trivalent (aTIV) inactivated seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'EMISNQAD150','Administration of second non adjuvanted trivalent (TIV) inactivated seasonal influenza vaccination given by other healthcare provider'),('flu-vaccination',1,'EMISNQAD151','Administration of second quadrivalent (QIV) inactivated seasonal influenza vaccination'),('flu-vaccination',1,'EMISNQFI45','First quadrivalent (QIV) inactivated seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'EMISNQFI46','First non adjuvanted trivalent (TIV) inactivated seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'EMISNQIN160','Intranasal influenza vaccination'),('flu-vaccination',1,'EMISNQSE164','Second quadrivalent (QIV) inactivated seasonal influenza vaccination given by pharmacist'),('flu-vaccination',1,'PCSDT18434_779','First intranasal seasonal influenza vacc given by pharmacist'),('flu-vaccination',1,'PCSDT18439_1184','First intranasal seasonal influenza vacc given by pharmacist'),('flu-vaccination',1,'PCSDT18439_711','Second intranasal seasonal influenza vacc givn by pharmacist'),('flu-vaccination',1,'PCSDT28849_483','First intranasal seasonal influenza vacc given by pharmacist'),('flu-vaccination',1,'PCSDT7022_652','First intranasal seasonal influenza vacc given by pharmacist'),('flu-vaccination',1,'^ESCTSE843903','Second inactivated seasonal influenza vaccination given by midwife')
 
 INSERT INTO #AllCodes
-SELECT [concept], [version], [code] from #codesemis;
+SELECT [concept], [version], [code], [description] from #codesemis;
 
 
 IF OBJECT_ID('tempdb..#TempRefCodes') IS NOT NULL DROP TABLE #TempRefCodes;
-CREATE TABLE #TempRefCodes (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, version INT NOT NULL);
+CREATE TABLE #TempRefCodes (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, version INT NOT NULL, [description] VARCHAR(255));
 
 -- Read v2 codes
 INSERT INTO #TempRefCodes
-SELECT PK_Reference_Coding_ID, dcr.concept, dcr.[version]
+SELECT PK_Reference_Coding_ID, dcr.concept, dcr.[version], dcr.[description]
 FROM [SharedCare].[Reference_Coding] rc
 INNER JOIN #codesreadv2 dcr on dcr.code = rc.MainCode
 WHERE CodingType='ReadCodeV2'
@@ -656,7 +667,7 @@ and PK_Reference_Coding_ID != -1;
 
 -- CTV3 codes
 INSERT INTO #TempRefCodes
-SELECT PK_Reference_Coding_ID, dcc.concept, dcc.[version]
+SELECT PK_Reference_Coding_ID, dcc.concept, dcc.[version], dcc.[description]
 FROM [SharedCare].[Reference_Coding] rc
 INNER JOIN #codesctv3 dcc on dcc.code = rc.MainCode
 WHERE CodingType='CTV3'
@@ -664,23 +675,23 @@ and PK_Reference_Coding_ID != -1;
 
 -- EMIS codes with a FK Reference Coding ID
 INSERT INTO #TempRefCodes
-SELECT FK_Reference_Coding_ID, ce.concept, ce.[version]
+SELECT FK_Reference_Coding_ID, ce.concept, ce.[version], ce.[description]
 FROM [SharedCare].[Reference_Local_Code] rlc
 INNER JOIN #codesemis ce on ce.code = rlc.LocalCode
 WHERE FK_Reference_Coding_ID != -1;
 
 IF OBJECT_ID('tempdb..#TempSNOMEDRefCodes') IS NOT NULL DROP TABLE #TempSNOMEDRefCodes;
-CREATE TABLE #TempSNOMEDRefCodes (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [version] INT NOT NULL);
+CREATE TABLE #TempSNOMEDRefCodes (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [version] INT NOT NULL, [description] VARCHAR(255));
 
 -- SNOMED codes
 INSERT INTO #TempSNOMEDRefCodes
-SELECT PK_Reference_SnomedCT_ID, dcs.concept, dcs.[version]
+SELECT PK_Reference_SnomedCT_ID, dcs.concept, dcs.[version], dcs.[description]
 FROM SharedCare.Reference_SnomedCT rs
 INNER JOIN #codessnomed dcs on dcs.code = rs.ConceptID;
 
 -- EMIS codes with a FK SNOMED ID but without a FK Reference Coding ID
 INSERT INTO #TempSNOMEDRefCodes
-SELECT FK_Reference_SnomedCT_ID, ce.concept, ce.[version]
+SELECT FK_Reference_SnomedCT_ID, ce.concept, ce.[version], ce.[description]
 FROM [SharedCare].[Reference_Local_Code] rlc
 INNER JOIN #codesemis ce on ce.code = rlc.LocalCode
 WHERE FK_Reference_Coding_ID = -1
@@ -688,16 +699,16 @@ AND FK_Reference_SnomedCT_ID != -1;
 
 -- De-duped tables
 IF OBJECT_ID('tempdb..#CodeSets') IS NOT NULL DROP TABLE #CodeSets;
-CREATE TABLE #CodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL);
+CREATE TABLE #CodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [description] VARCHAR(255));
 
 IF OBJECT_ID('tempdb..#SnomedSets') IS NOT NULL DROP TABLE #SnomedSets;
-CREATE TABLE #SnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL);
+CREATE TABLE #SnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [description] VARCHAR(255));
 
 IF OBJECT_ID('tempdb..#VersionedCodeSets') IS NOT NULL DROP TABLE #VersionedCodeSets;
-CREATE TABLE #VersionedCodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT);
+CREATE TABLE #VersionedCodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT, [description] VARCHAR(255));
 
 IF OBJECT_ID('tempdb..#VersionedSnomedSets') IS NOT NULL DROP TABLE #VersionedSnomedSets;
-CREATE TABLE #VersionedSnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT);
+CREATE TABLE #VersionedSnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT, [description] VARCHAR(255));
 
 INSERT INTO #VersionedCodeSets
 SELECT DISTINCT * FROM #TempRefCodes;
@@ -706,7 +717,7 @@ INSERT INTO #VersionedSnomedSets
 SELECT DISTINCT * FROM #TempSNOMEDRefCodes;
 
 INSERT INTO #CodeSets
-SELECT FK_Reference_Coding_ID, c.concept
+SELECT FK_Reference_Coding_ID, c.concept, [description]
 FROM #VersionedCodeSets c
 INNER JOIN (
   SELECT concept, MAX(version) AS maxVersion FROM #VersionedCodeSets
@@ -714,7 +725,7 @@ INNER JOIN (
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
 INSERT INTO #SnomedSets
-SELECT FK_Reference_SnomedCT_ID, c.concept
+SELECT FK_Reference_SnomedCT_ID, c.concept, [description]
 FROM #VersionedSnomedSets c
 INNER JOIN (
   SELECT concept, MAX(version) AS maxVersion FROM #VersionedSnomedSets

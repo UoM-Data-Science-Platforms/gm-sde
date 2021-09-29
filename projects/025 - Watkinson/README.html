@@ -220,7 +220,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
   - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
 </code></pre>
 <p><em>Output</em></p>
-<pre><code>Two temp table as follows:
+<pre><code>Two temp tables as follows:
  #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
  	- FK_Patient_Link_ID - unique patient id
 	- FirstCovidPositiveDate - earliest COVID diagnosis
@@ -741,6 +741,18 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td>emis</td>
 <td>^ESCT1301222</td>
 <td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>CODI138564NEMIS</td>
+<td>Covid-19 mRna (nucleoside modified) Vaccine Moderna  Dispersion for injection  0.1 mg/0.5 ml dose, multidose vial</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>TASO138184NEMIS</td>
+<td>Covid-19 Vaccine AstraZeneca (ChAdOx1 S recombinant)  Solution for injection  5x10 billion viral particle/0.5 ml multidose vial</td>
 </tr>
 <tr>
 <td>covid-vaccination v1</td>

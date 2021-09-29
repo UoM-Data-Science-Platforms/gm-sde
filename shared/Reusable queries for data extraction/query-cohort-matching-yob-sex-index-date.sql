@@ -544,3 +544,7 @@ select PatientId from #CohortStore group by PatientId having count(*) = 4
 
   DELETE FROM #Matches WHERE PatientId IN (SELECT MatchingPatientId FROM #CohortStore);
 END
+
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #Cases;
+DROP TABLE #Matches;

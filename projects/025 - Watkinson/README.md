@@ -160,7 +160,7 @@ Takes one parameter
 
 _Output_
 ```
-Two temp table as follows:
+Two temp tables as follows:
  #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
  	- FK_Patient_Link_ID - unique patient id
 	- FirstCovidPositiveDate - earliest COVID diagnosis
@@ -498,6 +498,8 @@ All code sets required for this analysis are listed here. Individual lists for e
 |covid-vaccination v1|emis|^ESCT1348301|COVID-19 vaccination|
 |covid-vaccination v1|emis|^ESCT1299050|2019-nCoV (novel coronavirus) vaccination|
 |covid-vaccination v1|emis|^ESCT1301222|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination|
+|covid-vaccination v1|emis|CODI138564NEMIS|Covid-19 mRna (nucleoside modified) Vaccine Moderna  Dispersion for injection  0.1 mg/0.5 ml dose, multidose vial|
+|covid-vaccination v1|emis|TASO138184NEMIS|Covid-19 Vaccine AstraZeneca (ChAdOx1 S recombinant)  Solution for injection  5x10 billion viral particle/0.5 ml multidose vial|
 |covid-vaccination v1|readv2|65F0.|2019-nCoV (novel coronavirus) vaccination|
 |covid-vaccination v1|readv2|65F0100|Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
 |covid-vaccination v1|readv2|65F0200|2019-nCoV (novel coronavirus) vaccination|
