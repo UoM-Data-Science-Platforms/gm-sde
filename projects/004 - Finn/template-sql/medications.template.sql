@@ -39,7 +39,7 @@ SELECT
 	CAST(MedicationDate AS DATE) AS MedicationDate,
 	SuppliedCode AS DrugCode,
 	Quantity,
-	Dosage,
+	'''' + Dosage + '''' As Dosage,
 	LastIssueDate,
 	Units,  
 	RepeatMedicationFlag,
