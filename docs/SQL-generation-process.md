@@ -198,13 +198,13 @@ The SQL file referenced should exist under [./shared/Reusable queries for data e
 Any query that requires code sets should include the following:
 
 ```sql
---> CODESET space-separated-list of-required code-sets
+--> CODESET space-separated-list-of-required-code-sets-with-specific-number-of-version
 ```
 
 E.g.
 
 ```sql
---> CODESET diabetes-type-i metformin copd asthma
+--> CODESET diabetes-type-i:1 metformin:1 cancer:2 asthma:1
 ```
 
 A SQL file can contain multiple rows like this. The only condition is that if a code set is required the call to `--> CODESET` must occur before it is used in the file.
@@ -213,19 +213,19 @@ If a script requires any code sets, then the following five temporary tables wil
 
 ```sql
 #AllCodes
-Concept, Version, Code
+Concept, Version, Code, Description
 
 #CodeSets
-FK_Reference_Coding_ID, Concept
+FK_Reference_Coding_ID, Concept, Description
 
 #SnomedSets
-FK_Reference_SnomedCT_ID, Concept
+FK_Reference_SnomedCT_ID, Concept, Description
 
 #VersionedCodeSets
-FK_Reference_Coding_ID, Concept, Version
+FK_Reference_Coding_ID, Concept, Version, Description
 
 #VersionedSnomedSets
-FK_Reference_SnomedCT_ID, Concept, Version
+FK_Reference_SnomedCT_ID, Concept, Version, Description
 ```
 
 The `#AllCodes` table allows you to retrieve all clinical codes relating to a concept. The remaining four table link concepts to foreign key ids specific to the GraphNet database. The two `#Versioned...` tables allow queries based on the concept and the version. The other two tables just contain the most recent version (highest version number) of each concept.
