@@ -201,12 +201,6 @@ Any query that requires code sets should include the following:
 --> CODESET space-separated-list-of-required-code-sets-with-specific-number-of-version
 ```
 
-E.g.
-
-```sql
---> CODESET diabetes-type-i:1 metformin:1 cancer:2 asthma:1
-```
-
 A SQL file can contain multiple rows like this. The only condition is that if a code set is required the call to `--> CODESET` must occur before it is used in the file.
 
 If a script requires any code sets, then the following five temporary tables will be populated:
