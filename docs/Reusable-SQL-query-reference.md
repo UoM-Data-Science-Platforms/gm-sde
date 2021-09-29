@@ -131,7 +131,7 @@ _Link_: [https://github.com/rw251/.../query-admissions-covid-utilisation.sql](ht
 
 ---
 ## Cancer cohort matching for 004-Finn
-Defines the cohort (cancer and non cancer patients) that will be used for the study, based on: Main cohort (cancer patients): - Cancer diagnosis between 1st February 2015 and 1st February 2020 - >= 18 year old - Alive on 1st Feb 2020 Control group (non cancer patients): -	Alive on 1st February 2020 -	no current or history of cancer diagnosis. Matching is 1:5 based on sex and year of birth with a flexible year of birth = ?? Index date is: 1st February 2020
+Defines the cohort (cancer and non cancer patients) that will be used for the study, based on: Main cohort (cancer patients): - Cancer diagnosis between 1st February 2015 and 1st February 2020 - >= 18 year old - Alive on 1st Feb 2020 Control group (non cancer patients): -	Alive on 1st February 2020 -	no current or history of cancer diagnosis. Matching is 1:5 based on sex and year of birth with a flexible year of birth = 0 Index date is: 1st February 2020
 
 _Input_
 ```
@@ -141,14 +141,12 @@ Assumes that @StartDate has already been defined
 _Output_
 ```
 A temp table as follows:
- #Patients2
+ #Patients
   - FK_Patient_Link_ID
   - YearOfBirth
   - Sex
   - HasCancer
   - NumberOfMatches
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 ```
 _File_: `query-cancer-cohort-matching.sql`
 
@@ -571,6 +569,30 @@ A temp table as follows:
 _File_: `query-received-flu-vaccine.sql`
 
 _Link_: [https://github.com/rw251/.../query-received-flu-vaccine.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-received-flu-vaccine.sql)
+
+---
+## Patients with COVID
+To get tables of all patients with a COVID diagnosis in their record.
+
+_Input_
+```
+Takes one parameter
+  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+```
+
+_Output_
+```
+Two temp tables as follows:
+ #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- FirstCovidPositiveDate - earliest COVID diagnosis
+ #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- CovidPositiveDate - any COVID diagnosis
+```
+_File_: `query-patients-with-covid.sql`
+
+_Link_: [https://github.com/rw251/.../query-patients-with-covid.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid.sql)
 
 ---
 ## Practice system lookup table
