@@ -14,4 +14,4 @@ Due to the ongoing COVID-19 pandemic and more specifically the UK [Control of Pa
 
 ## Documentation
 
-Full documentation can be found in the [docs](docs/) folder. Specific links to individual files are available in the **Index** above.
+Full documentation can be found in the [docs](docs/) folder. Specific links to individual files are available in the [Index](#index) above.
