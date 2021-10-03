@@ -10,6 +10,7 @@
 -- OUTPUT: A single table with the following:
 --	PatientId
 --	Comorbidity
+--  EventDate
 
 
 --Just want the output, not the messages
@@ -25,18 +26,17 @@ SET @StartDate = '2020-02-01';
 -- Set start date to be 1 year before study index date
 SET @StartDate = DATEADD(year, -1, @StartDate);;
 
-DECLARE @EndDate datetime;
-SET @EndDate = '2020-02-01';
-
---> EXECUTE query-patient-ltcs.sql
--- OUTPUT: #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
+--> EXECUTE query-patient-condition-events.sql
+-- OUTPUT: #PatientConditionsEvents (FK_Patient_Link_ID, Condition, EventDate)
 
 -- Get long term conditions for the patients in the cohort
--- Grain: multiple conditions per patient 
+-- Grain: multiple event dates per condition, and multiple conditions per patient 
 SELECT
   FK_Patient_Link_ID AS PatientId,
-  LTC AS Comorbidity
-FROM #PatientsWithLTCs;
+  Condition AS Comorbidity,
+  EventDate
+FROM #PatientConditionsEvents
+ORDER BY FK_Patient_Link_ID, Condition;
 
 
 
