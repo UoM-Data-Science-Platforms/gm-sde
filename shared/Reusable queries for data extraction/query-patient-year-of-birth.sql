@@ -35,6 +35,8 @@ AND Dob IS NOT NULL;
 
 -- If patients have a tenancy id of 2 we take this as their most likely YOB
 -- as this is the GP data feed and so most likely to be up to date
+-- If a patient has a tenancy id of 2 and has 2 records of DOB (which is very rare)
+-- we will use the lowest value of DOB
 IF OBJECT_ID('tempdb..#PatientYearOfBirth') IS NOT NULL DROP TABLE #PatientYearOfBirth;
 SELECT FK_Patient_Link_ID, MIN(YearOfBirth) as YearOfBirth INTO #PatientYearOfBirth FROM #AllPatientYearOfBirths
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
@@ -61,7 +63,7 @@ SELECT FK_Patient_Link_ID FROM #Patients
 EXCEPT
 SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
 
--- If there is a unique most recent YOB then use that
+-- If there is a unique most recent updated date of YOB then use that
 INSERT INTO #PatientYearOfBirth
 SELECT p.FK_Patient_Link_ID, MIN(p.YearOfBirth) FROM #AllPatientYearOfBirths p
 INNER JOIN (

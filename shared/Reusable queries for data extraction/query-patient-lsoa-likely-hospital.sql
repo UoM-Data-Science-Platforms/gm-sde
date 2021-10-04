@@ -62,7 +62,7 @@ SELECT FK_Patient_Link_ID FROM #AdmissionPatients
 EXCEPT
 SELECT FK_Patient_Link_ID FROM #PatientAdmissionLSOA;
 
--- If there is a unique most recent lsoa then use that
+-- If there is a unique most recent LSOA then use that
 INSERT INTO #PatientAdmissionLSOA
 SELECT p.FK_Patient_Link_ID, MIN(p.LSOA_Code) FROM #AllAdmissionPatientLSOAs p
 INNER JOIN (

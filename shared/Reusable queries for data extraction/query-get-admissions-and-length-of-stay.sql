@@ -3,7 +3,7 @@
 --└─────────────────────────────────────────┘
 
 -- OBJECTIVE: To obtain a table with every secondary care admission, along with the acute provider,
---						the date of admission, the date of discharge, and the length of stay.
+--			  the date of admission, the date of discharge, and the length of stay.
 
 -- INPUT: No pre-requisites
 

@@ -2,9 +2,9 @@
 --│ COVID utilisation from primary care data │
 --└──────────────────────────────────────────┘
 
--- OBJECTIVE:	Classifies a list of events as COVID or non-COVID. An event is classified as
---						"COVID" if the date of the event is within 4 weeks after, or up to 14 days 
---						before, a positive COVID test.
+-- OBJECTIVE: Classifies a list of events as COVID or non-COVID. An event is classified as
+--			  "COVID" if the date of the event is within 4 weeks after, or up to 14 days 
+--			  before, a positive COVID test.
 
 -- INPUT: Takes one parameter
 --  - start-date: string - (YYYY-MM-DD) the date to count COVID diagnoses from. Usually this should be 2020-01-01.

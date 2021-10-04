@@ -16,7 +16,7 @@
 -- ASSUMPTIONS:
 --	-	If any of the patient records suggests the patients lives in a care home we will assume that they do
 
--- Get all patients sex for the cohort
+-- Get the care home status for each patient
 IF OBJECT_ID('tempdb..#PatientCareHomeStatus') IS NOT NULL DROP TABLE #PatientCareHomeStatus;
 SELECT 
 	FK_Patient_Link_ID,

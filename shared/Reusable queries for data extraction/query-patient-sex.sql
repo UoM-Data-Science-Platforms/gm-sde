@@ -35,6 +35,8 @@ AND Sex IS NOT NULL;
 
 -- If patients have a tenancy id of 2 we take this as their most likely Sex
 -- as this is the GP data feed and so most likely to be up to date
+-- If a patient has a tenancy id of 2 and has two different records of sex (which is very rare)
+-- then we use Female as Sex for this case
 IF OBJECT_ID('tempdb..#PatientSex') IS NOT NULL DROP TABLE #PatientSex;
 SELECT FK_Patient_Link_ID, MIN(Sex) as Sex INTO #PatientSex FROM #AllPatientSexs
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
@@ -61,7 +63,7 @@ SELECT FK_Patient_Link_ID FROM #Patients
 EXCEPT
 SELECT FK_Patient_Link_ID FROM #PatientSex;
 
--- If there is a unique most recent Sex then use that
+-- If there is a unique most recent updated Sex then use that
 INSERT INTO #PatientSex
 SELECT p.FK_Patient_Link_ID, MIN(p.Sex) FROM #AllPatientSexs p
 INNER JOIN (

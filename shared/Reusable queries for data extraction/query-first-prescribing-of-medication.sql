@@ -3,13 +3,12 @@
 --└──────────────────────────────────┘
 
 -- OBJECTIVE: To obtain, for each patient, the first date for each medication they have ever
---						been prescribed.
+--			  been prescribed.
 
 -- ASSUMPTIONS:
 --	-	The same medication can have multiple clinical codes. GraphNet attempt to standardize
 --		the coding across different providers by giving each code an id. Therefore the Readv2
 --		code for a medication and the EMIS code for the same medication will have the same id.
---	-	
 
 -- INPUT: No pre-requisites
 

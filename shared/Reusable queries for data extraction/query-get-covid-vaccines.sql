@@ -5,7 +5,7 @@
 -- OBJECTIVE: To obtain a table with first and second vaccine doses per patient.
 
 -- ASSUMPTIONS:
---	-	GP records can often be duplicated. The assumption is that if a patient receives
+--	- GP records can often be duplicated. The assumption is that if a patient receives
 --    two vaccines within 14 days of each other then it is likely that both codes refer
 --    to the same vaccine. However, it is possible that the first code's entry into the
 --    record was delayed and therefore the second code is in fact a second dose. This
