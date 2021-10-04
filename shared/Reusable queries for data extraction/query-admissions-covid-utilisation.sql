@@ -3,8 +3,9 @@
 --└────────────────────────────────────┘
 
 -- OBJECTIVE: To classify every admission to secondary care based on whether it is a COVID or non-COVID related.
---						A COVID-related admission is classed as an admission within 4 weeks after, or up to 2 weeks before
---						a positive test.
+
+-- NOTE: A COVID-related admission is classed as an admission within 4 weeks after, or up to 2 weeks before
+--       a positive test.
 
 -- INPUT: Takes one parameter
 --  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
