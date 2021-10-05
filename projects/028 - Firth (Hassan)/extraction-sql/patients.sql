@@ -2002,8 +2002,8 @@ SELECT	 PatientId = m.FK_Patient_Link_ID
 		,EarliestDiagnosis_Depression
 		,DeathAfter31Jan20 = CASE WHEN pl.DeathDate > '2020-01-31' THEN 'Y' ELSE 'N' END
 		,DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END
-		,DeathDateDueToCovid_Year = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN YEAR(pl.DeathDate) ELSE null END
-		,DeathDateDueToCovid_Month = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN MONTH(pl.DeathDate) ELSE null END
+		,DeathDate_Year = CASE WHEN pl.DeathDate > '2020-01-31' THEN YEAR(pl.DeathDate) ELSE null END
+		,DeathDate_Month = CASE WHEN pl.DeathDate > '2020-01-31' THEN MONTH(pl.DeathDate) ELSE null END
 		,FirstVaccineYear =  YEAR(FirstVaccineDate)
 		,FirstVaccineMonth = MONTH(FirstVaccineDate)
 		,SecondVaccineYear =  YEAR(SecondVaccineDate)
@@ -2079,8 +2079,8 @@ SELECT	PatientId = m.FK_Patient_Link_ID
 		,EarliestDiagnosis_Depression
 		,DeathAfter31Jan20 = CASE WHEN pl.DeathDate > '2020-01-31' THEN 'Y' ELSE 'N' END
 		,DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END
-		,DeathDateDueToCovid_Year = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN YEAR(pl.DeathDate) ELSE null END
-		,DeathDateDueToCovid_Month = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN MONTH(pl.DeathDate) ELSE null END
+		,DeathDate_Year = CASE WHEN pl.DeathDate > '2020-01-31' THEN YEAR(pl.DeathDate) ELSE null END
+		,DeathDate_Month = CASE WHEN pl.DeathDate > '2020-01-31' THEN MONTH(pl.DeathDate) ELSE null END
 		,FirstVaccineYear =  YEAR(FirstVaccineDate)
 		,FirstVaccineMonth = MONTH(FirstVaccineDate)
 		,SecondVaccineYear =  YEAR(SecondVaccineDate)
