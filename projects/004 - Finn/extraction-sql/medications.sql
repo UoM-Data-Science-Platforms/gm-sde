@@ -529,6 +529,10 @@ SELECT FK_Patient_Link_ID, MAX(YearOfBirth) FROM #AllPatientYearOfBirths
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
 GROUP BY FK_Patient_Link_ID
 HAVING MAX(YearOfBirth) <= YEAR(GETDATE());
+
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientYearOfBirths;
+DROP TABLE #UnmatchedYobPatients;
 --┌─────┐
 --│ Sex │
 --└─────┘
@@ -603,6 +607,9 @@ INNER JOIN (
 GROUP BY p.FK_Patient_Link_ID
 HAVING MIN(Sex) = MAX(Sex);
 
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientSexs;
+DROP TABLE #UnmatchedSexPatients;
 
 -- Get adult cancer patients for the main cohort.
 IF OBJECT_ID('tempdb..#AdultCancerCohort') IS NOT NULL DROP TABLE #AdultCancerCohort;
