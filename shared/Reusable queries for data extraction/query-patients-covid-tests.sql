@@ -1,5 +1,5 @@
 --┌─────────────────────────────────────────────┐
---│ Patients that undertook a COVID test        │
+--│ Patients with a COVID test result           │
 --└─────────────────────────────────────────────┘
 
 -- OBJECTIVE: To get all patients with a positive and negative COVID test result.
