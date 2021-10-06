@@ -39,11 +39,12 @@ This project required the following reusable queries:
 - Index Multiple Deprivation
 - Lower level super output area
 - COVID-related secondary admissions
+- Patients with COVID
 - Secondary admissions and length of stay
 - Secondary discharges
 - Classify secondary admissions
-- Patients with COVID
-- Long-term conditions
+- Patients that undertook a COVID test
+- Condition events from LTC clinical codeset
 - Cancer cohort matching for 004-Finn
 - Cohort matching on year of birth / sex
 - Sex
@@ -157,6 +158,30 @@ _File_: `query-admissions-covid-utilisation.sql`
 _Link_: [https://github.com/rw251/.../query-admissions-covid-utilisation.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-admissions-covid-utilisation.sql)
 
 ---
+### Patients with COVID
+To get tables of all patients with a COVID diagnosis in their record.
+
+_Input_
+```
+Takes one parameter
+  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+```
+
+_Output_
+```
+Two temp tables as follows:
+ #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- FirstCovidPositiveDate - earliest COVID diagnosis
+ #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- CovidPositiveDate - any COVID diagnosis
+```
+_File_: `query-patients-with-covid.sql`
+
+_Link_: [https://github.com/rw251/.../query-patients-with-covid.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid.sql)
+
+---
 ### Secondary admissions and length of stay
 To obtain a table with every secondary care admission, along with the acute provider, the date of admission, the date of discharge, and the length of stay.
 
@@ -244,8 +269,8 @@ _File_: `query-classify-secondary-admissions.sql`
 _Link_: [https://github.com/rw251/.../query-classify-secondary-admissions.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-classify-secondary-admissions.sql)
 
 ---
-### Patients with COVID
-To get tables of all patients with a COVID diagnosis in their record.
+### Patients that undertook a COVID test
+To get all patients with a positive and negative COVID test result.
 
 _Input_
 ```
@@ -256,36 +281,39 @@ Takes one parameter
 _Output_
 ```
 Two temp tables as follows:
- #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
+ #CovidPositiveTests (FK_Patient_Link_ID, CovidTestDate, CovidTestResult)
+ #CovidNegativeTests (FK_Patient_Link_ID, CovidTestDate, CovidTestResult)
  	- FK_Patient_Link_ID - unique patient id
-	- FirstCovidPositiveDate - earliest COVID diagnosis
- #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
- 	- FK_Patient_Link_ID - unique patient id
-	- CovidPositiveDate - any COVID diagnosis
+  - CovidTestDate - Date, assume that only 1 test per day
+	- CovidTestResult - Varchar, 'Positive', 'Negative'.
 ```
-_File_: `query-patients-with-covid.sql`
+_File_: `query-patients-covid-tests.sql`
 
-_Link_: [https://github.com/rw251/.../query-patients-with-covid.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid.sql)
+_Link_: [https://github.com/rw251/.../query-patients-covid-tests.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-covid-tests.sql)
 
 ---
-### Long-term conditions
-To get every long-term condition for each patient.
+### Condition events from LTC clinical codeset
+To get all events associated with the long-term conditions clinical codeset for each patient *from* a pre-set date.
 
 _Input_
 ```
 Assumes there exists a temp table as follows:
  #Patients (FK_Patient_Link_ID)
  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+ @StartDate - The starting date that the study has access to the data from.
 ```
 
 _Output_
 ```
 A temp table with a row for each patient and ltc combo
- #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
+ #PatientConditionsEvents
+   FK_Patient_Link_ID, BIGINT
+   Condition, VARCHAR
+   EventDate, DATE
 ```
-_File_: `query-patient-ltcs.sql`
+_File_: `query-patient-condition-events.sql`
 
-_Link_: [https://github.com/rw251/.../query-patient-ltcs.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs.sql)
+_Link_: [https://github.com/rw251/.../query-patient-condition-events.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-condition-events.sql)
 
 ---
 ### Cancer cohort matching for 004-Finn
