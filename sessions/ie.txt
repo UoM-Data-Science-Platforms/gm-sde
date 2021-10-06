@@ -128,5 +128,11 @@ Find out the following total number of rows to investigate how big the chohorts 
 -- Check access to Christie cancer tables for RQ04
 -- Investigate Christie tables to be extracted for RQ04. 
 
-2021-09-29 8pm - 
+2021-09-29 8pm - 11pm
 -- Extract Christie tables to shared drive. 
+
+2021-10-2 12.00 - 5.00pm
+-- Investigate comorbidities, update to include all relevant conditions not just the LTC. 
+
+2021-10-3 12.25 - 6.30pm
+-- Check and validate comorbidities data extract for RQ04.
