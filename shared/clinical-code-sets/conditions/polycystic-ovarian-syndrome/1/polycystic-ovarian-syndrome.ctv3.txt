@@ -1,0 +1,12 @@
+X406n	Polycystic ovarian syndrome
+X406n	Polycystic ovary syndrome
+XE10l	PCO - Polycystic ovaries
+XE2p5	(Polycystic ovaries) or (Stein-Leventhal syndrome)
+XaJZG	FH: Polycystic ovaries
+C164.	Polycystic ovaries
+X406n	PCOD - Polycystic ovarian disease
+XE10l	Polycystic ovaries
+X406n	PCOS - Polycystic ovarian syndrome
+XE2p5	Polycystic ovaries
+C164.	(Polycystic ovaries) or (isosexual virilisation) or (Stein-Leventhal syndrome) or (multicystic ovaries)
+X406n	Polycystic ovarian disease

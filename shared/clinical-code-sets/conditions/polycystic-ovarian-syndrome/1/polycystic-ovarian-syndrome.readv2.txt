@@ -1,0 +1,3 @@
+12FA.	FH: Polycystic ovaries
+C164.	Polycystic ovaries
+C165.	Polycystic ovarian syndrome
