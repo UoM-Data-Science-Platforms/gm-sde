@@ -22,17 +22,24 @@ SET @StartDate = '2020-02-01';
 --> EXECUTE query-cancer-cohort-matching.sql
 -- OUTPUTS: #Patients
 
---> EXECUTE query-patients-with-covid.sql start-date:2020-02-01
--- Outputs: #CovidPatientsAllDiagnoses, #CovidPatients
+--> EXECUTE query-patients-covid-tests.sql start-date:2020-02-01
+-- OUTPUTS: #CovidPositiveTests, #CovidNegativeTests
 
 -- Get all patients in the study cohort with a positive covid test and the date they tested positive.
--- Grain: multiple dates per patient, De-duped: Assume that a patient can have only one positive tests per day. 
-IF OBJECT_ID('tempdb..#AllCohortCovidPatients') IS NOT NULL DROP TABLE #AllCohortCovidPatients;
-SELECT FK_Patient_Link_ID, CovidPositiveDate
-INTO #AllCohortCovidPatients
-FROM #CovidPatientsAllDiagnoses
+-- Grain: multiple dates per patient, De-duped: Assume that a patient can have only one positive test per day. 
+IF OBJECT_ID('tempdb..#AllCohortCovidPositivePatients') IS NOT NULL DROP TABLE #AllCohortCovidPositivePatients;
+SELECT FK_Patient_Link_ID, CovidTestDate
+INTO #AllCohortCovidPositivePatients
+FROM #CovidPositiveTests
 WHERE FK_Patient_Link_ID IN (Select FK_Patient_Link_ID from  #Patients);
 
+-- Get all patients in the study cohort with a Negative covid test and the date they tested Negative.
+-- Grain: multiple dates per patient, De-duped: Assume that a patient can have only one Negative test per day. 
+IF OBJECT_ID('tempdb..#AllCohortCovidNegativePatients') IS NOT NULL DROP TABLE #AllCohortCovidNegativePatients;
+SELECT FK_Patient_Link_ID, CovidTestDate
+INTO #AllCohortCovidNegativePatients
+FROM #CovidNegativeTests
+WHERE FK_Patient_Link_ID IN (Select FK_Patient_Link_ID from  #Patients);
 
 --> CODESET high-clinical-vulnerability:1 moderate-clinical-vulnerability:1 
 
@@ -67,7 +74,7 @@ IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT 
     FK_Patient_Link_ID,
     DeathWithin28Days,
-    DeathDate
+    CONVERT(DATE, DeathDate) AS DeathDate
 INTO #COVIDDeath FROM RLS.vw_COVID19
 WHERE 
     DeathWithin28Days = 'Y'
@@ -97,9 +104,18 @@ UNION ALL
 SELECT
     FK_Patient_Link_ID AS PatientId,
     'Positive Test' AS CovidEvent,
-    CovidPositiveDate AS CovidEventDate
-FROM #AllCohortCovidPatients
-WHERE CovidPositiveDate IS NOT NULL 
+    CovidTestDate AS CovidEventDate
+FROM #AllCohortCovidPositivePatients
+WHERE CovidTestDate IS NOT NULL 
+
+UNION ALL
+
+SELECT
+    FK_Patient_Link_ID AS PatientId,
+    'Negative Test' AS CovidEvent,
+    CovidTestDate AS CovidEventDate
+FROM #AllCohortCovidNegativePatients
+WHERE CovidTestDate IS NOT NULL 
 
 UNION ALL
 
@@ -116,6 +132,7 @@ WHERE DeathDate IS NOT NULL
 -- - 'High Clinical Vulnerability'
 -- - 'Moderate Clinical Vulnerability'
 -- - 'Positive Test'
+-- - 'Negative Test'
 -- - 'Death Within 28 Days'
 SELECT
     PatientId,
