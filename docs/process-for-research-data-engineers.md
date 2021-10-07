@@ -167,12 +167,12 @@ Pre-requisite: All users must have a VDE and appear in the list of names on the 
 - Enter "gmcr-rqXXX-[PI name]" as the file share name when prompted
 - If the file share has been correctly set up you will now be able to access it. Otherwise you'll need to re-open the support ticket with GMSS/GraphNet
 
-### Making an amendment to a data file
+## Making an amendment to a data file
 
-In some cases, an analyst or PI will request a slight change to the data extracts that you have provided for them. Such changes can vary in complexity, so the RDE must judge whether the change is 'minor' or 'major'.
+In some cases, an analyst or PI will request a slight change to the data extracts that the RDE has provided for them. Such changes can vary in complexity, so the RDE must judge whether the change is 'minor' or 'major'.
 If the change is considered to be on the border between 'minor' and 'major', then consider it to be 'major' to play it safe. Below are the steps involved in making a minor or major amendment to a data file:
 
-## Making a minor amendment to a data file
+### Making a minor amendment to a data file
 
 1.	In Github, create a new branch, with a suitable name for the proposed change.
 2.	Edit the data file(s) locally with the necessary changes.
@@ -181,16 +181,16 @@ If the change is considered to be on the border between 'minor' and 'major', the
 5.	Once the pull request has been approved, merge the branch into master.
 6.	Copy the project folder (or just the files that have been changed, if you need to keep the pseudoID files from previous extractions) onto the VDE and extract the data file following the usual process.
 7.	Move the output data files onto the shared drive for the study team, adding a version number suffix so it is clear which file is the latest one.
-8.	Update the relevant ‘Data Extract Amendments’ file at https://drive.google.com/drive/folders/17B8eT8AoenGqT7i4xI9JnGjKwOvXj8hw 
+8.	Update the relevant ‘Data Extract Amendments’ file on Google Drive.
 9.	Ensure that the Data Extract Amendments file is reviewed at the next Expert Review Group (ERG) fortnightly meeting.
 10.	Update section IIa-3 on the study proposal form (on Google Drive). Add some information at the bottom of this section, including the date of the change and the exact changes made.
 
-## Making a major amendment to a data file
+### Making a major amendment to a data file
 
 1.	Draft a word document detailing:
-a.	the proposed changes to the data
-b.	the reason for the proposed changes
-c.	likely consequences of the changes (e.g. if you add extra codes to a code set, the cohort is likely to increase)
+  -	the proposed changes to the data
+  -	the reason for the proposed changes
+  -	likely consequences of the changes (e.g. if you add extra codes to a code set, the cohort is likely to increase)
 2.	Send this file to christina.worsfold@healthinnovationmanchester.com ahead of the next Expert Review Group (ERG) meeting, and ask for it to be added to the agenda for the group to discuss and (hopefully) approve. 
 3.	At the ERG meeting, introduce your proposed change and ask for comments/approval from the group. If approved, move to step 4.
 4.	In Github, create a new branch, with a suitable name for the proposed change.
