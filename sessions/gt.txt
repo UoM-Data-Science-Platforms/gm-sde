@@ -234,3 +234,19 @@ Attempted to find the location of information related to project no.1 (Grant), i
 
 11/08/21
 - RQ028 - PI has asked about the missing data for sex/ethnicity. Looking into potential patterns for this.
+
+26/08/21
+- re-run the patient file for RQ028.
+
+21/09/21
+- looking for referral codes to social care services, for a potential new study related to RQ29.
+
+01/01/21
+- refresh data files for RQ28, as they are moving onto analysis for their full study.
+
+05/10/21
+- amend RQ28 to provide death date for all deaths, not just covid deaths
+- re-run data files
+
+06/10/21
+- re-run RQ28 patient file as deathdate field hadn't been changed
