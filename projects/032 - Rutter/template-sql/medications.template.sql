@@ -3,7 +3,7 @@
 --└─────────────┘
 
 ------------ RESEARCH DATA ENGINEER CHECK ------------
--- RICHARD WILLIAMS |	DATE: 20/07/21
+
 
 -- All prescriptions of: antipsychotic medication.
 
@@ -70,7 +70,6 @@ FROM [RLS].[vw_GP_Events] gp
 LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE ((SuppliedCode IN 
 	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-ii') AND [Version] = 1)) 
     AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
@@ -111,7 +110,6 @@ SELECT
 INTO #MatchedCohort
 FROM #CohortStore c
 LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = c.MatchingPatientId
-LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = c.MatchingPatientId
 WHERE c.PatientId IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 -- Define a table with all the patient ids for the main cohort and the matched cohort

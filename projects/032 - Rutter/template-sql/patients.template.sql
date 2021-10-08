@@ -54,11 +54,11 @@ SELECT DISTINCT gp.FK_Patient_Link_ID
 INTO #exclusions
 FROM [RLS].[vw_GP_Events] gp
 LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
-WHERE ((SuppliedCode IN 
+WHERE SuppliedCode IN 
 	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN 
-		('polycystic-ovarian-syndrome', 'gestational-diabetes') AND [Version] = 1
-			AND EventDate BETWEEN '2018-07-09' AND '2022-03-31')) 
-    
+		('polycystic-ovarian-syndrome', 'gestational-diabetes') AND [Version] = 1)
+			AND EventDate BETWEEN '2018-07-09' AND '2022-03-31'
+
 ---- CREATE TABLE OF ALL PATIENTS THAT HAVE ANY LIFETIME DIAGNOSES OF T2D OF 2019-07-19
 
 IF OBJECT_ID('tempdb..#diabetes2_diagnoses') IS NOT NULL DROP TABLE #diabetes2_diagnoses;
@@ -69,8 +69,6 @@ SELECT gp.FK_Patient_Link_ID,
 		IMD2019Decile1IsMostDeprived10IsLeastDeprived, --may need changing to IMD Score
 		EventDate,
 		SuppliedCode,
-		[diabetes_type_i_Code] = CASE WHEN SuppliedCode IN 
-					( SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-i') AND [Version] = 1 ) THEN 1 ELSE 0 END,
 		[diabetes_type_ii_Code] = CASE WHEN SuppliedCode IN 
 					( SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-ii') AND [Version] = 1 ) THEN 1 ELSE 0 END
 
@@ -80,7 +78,7 @@ LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-WHERE ((SuppliedCode IN 
+WHERE (SuppliedCode IN 
 	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-ii') AND [Version] = 1)) 
     AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND (gp.EventDate) <= '2019-07-19'
