@@ -1,0 +1,14 @@
+246o100	Non-invasive central diastolic blood pressure
+246n000	Baseline diastolic blood pressure
+246m.00	Average diastolic blood pressure
+246i.00	Diastolic blood pressure centile
+246f.00	Ambulatory diastolic blood pressure
+246c.00	Average home diastolic blood pressure
+246a.00	Average night interval diastolic blood pressure
+246X.00	Average day interval diastolic blood pressure
+246V.00	Average 24 hour diastolic blood pressure
+246T.00	Lying diastolic blood pressure
+246R.00	Sitting diastolic blood pressure
+246P.00	Standing diastolic blood pressure
+246L.00	Target diastolic blood pressure
+246A.00	O/E - Diastolic BP reading

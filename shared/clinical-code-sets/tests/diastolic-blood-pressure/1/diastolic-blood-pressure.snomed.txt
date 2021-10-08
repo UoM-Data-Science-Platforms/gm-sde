@@ -1,0 +1,31 @@
+174255007	Non-invasive diastolic blood pressure
+251073000	Invasive diastolic blood pressure
+271650006	Diastolic arterial pressure
+314451001	Minimum diastolic blood pressure (observable entity)
+314452008	Maximum diastolic blood pressure (observable entity)
+314453003	Average diastolic blood pressure (observable entity)
+314454009	Minimum day interval diastolic blood pressure (observable entity)
+314455005	Minimum night interval diastolic blood pressure (observable entity)
+314456006	Minimum 24 hour diastolic blood pressure (observable entity)
+314457002	Maximum night interval diastolic blood pressure (observable entity)
+314458007	Maximum day interval diastolic blood pressure (observable entity)
+314459004	Maximum 24 hour diastolic blood pressure (observable entity)
+314460009	Average night interval diastolic blood pressure (observable entity)
+314461008	Average day interval diastolic blood pressure (observable entity)
+314462001	Average 24 hour diastolic blood pressure (observable entity)
+314465004	24 hour diastolic blood pressure (observable entity)
+400975005	Standing diastolic blood pressure
+407555005	Sitting diastolic blood pressure
+407557002	Lying diastolic blood pressure
+413605002	Average home diastolic blood pressure
+446226005	Diastolic blood pressure on admission
+716632005	Baseline diastolic blood pressure
+198091000000104	Ambulatory diastolic blood pressure
+814081000000101	Diastolic blood pressure centile
+1091811000000102	Diastolic arterial pressure (observable entity)
+1036571000000105	Non-invasive central diastolic blood pressure
+23154005	Increased diastolic arterial pressure (finding)
+42689008	Decreased diastolic arterial pressure (finding)
+49844009	Abnormal diastolic arterial pressure (finding)
+53813002	Normal diastolic arterial pressure (finding)
+163031004	On examination - Diastolic BP reading

@@ -1,0 +1,34 @@
+72313002	Systolic arterial pressure (observable entity)
+251070002	Non-invasive systolic blood pressure
+251071003	Invasive systolic blood pressure
+271649006	SAP - Systolic arterial pressure
+314438006	Minimum systolic blood pressure (observable entity)
+314439003	Maximum systolic blood pressure (observable entity)
+314440001	Average systolic blood pressure (observable entity)
+314441002	Minimum day interval systolic blood pressure (observable entity)
+314442009	Minimum night interval systolic blood pressure (observable entity)
+314443004	Maximum night interval systolic blood pressure (observable entity)
+314444005	Maximum day interval systolic blood pressure (observable entity)
+314445006	Average night interval systolic blood pressure (observable entity)
+314446007	Average day interval systolic blood pressure (observable entity)
+314447003	Minimum 24 hour systolic blood pressure (observable entity)
+314448008	Maximum 24 hour systolic blood pressure (observable entity)
+314449000	Average 24 hour systolic blood pressure (observable entity
+314464000	24 hour systolic blood pressure (observable entity)
+399304008	Systolic blood pressure on admission
+400974009	Standing systolic blood pressure
+407554009	Sitting systolic blood pressure
+407556006	Lying systolic blood pressure
+413606001	Average home systolic blood pressure
+716579001	Baseline systolic blood pressure
+198081000000101	Ambulatory systolic blood pressure
+814101000000107	Systolic blood pressure centile
+1036551000000101	Non-invasive central systolic blood pressure
+1087991000000109	Level of reduction in systolic blood pressure on standing (observable entity)
+12929001	Normal systolic arterial pressure (finding)
+18050000	Increased systolic arterial pressure (finding)
+18352002	Abnormal systolic arterial pressure (finding)
+81010002	Decreased systolic arterial pressure (finding)
+163030003	On examination - Systolic blood pressure reading
+707303003	Post exercise systolic blood pressure response abnormal
+707304009	Post exercise systolic blood pressure response normal (finding)

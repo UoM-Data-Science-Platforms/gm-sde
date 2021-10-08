@@ -1,0 +1,38 @@
+X779S	DAP-Diastolic arterial pressur
+X779T	DAP-Diastolic arterial pressur
+Xac5K	Baseline diastolic BP
+Xaedp	Non-invasive centrl diastlc BP
+XaF4a	Ave day diastol blood pressure
+XaF4b	Ave 24h diastol blood pressure
+XaF4e	24h diastolic blood pressure
+XaF4Q	Min diastolic blood pressure
+XaF4R	Max diastolic blood pressure
+XaF4S	Ave diastolic blood pressure
+XaF4T	Min day diastol blood pressure
+XaF4U	Min night diast blood pressure
+XaF4V	Min 24h diastol blood pressure
+XaF4W	Max night diast blood pressure
+XaF4X	Max day diast blood pressure
+XaF4Y	Max 24h diastol blood pressure
+XaF4Z	Ave night diast blood pressure
+XaIwk	Standing diastolic BP
+XaJ2F	Sitting diastolic BP
+XaJ2H	Lying diastolic blood pressure
+XaKFw	Average home diastolic BP
+XaKjG	Ambulatory diastolic BP
+XaYg8	Diastolic BP centile
+XM02Y	DAP-Diastolic arterial pressur
+246o1	Non-invasive central diastolic blood pressure
+246n0	Baseline diastolic blood pressure
+246m.	Average diastolic blood pressure
+246i.	Diastolic blood pressure centile
+246f.	Ambulatory diastolic blood pressure
+246c.	Average home diastolic blood pressure
+246a.	Average night interval diastolic blood pressure
+246X.	Average day interval diastolic blood pressure
+246V.	Average 24 hour diastolic blood pressure
+246T.	Lying diastolic blood pressure
+246R.	Sitting diastolic blood pressure
+246P.	Standing diastolic blood pressure
+246L.	Target diastolic blood pressure
+246A.	O/E - Diastolic BP reading
