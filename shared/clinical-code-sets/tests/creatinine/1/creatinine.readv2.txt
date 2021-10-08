@@ -2,4 +2,4 @@
 44JC.00	Corrected plasma creatinine level
 44JD.00	Corrected serum creatinine level
 44JF.00	Plasma creatinine level
-44J3z00 Serum creatinine NOS
+44J3z00	Serum creatinine NOS

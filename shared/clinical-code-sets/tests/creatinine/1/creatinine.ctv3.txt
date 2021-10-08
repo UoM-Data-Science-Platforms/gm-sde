@@ -1,5 +1,5 @@
-XE2q5 Serum creatinine
-XE2q5 Serum creatinine level
-XaERc Corrected serum creatinine level
-XaERX Corrected plasma creatinine level
-44J3z Serum creatinine NOS
+XE2q5	Serum creatinine
+XE2q5	Serum creatinine level
+XaERc	Corrected serum creatinine level
+XaERX	Corrected plasma creatinine level
+44J3z	Serum creatinine NOS

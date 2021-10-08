@@ -1,2 +1,2 @@
-22A.. O/E - weight
-22AZ. O/E - weight NOS
+22A..	O/E - weight
+22AZ.	O/E - weight NOS

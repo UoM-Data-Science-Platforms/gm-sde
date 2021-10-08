@@ -1,0 +1,4 @@
+44Q..00	Serum triglycerides
+44Q4.00	Serum fasting triglyceride level
+44Q5.00	Serum random triglyceride level
+44QZ.00	Serum triglycerides NOS
