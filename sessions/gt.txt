@@ -250,3 +250,10 @@ Attempted to find the location of information related to project no.1 (Grant), i
 
 06/10/21
 - re-run RQ28 patient file as deathdate field hadn't been changed
+
+07/10/21
+- start preparing data extracts for RQ32.
+
+08/10/21
+- preparing 'observations' data file for RQ32
+- testing new code sets that I have created for things like creatinine, triglycerides
