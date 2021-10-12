@@ -150,6 +150,7 @@ SELECT DISTINCT
 	CAST(EventDate AS DATE) AS EventDate,
 	Concept = CASE WHEN sn.Concept IS NOT NULL THEN sn.Concept ELSE co.Concept END,
 	[Description] =  CASE WHEN sn.[description] IS NOT NULL THEN sn.[description] ELSE co.[description] END,
+	[Version] =  CASE WHEN sn.[Version] IS NOT NULL THEN sn.[Version] ELSE co.[Version] END,
 	[Value] 
 INTO #observations
 FROM RLS.vw_GP_Events gp
@@ -165,7 +166,7 @@ WHERE (
 			(Concept IN ('creatinine') 				 		AND [Version]=1) OR
 			(Concept IN ('systolic-blood-pressure')  		AND [Version]=1) OR
 			(Concept IN ('diastolic-blood-pressure') 		AND [Version]=1) OR
-			(Concept IN ('triglycerides') 			 		AND [Version]=2) OR
+			(Concept IN ('triglycerides') 			 		AND [Version]=1) OR
 			(Concept IN ('bmi') 					 		AND [Version]=2) OR
 			(Concept IN ('height') 					 		AND [Version]=1) OR
 			(Concept IN ('weight') 					 		AND [Version]=1) OR
@@ -173,6 +174,7 @@ WHERE (
 			(Concept IN ('smoking-status-currently-not') 	AND [Version]=1) OR
 			(Concept IN ('smoking-status-never') 	 		AND [Version]=1) OR
 			(Concept IN ('smoking-status-passive') 	 		AND [Version]=1) OR
+			(Concept IN ('smoking-status-ex-trivial') 	 	AND [Version]=1) OR
 			(Concept IN ('smoking-status-trivial') 	 		AND [Version]=1) 
 ) OR
   gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE 
@@ -184,7 +186,7 @@ WHERE (
 			(Concept IN ('creatinine') 				 		AND [Version]=1) OR
 			(Concept IN ('systolic-blood-pressure')  		AND [Version]=1) OR
 			(Concept IN ('diastolic-blood-pressure') 		AND [Version]=1) OR
-			(Concept IN ('triglycerides') 			 		AND [Version]=2) OR
+			(Concept IN ('triglycerides') 			 		AND [Version]=1) OR
 			(Concept IN ('bmi') 					 		AND [Version]=2) OR
 			(Concept IN ('height') 					 		AND [Version]=1) OR
 			(Concept IN ('weight') 					 		AND [Version]=1) OR
@@ -192,16 +194,20 @@ WHERE (
 			(Concept IN ('smoking-status-currently-not') 	AND [Version]=1) OR
 			(Concept IN ('smoking-status-never') 	 		AND [Version]=1) OR
 			(Concept IN ('smoking-status-passive') 	 		AND [Version]=1) OR
+			(Concept IN ('smoking-status-ex-trivial') 	 	AND [Version]=1) OR
 			(Concept IN ('smoking-status-trivial') 	 		AND [Version]=1) 
 ) )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #MainCohort)
 AND EventDate BETWEEN '2016-04-01' AND '2022-03-31'
 
-select  * 
-from #observations 
-where ([Value] IS NOT NULL AND [Value] != '0') OR 
-	(Concept IN ('smoking-status-current', 'smoking-status-currently-not', 'smoking-status-never', 'smoking-status-passive', 'smoking-status-trivial')) 
---where FK_Patient_Link_ID = '3926057756066093444' order by EventDate, Concept
+-- SOME CODES EXIST IN SEVERAL CODE SETS, SO EXCLUDE THEM FROM THE SETS/VERSIONS THAT WE DON'T WANT
+-- e.g. serum HDL cholesterol appears in cholesterol v1 code set, which we don't want, but we do want the code as part of the hdl-cholesterol code set.
 
-
-
+select FK_Patient_Link_ID, EventDate, Concept, [Value] from #observations
+except
+select * from #observations 
+where 
+	(Concept = 'cholesterol' and [Version] = 1) OR
+	(Concept = 'hba1c' and [Version] = 1) OR
+	(Concept = 'bmi' and [Version] = 1) OR
+	([Value] IS NULL AND Concept NOT IN ('smoking-status-current', 'smoking-status-currently-not', 'smoking-status-never', 'smoking-status-passive', 'smoking-status-ex-trivial', 'smoking-status-trivial') )
