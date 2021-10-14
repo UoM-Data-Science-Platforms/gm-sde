@@ -257,3 +257,6 @@ Attempted to find the location of information related to project no.1 (Grant), i
 08/10/21
 - preparing 'observations' data file for RQ32
 - testing new code sets that I have created for things like creatinine, triglycerides
+
+13/10/21
+- update the prevalence logs in the README files for new code sets (e.g. height, weight, creatinine, hdl/ldl cholesterol)
