@@ -8,3 +8,8 @@ Codes taken from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.0
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `63.96% - 79.69%` suggests that this code set is perhaps not well defined. However, as EMIS (80% of practices) and TPP (10% of practices) are close, it could simply be down to Vision automatically recording BMIs and therefore increasing the prevalence there.
 
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1885015 (71.68%) |  1884110 (71.64%) |
+| 2021-10-13 | TPP             | 211812     |  140013 (66.10%) |   140013 (66.10%) |
+| 2021-10-13 | Vision          | 338205     |  245440 (72.59%) |   245440 (72.57%) |
