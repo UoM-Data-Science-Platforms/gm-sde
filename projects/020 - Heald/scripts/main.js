@@ -600,6 +600,8 @@ Files should not be deleted from the 'output/export' folder***
 
 * NB. There are known issues with using RStudio on a network shared drive. If you experience slow performance please read the documentation here: https://drive.google.com/file/d/1nRuhT-FJ-Sioh0ntknktPN3kYQCc-5px/view?usp=sharing
 
+* ***NB. All studies must submit results and outputs for review by ERG and RGG prior to submission for publication, and for non-academic outputs, such as social media outputs, prior to publication.***
+
 v${version}`
   );
 }
