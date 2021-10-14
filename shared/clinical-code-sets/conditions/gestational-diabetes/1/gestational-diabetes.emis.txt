@@ -1,0 +1,2 @@
+^ESCTGE801661	Gestational diabetes, delivered
+^ESCTGE801662	Gestational diabetes mellitus complicating pregnancy

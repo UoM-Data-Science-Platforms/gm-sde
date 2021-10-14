@@ -1,0 +1,2 @@
+EMISNQSY8	Systolic blood pressure - left arm
+EMISNQSY9	Systolic blood pressure - right arm

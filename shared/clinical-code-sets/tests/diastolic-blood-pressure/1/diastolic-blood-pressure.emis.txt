@@ -1,0 +1,2 @@
+EMISNQDI86	Diastolic blood pressure - left arm
+EMISNQDI87	Diastolic blood pressure - right arm
