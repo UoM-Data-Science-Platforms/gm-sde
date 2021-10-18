@@ -40,7 +40,7 @@
 
 -- Set the start date
 DECLARE @StartDate datetime;
-SET @StartDate = '2019-07-19';
+SET @StartDate = '2019-07-01';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -75,7 +75,7 @@ LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
 WHERE SuppliedCode IN 
 	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN 
 		('polycystic-ovarian-syndrome', 'gestational-diabetes') AND [Version] = 1)
-			AND EventDate BETWEEN '2018-07-09' AND '2022-03-31'
+			AND EventDate BETWEEN '2018-07-01' AND '2022-03-31'
 
 ---- CREATE TABLE OF ALL PATIENTS THAT HAVE ANY LIFETIME DIAGNOSES OF T2D OF 2019-07-19
 
@@ -97,7 +97,7 @@ LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE (SuppliedCode IN 
 	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-ii') AND [Version] = 1)) 
     AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-	AND (gp.EventDate) <= '2019-07-19'
+	AND (gp.EventDate) <= '2019-07-01'
 
 
 -- Define the main cohort to be matched
@@ -110,6 +110,8 @@ INTO #MainCohort
 FROM #diabetes2_diagnoses
 WHERE FK_Patient_Link_ID IN (#####INTERVENTION_TABLE)
 
+/*
+
 -- Define the population of potential matches for the cohort
 IF OBJECT_ID('tempdb..#PotentialMatches') IS NOT NULL DROP TABLE #PotentialMatches;
 SELECT DISTINCT p.FK_Patient_Link_ID, Sex, YearOfBirth
@@ -117,7 +119,6 @@ INTO #PotentialMatches
 FROM #diabetes2_diagnoses
 WHERE p.FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #MainCohort)
 
--- AND THE RELEVANT DATA (HBA1C AND CVD RISK FACTORS) ARE AVAILABLE  WITHIN 3-6 MONTHS OF INDEX DATE
 
 
 --> EXECUTE query-cohort-matching-yob-sex-alt.sql yob-flex:1 num-matches:20
@@ -142,6 +143,7 @@ SELECT PatientId AS FK_Patient_Link_ID INTO #PatientIds FROM #CohortStore
 UNION
 SELECT MatchingPatientId FROM #CohortStore;
 
+*/
 
 -- Get observation values for the cohort
 IF OBJECT_ID('tempdb..#observations') IS NOT NULL DROP TABLE #observations;

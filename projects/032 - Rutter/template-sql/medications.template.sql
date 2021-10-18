@@ -5,7 +5,7 @@
 ------------ RESEARCH DATA ENGINEER CHECK ------------
 
 
--- All prescriptions of: antipsychotic medication.
+-- All prescriptions of medications for type 2 diabetes patients.
 
 -- OUTPUT: Data with the following fields
 -- 	-   PatientId (int)
@@ -14,7 +14,7 @@
 
 -- Set the start date
 DECLARE @StartDate datetime;
-SET @StartDate = '2019-07-19';
+SET @StartDate = '2019-07-01';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -49,9 +49,9 @@ LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
 WHERE ((SuppliedCode IN 
 	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN 
 		('polycystic-ovarian-syndrome', 'gestational-diabetes') AND [Version] = 1
-			AND EventDate BETWEEN '2018-07-09' AND '2022-03-31')) 
+			AND EventDate BETWEEN '2018-07-01' AND '2022-03-31')) 
     
----- CREATE TABLE OF ALL PATIENTS THAT HAVE ANY LIFETIME DIAGNOSES OF T2D OF 2019-07-19
+---- CREATE TABLE OF ALL PATIENTS THAT HAVE ANY LIFETIME DIAGNOSES OF T2D AS OF 2019-07-01
 
 IF OBJECT_ID('tempdb..#diabetes2_diagnoses') IS NOT NULL DROP TABLE #diabetes2_diagnoses;
 SELECT gp.FK_Patient_Link_ID, 
@@ -74,7 +74,8 @@ WHERE ((SuppliedCode IN
 	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-ii') AND [Version] = 1)) 
     AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
     AND gp.FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #exclusions) -- exclude patients with polycystic ovary syndrome or gestational diabetes
-	AND (gp.EventDate) <= '2019-07-19'
+	AND (gp.EventDate) <= '2019-07-01'
+	AND DATEDIFF(YEAR, yob.YearOfBirth, '2019-07-01') >= 18
 
 
 -- Define the main cohort to be matched
@@ -86,7 +87,10 @@ SELECT DISTINCT FK_Patient_Link_ID,
 		IMD2019Decile1IsMostDeprived10IsLeastDeprived
 INTO #MainCohort
 FROM #diabetes2_diagnoses
-WHERE FK_Patient_Link_ID IN (#####INTERVENTION_TABLE) -- only get patients that had a diabetes intervention
+--WHERE FK_Patient_Link_ID IN (#####INTERVENTION_TABLE) -- only get patients that had a diabetes intervention
+
+
+/*
 
 -- Define the population of potential matches for the cohort
 IF OBJECT_ID('tempdb..#PotentialMatches') IS NOT NULL DROP TABLE #PotentialMatches;
@@ -118,7 +122,9 @@ SELECT PatientId AS FK_Patient_Link_ID INTO #PatientIds FROM #CohortStore
 UNION
 SELECT MatchingPatientId FROM #CohortStore;
 
--- RX OF MEDS SINCE 31.07.19 FOR PATIENTS WITH T2D
+*/
+
+-- RX OF MEDS SINCE 01.07.19 FOR PATIENTS WITH T2D
 
 IF OBJECT_ID('tempdb..#meds') IS NOT NULL DROP TABLE #meds;
 SELECT 
@@ -130,9 +136,9 @@ FROM RLS.vw_GP_Medications m
 LEFT OUTER JOIN #VersionedSnomedSets s ON s.FK_Reference_SnomedCT_ID = m.FK_Reference_SnomedCT_ID
 LEFT OUTER JOIN #VersionedCodeSets c ON c.FK_Reference_Coding_ID = m.FK_Reference_Coding_ID
 WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #diabetes2_diagnoses)
-AND m.MedicationDate > '2019-07-31' 
+AND m.MedicationDate > '2019-07-01' 
 
--- Produce final table of all medication prescriptions for T2D patients (intervention and controls)
+-- Produce final table of all medication prescriptions for T2D patients
 
 SELECT PatientId, 
 	[description], 

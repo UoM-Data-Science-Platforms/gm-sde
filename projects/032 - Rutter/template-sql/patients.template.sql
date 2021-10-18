@@ -82,6 +82,7 @@ WHERE (SuppliedCode IN
 	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-ii') AND [Version] = 1)) 
     AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND (gp.EventDate) <= '2019-07-19'
+	AND DATEDIFF(YEAR, yob.YearOfBirth, '2019-07-19') >= 18
 
 
 -- Define the main cohort to be matched
@@ -93,7 +94,9 @@ SELECT DISTINCT FK_Patient_Link_ID,
 		IMD2019Decile1IsMostDeprived10IsLeastDeprived
 INTO #MainCohort
 FROM #diabetes2_diagnoses
-WHERE FK_Patient_Link_ID IN (#####INTERVENTION_TABLE)
+--WHERE FK_Patient_Link_ID IN (#####INTERVENTION_TABLE)
+
+/*
 
 -- Define the population of potential matches for the cohort
 IF OBJECT_ID('tempdb..#PotentialMatches') IS NOT NULL DROP TABLE #PotentialMatches;
@@ -102,10 +105,9 @@ INTO #PotentialMatches
 FROM #diabetes2_diagnoses
 WHERE p.FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #MainCohort)
 
--- AND THE RELEVANT DATA (HBA1C AND CVD RISK FACTORS) ARE AVAILABLE  WITHIN 3-6 MONTHS OF INDEX DATE
-
 
 --> EXECUTE query-cohort-matching-yob-sex-alt.sql yob-flex:1 num-matches:20
+
 
 -- Get the matched cohort detail - same as main cohort
 IF OBJECT_ID('tempdb..#MatchedCohort') IS NOT NULL DROP TABLE #MatchedCohort;
@@ -122,11 +124,15 @@ LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = c.MatchingPatientId
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = c.MatchingPatientId
 WHERE c.PatientId IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
+
+
 -- Define a table with all the patient ids for the main cohort and the matched cohort
 IF OBJECT_ID('tempdb..#PatientIds') IS NOT NULL DROP TABLE #PatientIds;
 SELECT PatientId AS FK_Patient_Link_ID INTO #PatientIds FROM #CohortStore
 UNION
 SELECT MatchingPatientId FROM #CohortStore;
+
+*/
 
 -- Find earliest diagnosis of T2D for each patient
 
