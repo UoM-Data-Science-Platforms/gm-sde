@@ -260,3 +260,6 @@ Attempted to find the location of information related to project no.1 (Grant), i
 
 13/10/21
 - update the prevalence logs in the README files for new code sets (e.g. height, weight, creatinine, hdl/ldl cholesterol)
+
+18/10/21
+- investigating codes for antibiotics and corticosteroids, for RQ33
