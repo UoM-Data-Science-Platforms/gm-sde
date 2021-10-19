@@ -1,5 +1,5 @@
 --┌──────────────────────────┐
---│ Primary summary file 2 │
+--│ Primary summary file 2   │
 --└──────────────────────────┘
 
 ------------ RESEARCH DATA ENGINEER CHECK ------------
@@ -12,6 +12,8 @@
 -- 	•	CCG
 -- 	•	IMD2019Decile1IsMostDeprived10IsLeastDeprived
 -- 	•	NumberOfLTCs
+-- 	•	DeadAtStart
+-- 	•	DeadByJuly2021
 -- 	•	Number
 
 --Just want the output, not the messages
@@ -41,12 +43,17 @@ SELECT
 	CCG,
 	ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
 	ISNULL(NumberOfLTCs,0) AS NumberOfLTCs,
+	CASE WHEN pl.DeathDate IS NOT NULL AND pl.DeathDate < '2019-12-23' THEN 'Y' ELSE 'N' END AS DeadAtStart,
+	CASE WHEN pl.DeathDate IS NOT NULL AND pl.DeathDate < '2021-07-01' THEN 'Y' ELSE 'N' END AS DeadByJuly2021,
 	COUNT(*) AS Number
 FROM #Patients p
 	LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 	LEFT OUTER JOIN #NumLTCs ltc ON ltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 	LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 	LEFT OUTER JOIN #PatientPracticeAndCCG ppc ON ppc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-GROUP BY CCG, IMD2019Decile1IsMostDeprived10IsLeastDeprived, NumberOfLTCs
+	LEFT OUTER JOIN [RLS].vw_Patient_Link pl ON pl.PK_Patient_Link_ID = p.FK_Patient_Link_ID
+GROUP BY CCG, IMD2019Decile1IsMostDeprived10IsLeastDeprived, NumberOfLTCs,
+	CASE WHEN pl.DeathDate IS NOT NULL AND pl.DeathDate < '2019-12-23' THEN 'Y' ELSE 'N' END,
+	CASE WHEN pl.DeathDate IS NOT NULL AND pl.DeathDate < '2021-07-01' THEN 'Y' ELSE 'N' END
 ORDER BY CCG, IMD2019Decile1IsMostDeprived10IsLeastDeprived, NumberOfLTCs;
 
