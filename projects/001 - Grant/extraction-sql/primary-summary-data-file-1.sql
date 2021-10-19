@@ -1,5 +1,5 @@
 --┌──────────────────────────┐
---│ Primary summary file 1 │
+--│ Primary summary file 1   │
 --└──────────────────────────┘
 
 ------------ RESEARCH DATA ENGINEER CHECK ------------
@@ -12,6 +12,8 @@
 -- 	•	CCG
 -- 	•	IMD2019Decile1IsMostDeprived10IsLeastDeprived
 -- 	•	LTCGroup
+-- 	•	DeadAtStart
+-- 	•	DeadByJuly2021
 -- 	•	Number
 
 --Just want the output, not the messages
@@ -1024,6 +1026,9 @@ INNER JOIN (
 GROUP BY p.FK_Patient_Link_ID
 HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
 
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientLSOAs;
+DROP TABLE #UnmatchedLsoaPatients;
 
 --┌───────────────────────────────────────┐
 --│ GET practice and ccg for each patient │
@@ -1136,11 +1141,16 @@ SELECT
 	CCG,
 	ISNULL(IMD2019Decile1IsMostDeprived10IsLeastDeprived, 0) AS IMD2019Decile1IsMostDeprived10IsLeastDeprived, 
 	ISNULL(LTCGroup, 'None') AS LTCGroup,
+	CASE WHEN pl.DeathDate IS NOT NULL AND pl.DeathDate < '2019-12-23' THEN 'Y' ELSE 'N' END AS DeadAtStart,
+	CASE WHEN pl.DeathDate IS NOT NULL AND pl.DeathDate < '2021-07-01' THEN 'Y' ELSE 'N' END AS DeadByJuly2021,
 	COUNT(*) AS Number
 FROM #Patients p
 	LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 	LEFT OUTER JOIN #LTCGroups ltc ON ltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 	LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 	LEFT OUTER JOIN #PatientPracticeAndCCG ppc ON ppc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-GROUP BY CCG, IMD2019Decile1IsMostDeprived10IsLeastDeprived, LTCGroup
+	LEFT OUTER JOIN [RLS].vw_Patient_Link pl ON pl.PK_Patient_Link_ID = p.FK_Patient_Link_ID
+GROUP BY CCG, IMD2019Decile1IsMostDeprived10IsLeastDeprived, LTCGroup,
+	CASE WHEN pl.DeathDate IS NOT NULL AND pl.DeathDate < '2019-12-23' THEN 'Y' ELSE 'N' END,
+	CASE WHEN pl.DeathDate IS NOT NULL AND pl.DeathDate < '2021-07-01' THEN 'Y' ELSE 'N' END
 ORDER BY CCG, IMD2019Decile1IsMostDeprived10IsLeastDeprived, LTCGroup;
