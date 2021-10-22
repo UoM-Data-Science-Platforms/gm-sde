@@ -709,10 +709,10 @@ CREATE TABLE #PatientConditionsEvents (FK_Patient_Link_ID BIGINT, Condition VARC
 
 INSERT INTO #PatientConditionsEvents
 SELECT 
-  FK_Patient_Link_ID, Condition, EventDate 
+  FK_Patient_Link_ID, Condition + ' - Diagnosis', EventDate 
 FROM #LTCTemp;
 
 INSERT INTO #PatientConditionsEvents
 SELECT 
-  FK_Patient_Link_ID, Condition, EventDate 
+  FK_Patient_Link_ID, Condition + ' - Medications', EventDate 
 FROM #LTCTempMedications;
