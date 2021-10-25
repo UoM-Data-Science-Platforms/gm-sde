@@ -263,3 +263,9 @@ Attempted to find the location of information related to project no.1 (Grant), i
 
 18/10/21
 - investigating codes for antibiotics and corticosteroids, for RQ33
+
+19/10/21
+- testing RQ32 extraction scripts
+
+20/10/21
+- testing RQ32 extraction scripts
