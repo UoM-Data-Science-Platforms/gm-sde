@@ -113,7 +113,9 @@ VALUES ('ldl-cholesterol',1,'44PI.00','Calculated LDL cholesterol level'),('ldl-
 INSERT INTO #codesreadv2
 VALUES ('systolic-blood-pressure',1,'246o000','Non-invasive central systolic blood pressure'),('systolic-blood-pressure',1,'246o0','Non-invasive central systolic blood pressure'),('systolic-blood-pressure',1,'246n100','Baseline systolic blood pressure'),('systolic-blood-pressure',1,'246n1','Baseline systolic blood pressure'),('systolic-blood-pressure',1,'246l.00','Average systolic blood pressure'),('systolic-blood-pressure',1,'246l.','Average systolic blood pressure'),('systolic-blood-pressure',1,'246j.00','Systolic blood pressure centile'),('systolic-blood-pressure',1,'246j.','Systolic blood pressure centile'),('systolic-blood-pressure',1,'246e.00','Ambulatory systolic blood pressure'),('systolic-blood-pressure',1,'246e.','Ambulatory systolic blood pressure'),('systolic-blood-pressure',1,'246d.00','Average home systolic blood pressure'),('systolic-blood-pressure',1,'246d.','Average home systolic blood pressure'),('systolic-blood-pressure',1,'246b.00','Average night interval systolic blood pressure'),('systolic-blood-pressure',1,'246b.','Average night interval systolic blood pressure'),('systolic-blood-pressure',1,'246Y.00','Average day interval systolic blood pressure'),('systolic-blood-pressure',1,'246Y.','Average day interval systolic blood pressure'),('systolic-blood-pressure',1,'246W.00','Average 24 hour systolic blood pressure'),('systolic-blood-pressure',1,'246W.','Average 24 hour systolic blood pressure'),('systolic-blood-pressure',1,'246S.00','Lying systolic blood pressure'),('systolic-blood-pressure',1,'246S.','Lying systolic blood pressure'),('systolic-blood-pressure',1,'246Q.00','Sitting systolic blood pressure'),('systolic-blood-pressure',1,'246Q.','Sitting systolic blood pressure'),('systolic-blood-pressure',1,'246N.00','Standing systolic blood pressure'),('systolic-blood-pressure',1,'246N.','Standing systolic blood pressure'),('systolic-blood-pressure',1,'246K.00','Target systolic blood pressure'),('systolic-blood-pressure',1,'246K.','Target systolic blood pressure'),('systolic-blood-pressure',1,'2469.00','O/E - Systolic BP reading'),('systolic-blood-pressure',1,'2469.','O/E - Systolic BP reading');
 INSERT INTO #codesreadv2
-VALUES ('triglycerides',1,'44Q..00','Serum triglycerides'),('triglycerides',1,'44Q..','Serum triglycerides'),('triglycerides',1,'44Q4.00','Serum fasting triglyceride level'),('triglycerides',1,'44Q4.','Serum fasting triglyceride level'),('triglycerides',1,'44Q5.00','Serum random triglyceride level'),('triglycerides',1,'44Q5.','Serum random triglyceride level'),('triglycerides',1,'44QZ.00','Serum triglycerides NOS'),('triglycerides',1,'44QZ.','Serum triglycerides NOS')
+VALUES ('triglycerides',1,'44Q..00','Serum triglycerides'),('triglycerides',1,'44Q..','Serum triglycerides'),('triglycerides',1,'44Q4.00','Serum fasting triglyceride level'),('triglycerides',1,'44Q4.','Serum fasting triglyceride level'),('triglycerides',1,'44Q5.00','Serum random triglyceride level'),('triglycerides',1,'44Q5.','Serum random triglyceride level'),('triglycerides',1,'44QZ.00','Serum triglycerides NOS'),('triglycerides',1,'44QZ.','Serum triglycerides NOS');
+INSERT INTO #codesreadv2
+VALUES ('urinary-albumin-creatinine-ratio',1,'46TC.','Urine albumin:creatinine ratio'),('urinary-albumin-creatinine-ratio',1,'46TC.00','Urine albumin:creatinine ratio')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesreadv2;
@@ -169,7 +171,9 @@ VALUES ('ldl-cholesterol',1,'44P6.','Serum LDL cholesterol level'),('ldl-cholest
 INSERT INTO #codesctv3
 VALUES ('systolic-blood-pressure',1,'X779Q','Non-invasive systol art press'),('systolic-blood-pressure',1,'X779R','Invasive systol arterial press'),('systolic-blood-pressure',1,'Xac5L','Baseline systolic BP'),('systolic-blood-pressure',1,'Xaedo','Non-invasive central systlc BP'),('systolic-blood-pressure',1,'XaF4d','24h systolic blood pressure'),('systolic-blood-pressure',1,'XaF4D','Min systolic blood pressure'),('systolic-blood-pressure',1,'XaF4E','Max systolic blood pressure'),('systolic-blood-pressure',1,'XaF4F','Ave systolic blood pressure'),('systolic-blood-pressure',1,'XaF4G','Min day systol blood pressure'),('systolic-blood-pressure',1,'XaF4H','Min night syst blood pressure'),('systolic-blood-pressure',1,'XaF4I','Max night syst blood pressure'),('systolic-blood-pressure',1,'XaF4J','Max day syst blood pressure'),('systolic-blood-pressure',1,'XaF4K','Ave night syst blood pressure'),('systolic-blood-pressure',1,'XaF4L','Ave day systol blood pressure'),('systolic-blood-pressure',1,'XaF4M','Min 24h systol blood pressure'),('systolic-blood-pressure',1,'XaF4N','Max 24h systol blood pressure'),('systolic-blood-pressure',1,'XaF4O','Ave 24h systol blood pressure'),('systolic-blood-pressure',1,'XaIwj','Standing systolic BP'),('systolic-blood-pressure',1,'XaJ2E','Sitting systolic BP'),('systolic-blood-pressure',1,'XaJ2G','Lying systolic blood pressure'),('systolic-blood-pressure',1,'XaKFx','Average home systolic BP'),('systolic-blood-pressure',1,'XaKjF','Ambulatory systolic BP'),('systolic-blood-pressure',1,'XaXfX','Post exerc sys BP respons norm'),('systolic-blood-pressure',1,'XaXfY','Post exer sys BP respon abnorm'),('systolic-blood-pressure',1,'XaYg9','Systolic BP centile'),('systolic-blood-pressure',1,'XM02X','SAP - Systol arterial pressure'),('systolic-blood-pressure',1,'246o0','Non-invasive central systolic blood pressure'),('systolic-blood-pressure',1,'246n1','Baseline systolic blood pressure'),('systolic-blood-pressure',1,'246l.','Average systolic blood pressure'),('systolic-blood-pressure',1,'246j.','Systolic blood pressure centile'),('systolic-blood-pressure',1,'246e.','Ambulatory systolic blood pressure'),('systolic-blood-pressure',1,'246d.','Average home systolic blood pressure'),('systolic-blood-pressure',1,'246b.','Average night interval systolic blood pressure'),('systolic-blood-pressure',1,'246Y.','Average day interval systolic blood pressure'),('systolic-blood-pressure',1,'246W.','Average 24 hour systolic blood pressure'),('systolic-blood-pressure',1,'246S.','Lying systolic blood pressure'),('systolic-blood-pressure',1,'246Q.','Sitting systolic blood pressure'),('systolic-blood-pressure',1,'246N.','Standing systolic blood pressure'),('systolic-blood-pressure',1,'246K.','Target systolic blood pressure'),('systolic-blood-pressure',1,'2469.','O/E - Systolic BP reading');
 INSERT INTO #codesctv3
-VALUES ('triglycerides',1,'XE2q9','Serum triglycerides'),('triglycerides',1,'XE2q9','Serum triglyceride levels'),('triglycerides',1,'44Q4.','Serum fasting triglyceride level'),('triglycerides',1,'44QZ.','Serum triglycerides NOS')
+VALUES ('triglycerides',1,'XE2q9','Serum triglycerides'),('triglycerides',1,'XE2q9','Serum triglyceride levels'),('triglycerides',1,'44Q4.','Serum fasting triglyceride level'),('triglycerides',1,'44QZ.','Serum triglycerides NOS');
+INSERT INTO #codesctv3
+VALUES ('urinary-albumin-creatinine-ratio',1,'46TC.','Urine albumin:creatinine ratio'),('urinary-albumin-creatinine-ratio',1,'XE2n3','Urine albumin:creatinine ratio')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesctv3;
@@ -226,7 +230,13 @@ CREATE TABLE #codesemis (
 ) ON [PRIMARY];
 
 INSERT INTO #codesemis
-VALUES ('bmi',1,'EMISNQBM1','BMI centile')
+VALUES ('gestational-diabetes',1,'^ESCTGE801661','Gestational diabetes, delivered'),('gestational-diabetes',1,'^ESCTGE801662','Gestational diabetes mellitus complicating pregnancy');
+INSERT INTO #codesemis
+VALUES ('bmi',1,'EMISNQBM1','BMI centile');
+INSERT INTO #codesemis
+VALUES ('diastolic-blood-pressure',1,'EMISNQDI86','Diastolic blood pressure - left arm'),('diastolic-blood-pressure',1,'EMISNQDI87','Diastolic blood pressure - right arm');
+INSERT INTO #codesemis
+VALUES ('systolic-blood-pressure',1,'EMISNQSY8','Systolic blood pressure - left arm'),('systolic-blood-pressure',1,'EMISNQSY9','Systolic blood pressure - right arm')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesemis;
@@ -311,7 +321,7 @@ INNER JOIN (
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
 -- >>> Following code sets injected: hba1c v2/cholesterol v2/hdl-cholesterol v1/ldl-cholesterol v1/egfr v1/creatinine v1/triglycerides v1
--- >>> Following code sets injected: systolic-blood-pressure v1/diastolic-blood-pressure v1
+-- >>> Following code sets injected: systolic-blood-pressure v1/diastolic-blood-pressure v1/urinary-albumin-creatinine-ratio v1
 -- >>> Following code sets injected: smoking-status-current v1/smoking-status-currently-not v1/smoking-status-ex v1/smoking-status-ex-trivial v1/smoking-status-never v1/smoking-status-passive v1/smoking-status-trivial v1
 -- >>> Following code sets injected: bmi v2/height v1/weight v1
 
@@ -320,7 +330,7 @@ sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
 -- Set the start date
 DECLARE @StartDate datetime;
-SET @StartDate = '2019-07-19';
+SET @StartDate = '2019-07-09';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -543,7 +553,8 @@ LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE (SuppliedCode IN 
 	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-ii') AND [Version] = 1)) 
     AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-	AND (gp.EventDate) <= '2019-07-19'
+	AND (gp.EventDate) <= '2019-07-09'
+	AND YEAR('2019-07-09') - yob.YearOfBirth >= 18
 
 
 -- Define the main cohort to be matched
@@ -554,7 +565,9 @@ SELECT DISTINCT FK_Patient_Link_ID,
 		EthnicMainGroup
 INTO #MainCohort
 FROM #diabetes2_diagnoses
-WHERE FK_Patient_Link_ID IN (#####INTERVENTION_TABLE)
+--WHERE FK_Patient_Link_ID IN (#####INTERVENTION_TABLE)
+
+/*
 
 -- Define the population of potential matches for the cohort
 IF OBJECT_ID('tempdb..#PotentialMatches') IS NOT NULL DROP TABLE #PotentialMatches;
@@ -563,7 +576,6 @@ INTO #PotentialMatches
 FROM #diabetes2_diagnoses
 WHERE p.FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #MainCohort)
 
--- AND THE RELEVANT DATA (HBA1C AND CVD RISK FACTORS) ARE AVAILABLE  WITHIN 3-6 MONTHS OF INDEX DATE
 
 
 --┌────────────────────────────────────────────────────┐
@@ -745,6 +757,7 @@ SELECT PatientId AS FK_Patient_Link_ID INTO #PatientIds FROM #CohortStore
 UNION
 SELECT MatchingPatientId FROM #CohortStore;
 
+*/
 
 -- Get observation values for the cohort
 IF OBJECT_ID('tempdb..#observations') IS NOT NULL DROP TABLE #observations;
@@ -753,6 +766,7 @@ SELECT DISTINCT
 	CAST(EventDate AS DATE) AS EventDate,
 	Concept = CASE WHEN sn.Concept IS NOT NULL THEN sn.Concept ELSE co.Concept END,
 	[Description] =  CASE WHEN sn.[description] IS NOT NULL THEN sn.[description] ELSE co.[description] END,
+	[Version] =  CASE WHEN sn.[Version] IS NOT NULL THEN sn.[Version] ELSE co.[Version] END,
 	[Value] 
 INTO #observations
 FROM RLS.vw_GP_Events gp
@@ -766,9 +780,10 @@ WHERE (
 			(Concept IN ('ldl-cholesterol') 		 		AND [Version]=1) OR
 			(Concept IN ('egfr') 					 		AND [Version]=1) OR
 			(Concept IN ('creatinine') 				 		AND [Version]=1) OR
+			(Concept IN ('urinary-albumin-creatinine-ratio')AND [Version]=1) OR
 			(Concept IN ('systolic-blood-pressure')  		AND [Version]=1) OR
 			(Concept IN ('diastolic-blood-pressure') 		AND [Version]=1) OR
-			(Concept IN ('triglycerides') 			 		AND [Version]=2) OR
+			(Concept IN ('triglycerides') 			 		AND [Version]=1) OR
 			(Concept IN ('bmi') 					 		AND [Version]=2) OR
 			(Concept IN ('height') 					 		AND [Version]=1) OR
 			(Concept IN ('weight') 					 		AND [Version]=1) OR
@@ -776,6 +791,7 @@ WHERE (
 			(Concept IN ('smoking-status-currently-not') 	AND [Version]=1) OR
 			(Concept IN ('smoking-status-never') 	 		AND [Version]=1) OR
 			(Concept IN ('smoking-status-passive') 	 		AND [Version]=1) OR
+			(Concept IN ('smoking-status-ex-trivial') 	 	AND [Version]=1) OR
 			(Concept IN ('smoking-status-trivial') 	 		AND [Version]=1) 
 ) OR
   gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE 
@@ -785,9 +801,10 @@ WHERE (
 			(Concept IN ('ldl-cholesterol') 		 		AND [Version]=1) OR
 			(Concept IN ('egfr') 					 		AND [Version]=1) OR
 			(Concept IN ('creatinine') 				 		AND [Version]=1) OR
+			(Concept IN ('urinary-albumin-creatinine-ratio')AND [Version]=1) OR
 			(Concept IN ('systolic-blood-pressure')  		AND [Version]=1) OR
 			(Concept IN ('diastolic-blood-pressure') 		AND [Version]=1) OR
-			(Concept IN ('triglycerides') 			 		AND [Version]=2) OR
+			(Concept IN ('triglycerides') 			 		AND [Version]=1) OR
 			(Concept IN ('bmi') 					 		AND [Version]=2) OR
 			(Concept IN ('height') 					 		AND [Version]=1) OR
 			(Concept IN ('weight') 					 		AND [Version]=1) OR
@@ -795,16 +812,44 @@ WHERE (
 			(Concept IN ('smoking-status-currently-not') 	AND [Version]=1) OR
 			(Concept IN ('smoking-status-never') 	 		AND [Version]=1) OR
 			(Concept IN ('smoking-status-passive') 	 		AND [Version]=1) OR
+			(Concept IN ('smoking-status-ex-trivial') 	 	AND [Version]=1) OR
 			(Concept IN ('smoking-status-trivial') 	 		AND [Version]=1) 
 ) )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #MainCohort)
 AND EventDate BETWEEN '2016-04-01' AND '2022-03-31'
 
-select  * 
-from #observations 
-where ([Value] IS NOT NULL AND [Value] != '0') OR 
-	(Concept IN ('smoking-status-current', 'smoking-status-currently-not', 'smoking-status-never', 'smoking-status-passive', 'smoking-status-trivial')) 
---where FK_Patient_Link_ID = '3926057756066093444' order by EventDate, Concept
+-- SOME CODES EXIST IN SEVERAL CODE SETS, SO EXCLUDE THEM FROM THE SETS/VERSIONS THAT WE DON'T WANT
+-- e.g. serum HDL cholesterol appears in cholesterol v1 code set, which we don't want, but we do want the code as part of the hdl-cholesterol code set.
+
+IF OBJECT_ID('tempdb..#observations') IS NOT NULL DROP TABLE #observations;
+select 
+	FK_Patient_Link_ID, Concept, EventDate, [Value]
+into #all_observations
+from #observations
+except
+select FK_Patient_Link_ID, EventDate, Concept, [Value] from #observations 
+where 
+	(Concept = 'cholesterol' and [Version] = 1) OR
+	(Concept = 'hba1c' and [Version] = 1) OR
+	(Concept = 'bmi' and [Version] = 1) OR
+	([Value] IS NULL AND Concept NOT IN ('smoking-status-current', 'smoking-status-currently-not', 'smoking-status-never', 'smoking-status-passive', 'smoking-status-ex-trivial', 'smoking-status-trivial') )
 
 
-
+SELECT	 
+	PatientId = m.FK_Patient_Link_ID
+	,NULL AS MainCohortMatchedPatientId
+	TestName = o.Concept, 
+	TestDate = o.EventDate,
+	TestResult = o.[Value]
+FROM #MainCohort m
+LEFT JOIN #all_observations o ON o.FK_Patient_Link_ID = m.FK_Patient_Link_ID 
+/* UNION
+-- patients in matched cohort
+SELECT	 
+	PatientId = m.FK_Patient_Link_ID
+	,m.PatientWhoIsMatched AS MainCohortMatchedPatientId
+	TestName = o.Concept, 
+	TestDate = o.EventDate,
+	TestResult = o.[Value]
+FROM #MatchedCohort m
+LEFT JOIN #all_observations o ON o.FK_Patient_Link_ID = m.FK_Patient_Link_ID /*

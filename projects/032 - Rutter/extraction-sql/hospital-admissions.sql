@@ -14,7 +14,7 @@
 
 -- Set the start date
 DECLARE @StartDate datetime;
-SET @StartDate = '2019-07-19';
+SET @StartDate = '2019-07-09';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -123,7 +123,8 @@ CREATE TABLE #codesemis (
 	[description] [varchar](255) NULL
 ) ON [PRIMARY];
 
-
+INSERT INTO #codesemis
+VALUES ('gestational-diabetes',1,'^ESCTGE801661','Gestational diabetes, delivered'),('gestational-diabetes',1,'^ESCTGE801662','Gestational diabetes mellitus complicating pregnancy')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesemis;
@@ -386,7 +387,7 @@ SELECT DISTINCT gp.FK_Patient_Link_ID
 INTO #exclusions
 FROM [RLS].[vw_GP_Events] gp
 LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
-WHERE ((SuppliedCode IN 
+WHERE (SuppliedCode IN 
 	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN 
 		('polycystic-ovarian-syndrome', 'gestational-diabetes') AND [Version] = 1
 			AND EventDate BETWEEN '2018-07-09' AND '2022-03-31')) 
@@ -410,22 +411,24 @@ FROM [RLS].[vw_GP_Events] gp
 LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-WHERE ((SuppliedCode IN 
+WHERE (SuppliedCode IN 
 	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-ii') AND [Version] = 1)) 
     AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-	AND (gp.EventDate) <= '2019-07-19'
+	AND (gp.EventDate) <= '2019-07-09'
+	AND DATEDIFF(YEAR, yob.YearOfBirth, '2019-07-09') >= 18
 
 
 -- Define the main cohort to be matched
 IF OBJECT_ID('tempdb..#MainCohort') IS NOT NULL DROP TABLE #MainCohort;
 SELECT DISTINCT FK_Patient_Link_ID, 
-		YearOfBirth, -- NEED TO ENSURE OVER 18S ONLY AT SOME POINT
+		YearOfBirth,
 		Sex,
-		EthnicMainGroup,
-		IMD2019Decile1IsMostDeprived10IsLeastDeprived
+		EthnicMainGroup
 INTO #MainCohort
 FROM #diabetes2_diagnoses
-WHERE FK_Patient_Link_ID IN (#####INTERVENTION_TABLE)
+--WHERE FK_Patient_Link_ID IN (#####INTERVENTION_TABLE)
+
+/*
 
 -- Define the population of potential matches for the cohort
 IF OBJECT_ID('tempdb..#PotentialMatches') IS NOT NULL DROP TABLE #PotentialMatches;
@@ -615,6 +618,7 @@ SELECT PatientId AS FK_Patient_Link_ID INTO #PatientIds FROM #CohortStore
 UNION
 SELECT MatchingPatientId FROM #CohortStore;
 
+*/
 
 --┌─────────────────────────────────────────┐
 --│ Secondary admissions and length of stay │
@@ -745,7 +749,7 @@ WHERE (
 	(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
 	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
 )
-AND EventDate > '2019-07-19'
+AND EventDate > '2019-07-01'
 AND EventDate <= GETDATE();
 
 IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
@@ -835,20 +839,6 @@ INTO #AdmissionTypes FROM (
 -- 00:00:16		00:00:45
 
 
------ create anonymised identifier for each hospital
-
-IF OBJECT_ID('tempdb..#hospitals') IS NOT NULL DROP TABLE #hospitals;
-SELECT DISTINCT AcuteProvider
-INTO #hospitals
-FROM #LengthOfStay
-
-IF OBJECT_ID('tempdb..#RandomiseHospital') IS NOT NULL DROP TABLE #RandomiseHospital;
-SELECT AcuteProvider
-	, HospitalID = ROW_NUMBER() OVER (order by newid())
-INTO #RandomiseHospital
-FROM #hospitals
-
-
 --bring together for final output
 --patients in main cohort
 SELECT 
@@ -856,26 +846,22 @@ SELECT
 	NULL AS MainCohortMatchedPatientId,
 	l.AdmissionDate,
 	l.DischargeDate,
-	ty.AdmissionType,
-    c.CovidHealthcareUtilisation
-	rh.HospitalID
+	ty.AdmissionType
+    --c.CovidHealthcareUtilisation
 FROM #MainCohort m 
 LEFT JOIN #LengthOfStay l ON m.FK_Patient_Link_ID = l.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND c.AdmissionDate = l.AdmissionDate AND c.AcuteProvider = l.AcuteProvider
-LEFT OUTER JOIN #RandomiseHospital rh ON rh.AcuteProvider = l.AcuteProvider
 LEFT OUTER JOIN #AdmissionTypes ty ON ty.FK_Patient_Link_ID = m.FK_Patient_Link_ID AND ty.AdmissionDate = l.AdmissionDate
 --patients in matched cohort
-UNION
-SELECT 
-	PatientId = m.FK_Patient_Link_ID,
-	PatientWhoIsMatched AS MainCohortMatchedPatientId,
-	l.AdmissionDate,
-	DischargeDate,
-	ty.AdmissionType,
-    c.CovidHealthcareUtilisation
-	rh.HospitalID
-FROM #MatchedCohort m 
-LEFT JOIN #LengthOfStay l ON m.FK_Patient_Link_ID = l.FK_Patient_Link_ID
-LEFT OUTER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND c.AdmissionDate = l.AdmissionDate AND c.AcuteProvider = l.AcuteProvider
-LEFT OUTER JOIN #RandomiseHospital rh ON rh.AcuteProvider = l.AcuteProvider
-LEFT OUTER JOIN #AdmissionTypes ty ON ty.FK_Patient_Link_ID = m.FK_Patient_Link_ID AND ty.AdmissionDate = l.AdmissionDate
+--UNION
+--SELECT 
+--	PatientId = m.FK_Patient_Link_ID,
+--	PatientWhoIsMatched AS MainCohortMatchedPatientId,
+--	l.AdmissionDate,
+--	DischargeDate,
+--	ty.AdmissionType,
+--    c.CovidHealthcareUtilisation
+--FROM #MatchedCohort m 
+--LEFT JOIN #LengthOfStay l ON m.FK_Patient_Link_ID = l.FK_Patient_Link_ID
+--LEFT OUTER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND c.AdmissionDate = l.AdmissionDate AND c.AcuteProvider = l.AcuteProvider
+--LEFT OUTER JOIN #AdmissionTypes ty ON ty.FK_Patient_Link_ID = m.FK_Patient_Link_ID AND ty.AdmissionDate = l.AdmissionDate

@@ -31,7 +31,7 @@
 
 
 --> CODESET hba1c:2 cholesterol:2 hdl-cholesterol:1 ldl-cholesterol:1 egfr:1 creatinine:1 triglycerides:1
---> CODESET systolic-blood-pressure:1 diastolic-blood-pressure:1
+--> CODESET systolic-blood-pressure:1 diastolic-blood-pressure:1 urinary-albumin-creatinine-ratio:1
 --> CODESET smoking-status-current:1 smoking-status-currently-not:1 smoking-status-ex:1 smoking-status-ex-trivial:1 smoking-status-never:1 smoking-status-passive:1 smoking-status-trivial:1
 --> CODESET bmi:2 height:1 weight:1
 
@@ -40,7 +40,7 @@
 
 -- Set the start date
 DECLARE @StartDate datetime;
-SET @StartDate = '2019-07-01';
+SET @StartDate = '2019-07-09';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -75,7 +75,7 @@ LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
 WHERE SuppliedCode IN 
 	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN 
 		('polycystic-ovarian-syndrome', 'gestational-diabetes') AND [Version] = 1)
-			AND EventDate BETWEEN '2018-07-01' AND '2022-03-31'
+			AND EventDate BETWEEN '2018-07-09' AND '2022-03-31'
 
 ---- CREATE TABLE OF ALL PATIENTS THAT HAVE ANY LIFETIME DIAGNOSES OF T2D OF 2019-07-19
 
@@ -97,7 +97,8 @@ LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE (SuppliedCode IN 
 	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-ii') AND [Version] = 1)) 
     AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-	AND (gp.EventDate) <= '2019-07-01'
+	AND (gp.EventDate) <= '2019-07-09'
+	AND YEAR('2019-07-09') - yob.YearOfBirth >= 18
 
 
 -- Define the main cohort to be matched
@@ -108,7 +109,7 @@ SELECT DISTINCT FK_Patient_Link_ID,
 		EthnicMainGroup
 INTO #MainCohort
 FROM #diabetes2_diagnoses
-WHERE FK_Patient_Link_ID IN (#####INTERVENTION_TABLE)
+--WHERE FK_Patient_Link_ID IN (#####INTERVENTION_TABLE)
 
 /*
 
@@ -166,6 +167,7 @@ WHERE (
 			(Concept IN ('ldl-cholesterol') 		 		AND [Version]=1) OR
 			(Concept IN ('egfr') 					 		AND [Version]=1) OR
 			(Concept IN ('creatinine') 				 		AND [Version]=1) OR
+			(Concept IN ('urinary-albumin-creatinine-ratio')AND [Version]=1) OR
 			(Concept IN ('systolic-blood-pressure')  		AND [Version]=1) OR
 			(Concept IN ('diastolic-blood-pressure') 		AND [Version]=1) OR
 			(Concept IN ('triglycerides') 			 		AND [Version]=1) OR
@@ -186,6 +188,7 @@ WHERE (
 			(Concept IN ('ldl-cholesterol') 		 		AND [Version]=1) OR
 			(Concept IN ('egfr') 					 		AND [Version]=1) OR
 			(Concept IN ('creatinine') 				 		AND [Version]=1) OR
+			(Concept IN ('urinary-albumin-creatinine-ratio')AND [Version]=1) OR
 			(Concept IN ('systolic-blood-pressure')  		AND [Version]=1) OR
 			(Concept IN ('diastolic-blood-pressure') 		AND [Version]=1) OR
 			(Concept IN ('triglycerides') 			 		AND [Version]=1) OR
@@ -205,11 +208,36 @@ AND EventDate BETWEEN '2016-04-01' AND '2022-03-31'
 -- SOME CODES EXIST IN SEVERAL CODE SETS, SO EXCLUDE THEM FROM THE SETS/VERSIONS THAT WE DON'T WANT
 -- e.g. serum HDL cholesterol appears in cholesterol v1 code set, which we don't want, but we do want the code as part of the hdl-cholesterol code set.
 
-select FK_Patient_Link_ID, EventDate, Concept, [Value] from #observations
+
+IF OBJECT_ID('tempdb..#all_observations') IS NOT NULL DROP TABLE #all_observations;
+select 
+	FK_Patient_Link_ID, EventDate, Concept, [Value]
+into #all_observations
+from #observations
 except
-select * from #observations 
+select FK_Patient_Link_ID, EventDate, Concept, [Value] from #observations 
 where 
 	(Concept = 'cholesterol' and [Version] = 1) OR
 	(Concept = 'hba1c' and [Version] = 1) OR
 	(Concept = 'bmi' and [Version] = 1) OR
 	([Value] IS NULL AND Concept NOT IN ('smoking-status-current', 'smoking-status-currently-not', 'smoking-status-never', 'smoking-status-passive', 'smoking-status-ex-trivial', 'smoking-status-trivial') )
+	
+
+SELECT	 
+	PatientId = m.FK_Patient_Link_ID
+	,NULL AS MainCohortMatchedPatientId
+	,TestName = o.Concept
+	,TestDate = o.EventDate
+	,TestResult = o.[Value]
+FROM #MainCohort m
+LEFT JOIN #all_observations o ON o.FK_Patient_Link_ID = m.FK_Patient_Link_ID 
+/* UNION
+-- patients in matched cohort
+SELECT	 
+	PatientId = m.FK_Patient_Link_ID
+	,m.PatientWhoIsMatched AS MainCohortMatchedPatientId
+	TestName = o.Concept, 
+	TestDate = o.EventDate,
+	TestResult = o.[Value]
+FROM #MatchedCohort m
+LEFT JOIN #all_observations o ON o.FK_Patient_Link_ID = m.FK_Patient_Link_ID */

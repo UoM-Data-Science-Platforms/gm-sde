@@ -183,6 +183,8 @@ Name,Version,Terminology,Code,ExcelCode,Description
 "polycystic-ovarian-syndrome",1,"readv2",C164.,C164.,"Polycystic ovaries"
 "polycystic-ovarian-syndrome",1,"readv2",C165.,C165.,"Polycystic ovarian syndrome"
 "gestational-diabetes",1,"ctv3",L1808,L1808,"Gestational diabetes"
+"gestational-diabetes",1,"emis",^ESCTGE801661,^ESCTGE801661,"Gestational diabetes, delivered"
+"gestational-diabetes",1,"emis",^ESCTGE801662,^ESCTGE801662,"Gestational diabetes mellitus complicating pregnancy"
 "gestational-diabetes",1,"readv2",L1808,L1808,"Gestational diabetes mellitus"
 "gestational-diabetes",1,"readv2",L1809,L1809,"Gestational diabetes mellitus"
 "hba1c",2,"ctv3",XaERp,XaERp,"HbA1c level (DCCT aligned)"
@@ -306,6 +308,8 @@ Name,Version,Terminology,Code,ExcelCode,Description
 "systolic-blood-pressure",1,"ctv3",246N.,246N.,"Standing systolic blood pressure"
 "systolic-blood-pressure",1,"ctv3",246K.,246K.,"Target systolic blood pressure"
 "systolic-blood-pressure",1,"ctv3",2469.,"=""2469.""","O/E - Systolic BP reading"
+"systolic-blood-pressure",1,"emis",EMISNQSY8,EMISNQSY8,"Systolic blood pressure - left arm"
+"systolic-blood-pressure",1,"emis",EMISNQSY9,EMISNQSY9,"Systolic blood pressure - right arm"
 "systolic-blood-pressure",1,"readv2",246o000,246o000,"Non-invasive central systolic blood pressure"
 "systolic-blood-pressure",1,"readv2",246n100,246n100,"Baseline systolic blood pressure"
 "systolic-blood-pressure",1,"readv2",246l.00,246l.00,"Average systolic blood pressure"
@@ -392,6 +396,8 @@ Name,Version,Terminology,Code,ExcelCode,Description
 "diastolic-blood-pressure",1,"ctv3",246P.,246P.,"Standing diastolic blood pressure"
 "diastolic-blood-pressure",1,"ctv3",246L.,246L.,"Target diastolic blood pressure"
 "diastolic-blood-pressure",1,"ctv3",246A.,246A.,"O/E - Diastolic BP reading"
+"diastolic-blood-pressure",1,"emis",EMISNQDI86,EMISNQDI86,"Diastolic blood pressure - left arm"
+"diastolic-blood-pressure",1,"emis",EMISNQDI87,EMISNQDI87,"Diastolic blood pressure - right arm"
 "diastolic-blood-pressure",1,"readv2",246o100,246o100,"Non-invasive central diastolic blood pressure"
 "diastolic-blood-pressure",1,"readv2",246n000,246n000,"Baseline diastolic blood pressure"
 "diastolic-blood-pressure",1,"readv2",246m.00,246m.00,"Average diastolic blood pressure"
@@ -437,6 +443,9 @@ Name,Version,Terminology,Code,ExcelCode,Description
 "diastolic-blood-pressure",1,"snomed",49844009,"=""49844009""","Abnormal diastolic arterial pressure (finding)"
 "diastolic-blood-pressure",1,"snomed",53813002,"=""53813002""","Normal diastolic arterial pressure (finding)"
 "diastolic-blood-pressure",1,"snomed",163031004,"=""163031004""","On examination - Diastolic BP reading"
+"urinary-albumin-creatinine-ratio",1,"ctv3",46TC.,46TC.,"Urine albumin:creatinine ratio"
+"urinary-albumin-creatinine-ratio",1,"ctv3",XE2n3,XE2n3,"Urine albumin:creatinine ratio"
+"urinary-albumin-creatinine-ratio",1,"readv2",46TC.,46TC.,"Urine albumin:creatinine ratio"
 "smoking-status-current",1,"ctv3",1373.,"=""1373.""","Lt cigaret smok, 1-9 cigs/day"
 "smoking-status-current",1,"ctv3",1374.,"=""1374.""","Mod cigaret smok, 10-19 cigs/d"
 "smoking-status-current",1,"ctv3",1375.,"=""1375.""","Hvy cigaret smok, 20-39 cigs/d"

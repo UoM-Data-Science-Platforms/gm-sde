@@ -366,6 +366,7 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>triglycerides v1</li>
 <li>systolic-blood-pressure v1</li>
 <li>diastolic-blood-pressure v1</li>
+<li>urinary-albumin-creatinine-ratio v1</li>
 <li>smoking-status-current v1</li>
 <li>smoking-status-currently-not v1</li>
 <li>smoking-status-ex v1</li>
@@ -418,6 +419,84 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </tbody>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/diabetes-type-ii/1">https://github.com/rw251/.../conditions/diabetes-type-ii/1</a></p>
+<h3>Polycystic Ovarian Syndrome</h3>
+<p>Any diagnosis of polycystic ovarian syndrome.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>5.06% - 5.20%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-10-13</td>
+<td>EMIS</td>
+<td>2629848</td>
+<td style="text-align:right">37029 (1.41%)</td>
+<td style="text-align:right">37029 (1.41%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>TPP</td>
+<td>211812</td>
+<td style="text-align:right">2348 (1.11%)</td>
+<td style="text-align:right">2348 (1.11%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>Vision</td>
+<td>338205</td>
+<td style="text-align:right">3829 (1.13%)</td>
+<td style="text-align:right">3829 (1.13%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/polycystic-ovarian-syndrome/1">https://github.com/rw251/.../conditions/polycystic-ovarian-syndrome/1</a></p>
+<h3>Gestational Diabetes</h3>
+<p>Any diagnosis of gestational diabetes.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>5.06% - 5.20%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-10-13</td>
+<td>EMIS</td>
+<td>2629848</td>
+<td style="text-align:right">13962 (0.53%)</td>
+<td style="text-align:right">13940 (0.53%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>TPP</td>
+<td>211812</td>
+<td style="text-align:right">1158 (0.55%)</td>
+<td style="text-align:right">1156 (0.55%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>Vision</td>
+<td>338205</td>
+<td style="text-align:right">1402 (0.41%)</td>
+<td style="text-align:right">290 (0.09%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/gestational-diabetes/1">https://github.com/rw251/.../conditions/gestational-diabetes/1</a></p>
 <h3>HbA1c</h3>
 <p>A patient's HbA1c as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>1003671000000109 - Haemoglobin A1c level</code>). It does not include codes that indicate a patient's BMI (<code>165679005 - Haemoglobin A1c (HbA1c) less than 7%</code>) without giving the actual value.</p>
 <p><strong>NB: This code set is intended to indicate a patient's HbA1c. If you need to know whether a HbA1c was recorded then please use v1 of the code set.</strong></p>
@@ -502,11 +581,79 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p>A patient's HDL cholesterol as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>44P5.00 - Serum HDL cholesterol level</code>).</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>43.66% - 48.97%</code> suggests that this code set is likely well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-10-13</td>
+<td>EMIS</td>
+<td>26929848</td>
+<td style="text-align:right">1168326 (44.42%)</td>
+<td style="text-align:right">1168326 (44.42%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>TPP</td>
+<td>211812</td>
+<td style="text-align:right">100823 (47.60%)</td>
+<td style="text-align:right">100823 (47.60%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>Vision</td>
+<td>338205</td>
+<td style="text-align:right">165935 (49.06%)</td>
+<td style="text-align:right">165935 (49.06%)</td>
+</tr>
+</tbody>
+</table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/hdl-cholesterol/1">https://github.com/rw251/.../tests/hdl-cholesterol/1</a></p>
 <h3>LDL Cholesterol</h3>
 <p>A patient's LDL cholesterol as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>44P6.00 - Serum LDL cholesterol level</code>).</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>41.22% - 45.54%</code> suggests that this code set is likely well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-10-13</td>
+<td>EMIS</td>
+<td>26929848</td>
+<td style="text-align:right">1102872 (41.94%)</td>
+<td style="text-align:right">1102872 (41.94%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>TPP</td>
+<td>211812</td>
+<td style="text-align:right">91673 (43.28%)</td>
+<td style="text-align:right">91673 (43.28%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>Vision</td>
+<td>338205</td>
+<td style="text-align:right">154055 (45.55%)</td>
+<td style="text-align:right">154055 (45.55%)</td>
+</tr>
+</tbody>
+</table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/ldl-cholesterol/1">https://github.com/rw251/.../tests/ldl-cholesterol/1</a></p>
 <h3>Glomerular filtration rate (GFR)</h3>
 <p>Any code that gives the value of a patient's GFR (or estimated GFR - EGFR).</p>
@@ -565,47 +712,213 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </thead>
 <tbody>
 <tr>
-<td>2021-05-11</td>
+<td>2021-10-13</td>
 <td>EMIS</td>
-<td>2606497</td>
-<td style="text-align:right">137971 (5.29%)</td>
-<td style="text-align:right">137971 (5.29%)</td>
+<td>26929848</td>
+<td style="text-align:right">1518402 (57.74%)</td>
+<td style="text-align:right">1518402 (57.74%)</td>
 </tr>
 <tr>
-<td>2021-05-11</td>
+<td>2021-10-13</td>
 <td>TPP</td>
-<td>210810</td>
-<td style="text-align:right">10359 (4.91%)</td>
-<td style="text-align:right">10359 (4.91%)</td>
+<td>211812</td>
+<td style="text-align:right">125622 (59.31%)</td>
+<td style="text-align:right">125622 (59.31%)</td>
 </tr>
 <tr>
-<td>2021-05-11</td>
+<td>2021-10-13</td>
 <td>Vision</td>
-<td>334784</td>
-<td style="text-align:right">20903 (6.24%)</td>
-<td style="text-align:right">20903 (6.24%)</td>
+<td>338205</td>
+<td style="text-align:right">207191 (61.26%)</td>
+<td style="text-align:right">207191 (61.26%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/creatinine/1">https://github.com/rw251/.../tests/creatinine/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
 </tr>
 </tbody>
 </table>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/creatinine/1">https://github.com/rw251/.../tests/creatinine/1</a></p>
 <h3>Triglyceride (level)</h3>
 <p>A patient's triglyceride level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>44Q..00 - Serum triglycerides</code>). It does not include codes that indicate a patient's creatinine (`44Q3.00 - Serum triglycerides raised') without giving the actual value.</p>
 <p>Codes taken from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>4.91% - 6.24%</code> suggests that this code set is likely well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-10-13</td>
+<td>EMIS</td>
+<td>26929848</td>
+<td style="text-align:right">1135572 (43.18%)</td>
+<td style="text-align:right">1135572 (43.18%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>TPP</td>
+<td>211812</td>
+<td style="text-align:right">99188 (46.82%)</td>
+<td style="text-align:right">99188 (46.82%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>Vision</td>
+<td>338205</td>
+<td style="text-align:right">163502 (48.34%)</td>
+<td style="text-align:right">163502 (48.34%)</td>
+</tr>
+</tbody>
+</table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/triglycerides/1">https://github.com/rw251/.../tests/triglycerides/1</a></p>
 <h3>Systolic Blood pressure</h3>
 <p>Any indication that systolic blood pressure has been recorded for a patient. This code set only includes codes that are accompanied by a value (<code>2469. - O/E - Systolic BP reading</code>).</p>
 <p>Blood pressure codes retrieved from <a href="https://getset.ga">GetSet</a> and metadata available in this directory.</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>64.46% - 67.00%</code> suggests that this code set is likely well defined.</p>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/systolic-blood-pressure/1">https://github.com/rw251/.../tests/systolic-blood-pressure/1</a></p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-10-13</td>
+<td>EMIS</td>
+<td>26929848</td>
+<td style="text-align:right">1741342 (66.21%)</td>
+<td style="text-align:right">1741342 (66.21%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>TPP</td>
+<td>211812</td>
+<td style="text-align:right">137571 (64.95%)</td>
+<td style="text-align:right">137571 (64.95%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>Vision</td>
+<td>338205</td>
+<td style="text-align:right">208971 (61.79%)</td>
+<td style="text-align:right">208971 (61.79%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/systolic-blood-pressure/1">https://github.com/rw251/.../tests/systolic-blood-pressure/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
 <h3>Diastolic Blood pressure</h3>
 <p>Any diastolic blood pressure measurements, with values, that have been recorded for a patient.</p>
 <p>Blood pressure codes retrieved from <a href="https://getset.ga">GetSet</a> and metadata available in this directory.</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>64.46% - 67.00%</code> suggests that this code set is likely well defined.</p>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/diastolic-blood-pressure/1">https://github.com/rw251/.../tests/diastolic-blood-pressure/1</a></p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-10-13</td>
+<td>EMIS</td>
+<td>26929848</td>
+<td style="text-align:right">1741082 (66.21%)</td>
+<td style="text-align:right">1741077 (66.21%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>TPP</td>
+<td>211812</td>
+<td style="text-align:right">137567 (64.95%)</td>
+<td style="text-align:right">137567 (64.95%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>Vision</td>
+<td>338205</td>
+<td style="text-align:right">208958 (61.79%)</td>
+<td style="text-align:right">208958 (61.79%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/diastolic-blood-pressure/1">https://github.com/rw251/.../tests/diastolic-blood-pressure/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<h3>Urinary Albmin Creatinine Ratio</h3>
+<p>A patient's urinary albumin creatinine ratio as recorded via clinical code and value. This code set only includes codes that are accompanied by a value. It does not include codes that indicate a patient's ratio without giving the actual value.</p>
+<h4>Prevalence log</h4>
+<p>**TABLE BELOW NEEDS UPDATING</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>4.91% - 6.24%</code> suggests that this code set is likely well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-10-19</td>
+<td>EMIS</td>
+<td>26929848</td>
+<td style="text-align:right">271247 (10.31%)</td>
+<td style="text-align:right">271247 (10.31%)</td>
+</tr>
+<tr>
+<td>2021-10-19</td>
+<td>TPP</td>
+<td>211812</td>
+<td style="text-align:right">29498 (13.93%)</td>
+<td style="text-align:right">29498 (13.93%)</td>
+</tr>
+<tr>
+<td>2021-10-19</td>
+<td>Vision</td>
+<td>338205</td>
+<td style="text-align:right">32094 (9.49%)</td>
+<td style="text-align:right">32094 (9.49%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/urinary-albumin-creatinine-ratio/1">https://github.com/rw251/.../tests/urinary-albumin-creatinine-ratio/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
 <h3>Smoking status current</h3>
 <p>Any code suggestive that a patient is a current smoker.</p>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-current/1">https://github.com/rw251/.../patient/smoking-status-current/1</a></p>
@@ -688,13 +1001,93 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p>Codes taken from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>63.96% - 79.69%</code> suggests that this code set is perhaps not well defined. However, as EMIS (80% of practices) and TPP (10% of practices) are close, it could simply be down to Vision automatically recording BMIs and therefore increasing the prevalence there.</p>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/height/1">https://github.com/rw251/.../patient/height/1</a></p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-10-13</td>
+<td>EMIS</td>
+<td>26929848</td>
+<td style="text-align:right">1885015 (71.68%)</td>
+<td style="text-align:right">1884110 (71.64%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>TPP</td>
+<td>211812</td>
+<td style="text-align:right">140013 (66.10%)</td>
+<td style="text-align:right">140013 (66.10%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>Vision</td>
+<td>338205</td>
+<td style="text-align:right">245440 (72.59%)</td>
+<td style="text-align:right">245440 (72.57%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/height/1">https://github.com/rw251/.../patient/height/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
 <h3>Weight</h3>
 <p>A patient's weight as recorded via clinical code and value. This code set only includes codes that are accompanied by a value.</p>
 <p>Codes taken from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf</p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>63.96% - 79.69%</code> suggests that this code set is perhaps not well defined. However, as EMIS (80% of practices) and TPP (10% of practices) are close, it could simply be down to Vision automatically recording BMIs and therefore increasing the prevalence there.</p>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/weight/1">https://github.com/rw251/.../patient/weight/1</a></p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-10-13</td>
+<td>EMIS</td>
+<td>26929848</td>
+<td style="text-align:right">2054449 (78.12%)</td>
+<td style="text-align:right">2053717 (78.09%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>TPP</td>
+<td>211812</td>
+<td style="text-align:right">154813 (73.09%)</td>
+<td style="text-align:right">154813 (73.09%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>Vision</td>
+<td>338205</td>
+<td style="text-align:right">269496 (79.68%)</td>
+<td style="text-align:right">269496 (79.68%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/weight/1">https://github.com/rw251/.../patient/weight/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
 <h1>Clinical code sets</h1>
 <p>All code sets required for this analysis are listed here. Individual lists for each concept can also be found by using the links above.</p>
 <table>
@@ -2809,6 +3202,24 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </tr>
 <tr>
 <td>gestational-diabetes v1</td>
+<td>emis</td>
+<td>^ESCTGE801661</td>
+<td>Gestational diabetes, delivered</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>gestational-diabetes v1</td>
+<td>emis</td>
+<td>^ESCTGE801662</td>
+<td>Gestational diabetes mellitus complicating pregnancy</td>
+</tr>
+<tr>
+<td>gestational-diabetes v1</td>
 <td>readv2</td>
 <td>L1808</td>
 <td>Gestational diabetes mellitus</td>
@@ -4165,6 +4576,24 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </tr>
 <tr>
 <td>systolic-blood-pressure v1</td>
+<td>emis</td>
+<td>EMISNQSY8</td>
+<td>Systolic blood pressure - left arm</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>emis</td>
+<td>EMISNQSY9</td>
+<td>Systolic blood pressure - right arm</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
 <td>readv2</td>
 <td>246o000</td>
 <td>Non-invasive central systolic blood pressure</td>
@@ -5191,6 +5620,24 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </tr>
 <tr>
 <td>diastolic-blood-pressure v1</td>
+<td>emis</td>
+<td>EMISNQDI86</td>
+<td>Diastolic blood pressure - left arm</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>emis</td>
+<td>EMISNQDI87</td>
+<td>Diastolic blood pressure - right arm</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
 <td>readv2</td>
 <td>246o100</td>
 <td>Non-invasive central diastolic blood pressure</td>
@@ -5728,6 +6175,24 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td></td>
 <td></td>
 <td></td>
+</tr>
+<tr>
+<td>urinary-albumin-creatinine-ratio v1</td>
+<td>ctv3</td>
+<td>46TC.</td>
+<td>Urine albumin:creatinine ratio</td>
+</tr>
+<tr>
+<td>urinary-albumin-creatinine-ratio v1</td>
+<td>ctv3</td>
+<td>XE2n3</td>
+<td>Urine albumin:creatinine ratio</td>
+</tr>
+<tr>
+<td>urinary-albumin-creatinine-ratio v1</td>
+<td>readv2</td>
+<td>46TC.</td>
+<td>Urine albumin:creatinine ratio</td>
 </tr>
 <tr>
 <td>smoking-status-current v1</td>

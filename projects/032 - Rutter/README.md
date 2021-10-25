@@ -335,6 +335,7 @@ This project required the following clinical code sets:
 - triglycerides v1
 - systolic-blood-pressure v1
 - diastolic-blood-pressure v1
+- urinary-albumin-creatinine-ratio v1
 - smoking-status-current v1
 - smoking-status-currently-not v1
 - smoking-status-ex v1
@@ -364,6 +365,36 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2021-05-07 | Vision          | 334632     |    16936 (5.06%) |     16933 (5.06%) |
 
 LINK: [https://github.com/rw251/.../conditions/diabetes-type-ii/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/diabetes-type-ii/1)
+
+### Polycystic Ovarian Syndrome 
+
+Any diagnosis of polycystic ovarian syndrome.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `5.06% - 5.20%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 2629848    |    37029 (1.41%) |     37029 (1.41%) |
+| 2021-10-13 | TPP             | 211812     |     2348 (1.11%) |      2348 (1.11%) |
+| 2021-10-13 | Vision          | 338205     |     3829 (1.13%) |      3829 (1.13%) |
+
+LINK: [https://github.com/rw251/.../conditions/polycystic-ovarian-syndrome/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/polycystic-ovarian-syndrome/1)
+
+### Gestational Diabetes 
+
+Any diagnosis of gestational diabetes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `5.06% - 5.20%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 2629848    |    13962 (0.53%) |     13940 (0.53%) |
+| 2021-10-13 | TPP             | 211812     |     1158 (0.55%) |      1156 (0.55%) |
+| 2021-10-13 | Vision          | 338205     |     1402 (0.41%) |       290 (0.09%) |
+
+LINK: [https://github.com/rw251/.../conditions/gestational-diabetes/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/gestational-diabetes/1)
 
 ### HbA1c
 
@@ -406,6 +437,11 @@ A patient's HDL cholesterol as recorded via clinical code and value. This code s
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `43.66% - 48.97%` suggests that this code set is likely well defined.
 
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1168326 (44.42%) |  1168326 (44.42%) |
+| 2021-10-13 | TPP             | 211812     |  100823 (47.60%) |   100823 (47.60%) |
+| 2021-10-13 | Vision          | 338205     |  165935 (49.06%) |   165935 (49.06%) |
 
 LINK: [https://github.com/rw251/.../tests/hdl-cholesterol/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/hdl-cholesterol/1)
 
@@ -416,6 +452,11 @@ A patient's LDL cholesterol as recorded via clinical code and value. This code s
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `41.22% - 45.54%` suggests that this code set is likely well defined.
 
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1102872 (41.94%) |  1102872 (41.94%) |
+| 2021-10-13 | TPP             | 211812     |   91673 (43.28%) |    91673 (43.28%) |
+| 2021-10-13 | Vision          | 338205     |  154055 (45.55%) |   154055 (45.55%) |
 
 LINK: [https://github.com/rw251/.../tests/ldl-cholesterol/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/ldl-cholesterol/1)
 
@@ -447,10 +488,9 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-05-11 | EMIS            | 2606497    |   137971 (5.29%) |    137971 (5.29%) |
-| 2021-05-11 | TPP             | 210810     |    10359 (4.91%) |     10359 (4.91%) |
-| 2021-05-11 | Vision          | 334784     |    20903 (6.24%) |     20903 (6.24%) |
-
+| 2021-10-13 | EMIS            | 26929848   | 1518402 (57.74%) | 1518402 (57.74%)  |
+| 2021-10-13 | TPP             | 211812     |  125622 (59.31%) |  125622 (59.31%)  |
+| 2021-10-13 | Vision          | 338205     |  207191 (61.26%) |  207191 (61.26%)  |
 LINK: [https://github.com/rw251/.../tests/creatinine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/creatinine/1)
 
 ### Triglyceride (level)
@@ -460,9 +500,13 @@ A patient's triglyceride level as recorded via clinical code and value. This cod
 Codes taken from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
 #### Prevalence log
 
-
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.91% - 6.24%` suggests that this code set is likely well defined.
 
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1135572 (43.18%) |  1135572 (43.18%) |
+| 2021-10-13 | TPP             | 211812     |   99188 (46.82%) |    99188 (46.82%) |
+| 2021-10-13 | Vision          | 338205     |  163502 (48.34%) |   163502 (48.34%) |
 
 LINK: [https://github.com/rw251/.../tests/triglycerides/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/triglycerides/1)
 
@@ -475,7 +519,11 @@ Blood pressure codes retrieved from [GetSet](https://getset.ga) and metadata ava
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `64.46% - 67.00%` suggests that this code set is likely well defined.
 
-
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1741342 (66.21%) |  1741342 (66.21%) |
+| 2021-10-13 | TPP             | 211812     |  137571 (64.95%) |   137571 (64.95%) |
+| 2021-10-13 | Vision          | 338205     |  208971 (61.79%) |   208971 (61.79%) |
 LINK: [https://github.com/rw251/.../tests/systolic-blood-pressure/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/systolic-blood-pressure/1)
 
 ### Diastolic Blood pressure
@@ -487,8 +535,28 @@ Blood pressure codes retrieved from [GetSet](https://getset.ga) and metadata ava
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `64.46% - 67.00%` suggests that this code set is likely well defined.
 
-
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1741082 (66.21%) |  1741077 (66.21%) |
+| 2021-10-13 | TPP             | 211812     |  137567 (64.95%) |   137567 (64.95%) |
+| 2021-10-13 | Vision          | 338205     |  208958 (61.79%) |   208958 (61.79%) |
 LINK: [https://github.com/rw251/.../tests/diastolic-blood-pressure/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/diastolic-blood-pressure/1)
+
+### Urinary Albmin Creatinine Ratio
+
+A patient's urinary albumin creatinine ratio as recorded via clinical code and value. This code set only includes codes that are accompanied by a value. It does not include codes that indicate a patient's ratio without giving the actual value.
+#### Prevalence log
+
+**TABLE BELOW NEEDS UPDATING
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.91% - 6.24%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-19 | EMIS            | 26929848   |  271247 (10.31%) |  271247 (10.31%)  |
+| 2021-10-19 | TPP             | 211812     |   29498 (13.93%) |   29498 (13.93%)  |
+| 2021-10-19 | Vision          | 338205     |    32094 (9.49%) |    32094 (9.49%)  |
+LINK: [https://github.com/rw251/.../tests/urinary-albumin-creatinine-ratio/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/urinary-albumin-creatinine-ratio/1)
 
 ### Smoking status current
 
@@ -554,7 +622,11 @@ Codes taken from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.0
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `63.96% - 79.69%` suggests that this code set is perhaps not well defined. However, as EMIS (80% of practices) and TPP (10% of practices) are close, it could simply be down to Vision automatically recording BMIs and therefore increasing the prevalence there.
 
-
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1885015 (71.68%) |  1884110 (71.64%) |
+| 2021-10-13 | TPP             | 211812     |  140013 (66.10%) |   140013 (66.10%) |
+| 2021-10-13 | Vision          | 338205     |  245440 (72.59%) |   245440 (72.57%) |
 LINK: [https://github.com/rw251/.../patient/height/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/height/1)
 
 ### Weight
@@ -566,7 +638,11 @@ Codes taken from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.0
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `63.96% - 79.69%` suggests that this code set is perhaps not well defined. However, as EMIS (80% of practices) and TPP (10% of practices) are close, it could simply be down to Vision automatically recording BMIs and therefore increasing the prevalence there.
 
-
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 2054449 (78.12%) |  2053717 (78.09%) |
+| 2021-10-13 | TPP             | 211812     |  154813 (73.09%) |   154813 (73.09%) |
+| 2021-10-13 | Vision          | 338205     |  269496 (79.68%) |   269496 (79.68%) |
 LINK: [https://github.com/rw251/.../patient/weight/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/weight/1)
 # Clinical code sets
 
@@ -751,6 +827,8 @@ All code sets required for this analysis are listed here. Individual lists for e
 |polycystic-ovarian-syndrome v1|readv2|C164.|Polycystic ovaries|
 |polycystic-ovarian-syndrome v1|readv2|C165.|Polycystic ovarian syndrome|
 |gestational-diabetes v1|ctv3|L1808|Gestational diabetes|
+|gestational-diabetes v1|emis|^ESCTGE801661|Gestational diabetes, delivered|
+|gestational-diabetes v1|emis|^ESCTGE801662|Gestational diabetes mellitus complicating pregnancy|
 |gestational-diabetes v1|readv2|L1808|Gestational diabetes mellitus|
 |gestational-diabetes v1|readv2|L1809|Gestational diabetes mellitus|
 |hba1c v2|ctv3|XaERp|HbA1c level (DCCT aligned)|
@@ -874,6 +952,8 @@ All code sets required for this analysis are listed here. Individual lists for e
 |systolic-blood-pressure v1|ctv3|246N.|Standing systolic blood pressure|
 |systolic-blood-pressure v1|ctv3|246K.|Target systolic blood pressure|
 |systolic-blood-pressure v1|ctv3|2469.|O/E - Systolic BP reading|
+|systolic-blood-pressure v1|emis|EMISNQSY8|Systolic blood pressure - left arm|
+|systolic-blood-pressure v1|emis|EMISNQSY9|Systolic blood pressure - right arm|
 |systolic-blood-pressure v1|readv2|246o000|Non-invasive central systolic blood pressure|
 |systolic-blood-pressure v1|readv2|246n100|Baseline systolic blood pressure|
 |systolic-blood-pressure v1|readv2|246l.00|Average systolic blood pressure|
@@ -960,6 +1040,8 @@ All code sets required for this analysis are listed here. Individual lists for e
 |diastolic-blood-pressure v1|ctv3|246P.|Standing diastolic blood pressure|
 |diastolic-blood-pressure v1|ctv3|246L.|Target diastolic blood pressure|
 |diastolic-blood-pressure v1|ctv3|246A.|O/E - Diastolic BP reading|
+|diastolic-blood-pressure v1|emis|EMISNQDI86|Diastolic blood pressure - left arm|
+|diastolic-blood-pressure v1|emis|EMISNQDI87|Diastolic blood pressure - right arm|
 |diastolic-blood-pressure v1|readv2|246o100|Non-invasive central diastolic blood pressure|
 |diastolic-blood-pressure v1|readv2|246n000|Baseline diastolic blood pressure|
 |diastolic-blood-pressure v1|readv2|246m.00|Average diastolic blood pressure|
@@ -1005,6 +1087,9 @@ All code sets required for this analysis are listed here. Individual lists for e
 |diastolic-blood-pressure v1|snomed|49844009|Abnormal diastolic arterial pressure (finding)|
 |diastolic-blood-pressure v1|snomed|53813002|Normal diastolic arterial pressure (finding)|
 |diastolic-blood-pressure v1|snomed|163031004|On examination - Diastolic BP reading|
+|urinary-albumin-creatinine-ratio v1|ctv3|46TC.|Urine albumin:creatinine ratio|
+|urinary-albumin-creatinine-ratio v1|ctv3|XE2n3|Urine albumin:creatinine ratio|
+|urinary-albumin-creatinine-ratio v1|readv2|46TC.|Urine albumin:creatinine ratio|
 |smoking-status-current v1|ctv3|1373.|Lt cigaret smok, 1-9 cigs/day|
 |smoking-status-current v1|ctv3|1374.|Mod cigaret smok, 10-19 cigs/d|
 |smoking-status-current v1|ctv3|1375.|Hvy cigaret smok, 20-39 cigs/d|

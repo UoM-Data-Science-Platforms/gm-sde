@@ -14,7 +14,7 @@
 
 -- Set the start date
 DECLARE @StartDate datetime;
-SET @StartDate = '2019-07-01';
+SET @StartDate = '2019-07-09';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -47,10 +47,10 @@ SELECT DISTINCT gp.FK_Patient_Link_ID
 INTO #exclusions
 FROM [RLS].[vw_GP_Events] gp
 LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
-WHERE ((SuppliedCode IN 
+WHERE (SuppliedCode IN 
 	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN 
 		('polycystic-ovarian-syndrome', 'gestational-diabetes') AND [Version] = 1
-			AND EventDate BETWEEN '2018-07-01' AND '2022-03-31')) 
+			AND EventDate BETWEEN '2018-07-09' AND '2022-03-31')) 
     
 ---- CREATE TABLE OF ALL PATIENTS THAT HAVE ANY LIFETIME DIAGNOSES OF T2D OF 2019-07-19
 
@@ -71,20 +71,19 @@ FROM [RLS].[vw_GP_Events] gp
 LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-WHERE ((SuppliedCode IN 
+WHERE (SuppliedCode IN 
 	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-ii') AND [Version] = 1)) 
     AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-	AND (gp.EventDate) <= '2019-07-01'
-	AND DATEDIFF(YEAR, yob.YearOfBirth, '2019-07-01') >= 18
+	AND (gp.EventDate) <= '2019-07-09'
+	AND DATEDIFF(YEAR, yob.YearOfBirth, '2019-07-09') >= 18
 
 
 -- Define the main cohort to be matched
 IF OBJECT_ID('tempdb..#MainCohort') IS NOT NULL DROP TABLE #MainCohort;
 SELECT DISTINCT FK_Patient_Link_ID, 
-		YearOfBirth, -- NEED TO ENSURE OVER 18S ONLY AT SOME POINT
+		YearOfBirth,
 		Sex,
-		EthnicMainGroup,
-		IMD2019Decile1IsMostDeprived10IsLeastDeprived
+		EthnicMainGroup
 INTO #MainCohort
 FROM #diabetes2_diagnoses
 --WHERE FK_Patient_Link_ID IN (#####INTERVENTION_TABLE)
@@ -125,7 +124,7 @@ SELECT MatchingPatientId FROM #CohortStore;
 */
 
 --> EXECUTE query-get-admissions-and-length-of-stay.sql
---> EXECUTE query-admissions-covid-utilisation.sql start-date:'2019-07-19'
+--> EXECUTE query-admissions-covid-utilisation.sql start-date:'2019-07-01'
 --> EXECUTE query-classify-secondary-admissions.sql
 
 
@@ -136,22 +135,22 @@ SELECT
 	NULL AS MainCohortMatchedPatientId,
 	l.AdmissionDate,
 	l.DischargeDate,
-	ty.AdmissionType,
-    c.CovidHealthcareUtilisation
+	ty.AdmissionType
+    --c.CovidHealthcareUtilisation
 FROM #MainCohort m 
-LEFT JOIN #LengthOfStay l ON m.FK_Patient_Link_ID = l.FK_Patient_Link_ID
-LEFT OUTER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND c.AdmissionDate = l.AdmissionDate AND c.AcuteProvider = l.AcuteProvider
-LEFT OUTER JOIN #AdmissionTypes ty ON ty.FK_Patient_Link_ID = m.FK_Patient_Link_ID AND ty.AdmissionDate = l.AdmissionDate
+INNER JOIN #LengthOfStay l ON m.FK_Patient_Link_ID = l.FK_Patient_Link_ID
+INNER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND c.AdmissionDate = l.AdmissionDate AND c.AcuteProvider = l.AcuteProvider
+INNER JOIN #AdmissionTypes ty ON ty.FK_Patient_Link_ID = m.FK_Patient_Link_ID AND ty.AdmissionDate = l.AdmissionDate
 --patients in matched cohort
-UNION
-SELECT 
-	PatientId = m.FK_Patient_Link_ID,
-	PatientWhoIsMatched AS MainCohortMatchedPatientId,
-	l.AdmissionDate,
-	DischargeDate,
-	ty.AdmissionType,
-    c.CovidHealthcareUtilisation
-FROM #MatchedCohort m 
-LEFT JOIN #LengthOfStay l ON m.FK_Patient_Link_ID = l.FK_Patient_Link_ID
-LEFT OUTER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND c.AdmissionDate = l.AdmissionDate AND c.AcuteProvider = l.AcuteProvider
-LEFT OUTER JOIN #AdmissionTypes ty ON ty.FK_Patient_Link_ID = m.FK_Patient_Link_ID AND ty.AdmissionDate = l.AdmissionDate
+--UNION
+--SELECT 
+--	PatientId = m.FK_Patient_Link_ID,
+--	PatientWhoIsMatched AS MainCohortMatchedPatientId,
+--	l.AdmissionDate,
+--	DischargeDate,
+--	ty.AdmissionType,
+--    c.CovidHealthcareUtilisation
+--FROM #MatchedCohort m 
+--INNER JOIN #LengthOfStay l ON m.FK_Patient_Link_ID = l.FK_Patient_Link_ID
+--INNER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND c.AdmissionDate = l.AdmissionDate AND c.AcuteProvider = l.AcuteProvider
+--INNER JOIN #AdmissionTypes ty ON ty.FK_Patient_Link_ID = m.FK_Patient_Link_ID AND ty.AdmissionDate = l.AdmissionDate

@@ -46,10 +46,10 @@ SELECT DISTINCT gp.FK_Patient_Link_ID
 INTO #exclusions
 FROM [RLS].[vw_GP_Events] gp
 LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
-WHERE ((SuppliedCode IN 
+WHERE (SuppliedCode IN 
 	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN 
 		('polycystic-ovarian-syndrome', 'gestational-diabetes') AND [Version] = 1
-			AND EventDate BETWEEN '2018-07-01' AND '2022-03-31')) 
+			AND EventDate BETWEEN '2018-07-09' AND '2022-03-31')) 
     
 ---- CREATE TABLE OF ALL PATIENTS THAT HAVE ANY LIFETIME DIAGNOSES OF T2D AS OF 2019-07-01
 
@@ -70,7 +70,7 @@ FROM [RLS].[vw_GP_Events] gp
 LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-WHERE ((SuppliedCode IN 
+WHERE (SuppliedCode IN 
 	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-ii') AND [Version] = 1)) 
     AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
     AND gp.FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #exclusions) -- exclude patients with polycystic ovary syndrome or gestational diabetes
