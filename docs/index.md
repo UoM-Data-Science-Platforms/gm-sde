@@ -67,7 +67,7 @@ This data is available for the following hospitals within GM:
 | Hospital                                | A&E data from | In-patient from | Out-patient from |
 | --------------------------------------- | ------------- | --------------- | ---------------- |
 | Bolton NHS Foundation Trust             | 2020-11       | 2018-02         | No data          |
-| Central Manchester University Hospitals | 2018-01       | 2013-01         | 2017-01          |
+| Central Manchester University Hospitals | 2018-01       | 2017-01         | 2017-01          |
 | Pennine Acute Hospitals                 | 2018-02       | 2018-02         | 2018-01          |
 | Salford Royal NHS Foundation Trust      | 2020-07       | 2020-07         | 2020-05          |
 | Stockport NHSFT                         | 2020-12       | 2020-05         | 2020-09          |
@@ -86,3 +86,5 @@ There are certain limitations with the data. Health care data is collected for t
 - Acute data feeds
 
   The feeds from hospitals are not backdated from before the feed went live. So if a hospital started providing data in 2018, then there are no records for that hospital prior to 2018.
+
+- Covid tests only currently coming from primary care. Those done in hospitals will be missed.
