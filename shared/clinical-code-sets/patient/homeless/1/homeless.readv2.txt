@@ -1,0 +1,9 @@
+13D..	Homeless
+13D1.	Homeless family
+13D2.	Homeless single person
+13D8.	Length of time homeless
+13DZ.	Housing lack NOS
+8Hgc.	Discharge from homeless advocacy service
+9Ngr.	Under care of homeless advocacy service
+9k6..	Homeless - enhanced services administration
+9k60.	Homeless - enhanced service completed

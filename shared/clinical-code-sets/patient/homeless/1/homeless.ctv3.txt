@@ -1,0 +1,22 @@
+13D..	Housing lack
+XE0ox	Housing lack
+13DZ.	Housing lack NOS
+13D1.	Homeless family
+13D2.	Homeless single person
+13D..	(Housing lack) or (homeless)
+Ua0fJ	Hostel for the homeless
+13D..	Homeless
+Xa8O5	Homeless
+XaIOp	Homeless mental health care
+XaIWM	Homeless mental health care - Full day : day care
+XaIWN	Homeless mental health care - Part day : day care
+XaIWR	Homeless mental health care - Daily intensive
+XaIWS	Homeless mental health care - 3-5 contacts/week
+XaQ0m	Length of time homeless
+XaK9r	Homeless enhanced services administration
+XaKAH	Homeless enhanced service completed
+Xaafh	Under care of homeless advocacy service
+XaaxP	Discharge from homeless advocacy service
+XagnG	Referral to homeless advocacy service
+XagnO	Referral to homeless advocacy service declined
+Xagzf	Provision of community outreach care for homeless
