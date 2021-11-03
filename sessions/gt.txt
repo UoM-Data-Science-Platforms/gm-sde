@@ -269,3 +269,9 @@ Attempted to find the location of information related to project no.1 (Grant), i
 
 20/10/21
 - testing RQ32 extraction scripts
+
+29/10/21
+- checking RQ29 fileshare has been deleted
+
+03/11/21
+- feasibility checks of research questions for GMCR Sandpit
