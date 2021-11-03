@@ -59,7 +59,7 @@ WHERE SuppliedCode IN
 		('polycystic-ovarian-syndrome', 'gestational-diabetes') AND [Version] = 1)
 			AND EventDate BETWEEN '2018-07-09' AND '2022-03-31'
 
----- CREATE TABLE OF ALL PATIENTS THAT HAVE ANY LIFETIME DIAGNOSES OF T2D OF 2019-07-09
+---- CREATE TABLE OF ALL PATIENTS THAT HAVE ANY LIFETIME DIAGNOSES OF T2D AS OF 2019-07-09
 
 IF OBJECT_ID('tempdb..#diabetes2_diagnoses') IS NOT NULL DROP TABLE #diabetes2_diagnoses;
 SELECT gp.FK_Patient_Link_ID, 
