@@ -1,0 +1,937 @@
+ab2N.	FYBOGEL orange s/f granules 150g
+b111.	DIGOXIN 62.5micrograms tablets
+b112.	DIGOXIN 125microgram tablets
+b113.	DIGOXIN 250microgram tablets
+b115.	LANOXIN 125micrograms tablets
+b116.	LANOXIN 250micrograms tablets
+b119.	LANOXIN-PG 50microgram/mL elixir
+b11A.	DIGOXIN 50microgram/mL elixir
+b11B.	DIGOXIN 500microgram/2mL injection
+b121.	DIGITOXIN 100micrograms tablets
+b211.	BENDROFLUMETHIAZIDE 2.5mg tablets
+b212.	BENDROFLUMETHIAZIDE 5mg tablets
+b213.	APRINOX 2.5mg tablets
+b214.	APRINOX 5mg tablets
+b22y.	CHLOROTHIAZIDE 250mg/5mL oral suspension
+b231.	HYGROTON 50mg tablets
+b23y.	CHLORTALIDONE 50mg tablets
+b251.	NAVIDREX 500micrograms tablets
+b25z.	CYCLOPENTHIAZIDE 500microgram tablets
+b26y.	HYDROCHLOROTHIAZIDE 50mg tablets
+b26z.	HYDROCHLOROTHIAZIDE 25mg tablets
+b281.	NATRILIX 2.5mg tablets
+b285.	INDAPAMIDE 1.5mg m/r tablets
+b286.	NATRILIX SR 1.5mg m/r tablets
+b2b1.	*METENIX-5 5mg tablets
+b2bz.	*METOLAZONE 5mg tablets
+b2d1.	DIUREXAN 20mg tablets
+b2dz.	XIPAMIDE 20mg tablets
+b311.	FUROSEMIDE 20mg tablets
+b312.	FUROSEMIDE 40mg tablets
+b313.	FUROSEMIDE 500mg tablets
+b31F.	FRUSOL 20mg/5mL sugar free oral solution
+b31g.	*FRUSID 40mg tablets
+b31G.	FRUSOL 40mg/5mL sugar free oral solution
+b31h.	*LASIX 20mg tablets
+b31H.	FRUSOL 50mg/5mL sugar free oral solution
+b31i.	*LASIX 40mg tablets
+b31l.	LASIX 20mg/2mL injection
+b31r.	FUROSEMIDE 20mg/5mL sugar free solution
+b31s.	FUROSEMIDE 40mg/5mL sugar free solution
+b31t.	FUROSEMIDE 50mg/5mL sugar free solution
+b31y.	FUROSEMIDE 20mg/2mL injection
+b321.	*BURINEX 1mg tablets
+b322.	*BURINEX 5mg tablets
+b32u.	BUMETANIDE 1mg tablets
+b32v.	BUMETANIDE 5mg tablets
+b32w.	BUMETANIDE 1mg/5mL liquid
+b353.	TOREM 10mg tablets
+b356.	TORASEMIDE 2.5mg tablets
+b357.	TORASEMIDE 5mg tablets
+b358.	TORASEMIDE 10mg tablets
+b413.	AMILORIDE 5mg/5mL sugar free solution
+b41z.	AMILORIDE HCL 5mg tablets
+b431.	SPIRONOLACTONE 25mg tablets
+b432.	SPIRONOLACTONE 50mg tablets
+b433.	SPIRONOLACTONE 100mg tablets
+b434.	ALDACTONE 25mg tablets
+b435.	ALDACTONE 50mg tablets
+b436.	ALDACTONE 100mg tablets
+b43k.	SPIRONOLACTONE 5mg/5mL oral suspension
+b43l.	SPIRONOLACTONE 10mg/5mL oral suspension
+b43m.	SPIRONOLACTONE 25mg/5mL oral suspension
+b43n.	SPIRONOLACTONE 50mg/5mL oral suspension
+b44z.	TRIAMTERENE 50mg capsules
+b451.	INSPRA 25mg tablets
+b452.	INSPRA 50mg tablets
+b45y.	EPLERENONE 50mg tablets
+b45z.	EPLERENONE 25mg tablets
+b511.	ALDACTIDE-25 tablets
+b512.	ALDACTIDE-50 tablets
+b513.	*AMILCO tablets
+b514.	DYAZIDE tablets
+b515.	*DYTIDE capsules
+b516.	FRUMIL 40/5mg tablets
+b517.	FRUSENE tablets
+b519.	LASILACTONE capsules
+b51a.	MODURET-25 tablets
+b51A.	CO-TRIAMTERZIDE 50/25mg tablets
+b51b.	MODURETIC tablets
+b51C.	AMILORIDE HCL+CYCLOPENTHIAZIDE 2.5mg/250micrograms tablets
+b51D.	AMILORIDE HCL+BUMETANIDE 5mg/1mg tablets
+b51E.	TRIAMTERENE+BENZTHIAZIDE 50mg/25mg capsules
+b51G.	TRIAMTERENE+CHLORTALIDONE 50mg/50mg tablets
+b51h.	*LASORIDE tablets
+b51j.	CO-AMILOZIDE 2.5/25mg tablets
+b51J.	SPIRONOLACTONE+FUROSEMIDE 50mg/20mg capsules
+b51k.	CO-AMILOZIDE 5/50mg tablets
+b51o.	FRUMIL LS 20/2.5mg tablets
+b51p.	CO-FLUMACTONE-25 tablets
+b51q.	CO-FLUMACTONE-50 tablets
+b51r.	NAVISPARE 2.5/0.25mg tablets
+b51t.	*BURINEX A tablets
+b51u.	*FRUMIL FORTE 80/10mg tablets
+b51x.	CO-AMILOFRUSE 2.5/20mg tablets
+b51y.	CO-AMILOFRUSE 5/40mg tablets
+b51z.	CO-AMILOFRUSE 10/80mg tablets
+b913.	*CENTYL K m/r tablets
+b914.	*DIUMIDE-K CONTINUS tablets
+b917.	*LASIKAL tablets
+b91a.	NEO-NACLEX-K tablets
+b91c.	BENDROFLUMETHIAZIDE+POTASSIUM 2.5mg/7.7mmol m/r tablets
+bA1y.	FELODIPINE+RAMIPRIL 2.5mg/2.5mg tablets
+bA1z.	FELODIPINE+RAMIPRIL 5mg/5mg tablets
+bb11.	CORDARONE X 100mg tablets
+bB11.	PROCORALAN 5mg tablets
+bb12.	CORDARONE X 200mg tablets
+bB12.	PROCORALAN 7.5mg tablets
+bb1x.	AMIODARONE HYDROCHLORIDE 100mg tablets
+bb1y.	AMIODARONE HYDROCHLORIDE 200mg tablets
+bB1y.	IVABRADINE 7.5mg tablets
+bB1z.	IVABRADINE 5mg tablets
+bb31.	VERAPAMIL 40mg tablets
+bb32.	VERAPAMIL 80mg tablets
+bb33.	VERAPAMIL 120mg tablets
+bb38.	*CORDILOX 40mg tablets
+bb3A.	VERAPAMIL 240mg m/r tablets
+bb3B.	HALF SECURON SR 120mg m/r tablets
+bb3C.	VERAPAMIL 120mg m/r tablets
+bb3D.	VERAPAMIL 40mg/5mL sugar free solution
+bb3j.	SECURON SR 240mg m/r tablets
+bb3k.	SECURON SR 240mg m/r tablets 28CP
+bb3K.	*VERAPRESS MR 240 m/r tablets
+bb3M.	CORDILOX MR 240 m/r tablets
+bb3P.	VERA-TIL SR 240mg m/r tablets
+bb3Q.	VERA-TIL SR 120mg m/r tablets
+bb3s.	VERTAB SR 240 m/r tablets
+bb3w.	VERAPAMIL 160mg tablets
+bb3y.	VERAPAMIL 240mg m/r capsules
+bb3z.	VERAPAMIL 180mg m/r capsules
+bc24.	RYTHMODAN 100mg capsules
+bc25.	RYTHMODAN 150mg capsules
+bc27.	RYTHMODAN RETARD 250mg m/r tablets
+bc2w.	DISOPYRAMIDE 150mg m/r tablets
+bc2z.	DISOPYRAMIDE 250mg m/r tablets
+bc31.	TAMBOCOR 100mg tablets
+bc33.	TAMBOCOR 50mg tablets
+bc3w.	FLECAINIDE ACETATE 200mg m/r capsules
+bc3x.	FLECAINIDE ACETATE 50mg tablets
+bc3y.	FLECAINIDE ACETATE 100mg tablets
+bc51.	*MEXITIL 50mg capsules
+bc5w.	*MEXILETINE 50mg capsules
+bc91.	QUINIDINE SULPHATE 200mg tablets
+bcb1.	PROPAFENONE 150mg tablets
+bcb2.	PROPAFENONE 300mg tablets
+bd11.	PROPRANOLOL 10mg tablets
+bD11.	RANEXA 375mg m/r tablets
+bd12.	PROPRANOLOL 40mg tablets
+bD12.	RANEXA 500mg m/r tablets
+bd13.	PROPRANOLOL 80mg tablets
+bD13.	RANEXA 750mg m/r tablets
+bd14.	PROPRANOLOL 160mg tablets
+bd1G.	BETA-PROGRANE 160mg m/r capsules
+bd1J.	PROPRANOLOL 50mg/5mL syrup
+bd1l.	HALF-INDERAL LA 80mg m/r capsules
+bd1L.	HALF BETA-PROGRANE 80mg m/r capsules
+bd1m.	*INDERAL 10mg tablets
+bd1n.	*INDERAL 40mg tablets
+bd1o.	*INDERAL 80mg tablets
+bd1Q.	PROPRANOLOL HYDROCHLORIDE 40mg/5mL syrup
+bd1r.	*INDERAL-LA 160mg m/r capsules
+bd1x.	PROPRANOLOL 160mg m/r capsules
+bD1x.	RANOLAZINE 750mg m/r tablets
+bd1y.	PROPRANOLOL 80mg m/r capsules
+bD1y.	RANOLAZINE 500mg m/r tablets
+bd1z.	SYPROL 10mg/5mL oral solution
+bd1Z.	SYPROL 5mg/5mL oral solution
+bD1z.	RANOLAZINE 375mg m/r tablets
+bd22.	SECTRAL 200mg capsules
+bd31.	TENORMIN 100mg tablets
+bd32.	TENORMIN 25mg/5mL syrup
+bd34.	TENORMIN LS 50mg tablets
+bd35.	ATENOLOL 50mg tablets
+bd36.	ATENOLOL 100mg tablets
+bd3c.	*TENORMIN 25 tablets
+bd3j.	ATENOLOL 25mg tablets
+bd3x.	ATENOLOL 25mg/5mL syrup
+bd3y.	ATENOLOL 5mg/10mL injection
+bd3z.	ATENIX 25mg tablets
+bd41.	*KERLONE 20mg tablets
+bd4z.	BETAXOLOL HYDROCHLORIDE 20mg tablets
+bd51.	LABETALOL 100mg tablets
+bd53.	LABETALOL 400mg tablets
+bd57.	TRANDATE 50mg tablets
+bd58.	TRANDATE 100mg tablets
+bd59.	TRANDATE 200mg tablets
+bd5a.	TRANDATE 400mg tablets
+bd5v.	LABETALOL 50mg tablets
+bd61.	*BETALOC 50mg tablets
+bd62.	*BETALOC 100mg tablets
+bd64.	BETALOC-SA DURULES 200mg m/r tablets
+bd6b.	LOPRESOR SR 200mg m/r tablets
+bd6w.	METOPROLOL 100mg tablets
+bd6x.	METOPROLOL 50mg tablets
+bd6y.	METOPROLOL 5mg/5mL injection
+bd6z.	METOPROLOL 200mg m/r tablets
+bd72.	CORGARD 80mg tablets
+bd7y.	*NADOLOL 40mg tablets
+bd7z.	NADOLOL 80mg tablets
+bd81.	OXPRENOLOL 20mg tablets
+bd82.	OXPRENOLOL 40mg tablets
+bd83.	OXPRENOLOL 80mg tablets
+bd8e.	SLOW-TRASICOR 160mg m/r tablets
+bd8u.	OXPRENOLOL 160mg m/r tablets
+bday.	PINDOLOL 5mg tablets
+bdaz.	PINDOLOL 15mg tablets
+bdc1.	*BETA-CARDONE 40mg tablets
+bdc2.	BETA-CARDONE 80mg tablets
+bdc4.	SOTACOR 80mg tablets
+bdc5.	*SOTACOR 160mg tablets
+bdcu.	SOTALOL 40mg tablets
+bdcv.	SOTALOL 80mg tablets
+bdcw.	SOTALOL 200mg tablets
+bdcx.	SOTALOL 160mg tablets
+bddz.	TIMOLOL 10mg tablets
+bde4.	*CORGARETIC-80 tablets
+bde5.	*INDERETIC capsules
+bde6.	*INDEREX m/r capsules
+bde7.	KALTEN capsules
+bdea.	*MODUCREN tablets
+bdeg.	TENORET-50 tablets
+bdeG.	PINDOLOL+CLOPAMIDE 10mg/5mg tablets
+bdeh.	TENORETIC tablets
+bdem.	CO-TENIDONE 50/12.5mg tablets
+bden.	CO-TENIDONE 100/25mg tablets
+bdes.	*BETA-ADALAT 50/20mg capsules
+bdet.	TENIF 50/20mg capsules
+bdeu.	CO-PRENOZIDE 160/0.25mg m/r tablets
+bdf1.	BISOPROLOL FUMARATE 5mg tablets
+bdf2.	BISOPROLOL FUMARATE 10mg tablets
+bdf3.	*MONOCOR 5mg tablets
+bdf4.	*MONOCOR 10mg tablets
+bdf5.	*EMCOR LS 5mg tablets
+bdf6.	*EMCOR 10mg tablets
+bdf9.	CARDICOR 1.25mg tablets
+bdfA.	CARDICOR 2.5mg tablets
+bdfB.	CARDICOR 3.75mg tablets
+bdfC.	CARDICOR 5mg tablets
+bdfD.	CARDICOR 7.5mg tablets
+bdfw.	BISOPROLOL FUMARATE 1.25mg tablets
+bdfx.	BISOPROLOL FUMARATE 2.5mg tablets
+bdfy.	BISOPROLOL FUMARATE 3.75mg tablets
+bdfz.	BISOPROLOL FUMARATE 7.5mg tablets
+bdj1.	CELIPROLOL 200mg tablets
+bdj3.	CELECTOL 200mg tablets
+bdj4.	CELIPROLOL 400mg tablets
+bdj5.	CELECTOL 400mg tablets
+bdl1.	*EUCARDIC 12.5 tablets
+bdl3.	CARVEDILOL 12.5mg tablets
+bdl4.	CARVEDILOL 25mg tablets
+bdl5.	CARVEDILOL 3.125mg tablets
+bdl6.	CARVEDILOL 6.25mg tablets
+bdm1.	NEBILET 5mg tablets
+bdn2.	BEDRANOL SR 80mg m/r capsules
+bdn6.	PROPRANOLOL HYDROCHLORIDE 40mg/5mL sugar free oral solution
+be21.	APRESOLINE 25mg tablets
+be2x.	HYDRALAZINE HYDROCHLORIDE 25mg tablets
+be2y.	HYDRALAZINE HYDROCHLORIDE 50mg tablets
+be33.	LONITEN 10mg tablets
+be3x.	MINOXIDIL 2.5mg tablets
+be3y.	MINOXIDIL 5mg tablets
+be3z.	MINOXIDIL 10mg tablets
+bf11.	CATAPRES 100micrograms tablets
+bf1w.	CLONIDINE 100microgram tablets
+bf1x.	CLONIDINE 300micrograms tablets
+bf21.	METHYLDOPA 125mg tablets
+bf22.	METHYLDOPA 250mg tablets
+bf23.	METHYLDOPA 500mg tablets
+bf25.	ALDOMET 250mg tablets
+bf41.	MOXONIDINE 200micrograms tablets
+bf42.	MOXONIDINE 400micrograms tablets
+bf43.	PHYSIOTENS 200micrograms tablets
+bf44.	PHYSIOTENS 400micrograms tablets
+bf45.	MOXONIDINE 300micrograms tablets
+bf46.	PHYSIOTENS 300micrograms tablets
+bg2y.	*DEBRISOQUINE 10mg tablets
+bh2y.	PHENOXYBENZAMINE 10mg capsules
+bh41.	HYPOVASE 500micrograms tablets
+bh42.	HYPOVASE 1mg tablets
+bh43.	*HYPOVASE 2mg tablets
+bh4w.	PRAZOSIN HYROCHLORIDE 500microgram tablets
+bh4x.	PRAZOSIN HYDROCHLORIDE 1mg tablets
+bh4y.	PRAZOSIN HYDROCHLORIDE 2mg tablets
+bh4z.	PRAZOSIN HYDROCHLORIDE 5mg tablets
+bh51.	HYTRIN 2mg tablets
+bh52.	HYTRIN 5mg tablets
+bh53.	HYTRIN 10mg tablets
+bh54.	HYTRIN STARTER PACK tablets
+bh55.	TERAZOSIN 5mg tablets
+bh56.	TERAZOSIN 10mg tablets
+bh5y.	TERAZOSIN STARTER PACK 1mg+2mg tablets
+bh5z.	TERAZOSIN 2mg tablets
+bh61.	DOXAZOSIN 1mg tablets
+bh62.	DOXAZOSIN 2mg tablets
+bh63.	DOXAZOSIN 4mg tablets
+bh64.	CARDURA 1mg tablets
+bh65.	CARDURA 2mg tablets
+bh67.	CARDURA XL 4mg m/r tablets
+bh68.	CARDURA XL 8mg m/r tablets
+bh6B.	DOXADURA 1mg tablets
+bh6C.	DOXADURA 2mg tablets
+bh6D.	DOXADURA 4mg tablets
+bh6F.	DOXADURA XL 4mg m/r tablets
+bh6y.	DOXAZOSIN 8mg m/r tablets
+bh6z.	DOXAZOSIN 4mg m/r tablets
+bi11.	ACEPRIL 12.5mg tablets
+bi16.	*CAPOTEN 12.5mg tablets
+bi17.	CAPOTEN 25mg tablets
+bi1a.	CAPOTEN 50mg tablets x56
+bi1F.	CO-ZIDOCAPT 25mg/12.5mg tablet
+bi1G.	*CO-ZIDOCAPT 50mg/25mg tablets
+bi1I.	CAPTOPRIL 5mg/5mL oral solution
+bi1K.	CAPTOPRIL 25mg/5mL oral solution
+bi1v.	CAPTOPRIL 12.5mg tablets
+bi1w.	CAPTOPRIL 25mg tablets
+bi1x.	CAPTOPRIL 25mg tablets x56
+bi1z.	CAPTOPRIL 50mg tablets
+bi21.	INNOVACE 2.5mg tablets
+bi22.	INNOVACE 5mg tablets
+bi23.	INNOVACE 5mg tablets x28
+bi24.	INNOVACE 10mg tablets
+bi26.	INNOVACE 20mg tablets
+bi27.	INNOVACE 20mg tablets x28
+bi28.	INNOZIDE 20/12.5mg tablets
+bi2t.	ENALAPRIL MALEATE 2.5mg tablets
+bi2u.	ENALAPRIL MALEATE 5mg tablets
+bi2v.	ENALAPRIL MALEATE 5mg tablets x28
+bi2w.	ENALAPRIL MALEATE 10mg tablets
+bi2x.	ENALAPRIL MALEATE 10mg tablets x28
+bi2y.	ENALAPRIL MALEATE 20mg tablets
+bi31.	LISINOPRIL 2.5mg tablets
+bi32.	LISINOPRIL 5mg tablets
+bi33.	LISINOPRIL 10mg tablets
+bi34.	LISINOPRIL 20mg tablets
+bi3e.	ZESTRIL 5mg tablets 28CP
+bi3i.	ZESTRIL 20mg tablets 28CP
+bi3j.	ZESTRIL 20mg tablets
+bi3k.	CARACE 20 PLUS tablets
+bi3l.	*CARACE 10 PLUS tablets
+bi3n.	ZESTORETIC 20/12.5mg tablets
+bi3p.	LISINOPRIL+HYDROCHLOROTHIAZIDE 20mg/12.5mg tablets
+bi3t.	LISINOPRIL+HYDROCHLOROTHIAZIDE 10mg/12.5mg tablets
+bi41.	QUINAPRIL 5mg tablets
+bi42.	QUINAPRIL 10mg tablets
+bi43.	QUINAPRIL 20mg tablets
+bi49.	ACCUPRO 40mg tablets
+bi4A.	QUINAPRIL 40mg tablets
+bi51.	PERINDOPRIL ERBUMINE 2mg tablets
+bi52.	PERINDOPRIL ERBUMINE 4mg tablets
+bi53.	*COVERSYL 2mg tablets
+bi54.	*COVERSYL 4mg tablets
+bi56.	COVERSYL PLUS 4mg/1.25mg tablets
+bi58.	*COVERSYL 8mg tablets
+bi61.	RAMIPRIL 1.25mg capsules
+bi62.	RAMIPRIL 2.5mg capsules
+bi63.	RAMIPRIL 5mg capsules
+bi64.	*TRITACE 1.25mg capsules
+bi65.	*TRITACE 2.5mg capsules
+bi66.	*TRITACE 5mg capsules
+bi67.	RAMIPRIL 10mg capsules
+bi68.	*TRITACE 10mg capsules
+bi6A.	TRITACE Titration Pack capsules
+bi6B.	RAMIPRIL 1.25mg tablets
+bi6C.	RAMIPRIL 2.5mg tablets
+bi6D.	RAMIPRIL 5mg tablets
+bi6E.	RAMIPRIL 10mg tablets
+bi6t.	*LOPACE 2.5mg capsules
+bi6w.	TRITACE 10mg tablets
+bi6x.	TRITACE 5mg tablets
+bi6y.	TRITACE 2.5mg tablets
+bi6z.	TRITACE 1.25mg tablets
+bi71.	FOSINOPRIL 10mg tablets
+bi72.	FOSINOPRIL 20mg tablets
+bi73.	*STARIL 10mg tablets
+bi74.	*STARIL 20mg tablets
+bi91.	TRANDOLAPRIL 500micrograms capsules
+bi92.	TRANDOLAPRIL 1mg capsules
+bi93.	TRANDOLAPRIL 2mg capsules
+bi94.	*GOPTEN 500micrograms capsules
+bi95.	*GOPTEN 1mg capsules
+bi96.	*GOPTEN 2mg capsules
+bi9A.	*GOPTEN 4mg capsules
+bi9z.	TRANDOLAPRIL 4mg capsules
+biB1.	TANATRIL 5mg tablets
+biB2.	TANATRIL 10mg tablets
+biB3.	TANATRIL 20mg tablets
+biBx.	IMIDAPRIL HYDROCHLORIDE 20mg tablets
+biBy.	IMIDAPRIL HYDROCHLORIDE 5mg tablets
+biBz.	IMIDAPRIL HYDROCHLORIDE 10mg tablets
+biC1.	COVERSYL ARGININE 2.5mg tablets
+biC2.	PERINDOPRIL ARGININE 2.5mg tablets
+biC3.	COVERSYL ARGININE 5mg tablets
+biC4.	PERINDOPRIL ARGININE 5mg tablets
+biC5.	COVERSYL ARGININE 10mg tablets
+biC6.	PERINDOPRIL ARGININE 10mg tablets
+biC7.	COVERSYL ARGININE PLUS 5mg/1.25mg tablets
+biC8.	PERINDOPRIL ARGININE+INDAPAMIDE 5mg/1.25mg tablets
+bk31.	LOSARTAN POTASSIUM 25mg tablets
+bk32.	LOSARTAN POTASSIUM 50mg tablets
+bk33.	COZAAR HALF-STRENGTH 25mg tablets
+bk34.	COZAAR 50mg tablets
+bk35.	LOSARTAN POTASSIUM+HYDROCHLOROTHIAZIDE 50mg/12.5mg tablets
+bk36.	COZAAR-COMP 50mg/12.5mg tablets
+bk37.	LOSARTAN POTASSIUM 100mg tablets
+bk38.	COZAAR 100mg tablets
+bk39.	COZAAR-COMP 100mg/25mg tablets
+bk3A.	COZAAR-COMP 100mg/12.5mg tablets
+bk3B.	COZAAR 12.5mg tablets
+bk3C.	LOSARTAN POTASSIUM 12.5mg tablets
+bk3E.	LOSARTAN POTASSIUM 2.5mg/mL oral suspension
+bk3y.	LOSARTAN POTASSIUM+HYDROCHLOROTHIAZIDE 100mg/12.5mg tablets
+bk3z.	LOSARTAN POTASSIUM+HYDROCHLOROTHIAZIDE 100mg/25mg tablets
+bk41.	VALSARTAN 40mg capsules
+bk42.	VALSARTAN 80mg capsules
+bk43.	VALSARTAN 160mg capsules
+bk44.	DIOVAN 40mg capsules
+bk45.	DIOVAN 80mg capsules
+bk46.	DIOVAN 160mg capsules
+bk47.	CO-DIOVAN 160mg/12.5mg tablets
+bk48.	CO-DIOVAN 160mg/25mg tablets
+bk49.	CO-DIOVAN 80mg/12.5mg tablets
+bk4s.	VALSARTAN 80mg tablets
+bk4t.	VALSARTAN 160mg tablets
+bk4v.	VALSARTAN 320mg tablets
+bk4w.	VALSARTAN 40mg tablets
+bk4x.	VALSARTAN+HYDROCHLOROTHIAZIDE 80mg/12.5mg tablets
+bk4y.	VALSARTAN+HYDROCHLOROTHIAZIDE 160mg/25mg tablets
+bk4z.	VALSARTAN+HYDROCHLOROTHIAZIDE 160mg/12.5mg tablets
+bk51.	IRBESARTAN 75mg tablets
+bk52.	IRBESARTAN 150mg tablets
+bk53.	IRBESARTAN 300mg tablets
+bk54.	APROVEL 75mg tablets
+bk55.	APROVEL 150mg tablets
+bk56.	APROVEL 300mg tablets
+bk57.	COAPROVEL 150mg/12.5mg tablets
+bk58.	COAPROVEL 300mg/12.5mg tablets
+bk59.	COAPROVEL 300mg/25mg tablets
+bk5x.	IRBESARTAN+HYDROCHLOROTHIAZIDE 300mg/25mg tablets
+bk5y.	IRBESARTAN+HYDROCHLOROTHIAZIDE 300mg/12.5mg tablets
+bk5z.	IRBESARTAN+HYDROCHLOROTHIAZIDE 150mg/12.5mg tablets
+bk61.	TRANDOLAPRIL+VERAPAMIL HYDROCHLORIDE 2mg/180mg m/r capsules
+bk62.	*TARKA 2mg/180mg m/r capsules
+bk71.	CANDESARTAN CILEXETIL 2mg tablets
+bk72.	CANDESARTAN CILEXETIL 4mg tablets
+bk73.	CANDESARTAN CILEXETIL 8mg tablets
+bk74.	CANDESARTAN CILEXETIL 16mg tablets
+bk75.	AMIAS 2mg tablets
+bk76.	AMIAS 4mg tablets
+bk77.	AMIAS 8mg tablets
+bk78.	AMIAS 16mg tablets
+bk79.	AMIAS 32mg tablets
+bk7z.	CANDESARTAN CILEXETIL 32mg tablets
+bk81.	TELMISARTAN 40mg tablets
+bk82.	TELMISARTAN 80mg tablets
+bk83.	MICARDIS 40mg tablets
+bk84.	MICARDIS 80mg tablets
+bk85.	MICARDIS 20mg tablets
+bk86.	MICARDISPLUS 40mg/12.5mg tablets
+bk87.	MICARDISPLUS 80mg/12.5mg tablets
+bk88.	MICARDISPLUS 80mg/25mg tablets
+bk8x.	TELMISARTAN+HYDROCHLOROTHIAZIDE 40mg/12.5mg tablets
+bk8y.	TELMISARTAN+HYDROCHLOROTHIAZIDE 80mg/12.5mg tablets
+bk8z.	TELMISARTAN 20mg tablets
+bk91.	TEVETEN 300mg tablets
+bk92.	*TEVETEN 400mg tablets
+bk93.	TEVETEN 600mg tablets
+bk9x.	EPROSARTAN 300mg tablets
+bk9y.	EPROSARTAN 400mg tablets
+bk9z.	EPROSARTAN 600mg tablets
+bkB1.	OLMESARTAN MEDOXOMIL 10mg tablets
+bkB2.	OLMESARTAN MEDOXOMIL 20mg tablets
+bkB3.	OLMESARTAN MEDOXOMIL 40mg tablets
+bkB4.	OLMETEC 10mg tablets
+bkB5.	OLMETEC 20mg tablets
+bkC1.	OLMETEC PLUS 20mg/12.5mg tablets
+bkC2.	OLMETEC PLUS 20mg/25mg tablets
+bkCx.	OLMESARTAN+HYDROCHLOROTHIAZIDE 40mg/12.5mg tablets
+bkCy.	OLMESARTAN + HYDROCHLOROTHIAZIDE 20mg/25mg tablets
+bkCz.	OLMESARTAN + HYDROCHLOROTHIAZIDE 20mg/12.5mg tablets
+bkD2.	AMLODIPINE+VALSARTAN 5mg/160mg tablets
+bkD3.	AMLODIPINE+VALSARTAN 10mg/160mg tablets
+bkDx.	EXFORGE 10mg/160mg tablets
+bkDy.	EXFORGE 5mg/160mg tablets
+bkDz.	EXFORGE 5mg/80mg tablets
+bkF1.	RASILEZ 150mg tablets
+bkGy.	AMBRISENTAN 10mg tablets
+bkGz.	AMBRISENTAN 5mg tablets
+bkH1.	SEVIKAR 20mg/5mg tablets
+bkH3.	SEVIKAR 40mg/10mg tablets
+bkHx.	OLMESARTAN MEDOXOMIL+AMLODIPINE 40mg/10mg tablets
+bkHy.	OLMESARTAN MEDOXOMIL+AMLODIPINE 40mg/5mg tablets
+bkHz.	OLMESARTAN MEDOXOMIL+AMLODIPINE 20mg/5mg tablets
+bkI1.	SEVIKAR HCT 20mg/5mg/12.5mg tablets
+bkI2.	SEVIKAR HCT 40mg/5mg/12.5mg tablets
+bkI5.	SEVIKAR HCT 40mg/10mg/25mg tablets
+bkK2.	MACITENTAN 10mg tablets
+bl15.	GTN 300micrograms sublingual tablets
+bl1a.	*SUSCARD BUCCAL 1mg m/r tabs
+bl1b.	SUSCARD BUCCAL 2mg m/r tablets
+bl1B.	NITRO-DUR 5mg/24hr patches
+bl1c.	SUSCARD BUCCAL 3mg m/r tablets
+bl1C.	NITRO-DUR 10mg/24hr patches
+bl1d.	SUSCARD BUCCAL 5mg m/r tablets
+bl1e.	*SUSTAC 2.6mg m/r tablets
+bl1E.	CORO-NITRO PUMP 400micrograms CFC-free spray
+bl1f.	*SUSTAC 6.4mg m/r tablets
+bl1F.	NITROLINGUAL PUMP 400micrograms CFC-free spray
+bl1g.	*SUSTAC 10mg m/r tablets
+bl1G.	GLYTRIN 400micrograms CFC-free spray
+bl1p.	DEPONIT-5 5mg/24hrs patches
+bl1q.	PERCUTOL 2% ointment
+bl1t.	DEPONIT-10 10mg/24hrs patches
+bl1w.	MINITRAN 5mg/24hrs patches
+bl1x.	MINITRAN 10mg/24hrs patches
+bl2g.	ISOKET RETARD 20mg m/r tablets
+bl33.	ISMO 20mg tablets
+bl35.	*MONIT 20mg tablets
+bl36.	*MONIT LS 10mg tablets
+bl39.	ISMO 10mg tablets
+bl3a.	*ISMO 40mg tablets
+bl3b.	IMDUR DURULES 60mg m/r tablets
+bl3c.	ELANTAN LA 50mg m/r capsules
+bl3d.	ISOSORBIDE MONONITRATE 50mg m/r capsules
+bl3h.	ISMO RETARD 40mg m/r tablets
+bl3j.	ISOSORBIDE MONONITRATE 40mg m/r tablets
+bl3k.	*MONIT SR 40mg m/r tablets
+bl3K.	ISIB 60XL m/r tablets
+bl3L.	ISOSORBIDE MONONITRATE 60mg m/r capsules
+bl3M.	ISOSORBIDE MONONITRATE 40mg m/r capsules
+bl3n.	ELANTAN LA 25mg m/r capsules
+bl3S.	MODISAL 60 XL m/r tablets
+bl3T.	ISOTARD 60XL m/r tablets
+bl3u.	ISOSORBIDE MONONITRATE 25mg m/r capsules
+bl3U.	MONOSORB XL 60 m/r tablets
+bl3v.	ISOSORBIDE MONONITRATE 10mg tablets
+bl3w.	ISOSORBIDE MONONITRATE 20mg tablets
+bl3W.	CHEMYDUR 60XL m/r tablets
+bl3x.	ISOSORBIDE MONONITRATE 40mg tablets
+bl3X.	ISOTARD 40XL m/r tablets
+bl3y.	ISOSORBIDE MONONITRATE 60mg m/r tablets
+bl3Y.	ISOSORBIDE MONONITRATE 25mg m/r tablets
+bl3Z.	ISOSORBIDE MONONITRATE 50mg m/r tablets
+bl51.	TILDIEM 60mg tablets
+bl54.	ADIZEM-SR 120mg m/r tablets
+bl55.	DILTIAZEM HYDROCHLORIDE 120mg m/r tablets
+bl58.	TILDIEM RETARD 90mg m/r tablets
+bl59.	TILDIEM RETARD 120mg m/r tablets
+bl5a.	DILTIAZEM HYDROCHLORIDE 90mg m/r tablets
+bl5A.	TILDIEM LA 300mg m/r capsules
+bl5b.	DILTIAZEM HYDROCHLORIDE 300mg m/r capsules
+bl5B.	ADIZEM-SR 90mg m/r capsules
+bl5c.	DILTIAZEM HYDROCHLORIDE 90mg m/r capsules
+bl5C.	ADIZEM-SR 120mg m/r capsules
+bl5d.	DILTIAZEM HYDROCHLORIDE 120mg m/r capsules
+bl5D.	ADIZEM-SR 180mg m/r capsules
+bl5e.	DILTIAZEM HYDROCHLORIDE 180mg m/r capsules
+bl5E.	ADIZEM-XL 300mg m/r capsules
+bl5f.	DILTIAZEM HYDROCHLORIDE 60mg m/r capsules
+bl5F.	DILZEM SR 60mg m/r capsules
+bl5g.	DILTIAZEM HYDROCHLORIDE 240mg m/r capsules
+bl5G.	DILZEM SR 90mg m/r capsules
+bl5h.	DILTIAZEM HYDROCHLORIDE 200mg m/r capsules
+bl5H.	DILZEM SR 120mg m/r capsules
+bl5I.	ADIZEM-XL 240mg m/r capsules
+bl5J.	ADIZEM-XL 180mg m/r capsules
+bl5K.	ADIZEM-XL 120mg m/r capsules
+bl5l.	DILCARDIA SR 60mg m/r capsules
+bl5L.	DILZEM-XL 120mg m/r capsules
+bl5M.	DILZEM-XL 180mg m/r capsules
+bl5n.	ZEMTARD 300 XL m/r capsules
+bl5N.	DILZEM-XL 240mg m/r capsules
+bl5o.	VIAZEM XL 120mg m/r capsules
+bl5O.	SLOZEM 120mg m/r capsules
+bl5p.	VIAZEM XL 180mg m/r capsules
+bl5P.	SLOZEM 180mg m/r capsules
+bl5q.	VIAZEM XL 240mg m/r capsules
+bl5Q.	SLOZEM 240mg m/r capsules
+bl5r.	VIAZEM XL 300mg m/r capsules
+bl5R.	ANGITIL SR 90 m/r capsules
+bl5s.	DILTIAZEM HYDROCHLORIDE 360mg m/r capsules
+bl5S.	ANGITIL SR 120 m/r capsules
+bl5t.	VIAZEM XL 360mg m/r capsules
+bl5U.	ANGITIL SR 180 m/r capsules
+bl5v.	DILCARDIA SR 90mg m/r capsules
+bl5V.	*CALCICARD CR 90mg m/r tablets
+bl5w.	DILCARDIA SR 120mg m/r capsules
+bl5W.	*CALCICARD CR 120mg m/r tabs
+bl5x.	ANGITIL XL 240 m/r capsules
+bl5y.	ANGITIL XL 300 m/r capsules
+bl5z.	DILTIAZEM HYDROCHLORIDE 60mg m/r tablets
+bl5Z.	TILDIEM LA 200mg m/r capsules
+bl71.	CARDENE 20mg capsules
+bl72.	CARDENE 30mg capsules
+bl73.	CARDENE SR 30mg m/r capsules
+bl7w.	NICARDIPINE 45mg m/r capsules
+bl7x.	NICARDIPINE 30mg m/r capsules
+bl7y.	NICARDIPINE 20mg capsules
+bl7z.	NICARDIPINE 30mg capsules
+bl81.	ADALAT 5mg capsules
+bl82.	ADALAT 10mg capsules
+bl83.	ADALAT RETARD 20mg m/r tablets
+bl84.	ADALAT RETARD 10mg m/r tablets
+bl85.	NIFEDIPINE 5mg capsules
+bl86.	NIFEDIPINE 10mg capsules
+bl8A.	ADIPINE MR 20 m/r tablets
+bl8B.	ADIPINE MR 10 m/r tablets
+bl8e.	CORACTEN SR 20mg m/r capsules
+bl8F.	NIFEDIPINE 40mg m/r tablets
+bl8H.	*CARDILATE MR 10mg m/r tablets
+bl8i.	ADALAT LA 30mg m/r tablets
+bl8j.	ADALAT LA 60mg m/r tablets
+bl8J.	TENSIPINE MR 10 m/r tablets
+bl8k.	CORACTEN SR 10mg m/r capsules
+bl8K.	TENSIPINE MR 20 m/r tablets
+bl8l.	*CARDILATE MR 20mg m/r tablets
+bl8L.	FORTIPINE LA40 m/r tablets
+bl8m.	*ANGIOPINE MR 20mg tablets
+bl8M.	ADALAT LA 20mg m/r tablets
+bl8S.	NIFEDIPRESS MR 10 m/r tablets
+bl8t.	NIFOPRESS RETARD 20mg m/r tablets
+bl8u.	NIFEDIPINE 10mg m/r capsules
+bl8U.	NIFEDIPRESS MR 20 m/r tablets
+bl8v.	NIFEDIPINE 20mg m/r capsules
+bl8V.	NIFEDIPINE 30mg m/r capsules
+bl8w.	NIFEDIPINE 10mg m/r tablets
+bl8W.	NIFEDIPINE 60mg m/r capsules
+bl8x.	NIFEDIPINE 30mg m/r tablets
+bl8X.	CORACTEN XL 30mg m/r capsules
+bl8y.	NIFEDIPINE 60mg m/r tablets
+bl8Y.	CORACTEN XL 60mg m/r capsules
+bl8z.	NIFEDIPINE 20mg m/r tablets
+bla1.	ISRADIPINE 2.5mg tablets
+blb3.	ISTIN 5mg tablets
+blb4.	ISTIN 10mg tablets
+blb5.	*AMLOSTIN 5mg tablets
+blb6.	*AMLOSTIN 10mg tablets
+blb7.	AMLODIPINE 1mg/mL oral solution
+blb8.	AMLODIPINE 2mg/mL oral solution
+blc1.	FELODIPINE 5mg m/r tablets
+blc2.	FELODIPINE 10mg m/r tablets
+blc3.	PLENDIL 5mg m/r tablets
+blc4.	PLENDIL 10mg m/r tablets
+blc5.	FELODIPINE 2.5mg m/r tablets
+blc6.	PLENDIL 2.5mg m/r tablets
+blca.	FELOTENS XL 5mg m/r tablets
+blcb.	FELOTENS XL 10mg m/r tablets
+blci.	VASCALPHA 5mg m/r tablets
+blcj.	VASCALPHA 10mg m/r tablets
+blck.	CARDIOPLEN XL 5mg m/r tablets
+blcl.	CARDIOPLEN XL 10mg m/r tablets
+blcr.	CARDIOPLEN XL 2.5mg m/r tablets
+ble1.	LACIDIPINE 2mg tablets
+ble2.	LACIDIPINE 4mg tablets
+ble3.	MOTENS 2mg tablets
+ble4.	MOTENS 4mg tablets
+blf1.	NICORANDIL 10mg tablets
+blf2.	NICORANDIL 20mg tablets
+blf3.	IKOREL 10mg tablets
+blf4.	IKOREL 20mg tablets
+blg1.	*NISOLDIPINE 10mg m/r tablets
+blg2.	*NISOLDIPINE 20mg m/r tablets
+blh1.	LERCANIDIPINE HYDROCHLORIDE 10mg tablets
+blh2.	ZANIDIP 10mg tablets
+blh3.	LERCANIDIPINE HYDROCHLORIDE 20mg tablets
+blh4.	ZANIDIP 20mg tablets
+blj1.	ZEMTARD 120 XL m/r capsules
+blj2.	ZEMTARD 180 XL m/r capsules
+blj3.	ZEMTARD 240 XL m/r capsules
+bljb.	RETALZEM MR 60mg m/r tablets
+bljC.	BI-CARZEM SR 60mg m/r capsules
+bljD.	BI-CARZEM SR 90mg m/r capsules
+bljJ.	SLOZEM 300mg m/r capsules
+bljP.	ADIZEM-XL 200mg m/r capsules
+blk1.	ISOTARD 25XL m/r tablets
+blk2.	ISOTARD 50XL m/r tablets
+blk6.	ISODUR 25XL m/r capsules
+blk7.	ISODUR 50XL m/r capsules
+blkA.	MONOMAX XL 60mg m/r tablets
+blkB.	XISMOX XL 60 m/r tablets
+blkF.	*EUMON 60 XL m/r tablets
+blkJ.	TRANGINA XL 60mg m/r tablets
+blkN.	MONOMIL XL 60mg m/r tablets
+blkP.	TARDISC XL 60mg m/r tablets
+bll1.	SLOFEDIPINE XL 30mg m/r tablets
+bll2.	SLOFEDIPINE XL 60mg m/r tablets
+bllc.	ADIPINE XL 30mg m/r tablets
+blld.	ADIPINE XL 60mg m/r tablets
+bllg.	VALNI XL 30mg m/r tablets
+bllh.	VALNI XL 60mg m/r tablets
+bllk.	ADANIF XL 30mg m/r tablets
+blll.	ADANIF XL 60mg m/r tablets
+bly2.	ISOSORBIDE DINITRATE 10mg tablets
+bly3.	ISOSORBIDE DINITRATE 20mg tablets
+bly4.	ISOSORBIDE DINITRATE 30mg tablets
+bly5.	ISOSORBIDE DINITRATE 20mg m/r tablets
+blyw.	ISOSORBIDE DINITRATE 40mg m/r tablets
+blzA.	GLYCERYL TRINITRATE 400micrograms spray
+blzF.	GLYCERYL TRINITRATE 15mg/24hrs patches
+blzj.	GLYCERYL TRINITRATE 2mg m/r tablets
+blzk.	GLYCERYL TRINITRATE 3mg m/r tablets
+blzl.	GLYCERYL TRINITRATE 5mg m/r tablets
+blzm.	GLYCERYL TRINITRATE 2.6mg m/r tablets
+blzo.	GLYCERYL TRINITRATE 10mg m/r tablets
+blzr.	GLYCERYL TRINITRATE 5mg/5mL injection
+blzx.	GLYCERYL TRINITRATE 2% ointment
+blzy.	GLYCERYL TRINITRATE 5mg/24hrs patches
+blzz.	GLYCERYL TRINITRATE 10mg/24hrs patches
+bn21.	*STUGERON FORTE 75mg capsules
+bn2z.	*CINNARIZINE 75mg capsules
+bn32.	HEXOPAL 500mg tablets
+bn3A.	INOSITOL NICOTINATE 500mg tablets
+bn3B.	INOSITOL NICOTINATE 750mg tablets
+bn41.	TRENTAL 400mg m/r tablets
+bn4y.	PENTOXIFYLLINE 400mg m/r tablets
+bn51.	OPILON 40mg tablets
+bn5x.	MOXISYLYTE 40mg tablets
+bn61.	PAROVEN 250mg capsules
+bn62.	OXERUTINS 250mg capsules
+bo1z.	CO-DERGOCRINE MESYL 4.5mg tablets
+bo41.	PRAXILENE 100mg capsules
+bo4y.	NAFTIDROFURYL 100mg capsules
+bq71.	BRAMOX 2.5mg tablets
+bq72.	BRAMOX 5mg tablets
+bq73.	MIDODRINE HYDROCHLORIDE 2.5mg tablets
+bq74.	MIDODRINE HYDROCHLORIDE 5mg tablets
+br2C.	DALTEPARIN SODIUM 10,000iu/0.4mL prefilled syringe
+br2D.	DALTEPARIN SODIUM 12,500iu/0.5mL prefilled syringe
+br2E.	DALTEPARIN SODIUM 18,000iu/0.72mL prefilled syringe
+br2F.	FRAGMIN 10,000iu/0.4mL prefilled syringe
+br2G.	FRAGMIN 12,500iu/0.5mL prefilled syringe
+br2h.	FRAGMIN 10,000iu/4mL subcutaneous injection
+br2H.	FRAGMIN 18,000iu/0.72mL prefilled syringe
+br2i.	FRAGMIN 10,000iu/1mL subcutaneous injection
+br2I.	DALTEPARIN SODIUM 15,000iu/0.6mL prefilled syringe
+br2j.	FRAGMIN 12,500iu/mL prefilled syringe 0.2mL
+br2J.	FRAGMIN 15,000iu/0.6mL prefilled syringe
+br2k.	FRAGMIN 25,000iu/mL prefilled syringe 0.2mL
+br2K.	FRAGMIN 10,000iu/1mL prefilled syringe
+br2l.	DALTEPARIN SODIUM 10,000iu/1mL subcutaneous injection
+br2L.	DALTEPARIN SODIUM 7500iu/0.3mL prefilled syringe
+br2m.	DALTEPARIN SODIUM 10,000iu/4mL subcutaneous injection
+br2M.	FRAGMIN 7500iu/0.3mL prefilled syringe
+br2n.	DALTEPARIN SODIUM 12,500iu/mL prefilled syringe 0.2mL
+br2o.	DALTEPARIN SODIUM 25,000iu/mL prefilled syringe 0.2mL
+br2z.	DALTEPARIN SODIUM 10,000iu/1mL prefilled syringe
+br33.	HEPSAL 50units/5mL inj solution for flushing
+br36.	CANUSAL 200iu/2mL inj solution for flushing
+br61.	ENOXAPARIN 20mg/0.2mL prefilled syringe
+br62.	ENOXAPARIN 40mg/0.4mL prefilled syringe
+br63.	CLEXANE 20mg/0.2mL prefilled syringe
+br64.	CLEXANE 40mg/0.4mL prefilled syringe
+br65.	ENOXAPARIN 60mg/0.6mL prefilled syringe
+br66.	ENOXAPARIN 80mg/0.8mL prefilled syringe
+br67.	ENOXAPARIN 100mg/1mL prefilled syringe
+br68.	CLEXANE 60mg/0.6mL prefilled syringe
+br69.	CLEXANE 80mg/0.8mL prefilled syringe
+br6A.	CLEXANE 100mg/1mL prefilled syringe
+br6B.	CLEXANE 120mg/0.8mL prefilled syringe
+br6C.	CLEXANE 150mg/1mL prefilled syringe
+br6y.	ENOXAPARIN 120mg/0.8mL prefilled syringe
+br6z.	ENOXAPARIN 150mg/1mL prefilled syringe
+br7B.	TINZAPARIN SODIUM 40,000iu(anti Xa)/2mL subcutaneous injection vials
+br7E.	TINZAPARIN SODIUM 10,000iu(anti Xa)/0.5mL prefilled syringe
+br7F.	TINZAPARIN SODIUM 14,000iu(anti Xa)/0.7mL prefilled syringe
+br7G.	TINZAPARIN SODIUM 18,000iu(anti Xa)/0.9mL prefilled syringe
+br7H.	INNOHEP 10,000iu(anti Xa)/0.5mL prefilled syringe
+br7J.	INNOHEP 14,000iu(anti Xa)/0.7mL prefilled syringe
+br7K.	INNOHEP 18,000iu(anti Xa)/0.9mL prefilled syringe
+br7L.	TINZAPARIN SODIUM 3500iu(anti Xa)/0.35mL prefilled syringe
+br7M.	TINZAPARIN SODIUM 4500iu(anti Xa)/0.45mL prefilled syringe
+br7N.	INNOHEP 3500iu(anti Xa)/0.35mL prefilled syringe
+br7O.	INNOHEP 4500iu(anti Xa)/0.45mL prefilled syringe
+br7P.	TINZAPARIN SODIUM 20,000iu(anti Xa)/2mL injection vial
+br7Q.	INNOHEP 20,000iu(anti Xa)/2mL injection vial
+br7R.	INNOHEP 2500iu(anti Xa)/0.25mL prefilled syringe
+br7S.	TINZAPARIN SODIUM 2500iu(anti Xa)/0.25mL prefilled syringe
+br7V.	INNOHEP 16,000iu(anti Xa)/0.8mL prefilled syringe
+br7W.	TINZAPARIN SODIUM 8000iu(anti Xa)/0.4mL prefilled syringe
+br7X.	TINZAPARIN SODIUM 12,000iu(anti Xa)/0.6mL prefilled syringe
+br7Y.	TINZAPARIN SODIUM 16,000iu(anti Xa)/0.8mL prefilled syringe
+br91.	CERTOPARIN SODIUM 3000iu(anti Xa)/0.3mL prefilled syringe
+br93.	ALPHAPARIN 3000iu(anti Xa)/0.3mL prefilled syringe
+brD1.	FONDAPARINUX SODIUM 2.5mg/0.5mL prefilled syringe
+brD3.	FONDAPARINUX SODIUM 7.5mg/0.6mL prefilled syringe
+brD4.	FONDAPARINUX SODIUM 10mg/0.8mL prefilled syringe
+brE1.	BEMIPARIN SODIUM 2,500iu/0.2mL injection solution prefilled syringe
+bs17.	WARFARIN SODIUM 1mg tablets
+bs18.	WARFARIN SODIUM 3mg tablets
+bs19.	WARFARIN SODIUM 5mg tablets
+bs1A.	WARFARIN SODIUM 0.5mg tablets
+bs1C.	WARFARIN SODIUM 1mg/1mL oral suspension
+bs21.	SINTHROME 1mg tablets
+bs23.	ACENOCOUMAROL 1mg tablets
+bs42.	PRADAXA 110mg capsules
+bs43.	PRADAXA 150mg capsules
+bs4x.	DABIGATRAN ETEXILATE 150mg capsules
+bs4y.	DABIGATRAN ETEXILATE 110mg capsules
+bs4z.	DABIGATRAN ETEXILATE 75mg capsules
+bs61.	XARELTO 10mg tablets
+bs62.	XARELTO 15mg tablets
+bs63.	XARELTO 20mg tablets
+bs6w.	RIVAROXABAN 2.5mg tablets
+bs6x.	RIVAROXABAN 20mg tablets
+bs6y.	RIVAROXABAN 15mg tablets
+bs6z.	RIVAROXABAN 10mg tablets
+bs71.	ELIQUIS 2.5mg tablets
+bs72.	APIXABAN 2.5mg tablets
+bs73.	ELIQUIS 5mg tablets
+bs74.	APIXABAN 5mg tablets
+bs82.	LIXIANA 30mg tablets
+bs83.	LIXIANA 60mg tablets
+bs84.	EDOXABAN 15mg tablets
+bs85.	EDOXABAN 30mg tablets
+bs86.	EDOXABAN 60mg tablets
+bu11.	*PERSANTIN 25mg tablets
+bu12.	PERSANTIN 100mg tablets
+bu14.	DIPYRIDAMOLE 25mg tablets
+bu15.	DIPYRIDAMOLE 100mg tablets
+bu1C.	DIPYRIDAMOLE 200mg m/r capsules
+bu1D.	PERSANTIN RETARD 200mg m/r capsules
+bu1F.	ATTIA 200mg m/r capsules
+bu23.	ASPIRIN 75mg dispersible tablets
+bu25.	*ASPIRIN 75mg tablets
+bu2A.	NU-SEALS ASPIRIN 75mg e/c tablets
+bu2B.	ASPIRIN 75mg e/c tablets
+bu2F.	*CAPRIN 75mg e/c tablets
+bu2K.	MICROPIRIN 75mg e/c tablets
+bu41.	DIPYRIDAMOLE+ASPIRIN 200mg/25mg m/r capsules
+bu42.	ASASANTIN RETARD m/r capsules
+bu43.	MOLITA 200mg/25mg m/r capsules
+bu52.	PLAVIX 75mg tablets
+bu54.	CLOPIDOGREL 300mg tablets
+bu91.	CILOSTAZOL 100mg tablets
+buA3.	EFIENT 10mg tablets
+buB1.	BRILIQUE 90mg tablets
+buBz.	TICAGRELOR 90mg tablets
+bw12.	*DICYNENE 500mg tablets
+bw1x.	*ETAMSYLATE 500mg tablets
+bw31.	CYKLOKAPRON 500mg tablets
+bw33.	CYKLOKAPRON 500mg/5mL injection
+bw34.	TRANEXAMIC ACID 500mg tablets
+bw36.	TRANEXAMIC ACID 500mg/5mL injection
+bwA4.	HAEMATE P 1000iu injection powder+diluent+kit
+bx11.	BEZALIP 200mg tablets
+bx12.	BEZALIP-MONO 400mg m/r tablets
+bx13.	BEZAFIBRATE 200mg tablets
+bx14.	BEZAFIBRATE 400mg m/r tablets
+bx17.	ZIMBACOL XL 400mg m/r tablets
+bx22.	QUESTRAN LIGHT 4g/sachet powder
+bx23.	COLESTYRAMINE powder 4g/sachet
+bx25.	COLESTYRAMINE+ASPARTAME 4g/sachet powder
+bx41.	COLESTID granules 5g sachet
+bx42.	COLESTIPOL granules 5g sachet
+bx43.	COLESTID ORANGE granules 5g sachet
+bx61.	LOPID 300mg capsules
+bx62.	LOPID 600mg tablets
+bx63.	GEMFIBROZIL 600mg tablets
+bx6z.	GEMFIBROZIL 300mg capsules
+bx82.	NICOTINIC ACID 50mg tablets
+bx85.	NICOTINIC ACID 500mg m/r tablets
+bx86.	NICOTINIC ACID 750mg m/r tablets
+bx87.	NICOTINIC ACID 1000mg m/r tablets
+bx88.	NIASPAN 375mg and 500mg and 750mg m/r tablets starter pack
+bx89.	*NIASPAN 500mg m/r tablets
+bx8a.	*NIASPAN 750mg m/r tablets
+bx8b.	*NIASPAN 1000mg m/r tablets
+bx8c.	TREDAPTIVE 1000mg/20mg m/r tablets
+bx8d.	NICOTINIC ACID/LAROPIPRANT 1000mg/20mg m/r tablets
+bxa1.	*MAXEPA 1g capsules
+bxa7.	OMACOR 1g capsules
+bxa9.	PRESTYLON 1g capsules
+bxaB.	DUALTIS 1000mg capsules
+bxb1.	OLBETAM 250mg capsules
+bxb2.	ACIPIMOX 250mg capsules
+bxc4.	FENOFIBRATE 200mg capsules
+bxc5.	LIPANTIL MICRO 200mg capsules
+bxc6.	FENOFIBRATE 67mg capsules
+bxc7.	LIPANTIL MICRO 67mg capsules
+bxc8.	FENOFIBRATE 267mg capsules
+bxc9.	LIPANTIL MICRO 267mg capsules
+bxcA.	FENOFIBRATE 160mg m/r tablets
+bxcB.	SUPRALIP 160mg m/r tablets
+bxcC.	FENOFIBRATE MICRO 200mg capsules
+bxd1.	SIMVASTATIN 10mg tablets
+bxd2.	SIMVASTATIN 20mg tablets
+bxd5.	SIMVASTATIN 40mg tablets
+bxd6.	ZOCOR 40mg tablets
+bxd7.	ZOCOR 10mg tablets
+bxdA.	SIMVADOR 10mg tablets
+bxdB.	SIMVADOR 20mg tablets
+bxdC.	SIMVADOR 40mg tablets
+bxdH.	INEGY 10mg/20mg tablets
+bxdI.	INEGY 10mg/40mg tablets
+bxdK.	SIMVADOR 80mg tablets
+bxdu.	SIMVASTATIN 20mg/5mL oral suspension
+bxdv.	SIMVASTATIN 40mg/5mL oral suspension
+bxdw.	SIMVASTATIN 80mg/EZETIMIBE 10mg tablets
+bxdx.	SIMVASTATIN 40mg/EZETIMIBE 10mg tablets
+bxdy.	SIMVASTATIN 20mg/EZETIMIBE 10mg tablets
+bxdz.	SIMVASTATIN 80mg tablets
+bxe3.	LIPOSTAT 10mg tablets
+bxe4.	LIPOSTAT 20mg tablets
+bxe5.	PRAVASTATIN SODIUM 10mg tablets
+bxe6.	PRAVASTATIN SODIUM 20mg tablets
+bxe7.	PRAVASTATIN SODIUM 40mg tablets
+bxe8.	LIPOSTAT 40mg tablets
+bxf1.	*MODALIM 100mg tablets
+bxf2.	CIPROFIBRATE 100mg tablets
+bxg5.	LESCOL XL 80mg m/r tablets
+bxgz.	FLUVASTATIN 80mg m/r tablets
+bxi4.	LIPITOR 10mg tablets
+bxi5.	LIPITOR 20mg tablets
+bxi6.	LIPITOR 40mg tablets
+bxi7.	LIPITOR 80mg tablets
+bxi8.	LIPITOR 10mg chewable tablets
+bxi9.	ATORVASTATIN 10mg chewable tablets
+bxiA.	LIPITOR 20mg chewable tablets
+bxiB.	ATORVASTATIN 20mg chewable tablets
+bxiy.	ATORVASTATIN 60mg tablets
+bxj1.	CERIVASTATIN SODIUM 100micrograms tablets
+bxj2.	CERIVASTATIN SODIUM 200micrograms tablets
+bxj7.	CERIVASTATIN SODIUM 400micrograms tablets
+bxk1.	CRESTOR 10mg tablets
+bxk2.	CRESTOR 20mg tablets
+bxk3.	CRESTOR 40mg tablets
+bxk4.	CRESTOR 5mg tablets
+bxkw.	ROSUVASTATIN 5mg tablets
+bxkx.	ROSUVASTATIN 10mg tablets
+bxky.	ROSUVASTATIN 20mg tablets
+bxkz.	ROSUVASTATIN 40mg tablets
+bxl1.	EZETIMIBE 10mg tablets
+bxlz.	EZETROL 10mg tablets
+bxm1.	CHOLESTAGEL 625mg tablets
+bxo4.	EVOLOCUMAB 140mg/1mL solution for injection prefilled pen
+bz11.	ENOXIMONE 100mg/20mL injection
+dt13.	NIMODIPINE 30mg tablets
+gh59.	REVATIO 10mg/12.5mL solution for injection
+pum1.	COAGUCHEK S blood coagulation test strip

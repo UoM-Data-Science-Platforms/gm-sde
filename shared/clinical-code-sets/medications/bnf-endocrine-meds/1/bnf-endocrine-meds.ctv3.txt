@@ -1,0 +1,697 @@
+f12a.	Humulin S 100iu/mL injection 10mL
+f12C.	Humaject S 100iu/mL prefilled pen
+f12I.	Hypurin Porcine Neutral 100iu/mL injection 10mL
+f12M.	Insuman Rapid 100iu/mL injection cartridge 3mL
+f12s.	Humulin S 100iu/mL cartridges 3mL
+f12S.	Hypurin Bovine Neutral 100iu/mL injection cartridge 3mL
+f12T.	Hypurin Porcine Neutral 100iu/mL injection cartridge 3mL
+f12U.	EXUBERA 1mg powder for inhalation
+f12V.	EXUBERA 3mg powder for inhalation
+f12Y.	INSUMAN INFUSAT 100iu/mL soln for inj cartridges 3.15mL
+f131.	Insulin lispro 100iu/mL injection vial
+f133.	Insulin lispro 100iu/mL injection cartridge
+f134.	Humalog 100iu/mL cartridges 1.5mL
+f135.	Humalog 100iu/mL cartridge 3mL
+f136.	Insulin lispro 100iu/mL prefilled pen
+f138.	HUMALOG KWIKPEN 100iu/mL prefilled pen 3mL
+f139.	HUMALOG KWIKPEN 200iu/mL prefilled pen 3mL
+f141.	NovoRapid 100units/mL injection vial
+f143.	NovoRapid Penfill 100units/mL cartridge 3mL
+f144.	NovoRapid FlexPen 100units/mL prefilled pen 3mL
+f145.	NOVORAPID FLEXTOUCH 100units/mL soln for injection pen 3mL
+f146.	NOVORAPID PUMPCART 100units/mL soln for inj cartridges 1.6mL
+f14x.	Insulin aspart 100units/mL injection vial
+f14z.	Insulin aspart 100units/mL cartridge
+f151.	Apidra 100iu/mL injection vials 10mL
+f152.	Apidra 100iu/mL injection cartridges 3mL
+f154.	APIDRA 100iu/mL OptiClik cartridges 3mL
+f155.	APIDRA 100iu/mL SoloStar prefilled pen 3mL
+f15y.	Insulin glulisine 100iu/mL injection cartridge
+f15z.	Insulin glulisine 100iu/mL injection vial
+f227.	Humulin Lente 100iu/mL injection 10mL
+f242.	Humulin Zn 100iu/mL injection 10mL
+f25a.	Humulin I 100iu/mL injection 10mL
+f25A.	Humulin I 100iu/mL prefilled pen 3mL
+f25C.	Insulatard InnoLet 100units/mL prefilled syringe 3mL
+f25D.	Insulatard FlexPen 100iu/mL prefilled pen 3mL
+f25F.	Hypurin Porcine Isophane 100iu/mL injection cartridge 3mL
+f25G.	HUMULIN I KWIKPEN 100iu/mL prefilled pen 3mL
+f25H.	INSUMAN BASAL SOLOSTAR 100iu/mL prefilled pen 3mL
+f25o.	Humulin I 100iu/mL cartridges 3mL
+f25r.	Pork Insulatard 100units/mL injection 10mL
+f25v.	Hypurin Bovine Isophane 100iu/mL injection 10mL
+f25v.	Hypurin isophane 100iu/mL injection 10mL
+f25w.	Hypurin Porcine Isophane 100iu/mL injection 10mL
+f25y.	Insuman Basal 100iu/mL injection vial 5mL
+f25z.	Insuman Basal 100iu/mL injection cartridge 3mL
+f27C.	Humaject M3 100iu/mL prefilled pen
+f27L.	Human Mixtard 30 Penfill 1.5mL
+f27L.	PenMix 30/70 cartridges 1.5mL
+f27O.	Mixtard 30 InnoLet 100units/mL prefilled syringe 3mL
+f27P.	Human Mixtard 10 prefilled pen
+f27P.	Mixtard 10 NovoLet prefilled pen
+f27P.	PenMix 10/90 (pyr) 100iu/mL preloaded injection pen
+f27Q.	Human Mixtard 20 prefilled pen
+f27Q.	Mixtard 20 NovoLet prefilled pen
+f27Q.	PenMix 20/80 (pyr) 100iu/mL preloaded injection pen
+f27R.	Human Mixtard 30 prefilled pen
+f27R.	Mixtard 30 NovoLet prefilled pen
+f27R.	PenMix 30/70 (pyr) 100iu/mL preloaded injection pen
+f27S.	Human Mixtard 40 prefilled pen
+f27S.	Mixtard 40 NovoLet prefilled pen
+f27S.	PenMix 40/60 (pyr) 100iu/mL preloaded injection pen
+f27T.	Human Mixtard 50 prefilled pen
+f27T.	Mixtard 50 NovoLet prefilled pen
+f27T.	PenMix 50/50 (pyr) 100iu/mL preloaded injection pen
+f27x.	Humulin M2 20/80 cartridges 3mL
+f27y.	Insuman Comb 25 100iu/mL injection cartridge 3mL
+f27z.	Humulin M3 30/70 cartridges 3mL
+f283.	Mixtard 30 (human) Penfill cartridge 3mL
+f283.	Mixtard 30 Penfill cartridge 3mL
+f284.	Mixtard 40 (human) Penfill cartridge 3mL
+f284.	Mixtard 40 Penfill cartridge 3mL
+f286.	Insuman Comb 15 100iu/mL injection cartridge 3mL
+f288.	Insuman Comb 15 OptiSet 100iu/mL prefilled pen 3mL
+f289.	Insuman Comb 25 OptiSet 100iu/mL prefilled pen 3mL
+f28A.	Insuman Comb 50 OptiSet 100iu/mL prefilled pen 3mL
+f28C.	Insuman Comb 50 100iu/mL injection cartridge 3mL
+f28E.	HUMULIN M3 KWIKPEN 100iu/mL prefilled pen 3mL
+f28F.	INSUMAN COMB 25 SOLOSTAR 100iu/mL prefilled pen 3mL
+f291.	Insulin glargine 100iu/mL injection cartridge
+f292.	Insulin glargine 100iu/mL injection vial
+f293.	Insulin glargine 100iu/mL prefilled pen
+f294.	Lantus 100iu/mL injection cartridge 3mL
+f295.	Lantus 100iu/mL injection vial 10mL
+f296.	Lantus 100iu/mL OptiSet prefilled pen 3mL
+f297.	Lantus 100iu/mL OptiClik cartridges 3mL
+f298.	LANTUS 100iu/mL SoloStar prefilled pen 3mL
+f299.	TOUJEO 300iu/mL SoloStar prefilled pen 1.5mL
+f29A.	INSULIN GLARGINE 300iu/mL prefilled pen
+f29B.	ABASAGLAR 100iu/mL solution for injection cartridges 3mL
+f29C.	ABASAGLAR KWIKPEN 100iu/mL soln for inj prefilled pen 3mL
+f2A1.	Levemir Penfill 100iu/mL injection cartridge 3mL
+f2A2.	Levemir FlexPen 100iu/mL prefilled pen 3mL
+f2A3.	LEVEMIR INNOLET 100iu/mL prefilled syringe 3mL
+f2Ay.	Insulin detemir 100iu/mL prefilled pen
+f2Az.	Insulin detemir 100iu/mL injection cartridge
+f2B1.	TRESIBA FLEXTOUCH 100iu/mL prefilled pen 3mL
+f2B2.	INSULIN DEGLUDEC 100iu/mL prefilled pen
+f2B3.	TRESIBA FLEXTOUCH 200iu/mL prefilled pen 3mL
+f2B5.	TRESIBA PENFILL 100iu/mL injection cartridges
+f2B6.	INSULIN DEGLUDEC 100iu/mL injection cartridges
+f2C1.	XULTOPHY 100iu/mL/3.6mg/mL soln for inj prefilled pen 3mL
+f331.	Glibenclamide 2.5mg tablet
+f332.	Glibenclamide 5mg tablet
+f333.	Daonil 5mg tablet
+f336.	Euglucon 5mg tablet
+f351.	Diamicron 80mg tablet
+f354.	Diamicron MR 30mg m/r tablet
+f357.	ZICRON 40mg tablets
+f35w.	GLICLAZIDE 60mg m/r tablets
+f35x.	GLICLAZIDE 40mg tablets
+f35y.	Gliclazide 30mg m/r tablet
+f35z.	Gliclazide 80mg tablet
+f361.	Glipizide 5mg tablet
+f362.	Glibenese 5mg tablet
+f364.	Minodiab 5mg tablet
+f36z.	Glipizide 2.5mg tablet
+f3a1.	Tolbutamide 500mg tablet
+f3A1.	Glimepiride 2mg tablet
+f3A2.	Amaryl 2mg tablet
+f3A3.	Glimepiride 1mg tablet
+f3A4.	Glimepiride 3mg tablet
+f3A5.	Glimepiride 4mg tablet
+f3A6.	Amaryl 1mg tablet
+f3A7.	Amaryl 3mg tablet
+f3A8.	Amaryl 4mg tablet
+f411.	Glucophage 500mg tablet
+f412.	Glucophage 850mg tablet
+f417.	Glucophage SR 500mg m/r tablet
+f419.	GLUCOPHAGE SR 750mg m/r tablets
+f41A.	GLUCOPHAGE SR 1000mg m/r tablets
+f41B.	BOLAMYN SR 500mg m/r tablets
+f41C.	GLUCOPHAGE 500mg/sachet oral powder
+f41D.	GLUCOPHAGE 1000mg/sachet oral powder
+f41E.	METABET SR 500mg m/r tablets
+f41F.	METABET SR 1000mg m/r tablets
+f41G.	GLUCIENT SR 500mg m/r tablets
+f41I.	SUKKARTO SR 500mg m/r tablets
+f41J.	SUKKARTO SR 1000mg m/r tablets
+f41s.	METFORMIN HYDROCHLORIDE 1000mg/sachet oral powder
+f41t.	METFORMIN HYDROCHLORIDE 500mg/sachet oral powder
+f41u.	METFORMIN HYDROCHLORIDE 1000mg m/r tablets
+f41x.	Metformin hydrochloride 500mg m/r tablet
+f41y.	Metformin hydrochloride 500mg tablet
+f41z.	Metformin hydrochloride 850mg tablet
+f71z.	Diazoxide 50mg tablet
+f724.	GlucaGen HypoKit 1mg(1iu) injection
+f724.	GlucaGen kit 1mg(1iu) injection
+f72z.	Glucagon 1mg(1unit) injection (pdr for recon)
+f731.	Glucogel dextrose gel
+f731.	Hypostop dextrose gel
+f735.	DEXTROGEL oral gel 80g
+f911.	Tertroxin 20mcg tablet
+f91y.	Liothyronine sodium 20micrograms tablet
+f924.	Eltroxin 50mcg tablet
+f925.	Eltroxin 100mcg tablet
+f926.	Eltroxin 25micrograms tablet
+f927.	LEVOTHYROXINE SODIUM 25micrograms/5mL oral solution
+f928.	LEVOTHYROXINE SODIUM 50micrograms/5mL oral solution
+f929.	LEVOTHYROXINE SODIUM 100micrograms/5mL oral solution
+f92A.	EVOTROX 25micrograms/5mL oral solution
+f92B.	EVOTROX 50micrograms/5mL oral solution
+f92C.	EVOTROX 100micrograms/5mL oral solution
+f92D.	ELTROXIN 25micrograms/5mL oral solution
+f92F.	ELTROXIN 100micrograms/5mL oral solution
+fa11.	Neo-Mercazole 5mg tablet
+fa12.	Neo-Mercazole 20mg tablet
+fa1y.	Carbimazole 20mg tablet
+fa1z.	Carbimazole 5mg tablet
+fa21.	Aqueous iodine 130mg/mL oral solution BP
+fa21.	Lugols Iodine
+fa31.	Propylthiouracil 50mg tablet
+fb1z.	Fludrocortisone acetate 100micrograms tablet
+fe11.	Betnelan 500mcg tablet
+fe12.	Betnesol 500mcg soluble tablet
+fe22.	Cortisone acetate 25mg tablet
+fe31.	Dexamethasone 500micrograms tablet
+fe32.	Dexamethasone 2mg tablet
+fe3A.	Dexsol 2mg/5mL oral solution
+fe3B.	DEXAMETHASONE 10mg/5mL oral solution
+fe3s.	Dexamethasone 2mg/5mL s/f oral solution
+fe41.	Hydrocortisone 10mg tablet
+fe42.	Hydrocortisone 20mg tablet
+fe44.	Hydrocortone 10mg tablet
+fe45.	Hydrocortone 20mg tablet
+fe46.	Hydrocortisone 100mg injection (pdr for recon)
+fe4e.	PLENADREN 5mg m/r tablets
+fe4f.	HYDROCORTISONE 5mg m/r tablets
+fe4g.	PLENADREN 20mg m/r tablets
+fe52.	Medrone 4mg tablet
+fe56.	Solu-Medrone 40mg injection (pdr for recon)+diluent
+fe5f.	Medrone 100mg tablet
+fe5m.	Methylprednisolone 100mg tablet
+fe5n.	Methylprednisolone 2mg tablet
+fe5o.	Methylprednisolone 4mg tablet
+fe5p.	Methylprednisolone 16mg tablet
+fe5t.	Methylprednisolone 125mg injection (pdr for recon)+diluent
+fe61.	Prednisolone 1mg tablet
+fe62.	Prednisolone 5mg tablet
+fe65.	Deltacortril Enteric 2.5mg e/c tablet
+fe66.	Deltacortril Enteric 5mg e/c tablet
+fe6h.	Prednisolone 2.5mg e/c tablet
+fe6i.	Prednisolone 5mg e/c tablet
+fe6p.	PEVANTI 5mg tablets
+fe6s.	PREDNISOLONE 20mg tablets
+fe6t.	PREDNISOLONE 10mg tablets
+fe6v.	Prednisolone 2.5mg tablet
+fe6z.	Prednisolone 25mg tablet
+fe77.	LODOTRA 2mg m/r tablets
+fe78.	LODOTRA 5mg m/r tablets
+fe79.	LODOTRA 1mg m/r tablets
+fe7x.	PREDNISONE 5mg m/r tablets
+fe7y.	PREDNISONE 2mg m/r tablets
+fe7z.	PREDNISONE 1mg m/r tablets
+fe84.	Kenalog 40mg/1mL prefilled syringe
+fe88.	Kenalog 80mg/2mL prefilled syringe
+fe8w.	Triamcinolone acetonide 40mg/1mL i-m prefilled syringe
+fe8x.	Triamcinolone 40mg/1mL injection
+fe91.	Deflazacort 6mg tablet
+fe93.	Deflazacort 30mg tablet
+fe94.	Calcort 30mg tablet
+fe95.	Deflazacort 1mg tablet
+ff11.	Ethinylestradiol 10micrograms tablet
+ff11.	Ethinyloestradiol 10micrograms tablet
+ff12.	Ethinylestradiol 50micrograms tablet
+ff12.	Ethinyloestradiol 50micrograms tablet
+ff13.	Ethinylestradiol 1mg tablet
+ff13.	Ethinyloestradiol 1mg tablet
+ff26.	Hormonin tablet
+ff27.	Progynova 1mg tablet
+ff28.	Progynova 2mg tablet
+ff29.	Estraderm TTS 25micrograms patch
+ff2a.	Estraderm TTS 50micrograms patch
+ff2A.	Fematrix 80 patch
+ff2b.	Estraderm TTS 100micrograms patch
+ff2B.	Estradiol 80micrograms patch
+ff2B.	Oestradiol 80micrograms patch
+ff2c.	Estrapak 50micrograms/1mg patch+tablet
+ff2E.	Menorest 37.5micrograms patch
+ff2f.	Climaval 1mg tablet
+ff2F.	Menorest 50micrograms patch
+ff2g.	Climaval 2mg tablet
+ff2G.	Menorest 75micrograms patch
+ff2h.	Zumenon 2mg tablet
+ff2i.	Elleste-Solo MX 40 patch
+ff2I.	Estradiol 40micrograms patch
+ff2I.	Oestradiol 40micrograms patch
+ff2j.	Evorel 50 patch
+ff2J.	Fematrix 40 patch
+ff2K.	FemSeven 50 patch
+ff2l.	Evorel 25 patch
+ff2L.	Elleste-Solo 2mg tablet
+ff2m.	Estradiol valerate 2mg tablet
+ff2m.	Oestradiol valerate 2mg tablet
+ff2M.	Estradiol valerate 1mg tablet
+ff2M.	Oestradiol valerate 1mg tablet
+ff2n.	Evorel 75 patch
+ff2N.	Elleste-Solo 1mg tablet
+ff2o.	Evorel 100 patch
+ff2O.	Progynova TS 50 50micrograms patch
+ff2O.	Progynova TS 50micrograms patch
+ff2p.	Estradiol 75micrograms patch
+ff2p.	Oestradiol 75micrograms patch
+ff2P.	Progynova TS 100 100micrograms patch
+ff2P.	Progynova TS Forte 100micrograms patch
+ff2q.	Estradiol 25micrograms patch
+ff2q.	Oestradiol 25micrograms patch
+ff2Q.	Estraderm MX 25 patch
+ff2r.	Estradiol 50micrograms patches
+ff2r.	Oestradiol 50micrograms patch
+ff2R.	Estraderm MX 50 patch
+ff2s.	Estradiol 100micrograms patch
+ff2s.	Oestradiol 100micrograms patch
+ff2S.	Estraderm MX 100 patch
+ff2t.	Estradiol 25mg implant
+ff2t.	Oestradiol 25mg implant
+ff2T.	Zumenon 1mg tablet
+ff2u.	Estradiol 50mg implant
+ff2u.	Oestradiol 50mg implant
+ff2v.	Estradiol 100mg implant
+ff2v.	Oestradiol 100mg implant
+ff2X.	Estradiol 0.5mg/dose gel
+ff2X.	Oestradiol 0.5mg/dose gel
+ff2y.	Estradiol 1mg tablet
+ff2y.	Oestradiol 1mg tablet
+ff2Y.	Estradiol 1mg/dose gel
+ff2Y.	Oestradiol 1mg/dose gel
+ff2z.	Estradiol 2mg tablet
+ff2z.	Oestradiol 2mg tablet
+ff2Z.	Sandrena 0.5mg gel
+ff32.	Ovestin 1mg tablet
+ff33.	Estriol 1mg tablet
+ff33.	Oestriol 1mg tablet
+ff41.	Premarin 625micrograms tablet
+ff42.	Premarin 1.25mg tablet
+ff43.	Premarin 2.5mg tablet
+ff44.	PREMARIN 300micrograms tablets
+ff4w.	CONJUGATED OESTROGENS 300micrograms tablets
+ff4x.	Conjugated oestrogens 625micrograms tablet
+ff4y.	Conjugated oestrogens 1.25mg tablet
+ff4z.	Conjugated oestrogens 2.5mg tablet
+ff51.	Harmogen 1.5mg tablet
+ff81.	Tibolone 2.5mg tablet
+ff83.	Livial 2.5mg tablets x84
+ff91.	Sandrena 1mg gel
+ff92.	Elleste-Solo MX 80 patch
+ff93.	FemSeven 75 patch
+ff94.	FemSeven 100 patch
+ff95.	Estradiol 0.06% gel
+ff95.	Oestradiol 0.06% gel
+ff97.	Estraderm MX 75 patch
+ff9A.	Dermestril-Septem 50micrograms patch
+ff9C.	Aerodiol 150micrograms nasal spray
+ff9E.	FemTab 1mg tablet
+ff9F.	FemTab 2mg tablet
+ff9G.	Estradot 25micrograms patch
+ff9H.	Estradot 37.5micrograms patch
+ff9I.	Estradot 50micrograms patch
+ff9J.	Estradot 75micrograms patch
+ff9K.	Estradot 100micrograms patch
+ff9L.	Bedol 2mg tablet
+ff9z.	Estradiol hemihydrate 150micrograms nasal spray
+ff9z.	Oestradiol hemihydrate 150micrograms nasal spray
+fg21.	Duphaston 10mg tablet
+fg22.	Duphaston-HRT 10mg tablet
+fg2z.	Dydrogesterone 10mg tablet
+fg44.	Provera 5mg tablet
+fg45.	Provera 10mg tablet
+fg46.	Medroxyprogesterone acetate 10mg tablet
+fg47.	Provera 2.5mg tablet
+fg48.	Medroxyprogesterone 2.5mg tablet
+fg4z.	Medroxyprogesterone acetate 5mg tablet
+fg51.	Norethisterone 5mg tablet
+fg52.	Primolut-N 5mg tablet
+fg53.	Utovlan 5mg tablet
+fg56.	Micronor.HRT 1mg tablet
+fg57.	Norethisterone 1mg tablet
+fg61.	Cyclogest 200mg pessary
+fg61.	Cyclogest 200mg suppository
+fg62.	Cyclogest 400mg pessary
+fg62.	Cyclogest 400mg suppository
+fg64.	Gestone 25mg/1mL injection
+fg65.	Gestone 50mg/1mL injection
+fg66.	Gestone 100mg/2mL injection
+fg67.	Progesterone 100mg/2mL injection
+fg68.	Progesterone 4% vaginal gel
+fg69.	Progesterone 8% vaginal gel
+fg6B.	Crinone 8% vaginal gel
+fg6C.	UTROGESTAN 100mg capsules
+fg6D.	UTROGESTAN 200mg capsules
+fg6E.	UTROGESTAN 200mg vaginal capsules+applicators
+fg6F.	LUBION 25mg/1.119mL solution for injection
+fg6G.	LUTIGEST 100mg vaginal tablets+applicator
+fg6p.	PROGESTERONE 100mg vaginal tablets+applicator
+fg6r.	PROGESTERONE MICRONISED 200mg vaginal capsules+applicators
+fg6s.	PROGESTERONE MICRONISED 200mg capsules
+fg6t.	PROGESTERONE MICRONISED 100mg capsules
+fg6y.	Progesterone 50mg/1mL injection
+fh11.	Cyclo-Progynova 1mg tablet
+fh12.	Cyclo-Progynova 2mg tablet
+fh17.	Prempak-C 0.625 tablets x1 month
+fh18.	Prempak-C 1.25 tablets X1 month
+fh19.	Trisequens tablet
+fh1A.	Nuvelle TS patch
+fh1b.	Prempak-C 1.25 tablets X3 months
+fh1B.	Kliofem tablet
+fh1c.	Trisequens Forte tablet
+fh1C.	Estradiol+norethisterone acetate 2mg/1mg tablet
+fh1C.	Oestradiol+norethisterone acetate 2mg/1mg tablet
+fh1d.	Nuvelle tablet
+fh1D.	Femoston 2/20 tablet
+fh1E.	Femoston 2/10 tablet
+fh1F.	Tridestra tablet
+fh1G.	Femoston 1/10 tablet
+fh1h.	Climagest 1mg tablet
+fh1H.	Elleste Duet 2mg tablet
+fh1I.	Novofem tablet
+fh1j.	Climagest 2mg tablet
+fh1k.	Premique 0.625mg/5mg tablet
+fh1K.	Estradiol valerate+norethisterone 2mg/0.7mg tablet
+fh1K.	Oestradiol valerate+norethisterone 2mg/0.7mg tablet
+fh1L.	Climesse tablet
+fh1m.	Femapak 80 patch+tablet
+fh1M.	Elleste Duet 1mg tablet
+fh1n.	Femapak 40 patch+tablet
+fh1N.	Evorel Sequi patch
+fh1o.	Adgyn Combi 2mg tablet
+fh1O.	Evorel Conti patch
+fh1p.	FemSeven Conti patch
+fh1Q.	Elleste Duet Conti tablet
+fh1R.	Estradiol+norethisterone acetate 1mg/0.5mg tablet
+fh1R.	Oestradiol+norethisterone acetate 1mg/0.5mg tablet
+fh1s.	FemTab Sequi tablet
+fh1S.	Kliovance 1mg/0.5mg tablet
+fh1t.	FemTab Continuous tablet
+fh1T.	Nuvelle Continuous tablet
+fh1U.	Femoston-conti tablet
+fh1v.	Premique Low Dose 0.3mg/1.5mg tablet
+fh1V.	Indivina 1mg/2.5mg tablet
+fh1W.	Indivina 1mg/5mg tablet
+fh1x.	Drospirenone 2mg / estradiol 1mg tablet
+fh1X.	Indivina 2mg/5mg tablet
+fh1y.	Angeliq 2mg/1mg tablet
+fh1Y.	FemSeven Sequi patch
+fh1z.	Clinorette tablet
+fh1Z.	FEMOSTON-CONTI 0.5mg/2.5mg tablets
+fi11.	Androcur 50mg tablet
+fi21.	Pro-Viron 25mg tablet
+fi22.	Mesterolone 25mg tablet
+fi41.	Testosterone 100mg implant 30 week
+fi42.	Testosterone 200mg implant 34 week
+fi45.	Testosterone 2.5mg/24hours transdermal patch
+fi46.	Andropatch 2.5mg/24hours transdermal patch
+fi47.	Testosterone 5mg/24hours transdermal patch
+fi48.	Andropatch 5mg/24hours transdermal patch
+fi4B.	Testosterone 50mg/5g gel
+fi4C.	Testogel 50mg gel 5g sachet
+fi4D.	Striant SR 30mg muco-adhesive buccal tablet
+fi4E.	Nebido 1000mg/4mL solution for injection
+fi4F.	Testim gel 50mg/5g tube
+fi4G.	INTRINSA 300micrograms/24hours transdermal patches
+fi4w.	TESTOSTERONE 300micrograms/24hours transdermal patches
+fi4x.	Testosterone undecanoate 1000mg/4mL solution for injection
+fi4y.	Testosterone 30mg muco-adhesive buccal tablet
+fi52.	Restandol 40mg capsule
+fi53.	Sustanon 100 oily injection
+fi54.	Sustanon 250 oily injection
+fi5a.	Testosterone undecanoate 40mg capsule
+fi5l.	RESTANDOL TESTOCAPS 40mg capsules
+fi61.	Proscar 5mg tablet
+fi62.	Finasteride 5mg tablet
+fi71.	Dutasteride 500micrograms capsule
+fi72.	Avodart 500micrograms capsule
+fj21.	Stromba 5mg tablet
+fj23.	Stanozolol 5mg tablet
+fk1a.	Pregnyl 5000iu injection (pdr for recon)+solvent
+fk1d.	Chorionic gonadotrophin 1500iu injection (pdr for recon)+solvent
+fk1D.	Ovitrelle 250micrograms/0.5mL solution for injection prefilled syringe
+fk1D.	Ovitrelle 6500iu/0.5mL solution for injection prefilled syringe
+fk1f.	Chorionic gonadotrophin 5000iu injection (pdr for recon)+solvent
+fk21.	Clomid 50mg tablet
+fk2z.	Clomifene citrate 50mg tablet
+fk2z.	Clomiphene citrate 50mg tablet
+fk57.	Metrodin High Purity 75iu injection (pdr for recon)+solvent
+fk5b.	Gonal-F 450iu injection (pdr for recon)+diluent
+fk5c.	Gonal-F 1050iu injection (pdr for recon)+diluent
+fk5d.	Gonal-F 900iu/1.5mL solution for injection prefilled pen
+fk5e.	Gonal-F 450iu/0.75mL solution for injection prefilled pen
+fk5f.	Gonal-F 300iu/0.5mL solution for injection prefilled pen
+fk5F.	Gonal-F 75iu injection (pdr for recon)+diluent
+fk5g.	FOSTIMON 75iu powder+solvent for solution for injection
+fk5G.	Gonal-F 150iu injection (pdr for recon)+diluent
+fk5h.	FOSTIMON 150iu powder+solvent for solution for injection
+fk5T.	Menopur 75iu injection (pdr for recon)+solvent
+fk5V.	Puregon 300iu/0.36mL cartridge
+fk5W.	Puregon 600iu/0.72mL cartridge
+fk71.	Synacthen 250micrograms/1mL injection
+fk73.	Synacthen Depot 2mg/2mL injection
+fk7x.	Tetracosactide 250micrograms/1mL injection
+fk7x.	Tetracosactrin 250micrograms/1mL injection
+fk8B.	Genotropin MiniQuick 0.6iu(0.2mg) prefilled syringe(pdr for recon)+diluent
+fk8C.	Genotropin MiniQuick 1.8iu(0.6mg) prefilled syringe(pdr for recon)+diluent
+fk8D.	Genotropin MiniQuick 2.4iu(0.8mg) prefilled syringe(pdr for recon)+diluent
+fk8E.	Genotropin MiniQuick 1.2iu(0.4mg) prefilled syringe(pdr for recon)+diluent
+fk8F.	Genotropin MiniQuick 3iu(1mg) prefilled syringe(pdr for recon)+diluent
+fk8G.	Somatropin(rbe) 1.8iu(0.6mg) prefilled syringe(pdr for recon)+diluent
+fk8J.	Somatropin(rmc) 24iu(8mg) injection (pdr for recon)+solvent
+fk8O.	Somatropin(rbe) 2.4iu(0.8mg) prefilled syringe(pdr for recon)+diluent
+fk8P.	Somatropin(rbe) 3iu(1mg) prefilled syringe(pdr for recon)+diluent
+fk8r.	Genotropin 16iu(5.3mg) injection cartridge
+fk8s.	Zomacton(rbe) 12iu(4mg) injection (pdr for recon)+diluent
+fk8t.	Somatropin(rbe) 18iu(6mg) inj cartridge(pdr for recon)+diluent
+fk8w.	Humatrope(rbe) 18iu(6mg) inj cartridge(pdr for recon)+diluent
+fk8x.	Humatrope(rbe) 36iu(12mg) inj cartridge(pdr for recon)+diluent
+fk8y.	Humatrope(rbe) 72iu(24mg) inj cartridge(pdr for recon)+diluent
+fkA1.	Norditropin SimpleXx 5mg/1.5mL injection cartridge
+fkA2.	Norditropin SimpleXx 10mg/1.5mL injection cartridge
+fkA3.	Norditropin SimpleXx 15mg/1.5mL injection cartridge
+fkA4.	Genotropin MiniQuick 3.6iu(1.2mg) prefilled syringe(pdr for recon)+diluent
+fkA5.	Genotropin MiniQuick 4.2iu(1.4mg) prefilled syringe(pdr for recon)+diluent
+fkA6.	Genotropin MiniQuick 4.8iu(1.6mg) prefilled syringe(pdr for recon)+diluent
+fkA7.	Genotropin MiniQuick 5.4iu(1.8mg) prefilled syringe(pdr for recon)+diluent
+fkA8.	Genotropin MiniQuick 6iu(2mg) prefilled syringe(pdr for recon)+diluent
+fkA9.	Saizen click.easy(rmc) 24iu(8mg) injection (pdr for recon)+solvent
+fkAA.	NutropinAq 10mg(30iu)/2mL injection cartridge
+fkAD.	OMNITROPE 5mg(15iu)/1.5mL injection cartridge
+fkAF.	ZOMACTON 10mg injection (pdr for recon)+solvent
+fkAG.	SOMATROPIN(rbe) 10mg injection (pdr for recon)+solvent
+fkAJ.	GENOTROPIN GOQUICK 5.3mg powder and solvent injection pen
+fkAK.	SOMATROPIN(rbe) 5.3mg powder and solvent injection pen
+fkAL.	SAIZEN 6mg/1.03mL solution for injection cartridge
+fkAM.	SOMATROPIN(rmc) 6mg/1.03mL solution for injection cartridge
+fkAN.	SAIZEN 12mg/1.5mL solution for injection cartridge
+fkAO.	SOMATROPIN(rmc) 12mg/1.5mL solution for injection cartridge
+fkAP.	SAIZEN 20mg/2.5mL solution for injection cartridge
+fkAr.	Somatropin(rbe) 10mg(30iu)/2mL injection cartridge
+fkAR.	NORDITROPIN NORDIFLEX 15mg/1.5mL solution for injection pen
+fkAS.	SOMATROPIN(epr) 15mg/1.5mL solution for injection pen
+fkAT.	OMNITROPE SUREPAL 5 5mg/1.5mL soln for injection cartridges
+fkAU.	OMNITROPE SUREPAL 10 10mg/1.5mL soln for inj cartridges
+fkAV.	OMNITROPE SUREPAL 15 15mg/1.5mL solution for inj cartridges
+fkAx.	Somatropin(epr) 5mg/1.5mL injection cartridge
+fkAy.	Somatropin(epr) 10mg/1.5mL injection cartridge
+fkB1.	Luveris 75iu injection (pdr for recon)+solvent
+fkC1.	Puregon 900iu/1.08mL cartridge
+fl13.	Desmospray 10micrograms nasal spray
+fl14.	Desmopressin acetate 10micrograms nasal spray
+fl15.	DDAVP 100micrograms tablet
+fl16.	DDAVP 200micrograms tablet
+fl17.	Desmopressin acetate 100micrograms tablet
+fl18.	Desmopressin acetate 200micrograms tablet
+fl19.	Desmotabs 200micrograms tablet
+fl1A.	Nocutil 10micrograms nasal spray
+fl1B.	Presinex 10micrograms nasal spray
+fl1C.	Octim 150micrograms nasal spray
+fl1E.	DDAVP Melt 60micrograms wafer
+fl1F.	DDAVP Melt 120micrograms wafer
+fl1G.	DesmoMelt 120micrograms wafer
+fl1H.	DDAVP MELT 240micrograms wafer
+fl1I.	DESMOMELT 240micrograms wafer
+fl1t.	DESMOPRESSIN 240micrograms wafer
+fl1u.	Desmopressin 120micrograms wafer
+fl1v.	Desmopressin 60micrograms wafer
+fl1x.	Desmopressin acetate 150micrograms nasal spray
+fl1y.	Desmopressin acetate 100micrograms/1mL intranasal solution
+fn22.	Calsynar 400iu/2mL injection
+fn28.	Miacalcic 200iu nasal spray
+fn29.	Calcitonin(salmon) 200iu nasal spray
+fn29.	Salcatonin 200iu nasal spray
+fo11.	Didronel 200mg tablet
+fo14.	Didronel PMO tablet
+fo1y.	Disodium etidronate tablet+calcium carbonate effervescent tablet 400mg/1.25g pack
+fo1z.	Disodium etidronate 200mg tablet
+fo34.	Sodium clodronate 400mg capsule
+fo39.	Sodium clodronate 520mg tablet
+fo3A.	Bonefos 800mg tablet
+fo3B.	Sodium clodronate 800mg tablet
+fo42.	Fosamax 10mg tablet
+fo43.	Fosamax 5mg tablet
+fo44.	Fosamax Once Weekly 70mg tablet
+fo45.	Fosavance tablet
+fo46.	ALENDRONIC ACID 70mg/100mL oral solution
+fo61.	Actonel 5mg tablet
+fo62.	Actonel 30mg tablet
+fo63.	Actonel Once a Week 35mg tablet
+fo64.	ACTONEL COMBI 35mg tablets and sachet effervescent granules
+fo6x.	Risedronate sodium 35mg tablet
+fo6x.	Risedronic acid 32.5mg tablet
+fo6y.	Risedronate sodium 5mg tablet
+fo6z.	Risedronate sodium 30mg tablet
+fo74.	ZOMETA 4mg/100mL solution for infusion
+fo7w.	ZOLEDRONIC ACID 4mg/100mL solution for infusion
+fo85.	Bonviva 150mg tablet
+fo86.	Bonviva 3mg/3mL solution for injection prefilled syringe
+fo8x.	Ibandronic acid 150mg tablet
+fp12.	Parlodel 2.5mg tablet
+fp13.	Bromocriptine 2.5mg tablet
+fp15.	Bromocriptine 10mg capsule
+fp1y.	Bromocriptine 1mg tablet
+fp1z.	Bromocriptine 5mg capsule
+fq21.	Metopirone 250mg capsule
+fq2z.	Metyrapone 250mg capsule
+fr11.	Danol 200mg capsule
+fr13.	Danol 100mg capsule
+fr1y.	Danazol 200mg capsule
+fr1z.	Danazol 100mg capsule
+fr21.	Gestrinone 2.5mg capsule
+fr22.	Dimetriose 2.5mg capsule
+fr44.	Suprecur 5.5mg/5.5mL injection
+ft11.	Acarbose 50mg tablet
+ft12.	Acarbose 100mg tablet
+ft13.	Glucobay 50mg tablet
+ft14.	Glucobay 100mg tablet
+ft31.	Repaglinide 0.5mg tablet
+ft32.	Repaglinide 1mg tablet
+ft33.	Repaglinide 2mg tablet
+ft34.	NovoNorm 0.5mg tablet
+ft35.	NovoNorm 1mg tablet
+ft41.	Avandia 4mg tablet
+ft42.	Avandia 8mg tablet
+ft43.	Avandamet 1mg / 500mg tablet
+ft44.	Avandamet 2mg / 500mg tablet
+ft45.	Avandamet 2mg / 1000mg tablet
+ft46.	Avandamet 4mg / 1000mg tablet
+ft4u.	Rosiglitazone 2mg / Metformin 1000mg tablet
+ft4v.	Rosiglitazone 4mg / Metformin 1000mg tablet
+ft4w.	Rosiglitazone 2mg / metformin 500mg tablet
+ft4x.	Rosiglitazone 1mg / metformin 500mg tablet
+ft4y.	Rosiglitazone 8mg tablet
+ft4z.	Rosiglitazone 4mg tablet
+ft51.	Actos 15mg tablet
+ft52.	Actos 30mg tablet
+ft53.	Actos 45mg tablet
+ft5x.	Pioglitazone 45mg tablet
+ft5y.	Pioglitazone 30mg tablet
+ft5z.	Pioglitazone 15mg tablet
+ft61.	Starlix 60mg tablet
+ft6x.	Nateglinide 180mg tablet
+ft6y.	Nateglinide 120mg tablet
+ft6z.	Nateglinide 60mg tablet
+ft71.	COMPETACT 15mg/850mg tablets
+ft7z.	METFORMIN 850mg/PIOGLITAZONE 15mg tablets
+ft81.	JANUVIA 100mg tablets
+ft82.	JANUVIA 50mg tablets
+ft83.	JANUVIA 25mg tablets
+ft8x.	SITAGLIPTIN 25mg tablets
+ft8y.	SITAGLIPTIN 50mg tablets
+ft8z.	SITAGLIPTIN 100mg tablets
+ft91.	BYETTA 5micrograms/0.02mL injection prefilled pen
+ft92.	BYETTA 10micrograms/0.04mL injection prefilled pen
+ft93.	BYDUREON 2mg powder and solvent for suspension for injection
+ft9x.	EXENATIDE 2mg powder+solvent for suspension for injection
+ft9y.	EXENATIDE 10micrograms/0.04mL injection prefilled pen
+ft9z.	EXENATIDE 5micrograms/0.02mL injection prefilled pen
+ftaZ.	VILDAGLIPTIN 50mg tablets
+ftb1.	EUCREAS 50mg/850mg tablets
+ftb2.	EUCREAS 50mg/1000mg tablets
+ftby.	VILDAGLIPTIN/METFORMIN 50mg/1000mg tablets
+ftbz.	VILDAGLIPTIN/METFORMIN 50mg/850mg tablets
+ftc1.	VICTOZA 6mg/mL solution for injection prefilled pen 3mL
+ftc2.	LIRAGLUTIDE 6mg/mL solution for injection prefilled pen
+fte1.	JANUMET 50mg/1000mg tablets
+ftez.	SITAGLIPTIN/METFORMIN HYDROCHLORIDE 50mg/1000mg tablets
+ftf1.	TRAJENTA 5mg tablets
+ftf2.	LINAGLIPTIN 5mg tablets
+ftg2.	LINAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/850mg tablets
+ftg3.	JENTADUETO 2.5mg/1000mg tablets
+ftg4.	LINAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/1000mg tablets
+fth1.	FORXIGA 5mg tablets
+fth2.	FORXIGA 10mg tablets
+fti2.	SAXAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/850mg tablets
+fti4.	SAXAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/1000mg tablets
+ftj1.	LYXUMIA 10micrograms/0.2mL soln for inj prefilled pen 3mL
+ftj2.	LIXISENATIDE 10micrograms/0.2mL soln for injection pen 3mL
+ftj3.	LYXUMIA 20micrograms/0.2mL soln for inj prefilled pen 3mL
+ftj4.	LIXISENATIDE 20micrograms/0.2mL soln for injection pen 3mL
+ftj5.	LYXUMIA 10mcg/0.2mL+20mcg/0.2mL soln inj prefilled pens 3mL
+ftj6.	LIXISENATIDE 10mcg/0.2mL+20mcg/0.2mL soln for inj pens 3mL
+ftk2.	ALOGLIPTIN 6.25mg tablets
+ftk4.	ALOGLIPTIN 12.5mg tablets
+ftk5.	VIPIDIA 25mg tablets
+ftk6.	ALOGLIPTIN 25mg tablets
+ftl1.	VIPDOMET 12.5mg/1000mg tablets
+ftl2.	ALOGLIPTIN+METFORMIN HYDROCHLORIDE 12.5mg/1000mg tablets
+ftm2.	DAPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/850mg tablets
+ftm3.	XIGDUO 5mg/1000mg tablets
+ftm4.	DAPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/1000mg tablets
+ftn1.	INVOKANA 100mg tablets
+ftn3.	INVOKANA 300mg tablets
+ftn4.	CANAGLIFLOZIN 300mg tablets
+fto1.	JARDIANCE 10mg tablets
+fto2.	EMPAGLIFLOZIN 10mg tablets
+fto3.	JARDIANCE 25mg tablets
+fto4.	EMPAGLIFLOZIN 25mg tablets
+ftp2.	CANAGLIFLOZIN+METFORMIN HYDROCHLORIDE 50mg/850mg tablets
+ftp3.	VOKANAMET 50mg/1000mg tablets
+ftp4.	CANAGLIFLOZIN+METFORMIN HYDROCHLORIDE 50mg/1000mg tablets
+ftq1.	TRULICITY 750micrograms/0.5mL soln for injection p/f pen
+ftq2.	DULAGLUTIDE 750micrograms/0.5mL soln for injection p/f pen
+ftq3.	TRULICITY 1.5mg/0.5mL solution for injection prefilled pen
+ftq4.	DULAGLUTIDE 1.5mg/0.5mL soln for injection prefilled pen
+ftr2.	EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/850mg tablets
+ftr4.	EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/1000mg tablets
+ftr6.	EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 12.5mg/850mg tablets
+ftr7.	SYNJARDY 12.5mg/1000mg tablets
+ftr8.	EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 12.5mg/1000mg tablets
+fu11.	Cabergoline 500micrograms tablet
+fu12.	Dostinex 500micrograms tablet
+fu24.	Quinagolide 25micrograms+50micrograms tablet starter pack
+fu34.	TERIPARATIDE 250mcg/mL solution for inj prefilled pen 2.4mL
+fu51.	Protelos 2g sachets
+fu5z.	Strontium ranelate 2g sachets
+fu8v.	TOLVAPTAN 45mg+15mg tablets pack
+fu8w.	TOLVAPTAN 60mg+30mg tablets pack
+fu8x.	TOLVAPTAN 90mg+30mg tablets pack
+fu8y.	TOLVAPTAN 30mg tablets
+fu8z.	TOLVAPTAN 15mg tablets
+fu91.	DENOSUMAB 60mg/1mL solution for injection prefilled syringe
+fu92.	PROLIA 60mg/1mL solution for injection prefilled syringe
+fu94.	DENOSUMAB 120mg/1.7mL solution for injection
+fv11.	Raloxifene hydrochloride 60mg tablet
+fv12.	Evista 60mg tablet
+fw11.	Humalog Mix25 100iu/mL cartridge 3mL
+fw13.	Humalog Mix50 100iu/mL prefilled pen 3mL
+fw14.	HUMALOG MIX50 100iu/mL cartridges 3mL
+fw15.	HUMALOG MIX25 KWIKPEN 100iu/mL prefilled pen 3mL
+fw16.	HUMALOG MIX50 KWIKPEN 100iu/mL prefilled pen 3mL
+fw21.	NovoMix 30 Penfill 100units/mL injection cartridge 3mL
+fw22.	NovoMix 30 FlexPen 100units/mL injection prefilled pen 3mL
+fz11.	Cetrotide 0.25mg injection (pdr for recon)+solvent
+fz1y.	Cetrorelix 0.25mg injection (pdr for recon)+solvent
+fz2z.	Ganirelix 0.25mg/0.5mL prefilled syringe
+ga92.	ESMYA 5mg tablets
+ga9y.	ULIPRISTAL ACETATE 5mg tablets
+he2y.	Buserelin 5.5mg/5.5mL injection
+j463.	Kenalog Intra-articular/Intramuscular 40mg/1mL injection
+j46z.	Triamcinolone acetonide 40mg/1mL intra-articular/intramuscular inj

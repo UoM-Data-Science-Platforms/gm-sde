@@ -1,0 +1,1595 @@
+aw11.	Orlistat 120mg capsule
+aw12.	Xenical 120mg capsule
+d115.	Welldorm 143mg/5mL elixir
+d116.	Welldorm tablet
+d118.	Chloral hydrate 143mg/5mL elixir
+d121.	Heminevrin 192mg capsule
+d122.	Heminevrin 250mg/5mL syrup
+d12v.	Chlormethiazole 192mg capsule
+d12v.	Clomethiazole 192mg capsule
+d12w.	Chlormethiazole edisylate 250mg/5mL syrup
+d12w.	Clomethiazole edisylate 250mg/5mL syrup
+d141.	Rohypnol 1mg tablet
+d151.	Dalmane 15mg capsule
+d152.	Dalmane 30mg capsule
+d15y.	Flurazepam 15mg capsule
+d15z.	Flurazepam 30mg capsule
+d171.	Lormetazepam 500micrograms tablet
+d172.	Lormetazepam 1mg tablet
+d182.	Nitrazepam 5mg tablet
+d184.	Nitrazepam 2.5mg/5mL suspension
+d1a9.	Temazepam 10mg tablet
+d1aa.	Temazepam 20mg tablet
+d1ao.	Temazepam 10mg/5mL s/f oral solution
+d1c1.	Triclofos sodium 500mg/5mL oral solution
+d1d1.	Zopiclone 7.5mg tablet
+d1d2.	Zimovane 7.5mg tablet
+d1d3.	Zopiclone 3.75mg tablet
+d1d4.	Zimovane LS 3.75mg tablet
+d1f1.	Stilnoct 5mg tablet
+d1f2.	Zolpidem tartrate 5mg tablet
+d1f3.	Zolpidem tartrate 10mg tablet
+d1f4.	Stilnoct 10mg tablet
+d1g1.	Sonata 5mg capsule
+d1g2.	Sonata 10mg capsule
+d1gy.	Zaleplon 5mg capsule
+d1gz.	Zaleplon 10mg capsule
+d1h1.	CIRCADIN 2mg m/r tablets
+d1hz.	MELATONIN 2mg m/r tablets
+d213.	Diazepam 2mg tablet
+d214.	Diazepam 5mg tablet
+d215.	Diazepam 10mg tablet
+d216.	Diazepam 2mg/5mL oral solution
+d21A.	Diazepam 5mg/5mL oral solution
+d21d.	Diazemuls 10mg/2mL injection
+d21J.	Diazepam 10mg/5mL suspension
+d21k.	Stesolid 5mg rectal solution
+d21k.	Stesolid 5mg/2.5mL rectal solution
+d21l.	Stesolid 10mg rectal solution
+d21l.	Stesolid 10mg/2.5mL rectal solution
+d221.	Xanax 250mcg tablet
+d222.	Xanax 500mcg tablet
+d22y.	Alprazolam 250micrograms tablet
+d22z.	Alprazolam 500micrograms tablet
+d241.	Chlordiazepoxide 5mg capsule
+d241.	Chlordiazepoxide hydrochloride 5mg capsule
+d242.	Chlordiazepoxide 10mg capsule
+d242.	Chlordiazepoxide hydrochloride 10mg capsule
+d243.	Chlordiazepoxide hydrochloride 5mg tablet
+d244.	Chlordiazepoxide hydrochloride 10mg tablet
+d24a.	Librium 10mg capsule
+d263.	Clobazam 10mg tablet
+d265.	TAPCLOB 5mg/5mL oral suspension
+d267.	TAPCLOB 10mg/5mL oral suspension
+d271.	Tranxene 7.5mg capsule
+d272.	Tranxene 15mg capsule
+d2a1.	Lorazepam 1mg tablet
+d2a2.	Lorazepam 2.5mg tablet
+d2az.	Lorazepam 4mg/1mL injection
+d2c2.	Meprobamate 400mg tablet
+d2d2.	Oxazepam 10mg tablet
+d2d3.	Oxazepam 15mg tablet
+d2f4.	Buspar 10mg tablet
+d31g.	Tuinal 100mg capsule
+d411.	Chlorpromazine hydrochloride 10mg tablet
+d412.	Chlorpromazine hydrochloride 25mg tablet
+d413.	Chlorpromazine hydrochloride 50mg tablet
+d414.	Chlorpromazine hydrochloride 100mg tablet
+d41A.	Chlorpromazine hydrochloride 25mg/5mL s/f oral solution
+d41b.	Largactil 25mg tablet
+d41B.	Chlorpromazine hydrochloride 100mg/5mL s/f oral solution
+d41d.	Largactil 100mg tablet
+d41e.	Largactil 25mg/5mL syrup
+d41m.	Chlorpromazine hydrochloride 50mg/2mL injection
+d42z.	Benperidol 250micrograms tablet
+d451.	Depixol 3mg tablet
+d46x.	Fluphenazine hydrochloride 1mg tablet
+d46z.	Fluphenazine hydrochloride 5mg tablet
+d471.	Haloperidol 1.5mg tablet
+d472.	Haloperidol 5mg tablet
+d473.	Haloperidol 10mg tablet
+d474.	Haloperidol 20mg tablet
+d475.	Haloperidol 2mg/mL oral solution
+d476.	Dozic 1mg/mL oral liquid
+d47B.	Haloperidol 1mg/5mL s/f oral solution
+d47d.	Haldol 5mg tablet
+d47j.	Serenace 500micrograms capsule
+d47k.	Serenace 1.5mg tablet
+d47r.	Haloperidol 500micrograms capsule
+d47t.	Haloperidol 1mg/mL oral solution
+d47u.	Haloperidol 0.5mg tablet
+d47u.	Haloperidol 500micrograms tablet
+d47v.	Haloperidol 5mg/1mL injection
+d481.	Nozinan 25mg/1mL injection
+d483.	Nozinan 25mg tablet
+d48y.	Levomepromazine hydrochloride 25mg/1mL injection
+d48y.	Methotrimeprazine hydrochloride 25mg/1mL injection
+d48z.	Levomepromazine maleate 25mg tablet
+d48z.	Methotrimeprazine maleate 25mg tablet
+d4a1.	Neulactil 2.5mg tablet
+d4aw.	Pericyazine 2.5mg tablet
+d4ax.	Pericyazine 10mg tablet
+d4az.	Pericyazine 10mg/5mL syrup
+d4bx.	Perphenazine 2mg tablet
+d4by.	Perphenazine 4mg tablet
+d4cx.	Pimozide 2mg tablet
+d4cy.	Pimozide 4mg tablet
+d4e4.	Promazine hydrochloride 25mg tablet
+d4e5.	Promazine hydrochloride 50mg tablet
+d4ev.	Promazine hydrochloride 25mg/5mL syrup
+d4f1.	Dolmatil 200mg tablet
+d4f5.	Dolmatil 400mg tablet
+d4f6.	Sulpor 200mg/5mL oral solution
+d4fx.	Sulpiride 400mg tablet
+d4fy.	Sulpiride 200mg/5mL s/f oral solution
+d4fz.	Sulpiride 200mg tablet
+d4g1.	Melleril 10mg tablet
+d4g2.	Melleril 25mg tablet
+d4g3.	Melleril 50mg tablet
+d4g5.	Melleril 25mg/5mL suspension
+d4g6.	Melleril 100mg/5mL oral suspension
+d4gt.	Thioridazine hydrochloride 10mg tablet
+d4gu.	Thioridazine hydrochloride 25mg tablet
+d4gv.	Thioridazine hydrochloride 50mg tablet
+d4gw.	Thioridazine hydrochloride 100mg tablet
+d4h1.	Stelazine 1mg tablet
+d4h2.	Stelazine 5mg tablet
+d4h3.	Stelazine 2mg Spansule
+d4h4.	Stelazine 10mg Spansule
+d4h6.	Stelazine 1mg/5mL syrup
+d4h9.	Trifluoperazine 5mg/5mL sugar free syrup
+d4hu.	Trifluoperazine 2mg m/r capsule
+d4hv.	Trifluoperazine 10mg m/r capsule
+d4hw.	Trifluoperazine 15mg m/r capsule
+d4hx.	Trifluoperazine 1mg/5mL syrup
+d4j1.	Clopixol 2mg tablet
+d4j2.	Clopixol 10mg tablet
+d4j3.	Clopixol 25mg tablet
+d4l1.	Clozapine 25mg tablet
+d4l2.	Clozapine 100mg tablet
+d4l9.	Zaponex 25mg tablet
+d4lA.	Zaponex 100mg tablet
+d4lB.	DENZAPINE 50mg/mL oral suspension 100mL
+d4lC.	CLOZAPINE 50mg/mL oral suspension
+d4lE.	CLOZAPINE 50mg tablets
+d4lG.	CLOZAPINE 200mg tablets
+d4n3.	Zuclopenthixol acetate 50mg/1mL oily injection
+d4n4.	Zuclopenthixol acetate 100mg/2mL oily injection
+d4p1.	Risperidone 1mg tablet
+d4p2.	Risperidone 2mg tablet
+d4p3.	Risperidone 3mg tablet
+d4p4.	Risperidone 4mg tablet
+d4p5.	Risperdal 1mg tablet
+d4p6.	Risperdal 2mg tablet
+d4p7.	Risperdal 3mg tablet
+d4p8.	Risperdal 4mg tablet
+d4p9.	Risperidone 1mg/mL liquid
+d4pA.	Risperdal 1mg/mL liquid
+d4pB.	Risperidone 6mg tablet
+d4pC.	Risperdal 6mg tablet
+d4pD.	Risperdal 0.5mg tablet
+d4pE.	Risperdal Consta 25mg powder+solvent for suspension for injection
+d4pF.	Risperdal Consta 37.5mg powder+solvent for suspension for injection
+d4pG.	Risperdal Consta 50mg powder+solvent for suspension for injection
+d4pH.	Risperidone 1mg oro-dispersible tablet
+d4pJ.	Risperidone 2mg oro-dispersible tablet
+d4pK.	Risperdal Quicklet 1mg oro-dispersible tablet
+d4pL.	Risperdal Quicklet 2mg oro-dispersible tablet
+d4pM.	Risperidone 0.5mg oro-dispersible tablet
+d4pN.	Risperdal Quicklet 0.5mg oro-dispersible tablet
+d4pO.	RISPERDAL QUICKLET 3mg oro-dispersible tablets
+d4pP.	RISPERDAL QUICKLET 4mg oro-dispersible tablets
+d4pQ.	RISPERIDONE 3mg oro-dispersible tablets
+d4pR.	RISPERIDONE 4mg oro-dispersible tablets
+d4pw.	Risperidone 50mg powder+solvent for suspension for injection
+d4px.	Risperidone 37.5mg powder+solvent for suspension for injection
+d4py.	Risperidone 25mg powder+solvent for suspension for injection
+d4pz.	Risperidone 0.5mg tablet
+d4q4.	Sertindole 20mg tablet
+d4r1.	Olanzapine 5mg tablet
+d4r2.	Olanzapine 7.5mg tablet
+d4r3.	Olanzapine 10mg tablet
+d4r4.	Zyprexa 5mg tablet
+d4r5.	Zyprexa 7.5mg tablet
+d4r6.	Zyprexa 10mg tablet
+d4r7.	Olanzapine 2.5mg tablet
+d4r8.	Zyprexa 2.5mg tablet
+d4r9.	Zyprexa Velotab 5mg dispersible tablet
+d4rA.	Zyprexa Velotab 10mg dispersible tablet
+d4rB.	Zyprexa 15mg tablet
+d4rE.	Zyprexa Velotab 20mg dispersible tablet
+d4ru.	Olanzapine 20mg dispersible tablet
+d4rw.	Olanzapine 15mg dispersible tablet
+d4rx.	Olanzapine 15mg tablet
+d4ry.	Olanzapine 5mg dispersible tablet
+d4rz.	Olanzapine 10mg dispersible tablet
+d4s1.	Quetiapine 25mg tablet
+d4s2.	Quetiapine 100mg tablet
+d4s3.	Quetiapine 200mg tablet
+d4s5.	Seroquel 25mg tablet
+d4s6.	Seroquel 100mg tablet
+d4s7.	Seroquel 200mg tablet
+d4s9.	Seroquel 150mg tablet
+d4sa.	ZALURON XL 400mg m/r tablets
+d4sb.	BIQUELLE XL 50mg m/r tablets
+d4sB.	Seroquel 300mg tablet
+d4sc.	BIQUELLE XL 150mg m/r tablets
+d4sC.	SEROQUEL XL 50mg m/r tablets
+d4sd.	BIQUELLE XL 200mg m/r tablets
+d4sD.	SEROQUEL XL 200mg m/r tablets
+d4se.	BIQUELLE XL 300mg m/r tablets
+d4sE.	SEROQUEL XL 300mg m/r tablets
+d4sf.	BIQUELLE XL 400mg m/r tablets
+d4sF.	SEROQUEL XL 400mg m/r tablets
+d4sG.	SEROQUEL XL 150mg m/r tablets
+d4sH.	SONDATE XL 50mg m/r tablets
+d4sI.	SONDATE XL 200mg m/r tablets
+d4sJ.	SONDATE XL 300mg m/r tablets
+d4sk.	MINTRELEQ XL 400mg m/r tablets
+d4sK.	SONDATE XL 400mg m/r tablets
+d4ss.	QUETIAPINE 150mg m/r tablets
+d4sS.	EBESQUE XL 50mg m/r tablets
+d4st.	QUETIAPINE 400mg m/r tablets
+d4su.	QUETIAPINE 300mg m/r tablets
+d4sU.	EBESQUE XL 300mg m/r tablets
+d4sv.	QUETIAPINE 200mg m/r tablets
+d4sV.	EBESQUE XL 400mg m/r tablets
+d4sw.	QUETIAPINE 50mg m/r tablets
+d4sW.	ZALURON XL 50mg m/r tablets
+d4sx.	Quetiapine 300mg tablet
+d4sX.	ZALURON XL 150mg m/r tablets
+d4sY.	ZALURON XL 200mg m/r tablets
+d4sZ.	ZALURON XL 300mg m/r tablets
+d4t1.	Amisulpride 50mg tablet
+d4t2.	Amisulpride 200mg tablet
+d4tx.	Amisulpride 100mg tablet
+d4ty.	Amisulpride 100mg/mL s/f oral solution
+d4tz.	Amisulpride 400mg tablet
+d4u1.	Zotepine 25mg tablet
+d4v1.	Abilify 10mg tablet
+d4v2.	Abilify 15mg tablet
+d4v4.	Abilify 5mg tablet
+d4v6.	ABILIFY 15mg oro-dispersible tablets
+d4v7.	ABILIFY 1mg/mL oral solution
+d4v9.	ABILIFY MAINTENA 400mg pdr+solv for suspension for injection
+d4vr.	ARIPIPRAZOLE 400mg pdr+solvent for suspension for injection
+d4vs.	ARIPIPRAZOLE 9.75mg/1.3mL solution for injection
+d4vt.	ARIPIPRAZOLE 1mg/mL oral solution
+d4vu.	ARIPIPRAZOLE 10mg oro-dispersible tablets
+d4vv.	ARIPIPRAZOLE 15mg oro-dispersible tablets
+d4vw.	Aripiprazole 5mg tablet
+d4vx.	Aripiprazole 30mg tablet
+d4vy.	Aripiprazole 15mg tablet
+d4vz.	Aripiprazole 10mg tablet
+d4w1.	INVEGA 3mg m/r tablets
+d4w2.	INVEGA 6mg m/r tablets
+d4ws.	PALIPERIDONE 150mg suspension for injection pfs
+d4wt.	PALIPERIDONE 100mg suspension for injection pfs
+d4wv.	PALIPERIDONE 50mg suspension for injection prefilled syringe
+d4wy.	PALIPERIDONE 6mg m/r tablets
+d4wz.	PALIPERIDONE 3mg m/r tablets
+d4x2.	ASENAPINE 5mg sublingual tablets
+d4y2.	LURASIDONE 18.5mg tablets
+d4y4.	LURASIDONE 37mg tablets
+d4y6.	LURASIDONE 74mg tablets
+d511.	Depixol 20mg/1mL oily injection
+d513.	Depixol 40mg/2mL oily injection
+d514.	Depixol 40mg/2mL prefilled syringe
+d516.	Depixol Conc 100mg/1mL oily injection
+d518.	Depixol Conc 50mg/0.5mL oily injection
+d519.	Flupenthixol decanoate 50mg/0.5mL oily injection
+d519.	Flupentixol decanoate 50mg/0.5mL oily injection
+d51a.	Depixol Low Volume 200mg/1mL oily injection
+d51t.	Flupenthixol decanoate 40mg/2mL prefilled syringe
+d51u.	Flupenthixol decanoate 200mg/1mL oily injection
+d51u.	Flupentixol decanoate 200mg/1mL oily injection
+d51v.	Flupenthixol decanoate 20mg/1mL oily injection
+d51v.	Flupentixol decanoate 20mg/1mL oily injection
+d51w.	Flupenthixol decanoate 40mg/2mL oily injection
+d51w.	Flupentixol decanoate 40mg/2mL oily injection
+d51y.	Flupenthixol decanoate 100mg/1mL oily injection
+d51y.	Flupentixol decanoate 100mg/1mL oily injection
+d522.	Modecate 25mg/1mL oily injection
+d526.	Modecate 250mg/10mL oily injection
+d528.	Modecate Concentrate 100mg/1mL oily injection
+d52a.	Fluphenazine decanoate 100mg/1mL oily injection
+d52s.	Fluphenazine decanoate 25mg/1mL prefilled syringe
+d52x.	Fluphenazine decanoate 250mg/10mL oily injection
+d551.	Haldol decanoate 50mg/1mL oily injection
+d552.	Haldol decanoate 100mg/1mL oily injection
+d553.	Haloperidol 50mg/1mL oily injection
+d554.	Haloperidol 100mg/1mL oily injection
+d563.	Pipothiazine palmitate 50mg/1mL oily injection
+d563.	Pipotiazine palmitate 50mg/1mL oily injection
+d564.	Pipothiazine palmitate 100mg/2mL oily injection
+d564.	Pipotiazine palmitate 100mg/2mL oily injection
+d571.	Clopixol 200mg/1mL oily injection
+d573.	Clopixol Conc 500mg/1mL oily injection
+d576.	Zuclopenthixol decanoate 200mg/1mL oily injection
+d57z.	Zuclopenthixol decanoate 500mg/1mL oily injection
+d611.	Camcolit 250 tablet
+d612.	Camcolit 400 m/r tablet
+d613.	Liskonum 450mg m/r tablet
+d615.	Priadel 400mg m/r tablet
+d616.	Priadel 200mg m/r tablet
+d61s.	Lithium carbonate 200mg m/r tablet
+d61v.	Lithium carbonate 250mg tablet
+d61x.	Lithium carbonate 450mg m/r tablet
+d61z.	Lithium carbonate 400mg m/r tablet
+d622.	Li-Liquid 5.4mmol/5mL oral solution
+d622.	Li-Liquid 509mg/5mL oral solution
+d625.	Priadel 5.4mmol/5mL s/f oral liquid
+d625.	Priadel 520mg/5mL s/f oral liquid
+d62w.	Lithium citrate 5.4mmol/5mL s/f oral liquid
+d62w.	Lithium citrate 520mg/5mL s/f oral liquid
+d62x.	Lithium citrate 5.4mmol/5mL oral solution
+d62x.	Lithium citrate 509mg/5mL oral solution
+d711.	Amitriptyline hydrochloride 10mg tablet
+d712.	Amitriptyline hydrochloride 25mg tablet
+d713.	Amitriptyline hydrochloride 50mg tablet
+d719.	Lentizol 25mg m/r capsule
+d71a.	Lentizol 50mg m/r capsule
+d71h.	Amitriptyline 25mg/5mL s/f oral solution
+d71i.	Amitriptyline 50mg/5mL s/f oral solution
+d71u.	Amitriptyline hydrochloride 25mg m/r capsule
+d71v.	Amitriptyline hydrochloride 50mg m/r capsule
+d731.	Anafranil 10mg capsule
+d732.	Anafranil 25mg capsule
+d733.	Anafranil 50mg capsule
+d736.	Anafranil SR 75mg tablet
+d73u.	Clomipramine hydrochloride 10mg capsule
+d73v.	Clomipramine hydrochloride 25mg capsule
+d73w.	Clomipramine hydrochloride 50mg capsule
+d73z.	Clomipramine hydrochloride 75mg m/r tablet
+d751.	Prothiaden 25mg capsule
+d752.	Prothiaden 75mg tablet
+d755.	Dothapax 25mg capsule
+d756.	Dothapax 75mg tablet
+d75y.	Dosulepin hydrochloride 25mg capsule
+d75y.	Dothiepin hydrochloride 25mg capsule
+d75z.	Dosulepin hydrochloride 75mg tablet
+d75z.	Dothiepin hydrochloride 75mg tablet
+d761.	Sinequan 10mg capsules x56CP
+d762.	Sinequan 25mg capsules x28CP
+d763.	Sinequan 50mg capsules x28CP
+d766.	SINEPIN 50mg capsules
+d76w.	Doxepin 10mg capsule
+d76x.	Doxepin 25mg capsule
+d76y.	Doxepin 50mg capsule
+d76z.	Doxepin 75mg capsule
+d771.	Imipramine hydrochloride 10mg tablet
+d772.	Imipramine hydrochloride 25mg tablet
+d777.	Tofranil 25mg/5mL syrup
+d77w.	IMIPRAMINE HYDROCHLORIDE 25mg/5mL oral solution
+d791.	Gamanil 70mg tablets x56CP
+d792.	Lomont 70mg/5mL s/f suspension
+d794.	Gamanil 70mg tablet
+d79y.	Lofepramine 70mg/5mL s/f suspension
+d7ax.	Maprotiline hydrochloride 25mg tablet
+d7b1.	Mianserin hydrochloride 10mg tablet
+d7b2.	Mianserin hydrochloride 20mg tablet
+d7b3.	Mianserin hydrochloride 30mg tablet
+d7c2.	Allegron 25mg tablet
+d7c9.	Nortriptyline 10mg capsule
+d7cy.	Nortriptyline 25mg capsule
+d7e1.	Molipaxin 50mg capsules x84CP
+d7e2.	Molipaxin 100mg capsules x56CP
+d7e4.	Molipaxin 150mg tablets x28CP
+d7e5.	Trazodone hydrochloride 150mg tablet
+d7ew.	Trazodone hydrochloride 100mg capsule
+d7ex.	Trazodone hydrochloride 50mg capsule
+d7ez.	Trazodone hydrochloride 50mg/5mL liquid
+d7f1.	Surmontil 50mg capsules x28CP
+d7f2.	Surmontil 10mg tablet
+d7f3.	Surmontil 25mg tablet
+d7fx.	Trimipramine 50mg capsule
+d7fy.	Trimipramine 10mg tablet
+d7fz.	Trimipramine 25mg tablet
+d7h3.	Amoxapine 100mg tablet
+d811.	Nardil 15mg tablet
+d81z.	Phenelzine 15mg tablet
+d83z.	Isocarboxazid 10mg tablet
+d851.	Manerix 150mg tablet
+d852.	Moclobemide 150mg tablet
+d853.	Manerix 300mg tablet
+d854.	Moclobemide 300mg tablet
+d914.	Motival tablet
+d916.	Triptafen tablet
+d917.	Triptafen-M tablet
+da11.	Fluanxol 500micrograms tablet
+da12.	Fluanxol 1mg tablet
+da21.	Optimax 500mg tablet
+da2y.	Tryptophan 500mg tablet
+da31.	Faverin 50mg tablet
+da32.	Fluvoxamine maleate 50mg tablet
+da33.	Faverin 100mg tablet
+da34.	Fluvoxamine maleate 100mg tablet
+da41.	Fluoxetine 20mg capsule
+da43.	Fluoxetine 20mg/5mL oral liquid
+da44.	Prozac 20mg/5mL liquid
+da46.	Fluoxetine 60mg capsule
+da47.	Prozac 60mg capsule
+da49.	Oxactin 20mg capsule
+da4D.	OLENA 20mg dispersible tablets
+da4E.	FLUOXETINE 20mg dispersible tablets
+da53.	Lustral 50mg tablet
+da54.	Lustral 100mg tablet
+da61.	Paroxetine 20mg tablet
+da62.	Seroxat 20mg tablets x30
+da63.	Paroxetine 30mg tablet
+da64.	Seroxat 30mg tablets x30
+da65.	Paroxetine 10mg/5mL s/f liquid
+da66.	Seroxat 10mg/5mL s/f liquid
+da68.	SEROXAT 10mg tablets
+da73.	Efexor 37.5mg tablet
+da74.	Efexor 75mg tablet
+da77.	Venlafaxine 75mg m/r capsule
+da78.	Efexor XL 75mg m/r capsule
+da79.	Venlafaxine 150mg m/r capsule
+da7a.	VENAXX XL 150mg m/r capsules
+da7A.	Efexor XL 150mg m/r capsule
+da7B.	RODOMEL XL 75mg m/r capsules
+da7d.	ALVENTA XL 75mg m/r capsules
+da7H.	VIEPAX XL 75mg m/r tablets
+da7I.	VENLAFAXINE 75mg m/r tablets
+da7j.	TONPULAR XL 75mg m/r capsules
+da7J.	VIEPAX XL 150mg m/r tablets
+da7K.	VENLAFAXINE 150mg m/r tablets
+da7O.	VIEPAX 75mg tablets
+da7p.	VENLALIC XL 37.5mg m/r tablets
+da7P.	VENSIR XL 75mg m/r capsules
+da7q.	VENLAFAXINE 37.5mg m/r tablets
+da7Q.	VENSIR XL 150mg m/r capsules
+da7R.	TIFAXIN XL 75mg m/r capsules
+da7V.	VENLALIC XL 75mg m/r tablets
+da7W.	VENLALIC XL 150mg m/r tablets
+da7X.	VENLALIC XL 225mg m/r tablets
+da7Y.	VENLAFAXINE 225mg m/r tablets
+da7Z.	VENAXX XL 75mg m/r capsules
+da81.	Nefazodone hydrochloride 100mg tablet
+da82.	Nefazodone hydrochloride 200mg tablet
+da83.	Dutonin 100mg tablet
+da84.	Dutonin 200mg tablet
+da91.	Citalopram 20mg tablet
+da92.	Cipramil 20mg tablet
+da93.	Citalopram 10mg tablet
+da94.	Cipramil 10mg tablet
+da95.	Citalopram 40mg tablet
+da96.	Cipramil 40mg tablet
+da9z.	Citalopram 40mg/mL oral drops
+daA2.	Edronax 4mg tablet
+daB1.	Mirtazapine 30mg tablet
+daB2.	Zispin 30mg tablet
+daB3.	Mirtazapine 30mg oro-dispersible tablet
+daB4.	Zispin SolTab 30mg oro-dispersible tablet
+daB5.	Mirtazapine 15mg oro-dispersible tablet
+daB6.	Zispin SolTab 15mg oro-dispersible tablet
+daB7.	Mirtazapine 45mg oro-dispersible tablet
+daB8.	Zispin SolTab 45mg oro-dispersible tablet
+daBy.	Mirtazapine 45mg tablet
+daBz.	Mirtazapine 15mg tablet
+daC1.	Escitalopram 10mg tablet
+daC2.	Cipralex 10mg tablet
+daC3.	Escitalopram 20mg tablet
+daC4.	Cipralex 20mg tablet
+daC5.	Escitalopram 5mg tablet
+daC6.	Cipralex 5mg tablet
+daC7.	ESCITALOPRAM 10mg/mL oral drops
+daC9.	CIPRALEX 20mg/mL oral drops
+daCA.	ESCITALOPRAM 20mg/mL oral drops
+daD1.	VALDOXAN 25mg tablets
+daD2.	AGOMELATINE 25mg tablets
+daE1.	BRINTELLIX 5mg tablets
+daE2.	VORTIOXETINE 5mg tablets
+daE3.	BRINTELLIX 10mg tablets
+daE4.	VORTIOXETINE 10mg tablets
+daE5.	BRINTELLIX 20mg tablets
+daE6.	VORTIOXETINE 20mg tablets
+dB11.	Memantine hydrochloride 10mg tablet
+dB12.	Memantine hydrochloride 10mg/g oral drops
+dB13.	Ebixa 10mg tablet
+dB15.	EBIXA 20mg tablets
+dB16.	MEMANTINE HYDROCHLORIDE 20mg tablets
+dB17.	EBIXA TREATMENT INITIATION PACK tablets
+dc11.	Dexedrine 5mg tablet
+dC1z.	Sodium oxybate 500mg/mL oral solution
+df61.	Reductil 15mg capsule
+df62.	Reductil 10mg capsule
+df71.	RIMONABANT 20mg tablets
+df72.	ACOMPLIA 20mg tablets
+dh11.	Serc-8 tablet
+dh12.	Serc-16 tablet
+dh31.	Stugeron 15mg tablet
+dh3z.	Cinnarizine 15mg tablet
+dh41.	Valoid 50mg tablet
+dh42.	Valoid 50mg/1mL injection
+dh4y.	Cyclizine hydrochloride 50mg tablet
+dh4z.	Cyclizine lactate 50mg/1mL injection
+dh71.	Motilium 10mg tablets x30CP
+dh72.	Motilium 5mg/5mL suspension
+dh73.	Motilium 30mg suppository
+dh76.	Motilium 10mg tablet
+dh7y.	Domperidone 5mg/5mL suspension
+dh7z.	Domperidone 30mg suppository
+dh81.	Hyoscine hydrobromide 300micrograms tablet
+dh85.	Scopoderm TTS transdermal patch
+dh87.	Hyoscine 1.5mg transdermal patch
+dh87.	Hyoscine 1mg/72hours transdermal patch
+dh89.	KWELLS 300micrograms tablets
+dh8A.	KWELLS KIDS 150micrograms tablets
+dh8B.	HYOSCINE HYDROBROMIDE 150micrograms tablets
+dh8C.	JOY-RIDES 150micrograms chewable tablets
+dh94.	Meclozine hydrochloride 12.5mg tablet
+dhb1.	Metoclopramide hydrochloride 10mg tablet
+dhb2.	Metoclopramide hydrochloride 5mg/5mL oral solution
+dhb3.	Metoclopramide hydrochloride 10mg/2mL injection
+dhb4.	Maxolon 10mg tablet
+dhb5.	Maxolon 5mg/5mL syrup
+dhb6.	Maxolon 1mg/mL paediatric liquid
+dhb7.	Maxolon 10mg/2mL injection
+dhbl.	Metoclopramide hydrochloride 15mg m/r tablet
+dhbp.	Metoclopramide hydrochloride 15mg m/r capsule
+dhbq.	Metoclopramide hydrochloride 5mg tablet
+dhbr.	Maxolon 5mg tablet
+dhe1.	Stemetil 5mg tablet
+dhe2.	Stemetil 25mg tablet
+dhe3.	Stemetil 5mg/5ml syrup
+dhe4.	Stemetil 12.5mg/1mL injection
+dhe6.	Stemetil 5mg suppository
+dhe7.	Stemetil 25mg suppository
+dhea.	Buccastem 3mg tablet
+dheb.	Stemetil Eff 5mg/sachet granules
+dheB.	Buccastem M 3mg buccal tablet
+dhed.	Prochlorperazine maleate 3mg buccal tablet
+dher.	Prochlorperazine maleate 5mg tablet
+dhes.	Prochlorperazine maleate 25mg tablet
+dhew.	Prochlorperazine maleate 5mg suppository
+dhex.	Prochlorperazine maleate 25mg suppository
+dhg1.	Avomine 25mg tablet
+dhk1.	Ondansetron 4mg/2mL injection
+dhk2.	Ondansetron 4mg tablet
+dhk5.	Zofran 4mg tablet
+dhk6.	Zofran 8mg tablet
+dhkB.	Ondansetron 4mg/5mL sugar free syrup
+dhkC.	Zofran 4mg/5mL sugar free syrup
+dhkD.	Ondansetron 16mg suppository
+dhkE.	Zofran 16mg suppository
+dhkF.	Ondansetron 4mg wafer
+dhkG.	Ondansetron 8mg wafer
+dhkH.	Zofran Melt 4mg wafer
+dhkL.	ONDEMET 4mg tablets
+dhkO.	SETOFILM 4mg orodispersible film
+dhkQ.	ONDANSETRON 4mg orodispersible film
+dhkR.	ONDANSETRON 8mg orodispersible film
+dhl3.	Granisetron 1mg tablet
+dhpz.	Aprepitant 80mg capsule
+dhr1.	CINNARIZINE+DIMENHYDRINATE 20mg/40mg tablets
+dhr2.	ARLEVERT 20mg/40mg tablets
+di1c.	Nu-Seals Aspirin 300mg e/c tablet
+di1f.	Aspirin 300mg e/c tablet
+di1n.	Aspirin 300mg suppository
+di1o.	Aspirin 150mg suppository
+di21.	Paracetamol 500mg tablet
+di24.	Paracetamol 250mg/5mL mixture
+di24.	Paracetamol 250mg/5mL oral suspension
+di26.	Calpol Six Plus 250mg/5mL suspension
+di27.	Disprol Paediatric 120mg/5mL s/f suspension
+di29.	Panadol 500mg capsule
+di2A.	Infadrops 100mg/mL oral solution
+di2C.	Calpol Six Plus 250mg/5mL s/f suspension
+di2E.	Paracetamol 500mg suppository
+di2H.	Paradote tablet
+di2J.	Paracetamol 240mg suppository
+di2L.	Paracetamol 120mg suppository
+di2M.	Paracetamol 250mg suppository
+di2n.	Paracetamol 120mg/5mL oral suspension
+di2N.	Paracetamol 60mg suppository
+di2o.	Paracetamol 125mg suppository
+di2O.	Alvedon 250mg suppository
+di2p.	Alvedon 125mg suppository
+di2P.	Alvedon 60mg suppository
+di2q.	Paracetamol 500mg capsule
+di2r.	Paracetamol 120mg/5mL s/f oral solution
+di2t.	Medinol Over Six 250mg/5mL s/f suspension
+di2u.	Paracetamol 250mg/5mL s/f oral suspension
+di2y.	Calpol 120mg/5mL paediatric s/f suspension
+di91.	Acupan 30mg tablet
+di9y.	Nefopam hydrochloride 30mg tablet
+dia2.	Co-codamol 8mg/500mg tablet
+dia2.	Paracetamol+codeine phosphate 500mg/8mg tablet
+dia4.	Aspirin+codeine 400mg/8mg tablet
+dia4.	Co-codaprin 8mg/400mg tablet
+dia6.	Co-dydramol 10mg/500mg tablet
+dia6.	Paracetamol+dihydrocodeine tartrate 500mg/10mg tablet
+dia9.	Aspav dispersible tablet
+diad.	Distalgesic tablet
+diaJ.	Kapake Insts 500mg/30mg/sachet powder
+diaL.	Kapake Insts 1000mg/60mg/sachet powder
+diam.	Kapake tablet
+diao.	Kapake capsule
+diap.	Co-codamol 8mg/500mg effervescent tablet
+diap.	Paracetamol+codeine phosphate 500mg/8mg effervescent tablet
+diaq.	Co-codamol 8mg/500mg capsule
+diaq.	Paracetamol+codeine phosphate 500mg/8mg capsule
+diaT.	Codipar Caplet
+diaU.	Paracetamol+codeine phosphate 500mg/15mg tablet
+dibE.	Paracetamol+dihydrocodeine tartrate 500mg/20mg tablet
+dibf.	Paramol 10/500mg tablet
+dibF.	Paracetamol+dihydrocodeine tartrate 500mg/30mg tablet
+dibG.	Tylex Effervescent soluble tablet
+dibp.	Syndol tablet
+dibS.	Solpadol capsule
+dibt.	Tylex capsule
+dibu.	Solpadol effervescent tablet
+dibv.	Remedeine tablet
+dibw.	Remedeine Forte tablet
+dibW.	Medocodene 30/500 capsule
+dibz.	Solpadol Caplet
+dic3.	Zapain Caplet
+dic4.	Zapain capsule
+dica.	CODIPAR 15mg/500mg effervescent tablets
+dicN.	Kapake 30/500 effervescent tablet
+dicO.	Tramacet 325mg/37.5mg tablet
+dicv.	PARACETAMOL+CODEINE PHOSPHATE 500mg/15mg effervescent tablet
+dicx.	PARACETAMOL+TRAMADOL HCL 325mg/37.5mg effervescent tablets
+dicY.	TRAMACET 325mg/37.5mg effervescent tablets
+dicz.	Paracetamol 325mg / tramadol hydrochloride 37.5mg tablet
+dicZ.	NUROMOL 200mg/500mg tablets
+did7.	Paracetamol 1000mg/100mL infusion
+didH.	PANADOL OA 1000mg tablets
+didt.	PARACETAMOL 1g suppositories
+dj1f.	MST Continus 10mg m/r tablet
+dj1g.	MST Continus 30mg m/r tablet
+dj1G.	Morphine sulphate 10mg/5mL oral unit dose vial
+dj1h.	MST Continus 60mg m/r tablet
+dj1H.	Oramorph 30mg/5mL oral unit dose vial
+dj1i.	MST Continus 100mg m/r tablet
+dj1I.	Morphine sulphate 30mg/5mL oral unit dose vial
+dj1J.	Oramorph 100mg/5mL oral unit dose vial
+dj1K.	Morphine sulphate 100mg/5mL oral unit dose vial
+dj1L.	Morphine sulphate 10mg/5mL oral solution
+dj1N.	MST Continus 20mg/sachet granules for suspension
+dj1P.	MST Continus 30mg/sachet granules for suspension
+dj1r.	Sevredol 10mg tablet
+dj1s.	Sevredol 20mg tablet
+dj1t.	MST Continus 200mg m/r tablet
+dj1X.	MST Continus 100mg/sachet granules for suspension
+dj1y.	MST Continus 5mg m/r tablet
+dj1Y.	MST Continus 200mg/sachet granules for suspension
+dj1z.	MST Continus 15mg m/r tablet
+dj31.	Temgesic 200mcg sublingual tablet
+dj34.	Temgesic 400mcg sublingual tablet
+dj35.	Buprenorphine 400micrograms sublingual tablet
+dj36.	Subutex 400micrograms sublingual tablet
+dj37.	Subutex 2mg sublingual tablet
+dj38.	Subutex 8mg sublingual tablet
+dj39.	Transtec 35micrograms/hour transdermal patch
+dj3a.	Transtec 52.5micrograms/hour transdermal patch
+dj3A.	BuTrans 5micrograms/hour patch
+dj3b.	Transtec 70micrograms/hour transdermal patch
+dj3B.	BuTrans 10micrograms/hour patch
+dj3C.	BuTrans 20micrograms/hour patch
+dj3D.	BUPRENORPHINE+NALOXONE 2mg/0.5mg sublingual tablets
+dj3E.	SUBOXONE 2mg/0.5mg sublingual tablets
+dj3f.	TEPHINE 200micrograms sublingual tablets
+dj3F.	BUPRENORPHINE+NALOXONE 8mg/2mg sublingual tablets
+dj3G.	SUBOXONE 8mg/2mg sublingual tablets
+dj3H.	HAPOCTASIN 70micrograms/hour patches
+dj3I.	HAPOCTASIN 52.5micrograms/hour patches
+dj3J.	HAPOCTASIN 35micrograms/hour patches
+dj3o.	Buprenorphine 5micrograms/hour patch
+dj3p.	Buprenorphine 10micrograms/hour patch
+dj3q.	Buprenorphine 20micrograms/hour patch
+dj3r.	Buprenorphine 70micrograms/hour transdermal patch
+dj3s.	Buprenorphine 52.5micrograms/hour transdermal patch
+dj3t.	Buprenorphine 35micrograms/hour transdermal patch
+dj3T.	BUPRENORPHINE 1mg sublingual tablets
+dj3u.	Buprenorphine 2mg sublingual tablet
+dj3U.	BUPRENORPHINE 4mg sublingual tablets
+dj3v.	Buprenorphine 8mg sublingual tablet
+dj3V.	BUPRENORPHINE 6mg sublingual tablets
+dj3x.	Buprenorphine 200micrograms sublingual tablet
+dj41.	Codeine phosphate 15mg tablet
+dj42.	Codeine phosphate 30mg tablet
+dj43.	Codeine phosphate 60mg tablet
+dj44.	Codeine phosphate 25mg/5mL syrup
+dj45.	Codeine phosphate 60mg/1mL injection
+dj51.	Palfium 5mg tablet
+dj52.	Palfium 10mg tablet
+dj61.	Dextropropoxyphene hydrochloride 65mg capsule
+dj72.	Diamorphine hydrochloride 5mg injection
+dj73.	Diamorphine hydrochloride 10mg injection
+dj74.	Diamorphine hydrochloride 30mg injection
+dj82.	Dihydrocodeine tartrate 10mg/5mL elixir
+dj83.	Dihydrocodeine tartrate 50mg/1mL injection
+dj87.	DHC Continus 60mg m/r tablet
+dj88.	Dihydrocodeine tartrate 60mg m/r tablet
+dj89.	DHC Continus 90mg m/r tablet
+dj8a.	DHC Continus 120mg m/r tablet
+dj8b.	Dihydrocodeine tartrate 90mg m/r tablet
+dj8c.	Dihydrocodeine tartrate 120mg m/r tablet
+dj8d.	DF118 Forte 40mg tablet
+dj91.	Diconal tablet
+djA4.	ZERIDAME SR 100mg m/r tablets
+djA5.	ZERIDAME SR 150mg m/r tablets
+djAb.	MAXITRAM SR 50mg m/r capsules
+djAc.	MAXITRAM SR 100mg m/r capsules
+djAd.	MAXITRAM SR 150mg m/r capsules
+djAe.	MAXITRAM SR 200mg m/r capsules
+djAf.	MAROL 100mg m/r tablets
+djAg.	MAROL 150mg m/r tablets
+djAh.	MAROL 200mg m/r tablets
+djB1.	PALEXIA SR 50mg m/r tablets
+djB2.	PALEXIA SR 100mg m/r tablets
+djB3.	PALEXIA SR 150mg m/r tablets
+djB4.	PALEXIA SR 200mg m/r tablets
+djB6.	PALEXIA 50mg tablets
+djBT.	TAPENTADOL 75mg tablets
+djBU.	TAPENTADOL 50mg tablets
+djBV.	TAPENTADOL 250mg m/r tablets
+djBW.	TAPENTADOL 200mg m/r tablets
+djBX.	TAPENTADOL 150mg m/r tablets
+djBY.	TAPENTADOL 100mg m/r tablets
+djBZ.	TAPENTADOL 50mg m/r tablets
+djc1.	Physeptone 5mg tablet
+djc8.	Methadone hydrochloride 20mg/mL s/f liquid
+djcC.	Methadone 1mg/1mL s/f mixture
+djcC.	Methadone 1mg/1mL s/f oral solution
+djcC.	Methadone 5mg/5mL s/f mixture
+djcC.	Methadone 5mg/5mL s/f oral solution
+djcu.	Methadone hydrochloride 50mg/1mL injection
+djcy.	Methadone hydrochloride 5mg tablet
+djcz.	Methadone hydrochloride 10mg/1mL injection
+djf1.	Pentazocine hydrochloride 50mg capsule
+djf2.	Pentazocine hydrochloride 25mg tablet
+djf5.	Pentazocine 50mg suppository
+dji1.	Tramadol hydrochloride 100mg/2mL injection
+dji2.	Tramadol hydrochloride 50mg capsule
+dji4.	Zydol 50mg capsule
+dji5.	Tramadol hydrochloride 100mg m/r tablet
+dji6.	Tramadol hydrochloride 150mg m/r tablet
+dji7.	Tramadol hydrochloride 200mg m/r tablet
+dji8.	Zydol SR 100mg m/r tablet
+dji9.	Zydol SR 150mg m/r tablet
+djiA.	Zydol SR 200mg m/r tablet
+djiB.	Tramake 50mg capsule
+djiD.	Zydol Soluble 50mg tablet
+djie.	Zamadol Melt 50mg oro-dispersible tablet
+djiE.	Zamadol 50mg capsule
+djiF.	Tramadol hydrochloride 50mg m/r capsule
+djiG.	Tramadol hydrochloride 100mg m/r capsule
+djiH.	Tramadol hydrochloride 150mg m/r capsule
+djii.	Zamadol 24hr 150mg m/r tablet
+djiI.	Tramadol hydrochloride 200mg m/r capsule
+djiJ.	Zamadol SR 50mg m/r capsule
+djik.	Zamadol 24hr 300mg m/r tablet
+djiK.	Zamadol SR 100mg m/r capsule
+djiL.	Zamadol SR 150mg m/r capsule
+djim.	TRADOREC XL 100mg m/r tablets
+djiM.	Zamadol SR 200mg m/r capsule
+djin.	TRADOREC XL 200mg m/r tablets
+djio.	TRADOREC XL 300mg m/r tablets
+djiO.	Tramadol hydrochloride 50mg/sachet powder
+djiS.	Zydol XL 150mg m/r tablet
+djit.	ZYDOL SR 50mg m/r tablets
+djiU.	Zydol XL 300mg m/r tablet
+djiv.	TRAMADOL HYDROCHLORIDE 50mg m/r tablets
+djiV.	Zydol XL 400mg m/r tablet
+djiw.	Tramadol hydrochloride 50mg oro-dispersible tablet
+djiW.	Dromadol SR 100mg m/r tablet
+djix.	Tramadol hydrochloride 75mg m/r tablet
+djiy.	Tramadol hydrochloride 300mg m/r tablet
+djiY.	Dromadol SR 200mg m/r tablet
+djiz.	Tramadol hydrochloride 400mg m/r tablet
+djj1.	Hydromorphone hydrochloride 1.3mg capsule
+djj2.	Palladone 1.3mg capsule
+djj3.	Hydromorphone hydrochloride 2.6mg capsule
+djj4.	Palladone 2.6mg capsule
+djj5.	Hydromorphone hydrochloride 2mg m/r capsule
+djj6.	Hydromorphone hydrochloride 4mg m/r capsule
+djj7.	Hydromorphone hydrochloride 8mg m/r capsule
+djj8.	Hydromorphone hydrochloride 16mg m/r capsule
+djj9.	Hydromorphone hydrochloride 24mg m/r capsule
+djjA.	Palladone-SR 2mg m/r capsule
+djjB.	Palladone-SR 4mg m/r capsule
+djjC.	Palladone-SR 8mg m/r capsule
+djk1.	OxyNorm 5mg capsule
+djk2.	OxyNorm 10mg capsule
+djk3.	OxyNorm 20mg capsule
+djk4.	OxyContin 10mg m/r tablet
+djk5.	OxyContin 20mg m/r tablet
+djk6.	OxyContin 40mg m/r tablet
+djk7.	OxyContin 80mg m/r tablet
+djk8.	OxyNorm 5mg/5mL liquid
+djk9.	OxyNorm 10mg/mL concentrate liquid
+djka.	SHORTEC 20mg capsules
+djkA.	OxyNorm 10mg/1mL injection solution ampoule
+djkA.	OxyNorm 10mg/mL injection solution 1mL ampoule
+djkb.	RELTEBON 5mg m/r tablets
+djkB.	OxyNorm 10mg/mL injection solution 2mL ampoule
+djkB.	OxyNorm 20mg/2mL injection solution ampoule
+djkc.	RELTEBON 10mg m/r tablets
+djkC.	TARGINACT 10mg/5mg m/r tablets
+djkd.	RELTEBON 20mg m/r tablets
+djkD.	TARGINACT 20mg/10mg m/r tablets
+djke.	OXYCODONE HYDROCHLORIDE 120mg m/r tablets
+djkf.	OXYCODONE HYDROCHLORIDE 60mg m/r tablets
+djkF.	TARGINACT 5mg/2.5mg m/r tablets
+djkg.	OXYCODONE HYDROCHLORIDE 30mg m/r tablets
+djkG.	TARGINACT 40mg/20mg m/r tablets
+djkh.	OXYCODONE HYDROCHLORIDE 15mg m/r tablets
+djkH.	OXYCONTIN 15mg m/r tablets
+djki.	OXYCODONE HCL+NALOXONE HCL 40mg/20mg m/r tablets
+djkI.	OXYCONTIN 30mg m/r tablets
+djkj.	OXYCODONE HCL+NALOXONE HCL 5mg/2.5mg m/r tablets
+djkJ.	OXYCONTIN 60mg m/r tablets
+djkk.	OXYCODONE HYDROCHLORIDE 50mg/1mL soln for injection ampoules
+djkK.	OXYCONTIN 120mg m/r tablets
+djkl.	OXYCODONE HYDROCHLORIDE+NALOXONE HYDROCHLORIDE 20mg/10mg m/r tablets
+djkL.	LONGTEC 5mg m/r tablets
+djkm.	OXYCODONE HYDROCHLORIDE+NALOXONE HYDROCHLORIDE 10mg/5mg m/r tablets
+djkM.	LONGTEC 10mg m/r tablets
+djkn.	Oxycodone hydrochloride 10mg/mL injection solution 2mL ampoule
+djkn.	Oxycodone hydrochloride 20mg/2mL injection solution ampoule
+djkN.	LONGTEC 20mg m/r tablets
+djko.	Oxycodone hydrochloride 10mg/1mL injection solution ampoule
+djko.	Oxycodone hydrochloride 10mg/mL injection solution 1mL ampoule
+djkO.	LONGTEC 40mg m/r tablets
+djkp.	OxyContin 5mg m/r tablet
+djkP.	LONGTEC 80mg m/r tablets
+djkq.	Oxycodone hydrochloride 5mg m/r tablet
+djkQ.	OXYLAN 5mg m/r tablets
+djkr.	Oxycodone hydrochloride 5mg/5mL s/f liquid
+djkR.	OXYLAN 10mg m/r tablets
+djks.	Oxycodone hydrochloride 10mg/mL concentrate s/f liquid
+djkS.	OXYLAN 20mg m/r tablets
+djkt.	Oxycodone hydrochloride 5mg capsule
+djku.	Oxycodone hydrochloride 10mg capsule
+djkv.	Oxycodone hydrochloride 20mg capsule
+djkV.	LYNLOR 5mg capsules
+djkw.	Oxycodone hydrochloride 10mg m/r tablet
+djkW.	LYNLOR 10mg capsules
+djkx.	Oxycodone hydrochloride 20mg m/r tablet
+djkX.	LYNLOR 20mg capsules
+djky.	Oxycodone hydrochloride 40mg m/r tablet
+djkY.	SHORTEC 5mg capsules
+djkz.	Oxycodone hydrochloride 80mg m/r tablet
+djkZ.	SHORTEC 10mg capsules
+djm1.	RELTEBON 40mg m/r tablets
+djm7.	RELTEBON 15mg m/r tablets
+djm8.	RELTEBON 30mg m/r tablets
+djmA.	OXELTRA 5mg m/r tablets
+djmB.	OXELTRA 10mg m/r tablets
+djmC.	OXELTRA 15mg m/r tablets
+djmD.	OXELTRA 20mg m/r tablets
+djmE.	OXELTRA 30mg m/r tablets
+djmF.	OXELTRA 40mg m/r tablets
+djmG.	OXELTRA 60mg m/r tablets
+djmH.	OXELTRA 80mg m/r tablets
+djmI.	LONGTEC 15mg m/r tablets
+djmJ.	LONGTEC 30mg m/r tablets
+djmK.	LONGTEC 60mg m/r tablets
+djmL.	LONGTEC 120mg m/r tablets
+djmN.	ABTARD 10mg m/r tablets
+djmO.	ABTARD 15mg m/r tablets
+djmR.	ABTARD 40mg m/r tablets
+djy6.	Filnarine SR 10mg m/r tablet
+djy7.	Filnarine SR 30mg m/r tablet
+djyA.	Morphgesic SR 10mg m/r tablet
+djyB.	Morphgesic SR 30mg m/r tablet
+djyC.	Morphgesic SR 60mg m/r tablet
+djyD.	Morphgesic SR 100mg m/r tablet
+djz1.	Morphine sulphate 10mg tablet
+djz2.	Morphine sulphate 20mg tablet
+djz3.	Morphine sulphate 5mg m/r tablet
+djz4.	Morphine sulphate 10mg m/r tablet
+djz5.	Morphine sulphate 15mg m/r tablet
+djz6.	Morphine sulphate 30mg m/r tablet
+djz7.	Morphine sulphate 60mg m/r tablet
+djz8.	Morphine sulphate 100mg m/r tablet
+djz9.	Morphine sulphate 200mg m/r tablet
+djzD.	Morphine sulphate 10mg m/r capsule
+djzE.	Morphine sulphate 30mg m/r capsule
+djzF.	Morphine sulphate 60mg m/r capsule
+djzG.	Morphine sulphate 100mg m/r capsule
+djzj.	Zomorph 10mg m/r capsule
+djzk.	Zomorph 30mg m/r capsule
+djzl.	Zomorph 60mg m/r capsule
+djzL.	Morphine sulphate 50mg tablet
+djzm.	Zomorph 100mg m/r capsule
+djzM.	Sevredol 50mg tablet
+djzn.	Zomorph 200mg m/r capsule
+djzO.	Morphine sulphate 90mg m/r capsule
+djzP.	Morphine sulphate 120mg m/r capsule
+djzQ.	Morphine sulphate 150mg m/r capsule
+djzR.	Morphine sulphate 200mg m/r capsule
+djzS.	MXL 30mg m/r capsule
+djzT.	MXL 60mg m/r capsule
+djzU.	MXL 90mg m/r capsule
+djzV.	MXL 120mg m/r capsule
+djzW.	MXL 150mg m/r capsule
+djzX.	MXL 200mg m/r capsule
+djzZ.	Morphine sulphate 20mg m/r capsule
+dl12.	Migraleve pink tablet
+dl13.	Migraleve yellow tablet
+dl16.	Paramax tablet
+dl17.	Paramax sachet
+dl1A.	Paracetamol+domperidone 500mg/10mg tablet
+dl1B.	Domperamol tablet
+dl1C.	MigraMax sachet powder
+dl21.	Cafergot tablet
+dl22.	Cafergot suppository
+dl25.	Migril tablet
+dl27.	Ergotamine tartrate+caffeine 2mg/100mg suppository
+dl41.	Midrid capsule
+dl51.	Sumatriptan 6mg/0.5mL injection
+dl54.	Sumatriptan 100mg tablet
+dl55.	Imigran 100mg tablet
+dl57.	Imigran Subject 6mg/0.5mL injection refill
+dl58.	Imigran 100mg tablets x3
+dl59.	Imigran 50mg tablet
+dl5A.	Sumatriptan 50mg tablet
+dl5B.	Sumatriptan 6mg/0.5mL injection refill
+dl5C.	Imigran Radis 100mg tablet
+dl5D.	Imigran Radis 50mg tablet
+dl5E.	IMIGRAN RECOVERY 50mg tablets
+dl63.	Tolfenamic acid 200mg tablet
+dl64.	Clotam Rapid 200mg tablet
+dl72.	Imigran 20mg nasal spray
+dl73.	Sumatriptan 10mg nasal spray
+dl74.	Imigran 10mg nasal spray
+dl81.	Zolmitriptan 2.5mg tablet
+dl82.	Zomig 2.5mg tablet
+dl83.	Zolmitriptan 2.5mg oro-dispersible tablet
+dl84.	Zomig Rapimelt 2.5mg oro-dispersible tablet
+dl86.	Zomig 5mg nasal spray
+dl87.	Zolmitriptan 5mg oro-dispersible tablet
+dl88.	Zomig Rapimelt 5mg oro-dispersible tablet
+dl91.	Naratriptan 2.5mg tablet
+dl92.	Naramig 2.5mg tablet
+dlA1.	Rizatriptan 5mg tablet
+dlA2.	Rizatriptan 10mg tablet
+dlA3.	Rizatriptan 10mg wafer
+dlA4.	Maxalt 5mg tablet
+dlA5.	Maxalt 10mg tablet
+dlA6.	Maxalt Melt 10mg wafer
+dlAz.	RIZATRIPTAN 10mg oro-dispersible tablets
+dlC1.	Almogran 12.5mg tablet
+dlD1.	Eletriptan 20mg tablet
+dlD2.	Eletriptan 40mg tablet
+dlDb.	Relpax 40mg tablet
+dlE1.	Frovatriptan 2.5mg tablet
+dlE2.	Migard 2.5mg tablet
+dm11.	Dixarit 25mcg tablet
+dm1z.	Clonidine hydrochloride 25micrograms tablet
+dm2z.	Methysergide 1mg tablet
+dm31.	Sanomigran 500micrograms tablet
+dm32.	Sanomigran 1.5mg tablets x28
+dm33.	Sanomigran 250micrograms/5mL elixir
+dm3x.	Pizotifen 500micrograms tablet
+dm3y.	Pizotifen 1.5mg tablet
+dn31.	Carbamazepine 100mg tablet
+dn32.	Carbamazepine 200mg tablet
+dn33.	Carbamazepine 400mg tablet
+dn34.	Tegretol 100mg tablet
+dn35.	Tegretol 200mg tablet
+dn36.	Tegretol 400mg tablet
+dn37.	Tegretol 100mg/5mL oral liquid
+dn38.	Tegretol Retard 200mg m/r tablet
+dn39.	Tegretol Retard 400mg m/r tablet
+dn3a.	Carbamazepine 200mg m/r tablet
+dn3b.	Carbamazepine 400mg m/r tablet
+dn3c.	Tegretol 100mg chewable tablet
+dn3d.	Tegretol 200mg chewable tablet
+dn3I.	Teril CR 400mg m/r tablet
+dn3I.	Teril Retard 400mg m/r tablet
+dn3J.	Carbagen SR 200mg m/r tablet
+dn3K.	Carbagen SR 400mg m/r tablet
+dn3x.	Carbamazepine 200mg chewable tablet
+dn3y.	Carbamazepine 100mg chewable tablet
+dn3z.	Carbamazepine 100mg/5mL oral liquid
+dn41.	Rivotril 500mcg tablet
+dn42.	Rivotril 2mg tablet
+dn4x.	Clonazepam 2mg/5mL s/f oral solution
+dn4y.	Clonazepam 500micrograms tablet
+dn4z.	Clonazepam 2mg tablet
+dn54.	Emeside 250mg/5mL syrup
+dn55.	Zarontin 250mg capsule
+dn56.	Zarontin 250mg/5mL syrup
+dn5x.	Ethosuximide 250mg capsule
+dn5z.	Ethosuximide 250mg/5mL oral solution
+dn71.	Phenobarbital 15mg tablet
+dn71.	Phenobarbitone 15mg tablet
+dn72.	Phenobarbital 30mg tablet
+dn72.	Phenobarbitone 30mg tablet
+dn73.	Phenobarbital 60mg tablet
+dn73.	Phenobarbitone 60mg tablet
+dn7d.	Phenobarbital 15mg/5mL elixir
+dn7d.	Phenobarbitone 15mg/5mL elixir
+dn81.	Epanutin 30mg/5mL suspension
+dn82.	Epanutin 50mg Infatab
+dn83.	Phenytoin 50mg chewable tablet
+dn8y.	Phenytoin 30mg/5mL oral suspension
+dn92.	Phenytoin sodium 100mg tablet
+dn93.	Epanutin 25mg capsule
+dn94.	Epanutin 50mg capsule
+dn95.	Epanutin 100mg capsule
+dn96.	Epanutin 300mg capsule
+dn9w.	Phenytoin sodium 300mg capsule
+dn9x.	Phenytoin sodium 25mg capsule
+dn9y.	Phenytoin sodium 50mg capsule
+dn9z.	Phenytoin sodium 100mg capsule
+dna1.	Mysoline 250mg tablet
+dna3.	MYSOLINE 50mg tablets
+dnax.	PRIMIDONE 50mg tablets
+dnay.	Primidone 250mg tablet
+dnaz.	Primidone 250mg/5mL oral suspension
+dnb1.	Epilim 100mg crushable tablet
+dnb2.	Epilim 200mg e/c tablet
+dnb3.	Epilim 500mg e/c tablet
+dnb4.	Epilim 200mg/5mL s/f liquid
+dnb5.	Epilim 200mg/5mL syrup
+dnb7.	Sodium valproate 200mg e/c tablet
+dnb8.	Sodium valproate 500mg e/c tablet
+dnbA.	Orlept 200mg/5mL s/f liquid
+dnbB.	Epival CR 300mg m/r tablet
+dnbc.	Epilim Chrono 200 m/r tablet
+dnbC.	Epival CR 500mg m/r tablet
+dnbd.	Epilim Chrono 300 m/r tablet
+dnbe.	Epilim Chrono 500 m/r tablet
+dnbF.	EPISENTA 150mg m/r capsules
+dnbG.	EPISENTA 300mg m/r capsules
+dnbH.	EPISENTA 500mg/sachet m/r granules
+dnbI.	EPISENTA 1g/sachet m/r granules
+dnbJ.	SODIUM VALPROATE 150mg m/r capsules
+dnbK.	SODIUM VALPROATE 300mg m/r capsules
+dnbL.	SODIUM VALPROATE 500mg/sachet m/r granules
+dnbM.	SODIUM VALPROATE 1g/sachet m/r granules
+dnbP.	EPILIM CHRONOSPHERE 50mg/sachet m/r granules
+dnbQ.	EPILIM CHRONOSPHERE 100mg/sachet m/r granules
+dnbr.	Sodium valproate 200mg m/r tablet
+dnbR.	EPILIM CHRONOSPHERE 250mg/sachet m/r granules
+dnbs.	Sodium valproate 300mg m/r tablet
+dnbS.	EPILIM CHRONOSPHERE 500mg/sachet m/r granules
+dnbt.	Sodium valproate 500mg m/r tablet
+dnbT.	EPILIM CHRONOSPHERE 750mg/sachet m/r granules
+dnbU.	EPILIM CHRONOSPHERE 1g/sachet m/r granules
+dnbv.	Sodium valproate 100mg crushable tablet
+dnby.	Sodium valproate 200mg/5mL s/f oral liquid
+dne1.	Vigabatrin 500mg tablet
+dne3.	Vigabatrin 500mg/sachet powder
+dnf1.	Lamotrigine 50mg tablet
+dnf2.	Lamotrigine 100mg tablet
+dnf3.	Lamictal 50mg tablet
+dnf4.	Lamictal 100mg tablet
+dnf5.	Lamotrigine 25mg tablet
+dnf6.	Lamictal 25mg tablet
+dnf7.	Lamictal 5mg dispersible tablet
+dnf8.	Lamictal 25mg dispersible tablet
+dnf9.	Lamictal 100mg dispersible tablet
+dnfA.	Lamotrigine 5mg dispersible tablet
+dnfB.	Lamotrigine 25mg dispersible tablet
+dnfC.	Lamotrigine 100mg dispersible tablet
+dnfD.	Lamictal 200mg tablet
+dnfE.	Lamotrigine 200mg tablet
+dnfH.	Lamictal Non-Valproate Add-On 50mg starter pack
+dnfJ.	Lamictal 2mg dispersible tablet
+dnfz.	Lamotrigine 2mg dispersible tablet
+dng1.	Nootropil 800mg tablet
+dng2.	Nootropil 1.2g tablet
+dng4.	Piracetam 800mg tablet
+dng5.	Piracetam 1.2g tablet
+dng6.	Piracetam 333.3mg/1mL oral solution
+dnh1.	Convulex 150mg e/c capsule
+dnh2.	Convulex 300mg e/c capsule
+dnh3.	Convulex 500mg e/c capsule
+dnh4.	Valproic acid 150mg e/c capsule
+dnh5.	Valproic acid 300mg e/c capsule
+dnh6.	Valproic acid 500mg e/c capsule
+dnh7.	Depakote 250mg e/c tablet
+dnh8.	Depakote 500mg e/c tablet
+dnhy.	Valproic acid 500mg e/c tablet
+dnhz.	Valproic acid 250mg e/c tablet
+dnj1.	Gabapentin 100mg capsule
+dnj2.	Gabapentin 300mg capsule
+dnj3.	Gabapentin 400mg capsule
+dnj4.	Neurontin 100mg capsule
+dnj5.	Neurontin 300mg capsule
+dnj6.	Neurontin 400mg capsule
+dnj7.	Neurontin 600mg tablet
+dnj9.	Neurontin 300mg capsule/600mg tablet titration pack
+dnjA.	GABAPENTIN 50mg/mL oral solution
+dnjx.	Gabapentin 300mg capsule/600mg tablet titration pack
+dnjy.	Gabapentin 600mg tablet
+dnjz.	Gabapentin 800mg tablet
+dnk1.	Topiramate 50mg tablet
+dnk2.	Topiramate 100mg tablet
+dnk3.	Topiramate 200mg tablet
+dnk4.	Topamax 50mg tablet
+dnk5.	Topamax 100mg tablet
+dnk6.	Topamax 200mg tablet
+dnk7.	Topiramate 25mg tablet
+dnk8.	Topamax 25mg tablet
+dnk9.	Topiramate 15mg beads in capsule
+dnkA.	Topiramate 25mg beads in capsule
+dnkB.	Topamax Sprinkle 15mg capsule
+dnkC.	Topamax Sprinkle 25mg capsule
+dnkD.	Topiramate 50mg beads in capsule
+dnkE.	Topamax Sprinkle 50mg capsule
+dnm1.	Trileptal 150 tablet
+dnm2.	Trileptal 300 tablet
+dnm3.	Trileptal 600 tablet
+dnm4.	Trileptal 60mg/mL s/f oral suspension
+dnmw.	Oxcarbazepine 60mg/mL s/f oral suspension
+dnmx.	Oxcarbazepine 150mg tablet
+dnmy.	Oxcarbazepine 300mg tablet
+dnmz.	Oxcarbazepine 600mg tablet
+dno1.	Keppra 250mg tablet
+dno2.	Keppra 500mg tablet
+dno3.	Keppra 1g tablet
+dno4.	Keppra 750mg tablet
+dno5.	Keppra 100mg/mL s/f oral solution
+dno6.	KEPPRA 500mg/5mL solution for injection
+dno7.	DESITREND 250mg/sachet granules
+dno8.	DESITREND 500mg/sachet granules
+dno9.	DESITREND 1g/sachet granules
+dnor.	LEVETIRACETAM 1g/sachet granules
+dnos.	LEVETIRACETAM 500mg/sachet granules
+dnot.	LEVETIRACETAM 250mg/sachet granules
+dnou.	LEVETIRACETAM 500mg/5mL solution for injection
+dnov.	Levetiracetam 100mg/mL s/f oral solution
+dnow.	Levetiracetam 750mg tablet
+dnox.	Levetiracetam 1g tablet
+dnoy.	Levetiracetam 500mg tablet
+dnoz.	Levetiracetam 250mg tablet
+dnp1.	Lyrica 25mg capsule
+dnp2.	Lyrica 50mg capsule
+dnp3.	Lyrica 75mg capsule
+dnp4.	Lyrica 100mg capsule
+dnp5.	Lyrica 150mg capsule
+dnp6.	Lyrica 200mg capsule
+dnp7.	Lyrica 300mg capsule
+dnp8.	LYRICA 225mg capsules
+dnp9.	LYRICA 20mg/1mL oral solution
+dnpI.	REWISCA 25mg capsules
+dnpJ.	REWISCA 50mg capsules
+dnpK.	REWISCA 75mg capsules
+dnpM.	REWISCA 150mg capsules
+dnpN.	REWISCA 200mg capsules
+dnpP.	REWISCA 300mg capsules
+dnpr.	PREGABALIN 20mg/1mL oral solution
+dnps.	PREGABALIN 225mg capsules
+dnpt.	Pregabalin 300mg capsule
+dnpu.	Pregabalin 200mg capsule
+dnpv.	Pregabalin 100mg capsule
+dnpw.	Pregabalin 150mg capsule
+dnpx.	Pregabalin 75mg capsule
+dnpy.	Pregabalin 50mg capsule
+dnpz.	Pregabalin 25mg capsule
+dnq1.	Zonisamide 25mg capsule
+dnq2.	Zonisamide 50mg capsule
+dnq3.	Zonisamide 100mg capsule
+dnq4.	Zonegran 25mg capsule
+dnq5.	Zonegran 50mg capsule
+dnq6.	Zonegran 100mg capsule
+dnr2.	INOVELON 200mg tablets
+dnr3.	INOVELON 400mg tablets
+dnrx.	RUFINAMIDE 400mg tablets
+dnry.	RUFINAMIDE 200mg tablets
+dnrz.	RUFINAMIDE 100mg tablets
+dnsx.	STIRIPENTOL 250mg/sachet powder for oral suspension
+dnsy.	STIRIPENTOL 500mg capsules
+dnsz.	STIRIPENTOL 250mg capsules
+dnt3.	VIMPAT 50mg tablets
+dnt4.	VIMPAT 100mg tablets
+dnt5.	VIMPAT 150mg tablets
+dnt6.	VIMPAT 200mg tablets
+dnt7.	LACOSAMIDE 200mg/20mL solution for injection
+dnt8.	LACOSAMIDE 15mg/1mL sugar free liquid
+dnt9.	LACOSAMIDE 50mg tablets
+dntA.	LACOSAMIDE 100mg tablets
+dntB.	LACOSAMIDE 150mg tablets
+dntC.	LACOSAMIDE 200mg tablets
+dntE.	LACOSAMIDE 10mg/1mL sugar free liquid
+dnu1.	ZEBINIX 800mg tablets
+dnu2.	ESLICARBAZEPINE ACETATE 800mg tablets
+dnv1.	TROBALT 50mg tablets
+dnv2.	TROBALT 100mg tablets
+dnv4.	TROBALT 300mg tablets
+dnv5.	TROBALT 400mg tablets
+dnv7.	RETIGABINE 50mg tablets
+dnv8.	RETIGABINE 100mg tablets
+dnv9.	RETIGABINE 200mg tablets
+dnvA.	RETIGABINE 300mg tablets
+dnvB.	RETIGABINE 400mg tablets
+dnw1.	FYCOMPA 2mg tablets
+dnw3.	FYCOMPA 6mg tablets
+dnw4.	FYCOMPA 8mg tablets
+dnw5.	FYCOMPA 10mg tablets
+dnwu.	PERAMPANEL 12mg tablets
+dnwv.	PERAMPANEL 10mg tablets
+dnww.	PERAMPANEL 8mg tablets
+dnwx.	PERAMPANEL 6mg tablets
+dnwy.	PERAMPANEL 4mg tablets
+dnwz.	PERAMPANEL 2mg tablets
+do18.	Diazepam 5mg/2.5mL RecTube
+do18.	RecTube 5mg/2.5mL rectal solution
+do19.	Diazepam 10mg/2.5mL RecTube
+do19.	RecTube 10mg/2.5mL rectal solution
+do1A.	Diazepam 2.5mg/1.25mL RecTube
+do1A.	RecTube 2.5mg/1.25mL rectal solution
+do1t.	Diazepam 2.5mg/1.25mL rectal solution
+do1y.	Diazepam 10mg/2.5mL rectal solution
+dq21.	Madopar 62.5 capsule
+dq22.	Madopar 125 capsule
+dq23.	Madopar 250 capsule
+dq24.	Madopar 62.5 dispersible tablet
+dq25.	Madopar 125 dispersible tablet
+dq26.	Madopar CR 125 m/r capsule
+dq27.	Co-beneldopa 12.5mg/50mg capsule
+dq28.	Co-beneldopa 25mg/100mg capsule
+dq29.	Co-beneldopa 50mg/200mg capsule
+dq2b.	Co-beneldopa 25mg/100mg m/r capsule
+dq31.	Sinemet-110 tablet
+dq32.	Sinemet-275 tablet
+dq33.	Sinemet-Plus tablet
+dq34.	Sinemet-62.5 tablet
+dq34.	Sinemet-LS tablet
+dq39.	Sinemet CR m/r tablet
+dq3a.	Co-careldopa 50mg/200mg m/r tablet
+dq3A.	Half-Sinemet CR m/r tablet
+dq3b.	Co-careldopa 25mg/100mg m/r tablet
+dq3B.	Stalevo 50mg / 12.5mg / 200mg tablet
+dq3C.	Stalevo 100mg / 25mg / 200mg tablet
+dq3D.	Stalevo 150mg / 37.5mg / 200mg tablet
+dq3H.	CARAMET CR 25mg/100mg m/r tablets
+dq3J.	STALEVO 200mg/50mg/200mg tablets
+dq3K.	STALEVO 125mg/31.25mg/200mg tablets
+dq3L.	STALEVO 75mg/18.75mg/200mg tablets
+dq3M.	STALEVO 175mg/43.75mg/200mg tablets
+dq3O.	SASTRAVI 75mg/18.75mg/200mg tablets
+dq3P.	SASTRAVI 100mg/25mg/200mg tablets
+dq3R.	SASTRAVI 150mg/37.5mg/200mg tablets
+dq3S.	SASTRAVI 175mg/43.75mg/200mg tablets
+dq3T.	SASTRAVI 200mg/50mg/200mg tablets
+dq61.	Eldepryl 5mg tablet
+dq6A.	Zelapar 1.25mg tablet
+dq6w.	Selegiline hydrochloride 1.25mg tablet
+dq6y.	Selegiline hydrochloride 10mg tablet
+dq6z.	Selegiline hydrochloride 5mg tablet
+dq95.	Apomorphine hydrochloride 30mg/3mL prefilled pen
+dq99.	APO-go 30mg/3mL prefilled pen
+dq9z.	Apomorphine hydrochloride 50mg/10mL prefilled syringe
+dqA1.	Ropinirole 0.25mg tablet
+dqA2.	Ropinirole 1mg tablet
+dqA3.	Ropinirole 2mg tablet
+dqA4.	Ropinirole 5mg tablet
+dqA6.	ReQuip 1mg tablet
+dqA7.	ReQuip 2mg tablet
+dqA8.	ReQuip 5mg tablet
+dqAb.	ReQuip tablet starter pack
+dqAd.	ADARTREL 2mg tablets
+dqAf.	ADARTREL 500micrograms tablets
+dqAg.	REQUIP XL 2mg m/r tablets
+dqAh.	REQUIP XL 4mg m/r tablets
+dqAi.	REQUIP XL 8mg m/r tablets
+dqAm.	REPINEX XL 2mg m/r tablets
+dqAn.	REPINEX XL 4mg m/r tablets
+dqAp.	RAPONER XL 2mg m/r tablets
+dqAs.	RAPONER XL 4mg m/r tablets
+dqB1.	Cabergoline 1mg tablet
+dqB2.	Cabergoline 2mg tablet
+dqB3.	Cabergoline 4mg tablet
+dqB4.	Cabaser 1mg tablet
+dqD1.	Entacapone 200mg tablet
+dqE1.	Mirapexin 0.088mg tablet
+dqE2.	Mirapexin 0.18mg tablet
+dqE3.	Mirapexin 0.7mg tablet
+dqE4.	MIRAPEXIN 350micrograms tablets
+dqE5.	MIRAPEXIN 260micrograms m/r tablets
+dqE6.	MIRAPEXIN 520micrograms m/r tablets
+dqE7.	MIRAPEXIN 1.05mg m/r tablets
+dqE8.	MIRAPEXIN 2.1mg m/r tablets
+dqE9.	MIRAPEXIN 3.15mg m/r tablets
+dqEA.	MIRAPEXIN 1.57mg m/r tablets
+dqEB.	MIRAPEXIN 2.62mg m/r tablets
+dqEp.	PRAMIPEXOLE 2.62mg m/r tablets
+dqEq.	PRAMIPEXOLE 1.57mg m/r tablets
+dqEr.	PRAMIPEXOLE 3.15mg m/r tablets
+dqEs.	PRAMIPEXOLE 2.1mg m/r tablets
+dqEt.	PRAMIPEXOLE 1.05mg m/r tablets
+dqEu.	PRAMIPEXOLE 520micrograms m/r tablets
+dqEv.	PRAMIPEXOLE 260micrograms m/r tablets
+dqEx.	Pramipexole 0.088mg tablet
+dqEx.	Pramipexole dihydrochloride monohydrate 0.125mg tablet
+dqEy.	Pramipexole 0.18mg tablet
+dqEy.	Pramipexole dihydrochloride monohydrate 0.25mg tablet
+dqEz.	Pramipexole 0.7mg tablet
+dqEz.	Pramipexole dihydrochloride monohydrate 1mg tablet
+dqF1.	Azilect 1mg tablet
+dqFz.	Rasagiline 1mg tablet
+dqG1.	Neupro 2mg/24hours transdermal patch
+dqG2.	Neupro 4mg/24hours transdermal patch
+dqG6.	NEUPRO 1mg/24hours transdermal patches
+dqG7.	NEUPRO 3mg/24hours transdermal patches
+dqGt.	ROTIGOTINE 3mg/24hours transdermal patches
+dqGu.	ROTIGOTINE 1mg/24hours transdermal patches
+dqGw.	Rotigotine 8mg/24hours transdermal patch
+dqGx.	Rotigotine 6mg/24hours transdermal patch
+dqGy.	Rotigotine 4mg/24hours transdermal patch
+dqGz.	Rotigotine 2mg/24hours transdermal patch
+dr19.	Broflex 5mg/5mL syrup
+dr1w.	Benzhexol hydrochloride 2mg tablet
+dr1w.	Trihexyphenidyl hydrochloride 2mg tablet
+dr1x.	Benzhexol hydrochloride 5mg tablet
+dr1x.	Trihexyphenidyl hydrochloride 5mg tablet
+dr1z.	Benzhexol hydrochloride 5mg/5mL syrup
+dr1z.	Trihexyphenidyl hydrochloride 5mg/5mL syrup
+dr21.	Biorphen 25mg/5mL elixir
+dr22.	Disipal 50mg tablet
+dr2w.	Orphenadrine hydrochloride 50mg/5mL syrup
+dr3y.	Benzatropine mesylate 2mg tablet
+dr3y.	Benztropine mesylate 2mg tablet
+dr41.	Akineton 2mg tablet
+dr4y.	Biperiden hydrochloride 2mg tablet
+dr63.	Kemadrin 5mg tablet
+dr6w.	Procyclidine hydrochloride 2.5mg/5mL sugar free syrup
+dr6x.	Procyclidine hydrochloride 5mg/5mL sugar free syrup
+dr6y.	Procyclidine hydrochloride 5mg tablet
+dr6z.	Procyclidine hydrochloride 10mg/2mL injection
+ds2z.	Tetrabenazine 25mg tablet
+ds33.	Botox 100units injection (pdr for recon)
+du11.	Disulfiram 200mg tablet
+du12.	Antabuse 200mg tablet
+du21.	Naltrexone hydrochloride 50mg tablet
+du31.	Nicotine 2mg chewing gum
+du32.	Nicotine 4mg chewing gum
+du35.	Nicotinell TTS 10 patch
+du36.	Nicotinell TTS 20 patch
+du37.	Nicotinell TTS 30 patch
+du38.	Nicotine 7mg/24hours patch
+du39.	Nicotine 14mg/24hours patch
+du3a.	Nicorette nasal spray
+du3A.	Nicotine 21mg/24hours patch
+du3B.	Nicorette 5mg patches x7
+du3C.	Nicorette 10mg patches x7
+du3F.	Nicotine 5mg/16hours patch
+du3G.	Nicotine 10mg/16hours patch
+du3H.	Nicotine 15mg/16hours patch
+du3k.	NiQuitin CQ 7mg/24hours patch
+du3l.	NiQuitin CQ 14mg/24hours patch
+du3m.	NiQuitin CQ 21mg/24hours patch
+du3n.	Nicotine 2mg sublingual tablet
+du3o.	Nicorette Microtab 2mg sublingual tablet
+du3O.	NiQuitin CQ 7mg/24hours clear patch
+du3q.	Nicotinell Mint 1mg lozenge
+du3r.	NiQuitin CQ 14mg/24hours clear patch
+du3s.	NiQuitin CQ 21mg/24hours clear patch
+du3y.	Nicotine 2mg lozenge
+du3z.	Nicotine 4mg lozenge
+du42.	Lofexidine hydrochloride 200micrograms tablet
+du51.	Acamprosate calcium 333mg e/c tablet
+du52.	Campral EC 333mg e/c tablet
+du61.	Zyban 150mg m/r tablet
+du6z.	Amfebutamone hydrochloride 150mg m/r tablet
+du6z.	Bupropion hydrochloride 150mg m/r tablet
+du72.	NiQuitin CQ 2mg mint chewing gum
+du73.	NiQuitin CQ 4mg mint chewing gum
+du78.	NiQuitin CQ 2mg mint lozenge
+du79.	NiQuitin CQ 4mg mint lozenge
+du7a.	NICOTINELL ICEMINT 4mg chewing gum
+du7A.	Nicorette Freshmint 2mg chewing gum
+du7b.	NICORETTE 15mg inhalator
+du7B.	Nicorette Freshmint 4mg chewing gum
+du7c.	NICOTINE 15mg inhalator
+du7g.	NICORETTE COOLS 2mg lozenges
+du7G.	NICOPATCH 7mg/24hours patches
+du7h.	NICORETTE COOLS 4mg lozenges
+du7H.	NICOPATCH 14mg/24hours patches
+du7i.	NIQUITIN PRE-QUIT 21mg/24 hours clear patches
+du7I.	NICOPATCH 21mg/24hours patches
+du7J.	NICOPASS 1.5mg fresh mint lozenges
+du7L.	NIQUITIN PRE-QUIT 4mg mint lozenges
+du7M.	NICORETTE INVISI 10mg patches
+du7N.	NICORETTE INVISI 15mg patches
+du7O.	NICORETTE INVISI 25mg patches
+du7P.	NICORETTE ICY WHITE 2mg chewing gum
+du7q.	NICOTINE 1mg oromucosal spray
+du7Q.	NICORETTE ICY WHITE 4mg chewing gum
+du7R.	NIQUITIN MINIS MINT 1.5mg lozenges
+du7S.	NIQUITIN MINIS MINT 4mg lozenges
+du7u.	NICOTINE 1.5mg lozenges
+du7U.	NICORETTE COMBI 15mg patches and 2mg chewing gum
+du7v.	NICOTINE 25mg/16hours patches
+du7V.	NIQUITIN MINIS 1.5mg cherry lozenges
+du7X.	NICORETTE FRESHMINT 2mg lozenges
+du7Y.	NICORETTE QUICKMIST 1mg oromucosal spray
+du7Z.	NICOTINELL ICEMINT 2mg chewing gum
+du81.	CHAMPIX 1mg tablets
+du82.	CHAMPIX 500microgram tablets
+du8x.	VARENICLINE 500micrograms+1mg tablets
+duA2.	NALMEFENE 18mg tablets
+duB1.	NIQUITIN STRIPS 2.5mg mint oral film
+duB2.	NIQUITIN MINIS 1.5mg orange lozenges
+duB3.	NICOTINELL SUPPORT ICEMINT 2mg chewing gum
+duB4.	NICOTINELL SUPPORT ICEMINT 4mg chewing gum
+dw11.	Methylphenidate hydrochloride 10mg tablet
+dw12.	Ritalin 10mg tablet
+dw13.	Equasym 5mg tablet
+dw14.	Equasym 20mg tablet
+dw15.	Equasym 10mg tablet
+dw16.	Equasym XL 20mg m/r capsule
+dw17.	Concerta XL 18mg m/r tablet
+dw18.	Concerta XL 36mg m/r tablet
+dw1C.	Equasym XL 10mg m/r capsule
+dw1D.	Equasym XL 30mg m/r capsule
+dw1E.	MEDIKINET XL 10mg m/r capsules
+dw1F.	MEDIKINET XL 20mg m/r capsules
+dw1G.	MEDIKINET XL 30mg m/r capsules
+dw1H.	MEDIKINET XL 40mg m/r capsules
+dw1I.	CONCERTA XL 27mg m/r tablets
+dw1J.	MEDIKINET 5mg tablets
+dw1K.	MEDIKINET 10mg tablets
+dw1L.	MEDIKINET 20mg tablets
+dw1M.	MEDIKINET XL 5mg m/r capsules
+dw1n.	METHYLPHENIDATE HYDROCHLORIDE 54mg m/r tablets
+dw1N.	MEDIKINET XL 50mg m/r capsules
+dw1o.	METHYLPHENIDATE HYDROCHLORIDE 50mg m/r capsules
+dw1O.	MEDIKINET XL 60mg m/r capsules
+dw1p.	METHYLPHENIDATE HYDROCHLORIDE 60mg m/r capsules
+dw1P.	MATORIDE XL 18mg m/r tablets
+dw1q.	METHYLPHENIDATE HYDROCHLORIDE 5mg m/r capsules
+dw1Q.	MATORIDE XL 36mg m/r tablets
+dw1r.	METHYLPHENIDATE HYDROCHLORIDE 27mg m/r tablets
+dw1R.	MATORIDE XL 54mg m/r tablets
+dw1s.	METHYLPHENIDATE HYDROCHLORIDE 40mg m/r capsules
+dw1S.	XENIDATE XL 18mg m/r tablets
+dw1t.	Methylphenidate hydrochloride 10mg m/r capsule
+dw1T.	XENIDATE XL 36mg m/r tablets
+dw1u.	Methylphenidate hydrochloride 30mg m/r capsule
+dw1U.	CONCERTA XL 54mg m/r tablets
+dw1v.	Methylphenidate hydrochloride 36mg m/r tablet
+dw1w.	Methylphenidate hydrochloride 18mg m/r tablet
+dw1x.	Methylphenidate hydrochloride 20mg m/r capsule
+dw1y.	Methylphenidate hydrochloride 5mg tablet
+dw1z.	Methylphenidate hydrochloride 20mg tablet
+dw21.	Strattera 10mg capsule
+dw22.	Strattera 18mg capsule
+dw23.	Strattera 25mg capsule
+dw24.	Strattera 40mg capsule
+dw25.	Strattera 60mg capsule
+dw2s.	ATOMOXETINE 4mg/mL oral solution
+dw2t.	ATOMOXETINE 100mg capsules
+dw2u.	ATOMOXETINE 80mg capsules
+dw2v.	Atomoxetine 60mg capsule
+dw2w.	Atomoxetine 40mg capsule
+dw2x.	Atomoxetine 25mg capsule
+dw2y.	Atomoxetine 18mg capsule
+dw2z.	Atomoxetine 10mg capsule
+dw31.	ELVANSE 30mg capsules
+dw32.	ELVANSE 50mg capsules
+dw33.	ELVANSE 70mg capsules
+dw34.	ELVANSE ADULT 30mg capsules
+dw35.	ELVANSE ADULT 50mg capsules
+dw36.	ELVANSE ADULT 70mg capsules
+dw3x.	LISDEXAMFETAMINE DIMESYLATE 70mg capsules
+dw3y.	LISDEXAMFETAMINE DIMESYLATE 50mg capsules
+dw3z.	LISDEXAMFETAMINE DIMESYLATE 30mg capsules
+dx11.	Riluzole 50mg tablet
+dy11.	Donepezil hydrochloride 5mg tablet
+dy12.	Donepezil hydrochloride 10mg tablet
+dy13.	Aricept 5mg tablet
+dy14.	Aricept 10mg tablet
+dy15.	ARICEPT EVESS 5mg oro-dispersible tablets
+dy1y.	DONEPEZIL HYDROCHLORIDE 10mg oro-dispersible tablets
+dy1z.	DONEPEZIL HYDROCHLORIDE 5mg oro-dispersible tablets
+dy21.	Rivastigmine 1.5mg capsule
+dy22.	Rivastigmine 3mg capsule
+dy23.	Rivastigmine 4.5mg capsule
+dy24.	Rivastigmine 6mg capsule
+dy29.	Rivastigmine 2mg/mL oral solution
+dy2B.	EXELON 4.6mg/24hrs patches
+dy2C.	EXELON 9.5mg/24hrs patches
+dy2D.	RIVASTIGMINE 4.6mg/24hrs patches
+dy2E.	RIVASTIGMINE 9.5mg/24hrs patches
+dy2K.	RIVASTIGMINE 13.3mg/24hours transdermal patches
+dy2L.	ALZEST 4.6mg/24hours transdermal patches
+dy2M.	ALZEST 9.5mg/24hours transdermal patches
+dy31.	Reminyl 4mg tablet
+dy32.	Reminyl 8mg tablet
+dy34.	Reminyl 4mg/mL s/f oral solution
+dy35.	Reminyl XL 8mg m/r capsule
+dy36.	Reminyl XL 16mg m/r capsule
+dy37.	Reminyl XL 24mg m/r capsule
+dy38.	GALSYA XL 8mg m/r capsules
+dy3K.	LUVENTA XL 8mg m/r capsules
+dy3L.	LUVENTA XL 16mg m/r capsules
+dy3M.	LUVENTA XL 24mg m/r capsules
+dy3t.	Galantamine 8mg m/r capsule
+dy3u.	Galantamine 16mg m/r capsule
+dy3v.	Galantamine 24mg m/r capsule
+dy3w.	Galantamine 4mg/mL s/f oral solution
+dy3x.	Galantamine 4mg tablet
+dy3y.	Galantamine 8mg tablet
+dy3z.	Galantamine 12mg tablet
+dz11.	Modafinil 100mg tablet
+dz12.	Provigil 100mg tablet
+dz13.	Modafinil 200mg tablet
+dz14.	Provigil 200mg tablet
+ei21.	Symmetrel 100mg capsule
+gde3.	Cymbalta 30mg gastro-resistant capsule
+gde4.	Cymbalta 60mg gastro-resistant capsule
+gdew.	Duloxetine 60mg gastro-resistant capsule
+gdex.	Duloxetine 30mg gastro-resistant capsule
+j111.	Aspirin 300mg tablet
+o424.	Fentanyl 25micrograms/hour patch
+o425.	Fentanyl 50micrograms/hour patch
+o426.	Fentanyl 75micrograms/hour patch
+o427.	Fentanyl 100micrograms/hour patch
+o428.	Durogesic 25micrograms/hour patch
+o429.	Durogesic 50micrograms/hour patch
+o42a.	MEZOLAR MATRIX 75micrograms/hour patches
+o42A.	Durogesic 75micrograms/hour patch
+o42b.	MEZOLAR MATRIX 100micrograms/hour patches
+o42C.	Actiq 200micrograms lozenge
+o42g.	OSMACH 100micrograms/hour patches
+o42i.	FENTALIS RESERVOIR 25micrograms/hr patches
+o42I.	Durogesic DTrans 25micrograms/hour patch
+o42j.	FENTALIS RESERVOIR 50micrograms/hr patches
+o42J.	Durogesic DTrans 50micrograms/hour patch
+o42k.	FENTALIS RESERVOIR 75micrograms/hr patches
+o42K.	Durogesic DTrans 75micrograms/hour patch
+o42L.	Durogesic DTrans 100micrograms/hour patch
+o42m.	FENTANYL 100micrograms buccal tablets
+o42o.	FENTANYL 200micrograms buccal tablets
+o42Q.	Durogesic DTrans 12micrograms/hour patch
+o42R.	Fentanyl 12micrograms/hour patch
+o42S.	MATRIFEN 12micrograms/hr patches
+o42T.	MATRIFEN 25micrograms/hr patches
+o42u.	Fentanyl 400micrograms lozenge
+o42U.	MATRIFEN 50micrograms/hr patches
+o42v.	Fentanyl 200micrograms lozenge
+o42V.	MATRIFEN 75micrograms/hr patches
+o42W.	MATRIFEN 100micrograms/hr patches
+o42X.	MEZOLAR MATRIX 12micrograms/hour patches
+o42Y.	MEZOLAR MATRIX 25micrograms/hour patches
+o42Z.	MEZOLAR MATRIX 50micrograms/hour patches
+o441.	Meptid 200mg tablet
+o442.	Meptid 100mg/1mL injection
+o481.	Pethidine hydrochloride 50mg/5mL injection
+o482.	Pethidine hydrochloride 100mg/10mL injection
+o483.	Pethidine hydrochloride 50mg/1mL injection
+o484.	Pethidine hydrochloride 100mg/2mL injection
+o4d7.	ABSTRAL 100micrograms sublingual tablets
+o4d8.	FENTANYL 100micrograms sublingual tablets
+o4d9.	ABSTRAL 200micrograms sublingual tablets
+o4da.	FENTANYL 200micrograms sublingual tablets
+o4db.	ABSTRAL 300micrograms sublingual tablets
+o4dB.	FENCINO 12micrograms/hr patches
+o4dC.	FENCINO 25micrograms/hr patches
+o4dd.	ABSTRAL 400micrograms sublingual tablets
+o4dD.	FENCINO 50micrograms/hr patches
+o4dE.	FENCINO 75micrograms/hr patches
+o4dF.	FENCINO 100micrograms/hr patches
+o4dh.	ABSTRAL 800micrograms sublingual tablets
+o4dj.	OSMANIL 25micrograms/hr patches
+o4dk.	OSMANIL 50micrograms/hr patches
+o4dl.	OSMANIL 75micrograms/hr patches
+o4dm.	OSMANIL 100micrograms/hr patches
+o4do.	VICTANYL 50micrograms/hour patches
+o4dq.	VICTANYL 100micrograms/hour patches
+o4dr.	OSMANIL 12micrograms/hr patches
+o4dt.	FENTANYL 50micrograms nasal spray
+o4dy.	PECFENT 100micrograms nasal spray
+o4e2.	MEZOLAR MATRIX 37.5micrograms/hour patches
+o4e3.	FENTANYL 37.5micrograms/hour transdermal patches
+o4e4.	YEMEX 12micrograms/hour transdermal patches
+o4e5.	YEMEX 25micrograms/hour transdermal patches
+o573.	BUCCOLAM 2.5mg/0.5mL oromucosal soln pre-filled oral syringe
+o574.	BUCCOLAM 7.5mg/1.5mL oromucosal soln pre-filled oral syringe
+o575.	BUCCOLAM 5mg/1mL oromucosal solution pre-filled oral syringe
+o576.	BUCCOLAM 10mg/2mL oromucosal solution prefilled oral syringe
+o57r.	MIDAZOLAM 10mg/2mL oromucosal soln pre-filled oral syringe
+o57s.	MIDAZOLAM 5mg/1mL oromucosal soln pre-filled oral syringe
+o57t.	MIDAZOLAM 7.5mg/1.5mL oromucosal soln prefilled oral syringe
+o57u.	MIDAZOLAM 2.5mg/0.5mL oromucosal soln prefilled oral syringe
