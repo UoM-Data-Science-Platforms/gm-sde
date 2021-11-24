@@ -541,10 +541,7 @@ SELECT gp.FK_Patient_Link_ID,
 		Sex,
 		EthnicMainGroup,
 		EventDate,
-		SuppliedCode,
-		[diabetes_type_ii_Code] = CASE WHEN SuppliedCode IN 
-					( SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-ii') AND [Version] = 1 ) THEN 1 ELSE 0 END
-
+		SuppliedCode
 INTO #diabetes2_diagnoses
 FROM [RLS].[vw_GP_Events] gp
 LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
@@ -553,6 +550,7 @@ LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE (SuppliedCode IN 
 	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-ii') AND [Version] = 1)) 
     AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+	AND gp.FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #exclusions)
 	AND (gp.EventDate) <= '2019-07-09'
 	AND YEAR('2019-07-09') - yob.YearOfBirth >= 18
 
@@ -560,7 +558,7 @@ WHERE (SuppliedCode IN
 -- Define the main cohort to be matched
 IF OBJECT_ID('tempdb..#MainCohort') IS NOT NULL DROP TABLE #MainCohort;
 SELECT DISTINCT FK_Patient_Link_ID, 
-		YearOfBirth, -- NEED TO ENSURE OVER 18S ONLY AT SOME POINT
+		YearOfBirth, 
 		Sex,
 		EthnicMainGroup
 INTO #MainCohort
@@ -818,31 +816,35 @@ WHERE (
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #MainCohort)
 AND EventDate BETWEEN '2016-04-01' AND '2022-03-31'
 
+
 -- SOME CODES EXIST IN SEVERAL CODE SETS, SO EXCLUDE THEM FROM THE SETS/VERSIONS THAT WE DON'T WANT
 -- e.g. serum HDL cholesterol appears in cholesterol v1 code set, which we don't want, but we do want the code as part of the hdl-cholesterol code set.
 
-IF OBJECT_ID('tempdb..#observations') IS NOT NULL DROP TABLE #observations;
+IF OBJECT_ID('tempdb..#all_observations') IS NOT NULL DROP TABLE #all_observations;
 select 
-	FK_Patient_Link_ID, Concept, EventDate, [Value]
+	FK_Patient_Link_ID, CAST(EventDate AS DATE) EventDate, Concept, [Value], [Version]
 into #all_observations
 from #observations
 except
-select FK_Patient_Link_ID, EventDate, Concept, [Value] from #observations 
+select FK_Patient_Link_ID, EventDate, Concept, [Value], [Version] from #observations 
 where 
-	(Concept = 'cholesterol' and [Version] = 1) OR
-	(Concept = 'hba1c' and [Version] = 1) OR
-	(Concept = 'bmi' and [Version] = 1) OR
-	([Value] IS NULL AND Concept NOT IN ('smoking-status-current', 'smoking-status-currently-not', 'smoking-status-never', 'smoking-status-passive', 'smoking-status-ex-trivial', 'smoking-status-trivial') )
+	(Concept = 'cholesterol' and [Version] <> 2) OR
+	(Concept = 'hba1c' and [Version] <> 2) OR
+	(Concept = 'bmi' and [Version] <> 2) 
 
+-- BRING TOGETHER FOR FINAL OUTPUT
 
 SELECT	 
 	PatientId = m.FK_Patient_Link_ID
 	,NULL AS MainCohortMatchedPatientId
-	TestName = o.Concept, 
-	TestDate = o.EventDate,
-	TestResult = o.[Value]
+	,TestName = o.Concept
+	,TestDate = o.EventDate
+	,TestResult = o.[Value]
 FROM #MainCohort m
 LEFT JOIN #all_observations o ON o.FK_Patient_Link_ID = m.FK_Patient_Link_ID 
+-- REMOVE ANY OBSERVATIONS WHERE THE VALUE IS NULL (EXCEPT SMOKING ONES)
+WHERE [Value] IS NOT NULL OR Concept IN 
+						('smoking-status-current', 'smoking-status-currently-not', 'smoking-status-never', 'smoking-status-passive', 'smoking-status-ex-trivial', 'smoking-status-trivial') 
 /* UNION
 -- patients in matched cohort
 SELECT	 
@@ -852,4 +854,9 @@ SELECT
 	TestDate = o.EventDate,
 	TestResult = o.[Value]
 FROM #MatchedCohort m
-LEFT JOIN #all_observations o ON o.FK_Patient_Link_ID = m.FK_Patient_Link_ID /*
+LEFT JOIN #all_observations o ON o.FK_Patient_Link_ID = m.FK_Patient_Link_ID 
+-- REMOVE ANY OBSERVATIONS WHERE THE VALUE IS NULL (EXCEPT SMOKING ONES)
+WHERE [Value] IS NOT NULL OR Concept IN 
+						('smoking-status-current', 'smoking-status-currently-not', 'smoking-status-never', 'smoking-status-passive', 'smoking-status-ex-trivial', 'smoking-status-trivial') 
+
+*/

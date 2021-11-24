@@ -85,7 +85,7 @@ WHERE (SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabet
 -- Define the main cohort to be matched
 IF OBJECT_ID('tempdb..#MainCohort') IS NOT NULL DROP TABLE #MainCohort;
 SELECT DISTINCT FK_Patient_Link_ID, 
-		YearOfBirth, -- NEED TO ENSURE OVER 18S ONLY AT SOME POINT
+		YearOfBirth,
 		Sex,
 		EthnicMainGroup,
 		IMD2019Decile1IsMostDeprived10IsLeastDeprived

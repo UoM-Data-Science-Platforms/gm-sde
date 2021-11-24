@@ -76,7 +76,7 @@ WHERE (SuppliedCode IN
 -- Define the main cohort to be matched
 IF OBJECT_ID('tempdb..#MainCohort') IS NOT NULL DROP TABLE #MainCohort;
 SELECT DISTINCT FK_Patient_Link_ID, 
-		YearOfBirth, -- NEED TO ENSURE OVER 18S ONLY AT SOME POINT
+		YearOfBirth, 
 		Sex
 INTO #MainCohort
 FROM #diabetes2_diagnoses
@@ -133,8 +133,8 @@ WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #diabetes2_diagnos
 AND m.MedicationDate > '2019-07-09' 
 AND (m.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets) OR
 	m.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets))
-AND UPPER(SourceTable) NOT LIKE '%REPMED%'
-AND RepeatMedicationFlag = 'N'
+AND UPPER(SourceTable) NOT LIKE '%REPMED%'  -- exclude duplicate prescriptions 
+AND RepeatMedicationFlag = 'N' 				-- exclude duplicate prescriptions 
 
 -- Produce final table of all medication prescriptions for T2D patients
 
@@ -145,4 +145,5 @@ FROM #meds
 ORDER BY PatientId,
 	[description],
 	PrescriptionDate
+
 
