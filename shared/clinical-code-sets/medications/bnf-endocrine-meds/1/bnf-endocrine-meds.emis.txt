@@ -1,0 +1,1986 @@
+ACIN15879NEMIS	Actrapid  Injection  100 units/ml, 10 ml vial
+ACTA28891NEMIS	Actonel Combi  Tablets And Effervescent Granules  35 mg + 1 gram (880 units)
+ACTA5320NEMIS	Actos  Tablets  30 mg
+APIN23125NEMIS	Apidra Opticlik  Injection  100 units/ml, 3 ml cartridge
+AVTA4767NEMIS	Avandia  Tablets  8 mg
+BEIN9185HILLI	Betnesol  Solution for injection  4 mg/ml, 1 ml ampoule
+BOTA17142NEMIS	Bondronat  Tablets  50 mg
+BRCA415	Bromocriptine  Capsules  10 mg
+BRTA418	Bromocriptine  Tablets  2.5 mg
+COTA25049NEMIS	Conjugated Oestrogens  Tablets  300 micrograms
+DEIN4809	Desmopressin  Injection  4 micrograms/ml, 1 ml ampoule
+DEOR24086NEMIS	Desmomelt  Oral Lyophilisate Sugar Free  240 micrograms
+DESU4741NEMIS	Dexsol  Sugar-free oral solution  2 mg/5 ml
+DIGA81516NEMIS	Dilacort  Gastro-resistant Tablets  2.5 mg
+DIM/6644NEMIS	Diamicron 30 mg Mr  M/R tablets  30 mg
+EMTA104968NEMIS	Empagliflozin And Metformin  Tablets  12.5 mg + 850 mg
+ESIM17752NEMIS	Estradiol  Implant  25 mg
+ESIM17753NEMIS	Estradiol  Implant  50 mg
+ESTA18948NEMIS	Estradiol And Norethisterone Acetate  Tablets  1 mg + 500 micrograms
+ESTR397NEMIS	Estraderm Mx  Transdermal patches  75 micrograms/24 hrs
+EXIN25438NEMIS	Exenatide  Injection (Pre-Filled Pen)  10 micrograms/dose, 60 dose pen
+FLTA1185	Florinef  Tablets  100 micrograms
+GEKA20679EMIS	Genotropin  Pen Refill  5.3 mg (16 units/cartridge)
+GEMI1611NEMIS	Genotropin  MiniQuick injection  1 mg (3 units/syringe)
+GLTA1308	Glucophage  Tablets  850 mg
+GOPR18239NEMIS	Gonal-F  Solution for injection  300 units/0.5 ml pre-filled pen
+HUCA8384BRID	Human Actrapid Penfill  Cartridges (1.5 Ml)  100 units/ml
+HUIN3718	Humulin I  Suspension For Injection  100 units/ml, 10 ml vial
+HUIN8925BRECO	Humulin M3  Suspension For Injection  100 units/ml, 10 ml vial
+HUPE26794EMIS	Human Mixtard 40  Penfill Cartridges (1.5 Ml)  
+HYIN15401NEMIS	Hypurin Porcine Neutral  Injection (cartridges)  100 units/ml, 3 ml Cartridge
+INPR11699NEMIS	Insulatard Innolet  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+ACIN3110	Acthar Gel  Injection  80 units/ml, 5 ml vial
+ACTA3888NEMIS	Actonel  Tablets  5 mg
+BEIN9273HILLI	Betamethasone Sodium Phosphate  Solution for injection  4 mg/ml, 1 ml ampoule
+BUIN4668	Buserelin  Injection  1 mg/ml, 5.5 ml vial
+BUNA20652EMIS	Buserelin  Nasal spray  150 micrograms/dose
+CAIN17840NEMIS	Calcitonin (Salmon)  Injection  100 units/ml, 1 ml ampoule
+CATA29922EMIS	Calcort  Tablets  6 mg
+CATA96770NEMIS	Canagliflozin And Metformin  Tablets  50 mg + 1000 mg
+CHIN19991NEMIS	Choriogonadotropin Alfa  Injection (pre-filled syringe)  250 micrograms/0.5 ml syringe
+CLTA649	Clomiphene Citrate  Tablets  50 mg
+DACA800	Danol  Capsules  100 mg
+DDOR24083NEMIS	Ddavp Melt  Oral Lyophilisate Sugar Free  240 micrograms
+DESU88757NEMIS	Dexamethasone  Sugar-free oral solution  10 mg/5 ml
+DETA24700EMIS	Desmotabs  Tablets  200 micrograms
+DETA29924EMIS	Deflazacort  Tablets  6 mg
+ELOR74102NEMIS	Eltroxin  Oral solution  100 micrograms/5 ml
+ELTA30208EMIS	Elleste Duet 1 Mg  Tablets  
+ESPA8673EGTON	Estraderm Tts  Transdermal patches  50 micrograms/24 hrs
+ESTR17759NEMIS	Estradiol  Transdermal patches  25 micrograms/24 hrs
+ESTR19388NEMIS	Estradot  Transdermal patches  25 micrograms/24 hrs
+ETTA1118	Ethinyloestradiol  Tablets  10 micrograms
+EVTA34223EMIS	Evista  Tablets  60 mg
+EVTR26442EMIS	Evorel  Transdermal patches  25 micrograms/24 hrs
+EVTR26443EMIS	Evorel  Transdermal patches  75 micrograms/24 hrs
+EVTR31384EMIS	Evorel Sequi  Transdermal patches  
+FOTA4158NEMIS	Fosamax  Tablets  5 mg
+GEKA20683EMIS	Genotropin  Kabivial injection  5.3 mg (16 units/vial)
+GEMI1607NEMIS	Genotropin  MiniQuick injection  0.2 mg (0.6 units/syringe)
+GEMI1609NEMIS	Genotropin  MiniQuick injection  0.6 mg (1.8 units/syringe)
+GEMI3880NEMIS	Genotropin  MiniQuick injection  1.6 mg (4.8 units/syringe)
+GLTA1303	Glibenclamide  Tablets  5 mg
+GOPR18241NEMIS	Gonal-F  Solution for injection  900 units/1.5 ml pre-filled pen
+HUPR5189NEMIS	Humalog Mix50  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+ABSO104799NEMIS	Abasaglar Kwikpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+ACSO22669NEMIS	Aclasta  Solution for infusion  5 mg/100 ml bottle
+ACTA3889NEMIS	Actonel  Tablets  30 mg
+AVTA16478NEMIS	Avandamet  Tablets  2 mg + 500 mg
+BETA22322NEMIS	Bedol  Tablets  2 mg
+BETA4644	Betamethasone  Tablets  500 micrograms
+BOCA18863EMIS	Bonefos  Capsules  400 mg
+CYTA10113BRIDL	Cyclo-Progynova 1 Mg  Tablets  
+DACA799	Danazol  Capsules  200 mg
+DATA88552NEMIS	Dapagliflozin And Metformin  Tablets  5 mg + 1000 mg
+DETA23516EMIS	Desmopressin  Tablets  200 micrograms
+DETA32200EMIS	Deflazacort  Tablets  1 mg
+DETA817	Decadron  Tablets  500 micrograms
+DITA18102EMIS	Didronel Pmo  Tablets  
+DITA4828	Diazoxide  Tablets  50 mg
+ELTA28288EMIS	Elleste-Solo  Tablets  2 mg
+EMTA104966NEMIS	Empagliflozin And Metformin  Tablets  5 mg + 850 mg
+EMTA104969NEMIS	Empagliflozin And Metformin  Tablets  12.5 mg + 1000 mg
+ESGE17772NEMIS	Estradiol  Gel  500 micrograms/500 mg sachet
+ESTA8374EGTON	Estrapak 50  Tablets and patches  
+ESTR19392NEMIS	Estradot  Transdermal patches  100 micrograms/24 hrs
+FETA15852NEMIS	Femtab  Tablets  1 mg
+FETR13850NEMIS	Femseven Sequi  Transdermal patches  50 micrograms/10 micrograms/24 hours
+GLM/19422NEMIS	Glucophage Sr  M/R tablets  500 mg
+GLTA1302	Glibenclamide  Tablets  2.5 mg
+GLTA1304	Glibenese  Tablets  5 mg
+GLTA31850EMIS	Glimepiride  Tablets  1 mg
+GUGR3671	Guarem  Granules  5 g/sachet
+HATA1350	Harmogen  Tablets  1.5 mg
+HUCA29552EMIS	Humatrope  Cartridges  6 mg (18 units)
+HUCA32509EMIS	Humulin M3  Suspension For Injection  100 units/ml, 3 ml cartridge
+HUINEGTON7136	Humulin Lente  Injection  100 units/ml, 10 ml vial
+HUPE26791EMIS	Human Mixtard 30  Penfill Cartridges (1.5 Ml)  
+INCA34843EMIS	Insulin Lispro  Solution for injection  100 units/ml, 3 ml cartridge
+ININ1196NEMIS	Insulin Aspart  Injection  100 units/ml, 10 ml vial
+INPR18215NEMIS	Insulin Detemir  Solution for injection  100 units/ml, 3 ml pre-filled pen
+ALTA86903NEMIS	Alogliptin  Tablets  25 mg
+ALTA86909NEMIS	Alogliptin And Metformin  Tablets  12.5 mg + 1000 mg
+AMTA31480EMIS	Amaryl  Tablets  2 mg
+ANTR31981EMIS	Andropatch  Transdermal patches  5 mg/24 hrs
+CATA88610NEMIS	Canagliflozin  Tablets  300 mg
+CLTA22320NEMIS	Clinorette  Tablets  
+CLTA22608EMIS	Climagest 1 Mg  Tablets  
+CLTA23918EMIS	Climagest 2 Mg  Tablets  
+DDOR21819NEMIS	Ddavp Melt  Oral Lyophilisate Sugar Free  120 micrograms
+DDTA23511EMIS	Ddavp  Tablets  100 micrograms
+DESO43673NEMIS	Denosumab  Solution for injection  60 mg/1 ml pre-filled syringe
+ELOR74100NEMIS	Eltroxin  Oral solution  25 micrograms/5 ml
+EMTA104967NEMIS	Empagliflozin And Metformin  Tablets  5 mg + 1000 mg
+ESTA18936NEMIS	Estradiol And Norethisterone Acetate  Tablets  2 mg + 1 mg
+ESTR17760NEMIS	Estradiol  Transdermal patches  40 micrograms/24 hrs
+FETR28119EMIS	Fematrix 40  Transdermal patches  40 micrograms/24 hrs
+GEMI3881NEMIS	Genotropin  MiniQuick injection  1.8 mg (5.4 units/syringe)
+GLTA31851EMIS	Glimepiride  Tablets  3 mg
+HUCA28935EMIS	Humalog  Cartridges (1.5 Ml)  100 units/ml
+HUCA32498EMIS	Humulin I  Cartridges (3 Ml)  100 units/ml
+HUIN3072NEMIS	Human Chorionic Gonadotrophin  Powder and solvent for injection  1,500 unit ampoule
+HUIN3721	Humulin S  Injection  100 units/ml
+HUSO101078NEMIS	Humalog Kwikpen  Solution for injection  200 units/ml, 3 ml pre-filled pen
+INCA34843EMIS	Insulin Lispro  Cartridges (3 Ml)  100 units/ml
+ININ3272NEMIS	Insuman Rapid  Injection (cartridges)  100 units/ml, 3 ml cartridge
+ININ3281NEMIS	Insuman Basal  Injection (cartridges)  100 units/ml, 3 ml cartridge
+ININ3284NEMIS	Insuman Comb 25  Injection (cartridges)  100 units/ml, 3 ml cartridge
+ININ4907NEMIS	Insuman Comb 15  Injection (cartridges)  100 units/ml, 3 ml cartridge
+INPR15885NEMIS	Insulatard Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+INSO98875NEMIS	Insulin Degludec And Liraglutide  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen
+INTA5652NEMIS	Indivina  Tablets  1 mg + 2.5 mg
+INTA5654NEMIS	Indivina  Tablets  2 mg + 5 mg
+APIN21136NEMIS	Apidra  Injection  100 units/ml, 3 ml cartridge
+AVTA16477NEMIS	Avandamet  Tablets  1 mg + 500 mg
+BESO103656NEMIS	Bemfola  Solution for injection  150 units/0.25 ml, pre-filled pen
+BOTA21112NEMIS	Bonviva  Tablets  150 mg
+BYIN25441NEMIS	Byetta  Injection (Pre-Filled Pen)  10 micrograms/dose, 60 dose pen
+CAIN3271	Calsynar  Injection  100 units/ml, 1 ml ampoule
+CEIN784NEMIS	Cetrorelix Acetate  Injection  250 micrograms/vial
+CLTA9344EMIS	Climaval  Tablets  1 mg
+COTA33808EMIS	Conjugated Oestrogens  Tablets  2.5 mg
+COTA723	Conjugated Oestrogens  Tablets  1.25 mg
+CYTA775	Cyclo-Progynova 2 Mg  Tablets  
+DDIN3389	Ddavp  Intranasal solution  100 micrograms/ml
+DDOR21818NEMIS	Ddavp Melt  Oral Lyophilisate Sugar Free  60 micrograms
+DESU4742NEMIS	Dexamethasone  Sugar-free oral solution  2 mg/5 ml
+DETA845	Dexamethasone  Tablets  2 mg
+DUCA14921NEMIS	Dutasteride  Capsules  500 micrograms
+DUTA27717EMIS	Duphaston-Hrt  Tablets  10 mg
+ELTR31592EMIS	Elleste Solo Mx  Transdermal patches  40 micrograms/24 hrs
+ESPA20472EMIS	Estracombi Tts  Patches  
+ESTR17764NEMIS	Estradiol  Transdermal patches  80 micrograms/24 hrs
+ESTR17767NEMIS	Estradiol  Transdermal patches (7 days)  50 micrograms/24 hrs
+ESTR17768NEMIS	Estradiol  Transdermal patches (7 days)  75 micrograms/24 hrs
+EUTA29317NEMIS	Eucreas  Tablets  850 mg + 50 mg
+EUTA3552	Euglucon  Tablets  5 mg
+FETA15855NEMIS	Femtab Sequi  Tablets  
+FETR31721EMIS	Femseven  Transdermal patches (7 days)  100 micrograms/24 hrs
+FLTA8362BRID	Fludrocortisone  Tablets  100 micrograms
+FOPO23519NEMIS	Fostimon  Powder For Solution For Injection  75 units/vial
+GLIN27123EMIS	Glucagon (Rys) Hydrochloride  Injection  1 mg/vial
+GLM/35044NEMIS	Glucophage Sr  M/R tablets  1 gram
+GLTA51170NEMIS	Glucient Sr  M/R tablets  500 mg
+GOPO15984NEMIS	Gonal-F  Powder and solvent for solution for injection  1,050 unit vial
+GOPR18240NEMIS	Gonal-F  Solution for injection  450 units/0.75 ml pre-filled pen
+HOTA3705	Hormonin  Tablets  
+ACTA14826NEMIS	Actonel Once A Week  Tablets  35 mg
+ALTA86900NEMIS	Alogliptin  Tablets  6.25 mg
+ANTR29512EMIS	Andropatch  Transdermal patches  2.5 mg/24 hrs
+CAIN17841NEMIS	Calcitonin (Salmon)  Injection  200 units/ml, 2 ml vial
+CYPE10822NEMIS	Cyclogest  Pessaries  200 mg
+DEIN4810	Desmopressin  Intranasal solution  100 micrograms/ml
+DETA23515EMIS	Desmopressin  Tablets  100 micrograms
+DETR5678NEMIS	Dermestril Septem  Transdermal patches (7 days)  75 micrograms/24 hrs
+DIPO33321NEMIS	Pamidronate Disodium  Powder And Solvent For Solution For Infusion  15 mg vial
+DITA3417	Diamicron  Tablets  80 mg
+DITA4853	Etidronate Disodium  Tablets  200 mg
+ESPA8672EGTON	Estraderm Tts  Transdermal patches  25 micrograms/24 hrs
+ESTA17754NEMIS	Estradiol  Tablets  1 mg
+ESTA17776NEMIS	Estradiol Valerate  Tablets  1 mg
+EXIN25436NEMIS	Exenatide  Injection (Pre-Filled Pen)  5 micrograms/dose, 60 dose pen
+FETA28124EMIS	Femapak 80  Tablets and patches  
+FETR28091EMIS	Femseven  Transdermal patches (7 days)  50 micrograms/24 hrs
+GEKA23689EMIS	Genotropin  Pen Refill  12 mg (36 units/cartridge)
+GEMI3879NEMIS	Genotropin  MiniQuick injection  1.4 mg (4.2 units/syringe)
+GLTA1305	Glipizide  Tablets  5 mg
+GLTA43641NEMIS	Gliclazide  Tablets  40 mg
+GLTA4960	Gliclazide  Tablets  80 mg
+GOIN3666	Choragon  Injection  5000 units/amp
+HUCA29553EMIS	Humatrope  Cartridges  12 mg (36 units)
+HUIN22532EMIS	Human Chorionic Gonadotrophin  Injection  10,000 units/amp
+HUIN22574NEMIS	Humalog Mix50  Injection (cartridges)  100 units/ml, 3 ml cartridge
+HUPE26785EMIS	Human Mixtard 10  Penfill Cartridges (1.5 Ml)  
+HUPR26724EMIS	Humaject (Humulin M3)  Preloaded pen  
+HUSU45861NEMIS	Humulin M3 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HYIN3726	Hydrocortisone Sodium Succinate  Powder For Solution For Injection  100 mg/vial
+INCA1198NEMIS	Insulin Aspart  Cartridges (3 Ml)  100 units/ml
+ININ18217NEMIS	Insulin Detemir  Injection (cartridges)  100 units/ml, 3 ml cartridge
+ININ3278NEMIS	Insuman Basal  Injection  100 units/ml, 5 ml vial	
+ACTA16489NEMIS	Actos  Tablets  45 mg
+ACTA23754EMIS	Acarbose  Tablets  100 mg
+ADTA5074NEMIS	Adgyn Estro  Tablets  2 mg
+AENA6635NEMIS	Aerodiol  Nasal spray  150 micrograms/metered spray
+ANTA20250NEMIS	Angeliq  Tablets  1 mg + 2 mg
+BRTA417	Bromocriptine  Tablets  1 mg
+CATA32098EMIS	Calcort  Tablets  30 mg
+CATA490	Carbimazole  Tablets  5 mg
+CLTA9345EMIS	Climaval  Tablets  2 mg
+DDIN3388	Ddavp  Injection  4 micrograms/ml, 1 ml ampoule
+DDTA23512EMIS	Ddavp  Tablets  200 micrograms
+DEOR24079NEMIS	Desmopressin  Oral Lyophilisate Sugar Free  240 micrograms
+DEOR98313NEMIS	Desmopressin  Oral solution  360 micrograms/ml
+DETA828	Deltacortril Enteric  E/c tablets  5 mg
+DIPO33322NEMIS	Pamidronate Disodium  Powder And Solvent For Solution For Infusion  30 mg vial
+ELTA28287EMIS	Elleste-Solo  Tablets  1 mg
+ESTA17755NEMIS	Estradiol  Tablets  2 mg
+ESTA17783NEMIS	Estriol  Tablets  1 mg
+ESTA18932NEMIS	Estradiol Valerate And Norethisterone  Tablets  2 mg + 700 micrograms
+EUTA3551	Euglucon  Tablets  2.5 mg
+EVOR23335NEMIS	Evotrox  Oral solution  25 micrograms/5 ml
+EVTR22315EMIS	Evorel  Transdermal patches  50 micrograms/24 hrs
+EVTR31391EMIS	Evorel Conti  Transdermal patches  
+FETA28504EMIS	Femapak 40  Tablets and patches  
+FETA76936NEMIS	Femoston-Conti  Tablets  500 micrograms + 2.5 mg
+FITA20469EMIS	Finasteride  Tablets  5 mg
+GEMI3882NEMIS	Genotropin  MiniQuick injection  2 mg (6 units/syringe)
+GLIN6453NEMIS	Glucagen Hypokit  Injection  1 mg
+GLM/30450NEMIS	Glucophage Sr  M/R tablets  750 mg
+GLOR35742NEMIS	Glucophage  Oral powder sachets  500 mg
+GLTA31482EMIS	Glimepiride  Tablets  2 mg
+GLTA31852EMIS	Glimepiride  Tablets  4 mg
+GOIN28962EMIS	Gonal-F  Injection  75 units/amp
+GOPO15985NEMIS	Gonal-F  Powder and solvent for solution for injection  450 unit vial
+HUPE26788EMIS	Human Mixtard 20  Penfill Cartridges (1.5 Ml)  
+HUPR5192NEMIS	Humulin I  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+ACPR15881NEMIS	Actrapid Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+ALTA86902NEMIS	Alogliptin  Tablets  12.5 mg
+AMTA31844EMIS	Amaryl  Tablets  1 mg
+ANTA3170	Androcur  Tablets  50 mg
+AVTA19077NEMIS	Avandamet  Tablets  4 mg + 1 gram
+BRCA416	Bromocriptine  Capsules  5 mg
+CHTA600	Chlorpropamide  Tablets  100 mg
+COTA724	Conjugated Oestrogens  Tablets  625 micrograms
+CRVA31938EMIS	Crinone  Vaginal gel  4 %
+CRVA31940EMIS	Crinone  Vaginal gel  8 %
+DATA88553NEMIS	Dapagliflozin And Metformin  Tablets  5 mg + 850 mg
+DEOR21813NEMIS	Desmopressin  Oral Lyophilisate Sugar Free  120 micrograms
+DETA846	Dexamethasone  Tablets  500 micrograms
+DIM/74131NEMIS	Diagemet Xl  M/R tablets  500 mg
+DUSO100540NEMIS	Dulaglutide  Solution for injection  0.75 mg/0.5 ml pre-filled device
+DUTA1008	Duphaston  Tablets  10 mg
+ELTA1055	Eltroxin  Tablets  100 micrograms
+ELTA1056	Eltroxin  Tablets  50 micrograms
+ELTA31986EMIS	Elleste Duet Conti  Tablets  
+ESGE17750NEMIS	Estradiol  Gel  0.06 % pump-pack
+ESGE17771NEMIS	Estradiol  Gel  1 mg/1 gram sachet
+ESTA71579NEMIS	Esmya  Tablets  5 mg
+ESTR17763NEMIS	Estradiol  Transdermal patches  75 micrograms/24 hrs
+ESTR19391NEMIS	Estradot  Transdermal patches  75 micrograms/24 hrs
+ESTR28298EMIS	Estraderm Mx  Transdermal patches  25 micrograms/24 hrs
+EVTR26441EMIS	Evorel  Transdermal patches  100 micrograms/24 hrs
+EXIN22884NEMIS	Exubera  Inhalation Powder Blisters  3 mg Unit Dose Blister
+EXPO51135NEMIS	Exenatide  Prolonged release suspension for injection  2 mg vial
+FETA27492EMIS	Femoston 1/10  Tablets  
+FETR26606EMIS	Fematrix 80  Transdermal patches  80 micrograms/24 hrs
+FOTA5746NEMIS	Fosamax Once Weekly  Tablets  70 mg
+GATA27037NEMIS	Galvus  Tablets  50 mg
+GLM/6638NEMIS	Gliclazide  M/R tablets  30 mg
+GLOR35743NEMIS	Glucophage  Oral powder sachets  1 gram
+GOPO15983NEMIS	Gonal-F  Powder and solvent for solution for injection  75 unit vial
+GUGR4977	Guar Gum  Granules  5 g/sachet
+KOTA78214NEMIS	Komboglyze  Tablets  2.5 mg + 850 mg
+LEPR18221NEMIS	Levemir Flexpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+MEM/19420NEMIS	Metformin Hydrochloride  M/R tablets  500 mg
+MEPO14279NEMIS	Menotrophin  Powder and solvent for solution for injection  150 units/vial
+MEPO20449EMIS	Methylprednisolone Sodium Succinate  Powder and solvent for solution for injection  500 mg vial
+MIIN10926BRIDL	Miacalcic  Injection  100 units/ml, 1 ml ampoule
+MIIN15902NEMIS	Mixtard 30  Injection  100 units/ml, 10 ml vial
+NATA6619NEMIS	Nateglinide  Tablets  60 mg
+NETA8347EGTON	Neo-Mercazole  Tablets  20 mg
+NOTA12924NEMIS	Novofem  Tablets  
+OVIN11782NEMIS	Ovitrelle  Injection  250 microgram vial
+OVIN52621NEMIS	Ovitrelle  Injection (Pre-Filled Pen)  250 micrograms/0.5 ml pen
+PEPO17478NEMIS	Pegvisomant  Powder and solvent for solution for injection  15 mg vial
+PEPR23950EMIS	Human Mixtard 50  Preloaded pen  
+PETA100624NEMIS	Pevanti  Tablets  5 mg
+PRIN10462HILLI	Pregnyl  Powder and solvent for injection  5,000 unit ampoule
+PRM/46706NEMIS	Prednisone  M/R tablets  1 mg
+PRTA100619NEMIS	Prednisolone  Tablets  20 mg
+PRTA17460NEMIS	Premique Low Dose  M/R tablets  0.3 mg + 1.5 mg
+PRTA2328	Prednisolone  Tablets  5 mg
+PRTA23816EMIS	Provera  Tablets  2.5 mg
+SOIN1604NEMIS	Somatropin (Rbe)  Injection (Prefilled Syringe)  1 mg (3 units/syringe)
+SOIN1951NEMIS	Somatropin (epr)  Injection (cartridges)  10 mg/1.5 ml (6.7 mg/ml)
+SOSO48418NEMIS	Somatropin (Rmc)  Solution for injection  20 mg/2.5 ml cartridge
+STSU19061NEMIS	Strontium Ranelate  Sugar free granules  2 grams/sachet
+SUIN4361	Sustanon 250  Injection  1 ml ampoule
+SYIN4367	Synacthen Depot  Suspension For Injection  1 mg/1 ml ampoule
+TEIM4406	Testosterone  Implant  200 mg
+TETR31983EMIS	Testosterone  Transdermal patches  5 mg/24 hrs
+TOTA38711NEMIS	Tolvaptan  Tablets  15 mg
+TRIN2911	Triamcinolone Acetonide  Injection  40 mg/ml
+VAM/98855NEMIS	Vamju  M/R tablets  30 mg
+VITA86906NEMIS	Vipidia  Tablets  12.5 mg
+ACIN3110	Acthar Gel  Injection  80 units/ml, 5 ml vial
+INSO78482NEMIS	Insulin Degludec  Solution for injection  200 units/ml, 3 ml pre-filled device
+INTA5653NEMIS	Indivina  Tablets  1 mg + 5 mg
+ISIN668NEMIS	Isophane Insulin (Porcine, Highly Purified)  Injection (cartridges)  100 units/ml, 3 ml cartridge
+KEPR20562EMIS	Kenalog  Prefilled syringe  40 mg/1 ml
+LEIN18219NEMIS	Levemir Penfill  Injection (cartridges)  100 units/ml, 3 ml cartridge
+LIIN5088	Liothyronine Sodium  Injection  20 micrograms/amp
+LOTA24069EMIS	Loron 520  Tablets  520 mg
+LYSO78537NEMIS	Lyxumia  Solution for injection  10 micrograms/0.2 ml, 3 ml pen
+MEIN25346EMIS	Metrodin High Purity  Injection  150 units/amp
+MEOR35740NEMIS	Metformin Hydrochloride  Oral Powder Sachets Sugar Free  500 mg
+META19831EMIS	Methylprednisolone  Tablets  100 mg
+META29313NEMIS	Metformin And Vildagliptin  Tablets  850 mg + 50 mg
+MIINEGTON7152	Pork Mixtard 30  Injection  10 ml vial
+MIPR15896NEMIS	Mixtard 20 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+MITA3948	Minodiab  Tablets  2.5 mg
+OEGE26582EMIS	Oestradiol  Gel  0.06 %
+ORPR5642NEMIS	Orgalutran  Solution for injection  250 micrograms/0.5 ml pre-filled syringe
+PACA2164	Parlodel  Capsules  10 mg
+PRIN2366	Progesterone  Injection  25 mg/1 ml ampoule
+PRIN2373	Proluton Depot  Injection  250 mg/ml
+PRIN9542EMIS	Profasi  Injection  5000 units/amp
+PRTA23502NEMIS	Prandin  Tablets  500 micrograms
+PRTA23503NEMIS	Prandin  Tablets  1 mg
+PRTA25050NEMIS	Premarin  Tablets  300 micrograms
+RETA34162EMIS	Repaglinide  Tablets  2 mg
+ROTA18929NEMIS	Rosiglitazone And Metformin  Tablets  1 mg + 500 mg
+ROTA4762NEMIS	Rosiglitazone Maleate  Tablets  4 mg
+SAGE30742EMIS	Sandrena  Gel  1 mg/1 gram sachet
+SASO48420NEMIS	Saizen  Solution for injection  12 mg/1.5 ml cartridge
+SOIN3877NEMIS	Somatropin (Rbe)  Injection (Prefilled Syringe)  2 mg (6 units/syringe)
+SOSO48416NEMIS	Somatropin (Rmc)  Solution for injection  6 mg/1.03 ml cartridge
+SUNA20650EMIS	Suprecur  Nasal spray  150 micrograms/dose
+TOSO103679NEMIS	Toujeo Solostar  Pre-filled Disposable Pen  300 units/ml, 1.5 ml pen
+HYTA3724	Hydrocortisone  Tablets  10 mg
+ININ3269NEMIS	Insuman Rapid  Injection  100 units/ml, 5 ml vial
+LAIN13572NEMIS	Lantus  Injection  100 units/ml, 3 ml cartridge
+MAOR52610NEMIS	Martapan  Oral solution  2 mg/5 ml
+MEIN25347EMIS	Metrodin High Purity  Injection  75 units/amp
+METR27689EMIS	Menorest  Transdermal patches  50 micrograms/day
+MIPR15900NEMIS	Mixtard 30 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+NOIN1200NEMIS	Novorapid  Injection  100 units/ml, 10 ml vial
+NOIN12698NEMIS	Novomix 30 Penfill  Injection (cartridges)  100 units/ml, 3 ml cartridge
+NUIN17226NEMIS	Nutropin Aq  Injection  10 mg (30 units/2 ml cartridge)
+NUTR30362EMIS	Nuvelle Ts  Transdermal patches  
+OCNA20924NEMIS	Octim  Nasal spray  150 micrograms/actuation
+OETA9400EMIS	Oestradiol Valerate  Tablets  1 mg
+OETR22320EMIS	Oestradiol  Transdermal patches  25 micrograms/24 hrs
+OMIN83191NEMIS	Omnitrope Surepal 10  Solution for injection  10 mg/1.5 ml cartridge
+OVIN18247NEMIS	Ovitrelle  Injection (pre-filled syringe)  250 micrograms/0.5 ml syringe
+PITA5317NEMIS	Pioglitazone Hydrochloride  Tablets  30 mg
+PRSO43676NEMIS	Prolia  Solution for injection  60 mg/1 ml pre-filled syringe
+PRVA31943EMIS	Progesterone  Vaginal gel  4 %
+RETA34163EMIS	Repaglinide  Tablets  500 micrograms
+SATA78212NEMIS	Saxagliptin And Metformin  Tablets  2.5 mg + 1000 mg
+SKTA28538EMIS	Skelid  Tablets  200 mg
+SOIN3873NEMIS	Somatropin (Rbe)  Injection (Prefilled Syringe)  1.4 mg (4.2 units/syringe)
+STTA2716	Stromba  Tablets  5 mg
+TETR1673NEMIS	Testosterone  Transdermal patches  6 mg/24 hrs
+TRTA51800NEMIS	Trajenta  Tablets  5 mg
+XGSO51581NEMIS	Xgeva  Solution for injection  120 mg/1.7ml vial
+XITA88555NEMIS	Xigduo  Tablets  5 mg + 1000 mg
+AMTA31480EMIS	Amaryl  Tablets  2 mg
+ARTA16943NEMIS	Armour Thyroid  Tablets  30 mg (1/2 grain)
+AVTA4767NEMIS	Avandia  Tablets  8 mg
+BEIN9185HILLI	Betnesol  Solution for injection  4 mg/ml, 1 ml ampoule
+BETA130282NEMIS	Bentexo  Tablets  70 mg + 5,600 units
+BRTA417	Bromocriptine  Tablets  1 mg
+AMTA31845EMIS	Amaryl  Tablets  3 mg
+APIN21135NEMIS	Apidra  Injection  100 units/ml, 10 ml vial
+APPR26865NEMIS	Apidra Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+BYPO51137NEMIS	Bydureon  Prolonged release suspension for injection  2 mg vial
+CATA10626BRIDL	Carbimazole  Tablets  20 mg
+CATA32198EMIS	Calcort  Tablets  1 mg
+CEIN787NEMIS	Cetrotide  Injection  250 micrograms/vial
+CLTA28306EMIS	Climesse  Tablets  
+COTA3363	Cortisone  Tablets  25 mg
+DESO51579NEMIS	Denosumab  Solution for injection  120 mg/1.7 ml vial
+ELOR74101NEMIS	Eltroxin  Oral solution  50 micrograms/5 ml
+ESTA17777NEMIS	Estradiol Valerate  Tablets  2 mg
+ESTR17766NEMIS	Estradiol  Transdermal patches (7 days)  100 micrograms/24 hrs
+ETTA17649NEMIS	Ethinylestradiol  Tablets  10 micrograms
+FETA15853NEMIS	Femtab  Tablets  2 mg
+FETA26908EMIS	Femoston 2/10  Tablets  
+FOTA77718NEMIS	Forxiga  Tablets  10 mg
+GEIN1297	Gestone  Solution for injection  50 mg/1 ml ampoule
+GEMI1608NEMIS	Genotropin  MiniQuick injection  0.4 mg (1.2 units/syringe)
+GLM/78909NEMIS	Gliclazide  M/R tablets  60 mg
+GLTA23751EMIS	Glucobay  Tablets  50 mg
+HUCA35540EMIS	Humalog Mix25  Cartridges (3 Ml)  100 units/ml
+HUIN25811EMIS	Humulin M5  Injection  10 ml vial
+HUIN5904	Humulin Zn  Injection  100 units/ml, 10 ml vial
+HUPR26715EMIS	Humaject (Humulin S)  Preloaded pen  100 units/ml
+HUPR5191NEMIS	Humalog  Solution for injection  100 units/ml, 3 ml pre-filled pen
+IBTA21110NEMIS	Ibandronic Acid  Tablets  150 mg
+ININ28940EMIS	Insulin Lispro  Injection  100 units/ml, 10 ml vial
+ININ4910NEMIS	Insuman Comb 50  Injection (cartridges)  100 units/ml, 3 ml cartridge
+INPR6343NEMIS	Insuman Comb 15 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INPR6347NEMIS	Insuman Comb 50 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INSO78480NEMIS	Insulin Degludec  Solution for injection  100 units/ml, 3 ml pre-filled device
+JATA91277NEMIS	Jardiance  Tablets  25 mg
+LAIN21795NEMIS	Lantus Opticlik  Injection  100 units/ml, 3 ml cartridge
+INTA88613NEMIS	Invokana  Tablets  300 mg
+KLTA34182EMIS	Kliovance  Tablets  
+LAPR26863NEMIS	Lantus Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+LEOR23331NEMIS	Levothyroxine Sodium  Oral solution  Sugar Free 50 micrograms/5 ml
+MEM/49996NEMIS	Metabet Sr  M/R tablets  1 gram
+MEOR23338NEMIS	Metsol  Oral solution  500 mg/5 ml
+META5128	Mesterolone  Tablets  25 mg
+NAIN1930	Nandrolone Decanoate  Injection  50 mg/ml, 1 ml ampoule
+NOIN1954NEMIS	Norditropin SimpleXx  Injection (cartridges)  10 mg/1.5 ml
+NONA5171NEMIS	Nocutil  Nasal spray  10 micrograms/spray
+NOTA2023	Norethisterone  Tablets  5 mg
+NUTA17981EMIS	Nuvelle  Tablets  
+OETA20668EMIS	Oestradiol  Tablets  2 mg
+OETR22319EMIS	Oestradiol  Transdermal patches  100 micrograms/24 hrs
+PEPR22308EMIS	Human Mixtard 30  Preloaded pen  
+PETA100628NEMIS	Pevanti  Tablets  25 mg
+PREN8411EGTON	Prednisolone  E/c tablets  2.5 mg
+PRTA2336	Premarin  Tablets  1.25 mg
+PUCA5662NEMIS	Puregon  Solution for injection  300 units/0.36 ml cartridge
+ROTA19075NEMIS	Rosiglitazone And Metformin  Tablets  4 mg + 1 gram
+SOCA29560EMIS	Somatropin (Rbe)  Cartridges  24 mg (72 units)
+SOIN1603NEMIS	Somatropin (Rbe)  Injection (Prefilled Syringe)  0.8 mg (2.4 units/syringe)
+SOIN17224NEMIS	Somatropin  Injection  10 mg (30 units/2 ml cartridge)
+SOIN30844NEMIS	Somatropin (Rbe)  Solution for injection  10 mg/1.5 ml cartridge
+SOIN35551EMIS	Somatropin (Rmc)  Injection  8 mg (24 units/vial)
+SOIN3874NEMIS	Somatropin (Rbe)  Injection (Prefilled Syringe)  1.6 mg (4.8 units/syringe)
+SOPO17481NEMIS	Somavert  Powder and solvent for solution for injection  10 mg vial
+SOPO47381NEMIS	Somatropin (Rbe)  Powder and solvent for solution for injection  5.3 mg pen
+SOPO47384NEMIS	Somatropin (Rbe)  Powder and solvent for solution for injection  12 mg pen
+SOSO48417NEMIS	Somatropin (Rmc)  Solution for injection  12 mg/1.5 ml cartridge
+SOTA24071EMIS	Sodium Clodronate  Tablets  520 mg
+STTA6624NEMIS	Starlix  Tablets  60 mg
+STTA6625NEMIS	Starlix  Tablets  120 mg
+ISIN1507	Isophane Insulin (Human)  Suspension For Injection  100 units/ml, 10 ml vial
+ISIN666NEMIS	Isophane Insulin (Porcine, Highly Purified)  Injection  100 units/ml, 10 ml vial
+JATA71614NEMIS	Januvia  Tablets  25 mg
+KLTA26493EMIS	Kliofem  Tablets  
+LAIN13570NEMIS	Lantus  Injection  100 units/ml, 10 ml vial
+MECA5162	Metyrapone  Capsules  250 mg
+MEPO20445EMIS	Methylprednisolone Sodium Succinate  Powder and solvent for solution for injection  1 gram vial
+MEPO5282NEMIS	Menopur  Powder and solvent for solution for injection  75 units/vial
+META29314NEMIS	Metformin And Vildagliptin  Tablets  1 gram + 50 mg
+META3886	Medrone  Tablets  16 mg
+META76744NEMIS	Metformin And Linagliptin  Tablets  850 mg + 2.5 mg
+MIPR15906NEMIS	Mixtard 40 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+NATA6622NEMIS	Nateglinide  Tablets  180 mg
+NEIN19654NEMIS	Nebido  Injection  250 mg/ml, 4 ml ampoule
+NOPR1202NEMIS	Novorapid Novolet  Prefilled syringes  100 units/ml
+ONTA39317NEMIS	Onglyza  Tablets  5 mg
+PITA16488NEMIS	Pioglitazone Hydrochloride  Tablets  45 mg
+PLM/77086NEMIS	Plenadren  M/R tablets  5 mg
+PRCA28722EMIS	Prowess  Capsules  
+PRTA2372	Progynova  Tablets  2 mg
+PRVA82059NEMIS	Progesterone  Vaginal Capsules (Micronised)  200 mg
+PUCA5663NEMIS	Puregon  Solution for injection  600 units/0.72 ml cartridge
+PUIN1270NEMIS	Puregon  Injection  200 units vial
+RION14824NEMIS	Risedronate Sodium  Once A Week Tablets  35 mg
+SITA71611NEMIS	Sitagliptin  Tablets  50 mg
+SOIN1952NEMIS	Somatropin (epr)  Injection (cartridges)  15 mg/1.5 ml (10 mg/ml)
+SOIN3876NEMIS	Somatropin (Rbe)  Injection (Prefilled Syringe)  1.8 mg (5.4 units/syringe)
+SOIN9916HILLI	Somatropin  Injection  4 mg (12 units/vial)
+SOPE6727NEMIS	Somatropin (Rbe)  Pen Refill  5.3 mg (16 units/cartridge)
+STTA7079	Stanozolol  Tablets  5 mg
+SYTA104973NEMIS	Synjardy  Tablets  12.5 mg + 850 mg
+TEIN17877NEMIS	Testosterone Enantate  Injection  250 mg/ml, 1 ml ampoule
+TESO51989NEMIS	Teriparatide  Solution for injection  20 micrograms/dose, 2.4 ml pen
+HUIN6911	Human Chorionic Gonadotrophin  Injection  2000 units/amp
+HUIN6913	Human Chorionic Gonadotrophin  Powder and solvent for injection  5,000 unit ampoule
+HUPR31276NEMIS	Humalog Kwikpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+HYIN31696EMIS	Hypurin Porcine Neutral  Solution for injection  100 units/ml, 10 ml vial
+HYM/77083NEMIS	Hydrocortisone  M/R tablets  5 mg
+HYTA3732	Hydrocortone  Tablets  20 mg
+INPR13809NEMIS	Insulin Glargine  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+ISIN669NEMIS	Isophane Insulin (Bovine, Highly Purified)  Injection  100 units/ml, 10 ml vial
+JATA91276NEMIS	Jardiance  Tablets  10 mg
+LAM/78911NEMIS	Laaglyda Mr  M/R tablets  60 mg
+LITA5089	Liothyronine Sodium  Tablets  20 micrograms
+MECA3909	Metopirone  Capsules  250 mg
+MEPO20448EMIS	Methylprednisolone Sodium Succinate  Powder and solvent for solution for injection  40 mg vial
+MEPO78093NEMIS	Menopur  Powder and solvent for solution for injection  150 units/vial
+META1787	Metformin Hydrochloride  Tablets  500 mg
+META1788	Metformin Hydrochloride  Tablets  850 mg
+META19829EMIS	Medrone  Tablets  100 mg
+MINA11909NEMIS	Miacalcic  Nasal spray  200 units/metered dose, 2 ml (14 dose) spray
+NOTA25449EMIS	Norethisterone  Tablets  1 mg
+OMIN83185NEMIS	Omnitrope Pen 10  Solution for injection  10 mg/1.5 ml cartridge
+PATA2166	Parlodel  Tablets  1 mg
+PEPR23946EMIS	Human Mixtard 40  Preloaded pen  
+PRCA26231NEMIS	Progesterone  Capsules (Micronised)  100 mg
+PRIN10460HILLI	Pregnyl  Powder and solvent for injection  1,500 unit ampoule
+PRM/46707NEMIS	Prednisone  M/R tablets  2 mg
+PRTA2340	Prempak-C 0.625 mg + 0.15 mg  Tablets  
+PRTA2371	Progynova  Tablets  1 mg
+PRTA27092EMIS	Premique  Tablets  0.625 mg + 5 mg
+PRTA9008EMIS	Provera  Tablets  10 mg
+RATA34225EMIS	Raloxifene Hydrochloride  Tablets  60 mg
+RECA4267	Restandol  Capsules  40 mg
+SAIN17926EMIS	Saizen  Injection  3.33 mg (10 units/vial)
+SASO48421NEMIS	Saizen  Solution for injection  20 mg/2.5 ml cartridge
+SOIN3875NEMIS	Somatropin (Rbe)  Injection (Prefilled Syringe)  1.2 mg (3.6 units/syringe)
+HYIN15399NEMIS	Hypurin Bovine Neutral  Injection (cartridges)  100 units/ml, 3ml Cartridge
+HYTA3731	Hydrocortone  Tablets  10 mg
+ININ21131NEMIS	Insulin Glulisine  Injection  100 units/ml, 10 ml vial
+ININ3759	Pork Insulatard  Injection  100 units/ml, 10 ml vial
+INPR6345NEMIS	Insuman Comb 25 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INSO78486NEMIS	Insulin Degludec  Solution for injection  100 units/ml, 3 ml cartridge
+JATA71612NEMIS	Januvia  Tablets  50 mg
+META6974	Methylprednisolone  Tablets  2 mg
+NOIN1953NEMIS	Norditropin SimpleXx  Injection (cartridges)  5 mg/1.5 ml
+NOPR13769NEMIS	Novorapid Flexpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+NOSO94846NEMIS	Novorapid Pumpcart  Solution for injection  100 units/ml, 1.6 ml cartridge
+OETA2070	Oestradiol Benzoate  Tablets  1 mg
+OETR28193EMIS	Oestradiol  Transdermal patches (7 days)  50 micrograms/24 hrs
+OVTA23838EMIS	Ovestin  Tablets  1 mg
+PEPR23943EMIS	Human Mixtard 20  Preloaded pen  
+PETA100625NEMIS	Pevanti  Tablets  10 mg
+PETA100627NEMIS	Pevanti  Tablets  20 mg
+PITA23356NEMIS	Pioglitazone And Metformin  Tablets  15 mg + 850 mg
+RITA3885NEMIS	Risedronate Sodium  Tablets  5 mg
+ROTA4764NEMIS	Rosiglitazone Maleate  Tablets  8 mg
+SOIN1600NEMIS	Somatropin (Rbe)  Injection (Prefilled Syringe)  0.2 mg (0.6 units/syringe)
+STTA6626NEMIS	Starlix  Tablets  180 mg
+SUIN31458EMIS	Suprecur  Injection  1 mg/ml, 5.5 ml vial
+TEIN19652NEMIS	Testosterone Undecanoate  Injection  250 mg/ml, 4 ml ampoule
+TOTA106402NEMIS	Tolvaptan  Tablets  45 mg + 15 mg
+TRCA4464	Trisequens  Calendar pack  
+TRPR20566EMIS	Triamcinolone Acetonide  Prefilled syringe  40 mg/1 ml
+ZOSO51964NEMIS	Zometa  Solution for infusion  4 mg/100 ml bottle
+ABIN104796NEMIS	Abasaglar  Solution for injection  100 units/ml, 3 ml cartridge
+ACTA5319NEMIS	Actos  Tablets  15 mg
+ALGR127580NEMIS	Alkindi  Granules In Capsules For Opening  5 mg
+ALOR48404NEMIS	Alendronic Acid  Oral Solution, Sugar Free  70 mg/100 ml unit dose
+ANTR29512EMIS	Andropatch  Transdermal patches  2.5 mg/24 hrs
+HUCA32506EMIS	Humulin M2  Cartridges (3 Ml)  
+HUPE26797EMIS	Human Mixtard 50  Penfill Cartridges (1.5 Ml)  
+HUPR31280NEMIS	Humalog Mix50 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HUSU45871NEMIS	Humulin I Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HYTA1398	Hydrocortisone  Tablets  20 mg
+ININ13808NEMIS	Insulin Glargine  Injection  100 units/ml, 3 ml cartridge
+ININ21133NEMIS	Insulin Glulisine  Injection  100 units/ml, 3 ml cartridge
+INPR5190NEMIS	Insulin Lispro  Solution for injection  100 units/ml, 3 ml pre-filled pen
+ISIN671NEMIS	Isophane Insulin (Bovine, Highly Purified)  Injection (cartridges)  100 units/ml, 3 ml cartridge
+KOTA78215NEMIS	Komboglyze  Tablets  2.5 mg + 1000 mg
+LEOR23330NEMIS	Levothyroxine Sodium  Oral solution  Sugar Free 25 micrograms/5 ml
+LUVA98867NEMIS	Lutigest  Vaginal tablets  100 mg
+META5147	Methylprednisolone  Tablets  16 mg
+META76743NEMIS	Metformin And Linagliptin  Tablets  1000 mg + 2.5 mg
+META9109EMIS	Medroxyprogesterone Acetate  Tablets  10 mg
+MIPR15892NEMIS	Mixtard 10 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+MIPR15910NEMIS	Mixtard 50 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+NATA6621NEMIS	Nateglinide  Tablets  120 mg
+NOIN1955NEMIS	Norditropin SimpleXx  Injection (cartridges)  15 mg/1.5 ml
+NOSO51972NEMIS	Novorapid Flextouch  Solution for injection  100 units/ml, 3 ml pre-filled pen
+OETR22321EMIS	Oestradiol  Transdermal patches  50 micrograms/24 hrs
+OMIN83189NEMIS	Omnitrope Surepal 5  Solution for injection  5 mg/1.5 ml cartridge
+PACA2165	Parlodel  Capsules  5 mg
+PATA2167	Parlodel  Tablets  2.5 mg
+PRIN2367	Progesterone  Solution for injection  50 mg/1 ml ampoule
+PRIN5344	Protamine Zinc Bovine Insulin  Injection  100 units/ml, 10 ml vial
+PRM/46708NEMIS	Prednisone  M/R tablets  5 mg
+PRPE98865NEMIS	Progesterone  Pessaries  100 mg
+PRTA2405	Provera  Tablets  5 mg
+PRTA27095EMIS	Premique Cycle  Tablets  
+PRTA9077BRIDL	Premarin  Tablets  2.5 mg
+PRTR12939NEMIS	Progynova Ts 100  Transdermal patches (7 days)  100 micrograms/24 hours
+ACTA14826NEMIS	Actonel Once A Week  Tablets  35 mg
+ACTA3888NEMIS	Actonel  Tablets  5 mg
+ACTA3889NEMIS	Actonel  Tablets  30 mg
+APIN21135NEMIS	Apidra  Injection  100 units/ml, 10 ml vial
+AVCA14924NEMIS	Avodart  Capsules  500 micrograms
+BIM/105984NEMIS	Bilxona  M/R tablets  60 mg
+BRCA415	Bromocriptine  Capsules  10 mg
+BYIN25441NEMIS	Byetta  Injection (Pre-Filled Pen)  10 micrograms/dose, 60 dose pen
+CATA88610NEMIS	Canagliflozin  Tablets  300 mg
+CEIN787NEMIS	Cetrotide  Injection  250 micrograms/vial
+CHTA600	Chlorpropamide  Tablets  100 mg
+CHTA601	Chlorpropamide  Tablets  250 mg
+CLTA22608EMIS	Climagest 1 Mg  Tablets  
+CLTA9345EMIS	Climaval  Tablets  2 mg
+COTA18953NEMIS	Conjugated Oestrogens And Norgestrel  Tablets  625 micrograms + 150 micrograms
+COTA18954NEMIS	Conjugated Oestrogens And Norgestrel  Tablets  1.25 mg + 150 micrograms
+COTA23359NEMIS	Competact  Tablets  15 mg + 850 mg
+COTA3363	Cortisone  Tablets  25 mg
+CYTA10113BRIDL	Cyclo-Progynova 1 Mg  Tablets  
+DACA138214NEMIS	Danazol (Special Order)  Capsules  100 mg
+DATA88553NEMIS	Dapagliflozin And Metformin  Tablets  5 mg + 850 mg
+DEOR24079NEMIS	Desmopressin  Oral Lyophilisate Sugar Free  240 micrograms
+DESO110021NEMIS	Dexamethasone  Soluble Tablets Sugar Free  2 mg
+DESO110022NEMIS	Dexamethasone  Soluble Tablets Sugar Free  4 mg
+DIM/6644NEMIS	Diamicron 30 mg Mr  M/R tablets  30 mg
+DIOR89390NEMIS	Diazoxide  Oral suspension  50 mg/5 ml
+ELOR74101NEMIS	Eltroxin  Oral solution  50 micrograms/5 ml
+ELOR74102NEMIS	Eltroxin  Oral solution  100 micrograms/5 ml
+EPPO108669NEMIS	Eperzan  Powder and solvent for solution for injection  30 mg pen
+ESPA18941NEMIS	Estradiol And Dydrogesterone  Patches And Tablets  40 micrograms/24 hours + 10 mg
+ESPA18942NEMIS	Estradiol And Dydrogesterone  Patches And Tablets  80 micrograms/24 hours + 10 mg
+ESTA17783NEMIS	Estriol  Tablets  1 mg
+ESTA8374EGTON	Estrapak 50  Tablets and patches  
+ETTA17652NEMIS	Ethinylestradiol  Tablets  2 micrograms
+EVOR23335NEMIS	Evotrox  Oral solution  25 micrograms/5 ml
+VISO37220NEMIS	Victoza  Solution for injection in pre-filled pen  6 mg/ml, 3 ml pen
+ZOIN27963EMIS	Zomacton  Injection  4 mg (12 units/vial)
+ALEF104962NEMIS	Alendronic Acid  Effervescent Tablets Sugar Free  70 mg
+ALGR127578NEMIS	Alkindi  Granules In Capsules For Opening  1 mg
+ALTA86903NEMIS	Alogliptin  Tablets  25 mg
+ARTA76875NEMIS	Armour Thyroid  Tablets  90 mg (one and a half grain)
+AVTA16478NEMIS	Avandamet  Tablets  2 mg + 500 mg
+CATA125831NEMIS	Carbimazole  Tablets  10 mg
+CATA96771NEMIS	Canagliflozin And Metformin  Tablets  50 mg + 850 mg
+CEIN784NEMIS	Cetrorelix Acetate  Injection  250 micrograms/vial
+CLTA22320NEMIS	Clinorette  Tablets  
+CRVA31940EMIS	Crinone  Vaginal gel  8 %
+DDOR21819NEMIS	Ddavp Melt  Oral Lyophilisate Sugar Free  120 micrograms
+DEIN4809	Desmopressin  Injection  4 micrograms/ml, 1 ml ampoule
+DEOR117885NEMIS	Desmopressin  Oral Lyophilisate Sugar Free  50 micrograms
+DEOR21814NEMIS	Desmopressin  Oral Lyophilisate Sugar Free  60 micrograms
+DEOR45731NEMIS	Dexamethasone  Oral solution  5 mg/5 ml
+DETR5678NEMIS	Dermestril Septem  Transdermal patches (7 days)  75 micrograms/24 hrs
+DICA9290EMIS	Dimetriose  Capsules  2.5 mg
+DITA4853	Etidronate Disodium  Tablets  200 mg
+DUM/123287NEMIS	Duavive  M/R tablets  450 micrograms + 20 mg
+DUOR89765NEMIS	Dutasteride  Oral solution  500 micrograms/5 ml
+DUTA27717EMIS	Duphaston-Hrt  Tablets  10 mg
+ELTA28291EMIS	Elleste Duet 2 Mg  Tablets
+ESGE17771NEMIS	Estradiol  Gel  1 mg/1 gram sachet
+ESIM17752NEMIS	Estradiol  Implant  25 mg
+ESPA8673EGTON	Estraderm Tts  Transdermal patches  50 micrograms/24 hrs
+ESTR17763NEMIS	Estradiol  Transdermal patches  75 micrograms/24 hrs
+ESTR19388NEMIS	Estradot  Transdermal patches  25 micrograms/24 hrs
+ESTR19389NEMIS	Estradot  Transdermal patches  37.5 micrograms/24 hrs
+ESTR397NEMIS	Estraderm Mx  Transdermal patches  75 micrograms/24 hrs
+ETTA17650NEMIS	Ethinylestradiol  Tablets  50 micrograms
+EUTA3551	Euglucon  Tablets  2.5 mg
+FETA28124EMIS	Femapak 80  Tablets and patches  
+BUIN4668	Buserelin  Injection  1 mg/ml, 5.5 ml vial
+CANA17848NEMIS	Calcitonin (Salmon)  Nasal spray  200 units/actuation, 2 ml (14 dose) spray
+CYPE10822NEMIS	Cyclogest  Pessaries  200 mg
+CYPE10823NEMIS	Cyclogest  Pessaries  400 mg
+DACA798	Danazol  Capsules  100 mg
+DEOR21813NEMIS	Desmopressin  Oral Lyophilisate Sugar Free  120 micrograms
+DEOR45729NEMIS	Desmopressin  Oral solution  200 micrograms/5 ml
+DEOR76872NEMIS	Desmopressin  Oral suspension  20 micrograms/5 ml
+DESU100647NEMIS	Dexamethasone  Sugar-free oral solution  20 mg/5 ml
+DETA817	Decadron  Tablets  500 micrograms
+DITA18102EMIS	Didronel Pmo  Tablets  
+DOTA24166EMIS	Dostinex  Tablets  500 micrograms
+ERTA130344NEMIS	Ertugliflozin  Tablets  5 mg
+ERTA130346NEMIS	Ertugliflozin  Tablets  15 mg
+ESPA18939NEMIS	Estradiol And Norethisterone  Patches And Tablets  50 micrograms/24 hours + 1 mg
+ESTA1120NEMIS	Estropipate  Tablets  1.5 mg
+ESTA17755NEMIS	Estradiol  Tablets  2 mg
+ESTA18947NEMIS	Estradiol Valerate And Medroxyprogesterone Acetate  Tablets  2 mg + 5 mg
+ESTR28297EMIS	Estraderm Mx  Transdermal patches  100 micrograms/24 hrs
+EUTA3552	Euglucon  Tablets  5 mg
+EXPO135692NEMIS	Exenatide  Powder And Solvent For Prolonged-Release Suspension For Injection  2 mg pre-filled device
+FETA15853NEMIS	Femtab  Tablets  2 mg
+FETR26606EMIS	Fematrix 80  Transdermal patches  80 micrograms/24 hrs
+FETR31721EMIS	Femseven  Transdermal patches (7 days)  100 micrograms/24 hrs
+FLSU24124NEMIS	Fludrocortisone  Suspension  100 micrograms/5 ml
+FOIN31714EMIS	Follitropin Beta  Solution for injection  50 units/0.5 ml vial
+FOPO15980NEMIS	Follitropin Alfa  Powder and solvent for solution for injection  75 unit vial
+FOPO15982NEMIS	Follitropin Alfa  Powder and solvent for solution for injection  450 unit vial
+FOSO123719NEMIS	Follitropin Delta  Solution for injection  12 micrograms/0.36 ml cartridge
+GEGO47390NEMIS	Genotropin  GoQuick injection  5.3 mg pen
+GLIN27123EMIS	Glucagon (Rys) Hydrochloride  Injection  1 mg/vial
+GLM/104766NEMIS	Glucient Sr  M/R tablets  1000 mg
+GOIN28961EMIS	Gonal-F  Injection  150 units/amp
+SUM/90090NEMIS	Sukkarto Sr  M/R tablets  1 gram
+SYTA104972NEMIS	Synjardy  Tablets  5 mg + 1000 mg
+TEGE15748NEMIS	Testogel  Gel  50 mg/5 gram sachet
+TEGE19999NEMIS	Testosterone  Gel  50 mg/5 gram tube
+TEGE20002NEMIS	Testim  Gel  50 mg/5 gram tube
+TETA4404	Tertroxin  Tablets  20 micrograms
+TETR1675NEMIS	Testoderm  Transdermal patches  6 mg/24 hrs
+TETR29514EMIS	Testosterone  Transdermal patches  2.5 mg/24 hrs
+TRSO100544NEMIS	Trulicity  Solution for injection  0.75 mg/0.5 ml pre-filled pen
+UTVA82060NEMIS	Utrogestan  Vaginal Capsules With Applicators  200 mg
+VAM/98856NEMIS	Vamju  M/R tablets  60 mg
+VITA27033NEMIS	Vildagliptin  Tablets  50 mg
+XITA88556NEMIS	Xigduo  Tablets  5 mg + 850 mg
+ZOCO20549NEMIS	Zoledronic Acid  Concentrate For Solution For Infusion  4 mg/5 ml vial
+ACTA16489NEMIS	Actos  Tablets  45 mg
+ADTA5077NEMIS	Adgyn Combi  Tablets  
+AQOR27251EMIS	Aqueous Iodine  Oral solution  
+ARTA18186NEMIS	Armour Thyroid  Tablets  120 mg (2 grain)
+BETA353	Betnesol  Tablets  500 micrograms
+BIEF104964NEMIS	Binosto  Effervescent Tablets Sugar Free  70 mg
+BOM/79470NEMIS	Bolamyn Sr  M/R tablets  1 gram
+BRCA416	Bromocriptine  Capsules  5 mg
+BRTA418	Bromocriptine  Tablets  2.5 mg
+CAIN17840NEMIS	Calcitonin (Salmon)  Injection  100 units/ml, 1 ml ampoule
+CAIN17841NEMIS	Calcitonin (Salmon)  Injection  200 units/ml, 2 ml vial
+CAIN17844NEMIS	Calcitonin (Salmon)  Injection  50 units/ml, 1 ml ampoule
+CATA32198EMIS	Calcort  Tablets  1 mg
+CLTA28306EMIS	Climesse  Tablets  
+COTA25049NEMIS	Conjugated Oestrogens  Tablets  300 micrograms
+COTA724	Conjugated Oestrogens  Tablets  625 micrograms
+DACA801	Danol  Capsules  200 mg
+DATA88552NEMIS	Dapagliflozin And Metformin  Tablets  5 mg + 1000 mg
+DDIN3388	Ddavp  Injection  4 micrograms/ml, 1 ml ampoule
+DEOR98313NEMIS	Desmopressin  Oral solution  360 micrograms/ml
+DETA126892NEMIS	Dexamethasone  Tablets  8 mg
+DETA41464NEMIS	Dexamethasone  Tablets  4 mg
+ACTA5319NEMIS	Actos  Tablets  15 mg
+ADTA5077NEMIS	Adgyn Combi  Tablets  
+AVCA14924NEMIS	Avodart  Capsules  500 micrograms
+BETA353	Betnesol  Tablets  500 micrograms
+BOM/35196NEMIS	Bolamyn Sr  M/R tablets  500 mg
+CANA17848NEMIS	Calcitonin (Salmon)  Nasal spray  200 units/actuation, 2 ml (14 dose) spray
+CHTA601	Chlorpropamide  Tablets  250 mg
+CLTA17600NEMIS	Clomifene  Tablets  50 mg
+DACA798	Danazol  Capsules  100 mg
+DEIN815	Deca-Durabolin  Injection  50 mg/ml, 1 ml ampoule
+DENA9086BRIDL	Desmospray  Nasal spray  10 micrograms/metered spray
+DICA9290EMIS	Dimetriose  Capsules  2.5 mg
+DITA18934NEMIS	Disodium Etidronate And Effervescent Calcium Carbonate  Tablets  400 mg + 1.25 grams
+DOTA24166EMIS	Dostinex  Tablets  500 micrograms
+ELTA28291EMIS	Elleste Duet 2 Mg  Tablets  
+ESTA20248NEMIS	Estradiol And Drospirenone  Tablets  1 mg + 2 mg
+ESTR17761NEMIS	Estradiol  Transdermal patches  50 micrograms/24 hrs
+ESTR19389NEMIS	Estradot  Transdermal patches  37.5 micrograms/24 hrs
+ESTR19390NEMIS	Estradot  Transdermal patches  50 micrograms/24 hrs
+ESTR28297EMIS	Estraderm Mx  Transdermal patches  100 micrograms/24 hrs
+ESTR28299EMIS	Estraderm Mx  Transdermal patches  50 micrograms/24 hrs
+EUTA29316NEMIS	Eucreas  Tablets  1 gram + 50 mg
+EVOR23333NEMIS	Evotrox  Oral solution  100 micrograms/5 ml
+EXIN22882NEMIS	Exubera  Inhalation Powder Blisters  1 mg Unit Dose Blister
+FOTA20901NEMIS	Fosavance  Tablets  
+FOTA27038EMIS	Fosamax  Tablets  10 mg
+FOTA77717NEMIS	Forxiga  Tablets  5 mg
+GECA9292EMIS	Gestrinone  Capsules  2.5 mg
+GEGO47391NEMIS	Genotropin  GoQuick injection  12 mg pen
+GEIN1296	Gestone  Injection  25 mg/1 ml ampoule
+GEMI1610NEMIS	Genotropin  MiniQuick injection  0.8 mg (2.4 units/syringe)
+GEMI3878NEMIS	Genotropin  MiniQuick injection  1.2 mg (3.6 units/syringe)
+GLTA1307	Glucophage  Tablets  500 mg
+GLTA4961	Glipizide  Tablets  2.5 mg
+HUCA29554EMIS	Humatrope  Cartridges  24 mg (72 units)
+HUIN19674EMIS	Humatrope  Injection  5.33 mg (16 units/vial)
+AMTA31846EMIS	Amaryl  Tablets  4 mg
+AQOR27251EMIS	Aqueous Iodine  Oral solution  
+AVTA4766NEMIS	Avandia  Tablets  4 mg
+BETA3239	Betnelan  Tablets  500 micrograms
+BOSO22326NEMIS	Bonviva  Solution for injection  3 mg/3 ml, 3 ml pre-filled syringe
+BOTA26895EMIS	Bonefos  Tablets  800 mg
+BYIN25440NEMIS	Byetta  Injection (Pre-Filled Pen)  5 micrograms/dose, 60 dose pen
+CAIN17844NEMIS	Calcitonin (Salmon)  Injection  50 units/ml, 1 ml ampoule
+CATA96771NEMIS	Canagliflozin And Metformin  Tablets  50 mg + 850 mg
+CLTA648	Clomid  Tablets  50 mg
+COTA23359NEMIS	Competact  Tablets  15 mg + 850 mg
+CYPE10823NEMIS	Cyclogest  Pessaries  400 mg
+DACA801	Danol  Capsules  200 mg
+DENA20922NEMIS	Desmopressin  Nasal spray  150 micrograms/actuation
+DEOR21816NEMIS	Desmomelt  Oral Lyophilisate Sugar Free  120 micrograms
+DEOR36557NEMIS	Dextrogel  Oral gel  40 %
+DETA32100EMIS	Deflazacort  Tablets  30 mg
+DITA3425	Didronel  Tablets  200 mg
+DITA34375EMIS	Diaglyk  Tablets  80 mg
+ELTA5339NEMIS	Eltroxin  Tablets  25 micrograms
+ELTR31593EMIS	Elleste Solo Mx  Transdermal patches  80 micrograms/24 hrs
+EMTA91265NEMIS	Empagliflozin  Tablets  10 mg
+ESIM17751NEMIS	Estradiol  Implant  100 mg
+ESPA8671EGTON	Estraderm Tts  Transdermal patches  100 micrograms/24 hrs
+EVOR23334NEMIS	Evotrox  Oral solution  50 micrograms/5 ml
+FETA15858NEMIS	Femtab Continuous  Tablets  
+FETA1987NEMIS	Femoston-Conti  Tablets  1 mg + 5 mg
+FOSO51990NEMIS	Forsteo  Solution for injection  20 micrograms/dose, 2.4 ml pen
+GEGO47390NEMIS	Genotropin  GoQuick injection  5.3 mg pen
+GEIN25431EMIS	Gestone  Solution for injection  100 mg/2 ml ampoule
+GLGE21119NEMIS	Glucogel  Gel  40 %, Original
+GLIN27121EMIS	Glucagen  Injection  1 mg/vial
+GLTA23750EMIS	Glucobay  Tablets  100 mg
+HUPR31278NEMIS	Humalog Mix25 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HYGE25398EMIS	Hypostop  Gel  40 %
+HYIN1407	Hydroxyprogesterone Hexanoate  Injection  250 mg/ml
+ABIN104796NEMIS	Abasaglar  Solution for injection  100 units/ml, 3 ml cartridge
+ACTA23755EMIS	Acarbose  Tablets  50 mg
+ADTA5079NEMIS	Adgyn Medro  Tablets  5 mg
+ALOR48404NEMIS	Alendronic Acid  Oral Solution, Sugar Free  70 mg/100 ml unit dose
+AVTA19076NEMIS	Avandamet  Tablets  2 mg + 1 gram
+CATA24168EMIS	Cabergoline  Tablets  500 micrograms
+DATA806	Daonil  Tablets  5 mg
+DENA9088BRIDL	Desmopressin  Nasal spray  10 micrograms/metered spray
+DEOR21814NEMIS	Desmopressin  Oral Lyophilisate Sugar Free  60 micrograms
+DETA827	Deltacortril Enteric  E/c tablets  2.5 mg
+DETR5677NEMIS	Dermestril Septem  Transdermal patches (7 days)  50 micrograms/24 hrs
+DIGA81517NEMIS	Dilacort  Gastro-resistant Tablets  5 mg
+DUSO100542NEMIS	Dulaglutide  Solution for injection  1.5 mg/0.5 ml pre-filled device
+DYTA1015	Dydrogesterone  Tablets  10 mg
+EMTA91272NEMIS	Empagliflozin  Tablets  25 mg
+ESNA17773NEMIS	Estradiol  Nasal spray  150 micrograms/actuation
+ESTR17758NEMIS	Estradiol  Transdermal patches  100 micrograms/24 hrs
+ETTA17650NEMIS	Ethinylestradiol  Tablets  50 micrograms
+ETTA17651NEMIS	Ethinylestradiol  Tablets  1 mg
+FETA26911EMIS	Femoston 2/20  Tablets  
+FETR14417NEMIS	Femseven Conti  Transdermal patches (7 days)  50 micrograms/7 micrograms/24 hours
+FETR31722EMIS	Femseven  Transdermal patches (7 days)  75 micrograms/24 hrs
+GAPR5639NEMIS	Ganirelix  Solution for injection  250 micrograms/0.5 ml pre-filled syringe
+GLTA6910	Gliquidone  Tablets  30 mg
+GOIN28961EMIS	Gonal-F  Injection  150 units/amp
+HUCA32500EMIS	Humulin S  Cartridges (3 Ml)  100 units/ml
+HUCA34841EMIS	Humalog  Cartridges (3 Ml)  100 units/ml
+HUIN28936EMIS	Humalog  Injection  100 units/ml
+HUPR35541EMIS	Humalog Mix25  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HYIN30855EMIS	Hypurin Porcine Isophane  Suspension For Injection  100 units/ml, 10 ml vial
+HYM/77084NEMIS	Hydrocortisone  M/R tablets  20 mg
+ININ13807NEMIS	Insulin Glargine  Injection  100 units/ml, 10 ml vial
+ININ15887NEMIS	Insulatard  Injection  100 units/ml, 10 ml vial
+LEOR23329NEMIS	Levothyroxine Sodium  Oral solution  Sugar Free 100 micrograms/5 ml
+LEPR25142NEMIS	Levemir Innolet  Solution for injection  100 units/ml, 3 ml pre-filled pen
+LISO78533NEMIS	Lixisenatide  Solution for injection  10 micrograms/0.2 ml, 3 ml device
+LUIN11779NEMIS	Luveris  Injection  75 unit vial
+LYIN78553NEMIS	Lyxumia  Injection  10 micrograms/0.2ml pen + 20 micrograms/0.2ml pen
+MEM/47158NEMIS	Metabet Sr  M/R tablets  500 mg
+META23818EMIS	Medroxyprogesterone Acetate  Tablets  2.5 mg
+META42230NEMIS	Metformin And Sitagliptin  Tablets  1000 mg + 50 mg
+META6975	Methylprednisolone  Tablets  4 mg
+MIIN10924BRIDL	Miacalcic  Injection  50 units/ml, 1 ml ampoule
+MIPR11701NEMIS	Mixtard 30 Innolet  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+NOST25844EMIS	Norprolac  Starter pack  25 micrograms x 3, 50 micrograms x 3
+NOTA25847EMIS	Norprolac  Tablets  75 micrograms
+NOTA34156EMIS	Novonorm  Tablets  1 mg
+NUTA399NEMIS	Nuvelle Continuous  Tablets  
+OETR28121EMIS	Oestradiol  Transdermal patches  40 micrograms/24 hrs
+PEPO17479NEMIS	Pegvisomant  Powder and solvent for solution for injection  20 mg vial
+PETA100622NEMIS	Pevanti  Tablets  2.5 mg
+PRIN22530EMIS	Profasi  Injection  10,000 units/amp
+PRTA20467EMIS	Proscar  Tablets  5 mg
+PRTA2337	Premarin  Tablets  625 micrograms
+PRTA2347	Primolut N  Tablets  5 mg
+PRTA4224	Propylthiouracil  Tablets  50 mg
+SAGE30743EMIS	Sandrena  Gel  500 micrograms/500 mg sachet
+SAPO10966NEMIS	Saizen Click Easy  Powder with solvent for injection  8 mg
+SASO48419NEMIS	Saizen  Solution for injection  6 mg/1.03 ml cartridge
+SOCA9902HILLI	Sodium Clodronate  Capsules  400 mg
+SOIN101972NEMIS	Somatropin (Rbe)  Solution for injection  15 mg/1.5 ml cartridge
+SOIN8487EGTON	Somatropin  Injection  1.33 mg (4 units/vial)
+SYTA104971NEMIS	Synjardy  Tablets  5 mg + 850 mg
+SYTA104974NEMIS	Synjardy  Tablets  12.5 mg + 1000 mg
+TOTA106411NEMIS	Tolvaptan  Tablets  90 mg + 30 mg
+TRSO100545NEMIS	Trulicity  Solution for injection  1.5 mg/0.5 ml pre-filled pen
+ININ3283NEMIS	Insuman Comb 25  Injection  100 units/ml, 5 ml vial
+INPR51153NEMIS	Insuman Basal Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INPR6340NEMIS	Insuman Rapid Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INTR25122NEMIS	Intrinsa  Transdermal patches  300 micrograms/24 hours
+JETA76746NEMIS	Jentadueto  Tablets  2.5 mg + 1000 mg
+LAPR13574NEMIS	Lantus Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+LISO37216NEMIS	Liraglutide  Solution for injection in pre-filled pen  6 mg/ml, 3 ml pen
+LITA51797NEMIS	Linagliptin  Tablets  5 mg
+LITA9205EMIS	Livial  Tablets  2.5 mg
+LUSO88120NEMIS	Lubion  Solution for injection  25 mg/1.119 ml vial
+META1749	Medroxyprogesterone Acetate  Tablets  5 mg
+META3887	Medrone  Tablets  2 mg
+META3888	Medrone  Tablets  4 mg
+METR27690EMIS	Menorest  Transdermal patches  75 micrograms/day
+MOIN15918NEMIS	Monotard  Injection  100 units/ml, 10 ml vial
+NOSO48461NEMIS	Norditropin Nordiflex  Solution for injection in pre-filled pen  15 mg/1.5 ml
+NOTA34153EMIS	Novonorm  Tablets  500 micrograms
+OEGE26580EMIS	Oestrogel  Gel  0.06 % pump-pack
+OETA9401EMIS	Oestradiol Valerate  Tablets  2 mg
+OMIN101974NEMIS	Omnitrope Surepal 15  Solution for injection  15 mg/1.5 ml cartridge
+PEPO17476NEMIS	Pegvisomant  Powder and solvent for solution for injection  10 mg vial
+PEPR23940EMIS	Human Mixtard 10  Preloaded pen  
+PREN8412EGTON	Prednisolone  E/c tablets  5 mg
+PRIN25433EMIS	Progesterone  Solution for injection  100 mg/2 ml ampoule
+PRTA2326	Prednisolone  Tablets  1 mg
+PRTA23504NEMIS	Prandin  Tablets  2 mg
+PRTR28187EMIS	Progynova Ts  Transdermal patches (7 days)  50 micrograms/24 hrs
+SAPO9675BRIDL	Saizen  Injection  1.33 mg (4 units/vial)
+SITA71613NEMIS	Sitagliptin  Tablets  25 mg
+SOIN29026NEMIS	Somatropin (Rbe)  Solution for injection  5 mg/1.5 ml cartridge
+SYIN5928	Synacthen  Solution for injection  250 micrograms/1 ml ampoule
+TECA5418	Testosterone Undecanoate  Capsules  40 mg
+TEM/18222NEMIS	Testosterone  M/R Muco-adhesive Buccal Tablet  30 mg
+SOPO36694NEMIS	Somatropin (Rbe)  Powder and solvent for solution for injection  10 mg vial
+SOSO48459NEMIS	Somatropin (epr)  Solution for injection in pre-filled pen  15 mg/1.5 ml
+SOTA26897EMIS	Sodium Clodronate  Tablets  800 mg
+SUM/90087NEMIS	Sukkarto Sr  M/R tablets  500 mg
+TEGE15746NEMIS	Testosterone  Gel  50 mg/5 gram sachet
+TEIN17821NEMIS	Tetracosactide  Suspension For Injection  1 mg/1 ml ampoule
+TEIN17822NEMIS	Tetracosactide  Solution for injection  250 micrograms/1 ml ampoule
+TEIN25437EMIS	Testosterone Propionate  Solution for injection  100 mg/2 ml ampoule
+TITA9207EMIS	Tibolone  Tablets  2.5 mg
+TRTA20213EMIS	Trisequens Forte  Tablets  
+VITA86907NEMIS	Vipidia  Tablets  25 mg
+VOTA96773NEMIS	Vokanamet  Tablets  50 mg + 850 mg
+VOTA96774NEMIS	Vokanamet  Tablets  50 mg + 1000 mg
+ACPR15881NEMIS	Actrapid Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+ACTA23755EMIS	Acarbose  Tablets  50 mg
+ALTA86902NEMIS	Alogliptin  Tablets  12.5 mg
+BESO103656NEMIS	Bemfola  Solution for injection  150 units/0.25 ml, pre-filled pen
+BYIN25440NEMIS	Byetta  Injection (Pre-Filled Pen)  5 micrograms/dose, 60 dose pen
+BYPR135696NEMIS	Bydureon Bcise  Prolonged release suspension for injection  2 mg/0.85 ml pre-filled pen
+CASU17462NEMIS	Carbimazole  Suspension  2 mg/5 ml
+CATA10626BRIDL	Carbimazole  Tablets  20 mg
+CATA29922EMIS	Calcort  Tablets  6 mg
+CATA490	Carbimazole  Tablets  5 mg
+CHIN52620NEMIS	Choriogonadotropin Alfa  Injection (Pre-Filled Pen)  250 micrograms/0.5 ml pen
+CYTA775	Cyclo-Progynova 2 Mg  Tablets  
+DEIN21128NEMIS	Dexamethasone  Injection  4 mg/ml, 2 ml vial
+DENA9088BRIDL	Desmopressin  Nasal spray  10 micrograms/metered spray
+DESO110023NEMIS	Dexamethasone  Soluble Tablets Sugar Free  8 mg
+DESU4741NEMIS	Dexsol  Sugar-free oral solution  2 mg/5 ml
+DETA827	Deltacortril Enteric  E/c tablets  2.5 mg
+DIPO33321NEMIS	Pamidronate Disodium  Powder And Solvent For Solution For Infusion  15 mg vial
+ELTA1055	Eltroxin  Tablets  100 micrograms
+EMTA133083NEMIS	Empagliflozin And Linagliptin  Tablets  25 mg + 5 mg
+RECA29114NEMIS	Restandol Testocaps  Capsules  40 mg
+ROTA18930NEMIS	Rosiglitazone And Metformin  Tablets  2 mg + 500 mg
+SOCA29558EMIS	Somatropin (Rbe)  Cartridges  6 mg (18 units)
+SOIN1601NEMIS	Somatropin (Rbe)  Injection (Prefilled Syringe)  0.4 mg (1.2 units/syringe)
+SOIN17928EMIS	Somatropin  Injection  3.33 mg (10 units/vial)
+SOIN5921	Solu-Medrone  Powder and solvent for solution for injection  40 mg vial
+TEIM4405	Testosterone  Implant  100 mg
+TETR25120NEMIS	Testosterone  Transdermal patches  300 micrograms/24 hours
+TOTA2876	Tolbutamide  Tablets  500 mg
+ULTA71577NEMIS	Ulipristal Acetate  Tablets  5 mg
+UTTA4483	Utovlan  Tablets  5 mg
+VIIN25435EMIS	Virormone  Solution for injection  100 mg/2 ml ampoule
+VITA86905NEMIS	Vipidia  Tablets  6.25 mg
+ACIN15883NEMIS	Actrapid Penfill  Injection  100 units/ml, 3 ml cartridge
+ACTA23754EMIS	Acarbose  Tablets  100 mg
+ANTA3170	Androcur  Tablets  50 mg
+APIN21136NEMIS	Apidra  Injection  100 units/ml, 3 ml cartridge
+APPR26865NEMIS	Apidra Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+ARTA16945NEMIS	Armour Thyroid  Tablets  60 mg (1 grain)
+AVTA19077NEMIS	Avandamet  Tablets  4 mg + 1 gram
+BOTA17142NEMIS	Bondronat  Tablets  50 mg
+BOTA21112NEMIS	Bonviva  Tablets  150 mg
+BOTA26895EMIS	Bonefos  Tablets  800 mg
+BYPO51137NEMIS	Bydureon  Prolonged release suspension for injection  2 mg vial
+CAIN3271	Calsynar  Injection  100 units/ml, 1 ml ampoule
+DDTA23511EMIS	Ddavp  Tablets  100 micrograms
+DETA32200EMIS	Deflazacort  Tablets  1 mg
+DETA828	Deltacortril Enteric  E/c tablets  5 mg
+DIGA81516NEMIS	Dilacort  Gastro-resistant Tablets  2.5 mg
+DITA4828	Diazoxide  Tablets  50 mg
+EMTA104968NEMIS	Empagliflozin And Metformin  Tablets  12.5 mg + 850 mg
+ESTA17776NEMIS	Estradiol Valerate  Tablets  1 mg
+ESTA18946NEMIS	Estradiol Valerate And Medroxyprogesterone Acetate  Tablets  1 mg + 5 mg
+ESTA18948NEMIS	Estradiol And Norethisterone Acetate  Tablets  1 mg + 500 micrograms
+ESTR17758NEMIS	Estradiol  Transdermal patches  100 micrograms/24 hrs
+ADTA5079NEMIS	Adgyn Medro  Tablets  5 mg
+AENA6635NEMIS	Aerodiol  Nasal spray  150 micrograms/metered spray
+AMTA31844EMIS	Amaryl  Tablets  1 mg
+AMTA31845EMIS	Amaryl  Tablets  3 mg
+AMTA31846EMIS	Amaryl  Tablets  4 mg
+BETA3239	Betnelan  Tablets  500 micrograms
+BOSO22326NEMIS	Bonviva  Solution for injection  3 mg/3 ml, 3 ml pre-filled syringe
+CRVA31938EMIS	Crinone  Vaginal gel  4 %
+DDOR21818NEMIS	Ddavp Melt  Oral Lyophilisate Sugar Free  60 micrograms
+DEOR45733NEMIS	Dexamethasone  Oral solution  500 micrograms/5 ml
+ELOR74100NEMIS	Eltroxin  Oral solution  25 micrograms/5 ml
+ELTA28288EMIS	Elleste-Solo  Tablets  2 mg
+ELTA31986EMIS	Elleste Duet Conti  Tablets  
+ELTR31593EMIS	Elleste Solo Mx  Transdermal patches  80 micrograms/24 hrs
+EMTA104967NEMIS	Empagliflozin And Metformin  Tablets  5 mg + 1000 mg
+ESTA17777NEMIS	Estradiol Valerate  Tablets  2 mg
+ESTR28299EMIS	Estraderm Mx  Transdermal patches  50 micrograms/24 hrs
+FETR28091EMIS	Femseven  Transdermal patches (7 days)  50 micrograms/24 hrs
+FLSU16951NEMIS	Fludrocortisone  Suspension  20 micrograms/5 ml
+FLTA8362BRID	Fludrocortisone  Tablets  100 micrograms
+FOCA5661NEMIS	Follitropin Beta  Solution for injection  600 units/0.72 ml cartridge
+FOTA20901NEMIS	Fosavance  Tablets  
+GEMI3881NEMIS	Genotropin  MiniQuick injection  1.8 mg (5.4 units/syringe)
+GLM/35044NEMIS	Glucophage Sr  M/R tablets  1 gram
+GLTA1305	Glipizide  Tablets  5 mg
+GLTA1308	Glucophage  Tablets  850 mg
+HUCA34841EMIS	Humalog  Cartridges (3 Ml)  100 units/ml
+HUPE26797EMIS	Human Mixtard 50  Penfill Cartridges (1.5 Ml)  
+HYIN15400NEMIS	Hypurin Bovine Isophane  Injection (cartridges)  100 units/ml, 3 ml Cartridge
+HYIN15403NEMIS	Hypurin Porcine 30/70 Mix  Injection (cartridges)  100 units/ml, 3 ml Cartridge
+HYIN3746	Hypurin Bovine Pzi  Injection  100 units/ml, 10 ml vial
+HYM/77083NEMIS	Hydrocortisone  M/R tablets  5 mg
+HYTA131896NEMIS	Hydventia  Tablets  20 mg
+IBCO12955NEMIS	Ibandronic Acid  Concentrate solution for infusion  2 mg/2 ml, 2 ml ampoule
+ESTR17759NEMIS	Estradiol  Transdermal patches  25 micrograms/24 hrs
+ESTR28298EMIS	Estraderm Mx  Transdermal patches  25 micrograms/24 hrs
+EXIN22884NEMIS	Exubera  Inhalation Powder Blisters  3 mg Unit Dose Blister
+FISO122086NEMIS	Fiasp Penfill  Solution for injection  100 units/ml, 3 ml cartridge
+FOIN28966EMIS	Follitropin Alfa  Injection  75 units/ampoule
+FOTA5746NEMIS	Fosamax Once Weekly  Tablets  70 mg
+GLOR39044NEMIS	Glucose  Oral gel  40 %
+GLOR45373NEMIS	Gliclazide  Oral suspension  40 mg/5 ml
+GSOR49480NEMIS	Gsf-Syrup  Oral gel  Orange, 18 gram sachets
+HUCA29552EMIS	Humatrope  Cartridges  6 mg (18 units)
+HUIN8925BRECO	Humulin M3  Suspension For Injection  100 units/ml, 10 ml vial
+HUPE26785EMIS	Human Mixtard 10  Penfill Cartridges (1.5 Ml)  
+HUPR26724EMIS	Humaject (Humulin M3)  Preloaded pen  
+HUPR5192NEMIS	Humulin I  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HYIN3745	Hypurin Bovine Neutral  Injection  100 units/ml, 10 ml vial
+ININ18217NEMIS	Insulin Detemir  Injection (cartridges)  100 units/ml, 3 ml cartridge
+ININ4907NEMIS	Insuman Comb 15  Injection (cartridges)  100 units/ml, 3 ml cartridge
+ININ4910NEMIS	Insuman Comb 50  Injection (cartridges)  100 units/ml, 3 ml cartridge
+INPR22401NEMIS	Insulin Glulisine  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INSO78480NEMIS	Insulin Degludec  Solution for injection  100 units/ml, 3 ml pre-filled device
+INTA88612NEMIS	Invokana  Tablets  100 mg
+KEPR20562EMIS	Kenalog  Prefilled syringe  40 mg/1 ml
+LAIN13570NEMIS	Lantus  Injection  100 units/ml, 10 ml vial
+LETR136004NEMIS	Lenzetto  Transdermal Spray  1.53 mg/dose
+LICA17242NEMIS	Liothyronine  Capsules  2.5 micrograms
+LUSO88120NEMIS	Lubion  Solution for injection  25 mg/1.119 ml vial
+LYSO137709NEMIS	Lyumjev Kwikpen  Solution for injection  200 units/ml, 3 ml pre-filled pen
+MAOR52610NEMIS	Martapan  Oral solution  2 mg/5 ml
+MEIN25347EMIS	Metrodin High Purity  Injection  75 units/amp
+MEOR35740NEMIS	Metformin Hydrochloride  Oral Powder Sachets Sugar Free  500 mg
+MEPO20445EMIS	Methylprednisolone Sodium Succinate  Powder and solvent for solution for injection  1 gram vial
+ININ1196NEMIS	Insulin Aspart  Injection  100 units/ml, 10 ml vial
+ININ3269NEMIS	Insuman Rapid  Injection  100 units/ml, 5 ml vial
+ININ3272NEMIS	Insuman Rapid  Injection (cartridges)  100 units/ml, 3 ml cartridge
+ININ3278NEMIS	Insuman Basal  Injection  100 units/ml, 5 ml vial
+ININ3281NEMIS	Insuman Basal  Injection (cartridges)  100 units/ml, 3 ml cartridge
+INPR15885NEMIS	Insulatard Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+JETA76747NEMIS	Jentadueto  Tablets  2.5 mg + 850 mg
+KLTA34182EMIS	Kliovance  Tablets  
+KOTA78215NEMIS	Komboglyze  Tablets  2.5 mg + 1000 mg
+LEOR128266NEMIS	Levothyroxine Sodium  Oral solution  Sugar Free 125 micrograms/5 ml
+LEOR23329NEMIS	Levothyroxine Sodium  Oral solution  Sugar Free 100 micrograms/5 ml
+LESU18923NEMIS	Levothyroxine Sodium  Suspension  37.5 micrograms/5 ml
+MEM/123711NEMIS	Meijumet  M/R tablets  750 mg
+MEM/47158NEMIS	Metabet Sr  M/R tablets  500 mg
+MEOR46782NEMIS	Metformin Hydrochloride  Oral solution  500 mg/5 ml
+MEPO23007NEMIS	Menotrophin  Powder and solvent for solution for injection  75 units/vial
+MESU11377NEMIS	Metformin Hydrochloride  Suspension  500 mg/5 ml
+META19829EMIS	Medrone  Tablets  100 mg
+META23818EMIS	Medroxyprogesterone Acetate  Tablets  2.5 mg
+META29313NEMIS	Metformin And Vildagliptin  Tablets  850 mg + 50 mg
+META6975	Methylprednisolone  Tablets  4 mg
+MIIN15904NEMIS	Mixtard 30 Penfill  Injection  100 units/ml, 3 ml cartridge
+MIPR15896NEMIS	Mixtard 20 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+NAIN1930	Nandrolone Decanoate  Injection  50 mg/ml, 1 ml ampoule
+NOTA25847EMIS	Norprolac  Tablets  75 micrograms
+OCNA20924NEMIS	Octim  Nasal spray  150 micrograms/actuation
+OZSO130278NEMIS	Ozempic  Solution for injection  0.25 mg/0.19 ml, 1.5 ml pre-filled pen
+PEPO113374NEMIS	Pegvisomant  Powder and solvent for solution for injection  30 mg vial
+PETA100625NEMIS	Pevanti  Tablets  10 mg
+PRIN25433EMIS	Progesterone  Solution for injection  100 mg/2 ml ampoule
+PROR73936NEMIS	Proglycem  Oral suspension  250 mg/5 ml
+PRPE131861NEMIS	Prasterone  Pessaries  6.5 mg
+METR27688EMIS	Menorest  Transdermal patches  37.5 micrograms/day
+METR27690EMIS	Menorest  Transdermal patches  75 micrograms/day
+MITA25447EMIS	Micronor-Hrt  Tablets  1 mg
+NOIN1955NEMIS	Norditropin SimpleXx  Injection (cartridges)  15 mg/1.5 ml
+NOSO108548NEMIS	Norditropin Nordiflex  Solution for injection in pre-filled pen  10 mg/1.5 ml
+NOSO137904NEMIS	Norditropin FlexPro  Solution for injection in pre-filled pen  15 mg/1.5 ml
+NUTA399NEMIS	Nuvelle Continuous  Tablets  
+OMIN101974NEMIS	Omnitrope Surepal 15  Solution for injection  15 mg/1.5 ml cartridge
+ORPR5642NEMIS	Orgalutran  Solution for injection  250 micrograms/0.5 ml pre-filled syringe
+OVIN52621NEMIS	Ovitrelle  Injection (Pre-Filled Pen)  250 micrograms/0.5 ml pen
+PACA2165	Parlodel  Capsules  5 mg
+PATA2167	Parlodel  Tablets  2.5 mg
+PRTA100618NEMIS	Prednisolone  Tablets  10 mg
+PRTA100619NEMIS	Prednisolone  Tablets  20 mg
+PRTA2341	Prempak-C 1.25 mg + 0.15 mg  Tablets  
+PRTA23503NEMIS	Prandin  Tablets  1 mg
+PRVA31943EMIS	Progesterone  Vaginal gel  4 %
+PUIN31708EMIS	Puregon  Injection  150 units vial
+RYTA137822NEMIS	Rybelsus  Tablets  7 mg
+SESO130275NEMIS	Semaglutide  Solution for injection  0.5 mg/0.37 ml, 1.5 ml pre-filled device
+SETA4308	Semi-Daonil  Tablets  2.5 mg
+SOIN1952NEMIS	Somatropin (epr)  Injection (cartridges)  15 mg/1.5 ml (10 mg/ml)
+SOIN29026NEMIS	Somatropin (Rbe)  Solution for injection  5 mg/1.5 ml cartridge
+SOSO108546NEMIS	Somatropin (epr)  Solution for injection in pre-filled pen  10 mg/1.5 ml
+SUSO130640NEMIS	Suliqua Solostar  Solution for injection  100 units/ml + 50 micrograms/ml, 3 ml pen
+TETR127874NEMIS	Testosterone  Transdermal Gel  20 mg/gram (23 mg/actuation)
+TOTA38713NEMIS	Tolvaptan  Tablets  30 mg
+TRSO138409NEMIS	Trulicity  Solution for injection  4.5 mg/0.5 ml pre-filled pen
+VEIN15916NEMIS	Velosulin  Injection  100 units/ml, 10 ml vial
+VOTA96773NEMIS	Vokanamet  Tablets  50 mg + 850 mg
+XITA88556NEMIS	Xigduo  Tablets  5 mg + 850 mg
+PRTA20467EMIS	Proscar  Tablets  5 mg
+PRTA2326	Prednisolone  Tablets  1 mg
+PRTA4213	Pro-Viron  Tablets  25 mg
+PRTR12936NEMIS	Progynova Ts 50  Transdermal patches (7 days)  50 micrograms/24 hours
+RATA34225EMIS	Raloxifene Hydrochloride  Tablets  60 mg
+SAGE30742EMIS	Sandrena  Gel  1 mg/1 gram sachet
+SASO48419NEMIS	Saizen  Solution for injection  6 mg/1.03 ml cartridge
+SASO48420NEMIS	Saizen  Solution for injection  12 mg/1.5 ml cartridge
+SATA78212NEMIS	Saxagliptin And Metformin  Tablets  2.5 mg + 1000 mg
+SOPE6727NEMIS	Somatropin (Rbe)  Pen Refill  5.3 mg (16 units/cartridge)
+SOPO17481NEMIS	Somavert  Powder and solvent for solution for injection  10 mg vial
+SOPO36694NEMIS	Somatropin (Rbe)  Powder and solvent for solution for injection  10 mg vial
+SUNA20650EMIS	Suprecur  Nasal spray  150 micrograms/dose
+TEGE41288NEMIS	Testosterone  Gel  2 %
+TEIN25437EMIS	Testosterone Propionate  Solution for injection  100 mg/2 ml ampoule
+TEM/18222NEMIS	Testosterone  M/R Muco-adhesive Buccal Tablet  30 mg
+TETR1673NEMIS	Testosterone  Transdermal patches  6 mg/24 hrs
+TOTA106411NEMIS	Tolvaptan  Tablets  90 mg + 30 mg
+TOTA38711NEMIS	Tolvaptan  Tablets  15 mg
+TRCA4464	Trisequens  Calendar pack  
+TRSO100544NEMIS	Trulicity  Solution for injection  0.75 mg/0.5 ml pre-filled pen
+TRSO100545NEMIS	Trulicity  Solution for injection  1.5 mg/0.5 ml pre-filled pen
+TRTA26679EMIS	Tridestra  Tablets  
+ZOSO89225NEMIS	Zoledronic Acid  Solution for infusion  4 mg/100 ml bag
+VITA86911NEMIS	Vipdomet  Tablets  12.5 mg + 1000 mg
+XUSO98877NEMIS	Xultophy  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen
+ACIN15879NEMIS	Actrapid  Injection  100 units/ml, 10 ml vial
+ALGR127579NEMIS	Alkindi  Granules In Capsules For Opening  2 mg
+ALTA130280NEMIS	Alendronic Acid And Colecalciferol  Tablets  70 mg + 140 micrograms
+ALTA20899NEMIS	Alendronic Acid And Colecalciferol  Tablets  70 mg + 70 micrograms
+ALTA86900NEMIS	Alogliptin  Tablets  6.25 mg
+ANTA20250NEMIS	Angeliq  Tablets  1 mg + 2 mg
+APIN23125NEMIS	Apidra Opticlik  Injection  100 units/ml, 3 ml cartridge
+ARTA22988NEMIS	Armour Thyroid  Tablets  15 mg (1/4 grain)
+BEIN9273HILLI	Betamethasone Sodium Phosphate  Solution for injection  4 mg/ml, 1 ml ampoule
+BETA22322NEMIS	Bedol  Tablets  2 mg
+BUNA20652EMIS	Buserelin  Nasal spray  150 micrograms/dose
+CLTA648	Clomid  Tablets  50 mg
+DACA799	Danazol  Capsules  200 mg
+DDOR24083NEMIS	Ddavp Melt  Oral Lyophilisate Sugar Free  240 micrograms
+DENA20922NEMIS	Desmopressin  Nasal spray  150 micrograms/actuation
+DENA9086BRIDL	Desmospray  Nasal spray  10 micrograms/metered spray
+DESO51579NEMIS	Denosumab  Solution for injection  120 mg/1.7 ml vial
+DESU4742NEMIS	Dexamethasone  Sugar-free oral solution  2 mg/5 ml
+DETA845	Dexamethasone  Tablets  2 mg
+DETA846	Dexamethasone  Tablets  500 micrograms
+DETR30519EMIS	Dermestril  Transdermal patches  25 micrograms/24 hrs
+DETR5677NEMIS	Dermestril Septem  Transdermal patches (7 days)  50 micrograms/24 hrs
+DIOR46441NEMIS	Diazoxide  Oral suspension  10 mg/5 ml
+DIOR46442NEMIS	Diazoxide  Oral solution  10 mg/5 ml
+DISU11426NEMIS	Diazoxide  Oral suspension  250 mg/5 ml (50 mg/ml)
+DITA3417	Diamicron  Tablets  80 mg
+DUCA14921NEMIS	Dutasteride  Capsules  500 micrograms
+EFSO23287NEMIS	Efcortesol  Solution for injection  100 mg/ml, 5 ml ampoule
+ESNA17773NEMIS	Estradiol  Nasal spray  150 micrograms/actuation
+ESPA8671EGTON	Estraderm Tts  Transdermal patches  100 micrograms/24 hrs
+ESTR136000NEMIS	Estradiol  Transdermal Spray  1.53 mg/dose
+ESTR17761NEMIS	Estradiol  Transdermal patches  50 micrograms/24 hrs
+TOTA106407NEMIS	Tolvaptan  Tablets  60 mg + 30 mg
+TRPR20567EMIS	Triamcinolone Acetonide  Prefilled syringe  80 mg/2 ml
+TRSO78484NEMIS	Tresiba Flextouch  Solution for injection  100 units/ml, 3 ml pre-filled pen
+TRSO78488NEMIS	Tresiba Penfill  Solution for injection  100 units/ml, 3 ml cartridge
+TRTA26679EMIS	Tridestra  Tablets  
+ZOPO36695NEMIS	Zomacton  Powder and solvent for solution for injection  10 mg vial
+ZUTA20666EMIS	Zumenon  Tablets  2 mg
+ZUTA29671EMIS	Zumenon  Tablets  1 mg
+ACSO22669NEMIS	Aclasta  Solution for infusion  5 mg/100 ml bottle
+ADTA5074NEMIS	Adgyn Estro  Tablets  2 mg
+ALOR39295NEMIS	Alendronic Acid  Oral solution  35 mg/5 ml
+AVTA16477NEMIS	Avandamet  Tablets  1 mg + 500 mg
+BYPO135693NEMIS	Bydureon  Powder And Solvent For Prolonged-Release Suspension For Injection  2 mg pre-filled pen
+CAOR20294NEMIS	Carbimazole  Oral suspension  10 mg/5 ml
+CATA24168EMIS	Cabergoline  Tablets  500 micrograms
+COTA18951NEMIS	Conjugated Oestrogens And Medroxyprogesterone  M/R tablets  300 micrograms + 1.5 mg
+COTA33808EMIS	Conjugated Oestrogens  Tablets  2.5 mg
+CYTA22715NEMIS	Cytomel  Tablets  5 micrograms
+DEOR45732NEMIS	Dexamethasone  Oral suspension  5 mg/5 ml
+DESO126798NEMIS	Dexamethasone (base)  Solution for injection  6.6 mg/2 ml vial
+DETA23516EMIS	Desmopressin  Tablets  200 micrograms
+DETA24700EMIS	Desmotabs  Tablets  200 micrograms
+DETA29924EMIS	Deflazacort  Tablets  6 mg
+DIGA81517NEMIS	Dilacort  Gastro-resistant Tablets  5 mg
+DITA90864NEMIS	Dienogest  Tablets  2 mg
+DUSO100540NEMIS	Dulaglutide  Solution for injection  0.75 mg/0.5 ml pre-filled device
+DUSO100542NEMIS	Dulaglutide  Solution for injection  1.5 mg/0.5 ml pre-filled device
+EFSO23286NEMIS	Efcortesol  Solution for injection  100 mg/ml, 1 ml ampoule
+ESIM17753NEMIS	Estradiol  Implant  50 mg
+ESPA18982NEMIS	Estradiol And Levonorgestrel  Patches (7 days)  50 micrograms + 7 micrograms/24 hours
+FETR28119EMIS	Fematrix 40  Transdermal patches  40 micrograms/24 hrs
+FITA20469EMIS	Finasteride  Tablets  5 mg
+FOPR18238NEMIS	Follitropin Alfa  Solution for injection  900 units/1.5 ml pre-filled disposable device
+FETA27492EMIS	Femoston 1/10  Tablets  
+FETA76936NEMIS	Femoston-Conti  Tablets  500 micrograms + 2.5 mg
+FISO122084NEMIS	Fiasp  Solution for injection  100 units/ml, 10 ml vial
+FLOR46453NEMIS	Fludrocortisone  Oral suspension  50 micrograms/5 ml
+GEMI1608NEMIS	Genotropin  MiniQuick injection  0.4 mg (1.2 units/syringe)
+GEMI3882NEMIS	Genotropin  MiniQuick injection  2 mg (6 units/syringe)
+GLTA131754NEMIS	Gliclazide  Tablets  160 mg
+GLTA31852EMIS	Glimepiride  Tablets  4 mg
+GLTA85469NEMIS	Glidipion  Tablets  30 mg
+GOIN3666	Choragon  Injection  5000 units/amp
+HUCA28935EMIS	Humalog  Cartridges (1.5 Ml)  100 units/ml
+HUCA32498EMIS	Humulin I  Cartridges (3 Ml)  100 units/ml
+HUIN22532EMIS	Human Chorionic Gonadotrophin  Injection  10,000 units/amp
+HUIN5904	Humulin Zn  Injection  100 units/ml, 10 ml vial
+HUPR5189NEMIS	Humalog Mix50  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HYIN3087NEMIS	Hypurin Porcine 30/70 Mix  Injection  10 ml vial
+HYIN31696EMIS	Hypurin Porcine Neutral  Solution for injection  100 units/ml, 10 ml vial
+HYIN3742	Hypurin Bovine Isophane  Injection  100 units/ml
+ININ13808NEMIS	Insulin Glargine  Injection  100 units/ml, 3 ml cartridge
+INPR131751NEMIS	Insulin Glargine  Pre-filled Disposable Pen  300 units/ml, 3 ml pen
+INPR13809NEMIS	Insulin Glargine  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INPR6347NEMIS	Insuman Comb 50 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INSO98875NEMIS	Insulin Degludec And Liraglutide  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen
+INTA5653NEMIS	Indivina  Tablets  1 mg + 5 mg
+JATA91277NEMIS	Jardiance  Tablets  25 mg
+KLTA26493EMIS	Kliofem  Tablets  
+LEOR48251NEMIS	Levothyroxine Sodium  Oral solution  150 micrograms/5 ml
+LEPR25142NEMIS	Levemir Innolet  Solution for injection  100 units/ml, 3 ml pre-filled pen
+LESU17791NEMIS	Levothyroxine Sodium  Suspension  100 micrograms/5 ml
+LESU17794NEMIS	Levothyroxine Sodium  Suspension  250 micrograms/5 ml
+LESU17795NEMIS	Levothyroxine Sodium  Suspension  50 micrograms/5 ml
+LIPO51568NEMIS	Liothyronine Sodium  Powder For Solution For Injection  20 micrograms/vial
+FISO122085NEMIS	Fiasp Flextouch  Solution for injection  100 units/ml, 3 ml pre-filled pen
+FOIN1271NEMIS	Follitropin Beta  Injection  200 units vial
+GEMI3879NEMIS	Genotropin  MiniQuick injection  1.4 mg (4.2 units/syringe)
+GLOR46460NEMIS	Glibenclamide  Oral solution  5 mg/5 ml
+GLOR76870NEMIS	Glimepiride  Oral suspension  6 mg/5 ml
+GLSO124531NEMIS	Glensoludex  Soluble tablets  2 mg
+GOPR18241NEMIS	Gonal-F  Solution for injection  900 units/1.5 ml pre-filled pen
+HUCA32506EMIS	Humulin M2  Cartridges (3 Ml)  
+HUIN28936EMIS	Humalog  Injection  100 units/ml
+HUINEGTON7136	Humulin Lente  Injection  100 units/ml, 10 ml vial
+INPE131865NEMIS	Intrarosa  Pessaries  6.5 mg
+INSO127201NEMIS	Insulin Lispro (Sanofi)  Solution for injection  100 units/ml, 3 ml cartridge
+INSO127202NEMIS	Insulin Lispro (Sanofi)  Solution for injection  100 units/ml, 3 ml pre-filled pen
+INSO78482NEMIS	Insulin Degludec  Solution for injection  200 units/ml, 3 ml pre-filled device
+ISIN666NEMIS	Isophane Insulin (Porcine, Highly Purified)  Injection  100 units/ml, 10 ml vial
+ISIN669NEMIS	Isophane Insulin (Bovine, Highly Purified)  Injection  100 units/ml, 10 ml vial
+LETA31079NEMIS	Levothyroxine Sodium And Liothyronine  Tablets  19 micrograms + 4.5 micrograms
+LIIN78550NEMIS	Lixisenatide  Injection  10 micrograms/0.2ml pen + 20 micrograms/0.2ml pen
+LITA134458NEMIS	Liothyronine Sodium  Tablets  5 micrograms
+LITA51797NEMIS	Linagliptin  Tablets  5 mg
+LYSO78537NEMIS	Lyxumia  Solution for injection  10 micrograms/0.2 ml, 3 ml pen
+MEPO124550NEMIS	Meriofert  Powder and solvent for solution for injection  75 units/vial
+META1787	Metformin Hydrochloride  Tablets  500 mg
+META3886	Medrone  Tablets  16 mg
+NOPR1202NEMIS	Novorapid Novolet  Prefilled syringes  100 units/ml
+OMIN83189NEMIS	Omnitrope Surepal 5  Solution for injection  5 mg/1.5 ml cartridge
+OVIN11782NEMIS	Ovitrelle  Injection  250 microgram vial
+OXTA52404NEMIS	Oxandrolone  Tablets  2.5 mg
+POIN35125EMIS	Pork Actrapid  Injection  100 units/ml, 10 ml vial
+PREN8411EGTON	Prednisolone  E/c tablets  2.5 mg
+PREN8412EGTON	Prednisolone  E/c tablets  5 mg
+PRGA114530NEMIS	Prednisolone  Gastro-resistant Tablets  1 mg
+BOCA18863EMIS	Bonefos  Capsules  400 mg
+CHIN19991NEMIS	Choriogonadotropin Alfa  Injection (pre-filled syringe)  250 micrograms/0.5 ml syringe
+CLTA9344EMIS	Climaval  Tablets  1 mg
+COM/123284NEMIS	Conjugated Oestrogens And Bazedoxifene  M/R tablets  450 micrograms + 20 mg
+COTA723	Conjugated Oestrogens  Tablets  1.25 mg
+DACA800	Danol  Capsules  100 mg
+DEIN21129NEMIS	Dexamethasone  Injection  4 mg/ml, 1 ml ampoule
+DEIN51792NEMIS	Desmopressin  Intranasal solution  10 micrograms/ml
+DEIN815	Deca-Durabolin  Injection  50 mg/ml, 1 ml ampoule
+DEOR24086NEMIS	Desmomelt  Oral Lyophilisate Sugar Free  240 micrograms
+DEOR45734NEMIS	Dexamethasone  Oral suspension  500 micrograms/5 ml
+DESU88757NEMIS	Dexamethasone  Sugar-free oral solution  10 mg/5 ml
+DETA23515EMIS	Desmopressin  Tablets  100 micrograms
+DHCA51872NEMIS	Dhea  Capsules  25 mg
+DHTA15776NEMIS	Dhea  Tablets  25 mg
+DYTA1015	Dydrogesterone  Tablets  10 mg
+EMTA133082NEMIS	Empagliflozin And Linagliptin  Tablets  10 mg + 5 mg
+ERTA127687NEMIS	Erfa Thyroid  Tablets  30 mg (half grain)
+ERTA78938NEMIS	Erfa Thyroid  Tablets  125 mg (2 grains)
+ESTA17754NEMIS	Estradiol  Tablets  1 mg
+ESTA20248NEMIS	Estradiol And Drospirenone  Tablets  1 mg + 2 mg
+ESTR19386NEMIS	Estradiol  Transdermal patches  37.5 micrograms/24 hrs
+EVTA25472EMIS	Evorel-Pak  Tablets and patches  
+EVTR26442EMIS	Evorel  Transdermal patches  25 micrograms/24 hrs
+EXPO51135NEMIS	Exenatide  Prolonged release suspension for injection  2 mg vial
+FETA28504EMIS	Femapak 40  Tablets and patches  
+FOPO23519NEMIS	Fostimon  Powder For Solution For Injection  75 units/vial
+FOTA4158NEMIS	Fosamax  Tablets  5 mg
+GEIN1296	Gestone  Injection  25 mg/1 ml ampoule
+GLGE134229NEMIS	Glucogel  Gel  40 %, Berry
+GLGE73939NEMIS	Glucoboost  Gel  40 %
+GLTA1304	Glibenese  Tablets  5 mg
+GLTA23750EMIS	Glucobay  Tablets  100 mg
+HUCA8384BRID	Human Actrapid Penfill  Cartridges (1.5 Ml)  100 units/ml
+HUIN3718	Humulin I  Suspension For Injection  100 units/ml, 10 ml vial
+HYIN15400NEMIS	Hypurin Bovine Isophane  Injection (cartridges)  100 units/ml, 3 ml Cartridge
+HYIN15402NEMIS	Hypurin Porcine Isophane  Injection (cartridges)  100 units/ml, 3 ml Cartridge
+IBCO12955NEMIS	Ibandronic Acid  Concentrate solution for infusion  2 mg/2 ml, 2 ml ampoule
+ININ28940EMIS	Insulin Lispro  Solution for injection  100 units/ml, 10 ml vial
+INPR22401NEMIS	Insulin Glulisine  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+JETA76747NEMIS	Jentadueto  Tablets  2.5 mg + 850 mg
+KEPR20563EMIS	Kenalog  Prefilled syringe  80 mg/2 ml
+LIIN78550NEMIS	Lixisenatide  Injection  10 micrograms/0.2ml pen + 20 micrograms/0.2ml pen
+LYSO78538NEMIS	Lyxumia  Solution for injection  20 micrograms/0.2 ml, 3 ml pen
+MEM/35043NEMIS	Metformin Hydrochloride  M/R tablets  1 gram
+MEOR35741NEMIS	Metformin Hydrochloride  Oral Powder Sachets Sugar Free  1 gram
+MEPO51155NEMIS	Menopur  Powder and solvent for solution for injection  1,200 units/vial
+METR27688EMIS	Menorest  Transdermal patches  37.5 micrograms/day
+MITA25447EMIS	Micronor-Hrt  Tablets  1 mg
+NETA1959	Neo-Mercazole  Tablets  5 mg
+NOCA1201NEMIS	Novorapid Penfill  Cartridges (3 Ml)  100 units/ml
+NOTA34157EMIS	Novonorm  Tablets  2 mg
+OETR5676NEMIS	Oestradiol  Transdermal patches (7 days)  25 micrograms/24 hrs
+OMIN29027NEMIS	Omnitrope  Injection (cartridges)  5 mg/1.5 ml cartridge
+OMIN83184NEMIS	Omnitrope Pen 5  Solution for injection  5 mg/1.5 ml cartridge
+PRSU19064NEMIS	Protelos  Sugar free granules  2 grams/sachet
+PRTA100618NEMIS	Prednisolone  Tablets  10 mg
+PRTA2327	Prednisolone  Tablets  2.5 mg
+PRTA2341	Prempak-C 1.25 mg + 0.15 mg  Tablets  
+PRTA4213	Pro-Viron  Tablets  25 mg
+PRTR12936NEMIS	Progynova Ts 50  Transdermal patches (7 days)  50 micrograms/24 hours
+PRVA31944EMIS	Progesterone  Vaginal gel  8 %
+QUST25851EMIS	Quinagolide Hydrochloride  Starter pack  25 micrograms x 3, 50 micrograms x 3
+RITA3887NEMIS	Risedronate Sodium  Tablets  30 mg
+SATA78211NEMIS	Saxagliptin And Metformin  Tablets  2.5 mg + 850 mg
+SETA4308	Semi-Daonil  Tablets  2.5 mg
+SOCA29559EMIS	Somatropin (Rbe)  Cartridges  12 mg (36 units)
+GSOR49481NEMIS	Gsf-Syrup  Oral gel  Peppermint, 18 gram sachets
+HUCA29554EMIS	Humatrope  Cartridges  24 mg (72 units)
+HUIN6913	Human Chorionic Gonadotrophin  Powder and solvent for injection  5,000 unit ampoule
+HUPE26794EMIS	Human Mixtard 40  Penfill Cartridges (1.5 Ml)  
+HUPR26715EMIS	Humaject (Humulin S)  Preloaded pen  100 units/ml
+HUSU45861NEMIS	Humulin M3 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HYIN3089NEMIS	Hypurin Porcine 30/70 Mix  Injection (1.5 ml cartridges)  
+HYIN3743	Hypurin Bovine Lente  Injection  100 units/ml, 10 ml vial
+HYTA1398	Hydrocortisone  Tablets  20 mg
+ININ15887NEMIS	Insulatard  Injection  100 units/ml, 10 ml vial
+INPR18215NEMIS	Insulin Detemir  Solution for injection  100 units/ml, 3 ml pre-filled pen
+INPR46954NEMIS	Insuman Comb 25 Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+JATA25231NEMIS	Januvia  Tablets  100 mg
+LAPR26863NEMIS	Lantus Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+LEOR23330NEMIS	Levothyroxine Sodium  Oral solution  Sugar Free 25 micrograms/5 ml
+LEOR23331NEMIS	Levothyroxine Sodium  Oral solution  Sugar Free 50 micrograms/5 ml
+LEOR51929NEMIS	Levothyroxine Sodium  Oral powder sachets  100 micrograms
+LEPR18221NEMIS	Levemir Flexpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+LISO37216NEMIS	Liraglutide  Solution for injection in pre-filled pen  6 mg/ml, 3 ml pen
+LITA9205EMIS	Livial  Tablets  2.5 mg
+LYSO78538NEMIS	Lyxumia  Solution for injection  20 micrograms/0.2 ml, 3 ml pen
+MEIN31595EMIS	Menogon  Injection  75 units/amp
+MEM/30449NEMIS	Metformin Hydrochloride  M/R tablets  750 mg
+META5147	Methylprednisolone  Tablets  16 mg
+MIINEGTON7152	Pork Mixtard 30  Injection  10 ml vial
+MITA3948	Minodiab  Tablets  2.5 mg
+NEIN19654NEMIS	Nebido  Injection  250 mg/ml, 4 ml ampoule
+NOOR117887NEMIS	Noqdirna  Oral Lyophilisate  25 micrograms
+NOTA12924NEMIS	Novofem  Tablets  
+NOTA34153EMIS	Novonorm  Tablets  500 micrograms
+OVTA23838EMIS	Ovestin  Tablets  1 mg
+OZSO130279NEMIS	Ozempic  Solution for injection  0.5 mg/0.37 ml, 1.5 ml pre-filled pen
+PASO115195NEMIS	Pamidronate Disodium  Solution for infusion  30 mg/10 ml vial
+PITA23356NEMIS	Pioglitazone And Metformin  Tablets  15 mg + 850 mg
+PRIN10462HILLI	Pregnyl  Powder and solvent for injection  5,000 unit ampoule
+PRIN22530EMIS	Profasi  Injection  10,000 units/amp
+RETA34161EMIS	Repaglinide  Tablets  1 mg
+RETA34163EMIS	Repaglinide  Tablets  500 micrograms
+SAPO9675BRIDL	Saizen  Injection  1.33 mg (4 units/vial)
+SOCA29558EMIS	Somatropin (Rbe)  Cartridges  6 mg (18 units)
+SOIN1600NEMIS	Somatropin (Rbe)  Injection (Prefilled Syringe)  0.2 mg (0.6 units/syringe)
+SOIN17928EMIS	Somatropin  Injection  3.33 mg (10 units/vial)
+SOIN1951NEMIS	Somatropin (epr)  Injection (cartridges)  10 mg/1.5 ml (6.7 mg/ml)
+SOSO48418NEMIS	Somatropin (Rmc)  Solution for injection  20 mg/2.5 ml cartridge
+TEGE125420NEMIS	Testogel  Gel  16.2 mg/gram
+TEIM4405	Testosterone  Implant  100 mg
+TEIN17877NEMIS	Testosterone Enantate  Injection  250 mg/ml, 1 ml ampoule
+TESO133897NEMIS	Teriparatide  Solution for injection  20 micrograms/dose, 2.4 ml cartridge with device
+TESO51989NEMIS	Teriparatide  Solution for injection  20 micrograms/dose, 2.4 ml pen
+TOGE41289NEMIS	Tostran  Gel  2 %
+TOTA106402NEMIS	Tolvaptan  Tablets  45 mg + 15 mg
+TOTA106407NEMIS	Tolvaptan  Tablets  60 mg + 30 mg
+UTTA4483	Utovlan  Tablets  5 mg
+YAM/127095NEMIS	Yaltormin Sr  M/R tablets  1 gram
+ZOSO51963NEMIS	Zoledronic Acid  Solution for infusion  4 mg/100 ml bottle
+EMTA91265NEMIS	Empagliflozin  Tablets  10 mg
+EMTA91272NEMIS	Empagliflozin  Tablets  25 mg
+ESGE17750NEMIS	Estradiol  Gel  0.06 % pump-pack
+ESPA20472EMIS	Estracombi Tts  Patches  
+ESTA18943NEMIS	Estradiol And Dydrogesterone  Tablets  1 mg + 5 mg
+ESTA18945NEMIS	Estradiol Valerate And Medroxyprogesterone Acetate  Tablets  1 mg + 2.5 mg
+ESTA71579NEMIS	Esmya  Tablets  5 mg
+ESTR19390NEMIS	Estradot  Transdermal patches  50 micrograms/24 hrs
+EUTA29317NEMIS	Eucreas  Tablets  850 mg + 50 mg
+EVTR22315EMIS	Evorel  Transdermal patches  50 micrograms/24 hrs
+EVTR31384EMIS	Evorel Sequi  Transdermal patches  
+EXIN22882NEMIS	Exubera  Inhalation Powder Blisters  1 mg Unit Dose Blister
+EXIN25436NEMIS	Exenatide  Injection (Pre-Filled Pen)  5 micrograms/dose, 60 dose pen
+FETR13850NEMIS	Femseven Sequi  Transdermal patches  50 micrograms/10 micrograms/24 hours
+GEIN25431EMIS	Gestone  Solution for injection  100 mg/2 ml ampoule
+GEMI1609NEMIS	Genotropin  MiniQuick injection  0.6 mg (1.8 units/syringe)
+GLM/104765NEMIS	Glucient Sr  M/R tablets  750 mg
+GLM/6638NEMIS	Gliclazide  M/R tablets  30 mg
+GLOR35743NEMIS	Glucophage  Oral powder sachets  1 gram
+GLTA51170NEMIS	Glucient Sr  M/R tablets  500 mg
+GOPO15985NEMIS	Gonal-F  Powder and solvent for solution for injection  450 unit vial
+HATA1350	Harmogen  Tablets  1.5 mg
+HUPE26799EMIS	Human Insulatard Ge  Penfill Cartridges (1.5 Ml)  100 units/ml
+HUSO125757NEMIS	Humulin R Kwikpen  Solution for injection  500 units/ml, 3 ml pre-filled pen
+HYIN15399NEMIS	Hypurin Bovine Neutral  Injection (cartridges)  100 units/ml, 3ml Cartridge
+INCA28939EMIS	Insulin Lispro  Cartridges (1.5 Ml)  100 units/ml
+ININ15889NEMIS	Insulatard Penfill  Injection  100 units/ml, 3 ml cartridge
+ININ28940EMIS	Insulin Lispro  Injection  100 units/ml, 10 ml vial
+ININ28940EMIS	Insulin Lispro  Solution for injection  100 units/ml, 10 ml vial
+INPR6340NEMIS	Insuman Rapid Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INPR6343NEMIS	Insuman Comb 15 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INPR6345NEMIS	Insuman Comb 25 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+HUIN3721	Humulin S  Injection  100 units/ml
+HUPR31278NEMIS	Humalog Mix25 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HYIN1407	Hydroxyprogesterone Hexanoate  Injection  250 mg/ml
+HYOR11425NEMIS	Hydrocortisone  Oral Suspension (Sugar-Free)  5 mg/5 ml
+INPR5190NEMIS	Insulin Lispro  Solution for injection  100 units/ml, 3 ml pre-filled pen
+INSO127200NEMIS	Insulin Lispro (Sanofi)  Solution for injection  100 units/ml, 10 ml vial
+INTA5652NEMIS	Indivina  Tablets  1 mg + 2.5 mg
+INTA88613NEMIS	Invokana  Tablets  300 mg
+KEPR20563EMIS	Kenalog  Prefilled syringe  80 mg/2 ml
+LAIN13572NEMIS	Lantus  Injection  100 units/ml, 3 ml cartridge
+LAPR13574NEMIS	Lantus Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+LIIN5088	Liothyronine Sodium  Injection  20 micrograms/amp
+MEOR117652NEMIS	Metformin Hydrochloride  Oral solution  Sugar Free 1 gram/5 ml
+MEOR117653NEMIS	Metformin Hydrochloride  Oral solution  Sugar Free 850 mg/5 ml
+MEPO20446EMIS	Methylprednisolone Sodium Succinate  Powder and solvent for solution for injection  125 mg vial
+MEPO20448EMIS	Methylprednisolone Sodium Succinate  Powder and solvent for solution for injection  40 mg vial
+MEPO20449EMIS	Methylprednisolone Sodium Succinate  Powder and solvent for solution for injection  500 mg vial
+MEPO5282NEMIS	Menopur  Powder and solvent for solution for injection  75 units/vial
+META1788	Metformin Hydrochloride  Tablets  850 mg
+META29314NEMIS	Metformin And Vildagliptin  Tablets  1 gram + 50 mg
+MIIN10926BRIDL	Miacalcic  Injection  100 units/ml, 1 ml ampoule
+MIPR15892NEMIS	Mixtard 10 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+NATA25544NEMIS	Nature-Throid  Tablets  32.5 mg (1/2 grain)
+NATA6621NEMIS	Nateglinide  Tablets  120 mg
+NETA1959	Neo-Mercazole  Tablets  5 mg
+NETA8347EGTON	Neo-Mercazole  Tablets  20 mg
+NOIN1954NEMIS	Norditropin SimpleXx  Injection (cartridges)  10 mg/1.5 ml
+NOPR12702NEMIS	Novomix 30 Flexpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+NOSO137902NEMIS	Norditropin FlexPro  Solution for injection in pre-filled pen  5 mg/1.5 ml
+OEGE26580EMIS	Oestrogel  Gel  0.06 % pump-pack
+ONTA39317NEMIS	Onglyza  Tablets  5 mg
+FOTA27038EMIS	Fosamax  Tablets  10 mg
+GEMI3878NEMIS	Genotropin  MiniQuick injection  1.2 mg (3.6 units/syringe)
+GLGE21119NEMIS	Glucogel  Gel  40 %, Original
+GLM/19422NEMIS	Glucophage Sr  M/R tablets  500 mg
+GLTA1303	Glibenclamide  Tablets  5 mg
+GLTA4960	Gliclazide  Tablets  80 mg
+GLTA6910	Gliquidone  Tablets  30 mg
+GSOR49482NEMIS	Gsf-Syrup  Oral gel  Tropical, 18 gram sachets
+HUPE26791EMIS	Human Mixtard 30  Penfill Cartridges (1.5 Ml)  
+HUSO125825NEMIS	Humalog Junior Kwikpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+HYSO23283NEMIS	Hydrocortisone Sodium Phosphate  Solution for injection  100 mg/ml, 1 ml ampoule
+HYTA3724	Hydrocortisone  Tablets  10 mg
+HYTA3732	Hydrocortone  Tablets  20 mg
+INCA34843EMIS	Insulin Lispro  Solution for injection  100 units/ml, 3 ml cartridge
+ININ21133NEMIS	Insulin Glulisine  Injection  100 units/ml, 3 ml cartridge
+ININ3283NEMIS	Insuman Comb 25  Injection  100 units/ml, 5 ml vial
+ININ3284NEMIS	Insuman Comb 25  Injection (cartridges)  100 units/ml, 3 ml cartridge
+ININ3759	Pork Insulatard  Injection  100 units/ml, 10 ml vial
+INPR51153NEMIS	Insuman Basal Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INTR25122NEMIS	Intrinsa  Transdermal patches  300 micrograms/24 hours
+ISIN668NEMIS	Isophane Insulin (Porcine, Highly Purified)  Injection (cartridges)  100 units/ml, 3 ml cartridge
+LECA78894NEMIS	Levothyroxine Sodium  Capsules  10 micrograms
+LITA5089	Liothyronine Sodium  Tablets  20 micrograms
+LYIN78553NEMIS	Lyxumia  Injection  10 micrograms/0.2ml pen + 20 micrograms/0.2ml pen
+LYSO137707NEMIS	Lyumjev Kwikpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+LYSO137711NEMIS	Lyumjev  Solution for injection  100 units/ml, 3ml cartridge
+MECA3909	Metopirone  Capsules  250 mg
+MEM/19420NEMIS	Metformin Hydrochloride  M/R tablets  500 mg
+MEOR35741NEMIS	Metformin Hydrochloride  Oral Powder Sachets Sugar Free  1 gram
+MEPO14279NEMIS	Menotrophin  Powder and solvent for solution for injection  150 units/vial
+MIPR15906NEMIS	Mixtard 40 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+NOSO137903NEMIS	Norditropin FlexPro  Solution for injection in pre-filled pen  10 mg/1.5 ml
+INSO130643NEMIS	Insulin Glargine And Lixisenatide  Solution for injection  100 units/ml + 50 micrograms/ml, 3 ml device
+INSO78486NEMIS	Insulin Degludec  Solution for injection  100 units/ml, 3 ml cartridge
+JATA71612NEMIS	Januvia  Tablets  50 mg
+LEIN18219NEMIS	Levemir Penfill  Injection (cartridges)  100 units/ml, 3 ml cartridge
+LETA117853NEMIS	Levothyroxine Sodium  Tablets  12.5 micrograms
+LOTA24069EMIS	Loron 520  Tablets  520 mg
+LUSO130306NEMIS	Lubion  Solution for injection  25 mg/1.112 ml vial
+MEM/123712NEMIS	Meijumet  M/R tablets  1 gram
+MEOI51953NEMIS	Methylprednisolone Aceponate  Ointment  0.1 %
+MEOR23336NEMIS	Metformin Hydrochloride  Oral solution  Sugar Free 500 mg/5 ml
+MEPO51155NEMIS	Menopur  Powder and solvent for solution for injection  1,200 units/vial
+META1749	Medroxyprogesterone Acetate  Tablets  5 mg
+META3888	Medrone  Tablets  4 mg
+MIIN15902NEMIS	Mixtard 30  Injection  100 units/ml, 10 ml vial
+NANA41286NEMIS	Nafarelin Acetate  Nasal spray  200 micrograms/dose
+NOPR13769NEMIS	Novorapid Flexpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+NOSO51972NEMIS	Novorapid Flextouch  Solution for injection  100 units/ml, 3 ml pre-filled pen
+NUIN17226NEMIS	Nutropin Aq  Injection  10 mg (30 units/2 ml cartridge)
+OVIN18247NEMIS	Ovitrelle  Injection (pre-filled syringe)  250 micrograms/0.5 ml syringe
+PETA100624NEMIS	Pevanti  Tablets  5 mg
+PITA16488NEMIS	Pioglitazone Hydrochloride  Tablets  45 mg
+PITA5315NEMIS	Pioglitazone Hydrochloride  Tablets  15 mg
+PLM/77086NEMIS	Plenadren  M/R tablets  5 mg
+PRCA26229NEMIS	Progesterone  Capsules (Micronised)  200 mg
+PROR103677NEMIS	Prednisolone  Oral Solution, Sugar Free  10 mg/ml
+PRVA82059NEMIS	Progesterone  Vaginal Capsules (Micronised)  200 mg
+PUCA5663NEMIS	Puregon  Solution for injection  600 units/0.72 ml cartridge
+QTTA119016NEMIS	Qtern  Tablets  5 mg + 10 mg
+SOIN1603NEMIS	Somatropin (Rbe)  Injection (Prefilled Syringe)  0.8 mg (2.4 units/syringe)
+SOIN3877NEMIS	Somatropin (Rbe)  Injection (Prefilled Syringe)  2 mg (6 units/syringe)
+SOIN8487EGTON	Somatropin  Injection  1.33 mg (4 units/vial)
+SUIN4360	Sustanon 100  Injection  1 ml ampoule
+PASO115196NEMIS	Pamidronate Disodium  Solution for infusion  30 mg/2 ml ampoule
+PEPO17476NEMIS	Pegvisomant  Powder and solvent for solution for injection  10 mg vial
+PRSO43676NEMIS	Prolia  Solution for injection  60 mg/1 ml pre-filled syringe
+PRTA2327	Prednisolone  Tablets  2.5 mg
+PRTA23816EMIS	Provera  Tablets  2.5 mg
+PRTR12939NEMIS	Progynova Ts 100  Transdermal patches (7 days)  100 micrograms/24 hours
+RAOR51612NEMIS	Rapilose  Oral gel  40 %
+ROTA18930NEMIS	Rosiglitazone And Metformin  Tablets  2 mg + 500 mg
+SAPO10966NEMIS	Saizen Click Easy  Powder with solvent for injection  8 mg
+SKTA28538EMIS	Skelid  Tablets  200 mg
+SOIN1602NEMIS	Somatropin (Rbe)  Injection (Prefilled Syringe)  0.6 mg (1.8 units/syringe)
+SOSO48416NEMIS	Somatropin (Rmc)  Solution for injection  6 mg/1.03 ml cartridge
+SOTA24071EMIS	Sodium Clodronate  Tablets  520 mg
+STTA7079	Stanozolol  Tablets  5 mg
+SUM/90090NEMIS	Sukkarto Sr  M/R tablets  1 gram
+SYIN4367	Synacthen Depot  Suspension For Injection  1 mg/1 ml ampoule
+TECR11653NEMIS	Testosterone Propionate  Cream  1 %
+TEGE19999NEMIS	Testosterone  Gel  50 mg/5 gram tube
+TETR127698NEMIS	Testavan  Transdermal Gel  20 mg/gram
+TITA9207EMIS	Tibolone  Tablets  2.5 mg
+TRPR20567EMIS	Triamcinolone Acetonide  Prefilled syringe  80 mg/2 ml
+VITA27033NEMIS	Vildagliptin  Tablets  50 mg
+ZOPO36695NEMIS	Zomacton  Powder and solvent for solution for injection  10 mg vial
+ZOSO51964NEMIS	Zometa  Solution for infusion  4 mg/100 ml bottle
+NOSO94846NEMIS	Novorapid Pumpcart  Solution for injection  100 units/ml, 1.6 ml cartridge
+PASO115181NEMIS	Pamidronate Disodium  Solution for infusion  15 mg/1 ml ampoule
+PASO115203NEMIS	Pamidronate Disodium  Solution for infusion  60 mg/10 ml vial
+PEPO17479NEMIS	Pegvisomant  Powder and solvent for solution for injection  20 mg vial
+PETA100627NEMIS	Pevanti  Tablets  20 mg
+PRIN10460HILLI	Pregnyl  Powder and solvent for injection  1,500 unit ampoule
+PRIN2366	Progesterone  Injection  25 mg/1 ml ampoule
+PRIN5344	Protamine Zinc Bovine Insulin  Injection  100 units/ml, 10 ml vial
+PRTA2347	Primolut N  Tablets  5 mg
+PRTA2405	Provera  Tablets  5 mg
+PRTA27095EMIS	Premique Cycle  Tablets  
+PRTA9077BRIDL	Premarin  Tablets  2.5 mg
+QUST25851EMIS	Quinagolide Hydrochloride  Starter pack  25 micrograms x 3, 50 micrograms x 3
+RION14824NEMIS	Risedronate Sodium  Once A Week Tablets  35 mg
+ROTA19074NEMIS	Rosiglitazone And Metformin  Tablets  2 mg + 1 gram
+SETA137818NEMIS	Semaglutide  Tablets  7 mg
+SITA71613NEMIS	Sitagliptin  Tablets  25 mg
+SOCA29560EMIS	Somatropin (Rbe)  Cartridges  24 mg (72 units)
+SOIN19676EMIS	Somatropin  Injection  5.33 mg (16 units/vial)
+SOIN3873NEMIS	Somatropin (Rbe)  Injection (Prefilled Syringe)  1.4 mg (4.2 units/syringe)
+STTA6626NEMIS	Starlix  Tablets  180 mg
+SYTA104971NEMIS	Synjardy  Tablets  5 mg + 850 mg
+TEIM4406	Testosterone  Implant  200 mg
+TEIN83115NEMIS	Testosterone Undecanoate  Injection  250 mg/ml, 4 ml vial
+VOTA96774NEMIS	Vokanamet  Tablets  50 mg + 1000 mg
+ZITA43643NEMIS	Zicron  Tablets  40 mg
+ZOCO20549NEMIS	Zoledronic Acid  Concentrate For Solution For Infusion  4 mg/5 ml vial
+ZUTA29671EMIS	Zumenon  Tablets  1 mg
+LOM/46714NEMIS	Lodotra  M/R tablets  5 mg
+LUIN11779NEMIS	Luveris  Injection  75 unit vial
+LUVA98867NEMIS	Lutigest  Vaginal tablets  100 mg
+MEPO78093NEMIS	Menopur  Powder and solvent for solution for injection  150 units/vial
+META19831EMIS	Methylprednisolone  Tablets  100 mg
+META5128	Mesterolone  Tablets  25 mg
+META76743NEMIS	Metformin And Linagliptin  Tablets  1000 mg + 2.5 mg
+MIIN15908NEMIS	Mixtard 40 Penfill  Injection  100 units/ml, 3 ml cartridge
+NOIN12698NEMIS	Novomix 30 Penfill  Injection (cartridges)  100 units/ml, 3 ml cartridge
+NOIN1953NEMIS	Norditropin SimpleXx  Injection (cartridges)  5 mg/1.5 ml
+NOSO108549NEMIS	Norditropin Nordiflex  Solution for injection in pre-filled pen  5 mg/1.5 ml
+NOSO48461NEMIS	Norditropin Nordiflex  Solution for injection in pre-filled pen  15 mg/1.5 ml
+OMIN83184NEMIS	Omnitrope Pen 5  Solution for injection  5 mg/1.5 ml cartridge
+PASO115185NEMIS	Pamidronate Disodium  Solution for infusion  15 mg/5 ml vial
+PEPO113370NEMIS	Pegvisomant  Powder and solvent for solution for injection  25 mg vial
+PEPO17478NEMIS	Pegvisomant  Powder and solvent for solution for injection  15 mg vial
+PITA5317NEMIS	Pioglitazone Hydrochloride  Tablets  30 mg
+PRCA26231NEMIS	Progesterone  Capsules (Micronised)  100 mg
+PRCA28722EMIS	Prowess  Capsules  
+PRIN2373	Proluton Depot  Injection  250 mg/ml
+PRIN9542EMIS	Profasi  Injection  5000 units/amp
+PRM/46708NEMIS	Prednisone  M/R tablets  5 mg
+PRSU19064NEMIS	Protelos  Sugar free granules  2 grams/sachet
+PRTA116231NEMIS	Prednisolone  Tablets  30 mg
+PRTA2328	Prednisolone  Tablets  5 mg
+PRTA25050NEMIS	Premarin  Tablets  300 micrograms
+PRTA9008EMIS	Provera  Tablets  10 mg
+RECA29114NEMIS	Restandol Testocaps  Capsules  40 mg
+RYTA137821NEMIS	Rybelsus  Tablets  3 mg
+SAIN17926EMIS	Saizen  Injection  3.33 mg (10 units/vial)
+SASO48421NEMIS	Saizen  Solution for injection  20 mg/2.5 ml cartridge
+SOCA29559EMIS	Somatropin (Rbe)  Cartridges  12 mg (36 units)
+SOIN2637	Solu-Cortef  Powder For Solution For Injection  100 mg/vial
+SOIN5921	Solu-Medrone  Powder and solvent for solution for injection  40 mg vial
+SOIN1602NEMIS	Somatropin (Rbe)  Injection (Prefilled Syringe)  0.6 mg (1.8 units/syringe)
+SOIN1949NEMIS	Somatropin (epr)  Injection (cartridges)  5 mg/1.5 ml (3.3 mg/ml)
+SOIN2637	Solu-Cortef  Powder For Solution For Injection  100 mg/vial
+SOPO20455EMIS	Solu-Medrone  Powder and solvent for solution for injection  125 mg vial
+STM/18224NEMIS	Striant Sr  M/R Muco-adhesive Buccal Tablet  30 mg
+SUIN4360	Sustanon 100  Injection  1 ml ampoule
+TOTA38713NEMIS	Tolvaptan  Tablets  30 mg
+TRSO78485NEMIS	Tresiba Flextouch  Solution for injection  200 units/ml, 3 ml pre-filled pen
+UTCA26234NEMIS	Utrogestan  Capsules (Micronised)  100 mg
+ZITA43643NEMIS	Zicron  Tablets  40 mg
+ABSO104799NEMIS	Abasaglar Kwikpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+ACTA28891NEMIS	Actonel Combi  Tablets And Effervescent Granules  35 mg + 1 gram (880 units)
+ACTA5320NEMIS	Actos  Tablets  30 mg
+ANTR31981EMIS	Andropatch  Transdermal patches  5 mg/24 hrs
+AVTA19076NEMIS	Avandamet  Tablets  2 mg + 1 gram
+BETA4644	Betamethasone  Tablets  500 micrograms
+BIM/105983NEMIS	Bilxona  M/R tablets  30 mg
+CAOR45716NEMIS	Carbimazole  Oral solution  5 mg/5 ml
+CATA125832NEMIS	Carbimazole  Tablets  15 mg
+CATA32098EMIS	Calcort  Tablets  30 mg
+DEIN4810	Desmopressin  Intranasal solution  100 micrograms/ml
+DENA22598NEMIS	Desmopressin  Nasal spray  2.5 micrograms/dose
+DEOR117884NEMIS	Desmopressin  Oral Lyophilisate Sugar Free  25 micrograms
+DEOR21816NEMIS	Desmomelt  Oral Lyophilisate Sugar Free  120 micrograms
+DEOR36557NEMIS	Dextrogel  Oral gel  40 %
+DEOR45730NEMIS	Desmopressin  Oral suspension  200 micrograms/5 ml
+DESO43673NEMIS	Denosumab  Solution for injection  60 mg/1 ml pre-filled syringe
+DETR30520EMIS	Dermestril  Transdermal patches  50 micrograms/24 hrs
+DHTA30806NEMIS	Dhea  Tablets  10 mg
+DIPO33322NEMIS	Pamidronate Disodium  Powder And Solvent For Solution For Infusion  30 mg vial
+DITA18934NEMIS	Disodium Etidronate And Effervescent Calcium Carbonate  Tablets  400 mg + 1.25 grams
+DITA3425	Didronel  Tablets  200 mg
+ELTA30208EMIS	Elleste Duet 1 Mg  Tablets  
+HYIN5000	Hydrocortisone  Injection  100 mg/vial
+INPR13771NEMIS	Insulatard Flexpen  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INPR46954NEMIS	Insuman Comb 25 Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INPR6338NEMIS	Insuman Basal Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INSO103676NEMIS	Insulin Glargine  Pre-filled Disposable Pen  300 units/ml, 1.5 ml pen
+INTA88612NEMIS	Invokana  Tablets  100 mg
+JATA25231NEMIS	Januvia  Tablets  100 mg
+JATA37230NEMIS	Janumet  Tablets  50 mg + 1000 mg
+LISO78535NEMIS	Lixisenatide  Solution for injection  20 micrograms/0.2 ml, 3 ml device
+LOM/46714NEMIS	Lodotra  M/R tablets  5 mg
+MEPO20446EMIS	Methylprednisolone Sodium Succinate  Powder and solvent for solution for injection  125 mg vial
+MITA3949	Minodiab  Tablets  5 mg
+NAM/34993NEMIS	Nazdol Mr  M/R tablets  30 mg
+NOPR12702NEMIS	Novomix 30 Flexpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+ONTA48255NEMIS	Onglyza  Tablets  2.5 mg
+PITA5315NEMIS	Pioglitazone Hydrochloride  Tablets  15 mg
+PLM/77087NEMIS	Plenadren  M/R tablets  20 mg
+PRCA26229NEMIS	Progesterone  Capsules (Micronised)  200 mg
+PRIN9540EMIS	Profasi  Injection  2000 units/amp
+PRTA18432EMIS	Prednisolone  Tablets  25 mg
+PRTR28189EMIS	Progynova Ts Forte  Transdermal patches (7 days)  100 micrograms/24 hrs
+PUIN29690EMIS	Puregon  Solution for injection  100 units/0.5 ml vial
+PUIN29691EMIS	Puregon  Solution for injection  50 units/0.5 ml vial
+RETA34161EMIS	Repaglinide  Tablets  1 mg
+ROTA19074NEMIS	Rosiglitazone And Metformin  Tablets  2 mg + 1 gram
+SITA25228NEMIS	Sitagliptin  Tablets  100 mg
+ULIN15920NEMIS	Ultratard  Injection  100 units/ml, 10 ml vial
+UTCA26233NEMIS	Utrogestan  Capsules (Micronised)  200 mg
+VEIN15916NEMIS	Velosulin  Injection  100 units/ml, 10 ml vial
+ZOSO51963NEMIS	Zoledronic Acid  Solution for infusion  4 mg/100 ml bottle
+ALGR127576NEMIS	Alkindi  Granules In Capsules For Opening  500 micrograms
+ALTA86909NEMIS	Alogliptin And Metformin  Tablets  12.5 mg + 1000 mg
+AVTA4766NEMIS	Avandia  Tablets  4 mg
+ELTA5339NEMIS	Eltroxin  Tablets  25 micrograms
+ELTR31592EMIS	Elleste Solo Mx  Transdermal patches  40 micrograms/24 hrs
+EMTA104966NEMIS	Empagliflozin And Metformin  Tablets  5 mg + 850 mg
+EMTA104969NEMIS	Empagliflozin And Metformin  Tablets  12.5 mg + 1000 mg
+ESPA8672EGTON	Estraderm Tts  Transdermal patches  25 micrograms/24 hrs
+ESTA18936NEMIS	Estradiol And Norethisterone Acetate  Tablets  2 mg + 1 mg
+ESTR17760NEMIS	Estradiol  Transdermal patches  40 micrograms/24 hrs
+EVOR23334NEMIS	Evotrox  Oral solution  50 micrograms/5 ml
+EVTA34223EMIS	Evista  Tablets  60 mg
+FETA15852NEMIS	Femtab  Tablets  1 mg
+FETA15855NEMIS	Femtab Sequi  Tablets  
+FETA1987NEMIS	Femoston-Conti  Tablets  1 mg + 5 mg
+FETA26908EMIS	Femoston 2/10  Tablets  
+FOCA5660NEMIS	Follitropin Beta  Solution for injection  300 units/0.36 ml cartridge
+GATA27037NEMIS	Galvus  Tablets  50 mg
+GEIN1297	Gestone  Solution for injection  50 mg/1 ml ampoule
+GEMI1607NEMIS	Genotropin  MiniQuick injection  0.2 mg (0.6 units/syringe)
+GLM/30450NEMIS	Glucophage Sr  M/R tablets  750 mg
+GLTA1302	Glibenclamide  Tablets  2.5 mg
+GLTA1307	Glucophage  Tablets  500 mg
+GLTA31482EMIS	Glimepiride  Tablets  2 mg
+GLTA31850EMIS	Glimepiride  Tablets  1 mg
+GLTA31851EMIS	Glimepiride  Tablets  3 mg
+HUCA32509EMIS	Humulin M3  Suspension For Injection  100 units/ml, 3 ml cartridge
+HUIN22574NEMIS	Humalog Mix50  Injection (cartridges)  100 units/ml, 3 ml cartridge
+HYGR127572NEMIS	Hydrocortisone  Granules In Capsules For Opening  1 mg
+ININ21131NEMIS	Insulin Glulisine  Injection  100 units/ml, 10 ml vial
+INPR11699NEMIS	Insulatard Innolet  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+INPR13771NEMIS	Insulatard Flexpen  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+INPR20078NEMIS	Insulin Aspart  Solution for injection  100 units/ml, 3 ml pre-filled pen
+INTA5654NEMIS	Indivina  Tablets  2 mg + 5 mg
+ISIN671NEMIS	Isophane Insulin (Bovine, Highly Purified)  Injection (cartridges)  100 units/ml, 3 ml cartridge
+LAM/78911NEMIS	Laaglyda Mr  M/R tablets  60 mg
+LISO78533NEMIS	Lixisenatide  Solution for injection  10 micrograms/0.2 ml, 3 ml device
+SUM/90087NEMIS	Sukkarto Sr  M/R tablets  500 mg
+TEGE20002NEMIS	Testim  Gel  50 mg/5 gram tube
+TESO133893NEMIS	Teriparatide  Solution for injection  20 micrograms/dose, 2.4 ml cartridge
+TETA4404	Tertroxin  Tablets  20 micrograms
+TETR31983EMIS	Testosterone  Transdermal patches  5 mg/24 hrs
+VIIN25435EMIS	Virormone  Solution for injection  100 mg/2 ml ampoule
+VITA86905NEMIS	Vipidia  Tablets  6.25 mg
+ZOIN27963EMIS	Zomacton  Injection  4 mg (12 units/vial)
+ZUTA20666EMIS	Zumenon  Tablets  2 mg
+SOPO47381NEMIS	Somatropin (Rbe)  Powder and solvent for solution for injection  5.3 mg pen
+SOTA26897EMIS	Sodium Clodronate  Tablets  800 mg
+TESO134268NEMIS	Terrosa  Solution for injection  20 micrograms/dose, 2.4 ml cartridge
+TRSO78484NEMIS	Tresiba Flextouch  Solution for injection  100 units/ml, 3 ml pre-filled pen
+VITA86907NEMIS	Vipidia  Tablets  25 mg
+VITA86911NEMIS	Vipdomet  Tablets  12.5 mg + 1000 mg
+XGSO51581NEMIS	Xgeva  Solution for injection  120 mg/1.7ml vial
+ZESO90790NEMIS	Zerlinda  Solution for infusion  4 mg/100 ml bag
+ZOSO88536NEMIS	Zoledronic Acid  Solution for infusion  5 mg/100 ml vial
+PRIN2367	Progesterone  Solution for injection  50 mg/1 ml ampoule
+PRM/46706NEMIS	Prednisone  M/R tablets  1 mg
+PRM/46707NEMIS	Prednisone  M/R tablets  2 mg
+PROR101263NEMIS	Prednisolone  Oral solution  5 mg/5 ml unit dose
+RITA3887NEMIS	Risedronate Sodium  Tablets  30 mg
+ROTA19075NEMIS	Rosiglitazone And Metformin  Tablets  4 mg + 1 gram
+SESO130272NEMIS	Semaglutide  Solution for injection  1 mg/0.74 ml, 3 ml pre-filled device
+SETA137817NEMIS	Semaglutide  Tablets  3 mg
+SOIN1601NEMIS	Somatropin (Rbe)  Injection (Prefilled Syringe)  0.4 mg (1.2 units/syringe)
+SOIN17224NEMIS	Somatropin  Injection  10 mg (30 units/2 ml cartridge)
+SOIN3876NEMIS	Somatropin (Rbe)  Injection (Prefilled Syringe)  1.8 mg (5.4 units/syringe)
+SOPO20455EMIS	Solu-Medrone  Powder and solvent for solution for injection  125 mg vial
+SOSO48417NEMIS	Somatropin (Rmc)  Solution for injection  12 mg/1.5 ml cartridge
+STM/18224NEMIS	Striant Sr  M/R Muco-adhesive Buccal Tablet  30 mg
+SUIN31458EMIS	Suprecur  Injection  1 mg/ml, 5.5 ml vial
+SUSO130639NEMIS	Suliqua Solostar  Solution for injection  100 units/ml + 33 micrograms/ml, 3 ml pen
+TEGE125419NEMIS	Testosterone  Gel  16.2 mg/gram
+TEIN17821NEMIS	Tetracosactide  Suspension For Injection  1 mg/1 ml ampoule
+TETR25120NEMIS	Testosterone  Transdermal patches  300 micrograms/24 hours
+TRSO78485NEMIS	Tresiba Flextouch  Solution for injection  200 units/ml, 3 ml pre-filled pen
+BOM/35196NEMIS	Bolamyn Sr  M/R tablets  500 mg
+CATA96770NEMIS	Canagliflozin And Metformin  Tablets  50 mg + 1000 mg
+CLTA17600NEMIS	Clomifene  Tablets  50 mg
+CLTA22324NEMIS	Climanor  Tablets  5 mg
+CLTA23918EMIS	Climagest 2 Mg  Tablets  
+DATA806	Daonil  Tablets  5 mg
+DDIN3389	Ddavp  Intranasal solution  100 micrograms/ml
+DDTA23512EMIS	Ddavp  Tablets  200 micrograms
+DESO126795NEMIS	Dexamethasone (base)  Solution for injection  3.3 mg/1 ml ampoule
+DESO126796NEMIS	Dexamethasone (base)  Solution for injection  3.8 mg/1 ml vial
+DESO126797NEMIS	Dexamethasone (base)  Solution for injection  6.6 mg/2 ml ampoule
+DETA124642NEMIS	Dexamethasone  Tablets  40 mg
+DETA32100EMIS	Deflazacort  Tablets  30 mg
+DETR30518EMIS	Dermestril  Transdermal patches  100 micrograms/24 hrs
+DIM/74131NEMIS	Diagemet Xl  M/R tablets  500 mg
+DUSO138406NEMIS	Dulaglutide  Solution for injection  3 mg/0.5 ml pre-filled device
+ERTA86962NEMIS	Erfa Thyroid  Tablets  60 mg (1 grain)
+ESGE17772NEMIS	Estradiol  Gel  500 micrograms/500 mg sachet
+ESTA18932NEMIS	Estradiol Valerate And Norethisterone  Tablets  2 mg + 700 micrograms
+ESTA76935NEMIS	Estradiol And Dydrogesterone  Tablets  500 micrograms + 2.5 mg
+ESTR19392NEMIS	Estradot  Transdermal patches  100 micrograms/24 hrs
+EUTA29316NEMIS	Eucreas  Tablets  1 gram + 50 mg
+EVOR23333NEMIS	Evotrox  Oral solution  100 micrograms/5 ml
+EXPR135695NEMIS	Exenatide  Prolonged release suspension for injection  2 mg/0.85 ml pre-filled device
+FLLI30575EMIS	Fludrocortisone Acetate  Liquid  250 micrograms/5 ml
+GEKA20679EMIS	Genotropin  Pen Refill  5.3 mg (16 units/cartridge)
+GLM/137738NEMIS	Glucorex Sr  M/R tablets  500 mg
+GLOR35742NEMIS	Glucophage  Oral powder sachets  500 mg
+GLTA23751EMIS	Glucobay  Tablets  50 mg
+GOIN28962EMIS	Gonal-F  Injection  75 units/amp
+GUGR3671	Guarem  Granules  5 g/sachet
+HOTA3705	Hormonin  Tablets  
+HUCA29553EMIS	Humatrope  Cartridges  12 mg (36 units)
+HUCA35540EMIS	Humalog Mix25  Cartridges (3 Ml)  100 units/ml
+HUIN6911	Human Chorionic Gonadotrophin  Injection  2000 units/amp
+ESTR19391NEMIS	Estradot  Transdermal patches  75 micrograms/24 hrs
+ETTA17651NEMIS	Ethinylestradiol  Tablets  1 mg
+EVTR31391EMIS	Evorel Conti  Transdermal patches  
+EXIN25438NEMIS	Exenatide  Injection (Pre-Filled Pen)  10 micrograms/dose, 60 dose pen
+FETA15858NEMIS	Femtab Continuous  Tablets  
+FETA26911EMIS	Femoston 2/20  Tablets  
+FETR31722EMIS	Femseven  Transdermal patches (7 days)  75 micrograms/24 hrs
+FLTA1185	Florinef  Tablets  100 micrograms
+FOSO51990NEMIS	Forsteo  Solution for injection  20 micrograms/dose, 2.4 ml pen
+FOTA77718NEMIS	Forxiga  Tablets  10 mg
+GEMI1610NEMIS	Genotropin  MiniQuick injection  0.8 mg (2.4 units/syringe)
+GEMI1611NEMIS	Genotropin  MiniQuick injection  1 mg (3 units/syringe)
+GLM/78909NEMIS	Gliclazide  M/R tablets  60 mg
+GLTA4961	Glipizide  Tablets  2.5 mg
+GOPR18239NEMIS	Gonal-F  Solution for injection  300 units/0.5 ml pre-filled pen
+HUPR20905NEMIS	Humulin M3  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HUPR31276NEMIS	Humalog Kwikpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+HUSU45871NEMIS	Humulin I Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HYGR127573NEMIS	Hydrocortisone  Granules In Capsules For Opening  2 mg
+HYIN30855EMIS	Hypurin Porcine Isophane  Suspension For Injection  100 units/ml, 10 ml vial
+HYSO23285NEMIS	Hydrocortisone Sodium Phosphate  Solution for injection  100 mg/ml, 5 ml ampoule
+HYSU764NEMIS	Hydrocortisone  Suspension  5 mg/5 ml
+HYTA3731	Hydrocortone  Tablets  10 mg
+IBTA21110NEMIS	Ibandronic Acid  Tablets  150 mg
+INSO94844NEMIS	Insulin Aspart  Solution for injection  100 units/ml, 1.6 ml cartridge
+ISIN1507	Isophane Insulin (Human)  Suspension For Injection  100 units/ml, 10 ml vial
+JETA76746NEMIS	Jentadueto  Tablets  2.5 mg + 1000 mg
+LISO78535NEMIS	Lixisenatide  Solution for injection  20 micrograms/0.2 ml, 3 ml device
+MECA5162	Metyrapone  Capsules  250 mg
+MEM/35043NEMIS	Metformin Hydrochloride  M/R tablets  1 gram
+META9109EMIS	Medroxyprogesterone Acetate  Tablets  10 mg
+MIIN15898NEMIS	Mixtard 20 Penfill  Injection  100 units/ml, 3 ml cartridge
+HUPR31280NEMIS	Humalog Mix50 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HUPR35541EMIS	Humalog Mix25  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+HUSO101078NEMIS	Humalog Kwikpen  Solution for injection  200 units/ml, 3 ml pre-filled pen
+HYIN3726	Hydrocortisone Sodium Succinate  Powder For Solution For Injection  100 mg/vial
+HYOR4787NEMIS	Hydrocortisone  Oral suspension  25 mg/5 ml
+IATA51149NEMIS	Iasibon  Tablets  50 mg
+INCA1198NEMIS	Insulin Aspart  Cartridges (3 Ml)  100 units/ml
+INCA34843EMIS	Insulin Lispro  Cartridges (3 Ml)  100 units/ml
+INSO103676NEMIS	Insulin Glargine  Pre-filled Disposable Pen  300 units/ml, 1.5 ml pen
+LAIN21795NEMIS	Lantus Opticlik  Injection  100 units/ml, 3 ml cartridge
+LYSO137705NEMIS	Lyumjev Junior Kwikpen  Solution for injection  100 units/ml, 3 ml pre-filled pen
+MEIN25346EMIS	Metrodin High Purity  Injection  150 units/amp
+MEM/123710NEMIS	Meijumet  M/R tablets  500 mg
+MEM/127976NEMIS	Metuxtan Sr  M/R tablets  500 mg
+MIIN15914NEMIS	Mixtard 50 Penfill  Injection  100 units/ml, 3 ml cartridge
+MIPR11701NEMIS	Mixtard 30 Innolet  Suspension For Injection  100 units/ml, 3 ml pre-filled pen
+NOCA1201NEMIS	Novorapid Penfill  Cartridges (3 Ml)  100 units/ml
+NOST25844EMIS	Norprolac  Starter pack  25 micrograms x 3, 50 micrograms x 3
+NUTR30362EMIS	Nuvelle Ts  Transdermal patches  
+PATA2166	Parlodel  Tablets  1 mg
+POTA28958NEMIS	Potassium Iodate  Tablets  85 mg
+PRTA18432EMIS	Prednisolone  Tablets  25 mg
+PRVA31944EMIS	Progesterone  Vaginal gel  8 %
+PUIN29691EMIS	Puregon  Solution for injection  50 units/0.5 ml vial
+RETA34162EMIS	Repaglinide  Tablets  2 mg
+SESO128258NEMIS	Semglee  Solution for injection  100 units/ml, 3 ml pre-filled pen
+SOIN101972NEMIS	Somatropin (Rbe)  Solution for injection  15 mg/1.5 ml cartridge
+SOIN3874NEMIS	Somatropin (Rbe)  Injection (Prefilled Syringe)  1.6 mg (4.8 units/syringe)
+SOSO48459NEMIS	Somatropin (epr)  Solution for injection in pre-filled pen  15 mg/1.5 ml
+SUM/135718NEMIS	Sukkarto Sr  M/R tablets  750 mg
+SYTA104973NEMIS	Synjardy  Tablets  12.5 mg + 850 mg
+TETR29514EMIS	Testosterone  Transdermal patches  2.5 mg/24 hrs
+MINA11909NEMIS	Miacalcic  Nasal spray  200 units/metered dose, 2 ml (14 dose) spray
+NATA6619NEMIS	Nateglinide  Tablets  60 mg
+NATA6622NEMIS	Nateglinide  Tablets  180 mg
+NONA5171NEMIS	Nocutil  Nasal spray  10 micrograms/spray
+NOTA25449EMIS	Norethisterone  Tablets  1 mg
+PETA100628NEMIS	Pevanti  Tablets  25 mg
+PLM/77087NEMIS	Plenadren  M/R tablets  20 mg
+PRIN9540EMIS	Profasi  Injection  2000 units/amp
+PROR88709NEMIS	Prednisolone  Oral solution  15 mg/5 ml
+PRSO130305NEMIS	Progesterone  Solution for injection  25 mg/1.112 ml vial
+PRTA17460NEMIS	Premique Low Dose  M/R tablets  0.3 mg + 1.5 mg
+PRTA2371	Progynova  Tablets  1 mg
+PRTA27092EMIS	Premique  Tablets  0.625 mg + 5 mg
+RECA4267	Restandol  Capsules  40 mg
+ROTA4762NEMIS	Rosiglitazone Maleate  Tablets  4 mg
+SESO130274NEMIS	Semaglutide  Solution for injection  0.25 mg/0.19 ml, 1.5 ml pre-filled device
+SETA137819NEMIS	Semaglutide  Tablets  14 mg
+SITA25228NEMIS	Sitagliptin  Tablets  100 mg
+SOCA9902HILLI	Sodium Clodronate  Capsules  400 mg
+SOIN1949NEMIS	Somatropin (epr)  Injection (cartridges)  5 mg/1.5 ml (3.3 mg/ml)
+SOIN35551EMIS	Somatropin (Rmc)  Injection  8 mg (24 units/vial)
+SOPO47384NEMIS	Somatropin (Rbe)  Powder and solvent for solution for injection  12 mg pen
+SOPO77661NEMIS	Solu-Cortef  Powder and solvent for solution for injection  100 mg/vial
+STTA6624NEMIS	Starlix  Tablets  60 mg
+SYNA41287NEMIS	Synarel  Nasal Spray  200 micrograms/dose
+TEGE15748NEMIS	Testogel  Gel  50 mg/5 gram sachet
+TOSO103679NEMIS	Toujeo Solostar  Pre-filled Disposable Pen  300 units/ml, 1.5 ml pen
+TOTA130748NEMIS	Tolvaptan  Tablets  7.5 mg
+TOTA2876	Tolbutamide  Tablets  500 mg
+TRSO138408NEMIS	Trulicity  Solution for injection  3 mg/0.5 ml pre-filled pen
+TRSO78488NEMIS	Tresiba Penfill  Solution for injection  100 units/ml, 3 ml cartridge
+ULIN15920NEMIS	Ultratard  Injection  100 units/ml, 10 ml vial
+UTCA26233NEMIS	Utrogestan  Capsules (Micronised)  200 mg
+UTCA26234NEMIS	Utrogestan  Capsules (Micronised)  100 mg
+VAM/98856NEMIS	Vamju  M/R tablets  60 mg
+LITA134006NEMIS	Liothyronine Sodium  Tablets  10 micrograms
+LYSO137712NEMIS	Lyumjev  Solution for injection  100 units/ml, 10 ml vial
+MEIN31597EMIS	Menotrophin  Injection  75 units/amp
+MEM/49996NEMIS	Metabet Sr  M/R tablets  1 gram
+MEOR23338NEMIS	Metsol  Oral solution  500 mg/5 ml
+META6974	Methylprednisolone  Tablets  2 mg
+MIIN10924BRIDL	Miacalcic  Injection  50 units/ml, 1 ml ampoule
+MIPR15910NEMIS	Mixtard 50 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+MITA3949	Minodiab  Tablets  5 mg
+MOIN15918NEMIS	Monotard  Injection  100 units/ml, 10 ml vial
+NATA85475NEMIS	Nature-Throid  Tablets  130 mg (2 grains)
+NEIN83116NEMIS	Nebido  Injection  250 mg/ml, 4 ml vial
+NOOR117888NEMIS	Noqdirna  Oral Lyophilisate  50 micrograms
+NOTA2023	Norethisterone  Tablets  5 mg
+NOTA34156EMIS	Novonorm  Tablets  1 mg
+NUTA17981EMIS	Nuvelle  Tablets  
+OMIN83191NEMIS	Omnitrope Surepal 10  Solution for injection  10 mg/1.5 ml cartridge
+ONTA48255NEMIS	Onglyza  Tablets  2.5 mg
+OZSO130277NEMIS	Ozempic  Solution for injection  1 mg/0.74 ml, 3 ml pre-filled pen
+PACA2164	Parlodel  Capsules  10 mg
+PRTA2337	Premarin  Tablets  625 micrograms
+PRTA2340	Prempak-C 0.625 mg + 0.15 mg  Tablets  
+PRTA23502NEMIS	Prandin  Tablets  500 micrograms
+PRTA23504NEMIS	Prandin  Tablets  2 mg
+PRTA4224	Propylthiouracil  Tablets  50 mg
+RASO51786NEMIS	Rapilose O.G.T.T.  Solution  75 grams/300 ml
+RITA3885NEMIS	Risedronate Sodium  Tablets  5 mg
+ROTA4764NEMIS	Rosiglitazone Maleate  Tablets  8 mg
+RYTA137823NEMIS	Rybelsus  Tablets  14 mg
+SASO119244NEMIS	Saxenda  Solution for injection  6 mg/ml, 3 ml pre-filled pen
+SATA119013NEMIS	Saxagliptin And Dapagliflozin  Tablets  5 mg + 10 mg
+SATA78211NEMIS	Saxagliptin And Metformin  Tablets  2.5 mg + 850 mg
+SITA71611NEMIS	Sitagliptin  Tablets  50 mg
+SOIN1604NEMIS	Somatropin (Rbe)  Injection (Prefilled Syringe)  1 mg (3 units/syringe)
+SOIN3875NEMIS	Somatropin (Rbe)  Injection (Prefilled Syringe)  1.2 mg (3.6 units/syringe)
+TOPR131753NEMIS	Toujeo Doublestar  Pre-filled Disposable Pen  300 units/ml, 3 ml pen
+TRPR20566EMIS	Triamcinolone Acetonide  Prefilled syringe  40 mg/1 ml
+UTVA82060NEMIS	Utrogestan  Vaginal Capsules With Applicators  200 mg
+YAM/127094NEMIS	Yaltormin Sr  M/R tablets  750 mg
+ZATA135293NEMIS	Zalkya  Tablets  2 mg
+VISO37220NEMIS	Victoza  Solution for injection in pre-filled pen  6 mg/ml, 3 ml pen
+VITA86906NEMIS	Vipidia  Tablets  12.5 mg
+YOGE116564NEMIS	Yourgluco  Gel  40 %
+ZOCO20550NEMIS	Zometa  Concentrate For Solution For Infusion  4 mg/5 ml vial
+STTA6625NEMIS	Starlix  Tablets  120 mg
+SYTA104974NEMIS	Synjardy  Tablets  12.5 mg + 1000 mg
+TECA5418	Testosterone Undecanoate  Capsules  40 mg
+TEIN17822NEMIS	Tetracosactide  Solution for injection  250 micrograms/1 ml ampoule
+TEIN19652NEMIS	Testosterone Undecanoate  Injection  250 mg/ml, 4 ml ampoule
+TESO134270NEMIS	Terrosa  Solution for injection  20 micrograms/dose, 2.4 ml cartridge with pen
+THPO20612NEMIS	Thyrogen  Powder For Solution For Injection  900 microgram vial
+ULTA71577NEMIS	Ulipristal Acetate  Tablets  5 mg
+XITA88555NEMIS	Xigduo  Tablets  5 mg + 1000 mg
+YAM/127093NEMIS	Yaltormin Sr  M/R tablets  500 mg
+ZOSO86940NEMIS	Zoledronic Acid  Solution for infusion  4 mg/100 ml vial
+DIOR77504NEMIS	Diazoxide  Oral suspension  12.5 mg/5 ml
+DITA34375EMIS	Diaglyk  Tablets  80 mg
+DUSO138407NEMIS	Dulaglutide  Solution for injection  4.5 mg/0.5 ml pre-filled device
+DUTA1008	Duphaston  Tablets  10 mg
+ELTA1056	Eltroxin  Tablets  50 micrograms
+ELTA28287EMIS	Elleste-Solo  Tablets  1 mg
+ESIM17751NEMIS	Estradiol  Implant  100 mg
+ESPA18937NEMIS	Estradiol And Norethisterone Acetate  Patches  50 micrograms + 170 micrograms/24 hours
+ESTR17764NEMIS	Estradiol  Transdermal patches  80 micrograms/24 hrs
+ETTA17649NEMIS	Ethinylestradiol  Tablets  10 micrograms
+EVTR26441EMIS	Evorel  Transdermal patches  100 micrograms/24 hrs
+EVTR26443EMIS	Evorel  Transdermal patches  75 micrograms/24 hrs
+FETR14417NEMIS	Femseven Conti  Transdermal patches (7 days)  50 micrograms/7 micrograms/24 hours
+FLOR51930NEMIS	Fludrocortisone  Oral suspension  125 micrograms/5 ml
+FOIN28965EMIS	Follitropin Alfa  Injection  150 units/ampoule
+FOIN31712EMIS	Follitropin Beta  Solution for injection  100 units/0.5 ml vial
+FOIN31713EMIS	Follitropin Beta  Injection  150 units vial
+FOPR18237NEMIS	Follitropin Alfa  Solution for injection  450 units/0.75 ml pre-filled disposable device
+FOTA77717NEMIS	Forxiga  Tablets  5 mg
+GAPR5639NEMIS	Ganirelix  Solution for injection  250 micrograms/0.5 ml pre-filled syringe
+GECA9292EMIS	Gestrinone  Capsules  2.5 mg
+GEGO47391NEMIS	Genotropin  GoQuick injection  12 mg pen
+GEKA23689EMIS	Genotropin  Pen Refill  12 mg (36 units/cartridge)
+GEMI3880NEMIS	Genotropin  MiniQuick injection  1.6 mg (4.8 units/syringe)
+GLIN6453NEMIS	Glucagen Hypokit  Injection  1 mg
+GLOR22986NEMIS	Gliclazide  Oral suspension  80 mg/5 ml
+GLTA43641NEMIS	Gliclazide  Tablets  40 mg
+GOPO15983NEMIS	Gonal-F  Powder and solvent for solution for injection  75 unit vial
+GOPO15984NEMIS	Gonal-F  Powder and solvent for solution for injection  1,050 unit vial
+GOPR18240NEMIS	Gonal-F  Solution for injection  450 units/0.75 ml pre-filled pen
+GSOR49479NEMIS	Gsf-Syrup  Oral gel  Mixed, 18 gram sachets
+GUGR4977	Guar Gum  Granules  5 g/sachet
+HUCA32500EMIS	Humulin S  Cartridges (3 Ml)  100 units/ml
+HUIN19674EMIS	Humatrope  Injection  5.33 mg (16 units/vial)
+HUIN25811EMIS	Humulin M5  Injection  10 ml vial
+HUIN28933NEMIS	Humulin R  Injection  500 units/ml, 20 ml vial
+HUIN3072NEMIS	Human Chorionic Gonadotrophin  Powder and solvent for injection  1,500 unit ampoule
+HUPE26788EMIS	Human Mixtard 20  Penfill Cartridges (1.5 Ml)  
+HUPR5191NEMIS	Humalog  Solution for injection  100 units/ml, 3 ml pre-filled pen
+HUSU40341NEMIS	Humalog Mix25  Suspension For Injection  100 units/ml, 10 ml vial
+HYGR127571NEMIS	Hydrocortisone  Granules In Capsules For Opening  500 micrograms
+HYIN15401NEMIS	Hypurin Porcine Neutral  Injection (cartridges)  100 units/ml, 3 ml Cartridge
+HYIN15402NEMIS	Hypurin Porcine Isophane  Injection (cartridges)  100 units/ml, 3 ml Cartridge
+HYM/77084NEMIS	Hydrocortisone  M/R tablets  20 mg
+HYOR28585EMIS	Hydrocortisone  Oral suspension  10 mg/5 ml
+HYPO77660NEMIS	Hydrocortisone Sodium Succinate  Powder and solvent for solution for injection  100 mg/vial
+HYSO130494NEMIS	Hydrocortisone Sodium Phosphate  Soluble Tablets Sugar Free  10 mg
+HYTA131895NEMIS	Hydventia  Tablets  10 mg
+ININ13807NEMIS	Insulin Glargine  Injection  100 units/ml, 10 ml vial
+INPR6338NEMIS	Insuman Basal Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen
+JATA37230NEMIS	Janumet  Tablets  50 mg + 1000 mg
+JATA71614NEMIS	Januvia  Tablets  25 mg
+JATA91276NEMIS	Jardiance  Tablets  10 mg
+KOTA78214NEMIS	Komboglyze  Tablets  2.5 mg + 850 mg
+LESU17792NEMIS	Levothyroxine Sodium  Suspension  125 micrograms/5 ml
+LESU17793NEMIS	Levothyroxine Sodium  Suspension  25 micrograms/5 ml
+META3887	Medrone  Tablets  2 mg
+META42230NEMIS	Metformin And Sitagliptin  Tablets  1000 mg + 50 mg
+META76744NEMIS	Metformin And Linagliptin  Tablets  850 mg + 2.5 mg
+METR27689EMIS	Menorest  Transdermal patches  50 micrograms/day
+MIIN15894NEMIS	Mixtard 10 Penfill  Injection  100 units/ml, 3 ml cartridge
+MIPR15900NEMIS	Mixtard 30 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device
+MOSO133896NEMIS	Movymia  Solution for injection  20 micrograms/dose, 2.4 ml cartridge
+NAM/34993NEMIS	Nazdol Mr  M/R tablets  30 mg
+NATA25546NEMIS	Nature-Throid Nt-1  Tablets  65 mg (1 grain)
+NOIN1200NEMIS	Novorapid  Injection  100 units/ml, 10 ml vial
+NOTA34157EMIS	Novonorm  Tablets  2 mg
+OMIN83185NEMIS	Omnitrope Pen 10  Solution for injection  10 mg/1.5 ml cartridge
+PETA100622NEMIS	Pevanti  Tablets  2.5 mg
+PRPE98865NEMIS	Progesterone  Pessaries  100 mg
+PRTA2336	Premarin  Tablets  1.25 mg
+PRTA2372	Progynova  Tablets  2 mg
+PUCA5662NEMIS	Puregon  Solution for injection  300 units/0.36 ml cartridge
+PUIN1270NEMIS	Puregon  Injection  200 units vial
+PUIN29690EMIS	Puregon  Solution for injection  100 units/0.5 ml vial
+ROTA18929NEMIS	Rosiglitazone And Metformin  Tablets  1 mg + 500 mg
+SAGE30743EMIS	Sandrena  Gel  500 micrograms/500 mg sachet
+SOIN30844NEMIS	Somatropin (Rbe)  Solution for injection  10 mg/1.5 ml cartridge
+SOIN9916HILLI	Somatropin  Injection  4 mg (12 units/vial)
+SOSO108547NEMIS	Somatropin (epr)  Solution for injection in pre-filled pen  5 mg/1.5 ml
+STSU19061NEMIS	Strontium Ranelate  Sugar free granules  2 grams/sachet
+STTA2716	Stromba  Tablets  5 mg
+SUIN4361	Sustanon 250  Injection  1 ml ampoule
+SYIN5928	Synacthen  Solution for injection  250 micrograms/1 ml ampoule
+SYTA104972NEMIS	Synjardy  Tablets  5 mg + 1000 mg
+TEGE15746NEMIS	Testosterone  Gel  50 mg/5 gram sachet
+TETR1675NEMIS	Testoderm  Transdermal patches  6 mg/24 hrs
+TRTA20213EMIS	Trisequens Forte  Tablets  
+TRTA51800NEMIS	Trajenta  Tablets  5 mg
+VAM/98855NEMIS	Vamju  M/R tablets  30 mg
+XUSO98877NEMIS	Xultophy  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen
+ZOSO115684NEMIS	Zoledronic Acid  Solution for infusion  5 mg/100 ml bag

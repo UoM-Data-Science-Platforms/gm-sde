@@ -4,8 +4,6 @@ This code set was based on a list of SNOMED codes, derived from BNF codes, provi
 
 ## Prevalence log
 
-NEED TO UPDATE BELOW
-
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `30.2% - 31.4%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
