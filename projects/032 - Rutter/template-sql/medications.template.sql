@@ -14,7 +14,7 @@
 
 -- Set the start date
 DECLARE @StartDate datetime;
-SET @StartDate = '2019-07-01';
+SET @StartDate = '2019-07-09';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -35,6 +35,7 @@ SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
 --> CODESET diabetes-type-ii:1 polycystic-ovarian-syndrome:1 gestational-diabetes:1
+--> CODESET bnf-cardiovascular-meds:1 bnf-cns-meds:1 bnf-endocrine-meds:1
 
 --> EXECUTE query-patient-sex.sql
 --> EXECUTE query-patient-year-of-birth.sql
@@ -57,14 +58,8 @@ IF OBJECT_ID('tempdb..#diabetes2_diagnoses') IS NOT NULL DROP TABLE #diabetes2_d
 SELECT gp.FK_Patient_Link_ID, 
 		YearOfBirth, 
 		Sex,
-		EthnicMainGroup,
 		EventDate,
-		SuppliedCode,
-		[diabetes_type_i_Code] = CASE WHEN SuppliedCode IN 
-					( SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-i') AND [Version] = 1 ) THEN 1 ELSE 0 END,
-		[diabetes_type_ii_Code] = CASE WHEN SuppliedCode IN 
-					( SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-ii') AND [Version] = 1 ) THEN 1 ELSE 0 END
-
+		SuppliedCode
 INTO #diabetes2_diagnoses
 FROM [RLS].[vw_GP_Events] gp
 LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
@@ -74,17 +69,15 @@ WHERE (SuppliedCode IN
 	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-ii') AND [Version] = 1)) 
     AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
     AND gp.FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #exclusions) -- exclude patients with polycystic ovary syndrome or gestational diabetes
-	AND (gp.EventDate) <= '2019-07-01'
-	AND DATEDIFF(YEAR, yob.YearOfBirth, '2019-07-01') >= 18
+	AND (gp.EventDate) <= '2019-07-09'
+	AND DATEDIFF(YEAR, yob.YearOfBirth, '2019-07-09') >= 18
 
 
 -- Define the main cohort to be matched
 IF OBJECT_ID('tempdb..#MainCohort') IS NOT NULL DROP TABLE #MainCohort;
 SELECT DISTINCT FK_Patient_Link_ID, 
 		YearOfBirth, -- NEED TO ENSURE OVER 18S ONLY AT SOME POINT
-		Sex,
-		EthnicMainGroup,
-		IMD2019Decile1IsMostDeprived10IsLeastDeprived
+		Sex
 INTO #MainCohort
 FROM #diabetes2_diagnoses
 --WHERE FK_Patient_Link_ID IN (#####INTERVENTION_TABLE) -- only get patients that had a diabetes intervention
@@ -124,28 +117,32 @@ SELECT MatchingPatientId FROM #CohortStore;
 
 */
 
--- RX OF MEDS SINCE 01.07.19 FOR PATIENTS WITH T2D
+-- RX OF MEDS SINCE 09.07.19 FOR PATIENTS WITH T2D, WITH A FLAG FOR THE CATEGORY (CARDIOVASCULAR, ENDOCRINE, CNS)
 
 IF OBJECT_ID('tempdb..#meds') IS NOT NULL DROP TABLE #meds;
 SELECT 
 	 m.FK_Patient_Link_ID,
 	 CAST(MedicationDate AS DATE) as PrescriptionDate,
+	 [concept] = CASE WHEN s.[concept] IS NOT NULL THEN s.[concept] ELSE c.[concept] END,
 	 [description] = CASE WHEN s.[description] IS NOT NULL THEN s.[description] ELSE c.[description] END
 INTO #meds
 FROM RLS.vw_GP_Medications m
 LEFT OUTER JOIN #VersionedSnomedSets s ON s.FK_Reference_SnomedCT_ID = m.FK_Reference_SnomedCT_ID
 LEFT OUTER JOIN #VersionedCodeSets c ON c.FK_Reference_Coding_ID = m.FK_Reference_Coding_ID
 WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #diabetes2_diagnoses)
-AND m.MedicationDate > '2019-07-01' 
+AND m.MedicationDate > '2019-07-09' 
+AND (m.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets) OR
+	m.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets))
+AND UPPER(SourceTable) NOT LIKE '%REPMED%'
+AND RepeatMedicationFlag = 'N'
 
 -- Produce final table of all medication prescriptions for T2D patients
 
-SELECT PatientId, 
-	[description], 
+SELECT PatientId = FK_Patient_Link_ID, 
+	MedicationCategory = concept,
 	PrescriptionDate
 FROM #meds
 ORDER BY PatientId,
 	[description],
 	PrescriptionDate
-
 

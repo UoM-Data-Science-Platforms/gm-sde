@@ -60,12 +60,7 @@ SELECT gp.FK_Patient_Link_ID,
 		Sex,
 		EthnicMainGroup,
 		EventDate,
-		SuppliedCode,
-		[diabetes_type_i_Code] = CASE WHEN SuppliedCode IN 
-					( SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-i') AND [Version] = 1 ) THEN 1 ELSE 0 END,
-		[diabetes_type_ii_Code] = CASE WHEN SuppliedCode IN 
-					( SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-ii') AND [Version] = 1 ) THEN 1 ELSE 0 END
-
+		SuppliedCode
 INTO #diabetes2_diagnoses
 FROM [RLS].[vw_GP_Events] gp
 LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
@@ -74,6 +69,7 @@ LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE (SuppliedCode IN 
 	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-ii') AND [Version] = 1)) 
     AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+	AND gp.FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #exclusions)
 	AND (gp.EventDate) <= '2019-07-09'
 	AND DATEDIFF(YEAR, yob.YearOfBirth, '2019-07-09') >= 18
 
