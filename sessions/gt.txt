@@ -275,3 +275,16 @@ Attempted to find the location of information related to project no.1 (Grant), i
 
 03/11/21
 - feasibility checks of research questions for GMCR Sandpit
+
+04/11/21
+- investigating completeness of secondary care reasonforadmission, per tenancy
+
+05/11/21 
+- testing new broad meds codesets for RQ32: cardiovascular, cns, and endocrine
+
+06/11/21
+- investigating repeat prescriptions in GP Medications table - different source tables but same record
+
+24/11/21
+- excluding repeat medications from RQ32 medications data file
+- final checks of RQ32 output files 
