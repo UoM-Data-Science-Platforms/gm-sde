@@ -9,8 +9,6 @@
 -- AdmissionDate (DD-MM-YYYY)
 -- DischargeDate (DD-MM-YYYY)
 -- AdmissionType
--- CovidAdmission
--- Hospital - ANONYMOUS
 
 -- Set the start date
 DECLARE @StartDate datetime;
@@ -132,7 +130,6 @@ SELECT
 	l.AdmissionDate,
 	l.DischargeDate,
 	ty.AdmissionType
-    --c.CovidHealthcareUtilisation
 FROM #MainCohort m 
 INNER JOIN #LengthOfStay l ON m.FK_Patient_Link_ID = l.FK_Patient_Link_ID
 INNER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND c.AdmissionDate = l.AdmissionDate AND c.AcuteProvider = l.AcuteProvider

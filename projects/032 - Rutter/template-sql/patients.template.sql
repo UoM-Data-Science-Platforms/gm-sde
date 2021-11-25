@@ -241,7 +241,7 @@ FROM #MainCohort m
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #HistoryOfLTCs ltc on ltc.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #EarliestDiagnosis_T2D t2d on t2d.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-WHERE M.FK_Patient_Link_ID in (SELECT FK_Patient_Link_ID FROM #Patients)
+WHERE m.FK_Patient_Link_ID in (SELECT FK_Patient_Link_ID FROM #Patients)
 --UNION
 ----patients in matched cohort
 --SELECT	 PatientId = m.FK_Patient_Link_ID

@@ -9,7 +9,7 @@
 
 -- OUTPUT: Data with the following fields
 -- 	-   PatientId (int)
---	-	MedicationDescription
+--	-	MedicationCategory
 --	-	PrescriptionDate (YYYY-MM-DD)
 
 -- Set the start date
@@ -117,33 +117,42 @@ SELECT MatchingPatientId FROM #CohortStore;
 
 */
 
+
+-- FIX ISSUE WITH DUPLICATE MEDICATIONS, CAUSED BY SOME CODES APPEARING MULTIPLE TIMES IN #VersionedCodeSets and #VersionedSnomedSets
+
+IF OBJECT_ID('tempdb..#VersionedCodeSets_1') IS NOT NULL DROP TABLE #VersionedCodeSets_1;
+SELECT DISTINCT FK_Reference_Coding_ID, Concept, [Version] INTO #VersionedCodeSets_1 FROM #VersionedCodeSets
+
+IF OBJECT_ID('tempdb..#VersionedSnomedSets_1') IS NOT NULL DROP TABLE #VersionedSnomedSets_1;
+SELECT DISTINCT FK_Reference_SnomedCT_ID, Concept, [Version] INTO #VersionedSnomedSets_1 FROM #VersionedSnomedSets
+
+
 -- RX OF MEDS SINCE 09.07.19 FOR PATIENTS WITH T2D, WITH A FLAG FOR THE CATEGORY (CARDIOVASCULAR, ENDOCRINE, CNS)
 
 IF OBJECT_ID('tempdb..#meds') IS NOT NULL DROP TABLE #meds;
 SELECT 
 	 m.FK_Patient_Link_ID,
 	 CAST(MedicationDate AS DATE) as PrescriptionDate,
-	 [concept] = CASE WHEN s.[concept] IS NOT NULL THEN s.[concept] ELSE c.[concept] END,
-	 [description] = CASE WHEN s.[description] IS NOT NULL THEN s.[description] ELSE c.[description] END
+	 [concept] = CASE WHEN s.[concept] IS NOT NULL THEN s.[concept] ELSE c.[concept] END
 INTO #meds
 FROM RLS.vw_GP_Medications m
-LEFT OUTER JOIN #VersionedSnomedSets s ON s.FK_Reference_SnomedCT_ID = m.FK_Reference_SnomedCT_ID
-LEFT OUTER JOIN #VersionedCodeSets c ON c.FK_Reference_Coding_ID = m.FK_Reference_Coding_ID
+LEFT OUTER JOIN #VersionedSnomedSets_1 s ON s.FK_Reference_SnomedCT_ID = m.FK_Reference_SnomedCT_ID
+LEFT OUTER JOIN #VersionedCodeSets_1 c ON c.FK_Reference_Coding_ID = m.FK_Reference_Coding_ID
 WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #diabetes2_diagnoses)
 AND m.MedicationDate > '2019-07-09' 
-AND (m.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets) OR
-	m.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets))
+AND (m.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets_1) OR
+	m.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets_1))
 AND UPPER(SourceTable) NOT LIKE '%REPMED%'  -- exclude duplicate prescriptions 
 AND RepeatMedicationFlag = 'N' 				-- exclude duplicate prescriptions 
 
 -- Produce final table of all medication prescriptions for T2D patients
-
 SELECT PatientId = FK_Patient_Link_ID, 
 	MedicationCategory = concept,
 	PrescriptionDate
 FROM #meds
 ORDER BY PatientId,
-	[description],
+	concept,
 	PrescriptionDate
+
 
 

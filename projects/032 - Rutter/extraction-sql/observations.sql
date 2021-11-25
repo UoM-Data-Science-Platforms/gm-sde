@@ -759,78 +759,51 @@ SELECT MatchingPatientId FROM #CohortStore;
 
 -- Get observation values for the cohort
 IF OBJECT_ID('tempdb..#observations') IS NOT NULL DROP TABLE #observations;
-SELECT DISTINCT
+SELECT 
 	FK_Patient_Link_ID,
 	CAST(EventDate AS DATE) AS EventDate,
 	Concept = CASE WHEN sn.Concept IS NOT NULL THEN sn.Concept ELSE co.Concept END,
-	[Description] =  CASE WHEN sn.[description] IS NOT NULL THEN sn.[description] ELSE co.[description] END,
 	[Version] =  CASE WHEN sn.[Version] IS NOT NULL THEN sn.[Version] ELSE co.[Version] END,
-	[Value] 
+	[Value],
+	[Units]
 INTO #observations
 FROM RLS.vw_GP_Events gp
 LEFT JOIN #VersionedSnomedSets sn ON sn.FK_Reference_SnomedCT_ID = gp.FK_Reference_SnomedCT_ID
 LEFT JOIN #VersionedCodeSets co ON co.FK_Reference_Coding_ID = gp.FK_Reference_Coding_ID
-WHERE (
-	gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE 
-			(Concept IN ('hba1c') 							AND [Version]=2) OR
-			(Concept IN ('cholesterol') 					AND [Version]=2) OR
-			(Concept IN ('hdl-cholesterol') 		 		AND [Version]=1) OR
-			(Concept IN ('ldl-cholesterol') 		 		AND [Version]=1) OR
-			(Concept IN ('egfr') 					 		AND [Version]=1) OR
-			(Concept IN ('creatinine') 				 		AND [Version]=1) OR
-			(Concept IN ('urinary-albumin-creatinine-ratio')AND [Version]=1) OR
-			(Concept IN ('systolic-blood-pressure')  		AND [Version]=1) OR
-			(Concept IN ('diastolic-blood-pressure') 		AND [Version]=1) OR
-			(Concept IN ('triglycerides') 			 		AND [Version]=1) OR
-			(Concept IN ('bmi') 					 		AND [Version]=2) OR
-			(Concept IN ('height') 					 		AND [Version]=1) OR
-			(Concept IN ('weight') 					 		AND [Version]=1) OR
-			(Concept IN ('smoking-status-current') 	 		AND [Version]=1) OR
-			(Concept IN ('smoking-status-currently-not') 	AND [Version]=1) OR
-			(Concept IN ('smoking-status-never') 	 		AND [Version]=1) OR
-			(Concept IN ('smoking-status-passive') 	 		AND [Version]=1) OR
-			(Concept IN ('smoking-status-ex-trivial') 	 	AND [Version]=1) OR
-			(Concept IN ('smoking-status-trivial') 	 		AND [Version]=1) 
-) OR
-  gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE 
-			(Concept IN ('hba1c') 							AND [Version]=2) OR
-			(Concept IN ('cholesterol') 					AND [Version]=2) OR
-			(Concept IN ('hdl-cholesterol') 		 		AND [Version]=1) OR
-			(Concept IN ('ldl-cholesterol') 		 		AND [Version]=1) OR
-			(Concept IN ('egfr') 					 		AND [Version]=1) OR
-			(Concept IN ('creatinine') 				 		AND [Version]=1) OR
-			(Concept IN ('urinary-albumin-creatinine-ratio')AND [Version]=1) OR
-			(Concept IN ('systolic-blood-pressure')  		AND [Version]=1) OR
-			(Concept IN ('diastolic-blood-pressure') 		AND [Version]=1) OR
-			(Concept IN ('triglycerides') 			 		AND [Version]=1) OR
-			(Concept IN ('bmi') 					 		AND [Version]=2) OR
-			(Concept IN ('height') 					 		AND [Version]=1) OR
-			(Concept IN ('weight') 					 		AND [Version]=1) OR
-			(Concept IN ('smoking-status-current') 	 		AND [Version]=1) OR
-			(Concept IN ('smoking-status-currently-not') 	AND [Version]=1) OR
-			(Concept IN ('smoking-status-never') 	 		AND [Version]=1) OR
-			(Concept IN ('smoking-status-passive') 	 		AND [Version]=1) OR
-			(Concept IN ('smoking-status-ex-trivial') 	 	AND [Version]=1) OR
-			(Concept IN ('smoking-status-trivial') 	 		AND [Version]=1) 
-) )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #MainCohort)
-AND EventDate BETWEEN '2016-04-01' AND '2022-03-31'
+WHERE
+	(gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept NOT IN 
+	('polycystic-ovarian-syndrome', 'gestational-diabetes', 'diabetes-type-ii' )) OR
+    gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept NOT IN 
+	('polycystic-ovarian-syndrome', 'gestational-diabetes', 'diabetes-type-ii' )) )
+AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #MainCohort)
+AND EventDate BETWEEN '2016-04-01' AND '2022-03-31' 
 
-
--- SOME CODES EXIST IN SEVERAL CODE SETS, SO EXCLUDE THEM FROM THE SETS/VERSIONS THAT WE DON'T WANT
--- e.g. serum HDL cholesterol appears in cholesterol v1 code set, which we don't want, but we do want the code as part of the hdl-cholesterol code set.
+-- WHERE CODES EXIST IN BOTH VERSIONS OF THE CODE SET (OR IN OTHER SIMILAR CODE SETS), THERE WILL BE DUPLICATES, SO EXCLUDE THEM FROM THE SETS/VERSIONS THAT WE DON'T WANT 
 
 IF OBJECT_ID('tempdb..#all_observations') IS NOT NULL DROP TABLE #all_observations;
 select 
-	FK_Patient_Link_ID, CAST(EventDate AS DATE) EventDate, Concept, [Value], [Version]
+	FK_Patient_Link_ID, CAST(EventDate AS DATE) EventDate, Concept, [Value], [Units], [Version]
 into #all_observations
 from #observations
 except
-select FK_Patient_Link_ID, EventDate, Concept, [Value], [Version] from #observations 
+select FK_Patient_Link_ID, EventDate, Concept, [Value], [Units], [Version] from #observations 
 where 
-	(Concept = 'cholesterol' and [Version] <> 2) OR
-	(Concept = 'hba1c' and [Version] <> 2) OR
-	(Concept = 'bmi' and [Version] <> 2) 
+	(Concept = 'cholesterol' and [Version] <> 2) OR -- e.g. serum HDL cholesterol appears in cholesterol v1 code set, which we don't want, but we do want the code as part of the hdl-cholesterol code set.
+	(Concept = 'hba1c' and [Version] <> 2) OR -- e.g. hba1c level appears twice with same value: from version 1 and version 2. We only want version 2 so exclude any others.
+	(Concept = 'bmi' and [Version] <> 2) -- e.g. BMI appears appears twice with same value: from version 1 and version 2. We only want version 2 so exclude any others.
+
+-- REMOVE USELESS OBSERVATIONS WITH NO VALUE
+
+IF OBJECT_ID('tempdb..#observations_final') IS NOT NULL DROP TABLE #observations_final;
+SELECT FK_Patient_Link_ID,
+	EventDate,
+	Concept,
+	[Value] = CASE WHEN Concept LIKE '%smoking%' THEN NULL ELSE [Value] END, -- sometimes there are values like '0.00000' for smoking. simplify and standardise by putting NULL.
+	[Units]
+INTO #observations_final
+FROM #all_observations
+WHERE ([Value] != '0' AND [Value] IS NOT NULL) -- REMOVE ANY OBSERVATIONS WHERE THE VALUE IS NULL OR ZERO (EXCEPT SMOKING ONES)
+		OR Concept IN ('smoking-status-current', 'smoking-status-currently-not', 'smoking-status-never', 'smoking-status-passive', 'smoking-status-ex-trivial', 'smoking-status-trivial') 
 
 -- BRING TOGETHER FOR FINAL OUTPUT
 
@@ -840,23 +813,19 @@ SELECT
 	,TestName = o.Concept
 	,TestDate = o.EventDate
 	,TestResult = o.[Value]
+	,TestUnit = o.[Units]
 FROM #MainCohort m
-LEFT JOIN #all_observations o ON o.FK_Patient_Link_ID = m.FK_Patient_Link_ID 
--- REMOVE ANY OBSERVATIONS WHERE THE VALUE IS NULL (EXCEPT SMOKING ONES)
-WHERE [Value] IS NOT NULL OR Concept IN 
-						('smoking-status-current', 'smoking-status-currently-not', 'smoking-status-never', 'smoking-status-passive', 'smoking-status-ex-trivial', 'smoking-status-trivial') 
+LEFT JOIN #observations_final o ON o.FK_Patient_Link_ID = m.FK_Patient_Link_ID 
+ORDER BY m.FK_Patient_Link_ID, TestDate, TestName
 /* UNION
 -- patients in matched cohort
 SELECT	 
 	PatientId = m.FK_Patient_Link_ID
 	,m.PatientWhoIsMatched AS MainCohortMatchedPatientId
-	TestName = o.Concept, 
-	TestDate = o.EventDate,
-	TestResult = o.[Value]
+	,TestName = o.Concept
+	,TestDate = o.EventDate
+	,TestResult = o.[Value]
+	,TestUnit = o.[Units]
 FROM #MatchedCohort m
-LEFT JOIN #all_observations o ON o.FK_Patient_Link_ID = m.FK_Patient_Link_ID 
--- REMOVE ANY OBSERVATIONS WHERE THE VALUE IS NULL (EXCEPT SMOKING ONES)
-WHERE [Value] IS NOT NULL OR Concept IN 
-						('smoking-status-current', 'smoking-status-currently-not', 'smoking-status-never', 'smoking-status-passive', 'smoking-status-ex-trivial', 'smoking-status-trivial') 
-
+LEFT JOIN #observations_final o ON o.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 */
