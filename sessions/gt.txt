@@ -288,3 +288,7 @@ Attempted to find the location of information related to project no.1 (Grant), i
 24/11/21
 - excluding repeat medications from RQ32 medications data file
 - final checks of RQ32 output files 
+
+25/11/21
+- fixing issue with code taking too long to run
+- responding to Richard's minor feedback on RQ32 scripts 
