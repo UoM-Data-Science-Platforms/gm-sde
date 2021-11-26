@@ -550,2128 +550,2128 @@ All code sets required for this analysis are listed here. Individual lists for e
 
 | Clinical concept | Terminology | Code | Description |
 | ---------------- | ----------- | ---- | ----------- |
-|recurrent-depressive v1|ctv3|E113.|Recurrent major depressive episode|
-|recurrent-depressive v1|ctv3|E1130|Recurrent major depressive episodes, unspecified|
-|recurrent-depressive v1|ctv3|E1131|Recurrent major depressive episodes, mild|
-|recurrent-depressive v1|ctv3|E1132|Recurrent major depressive episodes, moderate|
-|recurrent-depressive v1|ctv3|E1133|Recurrent major depressive episodes, severe, without mention of psychosis|
-|recurrent-depressive v1|ctv3|E1134|Recurrent major depressive episodes, severe, with psychosis|
-|recurrent-depressive v1|ctv3|E1135|Recurrent major depressive episodes, in partial or unspecified remission|
-|recurrent-depressive v1|ctv3|E1136|Recurrent major depressive episodes, in full remission|
-|recurrent-depressive v1|ctv3|E1137|Recurrent depression|
-|recurrent-depressive v1|ctv3|E113z|Recurr. major depression NOS|
-|recurrent-depressive v1|ctv3|E113z|Recurrent major depressive episode NOS|
-|recurrent-depressive v1|ctv3|E1153|Bipolar affective disorder, currently depressed, severe, without mention of psychosis|
-|recurrent-depressive v1|ctv3|E1154|Bipolar affective disorder, currently depressed, severe, with psychosis|
-|recurrent-depressive v1|ctv3|Eu314|"[X]Bipol aff disord, curr epis sev depress, no psychot symp"|
-|recurrent-depressive v1|ctv3|Eu322|[X] Severe depressive episode without psychotic symptoms: (& [single episode agitated depression] or [single episode major depression] or [single episode vital depression])|
-|recurrent-depressive v1|ctv3|Eu322|[X] Single episode major depression without psychotic symptoms|
-|recurrent-depressive v1|ctv3|Eu322|[X]Severe depressive episode without psychotic symptoms|
-|recurrent-depressive v1|ctv3|Eu33.|[X]Recurrent episodes of psychogenic depression|
-|recurrent-depressive v1|ctv3|Eu330|[X]Recurrent depressive disorder, current episode mild|
-|recurrent-depressive v1|ctv3|Eu331|[X]Recurrent depressive disorder, current episode moderate|
-|recurrent-depressive v1|ctv3|Eu332|[X]Vital depression, recurrent without psychotic symptoms|
-|recurrent-depressive v1|ctv3|Eu333|[X]Recurrent severe episodes of reactive depressive psychosis|
-|recurrent-depressive v1|ctv3|Eu334|[X]Recurrent depressive disorder, currently in remission|
-|recurrent-depressive v1|ctv3|Eu33y|[X]Other recurrent depressive disorders|
-|recurrent-depressive v1|ctv3|Eu33z|[X]Recurrent depressive disorder, unspecified|
-|recurrent-depressive v1|ctv3|Eu3y1|[X]Recurrent brief depressive episodes|
-|recurrent-depressive v1|ctv3|Xa0wV|Recurrent brief depressive disorder|
-|recurrent-depressive v1|ctv3|XaCHo|[X] Manic-depressive psychosis, depressed type without psychotic symptoms|
-|recurrent-depressive v1|ctv3|XaCHs|[X] Single episode major depression without psychotic symptoms|
-|recurrent-depressive v1|ctv3|XaCIu|Severe depression|
-|recurrent-depressive v1|ctv3|XagU1|Recurrent reactive depressive episodes, severe, with psychosis|
-|recurrent-depressive v1|ctv3|XE1Y1|Recurrent major depressive episodes|
-|recurrent-depressive v1|ctv3|XE1Zc|[X]Recurrent depressive disorder|
-|recurrent-depressive v1|ctv3|XE1Zd|[X]Recurrent depressive disorder, current episode severe without psychotic symptoms|
-|recurrent-depressive v1|ctv3|XE1Ze|[X]Recurrent depressive disorder, current episode severe with psychotic symptoms|
-|recurrent-depressive v1|ctv3|XE1Zf|[X]Recurrent depressive disorder, unspecified|
-|recurrent-depressive v1|ctv3|XE1ZY|[X]Severe depressive episode without psychotic symptoms|
-|recurrent-depressive v1|ctv3|XE1ZZ|[X]Severe depressive episode with psychotic symptoms|
-|recurrent-depressive v1|ctv3|XSGon|[X]Major depression, severe with psychotic symptoms|
-|recurrent-depressive v1|ctv3|XSGon|Severe major depression with psychotic features|
-|recurrent-depressive v1|ctv3|XagU1|Recurrent reactive depressive episodes, severe, with psychosis|
-|recurrent-depressive v1|ctv3|XaX54|Recurrent major depressive episodes, severe, with psychosis, psychosis in remission|
-|recurrent-depressive v1|ctv3|XM1GC|Endogenous depression - recurrent|
-|recurrent-depressive v1|ctv3|XSEGJ|Major depressive disorder|
-|recurrent-depressive v1|ctv3|XSEGJ|Major depression|
-|recurrent-depressive v1|ctv3|XSGok|Mild major depression|
-|recurrent-depressive v1|ctv3|XSGol|Moderate major depression|
-|recurrent-depressive v1|ctv3|XSGom|Severe major depression without psychotic features|
+|recurrent-depressive v1|ctv3|E113.|Recurrent major depressive episode|
+|recurrent-depressive v1|ctv3|E1130|Recurrent major depressive episodes, unspecified|
+|recurrent-depressive v1|ctv3|E1131|Recurrent major depressive episodes, mild|
+|recurrent-depressive v1|ctv3|E1132|Recurrent major depressive episodes, moderate|
+|recurrent-depressive v1|ctv3|E1133|Recurrent major depressive episodes, severe, without mention of psychosis|
+|recurrent-depressive v1|ctv3|E1134|Recurrent major depressive episodes, severe, with psychosis|
+|recurrent-depressive v1|ctv3|E1135|Recurrent major depressive episodes, in partial or unspecified remission|
+|recurrent-depressive v1|ctv3|E1136|Recurrent major depressive episodes, in full remission|
+|recurrent-depressive v1|ctv3|E1137|Recurrent depression|
+|recurrent-depressive v1|ctv3|E113z|Recurr. major depression NOS|
+|recurrent-depressive v1|ctv3|E113z|Recurrent major depressive episode NOS|
+|recurrent-depressive v1|ctv3|E1153|Bipolar affective disorder, currently depressed, severe, without mention of psychosis|
+|recurrent-depressive v1|ctv3|E1154|Bipolar affective disorder, currently depressed, severe, with psychosis|
+|recurrent-depressive v1|ctv3|Eu314|"[X]Bipol aff disord, curr epis sev depress, no psychot symp"|
+|recurrent-depressive v1|ctv3|Eu322|[X] Severe depressive episode without psychotic symptoms: (& [single episode agitated depression] or [single episode major depression] or [single episode vital depression])|
+|recurrent-depressive v1|ctv3|Eu322|[X] Single episode major depression without psychotic symptoms|
+|recurrent-depressive v1|ctv3|Eu322|[X]Severe depressive episode without psychotic symptoms|
+|recurrent-depressive v1|ctv3|Eu33.|[X]Recurrent episodes of psychogenic depression|
+|recurrent-depressive v1|ctv3|Eu330|[X]Recurrent depressive disorder, current episode mild|
+|recurrent-depressive v1|ctv3|Eu331|[X]Recurrent depressive disorder, current episode moderate|
+|recurrent-depressive v1|ctv3|Eu332|[X]Vital depression, recurrent without psychotic symptoms|
+|recurrent-depressive v1|ctv3|Eu333|[X]Recurrent severe episodes of reactive depressive psychosis|
+|recurrent-depressive v1|ctv3|Eu334|[X]Recurrent depressive disorder, currently in remission|
+|recurrent-depressive v1|ctv3|Eu33y|[X]Other recurrent depressive disorders|
+|recurrent-depressive v1|ctv3|Eu33z|[X]Recurrent depressive disorder, unspecified|
+|recurrent-depressive v1|ctv3|Eu3y1|[X]Recurrent brief depressive episodes|
 |recurrent-depressive v1|ctv3|Xa0wV|Recurrent brief depressive disorder|
-|recurrent-depressive v1|emis|EMISICD10|F3300|Recurrent depressive disorder, current episode mild, without somatic syndrome|
-|recurrent-depressive v1|emis|EMISICD10|F3301|Recurrent depressive disorder, current episode mild, with somatic syndrome|
-|recurrent-depressive v1|emis|EMISICD10|F3310|Recurrent depressive disorder, current episode moderate, without somatic syndrome|
-|recurrent-depressive v1|emis|EMISICD10|F3311|Recurrent depressive disorder, current episode moderate, with somatic syndrome|
-|recurrent-depressive v1|readv2|E113.00|Recurrent major depressive episode|
-|recurrent-depressive v1|readv2|E113.11|Endogenous depression - recurrent|
-|recurrent-depressive v1|readv2|E113000|"Recurrent major depressive episodes, unspecified"|
-|recurrent-depressive v1|readv2|E113100|"Recurrent major depressive episodes, mild"|
-|recurrent-depressive v1|readv2|E113200|"Recurrent major depressive episodes, moderate"|
-|recurrent-depressive v1|readv2|E113300|"Recurrent major depressive episodes, severe, without mention of psychosis"|
-|recurrent-depressive v1|readv2|E113400|"Recurrent major depressive episodes, severe, with psychosis"|
-|recurrent-depressive v1|readv2|E113500|"Recurrent major depressive episodes, in partial or unspecified remission"|
-|recurrent-depressive v1|readv2|E113600|"Recurrent major depressive episodes, in full remission"|
-|recurrent-depressive v1|readv2|E113700|Recurrent depression|
-|recurrent-depressive v1|readv2|E113z00|Recurrent major depressive episode NOS|
-|recurrent-depressive v1|readv2|E115300|"Bipolar affect disord, now depressed, severe, no psychosis"|
-|recurrent-depressive v1|readv2|E115400|"Bipolar affect disord, now depressed, severe with psychosis"|
-|recurrent-depressive v1|readv2|Eu31400|"[X]Bipol aff disord, curr epis sev depress, no psychot symp"|
-|recurrent-depressive v1|readv2|Eu31500|[X]Bipolar affect dis cur epi severe depres with psyc symp|
-|recurrent-depressive v1|readv2|Eu322|[X]Severe depressive episode without psychotic symptoms|
-|recurrent-depressive v1|readv2|Eu32z00|[X]Depression NOS|
-|recurrent-depressive v1|readv2|Eu32z00|[X]Depressive disorder NOS|
-|recurrent-depressive v1|readv2|Eu32z00|[X]Depressive episode, unspecified|
-|recurrent-depressive v1|readv2|Eu32z00|[X]Prolonged single episode of reactive depression|
-|recurrent-depressive v1|readv2|Eu34100|[X]Persistant anxiety depression|
-|recurrent-depressive v1|readv2|Eu32600|[X]Major depression, moderately severe|
-|recurrent-depressive v1|readv2|Eu32700|[X]Major depression, severe without psychotic symptoms|
-|recurrent-depressive v1|readv2|Eu32800|[X]Major depression, severe with psychotic symptoms|
-|recurrent-depressive v1|readv2|Eu32A00|[X]Recurrent major depressive episodes, severe, with psychosis, psychosis in remission|
-|recurrent-depressive v1|readv2|Eu33.00|[X]Recurrent depressive disorder|
-|recurrent-depressive v1|readv2|Eu33.11|[X]Recurrent episodes of depressive reaction|
-|recurrent-depressive v1|readv2|Eu33.12|[X]Recurrent episodes of psychogenic depression|
-|recurrent-depressive v1|readv2|Eu33.13|[X]Recurrent episodes of reactive depression|
-|recurrent-depressive v1|readv2|Eu33000|[X]Recurrent depressive disorder, current episode mild|
-|recurrent-depressive v1|readv2|Eu33100|[X]Recurrent depressive disorder, current episode moderate|
-|recurrent-depressive v1|readv2|Eu33200|[X]Recurrent depressive disorder, current episode severe without psychotic symptoms|
-|recurrent-depressive v1|readv2|Eu33211|[X]Endogenous depression without psychotic symptoms|
-|recurrent-depressive v1|readv2|Eu33212|[X]Major depression, recurrent without psychotic symptoms|
-|recurrent-depressive v1|readv2|Eu33214|[X]Vital depression, recurrent without psychotic symptoms|
-|recurrent-depressive v1|readv2|Eu33300|[X]Recurrent depressive disorder, current episode severe with psychotic symptoms|
-|recurrent-depressive v1|readv2|Eu33311|[X]Endogenous depression with psychotic symptoms|
-|recurrent-depressive v1|readv2|Eu33313|[X]Recurrent severe episodes of major depression with psychotic symptoms|
-|recurrent-depressive v1|readv2|Eu33314|[X]Recurrent severe episodes of psychogenic depressive psychosis|
-|recurrent-depressive v1|readv2|Eu33315|[X]Recurrent severe episodes of psychotic depression|
-|recurrent-depressive v1|readv2|Eu33316|[X]Recurrent severe episodes of reactive depressive psychosis|
-|recurrent-depressive v1|readv2|Eu33400|[X]Recurrent depressive disorder, currently in remission|
-|recurrent-depressive v1|readv2|Eu33y00|[X]Other recurrent depressive disorders|
-|recurrent-depressive v1|readv2|Eu33z00|[X]Recurrent depressive disorder, unspecified|
-|recurrent-depressive v1|readv2|Eu3y111|[X]Recurrent brief depressive episodes|
-|recurrent-depressive v1|snomed|12969000|"Severe bipolar II disorder, most recent episode major depressive, in full remission (disorder)"|
-|recurrent-depressive v1|snomed|30520009|"Severe bipolar II disorder, most recent episode major depressive with psychotic features (disorder)"|
-|recurrent-depressive v1|snomed|35722002|"Severe bipolar II disorder, most recent episode major depressive, in remission (disorder)"|
-|recurrent-depressive v1|snomed|35846004|"Moderate bipolar II disorder, most recent episode major depressive (disorder)"|
-|recurrent-depressive v1|snomed|67002003|"Severe bipolar II disorder, most recent episode major depressive, in partial remission (disorder)"|
-|recurrent-depressive v1|snomed|1196001|"Chronic bipolar II disorder, most recent episode major depressive (disorder)"|
-|recurrent-depressive v1|snomed|20960007|"Severe bipolar II disorder, most recent episode major depressive with psychotic features, mood-incongruent (disorder)"|
-|recurrent-depressive v1|snomed|16295005|"Bipolar II disorder, most recent episode major depressive (disorder)"|
-|recurrent-depressive v1|snomed|81319007|"Severe bipolar II disorder, most recent episode major depressive without psychotic features (disorder)"|
-|recurrent-depressive v1|snomed|19300006|"Severe bipolar II disorder, most recent episode major depressive with psychotic features, mood-congruent (disorder)"|
-|recurrent-depressive v1|snomed|71294008|"Mild bipolar II disorder, most recent episode major depressive (disorder)"|
-|recurrent-depressive v1|snomed|34315001|"Bipolar II disorder, most recent episode major depressive with melancholic features (disorder)"|
-|recurrent-depressive v1|snomed|22407005|"Bipolar II disorder, most recent episode major depressive with catatonic features (disorder)"|
-|recurrent-depressive v1|snomed|43568002|"Bipolar II disorder, most recent episode major depressive with atypical features (disorder)"|
-|recurrent-depressive v1|snomed|40379007|Recurrent depressive disorder, current episode mild|
-|recurrent-depressive v1|snomed|18818009|Recurrent depressive disorder, current episode moderate|
-|recurrent-depressive v1|snomed|231498003|Recurrent depressive disorder, current episode severe without ps|
-|recurrent-depressive v1|snomed|28475009|Recurrent depressive disorder, current episode severe with psych|
-|recurrent-depressive v1|snomed|68019004|Recurrent depressive disorder, currently in remission|
+|recurrent-depressive v1|ctv3|XaCHo|[X] Manic-depressive psychosis, depressed type without psychotic symptoms|
+|recurrent-depressive v1|ctv3|XaCHs|[X] Single episode major depression without psychotic symptoms|
+|recurrent-depressive v1|ctv3|XaCIu|Severe depression|
+|recurrent-depressive v1|ctv3|XagU1|Recurrent reactive depressive episodes, severe, with psychosis|
+|recurrent-depressive v1|ctv3|XE1Y1|Recurrent major depressive episodes|
+|recurrent-depressive v1|ctv3|XE1Zc|[X]Recurrent depressive disorder|
+|recurrent-depressive v1|ctv3|XE1Zd|[X]Recurrent depressive disorder, current episode severe without psychotic symptoms|
+|recurrent-depressive v1|ctv3|XE1Ze|[X]Recurrent depressive disorder, current episode severe with psychotic symptoms|
+|recurrent-depressive v1|ctv3|XE1Zf|[X]Recurrent depressive disorder, unspecified|
+|recurrent-depressive v1|ctv3|XE1ZY|[X]Severe depressive episode without psychotic symptoms|
+|recurrent-depressive v1|ctv3|XE1ZZ|[X]Severe depressive episode with psychotic symptoms|
+|recurrent-depressive v1|ctv3|XSGon|[X]Major depression, severe with psychotic symptoms|
+|recurrent-depressive v1|ctv3|XSGon|Severe major depression with psychotic features|
+|recurrent-depressive v1|ctv3|XagU1|Recurrent reactive depressive episodes, severe, with psychosis|
+|recurrent-depressive v1|ctv3|XaX54|Recurrent major depressive episodes, severe, with psychosis, psychosis in remission|
+|recurrent-depressive v1|ctv3|XM1GC|Endogenous depression - recurrent|
+|recurrent-depressive v1|ctv3|XSEGJ|Major depressive disorder|
+|recurrent-depressive v1|ctv3|XSEGJ|Major depression|
+|recurrent-depressive v1|ctv3|XSGok|Mild major depression|
+|recurrent-depressive v1|ctv3|XSGol|Moderate major depression|
+|recurrent-depressive v1|ctv3|XSGom|Severe major depression without psychotic features|
+|recurrent-depressive v1|ctv3|Xa0wV|Recurrent brief depressive disorder|
+|recurrent-depressive v1|emis|EMISICD10|F3300|Recurrent depressive disorder, current episode mild, without somatic syndrome|
+|recurrent-depressive v1|emis|EMISICD10|F3301|Recurrent depressive disorder, current episode mild, with somatic syndrome|
+|recurrent-depressive v1|emis|EMISICD10|F3310|Recurrent depressive disorder, current episode moderate, without somatic syndrome|
+|recurrent-depressive v1|emis|EMISICD10|F3311|Recurrent depressive disorder, current episode moderate, with somatic syndrome|
+|recurrent-depressive v1|readv2|E113.00|Recurrent major depressive episode|
+|recurrent-depressive v1|readv2|E113.11|Endogenous depression - recurrent|
+|recurrent-depressive v1|readv2|E113000|"Recurrent major depressive episodes, unspecified"|
+|recurrent-depressive v1|readv2|E113100|"Recurrent major depressive episodes, mild"|
+|recurrent-depressive v1|readv2|E113200|"Recurrent major depressive episodes, moderate"|
+|recurrent-depressive v1|readv2|E113300|"Recurrent major depressive episodes, severe, without mention of psychosis"|
+|recurrent-depressive v1|readv2|E113400|"Recurrent major depressive episodes, severe, with psychosis"|
+|recurrent-depressive v1|readv2|E113500|"Recurrent major depressive episodes, in partial or unspecified remission"|
+|recurrent-depressive v1|readv2|E113600|"Recurrent major depressive episodes, in full remission"|
+|recurrent-depressive v1|readv2|E113700|Recurrent depression|
+|recurrent-depressive v1|readv2|E113z00|Recurrent major depressive episode NOS|
+|recurrent-depressive v1|readv2|E115300|"Bipolar affect disord, now depressed, severe, no psychosis"|
+|recurrent-depressive v1|readv2|E115400|"Bipolar affect disord, now depressed, severe with psychosis"|
+|recurrent-depressive v1|readv2|Eu31400|"[X]Bipol aff disord, curr epis sev depress, no psychot symp"|
+|recurrent-depressive v1|readv2|Eu31500|[X]Bipolar affect dis cur epi severe depres with psyc symp|
+|recurrent-depressive v1|readv2|Eu322|[X]Severe depressive episode without psychotic symptoms|
+|recurrent-depressive v1|readv2|Eu32z00|[X]Depression NOS|
+|recurrent-depressive v1|readv2|Eu32z00|[X]Depressive disorder NOS|
+|recurrent-depressive v1|readv2|Eu32z00|[X]Depressive episode, unspecified|
+|recurrent-depressive v1|readv2|Eu32z00|[X]Prolonged single episode of reactive depression|
+|recurrent-depressive v1|readv2|Eu34100|[X]Persistant anxiety depression|
+|recurrent-depressive v1|readv2|Eu32600|[X]Major depression, moderately severe|
+|recurrent-depressive v1|readv2|Eu32700|[X]Major depression, severe without psychotic symptoms|
+|recurrent-depressive v1|readv2|Eu32800|[X]Major depression, severe with psychotic symptoms|
+|recurrent-depressive v1|readv2|Eu32A00|[X]Recurrent major depressive episodes, severe, with psychosis, psychosis in remission|
+|recurrent-depressive v1|readv2|Eu33.00|[X]Recurrent depressive disorder|
+|recurrent-depressive v1|readv2|Eu33.11|[X]Recurrent episodes of depressive reaction|
+|recurrent-depressive v1|readv2|Eu33.12|[X]Recurrent episodes of psychogenic depression|
+|recurrent-depressive v1|readv2|Eu33.13|[X]Recurrent episodes of reactive depression|
+|recurrent-depressive v1|readv2|Eu33000|[X]Recurrent depressive disorder, current episode mild|
+|recurrent-depressive v1|readv2|Eu33100|[X]Recurrent depressive disorder, current episode moderate|
+|recurrent-depressive v1|readv2|Eu33200|[X]Recurrent depressive disorder, current episode severe without psychotic symptoms|
+|recurrent-depressive v1|readv2|Eu33211|[X]Endogenous depression without psychotic symptoms|
+|recurrent-depressive v1|readv2|Eu33212|[X]Major depression, recurrent without psychotic symptoms|
+|recurrent-depressive v1|readv2|Eu33214|[X]Vital depression, recurrent without psychotic symptoms|
+|recurrent-depressive v1|readv2|Eu33300|[X]Recurrent depressive disorder, current episode severe with psychotic symptoms|
+|recurrent-depressive v1|readv2|Eu33311|[X]Endogenous depression with psychotic symptoms|
+|recurrent-depressive v1|readv2|Eu33313|[X]Recurrent severe episodes of major depression with psychotic symptoms|
+|recurrent-depressive v1|readv2|Eu33314|[X]Recurrent severe episodes of psychogenic depressive psychosis|
+|recurrent-depressive v1|readv2|Eu33315|[X]Recurrent severe episodes of psychotic depression|
+|recurrent-depressive v1|readv2|Eu33316|[X]Recurrent severe episodes of reactive depressive psychosis|
+|recurrent-depressive v1|readv2|Eu33400|[X]Recurrent depressive disorder, currently in remission|
+|recurrent-depressive v1|readv2|Eu33y00|[X]Other recurrent depressive disorders|
+|recurrent-depressive v1|readv2|Eu33z00|[X]Recurrent depressive disorder, unspecified|
+|recurrent-depressive v1|readv2|Eu3y111|[X]Recurrent brief depressive episodes|
+|recurrent-depressive v1|snomed|12969000|"Severe bipolar II disorder, most recent episode major depressive, in full remission (disorder)"|
+|recurrent-depressive v1|snomed|30520009|"Severe bipolar II disorder, most recent episode major depressive with psychotic features (disorder)"|
+|recurrent-depressive v1|snomed|35722002|"Severe bipolar II disorder, most recent episode major depressive, in remission (disorder)"|
+|recurrent-depressive v1|snomed|35846004|"Moderate bipolar II disorder, most recent episode major depressive (disorder)"|
+|recurrent-depressive v1|snomed|67002003|"Severe bipolar II disorder, most recent episode major depressive, in partial remission (disorder)"|
+|recurrent-depressive v1|snomed|1196001|"Chronic bipolar II disorder, most recent episode major depressive (disorder)"|
+|recurrent-depressive v1|snomed|20960007|"Severe bipolar II disorder, most recent episode major depressive with psychotic features, mood-incongruent (disorder)"|
+|recurrent-depressive v1|snomed|16295005|"Bipolar II disorder, most recent episode major depressive (disorder)"|
+|recurrent-depressive v1|snomed|81319007|"Severe bipolar II disorder, most recent episode major depressive without psychotic features (disorder)"|
+|recurrent-depressive v1|snomed|19300006|"Severe bipolar II disorder, most recent episode major depressive with psychotic features, mood-congruent (disorder)"|
+|recurrent-depressive v1|snomed|71294008|"Mild bipolar II disorder, most recent episode major depressive (disorder)"|
+|recurrent-depressive v1|snomed|34315001|"Bipolar II disorder, most recent episode major depressive with melancholic features (disorder)"|
+|recurrent-depressive v1|snomed|22407005|"Bipolar II disorder, most recent episode major depressive with catatonic features (disorder)"|
+|recurrent-depressive v1|snomed|43568002|"Bipolar II disorder, most recent episode major depressive with atypical features (disorder)"|
+|recurrent-depressive v1|snomed|40379007|Recurrent depressive disorder, current episode mild|
+|recurrent-depressive v1|snomed|18818009|Recurrent depressive disorder, current episode moderate|
+|recurrent-depressive v1|snomed|231498003|Recurrent depressive disorder, current episode severe without ps|
+|recurrent-depressive v1|snomed|28475009|Recurrent depressive disorder, current episode severe with psych|
+|recurrent-depressive v1|snomed|68019004|Recurrent depressive disorder, currently in remission|
 |recurrent-depressive v1|snomed|191614009|Recurrent depressive disorder, unspecified|
-|schizophrenia-psychosis v1|ctv3|13Y2.|Schizophrenia association member|
-|schizophrenia-psychosis v1|ctv3|286..|Poor insight into psychotic condition|
-|schizophrenia-psychosis v1|ctv3|1BC..|Morbid jealousy|
-|schizophrenia-psychosis v1|ctv3|1B1E.|Hallucinations|
-|schizophrenia-psychosis v1|ctv3|1464|H/O: schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E0...|Organic psychotic condition|
-|schizophrenia-psychosis v1|ctv3|E00..|Senile and presenile organic psychotic conditions (& dementia)|
-|schizophrenia-psychosis v1|ctv3|E00y.|(Other senile and presenile organic psychoses) or (presbyophrenic psychosis)|
-|schizophrenia-psychosis v1|ctv3|E00z.|Senile or presenile psychoses NOS|
-|schizophrenia-psychosis v1|ctv3|E010.|Delirium tremens|
-|schizophrenia-psychosis v1|ctv3|E011.|Korsakoff psychosis|
-|schizophrenia-psychosis v1|ctv3|E0111|Korsakov's alcoholic psychosis with peripheral neuritis|
-|schizophrenia-psychosis v1|ctv3|E0112|Wernicke-Korsakov syndrome|
-|schizophrenia-psychosis v1|ctv3|E02..|Drug-induced psychosis|
-|schizophrenia-psychosis v1|ctv3|E021.|Drug-induced paranoia or hallucinatory states|
-|schizophrenia-psychosis v1|ctv3|E0210|Drug-induced paranoid state|
-|schizophrenia-psychosis v1|ctv3|E0211|Drug-induced hallucinosis|
-|schizophrenia-psychosis v1|ctv3|E021z|Drug-induced paranoia or hallucinatory state NOS|
-|schizophrenia-psychosis v1|ctv3|E02y.|Other drug psychoses|
-|schizophrenia-psychosis v1|ctv3|E02y0|Drug-induced delirium|
-|schizophrenia-psychosis v1|ctv3|E02y3|Drug-induced depressive state|
-|schizophrenia-psychosis v1|ctv3|E02y4|Drug-induced personality disorder|
-|schizophrenia-psychosis v1|ctv3|E02z.|Drug psychosis NOS|
-|schizophrenia-psychosis v1|ctv3|E03..|Transient organic psychoses|
-|schizophrenia-psychosis v1|ctv3|E03y.|Other transient organic psychoses|
-|schizophrenia-psychosis v1|ctv3|E03y0|Organic delusional disorder|
-|schizophrenia-psychosis v1|ctv3|E03y0|Paranoid organic state|
-|schizophrenia-psychosis v1|ctv3|E03y3|Unspecified puerperal psychosis|
-|schizophrenia-psychosis v1|ctv3|E03z.|Transient organic psychoses NOS|
-|schizophrenia-psychosis v1|ctv3|E04..|Other chronic organic psychoses|
-|schizophrenia-psychosis v1|ctv3|E04y.|Other specified chronic organic psychoses|
-|schizophrenia-psychosis v1|ctv3|E04z.|Chronic organic psychosis NOS|
-|schizophrenia-psychosis v1|ctv3|E0y..|Other specified organic psychoses|
-|schizophrenia-psychosis v1|ctv3|E0z..|Organic psychoses NOS|
-|schizophrenia-psychosis v1|ctv3|E1...|Non-organic psychoses|
-|schizophrenia-psychosis v1|ctv3|E100.|Schizophrenia simplex|
-|schizophrenia-psychosis v1|ctv3|E100.|Simple schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1000|Unspecified schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1001|Subchronic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1002|Chronic schizophrenic|
-|schizophrenia-psychosis v1|ctv3|E1003|Acute exacerbation of subchronic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1004|Acute exacerbation of chronic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1005|Schizophrenia in remission|
-|schizophrenia-psychosis v1|ctv3|E100z|Simple schizophrenia NOS|
-|schizophrenia-psychosis v1|ctv3|E101.|Disorganised schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E101.|Hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1010|Unspecified hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1011|Subchronic hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1012|Chronic hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1013|Acute exacerbation of subchronic hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1014|Acute exacerbation of chronic hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1015|Hebephrenic schizophrenia in remission|
-|schizophrenia-psychosis v1|ctv3|E101z|Hebephrenic schizophrenia NOS|
-|schizophrenia-psychosis v1|ctv3|E102.|[X]Schizophrenic flexibilatis cerea|
-|schizophrenia-psychosis v1|ctv3|E102.|Catatonic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1020|Unspecified catatonic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1021|Subchronic catatonic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1022|Chronic catatonic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1023|Acute exacerbation of subchronic catatonic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1024|Acute exacerbation of chronic catatonic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1025|Catatonic schizophrenia in remission|
-|schizophrenia-psychosis v1|ctv3|E102z|Catatonic schizophrenia NOS|
-|schizophrenia-psychosis v1|ctv3|E103.|Paranoid schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E103.|Paraphrenic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1030|Unspecified paranoid schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1031|Subchronic paranoid schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1032|Chronic paranoid schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1033|Acute exacerbation of subchronic paranoid schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1034|Acute exacerbation of chronic paranoid schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1035|Paranoid schizophrenia in remission|
-|schizophrenia-psychosis v1|ctv3|E103z|Paranoid schizophrenia NOS|
-|schizophrenia-psychosis v1|ctv3|E104.|Oneirophrenia|
-|schizophrenia-psychosis v1|ctv3|E105.|Latent schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1050|Unspecified latent schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1051|Subchronic latent schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1052|Chronic latent schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1053|Acute exacerbation of subchronic latent schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1054|Acute exacerbation of chronic latent schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1055|Latent schizophrenia in remission|
-|schizophrenia-psychosis v1|ctv3|E105z|Latent schizophrenia NOS|
-|schizophrenia-psychosis v1|ctv3|E106.|Residual schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E106.|Restzustand|
-|schizophrenia-psychosis v1|ctv3|E107.|Cyclic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E107.|Schizoaffective schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1070|Unspecified schizoaffective schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1071|Subchronic schizoaffective schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1072|Chronic schizoaffective schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1073|Acute exacerbation of subchronic schizoaffective schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1074|Acute exacerbation of chronic schizoaffective schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E1075|Schizoaffective schizophrenia in remission|
-|schizophrenia-psychosis v1|ctv3|E107z|Schizoaffective schizophrenia NOS|
-|schizophrenia-psychosis v1|ctv3|E10y.|Cenesthopathic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E10y.|Other schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E10y.|Schizophrenia: [other] or [cenesthopathic]|
-|schizophrenia-psychosis v1|ctv3|E10y0|Atypical schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E10y0|Undifferentiated schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E10y1|Cenesthopathic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E10y1|Coenesthopathic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|E10yz|Other schizophrenia NOS|
-|schizophrenia-psychosis v1|ctv3|E10z.|Schizophrenia NOS|
-|schizophrenia-psychosis v1|ctv3|E11..|Affective psychoses (& [bipolar] or [depressive] or [manic])|
-|schizophrenia-psychosis v1|ctv3|E1104|"Single manic episode, severe, with psychosis"|
-|schizophrenia-psychosis v1|ctv3|E1114|"Recurrent manic episodes, severe, with psychosis"|
-|schizophrenia-psychosis v1|ctv3|E1134|"Recurrent major depressive episodes, severe, with psychosis"|
-|schizophrenia-psychosis v1|ctv3|E1144|"Bipolar affect disord, currently manic,severe with psychosis"|
-|schizophrenia-psychosis v1|ctv3|E1154|"Bipolar affect disord, now depressed, severe with psychosis"|
-|schizophrenia-psychosis v1|ctv3|E1164|"Mixed bipolar affective disorder, severe, with psychosis"|
-|schizophrenia-psychosis v1|ctv3|E1174|"Unspecified bipolar affective disorder,severe with psychosis"|
-|schizophrenia-psychosis v1|ctv3|E11y.|Other and unspecified manic-depressive psychoses|
-|schizophrenia-psychosis v1|ctv3|E11y0|Unspecified manic-depressive psychoses|
-|schizophrenia-psychosis v1|ctv3|E11yz|Other and unspecified manic-depressive psychoses NOS|
-|schizophrenia-psychosis v1|ctv3|E11z.|Other and unspecified affective psychoses|
-|schizophrenia-psychosis v1|ctv3|E11z0|Unspecified affective psychoses NOS|
-|schizophrenia-psychosis v1|ctv3|E11zz|Other affective psychosis NOS|
-|schizophrenia-psychosis v1|ctv3|E12..|Paranoid disorder|
-|schizophrenia-psychosis v1|ctv3|E12..|Paranoid disorder|
-|schizophrenia-psychosis v1|ctv3|E120.|Simple paranoid state|
-|schizophrenia-psychosis v1|ctv3|E122.|Paraphrenia|
-|schizophrenia-psychosis v1|ctv3|E123.|Folie a deux|
-|schizophrenia-psychosis v1|ctv3|E123.|Shared paranoid disorder|
-|schizophrenia-psychosis v1|ctv3|E12y.|Other paranoid states|
-|schizophrenia-psychosis v1|ctv3|E12y.|Other paranoid states|
-|schizophrenia-psychosis v1|ctv3|E12y0|Paranoia querulans|
-|schizophrenia-psychosis v1|ctv3|E12yz|Other paranoid states NOS|
-|schizophrenia-psychosis v1|ctv3|E12z.|Paranoid psychosis NOS|
-|schizophrenia-psychosis v1|ctv3|E13..|Psychoses: [other nonorganic] or [reactive]|
-|schizophrenia-psychosis v1|ctv3|E13..|Reactive psychoses|
-|schizophrenia-psychosis v1|ctv3|E130.|Reactive depressive psychosis|
-|schizophrenia-psychosis v1|ctv3|E131.|Acute hysterical psychosis|
-|schizophrenia-psychosis v1|ctv3|E133.|Bouffee delirante|
-|schizophrenia-psychosis v1|ctv3|E134.|Psychogenic paranoid psychosis|
-|schizophrenia-psychosis v1|ctv3|E13y.|Other reactive psychoses|
-|schizophrenia-psychosis v1|ctv3|E13y0|Psychogenic stupor|
-|schizophrenia-psychosis v1|ctv3|E13y1|Brief reactive psychosis|
-|schizophrenia-psychosis v1|ctv3|E13yz|Other reactive psychoses NOS|
-|schizophrenia-psychosis v1|ctv3|E13z.|Nonorganic psychosis NOS|
-|schizophrenia-psychosis v1|ctv3|E13z.|Psychosis: [nonorganic NOS] or [episode NOS]|
-|schizophrenia-psychosis v1|ctv3|E13z.|Psychotic episode NOS|
-|schizophrenia-psychosis v1|ctv3|E14..|Psychoses with origin in childhood|
-|schizophrenia-psychosis v1|ctv3|E141.|Disintegrative psychosis|
-|schizophrenia-psychosis v1|ctv3|E141.|Childhood disintegrative disorder|
-|schizophrenia-psychosis v1|ctv3|E141z|Disintegrative psychosis NOS|
-|schizophrenia-psychosis v1|ctv3|E14y0|Atypical childhood psychoses|
-|schizophrenia-psychosis v1|ctv3|E14y1|Borderline psychosis of childhood|
-|schizophrenia-psychosis v1|ctv3|E14yz|Other childhood psychoses NOS|
-|schizophrenia-psychosis v1|ctv3|E14z.|Childhood schizophrenia NOS|
-|schizophrenia-psychosis v1|ctv3|E1410|Active disintegrative psychoses|
-|schizophrenia-psychosis v1|ctv3|E1411|Residual disintegrative psychoses|
-|schizophrenia-psychosis v1|ctv3|E1y..|Other specified non-organic psychoses|
-|schizophrenia-psychosis v1|ctv3|E201.|Hysteria|
-|schizophrenia-psychosis v1|ctv3|E2010|Hysteria unspecified|
-|schizophrenia-psychosis v1|ctv3|E2110|Unspecified affective personality disorder|
-|schizophrenia-psychosis v1|ctv3|E2113|Affective personality disorder|
-|schizophrenia-psychosis v1|ctv3|E211z|Affective personality disorder NOS|
-|schizophrenia-psychosis v1|ctv3|E212.|Schizoid personality disorder|
-|schizophrenia-psychosis v1|ctv3|E2120|Unspecified schizoid personality disorder|
-|schizophrenia-psychosis v1|ctv3|E2122|Schizotypal personality disorder|
-|schizophrenia-psychosis v1|ctv3|E212z|Schizoid personality disorder NOS|
-|schizophrenia-psychosis v1|ctv3|Eu04.|[X]Acute / subacute infective psychosis|
-|schizophrenia-psychosis v1|ctv3|Eu02z|[X] Dementia: [unspecif] or [presenile NOS (including presenile psychosis NOS)] or [primary degenerative NOS] or [senile NOS (including senile psychosis NOS)] or [senile depressed or paranoid type]|
-|schizophrenia-psychosis v1|ctv3|Eu052|[X] (Organic delusional (schizophrenia-like) disorder) or (paranoid organic state) or (schizophrenia-like psychosis in epilepsy)|
-|schizophrenia-psychosis v1|ctv3|Eu052|[X]Organic delusional [schizophrenia-like] disorder|
-|schizophrenia-psychosis v1|ctv3|Eu052|[X]Paranoid organic state|
-|schizophrenia-psychosis v1|ctv3|Eu052|[X]Schizophrenia-like psychosis in epilepsy|
-|schizophrenia-psychosis v1|ctv3|Eu104|[X]Mental and behavioural disorders due to use of alcohol: withdrawal state with delirium|
-|schizophrenia-psychosis v1|ctv3|Eu106|[X]Mental and behavioural disorders due to use of alcohol: amnesic syndrome|
-|schizophrenia-psychosis v1|ctv3|Eu107|[X] (Mental and behavioural disorders due to use of alcohol: residual and late-onset psychotic disorder) or (chronic alcoholic brain syndrome [& dementia NOS])|
-|schizophrenia-psychosis v1|ctv3|Eu115|[X]Mental and behavioural disorders due to use of opioids: psychotic disorder|
-|schizophrenia-psychosis v1|ctv3|Eu125|[X]Mental and behavioural disorders due to use of cannabinoids: psychotic disorder|
-|schizophrenia-psychosis v1|ctv3|Eu135|[X]Mental and behavioural disorders due to use of sedatives or hypnotics: psychotic disorder|
-|schizophrenia-psychosis v1|ctv3|Eu145|[X]Mental and behavioural disorders due to use of cocaine: psychotic disorder|
-|schizophrenia-psychosis v1|ctv3|Eu155|"[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: psychotic disorder"|
-|schizophrenia-psychosis v1|ctv3|Eu195|[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: psychotic disorder|
-|schizophrenia-psychosis v1|ctv3|Eu2..|"[X]Schizophrenia, schizotypal and delusional disorders"|
-|schizophrenia-psychosis v1|ctv3|Eu20.|Schizophrenia|
-|schizophrenia-psychosis v1|ctv3|Eu202|[X] (Catatonic schizophrenia) or (catatonic stupor) or (schizophrenic catalepsy) or (schizophrenic catatonia) or (schizophrenic flexibilatis cerea)|
-|schizophrenia-psychosis v1|ctv3|Eu202|[X]Catatonic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|Eu202|[X]Schizophrenic catalepsy|
-|schizophrenia-psychosis v1|ctv3|Eu202|[X]Schizophrenic catatonia|
-|schizophrenia-psychosis v1|ctv3|Eu202|[X]Schizophrenic flexibilatis cerea|
-|schizophrenia-psychosis v1|ctv3|Eu203|[X]Undifferentiated schizophrenia|
-|schizophrenia-psychosis v1|ctv3|Eu20y|[X] (Schizophrenia: [cenesthopathic] or [other]) or (schizophreniform disorder [including psychosis] NOS)|
-|schizophrenia-psychosis v1|ctv3|Eu20y|[X]Cenesthopathic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|Eu20y|[X]Other schizophrenia|
-|schizophrenia-psychosis v1|ctv3|Eu20z|"[X]Schizophrenia, unspecified"|
-|schizophrenia-psychosis v1|ctv3|Eu21.|[X]Borderline schizophrenia|
-|schizophrenia-psychosis v1|ctv3|Eu21.|[X]Latent schizophrenia|
-|schizophrenia-psychosis v1|ctv3|Eu21.|[X]Latent schizophrenic reaction|
-|schizophrenia-psychosis v1|ctv3|Eu21.|[X]Prepsychotic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|Eu21.|[X]Prodromal schizophrenia|
-|schizophrenia-psychosis v1|ctv3|Eu21.|[X]Pseudoneurotic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|Eu21.|[X]Pseudopsychopathic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|Eu21.|[X]Schizotypal disorder|
-|schizophrenia-psychosis v1|ctv3|Eu21.|[X]Schizotypal personality disorder|
-|schizophrenia-psychosis v1|ctv3|Eu220|[X]Delusional disorder|
-|schizophrenia-psychosis v1|ctv3|Eu220|[X]Paranoia|
-|schizophrenia-psychosis v1|ctv3|Eu220|[X]Paranoid psychosis|
-|schizophrenia-psychosis v1|ctv3|Eu220|[X]Paranoid state|
-|schizophrenia-psychosis v1|ctv3|Eu220|[X]Paraphrenia - late|
-|schizophrenia-psychosis v1|ctv3|Eu220|[X]Sensitiver Beziehungswahn|
-|schizophrenia-psychosis v1|ctv3|Eu220|Paranoid state|
-|schizophrenia-psychosis v1|ctv3|Eu220|Sensitiver Beziehungswahm|
-|schizophrenia-psychosis v1|ctv3|Eu22y|[X] (Other persistent delusional disorders) or (delusional dysmorphophobia) or (involutional paranoid state) or (paranoia querulans)|
-|schizophrenia-psychosis v1|ctv3|Eu22y|[X]Other persistent delusional disorders|
-|schizophrenia-psychosis v1|ctv3|Eu22z|"[X]Persistent delusional disorder, unspecified"|
-|schizophrenia-psychosis v1|ctv3|Eu22z|"[X]Persistent delusional disorder, unspecified"|
-|schizophrenia-psychosis v1|ctv3|Eu230|[X]Acute polymorphic psychotic disorder without symptoms of schizophrenia|
-|schizophrenia-psychosis v1|ctv3|Eu230|[X]Bouffee delirante|
-|schizophrenia-psychosis v1|ctv3|Eu230|[X]Cycloid psychosis|
-|schizophrenia-psychosis v1|ctv3|Eu231|[X]Acute polymorphic psychotic disorder with symptoms of schizophrenia|
-|schizophrenia-psychosis v1|ctv3|Eu232|[X] Acute schizophrenia-like psychotic disorder (& [brief schizophreniform disorder] or [brief schizophrenifrm psych] or [oneirophrenia] or [schizophrenic reaction])|
-|schizophrenia-psychosis v1|ctv3|Eu232|[X]Acute schizophrenia-like psychotic disorder|
-|schizophrenia-psychosis v1|ctv3|Eu232|[X]Oneirophrenia|
-|schizophrenia-psychosis v1|ctv3|Eu233|[X] (Other acute predominantly delusional psychotic disorders) or (psychogenic paranoid psychosis)|
-|schizophrenia-psychosis v1|ctv3|Eu233|[X]Other acute predominantly delusional psychotic disorders|
-|schizophrenia-psychosis v1|ctv3|Eu233|[X]Psychogenic paranoid psychosis|
-|schizophrenia-psychosis v1|ctv3|Eu23y|[X]Other acute and transient psychotic disorders|
-|schizophrenia-psychosis v1|ctv3|Eu23z|"[X]Acute and transient psychotic disorder, unspecified"|
-|schizophrenia-psychosis v1|ctv3|Eu23z|"[X]Acute and transient psychotic disorder, unspecified (& [reactive psychosis (including brief NOS)])"|
-|schizophrenia-psychosis v1|ctv3|Eu23z|[X]Reactive psychosis|
-|schizophrenia-psychosis v1|ctv3|Eu23z|Reactive psychoses|
-|schizophrenia-psychosis v1|ctv3|Eu24.|Induced delusional disorder|
-|schizophrenia-psychosis v1|ctv3|Eu24.|Induced paranoid disorder|
-|schizophrenia-psychosis v1|ctv3|Eu24.|Induced psychosis|
-|schizophrenia-psychosis v1|ctv3|Eu24.|Symbiotic psychosis|
-|schizophrenia-psychosis v1|ctv3|Eu25.|Schizoaffective disorder|
-|schizophrenia-psychosis v1|ctv3|Eu252|"[X](Schizoaffective disorder, mixed type) or (cyclic schizophrenia) or (mixed schizophrenic and affective psychosis)"|
-|schizophrenia-psychosis v1|ctv3|Eu252|[X]Cyclic schizophrenia|
-|schizophrenia-psychosis v1|ctv3|Eu252|[X]Mixed schizophrenic and affective psychosis|
-|schizophrenia-psychosis v1|ctv3|Eu252|"[X]Schizoaffective disorder, mixed type"|
-|schizophrenia-psychosis v1|ctv3|Eu25y|[X]Other schizoaffective disorders|
-|schizophrenia-psychosis v1|ctv3|Eu25z|"[X]Schizoaffective disorder, unspecified"|
-|schizophrenia-psychosis v1|ctv3|Eu2y.|[X] (Other nonorganic psychotic disorders) or (chronic hallucinatory psychosis)|
-|schizophrenia-psychosis v1|ctv3|Eu2y.|[X] Chronic hallucinatory psychosis|
-|schizophrenia-psychosis v1|ctv3|Eu2y.|[X]Chronic hallucinatory psychosis|
-|schizophrenia-psychosis v1|ctv3|Eu2y.|[X]Other nonorganic psychotic disorders|
-|schizophrenia-psychosis v1|ctv3|Eu2z.|[X] Psychosis NOS|
-|schizophrenia-psychosis v1|ctv3|Eu2z.|[X] Psychosis: [unspecified nonorganic] or [NOS]|
-|schizophrenia-psychosis v1|ctv3|Eu2z.|[X]Psychosis NOS|
-|schizophrenia-psychosis v1|ctv3|Eu2z.|[X]Unspecified nonorganic psychosis|
-|schizophrenia-psychosis v1|ctv3|Eu332|"[X]Depression without psychotic symptoms: [recurrent: [major] or [manic-depressive psychosis, depressed type] or [vital] or [current severe episode]] or [endogenous]"|
-|schizophrenia-psychosis v1|ctv3|X00Qx|Psychotic episode NOS|
-|schizophrenia-psychosis v1|ctv3|X00Qy|Reactive psychoses|
-|schizophrenia-psychosis v1|ctv3|X00RU|Epileptic psychosis|
-|schizophrenia-psychosis v1|ctv3|X00RV|Intensive care psychosis|
-|schizophrenia-psychosis v1|ctv3|X00S6|Psychotic|
-|schizophrenia-psychosis v1|ctv3|X00S6|Psychotic disorder|
-|schizophrenia-psychosis v1|ctv3|X00S7|Childhood schizophrenia NOS|
-|schizophrenia-psychosis v1|ctv3|X00S8|Post-schizophrenic depression|
-|schizophrenia-psychosis v1|ctv3|X00SA|Persistent delusional disorder|
-|schizophrenia-psychosis v1|ctv3|X00SB|Delusional pain|
-|schizophrenia-psychosis v1|ctv3|X00SC|Acute transient psychotic disorder|
-|schizophrenia-psychosis v1|ctv3|X00SD|Schizophreniform disorder|
-|schizophrenia-psychosis v1|ctv3|X40Do|Mild postnatal psychosis|
-|schizophrenia-psychosis v1|ctv3|X40Dp|Severe postnatal psychosis|
-|schizophrenia-psychosis v1|ctv3|X50GE|Cutaneous monosymptomatic delusional psychosis|
-|schizophrenia-psychosis v1|ctv3|X50GF|Delusions of parasitosis|
-|schizophrenia-psychosis v1|ctv3|X50GG|Delusions of infestation|
-|schizophrenia-psychosis v1|ctv3|X50GH|Delusion of foul odour|
-|schizophrenia-psychosis v1|ctv3|X50GJ|Delusional hyperhidrosis|
-|schizophrenia-psychosis v1|ctv3|X75yq|Grandiose delusions|
-|schizophrenia-psychosis v1|ctv3|X75yr|Delusion of grandiose ability|
-|schizophrenia-psychosis v1|ctv3|X75ys|Delusion of grandiose identity|
-|schizophrenia-psychosis v1|ctv3|X75yt|Delusion of special mission|
-|schizophrenia-psychosis v1|ctv3|X75yu|Religious delusion|
-|schizophrenia-psychosis v1|ctv3|X75yv|Delusional mood|
-|schizophrenia-psychosis v1|ctv3|X75yw|Delusional perplexity|
-|schizophrenia-psychosis v1|ctv3|X75yx|Delusion associated with abnormal perception|
-|schizophrenia-psychosis v1|ctv3|X75yy|Delusion associated with smell|
-|schizophrenia-psychosis v1|ctv3|X75yz|Delusion associated with sexual hallucinations|
-|schizophrenia-psychosis v1|ctv3|X75z0|Bizarre delusion associated with bodily sensation|
-|schizophrenia-psychosis v1|ctv3|X75z1|Delusion of depersonalisation|
-|schizophrenia-psychosis v1|ctv3|X75z2|Nihilistic delusion|
-|schizophrenia-psychosis v1|ctv3|X75z3|Delusion concerning appearance|
-|schizophrenia-psychosis v1|ctv3|X75z4|Delusion of persecution|
-|schizophrenia-psychosis v1|ctv3|X75z5|Delusional jealousy|
-|schizophrenia-psychosis v1|ctv3|X75z6|Erotomanic delusion|
-|schizophrenia-psychosis v1|ctv3|X75z7|Capgras syndrome|
-|schizophrenia-psychosis v1|ctv3|X75z8|Delusion of guilt|
-|schizophrenia-psychosis v1|ctv3|X75z9|Delusion of catastrophe|
-|schizophrenia-psychosis v1|ctv3|X75zA|Depressive delusion of catastrophe|
-|schizophrenia-psychosis v1|ctv3|X75zB|Delusion of poverty|
-|schizophrenia-psychosis v1|ctv3|X75zC|Depressive delusion of poverty|
-|schizophrenia-psychosis v1|ctv3|X75zD|Hypochondriacal delusion|
-|schizophrenia-psychosis v1|ctv3|X75zE|Depressive hypochondriacal delusion|
-|schizophrenia-psychosis v1|ctv3|X75zH|Delusion of replacement of will by external force|
-|schizophrenia-psychosis v1|ctv3|X75zI|Delusion of control of voice|
-|schizophrenia-psychosis v1|ctv3|X75zJ|Delusion of control of handwriting|
-|schizophrenia-psychosis v1|ctv3|X75zM|Delusion of own appearance|
-|schizophrenia-psychosis v1|ctv3|X75zz|Verbal auditory hallucinations|
-|schizophrenia-psychosis v1|ctv3|X7600|Non-verbal auditory hallucinations|
-|schizophrenia-psychosis v1|ctv3|X7601|Hallucinations of music|
-|schizophrenia-psychosis v1|ctv3|X7603|Unformed visual hallucinations|
-|schizophrenia-psychosis v1|ctv3|X7604|Formed visual hallucinations|
-|schizophrenia-psychosis v1|ctv3|X7605|Scenic visual hallucinations|
-|schizophrenia-psychosis v1|ctv3|X7606|Hallucination of self giving off a smell|
-|schizophrenia-psychosis v1|ctv3|X7607|Hallucination of others giving off a smell|
-|schizophrenia-psychosis v1|ctv3|X7608|Hallucinations of pain|
-|schizophrenia-psychosis v1|ctv3|X7609|Hallucinations of temperature|
-|schizophrenia-psychosis v1|ctv3|X760A|Hallucinations in several modalities at once|
-|schizophrenia-psychosis v1|ctv3|X760B|Hallucinations of internal bodily sensation|
-|schizophrenia-psychosis v1|ctv3|X760C|Hallucinations associated with bereavement|
-|schizophrenia-psychosis v1|ctv3|X760D|Sexual hallucinations|
-|schizophrenia-psychosis v1|ctv3|X760F|Hypnopompic hallucination|
-|schizophrenia-psychosis v1|ctv3|X761M|Schizophrenic prodrome|
-|schizophrenia-psychosis v1|ctv3|X75yp|Delusion|
-|schizophrenia-psychosis v1|ctv3|X75yp|Delusional ideas|
-|schizophrenia-psychosis v1|ctv3|X75yp|Delusional thoughts|
-|schizophrenia-psychosis v1|ctv3|X75yp|Delusions|
-|schizophrenia-psychosis v1|ctv3|X75z5|Delusional jealousy|
-|schizophrenia-psychosis v1|ctv3|X763T|Catatonia|
-|schizophrenia-psychosis v1|ctv3|Xa00w|Retrospective delusions|
-|schizophrenia-psychosis v1|ctv3|Xa0lD|Involutional paranoid state|
-|schizophrenia-psychosis v1|ctv3|Xa0lF|Delusional dysmorphophobia|
-|schizophrenia-psychosis v1|ctv3|Xa0RT|Second person verbal auditory hallucinations|
-|schizophrenia-psychosis v1|ctv3|Xa0RX|Third person verbal auditory hallucinations|
-|schizophrenia-psychosis v1|ctv3|Xa0s8|Paranoid-hallucinatory epileptic psychosis|
-|schizophrenia-psychosis v1|ctv3|Xa0s9|Acute schizophrenia-like psychotic disorder|
-|schizophrenia-psychosis v1|ctv3|Xa0s9|Acute schizophrenia-like psychotic disorder|
-|schizophrenia-psychosis v1|ctv3|Xa0tC|Late paraphrenia|
-|schizophrenia-psychosis v1|ctv3|Xa0tC|Late paraphrenia|
-|schizophrenia-psychosis v1|ctv3|Xa1aD|Monosymptomatic hypochondriacal psychosis|
-|schizophrenia-psychosis v1|ctv3|Xa1aF|Erotomania|
-|schizophrenia-psychosis v1|ctv3|Xa1bS|Othello syndrome|
-|schizophrenia-psychosis v1|ctv3|Xa25J|Alcoholic dementia|
-|schizophrenia-psychosis v1|ctv3|Xa33b|Delusion of unworthiness|
-|schizophrenia-psychosis v1|ctv3|Xa3b1|Schizoid character|
-|schizophrenia-psychosis v1|ctv3|Xa3Dz|Hallucinations of simple sounds|
-|schizophrenia-psychosis v1|ctv3|Xa3E0|Formed hallucinations of people|
-|schizophrenia-psychosis v1|ctv3|Xa3E1|Formed hallucinations of animals|
-|schizophrenia-psychosis v1|ctv3|Xa3E2|Formed hallucinations of insects|
-|schizophrenia-psychosis v1|ctv3|Xa3E3|Formed hallucinations of objects|
-|schizophrenia-psychosis v1|ctv3|Xa3F9|Extracampine hallucinations|
-|schizophrenia-psychosis v1|ctv3|Xa3FA|Functional hallucinations|
-|schizophrenia-psychosis v1|ctv3|Xa3FB|Reflex hallucinations|
-|schizophrenia-psychosis v1|ctv3|Xa3WO|Manic|
-|schizophrenia-psychosis v1|ctv3|Xa3Y9|Delusional projection - mental defence mechanism|
-|schizophrenia-psychosis v1|ctv3|Xa3YM|Manic defence|
-|schizophrenia-psychosis v1|ctv3|Xa3YW|Schizoid fantasy|
-|schizophrenia-psychosis v1|ctv3|Xa4hZ|Lithium and its derivatives|
-|schizophrenia-psychosis v1|ctv3|Xa5hW|Lithium allergy|
-|schizophrenia-psychosis v1|ctv3|Xa5J3|Lithium adverse reaction|
-|schizophrenia-psychosis v1|ctv3|Xa96U|Guilty ideas of reference|
-|schizophrenia-psychosis v1|ctv3|Xa9B0|Puerperal psychosis|
-|schizophrenia-psychosis v1|ctv3|Xa33a|Delusion of infidelity|
-|schizophrenia-psychosis v1|ctv3|XaAyN|Ideas of reference|
-|schizophrenia-psychosis v1|ctv3|XaB5u|Bouffee delirante|
-|schizophrenia-psychosis v1|ctv3|XaB5v|Cycloid psychosis|
-|schizophrenia-psychosis v1|ctv3|XaB8j|Oneirophrenia|
-|schizophrenia-psychosis v1|ctv3|XaB95|Other manic-depressive psychos|
-|schizophrenia-psychosis v1|ctv3|XaCHo|"[X] Manic-depressive psychosis, depressed type without psychotic symptoms"|
-|schizophrenia-psychosis v1|ctv3|Xad6J|CBTp - cognitive behavioural therapy for psychosis|
-|schizophrenia-psychosis v1|ctv3|XaIOm|Early intervention in psychosis|
-|schizophrenia-psychosis v1|ctv3|XaIWE|Early intervention in psychosis - 24 hour intensive|
-|schizophrenia-psychosis v1|ctv3|XaIWF|Early intervention in psychosis - 24 hour not intensive|
-|schizophrenia-psychosis v1|ctv3|XaIWG|Early intervention in psychosis - Part day : day care|
-|schizophrenia-psychosis v1|ctv3|XaIWH|Early intervention in psychosis - Daily intensive|
-|schizophrenia-psychosis v1|ctv3|XaIWI|Early intervention in psychosis - 3-5 contacts/week|
-|schizophrenia-psychosis v1|ctv3|XaIWJ|Early intervention in psychosis - 1-2 contacts/week|
-|schizophrenia-psychosis v1|ctv3|XaIWK|Early intervention in psychosis - 1-3 contacts/month|
-|schizophrenia-psychosis v1|ctv3|XaIWL|Early intervention in psychosis - <1 contact/month|
-|schizophrenia-psychosis v1|ctv3|XaIXj|Early intervention in psychosis HRGs|
-|schizophrenia-psychosis v1|ctv3|XaJQO|Early intervention in psychosis team|
-|schizophrenia-psychosis v1|ctv3|XagU1|"Recurrent reactiv depressiv episodes, severe, with psychosis"|
-|schizophrenia-psychosis v1|ctv3|XaKUm|O/E - paranoid delusions|
-|schizophrenia-psychosis v1|ctv3|XaKUn|O/E - delusion of persecution|
-|schizophrenia-psychosis v1|ctv3|XaL07|H/O: psychosis|
-|schizophrenia-psychosis v1|ctv3|XaL19|Referral to psychosis early intervention service|
-|schizophrenia-psychosis v1|ctv3|XaLIa|"Psychosis, schizophrenia and bipolar affective disorder resolved"|
-|schizophrenia-psychosis v1|ctv3|XaK4Y|[X]Erotomania|
-|schizophrenia-psychosis v1|ctv3|XaMwd|Schizophrenia resolved|
-|schizophrenia-psychosis v1|ctv3|XaMwe|Psychosis resolved|
-|schizophrenia-psychosis v1|ctv3|XaOmz|Analysing hallucinations|
-|schizophrenia-psychosis v1|ctv3|XaKUl|Paranoid ideation|
-|schizophrenia-psychosis v1|ctv3|XaX51|[X]Paranoid state in remission|
-|schizophrenia-psychosis v1|ctv3|XaX52|Non-organic psychosis in remission|
-|schizophrenia-psychosis v1|ctv3|XaX53|"Single major depress ep, severe with psych, psych in remissn"|
-|schizophrenia-psychosis v1|ctv3|XaX54|"Recurr major depress ep, severe with psych, psych in remissn"|
-|schizophrenia-psychosis v1|ctv3|XE1aI|Korsakov's psychosis|
-|schizophrenia-psychosis v1|ctv3|XE1aM|Paranoid schizophrenia|
-|schizophrenia-psychosis v1|ctv3|XE1aM|Schizophrenic psychoses|
-|schizophrenia-psychosis v1|ctv3|XE1aM|Schizophrenic psychoses (& [paranoid schizophrenia])|
-|schizophrenia-psychosis v1|ctv3|XE1aO|Paranoid schizophrenia|
-|schizophrenia-psychosis v1|ctv3|XE1aO|Paraphrenia|
-|schizophrenia-psychosis v1|ctv3|XE1aQ|Manic-depress.psychoses|
-|schizophrenia-psychosis v1|ctv3|XE1aU|(Paranoid state(s)) or (delusion(s): [paranoid] or [persecution])|
-|schizophrenia-psychosis v1|ctv3|XE1aU|Delusions - paranoid|
-|schizophrenia-psychosis v1|ctv3|XE1aU|Paranoid states|
-|schizophrenia-psychosis v1|ctv3|XE1aU|Persecution delusion|
-|schizophrenia-psychosis v1|ctv3|XE1gN|[D]Hallucinations NEC|
-|schizophrenia-psychosis v1|ctv3|XE1hk|"Psychotic condition, insight present"|
-|schizophrenia-psychosis v1|ctv3|XE1Sz|On lithium|
-|schizophrenia-psychosis v1|ctv3|XE1Xr|Senile and presenile organic psychotic conditions|
-|schizophrenia-psychosis v1|ctv3|XE1Xt|Other senile and presenile organic psychoses|
-|schizophrenia-psychosis v1|ctv3|XE1Xw|Acute schizophrenic episode|
-|schizophrenia-psychosis v1|ctv3|XE1Xx|Other schizophrenia|
-|schizophrenia-psychosis v1|ctv3|XE1Xz|"Manic disorder, single episode"|
-|schizophrenia-psychosis v1|ctv3|XE1Y2|Chronic paranoid psychosis|
-|schizophrenia-psychosis v1|ctv3|XE1Y3|Other non-organic psychoses|
-|schizophrenia-psychosis v1|ctv3|XE1Y4|Acute paranoid reaction|
-|schizophrenia-psychosis v1|ctv3|XE1Y5|Non-organic psychosis NOS|
-|schizophrenia-psychosis v1|ctv3|XE1Y6|Child psychosis NOS|
-|schizophrenia-psychosis v1|ctv3|XE1Y9|Hysteria NOS|
-|schizophrenia-psychosis v1|ctv3|XE1YF|Paranoid personality disorder|
-|schizophrenia-psychosis v1|ctv3|XE1ZM|[X]Other schizophrenia|
-|schizophrenia-psychosis v1|ctv3|XE1ZN|[X]Schizotypal disorder|
-|schizophrenia-psychosis v1|ctv3|XE1ZO|Delusional disorder|
-|schizophrenia-psychosis v1|ctv3|XE1ZO|Paranoid psychosis|
-|schizophrenia-psychosis v1|ctv3|XE1ZO|Sensitiver Beziehungswahm|
-|schizophrenia-psychosis v1|ctv3|XE1ZP|[X]Other persistent delusional disorders|
-|schizophrenia-psychosis v1|ctv3|XE1ZQ|[X]Acute polymorphic psychotic disorder without symptoms of schizophrenia|
-|schizophrenia-psychosis v1|ctv3|XE1ZR|[X]Other acute predominantly delusional psychotic disorders|
-|schizophrenia-psychosis v1|ctv3|XE1ZS|"[X]Acute and transient psychotic disorder, unspecified"|
-|schizophrenia-psychosis v1|ctv3|XE1ZT|[X]Other non-organic psychotic disorders|
-|schizophrenia-psychosis v1|ctv3|XE1ZU|[X] Psychosis NOS|
-|schizophrenia-psychosis v1|ctv3|XE1ZU|[X]Unspecified nonorganic psychosis|
-|schizophrenia-psychosis v1|ctv3|XE1ZV|[X]Mania with psychotic symptoms|
-|schizophrenia-psychosis v1|ctv3|XE2b8|Mixed schizophrenic and affective pschosis|
-|schizophrenia-psychosis v1|ctv3|XE2b8|"Schizoaffective disorder, mixed type"|
-|schizophrenia-psychosis v1|ctv3|XE2un|"Schizoaffective disorder, depressive type"|
-|schizophrenia-psychosis v1|ctv3|XE2un|"Schizophreniform psychosis, depressive type"|
-|schizophrenia-psychosis v1|ctv3|XE2uT|"Schizoaffective disorder, manic type"|
-|schizophrenia-psychosis v1|ctv3|XE2uT|"Schizophreniform psychosis, manic type"|
-|schizophrenia-psychosis v1|ctv3|XM1GG|Borderline schizophrenia|
-|schizophrenia-psychosis v1|ctv3|XM1GH|Acute polymorphic psychotic disorder|
-|schizophrenia-psychosis v1|ctv3|XSGon|Severe major depression with psychotic features|
-|schizophrenia-psychosis v1|ctv3|XM06V|Auditory hallucinations|
-|schizophrenia-psychosis v1|ctv3|XM06W|Hallucinations of taste|
-|schizophrenia-psychosis v1|ctv3|XM06X|Olfactory hallucinations|
-|schizophrenia-psychosis v1|ctv3|XM06Y|Tactile hallucinations|
-|schizophrenia-psychosis v1|ctv3|XM0lB|Lithium|
-|schizophrenia-psychosis v1|ctv3|XM1Xj|Lithium monitoring|
-|schizophrenia-psychosis v1|ctv3|XSKr7|Cotard syndrome|
-|schizophrenia-psychosis v1|ctv3|ZV110|[V]Personal history of schizophrenia|
-|schizophrenia-psychosis v1|ctv3|ZV111|[V]Personal history of manic-depressive psychosis|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2310|"Acute polymorphic psychot disord with symp of schizophren, without associated acute stress"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2095|"Schizophrenia, unspecified, complete remission"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2330|"Other acute predominantly delusional psychotic disorders, without associated acute stress"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2050|"Residual schizophrenia, continuous"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2048|"Post-schizophrenic depression, other"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2009|"Paranoid schizophrenia, course uncertain, period of observation too short"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2321|"Acute schizophrenia-like psychotic disorder, with associated acute stress"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2060|"Simple schizophrenia, continuous"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2081|"Other schizophrenia, episodic with progressive deficit"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2028|"Catatonic schizophrenia, other"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2092|"Schizophrenia, unspecified, episodic with stable deficit"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2091|"Schizophrenia, unspecified, episodic with progressive deficit"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2011|"Hebephrenic schizophrenia, episodic with progressive deficit"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2080|"Other schizophrenia, continuous"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2045|"Post-schizophrenic depression, complete remission"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2099|"Schizophrenia, unspecified, course uncertain, period of observation too short"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2055|"Residual schizophrenia, complete remission"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2044|"Post-schizophrenic depression, incomplete remission"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2084|"Other schizophrenia, incomplete remission"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2083|"Other schizophrenia, episodic remittent"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2038|"Undifferentiated schizophrenia, other"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2051|"Residual schizophrenia, episodic with progressive deficit"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2090|"Schizophrenia, unspecified, continuous"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2035|"Undifferentiated schizophrenia, complete remission"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2001|"Paranoid schizophrenia, episodic with progressive deficit"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2014|"Hebephrenic schizophrenia, incomplete remission"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2082|"Other schizophrenia, episodic with stable deficit"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2030|"Undifferentiated schizophrenia, continuous"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2021|"Catatonic schizophrenia, episodic with progressive deficit"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2041|"Post-schizophrenic depression, episodic with progressive deficit"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2018|"Hebephrenic schizophrenia, other"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2039|"Undifferentiated schizophrenia, course uncertain, period of observation too short"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2023|"Catatonic schizophrenia, episodic remittent"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2002|"Paranoid schizophrenia, episodic with stable deficit"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2331|"Other acute predominantly delusional psychotic disorders, with associated acute stress"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2032|"Undifferentiated schizophrenia, episodic with stable deficit"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2381|"Other acute and transient psychotic disorders, with associated acute stress"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2094|"Schizophrenia, unspecified, incomplete remission"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2015|"Hebephrenic schizophrenia, complete remission"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2301|"Acute polymorphic psychot disord without symp of schizoph, with associated acute stress"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2390|"Acute and transient psychotic disorder, unspecified, without associated acute stress"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2000|"Paranoid schizophrenia, continuous"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2033|"Undifferentiated schizophrenia, episodic remittent"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2053|"Residual schizophrenia, episodic remittent"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2054|"Residual schizophrenia, incomplete remission"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2320|"Acute schizophrenia-like psychotic disorder, without associated acute stress"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2063|"Simple schizophrenia, episodic remittent"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2069|"Simple schizophrenia, course uncertain, period of observation too short"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2012|"Hebephrenic schizophrenia, episodic with stable deficit"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2093|"Schizophrenia, unspecified, episodic remittent"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2058|"Residual schizophrenia, other"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2061|"Simple schizophrenia, episodic with progressive deficit"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2040|"Post-schizophrenic depression, continuous"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2391|"Acute and transient psychotic disorder, unspecified, with associated acute stress"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2008|"Paranoid schizophrenia, other"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2003|"Paranoid schizophrenia, episodic remittent"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2062|"Simple schizophrenia, episodic with stable deficit"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2043|"Post-schizophrenic depression, episodic remittent"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2380|"Other acute and transient psychotic disorders, without associated acute stress"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2020|"Catatonic schizophrenia, continuous"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2010|"Hebephrenic schizophrenia, continuous"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2013|"Hebephrenic schizophrenia, episodic remittent"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2034|"Undifferentiated schizophrenia, incomplete remission"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2311|"Acute polymorphic psychot disord with symp of schizophren, with associated acute stress"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2004|"Paranoid schizophrenia, incomplete remission"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2029|"Catatonic schizophrenia, course uncertain, period of observation too short"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2022|"Catatonic schizophrenia, episodic with stable deficit"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2068|"Simple schizophrenia, other"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2059|"Residual schizophrenia, course uncertain, period of observation too short"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2085|"Other schizophrenia, complete remission"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2005|"Paranoid schizophrenia, complete remission"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2088|"Other schizophrenia, other"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2065|"Simple schizophrenia, complete remission"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2019|"Hebephrenic schizophrenia, course uncertain, period of observation too short"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2098|"Schizophrenia, unspecified, other"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2049|"Post-schizophrenic depression, course uncertain, period of observation too short"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2064|"Simple schizophrenia, incomplete remission"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2089|"Other schizophrenia, course uncertain, period of observation too short"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2042|"Post-schizophrenic depression, episodic with stable deficit"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2300|"Acute polymorphic psychot disord without symp of schizoph, without associated acute stress"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2025|"Catatonic schizophrenia, complete remission"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2024|"Catatonic schizophrenia, incomplete remission"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2031|"Undifferentiated schizophrenia, episodic with progressive deficit"|
-|schizophrenia-psychosis v1|emis|EMISICD10|F2052|"Residual schizophrenia, episodic with stable deficit"|
-|schizophrenia-psychosis v1|readv2|13Y2.00|Schizophrenia association member|
-|schizophrenia-psychosis v1|readv2|146H.00|H/O: psychosis|
-|schizophrenia-psychosis v1|readv2|1B1E.00|Hallucinations|
-|schizophrenia-psychosis v1|readv2|1B1e.00|Hypnopompic hallucination|
-|schizophrenia-psychosis v1|readv2|1BC..00|Morbid jealousy|
-|schizophrenia-psychosis v1|readv2|1BH..00|Delusion|
-|schizophrenia-psychosis v1|readv2|1BH..00|Delusions|
-|schizophrenia-psychosis v1|readv2|1BH..11|Delusion|
-|schizophrenia-psychosis v1|readv2|1BH1.00|Grandiose delusions|
-|schizophrenia-psychosis v1|readv2|1BH2.00|Ideas of reference|
-|schizophrenia-psychosis v1|readv2|1BH3.00|Paranoid ideation|
-|schizophrenia-psychosis v1|readv2|212T.00|"Psychosis, schizophrenia and bipolar affective disorder resolved"|
-|schizophrenia-psychosis v1|readv2|212W.00|Schizophrenia resolved|
-|schizophrenia-psychosis v1|readv2|212X.00|Psychosis resolved|
-|schizophrenia-psychosis v1|readv2|225E.00|O/E - paranoid delusions|
-|schizophrenia-psychosis v1|readv2|225F.00|O/E - delusion of persecution|
-|schizophrenia-psychosis v1|readv2|285..11|"Psychotic condition, insight present"|
-|schizophrenia-psychosis v1|readv2|286..11|Poor insight into psychotic condition|
-|schizophrenia-psychosis v1|readv2|38Q4.00|HCL-32-R1 - hypomania checklist 32 item revised|
-|schizophrenia-psychosis v1|readv2|8G13100|CBTp - cognitive behavioural therapy for psychosis|
-|schizophrenia-psychosis v1|readv2|8HHs.00|Referral to psychosis early intervention service|
-|schizophrenia-psychosis v1|readv2|E00z.00|Senile or presenile psychoses NOS|
-|schizophrenia-psychosis v1|readv2|E03y300|Unspecified puerperal psychosis|
-|schizophrenia-psychosis v1|readv2|E040.00|Non-alcoholic amnestic syndrome|
-|schizophrenia-psychosis v1|readv2|E040.11|Korsakoff's non-alcoholic psychosis|
-|schizophrenia-psychosis v1|readv2|E03y000|Organic delusional syndrome|
-|schizophrenia-psychosis v1|readv2|E1...00|Non-organic psychoses|
-|schizophrenia-psychosis v1|readv2|E100.00|Schizophrenia simplex|
-|schizophrenia-psychosis v1|readv2|E100.00|Simple schizophrenia|
-|schizophrenia-psychosis v1|readv2|E100000|Unspecified schizophrenia|
-|schizophrenia-psychosis v1|readv2|E100100|Subchronic schizophrenia|
-|schizophrenia-psychosis v1|readv2|E100200|Chronic schizophrenic|
-|schizophrenia-psychosis v1|readv2|E100300|Acute exacerbation of subchronic schizophrenia|
-|schizophrenia-psychosis v1|readv2|E100400|Acute exacerbation of chronic schizophrenia|
-|schizophrenia-psychosis v1|readv2|E100500|Schizophrenia in remission|
-|schizophrenia-psychosis v1|readv2|E100z00|Simple schizophrenia NOS|
-|schizophrenia-psychosis v1|readv2|E101.00|Hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|readv2|E101000|Unspecified hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|readv2|E101100|Subchronic hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|readv2|E101200|Chronic hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|readv2|E101300|Acute exacerbation of subchronic hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|readv2|E101400|Acute exacerbation of chronic hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|readv2|E101500|Hebephrenic schizophrenia in remission|
-|schizophrenia-psychosis v1|readv2|E101z00|Hebephrenic schizophrenia NOS|
-|schizophrenia-psychosis v1|readv2|E102.00|Catatonic schizophrenia|
-|schizophrenia-psychosis v1|readv2|E102000|Unspecified catatonic schizophrenia|
-|schizophrenia-psychosis v1|readv2|E102100|Subchronic catatonic schizophrenia|
-|schizophrenia-psychosis v1|readv2|E102200|Chronic catatonic schizophrenia|
-|schizophrenia-psychosis v1|readv2|E102300|Acute exacerbation of subchronic catatonic schizophrenia|
-|schizophrenia-psychosis v1|readv2|E102400|Acute exacerbation of chronic catatonic schizophrenia|
-|schizophrenia-psychosis v1|readv2|E102500|Catatonic schizophrenia in remission|
-|schizophrenia-psychosis v1|readv2|E102z00|Catatonic schizophrenia NOS|
-|schizophrenia-psychosis v1|readv2|E103.00|Paranoid schizophrenia|
-|schizophrenia-psychosis v1|readv2|E103000|Unspecified paranoid schizophrenia|
-|schizophrenia-psychosis v1|readv2|E103100|Subchronic paranoid schizophrenia|
-|schizophrenia-psychosis v1|readv2|E103200|Chronic paranoid schizophrenia|
-|schizophrenia-psychosis v1|readv2|E103300|Acute exacerbation of subchronic paranoid schizophrenia|
-|schizophrenia-psychosis v1|readv2|E103400|Acute exacerbation of chronic paranoid schizophrenia|
-|schizophrenia-psychosis v1|readv2|E103500|Paranoid schizophrenia in remission|
-|schizophrenia-psychosis v1|readv2|E103z00|Paranoid schizophrenia NOS|
-|schizophrenia-psychosis v1|readv2|E104.00|Oneirophrenia|
-|schizophrenia-psychosis v1|readv2|E104.11|Oneirophrenia|
-|schizophrenia-psychosis v1|readv2|E105.00|Latent schizophrenia|
-|schizophrenia-psychosis v1|readv2|E105000|Unspecified latent schizophrenia|
-|schizophrenia-psychosis v1|readv2|E105100|Subchronic latent schizophrenia|
-|schizophrenia-psychosis v1|readv2|E105200|Chronic latent schizophrenia|
-|schizophrenia-psychosis v1|readv2|E105300|Acute exacerbation of subchronic latent schizophrenia|
-|schizophrenia-psychosis v1|readv2|E105400|Acute exacerbation of chronic latent schizophrenia|
-|schizophrenia-psychosis v1|readv2|E105500|Latent schizophrenia in remission|
-|schizophrenia-psychosis v1|readv2|E105z00|Latent schizophrenia NOS|
-|schizophrenia-psychosis v1|readv2|E106.00|Residual schizophrenia|
-|schizophrenia-psychosis v1|readv2|E106.11|Restzustand - schizophrenia|
-|schizophrenia-psychosis v1|readv2|E106.00|Restzustand - schizophrenia|
-|schizophrenia-psychosis v1|readv2|E107.00|Cyclic schizophrenia|
-|schizophrenia-psychosis v1|readv2|E107.00|Schizo-affective schizophrenia|
-|schizophrenia-psychosis v1|readv2|E107.11|Cyclic schizophrenia|
-|schizophrenia-psychosis v1|readv2|E107000|Unspecified schizo-affective schizophrenia|
-|schizophrenia-psychosis v1|readv2|E107100|Subchronic schizo-affective schizophrenia|
-|schizophrenia-psychosis v1|readv2|E107200|Chronic schizo-affective schizophrenia|
-|schizophrenia-psychosis v1|readv2|E107300|Acute exacerbation of subchronic schizo-affective schizophrenia|
-|schizophrenia-psychosis v1|readv2|E107400|Acute exacerbation of chronic schizo-affective schizophrenia|
-|schizophrenia-psychosis v1|readv2|E107500|Schizo-affective schizophrenia in remission|
-|schizophrenia-psychosis v1|readv2|E107z00|Schizo-affective schizophrenia NOS|
-|schizophrenia-psychosis v1|readv2|E10y.00|Cenesthopathic schizophrenia|
-|schizophrenia-psychosis v1|readv2|E10y.00|Other schizophrenia|
-|schizophrenia-psychosis v1|readv2|E10y.11|Cenesthopathic schizophrenia|
-|schizophrenia-psychosis v1|readv2|E10y000|Atypical schizophrenia|
-|schizophrenia-psychosis v1|readv2|E10y100|Coenesthopathic schizophrenia|
-|schizophrenia-psychosis v1|readv2|E10yz00|Other schizophrenia NOS|
-|schizophrenia-psychosis v1|readv2|E10z.00|Schizophrenia NOS|
-|schizophrenia-psychosis v1|readv2|E11..00|Affective psychoses|
-|schizophrenia-psychosis v1|readv2|E11..11|Bipolar psychoses|
-|schizophrenia-psychosis v1|readv2|E11..12|Depressive psychoses|
-|schizophrenia-psychosis v1|readv2|E11..13|Manic psychoses|
-|schizophrenia-psychosis v1|readv2|E11y.00|Other and unspecified manic-depressive psychoses|
-|schizophrenia-psychosis v1|readv2|E11y000|Unspecified manic-depressive psychoses|
-|schizophrenia-psychosis v1|readv2|E11y100|Atypical manic disorder|
-|schizophrenia-psychosis v1|readv2|E11y300|Other mixed manic-depressive psychoses|
-|schizophrenia-psychosis v1|readv2|E11yz00|Other and unspecified manic-depressive psychoses NOS|
-|schizophrenia-psychosis v1|readv2|E11z.00|Other and unspecified affective psychoses|
-|schizophrenia-psychosis v1|readv2|E11z000|Unspecified affective psychoses NOS|
-|schizophrenia-psychosis v1|readv2|E11zz00|Other affective psychosis NOS|
-|schizophrenia-psychosis v1|readv2|E12..00|Paranoid states|
-|schizophrenia-psychosis v1|readv2|E121.00|Chronic paranoid psychosis|
-|schizophrenia-psychosis v1|readv2|E121.11|Sander's disease|
-|schizophrenia-psychosis v1|readv2|E120.00|Simple paranoid state|
-|schizophrenia-psychosis v1|readv2|E122.00|Paraphrenia|
-|schizophrenia-psychosis v1|readv2|E123.00|Folie a deux|
-|schizophrenia-psychosis v1|readv2|E123.00|Shared paranoid disorder|
-|schizophrenia-psychosis v1|readv2|E12y.00|Other paranoid states|
-|schizophrenia-psychosis v1|readv2|E12y000|Paranoia querulans|
-|schizophrenia-psychosis v1|readv2|E12yz00|Other paranoid states NOS|
-|schizophrenia-psychosis v1|readv2|E12z.00|Paranoid psychosis NOS|
-|schizophrenia-psychosis v1|readv2|E13..00|Other nonorganic psychoses|
-|schizophrenia-psychosis v1|readv2|E13..11|Reactive psychoses|
-|schizophrenia-psychosis v1|readv2|E13..00|Reactive psychoses|
-|schizophrenia-psychosis v1|readv2|E130.00|Reactive depressive psychosis|
-|schizophrenia-psychosis v1|readv2|E131.00|Acute hysterical psychosis|
-|schizophrenia-psychosis v1|readv2|E132.00|Reactive confusion|
-|schizophrenia-psychosis v1|readv2|E133.00|Bouffee delirante|
-|schizophrenia-psychosis v1|readv2|E134.00|Psychogenic paranoid psychosis|
-|schizophrenia-psychosis v1|readv2|E13y.00|Other reactive psychoses|
-|schizophrenia-psychosis v1|readv2|E13yz00|Other reactive psychoses NOS|
-|schizophrenia-psychosis v1|readv2|E13y000|Psychogenic stupor|
-|schizophrenia-psychosis v1|readv2|E13y100|Brief reactive psychosis|
-|schizophrenia-psychosis v1|readv2|E13z.00|Nonorganic psychosis NOS|
-|schizophrenia-psychosis v1|readv2|E13z.00|Psychotic episode NOS|
-|schizophrenia-psychosis v1|readv2|E14..00|Psychoses with origin in childhood|
-|schizophrenia-psychosis v1|readv2|E141.00|Disintegrative psychosis|
-|schizophrenia-psychosis v1|readv2|E141.11|Heller's syndrome|
-|schizophrenia-psychosis v1|readv2|E141000|Active disintegrative psychoses|
-|schizophrenia-psychosis v1|readv2|E141100|Residual disintegrative psychoses|
-|schizophrenia-psychosis v1|readv2|E141z00|Disintegrative psychosis NOS|
-|schizophrenia-psychosis v1|readv2|E14y.00|Other childhood psychoses|
-|schizophrenia-psychosis v1|readv2|E14y000|Atypical childhood psychoses|
-|schizophrenia-psychosis v1|readv2|E14y100|Borderline psychosis of childhood|
-|schizophrenia-psychosis v1|readv2|E14yz00|Other childhood psychoses NOS|
-|schizophrenia-psychosis v1|readv2|E14z.00|Child psychosis NOS|
-|schizophrenia-psychosis v1|readv2|E14z.11|Childhood schizophrenia NOS|
-|schizophrenia-psychosis v1|readv2|E1y..00|Other specified non-organic psychoses|
-|schizophrenia-psychosis v1|readv2|E1z..00|Non-organic psychosis NOS|
-|schizophrenia-psychosis v1|readv2|E201.00|Hysteria|
-|schizophrenia-psychosis v1|readv2|E201000|Hysteria unspecified|
-|schizophrenia-psychosis v1|readv2|E201z00|Hysteria NOS|
-|schizophrenia-psychosis v1|readv2|E210.00|Paranoid personality disorder|
-|schizophrenia-psychosis v1|readv2|E211.00|Affective personality disorder|
-|schizophrenia-psychosis v1|readv2|E211000|Unspecified affective personality disorder|
-|schizophrenia-psychosis v1|readv2|E211300|Cyclothymic personality disorder|
-|schizophrenia-psychosis v1|readv2|E211z00|Affective personality disorder NOS|
-|schizophrenia-psychosis v1|readv2|E212.00|Schizoid personality disorder|
-|schizophrenia-psychosis v1|readv2|E212000|Unspecified schizoid personality disorder|
-|schizophrenia-psychosis v1|readv2|E212200|Schizotypal personality|
-|schizophrenia-psychosis v1|readv2|E212z00|Schizoid personality disorder NOS|
-|schizophrenia-psychosis v1|readv2|E212200|Schizotypal personality|
-|schizophrenia-psychosis v1|readv2|Eu05200|[X]Organic delusional [schizophrenia-like] disorder|
-|schizophrenia-psychosis v1|readv2|Eu05200|[X]Paranoid organic state|
-|schizophrenia-psychosis v1|readv2|Eu05200|[X]Schizophrenia-like psychosis in epilepsy|
-|schizophrenia-psychosis v1|readv2|Eu02z12|[X] Presenile psychosis NOS|
-|schizophrenia-psychosis v1|readv2|Eu02z15|[X] Senile psychosis NOS|
-|schizophrenia-psychosis v1|readv2|Eu03.11|"[X]Korsakov's psychosis, nonalcoholic"|
-|schizophrenia-psychosis v1|readv2|Eu04.13|[X]Acute / subacute infective psychosis|
-|schizophrenia-psychosis v1|readv2|Eu05200|[X]Organic delusional [schizophrenia-like] disorder|
-|schizophrenia-psychosis v1|readv2|Eu05211|[X]Paranoid organic state|
-|schizophrenia-psychosis v1|readv2|Eu05212|[X]Schizophrenia-like psychosis in epilepsy|
-|schizophrenia-psychosis v1|readv2|Eu05300|[X]Organic mood [affective] disorders|
-|schizophrenia-psychosis v1|readv2|Eu05y11|[X]Epileptic psychosis NOS|
-|schizophrenia-psychosis v1|readv2|Eu0z.12|[X]Symptomatic psychosis NOS|
-|schizophrenia-psychosis v1|readv2|Eu2..00|"[X]Schizophrenia, schizotypal and delusional disorders"|
-|schizophrenia-psychosis v1|readv2|Eu20.00|[X]Schizophrenia|
-|schizophrenia-psychosis v1|readv2|Eu20000|[X]Paranoid schizophrenia|
-|schizophrenia-psychosis v1|readv2|Eu20011|[X]Paraphrenic schizophrenia|
-|schizophrenia-psychosis v1|readv2|Eu20100|[X]Hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|readv2|Eu20111|[X]Disorganised schizophrenia|
-|schizophrenia-psychosis v1|readv2|Eu20200|[X]Catatonic schizophrenia|
-|schizophrenia-psychosis v1|readv2|Eu20211|[X]Catatonic stupor|
-|schizophrenia-psychosis v1|readv2|Eu20212|[X]Schizophrenic catalepsy|
-|schizophrenia-psychosis v1|readv2|Eu20213|[X]Schizophrenic catatonia|
-|schizophrenia-psychosis v1|readv2|Eu20214|[X]Schizophrenic flexibilatis cerea|
-|schizophrenia-psychosis v1|readv2|Eu20300|[X]Undifferentiated schizophrenia|
-|schizophrenia-psychosis v1|readv2|Eu20311|[X]Atypical schizophrenia|
-|schizophrenia-psychosis v1|readv2|Eu20400|[X]Post-schizophrenic depression|
-|schizophrenia-psychosis v1|readv2|Eu20500|[X]Residual schizophrenia|
-|schizophrenia-psychosis v1|readv2|Eu20511|[X]Chronic undifferentiated schizophrenia|
-|schizophrenia-psychosis v1|readv2|Eu20512|[X]Restzustand schizophrenic|
-|schizophrenia-psychosis v1|readv2|Eu20600|[X]Simple schizophrenia|
-|schizophrenia-psychosis v1|readv2|Eu20y00|[X]Other schizophrenia|
-|schizophrenia-psychosis v1|readv2|Eu20y11|[X]Cenesthopathic schizophrenia|
-|schizophrenia-psychosis v1|readv2|Eu20y12|[X]Schizophreniform disord NOS|
-|schizophrenia-psychosis v1|readv2|Eu20y13|[X]Schizophrenifrm psychos NOS|
-|schizophrenia-psychosis v1|readv2|Eu20z00|"[X]Schizophrenia, unspecified"|
-|schizophrenia-psychosis v1|readv2|Eu21.00|[X]Schizotypal disorder|
-|schizophrenia-psychosis v1|readv2|Eu21.11|[X]Latent schizophrenic reaction|
-|schizophrenia-psychosis v1|readv2|Eu21.12|[X]Borderline schizophrenia|
-|schizophrenia-psychosis v1|readv2|Eu21.13|[X]Latent schizophrenia|
-|schizophrenia-psychosis v1|readv2|Eu21.14|[X]Prepsychotic schizophrenia|
-|schizophrenia-psychosis v1|readv2|Eu21.15|[X]Prodromal schizophrenia|
-|schizophrenia-psychosis v1|readv2|Eu21.16|[X]Pseudoneurotic schizophrenia|
-|schizophrenia-psychosis v1|readv2|Eu21.17|[X]Pseudopsychopathic schizophrenia|
-|schizophrenia-psychosis v1|readv2|Eu21.18|[X]Schizotypal personality disorder|
-|schizophrenia-psychosis v1|readv2|Eu22.00|[X]Persistent delusional disorders|
-|schizophrenia-psychosis v1|readv2|Eu22000|[X]Delusional disorder|
-|schizophrenia-psychosis v1|readv2|Eu22011|[X]Paranoid psychosis|
-|schizophrenia-psychosis v1|readv2|Eu22012|[X]Paranoid state|
-|schizophrenia-psychosis v1|readv2|Eu22013|[X]Paraphrenia - late|
-|schizophrenia-psychosis v1|readv2|Eu22100|[X]Delusional misidentification syndrome|
-|schizophrenia-psychosis v1|readv2|Eu22111|[X]Capgras syndrome|
-|schizophrenia-psychosis v1|readv2|Eu22200|[X]Cotard syndrome|
-|schizophrenia-psychosis v1|readv2|Eu22300|[X]Paranoid state in remission|
-|schizophrenia-psychosis v1|readv2|Eu22y00|[X]Other persistent delusional disorders|
-|schizophrenia-psychosis v1|readv2|Eu22y11|[X]Delusional dysmorphophobia|
-|schizophrenia-psychosis v1|readv2|Eu22y12|[X]Involutional paranoid state|
-|schizophrenia-psychosis v1|readv2|Eu22y13|[X]Paranoia querulans|
-|schizophrenia-psychosis v1|readv2|Eu22z00|"[X]Persistent delusional disorder, unspecified"|
-|schizophrenia-psychosis v1|readv2|Eu23000|[X]Acute polymorphic psychotic disorder without symptoms of schizophrenia|
-|schizophrenia-psychosis v1|readv2|Eu23011|[X]Bouffee delirante|
-|schizophrenia-psychosis v1|readv2|Eu23012|[X]Cycloid psychosis|
-|schizophrenia-psychosis v1|readv2|Eu23100|[X]Acute polymorphic psychotic disorder with symptoms of schizophrenia|
-|schizophrenia-psychosis v1|readv2|Eu23111|[X]Bouffee delirante with symptoms of schizophrenia|
-|schizophrenia-psychosis v1|readv2|Eu23112|[X]Cycloid psychosis with symptoms of schizophrenia|
-|schizophrenia-psychosis v1|readv2|Eu23200|[X]Acute schizophrenia-like psychotic disorder|
-|schizophrenia-psychosis v1|readv2|Eu23211|[X]Brief schizophreniform disorder|
-|schizophrenia-psychosis v1|readv2|Eu23212|[X]Brief schizophrenifrm psych|
-|schizophrenia-psychosis v1|readv2|Eu23213|[X]Oneirophrenia|
-|schizophrenia-psychosis v1|readv2|Eu23214|[X]Schizophrenic reaction|
-|schizophrenia-psychosis v1|readv2|Eu23300|[X]Other acute predominantly delusional psychotic disorders|
-|schizophrenia-psychosis v1|readv2|Eu23312|[X]Psychogenic paranoid psychosis|
-|schizophrenia-psychosis v1|readv2|Eu23z11|[X]Brief reactive psychosis NOS|
-|schizophrenia-psychosis v1|readv2|Eu23z12|[X]Reactive psychosis|
-|schizophrenia-psychosis v1|readv2|Eu24.00|[X]Induced delusional disorder|
-|schizophrenia-psychosis v1|readv2|Eu24.11|[X]Folie a deux|
-|schizophrenia-psychosis v1|readv2|Eu25.00|[X]Schizoaffective disorders|
-|schizophrenia-psychosis v1|readv2|Eu25000|"[X]Schizoaffective disorder, manic type"|
-|schizophrenia-psychosis v1|readv2|Eu25011|"[X]Schizoaffective psychosis, manic type"|
-|schizophrenia-psychosis v1|readv2|Eu25012|"[X]Schizophreniform psychosis, manic type"|
-|schizophrenia-psychosis v1|readv2|Eu25100|"[X]Schizoaffective disorder, depressive type"|
-|schizophrenia-psychosis v1|readv2|Eu25111|"[X]Schizoaffective psychosis, depressive type"|
-|schizophrenia-psychosis v1|readv2|Eu25112|"[X]Schizophreniform psychosis, depressive type"|
-|schizophrenia-psychosis v1|readv2|Eu25200|"[X]Schizoaffective disorder, mixed type"|
-|schizophrenia-psychosis v1|readv2|Eu25211|[X]Cyclic schizophrenia|
-|schizophrenia-psychosis v1|readv2|Eu25212|[X]Mixed schizophrenic and affective psychosis|
-|schizophrenia-psychosis v1|readv2|Eu25y00|[X]Other schizoaffective disorders|
-|schizophrenia-psychosis v1|readv2|Eu25z00|"[X]Schizoaffective disorder, unspecified"|
-|schizophrenia-psychosis v1|readv2|Eu25z11|[X]Schizoaffective psychosis NOS|
-|schizophrenia-psychosis v1|readv2|Eu2y.00|[X]Other nonorganic psychotic disorders|
-|schizophrenia-psychosis v1|readv2|Eu2y.11|[X]Chronic hallucinatory psychosis|
-|schizophrenia-psychosis v1|readv2|Eu2z.11|[X]Psychosis NOS|
-|schizophrenia-psychosis v1|readv2|Eu30200|[X]Mania with psychotic symptoms|
-|schizophrenia-psychosis v1|readv2|Eu30211|[X]Mania with mood-congruent psychotic symptoms|
-|schizophrenia-psychosis v1|readv2|Eu30212|[X]Mania with mood-incongruent psychotic symptoms|
-|schizophrenia-psychosis v1|readv2|Eu30213|[X]Manic stupor|
-|schizophrenia-psychosis v1|readv2|Eu31.12|[X]Manic-depressive psychosis|
-|schizophrenia-psychosis v1|readv2|Eu31200|"[X]Bipolar affective disorder, current episode manic with psychotic symptoms"|
-|schizophrenia-psychosis v1|readv2|Eu31500|"[X]Bipolar affective disorder, current episode severe depression with psychotic symptoms"|
-|schizophrenia-psychosis v1|readv2|Eu32300|[X]Severe depressive episode with psychotic symptoms|
-|schizophrenia-psychosis v1|readv2|Eu32900|"[X]Single major depressive episode, severe, with psychosis, psychosis in remission"|
-|schizophrenia-psychosis v1|readv2|Eu32A00|"[X]Recurrent major depressive episodes, severe, with psychosis, psychosis in remission"|
-|schizophrenia-psychosis v1|readv2|Eu33300|"[X]Recurrent depressive disorder, current episode severe with psychotic symptoms"|
-|schizophrenia-psychosis v1|readv2|Eu33312|"[X]Manic-depressive psychosis, depressed type with psychotic symptoms"|
-|schizophrenia-psychosis v1|readv2|Eu33314|[X]Recurrent severe episodes of psychogenic depressive psychosis|
-|schizophrenia-psychosis v1|readv2|Eu33316|[X]Recurrent severe episodes of reactive depressive psychosis|
-|schizophrenia-psychosis v1|readv2|Eu3z.11|[X]Affective psychosis NOS|
-|schizophrenia-psychosis v1|readv2|Eu41y11|[X]Anxiety hysteria|
-|schizophrenia-psychosis v1|readv2|Eu44.11|[X]Conversion hysteria|
-|schizophrenia-psychosis v1|readv2|Eu44.13|[X]Hysteria|
-|schizophrenia-psychosis v1|readv2|Eu44.14|[X]Hysterical psychosis|
-|schizophrenia-psychosis v1|readv2|Eu45212|[X]Dysmorphophobia nondelusional|
-|schizophrenia-psychosis v1|readv2|Eu53111|[X]Puerperal psychosis NOS|
-|schizophrenia-psychosis v1|readv2|Eu60000|[X]Paranoid personality disorder|
-|schizophrenia-psychosis v1|readv2|Eu60011|[X]Expansive paranoid personality disorder|
-|schizophrenia-psychosis v1|readv2|Eu60012|[X]Fanatic paranoid personality disorder|
-|schizophrenia-psychosis v1|readv2|Eu60014|[X]Sensitive paranoid personality disorder|
-|schizophrenia-psychosis v1|readv2|Eu60100|[X]Schizoid personality disorder|
-|schizophrenia-psychosis v1|readv2|Eu84013|[X]Infantile psychosis|
-|schizophrenia-psychosis v1|readv2|Eu84111|[X]Atypical childhood psychosis|
-|schizophrenia-psychosis v1|readv2|Eu84312|[X]Disintegrative psychosis|
-|schizophrenia-psychosis v1|readv2|Eu84314|[X]Symbiotic psychosis|
-|schizophrenia-psychosis v1|readv2|Eu84512|[X]Schizoid disorder of childhood|
-|schizophrenia-psychosis v1|readv2|F481K00|Visual hallucinations|
-|schizophrenia-psychosis v1|readv2|R001.00|[D]Hallucinations|
-|schizophrenia-psychosis v1|readv2|R001000|"[D]Hallucinations, auditory"|
-|schizophrenia-psychosis v1|readv2|R001100|"[D]Hallucinations, gustatory"|
-|schizophrenia-psychosis v1|readv2|R001200|"[D]Hallucinations, olfactory"|
-|schizophrenia-psychosis v1|readv2|R001300|"[D]Hallucinations, tactile"|
-|schizophrenia-psychosis v1|readv2|R001400|[D]Visual hallucinations|
-|schizophrenia-psychosis v1|readv2|R001z00|[D]Hallucinations NOS|
-|schizophrenia-psychosis v1|readv2|Ryu5300|[X]Other hallucinations|
-|schizophrenia-psychosis v1|readv2|ZV11000|[V]Personal history of schizophrenia|
-|schizophrenia-psychosis v1|readv2|ZV11111|[V]Personal history of manic-depressive psychosis|
-|schizophrenia-psychosis v1|readv2|ZV11112|[V]Personal history of manic-depressive psychosis|
-|schizophrenia-psychosis v1|readv2|E1104|Single manic episode, severe, with psychosis|
-|schizophrenia-psychosis v1|readv2|E02y.|Other drug psychoses|
-|schizophrenia-psychosis v1|readv2|E0y..|Other specified organic psychoses|
-|schizophrenia-psychosis v1|readv2|E1134|Recurrent major depressive episodes, severe, with psychosis|
-|schizophrenia-psychosis v1|readv2|E1174|Unspecified bipolar affective disorder, severe, with psychosis|
-|schizophrenia-psychosis v1|readv2|E010.|Delirium tremens|
-|schizophrenia-psychosis v1|readv2|Eu125|[X]Mental and behavioural disorders due to use of cannabinoids: psychotic disorder|
-|schizophrenia-psychosis v1|readv2|Eu135|[X]Mental and behavioural disorders due to use of sedatives or hypnotics: psychotic disorder|
-|schizophrenia-psychosis v1|readv2|Eu23.|[X]Acute and transient psychotic disorders|
-|schizophrenia-psychosis v1|readv2|Eu195|[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: psychotic disorder|
-|schizophrenia-psychosis v1|readv2|E0210|Drug-induced paranoid state|
-|schizophrenia-psychosis v1|readv2|E03y.|Other transient organic psychoses|
-|schizophrenia-psychosis v1|readv2|E0z..|Organic psychoses NOS|
-|schizophrenia-psychosis v1|readv2|Eu106|[X]Mental and behavioural disorders due to use of alcohol: amnesic syndrome|
-|schizophrenia-psychosis v1|readv2|Eu107|[X]Mental and behavioural disorders due to use of alcohol: residual and late-onset psychotic disorder|
-|schizophrenia-psychosis v1|readv2|Eu115|[X]Mental and behavioural disorders due to use of opioids: psychotic disorder|
-|schizophrenia-psychosis v1|readv2|E0111|Korsakov's alcoholic psychosis with peripheral neuritis|
-|schizophrenia-psychosis v1|readv2|E0211|Drug-induced hallucinosis|
-|schizophrenia-psychosis v1|readv2|E03..|Transient organic psychoses|
-|schizophrenia-psychosis v1|readv2|E1154|Bipolar affective disorder, currently depressed, severe, with psychosis|
-|schizophrenia-psychosis v1|readv2|Eu106|[X]Korsakov's psychosis, alcohol induced|
-|schizophrenia-psychosis v1|readv2|Eu155|[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: psychotic disorder|
-|schizophrenia-psychosis v1|readv2|E021.|Drug-induced paranoia or hallucinatory states|
-|schizophrenia-psychosis v1|readv2|E021z|Drug-induced paranoia or hallucinatory state NOS|
-|schizophrenia-psychosis v1|readv2|E02y4|Drug-induced personality disorder|
-|schizophrenia-psychosis v1|readv2|E04y.|Other specified chronic organic psychoses|
-|schizophrenia-psychosis v1|readv2|E02z.|Drug psychosis NOS|
-|schizophrenia-psychosis v1|readv2|E03z.|Transient organic psychoses NOS|
-|schizophrenia-psychosis v1|readv2|E04z.|Chronic organic psychosis NOS|
-|schizophrenia-psychosis v1|readv2|Eu145|[X]Mental and behavioural disorders due to use of cocaine: psychotic disorder|
-|schizophrenia-psychosis v1|readv2|E0...|Organic psychotic conditions|
-|schizophrenia-psychosis v1|readv2|E00..|Senile and presenile organic psychotic conditions|
-|schizophrenia-psychosis v1|readv2|E00y.|Other senile and presenile organic psychoses|
-|schizophrenia-psychosis v1|readv2|E010.|DTs - delirium tremens|
-|schizophrenia-psychosis v1|readv2|E0112|Wernicke-Korsakov syndrome|
-|schizophrenia-psychosis v1|readv2|E02y0|Drug-induced delirium|
-|schizophrenia-psychosis v1|readv2|E1114|Recurrent manic episodes, severe, with psychosis|
-|schizophrenia-psychosis v1|readv2|Eu104|[X]Delirium tremens, alcohol induced|
-|schizophrenia-psychosis v1|readv2|E02..|Drug psychoses|
-|schizophrenia-psychosis v1|readv2|E1144|Bipolar affective disorder, currently manic, severe, with psychosis|
-|schizophrenia-psychosis v1|readv2|E1164|Mixed bipolar affective disorder, severe, with psychosis|
-|schizophrenia-psychosis v1|readv2|E04..|Other chronic organic psychoses|
+|schizophrenia-psychosis v1|ctv3|13Y2.|Schizophrenia association member|
+|schizophrenia-psychosis v1|ctv3|286..|Poor insight into psychotic condition|
+|schizophrenia-psychosis v1|ctv3|1BC..|Morbid jealousy|
+|schizophrenia-psychosis v1|ctv3|1B1E.|Hallucinations|
+|schizophrenia-psychosis v1|ctv3|1464|H/O: schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E0...|Organic psychotic condition|
+|schizophrenia-psychosis v1|ctv3|E00..|Senile and presenile organic psychotic conditions (& dementia)|
+|schizophrenia-psychosis v1|ctv3|E00y.|(Other senile and presenile organic psychoses) or (presbyophrenic psychosis)|
+|schizophrenia-psychosis v1|ctv3|E00z.|Senile or presenile psychoses NOS|
+|schizophrenia-psychosis v1|ctv3|E010.|Delirium tremens|
+|schizophrenia-psychosis v1|ctv3|E011.|Korsakoff psychosis|
+|schizophrenia-psychosis v1|ctv3|E0111|Korsakov's alcoholic psychosis with peripheral neuritis|
+|schizophrenia-psychosis v1|ctv3|E0112|Wernicke-Korsakov syndrome|
+|schizophrenia-psychosis v1|ctv3|E02..|Drug-induced psychosis|
+|schizophrenia-psychosis v1|ctv3|E021.|Drug-induced paranoia or hallucinatory states|
+|schizophrenia-psychosis v1|ctv3|E0210|Drug-induced paranoid state|
+|schizophrenia-psychosis v1|ctv3|E0211|Drug-induced hallucinosis|
+|schizophrenia-psychosis v1|ctv3|E021z|Drug-induced paranoia or hallucinatory state NOS|
+|schizophrenia-psychosis v1|ctv3|E02y.|Other drug psychoses|
+|schizophrenia-psychosis v1|ctv3|E02y0|Drug-induced delirium|
+|schizophrenia-psychosis v1|ctv3|E02y3|Drug-induced depressive state|
+|schizophrenia-psychosis v1|ctv3|E02y4|Drug-induced personality disorder|
+|schizophrenia-psychosis v1|ctv3|E02z.|Drug psychosis NOS|
+|schizophrenia-psychosis v1|ctv3|E03..|Transient organic psychoses|
+|schizophrenia-psychosis v1|ctv3|E03y.|Other transient organic psychoses|
+|schizophrenia-psychosis v1|ctv3|E03y0|Organic delusional disorder|
+|schizophrenia-psychosis v1|ctv3|E03y0|Paranoid organic state|
+|schizophrenia-psychosis v1|ctv3|E03y3|Unspecified puerperal psychosis|
+|schizophrenia-psychosis v1|ctv3|E03z.|Transient organic psychoses NOS|
+|schizophrenia-psychosis v1|ctv3|E04..|Other chronic organic psychoses|
+|schizophrenia-psychosis v1|ctv3|E04y.|Other specified chronic organic psychoses|
+|schizophrenia-psychosis v1|ctv3|E04z.|Chronic organic psychosis NOS|
+|schizophrenia-psychosis v1|ctv3|E0y..|Other specified organic psychoses|
+|schizophrenia-psychosis v1|ctv3|E0z..|Organic psychoses NOS|
+|schizophrenia-psychosis v1|ctv3|E1...|Non-organic psychoses|
+|schizophrenia-psychosis v1|ctv3|E100.|Schizophrenia simplex|
+|schizophrenia-psychosis v1|ctv3|E100.|Simple schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1000|Unspecified schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1001|Subchronic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1002|Chronic schizophrenic|
+|schizophrenia-psychosis v1|ctv3|E1003|Acute exacerbation of subchronic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1004|Acute exacerbation of chronic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1005|Schizophrenia in remission|
+|schizophrenia-psychosis v1|ctv3|E100z|Simple schizophrenia NOS|
+|schizophrenia-psychosis v1|ctv3|E101.|Disorganised schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E101.|Hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1010|Unspecified hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1011|Subchronic hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1012|Chronic hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1013|Acute exacerbation of subchronic hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1014|Acute exacerbation of chronic hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1015|Hebephrenic schizophrenia in remission|
+|schizophrenia-psychosis v1|ctv3|E101z|Hebephrenic schizophrenia NOS|
+|schizophrenia-psychosis v1|ctv3|E102.|[X]Schizophrenic flexibilatis cerea|
+|schizophrenia-psychosis v1|ctv3|E102.|Catatonic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1020|Unspecified catatonic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1021|Subchronic catatonic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1022|Chronic catatonic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1023|Acute exacerbation of subchronic catatonic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1024|Acute exacerbation of chronic catatonic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1025|Catatonic schizophrenia in remission|
+|schizophrenia-psychosis v1|ctv3|E102z|Catatonic schizophrenia NOS|
+|schizophrenia-psychosis v1|ctv3|E103.|Paranoid schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E103.|Paraphrenic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1030|Unspecified paranoid schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1031|Subchronic paranoid schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1032|Chronic paranoid schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1033|Acute exacerbation of subchronic paranoid schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1034|Acute exacerbation of chronic paranoid schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1035|Paranoid schizophrenia in remission|
+|schizophrenia-psychosis v1|ctv3|E103z|Paranoid schizophrenia NOS|
+|schizophrenia-psychosis v1|ctv3|E104.|Oneirophrenia|
+|schizophrenia-psychosis v1|ctv3|E105.|Latent schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1050|Unspecified latent schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1051|Subchronic latent schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1052|Chronic latent schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1053|Acute exacerbation of subchronic latent schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1054|Acute exacerbation of chronic latent schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1055|Latent schizophrenia in remission|
+|schizophrenia-psychosis v1|ctv3|E105z|Latent schizophrenia NOS|
+|schizophrenia-psychosis v1|ctv3|E106.|Residual schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E106.|Restzustand|
+|schizophrenia-psychosis v1|ctv3|E107.|Cyclic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E107.|Schizoaffective schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1070|Unspecified schizoaffective schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1071|Subchronic schizoaffective schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1072|Chronic schizoaffective schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1073|Acute exacerbation of subchronic schizoaffective schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1074|Acute exacerbation of chronic schizoaffective schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E1075|Schizoaffective schizophrenia in remission|
+|schizophrenia-psychosis v1|ctv3|E107z|Schizoaffective schizophrenia NOS|
+|schizophrenia-psychosis v1|ctv3|E10y.|Cenesthopathic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E10y.|Other schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E10y.|Schizophrenia: [other] or [cenesthopathic]|
+|schizophrenia-psychosis v1|ctv3|E10y0|Atypical schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E10y0|Undifferentiated schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E10y1|Cenesthopathic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E10y1|Coenesthopathic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|E10yz|Other schizophrenia NOS|
+|schizophrenia-psychosis v1|ctv3|E10z.|Schizophrenia NOS|
+|schizophrenia-psychosis v1|ctv3|E11..|Affective psychoses (& [bipolar] or [depressive] or [manic])|
+|schizophrenia-psychosis v1|ctv3|E1104|"Single manic episode, severe, with psychosis"|
+|schizophrenia-psychosis v1|ctv3|E1114|"Recurrent manic episodes, severe, with psychosis"|
+|schizophrenia-psychosis v1|ctv3|E1134|"Recurrent major depressive episodes, severe, with psychosis"|
+|schizophrenia-psychosis v1|ctv3|E1144|"Bipolar affect disord, currently manic,severe with psychosis"|
+|schizophrenia-psychosis v1|ctv3|E1154|"Bipolar affect disord, now depressed, severe with psychosis"|
+|schizophrenia-psychosis v1|ctv3|E1164|"Mixed bipolar affective disorder, severe, with psychosis"|
+|schizophrenia-psychosis v1|ctv3|E1174|"Unspecified bipolar affective disorder,severe with psychosis"|
+|schizophrenia-psychosis v1|ctv3|E11y.|Other and unspecified manic-depressive psychoses|
+|schizophrenia-psychosis v1|ctv3|E11y0|Unspecified manic-depressive psychoses|
+|schizophrenia-psychosis v1|ctv3|E11yz|Other and unspecified manic-depressive psychoses NOS|
+|schizophrenia-psychosis v1|ctv3|E11z.|Other and unspecified affective psychoses|
+|schizophrenia-psychosis v1|ctv3|E11z0|Unspecified affective psychoses NOS|
+|schizophrenia-psychosis v1|ctv3|E11zz|Other affective psychosis NOS|
+|schizophrenia-psychosis v1|ctv3|E12..|Paranoid disorder|
+|schizophrenia-psychosis v1|ctv3|E12..|Paranoid disorder|
+|schizophrenia-psychosis v1|ctv3|E120.|Simple paranoid state|
+|schizophrenia-psychosis v1|ctv3|E122.|Paraphrenia|
+|schizophrenia-psychosis v1|ctv3|E123.|Folie a deux|
+|schizophrenia-psychosis v1|ctv3|E123.|Shared paranoid disorder|
+|schizophrenia-psychosis v1|ctv3|E12y.|Other paranoid states|
+|schizophrenia-psychosis v1|ctv3|E12y.|Other paranoid states|
+|schizophrenia-psychosis v1|ctv3|E12y0|Paranoia querulans|
+|schizophrenia-psychosis v1|ctv3|E12yz|Other paranoid states NOS|
+|schizophrenia-psychosis v1|ctv3|E12z.|Paranoid psychosis NOS|
+|schizophrenia-psychosis v1|ctv3|E13..|Psychoses: [other nonorganic] or [reactive]|
+|schizophrenia-psychosis v1|ctv3|E13..|Reactive psychoses|
+|schizophrenia-psychosis v1|ctv3|E130.|Reactive depressive psychosis|
+|schizophrenia-psychosis v1|ctv3|E131.|Acute hysterical psychosis|
+|schizophrenia-psychosis v1|ctv3|E133.|Bouffee delirante|
+|schizophrenia-psychosis v1|ctv3|E134.|Psychogenic paranoid psychosis|
+|schizophrenia-psychosis v1|ctv3|E13y.|Other reactive psychoses|
+|schizophrenia-psychosis v1|ctv3|E13y0|Psychogenic stupor|
+|schizophrenia-psychosis v1|ctv3|E13y1|Brief reactive psychosis|
+|schizophrenia-psychosis v1|ctv3|E13yz|Other reactive psychoses NOS|
+|schizophrenia-psychosis v1|ctv3|E13z.|Nonorganic psychosis NOS|
+|schizophrenia-psychosis v1|ctv3|E13z.|Psychosis: [nonorganic NOS] or [episode NOS]|
+|schizophrenia-psychosis v1|ctv3|E13z.|Psychotic episode NOS|
+|schizophrenia-psychosis v1|ctv3|E14..|Psychoses with origin in childhood|
+|schizophrenia-psychosis v1|ctv3|E141.|Disintegrative psychosis|
+|schizophrenia-psychosis v1|ctv3|E141.|Childhood disintegrative disorder|
+|schizophrenia-psychosis v1|ctv3|E141z|Disintegrative psychosis NOS|
+|schizophrenia-psychosis v1|ctv3|E14y0|Atypical childhood psychoses|
+|schizophrenia-psychosis v1|ctv3|E14y1|Borderline psychosis of childhood|
+|schizophrenia-psychosis v1|ctv3|E14yz|Other childhood psychoses NOS|
+|schizophrenia-psychosis v1|ctv3|E14z.|Childhood schizophrenia NOS|
+|schizophrenia-psychosis v1|ctv3|E1410|Active disintegrative psychoses|
+|schizophrenia-psychosis v1|ctv3|E1411|Residual disintegrative psychoses|
+|schizophrenia-psychosis v1|ctv3|E1y..|Other specified non-organic psychoses|
+|schizophrenia-psychosis v1|ctv3|E201.|Hysteria|
+|schizophrenia-psychosis v1|ctv3|E2010|Hysteria unspecified|
+|schizophrenia-psychosis v1|ctv3|E2110|Unspecified affective personality disorder|
+|schizophrenia-psychosis v1|ctv3|E2113|Affective personality disorder|
+|schizophrenia-psychosis v1|ctv3|E211z|Affective personality disorder NOS|
+|schizophrenia-psychosis v1|ctv3|E212.|Schizoid personality disorder|
+|schizophrenia-psychosis v1|ctv3|E2120|Unspecified schizoid personality disorder|
+|schizophrenia-psychosis v1|ctv3|E2122|Schizotypal personality disorder|
+|schizophrenia-psychosis v1|ctv3|E212z|Schizoid personality disorder NOS|
+|schizophrenia-psychosis v1|ctv3|Eu04.|[X]Acute / subacute infective psychosis|
+|schizophrenia-psychosis v1|ctv3|Eu02z|[X] Dementia: [unspecif] or [presenile NOS (including presenile psychosis NOS)] or [primary degenerative NOS] or [senile NOS (including senile psychosis NOS)] or [senile depressed or paranoid type]|
+|schizophrenia-psychosis v1|ctv3|Eu052|[X] (Organic delusional (schizophrenia-like) disorder) or (paranoid organic state) or (schizophrenia-like psychosis in epilepsy)|
+|schizophrenia-psychosis v1|ctv3|Eu052|[X]Organic delusional [schizophrenia-like] disorder|
+|schizophrenia-psychosis v1|ctv3|Eu052|[X]Paranoid organic state|
+|schizophrenia-psychosis v1|ctv3|Eu052|[X]Schizophrenia-like psychosis in epilepsy|
+|schizophrenia-psychosis v1|ctv3|Eu104|[X]Mental and behavioural disorders due to use of alcohol: withdrawal state with delirium|
+|schizophrenia-psychosis v1|ctv3|Eu106|[X]Mental and behavioural disorders due to use of alcohol: amnesic syndrome|
+|schizophrenia-psychosis v1|ctv3|Eu107|[X] (Mental and behavioural disorders due to use of alcohol: residual and late-onset psychotic disorder) or (chronic alcoholic brain syndrome [& dementia NOS])|
+|schizophrenia-psychosis v1|ctv3|Eu115|[X]Mental and behavioural disorders due to use of opioids: psychotic disorder|
+|schizophrenia-psychosis v1|ctv3|Eu125|[X]Mental and behavioural disorders due to use of cannabinoids: psychotic disorder|
+|schizophrenia-psychosis v1|ctv3|Eu135|[X]Mental and behavioural disorders due to use of sedatives or hypnotics: psychotic disorder|
+|schizophrenia-psychosis v1|ctv3|Eu145|[X]Mental and behavioural disorders due to use of cocaine: psychotic disorder|
+|schizophrenia-psychosis v1|ctv3|Eu155|"[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: psychotic disorder"|
+|schizophrenia-psychosis v1|ctv3|Eu195|[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: psychotic disorder|
+|schizophrenia-psychosis v1|ctv3|Eu2..|"[X]Schizophrenia, schizotypal and delusional disorders"|
+|schizophrenia-psychosis v1|ctv3|Eu20.|Schizophrenia|
+|schizophrenia-psychosis v1|ctv3|Eu202|[X] (Catatonic schizophrenia) or (catatonic stupor) or (schizophrenic catalepsy) or (schizophrenic catatonia) or (schizophrenic flexibilatis cerea)|
+|schizophrenia-psychosis v1|ctv3|Eu202|[X]Catatonic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|Eu202|[X]Schizophrenic catalepsy|
+|schizophrenia-psychosis v1|ctv3|Eu202|[X]Schizophrenic catatonia|
+|schizophrenia-psychosis v1|ctv3|Eu202|[X]Schizophrenic flexibilatis cerea|
+|schizophrenia-psychosis v1|ctv3|Eu203|[X]Undifferentiated schizophrenia|
+|schizophrenia-psychosis v1|ctv3|Eu20y|[X] (Schizophrenia: [cenesthopathic] or [other]) or (schizophreniform disorder [including psychosis] NOS)|
+|schizophrenia-psychosis v1|ctv3|Eu20y|[X]Cenesthopathic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|Eu20y|[X]Other schizophrenia|
+|schizophrenia-psychosis v1|ctv3|Eu20z|"[X]Schizophrenia, unspecified"|
+|schizophrenia-psychosis v1|ctv3|Eu21.|[X]Borderline schizophrenia|
+|schizophrenia-psychosis v1|ctv3|Eu21.|[X]Latent schizophrenia|
+|schizophrenia-psychosis v1|ctv3|Eu21.|[X]Latent schizophrenic reaction|
+|schizophrenia-psychosis v1|ctv3|Eu21.|[X]Prepsychotic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|Eu21.|[X]Prodromal schizophrenia|
+|schizophrenia-psychosis v1|ctv3|Eu21.|[X]Pseudoneurotic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|Eu21.|[X]Pseudopsychopathic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|Eu21.|[X]Schizotypal disorder|
+|schizophrenia-psychosis v1|ctv3|Eu21.|[X]Schizotypal personality disorder|
+|schizophrenia-psychosis v1|ctv3|Eu220|[X]Delusional disorder|
+|schizophrenia-psychosis v1|ctv3|Eu220|[X]Paranoia|
+|schizophrenia-psychosis v1|ctv3|Eu220|[X]Paranoid psychosis|
+|schizophrenia-psychosis v1|ctv3|Eu220|[X]Paranoid state|
+|schizophrenia-psychosis v1|ctv3|Eu220|[X]Paraphrenia - late|
+|schizophrenia-psychosis v1|ctv3|Eu220|[X]Sensitiver Beziehungswahn|
+|schizophrenia-psychosis v1|ctv3|Eu220|Paranoid state|
+|schizophrenia-psychosis v1|ctv3|Eu220|Sensitiver Beziehungswahm|
+|schizophrenia-psychosis v1|ctv3|Eu22y|[X] (Other persistent delusional disorders) or (delusional dysmorphophobia) or (involutional paranoid state) or (paranoia querulans)|
+|schizophrenia-psychosis v1|ctv3|Eu22y|[X]Other persistent delusional disorders|
+|schizophrenia-psychosis v1|ctv3|Eu22z|"[X]Persistent delusional disorder, unspecified"|
+|schizophrenia-psychosis v1|ctv3|Eu22z|"[X]Persistent delusional disorder, unspecified"|
+|schizophrenia-psychosis v1|ctv3|Eu230|[X]Acute polymorphic psychotic disorder without symptoms of schizophrenia|
+|schizophrenia-psychosis v1|ctv3|Eu230|[X]Bouffee delirante|
+|schizophrenia-psychosis v1|ctv3|Eu230|[X]Cycloid psychosis|
+|schizophrenia-psychosis v1|ctv3|Eu231|[X]Acute polymorphic psychotic disorder with symptoms of schizophrenia|
+|schizophrenia-psychosis v1|ctv3|Eu232|[X] Acute schizophrenia-like psychotic disorder (& [brief schizophreniform disorder] or [brief schizophrenifrm psych] or [oneirophrenia] or [schizophrenic reaction])|
+|schizophrenia-psychosis v1|ctv3|Eu232|[X]Acute schizophrenia-like psychotic disorder|
+|schizophrenia-psychosis v1|ctv3|Eu232|[X]Oneirophrenia|
+|schizophrenia-psychosis v1|ctv3|Eu233|[X] (Other acute predominantly delusional psychotic disorders) or (psychogenic paranoid psychosis)|
+|schizophrenia-psychosis v1|ctv3|Eu233|[X]Other acute predominantly delusional psychotic disorders|
+|schizophrenia-psychosis v1|ctv3|Eu233|[X]Psychogenic paranoid psychosis|
+|schizophrenia-psychosis v1|ctv3|Eu23y|[X]Other acute and transient psychotic disorders|
+|schizophrenia-psychosis v1|ctv3|Eu23z|"[X]Acute and transient psychotic disorder, unspecified"|
+|schizophrenia-psychosis v1|ctv3|Eu23z|"[X]Acute and transient psychotic disorder, unspecified (& [reactive psychosis (including brief NOS)])"|
+|schizophrenia-psychosis v1|ctv3|Eu23z|[X]Reactive psychosis|
+|schizophrenia-psychosis v1|ctv3|Eu23z|Reactive psychoses|
+|schizophrenia-psychosis v1|ctv3|Eu24.|Induced delusional disorder|
+|schizophrenia-psychosis v1|ctv3|Eu24.|Induced paranoid disorder|
+|schizophrenia-psychosis v1|ctv3|Eu24.|Induced psychosis|
+|schizophrenia-psychosis v1|ctv3|Eu24.|Symbiotic psychosis|
+|schizophrenia-psychosis v1|ctv3|Eu25.|Schizoaffective disorder|
+|schizophrenia-psychosis v1|ctv3|Eu252|"[X](Schizoaffective disorder, mixed type) or (cyclic schizophrenia) or (mixed schizophrenic and affective psychosis)"|
+|schizophrenia-psychosis v1|ctv3|Eu252|[X]Cyclic schizophrenia|
+|schizophrenia-psychosis v1|ctv3|Eu252|[X]Mixed schizophrenic and affective psychosis|
+|schizophrenia-psychosis v1|ctv3|Eu252|"[X]Schizoaffective disorder, mixed type"|
+|schizophrenia-psychosis v1|ctv3|Eu25y|[X]Other schizoaffective disorders|
+|schizophrenia-psychosis v1|ctv3|Eu25z|"[X]Schizoaffective disorder, unspecified"|
+|schizophrenia-psychosis v1|ctv3|Eu2y.|[X] (Other nonorganic psychotic disorders) or (chronic hallucinatory psychosis)|
+|schizophrenia-psychosis v1|ctv3|Eu2y.|[X] Chronic hallucinatory psychosis|
+|schizophrenia-psychosis v1|ctv3|Eu2y.|[X]Chronic hallucinatory psychosis|
+|schizophrenia-psychosis v1|ctv3|Eu2y.|[X]Other nonorganic psychotic disorders|
+|schizophrenia-psychosis v1|ctv3|Eu2z.|[X] Psychosis NOS|
+|schizophrenia-psychosis v1|ctv3|Eu2z.|[X] Psychosis: [unspecified nonorganic] or [NOS]|
+|schizophrenia-psychosis v1|ctv3|Eu2z.|[X]Psychosis NOS|
+|schizophrenia-psychosis v1|ctv3|Eu2z.|[X]Unspecified nonorganic psychosis|
+|schizophrenia-psychosis v1|ctv3|Eu332|"[X]Depression without psychotic symptoms: [recurrent: [major] or [manic-depressive psychosis, depressed type] or [vital] or [current severe episode]] or [endogenous]"|
+|schizophrenia-psychosis v1|ctv3|X00Qx|Psychotic episode NOS|
+|schizophrenia-psychosis v1|ctv3|X00Qy|Reactive psychoses|
+|schizophrenia-psychosis v1|ctv3|X00RU|Epileptic psychosis|
+|schizophrenia-psychosis v1|ctv3|X00RV|Intensive care psychosis|
+|schizophrenia-psychosis v1|ctv3|X00S6|Psychotic|
+|schizophrenia-psychosis v1|ctv3|X00S6|Psychotic disorder|
+|schizophrenia-psychosis v1|ctv3|X00S7|Childhood schizophrenia NOS|
+|schizophrenia-psychosis v1|ctv3|X00S8|Post-schizophrenic depression|
+|schizophrenia-psychosis v1|ctv3|X00SA|Persistent delusional disorder|
+|schizophrenia-psychosis v1|ctv3|X00SB|Delusional pain|
+|schizophrenia-psychosis v1|ctv3|X00SC|Acute transient psychotic disorder|
+|schizophrenia-psychosis v1|ctv3|X00SD|Schizophreniform disorder|
+|schizophrenia-psychosis v1|ctv3|X40Do|Mild postnatal psychosis|
+|schizophrenia-psychosis v1|ctv3|X40Dp|Severe postnatal psychosis|
+|schizophrenia-psychosis v1|ctv3|X50GE|Cutaneous monosymptomatic delusional psychosis|
+|schizophrenia-psychosis v1|ctv3|X50GF|Delusions of parasitosis|
+|schizophrenia-psychosis v1|ctv3|X50GG|Delusions of infestation|
+|schizophrenia-psychosis v1|ctv3|X50GH|Delusion of foul odour|
+|schizophrenia-psychosis v1|ctv3|X50GJ|Delusional hyperhidrosis|
+|schizophrenia-psychosis v1|ctv3|X75yq|Grandiose delusions|
+|schizophrenia-psychosis v1|ctv3|X75yr|Delusion of grandiose ability|
+|schizophrenia-psychosis v1|ctv3|X75ys|Delusion of grandiose identity|
+|schizophrenia-psychosis v1|ctv3|X75yt|Delusion of special mission|
+|schizophrenia-psychosis v1|ctv3|X75yu|Religious delusion|
+|schizophrenia-psychosis v1|ctv3|X75yv|Delusional mood|
+|schizophrenia-psychosis v1|ctv3|X75yw|Delusional perplexity|
+|schizophrenia-psychosis v1|ctv3|X75yx|Delusion associated with abnormal perception|
+|schizophrenia-psychosis v1|ctv3|X75yy|Delusion associated with smell|
+|schizophrenia-psychosis v1|ctv3|X75yz|Delusion associated with sexual hallucinations|
+|schizophrenia-psychosis v1|ctv3|X75z0|Bizarre delusion associated with bodily sensation|
+|schizophrenia-psychosis v1|ctv3|X75z1|Delusion of depersonalisation|
+|schizophrenia-psychosis v1|ctv3|X75z2|Nihilistic delusion|
+|schizophrenia-psychosis v1|ctv3|X75z3|Delusion concerning appearance|
+|schizophrenia-psychosis v1|ctv3|X75z4|Delusion of persecution|
+|schizophrenia-psychosis v1|ctv3|X75z5|Delusional jealousy|
+|schizophrenia-psychosis v1|ctv3|X75z6|Erotomanic delusion|
+|schizophrenia-psychosis v1|ctv3|X75z7|Capgras syndrome|
+|schizophrenia-psychosis v1|ctv3|X75z8|Delusion of guilt|
+|schizophrenia-psychosis v1|ctv3|X75z9|Delusion of catastrophe|
+|schizophrenia-psychosis v1|ctv3|X75zA|Depressive delusion of catastrophe|
+|schizophrenia-psychosis v1|ctv3|X75zB|Delusion of poverty|
+|schizophrenia-psychosis v1|ctv3|X75zC|Depressive delusion of poverty|
+|schizophrenia-psychosis v1|ctv3|X75zD|Hypochondriacal delusion|
+|schizophrenia-psychosis v1|ctv3|X75zE|Depressive hypochondriacal delusion|
+|schizophrenia-psychosis v1|ctv3|X75zH|Delusion of replacement of will by external force|
+|schizophrenia-psychosis v1|ctv3|X75zI|Delusion of control of voice|
+|schizophrenia-psychosis v1|ctv3|X75zJ|Delusion of control of handwriting|
+|schizophrenia-psychosis v1|ctv3|X75zM|Delusion of own appearance|
+|schizophrenia-psychosis v1|ctv3|X75zz|Verbal auditory hallucinations|
+|schizophrenia-psychosis v1|ctv3|X7600|Non-verbal auditory hallucinations|
+|schizophrenia-psychosis v1|ctv3|X7601|Hallucinations of music|
+|schizophrenia-psychosis v1|ctv3|X7603|Unformed visual hallucinations|
+|schizophrenia-psychosis v1|ctv3|X7604|Formed visual hallucinations|
+|schizophrenia-psychosis v1|ctv3|X7605|Scenic visual hallucinations|
+|schizophrenia-psychosis v1|ctv3|X7606|Hallucination of self giving off a smell|
+|schizophrenia-psychosis v1|ctv3|X7607|Hallucination of others giving off a smell|
+|schizophrenia-psychosis v1|ctv3|X7608|Hallucinations of pain|
+|schizophrenia-psychosis v1|ctv3|X7609|Hallucinations of temperature|
+|schizophrenia-psychosis v1|ctv3|X760A|Hallucinations in several modalities at once|
+|schizophrenia-psychosis v1|ctv3|X760B|Hallucinations of internal bodily sensation|
+|schizophrenia-psychosis v1|ctv3|X760C|Hallucinations associated with bereavement|
+|schizophrenia-psychosis v1|ctv3|X760D|Sexual hallucinations|
+|schizophrenia-psychosis v1|ctv3|X760F|Hypnopompic hallucination|
+|schizophrenia-psychosis v1|ctv3|X761M|Schizophrenic prodrome|
+|schizophrenia-psychosis v1|ctv3|X75yp|Delusion|
+|schizophrenia-psychosis v1|ctv3|X75yp|Delusional ideas|
+|schizophrenia-psychosis v1|ctv3|X75yp|Delusional thoughts|
+|schizophrenia-psychosis v1|ctv3|X75yp|Delusions|
+|schizophrenia-psychosis v1|ctv3|X75z5|Delusional jealousy|
+|schizophrenia-psychosis v1|ctv3|X763T|Catatonia|
+|schizophrenia-psychosis v1|ctv3|Xa00w|Retrospective delusions|
+|schizophrenia-psychosis v1|ctv3|Xa0lD|Involutional paranoid state|
+|schizophrenia-psychosis v1|ctv3|Xa0lF|Delusional dysmorphophobia|
+|schizophrenia-psychosis v1|ctv3|Xa0RT|Second person verbal auditory hallucinations|
+|schizophrenia-psychosis v1|ctv3|Xa0RX|Third person verbal auditory hallucinations|
+|schizophrenia-psychosis v1|ctv3|Xa0s8|Paranoid-hallucinatory epileptic psychosis|
+|schizophrenia-psychosis v1|ctv3|Xa0s9|Acute schizophrenia-like psychotic disorder|
+|schizophrenia-psychosis v1|ctv3|Xa0s9|Acute schizophrenia-like psychotic disorder|
+|schizophrenia-psychosis v1|ctv3|Xa0tC|Late paraphrenia|
+|schizophrenia-psychosis v1|ctv3|Xa0tC|Late paraphrenia|
+|schizophrenia-psychosis v1|ctv3|Xa1aD|Monosymptomatic hypochondriacal psychosis|
+|schizophrenia-psychosis v1|ctv3|Xa1aF|Erotomania|
+|schizophrenia-psychosis v1|ctv3|Xa1bS|Othello syndrome|
+|schizophrenia-psychosis v1|ctv3|Xa25J|Alcoholic dementia|
+|schizophrenia-psychosis v1|ctv3|Xa33b|Delusion of unworthiness|
+|schizophrenia-psychosis v1|ctv3|Xa3b1|Schizoid character|
+|schizophrenia-psychosis v1|ctv3|Xa3Dz|Hallucinations of simple sounds|
+|schizophrenia-psychosis v1|ctv3|Xa3E0|Formed hallucinations of people|
+|schizophrenia-psychosis v1|ctv3|Xa3E1|Formed hallucinations of animals|
+|schizophrenia-psychosis v1|ctv3|Xa3E2|Formed hallucinations of insects|
+|schizophrenia-psychosis v1|ctv3|Xa3E3|Formed hallucinations of objects|
+|schizophrenia-psychosis v1|ctv3|Xa3F9|Extracampine hallucinations|
+|schizophrenia-psychosis v1|ctv3|Xa3FA|Functional hallucinations|
+|schizophrenia-psychosis v1|ctv3|Xa3FB|Reflex hallucinations|
+|schizophrenia-psychosis v1|ctv3|Xa3WO|Manic|
+|schizophrenia-psychosis v1|ctv3|Xa3Y9|Delusional projection - mental defence mechanism|
+|schizophrenia-psychosis v1|ctv3|Xa3YM|Manic defence|
+|schizophrenia-psychosis v1|ctv3|Xa3YW|Schizoid fantasy|
+|schizophrenia-psychosis v1|ctv3|Xa4hZ|Lithium and its derivatives|
+|schizophrenia-psychosis v1|ctv3|Xa5hW|Lithium allergy|
+|schizophrenia-psychosis v1|ctv3|Xa5J3|Lithium adverse reaction|
+|schizophrenia-psychosis v1|ctv3|Xa96U|Guilty ideas of reference|
+|schizophrenia-psychosis v1|ctv3|Xa9B0|Puerperal psychosis|
+|schizophrenia-psychosis v1|ctv3|Xa33a|Delusion of infidelity|
+|schizophrenia-psychosis v1|ctv3|XaAyN|Ideas of reference|
+|schizophrenia-psychosis v1|ctv3|XaB5u|Bouffee delirante|
+|schizophrenia-psychosis v1|ctv3|XaB5v|Cycloid psychosis|
+|schizophrenia-psychosis v1|ctv3|XaB8j|Oneirophrenia|
+|schizophrenia-psychosis v1|ctv3|XaB95|Other manic-depressive psychos|
+|schizophrenia-psychosis v1|ctv3|XaCHo|"[X] Manic-depressive psychosis, depressed type without psychotic symptoms"|
+|schizophrenia-psychosis v1|ctv3|Xad6J|CBTp - cognitive behavioural therapy for psychosis|
+|schizophrenia-psychosis v1|ctv3|XaIOm|Early intervention in psychosis|
+|schizophrenia-psychosis v1|ctv3|XaIWE|Early intervention in psychosis - 24 hour intensive|
+|schizophrenia-psychosis v1|ctv3|XaIWF|Early intervention in psychosis - 24 hour not intensive|
+|schizophrenia-psychosis v1|ctv3|XaIWG|Early intervention in psychosis - Part day : day care|
+|schizophrenia-psychosis v1|ctv3|XaIWH|Early intervention in psychosis - Daily intensive|
+|schizophrenia-psychosis v1|ctv3|XaIWI|Early intervention in psychosis - 3-5 contacts/week|
+|schizophrenia-psychosis v1|ctv3|XaIWJ|Early intervention in psychosis - 1-2 contacts/week|
+|schizophrenia-psychosis v1|ctv3|XaIWK|Early intervention in psychosis - 1-3 contacts/month|
+|schizophrenia-psychosis v1|ctv3|XaIWL|Early intervention in psychosis - <1 contact/month|
+|schizophrenia-psychosis v1|ctv3|XaIXj|Early intervention in psychosis HRGs|
+|schizophrenia-psychosis v1|ctv3|XaJQO|Early intervention in psychosis team|
+|schizophrenia-psychosis v1|ctv3|XagU1|"Recurrent reactiv depressiv episodes, severe, with psychosis"|
+|schizophrenia-psychosis v1|ctv3|XaKUm|O/E - paranoid delusions|
+|schizophrenia-psychosis v1|ctv3|XaKUn|O/E - delusion of persecution|
+|schizophrenia-psychosis v1|ctv3|XaL07|H/O: psychosis|
+|schizophrenia-psychosis v1|ctv3|XaL19|Referral to psychosis early intervention service|
+|schizophrenia-psychosis v1|ctv3|XaLIa|"Psychosis, schizophrenia and bipolar affective disorder resolved"|
+|schizophrenia-psychosis v1|ctv3|XaK4Y|[X]Erotomania|
+|schizophrenia-psychosis v1|ctv3|XaMwd|Schizophrenia resolved|
+|schizophrenia-psychosis v1|ctv3|XaMwe|Psychosis resolved|
+|schizophrenia-psychosis v1|ctv3|XaOmz|Analysing hallucinations|
+|schizophrenia-psychosis v1|ctv3|XaKUl|Paranoid ideation|
+|schizophrenia-psychosis v1|ctv3|XaX51|[X]Paranoid state in remission|
+|schizophrenia-psychosis v1|ctv3|XaX52|Non-organic psychosis in remission|
+|schizophrenia-psychosis v1|ctv3|XaX53|"Single major depress ep, severe with psych, psych in remissn"|
+|schizophrenia-psychosis v1|ctv3|XaX54|"Recurr major depress ep, severe with psych, psych in remissn"|
+|schizophrenia-psychosis v1|ctv3|XE1aI|Korsakov's psychosis|
+|schizophrenia-psychosis v1|ctv3|XE1aM|Paranoid schizophrenia|
+|schizophrenia-psychosis v1|ctv3|XE1aM|Schizophrenic psychoses|
+|schizophrenia-psychosis v1|ctv3|XE1aM|Schizophrenic psychoses (& [paranoid schizophrenia])|
+|schizophrenia-psychosis v1|ctv3|XE1aO|Paranoid schizophrenia|
+|schizophrenia-psychosis v1|ctv3|XE1aO|Paraphrenia|
+|schizophrenia-psychosis v1|ctv3|XE1aQ|Manic-depress.psychoses|
+|schizophrenia-psychosis v1|ctv3|XE1aU|(Paranoid state(s)) or (delusion(s): [paranoid] or [persecution])|
+|schizophrenia-psychosis v1|ctv3|XE1aU|Delusions - paranoid|
+|schizophrenia-psychosis v1|ctv3|XE1aU|Paranoid states|
+|schizophrenia-psychosis v1|ctv3|XE1aU|Persecution delusion|
+|schizophrenia-psychosis v1|ctv3|XE1gN|[D]Hallucinations NEC|
+|schizophrenia-psychosis v1|ctv3|XE1hk|"Psychotic condition, insight present"|
+|schizophrenia-psychosis v1|ctv3|XE1Sz|On lithium|
+|schizophrenia-psychosis v1|ctv3|XE1Xr|Senile and presenile organic psychotic conditions|
+|schizophrenia-psychosis v1|ctv3|XE1Xt|Other senile and presenile organic psychoses|
+|schizophrenia-psychosis v1|ctv3|XE1Xw|Acute schizophrenic episode|
+|schizophrenia-psychosis v1|ctv3|XE1Xx|Other schizophrenia|
+|schizophrenia-psychosis v1|ctv3|XE1Xz|"Manic disorder, single episode"|
+|schizophrenia-psychosis v1|ctv3|XE1Y2|Chronic paranoid psychosis|
+|schizophrenia-psychosis v1|ctv3|XE1Y3|Other non-organic psychoses|
+|schizophrenia-psychosis v1|ctv3|XE1Y4|Acute paranoid reaction|
+|schizophrenia-psychosis v1|ctv3|XE1Y5|Non-organic psychosis NOS|
+|schizophrenia-psychosis v1|ctv3|XE1Y6|Child psychosis NOS|
+|schizophrenia-psychosis v1|ctv3|XE1Y9|Hysteria NOS|
+|schizophrenia-psychosis v1|ctv3|XE1YF|Paranoid personality disorder|
+|schizophrenia-psychosis v1|ctv3|XE1ZM|[X]Other schizophrenia|
+|schizophrenia-psychosis v1|ctv3|XE1ZN|[X]Schizotypal disorder|
+|schizophrenia-psychosis v1|ctv3|XE1ZO|Delusional disorder|
+|schizophrenia-psychosis v1|ctv3|XE1ZO|Paranoid psychosis|
+|schizophrenia-psychosis v1|ctv3|XE1ZO|Sensitiver Beziehungswahm|
+|schizophrenia-psychosis v1|ctv3|XE1ZP|[X]Other persistent delusional disorders|
+|schizophrenia-psychosis v1|ctv3|XE1ZQ|[X]Acute polymorphic psychotic disorder without symptoms of schizophrenia|
+|schizophrenia-psychosis v1|ctv3|XE1ZR|[X]Other acute predominantly delusional psychotic disorders|
+|schizophrenia-psychosis v1|ctv3|XE1ZS|"[X]Acute and transient psychotic disorder, unspecified"|
+|schizophrenia-psychosis v1|ctv3|XE1ZT|[X]Other non-organic psychotic disorders|
+|schizophrenia-psychosis v1|ctv3|XE1ZU|[X] Psychosis NOS|
+|schizophrenia-psychosis v1|ctv3|XE1ZU|[X]Unspecified nonorganic psychosis|
+|schizophrenia-psychosis v1|ctv3|XE1ZV|[X]Mania with psychotic symptoms|
+|schizophrenia-psychosis v1|ctv3|XE2b8|Mixed schizophrenic and affective pschosis|
+|schizophrenia-psychosis v1|ctv3|XE2b8|"Schizoaffective disorder, mixed type"|
+|schizophrenia-psychosis v1|ctv3|XE2un|"Schizoaffective disorder, depressive type"|
+|schizophrenia-psychosis v1|ctv3|XE2un|"Schizophreniform psychosis, depressive type"|
+|schizophrenia-psychosis v1|ctv3|XE2uT|"Schizoaffective disorder, manic type"|
+|schizophrenia-psychosis v1|ctv3|XE2uT|"Schizophreniform psychosis, manic type"|
+|schizophrenia-psychosis v1|ctv3|XM1GG|Borderline schizophrenia|
+|schizophrenia-psychosis v1|ctv3|XM1GH|Acute polymorphic psychotic disorder|
+|schizophrenia-psychosis v1|ctv3|XSGon|Severe major depression with psychotic features|
+|schizophrenia-psychosis v1|ctv3|XM06V|Auditory hallucinations|
+|schizophrenia-psychosis v1|ctv3|XM06W|Hallucinations of taste|
+|schizophrenia-psychosis v1|ctv3|XM06X|Olfactory hallucinations|
+|schizophrenia-psychosis v1|ctv3|XM06Y|Tactile hallucinations|
+|schizophrenia-psychosis v1|ctv3|XM0lB|Lithium|
+|schizophrenia-psychosis v1|ctv3|XM1Xj|Lithium monitoring|
+|schizophrenia-psychosis v1|ctv3|XSKr7|Cotard syndrome|
+|schizophrenia-psychosis v1|ctv3|ZV110|[V]Personal history of schizophrenia|
+|schizophrenia-psychosis v1|ctv3|ZV111|[V]Personal history of manic-depressive psychosis|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2310|"Acute polymorphic psychot disord with symp of schizophren, without associated acute stress"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2095|"Schizophrenia, unspecified, complete remission"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2330|"Other acute predominantly delusional psychotic disorders, without associated acute stress"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2050|"Residual schizophrenia, continuous"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2048|"Post-schizophrenic depression, other"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2009|"Paranoid schizophrenia, course uncertain, period of observation too short"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2321|"Acute schizophrenia-like psychotic disorder, with associated acute stress"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2060|"Simple schizophrenia, continuous"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2081|"Other schizophrenia, episodic with progressive deficit"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2028|"Catatonic schizophrenia, other"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2092|"Schizophrenia, unspecified, episodic with stable deficit"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2091|"Schizophrenia, unspecified, episodic with progressive deficit"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2011|"Hebephrenic schizophrenia, episodic with progressive deficit"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2080|"Other schizophrenia, continuous"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2045|"Post-schizophrenic depression, complete remission"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2099|"Schizophrenia, unspecified, course uncertain, period of observation too short"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2055|"Residual schizophrenia, complete remission"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2044|"Post-schizophrenic depression, incomplete remission"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2084|"Other schizophrenia, incomplete remission"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2083|"Other schizophrenia, episodic remittent"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2038|"Undifferentiated schizophrenia, other"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2051|"Residual schizophrenia, episodic with progressive deficit"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2090|"Schizophrenia, unspecified, continuous"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2035|"Undifferentiated schizophrenia, complete remission"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2001|"Paranoid schizophrenia, episodic with progressive deficit"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2014|"Hebephrenic schizophrenia, incomplete remission"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2082|"Other schizophrenia, episodic with stable deficit"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2030|"Undifferentiated schizophrenia, continuous"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2021|"Catatonic schizophrenia, episodic with progressive deficit"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2041|"Post-schizophrenic depression, episodic with progressive deficit"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2018|"Hebephrenic schizophrenia, other"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2039|"Undifferentiated schizophrenia, course uncertain, period of observation too short"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2023|"Catatonic schizophrenia, episodic remittent"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2002|"Paranoid schizophrenia, episodic with stable deficit"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2331|"Other acute predominantly delusional psychotic disorders, with associated acute stress"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2032|"Undifferentiated schizophrenia, episodic with stable deficit"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2381|"Other acute and transient psychotic disorders, with associated acute stress"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2094|"Schizophrenia, unspecified, incomplete remission"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2015|"Hebephrenic schizophrenia, complete remission"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2301|"Acute polymorphic psychot disord without symp of schizoph, with associated acute stress"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2390|"Acute and transient psychotic disorder, unspecified, without associated acute stress"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2000|"Paranoid schizophrenia, continuous"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2033|"Undifferentiated schizophrenia, episodic remittent"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2053|"Residual schizophrenia, episodic remittent"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2054|"Residual schizophrenia, incomplete remission"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2320|"Acute schizophrenia-like psychotic disorder, without associated acute stress"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2063|"Simple schizophrenia, episodic remittent"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2069|"Simple schizophrenia, course uncertain, period of observation too short"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2012|"Hebephrenic schizophrenia, episodic with stable deficit"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2093|"Schizophrenia, unspecified, episodic remittent"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2058|"Residual schizophrenia, other"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2061|"Simple schizophrenia, episodic with progressive deficit"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2040|"Post-schizophrenic depression, continuous"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2391|"Acute and transient psychotic disorder, unspecified, with associated acute stress"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2008|"Paranoid schizophrenia, other"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2003|"Paranoid schizophrenia, episodic remittent"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2062|"Simple schizophrenia, episodic with stable deficit"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2043|"Post-schizophrenic depression, episodic remittent"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2380|"Other acute and transient psychotic disorders, without associated acute stress"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2020|"Catatonic schizophrenia, continuous"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2010|"Hebephrenic schizophrenia, continuous"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2013|"Hebephrenic schizophrenia, episodic remittent"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2034|"Undifferentiated schizophrenia, incomplete remission"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2311|"Acute polymorphic psychot disord with symp of schizophren, with associated acute stress"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2004|"Paranoid schizophrenia, incomplete remission"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2029|"Catatonic schizophrenia, course uncertain, period of observation too short"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2022|"Catatonic schizophrenia, episodic with stable deficit"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2068|"Simple schizophrenia, other"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2059|"Residual schizophrenia, course uncertain, period of observation too short"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2085|"Other schizophrenia, complete remission"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2005|"Paranoid schizophrenia, complete remission"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2088|"Other schizophrenia, other"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2065|"Simple schizophrenia, complete remission"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2019|"Hebephrenic schizophrenia, course uncertain, period of observation too short"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2098|"Schizophrenia, unspecified, other"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2049|"Post-schizophrenic depression, course uncertain, period of observation too short"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2064|"Simple schizophrenia, incomplete remission"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2089|"Other schizophrenia, course uncertain, period of observation too short"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2042|"Post-schizophrenic depression, episodic with stable deficit"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2300|"Acute polymorphic psychot disord without symp of schizoph, without associated acute stress"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2025|"Catatonic schizophrenia, complete remission"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2024|"Catatonic schizophrenia, incomplete remission"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2031|"Undifferentiated schizophrenia, episodic with progressive deficit"|
+|schizophrenia-psychosis v1|emis|EMISICD10|F2052|"Residual schizophrenia, episodic with stable deficit"|
+|schizophrenia-psychosis v1|readv2|13Y2.00|Schizophrenia association member|
+|schizophrenia-psychosis v1|readv2|146H.00|H/O: psychosis|
+|schizophrenia-psychosis v1|readv2|1B1E.00|Hallucinations|
+|schizophrenia-psychosis v1|readv2|1B1e.00|Hypnopompic hallucination|
+|schizophrenia-psychosis v1|readv2|1BC..00|Morbid jealousy|
+|schizophrenia-psychosis v1|readv2|1BH..00|Delusion|
+|schizophrenia-psychosis v1|readv2|1BH..00|Delusions|
+|schizophrenia-psychosis v1|readv2|1BH..11|Delusion|
+|schizophrenia-psychosis v1|readv2|1BH1.00|Grandiose delusions|
+|schizophrenia-psychosis v1|readv2|1BH2.00|Ideas of reference|
+|schizophrenia-psychosis v1|readv2|1BH3.00|Paranoid ideation|
+|schizophrenia-psychosis v1|readv2|212T.00|"Psychosis, schizophrenia and bipolar affective disorder resolved"|
+|schizophrenia-psychosis v1|readv2|212W.00|Schizophrenia resolved|
+|schizophrenia-psychosis v1|readv2|212X.00|Psychosis resolved|
+|schizophrenia-psychosis v1|readv2|225E.00|O/E - paranoid delusions|
+|schizophrenia-psychosis v1|readv2|225F.00|O/E - delusion of persecution|
+|schizophrenia-psychosis v1|readv2|285..11|"Psychotic condition, insight present"|
+|schizophrenia-psychosis v1|readv2|286..11|Poor insight into psychotic condition|
+|schizophrenia-psychosis v1|readv2|38Q4.00|HCL-32-R1 - hypomania checklist 32 item revised|
+|schizophrenia-psychosis v1|readv2|8G13100|CBTp - cognitive behavioural therapy for psychosis|
+|schizophrenia-psychosis v1|readv2|8HHs.00|Referral to psychosis early intervention service|
+|schizophrenia-psychosis v1|readv2|E00z.00|Senile or presenile psychoses NOS|
+|schizophrenia-psychosis v1|readv2|E03y300|Unspecified puerperal psychosis|
+|schizophrenia-psychosis v1|readv2|E040.00|Non-alcoholic amnestic syndrome|
+|schizophrenia-psychosis v1|readv2|E040.11|Korsakoff's non-alcoholic psychosis|
+|schizophrenia-psychosis v1|readv2|E03y000|Organic delusional syndrome|
+|schizophrenia-psychosis v1|readv2|E1...00|Non-organic psychoses|
+|schizophrenia-psychosis v1|readv2|E100.00|Schizophrenia simplex|
+|schizophrenia-psychosis v1|readv2|E100.00|Simple schizophrenia|
+|schizophrenia-psychosis v1|readv2|E100000|Unspecified schizophrenia|
+|schizophrenia-psychosis v1|readv2|E100100|Subchronic schizophrenia|
+|schizophrenia-psychosis v1|readv2|E100200|Chronic schizophrenic|
+|schizophrenia-psychosis v1|readv2|E100300|Acute exacerbation of subchronic schizophrenia|
+|schizophrenia-psychosis v1|readv2|E100400|Acute exacerbation of chronic schizophrenia|
+|schizophrenia-psychosis v1|readv2|E100500|Schizophrenia in remission|
+|schizophrenia-psychosis v1|readv2|E100z00|Simple schizophrenia NOS|
+|schizophrenia-psychosis v1|readv2|E101.00|Hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|readv2|E101000|Unspecified hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|readv2|E101100|Subchronic hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|readv2|E101200|Chronic hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|readv2|E101300|Acute exacerbation of subchronic hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|readv2|E101400|Acute exacerbation of chronic hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|readv2|E101500|Hebephrenic schizophrenia in remission|
+|schizophrenia-psychosis v1|readv2|E101z00|Hebephrenic schizophrenia NOS|
+|schizophrenia-psychosis v1|readv2|E102.00|Catatonic schizophrenia|
+|schizophrenia-psychosis v1|readv2|E102000|Unspecified catatonic schizophrenia|
+|schizophrenia-psychosis v1|readv2|E102100|Subchronic catatonic schizophrenia|
+|schizophrenia-psychosis v1|readv2|E102200|Chronic catatonic schizophrenia|
+|schizophrenia-psychosis v1|readv2|E102300|Acute exacerbation of subchronic catatonic schizophrenia|
+|schizophrenia-psychosis v1|readv2|E102400|Acute exacerbation of chronic catatonic schizophrenia|
+|schizophrenia-psychosis v1|readv2|E102500|Catatonic schizophrenia in remission|
+|schizophrenia-psychosis v1|readv2|E102z00|Catatonic schizophrenia NOS|
+|schizophrenia-psychosis v1|readv2|E103.00|Paranoid schizophrenia|
+|schizophrenia-psychosis v1|readv2|E103000|Unspecified paranoid schizophrenia|
+|schizophrenia-psychosis v1|readv2|E103100|Subchronic paranoid schizophrenia|
+|schizophrenia-psychosis v1|readv2|E103200|Chronic paranoid schizophrenia|
+|schizophrenia-psychosis v1|readv2|E103300|Acute exacerbation of subchronic paranoid schizophrenia|
+|schizophrenia-psychosis v1|readv2|E103400|Acute exacerbation of chronic paranoid schizophrenia|
+|schizophrenia-psychosis v1|readv2|E103500|Paranoid schizophrenia in remission|
+|schizophrenia-psychosis v1|readv2|E103z00|Paranoid schizophrenia NOS|
+|schizophrenia-psychosis v1|readv2|E104.00|Oneirophrenia|
+|schizophrenia-psychosis v1|readv2|E104.11|Oneirophrenia|
+|schizophrenia-psychosis v1|readv2|E105.00|Latent schizophrenia|
+|schizophrenia-psychosis v1|readv2|E105000|Unspecified latent schizophrenia|
+|schizophrenia-psychosis v1|readv2|E105100|Subchronic latent schizophrenia|
+|schizophrenia-psychosis v1|readv2|E105200|Chronic latent schizophrenia|
+|schizophrenia-psychosis v1|readv2|E105300|Acute exacerbation of subchronic latent schizophrenia|
+|schizophrenia-psychosis v1|readv2|E105400|Acute exacerbation of chronic latent schizophrenia|
+|schizophrenia-psychosis v1|readv2|E105500|Latent schizophrenia in remission|
+|schizophrenia-psychosis v1|readv2|E105z00|Latent schizophrenia NOS|
+|schizophrenia-psychosis v1|readv2|E106.00|Residual schizophrenia|
+|schizophrenia-psychosis v1|readv2|E106.11|Restzustand - schizophrenia|
+|schizophrenia-psychosis v1|readv2|E106.00|Restzustand - schizophrenia|
+|schizophrenia-psychosis v1|readv2|E107.00|Cyclic schizophrenia|
+|schizophrenia-psychosis v1|readv2|E107.00|Schizo-affective schizophrenia|
+|schizophrenia-psychosis v1|readv2|E107.11|Cyclic schizophrenia|
+|schizophrenia-psychosis v1|readv2|E107000|Unspecified schizo-affective schizophrenia|
+|schizophrenia-psychosis v1|readv2|E107100|Subchronic schizo-affective schizophrenia|
+|schizophrenia-psychosis v1|readv2|E107200|Chronic schizo-affective schizophrenia|
+|schizophrenia-psychosis v1|readv2|E107300|Acute exacerbation of subchronic schizo-affective schizophrenia|
+|schizophrenia-psychosis v1|readv2|E107400|Acute exacerbation of chronic schizo-affective schizophrenia|
+|schizophrenia-psychosis v1|readv2|E107500|Schizo-affective schizophrenia in remission|
+|schizophrenia-psychosis v1|readv2|E107z00|Schizo-affective schizophrenia NOS|
+|schizophrenia-psychosis v1|readv2|E10y.00|Cenesthopathic schizophrenia|
+|schizophrenia-psychosis v1|readv2|E10y.00|Other schizophrenia|
+|schizophrenia-psychosis v1|readv2|E10y.11|Cenesthopathic schizophrenia|
+|schizophrenia-psychosis v1|readv2|E10y000|Atypical schizophrenia|
+|schizophrenia-psychosis v1|readv2|E10y100|Coenesthopathic schizophrenia|
+|schizophrenia-psychosis v1|readv2|E10yz00|Other schizophrenia NOS|
+|schizophrenia-psychosis v1|readv2|E10z.00|Schizophrenia NOS|
+|schizophrenia-psychosis v1|readv2|E11..00|Affective psychoses|
+|schizophrenia-psychosis v1|readv2|E11..11|Bipolar psychoses|
+|schizophrenia-psychosis v1|readv2|E11..12|Depressive psychoses|
+|schizophrenia-psychosis v1|readv2|E11..13|Manic psychoses|
+|schizophrenia-psychosis v1|readv2|E11y.00|Other and unspecified manic-depressive psychoses|
+|schizophrenia-psychosis v1|readv2|E11y000|Unspecified manic-depressive psychoses|
+|schizophrenia-psychosis v1|readv2|E11y100|Atypical manic disorder|
+|schizophrenia-psychosis v1|readv2|E11y300|Other mixed manic-depressive psychoses|
+|schizophrenia-psychosis v1|readv2|E11yz00|Other and unspecified manic-depressive psychoses NOS|
+|schizophrenia-psychosis v1|readv2|E11z.00|Other and unspecified affective psychoses|
+|schizophrenia-psychosis v1|readv2|E11z000|Unspecified affective psychoses NOS|
+|schizophrenia-psychosis v1|readv2|E11zz00|Other affective psychosis NOS|
+|schizophrenia-psychosis v1|readv2|E12..00|Paranoid states|
+|schizophrenia-psychosis v1|readv2|E121.00|Chronic paranoid psychosis|
+|schizophrenia-psychosis v1|readv2|E121.11|Sander's disease|
+|schizophrenia-psychosis v1|readv2|E120.00|Simple paranoid state|
+|schizophrenia-psychosis v1|readv2|E122.00|Paraphrenia|
+|schizophrenia-psychosis v1|readv2|E123.00|Folie a deux|
+|schizophrenia-psychosis v1|readv2|E123.00|Shared paranoid disorder|
+|schizophrenia-psychosis v1|readv2|E12y.00|Other paranoid states|
+|schizophrenia-psychosis v1|readv2|E12y000|Paranoia querulans|
+|schizophrenia-psychosis v1|readv2|E12yz00|Other paranoid states NOS|
+|schizophrenia-psychosis v1|readv2|E12z.00|Paranoid psychosis NOS|
+|schizophrenia-psychosis v1|readv2|E13..00|Other nonorganic psychoses|
+|schizophrenia-psychosis v1|readv2|E13..11|Reactive psychoses|
+|schizophrenia-psychosis v1|readv2|E13..00|Reactive psychoses|
+|schizophrenia-psychosis v1|readv2|E130.00|Reactive depressive psychosis|
+|schizophrenia-psychosis v1|readv2|E131.00|Acute hysterical psychosis|
+|schizophrenia-psychosis v1|readv2|E132.00|Reactive confusion|
+|schizophrenia-psychosis v1|readv2|E133.00|Bouffee delirante|
+|schizophrenia-psychosis v1|readv2|E134.00|Psychogenic paranoid psychosis|
+|schizophrenia-psychosis v1|readv2|E13y.00|Other reactive psychoses|
+|schizophrenia-psychosis v1|readv2|E13yz00|Other reactive psychoses NOS|
+|schizophrenia-psychosis v1|readv2|E13y000|Psychogenic stupor|
+|schizophrenia-psychosis v1|readv2|E13y100|Brief reactive psychosis|
+|schizophrenia-psychosis v1|readv2|E13z.00|Nonorganic psychosis NOS|
+|schizophrenia-psychosis v1|readv2|E13z.00|Psychotic episode NOS|
+|schizophrenia-psychosis v1|readv2|E14..00|Psychoses with origin in childhood|
+|schizophrenia-psychosis v1|readv2|E141.00|Disintegrative psychosis|
+|schizophrenia-psychosis v1|readv2|E141.11|Heller's syndrome|
+|schizophrenia-psychosis v1|readv2|E141000|Active disintegrative psychoses|
+|schizophrenia-psychosis v1|readv2|E141100|Residual disintegrative psychoses|
+|schizophrenia-psychosis v1|readv2|E141z00|Disintegrative psychosis NOS|
+|schizophrenia-psychosis v1|readv2|E14y.00|Other childhood psychoses|
+|schizophrenia-psychosis v1|readv2|E14y000|Atypical childhood psychoses|
+|schizophrenia-psychosis v1|readv2|E14y100|Borderline psychosis of childhood|
+|schizophrenia-psychosis v1|readv2|E14yz00|Other childhood psychoses NOS|
+|schizophrenia-psychosis v1|readv2|E14z.00|Child psychosis NOS|
+|schizophrenia-psychosis v1|readv2|E14z.11|Childhood schizophrenia NOS|
+|schizophrenia-psychosis v1|readv2|E1y..00|Other specified non-organic psychoses|
+|schizophrenia-psychosis v1|readv2|E1z..00|Non-organic psychosis NOS|
+|schizophrenia-psychosis v1|readv2|E201.00|Hysteria|
+|schizophrenia-psychosis v1|readv2|E201000|Hysteria unspecified|
+|schizophrenia-psychosis v1|readv2|E201z00|Hysteria NOS|
+|schizophrenia-psychosis v1|readv2|E210.00|Paranoid personality disorder|
+|schizophrenia-psychosis v1|readv2|E211.00|Affective personality disorder|
+|schizophrenia-psychosis v1|readv2|E211000|Unspecified affective personality disorder|
+|schizophrenia-psychosis v1|readv2|E211300|Cyclothymic personality disorder|
+|schizophrenia-psychosis v1|readv2|E211z00|Affective personality disorder NOS|
+|schizophrenia-psychosis v1|readv2|E212.00|Schizoid personality disorder|
+|schizophrenia-psychosis v1|readv2|E212000|Unspecified schizoid personality disorder|
+|schizophrenia-psychosis v1|readv2|E212200|Schizotypal personality|
+|schizophrenia-psychosis v1|readv2|E212z00|Schizoid personality disorder NOS|
+|schizophrenia-psychosis v1|readv2|E212200|Schizotypal personality|
+|schizophrenia-psychosis v1|readv2|Eu05200|[X]Organic delusional [schizophrenia-like] disorder|
+|schizophrenia-psychosis v1|readv2|Eu05200|[X]Paranoid organic state|
+|schizophrenia-psychosis v1|readv2|Eu05200|[X]Schizophrenia-like psychosis in epilepsy|
+|schizophrenia-psychosis v1|readv2|Eu02z12|[X] Presenile psychosis NOS|
+|schizophrenia-psychosis v1|readv2|Eu02z15|[X] Senile psychosis NOS|
+|schizophrenia-psychosis v1|readv2|Eu03.11|"[X]Korsakov's psychosis, nonalcoholic"|
+|schizophrenia-psychosis v1|readv2|Eu04.13|[X]Acute / subacute infective psychosis|
+|schizophrenia-psychosis v1|readv2|Eu05200|[X]Organic delusional [schizophrenia-like] disorder|
+|schizophrenia-psychosis v1|readv2|Eu05211|[X]Paranoid organic state|
+|schizophrenia-psychosis v1|readv2|Eu05212|[X]Schizophrenia-like psychosis in epilepsy|
+|schizophrenia-psychosis v1|readv2|Eu05300|[X]Organic mood [affective] disorders|
+|schizophrenia-psychosis v1|readv2|Eu05y11|[X]Epileptic psychosis NOS|
+|schizophrenia-psychosis v1|readv2|Eu0z.12|[X]Symptomatic psychosis NOS|
+|schizophrenia-psychosis v1|readv2|Eu2..00|"[X]Schizophrenia, schizotypal and delusional disorders"|
+|schizophrenia-psychosis v1|readv2|Eu20.00|[X]Schizophrenia|
+|schizophrenia-psychosis v1|readv2|Eu20000|[X]Paranoid schizophrenia|
+|schizophrenia-psychosis v1|readv2|Eu20011|[X]Paraphrenic schizophrenia|
+|schizophrenia-psychosis v1|readv2|Eu20100|[X]Hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|readv2|Eu20111|[X]Disorganised schizophrenia|
+|schizophrenia-psychosis v1|readv2|Eu20200|[X]Catatonic schizophrenia|
+|schizophrenia-psychosis v1|readv2|Eu20211|[X]Catatonic stupor|
+|schizophrenia-psychosis v1|readv2|Eu20212|[X]Schizophrenic catalepsy|
+|schizophrenia-psychosis v1|readv2|Eu20213|[X]Schizophrenic catatonia|
+|schizophrenia-psychosis v1|readv2|Eu20214|[X]Schizophrenic flexibilatis cerea|
+|schizophrenia-psychosis v1|readv2|Eu20300|[X]Undifferentiated schizophrenia|
+|schizophrenia-psychosis v1|readv2|Eu20311|[X]Atypical schizophrenia|
+|schizophrenia-psychosis v1|readv2|Eu20400|[X]Post-schizophrenic depression|
+|schizophrenia-psychosis v1|readv2|Eu20500|[X]Residual schizophrenia|
+|schizophrenia-psychosis v1|readv2|Eu20511|[X]Chronic undifferentiated schizophrenia|
+|schizophrenia-psychosis v1|readv2|Eu20512|[X]Restzustand schizophrenic|
+|schizophrenia-psychosis v1|readv2|Eu20600|[X]Simple schizophrenia|
+|schizophrenia-psychosis v1|readv2|Eu20y00|[X]Other schizophrenia|
+|schizophrenia-psychosis v1|readv2|Eu20y11|[X]Cenesthopathic schizophrenia|
+|schizophrenia-psychosis v1|readv2|Eu20y12|[X]Schizophreniform disord NOS|
+|schizophrenia-psychosis v1|readv2|Eu20y13|[X]Schizophrenifrm psychos NOS|
+|schizophrenia-psychosis v1|readv2|Eu20z00|"[X]Schizophrenia, unspecified"|
+|schizophrenia-psychosis v1|readv2|Eu21.00|[X]Schizotypal disorder|
+|schizophrenia-psychosis v1|readv2|Eu21.11|[X]Latent schizophrenic reaction|
+|schizophrenia-psychosis v1|readv2|Eu21.12|[X]Borderline schizophrenia|
+|schizophrenia-psychosis v1|readv2|Eu21.13|[X]Latent schizophrenia|
+|schizophrenia-psychosis v1|readv2|Eu21.14|[X]Prepsychotic schizophrenia|
+|schizophrenia-psychosis v1|readv2|Eu21.15|[X]Prodromal schizophrenia|
+|schizophrenia-psychosis v1|readv2|Eu21.16|[X]Pseudoneurotic schizophrenia|
+|schizophrenia-psychosis v1|readv2|Eu21.17|[X]Pseudopsychopathic schizophrenia|
+|schizophrenia-psychosis v1|readv2|Eu21.18|[X]Schizotypal personality disorder|
+|schizophrenia-psychosis v1|readv2|Eu22.00|[X]Persistent delusional disorders|
+|schizophrenia-psychosis v1|readv2|Eu22000|[X]Delusional disorder|
+|schizophrenia-psychosis v1|readv2|Eu22011|[X]Paranoid psychosis|
+|schizophrenia-psychosis v1|readv2|Eu22012|[X]Paranoid state|
+|schizophrenia-psychosis v1|readv2|Eu22013|[X]Paraphrenia - late|
+|schizophrenia-psychosis v1|readv2|Eu22100|[X]Delusional misidentification syndrome|
+|schizophrenia-psychosis v1|readv2|Eu22111|[X]Capgras syndrome|
+|schizophrenia-psychosis v1|readv2|Eu22200|[X]Cotard syndrome|
+|schizophrenia-psychosis v1|readv2|Eu22300|[X]Paranoid state in remission|
+|schizophrenia-psychosis v1|readv2|Eu22y00|[X]Other persistent delusional disorders|
+|schizophrenia-psychosis v1|readv2|Eu22y11|[X]Delusional dysmorphophobia|
+|schizophrenia-psychosis v1|readv2|Eu22y12|[X]Involutional paranoid state|
+|schizophrenia-psychosis v1|readv2|Eu22y13|[X]Paranoia querulans|
+|schizophrenia-psychosis v1|readv2|Eu22z00|"[X]Persistent delusional disorder, unspecified"|
+|schizophrenia-psychosis v1|readv2|Eu23000|[X]Acute polymorphic psychotic disorder without symptoms of schizophrenia|
+|schizophrenia-psychosis v1|readv2|Eu23011|[X]Bouffee delirante|
+|schizophrenia-psychosis v1|readv2|Eu23012|[X]Cycloid psychosis|
+|schizophrenia-psychosis v1|readv2|Eu23100|[X]Acute polymorphic psychotic disorder with symptoms of schizophrenia|
+|schizophrenia-psychosis v1|readv2|Eu23111|[X]Bouffee delirante with symptoms of schizophrenia|
+|schizophrenia-psychosis v1|readv2|Eu23112|[X]Cycloid psychosis with symptoms of schizophrenia|
+|schizophrenia-psychosis v1|readv2|Eu23200|[X]Acute schizophrenia-like psychotic disorder|
+|schizophrenia-psychosis v1|readv2|Eu23211|[X]Brief schizophreniform disorder|
+|schizophrenia-psychosis v1|readv2|Eu23212|[X]Brief schizophrenifrm psych|
+|schizophrenia-psychosis v1|readv2|Eu23213|[X]Oneirophrenia|
+|schizophrenia-psychosis v1|readv2|Eu23214|[X]Schizophrenic reaction|
+|schizophrenia-psychosis v1|readv2|Eu23300|[X]Other acute predominantly delusional psychotic disorders|
+|schizophrenia-psychosis v1|readv2|Eu23312|[X]Psychogenic paranoid psychosis|
+|schizophrenia-psychosis v1|readv2|Eu23z11|[X]Brief reactive psychosis NOS|
+|schizophrenia-psychosis v1|readv2|Eu23z12|[X]Reactive psychosis|
+|schizophrenia-psychosis v1|readv2|Eu24.00|[X]Induced delusional disorder|
+|schizophrenia-psychosis v1|readv2|Eu24.11|[X]Folie a deux|
+|schizophrenia-psychosis v1|readv2|Eu25.00|[X]Schizoaffective disorders|
+|schizophrenia-psychosis v1|readv2|Eu25000|"[X]Schizoaffective disorder, manic type"|
+|schizophrenia-psychosis v1|readv2|Eu25011|"[X]Schizoaffective psychosis, manic type"|
+|schizophrenia-psychosis v1|readv2|Eu25012|"[X]Schizophreniform psychosis, manic type"|
+|schizophrenia-psychosis v1|readv2|Eu25100|"[X]Schizoaffective disorder, depressive type"|
+|schizophrenia-psychosis v1|readv2|Eu25111|"[X]Schizoaffective psychosis, depressive type"|
+|schizophrenia-psychosis v1|readv2|Eu25112|"[X]Schizophreniform psychosis, depressive type"|
+|schizophrenia-psychosis v1|readv2|Eu25200|"[X]Schizoaffective disorder, mixed type"|
+|schizophrenia-psychosis v1|readv2|Eu25211|[X]Cyclic schizophrenia|
+|schizophrenia-psychosis v1|readv2|Eu25212|[X]Mixed schizophrenic and affective psychosis|
+|schizophrenia-psychosis v1|readv2|Eu25y00|[X]Other schizoaffective disorders|
+|schizophrenia-psychosis v1|readv2|Eu25z00|"[X]Schizoaffective disorder, unspecified"|
+|schizophrenia-psychosis v1|readv2|Eu25z11|[X]Schizoaffective psychosis NOS|
+|schizophrenia-psychosis v1|readv2|Eu2y.00|[X]Other nonorganic psychotic disorders|
+|schizophrenia-psychosis v1|readv2|Eu2y.11|[X]Chronic hallucinatory psychosis|
+|schizophrenia-psychosis v1|readv2|Eu2z.11|[X]Psychosis NOS|
+|schizophrenia-psychosis v1|readv2|Eu30200|[X]Mania with psychotic symptoms|
+|schizophrenia-psychosis v1|readv2|Eu30211|[X]Mania with mood-congruent psychotic symptoms|
+|schizophrenia-psychosis v1|readv2|Eu30212|[X]Mania with mood-incongruent psychotic symptoms|
+|schizophrenia-psychosis v1|readv2|Eu30213|[X]Manic stupor|
+|schizophrenia-psychosis v1|readv2|Eu31.12|[X]Manic-depressive psychosis|
+|schizophrenia-psychosis v1|readv2|Eu31200|"[X]Bipolar affective disorder, current episode manic with psychotic symptoms"|
+|schizophrenia-psychosis v1|readv2|Eu31500|"[X]Bipolar affective disorder, current episode severe depression with psychotic symptoms"|
+|schizophrenia-psychosis v1|readv2|Eu32300|[X]Severe depressive episode with psychotic symptoms|
+|schizophrenia-psychosis v1|readv2|Eu32900|"[X]Single major depressive episode, severe, with psychosis, psychosis in remission"|
+|schizophrenia-psychosis v1|readv2|Eu32A00|"[X]Recurrent major depressive episodes, severe, with psychosis, psychosis in remission"|
+|schizophrenia-psychosis v1|readv2|Eu33300|"[X]Recurrent depressive disorder, current episode severe with psychotic symptoms"|
+|schizophrenia-psychosis v1|readv2|Eu33312|"[X]Manic-depressive psychosis, depressed type with psychotic symptoms"|
+|schizophrenia-psychosis v1|readv2|Eu33314|[X]Recurrent severe episodes of psychogenic depressive psychosis|
+|schizophrenia-psychosis v1|readv2|Eu33316|[X]Recurrent severe episodes of reactive depressive psychosis|
+|schizophrenia-psychosis v1|readv2|Eu3z.11|[X]Affective psychosis NOS|
+|schizophrenia-psychosis v1|readv2|Eu41y11|[X]Anxiety hysteria|
+|schizophrenia-psychosis v1|readv2|Eu44.11|[X]Conversion hysteria|
+|schizophrenia-psychosis v1|readv2|Eu44.13|[X]Hysteria|
+|schizophrenia-psychosis v1|readv2|Eu44.14|[X]Hysterical psychosis|
+|schizophrenia-psychosis v1|readv2|Eu45212|[X]Dysmorphophobia nondelusional|
+|schizophrenia-psychosis v1|readv2|Eu53111|[X]Puerperal psychosis NOS|
+|schizophrenia-psychosis v1|readv2|Eu60000|[X]Paranoid personality disorder|
+|schizophrenia-psychosis v1|readv2|Eu60011|[X]Expansive paranoid personality disorder|
+|schizophrenia-psychosis v1|readv2|Eu60012|[X]Fanatic paranoid personality disorder|
+|schizophrenia-psychosis v1|readv2|Eu60014|[X]Sensitive paranoid personality disorder|
+|schizophrenia-psychosis v1|readv2|Eu60100|[X]Schizoid personality disorder|
+|schizophrenia-psychosis v1|readv2|Eu84013|[X]Infantile psychosis|
+|schizophrenia-psychosis v1|readv2|Eu84111|[X]Atypical childhood psychosis|
+|schizophrenia-psychosis v1|readv2|Eu84312|[X]Disintegrative psychosis|
+|schizophrenia-psychosis v1|readv2|Eu84314|[X]Symbiotic psychosis|
+|schizophrenia-psychosis v1|readv2|Eu84512|[X]Schizoid disorder of childhood|
+|schizophrenia-psychosis v1|readv2|F481K00|Visual hallucinations|
+|schizophrenia-psychosis v1|readv2|R001.00|[D]Hallucinations|
+|schizophrenia-psychosis v1|readv2|R001000|"[D]Hallucinations, auditory"|
+|schizophrenia-psychosis v1|readv2|R001100|"[D]Hallucinations, gustatory"|
+|schizophrenia-psychosis v1|readv2|R001200|"[D]Hallucinations, olfactory"|
+|schizophrenia-psychosis v1|readv2|R001300|"[D]Hallucinations, tactile"|
+|schizophrenia-psychosis v1|readv2|R001400|[D]Visual hallucinations|
+|schizophrenia-psychosis v1|readv2|R001z00|[D]Hallucinations NOS|
+|schizophrenia-psychosis v1|readv2|Ryu5300|[X]Other hallucinations|
+|schizophrenia-psychosis v1|readv2|ZV11000|[V]Personal history of schizophrenia|
+|schizophrenia-psychosis v1|readv2|ZV11111|[V]Personal history of manic-depressive psychosis|
+|schizophrenia-psychosis v1|readv2|ZV11112|[V]Personal history of manic-depressive psychosis|
+|schizophrenia-psychosis v1|readv2|E1104|Single manic episode, severe, with psychosis|
+|schizophrenia-psychosis v1|readv2|E02y.|Other drug psychoses|
+|schizophrenia-psychosis v1|readv2|E0y..|Other specified organic psychoses|
+|schizophrenia-psychosis v1|readv2|E1134|Recurrent major depressive episodes, severe, with psychosis|
+|schizophrenia-psychosis v1|readv2|E1174|Unspecified bipolar affective disorder, severe, with psychosis|
+|schizophrenia-psychosis v1|readv2|E010.|Delirium tremens|
+|schizophrenia-psychosis v1|readv2|Eu125|[X]Mental and behavioural disorders due to use of cannabinoids: psychotic disorder|
+|schizophrenia-psychosis v1|readv2|Eu135|[X]Mental and behavioural disorders due to use of sedatives or hypnotics: psychotic disorder|
+|schizophrenia-psychosis v1|readv2|Eu23.|[X]Acute and transient psychotic disorders|
+|schizophrenia-psychosis v1|readv2|Eu195|[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: psychotic disorder|
+|schizophrenia-psychosis v1|readv2|E0210|Drug-induced paranoid state|
+|schizophrenia-psychosis v1|readv2|E03y.|Other transient organic psychoses|
+|schizophrenia-psychosis v1|readv2|E0z..|Organic psychoses NOS|
+|schizophrenia-psychosis v1|readv2|Eu106|[X]Mental and behavioural disorders due to use of alcohol: amnesic syndrome|
+|schizophrenia-psychosis v1|readv2|Eu107|[X]Mental and behavioural disorders due to use of alcohol: residual and late-onset psychotic disorder|
+|schizophrenia-psychosis v1|readv2|Eu115|[X]Mental and behavioural disorders due to use of opioids: psychotic disorder|
+|schizophrenia-psychosis v1|readv2|E0111|Korsakov's alcoholic psychosis with peripheral neuritis|
+|schizophrenia-psychosis v1|readv2|E0211|Drug-induced hallucinosis|
+|schizophrenia-psychosis v1|readv2|E03..|Transient organic psychoses|
+|schizophrenia-psychosis v1|readv2|E1154|Bipolar affective disorder, currently depressed, severe, with psychosis|
+|schizophrenia-psychosis v1|readv2|Eu106|[X]Korsakov's psychosis, alcohol induced|
+|schizophrenia-psychosis v1|readv2|Eu155|[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: psychotic disorder|
+|schizophrenia-psychosis v1|readv2|E021.|Drug-induced paranoia or hallucinatory states|
+|schizophrenia-psychosis v1|readv2|E021z|Drug-induced paranoia or hallucinatory state NOS|
+|schizophrenia-psychosis v1|readv2|E02y4|Drug-induced personality disorder|
+|schizophrenia-psychosis v1|readv2|E04y.|Other specified chronic organic psychoses|
+|schizophrenia-psychosis v1|readv2|E02z.|Drug psychosis NOS|
+|schizophrenia-psychosis v1|readv2|E03z.|Transient organic psychoses NOS|
+|schizophrenia-psychosis v1|readv2|E04z.|Chronic organic psychosis NOS|
+|schizophrenia-psychosis v1|readv2|Eu145|[X]Mental and behavioural disorders due to use of cocaine: psychotic disorder|
+|schizophrenia-psychosis v1|readv2|E0...|Organic psychotic conditions|
+|schizophrenia-psychosis v1|readv2|E00..|Senile and presenile organic psychotic conditions|
+|schizophrenia-psychosis v1|readv2|E00y.|Other senile and presenile organic psychoses|
+|schizophrenia-psychosis v1|readv2|E010.|DTs - delirium tremens|
+|schizophrenia-psychosis v1|readv2|E0112|Wernicke-Korsakov syndrome|
+|schizophrenia-psychosis v1|readv2|E02y0|Drug-induced delirium|
+|schizophrenia-psychosis v1|readv2|E1114|Recurrent manic episodes, severe, with psychosis|
+|schizophrenia-psychosis v1|readv2|Eu104|[X]Delirium tremens, alcohol induced|
+|schizophrenia-psychosis v1|readv2|E02..|Drug psychoses|
+|schizophrenia-psychosis v1|readv2|E1144|Bipolar affective disorder, currently manic, severe, with psychosis|
+|schizophrenia-psychosis v1|readv2|E1164|Mixed bipolar affective disorder, severe, with psychosis|
+|schizophrenia-psychosis v1|readv2|E04..|Other chronic organic psychoses|
 |schizophrenia-psychosis v1|readv2|Eu104|[X]Mental and behavioural disorders due to use of alcohol: withdrawal state with delirium|
-|schizophrenia-psychosis v1|snomed|SnomedCT_ConceptID|FullDescription|
-|schizophrenia-psychosis v1|snomed|162313000|Morbid jealousy|
-|schizophrenia-psychosis v1|snomed|5510009|Organic delusional disorder|
-|schizophrenia-psychosis v1|snomed|5510009|Paranoid organic state|
-|schizophrenia-psychosis v1|snomed|191525009|Non-organic psychoses|
-|schizophrenia-psychosis v1|snomed|191527001|Schizophrenia simplex|
-|schizophrenia-psychosis v1|snomed|191527001|Simple schizophrenia|
-|schizophrenia-psychosis v1|snomed|58214004|Unspecified schizophrenia|
-|schizophrenia-psychosis v1|snomed|16990005|Subchronic schizophrenia|
-|schizophrenia-psychosis v1|snomed|111482003|Acute exacerbation of subchronic schizophrenia|
-|schizophrenia-psychosis v1|snomed|191531007|Acute exacerbation of chronic schizophrenia|
-|schizophrenia-psychosis v1|snomed|4926007|Schizophrenia in remission|
-|schizophrenia-psychosis v1|snomed|191527001|Simple schizophrenia NOS|
-|schizophrenia-psychosis v1|snomed|35252006|Disorganised schizophrenia|
-|schizophrenia-psychosis v1|snomed|35252006|Hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|snomed|35252006|Unspecified hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|snomed|27387000|Subchronic hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|snomed|12939007|Chronic hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|snomed|14291003|Acute exacerbation of subchronic hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|snomed|191539009|Acute exacerbation of chronic hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|snomed|31373002|Hebephrenic schizophrenia in remission|
-|schizophrenia-psychosis v1|snomed|35252006|Hebephrenic schizophrenia NOS|
-|schizophrenia-psychosis v1|snomed|191542003|[X]Schizophrenic flexibilatis cerea|
-|schizophrenia-psychosis v1|snomed|191542003|Catatonic schizophrenia|
-|schizophrenia-psychosis v1|snomed|191542003|Unspecified catatonic schizophrenia|
-|schizophrenia-psychosis v1|snomed|42868002|Subchronic catatonic schizophrenia|
-|schizophrenia-psychosis v1|snomed|68995007|Chronic catatonic schizophrenia|
-|schizophrenia-psychosis v1|snomed|191547009|Acute exacerbation of subchronic catatonic schizophrenia|
-|schizophrenia-psychosis v1|snomed|191548004|Acute exacerbation of chronic catatonic schizophrenia|
-|schizophrenia-psychosis v1|snomed|111483008|Catatonic schizophrenia in remission|
-|schizophrenia-psychosis v1|snomed|191542003|Catatonic schizophrenia NOS|
-|schizophrenia-psychosis v1|snomed|64905009|Paranoid schizophrenia|
-|schizophrenia-psychosis v1|snomed|64905009|Paraphrenic schizophrenia|
-|schizophrenia-psychosis v1|snomed|64905009|Unspecified paranoid schizophrenia|
-|schizophrenia-psychosis v1|snomed|79866005|Subchronic paranoid schizophrenia|
-|schizophrenia-psychosis v1|snomed|31658008|Chronic paranoid schizophrenia|
-|schizophrenia-psychosis v1|snomed|191554003|Acute exacerbation of subchronic paranoid schizophrenia|
-|schizophrenia-psychosis v1|snomed|191555002|Acute exacerbation of chronic paranoid schizophrenia|
-|schizophrenia-psychosis v1|snomed|63181006|Paranoid schizophrenia in remission|
-|schizophrenia-psychosis v1|snomed|64905009|Paranoid schizophrenia NOS|
-|schizophrenia-psychosis v1|snomed|307504004|Oneirophrenia|
-|schizophrenia-psychosis v1|snomed|191559008|Latent schizophrenia|
-|schizophrenia-psychosis v1|snomed|191559008|Unspecified latent schizophrenia|
-|schizophrenia-psychosis v1|snomed|191561004|Subchronic latent schizophrenia|
-|schizophrenia-psychosis v1|snomed|191562006|Chronic latent schizophrenia|
-|schizophrenia-psychosis v1|snomed|191563001|Acute exacerbation of subchronic latent schizophrenia|
-|schizophrenia-psychosis v1|snomed|191564007|Acute exacerbation of chronic latent schizophrenia|
-|schizophrenia-psychosis v1|snomed|191565008|Latent schizophrenia in remission|
-|schizophrenia-psychosis v1|snomed|191559008|Latent schizophrenia NOS|
-|schizophrenia-psychosis v1|snomed|26025008|Residual schizophrenia|
-|schizophrenia-psychosis v1|snomed|26025008|Restzustand|
-|schizophrenia-psychosis v1|snomed|191567000|Cyclic schizophrenia|
-|schizophrenia-psychosis v1|snomed|191567000|Schizoaffective schizophrenia|
-|schizophrenia-psychosis v1|snomed|191567000|Unspecified schizoaffective schizophrenia|
-|schizophrenia-psychosis v1|snomed|191569002|Subchronic schizoaffective schizophrenia|
-|schizophrenia-psychosis v1|snomed|191570001|Chronic schizoaffective schizophrenia|
-|schizophrenia-psychosis v1|snomed|191571002|Acute exacerbation of subchronic schizoaffective schizophrenia|
-|schizophrenia-psychosis v1|snomed|191572009|Acute exacerbation of chronic schizoaffective schizophrenia|
-|schizophrenia-psychosis v1|snomed|191574005|Schizoaffective schizophrenia in remission|
-|schizophrenia-psychosis v1|snomed|191567000|Schizoaffective schizophrenia NOS|
-|schizophrenia-psychosis v1|snomed|191577003|Cenesthopathic schizophrenia|
-|schizophrenia-psychosis v1|snomed|58214004|Other schizophrenia|
-|schizophrenia-psychosis v1|snomed|191577003|Schizophrenia: [other] or [cenesthopathic]|
-|schizophrenia-psychosis v1|snomed|111484002|Atypical schizophrenia|
-|schizophrenia-psychosis v1|snomed|111484002|Undifferentiated schizophrenia|
-|schizophrenia-psychosis v1|snomed|191577003|Cenesthopathic schizophrenia|
-|schizophrenia-psychosis v1|snomed|191577003|Coenesthopathic schizophrenia|
-|schizophrenia-psychosis v1|snomed|58214004|Other schizophrenia NOS|
-|schizophrenia-psychosis v1|snomed|58214004|Schizophrenia NOS|
-|schizophrenia-psychosis v1|snomed|191667009|Paranoid disorder|
-|schizophrenia-psychosis v1|snomed|191668004|Simple paranoid state|
-|schizophrenia-psychosis v1|snomed|26472000|Paraphrenia|
-|schizophrenia-psychosis v1|snomed|191670008|Folie a deux|
-|schizophrenia-psychosis v1|snomed|191670008|Shared paranoid disorder|
-|schizophrenia-psychosis v1|snomed|191667009|Other paranoid states|
-|schizophrenia-psychosis v1|snomed|191667009|Other paranoid states NOS|
-|schizophrenia-psychosis v1|snomed|191667009|Paranoid psychosis NOS|
-|schizophrenia-psychosis v1|snomed|191525009|Other nonorganic psychoses|
-|schizophrenia-psychosis v1|snomed|231437006|Psychoses: [other nonorganic] or [reactive]|
-|schizophrenia-psychosis v1|snomed|231437006|Reactive psychoses|
-|schizophrenia-psychosis v1|snomed|63204009|Bouffee delirante|
-|schizophrenia-psychosis v1|snomed|191680007|Psychogenic paranoid psychosis|
-|schizophrenia-psychosis v1|snomed|231437006|Other reactive psychoses|
-|schizophrenia-psychosis v1|snomed|231437006|Other reactive psychoses NOS|
-|schizophrenia-psychosis v1|snomed|191525009|Nonorganic psychosis NOS|
-|schizophrenia-psychosis v1|snomed|191525009|Psychosis: [nonorganic NOS] or [episode NOS]|
-|schizophrenia-psychosis v1|snomed|69322001|Psychotic episode NOS|
-|schizophrenia-psychosis v1|snomed|191525009|Other specified non-organic psychoses|
-|schizophrenia-psychosis v1|snomed|31027006|Schizoptypal disorder|
-|schizophrenia-psychosis v1|snomed|31027006|Schizotypal personality disorder|
-|schizophrenia-psychosis v1|snomed|5510009|[X] (Organic delusional (schizophrenia-like) disorder) or (paranoid organic state) or (schizophrenia-like psychosis in epilepsy)|
-|schizophrenia-psychosis v1|snomed|5510009|[X]Organic delusional [schizophrenia-like] disorder|
-|schizophrenia-psychosis v1|snomed|5510009|[X]Paranoid organic state|
-|schizophrenia-psychosis v1|snomed|5510009|[X]Schizophrenia-like psychosis in epilepsy|
-|schizophrenia-psychosis v1|snomed|58214004|Schizophrenia|
-|schizophrenia-psychosis v1|snomed|191542003|[X] (Catatonic schizophrenia) or (catatonic stupor) or (schizophrenic catalepsy) or (schizophrenic catatonia) or (schizophrenic flexibilatis cerea)|
-|schizophrenia-psychosis v1|snomed|191542003|[X]Catatonic schizophrenia|
-|schizophrenia-psychosis v1|snomed|191542003|[X]Schizophrenic catalepsy|
-|schizophrenia-psychosis v1|snomed|191542003|[X]Schizophrenic catatonia|
-|schizophrenia-psychosis v1|snomed|191542003|[X]Schizophrenic flexibilatis cerea|
-|schizophrenia-psychosis v1|snomed|111484002|[X]Undifferentiated schizophrenia|
-|schizophrenia-psychosis v1|snomed|58214004|[X] (Schizophrenia: [cenesthopathic] or [other]) or (schizophreniform disorder [including psychosis] NOS)|
-|schizophrenia-psychosis v1|snomed|191577003|[X]Cenesthopathic schizophrenia|
-|schizophrenia-psychosis v1|snomed|58214004|[X]Other schizophrenia|
-|schizophrenia-psychosis v1|snomed|58214004|"[X]Schizophrenia, unspecified"|
-|schizophrenia-psychosis v1|snomed|274952002|[X]Borderline schizophrenia|
-|schizophrenia-psychosis v1|snomed|191559008|[X]Latent schizophrenia|
-|schizophrenia-psychosis v1|snomed|191559008|[X]Latent schizophrenic reaction|
-|schizophrenia-psychosis v1|snomed|247804008|[X]Prepsychotic schizophrenia|
-|schizophrenia-psychosis v1|snomed|247804008|[X]Prodromal schizophrenia|
-|schizophrenia-psychosis v1|snomed|31027006|[X]Pseudoneurotic schizophrenia|
-|schizophrenia-psychosis v1|snomed|31027006|[X]Pseudopsychopathic schizophrenia|
-|schizophrenia-psychosis v1|snomed|31027006|[X]Schizotypal disorder|
-|schizophrenia-psychosis v1|snomed|31027006|[X]Schizotypal personality disorder|
-|schizophrenia-psychosis v1|snomed|48500005|[X]Delusional disorder|
-|schizophrenia-psychosis v1|snomed|191667009|[X]Paranoia|
-|schizophrenia-psychosis v1|snomed|191667009|[X]Paranoid psychosis|
-|schizophrenia-psychosis v1|snomed|191667009|[X]Paranoid state|
-|schizophrenia-psychosis v1|snomed|38295006|[X]Paraphrenia - late|
-|schizophrenia-psychosis v1|snomed|41189006|[X]Sensitiver Beziehungswahn|
-|schizophrenia-psychosis v1|snomed|191667009|Paranoid state|
-|schizophrenia-psychosis v1|snomed|41189006|Sensitiver Beziehungswahm|
-|schizophrenia-psychosis v1|snomed|231487004|[X] (Other persistent delusional disorders) or (delusional dysmorphophobia) or (involutional paranoid state) or (paranoia querulans)|
-|schizophrenia-psychosis v1|snomed|231487004|[X]Other persistent delusional disorders|
-|schizophrenia-psychosis v1|snomed|231487004|"[X]Persistent delusional disorder, unspecified"|
-|schizophrenia-psychosis v1|snomed|712824002|[X]Acute polymorphic psychotic disorder without symptoms of schizophrenia|
-|schizophrenia-psychosis v1|snomed|63204009|[X]Bouffee delirante|
-|schizophrenia-psychosis v1|snomed|307417003|[X]Cycloid psychosis|
-|schizophrenia-psychosis v1|snomed|712850003|[X]Acute polymorphic psychotic disorder with symptoms of schizophrenia|
-|schizophrenia-psychosis v1|snomed|278853003|[X] Acute schizophrenia-like psychotic disorder (& [brief schizophreniform disorder] or [brief schizophrenifrm psych] or [oneirophrenia] or [schizophrenic reaction])|
-|schizophrenia-psychosis v1|snomed|278853003|[X]Acute schizophrenia-like psychotic disorder|
-|schizophrenia-psychosis v1|snomed|307504004|[X]Oneirophrenia|
-|schizophrenia-psychosis v1|snomed|231489001|[X] (Other acute predominantly delusional psychotic disorders) or (psychogenic paranoid psychosis)|
-|schizophrenia-psychosis v1|snomed|231489001|[X]Other acute predominantly delusional psychotic disorders|
-|schizophrenia-psychosis v1|snomed|191680007|[X]Psychogenic paranoid psychosis|
-|schizophrenia-psychosis v1|snomed|231489001|[X]Other acute and transient psychotic disorders|
-|schizophrenia-psychosis v1|snomed|231489001|"[X]Acute and transient psychotic disorder, unspecified"|
-|schizophrenia-psychosis v1|snomed|231437006|"[X]Acute and transient psychotic disorder, unspecified (& [reactive psychosis (including brief NOS)])"|
-|schizophrenia-psychosis v1|snomed|231437006|[X]Reactive psychosis|
-|schizophrenia-psychosis v1|snomed|231437006|Reactive psychoses|
-|schizophrenia-psychosis v1|snomed|61831009|Induced delusional disorder|
-|schizophrenia-psychosis v1|snomed|61831009|Induced paranoid disorder|
-|schizophrenia-psychosis v1|snomed|61831009|Induced psychosis|
-|schizophrenia-psychosis v1|snomed|61831009|Symbiotic psychosis|
-|schizophrenia-psychosis v1|snomed|68890003|Schizoaffective disorder|
-|schizophrenia-psychosis v1|snomed|270901009|"[X](Schizoaffective disorder, mixed type) or (cyclic schizophrenia) or (mixed schizophrenic and affective psychosis)"|
-|schizophrenia-psychosis v1|snomed|191567000|[X]Cyclic schizophrenia|
-|schizophrenia-psychosis v1|snomed|270901009|[X]Mixed schizophrenic and affective psychosis|
-|schizophrenia-psychosis v1|snomed|270901009|"[X]Schizoaffective disorder, mixed type"|
-|schizophrenia-psychosis v1|snomed|68890003|[X]Other schizoaffective disorders|
-|schizophrenia-psychosis v1|snomed|68890003|"[X]Schizoaffective disorder, unspecified"|
-|schizophrenia-psychosis v1|snomed|480111000000107|[X] (Other nonorganic psychotic disorders) or (chronic hallucinatory psychosis)|
-|schizophrenia-psychosis v1|snomed|480111000000107|[X] Chronic hallucinatory psychosis|
-|schizophrenia-psychosis v1|snomed|480111000000107|[X]Chronic hallucinatory psychosis|
-|schizophrenia-psychosis v1|snomed|191525009|[X]Other nonorganic psychotic disorders|
-|schizophrenia-psychosis v1|snomed|191525009|[X] Psychosis NOS|
-|schizophrenia-psychosis v1|snomed|191525009|[X] Psychosis: [unspecified nonorganic] or [NOS]|
-|schizophrenia-psychosis v1|snomed|69322001|[X]Psychosis NOS|
-|schizophrenia-psychosis v1|snomed|191525009|[X]Unspecified nonorganic psychosis|
-|schizophrenia-psychosis v1|snomed|69322001|Psychotic episode NOS|
-|schizophrenia-psychosis v1|snomed|231437006|Reactive psychoses|
-|schizophrenia-psychosis v1|snomed|69322001|Psychotic|
-|schizophrenia-psychosis v1|snomed|69322001|Psychotic disorder|
-|schizophrenia-psychosis v1|snomed|231485007|Post-schizophrenic depression|
-|schizophrenia-psychosis v1|snomed|231487004|Persistent delusional disorder|
-|schizophrenia-psychosis v1|snomed|231489001|Acute transient psychotic disorder|
-|schizophrenia-psychosis v1|snomed|2073000|Delusion|
-|schizophrenia-psychosis v1|snomed|2073000|Delusional ideas|
-|schizophrenia-psychosis v1|snomed|2073000|Delusional thoughts|
-|schizophrenia-psychosis v1|snomed|2073000|Delusions|
-|schizophrenia-psychosis v1|snomed|8330006|Delusional jealousy|
-|schizophrenia-psychosis v1|snomed|247804008|Prepsychotic schizophrenia|
-|schizophrenia-psychosis v1|snomed|247804008|Prodromal schizophrenia|
-|schizophrenia-psychosis v1|snomed|247804008|Schizophrenic prodrome|
-|schizophrenia-psychosis v1|snomed|247917007|Catatonia|
-|schizophrenia-psychosis v1|snomed|278853003|Acute schizophrenia-like psychotic disorder|
-|schizophrenia-psychosis v1|snomed|38295006|Late paraphrenia|
-|schizophrenia-psychosis v1|snomed|8330006|Delusion of infidelity|
-|schizophrenia-psychosis v1|snomed|41189006|Ideas of reference|
-|schizophrenia-psychosis v1|snomed|63204009|Bouffee delirante|
-|schizophrenia-psychosis v1|snomed|307417003|Cycloid psychosis|
-|schizophrenia-psychosis v1|snomed|307504004|Oneirophrenia|
-|schizophrenia-psychosis v1|snomed|417233008|Paranoid ideation|
-|schizophrenia-psychosis v1|snomed|64905009|Paranoid schizophrenia|
-|schizophrenia-psychosis v1|snomed|64905009|Schizophrenic psychoses|
-|schizophrenia-psychosis v1|snomed|64905009|Schizophrenic psychoses (& [paranoid schizophrenia])|
-|schizophrenia-psychosis v1|snomed|64905009|Paranoid schizophrenia|
-|schizophrenia-psychosis v1|snomed|26472000|Paraphrenia|
-|schizophrenia-psychosis v1|snomed|48500005|(Paranoid state(s)) or (delusion(s): [paranoid] or [persecution])|
-|schizophrenia-psychosis v1|snomed|48500005|Delusions - paranoid|
-|schizophrenia-psychosis v1|snomed|48500005|Paranoid state|
-|schizophrenia-psychosis v1|snomed|48500005|Paranoid states|
-|schizophrenia-psychosis v1|snomed|48500005|Persecution delusion|
-|schizophrenia-psychosis v1|snomed|58214004|Other schizophrenia|
-|schizophrenia-psychosis v1|snomed|191525009|Other non-organic psychoses|
-|schizophrenia-psychosis v1|snomed|191525009|Non-organic psychosis NOS|
-|schizophrenia-psychosis v1|snomed|58214004|[X]Other schizophrenia|
-|schizophrenia-psychosis v1|snomed|31027006|[X]Schizotypal disorder|
-|schizophrenia-psychosis v1|snomed|48500005|Delusional disorder|
-|schizophrenia-psychosis v1|snomed|191667009|Paranoid psychosis|
-|schizophrenia-psychosis v1|snomed|41189006|Sensitiver Beziehungswahm|
-|schizophrenia-psychosis v1|snomed|231487004|[X]Other persistent delusional disorders|
-|schizophrenia-psychosis v1|snomed|712824002|[X]Acute polymorphic psychotic disorder without symptoms of schizophrenia|
-|schizophrenia-psychosis v1|snomed|231489001|[X]Other acute predominantly delusional psychotic disorders|
-|schizophrenia-psychosis v1|snomed|231489001|"[X]Acute and transient psychotic disorder, unspecified"|
-|schizophrenia-psychosis v1|snomed|191525009|[X]Other non-organic psychotic disorders|
-|schizophrenia-psychosis v1|snomed|191525009|[X] Psychosis NOS|
-|schizophrenia-psychosis v1|snomed|191525009|[X]Unspecified nonorganic psychosis|
-|schizophrenia-psychosis v1|snomed|270901009|Mixed schizophrenic and affective pschosis|
-|schizophrenia-psychosis v1|snomed|270901009|"Schizoaffective disorder, mixed type"|
-|schizophrenia-psychosis v1|snomed|84760002|"Schizoaffective disorder, depressive type"|
-|schizophrenia-psychosis v1|snomed|84760002|"Schizophreniform psychosis, depressive type"|
-|schizophrenia-psychosis v1|snomed|271428004|"Schizoaffective disorder, manic type"|
-|schizophrenia-psychosis v1|snomed|271428004|"Schizophreniform psychosis, manic type"|
-|schizophrenia-psychosis v1|snomed|274952002|Borderline schizophrenia|
-|schizophrenia-psychosis v1|snomed|5510009|Organic delusional [schizophrenia-like] disorder|
-|schizophrenia-psychosis v1|snomed|64905009|Paranoid schizophrenia|
-|schizophrenia-psychosis v1|snomed|35252006|Hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|snomed|247917007|Catatonic schizophrenia|
-|schizophrenia-psychosis v1|snomed|111484002|Undifferentiated schizophrenia|
-|schizophrenia-psychosis v1|snomed|231485007|Post-schizophrenic depression|
-|schizophrenia-psychosis v1|snomed|26025008|Residual schizophrenia|
-|schizophrenia-psychosis v1|snomed|191527001|Simple schizophrenia|
-|schizophrenia-psychosis v1|snomed|268691004|Other schizophrenia|
-|schizophrenia-psychosis v1|snomed|58214004|"Schizophrenia, unspecified"|
-|schizophrenia-psychosis v1|snomed|2073000|Delusional disorder|
-|schizophrenia-psychosis v1|snomed|268693001|Other persistent delusional disorders|
-|schizophrenia-psychosis v1|snomed|8330006|"Persistent delusional disorder, unspecified"|
-|schizophrenia-psychosis v1|snomed|307417003|Acute polymorphic psychotic disorder without symptoms of schizop|
-|schizophrenia-psychosis v1|snomed|192335000|Acute polymorphic psychotic disorder with symptoms of schizophre|
-|schizophrenia-psychosis v1|snomed|307504004|Acute schizophrenia-like psychotic disorder|
-|schizophrenia-psychosis v1|snomed|268695008|Other acute predominantly delusional psychotic disorders|
-|schizophrenia-psychosis v1|snomed|470311000000103|Other acute and transient psychotic disorders|
-|schizophrenia-psychosis v1|snomed|231437006|"Acute and transient psychotic disorder, unspecified"|
-|schizophrenia-psychosis v1|snomed|271428004|"Schizoaffective disorder, manic type"|
-|schizophrenia-psychosis v1|snomed|84760002|"Schizoaffective disorder, depressive type"|
-|schizophrenia-psychosis v1|snomed|270901009|"Schizoaffective disorder, mixed type"|
-|schizophrenia-psychosis v1|snomed|410341000000107|Other schizoaffective disorders|
-|schizophrenia-psychosis v1|snomed|68890003|"Schizoaffective disorder, unspecified"|
-|schizophrenia-psychosis v1|snomed|162313000|Morbid jealousy|
-|schizophrenia-psychosis v1|snomed|2073000|Delusion|
-|schizophrenia-psychosis v1|snomed|2073000|Delusions|
-|schizophrenia-psychosis v1|snomed|41189006|Ideas of reference|
-|schizophrenia-psychosis v1|snomed|417233008|Paranoid ideation|
-|schizophrenia-psychosis v1|snomed|5510009|Organic delusional syndrome|
-|schizophrenia-psychosis v1|snomed|191525009|Non-organic psychoses|
-|schizophrenia-psychosis v1|snomed|191527001|Schizophrenia simplex|
-|schizophrenia-psychosis v1|snomed|191527001|Simple schizophrenia|
-|schizophrenia-psychosis v1|snomed|58214004|Unspecified schizophrenia|
-|schizophrenia-psychosis v1|snomed|16990005|Subchronic schizophrenia|
-|schizophrenia-psychosis v1|snomed|111482003|Acute exacerbation of subchronic schizophrenia|
-|schizophrenia-psychosis v1|snomed|191531007|Acute exacerbation of chronic schizophrenia|
-|schizophrenia-psychosis v1|snomed|4926007|Schizophrenia in remission|
-|schizophrenia-psychosis v1|snomed|191527001|Simple schizophrenia NOS|
-|schizophrenia-psychosis v1|snomed|35252006|Hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|snomed|35252006|Unspecified hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|snomed|27387000|Subchronic hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|snomed|12939007|Chronic hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|snomed|14291003|Acute exacerbation of subchronic hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|snomed|191539009|Acute exacerbation of chronic hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|snomed|31373002|Hebephrenic schizophrenia in remission|
-|schizophrenia-psychosis v1|snomed|35252006|Hebephrenic schizophrenia NOS|
-|schizophrenia-psychosis v1|snomed|191542003|Catatonic schizophrenia|
-|schizophrenia-psychosis v1|snomed|191542003|Unspecified catatonic schizophrenia|
-|schizophrenia-psychosis v1|snomed|42868002|Subchronic catatonic schizophrenia|
-|schizophrenia-psychosis v1|snomed|68995007|Chronic catatonic schizophrenia|
-|schizophrenia-psychosis v1|snomed|191547009|Acute exacerbation of subchronic catatonic schizophrenia|
-|schizophrenia-psychosis v1|snomed|191548004|Acute exacerbation of chronic catatonic schizophrenia|
-|schizophrenia-psychosis v1|snomed|111483008|Catatonic schizophrenia in remission|
-|schizophrenia-psychosis v1|snomed|191542003|Catatonic schizophrenia NOS|
-|schizophrenia-psychosis v1|snomed|64905009|Paranoid schizophrenia|
-|schizophrenia-psychosis v1|snomed|64905009|Unspecified paranoid schizophrenia|
-|schizophrenia-psychosis v1|snomed|79866005|Subchronic paranoid schizophrenia|
-|schizophrenia-psychosis v1|snomed|31658008|Chronic paranoid schizophrenia|
-|schizophrenia-psychosis v1|snomed|191554003|Acute exacerbation of subchronic paranoid schizophrenia|
-|schizophrenia-psychosis v1|snomed|191555002|Acute exacerbation of chronic paranoid schizophrenia|
-|schizophrenia-psychosis v1|snomed|63181006|Paranoid schizophrenia in remission|
-|schizophrenia-psychosis v1|snomed|64905009|Paranoid schizophrenia NOS|
-|schizophrenia-psychosis v1|snomed|307504004|Oneirophrenia|
-|schizophrenia-psychosis v1|snomed|191559008|Latent schizophrenia|
-|schizophrenia-psychosis v1|snomed|191559008|Unspecified latent schizophrenia|
-|schizophrenia-psychosis v1|snomed|191561004|Subchronic latent schizophrenia|
-|schizophrenia-psychosis v1|snomed|191562006|Chronic latent schizophrenia|
-|schizophrenia-psychosis v1|snomed|191563001|Acute exacerbation of subchronic latent schizophrenia|
-|schizophrenia-psychosis v1|snomed|191564007|Acute exacerbation of chronic latent schizophrenia|
-|schizophrenia-psychosis v1|snomed|191565008|Latent schizophrenia in remission|
-|schizophrenia-psychosis v1|snomed|191559008|Latent schizophrenia NOS|
-|schizophrenia-psychosis v1|snomed|26025008|Residual schizophrenia|
-|schizophrenia-psychosis v1|snomed|26025008|Restzustand - schizophrenia|
-|schizophrenia-psychosis v1|snomed|191567000|Cyclic schizophrenia|
-|schizophrenia-psychosis v1|snomed|191567000|Schizo-affective schizophrenia|
-|schizophrenia-psychosis v1|snomed|191567000|Unspecified schizo-affective schizophrenia|
-|schizophrenia-psychosis v1|snomed|191569002|Subchronic schizo-affective schizophrenia|
-|schizophrenia-psychosis v1|snomed|191570001|Chronic schizo-affective schizophrenia|
-|schizophrenia-psychosis v1|snomed|191571002|Acute exacerbation of subchronic schizo-affective schizophrenia|
-|schizophrenia-psychosis v1|snomed|191572009|Acute exacerbation of chronic schizo-affective schizophrenia|
-|schizophrenia-psychosis v1|snomed|191574005|Schizo-affective schizophrenia in remission|
-|schizophrenia-psychosis v1|snomed|191567000|Schizo-affective schizophrenia NOS|
-|schizophrenia-psychosis v1|snomed|191577003|Cenesthopathic schizophrenia|
-|schizophrenia-psychosis v1|snomed|58214004|Other schizophrenia|
-|schizophrenia-psychosis v1|snomed|111484002|Atypical schizophrenia|
-|schizophrenia-psychosis v1|snomed|191577003|Coenesthopathic schizophrenia|
-|schizophrenia-psychosis v1|snomed|58214004|Other schizophrenia NOS|
-|schizophrenia-psychosis v1|snomed|58214004|Schizophrenia NOS|
-|schizophrenia-psychosis v1|snomed|191667009|Paranoid states|
-|schizophrenia-psychosis v1|snomed|191668004|Simple paranoid state|
-|schizophrenia-psychosis v1|snomed|26472000|Paraphrenia|
-|schizophrenia-psychosis v1|snomed|191670008|Folie a deux|
-|schizophrenia-psychosis v1|snomed|191670008|Shared paranoid disorder|
-|schizophrenia-psychosis v1|snomed|191667009|Other paranoid states|
-|schizophrenia-psychosis v1|snomed|191667009|Other paranoid states NOS|
-|schizophrenia-psychosis v1|snomed|191667009|Paranoid psychosis NOS|
-|schizophrenia-psychosis v1|snomed|191525009|Other nonorganic psychoses|
-|schizophrenia-psychosis v1|snomed|231437006|Reactive psychoses|
-|schizophrenia-psychosis v1|snomed|63204009|Bouffee delirante|
-|schizophrenia-psychosis v1|snomed|191680007|Psychogenic paranoid psychosis|
-|schizophrenia-psychosis v1|snomed|231437006|Other reactive psychoses|
-|schizophrenia-psychosis v1|snomed|231437006|Other reactive psychoses NOS|
-|schizophrenia-psychosis v1|snomed|191525009|Nonorganic psychosis NOS|
-|schizophrenia-psychosis v1|snomed|69322001|Psychotic episode NOS|
-|schizophrenia-psychosis v1|snomed|191525009|Other specified non-organic psychoses|
-|schizophrenia-psychosis v1|snomed|191525009|Non-organic psychosis NOS|
-|schizophrenia-psychosis v1|snomed|31027006|Schizotypal personality|
-|schizophrenia-psychosis v1|snomed|5510009|[X]Organic delusional [schizophrenia-like] disorder|
-|schizophrenia-psychosis v1|snomed|5510009|[X]Paranoid organic state|
-|schizophrenia-psychosis v1|snomed|5510009|[X]Schizophrenia-like psychosis in epilepsy|
-|schizophrenia-psychosis v1|snomed|58214004|[X]Schizophrenia|
-|schizophrenia-psychosis v1|snomed|64905009|[X]Paranoid schizophrenia|
-|schizophrenia-psychosis v1|snomed|64905009|[X]Paraphrenic schizophrenia|
-|schizophrenia-psychosis v1|snomed|35252006|[X]Disorganised schizophrenia|
-|schizophrenia-psychosis v1|snomed|35252006|[X]Hebephrenic schizophrenia|
-|schizophrenia-psychosis v1|snomed|191542003|[X]Catatonic schizophrenia|
-|schizophrenia-psychosis v1|snomed|191542003|[X]Catatonic stupor|
-|schizophrenia-psychosis v1|snomed|191542003|[X]Schizophrenic catalepsy|
-|schizophrenia-psychosis v1|snomed|191542003|[X]Schizophrenic catatonia|
-|schizophrenia-psychosis v1|snomed|191542003|[X]Schizophrenic flexibilatis cerea|
-|schizophrenia-psychosis v1|snomed|111484002|[X]Atypical schizophrenia|
-|schizophrenia-psychosis v1|snomed|111484002|[X]Undifferentiated schizophrenia|
-|schizophrenia-psychosis v1|snomed|231485007|[X]Post-schizophrenic depression|
-|schizophrenia-psychosis v1|snomed|111484002|[X]Chronic undifferentiated schizophrenia|
-|schizophrenia-psychosis v1|snomed|26025008|[X]Residual schizophrenia|
-|schizophrenia-psychosis v1|snomed|26025008|[X]Restzustand schizophrenic|
-|schizophrenia-psychosis v1|snomed|191527001|[X]Simple schizophrenia|
-|schizophrenia-psychosis v1|snomed|58214004|[X]Cenesthopathic schizophrenia|
-|schizophrenia-psychosis v1|snomed|58214004|[X]Other schizophrenia|
-|schizophrenia-psychosis v1|snomed|58214004|[X]Schizophreniform disord NOS|
-|schizophrenia-psychosis v1|snomed|58214004|[X]Schizophrenifrm psychos NOS|
-|schizophrenia-psychosis v1|snomed|58214004|"[X]Schizophrenia, unspecified"|
-|schizophrenia-psychosis v1|snomed|274952002|[X]Borderline schizophrenia|
-|schizophrenia-psychosis v1|snomed|191559008|[X]Latent schizophrenia|
-|schizophrenia-psychosis v1|snomed|191559008|[X]Latent schizophrenic reaction|
-|schizophrenia-psychosis v1|snomed|247804008|[X]Prepsychotic schizophrenia|
-|schizophrenia-psychosis v1|snomed|247804008|[X]Prodromal schizophrenia|
-|schizophrenia-psychosis v1|snomed|31027006|[X]Pseudoneurotic schizophrenia|
-|schizophrenia-psychosis v1|snomed|31027006|[X]Pseudopsychopathic schizophrenia|
-|schizophrenia-psychosis v1|snomed|31027006|[X]Schizotypal disorder|
-|schizophrenia-psychosis v1|snomed|31027006|[X]Schizotypal personality disorder|
-|schizophrenia-psychosis v1|snomed|231487004|[X]Persistent delusional disorders|
-|schizophrenia-psychosis v1|snomed|48500005|[X]Delusional disorder|
-|schizophrenia-psychosis v1|snomed|417233008|[X]Paranoia|
-|schizophrenia-psychosis v1|snomed|191667009|[X]Paranoid psychosis|
-|schizophrenia-psychosis v1|snomed|191667009|[X]Paranoid state|
-|schizophrenia-psychosis v1|snomed|38295006|[X]Paraphrenia - late|
-|schizophrenia-psychosis v1|snomed|41189006|[X]Sensitiver Beziehungswahn|
-|schizophrenia-psychosis v1|snomed|231487004|[X]Delusional dysmorphophobia|
-|schizophrenia-psychosis v1|snomed|231487004|[X]Involutional paranoid state|
-|schizophrenia-psychosis v1|snomed|231487004|[X]Other persistent delusional disorders|
-|schizophrenia-psychosis v1|snomed|231487004|[X]Paranoia querulans|
-|schizophrenia-psychosis v1|snomed|231487004|"[X]Persistent delusional disorder, unspecified"|
-|schizophrenia-psychosis v1|snomed|231489001|[X]Acute and transient psychotic disorders|
-|schizophrenia-psychosis v1|snomed|712824002|[X]Acute polymorphic psychotic disorder without symptoms of schizophrenia|
-|schizophrenia-psychosis v1|snomed|63204009|[X]Bouffee delirante|
-|schizophrenia-psychosis v1|snomed|307417003|[X]Cycloid psychosis|
-|schizophrenia-psychosis v1|snomed|712850003|[X]Acute polymorphic psychotic disorder with symptoms of schizophrenia|
-|schizophrenia-psychosis v1|snomed|712850003|[X]Bouffee delirante with symptoms of schizophrenia|
-|schizophrenia-psychosis v1|snomed|307417003|[X]Cycloid psychosis with symptoms of schizophrenia|
-|schizophrenia-psychosis v1|snomed|278853003|[X]Acute schizophrenia-like psychotic disorder|
-|schizophrenia-psychosis v1|snomed|278853003|[X]Brief schizophreniform disorder|
-|schizophrenia-psychosis v1|snomed|278853003|[X]Brief schizophrenifrm psych|
-|schizophrenia-psychosis v1|snomed|278853003|[X]Oneirophrenia|
-|schizophrenia-psychosis v1|snomed|278853003|[X]Schizophrenic reaction|
-|schizophrenia-psychosis v1|snomed|231489001|[X]Other acute predominantly delusional psychotic disorders|
-|schizophrenia-psychosis v1|snomed|191680007|[X]Psychogenic paranoid psychosis|
-|schizophrenia-psychosis v1|snomed|231489001|[X]Other acute and transient psychotic disorders|
-|schizophrenia-psychosis v1|snomed|231489001|"[X]Acute and transient psychotic disorder, unspecified"|
-|schizophrenia-psychosis v1|snomed|231489001|[X]Brief reactive psychosis NOS|
-|schizophrenia-psychosis v1|snomed|231437006|[X]Reactive psychosis|
-|schizophrenia-psychosis v1|snomed|191670008|[X]Folie a deux|
-|schizophrenia-psychosis v1|snomed|61831009|[X]Induced delusional disorder|
-|schizophrenia-psychosis v1|snomed|61831009|[X]Induced paranoid disorder|
-|schizophrenia-psychosis v1|snomed|61831009|[X]Induced psychotic disorder|
-|schizophrenia-psychosis v1|snomed|68890003|[X]Schizoaffective disorders|
-|schizophrenia-psychosis v1|snomed|271428004|"[X]Schizoaffective disorder, manic type"|
-|schizophrenia-psychosis v1|snomed|271428004|"[X]Schizoaffective psychosis, manic type"|
-|schizophrenia-psychosis v1|snomed|271428004|"[X]Schizophreniform psychosis, manic type"|
-|schizophrenia-psychosis v1|snomed|84760002|"[X]Schizoaffective disorder, depressive type"|
-|schizophrenia-psychosis v1|snomed|84760002|"[X]Schizoaffective psychosis, depressive type"|
-|schizophrenia-psychosis v1|snomed|84760002|"[X]Schizophreniform psychosis, depressive type"|
-|schizophrenia-psychosis v1|snomed|270901009|[X]Cyclic schizophrenia|
-|schizophrenia-psychosis v1|snomed|270901009|[X]Mixed schizophrenic and affective psychosis|
-|schizophrenia-psychosis v1|snomed|270901009|"[X]Schizoaffective disorder, mixed type"|
-|schizophrenia-psychosis v1|snomed|68890003|[X]Other schizoaffective disorders|
-|schizophrenia-psychosis v1|snomed|68890003|"[X]Schizoaffective disorder, unspecified"|
-|schizophrenia-psychosis v1|snomed|68890003|[X]Schizoaffective psychosis NOS|
-|schizophrenia-psychosis v1|snomed|480111000000107|[X]Chronic hallucinatory psychosis|
-|schizophrenia-psychosis v1|snomed|191525009|[X]Other nonorganic psychotic disorders|
-|schizophrenia-psychosis v1|snomed|69322001|[X]Psychosis NOS|
-|schizophrenia-psychosis v1|snomed|191525009|[X]Unspecified nonorganic psychosis|
-|bipolar v1|ctv3|E11..|Bipolar psychoses|
-|bipolar v1|ctv3|E1100|"Single manic episode, unspecified"|
-|bipolar v1|ctv3|E1101|"Single manic episode, mild"|
-|bipolar v1|ctv3|E1102|"Single manic episode, moderate"|
-|bipolar v1|ctv3|E1103|"Single manic episode, severe without mention of psychosis"|
-|bipolar v1|ctv3|E1104|"Single manic episode, severe, with psychosis"|
-|bipolar v1|ctv3|E1105|Single manic episode in partial or unspecified remission|
-|bipolar v1|ctv3|E1106|Single manic episode in full remission|
-|bipolar v1|ctv3|E110z|"Manic disorder, single episode NOS"|
-|bipolar v1|ctv3|E111.|Recurrent manic episodes|
-|bipolar v1|ctv3|E1110|"Recurrent manic episodes, unspecified"|
-|bipolar v1|ctv3|E1111|"Recurrent manic episodes, mild"|
-|bipolar v1|ctv3|E1112|"Recurrent manic episodes, moderate"|
-|bipolar v1|ctv3|E1113|"Recurrent manic episodes, severe without mention of psychosis"|
-|bipolar v1|ctv3|E1114|"Recurrent manic episodes, severe, with psychosis"|
-|bipolar v1|ctv3|E1115|"Recurrent manic episodes, in partial or unspecified remission"|
-|bipolar v1|ctv3|E1116|"Recurrent manic episodes, in full remission"|
-|bipolar v1|ctv3|E111z|Recurrent manic episode NOS|
-|bipolar v1|ctv3|E114.|"Bipolar affective disorder, current episode manic"|
-|bipolar v1|ctv3|E114.|Manic-depressive - now manic|
-|bipolar v1|ctv3|E1140|"Bipolar affective disorder, currently manic, unspecified"|
-|bipolar v1|ctv3|E1141|"Bipolar affective disorder, currently manic, mild"|
-|bipolar v1|ctv3|E1142|"Bipolar affective disorder, currently manic, moderate"|
-|bipolar v1|ctv3|E1143|"Bipolar affect disord, currently manic, severe, no psychosis"|
-|bipolar v1|ctv3|E1144|"Bipolar affective disorder, currently manic, severe, with psychosis"|
-|bipolar v1|ctv3|E1145|"Bipolar affect disord,currently manic, part/unspec remission"|
-|bipolar v1|ctv3|E1146|"Bipolar affective disorder, currently manic, full remission"|
-|bipolar v1|ctv3|E114z|"Bipolar affective disorder, currently manic, NOS"|
-|bipolar v1|ctv3|E115.|"Bipolar affective disorder, current episode depression"|
-|bipolar v1|ctv3|E1150|"Bipolar affective disorder, currently depressed, unspecified"|
-|bipolar v1|ctv3|E1151|"Bipolar affective disorder, currently depressed, mild"|
-|bipolar v1|ctv3|E1152|"Bipolar affective disorder, currently depressed, moderate"|
-|bipolar v1|ctv3|E1153|"Bipolar affective disorder, currently depressed, severe, without mention of psychosis"|
-|bipolar v1|ctv3|E1154|"Bipolar affective disorder, currently depressed, severe, with psychosis"|
-|bipolar v1|ctv3|E1156|"Bipolar affective disorder, now depressed, in full remission"|
-|bipolar v1|ctv3|E115z|"Bipolar affective disorder, currently depressed, NOS"|
-|bipolar v1|ctv3|E116.|Mixed bipolar affective disorder|
-|bipolar v1|ctv3|E1160|"Mixed bipolar affective disorder, unspecified"|
-|bipolar v1|ctv3|E1161|"Mixed bipolar affective disorder, mild"|
-|bipolar v1|ctv3|E1162|"Mixed bipolar affective disorder, moderate"|
-|bipolar v1|ctv3|E1163|"Mixed bipolar affective disorder, severe, without psychosis"|
-|bipolar v1|ctv3|E1164|"Mixed bipolar affective disorder, severe, with psychosis"|
-|bipolar v1|ctv3|E1165|"Mixed bipolar affective disorder, partial/unspec remission"|
-|bipolar v1|ctv3|E1166|"Mixed bipolar affective disorder, in full remission"|
-|bipolar v1|ctv3|E116z|"Mixed bipolar affective disorder, NOS"|
-|bipolar v1|ctv3|E117.|Unspecified bipolar affective disorder|
-|bipolar v1|ctv3|E1170|"Unspecified bipolar affective disorder, unspecified"|
-|bipolar v1|ctv3|E1171|"Unspecified bipolar affective disorder, mild"|
-|bipolar v1|ctv3|E1172|"Unspecified bipolar affective disorder, moderate"|
-|bipolar v1|ctv3|E1173|"Unspecified bipolar affective disorder, severe, no psychosis"|
-|bipolar v1|ctv3|E1174|"Unspecified bipolar affective disorder, severe, with psychosis"|
-|bipolar v1|ctv3|E1175|"Unspecified bipolar affective disorder, in partial or unspecified remission"|
-|bipolar v1|ctv3|E1176|"Unspecified bipolar affective disorder, in full remission"|
-|bipolar v1|ctv3|E117z|"Unspecified bipolar affective disorder, NOS"|
-|bipolar v1|ctv3|E11y.|Other and unspecified manic-depressive psychoses|
-|bipolar v1|ctv3|E11y1|Atypical manic disorder|
-|bipolar v1|ctv3|E11y0|Unspecified manic-depressive psychoses|
-|bipolar v1|ctv3|E11y3|Other mixed manic-depressive psychoses|
-|bipolar v1|ctv3|E11yz|Other and unspecified manic-depressive psychoses NOS|
-|bipolar v1|ctv3|Eu30.|"[X]Manic episode (& [bipolar disord, single manic episode])"|
-|bipolar v1|ctv3|Eu301|[X]Mania without psychotic symptoms|
-|bipolar v1|ctv3|Eu302|[X](Mania+psych sym (& mood [congr][incong]))/(manic stupor)|
-|bipolar v1|ctv3|Eu30y|[X]Other manic episodes|
-|bipolar v1|ctv3|Eu30z|"[X] Mania: [episode, unspecified] or [NOS]"|
-|bipolar v1|ctv3|Eu310|"Bipolar affective disorder, current episode hypomanic"|
-|bipolar v1|ctv3|Eu311|"[X]Bipolar affective disorder, current episode manic without psychotic symptoms"|
-|bipolar v1|ctv3|Eu312|"[X]Bipolar affective disorder, current episode manic with psychotic symptoms"|
-|bipolar v1|ctv3|Eu313|"[X]Bipolar affective disorder, current episode mild or moderate depression"|
-|bipolar v1|ctv3|Eu314|"[X]Bipolar affective disorder, current episode severe depression without psychotic symptoms"|
-|bipolar v1|ctv3|Eu316|"Bipolar affective disorder , current episode mixed"|
-|bipolar v1|ctv3|Eu317|"[X]Bipolar affective disorder, currently in remission"|
-|bipolar v1|ctv3|Eu31y|[X]Other bipolar affective disorders|
-|bipolar v1|ctv3|Eu31y|[X] (Bipolar affective disorders: [bipolar II] or [other]) or (recurrent manic episodes)|
-|bipolar v1|ctv3|Eu31y|[X]Bipolar II disorder|
-|bipolar v1|ctv3|Eu31y|[X]Recurrent manic episodes|
-|bipolar v1|ctv3|Eu31z|"[X]Bipolar affective disorder, unspecified"|
-|bipolar v1|ctv3|Eu333|"[X]Manic-depressive psychosis, depressed type with psychotic symptoms"|
-|bipolar v1|ctv3|Eu34.|[X]Persistent mood affective disorders|
-|bipolar v1|ctv3|Eu34y|[X]Other persistent mood affective disorders|
-|bipolar v1|ctv3|Eu34z|"[X]Persistent mood affective disorder, unspecified"|
-|bipolar v1|ctv3|Eu3y.|[X]Other mood affective disorders|
-|bipolar v1|ctv3|Eu3yy|[X]Other specified mood affective disorders|
-|bipolar v1|ctv3|Eu3y0|[X]Mixed affective episode|
-|bipolar v1|ctv3|X00SM|Bipolar disorder|
-|bipolar v1|ctv3|X00SM|Manic-depressive illness|
-|bipolar v1|ctv3|X00SM|Manic-depressive psychosis|
-|bipolar v1|ctv3|X00SM|Bipolar affective disorder|
-|bipolar v1|ctv3|X00SN|Bipolar II disorder|
-|bipolar v1|ctv3|XaB95|Other manic-depressive psychos|
-|bipolar v1|ctv3|XE1ZX|[X]Other bipolar affective disorders|
-|bipolar v1|ctv3|6657|On lithium|
-|bipolar v1|ctv3|X00RN|Organic manic disorder|
-|bipolar v1|ctv3|X00RO|Organic bipolar disorder|
-|bipolar v1|ctv3|X00SJ|Mania|
-|bipolar v1|ctv3|X00SK|Manic stupor|
-|bipolar v1|ctv3|X00SL|Hypomania|
-|bipolar v1|ctv3|X79ul|Bipolar diathermy|
-|bipolar v1|ctv3|X9078|Bipolar|
-|bipolar v1|ctv3|Xa2kP|Manic behaviour|
-|bipolar v1|ctv3|Xa3WO|Manic|
-|bipolar v1|ctv3|Xa3YM|Manic defence|
-|bipolar v1|ctv3|XaA6j|"Profile of mood states, bipolar"|
-|bipolar v1|ctv3|XaB95|Other manic-depressive psychos|
-|bipolar v1|ctv3|XaCHo|"[X] Manic-depressive psychosis, depressed type without psychotic symptoms"|
-|bipolar v1|ctv3|XafEv|Signposting to Bipolar UK|
-|bipolar v1|ctv3|XaMwc|Bipolar affective disorder resolved|
-|bipolar v1|ctv3|XaY1Y|Bipolar I disorder|
-|bipolar v1|ctv3|XE1aS|Hypomania|
-|bipolar v1|ctv3|XE1ZV|[X]Mania with psychotic symptoms|
-|bipolar v1|ctv3|XE1Zg|[X]Other single mood affective disorders|
-|bipolar v1|ctv3|XE1Zh|[X]Other recurrent mood affective disorders|
-|bipolar v1|ctv3|XE1Zi|[X]Unspecified mood affective disorder|
-|bipolar v1|ctv3|XE1ZW|"[X]Manic episode, unspecified"|
-|bipolar v1|ctv3|XE1ZX|[X]Other bipolar affective disorders|
-|bipolar v1|emis|EMISICD10|F3131|Bipolar affect disorder cur epi mild or moderate depressn, with somatic syndrome|
+|schizophrenia-psychosis v1|snomed|SnomedCT_ConceptID|FullDescription|
+|schizophrenia-psychosis v1|snomed|162313000|Morbid jealousy|
+|schizophrenia-psychosis v1|snomed|5510009|Organic delusional disorder|
+|schizophrenia-psychosis v1|snomed|5510009|Paranoid organic state|
+|schizophrenia-psychosis v1|snomed|191525009|Non-organic psychoses|
+|schizophrenia-psychosis v1|snomed|191527001|Schizophrenia simplex|
+|schizophrenia-psychosis v1|snomed|191527001|Simple schizophrenia|
+|schizophrenia-psychosis v1|snomed|58214004|Unspecified schizophrenia|
+|schizophrenia-psychosis v1|snomed|16990005|Subchronic schizophrenia|
+|schizophrenia-psychosis v1|snomed|111482003|Acute exacerbation of subchronic schizophrenia|
+|schizophrenia-psychosis v1|snomed|191531007|Acute exacerbation of chronic schizophrenia|
+|schizophrenia-psychosis v1|snomed|4926007|Schizophrenia in remission|
+|schizophrenia-psychosis v1|snomed|191527001|Simple schizophrenia NOS|
+|schizophrenia-psychosis v1|snomed|35252006|Disorganised schizophrenia|
+|schizophrenia-psychosis v1|snomed|35252006|Hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|snomed|35252006|Unspecified hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|snomed|27387000|Subchronic hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|snomed|12939007|Chronic hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|snomed|14291003|Acute exacerbation of subchronic hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|snomed|191539009|Acute exacerbation of chronic hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|snomed|31373002|Hebephrenic schizophrenia in remission|
+|schizophrenia-psychosis v1|snomed|35252006|Hebephrenic schizophrenia NOS|
+|schizophrenia-psychosis v1|snomed|191542003|[X]Schizophrenic flexibilatis cerea|
+|schizophrenia-psychosis v1|snomed|191542003|Catatonic schizophrenia|
+|schizophrenia-psychosis v1|snomed|191542003|Unspecified catatonic schizophrenia|
+|schizophrenia-psychosis v1|snomed|42868002|Subchronic catatonic schizophrenia|
+|schizophrenia-psychosis v1|snomed|68995007|Chronic catatonic schizophrenia|
+|schizophrenia-psychosis v1|snomed|191547009|Acute exacerbation of subchronic catatonic schizophrenia|
+|schizophrenia-psychosis v1|snomed|191548004|Acute exacerbation of chronic catatonic schizophrenia|
+|schizophrenia-psychosis v1|snomed|111483008|Catatonic schizophrenia in remission|
+|schizophrenia-psychosis v1|snomed|191542003|Catatonic schizophrenia NOS|
+|schizophrenia-psychosis v1|snomed|64905009|Paranoid schizophrenia|
+|schizophrenia-psychosis v1|snomed|64905009|Paraphrenic schizophrenia|
+|schizophrenia-psychosis v1|snomed|64905009|Unspecified paranoid schizophrenia|
+|schizophrenia-psychosis v1|snomed|79866005|Subchronic paranoid schizophrenia|
+|schizophrenia-psychosis v1|snomed|31658008|Chronic paranoid schizophrenia|
+|schizophrenia-psychosis v1|snomed|191554003|Acute exacerbation of subchronic paranoid schizophrenia|
+|schizophrenia-psychosis v1|snomed|191555002|Acute exacerbation of chronic paranoid schizophrenia|
+|schizophrenia-psychosis v1|snomed|63181006|Paranoid schizophrenia in remission|
+|schizophrenia-psychosis v1|snomed|64905009|Paranoid schizophrenia NOS|
+|schizophrenia-psychosis v1|snomed|307504004|Oneirophrenia|
+|schizophrenia-psychosis v1|snomed|191559008|Latent schizophrenia|
+|schizophrenia-psychosis v1|snomed|191559008|Unspecified latent schizophrenia|
+|schizophrenia-psychosis v1|snomed|191561004|Subchronic latent schizophrenia|
+|schizophrenia-psychosis v1|snomed|191562006|Chronic latent schizophrenia|
+|schizophrenia-psychosis v1|snomed|191563001|Acute exacerbation of subchronic latent schizophrenia|
+|schizophrenia-psychosis v1|snomed|191564007|Acute exacerbation of chronic latent schizophrenia|
+|schizophrenia-psychosis v1|snomed|191565008|Latent schizophrenia in remission|
+|schizophrenia-psychosis v1|snomed|191559008|Latent schizophrenia NOS|
+|schizophrenia-psychosis v1|snomed|26025008|Residual schizophrenia|
+|schizophrenia-psychosis v1|snomed|26025008|Restzustand|
+|schizophrenia-psychosis v1|snomed|191567000|Cyclic schizophrenia|
+|schizophrenia-psychosis v1|snomed|191567000|Schizoaffective schizophrenia|
+|schizophrenia-psychosis v1|snomed|191567000|Unspecified schizoaffective schizophrenia|
+|schizophrenia-psychosis v1|snomed|191569002|Subchronic schizoaffective schizophrenia|
+|schizophrenia-psychosis v1|snomed|191570001|Chronic schizoaffective schizophrenia|
+|schizophrenia-psychosis v1|snomed|191571002|Acute exacerbation of subchronic schizoaffective schizophrenia|
+|schizophrenia-psychosis v1|snomed|191572009|Acute exacerbation of chronic schizoaffective schizophrenia|
+|schizophrenia-psychosis v1|snomed|191574005|Schizoaffective schizophrenia in remission|
+|schizophrenia-psychosis v1|snomed|191567000|Schizoaffective schizophrenia NOS|
+|schizophrenia-psychosis v1|snomed|191577003|Cenesthopathic schizophrenia|
+|schizophrenia-psychosis v1|snomed|58214004|Other schizophrenia|
+|schizophrenia-psychosis v1|snomed|191577003|Schizophrenia: [other] or [cenesthopathic]|
+|schizophrenia-psychosis v1|snomed|111484002|Atypical schizophrenia|
+|schizophrenia-psychosis v1|snomed|111484002|Undifferentiated schizophrenia|
+|schizophrenia-psychosis v1|snomed|191577003|Cenesthopathic schizophrenia|
+|schizophrenia-psychosis v1|snomed|191577003|Coenesthopathic schizophrenia|
+|schizophrenia-psychosis v1|snomed|58214004|Other schizophrenia NOS|
+|schizophrenia-psychosis v1|snomed|58214004|Schizophrenia NOS|
+|schizophrenia-psychosis v1|snomed|191667009|Paranoid disorder|
+|schizophrenia-psychosis v1|snomed|191668004|Simple paranoid state|
+|schizophrenia-psychosis v1|snomed|26472000|Paraphrenia|
+|schizophrenia-psychosis v1|snomed|191670008|Folie a deux|
+|schizophrenia-psychosis v1|snomed|191670008|Shared paranoid disorder|
+|schizophrenia-psychosis v1|snomed|191667009|Other paranoid states|
+|schizophrenia-psychosis v1|snomed|191667009|Other paranoid states NOS|
+|schizophrenia-psychosis v1|snomed|191667009|Paranoid psychosis NOS|
+|schizophrenia-psychosis v1|snomed|191525009|Other nonorganic psychoses|
+|schizophrenia-psychosis v1|snomed|231437006|Psychoses: [other nonorganic] or [reactive]|
+|schizophrenia-psychosis v1|snomed|231437006|Reactive psychoses|
+|schizophrenia-psychosis v1|snomed|63204009|Bouffee delirante|
+|schizophrenia-psychosis v1|snomed|191680007|Psychogenic paranoid psychosis|
+|schizophrenia-psychosis v1|snomed|231437006|Other reactive psychoses|
+|schizophrenia-psychosis v1|snomed|231437006|Other reactive psychoses NOS|
+|schizophrenia-psychosis v1|snomed|191525009|Nonorganic psychosis NOS|
+|schizophrenia-psychosis v1|snomed|191525009|Psychosis: [nonorganic NOS] or [episode NOS]|
+|schizophrenia-psychosis v1|snomed|69322001|Psychotic episode NOS|
+|schizophrenia-psychosis v1|snomed|191525009|Other specified non-organic psychoses|
+|schizophrenia-psychosis v1|snomed|31027006|Schizoptypal disorder|
+|schizophrenia-psychosis v1|snomed|31027006|Schizotypal personality disorder|
+|schizophrenia-psychosis v1|snomed|5510009|[X] (Organic delusional (schizophrenia-like) disorder) or (paranoid organic state) or (schizophrenia-like psychosis in epilepsy)|
+|schizophrenia-psychosis v1|snomed|5510009|[X]Organic delusional [schizophrenia-like] disorder|
+|schizophrenia-psychosis v1|snomed|5510009|[X]Paranoid organic state|
+|schizophrenia-psychosis v1|snomed|5510009|[X]Schizophrenia-like psychosis in epilepsy|
+|schizophrenia-psychosis v1|snomed|58214004|Schizophrenia|
+|schizophrenia-psychosis v1|snomed|191542003|[X] (Catatonic schizophrenia) or (catatonic stupor) or (schizophrenic catalepsy) or (schizophrenic catatonia) or (schizophrenic flexibilatis cerea)|
+|schizophrenia-psychosis v1|snomed|191542003|[X]Catatonic schizophrenia|
+|schizophrenia-psychosis v1|snomed|191542003|[X]Schizophrenic catalepsy|
+|schizophrenia-psychosis v1|snomed|191542003|[X]Schizophrenic catatonia|
+|schizophrenia-psychosis v1|snomed|191542003|[X]Schizophrenic flexibilatis cerea|
+|schizophrenia-psychosis v1|snomed|111484002|[X]Undifferentiated schizophrenia|
+|schizophrenia-psychosis v1|snomed|58214004|[X] (Schizophrenia: [cenesthopathic] or [other]) or (schizophreniform disorder [including psychosis] NOS)|
+|schizophrenia-psychosis v1|snomed|191577003|[X]Cenesthopathic schizophrenia|
+|schizophrenia-psychosis v1|snomed|58214004|[X]Other schizophrenia|
+|schizophrenia-psychosis v1|snomed|58214004|"[X]Schizophrenia, unspecified"|
+|schizophrenia-psychosis v1|snomed|274952002|[X]Borderline schizophrenia|
+|schizophrenia-psychosis v1|snomed|191559008|[X]Latent schizophrenia|
+|schizophrenia-psychosis v1|snomed|191559008|[X]Latent schizophrenic reaction|
+|schizophrenia-psychosis v1|snomed|247804008|[X]Prepsychotic schizophrenia|
+|schizophrenia-psychosis v1|snomed|247804008|[X]Prodromal schizophrenia|
+|schizophrenia-psychosis v1|snomed|31027006|[X]Pseudoneurotic schizophrenia|
+|schizophrenia-psychosis v1|snomed|31027006|[X]Pseudopsychopathic schizophrenia|
+|schizophrenia-psychosis v1|snomed|31027006|[X]Schizotypal disorder|
+|schizophrenia-psychosis v1|snomed|31027006|[X]Schizotypal personality disorder|
+|schizophrenia-psychosis v1|snomed|48500005|[X]Delusional disorder|
+|schizophrenia-psychosis v1|snomed|191667009|[X]Paranoia|
+|schizophrenia-psychosis v1|snomed|191667009|[X]Paranoid psychosis|
+|schizophrenia-psychosis v1|snomed|191667009|[X]Paranoid state|
+|schizophrenia-psychosis v1|snomed|38295006|[X]Paraphrenia - late|
+|schizophrenia-psychosis v1|snomed|41189006|[X]Sensitiver Beziehungswahn|
+|schizophrenia-psychosis v1|snomed|191667009|Paranoid state|
+|schizophrenia-psychosis v1|snomed|41189006|Sensitiver Beziehungswahm|
+|schizophrenia-psychosis v1|snomed|231487004|[X] (Other persistent delusional disorders) or (delusional dysmorphophobia) or (involutional paranoid state) or (paranoia querulans)|
+|schizophrenia-psychosis v1|snomed|231487004|[X]Other persistent delusional disorders|
+|schizophrenia-psychosis v1|snomed|231487004|"[X]Persistent delusional disorder, unspecified"|
+|schizophrenia-psychosis v1|snomed|712824002|[X]Acute polymorphic psychotic disorder without symptoms of schizophrenia|
+|schizophrenia-psychosis v1|snomed|63204009|[X]Bouffee delirante|
+|schizophrenia-psychosis v1|snomed|307417003|[X]Cycloid psychosis|
+|schizophrenia-psychosis v1|snomed|712850003|[X]Acute polymorphic psychotic disorder with symptoms of schizophrenia|
+|schizophrenia-psychosis v1|snomed|278853003|[X] Acute schizophrenia-like psychotic disorder (& [brief schizophreniform disorder] or [brief schizophrenifrm psych] or [oneirophrenia] or [schizophrenic reaction])|
+|schizophrenia-psychosis v1|snomed|278853003|[X]Acute schizophrenia-like psychotic disorder|
+|schizophrenia-psychosis v1|snomed|307504004|[X]Oneirophrenia|
+|schizophrenia-psychosis v1|snomed|231489001|[X] (Other acute predominantly delusional psychotic disorders) or (psychogenic paranoid psychosis)|
+|schizophrenia-psychosis v1|snomed|231489001|[X]Other acute predominantly delusional psychotic disorders|
+|schizophrenia-psychosis v1|snomed|191680007|[X]Psychogenic paranoid psychosis|
+|schizophrenia-psychosis v1|snomed|231489001|[X]Other acute and transient psychotic disorders|
+|schizophrenia-psychosis v1|snomed|231489001|"[X]Acute and transient psychotic disorder, unspecified"|
+|schizophrenia-psychosis v1|snomed|231437006|"[X]Acute and transient psychotic disorder, unspecified (& [reactive psychosis (including brief NOS)])"|
+|schizophrenia-psychosis v1|snomed|231437006|[X]Reactive psychosis|
+|schizophrenia-psychosis v1|snomed|231437006|Reactive psychoses|
+|schizophrenia-psychosis v1|snomed|61831009|Induced delusional disorder|
+|schizophrenia-psychosis v1|snomed|61831009|Induced paranoid disorder|
+|schizophrenia-psychosis v1|snomed|61831009|Induced psychosis|
+|schizophrenia-psychosis v1|snomed|61831009|Symbiotic psychosis|
+|schizophrenia-psychosis v1|snomed|68890003|Schizoaffective disorder|
+|schizophrenia-psychosis v1|snomed|270901009|"[X](Schizoaffective disorder, mixed type) or (cyclic schizophrenia) or (mixed schizophrenic and affective psychosis)"|
+|schizophrenia-psychosis v1|snomed|191567000|[X]Cyclic schizophrenia|
+|schizophrenia-psychosis v1|snomed|270901009|[X]Mixed schizophrenic and affective psychosis|
+|schizophrenia-psychosis v1|snomed|270901009|"[X]Schizoaffective disorder, mixed type"|
+|schizophrenia-psychosis v1|snomed|68890003|[X]Other schizoaffective disorders|
+|schizophrenia-psychosis v1|snomed|68890003|"[X]Schizoaffective disorder, unspecified"|
+|schizophrenia-psychosis v1|snomed|480111000000107|[X] (Other nonorganic psychotic disorders) or (chronic hallucinatory psychosis)|
+|schizophrenia-psychosis v1|snomed|480111000000107|[X] Chronic hallucinatory psychosis|
+|schizophrenia-psychosis v1|snomed|480111000000107|[X]Chronic hallucinatory psychosis|
+|schizophrenia-psychosis v1|snomed|191525009|[X]Other nonorganic psychotic disorders|
+|schizophrenia-psychosis v1|snomed|191525009|[X] Psychosis NOS|
+|schizophrenia-psychosis v1|snomed|191525009|[X] Psychosis: [unspecified nonorganic] or [NOS]|
+|schizophrenia-psychosis v1|snomed|69322001|[X]Psychosis NOS|
+|schizophrenia-psychosis v1|snomed|191525009|[X]Unspecified nonorganic psychosis|
+|schizophrenia-psychosis v1|snomed|69322001|Psychotic episode NOS|
+|schizophrenia-psychosis v1|snomed|231437006|Reactive psychoses|
+|schizophrenia-psychosis v1|snomed|69322001|Psychotic|
+|schizophrenia-psychosis v1|snomed|69322001|Psychotic disorder|
+|schizophrenia-psychosis v1|snomed|231485007|Post-schizophrenic depression|
+|schizophrenia-psychosis v1|snomed|231487004|Persistent delusional disorder|
+|schizophrenia-psychosis v1|snomed|231489001|Acute transient psychotic disorder|
+|schizophrenia-psychosis v1|snomed|2073000|Delusion|
+|schizophrenia-psychosis v1|snomed|2073000|Delusional ideas|
+|schizophrenia-psychosis v1|snomed|2073000|Delusional thoughts|
+|schizophrenia-psychosis v1|snomed|2073000|Delusions|
+|schizophrenia-psychosis v1|snomed|8330006|Delusional jealousy|
+|schizophrenia-psychosis v1|snomed|247804008|Prepsychotic schizophrenia|
+|schizophrenia-psychosis v1|snomed|247804008|Prodromal schizophrenia|
+|schizophrenia-psychosis v1|snomed|247804008|Schizophrenic prodrome|
+|schizophrenia-psychosis v1|snomed|247917007|Catatonia|
+|schizophrenia-psychosis v1|snomed|278853003|Acute schizophrenia-like psychotic disorder|
+|schizophrenia-psychosis v1|snomed|38295006|Late paraphrenia|
+|schizophrenia-psychosis v1|snomed|8330006|Delusion of infidelity|
+|schizophrenia-psychosis v1|snomed|41189006|Ideas of reference|
+|schizophrenia-psychosis v1|snomed|63204009|Bouffee delirante|
+|schizophrenia-psychosis v1|snomed|307417003|Cycloid psychosis|
+|schizophrenia-psychosis v1|snomed|307504004|Oneirophrenia|
+|schizophrenia-psychosis v1|snomed|417233008|Paranoid ideation|
+|schizophrenia-psychosis v1|snomed|64905009|Paranoid schizophrenia|
+|schizophrenia-psychosis v1|snomed|64905009|Schizophrenic psychoses|
+|schizophrenia-psychosis v1|snomed|64905009|Schizophrenic psychoses (& [paranoid schizophrenia])|
+|schizophrenia-psychosis v1|snomed|64905009|Paranoid schizophrenia|
+|schizophrenia-psychosis v1|snomed|26472000|Paraphrenia|
+|schizophrenia-psychosis v1|snomed|48500005|(Paranoid state(s)) or (delusion(s): [paranoid] or [persecution])|
+|schizophrenia-psychosis v1|snomed|48500005|Delusions - paranoid|
+|schizophrenia-psychosis v1|snomed|48500005|Paranoid state|
+|schizophrenia-psychosis v1|snomed|48500005|Paranoid states|
+|schizophrenia-psychosis v1|snomed|48500005|Persecution delusion|
+|schizophrenia-psychosis v1|snomed|58214004|Other schizophrenia|
+|schizophrenia-psychosis v1|snomed|191525009|Other non-organic psychoses|
+|schizophrenia-psychosis v1|snomed|191525009|Non-organic psychosis NOS|
+|schizophrenia-psychosis v1|snomed|58214004|[X]Other schizophrenia|
+|schizophrenia-psychosis v1|snomed|31027006|[X]Schizotypal disorder|
+|schizophrenia-psychosis v1|snomed|48500005|Delusional disorder|
+|schizophrenia-psychosis v1|snomed|191667009|Paranoid psychosis|
+|schizophrenia-psychosis v1|snomed|41189006|Sensitiver Beziehungswahm|
+|schizophrenia-psychosis v1|snomed|231487004|[X]Other persistent delusional disorders|
+|schizophrenia-psychosis v1|snomed|712824002|[X]Acute polymorphic psychotic disorder without symptoms of schizophrenia|
+|schizophrenia-psychosis v1|snomed|231489001|[X]Other acute predominantly delusional psychotic disorders|
+|schizophrenia-psychosis v1|snomed|231489001|"[X]Acute and transient psychotic disorder, unspecified"|
+|schizophrenia-psychosis v1|snomed|191525009|[X]Other non-organic psychotic disorders|
+|schizophrenia-psychosis v1|snomed|191525009|[X] Psychosis NOS|
+|schizophrenia-psychosis v1|snomed|191525009|[X]Unspecified nonorganic psychosis|
+|schizophrenia-psychosis v1|snomed|270901009|Mixed schizophrenic and affective pschosis|
+|schizophrenia-psychosis v1|snomed|270901009|"Schizoaffective disorder, mixed type"|
+|schizophrenia-psychosis v1|snomed|84760002|"Schizoaffective disorder, depressive type"|
+|schizophrenia-psychosis v1|snomed|84760002|"Schizophreniform psychosis, depressive type"|
+|schizophrenia-psychosis v1|snomed|271428004|"Schizoaffective disorder, manic type"|
+|schizophrenia-psychosis v1|snomed|271428004|"Schizophreniform psychosis, manic type"|
+|schizophrenia-psychosis v1|snomed|274952002|Borderline schizophrenia|
+|schizophrenia-psychosis v1|snomed|5510009|Organic delusional [schizophrenia-like] disorder|
+|schizophrenia-psychosis v1|snomed|64905009|Paranoid schizophrenia|
+|schizophrenia-psychosis v1|snomed|35252006|Hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|snomed|247917007|Catatonic schizophrenia|
+|schizophrenia-psychosis v1|snomed|111484002|Undifferentiated schizophrenia|
+|schizophrenia-psychosis v1|snomed|231485007|Post-schizophrenic depression|
+|schizophrenia-psychosis v1|snomed|26025008|Residual schizophrenia|
+|schizophrenia-psychosis v1|snomed|191527001|Simple schizophrenia|
+|schizophrenia-psychosis v1|snomed|268691004|Other schizophrenia|
+|schizophrenia-psychosis v1|snomed|58214004|"Schizophrenia, unspecified"|
+|schizophrenia-psychosis v1|snomed|2073000|Delusional disorder|
+|schizophrenia-psychosis v1|snomed|268693001|Other persistent delusional disorders|
+|schizophrenia-psychosis v1|snomed|8330006|"Persistent delusional disorder, unspecified"|
+|schizophrenia-psychosis v1|snomed|307417003|Acute polymorphic psychotic disorder without symptoms of schizop|
+|schizophrenia-psychosis v1|snomed|192335000|Acute polymorphic psychotic disorder with symptoms of schizophre|
+|schizophrenia-psychosis v1|snomed|307504004|Acute schizophrenia-like psychotic disorder|
+|schizophrenia-psychosis v1|snomed|268695008|Other acute predominantly delusional psychotic disorders|
+|schizophrenia-psychosis v1|snomed|470311000000103|Other acute and transient psychotic disorders|
+|schizophrenia-psychosis v1|snomed|231437006|"Acute and transient psychotic disorder, unspecified"|
+|schizophrenia-psychosis v1|snomed|271428004|"Schizoaffective disorder, manic type"|
+|schizophrenia-psychosis v1|snomed|84760002|"Schizoaffective disorder, depressive type"|
+|schizophrenia-psychosis v1|snomed|270901009|"Schizoaffective disorder, mixed type"|
+|schizophrenia-psychosis v1|snomed|410341000000107|Other schizoaffective disorders|
+|schizophrenia-psychosis v1|snomed|68890003|"Schizoaffective disorder, unspecified"|
+|schizophrenia-psychosis v1|snomed|162313000|Morbid jealousy|
+|schizophrenia-psychosis v1|snomed|2073000|Delusion|
+|schizophrenia-psychosis v1|snomed|2073000|Delusions|
+|schizophrenia-psychosis v1|snomed|41189006|Ideas of reference|
+|schizophrenia-psychosis v1|snomed|417233008|Paranoid ideation|
+|schizophrenia-psychosis v1|snomed|5510009|Organic delusional syndrome|
+|schizophrenia-psychosis v1|snomed|191525009|Non-organic psychoses|
+|schizophrenia-psychosis v1|snomed|191527001|Schizophrenia simplex|
+|schizophrenia-psychosis v1|snomed|191527001|Simple schizophrenia|
+|schizophrenia-psychosis v1|snomed|58214004|Unspecified schizophrenia|
+|schizophrenia-psychosis v1|snomed|16990005|Subchronic schizophrenia|
+|schizophrenia-psychosis v1|snomed|111482003|Acute exacerbation of subchronic schizophrenia|
+|schizophrenia-psychosis v1|snomed|191531007|Acute exacerbation of chronic schizophrenia|
+|schizophrenia-psychosis v1|snomed|4926007|Schizophrenia in remission|
+|schizophrenia-psychosis v1|snomed|191527001|Simple schizophrenia NOS|
+|schizophrenia-psychosis v1|snomed|35252006|Hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|snomed|35252006|Unspecified hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|snomed|27387000|Subchronic hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|snomed|12939007|Chronic hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|snomed|14291003|Acute exacerbation of subchronic hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|snomed|191539009|Acute exacerbation of chronic hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|snomed|31373002|Hebephrenic schizophrenia in remission|
+|schizophrenia-psychosis v1|snomed|35252006|Hebephrenic schizophrenia NOS|
+|schizophrenia-psychosis v1|snomed|191542003|Catatonic schizophrenia|
+|schizophrenia-psychosis v1|snomed|191542003|Unspecified catatonic schizophrenia|
+|schizophrenia-psychosis v1|snomed|42868002|Subchronic catatonic schizophrenia|
+|schizophrenia-psychosis v1|snomed|68995007|Chronic catatonic schizophrenia|
+|schizophrenia-psychosis v1|snomed|191547009|Acute exacerbation of subchronic catatonic schizophrenia|
+|schizophrenia-psychosis v1|snomed|191548004|Acute exacerbation of chronic catatonic schizophrenia|
+|schizophrenia-psychosis v1|snomed|111483008|Catatonic schizophrenia in remission|
+|schizophrenia-psychosis v1|snomed|191542003|Catatonic schizophrenia NOS|
+|schizophrenia-psychosis v1|snomed|64905009|Paranoid schizophrenia|
+|schizophrenia-psychosis v1|snomed|64905009|Unspecified paranoid schizophrenia|
+|schizophrenia-psychosis v1|snomed|79866005|Subchronic paranoid schizophrenia|
+|schizophrenia-psychosis v1|snomed|31658008|Chronic paranoid schizophrenia|
+|schizophrenia-psychosis v1|snomed|191554003|Acute exacerbation of subchronic paranoid schizophrenia|
+|schizophrenia-psychosis v1|snomed|191555002|Acute exacerbation of chronic paranoid schizophrenia|
+|schizophrenia-psychosis v1|snomed|63181006|Paranoid schizophrenia in remission|
+|schizophrenia-psychosis v1|snomed|64905009|Paranoid schizophrenia NOS|
+|schizophrenia-psychosis v1|snomed|307504004|Oneirophrenia|
+|schizophrenia-psychosis v1|snomed|191559008|Latent schizophrenia|
+|schizophrenia-psychosis v1|snomed|191559008|Unspecified latent schizophrenia|
+|schizophrenia-psychosis v1|snomed|191561004|Subchronic latent schizophrenia|
+|schizophrenia-psychosis v1|snomed|191562006|Chronic latent schizophrenia|
+|schizophrenia-psychosis v1|snomed|191563001|Acute exacerbation of subchronic latent schizophrenia|
+|schizophrenia-psychosis v1|snomed|191564007|Acute exacerbation of chronic latent schizophrenia|
+|schizophrenia-psychosis v1|snomed|191565008|Latent schizophrenia in remission|
+|schizophrenia-psychosis v1|snomed|191559008|Latent schizophrenia NOS|
+|schizophrenia-psychosis v1|snomed|26025008|Residual schizophrenia|
+|schizophrenia-psychosis v1|snomed|26025008|Restzustand - schizophrenia|
+|schizophrenia-psychosis v1|snomed|191567000|Cyclic schizophrenia|
+|schizophrenia-psychosis v1|snomed|191567000|Schizo-affective schizophrenia|
+|schizophrenia-psychosis v1|snomed|191567000|Unspecified schizo-affective schizophrenia|
+|schizophrenia-psychosis v1|snomed|191569002|Subchronic schizo-affective schizophrenia|
+|schizophrenia-psychosis v1|snomed|191570001|Chronic schizo-affective schizophrenia|
+|schizophrenia-psychosis v1|snomed|191571002|Acute exacerbation of subchronic schizo-affective schizophrenia|
+|schizophrenia-psychosis v1|snomed|191572009|Acute exacerbation of chronic schizo-affective schizophrenia|
+|schizophrenia-psychosis v1|snomed|191574005|Schizo-affective schizophrenia in remission|
+|schizophrenia-psychosis v1|snomed|191567000|Schizo-affective schizophrenia NOS|
+|schizophrenia-psychosis v1|snomed|191577003|Cenesthopathic schizophrenia|
+|schizophrenia-psychosis v1|snomed|58214004|Other schizophrenia|
+|schizophrenia-psychosis v1|snomed|111484002|Atypical schizophrenia|
+|schizophrenia-psychosis v1|snomed|191577003|Coenesthopathic schizophrenia|
+|schizophrenia-psychosis v1|snomed|58214004|Other schizophrenia NOS|
+|schizophrenia-psychosis v1|snomed|58214004|Schizophrenia NOS|
+|schizophrenia-psychosis v1|snomed|191667009|Paranoid states|
+|schizophrenia-psychosis v1|snomed|191668004|Simple paranoid state|
+|schizophrenia-psychosis v1|snomed|26472000|Paraphrenia|
+|schizophrenia-psychosis v1|snomed|191670008|Folie a deux|
+|schizophrenia-psychosis v1|snomed|191670008|Shared paranoid disorder|
+|schizophrenia-psychosis v1|snomed|191667009|Other paranoid states|
+|schizophrenia-psychosis v1|snomed|191667009|Other paranoid states NOS|
+|schizophrenia-psychosis v1|snomed|191667009|Paranoid psychosis NOS|
+|schizophrenia-psychosis v1|snomed|191525009|Other nonorganic psychoses|
+|schizophrenia-psychosis v1|snomed|231437006|Reactive psychoses|
+|schizophrenia-psychosis v1|snomed|63204009|Bouffee delirante|
+|schizophrenia-psychosis v1|snomed|191680007|Psychogenic paranoid psychosis|
+|schizophrenia-psychosis v1|snomed|231437006|Other reactive psychoses|
+|schizophrenia-psychosis v1|snomed|231437006|Other reactive psychoses NOS|
+|schizophrenia-psychosis v1|snomed|191525009|Nonorganic psychosis NOS|
+|schizophrenia-psychosis v1|snomed|69322001|Psychotic episode NOS|
+|schizophrenia-psychosis v1|snomed|191525009|Other specified non-organic psychoses|
+|schizophrenia-psychosis v1|snomed|191525009|Non-organic psychosis NOS|
+|schizophrenia-psychosis v1|snomed|31027006|Schizotypal personality|
+|schizophrenia-psychosis v1|snomed|5510009|[X]Organic delusional [schizophrenia-like] disorder|
+|schizophrenia-psychosis v1|snomed|5510009|[X]Paranoid organic state|
+|schizophrenia-psychosis v1|snomed|5510009|[X]Schizophrenia-like psychosis in epilepsy|
+|schizophrenia-psychosis v1|snomed|58214004|[X]Schizophrenia|
+|schizophrenia-psychosis v1|snomed|64905009|[X]Paranoid schizophrenia|
+|schizophrenia-psychosis v1|snomed|64905009|[X]Paraphrenic schizophrenia|
+|schizophrenia-psychosis v1|snomed|35252006|[X]Disorganised schizophrenia|
+|schizophrenia-psychosis v1|snomed|35252006|[X]Hebephrenic schizophrenia|
+|schizophrenia-psychosis v1|snomed|191542003|[X]Catatonic schizophrenia|
+|schizophrenia-psychosis v1|snomed|191542003|[X]Catatonic stupor|
+|schizophrenia-psychosis v1|snomed|191542003|[X]Schizophrenic catalepsy|
+|schizophrenia-psychosis v1|snomed|191542003|[X]Schizophrenic catatonia|
+|schizophrenia-psychosis v1|snomed|191542003|[X]Schizophrenic flexibilatis cerea|
+|schizophrenia-psychosis v1|snomed|111484002|[X]Atypical schizophrenia|
+|schizophrenia-psychosis v1|snomed|111484002|[X]Undifferentiated schizophrenia|
+|schizophrenia-psychosis v1|snomed|231485007|[X]Post-schizophrenic depression|
+|schizophrenia-psychosis v1|snomed|111484002|[X]Chronic undifferentiated schizophrenia|
+|schizophrenia-psychosis v1|snomed|26025008|[X]Residual schizophrenia|
+|schizophrenia-psychosis v1|snomed|26025008|[X]Restzustand schizophrenic|
+|schizophrenia-psychosis v1|snomed|191527001|[X]Simple schizophrenia|
+|schizophrenia-psychosis v1|snomed|58214004|[X]Cenesthopathic schizophrenia|
+|schizophrenia-psychosis v1|snomed|58214004|[X]Other schizophrenia|
+|schizophrenia-psychosis v1|snomed|58214004|[X]Schizophreniform disord NOS|
+|schizophrenia-psychosis v1|snomed|58214004|[X]Schizophrenifrm psychos NOS|
+|schizophrenia-psychosis v1|snomed|58214004|"[X]Schizophrenia, unspecified"|
+|schizophrenia-psychosis v1|snomed|274952002|[X]Borderline schizophrenia|
+|schizophrenia-psychosis v1|snomed|191559008|[X]Latent schizophrenia|
+|schizophrenia-psychosis v1|snomed|191559008|[X]Latent schizophrenic reaction|
+|schizophrenia-psychosis v1|snomed|247804008|[X]Prepsychotic schizophrenia|
+|schizophrenia-psychosis v1|snomed|247804008|[X]Prodromal schizophrenia|
+|schizophrenia-psychosis v1|snomed|31027006|[X]Pseudoneurotic schizophrenia|
+|schizophrenia-psychosis v1|snomed|31027006|[X]Pseudopsychopathic schizophrenia|
+|schizophrenia-psychosis v1|snomed|31027006|[X]Schizotypal disorder|
+|schizophrenia-psychosis v1|snomed|31027006|[X]Schizotypal personality disorder|
+|schizophrenia-psychosis v1|snomed|231487004|[X]Persistent delusional disorders|
+|schizophrenia-psychosis v1|snomed|48500005|[X]Delusional disorder|
+|schizophrenia-psychosis v1|snomed|417233008|[X]Paranoia|
+|schizophrenia-psychosis v1|snomed|191667009|[X]Paranoid psychosis|
+|schizophrenia-psychosis v1|snomed|191667009|[X]Paranoid state|
+|schizophrenia-psychosis v1|snomed|38295006|[X]Paraphrenia - late|
+|schizophrenia-psychosis v1|snomed|41189006|[X]Sensitiver Beziehungswahn|
+|schizophrenia-psychosis v1|snomed|231487004|[X]Delusional dysmorphophobia|
+|schizophrenia-psychosis v1|snomed|231487004|[X]Involutional paranoid state|
+|schizophrenia-psychosis v1|snomed|231487004|[X]Other persistent delusional disorders|
+|schizophrenia-psychosis v1|snomed|231487004|[X]Paranoia querulans|
+|schizophrenia-psychosis v1|snomed|231487004|"[X]Persistent delusional disorder, unspecified"|
+|schizophrenia-psychosis v1|snomed|231489001|[X]Acute and transient psychotic disorders|
+|schizophrenia-psychosis v1|snomed|712824002|[X]Acute polymorphic psychotic disorder without symptoms of schizophrenia|
+|schizophrenia-psychosis v1|snomed|63204009|[X]Bouffee delirante|
+|schizophrenia-psychosis v1|snomed|307417003|[X]Cycloid psychosis|
+|schizophrenia-psychosis v1|snomed|712850003|[X]Acute polymorphic psychotic disorder with symptoms of schizophrenia|
+|schizophrenia-psychosis v1|snomed|712850003|[X]Bouffee delirante with symptoms of schizophrenia|
+|schizophrenia-psychosis v1|snomed|307417003|[X]Cycloid psychosis with symptoms of schizophrenia|
+|schizophrenia-psychosis v1|snomed|278853003|[X]Acute schizophrenia-like psychotic disorder|
+|schizophrenia-psychosis v1|snomed|278853003|[X]Brief schizophreniform disorder|
+|schizophrenia-psychosis v1|snomed|278853003|[X]Brief schizophrenifrm psych|
+|schizophrenia-psychosis v1|snomed|278853003|[X]Oneirophrenia|
+|schizophrenia-psychosis v1|snomed|278853003|[X]Schizophrenic reaction|
+|schizophrenia-psychosis v1|snomed|231489001|[X]Other acute predominantly delusional psychotic disorders|
+|schizophrenia-psychosis v1|snomed|191680007|[X]Psychogenic paranoid psychosis|
+|schizophrenia-psychosis v1|snomed|231489001|[X]Other acute and transient psychotic disorders|
+|schizophrenia-psychosis v1|snomed|231489001|"[X]Acute and transient psychotic disorder, unspecified"|
+|schizophrenia-psychosis v1|snomed|231489001|[X]Brief reactive psychosis NOS|
+|schizophrenia-psychosis v1|snomed|231437006|[X]Reactive psychosis|
+|schizophrenia-psychosis v1|snomed|191670008|[X]Folie a deux|
+|schizophrenia-psychosis v1|snomed|61831009|[X]Induced delusional disorder|
+|schizophrenia-psychosis v1|snomed|61831009|[X]Induced paranoid disorder|
+|schizophrenia-psychosis v1|snomed|61831009|[X]Induced psychotic disorder|
+|schizophrenia-psychosis v1|snomed|68890003|[X]Schizoaffective disorders|
+|schizophrenia-psychosis v1|snomed|271428004|"[X]Schizoaffective disorder, manic type"|
+|schizophrenia-psychosis v1|snomed|271428004|"[X]Schizoaffective psychosis, manic type"|
+|schizophrenia-psychosis v1|snomed|271428004|"[X]Schizophreniform psychosis, manic type"|
+|schizophrenia-psychosis v1|snomed|84760002|"[X]Schizoaffective disorder, depressive type"|
+|schizophrenia-psychosis v1|snomed|84760002|"[X]Schizoaffective psychosis, depressive type"|
+|schizophrenia-psychosis v1|snomed|84760002|"[X]Schizophreniform psychosis, depressive type"|
+|schizophrenia-psychosis v1|snomed|270901009|[X]Cyclic schizophrenia|
+|schizophrenia-psychosis v1|snomed|270901009|[X]Mixed schizophrenic and affective psychosis|
+|schizophrenia-psychosis v1|snomed|270901009|"[X]Schizoaffective disorder, mixed type"|
+|schizophrenia-psychosis v1|snomed|68890003|[X]Other schizoaffective disorders|
+|schizophrenia-psychosis v1|snomed|68890003|"[X]Schizoaffective disorder, unspecified"|
+|schizophrenia-psychosis v1|snomed|68890003|[X]Schizoaffective psychosis NOS|
+|schizophrenia-psychosis v1|snomed|480111000000107|[X]Chronic hallucinatory psychosis|
+|schizophrenia-psychosis v1|snomed|191525009|[X]Other nonorganic psychotic disorders|
+|schizophrenia-psychosis v1|snomed|69322001|[X]Psychosis NOS|
+|schizophrenia-psychosis v1|snomed|191525009|[X]Unspecified nonorganic psychosis|
+|bipolar v1|ctv3|E11..|Bipolar psychoses|
+|bipolar v1|ctv3|E1100|"Single manic episode, unspecified"|
+|bipolar v1|ctv3|E1101|"Single manic episode, mild"|
+|bipolar v1|ctv3|E1102|"Single manic episode, moderate"|
+|bipolar v1|ctv3|E1103|"Single manic episode, severe without mention of psychosis"|
+|bipolar v1|ctv3|E1104|"Single manic episode, severe, with psychosis"|
+|bipolar v1|ctv3|E1105|Single manic episode in partial or unspecified remission|
+|bipolar v1|ctv3|E1106|Single manic episode in full remission|
+|bipolar v1|ctv3|E110z|"Manic disorder, single episode NOS"|
+|bipolar v1|ctv3|E111.|Recurrent manic episodes|
+|bipolar v1|ctv3|E1110|"Recurrent manic episodes, unspecified"|
+|bipolar v1|ctv3|E1111|"Recurrent manic episodes, mild"|
+|bipolar v1|ctv3|E1112|"Recurrent manic episodes, moderate"|
+|bipolar v1|ctv3|E1113|"Recurrent manic episodes, severe without mention of psychosis"|
+|bipolar v1|ctv3|E1114|"Recurrent manic episodes, severe, with psychosis"|
+|bipolar v1|ctv3|E1115|"Recurrent manic episodes, in partial or unspecified remission"|
+|bipolar v1|ctv3|E1116|"Recurrent manic episodes, in full remission"|
+|bipolar v1|ctv3|E111z|Recurrent manic episode NOS|
+|bipolar v1|ctv3|E114.|"Bipolar affective disorder, current episode manic"|
+|bipolar v1|ctv3|E114.|Manic-depressive - now manic|
+|bipolar v1|ctv3|E1140|"Bipolar affective disorder, currently manic, unspecified"|
+|bipolar v1|ctv3|E1141|"Bipolar affective disorder, currently manic, mild"|
+|bipolar v1|ctv3|E1142|"Bipolar affective disorder, currently manic, moderate"|
+|bipolar v1|ctv3|E1143|"Bipolar affect disord, currently manic, severe, no psychosis"|
+|bipolar v1|ctv3|E1144|"Bipolar affective disorder, currently manic, severe, with psychosis"|
+|bipolar v1|ctv3|E1145|"Bipolar affect disord,currently manic, part/unspec remission"|
+|bipolar v1|ctv3|E1146|"Bipolar affective disorder, currently manic, full remission"|
+|bipolar v1|ctv3|E114z|"Bipolar affective disorder, currently manic, NOS"|
+|bipolar v1|ctv3|E115.|"Bipolar affective disorder, current episode depression"|
+|bipolar v1|ctv3|E1150|"Bipolar affective disorder, currently depressed, unspecified"|
+|bipolar v1|ctv3|E1151|"Bipolar affective disorder, currently depressed, mild"|
+|bipolar v1|ctv3|E1152|"Bipolar affective disorder, currently depressed, moderate"|
+|bipolar v1|ctv3|E1153|"Bipolar affective disorder, currently depressed, severe, without mention of psychosis"|
+|bipolar v1|ctv3|E1154|"Bipolar affective disorder, currently depressed, severe, with psychosis"|
+|bipolar v1|ctv3|E1156|"Bipolar affective disorder, now depressed, in full remission"|
+|bipolar v1|ctv3|E115z|"Bipolar affective disorder, currently depressed, NOS"|
+|bipolar v1|ctv3|E116.|Mixed bipolar affective disorder|
+|bipolar v1|ctv3|E1160|"Mixed bipolar affective disorder, unspecified"|
+|bipolar v1|ctv3|E1161|"Mixed bipolar affective disorder, mild"|
+|bipolar v1|ctv3|E1162|"Mixed bipolar affective disorder, moderate"|
+|bipolar v1|ctv3|E1163|"Mixed bipolar affective disorder, severe, without psychosis"|
+|bipolar v1|ctv3|E1164|"Mixed bipolar affective disorder, severe, with psychosis"|
+|bipolar v1|ctv3|E1165|"Mixed bipolar affective disorder, partial/unspec remission"|
+|bipolar v1|ctv3|E1166|"Mixed bipolar affective disorder, in full remission"|
+|bipolar v1|ctv3|E116z|"Mixed bipolar affective disorder, NOS"|
+|bipolar v1|ctv3|E117.|Unspecified bipolar affective disorder|
+|bipolar v1|ctv3|E1170|"Unspecified bipolar affective disorder, unspecified"|
+|bipolar v1|ctv3|E1171|"Unspecified bipolar affective disorder, mild"|
+|bipolar v1|ctv3|E1172|"Unspecified bipolar affective disorder, moderate"|
+|bipolar v1|ctv3|E1173|"Unspecified bipolar affective disorder, severe, no psychosis"|
+|bipolar v1|ctv3|E1174|"Unspecified bipolar affective disorder, severe, with psychosis"|
+|bipolar v1|ctv3|E1175|"Unspecified bipolar affective disorder, in partial or unspecified remission"|
+|bipolar v1|ctv3|E1176|"Unspecified bipolar affective disorder, in full remission"|
+|bipolar v1|ctv3|E117z|"Unspecified bipolar affective disorder, NOS"|
+|bipolar v1|ctv3|E11y.|Other and unspecified manic-depressive psychoses|
+|bipolar v1|ctv3|E11y1|Atypical manic disorder|
+|bipolar v1|ctv3|E11y0|Unspecified manic-depressive psychoses|
+|bipolar v1|ctv3|E11y3|Other mixed manic-depressive psychoses|
+|bipolar v1|ctv3|E11yz|Other and unspecified manic-depressive psychoses NOS|
+|bipolar v1|ctv3|Eu30.|"[X]Manic episode (& [bipolar disord, single manic episode])"|
+|bipolar v1|ctv3|Eu301|[X]Mania without psychotic symptoms|
+|bipolar v1|ctv3|Eu302|[X](Mania+psych sym (& mood [congr][incong]))/(manic stupor)|
+|bipolar v1|ctv3|Eu30y|[X]Other manic episodes|
+|bipolar v1|ctv3|Eu30z|"[X] Mania: [episode, unspecified] or [NOS]"|
+|bipolar v1|ctv3|Eu310|"Bipolar affective disorder, current episode hypomanic"|
+|bipolar v1|ctv3|Eu311|"[X]Bipolar affective disorder, current episode manic without psychotic symptoms"|
+|bipolar v1|ctv3|Eu312|"[X]Bipolar affective disorder, current episode manic with psychotic symptoms"|
+|bipolar v1|ctv3|Eu313|"[X]Bipolar affective disorder, current episode mild or moderate depression"|
+|bipolar v1|ctv3|Eu314|"[X]Bipolar affective disorder, current episode severe depression without psychotic symptoms"|
+|bipolar v1|ctv3|Eu316|"Bipolar affective disorder , current episode mixed"|
+|bipolar v1|ctv3|Eu317|"[X]Bipolar affective disorder, currently in remission"|
+|bipolar v1|ctv3|Eu31y|[X]Other bipolar affective disorders|
+|bipolar v1|ctv3|Eu31y|[X] (Bipolar affective disorders: [bipolar II] or [other]) or (recurrent manic episodes)|
+|bipolar v1|ctv3|Eu31y|[X]Bipolar II disorder|
+|bipolar v1|ctv3|Eu31y|[X]Recurrent manic episodes|
+|bipolar v1|ctv3|Eu31z|"[X]Bipolar affective disorder, unspecified"|
+|bipolar v1|ctv3|Eu333|"[X]Manic-depressive psychosis, depressed type with psychotic symptoms"|
+|bipolar v1|ctv3|Eu34.|[X]Persistent mood affective disorders|
+|bipolar v1|ctv3|Eu34y|[X]Other persistent mood affective disorders|
+|bipolar v1|ctv3|Eu34z|"[X]Persistent mood affective disorder, unspecified"|
+|bipolar v1|ctv3|Eu3y.|[X]Other mood affective disorders|
+|bipolar v1|ctv3|Eu3yy|[X]Other specified mood affective disorders|
+|bipolar v1|ctv3|Eu3y0|[X]Mixed affective episode|
+|bipolar v1|ctv3|X00SM|Bipolar disorder|
+|bipolar v1|ctv3|X00SM|Manic-depressive illness|
+|bipolar v1|ctv3|X00SM|Manic-depressive psychosis|
+|bipolar v1|ctv3|X00SM|Bipolar affective disorder|
+|bipolar v1|ctv3|X00SN|Bipolar II disorder|
+|bipolar v1|ctv3|XaB95|Other manic-depressive psychos|
+|bipolar v1|ctv3|XE1ZX|[X]Other bipolar affective disorders|
+|bipolar v1|ctv3|6657|On lithium|
+|bipolar v1|ctv3|X00RN|Organic manic disorder|
+|bipolar v1|ctv3|X00RO|Organic bipolar disorder|
+|bipolar v1|ctv3|X00SJ|Mania|
+|bipolar v1|ctv3|X00SK|Manic stupor|
+|bipolar v1|ctv3|X00SL|Hypomania|
+|bipolar v1|ctv3|X79ul|Bipolar diathermy|
+|bipolar v1|ctv3|X9078|Bipolar|
+|bipolar v1|ctv3|Xa2kP|Manic behaviour|
+|bipolar v1|ctv3|Xa3WO|Manic|
+|bipolar v1|ctv3|Xa3YM|Manic defence|
+|bipolar v1|ctv3|XaA6j|"Profile of mood states, bipolar"|
+|bipolar v1|ctv3|XaB95|Other manic-depressive psychos|
+|bipolar v1|ctv3|XaCHo|"[X] Manic-depressive psychosis, depressed type without psychotic symptoms"|
+|bipolar v1|ctv3|XafEv|Signposting to Bipolar UK|
+|bipolar v1|ctv3|XaMwc|Bipolar affective disorder resolved|
+|bipolar v1|ctv3|XaY1Y|Bipolar I disorder|
+|bipolar v1|ctv3|XE1aS|Hypomania|
+|bipolar v1|ctv3|XE1ZV|[X]Mania with psychotic symptoms|
+|bipolar v1|ctv3|XE1Zg|[X]Other single mood affective disorders|
+|bipolar v1|ctv3|XE1Zh|[X]Other recurrent mood affective disorders|
+|bipolar v1|ctv3|XE1Zi|[X]Unspecified mood affective disorder|
+|bipolar v1|ctv3|XE1ZW|"[X]Manic episode, unspecified"|
+|bipolar v1|ctv3|XE1ZX|[X]Other bipolar affective disorders|
+|bipolar v1|emis|EMISICD10|F3131|Bipolar affect disorder cur epi mild or moderate depressn, with somatic syndrome|
 |bipolar v1|emis|EMISICD10|F3130|Bipolar affect disorder cur epi mild or moderate depressn, without somatic syndrome|
-|bipolar v1|readv2|E11..00|Bipolar psychoses|
-|bipolar v1|readv2|E110.00|"Manic disorder, single episode"|
-|bipolar v1|readv2|E110.11|Hypomanic psychoses|
-|bipolar v1|readv2|E110000|"Single manic episode, unspecified"|
-|bipolar v1|readv2|E110100|"Single manic episode, mild"|
-|bipolar v1|readv2|E110200|"Single manic episode, moderate"|
-|bipolar v1|readv2|E110300|"Single manic episode, severe without mention of psychosis"|
-|bipolar v1|readv2|E110400|"Single manic episode, severe, with psychosis"|
-|bipolar v1|readv2|E110500|Single manic episode in partial or unspecified remission|
-|bipolar v1|readv2|E110600|Single manic episode in full remission|
-|bipolar v1|readv2|E110z00|"Manic disorder, single episode NOS"|
-|bipolar v1|readv2|E111.00|Recurrent manic episodes|
-|bipolar v1|readv2|E111000|"Recurrent manic episodes, unspecified"|
-|bipolar v1|readv2|E111100|"Recurrent manic episodes, mild"|
-|bipolar v1|readv2|E111200|"Recurrent manic episodes, moderate"|
-|bipolar v1|readv2|E111300|"Recurrent manic episodes, severe without mention of psychosis"|
-|bipolar v1|readv2|E111400|"Recurrent manic episodes, severe, with psychosis"|
-|bipolar v1|readv2|E111500|"Recurrent manic episodes, in partial or unspecified remission"|
-|bipolar v1|readv2|E111600|"Recurrent manic episodes, in full remission"|
-|bipolar v1|readv2|E111z00|Recurrent manic episode NOS|
-|bipolar v1|readv2|E114.00|"Bipolar affective disorder, currently manic"|
-|bipolar v1|readv2|E114.11|Manic-depressive - now manic|
-|bipolar v1|readv2|E114000|"Bipolar affective disorder, currently manic, unspecified"|
-|bipolar v1|readv2|E114100|"Bipolar affective disorder, currently manic, mild"|
-|bipolar v1|readv2|E114200|"Bipolar affective disorder, currently manic, moderate"|
-|bipolar v1|readv2|E114300|"Bipolar affective disorder, currently manic, severe, without mention of psychosis"|
-|bipolar v1|readv2|E114400|"Bipolar affective disorder, currently manic, severe, with psychosis"|
-|bipolar v1|readv2|E114500|"Bipolar affective disorder, currently manic, in partial or unspecified remission"|
-|bipolar v1|readv2|E114600|"Bipolar affective disorder, currently manic, in full remission"|
-|bipolar v1|readv2|E114z00|"Bipolar affective disorder, currently manic, NOS"|
-|bipolar v1|readv2|E115.00|"Bipolar affective disorder, currently depressed"|
-|bipolar v1|readv2|E115.00|Manic-depressive - now depressed|
-|bipolar v1|readv2|E115000|"Bipolar affective disorder, currently depressed, unspecified"|
-|bipolar v1|readv2|E115100|"Bipolar affective disorder, currently depressed, mild"|
-|bipolar v1|readv2|E115200|"Bipolar affective disorder, currently depressed, moderate"|
-|bipolar v1|readv2|E115300|"Bipolar affective disorder, currently depressed, severe, without mention of psychosis"|
-|bipolar v1|readv2|E115400|"Bipolar affective disorder, currently depressed, severe, with psychosis"|
-|bipolar v1|readv2|E115500|"Bipolar affective disorder, currently depressed, in partial or unspecified remission"|
-|bipolar v1|readv2|E115600|"Bipolar affective disorder, currently depressed, in full remission"|
-|bipolar v1|readv2|E115z00|"Bipolar affective disorder, currently depressed, NOS"|
-|bipolar v1|readv2|E116.00|Mixed bipolar affective disorder|
-|bipolar v1|readv2|E116000|"Mixed bipolar affective disorder, unspecified"|
-|bipolar v1|readv2|E116100|"Mixed bipolar affective disorder, mild"|
-|bipolar v1|readv2|E116200|"Mixed bipolar affective disorder, moderate"|
-|bipolar v1|readv2|E116300|"Mixed bipolar affective disorder, severe, without mention of psychosis"|
-|bipolar v1|readv2|E116400|"Mixed bipolar affective disorder, severe, with psychosis"|
-|bipolar v1|readv2|E116500|"Mixed bipolar affective disorder, in partial or unspecified remission"|
-|bipolar v1|readv2|E116600|"Mixed bipolar affective disorder, in full remission"|
-|bipolar v1|readv2|E116z00|"Mixed bipolar affective disorder, NOS"|
-|bipolar v1|readv2|E117.00|Unspecified bipolar affective disorder|
-|bipolar v1|readv2|E117000|"Unspecified bipolar affective disorder, unspecified"|
-|bipolar v1|readv2|E117100|"Unspecified bipolar affective disorder, mild"|
-|bipolar v1|readv2|E117200|"Unspecified bipolar affective disorder, moderate"|
-|bipolar v1|readv2|E117300|"Unspecified bipolar affective disorder, severe, without mention of psychosis"|
-|bipolar v1|readv2|E117400|"Unspecified bipolar affective disorder, severe, with psychosis"|
-|bipolar v1|readv2|E117500|"Unspecified bipolar affective disorder, in partial or unspecified remission"|
-|bipolar v1|readv2|E117600|"Unspecified bipolar affective disorder, in full remission"|
-|bipolar v1|readv2|E117z00|"Unspecified bipolar affective disorder, NOS"|
-|bipolar v1|readv2|E11y.00|Other and unspecified manic-depressive psychoses|
-|bipolar v1|readv2|E11y000|Unspecified manic-depressive psychoses|
-|bipolar v1|readv2|E11y100|Atypical manic disorder|
-|bipolar v1|readv2|E11y300|Other mixed manic-depressive psychoses|
-|bipolar v1|readv2|E11yz00|Other and unspecified manic-depressive psychoses NOS|
-|bipolar v1|readv2|Eu3..00|[X]Mood - affective disorders|
-|bipolar v1|readv2|Eu30.00|"[X]Bipolar disorder, single manic episode"|
-|bipolar v1|readv2|Eu30.00|[X]Manic episode|
-|bipolar v1|readv2|Eu30.11|"[X]Bipolar disorder, single manic episode"|
-|bipolar v1|readv2|Eu30000|[X]Hypomania|
-|bipolar v1|readv2|Eu30100|[X]Mania without psychotic symptoms|
-|bipolar v1|readv2|Eu30200|[X]Mania with mood-congruent psychotic symptoms|
-|bipolar v1|readv2|Eu30200|[X]Mania with mood-incongruent psychotic symptoms|
-|bipolar v1|readv2|Eu30200|[X]Mania with psychotic symptoms|
-|bipolar v1|readv2|Eu30211|[X]Mania with mood-congruent psychotic symptoms|
-|bipolar v1|readv2|Eu30212|[X]Mania with mood-incongruent psychotic symptoms|
-|bipolar v1|readv2|Eu30213|[X]Manic stupor|
-|bipolar v1|readv2|Eu30y00|[X]Other manic episodes|
-|bipolar v1|readv2|Eu30z00|[X]Mania NOS|
-|bipolar v1|readv2|Eu30z11|[X]Mania NOS|
-|bipolar v1|readv2|Eu30z00|"[X]Manic episode, unspecified"|
-|bipolar v1|readv2|Eu31.00|[X]Bipolar affective disorder|
-|bipolar v1|readv2|Eu31.00|[X]Manic-depressive illness|
-|bipolar v1|readv2|Eu31.00|[X]Manic-depressive psychosis|
-|bipolar v1|readv2|Eu31.00|[X]Manic-depressive reaction|
-|bipolar v1|readv2|Eu31.11|[X]Manic-depressive illness|
-|bipolar v1|readv2|Eu31.12|[X]Manic-depressive psychosis|
-|bipolar v1|readv2|Eu31.13|[X]Manic-depressive reaction|
-|bipolar v1|readv2|Eu31000|"[X]Bipolar affective disorder, current episode hypomanic"|
-|bipolar v1|readv2|Eu31100|"[X]Bipolar affective disorder, current episode manic without psychotic symptoms"|
-|bipolar v1|readv2|Eu31200|"[X]Bipolar affective disorder, current episode manic with psychotic symptoms"|
-|bipolar v1|readv2|Eu31300|"[X]Bipolar affective disorder, current episode mild or moderate depression"|
-|bipolar v1|readv2|Eu31400|"[X]Bipolar affective disorder, current episode severe depression without psychotic symptoms"|
-|bipolar v1|readv2|Eu31500|"[X]Bipolar affective disorder, current episode severe depression with psychotic symptoms"|
-|bipolar v1|readv2|Eu31600|"[X]Bipolar affective disorder, current episode mixed"|
-|bipolar v1|readv2|Eu31700|"[X]Bipolar affective disorder, currently in remission"|
-|bipolar v1|readv2|Eu31800|[X]Bipolar affective disorder type I|
-|bipolar v1|readv2|Eu31900|[X]Bipolar affective disorder type II|
-|bipolar v1|readv2|Eu31911|[X]Bipolar II disorder|
-|bipolar v1|readv2|Eu31y00|[X]Other bipolar affective disorders|
-|bipolar v1|readv2|Eu31y00|[X]Bipolar II disorder|
-|bipolar v1|readv2|Eu31y00|[X]Recurrent manic episodes|
-|bipolar v1|readv2|Eu31y11|[X]Bipolar II disorder|
-|bipolar v1|readv2|Eu31y12|[X]Recurrent manic episodes|
-|bipolar v1|readv2|Eu31z00|"[X]Bipolar affective disorder, unspecified"|
-|bipolar v1|readv2|Eu33300|"[X]Manic-depressive psychosis, depressed type with psychotic symptoms"|
-|bipolar v1|readv2|Eu3y0|[X]Mixed affective episode|
-|bipolar v1|readv2|212V.00|Bipolar affective disorder resolved|
-|bipolar v1|readv2|E11..11|Bipolar psychoses|
-|bipolar v1|readv2|E11..13|Manic psychoses|
-|bipolar v1|readv2|Eu33213|"[X]Manic-depressive psychosis, depressed type without psychotic symptoms"|
-|bipolar v1|readv2|Eu33312|"[X]Manic-depressive psychosis, depressed type with psychotic symptoms"|
-|bipolar v1|readv2|Eu34.00|[X]Persistent mood affective disorders|
-|bipolar v1|readv2|Eu34000|[X]Cyclothymia|
-|bipolar v1|readv2|Eu34011|[X]Affective personality disorder|
-|bipolar v1|readv2|Eu34012|[X]Cycloid personality|
-|bipolar v1|readv2|Eu34013|[X]Cyclothymic personality|
-|bipolar v1|readv2|Eu34y00|[X]Other persistent mood affective disorders|
-|bipolar v1|readv2|Eu34z00|"[X]Persistent mood affective disorder, unspecified"|
-|bipolar v1|readv2|Eu3y.00|[X]Other mood affective disorders|
-|bipolar v1|readv2|Eu3y000|[X]Other single mood affective disorders|
-|bipolar v1|readv2|Eu3y100|[X]Other recurrent mood affective disorders|
-|bipolar v1|readv2|Eu3yy00|[X]Other specified mood affective disorders|
-|bipolar v1|readv2|Eu3z.00|[X]Unspecified mood affective disorder|
-|bipolar v1|snomed|31446002|"Bipolar affective disorder, current episode hypomanic"|
-|bipolar v1|snomed|68569003|"Bipolar affective disorder, current episode manic without psycho"|
-|bipolar v1|snomed|71984005|"Bipolar affective disorder, current episode manic with psychotic"|
-|bipolar v1|snomed|74686005|"Bipolar affective disorder, current episode mild or moderate dep"|
-|bipolar v1|snomed|371599001|"Bipolar affective disorder, current episode severe depression wi"|
-|bipolar v1|snomed|4441000|"Bipolar affective disorder, current episode severe depression wi"|
-|bipolar v1|snomed|16506000|"Bipolar affective disorder, current episode mixed"|
-|bipolar v1|snomed|191590005|Recurrent manic episodes|
-|bipolar v1|snomed|191590005|Recurrent manic episode-unspec|
-|bipolar v1|snomed|191592002|Recurrent manic episode-mild|
-|bipolar v1|snomed|191593007|Recurrent manic epis.-moderate|
-|bipolar v1|snomed|191597008|Recur.manic epis.-full remiss.|
-|bipolar v1|snomed|191590005|Recurrent manic episode NOS|
-|bipolar v1|snomed|191618007|Bipolar affective - now manic|
-|bipolar v1|snomed|191618007|Manic bipolar affective-unspec|
-|bipolar v1|snomed|191620005|Manic bipolar affective-mild|
-|bipolar v1|snomed|191621009|Manic bipolar affect.-moderate|
-|bipolar v1|snomed|191623007|Manic bipol.affect.severe+psyc|
-|bipolar v1|snomed|191618007|Manic bipolar affective NOS|
-|bipolar v1|snomed|191629006|Depress.bipolar affect.-mild|
-|bipolar v1|snomed|191630001|Depr.bipolar affect.-moderate|
-|bipolar v1|snomed|61403008|Depr.bipolar affect.-severe|
-|bipolar v1|snomed|765176007|Depr.bipol.affect.-severe+psyc|
-|bipolar v1|snomed|191636007|Mixed bipolar affective disord|
-|bipolar v1|snomed|191636007|Mixed bipolar affective-unspec|
-|bipolar v1|snomed|191638008|Mixed bipolar affective-mild|
-|bipolar v1|snomed|191639000|Mixed bipolar affect.-moderate|
-|bipolar v1|snomed|191641004|Mixed bipol.affect.severe+psyc|
-|bipolar v1|snomed|191643001|Mixed bipol.affect.full remiss|
-|bipolar v1|snomed|191636007|Mixed bipolar affective NOS|
-|bipolar v1|snomed|13746004|[X]Bipolar affective disorder|
-|bipolar v1|snomed|31446002|[X]Bipol affec current hypoman|
-|bipolar v1|snomed|191618007|"[X]Bipol aff, manic no psychos"|
-|bipolar v1|snomed|191623007|[X]Bipol affect manic+psychos|
-|bipolar v1|snomed|191630001|[X]Bipol aff mild/mod depress|
-|bipolar v1|snomed|61403008|"[X]Bipol AD,cur sev dep,no psy"|
-|bipolar v1|snomed|765176007|[X]Bipol aff sev depress/psych|
-|bipolar v1|snomed|192362008|"[X]Bipol affective dis, mixed"|
-|bipolar v1|snomed|85248005|[X]Bipol affect dis remission|
-|bipolar v1|snomed|83225003|[X]Bipol affect disord type II|
-|bipolar v1|snomed|191590005|Recurrent manic episodes|
-|bipolar v1|snomed|191590005|Recurrent manic episode-unspec|
-|bipolar v1|snomed|191592002|"Recurrent manic episodes, mild"|
-|bipolar v1|snomed|191593007|Recurrent manic epis.-moderate|
-|bipolar v1|snomed|191597008|Recur.manic epis.-full remiss.|
-|bipolar v1|snomed|191590005|Recurrent manic episode NOS|
-|bipolar v1|snomed|13746004|Bipolar disorder|
-|bipolar v1|snomed|13746004|Other manic-depressive psychos|
-|bipolar v1|snomed|13746004|Other manic-depress.psych.NOS|
-|bipolar v1|snomed|16506000|Other mixed manic-depres psych|
-|bipolar v1|snomed|13746004|Unspec manic-depressive psycho|
-|bipolar v1|snomed|13746004|Unspec bipolar affect disord|
-|bipolar v1|snomed|13746004|Unspecified bipolar affective|
-|bipolar v1|snomed|4441000|Unsp.bipol.affect.-severe+psyc|
-|bipolar v1|snomed|13746004|Unspecif.bipolar affective NOS|
-|bipolar v1|snomed|192362008|Mixed bipolar affective disord|
-|bipolar v1|snomed|191636007|Mixed bipolar affective-unspec|
-|bipolar v1|snomed|191638008|Mixed bipolar affective-mild|
-|bipolar v1|snomed|191639000|Mixed bipolar affect.-moderate|
-|bipolar v1|snomed|191641004|Mixed bipol.affect.severe+psyc|
-|bipolar v1|snomed|191643001|Mixed bipol.affect.full remiss|
-|bipolar v1|snomed|191636007|Mixed bipolar affective NOS|
-|bipolar v1|snomed|191629006|Depress.bipolar affect.-mild|
-|bipolar v1|snomed|191630001|Depr.bipolar affect.-moderate|
-|bipolar v1|snomed|61403008|Depr.bipolar affect.-severe|
-|bipolar v1|snomed|765176007|Depr.bipol.affect.-severe+psyc|
-|bipolar v1|snomed|191618007|Bipolar affective - now manic|
-|bipolar v1|snomed|191618007|Manic bipolar affective-unspec|
-|bipolar v1|snomed|13746004|Bipolar psychoses|
-|bipolar v1|snomed|191590005|Recurrent manic episodes|
-|bipolar v1|snomed|191590005|"Recurrent manic episodes, unspecified"|
-|bipolar v1|snomed|191592002|"Recurrent manic episodes, mild"|
-|bipolar v1|snomed|191593007|"Recurrent manic episodes, moderate"|
-|bipolar v1|snomed|191597008|"Recurrent manic episodes, in full remission"|
-|bipolar v1|snomed|191590005|Recurrent manic episode NOS|
-|bipolar v1|snomed|191618007|"Bipolar affective disorder, currently manic"|
-|bipolar v1|snomed|191618007|Manic-depressive - now manic|
-|bipolar v1|snomed|191618007|"Bipolar affective disorder, currently manic, unspecified"|
-|bipolar v1|snomed|191620005|"Bipolar affective disorder, currently manic, mild"|
-|bipolar v1|snomed|191621009|"Bipolar affective disorder, currently manic, moderate"|
-|bipolar v1|snomed|191623007|"Bipolar affective disorder, currently manic, severe, with psychosis"|
-|bipolar v1|snomed|191618007|"Bipolar affective disorder, currently manic, NOS"|
-|bipolar v1|snomed|191629006|"Bipolar affective disorder, currently depressed, mild"|
-|bipolar v1|snomed|191630001|"Bipolar affective disorder, currently depressed, moderate"|
-|bipolar v1|snomed|61403008|"Bipolar affective disorder, currently depressed, severe, without mention of psychosis"|
-|bipolar v1|snomed|765176007|"Bipolar affective disorder, currently depressed, severe, with psychosis"|
-|bipolar v1|snomed|191636007|Mixed bipolar affective disorder|
-|bipolar v1|snomed|191636007|"Mixed bipolar affective disorder, unspecified"|
-|bipolar v1|snomed|191638008|"Mixed bipolar affective disorder, mild"|
-|bipolar v1|snomed|191639000|"Mixed bipolar affective disorder, moderate"|
-|bipolar v1|snomed|191641004|"Mixed bipolar affective disorder, severe, with psychosis"|
-|bipolar v1|snomed|191643001|"Mixed bipolar affective disorder, in full remission"|
-|bipolar v1|snomed|191636007|"Mixed bipolar affective disorder, NOS"|
-|bipolar v1|snomed|13746004|Unspecified bipolar affective disorder|
-|bipolar v1|snomed|13746004|"Unspecified bipolar affective disorder, unspecified"|
-|bipolar v1|snomed|4441000|"Unspecified bipolar affective disorder, severe, with psychosis"|
-|bipolar v1|snomed|13746004|"Unspecified bipolar affective disorder, NOS"|
-|bipolar v1|snomed|13746004|Other and unspecified manic-depressive psychoses|
-|bipolar v1|snomed|13746004|Unspecified manic-depressive psychoses|
-|bipolar v1|snomed|16506000|Other mixed manic-depressive psychoses|
-|bipolar v1|snomed|13746004|Other and unspecified manic-depressive psychoses NOS|
-|bipolar v1|snomed|13746004|[X]Bipolar affective disorder|
-|bipolar v1|snomed|13746004|[X]Manic-depressive illness|
-|bipolar v1|snomed|13746004|[X]Manic-depressive psychosis|
-|bipolar v1|snomed|13746004|[X]Manic-depressive reaction|
-|bipolar v1|snomed|31446002|"[X]Bipolar affective disorder, current episode hypomanic"|
-|bipolar v1|snomed|191618007|"[X]Bipolar affective disorder, current episode manic without psychotic symptoms"|
-|bipolar v1|snomed|191623007|"[X]Bipolar affective disorder, current episode manic with psychotic symptoms"|
-|bipolar v1|snomed|191630001|"[X]Bipolar affective disorder, current episode mild or moderate depression"|
-|bipolar v1|snomed|61403008|"[X]Bipolar affective disorder, current episode severe depression without psychotic symptoms"|
-|bipolar v1|snomed|765176007|"[X]Bipolar affective disorder, current episode severe depression with psychotic symptoms"|
-|bipolar v1|snomed|192362008|"[X]Bipolar affective disorder, current episode mixed"|
-|bipolar v1|snomed|85248005|"[X]Bipolar affective disorder, currently in remission"|
-|bipolar v1|snomed|83225003|[X]Bipolar affective disorder type II|
-|bipolar v1|snomed|83225003|[X]Bipolar II disorder|
-|bipolar v1|snomed|31446002|"Bipolar affective disorder, current episode hypomanic"|
-|bipolar v1|snomed|191618007|"[X]Bipolar affective disorder, current episode manic without psychotic symptoms"|
-|bipolar v1|snomed|191623007|"[X]Bipolar affective disorder, current episode manic with psychotic symptoms"|
-|bipolar v1|snomed|191630001|"[X]Bipolar affective disorder, current episode mild or moderate depression"|
-|bipolar v1|snomed|61403008|"[X]Bipolar affective disorder, current episode severe depression without psychotic symptoms"|
-|bipolar v1|snomed|85248005|"[X]Bipolar affective disorder, currently in remission"|
-|bipolar v1|snomed|13746004|[X]Other bipolar affective disorders|
-|bipolar v1|snomed|13746004|[X]Other bipolar affective disorders|
-|bipolar v1|snomed|13746004|"[X]Bipolar affective disorder, unspecified"|
-|bipolar v1|snomed|13746004|Unspec bipolar affect disord|
-|bipolar v1|snomed|13746004|Unspecified bipolar affective|
-|bipolar v1|snomed|4441000|Unsp.bipol.affect.-severe+psyc|
-|bipolar v1|snomed|13746004|Unspecif.bipolar affective NOS|
-|bipolar v1|snomed|13746004|Other manic-depressive psychos|
-|bipolar v1|snomed|13746004|Unspec manic-depressive psycho|
-|bipolar v1|snomed|16506000|Other mixed manic-depres psych|
-|bipolar v1|snomed|13746004|Other manic-depress.psych.NOS|
-|bipolar v1|snomed|13746004|[X] (Bipolar affective disorders: [bipolar II] or [other]) or (recurrent manic episodes)|
-|bipolar v1|snomed|191590005|Recurrent manic episodes|
-|bipolar v1|snomed|191590005|"Recurrent manic episodes, unspecified"|
-|bipolar v1|snomed|191592002|"Recurrent manic episodes, mild"|
-|bipolar v1|snomed|191593007|"Recurrent manic episodes, moderate"|
-|bipolar v1|snomed|191597008|"Recurrent manic episodes, in full remission"|
-|bipolar v1|snomed|191590005|Recurrent manic episode NOS|
-|bipolar v1|snomed|13746004|Bipolar disorder|
-|bipolar v1|snomed|13746004|Manic-depressive illness|
-|bipolar v1|snomed|13746004|Manic-depressive psychosis|
-|bipolar v1|snomed|13746004|Other and unspecified manic-depressive psychoses|
-|bipolar v1|snomed|13746004|Other and unspecified manic-depressive psychoses NOS|
-|bipolar v1|snomed|16506000|Other mixed manic-depressive psychoses|
-|bipolar v1|snomed|13746004|Unspecified manic-depressive psychoses|
-|bipolar v1|snomed|13746004|Unspecified bipolar affective disorder|
-|bipolar v1|snomed|13746004|"Unspecified bipolar affective disorder, unspecified"|
-|bipolar v1|snomed|4441000|"Unspecified bipolar affective disorder, severe, with psychosis"|
-|bipolar v1|snomed|13746004|"Unspecified bipolar affective disorder, NOS"|
-|bipolar v1|snomed|192362008|"Bipolar affective disorder , current episode mixed"|
-|bipolar v1|snomed|191636007|"Mixed bipolar affective disorder, unspecified"|
-|bipolar v1|snomed|191638008|"Mixed bipolar affective disorder, mild"|
-|bipolar v1|snomed|191639000|"Mixed bipolar affective disorder, moderate"|
-|bipolar v1|snomed|191641004|"Mixed bipolar affective disorder, severe, with psychosis"|
-|bipolar v1|snomed|191643001|"Mixed bipolar affective disorder, in full remission"|
-|bipolar v1|snomed|191636007|"Mixed bipolar affective disorder, NOS"|
-|bipolar v1|snomed|191629006|"Bipolar affective disorder, currently depressed, mild"|
-|bipolar v1|snomed|191630001|"Bipolar affective disorder, currently depressed, moderate"|
-|bipolar v1|snomed|61403008|"Bipolar affective disorder, currently depressed, severe, without mention of psychosis"|
-|bipolar v1|snomed|765176007|"Bipolar affective disorder, currently depressed, severe, with psychosis"|
-|bipolar v1|snomed|191618007|"Bipolar affective disorder, current episode manic"|
-|bipolar v1|snomed|191618007|Manic-depressive - now manic|
-|bipolar v1|snomed|191618007|"Bipolar affective disorder, currently manic, unspecified"|
-|bipolar v1|snomed|191620005|"Bipolar affective disorder, currently manic, mild"|
-|bipolar v1|snomed|191621009|"Bipolar affective disorder, currently manic, moderate"|
-|bipolar v1|snomed|191623007|"Bipolar affective disorder, currently manic, severe, with psychosis"|
-|bipolar v1|snomed|191618007|"Bipolar affective disorder, currently manic, NOS"|
-|bipolar v1|snomed|83225003|Bipolar II disorder|
-|bipolar v1|snomed|31446002|Bipol affec current hypoman|
-|bipolar v1|snomed|191618007|"[X]Bipol aff, manic no psychos"|
-|bipolar v1|snomed|191623007|[X]Bipol affect manic+psychos|
-|bipolar v1|snomed|191630001|[X]Bipol aff mild/mod depress|
-|bipolar v1|snomed|61403008|"[X]Bipol AD,cur sev dep,no psy"|
-|bipolar v1|snomed|85248005|[X]Bipol affect dis remission|
-|bipolar v1|snomed|13746004|[X]Oth bipolar affectve disord|
-|bipolar v1|snomed|13746004|[X]Bipolar affectve dis unsp|
-|bipolar v1|snomed|191636007|Mixed bipolar affective disord|
-|bipolar v1|snomed|85248005|"Bipolar affective disorder, currently in remission"|
-|bipolar v1|snomed|307525004|Other bipolar affective disorders|
-|bipolar v1|snomed|13746004|"Bipolar affective disorder, unspecified"|
-|bipolar v1|snomed|191636007|Mixed bipolar affective disorder|
-|bipolar v1|snomed|191620005|Manic bipolar affective-mild|
-|bipolar v1|snomed|191621009|Manic bipolar affect.-moderate|
-|bipolar v1|snomed|191623007|Manic bipol.affect.severe+psyc|
-|bipolar v1|snomed|191618007|Manic bipolar affective NOS|
-|bipolar v1|snomed|83225003|Bipolar II disorder|
-|bipolar v1|snomed|13746004|[X]Bipolar affectve dis unsp|
-|bipolar v1|snomed|13746004|Other manic-depressive psychos|
-|bipolar v1|snomed|13746004|MDI - Manic-depressive illness|
-|bipolar v1|snomed|13746004|Bipolar affective disorder|
-|bipolar v1|snomed|765176007|"[X]Manic-depressive psychosis, depressed type with psychotic symptoms"|
-|bipolar v1|snomed|13746004|[X]Other bipolar affective disorders|
-|bipolar v1|snomed|83225003|[X]Bipolar II disorder|
-|bipolar v1|snomed|191590005|[X]Recurrent manic episodes|
-|bipolar v1|snomed|13746004|"[X]Bipolar affective disorder, unspecified"|
-|bipolar v1|snomed|765176007|"[X]Manic-depressive psychosis, depressed type with psychotic symptoms"|
-|bipolar v1|snomed|192362008|[X]Mixed affective episode|
-|bipolar v1|snomed|83225003|[X]Bipolar II disorder|
-|bipolar v1|snomed|191590005|[X]Recurrent manic episodes|
-|bipolar v1|snomed|13746004|Other manic-depressive psychos|
-|bipolar v1|snomed|13746004|Bipolar psychoses|
-|bipolar v1|snomed|192362008|[X]Mixed affective episode|
-|depression v1|ctv3|CTV3Code|Description|
-|depression v1|ctv3|1B17.|C/O - feeling unhappy|
-|depression v1|ctv3|2257.|O/E - depressed|
-|depression v1|ctv3|62T1.|Postnatal depressive disorder|
-|depression v1|ctv3|E02y3|Drug-induced depressive state|
-|depression v1|ctv3|E112.|Agitated depression|
-|depression v1|ctv3|E1120|Single major depressive episode, unspecified|
-|depression v1|ctv3|E1121|Single major depressive episode, mild|
-|depression v1|ctv3|E1122|Single major depressive episode, moderate|
-|depression v1|ctv3|E1123|Single major depressive episode, severe, without mention of psychosis|
-|depression v1|ctv3|E1124|Single major depressive episode, severe, with psychosis|
-|depression v1|ctv3|E1125|Single major depressive episode, in partial or unspecified remission|
-|depression v1|ctv3|E1126|Single major depressive episode, in full remission|
-|depression v1|ctv3|E112z|Single major depressive episode NOS|
-|depression v1|ctv3|E113.|Recurrent major depressive episode|
-|depression v1|ctv3|E1130|Recurrent major depressive episodes, unspecified|
-|depression v1|ctv3|E1131|Recurrent major depressive episodes, mild|
-|depression v1|ctv3|E1132|Recurrent major depressive episodes, moderate|
-|depression v1|ctv3|E1133|Recurrent major depressive episodes, severe, without mention of psychosis|
-|depression v1|ctv3|E1134|Recurrent major depressive episodes, severe, with psychosis|
-|depression v1|ctv3|E1135|Recurrent major depressive episodes, in partial or unspecified remission|
-|depression v1|ctv3|E1136|Recurrent major depressive episodes, in full remission|
-|depression v1|ctv3|E1137|Recurrent depression|
-|depression v1|ctv3|E113z|Recurrent major depressive episode NOS|
-|depression v1|ctv3|E11y2|Atypical depressive disorder|
-|depression v1|ctv3|E130.|Psychotic reactive depression|
-|depression v1|ctv3|E204.|Postnatal depression|
-|depression v1|ctv3|E2112|Neurotic depression|
-|depression v1|ctv3|E290.|Brief depressive adjustment reaction|
-|depression v1|ctv3|E2900|Grief reaction|
-|depression v1|ctv3|E290z|Brief depressive reaction NOS|
-|depression v1|ctv3|E291.|Prolonged depressive adjustment reaction|
-|depression v1|ctv3|E2B..|Depressive disorder NEC|
-|depression v1|ctv3|E2B0.|Postviral depression|
-|depression v1|ctv3|E2B1.|Chronic depression|
-|depression v1|ctv3|Eu320|[X]Mild depressive episode|
-|depression v1|ctv3|Eu321|[X]Moderate depressive episode|
-|depression v1|ctv3|Eu322|[X] Single episode agitated depression without psychotic symptoms|
-|depression v1|ctv3|Eu323|[X] Single episode of reactive depressive psychosis|
-|depression v1|ctv3|Eu32y|[X] Single episode of masked depression NOS|
-|depression v1|ctv3|Eu32z|[X] Depression NOS|
-|depression v1|ctv3|Eu33.|[X] Recurrent episodes of psychogenic depression|
-|depression v1|ctv3|Eu330|[X]Recurrent depressive disorder, current episode mild|
-|depression v1|ctv3|Eu331|[X]Recurrent depressive disorder, current episode moderate|
-|depression v1|ctv3|Eu332|[X] Vital depression, recurrent without psychotic symptoms|
-|depression v1|ctv3|Eu333|[X]Recurrent severe episodes of reactive depressive psychosis|
-|depression v1|ctv3|Eu334|[X]Recurrent depressive disorder, currently in remission|
-|depression v1|ctv3|Eu33y|[X]Other recurrent depressive disorders|
-|depression v1|ctv3|Eu33z|[X] Monopolar depression NOS|
-|depression v1|ctv3|Eu34.|[X]Persistent mood affective disorders|
-|depression v1|ctv3|Eu34y|[X]Other persistent mood affective disorders|
-|depression v1|ctv3|Eu34z|[X]Persistent mood affective disorder, unspecified|
-|depression v1|ctv3|Eu3y.|[X]Other mood affective disorders|
-|depression v1|ctv3|Eu3y0|[X] Mixed affective episode|
-|depression v1|ctv3|Eu3y1|[X] Recurrent brief depressive episodes|
-|depression v1|ctv3|Eu3yy|[X]Other specified mood affective disorders|
-|depression v1|ctv3|Eu412|[X]Mixed anxiety and depressive disorder|
-|depression v1|ctv3|R007z|[D]Postoperative depression|
-|depression v1|ctv3|Ua18k|Abnormal bereavement reaction|
-|depression v1|ctv3|X00RM|Right hemispheric organic affective disorder|
-|depression v1|ctv3|X00S8|Post-schizophrenic depression|
-|depression v1|ctv3|X00SO|Depressive illness|
-|depression v1|ctv3|X00SQ|Agitated depression|
-|depression v1|ctv3|X00SS|Endogenous depression first episode|
-|depression v1|ctv3|X00SU|Masked depression|
-|depression v1|ctv3|X00Sb|Mixed anxiety and depressive disorder|
-|depression v1|ctv3|X00TX|Depressive conduct disorder|
-|depression v1|ctv3|X40Dl|Mild postnatal depression|
-|depression v1|ctv3|X40Dm|Severe postnatal depression|
-|depression v1|ctv3|X40MH|Pseudo-Cushing's syndrome of depression|
-|depression v1|ctv3|X75zA|Depressive delusion of catastrophe|
-|depression v1|ctv3|X75zC|Depressive delusion of poverty|
-|depression v1|ctv3|X75zE|Depressive hypochondriacal delusion|
-|depression v1|ctv3|X760u|Depressive preoccupation|
-|depression v1|ctv3|X761J|Depression worse in morning|
-|depression v1|ctv3|X761K|Depression worse later in day|
-|depression v1|ctv3|X761L|SAD - Seasonal affective disorder|
-|depression v1|ctv3|XE0re|Sad mood|
-|depression v1|ctv3|XE0uv|Unhappy|
-|depression v1|ctv3|XE1Xy|Mood disorder|
-|depression v1|ctv3|XE1Y0|Single major depressive episode|
-|depression v1|ctv3|XE1Y1|Recurrent major depressive episodes|
-|depression v1|ctv3|XE1YC|Neurotic depression reactive type|
-|depression v1|ctv3|XE1Yo|Bereavement reaction|
-|depression v1|ctv3|XE1ZY|[X]Severe depressive episode without psychotic symptoms|
-|depression v1|ctv3|XE1ZZ|[X]Severe depressive episode with psychotic symptoms|
-|depression v1|ctv3|XE1Za|[X]Other depressive episodes|
-|depression v1|ctv3|XE1Zb|[X] Depression NOS|
-|depression v1|ctv3|XE1Zc|[X]Recurrent depressive disorder|
-|depression v1|ctv3|XE1Zd|[X]Recurrent depressive disorder, current episode severe without psychotic symptoms|
-|depression v1|ctv3|XE1Ze|[X]Recurrent depressive disorder, current episode severe with psychotic symptoms|
-|depression v1|ctv3|XE1Zf|[X]Recurrent depressive disorder, unspecified|
-|depression v1|ctv3|XE1Zg|[X]Other single mood affective disorders|
-|depression v1|ctv3|XE1Zh|[X]Other recurrent mood affective disorders|
-|depression v1|ctv3|XE1Zi|[X]Unspecified mood affective disorder|
-|depression v1|ctv3|XE1aY|Reactive (neurotic) depression|
-|depression v1|ctv3|XE1ae|Depressive personality|
-|depression v1|ctv3|XM0CR|C/O - feeling depressed|
-|depression v1|ctv3|XM0CS|C/O - feeling unhappy|
-|depression v1|ctv3|XM1GC|Endogenous depression - recurrent|
-|depression v1|ctv3|XSEGJ|Major depression|
-|depression v1|ctv3|XSGok|Mild major depression|
-|depression v1|ctv3|XSGol|Moderate major depression|
-|depression v1|ctv3|XSGom|Severe major depression without psychotic features|
-|depression v1|ctv3|XSGon|Psychotic depression|
-|depression v1|ctv3|Xa0wV|Recurrent brief depressive disorder|
-|depression v1|ctv3|Xa19c|Normal bereavement reaction|
-|depression v1|ctv3|XaA9r|Depressive position relationship|
-|depression v1|ctv3|XaB9J|Depression NOS|
-|depression v1|ctv3|XaCHr|[X] Single episode agitated depression without psychotic symptoms|
-|depression v1|ctv3|XaCHs|[X] Single episode major depression without psychotic symptoms|
-|depression v1|ctv3|XaCIs|[X]Mild depression|
-|depression v1|ctv3|XaCIt|Moderate depression|
-|depression v1|ctv3|XaCIu|Severe depression|
-|depression v1|ctv3|XaImU|Depressive symptoms|
-|depression v1|ctv3|XaIoF|Patient unhappy with medication regime|
-|depression v1|ctv3|XaIpB|Postnatal depression counselling|
-|depression v1|ctv3|XaItx|Depression management programme|
-|depression v1|ctv3|XaJWh|On depression register|
-|depression v1|ctv3|XaK9p|Depression enhanced services administration|
-|depression v1|ctv3|XaKAK|Depression enhanced service completed|
-|depression v1|ctv3|XaKEz|Patient given advice about management of depression|
-|depression v1|ctv3|XaKUk|Dysphoric mood|
-|depression v1|ctv3|XaL0r|Referral for guided self-help for depression|
-|depression v1|ctv3|XaLQw|Discussion about maternal wellbeing - postnatal depression|
-|depression v1|ctv3|XaMGL|Depression monitoring administration|
-|depression v1|ctv3|XaMGN|Depression monitoring first letter|
-|depression v1|ctv3|XaMGO|Depression monitoring second letter|
-|depression v1|ctv3|XaMGP|Depression monitoring third letter|
-|depression v1|ctv3|XaMGQ|Depression monitoring verbal invite|
-|depression v1|ctv3|XaMGR|Depression monitoring telephone invite|
-|depression v1|ctv3|XaPKm|On full dose long term treatment for depression|
-|depression v1|ctv3|XaX2L|Postnatal depression not discussed|
-|depression v1|ctv3|XaX53|Single major depressive episode, severe, with psychosis, psychosis in remission|
-|depression v1|ctv3|XaX54|Recurrent major depressive episodes, severe, with psychosis, psychosis in remission|
-|depression v1|ctv3|XaXe3|Antidepressant drug treatment started|
-|depression v1|ctv3|XaY2C|Antenatal depression|
-|depression v1|ctv3|XaYgS|Referral to postnatal depression group|
-|depression v1|ctv3|Xabaf|Referral for depression self-help video|
-|depression v1|ctv3|XaboL|Referral for guided self-help for depression declined|
-|depression v1|ctv3|Xaeft|Maternal postnatal depression|
-|depression v1|ctv3|XafMM|Signposting to depression self-help group|
-|depression v1|ctv3|XagLW|Depression monitoring invitation email|
-|depression v1|ctv3|XagLY|Depression monitoring invitation SMS (short message service) text message|
-|depression v1|ctv3|XagO4|Depressive personality disorder|
-|depression v1|ctv3|XagU1|Recurrent reactive depressive episodes, severe, with psychosis|
+|bipolar v1|readv2|E11..00|Bipolar psychoses|
+|bipolar v1|readv2|E110.00|"Manic disorder, single episode"|
+|bipolar v1|readv2|E110.11|Hypomanic psychoses|
+|bipolar v1|readv2|E110000|"Single manic episode, unspecified"|
+|bipolar v1|readv2|E110100|"Single manic episode, mild"|
+|bipolar v1|readv2|E110200|"Single manic episode, moderate"|
+|bipolar v1|readv2|E110300|"Single manic episode, severe without mention of psychosis"|
+|bipolar v1|readv2|E110400|"Single manic episode, severe, with psychosis"|
+|bipolar v1|readv2|E110500|Single manic episode in partial or unspecified remission|
+|bipolar v1|readv2|E110600|Single manic episode in full remission|
+|bipolar v1|readv2|E110z00|"Manic disorder, single episode NOS"|
+|bipolar v1|readv2|E111.00|Recurrent manic episodes|
+|bipolar v1|readv2|E111000|"Recurrent manic episodes, unspecified"|
+|bipolar v1|readv2|E111100|"Recurrent manic episodes, mild"|
+|bipolar v1|readv2|E111200|"Recurrent manic episodes, moderate"|
+|bipolar v1|readv2|E111300|"Recurrent manic episodes, severe without mention of psychosis"|
+|bipolar v1|readv2|E111400|"Recurrent manic episodes, severe, with psychosis"|
+|bipolar v1|readv2|E111500|"Recurrent manic episodes, in partial or unspecified remission"|
+|bipolar v1|readv2|E111600|"Recurrent manic episodes, in full remission"|
+|bipolar v1|readv2|E111z00|Recurrent manic episode NOS|
+|bipolar v1|readv2|E114.00|"Bipolar affective disorder, currently manic"|
+|bipolar v1|readv2|E114.11|Manic-depressive - now manic|
+|bipolar v1|readv2|E114000|"Bipolar affective disorder, currently manic, unspecified"|
+|bipolar v1|readv2|E114100|"Bipolar affective disorder, currently manic, mild"|
+|bipolar v1|readv2|E114200|"Bipolar affective disorder, currently manic, moderate"|
+|bipolar v1|readv2|E114300|"Bipolar affective disorder, currently manic, severe, without mention of psychosis"|
+|bipolar v1|readv2|E114400|"Bipolar affective disorder, currently manic, severe, with psychosis"|
+|bipolar v1|readv2|E114500|"Bipolar affective disorder, currently manic, in partial or unspecified remission"|
+|bipolar v1|readv2|E114600|"Bipolar affective disorder, currently manic, in full remission"|
+|bipolar v1|readv2|E114z00|"Bipolar affective disorder, currently manic, NOS"|
+|bipolar v1|readv2|E115.00|"Bipolar affective disorder, currently depressed"|
+|bipolar v1|readv2|E115.00|Manic-depressive - now depressed|
+|bipolar v1|readv2|E115000|"Bipolar affective disorder, currently depressed, unspecified"|
+|bipolar v1|readv2|E115100|"Bipolar affective disorder, currently depressed, mild"|
+|bipolar v1|readv2|E115200|"Bipolar affective disorder, currently depressed, moderate"|
+|bipolar v1|readv2|E115300|"Bipolar affective disorder, currently depressed, severe, without mention of psychosis"|
+|bipolar v1|readv2|E115400|"Bipolar affective disorder, currently depressed, severe, with psychosis"|
+|bipolar v1|readv2|E115500|"Bipolar affective disorder, currently depressed, in partial or unspecified remission"|
+|bipolar v1|readv2|E115600|"Bipolar affective disorder, currently depressed, in full remission"|
+|bipolar v1|readv2|E115z00|"Bipolar affective disorder, currently depressed, NOS"|
+|bipolar v1|readv2|E116.00|Mixed bipolar affective disorder|
+|bipolar v1|readv2|E116000|"Mixed bipolar affective disorder, unspecified"|
+|bipolar v1|readv2|E116100|"Mixed bipolar affective disorder, mild"|
+|bipolar v1|readv2|E116200|"Mixed bipolar affective disorder, moderate"|
+|bipolar v1|readv2|E116300|"Mixed bipolar affective disorder, severe, without mention of psychosis"|
+|bipolar v1|readv2|E116400|"Mixed bipolar affective disorder, severe, with psychosis"|
+|bipolar v1|readv2|E116500|"Mixed bipolar affective disorder, in partial or unspecified remission"|
+|bipolar v1|readv2|E116600|"Mixed bipolar affective disorder, in full remission"|
+|bipolar v1|readv2|E116z00|"Mixed bipolar affective disorder, NOS"|
+|bipolar v1|readv2|E117.00|Unspecified bipolar affective disorder|
+|bipolar v1|readv2|E117000|"Unspecified bipolar affective disorder, unspecified"|
+|bipolar v1|readv2|E117100|"Unspecified bipolar affective disorder, mild"|
+|bipolar v1|readv2|E117200|"Unspecified bipolar affective disorder, moderate"|
+|bipolar v1|readv2|E117300|"Unspecified bipolar affective disorder, severe, without mention of psychosis"|
+|bipolar v1|readv2|E117400|"Unspecified bipolar affective disorder, severe, with psychosis"|
+|bipolar v1|readv2|E117500|"Unspecified bipolar affective disorder, in partial or unspecified remission"|
+|bipolar v1|readv2|E117600|"Unspecified bipolar affective disorder, in full remission"|
+|bipolar v1|readv2|E117z00|"Unspecified bipolar affective disorder, NOS"|
+|bipolar v1|readv2|E11y.00|Other and unspecified manic-depressive psychoses|
+|bipolar v1|readv2|E11y000|Unspecified manic-depressive psychoses|
+|bipolar v1|readv2|E11y100|Atypical manic disorder|
+|bipolar v1|readv2|E11y300|Other mixed manic-depressive psychoses|
+|bipolar v1|readv2|E11yz00|Other and unspecified manic-depressive psychoses NOS|
+|bipolar v1|readv2|Eu3..00|[X]Mood - affective disorders|
+|bipolar v1|readv2|Eu30.00|"[X]Bipolar disorder, single manic episode"|
+|bipolar v1|readv2|Eu30.00|[X]Manic episode|
+|bipolar v1|readv2|Eu30.11|"[X]Bipolar disorder, single manic episode"|
+|bipolar v1|readv2|Eu30000|[X]Hypomania|
+|bipolar v1|readv2|Eu30100|[X]Mania without psychotic symptoms|
+|bipolar v1|readv2|Eu30200|[X]Mania with mood-congruent psychotic symptoms|
+|bipolar v1|readv2|Eu30200|[X]Mania with mood-incongruent psychotic symptoms|
+|bipolar v1|readv2|Eu30200|[X]Mania with psychotic symptoms|
+|bipolar v1|readv2|Eu30211|[X]Mania with mood-congruent psychotic symptoms|
+|bipolar v1|readv2|Eu30212|[X]Mania with mood-incongruent psychotic symptoms|
+|bipolar v1|readv2|Eu30213|[X]Manic stupor|
+|bipolar v1|readv2|Eu30y00|[X]Other manic episodes|
+|bipolar v1|readv2|Eu30z00|[X]Mania NOS|
+|bipolar v1|readv2|Eu30z11|[X]Mania NOS|
+|bipolar v1|readv2|Eu30z00|"[X]Manic episode, unspecified"|
+|bipolar v1|readv2|Eu31.00|[X]Bipolar affective disorder|
+|bipolar v1|readv2|Eu31.00|[X]Manic-depressive illness|
+|bipolar v1|readv2|Eu31.00|[X]Manic-depressive psychosis|
+|bipolar v1|readv2|Eu31.00|[X]Manic-depressive reaction|
+|bipolar v1|readv2|Eu31.11|[X]Manic-depressive illness|
+|bipolar v1|readv2|Eu31.12|[X]Manic-depressive psychosis|
+|bipolar v1|readv2|Eu31.13|[X]Manic-depressive reaction|
+|bipolar v1|readv2|Eu31000|"[X]Bipolar affective disorder, current episode hypomanic"|
+|bipolar v1|readv2|Eu31100|"[X]Bipolar affective disorder, current episode manic without psychotic symptoms"|
+|bipolar v1|readv2|Eu31200|"[X]Bipolar affective disorder, current episode manic with psychotic symptoms"|
+|bipolar v1|readv2|Eu31300|"[X]Bipolar affective disorder, current episode mild or moderate depression"|
+|bipolar v1|readv2|Eu31400|"[X]Bipolar affective disorder, current episode severe depression without psychotic symptoms"|
+|bipolar v1|readv2|Eu31500|"[X]Bipolar affective disorder, current episode severe depression with psychotic symptoms"|
+|bipolar v1|readv2|Eu31600|"[X]Bipolar affective disorder, current episode mixed"|
+|bipolar v1|readv2|Eu31700|"[X]Bipolar affective disorder, currently in remission"|
+|bipolar v1|readv2|Eu31800|[X]Bipolar affective disorder type I|
+|bipolar v1|readv2|Eu31900|[X]Bipolar affective disorder type II|
+|bipolar v1|readv2|Eu31911|[X]Bipolar II disorder|
+|bipolar v1|readv2|Eu31y00|[X]Other bipolar affective disorders|
+|bipolar v1|readv2|Eu31y00|[X]Bipolar II disorder|
+|bipolar v1|readv2|Eu31y00|[X]Recurrent manic episodes|
+|bipolar v1|readv2|Eu31y11|[X]Bipolar II disorder|
+|bipolar v1|readv2|Eu31y12|[X]Recurrent manic episodes|
+|bipolar v1|readv2|Eu31z00|"[X]Bipolar affective disorder, unspecified"|
+|bipolar v1|readv2|Eu33300|"[X]Manic-depressive psychosis, depressed type with psychotic symptoms"|
+|bipolar v1|readv2|Eu3y0|[X]Mixed affective episode|
+|bipolar v1|readv2|212V.00|Bipolar affective disorder resolved|
+|bipolar v1|readv2|E11..11|Bipolar psychoses|
+|bipolar v1|readv2|E11..13|Manic psychoses|
+|bipolar v1|readv2|Eu33213|"[X]Manic-depressive psychosis, depressed type without psychotic symptoms"|
+|bipolar v1|readv2|Eu33312|"[X]Manic-depressive psychosis, depressed type with psychotic symptoms"|
+|bipolar v1|readv2|Eu34.00|[X]Persistent mood affective disorders|
+|bipolar v1|readv2|Eu34000|[X]Cyclothymia|
+|bipolar v1|readv2|Eu34011|[X]Affective personality disorder|
+|bipolar v1|readv2|Eu34012|[X]Cycloid personality|
+|bipolar v1|readv2|Eu34013|[X]Cyclothymic personality|
+|bipolar v1|readv2|Eu34y00|[X]Other persistent mood affective disorders|
+|bipolar v1|readv2|Eu34z00|"[X]Persistent mood affective disorder, unspecified"|
+|bipolar v1|readv2|Eu3y.00|[X]Other mood affective disorders|
+|bipolar v1|readv2|Eu3y000|[X]Other single mood affective disorders|
+|bipolar v1|readv2|Eu3y100|[X]Other recurrent mood affective disorders|
+|bipolar v1|readv2|Eu3yy00|[X]Other specified mood affective disorders|
+|bipolar v1|readv2|Eu3z.00|[X]Unspecified mood affective disorder|
+|bipolar v1|snomed|31446002|"Bipolar affective disorder, current episode hypomanic"|
+|bipolar v1|snomed|68569003|"Bipolar affective disorder, current episode manic without psycho"|
+|bipolar v1|snomed|71984005|"Bipolar affective disorder, current episode manic with psychotic"|
+|bipolar v1|snomed|74686005|"Bipolar affective disorder, current episode mild or moderate dep"|
+|bipolar v1|snomed|371599001|"Bipolar affective disorder, current episode severe depression wi"|
+|bipolar v1|snomed|4441000|"Bipolar affective disorder, current episode severe depression wi"|
+|bipolar v1|snomed|16506000|"Bipolar affective disorder, current episode mixed"|
+|bipolar v1|snomed|191590005|Recurrent manic episodes|
+|bipolar v1|snomed|191590005|Recurrent manic episode-unspec|
+|bipolar v1|snomed|191592002|Recurrent manic episode-mild|
+|bipolar v1|snomed|191593007|Recurrent manic epis.-moderate|
+|bipolar v1|snomed|191597008|Recur.manic epis.-full remiss.|
+|bipolar v1|snomed|191590005|Recurrent manic episode NOS|
+|bipolar v1|snomed|191618007|Bipolar affective - now manic|
+|bipolar v1|snomed|191618007|Manic bipolar affective-unspec|
+|bipolar v1|snomed|191620005|Manic bipolar affective-mild|
+|bipolar v1|snomed|191621009|Manic bipolar affect.-moderate|
+|bipolar v1|snomed|191623007|Manic bipol.affect.severe+psyc|
+|bipolar v1|snomed|191618007|Manic bipolar affective NOS|
+|bipolar v1|snomed|191629006|Depress.bipolar affect.-mild|
+|bipolar v1|snomed|191630001|Depr.bipolar affect.-moderate|
+|bipolar v1|snomed|61403008|Depr.bipolar affect.-severe|
+|bipolar v1|snomed|765176007|Depr.bipol.affect.-severe+psyc|
+|bipolar v1|snomed|191636007|Mixed bipolar affective disord|
+|bipolar v1|snomed|191636007|Mixed bipolar affective-unspec|
+|bipolar v1|snomed|191638008|Mixed bipolar affective-mild|
+|bipolar v1|snomed|191639000|Mixed bipolar affect.-moderate|
+|bipolar v1|snomed|191641004|Mixed bipol.affect.severe+psyc|
+|bipolar v1|snomed|191643001|Mixed bipol.affect.full remiss|
+|bipolar v1|snomed|191636007|Mixed bipolar affective NOS|
+|bipolar v1|snomed|13746004|[X]Bipolar affective disorder|
+|bipolar v1|snomed|31446002|[X]Bipol affec current hypoman|
+|bipolar v1|snomed|191618007|"[X]Bipol aff, manic no psychos"|
+|bipolar v1|snomed|191623007|[X]Bipol affect manic+psychos|
+|bipolar v1|snomed|191630001|[X]Bipol aff mild/mod depress|
+|bipolar v1|snomed|61403008|"[X]Bipol AD,cur sev dep,no psy"|
+|bipolar v1|snomed|765176007|[X]Bipol aff sev depress/psych|
+|bipolar v1|snomed|192362008|"[X]Bipol affective dis, mixed"|
+|bipolar v1|snomed|85248005|[X]Bipol affect dis remission|
+|bipolar v1|snomed|83225003|[X]Bipol affect disord type II|
+|bipolar v1|snomed|191590005|Recurrent manic episodes|
+|bipolar v1|snomed|191590005|Recurrent manic episode-unspec|
+|bipolar v1|snomed|191592002|"Recurrent manic episodes, mild"|
+|bipolar v1|snomed|191593007|Recurrent manic epis.-moderate|
+|bipolar v1|snomed|191597008|Recur.manic epis.-full remiss.|
+|bipolar v1|snomed|191590005|Recurrent manic episode NOS|
+|bipolar v1|snomed|13746004|Bipolar disorder|
+|bipolar v1|snomed|13746004|Other manic-depressive psychos|
+|bipolar v1|snomed|13746004|Other manic-depress.psych.NOS|
+|bipolar v1|snomed|16506000|Other mixed manic-depres psych|
+|bipolar v1|snomed|13746004|Unspec manic-depressive psycho|
+|bipolar v1|snomed|13746004|Unspec bipolar affect disord|
+|bipolar v1|snomed|13746004|Unspecified bipolar affective|
+|bipolar v1|snomed|4441000|Unsp.bipol.affect.-severe+psyc|
+|bipolar v1|snomed|13746004|Unspecif.bipolar affective NOS|
+|bipolar v1|snomed|192362008|Mixed bipolar affective disord|
+|bipolar v1|snomed|191636007|Mixed bipolar affective-unspec|
+|bipolar v1|snomed|191638008|Mixed bipolar affective-mild|
+|bipolar v1|snomed|191639000|Mixed bipolar affect.-moderate|
+|bipolar v1|snomed|191641004|Mixed bipol.affect.severe+psyc|
+|bipolar v1|snomed|191643001|Mixed bipol.affect.full remiss|
+|bipolar v1|snomed|191636007|Mixed bipolar affective NOS|
+|bipolar v1|snomed|191629006|Depress.bipolar affect.-mild|
+|bipolar v1|snomed|191630001|Depr.bipolar affect.-moderate|
+|bipolar v1|snomed|61403008|Depr.bipolar affect.-severe|
+|bipolar v1|snomed|765176007|Depr.bipol.affect.-severe+psyc|
+|bipolar v1|snomed|191618007|Bipolar affective - now manic|
+|bipolar v1|snomed|191618007|Manic bipolar affective-unspec|
+|bipolar v1|snomed|13746004|Bipolar psychoses|
+|bipolar v1|snomed|191590005|Recurrent manic episodes|
+|bipolar v1|snomed|191590005|"Recurrent manic episodes, unspecified"|
+|bipolar v1|snomed|191592002|"Recurrent manic episodes, mild"|
+|bipolar v1|snomed|191593007|"Recurrent manic episodes, moderate"|
+|bipolar v1|snomed|191597008|"Recurrent manic episodes, in full remission"|
+|bipolar v1|snomed|191590005|Recurrent manic episode NOS|
+|bipolar v1|snomed|191618007|"Bipolar affective disorder, currently manic"|
+|bipolar v1|snomed|191618007|Manic-depressive - now manic|
+|bipolar v1|snomed|191618007|"Bipolar affective disorder, currently manic, unspecified"|
+|bipolar v1|snomed|191620005|"Bipolar affective disorder, currently manic, mild"|
+|bipolar v1|snomed|191621009|"Bipolar affective disorder, currently manic, moderate"|
+|bipolar v1|snomed|191623007|"Bipolar affective disorder, currently manic, severe, with psychosis"|
+|bipolar v1|snomed|191618007|"Bipolar affective disorder, currently manic, NOS"|
+|bipolar v1|snomed|191629006|"Bipolar affective disorder, currently depressed, mild"|
+|bipolar v1|snomed|191630001|"Bipolar affective disorder, currently depressed, moderate"|
+|bipolar v1|snomed|61403008|"Bipolar affective disorder, currently depressed, severe, without mention of psychosis"|
+|bipolar v1|snomed|765176007|"Bipolar affective disorder, currently depressed, severe, with psychosis"|
+|bipolar v1|snomed|191636007|Mixed bipolar affective disorder|
+|bipolar v1|snomed|191636007|"Mixed bipolar affective disorder, unspecified"|
+|bipolar v1|snomed|191638008|"Mixed bipolar affective disorder, mild"|
+|bipolar v1|snomed|191639000|"Mixed bipolar affective disorder, moderate"|
+|bipolar v1|snomed|191641004|"Mixed bipolar affective disorder, severe, with psychosis"|
+|bipolar v1|snomed|191643001|"Mixed bipolar affective disorder, in full remission"|
+|bipolar v1|snomed|191636007|"Mixed bipolar affective disorder, NOS"|
+|bipolar v1|snomed|13746004|Unspecified bipolar affective disorder|
+|bipolar v1|snomed|13746004|"Unspecified bipolar affective disorder, unspecified"|
+|bipolar v1|snomed|4441000|"Unspecified bipolar affective disorder, severe, with psychosis"|
+|bipolar v1|snomed|13746004|"Unspecified bipolar affective disorder, NOS"|
+|bipolar v1|snomed|13746004|Other and unspecified manic-depressive psychoses|
+|bipolar v1|snomed|13746004|Unspecified manic-depressive psychoses|
+|bipolar v1|snomed|16506000|Other mixed manic-depressive psychoses|
+|bipolar v1|snomed|13746004|Other and unspecified manic-depressive psychoses NOS|
+|bipolar v1|snomed|13746004|[X]Bipolar affective disorder|
+|bipolar v1|snomed|13746004|[X]Manic-depressive illness|
+|bipolar v1|snomed|13746004|[X]Manic-depressive psychosis|
+|bipolar v1|snomed|13746004|[X]Manic-depressive reaction|
+|bipolar v1|snomed|31446002|"[X]Bipolar affective disorder, current episode hypomanic"|
+|bipolar v1|snomed|191618007|"[X]Bipolar affective disorder, current episode manic without psychotic symptoms"|
+|bipolar v1|snomed|191623007|"[X]Bipolar affective disorder, current episode manic with psychotic symptoms"|
+|bipolar v1|snomed|191630001|"[X]Bipolar affective disorder, current episode mild or moderate depression"|
+|bipolar v1|snomed|61403008|"[X]Bipolar affective disorder, current episode severe depression without psychotic symptoms"|
+|bipolar v1|snomed|765176007|"[X]Bipolar affective disorder, current episode severe depression with psychotic symptoms"|
+|bipolar v1|snomed|192362008|"[X]Bipolar affective disorder, current episode mixed"|
+|bipolar v1|snomed|85248005|"[X]Bipolar affective disorder, currently in remission"|
+|bipolar v1|snomed|83225003|[X]Bipolar affective disorder type II|
+|bipolar v1|snomed|83225003|[X]Bipolar II disorder|
+|bipolar v1|snomed|31446002|"Bipolar affective disorder, current episode hypomanic"|
+|bipolar v1|snomed|191618007|"[X]Bipolar affective disorder, current episode manic without psychotic symptoms"|
+|bipolar v1|snomed|191623007|"[X]Bipolar affective disorder, current episode manic with psychotic symptoms"|
+|bipolar v1|snomed|191630001|"[X]Bipolar affective disorder, current episode mild or moderate depression"|
+|bipolar v1|snomed|61403008|"[X]Bipolar affective disorder, current episode severe depression without psychotic symptoms"|
+|bipolar v1|snomed|85248005|"[X]Bipolar affective disorder, currently in remission"|
+|bipolar v1|snomed|13746004|[X]Other bipolar affective disorders|
+|bipolar v1|snomed|13746004|[X]Other bipolar affective disorders|
+|bipolar v1|snomed|13746004|"[X]Bipolar affective disorder, unspecified"|
+|bipolar v1|snomed|13746004|Unspec bipolar affect disord|
+|bipolar v1|snomed|13746004|Unspecified bipolar affective|
+|bipolar v1|snomed|4441000|Unsp.bipol.affect.-severe+psyc|
+|bipolar v1|snomed|13746004|Unspecif.bipolar affective NOS|
+|bipolar v1|snomed|13746004|Other manic-depressive psychos|
+|bipolar v1|snomed|13746004|Unspec manic-depressive psycho|
+|bipolar v1|snomed|16506000|Other mixed manic-depres psych|
+|bipolar v1|snomed|13746004|Other manic-depress.psych.NOS|
+|bipolar v1|snomed|13746004|[X] (Bipolar affective disorders: [bipolar II] or [other]) or (recurrent manic episodes)|
+|bipolar v1|snomed|191590005|Recurrent manic episodes|
+|bipolar v1|snomed|191590005|"Recurrent manic episodes, unspecified"|
+|bipolar v1|snomed|191592002|"Recurrent manic episodes, mild"|
+|bipolar v1|snomed|191593007|"Recurrent manic episodes, moderate"|
+|bipolar v1|snomed|191597008|"Recurrent manic episodes, in full remission"|
+|bipolar v1|snomed|191590005|Recurrent manic episode NOS|
+|bipolar v1|snomed|13746004|Bipolar disorder|
+|bipolar v1|snomed|13746004|Manic-depressive illness|
+|bipolar v1|snomed|13746004|Manic-depressive psychosis|
+|bipolar v1|snomed|13746004|Other and unspecified manic-depressive psychoses|
+|bipolar v1|snomed|13746004|Other and unspecified manic-depressive psychoses NOS|
+|bipolar v1|snomed|16506000|Other mixed manic-depressive psychoses|
+|bipolar v1|snomed|13746004|Unspecified manic-depressive psychoses|
+|bipolar v1|snomed|13746004|Unspecified bipolar affective disorder|
+|bipolar v1|snomed|13746004|"Unspecified bipolar affective disorder, unspecified"|
+|bipolar v1|snomed|4441000|"Unspecified bipolar affective disorder, severe, with psychosis"|
+|bipolar v1|snomed|13746004|"Unspecified bipolar affective disorder, NOS"|
+|bipolar v1|snomed|192362008|"Bipolar affective disorder , current episode mixed"|
+|bipolar v1|snomed|191636007|"Mixed bipolar affective disorder, unspecified"|
+|bipolar v1|snomed|191638008|"Mixed bipolar affective disorder, mild"|
+|bipolar v1|snomed|191639000|"Mixed bipolar affective disorder, moderate"|
+|bipolar v1|snomed|191641004|"Mixed bipolar affective disorder, severe, with psychosis"|
+|bipolar v1|snomed|191643001|"Mixed bipolar affective disorder, in full remission"|
+|bipolar v1|snomed|191636007|"Mixed bipolar affective disorder, NOS"|
+|bipolar v1|snomed|191629006|"Bipolar affective disorder, currently depressed, mild"|
+|bipolar v1|snomed|191630001|"Bipolar affective disorder, currently depressed, moderate"|
+|bipolar v1|snomed|61403008|"Bipolar affective disorder, currently depressed, severe, without mention of psychosis"|
+|bipolar v1|snomed|765176007|"Bipolar affective disorder, currently depressed, severe, with psychosis"|
+|bipolar v1|snomed|191618007|"Bipolar affective disorder, current episode manic"|
+|bipolar v1|snomed|191618007|Manic-depressive - now manic|
+|bipolar v1|snomed|191618007|"Bipolar affective disorder, currently manic, unspecified"|
+|bipolar v1|snomed|191620005|"Bipolar affective disorder, currently manic, mild"|
+|bipolar v1|snomed|191621009|"Bipolar affective disorder, currently manic, moderate"|
+|bipolar v1|snomed|191623007|"Bipolar affective disorder, currently manic, severe, with psychosis"|
+|bipolar v1|snomed|191618007|"Bipolar affective disorder, currently manic, NOS"|
+|bipolar v1|snomed|83225003|Bipolar II disorder|
+|bipolar v1|snomed|31446002|Bipol affec current hypoman|
+|bipolar v1|snomed|191618007|"[X]Bipol aff, manic no psychos"|
+|bipolar v1|snomed|191623007|[X]Bipol affect manic+psychos|
+|bipolar v1|snomed|191630001|[X]Bipol aff mild/mod depress|
+|bipolar v1|snomed|61403008|"[X]Bipol AD,cur sev dep,no psy"|
+|bipolar v1|snomed|85248005|[X]Bipol affect dis remission|
+|bipolar v1|snomed|13746004|[X]Oth bipolar affectve disord|
+|bipolar v1|snomed|13746004|[X]Bipolar affectve dis unsp|
+|bipolar v1|snomed|191636007|Mixed bipolar affective disord|
+|bipolar v1|snomed|85248005|"Bipolar affective disorder, currently in remission"|
+|bipolar v1|snomed|307525004|Other bipolar affective disorders|
+|bipolar v1|snomed|13746004|"Bipolar affective disorder, unspecified"|
+|bipolar v1|snomed|191636007|Mixed bipolar affective disorder|
+|bipolar v1|snomed|191620005|Manic bipolar affective-mild|
+|bipolar v1|snomed|191621009|Manic bipolar affect.-moderate|
+|bipolar v1|snomed|191623007|Manic bipol.affect.severe+psyc|
+|bipolar v1|snomed|191618007|Manic bipolar affective NOS|
+|bipolar v1|snomed|83225003|Bipolar II disorder|
+|bipolar v1|snomed|13746004|[X]Bipolar affectve dis unsp|
+|bipolar v1|snomed|13746004|Other manic-depressive psychos|
+|bipolar v1|snomed|13746004|MDI - Manic-depressive illness|
+|bipolar v1|snomed|13746004|Bipolar affective disorder|
+|bipolar v1|snomed|765176007|"[X]Manic-depressive psychosis, depressed type with psychotic symptoms"|
+|bipolar v1|snomed|13746004|[X]Other bipolar affective disorders|
+|bipolar v1|snomed|83225003|[X]Bipolar II disorder|
+|bipolar v1|snomed|191590005|[X]Recurrent manic episodes|
+|bipolar v1|snomed|13746004|"[X]Bipolar affective disorder, unspecified"|
+|bipolar v1|snomed|765176007|"[X]Manic-depressive psychosis, depressed type with psychotic symptoms"|
+|bipolar v1|snomed|192362008|[X]Mixed affective episode|
+|bipolar v1|snomed|83225003|[X]Bipolar II disorder|
+|bipolar v1|snomed|191590005|[X]Recurrent manic episodes|
+|bipolar v1|snomed|13746004|Other manic-depressive psychos|
+|bipolar v1|snomed|13746004|Bipolar psychoses|
+|bipolar v1|snomed|192362008|[X]Mixed affective episode|
+|depression v1|ctv3|CTV3Code|Description|
+|depression v1|ctv3|1B17.|C/O - feeling unhappy|
+|depression v1|ctv3|2257.|O/E - depressed|
+|depression v1|ctv3|62T1.|Postnatal depressive disorder|
+|depression v1|ctv3|E02y3|Drug-induced depressive state|
+|depression v1|ctv3|E112.|Agitated depression|
+|depression v1|ctv3|E1120|Single major depressive episode, unspecified|
+|depression v1|ctv3|E1121|Single major depressive episode, mild|
+|depression v1|ctv3|E1122|Single major depressive episode, moderate|
+|depression v1|ctv3|E1123|Single major depressive episode, severe, without mention of psychosis|
+|depression v1|ctv3|E1124|Single major depressive episode, severe, with psychosis|
+|depression v1|ctv3|E1125|Single major depressive episode, in partial or unspecified remission|
+|depression v1|ctv3|E1126|Single major depressive episode, in full remission|
+|depression v1|ctv3|E112z|Single major depressive episode NOS|
+|depression v1|ctv3|E113.|Recurrent major depressive episode|
+|depression v1|ctv3|E1130|Recurrent major depressive episodes, unspecified|
+|depression v1|ctv3|E1131|Recurrent major depressive episodes, mild|
+|depression v1|ctv3|E1132|Recurrent major depressive episodes, moderate|
+|depression v1|ctv3|E1133|Recurrent major depressive episodes, severe, without mention of psychosis|
+|depression v1|ctv3|E1134|Recurrent major depressive episodes, severe, with psychosis|
+|depression v1|ctv3|E1135|Recurrent major depressive episodes, in partial or unspecified remission|
+|depression v1|ctv3|E1136|Recurrent major depressive episodes, in full remission|
+|depression v1|ctv3|E1137|Recurrent depression|
+|depression v1|ctv3|E113z|Recurrent major depressive episode NOS|
+|depression v1|ctv3|E11y2|Atypical depressive disorder|
+|depression v1|ctv3|E130.|Psychotic reactive depression|
+|depression v1|ctv3|E204.|Postnatal depression|
+|depression v1|ctv3|E2112|Neurotic depression|
+|depression v1|ctv3|E290.|Brief depressive adjustment reaction|
+|depression v1|ctv3|E2900|Grief reaction|
+|depression v1|ctv3|E290z|Brief depressive reaction NOS|
+|depression v1|ctv3|E291.|Prolonged depressive adjustment reaction|
+|depression v1|ctv3|E2B..|Depressive disorder NEC|
+|depression v1|ctv3|E2B0.|Postviral depression|
+|depression v1|ctv3|E2B1.|Chronic depression|
+|depression v1|ctv3|Eu320|[X]Mild depressive episode|
+|depression v1|ctv3|Eu321|[X]Moderate depressive episode|
+|depression v1|ctv3|Eu322|[X] Single episode agitated depression without psychotic symptoms|
+|depression v1|ctv3|Eu323|[X] Single episode of reactive depressive psychosis|
+|depression v1|ctv3|Eu32y|[X] Single episode of masked depression NOS|
+|depression v1|ctv3|Eu32z|[X] Depression NOS|
+|depression v1|ctv3|Eu33.|[X] Recurrent episodes of psychogenic depression|
+|depression v1|ctv3|Eu330|[X]Recurrent depressive disorder, current episode mild|
+|depression v1|ctv3|Eu331|[X]Recurrent depressive disorder, current episode moderate|
+|depression v1|ctv3|Eu332|[X] Vital depression, recurrent without psychotic symptoms|
+|depression v1|ctv3|Eu333|[X]Recurrent severe episodes of reactive depressive psychosis|
+|depression v1|ctv3|Eu334|[X]Recurrent depressive disorder, currently in remission|
+|depression v1|ctv3|Eu33y|[X]Other recurrent depressive disorders|
+|depression v1|ctv3|Eu33z|[X] Monopolar depression NOS|
+|depression v1|ctv3|Eu34.|[X]Persistent mood affective disorders|
+|depression v1|ctv3|Eu34y|[X]Other persistent mood affective disorders|
+|depression v1|ctv3|Eu34z|[X]Persistent mood affective disorder, unspecified|
+|depression v1|ctv3|Eu3y.|[X]Other mood affective disorders|
+|depression v1|ctv3|Eu3y0|[X] Mixed affective episode|
+|depression v1|ctv3|Eu3y1|[X] Recurrent brief depressive episodes|
+|depression v1|ctv3|Eu3yy|[X]Other specified mood affective disorders|
+|depression v1|ctv3|Eu412|[X]Mixed anxiety and depressive disorder|
+|depression v1|ctv3|R007z|[D]Postoperative depression|
+|depression v1|ctv3|Ua18k|Abnormal bereavement reaction|
+|depression v1|ctv3|X00RM|Right hemispheric organic affective disorder|
+|depression v1|ctv3|X00S8|Post-schizophrenic depression|
+|depression v1|ctv3|X00SO|Depressive illness|
+|depression v1|ctv3|X00SQ|Agitated depression|
+|depression v1|ctv3|X00SS|Endogenous depression first episode|
+|depression v1|ctv3|X00SU|Masked depression|
+|depression v1|ctv3|X00Sb|Mixed anxiety and depressive disorder|
+|depression v1|ctv3|X00TX|Depressive conduct disorder|
+|depression v1|ctv3|X40Dl|Mild postnatal depression|
+|depression v1|ctv3|X40Dm|Severe postnatal depression|
+|depression v1|ctv3|X40MH|Pseudo-Cushing's syndrome of depression|
+|depression v1|ctv3|X75zA|Depressive delusion of catastrophe|
+|depression v1|ctv3|X75zC|Depressive delusion of poverty|
+|depression v1|ctv3|X75zE|Depressive hypochondriacal delusion|
+|depression v1|ctv3|X760u|Depressive preoccupation|
+|depression v1|ctv3|X761J|Depression worse in morning|
+|depression v1|ctv3|X761K|Depression worse later in day|
+|depression v1|ctv3|X761L|SAD - Seasonal affective disorder|
+|depression v1|ctv3|XE0re|Sad mood|
+|depression v1|ctv3|XE0uv|Unhappy|
+|depression v1|ctv3|XE1Xy|Mood disorder|
+|depression v1|ctv3|XE1Y0|Single major depressive episode|
+|depression v1|ctv3|XE1Y1|Recurrent major depressive episodes|
+|depression v1|ctv3|XE1YC|Neurotic depression reactive type|
+|depression v1|ctv3|XE1Yo|Bereavement reaction|
+|depression v1|ctv3|XE1ZY|[X]Severe depressive episode without psychotic symptoms|
+|depression v1|ctv3|XE1ZZ|[X]Severe depressive episode with psychotic symptoms|
+|depression v1|ctv3|XE1Za|[X]Other depressive episodes|
+|depression v1|ctv3|XE1Zb|[X] Depression NOS|
+|depression v1|ctv3|XE1Zc|[X]Recurrent depressive disorder|
+|depression v1|ctv3|XE1Zd|[X]Recurrent depressive disorder, current episode severe without psychotic symptoms|
+|depression v1|ctv3|XE1Ze|[X]Recurrent depressive disorder, current episode severe with psychotic symptoms|
+|depression v1|ctv3|XE1Zf|[X]Recurrent depressive disorder, unspecified|
+|depression v1|ctv3|XE1Zg|[X]Other single mood affective disorders|
+|depression v1|ctv3|XE1Zh|[X]Other recurrent mood affective disorders|
+|depression v1|ctv3|XE1Zi|[X]Unspecified mood affective disorder|
+|depression v1|ctv3|XE1aY|Reactive (neurotic) depression|
+|depression v1|ctv3|XE1ae|Depressive personality|
+|depression v1|ctv3|XM0CR|C/O - feeling depressed|
+|depression v1|ctv3|XM0CS|C/O - feeling unhappy|
+|depression v1|ctv3|XM1GC|Endogenous depression - recurrent|
+|depression v1|ctv3|XSEGJ|Major depression|
+|depression v1|ctv3|XSGok|Mild major depression|
+|depression v1|ctv3|XSGol|Moderate major depression|
+|depression v1|ctv3|XSGom|Severe major depression without psychotic features|
+|depression v1|ctv3|XSGon|Psychotic depression|
+|depression v1|ctv3|Xa0wV|Recurrent brief depressive disorder|
+|depression v1|ctv3|Xa19c|Normal bereavement reaction|
+|depression v1|ctv3|XaA9r|Depressive position relationship|
+|depression v1|ctv3|XaB9J|Depression NOS|
+|depression v1|ctv3|XaCHr|[X] Single episode agitated depression without psychotic symptoms|
+|depression v1|ctv3|XaCHs|[X] Single episode major depression without psychotic symptoms|
+|depression v1|ctv3|XaCIs|[X]Mild depression|
+|depression v1|ctv3|XaCIt|Moderate depression|
+|depression v1|ctv3|XaCIu|Severe depression|
+|depression v1|ctv3|XaImU|Depressive symptoms|
+|depression v1|ctv3|XaIoF|Patient unhappy with medication regime|
+|depression v1|ctv3|XaIpB|Postnatal depression counselling|
+|depression v1|ctv3|XaItx|Depression management programme|
+|depression v1|ctv3|XaJWh|On depression register|
+|depression v1|ctv3|XaK9p|Depression enhanced services administration|
+|depression v1|ctv3|XaKAK|Depression enhanced service completed|
+|depression v1|ctv3|XaKEz|Patient given advice about management of depression|
+|depression v1|ctv3|XaKUk|Dysphoric mood|
+|depression v1|ctv3|XaL0r|Referral for guided self-help for depression|
+|depression v1|ctv3|XaLQw|Discussion about maternal wellbeing - postnatal depression|
+|depression v1|ctv3|XaMGL|Depression monitoring administration|
+|depression v1|ctv3|XaMGN|Depression monitoring first letter|
+|depression v1|ctv3|XaMGO|Depression monitoring second letter|
+|depression v1|ctv3|XaMGP|Depression monitoring third letter|
+|depression v1|ctv3|XaMGQ|Depression monitoring verbal invite|
+|depression v1|ctv3|XaMGR|Depression monitoring telephone invite|
+|depression v1|ctv3|XaPKm|On full dose long term treatment for depression|
+|depression v1|ctv3|XaX2L|Postnatal depression not discussed|
+|depression v1|ctv3|XaX53|Single major depressive episode, severe, with psychosis, psychosis in remission|
+|depression v1|ctv3|XaX54|Recurrent major depressive episodes, severe, with psychosis, psychosis in remission|
+|depression v1|ctv3|XaXe3|Antidepressant drug treatment started|
+|depression v1|ctv3|XaY2C|Antenatal depression|
+|depression v1|ctv3|XaYgS|Referral to postnatal depression group|
+|depression v1|ctv3|Xabaf|Referral for depression self-help video|
+|depression v1|ctv3|XaboL|Referral for guided self-help for depression declined|
+|depression v1|ctv3|Xaeft|Maternal postnatal depression|
+|depression v1|ctv3|XafMM|Signposting to depression self-help group|
+|depression v1|ctv3|XagLW|Depression monitoring invitation email|
+|depression v1|ctv3|XagLY|Depression monitoring invitation SMS (short message service) text message|
+|depression v1|ctv3|XagO4|Depressive personality disorder|
+|depression v1|ctv3|XagU1|Recurrent reactive depressive episodes, severe, with psychosis|
 |depression v1|ctv3|XagUK|Prolonged single episode of reactive depression|
-|depression v1|readv2|readcode|Description|
-|depression v1|readv2|12K8.00|Maternal postnatal depression|
-|depression v1|readv2|1B17.00|Depressed|
-|depression v1|readv2|1B17.11|C/O - feeling depressed|
-|depression v1|readv2|1B17.12|C/O - feeling unhappy|
-|depression v1|readv2|1B1U.00|Symptoms of depression|
-|depression v1|readv2|1B1U.11|Depressive symptoms|
-|depression v1|readv2|1BT..00|Depressed mood|
-|depression v1|readv2|1BT..11|Low mood|
-|depression v1|readv2|1BT..12|Sad mood|
-|depression v1|readv2|1S40.00|Dysphoric mood|
-|depression v1|readv2|2257.00|O/E - depressed|
-|depression v1|readv2|62T1.00|Puerperal depression|
-|depression v1|readv2|6659000|Antidepressant drug treatment started|
-|depression v1|readv2|6G00.00|Postnatal depression counselling|
-|depression v1|readv2|8BIB.00|Patient unhappy with medication regime|
-|depression v1|readv2|8BK0.00|Depression management programme|
-|depression v1|readv2|8CAa.00|Patient given advice about management of depression|
-|depression v1|readv2|8HHq.00|Referral for guided self-help for depression|
-|depression v1|readv2|8HHq000|Referral for depression self-help video|
-|depression v1|readv2|8ID..00|Postnatal depression not discussed|
-|depression v1|readv2|8IH5200|Referral for guided self-help for depression declined|
-|depression v1|readv2|9HA0.00|On depression register|
-|depression v1|readv2|9Ov..00|Depression monitoring administration|
-|depression v1|readv2|9Ov0.00|Depression monitoring first letter|
-|depression v1|readv2|9Ov1.00|Depression monitoring second letter|
-|depression v1|readv2|9Ov2.00|Depression monitoring third letter|
-|depression v1|readv2|9Ov3.00|Depression monitoring verbal invite|
-|depression v1|readv2|9Ov4.00|Depression monitoring telephone invite|
-|depression v1|readv2|9k4..00|Depression - enhanced services administration|
-|depression v1|readv2|9k40.00|Depression - enhanced service completed|
-|depression v1|readv2|9kQ..00|On full dose long term treatment for depression - enhanced services administration|
-|depression v1|readv2|9kQ..11|On full dose long term treatment for depression|
-|depression v1|readv2|E02y300|Drug-induced depressive state|
-|depression v1|readv2|E11..12|Depressive psychoses|
-|depression v1|readv2|E112.00|Single major depressive episode|
-|depression v1|readv2|E112.11|Agitated depression|
-|depression v1|readv2|E112.12|Endogenous depression first episode|
-|depression v1|readv2|E112.13|Endogenous depression first episode|
-|depression v1|readv2|E112.14|Endogenous depression|
-|depression v1|readv2|E112000|Single major depressive episode, unspecified|
-|depression v1|readv2|E112100|Single major depressive episode, mild|
-|depression v1|readv2|E112200|Single major depressive episode, moderate|
-|depression v1|readv2|E112300|Single major depressive episode, severe, without mention of psychosis|
-|depression v1|readv2|E112400|Single major depressive episode, severe, with psychosis|
-|depression v1|readv2|E112500|Single major depressive episode, in partial or unspecified remission|
-|depression v1|readv2|E112600|Single major depressive episode, in full remission|
-|depression v1|readv2|E112z00|Single major depressive episode NOS|
-|depression v1|readv2|E113.00|Recurrent major depressive episode|
-|depression v1|readv2|E113.11|Endogenous depression - recurrent|
-|depression v1|readv2|E113000|Recurrent major depressive episodes, unspecified|
-|depression v1|readv2|E113100|Recurrent major depressive episodes, mild|
-|depression v1|readv2|E113200|Recurrent major depressive episodes, moderate|
-|depression v1|readv2|E113300|Recurrent major depressive episodes, severe, without mention of psychosis|
-|depression v1|readv2|E113400|Recurrent major depressive episodes, severe, with psychosis|
-|depression v1|readv2|E113500|Recurrent major depressive episodes, in partial or unspecified remission|
-|depression v1|readv2|E113600|Recurrent major depressive episodes, in full remission|
-|depression v1|readv2|E113700|Recurrent depression|
-|depression v1|readv2|E113z00|Recurrent major depressive episode NOS|
-|depression v1|readv2|E118.00|Seasonal affective disorder|
-|depression v1|readv2|E11y200|Atypical depressive disorder|
-|depression v1|readv2|E11z200|Masked depression|
-|depression v1|readv2|E130.00|Reactive depressive psychosis|
-|depression v1|readv2|E130.11|Psychotic reactive depression|
-|depression v1|readv2|E135.00|Agitated depression|
-|depression v1|readv2|E200300|Anxiety with depression|
-|depression v1|readv2|E204.00|Neurotic depression reactive type|
-|depression v1|readv2|E204.11|Postnatal depression|
-|depression v1|readv2|E211200|Depressive personality disorder|
-|depression v1|readv2|E290.00|Brief depressive reaction|
-|depression v1|readv2|E290000|Grief reaction|
-|depression v1|readv2|E290011|Bereavement reaction|
-|depression v1|readv2|E290z00|Brief depressive reaction NOS|
-|depression v1|readv2|E291.00|Prolonged depressive reaction|
-|depression v1|readv2|E2B..00|Depressive disorder NEC|
-|depression v1|readv2|E2B0.00|Postviral depression|
-|depression v1|readv2|E2B1.00|Chronic depression|
-|depression v1|readv2|Eu05300|[X]Organic mood [affective] disorders|
-|depression v1|readv2|Eu06y11|[X]Right hemispheric organic affective disorder|
-|depression v1|readv2|Eu20400|[X]Post-schizophrenic depression|
-|depression v1|readv2|Eu25100|[X]Schizoaffective disorder, depressive type|
-|depression v1|readv2|Eu25111|[X]Schizoaffective psychosis, depressive type|
-|depression v1|readv2|Eu3..00|[X]Mood - affective disorders|
-|depression v1|readv2|Eu32.00|[X]Depressive episode|
-|depression v1|readv2|Eu32.11|[X]Single episode of depressive reaction|
-|depression v1|readv2|Eu32.12|[X]Single episode of psychogenic depression|
-|depression v1|readv2|Eu32.13|[X]Single episode of reactive depression|
-|depression v1|readv2|Eu32000|[X]Mild depressive episode|
-|depression v1|readv2|Eu32100|[X]Moderate depressive episode|
-|depression v1|readv2|Eu32200|[X]Severe depressive episode without psychotic symptoms|
-|depression v1|readv2|Eu32211|[X]Single episode agitated depression without psychotic symptoms|
-|depression v1|readv2|Eu32212|[X]Single episode major depression without psychotic symptoms|
-|depression v1|readv2|Eu32213|[X]Single episode vital depression without psychotic symptoms|
-|depression v1|readv2|Eu32300|[X]Severe depressive episode with psychotic symptoms|
-|depression v1|readv2|Eu32311|[X]Single episode of major depression with psychotic symptoms|
-|depression v1|readv2|Eu32312|[X]Single episode of psychogenic depressive psychosis|
-|depression v1|readv2|Eu32313|[X]Single episode of psychotic depression|
-|depression v1|readv2|Eu32314|[X]Single episode of reactive depressive psychosis|
-|depression v1|readv2|Eu32400|[X]Mild depression|
-|depression v1|readv2|Eu32500|[X]Major depression, mild|
-|depression v1|readv2|Eu32600|[X]Major depression, moderately severe|
-|depression v1|readv2|Eu32700|[X]Major depression, severe without psychotic symptoms|
-|depression v1|readv2|Eu32800|[X]Major depression, severe with psychotic symptoms|
-|depression v1|readv2|Eu32900|[X]Single major depressive episode, severe, with psychosis, psychosis in remission|
-|depression v1|readv2|Eu32A00|[X]Recurrent major depressive episodes, severe, with psychosis, psychosis in remission|
-|depression v1|readv2|Eu32B00|[X]Antenatal depression|
-|depression v1|readv2|Eu32y00|[X]Other depressive episodes|
-|depression v1|readv2|Eu32y11|[X]Atypical depression|
-|depression v1|readv2|Eu32y12|[X]Single episode of masked depression NOS|
-|depression v1|readv2|Eu32z00|[X]Depressive episode, unspecified|
-|depression v1|readv2|Eu32z11|[X]Depression NOS|
-|depression v1|readv2|Eu32z12|[X]Depressive disorder NOS|
-|depression v1|readv2|Eu32z13|[X]Prolonged single episode of reactive depression|
-|depression v1|readv2|Eu32z14|[X] Reactive depression NOS|
-|depression v1|readv2|Eu33.00|[X]Recurrent depressive disorder|
-|depression v1|readv2|Eu33.11|[X]Recurrent episodes of depressive reaction|
-|depression v1|readv2|Eu33.12|[X]Recurrent episodes of psychogenic depression|
-|depression v1|readv2|Eu33.13|[X]Recurrent episodes of reactive depression|
-|depression v1|readv2|Eu33.14|[X]Seasonal depressive disorder|
-|depression v1|readv2|Eu33.15|[X]SAD - Seasonal affective disorder|
-|depression v1|readv2|Eu33000|[X]Recurrent depressive disorder, current episode mild|
-|depression v1|readv2|Eu33100|[X]Recurrent depressive disorder, current episode moderate|
-|depression v1|readv2|Eu33200|[X]Recurrent depressive disorder, current episode severe without psychotic symptoms|
-|depression v1|readv2|Eu33211|[X]Endogenous depression without psychotic symptoms|
-|depression v1|readv2|Eu33212|[X]Major depression, recurrent without psychotic symptoms|
-|depression v1|readv2|Eu33214|[X]Vital depression, recurrent without psychotic symptoms|
-|depression v1|readv2|Eu33300|[X]Recurrent depressive disorder, current episode severe with psychotic symptoms|
-|depression v1|readv2|Eu33311|[X]Endogenous depression with psychotic symptoms|
-|depression v1|readv2|Eu33313|[X]Recurrent severe episodes of major depression with psychotic symptoms|
-|depression v1|readv2|Eu33314|[X]Recurrent severe episodes of psychogenic depressive psychosis|
-|depression v1|readv2|Eu33315|[X]Recurrent severe episodes of psychotic depression|
-|depression v1|readv2|Eu33316|[X]Recurrent severe episodes of reactive depressive psychosis|
-|depression v1|readv2|Eu33400|[X]Recurrent depressive disorder, currently in remission|
-|depression v1|readv2|Eu33y00|[X]Other recurrent depressive disorders|
-|depression v1|readv2|Eu33z00|[X]Recurrent depressive disorder, unspecified|
-|depression v1|readv2|Eu33z11|[X]Monopolar depression NOS|
-|depression v1|readv2|Eu34.00|[X]Persistent mood affective disorders|
-|depression v1|readv2|Eu34100|[X]Dysthymia|
-|depression v1|readv2|Eu34111|[X]Depressive neurosis|
-|depression v1|readv2|Eu34112|[X]Depressive personality disorder|
-|depression v1|readv2|Eu34113|[X]Neurotic depression|
-|depression v1|readv2|Eu34114|[X]Persistant anxiety depression|
-|depression v1|readv2|Eu34y00|[X]Other persistent mood affective disorders|
-|depression v1|readv2|Eu34z00|[X]Persistent mood affective disorder, unspecified|
-|depression v1|readv2|Eu3y.00|[X]Other mood affective disorders|
-|depression v1|readv2|Eu3y000|[X]Other single mood affective disorders|
-|depression v1|readv2|Eu3y011|[X]Mixed affective episode|
-|depression v1|readv2|Eu3y100|[X]Other recurrent mood affective disorders|
-|depression v1|readv2|Eu3y111|[X]Recurrent brief depressive episodes|
-|depression v1|readv2|Eu3yy00|[X]Other specified mood affective disorders|
-|depression v1|readv2|Eu3z.00|[X]Unspecified mood affective disorder|
-|depression v1|readv2|Eu41200|[X]Mixed anxiety and depressive disorder|
-|depression v1|readv2|Eu41211|[X]Mild anxiety depression|
-|depression v1|readv2|Eu43212|[X]Grief reaction|
-|depression v1|readv2|Eu53011|[X]Postnatal depression NOS|
-|depression v1|readv2|Eu53012|[X]Postpartum depression NOS|
-|depression v1|readv2|Eu92000|[X]Depressive conduct disorder|
+|depression v1|readv2|readcode|Description|
+|depression v1|readv2|12K8.00|Maternal postnatal depression|
+|depression v1|readv2|1B17.00|Depressed|
+|depression v1|readv2|1B17.11|C/O - feeling depressed|
+|depression v1|readv2|1B17.12|C/O - feeling unhappy|
+|depression v1|readv2|1B1U.00|Symptoms of depression|
+|depression v1|readv2|1B1U.11|Depressive symptoms|
+|depression v1|readv2|1BT..00|Depressed mood|
+|depression v1|readv2|1BT..11|Low mood|
+|depression v1|readv2|1BT..12|Sad mood|
+|depression v1|readv2|1S40.00|Dysphoric mood|
+|depression v1|readv2|2257.00|O/E - depressed|
+|depression v1|readv2|62T1.00|Puerperal depression|
+|depression v1|readv2|6659000|Antidepressant drug treatment started|
+|depression v1|readv2|6G00.00|Postnatal depression counselling|
+|depression v1|readv2|8BIB.00|Patient unhappy with medication regime|
+|depression v1|readv2|8BK0.00|Depression management programme|
+|depression v1|readv2|8CAa.00|Patient given advice about management of depression|
+|depression v1|readv2|8HHq.00|Referral for guided self-help for depression|
+|depression v1|readv2|8HHq000|Referral for depression self-help video|
+|depression v1|readv2|8ID..00|Postnatal depression not discussed|
+|depression v1|readv2|8IH5200|Referral for guided self-help for depression declined|
+|depression v1|readv2|9HA0.00|On depression register|
+|depression v1|readv2|9Ov..00|Depression monitoring administration|
+|depression v1|readv2|9Ov0.00|Depression monitoring first letter|
+|depression v1|readv2|9Ov1.00|Depression monitoring second letter|
+|depression v1|readv2|9Ov2.00|Depression monitoring third letter|
+|depression v1|readv2|9Ov3.00|Depression monitoring verbal invite|
+|depression v1|readv2|9Ov4.00|Depression monitoring telephone invite|
+|depression v1|readv2|9k4..00|Depression - enhanced services administration|
+|depression v1|readv2|9k40.00|Depression - enhanced service completed|
+|depression v1|readv2|9kQ..00|On full dose long term treatment for depression - enhanced services administration|
+|depression v1|readv2|9kQ..11|On full dose long term treatment for depression|
+|depression v1|readv2|E02y300|Drug-induced depressive state|
+|depression v1|readv2|E11..12|Depressive psychoses|
+|depression v1|readv2|E112.00|Single major depressive episode|
+|depression v1|readv2|E112.11|Agitated depression|
+|depression v1|readv2|E112.12|Endogenous depression first episode|
+|depression v1|readv2|E112.13|Endogenous depression first episode|
+|depression v1|readv2|E112.14|Endogenous depression|
+|depression v1|readv2|E112000|Single major depressive episode, unspecified|
+|depression v1|readv2|E112100|Single major depressive episode, mild|
+|depression v1|readv2|E112200|Single major depressive episode, moderate|
+|depression v1|readv2|E112300|Single major depressive episode, severe, without mention of psychosis|
+|depression v1|readv2|E112400|Single major depressive episode, severe, with psychosis|
+|depression v1|readv2|E112500|Single major depressive episode, in partial or unspecified remission|
+|depression v1|readv2|E112600|Single major depressive episode, in full remission|
+|depression v1|readv2|E112z00|Single major depressive episode NOS|
+|depression v1|readv2|E113.00|Recurrent major depressive episode|
+|depression v1|readv2|E113.11|Endogenous depression - recurrent|
+|depression v1|readv2|E113000|Recurrent major depressive episodes, unspecified|
+|depression v1|readv2|E113100|Recurrent major depressive episodes, mild|
+|depression v1|readv2|E113200|Recurrent major depressive episodes, moderate|
+|depression v1|readv2|E113300|Recurrent major depressive episodes, severe, without mention of psychosis|
+|depression v1|readv2|E113400|Recurrent major depressive episodes, severe, with psychosis|
+|depression v1|readv2|E113500|Recurrent major depressive episodes, in partial or unspecified remission|
+|depression v1|readv2|E113600|Recurrent major depressive episodes, in full remission|
+|depression v1|readv2|E113700|Recurrent depression|
+|depression v1|readv2|E113z00|Recurrent major depressive episode NOS|
+|depression v1|readv2|E118.00|Seasonal affective disorder|
+|depression v1|readv2|E11y200|Atypical depressive disorder|
+|depression v1|readv2|E11z200|Masked depression|
+|depression v1|readv2|E130.00|Reactive depressive psychosis|
+|depression v1|readv2|E130.11|Psychotic reactive depression|
+|depression v1|readv2|E135.00|Agitated depression|
+|depression v1|readv2|E200300|Anxiety with depression|
+|depression v1|readv2|E204.00|Neurotic depression reactive type|
+|depression v1|readv2|E204.11|Postnatal depression|
+|depression v1|readv2|E211200|Depressive personality disorder|
+|depression v1|readv2|E290.00|Brief depressive reaction|
+|depression v1|readv2|E290000|Grief reaction|
+|depression v1|readv2|E290011|Bereavement reaction|
+|depression v1|readv2|E290z00|Brief depressive reaction NOS|
+|depression v1|readv2|E291.00|Prolonged depressive reaction|
+|depression v1|readv2|E2B..00|Depressive disorder NEC|
+|depression v1|readv2|E2B0.00|Postviral depression|
+|depression v1|readv2|E2B1.00|Chronic depression|
+|depression v1|readv2|Eu05300|[X]Organic mood [affective] disorders|
+|depression v1|readv2|Eu06y11|[X]Right hemispheric organic affective disorder|
+|depression v1|readv2|Eu20400|[X]Post-schizophrenic depression|
+|depression v1|readv2|Eu25100|[X]Schizoaffective disorder, depressive type|
+|depression v1|readv2|Eu25111|[X]Schizoaffective psychosis, depressive type|
+|depression v1|readv2|Eu3..00|[X]Mood - affective disorders|
+|depression v1|readv2|Eu32.00|[X]Depressive episode|
+|depression v1|readv2|Eu32.11|[X]Single episode of depressive reaction|
+|depression v1|readv2|Eu32.12|[X]Single episode of psychogenic depression|
+|depression v1|readv2|Eu32.13|[X]Single episode of reactive depression|
+|depression v1|readv2|Eu32000|[X]Mild depressive episode|
+|depression v1|readv2|Eu32100|[X]Moderate depressive episode|
+|depression v1|readv2|Eu32200|[X]Severe depressive episode without psychotic symptoms|
+|depression v1|readv2|Eu32211|[X]Single episode agitated depression without psychotic symptoms|
+|depression v1|readv2|Eu32212|[X]Single episode major depression without psychotic symptoms|
+|depression v1|readv2|Eu32213|[X]Single episode vital depression without psychotic symptoms|
+|depression v1|readv2|Eu32300|[X]Severe depressive episode with psychotic symptoms|
+|depression v1|readv2|Eu32311|[X]Single episode of major depression with psychotic symptoms|
+|depression v1|readv2|Eu32312|[X]Single episode of psychogenic depressive psychosis|
+|depression v1|readv2|Eu32313|[X]Single episode of psychotic depression|
+|depression v1|readv2|Eu32314|[X]Single episode of reactive depressive psychosis|
+|depression v1|readv2|Eu32400|[X]Mild depression|
+|depression v1|readv2|Eu32500|[X]Major depression, mild|
+|depression v1|readv2|Eu32600|[X]Major depression, moderately severe|
+|depression v1|readv2|Eu32700|[X]Major depression, severe without psychotic symptoms|
+|depression v1|readv2|Eu32800|[X]Major depression, severe with psychotic symptoms|
+|depression v1|readv2|Eu32900|[X]Single major depressive episode, severe, with psychosis, psychosis in remission|
+|depression v1|readv2|Eu32A00|[X]Recurrent major depressive episodes, severe, with psychosis, psychosis in remission|
+|depression v1|readv2|Eu32B00|[X]Antenatal depression|
+|depression v1|readv2|Eu32y00|[X]Other depressive episodes|
+|depression v1|readv2|Eu32y11|[X]Atypical depression|
+|depression v1|readv2|Eu32y12|[X]Single episode of masked depression NOS|
+|depression v1|readv2|Eu32z00|[X]Depressive episode, unspecified|
+|depression v1|readv2|Eu32z11|[X]Depression NOS|
+|depression v1|readv2|Eu32z12|[X]Depressive disorder NOS|
+|depression v1|readv2|Eu32z13|[X]Prolonged single episode of reactive depression|
+|depression v1|readv2|Eu32z14|[X] Reactive depression NOS|
+|depression v1|readv2|Eu33.00|[X]Recurrent depressive disorder|
+|depression v1|readv2|Eu33.11|[X]Recurrent episodes of depressive reaction|
+|depression v1|readv2|Eu33.12|[X]Recurrent episodes of psychogenic depression|
+|depression v1|readv2|Eu33.13|[X]Recurrent episodes of reactive depression|
+|depression v1|readv2|Eu33.14|[X]Seasonal depressive disorder|
+|depression v1|readv2|Eu33.15|[X]SAD - Seasonal affective disorder|
+|depression v1|readv2|Eu33000|[X]Recurrent depressive disorder, current episode mild|
+|depression v1|readv2|Eu33100|[X]Recurrent depressive disorder, current episode moderate|
+|depression v1|readv2|Eu33200|[X]Recurrent depressive disorder, current episode severe without psychotic symptoms|
+|depression v1|readv2|Eu33211|[X]Endogenous depression without psychotic symptoms|
+|depression v1|readv2|Eu33212|[X]Major depression, recurrent without psychotic symptoms|
+|depression v1|readv2|Eu33214|[X]Vital depression, recurrent without psychotic symptoms|
+|depression v1|readv2|Eu33300|[X]Recurrent depressive disorder, current episode severe with psychotic symptoms|
+|depression v1|readv2|Eu33311|[X]Endogenous depression with psychotic symptoms|
+|depression v1|readv2|Eu33313|[X]Recurrent severe episodes of major depression with psychotic symptoms|
+|depression v1|readv2|Eu33314|[X]Recurrent severe episodes of psychogenic depressive psychosis|
+|depression v1|readv2|Eu33315|[X]Recurrent severe episodes of psychotic depression|
+|depression v1|readv2|Eu33316|[X]Recurrent severe episodes of reactive depressive psychosis|
+|depression v1|readv2|Eu33400|[X]Recurrent depressive disorder, currently in remission|
+|depression v1|readv2|Eu33y00|[X]Other recurrent depressive disorders|
+|depression v1|readv2|Eu33z00|[X]Recurrent depressive disorder, unspecified|
+|depression v1|readv2|Eu33z11|[X]Monopolar depression NOS|
+|depression v1|readv2|Eu34.00|[X]Persistent mood affective disorders|
+|depression v1|readv2|Eu34100|[X]Dysthymia|
+|depression v1|readv2|Eu34111|[X]Depressive neurosis|
+|depression v1|readv2|Eu34112|[X]Depressive personality disorder|
+|depression v1|readv2|Eu34113|[X]Neurotic depression|
+|depression v1|readv2|Eu34114|[X]Persistant anxiety depression|
+|depression v1|readv2|Eu34y00|[X]Other persistent mood affective disorders|
+|depression v1|readv2|Eu34z00|[X]Persistent mood affective disorder, unspecified|
+|depression v1|readv2|Eu3y.00|[X]Other mood affective disorders|
+|depression v1|readv2|Eu3y000|[X]Other single mood affective disorders|
+|depression v1|readv2|Eu3y011|[X]Mixed affective episode|
+|depression v1|readv2|Eu3y100|[X]Other recurrent mood affective disorders|
+|depression v1|readv2|Eu3y111|[X]Recurrent brief depressive episodes|
+|depression v1|readv2|Eu3yy00|[X]Other specified mood affective disorders|
+|depression v1|readv2|Eu3z.00|[X]Unspecified mood affective disorder|
+|depression v1|readv2|Eu41200|[X]Mixed anxiety and depressive disorder|
+|depression v1|readv2|Eu41211|[X]Mild anxiety depression|
+|depression v1|readv2|Eu43212|[X]Grief reaction|
+|depression v1|readv2|Eu53011|[X]Postnatal depression NOS|
+|depression v1|readv2|Eu53012|[X]Postpartum depression NOS|
+|depression v1|readv2|Eu92000|[X]Depressive conduct disorder|
 |depression v1|readv2|R007z13|[D]Postoperative depression|
 |antipsychotics v1|ctv3|d4v5.|ABILIFY 10mg oro-dispersible tablets|
 |antipsychotics v1|ctv3|d4v6.|ABILIFY 15mg oro-dispersible tablets|
@@ -2798,7 +2798,7 @@ All code sets required for this analysis are listed here. Individual lists for e
 |antipsychotics v1|ctv3|x02cS|Fentazin|
 |antipsychotics v1|ctv3|d4b3.|Fentazin 8mg tablet|
 |antipsychotics v1|ctv3|d4b4.|Fentazin 5mg/1mL injection|
-|antipsychotics v1|ctv3|x02LQ|Flupentixol|
+|antipsychotics v1|ctv3|x02LQ|Flupentixol|
 |antipsychotics v1|ctv3|da1..|Flupentixol [antidepressant]|
 |antipsychotics v1|ctv3|d45..|Flupentixol [antipsychotic]|
 |antipsychotics v1|ctv3|d45z.|Flupentixol 3mg tablet|
@@ -3180,891 +3180,893 @@ All code sets required for this analysis are listed here. Individual lists for e
 |antipsychotics v1|ctv3|d4r6.|Zyprexa 10mg tablet|
 |antipsychotics v1|ctv3|x03ik|Zyprexa|
 |antipsychotics v1|ctv3|d4rD.|Zyprexa 10mg injection (pdr for recon)|
-|antipsychotics v1|emis|ABOR22952NEMIS|Abilify  Orodispersible tablets  10 mg|
-|antipsychotics v1|emis|ABOR22953NEMIS|Abilify  Orodispersible tablets  15 mg|
-|antipsychotics v1|emis|ABOR22954NEMIS|Abilify  Oral solution  1 mg/ml|
-|antipsychotics v1|emis|ABPO86920NEMIS|Abilify Maintena  Prolonged release suspension for injection  400 mg vial|
-|antipsychotics v1|emis|ABSO29381NEMIS|"Abilify  Solution for injection  7.5 mg/ml, 1.3 ml (9.75 mg) vial"|
-|antipsychotics v1|emis|ABTA18231NEMIS|Abilify  Tablets  10 mg|
-|antipsychotics v1|emis|ABTA18232NEMIS|Abilify  Tablets  15 mg|
-|antipsychotics v1|emis|ABTA18233NEMIS|Abilify  Tablets  30 mg|
-|antipsychotics v1|emis|ABTA19380NEMIS|Abilify  Tablets  5 mg|
-|antipsychotics v1|emis|AMOR11702NEMIS|Amisulpride  Oral solution  Sugar Free 100 mg/ml|
-|antipsychotics v1|emis|AMTA14267NEMIS|Amisulpride  Tablets  100 mg|
-|antipsychotics v1|emis|AMTA18788NEMIS|Amitriptyline And Perphenazine  Tablets  25 mg + 2 mg|
-|antipsychotics v1|emis|AMTA18789NEMIS|Amitriptyline And Perphenazine  Tablets  10 mg + 2 mg|
-|antipsychotics v1|emis|AMTA31585EMIS|Amisulpride  Tablets  200 mg|
-|antipsychotics v1|emis|AMTA31586EMIS|Amisulpride  Tablets  50 mg|
-|antipsychotics v1|emis|AMTA5672NEMIS|Amisulpride  Tablets  400 mg|
-|antipsychotics v1|emis|ANTA173|Anquil  Tablets  250 micrograms|
-|antipsychotics v1|emis|AROR22949NEMIS|Aripiprazole  Orodispersible Tablets (Sugar Free)  10 mg|
-|antipsychotics v1|emis|AROR22950NEMIS|Aripiprazole  Orodispersible Tablets (Sugar Free)  15 mg|
-|antipsychotics v1|emis|AROR22951NEMIS|Aripiprazole  Oral solution  1 mg/ml|
-|antipsychotics v1|emis|ARPO86916NEMIS|Aripiprazole  Powder and solvent for suspension for injection  400 mg vial|
-|antipsychotics v1|emis|ARSO29380NEMIS|"Aripiprazole  Solution for injection  7.5 mg/ml, 1.3 ml (9.75 mg) vial"|
-|antipsychotics v1|emis|ARTA18226NEMIS|Aripiprazole  Tablets  10 mg|
-|antipsychotics v1|emis|ARTA18228NEMIS|Aripiprazole  Tablets  15 mg|
-|antipsychotics v1|emis|ARTA18229NEMIS|Aripiprazole  Tablets  30 mg|
-|antipsychotics v1|emis|ARTA19379NEMIS|Aripiprazole  Tablets  5 mg|
-|antipsychotics v1|emis|ASSU51779NEMIS|Asenapine  Sublingual Tablets Sugar Free  5 mg|
-|antipsychotics v1|emis|ASSU51781NEMIS|Asenapine  Sublingual Tablets Sugar Free  10 mg|
-|antipsychotics v1|emis|BETA14415NEMIS|Benquil  Tablets  250 micrograms|
-|antipsychotics v1|emis|BETA4628|Benperidol  Tablets  250 micrograms|
-|antipsychotics v1|emis|CHEL7170|Chlorpromazine Hydrochloride  Oral solution  25 mg/5 ml|
-|antipsychotics v1|emis|CHIN20615EMIS|Chlorpromazine Hydrochloride  Injection  50 mg/2 ml ampoule|
-|antipsychotics v1|emis|CHIN589|Chlorpromazine Hydrochloride  Injection  25 mg/ml|
-|antipsychotics v1|emis|CHOR35370EMIS|Chlorpromazine Hydrochloride  Oral solution  100 mg/5 ml|
-|antipsychotics v1|emis|CHSU592|Chlorpromazine Hydrochloride  Suppositories  100 mg|
-|antipsychotics v1|emis|CHSY594|Chlorpromazine Hydrochloride  Syrup  25 mg/5 ml|
-|antipsychotics v1|emis|CHTA596|Chlorpromazine Hydrochloride  Tablets  10 mg|
-|antipsychotics v1|emis|CHTA597|Chlorpromazine Hydrochloride  Tablets  100 mg|
-|antipsychotics v1|emis|CHTA598|Chlorpromazine Hydrochloride  Tablets  25 mg|
-|antipsychotics v1|emis|CHTA599|Chlorpromazine Hydrochloride  Tablets  50 mg|
-|antipsychotics v1|emis|CHTAEGTON6692|Chloractil  Tablets  100 mg|
-|antipsychotics v1|emis|CHTAEGTON6693|Chloractil  Tablets  25 mg|
-|antipsychotics v1|emis|CHTAEGTON6694|Chloractil  Tablets  50 mg|
-|antipsychotics v1|emis|CLIN10979BRIDL|Clopixol Acuphase  Injection  50 mg/1 ml ampoule|
-|antipsychotics v1|emis|CLIN29855EMIS|Clopixol Acuphase  Injection  100 mg/2 ml ampoule|
-|antipsychotics v1|emis|CLIN656|"Clopixol  Injection  200 mg/ml, 1 ml ampoule"|
-|antipsychotics v1|emis|CLIN661|"Clopixol Conc.  Injection  500mg/ml, 1 ml ampoule"|
-|antipsychotics v1|emis|CLOR36513NEMIS|Clozapine  Oral Suspension Sugar Free  50 mg/ml|
-|antipsychotics v1|emis|CLTA10156BRIDL|Clozaril  Tablets  25 mg|
-|antipsychotics v1|emis|CLTA10158BRIDL|Clozaril  Tablets  100 mg|
-|antipsychotics v1|emis|CLTA36517NEMIS|Clozapine  Tablets  200 mg|
-|antipsychotics v1|emis|CLTA36518NEMIS|Clozapine  Tablets  50 mg|
-|antipsychotics v1|emis|CLTA658|Clopixol  Tablets  10 mg|
-|antipsychotics v1|emis|CLTA659|Clopixol  Tablets  2 mg|
-|antipsychotics v1|emis|CLTA660|Clopixol  Tablets  25 mg|
-|antipsychotics v1|emis|CLTA9311HILLI|Clozapine  Tablets  100 mg|
-|antipsychotics v1|emis|CLTA9313HILLI|Clozapine  Tablets  25 mg|
-|antipsychotics v1|emis|DEIN19569EMIS|"Depixol Low Volume  Injection  200 mg/ml, 1 ml ampoule"|
-|antipsychotics v1|emis|DEIN19577EMIS|Depixol  Injection  40 mg/2 ml ampoule|
-|antipsychotics v1|emis|DEIN19578EMIS|Depixol  Injection (syringe)  20 mg/1 ml|
-|antipsychotics v1|emis|DEIN19579EMIS|Depixol  Injection (syringe)  40 mg/2 ml|
-|antipsychotics v1|emis|DEIN19590EMIS|Depixol Conc.  Injection  50 mg/0.5 ml ampoule|
-|antipsychotics v1|emis|DEIN832|Depixol  Injection  20 mg/1 ml ampoule|
-|antipsychotics v1|emis|DEIN834|Depixol Conc.  Injection  100 mg/1 ml ampoule|
-|antipsychotics v1|emis|DEOR36514NEMIS|Denzapine  Oral suspension  50 mg/ml|
-|antipsychotics v1|emis|DETA18502NEMIS|Denzapine  Tablets  25 mg|
-|antipsychotics v1|emis|DETA18503NEMIS|Denzapine  Tablets  100 mg|
-|antipsychotics v1|emis|DETA36519NEMIS|Denzapine  Tablets  200 mg|
-|antipsychotics v1|emis|DETA36520NEMIS|Denzapine  Tablets  50 mg|
-|antipsychotics v1|emis|DETA833|Depixol  Tablets  3 mg|
-|antipsychotics v1|emis|DOLI984|Dozic  Liquid  1mg/ml|
-|antipsychotics v1|emis|DOLI985|Dozic  Liquid  2mg/ml|
-|antipsychotics v1|emis|DOTA28250EMIS|Dolmatil  Tablets  400 mg|
-|antipsychotics v1|emis|DOTA961|Dolmatil  Tablets  200 mg|
-|antipsychotics v1|emis|DRIN4873|Droperidol  Injection  5mg/ml|
-|antipsychotics v1|emis|DRIN998|Droleptan  Injection  5mg/ml|
-|antipsychotics v1|emis|DRLI4874|Droperidol  Liquid  1mg/ml|
-|antipsychotics v1|emis|DRLI999|Droleptan  Liquid  1mg/ml|
-|antipsychotics v1|emis|DRSO36266NEMIS|"Droperidol  Solution for injection  2.5 mg/ml, 1 ml ampoule"|
-|antipsychotics v1|emis|DRTA1000|Droleptan  Tablets  10 mg|
-|antipsychotics v1|emis|DRTA4875|Droperidol  Tablets  10 mg|
-|antipsychotics v1|emis|FEIN1163|Fentazin  Injection  5 mg/ml|
-|antipsychotics v1|emis|FETA1164|Fentazin  Tablets  2 mg|
-|antipsychotics v1|emis|FETA1165|Fentazin  Tablets  4 mg|
-|antipsychotics v1|emis|FETA1166|Fentazin  Tablets  8 mg|
-|antipsychotics v1|emis|FLDI25934EMIS|Fluphenazine Decanoate  Disposable syringe  25 mg/1 ml|
-|antipsychotics v1|emis|FLDI25935EMIS|Fluphenazine Decanoate  Disposable syringe  50 mg/2 ml|
-|antipsychotics v1|emis|FLIN1211|Flupenthixol Decanoate  Injection  20 mg/1 ml ampoule|
-|antipsychotics v1|emis|FLIN1212|Fluphenazine Decanoate  Injection  25 mg/1 ml ampoule|
-|antipsychotics v1|emis|FLIN1213|Fluphenazine Enanthate  Injection  25 mg/ml|
-|antipsychotics v1|emis|FLIN17656NEMIS|"Flupentixol  Injection  100 mg/ml, 0.5 ml ampoule"|
-|antipsychotics v1|emis|FLIN17657NEMIS|"Flupentixol  Injection  100 mg/ml, 1 ml ampoule"|
-|antipsychotics v1|emis|FLIN17658NEMIS|"Flupentixol  Injection  200 mg/ml, 1 ml ampoule"|
-|antipsychotics v1|emis|FLIN17659NEMIS|"Flupentixol  Injection  20 mg/ml, 1 ml ampoule"|
-|antipsychotics v1|emis|FLIN17660NEMIS|"Flupentixol  Injection  20 mg/ml, 2 ml ampoule"|
-|antipsychotics v1|emis|FLIN19571EMIS|"Flupenthixol Decanoate  Injection  200 mg/ml, 1 ml ampoule"|
-|antipsychotics v1|emis|FLIN19585EMIS|Flupenthixol Decanoate  Injection  40 mg/2 ml ampoule|
-|antipsychotics v1|emis|FLIN19587EMIS|Flupenthixol Decanoate  Injection (syringe)  40 mg/2 ml|
-|antipsychotics v1|emis|FLIN19594EMIS|Flupenthixol Decanoate  Injection  50 mg/0.5 ml ampoule|
-|antipsychotics v1|emis|FLIN25936EMIS|Fluphenazine Decanoate  Injection  12.5 mg/0.5 ml ampoule|
-|antipsychotics v1|emis|FLIN25937EMIS|Fluphenazine Decanoate  Injection  250 mg/10 ml vial|
-|antipsychotics v1|emis|FLIN25938EMIS|Fluphenazine Decanoate  Injection  50 mg/2 ml ampoule|
-|antipsychotics v1|emis|FLIN25940EMIS|Fluphenazine Decanoate  Injection  50 mg/0.5 ml ampoule|
-|antipsychotics v1|emis|FLIN4936|Flupenthixol Decanoate  Injection  100 mg/1 ml ampoule|
-|antipsychotics v1|emis|FLIN4937|Fluphenazine Decanoate  Injection  100 mg/1 ml ampoule|
-|antipsychotics v1|emis|FLTA1208|Flupenthixol  Tablets  1 mg|
-|antipsychotics v1|emis|FLTA1209|Flupenthixol  Tablets  3 mg|
-|antipsychotics v1|emis|FLTA1210|Flupenthixol  Tablets  500 micrograms|
-|antipsychotics v1|emis|FLTA17661NEMIS|Flupentixol  Tablets  1 mg|
-|antipsychotics v1|emis|FLTA17662NEMIS|Flupentixol  Tablets  500 micrograms|
-|antipsychotics v1|emis|FLTA17663NEMIS|Flupentixol  Tablets  3 mg|
-|antipsychotics v1|emis|FLTA4939|Fluphenazine Hydrochloride  Tablets  1 mg|
-|antipsychotics v1|emis|FLTA6994|Fluphenazine Hydrochloride  Tablets  2.5 mg|
-|antipsychotics v1|emis|FLTA6995|Fluphenazine Hydrochloride  Tablets  5 mg|
-|antipsychotics v1|emis|HACA1338|Haloperidol  Capsules  500 micrograms|
-|antipsychotics v1|emis|HAEL1339|Haloperidol  Elixir  2 mg/5 ml|
-|antipsychotics v1|emis|HAIN1335|"Haldol Decanoate  Injection  100 mg/ml, 1 ml ampoule"|
-|antipsychotics v1|emis|HAIN1336|"Haldol Decanoate  Injection  50 mg/ml, 1 ml ampoule"|
-|antipsychotics v1|emis|HAIN1340|"Haloperidol  Injection  10 mg/ml, 2 ml ampoule"|
-|antipsychotics v1|emis|HAIN1341|"Haloperidol  Injection  100 mg/ml, 1 ml ampoule"|
-|antipsychotics v1|emis|HAIN1343|"Haloperidol  Injection  50 mg/ml, 1 ml ampoule"|
-|antipsychotics v1|emis|HAIN15566NEMIS|"Haloperidol  Injection  5 mg/ml, 1 ml ampoule"|
-|antipsychotics v1|emis|HAIN15567NEMIS|"Haldol  Injection  5 mg/ml, 1 ml ampoule"|
-|antipsychotics v1|emis|HAIN6920|Haloperidol  Injection  5 mg/ml|
-|antipsychotics v1|emis|HAINEGTON6700|Haldol  Injection  5 mg/ml|
-|antipsychotics v1|emis|HALI4981|Haloperidol  Liquid  Sugar Free 1mg/ml|
-|antipsychotics v1|emis|HAOR13227NEMIS|"Haloperidol  Oral Solution, Sugar Free  1 mg/5 ml (200 micrograms/ml)"|
-|antipsychotics v1|emis|HAOR6921|Haloperidol  Oral liquid  Sugar Free 2 mg/ml|
-|antipsychotics v1|emis|HAOR6922|Haloperidol  Oral liquid conc.  10 mg/ml|
-|antipsychotics v1|emis|HAOREGTON6701|Haldol  Oral solution  2 mg/ml|
-|antipsychotics v1|emis|HAOREGTON6702|Haldol  Oral liquid conc.  10 mg/ml|
-|antipsychotics v1|emis|HATA1344|Haloperidol  Tablets  1.5 mg|
-|antipsychotics v1|emis|HATA1346|Haloperidol  Tablets  20 mg|
-|antipsychotics v1|emis|HATA1347|Haloperidol  Tablets  5 mg|
-|antipsychotics v1|emis|HATA4983|Haloperidol  Tablets  10 mg|
-|antipsychotics v1|emis|HATA6901|Haloperidol  Tablets  500 micrograms|
-|antipsychotics v1|emis|HATAEGTON6703|Haldol  Tablets  10 mg|
-|antipsychotics v1|emis|HATAEGTON6704|Haldol  Tablets  5 mg|
-|antipsychotics v1|emis|INCA1485|Integrin  Capsules  10 mg|
-|antipsychotics v1|emis|INM/26218NEMIS|Invega  M/R tablets  3 mg|
-|antipsychotics v1|emis|INM/26219NEMIS|Invega  M/R tablets  6 mg|
-|antipsychotics v1|emis|INM/26220NEMIS|Invega  M/R tablets  9 mg|
-|antipsychotics v1|emis|INTA1486|Integrin  Tablets  40 mg|
-|antipsychotics v1|emis|LAIN1610|Largactil  Injection  50 mg/2 ml ampoule|
-|antipsychotics v1|emis|LASU1614|Largactil  Suppositories  100 mg|
-|antipsychotics v1|emis|LASU1615|Largactil  Suspension forte  100 mg/5 ml|
-|antipsychotics v1|emis|LASY1616|Largactil  Syrup  25 mg/5 ml|
-|antipsychotics v1|emis|LATA1618|Largactil  Tablets  10 mg|
-|antipsychotics v1|emis|LATA1619|Largactil  Tablets  100 mg|
-|antipsychotics v1|emis|LATA1620|Largactil  Tablets  25 mg|
-|antipsychotics v1|emis|LATA1621|Largactil  Tablets  50 mg|
-|antipsychotics v1|emis|LEIN17312NEMIS|"Levomepromazine  Solution for injection  25 mg/ml, 1 ml ampoule"|
-|antipsychotics v1|emis|LETA17313NEMIS|Levomepromazine  Tablets  25 mg|
-|antipsychotics v1|emis|MEIN5137|"Methotrimeprazine Hydrochloride  Injection  25mg/ml, 1 ml ampoule"|
-|antipsychotics v1|emis|META5138|Methotrimeprazine Maleate  Tablets  25 mg|
-|antipsychotics v1|emis|MODI10308BRIDL|Modecate  Disposable syringe  25 mg/1 ml|
-|antipsychotics v1|emis|MODI10310BRIDL|Modecate  Disposable syringe  50 mg/2 ml|
-|antipsychotics v1|emis|MOIN10029BRIDL|Modecate  Injection  50 mg/2 ml ampoule|
-|antipsychotics v1|emis|MOIN1858|Modecate  Injection  12.5 mg/0.5 ml ampoule|
-|antipsychotics v1|emis|MOIN1859|Modecate Concentrate  Injection  100 mg/1 ml ampoule|
-|antipsychotics v1|emis|MOIN1864|Moditen Enanthate  Injection  25 mg/ml|
-|antipsychotics v1|emis|MOIN25942EMIS|Modecate  Injection  250 mg/10 ml vial|
-|antipsychotics v1|emis|MOIN25944EMIS|Modecate Concentrate  Injection  50 mg/0.5 ml ampoule|
-|antipsychotics v1|emis|MOSY8788BRIDL|Modecate  Injection  25 mg/1 ml ampoule|
-|antipsychotics v1|emis|MOTA1861|Moditen  Tablets  1 mg|
-|antipsychotics v1|emis|MOTA1862|Moditen  Tablets  2.5 mg|
-|antipsychotics v1|emis|MOTA1863|Moditen  Tablets  5 mg|
-|antipsychotics v1|emis|NESY1969|Neulactil  Syrup forte  10mg/5 ml|
-|antipsychotics v1|emis|NETA1970|Neulactil  Tablets  10 mg|
-|antipsychotics v1|emis|NETA1971|Neulactil  Tablets  2.5 mg|
-|antipsychotics v1|emis|NETA1972|Neulactil  Tablets  25 mg|
-|antipsychotics v1|emis|NOIN2038|"Nozinan  Solution for injection  25mg/ml, 1 ml ampoule"|
-|antipsychotics v1|emis|NOTA18780NEMIS|Nortriptyline And Fluphenazine  Tablets  10 mg + 500 micrograms|
-|antipsychotics v1|emis|OLOR13260NEMIS|Olanzapine  Oral Lyophilisate Sugar Free  15 mg|
-|antipsychotics v1|emis|OLOR21754NEMIS|Olanzapine  Oral Lyophilisate Sugar Free  20 mg|
-|antipsychotics v1|emis|OLOR3800NEMIS|Olanzapine  Oral Lyophilisate Sugar Free  5 mg|
-|antipsychotics v1|emis|OLOR3801NEMIS|Olanzapine  Oral Lyophilisate Sugar Free  10 mg|
-|antipsychotics v1|emis|OLPO16908NEMIS|Olanzapine  Powder For Solution For Injection  10 mg vial|
-|antipsychotics v1|emis|OLPR42225NEMIS|Olanzapine  Prolonged release suspension for injection  210 mg vial|
-|antipsychotics v1|emis|OLPR42227NEMIS|Olanzapine  Prolonged release suspension for injection  300 mg vial|
-|antipsychotics v1|emis|OLPR42228NEMIS|Olanzapine  Prolonged release suspension for injection  405 mg vial|
-|antipsychotics v1|emis|OLTA13258NEMIS|Olanzapine  Tablets  15 mg|
-|antipsychotics v1|emis|OLTA29729EMIS|Olanzapine  Tablets  10 mg|
-|antipsychotics v1|emis|OLTA29730EMIS|Olanzapine  Tablets  5 mg|
-|antipsychotics v1|emis|OLTA29731EMIS|Olanzapine  Tablets  7.5 mg|
-|antipsychotics v1|emis|OLTA34085EMIS|Olanzapine  Tablets  2.5 mg|
-|antipsychotics v1|emis|ORTA2093|Orap  Tablets  10 mg|
-|antipsychotics v1|emis|ORTA2095|Orap  Tablets  2 mg|
-|antipsychotics v1|emis|ORTA2096|Orap  Tablets  4 mg|
-|antipsychotics v1|emis|PAM/26213NEMIS|Paliperidone  M/R tablets  3 mg|
-|antipsychotics v1|emis|PAM/26215NEMIS|Paliperidone  M/R tablets  6 mg|
-|antipsychotics v1|emis|PAM/26216NEMIS|Paliperidone  M/R tablets  9 mg|
-|antipsychotics v1|emis|PASU50807NEMIS|Paliperidone  Suspension For Injection  50 mg/0.5 ml pre-filled syringe|
-|antipsychotics v1|emis|PASU50808NEMIS|Paliperidone  Suspension For Injection  75 mg/0.75 ml pre-filled syringe|
-|antipsychotics v1|emis|PASU50809NEMIS|Paliperidone  Suspension For Injection  100 mg/1 ml pre-filled syringe|
-|antipsychotics v1|emis|PASU50810NEMIS|Paliperidone  Suspension For Injection  150 mg/1.5 ml pre-filled syringe|
-|antipsychotics v1|emis|PATA4125|Parstelin  Tablets|
-|antipsychotics v1|emis|PEIN2201|Perphenazine  Injection  5 mg/ml|
-|antipsychotics v1|emis|PESY5253|Pericyazine  Oral solution  10mg/5 ml|
-|antipsychotics v1|emis|PETA2202|Perphenazine  Tablets  2 mg|
-|antipsychotics v1|emis|PETA2203|Perphenazine  Tablets  4 mg|
-|antipsychotics v1|emis|PETA2204|Perphenazine  Tablets  8 mg|
-|antipsychotics v1|emis|PETA5254|Pericyazine  Tablets  10 mg|
-|antipsychotics v1|emis|PETA7008|Pericyazine  Tablets  2.5 mg|
-|antipsychotics v1|emis|PETA7009|Pericyazine  Tablets  25 mg|
-|antipsychotics v1|emis|PIIN17829NEMIS|"Pipotiazine  Injection  50 mg/ml, 2 ml ampoule"|
-|antipsychotics v1|emis|PIIN17830NEMIS|"Pipotiazine  Injection  50 mg/ml, 1 ml ampoule"|
-|antipsychotics v1|emis|PIIN2270|Piportil Depot  Injection  50 mg/1 ml ampoule|
-|antipsychotics v1|emis|PIIN27780EMIS|Piportil Depot  Injection  100 mg/2 ml ampoule|
-|antipsychotics v1|emis|PIIN5296|Pipothiazine Palmitate  Injection  50 mg/1 ml ampoule|
-|antipsychotics v1|emis|PITA2262|Pimozide  Tablets  10 mg|
-|antipsychotics v1|emis|PITA2263|Pimozide  Tablets  2 mg|
-|antipsychotics v1|emis|PITA2264|Pimozide  Tablets  4 mg|
-|antipsychotics v1|emis|PRIN2374|Promazine Hydrochloride  Injection  50 mg/ml|
-|antipsychotics v1|emis|PROR11626NEMIS|Promazine Hydrochloride  Oral solution  50 mg/5 ml|
-|antipsychotics v1|emis|PRSU2375|Promazine Hydrochloride  Suspension  50 mg/5 ml|
-|antipsychotics v1|emis|PRSY12797NEMIS|Promazine Hydrochloride  Syrup  50 mg/5 ml|
-|antipsychotics v1|emis|PRSY29334EMIS|Promazine Hydrochloride  Oral solution  25 mg/5 ml|
-|antipsychotics v1|emis|PRTA2377|Promazine Hydrochloride  Tablets  25 mg|
-|antipsychotics v1|emis|PRTA2378|Promazine Hydrochloride  Tablets  50 mg|
-|antipsychotics v1|emis|QUM/31060NEMIS|Quetiapine Fumarate  M/R tablets  50 mg|
-|antipsychotics v1|emis|QUM/31061NEMIS|Quetiapine Fumarate  M/R tablets  200 mg|
-|antipsychotics v1|emis|QUM/31062NEMIS|Quetiapine Fumarate  M/R tablets  300 mg|
-|antipsychotics v1|emis|QUM/31063NEMIS|Quetiapine Fumarate  M/R tablets  400 mg|
-|antipsychotics v1|emis|QUM/45842NEMIS|Quetiapine Fumarate  M/R tablets  150 mg|
-|antipsychotics v1|emis|QUTA16219NEMIS|Quetiapine Fumarate  Tablets  300 mg|
-|antipsychotics v1|emis|QUTA31563EMIS|Quetiapine Fumarate  Tablets  100 mg|
-|antipsychotics v1|emis|QUTA31564EMIS|Quetiapine Fumarate  Tablets  200 mg|
-|antipsychotics v1|emis|QUTA31565EMIS|Quetiapine Fumarate  Tablets  25 mg|
-|antipsychotics v1|emis|QUTA31566EMIS|"Quetiapine Fumarate  Tablets (starter pack)  6 x 25 mg, 2 x 100 mg"|
-|antipsychotics v1|emis|QUTA959NEMIS|Quetiapine Fumarate  Tablets  150 mg|
-|antipsychotics v1|emis|REM/18891EMIS|Remoxipride Hydrochloride  M/R capsules  150 mg|
-|antipsychotics v1|emis|REM/18892EMIS|Remoxipride Hydrochloride  M/R capsules  300 mg|
-|antipsychotics v1|emis|RILI28308EMIS|Risperdal  Oral solution  1 mg/1 ml|
-|antipsychotics v1|emis|RILI28310EMIS|"Risperidone  Oral Solution, Sugar Free  1 mg/1 ml"|
-|antipsychotics v1|emis|RIOR14731NEMIS|Risperidone  Orodispersible tablets  Sugar Free 1 mg|
-|antipsychotics v1|emis|RIOR14732NEMIS|Risperidone  Orodispersible tablets  Sugar Free 2 mg|
-|antipsychotics v1|emis|RIOR14734NEMIS|Risperdal Quicklet  Orodispersible tablets  1 mg|
-|antipsychotics v1|emis|RIOR14735NEMIS|Risperdal Quicklet  Orodispersible tablets  2 mg|
-|antipsychotics v1|emis|RIOR19655NEMIS|Risperidone  Orodispersible tablets  Sugar Free 500 micrograms|
-|antipsychotics v1|emis|RIOR19656NEMIS|Risperdal Quicklet  Orodispersible tablets  500 micrograms|
-|antipsychotics v1|emis|RIOR23720NEMIS|Risperidone  Orodispersible tablets  Sugar Free 3 mg|
-|antipsychotics v1|emis|RIOR23721NEMIS|Risperidone  Orodispersible tablets  Sugar Free 4 mg|
-|antipsychotics v1|emis|RIOR23722NEMIS|Risperdal Quicklet  Orodispersible tablets  3 mg|
-|antipsychotics v1|emis|RIOR23723NEMIS|Risperdal Quicklet  Orodispersible tablets  4 mg|
-|antipsychotics v1|emis|RIPO13559NEMIS|Risperdal Consta  Powder and solvent for suspension for injection  25 mg vial|
-|antipsychotics v1|emis|RIPO13560NEMIS|Risperdal Consta  Powder and solvent for suspension for injection  37.5 mg vial|
-|antipsychotics v1|emis|RIPO13561NEMIS|Risperdal Consta  Powder and solvent for suspension for injection  50 mg vial|
-|antipsychotics v1|emis|RIPO13562NEMIS|Risperidone  Powder and solvent for suspension for injection  25 mg vial|
-|antipsychotics v1|emis|RIPO13563NEMIS|Risperidone  Powder and solvent for suspension for injection  37.5 mg vial|
-|antipsychotics v1|emis|RIPO13564NEMIS|Risperidone  Powder and solvent for suspension for injection  50 mg vial|
-|antipsychotics v1|emis|RITA23782EMIS|Risperdal  Tablets  1 mg|
-|antipsychotics v1|emis|RITA23783EMIS|Risperdal  Tablets  2 mg|
-|antipsychotics v1|emis|RITA23784EMIS|Risperdal  Tablets  3 mg|
-|antipsychotics v1|emis|RITA23785EMIS|Risperdal  Tablets  4 mg|
-|antipsychotics v1|emis|RITA23790EMIS|Risperidone  Tablets  1 mg|
-|antipsychotics v1|emis|RITA23791EMIS|Risperidone  Tablets  2 mg|
-|antipsychotics v1|emis|RITA23792EMIS|Risperidone  Tablets  3 mg|
-|antipsychotics v1|emis|RITA23793EMIS|Risperidone  Tablets  4 mg|
-|antipsychotics v1|emis|RITA31679EMIS|Risperdal  Tablets  6 mg|
-|antipsychotics v1|emis|RITA31681EMIS|Risperidone  Tablets  6 mg|
-|antipsychotics v1|emis|RITA5272NEMIS|Risperdal  Tablets  500 micrograms|
-|antipsychotics v1|emis|RITA5273NEMIS|Risperidone  Tablets  500 micrograms|
-|antipsychotics v1|emis|ROM/18887EMIS|Roxiam  M/R capsules  150 mg|
-|antipsychotics v1|emis|ROM/18888EMIS|Roxiam  M/R capsules  300 mg|
-|antipsychotics v1|emis|SECA2552|Serenace  Capsules  500 micrograms|
-|antipsychotics v1|emis|SEEL9000BRIDL|Serenace  Elixir  2mg/ml|
-|antipsychotics v1|emis|SEIN2554|"Serenace  Injection  10 mg/ml, 2 ml ampoule"|
-|antipsychotics v1|emis|SEIN2555|"Serenace  Injection  5 mg/ml, 1 ml ampoule"|
-|antipsychotics v1|emis|SEM/31065NEMIS|Seroquel Xl  M/R tablets  50 mg|
-|antipsychotics v1|emis|SEM/31066NEMIS|Seroquel Xl  M/R tablets  200 mg|
-|antipsychotics v1|emis|SEM/31067NEMIS|Seroquel Xl  M/R tablets  300 mg|
-|antipsychotics v1|emis|SEM/31068NEMIS|Seroquel Xl  M/R tablets  400 mg|
-|antipsychotics v1|emis|SEM/45843NEMIS|Seroquel Xl  M/R tablets  150 mg|
-|antipsychotics v1|emis|SETA16220NEMIS|Seroquel  Tablets  300 mg|
-|antipsychotics v1|emis|SETA2556|Serenace  Tablets  1.5 mg|
-|antipsychotics v1|emis|SETA2557|Serenace  Tablets  10 mg|
-|antipsychotics v1|emis|SETA2558|Serenace  Tablets  20 mg|
-|antipsychotics v1|emis|SETA2559|Serenace  Tablets  5 mg|
-|antipsychotics v1|emis|SETA29198EMIS|Serdolect  Tablets  12 mg|
-|antipsychotics v1|emis|SETA29199EMIS|Serdolect  Tablets  16 mg|
-|antipsychotics v1|emis|SETA29200EMIS|Serdolect  Tablets  20 mg|
-|antipsychotics v1|emis|SETA29201EMIS|Serdolect  Tablets  4 mg|
-|antipsychotics v1|emis|SETA29206EMIS|Sertindole  Tablets  12 mg|
-|antipsychotics v1|emis|SETA29207EMIS|Sertindole  Tablets  16 mg|
-|antipsychotics v1|emis|SETA29208EMIS|Sertindole  Tablets  20 mg|
-|antipsychotics v1|emis|SETA29209EMIS|Sertindole  Tablets  4 mg|
-|antipsychotics v1|emis|SETA31555EMIS|Seroquel  Tablets  100 mg|
-|antipsychotics v1|emis|SETA31556EMIS|Seroquel  Tablets  200 mg|
-|antipsychotics v1|emis|SETA31557EMIS|Seroquel  Tablets  25 mg|
-|antipsychotics v1|emis|SETA31558EMIS|"Seroquel  Tablets (starter pack)  6 x 25 mg, 2 x 100 mg"|
-|antipsychotics v1|emis|SETA803NEMIS|"Seroquel  Tablets (starter pack)  6x25 mg, 2x100 mg, 2x150 mg"|
-|antipsychotics v1|emis|SETA960NEMIS|Seroquel  Tablets  150 mg|
-|antipsychotics v1|emis|SOM/71618NEMIS|Sondate Xl  M/R tablets  50 mg|
-|antipsychotics v1|emis|SOM/71619NEMIS|Sondate Xl  M/R tablets  200 mg|
-|antipsychotics v1|emis|SOM/71620NEMIS|Sondate Xl  M/R tablets  300 mg|
-|antipsychotics v1|emis|SOM/71621NEMIS|Sondate Xl  M/R tablets  400 mg|
-|antipsychotics v1|emis|SOOR11703NEMIS|Solian  Oral solution  100 mg/ml|
-|antipsychotics v1|emis|SOTA14268NEMIS|Solian  Tablets  100 mg|
-|antipsychotics v1|emis|SOTA31581EMIS|Solian  Tablets  200 mg|
-|antipsychotics v1|emis|SOTA31582EMIS|Solian  Tablets  50 mg|
-|antipsychotics v1|emis|SOTA5673NEMIS|Solian  Tablets  400 mg|
-|antipsychotics v1|emis|SPIN2652|Sparine  Injection  50 mg/ml|
-|antipsychotics v1|emis|SPSU2653|Sparine  Suspension  50 mg/5 ml|
-|antipsychotics v1|emis|STIN2680|Stelazine  Injection  1 mg/ml|
-|antipsychotics v1|emis|STLI2682|Stelazine  Liquid  10mg/ml|
-|antipsychotics v1|emis|STOR18275NEMIS|"Stelazine Forte  Oral Solution, Sugar Free  5 mg/5 ml"|
-|antipsychotics v1|emis|STSP2683|Stelazine  Spansules  10 mg|
-|antipsychotics v1|emis|STSP2684|Stelazine  Spansules  15 mg|
-|antipsychotics v1|emis|STSP2685|Stelazine  Spansules  2 mg|
-|antipsychotics v1|emis|STSY2686|Stelazine  Syrup  1 mg/5 ml|
-|antipsychotics v1|emis|STTA2688|Stelazine  Tablets  1 mg|
-|antipsychotics v1|emis|STTA2689|Stelazine  Tablets  5 mg|
-|antipsychotics v1|emis|SUOR11892NEMIS|Sulpor  Sugar-free oral solution  200 mg/5 ml|
-|antipsychotics v1|emis|SUSU32911EMIS|Sulpiride  Sugar-free oral solution  200 mg/5 ml|
-|antipsychotics v1|emis|SUTA2733|Sulpiride  Tablets  200 mg|
-|antipsychotics v1|emis|SUTA2734|Sulpitil  Tablets  200 mg|
-|antipsychotics v1|emis|SUTA28248EMIS|Sulpiride  Tablets  400 mg|
-|antipsychotics v1|emis|SUTA3785NEMIS|Sulparex  Tablets  200 mg|
-|antipsychotics v1|emis|THSU5441|Thioridazine  Suspension  100mg/5 ml|
-|antipsychotics v1|emis|THSU6978|Thioridazine  Suspension  25mg/5 ml|
-|antipsychotics v1|emis|THSY2845|Thioridazine  Syrup  25 mg/5 ml|
-|antipsychotics v1|emis|THTA2846|Thioridazine  Tablets  10 mg|
-|antipsychotics v1|emis|THTA2847|Thioridazine  Tablets  100 mg|
-|antipsychotics v1|emis|THTA2848|Thioridazine  Tablets  25 mg|
-|antipsychotics v1|emis|THTA2849|Thioridazine  Tablets  50 mg|
-|antipsychotics v1|emis|TRIN2923|Trifluoperazine  Injection  1 mg/ml|
-|antipsychotics v1|emis|TRLI5471|Trifluoperazine  Liquid  10mg/ml|
-|antipsychotics v1|emis|TROR28542EMIS|Trifluoperazine  Oral solution  Sugar Free 5 mg/5 ml|
-|antipsychotics v1|emis|TRSP2924|Trifluoperazine  Spansules  10 mg|
-|antipsychotics v1|emis|TRSP2925|Trifluoperazine  Spansules  15 mg|
-|antipsychotics v1|emis|TRSP2926|Trifluoperazine  Spansules  2 mg|
-|antipsychotics v1|emis|TRSY2927|"Trifluoperazine  Oral Solution, Sugar Free  1 mg/5 ml"|
-|antipsychotics v1|emis|TRTA13267NEMIS|Tranquilyn  Tablets  5 mg|
-|antipsychotics v1|emis|TRTA13268NEMIS|Tranquilyn  Tablets  10 mg|
-|antipsychotics v1|emis|TRTA13269NEMIS|Tranquilyn  Tablets  20 mg|
-|antipsychotics v1|emis|TRTA2894|Tranylcypromine  Tablets  10 mg|
-|antipsychotics v1|emis|TRTA2928|Trifluoperazine  Tablets  1 mg|
-|antipsychotics v1|emis|TRTA2929|Trifluoperazine  Tablets  5 mg|
-|antipsychotics v1|emis|TRTA2944|Triperidol  Tablets  1 mg|
-|antipsychotics v1|emis|TRTA2945|Triperidol  Tablets  500 mcg|
-|antipsychotics v1|emis|TRTA4462|Triptafen  Tablets  |
-|antipsychotics v1|emis|TRTA4463|Triptafen-M  Tablets  |
-|antipsychotics v1|emis|TRTA5473|Trifluperidol  Tablets  1 mg|
-|antipsychotics v1|emis|TRTA7103|Trifluperidol  Tablets  500 mcg|
-|antipsychotics v1|emis|VETA3038|Nozinan  Tablets  25 mg|
-|antipsychotics v1|emis|XESU50812NEMIS|Xeplion  Suspension For Injection  50 mg/0.5 ml pre-filled syringe|
-|antipsychotics v1|emis|XESU50813NEMIS|Xeplion  Suspension For Injection  75 mg/0.75 ml pre-filled syringe|
-|antipsychotics v1|emis|XESU50814NEMIS|Xeplion  Suspension For Injection  100 mg/1 ml pre-filled syringe|
-|antipsychotics v1|emis|XESU50815NEMIS|Xeplion  Suspension For Injection  150 mg/1.5 ml pre-filled syringe|
-|antipsychotics v1|emis|ZAOR52077NEMIS|Zalasta  Orodispersible tablets  10 mg|
-|antipsychotics v1|emis|ZAOR52078NEMIS|Zalasta  Orodispersible tablets  15 mg|
-|antipsychotics v1|emis|ZAOR52079NEMIS|Zalasta  Orodispersible tablets  20 mg|
-|antipsychotics v1|emis|ZAOR52080NEMIS|Zalasta  Orodispersible tablets  5 mg|
-|antipsychotics v1|emis|ZATA19394NEMIS|Zaponex  Tablets  25 mg|
-|antipsychotics v1|emis|ZATA19395NEMIS|Zaponex  Tablets  100 mg|
-|antipsychotics v1|emis|ZATA51977NEMIS|Zalasta  Tablets  10 mg|
-|antipsychotics v1|emis|ZATA51978NEMIS|Zalasta  Tablets  15 mg|
-|antipsychotics v1|emis|ZATA51979NEMIS|Zalasta  Tablets  2.5 mg|
-|antipsychotics v1|emis|ZATA51980NEMIS|Zalasta  Tablets  20 mg|
-|antipsychotics v1|emis|ZATA51981NEMIS|Zalasta  Tablets  5 mg|
-|antipsychotics v1|emis|ZATA51982NEMIS|Zalasta  Tablets  7.5 mg|
-|antipsychotics v1|emis|ZOTA34924EMIS|Zoleptil  Tablets  100 mg|
-|antipsychotics v1|emis|ZOTA34925EMIS|Zoleptil  Tablets  25 mg|
-|antipsychotics v1|emis|ZOTA34926EMIS|Zoleptil  Tablets  50 mg|
-|antipsychotics v1|emis|ZOTA34930EMIS|Zotepine  Tablets  100 mg|
-|antipsychotics v1|emis|ZOTA34931EMIS|Zotepine  Tablets  25 mg|
-|antipsychotics v1|emis|ZOTA34932EMIS|Zotepine  Tablets  50 mg|
-|antipsychotics v1|emis|ZUIN29852EMIS|Zuclopenthixol Acetate  Injection  100 mg/2 ml ampoule|
-|antipsychotics v1|emis|ZUIN29853EMIS|Zuclopenthixol Acetate  Injection  50 mg/1 ml ampoule|
-|antipsychotics v1|emis|ZUIN5509|"Zuclopenthixol Decanoate  Injection  200 mg/ml, 1 ml ampoule"|
-|antipsychotics v1|emis|ZUIN5510|"Zuclopenthixol Decanoate  Injection  500mg/ml, 1 ml ampoule"|
-|antipsychotics v1|emis|ZUTA5511|Zuclopenthixol Dihydrochloride  Tablets  10 mg|
-|antipsychotics v1|emis|ZUTA6848|Zuclopenthixol Dihydrochloride  Tablets  2 mg|
-|antipsychotics v1|emis|ZUTA6849|Zuclopenthixol Dihydrochloride  Tablets  25 mg|
-|antipsychotics v1|emis|ZYOR13262NEMIS|Zyprexa Velotab  Orodispersible tablets  15 mg|
-|antipsychotics v1|emis|ZYOR21755NEMIS|Zyprexa Velotab  Orodispersible tablets  20 mg|
-|antipsychotics v1|emis|ZYOR3803NEMIS|Zyprexa Velotab  Orodispersible tablets  5 mg|
-|antipsychotics v1|emis|ZYOR3804NEMIS|Zyprexa Velotab  Orodispersible tablets  10 mg|
-|antipsychotics v1|emis|ZYPO16909NEMIS|Zyprexa  Powder For Solution For Injection  10 mg vial|
-|antipsychotics v1|emis|ZYPR42083NEMIS|Zypadhera  Prolonged release suspension for injection  210 mg vial|
-|antipsychotics v1|emis|ZYPR42084NEMIS|Zypadhera  Prolonged release suspension for injection  300 mg vial|
-|antipsychotics v1|emis|ZYPR42085NEMIS|Zypadhera  Prolonged release suspension for injection  405 mg vial|
-|antipsychotics v1|emis|ZYTA13261NEMIS|Zyprexa  Tablets  15 mg|
-|antipsychotics v1|emis|ZYTA23535NEMIS|Zyprexa  Tablets  20 mg|
-|antipsychotics v1|emis|ZYTA29723EMIS|Zyprexa  Tablets  10 mg|
-|antipsychotics v1|emis|ZYTA29724EMIS|Zyprexa  Tablets  5 mg|
-|antipsychotics v1|emis|ZYTA29725EMIS|Zyprexa  Tablets  7.5 mg|
-|antipsychotics v1|emis|ZYTA34083EMIS|Zyprexa  Tablets  2.5 mg|
-|antipsychotics v1|readv2|d4ew.|PROMAZINE 50mg/5mL syrup|
-|antipsychotics v1|readv2|d4ex.|*PROMAZINE 50mg/5mL suspension|
-|antipsychotics v1|readv2|d4ey.|PROMAZINE 50mg/1mL injection|
-|antipsychotics v1|readv2|d4ez.|*PROMAZINE 100mg/2mL injection|
-|antipsychotics v1|readv2|d4f..|SULPIRIDE|
-|antipsychotics v1|readv2|d4f1.|DOLMATIL 200mg tablets|
-|antipsychotics v1|readv2|d4f2.|*SULPITIL 200mg tablets x28CP|
-|antipsychotics v1|readv2|d4f3.|*SULPITIL 200mg tablets x112CP|
-|antipsychotics v1|readv2|d4f4.|*SULPAREX 200mg tablets|
-|antipsychotics v1|readv2|d4f5.|DOLMATIL 400mg tablets|
-|antipsychotics v1|readv2|d4f6.|SULPOR 200mg/5mL oral solution|
-|antipsychotics v1|readv2|d4fw.|SULPIRIDE 200mg/5mL oral soln|
-|antipsychotics v1|readv2|d4fx.|SULPIRIDE 400mg tablets|
-|antipsychotics v1|readv2|d4fy.|SULPIRIDE 200mg/5mL s/f soln|
-|antipsychotics v1|readv2|d4fz.|SULPIRIDE 200mg tablets|
-|antipsychotics v1|readv2|d4g..|THIORIDAZINE|
-|antipsychotics v1|readv2|d4gp.|THIORIDAZINE 10mg/5mL syrup|
-|antipsychotics v1|readv2|d4gq.|THIORIDAZINE 25mg/5mL s/f soln|
-|antipsychotics v1|readv2|d4gr.|THIORIDAZINE 50mg/5mL s/f soln|
-|antipsychotics v1|readv2|d4gs.|THIORIDAZINE 100mg/5mL sf soln|
-|antipsychotics v1|readv2|d4gt.|*THIORIDAZINE 10mg tablets|
-|antipsychotics v1|readv2|d4gu.|THIORIDAZINE 25mg tablets|
-|antipsychotics v1|readv2|d4gv.|THIORIDAZINE 50mg tablets|
-|antipsychotics v1|readv2|d4gw.|THIORIDAZINE 100mg tablets|
-|antipsychotics v1|readv2|d4gx.|*THIORIDAZINE 25mg/5mL susp|
-|antipsychotics v1|readv2|d4gy.|*THIORIDAZINE 100mg/5mL susp|
-|antipsychotics v1|readv2|d4gz.|*THIORIDAZINE 25mg/5mL syrup|
-|antipsychotics v1|readv2|d4h..|TRIFLUOPERAZINE [ANTIPSYCHOTIC|
-|antipsychotics v1|readv2|d4h1.|*STELAZINE 1mg tablets|
-|antipsychotics v1|readv2|d4h2.|*STELAZINE 5mg tablets|
-|antipsychotics v1|readv2|d4h3.|*STELAZINE 2mg m/r capsules|
-|antipsychotics v1|readv2|d4h4.|*STELAZINE 10mg m/r capsules|
-|antipsychotics v1|readv2|d4h5.|*STELAZINE 15mg m/r capsules|
-|antipsychotics v1|readv2|d4h6.|*STELAZINE 1mg/5mL syrup|
-|antipsychotics v1|readv2|d4h7.|*STELAZINE 10mg/mL liquid|
-|antipsychotics v1|readv2|d4h8.|*STELAZINE 1mg/1mL injection|
-|antipsychotics v1|readv2|d4h9.|TRIFLUOPERAZ 5mg/5mL s/f syrup|
-|antipsychotics v1|readv2|d4hA.|*STELAZINE FORTE 5mg/5mL susp|
-|antipsychotics v1|readv2|d4hr.|*TRIFLUOPERAZINE 5mg/5mL susp|
-|antipsychotics v1|readv2|d4hs.|TRIFLUOPERAZINE 1mg tablets|
-|antipsychotics v1|readv2|d4ht.|TRIFLUOPERAZINE 5mg tablets|
-|antipsychotics v1|readv2|d4hu.|*TRIFLUOPERAZINE 2mg m/r caps|
-|antipsychotics v1|readv2|d4hv.|*TRIFLUOPERAZINE 10mg m/r caps|
-|antipsychotics v1|readv2|d4hw.|*TRIFLUOPERAZINE 15mg m/r caps|
-|antipsychotics v1|readv2|d4hx.|TRIFLUOPERAZINE 1mg/5mL syrup|
-|antipsychotics v1|readv2|d4hy.|*TRIFLUOPERAZINE 10mg/mL liq|
-|antipsychotics v1|readv2|d4hz.|*TRIFLUOPERAZINE 1mg/1mL inj|
-|antipsychotics v1|readv2|d4i..|TRIFLUPERIDOL|
-|antipsychotics v1|readv2|d4i1.|*TRIPERIDOL 500mcg tablets|
-|antipsychotics v1|readv2|d4i2.|*TRIPERIDOL 1mg tablets|
-|antipsychotics v1|readv2|d4iy.|*TRIFLUPERIDOL 500mcg tablets|
-|antipsychotics v1|readv2|d41..|CHLORPROMAZINE HYDROCHLORIDE|
-|antipsychotics v1|readv2|d411.|CHLORPROMAZINE 10mg tablets|
-|antipsychotics v1|readv2|d412.|CHLORPROMAZINE 25mg tablets|
-|antipsychotics v1|readv2|d413.|CHLORPROMAZINE 50mg tablets|
-|antipsychotics v1|readv2|d414.|CHLORPROMAZINE 100mg tablets|
-|antipsychotics v1|readv2|d415.|CHLORPROMAZINE 25mg/5mL syrup|
-|antipsychotics v1|readv2|d416.|CHLORACTIL 25mg tablets|
-|antipsychotics v1|readv2|d417.|CHLORACTIL 50mg tablets|
-|antipsychotics v1|readv2|d418.|CHLORACTIL 100mg tablets|
-|antipsychotics v1|readv2|d41A.|CHLORPROMAZ 25mg/5mL s/f soln|
-|antipsychotics v1|readv2|d41B.|CHLORPROMAZ 100mg/5mL s/f soln|
-|antipsychotics v1|readv2|d41a.|*LARGACTIL 10mg tablets|
-|antipsychotics v1|readv2|d41b.|*LARGACTIL 25mg tablets|
-|antipsychotics v1|readv2|d41c.|*LARGACTIL 50mg tablets|
-|antipsychotics v1|readv2|d41d.|*LARGACTIL 100mg tablets|
-|antipsychotics v1|readv2|d41e.|*LARGACTIL 25mg/5mL syrup|
-|antipsychotics v1|readv2|d41f.|*LARGACTIL FORTE 100mg/5mL syr|
-|antipsychotics v1|readv2|d41g.|*LARGACTIL 25mg/mL injection|
-|antipsychotics v1|readv2|d41h.|LARGACTIL [CNS] 50mg/2mL inj|
-|antipsychotics v1|readv2|d41i.|*LARGACTIL 100mg suppositories|
-|antipsychotics v1|readv2|d41j.|*CHLORPROMAZINE 100mg/5mL susp|
-|antipsychotics v1|readv2|d41k.|CHLORPROMAZINE 100mg supps|
-|antipsychotics v1|readv2|d41l.|CHLORPROMAZINE 25mg/1mL inj|
-|antipsychotics v1|readv2|d41m.|CHLORPROMAZINE 50mg/2mL inj|
-|antipsychotics v1|readv2|d41o.|CHLORPROMAZINE 100mg/5mL syrup|
-|antipsychotics v1|readv2|d42..|BENPERIDOL|
-|antipsychotics v1|readv2|d421.|ANQUIL 250micrograms tablets|
-|antipsychotics v1|readv2|d422.|*BENQUIL 250micrograms tablets|
-|antipsychotics v1|readv2|d42z.|BENPERIDOL 250mcg tablets|
-|antipsychotics v1|readv2|d43..|*CHLORPROTHIXENE|
-|antipsychotics v1|readv2|d431.|*TARACTAN 15mg tablets|
-|antipsychotics v1|readv2|d432.|*TARACTAN 50mg tablets|
-|antipsychotics v1|readv2|d43y.|*CHLORPROTHIXENE 15mg tablets|
-|antipsychotics v1|readv2|d43z.|*CHLORPROTHIXENE 50mg tablets|
-|antipsychotics v1|readv2|d44..|DROPERIDOL [CNS]|
-|antipsychotics v1|readv2|d441.|*DROLEPTAN 10mg tablets|
-|antipsychotics v1|readv2|d442.|*DROLEPTAN 1mg/mL oral liquid|
-|antipsychotics v1|readv2|d443.|*DROLEPTAN 10mg/2mL injection|
-|antipsychotics v1|readv2|d44w.|DROPERIDOL 2.5mg/1mL inj|
-|antipsychotics v1|readv2|d44x.|*DROPERIDOL 10mg tablets|
-|antipsychotics v1|readv2|d44y.|*DROPERIDOL 1mg/mL oral liquid|
-|antipsychotics v1|readv2|d44z.|*DROPERIDOL 10mg/2mL injection|
-|antipsychotics v1|readv2|d45..|FLUPENTIXOL [ANTIPSYCHOTIC]|
-|antipsychotics v1|readv2|d451.|DEPIXOL 3mg tablets|
-|antipsychotics v1|readv2|d45z.|FLUPENTIXOL 3mg tablets|
-|antipsychotics v1|readv2|d46..|FLUPHENAZINE HYDROCHLORIDE|
-|antipsychotics v1|readv2|d461.|*MODITEN 1mg tablets|
-|antipsychotics v1|readv2|d462.|*MODITEN 2.5mg tablets|
-|antipsychotics v1|readv2|d463.|*MODITEN 5mg tablets|
-|antipsychotics v1|readv2|d46x.|*FLUPHENAZINE HCL 1mg tablets|
-|antipsychotics v1|readv2|d46y.|*FLUPHENAZINE HCL 2.5mg tabs|
-|antipsychotics v1|readv2|d46z.|*FLUPHENAZINE HCL 5mg tablets|
-|antipsychotics v1|readv2|d47..|HALOPERIDOL [ANTIPSYCHOTIC]|
-|antipsychotics v1|readv2|d471.|HALOPERIDOL 1.5mg tablets|
-|antipsychotics v1|readv2|d472.|HALOPERIDOL 5mg tablets|
-|antipsychotics v1|readv2|d473.|HALOPERIDOL 10mg tablets|
-|antipsychotics v1|readv2|d474.|HALOPERIDOL 20mg tablets|
-|antipsychotics v1|readv2|d475.|HALOPERIDOL 2mg/mL liquid|
-|antipsychotics v1|readv2|d476.|DOZIC 1mg/mL liquid|
-|antipsychotics v1|readv2|d477.|*DOZIC 2mg/mL liquid|
-|antipsychotics v1|readv2|d47A.|HALOPERIDOL 2mg/5mL s/f soln|
-|antipsychotics v1|readv2|d47B.|HALOPERIDOL 1mg/5mL s/f soln|
-|antipsychotics v1|readv2|d47d.|*HALDOL 5mg tablets|
-|antipsychotics v1|readv2|d47e.|*HALDOL 10mg tablets|
-|antipsychotics v1|readv2|d47f.|HALDOL 2mg/mL liquid|
-|antipsychotics v1|readv2|d47g.|*HALDOL 10mg/mL liquid|
-|antipsychotics v1|readv2|d47h.|*HALDOL 5mg/1mL injection|
-|antipsychotics v1|readv2|d47i.|*HALDOL 10mg/2mL injection|
-|antipsychotics v1|readv2|d47j.|SERENACE 500mcg capsules|
-|antipsychotics v1|readv2|d47k.|SERENACE 1.5mg tablets|
-|antipsychotics v1|readv2|d47l.|SERENACE 5mg tablets|
-|antipsychotics v1|readv2|d47m.|SERENACE 10mg tablets|
-|antipsychotics v1|readv2|d47n.|SERENACE 20mg tablets|
-|antipsychotics v1|readv2|d47o.|SERENACE 2mg/mL liquid 100mL|
-|antipsychotics v1|readv2|d47p.|SERENACE 5mg/1mL injection|
-|antipsychotics v1|readv2|d47q.|SERENACE 20mg/2mL injection|
-|antipsychotics v1|readv2|d47r.|HALOPERIDOL 500mcg capsules|
-|antipsychotics v1|readv2|d47s.|SERENACE 2mg/mL liquid 500mL|
-|antipsychotics v1|readv2|d47t.|HALOPERIDOL 1mg/mL liquid|
-|antipsychotics v1|readv2|d47u.|HALOPERIDOL 500mcg tablets|
-|antipsychotics v1|readv2|d47v.|*HALOPERIDOL 5mg/1mL injection|
-|antipsychotics v1|readv2|d47w.|*HALOPERIDOL 10mg/2mL inj|
-|antipsychotics v1|readv2|d47x.|HALOPERIDOL 20mg/2mL injection|
-|antipsychotics v1|readv2|d47y.|*HALOPERIDOL 10mg/mL oral soln|
-|antipsychotics v1|readv2|d48..|LEVOMEPROMAZINE|
-|antipsychotics v1|readv2|d481.|NOZINAN 25mg/1mL injection|
-|antipsychotics v1|readv2|d482.|*VERACTIL 25mg tablets|
-|antipsychotics v1|readv2|d483.|NOZINAN 25mg tablets|
-|antipsychotics v1|readv2|d48y.|LEVOMEPROMAZINE 25mg/1mL inj|
-|antipsychotics v1|readv2|d48z.|LEVOMEPROMAZINE 25mg tablets|
-|antipsychotics v1|readv2|d491.|*INTEGRIN 10mg capsules|
-|antipsychotics v1|readv2|d492.|*INTEGRIN 40mg tablets|
-|antipsychotics v1|readv2|d4a..|PERICYAZINE|
-|antipsychotics v1|readv2|d4a1.|*NEULACTIL 2.5mg tablets|
-|antipsychotics v1|readv2|d4a2.|*NEULACTIL 10mg tablets|
-|antipsychotics v1|readv2|d4a3.|*NEULACTIL 25mg tablets|
-|antipsychotics v1|readv2|d4a4.|*NEULACTIL FORTE 10mg/5mL syrp|
-|antipsychotics v1|readv2|d4aw.|PERICYAZINE 2.5mg tablets|
-|antipsychotics v1|readv2|d4ax.|PERICYAZINE 10mg tablets|
-|antipsychotics v1|readv2|d4ay.|*PERICYAZINE 25mg tablets|
-|antipsychotics v1|readv2|d4az.|PERICYAZINE 10mg/5mL syrup|
-|antipsychotics v1|readv2|d4b..|PERPHENAZINE [CNS]|
-|antipsychotics v1|readv2|d4b1.|FENTAZIN 2mg tablets|
-|antipsychotics v1|readv2|d4b2.|FENTAZIN 4mg tablets|
-|antipsychotics v1|readv2|d4b3.|*FENTAZIN 8mg tablets|
-|antipsychotics v1|readv2|d4b4.|*FENTAZIN 5mg/1mL injection|
-|antipsychotics v1|readv2|d4b5.|PERPHENAZINE 2mg/5mL s/f soln|
-|antipsychotics v1|readv2|d4b6.|PERPHENAZINE 4mg/5mL s/f soln|
-|antipsychotics v1|readv2|d4bx.|PERPHENAZINE 2mg tablets|
-|antipsychotics v1|readv2|d4by.|PERPHENAZINE 4mg tablets|
-|antipsychotics v1|readv2|d4bz.|*PERPHENAZINE 8mg tablets|
-|antipsychotics v1|readv2|d4c..|PIMOZIDE|
-|antipsychotics v1|readv2|d4c2.|ORAP 4mg tablets|
-|antipsychotics v1|readv2|d4cx.|*PIMOZIDE 2mg tablets|
-|antipsychotics v1|readv2|d4cy.|PIMOZIDE 4mg tablets|
-|antipsychotics v1|readv2|d4cz.|*PIMOZIDE 10mg tablets|
-|antipsychotics v1|readv2|d4e..|PROMAZINE HYDROCHLORIDE|
-|antipsychotics v1|readv2|d4e1.|*SPARINE 50mg/5mL suspension|
-|antipsychotics v1|readv2|d4e2.|*SPARINE 50mg/1mL injection|
-|antipsychotics v1|readv2|d4e3.|*SPARINE 100mg/2mL injection|
-|antipsychotics v1|readv2|d4e4.|PROMAZINE 25mg tablets|
-|antipsychotics v1|readv2|d4e5.|PROMAZINE 50mg tablets|
-|antipsychotics v1|readv2|d4ev.|PROMAZINE 25mg/5mL syrup|
-|antipsychotics v1|readv2|d4l..|CLOZAPINE|
-|antipsychotics v1|readv2|d4l1.|CLOZAPINE 25mg tablets|
-|antipsychotics v1|readv2|d4l2.|CLOZAPINE 100mg tablets|
-|antipsychotics v1|readv2|d4l3.|CLOZARIL 25mg tablets x84CP|
-|antipsychotics v1|readv2|d4l4.|CLOZARIL 100mg tablets x84CP|
-|antipsychotics v1|readv2|d4l5.|CLOZARIL 25mg tabs x28CP|
-|antipsychotics v1|readv2|d4l6.|CLOZARIL 100mg tabs x28CP|
-|antipsychotics v1|readv2|d4l7.|DENZAPINE 25mg tablets|
-|antipsychotics v1|readv2|d4l8.|DENZAPINE 100mg tablets|
-|antipsychotics v1|readv2|d4l9.|ZAPONEX 25mg tablets|
-|antipsychotics v1|readv2|d4lA.|ZAPONEX 100mg tablets|
-|antipsychotics v1|readv2|d4lB.|DENZAPINE 50mg/mL susp 100mL|
-|antipsychotics v1|readv2|d4lC.|CLOZAPINE 50mg/mL suspension|
-|antipsychotics v1|readv2|d4lD.|DENZAPINE 50mg tablets|
-|antipsychotics v1|readv2|d4lE.|CLOZAPINE 50mg tablets|
-|antipsychotics v1|readv2|d4lF.|DENZAPINE 200mg tablets|
-|antipsychotics v1|readv2|d4lG.|CLOZAPINE 200mg tablets|
-|antipsychotics v1|readv2|d4m..|REMOXIPRIDE|
-|antipsychotics v1|readv2|d4m1.|*REMOXIPRIDE 150mg m/r caps|
-|antipsychotics v1|readv2|d4m2.|*REMOXIPRIDE 300mg m/r caps|
-|antipsychotics v1|readv2|d4m3.|*ROXIAM 150mg m/r capsules|
-|antipsychotics v1|readv2|d4m4.|*ROXIAM 300mg m/r capsules|
-|antipsychotics v1|readv2|d4n..|ZUCLOPENTHIXOL ACETATE|
-|antipsychotics v1|readv2|d4n1.|CLOPIXOL ACUPHASE 50mg/1mL inj|
-|antipsychotics v1|readv2|d4n2.|*CLOPIXOL ACUPHA 100mg/2mL inj|
-|antipsychotics v1|readv2|d4n3.|ZUCLOPENTHIXOL AC 50mg/1mL inj|
-|antipsychotics v1|readv2|d4n4.|*ZUCLOPENTHIXOL 100mg/2mL inj|
-|antipsychotics v1|readv2|d4p..|RISPERIDONE|
-|antipsychotics v1|readv2|d4p1.|RISPERIDONE 1mg tablets|
-|antipsychotics v1|readv2|d4p2.|RISPERIDONE 2mg tablets|
-|antipsychotics v1|readv2|d4p3.|RISPERIDONE 3mg tablets|
-|antipsychotics v1|readv2|d4p4.|RISPERIDONE 4mg tablets|
-|antipsychotics v1|readv2|d4p5.|RISPERDAL 1mg tablets|
-|antipsychotics v1|readv2|d4p6.|RISPERDAL 2mg tablets|
-|antipsychotics v1|readv2|d4p7.|RISPERDAL 3mg tablets|
-|antipsychotics v1|readv2|d4p8.|RISPERDAL 4mg tablets|
-|antipsychotics v1|readv2|d4p9.|RISPERIDONE 1mg/mL liquid|
-|antipsychotics v1|readv2|d4pA.|RISPERDAL 1mg/mL liquid|
-|antipsychotics v1|readv2|d4pB.|RISPERIDONE 6mg tablets|
-|antipsychotics v1|readv2|d4pC.|RISPERDAL 6mg tablets|
-|antipsychotics v1|readv2|d4pD.|RISPERDAL 0.5mg tablets|
-|antipsychotics v1|readv2|d4pE.|RISPERDAL CONSTA 25mg pdr inj|
-|antipsychotics v1|readv2|d4pF.|RISPERDAL CONSTA 37.5mg inj|
-|antipsychotics v1|readv2|d4pG.|RISPERDAL CONSTA 50mg pdr inj|
-|antipsychotics v1|readv2|d4pH.|RISPERIDONE 1mg disp tablets|
-|antipsychotics v1|readv2|d4pJ.|RISPERIDONE 2mg disp tablets|
-|antipsychotics v1|readv2|d4pK.|RISPERDAL QUICKLET 1mg tabs|
-|antipsychotics v1|readv2|d4pL.|RISPERDAL QUICKLET 2mg tabs|
-|antipsychotics v1|readv2|d4pM.|RISPERIDONE 0.5mg disp tablets|
-|antipsychotics v1|readv2|d4pN.|RISPERDAL QUICKLET 0.5mg tabs|
-|antipsychotics v1|readv2|d4pO.|RISPERDAL QUICKLET 3mg tabs|
-|antipsychotics v1|readv2|d4pP.|RISPERDAL QUICKLET 4mg tabs|
-|antipsychotics v1|readv2|d4pQ.|RISPERIDONE 3mg disp tabs|
-|antipsychotics v1|readv2|d4pR.|RISPERIDONE 4mg disp tabs|
-|antipsychotics v1|readv2|d4pS.|RISPERIDONE 1mg/mL oral soln|
-|antipsychotics v1|readv2|d4pw.|RISPERIDONE 50mg pdr+solv inj|
-|antipsychotics v1|readv2|d4px.|RISPERIDONE 37.5mg pdr inj|
-|antipsychotics v1|readv2|d4py.|RISPERIDONE 25mg pdr+solv inj|
-|antipsychotics v1|readv2|d4pz.|RISPERIDONE 0.5mg tablets|
-|antipsychotics v1|readv2|d4q..|SERTINDOLE|
-|antipsychotics v1|readv2|d4q1.|SERTINDOLE 4mg tablets|
-|antipsychotics v1|readv2|d4q2.|SERTINDOLE 12mg tablets|
-|antipsychotics v1|readv2|d4q3.|SERTINDOLE 16mg tablets|
-|antipsychotics v1|readv2|d4q4.|SERTINDOLE 20mg tablets|
-|antipsychotics v1|readv2|d4q5.|SERDOLECT 4mg tablets|
-|antipsychotics v1|readv2|d4q6.|SERDOLECT 12mg tablets|
-|antipsychotics v1|readv2|d4q7.|SERDOLECT 16mg tablets|
-|antipsychotics v1|readv2|d4q8.|SERDOLECT 20mg tablets|
-|antipsychotics v1|readv2|d4r..|OLANZAPINE|
-|antipsychotics v1|readv2|d4r1.|OLANZAPINE 5mg tablets|
-|antipsychotics v1|readv2|d4r2.|OLANZAPINE 7.5mg tablets|
-|antipsychotics v1|readv2|d4r3.|OLANZAPINE 10mg tablets|
-|antipsychotics v1|readv2|d4r4.|ZYPREXA 5mg tablets|
-|antipsychotics v1|readv2|d4r5.|ZYPREXA 7.5mg tablets|
-|antipsychotics v1|readv2|d4r6.|ZYPREXA 10mg tablets|
-|antipsychotics v1|readv2|d4r7.|OLANZAPINE 2.5mg tablets|
-|antipsychotics v1|readv2|d4r8.|ZYPREXA 2.5mg tablets|
-|antipsychotics v1|readv2|d4r9.|ZYPREXA VELOTAB 5mg disp tabs|
-|antipsychotics v1|readv2|d4rA.|ZYPREXA VELOTAB 10mg disp tabs|
-|antipsychotics v1|readv2|d4rB.|ZYPREXA 15mg tablets|
-|antipsychotics v1|readv2|d4rC.|ZYPREXA VELOTAB 15mg disp tabs|
-|antipsychotics v1|readv2|d4rD.|ZYPREXA 10mg inj powder|
-|antipsychotics v1|readv2|d4rE.|ZYPREXA VELOTAB 20mg disp tabs|
-|antipsychotics v1|readv2|d4rF.|ZYPREXA 20mg tablets|
-|antipsychotics v1|readv2|d4rG.|ZALASTA 2.5mg tablets|
-|antipsychotics v1|readv2|d4rH.|ZALASTA 5mg tablets|
-|antipsychotics v1|readv2|d4rI.|ZALASTA 7.5mg tablets|
-|antipsychotics v1|readv2|d4rJ.|ZALASTA 15mg tablets|
-|antipsychotics v1|readv2|d4rK.|ZALASTA 20mg tablets|
-|antipsychotics v1|readv2|d4rL.|ZALASTA 5mg disp tablets|
-|antipsychotics v1|readv2|d4rM.|ZALASTA 10mg disp tablets|
-|antipsychotics v1|readv2|d4rN.|ZALASTA 15mg disp tablets|
-|antipsychotics v1|readv2|d4rO.|ZALASTA 20mg disp tablets|
-|antipsychotics v1|readv2|d4rP.|ZALASTA 10mg tablets|
-|antipsychotics v1|readv2|d4rt.|OLANZAPINE 20mg tablets|
-|antipsychotics v1|readv2|d4ru.|OLANZAPINE 20mg disp tabs|
-|antipsychotics v1|readv2|d4rv.|OLANZAPINE 10mg inj powder|
-|antipsychotics v1|readv2|d4rw.|OLANZAPINE 15mg disp tabs|
-|antipsychotics v1|readv2|d4rx.|OLANZAPINE 15mg tablets|
-|antipsychotics v1|readv2|d4ry.|OLANZAPINE 5mg disp tabs|
-|antipsychotics v1|readv2|d4rz.|OLANZAPINE 10mg disp tabs|
-|antipsychotics v1|readv2|d4s..|QUETIAPINE|
-|antipsychotics v1|readv2|d4s1.|QUETIAPINE 25mg tablets|
-|antipsychotics v1|readv2|d4s2.|QUETIAPINE 100mg tablets|
-|antipsychotics v1|readv2|d4s3.|QUETIAPINE 200mg tablets|
-|antipsychotics v1|readv2|d4s4.|*QUETIAPINE tabs starter pack|
-|antipsychotics v1|readv2|d4s5.|SEROQUEL 25mg tablets|
-|antipsychotics v1|readv2|d4s6.|SEROQUEL 100mg tablets|
-|antipsychotics v1|readv2|d4s7.|SEROQUEL 200mg tablets|
-|antipsychotics v1|readv2|d4s8.|*SEROQUEL tablets starter pack|
-|antipsychotics v1|readv2|d4s9.|SEROQUEL 150mg tablets|
-|antipsychotics v1|readv2|d4sA.|*SEROQUEL 25mg+100mg+150mg tab|
-|antipsychotics v1|readv2|d4sB.|SEROQUEL 300mg tablets|
-|antipsychotics v1|readv2|d4sC.|SEROQUEL XL 50mg m/r tablets|
-|antipsychotics v1|readv2|d4sD.|SEROQUEL XL 200mg m/r tablets|
-|antipsychotics v1|readv2|d4sE.|SEROQUEL XL 300mg m/r tablets|
-|antipsychotics v1|readv2|d4sF.|SEROQUEL XL 400mg m/r tablets|
-|antipsychotics v1|readv2|d4sG.|SEROQUEL XL 150mg m/r tablets|
-|antipsychotics v1|readv2|d4sH.|SONDATE XL 50mg m/r tablets|
-|antipsychotics v1|readv2|d4sI.|SONDATE XL 200mg m/r tablets|
-|antipsychotics v1|readv2|d4sJ.|SONDATE XL 300mg m/r tablets|
-|antipsychotics v1|readv2|d4sK.|SONDATE XL 400mg m/r tablets|
-|antipsychotics v1|readv2|d4ss.|QUETIAPINE 150mg m/r tablets|
-|antipsychotics v1|readv2|d4st.|QUETIAPINE 400mg m/r tablets|
-|antipsychotics v1|readv2|d4su.|QUETIAPINE 300mg m/r tablets|
-|antipsychotics v1|readv2|d4sv.|QUETIAPINE 200mg m/r tablets|
-|antipsychotics v1|readv2|d4sw.|QUETIAPINE 50mg m/r tablets|
-|antipsychotics v1|readv2|d4sx.|QUETIAPINE 300mg tablets|
-|antipsychotics v1|readv2|d4sy.|*QUETIAPINE 25+100+150mg tabs|
-|antipsychotics v1|readv2|d4sz.|QUETIAPINE 150mg tablets|
-|antipsychotics v1|readv2|d4t..|AMISULPRIDE|
-|antipsychotics v1|readv2|d4t1.|AMISULPRIDE 50mg tablets|
-|antipsychotics v1|readv2|d4t2.|AMISULPRIDE 200mg tablets|
-|antipsychotics v1|readv2|d4t3.|SOLIAN 50mg tablets|
-|antipsychotics v1|readv2|d4t4.|SOLIAN 200mg tablets|
-|antipsychotics v1|readv2|d4t5.|SOLIAN 400mg tablets|
-|antipsychotics v1|readv2|d4t6.|SOLIAN 100mg/mL s/f oral soln|
-|antipsychotics v1|readv2|d4t7.|SOLIAN 100mg tablets|
-|antipsychotics v1|readv2|d4tx.|AMISULPRIDE 100mg tablets|
-|antipsychotics v1|readv2|d4ty.|AMISULPRIDE 100mg/mL s/f soln|
-|antipsychotics v1|readv2|d4tz.|AMISULPRIDE 400mg tablets|
-|antipsychotics v1|readv2|d4u..|ZOTEPINE|
-|antipsychotics v1|readv2|d4u1.|*ZOTEPINE 25mg tablets|
-|antipsychotics v1|readv2|d4u2.|*ZOTEPINE 50mg tablets|
-|antipsychotics v1|readv2|d4u3.|*ZOTEPINE 100mg tablets|
-|antipsychotics v1|readv2|d4u4.|*ZOLEPTIL 25mg tablets|
-|antipsychotics v1|readv2|d4u5.|*ZOLEPTIL 50mg tablets|
-|antipsychotics v1|readv2|d4u6.|*ZOLEPTIL 100mg tablets|
-|antipsychotics v1|readv2|d4v..|ARIPIPRAZOLE|
-|antipsychotics v1|readv2|d4v1.|ABILIFY 10mg tablets|
-|antipsychotics v1|readv2|d4v2.|ABILIFY 15mg tablets|
-|antipsychotics v1|readv2|d4v3.|ABILIFY 30mg tablets|
-|antipsychotics v1|readv2|d4v4.|ABILIFY 5mg tablets|
-|antipsychotics v1|readv2|d4v5.|ABILIFY 10mg disp tabs|
-|antipsychotics v1|readv2|d4v6.|ABILIFY 15mg disp tabs|
-|antipsychotics v1|readv2|d4v7.|ABILIFY 1mg/mL oral solution|
-|antipsychotics v1|readv2|d4v8.|ABILIFY 9.75mg/1.3mL inj|
-|antipsychotics v1|readv2|d4v9.|ABILIFY MAINTENA 400mg pdr inj|
-|antipsychotics v1|readv2|d4vr.|ARIPIPRAZOLE 400mg pdr inj|
-|antipsychotics v1|readv2|d4vs.|ARIPIPRAZOLE 9.75mg/1.3mL inj|
-|antipsychotics v1|readv2|d4vt.|ARIPIPRAZOLE 1mg/mL oral soln|
-|antipsychotics v1|readv2|d4vu.|ARIPIPRAZOLE 10mg disp tabs|
-|antipsychotics v1|readv2|d4vv.|ARIPIPRAZOLE 15mg disp tabs|
-|antipsychotics v1|readv2|d4vw.|ARIPIPRAZOLE 5mg tablets|
-|antipsychotics v1|readv2|d4vx.|ARIPIPRAZOLE 30mg tablets|
-|antipsychotics v1|readv2|d4vy.|ARIPIPRAZOLE 15mg tablets|
-|antipsychotics v1|readv2|d4vz.|ARIPIPRAZOLE 10mg tablets|
-|antipsychotics v1|readv2|d4w..|PALIPERIDONE|
-|antipsychotics v1|readv2|d4w1.|INVEGA 3mg m/r tablets|
-|antipsychotics v1|readv2|d4w2.|INVEGA 6mg m/r tablets|
-|antipsychotics v1|readv2|d4w3.|INVEGA 9mg m/r tablets|
-|antipsychotics v1|readv2|d4w4.|*INVEGA 12mg m/r tablets|
-|antipsychotics v1|readv2|d4w5.|XEPLION 50mg susp for inj pfs|
-|antipsychotics v1|readv2|d4w6.|XEPLION 75mg susp for inj pfs|
-|antipsychotics v1|readv2|d4w7.|XEPLION 100mg susp for inj pfs|
-|antipsychotics v1|readv2|d4w8.|XEPLION 150mg susp for inj pfs|
-|antipsychotics v1|readv2|d4w9.|*XEPLION 100mg + 150mg inj pfs|
-|antipsychotics v1|readv2|d4wr.|*PALIPERIDONE 100mg+150mg inj|
-|antipsychotics v1|readv2|d4ws.|PALIPERIDON 150mg susp inj pfs|
-|antipsychotics v1|readv2|d4wt.|PALIPERIDON 100mg susp inj pfs|
-|antipsychotics v1|readv2|d4wu.|PALIPERIDONE 75mg susp inj pfs|
-|antipsychotics v1|readv2|d4wv.|PALIPERIDONE 50mg susp inj pfs|
-|antipsychotics v1|readv2|d4ww.|*PALIPERIDONE 12mg m/r tablets|
-|antipsychotics v1|readv2|d4wx.|PALIPERIDONE 9mg m/r tablets|
-|antipsychotics v1|readv2|d4wy.|PALIPERIDONE 6mg m/r tablets|
-|antipsychotics v1|readv2|d4wz.|PALIPERIDONE 3mg m/r tablets|
-|antipsychotics v1|readv2|d4x..|ASENAPINE|
-|antipsychotics v1|readv2|d4x2.|ASENAPINE 5mg sublingual tabs|
-|antipsychotics v1|readv2|d4x4.|ASENAPINE 10mg sublingual tabs|
-|antipsychotics v1|readv2|d51..|FLUPENTIXOL DECANOATE|
-|antipsychotics v1|readv2|d511.|DEPIXOL 20mg/1mL injection|
-|antipsychotics v1|readv2|d512.|*DEPIXOL 20mg/1mL syringe|
-|antipsychotics v1|readv2|d513.|DEPIXOL 40mg/2mL injection|
-|antipsychotics v1|readv2|d514.|*DEPIXOL 40mg/2mL syringe|
-|antipsychotics v1|readv2|d515.|*DEPIXOL 200mg/10mL injection|
-|antipsychotics v1|readv2|d516.|DEPIXOL CONC. 100mg/1mL inj|
-|antipsychotics v1|readv2|d517.|*DEPIXOL CONC. 500mg/5mL inj|
-|antipsychotics v1|readv2|d518.|*DEPIXOL CONC. 50mg/0.5mL inj|
-|antipsychotics v1|readv2|d519.|FLUPENTIXOL 50mg/0.5mL inj|
-|antipsychotics v1|readv2|d51a.|DEPIXOL LV 200mg/1mL i-m inj|
-|antipsychotics v1|readv2|d51u.|FLUPENTIXOL 200mg/1ml i-m inj|
-|antipsychotics v1|readv2|d51v.|FLUPENTIXOL DEC 20mg/1mL inj|
-|antipsychotics v1|readv2|d51w.|FLUPENTIXOL DEC 40mg/2mL inj|
-|antipsychotics v1|readv2|d51y.|FLUPENTIXOL DEC 100mg/1mL inj|
-|antipsychotics v1|readv2|d52..|FLUPHENAZINE DECANOATE|
-|antipsychotics v1|readv2|d521.|MODECATE 12.5mg/0.5mL inj|
-|antipsychotics v1|readv2|d522.|MODECATE 25mg/1mL injection|
-|antipsychotics v1|readv2|d523.|*MODECATE 25mg/1mL syringe|
-|antipsychotics v1|readv2|d524.|MODECATE 50mg/2mL injection|
-|antipsychotics v1|readv2|d525.|*MODECATE 50mg/2mL syringe|
-|antipsychotics v1|readv2|d526.|*MODECATE 250mg/10mL injection|
-|antipsychotics v1|readv2|d527.|MODECATE CONC 50mg/0.5mL inj|
-|antipsychotics v1|readv2|d528.|MODECATE CONC 100mg/1mL inj|
-|antipsychotics v1|readv2|d529.|FLUPHENAZINE 50mg/0.5mL inj|
-|antipsychotics v1|readv2|d52a.|FLUPHENAZINE DEC 100mg/1mL inj|
-|antipsychotics v1|readv2|d52s.|*FLUPHENAZ DEC 25mg/1mL syrnge|
-|antipsychotics v1|readv2|d52t.|*FLUPHENAZ DEC 50mg/2mL syrnge|
-|antipsychotics v1|readv2|d52u.|FLUPHENAZ DEC 12.5mg/0.5mL inj|
-|antipsychotics v1|readv2|d52v.|FLUPHENAZINE DEC 25mg/1mL inj|
-|antipsychotics v1|readv2|d52w.|FLUPHENAZINE DEC 50mg/2mL inj|
-|antipsychotics v1|readv2|d52x.|*FLUPHENAZINE 250mg/10mL inj|
-|antipsychotics v1|readv2|d53..|*FLUPHENAZINE ENANTHATE|
-|antipsychotics v1|readv2|d531.|*MODITEN ENANTHATE 25mg/mL inj|
-|antipsychotics v1|readv2|d532.|*FLUPHENAZINE ENAN 25mg/1mL in|
-|antipsychotics v1|readv2|d55..|HALOPERIDOL DECANOATE|
-|antipsychotics v1|readv2|d551.|HALDOL DECANOATE 50mg/1mL inj|
-|antipsychotics v1|readv2|d552.|HALDOL DECANOATE 100mg/1mL inj|
-|antipsychotics v1|readv2|d553.|HALOPERIDOL 50mg/1mL injection|
-|antipsychotics v1|readv2|d554.|HALOPERIDOL 100mg/1mL inj|
-|antipsychotics v1|readv2|d56..|PIPOTIAZINE PALMITATE|
-|antipsychotics v1|readv2|d561.|PIPORTIL DEPOT 50mg/1mL inj|
-|antipsychotics v1|readv2|d562.|PIPORTIL DEPOT 100mg/2mL inj|
-|antipsychotics v1|readv2|d563.|PIPOTIAZINE 50mg/1mL injection|
-|antipsychotics v1|readv2|dw19.|*TRANQUILYN 5mg tablets|
-|antipsychotics v1|readv2|dw1A.|*TRANQUILYN 10mg tablets|
-|antipsychotics v1|readv2|dw1B.|*TRANQUILYN 20mg tablets|
-|antipsychotics v1|readv2|o42w.|*FENTANYL+DROP 100mcg/5mg inj|
-|antipsychotics v1|readv2|o52..|CHLORPROMAZINE HCL [ANAESTH]|
-|antipsychotics v1|readv2|o521.|*LARGACTIL 25mg/1mL injection|
-|antipsychotics v1|readv2|o522.|LARGACTIL 50mg injection|
-|antipsychotics v1|readv2|o52y.|CHLORPROMAZINE 25mg/1mL inj|
-|antipsychotics v1|readv2|o52z.|CHLORPROMAZINE 50mg/2mL inj|
-|antipsychotics v1|readv2|o54..|*DROPERIDOL [ANAESTHESIA]|
-|antipsychotics v1|readv2|o541.|*DROLEPTAN 10mg injection|
-|antipsychotics v1|readv2|o58..|*PERPHENAZINE [ANAESTHESIA]|
-|antipsychotics v1|readv2|o581.|*FENTAZIN 5mg/1mL injection|
-|antipsychotics v1|readv2|o58z.|*PERPHENAZINE 5mg/1mL inj|
-|antipsychotics v1|readv2|d4iz.|*TRIFLUPERIDOL 1mg tablets|
-|antipsychotics v1|readv2|d4j..|ZUCLOPENTHIXOL DIHYDROCHLORIDE|
-|antipsychotics v1|readv2|d4j1.|CLOPIXOL 2mg tablets|
-|antipsychotics v1|readv2|d4j2.|CLOPIXOL 10mg tablets|
-|antipsychotics v1|readv2|d4j3.|CLOPIXOL 25mg tablets|
-|antipsychotics v1|readv2|d4jx.|ZUCLOPENTHIXOL DIHCL 2mg tabs|
-|antipsychotics v1|readv2|d4jy.|ZUCLOPENTHIXOL DIHCL 10mg tabs|
-|antipsychotics v1|readv2|d4jz.|ZUCLOPENTHIXOL DIHCL 25mg tabs|
-|antipsychotics v1|readv2|da1..|FLUPENTIXOL [ANTIDEPRESSANT]|
-|antipsychotics v1|readv2|da1y.|FLUPENTIXOL 500mcg tablets|
-|antipsychotics v1|readv2|da1z.|FLUPENTIXOL 1mg tablets|
-|antipsychotics v1|readv2|dj24.|*DIAMORPH/COCAINE/CHLORPR elix|
-|antipsychotics v1|readv2|dj26.|*MORPHINE/COCAINE/CHLORPR elix|
-|antipsychotics v1|readv2|d564.|PIPOTIAZINE 100mg/2mL inj|
-|antipsychotics v1|readv2|d57..|ZUCLOPENTHIXOL DECANOATE|
-|antipsychotics v1|readv2|d571.|CLOPIXOL 200mg/1mL injection|
-|antipsychotics v1|readv2|d572.|*CLOPIXOL 2g/10mL injection|
-|antipsychotics v1|readv2|d573.|CLOPIXOL CONC. 500mg/1mL inj|
-|antipsychotics v1|readv2|d574.|*CLOPIXOL ACUPHASE 50mg/1mL|
-|antipsychotics v1|readv2|d575.|*CLOPIXOL ACUPHASE 100mg/2mL|
-|antipsychotics v1|readv2|d576.|ZUCLOPENTHIX DEC 200mg/1mL inj|
-|antipsychotics v1|readv2|d577.|*ZUCLOPENTHIXOL DEC 50mg/1mL|
-|antipsychotics v1|readv2|d578.|*ZUCLOPENTHIXOL DEC 100mg/2mL|
-|antipsychotics v1|readv2|d57y.|*ZUCLOPENTHIX DEC 2g/10mL inj|
-|antipsychotics v1|readv2|d57z.|ZUCLOPENTHIX DEC 500mg/1mL inj|
-|antipsychotics v1|readv2|d58..|OLANZAPINE PAMOATE|
-|antipsychotics v1|readv2|d581.|ZYPADHERA 210mg pdr+solv inj|
-|antipsychotics v1|readv2|d582.|ZYPADHERA 300mg pdr+solv inj|
-|antipsychotics v1|readv2|d583.|ZYPADHERA 405mg pdr+solv inj|
-|antipsychotics v1|readv2|d58x.|OLANZAPINE 405mg pdr+solv inj|
-|antipsychotics v1|readv2|d58y.|OLANZAPINE 300mg pdr+solv inj|
-|antipsychotics v1|readv2|d58z.|OLANZAPINE 210mg pdr+solv inj|
-|antipsychotics v1|readv2|d84..|TRANYLCYPROMINE|
-|antipsychotics v1|readv2|d84z.|TRANYLCYPROMINE 10mg tablets|
-|antipsychotics v1|readv2|d915.|*PARSTELIN tablets|
-|antipsychotics v1|readv2|d916.|TRIPTAFEN tablets|
-|antipsychotics v1|readv2|d917.|*TRIPTAFEN-M tablets|
-|antipsychotics v1|readv2|dh2..|*CHLORPROMAZINE HCL [NAUSEA]|
-|antipsychotics v1|readv2|dhd..|*PERPHENAZINE [NO DRUGS HERE]|
-|antipsychotics v1|readv2|dhi..|*TRIFLUOPERAZINE [NAUSEA]|
-|antipsychotics v1|readv2|ds1..|"*HALOPERIDOL [TICS, CHOREA]"|
-|covid-vaccination v1|ctv3|Y210d|2019-nCoV (novel coronavirus) vaccination|
-|covid-vaccination v1|ctv3|Y29e7|Administration of first dose of SARS-CoV-2 vaccine|
-|covid-vaccination v1|ctv3|Y29e8|Administration of second dose of SARS-CoV-2 vaccine|
-|covid-vaccination v1|ctv3|Y2a0e|SARS-2 Coronavirus vaccine|
-|covid-vaccination v1|ctv3|Y2a0f|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 1|
+|antipsychotics v1|emis|ABOR22952NEMIS|Abilify  Orodispersible tablets  10 mg|
+|antipsychotics v1|emis|ABOR22953NEMIS|Abilify  Orodispersible tablets  15 mg|
+|antipsychotics v1|emis|ABOR22954NEMIS|Abilify  Oral solution  1 mg/ml|
+|antipsychotics v1|emis|ABPO86920NEMIS|Abilify Maintena  Prolonged release suspension for injection  400 mg vial|
+|antipsychotics v1|emis|ABSO29381NEMIS|"Abilify  Solution for injection  7.5 mg/ml, 1.3 ml (9.75 mg) vial"|
+|antipsychotics v1|emis|ABTA18231NEMIS|Abilify  Tablets  10 mg|
+|antipsychotics v1|emis|ABTA18232NEMIS|Abilify  Tablets  15 mg|
+|antipsychotics v1|emis|ABTA18233NEMIS|Abilify  Tablets  30 mg|
+|antipsychotics v1|emis|ABTA19380NEMIS|Abilify  Tablets  5 mg|
+|antipsychotics v1|emis|AMOR11702NEMIS|Amisulpride  Oral solution  Sugar Free 100 mg/ml|
+|antipsychotics v1|emis|AMTA14267NEMIS|Amisulpride  Tablets  100 mg|
+|antipsychotics v1|emis|AMTA18788NEMIS|Amitriptyline And Perphenazine  Tablets  25 mg + 2 mg|
+|antipsychotics v1|emis|AMTA18789NEMIS|Amitriptyline And Perphenazine  Tablets  10 mg + 2 mg|
+|antipsychotics v1|emis|AMTA31585EMIS|Amisulpride  Tablets  200 mg|
+|antipsychotics v1|emis|AMTA31586EMIS|Amisulpride  Tablets  50 mg|
+|antipsychotics v1|emis|AMTA5672NEMIS|Amisulpride  Tablets  400 mg|
+|antipsychotics v1|emis|ANTA173|Anquil  Tablets  250 micrograms|
+|antipsychotics v1|emis|AROR22949NEMIS|Aripiprazole  Orodispersible Tablets (Sugar Free)  10 mg|
+|antipsychotics v1|emis|AROR22950NEMIS|Aripiprazole  Orodispersible Tablets (Sugar Free)  15 mg|
+|antipsychotics v1|emis|AROR22951NEMIS|Aripiprazole  Oral solution  1 mg/ml|
+|antipsychotics v1|emis|ARPO86916NEMIS|Aripiprazole  Powder and solvent for suspension for injection  400 mg vial|
+|antipsychotics v1|emis|ARSO29380NEMIS|"Aripiprazole  Solution for injection  7.5 mg/ml, 1.3 ml (9.75 mg) vial"|
+|antipsychotics v1|emis|ARTA18226NEMIS|Aripiprazole  Tablets  10 mg|
+|antipsychotics v1|emis|ARTA18228NEMIS|Aripiprazole  Tablets  15 mg|
+|antipsychotics v1|emis|ARTA18229NEMIS|Aripiprazole  Tablets  30 mg|
+|antipsychotics v1|emis|ARTA19379NEMIS|Aripiprazole  Tablets  5 mg|
+|antipsychotics v1|emis|ASSU51779NEMIS|Asenapine  Sublingual Tablets Sugar Free  5 mg|
+|antipsychotics v1|emis|ASSU51781NEMIS|Asenapine  Sublingual Tablets Sugar Free  10 mg|
+|antipsychotics v1|emis|BETA14415NEMIS|Benquil  Tablets  250 micrograms|
+|antipsychotics v1|emis|BETA4628|Benperidol  Tablets  250 micrograms|
+|antipsychotics v1|emis|CHEL7170|Chlorpromazine Hydrochloride  Oral solution  25 mg/5 ml|
+|antipsychotics v1|emis|CHIN20615EMIS|Chlorpromazine Hydrochloride  Injection  50 mg/2 ml ampoule|
+|antipsychotics v1|emis|CHIN589|Chlorpromazine Hydrochloride  Injection  25 mg/ml|
+|antipsychotics v1|emis|CHOR35370EMIS|Chlorpromazine Hydrochloride  Oral solution  100 mg/5 ml|
+|antipsychotics v1|emis|CHSU592|Chlorpromazine Hydrochloride  Suppositories  100 mg|
+|antipsychotics v1|emis|CHSY594|Chlorpromazine Hydrochloride  Syrup  25 mg/5 ml|
+|antipsychotics v1|emis|CHTA596|Chlorpromazine Hydrochloride  Tablets  10 mg|
+|antipsychotics v1|emis|CHTA597|Chlorpromazine Hydrochloride  Tablets  100 mg|
+|antipsychotics v1|emis|CHTA598|Chlorpromazine Hydrochloride  Tablets  25 mg|
+|antipsychotics v1|emis|CHTA599|Chlorpromazine Hydrochloride  Tablets  50 mg|
+|antipsychotics v1|emis|CHTAEGTON6692|Chloractil  Tablets  100 mg|
+|antipsychotics v1|emis|CHTAEGTON6693|Chloractil  Tablets  25 mg|
+|antipsychotics v1|emis|CHTAEGTON6694|Chloractil  Tablets  50 mg|
+|antipsychotics v1|emis|CLIN10979BRIDL|Clopixol Acuphase  Injection  50 mg/1 ml ampoule|
+|antipsychotics v1|emis|CLIN29855EMIS|Clopixol Acuphase  Injection  100 mg/2 ml ampoule|
+|antipsychotics v1|emis|CLIN656|"Clopixol  Injection  200 mg/ml, 1 ml ampoule"|
+|antipsychotics v1|emis|CLIN661|"Clopixol Conc.  Injection  500mg/ml, 1 ml ampoule"|
+|antipsychotics v1|emis|CLOR36513NEMIS|Clozapine  Oral Suspension Sugar Free  50 mg/ml|
+|antipsychotics v1|emis|CLTA10156BRIDL|Clozaril  Tablets  25 mg|
+|antipsychotics v1|emis|CLTA10158BRIDL|Clozaril  Tablets  100 mg|
+|antipsychotics v1|emis|CLTA36517NEMIS|Clozapine  Tablets  200 mg|
+|antipsychotics v1|emis|CLTA36518NEMIS|Clozapine  Tablets  50 mg|
+|antipsychotics v1|emis|CLTA658|Clopixol  Tablets  10 mg|
+|antipsychotics v1|emis|CLTA659|Clopixol  Tablets  2 mg|
+|antipsychotics v1|emis|CLTA660|Clopixol  Tablets  25 mg|
+|antipsychotics v1|emis|CLTA9311HILLI|Clozapine  Tablets  100 mg|
+|antipsychotics v1|emis|CLTA9313HILLI|Clozapine  Tablets  25 mg|
+|antipsychotics v1|emis|DEIN19569EMIS|"Depixol Low Volume  Injection  200 mg/ml, 1 ml ampoule"|
+|antipsychotics v1|emis|DEIN19577EMIS|Depixol  Injection  40 mg/2 ml ampoule|
+|antipsychotics v1|emis|DEIN19578EMIS|Depixol  Injection (syringe)  20 mg/1 ml|
+|antipsychotics v1|emis|DEIN19579EMIS|Depixol  Injection (syringe)  40 mg/2 ml|
+|antipsychotics v1|emis|DEIN19590EMIS|Depixol Conc.  Injection  50 mg/0.5 ml ampoule|
+|antipsychotics v1|emis|DEIN832|Depixol  Injection  20 mg/1 ml ampoule|
+|antipsychotics v1|emis|DEIN834|Depixol Conc.  Injection  100 mg/1 ml ampoule|
+|antipsychotics v1|emis|DEOR36514NEMIS|Denzapine  Oral suspension  50 mg/ml|
+|antipsychotics v1|emis|DETA18502NEMIS|Denzapine  Tablets  25 mg|
+|antipsychotics v1|emis|DETA18503NEMIS|Denzapine  Tablets  100 mg|
+|antipsychotics v1|emis|DETA36519NEMIS|Denzapine  Tablets  200 mg|
+|antipsychotics v1|emis|DETA36520NEMIS|Denzapine  Tablets  50 mg|
+|antipsychotics v1|emis|DETA833|Depixol  Tablets  3 mg|
+|antipsychotics v1|emis|DOLI984|Dozic  Liquid  1mg/ml|
+|antipsychotics v1|emis|DOLI985|Dozic  Liquid  2mg/ml|
+|antipsychotics v1|emis|DOTA28250EMIS|Dolmatil  Tablets  400 mg|
+|antipsychotics v1|emis|DOTA961|Dolmatil  Tablets  200 mg|
+|antipsychotics v1|emis|DRIN4873|Droperidol  Injection  5mg/ml|
+|antipsychotics v1|emis|DRIN998|Droleptan  Injection  5mg/ml|
+|antipsychotics v1|emis|DRLI4874|Droperidol  Liquid  1mg/ml|
+|antipsychotics v1|emis|DRLI999|Droleptan  Liquid  1mg/ml|
+|antipsychotics v1|emis|DRSO36266NEMIS|"Droperidol  Solution for injection  2.5 mg/ml, 1 ml ampoule"|
+|antipsychotics v1|emis|DRTA1000|Droleptan  Tablets  10 mg|
+|antipsychotics v1|emis|DRTA4875|Droperidol  Tablets  10 mg|
+|antipsychotics v1|emis|FEIN1163|Fentazin  Injection  5 mg/ml|
+|antipsychotics v1|emis|FETA1164|Fentazin  Tablets  2 mg|
+|antipsychotics v1|emis|FETA1165|Fentazin  Tablets  4 mg|
+|antipsychotics v1|emis|FETA1166|Fentazin  Tablets  8 mg|
+|antipsychotics v1|emis|FLDI25934EMIS|Fluphenazine Decanoate  Disposable syringe  25 mg/1 ml|
+|antipsychotics v1|emis|FLDI25935EMIS|Fluphenazine Decanoate  Disposable syringe  50 mg/2 ml|
+|antipsychotics v1|emis|FLIN1211|Flupenthixol Decanoate  Injection  20 mg/1 ml ampoule|
+|antipsychotics v1|emis|FLIN1212|Fluphenazine Decanoate  Injection  25 mg/1 ml ampoule|
+|antipsychotics v1|emis|FLIN1213|Fluphenazine Enanthate  Injection  25 mg/ml|
+|antipsychotics v1|emis|FLIN17656NEMIS|"Flupentixol  Injection  100 mg/ml, 0.5 ml ampoule"|
+|antipsychotics v1|emis|FLIN17657NEMIS|"Flupentixol  Injection  100 mg/ml, 1 ml ampoule"|
+|antipsychotics v1|emis|FLIN17658NEMIS|"Flupentixol  Injection  200 mg/ml, 1 ml ampoule"|
+|antipsychotics v1|emis|FLIN17659NEMIS|"Flupentixol  Injection  20 mg/ml, 1 ml ampoule"|
+|antipsychotics v1|emis|FLIN17660NEMIS|"Flupentixol  Injection  20 mg/ml, 2 ml ampoule"|
+|antipsychotics v1|emis|FLIN19571EMIS|"Flupenthixol Decanoate  Injection  200 mg/ml, 1 ml ampoule"|
+|antipsychotics v1|emis|FLIN19585EMIS|Flupenthixol Decanoate  Injection  40 mg/2 ml ampoule|
+|antipsychotics v1|emis|FLIN19587EMIS|Flupenthixol Decanoate  Injection (syringe)  40 mg/2 ml|
+|antipsychotics v1|emis|FLIN19594EMIS|Flupenthixol Decanoate  Injection  50 mg/0.5 ml ampoule|
+|antipsychotics v1|emis|FLIN25936EMIS|Fluphenazine Decanoate  Injection  12.5 mg/0.5 ml ampoule|
+|antipsychotics v1|emis|FLIN25937EMIS|Fluphenazine Decanoate  Injection  250 mg/10 ml vial|
+|antipsychotics v1|emis|FLIN25938EMIS|Fluphenazine Decanoate  Injection  50 mg/2 ml ampoule|
+|antipsychotics v1|emis|FLIN25940EMIS|Fluphenazine Decanoate  Injection  50 mg/0.5 ml ampoule|
+|antipsychotics v1|emis|FLIN4936|Flupenthixol Decanoate  Injection  100 mg/1 ml ampoule|
+|antipsychotics v1|emis|FLIN4937|Fluphenazine Decanoate  Injection  100 mg/1 ml ampoule|
+|antipsychotics v1|emis|FLTA1208|Flupenthixol  Tablets  1 mg|
+|antipsychotics v1|emis|FLTA1209|Flupenthixol  Tablets  3 mg|
+|antipsychotics v1|emis|FLTA1210|Flupenthixol  Tablets  500 micrograms|
+|antipsychotics v1|emis|FLTA17661NEMIS|Flupentixol  Tablets  1 mg|
+|antipsychotics v1|emis|FLTA17662NEMIS|Flupentixol  Tablets  500 micrograms|
+|antipsychotics v1|emis|FLTA17663NEMIS|Flupentixol  Tablets  3 mg|
+|antipsychotics v1|emis|FLTA4939|Fluphenazine Hydrochloride  Tablets  1 mg|
+|antipsychotics v1|emis|FLTA6994|Fluphenazine Hydrochloride  Tablets  2.5 mg|
+|antipsychotics v1|emis|FLTA6995|Fluphenazine Hydrochloride  Tablets  5 mg|
+|antipsychotics v1|emis|HACA1338|Haloperidol  Capsules  500 micrograms|
+|antipsychotics v1|emis|HAEL1339|Haloperidol  Elixir  2 mg/5 ml|
+|antipsychotics v1|emis|HAIN1335|"Haldol Decanoate  Injection  100 mg/ml, 1 ml ampoule"|
+|antipsychotics v1|emis|HAIN1336|"Haldol Decanoate  Injection  50 mg/ml, 1 ml ampoule"|
+|antipsychotics v1|emis|HAIN1340|"Haloperidol  Injection  10 mg/ml, 2 ml ampoule"|
+|antipsychotics v1|emis|HAIN1341|"Haloperidol  Injection  100 mg/ml, 1 ml ampoule"|
+|antipsychotics v1|emis|HAIN1343|"Haloperidol  Injection  50 mg/ml, 1 ml ampoule"|
+|antipsychotics v1|emis|HAIN15566NEMIS|"Haloperidol  Injection  5 mg/ml, 1 ml ampoule"|
+|antipsychotics v1|emis|HAIN15567NEMIS|"Haldol  Injection  5 mg/ml, 1 ml ampoule"|
+|antipsychotics v1|emis|HAIN6920|Haloperidol  Injection  5 mg/ml|
+|antipsychotics v1|emis|HAINEGTON6700|Haldol  Injection  5 mg/ml|
+|antipsychotics v1|emis|HALI4981|Haloperidol  Liquid  Sugar Free 1mg/ml|
+|antipsychotics v1|emis|HAOR13227NEMIS|"Haloperidol  Oral Solution, Sugar Free  1 mg/5 ml (200 micrograms/ml)"|
+|antipsychotics v1|emis|HAOR6921|Haloperidol  Oral liquid  Sugar Free 2 mg/ml|
+|antipsychotics v1|emis|HAOR6922|Haloperidol  Oral liquid conc.  10 mg/ml|
+|antipsychotics v1|emis|HAOREGTON6701|Haldol  Oral solution  2 mg/ml|
+|antipsychotics v1|emis|HAOREGTON6702|Haldol  Oral liquid conc.  10 mg/ml|
+|antipsychotics v1|emis|HATA1344|Haloperidol  Tablets  1.5 mg|
+|antipsychotics v1|emis|HATA1346|Haloperidol  Tablets  20 mg|
+|antipsychotics v1|emis|HATA1347|Haloperidol  Tablets  5 mg|
+|antipsychotics v1|emis|HATA4983|Haloperidol  Tablets  10 mg|
+|antipsychotics v1|emis|HATA6901|Haloperidol  Tablets  500 micrograms|
+|antipsychotics v1|emis|HATAEGTON6703|Haldol  Tablets  10 mg|
+|antipsychotics v1|emis|HATAEGTON6704|Haldol  Tablets  5 mg|
+|antipsychotics v1|emis|INCA1485|Integrin  Capsules  10 mg|
+|antipsychotics v1|emis|INM/26218NEMIS|Invega  M/R tablets  3 mg|
+|antipsychotics v1|emis|INM/26219NEMIS|Invega  M/R tablets  6 mg|
+|antipsychotics v1|emis|INM/26220NEMIS|Invega  M/R tablets  9 mg|
+|antipsychotics v1|emis|INTA1486|Integrin  Tablets  40 mg|
+|antipsychotics v1|emis|LAIN1610|Largactil  Injection  50 mg/2 ml ampoule|
+|antipsychotics v1|emis|LASU1614|Largactil  Suppositories  100 mg|
+|antipsychotics v1|emis|LASU1615|Largactil  Suspension forte  100 mg/5 ml|
+|antipsychotics v1|emis|LASY1616|Largactil  Syrup  25 mg/5 ml|
+|antipsychotics v1|emis|LATA1618|Largactil  Tablets  10 mg|
+|antipsychotics v1|emis|LATA1619|Largactil  Tablets  100 mg|
+|antipsychotics v1|emis|LATA1620|Largactil  Tablets  25 mg|
+|antipsychotics v1|emis|LATA1621|Largactil  Tablets  50 mg|
+|antipsychotics v1|emis|LEIN17312NEMIS|"Levomepromazine  Solution for injection  25 mg/ml, 1 ml ampoule"|
+|antipsychotics v1|emis|LETA17313NEMIS|Levomepromazine  Tablets  25 mg|
+|antipsychotics v1|emis|MEIN5137|"Methotrimeprazine Hydrochloride  Injection  25mg/ml, 1 ml ampoule"|
+|antipsychotics v1|emis|META5138|Methotrimeprazine Maleate  Tablets  25 mg|
+|antipsychotics v1|emis|MODI10308BRIDL|Modecate  Disposable syringe  25 mg/1 ml|
+|antipsychotics v1|emis|MODI10310BRIDL|Modecate  Disposable syringe  50 mg/2 ml|
+|antipsychotics v1|emis|MOIN10029BRIDL|Modecate  Injection  50 mg/2 ml ampoule|
+|antipsychotics v1|emis|MOIN1858|Modecate  Injection  12.5 mg/0.5 ml ampoule|
+|antipsychotics v1|emis|MOIN1859|Modecate Concentrate  Injection  100 mg/1 ml ampoule|
+|antipsychotics v1|emis|MOIN1864|Moditen Enanthate  Injection  25 mg/ml|
+|antipsychotics v1|emis|MOIN25942EMIS|Modecate  Injection  250 mg/10 ml vial|
+|antipsychotics v1|emis|MOIN25944EMIS|Modecate Concentrate  Injection  50 mg/0.5 ml ampoule|
+|antipsychotics v1|emis|MOSY8788BRIDL|Modecate  Injection  25 mg/1 ml ampoule|
+|antipsychotics v1|emis|MOTA1861|Moditen  Tablets  1 mg|
+|antipsychotics v1|emis|MOTA1862|Moditen  Tablets  2.5 mg|
+|antipsychotics v1|emis|MOTA1863|Moditen  Tablets  5 mg|
+|antipsychotics v1|emis|NESY1969|Neulactil  Syrup forte  10mg/5 ml|
+|antipsychotics v1|emis|NETA1970|Neulactil  Tablets  10 mg|
+|antipsychotics v1|emis|NETA1971|Neulactil  Tablets  2.5 mg|
+|antipsychotics v1|emis|NETA1972|Neulactil  Tablets  25 mg|
+|antipsychotics v1|emis|NOIN2038|"Nozinan  Solution for injection  25mg/ml, 1 ml ampoule"|
+|antipsychotics v1|emis|NOTA18780NEMIS|Nortriptyline And Fluphenazine  Tablets  10 mg + 500 micrograms|
+|antipsychotics v1|emis|OLOR13260NEMIS|Olanzapine  Oral Lyophilisate Sugar Free  15 mg|
+|antipsychotics v1|emis|OLOR21754NEMIS|Olanzapine  Oral Lyophilisate Sugar Free  20 mg|
+|antipsychotics v1|emis|OLOR3800NEMIS|Olanzapine  Oral Lyophilisate Sugar Free  5 mg|
+|antipsychotics v1|emis|OLOR3801NEMIS|Olanzapine  Oral Lyophilisate Sugar Free  10 mg|
+|antipsychotics v1|emis|OLPO16908NEMIS|Olanzapine  Powder For Solution For Injection  10 mg vial|
+|antipsychotics v1|emis|OLPR42225NEMIS|Olanzapine  Prolonged release suspension for injection  210 mg vial|
+|antipsychotics v1|emis|OLPR42227NEMIS|Olanzapine  Prolonged release suspension for injection  300 mg vial|
+|antipsychotics v1|emis|OLPR42228NEMIS|Olanzapine  Prolonged release suspension for injection  405 mg vial|
+|antipsychotics v1|emis|OLTA13258NEMIS|Olanzapine  Tablets  15 mg|
+|antipsychotics v1|emis|OLTA29729EMIS|Olanzapine  Tablets  10 mg|
+|antipsychotics v1|emis|OLTA29730EMIS|Olanzapine  Tablets  5 mg|
+|antipsychotics v1|emis|OLTA29731EMIS|Olanzapine  Tablets  7.5 mg|
+|antipsychotics v1|emis|OLTA34085EMIS|Olanzapine  Tablets  2.5 mg|
+|antipsychotics v1|emis|ORTA2093|Orap  Tablets  10 mg|
+|antipsychotics v1|emis|ORTA2095|Orap  Tablets  2 mg|
+|antipsychotics v1|emis|ORTA2096|Orap  Tablets  4 mg|
+|antipsychotics v1|emis|PAM/26213NEMIS|Paliperidone  M/R tablets  3 mg|
+|antipsychotics v1|emis|PAM/26215NEMIS|Paliperidone  M/R tablets  6 mg|
+|antipsychotics v1|emis|PAM/26216NEMIS|Paliperidone  M/R tablets  9 mg|
+|antipsychotics v1|emis|PASU50807NEMIS|Paliperidone  Suspension For Injection  50 mg/0.5 ml pre-filled syringe|
+|antipsychotics v1|emis|PASU50808NEMIS|Paliperidone  Suspension For Injection  75 mg/0.75 ml pre-filled syringe|
+|antipsychotics v1|emis|PASU50809NEMIS|Paliperidone  Suspension For Injection  100 mg/1 ml pre-filled syringe|
+|antipsychotics v1|emis|PASU50810NEMIS|Paliperidone  Suspension For Injection  150 mg/1.5 ml pre-filled syringe|
+|antipsychotics v1|emis|PATA4125|Parstelin  Tablets|
+|antipsychotics v1|emis|PEIN2201|Perphenazine  Injection  5 mg/ml|
+|antipsychotics v1|emis|PESY5253|Pericyazine  Oral solution  10mg/5 ml|
+|antipsychotics v1|emis|PETA2202|Perphenazine  Tablets  2 mg|
+|antipsychotics v1|emis|PETA2203|Perphenazine  Tablets  4 mg|
+|antipsychotics v1|emis|PETA2204|Perphenazine  Tablets  8 mg|
+|antipsychotics v1|emis|PETA5254|Pericyazine  Tablets  10 mg|
+|antipsychotics v1|emis|PETA7008|Pericyazine  Tablets  2.5 mg|
+|antipsychotics v1|emis|PETA7009|Pericyazine  Tablets  25 mg|
+|antipsychotics v1|emis|PIIN17829NEMIS|"Pipotiazine  Injection  50 mg/ml, 2 ml ampoule"|
+|antipsychotics v1|emis|PIIN17830NEMIS|"Pipotiazine  Injection  50 mg/ml, 1 ml ampoule"|
+|antipsychotics v1|emis|PIIN2270|Piportil Depot  Injection  50 mg/1 ml ampoule|
+|antipsychotics v1|emis|PIIN27780EMIS|Piportil Depot  Injection  100 mg/2 ml ampoule|
+|antipsychotics v1|emis|PIIN5296|Pipothiazine Palmitate  Injection  50 mg/1 ml ampoule|
+|antipsychotics v1|emis|PITA2262|Pimozide  Tablets  10 mg|
+|antipsychotics v1|emis|PITA2263|Pimozide  Tablets  2 mg|
+|antipsychotics v1|emis|PITA2264|Pimozide  Tablets  4 mg|
+|antipsychotics v1|emis|PRIN2374|Promazine Hydrochloride  Injection  50 mg/ml|
+|antipsychotics v1|emis|PROR11626NEMIS|Promazine Hydrochloride  Oral solution  50 mg/5 ml|
+|antipsychotics v1|emis|PRSU2375|Promazine Hydrochloride  Suspension  50 mg/5 ml|
+|antipsychotics v1|emis|PRSY12797NEMIS|Promazine Hydrochloride  Syrup  50 mg/5 ml|
+|antipsychotics v1|emis|PRSY29334EMIS|Promazine Hydrochloride  Oral solution  25 mg/5 ml|
+|antipsychotics v1|emis|PRTA2377|Promazine Hydrochloride  Tablets  25 mg|
+|antipsychotics v1|emis|PRTA2378|Promazine Hydrochloride  Tablets  50 mg|
+|antipsychotics v1|emis|QUM/31060NEMIS|Quetiapine Fumarate  M/R tablets  50 mg|
+|antipsychotics v1|emis|QUM/31061NEMIS|Quetiapine Fumarate  M/R tablets  200 mg|
+|antipsychotics v1|emis|QUM/31062NEMIS|Quetiapine Fumarate  M/R tablets  300 mg|
+|antipsychotics v1|emis|QUM/31063NEMIS|Quetiapine Fumarate  M/R tablets  400 mg|
+|antipsychotics v1|emis|QUM/45842NEMIS|Quetiapine Fumarate  M/R tablets  150 mg|
+|antipsychotics v1|emis|QUTA16219NEMIS|Quetiapine Fumarate  Tablets  300 mg|
+|antipsychotics v1|emis|QUTA31563EMIS|Quetiapine Fumarate  Tablets  100 mg|
+|antipsychotics v1|emis|QUTA31564EMIS|Quetiapine Fumarate  Tablets  200 mg|
+|antipsychotics v1|emis|QUTA31565EMIS|Quetiapine Fumarate  Tablets  25 mg|
+|antipsychotics v1|emis|QUTA31566EMIS|"Quetiapine Fumarate  Tablets (starter pack)  6 x 25 mg, 2 x 100 mg"|
+|antipsychotics v1|emis|QUTA959NEMIS|Quetiapine Fumarate  Tablets  150 mg|
+|antipsychotics v1|emis|REM/18891EMIS|Remoxipride Hydrochloride  M/R capsules  150 mg|
+|antipsychotics v1|emis|REM/18892EMIS|Remoxipride Hydrochloride  M/R capsules  300 mg|
+|antipsychotics v1|emis|RILI28308EMIS|Risperdal  Oral solution  1 mg/1 ml|
+|antipsychotics v1|emis|RILI28310EMIS|"Risperidone  Oral Solution, Sugar Free  1 mg/1 ml"|
+|antipsychotics v1|emis|RIOR14731NEMIS|Risperidone  Orodispersible tablets  Sugar Free 1 mg|
+|antipsychotics v1|emis|RIOR14732NEMIS|Risperidone  Orodispersible tablets  Sugar Free 2 mg|
+|antipsychotics v1|emis|RIOR14734NEMIS|Risperdal Quicklet  Orodispersible tablets  1 mg|
+|antipsychotics v1|emis|RIOR14735NEMIS|Risperdal Quicklet  Orodispersible tablets  2 mg|
+|antipsychotics v1|emis|RIOR19655NEMIS|Risperidone  Orodispersible tablets  Sugar Free 500 micrograms|
+|antipsychotics v1|emis|RIOR19656NEMIS|Risperdal Quicklet  Orodispersible tablets  500 micrograms|
+|antipsychotics v1|emis|RIOR23720NEMIS|Risperidone  Orodispersible tablets  Sugar Free 3 mg|
+|antipsychotics v1|emis|RIOR23721NEMIS|Risperidone  Orodispersible tablets  Sugar Free 4 mg|
+|antipsychotics v1|emis|RIOR23722NEMIS|Risperdal Quicklet  Orodispersible tablets  3 mg|
+|antipsychotics v1|emis|RIOR23723NEMIS|Risperdal Quicklet  Orodispersible tablets  4 mg|
+|antipsychotics v1|emis|RIPO13559NEMIS|Risperdal Consta  Powder and solvent for suspension for injection  25 mg vial|
+|antipsychotics v1|emis|RIPO13560NEMIS|Risperdal Consta  Powder and solvent for suspension for injection  37.5 mg vial|
+|antipsychotics v1|emis|RIPO13561NEMIS|Risperdal Consta  Powder and solvent for suspension for injection  50 mg vial|
+|antipsychotics v1|emis|RIPO13562NEMIS|Risperidone  Powder and solvent for suspension for injection  25 mg vial|
+|antipsychotics v1|emis|RIPO13563NEMIS|Risperidone  Powder and solvent for suspension for injection  37.5 mg vial|
+|antipsychotics v1|emis|RIPO13564NEMIS|Risperidone  Powder and solvent for suspension for injection  50 mg vial|
+|antipsychotics v1|emis|RITA23782EMIS|Risperdal  Tablets  1 mg|
+|antipsychotics v1|emis|RITA23783EMIS|Risperdal  Tablets  2 mg|
+|antipsychotics v1|emis|RITA23784EMIS|Risperdal  Tablets  3 mg|
+|antipsychotics v1|emis|RITA23785EMIS|Risperdal  Tablets  4 mg|
+|antipsychotics v1|emis|RITA23790EMIS|Risperidone  Tablets  1 mg|
+|antipsychotics v1|emis|RITA23791EMIS|Risperidone  Tablets  2 mg|
+|antipsychotics v1|emis|RITA23792EMIS|Risperidone  Tablets  3 mg|
+|antipsychotics v1|emis|RITA23793EMIS|Risperidone  Tablets  4 mg|
+|antipsychotics v1|emis|RITA31679EMIS|Risperdal  Tablets  6 mg|
+|antipsychotics v1|emis|RITA31681EMIS|Risperidone  Tablets  6 mg|
+|antipsychotics v1|emis|RITA5272NEMIS|Risperdal  Tablets  500 micrograms|
+|antipsychotics v1|emis|RITA5273NEMIS|Risperidone  Tablets  500 micrograms|
+|antipsychotics v1|emis|ROM/18887EMIS|Roxiam  M/R capsules  150 mg|
+|antipsychotics v1|emis|ROM/18888EMIS|Roxiam  M/R capsules  300 mg|
+|antipsychotics v1|emis|SECA2552|Serenace  Capsules  500 micrograms|
+|antipsychotics v1|emis|SEEL9000BRIDL|Serenace  Elixir  2mg/ml|
+|antipsychotics v1|emis|SEIN2554|"Serenace  Injection  10 mg/ml, 2 ml ampoule"|
+|antipsychotics v1|emis|SEIN2555|"Serenace  Injection  5 mg/ml, 1 ml ampoule"|
+|antipsychotics v1|emis|SEM/31065NEMIS|Seroquel Xl  M/R tablets  50 mg|
+|antipsychotics v1|emis|SEM/31066NEMIS|Seroquel Xl  M/R tablets  200 mg|
+|antipsychotics v1|emis|SEM/31067NEMIS|Seroquel Xl  M/R tablets  300 mg|
+|antipsychotics v1|emis|SEM/31068NEMIS|Seroquel Xl  M/R tablets  400 mg|
+|antipsychotics v1|emis|SEM/45843NEMIS|Seroquel Xl  M/R tablets  150 mg|
+|antipsychotics v1|emis|SETA16220NEMIS|Seroquel  Tablets  300 mg|
+|antipsychotics v1|emis|SETA2556|Serenace  Tablets  1.5 mg|
+|antipsychotics v1|emis|SETA2557|Serenace  Tablets  10 mg|
+|antipsychotics v1|emis|SETA2558|Serenace  Tablets  20 mg|
+|antipsychotics v1|emis|SETA2559|Serenace  Tablets  5 mg|
+|antipsychotics v1|emis|SETA29198EMIS|Serdolect  Tablets  12 mg|
+|antipsychotics v1|emis|SETA29199EMIS|Serdolect  Tablets  16 mg|
+|antipsychotics v1|emis|SETA29200EMIS|Serdolect  Tablets  20 mg|
+|antipsychotics v1|emis|SETA29201EMIS|Serdolect  Tablets  4 mg|
+|antipsychotics v1|emis|SETA29206EMIS|Sertindole  Tablets  12 mg|
+|antipsychotics v1|emis|SETA29207EMIS|Sertindole  Tablets  16 mg|
+|antipsychotics v1|emis|SETA29208EMIS|Sertindole  Tablets  20 mg|
+|antipsychotics v1|emis|SETA29209EMIS|Sertindole  Tablets  4 mg|
+|antipsychotics v1|emis|SETA31555EMIS|Seroquel  Tablets  100 mg|
+|antipsychotics v1|emis|SETA31556EMIS|Seroquel  Tablets  200 mg|
+|antipsychotics v1|emis|SETA31557EMIS|Seroquel  Tablets  25 mg|
+|antipsychotics v1|emis|SETA31558EMIS|"Seroquel  Tablets (starter pack)  6 x 25 mg, 2 x 100 mg"|
+|antipsychotics v1|emis|SETA803NEMIS|"Seroquel  Tablets (starter pack)  6x25 mg, 2x100 mg, 2x150 mg"|
+|antipsychotics v1|emis|SETA960NEMIS|Seroquel  Tablets  150 mg|
+|antipsychotics v1|emis|SOM/71618NEMIS|Sondate Xl  M/R tablets  50 mg|
+|antipsychotics v1|emis|SOM/71619NEMIS|Sondate Xl  M/R tablets  200 mg|
+|antipsychotics v1|emis|SOM/71620NEMIS|Sondate Xl  M/R tablets  300 mg|
+|antipsychotics v1|emis|SOM/71621NEMIS|Sondate Xl  M/R tablets  400 mg|
+|antipsychotics v1|emis|SOOR11703NEMIS|Solian  Oral solution  100 mg/ml|
+|antipsychotics v1|emis|SOTA14268NEMIS|Solian  Tablets  100 mg|
+|antipsychotics v1|emis|SOTA31581EMIS|Solian  Tablets  200 mg|
+|antipsychotics v1|emis|SOTA31582EMIS|Solian  Tablets  50 mg|
+|antipsychotics v1|emis|SOTA5673NEMIS|Solian  Tablets  400 mg|
+|antipsychotics v1|emis|SPIN2652|Sparine  Injection  50 mg/ml|
+|antipsychotics v1|emis|SPSU2653|Sparine  Suspension  50 mg/5 ml|
+|antipsychotics v1|emis|STIN2680|Stelazine  Injection  1 mg/ml|
+|antipsychotics v1|emis|STLI2682|Stelazine  Liquid  10mg/ml|
+|antipsychotics v1|emis|STOR18275NEMIS|"Stelazine Forte  Oral Solution, Sugar Free  5 mg/5 ml"|
+|antipsychotics v1|emis|STSP2683|Stelazine  Spansules  10 mg|
+|antipsychotics v1|emis|STSP2684|Stelazine  Spansules  15 mg|
+|antipsychotics v1|emis|STSP2685|Stelazine  Spansules  2 mg|
+|antipsychotics v1|emis|STSY2686|Stelazine  Syrup  1 mg/5 ml|
+|antipsychotics v1|emis|STTA2688|Stelazine  Tablets  1 mg|
+|antipsychotics v1|emis|STTA2689|Stelazine  Tablets  5 mg|
+|antipsychotics v1|emis|SUOR11892NEMIS|Sulpor  Sugar-free oral solution  200 mg/5 ml|
+|antipsychotics v1|emis|SUSU32911EMIS|Sulpiride  Sugar-free oral solution  200 mg/5 ml|
+|antipsychotics v1|emis|SUTA2733|Sulpiride  Tablets  200 mg|
+|antipsychotics v1|emis|SUTA2734|Sulpitil  Tablets  200 mg|
+|antipsychotics v1|emis|SUTA28248EMIS|Sulpiride  Tablets  400 mg|
+|antipsychotics v1|emis|SUTA3785NEMIS|Sulparex  Tablets  200 mg|
+|antipsychotics v1|emis|THSU5441|Thioridazine  Suspension  100mg/5 ml|
+|antipsychotics v1|emis|THSU6978|Thioridazine  Suspension  25mg/5 ml|
+|antipsychotics v1|emis|THSY2845|Thioridazine  Syrup  25 mg/5 ml|
+|antipsychotics v1|emis|THTA2846|Thioridazine  Tablets  10 mg|
+|antipsychotics v1|emis|THTA2847|Thioridazine  Tablets  100 mg|
+|antipsychotics v1|emis|THTA2848|Thioridazine  Tablets  25 mg|
+|antipsychotics v1|emis|THTA2849|Thioridazine  Tablets  50 mg|
+|antipsychotics v1|emis|TRIN2923|Trifluoperazine  Injection  1 mg/ml|
+|antipsychotics v1|emis|TRLI5471|Trifluoperazine  Liquid  10mg/ml|
+|antipsychotics v1|emis|TROR28542EMIS|Trifluoperazine  Oral solution  Sugar Free 5 mg/5 ml|
+|antipsychotics v1|emis|TRSP2924|Trifluoperazine  Spansules  10 mg|
+|antipsychotics v1|emis|TRSP2925|Trifluoperazine  Spansules  15 mg|
+|antipsychotics v1|emis|TRSP2926|Trifluoperazine  Spansules  2 mg|
+|antipsychotics v1|emis|TRSY2927|"Trifluoperazine  Oral Solution, Sugar Free  1 mg/5 ml"|
+|antipsychotics v1|emis|TRTA13267NEMIS|Tranquilyn  Tablets  5 mg|
+|antipsychotics v1|emis|TRTA13268NEMIS|Tranquilyn  Tablets  10 mg|
+|antipsychotics v1|emis|TRTA13269NEMIS|Tranquilyn  Tablets  20 mg|
+|antipsychotics v1|emis|TRTA2894|Tranylcypromine  Tablets  10 mg|
+|antipsychotics v1|emis|TRTA2928|Trifluoperazine  Tablets  1 mg|
+|antipsychotics v1|emis|TRTA2929|Trifluoperazine  Tablets  5 mg|
+|antipsychotics v1|emis|TRTA2944|Triperidol  Tablets  1 mg|
+|antipsychotics v1|emis|TRTA2945|Triperidol  Tablets  500 mcg|
+|antipsychotics v1|emis|TRTA4462|Triptafen  Tablets  |
+|antipsychotics v1|emis|TRTA4463|Triptafen-M  Tablets  |
+|antipsychotics v1|emis|TRTA5473|Trifluperidol  Tablets  1 mg|
+|antipsychotics v1|emis|TRTA7103|Trifluperidol  Tablets  500 mcg|
+|antipsychotics v1|emis|VETA3038|Nozinan  Tablets  25 mg|
+|antipsychotics v1|emis|XESU50812NEMIS|Xeplion  Suspension For Injection  50 mg/0.5 ml pre-filled syringe|
+|antipsychotics v1|emis|XESU50813NEMIS|Xeplion  Suspension For Injection  75 mg/0.75 ml pre-filled syringe|
+|antipsychotics v1|emis|XESU50814NEMIS|Xeplion  Suspension For Injection  100 mg/1 ml pre-filled syringe|
+|antipsychotics v1|emis|XESU50815NEMIS|Xeplion  Suspension For Injection  150 mg/1.5 ml pre-filled syringe|
+|antipsychotics v1|emis|ZAOR52077NEMIS|Zalasta  Orodispersible tablets  10 mg|
+|antipsychotics v1|emis|ZAOR52078NEMIS|Zalasta  Orodispersible tablets  15 mg|
+|antipsychotics v1|emis|ZAOR52079NEMIS|Zalasta  Orodispersible tablets  20 mg|
+|antipsychotics v1|emis|ZAOR52080NEMIS|Zalasta  Orodispersible tablets  5 mg|
+|antipsychotics v1|emis|ZATA19394NEMIS|Zaponex  Tablets  25 mg|
+|antipsychotics v1|emis|ZATA19395NEMIS|Zaponex  Tablets  100 mg|
+|antipsychotics v1|emis|ZATA51977NEMIS|Zalasta  Tablets  10 mg|
+|antipsychotics v1|emis|ZATA51978NEMIS|Zalasta  Tablets  15 mg|
+|antipsychotics v1|emis|ZATA51979NEMIS|Zalasta  Tablets  2.5 mg|
+|antipsychotics v1|emis|ZATA51980NEMIS|Zalasta  Tablets  20 mg|
+|antipsychotics v1|emis|ZATA51981NEMIS|Zalasta  Tablets  5 mg|
+|antipsychotics v1|emis|ZATA51982NEMIS|Zalasta  Tablets  7.5 mg|
+|antipsychotics v1|emis|ZOTA34924EMIS|Zoleptil  Tablets  100 mg|
+|antipsychotics v1|emis|ZOTA34925EMIS|Zoleptil  Tablets  25 mg|
+|antipsychotics v1|emis|ZOTA34926EMIS|Zoleptil  Tablets  50 mg|
+|antipsychotics v1|emis|ZOTA34930EMIS|Zotepine  Tablets  100 mg|
+|antipsychotics v1|emis|ZOTA34931EMIS|Zotepine  Tablets  25 mg|
+|antipsychotics v1|emis|ZOTA34932EMIS|Zotepine  Tablets  50 mg|
+|antipsychotics v1|emis|ZUIN29852EMIS|Zuclopenthixol Acetate  Injection  100 mg/2 ml ampoule|
+|antipsychotics v1|emis|ZUIN29853EMIS|Zuclopenthixol Acetate  Injection  50 mg/1 ml ampoule|
+|antipsychotics v1|emis|ZUIN5509|"Zuclopenthixol Decanoate  Injection  200 mg/ml, 1 ml ampoule"|
+|antipsychotics v1|emis|ZUIN5510|"Zuclopenthixol Decanoate  Injection  500mg/ml, 1 ml ampoule"|
+|antipsychotics v1|emis|ZUTA5511|Zuclopenthixol Dihydrochloride  Tablets  10 mg|
+|antipsychotics v1|emis|ZUTA6848|Zuclopenthixol Dihydrochloride  Tablets  2 mg|
+|antipsychotics v1|emis|ZUTA6849|Zuclopenthixol Dihydrochloride  Tablets  25 mg|
+|antipsychotics v1|emis|ZYOR13262NEMIS|Zyprexa Velotab  Orodispersible tablets  15 mg|
+|antipsychotics v1|emis|ZYOR21755NEMIS|Zyprexa Velotab  Orodispersible tablets  20 mg|
+|antipsychotics v1|emis|ZYOR3803NEMIS|Zyprexa Velotab  Orodispersible tablets  5 mg|
+|antipsychotics v1|emis|ZYOR3804NEMIS|Zyprexa Velotab  Orodispersible tablets  10 mg|
+|antipsychotics v1|emis|ZYPO16909NEMIS|Zyprexa  Powder For Solution For Injection  10 mg vial|
+|antipsychotics v1|emis|ZYPR42083NEMIS|Zypadhera  Prolonged release suspension for injection  210 mg vial|
+|antipsychotics v1|emis|ZYPR42084NEMIS|Zypadhera  Prolonged release suspension for injection  300 mg vial|
+|antipsychotics v1|emis|ZYPR42085NEMIS|Zypadhera  Prolonged release suspension for injection  405 mg vial|
+|antipsychotics v1|emis|ZYTA13261NEMIS|Zyprexa  Tablets  15 mg|
+|antipsychotics v1|emis|ZYTA23535NEMIS|Zyprexa  Tablets  20 mg|
+|antipsychotics v1|emis|ZYTA29723EMIS|Zyprexa  Tablets  10 mg|
+|antipsychotics v1|emis|ZYTA29724EMIS|Zyprexa  Tablets  5 mg|
+|antipsychotics v1|emis|ZYTA29725EMIS|Zyprexa  Tablets  7.5 mg|
+|antipsychotics v1|emis|ZYTA34083EMIS|Zyprexa  Tablets  2.5 mg|
+|antipsychotics v1|readv2|d4ew.|PROMAZINE 50mg/5mL syrup|
+|antipsychotics v1|readv2|d4ex.|*PROMAZINE 50mg/5mL suspension|
+|antipsychotics v1|readv2|d4ey.|PROMAZINE 50mg/1mL injection|
+|antipsychotics v1|readv2|d4ez.|*PROMAZINE 100mg/2mL injection|
+|antipsychotics v1|readv2|d4f..|SULPIRIDE|
+|antipsychotics v1|readv2|d4f1.|DOLMATIL 200mg tablets|
+|antipsychotics v1|readv2|d4f2.|*SULPITIL 200mg tablets x28CP|
+|antipsychotics v1|readv2|d4f3.|*SULPITIL 200mg tablets x112CP|
+|antipsychotics v1|readv2|d4f4.|*SULPAREX 200mg tablets|
+|antipsychotics v1|readv2|d4f5.|DOLMATIL 400mg tablets|
+|antipsychotics v1|readv2|d4f6.|SULPOR 200mg/5mL oral solution|
+|antipsychotics v1|readv2|d4fw.|SULPIRIDE 200mg/5mL oral soln|
+|antipsychotics v1|readv2|d4fx.|SULPIRIDE 400mg tablets|
+|antipsychotics v1|readv2|d4fy.|SULPIRIDE 200mg/5mL s/f soln|
+|antipsychotics v1|readv2|d4fz.|SULPIRIDE 200mg tablets|
+|antipsychotics v1|readv2|d4g..|THIORIDAZINE|
+|antipsychotics v1|readv2|d4gp.|THIORIDAZINE 10mg/5mL syrup|
+|antipsychotics v1|readv2|d4gq.|THIORIDAZINE 25mg/5mL s/f soln|
+|antipsychotics v1|readv2|d4gr.|THIORIDAZINE 50mg/5mL s/f soln|
+|antipsychotics v1|readv2|d4gs.|THIORIDAZINE 100mg/5mL sf soln|
+|antipsychotics v1|readv2|d4gt.|*THIORIDAZINE 10mg tablets|
+|antipsychotics v1|readv2|d4gu.|THIORIDAZINE 25mg tablets|
+|antipsychotics v1|readv2|d4gv.|THIORIDAZINE 50mg tablets|
+|antipsychotics v1|readv2|d4gw.|THIORIDAZINE 100mg tablets|
+|antipsychotics v1|readv2|d4gx.|*THIORIDAZINE 25mg/5mL susp|
+|antipsychotics v1|readv2|d4gy.|*THIORIDAZINE 100mg/5mL susp|
+|antipsychotics v1|readv2|d4gz.|*THIORIDAZINE 25mg/5mL syrup|
+|antipsychotics v1|readv2|d4h..|TRIFLUOPERAZINE [ANTIPSYCHOTIC|
+|antipsychotics v1|readv2|d4h1.|*STELAZINE 1mg tablets|
+|antipsychotics v1|readv2|d4h2.|*STELAZINE 5mg tablets|
+|antipsychotics v1|readv2|d4h3.|*STELAZINE 2mg m/r capsules|
+|antipsychotics v1|readv2|d4h4.|*STELAZINE 10mg m/r capsules|
+|antipsychotics v1|readv2|d4h5.|*STELAZINE 15mg m/r capsules|
+|antipsychotics v1|readv2|d4h6.|*STELAZINE 1mg/5mL syrup|
+|antipsychotics v1|readv2|d4h7.|*STELAZINE 10mg/mL liquid|
+|antipsychotics v1|readv2|d4h8.|*STELAZINE 1mg/1mL injection|
+|antipsychotics v1|readv2|d4h9.|TRIFLUOPERAZ 5mg/5mL s/f syrup|
+|antipsychotics v1|readv2|d4hA.|*STELAZINE FORTE 5mg/5mL susp|
+|antipsychotics v1|readv2|d4hr.|*TRIFLUOPERAZINE 5mg/5mL susp|
+|antipsychotics v1|readv2|d4hs.|TRIFLUOPERAZINE 1mg tablets|
+|antipsychotics v1|readv2|d4ht.|TRIFLUOPERAZINE 5mg tablets|
+|antipsychotics v1|readv2|d4hu.|*TRIFLUOPERAZINE 2mg m/r caps|
+|antipsychotics v1|readv2|d4hv.|*TRIFLUOPERAZINE 10mg m/r caps|
+|antipsychotics v1|readv2|d4hw.|*TRIFLUOPERAZINE 15mg m/r caps|
+|antipsychotics v1|readv2|d4hx.|TRIFLUOPERAZINE 1mg/5mL syrup|
+|antipsychotics v1|readv2|d4hy.|*TRIFLUOPERAZINE 10mg/mL liq|
+|antipsychotics v1|readv2|d4hz.|*TRIFLUOPERAZINE 1mg/1mL inj|
+|antipsychotics v1|readv2|d4i..|TRIFLUPERIDOL|
+|antipsychotics v1|readv2|d4i1.|*TRIPERIDOL 500mcg tablets|
+|antipsychotics v1|readv2|d4i2.|*TRIPERIDOL 1mg tablets|
+|antipsychotics v1|readv2|d4iy.|*TRIFLUPERIDOL 500mcg tablets|
+|antipsychotics v1|readv2|d41..|CHLORPROMAZINE HYDROCHLORIDE|
+|antipsychotics v1|readv2|d411.|CHLORPROMAZINE 10mg tablets|
+|antipsychotics v1|readv2|d412.|CHLORPROMAZINE 25mg tablets|
+|antipsychotics v1|readv2|d413.|CHLORPROMAZINE 50mg tablets|
+|antipsychotics v1|readv2|d414.|CHLORPROMAZINE 100mg tablets|
+|antipsychotics v1|readv2|d415.|CHLORPROMAZINE 25mg/5mL syrup|
+|antipsychotics v1|readv2|d416.|CHLORACTIL 25mg tablets|
+|antipsychotics v1|readv2|d417.|CHLORACTIL 50mg tablets|
+|antipsychotics v1|readv2|d418.|CHLORACTIL 100mg tablets|
+|antipsychotics v1|readv2|d41A.|CHLORPROMAZ 25mg/5mL s/f soln|
+|antipsychotics v1|readv2|d41B.|CHLORPROMAZ 100mg/5mL s/f soln|
+|antipsychotics v1|readv2|d41a.|*LARGACTIL 10mg tablets|
+|antipsychotics v1|readv2|d41b.|*LARGACTIL 25mg tablets|
+|antipsychotics v1|readv2|d41c.|*LARGACTIL 50mg tablets|
+|antipsychotics v1|readv2|d41d.|*LARGACTIL 100mg tablets|
+|antipsychotics v1|readv2|d41e.|*LARGACTIL 25mg/5mL syrup|
+|antipsychotics v1|readv2|d41f.|*LARGACTIL FORTE 100mg/5mL syr|
+|antipsychotics v1|readv2|d41g.|*LARGACTIL 25mg/mL injection|
+|antipsychotics v1|readv2|d41h.|LARGACTIL [CNS] 50mg/2mL inj|
+|antipsychotics v1|readv2|d41i.|*LARGACTIL 100mg suppositories|
+|antipsychotics v1|readv2|d41j.|*CHLORPROMAZINE 100mg/5mL susp|
+|antipsychotics v1|readv2|d41k.|CHLORPROMAZINE 100mg supps|
+|antipsychotics v1|readv2|d41l.|CHLORPROMAZINE 25mg/1mL inj|
+|antipsychotics v1|readv2|d41m.|CHLORPROMAZINE 50mg/2mL inj|
+|antipsychotics v1|readv2|d41o.|CHLORPROMAZINE 100mg/5mL syrup|
+|antipsychotics v1|readv2|d42..|BENPERIDOL|
+|antipsychotics v1|readv2|d421.|ANQUIL 250micrograms tablets|
+|antipsychotics v1|readv2|d422.|*BENQUIL 250micrograms tablets|
+|antipsychotics v1|readv2|d42z.|BENPERIDOL 250mcg tablets|
+|antipsychotics v1|readv2|d43..|*CHLORPROTHIXENE|
+|antipsychotics v1|readv2|d431.|*TARACTAN 15mg tablets|
+|antipsychotics v1|readv2|d432.|*TARACTAN 50mg tablets|
+|antipsychotics v1|readv2|d43y.|*CHLORPROTHIXENE 15mg tablets|
+|antipsychotics v1|readv2|d43z.|*CHLORPROTHIXENE 50mg tablets|
+|antipsychotics v1|readv2|d44..|DROPERIDOL [CNS]|
+|antipsychotics v1|readv2|d441.|*DROLEPTAN 10mg tablets|
+|antipsychotics v1|readv2|d442.|*DROLEPTAN 1mg/mL oral liquid|
+|antipsychotics v1|readv2|d443.|*DROLEPTAN 10mg/2mL injection|
+|antipsychotics v1|readv2|d44w.|DROPERIDOL 2.5mg/1mL inj|
+|antipsychotics v1|readv2|d44x.|*DROPERIDOL 10mg tablets|
+|antipsychotics v1|readv2|d44y.|*DROPERIDOL 1mg/mL oral liquid|
+|antipsychotics v1|readv2|d44z.|*DROPERIDOL 10mg/2mL injection|
+|antipsychotics v1|readv2|d45..|FLUPENTIXOL [ANTIPSYCHOTIC]|
+|antipsychotics v1|readv2|d451.|DEPIXOL 3mg tablets|
+|antipsychotics v1|readv2|d45z.|FLUPENTIXOL 3mg tablets|
+|antipsychotics v1|readv2|d46..|FLUPHENAZINE HYDROCHLORIDE|
+|antipsychotics v1|readv2|d461.|*MODITEN 1mg tablets|
+|antipsychotics v1|readv2|d462.|*MODITEN 2.5mg tablets|
+|antipsychotics v1|readv2|d463.|*MODITEN 5mg tablets|
+|antipsychotics v1|readv2|d46x.|*FLUPHENAZINE HCL 1mg tablets|
+|antipsychotics v1|readv2|d46y.|*FLUPHENAZINE HCL 2.5mg tabs|
+|antipsychotics v1|readv2|d46z.|*FLUPHENAZINE HCL 5mg tablets|
+|antipsychotics v1|readv2|d47..|HALOPERIDOL [ANTIPSYCHOTIC]|
+|antipsychotics v1|readv2|d471.|HALOPERIDOL 1.5mg tablets|
+|antipsychotics v1|readv2|d472.|HALOPERIDOL 5mg tablets|
+|antipsychotics v1|readv2|d473.|HALOPERIDOL 10mg tablets|
+|antipsychotics v1|readv2|d474.|HALOPERIDOL 20mg tablets|
+|antipsychotics v1|readv2|d475.|HALOPERIDOL 2mg/mL liquid|
+|antipsychotics v1|readv2|d476.|DOZIC 1mg/mL liquid|
+|antipsychotics v1|readv2|d477.|*DOZIC 2mg/mL liquid|
+|antipsychotics v1|readv2|d47A.|HALOPERIDOL 2mg/5mL s/f soln|
+|antipsychotics v1|readv2|d47B.|HALOPERIDOL 1mg/5mL s/f soln|
+|antipsychotics v1|readv2|d47d.|*HALDOL 5mg tablets|
+|antipsychotics v1|readv2|d47e.|*HALDOL 10mg tablets|
+|antipsychotics v1|readv2|d47f.|HALDOL 2mg/mL liquid|
+|antipsychotics v1|readv2|d47g.|*HALDOL 10mg/mL liquid|
+|antipsychotics v1|readv2|d47h.|*HALDOL 5mg/1mL injection|
+|antipsychotics v1|readv2|d47i.|*HALDOL 10mg/2mL injection|
+|antipsychotics v1|readv2|d47j.|SERENACE 500mcg capsules|
+|antipsychotics v1|readv2|d47k.|SERENACE 1.5mg tablets|
+|antipsychotics v1|readv2|d47l.|SERENACE 5mg tablets|
+|antipsychotics v1|readv2|d47m.|SERENACE 10mg tablets|
+|antipsychotics v1|readv2|d47n.|SERENACE 20mg tablets|
+|antipsychotics v1|readv2|d47o.|SERENACE 2mg/mL liquid 100mL|
+|antipsychotics v1|readv2|d47p.|SERENACE 5mg/1mL injection|
+|antipsychotics v1|readv2|d47q.|SERENACE 20mg/2mL injection|
+|antipsychotics v1|readv2|d47r.|HALOPERIDOL 500mcg capsules|
+|antipsychotics v1|readv2|d47s.|SERENACE 2mg/mL liquid 500mL|
+|antipsychotics v1|readv2|d47t.|HALOPERIDOL 1mg/mL liquid|
+|antipsychotics v1|readv2|d47u.|HALOPERIDOL 500mcg tablets|
+|antipsychotics v1|readv2|d47v.|*HALOPERIDOL 5mg/1mL injection|
+|antipsychotics v1|readv2|d47w.|*HALOPERIDOL 10mg/2mL inj|
+|antipsychotics v1|readv2|d47x.|HALOPERIDOL 20mg/2mL injection|
+|antipsychotics v1|readv2|d47y.|*HALOPERIDOL 10mg/mL oral soln|
+|antipsychotics v1|readv2|d48..|LEVOMEPROMAZINE|
+|antipsychotics v1|readv2|d481.|NOZINAN 25mg/1mL injection|
+|antipsychotics v1|readv2|d482.|*VERACTIL 25mg tablets|
+|antipsychotics v1|readv2|d483.|NOZINAN 25mg tablets|
+|antipsychotics v1|readv2|d48y.|LEVOMEPROMAZINE 25mg/1mL inj|
+|antipsychotics v1|readv2|d48z.|LEVOMEPROMAZINE 25mg tablets|
+|antipsychotics v1|readv2|d491.|*INTEGRIN 10mg capsules|
+|antipsychotics v1|readv2|d492.|*INTEGRIN 40mg tablets|
+|antipsychotics v1|readv2|d4a..|PERICYAZINE|
+|antipsychotics v1|readv2|d4a1.|*NEULACTIL 2.5mg tablets|
+|antipsychotics v1|readv2|d4a2.|*NEULACTIL 10mg tablets|
+|antipsychotics v1|readv2|d4a3.|*NEULACTIL 25mg tablets|
+|antipsychotics v1|readv2|d4a4.|*NEULACTIL FORTE 10mg/5mL syrp|
+|antipsychotics v1|readv2|d4aw.|PERICYAZINE 2.5mg tablets|
+|antipsychotics v1|readv2|d4ax.|PERICYAZINE 10mg tablets|
+|antipsychotics v1|readv2|d4ay.|*PERICYAZINE 25mg tablets|
+|antipsychotics v1|readv2|d4az.|PERICYAZINE 10mg/5mL syrup|
+|antipsychotics v1|readv2|d4b..|PERPHENAZINE [CNS]|
+|antipsychotics v1|readv2|d4b1.|FENTAZIN 2mg tablets|
+|antipsychotics v1|readv2|d4b2.|FENTAZIN 4mg tablets|
+|antipsychotics v1|readv2|d4b3.|*FENTAZIN 8mg tablets|
+|antipsychotics v1|readv2|d4b4.|*FENTAZIN 5mg/1mL injection|
+|antipsychotics v1|readv2|d4b5.|PERPHENAZINE 2mg/5mL s/f soln|
+|antipsychotics v1|readv2|d4b6.|PERPHENAZINE 4mg/5mL s/f soln|
+|antipsychotics v1|readv2|d4bx.|PERPHENAZINE 2mg tablets|
+|antipsychotics v1|readv2|d4by.|PERPHENAZINE 4mg tablets|
+|antipsychotics v1|readv2|d4bz.|*PERPHENAZINE 8mg tablets|
+|antipsychotics v1|readv2|d4c..|PIMOZIDE|
+|antipsychotics v1|readv2|d4c2.|ORAP 4mg tablets|
+|antipsychotics v1|readv2|d4cx.|*PIMOZIDE 2mg tablets|
+|antipsychotics v1|readv2|d4cy.|PIMOZIDE 4mg tablets|
+|antipsychotics v1|readv2|d4cz.|*PIMOZIDE 10mg tablets|
+|antipsychotics v1|readv2|d4e..|PROMAZINE HYDROCHLORIDE|
+|antipsychotics v1|readv2|d4e1.|*SPARINE 50mg/5mL suspension|
+|antipsychotics v1|readv2|d4e2.|*SPARINE 50mg/1mL injection|
+|antipsychotics v1|readv2|d4e3.|*SPARINE 100mg/2mL injection|
+|antipsychotics v1|readv2|d4e4.|PROMAZINE 25mg tablets|
+|antipsychotics v1|readv2|d4e5.|PROMAZINE 50mg tablets|
+|antipsychotics v1|readv2|d4ev.|PROMAZINE 25mg/5mL syrup|
+|antipsychotics v1|readv2|d4l..|CLOZAPINE|
+|antipsychotics v1|readv2|d4l1.|CLOZAPINE 25mg tablets|
+|antipsychotics v1|readv2|d4l2.|CLOZAPINE 100mg tablets|
+|antipsychotics v1|readv2|d4l3.|CLOZARIL 25mg tablets x84CP|
+|antipsychotics v1|readv2|d4l4.|CLOZARIL 100mg tablets x84CP|
+|antipsychotics v1|readv2|d4l5.|CLOZARIL 25mg tabs x28CP|
+|antipsychotics v1|readv2|d4l6.|CLOZARIL 100mg tabs x28CP|
+|antipsychotics v1|readv2|d4l7.|DENZAPINE 25mg tablets|
+|antipsychotics v1|readv2|d4l8.|DENZAPINE 100mg tablets|
+|antipsychotics v1|readv2|d4l9.|ZAPONEX 25mg tablets|
+|antipsychotics v1|readv2|d4lA.|ZAPONEX 100mg tablets|
+|antipsychotics v1|readv2|d4lB.|DENZAPINE 50mg/mL susp 100mL|
+|antipsychotics v1|readv2|d4lC.|CLOZAPINE 50mg/mL suspension|
+|antipsychotics v1|readv2|d4lD.|DENZAPINE 50mg tablets|
+|antipsychotics v1|readv2|d4lE.|CLOZAPINE 50mg tablets|
+|antipsychotics v1|readv2|d4lF.|DENZAPINE 200mg tablets|
+|antipsychotics v1|readv2|d4lG.|CLOZAPINE 200mg tablets|
+|antipsychotics v1|readv2|d4m..|REMOXIPRIDE|
+|antipsychotics v1|readv2|d4m1.|*REMOXIPRIDE 150mg m/r caps|
+|antipsychotics v1|readv2|d4m2.|*REMOXIPRIDE 300mg m/r caps|
+|antipsychotics v1|readv2|d4m3.|*ROXIAM 150mg m/r capsules|
+|antipsychotics v1|readv2|d4m4.|*ROXIAM 300mg m/r capsules|
+|antipsychotics v1|readv2|d4n..|ZUCLOPENTHIXOL ACETATE|
+|antipsychotics v1|readv2|d4n1.|CLOPIXOL ACUPHASE 50mg/1mL inj|
+|antipsychotics v1|readv2|d4n2.|*CLOPIXOL ACUPHA 100mg/2mL inj|
+|antipsychotics v1|readv2|d4n3.|ZUCLOPENTHIXOL AC 50mg/1mL inj|
+|antipsychotics v1|readv2|d4n4.|*ZUCLOPENTHIXOL 100mg/2mL inj|
+|antipsychotics v1|readv2|d4p..|RISPERIDONE|
+|antipsychotics v1|readv2|d4p1.|RISPERIDONE 1mg tablets|
+|antipsychotics v1|readv2|d4p2.|RISPERIDONE 2mg tablets|
+|antipsychotics v1|readv2|d4p3.|RISPERIDONE 3mg tablets|
+|antipsychotics v1|readv2|d4p4.|RISPERIDONE 4mg tablets|
+|antipsychotics v1|readv2|d4p5.|RISPERDAL 1mg tablets|
+|antipsychotics v1|readv2|d4p6.|RISPERDAL 2mg tablets|
+|antipsychotics v1|readv2|d4p7.|RISPERDAL 3mg tablets|
+|antipsychotics v1|readv2|d4p8.|RISPERDAL 4mg tablets|
+|antipsychotics v1|readv2|d4p9.|RISPERIDONE 1mg/mL liquid|
+|antipsychotics v1|readv2|d4pA.|RISPERDAL 1mg/mL liquid|
+|antipsychotics v1|readv2|d4pB.|RISPERIDONE 6mg tablets|
+|antipsychotics v1|readv2|d4pC.|RISPERDAL 6mg tablets|
+|antipsychotics v1|readv2|d4pD.|RISPERDAL 0.5mg tablets|
+|antipsychotics v1|readv2|d4pE.|RISPERDAL CONSTA 25mg pdr inj|
+|antipsychotics v1|readv2|d4pF.|RISPERDAL CONSTA 37.5mg inj|
+|antipsychotics v1|readv2|d4pG.|RISPERDAL CONSTA 50mg pdr inj|
+|antipsychotics v1|readv2|d4pH.|RISPERIDONE 1mg disp tablets|
+|antipsychotics v1|readv2|d4pJ.|RISPERIDONE 2mg disp tablets|
+|antipsychotics v1|readv2|d4pK.|RISPERDAL QUICKLET 1mg tabs|
+|antipsychotics v1|readv2|d4pL.|RISPERDAL QUICKLET 2mg tabs|
+|antipsychotics v1|readv2|d4pM.|RISPERIDONE 0.5mg disp tablets|
+|antipsychotics v1|readv2|d4pN.|RISPERDAL QUICKLET 0.5mg tabs|
+|antipsychotics v1|readv2|d4pO.|RISPERDAL QUICKLET 3mg tabs|
+|antipsychotics v1|readv2|d4pP.|RISPERDAL QUICKLET 4mg tabs|
+|antipsychotics v1|readv2|d4pQ.|RISPERIDONE 3mg disp tabs|
+|antipsychotics v1|readv2|d4pR.|RISPERIDONE 4mg disp tabs|
+|antipsychotics v1|readv2|d4pS.|RISPERIDONE 1mg/mL oral soln|
+|antipsychotics v1|readv2|d4pw.|RISPERIDONE 50mg pdr+solv inj|
+|antipsychotics v1|readv2|d4px.|RISPERIDONE 37.5mg pdr inj|
+|antipsychotics v1|readv2|d4py.|RISPERIDONE 25mg pdr+solv inj|
+|antipsychotics v1|readv2|d4pz.|RISPERIDONE 0.5mg tablets|
+|antipsychotics v1|readv2|d4q..|SERTINDOLE|
+|antipsychotics v1|readv2|d4q1.|SERTINDOLE 4mg tablets|
+|antipsychotics v1|readv2|d4q2.|SERTINDOLE 12mg tablets|
+|antipsychotics v1|readv2|d4q3.|SERTINDOLE 16mg tablets|
+|antipsychotics v1|readv2|d4q4.|SERTINDOLE 20mg tablets|
+|antipsychotics v1|readv2|d4q5.|SERDOLECT 4mg tablets|
+|antipsychotics v1|readv2|d4q6.|SERDOLECT 12mg tablets|
+|antipsychotics v1|readv2|d4q7.|SERDOLECT 16mg tablets|
+|antipsychotics v1|readv2|d4q8.|SERDOLECT 20mg tablets|
+|antipsychotics v1|readv2|d4r..|OLANZAPINE|
+|antipsychotics v1|readv2|d4r1.|OLANZAPINE 5mg tablets|
+|antipsychotics v1|readv2|d4r2.|OLANZAPINE 7.5mg tablets|
+|antipsychotics v1|readv2|d4r3.|OLANZAPINE 10mg tablets|
+|antipsychotics v1|readv2|d4r4.|ZYPREXA 5mg tablets|
+|antipsychotics v1|readv2|d4r5.|ZYPREXA 7.5mg tablets|
+|antipsychotics v1|readv2|d4r6.|ZYPREXA 10mg tablets|
+|antipsychotics v1|readv2|d4r7.|OLANZAPINE 2.5mg tablets|
+|antipsychotics v1|readv2|d4r8.|ZYPREXA 2.5mg tablets|
+|antipsychotics v1|readv2|d4r9.|ZYPREXA VELOTAB 5mg disp tabs|
+|antipsychotics v1|readv2|d4rA.|ZYPREXA VELOTAB 10mg disp tabs|
+|antipsychotics v1|readv2|d4rB.|ZYPREXA 15mg tablets|
+|antipsychotics v1|readv2|d4rC.|ZYPREXA VELOTAB 15mg disp tabs|
+|antipsychotics v1|readv2|d4rD.|ZYPREXA 10mg inj powder|
+|antipsychotics v1|readv2|d4rE.|ZYPREXA VELOTAB 20mg disp tabs|
+|antipsychotics v1|readv2|d4rF.|ZYPREXA 20mg tablets|
+|antipsychotics v1|readv2|d4rG.|ZALASTA 2.5mg tablets|
+|antipsychotics v1|readv2|d4rH.|ZALASTA 5mg tablets|
+|antipsychotics v1|readv2|d4rI.|ZALASTA 7.5mg tablets|
+|antipsychotics v1|readv2|d4rJ.|ZALASTA 15mg tablets|
+|antipsychotics v1|readv2|d4rK.|ZALASTA 20mg tablets|
+|antipsychotics v1|readv2|d4rL.|ZALASTA 5mg disp tablets|
+|antipsychotics v1|readv2|d4rM.|ZALASTA 10mg disp tablets|
+|antipsychotics v1|readv2|d4rN.|ZALASTA 15mg disp tablets|
+|antipsychotics v1|readv2|d4rO.|ZALASTA 20mg disp tablets|
+|antipsychotics v1|readv2|d4rP.|ZALASTA 10mg tablets|
+|antipsychotics v1|readv2|d4rt.|OLANZAPINE 20mg tablets|
+|antipsychotics v1|readv2|d4ru.|OLANZAPINE 20mg disp tabs|
+|antipsychotics v1|readv2|d4rv.|OLANZAPINE 10mg inj powder|
+|antipsychotics v1|readv2|d4rw.|OLANZAPINE 15mg disp tabs|
+|antipsychotics v1|readv2|d4rx.|OLANZAPINE 15mg tablets|
+|antipsychotics v1|readv2|d4ry.|OLANZAPINE 5mg disp tabs|
+|antipsychotics v1|readv2|d4rz.|OLANZAPINE 10mg disp tabs|
+|antipsychotics v1|readv2|d4s..|QUETIAPINE|
+|antipsychotics v1|readv2|d4s1.|QUETIAPINE 25mg tablets|
+|antipsychotics v1|readv2|d4s2.|QUETIAPINE 100mg tablets|
+|antipsychotics v1|readv2|d4s3.|QUETIAPINE 200mg tablets|
+|antipsychotics v1|readv2|d4s4.|*QUETIAPINE tabs starter pack|
+|antipsychotics v1|readv2|d4s5.|SEROQUEL 25mg tablets|
+|antipsychotics v1|readv2|d4s6.|SEROQUEL 100mg tablets|
+|antipsychotics v1|readv2|d4s7.|SEROQUEL 200mg tablets|
+|antipsychotics v1|readv2|d4s8.|*SEROQUEL tablets starter pack|
+|antipsychotics v1|readv2|d4s9.|SEROQUEL 150mg tablets|
+|antipsychotics v1|readv2|d4sA.|*SEROQUEL 25mg+100mg+150mg tab|
+|antipsychotics v1|readv2|d4sB.|SEROQUEL 300mg tablets|
+|antipsychotics v1|readv2|d4sC.|SEROQUEL XL 50mg m/r tablets|
+|antipsychotics v1|readv2|d4sD.|SEROQUEL XL 200mg m/r tablets|
+|antipsychotics v1|readv2|d4sE.|SEROQUEL XL 300mg m/r tablets|
+|antipsychotics v1|readv2|d4sF.|SEROQUEL XL 400mg m/r tablets|
+|antipsychotics v1|readv2|d4sG.|SEROQUEL XL 150mg m/r tablets|
+|antipsychotics v1|readv2|d4sH.|SONDATE XL 50mg m/r tablets|
+|antipsychotics v1|readv2|d4sI.|SONDATE XL 200mg m/r tablets|
+|antipsychotics v1|readv2|d4sJ.|SONDATE XL 300mg m/r tablets|
+|antipsychotics v1|readv2|d4sK.|SONDATE XL 400mg m/r tablets|
+|antipsychotics v1|readv2|d4ss.|QUETIAPINE 150mg m/r tablets|
+|antipsychotics v1|readv2|d4st.|QUETIAPINE 400mg m/r tablets|
+|antipsychotics v1|readv2|d4su.|QUETIAPINE 300mg m/r tablets|
+|antipsychotics v1|readv2|d4sv.|QUETIAPINE 200mg m/r tablets|
+|antipsychotics v1|readv2|d4sw.|QUETIAPINE 50mg m/r tablets|
+|antipsychotics v1|readv2|d4sx.|QUETIAPINE 300mg tablets|
+|antipsychotics v1|readv2|d4sy.|*QUETIAPINE 25+100+150mg tabs|
+|antipsychotics v1|readv2|d4sz.|QUETIAPINE 150mg tablets|
+|antipsychotics v1|readv2|d4t..|AMISULPRIDE|
+|antipsychotics v1|readv2|d4t1.|AMISULPRIDE 50mg tablets|
+|antipsychotics v1|readv2|d4t2.|AMISULPRIDE 200mg tablets|
+|antipsychotics v1|readv2|d4t3.|SOLIAN 50mg tablets|
+|antipsychotics v1|readv2|d4t4.|SOLIAN 200mg tablets|
+|antipsychotics v1|readv2|d4t5.|SOLIAN 400mg tablets|
+|antipsychotics v1|readv2|d4t6.|SOLIAN 100mg/mL s/f oral soln|
+|antipsychotics v1|readv2|d4t7.|SOLIAN 100mg tablets|
+|antipsychotics v1|readv2|d4tx.|AMISULPRIDE 100mg tablets|
+|antipsychotics v1|readv2|d4ty.|AMISULPRIDE 100mg/mL s/f soln|
+|antipsychotics v1|readv2|d4tz.|AMISULPRIDE 400mg tablets|
+|antipsychotics v1|readv2|d4u..|ZOTEPINE|
+|antipsychotics v1|readv2|d4u1.|*ZOTEPINE 25mg tablets|
+|antipsychotics v1|readv2|d4u2.|*ZOTEPINE 50mg tablets|
+|antipsychotics v1|readv2|d4u3.|*ZOTEPINE 100mg tablets|
+|antipsychotics v1|readv2|d4u4.|*ZOLEPTIL 25mg tablets|
+|antipsychotics v1|readv2|d4u5.|*ZOLEPTIL 50mg tablets|
+|antipsychotics v1|readv2|d4u6.|*ZOLEPTIL 100mg tablets|
+|antipsychotics v1|readv2|d4v..|ARIPIPRAZOLE|
+|antipsychotics v1|readv2|d4v1.|ABILIFY 10mg tablets|
+|antipsychotics v1|readv2|d4v2.|ABILIFY 15mg tablets|
+|antipsychotics v1|readv2|d4v3.|ABILIFY 30mg tablets|
+|antipsychotics v1|readv2|d4v4.|ABILIFY 5mg tablets|
+|antipsychotics v1|readv2|d4v5.|ABILIFY 10mg disp tabs|
+|antipsychotics v1|readv2|d4v6.|ABILIFY 15mg disp tabs|
+|antipsychotics v1|readv2|d4v7.|ABILIFY 1mg/mL oral solution|
+|antipsychotics v1|readv2|d4v8.|ABILIFY 9.75mg/1.3mL inj|
+|antipsychotics v1|readv2|d4v9.|ABILIFY MAINTENA 400mg pdr inj|
+|antipsychotics v1|readv2|d4vr.|ARIPIPRAZOLE 400mg pdr inj|
+|antipsychotics v1|readv2|d4vs.|ARIPIPRAZOLE 9.75mg/1.3mL inj|
+|antipsychotics v1|readv2|d4vt.|ARIPIPRAZOLE 1mg/mL oral soln|
+|antipsychotics v1|readv2|d4vu.|ARIPIPRAZOLE 10mg disp tabs|
+|antipsychotics v1|readv2|d4vv.|ARIPIPRAZOLE 15mg disp tabs|
+|antipsychotics v1|readv2|d4vw.|ARIPIPRAZOLE 5mg tablets|
+|antipsychotics v1|readv2|d4vx.|ARIPIPRAZOLE 30mg tablets|
+|antipsychotics v1|readv2|d4vy.|ARIPIPRAZOLE 15mg tablets|
+|antipsychotics v1|readv2|d4vz.|ARIPIPRAZOLE 10mg tablets|
+|antipsychotics v1|readv2|d4w..|PALIPERIDONE|
+|antipsychotics v1|readv2|d4w1.|INVEGA 3mg m/r tablets|
+|antipsychotics v1|readv2|d4w2.|INVEGA 6mg m/r tablets|
+|antipsychotics v1|readv2|d4w3.|INVEGA 9mg m/r tablets|
+|antipsychotics v1|readv2|d4w4.|*INVEGA 12mg m/r tablets|
+|antipsychotics v1|readv2|d4w5.|XEPLION 50mg susp for inj pfs|
+|antipsychotics v1|readv2|d4w6.|XEPLION 75mg susp for inj pfs|
+|antipsychotics v1|readv2|d4w7.|XEPLION 100mg susp for inj pfs|
+|antipsychotics v1|readv2|d4w8.|XEPLION 150mg susp for inj pfs|
+|antipsychotics v1|readv2|d4w9.|*XEPLION 100mg + 150mg inj pfs|
+|antipsychotics v1|readv2|d4wr.|*PALIPERIDONE 100mg+150mg inj|
+|antipsychotics v1|readv2|d4ws.|PALIPERIDON 150mg susp inj pfs|
+|antipsychotics v1|readv2|d4wt.|PALIPERIDON 100mg susp inj pfs|
+|antipsychotics v1|readv2|d4wu.|PALIPERIDONE 75mg susp inj pfs|
+|antipsychotics v1|readv2|d4wv.|PALIPERIDONE 50mg susp inj pfs|
+|antipsychotics v1|readv2|d4ww.|*PALIPERIDONE 12mg m/r tablets|
+|antipsychotics v1|readv2|d4wx.|PALIPERIDONE 9mg m/r tablets|
+|antipsychotics v1|readv2|d4wy.|PALIPERIDONE 6mg m/r tablets|
+|antipsychotics v1|readv2|d4wz.|PALIPERIDONE 3mg m/r tablets|
+|antipsychotics v1|readv2|d4x..|ASENAPINE|
+|antipsychotics v1|readv2|d4x2.|ASENAPINE 5mg sublingual tabs|
+|antipsychotics v1|readv2|d4x4.|ASENAPINE 10mg sublingual tabs|
+|antipsychotics v1|readv2|d51..|FLUPENTIXOL DECANOATE|
+|antipsychotics v1|readv2|d511.|DEPIXOL 20mg/1mL injection|
+|antipsychotics v1|readv2|d512.|*DEPIXOL 20mg/1mL syringe|
+|antipsychotics v1|readv2|d513.|DEPIXOL 40mg/2mL injection|
+|antipsychotics v1|readv2|d514.|*DEPIXOL 40mg/2mL syringe|
+|antipsychotics v1|readv2|d515.|*DEPIXOL 200mg/10mL injection|
+|antipsychotics v1|readv2|d516.|DEPIXOL CONC. 100mg/1mL inj|
+|antipsychotics v1|readv2|d517.|*DEPIXOL CONC. 500mg/5mL inj|
+|antipsychotics v1|readv2|d518.|*DEPIXOL CONC. 50mg/0.5mL inj|
+|antipsychotics v1|readv2|d519.|FLUPENTIXOL 50mg/0.5mL inj|
+|antipsychotics v1|readv2|d51a.|DEPIXOL LV 200mg/1mL i-m inj|
+|antipsychotics v1|readv2|d51u.|FLUPENTIXOL 200mg/1ml i-m inj|
+|antipsychotics v1|readv2|d51v.|FLUPENTIXOL DEC 20mg/1mL inj|
+|antipsychotics v1|readv2|d51w.|FLUPENTIXOL DEC 40mg/2mL inj|
+|antipsychotics v1|readv2|d51y.|FLUPENTIXOL DEC 100mg/1mL inj|
+|antipsychotics v1|readv2|d52..|FLUPHENAZINE DECANOATE|
+|antipsychotics v1|readv2|d521.|MODECATE 12.5mg/0.5mL inj|
+|antipsychotics v1|readv2|d522.|MODECATE 25mg/1mL injection|
+|antipsychotics v1|readv2|d523.|*MODECATE 25mg/1mL syringe|
+|antipsychotics v1|readv2|d524.|MODECATE 50mg/2mL injection|
+|antipsychotics v1|readv2|d525.|*MODECATE 50mg/2mL syringe|
+|antipsychotics v1|readv2|d526.|*MODECATE 250mg/10mL injection|
+|antipsychotics v1|readv2|d527.|MODECATE CONC 50mg/0.5mL inj|
+|antipsychotics v1|readv2|d528.|MODECATE CONC 100mg/1mL inj|
+|antipsychotics v1|readv2|d529.|FLUPHENAZINE 50mg/0.5mL inj|
+|antipsychotics v1|readv2|d52a.|FLUPHENAZINE DEC 100mg/1mL inj|
+|antipsychotics v1|readv2|d52s.|*FLUPHENAZ DEC 25mg/1mL syrnge|
+|antipsychotics v1|readv2|d52t.|*FLUPHENAZ DEC 50mg/2mL syrnge|
+|antipsychotics v1|readv2|d52u.|FLUPHENAZ DEC 12.5mg/0.5mL inj|
+|antipsychotics v1|readv2|d52v.|FLUPHENAZINE DEC 25mg/1mL inj|
+|antipsychotics v1|readv2|d52w.|FLUPHENAZINE DEC 50mg/2mL inj|
+|antipsychotics v1|readv2|d52x.|*FLUPHENAZINE 250mg/10mL inj|
+|antipsychotics v1|readv2|d53..|*FLUPHENAZINE ENANTHATE|
+|antipsychotics v1|readv2|d531.|*MODITEN ENANTHATE 25mg/mL inj|
+|antipsychotics v1|readv2|d532.|*FLUPHENAZINE ENAN 25mg/1mL in|
+|antipsychotics v1|readv2|d55..|HALOPERIDOL DECANOATE|
+|antipsychotics v1|readv2|d551.|HALDOL DECANOATE 50mg/1mL inj|
+|antipsychotics v1|readv2|d552.|HALDOL DECANOATE 100mg/1mL inj|
+|antipsychotics v1|readv2|d553.|HALOPERIDOL 50mg/1mL injection|
+|antipsychotics v1|readv2|d554.|HALOPERIDOL 100mg/1mL inj|
+|antipsychotics v1|readv2|d56..|PIPOTIAZINE PALMITATE|
+|antipsychotics v1|readv2|d561.|PIPORTIL DEPOT 50mg/1mL inj|
+|antipsychotics v1|readv2|d562.|PIPORTIL DEPOT 100mg/2mL inj|
+|antipsychotics v1|readv2|d563.|PIPOTIAZINE 50mg/1mL injection|
+|antipsychotics v1|readv2|dw19.|*TRANQUILYN 5mg tablets|
+|antipsychotics v1|readv2|dw1A.|*TRANQUILYN 10mg tablets|
+|antipsychotics v1|readv2|dw1B.|*TRANQUILYN 20mg tablets|
+|antipsychotics v1|readv2|o42w.|*FENTANYL+DROP 100mcg/5mg inj|
+|antipsychotics v1|readv2|o52..|CHLORPROMAZINE HCL [ANAESTH]|
+|antipsychotics v1|readv2|o521.|*LARGACTIL 25mg/1mL injection|
+|antipsychotics v1|readv2|o522.|LARGACTIL 50mg injection|
+|antipsychotics v1|readv2|o52y.|CHLORPROMAZINE 25mg/1mL inj|
+|antipsychotics v1|readv2|o52z.|CHLORPROMAZINE 50mg/2mL inj|
+|antipsychotics v1|readv2|o54..|*DROPERIDOL [ANAESTHESIA]|
+|antipsychotics v1|readv2|o541.|*DROLEPTAN 10mg injection|
+|antipsychotics v1|readv2|o58..|*PERPHENAZINE [ANAESTHESIA]|
+|antipsychotics v1|readv2|o581.|*FENTAZIN 5mg/1mL injection|
+|antipsychotics v1|readv2|o58z.|*PERPHENAZINE 5mg/1mL inj|
+|antipsychotics v1|readv2|d4iz.|*TRIFLUPERIDOL 1mg tablets|
+|antipsychotics v1|readv2|d4j..|ZUCLOPENTHIXOL DIHYDROCHLORIDE|
+|antipsychotics v1|readv2|d4j1.|CLOPIXOL 2mg tablets|
+|antipsychotics v1|readv2|d4j2.|CLOPIXOL 10mg tablets|
+|antipsychotics v1|readv2|d4j3.|CLOPIXOL 25mg tablets|
+|antipsychotics v1|readv2|d4jx.|ZUCLOPENTHIXOL DIHCL 2mg tabs|
+|antipsychotics v1|readv2|d4jy.|ZUCLOPENTHIXOL DIHCL 10mg tabs|
+|antipsychotics v1|readv2|d4jz.|ZUCLOPENTHIXOL DIHCL 25mg tabs|
+|antipsychotics v1|readv2|da1..|FLUPENTIXOL [ANTIDEPRESSANT]|
+|antipsychotics v1|readv2|da1y.|FLUPENTIXOL 500mcg tablets|
+|antipsychotics v1|readv2|da1z.|FLUPENTIXOL 1mg tablets|
+|antipsychotics v1|readv2|dj24.|*DIAMORPH/COCAINE/CHLORPR elix|
+|antipsychotics v1|readv2|dj26.|*MORPHINE/COCAINE/CHLORPR elix|
+|antipsychotics v1|readv2|d564.|PIPOTIAZINE 100mg/2mL inj|
+|antipsychotics v1|readv2|d57..|ZUCLOPENTHIXOL DECANOATE|
+|antipsychotics v1|readv2|d571.|CLOPIXOL 200mg/1mL injection|
+|antipsychotics v1|readv2|d572.|*CLOPIXOL 2g/10mL injection|
+|antipsychotics v1|readv2|d573.|CLOPIXOL CONC. 500mg/1mL inj|
+|antipsychotics v1|readv2|d574.|*CLOPIXOL ACUPHASE 50mg/1mL|
+|antipsychotics v1|readv2|d575.|*CLOPIXOL ACUPHASE 100mg/2mL|
+|antipsychotics v1|readv2|d576.|ZUCLOPENTHIX DEC 200mg/1mL inj|
+|antipsychotics v1|readv2|d577.|*ZUCLOPENTHIXOL DEC 50mg/1mL|
+|antipsychotics v1|readv2|d578.|*ZUCLOPENTHIXOL DEC 100mg/2mL|
+|antipsychotics v1|readv2|d57y.|*ZUCLOPENTHIX DEC 2g/10mL inj|
+|antipsychotics v1|readv2|d57z.|ZUCLOPENTHIX DEC 500mg/1mL inj|
+|antipsychotics v1|readv2|d58..|OLANZAPINE PAMOATE|
+|antipsychotics v1|readv2|d581.|ZYPADHERA 210mg pdr+solv inj|
+|antipsychotics v1|readv2|d582.|ZYPADHERA 300mg pdr+solv inj|
+|antipsychotics v1|readv2|d583.|ZYPADHERA 405mg pdr+solv inj|
+|antipsychotics v1|readv2|d58x.|OLANZAPINE 405mg pdr+solv inj|
+|antipsychotics v1|readv2|d58y.|OLANZAPINE 300mg pdr+solv inj|
+|antipsychotics v1|readv2|d58z.|OLANZAPINE 210mg pdr+solv inj|
+|antipsychotics v1|readv2|d84..|TRANYLCYPROMINE|
+|antipsychotics v1|readv2|d84z.|TRANYLCYPROMINE 10mg tablets|
+|antipsychotics v1|readv2|d915.|*PARSTELIN tablets|
+|antipsychotics v1|readv2|d916.|TRIPTAFEN tablets|
+|antipsychotics v1|readv2|d917.|*TRIPTAFEN-M tablets|
+|antipsychotics v1|readv2|dh2..|*CHLORPROMAZINE HCL [NAUSEA]|
+|antipsychotics v1|readv2|dhd..|*PERPHENAZINE [NO DRUGS HERE]|
+|antipsychotics v1|readv2|dhi..|*TRIFLUOPERAZINE [NAUSEA]|
+|antipsychotics v1|readv2|ds1..|"*HALOPERIDOL [TICS, CHOREA]"|
+|covid-vaccination v1|ctv3|Y210d|2019-nCoV (novel coronavirus) vaccination|
+|covid-vaccination v1|ctv3|Y29e7|Administration of first dose of SARS-CoV-2 vaccine|
+|covid-vaccination v1|ctv3|Y29e8|Administration of second dose of SARS-CoV-2 vaccine|
+|covid-vaccination v1|ctv3|Y2a0e|SARS-2 Coronavirus vaccine|
+|covid-vaccination v1|ctv3|Y2a0f|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 1|
 |covid-vaccination v1|ctv3|Y2a3a|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 2|
-|covid-vaccination v1|emis|^ESCT1348323|Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
-|covid-vaccination v1|emis|COCO138186NEMIS|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)|
-|covid-vaccination v1|emis|^ESCT1348325|Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
-|covid-vaccination v1|emis|^ESCT1348298|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination|
-|covid-vaccination v1|emis|^ESCT1348301|COVID-19 vaccination|
-|covid-vaccination v1|emis|^ESCT1299050|2019-nCoV (novel coronavirus) vaccination|
+|covid-vaccination v1|emis|^ESCT1348323|Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
+|covid-vaccination v1|emis|COCO138186NEMIS|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)|
+|covid-vaccination v1|emis|^ESCT1348325|Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
+|covid-vaccination v1|emis|^ESCT1348298|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination|
+|covid-vaccination v1|emis|^ESCT1348301|COVID-19 vaccination|
+|covid-vaccination v1|emis|^ESCT1299050|2019-nCoV (novel coronavirus) vaccination|
 |covid-vaccination v1|emis|^ESCT1301222|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination|
-|covid-vaccination v1|readv2|65F0.|2019-nCoV (novel coronavirus) vaccination|
-|covid-vaccination v1|readv2|65F0100|Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
-|covid-vaccination v1|readv2|65F0200|2019-nCoV (novel coronavirus) vaccination|
-|covid-vaccination v1|snomed|1240491000000103|2019-nCoV (novel coronavirus) vaccination|
-|covid-vaccination v1|snomed|2807821000000115|2019-nCoV (novel coronavirus) vaccination|
+|covid-vaccination v1|emis|CODI138564NEMIS|Covid-19 mRna (nucleoside modified) Vaccine Moderna  Dispersion for injection  0.1 mg/0.5 ml dose, multidose vial|
+|covid-vaccination v1|emis|TASO138184NEMIS|Covid-19 Vaccine AstraZeneca (ChAdOx1 S recombinant)  Solution for injection  5x10 billion viral particle/0.5 ml multidose vial|
+|covid-vaccination v1|readv2|65F0.|2019-nCoV (novel coronavirus) vaccination|
+|covid-vaccination v1|readv2|65F0100|Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
+|covid-vaccination v1|readv2|65F0200|2019-nCoV (novel coronavirus) vaccination|
+|covid-vaccination v1|snomed|1240491000000103|2019-nCoV (novel coronavirus) vaccination|
+|covid-vaccination v1|snomed|2807821000000115|2019-nCoV (novel coronavirus) vaccination|
 |covid-vaccination v1|snomed|840534001|Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)|
-|covid-vaccine-declined v1|ctv3|Y29ed|SARS-CoV-2 vaccination first dose declined|
-|covid-vaccine-declined v1|ctv3|Y29ec|SARS-CoV-2 vaccination dose declined|
-|covid-vaccine-declined v1|ctv3|Y29ee|SARS-CoV-2 vaccination second dose declined|
+|covid-vaccine-declined v1|ctv3|Y29ed|SARS-CoV-2 vaccination first dose declined|
+|covid-vaccine-declined v1|ctv3|Y29ec|SARS-CoV-2 vaccination dose declined|
+|covid-vaccine-declined v1|ctv3|Y29ee|SARS-CoV-2 vaccination second dose declined|
 |covid-vaccine-declined v1|ctv3|Y211e|SARS-CoV-2 immunisation course declined|
-|covid-vaccine-declined v1|emis|^ESCT1348329|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination dose declined|
-|covid-vaccine-declined v1|emis|^ESCT1348345|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) immunisation course declined|
-|covid-vaccine-declined v1|emis|^ESCT1348333|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination first dose declined|
-|covid-vaccine-declined v1|emis|^ESCT1348335|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination second dose declined|
-|covid-vaccine-declined v1|emis|^ESCT1301234|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination declined|
+|covid-vaccine-declined v1|emis|^ESCT1348329|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination dose declined|
+|covid-vaccine-declined v1|emis|^ESCT1348345|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) immunisation course declined|
+|covid-vaccine-declined v1|emis|^ESCT1348333|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination first dose declined|
+|covid-vaccine-declined v1|emis|^ESCT1348335|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination second dose declined|
+|covid-vaccine-declined v1|emis|^ESCT1301234|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination declined|
 |covid-vaccine-declined v1|emis|^ESCT1299086|2019-nCoV (novel coronavirus) Vaccination declined|
-|covid-vaccine-declined v1|readv2|8IAI.00|2019-nCoV (novel coronavirus) vaccination declined|
-|covid-vaccine-declined v1|readv2|8IAI100|SARS-CoV-2 immun course declin|
-|covid-vaccine-declined v1|readv2|8IAI200|SARS-CoV-2 vac first dose declined|
+|covid-vaccine-declined v1|readv2|8IAI.00|2019-nCoV (novel coronavirus) vaccination declined|
+|covid-vaccine-declined v1|readv2|8IAI100|SARS-CoV-2 immun course declin|
+|covid-vaccine-declined v1|readv2|8IAI200|SARS-CoV-2 vac first dose declined|
 |covid-vaccine-declined v1|readv2|8IAI300|SARS-CoV-2 vac second dose dec|
-|covid-vaccine-declined v1|snomed|1324721000000108|Severe acute respiratory syndrome coronavirus 2 vaccination dose declined (situation)|
-|covid-vaccine-declined v1|snomed|1324811000000107|Severe acute respiratory syndrome coronavirus 2 immunisation course declined (situation)|
-|covid-vaccine-declined v1|snomed|1324741000000101|Severe acute respiratory syndrome coronavirus 2 vaccination first dose declined (situation)|
+|covid-vaccine-declined v1|snomed|1324721000000108|Severe acute respiratory syndrome coronavirus 2 vaccination dose declined (situation)|
+|covid-vaccine-declined v1|snomed|1324811000000107|Severe acute respiratory syndrome coronavirus 2 immunisation course declined (situation)|
+|covid-vaccine-declined v1|snomed|1324741000000101|Severe acute respiratory syndrome coronavirus 2 vaccination first dose declined (situation)|
 |covid-vaccine-declined v1|snomed|1324751000000103|Severe acute respiratory syndrome coronavirus 2 vaccination second dose declined (situation)|

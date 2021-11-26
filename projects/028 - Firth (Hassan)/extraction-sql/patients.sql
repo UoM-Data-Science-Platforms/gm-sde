@@ -182,7 +182,7 @@ VALUES ('schizophrenia-psychosis',1,'EMISICD10|F2310','"Acute polymorphic psycho
 INSERT INTO #codesemis
 VALUES ('covid-vaccine-declined',1,'^ESCT1348329','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination dose declined'),('covid-vaccine-declined',1,'^ESCT1348345','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) immunisation course declined'),('covid-vaccine-declined',1,'^ESCT1348333','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination first dose declined'),('covid-vaccine-declined',1,'^ESCT1348335','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination second dose declined'),('covid-vaccine-declined',1,'^ESCT1301234','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination declined'),('covid-vaccine-declined',1,'^ESCT1299086','2019-nCoV (novel coronavirus) Vaccination declined');
 INSERT INTO #codesemis
-VALUES ('covid-vaccination',1,'^ESCT1348323','Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'COCO138186NEMIS','COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)'),('covid-vaccination',1,'^ESCT1348325','Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348298','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'^ESCT1348301','COVID-19 vaccination'),('covid-vaccination',1,'^ESCT1299050','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'^ESCT1301222','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination')
+VALUES ('covid-vaccination',1,'^ESCT1348323','Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'COCO138186NEMIS','COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)'),('covid-vaccination',1,'^ESCT1348325','Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348298','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'^ESCT1348301','COVID-19 vaccination'),('covid-vaccination',1,'^ESCT1299050','2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'^ESCT1301222','SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'CODI138564NEMIS','Covid-19 mRna (nucleoside modified) Vaccine Moderna  Dispersion for injection  0.1 mg/0.5 ml dose, multidose vial'),('covid-vaccination',1,'TASO138184NEMIS','Covid-19 Vaccine AstraZeneca (ChAdOx1 S recombinant)  Solution for injection  5x10 billion viral particle/0.5 ml multidose vial')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesemis;
@@ -342,6 +342,9 @@ INNER JOIN (
 GROUP BY p.FK_Patient_Link_ID
 HAVING MIN(Sex) = MAX(Sex);
 
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientSexs;
+DROP TABLE #UnmatchedSexPatients;
 --┌────────────────────────────┐
 --│ Index Multiple Deprivation │
 --└────────────────────────────┘
@@ -519,6 +522,10 @@ SELECT FK_Patient_Link_ID, MAX(YearOfBirth) FROM #AllPatientYearOfBirths
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
 GROUP BY FK_Patient_Link_ID
 HAVING MAX(YearOfBirth) <= YEAR(GETDATE());
+
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientYearOfBirths;
+DROP TABLE #UnmatchedYobPatients;
 --┌───────────────────────────────┐
 --│ Lower level super output area │
 --└───────────────────────────────┘
@@ -595,6 +602,9 @@ INNER JOIN (
 GROUP BY p.FK_Patient_Link_ID
 HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
 
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientLSOAs;
+DROP TABLE #UnmatchedLsoaPatients;
 --┌───────────────────────────────────────┐
 --│ GET practice and ccg for each patient │
 --└───────────────────────────────────────┘
