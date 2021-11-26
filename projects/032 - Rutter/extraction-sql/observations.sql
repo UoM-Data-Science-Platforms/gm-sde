@@ -2,8 +2,8 @@
 --│ Observations │
 --└──────────────┘
 
------------- RESEARCH DATA ENGINEER CHECK ------------
-
+-------- RESEARCH DATA ENGINEER CHECK ---------
+-- Richard Williams	2021-11-26	Review complete
 
 /* Observations including: 
 	Systolic blood pressure
@@ -816,7 +816,6 @@ SELECT
 	,TestUnit = o.[Units]
 FROM #MainCohort m
 LEFT JOIN #observations_final o ON o.FK_Patient_Link_ID = m.FK_Patient_Link_ID 
-ORDER BY m.FK_Patient_Link_ID, TestDate, TestName
 /* UNION
 -- patients in matched cohort
 SELECT	 

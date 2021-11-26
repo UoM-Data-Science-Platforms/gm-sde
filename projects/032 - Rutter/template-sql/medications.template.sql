@@ -2,8 +2,8 @@
 --│ Medications │
 --└─────────────┘
 
------------- RESEARCH DATA ENGINEER CHECK ------------
-
+-------- RESEARCH DATA ENGINEER CHECK ---------
+-- Richard Williams	2021-11-26	Review complete
 
 -- All prescriptions of medications for type 2 diabetes patients.
 

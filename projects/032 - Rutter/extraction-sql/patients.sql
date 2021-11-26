@@ -2,8 +2,8 @@
 --│ Patient information for diabetes cohort and controls│
 --└─────────────────────────────────────────────────────┘
 
------------- RESEARCH DATA ENGINEER CHECK ------------
-
+-------- RESEARCH DATA ENGINEER CHECK ---------
+-- Richard Williams	2021-11-26	Review complete
 
 -- OUTPUT: Data with the following fields
 -- Patient Id
