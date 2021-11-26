@@ -88,7 +88,7 @@ const getCodeSets = ({ codeSet, type = getCodesetType(codeSet), version }) => {
         );
         return false;
       }
-      const file = readFileSync(join(codeSetVersionDir, filename), 'utf8');
+      const file = readFileSync(join(codeSetVersionDir, filename), 'utf8').replace(/\r/g, ''); // remove any carriage returns
       return { terminology, file };
     })
     .filter(Boolean);
@@ -354,7 +354,7 @@ function processFiles(codeSetType, codeSetName, version) {
     .filter((filename) => isValidCodeSetFile(filename)); // ..then return the valid code set files
 
   codeSetFiles.forEach((codeSetFile) => {
-    const codeSetData = readFileSync(join(CODE_SET_DIR, codeSetFile), 'utf8');
+    const codeSetData = readFileSync(join(CODE_SET_DIR, codeSetFile), 'utf8').replace(/\r/g, '');
     const [, terminology] = codeSetFile.split('.');
     const codeSet = parseCodeSet(codeSetData, codeSetName, codeSetFile, terminology);
     if (
