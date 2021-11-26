@@ -185,12 +185,12 @@ IF OBJECT_ID('tempdb..#observations_final') IS NOT NULL DROP TABLE #observations
 SELECT FK_Patient_Link_ID,
 	EventDate,
 	Concept,
-	[Value] = CASE WHEN Concept LIKE '%smoking%' THEN NULL ELSE [Value] END, -- sometimes there are values like '0.00000' for smoking. simplify and standardise by putting NULL.
+	[Value] = CASE WHEN Concept LIKE '%smoking%' THEN '1' ELSE TRY_CONVERT(NUMERIC (18,5), [Value]) END, -- simplify and standardise smoking values by assigning value to '1'. For any other tests, convert to numeric so no text can appear.
 	[Units]
 INTO #observations_final
 FROM #all_observations
-WHERE ([Value] != '0' AND [Value] IS NOT NULL) -- REMOVE ANY OBSERVATIONS WHERE THE VALUE IS NULL OR ZERO (EXCEPT SMOKING ONES)
-		OR Concept IN ('smoking-status-current', 'smoking-status-currently-not', 'smoking-status-never', 'smoking-status-passive', 'smoking-status-ex-trivial', 'smoking-status-trivial') 
+WHERE [Value] != '0' -- REMOVE NVARCHAR VALUES THAT ARE ZERO
+	AND [Value] IS NOT NULL -- REMOVE ANY NULL VALUES
 
 -- BRING TOGETHER FOR FINAL OUTPUT
 
@@ -199,10 +199,11 @@ SELECT
 	,NULL AS MainCohortMatchedPatientId
 	,TestName = o.Concept
 	,TestDate = o.EventDate
-	,TestResult = o.[Value]
+	,TestResult =o.[Value]
 	,TestUnit = o.[Units]
 FROM #MainCohort m
 LEFT JOIN #observations_final o ON o.FK_Patient_Link_ID = m.FK_Patient_Link_ID 
+WHERE  [Value] IS NOT NULL AND [Value] != '0' AND [Value] > 0 AND UPPER([Value]) NOT LIKE '%[A-Z]%'  -- EXTRA CHECKS IN CASE ANY ZERO, NULL OR TEXT VALUES REMAINED
 /* UNION
 -- patients in matched cohort
 SELECT	 
@@ -214,4 +215,6 @@ SELECT
 	,TestUnit = o.[Units]
 FROM #MatchedCohort m
 LEFT JOIN #observations_final o ON o.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+WHERE  [Value] IS NOT NULL AND [Value] != '0' AND  [Value] > 0 AND UPPER([Value]) NOT LIKE '%[A-Z]%'  -- EXTRA CHECKS IN CASE ANY ZERO, NULL OR TEXT VALUES REMAINED
+
 */
