@@ -67,8 +67,8 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 IF OBJECT_ID('tempdb..#COVIDVaccinations1') IS NOT NULL DROP TABLE #COVIDVaccinations1;
 SELECT 
 	FK_Patient_Link_ID
-	,FirstVaccineDate = MAX(CASE WHEN VaccineDate IS NOT NULL AND DaysSinceFirstVaccine = 0 THEN VaccineDate ELSE NULL END) 
-	,SecondVaccineDate = MAX(CASE WHEN VaccineDate IS NOT NULL AND DaysSinceFirstVaccine != 0 THEN VaccineDate ELSE NULL END) 
+	,FirstVaccineDate = VaccineDose1Date 
+	,SecondVaccineDate = VaccineDose2Date 
 INTO #COVIDVaccinations1
 FROM #COVIDVaccinations
 GROUP BY FK_Patient_Link_ID

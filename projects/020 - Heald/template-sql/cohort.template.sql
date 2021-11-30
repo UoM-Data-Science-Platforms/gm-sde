@@ -603,8 +603,8 @@ SELECT
   IsOnClopidogrel,
   IsOnMetformin,
   CASE WHEN htn.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasHYPERTENSION,
-  FirstVaccineDate,
-	CASE WHEN SecondVaccineDate > FirstVaccineDate THEN SecondVaccineDate ELSE NULL END AS SecondVaccineDate,
+  VaccineDose1Date AS FirstVaccineDate,
+  VaccineDose2Date AS SecondVaccineDate,
   IsOnInsulin,
   IsOnSGLTI,
   IsOnGLP1A,
@@ -629,7 +629,7 @@ LEFT OUTER JOIN #PatientMedications pm ON pm.FK_Patient_Link_ID = m.FK_Patient_L
 LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath covidDeath ON covidDeath.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientsFirstAdmissionPostTest fa ON fa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #COVIDVaccines v ON v.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #COVIDVaccinations v ON v.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 UNION
 --Patients in matched cohort
 SELECT 
@@ -669,8 +669,8 @@ SELECT
   IsOnClopidogrel,
   IsOnMetformin,
   CASE WHEN htn.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasHYPERTENSION,
-  FirstVaccineDate,
-	CASE WHEN SecondVaccineDate > FirstVaccineDate THEN SecondVaccineDate ELSE NULL END AS SecondVaccineDate,
+  VaccineDose1Date AS FirstVaccineDate,
+  VaccineDose2Date AS SecondVaccineDate,
   IsOnInsulin,
   IsOnSGLTI,
   IsOnGLP1A,
@@ -695,4 +695,4 @@ LEFT OUTER JOIN #PatientMedications pm ON pm.FK_Patient_Link_ID = m.FK_Patient_L
 LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath covidDeath ON covidDeath.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientsFirstAdmissionPostTest fa ON fa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #COVIDVaccines v ON v.FK_Patient_Link_ID = m.FK_Patient_Link_ID;
+LEFT OUTER JOIN #COVIDVaccinations v ON v.FK_Patient_Link_ID = m.FK_Patient_Link_ID;
