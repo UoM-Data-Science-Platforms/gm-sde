@@ -17,11 +17,17 @@
 --  - HasModerateClinicalVulnerabilityIndicator (Y/N)
 --	-	IsClinicallyEligibleForFluVaccine (Y/N)
 --	-	DateOfFluVaccineIn20192020Season (YYYY-MM-DD)
+--	-	DateOfFluVaccineIn20202021Season (YYYY-MM-DD)
 --  - HasCovidHospitalisation (Y/N)
 --  - DateOfFirstCovidHospitalisation
 --  - HasCovidDeathWithin28Days (Y/N)
 --  - FirstVaccineDate
 --  - SecondVaccineDate
+--  - ThirdVaccineDate
+--  - FourthVaccineDate
+--  - FifthVaccineDate
+--  - SixthVaccineDate
+--  - SeventhVaccineDate
 --	-	DateVaccineDeclined
 --  - DateOfDeath
 
@@ -444,6 +450,7 @@ ORDER BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider;
 
 -- OBJECTIVE: To get tables of all patients with a COVID diagnosis in their record.
 
+
 -- INPUT: Takes one parameter
 --  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
 
@@ -489,15 +496,12 @@ LEFT OUTER join #CovidPatients c ON
 --│ COVID vaccinations │
 --└────────────────────┘
 
--- OBJECTIVE: To obtain a table with first and second vaccine doses per patient.
+-- OBJECTIVE: To obtain a table with first, second, third... etc vaccine doses per patient.
 
 -- ASSUMPTIONS:
 --	-	GP records can often be duplicated. The assumption is that if a patient receives
 --    two vaccines within 14 days of each other then it is likely that both codes refer
---    to the same vaccine. However, it is possible that the first code's entry into the
---    record was delayed and therefore the second code is in fact a second dose. This
---    query simply gives the earliest and latest vaccine for each person together with
---    the number of days since the first vaccine.
+--    to the same vaccine.
 --  - The vaccine can appear as a procedure or as a medication. We assume that the
 --    presence of either represents a vaccination
 
@@ -506,8 +510,13 @@ LEFT OUTER join #CovidPatients c ON
 -- OUTPUT: A temp table as follows:
 -- #COVIDVaccinations (FK_Patient_Link_ID, VaccineDate, DaysSinceFirstVaccine)
 -- 	- FK_Patient_Link_ID - unique patient id
---	- VaccineDate - date of vaccine (YYYY-MM-DD)
---	- DaysSinceFirstVaccine - 0 if first vaccine, > 0 otherwise
+--	- VaccineDose1Date - date of first vaccine (YYYY-MM-DD)
+--	-	VaccineDose2Date - date of second vaccine (YYYY-MM-DD)
+--	-	VaccineDose3Date - date of third vaccine (YYYY-MM-DD)
+--	-	VaccineDose4Date - date of fourth vaccine (YYYY-MM-DD)
+--	-	VaccineDose5Date - date of fifth vaccine (YYYY-MM-DD)
+--	-	VaccineDose6Date - date of sixth vaccine (YYYY-MM-DD)
+--	-	VaccineDose7Date - date of seventh vaccine (YYYY-MM-DD)
 
 -- Get patients with covid vaccine and earliest and latest date
 -- >>> Codesets required... Inserting the code set code
@@ -733,38 +742,121 @@ INNER JOIN (
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
 -- >>> Following code sets injected: covid-vaccination v1
+
+
+IF OBJECT_ID('tempdb..#VacEvents') IS NOT NULL DROP TABLE #VacEvents;
+SELECT FK_Patient_Link_ID, CONVERT(DATE, EventDate) AS EventDate into #VacEvents
+FROM [RLS].[vw_GP_Events]
+WHERE SuppliedCode IN (
+	SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
+)
+AND EventDate > '2020-12-01';
+
+IF OBJECT_ID('tempdb..#VacMeds') IS NOT NULL DROP TABLE #VacMeds;
+SELECT FK_Patient_Link_ID, CONVERT(DATE, MedicationDate) AS EventDate into #VacMeds
+FROM [RLS].[vw_GP_Medications]
+WHERE SuppliedCode IN (
+	SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
+)
+AND MedicationDate > '2020-12-01';
+
 IF OBJECT_ID('tempdb..#COVIDVaccines') IS NOT NULL DROP TABLE #COVIDVaccines;
-SELECT 
-  FK_Patient_Link_ID, 
-  MIN(CONVERT(DATE, EventDate)) AS FirstVaccineDate, 
-  MAX(CONVERT(DATE, EventDate)) AS SecondVaccineDate
-INTO #COVIDVaccines
-FROM (
-	SELECT FK_Patient_Link_ID, EventDate
-	FROM [RLS].[vw_GP_Events]
-	WHERE SuppliedCode IN (
-	  SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
-	)
-	AND EventDate > '2020-12-01'
-	UNION 
-	SELECT FK_Patient_Link_ID, MedicationDate
-	FROM [RLS].[vw_GP_Medications]
-	WHERE SuppliedCode IN (
-	  SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
-	)
-	AND MedicationDate > '2020-12-01'
-) sub
-GROUP BY FK_Patient_Link_ID;
+SELECT FK_Patient_Link_ID, EventDate into #COVIDVaccines FROM #VacEvents
+UNION
+SELECT FK_Patient_Link_ID, EventDate FROM #VacMeds;
+--4426892 5m03
+
+-- Tidy up
+DROP TABLE #VacEvents;
+DROP TABLE #VacMeds;
+
+-- Get first vaccine dose
+IF OBJECT_ID('tempdb..#VacTemp1') IS NOT NULL DROP TABLE #VacTemp1;
+select FK_Patient_Link_ID, MIN(EventDate) AS VaccineDoseDate
+into #VacTemp1
+from #COVIDVaccines
+group by FK_Patient_Link_ID;
+--2046837
+
+-- Get second vaccine dose (if exists) - assume dose within 14 days is same dose
+IF OBJECT_ID('tempdb..#VacTemp2') IS NOT NULL DROP TABLE #VacTemp2;
+select c.FK_Patient_Link_ID, MIN(c.EventDate) AS VaccineDoseDate
+into #VacTemp2
+from #VacTemp1 v
+inner join #COVIDVaccines c on c.EventDate > DATEADD(day, 14, v.VaccineDoseDate) and c.FK_Patient_Link_ID = v.FK_Patient_Link_ID
+group by c.FK_Patient_Link_ID;
+--1810762
+
+-- Get third vaccine dose (if exists) - assume dose within 14 days is same dose
+IF OBJECT_ID('tempdb..#VacTemp3') IS NOT NULL DROP TABLE #VacTemp3;
+select c.FK_Patient_Link_ID, MIN(c.EventDate) AS VaccineDoseDate
+into #VacTemp3
+from #VacTemp2 v
+inner join #COVIDVaccines c on c.EventDate > DATEADD(day, 14, v.VaccineDoseDate) and c.FK_Patient_Link_ID = v.FK_Patient_Link_ID
+group by c.FK_Patient_Link_ID;
+--578468
+
+-- Get fourth vaccine dose (if exists) - assume dose within 14 days is same dose
+IF OBJECT_ID('tempdb..#VacTemp4') IS NOT NULL DROP TABLE #VacTemp4;
+select c.FK_Patient_Link_ID, MIN(c.EventDate) AS VaccineDoseDate
+into #VacTemp4
+from #VacTemp3 v
+inner join #COVIDVaccines c on c.EventDate > DATEADD(day, 14, v.VaccineDoseDate) and c.FK_Patient_Link_ID = v.FK_Patient_Link_ID
+group by c.FK_Patient_Link_ID;
+--1860
+
+-- Get fifth vaccine dose (if exists) - assume dose within 14 days is same dose
+IF OBJECT_ID('tempdb..#VacTemp5') IS NOT NULL DROP TABLE #VacTemp5;
+select c.FK_Patient_Link_ID, MIN(c.EventDate) AS VaccineDoseDate
+into #VacTemp5
+from #VacTemp4 v
+inner join #COVIDVaccines c on c.EventDate > DATEADD(day, 14, v.VaccineDoseDate) and c.FK_Patient_Link_ID = v.FK_Patient_Link_ID
+group by c.FK_Patient_Link_ID;
+--39
+
+-- Get sixth vaccine dose (if exists) - assume dose within 14 days is same dose
+IF OBJECT_ID('tempdb..#VacTemp6') IS NOT NULL DROP TABLE #VacTemp6;
+select c.FK_Patient_Link_ID, MIN(c.EventDate) AS VaccineDoseDate
+into #VacTemp6
+from #VacTemp5 v
+inner join #COVIDVaccines c on c.EventDate > DATEADD(day, 14, v.VaccineDoseDate) and c.FK_Patient_Link_ID = v.FK_Patient_Link_ID
+group by c.FK_Patient_Link_ID;
+--2
+
+-- Get seventh vaccine dose (if exists) - assume dose within 14 days is same dose
+IF OBJECT_ID('tempdb..#VacTemp7') IS NOT NULL DROP TABLE #VacTemp7;
+select c.FK_Patient_Link_ID, MIN(c.EventDate) AS VaccineDoseDate
+into #VacTemp7
+from #VacTemp6 v
+inner join #COVIDVaccines c on c.EventDate > DATEADD(day, 14, v.VaccineDoseDate) and c.FK_Patient_Link_ID = v.FK_Patient_Link_ID
+group by c.FK_Patient_Link_ID;
+--2
 
 IF OBJECT_ID('tempdb..#COVIDVaccinations') IS NOT NULL DROP TABLE #COVIDVaccinations;
-SELECT FK_Patient_Link_ID, FirstVaccineDate AS VaccineDate, 0 AS DaysSinceFirstVaccine
+SELECT v1.FK_Patient_Link_ID, v1.VaccineDoseDate AS VaccineDose1Date,
+v2.VaccineDoseDate AS VaccineDose2Date,
+v3.VaccineDoseDate AS VaccineDose3Date,
+v4.VaccineDoseDate AS VaccineDose4Date,
+v5.VaccineDoseDate AS VaccineDose5Date,
+v6.VaccineDoseDate AS VaccineDose6Date,
+v7.VaccineDoseDate AS VaccineDose7Date
 INTO #COVIDVaccinations
-FROM #COVIDVaccines;
+FROM #VacTemp1 v1
+LEFT OUTER JOIN #VacTemp2 v2 ON v2.FK_Patient_Link_ID = v1.FK_Patient_Link_ID
+LEFT OUTER JOIN #VacTemp3 v3 ON v3.FK_Patient_Link_ID = v1.FK_Patient_Link_ID
+LEFT OUTER JOIN #VacTemp4 v4 ON v4.FK_Patient_Link_ID = v1.FK_Patient_Link_ID
+LEFT OUTER JOIN #VacTemp5 v5 ON v5.FK_Patient_Link_ID = v1.FK_Patient_Link_ID
+LEFT OUTER JOIN #VacTemp6 v6 ON v6.FK_Patient_Link_ID = v1.FK_Patient_Link_ID
+LEFT OUTER JOIN #VacTemp7 v7 ON v7.FK_Patient_Link_ID = v1.FK_Patient_Link_ID;
 
-INSERT INTO #COVIDVaccinations
-SELECT FK_Patient_Link_ID, SecondVaccineDate, DATEDIFF(day, FirstVaccineDate, SecondVaccineDate)
-FROM #COVIDVaccines
-WHERE FirstVaccineDate != SecondVaccineDate;
+-- Tidy up
+DROP TABLE #VacTemp1;
+DROP TABLE #VacTemp2;
+DROP TABLE #VacTemp3;
+DROP TABLE #VacTemp4;
+DROP TABLE #VacTemp5;
+DROP TABLE #VacTemp6;
+DROP TABLE #VacTemp7;
 
 
 
@@ -774,15 +866,16 @@ WHERE FirstVaccineDate != SecondVaccineDate;
 
 -- OBJECTIVE: To find patients who received a flu vaccine in a given time period
 
--- INPUT: Takes two parameters
+-- INPUT: Takes three parameters
 --  - date-from: YYYY-MM-DD - the start date of the time period (inclusive)
 --  - date-to: YYYY-MM-DD - the end date of the time period (inclusive)
+-- 	- id: string - an id flag to enable multiple temp tables to be created
 -- Requires one temp table to exist as follows:
 -- #Patients (FK_Patient_Link_ID)
 --  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
 
 -- OUTPUT: A temp table as follows:
--- #PatientHadFluVaccine (FK_Patient_Link_ID, FluVaccineDate)
+-- #PatientHadFluVaccine{id} (FK_Patient_Link_ID, FluVaccineDate)
 --	- FK_Patient_Link_ID - unique patient id
 --	- FluVaccineDate - YYYY-MM-DD (first date of flu vaccine in given time period)
 
@@ -791,9 +884,9 @@ WHERE FirstVaccineDate != SecondVaccineDate;
 
 -- >>> Following code sets injected: flu-vaccination v1
 -- First get all patients from the GP_Events table who have a flu vaccination (procedure) code
-IF OBJECT_ID('tempdb..#PatientsWithFluVacConcept') IS NOT NULL DROP TABLE #PatientsWithFluVacConcept;
+IF OBJECT_ID('tempdb..#PatientsWithFluVacConcept2019') IS NOT NULL DROP TABLE #PatientsWithFluVacConcept2019;
 SELECT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS FluVaccineDate
-INTO #PatientsWithFluVacConcept
+INTO #PatientsWithFluVacConcept2019
 FROM RLS.[vw_GP_Events]
 WHERE (
 	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'flu-vaccination' AND [Version] = 1) OR
@@ -804,7 +897,7 @@ AND EventDate <= '2020-06-30';
 
 -- >>> Following code sets injected: flu-vaccine v1
 -- Then get all patients from the GP_Medications table who have a flu vaccine (medication) code
-INSERT INTO #PatientsWithFluVacConcept
+INSERT INTO #PatientsWithFluVacConcept2019
 SELECT FK_Patient_Link_ID, CAST(MedicationDate AS DATE) FROM RLS.vw_GP_Medications
 WHERE (
 	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'flu-vaccine' AND [Version] = 1) OR
@@ -814,13 +907,14 @@ and MedicationDate >= '2019-07-01'
 and MedicationDate <= '2020-06-30';
 
 -- Bring all together in final table
-IF OBJECT_ID('tempdb..#PatientHadFluVaccine') IS NOT NULL DROP TABLE #PatientHadFluVaccine;
+IF OBJECT_ID('tempdb..#PatientHadFluVaccine2019') IS NOT NULL DROP TABLE #PatientHadFluVaccine2019;
 SELECT 
 	FK_Patient_Link_ID,
 	MIN(FluVaccineDate) AS FluVaccineDate
-INTO #PatientHadFluVaccine FROM #PatientsWithFluVacConcept
+INTO #PatientHadFluVaccine2019 FROM #PatientsWithFluVacConcept2019
 GROUP BY FK_Patient_Link_ID;
 
+-- >>> Ignoring following query as already injected: query-received-flu-vaccine.sql
 
 --┌────────────────────────────────┐
 --│ Flu vaccine eligibile patients │
@@ -897,12 +991,18 @@ SELECT
 	HighVulnerabilityCodeDate AS DateOfHighClinicalVulnerabilityIndicator,
 	CASE WHEN mv.FK_Patient_Link_ID IS NOT NULL THEN 'Y' ELSE 'N' END AS HasModerateClinicalVulnerability,
 	CASE WHEN flu.FK_Patient_Link_ID IS NOT NULL THEN 'Y' ELSE 'N' END AS IsClinicallyEligibleForFluVaccine,
-	fluvac.FluVaccineDate AS DateOfFluVaccineIn20192020Season,
+	fluvac2019.FluVaccineDate AS DateOfFluVaccineIn20192020Season,
+	fluvac2020.FluVaccineDate AS DateOfFluVaccineIn20202021Season,
 	CASE WHEN DateOfFirstCovidHospitalisation IS NOT NULL THEN 'Y' ELSE 'N' END AS HasCovidHospitalisation,
 	DateOfFirstCovidHospitalisation,
 	CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN 'Y' ELSE 'N' END AS HasCovidDeathWithin28Days,
-	FirstVaccineDate,
-	CASE WHEN SecondVaccineDate > FirstVaccineDate THEN SecondVaccineDate ELSE NULL END AS SecondVaccineDate,
+	VaccineDose1Date AS FirstVaccineDate,
+	VaccineDose2Date AS SecondVaccineDate,
+	VaccineDose3Date AS ThirdVaccineDate,
+	VaccineDose4Date AS FourthVaccineDate,
+	VaccineDose5Date AS FifthVaccineDate,
+	VaccineDose6Date AS SixthVaccineDate,
+	VaccineDose7Date AS SeventhVaccineDate,
 	DateVaccineDeclined,
 	DeathDate AS DateOfDeath
 FROM #Patients p
@@ -914,7 +1014,8 @@ LEFT OUTER JOIN #HighVulnerabilityPatients hv ON hv.FK_Patient_Link_ID = p.FK_Pa
 LEFT OUTER JOIN #ModerateVulnerabilityPatients mv ON mv.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #FirstCOVIDAdmission ca ON ca.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #COVIDVaccines v ON v.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #COVIDVaccinations v ON v.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #VaccineDeclinedPatients vd ON vd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #FluVaccPatients flu ON flu.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientHadFluVaccine fluvac ON fluvac.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
+LEFT OUTER JOIN #PatientHadFluVaccine2019 fluvac2019 ON fluvac2019.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientHadFluVaccine2020 fluvac2020 ON fluvac2020.FK_Patient_Link_ID = p.FK_Patient_Link_ID;;
