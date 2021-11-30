@@ -17,11 +17,17 @@
 --  - HasModerateClinicalVulnerabilityIndicator (Y/N)
 --	-	IsClinicallyEligibleForFluVaccine (Y/N)
 --	-	DateOfFluVaccineIn20192020Season (YYYY-MM-DD)
+--	-	DateOfFluVaccineIn20202021Season (YYYY-MM-DD)
 --  - HasCovidHospitalisation (Y/N)
 --  - DateOfFirstCovidHospitalisation
 --  - HasCovidDeathWithin28Days (Y/N)
 --  - FirstVaccineDate
 --  - SecondVaccineDate
+--  - ThirdVaccineDate
+--  - FourthVaccineDate
+--  - FifthVaccineDate
+--  - SixthVaccineDate
+--  - SeventhVaccineDate
 --	-	DateVaccineDeclined
 --  - DateOfDeath
 
@@ -67,7 +73,8 @@ SELECT * FROM #Temp;
 
 --> EXECUTE query-get-covid-vaccines.sql
 
---> EXECUTE query-received-flu-vaccine.sql date-from:2019-07-01 date-to:2020-06-30
+--> EXECUTE query-received-flu-vaccine.sql date-from:2019-07-01 date-to:2020-06-30 id:2019
+--> EXECUTE query-received-flu-vaccine.sql date-from:2020-07-01 date-to:2021-06-30 id:2020
 
 --> EXECUTE query-get-flu-vaccine-eligible.sql
 
@@ -119,12 +126,18 @@ SELECT
 	HighVulnerabilityCodeDate AS DateOfHighClinicalVulnerabilityIndicator,
 	CASE WHEN mv.FK_Patient_Link_ID IS NOT NULL THEN 'Y' ELSE 'N' END AS HasModerateClinicalVulnerability,
 	CASE WHEN flu.FK_Patient_Link_ID IS NOT NULL THEN 'Y' ELSE 'N' END AS IsClinicallyEligibleForFluVaccine,
-	fluvac.FluVaccineDate AS DateOfFluVaccineIn20192020Season,
+	fluvac2019.FluVaccineDate AS DateOfFluVaccineIn20192020Season,
+	fluvac2020.FluVaccineDate AS DateOfFluVaccineIn20202021Season,
 	CASE WHEN DateOfFirstCovidHospitalisation IS NOT NULL THEN 'Y' ELSE 'N' END AS HasCovidHospitalisation,
 	DateOfFirstCovidHospitalisation,
 	CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN 'Y' ELSE 'N' END AS HasCovidDeathWithin28Days,
-	FirstVaccineDate,
-	CASE WHEN SecondVaccineDate > FirstVaccineDate THEN SecondVaccineDate ELSE NULL END AS SecondVaccineDate,
+	VaccineDose1Date AS FirstVaccineDate,
+	VaccineDose2Date AS SecondVaccineDate,
+	VaccineDose3Date AS ThirdVaccineDate,
+	VaccineDose4Date AS FourthVaccineDate,
+	VaccineDose5Date AS FifthVaccineDate,
+	VaccineDose6Date AS SixthVaccineDate,
+	VaccineDose7Date AS SeventhVaccineDate,
 	DateVaccineDeclined,
 	DeathDate AS DateOfDeath
 FROM #Patients p
@@ -136,7 +149,8 @@ LEFT OUTER JOIN #HighVulnerabilityPatients hv ON hv.FK_Patient_Link_ID = p.FK_Pa
 LEFT OUTER JOIN #ModerateVulnerabilityPatients mv ON mv.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #FirstCOVIDAdmission ca ON ca.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #COVIDVaccines v ON v.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #COVIDVaccinations v ON v.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #VaccineDeclinedPatients vd ON vd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #FluVaccPatients flu ON flu.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientHadFluVaccine fluvac ON fluvac.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
+LEFT OUTER JOIN #PatientHadFluVaccine2019 fluvac2019 ON fluvac2019.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientHadFluVaccine2020 fluvac2020 ON fluvac2020.FK_Patient_Link_ID = p.FK_Patient_Link_ID;;

@@ -203,8 +203,8 @@ LEFT OUTER JOIN #TempCurrent c on c.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
 IF OBJECT_ID('tempdb..#COVIDVaccinations2') IS NOT NULL DROP TABLE #COVIDVaccinations2;
 SELECT 
 	FK_Patient_Link_ID,
-	FirstVaccineDate = MAX(CASE WHEN VaccineDate IS NOT NULL AND DaysSinceFirstVaccine = 0 THEN VaccineDate ELSE NULL END), 
-	SecondVaccineDate = MAX(CASE WHEN VaccineDate IS NOT NULL AND DaysSinceFirstVaccine != 0 THEN VaccineDate ELSE NULL END) 
+	FirstVaccineDate = VaccineDose1Date, 
+	SecondVaccineDate = VaccineDose2Date 
 INTO #COVIDVaccinations2
 FROM #COVIDVaccinations
 GROUP BY FK_Patient_Link_ID
