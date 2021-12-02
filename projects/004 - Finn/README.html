@@ -126,12 +126,11 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>COVID vaccinations</li>
 <li>Index Multiple Deprivation</li>
 <li>Lower level super output area</li>
-<li>COVID-related secondary admissions</li>
 <li>Patients with COVID</li>
 <li>Secondary admissions and length of stay</li>
 <li>Secondary discharges</li>
 <li>Classify secondary admissions</li>
-<li>Patients that undertook a COVID test</li>
+<li>Patients with a COVID test result</li>
 <li>Condition events from LTC clinical codeset</li>
 <li>Cancer cohort matching for 004-Finn</li>
 <li>Cohort matching on year of birth / sex</li>
@@ -198,28 +197,6 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </code></pre>
 <p><em>File</em>: <code>query-patient-lsoa.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-lsoa.sql">https://github.com/rw251/.../query-patient-lsoa.sql</a></p>
-<hr>
-<h3>COVID-related secondary admissions</h3>
-<p>To classify every admission to secondary care based on whether it is a COVID or non-COVID related. A COVID-related admission is classed as an admission within 4 weeks after, or up to 2 weeks before a positive test.</p>
-<p><em>Input</em></p>
-<pre><code>Takes one parameter
-  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
- And assumes there exists two temp tables as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
-  A distinct list of the admissions for each patient in the cohort
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>A temp table as follows:
- #COVIDUtilisationAdmissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
-	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of admission (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-	- CovidHealthcareUtilisation - 'TRUE' if admission within 4 weeks after, or up to 14 days before, a positive test
-</code></pre>
-<p><em>File</em>: <code>query-admissions-covid-utilisation.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-admissions-covid-utilisation.sql">https://github.com/rw251/.../query-admissions-covid-utilisation.sql</a></p>
 <hr>
 <h3>Patients with COVID</h3>
 <p>To get tables of all patients with a COVID diagnosis in their record.</p>
@@ -311,30 +288,34 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p><em>File</em>: <code>query-classify-secondary-admissions.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-classify-secondary-admissions.sql">https://github.com/rw251/.../query-classify-secondary-admissions.sql</a></p>
 <hr>
-<h3>Patients that undertook a COVID test</h3>
+<h3>Patients with a COVID test result</h3>
 <p>To get all patients with a positive and negative COVID test result.</p>
 <p><em>Input</em></p>
 <pre><code>Takes one parameter
   - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
 </code></pre>
 <p><em>Output</em></p>
-<pre><code>Two temp tables as follows:
+<pre><code>Three temp tables as follows:
  #CovidPositiveTests (FK_Patient_Link_ID, CovidTestDate, CovidTestResult)
  #CovidNegativeTests (FK_Patient_Link_ID, CovidTestDate, CovidTestResult)
  	- FK_Patient_Link_ID - unique patient id
   - CovidTestDate - Date, assume that only 1 test per day
 	- CovidTestResult - Varchar, 'Positive', 'Negative'.
+ #AllCovidTests (FK_Patient_Link_ID, CovidTestDate, CovidTestDescription, ClinicalCode)
+ 	- FK_Patient_Link_ID - unique patient id
+  - CovidTestDate - Date, assume that only 1 test per day
+	- CovidTestResult - Varchar, This field concatenates the information in the GroupDescription and SubGroupDescription from the vw_COVID19 table.
+  - ClinicalCode - The clinical code retrieved from 'MainCode' in the vw_COVID19 table.
 </code></pre>
 <p><em>File</em>: <code>query-patients-covid-tests.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-covid-tests.sql">https://github.com/rw251/.../query-patients-covid-tests.sql</a></p>
 <hr>
 <h3>Condition events from LTC clinical codeset</h3>
-<p>To get all events associated with the long-term conditions clinical codeset for each patient <em>from</em> a pre-set date.</p>
+<p>To get all events related with the long-term conditions (ltc) clinical codeset for each patient.</p>
 <p><em>Input</em></p>
 <pre><code>Assumes there exists a temp table as follows:
  #Patients (FK_Patient_Link_ID)
  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
- @StartDate - The starting date that the study has access to the data from.
 </code></pre>
 <p><em>Output</em></p>
 <pre><code>A temp table with a row for each patient and ltc combo
