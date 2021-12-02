@@ -136,3 +136,30 @@ Find out the following total number of rows to investigate how big the chohorts 
 
 2021-10-3 12.25 - 6.30pm
 -- Check and validate comorbidities data extract for RQ04.
+
+2021-10-22 10.30 - 5pm 
+-- comorbidities
+-- Investigate covid positive tests, negative and excluded
+
+2021-10-28 7.30 - 10.00pm
+-- Locate the issue with the data reg quotation marks and special characters
+-- Check if adding quotation will solve the issue
+
+2021-10-29 11.00-12.20
+-- Check if identifiable 
+
+2021-11-5 13.00 
+-- Identify cancer summary table 
+
+2021-11-23 22.00-24.05
+-- Check that the extraction of data to CSV works. 
+
+2021-11-26 17.00 - 20.30
+-- investigate the source of the positive and negative tests.
+
+2021-11-27 15.00 - 
+-- Verify the changes on extracting the files using the stringify libarry can produce valid CSV extracts. 
+
+2021-11-30 14.00 - 18.00 
+-- Check vaccination details for RQ004
+-- Check that the covid information table extract for RQ004 works.
