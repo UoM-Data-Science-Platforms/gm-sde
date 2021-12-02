@@ -636,18 +636,33 @@ WHERE
 
 
 -- Define the population of potential matches for the cohort
+-- Get patients from tenancy =2 and GP practice code in GM. 
+-- If patients have a tenancy id of 2 we take this as their most likely GP practice
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientsGP') IS NOT NULL DROP TABLE #PatientsGP;
+SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) as GPPracticeCode INTO #PatientsGP FROM RLS.vw_Patient
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+AND GPPracticeCode IS NOT NULL 
+AND GPPracticeCode NOT LIKE 'ZZZ%'
+GROUP BY FK_Patient_Link_ID;
+
+
+
 --	Get all patients alive on 1st February 2020 
 IF OBJECT_ID('tempdb..#PatientsAliveIndex') IS NOT NULL DROP TABLE #PatientsAliveIndex;
-SELECT pl.PK_Patient_Link_ID AS FK_Patient_Link_ID, sex.Sex, yob.YearOfBirth
+SELECT pGP.FK_Patient_Link_ID, sex.Sex, yob.YearOfBirth
 INTO #PatientsAliveIndex
-FROM RLS.vw_Patient_Link pl
-LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = pl.PK_Patient_Link_ID
-LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = pl.PK_Patient_Link_ID
+FROM #PatientsGP pGP
+LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = pGP.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = pGP.FK_Patient_Link_ID
+LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = pGP.FK_Patient_Link_ID
 WHERE  
-  (pl.DeathDate is null and pl.Deceased = 'N') 
+  ((pl.DeathDate is null and pl.Deceased = 'N') 
   OR
-  (pl.DeathDate is not null and (pl.DeathDate >= @StartDate));
--- 5.342.653 rows
+  (pl.DeathDate is not null and (pl.DeathDate >= @StartDate)))
+
+-- previous: (5.342.653 rows)
 
 
 -- Get patients with no current or history of cancer diagnosis (in GP records).
@@ -658,7 +673,7 @@ FROM #PatientsAliveIndex pa
 LEFT OUTER JOIN #AllCancerPatients AS cp 
   ON pa.FK_Patient_Link_ID = cp.FK_Patient_Link_ID
 WHERE cp.FK_Patient_Link_ID IS NULL;
--- 5.174.028 rows
+-- previous: (5.174.028 rows)
 
 
 
@@ -863,20 +878,15 @@ GROUP BY FK_Patient_Link_ID, YearOfBirth, Sex, HasCancer;
 
 -- OUTPUTS: #Patients
 
--- Set start date to be 1 year before study index date
-SET @StartDate = DATEADD(year, -1, @StartDate);;
-
---
 --┌──────────────────────────────────────────────┐
 --│ Condition events from LTC clinical codeset   │
 --└──────────────────────────────────────────────┘
 
--- OBJECTIVE: To get all events associated with the long-term conditions clinical codeset for each patient *from* a pre-set date.
+-- OBJECTIVE: To get all events related with the long-term conditions (ltc) clinical codeset for each patient.
 
 -- INPUT: Assumes there exists a temp table as follows:
 -- #Patients (FK_Patient_Link_ID)
 -- A distinct list of FK_Patient_Link_IDs for each patient in the cohort
--- @StartDate - The starting date that the study has access to the data from.
 
 -- OUTPUT: A temp table with a row for each patient and ltc combo
 -- #PatientConditionsEvents 
@@ -1517,10 +1527,7 @@ WHERE (
     'Atrial Fibrillation', 'Coronary Heart Disease', 'Heart Failure', 'Hypertension', 'Peripheral Vascular Disease', 'Stroke And Tia', 'Diabetes', 'Thyroid Disorders', 'Chronic Liver Disease', 'Diverticular Disease Of Intestine', 'Inflammatory Bowel Disease', 'Peptic Ulcer Disease', 'Rheumatoid Arthritis And Other Inflammatory Polyarthropathies', 'Multiple Sclerosis', 'Parkinsons Disease', 'Anorexia Or Bulimia', 'Anxiety And Other Somatoform Disorders', 'Dementia', 'Depression', 'Schizophrenia Or Bipolar', 'Chronic Kidney Disease', 'Prostate Disorders', 'Asthma', 'Bronchiectasis', 'Chronic Sinusitis', 'COPD', 'Blindness And Low Vision', 'Glaucoma', 'Hearing Loss', 'Learning Disability', 'Alcohol Problems', 'Psychoactive Substance Abuse', 'Cancer'
   ))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate >= @StartDate;
-
-
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 
 
@@ -1567,22 +1574,26 @@ WHERE (
     'Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Psoriasis Or Eczema','Migraine'
   ))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND MedicationDate >= @StartDate
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 
--- Create output table with patient conditions events
+
+-- Create the output table with the patient events related with long term conditions
+-- Adding diagnosis, or medications to indicate the origin of the condition. 
+-- DIagnosis: Condition has been retrieved from GP events
+-- Medications: Condition has been retrieved from the medications table. 
+-- Grain: multiple event dates per condition, and multiple conditions per patient 
 IF OBJECT_ID('tempdb..#PatientConditionsEvents') IS NOT NULL DROP TABLE #PatientConditionsEvents;
 CREATE TABLE #PatientConditionsEvents (FK_Patient_Link_ID BIGINT, Condition VARCHAR(100), EventDate DATE);
 
 INSERT INTO #PatientConditionsEvents
 SELECT 
-  FK_Patient_Link_ID, Condition, EventDate 
+  FK_Patient_Link_ID, Condition + ' - Diagnosis', EventDate 
 FROM #LTCTemp;
 
 INSERT INTO #PatientConditionsEvents
 SELECT 
-  FK_Patient_Link_ID, Condition, EventDate 
+  FK_Patient_Link_ID, Condition + ' - Medications', EventDate 
 FROM #LTCTempMedications;
 
 -- OUTPUT: #PatientConditionsEvents (FK_Patient_Link_ID, Condition, EventDate)
@@ -1595,7 +1606,9 @@ SELECT
   EventDate
 FROM #PatientConditionsEvents
 ORDER BY FK_Patient_Link_ID, Condition;
-
+-- 38.877.094 rows
+-- running time: ~1hour8min
+-- as of 22nd Oct 2021
 
 
 

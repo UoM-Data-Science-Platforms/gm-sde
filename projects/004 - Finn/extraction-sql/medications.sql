@@ -646,18 +646,33 @@ WHERE
 
 
 -- Define the population of potential matches for the cohort
+-- Get patients from tenancy =2 and GP practice code in GM. 
+-- If patients have a tenancy id of 2 we take this as their most likely GP practice
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientsGP') IS NOT NULL DROP TABLE #PatientsGP;
+SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) as GPPracticeCode INTO #PatientsGP FROM RLS.vw_Patient
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+AND GPPracticeCode IS NOT NULL 
+AND GPPracticeCode NOT LIKE 'ZZZ%'
+GROUP BY FK_Patient_Link_ID;
+
+
+
 --	Get all patients alive on 1st February 2020 
 IF OBJECT_ID('tempdb..#PatientsAliveIndex') IS NOT NULL DROP TABLE #PatientsAliveIndex;
-SELECT pl.PK_Patient_Link_ID AS FK_Patient_Link_ID, sex.Sex, yob.YearOfBirth
+SELECT pGP.FK_Patient_Link_ID, sex.Sex, yob.YearOfBirth
 INTO #PatientsAliveIndex
-FROM RLS.vw_Patient_Link pl
-LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = pl.PK_Patient_Link_ID
-LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = pl.PK_Patient_Link_ID
+FROM #PatientsGP pGP
+LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = pGP.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = pGP.FK_Patient_Link_ID
+LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = pGP.FK_Patient_Link_ID
 WHERE  
-  (pl.DeathDate is null and pl.Deceased = 'N') 
+  ((pl.DeathDate is null and pl.Deceased = 'N') 
   OR
-  (pl.DeathDate is not null and (pl.DeathDate >= @StartDate));
--- 5.342.653 rows
+  (pl.DeathDate is not null and (pl.DeathDate >= @StartDate)))
+
+-- previous: (5.342.653 rows)
 
 
 -- Get patients with no current or history of cancer diagnosis (in GP records).
@@ -668,7 +683,7 @@ FROM #PatientsAliveIndex pa
 LEFT OUTER JOIN #AllCancerPatients AS cp 
   ON pa.FK_Patient_Link_ID = cp.FK_Patient_Link_ID
 WHERE cp.FK_Patient_Link_ID IS NULL;
--- 5.174.028 rows
+-- previous: (5.174.028 rows)
 
 
 

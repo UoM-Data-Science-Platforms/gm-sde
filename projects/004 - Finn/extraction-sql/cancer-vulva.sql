@@ -133,6 +133,6 @@ FROM [SharedCare].[Cancer_Vulva];
 
 /* Drop the columns that are not needed */
 ALTER TABLE #TempTable
-DROP COLUMN [FK_Patient_Link_ID], [FK_Patient_ID];
+DROP COLUMN [PK_Vulva_Cancer_ID], [FK_Patient_Link_ID], [FK_Patient_ID];
 
 SELECT * FROM #TempTable;

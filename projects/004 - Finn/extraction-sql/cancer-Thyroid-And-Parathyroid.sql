@@ -157,6 +157,6 @@ FROM [SharedCare].[Cancer_Thyroid_And_Parathyroid];
 
 /* Drop the columns that are not needed */
 ALTER TABLE #TempTable
-DROP COLUMN [FK_Patient_Link_ID], [FK_Patient_ID];
+DROP COLUMN [PK_Thyroid_And_Parathyroid_ID], [FK_Patient_Link_ID], [FK_Patient_ID];
 
 SELECT * FROM #TempTable;
