@@ -38,12 +38,11 @@ This project required the following reusable queries:
 - COVID vaccinations
 - Index Multiple Deprivation
 - Lower level super output area
-- COVID-related secondary admissions
 - Patients with COVID
 - Secondary admissions and length of stay
 - Secondary discharges
 - Classify secondary admissions
-- Patients that undertook a COVID test
+- Patients with a COVID test result
 - Condition events from LTC clinical codeset
 - Cancer cohort matching for 004-Finn
 - Cohort matching on year of birth / sex
@@ -128,34 +127,6 @@ A temp table as follows:
 _File_: `query-patient-lsoa.sql`
 
 _Link_: [https://github.com/rw251/.../query-patient-lsoa.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-lsoa.sql)
-
----
-### COVID-related secondary admissions
-To classify every admission to secondary care based on whether it is a COVID or non-COVID related. A COVID-related admission is classed as an admission within 4 weeks after, or up to 2 weeks before a positive test.
-
-_Input_
-```
-Takes one parameter
-  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
- And assumes there exists two temp tables as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
-  A distinct list of the admissions for each patient in the cohort
-```
-
-_Output_
-```
-A temp table as follows:
- #COVIDUtilisationAdmissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
-	- FK_Patient_Link_ID - unique patient id
-	- AdmissionDate - date of admission (YYYY-MM-DD)
-	- AcuteProvider - Bolton, SRFT, Stockport etc..
-	- CovidHealthcareUtilisation - 'TRUE' if admission within 4 weeks after, or up to 14 days before, a positive test
-```
-_File_: `query-admissions-covid-utilisation.sql`
-
-_Link_: [https://github.com/rw251/.../query-admissions-covid-utilisation.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-admissions-covid-utilisation.sql)
 
 ---
 ### Patients with COVID
@@ -269,7 +240,7 @@ _File_: `query-classify-secondary-admissions.sql`
 _Link_: [https://github.com/rw251/.../query-classify-secondary-admissions.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-classify-secondary-admissions.sql)
 
 ---
-### Patients that undertook a COVID test
+### Patients with a COVID test result
 To get all patients with a positive and negative COVID test result.
 
 _Input_
@@ -280,12 +251,17 @@ Takes one parameter
 
 _Output_
 ```
-Two temp tables as follows:
+Three temp tables as follows:
  #CovidPositiveTests (FK_Patient_Link_ID, CovidTestDate, CovidTestResult)
  #CovidNegativeTests (FK_Patient_Link_ID, CovidTestDate, CovidTestResult)
  	- FK_Patient_Link_ID - unique patient id
   - CovidTestDate - Date, assume that only 1 test per day
 	- CovidTestResult - Varchar, 'Positive', 'Negative'.
+ #AllCovidTests (FK_Patient_Link_ID, CovidTestDate, CovidTestDescription, ClinicalCode)
+ 	- FK_Patient_Link_ID - unique patient id
+  - CovidTestDate - Date, assume that only 1 test per day
+	- CovidTestResult - Varchar, This field concatenates the information in the GroupDescription and SubGroupDescription from the vw_COVID19 table.
+  - ClinicalCode - The clinical code retrieved from 'MainCode' in the vw_COVID19 table.
 ```
 _File_: `query-patients-covid-tests.sql`
 
@@ -293,14 +269,13 @@ _Link_: [https://github.com/rw251/.../query-patients-covid-tests.sql](https://gi
 
 ---
 ### Condition events from LTC clinical codeset
-To get all events associated with the long-term conditions clinical codeset for each patient *from* a pre-set date.
+To get all events related with the long-term conditions (ltc) clinical codeset for each patient.
 
 _Input_
 ```
 Assumes there exists a temp table as follows:
  #Patients (FK_Patient_Link_ID)
  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
- @StartDate - The starting date that the study has access to the data from.
 ```
 
 _Output_
