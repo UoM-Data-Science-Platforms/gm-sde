@@ -9,8 +9,9 @@
 
 -- OUTPUT: A single table with the following:
 --  PatientId (Int)
---  CovidEvent ('High Clinical Vulnerability', 'Moderate Clinical Vulnerability', 'Positive Test', 'Death Within 28 Days')
+--  CovidEvent ('High Clinical Vulnerability', 'Moderate Clinical Vulnerability', 'Death Within 28 Days', )
 --  CovidEventDate (YYYY-MM-DD)
+--  ClinicalCode (The code provided with the event)
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -650,18 +651,33 @@ WHERE
 
 
 -- Define the population of potential matches for the cohort
+-- Get patients from tenancy =2 and GP practice code in GM. 
+-- If patients have a tenancy id of 2 we take this as their most likely GP practice
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientsGP') IS NOT NULL DROP TABLE #PatientsGP;
+SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) as GPPracticeCode INTO #PatientsGP FROM RLS.vw_Patient
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+AND GPPracticeCode IS NOT NULL 
+AND GPPracticeCode NOT LIKE 'ZZZ%'
+GROUP BY FK_Patient_Link_ID;
+
+
+
 --	Get all patients alive on 1st February 2020 
 IF OBJECT_ID('tempdb..#PatientsAliveIndex') IS NOT NULL DROP TABLE #PatientsAliveIndex;
-SELECT pl.PK_Patient_Link_ID AS FK_Patient_Link_ID, sex.Sex, yob.YearOfBirth
+SELECT pGP.FK_Patient_Link_ID, sex.Sex, yob.YearOfBirth
 INTO #PatientsAliveIndex
-FROM RLS.vw_Patient_Link pl
-LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = pl.PK_Patient_Link_ID
-LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = pl.PK_Patient_Link_ID
+FROM #PatientsGP pGP
+LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = pGP.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = pGP.FK_Patient_Link_ID
+LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = pGP.FK_Patient_Link_ID
 WHERE  
-  (pl.DeathDate is null and pl.Deceased = 'N') 
+  ((pl.DeathDate is null and pl.Deceased = 'N') 
   OR
-  (pl.DeathDate is not null and (pl.DeathDate >= @StartDate));
--- 5.342.653 rows
+  (pl.DeathDate is not null and (pl.DeathDate >= @StartDate)))
+
+-- previous: (5.342.653 rows)
 
 
 -- Get patients with no current or history of cancer diagnosis (in GP records).
@@ -672,7 +688,7 @@ FROM #PatientsAliveIndex pa
 LEFT OUTER JOIN #AllCancerPatients AS cp 
   ON pa.FK_Patient_Link_ID = cp.FK_Patient_Link_ID
 WHERE cp.FK_Patient_Link_ID IS NULL;
--- 5.174.028 rows
+-- previous: (5.174.028 rows)
 
 
 
@@ -878,7 +894,7 @@ GROUP BY FK_Patient_Link_ID, YearOfBirth, Sex, HasCancer;
 -- OUTPUTS: #Patients
 
 --┌─────────────────────────────────────────────┐
---│ Patients that undertook a COVID test        │
+--│ Patients with a COVID test result           │
 --└─────────────────────────────────────────────┘
 
 -- OBJECTIVE: To get all patients with a positive and negative COVID test result.
@@ -887,18 +903,23 @@ GROUP BY FK_Patient_Link_ID, YearOfBirth, Sex, HasCancer;
 -- INPUT: Takes one parameter
 --  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
 
--- OUTPUT: Two temp tables as follows:
+-- OUTPUT: Three temp tables as follows:
 -- #CovidPositiveTests (FK_Patient_Link_ID, CovidTestDate, CovidTestResult)
 -- #CovidNegativeTests (FK_Patient_Link_ID, CovidTestDate, CovidTestResult)
 -- 	- FK_Patient_Link_ID - unique patient id
 --  - CovidTestDate - Date, assume that only 1 test per day
 --	- CovidTestResult - Varchar, 'Positive', 'Negative'.
+-- #AllCovidTests (FK_Patient_Link_ID, CovidTestDate, CovidTestDescription, ClinicalCode)
+-- 	- FK_Patient_Link_ID - unique patient id
+--  - CovidTestDate - Date, assume that only 1 test per day
+--	- CovidTestResult - Varchar, This field concatenates the information in the GroupDescription and SubGroupDescription from the vw_COVID19 table.
+--  - ClinicalCode - The clinical code retrieved from 'MainCode' in the vw_COVID19 table. 
+
 
 IF OBJECT_ID('tempdb..#CovidPositiveTests') IS NOT NULL DROP TABLE #CovidPositiveTests;
 SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidTestDate, 'Positive' AS CovidTestResult INTO #CovidPositiveTests
 FROM [RLS].[vw_COVID19]
 WHERE (
-	-- TODO: Verify that following condition is the right one.
 	(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
 	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
 )
@@ -909,29 +930,35 @@ IF OBJECT_ID('tempdb..#CovidNegativeTests') IS NOT NULL DROP TABLE #CovidNegativ
 SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidTestDate, 'Negative' AS CovidTestResult INTO #CovidNegativeTests
 FROM [RLS].[vw_COVID19]
 WHERE (
-	-- TODO: Verify that following conditions are the right ones.
 	(GroupDescription = 'Confirmed' AND SubGroupDescription = 'Negative') OR
 	(GroupDescription = 'Tested' AND SubGroupDescription = 'Negative') OR
 	(GroupDescription = 'Excluded' AND SubGroupDescription = 'Negative') 
 )
 AND EventDate >= '2020-02-01'
 AND EventDate <= GETDATE();
--- OUTPUTS: #CovidPositiveTests, #CovidNegativeTests
 
--- Get all patients in the study cohort with a positive covid test and the date they tested positive.
--- Grain: multiple dates per patient, De-duped: Assume that a patient can have only one positive test per day. 
-IF OBJECT_ID('tempdb..#AllCohortCovidPositivePatients') IS NOT NULL DROP TABLE #AllCohortCovidPositivePatients;
-SELECT FK_Patient_Link_ID, CovidTestDate
-INTO #AllCohortCovidPositivePatients
-FROM #CovidPositiveTests
-WHERE FK_Patient_Link_ID IN (Select FK_Patient_Link_ID from  #Patients);
 
--- Get all patients in the study cohort with a Negative covid test and the date they tested Negative.
--- Grain: multiple dates per patient, De-duped: Assume that a patient can have only one Negative test per day. 
-IF OBJECT_ID('tempdb..#AllCohortCovidNegativePatients') IS NOT NULL DROP TABLE #AllCohortCovidNegativePatients;
-SELECT FK_Patient_Link_ID, CovidTestDate
-INTO #AllCohortCovidNegativePatients
-FROM #CovidNegativeTests
+-- Get all covid tests, the date, and the clinical code. This includes positive, negative, excluded, suspected. 
+IF OBJECT_ID('tempdb..#AllCovidTests') IS NOT NULL DROP TABLE #AllCovidTests;
+SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidTestDate, CONCAT(GroupDescription, ' - ', SubGroupDescription)  AS CovidTestResult, MainCode AS ClinicalCode INTO #AllCovidTests
+FROM [RLS].[vw_COVID19]
+WHERE (
+	GroupDescription = 'Assessed'  OR
+	GroupDescription = 'Confirmed'  OR
+	GroupDescription = 'Tested'  OR
+	GroupDescription = 'Excluded' OR
+	GroupDescription = 'Suspected'  OR
+	GroupDescription = 'Unknown' 
+)
+AND EventDate >= '2020-02-01'
+AND EventDate <= GETDATE();
+-- OUTPUTS: #AllCovidTests
+
+-- Get all tests (positive, negative, excluded, assessed, and suspected), the test date and clinical code for the cohort patients
+IF OBJECT_ID('tempdb..#AllCohortCovidTests') IS NOT NULL DROP TABLE #AllCohortCovidTests;
+SELECT FK_Patient_Link_ID, CovidTestDate, CovidTestResult, ClinicalCode
+INTO #AllCohortCovidTests
+FROM #AllCovidTests
 WHERE FK_Patient_Link_ID IN (Select FK_Patient_Link_ID from  #Patients);
 
 -- >>> Following code sets injected: high-clinical-vulnerability v1/moderate-clinical-vulnerability v1
@@ -967,7 +994,7 @@ IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT 
     FK_Patient_Link_ID,
     DeathWithin28Days,
-    DeathDate
+    CONVERT(DATE, DeathDate) AS DeathDate
 INTO #COVIDDeath FROM RLS.vw_COVID19
 WHERE 
     DeathWithin28Days = 'Y'
@@ -978,7 +1005,8 @@ IF OBJECT_ID('tempdb..#COVIDEvents') IS NOT NULL DROP TABLE #COVIDEvents;
 SELECT
     FK_Patient_Link_ID AS PatientId,
     'High Clinical Vulnerability' AS CovidEvent,
-    HighVulnerabilityCodeDate AS CovidEventDate
+    HighVulnerabilityCodeDate AS CovidEventDate,
+    'Null' AS ClinicalCode
 INTO #COVIDEvents
 FROM #HighVulnerabilityPatients
 WHERE HighVulnerabilityCodeDate IS NOT NULL 
@@ -988,7 +1016,8 @@ UNION ALL
 SELECT
     FK_Patient_Link_ID AS PatientId,
     'Moderate Clinical Vulnerability' AS CovidEvent,
-    ModerateVulnerabilityCodeDate AS CovidEventDate
+    ModerateVulnerabilityCodeDate AS CovidEventDate,
+    'Null' AS ClinicalCode
 FROM #ModerateVulnerabilityPatients
 WHERE ModerateVulnerabilityCodeDate IS NOT NULL 
 
@@ -996,18 +1025,10 @@ UNION ALL
 
 SELECT
     FK_Patient_Link_ID AS PatientId,
-    'Positive Test' AS CovidEvent,
-    CovidTestDate AS CovidEventDate
-FROM #AllCohortCovidPositivePatients
-WHERE CovidTestDate IS NOT NULL 
-
-UNION ALL
-
-SELECT
-    FK_Patient_Link_ID AS PatientId,
-    'Negative Test' AS CovidEvent,
-    CovidTestDate AS CovidEventDate
-FROM #AllCohortCovidNegativePatients
+    CovidTestResult AS CovidEvent,
+    CovidTestDate AS CovidEventDate,
+    ClinicalCode
+FROM #AllCohortCovidTests
 WHERE CovidTestDate IS NOT NULL 
 
 UNION ALL
@@ -1015,7 +1036,8 @@ UNION ALL
 SELECT
     FK_Patient_Link_ID AS PatientId,
     'Death Within 28 Days' AS CovidEvent,
-    DeathDate AS CovidEventDate
+    DeathDate AS CovidEventDate,
+    'Null' AS ClinicalCode
 FROM #COVIDDeath
 WHERE DeathDate IS NOT NULL 
 
@@ -1024,11 +1046,14 @@ WHERE DeathDate IS NOT NULL
 -- events cover:
 -- - 'High Clinical Vulnerability'
 -- - 'Moderate Clinical Vulnerability'
--- - 'Positive Test'
+-- - 'Test: GroupDescription, ' - ', SubGroupDescription'
 -- - 'Death Within 28 Days'
-SELECT
+SELECT DISTINCT
     PatientId,
     CovidEvent,
-    CovidEventDate
+    CovidEventDate,
+    ClinicalCode
 FROM #COVIDEvents
-
+-- 424.158 rows
+-- Execution time: ~48min
+-- as of 30th Nov 2021

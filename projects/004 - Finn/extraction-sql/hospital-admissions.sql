@@ -641,18 +641,33 @@ WHERE
 
 
 -- Define the population of potential matches for the cohort
+-- Get patients from tenancy =2 and GP practice code in GM. 
+-- If patients have a tenancy id of 2 we take this as their most likely GP practice
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientsGP') IS NOT NULL DROP TABLE #PatientsGP;
+SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) as GPPracticeCode INTO #PatientsGP FROM RLS.vw_Patient
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+AND GPPracticeCode IS NOT NULL 
+AND GPPracticeCode NOT LIKE 'ZZZ%'
+GROUP BY FK_Patient_Link_ID;
+
+
+
 --	Get all patients alive on 1st February 2020 
 IF OBJECT_ID('tempdb..#PatientsAliveIndex') IS NOT NULL DROP TABLE #PatientsAliveIndex;
-SELECT pl.PK_Patient_Link_ID AS FK_Patient_Link_ID, sex.Sex, yob.YearOfBirth
+SELECT pGP.FK_Patient_Link_ID, sex.Sex, yob.YearOfBirth
 INTO #PatientsAliveIndex
-FROM RLS.vw_Patient_Link pl
-LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = pl.PK_Patient_Link_ID
-LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = pl.PK_Patient_Link_ID
+FROM #PatientsGP pGP
+LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = pGP.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = pGP.FK_Patient_Link_ID
+LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = pGP.FK_Patient_Link_ID
 WHERE  
-  (pl.DeathDate is null and pl.Deceased = 'N') 
+  ((pl.DeathDate is null and pl.Deceased = 'N') 
   OR
-  (pl.DeathDate is not null and (pl.DeathDate >= @StartDate));
--- 5.342.653 rows
+  (pl.DeathDate is not null and (pl.DeathDate >= @StartDate)))
+
+-- previous: (5.342.653 rows)
 
 
 -- Get patients with no current or history of cancer diagnosis (in GP records).
@@ -663,7 +678,7 @@ FROM #PatientsAliveIndex pa
 LEFT OUTER JOIN #AllCancerPatients AS cp 
   ON pa.FK_Patient_Link_ID = cp.FK_Patient_Link_ID
 WHERE cp.FK_Patient_Link_ID IS NULL;
--- 5.174.028 rows
+-- previous: (5.174.028 rows)
 
 
 
@@ -866,7 +881,7 @@ GROUP BY FK_Patient_Link_ID, YearOfBirth, Sex, HasCancer;
 -- 338.034 distinct patients, running time: 28min, all cancer patients have 5 matches each, cancer cohort = 56.339, as of 23rd June 
 -- 338.064 distinct patients, all cancer patients have 5 matches each, as of 9th June 
 
--- OUTPUTS: #Patients
+-- OUTPUT: #Patients
 
 -- Categorise admissions to secondary care into 5 categories: Maternity, 
 --		Unplanned, Planned, Transfer and Unknown.
@@ -1022,30 +1037,7 @@ ORDER BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider;
 -- #LengthOfStay (FK_Patient_Link_ID, AdmissionDate, DischargeDate, LengthOfStay)
 -- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
 
---┌────────────────────────────────────┐
---│ COVID-related secondary admissions │
---└────────────────────────────────────┘
-
--- OBJECTIVE: To classify every admission to secondary care based on whether it is a COVID or non-COVID related.
---						A COVID-related admission is classed as an admission within 4 weeks after, or up to 2 weeks before
---						a positive test.
-
--- INPUT: Takes one parameter
---  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
--- And assumes there exists two temp tables as follows:
--- #Patients (FK_Patient_Link_ID)
---  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
--- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
---  A distinct list of the admissions for each patient in the cohort
-
--- OUTPUT: A temp table as follows:
--- #COVIDUtilisationAdmissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
---	- FK_Patient_Link_ID - unique patient id
---	- AdmissionDate - date of admission (YYYY-MM-DD)
---	- AcuteProvider - Bolton, SRFT, Stockport etc..
---	- CovidHealthcareUtilisation - 'TRUE' if admission within 4 weeks after, or up to 14 days before, a positive test
-
--- Get first positive covid test for each patient
+-- Get all positive covid test dates for each patient
 --┌─────────────────────┐
 --│ Patients with COVID │
 --└─────────────────────┘
@@ -1079,7 +1071,11 @@ SELECT FK_Patient_Link_ID, MIN(CovidPositiveDate) AS FirstCovidPositiveDate INTO
 FROM #CovidPatientsAllDiagnoses
 GROUP BY FK_Patient_Link_ID;
 
+-- Output: #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
 
+-- Modified query-admissions-covid-utilisation.sql to retrieve all covid positive dates not just the first covid date 
+-- Classify every admission to secondary care based on whether is COVID or non-COVID related.
+-- A COVID-related admission is classed as an admission within 4 weeks after, or up to 2 weeks before a positive test.
 IF OBJECT_ID('tempdb..#COVIDUtilisationAdmissions') IS NOT NULL DROP TABLE #COVIDUtilisationAdmissions;
 SELECT 
 	a.*, 
@@ -1089,11 +1085,11 @@ SELECT
 	END AS CovidHealthcareUtilisation
 INTO #COVIDUtilisationAdmissions 
 FROM #Admissions a
-LEFT OUTER join #CovidPatients c ON 
+LEFT OUTER join #CovidPatientsAllDiagnoses c ON 
 	a.FK_Patient_Link_ID = c.FK_Patient_Link_ID 
-	AND a.AdmissionDate <= DATEADD(WEEK, 4, c.FirstCovidPositiveDate)
-	AND a.AdmissionDate >= DATEADD(DAY, -14, c.FirstCovidPositiveDate);
--- OUTPUT: #COVIDUtilisationAdmissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
+	AND a.AdmissionDate <= DATEADD(WEEK, 4, c.CovidPositiveDate)
+	AND a.AdmissionDate >= DATEADD(DAY, -14, c.CovidPositiveDate);
+
 
 SELECT 
     c.FK_Patient_Link_ID AS PatientId,
@@ -1106,6 +1102,8 @@ INNER JOIN #Patients p ON p.FK_Patient_Link_ID = c.FK_Patient_Link_ID
 LEFT OUTER JOIN #AdmissionTypes a ON a.FK_Patient_Link_ID = c.FK_Patient_Link_ID AND a.AdmissionDate = c.AdmissionDate 
 LEFT OUTER JOIN #LengthOfStay l ON l.FK_Patient_Link_ID = c.FK_Patient_Link_ID AND l.AdmissionDate = c.AdmissionDate 
 WHERE c.CovidHealthcareUtilisation = 'TRUE';
+-- 8.552 rows
+-- as of 22nd Oct 2021
 
 
 

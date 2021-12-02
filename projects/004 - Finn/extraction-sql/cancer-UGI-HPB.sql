@@ -137,6 +137,6 @@ FROM [SharedCare].[Cancer_UGI_HPB];
 
 /* Drop the columns that are not needed */
 ALTER TABLE #TempTable
-DROP COLUMN [FK_Patient_Link_ID], [FK_Patient_ID];
+DROP COLUMN [PK_UGI_HPB_ID], [FK_Patient_Link_ID], [FK_Patient_ID];
 
 SELECT * FROM #TempTable;
