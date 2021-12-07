@@ -39,7 +39,8 @@ IF OBJECT_ID('tempdb..#PatientLSOA') IS NOT NULL DROP TABLE #PatientLSOA;
 SELECT FK_Patient_Link_ID, MIN(LSOA_Code) as LSOA_Code INTO #PatientLSOA FROM #AllPatientLSOAs
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND FK_Reference_Tenancy_ID = 2
-GROUP BY FK_Patient_Link_ID;
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
 
 -- Find the patients who remain unmatched
 IF OBJECT_ID('tempdb..#UnmatchedLsoaPatients') IS NOT NULL DROP TABLE #UnmatchedLsoaPatients;

@@ -39,7 +39,8 @@ IF OBJECT_ID('tempdb..#PatientSex') IS NOT NULL DROP TABLE #PatientSex;
 SELECT FK_Patient_Link_ID, MIN(Sex) as Sex INTO #PatientSex FROM #AllPatientSexs
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND FK_Reference_Tenancy_ID = 2
-GROUP BY FK_Patient_Link_ID;
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(Sex) = MAX(Sex);
 
 -- Find the patients who remain unmatched
 IF OBJECT_ID('tempdb..#UnmatchedSexPatients') IS NOT NULL DROP TABLE #UnmatchedSexPatients;
