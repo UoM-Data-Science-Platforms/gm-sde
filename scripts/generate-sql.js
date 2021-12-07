@@ -166,7 +166,8 @@ function processParams(line, params) {
 }
 
 function processFile(filename, requiredCodeSets = [], alreadyProcessed = {}, parameters = []) {
-  alreadyProcessed[filename] = true;
+  // Allow file to be processed twice if the parameters are different
+  alreadyProcessed[filename + JSON.stringify(parameters)] = true;
   const sqlLines = readFileSync(filename, 'utf8').split('\n');
   const generatedSql = sqlLines
     .map((line) => {
@@ -263,11 +264,12 @@ ${CODESET_MARKER}
           process.exit();
         }
         const fileToInject = join(REUSABLE_DIRECTORY, sqlFileToInsert);
-        if (alreadyProcessed[fileToInject]) {
+        const processedParameters =
+          params && params.length > 0 ? processParams(line, params.join(' ')) : [];
+        if (alreadyProcessed[fileToInject + JSON.stringify(processedParameters)]) {
           return `-- >>> Ignoring following query as already injected: ${sqlFileToInsert}`;
         }
         if (params && params.length > 0) {
-          const processedParameters = processParams(line, params.join(' '));
           const { sql: sqlToInsert, codeSets } = processFile(
             fileToInject,
             requiredCodeSets,

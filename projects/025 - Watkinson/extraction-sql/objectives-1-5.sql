@@ -94,7 +94,8 @@ IF OBJECT_ID('tempdb..#PatientYearOfBirth') IS NOT NULL DROP TABLE #PatientYearO
 SELECT FK_Patient_Link_ID, MIN(YearOfBirth) as YearOfBirth INTO #PatientYearOfBirth FROM #AllPatientYearOfBirths
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND FK_Reference_Tenancy_ID = 2
-GROUP BY FK_Patient_Link_ID;
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
 
 -- Find the patients who remain unmatched
 IF OBJECT_ID('tempdb..#UnmatchedYobPatients') IS NOT NULL DROP TABLE #UnmatchedYobPatients;
@@ -195,7 +196,8 @@ IF OBJECT_ID('tempdb..#PatientLSOA') IS NOT NULL DROP TABLE #PatientLSOA;
 SELECT FK_Patient_Link_ID, MIN(LSOA_Code) as LSOA_Code INTO #PatientLSOA FROM #AllPatientLSOAs
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND FK_Reference_Tenancy_ID = 2
-GROUP BY FK_Patient_Link_ID;
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(LSOA_Code) = MAX(LSOA_Code);
 
 -- Find the patients who remain unmatched
 IF OBJECT_ID('tempdb..#UnmatchedLsoaPatients') IS NOT NULL DROP TABLE #UnmatchedLsoaPatients;
@@ -274,7 +276,8 @@ IF OBJECT_ID('tempdb..#PatientSex') IS NOT NULL DROP TABLE #PatientSex;
 SELECT FK_Patient_Link_ID, MIN(Sex) as Sex INTO #PatientSex FROM #AllPatientSexs
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND FK_Reference_Tenancy_ID = 2
-GROUP BY FK_Patient_Link_ID;
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(Sex) = MAX(Sex);
 
 -- Find the patients who remain unmatched
 IF OBJECT_ID('tempdb..#UnmatchedSexPatients') IS NOT NULL DROP TABLE #UnmatchedSexPatients;
@@ -914,7 +917,60 @@ SELECT
 INTO #PatientHadFluVaccine2019 FROM #PatientsWithFluVacConcept2019
 GROUP BY FK_Patient_Link_ID;
 
--- >>> Ignoring following query as already injected: query-received-flu-vaccine.sql
+--┌─────────────────────────────────────────────────────┐
+--│ Patient received flu vaccine in a given time period │
+--└─────────────────────────────────────────────────────┘
+
+-- OBJECTIVE: To find patients who received a flu vaccine in a given time period
+
+-- INPUT: Takes three parameters
+--  - date-from: YYYY-MM-DD - the start date of the time period (inclusive)
+--  - date-to: YYYY-MM-DD - the end date of the time period (inclusive)
+-- 	- id: string - an id flag to enable multiple temp tables to be created
+-- Requires one temp table to exist as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #PatientHadFluVaccine{id} (FK_Patient_Link_ID, FluVaccineDate)
+--	- FK_Patient_Link_ID - unique patient id
+--	- FluVaccineDate - YYYY-MM-DD (first date of flu vaccine in given time period)
+
+-- ASSUMPTIONS:
+--	- We look for codes related to the administration of flu vaccines and codes for the vaccine itself
+
+-- >>> Following code sets injected: flu-vaccination v1
+-- First get all patients from the GP_Events table who have a flu vaccination (procedure) code
+IF OBJECT_ID('tempdb..#PatientsWithFluVacConcept2020') IS NOT NULL DROP TABLE #PatientsWithFluVacConcept2020;
+SELECT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS FluVaccineDate
+INTO #PatientsWithFluVacConcept2020
+FROM RLS.[vw_GP_Events]
+WHERE (
+	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'flu-vaccination' AND [Version] = 1) OR
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'flu-vaccination' AND [Version] = 1)
+)
+AND EventDate >= '2020-07-01'
+AND EventDate <= '2021-06-30';
+
+-- >>> Following code sets injected: flu-vaccine v1
+-- Then get all patients from the GP_Medications table who have a flu vaccine (medication) code
+INSERT INTO #PatientsWithFluVacConcept2020
+SELECT FK_Patient_Link_ID, CAST(MedicationDate AS DATE) FROM RLS.vw_GP_Medications
+WHERE (
+	FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'flu-vaccine' AND [Version] = 1) OR
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'flu-vaccine' AND [Version] = 1)
+)
+and MedicationDate >= '2020-07-01'
+and MedicationDate <= '2021-06-30';
+
+-- Bring all together in final table
+IF OBJECT_ID('tempdb..#PatientHadFluVaccine2020') IS NOT NULL DROP TABLE #PatientHadFluVaccine2020;
+SELECT 
+	FK_Patient_Link_ID,
+	MIN(FluVaccineDate) AS FluVaccineDate
+INTO #PatientHadFluVaccine2020 FROM #PatientsWithFluVacConcept2020
+GROUP BY FK_Patient_Link_ID;
+
 
 --┌────────────────────────────────┐
 --│ Flu vaccine eligibile patients │
