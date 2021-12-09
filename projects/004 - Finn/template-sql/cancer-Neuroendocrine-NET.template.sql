@@ -128,6 +128,6 @@ FROM [SharedCare].[Cancer_Neuroendocrine_NET];
 
 /* Drop the columns that are not needed */
 ALTER TABLE #TempTable
-DROP COLUMN [FK_Patient_Link_ID], [FK_Patient_ID];
+DROP COLUMN [PK_Neuroendocrine_NET_ID], [FK_Patient_Link_ID], [FK_Patient_ID];
 
 SELECT * FROM #TempTable;
