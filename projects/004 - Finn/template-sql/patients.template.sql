@@ -310,6 +310,13 @@ LEFT OUTER JOIN #COVIDVaccinations2 cv ON cv.FK_Patient_Link_ID = p.FK_Patient_L
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLatestBMIValues bmi ON bmi.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientHighestFrailty pa ON pa.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
+-- 339.058 rows, 
+-- 56.513 cancer patients 
+-- 8 cancer patients have less than 5 matches each 
+-- running time for patient demographics: ~45min, 
+-- as of 22nd Oct 2021.
+
+
 -- 338.028 rows, 
 -- 56.338 cancer patients, 
 -- all cancer patients have 5 matches each, 
