@@ -23,9 +23,6 @@ SET @StartDate = '2020-02-01';
 --> EXECUTE query-cancer-cohort-matching.sql
 -- OUTPUTS: #Patients
 
--- Set start date to be 1 year before study index date
-SET @StartDate = DATEADD(year, -1, @StartDate);;
-
 --> EXECUTE query-patient-condition-events.sql
 -- OUTPUT: #PatientConditionsEvents (FK_Patient_Link_ID, Condition, EventDate)
 
@@ -37,7 +34,9 @@ SELECT
   EventDate
 FROM #PatientConditionsEvents
 ORDER BY FK_Patient_Link_ID, Condition;
-
+-- 38.877.094 rows
+-- running time: ~1hour8min
+-- as of 22nd Oct 2021
 
 
 
