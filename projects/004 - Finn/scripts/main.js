@@ -7,6 +7,7 @@ const { join } = require('path');
 const puppeteer = require('puppeteer');
 require('clear')();
 const { version } = require('./package.json');
+const { stringify } = require('csv-stringify/sync');
 
 const PROJECT_DIR = join(__dirname, '..');
 const EXTRACTION_DIR = join(PROJECT_DIR, 'extraction-sql');
@@ -415,7 +416,9 @@ but where the name doesn't end with 'PatientId' then the ids will not be pseudon
           rowArr.push(value);
         }
       });
-      rowsToWrite.push(rowArr.join(',') + '\n');
+      // stringify will encode each value in the rowArr so that all values are complying with the CSV spec
+      const encodedCSVRow = stringify([rowArr]) + '\n';
+      rowsToWrite.push(encodedCSVRow);
       if (nullPatientIdWarning) {
         logWarning(`${filename} has a row where a patient id is null. Is that expected?
 			  ${rowArr.join(',')}`);
