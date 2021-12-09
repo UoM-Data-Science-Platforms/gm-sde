@@ -9,8 +9,9 @@
 
 -- OUTPUT: A single table with the following:
 --  PatientId (Int)
---  CovidEvent ('High Clinical Vulnerability', 'Moderate Clinical Vulnerability', 'Positive Test', 'Death Within 28 Days')
+--  CovidEvent ('High Clinical Vulnerability', 'Moderate Clinical Vulnerability', 'Death Within 28 Days', )
 --  CovidEventDate (YYYY-MM-DD)
+--  ClinicalCode (The code provided with the event)
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -23,22 +24,13 @@ SET @StartDate = '2020-02-01';
 -- OUTPUTS: #Patients
 
 --> EXECUTE query-patients-covid-tests.sql start-date:2020-02-01
--- OUTPUTS: #CovidPositiveTests, #CovidNegativeTests
+-- OUTPUTS: #AllCovidTests
 
--- Get all patients in the study cohort with a positive covid test and the date they tested positive.
--- Grain: multiple dates per patient, De-duped: Assume that a patient can have only one positive test per day. 
-IF OBJECT_ID('tempdb..#AllCohortCovidPositivePatients') IS NOT NULL DROP TABLE #AllCohortCovidPositivePatients;
-SELECT FK_Patient_Link_ID, CovidTestDate
-INTO #AllCohortCovidPositivePatients
-FROM #CovidPositiveTests
-WHERE FK_Patient_Link_ID IN (Select FK_Patient_Link_ID from  #Patients);
-
--- Get all patients in the study cohort with a Negative covid test and the date they tested Negative.
--- Grain: multiple dates per patient, De-duped: Assume that a patient can have only one Negative test per day. 
-IF OBJECT_ID('tempdb..#AllCohortCovidNegativePatients') IS NOT NULL DROP TABLE #AllCohortCovidNegativePatients;
-SELECT FK_Patient_Link_ID, CovidTestDate
-INTO #AllCohortCovidNegativePatients
-FROM #CovidNegativeTests
+-- Get all tests (positive, negative, excluded, assessed, and suspected), the test date and clinical code for the cohort patients
+IF OBJECT_ID('tempdb..#AllCohortCovidTests') IS NOT NULL DROP TABLE #AllCohortCovidTests;
+SELECT FK_Patient_Link_ID, CovidTestDate, CovidTestResult, ClinicalCode
+INTO #AllCohortCovidTests
+FROM #AllCovidTests
 WHERE FK_Patient_Link_ID IN (Select FK_Patient_Link_ID from  #Patients);
 
 --> CODESET high-clinical-vulnerability:1 moderate-clinical-vulnerability:1 
@@ -85,7 +77,8 @@ IF OBJECT_ID('tempdb..#COVIDEvents') IS NOT NULL DROP TABLE #COVIDEvents;
 SELECT
     FK_Patient_Link_ID AS PatientId,
     'High Clinical Vulnerability' AS CovidEvent,
-    HighVulnerabilityCodeDate AS CovidEventDate
+    HighVulnerabilityCodeDate AS CovidEventDate,
+    'Null' AS ClinicalCode
 INTO #COVIDEvents
 FROM #HighVulnerabilityPatients
 WHERE HighVulnerabilityCodeDate IS NOT NULL 
@@ -95,7 +88,8 @@ UNION ALL
 SELECT
     FK_Patient_Link_ID AS PatientId,
     'Moderate Clinical Vulnerability' AS CovidEvent,
-    ModerateVulnerabilityCodeDate AS CovidEventDate
+    ModerateVulnerabilityCodeDate AS CovidEventDate,
+    'Null' AS ClinicalCode
 FROM #ModerateVulnerabilityPatients
 WHERE ModerateVulnerabilityCodeDate IS NOT NULL 
 
@@ -103,18 +97,10 @@ UNION ALL
 
 SELECT
     FK_Patient_Link_ID AS PatientId,
-    'Positive Test' AS CovidEvent,
-    CovidTestDate AS CovidEventDate
-FROM #AllCohortCovidPositivePatients
-WHERE CovidTestDate IS NOT NULL 
-
-UNION ALL
-
-SELECT
-    FK_Patient_Link_ID AS PatientId,
-    'Negative Test' AS CovidEvent,
-    CovidTestDate AS CovidEventDate
-FROM #AllCohortCovidNegativePatients
+    CovidTestResult AS CovidEvent,
+    CovidTestDate AS CovidEventDate,
+    ClinicalCode
+FROM #AllCohortCovidTests
 WHERE CovidTestDate IS NOT NULL 
 
 UNION ALL
@@ -122,7 +108,8 @@ UNION ALL
 SELECT
     FK_Patient_Link_ID AS PatientId,
     'Death Within 28 Days' AS CovidEvent,
-    DeathDate AS CovidEventDate
+    DeathDate AS CovidEventDate,
+    'Null' AS ClinicalCode
 FROM #COVIDDeath
 WHERE DeathDate IS NOT NULL 
 
@@ -131,12 +118,14 @@ WHERE DeathDate IS NOT NULL
 -- events cover:
 -- - 'High Clinical Vulnerability'
 -- - 'Moderate Clinical Vulnerability'
--- - 'Positive Test'
--- - 'Negative Test'
+-- - 'Test: GroupDescription, ' - ', SubGroupDescription'
 -- - 'Death Within 28 Days'
-SELECT
+SELECT DISTINCT
     PatientId,
     CovidEvent,
-    CovidEventDate
+    CovidEventDate,
+    ClinicalCode
 FROM #COVIDEvents
-
+-- 424.158 rows
+-- Execution time: ~48min
+-- as of 30th Nov 2021
