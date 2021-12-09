@@ -1,14 +1,12 @@
---
 --┌──────────────────────────────────────────────┐
 --│ Condition events from LTC clinical codeset   │
 --└──────────────────────────────────────────────┘
 
--- OBJECTIVE: To get all events associated with the long-term conditions clinical codeset for each patient *from* a pre-set date.
+-- OBJECTIVE: To get all events related with the long-term conditions (ltc) clinical codeset for each patient.
 
 -- INPUT: Assumes there exists a temp table as follows:
 -- #Patients (FK_Patient_Link_ID)
 -- A distinct list of FK_Patient_Link_IDs for each patient in the cohort
--- @StartDate - The starting date that the study has access to the data from.
 
 -- OUTPUT: A temp table with a row for each patient and ltc combo
 -- #PatientConditionsEvents 
@@ -649,10 +647,7 @@ WHERE (
     'Atrial Fibrillation', 'Coronary Heart Disease', 'Heart Failure', 'Hypertension', 'Peripheral Vascular Disease', 'Stroke And Tia', 'Diabetes', 'Thyroid Disorders', 'Chronic Liver Disease', 'Diverticular Disease Of Intestine', 'Inflammatory Bowel Disease', 'Peptic Ulcer Disease', 'Rheumatoid Arthritis And Other Inflammatory Polyarthropathies', 'Multiple Sclerosis', 'Parkinsons Disease', 'Anorexia Or Bulimia', 'Anxiety And Other Somatoform Disorders', 'Dementia', 'Depression', 'Schizophrenia Or Bipolar', 'Chronic Kidney Disease', 'Prostate Disorders', 'Asthma', 'Bronchiectasis', 'Chronic Sinusitis', 'COPD', 'Blindness And Low Vision', 'Glaucoma', 'Hearing Loss', 'Learning Disability', 'Alcohol Problems', 'Psychoactive Substance Abuse', 'Cancer'
   ))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate >= @StartDate;
-
-
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 
 
@@ -699,11 +694,15 @@ WHERE (
     'Irritable Bowel Syndrome','Constipation','Dyspepsia','Painful Condition','Epilepsy','Psoriasis Or Eczema','Migraine'
   ))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND MedicationDate >= @StartDate
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 
--- Create output table with patient conditions events
+
+-- Create the output table with the patient events related with long term conditions
+-- Adding diagnosis, or medications to indicate the origin of the condition. 
+-- DIagnosis: Condition has been retrieved from GP events
+-- Medications: Condition has been retrieved from the medications table. 
+-- Grain: multiple event dates per condition, and multiple conditions per patient 
 IF OBJECT_ID('tempdb..#PatientConditionsEvents') IS NOT NULL DROP TABLE #PatientConditionsEvents;
 CREATE TABLE #PatientConditionsEvents (FK_Patient_Link_ID BIGINT, Condition VARCHAR(100), EventDate DATE);
 
