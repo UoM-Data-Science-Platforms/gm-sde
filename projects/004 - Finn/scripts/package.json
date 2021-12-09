@@ -9,6 +9,7 @@
     "clear": "^0.1.0",
     "inquirer": "^8.0.0",
     "mssql": "^7.0.0",
-    "puppeteer": "^10.0.0"
+    "puppeteer": "^10.0.0",
+    "csv-stringify": "6.0.4"
   }
 }
