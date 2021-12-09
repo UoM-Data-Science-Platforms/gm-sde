@@ -26,7 +26,7 @@ SET @StartDate = '2020-02-01';
 
 -- Get all the patients in the cohort
 --> EXECUTE query-cancer-cohort-matching.sql
--- OUTPUTS: #Patients
+-- OUTPUT: #Patients
 
 -- Categorise admissions to secondary care into 5 categories: Maternity, 
 --		Unplanned, Planned, Transfer and Unknown.
@@ -38,8 +38,27 @@ SET @StartDate = '2020-02-01';
 -- #LengthOfStay (FK_Patient_Link_ID, AdmissionDate, DischargeDate, LengthOfStay)
 -- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
 
---> EXECUTE query-admissions-covid-utilisation.sql start-date:2020-02-01
--- OUTPUT: #COVIDUtilisationAdmissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
+-- Get all positive covid test dates for each patient
+--> EXECUTE query-patients-with-covid.sql start-date:2020-02-01
+-- Output: #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
+
+-- Modified query-admissions-covid-utilisation.sql to retrieve all covid positive dates not just the first covid date 
+-- Classify every admission to secondary care based on whether is COVID or non-COVID related.
+-- A COVID-related admission is classed as an admission within 4 weeks after, or up to 2 weeks before a positive test.
+IF OBJECT_ID('tempdb..#COVIDUtilisationAdmissions') IS NOT NULL DROP TABLE #COVIDUtilisationAdmissions;
+SELECT 
+	a.*, 
+	CASE
+		WHEN c.FK_Patient_Link_ID IS NOT NULL THEN 'TRUE'
+		ELSE 'FALSE'
+	END AS CovidHealthcareUtilisation
+INTO #COVIDUtilisationAdmissions 
+FROM #Admissions a
+LEFT OUTER join #CovidPatientsAllDiagnoses c ON 
+	a.FK_Patient_Link_ID = c.FK_Patient_Link_ID 
+	AND a.AdmissionDate <= DATEADD(WEEK, 4, c.CovidPositiveDate)
+	AND a.AdmissionDate >= DATEADD(DAY, -14, c.CovidPositiveDate);
+
 
 SELECT 
     c.FK_Patient_Link_ID AS PatientId,
@@ -52,6 +71,8 @@ INNER JOIN #Patients p ON p.FK_Patient_Link_ID = c.FK_Patient_Link_ID
 LEFT OUTER JOIN #AdmissionTypes a ON a.FK_Patient_Link_ID = c.FK_Patient_Link_ID AND a.AdmissionDate = c.AdmissionDate 
 LEFT OUTER JOIN #LengthOfStay l ON l.FK_Patient_Link_ID = c.FK_Patient_Link_ID AND l.AdmissionDate = c.AdmissionDate 
 WHERE c.CovidHealthcareUtilisation = 'TRUE';
+-- 8.552 rows
+-- as of 22nd Oct 2021
 
 
 
