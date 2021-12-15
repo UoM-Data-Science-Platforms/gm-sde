@@ -9,6 +9,7 @@
 -- 	- Sex (M/F/U)
 --  - YearOfBirth (int) 
 --  - GPPracticeCode
+--  - DeathDate (YYY/MM/DD)
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
