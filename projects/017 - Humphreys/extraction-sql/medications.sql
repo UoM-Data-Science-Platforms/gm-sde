@@ -76,7 +76,8 @@ IF OBJECT_ID('tempdb..#AllCodes') IS NOT NULL DROP TABLE #AllCodes;
 CREATE TABLE #AllCodes (
   [Concept] [varchar](255) NOT NULL,
   [Version] INT NOT NULL,
-  [Code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL
+  [Code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+  [description] [varchar] (255) NULL 
 );
 
 IF OBJECT_ID('tempdb..#codesreadv2') IS NOT NULL DROP TABLE #codesreadv2;
@@ -102,7 +103,7 @@ INSERT INTO #codesreadv2
 VALUES ('sulfasalazine',1,'aa6..11','SULPHASALAZINE [GASTRO-INTESTINAL USE]'),('sulfasalazine',1,'aa6..','SULPHASALAZINE [GASTRO-INTESTINAL USE]'),('sulfasalazine',1,'aa6..00','SULFASALAZINE [GASTRO-INTESTINAL USE]'),('sulfasalazine',1,'aa6..','SULFASALAZINE [GASTRO-INTESTINAL USE]'),('sulfasalazine',1,'aa6t.00','SULFASALAZINE 250mg/5mL sugar free suspension'),('sulfasalazine',1,'aa6t.','SULFASALAZINE 250mg/5mL sugar free suspension'),('sulfasalazine',1,'aa6z.11','*SULPHASALAZINE 3g/100mL enema'),('sulfasalazine',1,'aa6z.','*SULPHASALAZINE 3g/100mL enema'),('sulfasalazine',1,'aa6z.00','*SULFASALAZINE 3g/100mL enema'),('sulfasalazine',1,'aa6z.','*SULFASALAZINE 3g/100mL enema'),('sulfasalazine',1,'aa6y.11','SULPHASALAZINE 500mg suppositories'),('sulfasalazine',1,'aa6y.','SULPHASALAZINE 500mg suppositories'),('sulfasalazine',1,'aa6y.00','SULFASALAZINE 500mg suppositories'),('sulfasalazine',1,'aa6y.','SULFASALAZINE 500mg suppositories'),('sulfasalazine',1,'aa6v.11','SULPHASALAZINE 500mg tablets'),('sulfasalazine',1,'aa6v.','SULPHASALAZINE 500mg tablets'),('sulfasalazine',1,'aa6v.00','SULFASALAZINE 500mg tablets'),('sulfasalazine',1,'aa6v.','SULFASALAZINE 500mg tablets'),('sulfasalazine',1,'aa6u.11','SULPHASALAZINE 250mg/5mL suspension'),('sulfasalazine',1,'aa6u.','SULPHASALAZINE 250mg/5mL suspension'),('sulfasalazine',1,'aa6u.00','SULFASALAZINE 250mg/5mL suspension'),('sulfasalazine',1,'aa6u.','SULFASALAZINE 250mg/5mL suspension'),('sulfasalazine',1,'aa67.00','*UCINE 500mg tablets'),('sulfasalazine',1,'aa67.','*UCINE 500mg tablets'),('sulfasalazine',1,'aa66.11','SULPHASALAZINE 500mg e/c tablets'),('sulfasalazine',1,'aa66.','SULPHASALAZINE 500mg e/c tablets'),('sulfasalazine',1,'aa66.00','SULFASALAZINE 500mg e/c tablets'),('sulfasalazine',1,'aa66.','SULFASALAZINE 500mg e/c tablets'),('sulfasalazine',1,'aa65.00','SALAZOPYRIN 250mg/5mL suspension'),('sulfasalazine',1,'aa65.','SALAZOPYRIN 250mg/5mL suspension'),('sulfasalazine',1,'aa64.00','*SALAZOPYRIN 3g/100mL enema'),('sulfasalazine',1,'aa64.','*SALAZOPYRIN 3g/100mL enema'),('sulfasalazine',1,'aa63.00','SALAZOPYRIN 500mg suppositories'),('sulfasalazine',1,'aa63.','SALAZOPYRIN 500mg suppositories'),('sulfasalazine',1,'aa62.00','SALAZOPYRIN-EN 500mg e/c tablets'),('sulfasalazine',1,'aa62.','SALAZOPYRIN-EN 500mg e/c tablets'),('sulfasalazine',1,'aa61.00','SALAZOPYRIN 500mg tablets'),('sulfasalazine',1,'aa61.','SALAZOPYRIN 500mg tablets'),('sulfasalazine',1,'j55..11','SULPHASALAZINE [MUSCULO-SKELETAL USE]'),('sulfasalazine',1,'j55..','SULPHASALAZINE [MUSCULO-SKELETAL USE]'),('sulfasalazine',1,'j55..00','SULFASALAZINE [MUSCULOSKELETAL USE]'),('sulfasalazine',1,'j55..','SULFASALAZINE [MUSCULOSKELETAL USE]'),('sulfasalazine',1,'j55z.11','SULPHASALAZINE 500mg e/c tablets'),('sulfasalazine',1,'j55z.','SULPHASALAZINE 500mg e/c tablets'),('sulfasalazine',1,'j55z.00','SULFASALAZINE 500mg e/c tablets'),('sulfasalazine',1,'j55z.','SULFASALAZINE 500mg e/c tablets'),('sulfasalazine',1,'j552.00','SULAZINE EC 500mg e/c tablets'),('sulfasalazine',1,'j552.','SULAZINE EC 500mg e/c tablets'),('sulfasalazine',1,'j551.00','SALAZOPYRIN EN 500mg e/c tablets'),('sulfasalazine',1,'j551.','SALAZOPYRIN EN 500mg e/c tablets')
 
 INSERT INTO #AllCodes
-SELECT [concept], [version], [code] from #codesreadv2;
+SELECT [concept], [version], [code], [description] from #codesreadv2;
 
 IF OBJECT_ID('tempdb..#codesctv3') IS NOT NULL DROP TABLE #codesctv3;
 CREATE TABLE #codesctv3 (
@@ -126,7 +127,7 @@ INSERT INTO #codesctv3
 VALUES ('sulfasalazine',1,'x019y','Oral sulphasalazine'),('sulfasalazine',1,'x019z','Rectal sulphasalazine'),('sulfasalazine',1,'aa6..','SULPHASALAZINE [GASTRO-INTESTINAL USE]'),('sulfasalazine',1,'aa6..','SULFASALAZINE [GASTRO-INTESTINAL USE]'),('sulfasalazine',1,'aa6t.','SULFASALAZINE 250mg/5mL sugar free suspension'),('sulfasalazine',1,'aa6z.','*SULPHASALAZINE 3g/100mL enema'),('sulfasalazine',1,'aa6z.','*SULFASALAZINE 3g/100mL enema'),('sulfasalazine',1,'aa6y.','SULPHASALAZINE 500mg suppositories'),('sulfasalazine',1,'aa6y.','SULFASALAZINE 500mg suppositories'),('sulfasalazine',1,'aa6v.','SULPHASALAZINE 500mg tablets'),('sulfasalazine',1,'aa6v.','SULFASALAZINE 500mg tablets'),('sulfasalazine',1,'aa6u.','SULPHASALAZINE 250mg/5mL suspension'),('sulfasalazine',1,'aa6u.','SULFASALAZINE 250mg/5mL suspension'),('sulfasalazine',1,'aa67.','*UCINE 500mg tablets'),('sulfasalazine',1,'aa66.','SULPHASALAZINE 500mg e/c tablets'),('sulfasalazine',1,'aa66.','SULFASALAZINE 500mg e/c tablets'),('sulfasalazine',1,'aa65.','SALAZOPYRIN 250mg/5mL suspension'),('sulfasalazine',1,'aa64.','*SALAZOPYRIN 3g/100mL enema'),('sulfasalazine',1,'aa63.','SALAZOPYRIN 500mg suppositories'),('sulfasalazine',1,'aa62.','SALAZOPYRIN-EN 500mg e/c tablets'),('sulfasalazine',1,'aa61.','SALAZOPYRIN 500mg tablets'),('sulfasalazine',1,'j55..','SULPHASALAZINE [MUSCULO-SKELETAL USE]'),('sulfasalazine',1,'j55..','SULFASALAZINE [MUSCULOSKELETAL USE]'),('sulfasalazine',1,'j55z.','SULPHASALAZINE 500mg e/c tablets'),('sulfasalazine',1,'j55z.','SULFASALAZINE 500mg e/c tablets'),('sulfasalazine',1,'j552.','SULAZINE EC 500mg e/c tablets'),('sulfasalazine',1,'j551.','SALAZOPYRIN EN 500mg e/c tablets')
 
 INSERT INTO #AllCodes
-SELECT [concept], [version], [code] from #codesctv3;
+SELECT [concept], [version], [code], [description] from #codesctv3;
 
 IF OBJECT_ID('tempdb..#codessnomed') IS NOT NULL DROP TABLE #codessnomed;
 CREATE TABLE #codessnomed (
@@ -153,7 +154,7 @@ INSERT INTO #codessnomed
 VALUES ('sulfasalazine',1,'45844004','Sulfasalazine product'),('sulfasalazine',1,'317430009','Product containing precisely sulfasalazine 50 milligram/1 milliliter conventional release oral suspension (clinical drug)'),('sulfasalazine',1,'317431008','Product containing precisely sulfasalazine 500 milligram/1 each conventional release oral tablet'),('sulfasalazine',1,'317432001','Sulfasalazine 500 mg rectal suppository'),('sulfasalazine',1,'317433006','Sulfasalazine 3g/100mL retention enema (product)'),('sulfasalazine',1,'330040008','Product containing precisely sulfasalazine 500 milligram/1 each gastro-resistant oral tablet (clinical drug)'),('sulfasalazine',1,'349822001','Product containing sulfasalazine in oral dosage form'),('sulfasalazine',1,'349823006','Product containing sulfasalazine in rectal dosage form'),('sulfasalazine',1,'765595005','Sulfasalazine 500mg gastro-resistant oral tablet (product)'),('sulfasalazine',1,'387248006','Salicylazosulfapyridine')
 
 INSERT INTO #AllCodes
-SELECT [concept], [version], [code] from #codessnomed;
+SELECT [concept], [version], [code], [description] from #codessnomed;
 
 IF OBJECT_ID('tempdb..#codesemis') IS NOT NULL DROP TABLE #codesemis;
 CREATE TABLE #codesemis (
@@ -177,15 +178,15 @@ INSERT INTO #codesemis
 VALUES ('sulfasalazine',1,'SASU10642BRIDL','Salazopyrin 250mg/5ml oral suspension (Pfizer Ltd)'),('sulfasalazine',1,'SASU4298','Salazopyrin 500mg suppositories (Pfizer Ltd)'),('sulfasalazine',1,'SATA2478','Salazopyrin 500mg tablets (Pfizer Ltd)'),('sulfasalazine',1,'SUE/17828NEMIS','Sulfasalazine 500mg gastro-resistant tablets'),('sulfasalazine',1,'SUE/896NEMIS','Sulphasalazine E/C Tablets 500 mg'),('sulfasalazine',1,'SUOR45683NEMIS','Sulfasalazine 250mg/5ml oral suspension sugar free'),('sulfasalazine',1,'SUSU17835NEMIS','Sulfasalazine 250mg/5ml oral suspension'),('sulfasalazine',1,'SUTA17836NEMIS','Sulfasalazine 500mg tablets'),('sulfasalazine',1,'SARE8978EGTON','Salazopyrin  Retention enema  3 g/enema'),('sulfasalazine',1,'SUTA2732','Sulphasalazine  Tablets  500 mg'),('sulfasalazine',1,'SUEN2731','Sulphasalazine  En-tablets  500 mg'),('sulfasalazine',1,'UCTA32637EMIS','Ucine  Tablets  500 mg'),('sulfasalazine',1,'SAEN2477','Salazopyrin  En-tablets  500 mg'),('sulfasalazine',1,'SUGA78926NEMIS','Sulazine Ec  Gastro-resistant Tablets  500 mg'),('sulfasalazine',1,'SUSU17832NEMIS','Sulfasalazine  Suppositories  500 mg'),('sulfasalazine',1,'SUSU10709BRIDL','Sulphasalazine  Suspension  250mg/5 ml'),('sulfasalazine',1,'SUSU5409','Sulphasalazine  Suppositories  500 mg'),('sulfasalazine',1,'SURE10711BRIDL','Sulphasalazine  Retention enema  3g in 100 ml'),('sulfasalazine',1,'SUE/38259MGEMIS','Sulfasalazine  E/c tablets  500 mg (A.A.H. Pharm)'),('sulfasalazine',1,'SUTA38268MGEMIS','Sulfasalazine  Tablets  500 mg (Unichem)'),('sulfasalazine',1,'SUTA38266MGEMIS','Sulfasalazine  Tablets  500 mg (Kent Pharm)'),('sulfasalazine',1,'SUE/38261MGEMIS','Sulfasalazine  E/c tablets  500 mg (Alpharma)'),('sulfasalazine',1,'SUE/38260MGEMIS','Sulfasalazine  E/c tablets  500 mg (Kent Pharm)'),('sulfasalazine',1,'SUTA38267MGEMIS','Sulfasalazine  Tablets  500 mg (Alpharma)'),('sulfasalazine',1,'SUTA38264MGEMIS','Sulfasalazine  Tablets  500 mg (A.A.H. Pharm)'),('sulfasalazine',1,'SUTA38269MGEMIS','Sulfasalazine  Tablets  500 mg (Ivax Pharmaceuticals)'),('sulfasalazine',1,'EMISNQRH11','Rheumatology drug monitoring - Sulfasalazine'),('sulfasalazine',1,'SUE/38263MGEMIS','Sulfasalazine  E/c tablets  500 mg (Generics (UK))'),('sulfasalazine',1,'SUE/38262MGEMIS','Sulfasalazine  E/c tablets  500 mg (Unichem)'),('sulfasalazine',1,'SUTA38265MGEMIS','Sulfasalazine  Tablets  500 mg (Generics (UK))')
 
 INSERT INTO #AllCodes
-SELECT [concept], [version], [code] from #codesemis;
+SELECT [concept], [version], [code], [description] from #codesemis;
 
 
 IF OBJECT_ID('tempdb..#TempRefCodes') IS NOT NULL DROP TABLE #TempRefCodes;
-CREATE TABLE #TempRefCodes (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, version INT NOT NULL);
+CREATE TABLE #TempRefCodes (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, version INT NOT NULL, [description] VARCHAR(255));
 
 -- Read v2 codes
 INSERT INTO #TempRefCodes
-SELECT PK_Reference_Coding_ID, dcr.concept, dcr.[version]
+SELECT PK_Reference_Coding_ID, dcr.concept, dcr.[version], dcr.[description]
 FROM [SharedCare].[Reference_Coding] rc
 INNER JOIN #codesreadv2 dcr on dcr.code = rc.MainCode
 WHERE CodingType='ReadCodeV2'
@@ -193,7 +194,7 @@ and PK_Reference_Coding_ID != -1;
 
 -- CTV3 codes
 INSERT INTO #TempRefCodes
-SELECT PK_Reference_Coding_ID, dcc.concept, dcc.[version]
+SELECT PK_Reference_Coding_ID, dcc.concept, dcc.[version], dcc.[description]
 FROM [SharedCare].[Reference_Coding] rc
 INNER JOIN #codesctv3 dcc on dcc.code = rc.MainCode
 WHERE CodingType='CTV3'
@@ -201,23 +202,23 @@ and PK_Reference_Coding_ID != -1;
 
 -- EMIS codes with a FK Reference Coding ID
 INSERT INTO #TempRefCodes
-SELECT FK_Reference_Coding_ID, ce.concept, ce.[version]
+SELECT FK_Reference_Coding_ID, ce.concept, ce.[version], ce.[description]
 FROM [SharedCare].[Reference_Local_Code] rlc
 INNER JOIN #codesemis ce on ce.code = rlc.LocalCode
 WHERE FK_Reference_Coding_ID != -1;
 
 IF OBJECT_ID('tempdb..#TempSNOMEDRefCodes') IS NOT NULL DROP TABLE #TempSNOMEDRefCodes;
-CREATE TABLE #TempSNOMEDRefCodes (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [version] INT NOT NULL);
+CREATE TABLE #TempSNOMEDRefCodes (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [version] INT NOT NULL, [description] VARCHAR(255));
 
 -- SNOMED codes
 INSERT INTO #TempSNOMEDRefCodes
-SELECT PK_Reference_SnomedCT_ID, dcs.concept, dcs.[version]
+SELECT PK_Reference_SnomedCT_ID, dcs.concept, dcs.[version], dcs.[description]
 FROM SharedCare.Reference_SnomedCT rs
 INNER JOIN #codessnomed dcs on dcs.code = rs.ConceptID;
 
 -- EMIS codes with a FK SNOMED ID but without a FK Reference Coding ID
 INSERT INTO #TempSNOMEDRefCodes
-SELECT FK_Reference_SnomedCT_ID, ce.concept, ce.[version]
+SELECT FK_Reference_SnomedCT_ID, ce.concept, ce.[version], ce.[description]
 FROM [SharedCare].[Reference_Local_Code] rlc
 INNER JOIN #codesemis ce on ce.code = rlc.LocalCode
 WHERE FK_Reference_Coding_ID = -1
@@ -225,16 +226,16 @@ AND FK_Reference_SnomedCT_ID != -1;
 
 -- De-duped tables
 IF OBJECT_ID('tempdb..#CodeSets') IS NOT NULL DROP TABLE #CodeSets;
-CREATE TABLE #CodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL);
+CREATE TABLE #CodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [description] VARCHAR(255));
 
 IF OBJECT_ID('tempdb..#SnomedSets') IS NOT NULL DROP TABLE #SnomedSets;
-CREATE TABLE #SnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL);
+CREATE TABLE #SnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [description] VARCHAR(255));
 
 IF OBJECT_ID('tempdb..#VersionedCodeSets') IS NOT NULL DROP TABLE #VersionedCodeSets;
-CREATE TABLE #VersionedCodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT);
+CREATE TABLE #VersionedCodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT, [description] VARCHAR(255));
 
 IF OBJECT_ID('tempdb..#VersionedSnomedSets') IS NOT NULL DROP TABLE #VersionedSnomedSets;
-CREATE TABLE #VersionedSnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT);
+CREATE TABLE #VersionedSnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT, [description] VARCHAR(255));
 
 INSERT INTO #VersionedCodeSets
 SELECT DISTINCT * FROM #TempRefCodes;
@@ -243,7 +244,7 @@ INSERT INTO #VersionedSnomedSets
 SELECT DISTINCT * FROM #TempSNOMEDRefCodes;
 
 INSERT INTO #CodeSets
-SELECT FK_Reference_Coding_ID, c.concept
+SELECT FK_Reference_Coding_ID, c.concept, [description]
 FROM #VersionedCodeSets c
 INNER JOIN (
   SELECT concept, MAX(version) AS maxVersion FROM #VersionedCodeSets
@@ -251,7 +252,7 @@ INNER JOIN (
 sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
 INSERT INTO #SnomedSets
-SELECT FK_Reference_SnomedCT_ID, c.concept
+SELECT FK_Reference_SnomedCT_ID, c.concept, [description]
 FROM #VersionedSnomedSets c
 INNER JOIN (
   SELECT concept, MAX(version) AS maxVersion FROM #VersionedSnomedSets
