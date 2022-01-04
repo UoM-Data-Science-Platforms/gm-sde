@@ -292,3 +292,9 @@ Attempted to find the location of information related to project no.1 (Grant), i
 25/11/21
 - fixing issue with code taking too long to run
 - responding to Richard's minor feedback on RQ32 scripts 
+
+29/11/21
+- extract RQ32 data files
+
+08/12/21
+- testing new suggestion for Graphnet to filter GP Events value field to numeric values only.
