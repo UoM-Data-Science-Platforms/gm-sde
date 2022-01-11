@@ -33,7 +33,7 @@ WHERE FK_Reference_Tenancy_ID = 2;
 
 
 -- Create a table with LSOA codes and GM areas (ID, LSOA_Code, GM_Area)==========================================================================================
---> EXECUTE query-patient-lsoa-gm.sql
+--> EXECUTE query-lsoa-gm-lookup.sql
 
 IF OBJECT_ID('tempdb..#PatientsLSOAGM') IS NOT NULL DROP TABLE #PatientsLSOAGM;
 SELECT g.FK_Patient_Link_ID, g.LSOA_Code, l.GM_Area
@@ -102,9 +102,6 @@ LEFT OUTER JOIN #PatientPractice pp ON pp.FK_Patient_Link_ID = p.FK_Patient_Link
 LEFT OUTER JOIN SharedCare.Reference_GP_Practice gp ON gp.OrganisationCode = pp.GPPracticeCode
 LEFT OUTER JOIN #CCGLookup ccg ON ccg.CcgId = gp.Commissioner;
 
-SELECT TOP (50) *
-FROM #PatientsGPGM;
-
 -- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
 DROP TABLE #PatientPractice;
 DROP TABLE #UnmatchedPatientsForPracticeCode;
@@ -155,31 +152,25 @@ WHERE p.CodingOptOutFlag IS NOT NULL
 GROUP BY p.FK_Patient_Link_ID
 HAVING MIN(CodingOptOutFlag) = MAX(CodingOptOutFlag);
 
-SELECT TOP (50) *
-FROM #PatientsOptOut;
-
 -- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
 DROP TABLE #UnmatchedPatientOptOut;
 
 
--- Find patients who died=====================================================================================================================================
+-- Find patients who died (ID, Deceased)=====================================================================================================================================
 IF OBJECT_ID('tempdb..#PatientsDied') IS NOT NULL DROP TABLE #PatientsDied;
 SELECT PK_Patient_Link_ID, Deceased
 INTO #PatientsDied
 FROM [RLS].[vw_Patient_Link];
 
-SELECT TOP (50) *
-FROM #PatientsDied;
 
-
--- Find patients who have GP event records==========================================================================================================================
+-- Find patients who have GP event records (ID, ID_GP_Event)==========================================================================================================================
 IF OBJECT_ID('tempdb..#PatientsGPEvent') IS NOT NULL DROP TABLE #PatientsGPEvent;
 SELECT DISTINCT FK_Patient_Link_ID AS ID_GP_Event
 INTO #PatientsGPEvent
 FROM RLS.vw_GP_Events;
 
 
--- Find patients who have GP medication records==========================================================================================================================
+-- Find patients who have GP medication records (ID, ID_GP_Medication)==========================================================================================================================
 IF OBJECT_ID('tempdb..#PatientsGPMedication') IS NOT NULL DROP TABLE #PatientsGPMedication;
 SELECT DISTINCT FK_Patient_Link_ID AS ID_GP_Medication
 INTO #PatientsGPMedication
