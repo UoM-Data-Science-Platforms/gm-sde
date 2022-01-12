@@ -34,6 +34,7 @@ WHERE FK_Reference_Tenancy_ID = 2;
 
 -- Create a table with LSOA codes and GM areas (ID, LSOA_Code, GM_Area)==========================================================================================
 --> EXECUTE query-lsoa-gm-lookup.sql
+--> EXECUTE query-patient-lsoa.sql
 
 IF OBJECT_ID('tempdb..#PatientsLSOAGM') IS NOT NULL DROP TABLE #PatientsLSOAGM;
 SELECT g.FK_Patient_Link_ID, g.LSOA_Code, l.GM_Area
@@ -43,8 +44,6 @@ RIGHT JOIN #PatientLSOA g
 ON g.LSOA_Code = l.LSOA_Code;
 
 -- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
-DROP TABLE #AllPatientLSOAs;
-DROP TABLE #UnmatchedLsoaPatients;
 DROP TABLE #LSOALookup;
 DROP TABLE #PatientLSOA;
 
