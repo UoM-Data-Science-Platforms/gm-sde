@@ -1,5 +1,5 @@
 --+---------------------------+
---¦ GMCR population counts    ¦
+--ï¿½ GMCR population counts    ï¿½
 --+---------------------------+
 
 -- OBJECTIVE: To provide several counts to understand more about the GMCR population
@@ -49,7 +49,8 @@ DROP TABLE #PatientLSOA;
 
 
 -- Find patients who registered with GP outside GM (ID, GP_Code, CCG)==============================================================================================
--- If patients have a tenancy id of 2 we take this as their most likely GP practice
+-- If patients have a tenancy id of 2 we take this as their most likely GP practice code
+-- as this is the GP data feed and so most likely to be up to date
 IF OBJECT_ID('tempdb..#PatientPractice') IS NOT NULL DROP TABLE #PatientPractice;
 SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) as GPPracticeCode INTO #PatientPractice FROM RLS.vw_Patient
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
@@ -79,7 +80,7 @@ SELECT FK_Patient_Link_ID FROM #Patients
 EXCEPT
 SELECT FK_Patient_Link_ID FROM #PatientPractice;
 
--- If there is a unique most recent gp practice then we use that
+-- If there is a unique most recent GP practice then we use that
 INSERT INTO #PatientPractice
 SELECT p.FK_Patient_Link_ID, MIN(p.GPPracticeCode) FROM RLS.vw_Patient p
 INNER JOIN (
@@ -108,7 +109,7 @@ DROP TABLE #CCGLookup;
 
 
 -- Find patients opt out of data sharing (ID, Opt_Out)==============================================================================================================
--- If patients have a tenancy id of 2 we take this as their most likely GP practice
+-- If patients have a tenancy id of 2 we take this as their most likely opt-out status
 -- as this is the GP data feed and so most likely to be up to date
 IF OBJECT_ID('tempdb..#PatientsOptOut') IS NOT NULL DROP TABLE #PatientsOptOut;
 SELECT FK_Patient_Link_ID, MIN(CodingOptOutFlag) as CodingOptOutFlag INTO #PatientsOptOut FROM RLS.vw_Patient
@@ -124,7 +125,7 @@ SELECT FK_Patient_Link_ID INTO #UnmatchedPatientOptOut FROM #Patients
 EXCEPT
 SELECT FK_Patient_Link_ID FROM #PatientsOptOut;
 
--- If every GPPracticeCode is the same for all their linked patient ids then we use that
+-- If every CodingOptOutFlag is the same for all their linked patient ids then we use that
 INSERT INTO #PatientsOptOut
 SELECT FK_Patient_Link_ID, MIN(CodingOptOutFlag) FROM RLS.vw_Patient
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatientOptOut)
@@ -206,75 +207,88 @@ DROP TABLE #PatientsGPMedication;
 
 -- Get information for GMCR population===========================================================================================================================
 -- Today date
-SELECT FORMAT(GETDATE(), 'yyyy-MM-dd');
+SELECT FORMAT(GETDATE(), 'yyyy-MM-dd') AS Updated_Date;
 
 -- All patients in GMCR
-SELECT COUNT (*) FROM #Population;
+SELECT COUNT (*) AS Total_Population
+FROM #Population;
 
 -- All patients in GMCR who registered with GP
-SELECT COUNT (*) FROM #Population
+SELECT COUNT (*) AS Patients_With_GP
+FROM #Population
 WHERE Tenancy_ID = 2;
 
--- All patients in GMCR who not registered with GP
-SELECT COUNT (*) FROM #Population
-WHERE Tenancy_ID IS NULL;
-
 -- Patients who registered with a GP and had LSOA code inside GM
-SELECT COUNT (*) FROM #Population
+SELECT COUNT (*) AS Patients_With_GP_Live_In_GM
+FROM #Population
 WHERE Tenancy_ID = 2 AND GM_Area IS NOT NULL;
 
 -- Patients who registered with a GP and had LSOA code inside GM and alive (no opt-out)
-SELECT COUNT (*) FROM #Population
+SELECT COUNT (*) AS Patients_With_GP_Live_In_GM_Alive
+FROM #Population
 WHERE Tenancy_ID = 2 AND GM_Area IS NOT NULL AND Deceased = 'N' AND CodingOptOutFlag = 'N';
 
 -- Patients who registered with a GP and had LSOA code inside GM and dead
-SELECT COUNT (*) FROM #Population
+SELECT COUNT (*) AS Patients_With_GP_Live_In_GM_Dead
+FROM #Population
 WHERE Tenancy_ID = 2 AND GM_Area IS NOT NULL AND Deceased = 'Y';
 
 -- Patients who registered with a GP and had LSOA code inside GM and opted out
-SELECT COUNT (*) FROM #Population
+SELECT COUNT (*) AS Patients_With_GP_Live_In_GM_Opt_Out
+FROM #Population
 WHERE Tenancy_ID = 2 AND GM_Area IS NOT NULL AND CodingOptOutFlag = 'Y';
 
 -- Patients who registered with a GP and GP inside GM
-SELECT COUNT (*) FROM #Population
+SELECT COUNT (*) AS Patients_With_GP_Practice_In_GM
+FROM #Population
 WHERE Tenancy_ID = 2 AND CCG <> '';
 
 -- Patients who registered with a GP and GP inside GM and alive (no opt-out)
-SELECT COUNT (*) FROM #Population
+SELECT COUNT (*) AS Patients_With_GP_Practice_In_GM_Alive
+FROM #Population
 WHERE Tenancy_ID = 2 AND CCG <> '' AND Deceased = 'N' AND CodingOptOutFlag = 'N';
 
 -- Patients who registered with a GP and GP inside GM and dead
-SELECT COUNT (*) FROM #Population
+SELECT COUNT (*) AS Patients_With_GP_Practice_In_GM_Dead
+FROM #Population
 WHERE Tenancy_ID = 2 AND CCG <> '' AND Deceased = 'Y';
 
 -- Patients who registered with a GP and GP inside GM and opted out
-SELECT COUNT (*) FROM #Population
+SELECT COUNT (*) AS Patients_With_GP_Practice_In_GM_Opt_Out
+FROM #Population
 WHERE Tenancy_ID = 2 AND CCG <> '' AND CodingOptOutFlag = 'Y';
 
 -- Patients who registered with a GP and have no GP records
-SELECT COUNT (*) FROM #Population
+SELECT COUNT (*) AS Patients_With_GP_No_GP_Records
+FROM #Population
 WHERE Tenancy_ID = 2 AND ID_GP_Event IS NULL AND ID_GP_Medication IS NULL;
 
 -- All patients in GMCR who not registered with GP
-SELECT COUNT (*) FROM #Population
+SELECT COUNT (*) AS Patients_Without_GP
+FROM #Population
 WHERE Tenancy_ID IS NULL;
 
 -- Patients in GMCR who not registered with GP and live inside GM
-SELECT COUNT (*) FROM #Population
+SELECT COUNT (*) AS Patients_Without_GP_Live_In_GM
+FROM #Population
 WHERE Tenancy_ID IS NULL AND GM_Area IS NOT NULL;
 
 -- Patients in GMCR who not registered with GP and live inside GM and alive (no opt-out)
-SELECT COUNT (*) FROM #Population
+SELECT COUNT (*) AS Patients_Without_GP_Live_In_GM_Alive
+FROM #Population
 WHERE Tenancy_ID IS NULL AND GM_Area IS NOT NULL AND Deceased = 'N' AND CodingOptOutFlag = 'N';
 
 -- Patients in GMCR who not registered with GP and live inside GM and dead
-SELECT COUNT (*) FROM #Population
+SELECT COUNT (*) AS Patients_Without_GP_Live_In_GM_Dead
+FROM #Population
 WHERE Tenancy_ID IS NULL AND GM_Area IS NOT NULL AND Deceased = 'Y';
 
 -- Patients in GMCR who not registered with GP and live inside GM and opted out
-SELECT COUNT (*) FROM #Population
+SELECT COUNT (*) AS Patients_Without_GP_Live_In_GM_Opt_Out
+FROM #Population
 WHERE Tenancy_ID IS NULL AND GM_Area IS NOT NULL AND CodingOptOutFlag = 'Y';
 
 -- Patients in GMCR who not registered with GP and had no GP records
-SELECT COUNT (*) FROM #Population
+SELECT COUNT (*) AS Patients_Without_GP_No_GP_Records
+FROM #Population
 WHERE Tenancy_ID IS NULL AND ID_GP_Event IS NULL AND ID_GP_Medication IS NULL;
