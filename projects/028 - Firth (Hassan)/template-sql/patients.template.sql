@@ -30,7 +30,9 @@
 
 -- Set the start date
 DECLARE @StartDate datetime;
+DECLARE @EndDate datetime;
 SET @StartDate = '2020-01-31';
+SET @EndDate = '2021-09-30';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -71,7 +73,7 @@ SELECT
 	,SecondVaccineDate = VaccineDose2Date 
 INTO #COVIDVaccinations1
 FROM #COVIDVaccinations
-GROUP BY FK_Patient_Link_ID
+WHERE VaccineDose1Date <= @EndDate AND VaccineDose2Date <= @EndDate
 
 -- Get patients with covid vaccine refusal
 
@@ -80,13 +82,15 @@ GROUP BY FK_Patient_Link_ID
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS DateVaccineDeclined 
 INTO #VaccineDeclinedPatients FROM [RLS].[vw_GP_Events]
 WHERE SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccine-declined' AND [Version] = 1)
+	AND EventDate <= @EndDate
 GROUP BY FK_Patient_Link_ID;
 
 -- Get patient list of those with COVID death within 28 days of positive test
 IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT FK_Patient_Link_ID 
 INTO #COVIDDeath FROM RLS.vw_COVID19
-WHERE DeathWithin28Days = 'Y';
+WHERE DeathWithin28Days = 'Y'
+	AND EventDate <= @EndDate
 
 -- cohort of patients with depression
 IF OBJECT_ID('tempdb..#depression_cohort') IS NOT NULL DROP TABLE #depression_cohort;

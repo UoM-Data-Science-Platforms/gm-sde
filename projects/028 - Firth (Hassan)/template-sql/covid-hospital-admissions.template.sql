@@ -14,7 +14,9 @@
 
 -- Set the start date
 DECLARE @StartDate datetime;
+DECLARE @EndDate datetime;
 SET @StartDate = '2020-01-31';
+SET @EndDate = '2021-09-30';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -151,6 +153,7 @@ LEFT JOIN #LengthOfStay l ON m.FK_Patient_Link_ID = l.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND c.AdmissionDate = l.AdmissionDate AND c.AcuteProvider = l.AcuteProvider
 LEFT OUTER JOIN #RandomiseHospital rh ON rh.AcuteProvider = l.AcuteProvider
 WHERE c.CovidHealthcareUtilisation = 'TRUE'
+	AND l.AdmissionDate <= @EndDate
 --patients in matched cohort
 UNION
 SELECT 
@@ -164,3 +167,4 @@ LEFT JOIN #LengthOfStay l ON m.FK_Patient_Link_ID = l.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND c.AdmissionDate = l.AdmissionDate AND c.AcuteProvider = l.AcuteProvider
 LEFT OUTER JOIN #RandomiseHospital rh ON rh.AcuteProvider = l.AcuteProvider
 WHERE c.CovidHealthcareUtilisation = 'TRUE'
+	AND l.AdmissionDate <= @EndDate
