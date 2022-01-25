@@ -13,7 +13,9 @@
 
 -- Set the start date
 DECLARE @StartDate datetime;
+DECLARE @EndDate datetime;
 SET @StartDate = '2020-01-31';
+SET @EndDate = '2021-09-30';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -141,6 +143,7 @@ INTO #covidtests
 FROM [RLS].[vw_COVID19]
 WHERE 
 	(FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #MainCohort) OR FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #MatchedCohort))
+	AND EventDate <= @EndDate
 	and GroupDescription != 'Vaccination' 
 	and GroupDescription not in ('Exposed', 'Suspected', 'Tested for immunity')
 	and (GroupDescription != 'Unknown' and SubGroupDescription != '')
