@@ -1,0 +1,11 @@
+Xa96v Haemoglobin concentration
+XE2m6 Haemoglobin estimation
+XM1Vu  Hb estimation
+4237   Haemoglobin normal
+4235   Haemoglobin low
+423Z.  Haemoglobin estimation NOS
+4239   Haemoglobin high
+4236   Haemoglobin borderline low
+X76ti  Haemoglobin H inclusion
+4234   Haemoglobin very low
+423B.  Haemoglobin abnormal
