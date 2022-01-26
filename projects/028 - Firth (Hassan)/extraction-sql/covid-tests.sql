@@ -13,7 +13,9 @@
 
 -- Set the start date
 DECLARE @StartDate datetime;
+DECLARE @EndDate datetime;
 SET @StartDate = '2020-01-31';
+SET @EndDate = '2021-09-30';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -74,7 +76,8 @@ IF OBJECT_ID('tempdb..#PatientSex') IS NOT NULL DROP TABLE #PatientSex;
 SELECT FK_Patient_Link_ID, MIN(Sex) as Sex INTO #PatientSex FROM #AllPatientSexs
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND FK_Reference_Tenancy_ID = 2
-GROUP BY FK_Patient_Link_ID;
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(Sex) = MAX(Sex);
 
 -- Find the patients who remain unmatched
 IF OBJECT_ID('tempdb..#UnmatchedSexPatients') IS NOT NULL DROP TABLE #UnmatchedSexPatients;
@@ -151,7 +154,8 @@ IF OBJECT_ID('tempdb..#PatientYearOfBirth') IS NOT NULL DROP TABLE #PatientYearO
 SELECT FK_Patient_Link_ID, MIN(YearOfBirth) as YearOfBirth INTO #PatientYearOfBirth FROM #AllPatientYearOfBirths
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND FK_Reference_Tenancy_ID = 2
-GROUP BY FK_Patient_Link_ID;
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
 
 -- Find the patients who remain unmatched
 IF OBJECT_ID('tempdb..#UnmatchedYobPatients') IS NOT NULL DROP TABLE #UnmatchedYobPatients;
@@ -664,6 +668,7 @@ INTO #covidtests
 FROM [RLS].[vw_COVID19]
 WHERE 
 	(FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #MainCohort) OR FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #MatchedCohort))
+	AND EventDate <= @EndDate
 	and GroupDescription != 'Vaccination' 
 	and GroupDescription not in ('Exposed', 'Suspected', 'Tested for immunity')
 	and (GroupDescription != 'Unknown' and SubGroupDescription != '')

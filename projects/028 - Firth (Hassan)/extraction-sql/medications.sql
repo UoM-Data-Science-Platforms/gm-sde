@@ -16,7 +16,9 @@
 SET NOCOUNT ON;
 
 DECLARE @StartDate datetime;
+DECLARE @EndDate datetime;
 SET @StartDate = '2020-01-31';
+SET @EndDate = '2021-09-30';
 
 
 -- Find all patients alive at start date
@@ -295,7 +297,7 @@ FROM RLS.vw_GP_Medications m
 LEFT OUTER JOIN #VersionedSnomedSets s ON s.FK_Reference_SnomedCT_ID = m.FK_Reference_SnomedCT_ID
 LEFT OUTER JOIN #VersionedCodeSets c ON c.FK_Reference_Coding_ID = m.FK_Reference_Coding_ID
 WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #SMI_patients)
-AND m.MedicationDate > '2019-07-31' 
+AND m.MedicationDate BETWEEN '2019-07-31' AND @EndDate
 AND (
 	m.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('antipsychotics') AND [Version]=1) OR
     m.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('antipsychotics') AND [Version]=1)
