@@ -73,8 +73,9 @@ SELECT
 	,SecondVaccineDate = VaccineDose2Date 
 INTO #COVIDVaccinations1
 FROM #COVIDVaccinations
-WHERE VaccineDose1Date <= @EndDate AND VaccineDose2Date <= @EndDate
-
+WHERE
+	(VaccineDose1Date <= @EndDate OR VaccineDose1Date IS NULL) AND 
+	(VaccineDose2Date <= @EndDate OR VaccineDose2Date IS NULL)
 -- Get patients with covid vaccine refusal
 
 --> CODESET covid-vaccine-declined:1
