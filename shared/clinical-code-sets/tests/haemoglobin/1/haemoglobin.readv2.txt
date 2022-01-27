@@ -1,0 +1,4 @@
+423..           Haemoglobin estimation
+423Z.           Haemoglobin estimation NOS
+423C.           Haemoglobin H inclusion 
+423B.           Haemoglobin abnormal
