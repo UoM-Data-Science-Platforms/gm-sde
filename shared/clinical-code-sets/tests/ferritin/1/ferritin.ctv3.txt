@@ -1,0 +1,7 @@
+XaItW      Plasma ferritin level
+42R41      Ferritin level low
+42R42      Serum ferritin normal
+42R4200    Serum ferritin normal
+XaIRQ      Serum ferritin high
+X76t9      Ferritin level
+XE24r      Serum ferritin level
