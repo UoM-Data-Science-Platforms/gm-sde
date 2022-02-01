@@ -1,8 +1,8 @@
-42d4.        Plasma ferritin level
-42R41        Ferritin level low
-42R4100      Ferritin level low
-42R42        Serum ferritin normal
-42R4200      Serum ferritin normal
-42R43        Serum ferritin high
-42R4300      Serum ferritin high
-42R4.        Serum ferritin
+42d4.	Plasma ferritin level
+42R41	Ferritin level low
+42R4100	Ferritin level low
+42R42	Serum ferritin normal
+42R4200	Serum ferritin normal
+42R43	Serum ferritin high
+42R4300	Serum ferritin high
+42R4.	Serum ferritin
