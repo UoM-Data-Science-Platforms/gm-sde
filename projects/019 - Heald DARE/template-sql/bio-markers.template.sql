@@ -3,11 +3,13 @@
 --└────────────┘
 
 ------------------------ RDE CHECK -------------------------
--- RDE NAME: GEORGE TILSTON, DATE OF CHECK: 11/05/21 -------
-------------------------------------------------------------
+
 
 -- For each patient with a COVID positive test, this produces 2 years of hbA1c readings
 -- leading up to the date of the positive test.
+
+-- TODO actually we now want 4 columns, so that we can include all bio readings and not just
+-- hbA1c readings. We now also include bmi, hba1c, cholesterol, ldl, hdl etc..
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
