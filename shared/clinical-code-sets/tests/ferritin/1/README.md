@@ -2,8 +2,6 @@
 
 A patient's ferritin as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`XaItW - Plasma ferritin level`). It does not include codes that indicate a patient's ferritin without giving the actual value.
 
-Ferritin codes retrieved from [GetSet](https://getset.ga) and metadata available in this directory.
-
 **NB: This code set is intended to only indicate a patient's ferritin values.**
 
 ## Prevalence log
