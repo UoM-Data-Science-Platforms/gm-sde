@@ -1,0 +1,748 @@
+762511000001105	Aldactide 25 tablets (Pfizer Ltd)
+4669111000001107	Aldactide 50 tablets (Pfizer Ltd)
+17490211000001103	Aldactone 100mg tablets (Mawdsley-Brooks & Company Ltd)
+421611000001100	Aldactone 100mg tablets (Pfizer Ltd)
+16540011000001108	Aldactone 100mg tablets (Stephar (U.K.) Ltd)
+10480311000001103	Aldactone 100mg tablets (Waymade Healthcare Plc)
+930511000001105	Aldactone 25mg tablets (Pfizer Ltd)
+10766811000001102	Aldactone 25mg tablets (Waymade Healthcare Plc)
+17489911000001100	Aldactone 50mg tablets (Mawdsley-Brooks & Company Ltd)
+921811000001103	Aldactone 50mg tablets (Pfizer Ltd)
+11814511000001103	Amiloride 10mg/5ml / Furosemide 125mg/5ml oral solution
+11806011000001104	Amiloride 10mg/5ml / Furosemide 125mg/5ml oral solution (Special Order)
+11814611000001104	Amiloride 10mg/5ml / Furosemide 125mg/5ml oral suspension
+11805711000001105	Amiloride 10mg/5ml / Furosemide 125mg/5ml oral suspension (Special Order)
+318097001	Amiloride 5mg / Bumetanide 1mg tablets
+15507811000001107	Amiloride 5mg / Bumetanide 1mg tablets (A A H Pharmaceuticals Ltd)
+15247111000001103	Amiloride 5mg / Bumetanide 1mg tablets (Alliance Healthcare (Distribution) Ltd)
+16664411000001109	Amiloride 5mg / Bumetanide 1mg tablets (Chemidex Pharma Ltd)
+19703711000001100	Amiloride 5mg / Bumetanide 1mg tablets (DE Pharmaceuticals)
+15051211000001106	Amiloride 5mg / Bumetanide 1mg tablets (Essential Generics Ltd)
+767866006	Amiloride and bumetanide in oral dosage form
+720443002	Amiloride and furosemide
+767868007	Amiloride and furosemide in oral dosage form
+375553009	Bumetanide 0.5 mg oral tablet
+318021009	Bumetanide 1mg tablets
+43411000001106	Bumetanide 1mg tablets (A A H Pharmaceuticals Ltd)
+539611000001107	Bumetanide 1mg tablets (Actavis UK Ltd)
+731811000001106	Bumetanide 1mg tablets (Alliance Healthcare (Distribution) Ltd)
+9793511000001108	Bumetanide 1mg tablets (Almus Pharmaceuticals Ltd)
+10385911000001101	Bumetanide 1mg tablets (Arrow Generics Ltd)
+689011000001100	Bumetanide 1mg tablets (C P Pharmaceuticals Ltd)
+22622811000001107	Bumetanide 1mg tablets (DE Pharmaceuticals)
+13187611000001107	Bumetanide 1mg tablets (Dowelhurst Ltd)
+226011000001101	Bumetanide 1mg tablets (IVAX Pharmaceuticals UK Ltd)
+443511000001103	Bumetanide 1mg tablets (Kent Pharmaceuticals Ltd)
+37046811000001102	Bumetanide 1mg tablets (Mawdsley-Brooks & Company Ltd)
+402111000001109	Bumetanide 1mg tablets (Mylan)
+14106511000001105	Bumetanide 1mg tablets (Niche Generics Ltd)
+17810611000001109	Bumetanide 1mg tablets (Phoenix Healthcare Distribution Ltd)
+29775711000001107	Bumetanide 1mg tablets (Sigma Pharmaceuticals Plc)
+274211000001100	Bumetanide 1mg tablets (Teva UK Ltd)
+21804811000001102	Bumetanide 1mg tablets (Waymade Healthcare Plc)
+318023007	Bumetanide 1mg/5ml oral solution sugar free
+484611000001105	Bumetanide 1mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+679111000001109	Bumetanide 1mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+25833011000001104	Bumetanide 1mg/5ml oral solution sugar free (Ennogen Healthcare Ltd)
+14781611000001107	Bumetanide 1mg/5ml oral solution sugar free (Essential Generics Ltd)
+31353511000001106	Bumetanide 1mg/5ml oral solution sugar free (J M McGill Ltd)
+716011000001104	Bumetanide 1mg/5ml oral solution sugar free (LEO Pharma)
+375648005	Bumetanide 2 mg oral tablet
+769624001	Bumetanide 2 mg/4 mL solution for injection ampoule
+35912911000001108	Bumetanide 2mg/4ml solution for injection ampoules
+4451311000001103	Bumetanide 2mg/4ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4451511000001109	Bumetanide 2mg/4ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+11555811000001108	Bumetanide 2mg/4ml solution for injection ampoules (LEO Pharma)
+765663002	Bumetanide 500 microgram and potassium chloride 573 mg prolonged-release oral tablet
+35913011000001100	Bumetanide 500microgram / Potassium chloride 573mg (potassium 7.7mmol) modified-release tablets
+318022002	Bumetanide 5mg tablets
+376211000001101	Bumetanide 5mg tablets (A A H Pharmaceuticals Ltd)
+476011000001104	Bumetanide 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+10386311000001107	Bumetanide 5mg tablets (Arrow Generics Ltd)
+912611000001101	Bumetanide 5mg tablets (C P Pharmaceuticals Ltd)
+22623011000001105	Bumetanide 5mg tablets (DE Pharmaceuticals)
+13188011000001104	Bumetanide 5mg tablets (Dowelhurst Ltd)
+543811000001108	Bumetanide 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+629311000001107	Bumetanide 5mg tablets (Kent Pharmaceuticals Ltd)
+30004711000001103	Bumetanide 5mg tablets (Mawdsley-Brooks & Company Ltd)
+196711000001105	Bumetanide 5mg tablets (Mylan)
+14106711000001100	Bumetanide 5mg tablets (Niche Generics Ltd)
+17810911000001103	Bumetanide 5mg tablets (Phoenix Healthcare Distribution Ltd)
+29776111000001100	Bumetanide 5mg tablets (Sigma Pharmaceuticals Plc)
+102011000001107	Bumetanide 5mg tablets (Teva UK Ltd)
+21805011000001107	Bumetanide 5mg tablets (Waymade Healthcare Plc)
+30798811000001102	Bumetanide 5mg/5ml oral suspension
+30796711000001106	Bumetanide 5mg/5ml oral suspension (Special Order)
+350610004	Bumetanide in oral dosage form
+350611000	Bumetanide in parenteral dosage form
+846411000001100	Burinex 1mg tablets (LEO Pharma)
+521811000001107	Burinex 5mg tablets (LEO Pharma)
+33911000001104	Burinex A 5mg/1mg tablets (LEO Pharma)
+3290211000001109	Burinex K modified-release tablets (LEO Pharma)
+11814311000001109	Co-amilofruse 1.25mg/10mg/5ml oral solution
+11805411000001104	Co-amilofruse 1.25mg/10mg/5ml oral solution (Special Order)
+11814411000001102	Co-amilofruse 1.25mg/10mg/5ml oral suspension
+11805111000001109	Co-amilofruse 1.25mg/10mg/5ml oral suspension (Special Order)
+318137000	Co-amilofruse 10mg/80mg tablets
+173711000001108	Co-amilofruse 10mg/80mg tablets (A A H Pharmaceuticals Ltd)
+26411000001104	Co-amilofruse 10mg/80mg tablets (Alliance Healthcare (Distribution) Ltd)
+10396411000001101	Co-amilofruse 10mg/80mg tablets (Arrow Generics Ltd)
+19190011000001102	Co-amilofruse 10mg/80mg tablets (Aurobindo Pharma Ltd)
+30043611000001102	Co-amilofruse 10mg/80mg tablets (DE Pharmaceuticals)
+13232411000001104	Co-amilofruse 10mg/80mg tablets (Dowelhurst Ltd)
+583811000001102	Co-amilofruse 10mg/80mg tablets (Kent Pharmaceuticals Ltd)
+30015711000001102	Co-amilofruse 10mg/80mg tablets (Mawdsley-Brooks & Company Ltd)
+17885011000001105	Co-amilofruse 10mg/80mg tablets (Phoenix Healthcare Distribution Ltd)
+29791811000001105	Co-amilofruse 10mg/80mg tablets (Sigma Pharmaceuticals Plc)
+22006511000001106	Co-amilofruse 10mg/80mg tablets (Waymade Healthcare Plc)
+457611000001105	Co-amilofruse 10mg/80mg tablets (Wockhardt UK Ltd)
+11814711000001108	Co-amilofruse 10mg/80mg/5ml oral solution
+11806611000001106	Co-amilofruse 10mg/80mg/5ml oral solution (Special Order)
+11814811000001100	Co-amilofruse 10mg/80mg/5ml oral suspension
+11806311000001101	Co-amilofruse 10mg/80mg/5ml oral suspension (Special Order)
+318135008	Co-amilofruse 2.5mg/20mg tablets
+841211000001107	Co-amilofruse 2.5mg/20mg tablets (A A H Pharmaceuticals Ltd)
+773211000001107	Co-amilofruse 2.5mg/20mg tablets (Actavis UK Ltd)
+387111000001103	Co-amilofruse 2.5mg/20mg tablets (Alliance Healthcare (Distribution) Ltd)
+10395811000001107	Co-amilofruse 2.5mg/20mg tablets (Arrow Generics Ltd)
+23825911000001105	Co-amilofruse 2.5mg/20mg tablets (DE Pharmaceuticals)
+13231211000001105	Co-amilofruse 2.5mg/20mg tablets (Dowelhurst Ltd)
+292311000001109	Co-amilofruse 2.5mg/20mg tablets (Kent Pharmaceuticals Ltd)
+19189511000001103	Co-amilofruse 2.5mg/20mg tablets (Milpharm Ltd)
+17863811000001100	Co-amilofruse 2.5mg/20mg tablets (Phoenix Healthcare Distribution Ltd)
+901811000001108	Co-amilofruse 2.5mg/20mg tablets (Sandoz Ltd)
+29792211000001102	Co-amilofruse 2.5mg/20mg tablets (Sigma Pharmaceuticals Plc)
+242811000001109	Co-amilofruse 2.5mg/20mg tablets (Teva UK Ltd)
+21937611000001106	Co-amilofruse 2.5mg/20mg tablets (Waymade Healthcare Plc)
+213911000001104	Co-amilofruse 2.5mg/20mg tablets (Wockhardt UK Ltd)
+8426711000001107	Co-amilofruse 2.5mg/20mg/5ml oral solution
+8400811000001107	Co-amilofruse 2.5mg/20mg/5ml oral solution (Special Order)
+8426811000001104	Co-amilofruse 2.5mg/20mg/5ml oral suspension
+8401111000001106	Co-amilofruse 2.5mg/20mg/5ml oral suspension (Special Order)
+318136009	Co-amilofruse 5mg/40mg tablets
+11311000001108	Co-amilofruse 5mg/40mg tablets (A A H Pharmaceuticals Ltd)
+667111000001108	Co-amilofruse 5mg/40mg tablets (Actavis UK Ltd)
+362011000001103	Co-amilofruse 5mg/40mg tablets (Alliance Healthcare (Distribution) Ltd)
+10396111000001106	Co-amilofruse 5mg/40mg tablets (Arrow Generics Ltd)
+30043111000001105	Co-amilofruse 5mg/40mg tablets (DE Pharmaceuticals)
+13232111000001109	Co-amilofruse 5mg/40mg tablets (Dowelhurst Ltd)
+14161111000001106	Co-amilofruse 5mg/40mg tablets (Healthcare Pharma Ltd)
+571911000001103	Co-amilofruse 5mg/40mg tablets (Kent Pharmaceuticals Ltd)
+19189711000001108	Co-amilofruse 5mg/40mg tablets (Milpharm Ltd)
+428711000001104	Co-amilofruse 5mg/40mg tablets (Mylan)
+17864011000001108	Co-amilofruse 5mg/40mg tablets (Phoenix Healthcare Distribution Ltd)
+557611000001103	Co-amilofruse 5mg/40mg tablets (Ranbaxy (UK) Ltd)
+295411000001105	Co-amilofruse 5mg/40mg tablets (Sandoz Ltd)
+29793111000001102	Co-amilofruse 5mg/40mg tablets (Sigma Pharmaceuticals Plc)
+891211000001100	Co-amilofruse 5mg/40mg tablets (Teva UK Ltd)
+21939011000001108	Co-amilofruse 5mg/40mg tablets (Waymade Healthcare Plc)
+380811000001106	Co-amilofruse 5mg/40mg tablets (Wockhardt UK Ltd)
+8426911000001109	Co-amilofruse 5mg/40mg/5ml oral solution
+8401411000001101	Co-amilofruse 5mg/40mg/5ml oral solution (Special Order)
+8427011000001108	Co-amilofruse 5mg/40mg/5ml oral suspension
+8402211000001107	Co-amilofruse 5mg/40mg/5ml oral suspension (Special Order)
+318127005	Co-flumactone 25mg/25mg tablets
+318128000	Co-flumactone 50mg/50mg tablets
+16593011000001108	Degarelix 120mg powder and solvent for solution for injection vials
+441966000	Degarelix 120mg powder for injection solution
+16593111000001109	Degarelix 80mg powder and solvent for solution for injection vials
+441473000	Degarelix 80mg powder for injection solution
+4540011000001102	Diumide-K Continus tablets (Teofarma)
+27992311000001106	Diuresal 500mg tablets (Ennogen Pharma Ltd)
+407015003	Eplerenone 100 mg oral tablet
+407011007	Eplerenone 25mg tablets
+27871911000001103	Eplerenone 25mg tablets (A A H Pharmaceuticals Ltd)
+34934811000001108	Eplerenone 25mg tablets (Accord Healthcare Ltd)
+29288711000001101	Eplerenone 25mg tablets (Actavis UK Ltd)
+27125211000001104	Eplerenone 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+29951511000001109	Eplerenone 25mg tablets (Aspire Pharma Ltd)
+35649111000001109	Eplerenone 25mg tablets (Consilient Health Ltd)
+30276911000001108	Eplerenone 25mg tablets (Creo Pharma Ltd)
+35651011000001107	Eplerenone 25mg tablets (Crescent Pharma Ltd)
+30053011000001107	Eplerenone 25mg tablets (DE Pharmaceuticals)
+36911511000001107	Eplerenone 25mg tablets (HBS Healthcare Ltd)
+32406011000001105	Eplerenone 25mg tablets (Kent Pharmaceuticals Ltd)
+37064011000001105	Eplerenone 25mg tablets (Mawdsley-Brooks & Company Ltd)
+33597311000001105	Eplerenone 25mg tablets (Mylan)
+29742211000001109	Eplerenone 25mg tablets (Pfizer Ltd)
+25559911000001104	Eplerenone 25mg tablets (Teva UK Ltd)
+36535611000001108	Eplerenone 25mg tablets (Tillomed Laboratories Ltd)
+36501611000001100	Eplerenone 25mg tablets (Xiromed)
+28883711000001104	Eplerenone 25mg tablets (Zentiva)
+407012000	Eplerenone 50mg tablets
+27872111000001106	Eplerenone 50mg tablets (A A H Pharmaceuticals Ltd)
+34935211000001108	Eplerenone 50mg tablets (Accord Healthcare Ltd)
+29289011000001108	Eplerenone 50mg tablets (Actavis UK Ltd)
+27125911000001108	Eplerenone 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+29951711000001104	Eplerenone 50mg tablets (Aspire Pharma Ltd)
+35649411000001104	Eplerenone 50mg tablets (Consilient Health Ltd)
+30277311000001105	Eplerenone 50mg tablets (Creo Pharma Ltd)
+35651211000001102	Eplerenone 50mg tablets (Crescent Pharma Ltd)
+30053211000001102	Eplerenone 50mg tablets (DE Pharmaceuticals)
+36911911000001100	Eplerenone 50mg tablets (HBS Healthcare Ltd)
+33596811000001103	Eplerenone 50mg tablets (Mylan)
+29742411000001108	Eplerenone 50mg tablets (Pfizer Ltd)
+25560211000001107	Eplerenone 50mg tablets (Teva UK Ltd)
+36535811000001107	Eplerenone 50mg tablets (Tillomed Laboratories Ltd)
+36501811000001101	Eplerenone 50mg tablets (Xiromed)
+28883911000001102	Eplerenone 50mg tablets (Zentiva)
+768223008	Eplerenone in oral dosage form
+10520411000001105	Fareston 60mg tablets (Dowelhurst Ltd)
+4124011000001100	Fareston 60mg tablets (Orion Pharma (UK) Ltd)
+16592311000001101	Firmagon 120mg powder and solvent for solution for injection vials (Ferring Pharmaceuticals Ltd)
+16592611000001106	Firmagon 80mg powder and solvent for solution for injection vials (Ferring Pharmaceuticals Ltd)
+36801911000001105	Firmagon 80mg powder and solvent for solution for injection vials (Originalis B.V.)
+714311000001107	Froop 40mg tablets (Ashbourne Pharmaceuticals Ltd)
+331311000001103	Froop Co 5mg/40mg tablets (Ashbourne Pharmaceuticals Ltd)
+818511000001106	Fru-Co 5mg/40mg tablets (Teva UK Ltd)
+5545811000001106	Frumil 40mg/5mg tablets (Dowelhurst Ltd)
+16182411000001100	Frumil 40mg/5mg tablets (Lexon (UK) Ltd)
+427411000001106	Frumil 40mg/5mg tablets (Sanofi)
+14244511000001107	Frumil 40mg/5mg tablets (Sigma Pharmaceuticals Plc)
+5372111000001107	Frumil 40mg/5mg tablets (Waymade Healthcare Plc)
+82611000001106	Frumil Forte 10mg/80mg tablets (Sanofi)
+550711000001106	Frumil LS 20mg/2.5mg tablets (Sanofi)
+10855211000001104	Frumil LS 20mg/2.5mg tablets (Waymade Healthcare Plc)
+765719003	Frusemide+potassium 20mg/10Mmol prolonged-release oral tablet
+765560007	Frusemide+potassium 40mg/8Mmol prolonged-release oral tablet
+25411000001108	Frusene 50mg/40mg tablets (Orion Pharma (UK) Ltd)
+99311000001108	Frusid 40mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+602811000001100	Frusol 20mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+494811000001105	Frusol 40mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+855611000001109	Frusol 50mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+766480004	Furosemide 10 mg/mL oral solution
+12034811000001105	Furosemide 100mg/5ml oral solution
+12007311000001103	Furosemide 100mg/5ml oral solution (Special Order)
+12034911000001100	Furosemide 100mg/5ml oral suspension
+12007011000001101	Furosemide 100mg/5ml oral suspension (Special Order)
+12035011000001100	Furosemide 10mg/5ml oral solution
+12007911000001102	Furosemide 10mg/5ml oral solution (Special Order)
+12035111000001104	Furosemide 10mg/5ml oral suspension
+12007611000001108	Furosemide 10mg/5ml oral suspension (Special Order)
+12035211000001105	Furosemide 12.5mg/5ml oral solution
+12008511000001108	Furosemide 12.5mg/5ml oral solution (Special Order)
+12035311000001102	Furosemide 12.5mg/5ml oral suspension
+12008211000001105	Furosemide 12.5mg/5ml oral suspension (Special Order)
+12035411000001109	Furosemide 120mg/5ml oral solution
+12009111000001106	Furosemide 120mg/5ml oral solution (Special Order)
+12035511000001108	Furosemide 120mg/5ml oral suspension
+12008811000001106	Furosemide 120mg/5ml oral suspension (Special Order)
+12035611000001107	Furosemide 15mg/5ml oral solution
+12009711000001107	Furosemide 15mg/5ml oral solution (Special Order)
+12035711000001103	Furosemide 15mg/5ml oral suspension
+12009411000001101	Furosemide 15mg/5ml oral suspension (Special Order)
+12035811000001106	Furosemide 1mg/5ml oral solution
+12010611000001106	Furosemide 1mg/5ml oral solution (Special Order)
+12035911000001101	Furosemide 1mg/5ml oral suspension
+12010011000001104	Furosemide 1mg/5ml oral suspension (Special Order)
+769767002	Furosemide 20 mg/2 mL solution for injection ampoule
+12036011000001109	Furosemide 200mg/5ml oral solution
+12011511000001100	Furosemide 200mg/5ml oral solution (Special Order)
+12036111000001105	Furosemide 200mg/5ml oral suspension
+12011011000001108	Furosemide 200mg/5ml oral suspension (Special Order)
+36061311000001109	Furosemide 20mg / Potassium chloride 750mg (potassium 10mmol) modified-release tablets
+317971007	Furosemide 20mg tablets
+202711000001106	Furosemide 20mg tablets (A A H Pharmaceuticals Ltd)
+631611000001100	Furosemide 20mg tablets (Actavis UK Ltd)
+121411000001102	Furosemide 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+9800811000001104	Furosemide 20mg tablets (Almus Pharmaceuticals Ltd)
+10428711000001107	Furosemide 20mg tablets (Arrow Generics Ltd)
+14789111000001100	Furosemide 20mg tablets (Boston Healthcare Ltd)
+16052611000001100	Furosemide 20mg tablets (Bristol Laboratories Ltd)
+28986611000001105	Furosemide 20mg tablets (Crescent Pharma Ltd)
+23909911000001105	Furosemide 20mg tablets (DE Pharmaceuticals)
+35994811000001108	Furosemide 20mg tablets (Ennogen Pharma Ltd)
+503711000001106	Furosemide 20mg tablets (Kent Pharmaceuticals Ltd)
+30133711000001103	Furosemide 20mg tablets (Mawdsley-Brooks & Company Ltd)
+229711000001109	Furosemide 20mg tablets (Mylan)
+17911411000001106	Furosemide 20mg tablets (Phoenix Healthcare Distribution Ltd)
+8751011000001109	Furosemide 20mg tablets (Ranbaxy (UK) Ltd)
+662811000001104	Furosemide 20mg tablets (Sandoz Ltd)
+15089311000001105	Furosemide 20mg tablets (Sigma Pharmaceuticals Plc)
+37058211000001104	Furosemide 20mg tablets (Sovereign Medical Ltd)
+17211000001105	Furosemide 20mg tablets (Teva UK Ltd)
+22018711000001104	Furosemide 20mg tablets (Waymade Healthcare Plc)
+539911000001101	Furosemide 20mg tablets (Wockhardt UK Ltd)
+36061411000001102	Furosemide 20mg/2ml solution for injection ampoules
+725611000001107	Furosemide 20mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+30786611000001101	Furosemide 20mg/2ml solution for injection ampoules (Accord Healthcare Ltd)
+10684211000001100	Furosemide 20mg/2ml solution for injection ampoules (Advanz Pharma)
+120011000001102	Furosemide 20mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+5088111000001102	Furosemide 20mg/2ml solution for injection ampoules (Hameln Pharmaceuticals Ltd)
+633511000001100	Furosemide 20mg/2ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+34536911000001101	Furosemide 20mg/2ml solution for injection ampoules (Peckforton Pharmaceuticals Ltd)
+20162111000001103	Furosemide 20mg/2ml solution for injection ampoules (Wockhardt UK Ltd)
+13938811000001104	Furosemide 20mg/2ml solution for injection vials
+13938611000001103	Furosemide 20mg/2ml solution for injection vials (Wockhardt UK Ltd)
+12036211000001104	Furosemide 20mg/5ml oral solution
+12015811000001104	Furosemide 20mg/5ml oral solution (Special Order)
+13138501000001102	Furosemide 20mg/5ml oral solution sugar free
+10213511000001100	Furosemide 20mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+10305611000001106	Furosemide 20mg/5ml oral solution sugar free (Advanz Pharma)
+10272011000001107	Furosemide 20mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+23981811000001100	Furosemide 20mg/5ml oral solution sugar free (DE Pharmaceuticals)
+13621711000001103	Furosemide 20mg/5ml oral solution sugar free (Pinewood Healthcare)
+18706311000001105	Furosemide 20mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+10828311000001102	Furosemide 20mg/5ml oral solution sugar free (Teva UK Ltd)
+30802911000001109	Furosemide 20mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+22018311000001103	Furosemide 20mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+12036311000001107	Furosemide 20mg/5ml oral suspension
+12013411000001100	Furosemide 20mg/5ml oral suspension (Special Order)
+34193711000001108	Furosemide 250mg/25ml solution for injection ampoules
+606211000001100	Furosemide 250mg/25ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+10684511000001102	Furosemide 250mg/25ml solution for injection ampoules (Advanz Pharma)
+504311000001109	Furosemide 250mg/25ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+5089011000001108	Furosemide 250mg/25ml solution for injection ampoules (Hameln Pharmaceuticals Ltd)
+11026211000001100	Furosemide 250mg/25ml solution for injection ampoules (Wockhardt UK Ltd)
+20419111000001107	Furosemide 250mg/25ml solution for injection vials
+20394211000001109	Furosemide 250mg/25ml solution for injection vials (Wockhardt UK Ltd)
+12036411000001100	Furosemide 250mg/5ml oral solution
+12018611000001109	Furosemide 250mg/5ml oral solution (Special Order)
+12036511000001101	Furosemide 250mg/5ml oral suspension
+12017811000001109	Furosemide 250mg/5ml oral suspension (Special Order)
+12036611000001102	Furosemide 25mg/5ml oral solution
+12025211000001107	Furosemide 25mg/5ml oral solution (Special Order)
+12036711000001106	Furosemide 25mg/5ml oral suspension
+12023411000001107	Furosemide 25mg/5ml oral suspension (Special Order)
+12036811000001103	Furosemide 2mg/5ml oral solution
+12029111000001104	Furosemide 2mg/5ml oral solution (Special Order)
+12036911000001108	Furosemide 2mg/5ml oral suspension
+12026911000001105	Furosemide 2mg/5ml oral suspension (Special Order)
+12037011000001107	Furosemide 3.4mg/5ml oral solution
+12032511000001102	Furosemide 3.4mg/5ml oral solution (Special Order)
+12037211000001102	Furosemide 3.4mg/5ml oral suspension
+12031211000001107	Furosemide 3.4mg/5ml oral suspension (Special Order)
+12086511000001106	Furosemide 30mg/5ml oral solution
+12039411000001107	Furosemide 30mg/5ml oral solution (Special Order)
+12086611000001105	Furosemide 30mg/5ml oral suspension
+12038711000001105	Furosemide 30mg/5ml oral suspension (Special Order)
+12086711000001101	Furosemide 330mg/5ml oral solution
+12041011000001101	Furosemide 330mg/5ml oral solution (Special Order)
+12086811000001109	Furosemide 330mg/5ml oral suspension
+12040211000001100	Furosemide 330mg/5ml oral suspension (Special Order)
+12086911000001104	Furosemide 35mg/5ml oral solution
+12042511000001101	Furosemide 35mg/5ml oral solution (Special Order)
+12087011000001100	Furosemide 35mg/5ml oral suspension
+12041911000001102	Furosemide 35mg/5ml oral suspension (Special Order)
+12087111000001104	Furosemide 37.5mg/5ml oral solution
+12044311000001100	Furosemide 37.5mg/5ml oral solution (Special Order)
+12087211000001105	Furosemide 37.5mg/5ml oral suspension
+12043111000001104	Furosemide 37.5mg/5ml oral suspension (Special Order)
+12087311000001102	Furosemide 3mg/5ml oral solution
+12045511000001107	Furosemide 3mg/5ml oral solution (Special Order)
+12087411000001109	Furosemide 3mg/5ml oral suspension
+12044911000001104	Furosemide 3mg/5ml oral suspension (Special Order)
+766478005	Furosemide 4 mg/mL oral solution
+12087511000001108	Furosemide 4.5mg/5ml oral solution
+12047111000001107	Furosemide 4.5mg/5ml oral solution (Special Order)
+12087611000001107	Furosemide 4.5mg/5ml oral suspension
+12046511000001100	Furosemide 4.5mg/5ml oral suspension (Special Order)
+4557711000001102	Furosemide 40mg / Potassium chloride 600mg (potassium 8mmol) modified-release tablets
+317972000	Furosemide 40mg tablets
+100611000001101	Furosemide 40mg tablets (A A H Pharmaceuticals Ltd)
+18461911000001109	Furosemide 40mg tablets (Accord Healthcare Ltd)
+351511000001105	Furosemide 40mg tablets (Actavis UK Ltd)
+19309711000001101	Furosemide 40mg tablets (Advanz Pharma)
+139011000001107	Furosemide 40mg tablets (Alliance Healthcare (Distribution) Ltd)
+9801311000001103	Furosemide 40mg tablets (Almus Pharmaceuticals Ltd)
+10429011000001100	Furosemide 40mg tablets (Arrow Generics Ltd)
+14788811000001100	Furosemide 40mg tablets (Boston Healthcare Ltd)
+16052911000001106	Furosemide 40mg tablets (Bristol Laboratories Ltd)
+28986811000001109	Furosemide 40mg tablets (Crescent Pharma Ltd)
+23910211000001105	Furosemide 40mg tablets (DE Pharmaceuticals)
+36105711000001104	Furosemide 40mg tablets (Ennogen Pharma Ltd)
+856211000001101	Furosemide 40mg tablets (IVAX Pharmaceuticals UK Ltd)
+765411000001103	Furosemide 40mg tablets (Kent Pharmaceuticals Ltd)
+30133911000001101	Furosemide 40mg tablets (Mawdsley-Brooks & Company Ltd)
+147711000001102	Furosemide 40mg tablets (Mylan)
+17911611000001109	Furosemide 40mg tablets (Phoenix Healthcare Distribution Ltd)
+8751711000001106	Furosemide 40mg tablets (Ranbaxy (UK) Ltd)
+864611000001104	Furosemide 40mg tablets (Sandoz Ltd)
+29867711000001105	Furosemide 40mg tablets (Sigma Pharmaceuticals Plc)
+37058411000001100	Furosemide 40mg tablets (Sovereign Medical Ltd)
+472211000001108	Furosemide 40mg tablets (Teva UK Ltd)
+22018911000001102	Furosemide 40mg tablets (Waymade Healthcare Plc)
+445111000001108	Furosemide 40mg tablets (Wockhardt UK Ltd)
+12087711000001103	Furosemide 40mg/5ml oral solution
+12047911000001105	Furosemide 40mg/5ml oral solution (Special Order)
+13138601000001103	Furosemide 40mg/5ml oral solution sugar free
+10214011000001105	Furosemide 40mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+10305811000001105	Furosemide 40mg/5ml oral solution sugar free (Advanz Pharma)
+10272211000001102	Furosemide 40mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+23982011000001103	Furosemide 40mg/5ml oral solution sugar free (DE Pharmaceuticals)
+539111000001104	Furosemide 40mg/5ml oral solution sugar free (Kent Pharmaceuticals Ltd)
+13621911000001101	Furosemide 40mg/5ml oral solution sugar free (Pinewood Healthcare)
+18706911000001106	Furosemide 40mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+10736611000001106	Furosemide 40mg/5ml oral solution sugar free (Teva UK Ltd)
+30803411000001105	Furosemide 40mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+22018511000001109	Furosemide 40mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+12087811000001106	Furosemide 40mg/5ml oral suspension
+12047611000001104	Furosemide 40mg/5ml oral suspension (Special Order)
+8519911000001102	Furosemide 4mg/5ml oral solution
+8491711000001105	Furosemide 4mg/5ml oral solution (Special Order)
+8520011000001100	Furosemide 4mg/5ml oral suspension
+8492711000001103	Furosemide 4mg/5ml oral suspension (Special Order)
+769768007	Furosemide 50 mg/5 mL solution for injection ampoule
+317973005	Furosemide 500mg tablets
+119611000001105	Furosemide 500mg tablets (A A H Pharmaceuticals Ltd)
+822211000001103	Furosemide 500mg tablets (Actavis UK Ltd)
+19309911000001104	Furosemide 500mg tablets (Advanz Pharma)
+305311000001105	Furosemide 500mg tablets (Alliance Healthcare (Distribution) Ltd)
+23910911000001101	Furosemide 500mg tablets (DE Pharmaceuticals)
+22780211000001108	Furosemide 500mg tablets (Ennogen Healthcare Ltd)
+356211000001104	Furosemide 500mg tablets (Kent Pharmaceuticals Ltd)
+24658711000001109	Furosemide 500mg tablets (Mawdsley-Brooks & Company Ltd)
+28126611000001102	Furosemide 500mg tablets (Pharma-z Ltd)
+17911811000001108	Furosemide 500mg tablets (Phoenix Healthcare Distribution Ltd)
+24654511000001106	Furosemide 500mg tablets (Sigma Pharmaceuticals Plc)
+752711000001106	Furosemide 500mg tablets (Teva UK Ltd)
+12087911000001101	Furosemide 500mg/5ml oral solution
+12049511000001105	Furosemide 500mg/5ml oral solution (Special Order)
+12088011000001104	Furosemide 500mg/5ml oral suspension
+12049111000001101	Furosemide 500mg/5ml oral suspension (Special Order)
+12088111000001103	Furosemide 50mg/5ml oral solution
+12050911000001106	Furosemide 50mg/5ml oral solution (Special Order)
+36564411000001102	Furosemide 50mg/5ml oral solution sugar free
+10214511000001102	Furosemide 50mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+10309111000001101	Furosemide 50mg/5ml oral solution sugar free (Advanz Pharma)
+10272411000001103	Furosemide 50mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+23982211000001108	Furosemide 50mg/5ml oral solution sugar free (DE Pharmaceuticals)
+13622111000001109	Furosemide 50mg/5ml oral solution sugar free (Pinewood Healthcare)
+18716211000001100	Furosemide 50mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+10736811000001105	Furosemide 50mg/5ml oral solution sugar free (Teva UK Ltd)
+30803911000001102	Furosemide 50mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+12088211000001109	Furosemide 50mg/5ml oral suspension
+12050311000001105	Furosemide 50mg/5ml oral suspension (Special Order)
+36061511000001103	Furosemide 50mg/5ml solution for injection ampoules
+38311000001108	Furosemide 50mg/5ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+34943511000001106	Furosemide 50mg/5ml solution for injection ampoules (Accord Healthcare Ltd)
+10684811000001104	Furosemide 50mg/5ml solution for injection ampoules (Advanz Pharma)
+261011000001100	Furosemide 50mg/5ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+5088711000001101	Furosemide 50mg/5ml solution for injection ampoules (Hameln Pharmaceuticals Ltd)
+140111000001104	Furosemide 50mg/5ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+34537111000001101	Furosemide 50mg/5ml solution for injection ampoules (Peckforton Pharmaceuticals Ltd)
+24424711000001100	Furosemide 50micrograms/dose nasal spray
+24425211000001108	Furosemide 50micrograms/dose nasal spray (Special Order)
+13893411000001108	Furosemide 5mg/5ml oral solution
+13880711000001105	Furosemide 5mg/5ml oral solution (Special Order)
+318010000	Furosemide 5mg/5ml oral solution sugar free
+29744111000001106	Furosemide 5mg/5ml oral solution sugar free (Special Order)
+13893511000001107	Furosemide 5mg/5ml oral suspension
+13881511000001107	Furosemide 5mg/5ml oral suspension (Special Order)
+12088311000001101	Furosemide 6.5mg/5ml oral solution
+12052311000001109	Furosemide 6.5mg/5ml oral solution (Special Order)
+12088411000001108	Furosemide 6.5mg/5ml oral suspension
+12051711000001101	Furosemide 6.5mg/5ml oral suspension (Special Order)
+12088511000001107	Furosemide 60mg/5ml oral solution
+12053911000001103	Furosemide 60mg/5ml oral solution (Special Order)
+12088611000001106	Furosemide 60mg/5ml oral suspension
+12053611000001109	Furosemide 60mg/5ml oral suspension (Special Order)
+766479002	Furosemide 8 mg/mL oral solution
+395510001	Furosemide 80 mg oral tablet
+769769004	Furosemide 80 mg/8 mL solution for injection syringe
+12088711000001102	Furosemide 80mg/5ml oral solution
+12062811000001105	Furosemide 80mg/5ml oral solution (Special Order)
+12088811000001105	Furosemide 80mg/5ml oral suspension
+12062511000001107	Furosemide 80mg/5ml oral suspension (Special Order)
+2898811000001106	Furosemide 80mg/8ml solution for injection Minijet pre-filled syringes (UCB Pharma Ltd)
+36061611000001104	Furosemide 80mg/8ml solution for injection pre-filled syringes
+7383311000001106	Furosemide 80mg/8ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd)
+12088911000001100	Furosemide 8mg/5ml oral solution
+12063111000001109	Furosemide 8mg/5ml oral solution (Special Order)
+12089011000001109	Furosemide 8mg/5ml oral suspension
+12063411000001104	Furosemide 8mg/5ml oral suspension (Special Order)
+398668007	Furosemide and potassium
+768416005	Furosemide and triamterene in oral dosage form
+350612007	Furosemide in oral dosage form
+350613002	Furosemide in parenteral dosage form
+398688006	Hydrochlorothiazide + spironolactone
+377483004	Hydrochlorothiazide 25 mg and spironolactone 25 mg oral tablet
+395514005	Hydrochlorothiazide 50 mg and spironolactone 50 mg oral tablet
+768704000	Hydroflumethiazide and spironolactone in oral dosage form
+18585811000001106	Inspra 25mg tablets (DE Pharmaceuticals)
+16524311000001101	Inspra 25mg tablets (Mawdsley-Brooks & Company Ltd)
+8477211000001104	Inspra 25mg tablets (Pfizer Ltd)
+17566811000001105	Inspra 25mg tablets (Sigma Pharmaceuticals Plc)
+17193111000001101	Inspra 25mg tablets (Waymade Healthcare Plc)
+18586011000001109	Inspra 50mg tablets (DE Pharmaceuticals)
+16524711000001102	Inspra 50mg tablets (Mawdsley-Brooks & Company Ltd)
+8479811000001106	Inspra 50mg tablets (Pfizer Ltd)
+17567011000001101	Inspra 50mg tablets (Sigma Pharmaceuticals Plc)
+17193311000001104	Inspra 50mg tablets (Waymade Healthcare Plc)
+304011000001108	Komil 5mg/40mg tablets (Mercury Pharma Group Ltd)
+3704811000001105	Lasikal modified-release tablets (Borg Medicare)
+13169911000001105	Lasilactone 20mg/50mg capsules (Dowelhurst Ltd)
+16196811000001103	Lasilactone 20mg/50mg capsules (Lexon (UK) Ltd)
+16538311000001109	Lasilactone 20mg/50mg capsules (Mawdsley-Brooks & Company Ltd)
+3645811000001107	Lasilactone 20mg/50mg capsules (Sanofi)
+14764311000001102	Lasilactone 20mg/50mg capsules (Sigma Pharmaceuticals Plc)
+11030911000001109	Lasilactone 20mg/50mg capsules (Waymade Healthcare Plc)
+701611000001102	Lasix 20mg tablets (Borg Medicare)
+9611000001104	Lasix 20mg/2ml solution for injection ampoules (Sanofi)
+79411000001107	Lasix 40mg tablets (Sanofi)
+829911000001102	Lasix 500mg tablets (Sanofi)
+701111000001105	Lasix 5mg/5ml oral solution (Borg Medicare)
+678511000001106	Lasoride 5mg/40mg tablets (Sanofi)
+375611000001109	Metenix 5mg tablets (Sanofi)
+375745003	Metolazone 0.5 mg oral tablet
+13005511000001105	Metolazone 1.25mg/5ml oral solution
+12950711000001104	Metolazone 1.25mg/5ml oral solution (Special Order)
+13005611000001109	Metolazone 1.25mg/5ml oral suspension
+12950411000001105	Metolazone 1.25mg/5ml oral suspension (Special Order)
+375111002	Metolazone 10 mg oral tablet
+13005711000001100	Metolazone 1mg/5ml oral solution
+12951311000001108	Metolazone 1mg/5ml oral solution (Special Order)
+13005811000001108	Metolazone 1mg/5ml oral suspension
+12951011000001105	Metolazone 1mg/5ml oral suspension (Special Order)
+374173002	Metolazone 2.5mg tablets
+24502011000001107	Metolazone 2.5mg tablets (Special Order)
+13005911000001103	Metolazone 2.5mg/5ml oral solution
+12952111000001101	Metolazone 2.5mg/5ml oral solution (Special Order)
+13006011000001106	Metolazone 2.5mg/5ml oral suspension
+12951611000001103	Metolazone 2.5mg/5ml oral suspension (Special Order)
+13006111000001107	Metolazone 500micrograms/5ml oral solution
+12952711000001100	Metolazone 500micrograms/5ml oral solution (Special Order)
+13006211000001101	Metolazone 500micrograms/5ml oral suspension
+12952411000001106	Metolazone 500micrograms/5ml oral suspension (Special Order)
+317965001	Metolazone 5mg tablets
+24502311000001105	Metolazone 5mg tablets (Special Order)
+13006311000001109	Metolazone 5mg/5ml oral solution
+12953511000001103	Metolazone 5mg/5ml oral solution (Special Order)
+13006411000001102	Metolazone 5mg/5ml oral suspension
+12953211000001101	Metolazone 5mg/5ml oral suspension (Special Order)
+768359004	Metolazone in oral dosage form
+766573003	Spironolactone 1 mg/mL oral suspension
+13325011000001109	Spironolactone 1.25mg/5ml oral solution
+13317111000001109	Spironolactone 1.25mg/5ml oral solution (Special Order)
+13325111000001105	Spironolactone 1.25mg/5ml oral suspension
+13316811000001104	Spironolactone 1.25mg/5ml oral suspension (Special Order)
+766572008	Spironolactone 10 mg/mL oral suspension
+318058009	Spironolactone 100mg tablets
+670811000001106	Spironolactone 100mg tablets (A A H Pharmaceuticals Ltd)
+34941711000001102	Spironolactone 100mg tablets (Accord Healthcare Ltd)
+38611000001103	Spironolactone 100mg tablets (Actavis UK Ltd)
+333811000001106	Spironolactone 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+9802811000001103	Spironolactone 100mg tablets (Almus Pharmaceuticals Ltd)
+24390711000001105	Spironolactone 100mg tablets (Bristol Laboratories Ltd)
+30117411000001106	Spironolactone 100mg tablets (DE Pharmaceuticals)
+11010711000001101	Spironolactone 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+20327011000001102	Spironolactone 100mg tablets (Genesis Pharmaceuticals Ltd)
+874911000001104	Spironolactone 100mg tablets (IVAX Pharmaceuticals UK Ltd)
+840311000001109	Spironolactone 100mg tablets (Kent Pharmaceuticals Ltd)
+35597011000001102	Spironolactone 100mg tablets (NorthStar Healthcare Unlimited Company)
+610611000001103	Spironolactone 100mg tablets (Teva UK Ltd)
+21902011000001108	Spironolactone 100mg tablets (Waymade Healthcare Plc)
+13894611000001109	Spironolactone 100mg/5ml oral solution
+13889311000001102	Spironolactone 100mg/5ml oral solution (Special Order)
+8727611000001105	Spironolactone 100mg/5ml oral suspension
+8706411000001104	Spironolactone 100mg/5ml oral suspension (Drug Tariff Special Order)
+16129611000001104	Spironolactone 10mg / Chlorothiazide 100mg capsules
+16127911000001103	Spironolactone 10mg / Chlorothiazide 100mg capsules (Special Order)
+12423911000001107	Spironolactone 10mg/5ml / Chlorothiazide 100mg/5ml oral solution
+12414811000001106	Spironolactone 10mg/5ml / Chlorothiazide 100mg/5ml oral solution (Special Order)
+12424011000001105	Spironolactone 10mg/5ml / Chlorothiazide 100mg/5ml oral suspension
+12408511000001103	Spironolactone 10mg/5ml / Chlorothiazide 100mg/5ml oral suspension (Special Order)
+12424511000001102	Spironolactone 10mg/5ml / Chlorothiazide 250mg/5ml oral solution
+12420211000001108	Spironolactone 10mg/5ml / Chlorothiazide 250mg/5ml oral solution (Special Order)
+12424611000001103	Spironolactone 10mg/5ml / Chlorothiazide 250mg/5ml oral suspension
+12419911000001100	Spironolactone 10mg/5ml / Chlorothiazide 250mg/5ml oral suspension (Special Order)
+13894711000001100	Spironolactone 10mg/5ml oral solution
+13888011000001105	Spironolactone 10mg/5ml oral solution (Special Order)
+8727311000001100	Spironolactone 10mg/5ml oral suspension
+8706711000001105	Spironolactone 10mg/5ml oral suspension (Drug Tariff Special Order)
+13325211000001104	Spironolactone 12.5mg/5ml oral solution
+13318411000001100	Spironolactone 12.5mg/5ml oral solution (Special Order)
+13325311000001107	Spironolactone 12.5mg/5ml oral suspension
+13317711000001105	Spironolactone 12.5mg/5ml oral suspension (Special Order)
+13325411000001100	Spironolactone 125mg/5ml oral solution
+13320111000001102	Spironolactone 125mg/5ml oral solution (Special Order)
+13325511000001101	Spironolactone 125mg/5ml oral suspension
+13319511000001107	Spironolactone 125mg/5ml oral suspension (Special Order)
+13325611000001102	Spironolactone 12mg/5ml oral solution
+13320711000001101	Spironolactone 12mg/5ml oral solution (Special Order)
+13325711000001106	Spironolactone 12mg/5ml oral suspension
+13320411000001107	Spironolactone 12mg/5ml oral suspension (Special Order)
+13325811000001103	Spironolactone 13.5mg/5ml oral solution
+13321411000001103	Spironolactone 13.5mg/5ml oral solution (Special Order)
+13325911000001108	Spironolactone 13.5mg/5ml oral suspension
+13321111000001108	Spironolactone 13.5mg/5ml oral suspension (Special Order)
+8727011000001103	Spironolactone 15mg/5ml oral suspension
+8706111000001109	Spironolactone 15mg/5ml oral suspension (Special Order)
+28882011000001105	Spironolactone 16mg / Chlorothiazide 160mg capsules
+28875111000001105	Spironolactone 16mg / Chlorothiazide 160mg capsules (Special Order)
+8792111000001107	Spironolactone 1mg / Chlorothiazide 10mg capsules
+8746211000001109	Spironolactone 1mg / Chlorothiazide 10mg capsules (Special Order)
+8816211000001103	Spironolactone 1mg / Chlorothiazide 10mg oral powder sachets
+8808011000001109	Spironolactone 1mg / Chlorothiazide 10mg oral powder sachets (Special Order)
+766570000	Spironolactone 2 mg/mL oral suspension
+13326011000001100	Spironolactone 2.5mg/5ml oral solution
+13322011000001104	Spironolactone 2.5mg/5ml oral solution (Special Order)
+13326111000001104	Spironolactone 2.5mg/5ml oral suspension
+13321711000001109	Spironolactone 2.5mg/5ml oral suspension (Special Order)
+13326211000001105	Spironolactone 200mg/5ml oral solution
+13322911000001100	Spironolactone 200mg/5ml oral solution (Special Order)
+13326311000001102	Spironolactone 200mg/5ml oral suspension
+13322411000001108	Spironolactone 200mg/5ml oral suspension (Special Order)
+12424211000001100	Spironolactone 20mg/5ml / Chlorothiazide 200mg/5ml oral solution
+12419011000001104	Spironolactone 20mg/5ml / Chlorothiazide 200mg/5ml oral solution (Special Order)
+12424311000001108	Spironolactone 20mg/5ml / Chlorothiazide 200mg/5ml oral suspension
+12417511000001100	Spironolactone 20mg/5ml / Chlorothiazide 200mg/5ml oral suspension (Special Order)
+13326411000001109	Spironolactone 20mg/5ml oral solution
+13323511000001100	Spironolactone 20mg/5ml oral solution (Special Order)
+13326511000001108	Spironolactone 20mg/5ml oral suspension
+13323211000001103	Spironolactone 20mg/5ml oral suspension (Special Order)
+13353511000001101	Spironolactone 250mg/5ml oral solution
+13336611000001109	Spironolactone 250mg/5ml oral solution (Special Order)
+13353611000001102	Spironolactone 250mg/5ml oral suspension
+13336011000001102	Spironolactone 250mg/5ml oral suspension (Special Order)
+318056008	Spironolactone 25mg tablets
+63111000001106	Spironolactone 25mg tablets (A A H Pharmaceuticals Ltd)
+34937811000001104	Spironolactone 25mg tablets (Accord Healthcare Ltd)
+672411000001105	Spironolactone 25mg tablets (Actavis UK Ltd)
+508011000001102	Spironolactone 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+9803611000001107	Spironolactone 25mg tablets (Almus Pharmaceuticals Ltd)
+24390911000001107	Spironolactone 25mg tablets (Bristol Laboratories Ltd)
+13583411000001106	Spironolactone 25mg tablets (DE Pharmaceuticals)
+11010911000001104	Spironolactone 25mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+20326811000001106	Spironolactone 25mg tablets (Genesis Pharmaceuticals Ltd)
+474611000001102	Spironolactone 25mg tablets (IVAX Pharmaceuticals UK Ltd)
+235211000001102	Spironolactone 25mg tablets (Kent Pharmaceuticals Ltd)
+35598911000001102	Spironolactone 25mg tablets (NorthStar Healthcare Unlimited Company)
+17801111000001105	Spironolactone 25mg tablets (Phoenix Healthcare Distribution Ltd)
+82311000001101	Spironolactone 25mg tablets (Teva UK Ltd)
+21901811000001106	Spironolactone 25mg tablets (Waymade Healthcare Plc)
+13894811000001108	Spironolactone 25mg/5ml oral solution
+13888711000001107	Spironolactone 25mg/5ml oral solution (Special Order)
+8726511000001109	Spironolactone 25mg/5ml oral suspension
+8707011000001106	Spironolactone 25mg/5ml oral suspension (Drug Tariff Special Order)
+13353711000001106	Spironolactone 2mg/5ml oral solution
+13340511000001109	Spironolactone 2mg/5ml oral solution (Special Order)
+13353811000001103	Spironolactone 2mg/5ml oral suspension
+13339211000001103	Spironolactone 2mg/5ml oral suspension (Special Order)
+13353911000001108	Spironolactone 3.3mg/5ml oral solution
+13348011000001104	Spironolactone 3.3mg/5ml oral solution (Special Order)
+13354011000001106	Spironolactone 3.3mg/5ml oral suspension
+13347411000001109	Spironolactone 3.3mg/5ml oral suspension (Special Order)
+13354111000001107	Spironolactone 3.5mg/5ml oral solution
+13349211000001104	Spironolactone 3.5mg/5ml oral solution (Special Order)
+13354211000001101	Spironolactone 3.5mg/5ml oral suspension
+13348711000001102	Spironolactone 3.5mg/5ml oral suspension (Special Order)
+13354311000001109	Spironolactone 30mg/5ml oral solution
+13350411000001108	Spironolactone 30mg/5ml oral solution (Special Order)
+13354411000001102	Spironolactone 30mg/5ml oral suspension
+13349911000001108	Spironolactone 30mg/5ml oral suspension (Special Order)
+13354511000001103	Spironolactone 35mg/5ml oral solution
+13351011000001108	Spironolactone 35mg/5ml oral solution (Special Order)
+13354611000001104	Spironolactone 35mg/5ml oral suspension
+13350711000001102	Spironolactone 35mg/5ml oral suspension (Special Order)
+16072811000001103	Spironolactone 3mg / Chlorothiazide 30mg capsules
+16071911000001102	Spironolactone 3mg / Chlorothiazide 30mg capsules (Special Order)
+13354711000001108	Spironolactone 3mg/5ml oral solution
+13351611000001101	Spironolactone 3mg/5ml oral solution (Special Order)
+13354811000001100	Spironolactone 3mg/5ml oral suspension
+13351311000001106	Spironolactone 3mg/5ml oral suspension (Special Order)
+13354911000001105	Spironolactone 4.5mg/5ml oral solution
+13355311000001108	Spironolactone 4.5mg/5ml oral solution (Special Order)
+13355011000001105	Spironolactone 4.5mg/5ml oral suspension
+13352611000001107	Spironolactone 4.5mg/5ml oral suspension (Special Order)
+13373911000001106	Spironolactone 40mg/5ml oral solution
+13358411000001106	Spironolactone 40mg/5ml oral solution (Special Order)
+13374011000001109	Spironolactone 40mg/5ml oral suspension
+13356311000001103	Spironolactone 40mg/5ml oral suspension (Special Order)
+18520511000001107	Spironolactone 4mg / Chlorothiazide 40mg capsules
+18515111000001101	Spironolactone 4mg / Chlorothiazide 40mg capsules (Special Order)
+13374111000001105	Spironolactone 4mg/5ml oral solution
+13361211000001109	Spironolactone 4mg/5ml oral solution (Special Order)
+13374211000001104	Spironolactone 4mg/5ml oral suspension
+13360811000001102	Spironolactone 4mg/5ml oral suspension (Special Order)
+766571001	Spironolactone 5 mg/mL oral suspension
+318102003	Spironolactone 50mg / Furosemide 20mg capsules
+318057004	Spironolactone 50mg tablets
+481811000001107	Spironolactone 50mg tablets (A A H Pharmaceuticals Ltd)
+34937611000001103	Spironolactone 50mg tablets (Accord Healthcare Ltd)
+46011000001105	Spironolactone 50mg tablets (Actavis UK Ltd)
+481711000001104	Spironolactone 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+9803311000001102	Spironolactone 50mg tablets (Almus Pharmaceuticals Ltd)
+30117211000001107	Spironolactone 50mg tablets (DE Pharmaceuticals)
+121211000001101	Spironolactone 50mg tablets (IVAX Pharmaceuticals UK Ltd)
+606411000001101	Spironolactone 50mg tablets (Kent Pharmaceuticals Ltd)
+30917011000001104	Spironolactone 50mg tablets (Mawdsley-Brooks & Company Ltd)
+35597311000001104	Spironolactone 50mg tablets (NorthStar Healthcare Unlimited Company)
+330511000001102	Spironolactone 50mg tablets (Teva UK Ltd)
+22453211000001103	Spironolactone 50mg tablets (Waymade Healthcare Plc)
+13894911000001103	Spironolactone 50mg/5ml oral solution
+13889011000001100	Spironolactone 50mg/5ml oral solution (Special Order)
+8726411000001105	Spironolactone 50mg/5ml oral suspension
+8705811000001105	Spironolactone 50mg/5ml oral suspension (Drug Tariff Special Order)
+27810911000001102	Spironolactone 5mg / Chlorothiazide 50mg capsules
+27749111000001100	Spironolactone 5mg / Chlorothiazide 50mg capsules (Special Order)
+12424711000001107	Spironolactone 5mg/5ml / Chlorothiazide 50mg/5ml oral solution
+12421611000001100	Spironolactone 5mg/5ml / Chlorothiazide 50mg/5ml oral solution (Special Order)
+12424811000001104	Spironolactone 5mg/5ml / Chlorothiazide 50mg/5ml oral suspension
+12420511000001106	Spironolactone 5mg/5ml / Chlorothiazide 50mg/5ml oral suspension (Special Order)
+13895011000001103	Spironolactone 5mg/5ml oral solution
+13887511000001101	Spironolactone 5mg/5ml oral solution (Special Order)
+8726311000001103	Spironolactone 5mg/5ml oral suspension
+8707311000001109	Spironolactone 5mg/5ml oral suspension (Drug Tariff Special Order)
+13374311000001107	Spironolactone 6.25mg/5ml oral solution
+13362811000001101	Spironolactone 6.25mg/5ml oral solution (Special Order)
+13374411000001100	Spironolactone 6.25mg/5ml oral suspension
+13362011000001107	Spironolactone 6.25mg/5ml oral suspension (Special Order)
+32880211000001105	Spironolactone 6mg / Chlorothiazide 60mg capsules
+32872611000001100	Spironolactone 6mg / Chlorothiazide 60mg capsules (Special Order)
+13384711000001101	Spironolactone 6mg/5ml oral solution
+13380111000001106	Spironolactone 6mg/5ml oral solution (Special Order)
+13384811000001109	Spironolactone 6mg/5ml oral suspension
+13379811000001104	Spironolactone 6mg/5ml oral suspension (Special Order)
+13384911000001104	Spironolactone 7.5mg/5ml oral solution
+13380711000001107	Spironolactone 7.5mg/5ml oral solution (Special Order)
+13385011000001104	Spironolactone 7.5mg/5ml oral suspension
+13380411000001101	Spironolactone 7.5mg/5ml oral suspension (Special Order)
+13385111000001103	Spironolactone 75mg/5ml oral solution
+13381711000001104	Spironolactone 75mg/5ml oral solution (Special Order)
+13385211000001109	Spironolactone 75mg/5ml oral suspension
+13381211000001106	Spironolactone 75mg/5ml oral suspension (Special Order)
+13385311000001101	Spironolactone 7mg/5ml oral solution
+13382411000001100	Spironolactone 7mg/5ml oral solution (Special Order)
+13385411000001108	Spironolactone 7mg/5ml oral suspension
+13382011000001109	Spironolactone 7mg/5ml oral suspension (Special Order)
+13385511000001107	Spironolactone 8.3mg/5ml oral solution
+13383011000001100	Spironolactone 8.3mg/5ml oral solution (Special Order)
+13385611000001106	Spironolactone 8.3mg/5ml oral suspension
+13382711000001106	Spironolactone 8.3mg/5ml oral suspension (Special Order)
+13385711000001102	Spironolactone 8mg/5ml oral solution
+13383611000001107	Spironolactone 8mg/5ml oral solution (Special Order)
+13385811000001105	Spironolactone 8mg/5ml oral suspension
+13383311000001102	Spironolactone 8mg/5ml oral suspension (Special Order)
+714448001	Spironolactone in oral dosage form
+3411000001104	Spirospare 100 tablets (Ashbourne Pharmaceuticals Ltd)
+318042006	Torasemide 10mg tablets
+5895511000001103	Torasemide 10mg tablets (A A H Pharmaceuticals Ltd)
+5634511000001101	Torasemide 10mg tablets (Kent Pharmaceuticals Ltd)
+11415011000001100	Torasemide 10mg tablets (PLIVA Pharma Ltd)
+15231311000001106	Torasemide 10mg tablets (Sigma Pharmaceuticals Plc)
+5592411000001106	Torasemide 10mg tablets (Teva UK Ltd)
+318040003	Torasemide 2.5mg tablets
+318041004	Torasemide 5mg tablets
+5889911000001108	Torasemide 5mg tablets (A A H Pharmaceuticals Ltd)
+30102211000001107	Torasemide 5mg tablets (DE Pharmaceuticals)
+5634311000001107	Torasemide 5mg tablets (Kent Pharmaceuticals Ltd)
+11415211000001105	Torasemide 5mg tablets (PLIVA Pharma Ltd)
+15231511000001100	Torasemide 5mg tablets (Sigma Pharmaceuticals Plc)
+5592211000001107	Torasemide 5mg tablets (Teva UK Ltd)
+19620911000001105	Torem 10mg tablets (DE Pharmaceuticals)
+16278411000001106	Torem 10mg tablets (Lexon (UK) Ltd)
+3700811000001100	Torem 10mg tablets (Mylan)
+28925411000001106	Torem 10mg tablets (Waymade Healthcare Plc)
+3699711000001107	Torem 2.5mg tablets (Mylan)
+3700311000001109	Torem 5mg tablets (Mylan)
+327375009	Toremifene 60mg tablets
+768482003	Toremifene in oral dosage form
+375714002	Torsemide 100 mg oral tablet
+375866003	Torsemide 10mg/mL injection solution ampoule
+375711005	Torsemide 20 mg oral tablet
+350614008	Torsemide in oral dosage form
+350615009	Torsemide in parenteral dosage form
+318101005	Triamterene 50mg / Furosemide 40mg tablets
+21574911000001103	Zaroxolyn 2.5mg tablets (Imported (Canada))
+21574611000001109	Zaroxolyn 5mg tablets (Imported (Canada))
