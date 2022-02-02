@@ -1,0 +1,16 @@
+A115.	Tuberculous bronchiectasis
+H34..	Bronchiectasis
+H340.	Recurrent bronchiectasis
+H341.	Post-infective bronchiectasis
+H34z.	Bronchiectasis NOS
+P861.	Congenital bronchiectasis
+X100l	Congenital cystic bronchiectasis
+X100m	Acquired bronchiectasis
+X100n	Idiopathic bronchiectasis
+X100o	Obstructive bronchiectasis
+X100p	Toxin-induced bronchiectasis
+X100q	Bronchiectasis due to toxic aspiration
+X100r	Bronchiectasis due to toxic inhalation
+X100t	Post-lung transplantation bronchiectasis
+XE1NO	(Congenital resp anomalies NOS) or (bronchiectasis - congen)
+Xabud	H/O: bronchiectasis
