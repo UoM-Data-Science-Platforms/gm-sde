@@ -2,7 +2,7 @@
 
 A patient's haemoglobin as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`423.. - Haemoglobin estimation`). It does not include codes that indicate a patient's haemoglobin (`4235 - Haemoglobin low`) without giving the actual value.
 
-Haemoglobin codes retrieved from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf and metadata available in this directory.
+Haemoglobin codes were retrieved from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf.
 
 **NB: This code set is intended to only indicate a patient's haemoglobin values.**
 
