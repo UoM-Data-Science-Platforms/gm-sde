@@ -12,3 +12,5 @@ Data Issues and Info (RDE view)
 
 5. Procedure data - only three tenancies (UHSM, Tameside, Pennine) providing any PROC code data.
 
+6. In COVID19 table, small amount of patients with 'Y' for DeathWithin28Days but no DeathDate
+
