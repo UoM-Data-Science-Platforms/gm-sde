@@ -1,0 +1,553 @@
+di5..	*FENOPROFEN [ANALGESIC]
+di51.	*PROGESIC 200mg tablets
+di5z.	*FENOPROFEN 200mg tablets
+di8..	NAPROXEN SODIUM
+di81.	*SYNFLEX 275mg tablets
+di8z.	*NAPROXEN SODIUM 275mg tablets
+diaW.	ANADIN ULTRA 200mg capsules
+dibC.	SUDAFED DUAL RELIEF MAX tabs
+dic6.	IBUPROF+PSEUDOEPH 200/30mg tab
+dic7.	NUROFEN COLD & FLU tablets
+dic8.	NUROFEN SINUS tablets
+dicB.	LEMSIP FLU 12HR capsules
+dicC.	IBUPROF+PSEUDOEP 300/45mg caps
+dicZ.	NUROMOL 200mg/500mg tablets
+dl63.	TOLFENAMIC ACID 200mg tablets
+dicP.	LEMSIP COLD&FLU SNUS 12HR caps
+dicw.	IBUPROFN+PARACET 200/500mg tab
+j12..	BENORILATE [MUSCSKEL]
+j121.	*BENORAL 750mg tablets
+j122.	*BENORAL 2g/sachet granules
+j123.	*BENORAL 2g/5mL s/f susp 150mL
+j124.	*BENORAL 2g/5mL s/f susp 300mL
+j12x.	*BENORILATE 750mg tablets
+j12y.	*BENORILATE granules 2g/sachet
+j12z.	*BENORILATE 2g/5mL s/f susp
+j2...	NON-STEROIDAL ANTI-INFLAMM NOS
+j21..	AZAPROPAZONE
+j211.	*RHEUMOX 300mg capsules
+j212.	*RHEUMOX 600mg tablets
+j21y.	*AZAPROPAZONE 300mg capsules
+j21z.	*AZAPROPAZONE 600mg tablets
+j22..	DICLOFENAC SODIUM
+j221.	VOLTAROL 25mg tablets
+j222.	VOLTAROL 50mg tablets
+j226.	VOLTAROL RETARD 100mg m/r tabs
+j227.	RHUMALGAN 25mg e/c tablets
+j228.	RHUMALGAN 50mg e/c tablets
+j22A.	*FLAMRASE SR 100mg m/r tablets
+j22B.	MOTIFENE 75mg e/c+m/r capsules
+j22c.	DICLOFENAC 100mg m/r tablets
+j22C.	DICLOFENAC SODIUM 75mg m/r cap
+j22d.	DICLOFENAC 25mg e/c tablets
+j22e.	DICLOFENAC 50mg e/c tablets
+j22f.	*VOLRAMAN 25mg tablets
+j22g.	*VOLRAMAN 50mg tablets
+j22h.	VOLTAROL 50mg disp tablets
+j22H.	DICLOMAX SR 75mg m/r capsules
+j22i.	DICLOFENAC 50mg disp tablets
+j22I.	DICLOFLEX 25mg e/c tablets
+j22j.	*VALENAC 25mg e/c tablets
+j22J.	DICLOFLEX 50mg e/c tablets
+j22k.	*VALENAC 50mg e/c tablets
+j22K.	DICLOFLEX RETARD 100mg m/r tab
+j22l.	*DICLOZIP 25mg tablets
+j22L.	*LOFENSAID-25 tablets
+j22m.	DICLOZIP 50mg tablets
+j22M.	*LOFENSAID-50 tablets
+j22n.	VOLTAROL SR 75mg m/r tablets
+j22N.	RHUMALGAN CR 100mg m/r tablets
+j22o.	ARTHROTEC 50 tablets
+j22O.	RHUMALGAN CR 75mg m/r tablets
+j22p.	DICLOF+MISOPROS 50/0.2mg tabs
+j22P.	VOLSAID RETARD 75mg m/r tabs
+j22q.	DICLOMAX RETARD 100mg m/r caps
+j22Q.	VOLSAID RETARD 100mg m/r tabs
+j22r.	DICLOFENAC 100mg m/r capsules
+j22R.	DICLOFENAC 75mg e/c+m/r caps
+j22s.	*ISCLOFEN 50mg e/c tablets
+j22S.	*LOFENSAID RETARD 75 m/r tabs
+j22t.	DICLOF+MISOPROS 75/0.2mg tabs
+j22T.	*LOFENSAID RETARD 100 m/r tabs
+j22u.	*DICLOFENAC SODIUM 25mg tabs
+j22U.	*SLOFENAC SR 100mg m/r tablets
+j22v.	*DICLOFENAC SODIUM 50mg tabs
+j22V.	*SLOFENAC SR 75mg m/r tablets
+j22w.	*FLAMRASE 25mg tablets
+j22W.	*DIGENAC XL 100 m/r tablets
+j22x.	*FLAMRASE 50mg tablets
+j22X.	*FLEXOTARD 100mg m/r tablets
+j22y.	DICLOFENAC NA 75mg m/r tabs
+j22Y.	*DICLOTARD 75 m/r tablets
+j22z.	ARTHROTEC 75 tablets
+j22Z.	*DICLOTARD 100 m/r tablets
+j23..	DIFLUNISAL [MUSCULO-SKEL]
+j231.	*DOLOBID 250mg tablets
+j232.	*DOLOBID 500mg tablets
+j233.	*DIFLUNISAL 250mg tablets
+j234.	*DIFLUNISAL 500mg tablets
+j24..	ETODOLAC
+j241.	*LODINE 200mg capsules
+j242.	*RAMODAR 200mg tablets
+j243.	*ETODOLAC 200mg capsules
+j244.	*LODINE 300mg capsules
+j245.	*LODINE 200mg tablets
+j246.	*ETODOLAC 200mg tablets
+j247.	ETODOLAC 300mg capsules
+j248.	LODINE SR 600mg m/r tablets
+j249.	ETODOLAC 600mg m/r tablets
+j24A.	*EBRETIN 200mg capsules
+j24B.	*EBRETIN 300mg capsules
+j24C.	ECCOXOLAC 300mg capsules
+j24D.	ETOPAN XL 600mg m/r tablets
+j24E.	ETOLYN 600mg m/r tablets
+j25..	FENBUFEN
+j251.	*LEDERFEN 300mg capsules x21
+j252.	*LEDERFEN CP 300mg caps x84
+j253.	*LEDERFEN 300mg tablets
+j254.	*LEDERFEN CP 300mg tablets
+j255.	*LEDERFEN 450mg tablets
+j256.	*LEDERFEN F 450mg eff tabs 56
+j257.	*FENBUFEN 300mg capsules
+j258.	*FENBUFEN 300mg tablets
+j259.	*FENBUZIP 300mg capsules
+j25A.	*FENBUZIP 300mg tablets
+j25B.	*FENBUZIP 450mg tablets
+j25y.	*FENBUFEN 450mg tablets
+j25z.	*FENBUFEN 450mg eff tablets
+j26..	FENOPROFEN [MUSC SKEL]
+j261.	FENOPRON 300mg tablets
+j262.	*FENOPRON 600mg tablets
+j263.	FENOPROFEN 300mg tablets
+j264.	*FENOPROFEN 600mg tablets
+j27..	FLURBIPROFEN
+j271.	FROBEN 50mg tablets
+j272.	FROBEN 100mg tablets
+j274.	*FROBEN SR 200mg capsules
+j275.	*FLURBIPROFEN 200mg m/r caps
+j27x.	FLURBIPROFEN 50mg tablets
+j27y.	FLURBIPROFEN 100mg tablets
+j28..	IBUPROFEN [MUSC-SKEL]
+j281.	IBUPROFEN 200mg tablets
+j282.	IBUPROFEN 400mg tablets
+j283.	IBUPROFEN 600mg tablets
+j284.	*APSIFEN 200mg tablets
+j285.	*APSIFEN 400mg tablets
+j286.	*APSIFEN F 600mg eff tablets
+j287.	BRUFEN 200mg tablets
+j288.	BRUFEN 400mg tablets
+j289.	BRUFEN 600mg tablets
+j28a.	BRUFEN 100mg/5mL syrup
+j28A.	BRUFEN RETARD 800mg m/r tabs
+j28b.	EBUFAC 200mg tablets
+j28B.	IBUPROFEN 800mg m/r tablets
+j28c.	EBUFAC 400mg tablets
+j28C.	CUPROFEN 200mg tablets
+j28d.	*FENBID 300mg Spansules
+j28D.	*ISISFEN 400mg tablets
+j28e.	*IBULAR 200mg tablets
+j28E.	*LIDIFEN 200mg tablets
+j28f.	*IBULAR 400mg tablets
+j28F.	*LIDIFEN 400mg tablets
+j28g.	*IBUMETIN 200mg tablets
+j28G.	LIDIFEN 600mg tablets
+j28h.	*IBUMETIN 400mg tablets
+j28H.	*CODAFEN CONTINUS m/r tablets
+j28i.	*IBUMETIN 600mg tablets
+j28I.	NUROFEN PLUS tablets
+j28j.	*MOTRIN 200mg tablets
+j28J.	*JUNIFEN 100mg/5mL s/f susp
+j28k.	*MOTRIN 400mg tablets
+j28K.	*IBUMED 400mg tablets
+j28l.	*MOTRIN 600mg tablets
+j28m.	*PAXOFEN 200mg tablets
+j28M.	*RIMAFEN 200mg tablets
+j28n.	*PAXOFEN 400mg tablets
+j28N.	*RIMAFEN 400mg tablets
+j28o.	*PAXOFEN 600mg tablets
+j28O.	IBUPRO+CODEINE 200/12.5mg tabs
+j28p.	*MOTRIN 800mg tablets
+j28P.	IBUPROFEN 600mg/sach eff grans
+j28q.	*ARTHROFEN 200mg tablets
+j28r.	ARTHROFEN 400mg tablets
+j28R.	*INOVEN 200mg caplets
+j28s.	JUNIFEN 100mg/5mL susp 150mL
+j28S.	RELCOFEN 200mg tablets
+j28t.	*ARTHROFEN 600mg tablets
+j28T.	*RELCOFEN 400mg tablets
+j28u.	*IBUPROFEN 800mg tablets
+j28U.	SOLPAFLEX tablets
+j28v.	BRUFEN 600mg granules
+j28V.	IBUPRO+CODEINE 200/12.8mg tabs
+j28w.	IBUPROFEN 100mg/5mL syrup
+j28W.	*ADVIL 200mg tablets
+j28x.	IBUPROFEN 200mg m/r capsules
+j28X.	*ADVIL EXTRA STRENGTH tablets
+j28y.	IBUPROFEN 300mg m/r capsules
+j28Y.	IBUPROFEN 100mg/5mL s/f syrup
+j28z.	*IBUPR+CODEIN 300/20mg m/r tab
+j28Z.	ANADIN IBUPROFEN 200mg tablets
+j29..	INDOMETACIN
+j291.	INDOMETACIN 25mg capsules
+j292.	INDOMETACIN 50mg capsules
+j294.	ARTRACIN 25mg capsules
+j295.	ARTRACIN 50mg capsules
+j296.	*IMBRILON 25mg capsules
+j297.	*IMBRILON 50mg capsules
+j299.	*INDOCID 25mg capsules
+j29a.	*INDOCID 50mg capsules
+j29A.	*INDOMETACIN 75mg m/r tablets
+j29b.	*INDOCID 25mg/5mL suspension
+j29B.	*FLEXIN CONTINUS 25mg m/r tabs
+j29C.	*FLEXIN CONTIN LS 50mg m/r tab
+j29d.	*INDOCID-R 75mg m/r capsules
+j29D.	*INDOMETACIN 50mg m/r tablets
+j29e.	*INDOFLEX 25mg capsules
+j29E.	*INDOMETACIN 25mg m/r tablets
+j29f.	*INDOLAR 25mg capsules
+j29F.	*RIMACID 25mg capsules
+j29g.	*INDOLAR 50mg capsules
+j29G.	*ARTRACIN SR 75mg m/r capsules
+j29H.	*MAXIMET SR 75mg m/r capsules
+j29i.	INDOLAR SR 75mg m/r capsules
+j29j.	*INDOMOD 25mg m/r capsules
+j29J.	*INDOTARD MR 75mg m/r capsules
+j29k.	*INDOMOD 75mg m/r capsules
+j29K.	PARDELPRIN MR 75mg m/r caps
+j29l.	*MOBILAN 25mg capsules
+j29m.	*MOBILAN 50mg capsules
+j29n.	*RHEUMACIN LA 75mg m/r caps
+j29o.	*SLO-INDO 75mg m/r capsules
+j29p.	*FLEXIN CONTINUS 75mg m/r tabs
+j29r.	*INDOMAX 25mg capsules
+j29s.	*INDOMAX 75mg m/r capsules
+j29t.	*RHEUMACIN LA 75mg m/r caps
+j29u.	BERLIND 75 RETARD 75mg m/r cap
+j29w.	*INDOMETHACIN 25mg/5mL susp
+j29y.	INDOMETACIN 75mg m/r capsules
+j29z.	*INDOMETACIN 25mg m/r capsules
+j2a..	KETOPROFEN
+j2a1.	KETOPROFEN 50mg capsules
+j2a2.	KETOPROFEN 100mg capsules
+j2a4.	*ALRHEUMAT 50mg capsules
+j2a5.	*ORUDIS 50mg capsules
+j2a6.	*ORUDIS 100mg capsules
+j2a8.	ORUVAIL 100mg m/r capsules
+j2a9.	ORUVAIL 200mg m/r capsules
+j2aA.	KETOPROFEN CR 100mg m/r caps
+j2ab.	TILOKET 50mg capsules
+j2aB.	KETOPROFEN CR 200mg m/r caps
+j2ac.	AXORID 100mg/20mg m/r capsules
+j2aC.	KETOVAIL 100mg m/r capsules
+j2ad.	AXORID 200mg/20mg m/r capsules
+j2aD.	KETOVAIL 200mg m/r capsules
+j2aE.	KETONAL 50mg capsules
+j2aF.	KETONAL 100mg capsules
+j2aG.	ORUVAIL 150mg m/r capsules
+j2aH.	LARAFEN CR 200mg m/r capsules
+j2aI.	KETOCID-200 m/r capsules
+j2aJ.	*FENOKET 200mg m/r capsules
+j2aK.	*KETOZIP CR 200mg m/r capsules
+j2aL.	*KETOTARD 200 XL m/r capsules
+j2aM.	*JOMETHID XL 200mg m/r caps
+j2aO.	*KETPRON XL 100mg m/r capsules
+j2aP.	*KETPRON XL 200mg m/r capsules
+j2aQ.	KETIL CR 100mg m/r capsules
+j2aR.	KETIL CR 200mg m/r capsules
+j2aS.	VALKET RETARD 200mg m/r caps
+j2au.	KETPRFN+OMEP 200/20mg m/r caps
+j2av.	KETPRFN+OMEP 100/20mg m/r caps
+j2aw.	KETOPROFEN 150mg m/r capsules
+j2ay.	KETOPROFEN 100mg m/r capsules
+j2az.	KETOPROFEN 200mg m/r capsules
+j2b..	MEFENAMIC ACID [MUSCULO-SKEL]
+j2b1.	MEFENAMIC ACID 250mg capsules
+j2b2.	PONSTAN 250mg capsules
+j2b3.	PONSTAN FORTE 500mg tablets
+j2b4.	*PONSTAN 50mg/5mL paed susp
+j2b5.	*PONSTAN 250mg disp tablets
+j2b6.	*DYSMAN 250mg capsules
+j2b7.	*DYSMAN 500mg tablets
+j2b8.	*CONTRAFLAM 250mg capsules
+j2b9.	*MEFLAM-250 capsules
+j2bA.	*MEFLAM-500 tablets
+j2bB.	*OPUSTAN 250mg capsules
+j2bC.	*OPUSTAN 500mg tablets
+j2bD.	*CONTRAFLAM 500mg tablets
+j2bx.	MEFENAMIC ACID 500mg tablets
+j2by.	MEFENAMIC ACID 50mg/5mL susp
+j2bz.	*MEFENAMIC AC 250mg disp tabs
+j2c..	NAPROXEN
+j2c1.	NAPROXEN 250mg tablets
+j2c2.	NAPROXEN 500mg tablets
+j2c3.	*LARAFLEX 250mg tablets
+j2c4.	*LARAFLEX 500mg tablets
+j2c5.	NAPROSYN 250mg tablets
+j2c6.	NAPROSYN 500mg tablets
+j2c7.	*NAPROSYN 125mg/5mL suspension
+j2c9.	*NAPROSYN granules 500mg/sach
+j2ca.	*VALROX 250mg tablets
+j2cA.	*RHEUFLEX 250mg tablets
+j2cb.	*VALROX 500mg tablets
+j2cB.	*RHEUFLEX 500mg tablets
+j2cc.	*ARTHROSIN 250mg tablets
+j2cC.	*PRANOXEN CONT 375mg m/r tabs
+j2cd.	*ARTHROSIN 500mg tablets
+j2cD.	*PRANOXEN CONT 500mg m/r tabs
+j2ce.	*ARTHROXEN 250mg tablets
+j2cE.	*NAPROSYN S/R 500mg m/r tabs
+j2cf.	*ARTHROXEN 500mg tablets
+j2cF.	*TIMPRON 500mg tablets
+j2cg.	*NAPROSYN 375mg tablets
+j2cG.	*RIMOXYN 500mg tablets
+j2ch.	*NAPROXEN 375mg tablets
+j2cH.	*RIMOXYN 250mg tablets
+j2ci.	*NYCOPREN 250mg e/c tablets
+j2cI.	*TIMPRON 250mg tablets
+j2cj.	*NYCOPREN 500mg e/c tablets
+j2cJ.	*TIMPRON 250 EC e/c tablets
+j2ck.	NAPROXEN 250mg e/c tablets
+j2cK.	*TIMPRON 500 EC e/c tablets
+j2cl.	NAPROXEN 500mg e/c tablets
+j2cL.	*CONDROTEC tablets
+j2cm.	*PROSAID 250mg tablets
+j2cM.	*ARTHROSIN 250mg e/c tablets
+j2cn.	*PROSAID 500mg tablets
+j2cN.	*ARTHROSIN 500mg e/c tablets
+j2co.	NAPROSYN EC 250mg e/c tablets
+j2cO.	FEMINAX ULTRA 250mg tablets
+j2cp.	NAPROSYN EC 375mg e/c tablets
+j2cP.	VIMOVO 500mg/20mg m/r tablets
+j2cq.	NAPROSYN EC 500mg e/c tablets
+j2cr.	NAPRATEC 500mg/0.2mg tabs 2x56
+j2cs.	*NAPROXEN 375mg m/r tablets
+j2ct.	*NAPROXEN 500mg m/r tablets
+j2cu.	NAPROX tab+MISOPROST tab pack
+j2cv.	*NAPROXEN granules 500mg/sach
+j2cw.	NAPROXEN 375mg e/c tablets
+j2cx.	*NAPROX+MISOP 500mg/200mcg tab
+j2cy.	*NAPROXEN 125mg/5mL suspension
+j2cZ.	NAPROX+ESOMEP 500/20mg m/r tab
+j2d..	PHENYLBUTAZONE
+j2d1.	PHENYLBUTAZONE 100mg tablets
+j2d2.	PHENYLBUTAZONE 200mg tablets
+j2d3.	*BUTACOTE 100mg tablets
+j2d4.	*BUTACOTE 200mg tablets
+j2d5.	*BUTAZOLIDIN 100mg tablets
+j2d6.	*BUTAZOLIDIN 200mg tablets
+j2d7.	BUTAZONE 100mg tablets
+j2d8.	BUTAZONE 200mg tablets
+j2e..	PIROXICAM
+j2e1.	PIROXICAM 10mg capsules
+j2e2.	PIROXICAM 20mg capsules
+j2e3.	FELDENE 10mg capsules
+j2e4.	FELDENE 20mg capsules
+j2e5.	*FELDENE 10mg disp tablets
+j2e6.	*FELDENE 20mg disp tablets
+j2e8.	*LARAPAM 10mg capsules
+j2e9.	*LARAPAM 20mg capsules
+j2ea.	*PIROZIP 10mg capsules
+j2eA.	*PIROFLAM-10 capsules
+j2eb.	*PIROZIP 20mg capsules
+j2eB.	*PIROFLAM-20 capsules
+j2ec.	FELDENE MELT 20mg tablets
+j2ee.	*FLAMATROL 10mg capsules
+j2ef.	*FLAMATROL 20mg capsules
+j2ew.	PIROXICAM 20mg melt tablets
+j2ex.	PIROXICAM 10mg disp tablets
+j2ey.	PIROXICAM 20mg disp tablets
+j2f..	SULINDAC
+j2f1.	*CLINORIL 100mg tablets
+j2f2.	*CLINORIL 200mg tablets
+j2fy.	SULINDAC 100mg tablets
+j2fz.	SULINDAC 200mg tablets
+j2g..	TIAPROFENIC ACID
+j2g1.	*SURGAM 200mg tablets
+j2g2.	SURGAM 300mg tablets
+j2g3.	*SURGAM granules 300mg/sachet
+j2g4.	*SURGAM SA 300mg m/r capsules
+j2g5.	*TIAPROFENIC AC 300mg m/r caps
+j2gx.	*TIAPROFENIC ACID 200mg tabs
+j2gy.	TIAPROFENIC ACID 300mg tablets
+j2gz.	*TIAPROFEN AC grans 300mg/sach
+j2h..	TOLMETIN
+j2h1.	*TOLECTIN DS 400mg capsules
+j2h2.	*TOLECTIN 200mg capsules
+j2h3.	*TOLECTIN 400mg capsules
+j2hy.	*TOLMETIN 200mg capsules
+j2hz.	*TOLMETIN 400mg capsules
+j2i..	PIROXICAM-BETADEX
+j2i1.	PIROXICAM-BETADEX 191.3mg tabs
+j2i2.	BREXIDOL 20mg tablets
+j2j..	ACEMETACIN
+j2j1.	ACEMETACIN 60mg capsules
+j2j2.	EMFLEX 60mg capsules
+j2k..	NABUMETONE
+j2k1.	RELIFEX 500mg tablets
+j2k2.	NABUMETONE 500mg tablets
+j2k3.	RELIFEX 500mg/5mL suspension
+j2k4.	NABUMETONE 500mg/5mL susp
+j2k5.	*RELIFEX 500mg disp tabs
+j2k6.	*NABUMETONE 500mg disp tabs
+j2l..	TENOXICAM
+j2l1.	TENOXICAM 20mg tablets
+j2l2.	MOBIFLEX 20mg tablets
+j2l3.	*TENOXICAM 20mg/sachet grans
+j2l4.	*MOBIFLEX 20mg/sachet granules
+j2l5.	*TENOXICAM 20mg eff tabs
+j2l6.	*MOBIFLEX 20mg eff tabs
+j2m..	ACECLOFENAC
+j2m1.	PRESERVEX 100mg tablets
+j2m2.	ACECLOFENAC 100mg tablets
+j2n..	MELOXICAM
+j2n2.	MELOXICAM 7.5mg tablets
+j2n3.	MELOXICAM 15mg tablets
+j2n5.	*MOBIC 7.5mg tablets
+j2n6.	*MOBIC 15mg tablets
+j2n9.	MELOXICAM 7.5mg disp tablets
+j2nA.	MELOXICAM 15mg disp tablets
+j2o..	DICLOFENAC SODIUM 2
+j2o1.	DICLOFLEX SR 75mg m/r tablets
+j2o2.	*FLAMATAK MR 75mg m/r tablets
+j2o3.	*DIFENOR XL 100mg m/r tablets
+j2o4.	DICLOVOL 25mg e/c tablets
+j2o5.	DICLOVOL 50mg e/c tablets
+j2o6.	DICLOVOL SR 75mg m/r tablets
+j2o7.	*DICLOVOL RETARD 100mg m/r tab
+j2o8.	DEXOMON SR 75mg m/r tablets
+j2o9.	DEXOMON RETARD 100mg m/r tabs
+j2oA.	*ACOFLAM SR 75mg m/r tablets
+j2oB.	*ACOFLAM 50mg e/c tablets
+j2oC.	*ACOFLAM 25mg e/c tablets
+j2oD.	*ACOFLAM RETARD 100mg m/r tabs
+j2oE.	FLAMATAK MR 100mg m/r tablets
+j2oF.	RHEUMATAC RETARD 75mg m/r tabs
+j2oG.	FLAMRASE SR 75mg m/r tablets
+j2oJ.	*CLOSTERIL 100 m/r tablets
+j2ol.	DEFANAC SR 75mg m/r tablets
+j2oL.	RHUMALGAN XL 100mg m/r caps
+j2om.	DEFANAC RETARD 100mg m/r tabs
+j2oM.	RHUMALGAN SR 75mg m/r capsules
+j2oo.	*DEFANAC 25mg e/c tablets
+j2op.	*DEFANAC 50mg e/c tablets
+j2oq.	*FENACTOL 25mg e/c tablets
+j2or.	FENACTOL 50mg e/c tablets
+j2os.	FENACTOL SR 75mg m/r tablets
+j2oS.	MASIDEMEN 75mg/200mcg m/r tabs
+j2oT.	DICLF+MISP 75mg/200mcg m/r tab
+j2oU.	MASIDEMEN 50mg/200mcg m/r tabs
+j2oV.	DICLF+MISP 50mg/200mcg m/r tab
+j2ot.	FENACTOL RETARD 100mg m/r tabs
+j2ou.	*VALDIC 75 RETRD 75mg m/r tabs
+j2ov.	*VALDIC 100 RETARD m/r tabs
+j2ow.	ECONAC SR 75mg m/r tablets
+j2ox.	ECONAC XL 100mg m/r tablets
+j2p..	IBUPROFEN [MUSC-SKEL USE 2]
+j2p1.	*NUROFEN ADVANCE 200mg tablets
+j2p2.	NUROFEN FOR CHILDREN susp
+j2p3.	NUROFEN LONG LASTING m/r caps
+j2p4.	GALPROFEN 100mg/5mL suspension
+j2p5.	LIBROFEM 200mg tablets
+j2p6.	ORBIFEN FOR CHILDREN s/f susp
+j2p7.	MANDAFEN 600mg tablets
+j2p8.	FEVERFEN 100mg/5mL s/f susp
+j2p9.	NUROFEN FOR CHILDN singls susp
+j2pa.	IBUCALM 400mg tablets
+j2pA.	IBUPROFEN 100mg/5mL sachets
+j2pb.	NUROFEN EXPRESS 400mg/sach pdr
+j2pB.	MANDAFEN 400mg tablets
+j2pc.	IBUPROFEN 400mg/sachet pdr
+j2pC.	ORBIFEN 100mg/5mL s/f susp
+j2pD.	NUROFEN MOBILE 200mg tablets
+j2pE.	FENPAED 100mg/5mL s/f susp
+j2pF.	MANDAFEN 100mg/5mL s/f susp
+j2pG.	CUPROFEN 100mg/5mL s/f susp
+j2pH.	NUROFEN 200mg tablets
+j2pI.	NUROFEN 200mg caplets
+j2pJ.	IBUPROFEN 200mg capsules
+j2pK.	NUROFEN 200mg liquid capsules
+j2pL.	CALPROFEN 100mg/5mL s/f susp
+j2pM.	CUPROFEN PLUS tablets
+j2pN.	ORBIFEN 100mg/5mL s/f sachets
+j2pO.	CARE IBUPRO 100mg/5mL s/f susp
+j2pP.	NUROFEN FOR CHILDRN stbry susp
+j2pQ.	GALPROFEN IBUPROF 200mg caplet
+j2pR.	LLOYDS IBUPROFN 100mg/5mL susp
+j2pS.	NUROFEN TENSION HEADACHE tabs
+j2pT.	SOLPADEINE MIGRAINE IBU+COD
+j2pU.	NUROFEN MAXIMUM 400mg Caplets
+j2pV.	NUROFEN EXTRA 400mg caps
+j2pW.	IBUPROFEN 400mg capsules
+j2pX.	ANADIN ULTRA D/S 400mg caps
+j2pY.	GALPHARM MAX IBPRFN 400mg caps
+j2pZ.	IBUCALM 200mg tablets
+j2q..	DEXKETOPROFEN
+j2q1.	KERAL 25mg tablets
+j2qz.	DEXKETOPROFEN 25mg tablets
+j2r..	DICLOFENAC POTASSIUM
+j2r1.	VOLTAROL RAPID 25mg tablets
+j2r2.	VOLTAROL RAPID 50mg tablets
+j2r3.	VOLTAROL PAIN-EZE 12.5mg tabs
+j2rx.	DICLOFENC POTSSIUM 12.5mg tabs
+j2ry.	DICLOFENAC POTASSIUM 25mg tabs
+j2rz.	DICLOFENAC POTASSIUM 50mg tabs
+j2s..	LORNOXICAM
+j2s1.	*XEFO 4mg tablets
+j2s2.	*XEFO 8mg tablets
+j2sy.	*LORNOXICAM 8mg tablets
+j2sz.	*LORNOXICAM 4mg tablets
+j2t..	DEXIBUPROFEN
+j2t1.	SERACTIL 400mg tablets
+j2t2.	SERACTIL 300mg tablets
+j2ty.	DEXIBUPROFEN 300mg tablets
+j2tz.	DEXIBUPROFEN 400mg tablets
+jA...	COX-2 INHIBITOR DRUG
+jA1..	*ROFECOXIB
+jA11.	*VIOXX 12.5mg tablets
+jA12.	*VIOXX 25mg tablets
+jA13.	*VIOXX 12.5mg/5mL suspension
+jA14.	*VIOXX 25mg/5mL suspension
+jA15.	*VIOXXACUTE 25mg tablets
+jA16.	*VIOXXACUTE 50mg tablets
+jA1v.	*ROFECOXIB 50mg tablets
+jA1w.	*ROFECOXIB 12.5mg tablets
+jA1x.	*ROFECOXIB 25mg tablets
+jA1y.	*ROFECOXIB 12.5mg/5mL susp
+jA1z.	*ROFECOXIB 25mg/5mL suspension
+jA2..	CELECOXIB
+jA21.	CELEBREX 100mg capsules
+jA22.	CELEBREX 200mg capsules
+jA23.	*ONSENAL 400mg capsules
+jA2x.	*CELECOXIB 400mg capsules
+jA2y.	CELECOXIB 200mg capsules
+jA2z.	CELECOXIB 100mg capsules
+jA5..	ETORICOXIB
+jA51.	ETORICOXIB 60mg tablets
+jA52.	ETORICOXIB 90mg tablets
+jA53.	ETORICOXIB 120mg tablets
+jA54.	ARCOXIA 60mg tablets
+jA55.	ARCOXIA 90mg tablets
+jA56.	ARCOXIA 120mg tablets
+jA57.	ARCOXIA 30mg tablets
+jA58.	ETORICOXIB 30mg tablets
+jA6..	*VALDECOXIB
+jA61.	*VALDECOXIB 10mg tablets
+jA62.	*VALDECOXIB 20mg tablets
+jA63.	*VALDECOXIB 40mg tablets
+jA6x.	*BEXTRA 10mg tablets
+jA6y.	*BEXTRA 20mg tablets
+jA6z.	*BEXTRA 40mg tablets
+jA7..	*LUMIRACOXIB
+jA71.	*PREXIGE 100mg tablets
+jA72.	*PREXIGE 400mg tablets
+jA7y.	*LUMIRACOXIB 400mg tablets
+jA7z.	*LUMIRACOXIB 100mg tablets
+lf3..	FLURBIPROFEN [OROPHARYNGEAL]
+lf31.	*STREFEN 8.75mg lozenges
+lf32.	*STREFLAM 8.75mg lozenges
+lf33.	STREFEN HONEY+LEMON 8.75mg loz
+lf3z.	FLURBIPROFEN 8.75mg lozenges
+o4a3.	*KETOROLAC TROMETAMOL 10mg tab
+o4a4.	*TORADOL 10mg tablets
+diau.	Feminax Express 342mg tablets (Bayer Plc)
+dl64.	CLOTAM RAPID 200mg tablets
