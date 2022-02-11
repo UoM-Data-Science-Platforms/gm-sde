@@ -25,6 +25,14 @@
 --  - MatchingPatientId - id of the matched patient
 --  - MatchingYearOfBirth - year of birth of the matched patient
 
+-- TODO 
+-- A few things to consider when doing matching:
+--  - Consider removing "ghost patients" e.g. people without a primary care record
+--  - Consider matching on practice. Patients in different locations might have different outcomes. Also
+--    for primary care based diagnosing, practices might have different thoughts on severity, timing etc.
+--  - For instances where lots of cases have no matches, consider allowing matching to occur with replacement.
+--    I.e. a patient can match more than one person in the main cohort.
+
 -- First we extend the #PrimaryCohort table to give each age-sex combo a unique number
 -- and to avoid polluting the #MainCohort table
 IF OBJECT_ID('tempdb..#Cases') IS NOT NULL DROP TABLE #Cases;
