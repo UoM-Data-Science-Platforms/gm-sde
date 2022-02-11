@@ -1,0 +1,137 @@
+b2b..	Metolazone
+b2b3.	Metolazone 500micrograms tablet
+b2b2.	Xuret 500micrograms tablet
+b2bz.	Metolazone 5mg tablet
+b2b1.	Metenix-5 tablet
+b3...	Loop diuretic
+b31..	Furosemide
+x01Qo	Oral furosemide
+b311.	Furosemide 20mg tablet
+b314.	Aluzine 20mg tablet
+b31h.	Lasix 20mg tablet
+b31p.	Rusyde 20mg tablet
+b312.	Furosemide 40mg tablet
+b315.	Aluzine 40mg tablet
+b317.	diuresal 40mg tablet
+b31a.	Dryptal 40mg tablet
+b31E.	Froop 40mg tablet
+b31o.	Frumax 40mg tablet
+b31f.	Frusetic 40mg tablet
+b31g.	Frusid 40mg tablet
+b31i.	Lasix 40mg tablet
+b31q.	Rusyde 40mg tablet
+b313.	Furosemide 500mg tablet
+b316.	Aluzine 500mg tablet
+b31b.	Dryptal 500mg tablet
+b31j.	Lasix 500mg tablet
+b31x.	Frusemide 1mg/mL oral solution
+b31k.	Lasix 1mg/mL paediatric liquid
+b31r.	Furosemide 20mg/5mL s/f oral solution
+b31F.	Frusol 20mg/5mL s/f oral solution
+b31s.	Furosemide 40mg/5mL s/f oral solution
+b31G.	Frusol 40mg/5mL s/f oral solution
+b31t.	Furosemide 50mg/5mL s/f oral solution
+b31H.	Frusol 50mg/5mL s/f oral solution
+b32..	Bumetanide
+x01Qm	Oral bumetanide
+b32u.	Bumetanide 1mg tablet
+b327.	Betinex 1mg tablet
+b321.	Burinex 1mg tablet
+b32v.	Bumetanide 5mg tablet
+b328.	Betinex 5mg tablet
+b322.	Burinex 5mg tablet
+b32w.	Bumetanide 1mg/5mL oral liquid
+b323.	Burinex 1mg/5mL oral liquid
+b33..	Etacrynic acid product
+b33y.	Ethacrynic acid 50mg tablet
+b331.	Edecrin 50mg tablet
+b34..	Piretanide
+b34z.	Piretanide 6mg m/r capsule
+b341.	Arelix 6mg capsule
+b35..	Torasemide
+x01Qr	Oral torasemide
+b356.	Torasemide 2.5mg tablet
+b351.	Torem 2.5mg tablet
+b357.	Torasemide 5mg tablet
+b352.	Torem 5mg tablet
+b358.	Torasemide 10mg tablet
+b353.	Torem 10mg tablet
+b43..	Spironolactone
+b431.	Spironolactone 25mg tablet
+b434.	Aldactone 25mg tablet
+b438.	Laractone 25mg tablet
+b43a.	Spiretic 25mg tablet
+b43c.	Spiroctan 25mg tablet
+b43f.	Spirolone 25mg tablet
+b43A.	Spirospare 25mg tablet
+b432.	Spironolactone 50mg tablet
+b435.	Aldactone 50mg tablet
+b437.	Diatensec 50mg tablet
+b43i.	Laractone 50mg tablet
+b43d.	Spiroctan 50mg tablet
+b43g.	Spirolone 50mg tablet
+b433.	Spironolactone 100mg tablet
+b436.	Aldactone 100mg tablet
+b439.	Laractone 100mg tablet
+b43b.	Spiretic 100mg tablet
+b43h.	Spirolone 100mg tablet
+b43j.	Spirospare 100mg tablet
+b43z.	Spironolactone 100mg capsule
+b43e.	Spiroctan 100mg capsule
+b43k.	Spironolactone 5mg/5mL s/f suspension
+b43l.	Spironolactone 10mg/5mL s/f suspension
+b43m.	Spironolactone 25mg/5mL s/f suspension
+b43n.	Spironolactone 50mg/5mL s/f suspension
+b45..	Eplerenone
+b45z.	Eplerenone 25mg tablet
+b451.	Inspra 25mg tablet
+b45y.	Eplerenone 50mg tablet
+b452.	Inspra 50mg tablet
+b91b.	Bumetanide+potassium 500micrograms/7.7mmol m/r tablet
+b912.	Burinex K m/r tablet
+b91d.	Frusemide+potassium 40mg/8mmol m/r tablet
+b914.	Diumide-K Continus m/r tablet
+b91f.	Furosemide+potassium 20mg/10mmol m/r tablet
+b917.	Lasikal m/r tablet
+b91g.	Frusemide tablet+potassium m/r tablet 40mg/10mmol pack
+x00fV	Lasix+K tablet combination pack
+b918.	Lasix+K tablets 30day-CP combination pack
+x000G	Amiloride+loop diuretic
+x02SB	Co-amilofruse
+b51x.	Co-amilofruse 2.5mg/20mg tablet
+b51L.	Aridil 2.5mg/20mg tablet
+b51o.	Frumil LS tablet
+b51y.	Co-amilofruse 5mg/40mg tablet
+b51M.	Aridil 5mg/40mg tablet
+b51S.	Froop Co 5mg/40mg tablet
+b51B.	Fru-Co tablet
+b516.	Frumil tablet
+b51R.	Frusemek 5mg/40mg tablet
+b51T.	Komil 5/40 tablet
+b51h.	Lasoride tablet
+b51z.	Co-amilofruse 10mg/80mg tablet
+b51N.	Aridil 10mg/80mg tablet
+b51u.	Frumil Forte tablet
+b51i.	Co-amilofruse tablets
+b51D.	Amiloride hydrochloride+bumetanide 5mg/1mg tablet
+b51t.	Burinex A tablet
+x00B5	Spironolactone+loop diuretic
+b51J.	Spironolactone+furosemide 50mg/20mg capsule
+b519.	Lasilactone capsule
+x00B6	Spironolactone+thiazide diuretic
+x02Rj	Co-flumactone
+b51p.	Co-flumactone 25mg/25mg tablet
+b511.	Aldactide 25 tablet
+b51O.	Spiro-Co 25mg tablet
+b51q.	Co-flumactone 50mg/50mg tablet
+b512.	Aldactide 50 tablet
+b51P.	Spiro-Co 50mg tablet
+x00Ba	Triamterene+loop diuretic
+b51H.	Triamterene+furosemide 50mg/40mg tablet
+b517.	Frusene tablet
+b51n.	Frusene tablets 56CP
+heI1.	FIRMAGON 80mg powder and solvent for solution for injection
+heD2.	Fareston 60mg tablet
+heI4.	DEGARELIX 120mg powder+solvent for solution for injection
+heI2.	DEGARELIX 80mg powder and solvent for solution for injection
+heD1.	Toremifene 60mg tablet

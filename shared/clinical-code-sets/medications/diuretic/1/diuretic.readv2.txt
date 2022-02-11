@@ -1,0 +1,132 @@
+b2b1.	*METENIX-5 5mg tablets
+b2b2.	*XURET 500micrograms tablets
+b2b3.	*METOLAZONE 500mcg tablets
+b2b..	METOLAZONE
+b2bz.	*METOLAZONE 5mg tablets
+b511.	ALDACTIDE-25 tablets
+b512.	ALDACTIDE-50 tablets
+b51p.	CO-FLUMACTONE-25 tablets
+b51q.	CO-FLUMACTONE-50 tablets
+b3...	LOOP DIURETICS
+b31..	FUROSEMIDE
+b311.	FUROSEMIDE 20mg tablets
+b312.	FUROSEMIDE 40mg tablets
+b313.	FUROSEMIDE 500mg tablets
+b314.	*ALUZINE 20mg tablets
+b315.	*ALUZINE 40mg tablets
+b316.	*ALUZINE 500mg tablets
+b317.	*DIURESAL 40mg tablets
+b31a.	*DRYPTAL 40mg tablets
+b31b.	*DRYPTAL 500mg tablets
+b31E.	FROOP 40mg tablets
+b31f.	*FRUSETIC 40mg tablets
+b31F.	FRUSOL 20mg/5mL s/f soln
+b31g.	*FRUSID 40mg tablets
+b31G.	FRUSOL 40mg/5mL s/f soln
+b31h.	*LASIX 20mg tablets
+b31H.	FRUSOL 50mg/5mL s/f soln
+b31i.	*LASIX 40mg tablets
+b31j.	*LASIX 500mg tablets
+b31k.	*LASIX PAEDIATRIC 1mg/1mL liq
+b31o.	*FRUMAX 40mg tablets
+b31p.	*RUSYDE 20mg tablets
+b31q.	*RUSYDE 40mg tablets
+b31r.	FUROSEMIDE 20mg/5mL s/f soln
+b31s.	FUROSEMIDE 40mg/5mL s/f soln
+b31t.	FUROSEMIDE 50mg/5mL s/f soln
+b31x.	*FRUSEMIDE 1mg/1mL liquid
+b32..	BUMETANIDE
+b321.	*BURINEX 1mg tablets
+b322.	*BURINEX 5mg tablets
+b323.	*BURINEX 1mg/5mL liquid
+b327.	*BETINEX 1mg tablets
+b328.	*BETINEX 5mg tablets
+b32u.	BUMETANIDE 1mg tablets
+b32v.	BUMETANIDE 5mg tablets
+b32w.	BUMETANIDE 1mg/5mL liquid
+b33..	ETACRYNIC ACID
+b331.	*EDECRIN 50mg tablets
+b33y.	*ETHACRYNIC ACID 50mg tablets
+b34..	PIRETANIDE
+b341.	*ARELIX 6mg m/r capsules
+b34z.	*PIRETANIDE 6mg m/r capsules
+b35..	TORASEMIDE
+b351.	TOREM 2.5mg tablets
+b352.	TOREM 5mg tablets
+b353.	TOREM 10mg tablets
+b356.	TORASEMIDE 2.5mg tablets
+b357.	TORASEMIDE 5mg tablets
+b358.	TORASEMIDE 10mg tablets
+b43..	SPIRONOLACTONE
+b431.	SPIRONOLACTONE 25mg tablets
+b432.	SPIRONOLACTONE 50mg tablets
+b433.	SPIRONOLACTONE 100mg tablets
+b434.	ALDACTONE 25mg tablets
+b435.	ALDACTONE 50mg tablets
+b436.	ALDACTONE 100mg tablets
+b437.	*DIATENSEC 50mg tablets
+b438.	*LARACTONE 25mg tablets
+b439.	*LARACTONE 100mg tablets
+b43A.	*SPIROSPARE 25mg tablets
+b43a.	SPIRETIC 25mg tablets
+b43b.	SPIRETIC 100mg tablets
+b43c.	*SPIROCTAN 25mg tablets
+b43d.	*SPIROCTAN 50mg tablets
+b43e.	*SPIROCTAN 100mg capsules
+b43f.	*SPIROLONE 25mg tablets
+b43g.	*SPIROLONE 50mg tablets
+b43h.	*SPIROLONE 100mg tablets
+b43i.	*LARACTONE 50mg tablets
+b43j.	*SPIROSPARE 100mg tablets
+b43k.	SPIRONOLACTONE 5mg/5mL susp
+b43l.	SPIRONOLACTONE 10mg/5mL susp
+b43m.	SPIRONOLACTONE 25mg/5mL susp
+b43n.	SPIRONOLACTONE 50mg/5mL susp
+b43z.	*SPIRONOLACTONE 100mg capsules
+b45..	EPLERENONE
+b451.	INSPRA 25mg tablets
+b452.	INSPRA 50mg tablets
+b45y.	EPLERENONE 50mg tablets
+b45z.	EPLERENONE 25mg tablets
+b516.	FRUMIL 40/5mg tablets
+b517.	FRUSENE tablets
+b519.	LASILACTONE capsules
+b51B.	*FRU-CO 40/5mg tablets
+b51D.	AMILORIDE+BUMETAN 5mg/1mg tabs
+b51h.	*LASORIDE tablets
+b51H.	TRIAMT+FUROSEMIDE 50/40mg tabs
+b51i.	*CO-AMILOFRUSE tablets
+b51J.	SPIRONOL+FUROSMID 50/20mg caps
+b51L.	*ARIDIL 2.5mg/20mg tablets
+b51M.	*ARIDIL 5mg/40mg tablets
+b51n.	*FRUSENE tablets 56CP
+b51N.	*ARIDIL 10mg/80mg tablets
+b51o.	FRUMIL LS 20/2.5mg tablets
+b51O.	*SPIRO-CO 25mg tablets
+b51P.	*SPIRO-CO 50mg tablets
+b51R.	*FRUSEMEK 5mg/40mg tablets
+b51S.	*FROOP CO 5mg/40mg tablets
+b51t.	*BURINEX A tablets
+b51T.	*KOMIL 5/40 tablets
+b51u.	*FRUMIL FORTE 80/10mg tablets
+b51x.	CO-AMILOFRUSE 2.5/20mg tablets
+b51y.	CO-AMILOFRUSE 5/40mg tablets
+b51z.	CO-AMILOFRUSE 10/80mg tablets
+b912.	*BURINEX K tablets
+b914.	*DIUMIDE-K CONTINUS tablets
+b917.	*LASIKAL tablets
+b918.	*LASIX+K tablets 30day-CP
+b91b.	*BUMETAN+K 500mcg/7.7mmol tabs
+b91d.	*FRUSEMIDE+K 40mg/8mmol tabs
+b91f.	*FUROSEMIDE+K 20mg/10mmol tabs
+b91g.	*FRUSEM tab+POTASS m/r tab pck
+b31l.	LASIX inj 20mg/2ml
+b31u.	Furosemide 50mg/5ml solution for injection ampoules
+b31y.	FUROSEMIDE inj 20mg/2ml
+b31z.	FUROSEMIDE inj 10mg/ml
+b32z.	BUMETANIDE inj 0.5mg/ml
+heD2.	FARESTON 60mg tablets
+heI1.	FIRMAGON 80mg powder and solvent for solution for injection
+heI4.	DEGARELIX 120mg powder+solvent for solution for injection
+heD1.	TOREMIFENE 60mg tablets
+heI2.	DEGARELIX 80mg powder and solvent for solution for injection

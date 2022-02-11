@@ -1,0 +1,126 @@
+ALTA63	Aldactone  Tablets  100 mg
+ALTA64	Aldactone  Tablets  25 mg
+ALTA65	Aldactone  Tablets  50 mg
+ALTA90	Aluzine  Tablets  20 mg
+ALTA91	Aluzine  Tablets  40 mg
+ALTA92	Aluzine  Tablets  500 mg
+ARCA209	Arelix  Capsules  6 mg
+BULI433	Bumetanide  Liquid  Sugar Free
+BULI439	Burinex  Liquid  1 mg/5 ml
+BUTA10569BRIDL	Bumetanide K  Tablets  
+BUTA10630BRIDL	Burinex A  Tablets  
+BUTA434	Bumetanide  Tablets  1 mg
+BUTA435	Bumetanide  Tablets  5 mg
+BUTA440	Burinex  Tablets  1 mg
+BUTA441	Burinex  Tablets  5 mg
+BUTA442	Burinex K  Tablets  
+BUTA974NEMIS	Bumetanide And Amiloride  Tabl
+BUTA976NEMIS	Bumetanide And Slow Potassium 
+COTA9149BRIDL	Co-Amilofruse 5/40  Tablets  
+COTA9298EMIS	Co-Amilofruse 10/80  Tablets  
+COTA9301EMIS	Co-Amilofruse 2.5/20  Tablets 
+DITA875	Diatensec  Tablets  50 mg
+DITA954	Diumide K Continus  Tablets  
+DITA957	Diuresal  Tablets  40 mg
+DRTA1002	Dryptal  Tablets  40 mg
+DRTA9442HILLI	Dryptal  Tablets  500 mg
+EDTA1022	Edecrin  Tablets  50 mg
+ETTA4899	Ethacrynic Acid  Tablets  50 m
+FRLI10331BRIDL	Frusemide Paediatric  Liquid  
+FROR24962EMIS	Frusemide  Oral solution  Suga
+FROR24963EMIS	Frusemide  Oral solution  Suga
+FROR24964EMIS	Frusemide  Oral solution  Suga
+FRSO34644EMIS	Frusol  Solution  20 mg/5 ml
+FRSO34645EMIS	Frusol  Solution  40 mg/5 ml
+FRSO34646EMIS	Frusol  Solution  50 mg/5 ml
+FRTA10825BRIDL	Frumil Ls  Tablets  
+FRTA1247	Frumil  Tablets  
+FRTA1248	Frusemide  Tablets  20 mg
+FRTA1249	Frusemide  Tablets  40 mg
+FRTA1250	Frusemide  Tablets  500 mg
+FRTA1251	Frusene  Tablets  
+FRTA1252	Frusid  Tablets  40 mg
+FRTA22707EMIS	Fru-Co  Tablets  
+FRTA32866EMIS	Froop Co  Tablets  
+FRTA9205BRIDL	Froop  Tablets  40 mg
+FRTA9295EMIS	Frumil Forte  Tablets  
+FUOR17672NEMIS	Furosemide  Oral Solution
+FUOR17673NEMIS	Furosemide  Oral Solution
+FUOR17674NEMIS	Furosemide  Oral Solution
+FUTA17675NEMIS	Furosemide  Tablets  20 mg
+FUTA17676NEMIS	Furosemide  Tablets  40 mg
+FUTA17677NEMIS	Furosemide  Tablets  500 mg
+FUTA18562NEMIS	Furosemide And M/r Potassium  
+LACA1623	Lasilactone  Capsules  50 mg +
+LALI1627	Lasix  Liquid  1 mg/ml
+LATA1622	Lasikal  Tablets  
+LATA1628	Lasix  Tablets  20 mg
+LATA1629	Lasix  Tablets  40 mg
+LATA1630	Lasix  Tablets  500 mg
+LATA1631	Lasix + K  Tablets
+LATA8311BRID	Lasoride  Tablets  
+META1786	Metenix 5  Tablets  5 mg
+PICA5300	Piretanide  Capsules  6 mg
+RUTA4237NEMIS	Rusyde  Tablets  20 mg
+RUTA4238NEMIS	Rusyde  Tablets  40 mg
+TOTA24430EMIS	Torem  Tablets  10 mg
+TOTA24431EMIS	Torem  Tablets  2.5 mg
+TOTA24432EMIS	Torem  Tablets  5 mg
+TOTA24440EMIS	Torasemide  Tablets  10 mg
+TOTA24441EMIS	Torasemide  Tablets  2.5 mg
+TOTA24442EMIS	Torasemide  Tablets  5 mg
+TRTA17682NEMIS	Triamterene And Furosemide  Ta
+TRTA997NEMIS	Triamterene And Frusemide  Tab
+XUTA18868EMIS	Xuret  Tablets  500 micrograms
+FUIN17671NEMIS	Furosemide  Injection  10 mg/ml, 2 ml ampoule
+FUOR22606NEMIS	Furosemide  Oral Solution  1 mg/ml
+FUTA18552NEMIS	Furosemide 40mg / Potassium chloride 600mg (potassium 8mmol) modified-release tablets
+COTA9343HILLI	Co-Flumactone 25/25  Tablets  
+DEPO36528NEMIS	Degarelix  Powder and solvent for solution for injection  120 mg vial
+SPTA2661	Spiroctan  Tablets  50 mg
+SPOR3003NEMIS	Spironolactone  Oral suspension  100 mg/5 ml
+SPOR46808NEMIS	Spironolactone  Oral solution  100 mg/5 ml
+SPOR46809NEMIS	Spironolactone  Oral solution  10 mg/5 ml
+SPTA2668	Spironolactone  Tablets  50 mg
+DEPO36522NEMIS	Degarelix  Powder and solvent for solution for injection  80 mg vial
+FUIN17670NEMIS	Furosemide  Injection  10 mg/ml, 5 ml ampoule
+INTA19052NEMIS	Inspra  Tablets  25 mg
+META5158	Metolazone  Tablets  5 mg
+SPTA2668	Spironolactone  Tablets  50 mg
+FUOR46743NEMIS	Furosemide  Oral suspension  5 mg/5 ml
+SPOR45615NEMIS	Spironolactone  Oral solution  25 mg/5 ml
+SPOR9100BRIDL	Spironolactone  Oral suspension  5 mg/5 ml
+COTA9346HILLI	Co-Flumactone 50/50  Tablets  
+SPTA2667	Spironolactone  Tablets  25 mg
+TOTA29414EMIS	Toremifene  Tablets  60 mg
+SPOR9104BRIDL	Spironolactone  Oral suspension  50 mg/5 ml
+SPTA2667	Spironolactone  Tablets  25 mg
+ALTA62	Aldactide 50  Tablets  
+FUIN17678NEMIS	Furosemide  Injection  10 mg/ml, 8 ml pre-filled syringe
+FUIN17678NEMIS	Furosemide  Injection  10 mg/ml, 8 ml pre-filled syringe
+SPOR45618NEMIS	Spironolactone  Oral solution  50 mg/5 ml
+SPOR46810NEMIS	Spironolactone  Oral solution  5 mg/5 ml
+SPOR9102BRIDL	Spironolactone  Oral suspension  10 mg/5 ml
+ALTA61	Aldactide 25  Tablets  
+EPTA19048NEMIS	Eplerenone  Tablets  25 mg
+FIPO36530NEMIS	Firmagon  Powder and solvent for solution for injection  80 mg vial
+SPCA18564NEMIS	Spironolactone And Furosemide  Capsules  50 mg + 20 mg
+SPOR9102BRIDL	Spironolactone  Oral suspension  10 mg/5 ml
+SPTA2664	Spirolone  Tablets  25 mg
+SPTA2666	Spironolactone  Tablets  100 mg
+ALTA62	Aldactide 50  Tablets  
+EPTA19048NEMIS	Eplerenone  Tablets  25 mg
+SPCA18564NEMIS	Spironolactone And Furosemide  Capsules  50 mg + 20 mg
+SPOR9098BRIDL	Spironolactone  Oral suspension  25 mg/5 ml
+SPTA2666	Spironolactone  Tablets  100 mg
+SPCA5396	Spironolactone  Capsules  100 mg
+SPOR9104BRIDL	Spironolactone  Oral suspension  50 mg/5 ml
+ALTA61	Aldactide 25  Tablets  
+COTA9346HILLI	Co-Flumactone 50/50  Tablets  
+EPTA19050NEMIS	Eplerenone  Tablets  50 mg
+FIPO36530NEMIS	Firmagon  Powder and solvent for solution for injection  80 mg vial
+INTA19053NEMIS	Inspra  Tablets  50 mg
+EPTA19050NEMIS	Eplerenone  Tablets  50 mg
+INTA19053NEMIS	Inspra  Tablets  50 mg
+SPOR9098BRIDL	Spironolactone  Oral suspension  25 mg/5 ml
+TOTA29414EMIS	Toremifene  Tablets  60 mg

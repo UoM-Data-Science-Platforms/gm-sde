@@ -50,11 +50,11 @@ This project required the following reusable queries:
 Further details for each query can be found below.
 
 ### COVID vaccinations
-To obtain a table with first and second vaccine doses per patient.
+To obtain a table with first, second, third... etc vaccine doses per patient.
 
 _Assumptions_
 
-- GP records can often be duplicated. The assumption is that if a patient receives two vaccines within 14 days of each other then it is likely that both codes refer to the same vaccine. However, it is possible that the first code's entry into the record was delayed and therefore the second code is in fact a second dose. This query simply gives the earliest and latest vaccine for each person together with the number of days since the first vaccine.
+- GP records can often be duplicated. The assumption is that if a patient receives two vaccines within 14 days of each other then it is likely that both codes refer to the same vaccine.
 - The vaccine can appear as a procedure or as a medication. We assume that the presence of either represents a vaccination
 
 _Input_
@@ -67,8 +67,13 @@ _Output_
 A temp table as follows:
  #COVIDVaccinations (FK_Patient_Link_ID, VaccineDate, DaysSinceFirstVaccine)
  	- FK_Patient_Link_ID - unique patient id
-	- VaccineDate - date of vaccine (YYYY-MM-DD)
-	- DaysSinceFirstVaccine - 0 if first vaccine, > 0 otherwise
+	- VaccineDose1Date - date of first vaccine (YYYY-MM-DD)
+	-	VaccineDose2Date - date of second vaccine (YYYY-MM-DD)
+	-	VaccineDose3Date - date of third vaccine (YYYY-MM-DD)
+	-	VaccineDose4Date - date of fourth vaccine (YYYY-MM-DD)
+	-	VaccineDose5Date - date of fifth vaccine (YYYY-MM-DD)
+	-	VaccineDose6Date - date of sixth vaccine (YYYY-MM-DD)
+	-	VaccineDose7Date - date of seventh vaccine (YYYY-MM-DD)
 ```
 _File_: `query-get-covid-vaccines.sql`
 

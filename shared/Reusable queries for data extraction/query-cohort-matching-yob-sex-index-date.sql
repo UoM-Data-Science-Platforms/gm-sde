@@ -30,6 +30,15 @@
 --  - MatchingYearOfBirth - year of birth of the matched patient
 --  - MatchingIndexDate - index date for the matched patient
 
+
+-- TODO 
+-- A few things to consider when doing matching:
+--  - Consider removing "ghost patients" e.g. people without a primary care record
+--  - Consider matching on practice. Patients in different locations might have different outcomes. Also
+--    for primary care based diagnosing, practices might have different thoughts on severity, timing etc.
+--  - For instances where lots of cases have no matches, consider allowing matching to occur with replacement.
+--    I.e. a patient can match more than one person in the main cohort.
+
 -- First we copy the #PrimaryCohort table to avoid pollution
 IF OBJECT_ID('tempdb..#Cases') IS NOT NULL DROP TABLE #Cases;
 SELECT FK_Patient_Link_ID AS PatientId, YearOfBirth, Sex, IndexDate as IndexDate

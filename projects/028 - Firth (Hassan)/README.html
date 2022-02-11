@@ -138,10 +138,10 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </ul>
 <p>Further details for each query can be found below.</p>
 <h3>COVID vaccinations</h3>
-<p>To obtain a table with first and second vaccine doses per patient.</p>
+<p>To obtain a table with first, second, third... etc vaccine doses per patient.</p>
 <p><em>Assumptions</em></p>
 <ul>
-<li>GP records can often be duplicated. The assumption is that if a patient receives two vaccines within 14 days of each other then it is likely that both codes refer to the same vaccine. However, it is possible that the first code's entry into the record was delayed and therefore the second code is in fact a second dose. This query simply gives the earliest and latest vaccine for each person together with the number of days since the first vaccine.</li>
+<li>GP records can often be duplicated. The assumption is that if a patient receives two vaccines within 14 days of each other then it is likely that both codes refer to the same vaccine.</li>
 <li>The vaccine can appear as a procedure or as a medication. We assume that the presence of either represents a vaccination</li>
 </ul>
 <p><em>Input</em></p>
@@ -151,8 +151,13 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <pre><code>A temp table as follows:
  #COVIDVaccinations (FK_Patient_Link_ID, VaccineDate, DaysSinceFirstVaccine)
  	- FK_Patient_Link_ID - unique patient id
-	- VaccineDate - date of vaccine (YYYY-MM-DD)
-	- DaysSinceFirstVaccine - 0 if first vaccine, &gt; 0 otherwise
+	- VaccineDose1Date - date of first vaccine (YYYY-MM-DD)
+	-	VaccineDose2Date - date of second vaccine (YYYY-MM-DD)
+	-	VaccineDose3Date - date of third vaccine (YYYY-MM-DD)
+	-	VaccineDose4Date - date of fourth vaccine (YYYY-MM-DD)
+	-	VaccineDose5Date - date of fifth vaccine (YYYY-MM-DD)
+	-	VaccineDose6Date - date of sixth vaccine (YYYY-MM-DD)
+	-	VaccineDose7Date - date of seventh vaccine (YYYY-MM-DD)
 </code></pre>
 <p><em>File</em>: <code>query-get-covid-vaccines.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-covid-vaccines.sql">https://github.com/rw251/.../query-get-covid-vaccines.sql</a></p>
