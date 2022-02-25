@@ -1,0 +1,2 @@
+^ESCT1305304	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen detection result positive
+^ESCT1348538	Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen

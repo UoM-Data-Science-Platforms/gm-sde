@@ -1,0 +1,10 @@
+^ESCT1305238	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) qualitative existence in specimen
+^ESCT1348314	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive
+^ESCT1305235	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive 
+^ESCT1300228	COVID-19 confirmed by laboratory test GP COVID-19
+^ESCT1348316	2019-nCoV (novel coronavirus) ribonucleic acid detected
+^ESCT1301223	Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) using polymerase chain reaction technique
+^ESCT1348359	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection
+^ESCT1299053	Detection of 2019-nCoV (novel coronavirus) using polymerase chain reaction technique
+^ESCT1300228	COVID-19 confirmed by laboratory test
+^ESCT1348359	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection

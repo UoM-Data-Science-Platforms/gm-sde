@@ -1,0 +1,3 @@
+4J3R6	SARS-CoV-2 RNA pos lim detect
+A7952	COVID-19 confirmed by laboratory test
+43hF.	Detection of SARS-CoV-2 by PCR 
