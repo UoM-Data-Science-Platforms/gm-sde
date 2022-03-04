@@ -1,0 +1,12 @@
+^ESCT1303928	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive 
+^ESCT1299074	2019-nCoV (novel coronavirus) detected
+^ESCT1301230	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detected
+EMISNQCO303	Confirmed 2019-nCoV (Wuhan) infectio
+^ESCT1299075	Wuhan 2019-nCoV (novel coronavirus) detected
+^ESCT1300229	COVID-19 confirmed using clinical diagnostic criteria
+^ESCT1348575	Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)
+^ESCT1299074	2019-nCoV (novel coronavirus) detected
+^ESCT1300229	COVID-19 confirmed using clinical diagnostic criteria
+EMISNQCO303	Confirmed 2019-nCoV (novel coronavirus) infection
+EMISNQCO303	Confirmed 2019-nCoV (novel coronavirus) infection
+^ESCT1348575	Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)

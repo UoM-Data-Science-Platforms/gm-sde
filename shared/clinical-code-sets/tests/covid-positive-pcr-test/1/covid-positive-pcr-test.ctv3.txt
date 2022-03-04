@@ -1,0 +1,8 @@
+4J3R6	SARS-CoV-2 RNA pos lim detect
+Y240b	Severe acute respiratory syndrome coronavirus 2 qualitative existence in specimen (observable entity)
+Y2a3b	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive
+A7952	COVID-19 confirmed by laboratory test
+Y228d	Coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2 confirmed by laboratory test (situation)
+Y210e	Detection of 2019-nCoV (novel coronavirus) using polymerase chain reaction technique
+43hF.	Detection of SARS-CoV-2 by PCR 
+Y2a3d	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection

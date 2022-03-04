@@ -1,0 +1,3 @@
+4J3R1	2019-nCoV (novel coronavirus) detected 
+Y20d1	Confirmed 2019-nCov (Wuhan) infection
+Y23f7	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive
