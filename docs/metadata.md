@@ -3,8 +3,8 @@
 
 ## Outpatients
 
-|Tenancy    	 | Go live date |
-|-------------------------------|
+| Tenancy        | Go live date |
+| -------------- | ------------ |
 | Bolton    	 | 21/09/17	|
 | MFT/CMFT  	 | 03/01/18	|
 | MFT/UHSM  	 | 03/11/17	|
@@ -20,8 +20,8 @@
 
 ## Inpatients
 
-|Tenancy    	 | Go live date |
-|-------------------------------|
+| Tenancy    	 | Go live date |
+| -------------- | ------------ |
 | Bolton    	 | 09/02/18	|
 | MFT (CMFT)  	 | 03/01/18	|
 | MFT (UHSM)  	 | 03/11/17	|
@@ -37,8 +37,8 @@
 
 ## A&E
 
-|Tenancy    	 | Go live date |
-|-------------------------------|
+| Tenancy    	 | Go live date |
+| -------------- | ------------ |
 | Bolton    	 | 01/11/20	|
 | MFT (CMFT)  	 | 03/01/18	|
 | MFT (UHSM)  	 | 03/11/17	|
