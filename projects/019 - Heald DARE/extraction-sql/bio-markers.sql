@@ -244,6 +244,25 @@ sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
 -- >>> Following code sets injected: bmi v2/hba1c v2/cholesterol v2/ldl-cholesterol v1/hdl-cholesterol v1/vitamin-d v1/testosterone v1/sex-hormone-binding-globulin v1/egfr v1
 
+-- First lets get all the measurements in one place to improve query speed later on
+IF OBJECT_ID('tempdb..#biomarkerValues') IS NOT NULL DROP TABLE #biomarkerValues;
+SELECT 
+	FK_Patient_Link_ID,
+	CAST(EventDate AS DATE) AS EventDate,
+	FK_Reference_Coding_ID,
+	FK_Reference_SnomedCT_ID,
+	[Value]
+INTO #biomarkerValues
+FROM RLS.vw_GP_Events
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets)
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate >= @StartDate
+AND [Value] IS NOT NULL
+AND [Value] != '0'; -- In theory none of these markers should have a 0 value so this is a sensible default to exclude
+
 -- Get all biomarker values for the cohort
 IF OBJECT_ID('tempdb..#biomarkers') IS NOT NULL DROP TABLE #biomarkers;
 CREATE TABLE #biomarkers (
@@ -254,149 +273,77 @@ CREATE TABLE #biomarkers (
 );
 
 INSERT INTO #biomarkers
-SELECT 
-	FK_Patient_Link_ID,
-  'bmi' AS Label,
-	CAST(EventDate AS DATE) AS EventDate,
-	[Value]
-FROM RLS.vw_GP_Events
+SELECT FK_Patient_Link_ID, 'bmi' AS Label, EventDate, [Value]
+FROM #biomarkerValues
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'bmi' AND [Version] = 2)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'bmi' AND [Version] = 2))
-)
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate >= @StartDate
-AND [Value] IS NOT NULL
-AND [Value] != '0';
+);
 
 INSERT INTO #biomarkers
-SELECT 
-	FK_Patient_Link_ID,
-  'hba1c' AS Label,
-	CAST(EventDate AS DATE) AS EventDate,
-	[Value]
-FROM RLS.vw_GP_Events
+SELECT FK_Patient_Link_ID, 'hba1c' AS Label, EventDate, [Value]
+FROM #biomarkerValues
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'hba1c' AND [Version] = 2)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'hba1c' AND [Version] = 2))
-)
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate >= @StartDate
-AND [Value] IS NOT NULL
-AND [Value] != '0';
+);
 
 INSERT INTO #biomarkers
-SELECT 
-	FK_Patient_Link_ID,
-  'cholesterol' AS Label,
-	CAST(EventDate AS DATE) AS EventDate,
-	[Value]
-FROM RLS.vw_GP_Events
+SELECT FK_Patient_Link_ID, 'cholesterol' AS Label, EventDate, [Value]
+FROM #biomarkerValues
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'cholesterol' AND [Version] = 2)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'cholesterol' AND [Version] = 2))
-)
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate >= @StartDate
-AND [Value] IS NOT NULL
-AND [Value] != '0';
+);
 
 INSERT INTO #biomarkers
-SELECT 
-	FK_Patient_Link_ID,
-  'ldl' AS Label,
-	CAST(EventDate AS DATE) AS EventDate,
-	[Value]
-FROM RLS.vw_GP_Events
+SELECT FK_Patient_Link_ID, 'ldl-cholesterol' AS Label, EventDate, [Value]
+FROM #biomarkerValues
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'ldl-cholesterol' AND [Version] = 1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'ldl-cholesterol' AND [Version] = 1))
-)
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate >= @StartDate
-AND [Value] IS NOT NULL
-AND [Value] != '0';
+);
 
 INSERT INTO #biomarkers
-SELECT 
-	FK_Patient_Link_ID,
-  'hdl' AS Label,
-	CAST(EventDate AS DATE) AS EventDate,
-	[Value]
-FROM RLS.vw_GP_Events
+SELECT FK_Patient_Link_ID, 'hdl-cholesterol' AS Label, EventDate, [Value]
+FROM #biomarkerValues
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'hdl-cholesterol' AND [Version] = 1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'hdl-cholesterol' AND [Version] = 1))
-)
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate >= @StartDate
-AND [Value] IS NOT NULL
-AND [Value] != '0';
+);
 
 INSERT INTO #biomarkers
-SELECT 
-	FK_Patient_Link_ID,
-  'vitamin-d' AS Label,
-	CAST(EventDate AS DATE) AS EventDate,
-	[Value]
-FROM RLS.vw_GP_Events
+SELECT FK_Patient_Link_ID, 'vitamin-d' AS Label, EventDate, [Value]
+FROM #biomarkerValues
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'vitamin-d' AND [Version] = 1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'vitamin-d' AND [Version] = 1))
-)
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate >= @StartDate
-AND [Value] IS NOT NULL
-AND [Value] != '0';
+);
 
 INSERT INTO #biomarkers
-SELECT 
-	FK_Patient_Link_ID,
-  'testosterone' AS Label,
-	CAST(EventDate AS DATE) AS EventDate,
-	[Value]
-FROM RLS.vw_GP_Events
+SELECT FK_Patient_Link_ID, 'testosterone' AS Label, EventDate, [Value]
+FROM #biomarkerValues
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'testosterone' AND [Version] = 1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'testosterone' AND [Version] = 1))
-)
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate >= @StartDate
-AND [Value] IS NOT NULL
-AND [Value] != '0';
+);
 
 INSERT INTO #biomarkers
-SELECT 
-	FK_Patient_Link_ID,
-  'sex-hormone-binding-globulin' AS Label,
-	CAST(EventDate AS DATE) AS EventDate,
-	[Value]
-FROM RLS.vw_GP_Events
+SELECT FK_Patient_Link_ID, 'sex-hormone-binding-globulin' AS Label, EventDate, [Value]
+FROM #biomarkerValues
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'sex-hormone-binding-globulin' AND [Version] = 1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'sex-hormone-binding-globulin' AND [Version] = 1))
-)
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate >= @StartDate
-AND [Value] IS NOT NULL
-AND [Value] != '0';
+);
 
 INSERT INTO #biomarkers
-SELECT 
-	FK_Patient_Link_ID,
-  'egfr' AS Label,
-	CAST(EventDate AS DATE) AS EventDate,
-	[Value]
-FROM RLS.vw_GP_Events
+SELECT FK_Patient_Link_ID, 'egfr' AS Label, EventDate, [Value]
+FROM #biomarkerValues
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'egfr' AND [Version] = 1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'egfr' AND [Version] = 1))
-)
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate >= @StartDate
-AND [Value] IS NOT NULL
-AND [Value] != '0';
+);
 
 -- Final output
-SELECT * FROM #biomarkers
+SELECT FK_Patient_Link_ID AS PatientId, Label, EventDate, [Value] FROM #biomarkers
 ORDER BY FK_Patient_Link_ID, EventDate;
