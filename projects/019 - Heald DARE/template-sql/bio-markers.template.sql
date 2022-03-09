@@ -1,6 +1,6 @@
---┌────────────┐
---│ HbA1c file │
---└────────────┘
+--┌────────────────┐
+--│ Biomarker file │
+--└────────────────┘
 
 ------------------------ RDE CHECK -------------------------
 
@@ -15,9 +15,6 @@
 
 -- For each patient in the DARE cohort, this produces all biomarker readings
 -- since 2018-01-01.
-
--- TODO actually we now want 4 columns, so that we can include all bio readings and not just
--- hbA1c readings. We now also include bmi, hba1c, cholesterol, ldl, hdl etc..
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
