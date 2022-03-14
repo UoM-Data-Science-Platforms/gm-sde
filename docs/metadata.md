@@ -14,8 +14,7 @@
 | Pennine (Bury) | 24/07/19	|
 | Salford   	 | 01/05/20	|
 | Stockport 	 | 01/10/20	|
-| Tameside  	 | 23/10/17	|
-| Trafford  	 |		|	
+| Tameside  	 | 23/10/17	|	
 | WWL 	    	 | 		|
 
 ## Inpatients
@@ -31,8 +30,7 @@
 | Pennine (Bury) | 24/07/19	|
 | Salford   	 | 01/07/20	|
 | Stockport 	 | 01/05/20	|
-| Tameside  	 | 23/10/17	|
-| Trafford  	 |		|	
+| Tameside  	 | 23/10/17	|	
 | WWL 	    	 | 01/04/21	|
 
 ## A&E
@@ -47,7 +45,6 @@
 | Pennine (Bury) | 24/07/19	|
 | Salford   	 | 01/07/20	|
 | Stockport 	 | 01/12/20	|
-| Tameside  	 | 15/03/17	|
-| Trafford  	 |		|	
+| Tameside  	 | 15/03/17	|	
 | WWL 	    	 | 01/06/20	|
 
