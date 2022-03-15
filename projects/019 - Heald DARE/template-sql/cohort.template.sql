@@ -16,7 +16,7 @@
 -- CREATE TABLE #DAREPatients (NhsNo NVARCHAR(30));
 
 -- DEMOGRAPHIC
--- PatientId, YearOfBirth, DeathDate, DeathWithin28Days, Frailty, AnyInfection (or just upper/lower chest infection, sinusitis and pneumonia)
+-- PatientId, YearOfBirth, DeathDate, DeathWithin28Days, Frailty,
 -- Sex, LSOA, EthnicCategoryDescription, TownsendScoreHigherIsMoreDeprived, TownsendQuintileHigherIsMoreDeprived,
 -- COHORT SPECIFIC
 -- FirstDiagnosisDate, FirstT1DiagnosisDate, FirstT2DiagnosisDate, 1stCOVIDPositiveTestDate, 2ndCOVIDPositiveTestDate,
@@ -51,11 +51,11 @@ SELECT p.FK_Patient_Link_ID INTO #Patients
 FROM [RLS].vw_Patient p
 INNER JOIN #DAREPatients dp ON dp.NhsNo = p.NhsNo;
 
-TODO remove
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT TOP 200 FK_Patient_Link_ID INTO #Patients
-FROM [RLS].vw_Patient p
-GROUP BY FK_Patient_Link_ID;
+--Below is for testing without access to DARE nhs numbers
+--IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
+--SELECT TOP 200 FK_Patient_Link_ID INTO #Patients
+--FROM [RLS].vw_Patient p
+--GROUP BY FK_Patient_Link_ID;
 
 -- As it's a small cohort, it's quicker to get all data in to a temp table
 -- and then all subsequent queries will target that data
