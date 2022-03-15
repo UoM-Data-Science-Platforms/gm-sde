@@ -62,7 +62,7 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
 --> EXECUTE query-patient-ltcs.sql
 
---> EXECUTE query-get-covid-vaccines.sql
+--> EXECUTE query-get-covid-vaccines.sql gp-events-table:RLS.vw_GP_Events gp-medications-table:RLS.vw_GP_Medications
 
 -- find the first and second vaccine date for each patient
 

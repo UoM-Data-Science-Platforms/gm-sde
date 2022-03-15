@@ -5,7 +5,8 @@
 -- OBJECTIVE: To obtain a table with every secondary care discharge, along with the acute provider,
 --						and the date of discharge.
 
--- INPUT: No pre-requisites
+-- INPUT: One parameter
+--	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
 
 -- OUTPUT: A temp table as follows:
 -- #Discharges (FK_Patient_Link_ID, DischargeDate, AcuteProvider)
@@ -18,9 +19,27 @@
 
 -- Populate temporary table with discharges
 IF OBJECT_ID('tempdb..#Discharges') IS NOT NULL DROP TABLE #Discharges;
-SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, DischargeDate) AS DischargeDate, t.TenancyName AS AcuteProvider INTO #Discharges FROM [RLS].[vw_Acute_Inpatients] i
-LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
-WHERE EventType = 'Discharge'
-AND DischargeDate >= @StartDate;
+CREATE TABLE #Discharges (
+	FK_Patient_Link_ID BIGINT,
+	DischargeDate DATE,
+	AcuteProvider NVARCHAR(150)
+);
+BEGIN
+	IF '{param:all-patients}'='true'
+		INSERT INTO #Discharges
+    SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, DischargeDate) AS DischargeDate, t.TenancyName AS AcuteProvider 
+    FROM [RLS].[vw_Acute_Inpatients] i
+    LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
+    WHERE EventType = 'Discharge'
+    AND DischargeDate >= @StartDate;
+  ELSE
+		INSERT INTO #Discharges
+    SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, DischargeDate) AS DischargeDate, t.TenancyName AS AcuteProvider 
+    FROM [RLS].[vw_Acute_Inpatients] i
+    LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
+    WHERE EventType = 'Discharge'
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+    AND DischargeDate >= @StartDate;
+END
 -- 535285 rows	535285 rows
 -- 00:00:28		00:00:14

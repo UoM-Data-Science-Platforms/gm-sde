@@ -23,7 +23,7 @@
 --  - Patients  - the number of patients for this system supplier
 --  - PercentageOfPatients  - the percentage of patients for this system supplier with this concept
 
---> EXECUTE query-patients-with-covid.sql start-date:2020-01-01
+--> EXECUTE query-patients-with-covid.sql start-date:2020-01-01 all-patients:true gp-events-table:RLS.vw_GP_Events
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
