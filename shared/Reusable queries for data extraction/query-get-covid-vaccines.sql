@@ -11,7 +11,9 @@
 --  - The vaccine can appear as a procedure or as a medication. We assume that the
 --    presence of either represents a vaccination
 
--- INPUT: No pre-requisites
+-- INPUT: Takes two parameters:
+--	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+--	- gp-medications-table: string - (table name) the name of the table containing the GP medications. Usually is "RLS.vw_GP_Medications" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 
 -- OUTPUT: A temp table as follows:
 -- #COVIDVaccinations (FK_Patient_Link_ID, VaccineDate, DaysSinceFirstVaccine)
@@ -30,7 +32,7 @@
 
 IF OBJECT_ID('tempdb..#VacEvents') IS NOT NULL DROP TABLE #VacEvents;
 SELECT FK_Patient_Link_ID, CONVERT(DATE, EventDate) AS EventDate into #VacEvents
-FROM [RLS].[vw_GP_Events]
+FROM {param:gp-events-table}
 WHERE SuppliedCode IN (
 	SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
 )
@@ -38,7 +40,7 @@ AND EventDate > '2020-12-01';
 
 IF OBJECT_ID('tempdb..#VacMeds') IS NOT NULL DROP TABLE #VacMeds;
 SELECT FK_Patient_Link_ID, CONVERT(DATE, MedicationDate) AS EventDate into #VacMeds
-FROM [RLS].[vw_GP_Medications]
+FROM {param:gp-medications-table}
 WHERE SuppliedCode IN (
 	SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
 )

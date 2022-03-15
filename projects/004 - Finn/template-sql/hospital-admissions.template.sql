@@ -33,13 +33,13 @@ SET @StartDate = '2020-02-01';
 --> EXECUTE query-classify-secondary-admissions.sql
 -- OUTPUT: #AdmissionTypes (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, AdmissionType)
 
---> EXECUTE query-get-admissions-and-length-of-stay.sql
+--> EXECUTE query-get-admissions-and-length-of-stay.sql all-patients:true
 -- OUTPUT: 
 -- #LengthOfStay (FK_Patient_Link_ID, AdmissionDate, DischargeDate, LengthOfStay)
 -- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
 
 -- Get all positive covid test dates for each patient
---> EXECUTE query-patients-with-covid.sql start-date:2020-02-01
+--> EXECUTE query-patients-with-covid.sql start-date:2020-02-01 all-patients:true gp-events-table:RLS.vw_GP_Events
 -- Output: #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
 
 -- Modified query-admissions-covid-utilisation.sql to retrieve all covid positive dates not just the first covid date 

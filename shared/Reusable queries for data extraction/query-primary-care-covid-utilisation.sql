@@ -8,6 +8,8 @@
 
 -- INPUT: Takes one parameter
 --  - start-date: string - (YYYY-MM-DD) the date to count COVID diagnoses from. Usually this should be 2020-01-01.
+--	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+--	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 -- And assumes there exists two temp tables as follows:
 -- #Patients (FK_Patient_Link_ID)
 --  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
@@ -23,7 +25,7 @@
 --	- CovidHealthcareUtilisation - 'TRUE' if event within 4 weeks after, or up to 14 days before, a positive test
 
 -- Get positive covid test dates for each patient
---> EXECUTE query-patients-with-covid.sql start-date:{param:start-date}
+--> EXECUTE query-patients-with-covid.sql start-date:{param:start-date} all-patients:{param:all-patients} gp-events-table:{param:gp-events-table}
 
 IF OBJECT_ID('tempdb..#COVIDUtilisationPrimaryCare') IS NOT NULL DROP TABLE #COVIDUtilisationPrimaryCare;
 SELECT 

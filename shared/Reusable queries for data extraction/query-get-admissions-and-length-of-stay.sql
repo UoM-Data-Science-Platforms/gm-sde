@@ -5,7 +5,8 @@
 -- OBJECTIVE: To obtain a table with every secondary care admission, along with the acute provider,
 --						the date of admission, the date of discharge, and the length of stay.
 
--- INPUT: No pre-requisites
+-- INPUT: One parameter
+--	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
 
 -- OUTPUT: Two temp table as follows:
 -- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
@@ -26,14 +27,30 @@
 -- Convert AdmissionDate to a date to avoid issues where a person has two admissions
 -- on the same day (but only one discharge)
 IF OBJECT_ID('tempdb..#Admissions') IS NOT NULL DROP TABLE #Admissions;
-SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) AS AdmissionDate, t.TenancyName AS AcuteProvider INTO #Admissions FROM [RLS].[vw_Acute_Inpatients] i
-LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
-WHERE EventType = 'Admission'
-AND AdmissionDate >= @StartDate;
--- 523477 rows	523477 rows
--- 00:00:19		00:00:15
+CREATE TABLE #Admissions (
+	FK_Patient_Link_ID BIGINT,
+	AdmissionDate DATE,
+	AcuteProvider NVARCHAR(150)
+);
+BEGIN
+	IF '{param:all-patients}'='true'
+		INSERT INTO #Admissions
+		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) AS AdmissionDate, t.TenancyName AS AcuteProvider
+		FROM [RLS].[vw_Acute_Inpatients] i
+		LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
+		WHERE EventType = 'Admission'
+		AND AdmissionDate >= @StartDate;
+	ELSE
+		INSERT INTO #Admissions
+		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) AS AdmissionDate, t.TenancyName AS AcuteProvider
+		FROM [RLS].[vw_Acute_Inpatients] i
+		LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
+		WHERE EventType = 'Admission'
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+		AND AdmissionDate >= @StartDate;
+END
 
---> EXECUTE query-get-discharges.sql
+--> EXECUTE query-get-discharges.sql all-patients:{param:all-patients}
 
 -- Link admission with discharge to get length of stay
 -- Length of stay is zero-indexed e.g. 
