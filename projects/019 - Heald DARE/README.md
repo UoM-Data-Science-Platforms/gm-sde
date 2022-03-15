@@ -53,7 +53,8 @@ To obtain a table with every secondary care admission, along with the acute prov
 
 _Input_
 ```
-No pre-requisites
+One parameter
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
 ```
 
 _Output_
@@ -83,7 +84,8 @@ To obtain a table with every secondary care discharge, along with the acute prov
 
 _Input_
 ```
-No pre-requisites
+One parameter
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
 ```
 
 _Output_
@@ -141,7 +143,9 @@ _Assumptions_
 
 _Input_
 ```
-No pre-requisites
+Takes two parameters:
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+	- gp-medications-table: string - (table name) the name of the table containing the GP medications. Usually is "RLS.vw_GP_Medications" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 ```
 
 _Output_
@@ -228,6 +232,8 @@ _Input_
 Assumes there exists a temp table as follows:
  #Patients (FK_Patient_Link_ID)
   A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+ Also takes one parameter:
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID, and FK_Reference_SnomedCT_ID
 ```
 
 _Output_
@@ -309,8 +315,10 @@ To get tables of all patients with a COVID diagnosis in their record. This now i
 
 _Input_
 ```
-Takes one parameter
+Takes three parameters
   - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 ```
 
 _Output_
