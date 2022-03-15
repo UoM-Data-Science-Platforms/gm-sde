@@ -123,7 +123,7 @@ SELECT MatchingPatientId FROM #CohortStore;
 
 
 --> EXECUTE query-get-admissions-and-length-of-stay.sql all-patients:true
---> EXECUTE query-admissions-covid-utilisation.sql start-date:'2020-01-31'
+--> EXECUTE query-admissions-covid-utilisation.sql start-date:'2020-01-31' all-patients:true gp-events-table:RLS.vw_GP_Events
 
 
 ----- create anonymised identifier for each hospital

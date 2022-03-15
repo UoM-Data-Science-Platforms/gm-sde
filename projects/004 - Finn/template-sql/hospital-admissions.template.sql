@@ -39,7 +39,7 @@ SET @StartDate = '2020-02-01';
 -- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
 
 -- Get all positive covid test dates for each patient
---> EXECUTE query-patients-with-covid.sql start-date:2020-02-01
+--> EXECUTE query-patients-with-covid.sql start-date:2020-02-01 all-patients:true gp-events-table:RLS.vw_GP_Events
 -- Output: #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
 
 -- Modified query-admissions-covid-utilisation.sql to retrieve all covid positive dates not just the first covid date 
