@@ -118,7 +118,7 @@ SELECT MatchingPatientId FROM #CohortStore;
 
 */
 
---> EXECUTE query-get-admissions-and-length-of-stay.sql
+--> EXECUTE query-get-admissions-and-length-of-stay.sql all-patients:true
 --> EXECUTE query-admissions-covid-utilisation.sql start-date:'2019-07-01'
 --> EXECUTE query-classify-secondary-admissions.sql
 

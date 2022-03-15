@@ -33,7 +33,7 @@ SET @StartDate = '2020-02-01';
 --> EXECUTE query-classify-secondary-admissions.sql
 -- OUTPUT: #AdmissionTypes (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, AdmissionType)
 
---> EXECUTE query-get-admissions-and-length-of-stay.sql
+--> EXECUTE query-get-admissions-and-length-of-stay.sql all-patients:true
 -- OUTPUT: 
 -- #LengthOfStay (FK_Patient_Link_ID, AdmissionDate, DischargeDate, LengthOfStay)
 -- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
