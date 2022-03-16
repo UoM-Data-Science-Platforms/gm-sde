@@ -1,0 +1,6 @@
+235919008	Gallbladder calculus
+235919008	Gallstone   
+435121000124109	Calculus of gallbladder and bile duct with cholecystitis   
+699050007	Calculus of gallbladder with acute and chronic cholecystitis
+435161000124103	Calculus of gallbladder and bile duct with acute and chronic cholecystitis
+25924004	Calculus of gallbladder with cholecystitis   

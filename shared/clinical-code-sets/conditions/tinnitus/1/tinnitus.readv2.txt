@@ -1,0 +1,7 @@
+1C2..	Tinnitus symptoms
+1C2Z.	Tinnitus symptom NOS
+F583.	Tinnitus
+F5830	Unspecified tinnitus
+F5831	Subjective tinnitus
+F5832	Objective tinnitus
+F583z	Tinnitus NOS

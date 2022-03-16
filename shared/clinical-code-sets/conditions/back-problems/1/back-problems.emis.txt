@@ -1,0 +1,8 @@
+EMISNQLO20	Lower back injury
+^ESCTDI253562	Discitis
+^ESCTLU440534	Lumbar radiculopathy
+EGTON436	Radiculopathy
+EMISNQCO123	Correction of scoliosis
+EMISNQLA75	Laminectomy
+EMISNQLO20	Lower back injury
+EMISNQTH14	Thoracic back pain

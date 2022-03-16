@@ -1,0 +1,4 @@
+52702003	Chronic fatigue syndrome
+377181000000104	Mild chronic fatigue syndrome
+377171000000101	Moderate chronic fatigue syndrome
+377161000000108	Severe chronic fatigue syndrome

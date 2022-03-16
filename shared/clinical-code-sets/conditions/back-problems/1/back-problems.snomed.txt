@@ -1,0 +1,107 @@
+123798002	Lumbosacral spondylosis
+125608002	Fracture of lumbar spine
+125872003	Fracture of sacrum
+128196005	Lumbar radiculopathy
+134407002	Chronic back pain
+161891005	Backache
+178771000	Exploration of spine
+18347007	Spinal stenosis of lumbar region
+202487003	Sacroiliac joint pain
+202708005	Prolapsed lumbar intervertebral disc
+203095000	Spasm of back muscles
+203438009	Vertebral osteoporosis
+209548004	Sprain; lumbosacral ligament
+209565008	Lumbar sprain
+22791004	X-ray of lumbosacral spine
+2304001	Discitis
+239542002	Lumbar discectomy
+239880009	Osteoarthritis of lumbar spine
+240219003	Spinal claudication
+240221008	Spondylolysis
+2415007	Lumbosacral radiculopathy
+241577003	CT of spine
+241580002	CT of lumbar spine
+241645008	Magnetic resonance imaging of spine
+241648005	MRI of lumbar spine
+243338005	Nerve root compression syndrome
+247369005	Facet joint pain
+24856003	Diagnostic radiography of coccyx
+249921008	Stiff back
+260649000	Lumbar microdiscectomy
+262521009	Spinal injury
+264082005	Lumbar
+26538006	Degeneration of lumbar intervertebral disc
+267982002	Pain in lumbar spine
+274152003	Spondylolisthesis
+275249009	Correction of scoliosis
+278860009	Chronic lower back pain
+279039007	Low back pain
+281598004	Sprain of spinal ligament
+281933002	Crush fracture of lumbar vertebra
+282764008	Injury of coccyx
+282766005	Lower back injury
+283165009	Decompression laminectomy
+298382003	Scoliosis deformity of spine
+298591003	Scoliosis of lumbar spine
+299966003	Compression of lumbar nerve root
+300956001	Low back strain
+302129007	Decompression of lumbar spine
+302258001	Back problem
+303697006	CT of lumbar region
+307138004	Spondylolisthesis L5/S1 level
+309710005	Lumbosacral strain
+314668006	Wedge fracture of vertebra
+3418002	Chondrectomy of spine
+34789001	Pain in the coccyx
+356139006	Lumbosacral spine
+371082009	Arthritis of spine
+18347007	Stenosis of intervertebral foramina
+372109003	Disorder of joint of spine
+37822005	Lower back structure
+387731002	Laminectomy
+392236004	Operative procedure on spinal structure
+401226007	Vertebroplasty
+425585009	L5/S1 disc
+427094005	L4/5 disc
+429350001	Arthropathy of spinal facet joint
+429377005	Lumbar laminectomy
+42942008	Compression fracture of vertebral column
+430886005	Disorder of vertebra
+44275008	Manipulation of spine
+443395009	Compression fracture
+445734009	Fracture of body of vertebra
+48210000	Lumbosacral spondylosis without myelopathy
+49668003	Bone structure of L5
+50172003	Lumbar spinal fusion
+50448004	Fracture of vertebral column
+52612000	Lumbar region back structure
+53332000	Spinal arthritis deformans
+54735007	Bone structure of sacrum
+55146009	Sacroiliac joint inflamed
+55705006	Spinal arthrodesis
+608830002	Discogenic pain
+61486003	Sacral back pain
+61960001	Lordosis deformity of spine
+64217002	Curvature of spine
+64688005	Bone structure of coccyx
+67721000	Sacroiliac arthrodesis
+68859000	Spondylosis without myelopathy
+72274001	Nerve root disorder
+73589001	Intervertebral disc prolapse
+76107001	Spinal stenosis
+77547008	Degeneration of intervertebral disc
+79760008	Radiography of spine
+81102000	Injury of back
+84172003	Spondylitis
+8847002	Spondylosis
+279038004	Thoracic back pain 
+279035001	Acute thoracic back pain 
+136791000119103	Chronic thoracic back pain
+298311000000108	Left sided thoracic back pain
+41321000119101	Myofascial pain syndrome of thoracic spine
+267981009	Pain in thoracic spine 
+298301000000106	Right sided thoracic back pain
+298254008	Thoracic facet joint pain 
+279037009	Thoracic segmental dysfunction 
+425991004	Cervicothoracic segmental dysfunction
+298579007	Thoracic spine - painful on movement 
