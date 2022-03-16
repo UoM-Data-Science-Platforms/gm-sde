@@ -2,9 +2,9 @@
 --│ Diabetes and COVID cohort file │
 --└────────────────────────────────┘
 
------------------------- RDE CHECK -------------------------
---
-------------------------------------------------------------
+------------------------ RDE CHECK ---------------------
+-- George Tilston  - 16 March 2022 - via pull request --
+--------------------------------------------------------
 
 -- Cohort is patients included in the DARE study. The below queries produce the data
 -- that is required for each patient. However, a filter needs to be applied to only

@@ -2,7 +2,9 @@
 --│ Biomarker file │
 --└────────────────┘
 
------------------------- RDE CHECK -------------------------
+------------------------ RDE CHECK ---------------------
+-- George Tilston  - 16 March 2022 - via pull request --
+--------------------------------------------------------
 
 -- Cohort is patients included in the DARE study. The below queries produce the data
 -- that is required for each patient. However, a filter needs to be applied to only
@@ -260,6 +262,7 @@ WHERE (
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND EventDate >= @StartDate
+AND UPPER([Value]) NOT LIKE '%[A-Z]%' -- Remove any value that contains text. The only valid character is "e" in scientific notation e.g. 2e17 - but none of these values will be in that range
 AND [Value] IS NOT NULL
 AND [Value] != '0'; -- In theory none of these markers should have a 0 value so this is a sensible default to exclude
 
