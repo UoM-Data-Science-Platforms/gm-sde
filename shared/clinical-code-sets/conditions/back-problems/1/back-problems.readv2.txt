@@ -1,0 +1,178 @@
+16C4.00	Back pain worse on sneezing
+16C5.00	C/O - low back pain
+16C6.00	Back pain without radiation NOS
+16C9.00	Chronic low back pain
+16CA.00	Mechanical low back pain
+1A53.12	C/O - lumbar pain
+25C..13	O/E - lumbar pain on palpation
+25C5.00	O/E - abd. pain - R.lumbar
+25C7.00	O/E - abd. pain - L.lumbar
+8HTH.00	Referral to back pain clinic
+F350.00	Sciatic nerve lesion
+J3A..00	Sciatic hernia
+J3A0.00	Sciatic hernia with gangrene
+J3A1.00	Sciatic hernia with obstruction
+J3A2.00	Sciatic hernia - irreducible
+J3A3.00	Simple sciatic hernia
+J3Ay.00	Unspecified sciatic hernia
+J3Az.00	Sciatic hernia NOS
+N12..13	Acute back pain - disc
+N12C400	Prolapsed lumbar intervertebral disc with sciatica
+N140.00	Spinal stenosis; excluding cervical region
+N140000	Spinal stenosis of unspecified region
+N140100	Thoracic spinal stenosis
+N140.11	Spinal stenosis
+N140200	Lumbar spinal stenosis
+N140300	Idiopathic thoracic spinal stenosis
+N140400	Degenerative thoracic spinal stenosis
+N140500	Iatrogenic thoracic spinal stenosis
+N140600	Thoracic spinal stenosis secondary to other disease
+N140700	Idiopathic lumbar spinal stenosis
+N140800	Degenerative lumbar spinal stenosis
+N140900	Iatrogenic lumbar spinal stenosis
+N140A00	Lumbar spinal stenosis secondary to other disease
+N140z00	Spinal stenosis NOS
+N141.00	Pain in thoracic spine
+N141.11	Acute back pain - thoracic
+n142.00	Pain in lumbar spine
+N142.00	Pain in lumbar spine
+N142000	Lumbago with sciatica
+N142.11	Low back pain
+N142.12	Lumbalgia
+N142.13	Acute back pain - lumbar
+N142.14	Lumbago
+N143.00	Sciatica
+N143.11	Acute back pain with sciatica
+N144.00	Thoracic and lumbosacral neuritis
+N144000	Thoracic neuritis; unspecified
+N144011	Thoracic nerve root pain
+N144100	Lumbosacral neuritis; unspecified
+N144z00	Thoracic and lumbosacral neuritis NOS
+N145.00	Backache; unspecified
+N145.11	Acute back pain - unspecified
+N145.12	Back pain; unspecified
+N146000	Lumbosacral ankylosis
+N146100	Sacroiliac ankylosis
+N146200	Sacral ankylosis NOS
+N146300	Lumbosacral instability
+N146311	Lumbosacral strain
+N146400	Sacroiliac instability
+N146500	Sacral instability NOS
+N146600	Sacroiliac disorder
+N146z11	Sacroiliac strain
+N147100	Hypermobility of the coccyx
+N147200	Coccygodynia
+N147211	Pain in coccyx
+N148.00	Ankylosis/instability of cervical;thoracic or lumbar spine
+N148000	Atlanto-occipital ankylosis
+N148100	Atlanto-axial ankylosis
+N148200	Cervical spine ankylosis
+N148300	Cervico-thoracic ankylosis
+N148400	Thoracic spine ankylosis
+N148500	Thoraco-lumbar ankylosis
+N148600	Lumbar spine ankylosis
+N148700	Atlanto-occipital instability
+N148800	Atlanto-axial instability
+N148900	Cervical spine instability
+N148A00	Cervico-thoracic instability
+N148B00	Thoracic spine instability
+N148C00	Lumbar spine instability
+N149.00	Back stiffness
+N14y.11	Facet joint syndrome
+N14z.11	Ankylosis of spine NOS
+N23yE00	Spasm of back muscles
+SJ60.00	Sciatic nerve injury
+SJ60000	Closed injury sciatic nerve
+SJ60100	Open injury sciatic nerve
+16C..	Backache symptom
+16C2.	Backache
+16CZ.	Backache symptom NOS
+525..	Spine X-ray
+5257.	Plain X-ray lumbar/sacral spine
+5258.	Plain X-ray sacrum/coccyx
+525Z.	Plain X-ray spine NOS
+569P.	Magnetic resonance imaging of lumbar spine
+7J34.	Other primary fusion of joint of lumbar spine
+7J340	Bosworth posterior interlaminal fusion of lumbar spine
+7J34y	Other specified primary fusion of joint of lumbar spine
+7J34z	Primary fusion of joint of lumbar spine NOS
+7J35.	Other revisional fusion of joint of lumbar spine
+7J35z	Revision of lumbar fusion NOS
+7J4..	Other spine operations, site unspecified
+7J404	Excision of intervertebral disc NEC
+7J406	Revisional excision of intervertebral disc NEC
+7J40w	Other specified excision of intervertebral disc
+7J40x	Excision of intervertebral disc NOS
+7J45.	Other correction of deformity of spine
+7J45y	Other specified correction of deformity of spine
+7J45z	Correction of deformity of spine NOS
+7J47.	Exploration of spine
+7J47y	Other specified exploration of spine
+7J47z	Exploration of spine NOS
+7J48.	Other ops on spine and vertebra
+7J480	Excision of lesion of spine NEC
+7J484	Manipulation of spine NEC
+7J48M	Vertebroplasty
+7J48v	Manipulation of spine NOS
+7J48y	Other specified other operation on spine
+7J4y.	Other specified spine operations, site unspecified
+7J4z.	Other operations on parts of spine not otherwise specified
+7N93S	[SO]L5 vertebra
+7NA76	[SO]Coccyx
+7NB2b	[SO]Lumbar region
+7P023	Computed tomography of spine
+7P024	Magnetic resonance imaging of spine
+7P025	Computed tomography of lumbar spine
+F334.	Lumbosacral root lesions NEC
+N05zK	Osteoarthritis NOS, of sacro-iliac joint
+N094L	Arthralgia of sacro-iliac joint
+N102.	Sacroiliitis NEC
+N10z.	Spondylitis NOS
+N11..	Osteoarthritis of spine
+N114.	Lumbosacral spondylosis without myelopathy
+N11D.	Osteoarthritis of spine
+N11D2	Osteoarthritis of lumbar spine
+N11D3	Osteoarthritis of spine NOS
+N11y.	Other spondyloses and allied disorders
+N11z.	Osteoarthritis spine
+N11z0	Spondylosis without myelopathy, NOS
+N11zz	Spondylosis NOS
+N122.	Lumber disc bulge
+N123.	Intervertebral disc prolapse NOS
+N127.	Lumbar disc degeneration
+N128.	Degenerative disc disease NOS
+N14..	Other and unspecified back disorders
+N330B	Vertebral osteoporosis
+N37..	Curvature of spine
+N3739	Scoliosis secondary to other treatment
+N373z	Kyphoscoliosis or scoliosis NOS
+N3743	Scoliosis associated with other condition
+N374W	Lordosis, unspecified
+N37z.	Curvature of spine NOS
+N37zz	Curvature of spine NOS
+N388.	Spondylolysis
+Nyu52	[X]Other lordosis
+Nyu55	[X]Other forms of scoliosis
+Nyu56	[X]Other fusion of spine
+Nyu5A	[X]Lordosis, unspecified
+Nyu6.	[X]Spondylopathies
+Nyu63	[X]Other spondylosis with radiculopathy
+Nyu64	[X]Other spondylosis
+Nyu67	[X]Collapsed vertebra in diseases classified elsewhere
+Nyu70	[X]Other cervical disc displacement
+Nyu76	[X]Other specified intervertebral disc degeneration
+S10B0	Fracture of lumbar vertebra
+S10B1	Fracture of sacrum
+S560.	Sprain, lumbosacral ligament
+S57..	Sprain of other parts of back
+S572.	Lumbar sprain
+S57X.	Sprain and strain of other and unspecified parts of lumbar spine and pelvis
+S57z.	Back sprain NOS
+Syu36	[X]Sprain and strain of other and unspecified parts of lumbar spine and syu37pelvis
+Syu37	[X]Lower back injury
+Zw040	[Q] Central disc prolapse
+Zw041	[Q] Posterolateral disc prolapse
+Zw042	[Q] Sequestrated disc prolapse
+Zw043	[Q] Central spinal stenosis
+Zw044	[Q] Lateral spinal stenosis
+Zw045	[Q] Central and lateral spinal stenosis

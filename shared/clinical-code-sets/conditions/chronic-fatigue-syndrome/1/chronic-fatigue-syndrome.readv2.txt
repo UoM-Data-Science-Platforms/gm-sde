@@ -1,0 +1,9 @@
+Xa01F	Chronic fatigue syndrome
+XaPom	Mild chronic fatigue syndrome
+XaPon	Moderate chronic fatigue syndrome
+XaPoo	Severe chronic fatigue syndrome
+F03y.	Myalgic encephalomyelitis
+F286.	Myalgic encephalomyelitis
+F2860	Mild chronic fatigue syndrome
+F2861	Moderate chronic fatigue syndrome
+F2862	Severe chronic fatigue syndrome

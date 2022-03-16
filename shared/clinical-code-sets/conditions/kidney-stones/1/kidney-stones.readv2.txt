@@ -1,0 +1,9 @@
+4G4..	O/E: kidney stone
+4G42.	O/E: phosphate -staghorn-stone
+4G4Z.	O/E: renal stone NOS
+C3411	Renal stone - uric acid
+K1006	Calculous pyelonephritis
+K12..	Calculus of kidney and ureter
+K120.	Calculus of kidney
+K122.	Calculus of kidney with calculus of ureter
+PD31.	Congenital calculus of kidney

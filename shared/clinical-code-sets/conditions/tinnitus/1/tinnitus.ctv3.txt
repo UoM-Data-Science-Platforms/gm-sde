@@ -1,0 +1,27 @@
+1C2Z.	Tinnitus symptom NOS
+F583.	(Tinnitus) or (hearing noises)
+F5830	Unspecified tinnitus
+F5831	Subjective tinnitus
+F5832	Objective tinnitus
+F583z	Tinnitus NOS
+X00kF	Noise-induced tinnitus
+X00kG	Tinnitus of muscular origin
+X00kH	Tinnitus arising from tensor tympani
+X00kI	Tinnitus arising from tensor palatini
+X00kJ	Tinnitus of vascular origin
+X00kK	Tinnitus due to spontaneous oto-acoustic emission
+X77fg	Tinnitus assessment
+X77fh	Temporal decay of masking of tinnitus
+X77fi	Residual inhibition of tinnitus
+X77fi	RI - Residual inhibition of tinnitus
+Xa0Os	Tinnitus pitch match
+Xa0Ot	Tinnitus loudness match
+Xa0Ou	Tinnitus loudness match to frequency of pitch match
+Xa0Ov	Tinnitus loudness match to frequency of best hearing threshold
+Xa0Ow	Minimal masking level for tinnitus
+Xa4hy	Fit tinnitus masker
+Xa7Rv	Observation of tinnitus
+XaAee	Referral to tinnitus management service
+XaC6E	Tinnitus management service
+XE17L	Tinnitus
+1C2..	Noises in ear

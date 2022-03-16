@@ -1,0 +1,24 @@
+14CE.	H/O: gall stones
+1J5..	Suspected gallstones
+4775.	Faeces: gall stones present
+4G2..	O/E: gall stone
+4G21.	O/E: cholesterol gall stone
+4G22.	O/E: pigment gall stone
+4G2Z.	O/E: gall stone NO
+8CMWD	On gallstone care pathway
+J5030	Gallstone ileus
+J64..	Gallbladder calculus
+J640.	Gallbladder calculus with acute cholecystitis
+J6400	Gallbladder calculus with acute cholecystitis and no obstruction
+J6401	Gallbladder calculus with acute cholecystitis and obstruction
+J640z	Gallbladder calculus with acute cholecystitis and obstruction NOS
+J641.	Gallbladder calculus with other cholecystitis
+J6410	Gallbladder calculus with other cholecystitis and no obstruction
+J6411	Gallbladder calculus with other cholecystitis and obstruction
+J641z	Gallbladder calculus with other cholecystitis and obstruction NOS
+J642.	Gallbladder calculus without mention of cholecystitis
+J6420	Gallbladder calculus without mention of cholecystitis and no obstruction
+J6421	Gallbladder calculus without mention of cholecystitis and with obstruction
+J642z	Gallbladder calculus without mention of cholecystitis and obstruction NOS
+J6705	Gallstone acute pancreatitis
+J6711	Gallstone chronic pancreatitis
