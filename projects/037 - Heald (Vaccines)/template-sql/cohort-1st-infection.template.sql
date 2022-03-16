@@ -2,9 +2,9 @@
 --│ Diabetes and COVID and Vaccines cohort file │
 --└─────────────────────────────────────────────┘
 
------------------------- RDE CHECK -------------------------
---
-------------------------------------------------------------
+------------------------ RDE CHECK ---------------------
+-- George Tilston  - 16 March 2022 - via pull request --
+--------------------------------------------------------
 
 -- Cohort is patients with a diagnosies of diabetes who have had at least one positive COVID test.
 -- The below queries produce the data that is required for each patient and the matched cohort

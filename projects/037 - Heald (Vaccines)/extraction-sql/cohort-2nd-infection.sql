@@ -2,9 +2,9 @@
 --│ Diabetes and COVID x2 and Vaccines cohort file │
 --└────────────────────────────────────────────────┘
 
------------------------- RDE CHECK -------------------------
---
-------------------------------------------------------------
+------------------------ RDE CHECK ---------------------
+-- George Tilston  - 16 March 2022 - via pull request --
+--------------------------------------------------------
 
 -- Cohort is patients with a diagnosies of diabetes who have had at least two positive COVID test.
 -- The below queries produce the data that is required for each patient and the matched cohort. Matching
@@ -1517,6 +1517,7 @@ TRUNCATE TABLE #Patients;
 INSERT INTO #Patients
 SELECT FK_Patient_Link_ID
 FROM #PatientIdsAndIndexDates;
+
 IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
 SELECT 
   FK_Patient_Link_ID,
@@ -1527,7 +1528,9 @@ SELECT
   [Value]
 INTO #PatientEventData
 FROM [RLS].vw_GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientIdsAndIndexDates);
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientIdsAndIndexDates)
+AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
+
 IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
 SELECT 
   FK_Patient_Link_ID,
