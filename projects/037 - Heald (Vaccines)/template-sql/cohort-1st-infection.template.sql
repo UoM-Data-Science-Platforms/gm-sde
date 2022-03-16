@@ -46,32 +46,11 @@ SET @MedicationsFromDate = DATEADD(month, -6, @StartDate);
 DECLARE @EventsFromDate datetime;
 SET @EventsFromDate = DATEADD(year, -2, @StartDate);
 
--- TODO DELETE THIS
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT TOP 200 FK_Patient_Link_ID INTO #Patients
-FROM [RLS].vw_Patient p
-GROUP BY FK_Patient_Link_ID;
-IF OBJECT_ID('tempdb..#TEMPPatientEventData') IS NOT NULL DROP TABLE #TEMPPatientEventData;
-SELECT 
-  FK_Patient_Link_ID,
-  CAST(EventDate AS DATE) AS EventDate,
-  SuppliedCode,
-  FK_Reference_SnomedCT_ID,
-  FK_Reference_Coding_ID,
-  [Value]
-INTO #TEMPPatientEventData
-FROM [RLS].vw_GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
--- END DELETE THIS
-
-TODO
-- revert #TEMPPatientEventData to RLS.vw_GP_Events
-
 -- First get all the diabetic (type 1/type 2/other) patients and the date of first diagnosis
 --> CODESET diabetes:1
 IF OBJECT_ID('tempdb..#DiabeticPatients') IS NOT NULL DROP TABLE #DiabeticPatients;
 SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstDiagnosisDate INTO #DiabeticPatients
-FROM #TEMPPatientEventData
+FROM RLS.vw_GP_Events
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes') AND [Version]=1)
@@ -82,7 +61,7 @@ GROUP BY FK_Patient_Link_ID;
 --> CODESET diabetes-type-i:1
 IF OBJECT_ID('tempdb..#DiabeticTypeIPatients') IS NOT NULL DROP TABLE #DiabeticTypeIPatients;
 SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstT1DiagnosisDate INTO #DiabeticTypeIPatients
-FROM #TEMPPatientEventData
+FROM RLS.vw_GP_Events
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes-type-i') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes-type-i') AND [Version]=1)
@@ -92,7 +71,7 @@ GROUP BY FK_Patient_Link_ID;
 --> CODESET diabetes-type-ii:1
 IF OBJECT_ID('tempdb..#DiabeticTypeIIPatients') IS NOT NULL DROP TABLE #DiabeticTypeIIPatients;
 SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstT2DiagnosisDate INTO #DiabeticTypeIIPatients
-FROM #TEMPPatientEventData
+FROM RLS.vw_GP_Events
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes-type-ii') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes-type-ii') AND [Version]=1)
@@ -100,21 +79,13 @@ WHERE (
 GROUP BY FK_Patient_Link_ID;
 
 -- Then get all the positive covid test patients
---> EXECUTE query-patients-with-covid.sql start-date:2020-01-01 all-patients:true gp-events-table:#TEMPPatientEventData
+--> EXECUTE query-patients-with-covid.sql start-date:2020-01-01 all-patients:true gp-events-table:RLS.vw_GP_Events
 
 -- Define #Patients temp table for getting future things like age/sex etc.
--- TODO uncomment this
---IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
---SELECT cp.FK_Patient_Link_ID INTO #Patients
---FROM #CovidPatients cp
---INNER JOIN [RLS].vw_Patient p ON p.FK_Patient_Link_ID = cp.FK_Patient_Link_ID;
-
--- TODO REMOVE BELOW
-TRUNCATE TABLE #Patients;
-INSERT INTO #Patients
-SELECT cp.FK_Patient_Link_ID
-FROM #CovidPatients cp;
--- END REMOVE BELOW
+IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
+SELECT cp.FK_Patient_Link_ID INTO #Patients
+FROM #CovidPatients cp
+INNER JOIN [RLS].vw_Patient p ON p.FK_Patient_Link_ID = cp.FK_Patient_Link_ID;
 
 --> EXECUTE query-patient-year-of-birth.sql
 --> EXECUTE query-patient-sex.sql
@@ -145,7 +116,6 @@ IF OBJECT_ID('tempdb..#PotentialMatches') IS NOT NULL DROP TABLE #PotentialMatch
 SELECT c.FK_Patient_Link_ID, FirstCovidPositiveDate AS IndexDate, Sex, YearOfBirth
 INTO #PotentialMatches
 FROM #CovidPatients c
---LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = c.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = c.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = c.FK_Patient_Link_ID
 EXCEPT
@@ -182,6 +152,7 @@ TRUNCATE TABLE #Patients;
 INSERT INTO #Patients
 SELECT FK_Patient_Link_ID
 FROM #PatientIdsAndIndexDates;
+
 IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
 SELECT 
   FK_Patient_Link_ID,
@@ -193,6 +164,7 @@ SELECT
 INTO #PatientEventData
 FROM [RLS].vw_GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientIdsAndIndexDates);
+
 IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
 SELECT 
   FK_Patient_Link_ID,

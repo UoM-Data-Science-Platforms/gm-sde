@@ -156,6 +156,7 @@ TRUNCATE TABLE #Patients;
 INSERT INTO #Patients
 SELECT FK_Patient_Link_ID
 FROM #PatientIdsAndIndexDates;
+
 IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
 SELECT 
   FK_Patient_Link_ID,
@@ -167,6 +168,7 @@ SELECT
 INTO #PatientEventData
 FROM [RLS].vw_GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientIdsAndIndexDates);
+
 IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
 SELECT 
   FK_Patient_Link_ID,
