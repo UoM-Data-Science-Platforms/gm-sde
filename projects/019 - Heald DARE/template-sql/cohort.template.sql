@@ -51,6 +51,11 @@ SELECT p.FK_Patient_Link_ID INTO #Patients
 FROM [RLS].vw_Patient p
 INNER JOIN #DAREPatients dp ON dp.NhsNo = p.NhsNo;
 
+-- Get lookup between nhs number and fk_patient_link_id
+SELECT DISTINCT p.NhsNo, p.FK_Patient_Link_ID INTO #NhsNoToLinkId
+FROM [RLS].vw_Patient p
+INNER JOIN #DAREPatients dp ON dp.NhsNo = p.NhsNo;
+
 --Below is for testing without access to DARE nhs numbers
 --IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 --SELECT TOP 200 FK_Patient_Link_ID INTO #Patients
@@ -374,7 +379,7 @@ AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 -- Bring together for final output
 SELECT 
-  m.FK_Patient_Link_ID AS PatientId,
+  NhsNo,
   YearOfBirth,
   DeathDate,
   CASE WHEN covidDeath.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS DeathWithin28DaysCovidPositiveTest,
@@ -420,6 +425,7 @@ SELECT
   IsOnGLP1A,
   IsOnSulphonylurea
 FROM #Patients m
+INNER JOIN #NhsNoToLinkId n on n.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = m.FK_Patient_Link_ID
