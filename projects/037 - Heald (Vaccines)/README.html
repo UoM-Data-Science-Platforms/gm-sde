@@ -682,7 +682,8 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
 <p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>1.19% - 26.55%</code> as of 11th March 2021 is too wide. However the prevalence figure of 26.55% from EMIS is close to public data and is likely ok.</p>
 <p><strong>UPDATE - 25th March 2021</strong> Missing Read and CTV3 codes were added to the vaccination list and now the range of <code>26.91% - 32.96%</code> seems reasonable. It should be noted that there is an approx 2 week lag between events occurring and them being entered in the record.</p>
-<p>**UPDATE - 12th April 2021, latest prevalence figures:</p>
+<p><strong>UPDATE - 12th April 2021</strong>, latest prevalence figures.</p>
+<p><strong>UPDATE - 18th March 2022</strong> There are now new codes for things like 3rd/4th/booster dose of vaccine. The latest prevalence shows <code>65.0% - 66.3%</code> have at least one vaccine code in the GP_Events table, and <code>88.2% - 93.6%</code> have at least one code for the vaccine in the GP_Medications table.</p>
 <p>MED</p>
 <table>
 <thead>
@@ -715,6 +716,27 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td>334784</td>
 <td style="text-align:right">0 (0%)</td>
 <td style="text-align:right">93(0.03%)</td>
+</tr>
+<tr>
+<td>2022-03-18</td>
+<td>EMIS</td>
+<td>2658131</td>
+<td style="text-align:right">1750506 (65.9%)</td>
+<td style="text-align:right">1763420(66.3%)</td>
+</tr>
+<tr>
+<td>2022-03-18</td>
+<td>TPP</td>
+<td>212662</td>
+<td style="text-align:right">8207 (3.9%)</td>
+<td style="text-align:right">138285(65.0%)</td>
+</tr>
+<tr>
+<td>2022-03-18</td>
+<td>Vision</td>
+<td>341594</td>
+<td style="text-align:right">122060 (35.7%)</td>
+<td style="text-align:right">225844(66.1%)</td>
 </tr>
 </tbody>
 </table>
@@ -750,6 +772,27 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td>334784</td>
 <td style="text-align:right">1 (0.00%)</td>
 <td style="text-align:right">142724 (42.63%)</td>
+</tr>
+<tr>
+<td>2022-03-18</td>
+<td>EMIS</td>
+<td>2658131</td>
+<td style="text-align:right">2486786 (93.6%)</td>
+<td style="text-align:right">1676951 (63.1%)</td>
+</tr>
+<tr>
+<td>2022-03-18</td>
+<td>TPP</td>
+<td>212662</td>
+<td style="text-align:right">187463 (88.2%)</td>
+<td style="text-align:right">7314 (3.44%)</td>
+</tr>
+<tr>
+<td>2022-03-18</td>
+<td>Vision</td>
+<td>341594</td>
+<td style="text-align:right">312617 (91.5%)</td>
+<td style="text-align:right">62512 (18.3%)</td>
 </tr>
 </tbody>
 </table>
@@ -8348,9 +8391,99 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </tr>
 <tr>
 <td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>65F06</td>
+<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>65F09</td>
+<td>Administration of third dose of SARS-CoV-2 vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>65F0A</td>
+<td>Administration of fourth dose of SARS-CoV-2 vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>9bJ..</td>
+<td>COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y2a10</td>
+<td>COVID-19 Vac AstraZeneca (ChAdOx1 S recomb) 5x10000000000 viral particles/0.5ml dose sol for inj MDV part 1</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y2a39</td>
+<td>COVID-19 Vac AstraZeneca (ChAdOx1 S recomb) 5x10000000000 viral particles/0.5ml dose sol for inj MDV part 2</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y2b9d</td>
+<td>COVID-19 mRNA (nucleoside modified) Vaccine Moderna 0.1mg/0.5mL dose dispersion for injection multidose vials part 2</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y2f45</td>
+<td>Administration of third dose of SARS-CoV-2 vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y2f48</td>
+<td>Administration of fourth dose of SARS-CoV-2 vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y2f57</td>
+<td>COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) booster</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y31cc</td>
+<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y31e6</td>
+<td>Administration of SARS-CoV-2 mRNA vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y31e7</td>
+<td>Administration of first dose of SARS-CoV-2 mRNA vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y31e8</td>
+<td>Administration of second dose of SARS-CoV-2 mRNA vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
 <td>emis</td>
 <td>^ESCT1348323</td>
 <td>Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>^ESCT1348324</td>
+<td>Administration of first dose of 2019-nCoV (novel coronavirus) vaccine</td>
 </tr>
 <tr>
 <td>covid-vaccination v1</td>
@@ -8363,6 +8496,30 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td>emis</td>
 <td>^ESCT1348325</td>
 <td>Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>^ESCT1348326</td>
+<td>Administration of second dose of 2019-nCoV (novel coronavirus) vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>^ESCT1428354</td>
+<td>Administration of third dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>^ESCT1428342</td>
+<td>Administration of fourth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>^ESCT1428348</td>
+<td>Administration of fifth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
 </tr>
 <tr>
 <td>covid-vaccination v1</td>
@@ -8402,6 +8559,120 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </tr>
 <tr>
 <td>covid-vaccination v1</td>
+<td>emis</td>
+<td>PCSDT18491_1375</td>
+<td>Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>PCSDT18491_1376</td>
+<td>Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>PCSDT18491_716</td>
+<td>Administration of second dose of SARS-CoV-2 vacc</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>PCSDT18491_903</td>
+<td>Administration of first dose of SARS-CoV-2 vacccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>PCSDT3370_2254</td>
+<td>2019-nCoV (novel coronavirus) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>PCSDT3919_2185</td>
+<td>Administration of first dose of SARS-CoV-2 vacccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>PCSDT3919_662</td>
+<td>Administration of second dose of SARS-CoV-2 vacc</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>PCSDT4803_1723</td>
+<td>2019-nCoV (novel coronavirus) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>PCSDT5823_2264</td>
+<td>Administration of second dose of SARS-CoV-2 vacc</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>PCSDT5823_2757</td>
+<td>Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>PCSDT5823_2902</td>
+<td>Administration of first dose of SARS-CoV-2 vacccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>^ESCT1348300</td>
+<td>Severe acute respiratory syndrome coronavirus 2 vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>ASSO138368NEMIS</td>
+<td>COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose suspension for injection multidose vials (Janssen-Cilag Ltd)</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>COCO141057NEMIS</td>
+<td>Comirnaty Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.2ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd)</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>COSO141059NEMIS</td>
+<td>COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Serum Institute of India)</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>COSU138776NEMIS</td>
+<td>COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5ml dose suspension for injection multidose vials (Valneva UK Ltd)</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>COSU138943NEMIS</td>
+<td>COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Baxter Oncology GmbH)</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>COSU141008NEMIS</td>
+<td>CoronaVac COVID-19 Vaccine (adjuvanted) 600U/0.5ml dose suspension for injection vials (Sinovac Life Sciences)</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>COSU141037NEMIS</td>
+<td>COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection vials (Beijing Institute of Biological Products)</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
 <td>readv2</td>
 <td>65F0.</td>
 <td>2019-nCoV (novel coronavirus) vaccination</td>
@@ -8417,6 +8688,42 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td>readv2</td>
 <td>65F0200</td>
 <td>2019-nCoV (novel coronavirus) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>readv2</td>
+<td>65F0600</td>
+<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>readv2</td>
+<td>65F0700</td>
+<td>Immunisation course to achieve immunity against SARS-CoV-2</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>readv2</td>
+<td>65F0800</td>
+<td>Immunisation course to maintain protection against SARS-CoV-2</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>readv2</td>
+<td>65F0900</td>
+<td>Administration of third dose of SARS-CoV-2 vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>readv2</td>
+<td>65F0A00</td>
+<td>Administration of fourth dose of SARS-CoV-2 vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>readv2</td>
+<td>9bJ..</td>
+<td>COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)</td>
 </tr>
 <tr>
 <td>covid-vaccination v1</td>
