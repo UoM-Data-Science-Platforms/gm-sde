@@ -675,23 +675,31 @@ The discrepancy between the patients counted when using the IDs vs using the cli
 
 **UPDATE - 25th March 2021** Missing Read and CTV3 codes were added to the vaccination list and now the range of `26.91% - 32.96%` seems reasonable. It should be noted that there is an approx 2 week lag between events occurring and them being entered in the record.
 
-**UPDATE - 12th April 2021, latest prevalence figures:
+**UPDATE - 12th April 2021**, latest prevalence figures.
+
+**UPDATE - 18th March 2022** There are now new codes for things like 3rd/4th/booster dose of vaccine. The latest prevalence shows `65.0% - 66.3%` have at least one vaccine code in the GP_Events table, and `88.2% - 93.6%` have at least one code for the vaccine in the GP_Medications table.
 
 MED
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
 | 2021-05-12 | EMIS            | 2606497    |           0 (0%) |    379577(14.56%) |
-| 2021-05-12 | TPP             | 210810	    |           0 (0%) |       1637(0.78%) |
-| 2021-05-12 | Vision          | 334784	    |           0 (0%) |         93(0.03%) |
+| 2021-05-12 | TPP             | 210810     |           0 (0%) |       1637(0.78%) |
+| 2021-05-12 | Vision          | 334784     |           0 (0%) |         93(0.03%) |
+| 2022-03-18 | EMIS            | 2658131    |  1750506 (65.9%) |    1763420(66.3%) |
+| 2022-03-18 | TPP             | 212662     |      8207 (3.9%) |     138285(65.0%) |
+| 2022-03-18 | Vision          | 341594     |   122060 (35.7%) |     225844(66.1%) |
 
 EVENT
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-05-12 | 	EMIS	       | 2606497    |	4446 (0.17%)   |  1101577 (42.26%) |
-| 2021-05-12 |	TPP	       | 210810	    |	7 (0.00%)      |    87841 (41.66%) |
-| 2021-05-12 |	Vision	       | 334784	    |	1 (0.00%)      |   142724 (42.63%) |
+| 2021-05-12 | EMIS            | 2606497    |     4446 (0.17%) |  1101577 (42.26%) |
+| 2021-05-12 | TPP             | 210810     |        7 (0.00%) |    87841 (41.66%) |
+| 2021-05-12 | Vision          | 334784     |        1 (0.00%) |   142724 (42.63%) |
+| 2022-03-18 | EMIS            | 2658131    |  2486786 (93.6%) |   1676951 (63.1%) |
+| 2022-03-18 | TPP             | 212662     |   187463 (88.2%) |      7314 (3.44%) |
+| 2022-03-18 | Vision          | 341594     |   312617 (91.5%) |     62512 (18.3%) |
 
 LINK: [https://github.com/rw251/.../procedures/covid-vaccination/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/covid-vaccination/1)
 
@@ -2104,18 +2112,62 @@ All code sets required for this analysis are listed here. Individual lists for e
 |covid-vaccination v1|ctv3|Y2a0e|SARS-2 Coronavirus vaccine|
 |covid-vaccination v1|ctv3|Y2a0f|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 1|
 |covid-vaccination v1|ctv3|Y2a3a|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 2|
+|covid-vaccination v1|ctv3|65F06|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination|
+|covid-vaccination v1|ctv3|65F09|Administration of third dose of SARS-CoV-2 vaccine|
+|covid-vaccination v1|ctv3|65F0A|Administration of fourth dose of SARS-CoV-2 vaccine|
+|covid-vaccination v1|ctv3|9bJ..|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)|
+|covid-vaccination v1|ctv3|Y2a10|COVID-19 Vac AstraZeneca (ChAdOx1 S recomb) 5x10000000000 viral particles/0.5ml dose sol for inj MDV part 1|
+|covid-vaccination v1|ctv3|Y2a39|COVID-19 Vac AstraZeneca (ChAdOx1 S recomb) 5x10000000000 viral particles/0.5ml dose sol for inj MDV part 2|
+|covid-vaccination v1|ctv3|Y2b9d|COVID-19 mRNA (nucleoside modified) Vaccine Moderna 0.1mg/0.5mL dose dispersion for injection multidose vials part 2|
+|covid-vaccination v1|ctv3|Y2f45|Administration of third dose of SARS-CoV-2 vaccine|
+|covid-vaccination v1|ctv3|Y2f48|Administration of fourth dose of SARS-CoV-2 vaccine|
+|covid-vaccination v1|ctv3|Y2f57|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) booster|
+|covid-vaccination v1|ctv3|Y31cc|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen vaccination|
+|covid-vaccination v1|ctv3|Y31e6|Administration of SARS-CoV-2 mRNA vaccine|
+|covid-vaccination v1|ctv3|Y31e7|Administration of first dose of SARS-CoV-2 mRNA vaccine|
+|covid-vaccination v1|ctv3|Y31e8|Administration of second dose of SARS-CoV-2 mRNA vaccine|
 |covid-vaccination v1|emis|^ESCT1348323|Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
+|covid-vaccination v1|emis|^ESCT1348324|Administration of first dose of 2019-nCoV (novel coronavirus) vaccine|
 |covid-vaccination v1|emis|COCO138186NEMIS|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)|
 |covid-vaccination v1|emis|^ESCT1348325|Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
+|covid-vaccination v1|emis|^ESCT1348326|Administration of second dose of 2019-nCoV (novel coronavirus) vaccine|
+|covid-vaccination v1|emis|^ESCT1428354|Administration of third dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
+|covid-vaccination v1|emis|^ESCT1428342|Administration of fourth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
+|covid-vaccination v1|emis|^ESCT1428348|Administration of fifth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
 |covid-vaccination v1|emis|^ESCT1348298|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination|
 |covid-vaccination v1|emis|^ESCT1348301|COVID-19 vaccination|
 |covid-vaccination v1|emis|^ESCT1299050|2019-nCoV (novel coronavirus) vaccination|
 |covid-vaccination v1|emis|^ESCT1301222|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination|
 |covid-vaccination v1|emis|CODI138564NEMIS|Covid-19 mRna (nucleoside modified) Vaccine Moderna  Dispersion for injection  0.1 mg/0.5 ml dose, multidose vial|
 |covid-vaccination v1|emis|TASO138184NEMIS|Covid-19 Vaccine AstraZeneca (ChAdOx1 S recombinant)  Solution for injection  5x10 billion viral particle/0.5 ml multidose vial|
+|covid-vaccination v1|emis|PCSDT18491_1375|Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
+|covid-vaccination v1|emis|PCSDT18491_1376|Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
+|covid-vaccination v1|emis|PCSDT18491_716|Administration of second dose of SARS-CoV-2 vacc|
+|covid-vaccination v1|emis|PCSDT18491_903|Administration of first dose of SARS-CoV-2 vacccine|
+|covid-vaccination v1|emis|PCSDT3370_2254|2019-nCoV (novel coronavirus) vaccination|
+|covid-vaccination v1|emis|PCSDT3919_2185|Administration of first dose of SARS-CoV-2 vacccine|
+|covid-vaccination v1|emis|PCSDT3919_662|Administration of second dose of SARS-CoV-2 vacc|
+|covid-vaccination v1|emis|PCSDT4803_1723|2019-nCoV (novel coronavirus) vaccination|
+|covid-vaccination v1|emis|PCSDT5823_2264|Administration of second dose of SARS-CoV-2 vacc|
+|covid-vaccination v1|emis|PCSDT5823_2757|Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
+|covid-vaccination v1|emis|PCSDT5823_2902|Administration of first dose of SARS-CoV-2 vacccine|
+|covid-vaccination v1|emis|^ESCT1348300|Severe acute respiratory syndrome coronavirus 2 vaccination|
+|covid-vaccination v1|emis|ASSO138368NEMIS|COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose suspension for injection multidose vials (Janssen-Cilag Ltd)|
+|covid-vaccination v1|emis|COCO141057NEMIS|Comirnaty Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.2ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd)|
+|covid-vaccination v1|emis|COSO141059NEMIS|COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Serum Institute of India)|
+|covid-vaccination v1|emis|COSU138776NEMIS|COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5ml dose suspension for injection multidose vials (Valneva UK Ltd)|
+|covid-vaccination v1|emis|COSU138943NEMIS|COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Baxter Oncology GmbH)|
+|covid-vaccination v1|emis|COSU141008NEMIS|CoronaVac COVID-19 Vaccine (adjuvanted) 600U/0.5ml dose suspension for injection vials (Sinovac Life Sciences)|
+|covid-vaccination v1|emis|COSU141037NEMIS|COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection vials (Beijing Institute of Biological Products)|
 |covid-vaccination v1|readv2|65F0.|2019-nCoV (novel coronavirus) vaccination|
 |covid-vaccination v1|readv2|65F0100|Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
 |covid-vaccination v1|readv2|65F0200|2019-nCoV (novel coronavirus) vaccination|
+|covid-vaccination v1|readv2|65F0600|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination|
+|covid-vaccination v1|readv2|65F0700|Immunisation course to achieve immunity against SARS-CoV-2|
+|covid-vaccination v1|readv2|65F0800|Immunisation course to maintain protection against SARS-CoV-2|
+|covid-vaccination v1|readv2|65F0900|Administration of third dose of SARS-CoV-2 vaccine|
+|covid-vaccination v1|readv2|65F0A00|Administration of fourth dose of SARS-CoV-2 vaccine|
+|covid-vaccination v1|readv2|9bJ..|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)|
 |covid-vaccination v1|snomed|1240491000000103|2019-nCoV (novel coronavirus) vaccination|
 |covid-vaccination v1|snomed|2807821000000115|2019-nCoV (novel coronavirus) vaccination|
 |covid-vaccination v1|snomed|840534001|Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)|
