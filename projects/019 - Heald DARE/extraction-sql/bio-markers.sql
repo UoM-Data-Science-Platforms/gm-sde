@@ -30,6 +30,11 @@ SELECT DISTINCT FK_Patient_Link_ID INTO #Patients
 FROM [RLS].vw_Patient p
 INNER JOIN #DAREPatients dp ON dp.NhsNo = p.NhsNo;
 
+-- Get lookup between nhs number and fk_patient_link_id
+SELECT DISTINCT p.NhsNo, p.FK_Patient_Link_ID INTO #NhsNoToLinkId
+FROM [RLS].vw_Patient p
+INNER JOIN #DAREPatients dp ON dp.NhsNo = p.NhsNo;
+
 -- >>> Codesets required... Inserting the code set code
 --
 --┌────────────────────┐
@@ -348,5 +353,6 @@ WHERE (
 );
 
 -- Final output
-SELECT FK_Patient_Link_ID AS PatientId, Label, EventDate, [Value] FROM #biomarkers
+SELECT NhsNo, Label, EventDate, [Value] FROM #biomarkers b
+INNER JOIN #NhsNoToLinkId n on n.FK_Patient_Link_ID = b.FK_Patient_Link_ID
 ORDER BY FK_Patient_Link_ID, EventDate;

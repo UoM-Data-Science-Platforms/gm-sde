@@ -21,9 +21,9 @@
 -- COHORT SPECIFIC
 -- FirstDiagnosisDate, FirstT1DiagnosisDate, FirstT2DiagnosisDate, 1stCOVIDPositiveTestDate, 2ndCOVIDPositiveTestDate,
 -- 3rdCOVIDPositiveTestDate, 4thCOVIDPositiveTestDate, 5thCOVIDPositiveTestDate,
--- 1stAdmissionPost1stCOVIDTest, LengthOfStay1stAdmission1stCOVIDTest, 1stAdmissionPost2ndCOVIDTest, LengthOfStay1stAdmission2ndCOVIDTest,
--- 1stAdmissionPost3rdCOVIDTest, LengthOfStay1stAdmission3rdCOVIDTest, 1stAdmissionPost4thCOVIDTest, LengthOfStay1stAdmission4thCOVIDTest,
--- 1stAdmissionPost5thCOVIDTest, LengthOfStay1stAdmission5thCOVIDTest, 
+-- FirstAdmissionPost1stCOVIDTest, LengthOfStay1stAdmission1stCOVIDTest, FirstAdmissionPost2ndCOVIDTest, LengthOfStay1stAdmission2ndCOVIDTest,
+-- FirstAdmissionPost3rdCOVIDTest, LengthOfStay1stAdmission3rdCOVIDTest, FirstAdmissionPost4thCOVIDTest, LengthOfStay1stAdmission4thCOVIDTest,
+-- FirstAdmissionPost5thCOVIDTest, LengthOfStay1stAdmission5thCOVIDTest, 
 -- DateOf1stVaccine, DateOf2ndVaccine, DateOf3rdVaccine, DateOf4thVaccine, DateOf5thVaccine, DateOf6thVaccine,
 -- PATIENT STATUS
 -- IsPassiveSmoker, WorstSmokingStatus, CurrentSmokingStatus
@@ -48,6 +48,11 @@ SET @MedicationsFromDate = DATEADD(month, -6, @StartDate);
 -- NB this is where the filter to just DARE patients via NHS number occurs
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT p.FK_Patient_Link_ID INTO #Patients
+FROM [RLS].vw_Patient p
+INNER JOIN #DAREPatients dp ON dp.NhsNo = p.NhsNo;
+
+-- Get lookup between nhs number and fk_patient_link_id
+SELECT DISTINCT p.NhsNo, p.FK_Patient_Link_ID INTO #NhsNoToLinkId
 FROM [RLS].vw_Patient p
 INNER JOIN #DAREPatients dp ON dp.NhsNo = p.NhsNo;
 
@@ -129,11 +134,11 @@ GROUP BY FK_Patient_Link_ID;
 IF OBJECT_ID('tempdb..#PatientsAdmissionsPostTest') IS NOT NULL DROP TABLE #PatientsAdmissionsPostTest;
 CREATE TABLE #PatientsAdmissionsPostTest (
   FK_Patient_Link_ID BIGINT,
-  [1stAdmissionPost1stCOVIDTest] DATE,
-  [1stAdmissionPost2ndCOVIDTest] DATE,
-  [1stAdmissionPost3rdCOVIDTest] DATE,
-  [1stAdmissionPost4thCOVIDTest] DATE,
-  [1stAdmissionPost5thCOVIDTest] DATE
+  [FirstAdmissionPost1stCOVIDTest] DATE,
+  [FirstAdmissionPost2ndCOVIDTest] DATE,
+  [FirstAdmissionPost3rdCOVIDTest] DATE,
+  [FirstAdmissionPost4thCOVIDTest] DATE,
+  [FirstAdmissionPost5thCOVIDTest] DATE
 );
 
 -- Populate table with patient IDs
@@ -142,7 +147,7 @@ SELECT FK_Patient_Link_ID FROM #CovidPatientsMultipleDiagnoses;
 
 -- Find 1st hospital stay following 1st COVID positive test (but before 2nd)
 UPDATE t1
-SET t1.[1stAdmissionPost1stCOVIDTest] = NextAdmissionDate
+SET t1.[FirstAdmissionPost1stCOVIDTest] = NextAdmissionDate
 FROM #PatientsAdmissionsPostTest AS t1
 INNER JOIN (
 SELECT cp.FK_Patient_Link_ID, MIN(los.AdmissionDate) AS NextAdmissionDate FROM #CovidPatientsMultipleDiagnoses cp
@@ -153,7 +158,7 @@ GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient
 
 -- Find 1st hospital stay following 2nd COVID positive test (but before 3rd)
 UPDATE t1
-SET t1.[1stAdmissionPost2ndCOVIDTest] = NextAdmissionDate
+SET t1.[FirstAdmissionPost2ndCOVIDTest] = NextAdmissionDate
 FROM #PatientsAdmissionsPostTest AS t1
 INNER JOIN (
 SELECT cp.FK_Patient_Link_ID, MIN(los.AdmissionDate) AS NextAdmissionDate FROM #CovidPatientsMultipleDiagnoses cp
@@ -164,7 +169,7 @@ GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient
 
 -- Find 1st hospital stay following 3rd COVID positive test (but before 4th)
 UPDATE t1
-SET t1.[1stAdmissionPost3rdCOVIDTest] = NextAdmissionDate
+SET t1.[FirstAdmissionPost3rdCOVIDTest] = NextAdmissionDate
 FROM #PatientsAdmissionsPostTest AS t1
 INNER JOIN (
 SELECT cp.FK_Patient_Link_ID, MIN(los.AdmissionDate) AS NextAdmissionDate FROM #CovidPatientsMultipleDiagnoses cp
@@ -175,7 +180,7 @@ GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient
 
 -- Find 1st hospital stay following 4th COVID positive test (but before 5th)
 UPDATE t1
-SET t1.[1stAdmissionPost4thCOVIDTest] = NextAdmissionDate
+SET t1.[FirstAdmissionPost4thCOVIDTest] = NextAdmissionDate
 FROM #PatientsAdmissionsPostTest AS t1
 INNER JOIN (
 SELECT cp.FK_Patient_Link_ID, MIN(los.AdmissionDate) AS NextAdmissionDate FROM #CovidPatientsMultipleDiagnoses cp
@@ -186,7 +191,7 @@ GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient
 
 -- Find 1st hospital stay following 5th COVID positive test
 UPDATE t1
-SET t1.[1stAdmissionPost5thCOVIDTest] = NextAdmissionDate
+SET t1.[FirstAdmissionPost5thCOVIDTest] = NextAdmissionDate
 FROM #PatientsAdmissionsPostTest AS t1
 INNER JOIN (
 SELECT cp.FK_Patient_Link_ID, MIN(los.AdmissionDate) AS NextAdmissionDate FROM #CovidPatientsMultipleDiagnoses cp
@@ -204,11 +209,11 @@ SELECT p.FK_Patient_Link_ID,
 		MAX(l5.LengthOfStay) AS LengthOfStay1stAdmission5thCOVIDTest
 INTO #PatientsLOSPostTest
 FROM #PatientsAdmissionsPostTest p
-	LEFT OUTER JOIN #LengthOfStay l1 ON p.FK_Patient_Link_ID = l1.FK_Patient_Link_ID AND p.[1stAdmissionPost1stCOVIDTest] = l1.AdmissionDate
-	LEFT OUTER JOIN #LengthOfStay l2 ON p.FK_Patient_Link_ID = l2.FK_Patient_Link_ID AND p.[1stAdmissionPost2ndCOVIDTest] = l2.AdmissionDate
-	LEFT OUTER JOIN #LengthOfStay l3 ON p.FK_Patient_Link_ID = l3.FK_Patient_Link_ID AND p.[1stAdmissionPost3rdCOVIDTest] = l3.AdmissionDate
-	LEFT OUTER JOIN #LengthOfStay l4 ON p.FK_Patient_Link_ID = l4.FK_Patient_Link_ID AND p.[1stAdmissionPost4thCOVIDTest] = l4.AdmissionDate
-	LEFT OUTER JOIN #LengthOfStay l5 ON p.FK_Patient_Link_ID = l5.FK_Patient_Link_ID AND p.[1stAdmissionPost5thCOVIDTest] = l5.AdmissionDate
+	LEFT OUTER JOIN #LengthOfStay l1 ON p.FK_Patient_Link_ID = l1.FK_Patient_Link_ID AND p.[FirstAdmissionPost1stCOVIDTest] = l1.AdmissionDate
+	LEFT OUTER JOIN #LengthOfStay l2 ON p.FK_Patient_Link_ID = l2.FK_Patient_Link_ID AND p.[FirstAdmissionPost2ndCOVIDTest] = l2.AdmissionDate
+	LEFT OUTER JOIN #LengthOfStay l3 ON p.FK_Patient_Link_ID = l3.FK_Patient_Link_ID AND p.[FirstAdmissionPost3rdCOVIDTest] = l3.AdmissionDate
+	LEFT OUTER JOIN #LengthOfStay l4 ON p.FK_Patient_Link_ID = l4.FK_Patient_Link_ID AND p.[FirstAdmissionPost4thCOVIDTest] = l4.AdmissionDate
+	LEFT OUTER JOIN #LengthOfStay l5 ON p.FK_Patient_Link_ID = l5.FK_Patient_Link_ID AND p.[FirstAdmissionPost5thCOVIDTest] = l5.AdmissionDate
 GROUP BY p.FK_Patient_Link_ID;
 
 -- diagnoses
@@ -374,7 +379,7 @@ AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 -- Bring together for final output
 SELECT 
-  m.FK_Patient_Link_ID AS PatientId,
+  NhsNo,
   YearOfBirth,
   DeathDate,
   CASE WHEN covidDeath.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS DeathWithin28DaysCovidPositiveTest,
@@ -392,15 +397,15 @@ SELECT
   ThirdCovidPositiveDate,
   FourthCovidPositiveDate,
   FifthCovidPositiveDate,
-  1stAdmissionPost1stCOVIDTest,
+  FirstAdmissionPost1stCOVIDTest,
   LengthOfStay1stAdmission1stCOVIDTest,
-  1stAdmissionPost2ndCOVIDTest,
+  FirstAdmissionPost2ndCOVIDTest,
   LengthOfStay1stAdmission2ndCOVIDTest,
-  1stAdmissionPost3rdCOVIDTest,
+  FirstAdmissionPost3rdCOVIDTest,
   LengthOfStay1stAdmission3rdCOVIDTest,
-  1stAdmissionPost4thCOVIDTest,
+  FirstAdmissionPost4thCOVIDTest,
   LengthOfStay1stAdmission4thCOVIDTest,
-  1stAdmissionPost5thCOVIDTest,
+  FirstAdmissionPost5thCOVIDTest,
   LengthOfStay1stAdmission5thCOVIDTest,
   smok.PassiveSmoker AS IsPassiveSmoker,
   smok.WorstSmokingStatus,
@@ -420,6 +425,7 @@ SELECT
   IsOnGLP1A,
   IsOnSulphonylurea
 FROM #Patients m
+INNER JOIN #NhsNoToLinkId n on n.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = m.FK_Patient_Link_ID

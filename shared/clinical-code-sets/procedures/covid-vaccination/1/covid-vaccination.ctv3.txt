@@ -4,3 +4,17 @@ Y29e8	Administration of second dose of SARS-CoV-2 vaccine
 Y2a0e	SARS-2 Coronavirus vaccine
 Y2a0f	COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 1
 Y2a3a	COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 2
+65F06	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination
+65F09	Administration of third dose of SARS-CoV-2 vaccine
+65F0A	Administration of fourth dose of SARS-CoV-2 vaccine
+9bJ..	COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)
+Y2a10	COVID-19 Vac AstraZeneca (ChAdOx1 S recomb) 5x10000000000 viral particles/0.5ml dose sol for inj MDV part 1
+Y2a39	COVID-19 Vac AstraZeneca (ChAdOx1 S recomb) 5x10000000000 viral particles/0.5ml dose sol for inj MDV part 2
+Y2b9d	COVID-19 mRNA (nucleoside modified) Vaccine Moderna 0.1mg/0.5mL dose dispersion for injection multidose vials part 2
+Y2f45	Administration of third dose of SARS-CoV-2 vaccine
+Y2f48	Administration of fourth dose of SARS-CoV-2 vaccine
+Y2f57	COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) booster
+Y31cc	SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen vaccination
+Y31e6	Administration of SARS-CoV-2 mRNA vaccine
+Y31e7	Administration of first dose of SARS-CoV-2 mRNA vaccine
+Y31e8	Administration of second dose of SARS-CoV-2 mRNA vaccine
