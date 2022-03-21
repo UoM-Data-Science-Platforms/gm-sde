@@ -1,0 +1,4 @@
+XaIdY	Total white blood count
+42H..	White blood cell count
+42H..	White blood cell count - observation
+42HZ.	Total white cell count NOS

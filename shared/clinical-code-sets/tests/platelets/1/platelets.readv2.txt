@@ -1,0 +1,3 @@
+42P..00	Platelet count
+42P1.00	Platelet count normal
+42PZ.00	Platelet count NOS

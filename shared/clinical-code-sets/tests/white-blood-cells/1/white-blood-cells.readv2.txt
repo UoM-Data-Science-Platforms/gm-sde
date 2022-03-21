@@ -1,0 +1,5 @@
+42H..00	Total white cell count
+42H..11	White blood count
+42H..12	White cell count
+42H7.00	Total white blood count
+42HZ.00	Total white cell count NOS
