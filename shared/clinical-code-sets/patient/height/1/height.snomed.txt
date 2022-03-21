@@ -1,0 +1,6 @@
+14456009	Measuring height of patient
+50373000	Body height measure
+139977008	O/E - height
+162755006	On examination - height
+248327008	General finding of height
+248333004	Standing height

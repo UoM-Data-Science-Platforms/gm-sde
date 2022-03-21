@@ -1,0 +1,12 @@
+27113001	Body weight
+139985004	O/E - weight
+162763007	On examination - weight
+248341004	General weight finding
+248345008	Body weight
+271604008	Weight finding
+301333006	Finding of measures of body weight
+363808001	Measured body weight
+424927000	Body weight with shoes
+425024002	Body weight without shoes
+735395000	Current body weight
+784399000	Self reported body weight
