@@ -141,4 +141,4 @@ WHERE (
 -- Final output
 SELECT NhsNo, Label, EventDate, [Value] FROM #biomarkers b
 INNER JOIN #NhsNoToLinkId n on n.FK_Patient_Link_ID = b.FK_Patient_Link_ID
-ORDER BY FK_Patient_Link_ID, EventDate;
+ORDER BY NhsNo, EventDate;
