@@ -197,7 +197,7 @@ LEFT OUTER JOIN #TempCurrent c on c.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
 
 --> EXECUTE query-patient-lsoa.sql
 --> EXECUTE query-patient-imd.sql
---> EXECUTE query-get-covid-vaccines.sql
+--> EXECUTE query-get-covid-vaccines.sql gp-events-table:RLS.vw_GP_Events gp-medications-table:RLS.vw_GP_Medications
 
 -- Get the first and second vaccine dates of our cohort. 
 IF OBJECT_ID('tempdb..#COVIDVaccinations2') IS NOT NULL DROP TABLE #COVIDVaccinations2;

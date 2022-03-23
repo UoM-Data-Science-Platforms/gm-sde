@@ -1,0 +1,182 @@
+16C..	Backache symptom
+16C2.	Backache
+16C4.	Back pain worse on sneezing
+16C5.	C/O - low back pain
+16CZ.	Backache symptom NOS
+1A53.	(C/O - pain: [loin] or [lumbar] or [renal]) or (lumbar ache - renal)
+25C5.	O/E - abd. pain - R.lumbar
+25C7.	O/E - abd. pain - L.lumbar
+525..	Back X-ray
+5257.	Lumbosacral spine X-ray
+5258.	Coccyx X-ray
+525Z.	Plain X-ray spine NOS
+7J34.	Fusion spinal joint: [other primary lumbar] or [Moe's posterior]
+7J340	Spinal fusion: [primary posterior lumbar] or [Bosworth] or [Hibbs]
+7J34y	Other specified primary fusion of joint of lumbar spine
+7J34z	Primary fusion of joint of lumbar spine NOS
+7J35.	Other revisional fusion of joint of lumbar spine
+7J35z	Revision of lumbar fusion NOS
+7J4..	Other spine operations, site unspecified
+7J404	Excision of intervertebral disc NEC
+7J406	Revisional excision of intervertebral disc NEC
+7J40w	Other specified excision of intervertebral disc
+7J40x	Discectomy NOS
+7J40x	Excision of intervertebral disc NOS
+7J45.	Other correction of deformity of spine
+7J45y	Other specified correction of deformity of spine
+7J45z	Correction of deformity of spine NOS
+7J47.	Exploration of spine
+7J47y	Other specified exploration of spine
+7J47z	Exploration of spine NOS
+7J48.	Other ops on spine and vertebra
+7J480	Excision of lesion of spine NEC
+7J484	Manipulation of spine NEC
+7J48v	Manipulation of spine NOS
+7J48y	Other specified other operation on spine
+7J4y.	Other specified spine operations, site unspecified
+7J4z.	Other operations on parts of spine not otherwise specified
+7N93S	L5 vertebra
+7NA76	Coccyx
+7NB2b	Lumbar region
+8HTH.	Referral to back pain clinic
+F334.	Lumbosacral root lesions NEC
+F350.	Sciatic nerve lesion
+N05zK	Osteoarthritis NOS, of sacroiliac joint
+N094L	Sacroiliac joint pain
+N094L	Arthralgia of sacroiliac joint
+N102.	Sacroiliitis NEC
+N10z.	Spondylitis NOS
+N11..	(Spondylosis and allied disorders) or (arthritis of spine) or (osteoarthritis of spine)
+N114.	(Lumbosacral spondylosis [& without myelopathy]) or (degeneration of lumbar spine)
+N11y.	Other spondyloses and allied disorders
+N11z.	(Spondylosis NOS) or (osteoarthritis spine)
+N11z0	Spondylosis without myelopathy, NOS
+N12..	(Intervertebral disc: [disorders] or [displacement] or [slipped]) or (acute back pain)
+N122.	Lumber disc bulge
+N122.	Prolapsed lumbar intervertebral disc
+N123.	(Disc displacement, site unspecified, without myelopathy) or (intervertebral disc prolapse: [NOS] or [without myelopathy])
+N127.	Lumbar disc degeneration
+N128.	Degenerative disc disease NOS
+N14..	Other and unspecified back disorders
+N1408	Degenerative lumbar spinal stenosis
+N141.	Thoracic pain: [spine] or [acute back]
+N142.	(Back pain: [lumbar spine] or [low] or [acute lumbar]) or (lumbalgia) or (lumbago)
+N1420	Lumbago with sciatica
+N143.	Acute back pain &/or sciatica
+N1441	Lumbosacral neuritis, unspecified
+N1464	Sacroiliac instability
+N1466	Sacroiliac disorder
+N146z	(Sacroiliac strain) or (disorders of the sacrum NOS)
+N1487	Atlanto-occipital instability
+N1488	Atlantoaxial instability
+N1489	Cervical spine instability
+N14z.	(Back disorders NOS) or (ankylosis of spine NOS) or (spinal disorder NOS)
+N330B	Vertebral osteoporosis
+N37..	Curvature of spine
+N3739	Scoliosis secondary to other treatment
+N373z	Kyphoscoliosis or scoliosis NOS
+N3743	Scoliosis associated with other condition
+N37zz	Curvature of spine NOS
+Nyu52	[X]Other lordosis
+Nyu55	[X]Other forms of scoliosis
+Nyu56	[X]Other fusion of spine
+Nyu5A	[X]Lordosis, unspecified
+Nyu6.	[X]Spondylopathies
+Nyu63	[X]Other spondylosis with radiculopathy
+Nyu64	[X]Other spondylosis
+Nyu67	[X]Collapsed vertebra in diseases classified elsewhere
+Nyu70	[X]Other cervical disc displacement
+Nyu76	[X]Other specified intervertebral disc degeneration
+S560.	Sprain, lumbosacral ligament
+S57..	Sprain: [other parts of back] or [back sprain excluding lumbosacral]
+S572.	Lumbar sprain
+S57z.	Back sprain NOS
+SJ60.	Sciatic nerve injury
+Syu36	[X]Sprain and strain of other and unspecified parts of lumbar spine and pelvis
+Ub1Nw	Manipulation of the vertebrae
+X6076	Spinal operation
+X6079	Excision of lumbar intervertebral disc
+X607G	Spinal fusion
+X7039	OA - Osteoarthritis of the spine
+X7039	Spondylosis
+X703k	Lumbar spondylosis
+X703k	Osteoarthritis of lumbar spine
+X70Cd	Intervertebral disc degeneration
+X70Cg	PIVD - Prolapsed intervertebral disc
+X70Ci	Intervertebral disc prolapse NOS
+X70Cl	Intervertebral discitis
+X70Co	Spinal stenosis
+X70Cs	Spondylolysis
+X70nv	Computed tomography of spine
+X70nv	CT of spine
+X70ny	Computerised tomography of lumbar spine
+X70ny	Computed tomography of lumbar spine
+X70ny	CT of lumbar spine
+X70pC	Magnetic resonance imaging of spine
+X70pC	MRI of spine
+X70pF	Magnetic resonance imaging of lumbar spine
+X74l6	L4/5 disc
+X74l7	Lumbosacral disc
+X75s1	Sacral back pain
+X75s4	Facet joint syndrome
+X76mm	Stiff back
+X812w	Laminectomy
+X8130	Lumbar microdiscectomy
+XA00G	Spinal injury
+XA0G8	Fractured spine
+XA0GN	Fracture of lumbar vertebra
+XA0GO	Fracture of sacrum
+Xa0sK	CLBP - Chronic low back pain
+Xa0wp	Acute thoracic back pain
+Xa0ws	Thoracic back pain
+Xa0wt	Nonspecific pain in the lumbar region
+Xa1oY	Sprain of spinal ligament
+Xa1vm	Crush fracture of lumbar vertebra
+Xa2Cn	Injury of coccyx
+Xa2Cp	Lower back injury
+Xa2Cp	Lumbar region injury
+Xa6rE	Sacroiliac joint active
+Xa6sQ	Thoracic facet joint pain
+Xa6vS	Scoliosis deformity of spine
+Xa6vU	Lordosis deformity of spine
+Xa6ye	Dorsal spine - painful on movement
+Xa6yr	Lumbar spine scoliosis
+Xa7mA	Low back strain
+Xa7MU	Compression of lumbar nerve root
+Xa8Dk	Decompression of lumbar spine
+Xa8JY	Back problem
+Xa8Ro	Discectomy
+Xa9fo	CT of lumbar region
+Xa9lx	X-ray of region of spine
+XaAzg	Spondylolisthesis L5/S1 level
+XaC0R	Lumbosacral strain
+XaE3C	Lumbosacral spondylosis
+XaFCz	Wedge fracture of vertebra
+XaIIv	Chronic back pain
+XaIuu	Vertebroplasty
+XC0Hs	Lumbar
+XE0Ij	Other primary fusion of joint of lumbar spine
+XE1Ex	Lumbosacral spondylosis without myelopathy
+XE1Ey	Spondylosis NOS
+XE1FA	Pain in thoracic spine
+XE1FB	Pain in lumbar spine
+XE1FE	Back pain, unspecified
+XE1He	Low back pain
+XE1lw	Sprain of other parts of back
+XE1Qd	Spine X-ray
+XE1Qe	Coccyx X-ray
+XM0mj	Fusion of lumbar spine
+XM0uO	Sacroiliitis
+XM0vG	SPL - Spondylolisthesis
+XM0vh	Back sprain
+XM0vj	Lumbosacral sprain
+XM1GI	Back pain
+XM1M0	Correction of scoliosis
+XSEKr	Nerve root disorder
+XSEKr	Radiculopathy
+Zw040	[Q] Central disc prolapse
+Zw041	[Q] Posterolateral disc prolapse
+Zw042	[Q] Sequestrated disc prolapse
+Zw043	[Q] Central spinal stenosis
+Zw044	[Q] Lateral spinal stenosis
+Zw045	[Q] Central and lateral spinal stenosis

@@ -2,9 +2,9 @@
 --│ Diabetes and COVID cohort file │
 --└────────────────────────────────┘
 
------------------------- RDE CHECK -------------------------
---
-------------------------------------------------------------
+------------------------ RDE CHECK ---------------------
+-- George Tilston  - 16 March 2022 - via pull request --
+--------------------------------------------------------
 
 -- Cohort is patients included in the DARE study. The below queries produce the data
 -- that is required for each patient. However, a filter needs to be applied to only
@@ -16,14 +16,14 @@
 -- CREATE TABLE #DAREPatients (NhsNo NVARCHAR(30));
 
 -- DEMOGRAPHIC
--- PatientId, YearOfBirth, DeathDate, DeathWithin28Days, Frailty, AnyInfection (or just upper/lower chest infection, sinusitis and pneumonia)
+-- PatientId, YearOfBirth, DeathDate, DeathWithin28Days, Frailty,
 -- Sex, LSOA, EthnicCategoryDescription, TownsendScoreHigherIsMoreDeprived, TownsendQuintileHigherIsMoreDeprived,
 -- COHORT SPECIFIC
 -- FirstDiagnosisDate, FirstT1DiagnosisDate, FirstT2DiagnosisDate, 1stCOVIDPositiveTestDate, 2ndCOVIDPositiveTestDate,
 -- 3rdCOVIDPositiveTestDate, 4thCOVIDPositiveTestDate, 5thCOVIDPositiveTestDate,
--- 1stAdmissionPost1stCOVIDTest, LengthOfStay1stAdmission1stCOVIDTest, 1stAdmissionPost2ndCOVIDTest, LengthOfStay1stAdmission2ndCOVIDTest,
--- 1stAdmissionPost3rdCOVIDTest, LengthOfStay1stAdmission3rdCOVIDTest, 1stAdmissionPost4thCOVIDTest, LengthOfStay1stAdmission4thCOVIDTest,
--- 1stAdmissionPost5thCOVIDTest, LengthOfStay1stAdmission5thCOVIDTest, 
+-- FirstAdmissionPost1stCOVIDTest, LengthOfStay1stAdmission1stCOVIDTest, FirstAdmissionPost2ndCOVIDTest, LengthOfStay1stAdmission2ndCOVIDTest,
+-- FirstAdmissionPost3rdCOVIDTest, LengthOfStay1stAdmission3rdCOVIDTest, FirstAdmissionPost4thCOVIDTest, LengthOfStay1stAdmission4thCOVIDTest,
+-- FirstAdmissionPost5thCOVIDTest, LengthOfStay1stAdmission5thCOVIDTest, 
 -- DateOf1stVaccine, DateOf2ndVaccine, DateOf3rdVaccine, DateOf4thVaccine, DateOf5thVaccine, DateOf6thVaccine,
 -- PATIENT STATUS
 -- IsPassiveSmoker, WorstSmokingStatus, CurrentSmokingStatus
@@ -44,10 +44,6 @@ SET @StartDate = '2020-01-01';
 DECLARE @MedicationsFromDate datetime;
 SET @MedicationsFromDate = DATEADD(month, -6, @StartDate);
 
--- Only need bp/bmi etc if in 2 years prior to COVID test
-DECLARE @EventsFromDate datetime;
-SET @EventsFromDate = DATEADD(year, -2, @StartDate);
-
 -- Define #Patients temp table for getting future things like age/sex etc.
 -- NB this is where the filter to just DARE patients via NHS number occurs
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
@@ -55,61 +51,94 @@ SELECT p.FK_Patient_Link_ID INTO #Patients
 FROM [RLS].vw_Patient p
 INNER JOIN #DAREPatients dp ON dp.NhsNo = p.NhsNo;
 
+-- Get lookup between nhs number and fk_patient_link_id
+SELECT DISTINCT p.NhsNo, p.FK_Patient_Link_ID INTO #NhsNoToLinkId
+FROM [RLS].vw_Patient p
+INNER JOIN #DAREPatients dp ON dp.NhsNo = p.NhsNo;
+
+--Below is for testing without access to DARE nhs numbers
+--IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
+--SELECT TOP 200 FK_Patient_Link_ID INTO #Patients
+--FROM [RLS].vw_Patient p
+--GROUP BY FK_Patient_Link_ID;
+
+-- As it's a small cohort, it's quicker to get all data in to a temp table
+-- and then all subsequent queries will target that data
+IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(EventDate AS DATE) AS EventDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID,
+  [Value]
+INTO #PatientEventData
+FROM [RLS].vw_GP_Events
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+
+IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID
+INTO #PatientMedicationData
+FROM [RLS].vw_GP_Medications
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+
 -- First get all the diabetic (type 1/type 2/other) patients and the date of first diagnosis
 --> CODESET diabetes:1
 IF OBJECT_ID('tempdb..#DiabeticPatients') IS NOT NULL DROP TABLE #DiabeticPatients;
-SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstDiagnosisDate INTO #DiabeticPatients
-FROM RLS.vw_GP_Events
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstDiagnosisDate INTO #DiabeticPatients
+FROM #PatientEventData
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes') AND [Version]=1)
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 GROUP BY FK_Patient_Link_ID;
 
 -- Get separate cohorts for paients with type 1 diabetes and type 2 diabetes
 --> CODESET diabetes-type-i:1
 IF OBJECT_ID('tempdb..#DiabeticTypeIPatients') IS NOT NULL DROP TABLE #DiabeticTypeIPatients;
-SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstT1DiagnosisDate INTO #DiabeticTypeIPatients
-FROM RLS.vw_GP_Events
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstT1DiagnosisDate INTO #DiabeticTypeIPatients
+FROM #PatientEventData
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes-type-i') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes-type-i') AND [Version]=1)
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 GROUP BY FK_Patient_Link_ID;
 
 --> CODESET diabetes-type-ii:1
 IF OBJECT_ID('tempdb..#DiabeticTypeIIPatients') IS NOT NULL DROP TABLE #DiabeticTypeIIPatients;
-SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstT2DiagnosisDate INTO #DiabeticTypeIIPatients
-FROM RLS.vw_GP_Events
+SELECT FK_Patient_Link_ID, MIN(EventDate) AS FirstT2DiagnosisDate INTO #DiabeticTypeIIPatients
+FROM #PatientEventData
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes-type-ii') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes-type-ii') AND [Version]=1)
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 GROUP BY FK_Patient_Link_ID;
 
 -- Then get all the positive covid test patients
---> EXECUTE query-patients-with-covid.sql start-date:2020-01-01
+--> EXECUTE query-patients-with-covid.sql start-date:2020-01-01 all-patients:false gp-events-table:#PatientEventData
 --> EXECUTE query-patient-year-of-birth.sql
 --> EXECUTE query-patient-sex.sql
---> EXECUTE query-patient-smoking-status.sql
+--> EXECUTE query-patient-smoking-status.sql gp-events-table:#PatientEventData
 --> EXECUTE query-patient-lsoa.sql
 --> EXECUTE query-patient-townsend.sql
---> EXECUTE query-get-covid-vaccines.sql
+--> EXECUTE query-get-covid-vaccines.sql gp-events-table:#PatientEventData gp-medications-table:#PatientMedicationData
 --> EXECUTE query-patient-frailty-score.sql
---> EXECUTE query-get-admissions-and-length-of-stay.sql
+--> EXECUTE query-get-admissions-and-length-of-stay.sql all-patients:false
 
 -- Now find hospital admission following each of up to 5 covid positive tests
 IF OBJECT_ID('tempdb..#PatientsAdmissionsPostTest') IS NOT NULL DROP TABLE #PatientsAdmissionsPostTest;
 CREATE TABLE #PatientsAdmissionsPostTest (
   FK_Patient_Link_ID BIGINT,
-  [1stAdmissionPost1stCOVIDTest] DATE,
-  [1stAdmissionPost2ndCOVIDTest] DATE,
-  [1stAdmissionPost3rdCOVIDTest] DATE,
-  [1stAdmissionPost4thCOVIDTest] DATE,
-  [1stAdmissionPost5thCOVIDTest] DATE
+  [FirstAdmissionPost1stCOVIDTest] DATE,
+  [FirstAdmissionPost2ndCOVIDTest] DATE,
+  [FirstAdmissionPost3rdCOVIDTest] DATE,
+  [FirstAdmissionPost4thCOVIDTest] DATE,
+  [FirstAdmissionPost5thCOVIDTest] DATE
 );
 
 -- Populate table with patient IDs
@@ -118,7 +147,7 @@ SELECT FK_Patient_Link_ID FROM #CovidPatientsMultipleDiagnoses;
 
 -- Find 1st hospital stay following 1st COVID positive test (but before 2nd)
 UPDATE t1
-SET t1.[1stAdmissionPost1stCOVIDTest] = NextAdmissionDate
+SET t1.[FirstAdmissionPost1stCOVIDTest] = NextAdmissionDate
 FROM #PatientsAdmissionsPostTest AS t1
 INNER JOIN (
 SELECT cp.FK_Patient_Link_ID, MIN(los.AdmissionDate) AS NextAdmissionDate FROM #CovidPatientsMultipleDiagnoses cp
@@ -129,7 +158,7 @@ GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient
 
 -- Find 1st hospital stay following 2nd COVID positive test (but before 3rd)
 UPDATE t1
-SET t1.[1stAdmissionPost2ndCOVIDTest] = NextAdmissionDate
+SET t1.[FirstAdmissionPost2ndCOVIDTest] = NextAdmissionDate
 FROM #PatientsAdmissionsPostTest AS t1
 INNER JOIN (
 SELECT cp.FK_Patient_Link_ID, MIN(los.AdmissionDate) AS NextAdmissionDate FROM #CovidPatientsMultipleDiagnoses cp
@@ -140,7 +169,7 @@ GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient
 
 -- Find 1st hospital stay following 3rd COVID positive test (but before 4th)
 UPDATE t1
-SET t1.[1stAdmissionPost3rdCOVIDTest] = NextAdmissionDate
+SET t1.[FirstAdmissionPost3rdCOVIDTest] = NextAdmissionDate
 FROM #PatientsAdmissionsPostTest AS t1
 INNER JOIN (
 SELECT cp.FK_Patient_Link_ID, MIN(los.AdmissionDate) AS NextAdmissionDate FROM #CovidPatientsMultipleDiagnoses cp
@@ -151,7 +180,7 @@ GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient
 
 -- Find 1st hospital stay following 4th COVID positive test (but before 5th)
 UPDATE t1
-SET t1.[1stAdmissionPost4thCOVIDTest] = NextAdmissionDate
+SET t1.[FirstAdmissionPost4thCOVIDTest] = NextAdmissionDate
 FROM #PatientsAdmissionsPostTest AS t1
 INNER JOIN (
 SELECT cp.FK_Patient_Link_ID, MIN(los.AdmissionDate) AS NextAdmissionDate FROM #CovidPatientsMultipleDiagnoses cp
@@ -162,7 +191,7 @@ GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient
 
 -- Find 1st hospital stay following 5th COVID positive test
 UPDATE t1
-SET t1.[1stAdmissionPost5thCOVIDTest] = NextAdmissionDate
+SET t1.[FirstAdmissionPost5thCOVIDTest] = NextAdmissionDate
 FROM #PatientsAdmissionsPostTest AS t1
 INNER JOIN (
 SELECT cp.FK_Patient_Link_ID, MIN(los.AdmissionDate) AS NextAdmissionDate FROM #CovidPatientsMultipleDiagnoses cp
@@ -180,11 +209,11 @@ SELECT p.FK_Patient_Link_ID,
 		MAX(l5.LengthOfStay) AS LengthOfStay1stAdmission5thCOVIDTest
 INTO #PatientsLOSPostTest
 FROM #PatientsAdmissionsPostTest p
-	LEFT OUTER JOIN #LengthOfStay l1 ON p.FK_Patient_Link_ID = l1.FK_Patient_Link_ID AND p.[1stAdmissionPost1stCOVIDTest] = l1.AdmissionDate
-	LEFT OUTER JOIN #LengthOfStay l2 ON p.FK_Patient_Link_ID = l2.FK_Patient_Link_ID AND p.[1stAdmissionPost2ndCOVIDTest] = l2.AdmissionDate
-	LEFT OUTER JOIN #LengthOfStay l3 ON p.FK_Patient_Link_ID = l3.FK_Patient_Link_ID AND p.[1stAdmissionPost3rdCOVIDTest] = l3.AdmissionDate
-	LEFT OUTER JOIN #LengthOfStay l4 ON p.FK_Patient_Link_ID = l4.FK_Patient_Link_ID AND p.[1stAdmissionPost4thCOVIDTest] = l4.AdmissionDate
-	LEFT OUTER JOIN #LengthOfStay l5 ON p.FK_Patient_Link_ID = l5.FK_Patient_Link_ID AND p.[1stAdmissionPost5thCOVIDTest] = l5.AdmissionDate
+	LEFT OUTER JOIN #LengthOfStay l1 ON p.FK_Patient_Link_ID = l1.FK_Patient_Link_ID AND p.[FirstAdmissionPost1stCOVIDTest] = l1.AdmissionDate
+	LEFT OUTER JOIN #LengthOfStay l2 ON p.FK_Patient_Link_ID = l2.FK_Patient_Link_ID AND p.[FirstAdmissionPost2ndCOVIDTest] = l2.AdmissionDate
+	LEFT OUTER JOIN #LengthOfStay l3 ON p.FK_Patient_Link_ID = l3.FK_Patient_Link_ID AND p.[FirstAdmissionPost3rdCOVIDTest] = l3.AdmissionDate
+	LEFT OUTER JOIN #LengthOfStay l4 ON p.FK_Patient_Link_ID = l4.FK_Patient_Link_ID AND p.[FirstAdmissionPost4thCOVIDTest] = l4.AdmissionDate
+	LEFT OUTER JOIN #LengthOfStay l5 ON p.FK_Patient_Link_ID = l5.FK_Patient_Link_ID AND p.[FirstAdmissionPost5thCOVIDTest] = l5.AdmissionDate
 GROUP BY p.FK_Patient_Link_ID;
 
 -- diagnoses
@@ -192,250 +221,133 @@ GROUP BY p.FK_Patient_Link_ID;
 IF OBJECT_ID('tempdb..#PatientDiagnosesCOPD') IS NOT NULL DROP TABLE #PatientDiagnosesCOPD;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #PatientDiagnosesCOPD
-FROM RLS.vw_GP_Events
+FROM #PatientEventData
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('copd') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('copd') AND [Version]=1))
-)
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+);
 
 --> CODESET asthma:1
 IF OBJECT_ID('tempdb..#PatientDiagnosesASTHMA') IS NOT NULL DROP TABLE #PatientDiagnosesASTHMA;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #PatientDiagnosesASTHMA
-FROM RLS.vw_GP_Events
+FROM #PatientEventData
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('asthma') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('asthma') AND [Version]=1))
-)
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+);
 
 --> CODESET severe-mental-illness:1
 IF OBJECT_ID('tempdb..#PatientDiagnosesSEVEREMENTALILLNESS') IS NOT NULL DROP TABLE #PatientDiagnosesSEVEREMENTALILLNESS;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #PatientDiagnosesSEVEREMENTALILLNESS
-FROM RLS.vw_GP_Events
+FROM #PatientEventData
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('severe-mental-illness') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('severe-mental-illness') AND [Version]=1))
-)
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+);
 
 --> CODESET hypertension:1
 IF OBJECT_ID('tempdb..#PatientDiagnosesHYPERTENSION') IS NOT NULL DROP TABLE #PatientDiagnosesHYPERTENSION;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #PatientDiagnosesHYPERTENSION
-FROM RLS.vw_GP_Events
+FROM #PatientEventData
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('hypertension') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('hypertension') AND [Version]=1))
-)
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+);
 
 
 -- medications
 --> CODESET metformin:1
 IF OBJECT_ID('tempdb..#PatientMedicationsMETFORMIN') IS NOT NULL DROP TABLE #PatientMedicationsMETFORMIN;
-SELECT 
-	FK_Patient_Link_ID,
-	CAST(MedicationDate AS DATE) AS MedicationDate
+SELECT DISTINCT	FK_Patient_Link_ID
 INTO #PatientMedicationsMETFORMIN
-FROM RLS.vw_GP_Medications
+FROM #PatientMedicationData
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('metformin') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('metformin') AND [Version]=1))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate > @MedicationsFromDate;
 
 --> CODESET glp1-receptor-agonists:1
 IF OBJECT_ID('tempdb..#PatientMedicationsGLP1') IS NOT NULL DROP TABLE #PatientMedicationsGLP1;
-SELECT 
-	FK_Patient_Link_ID,
-	CAST(MedicationDate AS DATE) AS MedicationDate
+SELECT DISTINCT	FK_Patient_Link_ID
 INTO #PatientMedicationsGLP1
-FROM RLS.vw_GP_Medications
+FROM #PatientMedicationData
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('glp1-receptor-agonists') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('glp1-receptor-agonists') AND [Version]=1))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate > @MedicationsFromDate;
 
 --> CODESET insulin:1
 IF OBJECT_ID('tempdb..#PatientMedicationsINSULIN') IS NOT NULL DROP TABLE #PatientMedicationsINSULIN;
-SELECT 
-	FK_Patient_Link_ID,
-	CAST(MedicationDate AS DATE) AS MedicationDate
+SELECT DISTINCT	FK_Patient_Link_ID
 INTO #PatientMedicationsINSULIN
-FROM RLS.vw_GP_Medications
+FROM #PatientMedicationData
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('insulin') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('insulin') AND [Version]=1))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate > @MedicationsFromDate;
 
 --> CODESET sglt2-inhibitors:1
 IF OBJECT_ID('tempdb..#PatientMedicationsSGLT2I') IS NOT NULL DROP TABLE #PatientMedicationsSGLT2I;
-SELECT 
-	FK_Patient_Link_ID,
-	CAST(MedicationDate AS DATE) AS MedicationDate
+SELECT DISTINCT	FK_Patient_Link_ID
 INTO #PatientMedicationsSGLT2I
-FROM RLS.vw_GP_Medications
+FROM #PatientMedicationData
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('sglt2-inhibitors') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('sglt2-inhibitors') AND [Version]=1))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate > @MedicationsFromDate;
 
 --> CODESET sulphonylureas:1
 IF OBJECT_ID('tempdb..#PatientMedicationsSULPHONYLUREAS') IS NOT NULL DROP TABLE #PatientMedicationsSULPHONYLUREAS;
-SELECT 
-	FK_Patient_Link_ID,
-	CAST(MedicationDate AS DATE) AS MedicationDate
+SELECT DISTINCT	FK_Patient_Link_ID
 INTO #PatientMedicationsSULPHONYLUREAS
-FROM RLS.vw_GP_Medications
+FROM #PatientMedicationData
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('sulphonylureas') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('sulphonylureas') AND [Version]=1))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate > @MedicationsFromDate;
 
 --> CODESET ace-inhibitor:1
 IF OBJECT_ID('tempdb..#PatientMedicationsACEI') IS NOT NULL DROP TABLE #PatientMedicationsACEI;
-SELECT 
-	FK_Patient_Link_ID,
-	CAST(MedicationDate AS DATE) AS MedicationDate
+SELECT DISTINCT	FK_Patient_Link_ID
 INTO #PatientMedicationsACEI
-FROM RLS.vw_GP_Medications
+FROM #PatientMedicationData
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('ace-inhibitor') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('ace-inhibitor') AND [Version]=1))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate > @MedicationsFromDate;
 
 --> CODESET aspirin:1
 IF OBJECT_ID('tempdb..#PatientMedicationsASPIRIN') IS NOT NULL DROP TABLE #PatientMedicationsASPIRIN;
-SELECT 
-	FK_Patient_Link_ID,
-	CAST(MedicationDate AS DATE) AS MedicationDate
+SELECT DISTINCT	FK_Patient_Link_ID
 INTO #PatientMedicationsASPIRIN
-FROM RLS.vw_GP_Medications
+FROM #PatientMedicationData
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('aspirin') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('aspirin') AND [Version]=1))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate > @MedicationsFromDate;
 
 --> CODESET clopidogrel:1
 IF OBJECT_ID('tempdb..#PatientMedicationsCLOPIDOGREL') IS NOT NULL DROP TABLE #PatientMedicationsCLOPIDOGREL;
-SELECT 
-	FK_Patient_Link_ID,
-	CAST(MedicationDate AS DATE) AS MedicationDate
+SELECT DISTINCT	FK_Patient_Link_ID
 INTO #PatientMedicationsCLOPIDOGREL
-FROM RLS.vw_GP_Medications
+FROM #PatientMedicationData
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('clopidogrel') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('clopidogrel') AND [Version]=1))
 )
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate > @MedicationsFromDate;
 
--- record as on med if value within 6 months on index date
-IF OBJECT_ID('tempdb..#TempPatMedsACEI') IS NOT NULL DROP TABLE #TempPatMedsACEI;
-SELECT 
-  p.FK_Patient_Link_ID
-INTO #TempPatMedsACEI
-FROM #PatientIdsAndIndexDates p
-INNER JOIN #PatientMedicationsACEI acei
-  ON acei.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-  AND acei.MedicationDate <= p.IndexDate
-  AND acei.MedicationDate >= DATEADD(day, -183, p.IndexDate)
-GROUP BY p.FK_Patient_Link_ID;
-
-IF OBJECT_ID('tempdb..#TempPatMedsASPIRIN') IS NOT NULL DROP TABLE #TempPatMedsASPIRIN;
-SELECT 
-  p.FK_Patient_Link_ID
-INTO #TempPatMedsASPIRIN
-FROM #PatientIdsAndIndexDates p
-INNER JOIN #PatientMedicationsASPIRIN aspirin
-  ON aspirin.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-  AND aspirin.MedicationDate <= p.IndexDate
-  AND aspirin.MedicationDate >= DATEADD(day, -183, p.IndexDate)
-GROUP BY p.FK_Patient_Link_ID;
-
-IF OBJECT_ID('tempdb..#TempPatMedsCLOPIDOGREL') IS NOT NULL DROP TABLE #TempPatMedsCLOPIDOGREL;
-SELECT 
-  p.FK_Patient_Link_ID
-INTO #TempPatMedsCLOPIDOGREL
-FROM #PatientIdsAndIndexDates p
-INNER JOIN #PatientMedicationsCLOPIDOGREL clop
-  ON clop.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-  AND clop.MedicationDate <= p.IndexDate
-  AND clop.MedicationDate >= DATEADD(day, -183, p.IndexDate)
-GROUP BY p.FK_Patient_Link_ID;
-
-IF OBJECT_ID('tempdb..#TempPatMedsMETFORMIN') IS NOT NULL DROP TABLE #TempPatMedsMETFORMIN;
-SELECT 
-  p.FK_Patient_Link_ID
-INTO #TempPatMedsMETFORMIN
-FROM #PatientIdsAndIndexDates p
-INNER JOIN #PatientMedicationsMETFORMIN met
-  ON met.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-  AND met.MedicationDate <= p.IndexDate
-  AND met.MedicationDate >= DATEADD(day, -183, p.IndexDate)
-GROUP BY p.FK_Patient_Link_ID;
-
-IF OBJECT_ID('tempdb..#TempPatMedsGLP1') IS NOT NULL DROP TABLE #TempPatMedsGLP1;
-SELECT 
-  p.FK_Patient_Link_ID
-INTO #TempPatMedsGLP1
-FROM #PatientIdsAndIndexDates p
-INNER JOIN #PatientMedicationsGLP1 glp1
-  ON glp1.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-  AND glp1.MedicationDate <= p.IndexDate
-  AND glp1.MedicationDate >= DATEADD(day, -183, p.IndexDate)
-GROUP BY p.FK_Patient_Link_ID;
-
-IF OBJECT_ID('tempdb..#TempPatMedsINSULIN') IS NOT NULL DROP TABLE #TempPatMedsINSULIN;
-SELECT 
-  p.FK_Patient_Link_ID
-INTO #TempPatMedsINSULIN
-FROM #PatientIdsAndIndexDates p
-INNER JOIN #PatientMedicationsINSULIN insu
-  ON insu.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-  AND insu.MedicationDate <= p.IndexDate
-  AND insu.MedicationDate >= DATEADD(day, -183, p.IndexDate)
-GROUP BY p.FK_Patient_Link_ID;
-
-IF OBJECT_ID('tempdb..#TempPatMedsSGLT2I') IS NOT NULL DROP TABLE #TempPatMedsSGLT2I;
-SELECT 
-  p.FK_Patient_Link_ID
-INTO #TempPatMedsSGLT2I
-FROM #PatientIdsAndIndexDates p
-INNER JOIN #PatientMedicationsSGLT2I sglt
-  ON sglt.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-  AND sglt.MedicationDate <= p.IndexDate
-  AND sglt.MedicationDate >= DATEADD(day, -183, p.IndexDate)
-GROUP BY p.FK_Patient_Link_ID;
-
-IF OBJECT_ID('tempdb..#TempPatMedsSULPHONYLUREAS') IS NOT NULL DROP TABLE #TempPatMedsSULPHONYLUREAS;
-SELECT 
-  p.FK_Patient_Link_ID
-INTO #TempPatMedsSULPHONYLUREAS
-FROM #PatientIdsAndIndexDates p
-INNER JOIN #PatientMedicationsSULPHONYLUREAS sulp
-  ON sulp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-  AND sulp.MedicationDate <= p.IndexDate
-  AND sulp.MedicationDate >= DATEADD(day, -183, p.IndexDate)
-GROUP BY p.FK_Patient_Link_ID;
-
--- record as on med if value within 6 months on index date
+-- collate on meds
 IF OBJECT_ID('tempdb..#PatientMedications') IS NOT NULL DROP TABLE #PatientMedications;
 SELECT 
   p.FK_Patient_Link_ID,
@@ -448,25 +360,26 @@ SELECT
   CASE WHEN sulp.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS IsOnSulphonylurea,
   CASE WHEN met.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS IsOnMetformin
 INTO #PatientMedications
-FROM #PatientIdsAndIndexDates p
-LEFT OUTER JOIN #TempPatMedsACEI acei ON acei.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #TempPatMedsASPIRIN aspirin ON aspirin.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #TempPatMedsCLOPIDOGREL clop ON clop.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #TempPatMedsMETFORMIN met ON met.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #TempPatMedsGLP1 glp1 ON glp1.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #TempPatMedsINSULIN insu ON insu.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #TempPatMedsSGLT2I sglt ON sglt.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #TempPatMedsSULPHONYLUREAS sulp ON sulp.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
+FROM #Patients p
+LEFT OUTER JOIN #PatientMedicationsACEI acei ON acei.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientMedicationsASPIRIN aspirin ON aspirin.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientMedicationsCLOPIDOGREL clop ON clop.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientMedicationsMETFORMIN met ON met.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientMedicationsGLP1 glp1 ON glp1.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientMedicationsINSULIN insu ON insu.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientMedicationsSGLT2I sglt ON sglt.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientMedicationsSULPHONYLUREAS sulp ON sulp.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
   
 -- Get patient list of those with COVID death within 28 days of positive test
 IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT FK_Patient_Link_ID 
 INTO #COVIDDeath FROM RLS.vw_COVID19
-WHERE DeathWithin28Days = 'Y';
+WHERE DeathWithin28Days = 'Y'
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 -- Bring together for final output
 SELECT 
-  m.FK_Patient_Link_ID AS PatientId,
+  NhsNo,
   YearOfBirth,
   DeathDate,
   CASE WHEN covidDeath.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS DeathWithin28DaysCovidPositiveTest,
@@ -484,15 +397,15 @@ SELECT
   ThirdCovidPositiveDate,
   FourthCovidPositiveDate,
   FifthCovidPositiveDate,
-  1stAdmissionPost1stCOVIDTest,
+  FirstAdmissionPost1stCOVIDTest,
   LengthOfStay1stAdmission1stCOVIDTest,
-  1stAdmissionPost2ndCOVIDTest,
+  FirstAdmissionPost2ndCOVIDTest,
   LengthOfStay1stAdmission2ndCOVIDTest,
-  1stAdmissionPost3rdCOVIDTest,
+  FirstAdmissionPost3rdCOVIDTest,
   LengthOfStay1stAdmission3rdCOVIDTest,
-  1stAdmissionPost4thCOVIDTest,
+  FirstAdmissionPost4thCOVIDTest,
   LengthOfStay1stAdmission4thCOVIDTest,
-  1stAdmissionPost5thCOVIDTest,
+  FirstAdmissionPost5thCOVIDTest,
   LengthOfStay1stAdmission5thCOVIDTest,
   smok.PassiveSmoker AS IsPassiveSmoker,
   smok.WorstSmokingStatus,
@@ -512,6 +425,7 @@ SELECT
   IsOnGLP1A,
   IsOnSulphonylurea
 FROM #Patients m
+INNER JOIN #NhsNoToLinkId n on n.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = m.FK_Patient_Link_ID
@@ -520,7 +434,6 @@ LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = m.FK_Patient
 LEFT OUTER JOIN #DiabeticPatients dm ON dm.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #DiabeticTypeIPatients t1 ON t1.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #DiabeticTypeIIPatients t2 ON t2.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientValuesBMI bmi ON bmi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientTownsend town ON town.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesCOPD copd ON copd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesASTHMA asthma ON asthma.FK_Patient_Link_ID = m.FK_Patient_Link_ID

@@ -1,0 +1,5 @@
+44G3.	ALT/SGPT serum level
+44G..	Liver enzymes (& blood level [ALT] or [SGPT])
+XaLJx	Serum alanine aminotransferase level
+X771f	ALT - blood level
+X771e	SGPT - blood level

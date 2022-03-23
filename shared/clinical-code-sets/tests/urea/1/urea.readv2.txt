@@ -1,0 +1,8 @@
+44J9.00	Serum urea level
+44J8.00	Blood urea
+44J..11	Urea - blood
+44JA.00	Plasma urea level
+44J..00	Blood urea/renal function
+44J..13	Serum urea level
+44JZ.00	Blood urea/renal function NOS
+44J8.11	Urea - blood

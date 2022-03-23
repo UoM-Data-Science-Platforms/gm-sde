@@ -1,0 +1,4 @@
+44EC.00	Serum total bilirubin level
+44E..00	Serum bilirubin level
+44E3.00	Total bilirubin
+44EZ.00	Serum bilirubin NOS

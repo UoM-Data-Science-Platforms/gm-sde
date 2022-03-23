@@ -1,0 +1,3 @@
+44F..00	Serum alkaline phosphatase
+44F3.00	Total alkaline phosphatase
+44FZ.00	Serum alkaline phosphatase NOS

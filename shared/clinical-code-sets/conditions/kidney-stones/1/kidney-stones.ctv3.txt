@@ -1,0 +1,19 @@
+XE0dk	Calculus of kidney
+X30Pp	Calculus in calyceal diverticulum
+X30Pr	Calculus in pelviureteric junction 
+X30Pq	Calculus in renal pelvis
+X30Po	Calyceal renal calculus
+XE0fN	Kidney calculus (& [staghorn]) 
+K120z	Renal calculus NOS 
+K1200	Staghorn calculus	 
+XM14o	Uric acid renal calculus
+4G4..	O/E: renal calculus
+4G42.	Phosphate kidney stone &/or [O/E: staghorn]
+4G4Z.	O/E: renal stone NOS
+C3411	(Uric acid nephrolithiasis) or (renal stone - uric acid)
+K12..	Urinary calculus (& [kidney &/or ureter)
+K120.	(Calculus of kidney) or (nephrolithiasis NOS)
+PD31.	Congenital calculus of kidney
+X30Pn	Nephrolithiasis NOS
+XE0dj	Calculus of kidney and ureter
+XM1XM	Phosphate kidney stone

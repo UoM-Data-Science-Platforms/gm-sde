@@ -1,0 +1,2 @@
+426..00	Red blood cell (RBC) count
+426Z.00	RBC count NOS

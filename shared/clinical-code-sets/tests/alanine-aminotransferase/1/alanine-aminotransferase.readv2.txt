@@ -1,0 +1,3 @@
+44G3.00	ALT/SGPT serum level
+44GB.00	Serum alanine aminotransferase level
+44G..11	ALT - blood level
