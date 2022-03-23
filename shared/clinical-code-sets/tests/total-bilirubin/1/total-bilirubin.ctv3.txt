@@ -1,0 +1,4 @@
+XaERu	Serum total bilirubin level
+44E..	Serum bilirubin level
+XE2qu	Total bilirubin level
+XE2qu	Total bilirubin

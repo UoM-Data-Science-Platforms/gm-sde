@@ -1,0 +1,5 @@
+XM0lt	Serum urea level
+X771P	Blood urea
+X771P	Urea - blood
+XaDvl	Plasma urea level
+44JZ.	Blood urea/renal function NOS
