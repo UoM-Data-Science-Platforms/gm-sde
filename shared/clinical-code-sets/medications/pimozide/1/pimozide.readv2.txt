@@ -1,0 +1,7 @@
+d4c..00	PIMOZIDE
+d4cz.00	*PIMOZIDE 10mg tablets
+d4cy.00	PIMOZIDE 4mg tablets
+d4cx.00	*PIMOZIDE 2mg tablets
+d4c3.00	*ORAP 10mg tablets
+d4c2.00	ORAP 4mg tablets
+d4c1.00	*ORAP 2mg tablets
