@@ -1,0 +1,25 @@
+x00CD	Zuclopenthixol
+d4n4.	Zuclopenthixol acetate 100mg/2mL oily injection
+d4n2.	Clopixol Acuphase 100mg/2mL oily injection
+d4n3.	Zuclopenthixol acetate 50mg/1mL oily injection
+d4n1.	Clopixol Acuphase 50mg/1mL oily injection
+d4n..	Zuclopenthixol acetate
+d4jz.	Zuclopenthixol 25mg tablet
+d4j3.	Clopixol 25mg tablet
+d4jy.	Zuclopenthixol 10mg tablet
+d4j2.	Clopixol 10mg tablet
+d4jx.	Zuclopenthixol 2mg tablet
+d4j1.	Clopixol 2mg tablet
+d4j..	Zuclopenthixol dihydrochloride
+d57..	Zuclopenthixol decanoate
+d57z.	Zuclopenthixol decanoate 500mg/1mL oily injection
+d573.	Clopixol Conc 500mg/1mL oily injection
+d57y.	Zuclopenthixol decanoate 2g/10mL oily injection
+d572.	Clopixol 2g/10mL oily injection
+d578.	Zuclopenthixol decanoate 100mg/2mL injection
+d577.	Zuclopenthixol decanoate 50mg/1mL injection
+d576.	Zuclopenthixol decanoate 200mg/1mL oily injection
+d571.	Clopixol 200mg/1mL oily injection
+x02Xe	Clopixol Conc
+x02Xd	Clopixol Acuphase
+x02Xc	Clopixol

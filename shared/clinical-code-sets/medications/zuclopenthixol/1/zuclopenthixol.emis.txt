@@ -1,0 +1,28 @@
+CLIN10979BRIDL	Clopixol Acuphase  Injection  50 mg/1 ml ampoule
+CLIN29855EMIS	Clopixol Acuphase  Injection  100 mg/2 ml ampoule
+CLIN656	Clopixol  Injection  200 mg/ml, 1 ml ampoule
+CLIN661	Clopixol Conc.  Injection  500mg/ml, 1 ml ampoule
+CLTA658	Clopixol  Tablets  10 mg
+CLTA659	Clopixol  Tablets  2 mg
+CLTA660	Clopixol  Tablets  25 mg
+ZUIN29852EMIS	Zuclopenthixol Acetate  Injection  100 mg/2 ml ampoule
+ZUIN29853EMIS	Zuclopenthixol Acetate  Injection  50 mg/1 ml ampoule
+ZUIN5509	Zuclopenthixol Decanoate  Injection  200 mg/ml, 1 ml ampoule
+ZUIN5510	Zuclopenthixol Decanoate  Injection  500mg/ml, 1 ml ampoule
+ZUTA5511	Zuclopenthixol Dihydrochloride  Tablets  10 mg
+ZUTA6848	Zuclopenthixol Dihydrochloride  Tablets  2 mg
+ZUTA6849	Zuclopenthixol Dihydrochloride  Tablets  25 mg
+CLIN10979BRIDL	Clopixol Acuphase  Injection  50 mg/1 ml ampoule
+CLIN29855EMIS	Clopixol Acuphase  Injection  100 mg/2 ml ampoule
+CLIN656	Clopixol  Injection  200 mg/ml, 1 ml ampoule
+CLIN661	Clopixol Conc.  Injection  500mg/ml, 1 ml ampoule
+CLTA658	Clopixol  Tablets  10 mg
+CLTA659	Clopixol  Tablets  2 mg
+CLTA660	Clopixol  Tablets  25 mg
+ZUIN29852EMIS	Zuclopenthixol Acetate  Injection  100 mg/2 ml ampoule
+ZUIN29853EMIS	Zuclopenthixol Acetate  Injection  50 mg/1 ml ampoule
+ZUIN5509	Zuclopenthixol Decanoate  Injection  200 mg/ml, 1 ml ampoule
+ZUIN5510	Zuclopenthixol Decanoate  Injection  500mg/ml, 1 ml ampoule
+ZUTA5511	Zuclopenthixol Dihydrochloride  Tablets  10 mg
+ZUTA6848	Zuclopenthixol Dihydrochloride  Tablets  2 mg
+ZUTA6849	Zuclopenthixol Dihydrochloride  Tablets  25 mg
