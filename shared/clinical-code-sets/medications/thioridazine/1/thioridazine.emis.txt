@@ -1,0 +1,28 @@
+MESU1756	Melleril  Suspension  100mg/5 ml
+MESU1757	Melleril  Suspension  25mg/5 ml
+MESY1758	Melleril  Syrup  25 mg/5 ml
+META1760	Melleril  Tablets  10 mg
+META1761	Melleril  Tablets  100 mg
+META1762	Melleril  Tablets  25 mg
+META1763	Melleril  Tablets  50 mg
+THSU5441	Thioridazine  Suspension  100mg/5 ml
+THSU6978	Thioridazine  Suspension  25mg/5 ml
+THSY2845	Thioridazine  Syrup  25 mg/5 ml
+THTA2846	Thioridazine  Tablets  10 mg
+THTA2847	Thioridazine  Tablets  100 mg
+THTA2848	Thioridazine  Tablets  25 mg
+THTA2849	Thioridazine  Tablets  50 mg
+MESU1756	Melleril  Suspension  100mg/5 ml
+MESU1757	Melleril  Suspension  25mg/5 ml
+MESY1758	Melleril  Syrup  25 mg/5 ml
+META1760	Melleril  Tablets  10 mg
+META1761	Melleril  Tablets  100 mg
+META1762	Melleril  Tablets  25 mg
+META1763	Melleril  Tablets  50 mg
+THSU5441	Thioridazine  Suspension  100mg/5 ml
+THSU6978	Thioridazine  Suspension  25mg/5 ml
+THSY2845	Thioridazine  Syrup  25 mg/5 ml
+THTA2846	Thioridazine  Tablets  10 mg
+THTA2847	Thioridazine  Tablets  100 mg
+THTA2848	Thioridazine  Tablets  25 mg
+THTA2849	Thioridazine  Tablets  50 mg

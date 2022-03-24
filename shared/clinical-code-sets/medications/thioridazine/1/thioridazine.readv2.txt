@@ -1,0 +1,19 @@
+d4g..00	THIORIDAZINE
+d4gz.00	*THIORIDAZINE 25mg/5mL syrup
+d4gy.00	THIORIDAZINE 100mg/5mL oral suspension
+d4gx.00	THIORIDAZINE 25mg/5mL suspension
+d4gw.00	THIORIDAZINE 100mg tablets
+d4gv.00	THIORIDAZINE 50mg tablets
+d4gu.00	THIORIDAZINE 25mg tablets
+d4gt.00	*THIORIDAZINE 10mg tablets
+d4gs.00	THIORIDAZINE 100mg/5mL sugar free solution
+d4gr.00	THIORIDAZINE 50mg/5mL sugar free solution
+d4gq.00	THIORIDAZINE 25mg/5mL sugar free solution
+d4gp.00	THIORIDAZINE 10mg/5mL syrup
+d4g7.00	MELLERIL 25mg/5mL orange syrup
+d4g6.00	MELLERIL 100mg/5mL oral suspension
+d4g5.00	*MELLERIL 25mg/5mL suspension
+d4g4.00	*MELLERIL 100mg tablets
+d4g3.00	*MELLERIL 50mg tablets
+d4g2.00	*MELLERIL 25mg tablets
+d4g1.00	*MELLERIL 10mg tablets
