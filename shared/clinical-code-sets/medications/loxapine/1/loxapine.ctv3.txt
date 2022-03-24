@@ -1,0 +1,8 @@
+d4k..	Loxapine
+d4k3.	Loxapine 50mg capsule
+d4k6.	Loxapac 50mg capsule
+d4k2.	Loxapine 25mg capsule
+d4k5.	Loxapac 25mg capsule
+d4k1.	Loxapine 10mg capsule
+d4k4.	Loxapac 10mg capsule
+x02hz	Loxapac

@@ -1,0 +1,12 @@
+LOCA20611EMIS	Loxapine Succinate  Capsules  10 mg
+LOCA20612EMIS	Loxapine Succinate  Capsules  25 mg
+LOCA20613EMIS	Loxapine Succinate  Capsules  50 mg
+LOCA9548BRIDL	Loxapac  Capsules  10 mg
+LOCA9550BRIDL	Loxapac  Capsules  25 mg
+LOCA9552BRIDL	Loxapac  Capsules  50 mg
+LOCA20611EMIS	Loxapine Succinate  Capsules  10 mg
+LOCA20612EMIS	Loxapine Succinate  Capsules  25 mg
+LOCA20613EMIS	Loxapine Succinate  Capsules  50 mg
+LOCA9548BRIDL	Loxapac  Capsules  10 mg
+LOCA9550BRIDL	Loxapac  Capsules  25 mg
+LOCA9552BRIDL	Loxapac  Capsules  50 mg
