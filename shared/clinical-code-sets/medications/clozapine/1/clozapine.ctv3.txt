@@ -1,0 +1,22 @@
+d4l..	Clozapine
+d4lF.	DENZAPINE 200mg tablets
+d4lD.	DENZAPINE 50mg tablets
+d4lB.	DENZAPINE 50mg/mL oral suspension 100mL
+d4lG.	CLOZAPINE 200mg tablets
+d4lE.	CLOZAPINE 50mg tablets
+d4lC.	CLOZAPINE 50mg/mL oral suspension
+d4l2.	Clozapine 100mg tablet
+x00f7	Clozaril 100mg tablet
+d4l6.	Clozaril community pack 100mg tablets x28CP
+d4l4.	Clozaril 100mg tablets x84CP
+d4lA.	Zaponex 100mg tablet
+d4l8.	Denzapine 100mg tablet
+d4l1.	Clozapine 25mg tablet
+x00f6	Clozaril 25mg tablet
+d4l5.	Clozaril community pack 25mg tablets x28CP
+d4l3.	Clozaril 25mg tablets x84CP
+d4l9.	Zaponex 25mg tablet
+d4l7.	Denzapine 25mg tablet
+x05up	Denzapine
+x05w0	Zaponex
+x03wV	Clozaril
