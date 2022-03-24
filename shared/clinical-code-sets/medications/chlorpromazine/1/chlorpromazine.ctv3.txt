@@ -1,0 +1,38 @@
+x01BS	Rectal chlorpromazine
+x00eB	Chlorpromazine 300mg suppository
+x00eA	Chlorpromazine 50mg suppository
+x00e9	Chlorpromazine 25mg suppository
+d41k.	Chlorpromazine 100mg suppository
+d41i.	Largactil 100mg suppository
+x01BR	Parenteral chlorpromazine
+d41m.	Chlorpromazine hydrochloride 50mg/2mL injection
+x02LO	Largactil 50mg/2mL injection
+o522.	Largactil 50mg injection
+d41h.	Largactil [CNS] 50mg/2ml injection
+d41l.	Chlorpromazine hydrochloride 25mg/1mL injection
+d41g.	Largactil 25mg/1mL injection
+x01BQ	Oral chlorpromazine
+d41o.	Chlorpromazine hydrochloride 100mg/5mL syrup
+d41n.	Chlorpromazine hydrochloride 50mg/5mL syrup
+d41j.	Chlorpromazine hydrochloride 100mg/5mL s/f suspension
+d41f.	Largactil Forte 100mg/5mL suspension
+d41B.	Chlorpromazine hydrochloride 100mg/5mL s/f oral solution
+d41A.	Chlorpromazine hydrochloride 25mg/5mL s/f oral solution
+d415.	Chlorpromazine hydrochloride 25mg/5mL syrup
+d41e.	Largactil 25mg/5mL syrup
+d419.	Dozine 25mg/5mL syrup
+d414.	Chlorpromazine hydrochloride 100mg tablet
+d41d.	Largactil 100mg tablet
+d418.	Chloractil 100mg tablet
+d413.	Chlorpromazine hydrochloride 50mg tablet
+d41c.	Largactil 50mg tablet
+d417.	Chloractil 50mg tablet
+d412.	Chlorpromazine hydrochloride 25mg tablet
+d41b.	Largactil 25mg tablet
+d416.	Chloractil 25mg tablet
+d411.	Chlorpromazine hydrochloride 10mg tablet
+d41a.	Largactil 10mg tablet
+d41..	Chlorpromazine hydrochloride
+x02h3	Largactil Forte
+x02h2	Largactil
+x02XC	Chloractil

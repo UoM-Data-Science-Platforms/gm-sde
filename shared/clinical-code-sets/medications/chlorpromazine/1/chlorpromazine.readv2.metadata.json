@@ -1,0 +1,24 @@
+{
+  "includeTerms": [
+    "chlorpromazine",
+    "largactil",
+    "dozine",
+    "chloractil"
+  ],
+  "excludeTerms": [
+    "poisoning",
+    "overdose",
+    "allergy",
+    "adverse reaction",
+    "monitoring",
+    "chlorpromazine concentration",
+    "anaesthesia",
+    "nausea",
+    "morphine",
+    "chlorpromazine stimulation test"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdOn": "2022-03-23T13:46:30.411Z",
+  "lastUpdated": "2022-03-23T13:46:30.411Z"
+}
