@@ -1,0 +1,47 @@
+d47..00	HALOPERIDOL [ANTIPSYCHOTIC]
+d47y.00	HALOPERIDOL 10mg/mL oral solution
+d47x.00	HALOPERIDOL 20mg/2mL injection
+d47w.00	HALOPERIDOL 10mg/2mL injection
+d47v.00	*HALOPERIDOL 5mg/1mL injection
+d47u.00	HALOPERIDOL 500micrograms tablets
+d47t.00	HALOPERIDOL 1mg/mL liquid
+d47r.00	HALOPERIDOL 500microgram capsules
+d47B.00	HALOPERIDOL 1mg/5mL sugar free solution
+d47A.00	HALOPERIDOL 2mg/5mL sugar free solution
+d475.00	HALOPERIDOL 2mg/mL liquid
+d474.00	HALOPERIDOL 20mg tablets
+d473.00	HALOPERIDOL 10mg tablets
+d472.00	HALOPERIDOL 5mg tablets
+d471.00	HALOPERIDOL 1.5mg tablets
+d47s.00	SERENACE 2mg/mL liquid 500mL
+d47q.00	SERENACE 20mg/2mL injection
+d47p.00	SERENACE 5mg/1mL injection
+d47o.00	SERENACE 2mg/mL liquid 100mL
+d47n.00	SERENACE 20mg tablets
+d47m.00	SERENACE 10mg tablets
+d47l.00	SERENACE 5mg tablets
+d47k.00	SERENACE 1.5mg tablets
+d47j.00	SERENACE 500micrograms capsules
+d47i.00	*HALDOL 10mg/2mL injection
+d47h.00	*HALDOL 5mg/1mL injection
+d47g.00	*HALDOL 10mg/mL liquid
+d47f.00	HALDOL 2mg/mL liquid
+d47e.00	*HALDOL 10mg tablets
+d47d.00	*HALDOL 5mg tablets
+d47c.00	*FORTUNAN 20mg tablets
+d47b.00	*FORTUNAN 10mg tablets
+d47a.00	*FORTUNAN 5mg tablets
+d47F.00	KENTACE 20mg tablets
+d47E.00	KENTACE 10mg tablets
+d47D.00	KENTACE 5mg tablets
+d47C.00	KENTACE 1.5mg tablets
+d479.00	*FORTUNAN 1.5mg tablets
+d478.00	FORTUNAN 500micrograms tablets
+d477.00	*DOZIC 2mg/mL liquid
+d476.00	DOZIC 1mg/mL liquid
+d55..00	HALOPERIDOL DECANOATE
+d554.00	HALOPERIDOL 100mg/1mL injection
+d553.00	HALOPERIDOL 50mg/1mL injection
+d552.00	HALDOL DECANOATE 100mg/1mL injection
+d551.00	HALDOL DECANOATE 50mg/1mL injection
+ds1..00	HALOPERIDOL [TICS, CHOREA] [see d47..]
