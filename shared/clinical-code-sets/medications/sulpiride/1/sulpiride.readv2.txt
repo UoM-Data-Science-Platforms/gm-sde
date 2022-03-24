@@ -1,0 +1,11 @@
+d4f..00	SULPIRIDE
+d4fz.00	SULPIRIDE 200mg tablets
+d4fy.00	SULPIRIDE 200mg/5mL sugar free solution
+d4fx.00	SULPIRIDE 400mg tablets
+d4fw.00	SULPIRIDE 200mg/5mL oral solution
+d4f6.00	SULPOR 200mg/5mL oral solution
+d4f5.00	DOLMATIL 400mg tablets
+d4f4.00	*SULPAREX 200mg tablets
+d4f3.00	*SULPITIL 200mg tablets x112CP
+d4f2.00	*SULPITIL 200mg tablets x28CP
+d4f1.00	DOLMATIL 200mg tablets

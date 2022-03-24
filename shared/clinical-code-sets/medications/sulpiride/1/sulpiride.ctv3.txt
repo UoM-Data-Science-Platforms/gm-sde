@@ -1,0 +1,16 @@
+d4f..	Sulpiride
+d4fz.	Sulpiride 200mg tablet
+x00g2	Sulpitil 200mg tablet
+d4f3.	Sulpitil 200mg tablets x112CP
+d4f2.	Sulpitil 200mg tablets x28CP
+d4f4.	Sulparex 200mg tablet
+d4f1.	Dolmatil 200mg tablet
+d4fy.	Sulpiride 200mg/5mL s/f oral solution
+d4fx.	Sulpiride 400mg tablet
+d4f5.	Dolmatil 400mg tablet
+d4fw.	Sulpiride 200mg/5mL oral solution
+d4f6.	Sulpor 200mg/5mL oral solution
+x05ZZ	Sulpor
+x048g	Sulpitil
+x02rk	Sulparex
+x02aH	Dolmatil

@@ -1,0 +1,16 @@
+{
+  "includeTerms": ["sulpiride", "dolmatil", "sulparex", "sulpitil", "sulpor"],
+  "excludeTerms": [
+    "poisoning",
+    "overdose",
+    "allergy",
+    "adverse reaction",
+    "monitoring",
+    "concentration",
+    "level"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdOn": "2022-03-24T10:01:31.893Z",
+  "lastUpdated": "2022-03-24T10:01:31.893Z"
+}
