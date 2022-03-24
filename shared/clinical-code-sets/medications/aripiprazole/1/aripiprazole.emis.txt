@@ -1,0 +1,34 @@
+ABOR22952NEMIS	Abilify  Orodispersible tablets  10 mg
+ABOR22954NEMIS	Abilify  Oral solution  1 mg/ml
+ABPO86920NEMIS	Abilify Maintena  Prolonged release suspension for injection  400 mg vial
+ABSO29381NEMIS	Abilify  Solution for injection  7.5 mg/ml, 1.3 ml (9.75 mg) vial
+ABTA18231NEMIS	Abilify  Tablets  10 mg
+ABTA18232NEMIS	Abilify  Tablets  15 mg
+ABTA18233NEMIS	Abilify  Tablets  30 mg
+ABTA19380NEMIS	Abilify  Tablets  5 mg
+AROR22949NEMIS	Aripiprazole  Orodispersible Tablets (Sugar Free)  10 mg
+AROR22950NEMIS	Aripiprazole  Orodispersible Tablets (Sugar Free)  15 mg
+AROR22951NEMIS	Aripiprazole  Oral solution  1 mg/ml
+ARPO86916NEMIS	Aripiprazole  Powder and solvent for suspension for injection  400 mg vial
+ARSO29380NEMIS	Aripiprazole  Solution for injection  7.5 mg/ml, 1.3 ml (9.75 mg) vial
+ARTA18226NEMIS	Aripiprazole  Tablets  10 mg
+ARTA18228NEMIS	Aripiprazole  Tablets  15 mg
+ARTA18229NEMIS	Aripiprazole  Tablets  30 mg
+ARTA19379NEMIS	Aripiprazole  Tablets  5 mg
+ABOR22952NEMIS	Abilify  Orodispersible tablets  10 mg
+ABOR22954NEMIS	Abilify  Oral solution  1 mg/ml
+ABPO86920NEMIS	Abilify Maintena  Prolonged release suspension for injection  400 mg vial
+ABSO29381NEMIS	Abilify  Solution for injection  7.5 mg/ml, 1.3 ml (9.75 mg) vial
+ABTA18231NEMIS	Abilify  Tablets  10 mg
+ABTA18232NEMIS	Abilify  Tablets  15 mg
+ABTA18233NEMIS	Abilify  Tablets  30 mg
+ABTA19380NEMIS	Abilify  Tablets  5 mg
+AROR22949NEMIS	Aripiprazole  Orodispersible Tablets (Sugar Free)  10 mg
+AROR22950NEMIS	Aripiprazole  Orodispersible Tablets (Sugar Free)  15 mg
+AROR22951NEMIS	Aripiprazole  Oral solution  1 mg/ml
+ARPO86916NEMIS	Aripiprazole  Powder and solvent for suspension for injection  400 mg vial
+ARSO29380NEMIS	Aripiprazole  Solution for injection  7.5 mg/ml, 1.3 ml (9.75 mg) vial
+ARTA18226NEMIS	Aripiprazole  Tablets  10 mg
+ARTA18228NEMIS	Aripiprazole  Tablets  15 mg
+ARTA18229NEMIS	Aripiprazole  Tablets  30 mg
+ARTA19379NEMIS	Aripiprazole  Tablets  5 mg

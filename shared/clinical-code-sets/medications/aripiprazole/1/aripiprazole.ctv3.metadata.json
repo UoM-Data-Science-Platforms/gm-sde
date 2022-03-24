@@ -1,0 +1,11 @@
+{
+  "includeTerms": [
+    "aripiprazole",
+    "abilify"
+  ],
+  "excludeTerms": [],
+  "terminology": "CTV3",
+  "version": "20180401",
+  "createdOn": "2022-03-23T13:33:32.794Z",
+  "lastUpdated": "2022-03-23T13:33:32.794Z"
+}
