@@ -1,0 +1,21 @@
+x02LS	Perphenazine
+o58z.	Perphenazine 5mg/1mL injection
+d4b4.	Fentazin 5mg/1mL injection
+o58..	Perphenazine [anaesthesia]
+dhd..	Perphenazine [no drugs here]
+d4bz.	Perphenazine 8mg tablet
+d4b3.	Fentazin 8mg tablet
+d4by.	Perphenazine 4mg tablet
+d4b2.	Fentazin 4mg tablet
+d4bx.	Perphenazine 2mg tablet
+d4b1.	Fentazin 2mg tablet
+d4b6.	Perphenazine 4mg/5mL s/f oral solution
+d4b5.	Perphenazine 2mg/5mL s/f oral solution
+d4b..	Perphenazine [central nervous system use]
+d91D.	Amitriptyline hydrochloride+perphenazine 10mg/2mg tablet
+d917.	Triptafen-M tablet
+d91C.	Amitriptyline hydrochloride+perphenazine 25mg/2mg tablet
+d916.	Triptafen tablet
+x02tP	Triptafen-M
+x02tO	Triptafen
+x02cS	Fentazin

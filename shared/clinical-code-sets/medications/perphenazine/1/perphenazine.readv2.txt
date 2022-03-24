@@ -1,0 +1,16 @@
+d4b..00	PERPHENAZINE [CENTRAL NERVOUS SYSTEM USE]
+d4bz.00	*PERPHENAZINE 8mg tablets
+d4by.00	PERPHENAZINE 4mg tablets
+d4bx.00	PERPHENAZINE 2mg tablets
+d4b6.00	PERPHENAZINE 4mg/5mL sugar free solution
+d4b5.00	PERPHENAZINE 2mg/5mL sugar free solution
+d4b4.00	*FENTAZIN 5mg/1mL injection
+d4b3.00	*FENTAZIN 8mg tablets
+d4b2.00	FENTAZIN 4mg tablets
+d4b1.00	FENTAZIN 2mg tablets
+o58..00	*PERPHENAZINE [ANAESTHESIA]
+o58z.00	PERPHENAZINE 5mg/1mL injection
+o581.00	*FENTAZIN 5mg/1mL injection
+d917.00	*TRIPTAFEN-M tablets
+d916.00	TRIPTAFEN tablets
+dhd..00	*PERPHENAZINE [NO DRUGS HERE]
