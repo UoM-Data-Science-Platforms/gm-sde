@@ -1,0 +1,19 @@
+d4w..	PALIPERIDONE
+d4w9.	XEPLION 100mg + 150mg susp for injection prefilled syringes
+d4w8.	XEPLION 150mg suspension for injection prefilled syringe
+d4w7.	XEPLION 100mg suspension for injection prefilled syringe
+d4w6.	XEPLION 75mg suspension for injection prefilled syringe
+d4w5.	XEPLION 50mg suspension for injection prefilled syringe
+d4w4.	INVEGA 12mg m/r tablets
+d4w3.	INVEGA 9mg m/r tablets
+d4w2.	INVEGA 6mg m/r tablets
+d4w1.	INVEGA 3mg m/r tablets
+d4wz.	PALIPERIDONE 3mg m/r tablets
+d4wy.	PALIPERIDONE 6mg m/r tablets
+d4wx.	PALIPERIDONE 9mg m/r tablets
+d4ww.	PALIPERIDONE 12mg m/r tablets
+d4wv.	PALIPERIDONE 50mg suspension for injection prefilled syringe
+d4wu.	PALIPERIDONE 75mg suspension for injection prefilled syringe
+d4wt.	PALIPERIDONE 100mg suspension for injection pfs
+d4ws.	PALIPERIDONE 150mg suspension for injection pfs
+d4wr.	PALIPERIDONE 100mg + 150mg susp for inj prefilled syringes

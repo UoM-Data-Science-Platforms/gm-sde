@@ -1,0 +1,22 @@
+INM/26218NEMIS	Invega  M/R tablets  3 mg
+INM/26219NEMIS	Invega  M/R tablets  6 mg
+PAM/26213NEMIS	Paliperidone  M/R tablets  3 mg
+PAM/26215NEMIS	Paliperidone  M/R tablets  6 mg
+PAM/26216NEMIS	Paliperidone  M/R tablets  9 mg
+PASU50807NEMIS	Paliperidone  Suspension For Injection  50 mg/0.5 ml pre-filled syringe
+PASU50808NEMIS	Paliperidone  Suspension For Injection  75 mg/0.75 ml pre-filled syringe
+PASU50809NEMIS	Paliperidone  Suspension For Injection  100 mg/1 ml pre-filled syringe
+PASU50810NEMIS	Paliperidone  Suspension For Injection  150 mg/1.5 ml pre-filled syringe
+XESU50813NEMIS	Xeplion  Suspension For Injection  75 mg/0.75 ml pre-filled syringe
+XESU50814NEMIS	Xeplion  Suspension For Injection  100 mg/1 ml pre-filled syringe
+INM/26218NEMIS	Invega  M/R tablets  3 mg
+INM/26219NEMIS	Invega  M/R tablets  6 mg
+PAM/26213NEMIS	Paliperidone  M/R tablets  3 mg
+PAM/26215NEMIS	Paliperidone  M/R tablets  6 mg
+PAM/26216NEMIS	Paliperidone  M/R tablets  9 mg
+PASU50807NEMIS	Paliperidone  Suspension For Injection  50 mg/0.5 ml pre-filled syringe
+PASU50808NEMIS	Paliperidone  Suspension For Injection  75 mg/0.75 ml pre-filled syringe
+PASU50809NEMIS	Paliperidone  Suspension For Injection  100 mg/1 ml pre-filled syringe
+PASU50810NEMIS	Paliperidone  Suspension For Injection  150 mg/1.5 ml pre-filled syringe
+XESU50813NEMIS	Xeplion  Suspension For Injection  75 mg/0.75 ml pre-filled syringe
+XESU50814NEMIS	Xeplion  Suspension For Injection  100 mg/1 ml pre-filled syringe
