@@ -1,0 +1,10 @@
+d4q..	Sertindole
+d4q4.	Sertindole 20mg tablet
+d4q8.	Serdolect 20mg tablet
+d4q3.	Sertindole 16mg tablet
+d4q7.	Serdolect 16mg tablet
+d4q2.	Sertindole 12mg tablet
+d4q6.	Serdolect 12mg tablet
+d4q1.	Sertindole 4mg tablet
+d4q5.	Serdolect 4mg tablet
+x03hI	Serdolect
