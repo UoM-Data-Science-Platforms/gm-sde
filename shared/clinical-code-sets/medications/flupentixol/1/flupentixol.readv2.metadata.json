@@ -1,0 +1,20 @@
+{
+  "includeTerms": [
+    "flupentixol",
+    "flupenthixol",
+    "depixol",
+    "fluanxol",
+    "fluphentixol"
+  ],
+  "excludeTerms": [
+    "poisoning",
+    "overdose",
+    "allergy",
+    "adverse reaction",
+    "monitoring"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdOn": "2022-03-23T13:53:27.635Z",
+  "lastUpdated": "2022-03-23T13:53:27.635Z"
+}
