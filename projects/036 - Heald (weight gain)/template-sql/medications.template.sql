@@ -8,12 +8,7 @@
 -- or psychotic depression. The below queries produce the data that is required for
 -- each patient.
 
--- For each patient, this produces longitudinal readings for
--- BMI, HbA1c, Cholesterol, LDL-cholesterol, HDL-cholesterol, Vitamin D, Testosterone, SHBG, eGFR,
-
--- All blood glucose, , Bone profile,
---  LH, FSH, T4, TSH, Prolactin, Creatinine, weight, 
--- systolic blood pressure, diastolic blood pressure
+-- For each patient, this produces longitudinal readings for antipsycotic medications
 
 -- since 2018-01-01.
 
