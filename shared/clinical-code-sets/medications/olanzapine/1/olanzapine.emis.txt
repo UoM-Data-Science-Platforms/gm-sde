@@ -1,0 +1,48 @@
+OLOR13260NEMIS	Olanzapine  Oral Lyophilisate Sugar Free  15 mg
+OLOR21754NEMIS	Olanzapine  Oral Lyophilisate Sugar Free  20 mg
+OLOR3800NEMIS	Olanzapine  Oral Lyophilisate Sugar Free  5 mg
+OLOR3801NEMIS	Olanzapine  Oral Lyophilisate Sugar Free  10 mg
+OLPO16908NEMIS	Olanzapine  Powder For Solution For Injection  10 mg vial
+OLPR42225NEMIS	Olanzapine  Prolonged release suspension for injection  210 mg vial
+OLPR42227NEMIS	Olanzapine  Prolonged release suspension for injection  300 mg vial
+OLPR42228NEMIS	Olanzapine  Prolonged release suspension for injection  405 mg vial
+OLTA13258NEMIS	Olanzapine  Tablets  15 mg
+OLTA29729EMIS	Olanzapine  Tablets  10 mg
+OLTA29730EMIS	Olanzapine  Tablets  5 mg
+OLTA29731EMIS	Olanzapine  Tablets  7.5 mg
+OLTA34085EMIS	Olanzapine  Tablets  2.5 mg
+ZAOR52080NEMIS	Zalasta  Orodispersible tablets  5 mg
+ZYOR13262NEMIS	Zyprexa Velotab  Orodispersible tablets  15 mg
+ZYOR21755NEMIS	Zyprexa Velotab  Orodispersible tablets  20 mg
+ZYOR3803NEMIS	Zyprexa Velotab  Orodispersible tablets  5 mg
+ZYOR3804NEMIS	Zyprexa Velotab  Orodispersible tablets  10 mg
+ZYTA13261NEMIS	Zyprexa  Tablets  15 mg
+ZYTA23535NEMIS	Zyprexa  Tablets  20 mg
+ZYTA29723EMIS	Zyprexa  Tablets  10 mg
+ZYTA29724EMIS	Zyprexa  Tablets  5 mg
+ZYTA29725EMIS	Zyprexa  Tablets  7.5 mg
+ZYTA34083EMIS	Zyprexa  Tablets  2.5 mg
+OLOR13260NEMIS	Olanzapine  Oral Lyophilisate Sugar Free  15 mg
+OLOR21754NEMIS	Olanzapine  Oral Lyophilisate Sugar Free  20 mg
+OLOR3800NEMIS	Olanzapine  Oral Lyophilisate Sugar Free  5 mg
+OLOR3801NEMIS	Olanzapine  Oral Lyophilisate Sugar Free  10 mg
+OLPO16908NEMIS	Olanzapine  Powder For Solution For Injection  10 mg vial
+OLPR42225NEMIS	Olanzapine  Prolonged release suspension for injection  210 mg vial
+OLPR42227NEMIS	Olanzapine  Prolonged release suspension for injection  300 mg vial
+OLPR42228NEMIS	Olanzapine  Prolonged release suspension for injection  405 mg vial
+OLTA13258NEMIS	Olanzapine  Tablets  15 mg
+OLTA29729EMIS	Olanzapine  Tablets  10 mg
+OLTA29730EMIS	Olanzapine  Tablets  5 mg
+OLTA29731EMIS	Olanzapine  Tablets  7.5 mg
+OLTA34085EMIS	Olanzapine  Tablets  2.5 mg
+ZAOR52080NEMIS	Zalasta  Orodispersible tablets  5 mg
+ZYOR13262NEMIS	Zyprexa Velotab  Orodispersible tablets  15 mg
+ZYOR21755NEMIS	Zyprexa Velotab  Orodispersible tablets  20 mg
+ZYOR3803NEMIS	Zyprexa Velotab  Orodispersible tablets  5 mg
+ZYOR3804NEMIS	Zyprexa Velotab  Orodispersible tablets  10 mg
+ZYTA13261NEMIS	Zyprexa  Tablets  15 mg
+ZYTA23535NEMIS	Zyprexa  Tablets  20 mg
+ZYTA29723EMIS	Zyprexa  Tablets  10 mg
+ZYTA29724EMIS	Zyprexa  Tablets  5 mg
+ZYTA29725EMIS	Zyprexa  Tablets  7.5 mg
+ZYTA34083EMIS	Zyprexa  Tablets  2.5 mg

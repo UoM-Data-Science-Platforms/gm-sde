@@ -1,0 +1,40 @@
+d4r..00	OLANZAPINE
+d4rz.00	OLANZAPINE 10mg dispersible tablets
+d4ry.00	OLANZAPINE 5mg dispersible tablets
+d4rx.00	OLANZAPINE 15mg tablets
+d4rw.00	OLANZAPINE 15mg dispersible tablets
+d4rv.00	OLANZAPINE 10mg injection (pdr for recon)
+d4ru.00	OLANZAPINE 20mg dispersible tablets
+d4rt.00	OLANZAPINE 20mg tablets
+d4r7.00	OLANZAPINE 2.5mg tablets
+d4r3.00	OLANZAPINE 10mg tablets
+d4r2.00	OLANZAPINE 7.5mg tablets
+d4r1.00	OLANZAPINE 5mg tablets
+d4rP.00	ZALASTA 10mg tablets
+d4rO.00	ZALASTA 20mg dispersible tablets
+d4rN.00	ZALASTA 15mg dispersible tablets
+d4rM.00	ZALASTA 10mg dispersible tablets
+d4rL.00	ZALASTA 5mg dispersible tablets
+d4rK.00	ZALASTA 20mg tablets
+d4rJ.00	ZALASTA 15mg tablets
+d4rI.00	ZALASTA 7.5mg tablets
+d4rH.00	ZALASTA 5mg tablets
+d4rG.00	ZALASTA 2.5mg tablets
+d4rF.00	ZYPREXA 20mg tablets
+d4rE.00	ZYPREXA VELOTAB 20mg dispersible tablets
+d4rD.00	ZYPREXA 10mg injection (pdr for recon)
+d4rC.00	ZYPREXA VELOTAB 15mg dispersible tablets
+d4rB.00	ZYPREXA 15mg tablets
+d4rA.00	ZYPREXA VELOTAB 10mg dispersible tablets
+d4r9.00	ZYPREXA VELOTAB 5mg dispersible tablets
+d4r8.00	ZYPREXA 2.5mg tablets
+d4r6.00	ZYPREXA 10mg tablets
+d4r5.00	ZYPREXA 7.5mg tablets
+d4r4.00	ZYPREXA 5mg tablets
+d58..00	OLANZAPINE PAMOATE
+d58z.00	OLANZAPINE 210mg powder+solvent for suspension for injection
+d58y.00	OLANZAPINE 300mg powder+solvent for suspension for injection
+d58x.00	OLANZAPINE 405mg powder+solvent for suspension for injection
+d583.00	ZYPADHERA 405mg powder+solvent for suspension for injection
+d582.00	ZYPADHERA 300mg powder+solvent for suspension for injection
+d581.00	ZYPADHERA 210mg powder+solvent for suspension for injection
