@@ -1,0 +1,7 @@
+d48..	Levomepromazine
+d48z.	Methotrimeprazine maleate 25mg tablet
+d483.	Nozinan 25mg tablet
+d482.	Veractil 25mg tablet
+d48y.	Methotrimeprazine hydrochloride 25mg/1mL injection
+d481.	Nozinan 25mg/1mL injection
+x02lR	Nozinan
