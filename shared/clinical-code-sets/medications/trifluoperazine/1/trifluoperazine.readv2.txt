@@ -1,0 +1,22 @@
+d4h..00	TRIFLUOPERAZINE [ANTIPSYCHOTIC]
+d4hz.00	TRIFLUOPERAZINE 1mg/1mL injection
+d4hy.00	TRIFLUOPERAZINE 10mg/mL liquid
+d4hx.00	TRIFLUOPERAZINE 1mg/5mL syrup
+d4hw.00	*TRIFLUOPERAZINE 15mg m/r caps
+d4hv.00	*TRIFLUOPERAZINE 10mg m/r caps
+d4hu.00	*TRIFLUOPERAZINE 2mg m/r caps
+d4ht.00	TRIFLUOPERAZINE 5mg tablets
+d4hs.00	TRIFLUOPERAZINE 1mg tablets
+d4hr.00	TRIFLUOPERAZINE 5mg/5mL sugar free oral suspension
+d4h9.00	TRIFLUOPERAZINE 5mg/5mL sugar free syrup
+d4hA.00	STELAZINE FORTE 5mg/5mL sugar free oral suspension
+d4h8.00	*STELAZINE 1mg/1mL injection
+d4h7.00	STELAZINE CONCENTRATE 10mg/mL liquid
+d4h6.00	*STELAZINE 1mg/5mL syrup
+d4h5.00	*STELAZINE 15mg m/r capsules
+d4h4.00	*STELAZINE 10mg m/r capsules
+d4h3.00	*STELAZINE 2mg m/r capsules
+d4h2.00	*STELAZINE 5mg tablets
+d4h1.00	*STELAZINE 1mg tablets
+dhi..00	TRIFLUOPERAZINE [NAUSEA] [see dh4..]
+d915.00	*PARSTELIN tablets

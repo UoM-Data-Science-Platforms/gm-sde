@@ -1,0 +1,41 @@
+x004h	Fluphenazine
+d46z.	Fluphenazine hydrochloride 5mg tablet
+d463.	Moditen 5mg tablet
+d46y.	Fluphenazine hydrochloride 2.5mg tablet
+d462.	Moditen 2.5mg tablet
+d46x.	Fluphenazine hydrochloride 1mg tablet
+d461.	Moditen 1mg tablet
+d46..	Fluphenazine hydrochloride
+d53..	Fluphenazine enanthate
+d532.	Fluphenazine enanthate 25mg/1mL injection
+d531.	Moditen Enanthate 25mg/mL injection
+d52..	Fluphenazine decanoate
+d52x.	Fluphenazine decanoate 250mg/10mL oily injection
+d526.	Modecate 250mg/10mL oily injection
+d52w.	Fluphenazine decanoate 50mg/2mL oily injection
+d524.	Modecate 50mg/2mL oily injection
+d52v.	Fluphenazine decanoate 25mg/1mL oily injection
+d52A.	Decazate 25mg/1mL oily injection
+d522.	Modecate 25mg/1mL oily injection
+d52u.	Fluphenazine decanoate 12.5mg/0.5mL oily injection
+d521.	Modecate 12.5mg/0.5mL oily injection
+d52t.	Fluphenazine decanoate 50mg/2mL prefilled syringe
+d525.	Modecate 50mg/2mL prefilled syringe
+d52s.	Fluphenazine decanoate 25mg/1mL prefilled syringe
+d523.	Modecate 25mg/1mL prefilled syringe
+d52a.	Fluphenazine decanoate 100mg/1mL oily injection
+d52C.	Decazate 100mg/1mL oily injection
+d528.	Modecate Concentrate 100mg/1mL oily injection
+d529.	Fluphenazine decanoate 50mg/0.5mL oily injection
+d52B.	Decazate 50mg/0.5mL oily injection
+d527.	Modecate Concentrate 50mg/0.5mL oily injection
+d91A.	Fluphenazine hydrochloride+nortriptyline 500micrograms/10mg tablet
+d914.	Motival tablet
+d919.	Fluphenazine hydrochloride+nortriptyline 1.5mg/30mg tablet
+x00fc	Motipress tablet
+d913.	Motipress tablets X28CP
+x02jf	Moditen
+x02je	Modecate Concentrate
+x02jd	Modecate
+x03sw	Motipress
+x02jy	Motival

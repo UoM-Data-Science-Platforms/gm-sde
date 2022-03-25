@@ -1,0 +1,28 @@
+CLOR36513NEMIS	Clozapine  Oral Suspension Sugar Free  50 mg/ml
+CLTA10156BRIDL	Clozaril  Tablets  25 mg
+CLTA10158BRIDL	Clozaril  Tablets  100 mg
+CLTA36517NEMIS	Clozapine  Tablets  200 mg
+CLTA36518NEMIS	Clozapine  Tablets  50 mg
+CLTA9311HILLI	Clozapine  Tablets  100 mg
+CLTA9313HILLI	Clozapine  Tablets  25 mg
+DEOR36514NEMIS	Denzapine  Oral suspension  50 mg/ml
+DETA18502NEMIS	Denzapine  Tablets  25 mg
+DETA18503NEMIS	Denzapine  Tablets  100 mg
+DETA36519NEMIS	Denzapine  Tablets  200 mg
+DETA36520NEMIS	Denzapine  Tablets  50 mg
+ZATA19394NEMIS	Zaponex  Tablets  25 mg
+ZATA19395NEMIS	Zaponex  Tablets  100 mg
+CLOR36513NEMIS	Clozapine  Oral Suspension Sugar Free  50 mg/ml
+CLTA10156BRIDL	Clozaril  Tablets  25 mg
+CLTA10158BRIDL	Clozaril  Tablets  100 mg
+CLTA36517NEMIS	Clozapine  Tablets  200 mg
+CLTA36518NEMIS	Clozapine  Tablets  50 mg
+CLTA9311HILLI	Clozapine  Tablets  100 mg
+CLTA9313HILLI	Clozapine  Tablets  25 mg
+DEOR36514NEMIS	Denzapine  Oral suspension  50 mg/ml
+DETA18502NEMIS	Denzapine  Tablets  25 mg
+DETA18503NEMIS	Denzapine  Tablets  100 mg
+DETA36519NEMIS	Denzapine  Tablets  200 mg
+DETA36520NEMIS	Denzapine  Tablets  50 mg
+ZATA19394NEMIS	Zaponex  Tablets  25 mg
+ZATA19395NEMIS	Zaponex  Tablets  100 mg

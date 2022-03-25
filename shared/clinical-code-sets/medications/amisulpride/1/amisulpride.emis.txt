@@ -1,0 +1,20 @@
+AMOR11702NEMIS	Amisulpride  Oral solution  Sugar Free 100 mg/ml
+AMTA14267NEMIS	Amisulpride  Tablets  100 mg
+AMTA31585EMIS	Amisulpride  Tablets  200 mg
+AMTA31586EMIS	Amisulpride  Tablets  50 mg
+AMTA5672NEMIS	Amisulpride  Tablets  400 mg
+SOOR11703NEMIS	Solian  Oral solution  100 mg/ml
+SOTA14268NEMIS	Solian  Tablets  100 mg
+SOTA31581EMIS	Solian  Tablets  200 mg
+SOTA31582EMIS	Solian  Tablets  50 mg
+SOTA5673NEMIS	Solian  Tablets  400 mg
+AMOR11702NEMIS	Amisulpride  Oral solution  Sugar Free 100 mg/ml
+AMTA14267NEMIS	Amisulpride  Tablets  100 mg
+AMTA31585EMIS	Amisulpride  Tablets  200 mg
+AMTA31586EMIS	Amisulpride  Tablets  50 mg
+AMTA5672NEMIS	Amisulpride  Tablets  400 mg
+SOOR11703NEMIS	Solian  Oral solution  100 mg/ml
+SOTA14268NEMIS	Solian  Tablets  100 mg
+SOTA31581EMIS	Solian  Tablets  200 mg
+SOTA31582EMIS	Solian  Tablets  50 mg
+SOTA5673NEMIS	Solian  Tablets  400 mg

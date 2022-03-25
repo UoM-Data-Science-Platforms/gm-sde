@@ -1,0 +1,7 @@
+d4k..00	LOXAPINE SUCCINATE
+d4k3.00	*LOXAPINE 50mg capsules
+d4k2.00	*LOXAPINE 25mg capsules
+d4k1.00	*LOXAPINE 10mg capsules
+d4k6.00	*LOXAPAC 50mg capsules
+d4k5.00	*LOXAPAC 25mg capsules
+d4k4.00	*LOXAPAC 10mg capsules

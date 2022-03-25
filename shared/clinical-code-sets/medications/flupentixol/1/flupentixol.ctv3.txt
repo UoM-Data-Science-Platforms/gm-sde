@@ -1,0 +1,32 @@
+x02LQ	Flupentixol
+d45..	Flupenthixol [antipsychotic]
+da1z.	Flupentixol 1mg tablet
+da12.	Fluanxol 1mg tablet
+da1y.	Flupentixol 500micrograms tablet
+da11.	Fluanxol 500micrograms tablet
+da1..	Flupentixol [antidepressant]
+d45z.	Flupentixol 3mg tablet
+d451.	Depixol 3mg tablet
+d51..	Flupentixol decanoate
+d51z.	Flupenthixol decanoate 500mg/5mL oily injection
+d517.	Depixol Conc 500mg/5mL oily injection
+d51x.	Flupenthixol decanoate 200mg/10mL oily injection
+d515.	Depixol 200mg/10mL oily injection
+d51t.	Flupenthixol decanoate 40mg/2mL prefilled syringe
+d514.	Depixol 40mg/2mL prefilled syringe
+d51s.	Flupenthixol decanoate 20mg/1mL prefilled syringe
+d512.	Depixol 20mg/1mL prefilled syringe
+d51y.	Flupentixol decanoate 100mg/1mL oily injection
+d516.	Depixol Conc 100mg/1mL oily injection
+d51w.	Flupentixol decanoate 40mg/2mL oily injection
+d513.	Depixol 40mg/2mL oily injection
+d51v.	Flupentixol decanoate 20mg/1mL oily injection
+d511.	Depixol 20mg/1mL oily injection
+d51u.	Flupentixol decanoate 200mg/1mL oily injection
+d51a.	Depixol Low Volume 200mg/1mL oily injection
+d519.	Flupentixol decanoate 50mg/0.5mL oily injection
+d518.	Depixol Conc 50mg/0.5mL oily injection
+x02Z4	Depixol Low Volume
+x02Z3	Depixol Conc
+x02Z2	Depixol
+x02cz	Fluanxol

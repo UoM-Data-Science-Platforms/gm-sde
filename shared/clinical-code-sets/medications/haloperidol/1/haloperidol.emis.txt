@@ -1,0 +1,56 @@
+DOLI984	Dozic  Liquid  1mg/ml
+HAOREGTON6701	Haldol  Oral solution  2 mg/ml
+HATA1344	Haloperidol  Tablets  1.5 mg
+SEIN2554	Serenace  Injection  10 mg/ml, 2 ml ampoule
+SETA2556	Serenace  Tablets  1.5 mg
+HAOREGTON6701	Haldol  Oral solution  2 mg/ml
+SEEL9000BRIDL	Serenace  Elixir  2mg/ml
+HAIN1341	Haloperidol  Injection  100 mg/ml, 1 ml ampoule
+HAIN1343	Haloperidol  Injection  50 mg/ml, 1 ml ampoule
+HAIN6920	Haloperidol  Injection  5 mg/ml
+HAOR6921	Haloperidol  Oral liquid  Sugar Free 2 mg/ml
+HAOR6922	Haloperidol  Oral liquid conc.  10 mg/ml
+HALI4981	Haloperidol  Liquid  Sugar Free 1mg/ml
+HAOR6921	Haloperidol  Oral liquid  Sugar Free 2 mg/ml
+HATAEGTON6704	Haldol  Tablets  5 mg
+SETA2557	Serenace  Tablets  10 mg
+SETA2559	Serenace  Tablets  5 mg
+HAEL1339	Haloperidol  Elixir  2 mg/5 ml
+HAIN15566NEMIS	Haloperidol  Injection  5 mg/ml, 1 ml ampoule
+HAOR13227NEMIS	Haloperidol  Oral Solution, Sugar Free  1 mg/5 ml (200 micrograms/ml)
+DOLI984	Dozic  Liquid  1mg/ml
+HAIN1340	Haloperidol  Injection  10 mg/ml, 2 ml ampoule
+HATA6901	Haloperidol  Tablets  500 micrograms
+HAIN1340	Haloperidol  Injection  10 mg/ml, 2 ml ampoule
+HATA6901	Haloperidol  Tablets  500 micrograms
+HATAEGTON6703	Haldol  Tablets  10 mg
+SEIN2555	Serenace  Injection  5 mg/ml, 1 ml ampoule
+SETA2557	Serenace  Tablets  10 mg
+HAIN1341	Haloperidol  Injection  100 mg/ml, 1 ml ampoule
+HACA1338	Haloperidol  Capsules  500 micrograms
+HAIN1336	Haldol Decanoate  Injection  50 mg/ml, 1 ml ampoule
+SETA2559	Serenace  Tablets  5 mg
+HAIN1343	Haloperidol  Injection  50 mg/ml, 1 ml ampoule
+HAINEGTON6700	Haldol  Injection  5 mg/ml
+HALI4981	Haloperidol  Liquid  Sugar Free 1mg/ml
+HATA4983	Haloperidol  Tablets  10 mg
+HATAEGTON6704	Haldol  Tablets  5 mg
+HAIN1335	Haldol Decanoate  Injection  100 mg/ml, 1 ml ampoule
+HATA4983	Haloperidol  Tablets  10 mg
+SEIN2555	Serenace  Injection  5 mg/ml, 1 ml ampoule
+HAIN1335	Haldol Decanoate  Injection  100 mg/ml, 1 ml ampoule
+HATA1347	Haloperidol  Tablets  5 mg
+SEEL9000BRIDL	Serenace  Elixir  2mg/ml
+HAIN1336	Haldol Decanoate  Injection  50 mg/ml, 1 ml ampoule
+HAOR13227NEMIS	Haloperidol  Oral Solution, Sugar Free  1 mg/5 ml (200 micrograms/ml)
+HATA1344	Haloperidol  Tablets  1.5 mg
+SEIN2554	Serenace  Injection  10 mg/ml, 2 ml ampoule
+HATA1346	Haloperidol  Tablets  20 mg
+SECA2552	Serenace  Capsules  500 micrograms
+HACA1338	Haloperidol  Capsules  500 micrograms
+HAIN15566NEMIS	Haloperidol  Injection  5 mg/ml, 1 ml ampoule
+HATA1346	Haloperidol  Tablets  20 mg
+HATA1347	Haloperidol  Tablets  5 mg
+HATAEGTON6703	Haldol  Tablets  10 mg
+SECA2552	Serenace  Capsules  500 micrograms
+SETA2556	Serenace  Tablets  1.5 mg

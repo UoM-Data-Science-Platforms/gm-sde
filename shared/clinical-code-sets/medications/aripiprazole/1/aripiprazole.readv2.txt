@@ -1,0 +1,19 @@
+d4v..00	ARIPIPRAZOLE
+d4vz.00	ARIPIPRAZOLE 10mg tablets
+d4vy.00	ARIPIPRAZOLE 15mg tablets
+d4vx.00	ARIPIPRAZOLE 30mg tablets
+d4vw.00	ARIPIPRAZOLE 5mg tablets
+d4vv.00	ARIPIPRAZOLE 15mg oro-dispersible tablets
+d4vu.00	ARIPIPRAZOLE 10mg oro-dispersible tablets
+d4vt.00	ARIPIPRAZOLE 1mg/mL oral solution
+d4vs.00	ARIPIPRAZOLE 9.75mg/1.3mL solution for injection
+d4vr.00	ARIPIPRAZOLE 400mg pdr+solvent for suspension for injection
+d4v9.00	ABILIFY MAINTENA 400mg pdr+solv for suspension for injection
+d4v8.00	ABILIFY 9.75mg/1.3mL solution for injection
+d4v7.00	ABILIFY 1mg/mL oral solution
+d4v6.00	ABILIFY 15mg oro-dispersible tablets
+d4v5.00	ABILIFY 10mg oro-dispersible tablets
+d4v4.00	ABILIFY 5mg tablets
+d4v3.00	ABILIFY 30mg tablets
+d4v2.00	ABILIFY 15mg tablets
+d4v1.00	ABILIFY 10mg tablets

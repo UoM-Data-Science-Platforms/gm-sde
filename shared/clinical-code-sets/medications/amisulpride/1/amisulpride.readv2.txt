@@ -1,0 +1,11 @@
+d4t..00	AMISULPRIDE
+d4tz.00	AMISULPRIDE 400mg tablets
+d4ty.00	AMISULPRIDE 100mg/mL sugar free oral solution
+d4tx.00	AMISULPRIDE 100mg tablets
+d4t2.00	AMISULPRIDE 200mg tablets
+d4t1.00	AMISULPRIDE 50mg tablets
+d4t7.00	SOLIAN 100mg tablets
+d4t6.00	SOLIAN 100mg/mL sugar free oral solution
+d4t5.00	SOLIAN 400mg tablets
+d4t4.00	SOLIAN 200mg tablets
+d4t3.00	SOLIAN 50mg tablets

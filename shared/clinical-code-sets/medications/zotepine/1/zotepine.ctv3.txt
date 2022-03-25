@@ -1,0 +1,8 @@
+d4u..	Zotepine
+d4u3.	Zotepine 100mg tablet
+d4u6.	Zoleptil 100mg tablet
+d4u2.	Zotepine 50mg tablet
+d4u5.	Zoleptil 50mg tablet
+d4u1.	Zotepine 25mg tablet
+d4u4.	Zoleptil 25mg tablet
+x04wK	Zoleptil

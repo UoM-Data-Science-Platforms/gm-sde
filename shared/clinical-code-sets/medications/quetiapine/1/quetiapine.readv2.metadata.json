@@ -1,0 +1,27 @@
+{
+  "includeTerms": [
+    "quetiapine",
+    "alaquet",
+    "mintreleq",
+    "biquelle",
+    "zaluron",
+    "ebesque",
+    "atrolak",
+    "seotiapim",
+    "sondate",
+    "seroquel"
+  ],
+  "excludeTerms": [
+    "poisoning",
+    "overdose",
+    "allergy",
+    "adverse reaction",
+    "monitoring",
+    "concentration",
+    "level"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdOn": "2022-03-24T09:56:07.301Z",
+  "lastUpdated": "2022-03-24T09:56:07.301Z"
+}

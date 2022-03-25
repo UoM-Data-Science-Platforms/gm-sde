@@ -1,0 +1,8 @@
+d4c..	Pimozide
+d4cz.	Pimozide 10mg tablet
+d4c3.	Orap 10mg tablet
+d4cy.	Pimozide 4mg tablet
+d4c2.	Orap 4mg tablet
+d4cx.	Pimozide 2mg tablet
+d4c1.	Orap 2mg tablet
+x02m5	Orap

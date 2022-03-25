@@ -1,0 +1,9 @@
+d4q..00	SERTINDOLE
+d4q4.00	SERTINDOLE 20mg tablets
+d4q3.00	SERTINDOLE 16mg tablets
+d4q2.00	SERTINDOLE 12mg tablets
+d4q1.00	SERTINDOLE 4mg tablets
+d4q8.00	SERDOLECT 20mg tablets
+d4q7.00	SERDOLECT 16mg tablets
+d4q6.00	SERDOLECT 12mg tablets
+d4q5.00	SERDOLECT 4mg tablets

@@ -1,0 +1,7 @@
+d4u..00	ZOTEPINE
+d4u3.00	*ZOTEPINE 100mg tablets
+d4u2.00	*ZOTEPINE 50mg tablets
+d4u1.00	*ZOTEPINE 25mg tablets
+d4u6.00	*ZOLEPTIL 100mg tablets
+d4u5.00	*ZOLEPTIL 50mg tablets
+d4u4.00	*ZOLEPTIL 25mg tablets

@@ -1,0 +1,21 @@
+{
+  "includeTerms": [
+    "fluphenazine",
+    "modecate",
+    "moditen",
+    "decazate",
+    "motival",
+    "motipress"
+  ],
+  "excludeTerms": [
+    "poisoning",
+    "overdose",
+    "allergy",
+    "adverse reaction",
+    "monitoring"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdOn": "2022-03-23T13:49:34.540Z",
+  "lastUpdated": "2022-03-23T13:49:34.540Z"
+}

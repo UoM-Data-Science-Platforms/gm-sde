@@ -1,0 +1,32 @@
+CHTA598	Chlorpromazine Hydrochloride  Tablets  25 mg
+CHTA599	Chlorpromazine Hydrochloride  Tablets  50 mg
+LAIN1610	Largactil  Injection  50 mg/2 ml ampoule
+CHOR35370EMIS	Chlorpromazine Hydrochloride  Oral solution  100 mg/5 ml
+CHTA598	Chlorpromazine Hydrochloride  Tablets  25 mg
+LASU1615	Largactil  Suspension forte  100 mg/5 ml
+CHEL7170	Chlorpromazine Hydrochloride  Oral solution  25 mg/5 ml
+LATA1618	Largactil  Tablets  10 mg
+CHEL7170	Chlorpromazine Hydrochloride  Oral solution  25 mg/5 ml
+LATA1618	Largactil  Tablets  10 mg
+LATA1620	Largactil  Tablets  25 mg
+LASY1616	Largactil  Syrup  25 mg/5 ml
+LATA1621	Largactil  Tablets  50 mg
+CHTA597	Chlorpromazine Hydrochloride  Tablets  100 mg
+CHSU592	Chlorpromazine Hydrochloride  Suppositories  100 mg
+LAIN1610	Largactil  Injection  50 mg/2 ml ampoule
+LASU1615	Largactil  Suspension forte  100 mg/5 ml
+LATA1619	Largactil  Tablets  100 mg
+CHOR35370EMIS	Chlorpromazine Hydrochloride  Oral solution  100 mg/5 ml
+LATA1619	Largactil  Tablets  100 mg
+CHIN20615EMIS	Chlorpromazine Hydrochloride  Injection  50 mg/2 ml ampoule
+CHSY594	Chlorpromazine Hydrochloride  Syrup  25 mg/5 ml
+CHTA597	Chlorpromazine Hydrochloride  Tablets  100 mg
+CHTA599	Chlorpromazine Hydrochloride  Tablets  50 mg
+LATA1620	Largactil  Tablets  25 mg
+CHIN20615EMIS	Chlorpromazine Hydrochloride  Injection  50 mg/2 ml ampoule
+LATA1621	Largactil  Tablets  50 mg
+CHIN589	Chlorpromazine Hydrochloride  Injection  25 mg/ml
+CHTAEGTON6694	Chloractil  Tablets  50 mg
+CHTA596	Chlorpromazine Hydrochloride  Tablets  10 mg
+LASY1616	Largactil  Syrup  25 mg/5 ml
+CHTA596	Chlorpromazine Hydrochloride  Tablets  10 mg

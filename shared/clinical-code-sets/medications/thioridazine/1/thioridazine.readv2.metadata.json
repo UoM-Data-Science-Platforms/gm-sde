@@ -1,0 +1,17 @@
+{
+  "includeTerms": ["thioridazine", "melleril", "rideril"],
+  "excludeTerms": [
+    "poisoning",
+    "overdose",
+    "allergy",
+    "adverse reaction",
+    "monitoring",
+    "concentration",
+    "level",
+    "thioridazine retinopathy"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdOn": "2022-03-24T10:03:56.430Z",
+  "lastUpdated": "2022-03-24T10:03:56.430Z"
+}

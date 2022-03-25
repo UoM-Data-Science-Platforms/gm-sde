@@ -1,0 +1,10 @@
+ORTA2093	Orap  Tablets  10 mg
+ORTA2095	Orap  Tablets  2 mg
+ORTA2096	Orap  Tablets  4 mg
+PITA2262	Pimozide  Tablets  10 mg
+PITA2263	Pimozide  Tablets  2 mg
+PITA2264	Pimozide  Tablets  4 mg
+ORTA2095	Orap  Tablets  2 mg
+ORTA2096	Orap  Tablets  4 mg
+PITA2263	Pimozide  Tablets  2 mg
+PITA2264	Pimozide  Tablets  4 mg

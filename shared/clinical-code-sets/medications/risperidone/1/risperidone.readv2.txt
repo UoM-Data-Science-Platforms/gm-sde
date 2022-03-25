@@ -1,0 +1,32 @@
+d4p..00	RISPERIDONE
+d4pz.00	RISPERIDONE 0.5mg tablets
+d4py.00	RISPERIDONE 25mg powder+solvent for suspension for injection
+d4px.00	RISPERIDONE 37.5mg powder+solvent for suspension for injection
+d4pw.00	RISPERIDONE 50mg powder+solvent for suspension for injection
+d4pS.00	RISPERIDONE 1mg/mL oral solution
+d4pR.00	RISPERIDONE 4mg oro-dispersible tablets
+d4pQ.00	RISPERIDONE 3mg oro-dispersible tablets
+d4pM.00	RISPERIDONE 0.5mg oro-dispersible tablets
+d4pJ.00	RISPERIDONE 2mg oro-dispersible tablets
+d4pH.00	RISPERIDONE 1mg oro-dispersible tablets
+d4pB.00	RISPERIDONE 6mg tablets
+d4p9.00	RISPERIDONE 1mg/mL liquid
+d4p4.00	RISPERIDONE 4mg tablets
+d4p3.00	RISPERIDONE 3mg tablets
+d4p2.00	RISPERIDONE 2mg tablets
+d4p1.00	RISPERIDONE 1mg tablets
+d4pP.00	RISPERDAL QUICKLET 4mg oro-dispersible tablets
+d4pO.00	RISPERDAL QUICKLET 3mg oro-dispersible tablets
+d4pN.00	RISPERDAL QUICKLET 0.5mg oro-dispersible tablets
+d4pL.00	RISPERDAL QUICKLET 2mg oro-dispersible tablets
+d4pK.00	RISPERDAL QUICKLET 1mg oro-dispersible tablets
+d4pG.00	RISPERDAL CONSTA 50mg powder+solvent for suspension for injection
+d4pF.00	RISPERDAL CONSTA 37.5mg powder+solvent for suspension for injection
+d4pE.00	RISPERDAL CONSTA 25mg powder+solvent for suspension for injection
+d4pD.00	RISPERDAL 0.5mg tablets
+d4pC.00	RISPERDAL 6mg tablets
+d4pA.00	RISPERDAL 1mg/mL liquid
+d4p8.00	RISPERDAL 4mg tablets
+d4p7.00	RISPERDAL 3mg tablets
+d4p6.00	RISPERDAL 2mg tablets
+d4p5.00	RISPERDAL 1mg tablets

@@ -1,0 +1,13 @@
+d4t..	Amisulpride
+d4tz.	Amisulpride 400mg tablet
+d4t5.	Solian 400mg tablet
+d4ty.	Amisulpride 100mg/mL s/f oral solution
+d4t6.	Solian 100mg/mL s/f oral solution
+d4tx.	Amisulpride 100mg tablet
+d4t7.	Solian 100mg tablet
+d4t2.	Amisulpride 200mg tablet
+d4t4.	Solian 200mg tablet
+d4t1.	Amisulpride 50mg tablet
+d4t3.	Solian 50mg tablet
+x05Ku	Amisulpride - chemical
+x03rg	Solian

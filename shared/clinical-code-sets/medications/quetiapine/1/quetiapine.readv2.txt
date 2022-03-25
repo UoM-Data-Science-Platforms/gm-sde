@@ -1,0 +1,60 @@
+d4s..00	QUETIAPINE
+d4sz.00	QUETIAPINE 150mg tablets
+d4sy.00	QUETIAPINE 25mg+100mg+150mg tablets starter pack
+d4sx.00	QUETIAPINE 300mg tablets
+d4sw.00	QUETIAPINE 50mg m/r tablets
+d4sv.00	QUETIAPINE 200mg m/r tablets
+d4su.00	QUETIAPINE 300mg m/r tablets
+d4st.00	QUETIAPINE 400mg m/r tablets
+d4ss.00	QUETIAPINE 150mg m/r tablets
+d4s4.00	QUETIAPINE 25mg+100mg tablets starter pack
+d4s3.00	QUETIAPINE 200mg tablets
+d4s2.00	QUETIAPINE 100mg tablets
+d4s1.00	QUETIAPINE 25mg tablets
+d4sp.00	ALAQUET XL 400mg m/r tablets
+d4so.00	ALAQUET XL 300mg m/r tablets
+d4sn.00	ALAQUET XL 200mg m/r tablets
+d4sm.00	ALAQUET XL 150mg m/r tablets
+d4sl.00	ALAQUET XL 50mg m/r tablets
+d4sk.00	MINTRELEQ XL 400mg m/r tablets
+d4sj.00	MINTRELEQ XL 300mg m/r tablets
+d4si.00	MINTRELEQ XL 200mg m/r tablets
+d4sh.00	MINTRELEQ XL 150mg m/r tablets
+d4sg.00	MINTRELEQ XL 50mg m/r tablets
+d4sf.00	BIQUELLE XL 400mg m/r tablets
+d4se.00	BIQUELLE XL 300mg m/r tablets
+d4sd.00	BIQUELLE XL 200mg m/r tablets
+d4sc.00	BIQUELLE XL 150mg m/r tablets
+d4sb.00	BIQUELLE XL 50mg m/r tablets
+d4sa.00	ZALURON XL 400mg m/r tablets
+d4sZ.00	ZALURON XL 300mg m/r tablets
+d4sY.00	ZALURON XL 200mg m/r tablets
+d4sX.00	ZALURON XL 150mg m/r tablets
+d4sW.00	ZALURON XL 50mg m/r tablets
+d4sV.00	EBESQUE XL 400mg m/r tablets
+d4sU.00	EBESQUE XL 300mg m/r tablets
+d4sT.00	EBESQUE XL 200mg m/r tablets
+d4sS.00	EBESQUE XL 50mg m/r tablets
+d4sR.00	ATROLAK XL 400mg m/r tablets
+d4sQ.00	ATROLAK XL 50mg m/r tablets
+d4sP.00	SEOTIAPIM XL 400mg m/r tablets
+d4sO.00	SEOTIAPIM XL 300mg m/r tablets
+d4sN.00	SEOTIAPIM XL 200mg m/r tablets
+d4sM.00	ATROLAK XL 300mg m/r tablets
+d4sL.00	ATROLAK XL 200mg m/r tablets
+d4sK.00	SONDATE XL 400mg m/r tablets
+d4sJ.00	SONDATE XL 300mg m/r tablets
+d4sI.00	SONDATE XL 200mg m/r tablets
+d4sH.00	SONDATE XL 50mg m/r tablets
+d4sG.00	SEROQUEL XL 150mg m/r tablets
+d4sF.00	SEROQUEL XL 400mg m/r tablets
+d4sE.00	SEROQUEL XL 300mg m/r tablets
+d4sD.00	SEROQUEL XL 200mg m/r tablets
+d4sC.00	SEROQUEL XL 50mg m/r tablets
+d4sB.00	SEROQUEL 300mg tablets
+d4sA.00	SEROQUEL 25mg+100mg+150mg tablets starter pack
+d4s9.00	SEROQUEL 150mg tablets
+d4s8.00	SEROQUEL 25mg+100mg tablets starter pack
+d4s7.00	SEROQUEL 200mg tablets
+d4s6.00	SEROQUEL 100mg tablets
+d4s5.00	SEROQUEL 25mg tablets

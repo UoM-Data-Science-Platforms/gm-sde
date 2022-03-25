@@ -1,0 +1,60 @@
+RILI28308EMIS	Risperdal  Oral solution  1 mg/1 ml
+RILI28310EMIS	Risperidone  Oral Solution, Sugar Free  1 mg/1 ml
+RIOR14731NEMIS	Risperidone  Orodispersible tablets  Sugar Free 1 mg
+RIOR14732NEMIS	Risperidone  Orodispersible tablets  Sugar Free 2 mg
+RIOR14734NEMIS	Risperdal Quicklet  Orodispersible tablets  1 mg
+RIOR14735NEMIS	Risperdal Quicklet  Orodispersible tablets  2 mg
+RIOR19655NEMIS	Risperidone  Orodispersible tablets  Sugar Free 500 micrograms
+RIOR19656NEMIS	Risperdal Quicklet  Orodispersible tablets  500 micrograms
+RIOR23720NEMIS	Risperidone  Orodispersible tablets  Sugar Free 3 mg
+RIOR23721NEMIS	Risperidone  Orodispersible tablets  Sugar Free 4 mg
+RIOR23722NEMIS	Risperdal Quicklet  Orodispersible tablets  3 mg
+RIOR23723NEMIS	Risperdal Quicklet  Orodispersible tablets  4 mg
+RIPO13559NEMIS	Risperdal Consta  Powder and solvent for suspension for injection  25 mg vial
+RIPO13560NEMIS	Risperdal Consta  Powder and solvent for suspension for injection  37.5 mg vial
+RIPO13561NEMIS	Risperdal Consta  Powder and solvent for suspension for injection  50 mg vial
+RIPO13562NEMIS	Risperidone  Powder and solvent for suspension for injection  25 mg vial
+RIPO13563NEMIS	Risperidone  Powder and solvent for suspension for injection  37.5 mg vial
+RIPO13564NEMIS	Risperidone  Powder and solvent for suspension for injection  50 mg vial
+RITA23782EMIS	Risperdal  Tablets  1 mg
+RITA23783EMIS	Risperdal  Tablets  2 mg
+RITA23784EMIS	Risperdal  Tablets  3 mg
+RITA23785EMIS	Risperdal  Tablets  4 mg
+RITA23790EMIS	Risperidone  Tablets  1 mg
+RITA23791EMIS	Risperidone  Tablets  2 mg
+RITA23792EMIS	Risperidone  Tablets  3 mg
+RITA23793EMIS	Risperidone  Tablets  4 mg
+RITA31679EMIS	Risperdal  Tablets  6 mg
+RITA31681EMIS	Risperidone  Tablets  6 mg
+RITA5272NEMIS	Risperdal  Tablets  500 micrograms
+RITA5273NEMIS	Risperidone  Tablets  500 micrograms
+RILI28308EMIS	Risperdal  Oral solution  1 mg/1 ml
+RILI28310EMIS	Risperidone  Oral Solution, Sugar Free  1 mg/1 ml
+RIOR14731NEMIS	Risperidone  Orodispersible tablets  Sugar Free 1 mg
+RIOR14732NEMIS	Risperidone  Orodispersible tablets  Sugar Free 2 mg
+RIOR14734NEMIS	Risperdal Quicklet  Orodispersible tablets  1 mg
+RIOR14735NEMIS	Risperdal Quicklet  Orodispersible tablets  2 mg
+RIOR19655NEMIS	Risperidone  Orodispersible tablets  Sugar Free 500 micrograms
+RIOR19656NEMIS	Risperdal Quicklet  Orodispersible tablets  500 micrograms
+RIOR23720NEMIS	Risperidone  Orodispersible tablets  Sugar Free 3 mg
+RIOR23721NEMIS	Risperidone  Orodispersible tablets  Sugar Free 4 mg
+RIOR23722NEMIS	Risperdal Quicklet  Orodispersible tablets  3 mg
+RIOR23723NEMIS	Risperdal Quicklet  Orodispersible tablets  4 mg
+RIPO13559NEMIS	Risperdal Consta  Powder and solvent for suspension for injection  25 mg vial
+RIPO13560NEMIS	Risperdal Consta  Powder and solvent for suspension for injection  37.5 mg vial
+RIPO13561NEMIS	Risperdal Consta  Powder and solvent for suspension for injection  50 mg vial
+RIPO13562NEMIS	Risperidone  Powder and solvent for suspension for injection  25 mg vial
+RIPO13563NEMIS	Risperidone  Powder and solvent for suspension for injection  37.5 mg vial
+RIPO13564NEMIS	Risperidone  Powder and solvent for suspension for injection  50 mg vial
+RITA23782EMIS	Risperdal  Tablets  1 mg
+RITA23783EMIS	Risperdal  Tablets  2 mg
+RITA23784EMIS	Risperdal  Tablets  3 mg
+RITA23785EMIS	Risperdal  Tablets  4 mg
+RITA23790EMIS	Risperidone  Tablets  1 mg
+RITA23791EMIS	Risperidone  Tablets  2 mg
+RITA23792EMIS	Risperidone  Tablets  3 mg
+RITA23793EMIS	Risperidone  Tablets  4 mg
+RITA31679EMIS	Risperdal  Tablets  6 mg
+RITA31681EMIS	Risperidone  Tablets  6 mg
+RITA5272NEMIS	Risperdal  Tablets  500 micrograms
+RITA5273NEMIS	Risperidone  Tablets  500 micrograms

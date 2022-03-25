@@ -1,0 +1,6 @@
+ZOTA34930EMIS	Zotepine  Tablets  100 mg
+ZOTA34931EMIS	Zotepine  Tablets  25 mg
+ZOTA34932EMIS	Zotepine  Tablets  50 mg
+ZOTA34930EMIS	Zotepine  Tablets  100 mg
+ZOTA34931EMIS	Zotepine  Tablets  25 mg
+ZOTA34932EMIS	Zotepine  Tablets  50 mg
