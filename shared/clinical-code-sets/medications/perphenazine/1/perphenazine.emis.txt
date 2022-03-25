@@ -1,0 +1,16 @@
+AMTA18788NEMIS	Amitriptyline And Perphenazine  Tablets  25 mg + 2 mg
+AMTA18789NEMIS	Amitriptyline And Perphenazine  Tablets  10 mg + 2 mg
+FETA1164	Fentazin  Tablets  2 mg
+FETA1165	Fentazin  Tablets  4 mg
+PETA2202	Perphenazine  Tablets  2 mg
+PETA2203	Perphenazine  Tablets  4 mg
+TRTA4462	Triptafen  Tablets  
+TRTA4463	Triptafen-M  Tablets  
+AMTA18788NEMIS	Amitriptyline And Perphenazine  Tablets  25 mg + 2 mg
+AMTA18789NEMIS	Amitriptyline And Perphenazine  Tablets  10 mg + 2 mg
+FETA1164	Fentazin  Tablets  2 mg
+FETA1165	Fentazin  Tablets  4 mg
+PETA2202	Perphenazine  Tablets  2 mg
+PETA2203	Perphenazine  Tablets  4 mg
+TRTA4462	Triptafen  Tablets  
+TRTA4463	Triptafen-M  Tablets  

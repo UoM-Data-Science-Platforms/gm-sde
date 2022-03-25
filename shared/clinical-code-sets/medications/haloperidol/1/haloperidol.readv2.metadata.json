@@ -1,0 +1,15 @@
+{
+  "includeTerms": ["haloperidol", "serenace", "haldol", "fortunan", "kentace", "dozic"],
+  "excludeTerms": [
+    "poisoning",
+    "overdose",
+    "allergy",
+    "adverse reaction",
+    "monitoring",
+    "concentration"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdOn": "2022-03-24T08:16:50.041Z",
+  "lastUpdated": "2022-03-24T08:16:50.041Z"
+}

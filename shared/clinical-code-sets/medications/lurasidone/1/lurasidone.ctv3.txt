@@ -1,0 +1,7 @@
+d4y..	LURASIDONE
+d4y5.	LATUDA 74mg tablets
+d4y3.	LATUDA 37mg tablets
+d4y1.	LATUDA 18.5mg tablets
+d4y6.	LURASIDONE 74mg tablets
+d4y4.	LURASIDONE 37mg tablets
+d4y2.	LURASIDONE 18.5mg tablets

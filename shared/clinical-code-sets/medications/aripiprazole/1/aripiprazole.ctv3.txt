@@ -1,0 +1,20 @@
+d4v..	Aripiprazole
+d4v9.	ABILIFY MAINTENA 400mg pdr+solv for suspension for injection
+d4v8.	ABILIFY 9.75mg/1.3mL solution for injection
+d4vz.	Aripiprazole 10mg tablet
+d4v1.	Abilify 10mg tablet
+d4vy.	Aripiprazole 15mg tablet
+d4v2.	Abilify 15mg tablet
+d4vx.	Aripiprazole 30mg tablet
+d4v3.	Abilify 30mg tablet
+d4vw.	Aripiprazole 5mg tablet
+d4v4.	Abilify 5mg tablet
+d4vv.	ARIPIPRAZOLE 15mg oro-dispersible tablets
+d4v6.	ABILIFY 15mg oro-dispersible tablets
+d4vu.	ARIPIPRAZOLE 10mg oro-dispersible tablets
+d4v5.	ABILIFY 10mg oro-dispersible tablets
+d4vt.	ARIPIPRAZOLE 1mg/mL oral solution
+d4v7.	ABILIFY 1mg/mL oral solution
+d4vs.	ARIPIPRAZOLE 9.75mg/1.3mL solution for injection
+d4vr.	ARIPIPRAZOLE 400mg pdr+solvent for suspension for injection
+x05te	Abilify

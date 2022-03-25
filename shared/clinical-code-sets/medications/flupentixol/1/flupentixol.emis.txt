@@ -1,0 +1,38 @@
+FLTA1194	Fluanxol  Tablets  500 micrograms
+DEIN19590EMIS	Depixol Conc.  Injection  50 mg/0.5 ml ampoule
+DEIN832	Depixol  Injection  20 mg/1 ml ampoule
+FLIN17656NEMIS	Flupentixol  Injection  100 mg/ml, 0.5 ml ampoule
+FLIN17659NEMIS	Flupentixol  Injection  20 mg/ml, 1 ml ampoule
+FLTA1193	Fluanxol  Tablets  1 mg
+FLIN17656NEMIS	Flupentixol  Injection  100 mg/ml, 0.5 ml ampoule
+DEIN19569EMIS	Depixol Low Volume  Injection  200 mg/ml, 1 ml ampoule
+DEIN19578EMIS	Depixol  Injection (syringe)  20 mg/1 ml
+FLTA17662NEMIS	Flupentixol  Tablets  500 micrograms
+DEIN19569EMIS	Depixol Low Volume  Injection  200 mg/ml, 1 ml ampoule
+FLIN17657NEMIS	Flupentixol  Injection  100 mg/ml, 1 ml ampoule
+FLTA1208	Flupenthixol  Tablets  1 mg
+FLTA1194	Fluanxol  Tablets  500 micrograms
+FLTA17661NEMIS	Flupentixol  Tablets  1 mg
+FLIN17658NEMIS	Flupentixol  Injection  200 mg/ml, 1 ml ampoule
+FLIN17660NEMIS	Flupentixol  Injection  20 mg/ml, 2 ml ampoule
+FLIN17660NEMIS	Flupentixol  Injection  20 mg/ml, 2 ml ampoule
+DETA833	Depixol  Tablets  3 mg
+DEIN19590EMIS	Depixol Conc.  Injection  50 mg/0.5 ml ampoule
+DEIN832	Depixol  Injection  20 mg/1 ml ampoule
+FLIN17659NEMIS	Flupentixol  Injection  20 mg/ml, 1 ml ampoule
+FLTA17662NEMIS	Flupentixol  Tablets  500 micrograms
+FLTA17663NEMIS	Flupentixol  Tablets  3 mg
+DEIN19579EMIS	Depixol  Injection (syringe)  40 mg/2 ml
+FLIN19584EMIS	Flupenthixol Decanoate  Injection  200 mg/10 ml
+FLTA17661NEMIS	Flupentixol  Tablets  1 mg
+DEIN19577EMIS	Depixol  Injection  40 mg/2 ml ampoule
+FLTA1193	Fluanxol  Tablets  1 mg
+DEIN19577EMIS	Depixol  Injection  40 mg/2 ml ampoule
+DEIN834	Depixol Conc.  Injection  100 mg/1 ml ampoule
+FLIN19587EMIS	Flupenthixol Decanoate  Injection (syringe)  40 mg/2 ml
+FLTA1210	Flupenthixol  Tablets  500 micrograms
+FLTA17663NEMIS	Flupentixol  Tablets  3 mg
+DEIN834	Depixol Conc.  Injection  100 mg/1 ml ampoule
+DETA833	Depixol  Tablets  3 mg
+FLIN17657NEMIS	Flupentixol  Injection  100 mg/ml, 1 ml ampoule
+FLIN17658NEMIS	Flupentixol  Injection  200 mg/ml, 1 ml ampoule

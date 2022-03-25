@@ -1,0 +1,46 @@
+MOTA3978	Motival  Tablets  
+MOSY8788BRIDL	Modecate  Injection  25 mg/1 ml ampoule
+FLDI25934EMIS	Fluphenazine Decanoate  Disposable syringe  25 mg/1 ml
+MOSY8788BRIDL	Modecate  Injection  25 mg/1 ml ampoule
+FLDI25934EMIS	Fluphenazine Decanoate  Disposable syringe  25 mg/1 ml
+MOIN10029BRIDL	Modecate  Injection  50 mg/2 ml ampoule
+FLDI25935EMIS	Fluphenazine Decanoate  Disposable syringe  50 mg/2 ml
+FLIN1212	Fluphenazine Decanoate  Injection  25 mg/1 ml ampoule
+FLIN25938EMIS	Fluphenazine Decanoate  Injection  50 mg/2 ml ampoule
+FLIN1212	Fluphenazine Decanoate  Injection  25 mg/1 ml ampoule
+FLIN25936EMIS	Fluphenazine Decanoate  Injection  12.5 mg/0.5 ml ampoule
+FLTA6994	Fluphenazine Hydrochloride  Tablets  2.5 mg
+MOTA3976	Motipress  Tablets  
+FLTA6994	Fluphenazine Hydrochloride  Tablets  2.5 mg
+FLTA6995	Fluphenazine Hydrochloride  Tablets  5 mg
+MOIN1858	Modecate  Injection  12.5 mg/0.5 ml ampoule
+MOTA1861	Moditen  Tablets  1 mg
+MOTA3976	Motipress  Tablets  
+MOTA3978	Motival  Tablets  
+MOIN1858	Modecate  Injection  12.5 mg/0.5 ml ampoule
+MOTA1861	Moditen  Tablets  1 mg
+MODI10310BRIDL	Modecate  Disposable syringe  50 mg/2 ml
+MOIN1859	Modecate Concentrate  Injection  100 mg/1 ml ampoule
+NOTA18780NEMIS	Nortriptyline And Fluphenazine  Tablets  10 mg + 500 micrograms
+FLTA4939	Fluphenazine Hydrochloride  Tablets  1 mg
+MODI10308BRIDL	Modecate  Disposable syringe  25 mg/1 ml
+MOIN25944EMIS	Modecate Concentrate  Injection  50 mg/0.5 ml ampoule
+MOTA1863	Moditen  Tablets  5 mg
+FLDI25935EMIS	Fluphenazine Decanoate  Disposable syringe  50 mg/2 ml
+FLIN25936EMIS	Fluphenazine Decanoate  Injection  12.5 mg/0.5 ml ampoule
+FLIN25940EMIS	Fluphenazine Decanoate  Injection  50 mg/0.5 ml ampoule
+MODI10308BRIDL	Modecate  Disposable syringe  25 mg/1 ml
+MOIN25944EMIS	Modecate Concentrate  Injection  50 mg/0.5 ml ampoule
+MOTA1862	Moditen  Tablets  2.5 mg
+FLIN25938EMIS	Fluphenazine Decanoate  Injection  50 mg/2 ml ampoule
+FLIN4937	Fluphenazine Decanoate  Injection  100 mg/1 ml ampoule
+MOTA1862	Moditen  Tablets  2.5 mg
+NOTA18780NEMIS	Nortriptyline And Fluphenazine  Tablets  10 mg + 500 micrograms
+FLTA4939	Fluphenazine Hydrochloride  Tablets  1 mg
+FLIN25940EMIS	Fluphenazine Decanoate  Injection  50 mg/0.5 ml ampoule
+FLTA6995	Fluphenazine Hydrochloride  Tablets  5 mg
+MODI10310BRIDL	Modecate  Disposable syringe  50 mg/2 ml
+MOIN10029BRIDL	Modecate  Injection  50 mg/2 ml ampoule
+MOIN1859	Modecate Concentrate  Injection  100 mg/1 ml ampoule
+FLIN4937	Fluphenazine Decanoate  Injection  100 mg/1 ml ampoule
+MOTA1863	Moditen  Tablets  5 mg

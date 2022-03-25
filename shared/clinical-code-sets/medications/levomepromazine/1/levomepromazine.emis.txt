@@ -1,0 +1,8 @@
+LEIN17312NEMIS	Levomepromazine  Solution for injection  25 mg/ml, 1 ml ampoule
+LETA17313NEMIS	Levomepromazine  Tablets  25 mg
+NOIN2038	Nozinan  Solution for injection  25mg/ml, 1 ml ampoule
+VETA3038	Nozinan  Tablets  25 mg
+LEIN17312NEMIS	Levomepromazine  Solution for injection  25 mg/ml, 1 ml ampoule
+LETA17313NEMIS	Levomepromazine  Tablets  25 mg
+NOIN2038	Nozinan  Solution for injection  25mg/ml, 1 ml ampoule
+VETA3038	Nozinan  Tablets  25 mg

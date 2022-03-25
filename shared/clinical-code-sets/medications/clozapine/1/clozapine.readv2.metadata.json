@@ -1,0 +1,21 @@
+{
+  "includeTerms": [
+    "clozapine",
+    "denzapine",
+    "zaponex",
+    "clozaril"
+  ],
+  "excludeTerms": [
+    "clozapine level",
+    "clozaril level",
+    "poisoning",
+    "overdose",
+    "allergy",
+    "adverse reaction",
+    "monitoring"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdOn": "2022-03-23T13:42:37.309Z",
+  "lastUpdated": "2022-03-23T13:42:37.309Z"
+}

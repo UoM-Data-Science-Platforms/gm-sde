@@ -1,0 +1,93 @@
+BIM/98829NEMIS	Biquelle Xl  M/R tablets  150 mg
+QUTA31563EMIS	Quetiapine Fumarate  Tablets  100 mg
+SEM/31068NEMIS	Seroquel Xl  M/R tablets  400 mg
+SETA16220NEMIS	Seroquel  Tablets  300 mg
+ZAM/98835NEMIS	Zaluron Xl  M/R tablets  50 mg
+SOM/71618NEMIS	Sondate Xl  M/R tablets  50 mg
+ZAM/98835NEMIS	Zaluron Xl  M/R tablets  50 mg
+MIM/101106NEMIS	Mintreleq Xl  M/R tablets  200 mg
+ZAM/98837NEMIS	Zaluron Xl  M/R tablets  200 mg
+BIM/98831NEMIS	Biquelle Xl  M/R tablets  300 mg
+QUM/31060NEMIS	Quetiapine Fumarate  M/R tablets  50 mg
+QUM/45842NEMIS	Quetiapine Fumarate  M/R tablets  150 mg
+SEM/31068NEMIS	Seroquel Xl  M/R tablets  400 mg
+SOM/71619NEMIS	Sondate Xl  M/R tablets  200 mg
+MIM/101108NEMIS	Mintreleq Xl  M/R tablets  400 mg
+QUM/31062NEMIS	Quetiapine Fumarate  M/R tablets  300 mg
+EBM/94102NEMIS	Ebesque Xl  M/R tablets  200 mg
+MIM/101107NEMIS	Mintreleq Xl  M/R tablets  300 mg
+MIM/101108NEMIS	Mintreleq Xl  M/R tablets  400 mg
+SEM/31065NEMIS	Seroquel Xl  M/R tablets  50 mg
+SEM/78913NEMIS	Seotiapim Xl  M/R tablets  200 mg
+SETA16220NEMIS	Seroquel  Tablets  300 mg
+SOM/71620NEMIS	Sondate Xl  M/R tablets  300 mg
+MIM/101107NEMIS	Mintreleq Xl  M/R tablets  300 mg
+QUM/31060NEMIS	Quetiapine Fumarate  M/R tablets  50 mg
+SEM/31065NEMIS	Seroquel Xl  M/R tablets  50 mg
+SEM/45843NEMIS	Seroquel Xl  M/R tablets  150 mg
+SEM/78914NEMIS	Seotiapim Xl  M/R tablets  300 mg
+SETA31556EMIS	Seroquel  Tablets  200 mg
+SOM/71621NEMIS	Sondate Xl  M/R tablets  400 mg
+ZAM/98836NEMIS	Zaluron Xl  M/R tablets  150 mg
+BIM/98832NEMIS	Biquelle Xl  M/R tablets  400 mg
+MIM/101106NEMIS	Mintreleq Xl  M/R tablets  200 mg
+QUM/31063NEMIS	Quetiapine Fumarate  M/R tablets  400 mg
+QUTA16219NEMIS	Quetiapine Fumarate  Tablets  300 mg
+SEM/78914NEMIS	Seotiapim Xl  M/R tablets  300 mg
+SETA31555EMIS	Seroquel  Tablets  100 mg
+QUM/45842NEMIS	Quetiapine Fumarate  M/R tablets  150 mg
+QUTA31564EMIS	Quetiapine Fumarate  Tablets  200 mg
+SETA31555EMIS	Seroquel  Tablets  100 mg
+SETA31557EMIS	Seroquel  Tablets  25 mg
+SOM/71618NEMIS	Sondate Xl  M/R tablets  50 mg
+BIM/98829NEMIS	Biquelle Xl  M/R tablets  150 mg
+BIM/98830NEMIS	Biquelle Xl  M/R tablets  200 mg
+EBM/94089NEMIS	Ebesque Xl  M/R tablets  50 mg
+EBM/94113NEMIS	Ebesque Xl  M/R tablets  400 mg
+MIM/101104NEMIS	Mintreleq Xl  M/R tablets  50 mg
+QUTA31563EMIS	Quetiapine Fumarate  Tablets  100 mg
+QUTA959NEMIS	Quetiapine Fumarate  Tablets  150 mg
+SOM/71621NEMIS	Sondate Xl  M/R tablets  400 mg
+BIM/98828NEMIS	Biquelle Xl  M/R tablets  50 mg
+BIM/98832NEMIS	Biquelle Xl  M/R tablets  400 mg
+EBM/94102NEMIS	Ebesque Xl  M/R tablets  200 mg
+EBM/94110NEMIS	Ebesque Xl  M/R tablets  300 mg
+MIM/101105NEMIS	Mintreleq Xl  M/R tablets  150 mg
+QUTA31566EMIS	Quetiapine Fumarate  Tablets (starter pack)  6 x 25 mg, 2 x 100 mg
+SEM/31066NEMIS	Seroquel Xl  M/R tablets  200 mg
+SEM/31067NEMIS	Seroquel Xl  M/R tablets  300 mg
+SEM/78913NEMIS	Seotiapim Xl  M/R tablets  200 mg
+SETA803NEMIS	Seroquel  Tablets (starter pack)  6x25 mg, 2x100 mg, 2x150 mg
+SETA960NEMIS	Seroquel  Tablets  150 mg
+BIM/98828NEMIS	Biquelle Xl  M/R tablets  50 mg
+MIM/101105NEMIS	Mintreleq Xl  M/R tablets  150 mg
+SEM/31067NEMIS	Seroquel Xl  M/R tablets  300 mg
+SETA960NEMIS	Seroquel  Tablets  150 mg
+ZAM/98837NEMIS	Zaluron Xl  M/R tablets  200 mg
+BIM/98830NEMIS	Biquelle Xl  M/R tablets  200 mg
+BIM/98831NEMIS	Biquelle Xl  M/R tablets  300 mg
+EBM/94089NEMIS	Ebesque Xl  M/R tablets  50 mg
+EBM/94113NEMIS	Ebesque Xl  M/R tablets  400 mg
+MIM/101104NEMIS	Mintreleq Xl  M/R tablets  50 mg
+QUM/31061NEMIS	Quetiapine Fumarate  M/R tablets  200 mg
+QUM/31063NEMIS	Quetiapine Fumarate  M/R tablets  400 mg
+QUTA16219NEMIS	Quetiapine Fumarate  Tablets  300 mg
+QUTA959NEMIS	Quetiapine Fumarate  Tablets  150 mg
+SOM/71619NEMIS	Sondate Xl  M/R tablets  200 mg
+ZAM/98839NEMIS	Zaluron Xl  M/R tablets  400 mg
+EBM/94110NEMIS	Ebesque Xl  M/R tablets  300 mg
+QUM/31062NEMIS	Quetiapine Fumarate  M/R tablets  300 mg
+SETA31557EMIS	Seroquel  Tablets  25 mg
+ZAM/98836NEMIS	Zaluron Xl  M/R tablets  150 mg
+ZAM/98839NEMIS	Zaluron Xl  M/R tablets  400 mg
+QUTA31565EMIS	Quetiapine Fumarate  Tablets  25 mg
+SETA31558EMIS	Seroquel  Tablets (starter pack)  6 x 25 mg, 2 x 100 mg
+SOM/71620NEMIS	Sondate Xl  M/R tablets  300 mg
+ZAM/98838NEMIS	Zaluron Xl  M/R tablets  300 mg
+QUM/31061NEMIS	Quetiapine Fumarate  M/R tablets  200 mg
+QUTA31564EMIS	Quetiapine Fumarate  Tablets  200 mg
+QUTA31565EMIS	Quetiapine Fumarate  Tablets  25 mg
+SEM/31066NEMIS	Seroquel Xl  M/R tablets  200 mg
+SEM/45843NEMIS	Seroquel Xl  M/R tablets  150 mg
+SETA31556EMIS	Seroquel  Tablets  200 mg
+ZAM/98838NEMIS	Zaluron Xl  M/R tablets  300 mg

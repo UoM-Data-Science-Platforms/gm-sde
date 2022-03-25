@@ -1,0 +1,32 @@
+STSY2686	Stelazine  Syrup  1 mg/5 ml
+TRSY2927	Trifluoperazine  Oral Solution, Sugar Free  1 mg/5 ml
+STOR18275NEMIS	Stelazine Forte  Oral Solution, Sugar Free  5 mg/5 ml
+STSP2685	Stelazine  Spansules  2 mg
+STSP2685	Stelazine  Spansules  2 mg
+STTA2689	Stelazine  Tablets  5 mg
+STSP2684	Stelazine  Spansules  15 mg
+STTA2689	Stelazine  Tablets  5 mg
+TRSP2926	Trifluoperazine  Spansules  2 mg
+STIN2680	Stelazine  Injection  1 mg/ml
+STSP2683	Stelazine  Spansules  10 mg
+STSP2684	Stelazine  Spansules  15 mg
+TRSP2925	Trifluoperazine  Spansules  15 mg
+TRTA2928	Trifluoperazine  Tablets  1 mg
+TRSP2924	Trifluoperazine  Spansules  10 mg
+TRSY2927	Trifluoperazine  Oral Solution, Sugar Free  1 mg/5 ml
+TRTA2928	Trifluoperazine  Tablets  1 mg
+STOR18275NEMIS	Stelazine Forte  Oral Solution, Sugar Free  5 mg/5 ml
+TROR28542EMIS	Trifluoperazine  Oral solution  Sugar Free 5 mg/5 ml
+TRSP2924	Trifluoperazine  Spansules  10 mg
+STSY2686	Stelazine  Syrup  1 mg/5 ml
+PATA4125	Parstelin  Tablets
+TRIN2923	Trifluoperazine  Injection  1 mg/ml
+TRSP2925	Trifluoperazine  Spansules  15 mg
+TRTA2929	Trifluoperazine  Tablets  5 mg
+TRTA2929	Trifluoperazine  Tablets  5 mg
+STLI2682	Stelazine  Liquid  10mg/ml
+STTA2688	Stelazine  Tablets  1 mg
+STSP2683	Stelazine  Spansules  10 mg
+STTA2688	Stelazine  Tablets  1 mg
+TROR28542EMIS	Trifluoperazine  Oral solution  Sugar Free 5 mg/5 ml
+TRSP2926	Trifluoperazine  Spansules  2 mg

@@ -1,0 +1,5 @@
+d4x..00	ASENAPINE
+d4x4.00	ASENAPINE 10mg sublingual tablets
+d4x2.00	ASENAPINE 5mg sublingual tablets
+d4x3.00	SYCREST 10mg sublingual tablets
+d4x1.00	SYCREST 5mg sublingual tablets

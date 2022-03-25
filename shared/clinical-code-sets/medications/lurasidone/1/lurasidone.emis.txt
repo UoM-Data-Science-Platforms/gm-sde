@@ -1,0 +1,8 @@
+LATA96316NEMIS	Latuda  Tablets  74 mg
+LUTA96309NEMIS	Lurasidone  Tablets  18.5 mg
+LUTA96311NEMIS	Lurasidone  Tablets  37 mg
+LUTA96312NEMIS	Lurasidone  Tablets  74 mg
+LATA96316NEMIS	Latuda  Tablets  74 mg
+LUTA96309NEMIS	Lurasidone  Tablets  18.5 mg
+LUTA96311NEMIS	Lurasidone  Tablets  37 mg
+LUTA96312NEMIS	Lurasidone  Tablets  74 mg

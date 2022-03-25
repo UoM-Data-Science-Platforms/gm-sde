@@ -1,0 +1,8 @@
+SETA29201EMIS	Serdolect  Tablets  4 mg
+SETA29206EMIS	Sertindole  Tablets  12 mg
+SETA29208EMIS	Sertindole  Tablets  20 mg
+SETA29209EMIS	Sertindole  Tablets  4 mg
+SETA29201EMIS	Serdolect  Tablets  4 mg
+SETA29206EMIS	Sertindole  Tablets  12 mg
+SETA29208EMIS	Sertindole  Tablets  20 mg
+SETA29209EMIS	Sertindole  Tablets  4 mg

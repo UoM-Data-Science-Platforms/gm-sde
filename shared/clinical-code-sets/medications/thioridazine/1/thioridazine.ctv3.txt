@@ -1,0 +1,25 @@
+x01BY	Thioridazine
+d4gz.	Thioridazine 25mg/5mL oral solution
+d4g7.	Melleril 25mg/5mL syrup
+d4gy.	Thioridazine 100mg/5mL oral suspension
+d4g6.	Melleril 100mg/5mL oral suspension
+d4gx.	Thioridazine 25mg/5mL oral suspension
+d4g5.	Melleril 25mg/5mL suspension
+d4gw.	Thioridazine hydrochloride 100mg tablet
+d4gA.	Rideril 100mg tablet
+d4g4.	Melleril 100mg tablet
+d4gv.	Thioridazine hydrochloride 50mg tablet
+d4g9.	Rideril 50mg tablet
+d4g3.	Melleril 50mg tablet
+d4gu.	Thioridazine hydrochloride 25mg tablet
+d4g8.	Rideril 25mg tablet
+d4g2.	Melleril 25mg tablet
+d4gt.	Thioridazine hydrochloride 10mg tablet
+d4g1.	Melleril 10mg tablet
+d4gs.	Thioridazine 100mg/5mL s/f oral solution
+d4gr.	Thioridazine 50mg/5mL s/f oral solution
+d4gq.	Thioridazine 25mg/5mL s/f oral solution
+d4gp.	Thioridazine 10mg/5mL syrup
+d4g..	Thioridazine hydrochloride
+x02iZ	Melleril
+x02pc	Rideril

@@ -1,0 +1,15 @@
+DOTA28250EMIS	Dolmatil  Tablets  400 mg
+DOTA961	Dolmatil  Tablets  200 mg
+SUOR11892NEMIS	Sulpor  Sugar-free oral solution  200 mg/5 ml
+SUSU32911EMIS	Sulpiride  Sugar-free oral solution  200 mg/5 ml
+SUTA2733	Sulpiride  Tablets  200 mg
+SUTA2734	Sulpitil  Tablets  200 mg
+SUTA28248EMIS	Sulpiride  Tablets  400 mg
+SUTA3785NEMIS	Sulparex  Tablets  200 mg
+DOTA28250EMIS	Dolmatil  Tablets  400 mg
+DOTA961	Dolmatil  Tablets  200 mg
+SUOR11892NEMIS	Sulpor  Sugar-free oral solution  200 mg/5 ml
+SUSU32911EMIS	Sulpiride  Sugar-free oral solution  200 mg/5 ml
+SUTA2733	Sulpiride  Tablets  200 mg
+SUTA2734	Sulpitil  Tablets  200 mg
+SUTA28248EMIS	Sulpiride  Tablets  400 mg

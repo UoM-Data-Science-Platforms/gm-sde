@@ -1,0 +1,16 @@
+{
+  "includeTerms": ["pimozide", "orap"],
+  "excludeTerms": [
+    "poisoning",
+    "overdose",
+    "allergy",
+    "adverse reaction",
+    "monitoring",
+    "concentration",
+    "level"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdOn": "2022-03-24T09:54:32.671Z",
+  "lastUpdated": "2022-03-24T09:54:32.671Z"
+}

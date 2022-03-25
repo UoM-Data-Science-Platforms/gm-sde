@@ -1,0 +1,17 @@
+d4l..00	CLOZAPINE
+d4lG.00	CLOZAPINE 200mg tablets
+d4lE.00	CLOZAPINE 50mg tablets
+d4lC.00	CLOZAPINE 50mg/mL oral suspension
+d4l2.00	CLOZAPINE 100mg tablets
+d4l1.00	CLOZAPINE 25mg tablets
+d4lF.00	DENZAPINE 200mg tablets
+d4lD.00	DENZAPINE 50mg tablets
+d4lB.00	DENZAPINE 50mg/mL oral suspension 100mL
+d4lA.00	ZAPONEX 100mg tablets
+d4l9.00	ZAPONEX 25mg tablets
+d4l8.00	DENZAPINE 100mg tablets
+d4l7.00	DENZAPINE 25mg tablets
+d4l6.00	CLOZARIL COMMUNITY PACK 100mg tablets x28CP
+d4l5.00	CLOZARIL COMMUNITY PACK 25mg tablets x28CP
+d4l4.00	CLOZARIL 100mg tablets x84CP
+d4l3.00	CLOZARIL 25mg tablets x84CP

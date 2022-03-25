@@ -1,0 +1,26 @@
+x02LW	Trifluoperazine
+dhi..	Trifluoperazine [nausea] [see dh4..]
+d4hz.	Trifluoperazine 1mg/1mL injection
+d4h8.	Stelazine 1mg/1mL injection
+d4hy.	Trifluoperazine 10mg/mL liquid concentrate
+d4h7.	Stelazine Concentrate 10mg/mL liquid
+d4hx.	Trifluoperazine 1mg/5mL syrup
+d4h6.	Stelazine 1mg/5mL syrup
+d4hw.	Trifluoperazine 15mg m/r capsule
+d4h5.	Stelazine 15mg Spansule
+d4hv.	Trifluoperazine 10mg m/r capsule
+d4h4.	Stelazine 10mg Spansule
+d4hu.	Trifluoperazine 2mg m/r capsule
+d4h3.	Stelazine 2mg Spansule
+d4ht.	Trifluoperazine 5mg tablet
+d4h2.	Stelazine 5mg tablet
+d4hs.	Trifluoperazine 1mg tablet
+d4h1.	Stelazine 1mg tablet
+d4hr.	Trifluoperazine 5mg/5mL s/f oral suspension
+d4hA.	Stelazine Forte 5mg/5mL s/f oral suspension
+d4h9.	Trifluoperazine 5mg/5mL sugar free syrup
+d4h..	Trifluoperazine [antipsychotic]
+d91B.	Tranylcypromine+trifluoperazine 10mg/1mg tablet
+d915.	Parstelin tablet
+x02rX	Stelazine
+x02mx	Parstelin

@@ -1,0 +1,58 @@
+x02LR	Haloperidol
+x01BO	Parenteral haloperidol
+d47x.	Haloperidol 20mg/2mL injection
+d47q.	Serenace 20mg/2mL injection
+d47w.	Haloperidol 10mg/2mL injection
+d47i.	Haldol 10mg/2mL injection
+d47v.	Haloperidol 5mg/1mL injection
+d47p.	Serenace 5mg/1mL injection
+d47h.	Haldol 5mg/1mL injection
+x01BN	Oral haloperidol
+d47z.	Haloperidol 1.5mg/5mL s/f oral solution
+d47y.	Haloperidol 10mg/mL oral solution
+d47g.	Haldol Concentrate 10mg/mL oral liquid
+d47u.	Haloperidol 500micrograms tablet
+d478.	Fortunan 500micrograms tablet
+d47t.	Haloperidol 1mg/mL oral solution
+d476.	Dozic 1mg/mL oral liquid
+d47r.	Haloperidol 500micrograms capsule
+d47j.	Serenace 500micrograms capsule
+d47B.	Haloperidol 1mg/5mL s/f oral solution
+d47A.	Haloperidol 2mg/5mL s/f oral solution
+d475.	Haloperidol 2mg/mL oral solution
+x00Xn	Serenace 2mg/mL oral liquid
+d47s.	Serenace 2mg/mL liquid 500mL
+d47o.	Serenace 2mg/mL liquid 100mL
+d47f.	Haldol 2mg/mL oral liquid
+d477.	Dozic 2mg/mL oral liquid
+d474.	Haloperidol 20mg tablet
+d47n.	Serenace 20mg tablet
+d47c.	Fortunan 20mg tablet
+d47F.	Kentace 20mg tablet
+d473.	Haloperidol 10mg tablet
+d47m.	Serenace 10mg tablet
+d47e.	Haldol 10mg tablet
+d47b.	Fortunan 10mg tablet
+d47E.	Kentace 10mg tablet
+d472.	Haloperidol 5mg tablet
+d47l.	Serenace 5mg tablet
+d47d.	Haldol 5mg tablet
+d47a.	Fortunan 5mg tablet
+d47D.	Kentace 5mg tablet
+d471.	Haloperidol 1.5mg tablet
+d47k.	Serenace 1.5mg tablet
+d47C.	Kentace 1.5mg tablet
+d479.	Fortunan 1.5mg tablet
+ds1..	Haloperidol [tics, chorea] [see D47..]
+d47..	Haloperidol [antipsychotic]
+d55..	Haloperidol decanoate
+d554.	Haloperidol 100mg/1mL oily injection
+d552.	Haldol decanoate 100mg/1mL oily injection
+d553.	Haloperidol 50mg/1mL oily injection
+d551.	Haldol decanoate 50mg/1mL oily injection
+x048x	Haldol Concentrate
+x02eN	Haldol decanoate
+x02eM	Haldol
+x02qq	Serenace
+x03dK	Kentace
+x02aV	Dozic
