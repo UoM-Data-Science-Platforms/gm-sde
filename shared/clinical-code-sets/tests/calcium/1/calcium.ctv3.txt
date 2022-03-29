@@ -1,0 +1,10 @@
+44I8.	Serum calcium
+44IC.	Adjusted serum calcium level
+XaDvd	Blood calcium level
+XaIdR	Serum ionized calcium (pH 7.4) level
+XaIRk	Plasma calcium level
+XaIRn	Plasma corrected calcium level
+XaIU0	Serum ionised calcium level
+XaX4E	Blood ionised calcium level
+XaZyY	Calcium adjusted level
+XE2q3	Serum calcium level

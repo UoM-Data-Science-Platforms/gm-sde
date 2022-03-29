@@ -1,0 +1,4 @@
+44Lc.	Vitamin B12 level
+44Le.	Plasma vitamin B12 level
+42TZ.	Serum vitamin B12 NOS
+42T..	Serum vitamin B12

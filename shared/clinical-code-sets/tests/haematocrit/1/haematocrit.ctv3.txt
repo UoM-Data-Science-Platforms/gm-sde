@@ -1,0 +1,5 @@
+X76tb	Haematocrit
+X76tc	Packed cell volume
+XE2Zq	Haematocrit - PCV
+XE2Zq	Haematocrit - PCV level
+425Z.	Haematocrit - PCV - NOS
