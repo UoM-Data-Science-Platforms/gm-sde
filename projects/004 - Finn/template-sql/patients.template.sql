@@ -204,10 +204,11 @@ IF OBJECT_ID('tempdb..#COVIDVaccinations2') IS NOT NULL DROP TABLE #COVIDVaccina
 SELECT 
 	FK_Patient_Link_ID,
 	FirstVaccineDate = VaccineDose1Date, 
-	SecondVaccineDate = VaccineDose2Date 
+	SecondVaccineDate = VaccineDose2Date,
+	ThirdVaccineDate = VaccineDose3Date
 INTO #COVIDVaccinations2
 FROM #COVIDVaccinations
-GROUP BY FK_Patient_Link_ID
+-- GROUP BY FK_Patient_Link_ID
 
 
 
@@ -300,6 +301,7 @@ SELECT
   pa.FrailtyDeficitList,
   cv.FirstVaccineDate,
   cv.SecondVaccineDate,
+  cv.ThirdVaccineDate,
   pl.Deceased AS DeathStatus,
   pl.DeathDate
 FROM #Patients p
