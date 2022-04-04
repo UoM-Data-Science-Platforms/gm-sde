@@ -4,12 +4,10 @@ A patient's urinary albumin creatinine ratio as recorded via clinical code and v
 
 ## Prevalence log
 
-**TABLE BELOW NEEDS UPDATING
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.91% - 6.24%` suggests that this code set is likely well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `10.91% - 14.61%` is possibly not sufficiently narrow to guarantee that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-10-19 | EMIS            | 26929848   |  271247 (10.31%) |  271247 (10.31%)  |
-| 2021-10-19 | TPP             | 211812     |   29498 (13.93%) |   29498 (13.93%)  |
-| 2021-10-19 | Vision          | 338205     |    32094 (9.49%) |    32094 (9.49%)  |
+| 2022-03-28 | EMIS            | 2658708    |  329218 (12.38%) |  329218 (12.38%)  |
+| 2022-03-28 | TPP             | 212645     |   31083 (14.61%) |   31083 (14.61%)  |
+| 2022-03-28 | Vision          | 341667     |   37285 (10.91%) |   37285 (10.91%)  |
