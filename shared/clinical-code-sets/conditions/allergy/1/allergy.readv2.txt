@@ -1,0 +1,38 @@
+14LY.00	Phosphodiesterase-5 inhibitor allergy
+SN5B.00	Allergy to stainless steel
+SN58.00	Food allergy
+SN58C00	Allergy to tomato
+SN58B00	Allergy to banana
+SN58A00	Allergy to soya
+SN58911	Strawberry allergy
+SN58900	Allergy to strawberries
+SN58800	Mushroom allergy
+SN58700	Shellfish allergy
+SN58600	Seafood allergy
+SN58500	Fish allergy
+SN58400	Wheat allergy
+SN58300	Nut allergy
+SN58200	Peanut allergy
+SN58100	Egg protein allergy
+SN58000	Egg allergy
+SN53.00	Allergy, unspecified
+SN53100	Latex allergy
+1Z4..11	Drug allergy
+1Z43.00	Anticoagulant allergy
+1Z43100	Apixaban allergy
+1Z43000	Rivaroxaban allergy
+1Z42.00	Ticagrelor allergy
+1Z41.00	Prasugrel allergy
+1Z40.00	Aliskiren allergy
+H171.11	Cat allergy
+H171.12	Dander (animal) allergy
+H171.15	House dust allergy
+H171.13	Feather allergy
+H171.16	House dust mite allergy
+H171100	Dog allergy
+H171000	Allergy to animal
+66G4.00	Allergy drug side effect
+9b9W.00	Allergy - specialty
+9bJ5.00	Transfer-degraded non-drug allergy
+9bJ4.00	Transfer-degraded drug allergy
+J432.12	Cow's milk allergy
