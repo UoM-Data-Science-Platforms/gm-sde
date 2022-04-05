@@ -1,0 +1,8 @@
+Nyu17	[X]Other secondary gout
+C34z.	Gout NOS
+C34..	Gout
+C342.	Idiopathic gout
+C344.	Drug-induced gout
+C345.	Gout due to impairment of renal function
+C346.	Acute exacerbation of gout
+C34yz	Other specified gouty manifestation NOS

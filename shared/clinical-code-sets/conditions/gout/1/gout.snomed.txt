@@ -1,0 +1,8 @@
+239843003	[X]Other secondary gout
+924311000000106	Acute exacerbation of gout
+239844009	Gout due impairment renal func
+90560007	Gout NOS
+239845005	Gout secondary to drug
+239847002	Gout secondary to enzym defect
+239846006	Gout secondary to lead
+24595009	Primary gout
