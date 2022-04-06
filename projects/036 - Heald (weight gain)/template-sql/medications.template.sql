@@ -47,16 +47,7 @@ from SharedCare.Reference_SnomedCT where PK_Reference_SnomedCT_ID in (SELECT FK_
 */
 
 IF OBJECT_ID('tempdb..#SMIPatients') IS NOT NULL DROP TABLE #SMIPatients;
-select PK_Reference_Coding_ID,
-	CASE 
-		WHEN FullDescription IS NOT NULL AND FullDescription !='' THEN FullDescription
-		WHEN Term198 IS NOT NULL AND Term198 !='' THEN Term198
-		WHEN Term60 IS NOT NULL AND Term60 !='' THEN Term60
-		WHEN Term30 IS NOT NULL AND Term30 !='' THEN Term30
-	END AS Description into #descriptinos from SharedCare.Reference_Coding where PK_Reference_Coding_ID in (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets)
-
-IF OBJECT_ID('tempdb..#SMIPatients') IS NOT NULL DROP TABLE #SMIPatients;
-SELECT FK_Patient_Link_ID, MIN(CAST(MedicationDate AS DATE)) AS FirstDiagnosisDate INTO #SMIPatients
+SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstDiagnosisDate INTO #SMIPatients
 FROM RLS.vw_GP_Events
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('severe-mental-illness') AND [Version]=1) OR
@@ -95,7 +86,7 @@ WHERE FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCo
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate >= @StartDate;
 
--- Get all biomarker values for the cohort
+-- Get all medications for the cohort
 IF OBJECT_ID('tempdb..#medications') IS NOT NULL DROP TABLE #medications;
 CREATE TABLE #medications (
 	FK_Patient_Link_ID BIGINT,
@@ -111,163 +102,174 @@ INSERT INTO #medications
 SELECT FK_Patient_Link_ID, 'amisulpride' AS Label, Description, Quantity, Dosage, MedicationDate, SuppliedCode
 FROM #allMedications 
 WHERE FK_Reference_Coding_ID IN (
-	SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'amisulpride' AND [Version] = 1)
+	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'amisulpride' AND [Version] = 1)
 );
 
 INSERT INTO #medications
 SELECT FK_Patient_Link_ID, 'aripiprazole' AS Label, Description, Quantity, Dosage, MedicationDate, SuppliedCode
 FROM #allMedications 
 WHERE FK_Reference_Coding_ID IN (
-	SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'aripiprazole' AND [Version] = 1)
+	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'aripiprazole' AND [Version] = 1)
 );
 
 INSERT INTO #medications
 SELECT FK_Patient_Link_ID, 'asenapine' AS Label, Description, Quantity, Dosage, MedicationDate, SuppliedCode
 FROM #allMedications 
 WHERE FK_Reference_Coding_ID IN (
-	SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'asenapine' AND [Version] = 1)
+	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'asenapine' AND [Version] = 1)
 );
 
 INSERT INTO #medications
 SELECT FK_Patient_Link_ID, 'chlorpromazine' AS Label, Description, Quantity, Dosage, MedicationDate, SuppliedCode
 FROM #allMedications 
 WHERE FK_Reference_Coding_ID IN (
-	SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'chlorpromazine' AND [Version] = 1)
+	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'chlorpromazine' AND [Version] = 1)
 );
 
 INSERT INTO #medications
 SELECT FK_Patient_Link_ID, 'clozapine' AS Label, Description, Quantity, Dosage, MedicationDate, SuppliedCode
 FROM #allMedications 
 WHERE FK_Reference_Coding_ID IN (
-	SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'clozapine' AND [Version] = 1)
+	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'clozapine' AND [Version] = 1)
 );
 
 INSERT INTO #medications
 SELECT FK_Patient_Link_ID, 'flupentixol' AS Label, Description, Quantity, Dosage, MedicationDate, SuppliedCode
 FROM #allMedications 
 WHERE FK_Reference_Coding_ID IN (
-	SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'flupentixol' AND [Version] = 1)
+	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'flupentixol' AND [Version] = 1)
 );
 
 INSERT INTO #medications
 SELECT FK_Patient_Link_ID, 'fluphenazine' AS Label, Description, Quantity, Dosage, MedicationDate, SuppliedCode
 FROM #allMedications 
 WHERE FK_Reference_Coding_ID IN (
-	SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'fluphenazine' AND [Version] = 1)
+	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'fluphenazine' AND [Version] = 1)
 );
 
 INSERT INTO #medications
 SELECT FK_Patient_Link_ID, 'haloperidol' AS Label, Description, Quantity, Dosage, MedicationDate, SuppliedCode
 FROM #allMedications 
 WHERE FK_Reference_Coding_ID IN (
-	SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'haloperidol' AND [Version] = 1)
+	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'haloperidol' AND [Version] = 1)
 );
 
 INSERT INTO #medications
 SELECT FK_Patient_Link_ID, 'levomepromazine' AS Label, Description, Quantity, Dosage, MedicationDate, SuppliedCode
 FROM #allMedications 
 WHERE FK_Reference_Coding_ID IN (
-	SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'levomepromazine' AND [Version] = 1)
+	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'levomepromazine' AND [Version] = 1)
 );
 
 INSERT INTO #medications
 SELECT FK_Patient_Link_ID, 'loxapine' AS Label, Description, Quantity, Dosage, MedicationDate, SuppliedCode
 FROM #allMedications 
 WHERE FK_Reference_Coding_ID IN (
-	SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'loxapine' AND [Version] = 1)
+	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'loxapine' AND [Version] = 1)
 );
 
 INSERT INTO #medications
 SELECT FK_Patient_Link_ID, 'lurasidone' AS Label, Description, Quantity, Dosage, MedicationDate, SuppliedCode
 FROM #allMedications 
 WHERE FK_Reference_Coding_ID IN (
-	SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'lurasidone' AND [Version] = 1)
+	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'lurasidone' AND [Version] = 1)
 );
 
 INSERT INTO #medications
 SELECT FK_Patient_Link_ID, 'olanzapine' AS Label, Description, Quantity, Dosage, MedicationDate, SuppliedCode
 FROM #allMedications 
 WHERE FK_Reference_Coding_ID IN (
-	SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'olanzapine' AND [Version] = 1)
+	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'olanzapine' AND [Version] = 1)
 );
 
 INSERT INTO #medications
 SELECT FK_Patient_Link_ID, 'paliperidone' AS Label, Description, Quantity, Dosage, MedicationDate, SuppliedCode
 FROM #allMedications 
 WHERE FK_Reference_Coding_ID IN (
-	SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'paliperidone' AND [Version] = 1)
+	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'paliperidone' AND [Version] = 1)
 );
 
 INSERT INTO #medications
 SELECT FK_Patient_Link_ID, 'perphenazine' AS Label, Description, Quantity, Dosage, MedicationDate, SuppliedCode
 FROM #allMedications 
 WHERE FK_Reference_Coding_ID IN (
-	SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'perphenazine' AND [Version] = 1)
+	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'perphenazine' AND [Version] = 1)
 );
 
 INSERT INTO #medications
 SELECT FK_Patient_Link_ID, 'pimozide' AS Label, Description, Quantity, Dosage, MedicationDate, SuppliedCode
 FROM #allMedications 
 WHERE FK_Reference_Coding_ID IN (
-	SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'pimozide' AND [Version] = 1)
+	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'pimozide' AND [Version] = 1)
 );
 
 INSERT INTO #medications
 SELECT FK_Patient_Link_ID, 'quetiapine' AS Label, Description, Quantity, Dosage, MedicationDate, SuppliedCode
 FROM #allMedications 
 WHERE FK_Reference_Coding_ID IN (
-	SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'quetiapine' AND [Version] = 1)
+	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'quetiapine' AND [Version] = 1)
 );
 
 INSERT INTO #medications
 SELECT FK_Patient_Link_ID, 'risperidone' AS Label, Description, Quantity, Dosage, MedicationDate, SuppliedCode
 FROM #allMedications 
 WHERE FK_Reference_Coding_ID IN (
-	SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'risperidone' AND [Version] = 1)
+	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'risperidone' AND [Version] = 1)
 );
 
 INSERT INTO #medications
 SELECT FK_Patient_Link_ID, 'sertindole' AS Label, Description, Quantity, Dosage, MedicationDate, SuppliedCode
 FROM #allMedications 
 WHERE FK_Reference_Coding_ID IN (
-	SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'sertindole' AND [Version] = 1)
+	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'sertindole' AND [Version] = 1)
 );
 
 INSERT INTO #medications
 SELECT FK_Patient_Link_ID, 'sulpiride' AS Label, Description, Quantity, Dosage, MedicationDate, SuppliedCode
 FROM #allMedications 
 WHERE FK_Reference_Coding_ID IN (
-	SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'sulpiride' AND [Version] = 1)
+	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'sulpiride' AND [Version] = 1)
 );
 
 INSERT INTO #medications
 SELECT FK_Patient_Link_ID, 'thioridazine' AS Label, Description, Quantity, Dosage, MedicationDate, SuppliedCode
 FROM #allMedications 
 WHERE FK_Reference_Coding_ID IN (
-	SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'thioridazine' AND [Version] = 1)
+	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'thioridazine' AND [Version] = 1)
 );
 
 INSERT INTO #medications
 SELECT FK_Patient_Link_ID, 'trifluoperazine' AS Label, Description, Quantity, Dosage, MedicationDate, SuppliedCode
 FROM #allMedications 
 WHERE FK_Reference_Coding_ID IN (
-	SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'trifluoperazine' AND [Version] = 1)
+	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'trifluoperazine' AND [Version] = 1)
 );
 
 INSERT INTO #medications
 SELECT FK_Patient_Link_ID, 'zotepine' AS Label, Description, Quantity, Dosage, MedicationDate, SuppliedCode
 FROM #allMedications 
 WHERE FK_Reference_Coding_ID IN (
-	SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'zotepine' AND [Version] = 1)
+	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'zotepine' AND [Version] = 1)
 );
 
 INSERT INTO #medications
 SELECT FK_Patient_Link_ID, 'zuclopenthixol' AS Label, Description, Quantity, Dosage, MedicationDate, SuppliedCode
 FROM #allMedications 
 WHERE FK_Reference_Coding_ID IN (
-	SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'zuclopenthixol' AND [Version] = 1)
+	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'zuclopenthixol' AND [Version] = 1)
 );
 
+-- Dosage information *might* contain sensitive information, so let's 
+-- restrict to dosage instructions that occur >= 100 times
+IF OBJECT_ID('tempdb..#SafeDosages') IS NOT NULL DROP TABLE #SafeDosages;
+SELECT Dosage INTO #SafeDosages FROM #medications
+group by Dosage
+having count(*) >= 100;
+
 -- Final output
-SELECT * FROM #medications
+SELECT
+	FK_Patient_Link_ID AS PatientID, Label, Description, 
+	Quantity, ISNULL(#SafeDosages.Dosage, 'REDACTED'), MedicationDate, SuppliedCode
+FROM #medications m
+LEFT OUTER JOIN #SafeDosages ON m.Dosage = #SafeDosages.Dosage
 ORDER BY FK_Patient_Link_ID, MedicationDate;

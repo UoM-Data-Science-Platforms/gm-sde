@@ -345,6 +345,30 @@ _Link_: [https://github.com/rw251/.../query-patients-with-covid.sql](https://git
 This project required the following clinical code sets:
 
 - severe-mental-illness v1
+- antipsychotics v1
+- amisulpride v1
+- aripiprazole v1
+- asenapine v1
+- chlorpromazine v1
+- clozapine v1
+- flupentixol v1
+- fluphenazine v1
+- haloperidol v1
+- levomepromazine v1
+- loxapine v1
+- lurasidone v1
+- olanzapine v1
+- paliperidone v1
+- perphenazine v1
+- pimozide v1
+- quetiapine v1
+- risperidone v1
+- sertindole v1
+- sulpiride v1
+- thioridazine v1
+- trifluoperazine v1
+- zotepine v1
+- zuclopenthixol v1
 - bmi v2
 - hba1c v2
 - cholesterol v2
@@ -355,7 +379,8 @@ This project required the following clinical code sets:
 - sex-hormone-binding-globulin v1
 - egfr v1
 - weight v1
-- antipsychotics v1
+- systolic-blood-pressure v1
+- diastolic-blood-pressure v1
 - covid-positive-antigen-test v1
 - covid-positive-pcr-test v1
 - covid-positive-test-other v1
@@ -370,14 +395,6 @@ This project required the following clinical code sets:
 - copd v1
 - asthma v1
 - hypertension v1
-- metformin v1
-- glp1-receptor-agonists v1
-- insulin v1
-- sglt2-inhibitors v1
-- sulphonylureas v1
-- ace-inhibitor v1
-- aspirin v1
-- clopidogrel v1
 
 Further details for each code set can be found below.
 
@@ -414,6 +431,323 @@ The discrepancy between the patients counted when using the IDs vs using the cli
 | 2021-03-11 | Vision          | 333251     |     6770 (2.03%) |      5338 (1.60%) |
 
 LINK: [https://github.com/rw251/.../conditions/severe-mental-illness/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/severe-mental-illness/1)
+
+### Antipychotics
+
+Code set for prescriptions of antipsychotic medication.
+
+Developed from https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/53/
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. 
+Here is a log for this code set. The prevalence range `3.10% - 3.78%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-07-20 | EMIS            | 2616446    |    81113 (3.10%) |     81141 (3.10%) |
+| 2021-07-20 | TPP             | 211414     |     6642 (3.14%) |      7995 (3.78%) |
+| 2021-07-20 | Vision          | 336776     |    10600 (3.15%) |     10600 (3.15%) |
+
+LINK: [https://github.com/rw251/.../medications/antipsychotics/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/antipsychotics/1)
+
+### Amisulpride
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.09% - 0.11%` suggests this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |     2550 (0.10%) |      2550 (0.10%) |
+| 2022-03-24 | TPP             | 212645     |      242 (0.11%) |       242 (0.11%) |
+| 2022-03-24 | Vision          | 341667     |      316 (0.09%) |       316 (0.09%) |
+
+LINK: [https://github.com/rw251/.../medications/amisulpride/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/amisulpride/1)
+
+### Aripiprazole
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.33% - 0.39%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |    10441 (0.39%) |     10441 (0.39%) |
+| 2022-03-24 | TPP             | 212645     |      721 (0.34%) |       721 (0.34%) |
+| 2022-03-24 | Vision          | 341667     |     1111 (0.33%) |      1111 (0.33%) |
+
+LINK: [https://github.com/rw251/.../medications/aripiprazole/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/aripiprazole/1)
+
+### Asenapine
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0% - 0.00029%` suggests that this drug is not used in UK primary care - though it could be because of a deficiency in the code set.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |     3 (0.00011%) |      3 (0.00011%) |
+| 2022-03-24 | TPP             | 212645     |           0 (0%) |            0 (0%) |
+| 2022-03-24 | Vision          | 341667     |     1 (0.00029%) |      1 (0.00029%) |
+
+LINK: [https://github.com/rw251/.../medications/asenapine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/asenapine/1)
+
+### Chlorpromazine
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.18% - 0.31%` is possibly not sufficiently narrow to guarantee that this code set is well defined. However EMIS and TPP are very similar. There may be missing codes used by the Vision practices, or a skewed population which lead to a bias whereby the GM Vision practices prescribe this drug less frequently.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |     7808 (0.29%) |      7808 (0.29%) |
+| 2022-03-24 | TPP             | 212645     |      653 (0.31%) |       653 (0.31%) |
+| 2022-03-24 | Vision          | 341667     |      619 (0.18%) |       619 (0.18%) |
+
+LINK: [https://github.com/rw251/.../medications/chlorpromazine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/chlorpromazine/1)
+
+### Clozapine
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.03% - 0.06%` is possibly not sufficiently narrow to guarantee that this code set is well defined. However this is likely because of the small numbers involved.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |     1580 (0.06%) |      1580 (0.06%) |
+| 2022-03-24 | TPP             | 212645     |       68 (0.03%) |        68 (0.03%) |
+| 2022-03-24 | Vision          | 341667     |      135 (0.04%) |       135 (0.04%) |
+
+LINK: [https://github.com/rw251/.../medications/clozapine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/clozapine/1)
+
+### Flupentixol
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.36% - 1.11%` is possibly not sufficiently narrow to guarantee that this code set is well defined. There may be missing codes for the EMIS and Vision practices.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |    14752 (0.55%) |     14752 (0.55%) |
+| 2022-03-24 | TPP             | 212645     |     2365 (1.11%) |      2365 (1.11%) |
+| 2022-03-24 | Vision          | 341667     |     1242 (0.36%) |      1242 (0.36%) |
+
+LINK: [https://github.com/rw251/.../medications/flupentixol/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/flupentixol/1)
+
+### Fluphenazine
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.03% - 0.05%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |     1397 (0.05%) |      1397 (0.05%) |
+| 2022-03-24 | TPP             | 212645     |       64 (0.03%) |        64 (0.03%) |
+| 2022-03-24 | Vision          | 341667     |      141 (0.04%) |       141 (0.04%) |
+
+LINK: [https://github.com/rw251/.../medications/fluphenazine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/fluphenazine/1)
+
+### Haloperidol
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.14% - 0.20%` suggests that this code set is well defined. Though the Vision practices are perhaps slighly on the low side, though this could be due to the small numbers.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |     5151 (0.19%) |      5151 (0.19%) |
+| 2022-03-24 | TPP             | 212645     |      422 (0.20%) |       422 (0.20%) |
+| 2022-03-24 | Vision          | 341667     |      478 (0.14%) |       478 (0.14%) |
+
+LINK: [https://github.com/rw251/.../medications/haloperidol/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/haloperidol/1)
+
+### Levomepromazine
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.07% - 0.13%` is possibly not sufficiently narrow to guarantee that this code set is well defined. However, EMIS and Vision are very close, so the elevated TPP figure is likely due to the small numbers.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |     1920 (0.07%) |      1920 (0.07%) |
+| 2022-03-24 | TPP             | 212645     |      269 (0.13%) |       269 (0.13%) |
+| 2022-03-24 | Vision          | 341667     |      314 (0.09%) |       314 (0.09%) |
+
+LINK: [https://github.com/rw251/.../medications/levomepromazine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/levomepromazine/1)
+
+### Loxapine
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.0006% - 0.0015%` suggests that this drug is not prescribed in UK primary care.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |     15 (0.0006%) |      15 (0.0006%) |
+| 2022-03-24 | TPP             | 212645     |      3 (0.0014%) |       3 (0.0014%) |
+| 2022-03-24 | Vision          | 341667     |      5 (0.0015%) |       5 (0.0015%) |
+
+LINK: [https://github.com/rw251/.../medications/loxapine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/loxapine/1)
+
+### Lurasidone
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.0014% - 0.0040%` is possibly not sufficiently narrow to guarantee that this code set is well defined. However this is likely due to the extremely small numbers, which also suggest that this is not used in UK primary care.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |    106 (0.0040%) |     106 (0.0040%) |
+| 2022-03-24 | TPP             | 212645     |      3 (0.0014%) |       3 (0.0014%) |
+| 2022-03-24 | Vision          | 341667     |     13 (0.0038%) |      13 (0.0038%) |
+
+LINK: [https://github.com/rw251/.../medications/lurasidone/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/lurasidone/1)
+
+### Olanzapine
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.55% - 0.58%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |    15515 (0.58%) |     15515 (0.58%) |
+| 2022-03-24 | TPP             | 212645     |     1175 (0.55%) |      1175 (0.55%) |
+| 2022-03-24 | Vision          | 341667     |     1899 (0.56%) |      1899 (0.56%) |
+
+LINK: [https://github.com/rw251/.../medications/olanzapine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/olanzapine/1)
+
+### Paliperidone
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.004% - 0.013%` is possibly not sufficiently narrow to guarantee that this code set is well defined. However this is likely due to the very small numbers, which also suggest that this is not used in UK general practice.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |     346 (0.013%) |      346 (0.013%) |
+| 2022-03-24 | TPP             | 212645     |      14 (0.007%) |       14 (0.007%) |
+| 2022-03-24 | Vision          | 341667     |      12 (0.004%) |       12 (0.004%) |
+
+LINK: [https://github.com/rw251/.../medications/paliperidone/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/paliperidone/1)
+
+### Perphenazine
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.03% - 0.09%` is possibly not sufficiently narrow to guarantee that this code set is well defined. However, this may be due to the small numbers involved.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |     2336 (0.09%) |      2336 (0.09%) |
+| 2022-03-24 | TPP             | 212645     |      113 (0.05%) |       113 (0.05%) |
+| 2022-03-24 | Vision          | 341667     |       99 (0.03%) |        99 (0.03%) |
+
+LINK: [https://github.com/rw251/.../medications/perphenazine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/perphenazine/1)
+
+### Pimozide
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.004% - 0.010%` is possibly not sufficiently narrow to guarantee that this code set is well defined. However this is likely due to the very small numbers, which also suggest that this is not used in UK general practice.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |     108 (0.004%) |      108 (0.004%) |
+| 2022-03-24 | TPP             | 212645     |      12 (0.006%) |       12 (0.006%) |
+| 2022-03-24 | Vision          | 341667     |      33 (0.010%) |       33 (0.010%) |
+
+LINK: [https://github.com/rw251/.../medications/pimozide/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/pimozide/1)
+
+### Quetiapine
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.66% - 0.78%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |    19994 (0.75%) |     19994 (0.75%) |
+| 2022-03-24 | TPP             | 212645     |     1669 (0.78%) |      1669 (0.78%) |
+| 2022-03-24 | Vision          | 341667     |     2271 (0.66%) |      2271 (0.66%) |
+
+LINK: [https://github.com/rw251/.../medications/quetiapine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/quetiapine/1)
+
+### Risperidone
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.34% - 0.44%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |    11761 (0.44%) |     11761 (0.44%) |
+| 2022-03-24 | TPP             | 212645     |      733 (0.34%) |       733 (0.34%) |
+| 2022-03-24 | Vision          | 341667     |     1477 (0.43%) |      1477 (0.43%) |
+
+LINK: [https://github.com/rw251/.../medications/risperidone/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/risperidone/1)
+
+### Sertindole
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.0002% - 0.0014%` is possibly not sufficiently narrow to guarantee that this code set is well defined. However this is likely due to the very small numbers, which also suggest that this is not used in UK general practice.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |     10 (0.0003%) |      10 (0.0003%) |
+| 2022-03-24 | TPP             | 212645     |      3 (0.0014%) |       3 (0.0014%) |
+| 2022-03-24 | Vision          | 341667     |      1 (0.0002%) |       1 (0.0002%) |
+
+LINK: [https://github.com/rw251/.../medications/sertindole/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/sertindole/1)
+
+### Sulpiride
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.04% - 0.06%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |     1278 (0.05%) |      1278 (0.05%) |
+| 2022-03-24 | TPP             | 212645     |      108 (0.05%) |       108 (0.05%) |
+| 2022-03-24 | Vision          | 341667     |      199 (0.06%) |       199 (0.06%) |
+
+LINK: [https://github.com/rw251/.../medications/sulpiride/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/sulpiride/1)
+
+### Thioridazine
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.10% - 0.24%` is possibly not sufficiently narrow to guarantee that this code set is well defined. There may be missing CTV3 codes for the TPP practices, and Readv2 for the Vision practices.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |     6437 (0.24%) |      6437 (0.24%) |
+| 2022-03-24 | TPP             | 212645     |      314 (0.15%) |       314 (0.15%) |
+| 2022-03-24 | Vision          | 341667     |      355 (0.10%) |       355 (0.10%) |
+
+LINK: [https://github.com/rw251/.../medications/thioridazine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/thioridazine/1)
+
+### Trifluoperazine
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.09% - 0.16%` is possibly not sufficiently narrow to guarantee that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |     4260 (0.16%) |      4260 (0.16%) |
+| 2022-03-24 | TPP             | 212645     |      189 (0.09%) |       189 (0.09%) |
+| 2022-03-24 | Vision          | 341667     |      361 (0.11%) |       361 (0.11%) |
+
+LINK: [https://github.com/rw251/.../medications/trifluoperazine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/trifluoperazine/1)
+
+### Zotepine
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.0007% - 0.0014%` is possibly not sufficiently narrow to guarantee that this code set is well defined. However this is likely due to the very small numbers, which also suggest that this is not used in UK general practice.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-14 | EMIS            | 2658708    |     18 (0.0007%) |      18 (0.0007%) |
+| 2022-03-14 | TPP             | 212645     |      3 (0.0014%) |       3 (0.0014%) |
+| 2022-03-14 | Vision          | 341667     |      2 (0.0006%) |       2 (0.00056) |
+
+LINK: [https://github.com/rw251/.../medications/zotepine/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/zotepine/1)
+
+### Zuclopenthixol
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.052% - 0.066%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-24 | EMIS            | 2658708    |    1759 (0.066%) |     1759 (0.066%) |
+| 2022-03-24 | TPP             | 212645     |     116 (0.055%) |      116 (0.055%) |
+| 2022-03-24 | Vision          | 341667     |     176 (0.052%) |      176 (0.052%) |
+
+LINK: [https://github.com/rw251/.../medications/zuclopenthixol/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/zuclopenthixol/1)
 
 ### Body Mass Index (BMI)
 
@@ -577,23 +911,37 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2021-10-13 | Vision          | 338205     |  269496 (79.68%) |   269496 (79.68%) |
 LINK: [https://github.com/rw251/.../patient/weight/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/weight/1)
 
-### Antipychotics
+### Systolic Blood pressure
 
-Code set for prescriptions of antipsychotic medication.
+Any indication that systolic blood pressure has been recorded for a patient. This code set only includes codes that are accompanied by a value (`2469. - O/E - Systolic BP reading`).
 
-Developed from https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/53/
+Blood pressure codes retrieved from [GetSet](https://getset.ga) and metadata available in this directory.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. 
-Here is a log for this code set. The prevalence range `3.10% - 3.78%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `64.46% - 67.00%` suggests that this code set is likely well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-07-20 | EMIS            | 2616446    |    81113 (3.10%) |     81141 (3.10%) |
-| 2021-07-20 | TPP             | 211414     |     6642 (3.14%) |      7995 (3.78%) |
-| 2021-07-20 | Vision          | 336776     |    10600 (3.15%) |     10600 (3.15%) |
+| 2021-10-13 | EMIS            | 26929848   | 1741342 (66.21%) |  1741342 (66.21%) |
+| 2021-10-13 | TPP             | 211812     |  137571 (64.95%) |   137571 (64.95%) |
+| 2021-10-13 | Vision          | 338205     |  208971 (61.79%) |   208971 (61.79%) |
+LINK: [https://github.com/rw251/.../tests/systolic-blood-pressure/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/systolic-blood-pressure/1)
 
-LINK: [https://github.com/rw251/.../medications/antipsychotics/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/antipsychotics/1)
+### Diastolic Blood pressure
+
+Any diastolic blood pressure measurements, with values, that have been recorded for a patient.
+
+Blood pressure codes retrieved from [GetSet](https://getset.ga) and metadata available in this directory.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `64.46% - 67.00%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1741082 (66.21%) |  1741077 (66.21%) |
+| 2021-10-13 | TPP             | 211812     |  137567 (64.95%) |   137567 (64.95%) |
+| 2021-10-13 | Vision          | 338205     |  208958 (61.79%) |   208958 (61.79%) |
+LINK: [https://github.com/rw251/.../tests/diastolic-blood-pressure/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/diastolic-blood-pressure/1)
 
 ### COVID-19 positive antigen test
 
@@ -766,128 +1114,6 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2021-07-14 | Vision          | 336528     |   43389 (12.89%) |   43389 ( 12.89%) |
 
 LINK: [https://github.com/rw251/.../conditions/hypertension/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/hypertension/1)
-
-### Metformin
-
-This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.75% - 5.19%` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-05-07 | EMIS            | 2605681    |   135082 (5.18%) |    135136 (5.19%) |
-| 2021-05-07 | TPP             | 210817     |    10016 (4.75%) |     10016 (4.75%) |
-| 2021-05-07 | Vision          | 334632     |    16809 (5.02%) |     16809 (5.02%) |
-
-LINK: [https://github.com/rw251/.../medications/metformin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/metformin/1)
-
-### GLP-1 receptor agonists
-
-Any prescription of a GLP-1 receptor agonist.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.45% - 0.46%` for EMIS and Vision suggests that this code set is well defined. The figure of `0.35%` for TPP is lower than expected, but TPP have the smallest patient population so a degree of variability is to be expected.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-08-26 | EMIS            | 2623304    |    11708 (0.45%) |     11708 (0.45%) |
-| 2021-08-26 | TPP             | 211610     |      751 (0.35%) |       751 (0.35%) |
-| 2021-08-26 | Vision          | 337028     |     1553 (0.46%) |      1553 (0.46%) |
-
-LINK: [https://github.com/rw251/.../medications/glp1-receptor-agonists/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/glp1-receptor-agonists/1)
-
-### Insulin
-
-Any code representing a prescription (or drug) of insulin.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.21% - 1.32%` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-08-26 | EMIS            | 2623304    |    34737 (1.32%) |     34737 (1.32%) |
-| 2021-08-26 | TPP             | 211610     |     2573 (1.22%) |      2573 (1.22%) |
-| 2021-08-26 | Vision          | 337028     |     4071 (1.21%) |      4071 (1.21%) |
-
-LINK: [https://github.com/rw251/.../medications/insulin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/insulin/1)
-
-### SGLT2 inhibitors (gliflozins)
-
-Any prescription of a SGLT2 inhibitor (gliflozin).
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `1.25% - 1.25%` for EMIS and Vision suggests that this code set is well defined. The figure of `0.90%` for TPP is lower than expected, but TPP have the smallest patient population so a degree of variability is to be expected.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-08-26 | EMIS            | 2623304    |    32817 (1.25%) |     32817 (1.25%) |
-| 2021-08-26 | TPP             | 211610     |     1899 (0.90%) |      1899 (0.90%) |
-| 2021-08-26 | Vision          | 337028     |     4211 (1.25%) |      4211 (1.25%) |
-
-LINK: [https://github.com/rw251/.../medications/sglt2-inhibitors/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/sglt2-inhibitors/1)
-
-### Sulphonylureas
-
-Any prescription of a sulphonylurea.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. Vision (`1.67%`) is perhaps a little on the low side, but the prevalence range `1.67% - 1.92%` suggests that this code set is likely well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-08-26 | EMIS            | 2623304    |    50292 (1.92%) |     50292 (1.92%) |
-| 2021-08-26 | TPP             | 211610     |     4022 (1.90%) |      4022 (1.90%) |
-| 2021-08-26 | Vision          | 337028     |     5641 (1.67%) |      5641 (1.67%) |
-
-LINK: [https://github.com/rw251/.../medications/sulphonylureas/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/sulphonylureas/1)
-
-### ACE Inhibitors
-
-This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.
-
-**_NB this code set is for ACE inhibitors AND angiotensin receptor blockers (ARBs). If you just want ACEIs please use v2._**
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `12.36% - 13.02%` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-05-07 | EMIS            | 2605681    |  321934 (12.36%) |   321952 (12.36%) |
-| 2021-05-07 | TPP             | 210817     |   27450 (13.02%) |    27450 (13.02%) |
-| 2021-05-07 | Vision          | 334632     |   41775 (12.48%) |    41775 (12.48%) |
-
-LINK: [https://github.com/rw251/.../medications/ace-inhibitor/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/ace-inhibitor/1)
-
-### Aspirin
-
-This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `8.45% - 8.76%` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-05-07 | EMIS            | 2605681    |   228074 (8.75%) |    228315 (8.76%) |
-| 2021-05-07 | TPP             | 210817     |    18418 (8.74%) |     18418 (8.74%) |
-| 2021-05-07 | Vision          | 334632     |    28276 (8.45%) |     28276 (8.45%) |
-
-LINK: [https://github.com/rw251/.../medications/aspirin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/aspirin/1)
-
-### Clopidogrel
-
-This code set was originally created for the SMASH safe medication dashboard and has been validated in practice.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `2.62% - 2.86%` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-05-07 | EMIS            | 2605681    |    72859 (2.80%) |     72859 (2.80%) |
-| 2021-05-07 | TPP             | 210817     |     5515 (2.62%) |      5515 (2.62%) |
-| 2021-05-07 | Vision          | 334632     |     9568 (2.86%) |      9568 (2.86%) |
-
-LINK: [https://github.com/rw251/.../medications/clopidogrel/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/clopidogrel/1)
 # Clinical code sets
 
 All code sets required for this analysis are listed here. Individual lists for each concept can also be found by using the links above.
@@ -2211,120 +2437,6 @@ All code sets required for this analysis are listed here. Individual lists for e
 |severe-mental-illness v1|snomed|35218008|Chronic disorganized schizophrenia with acute exacerbations (disorder)|
 |severe-mental-illness v1|snomed|79204003|Chronic undifferentiated schizophrenia with acute exacerbations (disorder)|
 |severe-mental-illness v1|snomed|191563001|Acute exacerbation of subchronic latent schizophrenia (disorder)|
-|bmi v2|ctv3|22K..|Body Mass Index|
-|bmi v2|readv2|22K..00|Body Mass Index|
-|bmi v2|snomed|301331008|Finding of body mass index (finding)|
-|hba1c v2|ctv3|XaERp|HbA1c level (DCCT aligned)|
-|hba1c v2|ctv3|XaPbt|HbA1c levl - IFCC standardised|
-|hba1c v2|ctv3|42W5.|Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised|
-|hba1c v2|ctv3|42W4.|HbA1c level (DCCT aligned)|
-|hba1c v2|readv2|42W5.00|Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised|
-|hba1c v2|readv2|42W4.00|HbA1c level (DCCT aligned)|
-|hba1c v2|snomed|1019431000000105|HbA1c level (Diabetes Control and Complications Trial aligned)|
-|hba1c v2|snomed|999791000000106|Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised|
-|cholesterol v2|ctv3|XSK14|Total cholesterol measurement|
-|cholesterol v2|ctv3|44PH.|Total cholesterol measurement|
-|cholesterol v2|ctv3|44PJ.|Serum total cholesterol level|
-|cholesterol v2|ctv3|44P..|Serum cholesterol|
-|cholesterol v2|ctv3|44PZ.|Serum cholesterol NOS|
-|cholesterol v2|ctv3|XE2eD|Serum cholesterol|
-|cholesterol v2|ctv3|XaJe9|Serum total cholesterol level|
-|cholesterol v2|readv2|44P..00|Serum cholesterol|
-|cholesterol v2|readv2|44PZ.00|Serum cholesterol NOS|
-|cholesterol v2|readv2|44PJ.00|Serum total cholesterol level|
-|cholesterol v2|readv2|44PH.00|Total cholesterol measurement|
-|cholesterol v2|snomed|1005671000000105|Serum cholesterol level|
-|cholesterol v2|snomed|412808005|Serum total cholesterol level|
-|cholesterol v2|snomed|121868005|Total cholesterol measurement (procedure)|
-|cholesterol v2|snomed|994351000000103|Serum total cholesterol level|
-|ldl-cholesterol v1|ctv3|44P6.|Serum LDL cholesterol level|
-|ldl-cholesterol v1|ctv3|XaIp4|Calculated LDL cholesterol lev|
-|ldl-cholesterol v1|ctv3|XaEVs|Plasma LDL cholesterol level|
-|ldl-cholesterol v1|readv2|44PI.00|Calculated LDL cholesterol level|
-|ldl-cholesterol v1|readv2|44P6.00|Serum LDL cholesterol level|
-|ldl-cholesterol v1|readv2|44dB.00|Plasma LDL cholesterol level|
-|ldl-cholesterol v1|snomed|1010591000000104|Plasma low density lipoprotein cholesterol level (observable entity)|
-|ldl-cholesterol v1|snomed|1014501000000104|Calculated low density lipoprotein cholesterol level (observable entity)|
-|ldl-cholesterol v1|snomed|1022191000000100|Serum low density lipoprotein cholesterol level (observable entity)|
-|hdl-cholesterol v1|ctv3|44P5.|Serum HDL cholesterol level|
-|hdl-cholesterol v1|ctv3|44PC.|Ser random HDL cholesterol lev|
-|hdl-cholesterol v1|ctv3|XaEVr|Plasma HDL cholesterol level|
-|hdl-cholesterol v1|readv2|44PC.00|Serum random HDL cholesterol level|
-|hdl-cholesterol v1|readv2|44P5.00|Serum HDL cholesterol level|
-|hdl-cholesterol v1|readv2|44dA.00|Plasma HDL cholesterol level|
-|hdl-cholesterol v1|snomed|1005681000000107|Serum high density lipoprotein cholesterol level (observable entity)|
-|hdl-cholesterol v1|snomed|1010581000000101|Plasma high density lipoprotein cholesterol level (observable entity)|
-|hdl-cholesterol v1|snomed|1026461000000104|Serum random high density lipoprotein cholesterol level (observable entity)|
-|vitamin-d v1|ctv3|44LA.|Serum vitamin D|
-|vitamin-d v1|ctv3|Xabo0|Serum total 25-OH vit D level|
-|vitamin-d v1|ctv3|XaY6m|Total 25-hydroxyvitamin D levl|
-|vitamin-d v1|ctv3|XE2e7|Serum vitamin D level|
-|vitamin-d v1|ctv3|XaXhN|Vitamin D level|
-|vitamin-d v1|ctv3|XaXhT|Combined total vit D2 + D3 lvl|
-|vitamin-d v1|ctv3|XaXm0|25-Hydroxyvitamin D level|
-|vitamin-d v1|readv2|4QB4.00|Vitamin D level|
-|vitamin-d v1|readv2|44LA.00|Serum vitamin D|
-|vitamin-d v1|readv2|4QB4.00|Vitamin D level|
-|vitamin-d v1|readv2|4QB4400|Combined total vitamin D2 and D3 level|
-|vitamin-d v1|readv2|4QB4500|25-Hydroxyvitamin D level|
-|vitamin-d v1|readv2|4QB4600|Total 25-hydroxyvitamin D level|
-|vitamin-d v1|readv2|4QB4700|Serum total 25-hydroxy vitamin D level|
-|vitamin-d v1|snomed|1007991000000105|Serum total 25-hydroxy vitamin D level (observable entity)|
-|vitamin-d v1|snomed|1029801000000105|Total 25-hydroxyvitamin D level (observable entity)|
-|vitamin-d v1|snomed|1031181000000107|Serum vitamin D level (observable entity)|
-|vitamin-d v1|snomed|12199005|Vitamin D, 25-hydroxy measurement (procedure)|
-|vitamin-d v1|snomed|270990000|Serum vitamin D measurement (procedure)|
-|vitamin-d v1|snomed|83729008|Vitamin D measurement (procedure)|
-|vitamin-d v1|snomed|996641000000102|Combined total vitamin D2 and D3 level (observable entity)|
-|testosterone v1|ctv3|XE2dr|Serum testosterone level|
-|testosterone v1|ctv3|4473.|Serum testosterone|
-|testosterone v1|ctv3|XaItQ|Plasma testosterone level|
-|testosterone v1|readv2|4473.00|Serum testosterone|
-|testosterone v1|readv2|447G.00|Plasma testosterone level|
-|testosterone v1|snomed|270973006|Serum testosterone measurement (procedure)|
-|testosterone v1|snomed|995571000000101|Plasma testosterone level (observable entity)|
-|testosterone v1|snomed|997161000000108|Serum testosterone level (observable entity)|
-|sex-hormone-binding-globulin v1|ctv3|44CD.|Serum sex hormone binding globulin level|
-|sex-hormone-binding-globulin v1|readv2|44CD.00|Serum sex hormone binding globulin level|
-|sex-hormone-binding-globulin v1|snomed|999661000000105|Serum sex hormone binding globulin level (observable entity)|
-|egfr v1|ctv3|X70kK|Tc99m-DTPA clearance - GFR|
-|egfr v1|ctv3|X70kL|Cr51- EDTA clearance - GFR|
-|egfr v1|ctv3|X90kf|With GFR|
-|egfr v1|ctv3|XaK8y|Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation|
-|egfr v1|ctv3|XaMDA|Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin|
-|egfr v1|ctv3|XaZpN|Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres|
-|egfr v1|ctv3|XacUJ|Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres|
-|egfr v1|ctv3|XacUK|Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres|
-|egfr v1|readv2|451E.00|Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation|
-|egfr v1|readv2|451G.00|Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin|
-|egfr v1|readv2|451K.00|Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres|
-|egfr v1|readv2|451M.00|Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres|
-|egfr v1|readv2|451N.00|Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres|
-|egfr v1|snomed|1011481000000105|eGFR (estimated glomerular filtration rate) using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres|
-|egfr v1|snomed|1011491000000107|eGFR (estimated glomerular filtration rate) using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres|
-|egfr v1|snomed|1020291000000106|GFR (glomerular filtration rate) calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation|
-|egfr v1|snomed|1107411000000104|eGFR (estimated glomerular filtration rate) by laboratory calculation|
-|egfr v1|snomed|241373003|Technetium-99m-diethylenetriamine pentaacetic acid clearance - glomerular filtration rate (procedure)|
-|egfr v1|snomed|262300005|With glomerular filtration rate|
-|egfr v1|snomed|737105002|GFR (glomerular filtration rate) calculation technique|
-|egfr v1|snomed|80274001|Glomerular filtration rate (observable entity)|
-|egfr v1|snomed|996231000000108|GFR (glomerular filtration rate) calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin|
-|weight v1|ctv3|22A..|O/E - weight|
-|weight v1|ctv3|22AZ.|O/E - weight NOS|
-|weight v1|readv2|22A..00|O/E - weight|
-|weight v1|readv2|22AZ.00|O/E - weight NOS|
-|weight v1|snomed|27113001|Body weight|
-|weight v1|snomed|139985004|O/E - weight|
-|weight v1|snomed|162763007|On examination - weight|
-|weight v1|snomed|248341004|General weight finding|
-|weight v1|snomed|248345008|Body weight|
-|weight v1|snomed|271604008|Weight finding|
-|weight v1|snomed|301333006|Finding of measures of body weight|
-|weight v1|snomed|363808001|Measured body weight|
-|weight v1|snomed|424927000|Body weight with shoes|
-|weight v1|snomed|425024002|Body weight without shoes|
-|weight v1|snomed|735395000|Current body weight|
-|weight v1|snomed|784399000|Self reported body weight|
 |antipsychotics v1|ctv3|d4v5.|ABILIFY 10mg oro-dispersible tablets|
 |antipsychotics v1|ctv3|d4v6.|ABILIFY 15mg oro-dispersible tablets|
 |antipsychotics v1|ctv3|d4v7.|ABILIFY 1mg/mL oral solution|
@@ -3683,6 +3795,1983 @@ All code sets required for this analysis are listed here. Individual lists for e
 |antipsychotics v1|readv2|dhd..|*PERPHENAZINE [NO DRUGS HERE]|
 |antipsychotics v1|readv2|dhi..|*TRIFLUOPERAZINE [NAUSEA]|
 |antipsychotics v1|readv2|ds1..|"*HALOPERIDOL [TICS, CHOREA]"|
+|amisulpride v1|ctv3|d4t..|Amisulpride|
+|amisulpride v1|ctv3|d4tz.|Amisulpride 400mg tablet|
+|amisulpride v1|ctv3|d4t5.|Solian 400mg tablet|
+|amisulpride v1|ctv3|d4ty.|Amisulpride 100mg/mL s/f oral solution|
+|amisulpride v1|ctv3|d4t6.|Solian 100mg/mL s/f oral solution|
+|amisulpride v1|ctv3|d4tx.|Amisulpride 100mg tablet|
+|amisulpride v1|ctv3|d4t7.|Solian 100mg tablet|
+|amisulpride v1|ctv3|d4t2.|Amisulpride 200mg tablet|
+|amisulpride v1|ctv3|d4t4.|Solian 200mg tablet|
+|amisulpride v1|ctv3|d4t1.|Amisulpride 50mg tablet|
+|amisulpride v1|ctv3|d4t3.|Solian 50mg tablet|
+|amisulpride v1|ctv3|x05Ku|Amisulpride - chemical|
+|amisulpride v1|ctv3|x03rg|Solian|
+|amisulpride v1|emis|AMOR11702NEMIS|Amisulpride  Oral solution  Sugar Free 100 mg/ml|
+|amisulpride v1|emis|AMTA14267NEMIS|Amisulpride  Tablets  100 mg|
+|amisulpride v1|emis|AMTA31585EMIS|Amisulpride  Tablets  200 mg|
+|amisulpride v1|emis|AMTA31586EMIS|Amisulpride  Tablets  50 mg|
+|amisulpride v1|emis|AMTA5672NEMIS|Amisulpride  Tablets  400 mg|
+|amisulpride v1|emis|SOOR11703NEMIS|Solian  Oral solution  100 mg/ml|
+|amisulpride v1|emis|SOTA14268NEMIS|Solian  Tablets  100 mg|
+|amisulpride v1|emis|SOTA31581EMIS|Solian  Tablets  200 mg|
+|amisulpride v1|emis|SOTA31582EMIS|Solian  Tablets  50 mg|
+|amisulpride v1|emis|SOTA5673NEMIS|Solian  Tablets  400 mg|
+|amisulpride v1|emis|AMOR11702NEMIS|Amisulpride  Oral solution  Sugar Free 100 mg/ml|
+|amisulpride v1|emis|AMTA14267NEMIS|Amisulpride  Tablets  100 mg|
+|amisulpride v1|emis|AMTA31585EMIS|Amisulpride  Tablets  200 mg|
+|amisulpride v1|emis|AMTA31586EMIS|Amisulpride  Tablets  50 mg|
+|amisulpride v1|emis|AMTA5672NEMIS|Amisulpride  Tablets  400 mg|
+|amisulpride v1|emis|SOOR11703NEMIS|Solian  Oral solution  100 mg/ml|
+|amisulpride v1|emis|SOTA14268NEMIS|Solian  Tablets  100 mg|
+|amisulpride v1|emis|SOTA31581EMIS|Solian  Tablets  200 mg|
+|amisulpride v1|emis|SOTA31582EMIS|Solian  Tablets  50 mg|
+|amisulpride v1|emis|SOTA5673NEMIS|Solian  Tablets  400 mg|
+|amisulpride v1|readv2|d4t..00|AMISULPRIDE|
+|amisulpride v1|readv2|d4tz.00|AMISULPRIDE 400mg tablets|
+|amisulpride v1|readv2|d4ty.00|AMISULPRIDE 100mg/mL sugar free oral solution|
+|amisulpride v1|readv2|d4tx.00|AMISULPRIDE 100mg tablets|
+|amisulpride v1|readv2|d4t2.00|AMISULPRIDE 200mg tablets|
+|amisulpride v1|readv2|d4t1.00|AMISULPRIDE 50mg tablets|
+|amisulpride v1|readv2|d4t7.00|SOLIAN 100mg tablets|
+|amisulpride v1|readv2|d4t6.00|SOLIAN 100mg/mL sugar free oral solution|
+|amisulpride v1|readv2|d4t5.00|SOLIAN 400mg tablets|
+|amisulpride v1|readv2|d4t4.00|SOLIAN 200mg tablets|
+|amisulpride v1|readv2|d4t3.00|SOLIAN 50mg tablets|
+|aripiprazole v1|ctv3|d4v..|Aripiprazole|
+|aripiprazole v1|ctv3|d4v9.|ABILIFY MAINTENA 400mg pdr+solv for suspension for injection|
+|aripiprazole v1|ctv3|d4v8.|ABILIFY 9.75mg/1.3mL solution for injection|
+|aripiprazole v1|ctv3|d4vz.|Aripiprazole 10mg tablet|
+|aripiprazole v1|ctv3|d4v1.|Abilify 10mg tablet|
+|aripiprazole v1|ctv3|d4vy.|Aripiprazole 15mg tablet|
+|aripiprazole v1|ctv3|d4v2.|Abilify 15mg tablet|
+|aripiprazole v1|ctv3|d4vx.|Aripiprazole 30mg tablet|
+|aripiprazole v1|ctv3|d4v3.|Abilify 30mg tablet|
+|aripiprazole v1|ctv3|d4vw.|Aripiprazole 5mg tablet|
+|aripiprazole v1|ctv3|d4v4.|Abilify 5mg tablet|
+|aripiprazole v1|ctv3|d4vv.|ARIPIPRAZOLE 15mg oro-dispersible tablets|
+|aripiprazole v1|ctv3|d4v6.|ABILIFY 15mg oro-dispersible tablets|
+|aripiprazole v1|ctv3|d4vu.|ARIPIPRAZOLE 10mg oro-dispersible tablets|
+|aripiprazole v1|ctv3|d4v5.|ABILIFY 10mg oro-dispersible tablets|
+|aripiprazole v1|ctv3|d4vt.|ARIPIPRAZOLE 1mg/mL oral solution|
+|aripiprazole v1|ctv3|d4v7.|ABILIFY 1mg/mL oral solution|
+|aripiprazole v1|ctv3|d4vs.|ARIPIPRAZOLE 9.75mg/1.3mL solution for injection|
+|aripiprazole v1|ctv3|d4vr.|ARIPIPRAZOLE 400mg pdr+solvent for suspension for injection|
+|aripiprazole v1|ctv3|x05te|Abilify|
+|aripiprazole v1|emis|ABOR22952NEMIS|Abilify  Orodispersible tablets  10 mg|
+|aripiprazole v1|emis|ABOR22954NEMIS|Abilify  Oral solution  1 mg/ml|
+|aripiprazole v1|emis|ABPO86920NEMIS|Abilify Maintena  Prolonged release suspension for injection  400 mg vial|
+|aripiprazole v1|emis|ABSO29381NEMIS|Abilify  Solution for injection  7.5 mg/ml, 1.3 ml (9.75 mg) vial|
+|aripiprazole v1|emis|ABTA18231NEMIS|Abilify  Tablets  10 mg|
+|aripiprazole v1|emis|ABTA18232NEMIS|Abilify  Tablets  15 mg|
+|aripiprazole v1|emis|ABTA18233NEMIS|Abilify  Tablets  30 mg|
+|aripiprazole v1|emis|ABTA19380NEMIS|Abilify  Tablets  5 mg|
+|aripiprazole v1|emis|AROR22949NEMIS|Aripiprazole  Orodispersible Tablets (Sugar Free)  10 mg|
+|aripiprazole v1|emis|AROR22950NEMIS|Aripiprazole  Orodispersible Tablets (Sugar Free)  15 mg|
+|aripiprazole v1|emis|AROR22951NEMIS|Aripiprazole  Oral solution  1 mg/ml|
+|aripiprazole v1|emis|ARPO86916NEMIS|Aripiprazole  Powder and solvent for suspension for injection  400 mg vial|
+|aripiprazole v1|emis|ARSO29380NEMIS|Aripiprazole  Solution for injection  7.5 mg/ml, 1.3 ml (9.75 mg) vial|
+|aripiprazole v1|emis|ARTA18226NEMIS|Aripiprazole  Tablets  10 mg|
+|aripiprazole v1|emis|ARTA18228NEMIS|Aripiprazole  Tablets  15 mg|
+|aripiprazole v1|emis|ARTA18229NEMIS|Aripiprazole  Tablets  30 mg|
+|aripiprazole v1|emis|ARTA19379NEMIS|Aripiprazole  Tablets  5 mg|
+|aripiprazole v1|emis|ABOR22952NEMIS|Abilify  Orodispersible tablets  10 mg|
+|aripiprazole v1|emis|ABOR22954NEMIS|Abilify  Oral solution  1 mg/ml|
+|aripiprazole v1|emis|ABPO86920NEMIS|Abilify Maintena  Prolonged release suspension for injection  400 mg vial|
+|aripiprazole v1|emis|ABSO29381NEMIS|Abilify  Solution for injection  7.5 mg/ml, 1.3 ml (9.75 mg) vial|
+|aripiprazole v1|emis|ABTA18231NEMIS|Abilify  Tablets  10 mg|
+|aripiprazole v1|emis|ABTA18232NEMIS|Abilify  Tablets  15 mg|
+|aripiprazole v1|emis|ABTA18233NEMIS|Abilify  Tablets  30 mg|
+|aripiprazole v1|emis|ABTA19380NEMIS|Abilify  Tablets  5 mg|
+|aripiprazole v1|emis|AROR22949NEMIS|Aripiprazole  Orodispersible Tablets (Sugar Free)  10 mg|
+|aripiprazole v1|emis|AROR22950NEMIS|Aripiprazole  Orodispersible Tablets (Sugar Free)  15 mg|
+|aripiprazole v1|emis|AROR22951NEMIS|Aripiprazole  Oral solution  1 mg/ml|
+|aripiprazole v1|emis|ARPO86916NEMIS|Aripiprazole  Powder and solvent for suspension for injection  400 mg vial|
+|aripiprazole v1|emis|ARSO29380NEMIS|Aripiprazole  Solution for injection  7.5 mg/ml, 1.3 ml (9.75 mg) vial|
+|aripiprazole v1|emis|ARTA18226NEMIS|Aripiprazole  Tablets  10 mg|
+|aripiprazole v1|emis|ARTA18228NEMIS|Aripiprazole  Tablets  15 mg|
+|aripiprazole v1|emis|ARTA18229NEMIS|Aripiprazole  Tablets  30 mg|
+|aripiprazole v1|emis|ARTA19379NEMIS|Aripiprazole  Tablets  5 mg|
+|aripiprazole v1|readv2|d4v..00|ARIPIPRAZOLE|
+|aripiprazole v1|readv2|d4vz.00|ARIPIPRAZOLE 10mg tablets|
+|aripiprazole v1|readv2|d4vy.00|ARIPIPRAZOLE 15mg tablets|
+|aripiprazole v1|readv2|d4vx.00|ARIPIPRAZOLE 30mg tablets|
+|aripiprazole v1|readv2|d4vw.00|ARIPIPRAZOLE 5mg tablets|
+|aripiprazole v1|readv2|d4vv.00|ARIPIPRAZOLE 15mg oro-dispersible tablets|
+|aripiprazole v1|readv2|d4vu.00|ARIPIPRAZOLE 10mg oro-dispersible tablets|
+|aripiprazole v1|readv2|d4vt.00|ARIPIPRAZOLE 1mg/mL oral solution|
+|aripiprazole v1|readv2|d4vs.00|ARIPIPRAZOLE 9.75mg/1.3mL solution for injection|
+|aripiprazole v1|readv2|d4vr.00|ARIPIPRAZOLE 400mg pdr+solvent for suspension for injection|
+|aripiprazole v1|readv2|d4v9.00|ABILIFY MAINTENA 400mg pdr+solv for suspension for injection|
+|aripiprazole v1|readv2|d4v8.00|ABILIFY 9.75mg/1.3mL solution for injection|
+|aripiprazole v1|readv2|d4v7.00|ABILIFY 1mg/mL oral solution|
+|aripiprazole v1|readv2|d4v6.00|ABILIFY 15mg oro-dispersible tablets|
+|aripiprazole v1|readv2|d4v5.00|ABILIFY 10mg oro-dispersible tablets|
+|aripiprazole v1|readv2|d4v4.00|ABILIFY 5mg tablets|
+|aripiprazole v1|readv2|d4v3.00|ABILIFY 30mg tablets|
+|aripiprazole v1|readv2|d4v2.00|ABILIFY 15mg tablets|
+|aripiprazole v1|readv2|d4v1.00|ABILIFY 10mg tablets|
+|asenapine v1|ctv3|d4x..|ASENAPINE|
+|asenapine v1|ctv3|d4x3.|SYCREST 10mg sublingual tablets|
+|asenapine v1|ctv3|d4x1.|SYCREST 5mg sublingual tablets|
+|asenapine v1|ctv3|d4x4.|ASENAPINE 10mg sublingual tablets|
+|asenapine v1|ctv3|d4x2.|ASENAPINE 5mg sublingual tablets|
+|asenapine v1|emis|ASSU51779NEMIS|Asenapine  Sublingual Tablets Sugar Free  5 mg|
+|asenapine v1|emis|ASSU51781NEMIS|Asenapine  Sublingual Tablets Sugar Free  10 mg|
+|asenapine v1|emis|ASSU51779NEMIS|Asenapine  Sublingual Tablets Sugar Free  5 mg|
+|asenapine v1|emis|ASSU51781NEMIS|Asenapine  Sublingual Tablets Sugar Free  10 mg|
+|asenapine v1|readv2|d4x..00|ASENAPINE|
+|asenapine v1|readv2|d4x4.00|ASENAPINE 10mg sublingual tablets|
+|asenapine v1|readv2|d4x2.00|ASENAPINE 5mg sublingual tablets|
+|asenapine v1|readv2|d4x3.00|SYCREST 10mg sublingual tablets|
+|asenapine v1|readv2|d4x1.00|SYCREST 5mg sublingual tablets|
+|chlorpromazine v1|ctv3|x01BS|Rectal chlorpromazine|
+|chlorpromazine v1|ctv3|x00eB|Chlorpromazine 300mg suppository|
+|chlorpromazine v1|ctv3|x00eA|Chlorpromazine 50mg suppository|
+|chlorpromazine v1|ctv3|x00e9|Chlorpromazine 25mg suppository|
+|chlorpromazine v1|ctv3|d41k.|Chlorpromazine 100mg suppository|
+|chlorpromazine v1|ctv3|d41i.|Largactil 100mg suppository|
+|chlorpromazine v1|ctv3|x01BR|Parenteral chlorpromazine|
+|chlorpromazine v1|ctv3|d41m.|Chlorpromazine hydrochloride 50mg/2mL injection|
+|chlorpromazine v1|ctv3|x02LO|Largactil 50mg/2mL injection|
+|chlorpromazine v1|ctv3|o522.|Largactil 50mg injection|
+|chlorpromazine v1|ctv3|d41h.|Largactil [CNS] 50mg/2ml injection|
+|chlorpromazine v1|ctv3|d41l.|Chlorpromazine hydrochloride 25mg/1mL injection|
+|chlorpromazine v1|ctv3|d41g.|Largactil 25mg/1mL injection|
+|chlorpromazine v1|ctv3|x01BQ|Oral chlorpromazine|
+|chlorpromazine v1|ctv3|d41o.|Chlorpromazine hydrochloride 100mg/5mL syrup|
+|chlorpromazine v1|ctv3|d41n.|Chlorpromazine hydrochloride 50mg/5mL syrup|
+|chlorpromazine v1|ctv3|d41j.|Chlorpromazine hydrochloride 100mg/5mL s/f suspension|
+|chlorpromazine v1|ctv3|d41f.|Largactil Forte 100mg/5mL suspension|
+|chlorpromazine v1|ctv3|d41B.|Chlorpromazine hydrochloride 100mg/5mL s/f oral solution|
+|chlorpromazine v1|ctv3|d41A.|Chlorpromazine hydrochloride 25mg/5mL s/f oral solution|
+|chlorpromazine v1|ctv3|d415.|Chlorpromazine hydrochloride 25mg/5mL syrup|
+|chlorpromazine v1|ctv3|d41e.|Largactil 25mg/5mL syrup|
+|chlorpromazine v1|ctv3|d419.|Dozine 25mg/5mL syrup|
+|chlorpromazine v1|ctv3|d414.|Chlorpromazine hydrochloride 100mg tablet|
+|chlorpromazine v1|ctv3|d41d.|Largactil 100mg tablet|
+|chlorpromazine v1|ctv3|d418.|Chloractil 100mg tablet|
+|chlorpromazine v1|ctv3|d413.|Chlorpromazine hydrochloride 50mg tablet|
+|chlorpromazine v1|ctv3|d41c.|Largactil 50mg tablet|
+|chlorpromazine v1|ctv3|d417.|Chloractil 50mg tablet|
+|chlorpromazine v1|ctv3|d412.|Chlorpromazine hydrochloride 25mg tablet|
+|chlorpromazine v1|ctv3|d41b.|Largactil 25mg tablet|
+|chlorpromazine v1|ctv3|d416.|Chloractil 25mg tablet|
+|chlorpromazine v1|ctv3|d411.|Chlorpromazine hydrochloride 10mg tablet|
+|chlorpromazine v1|ctv3|d41a.|Largactil 10mg tablet|
+|chlorpromazine v1|ctv3|d41..|Chlorpromazine hydrochloride|
+|chlorpromazine v1|ctv3|x02h3|Largactil Forte|
+|chlorpromazine v1|ctv3|x02h2|Largactil|
+|chlorpromazine v1|ctv3|x02XC|Chloractil|
+|chlorpromazine v1|emis|CHTA598|Chlorpromazine Hydrochloride  Tablets  25 mg|
+|chlorpromazine v1|emis|CHTA599|Chlorpromazine Hydrochloride  Tablets  50 mg|
+|chlorpromazine v1|emis|LAIN1610|Largactil  Injection  50 mg/2 ml ampoule|
+|chlorpromazine v1|emis|CHOR35370EMIS|Chlorpromazine Hydrochloride  Oral solution  100 mg/5 ml|
+|chlorpromazine v1|emis|CHTA598|Chlorpromazine Hydrochloride  Tablets  25 mg|
+|chlorpromazine v1|emis|LASU1615|Largactil  Suspension forte  100 mg/5 ml|
+|chlorpromazine v1|emis|CHEL7170|Chlorpromazine Hydrochloride  Oral solution  25 mg/5 ml|
+|chlorpromazine v1|emis|LATA1618|Largactil  Tablets  10 mg|
+|chlorpromazine v1|emis|CHEL7170|Chlorpromazine Hydrochloride  Oral solution  25 mg/5 ml|
+|chlorpromazine v1|emis|LATA1618|Largactil  Tablets  10 mg|
+|chlorpromazine v1|emis|LATA1620|Largactil  Tablets  25 mg|
+|chlorpromazine v1|emis|LASY1616|Largactil  Syrup  25 mg/5 ml|
+|chlorpromazine v1|emis|LATA1621|Largactil  Tablets  50 mg|
+|chlorpromazine v1|emis|CHTA597|Chlorpromazine Hydrochloride  Tablets  100 mg|
+|chlorpromazine v1|emis|CHSU592|Chlorpromazine Hydrochloride  Suppositories  100 mg|
+|chlorpromazine v1|emis|LAIN1610|Largactil  Injection  50 mg/2 ml ampoule|
+|chlorpromazine v1|emis|LASU1615|Largactil  Suspension forte  100 mg/5 ml|
+|chlorpromazine v1|emis|LATA1619|Largactil  Tablets  100 mg|
+|chlorpromazine v1|emis|CHOR35370EMIS|Chlorpromazine Hydrochloride  Oral solution  100 mg/5 ml|
+|chlorpromazine v1|emis|LATA1619|Largactil  Tablets  100 mg|
+|chlorpromazine v1|emis|CHIN20615EMIS|Chlorpromazine Hydrochloride  Injection  50 mg/2 ml ampoule|
+|chlorpromazine v1|emis|CHSY594|Chlorpromazine Hydrochloride  Syrup  25 mg/5 ml|
+|chlorpromazine v1|emis|CHTA597|Chlorpromazine Hydrochloride  Tablets  100 mg|
+|chlorpromazine v1|emis|CHTA599|Chlorpromazine Hydrochloride  Tablets  50 mg|
+|chlorpromazine v1|emis|LATA1620|Largactil  Tablets  25 mg|
+|chlorpromazine v1|emis|CHIN20615EMIS|Chlorpromazine Hydrochloride  Injection  50 mg/2 ml ampoule|
+|chlorpromazine v1|emis|LATA1621|Largactil  Tablets  50 mg|
+|chlorpromazine v1|emis|CHIN589|Chlorpromazine Hydrochloride  Injection  25 mg/ml|
+|chlorpromazine v1|emis|CHTAEGTON6694|Chloractil  Tablets  50 mg|
+|chlorpromazine v1|emis|CHTA596|Chlorpromazine Hydrochloride  Tablets  10 mg|
+|chlorpromazine v1|emis|LASY1616|Largactil  Syrup  25 mg/5 ml|
+|chlorpromazine v1|emis|CHTA596|Chlorpromazine Hydrochloride  Tablets  10 mg|
+|chlorpromazine v1|readv2|d41..00|CHLORPROMAZINE HYDROCHLORIDE|
+|chlorpromazine v1|readv2|d41o.00|CHLORPROMAZINE 100mg/5mL syrup|
+|chlorpromazine v1|readv2|d41m.00|CHLORPROMAZINE 50mg/2mL injection|
+|chlorpromazine v1|readv2|d41l.00|CHLORPROMAZINE 25mg/1mL injection|
+|chlorpromazine v1|readv2|d41k.00|CHLORPROMAZINE 100mg suppositories|
+|chlorpromazine v1|readv2|d41j.00|CHLORPROMAZINE 100mg/5mL sugar free suspension|
+|chlorpromazine v1|readv2|d41B.00|CHLORPROMAZINE 100mg/5mL sugar free solution|
+|chlorpromazine v1|readv2|d41A.00|CHLORPROMAZINE 25mg/5mL sugar free solution|
+|chlorpromazine v1|readv2|d415.00|CHLORPROMAZINE 25mg/5mL syrup|
+|chlorpromazine v1|readv2|d414.00|CHLORPROMAZINE 100mg tablets|
+|chlorpromazine v1|readv2|d413.00|CHLORPROMAZINE 50mg tablets|
+|chlorpromazine v1|readv2|d412.00|CHLORPROMAZINE 25mg tablets|
+|chlorpromazine v1|readv2|d411.00|CHLORPROMAZINE 10mg tablets|
+|chlorpromazine v1|readv2|d41i.00|*LARGACTIL 100mg suppositories|
+|chlorpromazine v1|readv2|d41h.00|LARGACTIL [CNS] 50mg/2mL injection|
+|chlorpromazine v1|readv2|d41g.00|*LARGACTIL 25mg/mL injection|
+|chlorpromazine v1|readv2|d41f.00|LARGACTIL FORTE 100mg/5mL syrup|
+|chlorpromazine v1|readv2|d41e.00|*LARGACTIL 25mg/5mL syrup|
+|chlorpromazine v1|readv2|d41d.00|*LARGACTIL 100mg tablets|
+|chlorpromazine v1|readv2|d41c.00|*LARGACTIL 50mg tablets|
+|chlorpromazine v1|readv2|d41b.00|*LARGACTIL 25mg tablets|
+|chlorpromazine v1|readv2|d41a.00|*LARGACTIL 10mg tablets|
+|chlorpromazine v1|readv2|d419.00|*DOZINE 25mg/5mL syrup|
+|chlorpromazine v1|readv2|d418.00|CHLORACTIL 100mg tablets|
+|chlorpromazine v1|readv2|d417.00|CHLORACTIL 50mg tablets|
+|chlorpromazine v1|readv2|d416.00|CHLORACTIL 25mg tablets|
+|chlorpromazine v1|readv2|o52z.00|CHLORPROMAZINE 50mg/2mL injection|
+|chlorpromazine v1|readv2|o52y.00|CHLORPROMAZINE 25mg/1mL injection|
+|chlorpromazine v1|readv2|o522.00|LARGACTIL 50mg injection|
+|chlorpromazine v1|readv2|o521.00|*LARGACTIL 25mg/1mL injection|
+|clozapine v1|ctv3|d4l..|Clozapine|
+|clozapine v1|ctv3|d4lF.|DENZAPINE 200mg tablets|
+|clozapine v1|ctv3|d4lD.|DENZAPINE 50mg tablets|
+|clozapine v1|ctv3|d4lB.|DENZAPINE 50mg/mL oral suspension 100mL|
+|clozapine v1|ctv3|d4lG.|CLOZAPINE 200mg tablets|
+|clozapine v1|ctv3|d4lE.|CLOZAPINE 50mg tablets|
+|clozapine v1|ctv3|d4lC.|CLOZAPINE 50mg/mL oral suspension|
+|clozapine v1|ctv3|d4l2.|Clozapine 100mg tablet|
+|clozapine v1|ctv3|x00f7|Clozaril 100mg tablet|
+|clozapine v1|ctv3|d4l6.|Clozaril community pack 100mg tablets x28CP|
+|clozapine v1|ctv3|d4l4.|Clozaril 100mg tablets x84CP|
+|clozapine v1|ctv3|d4lA.|Zaponex 100mg tablet|
+|clozapine v1|ctv3|d4l8.|Denzapine 100mg tablet|
+|clozapine v1|ctv3|d4l1.|Clozapine 25mg tablet|
+|clozapine v1|ctv3|x00f6|Clozaril 25mg tablet|
+|clozapine v1|ctv3|d4l5.|Clozaril community pack 25mg tablets x28CP|
+|clozapine v1|ctv3|d4l3.|Clozaril 25mg tablets x84CP|
+|clozapine v1|ctv3|d4l9.|Zaponex 25mg tablet|
+|clozapine v1|ctv3|d4l7.|Denzapine 25mg tablet|
+|clozapine v1|ctv3|x05up|Denzapine|
+|clozapine v1|ctv3|x05w0|Zaponex|
+|clozapine v1|ctv3|x03wV|Clozaril|
+|clozapine v1|emis|CLOR36513NEMIS|Clozapine  Oral Suspension Sugar Free  50 mg/ml|
+|clozapine v1|emis|CLTA10156BRIDL|Clozaril  Tablets  25 mg|
+|clozapine v1|emis|CLTA10158BRIDL|Clozaril  Tablets  100 mg|
+|clozapine v1|emis|CLTA36517NEMIS|Clozapine  Tablets  200 mg|
+|clozapine v1|emis|CLTA36518NEMIS|Clozapine  Tablets  50 mg|
+|clozapine v1|emis|CLTA9311HILLI|Clozapine  Tablets  100 mg|
+|clozapine v1|emis|CLTA9313HILLI|Clozapine  Tablets  25 mg|
+|clozapine v1|emis|DEOR36514NEMIS|Denzapine  Oral suspension  50 mg/ml|
+|clozapine v1|emis|DETA18502NEMIS|Denzapine  Tablets  25 mg|
+|clozapine v1|emis|DETA18503NEMIS|Denzapine  Tablets  100 mg|
+|clozapine v1|emis|DETA36519NEMIS|Denzapine  Tablets  200 mg|
+|clozapine v1|emis|DETA36520NEMIS|Denzapine  Tablets  50 mg|
+|clozapine v1|emis|ZATA19394NEMIS|Zaponex  Tablets  25 mg|
+|clozapine v1|emis|ZATA19395NEMIS|Zaponex  Tablets  100 mg|
+|clozapine v1|emis|CLOR36513NEMIS|Clozapine  Oral Suspension Sugar Free  50 mg/ml|
+|clozapine v1|emis|CLTA10156BRIDL|Clozaril  Tablets  25 mg|
+|clozapine v1|emis|CLTA10158BRIDL|Clozaril  Tablets  100 mg|
+|clozapine v1|emis|CLTA36517NEMIS|Clozapine  Tablets  200 mg|
+|clozapine v1|emis|CLTA36518NEMIS|Clozapine  Tablets  50 mg|
+|clozapine v1|emis|CLTA9311HILLI|Clozapine  Tablets  100 mg|
+|clozapine v1|emis|CLTA9313HILLI|Clozapine  Tablets  25 mg|
+|clozapine v1|emis|DEOR36514NEMIS|Denzapine  Oral suspension  50 mg/ml|
+|clozapine v1|emis|DETA18502NEMIS|Denzapine  Tablets  25 mg|
+|clozapine v1|emis|DETA18503NEMIS|Denzapine  Tablets  100 mg|
+|clozapine v1|emis|DETA36519NEMIS|Denzapine  Tablets  200 mg|
+|clozapine v1|emis|DETA36520NEMIS|Denzapine  Tablets  50 mg|
+|clozapine v1|emis|ZATA19394NEMIS|Zaponex  Tablets  25 mg|
+|clozapine v1|emis|ZATA19395NEMIS|Zaponex  Tablets  100 mg|
+|clozapine v1|readv2|d4l..00|CLOZAPINE|
+|clozapine v1|readv2|d4lG.00|CLOZAPINE 200mg tablets|
+|clozapine v1|readv2|d4lE.00|CLOZAPINE 50mg tablets|
+|clozapine v1|readv2|d4lC.00|CLOZAPINE 50mg/mL oral suspension|
+|clozapine v1|readv2|d4l2.00|CLOZAPINE 100mg tablets|
+|clozapine v1|readv2|d4l1.00|CLOZAPINE 25mg tablets|
+|clozapine v1|readv2|d4lF.00|DENZAPINE 200mg tablets|
+|clozapine v1|readv2|d4lD.00|DENZAPINE 50mg tablets|
+|clozapine v1|readv2|d4lB.00|DENZAPINE 50mg/mL oral suspension 100mL|
+|clozapine v1|readv2|d4lA.00|ZAPONEX 100mg tablets|
+|clozapine v1|readv2|d4l9.00|ZAPONEX 25mg tablets|
+|clozapine v1|readv2|d4l8.00|DENZAPINE 100mg tablets|
+|clozapine v1|readv2|d4l7.00|DENZAPINE 25mg tablets|
+|clozapine v1|readv2|d4l6.00|CLOZARIL COMMUNITY PACK 100mg tablets x28CP|
+|clozapine v1|readv2|d4l5.00|CLOZARIL COMMUNITY PACK 25mg tablets x28CP|
+|clozapine v1|readv2|d4l4.00|CLOZARIL 100mg tablets x84CP|
+|clozapine v1|readv2|d4l3.00|CLOZARIL 25mg tablets x84CP|
+|flupentixol v1|ctv3|x02LQ|Flupentixol|
+|flupentixol v1|ctv3|d45..|Flupenthixol [antipsychotic]|
+|flupentixol v1|ctv3|da1z.|Flupentixol 1mg tablet|
+|flupentixol v1|ctv3|da12.|Fluanxol 1mg tablet|
+|flupentixol v1|ctv3|da1y.|Flupentixol 500micrograms tablet|
+|flupentixol v1|ctv3|da11.|Fluanxol 500micrograms tablet|
+|flupentixol v1|ctv3|da1..|Flupentixol [antidepressant]|
+|flupentixol v1|ctv3|d45z.|Flupentixol 3mg tablet|
+|flupentixol v1|ctv3|d451.|Depixol 3mg tablet|
+|flupentixol v1|ctv3|d51..|Flupentixol decanoate|
+|flupentixol v1|ctv3|d51z.|Flupenthixol decanoate 500mg/5mL oily injection|
+|flupentixol v1|ctv3|d517.|Depixol Conc 500mg/5mL oily injection|
+|flupentixol v1|ctv3|d51x.|Flupenthixol decanoate 200mg/10mL oily injection|
+|flupentixol v1|ctv3|d515.|Depixol 200mg/10mL oily injection|
+|flupentixol v1|ctv3|d51t.|Flupenthixol decanoate 40mg/2mL prefilled syringe|
+|flupentixol v1|ctv3|d514.|Depixol 40mg/2mL prefilled syringe|
+|flupentixol v1|ctv3|d51s.|Flupenthixol decanoate 20mg/1mL prefilled syringe|
+|flupentixol v1|ctv3|d512.|Depixol 20mg/1mL prefilled syringe|
+|flupentixol v1|ctv3|d51y.|Flupentixol decanoate 100mg/1mL oily injection|
+|flupentixol v1|ctv3|d516.|Depixol Conc 100mg/1mL oily injection|
+|flupentixol v1|ctv3|d51w.|Flupentixol decanoate 40mg/2mL oily injection|
+|flupentixol v1|ctv3|d513.|Depixol 40mg/2mL oily injection|
+|flupentixol v1|ctv3|d51v.|Flupentixol decanoate 20mg/1mL oily injection|
+|flupentixol v1|ctv3|d511.|Depixol 20mg/1mL oily injection|
+|flupentixol v1|ctv3|d51u.|Flupentixol decanoate 200mg/1mL oily injection|
+|flupentixol v1|ctv3|d51a.|Depixol Low Volume 200mg/1mL oily injection|
+|flupentixol v1|ctv3|d519.|Flupentixol decanoate 50mg/0.5mL oily injection|
+|flupentixol v1|ctv3|d518.|Depixol Conc 50mg/0.5mL oily injection|
+|flupentixol v1|ctv3|x02Z4|Depixol Low Volume|
+|flupentixol v1|ctv3|x02Z3|Depixol Conc|
+|flupentixol v1|ctv3|x02Z2|Depixol|
+|flupentixol v1|ctv3|x02cz|Fluanxol|
+|flupentixol v1|emis|FLTA1194|Fluanxol  Tablets  500 micrograms|
+|flupentixol v1|emis|DEIN19590EMIS|Depixol Conc.  Injection  50 mg/0.5 ml ampoule|
+|flupentixol v1|emis|DEIN832|Depixol  Injection  20 mg/1 ml ampoule|
+|flupentixol v1|emis|FLIN17656NEMIS|Flupentixol  Injection  100 mg/ml, 0.5 ml ampoule|
+|flupentixol v1|emis|FLIN17659NEMIS|Flupentixol  Injection  20 mg/ml, 1 ml ampoule|
+|flupentixol v1|emis|FLTA1193|Fluanxol  Tablets  1 mg|
+|flupentixol v1|emis|FLIN17656NEMIS|Flupentixol  Injection  100 mg/ml, 0.5 ml ampoule|
+|flupentixol v1|emis|DEIN19569EMIS|Depixol Low Volume  Injection  200 mg/ml, 1 ml ampoule|
+|flupentixol v1|emis|DEIN19578EMIS|Depixol  Injection (syringe)  20 mg/1 ml|
+|flupentixol v1|emis|FLTA17662NEMIS|Flupentixol  Tablets  500 micrograms|
+|flupentixol v1|emis|DEIN19569EMIS|Depixol Low Volume  Injection  200 mg/ml, 1 ml ampoule|
+|flupentixol v1|emis|FLIN17657NEMIS|Flupentixol  Injection  100 mg/ml, 1 ml ampoule|
+|flupentixol v1|emis|FLTA1208|Flupenthixol  Tablets  1 mg|
+|flupentixol v1|emis|FLTA1194|Fluanxol  Tablets  500 micrograms|
+|flupentixol v1|emis|FLTA17661NEMIS|Flupentixol  Tablets  1 mg|
+|flupentixol v1|emis|FLIN17658NEMIS|Flupentixol  Injection  200 mg/ml, 1 ml ampoule|
+|flupentixol v1|emis|FLIN17660NEMIS|Flupentixol  Injection  20 mg/ml, 2 ml ampoule|
+|flupentixol v1|emis|FLIN17660NEMIS|Flupentixol  Injection  20 mg/ml, 2 ml ampoule|
+|flupentixol v1|emis|DETA833|Depixol  Tablets  3 mg|
+|flupentixol v1|emis|DEIN19590EMIS|Depixol Conc.  Injection  50 mg/0.5 ml ampoule|
+|flupentixol v1|emis|DEIN832|Depixol  Injection  20 mg/1 ml ampoule|
+|flupentixol v1|emis|FLIN17659NEMIS|Flupentixol  Injection  20 mg/ml, 1 ml ampoule|
+|flupentixol v1|emis|FLTA17662NEMIS|Flupentixol  Tablets  500 micrograms|
+|flupentixol v1|emis|FLTA17663NEMIS|Flupentixol  Tablets  3 mg|
+|flupentixol v1|emis|DEIN19579EMIS|Depixol  Injection (syringe)  40 mg/2 ml|
+|flupentixol v1|emis|FLIN19584EMIS|Flupenthixol Decanoate  Injection  200 mg/10 ml|
+|flupentixol v1|emis|FLTA17661NEMIS|Flupentixol  Tablets  1 mg|
+|flupentixol v1|emis|DEIN19577EMIS|Depixol  Injection  40 mg/2 ml ampoule|
+|flupentixol v1|emis|FLTA1193|Fluanxol  Tablets  1 mg|
+|flupentixol v1|emis|DEIN19577EMIS|Depixol  Injection  40 mg/2 ml ampoule|
+|flupentixol v1|emis|DEIN834|Depixol Conc.  Injection  100 mg/1 ml ampoule|
+|flupentixol v1|emis|FLIN19587EMIS|Flupenthixol Decanoate  Injection (syringe)  40 mg/2 ml|
+|flupentixol v1|emis|FLTA1210|Flupenthixol  Tablets  500 micrograms|
+|flupentixol v1|emis|FLTA17663NEMIS|Flupentixol  Tablets  3 mg|
+|flupentixol v1|emis|DEIN834|Depixol Conc.  Injection  100 mg/1 ml ampoule|
+|flupentixol v1|emis|DETA833|Depixol  Tablets  3 mg|
+|flupentixol v1|emis|FLIN17657NEMIS|Flupentixol  Injection  100 mg/ml, 1 ml ampoule|
+|flupentixol v1|emis|FLIN17658NEMIS|Flupentixol  Injection  200 mg/ml, 1 ml ampoule|
+|flupentixol v1|readv2|d51..11|FLUPENTHIXOL DECANOATE|
+|flupentixol v1|readv2|d51..00|FLUPENTIXOL DECANOATE|
+|flupentixol v1|readv2|d51z.00|FLUPENTHIXOL DECANOATE 500mg/5mL injection|
+|flupentixol v1|readv2|d51y.11|FLUPENTHIXOL DECANOATE 100mg/1mL injection|
+|flupentixol v1|readv2|d51y.00|FLUPENTIXOL DECANOATE 100mg/1mL injection|
+|flupentixol v1|readv2|d51x.00|FLUPENTHIXOL DECANOATE 200mg/10mL injection|
+|flupentixol v1|readv2|d51w.11|FLUPENTHIXOL DECANOATE 40mg/2mL injection|
+|flupentixol v1|readv2|d51w.00|FLUPENTIXOL DECANOATE 40mg/2mL injection|
+|flupentixol v1|readv2|d51v.11|FLUPENTHIXOL DECANOATE 20mg/1mL injection|
+|flupentixol v1|readv2|d51v.00|FLUPENTIXOL DECANOATE 20mg/1mL injection|
+|flupentixol v1|readv2|d51u.11|FLUPENTHIXOL DECANOATE 200mg/1mL intramuscular injection|
+|flupentixol v1|readv2|d51u.00|FLUPENTIXOL DECANOATE 200mg/1mL intramuscular injection|
+|flupentixol v1|readv2|d51t.00|FLUPENTHIXOL DECANOATE 40mg/2mL prefilled syringe|
+|flupentixol v1|readv2|d51s.00|FLUPENTHIXOL DECANOATE 20mg/1mL prefilled syringe|
+|flupentixol v1|readv2|d51a.00|DEPIXOL LOW VOLUME 200mg/1mL intramuscular injection|
+|flupentixol v1|readv2|d519.11|FLUPENTHIXOL 50mg/0.5mL injection|
+|flupentixol v1|readv2|d519.00|FLUPENTIXOL 50mg/0.5mL injection|
+|flupentixol v1|readv2|d518.00|DEPIXOL CONC. 50mg/0.5mL injection|
+|flupentixol v1|readv2|d517.00|DEPIXOL CONC. 500mg/5mL injection|
+|flupentixol v1|readv2|d516.00|DEPIXOL CONC. 100mg/1mL injection|
+|flupentixol v1|readv2|d515.00|*DEPIXOL 200mg/10mL injection|
+|flupentixol v1|readv2|d514.00|*DEPIXOL 40mg/2mL syringe|
+|flupentixol v1|readv2|d513.00|DEPIXOL 40mg/2mL injection|
+|flupentixol v1|readv2|d512.00|*DEPIXOL 20mg/1mL syringe|
+|flupentixol v1|readv2|d511.00|DEPIXOL 20mg/1mL injection|
+|flupentixol v1|readv2|da1..11|FLUPHENTIXOL [ANTIDEPRESSANT]|
+|flupentixol v1|readv2|da1..00|FLUPENTIXOL [ANTIDEPRESSANT]|
+|flupentixol v1|readv2|da1z.11|FLUPENTHIXOL 1mg tablets|
+|flupentixol v1|readv2|da1z.00|FLUPENTIXOL 1mg tablets|
+|flupentixol v1|readv2|da1y.11|FLUPENTHIXOL 500micrograms tablets|
+|flupentixol v1|readv2|da1y.00|FLUPENTIXOL 500micrograms tablets|
+|flupentixol v1|readv2|da12.00|FLUANXOL 1mg tablets|
+|flupentixol v1|readv2|da11.00|FLUANXOL 500micrograms tablets|
+|flupentixol v1|readv2|d45..11|FLUPENTHIXOL [ANTIPSYCHOTIC]|
+|flupentixol v1|readv2|d45..00|FLUPENTIXOL [ANTIPSYCHOTIC]|
+|flupentixol v1|readv2|d45z.11|FLUPENTHIXOL 3mg tablets|
+|flupentixol v1|readv2|d45z.00|FLUPENTIXOL 3mg tablets|
+|flupentixol v1|readv2|d451.00|DEPIXOL 3mg tablets|
+|fluphenazine v1|ctv3|x004h|Fluphenazine|
+|fluphenazine v1|ctv3|d46z.|Fluphenazine hydrochloride 5mg tablet|
+|fluphenazine v1|ctv3|d463.|Moditen 5mg tablet|
+|fluphenazine v1|ctv3|d46y.|Fluphenazine hydrochloride 2.5mg tablet|
+|fluphenazine v1|ctv3|d462.|Moditen 2.5mg tablet|
+|fluphenazine v1|ctv3|d46x.|Fluphenazine hydrochloride 1mg tablet|
+|fluphenazine v1|ctv3|d461.|Moditen 1mg tablet|
+|fluphenazine v1|ctv3|d46..|Fluphenazine hydrochloride|
+|fluphenazine v1|ctv3|d53..|Fluphenazine enanthate|
+|fluphenazine v1|ctv3|d532.|Fluphenazine enanthate 25mg/1mL injection|
+|fluphenazine v1|ctv3|d531.|Moditen Enanthate 25mg/mL injection|
+|fluphenazine v1|ctv3|d52..|Fluphenazine decanoate|
+|fluphenazine v1|ctv3|d52x.|Fluphenazine decanoate 250mg/10mL oily injection|
+|fluphenazine v1|ctv3|d526.|Modecate 250mg/10mL oily injection|
+|fluphenazine v1|ctv3|d52w.|Fluphenazine decanoate 50mg/2mL oily injection|
+|fluphenazine v1|ctv3|d524.|Modecate 50mg/2mL oily injection|
+|fluphenazine v1|ctv3|d52v.|Fluphenazine decanoate 25mg/1mL oily injection|
+|fluphenazine v1|ctv3|d52A.|Decazate 25mg/1mL oily injection|
+|fluphenazine v1|ctv3|d522.|Modecate 25mg/1mL oily injection|
+|fluphenazine v1|ctv3|d52u.|Fluphenazine decanoate 12.5mg/0.5mL oily injection|
+|fluphenazine v1|ctv3|d521.|Modecate 12.5mg/0.5mL oily injection|
+|fluphenazine v1|ctv3|d52t.|Fluphenazine decanoate 50mg/2mL prefilled syringe|
+|fluphenazine v1|ctv3|d525.|Modecate 50mg/2mL prefilled syringe|
+|fluphenazine v1|ctv3|d52s.|Fluphenazine decanoate 25mg/1mL prefilled syringe|
+|fluphenazine v1|ctv3|d523.|Modecate 25mg/1mL prefilled syringe|
+|fluphenazine v1|ctv3|d52a.|Fluphenazine decanoate 100mg/1mL oily injection|
+|fluphenazine v1|ctv3|d52C.|Decazate 100mg/1mL oily injection|
+|fluphenazine v1|ctv3|d528.|Modecate Concentrate 100mg/1mL oily injection|
+|fluphenazine v1|ctv3|d529.|Fluphenazine decanoate 50mg/0.5mL oily injection|
+|fluphenazine v1|ctv3|d52B.|Decazate 50mg/0.5mL oily injection|
+|fluphenazine v1|ctv3|d527.|Modecate Concentrate 50mg/0.5mL oily injection|
+|fluphenazine v1|ctv3|d91A.|Fluphenazine hydrochloride+nortriptyline 500micrograms/10mg tablet|
+|fluphenazine v1|ctv3|d914.|Motival tablet|
+|fluphenazine v1|ctv3|d919.|Fluphenazine hydrochloride+nortriptyline 1.5mg/30mg tablet|
+|fluphenazine v1|ctv3|x00fc|Motipress tablet|
+|fluphenazine v1|ctv3|d913.|Motipress tablets X28CP|
+|fluphenazine v1|ctv3|x02jf|Moditen|
+|fluphenazine v1|ctv3|x02je|Modecate Concentrate|
+|fluphenazine v1|ctv3|x02jd|Modecate|
+|fluphenazine v1|ctv3|x03sw|Motipress|
+|fluphenazine v1|ctv3|x02jy|Motival|
+|fluphenazine v1|emis|MOTA3978|Motival  Tablets  |
+|fluphenazine v1|emis|MOSY8788BRIDL|Modecate  Injection  25 mg/1 ml ampoule|
+|fluphenazine v1|emis|FLDI25934EMIS|Fluphenazine Decanoate  Disposable syringe  25 mg/1 ml|
+|fluphenazine v1|emis|MOSY8788BRIDL|Modecate  Injection  25 mg/1 ml ampoule|
+|fluphenazine v1|emis|FLDI25934EMIS|Fluphenazine Decanoate  Disposable syringe  25 mg/1 ml|
+|fluphenazine v1|emis|MOIN10029BRIDL|Modecate  Injection  50 mg/2 ml ampoule|
+|fluphenazine v1|emis|FLDI25935EMIS|Fluphenazine Decanoate  Disposable syringe  50 mg/2 ml|
+|fluphenazine v1|emis|FLIN1212|Fluphenazine Decanoate  Injection  25 mg/1 ml ampoule|
+|fluphenazine v1|emis|FLIN25938EMIS|Fluphenazine Decanoate  Injection  50 mg/2 ml ampoule|
+|fluphenazine v1|emis|FLIN1212|Fluphenazine Decanoate  Injection  25 mg/1 ml ampoule|
+|fluphenazine v1|emis|FLIN25936EMIS|Fluphenazine Decanoate  Injection  12.5 mg/0.5 ml ampoule|
+|fluphenazine v1|emis|FLTA6994|Fluphenazine Hydrochloride  Tablets  2.5 mg|
+|fluphenazine v1|emis|MOTA3976|Motipress  Tablets  |
+|fluphenazine v1|emis|FLTA6994|Fluphenazine Hydrochloride  Tablets  2.5 mg|
+|fluphenazine v1|emis|FLTA6995|Fluphenazine Hydrochloride  Tablets  5 mg|
+|fluphenazine v1|emis|MOIN1858|Modecate  Injection  12.5 mg/0.5 ml ampoule|
+|fluphenazine v1|emis|MOTA1861|Moditen  Tablets  1 mg|
+|fluphenazine v1|emis|MOTA3976|Motipress  Tablets  |
+|fluphenazine v1|emis|MOTA3978|Motival  Tablets  |
+|fluphenazine v1|emis|MOIN1858|Modecate  Injection  12.5 mg/0.5 ml ampoule|
+|fluphenazine v1|emis|MOTA1861|Moditen  Tablets  1 mg|
+|fluphenazine v1|emis|MODI10310BRIDL|Modecate  Disposable syringe  50 mg/2 ml|
+|fluphenazine v1|emis|MOIN1859|Modecate Concentrate  Injection  100 mg/1 ml ampoule|
+|fluphenazine v1|emis|NOTA18780NEMIS|Nortriptyline And Fluphenazine  Tablets  10 mg + 500 micrograms|
+|fluphenazine v1|emis|FLTA4939|Fluphenazine Hydrochloride  Tablets  1 mg|
+|fluphenazine v1|emis|MODI10308BRIDL|Modecate  Disposable syringe  25 mg/1 ml|
+|fluphenazine v1|emis|MOIN25944EMIS|Modecate Concentrate  Injection  50 mg/0.5 ml ampoule|
+|fluphenazine v1|emis|MOTA1863|Moditen  Tablets  5 mg|
+|fluphenazine v1|emis|FLDI25935EMIS|Fluphenazine Decanoate  Disposable syringe  50 mg/2 ml|
+|fluphenazine v1|emis|FLIN25936EMIS|Fluphenazine Decanoate  Injection  12.5 mg/0.5 ml ampoule|
+|fluphenazine v1|emis|FLIN25940EMIS|Fluphenazine Decanoate  Injection  50 mg/0.5 ml ampoule|
+|fluphenazine v1|emis|MODI10308BRIDL|Modecate  Disposable syringe  25 mg/1 ml|
+|fluphenazine v1|emis|MOIN25944EMIS|Modecate Concentrate  Injection  50 mg/0.5 ml ampoule|
+|fluphenazine v1|emis|MOTA1862|Moditen  Tablets  2.5 mg|
+|fluphenazine v1|emis|FLIN25938EMIS|Fluphenazine Decanoate  Injection  50 mg/2 ml ampoule|
+|fluphenazine v1|emis|FLIN4937|Fluphenazine Decanoate  Injection  100 mg/1 ml ampoule|
+|fluphenazine v1|emis|MOTA1862|Moditen  Tablets  2.5 mg|
+|fluphenazine v1|emis|NOTA18780NEMIS|Nortriptyline And Fluphenazine  Tablets  10 mg + 500 micrograms|
+|fluphenazine v1|emis|FLTA4939|Fluphenazine Hydrochloride  Tablets  1 mg|
+|fluphenazine v1|emis|FLIN25940EMIS|Fluphenazine Decanoate  Injection  50 mg/0.5 ml ampoule|
+|fluphenazine v1|emis|FLTA6995|Fluphenazine Hydrochloride  Tablets  5 mg|
+|fluphenazine v1|emis|MODI10310BRIDL|Modecate  Disposable syringe  50 mg/2 ml|
+|fluphenazine v1|emis|MOIN10029BRIDL|Modecate  Injection  50 mg/2 ml ampoule|
+|fluphenazine v1|emis|MOIN1859|Modecate Concentrate  Injection  100 mg/1 ml ampoule|
+|fluphenazine v1|emis|FLIN4937|Fluphenazine Decanoate  Injection  100 mg/1 ml ampoule|
+|fluphenazine v1|emis|MOTA1863|Moditen  Tablets  5 mg|
+|fluphenazine v1|readv2|d53..00|*FLUPHENAZINE ENANTHATE|
+|fluphenazine v1|readv2|d532.00|FLUPHENAZINE ENANTHATE 25mg/1mL injection|
+|fluphenazine v1|readv2|d531.00|MODITEN ENANTHATE 25mg/1mL injection|
+|fluphenazine v1|readv2|d52..00|FLUPHENAZINE DECANOATE|
+|fluphenazine v1|readv2|d52x.00|FLUPHENAZINE DECANOATE 250mg/10mL injection|
+|fluphenazine v1|readv2|d52w.00|FLUPHENAZINE DECANOATE 50mg/2mL injection|
+|fluphenazine v1|readv2|d52v.00|FLUPHENAZINE DECANOATE 25mg/1mL injection|
+|fluphenazine v1|readv2|d52u.00|FLUPHENAZINE DECANOATE 12.5mg/0.5mL injection|
+|fluphenazine v1|readv2|d52t.00|FLUPHENAZINE DECANOATE 50mg/2mL prefilled syringe|
+|fluphenazine v1|readv2|d52s.00|FLUPHENAZINE DECANOATE 25mg/1mL prefilled syringe|
+|fluphenazine v1|readv2|d52a.00|FLUPHENAZINE DECANOATE 100mg/1mL injection|
+|fluphenazine v1|readv2|d529.00|FLUPHENAZINE DECANOATE 50mg/0.5mL injection|
+|fluphenazine v1|readv2|d52C.00|*DECAZATE 100mg/1mL injection|
+|fluphenazine v1|readv2|d52B.00|*DECAZATE 50mg/0.5mL injection|
+|fluphenazine v1|readv2|d52A.00|*DECAZATE 25mg/1mL injection|
+|fluphenazine v1|readv2|d528.00|MODECATE CONCENTRATE 100mg/1mL injection|
+|fluphenazine v1|readv2|d527.00|MODECATE CONCENTRATE 50mg/0.5mL injection|
+|fluphenazine v1|readv2|d526.00|*MODECATE 250mg/10mL injection|
+|fluphenazine v1|readv2|d525.00|*MODECATE 50mg/2mL syringe|
+|fluphenazine v1|readv2|d524.00|MODECATE 50mg/2mL injection|
+|fluphenazine v1|readv2|d523.00|*MODECATE 25mg/1mL syringe|
+|fluphenazine v1|readv2|d522.00|MODECATE 25mg/1mL injection|
+|fluphenazine v1|readv2|d521.00|MODECATE 12.5mg/0.5mL injection|
+|fluphenazine v1|readv2|d46..00|FLUPHENAZINE HYDROCHLORIDE|
+|fluphenazine v1|readv2|d46z.00|FLUPHENAZINE HYDROCHLORIDE 5mg tablets|
+|fluphenazine v1|readv2|d46y.00|FLUPHENAZINE HYDROCHLORIDE 2.5mg tablets|
+|fluphenazine v1|readv2|d46x.00|FLUPHENAZINE HYDROCHLORIDE 1mg tablets|
+|fluphenazine v1|readv2|d463.00|*MODITEN 5mg tablets|
+|fluphenazine v1|readv2|d462.00|*MODITEN 2.5mg tablets|
+|fluphenazine v1|readv2|d461.00|*MODITEN 1mg tablets|
+|fluphenazine v1|readv2|d913.00|*MOTIPRESS tablets x28CP|
+|fluphenazine v1|readv2|d914.00|*MOTIVAL tablets|
+|haloperidol v1|ctv3|x02LR|Haloperidol|
+|haloperidol v1|ctv3|x01BO|Parenteral haloperidol|
+|haloperidol v1|ctv3|d47x.|Haloperidol 20mg/2mL injection|
+|haloperidol v1|ctv3|d47q.|Serenace 20mg/2mL injection|
+|haloperidol v1|ctv3|d47w.|Haloperidol 10mg/2mL injection|
+|haloperidol v1|ctv3|d47i.|Haldol 10mg/2mL injection|
+|haloperidol v1|ctv3|d47v.|Haloperidol 5mg/1mL injection|
+|haloperidol v1|ctv3|d47p.|Serenace 5mg/1mL injection|
+|haloperidol v1|ctv3|d47h.|Haldol 5mg/1mL injection|
+|haloperidol v1|ctv3|x01BN|Oral haloperidol|
+|haloperidol v1|ctv3|d47z.|Haloperidol 1.5mg/5mL s/f oral solution|
+|haloperidol v1|ctv3|d47y.|Haloperidol 10mg/mL oral solution|
+|haloperidol v1|ctv3|d47g.|Haldol Concentrate 10mg/mL oral liquid|
+|haloperidol v1|ctv3|d47u.|Haloperidol 500micrograms tablet|
+|haloperidol v1|ctv3|d478.|Fortunan 500micrograms tablet|
+|haloperidol v1|ctv3|d47t.|Haloperidol 1mg/mL oral solution|
+|haloperidol v1|ctv3|d476.|Dozic 1mg/mL oral liquid|
+|haloperidol v1|ctv3|d47r.|Haloperidol 500micrograms capsule|
+|haloperidol v1|ctv3|d47j.|Serenace 500micrograms capsule|
+|haloperidol v1|ctv3|d47B.|Haloperidol 1mg/5mL s/f oral solution|
+|haloperidol v1|ctv3|d47A.|Haloperidol 2mg/5mL s/f oral solution|
+|haloperidol v1|ctv3|d475.|Haloperidol 2mg/mL oral solution|
+|haloperidol v1|ctv3|x00Xn|Serenace 2mg/mL oral liquid|
+|haloperidol v1|ctv3|d47s.|Serenace 2mg/mL liquid 500mL|
+|haloperidol v1|ctv3|d47o.|Serenace 2mg/mL liquid 100mL|
+|haloperidol v1|ctv3|d47f.|Haldol 2mg/mL oral liquid|
+|haloperidol v1|ctv3|d477.|Dozic 2mg/mL oral liquid|
+|haloperidol v1|ctv3|d474.|Haloperidol 20mg tablet|
+|haloperidol v1|ctv3|d47n.|Serenace 20mg tablet|
+|haloperidol v1|ctv3|d47c.|Fortunan 20mg tablet|
+|haloperidol v1|ctv3|d47F.|Kentace 20mg tablet|
+|haloperidol v1|ctv3|d473.|Haloperidol 10mg tablet|
+|haloperidol v1|ctv3|d47m.|Serenace 10mg tablet|
+|haloperidol v1|ctv3|d47e.|Haldol 10mg tablet|
+|haloperidol v1|ctv3|d47b.|Fortunan 10mg tablet|
+|haloperidol v1|ctv3|d47E.|Kentace 10mg tablet|
+|haloperidol v1|ctv3|d472.|Haloperidol 5mg tablet|
+|haloperidol v1|ctv3|d47l.|Serenace 5mg tablet|
+|haloperidol v1|ctv3|d47d.|Haldol 5mg tablet|
+|haloperidol v1|ctv3|d47a.|Fortunan 5mg tablet|
+|haloperidol v1|ctv3|d47D.|Kentace 5mg tablet|
+|haloperidol v1|ctv3|d471.|Haloperidol 1.5mg tablet|
+|haloperidol v1|ctv3|d47k.|Serenace 1.5mg tablet|
+|haloperidol v1|ctv3|d47C.|Kentace 1.5mg tablet|
+|haloperidol v1|ctv3|d479.|Fortunan 1.5mg tablet|
+|haloperidol v1|ctv3|ds1..|Haloperidol [tics, chorea] [see D47..]|
+|haloperidol v1|ctv3|d47..|Haloperidol [antipsychotic]|
+|haloperidol v1|ctv3|d55..|Haloperidol decanoate|
+|haloperidol v1|ctv3|d554.|Haloperidol 100mg/1mL oily injection|
+|haloperidol v1|ctv3|d552.|Haldol decanoate 100mg/1mL oily injection|
+|haloperidol v1|ctv3|d553.|Haloperidol 50mg/1mL oily injection|
+|haloperidol v1|ctv3|d551.|Haldol decanoate 50mg/1mL oily injection|
+|haloperidol v1|ctv3|x048x|Haldol Concentrate|
+|haloperidol v1|ctv3|x02eN|Haldol decanoate|
+|haloperidol v1|ctv3|x02eM|Haldol|
+|haloperidol v1|ctv3|x02qq|Serenace|
+|haloperidol v1|ctv3|x03dK|Kentace|
+|haloperidol v1|ctv3|x02aV|Dozic|
+|haloperidol v1|emis|DOLI984|Dozic  Liquid  1mg/ml|
+|haloperidol v1|emis|HAOREGTON6701|Haldol  Oral solution  2 mg/ml|
+|haloperidol v1|emis|HATA1344|Haloperidol  Tablets  1.5 mg|
+|haloperidol v1|emis|SEIN2554|Serenace  Injection  10 mg/ml, 2 ml ampoule|
+|haloperidol v1|emis|SETA2556|Serenace  Tablets  1.5 mg|
+|haloperidol v1|emis|HAOREGTON6701|Haldol  Oral solution  2 mg/ml|
+|haloperidol v1|emis|SEEL9000BRIDL|Serenace  Elixir  2mg/ml|
+|haloperidol v1|emis|HAIN1341|Haloperidol  Injection  100 mg/ml, 1 ml ampoule|
+|haloperidol v1|emis|HAIN1343|Haloperidol  Injection  50 mg/ml, 1 ml ampoule|
+|haloperidol v1|emis|HAIN6920|Haloperidol  Injection  5 mg/ml|
+|haloperidol v1|emis|HAOR6921|Haloperidol  Oral liquid  Sugar Free 2 mg/ml|
+|haloperidol v1|emis|HAOR6922|Haloperidol  Oral liquid conc.  10 mg/ml|
+|haloperidol v1|emis|HALI4981|Haloperidol  Liquid  Sugar Free 1mg/ml|
+|haloperidol v1|emis|HAOR6921|Haloperidol  Oral liquid  Sugar Free 2 mg/ml|
+|haloperidol v1|emis|HATAEGTON6704|Haldol  Tablets  5 mg|
+|haloperidol v1|emis|SETA2557|Serenace  Tablets  10 mg|
+|haloperidol v1|emis|SETA2559|Serenace  Tablets  5 mg|
+|haloperidol v1|emis|HAEL1339|Haloperidol  Elixir  2 mg/5 ml|
+|haloperidol v1|emis|HAIN15566NEMIS|Haloperidol  Injection  5 mg/ml, 1 ml ampoule|
+|haloperidol v1|emis|HAOR13227NEMIS|Haloperidol  Oral Solution, Sugar Free  1 mg/5 ml (200 micrograms/ml)|
+|haloperidol v1|emis|DOLI984|Dozic  Liquid  1mg/ml|
+|haloperidol v1|emis|HAIN1340|Haloperidol  Injection  10 mg/ml, 2 ml ampoule|
+|haloperidol v1|emis|HATA6901|Haloperidol  Tablets  500 micrograms|
+|haloperidol v1|emis|HAIN1340|Haloperidol  Injection  10 mg/ml, 2 ml ampoule|
+|haloperidol v1|emis|HATA6901|Haloperidol  Tablets  500 micrograms|
+|haloperidol v1|emis|HATAEGTON6703|Haldol  Tablets  10 mg|
+|haloperidol v1|emis|SEIN2555|Serenace  Injection  5 mg/ml, 1 ml ampoule|
+|haloperidol v1|emis|SETA2557|Serenace  Tablets  10 mg|
+|haloperidol v1|emis|HAIN1341|Haloperidol  Injection  100 mg/ml, 1 ml ampoule|
+|haloperidol v1|emis|HACA1338|Haloperidol  Capsules  500 micrograms|
+|haloperidol v1|emis|HAIN1336|Haldol Decanoate  Injection  50 mg/ml, 1 ml ampoule|
+|haloperidol v1|emis|SETA2559|Serenace  Tablets  5 mg|
+|haloperidol v1|emis|HAIN1343|Haloperidol  Injection  50 mg/ml, 1 ml ampoule|
+|haloperidol v1|emis|HAINEGTON6700|Haldol  Injection  5 mg/ml|
+|haloperidol v1|emis|HALI4981|Haloperidol  Liquid  Sugar Free 1mg/ml|
+|haloperidol v1|emis|HATA4983|Haloperidol  Tablets  10 mg|
+|haloperidol v1|emis|HATAEGTON6704|Haldol  Tablets  5 mg|
+|haloperidol v1|emis|HAIN1335|Haldol Decanoate  Injection  100 mg/ml, 1 ml ampoule|
+|haloperidol v1|emis|HATA4983|Haloperidol  Tablets  10 mg|
+|haloperidol v1|emis|SEIN2555|Serenace  Injection  5 mg/ml, 1 ml ampoule|
+|haloperidol v1|emis|HAIN1335|Haldol Decanoate  Injection  100 mg/ml, 1 ml ampoule|
+|haloperidol v1|emis|HATA1347|Haloperidol  Tablets  5 mg|
+|haloperidol v1|emis|SEEL9000BRIDL|Serenace  Elixir  2mg/ml|
+|haloperidol v1|emis|HAIN1336|Haldol Decanoate  Injection  50 mg/ml, 1 ml ampoule|
+|haloperidol v1|emis|HAOR13227NEMIS|Haloperidol  Oral Solution, Sugar Free  1 mg/5 ml (200 micrograms/ml)|
+|haloperidol v1|emis|HATA1344|Haloperidol  Tablets  1.5 mg|
+|haloperidol v1|emis|SEIN2554|Serenace  Injection  10 mg/ml, 2 ml ampoule|
+|haloperidol v1|emis|HATA1346|Haloperidol  Tablets  20 mg|
+|haloperidol v1|emis|SECA2552|Serenace  Capsules  500 micrograms|
+|haloperidol v1|emis|HACA1338|Haloperidol  Capsules  500 micrograms|
+|haloperidol v1|emis|HAIN15566NEMIS|Haloperidol  Injection  5 mg/ml, 1 ml ampoule|
+|haloperidol v1|emis|HATA1346|Haloperidol  Tablets  20 mg|
+|haloperidol v1|emis|HATA1347|Haloperidol  Tablets  5 mg|
+|haloperidol v1|emis|HATAEGTON6703|Haldol  Tablets  10 mg|
+|haloperidol v1|emis|SECA2552|Serenace  Capsules  500 micrograms|
+|haloperidol v1|emis|SETA2556|Serenace  Tablets  1.5 mg|
+|haloperidol v1|readv2|d47..00|HALOPERIDOL [ANTIPSYCHOTIC]|
+|haloperidol v1|readv2|d47y.00|HALOPERIDOL 10mg/mL oral solution|
+|haloperidol v1|readv2|d47x.00|HALOPERIDOL 20mg/2mL injection|
+|haloperidol v1|readv2|d47w.00|HALOPERIDOL 10mg/2mL injection|
+|haloperidol v1|readv2|d47v.00|*HALOPERIDOL 5mg/1mL injection|
+|haloperidol v1|readv2|d47u.00|HALOPERIDOL 500micrograms tablets|
+|haloperidol v1|readv2|d47t.00|HALOPERIDOL 1mg/mL liquid|
+|haloperidol v1|readv2|d47r.00|HALOPERIDOL 500microgram capsules|
+|haloperidol v1|readv2|d47B.00|HALOPERIDOL 1mg/5mL sugar free solution|
+|haloperidol v1|readv2|d47A.00|HALOPERIDOL 2mg/5mL sugar free solution|
+|haloperidol v1|readv2|d475.00|HALOPERIDOL 2mg/mL liquid|
+|haloperidol v1|readv2|d474.00|HALOPERIDOL 20mg tablets|
+|haloperidol v1|readv2|d473.00|HALOPERIDOL 10mg tablets|
+|haloperidol v1|readv2|d472.00|HALOPERIDOL 5mg tablets|
+|haloperidol v1|readv2|d471.00|HALOPERIDOL 1.5mg tablets|
+|haloperidol v1|readv2|d47s.00|SERENACE 2mg/mL liquid 500mL|
+|haloperidol v1|readv2|d47q.00|SERENACE 20mg/2mL injection|
+|haloperidol v1|readv2|d47p.00|SERENACE 5mg/1mL injection|
+|haloperidol v1|readv2|d47o.00|SERENACE 2mg/mL liquid 100mL|
+|haloperidol v1|readv2|d47n.00|SERENACE 20mg tablets|
+|haloperidol v1|readv2|d47m.00|SERENACE 10mg tablets|
+|haloperidol v1|readv2|d47l.00|SERENACE 5mg tablets|
+|haloperidol v1|readv2|d47k.00|SERENACE 1.5mg tablets|
+|haloperidol v1|readv2|d47j.00|SERENACE 500micrograms capsules|
+|haloperidol v1|readv2|d47i.00|*HALDOL 10mg/2mL injection|
+|haloperidol v1|readv2|d47h.00|*HALDOL 5mg/1mL injection|
+|haloperidol v1|readv2|d47g.00|*HALDOL 10mg/mL liquid|
+|haloperidol v1|readv2|d47f.00|HALDOL 2mg/mL liquid|
+|haloperidol v1|readv2|d47e.00|*HALDOL 10mg tablets|
+|haloperidol v1|readv2|d47d.00|*HALDOL 5mg tablets|
+|haloperidol v1|readv2|d47c.00|*FORTUNAN 20mg tablets|
+|haloperidol v1|readv2|d47b.00|*FORTUNAN 10mg tablets|
+|haloperidol v1|readv2|d47a.00|*FORTUNAN 5mg tablets|
+|haloperidol v1|readv2|d47F.00|KENTACE 20mg tablets|
+|haloperidol v1|readv2|d47E.00|KENTACE 10mg tablets|
+|haloperidol v1|readv2|d47D.00|KENTACE 5mg tablets|
+|haloperidol v1|readv2|d47C.00|KENTACE 1.5mg tablets|
+|haloperidol v1|readv2|d479.00|*FORTUNAN 1.5mg tablets|
+|haloperidol v1|readv2|d478.00|FORTUNAN 500micrograms tablets|
+|haloperidol v1|readv2|d477.00|*DOZIC 2mg/mL liquid|
+|haloperidol v1|readv2|d476.00|DOZIC 1mg/mL liquid|
+|haloperidol v1|readv2|d55..00|HALOPERIDOL DECANOATE|
+|haloperidol v1|readv2|d554.00|HALOPERIDOL 100mg/1mL injection|
+|haloperidol v1|readv2|d553.00|HALOPERIDOL 50mg/1mL injection|
+|haloperidol v1|readv2|d552.00|HALDOL DECANOATE 100mg/1mL injection|
+|haloperidol v1|readv2|d551.00|HALDOL DECANOATE 50mg/1mL injection|
+|haloperidol v1|readv2|ds1..00|HALOPERIDOL [TICS, CHOREA] [see d47..]|
+|levomepromazine v1|ctv3|d48..|Levomepromazine|
+|levomepromazine v1|ctv3|d48z.|Methotrimeprazine maleate 25mg tablet|
+|levomepromazine v1|ctv3|d483.|Nozinan 25mg tablet|
+|levomepromazine v1|ctv3|d482.|Veractil 25mg tablet|
+|levomepromazine v1|ctv3|d48y.|Methotrimeprazine hydrochloride 25mg/1mL injection|
+|levomepromazine v1|ctv3|d481.|Nozinan 25mg/1mL injection|
+|levomepromazine v1|ctv3|x02lR|Nozinan|
+|levomepromazine v1|emis|LEIN17312NEMIS|Levomepromazine  Solution for injection  25 mg/ml, 1 ml ampoule|
+|levomepromazine v1|emis|LETA17313NEMIS|Levomepromazine  Tablets  25 mg|
+|levomepromazine v1|emis|NOIN2038|Nozinan  Solution for injection  25mg/ml, 1 ml ampoule|
+|levomepromazine v1|emis|VETA3038|Nozinan  Tablets  25 mg|
+|levomepromazine v1|emis|LEIN17312NEMIS|Levomepromazine  Solution for injection  25 mg/ml, 1 ml ampoule|
+|levomepromazine v1|emis|LETA17313NEMIS|Levomepromazine  Tablets  25 mg|
+|levomepromazine v1|emis|NOIN2038|Nozinan  Solution for injection  25mg/ml, 1 ml ampoule|
+|levomepromazine v1|emis|VETA3038|Nozinan  Tablets  25 mg|
+|levomepromazine v1|readv2|d48..11|METHOTRIMEPRAZINE|
+|levomepromazine v1|readv2|d48..00|LEVOMEPROMAZINE|
+|levomepromazine v1|readv2|d48z.11|METHOTRIMEPRAZINE 25mg tablets|
+|levomepromazine v1|readv2|d48z.00|LEVOMEPROMAZINE 25mg tablets|
+|levomepromazine v1|readv2|d48y.11|METHOTRIMEPRAZINE 25mg/1mL injection|
+|levomepromazine v1|readv2|d48y.00|LEVOMEPROMAZINE 25mg/1mL injection|
+|levomepromazine v1|readv2|d483.00|NOZINAN 25mg tablets|
+|levomepromazine v1|readv2|d482.00|*VERACTIL 25mg tablets|
+|levomepromazine v1|readv2|d481.00|NOZINAN 25mg/1mL injection|
+|loxapine v1|ctv3|d4k..|Loxapine|
+|loxapine v1|ctv3|d4k3.|Loxapine 50mg capsule|
+|loxapine v1|ctv3|d4k6.|Loxapac 50mg capsule|
+|loxapine v1|ctv3|d4k2.|Loxapine 25mg capsule|
+|loxapine v1|ctv3|d4k5.|Loxapac 25mg capsule|
+|loxapine v1|ctv3|d4k1.|Loxapine 10mg capsule|
+|loxapine v1|ctv3|d4k4.|Loxapac 10mg capsule|
+|loxapine v1|ctv3|x02hz|Loxapac|
+|loxapine v1|emis|LOCA20611EMIS|Loxapine Succinate  Capsules  10 mg|
+|loxapine v1|emis|LOCA20612EMIS|Loxapine Succinate  Capsules  25 mg|
+|loxapine v1|emis|LOCA20613EMIS|Loxapine Succinate  Capsules  50 mg|
+|loxapine v1|emis|LOCA9548BRIDL|Loxapac  Capsules  10 mg|
+|loxapine v1|emis|LOCA9550BRIDL|Loxapac  Capsules  25 mg|
+|loxapine v1|emis|LOCA9552BRIDL|Loxapac  Capsules  50 mg|
+|loxapine v1|emis|LOCA20611EMIS|Loxapine Succinate  Capsules  10 mg|
+|loxapine v1|emis|LOCA20612EMIS|Loxapine Succinate  Capsules  25 mg|
+|loxapine v1|emis|LOCA20613EMIS|Loxapine Succinate  Capsules  50 mg|
+|loxapine v1|emis|LOCA9548BRIDL|Loxapac  Capsules  10 mg|
+|loxapine v1|emis|LOCA9550BRIDL|Loxapac  Capsules  25 mg|
+|loxapine v1|emis|LOCA9552BRIDL|Loxapac  Capsules  50 mg|
+|loxapine v1|readv2|d4k..00|LOXAPINE SUCCINATE|
+|loxapine v1|readv2|d4k3.00|*LOXAPINE 50mg capsules|
+|loxapine v1|readv2|d4k2.00|*LOXAPINE 25mg capsules|
+|loxapine v1|readv2|d4k1.00|*LOXAPINE 10mg capsules|
+|loxapine v1|readv2|d4k6.00|*LOXAPAC 50mg capsules|
+|loxapine v1|readv2|d4k5.00|*LOXAPAC 25mg capsules|
+|loxapine v1|readv2|d4k4.00|*LOXAPAC 10mg capsules|
+|lurasidone v1|ctv3|d4y..|LURASIDONE|
+|lurasidone v1|ctv3|d4y5.|LATUDA 74mg tablets|
+|lurasidone v1|ctv3|d4y3.|LATUDA 37mg tablets|
+|lurasidone v1|ctv3|d4y1.|LATUDA 18.5mg tablets|
+|lurasidone v1|ctv3|d4y6.|LURASIDONE 74mg tablets|
+|lurasidone v1|ctv3|d4y4.|LURASIDONE 37mg tablets|
+|lurasidone v1|ctv3|d4y2.|LURASIDONE 18.5mg tablets|
+|lurasidone v1|emis|LATA96316NEMIS|Latuda  Tablets  74 mg|
+|lurasidone v1|emis|LUTA96309NEMIS|Lurasidone  Tablets  18.5 mg|
+|lurasidone v1|emis|LUTA96311NEMIS|Lurasidone  Tablets  37 mg|
+|lurasidone v1|emis|LUTA96312NEMIS|Lurasidone  Tablets  74 mg|
+|lurasidone v1|emis|LATA96316NEMIS|Latuda  Tablets  74 mg|
+|lurasidone v1|emis|LUTA96309NEMIS|Lurasidone  Tablets  18.5 mg|
+|lurasidone v1|emis|LUTA96311NEMIS|Lurasidone  Tablets  37 mg|
+|lurasidone v1|emis|LUTA96312NEMIS|Lurasidone  Tablets  74 mg|
+|lurasidone v1|readv2|d4y..00|LURASIDONE|
+|lurasidone v1|readv2|d4y6.00|LURASIDONE 74mg tablets|
+|lurasidone v1|readv2|d4y4.00|LURASIDONE 37mg tablets|
+|lurasidone v1|readv2|d4y2.00|LURASIDONE 18.5mg tablets|
+|lurasidone v1|readv2|d4y5.00|LATUDA 74mg tablets|
+|lurasidone v1|readv2|d4y3.00|LATUDA 37mg tablets|
+|lurasidone v1|readv2|d4y1.00|LATUDA 18.5mg tablets|
+|olanzapine v1|ctv3|d4r..|Olanzapine|
+|olanzapine v1|ctv3|d4rP.|ZALASTA 10mg tablets|
+|olanzapine v1|ctv3|d4rO.|ZALASTA 20mg dispersible tablets|
+|olanzapine v1|ctv3|d4rN.|ZALASTA 15mg dispersible tablets|
+|olanzapine v1|ctv3|d4rM.|ZALASTA 10mg dispersible tablets|
+|olanzapine v1|ctv3|d4rL.|ZALASTA 5mg dispersible tablets|
+|olanzapine v1|ctv3|d4rK.|ZALASTA 20mg tablets|
+|olanzapine v1|ctv3|d4rJ.|ZALASTA 15mg tablets|
+|olanzapine v1|ctv3|d4rI.|ZALASTA 7.5mg tablets|
+|olanzapine v1|ctv3|d4rH.|ZALASTA 5mg tablets|
+|olanzapine v1|ctv3|d4rG.|ZALASTA 2.5mg tablets|
+|olanzapine v1|ctv3|d4rz.|Olanzapine 10mg dispersible tablet|
+|olanzapine v1|ctv3|d4rA.|Zyprexa Velotab 10mg dispersible tablet|
+|olanzapine v1|ctv3|d4ry.|Olanzapine 5mg dispersible tablet|
+|olanzapine v1|ctv3|d4r9.|Zyprexa Velotab 5mg dispersible tablet|
+|olanzapine v1|ctv3|d4rx.|Olanzapine 15mg tablet|
+|olanzapine v1|ctv3|d4rB.|Zyprexa 15mg tablet|
+|olanzapine v1|ctv3|d4rw.|Olanzapine 15mg dispersible tablet|
+|olanzapine v1|ctv3|d4rC.|Zyprexa Velotab 15mg dispersible tablet|
+|olanzapine v1|ctv3|d4rv.|Olanzapine 10mg injection (pdr for recon)|
+|olanzapine v1|ctv3|d4rD.|Zyprexa 10mg injection (pdr for recon)|
+|olanzapine v1|ctv3|d4ru.|Olanzapine 20mg dispersible tablet|
+|olanzapine v1|ctv3|d4rE.|Zyprexa Velotab 20mg dispersible tablet|
+|olanzapine v1|ctv3|d4rt.|OLANZAPINE 20mg tablets|
+|olanzapine v1|ctv3|d4rF.|ZYPREXA 20mg tablets|
+|olanzapine v1|ctv3|d4r7.|Olanzapine 2.5mg tablet|
+|olanzapine v1|ctv3|d4r8.|Zyprexa 2.5mg tablet|
+|olanzapine v1|ctv3|d4r3.|Olanzapine 10mg tablet|
+|olanzapine v1|ctv3|d4r6.|Zyprexa 10mg tablet|
+|olanzapine v1|ctv3|d4r2.|Olanzapine 7.5mg tablet|
+|olanzapine v1|ctv3|d4r5.|Zyprexa 7.5mg tablet|
+|olanzapine v1|ctv3|d4r1.|Olanzapine 5mg tablet|
+|olanzapine v1|ctv3|d4r4.|Zyprexa 5mg tablet|
+|olanzapine v1|ctv3|d58..|OLANZAPINE PAMOATE|
+|olanzapine v1|ctv3|d583.|ZYPADHERA 405mg powder+solvent for suspension for injection|
+|olanzapine v1|ctv3|d582.|ZYPADHERA 300mg powder+solvent for suspension for injection|
+|olanzapine v1|ctv3|d581.|ZYPADHERA 210mg powder+solvent for suspension for injection|
+|olanzapine v1|ctv3|d58z.|OLANZAPINE 210mg powder+solvent for suspension for injection|
+|olanzapine v1|ctv3|d58y.|OLANZAPINE 300mg powder+solvent for suspension for injection|
+|olanzapine v1|ctv3|d58x.|OLANZAPINE 405mg powder+solvent for suspension for injection|
+|olanzapine v1|ctv3|x056z|Zyprexa Velotab|
+|olanzapine v1|ctv3|x03ik|Zyprexa|
+|olanzapine v1|emis|OLOR13260NEMIS|Olanzapine  Oral Lyophilisate Sugar Free  15 mg|
+|olanzapine v1|emis|OLOR21754NEMIS|Olanzapine  Oral Lyophilisate Sugar Free  20 mg|
+|olanzapine v1|emis|OLOR3800NEMIS|Olanzapine  Oral Lyophilisate Sugar Free  5 mg|
+|olanzapine v1|emis|OLOR3801NEMIS|Olanzapine  Oral Lyophilisate Sugar Free  10 mg|
+|olanzapine v1|emis|OLPO16908NEMIS|Olanzapine  Powder For Solution For Injection  10 mg vial|
+|olanzapine v1|emis|OLPR42225NEMIS|Olanzapine  Prolonged release suspension for injection  210 mg vial|
+|olanzapine v1|emis|OLPR42227NEMIS|Olanzapine  Prolonged release suspension for injection  300 mg vial|
+|olanzapine v1|emis|OLPR42228NEMIS|Olanzapine  Prolonged release suspension for injection  405 mg vial|
+|olanzapine v1|emis|OLTA13258NEMIS|Olanzapine  Tablets  15 mg|
+|olanzapine v1|emis|OLTA29729EMIS|Olanzapine  Tablets  10 mg|
+|olanzapine v1|emis|OLTA29730EMIS|Olanzapine  Tablets  5 mg|
+|olanzapine v1|emis|OLTA29731EMIS|Olanzapine  Tablets  7.5 mg|
+|olanzapine v1|emis|OLTA34085EMIS|Olanzapine  Tablets  2.5 mg|
+|olanzapine v1|emis|ZAOR52080NEMIS|Zalasta  Orodispersible tablets  5 mg|
+|olanzapine v1|emis|ZYOR13262NEMIS|Zyprexa Velotab  Orodispersible tablets  15 mg|
+|olanzapine v1|emis|ZYOR21755NEMIS|Zyprexa Velotab  Orodispersible tablets  20 mg|
+|olanzapine v1|emis|ZYOR3803NEMIS|Zyprexa Velotab  Orodispersible tablets  5 mg|
+|olanzapine v1|emis|ZYOR3804NEMIS|Zyprexa Velotab  Orodispersible tablets  10 mg|
+|olanzapine v1|emis|ZYTA13261NEMIS|Zyprexa  Tablets  15 mg|
+|olanzapine v1|emis|ZYTA23535NEMIS|Zyprexa  Tablets  20 mg|
+|olanzapine v1|emis|ZYTA29723EMIS|Zyprexa  Tablets  10 mg|
+|olanzapine v1|emis|ZYTA29724EMIS|Zyprexa  Tablets  5 mg|
+|olanzapine v1|emis|ZYTA29725EMIS|Zyprexa  Tablets  7.5 mg|
+|olanzapine v1|emis|ZYTA34083EMIS|Zyprexa  Tablets  2.5 mg|
+|olanzapine v1|emis|OLOR13260NEMIS|Olanzapine  Oral Lyophilisate Sugar Free  15 mg|
+|olanzapine v1|emis|OLOR21754NEMIS|Olanzapine  Oral Lyophilisate Sugar Free  20 mg|
+|olanzapine v1|emis|OLOR3800NEMIS|Olanzapine  Oral Lyophilisate Sugar Free  5 mg|
+|olanzapine v1|emis|OLOR3801NEMIS|Olanzapine  Oral Lyophilisate Sugar Free  10 mg|
+|olanzapine v1|emis|OLPO16908NEMIS|Olanzapine  Powder For Solution For Injection  10 mg vial|
+|olanzapine v1|emis|OLPR42225NEMIS|Olanzapine  Prolonged release suspension for injection  210 mg vial|
+|olanzapine v1|emis|OLPR42227NEMIS|Olanzapine  Prolonged release suspension for injection  300 mg vial|
+|olanzapine v1|emis|OLPR42228NEMIS|Olanzapine  Prolonged release suspension for injection  405 mg vial|
+|olanzapine v1|emis|OLTA13258NEMIS|Olanzapine  Tablets  15 mg|
+|olanzapine v1|emis|OLTA29729EMIS|Olanzapine  Tablets  10 mg|
+|olanzapine v1|emis|OLTA29730EMIS|Olanzapine  Tablets  5 mg|
+|olanzapine v1|emis|OLTA29731EMIS|Olanzapine  Tablets  7.5 mg|
+|olanzapine v1|emis|OLTA34085EMIS|Olanzapine  Tablets  2.5 mg|
+|olanzapine v1|emis|ZAOR52080NEMIS|Zalasta  Orodispersible tablets  5 mg|
+|olanzapine v1|emis|ZYOR13262NEMIS|Zyprexa Velotab  Orodispersible tablets  15 mg|
+|olanzapine v1|emis|ZYOR21755NEMIS|Zyprexa Velotab  Orodispersible tablets  20 mg|
+|olanzapine v1|emis|ZYOR3803NEMIS|Zyprexa Velotab  Orodispersible tablets  5 mg|
+|olanzapine v1|emis|ZYOR3804NEMIS|Zyprexa Velotab  Orodispersible tablets  10 mg|
+|olanzapine v1|emis|ZYTA13261NEMIS|Zyprexa  Tablets  15 mg|
+|olanzapine v1|emis|ZYTA23535NEMIS|Zyprexa  Tablets  20 mg|
+|olanzapine v1|emis|ZYTA29723EMIS|Zyprexa  Tablets  10 mg|
+|olanzapine v1|emis|ZYTA29724EMIS|Zyprexa  Tablets  5 mg|
+|olanzapine v1|emis|ZYTA29725EMIS|Zyprexa  Tablets  7.5 mg|
+|olanzapine v1|emis|ZYTA34083EMIS|Zyprexa  Tablets  2.5 mg|
+|olanzapine v1|readv2|d4r..00|OLANZAPINE|
+|olanzapine v1|readv2|d4rz.00|OLANZAPINE 10mg dispersible tablets|
+|olanzapine v1|readv2|d4ry.00|OLANZAPINE 5mg dispersible tablets|
+|olanzapine v1|readv2|d4rx.00|OLANZAPINE 15mg tablets|
+|olanzapine v1|readv2|d4rw.00|OLANZAPINE 15mg dispersible tablets|
+|olanzapine v1|readv2|d4rv.00|OLANZAPINE 10mg injection (pdr for recon)|
+|olanzapine v1|readv2|d4ru.00|OLANZAPINE 20mg dispersible tablets|
+|olanzapine v1|readv2|d4rt.00|OLANZAPINE 20mg tablets|
+|olanzapine v1|readv2|d4r7.00|OLANZAPINE 2.5mg tablets|
+|olanzapine v1|readv2|d4r3.00|OLANZAPINE 10mg tablets|
+|olanzapine v1|readv2|d4r2.00|OLANZAPINE 7.5mg tablets|
+|olanzapine v1|readv2|d4r1.00|OLANZAPINE 5mg tablets|
+|olanzapine v1|readv2|d4rP.00|ZALASTA 10mg tablets|
+|olanzapine v1|readv2|d4rO.00|ZALASTA 20mg dispersible tablets|
+|olanzapine v1|readv2|d4rN.00|ZALASTA 15mg dispersible tablets|
+|olanzapine v1|readv2|d4rM.00|ZALASTA 10mg dispersible tablets|
+|olanzapine v1|readv2|d4rL.00|ZALASTA 5mg dispersible tablets|
+|olanzapine v1|readv2|d4rK.00|ZALASTA 20mg tablets|
+|olanzapine v1|readv2|d4rJ.00|ZALASTA 15mg tablets|
+|olanzapine v1|readv2|d4rI.00|ZALASTA 7.5mg tablets|
+|olanzapine v1|readv2|d4rH.00|ZALASTA 5mg tablets|
+|olanzapine v1|readv2|d4rG.00|ZALASTA 2.5mg tablets|
+|olanzapine v1|readv2|d4rF.00|ZYPREXA 20mg tablets|
+|olanzapine v1|readv2|d4rE.00|ZYPREXA VELOTAB 20mg dispersible tablets|
+|olanzapine v1|readv2|d4rD.00|ZYPREXA 10mg injection (pdr for recon)|
+|olanzapine v1|readv2|d4rC.00|ZYPREXA VELOTAB 15mg dispersible tablets|
+|olanzapine v1|readv2|d4rB.00|ZYPREXA 15mg tablets|
+|olanzapine v1|readv2|d4rA.00|ZYPREXA VELOTAB 10mg dispersible tablets|
+|olanzapine v1|readv2|d4r9.00|ZYPREXA VELOTAB 5mg dispersible tablets|
+|olanzapine v1|readv2|d4r8.00|ZYPREXA 2.5mg tablets|
+|olanzapine v1|readv2|d4r6.00|ZYPREXA 10mg tablets|
+|olanzapine v1|readv2|d4r5.00|ZYPREXA 7.5mg tablets|
+|olanzapine v1|readv2|d4r4.00|ZYPREXA 5mg tablets|
+|olanzapine v1|readv2|d58..00|OLANZAPINE PAMOATE|
+|olanzapine v1|readv2|d58z.00|OLANZAPINE 210mg powder+solvent for suspension for injection|
+|olanzapine v1|readv2|d58y.00|OLANZAPINE 300mg powder+solvent for suspension for injection|
+|olanzapine v1|readv2|d58x.00|OLANZAPINE 405mg powder+solvent for suspension for injection|
+|olanzapine v1|readv2|d583.00|ZYPADHERA 405mg powder+solvent for suspension for injection|
+|olanzapine v1|readv2|d582.00|ZYPADHERA 300mg powder+solvent for suspension for injection|
+|olanzapine v1|readv2|d581.00|ZYPADHERA 210mg powder+solvent for suspension for injection|
+|paliperidone v1|ctv3|d4w..|PALIPERIDONE|
+|paliperidone v1|ctv3|d4w9.|XEPLION 100mg + 150mg susp for injection prefilled syringes|
+|paliperidone v1|ctv3|d4w8.|XEPLION 150mg suspension for injection prefilled syringe|
+|paliperidone v1|ctv3|d4w7.|XEPLION 100mg suspension for injection prefilled syringe|
+|paliperidone v1|ctv3|d4w6.|XEPLION 75mg suspension for injection prefilled syringe|
+|paliperidone v1|ctv3|d4w5.|XEPLION 50mg suspension for injection prefilled syringe|
+|paliperidone v1|ctv3|d4w4.|INVEGA 12mg m/r tablets|
+|paliperidone v1|ctv3|d4w3.|INVEGA 9mg m/r tablets|
+|paliperidone v1|ctv3|d4w2.|INVEGA 6mg m/r tablets|
+|paliperidone v1|ctv3|d4w1.|INVEGA 3mg m/r tablets|
+|paliperidone v1|ctv3|d4wz.|PALIPERIDONE 3mg m/r tablets|
+|paliperidone v1|ctv3|d4wy.|PALIPERIDONE 6mg m/r tablets|
+|paliperidone v1|ctv3|d4wx.|PALIPERIDONE 9mg m/r tablets|
+|paliperidone v1|ctv3|d4ww.|PALIPERIDONE 12mg m/r tablets|
+|paliperidone v1|ctv3|d4wv.|PALIPERIDONE 50mg suspension for injection prefilled syringe|
+|paliperidone v1|ctv3|d4wu.|PALIPERIDONE 75mg suspension for injection prefilled syringe|
+|paliperidone v1|ctv3|d4wt.|PALIPERIDONE 100mg suspension for injection pfs|
+|paliperidone v1|ctv3|d4ws.|PALIPERIDONE 150mg suspension for injection pfs|
+|paliperidone v1|ctv3|d4wr.|PALIPERIDONE 100mg + 150mg susp for inj prefilled syringes|
+|paliperidone v1|emis|INM/26218NEMIS|Invega  M/R tablets  3 mg|
+|paliperidone v1|emis|INM/26219NEMIS|Invega  M/R tablets  6 mg|
+|paliperidone v1|emis|PAM/26213NEMIS|Paliperidone  M/R tablets  3 mg|
+|paliperidone v1|emis|PAM/26215NEMIS|Paliperidone  M/R tablets  6 mg|
+|paliperidone v1|emis|PAM/26216NEMIS|Paliperidone  M/R tablets  9 mg|
+|paliperidone v1|emis|PASU50807NEMIS|Paliperidone  Suspension For Injection  50 mg/0.5 ml pre-filled syringe|
+|paliperidone v1|emis|PASU50808NEMIS|Paliperidone  Suspension For Injection  75 mg/0.75 ml pre-filled syringe|
+|paliperidone v1|emis|PASU50809NEMIS|Paliperidone  Suspension For Injection  100 mg/1 ml pre-filled syringe|
+|paliperidone v1|emis|PASU50810NEMIS|Paliperidone  Suspension For Injection  150 mg/1.5 ml pre-filled syringe|
+|paliperidone v1|emis|XESU50813NEMIS|Xeplion  Suspension For Injection  75 mg/0.75 ml pre-filled syringe|
+|paliperidone v1|emis|XESU50814NEMIS|Xeplion  Suspension For Injection  100 mg/1 ml pre-filled syringe|
+|paliperidone v1|emis|INM/26218NEMIS|Invega  M/R tablets  3 mg|
+|paliperidone v1|emis|INM/26219NEMIS|Invega  M/R tablets  6 mg|
+|paliperidone v1|emis|PAM/26213NEMIS|Paliperidone  M/R tablets  3 mg|
+|paliperidone v1|emis|PAM/26215NEMIS|Paliperidone  M/R tablets  6 mg|
+|paliperidone v1|emis|PAM/26216NEMIS|Paliperidone  M/R tablets  9 mg|
+|paliperidone v1|emis|PASU50807NEMIS|Paliperidone  Suspension For Injection  50 mg/0.5 ml pre-filled syringe|
+|paliperidone v1|emis|PASU50808NEMIS|Paliperidone  Suspension For Injection  75 mg/0.75 ml pre-filled syringe|
+|paliperidone v1|emis|PASU50809NEMIS|Paliperidone  Suspension For Injection  100 mg/1 ml pre-filled syringe|
+|paliperidone v1|emis|PASU50810NEMIS|Paliperidone  Suspension For Injection  150 mg/1.5 ml pre-filled syringe|
+|paliperidone v1|emis|XESU50813NEMIS|Xeplion  Suspension For Injection  75 mg/0.75 ml pre-filled syringe|
+|paliperidone v1|emis|XESU50814NEMIS|Xeplion  Suspension For Injection  100 mg/1 ml pre-filled syringe|
+|paliperidone v1|readv2|d4w..00|PALIPERIDONE|
+|paliperidone v1|readv2|d4wz.00|PALIPERIDONE 3mg m/r tablets|
+|paliperidone v1|readv2|d4wy.00|PALIPERIDONE 6mg m/r tablets|
+|paliperidone v1|readv2|d4wx.00|PALIPERIDONE 9mg m/r tablets|
+|paliperidone v1|readv2|d4ww.00|*PALIPERIDONE 12mg m/r tablets|
+|paliperidone v1|readv2|d4wv.00|PALIPERIDONE 50mg suspension for injection prefilled syringe|
+|paliperidone v1|readv2|d4wu.00|PALIPERIDONE 75mg suspension for injection prefilled syringe|
+|paliperidone v1|readv2|d4wt.00|PALIPERIDONE 100mg suspension for injection pfs|
+|paliperidone v1|readv2|d4ws.00|PALIPERIDONE 150mg suspension for injection pfs|
+|paliperidone v1|readv2|d4wr.00|PALIPERIDONE 100mg + 150mg susp for inj prefilled syringes|
+|paliperidone v1|readv2|d4w9.00|XEPLION 100mg + 150mg susp for injection prefilled syringes|
+|paliperidone v1|readv2|d4w8.00|XEPLION 150mg suspension for injection prefilled syringe|
+|paliperidone v1|readv2|d4w7.00|XEPLION 100mg suspension for injection prefilled syringe|
+|paliperidone v1|readv2|d4w6.00|XEPLION 75mg suspension for injection prefilled syringe|
+|paliperidone v1|readv2|d4w5.00|XEPLION 50mg suspension for injection prefilled syringe|
+|paliperidone v1|readv2|d4w4.00|*INVEGA 12mg m/r tablets|
+|paliperidone v1|readv2|d4w3.00|INVEGA 9mg m/r tablets|
+|paliperidone v1|readv2|d4w2.00|INVEGA 6mg m/r tablets|
+|paliperidone v1|readv2|d4w1.00|INVEGA 3mg m/r tablets|
+|perphenazine v1|ctv3|x02LS|Perphenazine|
+|perphenazine v1|ctv3|o58z.|Perphenazine 5mg/1mL injection|
+|perphenazine v1|ctv3|d4b4.|Fentazin 5mg/1mL injection|
+|perphenazine v1|ctv3|o58..|Perphenazine [anaesthesia]|
+|perphenazine v1|ctv3|dhd..|Perphenazine [no drugs here]|
+|perphenazine v1|ctv3|d4bz.|Perphenazine 8mg tablet|
+|perphenazine v1|ctv3|d4b3.|Fentazin 8mg tablet|
+|perphenazine v1|ctv3|d4by.|Perphenazine 4mg tablet|
+|perphenazine v1|ctv3|d4b2.|Fentazin 4mg tablet|
+|perphenazine v1|ctv3|d4bx.|Perphenazine 2mg tablet|
+|perphenazine v1|ctv3|d4b1.|Fentazin 2mg tablet|
+|perphenazine v1|ctv3|d4b6.|Perphenazine 4mg/5mL s/f oral solution|
+|perphenazine v1|ctv3|d4b5.|Perphenazine 2mg/5mL s/f oral solution|
+|perphenazine v1|ctv3|d4b..|Perphenazine [central nervous system use]|
+|perphenazine v1|ctv3|d91D.|Amitriptyline hydrochloride+perphenazine 10mg/2mg tablet|
+|perphenazine v1|ctv3|d917.|Triptafen-M tablet|
+|perphenazine v1|ctv3|d91C.|Amitriptyline hydrochloride+perphenazine 25mg/2mg tablet|
+|perphenazine v1|ctv3|d916.|Triptafen tablet|
+|perphenazine v1|ctv3|x02tP|Triptafen-M|
+|perphenazine v1|ctv3|x02tO|Triptafen|
+|perphenazine v1|ctv3|x02cS|Fentazin|
+|perphenazine v1|emis|AMTA18788NEMIS|Amitriptyline And Perphenazine  Tablets  25 mg + 2 mg|
+|perphenazine v1|emis|AMTA18789NEMIS|Amitriptyline And Perphenazine  Tablets  10 mg + 2 mg|
+|perphenazine v1|emis|FETA1164|Fentazin  Tablets  2 mg|
+|perphenazine v1|emis|FETA1165|Fentazin  Tablets  4 mg|
+|perphenazine v1|emis|PETA2202|Perphenazine  Tablets  2 mg|
+|perphenazine v1|emis|PETA2203|Perphenazine  Tablets  4 mg|
+|perphenazine v1|emis|TRTA4462|Triptafen  Tablets  |
+|perphenazine v1|emis|TRTA4463|Triptafen-M  Tablets  |
+|perphenazine v1|emis|AMTA18788NEMIS|Amitriptyline And Perphenazine  Tablets  25 mg + 2 mg|
+|perphenazine v1|emis|AMTA18789NEMIS|Amitriptyline And Perphenazine  Tablets  10 mg + 2 mg|
+|perphenazine v1|emis|FETA1164|Fentazin  Tablets  2 mg|
+|perphenazine v1|emis|FETA1165|Fentazin  Tablets  4 mg|
+|perphenazine v1|emis|PETA2202|Perphenazine  Tablets  2 mg|
+|perphenazine v1|emis|PETA2203|Perphenazine  Tablets  4 mg|
+|perphenazine v1|emis|TRTA4462|Triptafen  Tablets  |
+|perphenazine v1|emis|TRTA4463|Triptafen-M  Tablets  |
+|perphenazine v1|readv2|d4b..00|PERPHENAZINE [CENTRAL NERVOUS SYSTEM USE]|
+|perphenazine v1|readv2|d4bz.00|*PERPHENAZINE 8mg tablets|
+|perphenazine v1|readv2|d4by.00|PERPHENAZINE 4mg tablets|
+|perphenazine v1|readv2|d4bx.00|PERPHENAZINE 2mg tablets|
+|perphenazine v1|readv2|d4b6.00|PERPHENAZINE 4mg/5mL sugar free solution|
+|perphenazine v1|readv2|d4b5.00|PERPHENAZINE 2mg/5mL sugar free solution|
+|perphenazine v1|readv2|d4b4.00|*FENTAZIN 5mg/1mL injection|
+|perphenazine v1|readv2|d4b3.00|*FENTAZIN 8mg tablets|
+|perphenazine v1|readv2|d4b2.00|FENTAZIN 4mg tablets|
+|perphenazine v1|readv2|d4b1.00|FENTAZIN 2mg tablets|
+|perphenazine v1|readv2|o58..00|*PERPHENAZINE [ANAESTHESIA]|
+|perphenazine v1|readv2|o58z.00|PERPHENAZINE 5mg/1mL injection|
+|perphenazine v1|readv2|o581.00|*FENTAZIN 5mg/1mL injection|
+|perphenazine v1|readv2|d917.00|*TRIPTAFEN-M tablets|
+|perphenazine v1|readv2|d916.00|TRIPTAFEN tablets|
+|perphenazine v1|readv2|dhd..00|*PERPHENAZINE [NO DRUGS HERE]|
+|pimozide v1|ctv3|d4c..|Pimozide|
+|pimozide v1|ctv3|d4cz.|Pimozide 10mg tablet|
+|pimozide v1|ctv3|d4c3.|Orap 10mg tablet|
+|pimozide v1|ctv3|d4cy.|Pimozide 4mg tablet|
+|pimozide v1|ctv3|d4c2.|Orap 4mg tablet|
+|pimozide v1|ctv3|d4cx.|Pimozide 2mg tablet|
+|pimozide v1|ctv3|d4c1.|Orap 2mg tablet|
+|pimozide v1|ctv3|x02m5|Orap|
+|pimozide v1|emis|ORTA2093|Orap  Tablets  10 mg|
+|pimozide v1|emis|ORTA2095|Orap  Tablets  2 mg|
+|pimozide v1|emis|ORTA2096|Orap  Tablets  4 mg|
+|pimozide v1|emis|PITA2262|Pimozide  Tablets  10 mg|
+|pimozide v1|emis|PITA2263|Pimozide  Tablets  2 mg|
+|pimozide v1|emis|PITA2264|Pimozide  Tablets  4 mg|
+|pimozide v1|emis|ORTA2095|Orap  Tablets  2 mg|
+|pimozide v1|emis|ORTA2096|Orap  Tablets  4 mg|
+|pimozide v1|emis|PITA2263|Pimozide  Tablets  2 mg|
+|pimozide v1|emis|PITA2264|Pimozide  Tablets  4 mg|
+|pimozide v1|readv2|d4c..00|PIMOZIDE|
+|pimozide v1|readv2|d4cz.00|*PIMOZIDE 10mg tablets|
+|pimozide v1|readv2|d4cy.00|PIMOZIDE 4mg tablets|
+|pimozide v1|readv2|d4cx.00|*PIMOZIDE 2mg tablets|
+|pimozide v1|readv2|d4c3.00|*ORAP 10mg tablets|
+|pimozide v1|readv2|d4c2.00|ORAP 4mg tablets|
+|pimozide v1|readv2|d4c1.00|*ORAP 2mg tablets|
+|quetiapine v1|ctv3|d4s..|Quetiapine|
+|quetiapine v1|ctv3|d4sp.|ALAQUET XL 400mg m/r tablets|
+|quetiapine v1|ctv3|d4so.|ALAQUET XL 300mg m/r tablets|
+|quetiapine v1|ctv3|d4sn.|ALAQUET XL 200mg m/r tablets|
+|quetiapine v1|ctv3|d4sm.|ALAQUET XL 150mg m/r tablets|
+|quetiapine v1|ctv3|d4sl.|ALAQUET XL 50mg m/r tablets|
+|quetiapine v1|ctv3|d4sk.|MINTRELEQ XL 400mg m/r tablets|
+|quetiapine v1|ctv3|d4sj.|MINTRELEQ XL 300mg m/r tablets|
+|quetiapine v1|ctv3|d4si.|MINTRELEQ XL 200mg m/r tablets|
+|quetiapine v1|ctv3|d4sh.|MINTRELEQ XL 150mg m/r tablets|
+|quetiapine v1|ctv3|d4sg.|MINTRELEQ XL 50mg m/r tablets|
+|quetiapine v1|ctv3|d4sf.|BIQUELLE XL 400mg m/r tablets|
+|quetiapine v1|ctv3|d4se.|BIQUELLE XL 300mg m/r tablets|
+|quetiapine v1|ctv3|d4sd.|BIQUELLE XL 200mg m/r tablets|
+|quetiapine v1|ctv3|d4sc.|BIQUELLE XL 150mg m/r tablets|
+|quetiapine v1|ctv3|d4sb.|BIQUELLE XL 50mg m/r tablets|
+|quetiapine v1|ctv3|d4sa.|ZALURON XL 400mg m/r tablets|
+|quetiapine v1|ctv3|d4sZ.|ZALURON XL 300mg m/r tablets|
+|quetiapine v1|ctv3|d4sY.|ZALURON XL 200mg m/r tablets|
+|quetiapine v1|ctv3|d4sX.|ZALURON XL 150mg m/r tablets|
+|quetiapine v1|ctv3|d4sW.|ZALURON XL 50mg m/r tablets|
+|quetiapine v1|ctv3|d4sV.|EBESQUE XL 400mg m/r tablets|
+|quetiapine v1|ctv3|d4sU.|EBESQUE XL 300mg m/r tablets|
+|quetiapine v1|ctv3|d4sT.|EBESQUE XL 200mg m/r tablets|
+|quetiapine v1|ctv3|d4sS.|EBESQUE XL 50mg m/r tablets|
+|quetiapine v1|ctv3|d4sR.|ATROLAK XL 400mg m/r tablets|
+|quetiapine v1|ctv3|d4sQ.|ATROLAK XL 50mg m/r tablets|
+|quetiapine v1|ctv3|d4sP.|SEOTIAPIM XL 400mg m/r tablets|
+|quetiapine v1|ctv3|d4sO.|SEOTIAPIM XL 300mg m/r tablets|
+|quetiapine v1|ctv3|d4sN.|SEOTIAPIM XL 200mg m/r tablets|
+|quetiapine v1|ctv3|d4sM.|ATROLAK XL 300mg m/r tablets|
+|quetiapine v1|ctv3|d4sL.|ATROLAK XL 200mg m/r tablets|
+|quetiapine v1|ctv3|d4sK.|SONDATE XL 400mg m/r tablets|
+|quetiapine v1|ctv3|d4sJ.|SONDATE XL 300mg m/r tablets|
+|quetiapine v1|ctv3|d4sI.|SONDATE XL 200mg m/r tablets|
+|quetiapine v1|ctv3|d4sH.|SONDATE XL 50mg m/r tablets|
+|quetiapine v1|ctv3|d4sG.|SEROQUEL XL 150mg m/r tablets|
+|quetiapine v1|ctv3|d4sF.|SEROQUEL XL 400mg m/r tablets|
+|quetiapine v1|ctv3|d4sE.|SEROQUEL XL 300mg m/r tablets|
+|quetiapine v1|ctv3|d4sD.|SEROQUEL XL 200mg m/r tablets|
+|quetiapine v1|ctv3|d4sC.|SEROQUEL XL 50mg m/r tablets|
+|quetiapine v1|ctv3|d4sz.|Quetiapine 150mg tablet|
+|quetiapine v1|ctv3|d4s9.|Seroquel 150mg tablet|
+|quetiapine v1|ctv3|d4sy.|Quetiapine 25mg+100mg+150mg tablet starter pack|
+|quetiapine v1|ctv3|d4sA.|Seroquel 25mg+100mg+150mg tablet starter pack|
+|quetiapine v1|ctv3|d4sx.|Quetiapine 300mg tablet|
+|quetiapine v1|ctv3|d4sB.|Seroquel 300mg tablet|
+|quetiapine v1|ctv3|d4sw.|QUETIAPINE 50mg m/r tablets|
+|quetiapine v1|ctv3|d4sv.|QUETIAPINE 200mg m/r tablets|
+|quetiapine v1|ctv3|d4su.|QUETIAPINE 300mg m/r tablets|
+|quetiapine v1|ctv3|d4st.|QUETIAPINE 400mg m/r tablets|
+|quetiapine v1|ctv3|d4ss.|QUETIAPINE 150mg m/r tablets|
+|quetiapine v1|ctv3|d4s4.|Quetiapine 25mg+100mg tablet starter pack|
+|quetiapine v1|ctv3|d4s8.|Seroquel 25mg+100mg tablet starter pack|
+|quetiapine v1|ctv3|d4s3.|Quetiapine 200mg tablet|
+|quetiapine v1|ctv3|d4s7.|Seroquel 200mg tablet|
+|quetiapine v1|ctv3|d4s2.|Quetiapine 100mg tablet|
+|quetiapine v1|ctv3|d4s6.|Seroquel 100mg tablet|
+|quetiapine v1|ctv3|d4s1.|Quetiapine 25mg tablet|
+|quetiapine v1|ctv3|d4s5.|Seroquel 25mg tablet|
+|quetiapine v1|ctv3|x03qI|Seroquel|
+|quetiapine v1|emis|BIM/98829NEMIS|Biquelle Xl  M/R tablets  150 mg|
+|quetiapine v1|emis|QUTA31563EMIS|Quetiapine Fumarate  Tablets  100 mg|
+|quetiapine v1|emis|SEM/31068NEMIS|Seroquel Xl  M/R tablets  400 mg|
+|quetiapine v1|emis|SETA16220NEMIS|Seroquel  Tablets  300 mg|
+|quetiapine v1|emis|ZAM/98835NEMIS|Zaluron Xl  M/R tablets  50 mg|
+|quetiapine v1|emis|SOM/71618NEMIS|Sondate Xl  M/R tablets  50 mg|
+|quetiapine v1|emis|ZAM/98835NEMIS|Zaluron Xl  M/R tablets  50 mg|
+|quetiapine v1|emis|MIM/101106NEMIS|Mintreleq Xl  M/R tablets  200 mg|
+|quetiapine v1|emis|ZAM/98837NEMIS|Zaluron Xl  M/R tablets  200 mg|
+|quetiapine v1|emis|BIM/98831NEMIS|Biquelle Xl  M/R tablets  300 mg|
+|quetiapine v1|emis|QUM/31060NEMIS|Quetiapine Fumarate  M/R tablets  50 mg|
+|quetiapine v1|emis|QUM/45842NEMIS|Quetiapine Fumarate  M/R tablets  150 mg|
+|quetiapine v1|emis|SEM/31068NEMIS|Seroquel Xl  M/R tablets  400 mg|
+|quetiapine v1|emis|SOM/71619NEMIS|Sondate Xl  M/R tablets  200 mg|
+|quetiapine v1|emis|MIM/101108NEMIS|Mintreleq Xl  M/R tablets  400 mg|
+|quetiapine v1|emis|QUM/31062NEMIS|Quetiapine Fumarate  M/R tablets  300 mg|
+|quetiapine v1|emis|EBM/94102NEMIS|Ebesque Xl  M/R tablets  200 mg|
+|quetiapine v1|emis|MIM/101107NEMIS|Mintreleq Xl  M/R tablets  300 mg|
+|quetiapine v1|emis|MIM/101108NEMIS|Mintreleq Xl  M/R tablets  400 mg|
+|quetiapine v1|emis|SEM/31065NEMIS|Seroquel Xl  M/R tablets  50 mg|
+|quetiapine v1|emis|SEM/78913NEMIS|Seotiapim Xl  M/R tablets  200 mg|
+|quetiapine v1|emis|SETA16220NEMIS|Seroquel  Tablets  300 mg|
+|quetiapine v1|emis|SOM/71620NEMIS|Sondate Xl  M/R tablets  300 mg|
+|quetiapine v1|emis|MIM/101107NEMIS|Mintreleq Xl  M/R tablets  300 mg|
+|quetiapine v1|emis|QUM/31060NEMIS|Quetiapine Fumarate  M/R tablets  50 mg|
+|quetiapine v1|emis|SEM/31065NEMIS|Seroquel Xl  M/R tablets  50 mg|
+|quetiapine v1|emis|SEM/45843NEMIS|Seroquel Xl  M/R tablets  150 mg|
+|quetiapine v1|emis|SEM/78914NEMIS|Seotiapim Xl  M/R tablets  300 mg|
+|quetiapine v1|emis|SETA31556EMIS|Seroquel  Tablets  200 mg|
+|quetiapine v1|emis|SOM/71621NEMIS|Sondate Xl  M/R tablets  400 mg|
+|quetiapine v1|emis|ZAM/98836NEMIS|Zaluron Xl  M/R tablets  150 mg|
+|quetiapine v1|emis|BIM/98832NEMIS|Biquelle Xl  M/R tablets  400 mg|
+|quetiapine v1|emis|MIM/101106NEMIS|Mintreleq Xl  M/R tablets  200 mg|
+|quetiapine v1|emis|QUM/31063NEMIS|Quetiapine Fumarate  M/R tablets  400 mg|
+|quetiapine v1|emis|QUTA16219NEMIS|Quetiapine Fumarate  Tablets  300 mg|
+|quetiapine v1|emis|SEM/78914NEMIS|Seotiapim Xl  M/R tablets  300 mg|
+|quetiapine v1|emis|SETA31555EMIS|Seroquel  Tablets  100 mg|
+|quetiapine v1|emis|QUM/45842NEMIS|Quetiapine Fumarate  M/R tablets  150 mg|
+|quetiapine v1|emis|QUTA31564EMIS|Quetiapine Fumarate  Tablets  200 mg|
+|quetiapine v1|emis|SETA31555EMIS|Seroquel  Tablets  100 mg|
+|quetiapine v1|emis|SETA31557EMIS|Seroquel  Tablets  25 mg|
+|quetiapine v1|emis|SOM/71618NEMIS|Sondate Xl  M/R tablets  50 mg|
+|quetiapine v1|emis|BIM/98829NEMIS|Biquelle Xl  M/R tablets  150 mg|
+|quetiapine v1|emis|BIM/98830NEMIS|Biquelle Xl  M/R tablets  200 mg|
+|quetiapine v1|emis|EBM/94089NEMIS|Ebesque Xl  M/R tablets  50 mg|
+|quetiapine v1|emis|EBM/94113NEMIS|Ebesque Xl  M/R tablets  400 mg|
+|quetiapine v1|emis|MIM/101104NEMIS|Mintreleq Xl  M/R tablets  50 mg|
+|quetiapine v1|emis|QUTA31563EMIS|Quetiapine Fumarate  Tablets  100 mg|
+|quetiapine v1|emis|QUTA959NEMIS|Quetiapine Fumarate  Tablets  150 mg|
+|quetiapine v1|emis|SOM/71621NEMIS|Sondate Xl  M/R tablets  400 mg|
+|quetiapine v1|emis|BIM/98828NEMIS|Biquelle Xl  M/R tablets  50 mg|
+|quetiapine v1|emis|BIM/98832NEMIS|Biquelle Xl  M/R tablets  400 mg|
+|quetiapine v1|emis|EBM/94102NEMIS|Ebesque Xl  M/R tablets  200 mg|
+|quetiapine v1|emis|EBM/94110NEMIS|Ebesque Xl  M/R tablets  300 mg|
+|quetiapine v1|emis|MIM/101105NEMIS|Mintreleq Xl  M/R tablets  150 mg|
+|quetiapine v1|emis|QUTA31566EMIS|Quetiapine Fumarate  Tablets (starter pack)  6 x 25 mg, 2 x 100 mg|
+|quetiapine v1|emis|SEM/31066NEMIS|Seroquel Xl  M/R tablets  200 mg|
+|quetiapine v1|emis|SEM/31067NEMIS|Seroquel Xl  M/R tablets  300 mg|
+|quetiapine v1|emis|SEM/78913NEMIS|Seotiapim Xl  M/R tablets  200 mg|
+|quetiapine v1|emis|SETA803NEMIS|Seroquel  Tablets (starter pack)  6x25 mg, 2x100 mg, 2x150 mg|
+|quetiapine v1|emis|SETA960NEMIS|Seroquel  Tablets  150 mg|
+|quetiapine v1|emis|BIM/98828NEMIS|Biquelle Xl  M/R tablets  50 mg|
+|quetiapine v1|emis|MIM/101105NEMIS|Mintreleq Xl  M/R tablets  150 mg|
+|quetiapine v1|emis|SEM/31067NEMIS|Seroquel Xl  M/R tablets  300 mg|
+|quetiapine v1|emis|SETA960NEMIS|Seroquel  Tablets  150 mg|
+|quetiapine v1|emis|ZAM/98837NEMIS|Zaluron Xl  M/R tablets  200 mg|
+|quetiapine v1|emis|BIM/98830NEMIS|Biquelle Xl  M/R tablets  200 mg|
+|quetiapine v1|emis|BIM/98831NEMIS|Biquelle Xl  M/R tablets  300 mg|
+|quetiapine v1|emis|EBM/94089NEMIS|Ebesque Xl  M/R tablets  50 mg|
+|quetiapine v1|emis|EBM/94113NEMIS|Ebesque Xl  M/R tablets  400 mg|
+|quetiapine v1|emis|MIM/101104NEMIS|Mintreleq Xl  M/R tablets  50 mg|
+|quetiapine v1|emis|QUM/31061NEMIS|Quetiapine Fumarate  M/R tablets  200 mg|
+|quetiapine v1|emis|QUM/31063NEMIS|Quetiapine Fumarate  M/R tablets  400 mg|
+|quetiapine v1|emis|QUTA16219NEMIS|Quetiapine Fumarate  Tablets  300 mg|
+|quetiapine v1|emis|QUTA959NEMIS|Quetiapine Fumarate  Tablets  150 mg|
+|quetiapine v1|emis|SOM/71619NEMIS|Sondate Xl  M/R tablets  200 mg|
+|quetiapine v1|emis|ZAM/98839NEMIS|Zaluron Xl  M/R tablets  400 mg|
+|quetiapine v1|emis|EBM/94110NEMIS|Ebesque Xl  M/R tablets  300 mg|
+|quetiapine v1|emis|QUM/31062NEMIS|Quetiapine Fumarate  M/R tablets  300 mg|
+|quetiapine v1|emis|SETA31557EMIS|Seroquel  Tablets  25 mg|
+|quetiapine v1|emis|ZAM/98836NEMIS|Zaluron Xl  M/R tablets  150 mg|
+|quetiapine v1|emis|ZAM/98839NEMIS|Zaluron Xl  M/R tablets  400 mg|
+|quetiapine v1|emis|QUTA31565EMIS|Quetiapine Fumarate  Tablets  25 mg|
+|quetiapine v1|emis|SETA31558EMIS|Seroquel  Tablets (starter pack)  6 x 25 mg, 2 x 100 mg|
+|quetiapine v1|emis|SOM/71620NEMIS|Sondate Xl  M/R tablets  300 mg|
+|quetiapine v1|emis|ZAM/98838NEMIS|Zaluron Xl  M/R tablets  300 mg|
+|quetiapine v1|emis|QUM/31061NEMIS|Quetiapine Fumarate  M/R tablets  200 mg|
+|quetiapine v1|emis|QUTA31564EMIS|Quetiapine Fumarate  Tablets  200 mg|
+|quetiapine v1|emis|QUTA31565EMIS|Quetiapine Fumarate  Tablets  25 mg|
+|quetiapine v1|emis|SEM/31066NEMIS|Seroquel Xl  M/R tablets  200 mg|
+|quetiapine v1|emis|SEM/45843NEMIS|Seroquel Xl  M/R tablets  150 mg|
+|quetiapine v1|emis|SETA31556EMIS|Seroquel  Tablets  200 mg|
+|quetiapine v1|emis|ZAM/98838NEMIS|Zaluron Xl  M/R tablets  300 mg|
+|quetiapine v1|readv2|d4s..00|QUETIAPINE|
+|quetiapine v1|readv2|d4sz.00|QUETIAPINE 150mg tablets|
+|quetiapine v1|readv2|d4sy.00|QUETIAPINE 25mg+100mg+150mg tablets starter pack|
+|quetiapine v1|readv2|d4sx.00|QUETIAPINE 300mg tablets|
+|quetiapine v1|readv2|d4sw.00|QUETIAPINE 50mg m/r tablets|
+|quetiapine v1|readv2|d4sv.00|QUETIAPINE 200mg m/r tablets|
+|quetiapine v1|readv2|d4su.00|QUETIAPINE 300mg m/r tablets|
+|quetiapine v1|readv2|d4st.00|QUETIAPINE 400mg m/r tablets|
+|quetiapine v1|readv2|d4ss.00|QUETIAPINE 150mg m/r tablets|
+|quetiapine v1|readv2|d4s4.00|QUETIAPINE 25mg+100mg tablets starter pack|
+|quetiapine v1|readv2|d4s3.00|QUETIAPINE 200mg tablets|
+|quetiapine v1|readv2|d4s2.00|QUETIAPINE 100mg tablets|
+|quetiapine v1|readv2|d4s1.00|QUETIAPINE 25mg tablets|
+|quetiapine v1|readv2|d4sp.00|ALAQUET XL 400mg m/r tablets|
+|quetiapine v1|readv2|d4so.00|ALAQUET XL 300mg m/r tablets|
+|quetiapine v1|readv2|d4sn.00|ALAQUET XL 200mg m/r tablets|
+|quetiapine v1|readv2|d4sm.00|ALAQUET XL 150mg m/r tablets|
+|quetiapine v1|readv2|d4sl.00|ALAQUET XL 50mg m/r tablets|
+|quetiapine v1|readv2|d4sk.00|MINTRELEQ XL 400mg m/r tablets|
+|quetiapine v1|readv2|d4sj.00|MINTRELEQ XL 300mg m/r tablets|
+|quetiapine v1|readv2|d4si.00|MINTRELEQ XL 200mg m/r tablets|
+|quetiapine v1|readv2|d4sh.00|MINTRELEQ XL 150mg m/r tablets|
+|quetiapine v1|readv2|d4sg.00|MINTRELEQ XL 50mg m/r tablets|
+|quetiapine v1|readv2|d4sf.00|BIQUELLE XL 400mg m/r tablets|
+|quetiapine v1|readv2|d4se.00|BIQUELLE XL 300mg m/r tablets|
+|quetiapine v1|readv2|d4sd.00|BIQUELLE XL 200mg m/r tablets|
+|quetiapine v1|readv2|d4sc.00|BIQUELLE XL 150mg m/r tablets|
+|quetiapine v1|readv2|d4sb.00|BIQUELLE XL 50mg m/r tablets|
+|quetiapine v1|readv2|d4sa.00|ZALURON XL 400mg m/r tablets|
+|quetiapine v1|readv2|d4sZ.00|ZALURON XL 300mg m/r tablets|
+|quetiapine v1|readv2|d4sY.00|ZALURON XL 200mg m/r tablets|
+|quetiapine v1|readv2|d4sX.00|ZALURON XL 150mg m/r tablets|
+|quetiapine v1|readv2|d4sW.00|ZALURON XL 50mg m/r tablets|
+|quetiapine v1|readv2|d4sV.00|EBESQUE XL 400mg m/r tablets|
+|quetiapine v1|readv2|d4sU.00|EBESQUE XL 300mg m/r tablets|
+|quetiapine v1|readv2|d4sT.00|EBESQUE XL 200mg m/r tablets|
+|quetiapine v1|readv2|d4sS.00|EBESQUE XL 50mg m/r tablets|
+|quetiapine v1|readv2|d4sR.00|ATROLAK XL 400mg m/r tablets|
+|quetiapine v1|readv2|d4sQ.00|ATROLAK XL 50mg m/r tablets|
+|quetiapine v1|readv2|d4sP.00|SEOTIAPIM XL 400mg m/r tablets|
+|quetiapine v1|readv2|d4sO.00|SEOTIAPIM XL 300mg m/r tablets|
+|quetiapine v1|readv2|d4sN.00|SEOTIAPIM XL 200mg m/r tablets|
+|quetiapine v1|readv2|d4sM.00|ATROLAK XL 300mg m/r tablets|
+|quetiapine v1|readv2|d4sL.00|ATROLAK XL 200mg m/r tablets|
+|quetiapine v1|readv2|d4sK.00|SONDATE XL 400mg m/r tablets|
+|quetiapine v1|readv2|d4sJ.00|SONDATE XL 300mg m/r tablets|
+|quetiapine v1|readv2|d4sI.00|SONDATE XL 200mg m/r tablets|
+|quetiapine v1|readv2|d4sH.00|SONDATE XL 50mg m/r tablets|
+|quetiapine v1|readv2|d4sG.00|SEROQUEL XL 150mg m/r tablets|
+|quetiapine v1|readv2|d4sF.00|SEROQUEL XL 400mg m/r tablets|
+|quetiapine v1|readv2|d4sE.00|SEROQUEL XL 300mg m/r tablets|
+|quetiapine v1|readv2|d4sD.00|SEROQUEL XL 200mg m/r tablets|
+|quetiapine v1|readv2|d4sC.00|SEROQUEL XL 50mg m/r tablets|
+|quetiapine v1|readv2|d4sB.00|SEROQUEL 300mg tablets|
+|quetiapine v1|readv2|d4sA.00|SEROQUEL 25mg+100mg+150mg tablets starter pack|
+|quetiapine v1|readv2|d4s9.00|SEROQUEL 150mg tablets|
+|quetiapine v1|readv2|d4s8.00|SEROQUEL 25mg+100mg tablets starter pack|
+|quetiapine v1|readv2|d4s7.00|SEROQUEL 200mg tablets|
+|quetiapine v1|readv2|d4s6.00|SEROQUEL 100mg tablets|
+|quetiapine v1|readv2|d4s5.00|SEROQUEL 25mg tablets|
+|risperidone v1|ctv3|d4p..|Risperidone|
+|risperidone v1|ctv3|x05gC|Parenteral risperidone|
+|risperidone v1|ctv3|d4py.|Risperidone 25mg powder+solvent for suspension for injection|
+|risperidone v1|ctv3|d4pE.|Risperdal Consta 25mg powder+solvent for suspension for injection|
+|risperidone v1|ctv3|d4px.|Risperidone 37.5mg powder+solvent for suspension for injection|
+|risperidone v1|ctv3|d4pF.|Risperdal Consta 37.5mg powder+solvent for suspension for injection|
+|risperidone v1|ctv3|d4pw.|Risperidone 50mg powder+solvent for suspension for injection|
+|risperidone v1|ctv3|d4pG.|Risperdal Consta 50mg powder+solvent for suspension for injection|
+|risperidone v1|ctv3|x05gB|Oral risperidone|
+|risperidone v1|ctv3|d4pz.|Risperidone 0.5mg tablet|
+|risperidone v1|ctv3|d4pD.|Risperdal 0.5mg tablet|
+|risperidone v1|ctv3|d4pR.|RISPERIDONE 4mg oro-dispersible tablets|
+|risperidone v1|ctv3|d4pP.|RISPERDAL QUICKLET 4mg oro-dispersible tablets|
+|risperidone v1|ctv3|d4pQ.|RISPERIDONE 3mg oro-dispersible tablets|
+|risperidone v1|ctv3|d4pO.|RISPERDAL QUICKLET 3mg oro-dispersible tablets|
+|risperidone v1|ctv3|d4pM.|Risperidone 0.5mg oro-dispersible tablet|
+|risperidone v1|ctv3|d4pN.|Risperdal Quicklet 0.5mg oro-dispersible tablet|
+|risperidone v1|ctv3|d4pJ.|Risperidone 2mg oro-dispersible tablet|
+|risperidone v1|ctv3|d4pL.|Risperdal Quicklet 2mg oro-dispersible tablet|
+|risperidone v1|ctv3|d4pH.|Risperidone 1mg oro-dispersible tablet|
+|risperidone v1|ctv3|d4pK.|Risperdal Quicklet 1mg oro-dispersible tablet|
+|risperidone v1|ctv3|d4pB.|Risperidone 6mg tablet|
+|risperidone v1|ctv3|d4pC.|Risperdal 6mg tablet|
+|risperidone v1|ctv3|d4p9.|Risperidone 1mg/mL liquid|
+|risperidone v1|ctv3|d4pA.|Risperdal 1mg/mL liquid|
+|risperidone v1|ctv3|d4p4.|Risperidone 4mg tablet|
+|risperidone v1|ctv3|d4p8.|Risperdal 4mg tablet|
+|risperidone v1|ctv3|d4p3.|Risperidone 3mg tablet|
+|risperidone v1|ctv3|d4p7.|Risperdal 3mg tablet|
+|risperidone v1|ctv3|d4p2.|Risperidone 2mg tablet|
+|risperidone v1|ctv3|d4p6.|Risperdal 2mg tablet|
+|risperidone v1|ctv3|d4p1.|Risperidone 1mg tablet|
+|risperidone v1|ctv3|d4p5.|Risperdal 1mg tablet|
+|risperidone v1|ctv3|d4pS.|RISPERIDONE 1mg/mL oral solution|
+|risperidone v1|ctv3|x05kh|Risperdal Quicklet|
+|risperidone v1|ctv3|x05gE|Risperdal Consta|
+|risperidone v1|ctv3|x02ps|Risperdal|
+|risperidone v1|emis|RILI28308EMIS|Risperdal  Oral solution  1 mg/1 ml|
+|risperidone v1|emis|RILI28310EMIS|Risperidone  Oral Solution, Sugar Free  1 mg/1 ml|
+|risperidone v1|emis|RIOR14731NEMIS|Risperidone  Orodispersible tablets  Sugar Free 1 mg|
+|risperidone v1|emis|RIOR14732NEMIS|Risperidone  Orodispersible tablets  Sugar Free 2 mg|
+|risperidone v1|emis|RIOR14734NEMIS|Risperdal Quicklet  Orodispersible tablets  1 mg|
+|risperidone v1|emis|RIOR14735NEMIS|Risperdal Quicklet  Orodispersible tablets  2 mg|
+|risperidone v1|emis|RIOR19655NEMIS|Risperidone  Orodispersible tablets  Sugar Free 500 micrograms|
+|risperidone v1|emis|RIOR19656NEMIS|Risperdal Quicklet  Orodispersible tablets  500 micrograms|
+|risperidone v1|emis|RIOR23720NEMIS|Risperidone  Orodispersible tablets  Sugar Free 3 mg|
+|risperidone v1|emis|RIOR23721NEMIS|Risperidone  Orodispersible tablets  Sugar Free 4 mg|
+|risperidone v1|emis|RIOR23722NEMIS|Risperdal Quicklet  Orodispersible tablets  3 mg|
+|risperidone v1|emis|RIOR23723NEMIS|Risperdal Quicklet  Orodispersible tablets  4 mg|
+|risperidone v1|emis|RIPO13559NEMIS|Risperdal Consta  Powder and solvent for suspension for injection  25 mg vial|
+|risperidone v1|emis|RIPO13560NEMIS|Risperdal Consta  Powder and solvent for suspension for injection  37.5 mg vial|
+|risperidone v1|emis|RIPO13561NEMIS|Risperdal Consta  Powder and solvent for suspension for injection  50 mg vial|
+|risperidone v1|emis|RIPO13562NEMIS|Risperidone  Powder and solvent for suspension for injection  25 mg vial|
+|risperidone v1|emis|RIPO13563NEMIS|Risperidone  Powder and solvent for suspension for injection  37.5 mg vial|
+|risperidone v1|emis|RIPO13564NEMIS|Risperidone  Powder and solvent for suspension for injection  50 mg vial|
+|risperidone v1|emis|RITA23782EMIS|Risperdal  Tablets  1 mg|
+|risperidone v1|emis|RITA23783EMIS|Risperdal  Tablets  2 mg|
+|risperidone v1|emis|RITA23784EMIS|Risperdal  Tablets  3 mg|
+|risperidone v1|emis|RITA23785EMIS|Risperdal  Tablets  4 mg|
+|risperidone v1|emis|RITA23790EMIS|Risperidone  Tablets  1 mg|
+|risperidone v1|emis|RITA23791EMIS|Risperidone  Tablets  2 mg|
+|risperidone v1|emis|RITA23792EMIS|Risperidone  Tablets  3 mg|
+|risperidone v1|emis|RITA23793EMIS|Risperidone  Tablets  4 mg|
+|risperidone v1|emis|RITA31679EMIS|Risperdal  Tablets  6 mg|
+|risperidone v1|emis|RITA31681EMIS|Risperidone  Tablets  6 mg|
+|risperidone v1|emis|RITA5272NEMIS|Risperdal  Tablets  500 micrograms|
+|risperidone v1|emis|RITA5273NEMIS|Risperidone  Tablets  500 micrograms|
+|risperidone v1|emis|RILI28308EMIS|Risperdal  Oral solution  1 mg/1 ml|
+|risperidone v1|emis|RILI28310EMIS|Risperidone  Oral Solution, Sugar Free  1 mg/1 ml|
+|risperidone v1|emis|RIOR14731NEMIS|Risperidone  Orodispersible tablets  Sugar Free 1 mg|
+|risperidone v1|emis|RIOR14732NEMIS|Risperidone  Orodispersible tablets  Sugar Free 2 mg|
+|risperidone v1|emis|RIOR14734NEMIS|Risperdal Quicklet  Orodispersible tablets  1 mg|
+|risperidone v1|emis|RIOR14735NEMIS|Risperdal Quicklet  Orodispersible tablets  2 mg|
+|risperidone v1|emis|RIOR19655NEMIS|Risperidone  Orodispersible tablets  Sugar Free 500 micrograms|
+|risperidone v1|emis|RIOR19656NEMIS|Risperdal Quicklet  Orodispersible tablets  500 micrograms|
+|risperidone v1|emis|RIOR23720NEMIS|Risperidone  Orodispersible tablets  Sugar Free 3 mg|
+|risperidone v1|emis|RIOR23721NEMIS|Risperidone  Orodispersible tablets  Sugar Free 4 mg|
+|risperidone v1|emis|RIOR23722NEMIS|Risperdal Quicklet  Orodispersible tablets  3 mg|
+|risperidone v1|emis|RIOR23723NEMIS|Risperdal Quicklet  Orodispersible tablets  4 mg|
+|risperidone v1|emis|RIPO13559NEMIS|Risperdal Consta  Powder and solvent for suspension for injection  25 mg vial|
+|risperidone v1|emis|RIPO13560NEMIS|Risperdal Consta  Powder and solvent for suspension for injection  37.5 mg vial|
+|risperidone v1|emis|RIPO13561NEMIS|Risperdal Consta  Powder and solvent for suspension for injection  50 mg vial|
+|risperidone v1|emis|RIPO13562NEMIS|Risperidone  Powder and solvent for suspension for injection  25 mg vial|
+|risperidone v1|emis|RIPO13563NEMIS|Risperidone  Powder and solvent for suspension for injection  37.5 mg vial|
+|risperidone v1|emis|RIPO13564NEMIS|Risperidone  Powder and solvent for suspension for injection  50 mg vial|
+|risperidone v1|emis|RITA23782EMIS|Risperdal  Tablets  1 mg|
+|risperidone v1|emis|RITA23783EMIS|Risperdal  Tablets  2 mg|
+|risperidone v1|emis|RITA23784EMIS|Risperdal  Tablets  3 mg|
+|risperidone v1|emis|RITA23785EMIS|Risperdal  Tablets  4 mg|
+|risperidone v1|emis|RITA23790EMIS|Risperidone  Tablets  1 mg|
+|risperidone v1|emis|RITA23791EMIS|Risperidone  Tablets  2 mg|
+|risperidone v1|emis|RITA23792EMIS|Risperidone  Tablets  3 mg|
+|risperidone v1|emis|RITA23793EMIS|Risperidone  Tablets  4 mg|
+|risperidone v1|emis|RITA31679EMIS|Risperdal  Tablets  6 mg|
+|risperidone v1|emis|RITA31681EMIS|Risperidone  Tablets  6 mg|
+|risperidone v1|emis|RITA5272NEMIS|Risperdal  Tablets  500 micrograms|
+|risperidone v1|emis|RITA5273NEMIS|Risperidone  Tablets  500 micrograms|
+|risperidone v1|readv2|d4p..00|RISPERIDONE|
+|risperidone v1|readv2|d4pz.00|RISPERIDONE 0.5mg tablets|
+|risperidone v1|readv2|d4py.00|RISPERIDONE 25mg powder+solvent for suspension for injection|
+|risperidone v1|readv2|d4px.00|RISPERIDONE 37.5mg powder+solvent for suspension for injection|
+|risperidone v1|readv2|d4pw.00|RISPERIDONE 50mg powder+solvent for suspension for injection|
+|risperidone v1|readv2|d4pS.00|RISPERIDONE 1mg/mL oral solution|
+|risperidone v1|readv2|d4pR.00|RISPERIDONE 4mg oro-dispersible tablets|
+|risperidone v1|readv2|d4pQ.00|RISPERIDONE 3mg oro-dispersible tablets|
+|risperidone v1|readv2|d4pM.00|RISPERIDONE 0.5mg oro-dispersible tablets|
+|risperidone v1|readv2|d4pJ.00|RISPERIDONE 2mg oro-dispersible tablets|
+|risperidone v1|readv2|d4pH.00|RISPERIDONE 1mg oro-dispersible tablets|
+|risperidone v1|readv2|d4pB.00|RISPERIDONE 6mg tablets|
+|risperidone v1|readv2|d4p9.00|RISPERIDONE 1mg/mL liquid|
+|risperidone v1|readv2|d4p4.00|RISPERIDONE 4mg tablets|
+|risperidone v1|readv2|d4p3.00|RISPERIDONE 3mg tablets|
+|risperidone v1|readv2|d4p2.00|RISPERIDONE 2mg tablets|
+|risperidone v1|readv2|d4p1.00|RISPERIDONE 1mg tablets|
+|risperidone v1|readv2|d4pP.00|RISPERDAL QUICKLET 4mg oro-dispersible tablets|
+|risperidone v1|readv2|d4pO.00|RISPERDAL QUICKLET 3mg oro-dispersible tablets|
+|risperidone v1|readv2|d4pN.00|RISPERDAL QUICKLET 0.5mg oro-dispersible tablets|
+|risperidone v1|readv2|d4pL.00|RISPERDAL QUICKLET 2mg oro-dispersible tablets|
+|risperidone v1|readv2|d4pK.00|RISPERDAL QUICKLET 1mg oro-dispersible tablets|
+|risperidone v1|readv2|d4pG.00|RISPERDAL CONSTA 50mg powder+solvent for suspension for injection|
+|risperidone v1|readv2|d4pF.00|RISPERDAL CONSTA 37.5mg powder+solvent for suspension for injection|
+|risperidone v1|readv2|d4pE.00|RISPERDAL CONSTA 25mg powder+solvent for suspension for injection|
+|risperidone v1|readv2|d4pD.00|RISPERDAL 0.5mg tablets|
+|risperidone v1|readv2|d4pC.00|RISPERDAL 6mg tablets|
+|risperidone v1|readv2|d4pA.00|RISPERDAL 1mg/mL liquid|
+|risperidone v1|readv2|d4p8.00|RISPERDAL 4mg tablets|
+|risperidone v1|readv2|d4p7.00|RISPERDAL 3mg tablets|
+|risperidone v1|readv2|d4p6.00|RISPERDAL 2mg tablets|
+|risperidone v1|readv2|d4p5.00|RISPERDAL 1mg tablets|
+|sertindole v1|ctv3|d4q..|Sertindole|
+|sertindole v1|ctv3|d4q4.|Sertindole 20mg tablet|
+|sertindole v1|ctv3|d4q8.|Serdolect 20mg tablet|
+|sertindole v1|ctv3|d4q3.|Sertindole 16mg tablet|
+|sertindole v1|ctv3|d4q7.|Serdolect 16mg tablet|
+|sertindole v1|ctv3|d4q2.|Sertindole 12mg tablet|
+|sertindole v1|ctv3|d4q6.|Serdolect 12mg tablet|
+|sertindole v1|ctv3|d4q1.|Sertindole 4mg tablet|
+|sertindole v1|ctv3|d4q5.|Serdolect 4mg tablet|
+|sertindole v1|ctv3|x03hI|Serdolect|
+|sertindole v1|emis|SETA29201EMIS|Serdolect  Tablets  4 mg|
+|sertindole v1|emis|SETA29206EMIS|Sertindole  Tablets  12 mg|
+|sertindole v1|emis|SETA29208EMIS|Sertindole  Tablets  20 mg|
+|sertindole v1|emis|SETA29209EMIS|Sertindole  Tablets  4 mg|
+|sertindole v1|emis|SETA29201EMIS|Serdolect  Tablets  4 mg|
+|sertindole v1|emis|SETA29206EMIS|Sertindole  Tablets  12 mg|
+|sertindole v1|emis|SETA29208EMIS|Sertindole  Tablets  20 mg|
+|sertindole v1|emis|SETA29209EMIS|Sertindole  Tablets  4 mg|
+|sertindole v1|readv2|d4q..00|SERTINDOLE|
+|sertindole v1|readv2|d4q4.00|SERTINDOLE 20mg tablets|
+|sertindole v1|readv2|d4q3.00|SERTINDOLE 16mg tablets|
+|sertindole v1|readv2|d4q2.00|SERTINDOLE 12mg tablets|
+|sertindole v1|readv2|d4q1.00|SERTINDOLE 4mg tablets|
+|sertindole v1|readv2|d4q8.00|SERDOLECT 20mg tablets|
+|sertindole v1|readv2|d4q7.00|SERDOLECT 16mg tablets|
+|sertindole v1|readv2|d4q6.00|SERDOLECT 12mg tablets|
+|sertindole v1|readv2|d4q5.00|SERDOLECT 4mg tablets|
+|sulpiride v1|ctv3|d4f..|Sulpiride|
+|sulpiride v1|ctv3|d4fz.|Sulpiride 200mg tablet|
+|sulpiride v1|ctv3|x00g2|Sulpitil 200mg tablet|
+|sulpiride v1|ctv3|d4f3.|Sulpitil 200mg tablets x112CP|
+|sulpiride v1|ctv3|d4f2.|Sulpitil 200mg tablets x28CP|
+|sulpiride v1|ctv3|d4f4.|Sulparex 200mg tablet|
+|sulpiride v1|ctv3|d4f1.|Dolmatil 200mg tablet|
+|sulpiride v1|ctv3|d4fy.|Sulpiride 200mg/5mL s/f oral solution|
+|sulpiride v1|ctv3|d4fx.|Sulpiride 400mg tablet|
+|sulpiride v1|ctv3|d4f5.|Dolmatil 400mg tablet|
+|sulpiride v1|ctv3|d4fw.|Sulpiride 200mg/5mL oral solution|
+|sulpiride v1|ctv3|d4f6.|Sulpor 200mg/5mL oral solution|
+|sulpiride v1|ctv3|x05ZZ|Sulpor|
+|sulpiride v1|ctv3|x048g|Sulpitil|
+|sulpiride v1|ctv3|x02rk|Sulparex|
+|sulpiride v1|ctv3|x02aH|Dolmatil|
+|sulpiride v1|emis|DOTA28250EMIS|Dolmatil  Tablets  400 mg|
+|sulpiride v1|emis|DOTA961|Dolmatil  Tablets  200 mg|
+|sulpiride v1|emis|SUOR11892NEMIS|Sulpor  Sugar-free oral solution  200 mg/5 ml|
+|sulpiride v1|emis|SUSU32911EMIS|Sulpiride  Sugar-free oral solution  200 mg/5 ml|
+|sulpiride v1|emis|SUTA2733|Sulpiride  Tablets  200 mg|
+|sulpiride v1|emis|SUTA2734|Sulpitil  Tablets  200 mg|
+|sulpiride v1|emis|SUTA28248EMIS|Sulpiride  Tablets  400 mg|
+|sulpiride v1|emis|SUTA3785NEMIS|Sulparex  Tablets  200 mg|
+|sulpiride v1|emis|DOTA28250EMIS|Dolmatil  Tablets  400 mg|
+|sulpiride v1|emis|DOTA961|Dolmatil  Tablets  200 mg|
+|sulpiride v1|emis|SUOR11892NEMIS|Sulpor  Sugar-free oral solution  200 mg/5 ml|
+|sulpiride v1|emis|SUSU32911EMIS|Sulpiride  Sugar-free oral solution  200 mg/5 ml|
+|sulpiride v1|emis|SUTA2733|Sulpiride  Tablets  200 mg|
+|sulpiride v1|emis|SUTA2734|Sulpitil  Tablets  200 mg|
+|sulpiride v1|emis|SUTA28248EMIS|Sulpiride  Tablets  400 mg|
+|sulpiride v1|readv2|d4f..00|SULPIRIDE|
+|sulpiride v1|readv2|d4fz.00|SULPIRIDE 200mg tablets|
+|sulpiride v1|readv2|d4fy.00|SULPIRIDE 200mg/5mL sugar free solution|
+|sulpiride v1|readv2|d4fx.00|SULPIRIDE 400mg tablets|
+|sulpiride v1|readv2|d4fw.00|SULPIRIDE 200mg/5mL oral solution|
+|sulpiride v1|readv2|d4f6.00|SULPOR 200mg/5mL oral solution|
+|sulpiride v1|readv2|d4f5.00|DOLMATIL 400mg tablets|
+|sulpiride v1|readv2|d4f4.00|*SULPAREX 200mg tablets|
+|sulpiride v1|readv2|d4f3.00|*SULPITIL 200mg tablets x112CP|
+|sulpiride v1|readv2|d4f2.00|*SULPITIL 200mg tablets x28CP|
+|sulpiride v1|readv2|d4f1.00|DOLMATIL 200mg tablets|
+|thioridazine v1|ctv3|x01BY|Thioridazine|
+|thioridazine v1|ctv3|d4gz.|Thioridazine 25mg/5mL oral solution|
+|thioridazine v1|ctv3|d4g7.|Melleril 25mg/5mL syrup|
+|thioridazine v1|ctv3|d4gy.|Thioridazine 100mg/5mL oral suspension|
+|thioridazine v1|ctv3|d4g6.|Melleril 100mg/5mL oral suspension|
+|thioridazine v1|ctv3|d4gx.|Thioridazine 25mg/5mL oral suspension|
+|thioridazine v1|ctv3|d4g5.|Melleril 25mg/5mL suspension|
+|thioridazine v1|ctv3|d4gw.|Thioridazine hydrochloride 100mg tablet|
+|thioridazine v1|ctv3|d4gA.|Rideril 100mg tablet|
+|thioridazine v1|ctv3|d4g4.|Melleril 100mg tablet|
+|thioridazine v1|ctv3|d4gv.|Thioridazine hydrochloride 50mg tablet|
+|thioridazine v1|ctv3|d4g9.|Rideril 50mg tablet|
+|thioridazine v1|ctv3|d4g3.|Melleril 50mg tablet|
+|thioridazine v1|ctv3|d4gu.|Thioridazine hydrochloride 25mg tablet|
+|thioridazine v1|ctv3|d4g8.|Rideril 25mg tablet|
+|thioridazine v1|ctv3|d4g2.|Melleril 25mg tablet|
+|thioridazine v1|ctv3|d4gt.|Thioridazine hydrochloride 10mg tablet|
+|thioridazine v1|ctv3|d4g1.|Melleril 10mg tablet|
+|thioridazine v1|ctv3|d4gs.|Thioridazine 100mg/5mL s/f oral solution|
+|thioridazine v1|ctv3|d4gr.|Thioridazine 50mg/5mL s/f oral solution|
+|thioridazine v1|ctv3|d4gq.|Thioridazine 25mg/5mL s/f oral solution|
+|thioridazine v1|ctv3|d4gp.|Thioridazine 10mg/5mL syrup|
+|thioridazine v1|ctv3|d4g..|Thioridazine hydrochloride|
+|thioridazine v1|ctv3|x02iZ|Melleril|
+|thioridazine v1|ctv3|x02pc|Rideril|
+|thioridazine v1|emis|MESU1756|Melleril  Suspension  100mg/5 ml|
+|thioridazine v1|emis|MESU1757|Melleril  Suspension  25mg/5 ml|
+|thioridazine v1|emis|MESY1758|Melleril  Syrup  25 mg/5 ml|
+|thioridazine v1|emis|META1760|Melleril  Tablets  10 mg|
+|thioridazine v1|emis|META1761|Melleril  Tablets  100 mg|
+|thioridazine v1|emis|META1762|Melleril  Tablets  25 mg|
+|thioridazine v1|emis|META1763|Melleril  Tablets  50 mg|
+|thioridazine v1|emis|THSU5441|Thioridazine  Suspension  100mg/5 ml|
+|thioridazine v1|emis|THSU6978|Thioridazine  Suspension  25mg/5 ml|
+|thioridazine v1|emis|THSY2845|Thioridazine  Syrup  25 mg/5 ml|
+|thioridazine v1|emis|THTA2846|Thioridazine  Tablets  10 mg|
+|thioridazine v1|emis|THTA2847|Thioridazine  Tablets  100 mg|
+|thioridazine v1|emis|THTA2848|Thioridazine  Tablets  25 mg|
+|thioridazine v1|emis|THTA2849|Thioridazine  Tablets  50 mg|
+|thioridazine v1|emis|MESU1756|Melleril  Suspension  100mg/5 ml|
+|thioridazine v1|emis|MESU1757|Melleril  Suspension  25mg/5 ml|
+|thioridazine v1|emis|MESY1758|Melleril  Syrup  25 mg/5 ml|
+|thioridazine v1|emis|META1760|Melleril  Tablets  10 mg|
+|thioridazine v1|emis|META1761|Melleril  Tablets  100 mg|
+|thioridazine v1|emis|META1762|Melleril  Tablets  25 mg|
+|thioridazine v1|emis|META1763|Melleril  Tablets  50 mg|
+|thioridazine v1|emis|THSU5441|Thioridazine  Suspension  100mg/5 ml|
+|thioridazine v1|emis|THSU6978|Thioridazine  Suspension  25mg/5 ml|
+|thioridazine v1|emis|THSY2845|Thioridazine  Syrup  25 mg/5 ml|
+|thioridazine v1|emis|THTA2846|Thioridazine  Tablets  10 mg|
+|thioridazine v1|emis|THTA2847|Thioridazine  Tablets  100 mg|
+|thioridazine v1|emis|THTA2848|Thioridazine  Tablets  25 mg|
+|thioridazine v1|emis|THTA2849|Thioridazine  Tablets  50 mg|
+|thioridazine v1|readv2|d4g..00|THIORIDAZINE|
+|thioridazine v1|readv2|d4gz.00|*THIORIDAZINE 25mg/5mL syrup|
+|thioridazine v1|readv2|d4gy.00|THIORIDAZINE 100mg/5mL oral suspension|
+|thioridazine v1|readv2|d4gx.00|THIORIDAZINE 25mg/5mL suspension|
+|thioridazine v1|readv2|d4gw.00|THIORIDAZINE 100mg tablets|
+|thioridazine v1|readv2|d4gv.00|THIORIDAZINE 50mg tablets|
+|thioridazine v1|readv2|d4gu.00|THIORIDAZINE 25mg tablets|
+|thioridazine v1|readv2|d4gt.00|*THIORIDAZINE 10mg tablets|
+|thioridazine v1|readv2|d4gs.00|THIORIDAZINE 100mg/5mL sugar free solution|
+|thioridazine v1|readv2|d4gr.00|THIORIDAZINE 50mg/5mL sugar free solution|
+|thioridazine v1|readv2|d4gq.00|THIORIDAZINE 25mg/5mL sugar free solution|
+|thioridazine v1|readv2|d4gp.00|THIORIDAZINE 10mg/5mL syrup|
+|thioridazine v1|readv2|d4g7.00|MELLERIL 25mg/5mL orange syrup|
+|thioridazine v1|readv2|d4g6.00|MELLERIL 100mg/5mL oral suspension|
+|thioridazine v1|readv2|d4g5.00|*MELLERIL 25mg/5mL suspension|
+|thioridazine v1|readv2|d4g4.00|*MELLERIL 100mg tablets|
+|thioridazine v1|readv2|d4g3.00|*MELLERIL 50mg tablets|
+|thioridazine v1|readv2|d4g2.00|*MELLERIL 25mg tablets|
+|thioridazine v1|readv2|d4g1.00|*MELLERIL 10mg tablets|
+|trifluoperazine v1|ctv3|x02LW|Trifluoperazine|
+|trifluoperazine v1|ctv3|dhi..|Trifluoperazine [nausea] [see dh4..]|
+|trifluoperazine v1|ctv3|d4hz.|Trifluoperazine 1mg/1mL injection|
+|trifluoperazine v1|ctv3|d4h8.|Stelazine 1mg/1mL injection|
+|trifluoperazine v1|ctv3|d4hy.|Trifluoperazine 10mg/mL liquid concentrate|
+|trifluoperazine v1|ctv3|d4h7.|Stelazine Concentrate 10mg/mL liquid|
+|trifluoperazine v1|ctv3|d4hx.|Trifluoperazine 1mg/5mL syrup|
+|trifluoperazine v1|ctv3|d4h6.|Stelazine 1mg/5mL syrup|
+|trifluoperazine v1|ctv3|d4hw.|Trifluoperazine 15mg m/r capsule|
+|trifluoperazine v1|ctv3|d4h5.|Stelazine 15mg Spansule|
+|trifluoperazine v1|ctv3|d4hv.|Trifluoperazine 10mg m/r capsule|
+|trifluoperazine v1|ctv3|d4h4.|Stelazine 10mg Spansule|
+|trifluoperazine v1|ctv3|d4hu.|Trifluoperazine 2mg m/r capsule|
+|trifluoperazine v1|ctv3|d4h3.|Stelazine 2mg Spansule|
+|trifluoperazine v1|ctv3|d4ht.|Trifluoperazine 5mg tablet|
+|trifluoperazine v1|ctv3|d4h2.|Stelazine 5mg tablet|
+|trifluoperazine v1|ctv3|d4hs.|Trifluoperazine 1mg tablet|
+|trifluoperazine v1|ctv3|d4h1.|Stelazine 1mg tablet|
+|trifluoperazine v1|ctv3|d4hr.|Trifluoperazine 5mg/5mL s/f oral suspension|
+|trifluoperazine v1|ctv3|d4hA.|Stelazine Forte 5mg/5mL s/f oral suspension|
+|trifluoperazine v1|ctv3|d4h9.|Trifluoperazine 5mg/5mL sugar free syrup|
+|trifluoperazine v1|ctv3|d4h..|Trifluoperazine [antipsychotic]|
+|trifluoperazine v1|ctv3|d91B.|Tranylcypromine+trifluoperazine 10mg/1mg tablet|
+|trifluoperazine v1|ctv3|d915.|Parstelin tablet|
+|trifluoperazine v1|ctv3|x02rX|Stelazine|
+|trifluoperazine v1|ctv3|x02mx|Parstelin|
+|trifluoperazine v1|emis|STSY2686|Stelazine  Syrup  1 mg/5 ml|
+|trifluoperazine v1|emis|TRSY2927|Trifluoperazine  Oral Solution, Sugar Free  1 mg/5 ml|
+|trifluoperazine v1|emis|STOR18275NEMIS|Stelazine Forte  Oral Solution, Sugar Free  5 mg/5 ml|
+|trifluoperazine v1|emis|STSP2685|Stelazine  Spansules  2 mg|
+|trifluoperazine v1|emis|STSP2685|Stelazine  Spansules  2 mg|
+|trifluoperazine v1|emis|STTA2689|Stelazine  Tablets  5 mg|
+|trifluoperazine v1|emis|STSP2684|Stelazine  Spansules  15 mg|
+|trifluoperazine v1|emis|STTA2689|Stelazine  Tablets  5 mg|
+|trifluoperazine v1|emis|TRSP2926|Trifluoperazine  Spansules  2 mg|
+|trifluoperazine v1|emis|STIN2680|Stelazine  Injection  1 mg/ml|
+|trifluoperazine v1|emis|STSP2683|Stelazine  Spansules  10 mg|
+|trifluoperazine v1|emis|STSP2684|Stelazine  Spansules  15 mg|
+|trifluoperazine v1|emis|TRSP2925|Trifluoperazine  Spansules  15 mg|
+|trifluoperazine v1|emis|TRTA2928|Trifluoperazine  Tablets  1 mg|
+|trifluoperazine v1|emis|TRSP2924|Trifluoperazine  Spansules  10 mg|
+|trifluoperazine v1|emis|TRSY2927|Trifluoperazine  Oral Solution, Sugar Free  1 mg/5 ml|
+|trifluoperazine v1|emis|TRTA2928|Trifluoperazine  Tablets  1 mg|
+|trifluoperazine v1|emis|STOR18275NEMIS|Stelazine Forte  Oral Solution, Sugar Free  5 mg/5 ml|
+|trifluoperazine v1|emis|TROR28542EMIS|Trifluoperazine  Oral solution  Sugar Free 5 mg/5 ml|
+|trifluoperazine v1|emis|TRSP2924|Trifluoperazine  Spansules  10 mg|
+|trifluoperazine v1|emis|STSY2686|Stelazine  Syrup  1 mg/5 ml|
+|trifluoperazine v1|emis|PATA4125|Parstelin  Tablets|
+|trifluoperazine v1|emis|TRIN2923|Trifluoperazine  Injection  1 mg/ml|
+|trifluoperazine v1|emis|TRSP2925|Trifluoperazine  Spansules  15 mg|
+|trifluoperazine v1|emis|TRTA2929|Trifluoperazine  Tablets  5 mg|
+|trifluoperazine v1|emis|TRTA2929|Trifluoperazine  Tablets  5 mg|
+|trifluoperazine v1|emis|STLI2682|Stelazine  Liquid  10mg/ml|
+|trifluoperazine v1|emis|STTA2688|Stelazine  Tablets  1 mg|
+|trifluoperazine v1|emis|STSP2683|Stelazine  Spansules  10 mg|
+|trifluoperazine v1|emis|STTA2688|Stelazine  Tablets  1 mg|
+|trifluoperazine v1|emis|TROR28542EMIS|Trifluoperazine  Oral solution  Sugar Free 5 mg/5 ml|
+|trifluoperazine v1|emis|TRSP2926|Trifluoperazine  Spansules  2 mg|
+|trifluoperazine v1|readv2|d4h..00|TRIFLUOPERAZINE [ANTIPSYCHOTIC]|
+|trifluoperazine v1|readv2|d4hz.00|TRIFLUOPERAZINE 1mg/1mL injection|
+|trifluoperazine v1|readv2|d4hy.00|TRIFLUOPERAZINE 10mg/mL liquid|
+|trifluoperazine v1|readv2|d4hx.00|TRIFLUOPERAZINE 1mg/5mL syrup|
+|trifluoperazine v1|readv2|d4hw.00|*TRIFLUOPERAZINE 15mg m/r caps|
+|trifluoperazine v1|readv2|d4hv.00|*TRIFLUOPERAZINE 10mg m/r caps|
+|trifluoperazine v1|readv2|d4hu.00|*TRIFLUOPERAZINE 2mg m/r caps|
+|trifluoperazine v1|readv2|d4ht.00|TRIFLUOPERAZINE 5mg tablets|
+|trifluoperazine v1|readv2|d4hs.00|TRIFLUOPERAZINE 1mg tablets|
+|trifluoperazine v1|readv2|d4hr.00|TRIFLUOPERAZINE 5mg/5mL sugar free oral suspension|
+|trifluoperazine v1|readv2|d4h9.00|TRIFLUOPERAZINE 5mg/5mL sugar free syrup|
+|trifluoperazine v1|readv2|d4hA.00|STELAZINE FORTE 5mg/5mL sugar free oral suspension|
+|trifluoperazine v1|readv2|d4h8.00|*STELAZINE 1mg/1mL injection|
+|trifluoperazine v1|readv2|d4h7.00|STELAZINE CONCENTRATE 10mg/mL liquid|
+|trifluoperazine v1|readv2|d4h6.00|*STELAZINE 1mg/5mL syrup|
+|trifluoperazine v1|readv2|d4h5.00|*STELAZINE 15mg m/r capsules|
+|trifluoperazine v1|readv2|d4h4.00|*STELAZINE 10mg m/r capsules|
+|trifluoperazine v1|readv2|d4h3.00|*STELAZINE 2mg m/r capsules|
+|trifluoperazine v1|readv2|d4h2.00|*STELAZINE 5mg tablets|
+|trifluoperazine v1|readv2|d4h1.00|*STELAZINE 1mg tablets|
+|trifluoperazine v1|readv2|dhi..00|TRIFLUOPERAZINE [NAUSEA] [see dh4..]|
+|trifluoperazine v1|readv2|d915.00|*PARSTELIN tablets|
+|zotepine v1|ctv3|d4u..|Zotepine|
+|zotepine v1|ctv3|d4u3.|Zotepine 100mg tablet|
+|zotepine v1|ctv3|d4u6.|Zoleptil 100mg tablet|
+|zotepine v1|ctv3|d4u2.|Zotepine 50mg tablet|
+|zotepine v1|ctv3|d4u5.|Zoleptil 50mg tablet|
+|zotepine v1|ctv3|d4u1.|Zotepine 25mg tablet|
+|zotepine v1|ctv3|d4u4.|Zoleptil 25mg tablet|
+|zotepine v1|ctv3|x04wK|Zoleptil|
+|zotepine v1|emis|ZOTA34930EMIS|Zotepine  Tablets  100 mg|
+|zotepine v1|emis|ZOTA34931EMIS|Zotepine  Tablets  25 mg|
+|zotepine v1|emis|ZOTA34932EMIS|Zotepine  Tablets  50 mg|
+|zotepine v1|emis|ZOTA34930EMIS|Zotepine  Tablets  100 mg|
+|zotepine v1|emis|ZOTA34931EMIS|Zotepine  Tablets  25 mg|
+|zotepine v1|emis|ZOTA34932EMIS|Zotepine  Tablets  50 mg|
+|zotepine v1|readv2|d4u..00|ZOTEPINE|
+|zotepine v1|readv2|d4u3.00|*ZOTEPINE 100mg tablets|
+|zotepine v1|readv2|d4u2.00|*ZOTEPINE 50mg tablets|
+|zotepine v1|readv2|d4u1.00|*ZOTEPINE 25mg tablets|
+|zotepine v1|readv2|d4u6.00|*ZOLEPTIL 100mg tablets|
+|zotepine v1|readv2|d4u5.00|*ZOLEPTIL 50mg tablets|
+|zotepine v1|readv2|d4u4.00|*ZOLEPTIL 25mg tablets|
+|zuclopenthixol v1|ctv3|x00CD|Zuclopenthixol|
+|zuclopenthixol v1|ctv3|d4n4.|Zuclopenthixol acetate 100mg/2mL oily injection|
+|zuclopenthixol v1|ctv3|d4n2.|Clopixol Acuphase 100mg/2mL oily injection|
+|zuclopenthixol v1|ctv3|d4n3.|Zuclopenthixol acetate 50mg/1mL oily injection|
+|zuclopenthixol v1|ctv3|d4n1.|Clopixol Acuphase 50mg/1mL oily injection|
+|zuclopenthixol v1|ctv3|d4n..|Zuclopenthixol acetate|
+|zuclopenthixol v1|ctv3|d4jz.|Zuclopenthixol 25mg tablet|
+|zuclopenthixol v1|ctv3|d4j3.|Clopixol 25mg tablet|
+|zuclopenthixol v1|ctv3|d4jy.|Zuclopenthixol 10mg tablet|
+|zuclopenthixol v1|ctv3|d4j2.|Clopixol 10mg tablet|
+|zuclopenthixol v1|ctv3|d4jx.|Zuclopenthixol 2mg tablet|
+|zuclopenthixol v1|ctv3|d4j1.|Clopixol 2mg tablet|
+|zuclopenthixol v1|ctv3|d4j..|Zuclopenthixol dihydrochloride|
+|zuclopenthixol v1|ctv3|d57..|Zuclopenthixol decanoate|
+|zuclopenthixol v1|ctv3|d57z.|Zuclopenthixol decanoate 500mg/1mL oily injection|
+|zuclopenthixol v1|ctv3|d573.|Clopixol Conc 500mg/1mL oily injection|
+|zuclopenthixol v1|ctv3|d57y.|Zuclopenthixol decanoate 2g/10mL oily injection|
+|zuclopenthixol v1|ctv3|d572.|Clopixol 2g/10mL oily injection|
+|zuclopenthixol v1|ctv3|d578.|Zuclopenthixol decanoate 100mg/2mL injection|
+|zuclopenthixol v1|ctv3|d577.|Zuclopenthixol decanoate 50mg/1mL injection|
+|zuclopenthixol v1|ctv3|d576.|Zuclopenthixol decanoate 200mg/1mL oily injection|
+|zuclopenthixol v1|ctv3|d571.|Clopixol 200mg/1mL oily injection|
+|zuclopenthixol v1|ctv3|x02Xe|Clopixol Conc|
+|zuclopenthixol v1|ctv3|x02Xd|Clopixol Acuphase|
+|zuclopenthixol v1|ctv3|x02Xc|Clopixol|
+|zuclopenthixol v1|emis|CLIN10979BRIDL|Clopixol Acuphase  Injection  50 mg/1 ml ampoule|
+|zuclopenthixol v1|emis|CLIN29855EMIS|Clopixol Acuphase  Injection  100 mg/2 ml ampoule|
+|zuclopenthixol v1|emis|CLIN656|Clopixol  Injection  200 mg/ml, 1 ml ampoule|
+|zuclopenthixol v1|emis|CLIN661|Clopixol Conc.  Injection  500mg/ml, 1 ml ampoule|
+|zuclopenthixol v1|emis|CLTA658|Clopixol  Tablets  10 mg|
+|zuclopenthixol v1|emis|CLTA659|Clopixol  Tablets  2 mg|
+|zuclopenthixol v1|emis|CLTA660|Clopixol  Tablets  25 mg|
+|zuclopenthixol v1|emis|ZUIN29852EMIS|Zuclopenthixol Acetate  Injection  100 mg/2 ml ampoule|
+|zuclopenthixol v1|emis|ZUIN29853EMIS|Zuclopenthixol Acetate  Injection  50 mg/1 ml ampoule|
+|zuclopenthixol v1|emis|ZUIN5509|Zuclopenthixol Decanoate  Injection  200 mg/ml, 1 ml ampoule|
+|zuclopenthixol v1|emis|ZUIN5510|Zuclopenthixol Decanoate  Injection  500mg/ml, 1 ml ampoule|
+|zuclopenthixol v1|emis|ZUTA5511|Zuclopenthixol Dihydrochloride  Tablets  10 mg|
+|zuclopenthixol v1|emis|ZUTA6848|Zuclopenthixol Dihydrochloride  Tablets  2 mg|
+|zuclopenthixol v1|emis|ZUTA6849|Zuclopenthixol Dihydrochloride  Tablets  25 mg|
+|zuclopenthixol v1|emis|CLIN10979BRIDL|Clopixol Acuphase  Injection  50 mg/1 ml ampoule|
+|zuclopenthixol v1|emis|CLIN29855EMIS|Clopixol Acuphase  Injection  100 mg/2 ml ampoule|
+|zuclopenthixol v1|emis|CLIN656|Clopixol  Injection  200 mg/ml, 1 ml ampoule|
+|zuclopenthixol v1|emis|CLIN661|Clopixol Conc.  Injection  500mg/ml, 1 ml ampoule|
+|zuclopenthixol v1|emis|CLTA658|Clopixol  Tablets  10 mg|
+|zuclopenthixol v1|emis|CLTA659|Clopixol  Tablets  2 mg|
+|zuclopenthixol v1|emis|CLTA660|Clopixol  Tablets  25 mg|
+|zuclopenthixol v1|emis|ZUIN29852EMIS|Zuclopenthixol Acetate  Injection  100 mg/2 ml ampoule|
+|zuclopenthixol v1|emis|ZUIN29853EMIS|Zuclopenthixol Acetate  Injection  50 mg/1 ml ampoule|
+|zuclopenthixol v1|emis|ZUIN5509|Zuclopenthixol Decanoate  Injection  200 mg/ml, 1 ml ampoule|
+|zuclopenthixol v1|emis|ZUIN5510|Zuclopenthixol Decanoate  Injection  500mg/ml, 1 ml ampoule|
+|zuclopenthixol v1|emis|ZUTA5511|Zuclopenthixol Dihydrochloride  Tablets  10 mg|
+|zuclopenthixol v1|emis|ZUTA6848|Zuclopenthixol Dihydrochloride  Tablets  2 mg|
+|zuclopenthixol v1|emis|ZUTA6849|Zuclopenthixol Dihydrochloride  Tablets  25 mg|
+|zuclopenthixol v1|readv2|d4n..00|ZUCLOPENTHIXOL ACETATE|
+|zuclopenthixol v1|readv2|d4n4.00|ZUCLOPENTHIXOL ACETATE 100mg/2mL injection (oily)|
+|zuclopenthixol v1|readv2|d4n3.00|ZUCLOPENTHIXOL ACETATE 50mg/1mL injection (oily)|
+|zuclopenthixol v1|readv2|d4n2.00|CLOPIXOL ACUPHASE 100mg/2mL injection (oily)|
+|zuclopenthixol v1|readv2|d4n1.00|CLOPIXOL ACUPHASE 50mg/1mL injection (oily)|
+|zuclopenthixol v1|readv2|d4j..00|ZUCLOPENTHIXOL DIHYDROCHLORIDE|
+|zuclopenthixol v1|readv2|d4jz.00|ZUCLOPENTHIXOL DIHYDROCHLORIDE 25mg tablets|
+|zuclopenthixol v1|readv2|d4jy.00|ZUCLOPENTHIXOL DIHYDROCHLORIDE 10mg tablets|
+|zuclopenthixol v1|readv2|d4jx.00|ZUCLOPENTHIXOL DIHYDROCHLORIDE 2mg tablets|
+|zuclopenthixol v1|readv2|d4j3.00|CLOPIXOL 25mg tablets|
+|zuclopenthixol v1|readv2|d4j2.00|CLOPIXOL 10mg tablets|
+|zuclopenthixol v1|readv2|d4j1.00|CLOPIXOL 2mg tablets|
+|zuclopenthixol v1|readv2|d57..00|ZUCLOPENTHIXOL DECANOATE|
+|zuclopenthixol v1|readv2|d57z.00|ZUCLOPENTHIXOL DECANOATE 500mg/1mL injection|
+|zuclopenthixol v1|readv2|d57y.00|ZUCLOPENTHIXOL DECANOATE 2g/10mL injection|
+|zuclopenthixol v1|readv2|d578.00|ZUCLOPENTHIXOL DECANOATE 100mg/2mL injection|
+|zuclopenthixol v1|readv2|d577.00|ZUCLOPENTHIXOL DECANOATE 50mg/1mL injection|
+|zuclopenthixol v1|readv2|d576.00|ZUCLOPENTHIXOL DECANOATE 200mg/1mL injection|
+|zuclopenthixol v1|readv2|d575.00|CLOPIXOL ACUPHASE 100mg/2mL injection (oily)|
+|zuclopenthixol v1|readv2|d574.00|CLOPIXOL ACUPHASE 50mg/1mL injection (oily)|
+|zuclopenthixol v1|readv2|d573.00|CLOPIXOL CONC. 500mg/1mL injection|
+|zuclopenthixol v1|readv2|d572.00|*CLOPIXOL 2g/10mL injection|
+|zuclopenthixol v1|readv2|d571.00|CLOPIXOL 200mg/1mL injection|
+|bmi v2|ctv3|22K..|Body Mass Index|
+|bmi v2|readv2|22K..00|Body Mass Index|
+|bmi v2|snomed|301331008|Finding of body mass index (finding)|
+|hba1c v2|ctv3|XaERp|HbA1c level (DCCT aligned)|
+|hba1c v2|ctv3|XaPbt|HbA1c levl - IFCC standardised|
+|hba1c v2|ctv3|42W5.|Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised|
+|hba1c v2|ctv3|42W4.|HbA1c level (DCCT aligned)|
+|hba1c v2|readv2|42W5.00|Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised|
+|hba1c v2|readv2|42W4.00|HbA1c level (DCCT aligned)|
+|hba1c v2|snomed|1019431000000105|HbA1c level (Diabetes Control and Complications Trial aligned)|
+|hba1c v2|snomed|999791000000106|Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised|
+|cholesterol v2|ctv3|XSK14|Total cholesterol measurement|
+|cholesterol v2|ctv3|44PH.|Total cholesterol measurement|
+|cholesterol v2|ctv3|44PJ.|Serum total cholesterol level|
+|cholesterol v2|ctv3|44P..|Serum cholesterol|
+|cholesterol v2|ctv3|44PZ.|Serum cholesterol NOS|
+|cholesterol v2|ctv3|XE2eD|Serum cholesterol|
+|cholesterol v2|ctv3|XaJe9|Serum total cholesterol level|
+|cholesterol v2|readv2|44P..00|Serum cholesterol|
+|cholesterol v2|readv2|44PZ.00|Serum cholesterol NOS|
+|cholesterol v2|readv2|44PJ.00|Serum total cholesterol level|
+|cholesterol v2|readv2|44PH.00|Total cholesterol measurement|
+|cholesterol v2|snomed|1005671000000105|Serum cholesterol level|
+|cholesterol v2|snomed|412808005|Serum total cholesterol level|
+|cholesterol v2|snomed|121868005|Total cholesterol measurement (procedure)|
+|cholesterol v2|snomed|994351000000103|Serum total cholesterol level|
+|ldl-cholesterol v1|ctv3|44P6.|Serum LDL cholesterol level|
+|ldl-cholesterol v1|ctv3|XaIp4|Calculated LDL cholesterol lev|
+|ldl-cholesterol v1|ctv3|XaEVs|Plasma LDL cholesterol level|
+|ldl-cholesterol v1|readv2|44PI.00|Calculated LDL cholesterol level|
+|ldl-cholesterol v1|readv2|44P6.00|Serum LDL cholesterol level|
+|ldl-cholesterol v1|readv2|44dB.00|Plasma LDL cholesterol level|
+|ldl-cholesterol v1|snomed|1010591000000104|Plasma low density lipoprotein cholesterol level (observable entity)|
+|ldl-cholesterol v1|snomed|1014501000000104|Calculated low density lipoprotein cholesterol level (observable entity)|
+|ldl-cholesterol v1|snomed|1022191000000100|Serum low density lipoprotein cholesterol level (observable entity)|
+|hdl-cholesterol v1|ctv3|44P5.|Serum HDL cholesterol level|
+|hdl-cholesterol v1|ctv3|44PC.|Ser random HDL cholesterol lev|
+|hdl-cholesterol v1|ctv3|XaEVr|Plasma HDL cholesterol level|
+|hdl-cholesterol v1|readv2|44PC.00|Serum random HDL cholesterol level|
+|hdl-cholesterol v1|readv2|44P5.00|Serum HDL cholesterol level|
+|hdl-cholesterol v1|readv2|44dA.00|Plasma HDL cholesterol level|
+|hdl-cholesterol v1|snomed|1005681000000107|Serum high density lipoprotein cholesterol level (observable entity)|
+|hdl-cholesterol v1|snomed|1010581000000101|Plasma high density lipoprotein cholesterol level (observable entity)|
+|hdl-cholesterol v1|snomed|1026461000000104|Serum random high density lipoprotein cholesterol level (observable entity)|
+|vitamin-d v1|ctv3|44LA.|Serum vitamin D|
+|vitamin-d v1|ctv3|Xabo0|Serum total 25-OH vit D level|
+|vitamin-d v1|ctv3|XaY6m|Total 25-hydroxyvitamin D levl|
+|vitamin-d v1|ctv3|XE2e7|Serum vitamin D level|
+|vitamin-d v1|ctv3|XaXhN|Vitamin D level|
+|vitamin-d v1|ctv3|XaXhT|Combined total vit D2 + D3 lvl|
+|vitamin-d v1|ctv3|XaXm0|25-Hydroxyvitamin D level|
+|vitamin-d v1|readv2|4QB4.00|Vitamin D level|
+|vitamin-d v1|readv2|44LA.00|Serum vitamin D|
+|vitamin-d v1|readv2|4QB4.00|Vitamin D level|
+|vitamin-d v1|readv2|4QB4400|Combined total vitamin D2 and D3 level|
+|vitamin-d v1|readv2|4QB4500|25-Hydroxyvitamin D level|
+|vitamin-d v1|readv2|4QB4600|Total 25-hydroxyvitamin D level|
+|vitamin-d v1|readv2|4QB4700|Serum total 25-hydroxy vitamin D level|
+|vitamin-d v1|snomed|1007991000000105|Serum total 25-hydroxy vitamin D level (observable entity)|
+|vitamin-d v1|snomed|1029801000000105|Total 25-hydroxyvitamin D level (observable entity)|
+|vitamin-d v1|snomed|1031181000000107|Serum vitamin D level (observable entity)|
+|vitamin-d v1|snomed|12199005|Vitamin D, 25-hydroxy measurement (procedure)|
+|vitamin-d v1|snomed|270990000|Serum vitamin D measurement (procedure)|
+|vitamin-d v1|snomed|83729008|Vitamin D measurement (procedure)|
+|vitamin-d v1|snomed|996641000000102|Combined total vitamin D2 and D3 level (observable entity)|
+|testosterone v1|ctv3|XE2dr|Serum testosterone level|
+|testosterone v1|ctv3|4473.|Serum testosterone|
+|testosterone v1|ctv3|XaItQ|Plasma testosterone level|
+|testosterone v1|readv2|4473.00|Serum testosterone|
+|testosterone v1|readv2|447G.00|Plasma testosterone level|
+|testosterone v1|snomed|270973006|Serum testosterone measurement (procedure)|
+|testosterone v1|snomed|995571000000101|Plasma testosterone level (observable entity)|
+|testosterone v1|snomed|997161000000108|Serum testosterone level (observable entity)|
+|sex-hormone-binding-globulin v1|ctv3|44CD.|Serum sex hormone binding globulin level|
+|sex-hormone-binding-globulin v1|readv2|44CD.00|Serum sex hormone binding globulin level|
+|sex-hormone-binding-globulin v1|snomed|999661000000105|Serum sex hormone binding globulin level (observable entity)|
+|egfr v1|ctv3|X70kK|Tc99m-DTPA clearance - GFR|
+|egfr v1|ctv3|X70kL|Cr51- EDTA clearance - GFR|
+|egfr v1|ctv3|X90kf|With GFR|
+|egfr v1|ctv3|XaK8y|Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation|
+|egfr v1|ctv3|XaMDA|Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin|
+|egfr v1|ctv3|XaZpN|Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres|
+|egfr v1|ctv3|XacUJ|Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres|
+|egfr v1|ctv3|XacUK|Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres|
+|egfr v1|readv2|451E.00|Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation|
+|egfr v1|readv2|451G.00|Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin|
+|egfr v1|readv2|451K.00|Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres|
+|egfr v1|readv2|451M.00|Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres|
+|egfr v1|readv2|451N.00|Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres|
+|egfr v1|snomed|1011481000000105|eGFR (estimated glomerular filtration rate) using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres|
+|egfr v1|snomed|1011491000000107|eGFR (estimated glomerular filtration rate) using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres|
+|egfr v1|snomed|1020291000000106|GFR (glomerular filtration rate) calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation|
+|egfr v1|snomed|1107411000000104|eGFR (estimated glomerular filtration rate) by laboratory calculation|
+|egfr v1|snomed|241373003|Technetium-99m-diethylenetriamine pentaacetic acid clearance - glomerular filtration rate (procedure)|
+|egfr v1|snomed|262300005|With glomerular filtration rate|
+|egfr v1|snomed|737105002|GFR (glomerular filtration rate) calculation technique|
+|egfr v1|snomed|80274001|Glomerular filtration rate (observable entity)|
+|egfr v1|snomed|996231000000108|GFR (glomerular filtration rate) calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin|
+|weight v1|ctv3|22A..|O/E - weight|
+|weight v1|ctv3|22AZ.|O/E - weight NOS|
+|weight v1|readv2|22A..00|O/E - weight|
+|weight v1|readv2|22AZ.00|O/E - weight NOS|
+|weight v1|snomed|27113001|Body weight|
+|weight v1|snomed|139985004|O/E - weight|
+|weight v1|snomed|162763007|On examination - weight|
+|weight v1|snomed|248341004|General weight finding|
+|weight v1|snomed|248345008|Body weight|
+|weight v1|snomed|271604008|Weight finding|
+|weight v1|snomed|301333006|Finding of measures of body weight|
+|weight v1|snomed|363808001|Measured body weight|
+|weight v1|snomed|424927000|Body weight with shoes|
+|weight v1|snomed|425024002|Body weight without shoes|
+|weight v1|snomed|735395000|Current body weight|
+|weight v1|snomed|784399000|Self reported body weight|
+|systolic-blood-pressure v1|ctv3|X779Q|Non-invasive systol art press|
+|systolic-blood-pressure v1|ctv3|X779R|Invasive systol arterial press|
+|systolic-blood-pressure v1|ctv3|Xac5L|Baseline systolic BP|
+|systolic-blood-pressure v1|ctv3|Xaedo|Non-invasive central systlc BP|
+|systolic-blood-pressure v1|ctv3|XaF4d|24h systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|XaF4D|Min systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|XaF4E|Max systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|XaF4F|Ave systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|XaF4G|Min day systol blood pressure|
+|systolic-blood-pressure v1|ctv3|XaF4H|Min night syst blood pressure|
+|systolic-blood-pressure v1|ctv3|XaF4I|Max night syst blood pressure|
+|systolic-blood-pressure v1|ctv3|XaF4J|Max day syst blood pressure|
+|systolic-blood-pressure v1|ctv3|XaF4K|Ave night syst blood pressure|
+|systolic-blood-pressure v1|ctv3|XaF4L|Ave day systol blood pressure|
+|systolic-blood-pressure v1|ctv3|XaF4M|Min 24h systol blood pressure|
+|systolic-blood-pressure v1|ctv3|XaF4N|Max 24h systol blood pressure|
+|systolic-blood-pressure v1|ctv3|XaF4O|Ave 24h systol blood pressure|
+|systolic-blood-pressure v1|ctv3|XaIwj|Standing systolic BP|
+|systolic-blood-pressure v1|ctv3|XaJ2E|Sitting systolic BP|
+|systolic-blood-pressure v1|ctv3|XaJ2G|Lying systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|XaKFx|Average home systolic BP|
+|systolic-blood-pressure v1|ctv3|XaKjF|Ambulatory systolic BP|
+|systolic-blood-pressure v1|ctv3|XaXfX|Post exerc sys BP respons norm|
+|systolic-blood-pressure v1|ctv3|XaXfY|Post exer sys BP respon abnorm|
+|systolic-blood-pressure v1|ctv3|XaYg9|Systolic BP centile|
+|systolic-blood-pressure v1|ctv3|XM02X|SAP - Systol arterial pressure|
+|systolic-blood-pressure v1|ctv3|246o0|Non-invasive central systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|246n1|Baseline systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|246l.|Average systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|246j.|Systolic blood pressure centile|
+|systolic-blood-pressure v1|ctv3|246e.|Ambulatory systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|246d.|Average home systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|246b.|Average night interval systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|246Y.|Average day interval systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|246W.|Average 24 hour systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|246S.|Lying systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|246Q.|Sitting systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|246N.|Standing systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|246K.|Target systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|2469.|O/E - Systolic BP reading|
+|systolic-blood-pressure v1|emis|EMISNQSY8|Systolic blood pressure - left arm|
+|systolic-blood-pressure v1|emis|EMISNQSY9|Systolic blood pressure - right arm|
+|systolic-blood-pressure v1|readv2|246o000|Non-invasive central systolic blood pressure|
+|systolic-blood-pressure v1|readv2|246n100|Baseline systolic blood pressure|
+|systolic-blood-pressure v1|readv2|246l.00|Average systolic blood pressure|
+|systolic-blood-pressure v1|readv2|246j.00|Systolic blood pressure centile|
+|systolic-blood-pressure v1|readv2|246e.00|Ambulatory systolic blood pressure|
+|systolic-blood-pressure v1|readv2|246d.00|Average home systolic blood pressure|
+|systolic-blood-pressure v1|readv2|246b.00|Average night interval systolic blood pressure|
+|systolic-blood-pressure v1|readv2|246Y.00|Average day interval systolic blood pressure|
+|systolic-blood-pressure v1|readv2|246W.00|Average 24 hour systolic blood pressure|
+|systolic-blood-pressure v1|readv2|246S.00|Lying systolic blood pressure|
+|systolic-blood-pressure v1|readv2|246Q.00|Sitting systolic blood pressure|
+|systolic-blood-pressure v1|readv2|246N.00|Standing systolic blood pressure|
+|systolic-blood-pressure v1|readv2|246K.00|Target systolic blood pressure|
+|systolic-blood-pressure v1|readv2|2469.00|O/E - Systolic BP reading|
+|systolic-blood-pressure v1|snomed|72313002|Systolic arterial pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|251070002|Non-invasive systolic blood pressure|
+|systolic-blood-pressure v1|snomed|251071003|Invasive systolic blood pressure|
+|systolic-blood-pressure v1|snomed|271649006|SAP - Systolic arterial pressure|
+|systolic-blood-pressure v1|snomed|314438006|Minimum systolic blood pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|314439003|Maximum systolic blood pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|314440001|Average systolic blood pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|314441002|Minimum day interval systolic blood pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|314442009|Minimum night interval systolic blood pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|314443004|Maximum night interval systolic blood pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|314444005|Maximum day interval systolic blood pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|314445006|Average night interval systolic blood pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|314446007|Average day interval systolic blood pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|314447003|Minimum 24 hour systolic blood pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|314448008|Maximum 24 hour systolic blood pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|314449000|Average 24 hour systolic blood pressure (observable entity|
+|systolic-blood-pressure v1|snomed|314464000|24 hour systolic blood pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|399304008|Systolic blood pressure on admission|
+|systolic-blood-pressure v1|snomed|400974009|Standing systolic blood pressure|
+|systolic-blood-pressure v1|snomed|407554009|Sitting systolic blood pressure|
+|systolic-blood-pressure v1|snomed|407556006|Lying systolic blood pressure|
+|systolic-blood-pressure v1|snomed|413606001|Average home systolic blood pressure|
+|systolic-blood-pressure v1|snomed|716579001|Baseline systolic blood pressure|
+|systolic-blood-pressure v1|snomed|198081000000101|Ambulatory systolic blood pressure|
+|systolic-blood-pressure v1|snomed|814101000000107|Systolic blood pressure centile|
+|systolic-blood-pressure v1|snomed|1036551000000101|Non-invasive central systolic blood pressure|
+|systolic-blood-pressure v1|snomed|1087991000000109|Level of reduction in systolic blood pressure on standing (observable entity)|
+|systolic-blood-pressure v1|snomed|12929001|Normal systolic arterial pressure (finding)|
+|systolic-blood-pressure v1|snomed|18050000|Increased systolic arterial pressure (finding)|
+|systolic-blood-pressure v1|snomed|18352002|Abnormal systolic arterial pressure (finding)|
+|systolic-blood-pressure v1|snomed|81010002|Decreased systolic arterial pressure (finding)|
+|systolic-blood-pressure v1|snomed|163030003|On examination - Systolic blood pressure reading|
+|systolic-blood-pressure v1|snomed|707303003|Post exercise systolic blood pressure response abnormal|
+|systolic-blood-pressure v1|snomed|707304009|Post exercise systolic blood pressure response normal (finding)|
+|diastolic-blood-pressure v1|ctv3|X779S|DAP-Diastolic arterial pressur|
+|diastolic-blood-pressure v1|ctv3|X779T|DAP-Diastolic arterial pressur|
+|diastolic-blood-pressure v1|ctv3|Xac5K|Baseline diastolic BP|
+|diastolic-blood-pressure v1|ctv3|Xaedp|Non-invasive centrl diastlc BP|
+|diastolic-blood-pressure v1|ctv3|XaF4a|Ave day diastol blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaF4b|Ave 24h diastol blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaF4e|24h diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaF4Q|Min diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaF4R|Max diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaF4S|Ave diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaF4T|Min day diastol blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaF4U|Min night diast blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaF4V|Min 24h diastol blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaF4W|Max night diast blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaF4X|Max day diast blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaF4Y|Max 24h diastol blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaF4Z|Ave night diast blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaIwk|Standing diastolic BP|
+|diastolic-blood-pressure v1|ctv3|XaJ2F|Sitting diastolic BP|
+|diastolic-blood-pressure v1|ctv3|XaJ2H|Lying diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaKFw|Average home diastolic BP|
+|diastolic-blood-pressure v1|ctv3|XaKjG|Ambulatory diastolic BP|
+|diastolic-blood-pressure v1|ctv3|XaYg8|Diastolic BP centile|
+|diastolic-blood-pressure v1|ctv3|XM02Y|DAP-Diastolic arterial pressur|
+|diastolic-blood-pressure v1|ctv3|246o1|Non-invasive central diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|246n0|Baseline diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|246m.|Average diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|246i.|Diastolic blood pressure centile|
+|diastolic-blood-pressure v1|ctv3|246f.|Ambulatory diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|246c.|Average home diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|246a.|Average night interval diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|246X.|Average day interval diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|246V.|Average 24 hour diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|246T.|Lying diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|246R.|Sitting diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|246P.|Standing diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|246L.|Target diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|246A.|O/E - Diastolic BP reading|
+|diastolic-blood-pressure v1|emis|EMISNQDI86|Diastolic blood pressure - left arm|
+|diastolic-blood-pressure v1|emis|EMISNQDI87|Diastolic blood pressure - right arm|
+|diastolic-blood-pressure v1|readv2|246o100|Non-invasive central diastolic blood pressure|
+|diastolic-blood-pressure v1|readv2|246n000|Baseline diastolic blood pressure|
+|diastolic-blood-pressure v1|readv2|246m.00|Average diastolic blood pressure|
+|diastolic-blood-pressure v1|readv2|246i.00|Diastolic blood pressure centile|
+|diastolic-blood-pressure v1|readv2|246f.00|Ambulatory diastolic blood pressure|
+|diastolic-blood-pressure v1|readv2|246c.00|Average home diastolic blood pressure|
+|diastolic-blood-pressure v1|readv2|246a.00|Average night interval diastolic blood pressure|
+|diastolic-blood-pressure v1|readv2|246X.00|Average day interval diastolic blood pressure|
+|diastolic-blood-pressure v1|readv2|246V.00|Average 24 hour diastolic blood pressure|
+|diastolic-blood-pressure v1|readv2|246T.00|Lying diastolic blood pressure|
+|diastolic-blood-pressure v1|readv2|246R.00|Sitting diastolic blood pressure|
+|diastolic-blood-pressure v1|readv2|246P.00|Standing diastolic blood pressure|
+|diastolic-blood-pressure v1|readv2|246L.00|Target diastolic blood pressure|
+|diastolic-blood-pressure v1|readv2|246A.00|O/E - Diastolic BP reading|
+|diastolic-blood-pressure v1|snomed|174255007|Non-invasive diastolic blood pressure|
+|diastolic-blood-pressure v1|snomed|251073000|Invasive diastolic blood pressure|
+|diastolic-blood-pressure v1|snomed|271650006|Diastolic arterial pressure|
+|diastolic-blood-pressure v1|snomed|314451001|Minimum diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|314452008|Maximum diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|314453003|Average diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|314454009|Minimum day interval diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|314455005|Minimum night interval diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|314456006|Minimum 24 hour diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|314457002|Maximum night interval diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|314458007|Maximum day interval diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|314459004|Maximum 24 hour diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|314460009|Average night interval diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|314461008|Average day interval diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|314462001|Average 24 hour diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|314465004|24 hour diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|400975005|Standing diastolic blood pressure|
+|diastolic-blood-pressure v1|snomed|407555005|Sitting diastolic blood pressure|
+|diastolic-blood-pressure v1|snomed|407557002|Lying diastolic blood pressure|
+|diastolic-blood-pressure v1|snomed|413605002|Average home diastolic blood pressure|
+|diastolic-blood-pressure v1|snomed|446226005|Diastolic blood pressure on admission|
+|diastolic-blood-pressure v1|snomed|716632005|Baseline diastolic blood pressure|
+|diastolic-blood-pressure v1|snomed|198091000000104|Ambulatory diastolic blood pressure|
+|diastolic-blood-pressure v1|snomed|814081000000101|Diastolic blood pressure centile|
+|diastolic-blood-pressure v1|snomed|1091811000000102|Diastolic arterial pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|1036571000000105|Non-invasive central diastolic blood pressure|
+|diastolic-blood-pressure v1|snomed|23154005|Increased diastolic arterial pressure (finding)|
+|diastolic-blood-pressure v1|snomed|42689008|Decreased diastolic arterial pressure (finding)|
+|diastolic-blood-pressure v1|snomed|49844009|Abnormal diastolic arterial pressure (finding)|
+|diastolic-blood-pressure v1|snomed|53813002|Normal diastolic arterial pressure (finding)|
+|diastolic-blood-pressure v1|snomed|163031004|On examination - Diastolic BP reading|
 |covid-positive-antigen-test v1|ctv3|Y269d|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen detection result positive|
 |covid-positive-antigen-test v1|ctv3|43kB1|SARS-CoV-2 antigen positive |
 |covid-positive-antigen-test v1|emis|^ESCT1305304|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen detection result positive|
@@ -4368,6419 +6457,3 @@ All code sets required for this analysis are listed here. Individual lists for e
 |hypertension v1|readv2|Gyu2.00|[X]Hypertensive diseases|
 |hypertension v1|readv2|Gyu2100|[X]Hypertension secondary to other renal disorders|
 |hypertension v1|readv2|Gyu2000|[X]Other secondary hypertension|
-|metformin v1|ctv3|f41..|Metformin hydrochloride|
-|metformin v1|ctv3|f411.|Glucophage 500mg tablet|
-|metformin v1|ctv3|f412.|Glucophage 850mg tablet|
-|metformin v1|ctv3|f413.|Orabet 500mg tablet|
-|metformin v1|ctv3|f414.|Orabet 850mg tablet|
-|metformin v1|ctv3|f415.|Glucamet 500 tablet|
-|metformin v1|ctv3|f416.|Glucamet 850 tablet|
-|metformin v1|ctv3|f417.|Glucophage SR 500mg m/r tablet|
-|metformin v1|ctv3|f418.|METSOL 500mg/5mL oral solution|
-|metformin v1|ctv3|f419.|GLUCOPHAGE SR 750mg m/r tablets|
-|metformin v1|ctv3|f41A.|GLUCOPHAGE SR 1000mg m/r tablets|
-|metformin v1|ctv3|f41B.|BOLAMYN SR 500mg m/r tablets|
-|metformin v1|ctv3|f41C.|GLUCOPHAGE 500mg/sachet oral powder|
-|metformin v1|ctv3|f41D.|GLUCOPHAGE 1000mg/sachet oral powder|
-|metformin v1|ctv3|f41E.|METABET SR 500mg m/r tablets|
-|metformin v1|ctv3|f41F.|METABET SR 1000mg m/r tablets|
-|metformin v1|ctv3|f41G.|GLUCIENT SR 500mg m/r tablets|
-|metformin v1|ctv3|f41H.|DIAGEMET XL 500mg m/r tablets|
-|metformin v1|ctv3|f41I.|SUKKARTO SR 500mg m/r tablets|
-|metformin v1|ctv3|f41J.|SUKKARTO SR 1000mg m/r tablets|
-|metformin v1|ctv3|f41s.|METFORMIN HYDROCHLORIDE 1000mg/sachet oral powder|
-|metformin v1|ctv3|f41t.|METFORMIN HYDROCHLORIDE 500mg/sachet oral powder|
-|metformin v1|ctv3|f41u.|METFORMIN HYDROCHLORIDE 1000mg m/r tablets|
-|metformin v1|ctv3|f41v.|METFORMIN HYDROCHLORIDE 750mg m/r tablets|
-|metformin v1|ctv3|f41w.|METFORMIN 500mg/5mL oral solution|
-|metformin v1|ctv3|f41x.|Metformin hydrochloride 500mg m/r tablet|
-|metformin v1|ctv3|f41y.|Metformin hydrochloride 500mg tablet|
-|metformin v1|ctv3|f41z.|Metformin hydrochloride 850mg tablet|
-|metformin v1|ctv3|ft43.|Avandamet 1mg / 500mg tablet|
-|metformin v1|ctv3|ft44.|Avandamet 2mg / 500mg tablet|
-|metformin v1|ctv3|ft45.|Avandamet 2mg / 1000mg tablet|
-|metformin v1|ctv3|ft46.|Avandamet 4mg / 1000mg tablet|
-|metformin v1|ctv3|ft4u.|Rosiglitazone 2mg / Metformin 1000mg tablet|
-|metformin v1|ctv3|ft4v.|Rosiglitazone 4mg / Metformin 1000mg tablet|
-|metformin v1|ctv3|ft4w.|Rosiglitazone 2mg / metformin 500mg tablet|
-|metformin v1|ctv3|ft4x.|Rosiglitazone 1mg / metformin 500mg tablet|
-|metformin v1|ctv3|ft7..|METFORMIN + PIOGLITAZONE|
-|metformin v1|ctv3|ft71.|COMPETACT 15mg/850mg tablets|
-|metformin v1|ctv3|ft7z.|METFORMIN 850mg/PIOGLITAZONE 15mg tablets|
-|metformin v1|ctv3|ftb..|METFORMIN + VILDAGLIPTIN|
-|metformin v1|ctv3|ftb1.|EUCREAS 50mg/850mg tablets|
-|metformin v1|ctv3|ftb2.|EUCREAS 50mg/1000mg tablets|
-|metformin v1|ctv3|ftby.|VILDAGLIPTIN/METFORMIN 50mg/1000mg tablets|
-|metformin v1|ctv3|ftbz.|VILDAGLIPTIN/METFORMIN 50mg/850mg tablets|
-|metformin v1|ctv3|fte..|METFORMIN + SITAGLIPTIN|
-|metformin v1|ctv3|fte1.|JANUMET 50mg/1000mg tablets|
-|metformin v1|ctv3|ftez.|SITAGLIPTIN/METFORMIN HYDROCHLORIDE 50mg/1000mg tablets|
-|metformin v1|ctv3|ftg..|METFORMIN + LINAGLIPTIN|
-|metformin v1|ctv3|ftg1.|JENTADUETO 2.5mg/850mg tablets|
-|metformin v1|ctv3|ftg2.|LINAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/850mg tablets|
-|metformin v1|ctv3|ftg3.|JENTADUETO 2.5mg/1000mg tablets|
-|metformin v1|ctv3|ftg4.|LINAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/1000mg tablets|
-|metformin v1|ctv3|fti..|METFORMIN + SAXAGLIPTIN|
-|metformin v1|ctv3|fti1.|KOMBOGLYZE 2.5mg/850mg tablets|
-|metformin v1|ctv3|fti2.|SAXAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/850mg tablets|
-|metformin v1|ctv3|fti3.|KOMBOGLYZE 2.5mg/1000mg tablets|
-|metformin v1|ctv3|fti4.|SAXAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/1000mg tablets|
-|metformin v1|ctv3|ftl..|METFORMIN + ALOGLIPTIN|
-|metformin v1|ctv3|ftl1.|VIPDOMET 12.5mg/1000mg tablets|
-|metformin v1|ctv3|ftl2.|ALOGLIPTIN+METFORMIN HYDROCHLORIDE 12.5mg/1000mg tablets|
-|metformin v1|ctv3|ftm..|METFORMIN + DAPAGLIFLOZIN|
-|metformin v1|ctv3|ftm1.|XIGDUO 5mg/850mg tablets|
-|metformin v1|ctv3|ftm2.|DAPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/850mg tablets|
-|metformin v1|ctv3|ftm3.|XIGDUO 5mg/1000mg tablets|
-|metformin v1|ctv3|ftm4.|DAPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/1000mg tablets|
-|metformin v1|ctv3|ftp..|METFORMIN + CANAGLIFLOZIN|
-|metformin v1|ctv3|ftp1.|VOKANAMET 50mg/850mg tablets|
-|metformin v1|ctv3|ftp2.|CANAGLIFLOZIN+METFORMIN HYDROCHLORIDE 50mg/850mg tablets|
-|metformin v1|ctv3|ftp3.|VOKANAMET 50mg/1000mg tablets|
-|metformin v1|ctv3|ftp4.|CANAGLIFLOZIN+METFORMIN HYDROCHLORIDE 50mg/1000mg tablets|
-|metformin v1|ctv3|ftr..|METFORMIN + EMPAGLIFLOZIN|
-|metformin v1|ctv3|ftr1.|SYNJARDY 5mg/850mg tablets|
-|metformin v1|ctv3|ftr2.|EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/850mg tablets|
-|metformin v1|ctv3|ftr3.|SYNJARDY 5mg/1000mg tablets|
-|metformin v1|ctv3|ftr4.|EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/1000mg tablets|
-|metformin v1|ctv3|ftr5.|SYNJARDY 12.5mg/850mg tablets|
-|metformin v1|ctv3|ftr6.|EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 12.5mg/850mg tablets|
-|metformin v1|ctv3|ftr7.|SYNJARDY 12.5mg/1000mg tablets|
-|metformin v1|ctv3|ftr8.|EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 12.5mg/1000mg tablets|
-|metformin v1|ctv3|x01Li|Metformin|
-|metformin v1|ctv3|x02e3|Glucamet|
-|metformin v1|ctv3|x02e6|Glucophage|
-|metformin v1|ctv3|x02m0|Orabet|
-|metformin v1|ctv3|x043H|Glucamet 500|
-|metformin v1|ctv3|x043I|Glucamet 850|
-|metformin v1|ctv3|x05ql|Avandamet|
-|metformin v1|ctv3|x05vz|Glucophage SR|
-|metformin v1|emis|META1787|Metformin Hydrochloride  Tablets  500 mg|
-|metformin v1|emis|MEM/19420NEMIS|Metformin Hydrochloride  M/R Tablets  500 mg|
-|metformin v1|emis|META1788|Metformin Hydrochloride  Tablets  850 mg|
-|metformin v1|emis|MEM/35043NEMIS|Metformin Hydrochloride  M/R Tablets  1 gram|
-|metformin v1|emis|META29314NEMIS|Vildagliptin 50mg / Metformin 1g tablets|
-|metformin v1|emis|META42230NEMIS|Metformin And Sitagliptin  Tablets  1000 mg + 50 mg|
-|metformin v1|emis|PITA23356NEMIS|Pioglitazone And Metformin  Tablets  15 mg + 850 mg|
-|metformin v1|emis|ROTA19075NEMIS|Rosiglitazone And Metformin  Tablets  4 mg + 1 gram|
-|metformin v1|emis|MEM/30449NEMIS|Metformin Hydrochloride  M/R Tablets  750 mg|
-|metformin v1|emis|ROTA19074NEMIS|Rosiglitazone And Metformin  Tablets  2 mg + 1 gram|
-|metformin v1|emis|SATA78212NEMIS|Saxagliptin 2.5mg / Metformin 1g tablets|
-|metformin v1|emis|ROTA18930NEMIS|Rosiglitazone And Metformin  Tablets  2 mg + 500 mg|
-|metformin v1|emis|META29313NEMIS|Vildagliptin 50mg / Metformin 850mg tablets|
-|metformin v1|emis|MEOR35740NEMIS|Metformin Hydrochloride  Oral Powder Sachets Sugar Free  500 mg|
-|metformin v1|emis|MEOR35741NEMIS|Metformin Hydrochloride  Oral Powder Sachets Sugar Free  1 gram|
-|metformin v1|emis|MEOR23336NEMIS|Metformin 500mg/5ml oral solution sugar free|
-|metformin v1|emis|EMTA104969NEMIS|Empagliflozin 12.5mg / Metformin 1g tablets|
-|metformin v1|emis|META76743NEMIS|Linagliptin 2.5mg / Metformin 1g tablets|
-|metformin v1|emis|CATA96770NEMIS|Canagliflozin 50mg / Metformin 1g tablets|
-|metformin v1|emis|DATA88552NEMIS|Dapagliflozin 5mg / Metformin 1g tablets|
-|metformin v1|emis|ALTA86909NEMIS|Alogliptin 12.5mg / Metformin 1g tablets|
-|metformin v1|emis|ROTA18929NEMIS|Rosiglitazone 1mg / Metformin 500mg tablets|
-|metformin v1|emis|MEOR117653NEMIS|Metformin 850mg/5ml oral solution sugar free|
-|metformin v1|emis|MESU11377NEMIS|Metformin 500mg/5ml oral suspension|
-|metformin v1|emis|EMTA104967NEMIS|Empagliflozin 5mg / Metformin 1g tablets|
-|metformin v1|emis|GLM/19422NEMIS|Glucophage SR 500mg tablets (Merck Serono Ltd)|
-|metformin v1|emis|GLM/35044NEMIS|Glucophage SR 1000mg tablets (Merck Serono Ltd)|
-|metformin v1|emis|GLTA1307|Glucophage 500mg tablets (Merck Serono Ltd)|
-|metformin v1|emis|DIM/74131NEMIS|Diagemet XL 500mg tablets (Genus Pharmaceuticals Ltd)|
-|metformin v1|emis|GLTA1308|Glucophage 850mg tablets (Merck Serono Ltd)|
-|metformin v1|emis|GLM/30450NEMIS|Glucophage SR 750mg tablets (Merck Serono Ltd)|
-|metformin v1|emis|BOM/35196NEMIS|Bolamyn SR 500mg tablets (Teva UK Ltd)|
-|metformin v1|emis|JATA37230NEMIS|Janumet 50mg/1000mg tablets (Merck Sharp & Dohme Ltd)|
-|metformin v1|emis|MEM/49996NEMIS|Metabet SR 1000mg tablets (Morningside Healthcare Ltd)|
-|metformin v1|emis|VITA86911NEMIS|Vipdomet 12.5mg/1000mg tablets (Takeda UK Ltd)|
-|metformin v1|emis|GLOR35742NEMIS|Glucophage 500mg oral powder sachets (Merck Serono Ltd)|
-|metformin v1|emis|COTA23359NEMIS|Competact  Tablets  15 mg + 850 mg|
-|metformin v1|emis|MEM/47158NEMIS|Metabet SR 500mg tablets (Morningside Healthcare Ltd)|
-|metformin v1|emis|AVTA16477NEMIS|Avandamet  Tablets  1 mg + 500 mg|
-|metformin v1|emis|AVTA16478NEMIS|Avandamet  Tablets  2 mg + 500 mg|
-|metformin v1|emis|AVTA19076NEMIS|Avandamet  Tablets  2 mg + 1 gram|
-|metformin v1|emis|AVTA19077NEMIS|Avandamet  Tablets  4 mg + 1 gram|
-|metformin v1|emis|CATA96771NEMIS|Canagliflozin And Metformin  Tablets  50 mg + 850 mg|
-|metformin v1|emis|DATA88553NEMIS|Dapagliflozin And Metformin  Tablets  5 mg + 850 mg|
-|metformin v1|emis|EMTA104966NEMIS|Empagliflozin And Metformin  Tablets  5 mg + 850 mg|
-|metformin v1|emis|EMTA104968NEMIS|Empagliflozin And Metformin  Tablets  12.5 mg + 850 mg|
-|metformin v1|emis|EUTA29316NEMIS|Eucreas  Tablets  1 gram + 50 mg|
-|metformin v1|emis|EUTA29317NEMIS|Eucreas  Tablets  850 mg + 50 mg|
-|metformin v1|emis|META76744NEMIS|Metformin And Linagliptin  Tablets  850 mg + 2.5 mg|
-|metformin v1|emis|SUM/90087NEMIS|Sukkarto Sr  M/R tablets  500 mg|
-|metformin v1|emis|SUM/90090NEMIS|Sukkarto Sr  M/R tablets  1 gram|
-|metformin v1|emis|SYTA104973NEMIS|Synjardy  Tablets  12.5 mg + 850 mg|
-|metformin v1|emis|SYTA104974NEMIS|Synjardy  Tablets  12.5 mg + 1000 mg|
-|metformin v1|emis|XITA88555NEMIS|Xigduo  Tablets  5 mg + 1000 mg|
-|metformin v1|emis|XITA88556NEMIS|Xigduo  Tablets  5 mg + 850 mg|
-|metformin v1|emis|AVTA16477NEMIS|Avandamet  Tablets  1 mg + 500 mg|
-|metformin v1|emis|AVTA16478NEMIS|Avandamet  Tablets  2 mg + 500 mg|
-|metformin v1|emis|AVTA19076NEMIS|Avandamet  Tablets  2 mg + 1 gram|
-|metformin v1|emis|AVTA19077NEMIS|Avandamet  Tablets  4 mg + 1 gram|
-|metformin v1|emis|CATA96771NEMIS|Canagliflozin And Metformin  Tablets  50 mg + 850 mg|
-|metformin v1|emis|DATA88553NEMIS|Dapagliflozin And Metformin  Tablets  5 mg + 850 mg|
-|metformin v1|emis|EMTA104966NEMIS|Empagliflozin And Metformin  Tablets  5 mg + 850 mg|
-|metformin v1|emis|EMTA104968NEMIS|Empagliflozin And Metformin  Tablets  12.5 mg + 850 mg|
-|metformin v1|emis|EUTA29316NEMIS|Eucreas  Tablets  1 gram + 50 mg|
-|metformin v1|emis|EUTA29317NEMIS|Eucreas  Tablets  850 mg + 50 mg|
-|metformin v1|emis|MEOR46782NEMIS|Metformin Hydrochloride  Oral solution  500 mg/5 ml|
-|metformin v1|emis|META76744NEMIS|Metformin And Linagliptin  Tablets  850 mg + 2.5 mg|
-|metformin v1|emis|SUM/90087NEMIS|Sukkarto Sr  M/R tablets  500 mg|
-|metformin v1|emis|SUM/90090NEMIS|Sukkarto Sr  M/R tablets  1 gram|
-|metformin v1|emis|SYTA104973NEMIS|Synjardy  Tablets  12.5 mg + 850 mg|
-|metformin v1|emis|SYTA104974NEMIS|Synjardy  Tablets  12.5 mg + 1000 mg|
-|metformin v1|emis|XITA88555NEMIS|Xigduo  Tablets  5 mg + 1000 mg|
-|metformin v1|emis|XITA88556NEMIS|Xigduo  Tablets  5 mg + 850 mg|
-|metformin v1|readv2|f41..00|METFORMIN HYDROCHLORIDE|
-|metformin v1|readv2|f411.00|GLUCOPHAGE 500mg tablets|
-|metformin v1|readv2|f412.00|GLUCOPHAGE 850mg tablets|
-|metformin v1|readv2|f413.00|*ORABET 500mg tablets|
-|metformin v1|readv2|f414.00|*ORABET 850mg tablets|
-|metformin v1|readv2|f415.00|*GLUCAMET-500 tablets|
-|metformin v1|readv2|f416.00|*GLUCAMET-850 tablets|
-|metformin v1|readv2|f417.00|GLUCOPHAGE SR 500mg m/r tablets|
-|metformin v1|readv2|f418.00|METSOL 500mg/5mL oral solution|
-|metformin v1|readv2|f419.00|GLUCOPHAGE SR 750mg m/r tablets|
-|metformin v1|readv2|f41A.00|GLUCOPHAGE SR 1000mg m/r tablets|
-|metformin v1|readv2|f41B.00|BOLAMYN SR 500mg m/r tablets|
-|metformin v1|readv2|f41C.00|GLUCOPHAGE 500mg/sachet oral powder|
-|metformin v1|readv2|f41D.00|GLUCOPHAGE 1000mg/sachet oral powder|
-|metformin v1|readv2|f41E.00|METABET SR 500mg m/r tablets|
-|metformin v1|readv2|f41F.00|METABET SR 1000mg m/r tablets|
-|metformin v1|readv2|f41G.00|GLUCIENT SR 500mg m/r tablets|
-|metformin v1|readv2|f41H.00|DIAGEMET XL 500mg m/r tablets|
-|metformin v1|readv2|f41I.00|SUKKARTO SR 500mg m/r tablets|
-|metformin v1|readv2|f41J.00|SUKKARTO SR 1000mg m/r tablets|
-|metformin v1|readv2|f41s.00|METFORMIN HYDROCHLORIDE 1000mg/sachet oral powder|
-|metformin v1|readv2|f41t.00|METFORMIN HYDROCHLORIDE 500mg/sachet oral powder|
-|metformin v1|readv2|f41u.00|METFORMIN HYDROCHLORIDE 1000mg m/r tablets|
-|metformin v1|readv2|f41v.00|METFORMIN HYDROCHLORIDE 750mg m/r tablets|
-|metformin v1|readv2|f41w.00|METFORMIN HYDROCHLORIDE 500mg/5mL oral solution|
-|metformin v1|readv2|f41x.00|METFORMIN HYDROCHLORIDE 500mg m/r tablets|
-|metformin v1|readv2|f41y.00|METFORMIN HYDROCHLORIDE 500mg tablets|
-|metformin v1|readv2|f41z.00|METFORMIN HYDROCHLORIDE 850mg tablets|
-|metformin v1|readv2|ft43.00|*AVANDAMET 1mg / 500mg tablets|
-|metformin v1|readv2|ft44.00|*AVANDAMET 2mg / 500mg tablets|
-|metformin v1|readv2|ft45.00|AVANDAMET 2mg / 1000mg tablets|
-|metformin v1|readv2|ft46.00|AVANDAMET 4mg / 1000mg tablets|
-|metformin v1|readv2|ft4u.00|ROSIGLITAZONE 2mg / METFORMIN 1000mg tablets|
-|metformin v1|readv2|ft4v.00|ROSIGLITAZONE 4mg / METFORMIN 1000mg tablets|
-|metformin v1|readv2|ft4w.00|ROSIGLITAZONE 2mg / METFORMIN 500mg tablets|
-|metformin v1|readv2|ft4x.00|ROSIGLITAZONE 1mg / METFORMIN 500mg tablets|
-|metformin v1|readv2|ft7..00|METFORMIN + PIOGLITAZONE|
-|metformin v1|readv2|ft71.00|COMPETACT 15mg/850mg tablets|
-|metformin v1|readv2|ft7z.00|METFORMIN 850mg/PIOGLITAZONE 15mg tablets|
-|metformin v1|readv2|ftb..00|METFORMIN + VILDAGLIPTIN|
-|metformin v1|readv2|ftb1.00|EUCREAS 50mg/850mg tablets|
-|metformin v1|readv2|ftb2.00|EUCREAS 50mg/1000mg tablets|
-|metformin v1|readv2|ftby.00|VILDAGLIPTIN/METFORMIN 50mg/1000mg tablets|
-|metformin v1|readv2|ftbz.00|VILDAGLIPTIN/METFORMIN 50mg/850mg tablets|
-|metformin v1|readv2|fte..00|METFORMIN + SITAGLIPTIN|
-|metformin v1|readv2|fte1.00|JANUMET 50mg/1000mg tablets|
-|metformin v1|readv2|ftez.00|SITAGLIPTIN/METFORMIN HYDROCHLORIDE 50mg/1000mg tablets|
-|metformin v1|readv2|ftg..00|METFORMIN + LINAGLIPTIN|
-|metformin v1|readv2|ftg1.00|JENTADUETO 2.5mg/850mg tablets|
-|metformin v1|readv2|ftg2.00|LINAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/850mg tablets|
-|metformin v1|readv2|ftg3.00|JENTADUETO 2.5mg/1000mg tablets|
-|metformin v1|readv2|ftg4.00|LINAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/1000mg tablets|
-|metformin v1|readv2|fti..00|METFORMIN + SAXAGLIPTIN|
-|metformin v1|readv2|fti1.00|KOMBOGLYZE 2.5mg/850mg tablets|
-|metformin v1|readv2|fti2.00|SAXAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/850mg tablets|
-|metformin v1|readv2|fti3.00|KOMBOGLYZE 2.5mg/1000mg tablets|
-|metformin v1|readv2|fti4.00|SAXAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/1000mg tablets|
-|metformin v1|readv2|ftl..00|METFORMIN + ALOGLIPTIN|
-|metformin v1|readv2|ftl1.00|VIPDOMET 12.5mg/1000mg tablets|
-|metformin v1|readv2|ftl2.00|ALOGLIPTIN+METFORMIN HYDROCHLORIDE 12.5mg/1000mg tablets|
-|metformin v1|readv2|ftm..00|METFORMIN + DAPAGLIFLOZIN|
-|metformin v1|readv2|ftm1.00|XIGDUO 5mg/850mg tablets|
-|metformin v1|readv2|ftm2.00|DAPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/850mg tablets|
-|metformin v1|readv2|ftm3.00|XIGDUO 5mg/1000mg tablets|
-|metformin v1|readv2|ftm4.00|DAPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/1000mg tablets|
-|metformin v1|readv2|ftp..00|METFORMIN + CANAGLIFLOZIN|
-|metformin v1|readv2|ftp1.00|VOKANAMET 50mg/850mg tablets|
-|metformin v1|readv2|ftp2.00|CANAGLIFLOZIN+METFORMIN HYDROCHLORIDE 50mg/850mg tablets|
-|metformin v1|readv2|ftp3.00|VOKANAMET 50mg/1000mg tablets|
-|metformin v1|readv2|ftp4.00|CANAGLIFLOZIN+METFORMIN HYDROCHLORIDE 50mg/1000mg tablets|
-|metformin v1|readv2|ftr..00|METFORMIN + EMPAGLIFLOZIN|
-|metformin v1|readv2|ftr1.00|SYNJARDY 5mg/850mg tablets|
-|metformin v1|readv2|ftr2.00|EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/850mg tablets|
-|metformin v1|readv2|ftr3.00|SYNJARDY 5mg/1000mg tablets|
-|metformin v1|readv2|ftr4.00|EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/1000mg tablets|
-|metformin v1|readv2|ftr5.00|SYNJARDY 12.5mg/850mg tablets|
-|metformin v1|readv2|ftr6.00|EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 12.5mg/850mg tablets|
-|metformin v1|readv2|ftr7.00|SYNJARDY 12.5mg/1000mg tablets|
-|metformin v1|readv2|ftr8.00|EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 12.5mg/1000mg tablets|
-|metformin v1|snomed|109081006|Metformin product|
-|metformin v1|snomed|109083009|Metformin hydrochloride (substance)|
-|metformin v1|snomed|1097191000000106|Metformin therapy (procedure)|
-|metformin v1|snomed|325278007|Product containing precisely metformin hydrochloride 500 milligram/1 each conventional release oral tablet|
-|metformin v1|snomed|325279004|Product containing precisely metformin hydrochloride 850 milligram/1 each conventional release oral tablet (clinical drug)|
-|metformin v1|snomed|372567009|Metformin|
-|metformin v1|snomed|376701008|Product containing precisely metformin hydrochloride 1 gram/1 each conventional release oral tablet|
-|metformin v1|snomed|409120009|Metformin and rosiglitazone product|
-|metformin v1|snomed|409121008|Product containing precisely metformin hydrochloride 500 milligram and rosiglitazone (as rosiglitazone maleate) 1 milligram/1 each conventional release oral tablet (clinical drug)|
-|metformin v1|snomed|409122001|Metformin hydrochloride 500 mg and rosiglitazone (as rosiglitazone maleate) 2 mg oral tablet|
-|metformin v1|snomed|409123006|Product containing precisely metformin hydrochloride 500 milligram and rosiglitazone maleate 4 milligram/1 each conventional release oral tablet (clinical drug)|
-|metformin v1|snomed|409124000|Metformin hydrochloride 1 g and rosiglitazone (as rosiglitazone maleate) 2 mg oral tablet|
-|metformin v1|snomed|409125004|Product containing precisely metformin hydrochloride 1 gram and rosiglitazone (as rosiglitazone maleate) 4 milligram/1 each conventional release oral tablet|
-|metformin v1|snomed|409187009|Product containing precisely glibenclamide 1.25 milligram and metformin hydrochloride 250 milligram/1 each conventional release oral tablet|
-|metformin v1|snomed|409188004|Glibenclamide 2.5 mg and metformin hydrochloride 500 mg oral tablet|
-|metformin v1|snomed|409189007|Product containing precisely glibenclamide 5 milligram and metformin hydrochloride 500 milligram/1 each conventional release oral tablet|
-|metformin v1|snomed|409197000|Product containing precisely metformin hydrochloride 100 milligram/1 milliliter conventional release oral solution|
-|metformin v1|snomed|409363003|Product containing precisely glipizide 2.5 milligram and metformin hydrochloride 250 milligram/1 each conventional release oral tablet (clinical drug)|
-|metformin v1|snomed|409364009|Product containing precisely glipizide 2.5 milligram and metformin hydrochloride 500 milligram/1 each conventional release oral tablet|
-|metformin v1|snomed|409365005|Product containing precisely glipizide 5 milligram and metformin hydrochloride 500 milligram/1 each conventional release oral tablet|
-|metformin v1|snomed|409366006|Product containing precisely metformin hydrochloride 625 milligram/1 each conventional release oral tablet (clinical drug)|
-|metformin v1|snomed|418835009|Metformin and pioglitazone product|
-|metformin v1|snomed|419575000|Product containing precisely metformin hydrochloride 500 milligram and pioglitazone hydrochloride 15 milligram/1 each conventional release oral tablet|
-|metformin v1|snomed|419873003|Metformin hydrochloride 850 mg and pioglitazone (as pioglitazone hydrochloride) 15 mg oral tablet|
-|metformin v1|snomed|425651000|Product containing precisely metformin hydrochloride 1 gram and sitagliptin phosphate 50 milligram/1 each conventional release oral tablet|
-|metformin v1|snomed|426046000|Product containing precisely metformin hydrochloride 500 milligram and sitagliptin phosphate 50 milligram/1 each conventional release oral tablet (clinical drug)|
-|metformin v1|snomed|427522005|Metformin and sitagliptin product|
-|metformin v1|snomed|438340003|Metformin and repaglinide product|
-|metformin v1|snomed|441011003|Product containing precisely metformin hydrochloride 500 milligram and repaglinide 2 milligram/1 each conventional release oral tablet|
-|metformin v1|snomed|441071009|Product containing precisely metformin hydrochloride 500 milligram and repaglinide 1 milligram/1 each conventional release oral tablet (clinical drug)|
-|metformin v1|snomed|448802007|Metformin hydrochloride 1000mg + Saxagliptin 2.5mg extended release tablet|
-|metformin v1|snomed|448832004|Metformin hydrochloride 500mg + Saxagliptin 5mg extended release tablet|
-|metformin v1|snomed|448833009|Metformin hydrochloride 1000mg + Saxagliptin 5mg extended release tablet|
-|metformin v1|snomed|714599005|Product containing metformin in oral dosage form|
-|metformin v1|snomed|714686000|Empagliflozin and metformin product|
-|metformin v1|snomed|714779001|Canagliflozin and metformin product|
-|metformin v1|snomed|714780003|Product containing canagliflozin and metformin in oral dosage form|
-|metformin v1|snomed|715702002|Linagliptin and metformin product|
-|metformin v1|snomed|715703007|Linagliptin and metformin in oral dosage form|
-|metformin v1|snomed|734558009|Metformin pamoate (substance)|
-|metformin v1|snomed|765507008|Metformin hydrochloride 500 mg prolonged-release oral tablet|
-|metformin v1|snomed|765550003|Product containing precisely metformin hydrochloride 1 gram/1 each prolonged-release oral tablet|
-|metformin v1|snomed|765582000|Pioglitazone 30mg + metformin 1g prolonged-release oral tablet|
-|metformin v1|snomed|765681004|Pioglitazone 15mg + metformin 1g prolonged-release oral tablet (product)|
-|metformin v1|snomed|765703005|Product containing precisely metformin hydrochloride 750 milligram/1 each prolonged-release oral tablet (clinical drug)|
-|metformin v1|snomed|768156002|Product containing metformin and rosiglitazone in oral dosage form (medicinal product form)|
-|metformin v1|snomed|768291001|Product containing metformin and pioglitazone in oral dosage form|
-|metformin v1|snomed|768500006|Glyburide and metformin product|
-|metformin v1|snomed|768501005|Glibenclamide and metformin in oral dosage form|
-|metformin v1|snomed|768506000|Product containing glipizide and metformin|
-|metformin v1|snomed|768507009|Glipizide and metformin in oral dosage form|
-|metformin v1|snomed|768920004|Product containing metformin and sitagliptin in oral dosage form|
-|metformin v1|snomed|768921000|Metformin and repaglinide in oral dosage form|
-|glp1-receptor-agonists v1|ctv3|ftq..|DULAGLUTIDE|
-|glp1-receptor-agonists v1|ctv3|ftq7.|TRULICITY 1.5mg/0.5mL soln for injection prefilled syringe|
-|glp1-receptor-agonists v1|ctv3|ftq5.|TRULICITY 750micrograms/0.5mL soln for inj prefilled syringe|
-|glp1-receptor-agonists v1|ctv3|ftq3.|TRULICITY 1.5mg/0.5mL solution for injection prefilled pen|
-|glp1-receptor-agonists v1|ctv3|ftq1.|TRULICITY 750micrograms/0.5mL soln for injection p/f pen|
-|glp1-receptor-agonists v1|ctv3|ftq8.|DULAGLUTIDE 1.5mg/0.5mL soln for injection prefilled syringe|
-|glp1-receptor-agonists v1|ctv3|ftq6.|DULAGLUTIDE 750micrograms/0.5mL solution for injection pfs|
-|glp1-receptor-agonists v1|ctv3|ftq4.|DULAGLUTIDE 1.5mg/0.5mL soln for injection prefilled pen|
-|glp1-receptor-agonists v1|ctv3|ftq2.|DULAGLUTIDE 750micrograms/0.5mL soln for injection p/f pen|
-|glp1-receptor-agonists v1|ctv3|ftj..|LIXISENATIDE|
-|glp1-receptor-agonists v1|ctv3|ftj5.|LYXUMIA 10mcg/0.2mL+20mcg/0.2mL soln inj prefilled pens 3mL|
-|glp1-receptor-agonists v1|ctv3|ftj3.|LYXUMIA 20micrograms/0.2mL soln for inj prefilled pen 3mL|
-|glp1-receptor-agonists v1|ctv3|ftj1.|LYXUMIA 10micrograms/0.2mL soln for inj prefilled pen 3mL|
-|glp1-receptor-agonists v1|ctv3|ftj6.|LIXISENATIDE 10mcg/0.2mL+20mcg/0.2mL soln for inj pens 3mL|
-|glp1-receptor-agonists v1|ctv3|ftj4.|LIXISENATIDE 20micrograms/0.2mL soln for injection pen 3mL|
-|glp1-receptor-agonists v1|ctv3|ftj2.|LIXISENATIDE 10micrograms/0.2mL soln for injection pen 3mL|
-|glp1-receptor-agonists v1|ctv3|ftc..|LIRAGLUTIDE|
-|glp1-receptor-agonists v1|ctv3|ftc1.|VICTOZA 6mg/mL solution for injection prefilled pen 3mL|
-|glp1-receptor-agonists v1|ctv3|ftc2.|LIRAGLUTIDE 6mg/mL solution for injection prefilled pen|
-|glp1-receptor-agonists v1|ctv3|ft9..|EXENATIDE|
-|glp1-receptor-agonists v1|ctv3|ft94.|BYDUREON 2mg powder+solvent for susp for inj prefilled pen|
-|glp1-receptor-agonists v1|ctv3|ft93.|BYDUREON 2mg powder and solvent for suspension for injection|
-|glp1-receptor-agonists v1|ctv3|ft9z.|EXENATIDE 5micrograms/0.02mL injection prefilled pen|
-|glp1-receptor-agonists v1|ctv3|ft91.|BYETTA 5micrograms/0.02mL injection prefilled pen|
-|glp1-receptor-agonists v1|ctv3|ft9y.|EXENATIDE 10micrograms/0.04mL injection prefilled pen|
-|glp1-receptor-agonists v1|ctv3|ft92.|BYETTA 10micrograms/0.04mL injection prefilled pen|
-|glp1-receptor-agonists v1|ctv3|ft9x.|EXENATIDE 2mg powder+solvent for suspension for injection|
-|glp1-receptor-agonists v1|ctv3|ft95.|EXENATIDE 2mg powder+solvent for susp for inj prefilled pen|
-|glp1-receptor-agonists v1|ctv3|f2C..|INSULIN DEGLUDEC + LIRAGLUTIDE|
-|glp1-receptor-agonists v1|ctv3|f2C1.|XULTOPHY 100iu/mL/3.6mg/mL soln for inj prefilled pen 3mL|
-|glp1-receptor-agonists v1|ctv3|f2C2.|INSULIN DEGLUDEC+LIRAGLUTIDE 100iu/mL/3.6mg/mL soln inj pen|
-|glp1-receptor-agonists v1|ctv3|XaREp|Subcutaneous injection of exenatide|
-|glp1-receptor-agonists v1|emis|EXPO51135NEMIS|Exenatide  Prolonged release suspension for injection  2 mg vial|
-|glp1-receptor-agonists v1|emis|EXIN25436NEMIS|Exenatide  Injection (Pre-Filled Pen)  5 micrograms/dose, 60 dose pen|
-|glp1-receptor-agonists v1|emis|TRSO100544NEMIS|Trulicity  Solution for injection  0.75 mg/0.5 ml pre-filled pen|
-|glp1-receptor-agonists v1|emis|TRSO100545NEMIS|Trulicity  Solution for injection  1.5 mg/0.5 ml pre-filled pen|
-|glp1-receptor-agonists v1|emis|EXIN25438NEMIS|Exenatide  Injection (Pre-Filled Pen)  10 micrograms/dose, 60 dose pen|
-|glp1-receptor-agonists v1|emis|BYIN25441NEMIS|Byetta  Injection (Pre-Filled Pen)  10 micrograms/dose, 60 dose pen|
-|glp1-receptor-agonists v1|emis|INSO98875NEMIS|Insulin Degludec And Liraglutide  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen|
-|glp1-receptor-agonists v1|emis|BYIN25440NEMIS|Byetta  Injection (Pre-Filled Pen)  5 micrograms/dose, 60 dose pen|
-|glp1-receptor-agonists v1|emis|LISO78535NEMIS|Lixisenatide  Solution for injection  20 micrograms/0.2 ml, 3 ml device|
-|glp1-receptor-agonists v1|emis|LIIN78550NEMIS|Lixisenatide  Injection  10 micrograms/0.2ml pen + 20 micrograms/0.2ml pen|
-|glp1-receptor-agonists v1|emis|LYSO78538NEMIS|Lyxumia  Solution for injection  20 micrograms/0.2 ml, 3 ml pen|
-|glp1-receptor-agonists v1|emis|LISO78533NEMIS|Lixisenatide  Solution for injection  10 micrograms/0.2 ml, 3 ml device|
-|glp1-receptor-agonists v1|emis|LISO37216NEMIS|Liraglutide  Solution for injection in pre-filled pen  6 mg/ml, 3 ml pen|
-|glp1-receptor-agonists v1|emis|LYSO78538NEMIS|Lyxumia  Solution for injection  20 micrograms/0.2 ml, 3 ml pen|
-|glp1-receptor-agonists v1|emis|LYSO78537NEMIS|Lyxumia  Solution for injection  10 micrograms/0.2 ml, 3 ml pen|
-|glp1-receptor-agonists v1|emis|VISO37220NEMIS|Victoza  Solution for injection in pre-filled pen  6 mg/ml, 3 ml pen|
-|glp1-receptor-agonists v1|emis|LIIN78550NEMIS|Lixisenatide  Injection  10 micrograms/0.2ml pen + 20 micrograms/0.2ml pen|
-|glp1-receptor-agonists v1|emis|LYSO78537NEMIS|Lyxumia  Solution for injection  10 micrograms/0.2 ml, 3 ml pen|
-|glp1-receptor-agonists v1|emis|BYPO98846NEMIS|Bydureon  Prolonged release suspension for injection  2 mg pen|
-|glp1-receptor-agonists v1|emis|DUSO100540NEMIS|Dulaglutide  Solution for injection  0.75 mg/0.5 ml pre-filled device|
-|glp1-receptor-agonists v1|emis|EXPO51135NEMIS|Exenatide  Prolonged release suspension for injection  2 mg vial|
-|glp1-receptor-agonists v1|emis|BYPO51137NEMIS|Bydureon  Prolonged release suspension for injection  2 mg vial|
-|glp1-receptor-agonists v1|emis|DUSO100542NEMIS|Dulaglutide  Solution for injection  1.5 mg/0.5 ml pre-filled device|
-|glp1-receptor-agonists v1|emis|LISO37216NEMIS|Liraglutide  Solution for injection in pre-filled pen  6 mg/ml, 3 ml pen|
-|glp1-receptor-agonists v1|emis|DUSO100540NEMIS|Dulaglutide  Solution for injection  0.75 mg/0.5 ml pre-filled device|
-|glp1-receptor-agonists v1|emis|DUSO100542NEMIS|Dulaglutide  Solution for injection  1.5 mg/0.5 ml pre-filled device|
-|glp1-receptor-agonists v1|emis|LYIN78553NEMIS|Lyxumia  Injection  10 micrograms/0.2ml pen + 20 micrograms/0.2ml pen|
-|glp1-receptor-agonists v1|emis|BYPO51137NEMIS|Bydureon  Prolonged release suspension for injection  2 mg vial|
-|glp1-receptor-agonists v1|emis|EXPO98845NEMIS|Exenatide  Prolonged release suspension for injection  2 mg device|
-|glp1-receptor-agonists v1|emis|LISO78533NEMIS|Lixisenatide  Solution for injection  10 micrograms/0.2 ml, 3 ml device|
-|glp1-receptor-agonists v1|emis|LYIN78553NEMIS|Lyxumia  Injection  10 micrograms/0.2ml pen + 20 micrograms/0.2ml pen|
-|glp1-receptor-agonists v1|emis|TRSO100545NEMIS|Trulicity  Solution for injection  1.5 mg/0.5 ml pre-filled pen|
-|glp1-receptor-agonists v1|emis|XUSO98877NEMIS|Xultophy  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen|
-|glp1-receptor-agonists v1|emis|EXIN25438NEMIS|Exenatide  Injection (Pre-Filled Pen)  10 micrograms/dose, 60 dose pen|
-|glp1-receptor-agonists v1|emis|LISO78535NEMIS|Lixisenatide  Solution for injection  20 micrograms/0.2 ml, 3 ml device|
-|glp1-receptor-agonists v1|emis|VISO37220NEMIS|Victoza  Solution for injection in pre-filled pen  6 mg/ml, 3 ml pen|
-|glp1-receptor-agonists v1|emis|BYIN25441NEMIS|Byetta  Injection (Pre-Filled Pen)  10 micrograms/dose, 60 dose pen|
-|glp1-receptor-agonists v1|emis|BYIN25440NEMIS|Byetta  Injection (Pre-Filled Pen)  5 micrograms/dose, 60 dose pen|
-|glp1-receptor-agonists v1|emis|EXIN25436NEMIS|Exenatide  Injection (Pre-Filled Pen)  5 micrograms/dose, 60 dose pen|
-|glp1-receptor-agonists v1|emis|INSO98875NEMIS|Insulin Degludec And Liraglutide  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen|
-|glp1-receptor-agonists v1|emis|TRSO100544NEMIS|Trulicity  Solution for injection  0.75 mg/0.5 ml pre-filled pen|
-|glp1-receptor-agonists v1|emis|XUSO98877NEMIS|Xultophy  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen|
-|glp1-receptor-agonists v1|readv2|ftq..00|DULAGLUTIDE|
-|glp1-receptor-agonists v1|readv2|ftq8.00|DULAGLUTIDE 1.5mg/0.5mL soln for injection prefilled syringe|
-|glp1-receptor-agonists v1|readv2|ftq6.00|DULAGLUTIDE 750micrograms/0.5mL solution for injection pfs|
-|glp1-receptor-agonists v1|readv2|ftq4.00|DULAGLUTIDE 1.5mg/0.5mL soln for injection prefilled pen|
-|glp1-receptor-agonists v1|readv2|ftq2.00|DULAGLUTIDE 750micrograms/0.5mL soln for injection p/f pen|
-|glp1-receptor-agonists v1|readv2|ftq7.00|TRULICITY 1.5mg/0.5mL soln for injection prefilled syringe|
-|glp1-receptor-agonists v1|readv2|ftq5.00|TRULICITY 750micrograms/0.5mL soln for inj prefilled syringe|
-|glp1-receptor-agonists v1|readv2|ftq3.00|TRULICITY 1.5mg/0.5mL solution for injection prefilled pen|
-|glp1-receptor-agonists v1|readv2|ftq1.00|TRULICITY 750micrograms/0.5mL soln for injection p/f pen|
-|glp1-receptor-agonists v1|readv2|ftj..00|LIXISENATIDE|
-|glp1-receptor-agonists v1|readv2|ftj6.00|LIXISENATIDE 10mcg/0.2mL+20mcg/0.2mL soln for inj pens 3mL|
-|glp1-receptor-agonists v1|readv2|ftj4.00|LIXISENATIDE 20micrograms/0.2mL soln for injection pen 3mL|
-|glp1-receptor-agonists v1|readv2|ftj2.00|LIXISENATIDE 10micrograms/0.2mL soln for injection pen 3mL|
-|glp1-receptor-agonists v1|readv2|ftj5.00|LYXUMIA 10mcg/0.2mL+20mcg/0.2mL soln inj prefilled pens 3mL|
-|glp1-receptor-agonists v1|readv2|ftj3.00|LYXUMIA 20micrograms/0.2mL soln for inj prefilled pen 3mL|
-|glp1-receptor-agonists v1|readv2|ftj1.00|LYXUMIA 10micrograms/0.2mL soln for inj prefilled pen 3mL|
-|glp1-receptor-agonists v1|readv2|ftc..00|LIRAGLUTIDE|
-|glp1-receptor-agonists v1|readv2|ftc2.00|LIRAGLUTIDE 6mg/mL solution for injection prefilled pen|
-|glp1-receptor-agonists v1|readv2|ftc1.00|VICTOZA 6mg/mL solution for injection prefilled pen 3mL|
-|glp1-receptor-agonists v1|readv2|ft9..00|EXENATIDE|
-|glp1-receptor-agonists v1|readv2|ft9z.00|EXENATIDE 5micrograms/0.02mL injection prefilled pen|
-|glp1-receptor-agonists v1|readv2|ft9y.00|EXENATIDE 10micrograms/0.04mL injection prefilled pen|
-|glp1-receptor-agonists v1|readv2|ft9x.00|EXENATIDE 2mg powder+solvent for suspension for injection|
-|glp1-receptor-agonists v1|readv2|ft95.00|EXENATIDE 2mg powder+solvent for susp for inj prefilled pen|
-|glp1-receptor-agonists v1|readv2|ft94.00|BYDUREON 2mg powder+solvent for susp for inj prefilled pen|
-|glp1-receptor-agonists v1|readv2|ft93.00|BYDUREON 2mg powder and solvent for suspension for injection|
-|glp1-receptor-agonists v1|readv2|ft92.00|BYETTA 10micrograms/0.04mL injection prefilled pen|
-|glp1-receptor-agonists v1|readv2|ft91.00|BYETTA 5micrograms/0.02mL injection prefilled pen|
-|glp1-receptor-agonists v1|readv2|f2C..00|INSULIN DEGLUDEC + LIRAGLUTIDE|
-|glp1-receptor-agonists v1|readv2|f2C2.00|INSULIN DEGLUDEC+LIRAGLUTIDE 100iu/mL/3.6mg/mL soln inj pen|
-|glp1-receptor-agonists v1|readv2|f2C1.00|XULTOPHY 100iu/mL/3.6mg/mL soln for inj prefilled pen 3mL|
-|glp1-receptor-agonists v1|readv2|7L19J00|Subcutaneous injection of exenatide|
-|insulin v1|ctv3|X75XP|Insulin used|
-|insulin v1|ctv3|X795r|Insulin|
-|insulin v1|ctv3|X797a|Fish insulin|
-|insulin v1|ctv3|X797n|Porcine insulin|
-|insulin v1|ctv3|XE288|Insulin - C - polypep.|
-|insulin v1|ctv3|XSETp|Diabetes mellitus due to insulin receptor antibodies|
-|insulin v1|ctv3|Xa0k8|Types of insulin|
-|insulin v1|ctv3|XaXTO|Active insulin time|
-|insulin v1|ctv3|XaXtQ|Insulin infusion rate|
-|insulin v1|ctv3|f1...|Short-acting insulin|
-|insulin v1|ctv3|f11..|Soluble insulin|
-|insulin v1|ctv3|f111.|Insulin 100iu/mL injection 10mL|
-|insulin v1|ctv3|f112.|Hypurin injection 10mL|
-|insulin v1|ctv3|f12..|Neutral insulin|
-|insulin v1|ctv3|f121.|Neutral insulin 100iu/mL injection 10mL|
-|insulin v1|ctv3|f123.|Neusulin 100iu/mL injection vial|
-|insulin v1|ctv3|f124.|Quicksol 100iu/mL injection vial|
-|insulin v1|ctv3|f125.|Velosulin 100iu/mL injection 10mL|
-|insulin v1|ctv3|f126.|Velosulin cartridge 100iu/mL injection 5.7mL|
-|insulin v1|ctv3|f127.|Human Actrapid 100iu/mL injection 10mL|
-|insulin v1|ctv3|f128.|Human Actrapid Penfill 100iu/mL injection cartridge|
-|insulin v1|ctv3|f129.|Human Velosulin 100iu/mL injection 10mL|
-|insulin v1|ctv3|f12A.|Human Actrapid 100iu/mL Penfill cartridge 1.5mL|
-|insulin v1|ctv3|f12B.|Human Actrapid 100iu/mL preloaded injection pen 3mL|
-|insulin v1|ctv3|f12C.|Humaject S 100iu/mL prefilled pen|
-|insulin v1|ctv3|f12D.|Pork Velosulin injection 10mL|
-|insulin v1|ctv3|f12E.|Neutral insulin 100iu/mL injection cartridge|
-|insulin v1|ctv3|f12F.|Hypurin Bovine Neutral 100iu/mL injection cartridge 1.5mL|
-|insulin v1|ctv3|f12G.|Hypurin Porcine Neutral 100iu/mL injection cartridge 1.5mL|
-|insulin v1|ctv3|f12H.|Hypurin Neutral 100iu/mL injection 10mL|
-|insulin v1|ctv3|f12I.|Hypurin Porcine Neutral 100iu/mL injection 10mL|
-|insulin v1|ctv3|f12J.|Actrapid (human) Penfill 100iu/mL cartridge 3mL|
-|insulin v1|ctv3|f12L.|Insuman Rapid 100iu/mL injection vial 5mL|
-|insulin v1|ctv3|f12M.|Insuman Rapid 100iu/mL injection cartridge 3mL|
-|insulin v1|ctv3|f12Q.|Insuman Rapid OptiSet 100iu/mL prefilled pen 3mL|
-|insulin v1|ctv3|f12R.|Human Velosulin (pyr) 100iu/mL injection 10mL|
-|insulin v1|ctv3|f12S.|Hypurin Bovine Neutral 100iu/mL injection cartridge 3mL|
-|insulin v1|ctv3|f12T.|Hypurin Porcine Neutral 100iu/mL injection cartridge 3mL|
-|insulin v1|ctv3|f12U.|EXUBERA 1mg powder for inhalation|
-|insulin v1|ctv3|f12V.|EXUBERA 3mg powder for inhalation|
-|insulin v1|ctv3|f12W.|HUMAN INSULIN 1mg powder for inhalation|
-|insulin v1|ctv3|f12X.|HUMAN INSULIN 3mg powder for inhalation|
-|insulin v1|ctv3|f12Y.|INSUMAN INFUSAT 100iu/mL soln for inj cartridges 3.15mL|
-|insulin v1|ctv3|f12Z.|INSUMAN INFUSAT 100iu/mL solution for injection vials 10mL|
-|insulin v1|ctv3|f12a.|Humulin S 100iu/mL injection 10mL|
-|insulin v1|ctv3|f12d.|Pur-In Neutral 100iu/mL vials 10mL|
-|insulin v1|ctv3|f12e.|Pur-In Neutral 100iu/mL cartridges 3mL|
-|insulin v1|ctv3|f12g.|Humulin S 100iu/mL cartridges 1.5mL|
-|insulin v1|ctv3|f12h.|NovoPen II device|
-|insulin v1|ctv3|f12k.|Pur-In Pen 1 device|
-|insulin v1|ctv3|f12m.|Pur-In Pen 2 device|
-|insulin v1|ctv3|f12n.|Pur-In Pen 4 device|
-|insulin v1|ctv3|f12p.|Diapen 1 device|
-|insulin v1|ctv3|f12q.|Diapen 2 device|
-|insulin v1|ctv3|f12r.|NovoPen I device|
-|insulin v1|ctv3|f12s.|Humulin S 100iu/mL cartridges 3mL|
-|insulin v1|ctv3|f12y.|Human insulin 100units/mL injection cartridge|
-|insulin v1|ctv3|f12z.|Human insulin 100iu/mL injection vial|
-|insulin v1|ctv3|f13..|Insulin lispro|
-|insulin v1|ctv3|f131.|Insulin lispro 100iu/mL injection vial|
-|insulin v1|ctv3|f132.|Humalog 100iu/mL injection 10mL|
-|insulin v1|ctv3|f133.|Insulin lispro 100iu/mL injection cartridge|
-|insulin v1|ctv3|f134.|Humalog 100iu/mL cartridges 1.5mL|
-|insulin v1|ctv3|f135.|Humalog 100iu/mL cartridge 3mL|
-|insulin v1|ctv3|f136.|Insulin lispro 100iu/mL prefilled pen|
-|insulin v1|ctv3|f137.|Humalog-Pen 100iu/mL prefilled pen 3mL|
-|insulin v1|ctv3|f138.|HUMALOG KWIKPEN 100iu/mL prefilled pen 3mL|
-|insulin v1|ctv3|f139.|HUMALOG KWIKPEN 200iu/mL prefilled pen 3mL|
-|insulin v1|ctv3|f13A.|INSULIN LISPRO 200iu/mL prefilled pen|
-|insulin v1|ctv3|f14..|Insulin aspart|
-|insulin v1|ctv3|f141.|NovoRapid 100units/mL injection vial|
-|insulin v1|ctv3|f142.|NovoRapid NovoLet 100units/mL prefilled syringe 3mL|
-|insulin v1|ctv3|f143.|NovoRapid Penfill 100units/mL cartridge 3mL|
-|insulin v1|ctv3|f144.|NovoRapid FlexPen 100units/mL prefilled pen 3mL|
-|insulin v1|ctv3|f145.|NOVORAPID FLEXTOUCH 100units/mL soln for injection pen 3mL|
-|insulin v1|ctv3|f146.|NOVORAPID PUMPCART 100units/mL soln for inj cartridges 1.6mL|
-|insulin v1|ctv3|f14w.|Insulin aspart 100units/mL prefilled pen|
-|insulin v1|ctv3|f14x.|Insulin aspart 100units/mL injection vial|
-|insulin v1|ctv3|f14y.|Insulin aspart 100units/mL prefilled syringe|
-|insulin v1|ctv3|f14z.|Insulin aspart 100units/mL cartridge|
-|insulin v1|ctv3|f15..|Insulin glulisine|
-|insulin v1|ctv3|f151.|Apidra 100iu/mL injection vials 10mL|
-|insulin v1|ctv3|f152.|Apidra 100iu/mL injection cartridges 3mL|
-|insulin v1|ctv3|f153.|Apidra 100iu/mL OptiSet prefilled pen 3mL|
-|insulin v1|ctv3|f154.|APIDRA 100iu/mL OptiClik cartridges 3mL|
-|insulin v1|ctv3|f155.|APIDRA 100iu/mL SoloStar prefilled pen 3mL|
-|insulin v1|ctv3|f15x.|Insulin glulisine 100iu/mL injection prefilled pen|
-|insulin v1|ctv3|f15y.|Insulin glulisine 100iu/mL injection cartridge|
-|insulin v1|ctv3|f15z.|Insulin glulisine 100iu/mL injection vial|
-|insulin v1|ctv3|f2...|Intermediate and long acting insulins|
-|insulin v1|ctv3|f21..|Biphasic insulin injection|
-|insulin v1|ctv3|f211.|Rapitard MC 100iu/mL injection 10mL|
-|insulin v1|ctv3|f212.|PenMix cartridges 1.5mL|
-|insulin v1|ctv3|f21z.|Biphasic insulin 100units/mL injection vial|
-|insulin v1|ctv3|f22..|Insulin zinc suspension(mixed)|
-|insulin v1|ctv3|f221.|Insulin zinc lente 100iu/mL injection 10mL|
-|insulin v1|ctv3|f223.|Lentard MC 100iu/mL injection 10mL|
-|insulin v1|ctv3|f224.|Neulente 100iu/mL injection|
-|insulin v1|ctv3|f225.|Tempulin 100iu/mL injection|
-|insulin v1|ctv3|f226.|Human Monotard 100iu/mL injection 10mL|
-|insulin v1|ctv3|f227.|Humulin Lente 100iu/mL injection 10mL|
-|insulin v1|ctv3|f228.|Hypurin Lente 100iu/mL injection 10mL|
-|insulin v1|ctv3|f22y.|Human insulin zinc suspension 100units/mL injection vial|
-|insulin v1|ctv3|f22z.|Insulin zinc suspension 100units/mL injection vial|
-|insulin v1|ctv3|f23..|IZS - amorphous|
-|insulin v1|ctv3|f231.|Semitard MC 100iu/mL injection 10mL|
-|insulin v1|ctv3|f23z.|Insulin zinc amorphous suspension 100units/mL injection vial|
-|insulin v1|ctv3|f24..|IZS - crystalline|
-|insulin v1|ctv3|f241.|Human Ultratard 100iu/mL injection 10mL|
-|insulin v1|ctv3|f242.|Humulin Zn 100iu/mL injection 10mL|
-|insulin v1|ctv3|f24z.|Insulin zinc crystalline human suspension 100units/mL injection vial|
-|insulin v1|ctv3|f25..|Isophane insulin injection|
-|insulin v1|ctv3|f251.|Isophane insulin 100iu/mL injection 10mL|
-|insulin v1|ctv3|f253.|Insulatard 100iu/mL injection 10mL|
-|insulin v1|ctv3|f254.|Monophane 100iu/mL injection|
-|insulin v1|ctv3|f255.|Neuphane 100iu/mL injection|
-|insulin v1|ctv3|f256.|Initard 50/50 injection 10mL|
-|insulin v1|ctv3|f257.|Mixtard injection 10mL|
-|insulin v1|ctv3|f258.|Human Insulatard 100iu/mL injection 10mL|
-|insulin v1|ctv3|f25A.|Humulin I 100iu/mL prefilled pen 3mL|
-|insulin v1|ctv3|f25B.|Insuman Basal Optiset 100iu/mL prefilled pen 3mL|
-|insulin v1|ctv3|f25C.|Insulatard InnoLet 100units/mL prefilled syringe 3mL|
-|insulin v1|ctv3|f25D.|Insulatard FlexPen 100iu/mL prefilled pen 3mL|
-|insulin v1|ctv3|f25E.|Hypurin Bovine Isophane 100iu/mL injection cartridge 3mL|
-|insulin v1|ctv3|f25F.|Hypurin Porcine Isophane 100iu/mL injection cartridge 3mL|
-|insulin v1|ctv3|f25G.|HUMULIN I KWIKPEN 100iu/mL prefilled pen 3mL|
-|insulin v1|ctv3|f25H.|INSUMAN BASAL SOLOSTAR 100iu/mL prefilled pen 3mL|
-|insulin v1|ctv3|f25W.|Human isophane insulin 100units/mL prefilled syringe|
-|insulin v1|ctv3|f25X.|Human isophane insulin 100units/mL injection cartridge|
-|insulin v1|ctv3|f25Y.|Human isophane insulin 100units/mL injection vial|
-|insulin v1|ctv3|f25Z.|Isophane insulin 100iu/mL injection vial|
-|insulin v1|ctv3|f25a.|Humulin I 100iu/mL injection 10mL|
-|insulin v1|ctv3|f25b.|Human Actraphane injection 10mL|
-|insulin v1|ctv3|f25c.|Human Initard injection 10mL|
-|insulin v1|ctv3|f25d.|Human Mixtard injection 10mL|
-|insulin v1|ctv3|f25e.|Humulin M1 injection 10mL|
-|insulin v1|ctv3|f25f.|Humulin M2 injection 10mL|
-|insulin v1|ctv3|f25g.|Humulin M3 injection 10mL|
-|insulin v1|ctv3|f25h.|Humulin M4 injection 10mL|
-|insulin v1|ctv3|f25j.|Pur-In Isophane 100iu/mL vials 10mL|
-|insulin v1|ctv3|f25k.|Pur-In Isophane 100iu/mL cartridges 3mL|
-|insulin v1|ctv3|f25l.|Humulin I 100iu/mL cartridges 1.5mL|
-|insulin v1|ctv3|f25m.|Human Insulatard 100iu/mL preloaded injection pen 3mL|
-|insulin v1|ctv3|f25n.|Humaject I 100iu/mL prefilled pen|
-|insulin v1|ctv3|f25o.|Humulin I 100iu/mL cartridges 3mL|
-|insulin v1|ctv3|f25p.|Human Insulatard ge 100iu/mL injection 10mL|
-|insulin v1|ctv3|f25q.|Human Insulatard Penfill 1.5mL|
-|insulin v1|ctv3|f25r.|Pork Insulatard 100units/mL injection 10mL|
-|insulin v1|ctv3|f25s.|Isophane insulin 100iu/mL injection cartridge|
-|insulin v1|ctv3|f25t.|Hypurin Bovine Isophane 100iu/mL injection cartridge 1.5mL|
-|insulin v1|ctv3|f25u.|Hypurin Porcine Isophane 100iu/mL injection cartridge 1.5mL|
-|insulin v1|ctv3|f25v.|Hypurin isophane 100iu/mL injection 10mL|
-|insulin v1|ctv3|f25w.|Hypurin Porcine Isophane 100iu/mL injection 10mL|
-|insulin v1|ctv3|f25x.|Insulatard Penfill cartridge 3mL|
-|insulin v1|ctv3|f25y.|Insuman Basal 100iu/mL injection vial 5mL|
-|insulin v1|ctv3|f25z.|Insuman Basal 100iu/mL injection cartridge 3mL|
-|insulin v1|ctv3|f26..|Protamine zinc insulin injection|
-|insulin v1|ctv3|f262.|Hypurin Protamine zinc injection 10mL|
-|insulin v1|ctv3|f26z.|Protamine zinc insulin 100units/mL injection vial|
-|insulin v1|ctv3|f27..|Biphasic isophane insulin injection|
-|insulin v1|ctv3|f271.|Mixtard 30/70 injection 10mL|
-|insulin v1|ctv3|f273.|Pur-In Mix 15/85 vials 10mL|
-|insulin v1|ctv3|f274.|Pur-In Mix 15/85 cartridges 3mL|
-|insulin v1|ctv3|f275.|Pur-In Mix 25/75 vials 10mL|
-|insulin v1|ctv3|f276.|Pur-In Mix 25/75 cartridges 3mL|
-|insulin v1|ctv3|f277.|Pur-In Mix 50/50 vials 10mL|
-|insulin v1|ctv3|f278.|Pur-In Mix 50/50 cartridges 3mL|
-|insulin v1|ctv3|f279.|Humulin M1 10/90 vials 10mL|
-|insulin v1|ctv3|f27A.|Humaject M1 100iu/mL prefilled pen|
-|insulin v1|ctv3|f27B.|Humaject M2 100iu/mL prefilled pen|
-|insulin v1|ctv3|f27C.|Humaject M3 100iu/mL prefilled pen|
-|insulin v1|ctv3|f27D.|Humaject M4 100iu/mL prefilled pen|
-|insulin v1|ctv3|f27E.|Humaject M5 100iu/mL prefilled pen|
-|insulin v1|ctv3|f27F.|Humulin M4 40/60 cartridges 3mL|
-|insulin v1|ctv3|f27G.|Humulin M5 50/50 cartridges 3mL|
-|insulin v1|ctv3|f27H.|Human Mixtard 30 ge 100units/mL injection 10mL|
-|insulin v1|ctv3|f27I.|Hypurin Porcine Biphasic Isophane 30/70 injection cartridge 3mL|
-|insulin v1|ctv3|f27J.|Human Mixtard 10 Penfill 1.5mL|
-|insulin v1|ctv3|f27K.|Human Mixtard 20 Penfill 1.5mL|
-|insulin v1|ctv3|f27L.|Human Mixtard 30 Penfill 1.5mL|
-|insulin v1|ctv3|f27M.|Human Mixtard 40 Penfill 1.5mL|
-|insulin v1|ctv3|f27N.|Human Mixtard 50 Penfill 1.5mL|
-|insulin v1|ctv3|f27O.|Mixtard 30 InnoLet 100units/mL prefilled syringe 3mL|
-|insulin v1|ctv3|f27P.|Human Mixtard 10 prefilled pen|
-|insulin v1|ctv3|f27Q.|Human Mixtard 20 prefilled pen|
-|insulin v1|ctv3|f27R.|Human Mixtard 30 prefilled pen|
-|insulin v1|ctv3|f27S.|Human Mixtard 40 prefilled pen|
-|insulin v1|ctv3|f27T.|Human Mixtard 50 prefilled pen|
-|insulin v1|ctv3|f27V.|Pork Mixtard 30 injection 10mL|
-|insulin v1|ctv3|f27W.|Human Mixtard 50 vial 10mL|
-|insulin v1|ctv3|f27X.|Hypurin Porcine 30/70 Mix injection 10mL|
-|insulin v1|ctv3|f27Y.|Hypurin Porcine 30/70 Mix injection cartridge 1.5mL|
-|insulin v1|ctv3|f27Z.|Insuman Comb 25 100iu/mL injection vial 5mL|
-|insulin v1|ctv3|f27a.|Humulin M1 10/90 cartridges 1.5mL|
-|insulin v1|ctv3|f27b.|Humulin M2 20/80 vials 10mL|
-|insulin v1|ctv3|f27c.|Humulin M2 20/80 cartridges 1.5mL|
-|insulin v1|ctv3|f27d.|Humulin M3 30/70 vials 10mL|
-|insulin v1|ctv3|f27e.|Humulin M3 30/70 cartridges 1.5mL|
-|insulin v1|ctv3|f27f.|Humulin M4 40/60 vials 10mL|
-|insulin v1|ctv3|f27g.|Humulin M4 40/60 cartridges 1.5mL|
-|insulin v1|ctv3|f27j.|Human Mixtard 30/70 injection 10mL|
-|insulin v1|ctv3|f27k.|Human Initard 50/50 injection 10mL|
-|insulin v1|ctv3|f27u.|Humulin M5 50/50 injection vial 10mL|
-|insulin v1|ctv3|f27v.|Humulin M5 50/50 cartridge 1.5mL|
-|insulin v1|ctv3|f27w.|Humulin M1 10/90 cartridges 3mL|
-|insulin v1|ctv3|f27x.|Humulin M2 20/80 cartridges 3mL|
-|insulin v1|ctv3|f27y.|Insuman Comb 25 100iu/mL injection cartridge 3mL|
-|insulin v1|ctv3|f27z.|Humulin M3 30/70 cartridges 3mL|
-|insulin v1|ctv3|f28..|Biphasic isophane insulin 2|
-|insulin v1|ctv3|f281.|Mixtard 10 (human) Penfill cartridge 3mL|
-|insulin v1|ctv3|f282.|Mixtard 20 (human) Penfill cartridge 3mL|
-|insulin v1|ctv3|f283.|Mixtard 30 Penfill cartridge 3mL|
-|insulin v1|ctv3|f284.|Mixtard 40 (human) Penfill cartridge 3mL|
-|insulin v1|ctv3|f285.|Mixtard 50 (human) Penfill cartridge 3mL|
-|insulin v1|ctv3|f286.|Insuman Comb 15 100iu/mL injection cartridge 3mL|
-|insulin v1|ctv3|f287.|Insuman Comb 50 100iu/mL injection vial 5mL|
-|insulin v1|ctv3|f288.|Insuman Comb 15 OptiSet 100iu/mL prefilled pen 3mL|
-|insulin v1|ctv3|f289.|Insuman Comb 25 OptiSet 100iu/mL prefilled pen 3mL|
-|insulin v1|ctv3|f28A.|Insuman Comb 50 OptiSet 100iu/mL prefilled pen 3mL|
-|insulin v1|ctv3|f28B.|Insuman Comb 15 100iu/mL injection vial 5mL|
-|insulin v1|ctv3|f28C.|Insuman Comb 50 100iu/mL injection cartridge 3mL|
-|insulin v1|ctv3|f28D.|Humulin M3 100iu/mL prefilled pen 3mL|
-|insulin v1|ctv3|f28E.|HUMULIN M3 KWIKPEN 100iu/mL prefilled pen 3mL|
-|insulin v1|ctv3|f28F.|INSUMAN COMB 25 SOLOSTAR 100iu/mL prefilled pen 3mL|
-|insulin v1|ctv3|f29..|Insulin glargine|
-|insulin v1|ctv3|f291.|Insulin glargine 100iu/mL injection cartridge|
-|insulin v1|ctv3|f292.|Insulin glargine 100iu/mL injection vial|
-|insulin v1|ctv3|f293.|Insulin glargine 100iu/mL prefilled pen|
-|insulin v1|ctv3|f294.|Lantus 100iu/mL injection cartridge 3mL|
-|insulin v1|ctv3|f295.|Lantus 100iu/mL injection vial 10mL|
-|insulin v1|ctv3|f296.|Lantus 100iu/mL OptiSet prefilled pen 3mL|
-|insulin v1|ctv3|f297.|Lantus 100iu/mL OptiClik cartridges 3mL|
-|insulin v1|ctv3|f298.|LANTUS 100iu/mL SoloStar prefilled pen 3mL|
-|insulin v1|ctv3|f299.|TOUJEO 300iu/mL SoloStar prefilled pen 1.5mL|
-|insulin v1|ctv3|f29A.|INSULIN GLARGINE 300iu/mL prefilled pen|
-|insulin v1|ctv3|f29B.|ABASAGLAR 100iu/mL solution for injection cartridges 3mL|
-|insulin v1|ctv3|f29C.|ABASAGLAR KWIKPEN 100iu/mL soln for inj prefilled pen 3mL|
-|insulin v1|ctv3|f2A..|Insulin detemir|
-|insulin v1|ctv3|f2A1.|Levemir Penfill 100iu/mL injection cartridge 3mL|
-|insulin v1|ctv3|f2A2.|Levemir FlexPen 100iu/mL prefilled pen 3mL|
-|insulin v1|ctv3|f2A3.|LEVEMIR INNOLET 100iu/mL prefilled syringe 3mL|
-|insulin v1|ctv3|f2Ax.|INSULIN DETEMIR 100iu/mL prefilled syringe|
-|insulin v1|ctv3|f2Ay.|Insulin detemir 100iu/mL prefilled pen|
-|insulin v1|ctv3|f2Az.|Insulin detemir 100iu/mL injection cartridge|
-|insulin v1|ctv3|f2B..|INSULIN DEGLUDEC|
-|insulin v1|ctv3|f2B1.|TRESIBA FLEXTOUCH 100iu/mL prefilled pen 3mL|
-|insulin v1|ctv3|f2B2.|INSULIN DEGLUDEC 100iu/mL prefilled pen|
-|insulin v1|ctv3|f2B3.|TRESIBA FLEXTOUCH 200iu/mL prefilled pen 3mL|
-|insulin v1|ctv3|f2B4.|INSULIN DEGLUDEC 200iu/mL prefilled pen|
-|insulin v1|ctv3|f2B5.|TRESIBA PENFILL 100iu/mL injection cartridges|
-|insulin v1|ctv3|f2B6.|INSULIN DEGLUDEC 100iu/mL injection cartridges|
-|insulin v1|ctv3|f2C..|INSULIN DEGLUDEC + LIRAGLUTIDE|
-|insulin v1|ctv3|f2C1.|XULTOPHY 100iu/mL/3.6mg/mL soln for inj prefilled pen 3mL|
-|insulin v1|ctv3|f2C2.|INSULIN DEGLUDEC+LIRAGLUTIDE 100iu/mL/3.6mg/mL soln inj pen|
-|insulin v1|ctv3|fw...|Short with intermediate-acting insulins|
-|insulin v1|ctv3|fw1..|Biphasic isophane insulin lispro|
-|insulin v1|ctv3|fw11.|Humalog Mix25 100iu/mL cartridge 3mL|
-|insulin v1|ctv3|fw12.|Humalog Mix25 100iu/mL prefilled pen 3mL|
-|insulin v1|ctv3|fw13.|Humalog Mix50 100iu/mL prefilled pen 3mL|
-|insulin v1|ctv3|fw14.|HUMALOG MIX50 100iu/mL cartridges 3mL|
-|insulin v1|ctv3|fw15.|HUMALOG MIX25 KWIKPEN 100iu/mL prefilled pen 3mL|
-|insulin v1|ctv3|fw16.|HUMALOG MIX50 KWIKPEN 100iu/mL prefilled pen 3mL|
-|insulin v1|ctv3|fw2..|Biphasic insulin aspart|
-|insulin v1|ctv3|fw21.|NovoMix 30 Penfill 100units/mL injection cartridge 3mL|
-|insulin v1|ctv3|fw22.|NovoMix 30 FlexPen 100units/mL injection prefilled pen 3mL|
-|insulin v1|ctv3|p453.|EXUBERA delivery system kit|
-|insulin v1|ctv3|p454.|EXUBERA INSULIN RELEASE UNITS|
-|insulin v1|ctv3|p455.|EXUBERA delivery system chamber|
-|insulin v1|ctv3|ph2..|Insulin U100 syringe|
-|insulin v1|ctv3|ph21.|Hypodermic U100 insulin syringe 0.5mL x1|
-|insulin v1|ctv3|ph22.|Hypodermic U100 insulin syringe 1mL x1|
-|insulin v1|ctv3|ph23.|Pre-set 1mL U100 insulin syringe|
-|insulin v1|ctv3|ph24.|Hypoguard 1mL U100 insulin syringe|
-|insulin v1|ctv3|ph25.|Click/Count 1mL U100 insulin syringe|
-|insulin v1|ctv3|ph26.|ABCare 1mL U100 pre-set syringe|
-|insulin v1|ctv3|ph27.|ABCare 0.5mL U100 glass syringe|
-|insulin v1|ctv3|ph28.|ABCare 1mL U100 glass syringe|
-|insulin v1|ctv3|ph29.|Hypoguard 1mL U100 click/count syringe|
-|insulin v1|ctv3|ph2A.|Hypoguard 1mL U100 pre-set syringe|
-|insulin v1|ctv3|ph3..|Disposable insulin U100 syringe+needle|
-|insulin v1|ctv3|ph31.|Insulin 0.5mL disposable syringe|
-|insulin v1|ctv3|ph32.|Insulin 1mL disposable syringe|
-|insulin v1|ctv3|ph33.|Insulin 0.3mL disposable syringe|
-|insulin v1|ctv3|ph34.|Insulin U100 0.3mL disposable syringe+12mm(29G) needle|
-|insulin v1|ctv3|ph35.|Insulin U100 0.5mL disposable syringe+12mm needle|
-|insulin v1|ctv3|ph36.|Insulin U100 1mL disposable syringe+12mm needle|
-|insulin v1|ctv3|ph39.|Monoject U100 0.5mL disposable syringe+12mm(27G) needle|
-|insulin v1|ctv3|ph3A.|Monoject U100 1mL disposable syringe+12mm(27G) needle|
-|insulin v1|ctv3|ph3B.|BD U100 Micro-Fine+ 0.3mL disposable syringe+needle|
-|insulin v1|ctv3|ph3C.|BD Micro-Fine+ U100 0.5mL disposable syringe+12mm(29G) needle|
-|insulin v1|ctv3|ph3D.|BD Micro-Fine+ U100 1mL disposable syringe+12mm(29G) needle|
-|insulin v1|ctv3|ph3E.|Omnikan U100 0.5mL disposable syringe+12mm(29G) needle|
-|insulin v1|ctv3|ph3F.|Omnikan U100 1mL disposable syringe+12mm(29G) needle|
-|insulin v1|ctv3|ph3G.|Myjector 0.5mL U100 disposable syringe+needle|
-|insulin v1|ctv3|ph3H.|Myjector 1mL U100 disposable syringe+needle|
-|insulin v1|ctv3|ph3I.|Omnifix Solo 1mL U100 disposable syringe|
-|insulin v1|ctv3|ph3J.|Insulin U100 0.3mL disposable syringe+8mm(30G) needle|
-|insulin v1|ctv3|ph3K.|Insulin U100 0.5mL disposable syringe+8mm(30G) needle|
-|insulin v1|ctv3|ph3L.|BD Micro-Fine+ U100 0.3mL disposable syringe+8mm(30G) needle|
-|insulin v1|ctv3|ph3M.|BD Micro-Fine+ U100 0.5mL disposable syringe+8mm(30G) needle|
-|insulin v1|ctv3|ph3N.|Insulin U100 0.5mL disposable syringe+12mm(27G) needle|
-|insulin v1|ctv3|ph3P.|Insulin U100 0.5mL disposable syringe+12mm(29G) needle|
-|insulin v1|ctv3|ph3Q.|Insulin U100 0.5mL disposable syringe+12mm(30G) needle|
-|insulin v1|ctv3|ph3R.|Myjector U100 0.5mL disposable syringe+12mm(27G) needle|
-|insulin v1|ctv3|ph3S.|Myjector U100 0.5mL disposable syringe+12mm(29G) needle|
-|insulin v1|ctv3|ph3T.|Insulin U100 1mL disposable syringe+12mm(27G) needle|
-|insulin v1|ctv3|ph3U.|Insulin U100 1mL disposable syringe+12mm(29G) needle|
-|insulin v1|ctv3|ph3V.|Insulin U100 1mL disposable syringe+12mm(30G) needle|
-|insulin v1|ctv3|ph3W.|Myjector U100 1mL disposable syringe+12mm(27G) needle|
-|insulin v1|ctv3|ph3X.|Myjector U100 1mL disposable syringe+12mm(29G) needle|
-|insulin v1|ctv3|ph3Y.|Unifine U100 0.3mL disposable syringe+12mm(29G) needle|
-|insulin v1|ctv3|ph3Z.|Unifine U100 0.5mL disposable syringe+12mm(29G) needle|
-|insulin v1|ctv3|ph3a.|Unifine U100 1mL disposable syringe+12mm(29G) needle|
-|insulin v1|ctv3|ph3b.|BD MIcro-Fine Plus U100 1mL disposable syringe+8mm(30G) needle|
-|insulin v1|ctv3|ph3c.|Insulin U100 1mL disposable syringe+8mm(30G) needle|
-|insulin v1|ctv3|ph3d.|Omnican 50 U100 0.5mL disposable syringe+8mm(30G) needle|
-|insulin v1|ctv3|ph3e.|Omnican 50 U100 0.5mL disposable syringe+12mm(30G) needle|
-|insulin v1|ctv3|ph3f.|Omnican 100 U100 1mL disposable syringe+8mm(30G) needle|
-|insulin v1|ctv3|ph3g.|Omnican 100 U100 1mL disposable syringe+12mm(30G) needle|
-|insulin v1|ctv3|phB..|INSULIN SYRINGE+NEEDLE|
-|insulin v1|ctv3|phB1.|MAGELLAN 0.3mL disposable safety syringe+8mm(30G) needle|
-|insulin v1|ctv3|phB2.|MAGELLAN 0.5mL disposable safety syringe+8mm(30G) needle|
-|insulin v1|ctv3|phB3.|MAGELLAN 1mL disposable safety syringe+8mm(30G) needle|
-|insulin v1|ctv3|phB4.|MAGELLAN 0.3mL disposable safety syringe+13mm(29G) needle|
-|insulin v1|ctv3|phB5.|MAGELLAN 0.5mL disposable safety syringe+13mm(29G) needle|
-|insulin v1|ctv3|phB6.|MAGELLAN 1mL disposable safety syringe+13mm(29G) needle|
-|insulin v1|ctv3|pm16.|NovoPen 3 Classic device|
-|insulin v1|ctv3|pm17.|NovoPen 3 Fun device|
-|insulin v1|ctv3|pm18.|NovoPen 1.5 Classic device|
-|insulin v1|ctv3|pm19.|NovoPen 1.5 Fun device|
-|insulin v1|ctv3|pm1A.|NovoPen 3 Demi device|
-|insulin v1|ctv3|pm1B.|Autopen 3mL one unit device|
-|insulin v1|ctv3|pm1C.|Autopen 1.5mL one unit device|
-|insulin v1|ctv3|pm1D.|Autopen 1.5mL two unit device|
-|insulin v1|ctv3|pm1E.|Autopen 3mL two unit device|
-|insulin v1|ctv3|pm1I.|NovoPen device|
-|insulin v1|ctv3|pm1L.|Novopen junior yellow device|
-|insulin v1|ctv3|pm1M.|Novopen junior green device|
-|insulin v1|ctv3|pm1N.|Autopen Junior 3mL one unit device|
-|insulin v1|ctv3|pm1P.|Autopen Junior 3mL two unit device|
-|insulin v1|ctv3|pm1S.|mhi-500 Starter Kit MH79002-01 needle-free insulin delivery system|
-|insulin v1|ctv3|pm1T.|mhi-500 3-month Consumable Kit (size 6) MH79002-07 needle-free insulin delivery system|
-|insulin v1|ctv3|pm1U.|mhi-500 3-month Consumable Kit (size 7) MH79002-08 needle-free insulin delivery system|
-|insulin v1|ctv3|pm1Y.|Autopen 24 3mL one unit device|
-|insulin v1|ctv3|pm1Z.|Autopen 24 3mL two unit device|
-|insulin v1|ctv3|pm1a.|Autopen Special Edition 3mL one unit device|
-|insulin v1|ctv3|pm1b.|Autopen Special Edition 3mL two unit device|
-|insulin v1|ctv3|pm1h.|mhi-500 Starter Kit MH79002-01A needle-free insulin delivery system with 3mL vial adaptor|
-|insulin v1|ctv3|pm1j.|mhi-500 3-month Consumable Kit (size 6) MH79002-12 needle-free insulin delivery system with 3mL vial adaptor|
-|insulin v1|ctv3|pm1k.|mhi-500 3-month Consumable Kit (size 7) MH79002-13 needle-free insulin delivery system with 3mL vial adaptor|
-|insulin v1|ctv3|pm1o.|SQ-PEN Starter Pack SQ001 needle-free insulin delivery system|
-|insulin v1|ctv3|pm1r.|SQ-PEN 3mL 3-month Consumable Pack SQ004 needle-free insulin delivery system|
-|insulin v1|ctv3|pm1s.|SQ-PEN 10mL 3-month Consumable Pack SQ006 needle-free insulin delivery system|
-|insulin v1|ctv3|pm1w.|SQ-X STARTER PACK SQ-007 needle free insulin delivery system|
-|insulin v1|ctv3|pm1y.|NOVOPEN 4 blue device|
-|insulin v1|ctv3|pm1z.|NOVOPEN 4 silver device|
-|insulin v1|ctv3|pm2A.|NOVOPEN ECHO 3mL blue device|
-|insulin v1|ctv3|pm2B.|NOVOPEN ECHO 3mL red device|
-|insulin v1|ctv3|pm2I.|NOVOPEN 5 blue injection device|
-|insulin v1|ctv3|pm2J.|NOVOPEN 5 silver injection device|
-|insulin v1|ctv3|x005Q|Human Mixtard 30 ge 100units/mL injection vial|
-|insulin v1|ctv3|x005R|Human Actrapid (pyr) 100iu/mL injection vial|
-|insulin v1|ctv3|x005S|Human Initard 50/50 (emp) 100units/mL injection vial|
-|insulin v1|ctv3|x005T|Human Insulatard (emp) 100iu/mL injection vial|
-|insulin v1|ctv3|x005V|Human Mixtard 30/70 (emp) 100units/mL injection vial|
-|insulin v1|ctv3|x005W|Human Monotard (pyr) 100iu/mL injection vial|
-|insulin v1|ctv3|x005X|Human Insulatard ge 100units/mL injection vial|
-|insulin v1|ctv3|x005Y|Human Insulatard 100units/mL Penfill|
-|insulin v1|ctv3|x005Z|Human Ultratard (pyr) 100iu/mL injection vial|
-|insulin v1|ctv3|x005a|Human Velosulin (emp) 100iu/mL injection vial|
-|insulin v1|ctv3|x005b|Humulin I (prb) 100iu/mL injection vial|
-|insulin v1|ctv3|x005c|Humulin I (prb) 100iu/mL injection cartridge|
-|insulin v1|ctv3|x005d|Humulin Lente (prb) 100iu/mL injection vial|
-|insulin v1|ctv3|x005e|Humulin M1 10/90 (prb) 100units/mL injection vial|
-|insulin v1|ctv3|x005f|Humulin M1 10/90 (prb) 100units/mL injection cartridge|
-|insulin v1|ctv3|x005g|Humulin M2 20/80 (prb) 100units/mL injection vial|
-|insulin v1|ctv3|x005h|Humulin M2 20/80 (prb) 100units/mL injection cartridge|
-|insulin v1|ctv3|x005i|Humulin M3 30/70 (prb) 100units/mL injection vial|
-|insulin v1|ctv3|x005j|Humulin M3 30/70 (prb) 100units/mL injection cartridge|
-|insulin v1|ctv3|x005k|Humulin M4 40/60 (prb) 100units/mL injection vial|
-|insulin v1|ctv3|x005l|Humulin M4 40/60 (prb) 100units/mL injection cartridge|
-|insulin v1|ctv3|x005m|Humulin Zn (prb) 100iu/mL injection vial|
-|insulin v1|ctv3|x005n|Humulin S (prb) 100iu/mL injection vial|
-|insulin v1|ctv3|x005o|Humulin S 100iu/mL injection cartridge|
-|insulin v1|ctv3|x006L|Hypurin Isophane (bovine) 100iu/mL injection vial|
-|insulin v1|ctv3|x006M|Hypurin Lente (bovine) 100iu/mL injection vial|
-|insulin v1|ctv3|x006N|Hypurin Neutral (bovine) 100iu/mL injection vial|
-|insulin v1|ctv3|x006O|Hypurin Protamine Zinc (bovine) 100units/mL injection vial|
-|insulin v1|ctv3|x006c|Initard 50/50 (porcine) 100units/mL injection vial|
-|insulin v1|ctv3|x006e|Insulatard (porcine) 100iu/mL injection vial|
-|insulin v1|ctv3|x006f|Insulin product|
-|insulin v1|ctv3|x0074|Lentard MC (bovine+porcine) 100iu/mL injection vial|
-|insulin v1|ctv3|x007t|Mixtard 30/70 (porcine) 100units/mL injection vial|
-|insulin v1|ctv3|x008B|Neutral insulin 100iu/mL injection vial|
-|insulin v1|ctv3|x009D|Human Mixtard 10 Penfill|
-|insulin v1|ctv3|x009E|Human Mixtard 20 Penfill|
-|insulin v1|ctv3|x009F|Human Mixtard 30 Penfill|
-|insulin v1|ctv3|x009G|Human Mixtard 40 Penfill|
-|insulin v1|ctv3|x009H|Human Mixtard 50 Penfill|
-|insulin v1|ctv3|x00AB|Pur-In Isophane (emp) 100iu/mL injection vial|
-|insulin v1|ctv3|x00AC|Pur-In Isophane (emp) 100iu/mL injection cartridge|
-|insulin v1|ctv3|x00AD|Pur-In Mix 15/85 (emp) 100units/mL injection vial|
-|insulin v1|ctv3|x00AE|Pur-In Mix 15/85 (emp) 100units/mL injection cartridge|
-|insulin v1|ctv3|x00AF|Pur-In Mix 25/75 (emp) 100units/mL injection vial|
-|insulin v1|ctv3|x00AG|Pur-In Mix 25/75 (emp) 100units/mL injection cartridge|
-|insulin v1|ctv3|x00AH|Pur-In Mix 50/50 (emp) 100units/mL injection vial|
-|insulin v1|ctv3|x00AI|Pur-In Mix 50/50 (emp) 100units/mL injection cartridge|
-|insulin v1|ctv3|x00AJ|Pur-In Neutral (emp) 100iu/mL injection vial|
-|insulin v1|ctv3|x00AK|Pur-In Neutral 100iu/mL injection cartridge|
-|insulin v1|ctv3|x00AU|Rapitard MC 100iu/mL injection vial|
-|insulin v1|ctv3|x00Aj|Semitard MC (porcine) 100iu/mL injection vial|
-|insulin v1|ctv3|x00Bt|Pork Velosulin 100iu/mL injection vial|
-|insulin v1|ctv3|x01LZ|Actrapid NovoLet 100iu/mL prefilled pen|
-|insulin v1|ctv3|x01La|Hypurin 100units/mL injection vial|
-|insulin v1|ctv3|x01Lb|Humulin insulin|
-|insulin v1|ctv3|x01Lc|PenMix insulin|
-|insulin v1|ctv3|x01Ld|Initard insulin|
-|insulin v1|ctv3|x01Le|Pur-In-Mix insulin|
-|insulin v1|ctv3|x01Lf|Mixtard insulin|
-|insulin v1|ctv3|x01Lg|Actraphane insulin|
-|insulin v1|ctv3|x01Lh|Insulatard NovoLet 100units/mL prefilled pen|
-|insulin v1|ctv3|x01UL|Glass U100 insulin syringe|
-|insulin v1|ctv3|x01UM|Disposable U100 insulin syringe|
-|insulin v1|ctv3|x029h|Velosulin 100iu/mL injection cartridge|
-|insulin v1|ctv3|x02AO|Humulin M5 50/50 (prb) 100units/mL injection vial|
-|insulin v1|ctv3|x02KN|Human insulin 100units/mL prefilled pen|
-|insulin v1|ctv3|x02KO|Human isophane insulin 100units/mL prefilled pen|
-|insulin v1|ctv3|x02Kh|Humulin M5 50/50 (prb) 100units/mL injection cartridge|
-|insulin v1|ctv3|x02er|Humaject I|
-|insulin v1|ctv3|x02es|Humaject M1|
-|insulin v1|ctv3|x02et|Humaject M2|
-|insulin v1|ctv3|x02eu|Humaject M3|
-|insulin v1|ctv3|x02ev|Humaject M4|
-|insulin v1|ctv3|x02ew|Humaject M5|
-|insulin v1|ctv3|x02ex|Humaject S|
-|insulin v1|ctv3|x02ey|Human Mixtard|
-|insulin v1|ctv3|x03aj|Pork Mixtard 30 100units/mL injection|
-|insulin v1|ctv3|x03ak|Pork Insulatard 100units/mL injection|
-|insulin v1|ctv3|x03d0|Pork Insulatard|
-|insulin v1|ctv3|x03d1|Pork Mixtard|
-|insulin v1|ctv3|x03d5|Human Actrapid|
-|insulin v1|ctv3|x03d6|Human Ultratard|
-|insulin v1|ctv3|x03dA|Human Insulatard|
-|insulin v1|ctv3|x03dC|Human Monotard|
-|insulin v1|ctv3|x03eI|Humalog 100iu/mL injection vial|
-|insulin v1|ctv3|x03eJ|Humalog 100iu/mL injection cartridge|
-|insulin v1|ctv3|x03eK|Humalog|
-|insulin v1|ctv3|x03jX|Human Mixtard 50 injection vial|
-|insulin v1|ctv3|x03ln|Hypurin Bovine Neutral 100iu/mL injection cartridge|
-|insulin v1|ctv3|x03lo|Hypurin Bovine Isophane 100iu/mL injection cartridge|
-|insulin v1|ctv3|x03lp|Hypurin Porcine Neutral 100iu/mL injection cartridge|
-|insulin v1|ctv3|x03lq|Hypurin Porcine Isophane 100iu/mL injection cartridge|
-|insulin v1|ctv3|x03lv|Hypurin Porcine Neutral 100iu/mL injection vial|
-|insulin v1|ctv3|x03lw|Hypurin Porcine Isophane 100iu/mL injection vial|
-|insulin v1|ctv3|x03lx|Hypurin biphasic isophane insulin|
-|insulin v1|ctv3|x03ly|Hypurin Porcine 30/70 Mix injection vial|
-|insulin v1|ctv3|x03lz|Hypurin Porcine 30/70 Mix injection cartridge|
-|insulin v1|ctv3|x03si|Lentard MC|
-|insulin v1|ctv3|x03v1|Pork Mixtard 30|
-|insulin v1|ctv3|x03v2|Pork Velosulin|
-|insulin v1|ctv3|x03vx|Semitard MC|
-|insulin v1|ctv3|x03xp|Rapitard MC|
-|insulin v1|ctv3|x049L|Human Actrapid Penfill|
-|insulin v1|ctv3|x049M|Human Insulatard ge|
-|insulin v1|ctv3|x049N|Human Mixtard 10|
-|insulin v1|ctv3|x049O|Human Mixtard 20|
-|insulin v1|ctv3|x049P|Human Mixtard 30|
-|insulin v1|ctv3|x049Q|Human Mixtard 30 ge|
-|insulin v1|ctv3|x049R|Human Mixtard 40|
-|insulin v1|ctv3|x049S|Human Mixtard 50|
-|insulin v1|ctv3|x049T|Human Velosulin|
-|insulin v1|ctv3|x049V|Humulin I|
-|insulin v1|ctv3|x049W|Humulin Lente|
-|insulin v1|ctv3|x049X|Humulin M1 10/90|
-|insulin v1|ctv3|x049Y|Humulin M2 20/80|
-|insulin v1|ctv3|x049Z|Humulin M3 30/70|
-|insulin v1|ctv3|x049a|Humulin M4 40/60|
-|insulin v1|ctv3|x049b|Humulin M5|
-|insulin v1|ctv3|x049c|Humulin S|
-|insulin v1|ctv3|x049d|Humulin Zn|
-|insulin v1|ctv3|x049q|Hypurin Bovine Isophane|
-|insulin v1|ctv3|x049r|Hypurin Bovine Lente|
-|insulin v1|ctv3|x049s|Hypurin Bovine Neutral|
-|insulin v1|ctv3|x049t|Hypurin Bovine Protamine Zinc|
-|insulin v1|ctv3|x049u|Hypurin Porcine Biphasic Isophane|
-|insulin v1|ctv3|x04wm|Humalog biphasic isophane insulin lispro|
-|insulin v1|ctv3|x04wn|Humalog Mix25 100iu/mL cartridge|
-|insulin v1|ctv3|x04wo|Humalog Mix25 100iu/mL prefilled pen|
-|insulin v1|ctv3|x04wp|Humalog Mix25|
-|insulin v1|ctv3|x051f|Hypurin Porcine|
-|insulin v1|ctv3|x053d|NovoRapid NovoLet 100units/mL prefilled syringe|
-|insulin v1|ctv3|x053e|NovoRapid Penfill 100units/mL cartridge|
-|insulin v1|ctv3|x053f|NovoRapid|
-|insulin v1|ctv3|x053g|NovoRapid NovoLet|
-|insulin v1|ctv3|x053h|NovoRapid Penfill|
-|insulin v1|ctv3|x056T|Insuman Rapid 100iu/mL injection vial|
-|insulin v1|ctv3|x056U|Insuman Rapid 100iu/mL injection cartridge|
-|insulin v1|ctv3|x056X|Insuman Basal 100iu/mL injection vial|
-|insulin v1|ctv3|x056Y|Insuman Basal|
-|insulin v1|ctv3|x056Z|Insuman Basal 100iu/mL injection cartridge|
-|insulin v1|ctv3|x056a|Insuman Comb insulin|
-|insulin v1|ctv3|x056b|Insuman Comb 25 100iu/mL injection vial|
-|insulin v1|ctv3|x056c|Insuman Comb 25 100iu/mL injection cartridge|
-|insulin v1|ctv3|x056d|Insuman Rapid|
-|insulin v1|ctv3|x056e|Insuman Comb 25|
-|insulin v1|ctv3|x059L|Humalog-Pen 100iu/mL prefilled pen|
-|insulin v1|ctv3|x059M|Humalog-Pen|
-|insulin v1|ctv3|x059N|Humalog Mix50 100iu/mL prefilled pen|
-|insulin v1|ctv3|x059O|Humulin I 100iu/mL prefilled pen|
-|insulin v1|ctv3|x059P|Humalog Mix50|
-|insulin v1|ctv3|x05Cg|Autopen device|
-|insulin v1|ctv3|x05Cm|Insuman Comb 15 100iu/mL injection cartridge|
-|insulin v1|ctv3|x05Cn|Insuman Comb 50 100iu/mL injection vial|
-|insulin v1|ctv3|x05Co|Insuman Comb 15|
-|insulin v1|ctv3|x05Cp|Insuman Comb 50|
-|insulin v1|ctv3|x05D7|Pur-In Pen device|
-|insulin v1|ctv3|x05EY|Insuman Basal OptiSet 100iu/mL prefilled pen|
-|insulin v1|ctv3|x05EZ|Insuman Basal OptiSet|
-|insulin v1|ctv3|x05Ea|Insuman Rapid OptiSet 100iu/mL prefilled pen|
-|insulin v1|ctv3|x05Eb|Insuman Rapid OptiSet|
-|insulin v1|ctv3|x05Ec|Insuman Comb 15 OptiSet 100iu/mL prefilled pen|
-|insulin v1|ctv3|x05Ed|Insuman Comb 25 OptiSet 100iu/mL prefilled pen|
-|insulin v1|ctv3|x05Ee|Insuman Comb 50 OptiSet 100iu/mL prefilled pen|
-|insulin v1|ctv3|x05Ef|Insuman Comb 15 OptiSet|
-|insulin v1|ctv3|x05Eg|Insuman Comb 25 OptiSet|
-|insulin v1|ctv3|x05Eh|Insuman Comb 50 OptiSet|
-|insulin v1|ctv3|x05FF|Insuman Comb 15 100iu/mL injection vial|
-|insulin v1|ctv3|x05FG|Insuman Comb 50 100iu/mL injection cartridge|
-|insulin v1|ctv3|x05MR|Biphasic insulin - chemical|
-|insulin v1|ctv3|x05MS|Biphasic isophane insulin - chemical|
-|insulin v1|ctv3|x05Xe|Insulatard InnoLet 100units/mL prefilled syringe|
-|insulin v1|ctv3|x05Xf|Insulatard InnoLet|
-|insulin v1|ctv3|x05Xg|Mixtard 30 InnoLet 100units/mL prefilled syringe|
-|insulin v1|ctv3|x05Xh|Mixtard 30 InnoLet|
-|insulin v1|ctv3|x05c0|Human Velosulin (pyr) 100iu/mL injection vial|
-|insulin v1|ctv3|x05d0|NovoMix|
-|insulin v1|ctv3|x05d1|Insulin biphasic aspart 30/70 100units/mL injection cartridge 3mL|
-|insulin v1|ctv3|x05d2|Insulin biphasic aspart 30/70 100units/mL injection prefilled pen 3mL|
-|insulin v1|ctv3|x05dZ|Omnifix|
-|insulin v1|ctv3|x05fE|Lantus|
-|insulin v1|ctv3|x05fF|Lantus 100iu/mL injection cartridge|
-|insulin v1|ctv3|x05fG|Lantus 100iu/mL injection vial|
-|insulin v1|ctv3|x05fH|Lantus 100iu/mL OptiSet prefilled pen|
-|insulin v1|ctv3|x05fv|Disposable insulin U100 0.3mL syringe+needle|
-|insulin v1|ctv3|x05fw|Disposable insulin U100 0.5mL syringe+needle|
-|insulin v1|ctv3|x05fx|Disposable insulin U100 1mL syringe+needle|
-|insulin v1|ctv3|x05gU|NovoRapid FlexPen|
-|insulin v1|ctv3|x05gV|Insulatard FlexPen|
-|insulin v1|ctv3|x05gW|Insulatard FlexPen 100iu/mL prefilled pen|
-|insulin v1|ctv3|x05gX|NovoRapid FlexPen 100units/mL prefilled pen|
-|insulin v1|ctv3|x05tf|Levemir Penfill 100iu/mL injection cartridge|
-|insulin v1|ctv3|x05tg|Levemir|
-|insulin v1|ctv3|x05th|Levemir FlexPen 100iu/mL prefilled pen|
-|insulin v1|ctv3|x05xd|Humulin M3 100units/mL prefilled pen|
-|insulin v1|ctv3|x05ya|Apidra 100iu/mL injection vial|
-|insulin v1|ctv3|x05yb|Apidra 100iu/mL injection cartridge|
-|insulin v1|ctv3|x05yc|Apidra|
-|insulin v1|ctv3|x05zZ|Lantus 100iu/mL OptiClik cartridge|
-|insulin v1|ctv3|x05zr|Apidra 100iu/mL OptiSet prefilled pen|
-|insulin v1|emis|ACIN15879NEMIS|Actrapid  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|APIN23125NEMIS|Apidra Opticlik  Injection  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|AURE3057NEMIS|Autopen  Re-usable pen  1.5ml, 1-16 units|
-|insulin v1|emis|EXIN22785NEMIS|Exubera  Insulin Release Units  box of 6|
-|insulin v1|emis|HUCA8384BRID|Human Actrapid Penfill  Cartridges (1.5 Ml)  100 units/ml|
-|insulin v1|emis|HUCA8927PRDGY|Humulin M5 50/50  Cartridges  |
-|insulin v1|emis|HUIN3718|Humulin I  Suspension For Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|HUIN8578EGTON|Human Actraphane(Nova)  Injection|
-|insulin v1|emis|HUIN8925BRECO|Humulin M3  Suspension For Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|HUINEGTON7143|Human Actrapid  Injection  100 units/ml|
-|insulin v1|emis|HUPE26794EMIS|Human Mixtard 40  Penfill Cartridges (1.5 Ml)  |
-|insulin v1|emis|HYIN15401NEMIS|Hypurin Porcine Neutral  Injection (cartridges)  100 units/ml, 3 ml Cartridge|
-|insulin v1|emis|INPR11699NEMIS|Insulatard Innolet  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|LEINEGTON7141|Lentard Mc  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|LEPR18221NEMIS|Levemir Flexpen  Solution for injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|MHDE14616NEMIS|Mhi-500 3-Month Consumable Kit  Delivery System  10 ml, 6 nozzle, MH79002-07|
-|insulin v1|emis|MIIN15902NEMIS|Mixtard 30  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|NORE31135NEMIS|Novopen 4  Re-usable pen  Silver, 3 ml, 1-60 units|
-|insulin v1|emis|PEPR23950EMIS|Human Mixtard 50  Preloaded pen  |
-|insulin v1|emis|APIN21135NEMIS|Apidra  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|HUCA28935EMIS|Humalog  Cartridges (1.5 Ml)  100 units/ml|
-|insulin v1|emis|HUCA32498EMIS|Humulin I  Cartridges (3 Ml)  100 units/ml|
-|insulin v1|emis|HUIN5904|Humulin Zn  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|HUPR5189NEMIS|Humalog Mix50  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|HYIN31696EMIS|Hypurin Porcine Neutral  Solution for injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|ININ13808NEMIS|Insulin Glargine  Injection  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|INPR13809NEMIS|Insulin Glargine  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|INPR6347NEMIS|Insuman Comb 50 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|INSO98875NEMIS|Insulin Degludec And Liraglutide  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen|
-|insulin v1|emis|KESY78716NEMIS|Kendall Magellan Insulin Safety, Single Use, U100  Syringes with 8mm needles  Sterile, 0.5 ml, 0.3 mm/30 g|
-|insulin v1|emis|ABSO104799NEMIS|Abasaglar Kwikpen  Solution for injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|AURE14954NEMIS|Autopen 24  Re-usable pen  3 ml, 1-21 units, AN4210|
-|insulin v1|emis|HUCA27551EMIS|Humulin M5  Cartridges (1.5 Ml)  |
-|insulin v1|emis|HUCA32509EMIS|Humulin M3  Suspension For Injection  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|HUINEGTON7136|Humulin Lente  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|HUPE26791EMIS|Human Mixtard 30  Penfill Cartridges (1.5 Ml)  |
-|insulin v1|emis|INCA34843EMIS|Insulin Lispro  Solution for injection  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|ININ1196NEMIS|Insulin Aspart  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|ININ9075BRIDL|Insulin Zinc Suspension Lente (Evans)  Injection  100u/ml|
-|insulin v1|emis|INPR18215NEMIS|Insulin Detemir  Solution for injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|INSO78482NEMIS|Insulin Degludec  Solution for injection  200 units/ml, 3 ml pre-filled device|
-|insulin v1|emis|ISIN668NEMIS|Isophane Insulin (Porcine, Highly Purified)  Injection (cartridges)  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|KESY78716NEMIS|Kendall Magellan Insulin Safety, Single Use, U100  Syringes with 8mm needles  Sterile, 0.5 ml, 0.3 mm/30 g|
-|insulin v1|emis|LEIN18219NEMIS|Levemir Penfill  Injection (cartridges)  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|MHDE14617NEMIS|Mhi-500 3-Month Consumable Kit  Delivery System  10 ml, 7 nozzle, MH79002-08|
-|insulin v1|emis|MIINEGTON7152|Pork Mixtard 30  Injection  10 ml vial|
-|insulin v1|emis|MIPR15896NEMIS|Mixtard 20 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
-|insulin v1|emis|NORE3062NEMIS|Novopen 3  Re-usable pen  Classic|
-|insulin v1|emis|NORE3063NEMIS|Novopen 3  Re-usable pen  Fun, red|
-|insulin v1|emis|TOSO103679NEMIS|Toujeo Solostar  Pre-filled Disposable Pen  300 units/ml, 1.5 ml pen|
-|insulin v1|emis|HUCA32506EMIS|Humulin M2  Cartridges (3 Ml)  |
-|insulin v1|emis|HUIN28936EMIS|Humalog  Injection  100 units/ml|
-|insulin v1|emis|HUINEGTON7136|Humulin Lente  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|INSO78482NEMIS|Insulin Degludec  Solution for injection  200 units/ml, 3 ml pre-filled device|
-|insulin v1|emis|ISIN666NEMIS|Isophane Insulin (Porcine, Highly Purified)  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|ISIN669NEMIS|Isophane Insulin (Bovine, Highly Purified)  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|NOPR1202NEMIS|Novorapid Novolet  Prefilled syringes  100 units/ml|
-|insulin v1|emis|TRSO78485NEMIS|Tresiba Flextouch  Solution for injection  200 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|APIN21136NEMIS|Apidra  Injection  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|APPR22403NEMIS|Apidra Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|AURE11845NEMIS|Autopen Junior  Re-usable pen  3 ml, 1-21 units|
-|insulin v1|emis|AURE3060NEMIS|Autopen  Re-usable pen  Classic, 3 ml, 2-42 units, AN3800|
-|insulin v1|emis|HUCA18386EMIS|Humulin S  Cartridges (1.5 Ml)  100 units/ml|
-|insulin v1|emis|HUIN8426EGTON|Human Ultratard  Injection  100 units/ml|
-|insulin v1|emis|HUIN8818BRIDL|Human Initard 50/50 Insulin  Injection  100 units/ml|
-|insulin v1|emis|HUPR24176EMIS|Human Insulatard Ge  Preloaded pen  100 units/ml|
-|insulin v1|emis|HUPR31276NEMIS|Humalog Kwikpen  Solution for injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|HYIN31696EMIS|Hypurin Porcine Neutral  Solution for injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|ININ5031|Insulin Zinc Suspension  Injection  100 units/ml|
-|insulin v1|emis|INPR13809NEMIS|Insulin Glargine  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|ISIN669NEMIS|Isophane Insulin (Bovine, Highly Purified)  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|ISPE33728EMIS|Isophane Insulin (Human Pyr)  Penfill Cartridges (1.5 Ml)  100 units/ml|
-|insulin v1|emis|PEPR23946EMIS|Human Mixtard 40  Preloaded pen  |
-|insulin v1|emis|RAIN4251|Rapitard Mc (Novo)  Injection  100 units/ml|
-|insulin v1|emis|ACPR15881NEMIS|Actrapid Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
-|insulin v1|emis|AURE12986NEMIS|Autopen Special Edition  Re-usable pen  3 ml, 1-21 units|
-|insulin v1|emis|EXIN22882NEMIS|Exubera  Inhalation Powder Blisters  1 mg Unit Dose Blister|
-|insulin v1|emis|HYIN15399NEMIS|Hypurin Bovine Neutral  Injection (cartridges)  100 units/ml, 3ml Cartridge|
-|insulin v1|emis|ININ28940EMIS|Insulin Lispro  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|ININ28940EMIS|Insulin Lispro  Solution for injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|INPR6340NEMIS|Insuman Rapid Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|INPR6343NEMIS|Insuman Comb 15 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|INPR6345NEMIS|Insuman Comb 25 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|INSO78486NEMIS|Insulin Degludec  Solution for injection  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|LEIN18219NEMIS|Levemir Penfill  Injection (cartridges)  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|MIIN15902NEMIS|Mixtard 30  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|NOPR13769NEMIS|Novorapid Flexpen  Solution for injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|ABIN104796NEMIS|Abasaglar  Solution for injection  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|AURE11846NEMIS|Autopen Junior  Re-usable pen  3 ml, 2-42 units|
-|insulin v1|emis|AURE12987NEMIS|Autopen Special Edition  Re-usable pen  3 ml, 2-42 units|
-|insulin v1|emis|DIIN1778NEMIS|Disposable  Insulin syringe with needle  0.3 ml|
-|insulin v1|emis|EXIN22784NEMIS|Exubera  Insufflator kit  |
-|insulin v1|emis|HUCA32500EMIS|Humulin S  Cartridges (3 Ml)  100 units/ml|
-|insulin v1|emis|HUCA34841EMIS|Humalog  Cartridges (3 Ml)  100 units/ml|
-|insulin v1|emis|HUIN28936EMIS|Humalog  Injection  100 units/ml|
-|insulin v1|emis|HUPR26732EMIS|Humaject (Humulin I)  Preloaded pen  100 units/ml|
-|insulin v1|emis|HUPR35541EMIS|Humalog Mix25  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|HYIN30855EMIS|Hypurin Porcine Isophane  Suspension For Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|INDI10563BRIDL|Insulin Syringe  Disposable  1 ml|
-|insulin v1|emis|ININ13807NEMIS|Insulin Glargine  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|ININ15887NEMIS|Insulatard  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|ININ3283NEMIS|Insuman Comb 25  Injection  100 units/ml, 5 ml vial|
-|insulin v1|emis|INPR51153NEMIS|Insuman Basal Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|INPR6340NEMIS|Insuman Rapid Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|LAPR13574NEMIS|Lantus Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|MHDE14612NEMIS|Mhi-500 Starter Kit  Delivery System  MH79002-01|
-|insulin v1|emis|MODI10487BRIDL|Monoject  Disposable syringe with needle  1 ml, 28g|
-|insulin v1|emis|MOIN15918NEMIS|Monotard  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|NORE101164NEMIS|Novopen 5  Re-usable pen  Blue, 3 ml, 1-60 units|
-|insulin v1|emis|PEIN9239BRIDL|Human Mixtard 30  Injection (cartridges)  100 u/ml|
-|insulin v1|emis|PEPR23940EMIS|Human Mixtard 10  Preloaded pen  |
-|insulin v1|emis|SEIN2532|Semitard Mc (Novo)  Injection  100 units/ml|
-|insulin v1|emis|TRSO78484NEMIS|Tresiba Flextouch  Solution for injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|TRSO78488NEMIS|Tresiba Penfill  Solution for injection  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|AURE11845NEMIS|Autopen Junior  Re-usable pen  3 ml, 1-21 units|
-|insulin v1|emis|AURE14954NEMIS|Autopen 24  Re-usable pen  3 ml, 1-21 units, AN4210|
-|insulin v1|emis|HUPE26791EMIS|Human Mixtard 30  Penfill Cartridges (1.5 Ml)  |
-|insulin v1|emis|INCA34843EMIS|Insulin Lispro  Solution for injection  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|ACPR24174EMIS|Human Actrapid  Preloaded pen  100 units/ml|
-|insulin v1|emis|AURE12986NEMIS|Autopen Special Edition  Re-usable pen  3 ml, 1-21 units|
-|insulin v1|emis|HUPR26718EMIS|Humaject (Humulin M1)  Preloaded pen  |
-|insulin v1|emis|HUPR26730EMIS|Humaject (Humulin M5)  Preloaded pen  |
-|insulin v1|emis|HUPR5189NEMIS|Humalog Mix50  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|INDI10561BRIDL|Insulin Syringe  Disposable  0.5 ml|
-|insulin v1|emis|ININ3269NEMIS|Insuman Rapid  Injection  100 units/ml, 5 ml vial|
-|insulin v1|emis|ISIN5049|Isophane Insulin  Injection  100 units/ml|
-|insulin v1|emis|KESY78718NEMIS|Kendall Magellan Insulin Safety, Single Use, U100  Syringes with 8mm needles  Sterile, 1.0 ml, 0.3 mm/30 g|
-|insulin v1|emis|LAIN13572NEMIS|Lantus  Injection  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|MIPR15900NEMIS|Mixtard 30 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
-|insulin v1|emis|NEIN1977|Neutral Insulin  Injection  100 units/ml|
-|insulin v1|emis|NOIN1200NEMIS|Novorapid  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|NOIN12698NEMIS|Novomix 30 Penfill  Injection (cartridges)  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|PEIN9156EMIS|Human Mixtard 10  Injection  |
-|insulin v1|emis|SQDE21591NEMIS|Sq-Pen Starter Pack  Delivery System  SQ 001|
-|insulin v1|emis|EXIN22784NEMIS|Exubera  Insufflator kit  |
-|insulin v1|emis|HUPE26794EMIS|Human Mixtard 40  Penfill Cartridges (1.5 Ml)  |
-|insulin v1|emis|HUPR26715EMIS|Humaject (Humulin S)  Preloaded pen  100 units/ml|
-|insulin v1|emis|HUSU45861NEMIS|Humulin M3 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|ININ15887NEMIS|Insulatard  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|INPR18215NEMIS|Insulin Detemir  Solution for injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|INPR46954NEMIS|Insuman Comb 25 Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|LAPR26863NEMIS|Lantus Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|LEPR18221NEMIS|Levemir Flexpen  Solution for injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|MIINEGTON7152|Pork Mixtard 30  Injection  10 ml vial|
-|insulin v1|emis|BIIN4659|Biphasic Insulin  Injection  100 units/ml|
-|insulin v1|emis|HUCA18384EMIS|Humulin M4  Cartridges (1.5 Ml)  |
-|insulin v1|emis|HUPE26788EMIS|Human Mixtard 20  Penfill Cartridges (1.5 Ml)  |
-|insulin v1|emis|HUPR26721EMIS|Humaject (Humulin M2)  Preloaded pen  |
-|insulin v1|emis|HUPR5192NEMIS|Humulin I  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|HYIN15399NEMIS|Hypurin Bovine Neutral  Injection (cartridges)  100 units/ml, 3ml Cartridge|
-|insulin v1|emis|INCL10559BRIDL|Insulin Syringe  Click-count  1 ml|
-|insulin v1|emis|ININ21131NEMIS|Insulin Glulisine  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|ININ3759|Pork Insulatard  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|INPR6345NEMIS|Insuman Comb 25 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|INSO78486NEMIS|Insulin Degludec  Solution for injection  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|ISPE33729EMIS|Isophane Insulin (Human Pyr)  Penfill cartridges (3 ml)  100 units/ml|
-|insulin v1|emis|NOPR13769NEMIS|Novorapid Flexpen  Solution for injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|NORE31134NEMIS|Novopen 4  Re-usable pen  Blue, 3 ml, 1-60 units|
-|insulin v1|emis|NORE52696NEMIS|Novopen Echo  Re-usable pen  Blue, 3 ml, 0.5 unit dial up, 0.5-30 units|
-|insulin v1|emis|NOSO94846NEMIS|Novorapid Pumpcart  Solution for injection  100 units/ml, 1.6 ml cartridge|
-|insulin v1|emis|PEPR23943EMIS|Human Mixtard 20  Preloaded pen  |
-|insulin v1|emis|ABIN104796NEMIS|Abasaglar  Solution for injection  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|HUCA8384BRID|Human Actrapid Penfill  Cartridges (1.5 Ml)  100 units/ml|
-|insulin v1|emis|HUIN3718|Humulin I  Suspension For Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|HUIN3721|Humulin S  Injection  100 units/ml|
-|insulin v1|emis|HUPR31278NEMIS|Humalog Mix25 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|INPR5190NEMIS|Insulin Lispro  Solution for injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|LAIN13572NEMIS|Lantus  Injection  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|LAPR13574NEMIS|Lantus Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|MHDE14616NEMIS|Mhi-500 3-Month Consumable Kit  Delivery System  10 ml, 6 nozzle, MH79002-07|
-|insulin v1|emis|MIPR15892NEMIS|Mixtard 10 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
-|insulin v1|emis|NOPR12702NEMIS|Novomix 30 Flexpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|NORE3064NEMIS|Novopen 3  Re-usable pen  Fun, blue|
-|insulin v1|emis|LEPR25142NEMIS|Levemir Innolet  Solution for injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|MHDE14612NEMIS|Mhi-500 Starter Kit  Delivery System  MH79002-01|
-|insulin v1|emis|NOIN12698NEMIS|Novomix 30 Penfill  Injection (cartridges)  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|NORE101165NEMIS|Novopen 5  Re-usable pen  Silver, 3 ml, 1-60 units|
-|insulin v1|emis|NORE3063NEMIS|Novopen 3  Re-usable pen  Fun, red|
-|insulin v1|emis|SQDE21591NEMIS|Sq-Pen Starter Pack  Delivery System  SQ 001|
-|insulin v1|emis|SQDE21600NEMIS|Sq-Pen 3-Month Consumable Pack  Delivery System  10 ml, SQ 006|
-|insulin v1|emis|TRSO78484NEMIS|Tresiba Flextouch  Solution for injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|HUCA28935EMIS|Humalog  Cartridges (1.5 Ml)  100 units/ml|
-|insulin v1|emis|HUCA32498EMIS|Humulin I  Cartridges (3 Ml)  100 units/ml|
-|insulin v1|emis|HUIN10443BRIDL|Humulin M3 (Lilly)  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|HUIN3721|Humulin S  Injection  100 units/ml|
-|insulin v1|emis|HUPR26727EMIS|Humaject (Humulin M4)  Preloaded pen  |
-|insulin v1|emis|HUSO101078NEMIS|Humalog Kwikpen  Solution for injection  200 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|INCA34843EMIS|Insulin Lispro  Cartridges (3 Ml)  100 units/ml|
-|insulin v1|emis|ININ3272NEMIS|Insuman Rapid  Injection (cartridges)  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|ININ3281NEMIS|Insuman Basal  Injection (cartridges)  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|ININ3284NEMIS|Insuman Comb 25  Injection (cartridges)  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|ININ4907NEMIS|Insuman Comb 15  Injection (cartridges)  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|INPR15885NEMIS|Insulatard Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
-|insulin v1|emis|INSO98875NEMIS|Insulin Degludec And Liraglutide  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen|
-|insulin v1|emis|ISIN33727EMIS|Isophane Insulin (Human Pyr)  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|LAPR26863NEMIS|Lantus Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|MHDE18313NEMIS|Mhi-500 3-Month Consumable Kit  Delivery System  3 ml, 6 nozzle, MH79002-12|
-|insulin v1|emis|NORE11452NEMIS|Novopen Junior  Re-usable pen  Green, 3 ml|
-|insulin v1|emis|PEIN9159EMIS|Human Mixtard 20  Injection  |
-|insulin v1|emis|PEIN9165EMIS|Human Mixtard 50  Injection  |
-|insulin v1|emis|PEPR22308EMIS|Human Mixtard 30  Preloaded pen  |
-|insulin v1|emis|UNSY30181EMIS|Unifine  Syringes with needle  29g/0.5", 0.5 ml|
-|insulin v1|emis|HUCA32500EMIS|Humulin S  Cartridges (3 Ml)  100 units/ml|
-|insulin v1|emis|HUIN25811EMIS|Humulin M5  Injection  10 ml vial|
-|insulin v1|emis|HUPE26788EMIS|Human Mixtard 20  Penfill Cartridges (1.5 Ml)  |
-|insulin v1|emis|HUPR5191NEMIS|Humalog  Solution for injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|HYIN15401NEMIS|Hypurin Porcine Neutral  Injection (cartridges)  100 units/ml, 3 ml Cartridge|
-|insulin v1|emis|HYIN15402NEMIS|Hypurin Porcine Isophane  Injection (cartridges)  100 units/ml, 3 ml Cartridge|
-|insulin v1|emis|ININ13807NEMIS|Insulin Glargine  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|INPR6338NEMIS|Insuman Basal Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|KESY78718NEMIS|Kendall Magellan Insulin Safety, Single Use, U100  Syringes with 8mm needles  Sterile, 1.0 ml, 0.3 mm/30 g|
-|insulin v1|emis|NORE11453NEMIS|Novopen Junior  Re-usable pen  Yellow, 3 ml|
-|insulin v1|emis|NOSO51972NEMIS|Novorapid Flextouch  Solution for injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|U1SY28829EMIS|U100 Insulin Sterile, Single Use  Syringes, No Less Than 12mm Needle  0.3 ml, 0.33 mm/29g|
-|insulin v1|emis|HUCA18375EMIS|Humulin M1  Cartridges (1.5 Ml)  |
-|insulin v1|emis|HUCA18381EMIS|Humulin M3 (Lilly)  Cartridges (1.5 Ml)  |
-|insulin v1|emis|HUIN3720|Humulin M2  Injection  |
-|insulin v1|emis|HUIN8877BRIDL|Humulin M4  Injection  |
-|insulin v1|emis|HUIN8983EGTON|Human Velosulin  Injection  100 u/ml|
-|insulin v1|emis|HUPR31278NEMIS|Humalog Mix25 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|INPR13771NEMIS|Insulatard Flexpen  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|INPR46954NEMIS|Insuman Comb 25 Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|INPR6338NEMIS|Insuman Basal Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|INSO103676NEMIS|Insulin Glargine  Pre-filled Disposable Pen  300 units/ml, 1.5 ml pen|
-|insulin v1|emis|MHDE18312NEMIS|Mhi-500 Starter Kit  Delivery System  MH79002-01A|
-|insulin v1|emis|MODI10485BRIDL|Monoject  Disposable syringe with needle  0.5 ml, 28g|
-|insulin v1|emis|NOPR12702NEMIS|Novomix 30 Flexpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|NORE101165NEMIS|Novopen 5  Re-usable pen  Silver, 3 ml, 1-60 units|
-|insulin v1|emis|PEIN9162EMIS|Human Mixtard 40  Injection  |
-|insulin v1|emis|SQDE21600NEMIS|Sq-Pen 3-Month Consumable Pack  Delivery System  10 ml, SQ 006|
-|insulin v1|emis|ULIN15920NEMIS|Ultratard  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|VEIN15916NEMIS|Velosulin  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|AURE3059NEMIS|Autopen  Re-usable pen  1.5ml, 2-32 units|
-|insulin v1|emis|BDDI18283NEMIS|Bd-Microfine +  Disposable syringe  1 ml, 0.30 x 8 mm needle|
-|insulin v1|emis|HUCA35540EMIS|Humalog Mix25  Cartridges (3 Ml)  100 units/ml|
-|insulin v1|emis|HUPR31280NEMIS|Humalog Mix50 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|HUPR35541EMIS|Humalog Mix25  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|HUSO101078NEMIS|Humalog Kwikpen  Solution for injection  200 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|INCA1198NEMIS|Insulin Aspart  Cartridges (3 Ml)  100 units/ml|
-|insulin v1|emis|INCA34843EMIS|Insulin Lispro  Cartridges (3 Ml)  100 units/ml|
-|insulin v1|emis|INSO103676NEMIS|Insulin Glargine  Pre-filled Disposable Pen  300 units/ml, 1.5 ml pen|
-|insulin v1|emis|LAIN21795NEMIS|Lantus Opticlik  Injection  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|MHDE18312NEMIS|Mhi-500 Starter Kit  Delivery System  MH79002-01A|
-|insulin v1|emis|MHDE18313NEMIS|Mhi-500 3-Month Consumable Kit  Delivery System  3 ml, 6 nozzle, MH79002-12|
-|insulin v1|emis|DIIN10072BRIDL|Disposable  Insulin syringe with needle  1 ml|
-|insulin v1|emis|EXIN22882NEMIS|Exubera  Inhalation Powder Blisters  1 mg Unit Dose Blister|
-|insulin v1|emis|HUCA18372EMIS|Humulin I  Cartridges (1.5 Ml)  100 units/ml|
-|insulin v1|emis|HUIN3713|Human Monotard (Novo)  Injection  100 units/ml|
-|insulin v1|emis|HYIN15400NEMIS|Hypurin Bovine Isophane  Injection (cartridges)  100 units/ml, 3 ml Cartridge|
-|insulin v1|emis|HYIN15402NEMIS|Hypurin Porcine Isophane  Injection (cartridges)  100 units/ml, 3 ml Cartridge|
-|insulin v1|emis|ININ28940EMIS|Insulin Lispro  Solution for injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|INPR10557BRIDL|Insulin Syringe  Pre-set  1 ml|
-|insulin v1|emis|INPR22401NEMIS|Insulin Glulisine  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|ISCA28655EMIS|Isophane Insulin (Human, Prb)  Cartridges  100 units/ml|
-|insulin v1|emis|MHDE18314NEMIS|Mhi-500 3-Month Consumable Kit  Delivery System  3 ml, 7 nozzle, MH79002-13|
-|insulin v1|emis|NOCA1201NEMIS|Novorapid Penfill  Cartridges (3 Ml)  100 units/ml|
-|insulin v1|emis|NORE3961NEMIS|Novopen 3  Re-usable pen  Demi|
-|insulin v1|emis|TRSO78485NEMIS|Tresiba Flextouch  Solution for injection  200 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|VEIN4493|Pork Velosulin  Injection  100 units/ml|
-|insulin v1|emis|ABSO104799NEMIS|Abasaglar Kwikpen  Solution for injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|AURE3060NEMIS|Autopen  Re-usable pen  Classic, 3 ml, 2-42 units, AN3800|
-|insulin v1|emis|HUCA32509EMIS|Humulin M3  Suspension For Injection  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|HUIN22574NEMIS|Humalog Mix50  Injection (cartridges)  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|ININ21131NEMIS|Insulin Glulisine  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|INPR11699NEMIS|Insulatard Innolet  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|INPR13771NEMIS|Insulatard Flexpen  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|ISIN671NEMIS|Isophane Insulin (Bovine, Highly Purified)  Injection (cartridges)  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|MIPR15910NEMIS|Mixtard 50 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
-|insulin v1|emis|MODI10487BRIDL|Monoject  Disposable syringe with needle  1 ml, 28g|
-|insulin v1|emis|MOIN15918NEMIS|Monotard  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|NORE101164NEMIS|Novopen 5  Re-usable pen  Blue, 3 ml, 1-60 units|
-|insulin v1|emis|NORE31134NEMIS|Novopen 4  Re-usable pen  Blue, 3 ml, 1-60 units|
-|insulin v1|emis|NORE52696NEMIS|Novopen Echo  Re-usable pen  Blue, 3 ml, 0.5 unit dial up, 0.5-30 units|
-|insulin v1|emis|ACPR15881NEMIS|Actrapid Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
-|insulin v1|emis|EXIN22884NEMIS|Exubera  Inhalation Powder Blisters  3 mg Unit Dose Blister|
-|insulin v1|emis|HUCA32506EMIS|Humulin M2  Cartridges (3 Ml)  |
-|insulin v1|emis|HUCA32512EMIS|Humulin M4  Cartridges (3 Ml)  |
-|insulin v1|emis|HUIN3719|Humulin M1  Injection  |
-|insulin v1|emis|HUPE26797EMIS|Human Mixtard 50  Penfill Cartridges (1.5 Ml)  |
-|insulin v1|emis|HUPR31280NEMIS|Humalog Mix50 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|HUSU45871NEMIS|Humulin I Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|ININ13808NEMIS|Insulin Glargine  Injection  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|ININ1480|Insulin Zinc Suspension (Human)  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|ININ21133NEMIS|Insulin Glulisine  Injection  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|INPR5190NEMIS|Insulin Lispro  Solution for injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|ISIN671NEMIS|Isophane Insulin (Bovine, Highly Purified)  Injection (cartridges)  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|ISPR33730EMIS|Isophane Insulin (Human Pyr)  Preloaded pen  100 units/ml|
-|insulin v1|emis|MIPR15892NEMIS|Mixtard 10 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
-|insulin v1|emis|MIPR15910NEMIS|Mixtard 50 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
-|insulin v1|emis|NORE11453NEMIS|Novopen Junior  Re-usable pen  Yellow, 3 ml|
-|insulin v1|emis|NORE52697NEMIS|Novopen Echo  Re-usable pen  Red, 3 ml, 0.5 unit dial up, 0.5-30 units|
-|insulin v1|emis|NOSO51972NEMIS|Novorapid Flextouch  Solution for injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|OMDI10577BRIDL|Omnikan  Disposable syringe with needle  1 ml, 27g|
-|insulin v1|emis|PRIN5344|Protamine Zinc Bovine Insulin  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|APIN21136NEMIS|Apidra  Injection  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|APPR26865NEMIS|Apidra Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|AURE11846NEMIS|Autopen Junior  Re-usable pen  3 ml, 2-42 units|
-|insulin v1|emis|EXCH22786NEMIS|Exubera  Chamber  |
-|insulin v1|emis|EXIN22884NEMIS|Exubera  Inhalation Powder Blisters  3 mg Unit Dose Blister|
-|insulin v1|emis|HUIN8925BRECO|Humulin M3  Suspension For Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|HUPE26785EMIS|Human Mixtard 10  Penfill Cartridges (1.5 Ml)  |
-|insulin v1|emis|HUPR26724EMIS|Humaject (Humulin M3)  Preloaded pen  |
-|insulin v1|emis|HUPR5192NEMIS|Humulin I  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|APIN21135NEMIS|Apidra  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|APPR26865NEMIS|Apidra Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|AURE5362NEMIS|Autopen  Re-usable pen  Classic, 3 ml, 1-21 units, AN3810|
-|insulin v1|emis|BDDI18283NEMIS|Bd-Microfine +  Disposable syringe  1 ml, 0.30 x 8 mm needle|
-|insulin v1|emis|HUCA18378EMIS|Humulin M2  Cartridges (1.5 Ml)  |
-|insulin v1|emis|HUCA31132EMIS|Human Actrapid Penfill  Cartridges (3 Ml)  100 units/ml|
-|insulin v1|emis|HUCA32503EMIS|Humulin M1  Cartridges (3 Ml)  |
-|insulin v1|emis|HUCA35540EMIS|Humalog Mix25  Cartridges (3 Ml)  100 units/ml|
-|insulin v1|emis|HUIN25811EMIS|Humulin M5  Injection  10 ml vial|
-|insulin v1|emis|HUIN5904|Humulin Zn  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|HUPR26715EMIS|Humaject (Humulin S)  Preloaded pen  100 units/ml|
-|insulin v1|emis|HUPR5191NEMIS|Humalog  Solution for injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|ININ28940EMIS|Insulin Lispro  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|ININ4910NEMIS|Insuman Comb 50  Injection (cartridges)  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|INPR6343NEMIS|Insuman Comb 15 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|INPR6347NEMIS|Insuman Comb 50 Optiset  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|INSO78480NEMIS|Insulin Degludec  Solution for injection  100 units/ml, 3 ml pre-filled device|
-|insulin v1|emis|LAIN21795NEMIS|Lantus Opticlik  Injection  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|LEPR25142NEMIS|Levemir Innolet  Solution for injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|MIPR11701NEMIS|Mixtard 30 Innolet  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|NEIN1978|Neutral Insulin (Human)  Injection  100 units/ml|
-|insulin v1|emis|NORE3064NEMIS|Novopen 3  Re-usable pen  Fun, blue|
-|insulin v1|emis|U1SY28829EMIS|U100 Insulin Sterile, Single Use  Syringes, No Less Than 12mm Needle  0.3 ml, 0.33 mm/29g|
-|insulin v1|emis|XUSO98877NEMIS|Xultophy  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen|
-|insulin v1|emis|ACIN15879NEMIS|Actrapid  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|APIN23125NEMIS|Apidra Opticlik  Injection  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|AURE12987NEMIS|Autopen Special Edition  Re-usable pen  3 ml, 2-42 units|
-|insulin v1|emis|AURE14955NEMIS|Autopen 24  Re-usable pen  3 ml, 2-42 units, AN4200|
-|insulin v1|emis|HUPR31276NEMIS|Humalog Kwikpen  Solution for injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|HUSU45871NEMIS|Humulin I Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|MIPR15900NEMIS|Mixtard 30 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
-|insulin v1|emis|NOIN1200NEMIS|Novorapid  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|XUSO98877NEMIS|Xultophy  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen|
-|insulin v1|emis|ININ21133NEMIS|Insulin Glulisine  Injection  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|ININ3283NEMIS|Insuman Comb 25  Injection  100 units/ml, 5 ml vial|
-|insulin v1|emis|ININ3284NEMIS|Insuman Comb 25  Injection (cartridges)  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|ININ3759|Pork Insulatard  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|INPR51153NEMIS|Insuman Basal Solostar  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|ISIN668NEMIS|Isophane Insulin (Porcine, Highly Purified)  Injection (cartridges)  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|MIPR15906NEMIS|Mixtard 40 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
-|insulin v1|emis|NORE3062NEMIS|Novopen 3  Re-usable pen  Classic|
-|insulin v1|emis|NORE3961NEMIS|Novopen 3  Re-usable pen  Demi|
-|insulin v1|emis|NOSO94846NEMIS|Novorapid Pumpcart  Solution for injection  100 units/ml, 1.6 ml cartridge|
-|insulin v1|emis|PRIN5344|Protamine Zinc Bovine Insulin  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|MIPR11701NEMIS|Mixtard 30 Innolet  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|NOCA1201NEMIS|Novorapid Penfill  Cartridges (3 Ml)  100 units/ml|
-|insulin v1|emis|HYIN30855EMIS|Hypurin Porcine Isophane  Suspension For Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|ISIN1507|Isophane Insulin (Human)  Suspension For Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|MHDE18314NEMIS|Mhi-500 3-Month Consumable Kit  Delivery System  3 ml, 7 nozzle, MH79002-13|
-|insulin v1|emis|NORE52697NEMIS|Novopen Echo  Re-usable pen  Red, 3 ml, 0.5 unit dial up, 0.5-30 units|
-|insulin v1|emis|TOSO103679NEMIS|Toujeo Solostar  Pre-filled Disposable Pen  300 units/ml, 1.5 ml pen|
-|insulin v1|emis|TRSO78488NEMIS|Tresiba Penfill  Solution for injection  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|ULIN15920NEMIS|Ultratard  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|UNSY30180EMIS|Unifine  Syringes with needle  29g/0.5", 0.3 ml|
-|insulin v1|emis|ININ18217NEMIS|Insulin Detemir  Injection (cartridges)  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|ININ4907NEMIS|Insuman Comb 15  Injection (cartridges)  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|ININ4910NEMIS|Insuman Comb 50  Injection (cartridges)  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|INPR22401NEMIS|Insulin Glulisine  Pre-filled Disposable Pen  100 units/ml, 3 ml pen|
-|insulin v1|emis|INSO78480NEMIS|Insulin Degludec  Solution for injection  100 units/ml, 3 ml pre-filled device|
-|insulin v1|emis|LAIN13570NEMIS|Lantus  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|MHDE14617NEMIS|Mhi-500 3-Month Consumable Kit  Delivery System  10 ml, 7 nozzle, MH79002-08|
-|insulin v1|emis|NORE11452NEMIS|Novopen Junior  Re-usable pen  Green, 3 ml|
-|insulin v1|emis|VEIN15916NEMIS|Velosulin  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|AURE14955NEMIS|Autopen 24  Re-usable pen  3 ml, 2-42 units, AN4200|
-|insulin v1|emis|AURE3059NEMIS|Autopen  Re-usable pen  1.5ml, 2-32 units|
-|insulin v1|emis|DIIN10070BRIDL|Disposable  Insulin syringe with needle  0.5 ml|
-|insulin v1|emis|EXCH22786NEMIS|Exubera  Chamber  |
-|insulin v1|emis|HUIN22574NEMIS|Humalog Mix50  Injection (cartridges)  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|HUINEGTON7149|Human Mixtard 30  Injection  10 ml vial|
-|insulin v1|emis|HUPE26785EMIS|Human Mixtard 10  Penfill Cartridges (1.5 Ml)  |
-|insulin v1|emis|HUPR26724EMIS|Humaject (Humulin M3)  Preloaded pen  |
-|insulin v1|emis|HUSU45861NEMIS|Humulin M3 Kwikpen  Suspension For Injection  100 units/ml, 3 ml pre-filled pen|
-|insulin v1|emis|INCA1198NEMIS|Insulin Aspart  Cartridges (3 Ml)  100 units/ml|
-|insulin v1|emis|ININ18217NEMIS|Insulin Detemir  Injection (cartridges)  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|ININ3278NEMIS|Insuman Basal  Injection  100 units/ml, 5 ml vial|
-|insulin v1|emis|ISIN1507|Isophane Insulin (Human)  Suspension For Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|ISIN666NEMIS|Isophane Insulin (Porcine, Highly Purified)  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|KESY78712NEMIS|Kendall Magellan Insulin Safety, Single Use, U100  Syringes with 8mm needles  Sterile, 0.3 ml, 0.3 mm/30 g|
-|insulin v1|emis|LAIN13570NEMIS|Lantus  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|MIPR15906NEMIS|Mixtard 40 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
-|insulin v1|emis|NOPR1202NEMIS|Novorapid Novolet  Prefilled syringes  100 units/ml|
-|insulin v1|emis|SQDE21599NEMIS|Sq-Pen 3-Month Consumable Pack  Delivery System  3 ml, SQ 004|
-|insulin v1|emis|UNSY30180EMIS|Unifine  Syringes with needle  29g/0.5", 0.3 ml|
-|insulin v1|emis|AURE3057NEMIS|Autopen  Re-usable pen  1.5ml, 1-16 units|
-|insulin v1|emis|AURE5362NEMIS|Autopen  Re-usable pen  Classic, 3 ml, 1-21 units, AN3810|
-|insulin v1|emis|HUCA34841EMIS|Humalog  Cartridges (3 Ml)  100 units/ml|
-|insulin v1|emis|HUPE26797EMIS|Human Mixtard 50  Penfill Cartridges (1.5 Ml)  |
-|insulin v1|emis|HYIN15400NEMIS|Hypurin Bovine Isophane  Injection (cartridges)  100 units/ml, 3 ml Cartridge|
-|insulin v1|emis|ININ1196NEMIS|Insulin Aspart  Injection  100 units/ml, 10 ml vial|
-|insulin v1|emis|ININ3269NEMIS|Insuman Rapid  Injection  100 units/ml, 5 ml vial|
-|insulin v1|emis|ININ3272NEMIS|Insuman Rapid  Injection (cartridges)  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|ININ3278NEMIS|Insuman Basal  Injection  100 units/ml, 5 ml vial|
-|insulin v1|emis|ININ3281NEMIS|Insuman Basal  Injection (cartridges)  100 units/ml, 3 ml cartridge|
-|insulin v1|emis|INPR15885NEMIS|Insulatard Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
-|insulin v1|emis|KESY78712NEMIS|Kendall Magellan Insulin Safety, Single Use, U100  Syringes with 8mm needles  Sterile, 0.3 ml, 0.3 mm/30 g|
-|insulin v1|emis|MIPR15896NEMIS|Mixtard 20 Novolet  Pre-filled Disposable Injection  100 units/ml, 3 ml device|
-|insulin v1|emis|NORE31135NEMIS|Novopen 4  Re-usable pen  Silver, 3 ml, 1-60 units|
-|insulin v1|emis|SQDE21599NEMIS|Sq-Pen 3-Month Consumable Pack  Delivery System  3 ml, SQ 004|
-|insulin v1|readv2|f1...00|SHORT-ACTING INSULIN PREPARATIONS|
-|insulin v1|readv2|f11..00|*SOLUBLE INSULIN|
-|insulin v1|readv2|f111.00|INSULIN 100iu/mL injection 10mL|
-|insulin v1|readv2|f112.00|*HYPURIN injection 10mL|
-|insulin v1|readv2|f12..00|SOLUBLE NEUTRAL INSULIN|
-|insulin v1|readv2|f121.00|NEUTRAL INSULIN 100iu/mL injection 10mL|
-|insulin v1|readv2|f122.00|HYPURIN NEUTRAL 100iu/mL injection 10mL|
-|insulin v1|readv2|f122.11|*HYPURN BOV NEUT 100iu/mL 10mL|
-|insulin v1|readv2|f123.00|*NEUSULIN 100iu/mL injection|
-|insulin v1|readv2|f124.00|*QUICKSOL 100iu/mL injection|
-|insulin v1|readv2|f125.00|VELOSULIN 100iu/mL injection 10mL|
-|insulin v1|readv2|f126.00|VELOSULIN CARTRIDGE 100iu/mL injection 5.7mL|
-|insulin v1|readv2|f127.00|HUMAN ACTRAPID 100iu/mL injection 10mL|
-|insulin v1|readv2|f127.11|ACTRAPID 100iu/mL injection 10mL|
-|insulin v1|readv2|f128.00|HUMAN ACTRAPID 100iu/mL penfill cartridges|
-|insulin v1|readv2|f129.00|HUMAN VELOSULIN 100iu/mL injection 10mL|
-|insulin v1|readv2|f12A.00|HUMAN ACTRAPID 100iu/mL penfill cartridges 1.5mL|
-|insulin v1|readv2|f12B.00|HUMAN ACTRAPID 100iu/mL preloaded injection pen 3mL|
-|insulin v1|readv2|f12B.11|ACTRAPID NOVOLET 100iu/mL preloaded injection pen 3mL|
-|insulin v1|readv2|f12C.00|HUMAJECT S 100iu/mL prefilled pen|
-|insulin v1|readv2|f12D.00|PORK VELOSULIN 100units/mL injection 10mL|
-|insulin v1|readv2|f12D.11|PORK ACTRAPID 100units/mL injection 10mL|
-|insulin v1|readv2|f12E.00|NEUTRAL INSULIN 100iu/mL injection cartridge|
-|insulin v1|readv2|f12F.00|HYPURIN BOVINE NEUTRAL 100iu/mL injection cartridge 1.5mL|
-|insulin v1|readv2|f12G.00|HYPURIN PORCINE NEUTRAL 100iu/mL injection cartridge 1.5mL|
-|insulin v1|readv2|f12H.00|HYPURIN BOVINE NEUTRAL 100iu/mL injection 10mL|
-|insulin v1|readv2|f12I.00|HYPURIN PORCINE NEUTRAL 100iu/mL injection 10mL|
-|insulin v1|readv2|f12J.00|ACTRAPID (HUMAN) PENFILL 100iu/mL cartridges 3mL|
-|insulin v1|readv2|f12J.11|ACTRAPID PENFILL 100iu/mL cartridges 3mL|
-|insulin v1|readv2|f12K.00|PORK ACTRAPID 100iu/mL injection 10mL|
-|insulin v1|readv2|f12L.00|INSUMAN RAPID 100iu/mL injection vials 5mL|
-|insulin v1|readv2|f12M.00|INSUMAN RAPID 100iu/mL injection cartridge 3mL|
-|insulin v1|readv2|f12Q.00|INSUMAN RAPID OPTISET 100iu/mL prefilled pen 3mL|
-|insulin v1|readv2|f12R.00|HUMAN VELOSULIN (PYR) 100iu/mL injection 10mL|
-|insulin v1|readv2|f12R.11|VELOSULIN (PYR) 100iu/mL injection 10mL|
-|insulin v1|readv2|f12S.00|HYPURIN BOVINE NEUTRAL 100iu/mL injection cartridge 3mL|
-|insulin v1|readv2|f12T.00|HYPURIN PORCINE NEUTRAL 100iu/mL injection cartridge 3mL|
-|insulin v1|readv2|f12U.00|EXUBERA 1mg powder for inhalation|
-|insulin v1|readv2|f12V.00|EXUBERA 3mg powder for inhalation|
-|insulin v1|readv2|f12W.00|HUMAN INSULIN 1mg powder for inhalation|
-|insulin v1|readv2|f12X.00|HUMAN INSULIN 3mg powder for inhalation|
-|insulin v1|readv2|f12Y.00|INSUMAN INFUSAT 100iu/mL soln for inj cartridges 3.15mL|
-|insulin v1|readv2|f12Z.00|INSUMAN INFUSAT 100iu/mL solution for injection vials 10mL|
-|insulin v1|readv2|f12a.00|HUMULIN S 100iu/mL injection 10mL|
-|insulin v1|readv2|f12b.00|*NOVOPEN|
-|insulin v1|readv2|f12d.00|PUR-IN NEUTRAL 100iu/mL vials 10mL|
-|insulin v1|readv2|f12e.00|PUR-IN NEUTRAL 100iu/mL cartridges 3mL|
-|insulin v1|readv2|f12f.00|*AUTOPEN|
-|insulin v1|readv2|f12g.00|HUMULIN S 100iu/mL cartridges 1.5mL|
-|insulin v1|readv2|f12h.00|*NOVOPEN II device|
-|insulin v1|readv2|f12j.00|*PUR-IN PEN device|
-|insulin v1|readv2|f12k.00|*PUR-IN PEN 1 device|
-|insulin v1|readv2|f12m.00|*PUR-IN PEN 2 device|
-|insulin v1|readv2|f12n.00|*PUR-IN PEN 4 device|
-|insulin v1|readv2|f12p.00|*DIAPEN 1 device|
-|insulin v1|readv2|f12q.00|*DIAPEN 2 device|
-|insulin v1|readv2|f12r.00|*NOVOPEN I device|
-|insulin v1|readv2|f12s.00|HUMULIN S 100iu/mL cartridges 3mL|
-|insulin v1|readv2|f12t.00|*AUTOPEN 1.5mL one unit device|
-|insulin v1|readv2|f12u.00|*AUTOPEN 1.5mL two unit device|
-|insulin v1|readv2|f12v.00|*AUTOPEN 3mL two unit device|
-|insulin v1|readv2|f12y.00|HUMAN INSULIN 100units/mL injection cartridge|
-|insulin v1|readv2|f12z.00|HUMAN INSULIN 100iu/mL injection vials|
-|insulin v1|readv2|f13..00|INSULIN LISPRO|
-|insulin v1|readv2|f131.00|INSULIN LISPRO 100iu/mL vials|
-|insulin v1|readv2|f132.00|HUMALOG 100iu/mL injection 10mL|
-|insulin v1|readv2|f133.00|INSULIN LISPRO 100iu/mL cartridges|
-|insulin v1|readv2|f134.00|HUMALOG 100iu/mL cartridges 1.5mL|
-|insulin v1|readv2|f135.00|HUMALOG 100iu/mL cartridges 3mL|
-|insulin v1|readv2|f136.00|INSULIN LISPRO 100iu/mL prefilled pen|
-|insulin v1|readv2|f137.00|HUMALOG-PEN 100iu/mL prefilled pen 3mL|
-|insulin v1|readv2|f138.00|HUMALOG KWIKPEN 100iu/mL prefilled pen 3mL|
-|insulin v1|readv2|f139.00|HUMALOG KWIKPEN 200iu/mL prefilled pen 3mL|
-|insulin v1|readv2|f13A.00|INSULIN LISPRO 200iu/mL prefilled pen|
-|insulin v1|readv2|f14..00|INSULIN ASPART|
-|insulin v1|readv2|f141.00|NOVORAPID 100units/mL injection vial|
-|insulin v1|readv2|f142.00|NOVORAPID NOVOLET 100units/mL prefilled syringe 3mL|
-|insulin v1|readv2|f143.00|NOVORAPID PENFILL 100units/mL cartridges 3mL|
-|insulin v1|readv2|f144.00|NOVORAPID FLEXPEN 100units/mL prefilled pen 3mL|
-|insulin v1|readv2|f145.00|NOVORAPID FLEXTOUCH 100units/mL soln for injection pen 3mL|
-|insulin v1|readv2|f146.00|NOVORAPID PUMPCART 100units/mL soln for inj cartridges 1.6mL|
-|insulin v1|readv2|f14w.00|INSULIN ASPART 100units/mL prefilled pen|
-|insulin v1|readv2|f14x.00|INSULIN ASPART 100units/mL injection vial|
-|insulin v1|readv2|f14y.00|INSULIN ASPART 100units/mL prefilled syringe|
-|insulin v1|readv2|f14z.00|INSULIN ASPART 100units/mL cartridges|
-|insulin v1|readv2|f15..00|INSULIN GLULISINE|
-|insulin v1|readv2|f151.00|APIDRA 100iu/mL injection vials 10mL|
-|insulin v1|readv2|f152.00|APIDRA 100iu/mL injection cartridges 3mL|
-|insulin v1|readv2|f153.00|APIDRA 100iu/mL OptiSet prefilled pen 3mL|
-|insulin v1|readv2|f154.00|APIDRA 100iu/mL OptiClik cartridges 3mL|
-|insulin v1|readv2|f155.00|APIDRA 100iu/mL SoloStar prefilled pen 3mL|
-|insulin v1|readv2|f15x.00|INSULIN GLULISINE 100iu/mL prefilled pen|
-|insulin v1|readv2|f15y.00|INSULIN GLULISINE 100iu/mL injection cartridges|
-|insulin v1|readv2|f15z.00|INSULIN GLULISINE 100iu/mL injection vials|
-|insulin v1|readv2|f2...00|MEDIUM/LONG-ACTING INSULINS|
-|insulin v1|readv2|f21..00|BIPHASIC INSULIN|
-|insulin v1|readv2|f211.00|RAPITARD MC 100iu/mL injection 10mL|
-|insulin v1|readv2|f212.00|*PENMIX cartridges 1.5mL|
-|insulin v1|readv2|f22..00|INSULIN ZINC SUSPENSION|
-|insulin v1|readv2|f221.00|INSULIN ZINC LENTE 100iu/mL injection 10mL|
-|insulin v1|readv2|f222.00|HYPURIN LENTE 100iu/mL injection 10mL|
-|insulin v1|readv2|f222.11|*HYPURN BOV LENT 100iu/mL 10mL|
-|insulin v1|readv2|f223.00|LENTARD MC 100iu/mL injection 10mL|
-|insulin v1|readv2|f224.00|*NEULENTE 100iu/mL injection|
-|insulin v1|readv2|f225.00|*TEMPULIN 100iu/mL injection|
-|insulin v1|readv2|f226.00|HUMAN MONOTARD 100iu/mL injection 10mL|
-|insulin v1|readv2|f226.11|MONOTARD 100iu/mL injection 10mL|
-|insulin v1|readv2|f227.00|HUMULIN LENTE 100iu/mL injection 10mL|
-|insulin v1|readv2|f228.00|HYPURIN BOVINE LENTE 100iu/mL injection 10mL|
-|insulin v1|readv2|f23..00|INSULIN ZINC SUSPENSION - AMORPHOUS|
-|insulin v1|readv2|f231.00|SEMITARD MC 100iu/mL injection 10mL|
-|insulin v1|readv2|f24..00|INSULIN ZINC SUSPENSION - CRYSTALLINE|
-|insulin v1|readv2|f241.00|HUMAN ULTRATARD 100iu/mL injection 10mL|
-|insulin v1|readv2|f241.11|ULTRATARD 100iu/mL injection 10mL|
-|insulin v1|readv2|f242.00|HUMULIN ZN 100iu/mL injection 10mL|
-|insulin v1|readv2|f25..00|ISOPHANE INSULIN|
-|insulin v1|readv2|f251.00|ISOPHANE INSULIN 100iu/mL injection 10mL|
-|insulin v1|readv2|f252.00|HYPURIN ISOPHANE 100iu/mL injection 10mL|
-|insulin v1|readv2|f252.11|*HYPURN BV ISOPH 100iu/mL 10mL|
-|insulin v1|readv2|f253.00|INSULATARD 100iu/mL injection 10mL|
-|insulin v1|readv2|f254.00|*MONOPHANE 100iu/mL injection|
-|insulin v1|readv2|f255.00|*NEUPHANE 100iu/mL injection|
-|insulin v1|readv2|f256.00|*INITARD 50/50 injection 10mL|
-|insulin v1|readv2|f257.00|*MIXTARD injection 10mL|
-|insulin v1|readv2|f258.00|HUMAN INSULATARD 100iu/mL injection 10mL|
-|insulin v1|readv2|f259.00|HUMAN PROTAPHANE 100iu/mL injection 10mL|
-|insulin v1|readv2|f259.11|HUMAN INSULATARD ge 100units/mL injection 10mL|
-|insulin v1|readv2|f25A.00|HUMULIN I 100iu/mL prefilled pen 3mL|
-|insulin v1|readv2|f25B.00|INSUMAN BASAL OPTISET 100iu/mL prefilled pen 3mL|
-|insulin v1|readv2|f25C.00|INSULATARD INNOLET 100units/mL prefilled syringe 3mL|
-|insulin v1|readv2|f25D.00|INSULATARD FLEXPEN 100iu/mL prefilled pen 3mL|
-|insulin v1|readv2|f25E.00|HYPURIN BOVINE ISOPHANE 100iu/mL injection cartridge 3mL|
-|insulin v1|readv2|f25F.00|HYPURIN PORCINE ISOPHANE 100iu/mL injection cartridge 3mL|
-|insulin v1|readv2|f25G.00|HUMULIN I KWIKPEN 100iu/mL prefilled pen 3mL|
-|insulin v1|readv2|f25H.00|INSUMAN BASAL SOLOSTAR 100iu/mL prefilled pen 3mL|
-|insulin v1|readv2|f25W.00|HUMAN ISOPHANE INSULIN 100units/mL prefilled syringe|
-|insulin v1|readv2|f25X.00|HUMAN ISOPHANE INSULIN 100units/mL injection cartridge|
-|insulin v1|readv2|f25Y.00|HUMAN ISOPHANE INSULIN 100units/mL injection vials|
-|insulin v1|readv2|f25a.00|HUMULIN I 100iu/mL injection 10mL|
-|insulin v1|readv2|f25b.00|HUMAN ACTRAPHANE injection 10mL|
-|insulin v1|readv2|f25c.00|*HUMAN INITARD injection 10mL|
-|insulin v1|readv2|f25d.00|*HUMAN MIXTARD injection 10mL|
-|insulin v1|readv2|f25e.00|*HUMULIN M1 injection 10mL|
-|insulin v1|readv2|f25f.00|*HUMULIN M2 injection 10mL|
-|insulin v1|readv2|f25g.00|*HUMULIN M3 injection 10mL|
-|insulin v1|readv2|f25h.00|*HUMULIN M4 injection 10mL|
-|insulin v1|readv2|f25i.00|HUMAN PROTAPHANE penfill 1.5mL|
-|insulin v1|readv2|f25i.11|*HUM INSULATARD penfill 1.5mL|
-|insulin v1|readv2|f25j.00|PUR-IN ISOPHANE 100iu/mL vials 10mL|
-|insulin v1|readv2|f25k.00|PUR-IN ISOPHANE 100iu/mL cartridges 3mL|
-|insulin v1|readv2|f25l.00|HUMULIN I 100iu/mL cartridges 1.5mL|
-|insulin v1|readv2|f25m.00|HUMAN INSULATARD 100iu/mL preloaded injection pen 3mL|
-|insulin v1|readv2|f25m.11|INSULATARD NOVOLET 100iu/mL preloaded injection pen 3mL|
-|insulin v1|readv2|f25n.00|HUMAJECT I 100iu/mL prefilled pen|
-|insulin v1|readv2|f25o.00|HUMULIN I 100iu/mL cartridges 3mL|
-|insulin v1|readv2|f25p.00|HUMAN INSULATARD ge injection 10mL|
-|insulin v1|readv2|f25p.11|INSULATARD injection 10mL|
-|insulin v1|readv2|f25q.00|HUMAN INSULATARD PENFILL cartridges 1.5mL|
-|insulin v1|readv2|f25r.00|PORK INSULATARD 100units/mL injection 10mL|
-|insulin v1|readv2|f25s.00|ISOPHANE INSULIN 100iu/mL injection cartridge|
-|insulin v1|readv2|f25t.00|HYPURIN BOVINE ISOPHANE 100iu/mL injection cartridge 1.5mL|
-|insulin v1|readv2|f25u.00|HYPURIN PORCINE ISOPHANE 100iu/mL injection cartridge 1.5mL|
-|insulin v1|readv2|f25v.00|HYPURIN BOVINE ISOPHANE 100iu/mL injection 10mL|
-|insulin v1|readv2|f25w.00|HYPURIN PORCINE ISOPHANE 100iu/mL injection 10mL|
-|insulin v1|readv2|f25x.00|INSULATARD (HUMAN) PENFILL cartridges 3mL|
-|insulin v1|readv2|f25x.11|INSULATARD PENFILL cartridges 3mL|
-|insulin v1|readv2|f25y.00|INSUMAN BASAL 100iu/mL injection vials 5mL|
-|insulin v1|readv2|f25z.00|INSUMAN BASAL 100iu/mL injection cartridge 3mL|
-|insulin v1|readv2|f26..00|PROTAMINE ZINC INSULIN|
-|insulin v1|readv2|f261.00|HYPURIN PROTAMINE ZINC injection 10mL|
-|insulin v1|readv2|f261.11|*HYPURN BV PROT ZN 100iu/mL 10|
-|insulin v1|readv2|f262.00|HYPURIN BOVINE PROTAMINE ZINC 100iu/mL injection 10mL|
-|insulin v1|readv2|f27..00|BIPHASIC ISOPHANE INSULIN|
-|insulin v1|readv2|f271.00|*MIXTARD 30/70 injection 10mL|
-|insulin v1|readv2|f272.00|*PENMIX 30/70 cartridges 1.5mL|
-|insulin v1|readv2|f272.11|*HUM MIXTARD 30 Penfill 1.5mL|
-|insulin v1|readv2|f273.00|*PUR-IN MIX 15/85 vials 10mL|
-|insulin v1|readv2|f274.00|PUR-IN MIX 15/85 cartridges 3mL|
-|insulin v1|readv2|f275.00|*PUR-IN MIX 25/75 vials 10mL|
-|insulin v1|readv2|f276.00|PUR-IN MIX 25/75 cartridges 3mL|
-|insulin v1|readv2|f277.00|*PUR-IN MIX 50/50 vials 10mL|
-|insulin v1|readv2|f278.00|PUR-IN MIX 50/50 cartridges 3mL|
-|insulin v1|readv2|f279.00|*HUMULIN M1 10/90 vials 10mL|
-|insulin v1|readv2|f27A.00|HUMAJECT M1 100iu/mL prefilled pen|
-|insulin v1|readv2|f27B.00|HUMAJECT M2 100iu/mL prefilled pen|
-|insulin v1|readv2|f27C.00|HUMAJECT M3 100iu/mL prefilled pen|
-|insulin v1|readv2|f27D.00|HUMAJECT M4 100iu/mL prefilled pen|
-|insulin v1|readv2|f27E.00|HUMAJECT M5 100iu/mL prefilled pen|
-|insulin v1|readv2|f27F.00|HUMULIN M4 40/60 cartridges 3mL|
-|insulin v1|readv2|f27G.00|HUMULIN M5 50/50 cartridges 3mL|
-|insulin v1|readv2|f27H.00|HUMAN MIXTARD 30 ge injection 10mL|
-|insulin v1|readv2|f27H.11|*MIXTARD 30 injection 10mL|
-|insulin v1|readv2|f27I.00|HYPURIN PORCINE BIPHASIC ISOPHANE 30/70 injection cartridge 3mL|
-|insulin v1|readv2|f27J.00|HUMAN MIXTARD 10 PENFILL cartridges 1.5mL|
-|insulin v1|readv2|f27K.00|HUMAN MIXTARD 20 PENFILL cartridges 1.5mL|
-|insulin v1|readv2|f27L.00|HUMAN MIXTARD 30 PENFILL cartridges 1.5mL|
-|insulin v1|readv2|f27M.00|HUMAN MIXTARD 40 PENFILL cartridges 1.5mL|
-|insulin v1|readv2|f27N.00|HUMAN MIXTARD 50 PENFILL cartridges 1.5mL|
-|insulin v1|readv2|f27O.00|MIXTARD 30 INNOLET 100units/mL prefilled syringe 3mL|
-|insulin v1|readv2|f27P.00|HUMAN MIXTARD 10 prefilled pen|
-|insulin v1|readv2|f27P.11|MIXTARD 10 NOVOLET prefilled pen|
-|insulin v1|readv2|f27Q.00|HUMAN MIXTARD 20 prefilled pen|
-|insulin v1|readv2|f27Q.11|MIXTARD 20 NOVOLET prefilled pen|
-|insulin v1|readv2|f27R.00|HUMAN MIXTARD 30 prefilled pen|
-|insulin v1|readv2|f27R.11|MIXTARD 30 NOVOLET prefilled pen|
-|insulin v1|readv2|f27S.00|HUMAN MIXTARD 40 prefilled pen|
-|insulin v1|readv2|f27S.11|MIXTARD 40 NOVOLET prefilled pen|
-|insulin v1|readv2|f27T.00|HUMAN MIXTARD 50 prefilled pen|
-|insulin v1|readv2|f27T.11|MIXTARD 50 NOVOLET prefilled pen|
-|insulin v1|readv2|f27V.00|PORK MIXTARD 30 100units/mL injection 10mL|
-|insulin v1|readv2|f27W.00|*HUMAN MIXTARD 50 vials 10mL|
-|insulin v1|readv2|f27X.00|HYPURIN PORCINE BIPHASIC ISOPHANE 30/70 injection 10mL|
-|insulin v1|readv2|f27X.11|HYPURIN PORCINE 30/70 MIX injection 10mL|
-|insulin v1|readv2|f27Y.00|HYPURIN PORCINE BIPHASIC ISOPHANE 30/70 injection cartridge 1.5mL|
-|insulin v1|readv2|f27Y.11|HYPURIN PORCINE 30/70 MIX injection cartridge 1.5mL|
-|insulin v1|readv2|f27Z.00|INSUMAN COMB 25 100iu/mL injection vials 5mL|
-|insulin v1|readv2|f27a.00|HUMULIN M1 10/90 cartridges 1.5mL|
-|insulin v1|readv2|f27b.00|*HUMULIN M2 20/80 vials 10mL|
-|insulin v1|readv2|f27c.00|HUMULIN M2 20/80 cartridges 1.5mL|
-|insulin v1|readv2|f27d.00|HUMULIN M3 30/70 vials 10mL|
-|insulin v1|readv2|f27e.00|HUMULIN M3 30/70 cartridges 1.5mL|
-|insulin v1|readv2|f27f.00|*HUMULIN M4 40/60 vials 10mL|
-|insulin v1|readv2|f27g.00|HUMULIN M4 40/60 cartridges 1.5mL|
-|insulin v1|readv2|f27h.00|*INITARD 50/50 injection 10mL|
-|insulin v1|readv2|f27i.00|HUMAN ACTRAPHANE 30/70 injection 10mL|
-|insulin v1|readv2|f27i.11|HUMAN MIXTARD 30 ge 100units/mL injection 10mL|
-|insulin v1|readv2|f27j.00|HUMAN MIXTARD 30/70 injection 10mL|
-|insulin v1|readv2|f27k.00|HUMAN INITARD 50/50 injection 10mL|
-|insulin v1|readv2|f27l.00|*PENMIX 10/90 cartridges 1.5mL|
-|insulin v1|readv2|f27l.11|*HUM MIXTARD 10 Penfill 1.5mL|
-|insulin v1|readv2|f27m.00|*PENMIX 20/80 cartridges 1.5mL|
-|insulin v1|readv2|f27m.11|*HUM MIXTARD 20 Penfill 1.5mL|
-|insulin v1|readv2|f27n.00|*PENMIX 40/60 cartridges 1.5mL|
-|insulin v1|readv2|f27n.11|*HUM MIXTARD 40 Penfill 1.5mL|
-|insulin v1|readv2|f27o.00|*PENMIX 50/50 cartridges 1.5mL|
-|insulin v1|readv2|f27o.11|*HUM MIXTARD 50 Penfill 1.5mL|
-|insulin v1|readv2|f27p.00|PENMIX 30/70 preloaded injection pen|
-|insulin v1|readv2|f27p.11|HUMAN MIXTARD 30 preloaded injection pen|
-|insulin v1|readv2|f27q.00|PENMIX 10/90 preloaded injection pen|
-|insulin v1|readv2|f27q.11|HUMAN MIXTARD 10 preloaded injection pen|
-|insulin v1|readv2|f27r.00|PENMIX 20/80 preloaded injection pen|
-|insulin v1|readv2|f27r.11|HUMAN MIXTARD 20 preloaded injection pen|
-|insulin v1|readv2|f27s.00|PENMIX 40/60 preloaded injection pen|
-|insulin v1|readv2|f27s.11|HUMAN MIXTARD 40 preloaded injection pen|
-|insulin v1|readv2|f27t.00|PENMIX 50/50 preloaded injection pen|
-|insulin v1|readv2|f27t.11|HUMAN MIXTARD 50 preloaded injection pen|
-|insulin v1|readv2|f27u.00|*HUMULIN M5 50/50 vials 10mL|
-|insulin v1|readv2|f27v.00|HUMULIN M5 50/50 cartridges 1.5mL|
-|insulin v1|readv2|f27w.00|HUMULIN M1 10/90 cartridges 3mL|
-|insulin v1|readv2|f27x.00|HUMULIN M2 20/80 cartridges 3mL|
-|insulin v1|readv2|f27y.00|INSUMAN COMB 25 100iu/mL injection cartridge 3mL|
-|insulin v1|readv2|f27z.00|HUMULIN M3 30/70 cartridges 3mL|
-|insulin v1|readv2|f28..00|BIPHASIC ISOPHANE INSULIN 2|
-|insulin v1|readv2|f281.00|MIXTARD 10 (HUMAN) PENFILL cartridges 3mL|
-|insulin v1|readv2|f281.11|MIXTARD 10 PENFILL cartridges 3mL|
-|insulin v1|readv2|f282.00|MIXTARD 20 (HUMAN) PENFILL cartridges 3mL|
-|insulin v1|readv2|f282.11|MIXTARD 20 PENFILL cartridges 3mL|
-|insulin v1|readv2|f283.00|MIXTARD 30 (HUMAN) PENFILL cartridges 3mL|
-|insulin v1|readv2|f283.11|MIXTARD 30 PENFILL cartridges 3mL|
-|insulin v1|readv2|f284.00|MIXTARD 40 (HUMAN) PENFILL cartridges 3mL|
-|insulin v1|readv2|f284.11|MIXTARD 40 PENFILL cartridges 3mL|
-|insulin v1|readv2|f285.00|MIXTARD 50 (HUMAN) PENFILL cartridges 3mL|
-|insulin v1|readv2|f285.11|MIXTARD 50 PENFILL cartridges 3mL|
-|insulin v1|readv2|f286.00|INSUMAN COMB 15 100iu/mL injection cartridge 3mL|
-|insulin v1|readv2|f287.00|INSUMAN COMB 50 100iu/mL injection vials 5mL|
-|insulin v1|readv2|f288.00|INSUMAN COMB 15 OPTISET 100iu/mL prefilled pen 3mL|
-|insulin v1|readv2|f289.00|INSUMAN COMB 25 OPTISET 100iu/mL prefilled pen 3mL|
-|insulin v1|readv2|f28A.00|INSUMAN COMB 50 OPTISET 100iu/mL prefilled pen 3mL|
-|insulin v1|readv2|f28B.00|INSUMAN COMB 15 100iu/mL injection vials 5mL|
-|insulin v1|readv2|f28C.00|INSUMAN COMB 50 100iu/mL injection cartridge 3mL|
-|insulin v1|readv2|f28D.00|HUMULIN M3 100iu/mL prefilled pen 3mL|
-|insulin v1|readv2|f28E.00|HUMULIN M3 KWIKPEN 100iu/mL prefilled pen 3mL|
-|insulin v1|readv2|f28F.00|INSUMAN COMB 25 SOLOSTAR 100iu/mL prefilled pen 3mL|
-|insulin v1|readv2|f29..00|INSULIN GLARGINE|
-|insulin v1|readv2|f291.00|INSULIN GLARGINE 100iu/mL injection cartridges|
-|insulin v1|readv2|f292.00|INSULIN GLARGINE 100iu/mL injection vials|
-|insulin v1|readv2|f293.00|INSULIN GLARGINE 100iu/mL prefilled pen|
-|insulin v1|readv2|f294.00|LANTUS 100iu/mL injection cartridges 3mL|
-|insulin v1|readv2|f295.00|LANTUS 100iu/mL injection vials 10mL|
-|insulin v1|readv2|f296.00|LANTUS 100iu/mL OptiSet prefilled pen 3mL|
-|insulin v1|readv2|f297.00|LANTUS 100iu/mL OptiClik cartridges 3mL|
-|insulin v1|readv2|f298.00|LANTUS 100iu/mL SoloStar prefilled pen 3mL|
-|insulin v1|readv2|f299.00|TOUJEO 300iu/mL SoloStar prefilled pen 1.5mL|
-|insulin v1|readv2|f29A.00|INSULIN GLARGINE 300iu/mL prefilled pen|
-|insulin v1|readv2|f29B.00|ABASAGLAR 100iu/mL solution for injection cartridges 3mL|
-|insulin v1|readv2|f29C.00|ABASAGLAR KWIKPEN 100iu/mL soln for inj prefilled pen 3mL|
-|insulin v1|readv2|f2A..00|INSULIN DETEMIR|
-|insulin v1|readv2|f2A1.00|LEVEMIR PENFILL 100iu/mL injection cartridges 3mL|
-|insulin v1|readv2|f2A2.00|LEVEMIR FLEXPEN 100iu/mL prefilled pen 3mL|
-|insulin v1|readv2|f2A3.00|LEVEMIR INNOLET 100iu/mL prefilled syringe 3mL|
-|insulin v1|readv2|f2Ax.00|INSULIN DETEMIR 100iu/mL prefilled syringe|
-|insulin v1|readv2|f2Ay.00|INSULIN DETEMIR 100iu/mL prefilled pen|
-|insulin v1|readv2|f2Az.00|INSULIN DETEMIR 100iu/mL injection cartridges|
-|insulin v1|readv2|f2B..00|INSULIN DEGLUDEC|
-|insulin v1|readv2|f2B1.00|TRESIBA FLEXTOUCH 100iu/mL prefilled pen 3mL|
-|insulin v1|readv2|f2B2.00|INSULIN DEGLUDEC 100iu/mL prefilled pen|
-|insulin v1|readv2|f2B3.00|TRESIBA FLEXTOUCH 200iu/mL prefilled pen 3mL|
-|insulin v1|readv2|f2B4.00|INSULIN DEGLUDEC 200iu/mL prefilled pen|
-|insulin v1|readv2|f2B5.00|TRESIBA PENFILL 100iu/mL injection cartridges|
-|insulin v1|readv2|f2B6.00|INSULIN DEGLUDEC 100iu/mL injection cartridges|
-|insulin v1|readv2|f2C..00|INSULIN DEGLUDEC + LIRAGLUTIDE|
-|insulin v1|readv2|f2C1.00|XULTOPHY 100iu/mL/3.6mg/mL soln for inj prefilled pen 3mL|
-|insulin v1|readv2|f2C2.00|INSULIN DEGLUDEC+LIRAGLUTIDE 100iu/mL/3.6mg/mL soln inj pen|
-|insulin v1|readv2|fw...00|SHORT WITH INTERMEDIATE-ACTING INSULINS|
-|insulin v1|readv2|fw1..00|BIPHASIC ISOPHANE INSULIN LISPRO|
-|insulin v1|readv2|fw11.00|HUMALOG MIX25 100iu/mL cartridges 3mL|
-|insulin v1|readv2|fw12.00|HUMALOG MIX25 100iu/mL prefilled pen 3mL|
-|insulin v1|readv2|fw13.00|HUMALOG MIX50 100iu/mL prefilled pen 3mL|
-|insulin v1|readv2|fw14.00|HUMALOG MIX50 100iu/mL cartridges 3mL|
-|insulin v1|readv2|fw15.00|HUMALOG MIX25 KWIKPEN 100iu/mL prefilled pen 3mL|
-|insulin v1|readv2|fw16.00|HUMALOG MIX50 KWIKPEN 100iu/mL prefilled pen 3mL|
-|insulin v1|readv2|fw2..00|BIPHASIC INSULIN ASPART|
-|insulin v1|readv2|fw21.00|NOVOMIX 30 PENFILL 100units/mL injection cartridges 3mL|
-|insulin v1|readv2|fw22.00|NOVOMIX 30 FLEXPEN 100units/mL injection prefilled pen 3mL|
-|insulin v1|readv2|p453.00|*EXUBERA delivery system kit|
-|insulin v1|readv2|p454.00|*EXUBERA INSULIN RELEASE UNITS|
-|insulin v1|readv2|p455.00|EXUBERA delivery system chamber|
-|insulin v1|readv2|ph2..00|SYRINGE INSULIN U100|
-|insulin v1|readv2|ph21.00|HYPODERMIC U100 INSULIN 0.5mL syringe x1|
-|insulin v1|readv2|ph22.00|HYPODERMIC U100 INSULIN 1mL syringe x1|
-|insulin v1|readv2|ph23.00|PRE-SET 1mL U100 insulin syringe|
-|insulin v1|readv2|ph24.00|HYPOGUARD 1mL U100 insulin syringe|
-|insulin v1|readv2|ph25.00|CLICKCOUNT 1mL U100 insulin syringe|
-|insulin v1|readv2|ph26.00|ABCARE 1mL U100 pre-set syringe|
-|insulin v1|readv2|ph27.00|ABCARE 0.5mL U100 glass syringe|
-|insulin v1|readv2|ph28.00|*ABCARE 1mL U100 glass syringe|
-|insulin v1|readv2|ph29.00|HYPOGUARD 1mL U100 click/count syringe|
-|insulin v1|readv2|ph2A.00|HYPOGUARD 1mL U100 pre-set syringe|
-|insulin v1|readv2|ph3..00|SYRINGE INSULIN U100 DISPOSABLE+NEEDLE|
-|insulin v1|readv2|ph31.00|INSULIN DISPOSABLE 0.5mL/U100 syringe|
-|insulin v1|readv2|ph32.00|INSULIN DISPOSABLE 1mL/U100 syringe|
-|insulin v1|readv2|ph32.11|INSULIN DISPOSABLE-1ml 1xU100|
-|insulin v1|readv2|ph33.00|INSULIN DISPOSABLE 0.3mL/U100 syringe|
-|insulin v1|readv2|ph34.00|INSULIN U100 0.3mL disposable syringe+12mm(29G) needle|
-|insulin v1|readv2|ph35.00|INSULIN 0.5mL disposable syringe+12mm needle|
-|insulin v1|readv2|ph36.00|INSULIN 1mL disposable syringe+12mm needle|
-|insulin v1|readv2|ph39.00|MONOJECT U100 0.5mL disposable syringe+12mm(27G) needle|
-|insulin v1|readv2|ph3A.00|MONOJECT U100 1mL disposable syringe+12mm(27G) needle|
-|insulin v1|readv2|ph3B.00|BD U100 MICRO-FINE+ 0.3mL disposable syringe+needle|
-|insulin v1|readv2|ph3C.00|BD MICRO-FINE+ U100 0.5mL disposable syringe+12mm(29G) needle|
-|insulin v1|readv2|ph3D.00|BD MICRO-FINE+ U100 1mL disposable syringe+12mm(29G) needle|
-|insulin v1|readv2|ph3E.00|OMNIKAN U100 0.5mL disposable syringe+12mm(29G) needle|
-|insulin v1|readv2|ph3F.00|OMNIKAN U100 1mL disposable syringe+12mm(29G) needle|
-|insulin v1|readv2|ph3G.00|MYJECTOR 0.5mL U100 disposable syringe+needle|
-|insulin v1|readv2|ph3H.00|MYJECTOR 1mL U100 disposable syringe+needle|
-|insulin v1|readv2|ph3I.00|OMNIFIX SOLO 1mL U100 disposable syringe|
-|insulin v1|readv2|ph3J.00|INSULIN U100 0.3mL disposable syringe+8mm(30G) needle|
-|insulin v1|readv2|ph3K.00|INSULIN U100 0.5mL disposable syringe+8mm(30G) needle|
-|insulin v1|readv2|ph3L.00|BD MICRO-FINE+ U100 0.3mL disposable syringe+8mm(30G) needle|
-|insulin v1|readv2|ph3M.00|BD MICRO-FINE+ U100 0.5mL disposable syringe+8mm(30G) needle|
-|insulin v1|readv2|ph3N.00|INSULIN U100 0.5mL disposable syringe+12mm(27G) needle|
-|insulin v1|readv2|ph3P.00|INSULIN U100 0.5mL disposable syringe+12mm(29G) needle|
-|insulin v1|readv2|ph3Q.00|INSULIN U100 0.5mL disposable syringe+12mm(30G) needle|
-|insulin v1|readv2|ph3R.00|MYJECTOR U100 0.5mL disposable syringe+12mm(27G) needle|
-|insulin v1|readv2|ph3S.00|MYJECTOR U100 0.5mL disposable syringe+12mm(29G) needle|
-|insulin v1|readv2|ph3T.00|INSULIN U100 1mL disposable syringe+12mm(27G) needle|
-|insulin v1|readv2|ph3U.00|INSULIN U100 1mL disposable syringe+12mm(29G) needle|
-|insulin v1|readv2|ph3V.00|INSULIN U100 1mL disposable syringe+12mm(30G) needle|
-|insulin v1|readv2|ph3W.00|MYJECTOR U100 1mL disposable syringe+12mm(27G) needle|
-|insulin v1|readv2|ph3X.00|MYJECTOR U100 1mL disposable syringe+12mm(29G) needle|
-|insulin v1|readv2|ph3Y.00|UNIFINE U100 0.3mL disposable syringe+12mm(29G) needle|
-|insulin v1|readv2|ph3Z.00|UNIFINE U100 0.5mL disposable syringe+12mm(29G) needle|
-|insulin v1|readv2|ph3a.00|UNIFINE U100 1mL disposable syringe+12mm(29G) needle|
-|insulin v1|readv2|ph3b.00|BD MICRO-FINE PLUS U100 1mL disposable syringe+8mm(30G) needle|
-|insulin v1|readv2|ph3c.00|INSULIN U100 1mL disposable syringe+8mm(30G) needle|
-|insulin v1|readv2|ph3d.00|OMNICAN 50 U100 0.5mL disposable syringe+8mm(30G) needle|
-|insulin v1|readv2|ph3e.00|OMNICAN 50 U100 0.5mL disposable syringe+12mm(30G) needle|
-|insulin v1|readv2|ph3f.00|OMNICAN 100 U100 1mL disposable syringe+8mm(30G) needle|
-|insulin v1|readv2|ph3g.00|OMNICAN 100 U100 1mL disposable syringe+12mm(30G) needle|
-|insulin v1|readv2|phB..00|INSULIN SYRINGE+NEEDLE|
-|insulin v1|readv2|phB1.00|MAGELLAN 0.3mL disposable safety syringe+8mm(30G) needle|
-|insulin v1|readv2|phB2.00|MAGELLAN 0.5mL disposable safety syringe+8mm(30G) needle|
-|insulin v1|readv2|phB3.00|MAGELLAN 1mL disposable safety syringe+8mm(30G) needle|
-|insulin v1|readv2|phB4.00|MAGELLAN 0.3mL disposable safety syringe+13mm(29G) needle|
-|insulin v1|readv2|phB5.00|MAGELLAN 0.5mL disposable safety syringe+13mm(29G) needle|
-|insulin v1|readv2|phB6.00|MAGELLAN 1mL disposable safety syringe+13mm(29G) needle|
-|insulin v1|readv2|pm16.00|*NOVOPEN 3 Classic device|
-|insulin v1|readv2|pm17.00|*NOVOPEN 3 Fun device|
-|insulin v1|readv2|pm18.00|*NOVOPEN 1.5 Classic device|
-|insulin v1|readv2|pm19.00|*NOVOPEN 1.5 Fun device|
-|insulin v1|readv2|pm1A.00|*NOVOPEN 3 Demi device|
-|insulin v1|readv2|pm1B.00|AUTOPEN 3mL one unit device|
-|insulin v1|readv2|pm1B.11|AUTOPEN CLASSIC 3mL one unit device|
-|insulin v1|readv2|pm1C.00|*AUTOPEN 1.5mL one unit device|
-|insulin v1|readv2|pm1D.00|*AUTOPEN 1.5mL two unit device|
-|insulin v1|readv2|pm1E.00|AUTOPEN 3mL two unit device|
-|insulin v1|readv2|pm1E.11|AUTOPEN CLASSIC 3mL two unit device|
-|insulin v1|readv2|pm1I.00|NOVOPEN|
-|insulin v1|readv2|pm1L.00|*NOVOPEN junior yellow device|
-|insulin v1|readv2|pm1M.00|*NOVOPEN junior green device|
-|insulin v1|readv2|pm1N.00|AUTOPEN JUNIOR 3mL one unit device|
-|insulin v1|readv2|pm1P.00|AUTOPEN JUNIOR 3mL two unit device|
-|insulin v1|readv2|pm1S.00|MHI-500 STARTER KIT MH79002-01 needle-free insulin delivery system|
-|insulin v1|readv2|pm1T.00|MHI-500 3-month CONSUMABLE KIT (size 6) MH79002-07 needle-free insulin delivery system|
-|insulin v1|readv2|pm1U.00|MHI-500 3-month CONSUMABLE KIT (size 7) MH79002-08 needle-free insulin delivery system|
-|insulin v1|readv2|pm1Y.00|AUTOPEN 24 3mL one unit device|
-|insulin v1|readv2|pm1Z.00|AUTOPEN 24 3mL two unit device|
-|insulin v1|readv2|pm1a.00|AUTOPEN SPECIAL EDITION 3mL one unit device|
-|insulin v1|readv2|pm1b.00|AUTOPEN SPECIAL EDITION 3mL two unit device|
-|insulin v1|readv2|pm1h.00|MHI-500 STARTER KIT MH79002-01A needle-free insulin delivery system with 3mL adaptors|
-|insulin v1|readv2|pm1j.00|MHI-500 3-month CONSUMABLE KIT (size 6) MH79002-12 needle-free insulin delivery system with 3mL vial adaptors|
-|insulin v1|readv2|pm1k.00|MHI-500 3-month CONSUMABLE KIT (size 7) MH79002-13 needle-free insulin delivery system with 3mL vial adaptors|
-|insulin v1|readv2|pm1o.00|SQ-PEN STARTER PACK SQ001 needle-free insulin delivery system|
-|insulin v1|readv2|pm1r.00|SQ-PEN 3mL 3-month CONSUMABLE PACK SQ004 needle-free insulin delivery system|
-|insulin v1|readv2|pm1s.00|SQ-PEN 10mL 3-month CONSUMABLE PACK SQ006 needle-free insulin delivery system|
-|insulin v1|readv2|pm1w.00|SQ-X STARTER PACK SQ-007 needle free insulin delivery system|
-|insulin v1|readv2|pm1y.00|*NOVOPEN 4 blue device|
-|insulin v1|readv2|pm1z.00|*NOVOPEN 4 silver device|
-|insulin v1|readv2|pm2A.00|NOVOPEN ECHO 3mL blue device|
-|insulin v1|readv2|pm2B.00|NOVOPEN ECHO 3mL red device|
-|insulin v1|readv2|pm2I.00|NOVOPEN 5 blue injection device|
-|insulin v1|readv2|pm2J.00|NOVOPEN 5 silver injection device|
-|sglt2-inhibitors v1|ctv3|ftr..|METFORMIN + EMPAGLIFLOZIN|
-|sglt2-inhibitors v1|ctv3|ftr7.|SYNJARDY 12.5mg/1000mg tablets|
-|sglt2-inhibitors v1|ctv3|ftr5.|SYNJARDY 12.5mg/850mg tablets|
-|sglt2-inhibitors v1|ctv3|ftr3.|SYNJARDY 5mg/1000mg tablets|
-|sglt2-inhibitors v1|ctv3|ftr1.|SYNJARDY 5mg/850mg tablets|
-|sglt2-inhibitors v1|ctv3|ftr8.|EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 12.5mg/1000mg tablets|
-|sglt2-inhibitors v1|ctv3|ftr6.|EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 12.5mg/850mg tablets|
-|sglt2-inhibitors v1|ctv3|ftr4.|EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/1000mg tablets|
-|sglt2-inhibitors v1|ctv3|ftr2.|EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/850mg tablets|
-|sglt2-inhibitors v1|ctv3|fto..|EMPAGLIFLOZIN|
-|sglt2-inhibitors v1|ctv3|fto3.|JARDIANCE 25mg tablets|
-|sglt2-inhibitors v1|ctv3|fto1.|JARDIANCE 10mg tablets|
-|sglt2-inhibitors v1|ctv3|fto4.|EMPAGLIFLOZIN 25mg tablets|
-|sglt2-inhibitors v1|ctv3|fto2.|EMPAGLIFLOZIN 10mg tablets|
-|sglt2-inhibitors v1|ctv3|ftm..|METFORMIN + DAPAGLIFLOZIN|
-|sglt2-inhibitors v1|ctv3|ftm3.|XIGDUO 5mg/1000mg tablets|
-|sglt2-inhibitors v1|ctv3|ftm1.|XIGDUO 5mg/850mg tablets|
-|sglt2-inhibitors v1|ctv3|ftm4.|DAPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/1000mg tablets|
-|sglt2-inhibitors v1|ctv3|ftm2.|DAPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/850mg tablets|
-|sglt2-inhibitors v1|ctv3|fth..|DAPAGLIFLOZIN|
-|sglt2-inhibitors v1|ctv3|fth2.|FORXIGA 10mg tablets|
-|sglt2-inhibitors v1|ctv3|fth1.|FORXIGA 5mg tablets|
-|sglt2-inhibitors v1|ctv3|fth4.|DAPAGLIFLOZIN 10mg tablets|
-|sglt2-inhibitors v1|ctv3|fth3.|DAPAGLIFLOZIN 5mg tablets|
-|sglt2-inhibitors v1|ctv3|ftp..|METFORMIN + CANAGLIFLOZIN|
-|sglt2-inhibitors v1|ctv3|ftp3.|VOKANAMET 50mg/1000mg tablets|
-|sglt2-inhibitors v1|ctv3|ftp1.|VOKANAMET 50mg/850mg tablets|
-|sglt2-inhibitors v1|ctv3|ftp4.|CANAGLIFLOZIN+METFORMIN HYDROCHLORIDE 50mg/1000mg tablets|
-|sglt2-inhibitors v1|ctv3|ftp2.|CANAGLIFLOZIN+METFORMIN HYDROCHLORIDE 50mg/850mg tablets|
-|sglt2-inhibitors v1|ctv3|ftn..|CANAGLIFLOZIN|
-|sglt2-inhibitors v1|ctv3|ftn3.|INVOKANA 300mg tablets|
-|sglt2-inhibitors v1|ctv3|ftn1.|INVOKANA 100mg tablets|
-|sglt2-inhibitors v1|ctv3|ftn4.|CANAGLIFLOZIN 300mg tablets|
-|sglt2-inhibitors v1|ctv3|ftn2.|CANAGLIFLOZIN 100mg tablets|
-|sglt2-inhibitors v1|emis|DATA88553NEMIS|Dapagliflozin And Metformin  Tablets  5 mg + 850 mg|
-|sglt2-inhibitors v1|emis|CATA88608NEMIS|Canagliflozin  Tablets  100 mg|
-|sglt2-inhibitors v1|emis|EMTA104968NEMIS|Empagliflozin And Metformin  Tablets  12.5 mg + 850 mg|
-|sglt2-inhibitors v1|emis|INTA88612NEMIS|Invokana  Tablets  100 mg|
-|sglt2-inhibitors v1|emis|VOTA96773NEMIS|Vokanamet  Tablets  50 mg + 850 mg|
-|sglt2-inhibitors v1|emis|XITA88556NEMIS|Xigduo  Tablets  5 mg + 850 mg|
-|sglt2-inhibitors v1|emis|CATA96771NEMIS|Canagliflozin And Metformin  Tablets  50 mg + 850 mg|
-|sglt2-inhibitors v1|emis|EMTA91265NEMIS|Empagliflozin  Tablets  10 mg|
-|sglt2-inhibitors v1|emis|INTA88612NEMIS|Invokana  Tablets  100 mg|
-|sglt2-inhibitors v1|emis|CATA96770NEMIS|Canagliflozin And Metformin  Tablets  50 mg + 1000 mg|
-|sglt2-inhibitors v1|emis|SYTA104973NEMIS|Synjardy  Tablets  12.5 mg + 850 mg|
-|sglt2-inhibitors v1|emis|EMTA104968NEMIS|Empagliflozin And Metformin  Tablets  12.5 mg + 850 mg|
-|sglt2-inhibitors v1|emis|CATA88610NEMIS|Canagliflozin  Tablets  300 mg|
-|sglt2-inhibitors v1|emis|DATA88553NEMIS|Dapagliflozin And Metformin  Tablets  5 mg + 850 mg|
-|sglt2-inhibitors v1|emis|JATA91277NEMIS|Jardiance  Tablets  25 mg|
-|sglt2-inhibitors v1|emis|DATA77715NEMIS|Dapagliflozin  Tablets  10 mg|
-|sglt2-inhibitors v1|emis|JATA91276NEMIS|Jardiance  Tablets  10 mg|
-|sglt2-inhibitors v1|emis|VOTA96773NEMIS|Vokanamet  Tablets  50 mg + 850 mg|
-|sglt2-inhibitors v1|emis|VOTA96774NEMIS|Vokanamet  Tablets  50 mg + 1000 mg|
-|sglt2-inhibitors v1|emis|DATA77713NEMIS|Dapagliflozin  Tablets  5 mg|
-|sglt2-inhibitors v1|emis|EMTA91265NEMIS|Empagliflozin  Tablets  10 mg|
-|sglt2-inhibitors v1|emis|EMTA91272NEMIS|Empagliflozin  Tablets  25 mg|
-|sglt2-inhibitors v1|emis|INTA88613NEMIS|Invokana  Tablets  300 mg|
-|sglt2-inhibitors v1|emis|FOTA77718NEMIS|Forxiga  Tablets  10 mg|
-|sglt2-inhibitors v1|emis|JATA91277NEMIS|Jardiance  Tablets  25 mg|
-|sglt2-inhibitors v1|emis|SYTA104971NEMIS|Synjardy  Tablets  5 mg + 850 mg|
-|sglt2-inhibitors v1|emis|SYTA104974NEMIS|Synjardy  Tablets  12.5 mg + 1000 mg|
-|sglt2-inhibitors v1|emis|FOTA77718NEMIS|Forxiga  Tablets  10 mg|
-|sglt2-inhibitors v1|emis|DATA88552NEMIS|Dapagliflozin And Metformin  Tablets  5 mg + 1000 mg|
-|sglt2-inhibitors v1|emis|EMTA104966NEMIS|Empagliflozin And Metformin  Tablets  5 mg + 850 mg|
-|sglt2-inhibitors v1|emis|EMTA104969NEMIS|Empagliflozin And Metformin  Tablets  12.5 mg + 1000 mg|
-|sglt2-inhibitors v1|emis|CATA96771NEMIS|Canagliflozin And Metformin  Tablets  50 mg + 850 mg|
-|sglt2-inhibitors v1|emis|EMTA91272NEMIS|Empagliflozin  Tablets  25 mg|
-|sglt2-inhibitors v1|emis|SYTA104971NEMIS|Synjardy  Tablets  5 mg + 850 mg|
-|sglt2-inhibitors v1|emis|VOTA96774NEMIS|Vokanamet  Tablets  50 mg + 1000 mg|
-|sglt2-inhibitors v1|emis|CATA88608NEMIS|Canagliflozin  Tablets  100 mg|
-|sglt2-inhibitors v1|emis|FOTA77717NEMIS|Forxiga  Tablets  5 mg|
-|sglt2-inhibitors v1|emis|EMTA104966NEMIS|Empagliflozin And Metformin  Tablets  5 mg + 850 mg|
-|sglt2-inhibitors v1|emis|EMTA104969NEMIS|Empagliflozin And Metformin  Tablets  12.5 mg + 1000 mg|
-|sglt2-inhibitors v1|emis|SYTA104974NEMIS|Synjardy  Tablets  12.5 mg + 1000 mg|
-|sglt2-inhibitors v1|emis|XITA88555NEMIS|Xigduo  Tablets  5 mg + 1000 mg|
-|sglt2-inhibitors v1|emis|CATA88610NEMIS|Canagliflozin  Tablets  300 mg|
-|sglt2-inhibitors v1|emis|EMTA104967NEMIS|Empagliflozin And Metformin  Tablets  5 mg + 1000 mg|
-|sglt2-inhibitors v1|emis|INTA88613NEMIS|Invokana  Tablets  300 mg|
-|sglt2-inhibitors v1|emis|SYTA104972NEMIS|Synjardy  Tablets  5 mg + 1000 mg|
-|sglt2-inhibitors v1|emis|XITA88556NEMIS|Xigduo  Tablets  5 mg + 850 mg|
-|sglt2-inhibitors v1|emis|DATA88552NEMIS|Dapagliflozin And Metformin  Tablets  5 mg + 1000 mg|
-|sglt2-inhibitors v1|emis|FOTA77717NEMIS|Forxiga  Tablets  5 mg|
-|sglt2-inhibitors v1|emis|JATA91276NEMIS|Jardiance  Tablets  10 mg|
-|sglt2-inhibitors v1|emis|SYTA104972NEMIS|Synjardy  Tablets  5 mg + 1000 mg|
-|sglt2-inhibitors v1|emis|CATA96770NEMIS|Canagliflozin And Metformin  Tablets  50 mg + 1000 mg|
-|sglt2-inhibitors v1|emis|XITA88555NEMIS|Xigduo  Tablets  5 mg + 1000 mg|
-|sglt2-inhibitors v1|emis|DATA77715NEMIS|Dapagliflozin  Tablets  10 mg|
-|sglt2-inhibitors v1|emis|DATA77713NEMIS|Dapagliflozin  Tablets  5 mg|
-|sglt2-inhibitors v1|emis|SYTA104973NEMIS|Synjardy  Tablets  12.5 mg + 850 mg|
-|sglt2-inhibitors v1|emis|EMTA104967NEMIS|Empagliflozin And Metformin  Tablets  5 mg + 1000 mg|
-|sglt2-inhibitors v1|readv2|ftr..00|METFORMIN + EMPAGLIFLOZIN|
-|sglt2-inhibitors v1|readv2|ftr8.00|EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 12.5mg/1000mg tablets|
-|sglt2-inhibitors v1|readv2|ftr6.00|EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 12.5mg/850mg tablets|
-|sglt2-inhibitors v1|readv2|ftr4.00|EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/1000mg tablets|
-|sglt2-inhibitors v1|readv2|ftr2.00|EMPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/850mg tablets|
-|sglt2-inhibitors v1|readv2|ftr7.00|SYNJARDY 12.5mg/1000mg tablets|
-|sglt2-inhibitors v1|readv2|ftr5.00|SYNJARDY 12.5mg/850mg tablets|
-|sglt2-inhibitors v1|readv2|ftr3.00|SYNJARDY 5mg/1000mg tablets|
-|sglt2-inhibitors v1|readv2|ftr1.00|SYNJARDY 5mg/850mg tablets|
-|sglt2-inhibitors v1|readv2|fto..00|EMPAGLIFLOZIN|
-|sglt2-inhibitors v1|readv2|fto4.00|EMPAGLIFLOZIN 25mg tablets|
-|sglt2-inhibitors v1|readv2|fto2.00|EMPAGLIFLOZIN 10mg tablets|
-|sglt2-inhibitors v1|readv2|fto3.00|JARDIANCE 25mg tablets|
-|sglt2-inhibitors v1|readv2|fto1.00|JARDIANCE 10mg tablets|
-|sglt2-inhibitors v1|readv2|ftm..00|METFORMIN + DAPAGLIFLOZIN|
-|sglt2-inhibitors v1|readv2|ftm4.00|DAPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/1000mg tablets|
-|sglt2-inhibitors v1|readv2|ftm2.00|DAPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/850mg tablets|
-|sglt2-inhibitors v1|readv2|ftm3.00|XIGDUO 5mg/1000mg tablets|
-|sglt2-inhibitors v1|readv2|ftm1.00|XIGDUO 5mg/850mg tablets|
-|sglt2-inhibitors v1|readv2|fth..00|DAPAGLIFLOZIN|
-|sglt2-inhibitors v1|readv2|fth4.00|DAPAGLIFLOZIN 10mg tablets|
-|sglt2-inhibitors v1|readv2|fth3.00|DAPAGLIFLOZIN 5mg tablets|
-|sglt2-inhibitors v1|readv2|fth2.00|FORXIGA 10mg tablets|
-|sglt2-inhibitors v1|readv2|fth1.00|FORXIGA 5mg tablets|
-|sglt2-inhibitors v1|readv2|ftp..00|METFORMIN + CANAGLIFLOZIN|
-|sglt2-inhibitors v1|readv2|ftp4.00|CANAGLIFLOZIN+METFORMIN HYDROCHLORIDE 50mg/1000mg tablets|
-|sglt2-inhibitors v1|readv2|ftp2.00|CANAGLIFLOZIN+METFORMIN HYDROCHLORIDE 50mg/850mg tablets|
-|sglt2-inhibitors v1|readv2|ftp3.00|VOKANAMET 50mg/1000mg tablets|
-|sglt2-inhibitors v1|readv2|ftp1.00|VOKANAMET 50mg/850mg tablets|
-|sglt2-inhibitors v1|readv2|ftn..00|CANAGLIFLOZIN|
-|sglt2-inhibitors v1|readv2|ftn4.00|CANAGLIFLOZIN 300mg tablets|
-|sglt2-inhibitors v1|readv2|ftn2.00|CANAGLIFLOZIN 100mg tablets|
-|sglt2-inhibitors v1|readv2|ftn3.00|INVOKANA 300mg tablets|
-|sglt2-inhibitors v1|readv2|ftn1.00|INVOKANA 100mg tablets|
-|sulphonylureas v1|ctv3|f31..|Acetohexamide|
-|sulphonylureas v1|ctv3|f311.|Dimelor 500mg tablet|
-|sulphonylureas v1|ctv3|f31z.|Acetohexamide 500mg tablet|
-|sulphonylureas v1|ctv3|f32..|Chlorpropamide|
-|sulphonylureas v1|ctv3|f321.|Chlorpropamide 100mg tablet|
-|sulphonylureas v1|ctv3|f322.|Chlorpropamide 250mg tablet|
-|sulphonylureas v1|ctv3|f323.|Diabinese 100mg tablet|
-|sulphonylureas v1|ctv3|f324.|Diabinese 250mg tablet|
-|sulphonylureas v1|ctv3|f325.|Glymese 250mg tablet|
-|sulphonylureas v1|ctv3|f331.|Glibenclamide 2.5mg tablet|
-|sulphonylureas v1|ctv3|f332.|Glibenclamide 5mg tablet|
-|sulphonylureas v1|ctv3|f333.|Daonil 5mg tablet|
-|sulphonylureas v1|ctv3|f334.|Semi-Daonil 2.5mg tablet|
-|sulphonylureas v1|ctv3|f335.|Euglucon 2.5mg tablet|
-|sulphonylureas v1|ctv3|f336.|Euglucon 5mg tablet|
-|sulphonylureas v1|ctv3|f337.|Libanil 2.5mg tablet|
-|sulphonylureas v1|ctv3|f338.|Libanil 5mg tablet|
-|sulphonylureas v1|ctv3|f339.|Malix 2.5mg tablet|
-|sulphonylureas v1|ctv3|f33a.|Malix 5mg tablet|
-|sulphonylureas v1|ctv3|f33b.|Daonil CP 5mg tablets|
-|sulphonylureas v1|ctv3|f33c.|Semi-daonil CP 2.5mg tablets|
-|sulphonylureas v1|ctv3|f33d.|Diabetamide 2.5mg tablet|
-|sulphonylureas v1|ctv3|f33e.|Diabetamide 5mg tablet|
-|sulphonylureas v1|ctv3|f33f.|Calabren 2.5mg tablet|
-|sulphonylureas v1|ctv3|f33g.|Calabren 5mg tablet|
-|sulphonylureas v1|ctv3|f34..|Glibornuride|
-|sulphonylureas v1|ctv3|f341.|Glutril 25mg tablet|
-|sulphonylureas v1|ctv3|f34z.|Glibornuride 25mg tablet|
-|sulphonylureas v1|ctv3|f351.|Diamicron 80mg tablet|
-|sulphonylureas v1|ctv3|f352.|Diaglyk 80mg tablet|
-|sulphonylureas v1|ctv3|f353.|Vivazide 80mg tablet|
-|sulphonylureas v1|ctv3|f354.|Diamicron MR 30mg m/r tablet|
-|sulphonylureas v1|ctv3|f355.|NAZDOL MR 30mg m/r tablets|
-|sulphonylureas v1|ctv3|f356.|EDICIL MR 30mg m/r tablets|
-|sulphonylureas v1|ctv3|f357.|ZICRON 40mg tablets|
-|sulphonylureas v1|ctv3|f358.|VITILE XL 30mg m/r tablets|
-|sulphonylureas v1|ctv3|f359.|LAAGLYDA MR 60mg m/r tablets|
-|sulphonylureas v1|ctv3|f35A.|VAMJU 30mg m/r tablets|
-|sulphonylureas v1|ctv3|f35B.|VAMJU 60mg m/r tablets|
-|sulphonylureas v1|ctv3|f35C.|BILXONA 30mg m/r tablets|
-|sulphonylureas v1|ctv3|f35D.|BILXONA 60mg m/r tablets|
-|sulphonylureas v1|ctv3|f35w.|GLICLAZIDE 60mg m/r tablets|
-|sulphonylureas v1|ctv3|f35x.|GLICLAZIDE 40mg tablets|
-|sulphonylureas v1|ctv3|f35y.|Gliclazide 30mg m/r tablet|
-|sulphonylureas v1|ctv3|f35z.|Gliclazide 80mg tablet|
-|sulphonylureas v1|ctv3|f36..|Glipizide|
-|sulphonylureas v1|ctv3|f361.|Glipizide 5mg tablet|
-|sulphonylureas v1|ctv3|f362.|Glibenese 5mg tablet|
-|sulphonylureas v1|ctv3|f363.|Minodiab 2.5mg tablet|
-|sulphonylureas v1|ctv3|f364.|Minodiab 5mg tablet|
-|sulphonylureas v1|ctv3|f36z.|Glipizide 2.5mg tablet|
-|sulphonylureas v1|ctv3|f37..|Gliquidone|
-|sulphonylureas v1|ctv3|f371.|Glurenorm 30mg tablet|
-|sulphonylureas v1|ctv3|f37z.|Gliquidone 30mg tablet|
-|sulphonylureas v1|ctv3|f38..|Glymidine|
-|sulphonylureas v1|ctv3|f381.|Gondafon 500mg tablet|
-|sulphonylureas v1|ctv3|f38z.|Glymidine 500mg tablet|
-|sulphonylureas v1|ctv3|f39..|Tolazamide|
-|sulphonylureas v1|ctv3|f391.|Tolanase 100mg tablet|
-|sulphonylureas v1|ctv3|f392.|Tolanase 250mg tablet|
-|sulphonylureas v1|ctv3|f39y.|Tolazamide 100mg tablet|
-|sulphonylureas v1|ctv3|f39z.|Tolazamide 250mg tablet|
-|sulphonylureas v1|ctv3|f3A..|Glimepiride|
-|sulphonylureas v1|ctv3|f3A1.|Glimepiride 2mg tablet|
-|sulphonylureas v1|ctv3|f3A2.|Amaryl 2mg tablet|
-|sulphonylureas v1|ctv3|f3A3.|Glimepiride 1mg tablet|
-|sulphonylureas v1|ctv3|f3A4.|Glimepiride 3mg tablet|
-|sulphonylureas v1|ctv3|f3A5.|Glimepiride 4mg tablet|
-|sulphonylureas v1|ctv3|f3A6.|Amaryl 1mg tablet|
-|sulphonylureas v1|ctv3|f3A7.|Amaryl 3mg tablet|
-|sulphonylureas v1|ctv3|f3A8.|Amaryl 4mg tablet|
-|sulphonylureas v1|ctv3|f3A9.|NIDDARYL 1mg tablets|
-|sulphonylureas v1|ctv3|f3AA.|NIDDARYL 2mg tablets|
-|sulphonylureas v1|ctv3|f3AB.|NIDDARYL 3mg tablets|
-|sulphonylureas v1|ctv3|f3AC.|NIDDARYL 4mg tablets|
-|sulphonylureas v1|ctv3|f3a1.|Tolbutamide 500mg tablet|
-|sulphonylureas v1|ctv3|f3a2.|Glyconon 500mg tablet|
-|sulphonylureas v1|ctv3|f3a3.|Pramidex 500mg tablet|
-|sulphonylureas v1|ctv3|f3a4.|Rastinon 500mg tablet|
-|sulphonylureas v1|ctv3|x02WJ|Calabren|
-|sulphonylureas v1|ctv3|x02ZQ|Diabetamide|
-|sulphonylureas v1|ctv3|x02ZR|Diabinese|
-|sulphonylureas v1|ctv3|x02ZU|Diamicron|
-|sulphonylureas v1|ctv3|x02bu|Euglucon|
-|sulphonylureas v1|ctv3|x02e0|Glibenese|
-|sulphonylureas v1|ctv3|x02e7|Glurenorm|
-|sulphonylureas v1|ctv3|x02e8|Glyconon|
-|sulphonylureas v1|ctv3|x02e9|Glymese|
-|sulphonylureas v1|ctv3|x02jS|Minodiab|
-|sulphonylureas v1|ctv3|x02p1|Rastinon|
-|sulphonylureas v1|ctv3|x02sp|Tolanase|
-|sulphonylureas v1|ctv3|x03dF|Malix|
-|sulphonylureas v1|ctv3|x03pe|Amaryl|
-|sulphonylureas v1|ctv3|x03vw|Semi-Daonil|
-|sulphonylureas v1|ctv3|x04AM|Daonil|
-|sulphonylureas v1|ctv3|x04vf|Diaglyk|
-|sulphonylureas v1|ctv3|x05CI|Vivazide|
-|sulphonylureas v1|ctv3|x05DE|Diamicron MR|
-|sulphonylureas v1|ctv3|x05Jy|Acetohexamide - chemical|
-|sulphonylureas v1|emis|DIM/6644NEMIS|Diamicron 30 mg Mr  M/R tablets  30 mg|
-|sulphonylureas v1|emis|VAM/98855NEMIS|Vamju  M/R tablets  30 mg|
-|sulphonylureas v1|emis|CHTA600|Chlorpropamide  Tablets  100 mg|
-|sulphonylureas v1|emis|CHTA601|Chlorpropamide  Tablets  250 mg|
-|sulphonylureas v1|emis|DIM/6644NEMIS|Diamicron 30 mg Mr  M/R tablets  30 mg|
-|sulphonylureas v1|emis|GLTA31852EMIS|Glimepiride  Tablets  4 mg|
-|sulphonylureas v1|emis|DATA806|Daonil  Tablets  5 mg|
-|sulphonylureas v1|emis|GLTA6910|Gliquidone  Tablets  30 mg|
-|sulphonylureas v1|emis|RATA2434|Rastinon  Tablets  500 mg|
-|sulphonylureas v1|emis|TOTA7095|Tolazamide  Tablets  250 mg|
-|sulphonylureas v1|emis|GLTA1303|Glibenclamide  Tablets  5 mg|
-|sulphonylureas v1|emis|GLTA4960|Gliclazide  Tablets  80 mg|
-|sulphonylureas v1|emis|GLTA6910|Gliquidone  Tablets  30 mg|
-|sulphonylureas v1|emis|ZITA43643NEMIS|Zicron  Tablets  40 mg|
-|sulphonylureas v1|emis|EUTA3551|Euglucon  Tablets  2.5 mg|
-|sulphonylureas v1|emis|GLTA31482EMIS|Glimepiride  Tablets  2 mg|
-|sulphonylureas v1|emis|GLTA31852EMIS|Glimepiride  Tablets  4 mg|
-|sulphonylureas v1|emis|GLTA1304|Glibenese  Tablets  5 mg|
-|sulphonylureas v1|emis|AMTA31844EMIS|Amaryl  Tablets  1 mg|
-|sulphonylureas v1|emis|CHTA600|Chlorpropamide  Tablets  100 mg|
-|sulphonylureas v1|emis|GLM/6638NEMIS|Gliclazide  M/R tablets  30 mg|
-|sulphonylureas v1|emis|TOTA2876|Tolbutamide  Tablets  500 mg|
-|sulphonylureas v1|emis|SETA4308|Semi-Daonil  Tablets  2.5 mg|
-|sulphonylureas v1|emis|AMTA31846EMIS|Amaryl  Tablets  4 mg|
-|sulphonylureas v1|emis|DITA34375EMIS|Diaglyk  Tablets  80 mg|
-|sulphonylureas v1|emis|MITA3949|Minodiab  Tablets  5 mg|
-|sulphonylureas v1|emis|NAM/34993NEMIS|Nazdol Mr  M/R tablets  30 mg|
-|sulphonylureas v1|emis|DATA806|Daonil  Tablets  5 mg|
-|sulphonylureas v1|emis|EUTA3552|Euglucon  Tablets  5 mg|
-|sulphonylureas v1|emis|LAM/78911NEMIS|Laaglyda Mr  M/R tablets  60 mg|
-|sulphonylureas v1|emis|GLM/6638NEMIS|Gliclazide  M/R tablets  30 mg|
-|sulphonylureas v1|emis|AMTA31845EMIS|Amaryl  Tablets  3 mg|
-|sulphonylureas v1|emis|GLM/78909NEMIS|Gliclazide  M/R tablets  60 mg|
-|sulphonylureas v1|emis|DITA3417|Diamicron  Tablets  80 mg|
-|sulphonylureas v1|emis|GLM/78909NEMIS|Gliclazide  M/R tablets  60 mg|
-|sulphonylureas v1|emis|GLTA4961|Glipizide  Tablets  2.5 mg|
-|sulphonylureas v1|emis|TOTA2876|Tolbutamide  Tablets  500 mg|
-|sulphonylureas v1|emis|VAM/98856NEMIS|Vamju  M/R tablets  60 mg|
-|sulphonylureas v1|emis|DITA3417|Diamicron  Tablets  80 mg|
-|sulphonylureas v1|emis|GLTA1305|Glipizide  Tablets  5 mg|
-|sulphonylureas v1|emis|GLTA43641NEMIS|Gliclazide  Tablets  40 mg|
-|sulphonylureas v1|emis|GLTA4960|Gliclazide  Tablets  80 mg|
-|sulphonylureas v1|emis|AMTA31844EMIS|Amaryl  Tablets  1 mg|
-|sulphonylureas v1|emis|AMTA31845EMIS|Amaryl  Tablets  3 mg|
-|sulphonylureas v1|emis|AMTA31846EMIS|Amaryl  Tablets  4 mg|
-|sulphonylureas v1|emis|GLTA1305|Glipizide  Tablets  5 mg|
-|sulphonylureas v1|emis|DITA857|Diabinese  Tablets  250 mg|
-|sulphonylureas v1|emis|GLTA1302|Glibenclamide  Tablets  2.5 mg|
-|sulphonylureas v1|emis|GLTA1304|Glibenese  Tablets  5 mg|
-|sulphonylureas v1|emis|GLTA31850EMIS|Glimepiride  Tablets  1 mg|
-|sulphonylureas v1|emis|MITA3948|Minodiab  Tablets  2.5 mg|
-|sulphonylureas v1|emis|EUTA3551|Euglucon  Tablets  2.5 mg|
-|sulphonylureas v1|emis|GLTA1303|Glibenclamide  Tablets  5 mg|
-|sulphonylureas v1|emis|MATA3874|Malix  Tablets  5 mg|
-|sulphonylureas v1|emis|AMTA31480EMIS|Amaryl  Tablets  2 mg|
-|sulphonylureas v1|emis|EUTA3552|Euglucon  Tablets  5 mg|
-|sulphonylureas v1|emis|MITA3948|Minodiab  Tablets  2.5 mg|
-|sulphonylureas v1|emis|CHTA601|Chlorpropamide  Tablets  250 mg|
-|sulphonylureas v1|emis|GLTA4961|Glipizide  Tablets  2.5 mg|
-|sulphonylureas v1|emis|GLTA4972|Glymidine  Tablets  500 mg|
-|sulphonylureas v1|emis|SETA4308|Semi-Daonil  Tablets  2.5 mg|
-|sulphonylureas v1|emis|ZITA43643NEMIS|Zicron  Tablets  40 mg|
-|sulphonylureas v1|emis|GLTA1302|Glibenclamide  Tablets  2.5 mg|
-|sulphonylureas v1|emis|GLTA31482EMIS|Glimepiride  Tablets  2 mg|
-|sulphonylureas v1|emis|GLTA31850EMIS|Glimepiride  Tablets  1 mg|
-|sulphonylureas v1|emis|GLTA31851EMIS|Glimepiride  Tablets  3 mg|
-|sulphonylureas v1|emis|LAM/78911NEMIS|Laaglyda Mr  M/R tablets  60 mg|
-|sulphonylureas v1|emis|MITA3949|Minodiab  Tablets  5 mg|
-|sulphonylureas v1|emis|AMTA31480EMIS|Amaryl  Tablets  2 mg|
-|sulphonylureas v1|emis|DITA856|Diabinese  Tablets  100 mg|
-|sulphonylureas v1|emis|GLTA31851EMIS|Glimepiride  Tablets  3 mg|
-|sulphonylureas v1|emis|TOTA4424|Tolanase  Tablets  100 mg|
-|sulphonylureas v1|emis|VAM/98856NEMIS|Vamju  M/R tablets  60 mg|
-|sulphonylureas v1|emis|DITA34375EMIS|Diaglyk  Tablets  80 mg|
-|sulphonylureas v1|emis|GLTA43641NEMIS|Gliclazide  Tablets  40 mg|
-|sulphonylureas v1|emis|NAM/34993NEMIS|Nazdol Mr  M/R tablets  30 mg|
-|sulphonylureas v1|emis|VAM/98855NEMIS|Vamju  M/R tablets  30 mg|
-|sulphonylureas v1|readv2|f3...00|SULFONYLUREAS|
-|sulphonylureas v1|readv2|f3...11|SULPHONYLUREAS|
-|sulphonylureas v1|readv2|f31..00|*ACETOHEXAMIDE|
-|sulphonylureas v1|readv2|f311.00|*DIMELOR 500mg tablets|
-|sulphonylureas v1|readv2|f31z.00|*ACETOHEXAMIDE 500mg tablets|
-|sulphonylureas v1|readv2|f32..00|CHLORPROPAMIDE|
-|sulphonylureas v1|readv2|f321.00|CHLORPROPAMIDE 100mg tablets|
-|sulphonylureas v1|readv2|f322.00|CHLORPROPAMIDE 250mg tablets|
-|sulphonylureas v1|readv2|f323.00|*DIABINESE 100mg tablets|
-|sulphonylureas v1|readv2|f324.00|*DIABINESE 250mg tablets|
-|sulphonylureas v1|readv2|f325.00|GLYMESE 250mg tablets|
-|sulphonylureas v1|readv2|f33..00|GLIBENCLAMIDE|
-|sulphonylureas v1|readv2|f331.00|GLIBENCLAMIDE 2.5mg tablets|
-|sulphonylureas v1|readv2|f332.00|GLIBENCLAMIDE 5mg tablets|
-|sulphonylureas v1|readv2|f333.00|*DAONIL 5mg tablets|
-|sulphonylureas v1|readv2|f334.00|*SEMI-DAONIL 2.5mg tablets|
-|sulphonylureas v1|readv2|f335.00|*EUGLUCON 2.5mg tablets|
-|sulphonylureas v1|readv2|f336.00|*EUGLUCON 5mg tablets|
-|sulphonylureas v1|readv2|f337.00|*LIBANIL 2.5mg tablets|
-|sulphonylureas v1|readv2|f338.00|*LIBANIL 5mg tablets|
-|sulphonylureas v1|readv2|f339.00|*MALIX 2.5mg tablets|
-|sulphonylureas v1|readv2|f33a.00|*MALIX 5mg tablets|
-|sulphonylureas v1|readv2|f33b.00|*DAONIL CP 5mg tablets|
-|sulphonylureas v1|readv2|f33c.00|*SEMI-DAONIL CP 2.5mg tablets|
-|sulphonylureas v1|readv2|f33d.00|*DIABETAMIDE 2.5mg tablets|
-|sulphonylureas v1|readv2|f33e.00|*DIABETAMIDE 5mg tablets|
-|sulphonylureas v1|readv2|f33f.00|*CALABREN 2.5mg tablets|
-|sulphonylureas v1|readv2|f33g.00|*CALABREN 5mg tablets|
-|sulphonylureas v1|readv2|f34..00|*GLIBORNURIDE|
-|sulphonylureas v1|readv2|f341.00|*GLUTRIL 25mg tablets|
-|sulphonylureas v1|readv2|f34z.00|*GLIBORNURIDE 25mg tablets|
-|sulphonylureas v1|readv2|f35..00|GLICLAZIDE|
-|sulphonylureas v1|readv2|f351.00|DIAMICRON 80mg tablets|
-|sulphonylureas v1|readv2|f352.00|DIAGLYK 80mg tablets|
-|sulphonylureas v1|readv2|f353.00|VIVAZIDE 80mg tablets|
-|sulphonylureas v1|readv2|f354.00|DIAMICRON MR 30mg m/r tablets|
-|sulphonylureas v1|readv2|f355.00|NAZDOL MR 30mg m/r tablets|
-|sulphonylureas v1|readv2|f356.00|EDICIL MR 30mg m/r tablets|
-|sulphonylureas v1|readv2|f357.00|ZICRON 40mg tablets|
-|sulphonylureas v1|readv2|f358.00|VITILE XL 30mg m/r tablets|
-|sulphonylureas v1|readv2|f359.00|LAAGLYDA MR 60mg m/r tablets|
-|sulphonylureas v1|readv2|f35A.00|VAMJU 30mg m/r tablets|
-|sulphonylureas v1|readv2|f35B.00|VAMJU 60mg m/r tablets|
-|sulphonylureas v1|readv2|f35C.00|BILXONA 30mg m/r tablets|
-|sulphonylureas v1|readv2|f35D.00|BILXONA 60mg m/r tablets|
-|sulphonylureas v1|readv2|f35w.00|GLICLAZIDE 60mg m/r tablets|
-|sulphonylureas v1|readv2|f35x.00|GLICLAZIDE 40mg tablets|
-|sulphonylureas v1|readv2|f35y.00|GLICLAZIDE 30mg m/r tablets|
-|sulphonylureas v1|readv2|f35z.00|GLICLAZIDE 80mg tablets|
-|sulphonylureas v1|readv2|f36..00|GLIPIZIDE|
-|sulphonylureas v1|readv2|f361.00|GLIPIZIDE 5mg tablets|
-|sulphonylureas v1|readv2|f362.00|*GLIBENESE 5mg tablets|
-|sulphonylureas v1|readv2|f363.00|*MINODIAB 2.5mg tablets|
-|sulphonylureas v1|readv2|f364.00|MINODIAB 5mg tablets|
-|sulphonylureas v1|readv2|f36y.00|*GLIPIZIDE 5mg tablets|
-|sulphonylureas v1|readv2|f36z.00|GLIPIZIDE 2.5mg tablets|
-|sulphonylureas v1|readv2|f37..00|GLIQUIDONE|
-|sulphonylureas v1|readv2|f371.00|*GLURENORM 30mg tablets|
-|sulphonylureas v1|readv2|f37z.00|*GLIQUIDONE 30mg tablets|
-|sulphonylureas v1|readv2|f38..00|*GLYMIDINE|
-|sulphonylureas v1|readv2|f381.00|*GONDAFON 500mg tablets|
-|sulphonylureas v1|readv2|f38z.00|*GLYMIDINE 500mg tablets|
-|sulphonylureas v1|readv2|f39..00|TOLAZAMIDE|
-|sulphonylureas v1|readv2|f391.00|TOLANASE 100mg tablets|
-|sulphonylureas v1|readv2|f392.00|TOLANASE 250mg tablets|
-|sulphonylureas v1|readv2|f39y.00|TOLAZAMIDE 100mg tablets|
-|sulphonylureas v1|readv2|f39z.00|TOLAZAMIDE 250mg tablets|
-|sulphonylureas v1|readv2|f3A..00|GLIMEPIRIDE|
-|sulphonylureas v1|readv2|f3A1.00|GLIMEPIRIDE 2mg tablets|
-|sulphonylureas v1|readv2|f3A2.00|AMARYL 2mg tablets|
-|sulphonylureas v1|readv2|f3A3.00|GLIMEPIRIDE 1mg tablets|
-|sulphonylureas v1|readv2|f3A4.00|GLIMEPIRIDE 3mg tablets|
-|sulphonylureas v1|readv2|f3A5.00|GLIMEPIRIDE 4mg tablets|
-|sulphonylureas v1|readv2|f3A6.00|AMARYL 1mg tablets|
-|sulphonylureas v1|readv2|f3A7.00|AMARYL 3mg tablets|
-|sulphonylureas v1|readv2|f3A8.00|AMARYL 4mg tablets|
-|sulphonylureas v1|readv2|f3A9.00|NIDDARYL 1mg tablets|
-|sulphonylureas v1|readv2|f3AA.00|NIDDARYL 2mg tablets|
-|sulphonylureas v1|readv2|f3AB.00|NIDDARYL 3mg tablets|
-|sulphonylureas v1|readv2|f3AC.00|NIDDARYL 4mg tablets|
-|sulphonylureas v1|readv2|f3a..00|TOLBUTAMIDE|
-|sulphonylureas v1|readv2|f3a1.00|TOLBUTAMIDE 500mg tablets|
-|sulphonylureas v1|readv2|f3a2.00|GLYCONON 500mg tablets|
-|sulphonylureas v1|readv2|f3a3.00|*PRAMIDEX 500mg tablets|
-|sulphonylureas v1|readv2|f3a4.00|*RASTINON 500mg tablets|
-|ace-inhibitor v1|ctv3|bA...|Calcium-channel blocker+ACE inhibitor|
-|ace-inhibitor v1|ctv3|bA1..|Felodipine+ramipril|
-|ace-inhibitor v1|ctv3|bA1y.|Felodipine+ramipril 2.5mg/2.5mg tablet|
-|ace-inhibitor v1|ctv3|bA11.|Triapin mite 2.5mg/2.5mg tablet|
-|ace-inhibitor v1|ctv3|bA1z.|Felodipine+ramipril 5mg/5mg tablet|
-|ace-inhibitor v1|ctv3|bA12.|Triapin 5mg/5mg tablet|
-|ace-inhibitor v1|ctv3|bi...|Angiotensin-converting enzyme inhibitor|
-|ace-inhibitor v1|ctv3|bi1..|Captopril|
-|ace-inhibitor v1|ctv3|bi1v.|Captopril 12.5mg tablet|
-|ace-inhibitor v1|ctv3|bi11.|Acepril 12.5mg tablet|
-|ace-inhibitor v1|ctv3|bi16.|Capoten 12.5mg tablet|
-|ace-inhibitor v1|ctv3|bi1g.|Ecopace 12.5mg tablet|
-|ace-inhibitor v1|ctv3|bi1m.|Hyteneze 12.5 tablet|
-|ace-inhibitor v1|ctv3|bi1j.|Kaplon 12.5mg tablet|
-|ace-inhibitor v1|ctv3|bi1p.|Tensopril 12.5mg tablet|
-|ace-inhibitor v1|ctv3|bi1A.|Hypapril 12.5mg tablet|
-|ace-inhibitor v1|ctv3|bi1w.|Captopril 25mg tablet|
-|ace-inhibitor v1|ctv3|bi12.|Acepril 25mg tablet|
-|ace-inhibitor v1|ctv3|bi13.|Acepril 25mg tablets x56|
-|ace-inhibitor v1|ctv3|bi17.|Capoten 25mg tablet|
-|ace-inhibitor v1|ctv3|bi18.|Capoten 25mg tablets x56|
-|ace-inhibitor v1|ctv3|bi1h.|Ecopace 25mg tablet|
-|ace-inhibitor v1|ctv3|bi1n.|Hyteneze 25 tablet|
-|ace-inhibitor v1|ctv3|bi1k.|Kaplon 25mg tablet|
-|ace-inhibitor v1|ctv3|bi1q.|Tensopril 25mg tablet|
-|ace-inhibitor v1|ctv3|bi1B.|Hypapril 25mg tablet|
-|ace-inhibitor v1|ctv3|bi1x.|Captopril 25mg tablets x56|
-|ace-inhibitor v1|ctv3|bi1z.|Captopril 50mg tablet|
-|ace-inhibitor v1|ctv3|bi14.|Acepril 50mg tablet|
-|ace-inhibitor v1|ctv3|bi15.|Acepril 50mg tablets x56|
-|ace-inhibitor v1|ctv3|bi19.|Capoten 50mg tablet|
-|ace-inhibitor v1|ctv3|bi1a.|Capoten 50mg tablets x56|
-|ace-inhibitor v1|ctv3|bi1i.|Ecopace 50mg tablet|
-|ace-inhibitor v1|ctv3|bi1o.|Hyteneze 50 tablet|
-|ace-inhibitor v1|ctv3|bi1l.|Kaplon 50mg tablet|
-|ace-inhibitor v1|ctv3|bi1r.|Tensopril 50mg tablet|
-|ace-inhibitor v1|ctv3|bi1C.|Hypapril 50mg tablet|
-|ace-inhibitor v1|ctv3|bi1y.|Captopril 50mg tablets x56|
-|ace-inhibitor v1|ctv3|x001j|Captopril+diuretic|
-|ace-inhibitor v1|ctv3|bi1e.|Co-zidocapt 25mg/12.5mg tablet|
-|ace-inhibitor v1|ctv3|x00f1|Capozide LS tablet|
-|ace-inhibitor v1|ctv3|bi1d.|Capozide LS 25mg tablets x28CP|
-|ace-inhibitor v1|ctv3|bi1D.|Capto-Co 25mg/12.5mg tablet|
-|ace-inhibitor v1|ctv3|bi1f.|Co-zidocapt 50mg/25mg tablet|
-|ace-inhibitor v1|ctv3|x00eq|Acezide tablet|
-|ace-inhibitor v1|ctv3|bi1b.|Acezide 50mg tablets x56|
-|ace-inhibitor v1|ctv3|x00f0|Capozide tablet|
-|ace-inhibitor v1|ctv3|bi1c.|Capozide 50mg tablets x28|
-|ace-inhibitor v1|ctv3|bi1E.|Capto-Co 50mg/25mg tablet|
-|ace-inhibitor v1|ctv3|bi1H.|NOYADA 5mg/5mL oral solution|
-|ace-inhibitor v1|ctv3|bi1I.|CAPTOPRIL 5mg/5mL oral solution|
-|ace-inhibitor v1|ctv3|bi1J.|NOYADA 25mg/5mL oral solution|
-|ace-inhibitor v1|ctv3|bi1K.|CAPTOPRIL 25mg/5mL oral solution|
-|ace-inhibitor v1|ctv3|bi1s.|CAPOZIDE 50mg/25mg tablets|
-|ace-inhibitor v1|ctv3|biC..|PERINDOPRIL ARGININE|
-|ace-inhibitor v1|ctv3|biC8.|PERINDOPRIL ARGININE+INDAPAMIDE 5mg/1.25mg tablets|
-|ace-inhibitor v1|ctv3|biC7.|COVERSYL ARGININE PLUS 5mg/1.25mg tablets|
-|ace-inhibitor v1|ctv3|biC6.|PERINDOPRIL ARGININE 10mg tablets|
-|ace-inhibitor v1|ctv3|biC5.|COVERSYL ARGININE 10mg tablets|
-|ace-inhibitor v1|ctv3|biC4.|PERINDOPRIL ARGININE 5mg tablets|
-|ace-inhibitor v1|ctv3|biC3.|COVERSYL ARGININE 5mg tablets|
-|ace-inhibitor v1|ctv3|biC2.|PERINDOPRIL ARGININE 2.5mg tablets|
-|ace-inhibitor v1|ctv3|biC1.|COVERSYL ARGININE 2.5mg tablets|
-|ace-inhibitor v1|ctv3|bi8..|Cilazapril|
-|ace-inhibitor v1|ctv3|bi81.|Cilazapril 250micrograms tablet|
-|ace-inhibitor v1|ctv3|bi85.|Vascace 250micrograms tablet|
-|ace-inhibitor v1|ctv3|bi82.|Cilazapril 500micrograms tablet|
-|ace-inhibitor v1|ctv3|bi86.|Vascace 500mcg tablet|
-|ace-inhibitor v1|ctv3|bi83.|Cilazapril 1mg tablet|
-|ace-inhibitor v1|ctv3|bi87.|Vascace 1mg tablet|
-|ace-inhibitor v1|ctv3|bi84.|Cilazapril 2.5mg tablet|
-|ace-inhibitor v1|ctv3|bi88.|Vascace 2.5mg tablet|
-|ace-inhibitor v1|ctv3|bi8a.|Cilazapril 5mg tablet|
-|ace-inhibitor v1|ctv3|bi89.|Vascace 5mg tablet|
-|ace-inhibitor v1|ctv3|x01Qe|Enalapril|
-|ace-inhibitor v1|ctv3|bi2a.|Enalapril maleate 2.5mg+5mg tablet starter pack|
-|ace-inhibitor v1|ctv3|bi29.|Innovace tablet starter pack|
-|ace-inhibitor v1|ctv3|bi2t.|Enalapril maleate 2.5mg tablet|
-|ace-inhibitor v1|ctv3|bi21.|Innovace 2.5mg tablet|
-|ace-inhibitor v1|ctv3|bi2J.|Pralenal 2.5mg tablet|
-|ace-inhibitor v1|ctv3|bi2u.|Enalapril maleate 5mg tablet|
-|ace-inhibitor v1|ctv3|bi22.|Innovace 5mg tablet|
-|ace-inhibitor v1|ctv3|bi23.|Innovace 5mg tablets x28|
-|ace-inhibitor v1|ctv3|bi2K.|Pralenal 5mg tablet|
-|ace-inhibitor v1|ctv3|x00fw|Renitec 5mg tablet|
-|ace-inhibitor v1|ctv3|bi2v.|Enalapril maleate 5mg tablets x28|
-|ace-inhibitor v1|ctv3|bi2w.|Enalapril maleate 10mg tablet|
-|ace-inhibitor v1|ctv3|bi24.|Innovace 10mg tablet|
-|ace-inhibitor v1|ctv3|bi25.|Innovace 10mg tablets x28|
-|ace-inhibitor v1|ctv3|bi2L.|Pralenal 10mg tablet|
-|ace-inhibitor v1|ctv3|bi2x.|Enalapril maleate 10mg tablets x28|
-|ace-inhibitor v1|ctv3|bi2y.|Enalapril maleate 20mg tablet|
-|ace-inhibitor v1|ctv3|bi26.|Innovace 20mg tablet|
-|ace-inhibitor v1|ctv3|bi27.|Innovace 20mg tablets x28|
-|ace-inhibitor v1|ctv3|bi2M.|Pralenal 20mg tablet|
-|ace-inhibitor v1|ctv3|bi2z.|Enalapril maleate 20mg tablets x28|
-|ace-inhibitor v1|ctv3|bi2A.|Enalapril maleate 2.5mg wafer|
-|ace-inhibitor v1|ctv3|bi2E.|Innovace Melt 2.5mg wafer|
-|ace-inhibitor v1|ctv3|bi2B.|Enalapril maleate 5mg wafer|
-|ace-inhibitor v1|ctv3|bi2F.|Innovace Melt 5mg wafer|
-|ace-inhibitor v1|ctv3|bi2C.|Enalapril maleate 10mg wafer|
-|ace-inhibitor v1|ctv3|bi2G.|Innovace Melt 10mg wafer|
-|ace-inhibitor v1|ctv3|bi2D.|Enalapril maleate 20mg wafer|
-|ace-inhibitor v1|ctv3|bi2H.|Innovace Melt 20mg wafer|
-|ace-inhibitor v1|ctv3|x0044|Enalapril maleate+diuretic|
-|ace-inhibitor v1|ctv3|bi2b.|Enalapril maleate+hydrochlorothiazide 20mg/12.5mg tablet|
-|ace-inhibitor v1|ctv3|bi28.|Innozide tablet|
-|ace-inhibitor v1|ctv3|bi2..|Enalapril maleate|
-|ace-inhibitor v1|ctv3|x01Qf|Fosinopril|
-|ace-inhibitor v1|ctv3|bi71.|Fosinopril sodium 10mg tablet|
-|ace-inhibitor v1|ctv3|bi73.|Staril 10mg tablet|
-|ace-inhibitor v1|ctv3|bi72.|Fosinopril sodium 20mg tablet|
-|ace-inhibitor v1|ctv3|bi74.|Staril 20mg tablet|
-|ace-inhibitor v1|ctv3|bi7..|Fosinopril sodium|
-|ace-inhibitor v1|ctv3|biB..|Imidapril hydrochloride|
-|ace-inhibitor v1|ctv3|biBy.|Imidapril hydrochloride 5mg tablet|
-|ace-inhibitor v1|ctv3|biB1.|Tanatril 5mg tablet|
-|ace-inhibitor v1|ctv3|biBz.|Imidapril hydrochloride 10mg tablet|
-|ace-inhibitor v1|ctv3|biB2.|Tanatril 10mg tablet|
-|ace-inhibitor v1|ctv3|biBx.|Imidapril hydrochloride 20mg tablet|
-|ace-inhibitor v1|ctv3|biB3.|Tanatril 20mg tablet|
-|ace-inhibitor v1|ctv3|bi3..|Lisinopril|
-|ace-inhibitor v1|ctv3|bi3r.|Lisinopril 2.5mg tablet starter pack|
-|ace-inhibitor v1|ctv3|bi3q.|Zestril 2.5mg starter pack|
-|ace-inhibitor v1|ctv3|bi31.|Lisinopril 2.5mg tablet|
-|ace-inhibitor v1|ctv3|bi35.|Carace 2.5mg tablet|
-|ace-inhibitor v1|ctv3|bi3d.|Zestril 2.5mg tablet|
-|ace-inhibitor v1|ctv3|bi3c.|Zestril 2.5mg tablets 28CP|
-|ace-inhibitor v1|ctv3|bi32.|Lisinopril 5mg tablet|
-|ace-inhibitor v1|ctv3|bi37.|Carace 5mg tablet|
-|ace-inhibitor v1|ctv3|bi36.|Carace 5mg tablets 28CP|
-|ace-inhibitor v1|ctv3|bi3f.|Zestril 5mg tablet|
-|ace-inhibitor v1|ctv3|bi3e.|Zestril 5mg tablets 28CP|
-|ace-inhibitor v1|ctv3|bi33.|Lisinopril 10mg tablet|
-|ace-inhibitor v1|ctv3|bi39.|Carace 10mg tablet|
-|ace-inhibitor v1|ctv3|bi38.|Carace 10mg tablets 28CP|
-|ace-inhibitor v1|ctv3|bi3h.|Zestril 10mg tablet|
-|ace-inhibitor v1|ctv3|bi3g.|Zestril 10mg tablets 28CP|
-|ace-inhibitor v1|ctv3|bi34.|Lisinopril 20mg tablet|
-|ace-inhibitor v1|ctv3|bi3b.|Carace 20mg tablet|
-|ace-inhibitor v1|ctv3|bi3a.|Carace 20mg tablets 28CP|
-|ace-inhibitor v1|ctv3|bi3j.|Zestril 20mg tablet|
-|ace-inhibitor v1|ctv3|bi3i.|Zestril 20mg tablets 28CP|
-|ace-inhibitor v1|ctv3|x007H|Lisinopril+diuretic|
-|ace-inhibitor v1|ctv3|bi3t.|Lisinopril+hydrochlorothiazide 10mg/12.5mg tablet|
-|ace-inhibitor v1|ctv3|bi3l.|Carace 10 Plus tablet|
-|ace-inhibitor v1|ctv3|bi3u.|Caralpha 10/12.5mg tablet|
-|ace-inhibitor v1|ctv3|bi3x.|Lisicostad HCT 10/12.5mg tablet|
-|ace-inhibitor v1|ctv3|bi3s.|Zestoretic 10 tablet|
-|ace-inhibitor v1|ctv3|bi3p.|Lisinopril+hydrochlorothiazide 20mg/12.5mg tablet|
-|ace-inhibitor v1|ctv3|bi3k.|Carace 20 Plus tablet|
-|ace-inhibitor v1|ctv3|bi3v.|Caralpha 20/12.5mg tablet|
-|ace-inhibitor v1|ctv3|bi3w.|Lisicostad HCT 20/12.5mg tablet|
-|ace-inhibitor v1|ctv3|bi3n.|Zestoretic 20 tablet|
-|ace-inhibitor v1|ctv3|bi3m.|Zestoretic tablets 28CP|
-|ace-inhibitor v1|ctv3|bi3y.|LISINOPRIL 1mg/mL oral solution|
-|ace-inhibitor v1|ctv3|biA..|Moexipril|
-|ace-inhibitor v1|ctv3|biA1.|Moexipril hydrochloride 7.5mg tablet|
-|ace-inhibitor v1|ctv3|biA3.|Perdix 7.5mg tablet|
-|ace-inhibitor v1|ctv3|biA2.|Moexipril hydrochloride 15mg tablet|
-|ace-inhibitor v1|ctv3|biA4.|Perdix 15mg tablet|
-|ace-inhibitor v1|ctv3|x01Qg|Perindopril|
-|ace-inhibitor v1|ctv3|bi51.|Perindopril erbumine 2mg tablet|
-|ace-inhibitor v1|ctv3|bi53.|Coversyl 2mg tablet|
-|ace-inhibitor v1|ctv3|bi52.|Perindopril erbumine 4mg tablet|
-|ace-inhibitor v1|ctv3|bi54.|Coversyl 4mg tablet|
-|ace-inhibitor v1|ctv3|bi57.|Perindopril erbumine 8mg tablet|
-|ace-inhibitor v1|ctv3|bi58.|Coversyl 8mg tablet|
-|ace-inhibitor v1|ctv3|x05df|Perindopril+indapamide|
-|ace-inhibitor v1|ctv3|bi55.|Perindopril erbumine+indapamide 4mg/1.25mg tablet|
-|ace-inhibitor v1|ctv3|bi56.|Coversyl Plus 4mg/1.25mg tablet|
-|ace-inhibitor v1|ctv3|bi5..|Perindopril erbumine|
-|ace-inhibitor v1|ctv3|bi4..|Quinapril|
-|ace-inhibitor v1|ctv3|bi41.|Quinapril 5mg tablet|
-|ace-inhibitor v1|ctv3|x00en|Accupro 5mg tablet|
-|ace-inhibitor v1|ctv3|bi44.|Accupro 5mg tablets 28CP|
-|ace-inhibitor v1|ctv3|bi4B.|Quinil 5mg tablet|
-|ace-inhibitor v1|ctv3|bi42.|Quinapril 10mg tablet|
-|ace-inhibitor v1|ctv3|x00eo|Accupro 10mg tablet|
-|ace-inhibitor v1|ctv3|bi45.|Accupro 10mg tablets 28CP|
-|ace-inhibitor v1|ctv3|bi4C.|Quinil 10mg tablet|
-|ace-inhibitor v1|ctv3|bi43.|Quinapril 20mg tablet|
-|ace-inhibitor v1|ctv3|x00ep|Accupro 20mg tablet|
-|ace-inhibitor v1|ctv3|bi46.|Accupro 20mg tablets 28CP|
-|ace-inhibitor v1|ctv3|bi4D.|Quinil 20mg tablet|
-|ace-inhibitor v1|ctv3|bi4A.|Quinapril 40mg tablet|
-|ace-inhibitor v1|ctv3|bi49.|Accupro 40mg tablet|
-|ace-inhibitor v1|ctv3|bi4E.|Quinil 40mg tablet|
-|ace-inhibitor v1|ctv3|bi48.|Quinalapril+hydrochlorothiazide 10mg/12.5mg tablet|
-|ace-inhibitor v1|ctv3|bi47.|Accuretic tablet|
-|ace-inhibitor v1|ctv3|bi4F.|QUINAPRIL+HYDROCHLOROTHIAZIDE 20mg/12.5mg tablets|
-|ace-inhibitor v1|ctv3|bi6..|Ramipril|
-|ace-inhibitor v1|ctv3|bi6B.|Ramipril 1.25mg tablet|
-|ace-inhibitor v1|ctv3|bi6z.|Tritace 1.25mg tablet|
-|ace-inhibitor v1|ctv3|bi6C.|Ramipril 2.5mg tablet|
-|ace-inhibitor v1|ctv3|bi6y.|Tritace 2.5mg tablet|
-|ace-inhibitor v1|ctv3|bi6D.|Ramipril 5mg tablet|
-|ace-inhibitor v1|ctv3|bi6x.|Tritace 5mg tablet|
-|ace-inhibitor v1|ctv3|bi6E.|Ramipril 10mg tablet|
-|ace-inhibitor v1|ctv3|bi6w.|Tritace 10mg tablet|
-|ace-inhibitor v1|ctv3|bi61.|Ramipril 1.25mg capsule|
-|ace-inhibitor v1|ctv3|bi6s.|Ranace 1.25mg capsule|
-|ace-inhibitor v1|ctv3|bi64.|Tritace 1.25mg capsule|
-|ace-inhibitor v1|ctv3|bi62.|Ramipril 2.5mg capsule|
-|ace-inhibitor v1|ctv3|bi6t.|Lopace 2.5mg capsule|
-|ace-inhibitor v1|ctv3|bi6r.|Ranace 2.5mg capsule|
-|ace-inhibitor v1|ctv3|bi65.|Tritace 2.5mg capsule|
-|ace-inhibitor v1|ctv3|bi63.|Ramipril 5mg capsule|
-|ace-inhibitor v1|ctv3|bi6u.|Lopace 5mg capsule|
-|ace-inhibitor v1|ctv3|bi6q.|Ranace 5mg capsule|
-|ace-inhibitor v1|ctv3|bi66.|Tritace 5mg capsule|
-|ace-inhibitor v1|ctv3|bi67.|Ramipril 10mg capsule|
-|ace-inhibitor v1|ctv3|bi6v.|Lopace 10mg capsule|
-|ace-inhibitor v1|ctv3|bi6p.|Ranace 10mg capsule|
-|ace-inhibitor v1|ctv3|bi68.|Tritace 10mg capsule|
-|ace-inhibitor v1|ctv3|bi69.|Ramipril 2.5mg+5mg+10mg capsules titration pack|
-|ace-inhibitor v1|ctv3|bi6A.|Tritace Titration Pack|
-|ace-inhibitor v1|ctv3|bi6F.|RAMIPRIL 2.5mg+5mg+10mg tablets titration pack|
-|ace-inhibitor v1|ctv3|bi6G.|RAMIPRIL 2.5mg/5mL oral solution|
-|ace-inhibitor v1|ctv3|bi6o.|TRITACE Titration Pack tablets|
-|ace-inhibitor v1|ctv3|bi9..|Trandolapril|
-|ace-inhibitor v1|ctv3|bi91.|Trandolapril 500micrograms capsule|
-|ace-inhibitor v1|ctv3|bi94.|Gopten 500micrograms capsule|
-|ace-inhibitor v1|ctv3|bi97.|Odrik 500micrograms capsule|
-|ace-inhibitor v1|ctv3|bi92.|Trandolapril 1mg capsule|
-|ace-inhibitor v1|ctv3|bi95.|Gopten 1mg capsule|
-|ace-inhibitor v1|ctv3|bi98.|Odrik 1mg capsule|
-|ace-inhibitor v1|ctv3|bi93.|Trandolapril 2mg capsule|
-|ace-inhibitor v1|ctv3|bi96.|Gopten 2mg capsule|
-|ace-inhibitor v1|ctv3|bi99.|Odrik 2mg capsule|
-|ace-inhibitor v1|ctv3|bi9z.|Trandolapril 4mg capsule|
-|ace-inhibitor v1|ctv3|bi9A.|Gopten 4mg capsule|
-|ace-inhibitor v1|ctv3|bk6..|Trandolapril+verapamil hydrochloride|
-|ace-inhibitor v1|ctv3|bk61.|Trandolapril+verapamil hydrochloride 2mg/180mg m/r capsule|
-|ace-inhibitor v1|ctv3|bk62.|Tarka 2mg/180mg m/r capsule|
-|ace-inhibitor v1|ctv3|bkH..|OLMESARTAN+AMLODIPINE|
-|ace-inhibitor v1|ctv3|bkH1.|SEVIKAR 20mg/5mg tablets|
-|ace-inhibitor v1|ctv3|bkH2.|SEVIKAR 40mg/5mg tablets|
-|ace-inhibitor v1|ctv3|bkH3.|SEVIKAR 40mg/10mg tablets|
-|ace-inhibitor v1|ctv3|bkHx.|OLMESARTAN MEDOXOMIL+AMLODIPINE 40mg/10mg tablets|
-|ace-inhibitor v1|ctv3|bkHy.|OLMESARTAN MEDOXOMIL+AMLODIPINE 40mg/5mg tablets|
-|ace-inhibitor v1|ctv3|bkHz.|OLMESARTAN MEDOXOMIL+AMLODIPINE 20mg/5mg tablets|
-|ace-inhibitor v1|ctv3|bkI..|OLMESARTAN+AMLODIPINE+HYDROCHLOROTHIAZIDE|
-|ace-inhibitor v1|ctv3|bkI1.|SEVIKAR HCT 20mg/5mg/12.5mg tablets|
-|ace-inhibitor v1|ctv3|bkI2.|SEVIKAR HCT 40mg/5mg/12.5mg tablets|
-|ace-inhibitor v1|ctv3|bkI3.|SEVIKAR HCT 40mg/10mg/12.5mg tablets|
-|ace-inhibitor v1|ctv3|bkI4.|SEVIKAR HCT 40mg/5mg/25mg tablets|
-|ace-inhibitor v1|ctv3|bkI5.|SEVIKAR HCT 40mg/10mg/25mg tablets|
-|ace-inhibitor v1|ctv3|bkJ..|AZILSARTAN|
-|ace-inhibitor v1|ctv3|bkJ1.|EDARBI 20mg tablets|
-|ace-inhibitor v1|ctv3|bkJ2.|AZILSARTAN MEDOXOMIL 20mg tablets|
-|ace-inhibitor v1|ctv3|bkJ3.|EDARBI 40mg tablets|
-|ace-inhibitor v1|ctv3|bkJ4.|AZILSARTAN MEDOXOMIL 40mg tablets|
-|ace-inhibitor v1|ctv3|bkJ5.|EDARBI 80mg tablets|
-|ace-inhibitor v1|ctv3|bkJ6.|AZILSARTAN MEDOXOMIL 80mg tablets|
-|ace-inhibitor v1|ctv3|bkL..|SACUBITRIL+VALSARTAN|
-|ace-inhibitor v1|ctv3|bkL1.|ENTRESTO 24mg/26mg tablets|
-|ace-inhibitor v1|ctv3|bkL2.|SACUBITRL+VALSRTN 24/26mg tabs|
-|ace-inhibitor v1|ctv3|bkL3.|ENTRESTO 49mg/51mg tablets|
-|ace-inhibitor v1|ctv3|bkL4.|SACUBITRL+VALSRTN 49/51mg tabs|
-|ace-inhibitor v1|ctv3|bkL5.|ENTRESTO 97mg/103mg tablets|
-|ace-inhibitor v1|ctv3|bkL6.|SACUBTRL+VALSRTN 97/103mg tabs|
-|ace-inhibitor v1|ctv3|bkD..|AMLODIPINE + VALSARTAN|
-|ace-inhibitor v1|ctv3|bkD1.|AMLODIPINE+VALSARTAN 5mg/80mg tablets|
-|ace-inhibitor v1|ctv3|bkDz.|EXFORGE 5mg/80mg tablets|
-|ace-inhibitor v1|ctv3|bkD3.|AMLODIPINE+VALSARTAN 10mg/160mg tablets|
-|ace-inhibitor v1|ctv3|bkDx.|EXFORGE 10mg/160mg tablets|
-|ace-inhibitor v1|ctv3|bkD2.|AMLODIPINE+VALSARTAN 5mg/160mg tablets|
-|ace-inhibitor v1|ctv3|bkDy.|EXFORGE 5mg/160mg tablets|
-|ace-inhibitor v1|ctv3|x03j2|Angiotensin II receptor antagonist|
-|ace-inhibitor v1|ctv3|bk7..|Candesartan cilexetil|
-|ace-inhibitor v1|ctv3|bk71.|Candesartan cilexetil 2mg tablet|
-|ace-inhibitor v1|ctv3|bk75.|Amias 2mg tablet|
-|ace-inhibitor v1|ctv3|bk72.|Candesartan cilexetil 4mg tablet|
-|ace-inhibitor v1|ctv3|bk76.|Amias 4mg tablet|
-|ace-inhibitor v1|ctv3|bk73.|Candesartan cilexetil 8mg tablet|
-|ace-inhibitor v1|ctv3|bk77.|Amias 8mg tablet|
-|ace-inhibitor v1|ctv3|bk74.|Candesartan cilexetil 16mg tablet|
-|ace-inhibitor v1|ctv3|bk78.|Amias 16mg tablet|
-|ace-inhibitor v1|ctv3|bk7z.|Candesartan cilexetil 32mg tablet|
-|ace-inhibitor v1|ctv3|bk79.|Amias 32mg tablet|
-|ace-inhibitor v1|ctv3|bk9..|Eprosartan|
-|ace-inhibitor v1|ctv3|bk9x.|Eprosartan 300mg tablet|
-|ace-inhibitor v1|ctv3|bk91.|Teveten 300mg tablet|
-|ace-inhibitor v1|ctv3|bk9y.|Eprosartan 400mg tablet|
-|ace-inhibitor v1|ctv3|bk92.|Teveten 400mg tablet|
-|ace-inhibitor v1|ctv3|bk9z.|Eprosartan 600mg tablet|
-|ace-inhibitor v1|ctv3|bk93.|Teveten 600mg tablet|
-|ace-inhibitor v1|ctv3|bk5..|Irbesartan|
-|ace-inhibitor v1|ctv3|bk51.|Irbesartan 75mg tablet|
-|ace-inhibitor v1|ctv3|bk54.|Aprovel 75mg tablet|
-|ace-inhibitor v1|ctv3|bk52.|Irbesartan 150mg tablet|
-|ace-inhibitor v1|ctv3|bk55.|Aprovel 150mg tablet|
-|ace-inhibitor v1|ctv3|bk53.|Irbesartan 300mg tablet|
-|ace-inhibitor v1|ctv3|bk56.|Aprovel 300mg tablet|
-|ace-inhibitor v1|ctv3|bk3..|Losartan|
-|ace-inhibitor v1|ctv3|bk31.|Losartan potassium 25mg tablet|
-|ace-inhibitor v1|ctv3|bk33.|Cozaar 25mg tablet|
-|ace-inhibitor v1|ctv3|bk32.|Losartan potassium 50mg tablet|
-|ace-inhibitor v1|ctv3|bk34.|Cozaar 50mg tablet|
-|ace-inhibitor v1|ctv3|bk37.|Losartan potassium 100mg tablet|
-|ace-inhibitor v1|ctv3|bk38.|Cozaar 100mg tablet|
-|ace-inhibitor v1|ctv3|bk3B.|COZAAR 12.5mg tablets|
-|ace-inhibitor v1|ctv3|bk3C.|LOSARTAN POTASSIUM 12.5mg tablets|
-|ace-inhibitor v1|ctv3|bk3D.|COZAAR 2.5mg/mL oral suspension|
-|ace-inhibitor v1|ctv3|bk3E.|LOSARTAN POTASSIUM 2.5mg/mL oral suspension|
-|ace-inhibitor v1|ctv3|bk3F.|ZOVENCAL 25mg tablets|
-|ace-inhibitor v1|ctv3|bk3G.|ZOVENCAL 50mg tablets|
-|ace-inhibitor v1|ctv3|bk3H.|ZOVENCAL 100mg tablets|
-|ace-inhibitor v1|ctv3|bkB..|Olmesartan|
-|ace-inhibitor v1|ctv3|bkC..|Hydrochlorothiazide + Olmesartan|
-|ace-inhibitor v1|ctv3|bkCz.|Olmesartan + hydrochlorothiazide 20mg/12.5mg tablet|
-|ace-inhibitor v1|ctv3|bkC1.|Olmetec Plus 20mg/12.5mg tablet|
-|ace-inhibitor v1|ctv3|bkCy.|Olmesartan + hydrochlorothiazide 20mg/25mg tablet|
-|ace-inhibitor v1|ctv3|bkC2.|Olmetec Plus 20mg/25mg tablet|
-|ace-inhibitor v1|ctv3|bkC3.|OLMETEC PLUS 40mg/12.5mg tablets|
-|ace-inhibitor v1|ctv3|bkCx.|OLMESARTAN+HYDROCHLOROTHIAZIDE 40mg/12.5mg tablets|
-|ace-inhibitor v1|ctv3|bkB1.|Olmesartan medoxomil 10mg tablet|
-|ace-inhibitor v1|ctv3|bkB4.|Olmetec 10mg tablet|
-|ace-inhibitor v1|ctv3|bkB2.|Olmesartan medoxomil 20mg tablet|
-|ace-inhibitor v1|ctv3|bkB5.|Olmetec 20mg tablet|
-|ace-inhibitor v1|ctv3|bkB3.|Olmesartan medoxomil 40mg tablet|
-|ace-inhibitor v1|ctv3|bkB6.|Olmetec 40mg tablet|
-|ace-inhibitor v1|ctv3|bk8..|Telmisartan|
-|ace-inhibitor v1|ctv3|bk8z.|Telmisartan 20mg tablet|
-|ace-inhibitor v1|ctv3|bk85.|Micardis 20mg tablet|
-|ace-inhibitor v1|ctv3|bk81.|Telmisartan 40mg tablet|
-|ace-inhibitor v1|ctv3|bk83.|Micardis 40mg tablet|
-|ace-inhibitor v1|ctv3|bk82.|Telmisartan 80mg tablet|
-|ace-inhibitor v1|ctv3|bk84.|Micardis 80mg tablet|
-|ace-inhibitor v1|ctv3|bk88.|MICARDISPLUS 80mg/25mg tablets|
-|ace-inhibitor v1|ctv3|bk8w.|TELMISARTAN+HYDROCHLOROTHIAZIDE 80mg/25mg tablets|
-|ace-inhibitor v1|ctv3|bk4..|Valsartan|
-|ace-inhibitor v1|ctv3|bk41.|Valsartan 40mg capsule|
-|ace-inhibitor v1|ctv3|bk44.|Diovan 40mg capsule|
-|ace-inhibitor v1|ctv3|bk4v.|VALSARTAN 320mg tablets|
-|ace-inhibitor v1|ctv3|bk4B.|DIOVAN 320mg tablets|
-|ace-inhibitor v1|ctv3|bk4w.|Valsartan 40mg tablet|
-|ace-inhibitor v1|ctv3|bk4A.|Diovan 40mg tablet|
-|ace-inhibitor v1|ctv3|bk42.|Valsartan 80mg capsule|
-|ace-inhibitor v1|ctv3|bk45.|Diovan 80mg capsule|
-|ace-inhibitor v1|ctv3|bk43.|Valsartan 160mg capsule|
-|ace-inhibitor v1|ctv3|bk46.|Diovan 160mg capsule|
-|ace-inhibitor v1|ctv3|bk4C.|DIOVAN 3mg/mL oral solution|
-|ace-inhibitor v1|ctv3|bk4s.|VALSARTAN 80mg tablets|
-|ace-inhibitor v1|ctv3|bk4t.|VALSARTAN 160mg tablets|
-|ace-inhibitor v1|ctv3|bk4u.|VALSARTAN 3mg/mL oral solution|
-|ace-inhibitor v1|ctv3|x03ls|Angiotensin II receptor antagonist+diuretic|
-|ace-inhibitor v1|ctv3|bk5z.|Irbesartan+hydrochlorothiazide 150mg/12.5mg tablet|
-|ace-inhibitor v1|ctv3|bk57.|CoAprovel 150mg/12.5mg tablet|
-|ace-inhibitor v1|ctv3|bk5y.|Irbesartan+hydrochlorothiazide 300mg/12.5mg tablet|
-|ace-inhibitor v1|ctv3|bk58.|CoAprovel 300mg/12.5mg tablet|
-|ace-inhibitor v1|ctv3|bk5x.|IRBESARTAN+HYDROCHLOROTHIAZIDE 300mg/25mg tablets|
-|ace-inhibitor v1|ctv3|bk59.|COAPROVEL 300mg/25mg tablets|
-|ace-inhibitor v1|ctv3|bk35.|Losartan potassium+hydrochlorothiazide 50mg/12.5mg tablet|
-|ace-inhibitor v1|ctv3|bk36.|Cozaar-Comp 50mg/12.5mg tablet|
-|ace-inhibitor v1|ctv3|bk3y.|LOSARTAN POTASSIUM+HYDROCHLOROTHIAZIDE 100mg/12.5mg tablets|
-|ace-inhibitor v1|ctv3|bk3A.|COZAAR-COMP 100mg/12.5mg tablets|
-|ace-inhibitor v1|ctv3|bk3z.|Losartan potassium+hydrochlorothiazide 100mg/25mg tablet|
-|ace-inhibitor v1|ctv3|bk39.|Cozaar-Comp 100mg/25mg tablet|
-|ace-inhibitor v1|ctv3|bk8x.|Telmisartan+hydrochlorothiazide 40mg/12.5mg tablet|
-|ace-inhibitor v1|ctv3|bk86.|MicardisPlus 40mg/12.5mg tablet|
-|ace-inhibitor v1|ctv3|bk8y.|Telmisartan+hydrochlorothiazide 80mg/12.5mg tablet|
-|ace-inhibitor v1|ctv3|bk87.|MicardisPlus 80mg/12.5mg tablet|
-|ace-inhibitor v1|ctv3|bk4x.|Valsartan+hydrochlorothiazide 80mg/12.5mg tablet|
-|ace-inhibitor v1|ctv3|bk49.|Co-Diovan 80mg/12.5mg tablet|
-|ace-inhibitor v1|ctv3|bk4z.|Valsartan+hydrochlorothiazide 160mg/12.5mg tablet|
-|ace-inhibitor v1|ctv3|bk47.|Co-Diovan 160mg/12.5mg tablet|
-|ace-inhibitor v1|ctv3|bk4y.|Valsartan+hydrochlorothiazide 160mg/25mg tablet|
-|ace-inhibitor v1|ctv3|bk48.|Co-Diovan 160mg/25mg tablet|
-|ace-inhibitor v1|emis|ACTA17|Acepril  Tablets  12.5 mg|
-|ace-inhibitor v1|emis|ACTA18|Acepril  Tablets  25 mg|
-|ace-inhibitor v1|emis|ACTA19|Acepril  Tablets  50 mg|
-|ace-inhibitor v1|emis|ACTA22351EMIS|Accuretic  Tablets  |
-|ace-inhibitor v1|emis|ACTA24202EMIS|Accupro  Tablets  40 mg|
-|ace-inhibitor v1|emis|ACTA8597BRID|Acezide  Tablets  |
-|ace-inhibitor v1|emis|ACTA8873EGTON|Accupro  Tablets  10 mg|
-|ace-inhibitor v1|emis|ACTA8874EGTON|Accupro  Tablets  20 mg|
-|ace-inhibitor v1|emis|ACTA8875EGTON|Accupro  Tablets  5 mg|
-|ace-inhibitor v1|emis|AMTA19407NEMIS|Amias  Tablets  32 mg|
-|ace-inhibitor v1|emis|AMTA23852NEMIS|Amlodipine And Valsartan  Tabl|
-|ace-inhibitor v1|emis|AMTA23853NEMIS|Amlodipine And Valsartan  Tabl|
-|ace-inhibitor v1|emis|AMTA31816EMIS|Amias  Tablets  16 mg|
-|ace-inhibitor v1|emis|AMTA31817EMIS|Amias  Tablets  2 mg|
-|ace-inhibitor v1|emis|AMTA31818EMIS|Amias  Tablets  4 mg|
-|ace-inhibitor v1|emis|AMTA31819EMIS|Amias  Tablets  8 mg|
-|ace-inhibitor v1|emis|APTA31570EMIS|Aprovel  Tablets  150 mg|
-|ace-inhibitor v1|emis|APTA31571EMIS|Aprovel  Tablets  300 mg|
-|ace-inhibitor v1|emis|APTA31572EMIS|Aprovel  Tablets  75 mg|
-|ace-inhibitor v1|emis|CATA1598NEMIS|Capto-Co  Tablets  12.5 mg/25 |
-|ace-inhibitor v1|emis|CATA1599NEMIS|Capto-Co  Tablets  25 mg/50 mg|
-|ace-inhibitor v1|emis|CATA18202NEMIS|Caralpha  Tablets  10 mg + 12.|
-|ace-inhibitor v1|emis|CATA18203NEMIS|Caralpha  Tablets  20 mg + 12.|
-|ace-inhibitor v1|emis|CATA19406NEMIS|Candesartan Cilexetil  Tablets|
-|ace-inhibitor v1|emis|CATA19668EMIS|Capozide Ls  Tablets  |
-|ace-inhibitor v1|emis|CATA24703EMIS|Carace 10 Plus  Tablets  |
-|ace-inhibitor v1|emis|CATA31824EMIS|Candesartan Cilexetil  Tablets|
-|ace-inhibitor v1|emis|CATA31825EMIS|Candesartan Cilexetil  Tablets|
-|ace-inhibitor v1|emis|CATA31826EMIS|Candesartan Cilexetil  Tablets|
-|ace-inhibitor v1|emis|CATA31827EMIS|Candesartan Cilexetil  Tablets|
-|ace-inhibitor v1|emis|CATA4675|Captopril  Tablets  12.5 mg|
-|ace-inhibitor v1|emis|CATA480|Capoten  Tablets  12.5 mg|
-|ace-inhibitor v1|emis|CATA481|Capoten  Tablets  25 mg|
-|ace-inhibitor v1|emis|CATA482|Capoten  Tablets  50 mg|
-|ace-inhibitor v1|emis|CATA483|Captopril  Tablets  25 mg|
-|ace-inhibitor v1|emis|CATA484|Captopril  Tablets  50 mg|
-|ace-inhibitor v1|emis|CATA8616EGTON|Carace  Tablets  10 mg|
-|ace-inhibitor v1|emis|CATA8617EGTON|Carace  Tablets  2.5 mg|
-|ace-inhibitor v1|emis|CATA8618EGTON|Carace  Tablets  20 mg|
-|ace-inhibitor v1|emis|CATA8619EGTON|Carace  Tablets  5 mg|
-|ace-inhibitor v1|emis|CATA8735BRIDL|Capozide  Tablets  |
-|ace-inhibitor v1|emis|CATA9093EMIS|Carace 20 Plus  Tablets  |
-|ace-inhibitor v1|emis|CITA18897EMIS|Cilazapril  Tablets  1 mg|
-|ace-inhibitor v1|emis|CITA18898EMIS|Cilazapril  Tablets  2.5 mg|
-|ace-inhibitor v1|emis|CITA18899EMIS|Cilazapril  Tablets  250 micro|
-|ace-inhibitor v1|emis|CITA18900EMIS|Cilazapril  Tablets  500 micro|
-|ace-inhibitor v1|emis|CITA21966EMIS|Cilazapril  Tablets  5 mg|
-|ace-inhibitor v1|emis|COOR37465NEMIS|Cozaar  Oral suspension  2.5 m|
-|ace-inhibitor v1|emis|COTA12634NEMIS|Cozaar  Tablets  100 mg|
-|ace-inhibitor v1|emis|COTA12941NEMIS|Coversyl Plus  Tablets  |
-|ace-inhibitor v1|emis|COTA14418NEMIS|Coversyl  Tablets  8 mg|
-|ace-inhibitor v1|emis|COTA1596NEMIS|Co-Zidocapt 12.5/25  Tablets  |
-|ace-inhibitor v1|emis|COTA1597NEMIS|Co-Zidocapt 25/50  Tablets  |
-|ace-inhibitor v1|emis|COTA18415NEMIS|Co-Diovan  Tablets  160 mg/12.|
-|ace-inhibitor v1|emis|COTA18416NEMIS|Co-Diovan  Tablets  160 mg/25 |
-|ace-inhibitor v1|emis|COTA18922NEMIS|Co-Diovan  Tablets  80 mg/12.5|
-|ace-inhibitor v1|emis|COTA21151NEMIS|Cozaar-Comp  Tablets  100 mg +|
-|ace-inhibitor v1|emis|COTA23522NEMIS|Coaprovel  Tablets  300 mg + 2|
-|ace-inhibitor v1|emis|COTA26210EMIS|Cozaar  Tablets  25 mg|
-|ace-inhibitor v1|emis|COTA26211EMIS|Cozaar  Tablets  50 mg|
-|ace-inhibitor v1|emis|COTA28963NEMIS|Cozaar-Comp  Tablets  100 mg +|
-|ace-inhibitor v1|emis|COTA29341NEMIS|Coversyl Arginine  Tablets  2.|
-|ace-inhibitor v1|emis|COTA29342NEMIS|Coversyl Arginine  Tablets  5 |
-|ace-inhibitor v1|emis|COTA29343NEMIS|Coversyl Arginine  Tablets  10|
-|ace-inhibitor v1|emis|COTA29347NEMIS|Coversyl Arginine Plus  Tablet|
-|ace-inhibitor v1|emis|COTA30977EMIS|Cozaar-Comp  Tablets  50 mg + |
-|ace-inhibitor v1|emis|COTA35194NEMIS|Cozaar  Tablets  12.5 mg|
-|ace-inhibitor v1|emis|COTA37620MGEMIS|Co-Zidocapt 12.5/25  Tablets  |
-|ace-inhibitor v1|emis|COTA37621MGEMIS|Co-Zidocapt 12.5/25  Tablets  |
-|ace-inhibitor v1|emis|COTA37622MGEMIS|Co-Zidocapt 12.5/25  Tablets  |
-|ace-inhibitor v1|emis|COTA37623MGEMIS|Co-Zidocapt 12.5/25  Tablets  |
-|ace-inhibitor v1|emis|COTA37624MGEMIS|Co-Zidocapt 25/50  Tablets  (S|
-|ace-inhibitor v1|emis|COTA37625MGEMIS|Co-Zidocapt 25/50  Tablets  (U|
-|ace-inhibitor v1|emis|COTA37626MGEMIS|Co-Zidocapt 25/50  Tablets  (A|
-|ace-inhibitor v1|emis|COTA37627MGEMIS|Co-Zidocapt 25/50  Tablets  (K|
-|ace-inhibitor v1|emis|COTA5665NEMIS|Coaprovel  Tablets  150 mg + 1|
-|ace-inhibitor v1|emis|COTA5666NEMIS|Coaprovel  Tablets  300 mg + 1|
-|ace-inhibitor v1|emis|COTA9937BRIDL|Coversyl  Tablets  2 mg|
-|ace-inhibitor v1|emis|COTA9939BRIDL|Coversyl  Tablets  4 mg|
-|ace-inhibitor v1|emis|DICA29699EMIS|Diovan  Capsules  160 mg|
-|ace-inhibitor v1|emis|DICA29700EMIS|Diovan  Capsules  40 mg|
-|ace-inhibitor v1|emis|DICA29701EMIS|Diovan  Capsules  80 mg|
-|ace-inhibitor v1|emis|DIOR52801NEMIS|Diovan  Oral solution  3 mg/ml|
-|ace-inhibitor v1|emis|DITA19083NEMIS|Diovan  Tablets  40 mg|
-|ace-inhibitor v1|emis|DITA28965NEMIS|Diovan  Tablets  320 mg|
-|ace-inhibitor v1|emis|ECTA15781NEMIS|Ecopace  Tablets  12.5 mg|
-|ace-inhibitor v1|emis|ECTA15782NEMIS|Ecopace  Tablets  25 mg|
-|ace-inhibitor v1|emis|ECTA15783NEMIS|Ecopace  Tablets  50 mg|
-|ace-inhibitor v1|emis|ENTA1060|Enalapril Maleate  Tablets  10|
-|ace-inhibitor v1|emis|ENTA1062|Enalapril Maleate  Tablets  20|
-|ace-inhibitor v1|emis|ENTA1063|Enalapril Maleate  Tablets  5 |
-|ace-inhibitor v1|emis|ENTA18559NEMIS|Enalapril And Hydrochlorothiaz|
-|ace-inhibitor v1|emis|ENTA6935|Enalapril Maleate  Tablets  2.|
-|ace-inhibitor v1|emis|ENTI23994EMIS|Enalapril Maleate  Titration p|
-|ace-inhibitor v1|emis|ENWA31548LEEDS|Enalapril Maleate  Wafers  10 |
-|ace-inhibitor v1|emis|ENWA31549LEEDS|Enalapril Maleate  Wafers  2.5|
-|ace-inhibitor v1|emis|ENWA31550LEEDS|Enalapril Maleate  Wafers  20 |
-|ace-inhibitor v1|emis|ENWA31551LEEDS|Enalapril Maleate  Wafers  5 m|
-|ace-inhibitor v1|emis|ENWA31764EMIS|Enalapril Maleate  Wafers  10 |
-|ace-inhibitor v1|emis|ENWA31765EMIS|Enalapril Maleate  Wafers  2.5|
-|ace-inhibitor v1|emis|ENWA31766EMIS|Enalapril Maleate  Wafers  20 |
-|ace-inhibitor v1|emis|ENWA31767EMIS|Enalapril Maleate  Wafers  5 m|
-|ace-inhibitor v1|emis|EPTA3293NEMIS|Eprosartan  Tablets  300 mg|
-|ace-inhibitor v1|emis|EPTA3295NEMIS|Eprosartan  Tablets  400 mg|
-|ace-inhibitor v1|emis|EPTA3296NEMIS|Eprosartan  Tablets  600 mg|
-|ace-inhibitor v1|emis|EXTA23855NEMIS|Exforge  Tablets  5 mg/80 mg|
-|ace-inhibitor v1|emis|EXTA23856NEMIS|Exforge  Tablets  5 mg/160 mg|
-|ace-inhibitor v1|emis|EXTA23857NEMIS|Exforge  Tablets  10 mg/160 mg|
-|ace-inhibitor v1|emis|FOTA9320EMIS|Fosinopril Sodium  Tablets  10|
-|ace-inhibitor v1|emis|FOTA9321EMIS|Fosinopril Sodium  Tablets  20|
-|ace-inhibitor v1|emis|GOCA16732NEMIS|Gopten  Capsules  4 mg|
-|ace-inhibitor v1|emis|GOCA23759EMIS|Gopten  Capsules  1 mg|
-|ace-inhibitor v1|emis|GOCA23760EMIS|Gopten  Capsules  2 mg|
-|ace-inhibitor v1|emis|GOCA23761EMIS|Gopten  Capsules  500 microgra|
-|ace-inhibitor v1|emis|HYTA33752EMIS|Hyteneze  Tablets  12.5 mg|
-|ace-inhibitor v1|emis|HYTA33753EMIS|Hyteneze  Tablets  25 mg|
-|ace-inhibitor v1|emis|HYTA33754EMIS|Hyteneze  Tablets  50 mg|
-|ace-inhibitor v1|emis|IMTA35377EMIS|Imidapril Hydrochloride  Table|
-|ace-inhibitor v1|emis|IMTA35378EMIS|Imidapril Hydrochloride  Table|
-|ace-inhibitor v1|emis|IMTA4732NEMIS|Imidapril Hydrochloride  Table|
-|ace-inhibitor v1|emis|INTA1470|Innovace  Tablets  10 mg|
-|ace-inhibitor v1|emis|INTA1471|Innovace  Tablets  2.5 mg|
-|ace-inhibitor v1|emis|INTA1472|Innovace  Tablets  20 mg|
-|ace-inhibitor v1|emis|INTA1473|Innovace  Tablets  5 mg|
-|ace-inhibitor v1|emis|INTA9233EMIS|Innozide  Tablets  |
-|ace-inhibitor v1|emis|INTI23991EMIS|Innovace  Titration pack|
-|ace-inhibitor v1|emis|INWA31540LEEDS|Innovace Melt  Wafers  10 mg|
-|ace-inhibitor v1|emis|INWA31541LEEDS|Innovace Melt  Wafers  2.5 mg|
-|ace-inhibitor v1|emis|INWA31542LEEDS|Innovace Melt  Wafers  20 mg|
-|ace-inhibitor v1|emis|INWA31543LEEDS|Innovace Melt  Wafers  5 mg|
-|ace-inhibitor v1|emis|INWA31756EMIS|Innovace Melt  Wafers  10 mg|
-|ace-inhibitor v1|emis|INWA31757EMIS|Innovace Melt  Wafers  2.5 mg|
-|ace-inhibitor v1|emis|INWA31758EMIS|Innovace Melt  Wafers  20 mg|
-|ace-inhibitor v1|emis|INWA31759EMIS|Innovace Melt  Wafers  5 mg|
-|ace-inhibitor v1|emis|IRTA18540NEMIS|Irbesartan And Hydrochlorothia|
-|ace-inhibitor v1|emis|IRTA18541NEMIS|Irbesartan And Hydrochlorothia|
-|ace-inhibitor v1|emis|IRTA23521NEMIS|Irbesartan And Hydrochlorothia|
-|ace-inhibitor v1|emis|IRTA31576EMIS|Irbesartan  Tablets  150 mg|
-|ace-inhibitor v1|emis|IRTA31577EMIS|Irbesartan  Tablets  300 mg|
-|ace-inhibitor v1|emis|IRTA31578EMIS|Irbesartan  Tablets  75 mg|
-|ace-inhibitor v1|emis|KATA32855EMIS|Kaplon  Tablets  12.5 mg|
-|ace-inhibitor v1|emis|KATA32856EMIS|Kaplon  Tablets  25 mg|
-|ace-inhibitor v1|emis|KATA32857EMIS|Kaplon  Tablets  50 mg|
-|ace-inhibitor v1|emis|LITA18535NEMIS|Lisinopril And Hydrochlorothia|
-|ace-inhibitor v1|emis|LITA18536NEMIS|Lisinopril And Hydrochlorothia|
-|ace-inhibitor v1|emis|LITA20104NEMIS|Lisicostad  Tablets  10 mg + 1|
-|ace-inhibitor v1|emis|LITA20105NEMIS|Lisicostad  Tablets  20 mg + 1|
-|ace-inhibitor v1|emis|LITA8608EGTON|Lisinopril  Tablets  10 mg|
-|ace-inhibitor v1|emis|LITA8609EGTON|Lisinopril  Tablets  2.5 mg|
-|ace-inhibitor v1|emis|LITA8610EGTON|Lisinopril  Tablets  20 mg|
-|ace-inhibitor v1|emis|LITA8611EGTON|Lisinopril  Tablets  5 mg|
-|ace-inhibitor v1|emis|LOCA18516NEMIS|Lopace  Capsules  2.5 mg|
-|ace-inhibitor v1|emis|LOCA18517NEMIS|Lopace  Capsules  5 mg|
-|ace-inhibitor v1|emis|LOCA18518NEMIS|Lopace  Capsules  10 mg|
-|ace-inhibitor v1|emis|LOOR37464NEMIS|Losartan Potassium  Oral Suspe|
-|ace-inhibitor v1|emis|LOTA12633NEMIS|Losartan Potassium  Tablets  1|
-|ace-inhibitor v1|emis|LOTA18550NEMIS|Losartan And Hydrochlorothiazi|
-|ace-inhibitor v1|emis|LOTA21150NEMIS|Losartan And Hydrochlorothiazi|
-|ace-inhibitor v1|emis|LOTA26214EMIS|Losartan Potassium  Tablets  2|
-|ace-inhibitor v1|emis|LOTA26215EMIS|Losartan Potassium  Tablets  5|
-|ace-inhibitor v1|emis|LOTA28962NEMIS|Losartan And Hydrochlorothiazi|
-|ace-inhibitor v1|emis|LOTA35193NEMIS|Losartan Potassium  Tablets  1|
-|ace-inhibitor v1|emis|MITA1045NEMIS|Micardis  Tablets  40 mg|
-|ace-inhibitor v1|emis|MITA1046NEMIS|Micardis  Tablets  80 mg|
-|ace-inhibitor v1|emis|MITA14652NEMIS|Micardis Plus  Tablets  40 mg/|
-|ace-inhibitor v1|emis|MITA14653NEMIS|Micardis Plus  Tablets  80 mg/|
-|ace-inhibitor v1|emis|MITA30444NEMIS|Micardis Plus  Tablets  80 mg/|
-|ace-inhibitor v1|emis|MITA6417NEMIS|Micardis  Tablets  20 mg|
-|ace-inhibitor v1|emis|MOTA28131EMIS|Moexipril Hydrochloride  Table|
-|ace-inhibitor v1|emis|MOTA28132EMIS|Moexipril Hydrochloride  Table|
-|ace-inhibitor v1|emis|ODCA23765EMIS|Odrik  Capsules  1 mg|
-|ace-inhibitor v1|emis|ODCA23766EMIS|Odrik  Capsules  2 mg|
-|ace-inhibitor v1|emis|ODCA23767EMIS|Odrik  Capsules  500 microgram|
-|ace-inhibitor v1|emis|OLTA15758NEMIS|Olmesartan Medoxomil  Tablets |
-|ace-inhibitor v1|emis|OLTA15760NEMIS|Olmesartan Medoxomil  Tablets |
-|ace-inhibitor v1|emis|OLTA15761NEMIS|Olmesartan Medoxomil  Tablets |
-|ace-inhibitor v1|emis|OLTA15763NEMIS|Olmetec  Tablets  10 mg|
-|ace-inhibitor v1|emis|OLTA15764NEMIS|Olmetec  Tablets  20 mg|
-|ace-inhibitor v1|emis|OLTA15765NEMIS|Olmetec  Tablets  40 mg|
-|ace-inhibitor v1|emis|OLTA22330NEMIS|Olmesartan Medoxomil And Hydro|
-|ace-inhibitor v1|emis|OLTA22331NEMIS|Olmesartan Medoxomil And Hydro|
-|ace-inhibitor v1|emis|OLTA22333NEMIS|Olmetec Plus  Tablets  20 mg/1|
-|ace-inhibitor v1|emis|OLTA22334NEMIS|Olmetec Plus  Tablets  20 mg/2|
-|ace-inhibitor v1|emis|OLTA35715NEMIS|Olmesartan Medoxomil And Amlod|
-|ace-inhibitor v1|emis|OLTA35716NEMIS|Olmesartan Medoxomil And Amlod|
-|ace-inhibitor v1|emis|OLTA35717NEMIS|Olmesartan Medoxomil And Amlod|
-|ace-inhibitor v1|emis|OLTA42106NEMIS|Olmesartan Medoxomil And Hydro|
-|ace-inhibitor v1|emis|OLTA42107NEMIS|Olmetec Plus  Tablets  40 mg/1|
-|ace-inhibitor v1|emis|PETA14419NEMIS|Perindopril Erbumine  Tablets |
-|ace-inhibitor v1|emis|PETA18548NEMIS|Perindopril And Indapamide  Ta|
-|ace-inhibitor v1|emis|PETA28127EMIS|Perdix  Tablets  15 mg|
-|ace-inhibitor v1|emis|PETA28128EMIS|Perdix  Tablets  7.5 mg|
-|ace-inhibitor v1|emis|PETA29336NEMIS|Perindopril Arginine  Tablets |
-|ace-inhibitor v1|emis|PETA29338NEMIS|Perindopril Arginine  Tablets |
-|ace-inhibitor v1|emis|PETA29339NEMIS|Perindopril Arginine  Tablets |
-|ace-inhibitor v1|emis|PETA29345NEMIS|Perindopril Arginine And Indap|
-|ace-inhibitor v1|emis|PETA9809HILLI|Perindopril Erbumine  Tablets |
-|ace-inhibitor v1|emis|PETA9810HILLI|Perindopril Erbumine  Tablets |
-|ace-inhibitor v1|emis|PRTA1932NEMIS|Pralenal  Tablets  2.5 mg|
-|ace-inhibitor v1|emis|PRTA1933NEMIS|Pralenal  Tablets  5 mg|
-|ace-inhibitor v1|emis|PRTA1934NEMIS|Pralenal  Tablets  10 mg|
-|ace-inhibitor v1|emis|PRTA1935NEMIS|Pralenal  Tablets  20 mg|
-|ace-inhibitor v1|emis|QUTA10125BRIDL|Quinapril  Tablets  5 mg|
-|ace-inhibitor v1|emis|QUTA10127BRIDL|Quinapril  Tablets  10 mg|
-|ace-inhibitor v1|emis|QUTA10129BRIDL|Quinapril  Tablets  20 mg|
-|ace-inhibitor v1|emis|QUTA10131BRIDL|Quinapril  Tablets  40 mg|
-|ace-inhibitor v1|emis|QUTA18531NEMIS|Quinapril And Hydrochlorothiaz|
-|ace-inhibitor v1|emis|QUTA20155NEMIS|Quinil  Tablets  5 mg|
-|ace-inhibitor v1|emis|QUTA20156NEMIS|Quinil  Tablets  10 mg|
-|ace-inhibitor v1|emis|QUTA20157NEMIS|Quinil  Tablets  20 mg|
-|ace-inhibitor v1|emis|QUTA20158NEMIS|Quinil  Tablets  40 mg|
-|ace-inhibitor v1|emis|RACA19070NEMIS|Ranace  Capsules  1.25 mg|
-|ace-inhibitor v1|emis|RACA19071NEMIS|Ranace  Capsules  2.5 mg|
-|ace-inhibitor v1|emis|RACA19072NEMIS|Ranace  Capsules  5 mg|
-|ace-inhibitor v1|emis|RACA19073NEMIS|Ranace  Capsules  10 mg|
-|ace-inhibitor v1|emis|RACA36826MGEMIS|Ramipril  Capsules  2.5 mg (Te|
-|ace-inhibitor v1|emis|RACA36827MGEMIS|Ramipril  Capsules  2.5 mg (Sa|
-|ace-inhibitor v1|emis|RACA36828MGEMIS|Ramipril  Capsules  2.5 mg (Ge|
-|ace-inhibitor v1|emis|RACA36829MGEMIS|Ramipril  Capsules  2.5 mg (Wi|
-|ace-inhibitor v1|emis|RACA36830MGEMIS|Ramipril  Capsules  2.5 mg (Ke|
-|ace-inhibitor v1|emis|RACA36831MGEMIS|Ramipril  Capsules  2.5 mg (A.|
-|ace-inhibitor v1|emis|RACA36832MGEMIS|Ramipril  Capsules  2.5 mg (Un|
-|ace-inhibitor v1|emis|RACA36833MGEMIS|Ramipril  Capsules  2.5 mg (Ge|
-|ace-inhibitor v1|emis|RACA36834MGEMIS|Ramipril  Capsules  2.5 mg (Ra|
-|ace-inhibitor v1|emis|RACA36835MGEMIS|Ramipril  Capsules  2.5 mg (Al|
-|ace-inhibitor v1|emis|RACA36836MGEMIS|Ramipril  Capsules  5 mg (Teva|
-|ace-inhibitor v1|emis|RACA36837MGEMIS|Ramipril  Capsules  5 mg (Sand|
-|ace-inhibitor v1|emis|RACA36838MGEMIS|Ramipril  Capsules  5 mg (Genu|
-|ace-inhibitor v1|emis|RACA36839MGEMIS|Ramipril  Capsules  5 mg (Wint|
-|ace-inhibitor v1|emis|RACA36840MGEMIS|Ramipril  Capsules  5 mg (Kent|
-|ace-inhibitor v1|emis|RACA36841MGEMIS|Ramipril  Capsules  5 mg (A.A.|
-|ace-inhibitor v1|emis|RACA36842MGEMIS|Ramipril  Capsules  5 mg (Unic|
-|ace-inhibitor v1|emis|RACA36843MGEMIS|Ramipril  Capsules  5 mg (Gene|
-|ace-inhibitor v1|emis|RACA36844MGEMIS|Ramipril  Capsules  5 mg (Ranb|
-|ace-inhibitor v1|emis|RACA36845MGEMIS|Ramipril  Capsules  5 mg (Alph|
-|ace-inhibitor v1|emis|RACA37593MGEMIS|Ramipril  Capsules  10 mg (Tev|
-|ace-inhibitor v1|emis|RACA37594MGEMIS|Ramipril  Capsules  10 mg (San|
-|ace-inhibitor v1|emis|RACA37595MGEMIS|Ramipril  Capsules  10 mg (Gen|
-|ace-inhibitor v1|emis|RACA37596MGEMIS|Ramipril  Capsules  10 mg (Win|
-|ace-inhibitor v1|emis|RACA37597MGEMIS|Ramipril  Capsules  10 mg (Ken|
-|ace-inhibitor v1|emis|RACA37598MGEMIS|Ramipril  Capsules  10 mg (A.A|
-|ace-inhibitor v1|emis|RACA37599MGEMIS|Ramipril  Capsules  10 mg (Uni|
-|ace-inhibitor v1|emis|RACA37600MGEMIS|Ramipril  Capsules  10 mg (Gen|
-|ace-inhibitor v1|emis|RACA37601MGEMIS|Ramipril  Capsules  10 mg (Ran|
-|ace-inhibitor v1|emis|RACA37602MGEMIS|Ramipril  Capsules  10 mg (Alp|
-|ace-inhibitor v1|emis|RACA57NEMIS|Ramipril  Capsules  10 mg|
-|ace-inhibitor v1|emis|RACA8950EMIS|Ramipril  Capsules  1.25 mg|
-|ace-inhibitor v1|emis|RACA8951EMIS|Ramipril  Capsules  2.5 mg|
-|ace-inhibitor v1|emis|RACA8952EMIS|Ramipril  Capsules  5 mg|
-|ace-inhibitor v1|emis|RAOR33337NEMIS|Ramipril  Oral suspension  2.5|
-|ace-inhibitor v1|emis|RAOR45589NEMIS|Ramipril  Oral solution  10 mg|
-|ace-inhibitor v1|emis|RAOR45617NEMIS|Ramipril  Oral solution  5 mg/|
-|ace-inhibitor v1|emis|RAOR45619NEMIS|Ramipril  Oral solution  2.5 m|
-|ace-inhibitor v1|emis|RAOR46795NEMIS|Ramipril  Oral solution  1.25 |
-|ace-inhibitor v1|emis|RAOR52661NEMIS|Ramipril  Oral Solution|
-|ace-inhibitor v1|emis|RAPO22025NEMIS|Ramipril  Powder For Oral Susp|
-|ace-inhibitor v1|emis|RASU14943NEMIS|Ramipril  Suspension  5 mg/5 m|
-|ace-inhibitor v1|emis|RASU25475NEMIS|Ramipril  Suspension  1.25 mg/|
-|ace-inhibitor v1|emis|RASU45590NEMIS|Ramipril  Oral suspension  10 |
-|ace-inhibitor v1|emis|RATA16399NEMIS|Ramipril  Tablets  1.25 mg|
-|ace-inhibitor v1|emis|RATA16400NEMIS|Ramipril  Tablets  2.5 mg|
-|ace-inhibitor v1|emis|RATA16401NEMIS|Ramipril  Tablets  5 mg|
-|ace-inhibitor v1|emis|RATA16402NEMIS|Ramipril  Tablets  10 mg|
-|ace-inhibitor v1|emis|RATA18576NEMIS|Ramipril And M/r Felodipine  T|
-|ace-inhibitor v1|emis|RATA18577NEMIS|Ramipril And M/r Felodipine  T|
-|ace-inhibitor v1|emis|RATI12695NEMIS|Ramipril  Titration pack  7 x |
-|ace-inhibitor v1|emis|SETA35719NEMIS|Sevikar  Tablets  20 mg + 5 mg|
-|ace-inhibitor v1|emis|SETA35720NEMIS|Sevikar  Tablets  40 mg + 5 mg|
-|ace-inhibitor v1|emis|SETA35721NEMIS|Sevikar  Tablets  40 mg + 10 m|
-|ace-inhibitor v1|emis|SETA48962NEMIS|Sevikar Hct  Tablets  20 mg + |
-|ace-inhibitor v1|emis|SETA48963NEMIS|Sevikar Hct  Tablets  40 mg + |
-|ace-inhibitor v1|emis|SETA48964NEMIS|Sevikar Hct  Tablets  40 mg + |
-|ace-inhibitor v1|emis|SETA48965NEMIS|Sevikar Hct  Tablets  40 mg + |
-|ace-inhibitor v1|emis|SETA48966NEMIS|Sevikar Hct  Tablets  40 mg + |
-|ace-inhibitor v1|emis|STTA9316EMIS|Staril  Tablets  10 mg|
-|ace-inhibitor v1|emis|STTA9317EMIS|Staril  Tablets  20 mg|
-|ace-inhibitor v1|emis|TAM/31589EMIS|Tarka  M/R capsules  |
-|ace-inhibitor v1|emis|TATA35373EMIS|Tanatril  Tablets  10 mg|
-|ace-inhibitor v1|emis|TATA35374EMIS|Tanatril  Tablets  5 mg|
-|ace-inhibitor v1|emis|TATA4731NEMIS|Tanatril  Tablets  20 mg|
-|ace-inhibitor v1|emis|TETA1042NEMIS|Telmisartan  Tablets  40 mg|
-|ace-inhibitor v1|emis|TETA1044NEMIS|Telmisartan  Tablets  80 mg|
-|ace-inhibitor v1|emis|TETA15547NEMIS|Tensopril  Tablets  12.5 mg|
-|ace-inhibitor v1|emis|TETA15548NEMIS|Tensopril  Tablets  25 mg|
-|ace-inhibitor v1|emis|TETA15549NEMIS|Tensopril  Tablets  50 mg|
-|ace-inhibitor v1|emis|TETA18566NEMIS|Telmisartan And Hydrochlorothi|
-|ace-inhibitor v1|emis|TETA18567NEMIS|Telmisartan And Hydrochlorothi|
-|ace-inhibitor v1|emis|TETA3339NEMIS|Teveten  Tablets  300 mg|
-|ace-inhibitor v1|emis|TETA3340NEMIS|Teveten  Tablets  400 mg|
-|ace-inhibitor v1|emis|TETA3341NEMIS|Teveten  Tablets  600 mg|
-|ace-inhibitor v1|emis|TETA6416NEMIS|Telmisartan  Tablets  20 mg|
-|ace-inhibitor v1|emis|TRCA16731NEMIS|Trandolapril  Capsules  4 mg|
-|ace-inhibitor v1|emis|TRCA23771EMIS|Trandolapril  Capsules  1 mg|
-|ace-inhibitor v1|emis|TRCA23772EMIS|Trandolapril  Capsules  2 mg|
-|ace-inhibitor v1|emis|TRCA23773EMIS|Trandolapril  Capsules  500 mi|
-|ace-inhibitor v1|emis|TRCA58NEMIS|Tritace  Capsules  10 mg|
-|ace-inhibitor v1|emis|TRCA8944EMIS|Tritace  Capsules  1.25 mg|
-|ace-inhibitor v1|emis|TRCA8945EMIS|Tritace  Capsules  2.5 mg|
-|ace-inhibitor v1|emis|TRCA8946EMIS|Tritace  Capsules  5 mg|
-|ace-inhibitor v1|emis|TRM/18572NEMIS|Trandolapril And Verapamil  M/|
-|ace-inhibitor v1|emis|TRTA16403NEMIS|Tritace  Tablets  1.25 mg|
-|ace-inhibitor v1|emis|TRTA16404NEMIS|Tritace  Tablets  2.5 mg|
-|ace-inhibitor v1|emis|TRTA16405NEMIS|Tritace  Tablets  5 mg|
-|ace-inhibitor v1|emis|TRTA16406NEMIS|Tritace  Tablets  10 mg|
-|ace-inhibitor v1|emis|TRTA30134NEMIS|Tritace  Tablet Titration Pack|
-|ace-inhibitor v1|emis|TRTA828NEMIS|Triapin Mite  Tablets  |
-|ace-inhibitor v1|emis|TRTA829NEMIS|Triapin  M/R tablets  5 mg + 5|
-|ace-inhibitor v1|emis|TRTI12696NEMIS|Tritace  Titration pack  7 x 2|
-|ace-inhibitor v1|emis|VACA29705EMIS|Valsartan  Capsules  160 mg|
-|ace-inhibitor v1|emis|VACA29706EMIS|Valsartan  Capsules  40 mg|
-|ace-inhibitor v1|emis|VACA29707EMIS|Valsartan  Capsules  80 mg|
-|ace-inhibitor v1|emis|VAOR52800NEMIS|Valsartan  Oral solution  3 mg|
-|ace-inhibitor v1|emis|VATA18545NEMIS|Valsartan And Hydrochlorothiaz|
-|ace-inhibitor v1|emis|VATA18546NEMIS|Valsartan And Hydrochlorothiaz|
-|ace-inhibitor v1|emis|VATA18921NEMIS|Valsartan And Hydrochlorothiaz|
-|ace-inhibitor v1|emis|VATA19082NEMIS|Valsartan  Tablets  40 mg|
-|ace-inhibitor v1|emis|VATA21964EMIS|Vascace  Tablets  5 mg|
-|ace-inhibitor v1|emis|VATA28964NEMIS|Valsartan  Tablets  320 mg|
-|ace-inhibitor v1|emis|VATA9150EMIS|Vascace  Tablets  1 mg|
-|ace-inhibitor v1|emis|VATA9151EMIS|Vascace  Tablets  2.5 mg|
-|ace-inhibitor v1|emis|VATA9152EMIS|Vascace  Tablets  250 microgra|
-|ace-inhibitor v1|emis|VATA9153EMIS|Vascace  Tablets  500 microgra|
-|ace-inhibitor v1|emis|ZETA24152EMIS|Zestoretic 10  Tablets  |
-|ace-inhibitor v1|emis|ZETA8600EGTON|Zestril  Tablets  10 mg|
-|ace-inhibitor v1|emis|ZETA8601EGTON|Zestril  Tablets  2.5 mg|
-|ace-inhibitor v1|emis|ZETA8602EGTON|Zestril  Tablets  20 mg|
-|ace-inhibitor v1|emis|ZETA8603EGTON|Zestril  Tablets  5 mg|
-|ace-inhibitor v1|emis|ZETA9096EMIS|Zestoretic 20  Tablets  |
-|ace-inhibitor v1|emis|AMTA23851NEMIS|Amlodipine 5mg / Valsartan 80mg tablets  |
-|ace-inhibitor v1|emis|CAOR16699NEMIS|Captopril 25mg/5ml oral solution  |
-|ace-inhibitor v1|emis|CAOR37227NEMIS|Captopril 25mg/5ml oral suspension  |
-|ace-inhibitor v1|emis|CATA27881EMIS|Captopril  Tablets  2 mg  |
-|ace-inhibitor v1|emis|ENOR20099NEMIS|Enalapril Maleate  Oral Suspension Sugar Free  5 mg/5 ml  |
-|ace-inhibitor v1|emis|LIOR46489NEMIS|Lisinopril  Oral Solution  7.5 mg/5 ml  |
-|ace-inhibitor v1|emis|LISU18409NEMIS|Lisinopril 5mg/5ml oral suspension  |
-|ace-inhibitor v1|emis|OLOR27110NEMIS|Olmesartan  Oral Suspension  10 mg/5 ml  |
-|ace-inhibitor v1|emis|PEOR25486NEMIS|Perindopril  Oral Suspension  8 mg/5 ml  |
-|ace-inhibitor v1|emis|PEOR45595NEMIS|Perindopril  Oral suspension  4 mg/5 ml  |
-|ace-inhibitor v1|emis|TETA30443NEMIS|Telmisartan 80mg / Hydrochlorothiazide 25mg tablets  |
-|ace-inhibitor v1|emis|VATA52642NEMIS|Valsartan 160mg tablets|
-|ace-inhibitor v1|emis|NOOR86935NEMIS|Noyada  Oral solution  5 mg/5 ml|
-|ace-inhibitor v1|emis|ENOR46734NEMIS|Enalapril Maleate  Oral solution  5 mg/5 ml|
-|ace-inhibitor v1|emis|LIOR45616NEMIS|Lisinopril  Oral solution  5 mg/5 ml|
-|ace-inhibitor v1|emis|SATA108558NEMIS|Sacubitril And Valsartan  Tablets  97 mg + 103 mg|
-|ace-inhibitor v1|emis|AZTA72358NEMIS|Azilsartan Medoxomil  Tablets  40 mg|
-|ace-inhibitor v1|emis|CAOR46832NEMIS|Captopril  Oral solution  5 mg/5 ml|
-|ace-inhibitor v1|emis|LIOR46490NEMIS|Lisinopril  Oral suspension  7.5 mg/5 ml|
-|ace-inhibitor v1|emis|LOOR46493NEMIS|Losartan Potassium  Oral solution  50 mg/5 ml|
-|ace-inhibitor v1|emis|PETA88540NEMIS|Perindopril Erbumine And Amlodipine  Tablets  4 mg + 5 mg|
-|ace-inhibitor v1|emis|VATA52641NEMIS|Valsartan  Tablets  80 mg|
-|ace-inhibitor v1|emis|CAOR88580NEMIS|Captopril  Oral Solution, Sugar Free  25 mg/5 ml|
-|ace-inhibitor v1|emis|CAOR88581NEMIS|Captopril  Oral Solution, Sugar Free  5 mg/5 ml|
-|ace-inhibitor v1|emis|CASU11859NEMIS|Captopril  Suspension  1 mg/ml|
-|ace-inhibitor v1|emis|LIOR47356NEMIS|Lisinopril  Oral solution  20 mg/5 ml|
-|ace-inhibitor v1|emis|ENTA108560NEMIS|Entresto  Tablets  24 mg + 26 mg|
-|ace-inhibitor v1|emis|NOOR86935NEMIS|Noyada  Oral solution  5 mg/5 ml|
-|ace-inhibitor v1|emis|LIOR105352NEMIS|Lisinopril  Oral Solution, Sugar Free  5 mg/5 ml|
-|ace-inhibitor v1|emis|LIOR46488NEMIS|Lisinopril  Oral suspension  2.5 mg/5 ml|
-|ace-inhibitor v1|emis|VATA52641NEMIS|Valsartan  Tablets  80 mg|
-|ace-inhibitor v1|emis|AZTA72356NEMIS|Azilsartan Medoxomil  Tablets  20 mg|
-|ace-inhibitor v1|emis|CAOR45712NEMIS|Captopril  Oral solution  12.5 mg/5 ml|
-|ace-inhibitor v1|emis|TRTA121058NEMIS|Tritace  Tablet Titration Pack  |
-|ace-inhibitor v1|emis|CAOR46832NEMIS|Captopril  Oral solution  5 mg/5 ml|
-|ace-inhibitor v1|emis|AZTA72358NEMIS|Azilsartan Medoxomil  Tablets  40 mg|
-|ace-inhibitor v1|emis|CAOR21537NEMIS|Captopril  Oral solution  3 mg/5 ml|
-|ace-inhibitor v1|emis|ENTA108561NEMIS|Entresto  Tablets  49 mg + 51 mg|
-|ace-inhibitor v1|emis|LOOR46494NEMIS|Losartan Potassium  Oral suspension  50 mg/5 ml|
-|ace-inhibitor v1|emis|CAOR88581NEMIS|Captopril  Oral Solution, Sugar Free  5 mg/5 ml|
-|ace-inhibitor v1|emis|ENOR46735NEMIS|Enalapril Maleate  Oral suspension  5 mg/5 ml|
-|ace-inhibitor v1|emis|ENTA108562NEMIS|Entresto  Tablets  97 mg + 103 mg|
-|ace-inhibitor v1|emis|LIOR105352NEMIS|Lisinopril  Oral Solution, Sugar Free  5 mg/5 ml|
-|ace-inhibitor v1|emis|SATA108555NEMIS|Sacubitril And Valsartan  Tablets  24 mg + 26 mg|
-|ace-inhibitor v1|emis|SATA108557NEMIS|Sacubitril And Valsartan  Tablets  49 mg + 51 mg|
-|ace-inhibitor v1|emis|AZTA72356NEMIS|Azilsartan Medoxomil  Tablets  20 mg|
-|ace-inhibitor v1|emis|CAOR88580NEMIS|Captopril  Oral Solution, Sugar Free  25 mg/5 ml|
-|ace-inhibitor v1|emis|PETA88542NEMIS|Perindopril Erbumine And Amlodipine  Tablets  8 mg + 5 mg|
-|ace-inhibitor v1|readv2|bA...|CA-CHANNEL BLOCKER+ACE INHIBIT|
-|ace-inhibitor v1|readv2|bA1..|FELODIPINE+RAMIPRIL|
-|ace-inhibitor v1|readv2|bA11.|TRIAPIN MITE 2.5mg/2.5mg tabs|
-|ace-inhibitor v1|readv2|bA12.|TRIAPIN 5mg/5mg tablets|
-|ace-inhibitor v1|readv2|bA1y.|FELODIP+RAMIPRL 2.5/2.5mg tabs|
-|ace-inhibitor v1|readv2|bA1z.|FELODIPINE+RAMIPRIL 5/5mg tabs|
-|ace-inhibitor v1|readv2|bi...|ACE INHIBITORS|
-|ace-inhibitor v1|readv2|bi1..|CAPTOPRIL|
-|ace-inhibitor v1|readv2|bi11.|ACEPRIL 12.5mg tablets|
-|ace-inhibitor v1|readv2|bi12.|ACEPRIL 25mg tablets|
-|ace-inhibitor v1|readv2|bi13.|ACEPRIL 25mg tablets x56|
-|ace-inhibitor v1|readv2|bi14.|ACEPRIL 50mg tablets|
-|ace-inhibitor v1|readv2|bi15.|ACEPRIL 50mg tablets x56|
-|ace-inhibitor v1|readv2|bi16.|*CAPOTEN 12.5mg tablets|
-|ace-inhibitor v1|readv2|bi17.|CAPOTEN 25mg tablets|
-|ace-inhibitor v1|readv2|bi18.|CAPOTEN 25mg tablets x56|
-|ace-inhibitor v1|readv2|bi19.|CAPOTEN 50mg tablets|
-|ace-inhibitor v1|readv2|bi1a.|CAPOTEN 50mg tablets x56|
-|ace-inhibitor v1|readv2|bi1A.|*HYPAPRIL 12.5mg tablets|
-|ace-inhibitor v1|readv2|bi1b.|ACEZIDE 50mg tablets x56|
-|ace-inhibitor v1|readv2|bi1B.|*HYPAPRIL 25mg tablets|
-|ace-inhibitor v1|readv2|bi1c.|*CAPOZIDE 50mg tablets x28|
-|ace-inhibitor v1|readv2|bi1C.|*HYPAPRIL 50mg tablets|
-|ace-inhibitor v1|readv2|bi1d.|*CAPOZIDE LS 25mg tabletsx28CP|
-|ace-inhibitor v1|readv2|bi1D.|*CAPTO-CO 25mg/12.5mg tablets|
-|ace-inhibitor v1|readv2|bi1e.|CAPTOP+HYDROCHL 25/12.5mg tabs|
-|ace-inhibitor v1|readv2|bi1E.|*CAPTO-CO 50mg/25mg tablets|
-|ace-inhibitor v1|readv2|bi1F.|*CO-ZIDOCAPT 25/12.5mg tablets|
-|ace-inhibitor v1|readv2|bi1g.|ECOPACE 12.5mg tablets|
-|ace-inhibitor v1|readv2|bi1G.|*CO-ZIDOCAPT 50mg/25mg tablets|
-|ace-inhibitor v1|readv2|bi1h.|ECOPACE 25mg tablets|
-|ace-inhibitor v1|readv2|bi1i.|ECOPACE 50mg tablets|
-|ace-inhibitor v1|readv2|bi1j.|*KAPLON 12.5mg tablets|
-|ace-inhibitor v1|readv2|bi1H.|NOYADA 5mg/5mL oral solution|
-|ace-inhibitor v1|readv2|bi1J.|NOYADA 25mg/5mL oral solution|
-|ace-inhibitor v1|readv2|bi1k.|*KAPLON 25mg tablets|
-|ace-inhibitor v1|readv2|bi1l.|*KAPLON 50mg tablets|
-|ace-inhibitor v1|readv2|bi1m.|*HYTENEZE 12.5 tablets|
-|ace-inhibitor v1|readv2|bi1n.|*HYTENEZE 25 tablets|
-|ace-inhibitor v1|readv2|bi1o.|*HYTENEZE 50 tablets|
-|ace-inhibitor v1|readv2|bi1p.|*TENSOPRIL 12.5mg tablets|
-|ace-inhibitor v1|readv2|bi1q.|*TENSOPRIL 25mg tablets|
-|ace-inhibitor v1|readv2|bi1r.|*TENSOPRIL 50mg tablets|
-|ace-inhibitor v1|readv2|bi1s.|CAPOZIDE 50mg/25mg tablets|
-|ace-inhibitor v1|readv2|bi1v.|CAPTOPRIL 12.5mg tablets|
-|ace-inhibitor v1|readv2|bi1w.|CAPTOPRIL 25mg tablets|
-|ace-inhibitor v1|readv2|bi1x.|CAPTOPRIL 25mg tablets x56|
-|ace-inhibitor v1|readv2|bi1y.|CAPTOPRIL 50mg tablets x56|
-|ace-inhibitor v1|readv2|bi1z.|CAPTOPRIL 50mg tablets|
-|ace-inhibitor v1|readv2|bi2..|ENALAPRIL MALEATE|
-|ace-inhibitor v1|readv2|bi21.|INNOVACE 2.5mg tablets|
-|ace-inhibitor v1|readv2|bi22.|INNOVACE 5mg tablets|
-|ace-inhibitor v1|readv2|bi23.|INNOVACE 5mg tablets x28|
-|ace-inhibitor v1|readv2|bi24.|INNOVACE 10mg tablets|
-|ace-inhibitor v1|readv2|bi25.|INNOVACE 10mg tablets x28|
-|ace-inhibitor v1|readv2|bi26.|INNOVACE 20mg tablets|
-|ace-inhibitor v1|readv2|bi27.|INNOVACE 20mg tablets x28|
-|ace-inhibitor v1|readv2|bi28.|INNOZIDE 20/12.5mg tablets|
-|ace-inhibitor v1|readv2|bi29.|*INNOVACE tabs titration pack|
-|ace-inhibitor v1|readv2|bi2a.|*ENALAPRIL MAL tabs titre pack|
-|ace-inhibitor v1|readv2|bi2A.|*ENALAPRIL MALEATE 2.5mg wafer|
-|ace-inhibitor v1|readv2|bi2b.|ENALAP+HYDROCHL 20/12.5mg tabs|
-|ace-inhibitor v1|readv2|bi2B.|*ENALAPRIL MALEATE 5mg wafer|
-|ace-inhibitor v1|readv2|bi2C.|*ENALAPRIL MALEATE 10mg wafer|
-|ace-inhibitor v1|readv2|bi2D.|*ENALAPRIL MALEATE 20mg wafer|
-|ace-inhibitor v1|readv2|bi2E.|*INNOVACE MELT 2.5mg wafer|
-|ace-inhibitor v1|readv2|bi2F.|*INNOVACE MELT 5mg wafer|
-|ace-inhibitor v1|readv2|bi2G.|*INNOVACE MELT 10mg wafer|
-|ace-inhibitor v1|readv2|bi2H.|*INNOVACE MELT 20mg wafer|
-|ace-inhibitor v1|readv2|bi2J.|*PRALENAL 2.5mg tablets|
-|ace-inhibitor v1|readv2|bi2K.|*PRALENAL 5mg tablets|
-|ace-inhibitor v1|readv2|bi2L.|*PRALENAL 10mg tablets|
-|ace-inhibitor v1|readv2|bi2M.|*PRALENAL 20mg tablets|
-|ace-inhibitor v1|readv2|bi2t.|ENALAPRIL MALEATE 2.5mg tabs|
-|ace-inhibitor v1|readv2|bi2u.|ENALAPRIL MALEATE 5mg tablets|
-|ace-inhibitor v1|readv2|bi2v.|ENALAPRIL MALEATE 5mg tabs x28|
-|ace-inhibitor v1|readv2|bi2w.|ENALAPRIL MALEATE 10mg tablets|
-|ace-inhibitor v1|readv2|bi2x.|ENALAPRIL MAL 10mg tabs x28|
-|ace-inhibitor v1|readv2|bi2y.|ENALAPRIL MALEATE 20mg tablets|
-|ace-inhibitor v1|readv2|bi2z.|ENALAPRIL MAL 20mg tabs x28|
-|ace-inhibitor v1|readv2|bi3..|LISINOPRIL|
-|ace-inhibitor v1|readv2|bi31.|LISINOPRIL 2.5mg tablets|
-|ace-inhibitor v1|readv2|bi32.|LISINOPRIL 5mg tablets|
-|ace-inhibitor v1|readv2|bi33.|LISINOPRIL 10mg tablets|
-|ace-inhibitor v1|readv2|bi34.|LISINOPRIL 20mg tablets|
-|ace-inhibitor v1|readv2|bi35.|*CARACE 2.5mg tablets|
-|ace-inhibitor v1|readv2|bi36.|*CARACE 5mg tablets 28CP|
-|ace-inhibitor v1|readv2|bi37.|*CARACE 5mg tablets|
-|ace-inhibitor v1|readv2|bi38.|*CARACE 10mg tablets 28CP|
-|ace-inhibitor v1|readv2|bi39.|*CARACE 10mg tablets|
-|ace-inhibitor v1|readv2|bi3a.|*CARACE 20mg tablets 28CP|
-|ace-inhibitor v1|readv2|bi3b.|*CARACE 20mg tablets|
-|ace-inhibitor v1|readv2|bi3c.|*ZESTRIL 2.5mg tablets 28CP|
-|ace-inhibitor v1|readv2|bi3d.|*ZESTRIL 2.5mg tablets|
-|ace-inhibitor v1|readv2|bi3e.|ZESTRIL 5mg tablets 28CP|
-|ace-inhibitor v1|readv2|bi3f.|ZESTRIL 5mg tablets|
-|ace-inhibitor v1|readv2|bi3g.|ZESTRIL 10mg tablets 28CP|
-|ace-inhibitor v1|readv2|bi3h.|ZESTRIL 10mg tablets|
-|ace-inhibitor v1|readv2|bi3i.|ZESTRIL 20mg tablets 28CP|
-|ace-inhibitor v1|readv2|bi3j.|ZESTRIL 20mg tablets|
-|ace-inhibitor v1|readv2|bi3k.|CARACE 20 PLUS tablets|
-|ace-inhibitor v1|readv2|bi3l.|*CARACE 10 PLUS tablets|
-|ace-inhibitor v1|readv2|bi3m.|*ZESTORETIC tablets 28CP|
-|ace-inhibitor v1|readv2|bi3n.|ZESTORETIC 20/12.5mg tablets|
-|ace-inhibitor v1|readv2|bi3p.|LISINO+HYDROCHL 20/12.5mg tabs|
-|ace-inhibitor v1|readv2|bi3q.|*ZESTRIL 2.5mg starter pack|
-|ace-inhibitor v1|readv2|bi3r.|*LISINOPRIL 2.5mg tabs starter|
-|ace-inhibitor v1|readv2|bi3s.|ZESTORETIC 10/12.5mg tablets|
-|ace-inhibitor v1|readv2|bi3t.|LISINO+HYDROCHL 10/12.5mg tabs|
-|ace-inhibitor v1|readv2|bi3u.|*CARALPHA 10/12.5mg tablets|
-|ace-inhibitor v1|readv2|bi3v.|*CARALPHA 20/12.5mg tablets|
-|ace-inhibitor v1|readv2|bi3w.|*LISICOSTAD HCT 20/12.5mg tabs|
-|ace-inhibitor v1|readv2|bi3x.|*LISICOSTAD HCT 10/12.5mg tabs|
-|ace-inhibitor v1|readv2|bi3y.|LISINOPRIL 1mg/mL oral soln|
-|ace-inhibitor v1|readv2|bi4..|QUINAPRIL|
-|ace-inhibitor v1|readv2|bi41.|QUINAPRIL 5mg tablets|
-|ace-inhibitor v1|readv2|bi42.|QUINAPRIL 10mg tablets|
-|ace-inhibitor v1|readv2|bi43.|QUINAPRIL 20mg tablets|
-|ace-inhibitor v1|readv2|bi44.|ACCUPRO 5mg tablets 28CP|
-|ace-inhibitor v1|readv2|bi45.|ACCUPRO 10mg tablets 28CP|
-|ace-inhibitor v1|readv2|bi46.|ACCUPRO 20mg tablets 28CP|
-|ace-inhibitor v1|readv2|bi47.|ACCURETIC tablets|
-|ace-inhibitor v1|readv2|bi48.|QUINAPRIL+HYDROCHLOROTHIAZIDE|
-|ace-inhibitor v1|readv2|bi49.|ACCUPRO 40mg tablets|
-|ace-inhibitor v1|readv2|bi4A.|QUINAPRIL 40mg tablets|
-|ace-inhibitor v1|readv2|bi4B.|QUINIL 5mg tablets|
-|ace-inhibitor v1|readv2|bi4C.|QUINIL 10mg tablets|
-|ace-inhibitor v1|readv2|bi4D.|QUINIL 20mg tablets|
-|ace-inhibitor v1|readv2|bi4E.|QUINIL 40mg tablets|
-|ace-inhibitor v1|readv2|bi4F.|QUINAP+HYDROCHL 20/12.5mg tabs|
-|ace-inhibitor v1|readv2|bi5..|PERINDOPRIL ERBUMINE|
-|ace-inhibitor v1|readv2|bi51.|PERINDOPRIL ERBUMINE 2mg tabs|
-|ace-inhibitor v1|readv2|bi52.|PERINDOPRIL ERBUMINE 4mg tabs|
-|ace-inhibitor v1|readv2|bi53.|*COVERSYL 2mg tablets|
-|ace-inhibitor v1|readv2|bi54.|*COVERSYL 4mg tablets|
-|ace-inhibitor v1|readv2|bi55.|*PERIND ERB+INDAP 4/1.25mg tab|
-|ace-inhibitor v1|readv2|bi56.|*COVERSYL PLUS 4mg/1.25mg tabs|
-|ace-inhibitor v1|readv2|bi57.|PERINDOPRIL ERBUMINE 8mg tabs|
-|ace-inhibitor v1|readv2|bi58.|*COVERSYL 8mg tablets|
-|ace-inhibitor v1|readv2|bi6..|RAMIPRIL|
-|ace-inhibitor v1|readv2|bi61.|RAMIPRIL 1.25mg capsules|
-|ace-inhibitor v1|readv2|bi62.|RAMIPRIL 2.5mg capsules|
-|ace-inhibitor v1|readv2|bi63.|RAMIPRIL 5mg capsules|
-|ace-inhibitor v1|readv2|bi64.|*TRITACE 1.25mg capsules|
-|ace-inhibitor v1|readv2|bi65.|*TRITACE 2.5mg capsules|
-|ace-inhibitor v1|readv2|bi66.|*TRITACE 5mg capsules|
-|ace-inhibitor v1|readv2|bi67.|RAMIPRIL 10mg capsules|
-|ace-inhibitor v1|readv2|bi68.|*TRITACE 10mg capsules|
-|ace-inhibitor v1|readv2|bi69.|*RAMIPRIL 2.5mg+5mg+10mg caps|
-|ace-inhibitor v1|readv2|bi6A.|*TRITACE Titration Pack caps|
-|ace-inhibitor v1|readv2|bi6B.|RAMIPRIL 1.25mg tablets|
-|ace-inhibitor v1|readv2|bi6C.|RAMIPRIL 2.5mg tablets|
-|ace-inhibitor v1|readv2|bi6D.|RAMIPRIL 5mg tablets|
-|ace-inhibitor v1|readv2|bi6E.|RAMIPRIL 10mg tablets|
-|ace-inhibitor v1|readv2|bi6F.|RAMIPRIL 2.5+5+10mg tabs pack|
-|ace-inhibitor v1|readv2|bi6G.|RAMIPRIL 2.5mg/5mL solution|
-|ace-inhibitor v1|readv2|bi6o.|TRITACE Titration Pack tablets|
-|ace-inhibitor v1|readv2|bi6p.|*RANACE 10mg capsules|
-|ace-inhibitor v1|readv2|bi6q.|*RANACE 5mg capsules|
-|ace-inhibitor v1|readv2|bi6r.|*RANACE 2.5mg capsules|
-|ace-inhibitor v1|readv2|bi6s.|*RANACE 1.25mg capsules|
-|ace-inhibitor v1|readv2|bi6t.|*LOPACE 2.5mg capsules|
-|ace-inhibitor v1|readv2|bi6u.|*LOPACE 5mg capsules|
-|ace-inhibitor v1|readv2|bi6v.|*LOPACE 10mg capsules|
-|ace-inhibitor v1|readv2|bi6w.|TRITACE 10mg tablets|
-|ace-inhibitor v1|readv2|bi6x.|TRITACE 5mg tablets|
-|ace-inhibitor v1|readv2|bi6y.|TRITACE 2.5mg tablets|
-|ace-inhibitor v1|readv2|bi6z.|TRITACE 1.25mg tablets|
-|ace-inhibitor v1|readv2|bi7..|SODIUM FOSINOPRIL|
-|ace-inhibitor v1|readv2|bi71.|FOSINOPRIL 10mg tablets|
-|ace-inhibitor v1|readv2|bi72.|FOSINOPRIL 20mg tablets|
-|ace-inhibitor v1|readv2|bi73.|*STARIL 10mg tablets|
-|ace-inhibitor v1|readv2|bi74.|*STARIL 20mg tablets|
-|ace-inhibitor v1|readv2|bi8..|CILAZAPRIL|
-|ace-inhibitor v1|readv2|bi81.|*CILAZAPRIL 250mcg tablets|
-|ace-inhibitor v1|readv2|bi82.|CILAZAPRIL 500mcg tablets|
-|ace-inhibitor v1|readv2|bi83.|CILAZAPRIL 1mg tablets|
-|ace-inhibitor v1|readv2|bi84.|CILAZAPRIL 2.5mg tablets|
-|ace-inhibitor v1|readv2|bi85.|*VASCACE 250micrograms tablets|
-|ace-inhibitor v1|readv2|bi86.|VASCACE 500micrograms tablets|
-|ace-inhibitor v1|readv2|bi87.|VASCACE 1mg tablets|
-|ace-inhibitor v1|readv2|bi88.|VASCACE 2.5mg tablets|
-|ace-inhibitor v1|readv2|bi89.|VASCACE 5mg tablets|
-|ace-inhibitor v1|readv2|bi8a.|CILAZAPRIL 5mg tablets|
-|ace-inhibitor v1|readv2|bi9..|TRANDOLAPRIL|
-|ace-inhibitor v1|readv2|bi91.|TRANDOLAPRIL 500mcg capsules|
-|ace-inhibitor v1|readv2|bi92.|TRANDOLAPRIL 1mg capsules|
-|ace-inhibitor v1|readv2|bi93.|TRANDOLAPRIL 2mg capsules|
-|ace-inhibitor v1|readv2|bi94.|GOPTEN 500micrograms capsules|
-|ace-inhibitor v1|readv2|bi95.|GOPTEN 1mg capsules|
-|ace-inhibitor v1|readv2|bi96.|GOPTEN 2mg capsules|
-|ace-inhibitor v1|readv2|bi97.|*ODRIK 500micrograms capsules|
-|ace-inhibitor v1|readv2|bi98.|*ODRIK 1mg capsules|
-|ace-inhibitor v1|readv2|bi99.|*ODRIK 2mg capsules|
-|ace-inhibitor v1|readv2|bi9A.|GOPTEN 4mg capsules|
-|ace-inhibitor v1|readv2|bi9z.|TRANDOLAPRIL 4mg capsules|
-|ace-inhibitor v1|readv2|biA..|MOEXIPRIL|
-|ace-inhibitor v1|readv2|biA1.|MOEXIPRIL HCL 7.5mg tablets|
-|ace-inhibitor v1|readv2|biA2.|MOEXIPRIL HCL 15mg tablets|
-|ace-inhibitor v1|readv2|biA3.|PERDIX 7.5mg tablets|
-|ace-inhibitor v1|readv2|biA4.|PERDIX 15mg tablets|
-|ace-inhibitor v1|readv2|biB..|IMIDAPRIL HYDROCHLORIDE|
-|ace-inhibitor v1|readv2|biB1.|TANATRIL 5mg tablets|
-|ace-inhibitor v1|readv2|biB2.|TANATRIL 10mg tablets|
-|ace-inhibitor v1|readv2|biB3.|TANATRIL 20mg tablets|
-|ace-inhibitor v1|readv2|biBx.|IMIDAPRIL HCL 20mg tablets|
-|ace-inhibitor v1|readv2|biBy.|IMIDAPRIL HCL 5mg tablets|
-|ace-inhibitor v1|readv2|biBz.|IMIDAPRIL HCL 10mg tablets|
-|ace-inhibitor v1|readv2|biC..|PERINDOPRIL ARGININE|
-|ace-inhibitor v1|readv2|biC1.|COVERSYL ARGININE 2.5mg tabs|
-|ace-inhibitor v1|readv2|biC2.|PERINDOPRIL ARGININE 2.5mg tab|
-|ace-inhibitor v1|readv2|biC3.|COVERSYL ARGININE 5mg tablets|
-|ace-inhibitor v1|readv2|biC4.|PERINDOPRIL ARGININE 5mg tabs|
-|ace-inhibitor v1|readv2|biC5.|COVERSYL ARGININE 10mg tablets|
-|ace-inhibitor v1|readv2|biC6.|PERINDOPRIL ARGININE 10mg tabs|
-|ace-inhibitor v1|readv2|biC7.|COVRSYL ARGIN PLS 5/1.25mg tab|
-|ace-inhibitor v1|readv2|biC8.|PERIND ARG+INDAP 5/1.25mg tabs|
-|ace-inhibitor v1|readv2|bk...|OTHER ANTIHYPERTENSIVES|
-|ace-inhibitor v1|readv2|bk3..|LOSARTAN|
-|ace-inhibitor v1|readv2|bk31.|LOSARTAN POTASSIUM 25mg tabs|
-|ace-inhibitor v1|readv2|bk32.|LOSARTAN POTASSIUM 50mg tabs|
-|ace-inhibitor v1|readv2|bk33.|COZAAR HALF-STRENGTH 25mg tabs|
-|ace-inhibitor v1|readv2|bk34.|COZAAR 50mg tablets|
-|ace-inhibitor v1|readv2|bk35.|LOSART+HYDROCHLTHZ 50/12.5 tab|
-|ace-inhibitor v1|readv2|bk36.|COZAAR-COMP 50mg/12.5mg tabs|
-|ace-inhibitor v1|readv2|bk37.|LOSARTAN POTASSIUM 100mg tabs|
-|ace-inhibitor v1|readv2|bk38.|COZAAR 100mg tablets|
-|ace-inhibitor v1|readv2|bk39.|COZAAR-COMP 100mg/25mg tablets|
-|ace-inhibitor v1|readv2|bk3A.|COZAAR-COMP 100mg/12.5mg tabs|
-|ace-inhibitor v1|readv2|bk3B.|COZAAR 12.5mg tablets|
-|ace-inhibitor v1|readv2|bk3C.|LOSARTAN POTASSIUM 12.5mg tabs|
-|ace-inhibitor v1|readv2|bk3D.|COZAAR 2.5mg/mL oral susp|
-|ace-inhibitor v1|readv2|bk3E.|LOSARTAN POTASS 2.5mg/mL susp|
-|ace-inhibitor v1|readv2|bk3F.|ZOVENCAL 25mg tablets|
-|ace-inhibitor v1|readv2|bk3G.|ZOVENCAL 50mg tablets|
-|ace-inhibitor v1|readv2|bk3H.|ZOVENCAL 100mg tablets|
-|ace-inhibitor v1|readv2|bk3y.|LOSART+HYDRCHL 100/12.5mg tabs|
-|ace-inhibitor v1|readv2|bk3z.|LOSART+HYDROCHLTHZ 100/25 tabs|
-|ace-inhibitor v1|readv2|bk4..|VALSARTAN|
-|ace-inhibitor v1|readv2|bk41.|VALSARTAN 40mg capsules|
-|ace-inhibitor v1|readv2|bk42.|VALSARTAN 80mg capsules|
-|ace-inhibitor v1|readv2|bk43.|VALSARTAN 160mg capsules|
-|ace-inhibitor v1|readv2|bk44.|DIOVAN 40mg capsules|
-|ace-inhibitor v1|readv2|bk45.|DIOVAN 80mg capsules|
-|ace-inhibitor v1|readv2|bk46.|DIOVAN 160mg capsules|
-|ace-inhibitor v1|readv2|bk47.|CO-DIOVAN 160mg/12.5mg tablets|
-|ace-inhibitor v1|readv2|bk48.|CO-DIOVAN 160mg/25mg tablets|
-|ace-inhibitor v1|readv2|bk49.|CO-DIOVAN 80mg/12.5mg tablets|
-|ace-inhibitor v1|readv2|bk4A.|DIOVAN 40mg tablets|
-|ace-inhibitor v1|readv2|bk4B.|DIOVAN 320mg tablets|
-|ace-inhibitor v1|readv2|bk4C.|DIOVAN 3mg/mL oral solution|
-|ace-inhibitor v1|readv2|bk4u.|VALSARTAN 3mg/mL oral solution|
-|ace-inhibitor v1|readv2|bk4v.|VALSARTAN 320mg tablets|
-|ace-inhibitor v1|readv2|bk4w.|VALSARTAN 40mg tablets|
-|ace-inhibitor v1|readv2|bk4x.|VALSART+HYDROCHL 80/12.5mg tab|
-|ace-inhibitor v1|readv2|bk4y.|VALSART+HYDROCHL 160/25mg tabs|
-|ace-inhibitor v1|readv2|bk4z.|VALSRT+HYDROCHL 160/12.5mg tab|
-|ace-inhibitor v1|readv2|bk5..|IRBESARTAN|
-|ace-inhibitor v1|readv2|bk51.|IRBESARTAN 75mg tablets|
-|ace-inhibitor v1|readv2|bk52.|IRBESARTAN 150mg tablets|
-|ace-inhibitor v1|readv2|bk53.|IRBESARTAN 300mg tablets|
-|ace-inhibitor v1|readv2|bk54.|APROVEL 75mg tablets|
-|ace-inhibitor v1|readv2|bk55.|APROVEL 150mg tablets|
-|ace-inhibitor v1|readv2|bk56.|APROVEL 300mg tablets|
-|ace-inhibitor v1|readv2|bk57.|COAPROVEL 150mg/12.5mg tablets|
-|ace-inhibitor v1|readv2|bk58.|COAPROVEL 300mg/12.5mg tablets|
-|ace-inhibitor v1|readv2|bk59.|COAPROVEL 300mg/25mg tablets|
-|ace-inhibitor v1|readv2|bk5x.|IRBES+HYDROCHL 300mg/25mg tabs|
-|ace-inhibitor v1|readv2|bk5y.|IRBES+HYDROCHL 300/12.5mg tabs|
-|ace-inhibitor v1|readv2|bk5z.|IRBES+HYDROCHL 150/12.5mg tabs|
-|ace-inhibitor v1|readv2|bk6..|TRANDOLAPRIL+VERAPAMIL HCL|
-|ace-inhibitor v1|readv2|bk61.|TRANDOL+VERAP 2/180mg m/r caps|
-|ace-inhibitor v1|readv2|bk62.|TARKA 2mg/180mg m/r capsules|
-|ace-inhibitor v1|readv2|bk7..|CANDESARTAN CILEXETIL|
-|ace-inhibitor v1|readv2|bk71.|CANDESARTAN CILEXETIL 2mg tabs|
-|ace-inhibitor v1|readv2|bk72.|CANDESARTAN CILEXETIL 4mg tabs|
-|ace-inhibitor v1|readv2|bk73.|CANDESARTAN CILEXETIL 8mg tabs|
-|ace-inhibitor v1|readv2|bk74.|CANDESARTAN CILEXET 16mg tabs|
-|ace-inhibitor v1|readv2|bk75.|AMIAS 2mg tablets|
-|ace-inhibitor v1|readv2|bk76.|AMIAS 4mg tablets|
-|ace-inhibitor v1|readv2|bk77.|AMIAS 8mg tablets|
-|ace-inhibitor v1|readv2|bk78.|AMIAS 16mg tablets|
-|ace-inhibitor v1|readv2|bk79.|AMIAS 32mg tablets|
-|ace-inhibitor v1|readv2|bk7z.|CANDESARTAN CILEXETL 32mg tabs|
-|ace-inhibitor v1|readv2|bk8..|TELMISARTAN|
-|ace-inhibitor v1|readv2|bk81.|TELMISARTAN 40mg tablets|
-|ace-inhibitor v1|readv2|bk82.|TELMISARTAN 80mg tablets|
-|ace-inhibitor v1|readv2|bk83.|MICARDIS 40mg tablets|
-|ace-inhibitor v1|readv2|bk84.|MICARDIS 80mg tablets|
-|ace-inhibitor v1|readv2|bk85.|MICARDIS 20mg tablets|
-|ace-inhibitor v1|readv2|bk86.|MICARDISPLUS 40mg/12.5mg tabs|
-|ace-inhibitor v1|readv2|bk87.|MICARDISPLUS 80mg/12.5mg tabs|
-|ace-inhibitor v1|readv2|bk88.|MICARDISPLUS 80mg/25mg tablets|
-|ace-inhibitor v1|readv2|bk8w.|TELMIS+HYDROCHL 80mg/25mg tabs|
-|ace-inhibitor v1|readv2|bk8x.|TELMIS+HYDROCHL 40/12.5mg tabs|
-|ace-inhibitor v1|readv2|bk8y.|TELMIS+HYDROCHL 80/12.5mg tabs|
-|ace-inhibitor v1|readv2|bk8z.|TELMISARTAN 20mg tablets|
-|ace-inhibitor v1|readv2|bk9..|EPROSARTAN|
-|ace-inhibitor v1|readv2|bk91.|TEVETEN 300mg tablets|
-|ace-inhibitor v1|readv2|bk92.|TEVETEN 400mg tablets|
-|ace-inhibitor v1|readv2|bk93.|TEVETEN 600mg tablets|
-|ace-inhibitor v1|readv2|bk9x.|EPROSARTAN 300mg tablets|
-|ace-inhibitor v1|readv2|bk9y.|EPROSARTAN 400mg tablets|
-|ace-inhibitor v1|readv2|bk9z.|EPROSARTAN 600mg tablets|
-|ace-inhibitor v1|readv2|bkB..|OLMESARTAN|
-|ace-inhibitor v1|readv2|bkB1.|OLMESARTAN MEDOXOMIL 10mg tabs|
-|ace-inhibitor v1|readv2|bkB2.|OLMESARTAN MEDOXOMIL 20mg tabs|
-|ace-inhibitor v1|readv2|bkB3.|OLMESARTAN MEDOXOMIL 40mg tabs|
-|ace-inhibitor v1|readv2|bkB4.|OLMETEC 10mg tablets|
-|ace-inhibitor v1|readv2|bkB5.|OLMETEC 20mg tablets|
-|ace-inhibitor v1|readv2|bkB6.|OLMETEC 40mg tablets|
-|ace-inhibitor v1|readv2|bkC..|HYDROCHLOROTHIAZIDE+OLMESARTAN|
-|ace-inhibitor v1|readv2|bkC1.|OLMETEC PLUS 20mg/12.5mg tabs|
-|ace-inhibitor v1|readv2|bkC2.|OLMETEC PLUS 20mg/25mg tablets|
-|ace-inhibitor v1|readv2|bkC3.|OLMETEC PLUS 40mg/12.5mg tabs|
-|ace-inhibitor v1|readv2|bkCx.|OLMESAR+HYDROCH 40/12.5mg tabs|
-|ace-inhibitor v1|readv2|bkCy.|OLMESART+HYDROCHL 20/25mg tabs|
-|ace-inhibitor v1|readv2|bkCz.|OLMESAR+HYDROCH 20/12.5mg tabs|
-|ace-inhibitor v1|readv2|bkD..|AMLODIPINE + VALSARTAN|
-|ace-inhibitor v1|readv2|bkD1.|AMLODIPNE+VALSARTN 5/80mg tabs|
-|ace-inhibitor v1|readv2|bkD2.|AMLODPNE+VALSARTN 5/160mg tabs|
-|ace-inhibitor v1|readv2|bkD3.|AMLODPNE+VALSRTN 10/160mg tabs|
-|ace-inhibitor v1|readv2|bkDx.|EXFORGE 10mg/160mg tablets|
-|ace-inhibitor v1|readv2|bkDy.|EXFORGE 5mg/160mg tablets|
-|ace-inhibitor v1|readv2|bkDz.|EXFORGE 5mg/80mg tablets|
-|ace-inhibitor v1|readv2|bkH..|OLMESARTAN+AMLODIPINE|
-|ace-inhibitor v1|readv2|bkH1.|SEVIKAR 20mg/5mg tablets|
-|ace-inhibitor v1|readv2|bkH2.|SEVIKAR 40mg/5mg tablets|
-|ace-inhibitor v1|readv2|bkH3.|SEVIKAR 40mg/10mg tablets|
-|ace-inhibitor v1|readv2|bkHx.|OLMESART+AMLODIPN 40/10mg tabs|
-|ace-inhibitor v1|readv2|bkHy.|OLMESART+AMLODIPNE 40/5mg tabs|
-|ace-inhibitor v1|readv2|bkHz.|OLMESART+AMLODIPNE 20/5mg tabs|
-|ace-inhibitor v1|readv2|bi1I.|Captopril 5mg/5ml oral solution sugar free  |
-|ace-inhibitor v1|readv2|bi1K.|Captopril 25mg/5ml oral solution sugar free  |
-|ace-inhibitor v1|readv2|bk4s.|Valsartan 80mg tablets  |
-|ace-inhibitor v1|readv2|bk4t.|Valsartan 160mg tablets  |
-|ace-inhibitor v1|readv2|bkI1.|Sevikar HCT 20mg/5mg/12.5mg tablets (Daiichi Sankyo UK Ltd)|
-|ace-inhibitor v1|readv2|bkI..|OLMESART+AMLODIP+HYDRCHLRTHIAZ|
-|ace-inhibitor v1|readv2|bkI2.|SEVIKAR HCT 40/5/12.5mg tabs|
-|ace-inhibitor v1|readv2|bkI3.|SEVIKAR HCT 40/10/12.5mg tabs|
-|ace-inhibitor v1|readv2|bkI4.|SEVIKAR HCT 40mg/5mg/25mg tabs|
-|ace-inhibitor v1|readv2|bkI5.|SEVIKAR HCT 40/10/25mg tabs|
-|ace-inhibitor v1|readv2|bkJ..|AZILSARTAN|
-|ace-inhibitor v1|readv2|bkJ1.|EDARBI 20mg tablets|
-|ace-inhibitor v1|readv2|bkJ2.|AZILSARTAN MEDOXOMIL 20mg tabs|
-|ace-inhibitor v1|readv2|bkJ3.|EDARBI 40mg tablets|
-|ace-inhibitor v1|readv2|bkJ4.|AZILSARTAN MEDOXOMIL 40mg tabs|
-|ace-inhibitor v1|readv2|bkJ5.|EDARBI 80mg tablets|
-|ace-inhibitor v1|readv2|bkJ6.|AZILSARTAN MEDOXOMIL 80mg tabs|
-|ace-inhibitor v1|readv2|bkL..|SACUBITRIL+VALSARTAN|
-|ace-inhibitor v1|readv2|bkL1.|ENTRESTO 24mg/26mg tablets|
-|ace-inhibitor v1|readv2|bkL2.|SACUBITRL+VALSRTN 24/26mg tabs|
-|ace-inhibitor v1|readv2|bkL3.|ENTRESTO 49mg/51mg tablets|
-|ace-inhibitor v1|readv2|bkL4.|SACUBITRL+VALSRTN 49/51mg tabs|
-|ace-inhibitor v1|readv2|bkL5.|ENTRESTO 97mg/103mg tablets|
-|ace-inhibitor v1|readv2|bkL6.|SACUBTRL+VALSRTN 97/103mg tabs|
-|ace-inhibitor v1|snomed|16254211000001103|Accupro 10mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|231111000001106|Accupro 10mg tablets (Pfizer Ltd)|
-|ace-inhibitor v1|snomed|829111000001100|Accupro 20mg tablets (Pfizer Ltd)|
-|ace-inhibitor v1|snomed|86411000001109|Accupro 40mg tablets (Pfizer Ltd)|
-|ace-inhibitor v1|snomed|5616811000001101|Accupro 5mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|582611000001106|Accupro 5mg tablets (Pfizer Ltd)|
-|ace-inhibitor v1|snomed|5327611000001100|Accupro 5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|16133111000001106|Accuretic 10mg/12.5mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|16254811000001102|Accuretic 10mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|260211000001104|Accuretic 10mg/12.5mg tablets (Pfizer Ltd)|
-|ace-inhibitor v1|snomed|14035911000001107|Accuretic 10mg/12.5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|5329311000001100|Accuretic 10mg/12.5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|660111000001107|Acepril 12.5mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|517711000001103|Acepril 25mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|814111000001108|Acepril 50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|263311000001101|Acezide 25mg/50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|24411411000001100|Actelsar HCT 40mg/12.5mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|24412511000001109|Actelsar HCT 80mg/12.5mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|24413611000001103|Actelsar HCT 80mg/25mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|443440004|Aliskiren + valsartan|
-|ace-inhibitor v1|snomed|443619009|Aliskiren 150 mg and valsartan 160 mg oral tablet|
-|ace-inhibitor v1|snomed|443620003|Aliskiren 300 mg and valsartan 320 mg oral tablet|
-|ace-inhibitor v1|snomed|767834001|Aliskiren and valsartan in oral dosage form|
-|ace-inhibitor v1|snomed|5444811000001101|Amias 16mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|19864911000001102|Amias 16mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|17490811000001102|Amias 16mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|17583111000001106|Amias 16mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|908511000001100|Amias 16mg tablets (Takeda UK Ltd)|
-|ace-inhibitor v1|snomed|5331711000001103|Amias 16mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|29959611000001109|Amias 2mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|18483911000001108|Amias 2mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|97311000001103|Amias 2mg tablets (Takeda UK Ltd)|
-|ace-inhibitor v1|snomed|29736811000001105|Amias 2mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|18545111000001109|Amias 32mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|29959811000001108|Amias 32mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|16260511000001102|Amias 32mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|8983911000001107|Amias 32mg tablets (Takeda UK Ltd)|
-|ace-inhibitor v1|snomed|21865611000001101|Amias 32mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|13827311000001102|Amias 4mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|5519411000001104|Amias 4mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|19864311000001103|Amias 4mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|16260211000001100|Amias 4mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|17583411000001101|Amias 4mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|857411000001100|Amias 4mg tablets (Takeda UK Ltd)|
-|ace-inhibitor v1|snomed|19734011000001105|Amias 4mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|13827611000001107|Amias 8mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|5444311000001105|Amias 8mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|19864711000001104|Amias 8mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|19726911000001104|Amias 8mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|17583811000001104|Amias 8mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|36011000001106|Amias 8mg tablets (Takeda UK Ltd)|
-|ace-inhibitor v1|snomed|5331511000001108|Amias 8mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|426478002|Amlodipine + Valsartan|
-|ace-inhibitor v1|snomed|429150009|Amlodipine 10 mg and olmesartan 20 mg oral tablet|
-|ace-inhibitor v1|snomed|426688008|Amlodipine 10 mg and valsartan 160 mg oral tablet|
-|ace-inhibitor v1|snomed|425838008|Amlodipine 10 mg and valsartan 320 mg oral tablet|
-|ace-inhibitor v1|snomed|11160111000001107|Amlodipine 10mg / Valsartan 160mg tablets|
-|ace-inhibitor v1|snomed|447090006|Amlodipine 10mg + hydrochlorothiazide 12.5mg + olmesartan medoxomil 40mg tablet|
-|ace-inhibitor v1|snomed|442402007|Amlodipine 10mg + hydrochlorothiazide 12.5mg + Valsartan 160mg tablet|
-|ace-inhibitor v1|snomed|447170000|Amlodipine 10mg + hydrochlorothiazide 25mg + olmesartan medoxomil 40mg tablet|
-|ace-inhibitor v1|snomed|442215001|Amlodipine 10mg + hydrochlorothiazide 25mg + Valsartan 320mg tablet|
-|ace-inhibitor v1|snomed|425967008|Amlodipine 5 mg and valsartan 160 mg oral tablet|
-|ace-inhibitor v1|snomed|426683004|Amlodipine 5 mg and valsartan 320 mg oral tablet|
-|ace-inhibitor v1|snomed|11160211000001101|Amlodipine 5mg / Valsartan 160mg tablets|
-|ace-inhibitor v1|snomed|11160311000001109|Amlodipine 5mg / Valsartan 80mg tablets|
-|ace-inhibitor v1|snomed|447065009|Amlodipine 5mg + hydrochlorothiazide 12.5mg + olmesartan medoxomil 20mg tablet|
-|ace-inhibitor v1|snomed|447088005|Amlodipine 5mg + hydrochlorothiazide 12.5mg + olmesartan medoxomil 40mg tablet|
-|ace-inhibitor v1|snomed|442473003|Amlodipine 5mg + hydrochlorothiazide 12.5mg + Valsartan 160mg tablet|
-|ace-inhibitor v1|snomed|447089002|Amlodipine 5mg + hydrochlorothiazide 25mg + olmesartan medoxomil 40mg tablet|
-|ace-inhibitor v1|snomed|442266006|Amlodipine 5mg + hydrochlorothiazide 25mg + Valsartan 160mg tablet|
-|ace-inhibitor v1|snomed|442293009|Amlodipine and hydrochlorothiazide and valsartan|
-|ace-inhibitor v1|snomed|767880004|Amlodipine and olmesartan in oral dosage form|
-|ace-inhibitor v1|snomed|768207008|Amlodipine and telmisartan in oral dosage form|
-|ace-inhibitor v1|snomed|767878005|Amlodipine and valsartan in oral dosage form|
-|ace-inhibitor v1|snomed|13828511000001107|Aprovel 150mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|10461311000001105|Aprovel 150mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|29960411000001105|Aprovel 150mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|16263611000001107|Aprovel 150mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|17586211000001107|Aprovel 150mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|859711000001103|Aprovel 150mg tablets (Sanofi)|
-|ace-inhibitor v1|snomed|14193511000001100|Aprovel 150mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|5333211000001109|Aprovel 150mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|13828711000001102|Aprovel 300mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|10461811000001101|Aprovel 300mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|29960611000001108|Aprovel 300mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|16263911000001101|Aprovel 300mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|17586511000001105|Aprovel 300mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|323211000001107|Aprovel 300mg tablets (Sanofi)|
-|ace-inhibitor v1|snomed|14193711000001105|Aprovel 300mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|5333411000001108|Aprovel 300mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|13828311000001101|Aprovel 75mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|10462111000001103|Aprovel 75mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|29960211000001106|Aprovel 75mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|16263211000001105|Aprovel 75mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|17585611000001104|Aprovel 75mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|434511000001104|Aprovel 75mg tablets (Sanofi)|
-|ace-inhibitor v1|snomed|14193911000001107|Aprovel 75mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|5333011000001104|Aprovel 75mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|767932003|Azilsartan in oral dosage form|
-|ace-inhibitor v1|snomed|449572009|Azilsartan medoxomil|
-|ace-inhibitor v1|snomed|20418711000001104|Azilsartan medoxomil 20mg tablets|
-|ace-inhibitor v1|snomed|449109006|Azilsartan medoxomil 40mg tablets|
-|ace-inhibitor v1|snomed|449333009|Azilsartan medoxomil 80mg tablets|
-|ace-inhibitor v1|snomed|318980005|Candesartan 16mg tablets|
-|ace-inhibitor v1|snomed|20496211000001106|Candesartan 16mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|20484011000001107|Candesartan 16mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|20509411000001107|Candesartan 16mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|34678811000001102|Candesartan 16mg tablets (Almus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|20568711000001109|Candesartan 16mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|20530511000001105|Candesartan 16mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|34006411000001103|Candesartan 16mg tablets (Crescent Pharma Ltd)|
-|ace-inhibitor v1|snomed|13840611000001106|Candesartan 16mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|22626011000001102|Candesartan 16mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|5445211000001101|Candesartan 16mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|32746511000001101|Candesartan 16mg tablets (Genesis Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|16353811000001108|Candesartan 16mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|37055511000001109|Candesartan 16mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|35140311000001103|Candesartan 16mg tablets (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|33583111000001104|Candesartan 16mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|23647111000001107|Candesartan 16mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|22944911000001108|Candesartan 16mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|24506211000001101|Candesartan 16mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|14312711000001106|Candesartan 16mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|29777011000001103|Candesartan 16mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|20476511000001103|Candesartan 16mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|32554811000001106|Candesartan 16mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|36856211000001100|Candesartan 16mg tablets (Torrent Pharma (UK) Ltd)|
-|ace-inhibitor v1|snomed|5345711000001100|Candesartan 16mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|21813311000001106|Candesartan 16mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|36492511000001101|Candesartan 16mg tablets (Xiromed)|
-|ace-inhibitor v1|snomed|20913211000001101|Candesartan 16mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|36903211000001105|Candesartan 16mg/5ml oral solution|
-|ace-inhibitor v1|snomed|36876111000001108|Candesartan 16mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|318977009|Candesartan 2mg tablets|
-|ace-inhibitor v1|snomed|20493511000001101|Candesartan 2mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|21666411000001103|Candesartan 2mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|20508711000001105|Candesartan 2mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|34008111000001107|Candesartan 2mg tablets (Crescent Pharma Ltd)|
-|ace-inhibitor v1|snomed|22626311000001104|Candesartan 2mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|35139211000001103|Candesartan 2mg tablets (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|23646411000001104|Candesartan 2mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|22947511000001109|Candesartan 2mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|24622611000001103|Candesartan 2mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|29777211000001108|Candesartan 2mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|20595811000001108|Candesartan 2mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|36855611000001108|Candesartan 2mg tablets (Torrent Pharma (UK) Ltd)|
-|ace-inhibitor v1|snomed|21812711000001102|Candesartan 2mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|376998003|Candesartan 32mg tablets|
-|ace-inhibitor v1|snomed|20497111000001102|Candesartan 32mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|20484211000001102|Candesartan 32mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|20509711000001101|Candesartan 32mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|34679011000001103|Candesartan 32mg tablets (Almus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|20568911000001106|Candesartan 32mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|20530711000001100|Candesartan 32mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|34007311000001108|Candesartan 32mg tablets (Crescent Pharma Ltd)|
-|ace-inhibitor v1|snomed|22626511000001105|Candesartan 32mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|32746711000001106|Candesartan 32mg tablets (Genesis Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|32397211000001106|Candesartan 32mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|37049711000001100|Candesartan 32mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|35140511000001109|Candesartan 32mg tablets (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|33583411000001109|Candesartan 32mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|23647311000001109|Candesartan 32mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|24506411000001102|Candesartan 32mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|29777411000001107|Candesartan 32mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|20476711000001108|Candesartan 32mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|32555411000001105|Candesartan 32mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|36856411000001101|Candesartan 32mg tablets (Torrent Pharma (UK) Ltd)|
-|ace-inhibitor v1|snomed|21813711000001105|Candesartan 32mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|36500911000001104|Candesartan 32mg tablets (Xiromed)|
-|ace-inhibitor v1|snomed|20913411000001102|Candesartan 32mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|318978004|Candesartan 4mg tablets|
-|ace-inhibitor v1|snomed|20495511000001102|Candesartan 4mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|20483511000001102|Candesartan 4mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|20508911000001107|Candesartan 4mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|34678111000001109|Candesartan 4mg tablets (Almus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|20568411000001103|Candesartan 4mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|20530011000001102|Candesartan 4mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|34007511000001102|Candesartan 4mg tablets (Crescent Pharma Ltd)|
-|ace-inhibitor v1|snomed|13840211000001109|Candesartan 4mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|22626711000001100|Candesartan 4mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|5481611000001107|Candesartan 4mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|32396911000001100|Candesartan 4mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|16353011000001102|Candesartan 4mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|37047311000001109|Candesartan 4mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|35139711000001105|Candesartan 4mg tablets (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|33582711000001106|Candesartan 4mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|23646611000001101|Candesartan 4mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|22942111000001102|Candesartan 4mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|24505711000001100|Candesartan 4mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|14313611000001107|Candesartan 4mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|29777811000001109|Candesartan 4mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|20476011000001106|Candesartan 4mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|36855811000001107|Candesartan 4mg tablets (Torrent Pharma (UK) Ltd)|
-|ace-inhibitor v1|snomed|5343411000001107|Candesartan 4mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|21812911000001100|Candesartan 4mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|20912811000001108|Candesartan 4mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|15913211000001107|Candesartan 4mg/5ml oral solution|
-|ace-inhibitor v1|snomed|15882111000001100|Candesartan 4mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|15825311000001103|Candesartan 4mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|15817011000001102|Candesartan 4mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|318979007|Candesartan 8mg tablets|
-|ace-inhibitor v1|snomed|20495911000001109|Candesartan 8mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|20483811000001104|Candesartan 8mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|20509211000001108|Candesartan 8mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|34678611000001101|Candesartan 8mg tablets (Almus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|20568211000001102|Candesartan 8mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|20530311000001104|Candesartan 8mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|34007811000001104|Candesartan 8mg tablets (Crescent Pharma Ltd)|
-|ace-inhibitor v1|snomed|13840411000001108|Candesartan 8mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|22627111000001103|Candesartan 8mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|5453311000001106|Candesartan 8mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|32746311000001107|Candesartan 8mg tablets (Genesis Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|16353611000001109|Candesartan 8mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|37055311000001103|Candesartan 8mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|35140111000001100|Candesartan 8mg tablets (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|33582911000001108|Candesartan 8mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|23646911000001107|Candesartan 8mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|22944511000001101|Candesartan 8mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|24506011000001106|Candesartan 8mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|14310911000001109|Candesartan 8mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|29778011000001102|Candesartan 8mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|20476311000001109|Candesartan 8mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|32554411000001109|Candesartan 8mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|36856011000001105|Candesartan 8mg tablets (Torrent Pharma (UK) Ltd)|
-|ace-inhibitor v1|snomed|5344011000001101|Candesartan 8mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|21813511000001100|Candesartan 8mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|36492311000001107|Candesartan 8mg tablets (Xiromed)|
-|ace-inhibitor v1|snomed|20913011000001106|Candesartan 8mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|15853011000001101|Candesartan 8mg/5ml oral solution|
-|ace-inhibitor v1|snomed|15851811000001108|Candesartan 8mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|15853111000001100|Candesartan 8mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|15851511000001105|Candesartan 8mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|768047007|Candesartan and hydrochlorothiazide in oral dosage form|
-|ace-inhibitor v1|snomed|768800004|Candesartan and hydrochlorothiazide product|
-|ace-inhibitor v1|snomed|108589006|Candesartan cilexetil|
-|ace-inhibitor v1|snomed|377262008|Candesartan cilexetil 16 mg and hydrochlorothiazide 12.5 mg oral tablet|
-|ace-inhibitor v1|snomed|409181005|Candesartan cilexetil 32 mg and hydrochlorothiazide 12.5 mg oral tablet|
-|ace-inhibitor v1|snomed|768046003|Candesartan in oral dosage form|
-|ace-inhibitor v1|snomed|134511000001103|Capoten 12.5mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|5528711000001108|Capoten 12.5mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|455611000001103|Capoten 25mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|5530211000001102|Capoten 25mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|18156511000001101|Capoten 25mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|14328211000001109|Capoten 25mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|16543011000001103|Capoten 25mg tablets (Stephar (U.K.) Ltd)|
-|ace-inhibitor v1|snomed|5344511000001109|Capoten 25mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|386611000001109|Capoten 50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|5531711000001101|Capoten 50mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|14328511000001107|Capoten 50mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|16542811000001101|Capoten 50mg tablets (Stephar (U.K.) Ltd)|
-|ace-inhibitor v1|snomed|5346011000001106|Capoten 50mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|7658811000001109|Capoten 5mg/ml oral solution (Imported (United States))|
-|ace-inhibitor v1|snomed|17311000001102|Capozide 25mg/50mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|13842911000001101|Capozide 25mg/50mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|5620211000001105|Capozide 25mg/50mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|14330511000001106|Capozide 25mg/50mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|5347211000001104|Capozide 25mg/50mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|546711000001107|Capozide LS 12.5mg/25mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|372511000001104|Captomex 12.5mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|562011000001101|Captomex 25mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|760211000001106|Captomex 50mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|404829009|Captopril + hydrochlorothiazide|
-|ace-inhibitor v1|snomed|8346311000001100|Captopril 1.25mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8311611000001105|Captopril 1.25mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8346411000001107|Captopril 1.25mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8312211000001101|Captopril 1.25mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|15533211000001106|Captopril 1.5mg capsules|
-|ace-inhibitor v1|snomed|15530311000001109|Captopril 1.5mg capsules (Special Order)|
-|ace-inhibitor v1|snomed|8346511000001106|Captopril 1.5mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8313211000001107|Captopril 1.5mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8346611000001105|Captopril 1.5mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8314011000001100|Captopril 1.5mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|12291411000001107|Captopril 1.6mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12282211000001100|Captopril 1.6mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|12291511000001106|Captopril 1.75mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12283411000001105|Captopril 1.75mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|375105000|Captopril 100 mg oral tablet|
-|ace-inhibitor v1|snomed|12312411000001108|Captopril 100mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12306011000001103|Captopril 100mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|12312511000001107|Captopril 100micrograms/5ml oral solution|
-|ace-inhibitor v1|snomed|12305711000001109|Captopril 100micrograms/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8346711000001101|Captopril 10mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8310711000001109|Captopril 10mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8346811000001109|Captopril 10mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8311111000001102|Captopril 10mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|8346911000001104|Captopril 11.25mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8311911000001104|Captopril 11.25mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8347011000001100|Captopril 11.25mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8312311000001109|Captopril 11.25mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|318820009|Captopril 12.5mg tablets|
-|ace-inhibitor v1|snomed|226411000001105|Captopril 12.5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|23478811000001103|Captopril 12.5mg tablets (Accord Healthcare Ltd)|
-|ace-inhibitor v1|snomed|605411000001105|Captopril 12.5mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|653311000001105|Captopril 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|15987811000001100|Captopril 12.5mg tablets (Bristol Laboratories Ltd)|
-|ace-inhibitor v1|snomed|22627311000001101|Captopril 12.5mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|13196211000001107|Captopril 12.5mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|665411000001109|Captopril 12.5mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|332211000001104|Captopril 12.5mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|17819311000001108|Captopril 12.5mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|654711000001106|Captopril 12.5mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|29778211000001107|Captopril 12.5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|762711000001100|Captopril 12.5mg tablets (Sterwin Medicines)|
-|ace-inhibitor v1|snomed|19311000001107|Captopril 12.5mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|13741311000001109|Captopril 12.5mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|21814111000001106|Captopril 12.5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|8347111000001104|Captopril 12.5mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8312811000001100|Captopril 12.5mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8347211000001105|Captopril 12.5mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8314111000001104|Captopril 12.5mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|12312611000001106|Captopril 12mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12306511000001106|Captopril 12mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|12312711000001102|Captopril 15.625mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12307911000001101|Captopril 15.625mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8347311000001102|Captopril 15mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8313311000001104|Captopril 15mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8347411000001109|Captopril 15mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8313911000001103|Captopril 15mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|12312811000001105|Captopril 17.5mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12308611000001106|Captopril 17.5mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8347511000001108|Captopril 17mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8314611000001107|Captopril 17mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8347611000001107|Captopril 17mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8314911000001101|Captopril 17mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|12312911000001100|Captopril 18.5mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12309211000001104|Captopril 18.5mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8347811000001106|Captopril 1mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8315811000001107|Captopril 1mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8347911000001101|Captopril 1mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8316411000001101|Captopril 1mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|8348011000001104|Captopril 2.5mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8315611000001108|Captopril 2.5mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8348111000001103|Captopril 2.5mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8316711000001107|Captopril 2.5mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|8348211000001109|Captopril 20mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8315311000001103|Captopril 20mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8348311000001101|Captopril 20mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8316011000001105|Captopril 20mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|12313011000001108|Captopril 22.5mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12309811000001103|Captopril 22.5mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|377263003|Captopril 25 mg and hydrochlorothiazide 15 mg oral tablet|
-|ace-inhibitor v1|snomed|377264009|Captopril 25 mg and hydrochlorothiazide 25 mg oral tablet|
-|ace-inhibitor v1|snomed|318821008|Captopril 25mg tablets|
-|ace-inhibitor v1|snomed|303411000001102|Captopril 25mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|23479311000001101|Captopril 25mg tablets (Accord Healthcare Ltd)|
-|ace-inhibitor v1|snomed|501411000001104|Captopril 25mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|670111000001104|Captopril 25mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|15988011000001107|Captopril 25mg tablets (Bristol Laboratories Ltd)|
-|ace-inhibitor v1|snomed|22627511000001107|Captopril 25mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|5454611000001103|Captopril 25mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|345711000001101|Captopril 25mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|260611000001102|Captopril 25mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|17819611000001103|Captopril 25mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|614411000001107|Captopril 25mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|29778411000001106|Captopril 25mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|762611000001109|Captopril 25mg tablets (Sterwin Medicines)|
-|ace-inhibitor v1|snomed|424411000001101|Captopril 25mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|13741611000001104|Captopril 25mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|21815211000001104|Captopril 25mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|8348511000001107|Captopril 25mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8317011000001108|Captopril 25mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|23707311000001108|Captopril 25mg/5ml oral solution sugar free|
-|ace-inhibitor v1|snomed|35578311000001107|Captopril 25mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|36467911000001107|Captopril 25mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|36326411000001100|Captopril 25mg/5ml oral solution sugar free (Almus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|35734911000001104|Captopril 25mg/5ml oral solution sugar free (BCM Specials Ltd)|
-|ace-inhibitor v1|snomed|37111211000001107|Captopril 25mg/5ml oral solution sugar free (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|35547011000001109|Captopril 25mg/5ml oral solution sugar free (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|35726411000001101|Captopril 25mg/5ml oral solution sugar free (Thame Laboratories Ltd)|
-|ace-inhibitor v1|snomed|8348611000001106|Captopril 25mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8317611000001101|Captopril 25mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|8791811000001109|Captopril 2mg capsules|
-|ace-inhibitor v1|snomed|8743511000001104|Captopril 2mg capsules (Special Order)|
-|ace-inhibitor v1|snomed|8348711000001102|Captopril 2mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8317311000001106|Captopril 2mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8348811000001105|Captopril 2mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8317911000001107|Captopril 2mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|8349711000001106|Captopril 3.125mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8319811000001105|Captopril 3.125mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8349911000001108|Captopril 3.125mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8320811000001109|Captopril 3.125mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|8350011000001104|Captopril 3.25mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8318611000001102|Captopril 3.25mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8350111000001103|Captopril 3.25mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8319211000001109|Captopril 3.25mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|12313111000001109|Captopril 3.5mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12310711000001101|Captopril 3.5mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|12313211000001103|Captopril 30mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12311311000001105|Captopril 30mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8350211000001109|Captopril 31.25mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8325711000001106|Captopril 31.25mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8350311000001101|Captopril 31.25mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8327811000001108|Captopril 31.25mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|20586111000001106|Captopril 3mg capsules|
-|ace-inhibitor v1|snomed|20586511000001102|Captopril 3mg capsules (Special Order)|
-|ace-inhibitor v1|snomed|8816111000001109|Captopril 3mg oral powder sachets|
-|ace-inhibitor v1|snomed|8807311000001106|Captopril 3mg oral powder sachets (Special Order)|
-|ace-inhibitor v1|snomed|8350511000001107|Captopril 3mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8324011000001105|Captopril 3mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8350611000001106|Captopril 3mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8324811000001104|Captopril 3mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|8791911000001104|Captopril 4mg capsules|
-|ace-inhibitor v1|snomed|8743811000001101|Captopril 4mg capsules (Special Order)|
-|ace-inhibitor v1|snomed|8350811000001105|Captopril 4mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8322111000001103|Captopril 4mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8350911000001100|Captopril 4mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8323311000001106|Captopril 4mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|12313311000001106|Captopril 5.4mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12311611000001100|Captopril 5.4mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|377265005|Captopril 50 mg and hydrochlorothiazide 15 mg oral tablet|
-|ace-inhibitor v1|snomed|8351011000001108|Captopril 500micrograms/5ml oral solution|
-|ace-inhibitor v1|snomed|8320111000001102|Captopril 500micrograms/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8351111000001109|Captopril 500micrograms/5ml oral suspension|
-|ace-inhibitor v1|snomed|8320611000001105|Captopril 500micrograms/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|14796411000001104|Captopril 50mg capsules|
-|ace-inhibitor v1|snomed|14790711000001107|Captopril 50mg capsules (Special Order)|
-|ace-inhibitor v1|snomed|318824000|Captopril 50mg tablets|
-|ace-inhibitor v1|snomed|429211000001101|Captopril 50mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|23479611000001106|Captopril 50mg tablets (Accord Healthcare Ltd)|
-|ace-inhibitor v1|snomed|248011000001100|Captopril 50mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|805111000001105|Captopril 50mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|15988211000001102|Captopril 50mg tablets (Bristol Laboratories Ltd)|
-|ace-inhibitor v1|snomed|22627711000001102|Captopril 50mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|13196811000001108|Captopril 50mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|291911000001104|Captopril 50mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|829011000001101|Captopril 50mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|17820311000001109|Captopril 50mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|212311000001105|Captopril 50mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|29778611000001109|Captopril 50mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|827011000001105|Captopril 50mg tablets (Sterwin Medicines)|
-|ace-inhibitor v1|snomed|3911000001107|Captopril 50mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|13741911000001105|Captopril 50mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|21815711000001106|Captopril 50mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|8351211000001103|Captopril 50mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8321211000001102|Captopril 50mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8351511000001100|Captopril 50mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8321811000001101|Captopril 50mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|11490011000001105|Captopril 5mg tablets|
-|ace-inhibitor v1|snomed|11484511000001105|Captopril 5mg tablets (Special Order)|
-|ace-inhibitor v1|snomed|8351611000001101|Captopril 5mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8325911000001108|Captopril 5mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|23707511000001102|Captopril 5mg/5ml oral solution sugar free|
-|ace-inhibitor v1|snomed|35489111000001102|Captopril 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|36467711000001105|Captopril 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|36327011000001107|Captopril 5mg/5ml oral solution sugar free (Almus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|35734711000001101|Captopril 5mg/5ml oral solution sugar free (BCM Specials Ltd)|
-|ace-inhibitor v1|snomed|37111011000001102|Captopril 5mg/5ml oral solution sugar free (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|35548711000001107|Captopril 5mg/5ml oral solution sugar free (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|35726611000001103|Captopril 5mg/5ml oral solution sugar free (Thame Laboratories Ltd)|
-|ace-inhibitor v1|snomed|8351811000001102|Captopril 5mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8328611000001108|Captopril 5mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|7659911000001107|Captopril 5mg/ml oral solution sugar free|
-|ace-inhibitor v1|snomed|15864611000001102|Captopril 5mg/ml oral solution sugar free (Special Order)|
-|ace-inhibitor v1|snomed|8351911000001107|Captopril 6.25mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8322411000001108|Captopril 6.25mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8352011000001100|Captopril 6.25mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8322811000001105|Captopril 6.25mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|8353311000001107|Captopril 6.5mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8323611000001101|Captopril 6.5mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8353411000001100|Captopril 6.5mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8324211000001100|Captopril 6.5mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|12387111000001103|Captopril 62.5mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12344411000001106|Captopril 62.5mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8353511000001101|Captopril 6mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8329511000001103|Captopril 6mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8353611000001102|Captopril 6mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8331311000001107|Captopril 6mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|8353811000001103|Captopril 7.5mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8325411000001100|Captopril 7.5mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8353911000001108|Captopril 7.5mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8326511000001108|Captopril 7.5mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|12387211000001109|Captopril 7mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12321411000001107|Captopril 7mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|12387311000001101|Captopril 8mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12322411000001102|Captopril 8mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|19820711000001101|Captopril 8mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|19813411000001106|Captopril 8mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|8354411000001102|Captopril 9mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8324711000001107|Captopril 9mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8354511000001103|Captopril 9mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8325311000001107|Captopril 9mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|768049005|Captopril and hydrochlorothiazide in oral dosage form|
-|ace-inhibitor v1|snomed|768048002|Captopril in oral dosage form|
-|ace-inhibitor v1|snomed|3144511000001107|Carace 10 Plus tablets (Merck Sharp & Dohme Ltd)|
-|ace-inhibitor v1|snomed|315211000001104|Carace 10mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|321011000001103|Carace 2.5mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|3143511000001109|Carace 20 Plus tablets (Merck Sharp & Dohme Ltd)|
-|ace-inhibitor v1|snomed|56711000001109|Carace 20mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|778011000001109|Carace 5mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|7385911000001108|Caralpha 10mg/12.5mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|7385711000001106|Caralpha 20mg/12.5mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|318916009|Cilazapril 1mg tablets|
-|ace-inhibitor v1|snomed|318917000|Cilazapril 2.5mg tablets|
-|ace-inhibitor v1|snomed|318915008|Cilazapril 500microgram tablets|
-|ace-inhibitor v1|snomed|318923005|Cilazapril 5mg tablets|
-|ace-inhibitor v1|snomed|21676211000001105|Cilazapril 5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|23997011000001100|Cilazapril 5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|30029911000001108|Cilazapril 5mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|30769211000001105|Cilazapril 5mg tablets (Ennogen Healthcare Ltd)|
-|ace-inhibitor v1|snomed|21304711000001108|Cilazapril 5mg tablets (Genesis Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|31356011000001106|Cilazapril 5mg tablets (J M McGill Ltd)|
-|ace-inhibitor v1|snomed|23647711000001108|Cilazapril 5mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|29787511000001100|Cilazapril 5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|768076005|Cilazapril in oral dosage form|
-|ace-inhibitor v1|snomed|13853911000001106|CoAprovel 150mg/12.5mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|13107411000001105|CoAprovel 150mg/12.5mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|16512911000001104|CoAprovel 150mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|18222511000001101|CoAprovel 150mg/12.5mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|792411000001108|CoAprovel 150mg/12.5mg tablets (Sanofi)|
-|ace-inhibitor v1|snomed|14716211000001104|CoAprovel 150mg/12.5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|5352411000001100|CoAprovel 150mg/12.5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|13854111000001105|CoAprovel 300mg/12.5mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|10486911000001104|CoAprovel 300mg/12.5mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|16513911000001106|CoAprovel 300mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|18222711000001106|CoAprovel 300mg/12.5mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|682711000001109|CoAprovel 300mg/12.5mg tablets (Sanofi)|
-|ace-inhibitor v1|snomed|14716611000001102|CoAprovel 300mg/12.5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|5353411000001109|CoAprovel 300mg/12.5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|16514211000001104|CoAprovel 300mg/25mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|10968611000001106|CoAprovel 300mg/25mg tablets (Sanofi)|
-|ace-inhibitor v1|snomed|13854511000001101|Co-Diovan 160mg/12.5mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|13107711000001104|Co-Diovan 160mg/12.5mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|16151611000001101|Co-Diovan 160mg/12.5mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|16511211000001101|Co-Diovan 160mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|18223211000001105|Co-Diovan 160mg/12.5mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|7668611000001104|Co-Diovan 160mg/12.5mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|14206511000001108|Co-Diovan 160mg/12.5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|10850511000001106|Co-Diovan 160mg/12.5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|13854711000001106|Co-Diovan 160mg/25mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|13107911000001102|Co-Diovan 160mg/25mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|18054411000001100|Co-Diovan 160mg/25mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|16511411000001102|Co-Diovan 160mg/25mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|7668911000001105|Co-Diovan 160mg/25mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|14206711000001103|Co-Diovan 160mg/25mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|10511511000001109|Co-Diovan 160mg/25mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|13854311000001107|Co-Diovan 80mg/12.5mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|16151411000001104|Co-Diovan 80mg/12.5mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|16511611000001104|Co-Diovan 80mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|18223511000001108|Co-Diovan 80mg/12.5mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|8150111000001108|Co-Diovan 80mg/12.5mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|14206911000001101|Co-Diovan 80mg/12.5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|11383411000001100|Co-Diovan 80mg/12.5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|11159011000001105|Co-Irbesartan 150mg/12.5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|11159211000001100|Co-Irbesartan 300mg/12.5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|18571311000001105|Coversyl Arginine 10mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|16153911000001108|Coversyl Arginine 10mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|16521611000001109|Coversyl Arginine 10mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|13444611000001109|Coversyl Arginine 10mg tablets (Servier Laboratories Ltd)|
-|ace-inhibitor v1|snomed|17536611000001101|Coversyl Arginine 10mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|15417011000001106|Coversyl Arginine 10mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|13445211000001108|Coversyl Arginine 2.5mg tablets (Servier Laboratories Ltd)|
-|ace-inhibitor v1|snomed|19720911000001102|Coversyl Arginine 5mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|16160511000001100|Coversyl Arginine 5mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|19721111000001106|Coversyl Arginine 5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|13444911000001103|Coversyl Arginine 5mg tablets (Servier Laboratories Ltd)|
-|ace-inhibitor v1|snomed|14209511000001103|Coversyl Arginine 5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|15416811000001102|Coversyl Arginine 5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|18571111000001108|Coversyl Arginine Plus 5mg/1.25mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|16521811000001108|Coversyl Arginine Plus 5mg/1.25mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|18225711000001102|Coversyl Arginine Plus 5mg/1.25mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|13444311000001104|Coversyl Arginine Plus 5mg/1.25mg tablets (Servier Laboratories Ltd)|
-|ace-inhibitor v1|snomed|18743311000001109|Coversyl Arginine Plus 5mg/1.25mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|13939711000001103|Coversyl Arginine Plus 5mg/1.25mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|13108211000001105|Coversyl Plus tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|562511000001109|Coversyl Plus tablets (Servier Laboratories Ltd)|
-|ace-inhibitor v1|snomed|12198011000001107|Coversyl Plus tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|13857011000001101|Cozaar 100mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|19870011000001102|Cozaar 100mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|16523611000001108|Cozaar 100mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|245811000001102|Cozaar 100mg tablets (Merck Sharp & Dohme Ltd)|
-|ace-inhibitor v1|snomed|18226311000001106|Cozaar 100mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|14209911000001105|Cozaar 100mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|10512611000001102|Cozaar 100mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|15138911000001101|Cozaar 12.5mg tablets (Merck Sharp & Dohme Ltd)|
-|ace-inhibitor v1|snomed|15506811000001105|Cozaar 2.5mg/ml oral suspension (Merck Sharp & Dohme Ltd)|
-|ace-inhibitor v1|snomed|266511000001104|Cozaar 25mg tablets (Merck Sharp & Dohme Ltd)|
-|ace-inhibitor v1|snomed|13856811000001105|Cozaar 50mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|5536911000001109|Cozaar 50mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|18054611000001102|Cozaar 50mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|16523311000001103|Cozaar 50mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|53611000001106|Cozaar 50mg tablets (Merck Sharp & Dohme Ltd)|
-|ace-inhibitor v1|snomed|18226711000001105|Cozaar 50mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|14211111000001105|Cozaar 50mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|5354011000001103|Cozaar 50mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|16522611000001103|Cozaar-Comp 100mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|13094111000001102|Cozaar-Comp 100mg/12.5mg tablets (Merck Sharp & Dohme Ltd)|
-|ace-inhibitor v1|snomed|19541711000001106|Cozaar-Comp 100mg/25mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|18054811000001103|Cozaar-Comp 100mg/25mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|16523011000001101|Cozaar-Comp 100mg/25mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|9566911000001105|Cozaar-Comp 100mg/25mg tablets (Merck Sharp & Dohme Ltd)|
-|ace-inhibitor v1|snomed|14210211000001105|Cozaar-Comp 100mg/25mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|13447711000001107|Cozaar-Comp 100mg/25mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|19541911000001108|Cozaar-Comp 50mg/12.5mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|5539911000001100|Cozaar-Comp 50mg/12.5mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|18055011000001108|Cozaar-Comp 50mg/12.5mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|16522211000001100|Cozaar-Comp 50mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|255911000001105|Cozaar-Comp 50mg/12.5mg tablets (Merck Sharp & Dohme Ltd)|
-|ace-inhibitor v1|snomed|18225911000001100|Cozaar-Comp 50mg/12.5mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|14210911000001101|Cozaar-Comp 50mg/12.5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|5358211000001102|Cozaar-Comp 50mg/12.5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|18037611000001109|Co-zidocapt|
-|ace-inhibitor v1|snomed|318806002|Co-zidocapt 12.5mg/25mg tablets|
-|ace-inhibitor v1|snomed|7492911000001107|Co-zidocapt 12.5mg/25mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|207311000001109|Co-zidocapt 12.5mg/25mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|5470311000001103|Co-zidocapt 12.5mg/25mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|765211000001102|Co-zidocapt 12.5mg/25mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|13747011000001101|Co-zidocapt 12.5mg/25mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|318807006|Co-zidocapt 25mg/50mg tablets|
-|ace-inhibitor v1|snomed|642211000001105|Co-zidocapt 25mg/50mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|614011000001103|Co-zidocapt 25mg/50mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|5470811000001107|Co-zidocapt 25mg/50mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|307811000001106|Co-zidocapt 25mg/50mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|13747211000001106|Co-zidocapt 25mg/50mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|768114001|Diltiazem and enalapril in oral dosage form|
-|ace-inhibitor v1|snomed|768113007|Diltiazem and enalapril product|
-|ace-inhibitor v1|snomed|377353009|Diltiazem malate 219 mg and enalapril maleate 5 mg oral tablet|
-|ace-inhibitor v1|snomed|13866611000001102|Diovan 160mg capsules (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|5535011000001101|Diovan 160mg capsules (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|16560611000001108|Diovan 160mg capsules (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|18252111000001109|Diovan 160mg capsules (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|117011000001107|Diovan 160mg capsules (Novartis Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|14318711000001109|Diovan 160mg capsules (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|13143311000001102|Diovan 320mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|20001711000001102|Diovan 3mg/1ml oral solution (Novartis Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|5536011000001105|Diovan 40mg capsules (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|17502411000001106|Diovan 40mg capsules (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|777611000001101|Diovan 40mg capsules (Novartis Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|14318311000001105|Diovan 40mg capsules (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|13866211000001104|Diovan 40mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|8263211000001101|Diovan 40mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|11384411000001102|Diovan 40mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|13866411000001100|Diovan 80mg capsules (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|5535611000001108|Diovan 80mg capsules (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|16560211000001106|Diovan 80mg capsules (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|18252311000001106|Diovan 80mg capsules (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|554511000001105|Diovan 80mg capsules (Novartis Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|14319411000001106|Diovan 80mg capsules (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|5358411000001103|Diovan 80mg capsules (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|221411000001104|Ecopace 12.5mg tablets (Advanz Pharma)|
-|ace-inhibitor v1|snomed|817411000001108|Ecopace 25mg tablets (Advanz Pharma)|
-|ace-inhibitor v1|snomed|767911000001101|Ecopace 50mg tablets (Advanz Pharma)|
-|ace-inhibitor v1|snomed|20350911000001100|Edarbi 20mg tablets (Takeda UK Ltd)|
-|ace-inhibitor v1|snomed|20351211000001103|Edarbi 40mg tablets (Takeda UK Ltd)|
-|ace-inhibitor v1|snomed|20351811000001102|Edarbi 80mg tablets (Takeda UK Ltd)|
-|ace-inhibitor v1|snomed|422016001|Enalapril + Hydrochlorothiazide|
-|ace-inhibitor v1|snomed|8485511000001103|Enalapril 1.25mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8458611000001101|Enalapril 1.25mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8485611000001104|Enalapril 1.25mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8459111000001102|Enalapril 1.25mg/5ml oral suspension (Drug Tariff Special Order)|
-|ace-inhibitor v1|snomed|12085111000001108|Enalapril 1.2mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12073111000001103|Enalapril 1.2mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|12085211000001102|Enalapril 1.2mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|12072511000001100|Enalapril 1.2mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|12085311000001105|Enalapril 1.5mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12073711000001102|Enalapril 1.5mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|12085411000001103|Enalapril 1.5mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|12073411000001108|Enalapril 1.5mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|318853004|Enalapril 10mg tablets|
-|ace-inhibitor v1|snomed|225811000001104|Enalapril 10mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|23483911000001108|Enalapril 10mg tablets (Accord Healthcare Ltd)|
-|ace-inhibitor v1|snomed|676011000001102|Enalapril 10mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|688811000001104|Enalapril 10mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|9794411000001107|Enalapril 10mg tablets (Almus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|10405811000001102|Enalapril 10mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|36609411000001107|Enalapril 10mg tablets (Bristol Laboratories Ltd)|
-|ace-inhibitor v1|snomed|23881511000001106|Enalapril 10mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|11554111000001100|Enalapril 10mg tablets (Dexcel-Pharma Ltd)|
-|ace-inhibitor v1|snomed|5506311000001102|Enalapril 10mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|414411000001109|Enalapril 10mg tablets (IVAX Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|127311000001103|Enalapril 10mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|30125011000001101|Enalapril 10mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|19727511000001108|Enalapril 10mg tablets (Medreich Plc)|
-|ace-inhibitor v1|snomed|19191011000001106|Enalapril 10mg tablets (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|401711000001103|Enalapril 10mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|36739811000001106|Enalapril 10mg tablets (Noumed Life Sciences Ltd)|
-|ace-inhibitor v1|snomed|17901611000001106|Enalapril 10mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|5625211000001101|Enalapril 10mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|450811000001105|Enalapril 10mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|29848511000001106|Enalapril 10mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|115211000001105|Enalapril 10mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|13749911000001109|Enalapril 10mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|21934511000001104|Enalapril 10mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|15969311000001102|Enalapril 10mg tablets (Zanza Specials International Ltd)|
-|ace-inhibitor v1|snomed|104511000001109|Enalapril 10mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|8485711000001108|Enalapril 10mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8460311000001104|Enalapril 10mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8485811000001100|Enalapril 10mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8461811000001100|Enalapril 10mg/5ml oral suspension (Drug Tariff Special Order)|
-|ace-inhibitor v1|snomed|12085511000001104|Enalapril 12.5mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12074311000001104|Enalapril 12.5mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|12085611000001100|Enalapril 12.5mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|12074011000001102|Enalapril 12.5mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|8486011000001102|Enalapril 15mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8459711000001101|Enalapril 15mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8486111000001101|Enalapril 15mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8460511000001105|Enalapril 15mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|12085711000001109|Enalapril 1mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12074911000001103|Enalapril 1mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|12085811000001101|Enalapril 1mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|12074611000001109|Enalapril 1mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|318850001|Enalapril 2.5mg tablets|
-|ace-inhibitor v1|snomed|4811000001104|Enalapril 2.5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|792211000001109|Enalapril 2.5mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|289711000001101|Enalapril 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|9793911000001101|Enalapril 2.5mg tablets (Almus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|10405411000001104|Enalapril 2.5mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|23881711000001101|Enalapril 2.5mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|11553711000001101|Enalapril 2.5mg tablets (Dexcel-Pharma Ltd)|
-|ace-inhibitor v1|snomed|456011000001101|Enalapril 2.5mg tablets (IVAX Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|773011000001102|Enalapril 2.5mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|19190611000001109|Enalapril 2.5mg tablets (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|488511000001104|Enalapril 2.5mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|17901211000001109|Enalapril 2.5mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|5624811000001101|Enalapril 2.5mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|395411000001101|Enalapril 2.5mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|29848711000001101|Enalapril 2.5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|795111000001105|Enalapril 2.5mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|13749511000001102|Enalapril 2.5mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|21934111000001108|Enalapril 2.5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|15970011000001102|Enalapril 2.5mg tablets (Zanza Specials International Ltd)|
-|ace-inhibitor v1|snomed|102611000001100|Enalapril 2.5mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|8486211000001107|Enalapril 2.5mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8461511000001103|Enalapril 2.5mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8489611000001101|Enalapril 2.5mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8462111000001102|Enalapril 2.5mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|318849001|Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets|
-|ace-inhibitor v1|snomed|9253411000001107|Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|7846711000001109|Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|23973711000001103|Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|30124611000001107|Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|33586411000001104|Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|17901011000001104|Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|4473011000001102|Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|29849111000001109|Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|18743911000001105|Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|13750511000001108|Enalapril 20mg / Hydrochlorothiazide 12.5mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|318855006|Enalapril 20mg tablets|
-|ace-inhibitor v1|snomed|526511000001100|Enalapril 20mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|665211000001105|Enalapril 20mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|367611000001108|Enalapril 20mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|9794611000001105|Enalapril 20mg tablets (Almus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|10406011000001104|Enalapril 20mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|36610011000001109|Enalapril 20mg tablets (Bristol Laboratories Ltd)|
-|ace-inhibitor v1|snomed|23973911000001101|Enalapril 20mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|11554311000001103|Enalapril 20mg tablets (Dexcel-Pharma Ltd)|
-|ace-inhibitor v1|snomed|5506711000001103|Enalapril 20mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|381411000001100|Enalapril 20mg tablets (IVAX Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|233511000001103|Enalapril 20mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|30125211000001106|Enalapril 20mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|19727711000001103|Enalapril 20mg tablets (Medreich Plc)|
-|ace-inhibitor v1|snomed|19191211000001101|Enalapril 20mg tablets (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|923711000001107|Enalapril 20mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|36740411000001103|Enalapril 20mg tablets (Noumed Life Sciences Ltd)|
-|ace-inhibitor v1|snomed|17901811000001105|Enalapril 20mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|5625411000001102|Enalapril 20mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|728411000001104|Enalapril 20mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|695511000001106|Enalapril 20mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|13750211000001105|Enalapril 20mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|21934711000001109|Enalapril 20mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|15969611000001107|Enalapril 20mg tablets (Zanza Specials International Ltd)|
-|ace-inhibitor v1|snomed|346311000001105|Enalapril 20mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|8486511000001105|Enalapril 20mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8462411000001107|Enalapril 20mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8486611000001109|Enalapril 20mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8463111000001108|Enalapril 20mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|12085911000001106|Enalapril 25mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12076511000001104|Enalapril 25mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|12086011000001103|Enalapril 25mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|12075611000001105|Enalapril 25mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|12086111000001102|Enalapril 2mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12077411000001101|Enalapril 2mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|12086211000001108|Enalapril 2mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|12077111000001106|Enalapril 2mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|12086311000001100|Enalapril 3.5mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12078011000001106|Enalapril 3.5mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|12086411000001107|Enalapril 3.5mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|12077711000001107|Enalapril 3.5mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|12292611000001104|Enalapril 3.75mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12251011000001109|Enalapril 3.75mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|12292711000001108|Enalapril 3.75mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|12250611000001107|Enalapril 3.75mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|12292811000001100|Enalapril 3mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12252011000001101|Enalapril 3mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|12292911000001105|Enalapril 3mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|12251311000001107|Enalapril 3mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|12293011000001102|Enalapril 40mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12252911000001102|Enalapril 40mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|12293111000001101|Enalapril 40mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|12252411000001105|Enalapril 40mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|8486711000001100|Enalapril 4mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8462711000001101|Enalapril 4mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8486811000001108|Enalapril 4mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8463611000001100|Enalapril 4mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|12293211000001107|Enalapril 500micrograms/5ml oral solution|
-|ace-inhibitor v1|snomed|12253711000001107|Enalapril 500micrograms/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|12293311000001104|Enalapril 500micrograms/5ml oral suspension|
-|ace-inhibitor v1|snomed|12253311000001108|Enalapril 500micrograms/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|318851002|Enalapril 5mg tablets|
-|ace-inhibitor v1|snomed|26111000001109|Enalapril 5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|21282011000001108|Enalapril 5mg tablets (Accord Healthcare Ltd)|
-|ace-inhibitor v1|snomed|92211000001108|Enalapril 5mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|936511000001107|Enalapril 5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|9794111000001102|Enalapril 5mg tablets (Almus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|10405611000001101|Enalapril 5mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|23881911000001104|Enalapril 5mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|11553911000001104|Enalapril 5mg tablets (Dexcel-Pharma Ltd)|
-|ace-inhibitor v1|snomed|856011000001106|Enalapril 5mg tablets (IVAX Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|50211000001104|Enalapril 5mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|30124811000001106|Enalapril 5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|19727011000001100|Enalapril 5mg tablets (Medreich Plc)|
-|ace-inhibitor v1|snomed|19190811000001108|Enalapril 5mg tablets (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|766411000001107|Enalapril 5mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|36739211000001105|Enalapril 5mg tablets (Noumed Life Sciences Ltd)|
-|ace-inhibitor v1|snomed|17901411000001108|Enalapril 5mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|5625011000001106|Enalapril 5mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|51511000001108|Enalapril 5mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|29848911000001104|Enalapril 5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|319411000001102|Enalapril 5mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|13749711000001107|Enalapril 5mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|21934311000001105|Enalapril 5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|15970611000001109|Enalapril 5mg tablets (Zanza Specials International Ltd)|
-|ace-inhibitor v1|snomed|259111000001109|Enalapril 5mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|8486911000001103|Enalapril 5mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8463911000001106|Enalapril 5mg/5ml oral solution (Drug Tariff Special Order)|
-|ace-inhibitor v1|snomed|8487011000001104|Enalapril 5mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8464211000001104|Enalapril 5mg/5ml oral suspension (Drug Tariff Special Order)|
-|ace-inhibitor v1|snomed|20092911000001108|Enalapril 5mg/5ml oral suspension sugar free|
-|ace-inhibitor v1|snomed|20093211000001105|Enalapril 5mg/5ml oral suspension sugar free (Special Order)|
-|ace-inhibitor v1|snomed|12293411000001106|Enalapril 600micrograms/5ml oral solution|
-|ace-inhibitor v1|snomed|12254811000001101|Enalapril 600micrograms/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|12293511000001105|Enalapril 600micrograms/5ml oral suspension|
-|ace-inhibitor v1|snomed|12254311000001105|Enalapril 600micrograms/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|12293611000001109|Enalapril 7.5mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12255911000001105|Enalapril 7.5mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|12293711000001100|Enalapril 7.5mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|12255411000001102|Enalapril 7.5mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|12293811000001108|Enalapril 7mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12256611000001109|Enalapril 7mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|12293911000001103|Enalapril 7mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|12256311000001104|Enalapril 7mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|12294011000001100|Enalapril 8mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12257711000001102|Enalapril 8mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|12294111000001104|Enalapril 8mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|12256911000001103|Enalapril 8mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|768140007|Enalapril and hydrochlorothiazide in oral dosage form|
-|ace-inhibitor v1|snomed|714571001|Enalapril in oral dosage form|
-|ace-inhibitor v1|snomed|377369002|Enalapril maleate 10 mg and hydrochlorothiazide 25 mg oral tablet|
-|ace-inhibitor v1|snomed|377370001|Enalapril maleate 5 mg and hydrochlorothiazide 12.5 mg oral tablet|
-|ace-inhibitor v1|snomed|31136811000001109|Entresto 24mg/26mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|31136411000001107|Entresto 49mg/51mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|31138011000001104|Entresto 97mg/103mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|318994006|Eprosartan 300mg tablets|
-|ace-inhibitor v1|snomed|21229311000001108|Eprosartan 300mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|21232811000001106|Eprosartan 300mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|30276111000001105|Eprosartan 300mg tablets (Creo Pharma Ltd)|
-|ace-inhibitor v1|snomed|30053411000001103|Eprosartan 300mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|34103911000001107|Eprosartan 300mg tablets (Genesis Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|33596611000001102|Eprosartan 300mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|23913811000001104|Eprosartan 300mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|29850011000001103|Eprosartan 300mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|30766411000001102|Eprosartan 300mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|23593311000001104|Eprosartan 300mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|15774011000001103|Eprosartan 300mg/5ml oral solution|
-|ace-inhibitor v1|snomed|15695511000001109|Eprosartan 300mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|15774111000001102|Eprosartan 300mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|15696411000001101|Eprosartan 300mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|318995007|Eprosartan 400mg tablets|
-|ace-inhibitor v1|snomed|21229511000001102|Eprosartan 400mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|21233011000001109|Eprosartan 400mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|30276311000001107|Eprosartan 400mg tablets (Creo Pharma Ltd)|
-|ace-inhibitor v1|snomed|30053611000001100|Eprosartan 400mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|34104111000001106|Eprosartan 400mg tablets (Genesis Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|33596411000001100|Eprosartan 400mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|23914111000001108|Eprosartan 400mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|29850211000001108|Eprosartan 400mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|30766711000001108|Eprosartan 400mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|23593511000001105|Eprosartan 400mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|410878003|Eprosartan 600 mg and hydrochlorothiazide 12.5 mg oral tablet|
-|ace-inhibitor v1|snomed|410877008|Eprosartan 600 mg and hydrochlorothiazide 25 mg oral tablet|
-|ace-inhibitor v1|snomed|318996008|Eprosartan 600mg tablets|
-|ace-inhibitor v1|snomed|21229711000001107|Eprosartan 600mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|21233211000001104|Eprosartan 600mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|30276511000001101|Eprosartan 600mg tablets (Creo Pharma Ltd)|
-|ace-inhibitor v1|snomed|23974511000001106|Eprosartan 600mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|34104311000001108|Eprosartan 600mg tablets (Genesis Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|30125411000001105|Eprosartan 600mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|33595711000001103|Eprosartan 600mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|23914411000001103|Eprosartan 600mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|29850511000001106|Eprosartan 600mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|30767011000001109|Eprosartan 600mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|23593711000001100|Eprosartan 600mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|410876004|Eprosartan and hydrochlorothiazide|
-|ace-inhibitor v1|snomed|768238009|Eprosartan and hydrochlorothiazide in oral dosage form|
-|ace-inhibitor v1|snomed|768224002|Eprosartan in oral dosage form|
-|ace-inhibitor v1|snomed|19611711000001108|Exforge 10mg/160mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|13163811000001102|Exforge 10mg/160mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|16575311000001103|Exforge 10mg/160mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|11160711000001108|Exforge 10mg/160mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|14230711000001109|Exforge 10mg/160mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|23676911000001106|Exforge 10mg/160mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|19611911000001105|Exforge 5mg/160mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|13163511000001100|Exforge 5mg/160mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|16575511000001109|Exforge 5mg/160mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|11161511000001105|Exforge 5mg/160mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|14230911000001106|Exforge 5mg/160mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|20561911000001102|Exforge 5mg/160mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|19612111000001102|Exforge 5mg/80mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|13163211000001103|Exforge 5mg/80mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|16575111000001100|Exforge 5mg/80mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|11161811000001108|Exforge 5mg/80mg tablets (Novartis Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|14231111000001102|Exforge 5mg/80mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|20561711000001104|Exforge 5mg/80mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|318173007|Felodipine + Ramipril|
-|ace-inhibitor v1|snomed|318176004|Felodipine 2.5mg modified-release / Ramipril 2.5mg tablets|
-|ace-inhibitor v1|snomed|318177008|Felodipine 5mg modified-release / Ramipril 5mg tablets|
-|ace-inhibitor v1|snomed|767989004|Felodipine and ramipril in oral dosage form|
-|ace-inhibitor v1|snomed|409458001|Fosinopril 10 mg and hydrochlorothiazide 12.5 mg oral tablet|
-|ace-inhibitor v1|snomed|318909008|Fosinopril 10mg tablets|
-|ace-inhibitor v1|snomed|9474311000001101|Fosinopril 10mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|9445411000001105|Fosinopril 10mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|9499611000001103|Fosinopril 10mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|13765611000001105|Fosinopril 10mg tablets (Apotex UK Ltd)|
-|ace-inhibitor v1|snomed|10435511000001108|Fosinopril 10mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|20925711000001102|Fosinopril 10mg tablets (Aurobindo Pharma Ltd)|
-|ace-inhibitor v1|snomed|23981411000001102|Fosinopril 10mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|5460311000001105|Fosinopril 10mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|10294511000001103|Fosinopril 10mg tablets (Focus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|9457011000001105|Fosinopril 10mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|37078211000001101|Fosinopril 10mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|9554711000001108|Fosinopril 10mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|5367111000001104|Fosinopril 10mg tablets (PI) (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|9471311000001104|Fosinopril 10mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|15089111000001108|Fosinopril 10mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|9450311000001107|Fosinopril 10mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|22018011000001101|Fosinopril 10mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|9448711000001106|Fosinopril 10mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|409459009|Fosinopril 20 mg and hydrochlorothiazide 12.5 mg oral tablet|
-|ace-inhibitor v1|snomed|318910003|Fosinopril 20mg tablets|
-|ace-inhibitor v1|snomed|9474511000001107|Fosinopril 20mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|9445611000001108|Fosinopril 20mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|9500311000001107|Fosinopril 20mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|13765811000001109|Fosinopril 20mg tablets (Apotex UK Ltd)|
-|ace-inhibitor v1|snomed|10435711000001103|Fosinopril 20mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|20937311000001107|Fosinopril 20mg tablets (Aurobindo Pharma Ltd)|
-|ace-inhibitor v1|snomed|23981611000001104|Fosinopril 20mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|5462411000001102|Fosinopril 20mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|10294711000001108|Fosinopril 20mg tablets (Focus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|9457311000001108|Fosinopril 20mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|37078911000001105|Fosinopril 20mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|9554911000001105|Fosinopril 20mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|9471511000001105|Fosinopril 20mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|15209611000001107|Fosinopril 20mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|9450511000001101|Fosinopril 20mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|5367611000001107|Fosinopril 20mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|9448911000001108|Fosinopril 20mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|12034611000001106|Fosinopril 20mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12006711000001102|Fosinopril 20mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|12034711000001102|Fosinopril 20mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|12006411000001108|Fosinopril 20mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|768398009|Fosinopril and hydrochlorothiazide in oral dosage form|
-|ace-inhibitor v1|snomed|768390002|Fosinopril in oral dosage form|
-|ace-inhibitor v1|snomed|376699008|Fosinopril sodium 40 mg oral tablet|
-|ace-inhibitor v1|snomed|409457006|Fosinopril+hydrochlorothiazide|
-|ace-inhibitor v1|snomed|18987811000001107|Generic Sevikar HCT 20mg/5mg/12.5mg tablets|
-|ace-inhibitor v1|snomed|18987911000001102|Generic Sevikar HCT 40mg/10mg/12.5mg tablets|
-|ace-inhibitor v1|snomed|18988011000001100|Generic Sevikar HCT 40mg/10mg/25mg tablets|
-|ace-inhibitor v1|snomed|18988111000001104|Generic Sevikar HCT 40mg/5mg/12.5mg tablets|
-|ace-inhibitor v1|snomed|18988211000001105|Generic Sevikar HCT 40mg/5mg/25mg tablets|
-|ace-inhibitor v1|snomed|3464011000001105|Generic Tritace titration pack capsules|
-|ace-inhibitor v1|snomed|13610111000001104|Generic Tritace titration pack tablets|
-|ace-inhibitor v1|snomed|346811000001101|Gopten 1mg capsules (Abbott Laboratories Ltd)|
-|ace-inhibitor v1|snomed|273111000001109|Gopten 2mg capsules (Abbott Laboratories Ltd)|
-|ace-inhibitor v1|snomed|5549611000001105|Gopten 2mg capsules (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|16503411000001101|Gopten 2mg capsules (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|18265711000001108|Gopten 2mg capsules (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|5651611000001103|Gopten 4mg capsules (Abbott Laboratories Ltd)|
-|ace-inhibitor v1|snomed|21501511000001103|Gopten 4mg capsules (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|253511000001102|Gopten 500microgram capsules (Abbott Laboratories Ltd)|
-|ace-inhibitor v1|snomed|5548711000001105|Gopten 500microgram capsules (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|5372611000001104|Gopten 500microgram capsules (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|377478007|Hydrochlorothiazide 12.5 mg and quinapril hydrochloride 20 mg oral tablet|
-|ace-inhibitor v1|snomed|421207006|Hydrochlorothiazide 12.5 mg and valsartan 320 mg oral tablet|
-|ace-inhibitor v1|snomed|377469001|Hydrochlorothiazide 25 mg and lisinopril 20 mg oral tablet|
-|ace-inhibitor v1|snomed|377479004|Hydrochlorothiazide 25 mg and quinapril hydrochloride 20 mg oral tablet|
-|ace-inhibitor v1|snomed|420960008|Hydrochlorothiazide 25 mg and valsartan 320 mg oral tablet|
-|ace-inhibitor v1|snomed|768859007|Hydrochlorothiazide and lisinopril in oral dosage form|
-|ace-inhibitor v1|snomed|768581008|Hydrochlorothiazide and losartan in oral dosage form|
-|ace-inhibitor v1|snomed|768574001|Hydrochlorothiazide and losartan product|
-|ace-inhibitor v1|snomed|768861003|Hydrochlorothiazide and moexipril in oral dosage form|
-|ace-inhibitor v1|snomed|768860002|Hydrochlorothiazide and moexipril product|
-|ace-inhibitor v1|snomed|768233000|Hydrochlorothiazide and quinapril in oral dosage form|
-|ace-inhibitor v1|snomed|768208003|Hydrochlorothiazide and telmisartan in oral dosage form|
-|ace-inhibitor v1|snomed|768803002|Hydrochlorothiazide and valsartan in oral dosage form|
-|ace-inhibitor v1|snomed|22720611000001103|Ifirmasta 150mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|22720811000001104|Ifirmasta 300mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|22720311000001108|Ifirmasta 75mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|318944005|Imidapril 10mg tablets|
-|ace-inhibitor v1|snomed|318942009|Imidapril 20mg tablets|
-|ace-inhibitor v1|snomed|318943004|Imidapril 5mg tablets|
-|ace-inhibitor v1|snomed|768856000|Imidapril in oral dosage form|
-|ace-inhibitor v1|snomed|5577711000001108|Innovace 10mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|16514811000001103|Innovace 10mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|316111000001104|Innovace 10mg tablets (Merck Sharp & Dohme Ltd)|
-|ace-inhibitor v1|snomed|10839011000001107|Innovace 10mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|749611000001107|Innovace 2.5mg tablets (Merck Sharp & Dohme Ltd)|
-|ace-inhibitor v1|snomed|10505611000001108|Innovace 20mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|16515311000001106|Innovace 20mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|302311000001104|Innovace 20mg tablets (Merck Sharp & Dohme Ltd)|
-|ace-inhibitor v1|snomed|10767411000001102|Innovace 20mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|13916111000001102|Innovace 5mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|10505311000001103|Innovace 5mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|16514311000001107|Innovace 5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|730211000001104|Innovace 5mg tablets (Merck Sharp & Dohme Ltd)|
-|ace-inhibitor v1|snomed|10838811000001108|Innovace 5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|16192711000001107|Innozide 20mg/12.5mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|16515811000001102|Innozide 20mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|146811000001108|Innozide 20mg/12.5mg tablets (Merck Sharp & Dohme Ltd)|
-|ace-inhibitor v1|snomed|14254311000001103|Innozide 20mg/12.5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|20562111000001105|Innozide 20mg/12.5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|398914000|Irbesartan + Hydrochlorothiazide|
-|ace-inhibitor v1|snomed|36774811000001105|Irbesartan 100mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|36772211000001100|Irbesartan 100mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|134461004|Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets|
-|ace-inhibitor v1|snomed|23478711000001106|Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|23472411000001102|Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|23480911000001100|Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|26763511000001103|Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets (Lupin Healthcare (UK) Ltd)|
-|ace-inhibitor v1|snomed|29672611000001103|Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets (Macleods Pharma UK Ltd)|
-|ace-inhibitor v1|snomed|30215211000001102|Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|23954111000001100|Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|33600511000001109|Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|29880711000001106|Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|23310011000001106|Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|318969005|Irbesartan 150mg tablets|
-|ace-inhibitor v1|snomed|21230711000001102|Irbesartan 150mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|21285011000001103|Irbesartan 150mg tablets (Accord Healthcare Ltd)|
-|ace-inhibitor v1|snomed|21219211000001108|Irbesartan 150mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|21123311000001108|Irbesartan 150mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|22336911000001106|Irbesartan 150mg tablets (Aptil Pharma Ltd)|
-|ace-inhibitor v1|snomed|21228511000001108|Irbesartan 150mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|36599411000001100|Irbesartan 150mg tablets (Bristol Laboratories Ltd)|
-|ace-inhibitor v1|snomed|13916611000001105|Irbesartan 150mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|24177311000001105|Irbesartan 150mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|21015011000001108|Irbesartan 150mg tablets (Dexcel-Pharma Ltd)|
-|ace-inhibitor v1|snomed|10504811000001106|Irbesartan 150mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|21624111000001107|Irbesartan 150mg tablets (Dr Reddy's Laboratories (UK) Ltd)|
-|ace-inhibitor v1|snomed|27588011000001102|Irbesartan 150mg tablets (Lupin Healthcare (UK) Ltd)|
-|ace-inhibitor v1|snomed|29672211000001100|Irbesartan 150mg tablets (Macleods Pharma UK Ltd)|
-|ace-inhibitor v1|snomed|16532011000001108|Irbesartan 150mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|23957611000001102|Irbesartan 150mg tablets (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|33597711000001109|Irbesartan 150mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|18269011000001108|Irbesartan 150mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|22945611000001101|Irbesartan 150mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|21993011000001101|Irbesartan 150mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|29880111000001105|Irbesartan 150mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|23665711000001106|Irbesartan 150mg tablets (Sovereign Medical Ltd)|
-|ace-inhibitor v1|snomed|21112911000001107|Irbesartan 150mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|36847811000001100|Irbesartan 150mg tablets (Torrent Pharma (UK) Ltd)|
-|ace-inhibitor v1|snomed|5395111000001105|Irbesartan 150mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|23597411000001104|Irbesartan 150mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|8580811000001101|Irbesartan 150mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8546311000001102|Irbesartan 150mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|18852211000001107|Irbesartan 20mg oral powder sachets|
-|ace-inhibitor v1|snomed|18825311000001109|Irbesartan 20mg oral powder sachets (Special Order)|
-|ace-inhibitor v1|snomed|134460003|Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets|
-|ace-inhibitor v1|snomed|23479111000001103|Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|23472611000001104|Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|23481111000001109|Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|26764611000001101|Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets (Lupin Healthcare (UK) Ltd)|
-|ace-inhibitor v1|snomed|29672811000001104|Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets (Macleods Pharma UK Ltd)|
-|ace-inhibitor v1|snomed|30215611000001100|Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|23954311000001103|Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|33600711000001104|Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|29880911000001108|Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|23310211000001101|Irbesartan 300mg / Hydrochlorothiazide 12.5mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|10970311000001105|Irbesartan 300mg / Hydrochlorothiazide 25mg tablets|
-|ace-inhibitor v1|snomed|23479511000001107|Irbesartan 300mg / Hydrochlorothiazide 25mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|23472811000001100|Irbesartan 300mg / Hydrochlorothiazide 25mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|23481311000001106|Irbesartan 300mg / Hydrochlorothiazide 25mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|26764811000001102|Irbesartan 300mg / Hydrochlorothiazide 25mg tablets (Lupin Healthcare (UK) Ltd)|
-|ace-inhibitor v1|snomed|29673011000001101|Irbesartan 300mg / Hydrochlorothiazide 25mg tablets (Macleods Pharma UK Ltd)|
-|ace-inhibitor v1|snomed|30215811000001101|Irbesartan 300mg / Hydrochlorothiazide 25mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|23954511000001109|Irbesartan 300mg / Hydrochlorothiazide 25mg tablets (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|33600911000001102|Irbesartan 300mg / Hydrochlorothiazide 25mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|29881011000001100|Irbesartan 300mg / Hydrochlorothiazide 25mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|23310411000001102|Irbesartan 300mg / Hydrochlorothiazide 25mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|15914211000001105|Irbesartan 300mg oral powder sachets|
-|ace-inhibitor v1|snomed|15883011000001105|Irbesartan 300mg oral powder sachets (Special Order)|
-|ace-inhibitor v1|snomed|318970006|Irbesartan 300mg tablets|
-|ace-inhibitor v1|snomed|21100511000001103|Irbesartan 300mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|21285511000001106|Irbesartan 300mg tablets (Accord Healthcare Ltd)|
-|ace-inhibitor v1|snomed|21219411000001107|Irbesartan 300mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|21123811000001104|Irbesartan 300mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|22337111000001106|Irbesartan 300mg tablets (Aptil Pharma Ltd)|
-|ace-inhibitor v1|snomed|36599611000001102|Irbesartan 300mg tablets (Bristol Laboratories Ltd)|
-|ace-inhibitor v1|snomed|13916811000001109|Irbesartan 300mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|24177711000001109|Irbesartan 300mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|21023811000001107|Irbesartan 300mg tablets (Dexcel-Pharma Ltd)|
-|ace-inhibitor v1|snomed|10505011000001101|Irbesartan 300mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|21624311000001109|Irbesartan 300mg tablets (Dr Reddy's Laboratories (UK) Ltd)|
-|ace-inhibitor v1|snomed|32409211000001109|Irbesartan 300mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|27611811000001108|Irbesartan 300mg tablets (Lupin Healthcare (UK) Ltd)|
-|ace-inhibitor v1|snomed|29672411000001101|Irbesartan 300mg tablets (Macleods Pharma UK Ltd)|
-|ace-inhibitor v1|snomed|16532211000001103|Irbesartan 300mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|23957811000001103|Irbesartan 300mg tablets (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|33597911000001106|Irbesartan 300mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|18269311000001106|Irbesartan 300mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|22946711000001102|Irbesartan 300mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|21993211000001106|Irbesartan 300mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|14261011000001108|Irbesartan 300mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|29880311000001107|Irbesartan 300mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|23666111000001104|Irbesartan 300mg tablets (Sovereign Medical Ltd)|
-|ace-inhibitor v1|snomed|21113111000001103|Irbesartan 300mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|36848211000001102|Irbesartan 300mg tablets (Torrent Pharma (UK) Ltd)|
-|ace-inhibitor v1|snomed|10545311000001108|Irbesartan 300mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|23597711000001105|Irbesartan 300mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|12639511000001103|Irbesartan 300mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|12609511000001107|Irbesartan 300mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|19281511000001102|Irbesartan 30mg oral powder sachets|
-|ace-inhibitor v1|snomed|19278411000001102|Irbesartan 30mg oral powder sachets (Special Order)|
-|ace-inhibitor v1|snomed|19481911000001105|Irbesartan 37.5mg oral powder sachets|
-|ace-inhibitor v1|snomed|19480011000001102|Irbesartan 37.5mg oral powder sachets (Special Order)|
-|ace-inhibitor v1|snomed|318968002|Irbesartan 75mg tablets|
-|ace-inhibitor v1|snomed|21230511000001107|Irbesartan 75mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|21284211000001107|Irbesartan 75mg tablets (Accord Healthcare Ltd)|
-|ace-inhibitor v1|snomed|21219011000001103|Irbesartan 75mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|21122811000001107|Irbesartan 75mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|22336711000001109|Irbesartan 75mg tablets (Aptil Pharma Ltd)|
-|ace-inhibitor v1|snomed|21228311000001102|Irbesartan 75mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|36599211000001104|Irbesartan 75mg tablets (Bristol Laboratories Ltd)|
-|ace-inhibitor v1|snomed|13916411000001107|Irbesartan 75mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|30057611000001108|Irbesartan 75mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|21014811000001103|Irbesartan 75mg tablets (Dexcel-Pharma Ltd)|
-|ace-inhibitor v1|snomed|10504511000001108|Irbesartan 75mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|21623611000001102|Irbesartan 75mg tablets (Dr Reddy's Laboratories (UK) Ltd)|
-|ace-inhibitor v1|snomed|32408911000001108|Irbesartan 75mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|27587111000001102|Irbesartan 75mg tablets (Lupin Healthcare (UK) Ltd)|
-|ace-inhibitor v1|snomed|29672011000001105|Irbesartan 75mg tablets (Macleods Pharma UK Ltd)|
-|ace-inhibitor v1|snomed|16531811000001106|Irbesartan 75mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|30254311000001104|Irbesartan 75mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|23957411000001100|Irbesartan 75mg tablets (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|33597511000001104|Irbesartan 75mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|18269511000001100|Irbesartan 75mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|22945311000001106|Irbesartan 75mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|21992811000001104|Irbesartan 75mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|14261211000001103|Irbesartan 75mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|29880511000001101|Irbesartan 75mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|23665911000001108|Irbesartan 75mg tablets (Sovereign Medical Ltd)|
-|ace-inhibitor v1|snomed|21111211000001105|Irbesartan 75mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|36847611000001104|Irbesartan 75mg tablets (Torrent Pharma (UK) Ltd)|
-|ace-inhibitor v1|snomed|11030611000001103|Irbesartan 75mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|23597211000001103|Irbesartan 75mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|777711000001105|Kaplon 12.5mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|477111000001100|Kaplon 25mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|572511000001102|Kaplon 50mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|8145711000001102|Lisicostad 10mg/12.5mg tablets (Genus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|8145911000001100|Lisicostad 20mg/12.5mg tablets (Genus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|398858004|Lisinopril + Hydrochlorothiazide|
-|ace-inhibitor v1|snomed|318884002|Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets|
-|ace-inhibitor v1|snomed|7495011000001103|Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|7513611000001102|Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|13845511000001102|Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Almus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|16061011000001108|Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Bristol Laboratories Ltd)|
-|ace-inhibitor v1|snomed|24366811000001102|Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|7977211000001106|Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|28168411000001108|Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Lupin Healthcare (UK) Ltd)|
-|ace-inhibitor v1|snomed|30221211000001106|Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|17936611000001108|Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|8171311000001102|Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|29892111000001105|Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|7334711000001104|Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|13754611000001100|Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|22071611000001106|Lisinopril 10mg / Hydrochlorothiazide 12.5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|318859000|Lisinopril 10mg tablets|
-|ace-inhibitor v1|snomed|532711000001109|Lisinopril 10mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|18463011000001106|Lisinopril 10mg tablets (Accord Healthcare Ltd)|
-|ace-inhibitor v1|snomed|247511000001109|Lisinopril 10mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|912911000001107|Lisinopril 10mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|9810411000001104|Lisinopril 10mg tablets (Almus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|10386411000001100|Lisinopril 10mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|35165411000001106|Lisinopril 10mg tablets (Aurobindo Pharma Ltd)|
-|ace-inhibitor v1|snomed|16060611000001106|Lisinopril 10mg tablets (Bristol Laboratories Ltd)|
-|ace-inhibitor v1|snomed|14123311000001103|Lisinopril 10mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|35392011000001101|Lisinopril 10mg tablets (Crescent Pharma Ltd)|
-|ace-inhibitor v1|snomed|24367411000001102|Lisinopril 10mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|5515611000001104|Lisinopril 10mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|3695611000001101|Lisinopril 10mg tablets (IVAX Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|832711000001108|Lisinopril 10mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|27377611000001103|Lisinopril 10mg tablets (Lupin Healthcare (UK) Ltd)|
-|ace-inhibitor v1|snomed|30221811000001107|Lisinopril 10mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|656411000001108|Lisinopril 10mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|17937411000001107|Lisinopril 10mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|872611000001102|Lisinopril 10mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|10290011000001104|Lisinopril 10mg tablets (Relonchem Ltd)|
-|ace-inhibitor v1|snomed|145811000001100|Lisinopril 10mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|15107411000001103|Lisinopril 10mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|640511000001107|Lisinopril 10mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|13754211000001102|Lisinopril 10mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|22072611000001100|Lisinopril 10mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|499711000001101|Lisinopril 10mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|8621911000001101|Lisinopril 10mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8590911000001107|Lisinopril 10mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8622011000001108|Lisinopril 10mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8591311000001101|Lisinopril 10mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|15880311000001102|Lisinopril 14mg/5ml oral solution|
-|ace-inhibitor v1|snomed|15879311000001102|Lisinopril 14mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|15880411000001109|Lisinopril 14mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|15879611000001107|Lisinopril 14mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|12760911000001102|Lisinopril 15mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12734311000001104|Lisinopril 15mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|12761011000001105|Lisinopril 15mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|12733911000001100|Lisinopril 15mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|318857003|Lisinopril 2.5mg tablets|
-|ace-inhibitor v1|snomed|874311000001100|Lisinopril 2.5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|460011000001108|Lisinopril 2.5mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|337211000001101|Lisinopril 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|9809811000001108|Lisinopril 2.5mg tablets (Almus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|10385711000001103|Lisinopril 2.5mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|16060211000001109|Lisinopril 2.5mg tablets (Bristol Laboratories Ltd)|
-|ace-inhibitor v1|snomed|14122911000001109|Lisinopril 2.5mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|35391311000001107|Lisinopril 2.5mg tablets (Crescent Pharma Ltd)|
-|ace-inhibitor v1|snomed|24368011000001107|Lisinopril 2.5mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|5515711000001108|Lisinopril 2.5mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|3695211000001103|Lisinopril 2.5mg tablets (IVAX Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|709811000001102|Lisinopril 2.5mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|27377211000001100|Lisinopril 2.5mg tablets (Lupin Healthcare (UK) Ltd)|
-|ace-inhibitor v1|snomed|30221411000001105|Lisinopril 2.5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|5253711000001106|Lisinopril 2.5mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|17937011000001103|Lisinopril 2.5mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|96611000001106|Lisinopril 2.5mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|10290411000001108|Lisinopril 2.5mg tablets (Relonchem Ltd)|
-|ace-inhibitor v1|snomed|877611000001104|Lisinopril 2.5mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|15107611000001100|Lisinopril 2.5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|60211000001105|Lisinopril 2.5mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|22072211000001102|Lisinopril 2.5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|461611000001106|Lisinopril 2.5mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|8622111000001109|Lisinopril 2.5mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8591911000001100|Lisinopril 2.5mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8622211000001103|Lisinopril 2.5mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8592211000001102|Lisinopril 2.5mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|318880006|Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets|
-|ace-inhibitor v1|snomed|7495911000001104|Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|7513811000001103|Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|13845711000001107|Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Almus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|16061211000001103|Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Bristol Laboratories Ltd)|
-|ace-inhibitor v1|snomed|24367111000001107|Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|7977511000001109|Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|27475211000001104|Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Lupin Healthcare (UK) Ltd)|
-|ace-inhibitor v1|snomed|9089111000001103|Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|17936811000001107|Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|8171711000001103|Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|29891911000001102|Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|7334911000001102|Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|13754811000001101|Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|22071811000001105|Lisinopril 20mg / Hydrochlorothiazide 12.5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|318860005|Lisinopril 20mg tablets|
-|ace-inhibitor v1|snomed|668811000001102|Lisinopril 20mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|18463211000001101|Lisinopril 20mg tablets (Accord Healthcare Ltd)|
-|ace-inhibitor v1|snomed|460111000001109|Lisinopril 20mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|580411000001107|Lisinopril 20mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|9810811000001102|Lisinopril 20mg tablets (Almus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|10386911000001108|Lisinopril 20mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|35165611000001109|Lisinopril 20mg tablets (Aurobindo Pharma Ltd)|
-|ace-inhibitor v1|snomed|16060811000001105|Lisinopril 20mg tablets (Bristol Laboratories Ltd)|
-|ace-inhibitor v1|snomed|14123511000001109|Lisinopril 20mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|35392311000001103|Lisinopril 20mg tablets (Crescent Pharma Ltd)|
-|ace-inhibitor v1|snomed|24368611000001100|Lisinopril 20mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|5516511000001105|Lisinopril 20mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|3695811000001102|Lisinopril 20mg tablets (IVAX Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|607011000001108|Lisinopril 20mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|27377811000001104|Lisinopril 20mg tablets (Lupin Healthcare (UK) Ltd)|
-|ace-inhibitor v1|snomed|30222011000001109|Lisinopril 20mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|576511000001101|Lisinopril 20mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|17937611000001105|Lisinopril 20mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|155311000001107|Lisinopril 20mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|10291011000001108|Lisinopril 20mg tablets (Relonchem Ltd)|
-|ace-inhibitor v1|snomed|637111000001101|Lisinopril 20mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|15107811000001101|Lisinopril 20mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|487411000001102|Lisinopril 20mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|13754411000001103|Lisinopril 20mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|22072811000001101|Lisinopril 20mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|360711000001100|Lisinopril 20mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|8622311000001106|Lisinopril 20mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8592811000001101|Lisinopril 20mg/5ml oral solution (Drug Tariff Special Order)|
-|ace-inhibitor v1|snomed|8622411000001104|Lisinopril 20mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8593411000001107|Lisinopril 20mg/5ml oral suspension (Drug Tariff Special Order)|
-|ace-inhibitor v1|snomed|374040006|Lisinopril 30 mg oral tablet|
-|ace-inhibitor v1|snomed|12761111000001106|Lisinopril 30mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12735911000001104|Lisinopril 30mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|12761211000001100|Lisinopril 30mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|12735011000001103|Lisinopril 30mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|14014711000001100|Lisinopril 37.5mg/5ml oral solution|
-|ace-inhibitor v1|snomed|13976211000001104|Lisinopril 37.5mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|14014811000001108|Lisinopril 37.5mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|13976511000001101|Lisinopril 37.5mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|376772000|Lisinopril 40 mg oral tablet|
-|ace-inhibitor v1|snomed|20556011000001103|Lisinopril 40mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|20549611000001104|Lisinopril 40mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|12761311000001108|Lisinopril 500micrograms/5ml oral solution|
-|ace-inhibitor v1|snomed|12736911000001106|Lisinopril 500micrograms/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|12761411000001101|Lisinopril 500micrograms/5ml oral suspension|
-|ace-inhibitor v1|snomed|12736511000001104|Lisinopril 500micrograms/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|318858008|Lisinopril 5mg tablets|
-|ace-inhibitor v1|snomed|18111000001103|Lisinopril 5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|18463411000001102|Lisinopril 5mg tablets (Accord Healthcare Ltd)|
-|ace-inhibitor v1|snomed|34511000001109|Lisinopril 5mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|72111000001106|Lisinopril 5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|9810211000001103|Lisinopril 5mg tablets (Almus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|10386011000001109|Lisinopril 5mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|35165211000001107|Lisinopril 5mg tablets (Aurobindo Pharma Ltd)|
-|ace-inhibitor v1|snomed|16060411000001108|Lisinopril 5mg tablets (Bristol Laboratories Ltd)|
-|ace-inhibitor v1|snomed|14123111000001100|Lisinopril 5mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|35391711000001106|Lisinopril 5mg tablets (Crescent Pharma Ltd)|
-|ace-inhibitor v1|snomed|24368811000001101|Lisinopril 5mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|5516711000001100|Lisinopril 5mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|3695411000001104|Lisinopril 5mg tablets (IVAX Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|561911000001108|Lisinopril 5mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|27377411000001101|Lisinopril 5mg tablets (Lupin Healthcare (UK) Ltd)|
-|ace-inhibitor v1|snomed|30221611000001108|Lisinopril 5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|35611000001109|Lisinopril 5mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|17937211000001108|Lisinopril 5mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|854811000001107|Lisinopril 5mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|10291711000001105|Lisinopril 5mg tablets (Relonchem Ltd)|
-|ace-inhibitor v1|snomed|683211000001108|Lisinopril 5mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|15108011000001108|Lisinopril 5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|528611000001100|Lisinopril 5mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|13754011000001107|Lisinopril 5mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|22072411000001103|Lisinopril 5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|574111000001103|Lisinopril 5mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|8622511000001100|Lisinopril 5mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8593711000001101|Lisinopril 5mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|30251811000001106|Lisinopril 5mg/5ml oral solution sugar free|
-|ace-inhibitor v1|snomed|30987911000001102|Lisinopril 5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|30801411000001106|Lisinopril 5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|30223811000001106|Lisinopril 5mg/5ml oral solution sugar free (Essential Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|8622611000001101|Lisinopril 5mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8594211000001106|Lisinopril 5mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|8622811000001102|Lisinopril 7.5mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8592511000001104|Lisinopril 7.5mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8622911000001107|Lisinopril 7.5mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8593111000001102|Lisinopril 7.5mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|768857009|Lisinopril in oral dosage form|
-|ace-inhibitor v1|snomed|7314811000001102|Lisopress 10mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|7314011000001108|Lisopress 2.5mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|7315011000001107|Lisopress 20mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|7314511000001100|Lisopress 5mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|7949111000001105|Lopace 10mg capsules (Discovery Pharmaceuticals)|
-|ace-inhibitor v1|snomed|7948711000001102|Lopace 2.5mg capsules (Discovery Pharmaceuticals)|
-|ace-inhibitor v1|snomed|7948911000001100|Lopace 5mg capsules (Discovery Pharmaceuticals)|
-|ace-inhibitor v1|snomed|10201811000001104|Losartan + Hydrochlorothiazide|
-|ace-inhibitor v1|snomed|13112711000001103|Losartan 100mg / Hydrochlorothiazide 12.5mg tablets|
-|ace-inhibitor v1|snomed|18276311000001107|Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|20947111000001109|Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|18277011000001107|Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|35688611000001104|Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|24371211000001103|Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|30811111000001104|Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|35167211000001104|Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|33594611000001106|Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|18618811000001108|Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|21992611000001103|Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|29898411000001103|Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|19485511000001100|Losartan 100mg / Hydrochlorothiazide 12.5mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|395497004|Losartan 100mg / Hydrochlorothiazide 25mg tablets|
-|ace-inhibitor v1|snomed|17015111000001108|Losartan 100mg / Hydrochlorothiazide 25mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|18299211000001100|Losartan 100mg / Hydrochlorothiazide 25mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|17025511000001107|Losartan 100mg / Hydrochlorothiazide 25mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|17660111000001109|Losartan 100mg / Hydrochlorothiazide 25mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|35688811000001100|Losartan 100mg / Hydrochlorothiazide 25mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|35484011000001104|Losartan 100mg / Hydrochlorothiazide 25mg tablets (Crescent Pharma Ltd)|
-|ace-inhibitor v1|snomed|24371411000001104|Losartan 100mg / Hydrochlorothiazide 25mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|28070611000001106|Losartan 100mg / Hydrochlorothiazide 25mg tablets (Lupin Healthcare (UK) Ltd)|
-|ace-inhibitor v1|snomed|30826311000001104|Losartan 100mg / Hydrochlorothiazide 25mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|35856211000001102|Losartan 100mg / Hydrochlorothiazide 25mg tablets (Medreich Plc)|
-|ace-inhibitor v1|snomed|35167411000001100|Losartan 100mg / Hydrochlorothiazide 25mg tablets (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|16971211000001104|Losartan 100mg / Hydrochlorothiazide 25mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|18139711000001100|Losartan 100mg / Hydrochlorothiazide 25mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|20102611000001105|Losartan 100mg / Hydrochlorothiazide 25mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|20309411000001105|Losartan 100mg / Hydrochlorothiazide 25mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|29898611000001100|Losartan 100mg / Hydrochlorothiazide 25mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|17024911000001104|Losartan 100mg / Hydrochlorothiazide 25mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|36885311000001105|Losartan 100mg / Hydrochlorothiazide 25mg tablets (Torrent Pharma (UK) Ltd)|
-|ace-inhibitor v1|snomed|21788711000001103|Losartan 100mg / Hydrochlorothiazide 25mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|36500711000001101|Losartan 100mg / Hydrochlorothiazide 25mg tablets (Xiromed)|
-|ace-inhibitor v1|snomed|407784004|Losartan 100mg tablets|
-|ace-inhibitor v1|snomed|16732611000001102|Losartan 100mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|18463611000001104|Losartan 100mg tablets (Accord Healthcare Ltd)|
-|ace-inhibitor v1|snomed|16749311000001103|Losartan 100mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|17026311000001106|Losartan 100mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|32616911000001105|Losartan 100mg tablets (Almus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|22338411000001102|Losartan 100mg tablets (Aptil Pharma Ltd)|
-|ace-inhibitor v1|snomed|17661111000001103|Losartan 100mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|21037511000001102|Losartan 100mg tablets (Bristol Laboratories Ltd)|
-|ace-inhibitor v1|snomed|35657211000001107|Losartan 100mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|24371811000001102|Losartan 100mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|16999411000001105|Losartan 100mg tablets (Dexcel-Pharma Ltd)|
-|ace-inhibitor v1|snomed|18477311000001106|Losartan 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)|
-|ace-inhibitor v1|snomed|32413711000001103|Losartan 100mg tablets (Genesis Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|32417011000001106|Losartan 100mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|30826511000001105|Losartan 100mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|36025911000001102|Losartan 100mg tablets (Medreich Plc)|
-|ace-inhibitor v1|snomed|35166611000001104|Losartan 100mg tablets (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|16972011000001101|Losartan 100mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|18169911000001109|Losartan 100mg tablets (Pfizer Ltd)|
-|ace-inhibitor v1|snomed|18140511000001101|Losartan 100mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|17912411000001101|Losartan 100mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|20308611000001104|Losartan 100mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|29898111000001108|Losartan 100mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|23666711000001103|Losartan 100mg tablets (Sovereign Medical Ltd)|
-|ace-inhibitor v1|snomed|17024511000001106|Losartan 100mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|21789711000001107|Losartan 100mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|20572111000001104|Losartan 100mg tablets (Wockhardt UK Ltd)|
-|ace-inhibitor v1|snomed|36490411000001101|Losartan 100mg tablets (Xiromed)|
-|ace-inhibitor v1|snomed|16749411000001105|Losartan 100mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|15451111000001107|Losartan 100mg/5ml oral solution|
-|ace-inhibitor v1|snomed|15443111000001105|Losartan 100mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|15451211000001101|Losartan 100mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|15443411000001100|Losartan 100mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|15148111000001100|Losartan 12.5mg tablets|
-|ace-inhibitor v1|snomed|17015311000001105|Losartan 12.5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|17025711000001102|Losartan 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|32661211000001105|Losartan 12.5mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|24372011000001100|Losartan 12.5mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|16998111000001107|Losartan 12.5mg tablets (Dexcel-Pharma Ltd)|
-|ace-inhibitor v1|snomed|30811311000001102|Losartan 12.5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|36045611000001105|Losartan 12.5mg tablets (Medreich Plc)|
-|ace-inhibitor v1|snomed|18139911000001103|Losartan 12.5mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|29898911000001106|Losartan 12.5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|36904211000001108|Losartan 12.5mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|36892211000001106|Losartan 12.5mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|15507411000001105|Losartan 2.5mg/ml oral suspension sugar free|
-|ace-inhibitor v1|snomed|32877911000001108|Losartan 20mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|32873611000001105|Losartan 20mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|318955005|Losartan 25mg tablets|
-|ace-inhibitor v1|snomed|17015511000001104|Losartan 25mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|18463811000001100|Losartan 25mg tablets (Accord Healthcare Ltd)|
-|ace-inhibitor v1|snomed|16748711000001108|Losartan 25mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|17025911000001100|Losartan 25mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|32617111000001105|Losartan 25mg tablets (Almus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|22338011000001106|Losartan 25mg tablets (Aptil Pharma Ltd)|
-|ace-inhibitor v1|snomed|17660711000001105|Losartan 25mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|21033711000001102|Losartan 25mg tablets (Bristol Laboratories Ltd)|
-|ace-inhibitor v1|snomed|32494211000001107|Losartan 25mg tablets (Brown & Burk UK Ltd)|
-|ace-inhibitor v1|snomed|35656711000001103|Losartan 25mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|24372211000001105|Losartan 25mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|16998411000001102|Losartan 25mg tablets (Dexcel-Pharma Ltd)|
-|ace-inhibitor v1|snomed|18476911000001109|Losartan 25mg tablets (Dr Reddy's Laboratories (UK) Ltd)|
-|ace-inhibitor v1|snomed|32753911000001104|Losartan 25mg tablets (Genesis Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|32416611000001101|Losartan 25mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|30811511000001108|Losartan 25mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|36046011000001107|Losartan 25mg tablets (Medreich Plc)|
-|ace-inhibitor v1|snomed|35165811000001108|Losartan 25mg tablets (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|16971611000001102|Losartan 25mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|18170411000001104|Losartan 25mg tablets (Pfizer Ltd)|
-|ace-inhibitor v1|snomed|18140111000001105|Losartan 25mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|20308011000001106|Losartan 25mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|29899211000001107|Losartan 25mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|23666311000001102|Losartan 25mg tablets (Sovereign Medical Ltd)|
-|ace-inhibitor v1|snomed|17024111000001102|Losartan 25mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|21789211000001100|Losartan 25mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|20571411000001104|Losartan 25mg tablets (Wockhardt UK Ltd)|
-|ace-inhibitor v1|snomed|36489811000001107|Losartan 25mg tablets (Xiromed)|
-|ace-inhibitor v1|snomed|16748511000001103|Losartan 25mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|14204011000001105|Losartan 25mg/5ml oral solution|
-|ace-inhibitor v1|snomed|14191611000001100|Losartan 25mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|14204111000001106|Losartan 25mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|14191311000001105|Losartan 25mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|318959004|Losartan 50mg / Hydrochlorothiazide 12.5mg tablets|
-|ace-inhibitor v1|snomed|17014911000001107|Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|18165111000001109|Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|17025311000001101|Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|17659911000001106|Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|35688211000001101|Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|36081511000001101|Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Crescent Pharma Ltd)|
-|ace-inhibitor v1|snomed|24371611000001101|Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|27475411000001100|Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Lupin Healthcare (UK) Ltd)|
-|ace-inhibitor v1|snomed|30810911000001108|Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|35852211000001103|Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Medreich Plc)|
-|ace-inhibitor v1|snomed|35167011000001109|Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|16971411000001100|Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|18139511000001105|Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|18552511000001109|Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|20308811000001100|Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|29899511000001105|Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|17024711000001101|Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|36884711000001105|Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Torrent Pharma (UK) Ltd)|
-|ace-inhibitor v1|snomed|21788511000001108|Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|36503811000001102|Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Xiromed)|
-|ace-inhibitor v1|snomed|16749711000001104|Losartan 50mg / Hydrochlorothiazide 12.5mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|318956006|Losartan 50mg tablets|
-|ace-inhibitor v1|snomed|16732411000001100|Losartan 50mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|18464011000001108|Losartan 50mg tablets (Accord Healthcare Ltd)|
-|ace-inhibitor v1|snomed|16749111000001100|Losartan 50mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|17026111000001109|Losartan 50mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|32617311000001107|Losartan 50mg tablets (Almus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|22338211000001101|Losartan 50mg tablets (Aptil Pharma Ltd)|
-|ace-inhibitor v1|snomed|17660911000001107|Losartan 50mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|21036211000001102|Losartan 50mg tablets (Bristol Laboratories Ltd)|
-|ace-inhibitor v1|snomed|32494411000001106|Losartan 50mg tablets (Brown & Burk UK Ltd)|
-|ace-inhibitor v1|snomed|35657011000001102|Losartan 50mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|13925311000001101|Losartan 50mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|24372411000001109|Losartan 50mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|16998911000001105|Losartan 50mg tablets (Dexcel-Pharma Ltd)|
-|ace-inhibitor v1|snomed|5486511000001104|Losartan 50mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|18477111000001109|Losartan 50mg tablets (Dr Reddy's Laboratories (UK) Ltd)|
-|ace-inhibitor v1|snomed|32413511000001108|Losartan 50mg tablets (Genesis Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|32416811000001102|Losartan 50mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|16511911000001105|Losartan 50mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|30855311000001105|Losartan 50mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|36046211000001102|Losartan 50mg tablets (Medreich Plc)|
-|ace-inhibitor v1|snomed|35166011000001106|Losartan 50mg tablets (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|16971811000001103|Losartan 50mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|18494111000001106|Losartan 50mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|18170211000001103|Losartan 50mg tablets (Pfizer Ltd)|
-|ace-inhibitor v1|snomed|18140311000001107|Losartan 50mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|17912211000001100|Losartan 50mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|20308411000001102|Losartan 50mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|14332311000001101|Losartan 50mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|29904311000001105|Losartan 50mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|23666511000001108|Losartan 50mg tablets (Sovereign Medical Ltd)|
-|ace-inhibitor v1|snomed|17024311000001100|Losartan 50mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|10544711000001108|Losartan 50mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|21789411000001101|Losartan 50mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|20571811000001102|Losartan 50mg tablets (Wockhardt UK Ltd)|
-|ace-inhibitor v1|snomed|36490111000001106|Losartan 50mg tablets (Xiromed)|
-|ace-inhibitor v1|snomed|16748911000001105|Losartan 50mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|14159411000001106|Losartan 50mg/5ml oral solution|
-|ace-inhibitor v1|snomed|14084811000001106|Losartan 50mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|14159511000001105|Losartan 50mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|14085511000001109|Losartan 50mg/5ml oral suspension (Drug Tariff Special Order)|
-|ace-inhibitor v1|snomed|768579006|Losartan in oral dosage form|
-|ace-inhibitor v1|snomed|444639002|Losartan potassium 100mg + hydrochlorothiazide 12.5mg oral tablet|
-|ace-inhibitor v1|snomed|648711000001100|Micardis 20mg tablets (Boehringer Ingelheim Ltd)|
-|ace-inhibitor v1|snomed|13931111000001103|Micardis 20mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|10491611000001102|Micardis 20mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|16206511000001101|Micardis 20mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|16555011000001104|Micardis 20mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|17582211000001106|Micardis 20mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|14710311000001109|Micardis 20mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|10540711000001102|Micardis 20mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|924911000001106|Micardis 40mg tablets (Boehringer Ingelheim Ltd)|
-|ace-inhibitor v1|snomed|13931311000001101|Micardis 40mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|10492011000001101|Micardis 40mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|16555211000001109|Micardis 40mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|17582911000001102|Micardis 40mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|14710511000001103|Micardis 40mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|5387411000001107|Micardis 40mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|527411000001102|Micardis 80mg tablets (Boehringer Ingelheim Ltd)|
-|ace-inhibitor v1|snomed|13931711000001102|Micardis 80mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|10492411000001105|Micardis 80mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|16555411000001108|Micardis 80mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|17583311000001108|Micardis 80mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|14710811000001100|Micardis 80mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|5387811000001109|Micardis 80mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|3806311000001109|MicardisPlus 40mg/12.5mg tablets (Boehringer Ingelheim Ltd)|
-|ace-inhibitor v1|snomed|16554611000001105|MicardisPlus 40mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|29749811000001100|MicardisPlus 40mg/12.5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|3806911000001105|MicardisPlus 80mg/12.5mg tablets (Boehringer Ingelheim Ltd)|
-|ace-inhibitor v1|snomed|13932011000001107|MicardisPlus 80mg/12.5mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|16206711000001106|MicardisPlus 80mg/12.5mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|16554811000001109|MicardisPlus 80mg/12.5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|17583711000001107|MicardisPlus 80mg/12.5mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|14710111000001107|MicardisPlus 80mg/12.5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|10540911000001100|MicardisPlus 80mg/12.5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|13719711000001103|MicardisPlus 80mg/25mg tablets (Boehringer Ingelheim Ltd)|
-|ace-inhibitor v1|snomed|18893411000001107|MicardisPlus 80mg/25mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|318935009|Moexipril 15mg tablets|
-|ace-inhibitor v1|snomed|318934008|Moexipril 7.5mg tablets|
-|ace-inhibitor v1|snomed|410903007|Moexipril hydrochloride 15 mg and hydrochlorothiazide 12.5 mg oral tablet|
-|ace-inhibitor v1|snomed|410904001|Moexipril hydrochloride 15 mg and hydrochlorothiazide 25 mg oral tablet|
-|ace-inhibitor v1|snomed|410902002|Moexipril hydrochloride 7.5 mg and hydrochlorothiazide 12.5 mg oral tablet|
-|ace-inhibitor v1|snomed|768855001|Moexipril in oral dosage form|
-|ace-inhibitor v1|snomed|23681711000001107|Noyada 25mg/5ml oral solution (Martindale Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|23682011000001102|Noyada 5mg/5ml oral solution (Martindale Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|432911000001102|Odrik 1mg capsules (Aventis Pharma)|
-|ace-inhibitor v1|snomed|140511000001108|Odrik 2mg capsules (Aventis Pharma)|
-|ace-inhibitor v1|snomed|227511000001106|Odrik 500microgram capsules (Aventis Pharma)|
-|ace-inhibitor v1|snomed|428304009|Olmesartan + Amlodipine|
-|ace-inhibitor v1|snomed|447064008|Olmesartan + Amlodipine + Hydrochlorothiazide|
-|ace-inhibitor v1|snomed|423799007|Olmesartan + Hydrochlorothiazide|
-|ace-inhibitor v1|snomed|385471007|Olmesartan medoxomil|
-|ace-inhibitor v1|snomed|408055003|Olmesartan medoxomil 10mg tablets|
-|ace-inhibitor v1|snomed|34188411000001109|Olmesartan medoxomil 10mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|34969911000001108|Olmesartan medoxomil 10mg tablets (Accord Healthcare Ltd)|
-|ace-inhibitor v1|snomed|34176111000001109|Olmesartan medoxomil 10mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|34196511000001106|Olmesartan medoxomil 10mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|36765711000001108|Olmesartan medoxomil 10mg tablets (Macleods Pharma UK Ltd)|
-|ace-inhibitor v1|snomed|34586111000001107|Olmesartan medoxomil 10mg tablets (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|36890911000001101|Olmesartan medoxomil 10mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|34087611000001104|Olmesartan medoxomil 10mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|36869611000001104|Olmesartan medoxomil 10mg tablets (Torrent Pharma (UK) Ltd)|
-|ace-inhibitor v1|snomed|14680611000001107|Olmesartan medoxomil 10mg/5ml oral solution|
-|ace-inhibitor v1|snomed|14645911000001104|Olmesartan medoxomil 10mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|14680711000001103|Olmesartan medoxomil 10mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|14646911000001106|Olmesartan medoxomil 10mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|429502004|Olmesartan medoxomil 20mg / Amlodipine 5mg tablets|
-|ace-inhibitor v1|snomed|409184002|Olmesartan medoxomil 20mg / Hydrochlorothiazide 12.5mg tablets|
-|ace-inhibitor v1|snomed|10270711000001105|Olmesartan medoxomil 20mg / Hydrochlorothiazide 25mg tablets|
-|ace-inhibitor v1|snomed|385542009|Olmesartan medoxomil 20mg tablets|
-|ace-inhibitor v1|snomed|34188611000001107|Olmesartan medoxomil 20mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|34970211000001102|Olmesartan medoxomil 20mg tablets (Accord Healthcare Ltd)|
-|ace-inhibitor v1|snomed|34176311000001106|Olmesartan medoxomil 20mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|34196711000001101|Olmesartan medoxomil 20mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|36765911000001105|Olmesartan medoxomil 20mg tablets (Macleods Pharma UK Ltd)|
-|ace-inhibitor v1|snomed|34586311000001109|Olmesartan medoxomil 20mg tablets (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|36891111000001105|Olmesartan medoxomil 20mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|34087211000001101|Olmesartan medoxomil 20mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|36869911000001105|Olmesartan medoxomil 20mg tablets (Torrent Pharma (UK) Ltd)|
-|ace-inhibitor v1|snomed|409186000|Olmesartan medoxomil 40 mg and hydrochlorothiazide 25 mg oral tablet|
-|ace-inhibitor v1|snomed|429678006|Olmesartan medoxomil 40mg / Amlodipine 10mg tablets|
-|ace-inhibitor v1|snomed|429503009|Olmesartan medoxomil 40mg / Amlodipine 5mg tablets|
-|ace-inhibitor v1|snomed|409185001|Olmesartan medoxomil 40mg / Hydrochlorothiazide 12.5mg tablets|
-|ace-inhibitor v1|snomed|385543004|Olmesartan medoxomil 40mg tablets|
-|ace-inhibitor v1|snomed|34188911000001101|Olmesartan medoxomil 40mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|35847611000001101|Olmesartan medoxomil 40mg tablets (Accord Healthcare Ltd)|
-|ace-inhibitor v1|snomed|34176511000001100|Olmesartan medoxomil 40mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|34196911000001104|Olmesartan medoxomil 40mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|36766111000001101|Olmesartan medoxomil 40mg tablets (Macleods Pharma UK Ltd)|
-|ace-inhibitor v1|snomed|34586511000001103|Olmesartan medoxomil 40mg tablets (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|36891411000001100|Olmesartan medoxomil 40mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|34087411000001102|Olmesartan medoxomil 40mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|36870211000001104|Olmesartan medoxomil 40mg tablets (Torrent Pharma (UK) Ltd)|
-|ace-inhibitor v1|snomed|385541002|Olmesartan medoxomil 5 mg oral tablet|
-|ace-inhibitor v1|snomed|4624011000001101|Olmetec 10mg tablets (Daiichi Sankyo UK Ltd)|
-|ace-inhibitor v1|snomed|13941811000001109|Olmetec 10mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|13183811000001100|Olmetec 10mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|16217211000001100|Olmetec 10mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|17342211000001100|Olmetec 10mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|17614411000001109|Olmetec 10mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|14668311000001102|Olmetec 10mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|10856811000001106|Olmetec 10mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|4624311000001103|Olmetec 20mg tablets (Daiichi Sankyo UK Ltd)|
-|ace-inhibitor v1|snomed|13942011000001106|Olmetec 20mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|13184311000001106|Olmetec 20mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|16217411000001101|Olmetec 20mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|17342411000001101|Olmetec 20mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|14668811000001106|Olmetec 20mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|10857011000001102|Olmetec 20mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|4624611000001108|Olmetec 40mg tablets (Daiichi Sankyo UK Ltd)|
-|ace-inhibitor v1|snomed|13942211000001101|Olmetec 40mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|13184911000001107|Olmetec 40mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|16217611000001103|Olmetec 40mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|17342611000001103|Olmetec 40mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|17614911000001101|Olmetec 40mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|14669211000001100|Olmetec 40mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|10857311000001104|Olmetec 40mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|10261511000001103|Olmetec Plus 20mg/12.5mg tablets (Daiichi Sankyo UK Ltd)|
-|ace-inhibitor v1|snomed|20562311000001107|Olmetec Plus 20mg/12.5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|10261811000001100|Olmetec Plus 20mg/25mg tablets (Daiichi Sankyo UK Ltd)|
-|ace-inhibitor v1|snomed|18603611000001100|Olmetec Plus 20mg/25mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|18482211000001105|Olmetec Plus 20mg/25mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|17220911000001102|Olmetec Plus 40mg/12.5mg tablets (Daiichi Sankyo UK Ltd)|
-|ace-inhibitor v1|snomed|4040311000001101|Perdix 15mg tablets (UCB Pharma Ltd)|
-|ace-inhibitor v1|snomed|4041111000001109|Perdix 7.5mg tablets (UCB Pharma Ltd)|
-|ace-inhibitor v1|snomed|13454111000001103|Perindopril arginine 10mg tablets|
-|ace-inhibitor v1|snomed|13454211000001109|Perindopril arginine 2.5mg tablets|
-|ace-inhibitor v1|snomed|13454311000001101|Perindopril arginine 5mg / Indapamide 1.25mg tablets|
-|ace-inhibitor v1|snomed|13454411000001108|Perindopril arginine 5mg tablets|
-|ace-inhibitor v1|snomed|13011211000001107|Perindopril erbumine 1mg/5ml oral solution|
-|ace-inhibitor v1|snomed|12996511000001103|Perindopril erbumine 1mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|13011311000001104|Perindopril erbumine 1mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|12995911000001103|Perindopril erbumine 1mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|16075011000001104|Perindopril erbumine 2mg oral powder sachets|
-|ace-inhibitor v1|snomed|16046711000001106|Perindopril erbumine 2mg oral powder sachets (Special Order)|
-|ace-inhibitor v1|snomed|8671211000001106|Perindopril erbumine 2mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8646211000001104|Perindopril erbumine 2mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|32880611000001107|Perindopril erbumine 3mg/5ml oral solution|
-|ace-inhibitor v1|snomed|32875411000001106|Perindopril erbumine 3mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|23984911000001108|Perindopril erbumine 4mg / Amlodipine 10mg tablets|
-|ace-inhibitor v1|snomed|24618911000001101|Perindopril erbumine 4mg / Amlodipine 10mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|24603311000001108|Perindopril erbumine 4mg / Amlodipine 10mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|23972111000001105|Perindopril erbumine 4mg / Amlodipine 10mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|23985011000001108|Perindopril erbumine 4mg / Amlodipine 5mg tablets|
-|ace-inhibitor v1|snomed|24618711000001103|Perindopril erbumine 4mg / Amlodipine 5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|24603111000001106|Perindopril erbumine 4mg / Amlodipine 5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|23971811000001107|Perindopril erbumine 4mg / Amlodipine 5mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|3437611000001100|Perindopril erbumine 4mg / Indapamide 1.25mg tablets|
-|ace-inhibitor v1|snomed|18311211000001107|Perindopril erbumine 4mg / Indapamide 1.25mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|16641511000001101|Perindopril erbumine 4mg / Indapamide 1.25mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|16083211000001102|Perindopril erbumine 4mg / Indapamide 1.25mg tablets (Ratiopharm UK Ltd)|
-|ace-inhibitor v1|snomed|23471511000001106|Perindopril erbumine 4mg/5ml oral solution|
-|ace-inhibitor v1|snomed|23395011000001104|Perindopril erbumine 4mg/5ml oral solution (Drug Tariff Special Order)|
-|ace-inhibitor v1|snomed|8671311000001103|Perindopril erbumine 4mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8647111000001108|Perindopril erbumine 4mg/5ml oral suspension (Drug Tariff Special Order)|
-|ace-inhibitor v1|snomed|23985111000001109|Perindopril erbumine 8mg / Amlodipine 10mg tablets|
-|ace-inhibitor v1|snomed|24619311000001108|Perindopril erbumine 8mg / Amlodipine 10mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|24603711000001107|Perindopril erbumine 8mg / Amlodipine 10mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|23972411000001100|Perindopril erbumine 8mg / Amlodipine 10mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|23985211000001103|Perindopril erbumine 8mg / Amlodipine 5mg tablets|
-|ace-inhibitor v1|snomed|24619111000001106|Perindopril erbumine 8mg / Amlodipine 5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|24603511000001102|Perindopril erbumine 8mg / Amlodipine 5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|23972711000001106|Perindopril erbumine 8mg / Amlodipine 5mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|14057311000001102|Perindopril erbumine 8mg/5ml oral solution|
-|ace-inhibitor v1|snomed|14032211000001108|Perindopril erbumine 8mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|14057411000001109|Perindopril erbumine 8mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|14032511000001106|Perindopril erbumine 8mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|21939811000001102|Perindopril tosilate 10mg tablets|
-|ace-inhibitor v1|snomed|21927711000001100|Perindopril tosilate 10mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|29983711000001106|Perindopril tosilate 10mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|21912711000001108|Perindopril tosilate 10mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|21939911000001107|Perindopril tosilate 2.5mg tablets|
-|ace-inhibitor v1|snomed|21927111000001101|Perindopril tosilate 2.5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|29983911000001108|Perindopril tosilate 2.5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|21912111000001107|Perindopril tosilate 2.5mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|21940011000001101|Perindopril tosilate 5mg / Indapamide 1.25mg tablets|
-|ace-inhibitor v1|snomed|21927911000001103|Perindopril tosilate 5mg / Indapamide 1.25mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|21911811000001109|Perindopril tosilate 5mg / Indapamide 1.25mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|21940111000001100|Perindopril tosilate 5mg tablets|
-|ace-inhibitor v1|snomed|21927511000001105|Perindopril tosilate 5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|29984111000001107|Perindopril tosilate 5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|21912411000001102|Perindopril tosilate 5mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|761411000001101|Pralenal 10 tablets (Opus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|448611000001106|Pralenal 2.5 tablets (Opus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|508511000001105|Pralenal 20 tablets (Opus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|578511000001100|Pralenal 5 tablets (Opus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|421852001|Quinapril + Hydrochlorothiazide|
-|ace-inhibitor v1|snomed|318892006|Quinapril 10mg / Hydrochlorothiazide 12.5mg tablets|
-|ace-inhibitor v1|snomed|22785911000001108|Quinapril 10mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|35179711000001107|Quinapril 10mg / Hydrochlorothiazide 12.5mg tablets (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|318886000|Quinapril 10mg tablets|
-|ace-inhibitor v1|snomed|7498511000001103|Quinapril 10mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|7506211000001109|Quinapril 10mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|7514211000001101|Quinapril 10mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|10410511000001107|Quinapril 10mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|30084211000001106|Quinapril 10mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|13250311000001108|Quinapril 10mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|8044511000001104|Quinapril 10mg tablets (Genus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|7561611000001100|Quinapril 10mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|27617011000001107|Quinapril 10mg tablets (Lupin Healthcare (UK) Ltd)|
-|ace-inhibitor v1|snomed|30861711000001104|Quinapril 10mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|7392211000001108|Quinapril 10mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|18169411000001101|Quinapril 10mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|17912611000001103|Quinapril 10mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|15178411000001106|Quinapril 10mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|7397111000001100|Quinapril 10mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|21875411000001106|Quinapril 10mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|318887009|Quinapril 20mg tablets|
-|ace-inhibitor v1|snomed|7498711000001108|Quinapril 20mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|7506411000001108|Quinapril 20mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|7514411000001102|Quinapril 20mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|10410711000001102|Quinapril 20mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|30084511000001109|Quinapril 20mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|13250811000001104|Quinapril 20mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|8044711000001109|Quinapril 20mg tablets (Genus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|7561811000001101|Quinapril 20mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|27618511000001100|Quinapril 20mg tablets (Lupin Healthcare (UK) Ltd)|
-|ace-inhibitor v1|snomed|30861911000001102|Quinapril 20mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|7392411000001107|Quinapril 20mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|18169611000001103|Quinapril 20mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|17912811000001104|Quinapril 20mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|15179411000001103|Quinapril 20mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|7397311000001103|Quinapril 20mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|21875711000001100|Quinapril 20mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|318894007|Quinapril 40mg tablets|
-|ace-inhibitor v1|snomed|7498911000001105|Quinapril 40mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|8093311000001102|Quinapril 40mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|7514611000001104|Quinapril 40mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|10410911000001100|Quinapril 40mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|30084811000001107|Quinapril 40mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|13251511000001109|Quinapril 40mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|7562011000001104|Quinapril 40mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|27695411000001108|Quinapril 40mg tablets (Lupin Healthcare (UK) Ltd)|
-|ace-inhibitor v1|snomed|30862111000001105|Quinapril 40mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|7392611000001105|Quinapril 40mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|18169811000001104|Quinapril 40mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|17913011000001101|Quinapril 40mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|15179711000001109|Quinapril 40mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|7397511000001109|Quinapril 40mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|21876011000001106|Quinapril 40mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|318885001|Quinapril 5mg tablets|
-|ace-inhibitor v1|snomed|7496811000001101|Quinapril 5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|7506011000001104|Quinapril 5mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|7514011000001106|Quinapril 5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|10410311000001101|Quinapril 5mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|30083611000001105|Quinapril 5mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|5505611000001102|Quinapril 5mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|8044211000001102|Quinapril 5mg tablets (Genus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|7561411000001103|Quinapril 5mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|27615511000001108|Quinapril 5mg tablets (Lupin Healthcare (UK) Ltd)|
-|ace-inhibitor v1|snomed|30861511000001109|Quinapril 5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|7391911000001105|Quinapril 5mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|18169211000001100|Quinapril 5mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|15180311000001105|Quinapril 5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|7396911000001100|Quinapril 5mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|21875211000001107|Quinapril 5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|768185008|Quinapril in oral dosage form|
-|ace-inhibitor v1|snomed|9208111000001100|Quinil 10mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|9208411000001105|Quinil 20mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|9208711000001104|Quinil 40mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|9207711000001100|Quinil 5mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|318900007|Ramipril 1.25mg capsules|
-|ace-inhibitor v1|snomed|5873711000001102|Ramipril 1.25mg capsules (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|8266111000001102|Ramipril 1.25mg capsules (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|5919811000001106|Ramipril 1.25mg capsules (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|9806011000001108|Ramipril 1.25mg capsules (Almus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|10412011000001100|Ramipril 1.25mg capsules (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|16064611000001104|Ramipril 1.25mg capsules (Bristol Laboratories Ltd)|
-|ace-inhibitor v1|snomed|32496811000001101|Ramipril 1.25mg capsules (Brown & Burk UK Ltd)|
-|ace-inhibitor v1|snomed|30086611000001104|Ramipril 1.25mg capsules (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|5515111000001107|Ramipril 1.25mg capsules (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|28779611000001102|Ramipril 1.25mg capsules (Ennogen Pharma Ltd)|
-|ace-inhibitor v1|snomed|10297411000001107|Ramipril 1.25mg capsules (Focus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|5632211000001108|Ramipril 1.25mg capsules (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|30865311000001101|Ramipril 1.25mg capsules (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|7432811000001105|Ramipril 1.25mg capsules (Mylan)|
-|ace-inhibitor v1|snomed|17920711000001100|Ramipril 1.25mg capsules (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|7816611000001107|Ramipril 1.25mg capsules (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|5623311000001108|Ramipril 1.25mg capsules (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|15181211000001108|Ramipril 1.25mg capsules (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|5587511000001109|Ramipril 1.25mg capsules (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|21877711000001106|Ramipril 1.25mg capsules (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|34747211000001107|Ramipril 1.25mg capsules (Wockhardt UK Ltd)|
-|ace-inhibitor v1|snomed|7338611000001103|Ramipril 1.25mg capsules (Zentiva)|
-|ace-inhibitor v1|snomed|408040007|Ramipril 1.25mg tablets|
-|ace-inhibitor v1|snomed|5881111000001106|Ramipril 1.25mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|5927411000001107|Ramipril 1.25mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|19834511000001104|Ramipril 1.25mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)|
-|ace-inhibitor v1|snomed|30087611000001102|Ramipril 1.25mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|13254011000001103|Ramipril 1.25mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|5710811000001107|Ramipril 1.25mg tablets (IVAX Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|7562211000001109|Ramipril 1.25mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|37137811000001109|Ramipril 1.25mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|5630211000001107|Ramipril 1.25mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|10441011000001101|Ramipril 1.25mg tablets (Niche Generics Ltd)|
-|ace-inhibitor v1|snomed|17921611000001104|Ramipril 1.25mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|11413411000001105|Ramipril 1.25mg tablets (PLIVA Pharma Ltd)|
-|ace-inhibitor v1|snomed|5625611000001104|Ramipril 1.25mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|11533411000001106|Ramipril 1.25mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|15181811000001109|Ramipril 1.25mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|5590011000001101|Ramipril 1.25mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|13761711000001103|Ramipril 1.25mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|36834211000001109|Ramipril 1.25mg tablets (Torrent Pharma (UK) Ltd)|
-|ace-inhibitor v1|snomed|21878711000001107|Ramipril 1.25mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|7338811000001104|Ramipril 1.25mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|8720211000001109|Ramipril 1.25mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8694311000001106|Ramipril 1.25mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8720311000001101|Ramipril 1.25mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8695511000001104|Ramipril 1.25mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|318906001|Ramipril 10mg capsules|
-|ace-inhibitor v1|snomed|5880511000001109|Ramipril 10mg capsules (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|8267511000001108|Ramipril 10mg capsules (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|5925111000001106|Ramipril 10mg capsules (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|11408211000001100|Ramipril 10mg capsules (Almus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|10412711000001103|Ramipril 10mg capsules (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|16065411000001101|Ramipril 10mg capsules (Bristol Laboratories Ltd)|
-|ace-inhibitor v1|snomed|32497411000001101|Ramipril 10mg capsules (Brown & Burk UK Ltd)|
-|ace-inhibitor v1|snomed|30087411000001100|Ramipril 10mg capsules (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|13253411000001109|Ramipril 10mg capsules (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|28780211000001104|Ramipril 10mg capsules (Ennogen Pharma Ltd)|
-|ace-inhibitor v1|snomed|10297111000001102|Ramipril 10mg capsules (Focus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|5629611000001101|Ramipril 10mg capsules (Genus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|5632811000001109|Ramipril 10mg capsules (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|30867211000001101|Ramipril 10mg capsules (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|7433511000001100|Ramipril 10mg capsules (Mylan)|
-|ace-inhibitor v1|snomed|17921311000001109|Ramipril 10mg capsules (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|7818511000001109|Ramipril 10mg capsules (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|5624611000001100|Ramipril 10mg capsules (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|15182211000001101|Ramipril 10mg capsules (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|5589711000001107|Ramipril 10mg capsules (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|21878311000001108|Ramipril 10mg capsules (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|34747811000001108|Ramipril 10mg capsules (Wockhardt UK Ltd)|
-|ace-inhibitor v1|snomed|5631611000001104|Ramipril 10mg capsules (Zentiva)|
-|ace-inhibitor v1|snomed|408052000|Ramipril 10mg tablets|
-|ace-inhibitor v1|snomed|5885911000001106|Ramipril 10mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|10721411000001100|Ramipril 10mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|5937511000001108|Ramipril 10mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|19835111000001107|Ramipril 10mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)|
-|ace-inhibitor v1|snomed|35180111000001106|Ramipril 10mg tablets (Aurobindo Pharma Ltd)|
-|ace-inhibitor v1|snomed|30088211000001100|Ramipril 10mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|13254211000001108|Ramipril 10mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|5716011000001103|Ramipril 10mg tablets (IVAX Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|7562811000001105|Ramipril 10mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|30867911000001105|Ramipril 10mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|5631011000001106|Ramipril 10mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|10441211000001106|Ramipril 10mg tablets (Niche Generics Ltd)|
-|ace-inhibitor v1|snomed|20005711000001100|Ramipril 10mg tablets (Pfizer Ltd)|
-|ace-inhibitor v1|snomed|17922811000001109|Ramipril 10mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|11413611000001108|Ramipril 10mg tablets (PLIVA Pharma Ltd)|
-|ace-inhibitor v1|snomed|5626211000001107|Ramipril 10mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|11534011000001100|Ramipril 10mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|15182711000001108|Ramipril 10mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|5591911000001109|Ramipril 10mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|13762311000001106|Ramipril 10mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|36835211000001105|Ramipril 10mg tablets (Torrent Pharma (UK) Ltd)|
-|ace-inhibitor v1|snomed|21879411000001109|Ramipril 10mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|7339411000001109|Ramipril 10mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|8720411000001108|Ramipril 10mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8693211000001101|Ramipril 10mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8720511000001107|Ramipril 10mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8693711000001108|Ramipril 10mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|318901006|Ramipril 2.5mg capsules|
-|ace-inhibitor v1|snomed|5875911000001104|Ramipril 2.5mg capsules (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|8266411000001107|Ramipril 2.5mg capsules (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|5921211000001103|Ramipril 2.5mg capsules (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|9805611000001106|Ramipril 2.5mg capsules (Almus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|10412211000001105|Ramipril 2.5mg capsules (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|16064811000001100|Ramipril 2.5mg capsules (Bristol Laboratories Ltd)|
-|ace-inhibitor v1|snomed|32497011000001105|Ramipril 2.5mg capsules (Brown & Burk UK Ltd)|
-|ace-inhibitor v1|snomed|30086811000001100|Ramipril 2.5mg capsules (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|13253611000001107|Ramipril 2.5mg capsules (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|28779811000001103|Ramipril 2.5mg capsules (Ennogen Pharma Ltd)|
-|ace-inhibitor v1|snomed|10296711000001104|Ramipril 2.5mg capsules (Focus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|5628711000001101|Ramipril 2.5mg capsules (Genus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|5632411000001107|Ramipril 2.5mg capsules (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|30866311000001106|Ramipril 2.5mg capsules (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|7433011000001108|Ramipril 2.5mg capsules (Mylan)|
-|ace-inhibitor v1|snomed|17920911000001103|Ramipril 2.5mg capsules (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|7817811000001108|Ramipril 2.5mg capsules (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|5623511000001102|Ramipril 2.5mg capsules (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|15183111000001101|Ramipril 2.5mg capsules (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|5588011000001100|Ramipril 2.5mg capsules (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|21877911000001108|Ramipril 2.5mg capsules (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|34747411000001106|Ramipril 2.5mg capsules (Wockhardt UK Ltd)|
-|ace-inhibitor v1|snomed|5631211000001101|Ramipril 2.5mg capsules (Zentiva)|
-|ace-inhibitor v1|snomed|408050008|Ramipril 2.5mg tablets|
-|ace-inhibitor v1|snomed|5884511000001100|Ramipril 2.5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|10720911000001101|Ramipril 2.5mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|5928111000001101|Ramipril 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|19834711000001109|Ramipril 2.5mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)|
-|ace-inhibitor v1|snomed|30087811000001103|Ramipril 2.5mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|13254411000001107|Ramipril 2.5mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|5712111000001101|Ramipril 2.5mg tablets (IVAX Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|7562411000001108|Ramipril 2.5mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|30867511000001103|Ramipril 2.5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|5630511000001105|Ramipril 2.5mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|10441411000001105|Ramipril 2.5mg tablets (Niche Generics Ltd)|
-|ace-inhibitor v1|snomed|17922011000001103|Ramipril 2.5mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|11413811000001107|Ramipril 2.5mg tablets (PLIVA Pharma Ltd)|
-|ace-inhibitor v1|snomed|5625811000001100|Ramipril 2.5mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|11533611000001109|Ramipril 2.5mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|15183611000001109|Ramipril 2.5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|5590811000001107|Ramipril 2.5mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|13761911000001101|Ramipril 2.5mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|36834411000001108|Ramipril 2.5mg tablets (Torrent Pharma (UK) Ltd)|
-|ace-inhibitor v1|snomed|21878911000001109|Ramipril 2.5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|7339011000001100|Ramipril 2.5mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|8720611000001106|Ramipril 2.5mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8693311000001109|Ramipril 2.5mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|19877111000001100|Ramipril 2.5mg/5ml oral solution sugar free|
-|ace-inhibitor v1|snomed|20007111000001105|Ramipril 2.5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|20010511000001103|Ramipril 2.5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|30087211000001104|Ramipril 2.5mg/5ml oral solution sugar free (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|19871011000001106|Ramipril 2.5mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|21878511000001102|Ramipril 2.5mg/5ml oral solution sugar free (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|8720711000001102|Ramipril 2.5mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8694011000001108|Ramipril 2.5mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|318902004|Ramipril 5mg capsules|
-|ace-inhibitor v1|snomed|5878511000001103|Ramipril 5mg capsules (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|8267111000001104|Ramipril 5mg capsules (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|5923011000001109|Ramipril 5mg capsules (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|11407911000001108|Ramipril 5mg capsules (Almus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|10412411000001109|Ramipril 5mg capsules (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|16065011000001105|Ramipril 5mg capsules (Bristol Laboratories Ltd)|
-|ace-inhibitor v1|snomed|32497211000001100|Ramipril 5mg capsules (Brown & Burk UK Ltd)|
-|ace-inhibitor v1|snomed|30087011000001109|Ramipril 5mg capsules (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|13253811000001106|Ramipril 5mg capsules (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|28780011000001109|Ramipril 5mg capsules (Ennogen Pharma Ltd)|
-|ace-inhibitor v1|snomed|10296511000001109|Ramipril 5mg capsules (Focus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|5629311000001106|Ramipril 5mg capsules (Genus Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|5632611000001105|Ramipril 5mg capsules (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|30866711000001105|Ramipril 5mg capsules (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|7433211000001103|Ramipril 5mg capsules (Mylan)|
-|ace-inhibitor v1|snomed|17921111000001107|Ramipril 5mg capsules (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|7818311000001103|Ramipril 5mg capsules (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|5624411000001103|Ramipril 5mg capsules (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|15183911000001103|Ramipril 5mg capsules (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|5588511000001108|Ramipril 5mg capsules (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|21878111000001106|Ramipril 5mg capsules (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|34747611000001109|Ramipril 5mg capsules (Wockhardt UK Ltd)|
-|ace-inhibitor v1|snomed|5631411000001102|Ramipril 5mg capsules (Zentiva)|
-|ace-inhibitor v1|snomed|408051007|Ramipril 5mg tablets|
-|ace-inhibitor v1|snomed|5885211000001102|Ramipril 5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|10721111000001105|Ramipril 5mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|5932311000001104|Ramipril 5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|19834911000001106|Ramipril 5mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)|
-|ace-inhibitor v1|snomed|35179911000001109|Ramipril 5mg tablets (Aurobindo Pharma Ltd)|
-|ace-inhibitor v1|snomed|30088011000001105|Ramipril 5mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|13254611000001105|Ramipril 5mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|5715011000001107|Ramipril 5mg tablets (IVAX Pharmaceuticals UK Ltd)|
-|ace-inhibitor v1|snomed|7562611000001106|Ramipril 5mg tablets (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|30867711000001108|Ramipril 5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|5630811000001108|Ramipril 5mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|10441611000001108|Ramipril 5mg tablets (Niche Generics Ltd)|
-|ace-inhibitor v1|snomed|20005511000001105|Ramipril 5mg tablets (Pfizer Ltd)|
-|ace-inhibitor v1|snomed|17922411000001107|Ramipril 5mg tablets (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|11414011000001104|Ramipril 5mg tablets (PLIVA Pharma Ltd)|
-|ace-inhibitor v1|snomed|5626011000001102|Ramipril 5mg tablets (Ranbaxy (UK) Ltd)|
-|ace-inhibitor v1|snomed|11533811000001108|Ramipril 5mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|15184311000001102|Ramipril 5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|5591311000001108|Ramipril 5mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|13762111000001109|Ramipril 5mg tablets (Tillomed Laboratories Ltd)|
-|ace-inhibitor v1|snomed|36834611000001106|Ramipril 5mg tablets (Torrent Pharma (UK) Ltd)|
-|ace-inhibitor v1|snomed|21879211000001105|Ramipril 5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|7339211000001105|Ramipril 5mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|8720811000001105|Ramipril 5mg/5ml oral solution|
-|ace-inhibitor v1|snomed|8694911000001107|Ramipril 5mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|8720911000001100|Ramipril 5mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|8695811000001101|Ramipril 5mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|13013311000001103|Ramipril 750micrograms/5ml oral solution|
-|ace-inhibitor v1|snomed|12993511000001106|Ramipril 750micrograms/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|13013411000001105|Ramipril 750micrograms/5ml oral suspension|
-|ace-inhibitor v1|snomed|12992911000001106|Ramipril 750micrograms/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|768181004|Ramipril in oral dosage form|
-|ace-inhibitor v1|snomed|21522411000001103|Sabervel 150mg tablets (Aspire Pharma Ltd)|
-|ace-inhibitor v1|snomed|21522611000001100|Sabervel 300mg tablets (Aspire Pharma Ltd)|
-|ace-inhibitor v1|snomed|21522211000001102|Sabervel 75mg tablets (Aspire Pharma Ltd)|
-|ace-inhibitor v1|snomed|31140011000001102|Sacubitril + Valsartan|
-|ace-inhibitor v1|snomed|31142011000001103|Sacubitril 24mg / Valsartan 26mg tablets|
-|ace-inhibitor v1|snomed|31142111000001102|Sacubitril 49mg / Valsartan 51mg tablets|
-|ace-inhibitor v1|snomed|31142211000001108|Sacubitril 97mg / Valsartan 103mg tablets|
-|ace-inhibitor v1|snomed|764145006|Sacubitril and valsartan in oral dosage form|
-|ace-inhibitor v1|snomed|763540002|Sacubitril and valsartan product|
-|ace-inhibitor v1|snomed|15773211000001105|Sevikar 20mg/5mg tablets (Daiichi Sankyo UK Ltd)|
-|ace-inhibitor v1|snomed|15772611000001102|Sevikar 40mg/10mg tablets (Daiichi Sankyo UK Ltd)|
-|ace-inhibitor v1|snomed|15772911000001108|Sevikar 40mg/5mg tablets (Daiichi Sankyo UK Ltd)|
-|ace-inhibitor v1|snomed|18986411000001108|Sevikar HCT 20mg/5mg/12.5mg tablets (Daiichi Sankyo UK Ltd)|
-|ace-inhibitor v1|snomed|18987011000001101|Sevikar HCT 40mg/10mg/12.5mg tablets (Daiichi Sankyo UK Ltd)|
-|ace-inhibitor v1|snomed|18987611000001108|Sevikar HCT 40mg/10mg/25mg tablets (Daiichi Sankyo UK Ltd)|
-|ace-inhibitor v1|snomed|18986711000001102|Sevikar HCT 40mg/5mg/12.5mg tablets (Daiichi Sankyo UK Ltd)|
-|ace-inhibitor v1|snomed|18987311000001103|Sevikar HCT 40mg/5mg/25mg tablets (Daiichi Sankyo UK Ltd)|
-|ace-inhibitor v1|snomed|462511000001104|Staril 10mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|348111000001107|Staril 20mg tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|5543711000001104|Staril 20mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|680811000001102|Tanatril 10mg tablets (Mitsubishi Tanabe Pharma Europe Ltd)|
-|ace-inhibitor v1|snomed|533511000001106|Tanatril 20mg tablets (Mitsubishi Tanabe Pharma Europe Ltd)|
-|ace-inhibitor v1|snomed|16262411000001100|Tanatril 5mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|797911000001103|Tanatril 5mg tablets (Mitsubishi Tanabe Pharma Europe Ltd)|
-|ace-inhibitor v1|snomed|14623111000001101|Tanatril 5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|3691211000001101|Tarka modified-release capsules (Abbott Laboratories Ltd)|
-|ace-inhibitor v1|snomed|5585711000001105|Tarka modified-release capsules (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|16262711000001106|Tarka modified-release capsules (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|14623711000001100|Tarka modified-release capsules (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|444334000|Telmisartan + amlodipine|
-|ace-inhibitor v1|snomed|398727008|Telmisartan + Hydrochlorothiazide|
-|ace-inhibitor v1|snomed|134463001|Telmisartan 20mg tablets|
-|ace-inhibitor v1|snomed|23680611000001108|Telmisartan 20mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|23669111000001107|Telmisartan 20mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|23643511000001108|Telmisartan 20mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|13988711000001104|Telmisartan 20mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|10468111000001100|Telmisartan 20mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|16269411000001106|Telmisartan 20mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|30890111000001109|Telmisartan 20mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|33617211000001107|Telmisartan 20mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|18197611000001105|Telmisartan 20mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|24229311000001102|Telmisartan 20mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|14625011000001101|Telmisartan 20mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|23613311000001107|Telmisartan 20mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|36829111000001104|Telmisartan 20mg tablets (Torrent Pharma (UK) Ltd)|
-|ace-inhibitor v1|snomed|5416911000001108|Telmisartan 20mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|36502011000001104|Telmisartan 20mg tablets (Xiromed)|
-|ace-inhibitor v1|snomed|444097002|Telmisartan 40 mg and amlodipine 10 mg oral tablet|
-|ace-inhibitor v1|snomed|443977000|Telmisartan 40 mg and amlodipine 5 mg oral tablet|
-|ace-inhibitor v1|snomed|407855002|Telmisartan 40mg / Hydrochlorothiazide 12.5mg tablets|
-|ace-inhibitor v1|snomed|24425911000001104|Telmisartan 40mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|34941911000001100|Telmisartan 40mg / Hydrochlorothiazide 12.5mg tablets (Accord Healthcare Ltd)|
-|ace-inhibitor v1|snomed|33974611000001109|Telmisartan 40mg / Hydrochlorothiazide 12.5mg tablets (Somex Pharma)|
-|ace-inhibitor v1|snomed|318986004|Telmisartan 40mg tablets|
-|ace-inhibitor v1|snomed|23680811000001107|Telmisartan 40mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|23669311000001109|Telmisartan 40mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|23643711000001103|Telmisartan 40mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|13989111000001107|Telmisartan 40mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|13208111000001102|Telmisartan 40mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|16270011000001104|Telmisartan 40mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|17460511000001102|Telmisartan 40mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|30890511000001100|Telmisartan 40mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|33617011000001102|Telmisartan 40mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|18197811000001109|Telmisartan 40mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|24229511000001108|Telmisartan 40mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|14625211000001106|Telmisartan 40mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|23613511000001101|Telmisartan 40mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|36829311000001102|Telmisartan 40mg tablets (Torrent Pharma (UK) Ltd)|
-|ace-inhibitor v1|snomed|11261811000001105|Telmisartan 40mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|36502211000001109|Telmisartan 40mg tablets (Xiromed)|
-|ace-inhibitor v1|snomed|32880311000001102|Telmisartan 40mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|32874711000001104|Telmisartan 40mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|444112006|Telmisartan 80 mg and amlodipine 10 mg oral tablet|
-|ace-inhibitor v1|snomed|444209002|Telmisartan 80 mg and amlodipine 5 mg oral tablet|
-|ace-inhibitor v1|snomed|407856001|Telmisartan 80mg / Hydrochlorothiazide 12.5mg tablets|
-|ace-inhibitor v1|snomed|24426111000001108|Telmisartan 80mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|35751111000001101|Telmisartan 80mg / Hydrochlorothiazide 12.5mg tablets (Accord Healthcare Ltd)|
-|ace-inhibitor v1|snomed|20027911000001102|Telmisartan 80mg / Hydrochlorothiazide 12.5mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|33975011000001103|Telmisartan 80mg / Hydrochlorothiazide 12.5mg tablets (Somex Pharma)|
-|ace-inhibitor v1|snomed|24508611000001103|Telmisartan 80mg / Hydrochlorothiazide 12.5mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|18672711000001105|Telmisartan 80mg / Hydrochlorothiazide 12.5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|13731911000001109|Telmisartan 80mg / Hydrochlorothiazide 25mg tablets|
-|ace-inhibitor v1|snomed|24426311000001105|Telmisartan 80mg / Hydrochlorothiazide 25mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|34942211000001102|Telmisartan 80mg / Hydrochlorothiazide 25mg tablets (Accord Healthcare Ltd)|
-|ace-inhibitor v1|snomed|36942111000001102|Telmisartan 80mg / Hydrochlorothiazide 25mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|33975511000001106|Telmisartan 80mg / Hydrochlorothiazide 25mg tablets (Somex Pharma)|
-|ace-inhibitor v1|snomed|24508811000001104|Telmisartan 80mg / Hydrochlorothiazide 25mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|318987008|Telmisartan 80mg tablets|
-|ace-inhibitor v1|snomed|23681011000001105|Telmisartan 80mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|23669511000001103|Telmisartan 80mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|23643911000001101|Telmisartan 80mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|18615811000001104|Telmisartan 80mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|16270611000001106|Telmisartan 80mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|17460711000001107|Telmisartan 80mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|33616811000001106|Telmisartan 80mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|18198011000001102|Telmisartan 80mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|24229711000001103|Telmisartan 80mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|14625411000001105|Telmisartan 80mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|23613711000001106|Telmisartan 80mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|36829511000001108|Telmisartan 80mg tablets (Torrent Pharma (UK) Ltd)|
-|ace-inhibitor v1|snomed|11137611000001109|Telmisartan 80mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|36502411000001108|Telmisartan 80mg tablets (Xiromed)|
-|ace-inhibitor v1|snomed|768200005|Telmisartan in oral dosage form|
-|ace-inhibitor v1|snomed|673711000001107|Tensopril 12.5mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|597511000001109|Tensopril 25mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|653111000001108|Tensopril 50mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|13991311000001109|Teveten 300mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|5622811000001107|Teveten 300mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|16272411000001109|Teveten 300mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|17464411000001107|Teveten 300mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|401211000001105|Teveten 300mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|18198811000001108|Teveten 300mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|14663411000001103|Teveten 300mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|16678311000001101|Teveten 300mg tablets (Stephar (U.K.) Ltd)|
-|ace-inhibitor v1|snomed|5419411000001107|Teveten 300mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|151411000001103|Teveten 400mg tablets (Abbott Healthcare Products Ltd)|
-|ace-inhibitor v1|snomed|17464711000001101|Teveten 400mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|13991711000001108|Teveten 600mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|5587211000001106|Teveten 600mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|16273011000001109|Teveten 600mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|17464911000001104|Teveten 600mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|872011000001109|Teveten 600mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|18199011000001107|Teveten 600mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|14664111000001105|Teveten 600mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|5419711000001101|Teveten 600mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|24573211000001101|Tolucombi 40mg/12.5mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|24573411000001102|Tolucombi 80mg/12.5mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|24573611000001104|Tolucombi 80mg/25mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|24555211000001104|Tolura 20mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|24555411000001100|Tolura 40mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|24555611000001102|Tolura 80mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|375094007|Trandolapril 1 mg oral tablet|
-|ace-inhibitor v1|snomed|318925003|Trandolapril 1mg capsules|
-|ace-inhibitor v1|snomed|13470111000001109|Trandolapril 1mg capsules (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|14407611000001105|Trandolapril 1mg capsules (Accord Healthcare Ltd)|
-|ace-inhibitor v1|snomed|13432411000001100|Trandolapril 1mg capsules (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|15163811000001106|Trandolapril 1mg capsules (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|30104511000001100|Trandolapril 1mg capsules (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|27984311000001103|Trandolapril 1mg capsules (Lupin Healthcare (UK) Ltd)|
-|ace-inhibitor v1|snomed|30940611000001104|Trandolapril 1mg capsules (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|13694311000001106|Trandolapril 1mg capsules (Mylan)|
-|ace-inhibitor v1|snomed|17862311000001104|Trandolapril 1mg capsules (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|15197511000001101|Trandolapril 1mg capsules (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|13433611000001107|Trandolapril 1mg capsules (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|21892511000001108|Trandolapril 1mg capsules (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|765926009|Trandolapril 2 mg and verapamil hydrochloride 180 mg prolonged-release oral capsule|
-|ace-inhibitor v1|snomed|375095008|Trandolapril 2 mg oral tablet|
-|ace-inhibitor v1|snomed|318926002|Trandolapril 2mg capsules|
-|ace-inhibitor v1|snomed|13470311000001106|Trandolapril 2mg capsules (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|14408411000001106|Trandolapril 2mg capsules (Accord Healthcare Ltd)|
-|ace-inhibitor v1|snomed|13432611000001102|Trandolapril 2mg capsules (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|17662011000001107|Trandolapril 2mg capsules (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|30104711000001105|Trandolapril 2mg capsules (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|5466811000001104|Trandolapril 2mg capsules (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|13707311000001109|Trandolapril 2mg capsules (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|27984611000001108|Trandolapril 2mg capsules (Lupin Healthcare (UK) Ltd)|
-|ace-inhibitor v1|snomed|30940811000001100|Trandolapril 2mg capsules (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|13694511000001100|Trandolapril 2mg capsules (Mylan)|
-|ace-inhibitor v1|snomed|17862611000001109|Trandolapril 2mg capsules (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|15197811000001103|Trandolapril 2mg capsules (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|13433811000001106|Trandolapril 2mg capsules (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|21892711000001103|Trandolapril 2mg capsules (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|14058511000001107|Trandolapril 2mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|14032811000001109|Trandolapril 2mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|375096009|Trandolapril 4 mg oral tablet|
-|ace-inhibitor v1|snomed|410958005|Trandolapril 4mg capsules|
-|ace-inhibitor v1|snomed|13470511000001100|Trandolapril 4mg capsules (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|14409011000001107|Trandolapril 4mg capsules (Accord Healthcare Ltd)|
-|ace-inhibitor v1|snomed|13432811000001103|Trandolapril 4mg capsules (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|15162111000001105|Trandolapril 4mg capsules (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|30104911000001107|Trandolapril 4mg capsules (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|13707511000001103|Trandolapril 4mg capsules (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|30941011000001102|Trandolapril 4mg capsules (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|13694911000001107|Trandolapril 4mg capsules (Mylan)|
-|ace-inhibitor v1|snomed|17862911000001103|Trandolapril 4mg capsules (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|15198011000001105|Trandolapril 4mg capsules (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|13494811000001100|Trandolapril 4mg capsules (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|21892911000001101|Trandolapril 4mg capsules (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|318924004|Trandolapril 500microgram capsules|
-|ace-inhibitor v1|snomed|13469911000001109|Trandolapril 500microgram capsules (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|14406911000001102|Trandolapril 500microgram capsules (Accord Healthcare Ltd)|
-|ace-inhibitor v1|snomed|13432211000001104|Trandolapril 500microgram capsules (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|30834411000001100|Trandolapril 500microgram capsules (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|5465611000001108|Trandolapril 500microgram capsules (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|13693711000001108|Trandolapril 500microgram capsules (Mylan)|
-|ace-inhibitor v1|snomed|17862011000001102|Trandolapril 500microgram capsules (Phoenix Healthcare Distribution Ltd)|
-|ace-inhibitor v1|snomed|15197111000001105|Trandolapril 500microgram capsules (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|13433411000001109|Trandolapril 500microgram capsules (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|21892311000001102|Trandolapril 500microgram capsules (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|767782002|Trandolapril and verapamil in oral dosage form|
-|ace-inhibitor v1|snomed|768415009|Trandolapril in oral dosage form|
-|ace-inhibitor v1|snomed|765583005|Trandolapril+verapamil hydrochloride 1mg/240mg prolonged-release oral tablet|
-|ace-inhibitor v1|snomed|765639005|Trandolapril+verapamil hydrochloride 2mg/180mg prolonged-release oral tablet|
-|ace-inhibitor v1|snomed|765600001|Trandolapril+verapamil hydrochloride 2mg/240mg prolonged-release oral tablet|
-|ace-inhibitor v1|snomed|765542007|Trandolapril+verapamil hydrochloride 4mg/240mg prolonged-release oral tablet|
-|ace-inhibitor v1|snomed|16279411000001103|Triapin 2.5mg/2.5mg modified-release tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|4093211000001109|Triapin 2.5mg/2.5mg modified-release tablets (Sanofi)|
-|ace-inhibitor v1|snomed|14011111000001104|Triapin 5mg/5mg modified-release tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|16279611000001100|Triapin 5mg/5mg modified-release tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|17468811000001101|Triapin 5mg/5mg modified-release tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|3887911000001109|Triapin 5mg/5mg modified-release tablets (Sanofi)|
-|ace-inhibitor v1|snomed|14684911000001106|Triapin 5mg/5mg modified-release tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|11580311000001104|Triapin 5mg/5mg modified-release tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|111611000001109|Tritace 1.25mg capsules (Aventis Pharma)|
-|ace-inhibitor v1|snomed|5591211000001100|Tritace 1.25mg capsules (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|5010511000001106|Tritace 1.25mg tablets (Sanofi)|
-|ace-inhibitor v1|snomed|43711000001100|Tritace 10mg capsules (Sanofi)|
-|ace-inhibitor v1|snomed|5011411000001103|Tritace 10mg tablets (Sanofi)|
-|ace-inhibitor v1|snomed|5591811000001104|Tritace 2.5mg capsules (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|835411000001105|Tritace 2.5mg capsules (Sanofi)|
-|ace-inhibitor v1|snomed|5010811000001109|Tritace 2.5mg tablets (Sanofi)|
-|ace-inhibitor v1|snomed|30274411000001108|Tritace 2.5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|802311000001101|Tritace 5mg capsules (Sanofi)|
-|ace-inhibitor v1|snomed|5011111000001108|Tritace 5mg tablets (Sanofi)|
-|ace-inhibitor v1|snomed|3042211000001107|Tritace titration pack capsules (Sanofi)|
-|ace-inhibitor v1|snomed|13600911000001104|Tritace titration pack tablets (Sanofi)|
-|ace-inhibitor v1|snomed|398722002|Valsartan + Hydrochlorothiazide|
-|ace-inhibitor v1|snomed|395521005|Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets|
-|ace-inhibitor v1|snomed|19804311000001104|Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|19688511000001105|Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|19797411000001101|Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|20022511000001106|Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|23957011000001109|Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets (Aurobindo Pharma Ltd)|
-|ace-inhibitor v1|snomed|19724211000001103|Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|30109211000001104|Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|30943311000001103|Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|36805511000001100|Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|19631911000001101|Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|21908711000001108|Valsartan 160mg / Hydrochlorothiazide 12.5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|409298002|Valsartan 160mg / Hydrochlorothiazide 25mg tablets|
-|ace-inhibitor v1|snomed|19804511000001105|Valsartan 160mg / Hydrochlorothiazide 25mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|19688711000001100|Valsartan 160mg / Hydrochlorothiazide 25mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|19797611000001103|Valsartan 160mg / Hydrochlorothiazide 25mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|20022711000001101|Valsartan 160mg / Hydrochlorothiazide 25mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|23957211000001104|Valsartan 160mg / Hydrochlorothiazide 25mg tablets (Aurobindo Pharma Ltd)|
-|ace-inhibitor v1|snomed|19724411000001104|Valsartan 160mg / Hydrochlorothiazide 25mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|30109411000001100|Valsartan 160mg / Hydrochlorothiazide 25mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|30943511000001109|Valsartan 160mg / Hydrochlorothiazide 25mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|36805311000001106|Valsartan 160mg / Hydrochlorothiazide 25mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|19632111000001109|Valsartan 160mg / Hydrochlorothiazide 25mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|21909011000001101|Valsartan 160mg / Hydrochlorothiazide 25mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|318963006|Valsartan 160mg capsules|
-|ace-inhibitor v1|snomed|19803511000001107|Valsartan 160mg capsules (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|19688111000001101|Valsartan 160mg capsules (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|19796611000001100|Valsartan 160mg capsules (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|20021711000001108|Valsartan 160mg capsules (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|36511711000001106|Valsartan 160mg capsules (Crescent Pharma Ltd)|
-|ace-inhibitor v1|snomed|13966111000001101|Valsartan 160mg capsules (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|30108211000001109|Valsartan 160mg capsules (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|19683111000001105|Valsartan 160mg capsules (Dexcel-Pharma Ltd)|
-|ace-inhibitor v1|snomed|5516211000001107|Valsartan 160mg capsules (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|18178611000001103|Valsartan 160mg capsules (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|35188311000001105|Valsartan 160mg capsules (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|19827711000001100|Valsartan 160mg capsules (Mylan)|
-|ace-inhibitor v1|snomed|14690611000001106|Valsartan 160mg capsules (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|19630911000001108|Valsartan 160mg capsules (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|10497211000001109|Valsartan 160mg capsules (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|21923911000001107|Valsartan 160mg capsules (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|375035005|Valsartan 160mg tablets|
-|ace-inhibitor v1|snomed|19861711000001102|Valsartan 160mg tablets (Aspire Pharma Ltd)|
-|ace-inhibitor v1|snomed|36002011000001102|Valsartan 160mg tablets (Crescent Pharma Ltd)|
-|ace-inhibitor v1|snomed|29675811000001106|Valsartan 160mg tablets (Macleods Pharma UK Ltd)|
-|ace-inhibitor v1|snomed|21910011000001107|Valsartan 160mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|20918911000001100|Valsartan 160mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|15775311000001101|Valsartan 160mg/5ml oral solution|
-|ace-inhibitor v1|snomed|15654111000001108|Valsartan 160mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|15775411000001108|Valsartan 160mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|15653511000001102|Valsartan 160mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|376487009|Valsartan 320mg tablets|
-|ace-inhibitor v1|snomed|19803911000001100|Valsartan 320mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|20942611000001104|Valsartan 320mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|19797011000001105|Valsartan 320mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|20022111000001102|Valsartan 320mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|30109811000001103|Valsartan 320mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|19682311000001102|Valsartan 320mg tablets (Dexcel-Pharma Ltd)|
-|ace-inhibitor v1|snomed|29676011000001109|Valsartan 320mg tablets (Macleods Pharma UK Ltd)|
-|ace-inhibitor v1|snomed|30943911000001102|Valsartan 320mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|19827111000001101|Valsartan 320mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|19632311000001106|Valsartan 320mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|21910211000001102|Valsartan 320mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|20919111000001105|Valsartan 320mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|20007411000001100|Valsartan 3mg/ml oral solution|
-|ace-inhibitor v1|snomed|318961008|Valsartan 40mg capsules|
-|ace-inhibitor v1|snomed|19803111000001103|Valsartan 40mg capsules (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|19687711000001101|Valsartan 40mg capsules (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|19795611000001105|Valsartan 40mg capsules (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|20021211000001101|Valsartan 40mg capsules (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|36512111000001100|Valsartan 40mg capsules (Crescent Pharma Ltd)|
-|ace-inhibitor v1|snomed|30107511000001108|Valsartan 40mg capsules (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|19682511000001108|Valsartan 40mg capsules (Dexcel-Pharma Ltd)|
-|ace-inhibitor v1|snomed|5461311000001100|Valsartan 40mg capsules (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|32449211000001102|Valsartan 40mg capsules (Kent Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|35187911000001105|Valsartan 40mg capsules (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|19827511000001105|Valsartan 40mg capsules (Mylan)|
-|ace-inhibitor v1|snomed|19631111000001104|Valsartan 40mg capsules (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|21923411000001104|Valsartan 40mg capsules (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|416515008|Valsartan 40mg tablets|
-|ace-inhibitor v1|snomed|19803711000001102|Valsartan 40mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|19687511000001106|Valsartan 40mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|19796811000001101|Valsartan 40mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|20021911000001105|Valsartan 40mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|19864611000001108|Valsartan 40mg tablets (Aspire Pharma Ltd)|
-|ace-inhibitor v1|snomed|35654111000001106|Valsartan 40mg tablets (Crescent Pharma Ltd)|
-|ace-inhibitor v1|snomed|30109611000001102|Valsartan 40mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|19682111000001104|Valsartan 40mg tablets (Dexcel-Pharma Ltd)|
-|ace-inhibitor v1|snomed|29675411000001109|Valsartan 40mg tablets (Macleods Pharma UK Ltd)|
-|ace-inhibitor v1|snomed|30943711000001104|Valsartan 40mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|19827311000001104|Valsartan 40mg tablets (Mylan)|
-|ace-inhibitor v1|snomed|19631511000001108|Valsartan 40mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|21909411000001105|Valsartan 40mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|20918511000001107|Valsartan 40mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|15775511000001107|Valsartan 40mg/5ml oral solution|
-|ace-inhibitor v1|snomed|15652911000001102|Valsartan 40mg/5ml oral solution (Special Order)|
-|ace-inhibitor v1|snomed|15775611000001106|Valsartan 40mg/5ml oral suspension|
-|ace-inhibitor v1|snomed|15653211000001100|Valsartan 40mg/5ml oral suspension (Special Order)|
-|ace-inhibitor v1|snomed|377488008|Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets|
-|ace-inhibitor v1|snomed|19804111000001101|Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|19688311000001104|Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|19797211000001100|Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|20022311000001100|Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|23956811000001100|Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets (Aurobindo Pharma Ltd)|
-|ace-inhibitor v1|snomed|19723911000001105|Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets (Consilient Health Ltd)|
-|ace-inhibitor v1|snomed|30108411000001108|Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|30943111000001100|Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|36805111000001109|Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets (Sandoz Ltd)|
-|ace-inhibitor v1|snomed|19631711000001103|Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|21908511000001103|Valsartan 80mg / Hydrochlorothiazide 12.5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|318962001|Valsartan 80mg capsules|
-|ace-inhibitor v1|snomed|19803311000001101|Valsartan 80mg capsules (A A H Pharmaceuticals Ltd)|
-|ace-inhibitor v1|snomed|19687911000001104|Valsartan 80mg capsules (Actavis UK Ltd)|
-|ace-inhibitor v1|snomed|19795811000001109|Valsartan 80mg capsules (Alliance Healthcare (Distribution) Ltd)|
-|ace-inhibitor v1|snomed|20021411000001102|Valsartan 80mg capsules (Arrow Generics Ltd)|
-|ace-inhibitor v1|snomed|36511911000001108|Valsartan 80mg capsules (Crescent Pharma Ltd)|
-|ace-inhibitor v1|snomed|13965011000001106|Valsartan 80mg capsules (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|30108011000001104|Valsartan 80mg capsules (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|19682811000001106|Valsartan 80mg capsules (Dexcel-Pharma Ltd)|
-|ace-inhibitor v1|snomed|5460711000001109|Valsartan 80mg capsules (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|35188111000001108|Valsartan 80mg capsules (Milpharm Ltd)|
-|ace-inhibitor v1|snomed|19827911000001103|Valsartan 80mg capsules (Mylan)|
-|ace-inhibitor v1|snomed|14690811000001105|Valsartan 80mg capsules (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|19631311000001102|Valsartan 80mg capsules (Teva UK Ltd)|
-|ace-inhibitor v1|snomed|5422811000001109|Valsartan 80mg capsules (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|21923611000001101|Valsartan 80mg capsules (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|375034009|Valsartan 80mg tablets|
-|ace-inhibitor v1|snomed|19863511000001106|Valsartan 80mg tablets (Aspire Pharma Ltd)|
-|ace-inhibitor v1|snomed|35773911000001104|Valsartan 80mg tablets (Crescent Pharma Ltd)|
-|ace-inhibitor v1|snomed|29675611000001107|Valsartan 80mg tablets (Macleods Pharma UK Ltd)|
-|ace-inhibitor v1|snomed|21909811000001107|Valsartan 80mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|20918711000001102|Valsartan 80mg tablets (Zentiva)|
-|ace-inhibitor v1|snomed|768313001|Valsartan in oral dosage form|
-|ace-inhibitor v1|snomed|5597911000001101|Vascace 1mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|3669711000001105|Vascace 1mg tablets (Roche Products Ltd)|
-|ace-inhibitor v1|snomed|14749311000001106|Vascace 1mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|5600211000001101|Vascace 2.5mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|3672411000001101|Vascace 2.5mg tablets (Roche Products Ltd)|
-|ace-inhibitor v1|snomed|14749511000001100|Vascace 2.5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|16680011000001109|Vascace 2.5mg tablets (Stephar (U.K.) Ltd)|
-|ace-inhibitor v1|snomed|5598811000001105|Vascace 500microgram tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|3740211000001108|Vascace 500microgram tablets (Roche Products Ltd)|
-|ace-inhibitor v1|snomed|5598511000001107|Vascace 5mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|3671311000001104|Vascace 5mg tablets (Roche Products Ltd)|
-|ace-inhibitor v1|snomed|14749711000001105|Vascace 5mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|422752005|Verapamil + Trandolapril|
-|ace-inhibitor v1|snomed|36149211000001102|Verapamil 180mg modified-release / Trandolapril 2mg capsules|
-|ace-inhibitor v1|snomed|3144311000001101|Zestoretic 10 tablets (AstraZeneca UK Ltd)|
-|ace-inhibitor v1|snomed|13217311000001103|Zestoretic 10 tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|14767411000001104|Zestoretic 10 tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|10483611000001104|Zestoretic 10 tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|3143111000001100|Zestoretic 20 tablets (AstraZeneca UK Ltd)|
-|ace-inhibitor v1|snomed|13983811000001102|Zestoretic 20 tablets (DE Pharmaceuticals)|
-|ace-inhibitor v1|snomed|5600911000001105|Zestoretic 20 tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|16449811000001104|Zestoretic 20 tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|18208811000001108|Zestoretic 20 tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|14767611000001101|Zestoretic 20 tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|5426911000001100|Zestoretic 20 tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|825311000001100|Zestril 10mg tablets (AstraZeneca UK Ltd)|
-|ace-inhibitor v1|snomed|5597511000001108|Zestril 10mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|30275211000001105|Zestril 10mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|593111000001108|Zestril 2.5mg tablets (AstraZeneca UK Ltd)|
-|ace-inhibitor v1|snomed|5598211000001109|Zestril 2.5mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|17480011000001107|Zestril 2.5mg tablets (Mawdsley-Brooks & Company Ltd)|
-|ace-inhibitor v1|snomed|5427811000001107|Zestril 2.5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|891711000001107|Zestril 20mg tablets (AstraZeneca UK Ltd)|
-|ace-inhibitor v1|snomed|5598911000001100|Zestril 20mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|18209011000001107|Zestril 20mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|14767811000001102|Zestril 20mg tablets (Sigma Pharmaceuticals Plc)|
-|ace-inhibitor v1|snomed|5428911000001101|Zestril 20mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|823211000001109|Zestril 5mg tablets (AstraZeneca UK Ltd)|
-|ace-inhibitor v1|snomed|5599211000001104|Zestril 5mg tablets (Dowelhurst Ltd)|
-|ace-inhibitor v1|snomed|16450011000001100|Zestril 5mg tablets (Lexon (UK) Ltd)|
-|ace-inhibitor v1|snomed|18209211000001102|Zestril 5mg tablets (Necessity Supplies Ltd)|
-|ace-inhibitor v1|snomed|5428411000001109|Zestril 5mg tablets (Waymade Healthcare Plc)|
-|ace-inhibitor v1|snomed|32860311000001104|Zofenil 30mg tablets (Imported (Ireland))|
-|ace-inhibitor v1|snomed|32859211000001108|Zofenil 7.5mg tablets (Imported (Ireland))|
-|ace-inhibitor v1|snomed|32859811000001109|Zofenopril 30mg tablets|
-|ace-inhibitor v1|snomed|32858711000001105|Zofenopril 7.5mg tablets|
-|aspirin v1|ctv3|bu2..%|Antiplatelet aspirin|
-|aspirin v1|ctv3|bu25.|Aspirin 75mg tablet|
-|aspirin v1|ctv3|bu24.|Angettes 75mg tablet|
-|aspirin v1|ctv3|bu23.|Aspirin 75mg dispersible tablet|
-|aspirin v1|ctv3|bu2D.|postMI 75mg dispersible tablet|
-|aspirin v1|ctv3|bu2B.|Aspirin 75mg e/c tablet|
-|aspirin v1|ctv3|bu2F.|Caprin 75mg e/c tablet|
-|aspirin v1|ctv3|bu2H.|Enprin 75mg e/c tablet|
-|aspirin v1|ctv3|bu2K.|Micropirin 75mg e/c tablet|
-|aspirin v1|ctv3|bu2A.|Nu-Seals Aspirin 75mg e/c tablet|
-|aspirin v1|ctv3|bu2G.|Nu-Seals Cardio 75 e/c tablet|
-|aspirin v1|ctv3|bu2E.|postMI 75mg e/c tablet|
-|aspirin v1|ctv3|bu2c.|Aspirin 75mg soluble tablet|
-|aspirin v1|ctv3|bu21.|Aspirin 100mg effervescent tablet|
-|aspirin v1|ctv3|bu22.|Platet 100mg effervescent tablet|
-|aspirin v1|ctv3|bu29.|Aspirin 100mg m/r tablet|
-|aspirin v1|ctv3|bu28.|Disprin CV 100mg m/r tablet|
-|aspirin v1|ctv3|bu27.|Aspirin 300mg effervescent tablet|
-|aspirin v1|ctv3|bu26.|Platet 300mg effervescent tablet|
-|aspirin v1|ctv3|di1f.|Aspirin 300mg e/c tablet|
-|aspirin v1|ctv3|bu2C.|postMI 300mg e/c tablet|
-|aspirin v1|ctv3|di1k.|Caprin 300mg e/c tablet|
-|aspirin v1|ctv3|di1c.|Nu-Seals Aspirin 300mg e/c tablet|
-|aspirin v1|ctv3|bu2b.|Aspirin 300mg m/r tablet|
-|aspirin v1|ctv3|bu2a.|Disprin CV 300mg m/r tablet|
-|aspirin v1|ctv3|bu2I.|Aspirin 162.5mg m/r capsule|
-|aspirin v1|ctv3|bu2J.|Caspac XL 162.5mg m/r capsule|
-|aspirin v1|ctv3|blm..|Isosorbide mononitrate+aspirin|
-|aspirin v1|ctv3|blmz.|Isosorbide mononitrate+aspirin 60mg/75mg m/r tablet|
-|aspirin v1|ctv3|blm1.|IMAZIN XL 60mg/75mg m/r tablet|
-|aspirin v1|ctv3|blmy.|Isosorbide mononitrate+aspirin 60mg/150mg m/r tablet|
-|aspirin v1|ctv3|blm2.|IMAZIN XL forte 60mg/150mg m/r tablet|
-|aspirin v1|ctv3|bu2d.|FLAMASACARD 162.5mg m/r capsules|
-|aspirin v1|ctv3|bu4..%|Dipyridamole+aspirin|
-|aspirin v1|ctv3|bu41.|Dipyridamole+aspirin 200mg/25mg m/r capsule|
-|aspirin v1|ctv3|bu42.|Asasantin Retard m/r capsule|
-|aspirin v1|ctv3|bu43.|MOLITA 200mg/25mg m/r capsules|
-|aspirin v1|ctv3|dibs.|Veganin tablet|
-|aspirin v1|ctv3|dl1C.|MigraMax sachet powder|
-|aspirin v1|ctv3|x02LX%|Aspirin|
-|aspirin v1|ctv3|x04tL%|Oral aspirin|
-|aspirin v1|ctv3|bu25.|Aspirin 75mg tablet|
-|aspirin v1|ctv3|bu24.|Angettes 75mg tablet|
-|aspirin v1|ctv3|bu23.|Aspirin 75mg dispersible tablet|
-|aspirin v1|ctv3|bu2D.|postMI 75mg dispersible tablet|
-|aspirin v1|ctv3|bu2B.|Aspirin 75mg e/c tablet|
-|aspirin v1|ctv3|bu2F.|Caprin 75mg e/c tablet|
-|aspirin v1|ctv3|bu2H.|Enprin 75mg e/c tablet|
-|aspirin v1|ctv3|bu2K.|Micropirin 75mg e/c tablet|
-|aspirin v1|ctv3|bu2A.|Nu-Seals Aspirin 75mg e/c tablet|
-|aspirin v1|ctv3|bu2G.|Nu-Seals Cardio 75 e/c tablet|
-|aspirin v1|ctv3|bu2E.|postMI 75mg e/c tablet|
-|aspirin v1|ctv3|bu2c.|Aspirin 75mg soluble tablet|
-|aspirin v1|ctv3|bu21.|Aspirin 100mg effervescent tablet|
-|aspirin v1|ctv3|bu22.|Platet 100mg effervescent tablet|
-|aspirin v1|ctv3|bu29.|Aspirin 100mg m/r tablet|
-|aspirin v1|ctv3|bu28.|Disprin CV 100mg m/r tablet|
-|aspirin v1|ctv3|j111.|Aspirin 300mg tablet|
-|aspirin v1|ctv3|di15.|Claradin 300mg tablet|
-|aspirin v1|ctv3|di16.|Laboprin 300mg tablet|
-|aspirin v1|ctv3|di11.|Aspirin [CNS] 300mg tablet|
-|aspirin v1|ctv3|j112.|Aspirin 300mg dispersible tablet|
-|aspirin v1|ctv3|di1r.|Disprin 300mg dispersible tablet|
-|aspirin v1|ctv3|di18.|Solprin 300mg dispersible tablet|
-|aspirin v1|ctv3|di12.|Aspirin [CNS] 300mg dispersible tablet|
-|aspirin v1|ctv3|bu27.|Aspirin 300mg effervescent tablet|
-|aspirin v1|ctv3|bu26.|Platet 300mg effervescent tablet|
-|aspirin v1|ctv3|di1m.|Aspirin 300mg soluble tablet|
-|aspirin v1|ctv3|di1f.|Aspirin 300mg e/c tablet|
-|aspirin v1|ctv3|bu2C.|postMI 300mg e/c tablet|
-|aspirin v1|ctv3|di1k.|Caprin 300mg e/c tablet|
-|aspirin v1|ctv3|di1c.|Nu-Seals Aspirin 300mg e/c tablet|
-|aspirin v1|ctv3|bu2b.|Aspirin 300mg m/r tablet|
-|aspirin v1|ctv3|bu2a.|Disprin CV 300mg m/r tablet|
-|aspirin v1|ctv3|di1h.|Aspirin 324mg e/c tablet|
-|aspirin v1|ctv3|di1a.|Caprin 324mg e/c tablet|
-|aspirin v1|ctv3|di19.|Aspirin 500mg m/r tablet|
-|aspirin v1|ctv3|x02AA|Anadin All-Night 500mg m/r tablet|
-|aspirin v1|ctv3|di1b.|Levius 500mg m/r tablet|
-|aspirin v1|ctv3|di1p.|Aspirin 500mg soluble tablet|
-|aspirin v1|ctv3|di1q.|Aspro Clear Maximum Strength soluble tablet|
-|aspirin v1|ctv3|di1i.|Aspirin 600mg tablet|
-|aspirin v1|ctv3|di17.|Paynocil 600mg tablet|
-|aspirin v1|ctv3|di1e.|Palaprin Forte 600mg tablet|
-|aspirin v1|ctv3|di1g.|Aspirin 600mg e/c tablet|
-|aspirin v1|ctv3|di1d.|Nu-Seals Aspirin 600mg e/c tablet|
-|aspirin v1|ctv3|bu2I.|Aspirin 162.5mg m/r capsule|
-|aspirin v1|ctv3|bu2J.|Caspac XL 162.5mg m/r capsule|
-|aspirin v1|ctv3|di14.|Aspergum 227mg chewing gum|
-|aspirin v1|ctv3|di1j.|Laboprin DL 900mg sachet|
-|aspirin v1|ctv3|x01Kv|Aspirin tablets|
-|aspirin v1|ctv3|x01Kw%|Rectal Aspirin|
-|aspirin v1|ctv3|di1o.|Aspirin 150mg suppository|
-|aspirin v1|ctv3|di1n.|Aspirin 300mg suppository|
-|aspirin v1|ctv3|x01Kx%|Aspirin compound preparation|
-|aspirin v1|ctv3|x000x|Co-codaprin|
-|aspirin v1|ctv3|dia4.|Co-codaprin 8mg/400mg tablet|
-|aspirin v1|ctv3|dia5.|Co-codaprin 8mg/400mg dispersible tablet|
-|aspirin v1|ctv3|diab.|Codis dispersible tablet|
-|aspirin v1|ctv3|diaO.|Co-codaprin 8mg/500mg dispersible tablet|
-|aspirin v1|ctv3|diaP.|Codis 500 dispersible tablet|
-|aspirin v1|ctv3|x00et|Aspirin+codeine 300mg/8mg tablet|
-|aspirin v1|ctv3|x00I6|Aspirin+glycine 500mg/133mg dispersible tablet|
-|aspirin v1|ctv3|x00I7|Disprin Direct dispersible tablet|
-|aspirin v1|ctv3|dibA.|Aspirin+methocarbamol 325mg/400mg tablet|
-|aspirin v1|ctv3|dibk.|Robaxisal Forte tablet|
-|aspirin v1|ctv3|diaG.|Aspirin+papaveretum 500mg/7.71mg dispersible tablet|
-|aspirin v1|ctv3|dia9.|Aspav dispersible tablet|
-|aspirin v1|ctv3|diaE.|Alka-Seltzer tablet|
-|aspirin v1|ctv3|diay.|Anadin tablet|
-|aspirin v1|ctv3|diaD.|Anadin Extra tablet|
-|aspirin v1|ctv3|dia8.|Antoin dispersible tablet|
-|aspirin v1|ctv3|diaz.|Askit powder|
-|aspirin v1|ctv3|diaB.|Beechams powder|
-|aspirin v1|ctv3|diae.|Doloxene Compound capsule|
-|aspirin v1|ctv3|diaf.|Equagesic tablet|
-|aspirin v1|ctv3|diai.|Hypon tablet|
-|aspirin v1|ctv3|dicH.|Phensic tablet|
-|aspirin v1|ctv3|dibq.|Trancoprin tablet|
-|aspirin v1|ctv3|dia1.|Aspirin/paracetamol/codeine tablets|
-|aspirin v1|ctv3|diat.|Aspirin+papaveretum 500mg/10mg dispersible tablet|
-|aspirin v1|ctv3|di1..|Aspirin [central nervous system use]|
-|aspirin v1|ctv3|j11..|Aspirin [musculoskeletal use]|
-|aspirin v1|emis|ANTA9568BRIDL|Angettes 75  Tablets  75 mg|
-|aspirin v1|emis|ASDI223|Aspirin  Dispersible tablets  |
-|aspirin v1|emis|ASDI224|Aspirin  Dispersible tablets  |
-|aspirin v1|emis|ASDI33798MGEMIS|Aspirin  Dispersible tablets  |
-|aspirin v1|emis|ASDI33799MGEMIS|Aspirin  Dispersible tablets  |
-|aspirin v1|emis|ASDI33800MGEMIS|Aspirin  Dispersible tablets  |
-|aspirin v1|emis|ASDI33801MGEMIS|Aspirin  Dispersible tablets  |
-|aspirin v1|emis|ASDI33802MGEMIS|Aspirin  Dispersible tablets  |
-|aspirin v1|emis|ASDI33803MGEMIS|Aspirin  Dispersible tablets  |
-|aspirin v1|emis|ASDI33804MGEMIS|Aspirin  Dispersible tablets  |
-|aspirin v1|emis|ASDI33805MGEMIS|Aspirin  Dispersible tablets  |
-|aspirin v1|emis|ASDI33806MGEMIS|Aspirin  Dispersible tablets  |
-|aspirin v1|emis|ASDI33807MGEMIS|Aspirin  Dispersible tablets  |
-|aspirin v1|emis|ASDI33808MGEMIS|Aspirin  Dispersible tablets  |
-|aspirin v1|emis|ASDI33809MGEMIS|Aspirin  Dispersible tablets  |
-|aspirin v1|emis|ASDI33810MGEMIS|Aspirin  Dispersible tablets  |
-|aspirin v1|emis|ASDI33811MGEMIS|Aspirin  Dispersible tablets  |
-|aspirin v1|emis|ASE/24520EMIS|Aspirin  E/c tablets  75 mg|
-|aspirin v1|emis|ASE/24522EMIS|Aspirin  E/c tablets  300 mg|
-|aspirin v1|emis|ASE/26084EMIS|Aspirin  E/c tablets  600 mg|
-|aspirin v1|emis|ASE/33812MGEMIS|Aspirin  E/c tablets  75 mg (K|
-|aspirin v1|emis|ASE/33813MGEMIS|Aspirin  E/c tablets  75 mg (A|
-|aspirin v1|emis|ASE/33814MGEMIS|Aspirin  E/c tablets  75 mg (A|
-|aspirin v1|emis|ASE/33815MGEMIS|Aspirin  E/c tablets  75 mg (T|
-|aspirin v1|emis|ASE/33816MGEMIS|Aspirin  E/c tablets  75 mg (U|
-|aspirin v1|emis|ASE/33817MGEMIS|Aspirin  E/c tablets  75 mg (S|
-|aspirin v1|emis|ASE/33818MGEMIS|Aspirin  E/c tablets  75 mg (S|
-|aspirin v1|emis|ASE/33819MGEMIS|Aspirin  E/c tablets  75 mg (I|
-|aspirin v1|emis|ASE/33820MGEMIS|Aspirin  E/c tablets  75 mg (G|
-|aspirin v1|emis|ASE/33821MGEMIS|Aspirin  E/c tablets  75 mg (C|
-|aspirin v1|emis|ASE/33822MGEMIS|Aspirin  E/c tablets  300 mg (|
-|aspirin v1|emis|ASE/33823MGEMIS|Aspirin  E/c tablets  300 mg (|
-|aspirin v1|emis|ASE/33824MGEMIS|Aspirin  E/c tablets  300 mg (|
-|aspirin v1|emis|ASE/33825MGEMIS|Aspirin  E/c tablets  300 mg (|
-|aspirin v1|emis|ASE/33826MGEMIS|Aspirin  E/c tablets  300 mg (|
-|aspirin v1|emis|ASE/37491NEMIS|Aspirin Protect  E/c tablets  |
-|aspirin v1|emis|ASM/22792EMIS|Aspirin  M/R tablets  100 mg|
-|aspirin v1|emis|ASM/22793EMIS|Aspirin  M/R tablets  300 mg|
-|aspirin v1|emis|ASM/33164EMIS|Asasantin Retard  M/R capsules|
-|aspirin v1|emis|ASPO24105NEMIS|Aspirin  Powder Sachets Lactos|
-|aspirin v1|emis|ASS/9158HILLI|Aspirin  E/c tablets  324 mg|
-|aspirin v1|emis|ASSU3023NEMIS|Aspirin  Suppositories  300 mg|
-|aspirin v1|emis|ASSU3024NEMIS|Aspirin  Suppositories  150 mg|
-|aspirin v1|emis|ASSU37686MGEMIS|Aspirin  Suppositories  300 mg|
-|aspirin v1|emis|ASSU37687MGEMIS|Aspirin  Suppositories  300 mg|
-|aspirin v1|emis|ASSU37688MGEMIS|Aspirin  Suppositories  300 mg|
-|aspirin v1|emis|ASSU37689MGEMIS|Aspirin  Suppositories  300 mg|
-|aspirin v1|emis|ASTA10221BRIDL|Aspirin E/C  Tablets  300 mg|
-|aspirin v1|emis|ASTA225|Aspirin  Tablets  300 mg|
-|aspirin v1|emis|ASTA33850MGEMIS|Aspirin  Tablets  300 mg (Kent|
-|aspirin v1|emis|ASTA33851MGEMIS|Aspirin  Tablets  300 mg (Unic|
-|aspirin v1|emis|ASTA33852MGEMIS|Aspirin  Tablets  300 mg (Alph|
-|aspirin v1|emis|ASTA33853MGEMIS|Aspirin  Tablets  300 mg (OBG |
-|aspirin v1|emis|ASTA33854MGEMIS|Aspirin  Tablets  300 mg (Aspa|
-|aspirin v1|emis|ASTA33855MGEMIS|Aspirin  Tablets  300 mg (A.A.|
-|aspirin v1|emis|ASTA33856MGEMIS|Aspirin  Tablets  300 mg (Vant|
-|aspirin v1|emis|ASTA33857MGEMIS|Aspirin  Tablets  300 mg (Lloy|
-|aspirin v1|emis|ASTA4609|Aspirin  Tablets  75 mg|
-|aspirin v1|emis|ASTA5694|Aspirin Dispersible Low Dose  |
-|aspirin v1|emis|ASTA5696|Aspergum  Chewable tablets  22|
-|aspirin v1|emis|ASTA6958|Aspirin  Tablets  500 mg|
-|aspirin v1|emis|ASTA7014|Aspirin  Tablets  600 mg|
-|aspirin v1|emis|ASTA9082HILLI|Aspirin E/C  Tablets  600 mg|
-|aspirin v1|emis|CACA32883EMIS|Caspac Xl  Capsules  162.5 mg|
-|aspirin v1|emis|CAE/28376EMIS|Caprin  E/c tablets  75 mg|
-|aspirin v1|emis|CATA3282|Caprin  E/c tablets  300 mg|
-|aspirin v1|emis|DIM/18533NEMIS|Dipyridamole And Aspirin  M/R |
-|aspirin v1|emis|DIM/22788EMIS|Disprin Cv  M/R tablets  100 m|
-|aspirin v1|emis|DIM/22789EMIS|Disprin Cv  M/R tablets  300 m|
-|aspirin v1|emis|ENE/35388EMIS|Enprin  E/c tablets  75 mg|
-|aspirin v1|emis|IMM/35359EMIS|Imazin Xl  M/R tablets  |
-|aspirin v1|emis|IMM/35362EMIS|Imazin Xl Forte  M/R tablets  |
-|aspirin v1|emis|ISM/18556NEMIS|Isosorbide Mononitrate And Asp|
-|aspirin v1|emis|ISM/18557NEMIS|Isosorbide Mononitrate And Asp|
-|aspirin v1|emis|LETA3828|Levius  Tablets  500 mg|
-|aspirin v1|emis|MIE/6437NEMIS|Micropirin  E/c tablets  75 mg|
-|aspirin v1|emis|NUE/24518EMIS|Nu-Seals Aspirin  E/c tablets |
-|aspirin v1|emis|NUTA2039|Nu-Seals Aspirin  E/c tablets |
-|aspirin v1|emis|NUTA2040|Nu-Seals Aspirin  E/c tablets |
-|aspirin v1|emis|PATA4105|Palaprin Forte  Tablets|
-|aspirin v1|emis|PATA5699|Paynocil  Tablets|
-|aspirin v1|emis|PLEF8526EGTON|Platet 300  Effervescent table|
-|aspirin v1|emis|PLEF8528EGTON|Platet  Effervescent tablets  |
-|aspirin v1|emis|PODI27089EMIS|Postmi 75  Dispersible tablets|
-|aspirin v1|emis|POE/24317EMIS|Postmi 300  E/c tablets  300 m|
-|aspirin v1|emis|POE/26999EMIS|Postmi 75  E/c tablets  75 mg|
-|aspirin v1|emis|SOTA2638|Soluble Aspirin  Tablets  300 |
-|aspirin v1|emis|SOTA2639|Soluble Aspirin Paediatric  Ta|
-|aspirin v1|emis|SOTA5701|Solprin  Tablets  300 mg|
-|aspirin v1|emis|ASDI21516NEMIS|Aspirin And Papaveretum  Dispersible Tablets Sugar Free  500 mg + 7.71 mg|
-|aspirin v1|emis|ASSA21346NEMIS|Aspirin 900mg / Metoclopramide 10mg oral powder sachets sugar free|
-|aspirin v1|emis|ASPO3910NEMIS|Aspirin  Powder  BP|
-|aspirin v1|emis|ASTA3198|Aspav Dispersible  Tablets  |
-|aspirin v1|emis|CODI9009BRIDL|Codis  Dispersible tablets  |
-|aspirin v1|emis|COTA3322|Co-Codaprin  Tablets  |
-|aspirin v1|emis|COTA3323|Co-Codaprin Dispersible  Tablets  |
-|aspirin v1|emis|EQTA8493BRID|Equagesic  Tablets  |
-|aspirin v1|emis|MISA3939NEMIS|Migramax  Oral powder sachets  |
-|aspirin v1|emis|ROTA2461|Robaxisal Forte  Tablets|
-|aspirin v1|emis|ASDI22726NEMIS|Aspirin And Codeine  Dispersible Tablets Sugar Free  500 mg + 8 mg|
-|aspirin v1|emis|ASEF29054NEMIS|Aspro Clear  Effervescent tablets  300 mg|
-|aspirin v1|emis|ASPO3910NEMIS|Aspirin  Powder  BP|
-|aspirin v1|emis|ASTA3198|Aspav Dispersible  Tablets  |
-|aspirin v1|emis|BICA98660NEMIS|Bisoprolol And Aspirin  Capsules  5 mg + 100 mg|
-|aspirin v1|emis|CODI22728NEMIS|Codis 500  Dispersible Tablets Sugar Free  |
-|aspirin v1|emis|COTA3322|Co-Codaprin  Tablets  |
-|aspirin v1|emis|COTA3323|Co-Codaprin Dispersible  Tablets  |
-|aspirin v1|emis|DADI116859NEMIS|Danamep  Dispersible tablets  75 mg|
-|aspirin v1|emis|MADI128230NEMIS|Mandaprin  Dispersible tablets  75 mg|
-|aspirin v1|emis|MISA3939NEMIS|Migramax  Oral powder sachets  |
-|aspirin v1|readv2|blm..|*ISMN+ASPIRIN|
-|aspirin v1|readv2|blm1.|*IMAZIN XL 60mg/75mg m/r tabs|
-|aspirin v1|readv2|blm2.|*IMAZIN XL FORT 60/150 m/r tab|
-|aspirin v1|readv2|blmy.|*ISMN+ASPIRIN 60/150mg m/r tab|
-|aspirin v1|readv2|blmz.|*ISMN+ASPIRIN 60/75mg m/r tabs|
-|aspirin v1|readv2|bu2..|ASPIRIN [ANTIPLATELET]|
-|aspirin v1|readv2|bu21.|*ASPIRIN 100mg eff tabs|
-|aspirin v1|readv2|bu22.|*PLATET 100mg eff tabs|
-|aspirin v1|readv2|bu23.|ASPIRIN 75mg disp tabs|
-|aspirin v1|readv2|bu24.|*ANGETTES 75mg tablets|
-|aspirin v1|readv2|bu25.|*ASPIRIN 75mg tablets|
-|aspirin v1|readv2|bu26.|*PLATET 300mg eff tabs|
-|aspirin v1|readv2|bu27.|*ASPIRIN 300mg eff tabs|
-|aspirin v1|readv2|bu28.|*DISPRIN CV 100mg m/r tablets|
-|aspirin v1|readv2|bu29.|*ASPIRIN 100mg m/r tablets|
-|aspirin v1|readv2|bu2a.|*DISPRIN CV 300mg m/r tablets|
-|aspirin v1|readv2|bu2A.|NU-SEALS ASPIRIN 75mg e/c tabs|
-|aspirin v1|readv2|bu2b.|*ASPIRIN 300mg m/r tablets|
-|aspirin v1|readv2|bu2B.|ASPIRIN 75mg e/c tablets|
-|aspirin v1|readv2|bu2c.|ASPIRIN 75mg soluble tablets|
-|aspirin v1|readv2|bu2C.|*POSTMI 300mg e/c tablets|
-|aspirin v1|readv2|bu2d.|FLAMASACARD 162.5mg m/r caps|
-|aspirin v1|readv2|bu2D.|*POSTMI 75mg dispersible tabs|
-|aspirin v1|readv2|bu2E.|*POSTMI 75mg e/c tablets|
-|aspirin v1|readv2|bu2F.|CAPRIN 75mg e/c tablets|
-|aspirin v1|readv2|bu2G.|*NU-SEALS CARDIO 75 e/c tabs|
-|aspirin v1|readv2|bu2H.|*ENPRIN 75mg e/c tablets|
-|aspirin v1|readv2|bu2I.|ASPIRIN 162.5mg m/r capsules|
-|aspirin v1|readv2|bu2J.|*CASPAC XL 162.5mg m/r caps|
-|aspirin v1|readv2|bu2K.|MICROPIRIN 75mg e/c tablets|
-|aspirin v1|readv2|bu4..|DIPYRIDAMOLE+ASPIRIN|
-|aspirin v1|readv2|bu41.|DIPYRID+ASP 200mg/25mg m/r cap|
-|aspirin v1|readv2|bu42.|ASASANTIN RETARD m/r capsules|
-|aspirin v1|readv2|bu43.|MOLITA 200mg/25mg m/r capsules|
-|aspirin v1|readv2|di1..|ASPIRIN [CNS]|
-|aspirin v1|readv2|di11.|ASPIRIN [CNS] 300mg tablets|
-|aspirin v1|readv2|di12.|ASPIRIN [CNS] 300mg disp tabs|
-|aspirin v1|readv2|di13.|*ASPIRIN 75mg disp tabs|
-|aspirin v1|readv2|di14.|*ASPERGUM 227mg chewing gum|
-|aspirin v1|readv2|di15.|*CLARADIN 300mg tablets|
-|aspirin v1|readv2|di16.|*LABOPRIN 300mg tablets|
-|aspirin v1|readv2|di17.|*PAYNOCIL 600mg tablets|
-|aspirin v1|readv2|di18.|*SOLPRIN 300mg disp tabs|
-|aspirin v1|readv2|di19.|*ASPIRIN 500mg m/r tablets|
-|aspirin v1|readv2|di1a.|*CAPRIN 324mg e/c tablets|
-|aspirin v1|readv2|di1b.|*LEVIUS 500mg m/r tablets|
-|aspirin v1|readv2|di1c.|NU-SEALS ASPIRIN 300mg e/ctabs|
-|aspirin v1|readv2|di1d.|*NU-SEALS ASPIRIN 600mg tabs|
-|aspirin v1|readv2|di1e.|*PALAPRIN FORTE 600mg tablets|
-|aspirin v1|readv2|di1f.|ASPIRIN 300mg e/c tablets|
-|aspirin v1|readv2|di1g.|*ASPIRIN 600mg e/c tablets|
-|aspirin v1|readv2|di1h.|*ASPIRIN 324mg e/c tablets|
-|aspirin v1|readv2|di1i.|*ASPIRIN 600mg tablets|
-|aspirin v1|readv2|di1j.|*LABOPRIN DL 900mg sachets|
-|aspirin v1|readv2|di1k.|CAPRIN 300mg e/c tablets|
-|aspirin v1|readv2|di1m.|ASPIRIN 300mg soluble tablets|
-|aspirin v1|readv2|di1n.|ASPIRIN 300mg suppositories|
-|aspirin v1|readv2|di1o.|ASPIRIN 150mg suppositories|
-|aspirin v1|readv2|di1r.|DISPRIN 300mg disp tabs|
-|aspirin v1|readv2|j11..|ASPIRIN [MUSCULOSKELETAL USE]|
-|aspirin v1|readv2|j111.|ASPIRIN 300mg tablets|
-|aspirin v1|readv2|j112.|ASPIRIN 300mg disp tablets|
-|aspirin v1|readv2|dia1.|PARACETAMOL + ASPIRIN & CODEINE tabs 250mg+250mg+6.8mg|
-|aspirin v1|readv2|dia4.|ASPIRIN + CODEINE tabs 400mg + 8mg|
-|aspirin v1|readv2|dia5.|ASPIRIN + CODEINE disp tab 400mg + 8mg|
-|aspirin v1|readv2|diaO.|CO-CODAPRIN sol tab 8mg+500mg|
-|aspirin v1|readv2|dl1b.|Aspirin 900mg / Metoclopramide 10mg oral powder sachets s...|
-|aspirin v1|readv2|dia8.|*ANTOIN dispersible tablets|
-|aspirin v1|readv2|dia9.|*ASPAV dispersible tablets|
-|aspirin v1|readv2|diaB.|BEECHAMS powders|
-|aspirin v1|readv2|diaD.|ANADIN EXTRA tablets|
-|aspirin v1|readv2|diaE.|ALKA-SELTZER tablets|
-|aspirin v1|readv2|diaG.|*ASPIRIN+PAPAVE 500/7.71mg tab|
-|aspirin v1|readv2|diaP.|CODIS 500 dispersible tablets|
-|aspirin v1|readv2|diab.|*CODIS dispersible tablets|
-|aspirin v1|readv2|diae.|*DOLOXENE COMPOUND capsules|
-|aspirin v1|readv2|diaf.|*EQUAGESIC tablets|
-|aspirin v1|readv2|diai.|*HYPON tablets|
-|aspirin v1|readv2|diay.|ANADIN tablets|
-|aspirin v1|readv2|diaz.|ASKIT powder|
-|aspirin v1|readv2|dibk.|*ROBAXISAL FORTE tablets|
-|aspirin v1|readv2|dibq.|*TRANCOPRIN tablets|
-|aspirin v1|readv2|dibs.|VEGANIN tablets|
-|aspirin v1|readv2|dicH.|PHENSIC tablets|
-|aspirin v1|readv2|dl1C.|MIGRAMAX sachet powder|
-|aspirin v1|snomed|4890011000001108|Alka Rapid Crystals 500mg granules sachets (Bayer Plc)|
-|aspirin v1|snomed|4926011000001107|Alka-Seltzer effervescent tablets lemon (Bayer Plc)|
-|aspirin v1|snomed|4925711000001101|Alka-Seltzer effervescent tablets original (Bayer Plc)|
-|aspirin v1|snomed|8043011000001105|Alka-Seltzer XS effervescent tablets (Bayer Plc)|
-|aspirin v1|snomed|4914411000001103|Anadin Extra soluble tablets (Pfizer Consumer Healthcare Ltd)|
-|aspirin v1|snomed|4915111000001107|Anadin Extra tablets (Pfizer Consumer Healthcare Ltd)|
-|aspirin v1|snomed|8984711000001107|Anadin Original tablets (Pfizer Consumer Healthcare Ltd)|
-|aspirin v1|snomed|800511000001106|Angettes 75 tablets (Bristol-Myers Squibb Pharmaceuticals Ltd)|
-|aspirin v1|snomed|3292511000001108|Asasantin Retard capsules (Boehringer Ingelheim Ltd)|
-|aspirin v1|snomed|5614311000001104|Asasantin Retard capsules (Dowelhurst Ltd)|
-|aspirin v1|snomed|18876011000001101|Asasantin Retard capsules (Mawdsley-Brooks & Company Ltd)|
-|aspirin v1|snomed|5336211000001102|Asasantin Retard capsules (Waymade Healthcare Plc)|
-|aspirin v1|snomed|8085211000001108|Askit oral powder sachets (Bayer Plc)|
-|aspirin v1|snomed|3690911000001103|Aspav dispersible tablets (Actavis UK Ltd)|
-|aspirin v1|snomed|11257911000001104|Aspegic Injectable 1g powder and solvent for solution for injection vials (Imported (France))|
-|aspirin v1|snomed|11257311000001100|Aspegic Injectable 500mg powder and solvent for solution for injection vials (Imported (France))|
-|aspirin v1|snomed|398989001|Aspirin + butalbital + caffeine|
-|aspirin v1|snomed|412568000|Aspirin + caffeine + paracetamol|
-|aspirin v1|snomed|398649009|Aspirin + carisoprodol|
-|aspirin v1|snomed|412095002|Aspirin + cinnamedrine + caffeine|
-|aspirin v1|snomed|398683002|Aspirin + meprobamate|
-|aspirin v1|snomed|400489006|Aspirin + methocarbamol|
-|aspirin v1|snomed|21109511000001106|Aspirin 100mg capsules|
-|aspirin v1|snomed|21109811000001109|Aspirin 100mg capsules (Special Order)|
-|aspirin v1|snomed|12012111000001104|Aspirin 100mg/5ml oral solution|
-|aspirin v1|snomed|11968411000001102|Aspirin 100mg/5ml oral solution (Special Order)|
-|aspirin v1|snomed|11712811000001108|Aspirin 100mg/5ml oral suspension|
-|aspirin v1|snomed|11692711000001109|Aspirin 100mg/5ml oral suspension (Special Order)|
-|aspirin v1|snomed|370176001|Aspirin 120mg suppository|
-|aspirin v1|snomed|35903011000001102|Aspirin 150mg / Isosorbide mononitrate 60mg modified-release tablets|
-|aspirin v1|snomed|322233001|Aspirin 150mg suppositories|
-|aspirin v1|snomed|716511000001107|Aspirin 150mg suppositories (A A H Pharmaceuticals Ltd)|
-|aspirin v1|snomed|576411000001100|Aspirin 150mg suppositories (Alliance Healthcare (Distribution) Ltd)|
-|aspirin v1|snomed|22833911000001102|Aspirin 150mg suppositories (Colorama Pharmaceuticals Ltd)|
-|aspirin v1|snomed|686211000001101|Aspirin 150mg suppositories (Martindale Pharmaceuticals Ltd)|
-|aspirin v1|snomed|12012211000001105|Aspirin 15mg/5ml oral solution|
-|aspirin v1|snomed|11972611000001106|Aspirin 15mg/5ml oral solution (Special Order)|
-|aspirin v1|snomed|12012311000001102|Aspirin 15mg/5ml oral suspension|
-|aspirin v1|snomed|11971811000001101|Aspirin 15mg/5ml oral suspension (Special Order)|
-|aspirin v1|snomed|370168003|Aspirin 165mg e/c tablet|
-|aspirin v1|snomed|11257611000001105|Aspirin 1g powder and solvent for solution for injection vials|
-|aspirin v1|snomed|370177005|Aspirin 200mg suppository|
-|aspirin v1|snomed|8280211000001109|Aspirin 225mg/5ml oral solution|
-|aspirin v1|snomed|8248411000001101|Aspirin 225mg/5ml oral solution (Special Order)|
-|aspirin v1|snomed|8280311000001101|Aspirin 225mg/5ml oral suspension|
-|aspirin v1|snomed|8249211000001105|Aspirin 225mg/5ml oral suspension (Special Order)|
-|aspirin v1|snomed|766070006|Aspirin 227.5mg prolonged-release oral gum|
-|aspirin v1|snomed|766001006|Aspirin 25 mg and dipyridamole 200 mg prolonged-release oral capsule|
-|aspirin v1|snomed|413586006|Aspirin 250mg/paracetamol 250mg/caffeine 65mg tablet|
-|aspirin v1|snomed|30798211000001103|Aspirin 25mg capsules|
-|aspirin v1|snomed|30791611000001109|Aspirin 25mg capsules (Special Order)|
-|aspirin v1|snomed|12012511000001108|Aspirin 25mg/5ml oral solution|
-|aspirin v1|snomed|11977111000001101|Aspirin 25mg/5ml oral solution (Special Order)|
-|aspirin v1|snomed|12012611000001107|Aspirin 25mg/5ml oral suspension|
-|aspirin v1|snomed|11973211000001103|Aspirin 25mg/5ml oral suspension (Special Order)|
-|aspirin v1|snomed|404785009|Aspirin 300 mg and codeine 8 mg oral tablet|
-|aspirin v1|snomed|4930811000001101|Aspirin 300mg / Paracetamol 200mg dispersible tablets sugar free|
-|aspirin v1|snomed|17958611000001108|Aspirin 300mg caplets (The Boots Company Plc)|
-|aspirin v1|snomed|27167811000001103|Aspirin 300mg caplets (Wockhardt UK Ltd)|
-|aspirin v1|snomed|329526003|Aspirin 300mg dispersible tablets|
-|aspirin v1|snomed|785211000001100|Aspirin 300mg dispersible tablets (A A H Pharmaceuticals Ltd)|
-|aspirin v1|snomed|442511000001105|Aspirin 300mg dispersible tablets (Actavis UK Ltd)|
-|aspirin v1|snomed|894511000001100|Aspirin 300mg dispersible tablets (Alliance Healthcare (Distribution) Ltd)|
-|aspirin v1|snomed|9789911000001102|Aspirin 300mg dispersible tablets (Almus Pharmaceuticals Ltd)|
-|aspirin v1|snomed|420711000001101|Aspirin 300mg dispersible tablets (Aspar Pharmaceuticals Ltd)|
-|aspirin v1|snomed|13585411000001105|Aspirin 300mg dispersible tablets (DE Pharmaceuticals)|
-|aspirin v1|snomed|714511000001101|Aspirin 300mg dispersible tablets (Kent Pharmaceuticals Ltd)|
-|aspirin v1|snomed|9827511000001106|Aspirin 300mg dispersible tablets (Lloyds Pharmacy Ltd)|
-|aspirin v1|snomed|29996411000001109|Aspirin 300mg dispersible tablets (Mawdsley-Brooks & Company Ltd)|
-|aspirin v1|snomed|13662111000001104|Aspirin 300mg dispersible tablets (Numark Ltd)|
-|aspirin v1|snomed|15069811000001103|Aspirin 300mg dispersible tablets (Sigma Pharmaceuticals Plc)|
-|aspirin v1|snomed|21777011000001106|Aspirin 300mg dispersible tablets (Waymade Healthcare Plc)|
-|aspirin v1|snomed|4660611000001105|Aspirin 300mg effervescent tablets sugar free|
-|aspirin v1|snomed|322225002|Aspirin 300mg gastro-resistant tablets|
-|aspirin v1|snomed|211011000001104|Aspirin 300mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)|
-|aspirin v1|snomed|10287611000001106|Aspirin 300mg gastro-resistant tablets (Advanz Pharma)|
-|aspirin v1|snomed|722911000001109|Aspirin 300mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd)|
-|aspirin v1|snomed|10450411000001103|Aspirin 300mg gastro-resistant tablets (Arrow Generics Ltd)|
-|aspirin v1|snomed|22611011000001100|Aspirin 300mg gastro-resistant tablets (DE Pharmaceuticals)|
-|aspirin v1|snomed|13115311000001108|Aspirin 300mg gastro-resistant tablets (Dowelhurst Ltd)|
-|aspirin v1|snomed|879911000001103|Aspirin 300mg gastro-resistant tablets (Greenfield Pharmaceuticals Ltd)|
-|aspirin v1|snomed|841411000001106|Aspirin 300mg gastro-resistant tablets (Kent Pharmaceuticals Ltd)|
-|aspirin v1|snomed|13435711000001102|Aspirin 300mg gastro-resistant tablets (Mylan)|
-|aspirin v1|snomed|17786711000001101|Aspirin 300mg gastro-resistant tablets (Phoenix Healthcare Distribution Ltd)|
-|aspirin v1|snomed|575111000001104|Aspirin 300mg gastro-resistant tablets (Sandoz Ltd)|
-|aspirin v1|snomed|29771011000001108|Aspirin 300mg gastro-resistant tablets (Sigma Pharmaceuticals Plc)|
-|aspirin v1|snomed|10821811000001100|Aspirin 300mg gastro-resistant tablets (Teva UK Ltd)|
-|aspirin v1|snomed|65611000001104|Aspirin 300mg gastro-resistant tablets (The Boots Company Plc)|
-|aspirin v1|snomed|21778211000001102|Aspirin 300mg gastro-resistant tablets (Waymade Healthcare Plc)|
-|aspirin v1|snomed|4558011000001103|Aspirin 300mg modified-release tablets|
-|aspirin v1|snomed|4930911000001106|Aspirin 300mg orodispersible tablets sugar free|
-|aspirin v1|snomed|322231004|Aspirin 300mg soluble tablet|
-|aspirin v1|snomed|322232006|Aspirin 300mg suppositories|
-|aspirin v1|snomed|307411000001109|Aspirin 300mg suppositories (A A H Pharmaceuticals Ltd)|
-|aspirin v1|snomed|679211000001103|Aspirin 300mg suppositories (Alliance Healthcare (Distribution) Ltd)|
-|aspirin v1|snomed|22834111000001103|Aspirin 300mg suppositories (Colorama Pharmaceuticals Ltd)|
-|aspirin v1|snomed|893011000001106|Aspirin 300mg suppositories (Martindale Pharmaceuticals Ltd)|
-|aspirin v1|snomed|443311000001109|Aspirin 300mg suppositories (The Boots Company Plc)|
-|aspirin v1|snomed|329525004|Aspirin 300mg tablets|
-|aspirin v1|snomed|802811000001105|Aspirin 300mg tablets (A A H Pharmaceuticals Ltd)|
-|aspirin v1|snomed|607311000001106|Aspirin 300mg tablets (Actavis UK Ltd)|
-|aspirin v1|snomed|493511000001109|Aspirin 300mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|aspirin v1|snomed|17962211000001101|Aspirin 300mg tablets (Almus Pharmaceuticals Ltd)|
-|aspirin v1|snomed|696811000001101|Aspirin 300mg tablets (Aspar Pharmaceuticals Ltd)|
-|aspirin v1|snomed|15985711000001102|Aspirin 300mg tablets (Bristol Laboratories Ltd)|
-|aspirin v1|snomed|22611511000001108|Aspirin 300mg tablets (DE Pharmaceuticals)|
-|aspirin v1|snomed|13177611000001103|Aspirin 300mg tablets (Dowelhurst Ltd)|
-|aspirin v1|snomed|311111000001108|Aspirin 300mg tablets (Kent Pharmaceuticals Ltd)|
-|aspirin v1|snomed|7986611000001101|Aspirin 300mg tablets (Lloyds Pharmacy Ltd)|
-|aspirin v1|snomed|29995811000001103|Aspirin 300mg tablets (Mawdsley-Brooks & Company Ltd)|
-|aspirin v1|snomed|24584511000001105|Aspirin 300mg tablets (Numark Ltd)|
-|aspirin v1|snomed|621811000001104|Aspirin 300mg tablets (OBG Pharmaceuticals Ltd)|
-|aspirin v1|snomed|15067611000001107|Aspirin 300mg tablets (Sigma Pharmaceuticals Plc)|
-|aspirin v1|snomed|5019911000001105|Aspirin 300mg tablets (Vantage)|
-|aspirin v1|snomed|21777511000001103|Aspirin 300mg tablets (Waymade Healthcare Plc)|
-|aspirin v1|snomed|13379211000001100|Aspirin 300mg tablets (Wockhardt UK Ltd)|
-|aspirin v1|snomed|8280511000001107|Aspirin 300mg/5ml oral solution|
-|aspirin v1|snomed|8252011000001109|Aspirin 300mg/5ml oral solution (Special Order)|
-|aspirin v1|snomed|8280611000001106|Aspirin 300mg/5ml oral suspension|
-|aspirin v1|snomed|8252611000001102|Aspirin 300mg/5ml oral suspension (Special Order)|
-|aspirin v1|snomed|12012911000001101|Aspirin 30mg/5ml oral solution|
-|aspirin v1|snomed|11978011000001101|Aspirin 30mg/5ml oral solution (Special Order)|
-|aspirin v1|snomed|12013011000001109|Aspirin 30mg/5ml oral suspension|
-|aspirin v1|snomed|11977711000001100|Aspirin 30mg/5ml oral suspension (Special Order)|
-|aspirin v1|snomed|371226001|Aspirin 325 mg and butalbital 50 mg and caffeine 40 mg and codeine phosphate 30 mg/1 each oral capsule|
-|aspirin v1|snomed|377194005|Aspirin 325 mg and butalbital 50 mg and caffeine 40 mg oral tablet|
-|aspirin v1|snomed|377193004|Aspirin 325 mg and butalbital 50 mg and caffeine 40 mg/1 each oral capsule|
-|aspirin v1|snomed|377202005|Aspirin 325 mg and carisoprodol 200 mg and codeine phosphate 16 mg oral tablet|
-|aspirin v1|snomed|377203000|Aspirin 325 mg and carisoprodol 200 mg oral tablet|
-|aspirin v1|snomed|412575004|Aspirin 325 mg and codeine 30 mg oral tablet|
-|aspirin v1|snomed|412576003|Aspirin 325 mg and codeine 60 mg oral tablet|
-|aspirin v1|snomed|377205007|Aspirin 325 mg and meprobamate 200 mg oral tablet|
-|aspirin v1|snomed|377206008|Aspirin 325 mg and methocarbamol 400 mg oral tablet|
-|aspirin v1|snomed|377207004|Aspirin 325 mg and oxycodone hydrochloride 2.25 mg and oxycodone terephthalate 0.19 mg oral tablet|
-|aspirin v1|snomed|377209001|Aspirin 325 mg and oxycodone hydrochloride 4.5 mg and oxycodone terephthalate 0.38 mg oral tablet|
-|aspirin v1|snomed|409317009|Aspirin 325 mg and pravastatin 20 mg oral tablet|
-|aspirin v1|snomed|409316000|Aspirin 325 mg and pravastatin 40 mg oral tablet|
-|aspirin v1|snomed|409315001|Aspirin 325 mg and pravastatin 80 mg oral tablet|
-|aspirin v1|snomed|370166004|Aspirin 325 mg oral tablet|
-|aspirin v1|snomed|8985811000001103|Aspirin 325mg / Caffeine 15mg tablets|
-|aspirin v1|snomed|5263811000001109|Aspirin 325mg / Caffeine 22mg tablets|
-|aspirin v1|snomed|370169006|Aspirin 325mg e/c tablet|
-|aspirin v1|snomed|377195006|Aspirin 356.4 mg and caffeine 30 mg and dihydrocodeine bitartrate 16 mg/1 each oral capsule|
-|aspirin v1|snomed|16100911000001108|Aspirin 37.5mg oral powder sachets|
-|aspirin v1|snomed|16096411000001107|Aspirin 37.5mg oral powder sachets (Special Order)|
-|aspirin v1|snomed|12013211000001104|Aspirin 37.5mg/5ml oral solution|
-|aspirin v1|snomed|11978911000001102|Aspirin 37.5mg/5ml oral solution (Special Order)|
-|aspirin v1|snomed|12013311000001107|Aspirin 37.5mg/5ml oral suspension|
-|aspirin v1|snomed|11978311000001103|Aspirin 37.5mg/5ml oral suspension (Special Order)|
-|aspirin v1|snomed|377196007|Aspirin 385 mg and caffeine 30 mg and orphenadrine citrate 25 mg oral tablet|
-|aspirin v1|snomed|412647005|Aspirin 389 mg and caffeine 32.4 mg and propoxyphene hydrochloride 32 mg/1 each oral capsule|
-|aspirin v1|snomed|377201003|Aspirin 389 mg and caffeine 32.4 mg and propoxyphene hydrochloride 65 mg/1 each oral capsule|
-|aspirin v1|snomed|22330911000001108|Aspirin 4% in Chloroform solution|
-|aspirin v1|snomed|22331211000001105|Aspirin 4% in Chloroform solution (Special Order)|
-|aspirin v1|snomed|14012211000001103|Aspirin 40mg oral powder sachets|
-|aspirin v1|snomed|13980411000001107|Aspirin 40mg oral powder sachets (Special Order)|
-|aspirin v1|snomed|12013511000001101|Aspirin 40mg/5ml oral solution|
-|aspirin v1|snomed|11980211000001101|Aspirin 40mg/5ml oral solution (Special Order)|
-|aspirin v1|snomed|12013711000001106|Aspirin 40mg/5ml oral suspension|
-|aspirin v1|snomed|11979511000001103|Aspirin 40mg/5ml oral suspension (Special Order)|
-|aspirin v1|snomed|377197003|Aspirin 428 mg and caffeine 30 mg and orphenadrine citrate 25 mg oral tablet|
-|aspirin v1|snomed|377204006|Aspirin 500 mg and hydrocodone bitartrate 5 mg oral tablet|
-|aspirin v1|snomed|4956111000001107|Aspirin 500mg / Codeine 8mg dispersible tablets sugar free|
-|aspirin v1|snomed|322321008|Aspirin 500mg / Papaveretum 7.71mg dispersible tablets sugar free|
-|aspirin v1|snomed|386038008|Aspirin 500mg e/c tablet|
-|aspirin v1|snomed|4650611000001100|Aspirin 500mg effervescent tablets sugar free|
-|aspirin v1|snomed|4897611000001102|Aspirin 500mg granules sachets sugar free|
-|aspirin v1|snomed|11257011000001103|Aspirin 500mg powder and solvent for solution for injection vials|
-|aspirin v1|snomed|322234007|Aspirin 500mg soluble tablet|
-|aspirin v1|snomed|8280711000001102|Aspirin 50mg/5ml oral solution|
-|aspirin v1|snomed|8253111000001104|Aspirin 50mg/5ml oral solution (Special Order)|
-|aspirin v1|snomed|8280811000001105|Aspirin 50mg/5ml oral suspension|
-|aspirin v1|snomed|8253811000001106|Aspirin 50mg/5ml oral suspension (Special Order)|
-|aspirin v1|snomed|4939011000001104|Aspirin 600mg / Caffeine 50mg oral powder sachets sugar free|
-|aspirin v1|snomed|370178000|Aspirin 600mg suppository|
-|aspirin v1|snomed|12013811000001103|Aspirin 62.5mg/5ml oral solution|
-|aspirin v1|snomed|11981411000001106|Aspirin 62.5mg/5ml oral solution (Special Order)|
-|aspirin v1|snomed|12013911000001108|Aspirin 62.5mg/5ml oral suspension|
-|aspirin v1|snomed|11980811000001100|Aspirin 62.5mg/5ml oral suspension (Special Order)|
-|aspirin v1|snomed|370170007|Aspirin 650mg e/c tablet|
-|aspirin v1|snomed|765676008|Aspirin 650mg gastro-resistant oral tablet|
-|aspirin v1|snomed|35903111000001101|Aspirin 75mg / Isosorbide mononitrate 60mg modified-release tablets|
-|aspirin v1|snomed|319773006|Aspirin 75mg dispersible tablets|
-|aspirin v1|snomed|765111000001108|Aspirin 75mg dispersible tablets (A A H Pharmaceuticals Ltd)|
-|aspirin v1|snomed|916711000001109|Aspirin 75mg dispersible tablets (Actavis UK Ltd)|
-|aspirin v1|snomed|595211000001103|Aspirin 75mg dispersible tablets (Alliance Healthcare (Distribution) Ltd)|
-|aspirin v1|snomed|9789111000001100|Aspirin 75mg dispersible tablets (Almus Pharmaceuticals Ltd)|
-|aspirin v1|snomed|698811000001100|Aspirin 75mg dispersible tablets (Aspar Pharmaceuticals Ltd)|
-|aspirin v1|snomed|15985111000001103|Aspirin 75mg dispersible tablets (Bristol Laboratories Ltd)|
-|aspirin v1|snomed|22610611000001102|Aspirin 75mg dispersible tablets (DE Pharmaceuticals)|
-|aspirin v1|snomed|13178111000001107|Aspirin 75mg dispersible tablets (Dowelhurst Ltd)|
-|aspirin v1|snomed|163411000001106|Aspirin 75mg dispersible tablets (IVAX Pharmaceuticals UK Ltd)|
-|aspirin v1|snomed|173911000001105|Aspirin 75mg dispersible tablets (Kent Pharmaceuticals Ltd)|
-|aspirin v1|snomed|12430611000001107|Aspirin 75mg dispersible tablets (Lloyds Pharmacy Ltd)|
-|aspirin v1|snomed|29996011000001100|Aspirin 75mg dispersible tablets (Mawdsley-Brooks & Company Ltd)|
-|aspirin v1|snomed|13662311000001102|Aspirin 75mg dispersible tablets (Numark Ltd)|
-|aspirin v1|snomed|17785711000001109|Aspirin 75mg dispersible tablets (Phoenix Healthcare Distribution Ltd)|
-|aspirin v1|snomed|15069611000001102|Aspirin 75mg dispersible tablets (Sigma Pharmaceuticals Plc)|
-|aspirin v1|snomed|33511000001106|Aspirin 75mg dispersible tablets (Teva UK Ltd)|
-|aspirin v1|snomed|594611000001102|Aspirin 75mg dispersible tablets (The Boots Company Plc)|
-|aspirin v1|snomed|852711000001109|Aspirin 75mg dispersible tablets (Thornton & Ross Ltd)|
-|aspirin v1|snomed|21776611000001101|Aspirin 75mg dispersible tablets (Waymade Healthcare Plc)|
-|aspirin v1|snomed|19429611000001108|Aspirin 75mg dispersible tablets (Wockhardt UK Ltd)|
-|aspirin v1|snomed|10064711000001104|Aspirin 75mg effervescent tablets|
-|aspirin v1|snomed|10063211000001108|Aspirin 75mg effervescent tablets (A A H Pharmaceuticals Ltd)|
-|aspirin v1|snomed|10063011000001103|Aspirin 75mg effervescent tablets (IVAX Pharmaceuticals UK Ltd)|
-|aspirin v1|snomed|319781007|Aspirin 75mg gastro-resistant tablets|
-|aspirin v1|snomed|138011000001102|Aspirin 75mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)|
-|aspirin v1|snomed|281711000001100|Aspirin 75mg gastro-resistant tablets (Actavis UK Ltd)|
-|aspirin v1|snomed|307211000001105|Aspirin 75mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd)|
-|aspirin v1|snomed|9790111000001106|Aspirin 75mg gastro-resistant tablets (Almus Pharmaceuticals Ltd)|
-|aspirin v1|snomed|10450211000001102|Aspirin 75mg gastro-resistant tablets (Arrow Generics Ltd)|
-|aspirin v1|snomed|15985411000001108|Aspirin 75mg gastro-resistant tablets (Bristol Laboratories Ltd)|
-|aspirin v1|snomed|799411000001102|Aspirin 75mg gastro-resistant tablets (C P Pharmaceuticals Ltd)|
-|aspirin v1|snomed|22611211000001105|Aspirin 75mg gastro-resistant tablets (DE Pharmaceuticals)|
-|aspirin v1|snomed|13115811000001104|Aspirin 75mg gastro-resistant tablets (Dowelhurst Ltd)|
-|aspirin v1|snomed|844511000001107|Aspirin 75mg gastro-resistant tablets (Greenfield Pharmaceuticals Ltd)|
-|aspirin v1|snomed|592811000001109|Aspirin 75mg gastro-resistant tablets (IVAX Pharmaceuticals UK Ltd)|
-|aspirin v1|snomed|50611000001102|Aspirin 75mg gastro-resistant tablets (Kent Pharmaceuticals Ltd)|
-|aspirin v1|snomed|12534311000001103|Aspirin 75mg gastro-resistant tablets (Lloyds Pharmacy Ltd)|
-|aspirin v1|snomed|29996711000001103|Aspirin 75mg gastro-resistant tablets (Mawdsley-Brooks & Company Ltd)|
-|aspirin v1|snomed|795611000001102|Aspirin 75mg gastro-resistant tablets (Mylan)|
-|aspirin v1|snomed|17786111000001102|Aspirin 75mg gastro-resistant tablets (Phoenix Healthcare Distribution Ltd)|
-|aspirin v1|snomed|476711000001102|Aspirin 75mg gastro-resistant tablets (Sandoz Ltd)|
-|aspirin v1|snomed|29771211000001103|Aspirin 75mg gastro-resistant tablets (Sigma Pharmaceuticals Plc)|
-|aspirin v1|snomed|370411000001104|Aspirin 75mg gastro-resistant tablets (Sterwin Medicines)|
-|aspirin v1|snomed|295211000001106|Aspirin 75mg gastro-resistant tablets (Teva UK Ltd)|
-|aspirin v1|snomed|21777711000001108|Aspirin 75mg gastro-resistant tablets (Waymade Healthcare Plc)|
-|aspirin v1|snomed|16431611000001103|Aspirin 75mg gastro-resistant tablets (Wockhardt UK Ltd)|
-|aspirin v1|snomed|15967511000001101|Aspirin 75mg gastro-resistant tablets (Zanza Specials International Ltd)|
-|aspirin v1|snomed|319793003|Aspirin 75mg soluble tablet|
-|aspirin v1|snomed|319775004|Aspirin 75mg tablets|
-|aspirin v1|snomed|17879711000001102|Aspirin 75mg tablets (A A H Pharmaceuticals Ltd)|
-|aspirin v1|snomed|34175711000001102|Aspirin 75mg tablets (Accord Healthcare Ltd)|
-|aspirin v1|snomed|17423311000001108|Aspirin 75mg tablets (Alissa Healthcare Research Ltd)|
-|aspirin v1|snomed|17629911000001105|Aspirin 75mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|aspirin v1|snomed|22611811000001106|Aspirin 75mg tablets (DE Pharmaceuticals)|
-|aspirin v1|snomed|36611211000001105|Aspirin 75mg tablets (Healthcare Pharma Ltd)|
-|aspirin v1|snomed|35841711000001101|Aspirin 75mg tablets (Intrapharm Laboratories Ltd)|
-|aspirin v1|snomed|32394411000001100|Aspirin 75mg tablets (Kent Pharmaceuticals Ltd)|
-|aspirin v1|snomed|36492711000001106|Aspirin 75mg tablets (Medreich Plc)|
-|aspirin v1|snomed|18082911000001106|Aspirin 75mg tablets (Phoenix Healthcare Distribution Ltd)|
-|aspirin v1|snomed|29774911000001105|Aspirin 75mg tablets (Sigma Pharmaceuticals Plc)|
-|aspirin v1|snomed|21777311000001109|Aspirin 75mg tablets (Waymade Healthcare Plc)|
-|aspirin v1|snomed|12014011000001106|Aspirin 75mg/5ml oral solution|
-|aspirin v1|snomed|11982511000001102|Aspirin 75mg/5ml oral solution (Special Order)|
-|aspirin v1|snomed|12014111000001107|Aspirin 75mg/5ml oral suspension|
-|aspirin v1|snomed|11982011000001105|Aspirin 75mg/5ml oral suspension (Special Order)|
-|aspirin v1|snomed|377199000|Aspirin 770 mg and caffeine 60 mg and orphenadrine citrate 50 mg oral tablet|
-|aspirin v1|snomed|374744009|Aspirin 800 mg oral tablet|
-|aspirin v1|snomed|765630009|Aspirin 800mg gastro-resistant oral tablet|
-|aspirin v1|snomed|409312003|Aspirin 81 mg and pravastatin 20 mg oral tablet|
-|aspirin v1|snomed|409313008|Aspirin 81 mg and pravastatin 40 mg oral tablet|
-|aspirin v1|snomed|409314002|Aspirin 81 mg and pravastatin 80 mg oral tablet|
-|aspirin v1|snomed|370164001|Aspirin 81mg chewable tablet|
-|aspirin v1|snomed|370167008|Aspirin 81mg e/c tablet|
-|aspirin v1|snomed|765570009|Aspirin 81mg gastro-resistant oral tablet|
-|aspirin v1|snomed|377200002|Aspirin 856 mg and caffeine 60 mg and orphenadrine citrate 50 mg oral tablet|
-|aspirin v1|snomed|322784004|Aspirin 900mg / Metoclopramide 10mg oral powder sachets sugar free|
-|aspirin v1|snomed|376250003|Aspirin 975 mg oral tablet|
-|aspirin v1|snomed|370171006|Aspirin 975mg e/c tablet|
-|aspirin v1|snomed|765559002|Aspirin 975mg gastro-resistant oral tablet|
-|aspirin v1|snomed|767922005|Aspirin and butalbital and caffeine and codeine in oral dosage form|
-|aspirin v1|snomed|767920002|Aspirin and butalbital and caffeine and codeine product|
-|aspirin v1|snomed|767919008|Aspirin and butalbital and caffeine in oral dosage form|
-|aspirin v1|snomed|767930006|Aspirin and caffeine and dihydrocodeine in oral dosage form|
-|aspirin v1|snomed|767929001|Aspirin and caffeine and dihydrocodeine product|
-|aspirin v1|snomed|767927004|Aspirin and caffeine and orphenadrine in oral dosage form|
-|aspirin v1|snomed|767897005|Aspirin and caffeine and paracetamol in oral dosage form|
-|aspirin v1|snomed|767926008|Aspirin and carisoprodol and codeine in oral dosage form|
-|aspirin v1|snomed|767925007|Aspirin and carisoprodol and codeine product|
-|aspirin v1|snomed|767900003|Aspirin and carisoprodol in oral dosage form|
-|aspirin v1|snomed|764599008|Aspirin and cyclizine product|
-|aspirin v1|snomed|767742009|Aspirin and dipyridamole in oral dosage form|
-|aspirin v1|snomed|398767009|Aspirin and glycine|
-|aspirin v1|snomed|767898000|Aspirin and hydrocodone in oral dosage form|
-|aspirin v1|snomed|768404004|Aspirin and hydrocodone product|
-|aspirin v1|snomed|767901004|Aspirin and meprobamate in oral dosage form|
-|aspirin v1|snomed|767902006|Aspirin and methocarbamol in oral dosage form|
-|aspirin v1|snomed|764369003|Aspirin and omeprazole in oral dosage form|
-|aspirin v1|snomed|763644001|Aspirin and omeprazole product|
-|aspirin v1|snomed|767924006|Aspirin and oxycodone in oral dosage form|
-|aspirin v1|snomed|767923000|Aspirin and oxycodone product|
-|aspirin v1|snomed|764567002|Aspirin and pentazocine product|
-|aspirin v1|snomed|767899008|Aspirin and pravastatin in oral dosage form|
-|aspirin v1|snomed|12534011000001101|Aspirin Extra tablets (Lloyds Pharmacy Ltd)|
-|aspirin v1|snomed|358427004|Aspirin in oral dosage form|
-|aspirin v1|snomed|350314003|Aspirin in rectal dosage form|
-|aspirin v1|snomed|5145711000001107|Aspirin powder|
-|aspirin v1|snomed|5135311000001107|Aspirin powder (A A H Pharmaceuticals Ltd)|
-|aspirin v1|snomed|5135611000001102|Aspirin powder (J M Loveridge Ltd)|
-|aspirin v1|snomed|347070003|Aspirin+glycine 500mg/133mg dispersible tablet|
-|aspirin v1|snomed|409311005|Aspirin+pravastatin|
-|aspirin v1|snomed|4649111000001101|Aspro Clear 300mg effervescent tablets (Bayer Plc)|
-|aspirin v1|snomed|34609311000001105|Atransipar 200mg/25mg modified-release capsules (Par Laboratories Europe Ltd)|
-|aspirin v1|snomed|4937411000001104|Beechams Powders oral powder sachets (GlaxoSmithKline Consumer Healthcare)|
-|aspirin v1|snomed|28365311000001102|Bisoprolol 10mg / Aspirin 100mg capsules|
-|aspirin v1|snomed|28359411000001101|Bisoprolol 10mg / Aspirin 100mg capsules (Aspire Pharma Ltd)|
-|aspirin v1|snomed|28365411000001109|Bisoprolol 10mg / Aspirin 75mg capsules|
-|aspirin v1|snomed|28358311000001102|Bisoprolol 10mg / Aspirin 75mg capsules (Aspire Pharma Ltd)|
-|aspirin v1|snomed|28365611000001107|Bisoprolol 5mg / Aspirin 100mg capsules|
-|aspirin v1|snomed|28360311000001109|Bisoprolol 5mg / Aspirin 100mg capsules (Aspire Pharma Ltd)|
-|aspirin v1|snomed|28365711000001103|Bisoprolol 5mg / Aspirin 75mg capsules|
-|aspirin v1|snomed|28357711000001104|Bisoprolol 5mg / Aspirin 75mg capsules (Aspire Pharma Ltd)|
-|aspirin v1|snomed|30991911000001109|Boots Aspirin 300mg dispersible tablets (The Boots Company Plc)|
-|aspirin v1|snomed|20536811000001105|Boots Aspirin 75mg gastro-resistant tablets (The Boots Company Plc)|
-|aspirin v1|snomed|20549911000001105|Boots Aspirin and Codeine tablets (The Boots Company Plc)|
-|aspirin v1|snomed|30971911000001102|Boots Aspirin Extra tablets (The Boots Company Plc)|
-|aspirin v1|snomed|412566001|Buffered aspirin|
-|aspirin v1|snomed|412567005|Buffered aspirin + caffeine|
-|aspirin v1|snomed|901211000001107|Caprin 300mg gastro-resistant tablets (Pinewood Healthcare)|
-|aspirin v1|snomed|927411000001108|Caprin 75mg gastro-resistant tablets (Wockhardt UK Ltd)|
-|aspirin v1|snomed|18037811000001108|Co-codaprin|
-|aspirin v1|snomed|322310004|Co-codaprin 8mg/400mg dispersible tablets|
-|aspirin v1|snomed|3679811000001109|Co-codaprin 8mg/400mg dispersible tablets (A A H Pharmaceuticals Ltd)|
-|aspirin v1|snomed|3680211000001108|Co-codaprin 8mg/400mg dispersible tablets (Actavis UK Ltd)|
-|aspirin v1|snomed|3680611000001105|Co-codaprin 8mg/400mg dispersible tablets (Alliance Healthcare (Distribution) Ltd)|
-|aspirin v1|snomed|29797311000001107|Co-codaprin 8mg/400mg dispersible tablets (Sigma Pharmaceuticals Plc)|
-|aspirin v1|snomed|11762111000001100|Co-codaprin 8mg/400mg tablets|
-|aspirin v1|snomed|11748611000001102|Co-codaprin 8mg/400mg tablets (The Boots Company Plc)|
-|aspirin v1|snomed|407906007|Co-codaprin 8mg/500mg dispersible tablet|
-|aspirin v1|snomed|4951811000001105|Codis 500 dispersible tablets (Reckitt Benckiser Healthcare (UK) Ltd)|
-|aspirin v1|snomed|32968711000001107|Danamep 75mg dispersible tablets (Ecogen Europe Ltd)|
-|aspirin v1|snomed|36069911000001109|Dipyridamole 200mg modified-release / Aspirin 25mg capsules|
-|aspirin v1|snomed|544911000001101|Disprin 300mg dispersible tablets (Reckitt Benckiser Healthcare (UK) Ltd)|
-|aspirin v1|snomed|4532311000001104|Disprin CV 300mg modified-release tablets (Reckitt Benckiser Healthcare (UK) Ltd)|
-|aspirin v1|snomed|4906811000001106|Disprin Direct 300mg orodispersible tablets (Reckitt Benckiser Healthcare (UK) Ltd)|
-|aspirin v1|snomed|4911611000001102|Disprin Extra dispersible tablets (Reckitt Benckiser Healthcare (UK) Ltd)|
-|aspirin v1|snomed|473711000001109|Enprin 75mg gastro-resistant tablets (Galpharm International Ltd)|
-|aspirin v1|snomed|445511000001104|Gencardia 75mg gastro-resistant tablets (Genus Pharmaceuticals Ltd)|
-|aspirin v1|snomed|4932311000001109|Generic Alka-Seltzer effervescent tablets sugar free|
-|aspirin v1|snomed|8042711000001104|Generic Alka-Seltzer XS effervescent tablets|
-|aspirin v1|snomed|4932411000001102|Generic Anadin Extra soluble tablets sugar free|
-|aspirin v1|snomed|4932511000001103|Generic Anadin Extra tablets|
-|aspirin v1|snomed|8087711000001107|Generic Askit oral powder sachets sugar free|
-|aspirin v1|snomed|8000111000001109|Generic Nurse Sykes oral powder sachets|
-|aspirin v1|snomed|3461511000001104|Imazin XL forte tablets (Napp Pharmaceuticals Ltd)|
-|aspirin v1|snomed|3460911000001104|Imazin XL tablets (Napp Pharmaceuticals Ltd)|
-|aspirin v1|snomed|7945911000001106|Lloydspharmacy Extra Power Pain Reliever tablets (Lloyds Pharmacy Ltd)|
-|aspirin v1|snomed|35581511000001100|Mandaprin 75mg dispersible tablets (M & A Pharmachem Ltd)|
-|aspirin v1|snomed|4648711000001109|Maximum Strength Aspro Clear 500mg effervescent tablets (Bayer Plc)|
-|aspirin v1|snomed|281311000001104|Micropirin 75mg gastro-resistant tablets (Dexcel-Pharma Ltd)|
-|aspirin v1|snomed|3637911000001108|MigraMax oral powder sachets (Zentiva)|
-|aspirin v1|snomed|23241511000001106|Molita 200mg/25mg modified-release capsules (Dr Reddy's Laboratories (UK) Ltd)|
-|aspirin v1|snomed|24572811000001108|Numark Extra Power Pain Reliever tablets (Numark Ltd)|
-|aspirin v1|snomed|8000611000001101|Nurse Sykes oral powder sachets (Crescent Pharma OTC Ltd)|
-|aspirin v1|snomed|183311000001101|Nu-Seals 300 gastro-resistant tablets (Alliance Pharmaceuticals Ltd)|
-|aspirin v1|snomed|414311000001102|Nu-Seals 75 gastro-resistant tablets (Alliance Pharmaceuticals Ltd)|
-|aspirin v1|snomed|5254111000001107|Original Phensic Aspirin tablets (Merck Consumer Health Products)|
-|aspirin v1|snomed|412458007|Orphenadrine + aspirin + caffeine|
-|aspirin v1|snomed|13629811000001107|Paramed Extra Power Pain Control tablets (Galpharm International Ltd)|
-|aspirin v1|snomed|636011000001100|PostMI 75 dispersible tablets (Ashbourne Pharmaceuticals Ltd)|
-|aspirin v1|snomed|38411000001101|PostMI 75 EC tablets (Ashbourne Pharmaceuticals Ltd)|
-|aspirin v1|snomed|17221711000001107|Pure Health Aspirin 75mg dispersible tablets (Lexon (UK) Ltd)|
-|clopidogrel v1|ctv3|bu5..|Clopidogrel|
-|clopidogrel v1|ctv3|bu51.|Clopidogrel 75mg tablet|
-|clopidogrel v1|ctv3|bu54.|CLOPIDOGREL 300mg tablets|
-|clopidogrel v1|ctv3|bu52.|Plavix 75mg tablet|
-|clopidogrel v1|ctv3|bu53.|PLAVIX 300mg tablets|
-|clopidogrel v1|ctv3|bu55.|GREPID 75mg tablets|
-|clopidogrel v1|emis|CLTA30106NEMIS|Clopidogrel  Tablets  300 mg|
-|clopidogrel v1|emis|CLTA34068EMIS|Clopidogrel  Tablets  75 mg|
-|clopidogrel v1|emis|GRTA38472NEMIS|Grepid  Tablets  75 mg|
-|clopidogrel v1|emis|PLTA30107NEMIS|Plavix  Tablets  300 mg|
-|clopidogrel v1|emis|PLTA34066EMIS|Plavix  Tablets  75 mg|
-|clopidogrel v1|emis|CLOR78956NEMIS|Clopidogrel  Oral solution  75 mg/5 ml|
-|clopidogrel v1|readv2|bu5..|CLOPIDOGREL|
-|clopidogrel v1|readv2|bu51.|CLOPIDOGREL 75mg tablets|
-|clopidogrel v1|readv2|bu54.|CLOPIDOGREL 300mg tablets|
-|clopidogrel v1|readv2|bu...|Clopidogrel 75mg tablets|
-|clopidogrel v1|readv2|bu52.|PLAVIX 75mg tablets|
-|clopidogrel v1|readv2|bu53.|PLAVIX 300mg tablets|
-|clopidogrel v1|readv2|bu55.|GREPID 75mg tablets|
-|clopidogrel v1|snomed|16089411000001101|Clopidogrel 11mg oral powder sachets|
-|clopidogrel v1|snomed|16087211000001106|Clopidogrel 11mg oral powder sachets (Special Order)|
-|clopidogrel v1|snomed|18747911000001101|Clopidogrel 1mg/ml oral suspension|
-|clopidogrel v1|snomed|18739811000001102|Clopidogrel 1mg/ml oral suspension (Drug Tariff Special Order)|
-|clopidogrel v1|snomed|16072911000001108|Clopidogrel 25mg/5ml oral suspension|
-|clopidogrel v1|snomed|16060011000001104|Clopidogrel 25mg/5ml oral suspension (Special Order)|
-|clopidogrel v1|snomed|31140711000001100|Clopidogrel 3.5mg oral powder sachets|
-|clopidogrel v1|snomed|31135811000001101|Clopidogrel 3.5mg oral powder sachets (Special Order)|
-|clopidogrel v1|snomed|429540001|Clopidogrel 300mg tablets|
-|clopidogrel v1|snomed|22342711000001109|Clopidogrel 4mg oral powder sachets|
-|clopidogrel v1|snomed|22334911000001103|Clopidogrel 4mg oral powder sachets (Special Order)|
-|clopidogrel v1|snomed|28415011000001107|Clopidogrel 5mg oral powder sachets|
-|clopidogrel v1|snomed|28407211000001108|Clopidogrel 5mg oral powder sachets (Special Order)|
-|clopidogrel v1|snomed|36903411000001109|Clopidogrel 5mg/5ml oral solution|
-|clopidogrel v1|snomed|36894011000001107|Clopidogrel 5mg/5ml oral solution (Special Order)|
-|clopidogrel v1|snomed|30919611000001101|Clopidogrel 6mg oral powder sachets|
-|clopidogrel v1|snomed|30874811000001100|Clopidogrel 6mg oral powder sachets (Special Order)|
-|clopidogrel v1|snomed|32392111000001102|Clopidogrel 6mg/ml oral suspension|
-|clopidogrel v1|snomed|32338411000001101|Clopidogrel 6mg/ml oral suspension (Special Order)|
-|clopidogrel v1|snomed|8816311000001106|Clopidogrel 75mg oral powder sachets|
-|clopidogrel v1|snomed|8808611000001102|Clopidogrel 75mg oral powder sachets (Special Order)|
-|clopidogrel v1|snomed|319799004|Clopidogrel 75mg tablets|
-|clopidogrel v1|snomed|15933611000001103|Clopidogrel 75mg tablets (A A H Pharmaceuticals Ltd)|
-|clopidogrel v1|snomed|27841311000001100|Clopidogrel 75mg tablets (Accord Healthcare Ltd)|
-|clopidogrel v1|snomed|15981011000001101|Clopidogrel 75mg tablets (Actavis UK Ltd)|
-|clopidogrel v1|snomed|15927711000001100|Clopidogrel 75mg tablets (Alliance Healthcare (Distribution) Ltd)|
-|clopidogrel v1|snomed|21643011000001107|Clopidogrel 75mg tablets (Almus Pharmaceuticals Ltd)|
-|clopidogrel v1|snomed|15923011000001108|Clopidogrel 75mg tablets (Arrow Generics Ltd)|
-|clopidogrel v1|snomed|18045011000001105|Clopidogrel 75mg tablets (Aspire Pharma Ltd)|
-|clopidogrel v1|snomed|17217211000001101|Clopidogrel 75mg tablets (Consilient Health Ltd)|
-|clopidogrel v1|snomed|13852611000001105|Clopidogrel 75mg tablets (DE Pharmaceuticals)|
-|clopidogrel v1|snomed|30138011000001107|Clopidogrel 75mg tablets (DE Pharmaceuticals)|
-|clopidogrel v1|snomed|17561911000001105|Clopidogrel 75mg tablets (Dexcel-Pharma Ltd)|
-|clopidogrel v1|snomed|10484111000001109|Clopidogrel 75mg tablets (Dowelhurst Ltd)|
-|clopidogrel v1|snomed|18474811000001106|Clopidogrel 75mg tablets (Dr Reddy's Laboratories (UK) Ltd)|
-|clopidogrel v1|snomed|32398611000001107|Clopidogrel 75mg tablets (Kent Pharmaceuticals Ltd)|
-|clopidogrel v1|snomed|29667511000001107|Clopidogrel 75mg tablets (Macleods Pharma UK Ltd)|
-|clopidogrel v1|snomed|16508911000001104|Clopidogrel 75mg tablets (Mawdsley-Brooks & Company Ltd)|
-|clopidogrel v1|snomed|30015311000001101|Clopidogrel 75mg tablets (Mawdsley-Brooks & Company Ltd)|
-|clopidogrel v1|snomed|23953911000001104|Clopidogrel 75mg tablets (Milpharm Ltd)|
-|clopidogrel v1|snomed|16247711000001100|Clopidogrel 75mg tablets (Mylan)|
-|clopidogrel v1|snomed|18221811000001107|Clopidogrel 75mg tablets (Necessity Supplies Ltd)|
-|clopidogrel v1|snomed|17861911000001109|Clopidogrel 75mg tablets (Phoenix Healthcare Distribution Ltd)|
-|clopidogrel v1|snomed|24108111000001101|Clopidogrel 75mg tablets (Sandoz Ltd)|
-|clopidogrel v1|snomed|14714411000001108|Clopidogrel 75mg tablets (Sigma Pharmaceuticals Plc)|
-|clopidogrel v1|snomed|18720411000001107|Clopidogrel 75mg tablets (Sigma Pharmaceuticals Plc)|
-|clopidogrel v1|snomed|15926111000001104|Clopidogrel 75mg tablets (Teva UK Ltd)|
-|clopidogrel v1|snomed|36870711000001106|Clopidogrel 75mg tablets (Torrent Pharma (UK) Ltd)|
-|clopidogrel v1|snomed|10511211000001106|Clopidogrel 75mg tablets (Waymade Healthcare Plc)|
-|clopidogrel v1|snomed|21936211000001107|Clopidogrel 75mg tablets (Waymade Healthcare Plc)|
-|clopidogrel v1|snomed|18548711000001103|Clopidogrel 75mg tablets (Wockhardt UK Ltd)|
-|clopidogrel v1|snomed|22700111000001103|Clopidogrel 75mg tablets (Zentiva)|
-|clopidogrel v1|snomed|22402511000001104|Clopidogrel 75mg/5ml oral solution|
-|clopidogrel v1|snomed|22244311000001106|Clopidogrel 75mg/5ml oral solution (Drug Tariff Special Order)|
-|clopidogrel v1|snomed|8426611000001103|Clopidogrel 75mg/5ml oral suspension|
-|clopidogrel v1|snomed|8400511000001109|Clopidogrel 75mg/5ml oral suspension (Drug Tariff Special Order)|
-|clopidogrel v1|snomed|34682711000001102|Clopidogrel 7mg/ml oral suspension|
-|clopidogrel v1|snomed|34676811000001103|Clopidogrel 7mg/ml oral suspension (Special Order)|
-|clopidogrel v1|snomed|714142006|Clopidogrel in oral dosage form|
-|clopidogrel v1|snomed|13663511000001101|Plavix 300mg tablets (Sanofi)|
-|clopidogrel v1|snomed|13945811000001107|Plavix 75mg tablets (DE Pharmaceuticals)|
-|clopidogrel v1|snomed|10485911000001106|Plavix 75mg tablets (Dowelhurst Ltd)|
-|clopidogrel v1|snomed|18063411000001105|Plavix 75mg tablets (Lexon (UK) Ltd)|
-|clopidogrel v1|snomed|17419511000001109|Plavix 75mg tablets (Mawdsley-Brooks & Company Ltd)|
-|clopidogrel v1|snomed|17620011000001103|Plavix 75mg tablets (Necessity Supplies Ltd)|
-|clopidogrel v1|snomed|454611000001104|Plavix 75mg tablets (Sanofi)|
-|clopidogrel v1|snomed|14721411000001102|Plavix 75mg tablets (Sigma Pharmaceuticals Plc)|
-|clopidogrel v1|snomed|5400911000001107|Plavix 75mg tablets (Waymade Healthcare Plc)|
-|clopidogrel v1|snomed|15907411000001101|Grepid 75mg tablets (Kent Pharmaceuticals Ltd)|
