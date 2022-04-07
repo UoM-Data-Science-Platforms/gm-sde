@@ -14,7 +14,7 @@ const includedSqlFiles = [];
 const includedSqlFilesSoFar = {};
 let isProjectDirectory = false;
 
-const stitch = (projectDirectory) => {
+const stitch = async (projectDirectory) => {
   console.log(`Finding templates in ${join(projectDirectory, TEMPLATE_SQL_DIR)}...`);
   const templates = findTemplates(projectDirectory);
 
@@ -44,7 +44,7 @@ Stitching them together...
 `);
 
   // Generate sql to execute on server
-  generateSql(projectDirectory, templates);
+  await generateSql(projectDirectory, templates);
 
   if (isProjectDirectory) {
     const readmeMarkdown = join(projectDirectory, `${README_NAME}.md`);
@@ -82,10 +82,10 @@ function warnIfNoTemplatesFound(project, templates) {
   }
 }
 
-function generateSql(project, templates) {
+async function generateSql(project, templates) {
   const OUTPUT_DIRECTORY = join(project, EXTRACTION_SQL_DIR);
   const allCodeSets = {};
-  templates.forEach((templateName) => {
+  for (const templateName of templates) {
     const filename = join(project, TEMPLATE_SQL_DIR, templateName);
     const { sql, codeSets } = processFile(filename);
 
@@ -97,13 +97,13 @@ function generateSql(project, templates) {
       }
     });
 
-    let codeSetSql = codeSets.length > 0 ? createCodeSetSQL(codeSets) : '';
+    let codeSetSql = await (codeSets.length > 0 ? createCodeSetSQL(codeSets) : '');
     const outputName = templateName.replace('.template', '');
 
     const finalSQL = sql.replace(CODESET_MARKER, codeSetSql);
 
     writeFileSync(join(OUTPUT_DIRECTORY, outputName), finalSQL);
-  });
+  }
 
   if (isProjectDirectory) {
     const flattenedCodeSets = Object.keys(allCodeSets)

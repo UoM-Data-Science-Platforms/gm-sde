@@ -1,0 +1,3 @@
+42A..00	Mean corpuscular volume (MCV)
+42A..11	Mean cell volume
+42AZ.00	 MCV - NOS

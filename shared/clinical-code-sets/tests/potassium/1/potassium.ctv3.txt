@@ -1,0 +1,4 @@
+44I4.	Serum potassium (& level)
+XaDvZ	Blood potassium level
+XaIRl	Plasma potassium level
+XE2pz	Serum potassium level

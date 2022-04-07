@@ -1,0 +1,5 @@
+42TZ.	Serum vitamin B12 NOS
+XE2pf	Serum vitamin B12 level
+X76tA	Vitamin B12 level  
+XaJ27	Plasma vitamin B12 level
+42T..	Serum vitamin B12 (& level)

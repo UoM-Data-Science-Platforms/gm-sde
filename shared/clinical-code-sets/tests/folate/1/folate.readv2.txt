@@ -1,0 +1,3 @@
+42U4.	Red blood cell folate
+42U5.	Serum folate
+42UE.	Plasma folate level

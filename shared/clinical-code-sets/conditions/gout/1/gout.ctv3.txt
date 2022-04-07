@@ -1,0 +1,11 @@
+XabbG	Acute exacerbation of gout 
+C34z.	Gout NOS 
+C34yz	Other specified gouty manifestation NOS
+X40UW	Primary gout 
+X702o	Secondary gout 
+X702q	Gout secondary to drug 
+X702s	Gout secondary to enzyme defect 
+X702r	Gout secondary to lead 
+X702p	Gout secondary to renal impairment 
+XM19g	[EDTA] Gout associated with renal failure
+Nyu17	Other secondary gout 
