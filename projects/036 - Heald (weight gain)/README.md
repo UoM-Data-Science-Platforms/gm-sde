@@ -852,7 +852,7 @@ LINK: [https://github.com/rw251/.../tests/vitamin-d/1](https://github.com/rw251/
 
 ### Testosterone (level)
 
-A patient's testosterone level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`4473.00 - Serum testosterone`). It does not include codes that indicate a patient's BMI (`4473100 - Serum testosterone level abnormal`) without giving the actual value.
+A patient's testosterone level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`4473.00 - Serum testosterone`). It does not include codes that indicate a patient's testosterone level (`4473100 - Serum testosterone level abnormal`) without giving the actual value.
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.91% - 6.24%` suggests that this code set is likely well defined.
@@ -2670,7 +2670,6 @@ All code sets required for this analysis are listed here. Individual lists for e
 |antipsychotics v1|ctv3|d4rt.|OLANZAPINE 20mg tablets|
 |antipsychotics v1|ctv3|d4ru.|Olanzapine 20mg dispersible tablet|
 |antipsychotics v1|ctv3|d4r7.|Olanzapine 2.5mg tablet|
-|antipsychotics v1|ctv3|XSFNe|Olanzapine level|
 |antipsychotics v1|ctv3|d4rx.|Olanzapine 15mg tablet|
 |antipsychotics v1|ctv3|d4rw.|Olanzapine 15mg dispersible tablet|
 |antipsychotics v1|ctv3|d58x.|OLANZAPINE 405mg powder+solvent for suspension for injection|
@@ -2843,7 +2842,6 @@ All code sets required for this analysis are listed here. Individual lists for e
 |antipsychotics v1|ctv3|x02rk|Sulparex|
 |antipsychotics v1|ctv3|d4f..|Sulpiride|
 |antipsychotics v1|ctv3|d4fz.|Sulpiride 200mg tablet|
-|antipsychotics v1|ctv3|XabBt|Serum sulpiride level|
 |antipsychotics v1|ctv3|d4fx.|Sulpiride 400mg tablet|
 |antipsychotics v1|ctv3|d4fw.|Sulpiride 200mg/5mL oral solution|
 |antipsychotics v1|ctv3|d4fy.|Sulpiride 200mg/5mL s/f oral solution|

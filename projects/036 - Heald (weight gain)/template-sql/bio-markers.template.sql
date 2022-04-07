@@ -184,5 +184,6 @@ WHERE (
 );
 
 -- Final output
-SELECT * FROM #biomarkers
+SELECT FK_Patient_Link_ID AS PatiendId, Label, EventDate, [Value]
+FROM #biomarkers
 ORDER BY FK_Patient_Link_ID, EventDate;
