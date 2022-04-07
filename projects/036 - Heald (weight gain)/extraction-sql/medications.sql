@@ -2,7 +2,9 @@
 --│ Biomarker file │
 --└────────────────┘
 
------------------------- RDE CHECK -------------------------
+----------------------- RDE CHECK ---------------------
+-- George Tilston  - 7 April 2022 - via pull request --
+-------------------------------------------------------
 
 -- Cohort is patients diagnosed with FEP, Schizophrenia, Bipolar affective disorder
 -- or psychotic depression. The below queries produce the data that is required for

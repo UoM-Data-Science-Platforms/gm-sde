@@ -2,9 +2,9 @@
 --│ Diabetes and COVID cohort file │
 --└────────────────────────────────┘
 
------------------------- RDE CHECK -------------------------
---
-------------------------------------------------------------
+----------------------- RDE CHECK ---------------------
+-- George Tilston  - 7 April 2022 - via pull request --
+-------------------------------------------------------
 
 -- Cohort is patients diagnosed with severe mental illness.
 
