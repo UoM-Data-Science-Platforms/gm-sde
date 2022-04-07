@@ -17,4 +17,6 @@ const setSilence = (shouldBeSilent) => {
   isSilent = shouldBeSilent;
 };
 
-module.exports = { log, warn, error, setSilence };
+const getSilence = () => isSilent;
+
+module.exports = { log, warn, error, setSilence, getSilence };
