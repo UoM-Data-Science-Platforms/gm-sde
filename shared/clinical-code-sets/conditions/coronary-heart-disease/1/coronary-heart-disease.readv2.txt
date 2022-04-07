@@ -112,6 +112,7 @@ G381.00	Postoperative transmural myocardial infarction inferior wall
 14AH.00	H/O: Myocardial infarction in last year
 G311z00	Preinfarction syndrome NOS
 G33z100	Stenocardia
+G311000	Myocardial infarction aborted
 G311011	MI - myocardial infarction aborted
 14AJ.00	H/O: Angina in last year
 G363.00	Ruptur cardiac wall w'out haemopericard/cur comp fol ac MI

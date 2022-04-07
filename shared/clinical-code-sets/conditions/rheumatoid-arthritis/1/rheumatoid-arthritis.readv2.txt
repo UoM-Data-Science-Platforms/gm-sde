@@ -50,6 +50,7 @@ N045300	Juvenile arthritis in Crohn's disease
 N004.00	Polymyositis
 N001100	CREST syndrome
 N040Q00	Rheumatoid bursitis
+N04..00	Rheumatoid arthritis with other inflammatory polyarthropathies
 N04..11	Inflammatory polyarthropathy
 N043200	Pauciarticular juvenile rheumatoid arthritis
 N04yz00	Other specified inflammatory polyarthropathy NOS

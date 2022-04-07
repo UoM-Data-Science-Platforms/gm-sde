@@ -1,4 +1,5 @@
 8H2R.00	Admit COPD emergency
+9kf0.00	Chronic obstructive pulmonary disease patient unsuitable for pulmonary rehabilitation
 9kf0.11	Chronic obstructive pulmonary disease patient unsuitable for pulmonary rehabilitation
 H3...00	Chronic obstructive pulmonary disease
 H3...11	Chronic obstructive airways disease
