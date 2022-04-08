@@ -1,0 +1,11 @@
+PD11.	Polycystic kidney disease
+PD11z	Polycystic kidney disease NOS or cystic kidney disease NEC
+PD111	Autosomal dominant polycystic kidney disease 
+X785n	Adult type polycystic kidney disease type 1 
+X785o	Adult type polycystic kidney disease type II 
+X785p	Autosomal dominant polycystic kidney disease in childhood 
+XM19L	[EDTA] Polycystic kidneys, adult type (dominant) associated with renal failure
+PD110	Autosomal recessive polycystic kidney disease 
+XM19K	[EDTA] Polycystic kidneys, infantile (recessive) associated with renal failure  
+X785m	Cystic kidney disease NEC 
+XE1LN	Polycystic kidney disease NOS 

@@ -1,0 +1,9 @@
+90708001	(Polycystic kidney disease NOS) or (cystic kidney disease NEC)
+90688005	[EDTA] Polycystic kidneys, infantile (recessive) associated with renal failure
+253880009	Autosomal dominant polycystic kidney disease in childhood
+765330003	Autosomal dominant polycystic kidney disease
+236439005	Cystic kidney disease NEC
+28770003	Infantile polycystic kidney disease
+82525005	PCK - Polycystic kidney disease
+253878003	PKD1 - Polycystic kidney disease 1
+253879006	PKD2 - Polycystic kidney disease 2

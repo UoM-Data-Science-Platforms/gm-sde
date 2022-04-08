@@ -1,0 +1,4 @@
+PD11z00	Polycystic kidney disease NOS
+PD11.00	Polycystic kidney disease
+PD11100	Polycystic kidneys, adult type
+PD11000	Polycystic kidneys, infantile type
