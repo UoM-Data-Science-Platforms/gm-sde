@@ -1,0 +1,57 @@
+bxkx.	ROSUVASTATIN 10mg tablets
+bxky.	ROSUVASTATIN 20mg tablets
+bxkz.	ROSUVASTATIN 40mg tablets
+bxkw.	ROSUVASTATIN 5mg tablets
+bxd1.	SIMVASTATIN 10mg tablets
+bxd2.	SIMVASTATIN 20mg tablets
+bxdu.	SIMVASTATIN 20mg/5mL oral suspension
+bxdy.	SIMVASTATIN 20mg/EZETIMIBE 10mg tablets
+bxd5.	SIMVASTATIN 40mg tablets
+bxdv.	SIMVASTATIN 40mg/5mL oral suspension
+bxdx.	SIMVASTATIN 40mg/EZETIMIBE 10mg tablets
+bxdz.	SIMVASTATIN 80mg tablets
+bxdw.	SIMVASTATIN 80mg/EZETIMIBE 10mg tablets
+bxi9.	ATORVASTATIN 10mg chewable tablets
+bxiB.	ATORVASTATIN 20mg chewable tablets
+bxiy.	ATORVASTATIN 60mg tablets
+bxj1.	CERIVASTATIN SODIUM 100micrograms tablets
+bxj2.	CERIVASTATIN SODIUM 200micrograms tablets
+bxj7.	CERIVASTATIN SODIUM 400micrograms tablets
+bxgz.	FLUVASTATIN 80mg m/r tablets
+bxe5.	PRAVASTATIN SODIUM 10mg tablets
+bxe6.	PRAVASTATIN SODIUM 20mg tablets
+bxe7.	PRAVASTATIN SODIUM 40mg tablets
+bxk1.	CRESTOR 10mg tablets
+bxk2.	CRESTOR 20mg tablets
+bxk3.	CRESTOR 40mg tablets
+bxk4.	CRESTOR 5mg tablets
+bxcA.	FENOFIBRATE 160mg m/r tablets
+bxc4.	FENOFIBRATE 200mg capsules
+bxc8.	FENOFIBRATE 267mg capsules
+bxc6.	FENOFIBRATE 67mg capsules
+bxcC.	FENOFIBRATE MICRO 200mg capsules
+bxdH.	INEGY 10mg/20mg tablets
+bxdI.	INEGY 10mg/40mg tablets
+bxg5.	LESCOL XL 80mg m/r tablets
+bxi8.	LIPITOR 10mg chewable tablets
+bxi4.	LIPITOR 10mg tablets
+bxiA.	LIPITOR 20mg chewable tablets
+bxi5.	LIPITOR 20mg tablets
+bxi6.	LIPITOR 40mg tablets
+bxi7.	LIPITOR 80mg tablets
+bxe3.	LIPOSTAT 10mg tablets
+bxe4.	LIPOSTAT 20mg tablets
+bxe8.	LIPOSTAT 40mg tablets
+bxdA.	SIMVADOR 10mg tablets
+bxdB.	SIMVADOR 20mg tablets
+bxdC.	SIMVADOR 40mg tablets
+bxdK.	SIMVADOR 80mg tablets
+bxd7.	ZOCOR 10mg tablets
+bxd6.	ZOCOR 40mg tablets
+bxg8.	DORISIN XL 80mg tablets
+bxg6.	LUVINSTA XL 80mg m/r tablets
+bxg9.	NANDOVAR XL 80mg m/r tablets
+bxdD.	Ranzolont 10mg tablet
+bxdE.	Ranzolont 20mg tablet
+bxdF.	Ranzolont 40mg tablet
+bxg7.	STEFLUVIN XL 80mg m/r tablets

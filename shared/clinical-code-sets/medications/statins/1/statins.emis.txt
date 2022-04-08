@@ -1,0 +1,75 @@
+ATCH52120NEMIS	Atorvastatin  Chewable Tablets Sugar Free  10 mg
+ATCH52123NEMIS	Atorvastatin  Chewable Tablets Sugar Free  20 mg
+ATOR45703NEMIS	Atorvastatin  Oral solution  10 mg/5 ml
+ATOR46710NEMIS	Atorvastatin  Oral solution  20 mg/5 ml
+ATOR21782NEMIS	Atorvastatin  Oral suspension  20 mg/5 ml
+ATTA73968NEMIS	Atorvastatin  Tablets  30 mg
+ATTA73969NEMIS	Atorvastatin  Tablets  60 mg
+CETA30765EMIS	Cerivastatin  Tablets  100 micrograms
+CETA30766EMIS	Cerivastatin  Tablets  200 micrograms
+CETA30767EMIS	Cerivastatin  Tablets  300 micrograms
+CETA1911NEMIS	Cerivastatin  Tablets  400 micrograms
+CETA6645NEMIS	Cerivastatin  Tablets  800 micrograms
+EZTA20280NEMIS	Ezetimibe And Simvastatin  Tablets  10 mg + 20 mg
+EZTA20281NEMIS	Ezetimibe And Simvastatin  Tablets  10 mg + 40 mg
+EZTA20282NEMIS	Ezetimibe And Simvastatin  Tablets  10 mg + 80 mg
+FETA111758NEMIS	Fenofibrate And Simvastatin  Tablets  145 mg + 20 mg
+FLTA5289NEMIS	Fluvastatin  M/R tablets  80 mg
+FECA1203NEMIS	Fenofibrate  Capsules  (Micronised) 267 mg
+FECA31990EMIS	Fenofibrate  Capsules  (Micronised) 67 mg
+FECA24144EMIS	Fenofibrate  Capsules  200 mg
+FECA18893NEMIS	Fenofibrate  Capsules (Micronised)  200 mg
+FETA5643NEMIS	Fenofibrate  Tablets  (Micronised) 160 mg
+FETA111758NEMIS	Fenofibrate And Simvastatin  Tablets  145 mg + 20 mg
+CRTA15074NEMIS	Crestor  Tablets  10 mg
+CRTA15075NEMIS	Crestor  Tablets  20 mg
+CRTA15076NEMIS	Crestor  Tablets  40 mg
+CRTA21336NEMIS	Crestor  Tablets  5 mg
+CHTA111761NEMIS	Cholib  Tablets  145 mg + 20 mg
+INTA20284NEMIS	Inegy  Tablets  10 mg/20 mg
+INTA20285NEMIS	Inegy  Tablets  10 mg/40 mg
+INTA20286NEMIS	Inegy  Tablets  10 mg/80 mg
+LECA24121EMIS	Lescol  Capsules  20 mg
+LECA24122EMIS	Lescol  Capsules  40 mg
+LETA5290NEMIS	Lescol Xl  M/R tablets  80 mg
+LICH52125NEMIS	Lipitor  Chewable tablets  10 mg
+LICH52126NEMIS	Lipitor  Chewable tablets  20 mg
+LITA30124EMIS	Lipitor  Tablets  10 mg
+LITA30125EMIS	Lipitor  Tablets  20 mg
+LITA30126EMIS	Lipitor  Tablets  40 mg
+LITA6254NEMIS	Lipitor  Tablets  80 mg
+LITA10719BRIDL	Lipostat  Tablets  10 mg
+LITA10721BRIDL	Lipostat  Tablets  20 mg
+LITA30703EMIS	Lipostat  Tablets  40 mg
+PROR81506NEMIS	Pravastatin  Oral solution  5 mg/5 ml
+PROR43659NEMIS	Pravastatin  Oral suspension  40 mg/5 ml
+PRTA10455HILLI	Pravastatin  Tablets  10 mg
+PRTA10456HILLI	Pravastatin  Tablets  20 mg
+PRTA30705EMIS	Pravastatin  Tablets  40 mg
+RATA18273NEMIS	Ranzolont  Tablets  40 mg
+ROTA15069NEMIS	Rosuvastatin  Tablets  10 mg
+ROTA15071NEMIS	Rosuvastatin  Tablets  20 mg
+ROTA15072NEMIS	Rosuvastatin  Tablets  40 mg
+ROTA21335NEMIS	Rosuvastatin  Tablets  5 mg
+SITA16195NEMIS	Simvador  Tablets  10 mg
+SITA16196NEMIS	Simvador  Tablets  20 mg
+SITA16197NEMIS	Simvador  Tablets  40 mg
+SITA34996NEMIS	Simvador  Tablets  80 mg
+SIOR45597NEMIS	Simvastatin  Oral solution  20 mg/5 ml
+SIOR45598NEMIS	Simvastatin  Oral solution  40 mg/5 ml
+SIOR20422NEMIS	Simvastatin  Oral suspension  20 mg/5 ml
+SIOR25476NEMIS	Simvastatin  Oral suspension  40 mg/5 ml
+SIOR44785NEMIS	Simvastatin  Oral Suspension (Sugar-Free)  20 mg/5 ml
+SIOR44786NEMIS	Simvastatin  Oral Suspension (Sugar-Free)  40 mg/5 ml
+SITA10076BRIDL	Simvastatin  Tablets  10 mg
+SITA10078BRIDL	Simvastatin  Tablets  20 mg
+SITA29406EMIS	Simvastatin  Tablets  40 mg
+SITA3663NEMIS	Simvastatin  Tablets  80 mg
+ZOTA8622EGTON	Zocor  Tablets  10 mg
+ZOTA8623EGTON	Zocor  Tablets  20 mg
+ZOTA29404EMIS	Zocor  Tablets  40 mg
+ZOTA3664NEMIS	Zocor  Tablets  80 mg
+STM/44675NEMIS	Stefluvin Xl  M/R tablets  80 mg
+NAM/86955NEMIS	Nandovar Xl  M/R tablets  80 mg
+LUM/35734NEMIS	Luvinsta Xl  M/R tablets  80 mg
+DOM/43668NEMIS	Dorisin Xl  M/R tablets  80 mg
