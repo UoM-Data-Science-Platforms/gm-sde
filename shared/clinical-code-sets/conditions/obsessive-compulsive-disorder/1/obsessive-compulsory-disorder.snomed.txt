@@ -1,0 +1,9 @@
+191736004	Obsessive-compulsive disorder 
+191737008	Compulsive neurosis 
+191738003	Obsessional neurosis  
+724693000	Obsessive compulsive disorder caused by cocaine (disorder)
+724730008	Obsessive compulsive disorder caused by psychoactive substance (disorder) 
+762516004	Obsessive compulsive disorder caused by synthetic cathinone (disorder)
+192014006	Psychogenic rumination
+723913009	Olfactory reference disorder
+ 

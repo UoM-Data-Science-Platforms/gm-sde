@@ -1,0 +1,10 @@
+E203.	Obsessive-compulsive disorder 
+E2030	Compulsive neurosis 
+E2031	Obsessional neurosis  
+E203z	Obsessive-compulsive disorder NOS 
+E2753	Psychogenic rumination  
+Eu422	[X]Mixed obsessional thoughts and acts  
+Eu42z	[X]Obsessive-compulsive disorder, unspecified  
+Eu42y	[X]Other obsessive-compulsive disorders  
+Eu421	[X]Predominantly compulsive acts [obsessional rituals]  
+Eu420	[X]Predominantly obsessional thoughts or ruminations  
