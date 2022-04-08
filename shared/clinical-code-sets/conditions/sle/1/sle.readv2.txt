@@ -1,0 +1,20 @@
+F3710	Polyneuropathy in disseminated lupus erythematosus
+F3961	Myopathy due to disseminated lupus erythematosus
+F4D33	Eyelid discoid lupus erythematosus
+H57y4	Lung disease with systemic lupus erythematosus
+K01x4	Lupus nephritis
+K01x4	Nephrotic syndrome in systemic lupus erythematosus
+M154.	Lupus erythematosus
+M1540	Lupus erythematosus chronicus
+M1541	Discoid lupus erythematosus
+M1542	Lupus erythematosus migrans
+M1543	Lupus erythematosus nodularis
+M1544	Lupus erythematosus profundus
+M1545	Lupus erythematosus tumidus
+M1546	Lupus erythematosus unguium mutilans
+M154z	Lupus erythematosus NOS
+Myu78	[X]Other local lupus erythematosus
+N000.	Systemic lupus erythematosus
+N0002	Drug-induced systemic lupus erythematosus
+N000z	Systemic lupus erythematosus NOS
+Nyu43	[X]Other forms of systemic lupus erythematosus
