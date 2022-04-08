@@ -243,6 +243,7 @@ Eu25z00	"[X]Schizoaffective disorder, unspecified"
 Eu25z11	[X]Schizoaffective psychosis NOS
 Eu2y.00	[X]Other nonorganic psychotic disorders
 Eu2y.11	[X]Chronic hallucinatory psychosis
+Eu2z.00	[X]Unspecified nonorganic psychosis
 Eu2z.11	[X]Psychosis NOS
 Eu30200	[X]Mania with psychotic symptoms
 Eu30211	[X]Mania with mood-congruent psychotic symptoms
