@@ -148,7 +148,7 @@ Eu20512	[X]Restzustand schizophrenic
 Eu20y11	[X]Cenesthopathic schizophrenia
 Eu23111	[X]Bouffee delirante with symptoms of schizophrenia
 Eu60012	[X]Fanatic paranoid personality disorder
-ZS7C611	#N/A
+ZS7C611	Schizophrenic language
 13Y2.00	Schizophrenia association member
 1464.00	H/O: schizophrenia
 146H.00	H/O: psychosis
