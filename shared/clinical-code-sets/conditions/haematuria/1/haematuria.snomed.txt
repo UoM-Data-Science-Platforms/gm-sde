@@ -1,0 +1,51 @@
+53298000	Hematuria syndrome (disorder) 
+34436003	Blood in urine (finding) 
+86208007	Loin pain-hematuria syndrome (disorder)
+20407004	Benign hematuria 
+236718002	Chemical hematuria 
+399094007	Familial hematuria 
+197941005	Frank hematuria 
+197942003	Clot hematuria 
+281855006	Persistent frank hematuria 
+281856007	Recurrent frank hematuria 
+367171000119100	Hematuria co-occurrent and due to cystitis 
+366941000119107	Hematuria co-occurrent and due to acute cystitis 
+368971000119101	Hematuria co-occurrent and due to chronic cystitis 
+367661000119102	Hematuria co-occurrent and due to chronic interstitial cystitis 
+368371000119102	Hematuria co-occurrent and due to trigonitis 
+367671000119108	Hematuria co-occurrent and due to irradiation cystitis 
+719551008	Hematuria due to radiation cystitis 
+314280007	Hematuria of undiagnosed cause 
+197940006	Microscopic hematuria 
+16698651000119100	Asymptomatic microscopic hematuria 
+367011000119109	Benign essential microscopic hematuria 
+281857003	Persistent microscopic hematuria 
+281858008	Recurrent microscopic hematuria 
+197939009	Painful hematuria 
+197938001	Painless hematuria 
+281859000	Persistent hematuria 
+281855006	Persistent frank hematuria 
+714814006	Persistent hematuria co-occurrent and due to dense deposit disease 
+714816008	Persistent hematuria co-occurrent and due to diffuse crescentic glomerulonephritis 
+714818009	Persistent hematuria co-occurrent and due to diffuse endocapillary proliferative glomerulonephritis 
+714822004	Persistent hematuria co-occurrent and due to diffuse membranous glomerulonephritis 
+714826001	Persistent hematuria co-occurrent and due to diffuse mesangial proliferative glomerulonephritis 
+714820007	Persistent hematuria co-occurrent and due to diffuse mesangiocapillary glomerulonephritis 
+714828000	Persistent hematuria co-occurrent and due to focal and segmental glomerular lesions 
+714824003	Persistent hematuria co-occurrent and due to minor glomerular abnormality 
+281857003	Persistent microscopic hematuria 
+281860005	Recurrent hematuria 
+197627003	Recurrent benign hematuria syndrome 
+281856007	Recurrent frank hematuria 
+714813000	Recurrent hematuria co-occurrent and due to dense deposit disease 
+714815007	Recurrent hematuria co-occurrent and due to diffuse crescentic glomerulonephritis 
+714817004	Recurrent hematuria co-occurrent and due to diffuse endocapillary proliferative glomerulonephritis 
+714821006	Recurrent hematuria co-occurrent and due to diffuse membranous glomerulonephritis 
+714825002	Recurrent hematuria co-occurrent and due to diffuse mesangial proliferative glomerulonephritis 
+714819001	Recurrent hematuria co-occurrent and due to diffuse mesangiocapillary glomerulonephritis 
+714827005	Recurrent hematuria co-occurrent and due to focal and segmental glomerular lesions 
+714823009	Recurrent hematuria co-occurrent and due to minor glomerular abnormality 
+281858008	Recurrent microscopic hematuria 
+371020003	Renal hematuria 
+7724006	Nephritic syndrome 
+236717007	Upper urinary tract hematuria 

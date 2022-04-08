@@ -1,0 +1,3 @@
+EMISNQRE95	Referred to haematuria clinic
+EMISNQSE31	Seen in haematuria clinic
+EMISNQHA60	Haematuria associated with urinary catheter

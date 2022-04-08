@@ -1,0 +1,43 @@
+14D5.	H/O: haematuria
+1A45.	Blood in urine (& symptom)
+4625	Urine: red - blood
+4693	Urine: trace non-haemol. blood
+4694	Urine: trace haemolysed blood
+46G2.	Urine microscopy blood cells present: (& RBC)
+K0321	Recurrent benign haematuria syndrome
+K0A2.	Recurrent and persistent haematuria
+K0A20	Recurrent and persistent haematuria, minor glomerular abnormality
+K0A21	Recurrent and persistent haematuria, focal and segmental glomerular lesions
+K0A22	Recurrent and persistent haematuria, diffuse membranous glomerulonephritis
+K0A23	Recurrent and persistent haematuria, diffuse mesangial proliferative glomerulonephritis
+K0A24	Recurrent and persistent haematuria, diffuse endocapillary proliferative glomerulonephritis
+K0A25	Recurrent and persistent haematuria, diffuse mesangiocapillary glomerulonephritis
+K0A26	Recurrent and persistent haematuria, dense deposit disease
+K0A27	Recurrent and persistent haematuria, diffuse crescentic glomerulonephritis
+K197.	Traumatic haematuria
+K1970	Painless haematuria
+K1971	Painful haematuria
+K1972	Microscopic haematuria
+K1973	Frank haematuria
+K1974	Clot haematuria
+X30Ih	Benign familial haematuria
+X30Pw	Traumatic haematuria
+X30Px	Loin pain - haematuria syndrome
+X30Pz	Upper urinary tract haematuria
+X30Q0	Chemical haematuria
+Xa04u	Blood in urine
+Xa1cp	RBCs- red blood cells in urine
+Xa1uI	Persistent frank haematuria
+Xa1uJ	Recurrent frank haematuria
+Xa1uK	Persistent microscopic haematuria
+Xa1uL	Recurrent microscopic haematuria
+Xa1uM	Persistent haematuria
+Xa1uN	Recurrent haematuria
+Xaafu	Referral to haematuria clinic
+XaB5q	Haematuria NOS
+XE0e5	Essential haematuria
+XE0rU	Blood in urine - haematuria
+XE0ul	Blood - urine - symptom
+XE0un	Blood in urine - haematuria
+8T10.	Referral to haematuria clinic
+K1975	Benign familial haematuria
