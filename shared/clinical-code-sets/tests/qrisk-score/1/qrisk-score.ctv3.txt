@@ -1,0 +1,3 @@
+XaPBq	QRISK cardiovascular disease 10 year risk score
+XaQVY	QRISK2 cardiovascular disease 10 year risk score
+XagSa	QRISK3 cardiovascular disease 10 year risk calculator score

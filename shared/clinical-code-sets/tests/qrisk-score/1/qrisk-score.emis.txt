@@ -1,0 +1,2 @@
+EMISNQQR1	QRISK cardiovascular disease (CVD) 10 year risk score
+^ESCTQR846384	QRISK3 cardiovascular disease 10 year risk calculator score
