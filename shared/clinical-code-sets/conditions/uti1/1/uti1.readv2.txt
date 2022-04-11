@@ -1,0 +1,26 @@
+1AG..00	Recurrent urinary tract infections
+1J4..00	Suspected UTI
+K15..00	Cystitis
+K150.00	Acute cystitis
+K155.00	Recurrent cystitis
+K15z.00	Cystitis NOS
+K190.00	Urinary tract infection, site not specified
+K190.11	Recurrent urinary tract infection
+K190000	Bacteriuria, site not specified
+K190011	Asymptomatic bacteriuria
+K190200	Post operative urinary tract infection
+K190300	Recurrent urinary tract infection
+K190311	Recurrent UTI
+K190500	Urinary tract infection
+K190z00	Urinary tract infection, site not specified NOS
+L166.00	Genitourinary tract infections in pregnancy
+L166.11	Cystitis of pregnancy
+L166000	Genitourinary tract infection in pregnancy unspecified
+L166100	Genitourinary tract infection in pregnancy - delivered
+L166500	Infections of kidney in pregnancy
+L166600	Urinary tract infection following delivery
+L166800	Urinary tract infection complicating pregnancy
+L166z00	Genitourinary tract infection in pregnancy NOS
+L166z11	UTI - urinary tract infection in pregnancy
+SP07Q00	Catheter-associated urinary tract infection
+SP07Q11	CAUTI - catheter-associated urinary tract infection

@@ -1,0 +1,4 @@
+X7726	Parathyroid hormone level
+XaIdU	Plasma parathyroid hormone level
+XE2xc	Serum parathyroid hormone level
+XE28A	Serum parathyroid hormone (& level (& serum))

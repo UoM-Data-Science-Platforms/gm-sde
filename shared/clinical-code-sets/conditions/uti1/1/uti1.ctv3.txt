@@ -1,0 +1,12 @@
+K15..	Inflammation of bladder
+K155.	Recurrent cystitis
+K15z.	Cystitis NOS
+K190.	Urinary tract infection: [site not specified] or [recurrent]
+K1900	Bacteriuria: [site not specified] or [asymptomatic]
+K1902	Postoperative urinary tract infection
+K1903	Recurrent urinary tract infection
+K190z	Urinary tract infection, site not specified NOS
+L1660	Genitourinary tract infection in pregnancy unspecified
+L1661	Genitourinary tract infection in pregnancy - delivered
+L1665	Infections of kidney in pregnancy
+L1666	Urinary tract infection following delivery

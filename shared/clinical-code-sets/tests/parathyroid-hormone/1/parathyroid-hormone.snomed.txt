@@ -1,0 +1,4 @@
+3352000	Parathyroid hormone level
+1013021000000104	Plasma parathyroid hormone level
+997221000000109	Serum parathyroid hormone level
+271541003	Serum parathyroid hormone (& level (& serum))

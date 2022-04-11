@@ -1,0 +1,12 @@
+38822007	Cystitis NOS
+61373006	Bacteriuria, site not specified
+68566005	Urinary tract infection, site not specified NOS
+197853008	Recurrent cystitis
+197924008	Urinary tract infection: [site not specified] or [recurrent]
+197926005	Post operative urinary tract infection
+197927001	Recurrent UTI - urinary tract infection
+199106001	Genitourinary tract infection in pregnancy - delivered
+199110003	Infections of kidney in pregnancy
+199111004	Urinary tract infection following delivery
+267204006	Genitourinary tract infection in pregnancy unspecified
+720406004	Asymptomatic bacteriuria
