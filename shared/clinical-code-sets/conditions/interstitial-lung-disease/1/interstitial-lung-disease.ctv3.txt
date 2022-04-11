@@ -1,0 +1,15 @@
+23E5.	O/E - fibrosis of lung present
+AD52.	Sarcoidosis of lung with sarcoidosis of lymph nodes
+H563.	(Fibros alveolitis: [idiopath][cryptog]) or (Hamm-Rich synd)
+H5631	Diffuse interstitial pulmonary fibrosis
+H563z	Idiopathic fibrosing alveolitis NOS
+H57y2	Pulmonary sarcoidosis
+X102u	Pulmonary fibrosis
+X102v	Usual interstitial pneumonitis
+X102v	Usual interstitial pneumonitis
+X1043	Stage 1 pulmonary sarcoidosis
+X1044	Stage 2 pulmonary sarcoidosis
+X1045	Stage 3 pulmonary sarcoidosis
+X1046	Stage 4 pulmonary sarcoidosis
+X1048	Necrotising sarcoid granulomatosis
+XaXlE	Respiratory bronchiolitis associated interstitial lung dis
