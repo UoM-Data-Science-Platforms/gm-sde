@@ -1,5 +1,6 @@
 # Allergy codes
 
+This list contains any code that indicates a diagnosis of an allergy.
 Developed from https://getset.ga.
 
 ## Prevalence log
