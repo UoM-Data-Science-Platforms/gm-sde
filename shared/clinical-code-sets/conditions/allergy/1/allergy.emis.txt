@@ -1,0 +1,7 @@
+ESCTAL5	Allergy to tomato
+^ESCTAL769611	Allergy to hazelnut
+EMISNQAL32	Allergy to kiwi fruit
+EMISNQAL33	Allergy to rice
+ESCTAL5	Allergy to tomato
+ESCTAL7	Allergy to pineapple
+ESCTAL8	Allergy to pork
