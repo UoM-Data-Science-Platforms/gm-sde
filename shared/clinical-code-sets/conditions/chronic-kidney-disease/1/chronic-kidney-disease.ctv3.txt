@@ -1,0 +1,48 @@
+﻿X30In	Chronic kidney disease
+XaLHG	Chronic kidney disease stage 1
+XaLHH	Chronic kidney disease stage 2
+XaLHI	Chronic kidney disease stage 3
+XaLHJ	Chronic kidney disease stage 4
+XaLHK	Chronic kidney disease stage 5
+Xac9y	CKD G1A1 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A1
+Xac9z	CKD G1A2 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A2
+XacA2	CKD G1A3 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A3
+XacA4	CKD G2A1 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A1
+XacA6	CKD G2A2 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A2
+XacA9	CKD G2A3 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A3
+XacAM	CKD G3aA1 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A1
+XacAN	CKD G3aA2 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A2
+XacAO	CKD G3aA3 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A3
+XacAV	CKD G3bA1 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A1
+XacAW	CKD G3bA2 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A2
+XacAX	CKD G3bA3 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A3
+XacAb	CKD G4A1 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A1
+XacAd	CKD G4A2 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A2
+XacAe	CKD G4A3 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A3
+XacAf	CKD G5A1 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A1
+XacAh	CKD G5A2 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A2
+XacAi	CKD G5A3 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A3
+XaO3p	Chronic kidney disease stage 1 with proteinuria
+XaO3s	Chronic kidney disease stage 2 without proteinuria
+XaNbn	Chronic kidney disease stage 3A
+XaNbo	Chronic kidney disease stage 3B
+XaO3t	Chronic kidney disease stage 3 with proteinuria
+XaO3u	Chronic kidney disease stage 3 without proteinuria
+XaO40	Chronic kidney disease stage 4 without proteinuria
+XaO3w	Chronic kidney disease stage 3A without proteinuria
+XaO3x	Chronic kidney disease stage 3B with proteinuria
+XaO3y	Chronic kidney disease stage 3B without proteinuria
+XaMFs	Chronic kidney disease monitoring administration
+XaMFt	Chronic kidney disease monitoring first letter
+XaMFu	Chronic kidney disease monitoring second letter
+XaMFv	Chronic kidney disease monitoring third letter
+XaMFw	Chronic kidney disease monitoring verbal invite
+XaMFx	Chronic kidney disease monitoring telephone invite
+XaMLh	Predicted stage chronic kidney disease
+X30J0	ESCRF - End stage chronic renal failure
+XaO3q	Chronic kidney disease stage 1 without proteinuria
+XaO3r	Chronic kidney disease stage 2 with proteinuria
+XaO3v	Chronic kidney disease stage 3A with proteinuria
+XaO3z	Chronic kidney disease stage 4 with proteinuria
+XaO41	Chronic kidney disease stage 5 with proteinuria
+XaO42	Chronic kidney disease stage 5 without proteinuria
