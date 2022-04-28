@@ -1,0 +1,210 @@
+13H7.	Unwanted: [pregnancy] or [child]
+12G2.	FH: Diabetes in pregnancy
+465Z.	Urine pregnancy test NOS
+12G1.	FH: Raised B.P. in pregnancy
+465..	Urine pregnancy test
+621..	Patient currently pregnant
+154Z.	Past pregnancy outcome NOS
+445Z.	Serum pregnancy test NOS
+154..	Past: [pregnancy outcome] or [H/O: delivery]
+445..	Serum pregnancy test (B-HCG)
+584D.	Antenatal ultrasound confirms intrauterine pregnancy
+13SZ.	Pregnancy benefit NOS
+67A..	Pregnancy advice
+62H3.	Rhesus screening - 1st pregnancy sample
+621B.	Pregnant - ? planned
+624..	A/N care: precious pregnancy
+62...	(Patient pregnant) or (pregnancy care [& antenatal])
+8M6..	Requests pregnancy termination
+584F.	Antenatal scan unable to confirm pregnancy
+584E.	Antenatal ultrasound confirms ectopic pregnancy
+67A7.	Pregnancy dental advice
+67A5.	Pregnancy alcohol advice
+676..	Pre-pregnancy counselling
+67A6.	Drugs in pregnancy advice
+62H4.	Rhesus screening - 2nd pregnancy sample
+L010.	Blighted ovum
+621A.	Pregnancy unplanned ? wanted
+67A2.	Dietary education for pregnancy
+L0...	Pregnancy with abortive outcome
+L030.	Abdominal pregnancy
+8B74.	Iron supplement in pregnancy
+L12z.	Unspecified hypertension complicating pregnancy, childbirth and the puerperium
+67A3.	Pregnancy smoking advice
+L03y1	Cornual pregnancy
+67AB.	Pregnancy prescription exemption advice
+67A4.	Pregnancy exercise advice
+L031z	Tubal pregnancy NOS
+L0300	Delivery of viable fetus in abdominal pregnancy
+957..	FW 8 - application for prescription exemption
+L12z2	Unspecified hypertension complicating pregnancy, childbirth and the puerperium - delivered with postnatal complication
+8B68.	Pregnancy prophylactic therapy
+L03yz	Other ectopic pregnancy NOS
+67AZ.	Pregnancy advice NOS
+8H7W.	Refer to TOP counselling
+L03y3	Combined heterotopic pregnancy
+L1...	Pregnancy complications
+L10..	Haemorrhage in early pregnancy
+L12zz	Unspecified hypertension complicating pregnancy, childbirth and the puerperium NOS
+8B75.	Vitamin supplement - pregnancy
+L12..	Hypertension complicating pregnancy, childbirth and the puerperium
+E201C	Pseudocyesis
+L05..	Termination of pregnancy (& [named variants])
+L1201	Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered
+L10z0	Early pregnancy haemorrhage NOS unspecified
+L10y.	Bleeding in early pregnancy (& [other haemorrhage])
+L13..	Hyperemesis gravidarum
+E202E	Fear of pregnancy
+L12z0	Unspecified hypertension complicating pregnancy, childbirth and the puerperium unspecified
+L....	Complications of pregnancy, childbirth and the puerperium
+L13y.	Other pregnancy vomiting
+L124.	Mild &/or unspecified pre-eclampsia (& [toxaemia NOS])
+L1202	Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered with postnatal complication
+L10z.	Early pregnancy haemorrhage NOS
+L13yz	Other pregnancy vomiting NOS
+L03..	Ectopic pregnancy
+L13zz	Unspecified pregnancy vomiting NOS
+L03y.	Other ectopic pregnancy
+L15..	Prolonged pregnancy
+L165z	Asymptomatic bacteriuria in pregnancy NOS
+L1231	Transient hypertension of pregnancy - delivered
+L123z	Transient hypertension of pregnancy NOS
+L13z0	Unspecified pregnancy vomiting unspecified
+L031.	Tubal pregnancy
+L150z	Post-term pregnancy NOS
+L10y0	Other haemorrhage in early pregnancy unspecified
+L1620	Unspecified renal disease in pregnancy unspecified
+L16A.	Pregnancy-related glycosuria
+L13z.	Unspecified pregnancy vomiting
+L12z1	Unspecified hypertension complicating pregnancy, childbirth and the puerperium - delivered
+L13z2	Unspecified pregnancy vomiting - not delivered
+L0311	Ruptured tubal pregnancy
+L1741	Maternal malaria during pregnancy - baby delivered
+L120.	Benign essential hypertension complicating pregnancy, childbirth and the puerperium
+L1680	Fatigue during pregnancy unspecified
+L16A0	Glycosuria during pregnancy unspecified
+L1652	Asymptomatic bacteriuria in pregnancy - delivered with postnatal complication
+L12z3	Unspecified hypertension complicating pregnancy, childbirth and the puerperium - not delivered
+L1501	Post-term pregnancy - delivered
+L03z.	Ectopic pregnancy NOS
+L1803	Diabetes mellitus during pregnancy - baby not yet delivered
+L16..	Other pregnancy complication NEC
+L1683	Fatigue during pregnancy - not delivered
+L16A3	Glycosuria during pregnancy - not delivered
+L1661	Genitourinary tract infection in pregnancy - delivered
+L13y0	Other pregnancy vomiting unspecified
+L161.	(Gestational oedema &/or non-hypertension excessive weight gain) or (maternal obesity syndrome)
+L1230	Transient hypertension of pregnancy unspecified
+L1821	Anaemia during pregnancy - baby delivered
+L16Az	Glycosuria during pregnancy NOS
+L174.	Maternal malaria during pregnancy, childbirth and the puerperium
+L16y0	Other pregnancy complication unspecified
+L167.	Liver disorder in pregnancy
+L165.	Asymptomatic bacteriuria of pregnancy
+L1650	Asymptomatic bacteriuria in pregnancy unspecified
+L132.	Late vomiting of pregnancy
+L1824	Anaemia in the puerperium - baby delivered during previous episode of care
+L1833	Drug dependence during pregnancy - baby not yet delivered
+L180.	Diabetes mellitus during pregnancy, childbirth and the puerperium
+L16yz	Other pregnancy complication NOS
+L16D.	Excessive weight gain in pregnancy
+L1667	Infections of the genital tract in pregnancy
+L1663	Genitourinary tract infection in pregnancy - not delivered
+L1320	Late pregnancy vomiting unspecified
+L184z	Mental disorder during pregnancy, childbirth or the puerperium NOS
+L191.	Continuing pregnancy after abortion of one fetus or more
+L1808	Gestational diabetes mellitus
+L180z	Diabetes mellitus during pregnancy, childbirth or the puerperium NOS
+L16y3	Other pregnancy complication - not delivered
+L168.	Fatigue during pregnancy
+L1822	Anaemia in the puerperium - baby delivered during current episode of care
+L1653	Asymptomatic bacteriuria in pregnancy - not delivered
+L192.	Continuing pregnancy after intrauterine death one fetus or more
+L2...	Risk factors in pregnancy
+L188z	Abnormal glucose tolerance test during pregnancy, childbirth or the puerperium NOS
+L181.	Thyroid dysfunction during pregnancy, childbirth and the puerperium
+L16z.	Pregnancy complication NOS
+L16y.	Other pregnancy complications
+L1823	Anaemia during pregnancy - baby not yet delivered
+L1660	Genitourinary tract infection in pregnancy unspecified
+L2102	Twin pregnancy with antenatal problem
+L21..	Multiple pregnancy
+L24..	Pelvic soft tissue abnormality in pregnancy, childbirth and the puerperium
+L1825	Iron deficiency anaemia of pregnancy
+L182.	Anaemia during pregnancy, childbirth and the puerperium
+L1801	Diabetes mellitus during pregnancy - baby delivered
+L2y..	Other specified risk factors in pregnancy
+L1665	Infections of kidney in pregnancy
+L2111	Triplet pregnancy - delivered
+L210.	Twin pregnancy
+L2z..	Risk factors in pregnancy NOS
+L1873	Orthopaedic disorder during pregnancy - baby not yet delivered
+L1820	Anaemia - unspecified whether during pregnancy or the puerperium
+L182z	Anaemia during pregnancy/childbirth/puerperium NOS
+L4112	Varicose veins of perineum and vulva in pregnancy and the puerperium - delivered with postnatal complication
+L16A1	Glycosuria during pregnancy - delivered
+L3840	Spinal and epidural anaesthesia-induced headache during pregnancy
+L2610	Rhesus isoimmunisation unspecified
+L4611	Cracked nipple in pregnancy, the puerperium or lactation - delivered
+L1883	Abnormal glucose tolerance test during pregnancy - baby not yet delivered
+L210z	Twin pregnancy NOS
+L188.	Abnormal glucose tolerance test during pregnancy, childbirth and the puerperium
+L4152	Other phlebitis and thrombosis in pregnancy and the puerperium - delivered with postnatal complication
+L18..	Other medical condition during pregnancy, childbirth and the puerperium
+Q486.	Fetal death due to termination of pregnancy
+L512.	Maternal care for diminished fetal movements
+L462.	Breast engorgement in pregnancy, the puerperium or lactation
+L189.	Diseases of the respiratory system complicating pregnancy, childbirth and the puerperium
+L262.	Other blood group isoimmunisation
+L1A..	Subluxation of symphysis pubis in pregnancy, childbirth and the puerperium
+Lyu22	[X]Other venous complications in pregnancy
+L184.	Mental disorders during pregnancy, childbirth and the puerperium
+ZV222	[V]Pregnancy confirmed
+Lyu20	[X]Other haemorrhage in early pregnancy
+L466.	Galactorrhoea in pregnancy and the puerperium
+L2100	Twin pregnancy unspecified
+L3982	Caesarean section - pregnancy at term
+L211z	Triplet pregnancy NOS
+Lyu23	[X]Infections of other parts of urinary tract in pregnancy
+L18A.	Diseases of the digestive system complicating pregnancy, childbirth and the puerperium
+ZV22z	[V]Unspecified pregnant state
+Lyu25	[X]Other specified pregnancy-related conditions
+Lyu21	[X]Other vomiting complicating pregnancy
+L2101	Twin pregnancy - delivered
+L4110	Varicose veins of perineum and vulva in pregnancy and the puerperium unspecified
+L2D..	Retained intrauterine contraceptive device in pregnancy
+Lyu7.	[X]Other obstetric conditions, not elsewhere classified
+L410.	Varicose veins of legs in pregnancy and the puerperium
+ZV23.	[V]High-risk pregnancy supervision
+Q0143	Fetus or neonate affected by tubal ectopic pregnancy
+ZV23z	[V]Unspecified high-risk pregnancy
+L211.	Triplet pregnancy
+L412.	Superficial thrombophlebitis in pregnancy and the puerperium
+L4100	Varicose veins of legs in pregnancy and the puerperium unspecified
+ZV724	[V]Pregnancy examination or test, pregnancy unconfirmed
+L461z	Cracked nipple in pregnancy, the puerperium or lactation NOS
+L41z.	Venous complications of pregnancy and puerperium NOS
+ZV22.	[V]Normal pregnancy
+L4621	Breast engorgement in pregnancy, the puerperium or lactation - delivered
+L410z	Varicose veins of legs in pregnancy and puerperium NOS
+Ly...	Other specified complications of pregnancy, childbirth or the puerperium
+L4160	Haemorrhoids in pregnancy and the puerperium unspecified
+Lyu1.	[X]Oedema, proteinuria and hypertensive disorders in pregnancy, childbirth and the puerperium
+ZV22y	[V]Other specified pregnant state
+ZV223	[V]Pregnant state, incidental
+ZV232	[V]Pregnancy with history of abortion
+L416.	Haemorrhoids in pregnancy and the puerperium
+L460.	Retracted nipple in pregnancy, the puerperium or lactation
+ZV238	[V]Supervision of high-risk pregnancy due to social problems
+L511.	Maternal care for viable fetus in abdominal pregnancy
+L4161	Haemorrhoids in pregnancy and the puerperium - delivered
+Lz...	Complications of pregnancy, childbirth and the puerperium NOS
+ZV23y	[V]Other specified high-risk pregnancy
+M2405	Alopecia of pregnancy
+L416z	Haemorrhoids in pregnancy and the puerperium NOS
+L460z	Retracted nipple in pregnancy, the puerperium or lactation NOS
+L4624	Breast engorgement in pregnancy/puerperium/lact + p/n comp
+L514.	Maternal care for poor fetal growth
+Q01..	Fetus or neonate affected by maternal complication of pregnancy
+ZV231	[V]Pregnancy with history of trophoblastic disease
+ZV619	[V]Other unwanted pregnancy
