@@ -1,0 +1,19 @@
+879511000001105	Camcolit 250 tablets
+250211000001105	Camcolit 400 modified-release tablets
+4888611000001102	Li-Liquid 1.018g/5ml oral solution
+8788711000001105	Li-Liquid 509mg/5ml oral solution
+704311000001105	Liskonum 450mg modified-release tablets
+4543511000001104	Litarex 564mg modified-release tablets
+39110011000001104	Lithium carbonate 200mg modified-release tablets
+8658611000001103	Lithium carbonate 200mg/5ml oral suspension
+321730000	Lithium carbonate 250mg tablets
+39110111000001103	Lithium carbonate 400mg modified-release tablets
+36040211000001104	Lithium carbonate 450mg modified-release tablets
+321742005	Lithium citrate 1.018g/5ml oral solution
+321741003	Lithium citrate 509mg/5ml oral solution
+36040311000001107	Lithium citrate 520mg/5ml oral solution sugar free
+4559411000001104	Lithium citrate 564mg modified-release tablets
+5479511000001101	Lithonate 400mg modified-release tablets
+565011000001106	Priadel 200mg modified-release tablets
+766311000001100	Priadel 400mg modified-release tablets
+3832311000001102	Priadel 520mg/5ml liquid
