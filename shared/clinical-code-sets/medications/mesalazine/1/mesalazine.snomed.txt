@@ -1,0 +1,15 @@
+86977007	Mesalazine product
+317396001	Mesalamine 1g/100mL retention enema
+317401002	Product containing precisely mesalazine 250 milligram/1 each conventional release rectal suppository (clinical drug)
+317402009	Product containing precisely mesalazine 500 milligram/1 each conventional release rectal suppository (clinical drug)
+317404005	Mesalazine 250 mg gastro-resistant oral tablet
+317408008	Mesalamine 1g suppository
+317411009	Mesalamine 2g/59mL enema
+317417008	Product containing precisely mesalazine 400 milligram/1 each gastro-resistant oral tablet (clinical drug)
+349820009	Mesalazine in oral dosage form
+349821008	Product containing mesalamine in rectal dosage form
+426061004	Mesalamine 1.2g delayed release tablet
+437759001	Mesalazine 800mg delayed release tablet
+765648000	Product containing precisely mesalazine 500 milligram/1 each prolonged-release oral tablet
+766687009	Product containing precisely mesalazine 1 gram/1 sachet gastro-resistant and prolonged-release oral granules
+766688004	Mesalazine 500mg/sachet gastro-resistant and prolonged-release oral granules (product)
