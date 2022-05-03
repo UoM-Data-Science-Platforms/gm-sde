@@ -1,20 +1,14 @@
-d618.	Lithium carbonate 520mg/5mL sugar free liquid
-d61w.	Lithium carbonate 400mg tablets
 d6...	Lithium product
 d61..	Lithium carbonate
+d62..	Lithium citrate
+d618.	Lithium carbonate 520mg/5mL sugar free liquid
 d61s.	Lithium carbonate 200mg m/r tablet
 d61v.	Lithium carbonate 250mg tablet
 d61x.	Lithium carbonate 450mg m/r tablet
 d61y.	Lithium carbonate 300mg m/r tablet
 d61z.	Lithium carbonate 400mg m/r tablet
-d62..	Lithium citrate
-d62w.	Lithium citrate 520mg/5mL s/f oral liquid
-d62x.	Lithium citrate 5.4mmol/5mL oral solution
-d62y.	Lithium citrate 10.8mmol/5mL oral solution
-d62z.	Lithium citrate 564mg m/r tablet
 d62w.	Lithium citrate 5.4mmol/5mL s/f oral liquid
 d62x.	Lithium citrate 509mg/5mL oral solution
 d62y.	Lithium citrate 1018mg/5mL oral solution
-mb4..	Lithium Succinate [topical]
-mb43.	Lithium succinate 8% cream
-mb41.	Lithium succinate 8% ointment
+d62z.	Lithium citrate 564mg m/r tablet
+d61w.	Lithium carbonate 400mg tablets

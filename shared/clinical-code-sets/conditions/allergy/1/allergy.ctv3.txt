@@ -1,0 +1,1558 @@
+Xa5dk	Allergy to over-the-counter drug
+Xa5dl	Analgesics and non-steroidal anti-inflammatory drug allergy
+Xa5ec	Diagnostic agent allergy
+Xa5fi	Anaesthetics and medical gases allergy
+Xa5g8	Antineoplastic/immunosuppressant/immunostimulant allergy
+Xa5oa	Chelating agents and antidotes allergy
+Xa5p4	Alternative medicines allergy
+Xa5p8	Miscellaneous fluids and solutions allergy
+Xa5pP	Allergy to bases and inactive substances
+Xa5pp	Anti-infectives allergy
+Xa5uW	Vaccine, immunoglobulins and antisera allergy
+Xa5v8	Hormones, synthetic substitutes and antagonists allergy
+Xa5xq	Haematological agents allergy
+Xa5yb	Foods, vitamins, electrolytes and inorganic salts allergy
+Xa5dm	Analgesic allergy
+Xa5eE	Non-steroidal anti-inflammatory drug allergy
+Xa5ed	Tuberculin allergy
+Xa5ee	Radiopharmaceutical allergy
+Xa5ef	Contrast media allergy
+Xa5ei	Allergen extract vaccine allergy
+Xa5ej	Diagnostic dye allergy
+Xa5el	Ulcer healing drug allergy
+Xa5f0	Pancreatin allergy
+Xa5f1	5-aminosalicylic acid allergy
+Xa5f5	Antacid allergy
+Xa5f8	Antidiarrhoeal drug allergy
+Xa5fB	Motility stimulant allergy
+Xa5fD	Antiemetic allergy
+Xa5fI	Laxative allergy
+Xa5fT	Antispasmodic allergy
+Xa5fd	Bile agent allergy
+Xa5fj	General anaesthetic drug allergy
+Xa5fx	Local anaesthetic drug allergy
+Xa5g9	Immunostimulant allergy
+Xa5gH	Antineoplastic allergy
+Xa5hC	Immunosuppressant allergy
+Xa5hG	Centrally acting appetite suppressant allergy
+Xa5hM	Dopaminergic drug used in parkinsonism allergy
+Xa5hV	Antidepressant drug allergy
+Xa5i8	Antiepileptic allergy
+Xa5iN	Sedative/neuroleptic allergy
+Xa5jd	Decarboxylase inhibitor allergy
+Xa5jf	Central stimulant allergy
+Xa5jl	Alcohol metabolism modifier allergy
+Xa5jo	Beta-adrenoceptor blocking drug allergy
+Xa5kB	Alpha-adrenoceptor blocking drug allergy
+Xa5kJ	Nicotine allergy
+Xa5kK	Calcium-channel blocker allergy
+Xa5kW	Parasympathomimetic allergy
+Xa5kk	Sympathomimetic allergy
+Xa5lR	Anticholinergic allergy
+Xa5lr	Dornase alfa allergy
+Xa5ls	Mucolytics allergy
+Xa5ly	Respiratory stimulant allergy
+Xa5m2	Respiratory surfactant allergy
+Xa5m7	Antiallergenic drug allergy
+Xa5mk	Cough/decongestant preparation allergy
+Xa5mu	Xanthine allergy
+Xa5mz	Allergy to inhaled corticosteroids
+Xa5n1	Topical dermatological preparation allergy
+Xa5ng	Oral dermatological agent allergy
+Xa5ni	Retinoid allergy
+XaRAf	Balsam of Peru allergy
+Xa5no	Drug for the treatment of gout allergy
+Xa5nw	Skeletal muscle relaxant allergy
+Xa5oD	Gold allergy
+Xa5oG	Smooth muscle relaxant allergy
+Xa5oK	Mifepristone allergy
+Xa5oL	Non-ionic surfactant allergy
+Xa5oO	Prostaglandin allergy
+Xa5oZ	Terpenes allergy
+Xa5ob	Antidote allergy
+Xa5ou	Chelating agent allergy
+Xa5p5	Homoeopathic medicine allergy
+Xa5p6	Anthroposophical medicine allergy
+Xa5p7	Herbal medicine allergy
+Xa5p9	Sodium hyaluronate allergy
+Xa5pA	Glycine allergy
+Xa5pB	Dialysis fluid allergy
+Xa5pF	Cardioplegia solution allergy
+Xa5pH	Dimethyl-ether propane allergy
+Xa5pI	Citrate allergy
+Xa5pJ	Haemorrhoid preparation allergy
+Xa5pK	Ear wax removal preparation allergy
+Xa5pL	Topical potassium allergy
+Xa5pM	Topical zinc allergy
+Xa5pQ	Fixed oil allergy
+Xa5pU	Glycerol/glycol/macrogol allergy
+Xa5pW	Lubricant allergy
+Xa5pX	Base allergy
+Xa5pg	Viscosity modifier allergy
+Xa5pq	Antifungal drug allergy
+Xa5qF	Antiviral drug allergy
+Xa5qZ	Antimalarial drug allergy
+Xa5qn	Lactobacill acidophil vaccine allergy
+Xa5qp	Disinfectants and cleansers allergy
+Xa5ra	Anthelmintics allergy
+Xa5rk	Antibacterial drug allergy
+Xa5tw	Antiprotozoal drug allergy
+Xa5u6	Antimycobacterial agent allergy
+Xa5uK	Pesticide allergy
+Xa5uX	Immunoglobulin products allergy
+Xa5uf	Vaccines allergy
+Xa5v4	Antisera allergy
+Xa5v9	Glucagon allergy
+Xa5vA	Antithyroid drug allergy
+Xa5vF	Corticosteroids allergy
+Xa5vp	Insulin allergy
+Xa5w2	Oral hypoglycaemic allergy
+Xa5wI	Sex hormones allergy
+Xa5xA	Ergoline drug allergy
+Xa5xD	Thyroid agent allergy
+Xa5xG	Hypothalamic/pituitary hormone allergy
+Xa5xg	Calcium regulating agent allergy
+Xa5xr	Erythropoietin allergy
+Xa5xu	Plasma substitutes allergy
+Xa5y1	Blood derivative allergy
+Xa5yG	Anticoagulant allergy
+Xa5yV	Haemostatic allergy
+Xa5yc	Iron allergy
+Xa5yp	Intravenous nutrition allergy
+Xa5yx	L-Carnitine allergy
+Xa5yy	Iodine compounds allergy
+Xa5z2	Multiple electrolyte infusion allergy
+Xa5z3	Enteral and supplement feeds allergy
+Xa5z4	Oral rehydration salts allergy
+Xa5z5	Vitamin products allergy
+Xa5zQ	Ion exchange resin allergy
+Xa5zV	Potassium allergy
+Xa5zY	Electrolyte anion allergy
+Xa5zZ	Zinc allergy
+Xa5za	Fluoride allergy
+Xa5zd	Lipid-lowering drug allergy
+Xa5zw	Antiarrhythmic drug allergy
+Xa60C	Diuretic allergy
+Xa60r	Antihypertensive allergy
+Xa61B	Cardiac inotropic agent allergy
+Xa61L	Vasoconstrictor allergy
+Xa61R	Vasodilator allergy
+Xa620	Antivaricose agent allergy
+Xa623	Medicinal enzyme allergy
+XacIR	Aliskiren allergy
+XacIS	Prasugrel allergy
+XacIT	Ticagrelor allergy
+Xa5dn	Non-opioid analgesic allergy
+Xa5dr	Opioid analgesic allergy
+Xa5eF	Acemetacin allergy
+Xa5eG	Azapropazone allergy
+Xa5eH	Diclofenac allergy
+Xa5eI	Etodolac allergy
+Xa5eJ	Felbinac allergy
+Xa5eK	Fenbufen allergy
+Xa5eL	Fenoprofen allergy
+Xa5eM	Flurbiprofen allergy
+Xa5eN	Ibuprofen allergy
+Xa5eO	Indomethacin allergy
+Xa5eP	Ketoprofen allergy
+Xa5eQ	Ketorolac allergy
+Xa5eR	Mefenamic acid allergy
+Xa5eS	Nabumetone allergy
+Xa5eT	Naproxen allergy
+Xa5eU	Nefopam allergy
+Xa5eV	Oxyphenbutazone allergy
+Xa5eW	Phenylbutazone allergy
+Xa5eX	Piroxicam allergy
+Xa5eY	Sulindac allergy
+Xa5eZ	Tenoxicam allergy
+Xa5ea	Tiaprofenic acid allergy
+Xa5eb	Tolmetin allergy
+Xa5eg	X-ray contrast media allergy
+Xa5eh	Magnetic resonance imaging contrast media allergy
+Xa5em	Bismuth chelate allergy
+Xa5en	Sucralfate allergy
+Xa5eo	Liquorice allergy
+Xa5ep	Misoprostol allergy
+Xa5eq	H2 receptor antagonist allergy
+Xa5ev	Proton pump inhibitor allergy
+Xa5ey	Carbenoxolone allergy
+Xa5ez	Pirenzepine allergy
+Xa5f2	Mesalazine allergy
+Xa5f3	Olsalazine allergy
+Xa5f4	Sulphasalazine allergy
+Xa5f6	Magnesium trisilicate allergy
+Xa5f7	Aluminium hydroxide allergy
+Xa5f9	Loperamide allergy
+Xa5fA	Kaolin allergy
+Xa5fC	Cisapride allergy
+Xa5fE	Nabilone allergy
+Xa5fF	Domperidone allergy
+Xa5fG	Metoclopramide allergy
+Xa5fH	5-HT3-receptor antagonist allergy
+Xa5fJ	Bisacodyl allergy
+Xa5fK	Danthron allergy
+Xa5fL	Sodium picosulphate allergy
+Xa5fM	Lactulose allergy
+Xa5fN	Magnesium sulphate allergy
+Xa5fO	Bulk-forming laxative allergy
+Xa5fP	Anthraquinone laxative allergy
+Xa5fS	Docusate allergy
+Xa5fU	Hyoscine butylbromide allergy
+Xa5fV	Peppermint oil allergy
+Xa5fW	Alverine allergy
+Xa5fX	Mebeverine allergy
+Xa5fY	Dicyclomine allergy
+Xa5fZ	Mepenzolate allergy
+Xa5fa	Pipenzolate allergy
+Xa5fb	Poldine allergy
+Xa5fc	Propantheline allergy
+Xa5fe	Chenodeoxycholic acid allergy
+Xa5ff	Dehydrocholic acid allergy
+Xa5fg	Ursodeoxycholic acid allergy
+Xa5fh	Chenodeoxycholic and ursodeoxycholic acid allergy
+Xa5fk	Intravenous anaesthetics allergy
+Xa5fq	Inhalational anaesthetics allergy
+Xa5fy	Bupivacaine allergy
+Xa5fz	Cinchocaine allergy
+Xa5g0	Prilocaine allergy
+Xa5g1	Lignocaine allergy
+Xa5g2	Cocaine allergy
+Xa5g3	Benzocaine allergy
+Xa5g4	Amethocaine allergy
+Xa5g5	Oxybuprocaine allergy
+Xa5g6	Procaine allergy
+Xa5g7	Proxymetacaine allergy
+Xa5gA	Amifostine allergy
+Xa5gB	Aldesleukin allergy
+Xa5gC	Colony stimulating factors allergy
+Xa5gG	Levamisole allergy
+Xa5gI	Alkylating drug allergy
+Xa5ga	Cytotoxic antibiotic allergy
+Xa5gk	Antimetabolite allergy
+Xa5gs	Etoposide allergy
+Xa5gt	Amsacrine allergy
+Xa5gu	Carboplatin allergy
+Xa5gv	Cisplatin allergy
+Xa5gw	Hydroxyurea allergy
+Xa5gx	Procarbazine allergy
+Xa5gy	Razoxane allergy
+Xa5gz	Crisantaspase allergy
+Xa5h0	Paclitaxel allergy
+Xa5h1	Fludarabine allergy
+Xa5h2	Aminoglutethimide allergy
+Xa5h3	Oestrogen antagonist allergy
+Xa5h7	Vinca alkaloid allergy
+Xa5hB	Dimethyl sulphoxide allergy
+Xa5hD	Cyclosporin allergy
+Xa5hE	Azathioprine allergy
+Xa5hH	Mazindol allergy
+Xa5hI	Phentermine allergy
+Xa5hJ	Dexfenfluramine allergy
+Xa5hL	Fenfluramine allergy
+Xa5hN	Levodopa allergy
+Xa5hO	Co-beneldopa allergy
+Xa5hP	Co-careldopa allergy
+Xa5hQ	Amantadine allergy
+Xa5hR	Apomorphine allergy
+Xa5hS	Lysuride allergy
+Xa5hT	Pergolide allergy
+Xa5hU	Bromocriptine allergy
+Xa5hW	Lithium allergy
+Xa5hZ	Tricyclic antidepressant drug allergy
+Xa5hn	Monoamine oxidase inhibitor allergy
+Xa5ht	Compound antidepressants allergy
+Xa5hu	Tryptophan allergy
+Xa5hv	Venlafaxine allergy
+Xa5hw	Selective serotonin re-uptake inhibitor allergy
+Xa5i3	Tetracyclic antidepressant drug allergy
+Xa5i6	Trazodone allergy
+Xa5i7	Viloxazine allergy
+Xa5i9	Beclamide allergy
+Xa5iA	Lamotrigine allergy
+Xa5iB	Piracetam allergy
+Xa5iC	Gabapentin allergy
+Xa5iD	Sodium valproate allergy
+Xa5iE	Barbiturate antiepileptic allergy
+Xa5iI	Carbamazepine allergy
+Xa5iJ	Vigabatrin allergy
+Xa5iK	Phenytoin allergy
+Xa5iL	Ethosuximide allergy
+Xa5iM	Clonazepam allergy
+Xa5iO	Sedative allergy
+Xa5j2	Neuroleptic allergy
+Xa5je	Selegiline allergy
+Xa5jg	Pemoline allergy
+Xa5jh	Methylphenidate allergy
+Xa5ji	Prolintane allergy
+Xa5jj	Amphetamine group allergy
+Xa5jm	Disulfiram allergy
+Xa5jp	Cardioselective beta-blocker allergy
+Xa5jx	Non-cardioselective beta-blocker allergy
+Xa5kC	Alfuzosin allergy
+Xa5kD	Doxazosin allergy
+Xa5kE	Indoramin allergy
+Xa5kF	Phenoxybenzamine allergy
+Xa5kG	Phentolamine allergy
+Xa5kH	Prazosin allergy
+Xa5kI	Terazosin allergy
+Xa5kL	Lidoflazine allergy
+Xa5kM	Nifedipine allergy
+Xa5kN	Prenylamine allergy
+Xa5kO	Isradipine allergy
+Xa5kP	Felodipine allergy
+Xa5kQ	Lacidipine allergy
+Xa5kR	Nimodipine allergy
+Xa5kS	Amlodipine allergy
+Xa5kT	Diltiazem allergy
+Xa5kU	Nicardipine allergy
+Xa5kV	Verapamil allergy
+Xa5kX	Pilocarpine allergy
+Xa5kY	Acetylcholine chloride allergy
+Xa5kZ	Methacholine allergy
+Xa5ka	Anticholinesterase parasympathomimetic allergy
+Xa5ki	Bethanechol allergy
+Xa5kj	Carbachol allergy
+Xa5kl	Isoetharine hydrochloride allergy
+Xa5km	Phenylpropanolamine hydrochloride allergy
+Xa5kn	Pseudoephedrine allergy
+Xa5ko	Alpha-adrenoceptor agonist allergy
+Xa5kw	Beta-adrenoceptor agonist allergy
+Xa5lG	Central alpha-adrenoceptor agonist allergy
+Xa5lM	Dipivefrine allergy
+Xa5lN	Dopamine allergy
+Xa5lO	Ephedrine allergy
+Xa5lP	Oxymetazoline allergy
+Xa5lQ	Xamoterol allergy
+Xa5lS	Antimuscarinic allergy
+Xa5lt	Tyloxapol allergy
+Xa5lu	Bromhexine hydrochloride allergy
+Xa5lv	Carbocisteine allergy
+Xa5lw	Methylcysteine allergy
+Xa5lx	Acetylcysteine allergy
+Xa5lz	Nikethamide allergy
+Xa5m0	Ethamivan allergy
+Xa5m1	Doxapram allergy
+Xa5m3	Beractant allergy
+Xa5m4	Phospholipid fraction allergy
+Xa5m5	Pumactant allergy
+Xa5m6	Colfosceril allergy
+Xa5m8	Topical antihistamine allergy
+Xa5m9	H1 antihistamine allergy
+Xa5mf	Cromoglycate and related antiallergenic allergy
+Xa5ml	Cough suppressant allergy
+Xa5ms	Proprietary decongestant allergy
+Xa5mt	Expectorant allergy
+Xa5mv	Aminophylline allergy
+Xa5mw	Choline theophyllinate allergy
+Xa5mx	Theophylline allergy
+Xa5n2	Urea creams allergy
+Xa5n3	Emollient bath additives allergy
+Xa5n4	Dusting powders allergy
+Xa5n5	Calamine allergy
+Xa5n6	Coal tar allergy
+Xa5n9	Bufexamac allergy
+Xa5nA	Dithranol allergy
+Xa5nE	Ichthammol allergy
+Xa5nF	Calcipotriol allergy
+Xa5nG	Sulphur allergy
+Xa5nH	Azelaic acid allergy
+Xa5nI	Bromine complexes allergy
+Xa5nJ	Podophyllum resin allergy
+Xa5nK	Podophyllotoxin allergy
+Xa5nN	Benzoic acid allergy
+Xa5nO	Desloughing agents allergy
+Xa5nQ	Surgical tissue adhesive allergy
+Xa5nS	Collodion allergy
+Xa5nT	Counter irritants allergy
+Xa5nU	Emollient allergy
+Xa5nV	Poultices allergy
+Xa5nW	Anionic surfactant allergy
+Xa5nY	Astringent allergy
+Xa5na	Topical selenium allergy
+Xa5nb	Crotamiton allergy
+Xa5nc	Topical salicylic acid allergy
+Xa5nd	Topical abrasive agent allergy
+Xa5ne	Benzoyl peroxide allergy
+Xa5nf	Silver nitrate allergy
+Xa5nh	Gamolenic acid allergy
+Xa5nj	Etretinate allergy
+Xa5nk	Acitretin allergy
+Xa5nl	Tretinoin allergy
+Xa5nm	Isotretinoin allergy
+Xa5np	Colchicum alkaloid allergy
+Xa5nr	Uricosuric agent allergy
+Xa5nu	Xanthine oxidase inhibitor allergy
+Xa5nx	Neuromuscular transmission drug allergy
+Xa5o9	Baclofen allergy
+Xa5oA	Carisoprodol allergy
+Xa5oB	Methocarbamol allergy
+Xa5oC	Dantrolene allergy
+Xa5oE	Sodium aurothiomalate allergy
+Xa5oF	Auranofin allergy
+Xa5oH	Papaverine allergy
+Xa5oI	Flavoxate allergy
+Xa5oM	Nonoxinol allergy
+Xa5oN	Octoxinol allergy
+Xa5oP	A series prostaglandin allergy
+Xa5oQ	E series prostaglandin allergy
+Xa5oU	F series prostaglandin allergy
+Xa5oX	I series prostaglandin allergy
+Xa5oc	Ipecacuanha allergy
+Xa5od	Charcoal-activated allergy
+Xa5oe	Sodium nitrite allergy
+Xa5of	Sodium thiosulphate allergy
+Xa5og	Digoxin-specific-antibody allergy
+Xa5oh	Mesna allergy
+Xa5oi	Benzodiazepine antagonist allergy
+Xa5ok	Cholinesterase reactivator allergy
+Xa5om	Hydrofluoric acid burn antidote allergy
+Xa5on	Opioid antagonist allergy
+Xa5oq	Protamine allergy
+Xa5or	Antidotes for pesticides allergy
+Xa5ov	Dimercaprol allergy
+Xa5ow	Desferrioxamine allergy
+Xa5ox	Edetate allergy
+Xa5p2	Trientine allergy
+Xa5p3	Penicillamine allergy
+Xa5pC	Peritoneal dialysis solution allergy
+Xa5pD	Haemodialysis fluid allergy
+Xa5pE	Haemofiltration solution allergy
+Xa5pO	Artificial saliva allergy
+Xa5pR	Olive oil allergy
+Xa5pS	Arachis oil allergy
+Xa5pT	Castor oil allergy
+Xa5pV	Glycerol allergy
+Xa5pY	Barrier preparation allergy
+Xa5pZ	Paraffin allergy
+Xa5pd	Silicone allergy
+Xa5pf	Wool alcohol allergy
+Xa5ph	Polyvinyl alcohol allergy
+Xa5pi	Carbomer-940 allergy
+Xa5pj	Cellulose-derived viscosity modifier allergy
+Xa5pr	Flucytosine allergy
+Xa5ps	Terbinafine allergy
+Xa5pt	Nitrophenol allergy
+Xa5pu	Tolnaftate allergy
+Xa5pv	Amorolfine allergy
+Xa5pw	Antibiotic antifungal allergy
+Xa5q1	Azole antifungal allergy
+Xa5qG	Inosine pranobex allergy
+Xa5qH	Zidovudine allergy
+Xa5qI	Ganciclovir allergy
+Xa5qJ	Famciclovir allergy
+Xa5qK	Didanosine allergy
+Xa5qL	Zalcitabine allergy
+Xa5qM	Valaciclovir allergy
+Xa5qN	Interferons allergy
+Xa5qS	Tribavirin allergy
+Xa5qT	Trifluorothymidine allergy
+Xa5qU	Foscarnet allergy
+Xa5qV	Vidarabine allergy
+Xa5qW	Aciclovir allergy
+Xa5qX	Idoxuridine allergy
+Xa5qa	Pyrimethamine allergy
+Xa5qb	Aminoquinoline antimalarial allergy
+Xa5qh	Biguanide antimalarial allergy
+Xa5qj	Cinchona antimalarial allergy
+Xa5ql	Halofantrine allergy
+Xa5qm	Mepacrine allergy
+Xa5qq	Acetic acid allergy
+Xa5qr	Hydragaphen allergy
+Xa5qs	Polynoxylin allergy
+Xa5qt	Hexetidine allergy
+Xa5qu	Sodium perborate allergy
+Xa5qv	Chlorinated solutions allergy
+Xa5qw	Potassium permanganate allergy
+Xa5qx	Bismuth subnitrate and iodoform paste impregnated gauze allergy
+Xa5qy	Phenolics allergy
+Xa5r5	Alcoholic disinfectant allergy
+Xa5r8	Aldehyde disinfectant allergy
+Xa5rD	Amidine disinfectant allergy
+Xa5rG	Biguanide disinfectant allergy
+Xa5rJ	Borate allergy
+Xa5rL	Cationic surfactant allergy
+Xa5rU	Disinfectant dye allergy
+Xa5rZ	Hydrogen peroxide allergy
+Xa5rb	Piperazine allergy
+Xa5rc	Pyrantel allergy
+Xa5rd	Niclosamide allergy
+Xa5re	Bephenium allergy
+Xa5rg	Benzimidazole anthelmintic allergy
+Xa5rl	Aminoglycosides allergy
+Xa5ru	Macrolide allergy
+Xa5ry	Sodium fusidate allergy
+Xa5rz	Spectinomycin allergy
+Xa5s0	Vancomycin allergy
+Xa5s1	Teicoplanin allergy
+Xa5s2	Trimethoprim allergy
+Xa5s3	Nitrofurantoin allergy
+Xa5s4	Hexamine hippurate allergy
+Xa5s5	Mupirocin allergy
+Xa5s6	Nitrofurazone allergy
+Xa5s7	Fusidic acid allergy
+Xa5s8	4-quinolones allergy
+Xa5sH	Penicillin allergy
+Xa5sr	Polymyxins allergy
+Xa5su	Carbapenem allergy
+Xa5sv	Cephalosporin allergy
+Xa5tJ	Cephamycin allergy
+Xa5tL	Fosfomycin allergy
+Xa5tM	Lincomycin and derivatives allergy
+Xa5tP	Mandelic acid allergy
+Xa5tQ	Monobactam allergy
+Xa5tS	Nitroimidazole allergy
+Xa5tW	Sulphonamide allergy
+Xa5tk	Tetracyclines group allergy
+Xa5tu	Chloramphenicol allergy
+Xa5tv	Co-trimoxazole allergy
+Xa5tx	Atovaquone allergy
+Xa5ty	Antimony antiprotozoal allergy
+Xa5u0	Diamidine antiprotozoal allergy
+Xa5u2	Dichloroacetamide antiprotozoal allergy
+Xa5u4	Hydroxyquinoline antiprotozoal allergy
+Xa5u7	Antituberculous drug allergy
+Xa5uH	Antileprotic drug allergy
+Xa5uL	Benzyl benzoate allergy
+Xa5uM	Monosulfiram allergy
+Xa5uN	Carbamate pesticide allergy
+Xa5uP	Chlorinated pesticide allergy
+Xa5uR	Organophosphate pesticide allergy
+Xa5uT	Pyrethroid pesticides allergy
+Xa5uY	Human immunoglobulin allergy
+Xa5ub	Anti-D (Rh) immunoglobulin allergy
+Xa5uc	Hepatitis B immunoglobulin allergy
+Xa5ud	Tetanus immunoglobulin allergy
+Xa5ue	Varicella-zoster immunoglobulin allergy
+Xa5ug	Anthrax vaccine allergy
+Xa5uh	Diphtheria vaccines allergy
+Xa5ul	Hepatitis B vaccine allergy
+Xa5um	Influenza vaccine allergy
+Xa5up	Mumps vaccine allergy
+Xa5uq	Pertussis vaccine allergy
+Xa5ur	Pneumococcal vaccine allergy
+Xa5us	Poliomyelitis vaccine allergy
+Xa5ut	Rabies vaccine allergy
+Xa5uu	Rubella vaccine allergy
+Xa5uv	Smallpox vaccine allergy
+Xa5uw	Tetanus vaccine allergy
+Xa5ux	Typhoid vaccine allergy
+Xa5v0	Measles/mumps/rubella vaccine allergy
+Xa5v1	Hepatitis A vaccine allergy
+Xa5v2	Haemophilus influenzae Type B vaccine allergy
+Xa5v3	Meningococcal polysaccharide vaccine allergy
+Xa5v5	Clostridium botulinum allergy
+Xa5v6	Botulism antitoxin allergy
+Xa5v7	Diphtheria antitoxin allergy
+Xa5vB	Thiourea antithyroid agent allergy
+Xa5vD	Thiouracil antithyroid agent allergy
+Xa5vG	Betamethasone allergy
+Xa5vH	Hydrocortisone allergy
+Xa5vK	Prednisone allergy
+Xa5vL	Fluorometholone allergy
+Xa5vM	Flunisolide allergy
+Xa5vN	Desonide allergy
+Xa5vO	Desoxymethasone allergy
+Xa5vP	Fluocinonide allergy
+Xa5vQ	Fluocortolone allergy
+Xa5vR	Flurandrenolone allergy
+Xa5vS	Halcinonide allergy
+Xa5vT	Alclometasone allergy
+Xa5vU	Beclomethasone allergy
+Xa5vV	Clobetasol allergy
+Xa5vW	Clobetasone allergy
+Xa5vX	Cortisone allergy
+Xa5vY	Diflucortolone allergy
+Xa5vZ	Fluclorolone allergy
+Xa5va	Fludrocortisone allergy
+Xa5vb	Fluocinolone allergy
+Xa5vc	Fluticasone allergy
+Xa5vd	Mometasone allergy
+Xa5ve	Dexamethasone allergy
+Xa5vh	Methylprednisolone allergy
+Xa5vi	Prednisolone allergy
+Xa5vm	Triamcinolone allergy
+Xa5vn	Budesonide allergy
+Xa5vq	Soluble neutral insulin allergy
+Xa5vr	Biphasic insulin allergy
+Xa5vs	Insulin zinc suspension allergy
+Xa5vt	Insulin zinc suspension (amorphous) allergy
+Xa5vu	Insulin zinc suspension (crystalline) allergy
+Xa5vv	Isophane insulin allergy
+Xa5vw	Protamine zinc insulin allergy
+Xa5vx	Biphasic isophane insulin allergy
+Xa5w3	Sulphonylurea allergy
+Xa5wE	Biguanide allergy
+Xa5wG	Guar gum allergy
+Xa5wH	Acarbose allergy
+Xa5wJ	Progestogen allergy
+Xa5wU	Anabolic steroids allergy
+Xa5wa	Cyclofenil allergy
+Xa5wb	Danazol allergy
+Xa5wc	Gestrinone allergy
+Xa5wd	Anti-androgens allergy
+Xa5wj	Combined oral contraceptive allergy
+Xa5wk	Androgen allergy
+Xa5ws	Oestrogen allergy
+Xa5x8	Oestrogen and progestogen preparation allergy
+Xa5x9	Clomiphene allergy
+Xa5xB	Cabergoline allergy
+Xa5xC	Quinagolide allergy
+Xa5xE	Liothyronine allergy
+Xa5xF	Thyroxine allergy
+Xa5xH	Antidiuretic hormone allergy
+Xa5xM	Corticotrophic hormone allergy
+Xa5xP	Gonad regulating hormone allergy
+Xa5xX	Oxytocic hormone allergy
+Xa5xa	Somatrophic hormone allergy
+Xa5xd	Thyrotrophic hormone allergy
+Xa5xh	Biphosphonates allergy
+Xa5xm	Calcium regulating hormone allergy
+Xa5xs	Epoetin alfa allergy
+Xa5xt	Epoetin beta allergy
+Xa5xv	Gelatin allergy
+Xa5xw	Hetastarch allergy
+Xa5xx	Pentastarch allergy
+Xa5xy	Dextran allergy
+Xa5xz	Perfluorochemical allergy
+Xa5y0	Plasma protein solution allergy
+Xa5y2	Albumin solution allergy
+Xa5y3	Antithrombin III allergy
+Xa5y4	Blood clotting factor allergy
+Xa5yH	Direct acting anticoagulant allergy
+Xa5yP	Indirect acting anticoagulant allergy
+Xa5yW	Ethamsylate allergy
+Xa5yX	Thromboplastin allergy
+Xa5yY	Tranexamic acid allergy
+Xa5yZ	Collagen allergy
+Xa5ya	Aprotinin allergy
+Xa5yd	Iron and folic acid allergy
+Xa5ye	Polysaccharide iron complex allergy
+Xa5yf	Sodium ironedetate allergy
+Xa5yh	Iron sorbitol allergy
+Xa5yi	Ferrous salt allergy
+Xa5yq	Supplementary preparations for parenteral nutrition allergy
+Xa5yt	Intravenous nutrition (amino acids) allergy
+Xa5yu	Intravenous nutrition (carbohydrate) allergy
+Xa5yv	Intravenous nutrition (fats) allergy
+Xa5yw	Intravenous nutrition (ready mixed) allergy
+Xa5yz	Iodine allergy
+Xa5z0	Iodophore allergy
+Xa5z7	Fat soluble vitamin allergy
+Xa5zC	Water soluble vitamin allergy
+Xa5zR	Cation exchange resin allergy
+Xa5zW	Oral potassium allergy
+Xa5zX	Parenteral potassium allergy
+Xa5zb	Sodium fluoride allergy
+Xa5ze	Dextrothyroxine sodium allergy
+Xa5zf	Gemfibrozil allergy
+Xa5zg	Probucol allergy
+Xa5zh	Acipimox allergy
+Xa5zi	Anion exchange resins allergy
+Xa5zl	Clofibrate group allergy
+Xa5zq	Fish oils allergy
+Xa5zs	HMG COA reductase inhibitor allergy
+Xa5zx	Adenosine allergy
+Xa5zy	Class I antiarrhythmic allergy
+Xa607	Class II antiarrhythmic allergy
+Xa609	Class III antiarrhythmic allergy
+Xa60B	Class IV antiarrhythmic allergy
+Xa60D	Thiazide diuretic allergy
+Xa60L	Loop diuretic allergy
+Xa60R	Potassium sparing diuretic allergy
+Xa60X	Potassium sparing compound diuretic allergy
+Xa60e	Osmotic diuretic allergy
+Xa60g	Mercurial diuretic allergy
+Xa60i	Thiazide-related diuretic allergy
+Xa60o	Carbonic anhydrase inhibitor allergy
+Xa60s	Adrenergic neurone blocking drug allergy
+Xa60w	Angiotensin-converting-enzyme inhibitor allergy
+Xa616	Ganglion-blocking drug allergy
+Xa618	Metirosine allergy
+Xa619	Losartan allergy
+Xa61A	Rauwolfia antihypertensive allergy
+Xa61C	Cardiac glycoside allergy
+Xa61I	Phosphodiesterase inhibitor allergy
+Xa61M	Ergot compound allergy
+Xa61S	Vasodilator antihypertensive drug allergy
+Xa61Y	Nicorandil allergy
+Xa61Z	Dipyridamole allergy
+Xa61a	Nitrate vasodilator allergy
+Xa61o	Peripheral/cerebral vasodilator allergy
+Xa61x	Alpha blocking vasodilator allergy
+Xa61z	Betahistine allergy
+Xa621	Sodium tetradecyl sulphate allergy
+Xa622	Ethanolamine allergy
+Xa624	Streptokinase allergy
+Xa625	Urokinase allergy
+Xa626	Alteplase allergy
+Xa627	Anistreplase allergy
+Xa628	Bromelains allergy
+Xa629	Deoxyribonuclease allergy
+Xa62A	Hyaluronidase allergy
+Xa62B	Streptokinase streptodornase allergy
+Xa62C	Chymotrypsin allergy
+Xa5do	Paracetamol allergy
+Xa5dp	Salicylate allergy
+Xa6mG	Paracetamol and dextropropoxyphene allergy
+Xa5ds	Pentazocine allergy
+Xa5dt	Phenazocine allergy
+Xa5du	Methadone analogue allergy
+Xa5dz	Morphinan opioid allergy
+Xa5e6	Opium alkaloid allergy
+Xa5e7	Pethidine analogue allergy
+Xa5eC	Meptazinol allergy
+Xa5eD	Levorphanol allergy
+XaYOi	Tramadol allergy
+Xa5er	Cimetidine allergy
+Xa5es	Famotidine allergy
+Xa5et	Nizatidine allergy
+Xa5eu	Ranitidine allergy
+Xa5ew	Omeprazole allergy
+Xa5ex	Lansoprazole allergy
+Xa5fQ	Cascara allergy
+Xa5fR	Senna allergy
+Xa5fl	Etomidate allergy
+Xa5fm	Ketamine allergy
+Xa5fn	Propofol allergy
+Xa5fo	Thiopentone allergy
+Xa5fp	Methohexitone allergy
+Xa5fr	Enflurane allergy
+Xa5fs	Ether, anaesthetic allergy
+Xa5ft	Halothane allergy
+Xa5fu	Isoflurane allergy
+Xa5fv	Trichloroethylene allergy
+Xa5fw	Desflurane allergy
+Xa5gD	Molgramostim allergy
+Xa5gE	Lenograstim allergy
+Xa5gF	Filgrastim allergy
+Xa5gJ	Mitobronitol allergy
+Xa5gK	Busulphan allergy
+Xa5gL	Treosulfan allergy
+Xa5gM	Thiotepa allergy
+Xa5gN	Nitrogen mustard derivative allergy
+Xa5gV	Nitrosurea allergy
+Xa5gY	Triazene antineoplastic allergy
+Xa5gb	Dactinomycin allergy
+Xa5gc	Bleomycin allergy
+Xa5gd	Mitomycin allergy
+Xa5ge	Plicamycin allergy
+Xa5gf	Aclarubicin allergy
+Xa5gg	Mitozantrone allergy
+Xa5gh	Doxorubicin allergy
+Xa5gi	Epirubicin allergy
+Xa5gj	Idarubicin allergy
+Xa5gl	Mercuric oxide allergy
+Xa5gm	Methotrexate allergy
+Xa5gn	Mercaptopurine allergy
+Xa5go	Thioguanine allergy
+Xa5gp	Pentostatin allergy
+Xa5gq	Cytarabine allergy
+Xa5gr	Fluorouracil allergy
+Xa5h4	Trilostane allergy
+Xa5h5	Tamoxifen allergy
+Xa5h6	Formestane allergy
+Xa5h8	Vinblastine allergy
+Xa5h9	Vincristine allergy
+Xa5hA	Vindesine allergy
+Xa5hX	Lithium carbonate allergy
+Xa5hY	Lithium citrate allergy
+Xa5ha	Butriptyline allergy
+Xa5hb	Doxepin allergy
+Xa5hc	Iprindole allergy
+Xa5hd	Lofepramine allergy
+Xa5he	Nortriptyline allergy
+Xa5hf	Trimipramine allergy
+Xa5hg	Amoxapine allergy
+Xa5hh	Amitriptyline allergy
+Xa5hi	Clomipramine allergy
+Xa5hj	Desipramine allergy
+Xa5hk	Dothiepin allergy
+Xa5hl	Imipramine allergy
+Xa5hm	Protriptyline allergy
+Xa5ho	Phenelzine allergy
+Xa5hp	Iproniazid allergy
+Xa5hq	Isocarboxazid allergy
+Xa5hr	Tranylcypromine allergy
+Xa5hs	Moclobemide allergy
+Xa5hx	Sertraline allergy
+Xa5hy	Paroxetine allergy
+Xa5hz	Nefazodone allergy
+Xa5i0	Citalopram allergy
+Xa5i1	Fluoxetine allergy
+Xa5i2	Fluvoxamine allergy
+Xa5i4	Maprotiline allergy
+Xa5i5	Mianserin allergy
+Xa5iF	Methylphenobarbitone allergy
+Xa5iG	Phenobarbitone allergy
+Xa5iH	Primidone allergy
+Xa5iP	Zopiclone allergy
+Xa5iQ	Zolpidem allergy
+Xa5iR	Chlormezanone allergy
+Xa5iS	Methyprylone allergy
+Xa5iT	Paraldehyde allergy
+Xa5iU	Barbiturate sedative allergy
+Xa5ia	Benzodiazepine sedative allergy
+Xa5iu	Carbamate sedative allergy
+Xa5iw	Chloral sedative allergy
+Xa5j0	Buspirone allergy
+Xa5j1	Chlormethiazole allergy
+Xa5j3	Sulpiride allergy
+Xa5j4	Loxapine allergy
+Xa5j5	Clozapine allergy
+Xa5j6	Risperidone allergy
+Xa5j7	Tetrabenazine allergy
+Xa5j8	Butyrophenone allergy
+Xa5jE	Diphenylbutylpiperidine allergy
+Xa5jH	Phenothiazine allergy
+Xa5jV	Thioxanthene allergy
+Xa5jb	Oxypertine allergy
+Xa5jc	Remoxipride allergy
+Xa5jk	Dexamphetamine allergy
+Xa5jq	Acebutolol allergy
+Xa5jr	Atenolol allergy
+Xa5js	Betaxolol allergy
+Xa5jt	Bisoprolol allergy
+Xa5ju	Celiprolol allergy
+Xa5jv	Esmolol allergy
+Xa5jw	Metoprolol allergy
+Xa5jy	Nadolol allergy
+Xa5jz	Pindolol allergy
+Xa5k0	Carvedilol allergy
+Xa5k1	Metipranolol allergy
+Xa5k2	Carteolol allergy
+Xa5k3	Labetalol allergy
+Xa5k4	Levobunolol allergy
+Xa5k5	Oxprenolol allergy
+Xa5k6	Penbutolol allergy
+Xa5k7	Practolol allergy
+Xa5k8	Propranolol allergy
+Xa5k9	Sotalol allergy
+Xa5kA	Timolol allergy
+Xa5kb	Physostigmine allergy
+Xa5kc	Demecarium allergy
+Xa5kd	Distigmine allergy
+Xa5ke	Ecothiopate allergy
+Xa5kf	Edrophonium allergy
+Xa5kg	Pyridostigmine allergy
+Xa5kh	Neostigmine allergy
+Xa5kp	Oxedrine tartrate allergy
+Xa5kq	Metaraminol allergy
+Xa5kr	Methoxamine allergy
+Xa5ks	Naphazoline allergy
+Xa5kt	Noradrenaline allergy
+Xa5ku	Phenylephrine allergy
+Xa5kv	Xylometazoline allergy
+Xa5kx	Selective beta-2 adrenoceptor stimulants allergy
+Xa5l9	Selective beta-1 adrenoceptor stimulants allergy
+Xa5lC	Isoprenaline allergy
+Xa5lH	Methyldopa allergy
+Xa5lJ	Apraclonidine allergy
+Xa5lK	Clonidine allergy
+Xa5lL	Lofexidine allergy
+Xa5lT	Belladonna alkaloids allergy
+Xa5lU	Piperidolate hydrochloride allergy
+Xa5lV	Biperiden allergy
+Xa5lW	Emepronium bromide allergy
+Xa5lX	Terodiline hydrochloride allergy
+Xa5lY	Lachesine chloride allergy
+Xa5lZ	Tropicamide allergy
+Xa5la	Hyoscine allergy
+Xa5lc	Atropine allergy
+Xa5ld	Benzhexol allergy
+Xa5le	Benztropine allergy
+Xa5lf	Cyclopentolate allergy
+Xa5lg	Glycopyrronium allergy
+Xa5lh	Homatropine allergy
+Xa5li	Ipratropium allergy
+Xa5lj	Methixene allergy
+Xa5lk	Orphenadrine allergy
+Xa5ln	Oxitropium allergy
+Xa5lo	Oxybutynin allergy
+Xa5lp	Procyclidine allergy
+Xa5mA	Non-sedating antihistamine allergy
+Xa5mH	Sedating antihistamine allergy
+Xa5mg	Nedocromil allergy
+Xa5mh	Sodium cromoglycate allergy
+Xa5mi	Ketotifen allergy
+Xa5mj	Lodoxamide allergy
+Xa5mm	Isoaminile allergy
+Xa5mn	Morphinian cough suppressant allergy
+Xa5mr	Compound cough suppressant allergy
+Xa5nB	Dithranol ointment allergy
+Xa5nC	Dithranol cream allergy
+Xa5nD	Dithranol paste allergy
+Xa5nP	Aserbine allergy
+Xa5nR	Enbucrilate allergy
+Xa5nX	Alkali metal soap allergy
+Xa5nZ	Aluminium astringent allergy
+Xa5nq	Colchicine allergy
+Xa5ns	Probenecid allergy
+Xa5nt	Sulphinpyrazone allergy
+Xa5nv	Allopurinol allergy
+Xa5ny	Depolarising muscle relaxant allergy
+Xa5o0	Non-depolarising muscle relaxant allergy
+Xa5oR	Dinoprostone allergy
+Xa5oS	Gemeprost allergy
+Xa5oT	Alprostadil allergy
+Xa5oV	Dinoprost allergy
+Xa5oW	Carboprost allergy
+Xa5oY	Epoprostenol allergy
+Xa5oj	Flumazenil allergy
+Xa5ol	Pralidoxime allergy
+Xa5oo	Naltrexone allergy
+Xa5op	Naloxone allergy
+Xa5os	Fullers earth powder allergy
+Xa5ot	Bentonite powder allergy
+Xa5oy	Dicobalt edetate allergy
+Xa5oz	Sodium calciumedetate allergy
+Xa5p0	Trisodium edetate allergy
+Xa5p1	Disodium edetate allergy
+Xa5pa	Paraffin-yellow soft allergy
+Xa5pb	Paraffin-white soft allergy
+Xa5pc	Liquid paraffin allergy
+Xa5pe	Dimethicone allergy
+Xa5pk	Hypromellose allergy
+Xa5pm	Hydroxyethylcellulose allergy
+Xa5pn	Hydroxypropylmethylcellulose allergy
+Xa5po	Carmellose allergy
+Xa5px	Griseofulvin allergy
+Xa5py	Amphotericin allergy
+Xa5pz	Natamycin allergy
+Xa5q0	Nystatin allergy
+Xa5q2	Undecenoates allergy
+Xa5q3	Imidazole antifungal allergy
+Xa5qC	Triazole antifungals allergy
+Xa5qO	Human interferon gamma-1b allergy
+Xa5qP	Interferon-A-2a allergy
+Xa5qQ	Interferon-A-2b allergy
+Xa5qR	Interferon-A-N1 allergy
+Xa5qY	Idoxuridine in dimethylsulphoxide allergy
+Xa5qc	Amodiaquine allergy
+Xa5qd	Primaquine allergy
+Xa5qe	Mefloquine allergy
+Xa5qf	Hydroxychloroquine allergy
+Xa5qg	Chloroquine allergy
+Xa5qi	Proguanil allergy
+Xa5qk	Quinine allergy
+Xa5qz	Thymol allergy
+Xa5r0	Chlorinated phenol disinfectant allergy
+Xa5r4	Phenol allergy
+Xa5r6	Alcohol products allergy
+Xa5r9	Glutaraldehyde allergy
+Xa5rA	Formaldehyde and related compounds allergy
+Xa5rE	Propamidine isethionate allergy
+Xa5rF	Dibromopropamidine isethionate allergy
+Xa5rH	Chlorhexidine allergy
+Xa5rI	Chlorhexidine hydrochloride and neomycin sulphate allergy
+Xa5rK	Boric acid allergy
+Xa5rM	Quaternary ammonium surfactant allergy
+Xa5rQ	Quaternary pyridinium surfactant allergy
+Xa5rS	Quaternary quinolinium surfactant allergy
+Xa5rV	Acridine azo disinfectant dye allergy
+Xa5rW	Triphenylmethane azo disinfectant dye allergy
+Xa5rh	Mebendazole allergy
+Xa5ri	Albendazole allergy
+Xa5rj	Thiabendazole allergy
+Xa5rm	Amikacin allergy
+Xa5rn	Kanamycin allergy
+Xa5ro	Netilmicin allergy
+Xa5rp	Streptomycin allergy
+Xa5rq	Framycetin allergy
+Xa5rr	Neomycin allergy
+Xa5rs	Gentamicin allergy
+Xa5rt	Tobramycin allergy
+Xa5rv	Erythromycin allergy
+Xa5rw	Clarithromycin allergy
+Xa5rx	Azithromycin allergy
+Xa5s9	Acrosoxacin allergy
+Xa5sA	Cinoxacin allergy
+Xa5sB	Nalidixic acid allergy
+Xa5sC	Ciprofloxacin allergy
+Xa5sD	Enoxacin allergy
+Xa5sE	Ofloxacin allergy
+Xa5sF	Norfloxacin allergy
+Xa5sG	Temafloxacin allergy
+Xa5sI	Penicillinase-sensitive penicillins allergy
+Xa5sP	Penicillinase-resistant penicillins allergy
+Xa5sT	Broad spectrum penicillins allergy
+Xa5sc	Antipseudomonal penicillins allergy
+Xa5si	Mecillinam allergy
+Xa5sj	Pivmecillinam allergy
+Xa5sk	Combined penicillin preparation allergy
+Xa5ss	Colistin allergy
+Xa5st	Polymyxin B allergy
+Xa5sw	First generation cephalosporin allergy
+Xa5t3	Second generation cephalosporin allergy
+Xa5t7	Third generation cephalosporin allergy
+Xa5tH	Fourth generation cephalosporin allergy
+Xa5tK	Cefoxitin allergy
+Xa5tN	Clindamycin allergy
+Xa5tO	Lincomycin allergy
+Xa5tR	Aztreonam allergy
+Xa5tT	Metronidazole allergy
+Xa5tU	Tinidazole allergy
+Xa5tV	Nimorazole allergy
+Xa5tX	Calcium sulphaloxate allergy
+Xa5tY	Phthalylsulphathiazole allergy
+Xa5tZ	Sulfametopyrazine allergy
+Xa5ta	Sulphadiazine allergy
+Xa5tb	Sulphadimethoxine allergy
+Xa5tc	Sulphadimidine allergy
+Xa5td	Sulphafurazole allergy
+Xa5te	Sulphaguanidine allergy
+Xa5tf	Sulphaurea allergy
+Xa5tg	Mafenide allergy
+Xa5th	Silver sulphadiazine allergy
+Xa5ti	Combined sulphonamides allergy
+Xa5tj	Sulphacetamide allergy
+Xa5tl	Clomocycline sodium allergy
+Xa5tm	Doxycycline allergy
+Xa5tn	Lymecycline allergy
+Xa5to	Minocycline allergy
+Xa5tp	Oxytetracycline allergy
+Xa5tr	Chlortetracycline allergy
+Xa5ts	Demeclocycline allergy
+Xa5tt	Tetracycline allergy
+Xa5tz	Sodium stibogluconate allergy
+Xa5u1	Pentamidine allergy
+Xa5u3	Diloxanide allergy
+Xa5u5	Clioquinol allergy
+Xa5u8	Pyrazinamide allergy
+Xa5u9	Antibiotic antituberculosis drug allergy
+Xa5uE	Hydrazide antituberculosis drug allergy
+Xa5uG	Ethambutolol allergy
+Xa5uI	Dapsone allergy
+Xa5uJ	Clofazimine allergy
+Xa5uO	Carbaryl allergy
+Xa5uQ	Lindane allergy
+Xa5uS	Malathion allergy
+Xa5uU	Phenothrin allergy
+Xa5uV	Permethrin allergy
+Xa5uZ	Intramuscular immunoglobulin allergy
+Xa5ua	Intravenous immunoglobulin allergy
+Xa5ui	Diphtheria single antigen vaccine allergy
+Xa5uj	Diphtheria and tetanus vaccine allergy
+Xa5uk	Diphtheria and tetanus and pertussis vaccine allergy
+Xa5un	Influenza split virion vaccine allergy
+Xa5uo	Influenza surface antigen vaccine allergy
+Xa5uy	Typhoid polysaccharide vaccine allergy
+Xa5uz	Typhoid whole cell vaccine allergy
+Xa5vC	Carbimazole allergy
+Xa5vE	Propylthiouracil allergy
+Xa5vI	Topical hydrocortisone allergy
+Xa5vJ	Topical compound hydrocortisone preparation allergy
+Xa5vf	Topical dexamethasone allergy
+Xa5vg	Topical compound dexamethasone preparation allergy
+Xa5vj	Topical prednisolone allergy
+Xa5vo	Topical budesonide allergy
+Xa5vy	Humulin insulin allergy
+Xa5vz	Initard insulin allergy
+Xa5w0	Pur-In-Mix insulin allergy
+Xa5w1	Mixtard insulin allergy
+Xa5w4	Acetohexamide allergy
+Xa5w5	Chlorpropamide allergy
+Xa5w6	Glibenclamide allergy
+Xa5w7	Glibornuride allergy
+Xa5w8	Gliclazide allergy
+Xa5w9	Glipizide allergy
+Xa5wA	Gliquidone allergy
+Xa5wB	Glymidine allergy
+Xa5wC	Tolazamide allergy
+Xa5wD	Tolbutamide allergy
+Xa5wF	Metformin allergy
+Xa5wK	Allyloestrenol allergy
+Xa5wL	Dydrogesterone allergy
+Xa5wM	Progesterone allergy
+Xa5wN	Gestronol allergy
+Xa5wO	Hydroxyprogesterone allergy
+Xa5wP	Megestrol allergy
+Xa5wQ	Norethisterone allergy
+Xa5wR	Ethynodiol diacetate allergy
+Xa5wS	Levonorgestrel allergy
+Xa5wT	Medroxyprogesterone allergy
+Xa5wV	Tibolone allergy
+Xa5wW	Drostanolone propionate allergy
+Xa5wX	Oxymetholone allergy
+Xa5wY	Nandrolone allergy
+Xa5wZ	Stanozolol allergy
+Xa5we	Finasteride allergy
+Xa5wf	Flutamide allergy
+Xa5wg	Bicalutamide allergy
+Xa5wh	Cyproterone acetate and ethinyloestradiol allergy
+Xa5wi	Cyproterone allergy
+Xa5wl	Mesterolone allergy
+Xa5wm	Methyltestosterone allergy
+Xa5wn	Testosterone allergy
+Xa5wt	Oestradiol allergy
+Xa5wx	Piperazine oestrone sulphate allergy
+Xa5wy	Quinestradol allergy
+Xa5wz	Quinestrol allergy
+Xa5x0	Dienoestrol allergy
+Xa5x1	Polyestradiol phosphate allergy
+Xa5x2	Fosfestrol allergy
+Xa5x3	Mestranol allergy
+Xa5x4	Ethinyloestradiol allergy
+Xa5x5	Oestriol allergy
+Xa5x6	Conjugated oestrogens allergy
+Xa5x7	Stilboestrol allergy
+Xa5xI	Desmopressin allergy
+Xa5xJ	Lypressin allergy
+Xa5xK	Terlipressin allergy
+Xa5xL	Vasopressin allergy
+Xa5xN	Corticotrophins allergy
+Xa5xO	Tetracosactrin allergy
+Xa5xQ	Gonadorelin allergy
+Xa5xR	Nafarelin allergy
+Xa5xS	Buserelin allergy
+Xa5xT	Goserelin allergy
+Xa5xU	Triptorelin allergy
+Xa5xV	Gonadotrophic hormone allergy
+Xa5xW	Leuprorelin allergy
+Xa5xY	Oxytocin allergy
+Xa5xZ	Oxytocin and ergometrine allergy
+Xa5xb	Octreotide allergy
+Xa5xc	Growth hormone allergy
+Xa5xe	Protirelin allergy
+Xa5xf	Thyrotrophin allergy
+Xa5xi	Disodium etidronate allergy
+Xa5xj	Disodium pamidronate allergy
+Xa5xk	Sodium clodronate allergy
+Xa5xl	Disodium etidronate and calcium carbonate allergy
+Xa5xn	Calcitonin allergy
+Xa5y5	Factor VIII fraction products allergy
+Xa5y6	Factor IX fraction products allergy
+Xa5y7	Activated factor VII products allergy
+Xa5y9	Factor IX by-passing fraction products allergy
+Xa5yA	Factor V concentrate products allergy
+Xa5yB	Factor VII concentrate products allergy
+Xa5yC	Factor VIII by-passing fraction products allergy
+Xa5yD	Factor XI products allergy
+Xa5yE	Factor XIII products allergy
+Xa5yF	von Willebrand factor products allergy
+Xa5yI	Ancrod allergy
+Xa5yJ	Heparin allergy
+Xa5yN	Heparinoid allergy
+Xad9o	Rivaroxaban allergy
+Xad9p	Apixaban allergy
+Xa5yQ	Coumarin anticoagulant allergy
+Xa5yT	Indanedione anticoagulant allergy
+Xa5yj	Ferrous fumarate allergy
+Xa5yk	Ferrous gluconate allergy
+Xa5yl	Ferrous glycine sulphate allergy
+Xa5ym	Ferrous succinate allergy
+Xa5yn	Ferrous sulphate allergy
+Xa5yo	Ferrous phosphate allergy
+Xa5yr	Intravenous nutrition (electrolytes/trace elements) allergy
+Xa5ys	Intravenous nutrition (vitamins) allergy
+Xa5z1	Povidone iodine allergy
+Xa5z8	Vitamin A allergy
+Xa5z9	Vitamin D allergy
+Xa5zA	Vitamin K allergy
+Xa5zB	Alpha-tocopheryl allergy
+Xa5zD	Vitamin B group allergy
+Xa5zP	Ascorbic acid allergy
+Xa5zS	Sodium cellulose phosphate allergy
+Xa5zT	Calcium polystyrene sulphonate allergy
+Xa5zU	Sodium polystyrene sulphonate allergy
+Xa5zj	Colestipol allergy
+Xa5zk	Cholestyramine allergy
+Xa5zm	Bezafibrate allergy
+Xa5zn	Clofibrate allergy
+Xa5zo	Fenofibrate allergy
+Xa5zp	Ciprofibrate allergy
+Xa5zr	Omega 3-marine triglycerides allergy
+Xa5zt	Simvastatin allergy
+Xa5zu	Fluvastatin allergy
+Xa5zv	Pravastatin allergy
+Xa5zz	Disopyramide allergy
+Xa600	Quinidine allergy
+Xa601	Flecainide allergy
+Xa602	Mexiletine allergy
+Xa603	Moracizine allergy
+Xa604	Procainamide allergy
+Xa605	Propafenone allergy
+Xa606	Tocainide allergy
+Xa608	Bretylium allergy
+Xa60A	Amiodarone allergy
+Xa60E	Bendroflumethiazide allergy
+Xa60F	Chlorothiazide allergy
+Xa60G	Cyclopenthiazide allergy
+Xa60H	Hydrochlorothiazide allergy
+Xa60I	Hydroflumethiazide allergy
+Xa60J	Methyclothiazide allergy
+Xa60K	Polythiazide allergy
+Xa60M	Frusemide allergy
+Xa60N	Bumetanide allergy
+Xa60O	Ethacrynic acid allergy
+Xa60P	Piretanide allergy
+Xa60Q	Torasemide allergy
+Xa60S	Triamterene allergy
+Xa60T	Aldosterone antagonists allergy
+Xa60W	Amiloride allergy
+Xa60Y	Amiloride and loop diuretic allergy
+Xa60Z	Amiloride and thiazide diuretic allergy
+Xa60a	Spironolactone and loop diuretic allergy
+Xa60b	Spironolactone and thiazide diuretic allergy
+Xa60c	Triamterene and loop diuretic allergy
+Xa60d	Triamterene and thiazide diuretic allergy
+Xa60f	Mannitol allergy
+Xa60h	Mersalyl allergy
+Xa60j	Chlorthalidone allergy
+Xa60k	Indapamide allergy
+Xa60l	Mefruside allergy
+Xa60m	Metolazone allergy
+Xa60n	Xipamide allergy
+Xa60p	Dichlorphenamide allergy
+Xa60q	Acetazolamide allergy
+Xa60t	Bethanidine allergy
+Xa60u	Debrisoquine allergy
+Xa60v	Guanethidine allergy
+Xa60x	Captopril allergy
+Xa60y	Lisinopril allergy
+Xa60z	Quinapril allergy
+Xa610	Ramipril allergy
+Xa611	Cilazapril allergy
+Xa612	Trandolapril allergy
+Xa613	Enalapril allergy
+Xa614	Fosinopril allergy
+Xa615	Perindopril allergy
+Xa617	Trimetaphan allergy
+Xa61D	Digoxin allergy
+Xa61E	Digitoxin allergy
+Xa61F	Lanatoside C allergy
+Xa61G	Medigoxin allergy
+Xa61H	Ouabain allergy
+Xa61J	Enoximone allergy
+Xa61K	Milrinone allergy
+XaXgz	Phosphodiesterase-5 inhibitor allergy
+Xa61N	Co-dergocrine allergy
+Xa61O	Ergot alkaloid allergy
+Xa61T	Minoxidil allergy
+Xa61U	Sodium nitroprusside allergy
+Xa61V	Flosequinan allergy
+Xa61W	Diazoxide allergy
+Xa61X	Hydralazine allergy
+Xa61b	Glyceryl trinitrate allergy
+Xa61h	Isosorbide dinitrate allergy
+Xa61l	Isosorbide mononitrate allergy
+Xa61n	Pentaerythritol tetranitrate allergy
+Xa61p	Bamethan sulphate allergy
+Xa61q	Oxpentifylline allergy
+Xa61r	Cyclandelate allergy
+Xa61s	Nicofuranose allergy
+Xa61t	Inositol nicotinate allergy
+Xa61u	Isoxsuprine allergy
+Xa61v	Naftidrofuryl allergy
+Xa61w	Nicotinyl alcohol allergy
+Xa61y	Thymoxamine allergy
+Xa5dq	Aspirin allergy
+Xa5dv	Dextromoramide allergy
+Xa5dw	Dextropropoxyphene allergy
+Xa5dx	Dipipanone allergy
+Xa5dy	Methadone allergy
+Xa5e0	Buprenorphine allergy
+Xa5e1	Codeine allergy
+Xa5e2	Diamorphine allergy
+Xa5e3	Dihydrocodeine allergy
+Xa5e4	Nalbuphine allergy
+Xa5e5	Morphine allergy
+Xa5e8	Alfentanil allergy
+Xa5e9	Fentanyl allergy
+Xa5eA	Pethidine allergy
+Xa5eB	Phenoperidine allergy
+Xa5gO	Chlorambucil allergy
+Xa5gP	Cyclophosphamide allergy
+Xa5gQ	Ethoglucid allergy
+Xa5gR	Ifosfamide allergy
+Xa5gS	Melphalan allergy
+Xa5gT	Estramustine allergy
+Xa5gU	Mustine allergy
+Xa5gW	Carmustine allergy
+Xa5gX	Lomustine allergy
+Xa5gZ	Dacarbazine allergy
+Xa5iV	Amylobarbitone allergy
+Xa5iW	Butobarbitone allergy
+Xa5iX	Cyclobarbitone allergy
+Xa5iY	Amylobarbitone sodium allergy
+Xa5iZ	Quinalbarbitone allergy
+Xa5ib	Flunitrazepam allergy
+Xa5ic	Flurazepam allergy
+Xa5id	Loprazolam allergy
+Xa5ie	Lormetazepam allergy
+Xa5if	Nitrazepam allergy
+Xa5ig	Triazolam allergy
+Xa5ih	Alprazolam allergy
+Xa5ii	Bromazepam allergy
+Xa5ij	Chlordiazepoxide allergy
+Xa5ik	Clobazam allergy
+Xa5il	Potassium clorazepate allergy
+Xa5im	Ketazolam allergy
+Xa5in	Medazepam allergy
+Xa5io	Oxazepam allergy
+Xa5ip	Prazepam allergy
+Xa5iq	Midazolam allergy
+Xa5ir	Diazepam allergy
+Xa5is	Lorazepam allergy
+Xa5it	Temazepam allergy
+Xa5iv	Meprobamate allergy
+Xa5ix	Chloral hydrate allergy
+Xa5iy	Dichloralphenazone allergy
+Xa5iz	Triclofos sodium allergy
+Xa5j9	Benperidol allergy
+Xa5jA	Trifluperidol allergy
+Xa5jB	Haloperidol decanoate allergy
+Xa5jC	Droperidol allergy
+Xa5jD	Haloperidol allergy
+Xa5jF	Pimozide allergy
+Xa5jG	Fluspirilene allergy
+Xa5jI	Methotrimeprazine allergy
+Xa5jJ	Pericyazine allergy
+Xa5jK	Fluphenazine decanoate allergy
+Xa5jL	Fluphenazine enanthate allergy
+Xa5jM	Thiethylperazine allergy
+Xa5jN	Fluphenazine allergy
+Xa5jO	Chlorpromazine allergy
+Xa5jP	Pipothiazine allergy
+Xa5jQ	Promazine allergy
+Xa5jR	Thioridazine allergy
+Xa5jS	Perphenazine allergy
+Xa5jT	Prochlorperazine allergy
+Xa5jU	Trifluoperazine allergy
+Xa5jW	Chlorprothixene allergy
+Xa5jX	Flupenthixol decanoate allergy
+Xa5jY	Zuclopenthixol decanoate allergy
+Xa5jZ	Zuclopenthixol allergy
+Xa5ja	Flupenthixol allergy
+Xa5ky	Pirbuterol allergy
+Xa5kz	Salmeterol allergy
+Xa5l0	Salbutamol allergy
+Xa5l1	Bambuterol allergy
+Xa5l2	Fenoterol allergy
+Xa5l3	Orciprenaline allergy
+Xa5l4	Reproterol allergy
+Xa5l5	Rimiterol allergy
+Xa5l6	Ritodrine allergy
+Xa5l7	Terbutaline allergy
+Xa5l8	Tulobuterol allergy
+Xa5lA	Dobutamine allergy
+Xa5lB	Dopexamine allergy
+Xa5lD	Oral isoprenaline allergy
+Xa5lE	Inhaled isoprenaline allergy
+Xa5lF	Parenteral isoprenaline allergy
+Xa5lI	Methyldopa and diuretic allergy
+Xa5lb	Hyoscine hydrobromide allergy
+Xa5ll	Orphenadrine hydrochloride allergy
+Xa5lm	Orphenadrine citrate allergy
+Xa5mB	Astemizole allergy
+Xa5mC	Terfenadine allergy
+Xa5mD	Acrivastine allergy
+Xa5mE	Loratadine allergy
+Xa5mF	Azelastine allergy
+Xa5mG	Cetirizine allergy
+Xa5mI	Clemastine allergy
+Xa5mJ	Mebhydrolin allergy
+Xa5mK	Mequitazine allergy
+Xa5mL	Oxatomide allergy
+Xa5mM	Cyclizine allergy
+Xa5mN	Dimenhydrinate allergy
+Xa5mO	Meclozine hydrochloride allergy
+Xa5mP	Antazoline allergy
+Xa5mQ	Promethazine allergy
+Xa5mR	Azatadine allergy
+Xa5mS	Brompheniramine allergy
+Xa5mT	Chlorpheniramine allergy
+Xa5mU	Cinnarizine allergy
+Xa5mV	Cyproheptadine allergy
+Xa5mW	Dimethindene allergy
+Xa5mX	Diphenhydramine allergy
+Xa5mY	Diphenylpyraline allergy
+Xa5mZ	Hydroxyzine allergy
+Xa5ma	Mepyramine allergy
+Xa5mb	Phenindamine allergy
+Xa5mc	Pheniramine allergy
+Xa5md	Triprolidine allergy
+Xa5me	Trimeprazine allergy
+Xa5mo	Dextromethorphan hydrobromide allergy
+Xa5mp	Noscapine allergy
+Xa5mq	Pholcodine allergy
+Xa5nz	Suxamethonium allergy
+Xa5o1	Mivacurium allergy
+Xa5o2	Alcuronium allergy
+Xa5o3	Atracurium allergy
+Xa5o4	Gallamine allergy
+Xa5o5	Pancuronium allergy
+Xa5o6	Tubocurarine allergy
+Xa5o7	Vecuronium allergy
+Xa5o8	Rocuronium allergy
+Xa5q4	Clotrimazole allergy
+Xa5q5	Fenticonazole allergy
+Xa5q6	Tioconazole allergy
+Xa5q7	Econazole allergy
+Xa5q8	Isoconazole allergy
+Xa5q9	Sulconazole allergy
+Xa5qA	Ketoconazole allergy
+Xa5qB	Miconazole allergy
+Xa5qD	Fluconazole allergy
+Xa5qE	Itraconazole allergy
+Xa5r1	Chloroxylenol allergy
+Xa5r2	Hexachlorophane allergy
+Xa5r3	Triclosan allergy
+Xa5r7	Industrial methylated spirit allergy
+Xa5rB	Noxythiolin allergy
+Xa5rC	Formaldehyde allergy
+Xa5rN	Cetrimide allergy
+Xa5rO	Benzalkonium allergy
+Xa5rP	Domiphen allergy
+Xa5rR	Cetylpyridinium allergy
+Xa5rT	Dequalinium allergy
+Xa5rX	Crystal violet allergy
+Xa5rY	Brilliant green allergy
+Xa5sJ	Benethamine penicillin allergy
+Xa5sK	Benzathine penicillin allergy
+Xa5sL	Phenethicillin allergy
+Xa5sM	Phenoxymethylpenicillin allergy
+Xa5sN	Procaine penicillin allergy
+Xa5sO	Benzylpenicillin allergy
+Xa5sQ	Cloxacillin allergy
+Xa5sR	Flucloxacillin allergy
+Xa5sS	Methicillin allergy
+Xa5sU	Amoxycillin allergy
+Xa5sV	Ampicillin allergy
+Xa5sW	Ciclacillin allergy
+Xa5sX	Mezlocillin allergy
+Xa5sY	Pivampicillin allergy
+Xa5sZ	Carbenicillin allergy
+Xa5sa	Bacampicillin allergy
+Xa5sb	Talampicillin allergy
+Xa5sd	Temocillin allergy
+Xa5se	Piperacillin allergy
+Xa5sf	Azlocillin allergy
+Xa5sg	Ticarcillin allergy
+Xa5sh	Carfecillin allergy
+Xa5sl	Ampicillin and cloxacillin allergy
+Xa5sm	Co-amoxiclav allergy
+Xa5sn	Co-fluampicil allergy
+Xa5so	Piperacillin and tazobactam allergy
+Xa5sp	Pivampicillin and pivmecillinam allergy
+Xa5sq	Ticarcillin and clavulanic acid allergy
+Xa5sx	Cefadroxil allergy
+Xa5sy	Cephalexin allergy
+Xa5sz	Cephalothin allergy
+Xa5t0	Cephazolin allergy
+Xa5t1	Cephradine allergy
+Xa5t2	Latamoxef allergy
+Xa5t4	Cefaclor allergy
+Xa5t5	Cefuroxime allergy
+Xa5t6	Cephamandole allergy
+Xa5t8	Cefotaxime allergy
+Xa5t9	Ceftazidime allergy
+Xa5tA	Ceftizoxime allergy
+Xa5tB	Cefixime allergy
+Xa5tC	Cefodizime allergy
+Xa5tD	Cefpodoxime allergy
+Xa5tE	Ceftriaxone allergy
+Xa5tF	Ceftibuten allergy
+Xa5tG	Cefsulodin allergy
+Xa5tI	Cefpirome allergy
+Xa5uA	Capreomycin allergy
+Xa5uB	Cycloserine allergy
+Xa5uC	Rifampicin allergy
+Xa5uD	Rifabutin allergy
+Xa5uF	Isoniazid allergy
+Xa5wo	Testosterone implant allergy
+Xa5wp	Intramuscular testosterone allergy
+Xa5wq	Oral testosterone allergy
+Xa5wr	Testosterone patch allergy
+Xa5wu	Oral oestradiol allergy
+Xa5wv	Oestradiol implant allergy
+Xa5ww	Topical oestradiol allergy
+Xa5xo	Salcatonin allergy
+Xa5xp	Calcitonin (pork) allergy
+Xa5y8	Acset allergy
+Xa5yK	Enoxaparin allergy
+Xa5yL	Dalteparin allergy
+Xa5yM	Tinzaparin allergy
+Xa5yO	Danaparoid sodium allergy
+Xa5yR	Nicoumalone allergy
+Xa5yS	Warfarin allergy
+Xa5yU	Phenindione allergy
+Xa5zE	Nicotinic acid allergy
+Xa5zF	Folic acid allergy
+Xa5zG	Folinic acid allergy
+Xa5zH	Vitamin B12 preparation allergy
+Xa5zK	Nicotinamide allergy
+Xa5zM	Inositol allergy
+Xa5zN	Pyridoxine preparation allergy
+Xa5zO	Thiamine preparation allergy
+Xa60U	Potassium canrenoate allergy
+Xa60V	Spironolactone allergy
+Xa61P	Dihydroergotamine mesylate allergy
+Xa61Q	Ergometrine allergy
+Xa61c	Oral glyceryl trinitrate allergy
+Xa61e	Parenteral glyceryl trinitrate allergy
+Xa61f	Transdermal glyceryl trinitrate allergy
+Xa61g	Glyceryl trinitrate spray allergy
+Xa61i	Parenteral isosorbide dinitrate allergy
+Xa61j	Oral isosorbide dinitrate allergy
+Xa61m	Modified release isosorbide mononitrate allergy
+Xa5zI	Hydroxocobalamin allergy
+Xa5zJ	Cyanocobalamin allergy
+Xa61d	Modified release GTN allergy
+Xa61k	Modified release isosorbide dinitrate allergy
+SN581	Egg protein allergy
+Xa1nm	Egg allergy
+Xa1aX	Food allergy
+Xa1nn	Cow's milk allergy
+Xa1no	Peanut allergy
+Xa1np	Seafood allergy
+Xa7lI	Strawberry allergy
+Xa7lJ	Nut allergy
+Xa7lN	Chocolate allergy
+Xa7lP	Cheese allergy
+XaOYT	Wheat allergy
+XaXYk	Mushroom allergy
+Xaa0d	Allergy to soya
+XabWn	Allergy to banana
+Xad15	Allergy to tomato
+Xa7lO	Shellfish allergy
+XaQaY	Fish allergy
+X00l4	Dander (animal) allergy
+X00l5	Feather allergy
+X00l6	House dust allergy
+X00l7	House dust mite allergy
+XE1ot	Allergy, unspecified
+Xa7lH	Perfume allergy
+Xa7lL	Allergy to pollen
+Xa7lQ	Metal allergy
+Xa7lR	Latex allergy
+XaIRZ	Dust allergy
+XaLKU	Allergy to plasters
+XaYzE	Allergy to cosmetic product
+X00l3	Cat allergy
+Xa7lM	Allergy to animal hair
+XaIpW	Allergy to animal
+XaOb5	Allergy to dog dander
+XaOj7	Allergy to grass pollen
+XaeXG	Allergy to stainless steel
+X77e9	Allergy skin test
+x05By	Beconase Allergy
+x05lq	Benadryl Allergy
+H171.	Feather allergy
+SN53.	Allergy, unspecified
+XaNfE	Oral allergy syndrome
+XaQah	Allergy to nebivolol
+XaLGR	Transfer-degraded drug allergy
+XaLGS	Transfer-degraded non-drug allergy
+x044U	Opticrom Allergy
+x05j3	Optrex Allergy
+x05FH	Rhinolast Allergy
+x05db	Zirtek Allergy
+x05qT	Pollenase Allergy
+J432.	Cow's milk allergy
+XM0Zn	Nogier auricular allergy
+x04r6	Rynacrom Allergy
+x05GG	Clarityn Allergy
+x05cW	Alomide Allergy
+x05lt	Flixonase Allergy
+x05se	Piriteze Allergy
+66G4.	Allergy drug side effect

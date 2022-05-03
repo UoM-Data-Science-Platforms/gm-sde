@@ -1,0 +1,22 @@
+aa3J.	Mesalazine 2g/59mL enema
+aa3H.	Mesalazine 1g/dose rectal foam
+aa3F.	Mesalazine 1g suppository
+aa39.	Mesalazine 500mg suppository
+aa38.	Mesalazine 250mg suppository
+aa33.	Mesalazine 1g/100mL retention enema
+aa3z.	Mesalazine 400mg e/c tablet
+aa3y.	Mesalazine 1g/sachet m/r granules
+aa3x.	Mesalazine 500mg/sachet m/r granules
+aa3w.	MESALAZINE 1200mg m/r tablets
+aa3V.	MESALAZINE 800mg m/r tablets
+aa3D.	Mesalazine 500mg m/r tablet
+aa3B.	Mesalazine 250mg e/c tablet
+aa34.	Mesalazine 250mg m/r tablet
+aa8..	Mesalazine duplicate deleted
+aa3l.	MESALAZINE 4g/sachet m/r granules
+aa3j.	MESALAZINE 400mg m/r tablets
+aa3h.	MESALAZINE 3g/sachet m/r granules
+aa3f.	MESALAZINE 1g m/r tablets
+aa3c.	MESALAZINE 500mg gastro-resistant tablets
+aa3Z.	MESALAZINE 1.5g/sachet m/r granules
+aa3X.	MESALAZINE 2g/sachet m/r granules

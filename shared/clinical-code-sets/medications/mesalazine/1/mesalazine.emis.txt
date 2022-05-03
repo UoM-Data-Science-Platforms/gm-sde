@@ -1,0 +1,30 @@
+MEE/20664EMIS	Mesalazine  Gastro-resistant Tablets  250 mg
+MEE/32619EMIS	Mesalazine  Gastro-resistant Tablets  400 mg
+MEE/37557MGEMIS	Mesalazine  E/c tablets  400 mg (Unichem)
+MEE/37558MGEMIS	Mesalazine  E/c tablets  400 mg (Kent Pharm)
+MEE/37559MGEMIS	Mesalazine  E/c tablets  400 mg (A.A.H. Pharm)
+MEEN28793EMIS	Mesalazine  Enema  2 grams/59 ml
+MEEN9690HILLI	Mesalazine  Retention enema  1 g/100 ml
+MEFO24953EMIS	Mesalazine  Foam enema  1 gram per dose
+MEGA126932NEMIS	Mesalazine  Gastro-resistant Tablets  1 gram
+MEGA133916NEMIS	Mesalazine  Gastro-resistant Tablets  1.6 grams
+MEGA16606NEMIS	Mesalazine  Gastro-resistant M/R granules  1000 mg/sachet
+MEGA16607NEMIS	Mesalazine  Gastro-resistant M/R granules  500 mg/sachet
+MEGA27786NEMIS	Mesalazine  Gastro-resistant M/R Tablets  1.2 grams
+MEGA33312NEMIS	Mesalazine  Gastro-resistant M/R granules  1.5 gram/sachet, sugar free
+MEGA47514NEMIS	Mesalazine  Gastro-resistant Tablets  500 mg
+MEGA52633NEMIS	Mesalazine  Gastro-resistant M/R granules  3 gram/sachet, sugar free
+MEM/16287NEMIS	Mesalazine  M/R tablets  400 mg
+MEM/1722NEMIS	Mesalazine  M/R Granules Sugar Free  1 gram/sachet
+MEM/23703EMIS	Mesalazine  M/R tablets  500 mg
+MEM/28977NEMIS	Mesalazine  Gastro-resistant Tablets  800 mg
+MEM/30152NEMIS	Mesalazine  M/R Granules Sugar Free  2 gram/sachet
+MEM/51816NEMIS	Mesalazine  M/R tablets  1 gram
+MEM/98847NEMIS	Mesalazine  M/R Granules Sugar Free  4 gram/sachet
+MEOR33484NEMIS	Mesalazine  Oral suspension  500 mg/5 ml
+MERE13434NEMIS	Mesalazine  Rectal foam  1 gram/application, 80g (14 dose) canister 
+MESR10078BRIDL	Mesalazine  M/R tablets  250 mg
+MESU24200EMIS	Mesalazine  Suppositories  1 gram
+MESU9446EMIS	Mesalazine  Suppositories  250 mg
+MESU9447EMIS	Mesalazine  Suppositories  500 mg
+META6790	Mesalazine  Tablets  400 mg

@@ -1,0 +1,24 @@
+aa8..00	*MESALAZINE DUPLICATE DELETED
+aa81.00	*MESALAZINE 1g/100mL enema
+aa3..00	MESALAZINE
+aa3z.00	MESALAZINE 400mg tablets
+aa3y.00	MESALAZINE 1g/sachet m/r granules
+aa3x.00	MESALAZINE 500mg/sachet m/r granules
+aa3w.00	MESALAZINE 1200mg m/r tablets
+aa3l.00	MESALAZINE 4g/sachet m/r granules
+aa3j.00	MESALAZINE 400mg m/r tablets
+aa3h.00	MESALAZINE 3g/sachet m/r granules
+aa3f.00	MESALAZINE 1g m/r tablets
+aa3c.00	MESALAZINE 500mg gastro-resistant tablets
+aa3Z.00	MESALAZINE 1.5g/sachet m/r granules
+aa3X.00	MESALAZINE 2g/sachet m/r granules
+aa3V.00	MESALAZINE 800mg m/r tablets
+aa3J.00	MESALAZINE 2g/59mL enema
+aa3H.00	MESALAZINE 1g/metered dose foam enema
+aa3F.00	MESALAZINE 1g suppositories
+aa3D.00	MESALAZINE 500mg m/r tablets
+aa3B.00	MESALAZINE 250mg e/c tablets
+aa39.00	MESALAZINE 500mg suppositories
+aa38.00	MESALAZINE 250mg suppositories
+aa34.00	*MESALAZINE 250mg m/r tablets
+aa33.00	MESALAZINE 1g/100mL enema
