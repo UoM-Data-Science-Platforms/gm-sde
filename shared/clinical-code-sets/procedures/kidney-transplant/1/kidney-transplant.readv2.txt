@@ -1,0 +1,15 @@
+14S2.	H/O: kidney recipient
+7B00.	Transplantation of kidney
+7B001	Allotransplantation of kidney from live donor
+7B001	Transplantation of kidney from live donor
+7B002	Allotransplantation of kidney from cadaver
+7B002	Cadaveric renal transplant
+7B002	Transplantation of kidney from cadaver
+7B00y	Other specified transplantation of kidney
+7B00z	Transplantation of kidney NOS
+K0B5.	Renal tubulo-interstitial disorders in transplant rejection
+SP080	Transplanted organ failure
+SP083	Kidney transplant failure and rejection
+TB001	Renal transplant with complication, without blame
+TB001	Transplantation of kidney as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+ZV420	[V]Kidney transplanted

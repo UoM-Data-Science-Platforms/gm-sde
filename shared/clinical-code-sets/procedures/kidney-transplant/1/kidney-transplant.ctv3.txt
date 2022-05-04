@@ -1,0 +1,58 @@
+14S2.	H/O: kidney recipient
+7B00.	Renal transplant
+7B001	Live donor renal transplant
+7B002	Cadaveric renal transplant
+7B00y	Other specified transplantation of kidney
+7B00z	Transplantation of kidney NOS
+K0B5.	Renal tubulo-interstitial disorders in transplant rejection
+SP080	(Transpl organ fail) or (deterior ren func aft ren transpl)
+SP083	Kidney transplant failure and rejection
+TB001	Kidney transplant with complication, without blame
+X30D2	Xenograft renal transplant
+X30J3	End stage renal failure with renal transplant
+X30Ma	Chronic rejection of renal transplant - grade III
+X30Mb	Acute-on-chronic rejection of renal transplant
+X30Mc	Failed renal transplant
+X30Md	Perfusion injury of renal transplant
+X30Me	De novo transplant disease
+X30Mf	De novo glomerulonephritis
+X30Mg	Transplant glomerulopathy
+X30Mh	Transplant glomerulopathy - early form
+X30Mi	Transplant glomerulopathy - late form
+X30MN	Renal transplant disorder
+X30MO	Primary non-function of renal transplant
+X30MP	Renal transplant rejection
+X30MQ	Hyperacute rejection of renal transplant
+X30MR	Accelerated rejection of renal transplant
+X30MS	Very mild acute rejection of renal transplant
+X30MT	Acute rejection of renal transplant
+X30MU	Acute rejection of renal transplant - grade I
+X30MV	Acute rejection of renal transplant - grade II
+X30MW	Acute rejection of renal transplant - grade III
+X30MX	Chronic rejection of renal transplant
+X30MY	Chronic rejection of renal transplant - grade 1
+X30MZ	Chronic rejection of renal transplant - grade II
+X30NN	Perirenal and periureteric post-transplant lymphocele
+Xa0HK	Unexplained episode of renal transplant dysfunction
+Xa0HL	Pre-existing disease in renal transplant
+Xa1dw	Transplant kidney
+Xa3x6	Kidney replacement
+Xaa2O	Thrombosis of artery of transplanted kidney
+Xaa2Q	Thrombosis of vein of transplanted kidney
+XaE9T	Donor renal transplantation
+XaM1o	Allotransplantation of kidney from cadaver, heart-beating
+XaM1p	Allotransplantation kidney from cadaver, heart non-beating
+XaM4e	Interventions associated with transplantation of kidney
+XaM4f	OS interventions associated with transplantation of kidney
+XaM4g	Interventions associated with transplantation of kidney NOS
+XaM4l	Post-transplantation of kidney examination, recipient
+XaMKM	Allotransplantation of kidney from cadaver NEC
+XaZe2	Rupture of artery of transplanted kidney
+XaZe3	Rupture of vein of transplanted kidney
+XaZe7	Stenosis of vein of transplanted kidney
+XaZkw	Aneurysm of vein of transplanted kidney
+XaZl0	Aneurysm of artery of transplanted kidney
+XaZWa	Urological complication of renal transplant
+XaZYx	Vascular complication of renal transplant
+Y1602	Kidney-pancreas transplant
+ZV420	[V]Kidney transplanted
