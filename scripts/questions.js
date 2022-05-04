@@ -2,7 +2,7 @@ const inquirer = require('inquirer');
 const chalk = require('chalk');
 
 const {
-  evaulateCodeSets,
+  evaluateCodeSets,
   createCodeSet,
   getClinicalCodeSetTypes,
   getClinicalCodeSets,
@@ -12,7 +12,8 @@ const { createLtcSql } = require('./create-ltc-sql');
 const { generateReusableQueryDocs } = require('./docs');
 
 const choices = {
-  EVALUATE_CODE_SETS: 'Evaluate the existing code sets',
+  EVALUATE_CODE_SETS: 'Evaluate all existing code sets',
+  EVALUATE_SINGLE_CODE_SETS: 'Evaluate a single code set',
   CREATE_CODE_SET: 'Create a new code set',
   LTC_SQL: 'Create the long-term conditions reusable SQL',
   SEP1: new inquirer.Separator(),
@@ -78,7 +79,10 @@ const initialMenu = async () => {
 
   switch (answer.action) {
     case choices.EVALUATE_CODE_SETS:
-      await evaulateCodeSets();
+      await evaluateCodeSets();
+      break;
+    case choices.EVALUATE_SINGLE_CODE_SETS:
+      await evaluateCodeSets(true);
       break;
     case choices.CREATE_CODE_SET:
       await initCreateCodeSet();

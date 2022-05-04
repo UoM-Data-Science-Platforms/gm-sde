@@ -1,0 +1,37 @@
+{
+  "includeTerms": [
+    "tia",
+    "transient cerebral ischaemia",
+    "transient ischaemic attack",
+    "vertebro basilar insufficiency",
+    "basilar artery syndrome",
+    "vertebral artery syndrome",
+    "subclavian steal syndrome",
+    "carotid artery syndrome hemispheric",
+    "multiple and bilateral precerebral artery syndromes",
+    "vertebrobasilar insufficiency",
+    "impending cerebral ischaemia",
+    "intermittent cerebral ischaemia",
+    "transient ischaemic attacks",
+    "vertebrobasilar artery syndrome"
+  ],
+  "excludeTerms": [
+    "fh",
+    "h/o",
+    "monitor",
+    "referral",
+    "plan",
+    "suspected",
+    "history of",
+    "vertebral artery compression syndrome",
+    "drop attack"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdBy": {
+    "name": "Richard Williams",
+    "email": "1234richardwilliams@gmail.com"
+  },
+  "createdOn": "2020-05-19T13:55:57.547Z",
+  "lastUpdated": "2022-05-04T13:38:49.335Z"
+}

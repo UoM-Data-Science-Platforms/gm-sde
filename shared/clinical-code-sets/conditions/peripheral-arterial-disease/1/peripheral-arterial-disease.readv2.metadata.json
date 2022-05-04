@@ -1,0 +1,45 @@
+{
+  "includeTerms": [
+    "peripheral arterial disease",
+    "peripheral vascular disease",
+    "peripheral vascular disease*",
+    "peripheral ischaemia",
+    "ischaemia of legs",
+    "claudication"
+  ],
+  "excludeTerms": [
+    "screening",
+    "exception reporting",
+    "excepted from",
+    "fh",
+    "h/o",
+    "no peripheral vascular disease symptoms",
+    "monitoring",
+    "did not attend",
+    "vascular disease drugs",
+    "spasm of peripheral artery",
+    "neurogenic claudication",
+    "claudication questionnaire",
+    "claudication distance",
+    "peripheral gangrene",
+    "raynaud's syndrome",
+    "ischaemic foot",
+    "thromboangiitis obliterans",
+    "erythromelalgia",
+    "erythrocyanosis",
+    "acroparaesthesia",
+    "peripheral angiopathic disease",
+    "acrocyanosis",
+    "erythralgia",
+    "diabetic peripheral angiopathy",
+    "hand-arm vibration syndrome",
+    "vibration white finger"
+  ],
+  "terminology": "Readv2",
+  "createdBy": {
+    "name": "Richard Williams",
+    "email": "1234richardwilliams@gmail.com"
+  },
+  "createdOn": "2020-05-19T13:34:03.861Z",
+  "lastUpdated": "2020-05-19T13:34:11.063Z"
+}

@@ -1,0 +1,20 @@
+Fyu55	[X]Other transient cerebral ischaemic attacks and related syndromes
+G65..	Vertebro-basilar insufficiency
+G650.	Basilar artery syndrome
+G651.	Vertebral artery syndrome
+G6510	Vertebrobasilar artery syndrome
+G652.	Subclavian steal syndrome
+G653.	Carotid artery syndrome hemispheric
+G654.	Multiple and bilateral precerebral artery syndromes
+G65y.	Other transient cerebral ischaemia
+G65z.	Transient cerebral ischaemia NOS
+G65z0	Impending cerebral ischaemia
+G65z1	Intermittent cerebral ischaemia
+X00DU	Carotid territory transient ischaemic attack
+X00DV	Posterior circulation transient ischaemic attack
+X00DW	Vertebrobasilar insufficiency
+XaEGK	Transient ischaemic attacks
+XaRCF	Transient ischaemic attack monthly review
+XaZp5	High risk of TIA (transient ischaemic attack)
+XE0VK	Transient ischaemic attack
+XE0X0	Vertebro basilar insufficiency

@@ -1,0 +1,63 @@
+G602.00	Subarachnoid haemorrhage from middle cerebral artery
+G61..00	Intracerebral haemorrhage
+G61..11	CVA - cerebrovascular accident due to intracerebral haemorrhage
+G61..12	Stroke due to intracerebral haemorrhage
+G610.00	Cortical haemorrhage
+G611.00	Internal capsule haemorrhage
+G612.00	Basal nucleus haemorrhage
+G613.00	Cerebellar haemorrhage
+G614.00	Pontine haemorrhage
+G615.00	Bulbar haemorrhage
+G616.00	External capsule haemorrhage
+G618.00	Intracerebral haemorrhage, multiple localized
+G619.00	Lobar cerebral haemorrhage
+G61X.00	Intracerebral haemorrhage in hemisphere, unspecified
+G61X000	Left sided intracerebral haemorrhage, unspecified
+G61X100	Right sided intracerebral haemorrhage, unspecified
+G61z.00	Intracerebral haemorrhage NOS
+G63..11	Infarction - precerebral
+G63y000	Cerebral infarct due to thrombosis of precerebral arteries
+G63y100	Cerebral infarction due to embolism of precerebral arteries
+G64..00	Cerebral arterial occlusion
+G64..11	CVA - cerebrovascular accident due to cerebral artery occlusion
+G64..12	Infarction - cerebral
+G64..13	Stroke due to cerebral arterial occlusion
+G640.00	Cerebral thrombosis
+G640000	Cerebral infarction due to thrombosis of cerebral arteries
+G641.00	Cerebral embolism
+G641.11	Cerebral embolus
+G641000	Cerebral infarction due to embolism of cerebral arteries
+G64z.00	Cerebral infarction NOS
+G64z.11	Brainstem infarction NOS
+G64z.12	Cerebellar infarction
+G64z000	Brainstem infarction
+G64z100	Wallenberg syndrome
+G64z111	Lateral medullary syndrome
+G64z200	Left sided cerebral infarction
+G64z300	Right sided cerebral infarction
+G64z400	Infarction of basal ganglia
+G650.00	Basilar artery syndrome
+G651000	Vertebro-basilar artery syndrome
+G66..00	Stroke and cerebrovascular accident unspecified
+G66..11	CVA unspecified
+G66..12	Stroke unspecified
+G66..13	CVA - Cerebrovascular accident unspecified
+G660.00	Middle cerebral artery syndrome
+G661.00	Anterior cerebral artery syndrome
+G662.00	Posterior cerebral artery syndrome
+G663.00	Brain stem stroke syndrome
+G664.00	Cerebellar stroke syndrome
+G665.00	Pure motor lacunar syndrome
+G666.00	Pure sensory lacunar syndrome
+G667.00	Left sided CVA
+G668.00	Right sided CVA
+G676000	Cerebral infarction due to cerebral venous thrombosis, nonpyogenic
+G6W..00	Cerebral infarction due to unspecified occlusion or stenosis of precerebral arteries
+G6X..00	Cerebral infarction due to unspecified occlusion or stenosis of cerebral arteries
+Gyu6200	[X]Other intracerebral haemorrhage
+Gyu6300	[X]Cerebral infarction due to unspecified occlusion or stenosis of cerebral arteries
+Gyu6400	[X]Other cerebral infarction
+Gyu6500	[X]Occlusion and stenosis of other precerebral arteries
+Gyu6600	[X]Occlusion and stenosis of other cerebral arteries
+Gyu6F00	[X]Intracerebral haemorrhage in hemisphere, unspecified
+Gyu6G00	[X]Cerebral infarction due to unspecified occlusion or stenosis of precerebral arteries

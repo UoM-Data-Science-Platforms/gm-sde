@@ -1,0 +1,19 @@
+Xa0lV	Peripheral arterial disease
+XE0VP	Other peripheral vascular disease
+XE0XC	Vasc. dis. periph. NOS
+G73y.	Other specified peripheral vascular disease
+G73z.	Peripheral vascular disease NOS
+G73yz	Other specified peripheral vascular disease NOS
+Gyu74	[X]Other specified peripheral vascular diseases
+G73..	Other peripheral vascular disease
+X203Q	Peripheral ischaemic vascular disease
+X203R	Ischaemic arm
+X203T	Ischaemic leg
+G73z0	Vascular claudication
+XE0VR	Intermittent claudication
+XSDWB	Venous claudication
+XaVyB	History of peripheral vascular disease
+bn6..	Other drugs for peripheral vascular disease
+X70Cp	Spinal claudication
+XM1Qu	Claudication
+XaZJa	Ischaemic leg pain at rest

@@ -110,8 +110,8 @@ const getCodeSet = (codeSet) => {
 /**
  * Method to validate and evaulate the existing clinical code sets.
  */
-const evaulateCodeSets = async () => {
-  log('\nEvaluating the code sets...');
+const evaluateCodeSets = async (isSingle = false) => {
+  log(isSingle ? '\nEvaluating a single code set' : '\nEvaluating the code sets...');
   initializeClinicalCodeObjects();
 
   const codeSetTypes = getClinicalCodeSetTypes();
@@ -121,50 +121,74 @@ There are ${codeSetTypes.length} code set types. They are: ${codeSetTypes
     .map((x) => chalk.bgWhite.black(x))
     .join(' ')}.`);
 
-  for (const codeSetType of codeSetTypes) {
-    const codeSets = getClinicalCodeSets(codeSetType);
-    for (const codeSetName of codeSets) {
-      const versions = getCodeSetVersions(codeSetType, codeSetName);
-      for (const version of versions) {
-        checkForUnexpectedFiles(codeSetType, codeSetName, version);
-        await processFiles(codeSetType, codeSetName, version);
+  if (!isSingle) {
+    for (const codeSetType of codeSetTypes) {
+      const codeSets = getClinicalCodeSets(codeSetType);
+      for (const codeSetName of codeSets) {
+        const versions = getCodeSetVersions(codeSetType, codeSetName);
+        for (const version of versions) {
+          checkForUnexpectedFiles(codeSetType, codeSetName, version);
+          await processFiles(codeSetType, codeSetName, version);
+        }
       }
     }
+
+    const longestConceptLength = Object.keys(clinicalCodesByConcept).sort(
+      (a, b) => b.length - a.length
+    )[0].length;
+    const spacing = '                                                    ';
+    function spaceIt(concept) {
+      return (spacing + concept).substr(
+        (spacing + concept).length - longestConceptLength,
+        longestConceptLength
+      );
+    }
+
+    log(`
+  The code sets found are as follows:
+
+  ${Object.keys(clinicalCodesByConcept)
+    .map(
+      (concept) =>
+        `  ${chalk.cyan(spaceIt(concept))}: ${Object.keys(clinicalCodesByConcept[concept])
+          .map((x) => {
+            if (x === 'emis') return chalk.bgRed.bold(x);
+            if (x === 'readv2') return chalk.bgGreen.bold(x);
+            if (x === 'ctv3') return chalk.bgYellow.black(x);
+            if (x === 'snomed') return chalk.bgWhite.black(x);
+            return x;
+          })
+          .join(' ')}`
+    )
+    .join('\n')}
+
+  The code sets look ok. 
+  If there were any major issues you wouldn't see this message.
+  If there are minor issues they will appear above this message.
+    `);
+  } else {
+    const { codeSetType } = await inquirer.prompt([
+      {
+        type: 'list',
+        name: 'codeSetType',
+        message: `Which code set type?`,
+        choices: codeSetTypes.map((x) => ({ name: x, value: x })),
+      },
+    ]);
+    const { codeSetName } = await inquirer.prompt([
+      {
+        type: 'list',
+        name: 'codeSetName',
+        message: `Which code set?`,
+        choices: getClinicalCodeSets(codeSetType).map((x) => ({ name: x, value: x })),
+      },
+    ]);
+    const versions = getCodeSetVersions(codeSetType, codeSetName);
+    for (const version of versions) {
+      checkForUnexpectedFiles(codeSetType, codeSetName, version);
+      await processFiles(codeSetType, codeSetName, version);
+    }
   }
-
-  const longestConceptLength = Object.keys(clinicalCodesByConcept).sort(
-    (a, b) => b.length - a.length
-  )[0].length;
-  const spacing = '                                                    ';
-  function spaceIt(concept) {
-    return (spacing + concept).substr(
-      (spacing + concept).length - longestConceptLength,
-      longestConceptLength
-    );
-  }
-
-  log(`
-The code sets found are as follows:
-
-${Object.keys(clinicalCodesByConcept)
-  .map(
-    (concept) =>
-      `  ${chalk.cyan(spaceIt(concept))}: ${Object.keys(clinicalCodesByConcept[concept])
-        .map((x) => {
-          if (x === 'emis') return chalk.bgRed.bold(x);
-          if (x === 'readv2') return chalk.bgGreen.bold(x);
-          if (x === 'ctv3') return chalk.bgYellow.black(x);
-          if (x === 'snomed') return chalk.bgWhite.black(x);
-          return x;
-        })
-        .join(' ')}`
-  )
-  .join('\n')}
-
-The code sets look ok. 
-If there were any major issues you wouldn't see this message.
-If there are minor issues they will appear above this message.
-  `);
 };
 
 /**
@@ -172,7 +196,7 @@ If there are minor issues they will appear above this message.
  */
 const createCodeSetSQL = async (conditions = []) => {
   setSilence(true);
-  await evaulateCodeSets();
+  await evaluateCodeSets();
 
   setSilence(false);
 
@@ -807,7 +831,7 @@ function getReadMes(codeSets) {
 }
 
 module.exports = {
-  evaulateCodeSets,
+  evaluateCodeSets,
   createCodeSetSQL,
   getClinicalCodeSetTypes,
   getClinicalCodeSets,

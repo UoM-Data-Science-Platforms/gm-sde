@@ -1,0 +1,13 @@
+G73..12	Ischaemia of legs
+G73..13	Peripheral ischaemia
+G73..11	Peripheral ischaemic vascular disease
+G73..00	Other peripheral vascular disease
+G73z.00	Peripheral vascular disease NOS
+G73zz00	Peripheral vascular disease NOS
+G73z000	Intermittent claudication
+G73z011	Claudication
+G73z012	Vascular claudication
+G73y.00	Other specified peripheral vascular disease
+G73yz00	Other specified peripheral vascular disease NOS
+G734.00	Peripheral arterial disease
+Gyu7400	[X]Other specified peripheral vascular diseases
