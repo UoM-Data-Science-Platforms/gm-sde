@@ -6112,6 +6112,7 @@ All code sets required for this analysis are listed here. Individual lists for e
 |copd v1|emis|EMISNQAC878|Acute non-infective exacerbation of chronic obstructive pulmonary disease|
 |copd v1|emis|ESCTAC8|Acute infective exacerbation of chronic obstructive airways disease|
 |copd v1|readv2|8H2R.00|Admit COPD emergency|
+|copd v1|readv2|9kf0.00|Chronic obstructive pulmonary disease patient unsuitable for pulmonary rehabilitation|
 |copd v1|readv2|9kf0.11|Chronic obstructive pulmonary disease patient unsuitable for pulmonary rehabilitation|
 |copd v1|readv2|H3...00|Chronic obstructive pulmonary disease|
 |copd v1|readv2|H3...11|Chronic obstructive airways disease|
