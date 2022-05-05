@@ -98,7 +98,6 @@ X006Z	Cryptogenic myoclonic epilepsy
 X006a	Idiopathic myoclonic epilepsy
 X006c	Symptomatic generalised epilepsy
 X006d	Symptomatic early myoclonic encephalopathy
-X006e	Ohtahara syndrome
 X006f	Symptomatic myoclonic epilepsy
 X006l	Epilepsy undetermined whether focal or generalised
 X006n	Severe myoclonic epilepsy in infancy

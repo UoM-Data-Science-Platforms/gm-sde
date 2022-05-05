@@ -28,7 +28,6 @@ F250z00	Generalised nonconvulsive epilepsy NOS
 F251.00	Generalised convulsive epilepsy
 F251000	Grand mal (major) epilepsy
 F251011	Tonic-clonic epilepsy
-F251111	Otohara syndrome
 F251200	Epileptic seizures - clonic
 F251300	Epileptic seizures - myoclonic
 F251400	Epileptic seizures - tonic
@@ -67,8 +66,6 @@ F256000	Hypsarrhythmia
 F256100	Salaam attacks
 F256z00	Infantile spasms NOS
 F257.00	Kojevnikov's epilepsy
-F259.00	Early infantile epileptic encephalopathy with suppression bursts
-F259.11	Ohtahara syndrome
 F25A.00	Juvenile myoclonic epilepsy
 F25B.00	Alcohol-induced epilepsy
 F25C.00	Drug-induced epilepsy
