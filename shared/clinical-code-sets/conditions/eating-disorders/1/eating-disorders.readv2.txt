@@ -1,0 +1,19 @@
+1612.00	Appetite loss - anorexia
+1612.11	Anorexia symptom
+1614.00	Excessive eating - polyphagia
+1614.12	Polyphagia symptom
+E271.00	Anorexia nervosa
+E275100	Bulimia (non-organic overeating)
+E275111	Compulsive eating disorder
+Eu50000	[X]Anorexia nervosa
+Eu50100	[X]Atypical anorexia nervosa
+Eu50200	[X]Bulimia nervosa
+Eu50211	[X]Bulimia NOS
+Eu50212	[X]Hyperorexia nervosa
+Eu50300	[X]Atypical bulimia nervosa
+R030.00	[D]Anorexia
+R030z00	[D]Anorexia NOS
+R036.00	[D]Polyphagia
+R036000	[D]Excessive eating
+R036011	[D]Bulimia NOS
+R036z00	[D]Polyphagia NOS

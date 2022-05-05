@@ -1,0 +1,20 @@
+{
+  "includeTerms": [
+    "anorexia",
+    "appetite loss - anorexia",
+    "bulimia",
+    "hyperorexia nervosa",
+    "compulsive eating disorder",
+    "excessive eating",
+    "polyphagia"
+  ],
+  "excludeTerms": ["appetite loss", "loss of appetite", "h/o", "hyperalimentation"],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdBy": {
+    "name": "Richard Williams",
+    "email": "1234richardwilliams@gmail.com"
+  },
+  "createdOn": "2022-05-05T08:50:48.608Z",
+  "lastUpdated": "2022-05-05T08:50:48.608Z"
+}
