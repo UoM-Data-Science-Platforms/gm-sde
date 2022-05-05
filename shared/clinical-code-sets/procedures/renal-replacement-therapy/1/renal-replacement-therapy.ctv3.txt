@@ -1,0 +1,234 @@
+14S2.	H/O: kidney recipient
+7A600	Insertion of arteriovenous prosthesis
+7A602	Attention to arteriovenous shunt
+7A603	Removal of infected arteriovenous shunt
+7A60y	Other specified arteriovenous shunt
+7A60z	Arteriovenous shunt NOS
+7A614	Ligation of acquired arteriovenous fistula
+7A6E2	Declotting of thigh vein loop
+7B00.	Renal transplant
+7B001	Live donor renal transplant
+7B002	Cadaveric renal transplant
+7B00y	Other specified transplantation of kidney
+7B00z	Transplantation of kidney NOS
+7L1A.	Compensation for renal failure (& dialysis)
+7L1A0	(Renal dialysis) or (Thomas intravascular dialysis shunt)
+7L1A1	Peritoneal dialysis
+7L1A2	Haemodialysis NEC
+7L1Ay	Other specified compensation for renal failure
+7L1Az	Compensation for renal failure NOS
+7L1B.	Chronic ambulatory peritoneal dialysis catheter procedure ++
+7L1B0	Insertion of chronic ambulatory peritoneal dialysis catheter
+7L1B1	Removal of chronic ambulatory peritoneal dialysis catheter
+7L1By	Placement ambulatory apparatus- compensate renal failure OS
+7L1Bz	Placement ambulatory apparatus- compensate renal failure NOS
+7L1C.	Placement other apparatus for compensation for renal failure
+7L1C0	Insertion of temporary peritoneal dialysis catheter
+7L1Cy	Placement other apparatus- compensate for renal failure OS
+7L1Cz	Placement other apparatus- compensate for renal failure NOS
+8877	Ultrafiltration
+8882	Intestinal dialysis
+G760.	Acquired arteriovenous fistula
+TA020	Accid cut,puncture,perf,h'ge - kidney dialysis
+TA02z	Accid cut,puncture,perf,h'ge - perfusion NOS
+TA22.	Failure of sterile precautions during perfusion
+TA220	Failure of sterile precautions during kidney dialysis
+TA22y	Failure of sterile precautions during other perfusion
+TA22z	Failure of sterile precautions during perfusion NOS
+TA420	Mech failure of instrument &/or apparatus during kidney dial
+TB11.	Kidney dialysis with complication, without blame
+TB11.	Kidney dialysis with complication, without blame
+U6122	[X]Failure sterile precautions dur kidney dialys/other perf
+Ua1IM	Chronic peritoneal dialysis
+Ua1IN	Stab peritoneal dialysis
+X018M	Creation of Cimino fistula
+X018M	Creation of Cimino fistula
+X018N	Creation brachiocephalic fistula
+X018T	Angioplasty of arteriovenous fistula
+X018U	Thrombolysis of arteriovenous fistula
+X018V	Thrombolysis of arteriovenous graft
+X018Y	Embolectomy of arteriovenous fistula
+X018Z	Embolectomy of arteriovenous graft
+X018a	Procedure on intraluminal device of arteriovenous fistula
+X018b	Insertion of intraluminal device into arteriovenous fistula
+X018c	Insertion of stent into arteriovenous fistula
+X018d	Removal of intraluminal device from arteriovenous fistula
+X018e	Removal of stent from arteriovenous fistula
+X018f	Adjustment of intraluminal device of arteriovenous fistula
+X018g	Adjustment of arteriovenous fistula stent
+X018j	Banding of arteriovenous fistula
+X018n	Exploration of arteriovenous fistula
+X018o	Exploration of arteriovenous graft
+X01AF	Intermittent haemodialysis
+X01AG	Intermittent haemodialysis with sequential ultrafiltration
+X01AH	Intermittent haemodialysis with continuous ultrafiltration
+X01AI	Continuous haemodialysis
+X01AJ	Continuous arteriovenous haemodialysis
+X01AK	Continuous venovenous haemodialysis
+X01AL	Haemofiltration
+X01AM	Intermittent haemofiltration
+X01AN	Continuous haemofiltration
+X01AO	Continuous arteriovenous haemofiltration
+X01AP	Continuous venovenous haemofiltration
+X01AQ	Haemodiafiltration
+X01AR	Intermittent haemodiafiltration
+X01AS	Continuous haemodiafiltration
+X01AT	Continuous arteriovenous haemodiafiltration
+X01AU	Continuous venovenous haemodiafiltration
+X01AY	Plasma filtration
+X30D2	Xenograft renal transplant
+X30J0	End stage renal failure
+X30J1	End stage renal failure, untreated by RRT
+X30J2	End stage renal failure on dialysis
+X30J3	End stage renal failure with renal transplant
+X30Lp	Disorder associated with dialysis
+X30Lq	Acute disorder of haemodialysis
+X30Lr	Dialysis disequilibrium
+X30Ls	First use syndrome of dialysis
+X30Lt	Anaphylactoid reaction to dialysis
+X30Lu	Hyperchloraemic acidosis associated with dialysis
+X30Lv	Hard water syndrome
+X30Lw	Long-term disorder of dialysis
+X30Lx	Beta-2 microglobulin amyloidosis
+X30Ly	Beta-2 microglobulin arthropathy
+X30Lz	Matrix stone formation of dialysis
+X30M0	Aluminium intoxication
+X30M1	Aluminium bone disease
+X30M2	Aluminium-related osteomalacia
+X30M3	Aluminium-related fracturing osteodystrophy
+X30M4	Polyserositis syndrome of dialysis
+X30M5	Underdialysis
+X30M6	Adynamic bone disease
+X30M7	Disorders associated with peritoneal dialysis
+X30M8	Pain during inflow of dialysate
+X30M9	Pain during outflow of dialysate
+X30MB	Bloodstained peritoneal dialysis effluent
+X30MC	Peritoneal dialysis catheter exit site infection
+X30MD	Peritoneal dialysis catheter tunnel infection
+X30ME	Loss of ultrafiltration
+X30MF	Loss of solute clearance
+X30MG	Disorder of peritoneal dialysis catheter
+X30MH	Obstruction of peritoneal dialysis catheter
+X30MI	Migration of peritoneal dialysis catheter
+X30MJ	Omental wrapping around peritoneal dialysis catheter
+X30MK	Poor drainage of peritoneal dialysis catheter
+X30ML	Extrusion of peritoneal dialysis catheter cuff
+X30MM	Misplacement of acute peritoneal dialysis catheter
+X30MN	Renal transplant disorder
+X30MO	Primary non-function of renal transplant
+X30MP	Renal transplant rejection
+X30MQ	Hyperacute rejection of renal transplant
+X30MR	Accelerated rejection of renal transplant
+X30MS	Very mild acute rejection of renal transplant
+X30MT	Acute rejection of renal transplant
+X30MU	Acute rejection of renal transplant - grade I
+X30MV	Acute rejection of renal transplant - grade II
+X30MW	Acute rejection of renal transplant - grade III
+X30MX	Chronic rejection of renal transplant
+X30MY	Chronic rejection of renal transplant - grade 1
+X30MZ	Chronic rejection of renal transplant - grade II
+X30Ma	Chronic rejection of renal transplant - grade III
+X30Mb	Acute-on-chronic rejection of renal transplant
+X30Mc	Failed renal transplant
+X30Md	Perfusion injury of renal transplant
+X30Mg	Transplant glomerulopathy
+X30Mh	Transplant glomerulopathy - early form
+X30Mi	Transplant glomerulopathy - late form
+X30NN	Perirenal and periureteric post-transplant lymphocele
+X40bz	Renewal of chronic ambulatory peritoneal dialysis catheter
+X40c0	Adjustment chronic ambulatory peritoneal dialysis catheter
+X40c1	Aspiration chronic ambulatory peritoneal dialysis catheter
+X40c2	Flushing of chronic ambulatory peritoneal dialysis catheter
+X40c3	Continuous ambulatory peritoneal dialysis
+X40c4	Continuous cycling peritoneal dialysis
+X40c5	Intermittent peritoneal dialysis
+X40c6	Tidal peritoneal dialysis
+X40c7	Night-time intermittent peritoneal dialysis
+XE0Fh	Creation of arteriovenous fistula NEC
+XE0Fh	Creation of arteriovenous fistula NEC
+XE0Fj	Repair of acquired arteriovenous fistula
+XE0Fj	Repair of acquired arteriovenous fistula
+XE0Jf	Compensation for renal failure
+XE0Jf	Compensation for renal failure
+XE0Jg	Renal dialysis
+XE0Jg	Renal dialysis
+XE0kD	Renal dialysis (& haemodialysis)
+XE21r	Mechanical failure of apparatus during kidney dialysis
+XE21r	Mechanical failure of apparatus during kidney dialysis
+XE2u6	Chronic ambulatory peritoneal dialysis catheter procedure
+Xa0Ex	Peritoneal dialysis-associated peritonitis
+Xa0FB	Percutaneous balloon angioplasty of arteriovenous fistula
+Xa0Gm	Percutaneous embolectomy of arteriovenous fistula
+Xa0H7	Percutaneous thrombolysis of arteriovenous fistula
+Xa0HK	Unexplained episode of renal transplant dysfunction
+Xa0HL	Pre-existing disease in renal transplant
+Xa0ol	Procedure related to surgical arteriovenous connection
+Xa0x1	Removal of arteriovenous shunt
+Xa1dw	Transplant kidney
+Xa24I	Acquired renal arteriovenous fistula
+Xa3x6	Kidney replacement
+Xa402	Extracorporeal kidney
+Xa8S7	Haemodialysis
+Xa8S7	Haemodialysis
+Xa9zl	Dependence on renal dialysis
+XaBrA	Haemodialysis procedure
+XaC2Z	[X] Peritoneal dialysis associated peritonitis
+XaE9T	Donor renal transplantation
+XaLiG	Thrombectomy of arteriovenous fistula
+XaLiH	Creation of graft fistula for dialysis
+XaM1o	Allotransplantation of kidney from cadaver, heart-beating
+XaM1p	Allotransplantation kidney from cadaver, heart non-beating
+XaM2A	Automated peritoneal dialysis
+XaMKM	Allotransplantation of kidney from cadaver NEC
+XaMMt	Peritoneal dialysis NEC
+XaMtq	Extracorporeal albumin haemodialysis
+XaOmL	Ligation of arteriovenous dialysis fistula
+XaOoH	Ligation of arteriovenous dialysis graft
+XaREO	Continuous ambulatory peritoneal dialysis associated perit
+XaZWa	Urological complication of renal transplant
+XaZYx	Vascular complication of renal transplant
+XaZc8	Ruptured aneurysm of dialysis vascular access
+XaZcQ	Aneurysm of superficialised artery of dialysis AV fistula
+XaZcU	Aneurysm of dialysis arteriovenous fistula
+XaZcX	Aneurysm of needle site of dialysis arteriovenous fistula
+XaZcd	Aneurysm of anastomotic site of dialysis AV fistula
+XaZdk	Thrombus in peritoneal dialysis catheter
+XaZe2	Rupture of artery of transplanted kidney
+XaZe3	Rupture of vein of transplanted kidney
+XaZe7	Stenosis of vein of transplanted kidney
+XaZkw	Aneurysm of vein of transplanted kidney
+XaZl0	Aneurysm of artery of transplanted kidney
+XaZlu	Stenosis of dialysis vascular access
+XaZlv	Thrombosis of dialysis vascular access
+XaZmp	Anaphylactoid reaction due to haemodialysis
+Xaa2O	Thrombosis of artery of transplanted kidney
+Xaa2Q	Thrombosis of vein of transplanted kidney
+Xaa5S	Occlusion of dialysis vascular access
+Xaa5T	Infection of dialysis vascular access
+Xaa5U	Haemorrhage of dialysis vascular access
+Xaa5W	Stenosis of dialysis arteriovenous graft
+Xaa5X	Stenosis of dialysis arteriovenous shunt
+Xaa5e	Thrombosis of dialysis arteriovenous graft
+Xaa5f	Thrombosis of dialysis arteriovenous fistula
+Xaa5g	Thrombosis of dialysis arteriovenous shunt
+Xaa5h	Occlusion of dialysis arteriovenous graft
+Xaa5i	Occlusion of dialysis arteriovenous fistula
+Xaa5j	Occlusion of dialysis arteriovenous shunt
+Xaa6n	Infection of dialysis arteriovenous graft
+Xaa6o	Infection of dialysis arteriovenous fistula
+Xaa7F	Infection of dialysis arteriovenous shunt
+Xaa7H	Haemorrhage of dialysis arteriovenous graft
+Xaa7I	Haemorrhage of dialysis arteriovenous fistula
+Xaa7J	Haemorrhage of dialysis arteriovenous shunt
+Xaa7K	Rupture of dialysis arteriovenous graft
+XaaEx	Stenosis of arterial side of dialysis arteriovenous shunt
+XaaEy	Stenosis of venous side of dialysis arteriovenous shunt
+ZV420	[V]Kidney transplanted
+ZV451	[V]Renal dialysis status
+ZV56.	[V]Aftercare involving intermittent dialysis
+ZV560	[V]Aftercare involving extracorporeal dialysis
+ZV560	[V]Aftercare involving extracorporeal dialysis
+ZV561	[V]Preparatory care for dialysis
+ZV56y	[V]Other specified aftercare involving intermittent dialysis
+ZV56z	[V]Unspecified aftercare involving intermittent dialysis
+ZVu3G	[X]Other dialysis

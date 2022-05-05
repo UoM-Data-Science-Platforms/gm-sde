@@ -1,0 +1,38 @@
+14S2.	H/O: kidney recipient
+7A600	Insertion of arteriovenous prosthesis
+7A602	Attention to arteriovenous shunt
+7A603	Removal of infected arteriovenous shunt
+7A60y	Other specified arteriovenous shunt
+7A60z	Arteriovenous shunt NOS
+7A614	Ligation of acquired arteriovenous fistula
+7A6E2	Declotting of thigh vein loop
+7B00.	Transplantation of kidney
+7B001	Allotransplantation of kidney from live donor
+7B001	Transplantation of kidney from live donor
+7B002	Allotransplantation of kidney from cadaver
+7B002	Cadaveric renal transplant
+7B002	Transplantation of kidney from cadaver
+7B00y	Other specified transplantation of kidney
+7B00z	Transplantation of kidney NOS
+7L1A.	Compensation for renal failure
+7L1A.	Dialysis for renal failure
+7L1A0	Renal dialysis
+7L1A1	Peritoneal dialysis
+7L1A2	Haemodialysis NEC
+7L1B.	Placement of ambulatory apparatus for compensation for renal failure
+7L1B0	Insertion of ambulatory peritoneal dialysis catheter
+7L1B1	Removal of ambulatory peritoneal dialysis catheter
+7L1C.	Placement of other apparatus for compensation for renal failure
+7L1C0	Insertion of temporary peritoneal dialysis catheter
+7L1Cy	Other specified placement of other apparatus for compensation for renal failure
+G760.	Acquired arteriovenous fistula
+TB11.	Kidney dialysis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of procedure
+TB11.	Renal dialysis with complication, without blame
+ZV420	[V]Kidney transplanted
+ZV451	[V]Renal dialysis status
+ZV560	[V]Aftercare involving renal dialysis NOS
+ZV561	[V]Preparatory care for dialysis
+ZV56y	[V]Aftercare involving peritoneal dialysis
+ZV56y	[V]Other specified aftercare involving intermittent dialysis
+ZV56z	[V]Unspecified aftercare involving intermittent dialysis
+ZVu3G	[X]Other dialysis
