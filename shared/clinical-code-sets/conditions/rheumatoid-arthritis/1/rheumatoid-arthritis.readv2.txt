@@ -1,80 +1,60 @@
-66HB000	Rheumatoid arthritis annual review
-Nyu1100	[X]Other seropositive rheumatoid arthritis
-Nyu1G00	[X]Seropositive rheumatoid arthritis, unspecified
-N040.00	Rheumatoid arthritis
-9mM..00	Rheumatoid arthritis monitoring invitation
-38DZ000	Disease activity score 28 joint in rheumatoid arthritis
-Nyu1200	[X]Other specified rheumatoid arthritis
-G5y8.00	Rheumatoid myocarditis
-N040000	Rheumatoid arthritis of cervical spine
-H570.00	Rheumatoid lung
-N040R00	Rheumatoid nodule
-9mM2.00	Rheumatoid arthritis monitoring invitation third letter
-9mM0.00	Rheumatoid arthritis monitoring invitation first letter
-G5yA.00	Rheumatoid carditis
-N005.00	Adult Still's Disease
-7P20300	Delivery of rehabilitation for rheumatoid arthritis
 F371200	Polyneuropathy in rheumatoid arthritis
-66H..13	Rheumatoid arthrit. monitoring
-9mM3.00	Rheumatoid arthritis monitoring verbal invitation
-9mM1.00	Rheumatoid arthritis monitoring invitation second letter
-38DZ.00	Disease activity score in rheumatoid arthritis
+G5y8.00	Rheumatoid myocarditis
+G5yA.00	Rheumatoid carditis
+H570.00	Rheumatoid lung
+N005.00	Adult Still's Disease
+N04..00	Rheumatoid arthritis and other inflammatory polyarthropathies
+N04..11	Inflammatory polyarthropathy
+N040.00	Rheumatoid arthritis
+N040000	Rheumatoid arthritis of cervical spine
+N040100	Other rheumatoid arthritis of spine
+N040200	Rheumatoid arthritis of shoulder
+N040300	Rheumatoid arthritis of sternoclavicular joint
+N040400	Rheumatoid arthritis of acromioclavicular joint
+N040500	Rheumatoid arthritis of elbow
+N040600	Rheumatoid arthritis of distal radio-ulnar joint
+N040700	Rheumatoid arthritis of wrist
+N040800	Rheumatoid arthritis of metacarpophalangeal joint
+N040900	Rheumatoid arthritis of proximal interphalangeal joint of finger
+N040A00	Rheumatoid arthritis of distal interphalangeal joint of finger
+N040B00	Rheumatoid arthritis of hip
+N040C00	Rheumatoid arthritis of sacro-iliac joint
+N040D00	Rheumatoid arthritis of knee
+N040E00	Rheumatoid arthritis of tibio-fibular joint
+N040F00	Rheumatoid arthritis of ankle
+N040G00	Rheumatoid arthritis of subtalar joint
+N040H00	Rheumatoid arthritis of talonavicular joint
+N040J00	Rheumatoid arthritis of other tarsal joint
+N040K00	Rheumatoid arthritis of 1st metatarsophalangeal joint
+N040L00	Rheumatoid arthritis of lesser metatarsophalangeal joint
+N040M00	Rheumatoid arthritis of interphalangeal joint of toe
+N040N00	Rheumatoid vasculitis
+N040P00	Seronegative rheumatoid arthritis
+N040R00	Rheumatoid nodule
+N040S00	Rheumatoid arthritis - multiple joint
+N040T00	Flare of rheumatoid arthritis
+N041.00	Felty's syndrome
+N042.00	Other rheumatoid arthropathy with visceral or systemic involvement
+N042100	Rheumatoid lung disease
+N042200	Rheumatoid nodule
+N042z00	Rheumatoid arthropathy with visceral or systemic involvement NOS
+N043.00	Juvenile rheumatoid arthritis - Still's disease
+N043000	Juvenile rheumatoid arthropathy unspecified
+N043100	Acute polyarticular juvenile rheumatoid arthritis
+N043200	Pauciarticular juvenile rheumatoid arthritis
+N043300	Monarticular juvenile rheumatoid arthritis
+N043z00	Juvenile rheumatoid arthritis NOS
+N045500	Juvenile rheumatoid arthritis
+N047.00	Seropositive errosive rheumatoid arthritis
 N04X.00	Seropositive rheumatoid arthritis, unspecified
+N04y.00	Other specified inflammatory polyarthropathy
+N04y000	Rheumatoid lung
 N04y011	Caplan's syndrome
 N04y012	Fibrosing alveolitis associated with rheumatoid arthritis
-N040100	Other rheumatoid arthritis of spine
-N040P00	Seronegative rheumatoid arthritis
 N04y200	Adult-onset Still's disease
-N041.00	Felty's syndrome
-F396400	Myopathy due to rheumatoid arthritis
-9mM4.00	Rheumatoid arthritis monitoring telephone invitation
-Nyu1000	[X]Rheumatoid arthritis+involvement/other organs or systems
-M160.00	Psoriatic arthropathy
-N20..00	Polymyalgia rheumatica
-M154100	Discoid lupus erythematosus
-N241z00	Myalgia or myositis NOS
-N044.00	Chronic post-rheumatic arthropathy
-M154.00	Lupus erythematosus
-N043.00	Juvenile rheumatoid arthritis - Still's disease
-N04y100	Sero negative arthritis
-N003.00	Dermatomyositis
-N241100	Myositis unspecified
-N045.00	Other juvenile arthritis
-N045.00	Other juvenile arthritis
-M154z00	Lupus erythematosus NOS
-N000.00	Systemic lupus erythematosus
-N042000	Rheumatic carditis
-M160z00	Psoriatic arthropathy NOS
-N045300	Juvenile arthritis in Crohn's disease
-N045300	Juvenile arthritis in Crohn's disease
-N004.00	Polymyositis
-N001100	CREST syndrome
-N040Q00	Rheumatoid bursitis
-N04..00	Rheumatoid arthritis with other inflammatory polyarthropathies
-N04..11	Inflammatory polyarthropathy
-N043200	Pauciarticular juvenile rheumatoid arthritis
 N04yz00	Other specified inflammatory polyarthropathy NOS
 N04z.00	Inflammatory polyarthropathy NOS
-N065.00	Unspecified polyarthropathy or polyarthritis
-M154700	Subacute cutaneous lupus erythematosus
-M160000	Psoriasis spondylitica
-N241.00	Myalgia and myositis unspecified
-N043z00	Juvenile rheumatoid arthritis NOS
-N003X00	Dermatopolymyositis, unspecified
-N001.12	Systemic sclerosis
-N045200	Juvenile arthritis in psoriasis
-N045100	Juvenile seronegative polyarthritis
-N045500	Juvenile rheumatoid arthritis
-N003000	Juvenile dermatomyositis
-N10..00	Inflammatory spondylopathies
-N043300	Monarticular juvenile rheumatoid arthritis
-N04y.00	Other specified inflammatory polyarthropathy
-N241200	Fibromyositis NOS
-N045000	Juvenile ankylosing spondylitis
-N001000	Progressive systemic sclerosis
-N045600	Pauciarticular onset juvenile chronic arthritis
-N043100	Acute polyarticular juvenile rheumatoid arthritis
-N043000	Juvenile rheumatoid arthropathy unspecified
-N045400	Juvenile arthritis in ulcerative colitis
-Nyu1500	[X]Other juvenile arthritis
-M160.11	Psoriatic arthritis
+Nyu1000	[X]Rheumatoid arthritis with involvement of other organs or systems
+Nyu1100	[X]Other seropositive rheumatoid arthritis
+Nyu1200	[X]Other specified rheumatoid arthritis
+Nyu1G00	[X]Seropositive rheumatoid arthritis, unspecified

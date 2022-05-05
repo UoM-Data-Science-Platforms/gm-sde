@@ -1,6 +1,15 @@
-# This code set is not ready
+# Rheumatoid arthritis
 
-Concept Table Version System Patients PatientsWithConcept PatiensWithConceptFromCode PercentageOfPatients PercentageOfPatientsFromCode
-rheumatoid-arthritis EVENT 1 EMIS 2604007 40335 40556 1.54895896977235 1.55744589012242
-rheumatoid-arthritis EVENT 1 TPP 210535 139 1805 0.066022276581091 0.857339634740067
-rheumatoid-arthritis EVENT 1 Vision 333730 6052 6028 1.81344200401522 1.80625056183142
+Any code indicating a diagnosis of rheumatoid arthritis. Does not include lupus.
+
+## Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `X.XX% - X.XX%` suggests that this code set is well defined.
+
+| Date | Practice system | Population | Patients from ID | Patient from code |
+| ---- | --------------- | ---------- | ---------------: | ----------------: |
+| XXX  | EMIS            | XXX        |      XXX (X.XX%) |       XXX (X.XX%) |
+| XXX  | TPP             | XXX        |      XXX (X.XX%) |       XXX (X.XX%) |
+| XXX  | Vision          | XXX        |      XXX (X.XX%) |       XXX (X.XX%) |

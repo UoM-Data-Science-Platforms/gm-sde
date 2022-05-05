@@ -1,0 +1,67 @@
+F3712	Polyneuropathy in rheumatoid arthritis
+G5y8.	Rheumatoid myocarditis
+G5yA.	Rheumatoid carditis
+N04..	Rheumatoid arthritis and other inflammatory polyarthropathies
+N040.	RA - Rheumatoid arthritis
+N0400	Rheumatoid arthritis of cervical spine
+N0401	Other rheumatoid arthritis of spine
+N0402	Rheumatoid arthritis of shoulder
+N0403	Rheumatoid arthritis of sternoclavicular joint
+N0404	Rheumatoid arthritis of acromioclavicular joint
+N0405	Rheumatoid arthritis of elbow
+N0406	Rheumatoid arthritis of distal radioulnar joint
+N0407	Rheumatoid arthritis of wrist
+N0408	Rheumatoid arthritis of metacarpophalangeal joint
+N0409	Rheumatoid arthritis of proximal interphalangeal joint of finger
+N040A	Rheumatoid arthritis of distal interphalangeal joint of finger
+N040B	Rheumatoid arthritis of hip
+N040C	Rheumatoid arthritis of sacroiliac joint
+N040D	Rheumatoid arthritis of knee
+N040E	Rheumatoid arthritis of tibiofibular joint
+N040F	Rheumatoid arthritis of ankle
+N040G	Rheumatoid arthritis of subtalar joint
+N040H	Rheumatoid arthritis of talonavicular joint
+N040J	Rheumatoid arthritis of other tarsal joint
+N040K	Rheumatoid arthritis of first metatarsophalangeal joint
+N040L	Rheumatoid arthritis of lesser metatarsophalangeal joint
+N040M	Rheumatoid arthritis of interphalangeal joint of toe
+N040T	Flare of rheumatoid arthritis
+N041.	Felty's syndrome
+N042.	Other rheumatoid arthropathy with visceral or systemic involvement
+N0420	Rheumatic carditis (?AND/OR [Rheumatoid carditis])
+N0421	Rheumatoid lung
+N0422	Rheumatoid nodule
+N042z	Rheumatoid arthropathy with visceral or systemic involvement NOS
+N043.	Still's disease
+N0430	Juvenile rheumatoid arthropathy unspecified
+N0431	Acute polyarticular juvenile rheumatoid arthritis
+N0433	Monarticular juvenile rheumatoid arthritis
+N043z	Juvenile rheumatoid arthritis NOS
+N04y.	Other specified inflammatory polyarthropathy
+N04y0	Caplan's syndrome
+N04yz	Other specified inflammatory polyarthropathy NOS
+N04z.	Inflammatory polyarthropathy NOS
+Nyu10	[X]Rheumatoid arthritis with involvement of other organs or systems
+Nyu11	[X]Other seropositive rheumatoid arthritis
+Nyu12	[X]Other specified rheumatoid arthritis
+Nyu1G	[X]Seropositive rheumatoid arthritis, unspecified
+X701h	Seropositive rheumatoid arthritis
+X701i	Seronegative rheumatoid arthritis
+X701j	Rheumatoid arthritis with organ / system involvement
+X701k	Fibrosing alveolitis associated with rheumatoid arthritis
+X701l	Rheumatoid vasculitis
+X701m	Rheumatoid arthritis with multisystem involvement
+X701t	JRA - Juvenile rheumatoid arthritis
+X705I	Adult onset Still's disease
+X705t	Nailfold rheumatoid vasculitis
+X705u	Systemic rheumatoid vasculitis
+X705v	Necrotising rheumatoid vasculitis
+XE1DU	Rheumatoid arthritis and other inflammatory polyarthropathies
+XE1Gi	Still's disease - juvenile R.A
+Xa3gL	Rheumatoid arthritis - multiple joint
+Xa3gM	Rheumatoid arthritis - hand joint
+Xa3gN	Rheumatoid arthritis - ankle/foot
+Xa3gO	Rheumatoid arthritis - other joint
+Xa3gP	Rheumatoid arthritis NOS
+Xa3wk	Still's disease - juvenile rheumatoid arthritis
+XaBMO	Seropositive errosive rheumatoid arthritis

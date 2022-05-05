@@ -1,0 +1,38 @@
+{
+  "includeTerms": [
+    "rheumatoid arthritis",
+    "inflammatory polyarthropathy",
+    "rheumatoid arthropathy",
+    "rheumatoid nodule",
+    "rheumatoid carditis",
+    "rheumatoid myocarditis",
+    "rheumatoid lung",
+    "still's disease",
+    "rheumatoid vasculitis",
+    "felty's syndrome",
+    "caplan's syndrome"
+  ],
+  "excludeTerms": [
+    "monitoring",
+    "fh",
+    "h/o",
+    "history",
+    "exception reporting",
+    "excepted from",
+    "screen",
+    "review",
+    "test",
+    "score",
+    "questionnaire",
+    "rehab",
+    "due to rheumatoid arthritis"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdBy": {
+    "name": "Richard Williams",
+    "email": "1234richardwilliams@gmail.com"
+  },
+  "createdOn": "2022-05-05T09:34:48.292Z",
+  "lastUpdated": "2022-05-05T09:34:48.292Z"
+}
