@@ -1,0 +1,7 @@
+Eu023	[X]Dementia in Parkinson's disease
+F12..	Parkinson's disease
+F12z.	Parkinson's disease NOS
+X003a	Juvenile Parkinson's disease
+X003l	Parkinson's disease - dementia complex on Guam
+XaOfZ	Cerebral degeneration in Parkinson's disease
+XaeUN	Multiple system atrophy, Parkinson variant

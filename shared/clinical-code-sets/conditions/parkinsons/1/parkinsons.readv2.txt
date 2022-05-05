@@ -1,0 +1,6 @@
+Eu02300	[X]Dementia in Parkinson's disease
+F11x900	Cerebral degeneration in Parkinson's disease
+F12..00	Parkinson's disease
+F120.00	Paralysis agitans
+F12z.00	Parkinson's disease NOS
+F174100	Multiple system atrophy, Parkinson variant

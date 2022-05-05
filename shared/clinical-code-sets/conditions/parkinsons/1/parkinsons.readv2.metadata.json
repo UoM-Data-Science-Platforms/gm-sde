@@ -1,0 +1,22 @@
+{
+  "includeTerms": ["parkinson's disease", "paralysis agitans", "parkinson variant"],
+  "excludeTerms": [
+    "history of",
+    "excluded",
+    "excluding parkinson's disease",
+    "referral",
+    "seen by",
+    "parkinson's disease nurse",
+    "parkinsonism",
+    "disease rating scale score",
+    "malignant neuroleptic syndrome"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdBy": {
+    "name": "Richard Williams",
+    "email": "1234richardwilliams@gmail.com"
+  },
+  "createdOn": "2022-05-05T08:42:23.862Z",
+  "lastUpdated": "2022-05-05T08:42:23.862Z"
+}
