@@ -1,0 +1,272 @@
+1B13.	Anxiousness
+2258.	O/E - anxious
+2259.	O/E - nervous
+285..	Neurotic condition, insight present
+8G52.	Antiphobic therapy
+E20..	Neurotic disorder
+E200.	Anxiety disorder
+E2000	Anxiety state unspecified
+E2001	Panic attack
+E2002	Anxiety neurosis
+E2004	Chronic anxiety
+E2005	Recurrent anxiety
+E200z	Anxiety state NOS
+E201B	Compensation neurosis
+E202.	Phobic disorders
+E2020	Phobia unspecified
+E2021	Agoraphobia with panic attacks
+E2022	Agoraphobia without mention of panic attacks
+E2023	Social phobia, fear of eating in public
+E2024	Social phobia, fear of public speaking
+E2025	Social phobia, fear of public washing
+E2026	Acrophobia
+E2027	Zoophobia
+E2028	Claustrophobia
+E2029	Fear of crowds
+E202C	Dental phobia
+E202E	Fear of pregnancy
+E203.	Anankastic neurosis
+E2030	Compulsive neurosis
+E2031	Obsessional neurosis
+E203z	Obsessive-compulsive disorder NOS
+E20y.	Other neurotic disorders
+E20y3	Psychasthenic neurosis
+E20yz	Other neurotic disorder NOS
+E20z.	Neurotic disorder NOS
+E21..	Personality disorders (& neurotic)
+E28..	Acute reaction to stress
+E280.	Acute panic state due to acute stress reaction
+E281.	Acute fugue state due to acute stress reaction
+E282.	Acute stupor state due to acute stress reaction
+E283.	Other acute stress reactions
+E2831	Acute post-trauma stress state
+E283z	Other acute stress reaction NOS
+E28z.	Flying phobia
+E2920	Separation anxiety disorder
+E2924	Adjustment reaction with anxious mood
+E29y1	Other post-traumatic stress disorder
+E2D0.	Disturbance of anxiety and fearfulness in childhood and adolescence
+E2D0z	Disturbance of anxiety and fearfulness in childhood and adolescence NOS
+E2y..	Other specified neuroses or other mental disorders
+E2z..	Neuroses or other mental disorder NOS
+Eu4..	[X]Neurotic, stress-related and somatoform disorders
+Eu40.	[X]Phobic anxiety disorders
+Eu40y	[X]Other phobic anxiety disorders
+Eu40z	[X]Phobic anxiety disorder, unspecified
+Eu41.	[X]Other anxiety disorders
+Eu410	[X]Panic disorder [episodic paroxysmal anxiety]
+Eu412	[X]Mixed anxiety and depressive disorder
+Eu413	[X]Other mixed anxiety disorders
+Eu41y	[X]Other specified anxiety disorders
+Eu41z	[X]Anxiety disorder, unspecified
+Eu420	[X]Predominantly obsessional thoughts or ruminations
+Eu421	[X]Predominantly compulsive acts [obsessional rituals]
+Eu422	[X]Mixed obsessional thoughts and acts
+Eu42y	[X]Other obsessive-compulsive disorders
+Eu42z	[X]Obsessive-compulsive disorder, unspecified
+Eu430	[X]Acute stress reaction
+Eu43y	[X]Other reactions to severe stress
+Eu43z	[X]Reaction to severe stress, unspecified
+Eu46.	[X]Other neurotic disorders
+Eu46z	[X] Neurosis NOS
+Eu60z	[X] Character neurosis NOS
+Eu930	[X]Separation anxiety disorder of childhood
+Eu931	Childhood phobic anxiety disorder
+Ua1Fo	Recognising anxiety
+Ua1Fp	Acknowledging anxiety
+Ua1qS	Panic attack
+Ua1qU	Fear of walking
+Ua1qV	Fear of mobilising
+Ua1qW	Fear of disconnection from ventilator
+Ua1qX	Fear of being left alone during period of dependence
+Ua1qY	Fear of being left alone
+Ua1qa	Fear of dentist
+Ua1qc	Fear of not coping with treatment
+Ua1qd	Fear of lifts
+Ua1qe	Fear of thunderstorm
+Ua1qg	Anxiety about treatment
+Ua1qh	Anxiety about forced dependence
+Ua1qi	Anxiety about loss of control
+Ua1qo	Anxiety about getting it wrong
+Ua1qp	Anxiety about altered body image
+Ua1qs	Fear of wetting self in public
+Ua1qt	Fear of losing control of bowels in public
+Ua2Dl	Alleviating anxiety
+Ub0qs	Anxiety management training
+X00RP	Organic anxiety disorder
+X00SV	Phobia of going out
+X00SW	Social phobia
+X00SX	Simple phobia
+X00SY	Needle phobia
+X00SZ	Situational panic attack
+X00Sa	Unexpected panic attack
+X00Sb	Mixed anxiety and depressive disorder
+X00Sc	Anxiety hysteria
+X00Sf	PTSD - Post-traumatic stress disorder
+X00Sr	Erythrophobia
+X00T7	Anxious personality disorder
+X50G2	Trichophobia
+X50G3	Parasitophobia
+X50G5	Venereophobia
+X50G6	Syphilophobia
+X50GI	Bromisodrophobia
+X761N	Anxiety and fear
+X761S	Anxious cognitions
+X761T	Anxiety about health
+X761U	Fear of losing control of bowels
+X761V	Fear of wetting self
+X761W	Fear of vomiting in public
+X761X	Fear of having a fit
+X761Y	Fear of choking
+X761Z	Fear of blushing
+X761a	Fear of swallowing
+X761b	Fear of collapsing
+X761c	Fear of fainting
+X761d	Fear of having a heart attack
+X761e	Fear of shaking
+X761f	Fear of sweating
+X761g	Fear of dying
+X761h	Fear of going mad
+X761i	Fear of losing emotional control
+X761j	Fear of obesity
+X761k	Anxiety about social functioning
+X761l	Fear of appearing ridiculous
+X761m	Fear of saying the wrong thing
+X761n	Fear of going out
+X761p	Fear of empty streets
+X761q	Fear of open spaces
+X761r	Fear of crossing streets
+X761t	Fear of travelling in vehicles
+X761v	Fear of activities in public
+X761w	Fear of eating in public
+X761x	Fear of public speaking
+X761y	Fear of using public toilets
+X761z	Fear of writing in public
+X7620	Fear of social group activities
+X7621	Fear of being in a small group
+X7622	Fear of social gatherings
+X7623	Fear of speaking on the phone
+X7624	Fear of speaking to people in authority
+X7625	Fear of being laughed at
+X7626	Fear of being watched
+X7628	Fear of natural phenomena
+X7629	Fear of the dark
+X762A	Fear of animals
+X762B	Fear of feathers
+X762C	Fear of enclosed spaces
+X762E	Fear of tunnels
+X762F	Fear of phone boxes
+X762G	Fear of flying
+X762H	Flying phobia
+X762J	Fear of anaesthetic
+X762K	Fear of general anaesthetic
+X762L	Fear of awareness under general anaesthetic
+X762M	Fear of not waking from general anaesthetic
+X762N	Fear of local anaesthetic
+X762O	Fear of problem after anaesthetic
+X762R	Fear of masks
+X762S	Fear of hospitals
+X762T	Fear of death
+X762U	Fear of contracting disease
+X762V	Fear of infection
+X762W	Fear of contracting venereal disease
+X762X	Fear of contracting HIV infection
+X762Y	Fear of contracting radiation sickness
+X762Z	Fear of the bogey man
+X762a	Fear of ghosts
+X762b	Fear of school
+X762d	Obsessional thoughts of harm occurring to property
+X762e	Obsessional thoughts of being robbed
+X762f	Obsessional thoughts of fire
+X762g	Obsessional thoughts of explosions
+X762h	Obsessional thoughts of causing accidents
+X762i	Obsessional thoughts of poisoning
+X762j	Obsessional thoughts of giving others illness
+X762k	Obsessional thoughts of contamination
+X762l	Obsessional thoughts of disease
+X762m	Obsessional thoughts of dirt
+X762n	Obsessional thoughts of germs
+X762p	Obsessional thoughts of incompletion
+X762q	Obsessional thoughts of throwing things away
+X762s	Inability to resist obsessional thoughts
+X764L	Compulsive behaviour
+X76MQ	Fear of ejaculation
+XE0rb	Anxiety
+XE1Y7	Episodic paroxysmal anxiety disorder
+XE1YA	Phobia
+XE1YB	Phobic disorder NOS
+XE1YE	Neurotic disorder NOS
+XE1Ym	Acute stress reaction
+XE1Yn	Acute stress reaction NOS
+XE1Zj	[X]Other specified anxiety disorders
+XE1Zp	[X]Other specified neurotic disorders
+XE1aW	Panic attack
+XE1bo	Post-traumatic stress - acute
+XE1hl	Poor insight into neurotic condition
+XM001	Obsessional thoughts of causing harm to others
+XM00G	Separation anxiety
+XM0Ak	School phobia
+XM0At	Obsessional thoughts of causing harm to self
+XM0kz	SASZ - Zung's self-rating anxiety scal
+XM1OD	Hydrophobia
+Xa00r	Fear of heights
+Xa00s	Fear of water
+Xa0XG	Anxiety about losing control of bowels
+Xa0XH	Anxiety about wetting self
+Xa0XI	Anxiety about vomiting in public
+Xa0XJ	Anxiety about having a fit
+Xa0XK	Anxiety about choking
+Xa0XM	Anxiety about swallowing
+Xa0XN	Anxiety about collapsing
+Xa0XO	Anxiety about shaking
+Xa0XP	Anxiety about sweating
+Xa0XQ	Anxiety about dying
+Xa0XR	Anxiety about going crazy
+Xa0XS	Anxiety about losing emotional control
+Xa0XU	Anxiety about becoming fat
+Xa0XX	Anxiety about fainting
+Xa0XY	Anxiety about having a heart attack
+Xa0Xc	Anxiety about appearing ridiculous
+Xa0Xd	Anxiety about saying the wrong thing
+Xa0lF	Delusional dysmorphophobia
+Xa0lG	Nondelusional dysmorphophobia
+Xa18j	Combat fatigue
+Xa19B	Performance anxiety
+Xa1Ev	Fear of needles
+Xa1a8	Examination phobia
+Xa3Vk	Fear of insects
+Xa3Vl	Fear of birds
+Xa3WI	Fear of blood
+Xa3WJ	Fear of getting cancer
+Xa3Xk	Level of anxiety
+Xa3Ys	Character trait observations of level of anxiety
+Xa3Yt	Anxious character
+Xa3Yu	Over-anxious character
+Xa7k9	Anxious parents
+Xa7kB	Anxiety attack
+Xa7lj	Cancer phobia
+XaAA1	Anxious avoidant attachment
+XaABU	Castration anxiety complex
+XaEC1	Phobia counselling
+XaECG	Anxiety counselling
+XaED5	Desensitisation - phobia
+XaED8	Flooding - agoraphobia
+XaEFB	Chronic post-traumatic stress disorder
+XaEG0	Dysmorphophobia
+XaEKL	Phonophobia
+XaIo7	C/O - panic attack
+XaIvf	Fear of falling
+XaKVA	O/E - panic attack
+XaL0q	Referral for guided self-help for anxiety
+XaP8d	Stranger anxiety
+XaX55	Acute post-traumatic stress disorder following military combat
+XaX56	[X]Chronic post-traumatic stress disorder following military combat
+XaX58	Delayed post-traumatic stress disorder following military combat
+Xaafv	Anxiety about breathlessness
+Xab9G	Patient given advice about management of anxiety
+XaboM	Referral for guided self-help for anxiety declined
+Xaef0	Referral for psychological management of anxiety
+Xaef1	Referral for psychological management of anxiety declined
+XafF0	Signposting to Anxiety UK
+XafMI	Signposting to OCD-UK (Obsessive-Compulsive Disorder-UK)
+XafMJ	Signposting to OCD (Obsessive-Compulsive Disorder) Action
