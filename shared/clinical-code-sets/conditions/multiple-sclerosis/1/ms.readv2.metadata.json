@@ -1,0 +1,50 @@
+{
+  "includeTerms": [
+    "peptic ulcer",
+    "stress ulcer",
+    "gastric ulcer",
+    "gastric ulcers",
+    "stomach ulcer",
+    "prepyloric ulcer",
+    "pyloric ulcer",
+    "duodenal ulcer",
+    "duodenal erosion",
+    "gastrojejunal ulcer",
+    "duodenal scar",
+    "deformed duodenal cap",
+    "anastomotic ulcer",
+    "gastrocolic ulcer",
+    "jejunal ulcer",
+    "marginal ulcer",
+    "stomal ulcer",
+    "gastric erosions",
+    "perforated du",
+    "pu perforation",
+    "deformed duodenal bulb",
+    "duodenum ulcer",
+    "disease with ulceration",
+    "perforated gu"
+  ],
+  "excludeTerms": [
+    "fh",
+    "h/o",
+    "history of",
+    "symptoms",
+    "operation",
+    "closure of",
+    "suture of",
+    "resection of",
+    "excision of",
+    "oversew of",
+    "endoscopic injection haemostasis",
+    "marginal corneal ulcer"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdBy": {
+    "name": "Richard Williams",
+    "email": "1234richardwilliams@gmail.com"
+  },
+  "createdOn": "2020-05-19T13:55:57.547Z",
+  "lastUpdated": "2022-05-04T16:06:13.811Z"
+}

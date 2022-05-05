@@ -1,0 +1,12 @@
+F20..00	Multiple sclerosis
+F20..11	Disseminated sclerosis
+F200.00	Multiple sclerosis of the brain stem
+F201.00	Multiple sclerosis of the spinal cord
+F202.00	Generalised multiple sclerosis
+F203.00	Exacerbation of multiple sclerosis
+F204.00	Benign multiple sclerosis
+F205.00	Malignant multiple sclerosis
+F206.00	Primary progressive multiple sclerosis
+F207.00	Relapsing and remitting multiple sclerosis
+F208.00	Secondary progressive multiple sclerosis
+F20z.00	Multiple sclerosis NOS
