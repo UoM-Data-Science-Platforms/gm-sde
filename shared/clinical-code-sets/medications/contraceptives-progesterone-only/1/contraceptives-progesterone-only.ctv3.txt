@@ -1,0 +1,19 @@
+ga12.	Ethynodiol diacetate 500micrograms tablet
+ga22.	Norgeston tablet
+ga27.	Mirena 20mcg/24hrs intrauterine system
+ga2F.	JAYDESS 13.5mg intrauterine system
+ga2I.	LEVOSERT 20micrograms/24hours intrauterine system
+ga32.	Depo-Provera 150mg/1mL injection
+ga35.	Medroxyprogesterone acetate 150mg/1mL prefilled syringe
+ga36.	Depo-Provera 150mg/1mL prefilled syringe
+ga37.	SAYANA 104mg/0.65mL susp for injection prefilled syringe
+ga51.	Micronor tablet
+ga5z.	Norethisterone 350mcg tablet
+ga61.	Noristerat 200mg/1mL oily injection
+ga72.	Implanon 68mg subdermal implant
+ga73.	NEXPLANON 68mg subdermal implant
+ga8A.	Desogestrel 75micrograms tablet
+ga8B.	Cerazette 75micrograms tablet
+ga8C.	CERELLE 75micrograms tablets
+ga8F.	ZELLETA 75micrograms tablets
+ga8G.	FEANOLLA 75micrograms tablets

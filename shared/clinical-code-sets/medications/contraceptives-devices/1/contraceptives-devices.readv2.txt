@@ -1,0 +1,3 @@
+pg3b.	NOVA T interuterine contraceptive device
+pg3o.	T SAFE 380A intrauterine contraceptive device
+pg3y.	COPPER T 380A intra-uterine contraceptive device
