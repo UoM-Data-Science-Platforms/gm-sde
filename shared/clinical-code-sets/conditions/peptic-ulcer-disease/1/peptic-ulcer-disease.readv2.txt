@@ -1,0 +1,134 @@
+J102000	Peptic ulcer of oesophagus
+J11..00	Gastric ulcer - (GU)
+J11..11	Prepyloric ulcer
+J11..12	Pyloric ulcer
+J110.00	Acute gastric ulcer
+J110000	Acute gastric ulcer without mention of complication
+J110100	Acute gastric ulcer with haemorrhage
+J110111	Bleeding acute gastric ulcer
+J110200	Acute gastric ulcer with perforation
+J110300	Acute gastric ulcer with haemorrhage and perforation
+J110400	Acute gastric ulcer with obstruction
+J110y00	Acute gastric ulcer unspecified
+J110z00	Acute gastric ulcer NOS
+J111.00	Chronic gastric ulcer
+J111000	Chronic gastric ulcer without mention of complication
+J111100	Chronic gastric ulcer with haemorrhage
+J111111	Bleeding chronic gastric ulcer
+J111200	Chronic gastric ulcer with perforation
+J111211	Perforated chronic gastric ulcer
+J111300	Chronic gastric ulcer with haemorrhage and perforation
+J111400	Chronic gastric ulcer with obstruction
+J111y00	Chronic gastric ulcer unspecified
+J111z00	Chronic gastric ulcer NOS
+J112.00	Anti-platelet induced gastric ulcer
+J112z00	Anti-platelet induced gastric ulcer NOS
+J113.00	Non steroidal anti inflammatory drug induced gastric ulcer
+J113z00	Non steroidal anti inflammatory drug induced gastric ulcer NOS
+J11y.00	Unspecified gastric ulcer
+J11y000	Unspecified gastric ulcer without mention of complication
+J11y100	Unspecified gastric ulcer with haemorrhage
+J11y200	Unspecified gastric ulcer with perforation
+J11y300	Unspecified gastric ulcer with haemorrhage and perforation
+J11y400	Unspecified gastric ulcer with obstruction
+J11yy00	Unspecified gastric ulcer with unspecified haemorrhage and/or perforation
+J11yz00	Unspecified gastric ulcer NOS
+J11z.00	Gastric ulcer NOS
+J11z.11	Gastric erosions
+J11z.12	Multiple gastric ulcers
+J12..00	Duodenal ulcer - (DU)
+J120.00	Acute duodenal ulcer
+J120000	Acute duodenal ulcer without mention of complication
+J120100	Acute duodenal ulcer with haemorrhage
+J120200	Acute duodenal ulcer with perforation
+J120300	Acute duodenal ulcer with haemorrhage and perforation
+J120400	Acute duodenal ulcer with obstruction
+J120y00	Acute duodenal ulcer unspecified
+J120z00	Acute duodenal ulcer NOS
+J121.00	Chronic duodenal ulcer
+J121000	Chronic duodenal ulcer without mention of complication
+J121100	Chronic duodenal ulcer with haemorrhage
+J121111	Bleeding chronic duodenal ulcer
+J121200	Chronic duodenal ulcer with perforation
+J121211	Perforated chronic duodenal ulcer
+J121300	Chronic duodenal ulcer with haemorrhage and perforation
+J121400	Chronic duodenal ulcer with obstruction
+J121y00	Chronic duodenal ulcer unspecified
+J121z00	Chronic duodenal ulcer NOS
+J122.00	Duodenal ulcer disease
+J123.00	Duodenal erosion
+J124.00	Recurrent duodenal ulcer
+J125.00	Anti-platelet induced duodenal ulcer
+J125z00	Anti-platelet induced duodenal ulcer NOS
+J126.00	Non steroidal anti inflammatory drug induced duodenal ulcer
+J126z00	Non steroidal anti inflammatory drug induced duodenal ulcer NOS
+J12y.00	Unspecified duodenal ulcer
+J12y000	Unspecified duodenal ulcer without mention of complication
+J12y100	Unspecified duodenal ulcer with haemorrhage
+J12y200	Unspecified duodenal ulcer with perforation
+J12y300	Unspecified duodenal ulcer with haemorrhage and perforation
+J12y400	Unspecified duodenal ulcer with obstruction
+J12yy00	Unspecified duodenal ulcer with unspecified haemorrhage and/or perforation
+J12yz00	Unspecified duodenal ulcer NOS
+J12z.00	Duodenal ulcer NOS
+J13..00	Peptic ulcer - (PU) site unspecified
+J13..11	Stress ulcer NOS
+J130.00	Acute peptic ulcer
+J130000	Acute peptic ulcer without mention of complication
+J130100	Acute peptic ulcer with haemorrhage
+J130200	Acute peptic ulcer with perforation
+J130300	Acute peptic ulcer with haemorrhage and perforation
+J130400	Acute peptic ulcer with obstruction
+J130y00	Acute peptic ulcer unspecified
+J130z00	Acute peptic ulcer NOS
+J131.00	Chronic peptic ulcer
+J131000	Chronic peptic ulcer without mention of complication
+J131100	Chronic peptic ulcer with haemorrhage
+J131200	Chronic peptic ulcer with perforation
+J131300	Chronic peptic ulcer with haemorrhage and perforation
+J131400	Chronic peptic ulcer with obstruction
+J131y00	Chronic peptic ulcer unspecified
+J131z00	Chronic peptic ulcer NOS
+J13y.00	Unspecified peptic ulcer
+J13y000	Unspecified peptic ulcer without mention of complication
+J13y100	Unspecified peptic ulcer with haemorrhage
+J13y200	Unspecified peptic ulcer with perforation
+J13y300	Unspecified peptic ulcer with haemorrhage and perforation
+J13y400	Unspecified peptic ulcer with obstruction
+J13yy00	Unspecified peptic ulcer with unspecified haemorrhage and/or perforation
+J13yz00	Unspecified peptic ulcer NOS
+J13z.00	Peptic ulcer NOS
+J14..00	Gastrojejunal ulcer (GJU)
+J14..11	Anastomotic ulcer
+J14..12	Gastrocolic ulcer
+J14..13	Jejunal ulcer
+J14..14	Marginal ulcer
+J14..15	Stomal ulcer
+J140.00	Acute gastrojejunal ulcer
+J140000	Acute gastrojejunal ulcer without mention of complication
+J140100	Acute gastrojejunal ulcer with haemorrhage
+J140200	Acute gastrojejunal ulcer with perforation
+J140300	Acute gastrojejunal ulcer with haemorrhage and perforation
+J140400	Acute gastrojejunal ulcer with obstruction
+J140y00	Acute gastrojejunal ulcer unspecified
+J140z00	Acute gastrojejunal ulcer NOS
+J141.00	Chronic gastrojejunal ulcer
+J141000	Chronic gastrojejunal ulcer without mention of complication
+J141100	Chronic gastrojejunal ulcer with haemorrhage
+J141200	Chronic gastrojejunal ulcer with perforation
+J141300	Chronic gastrojejunal ulcer with haemorrhage and perforation
+J141400	Chronic gastrojejunal ulcer with obstruction
+J141y00	Chronic gastrojejunal ulcer unspecified
+J141z00	Chronic gastrojejunal ulcer NOS
+J14y.00	Unspecified gastrojejunal ulcer
+J14y000	Unspecified gastrojejunal ulcer without mention of complication
+J14y100	Unspecified gastrojejunal ulcer with haemorrhage
+J14y200	Unspecified gastrojejunal ulcer with perforation
+J14y300	Unspecified gastrojejunal ulcer with haemorrhage and perforation
+J14y400	Unspecified gastrojejunal ulcer with obstruction
+J14yy00	Unspecified gastrojejunal ulcer with unspecified haemorrhage or perforation
+J14yz00	Unspecified gastrojejunal ulcer NOS
+J14z.00	Gastrojejunal ulcer NOS
+J173300	Duodenal scar
+J17y700	Deformed duodenal cap (bulb)
+J17y800	Healed gastric ulcer leaving a scar
