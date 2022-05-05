@@ -1,0 +1,167 @@
+2823.	O/E - petit mal fit
+2824.	O/E - focal (Jacksonian) fit
+2825.	O/E - psychomotor fit
+2826.	O/E - salaam attack
+Eu052	[X]Schizophrenia-like psychosis in epilepsy
+F1321	Progressive myoclonic epilepsy
+F1322	Myoclonic encephalopathy
+F25..	Epilepsy
+F250.	Generalised non-convulsive epilepsy
+F2500	Petit mal epilepsy
+F2502	Epileptic seizures - atonic
+F2503	Epileptic seizures - akinetic
+F250y	Other specified generalised non-convulsive epilepsy
+F250z	Generalised non-convulsive epilepsy NOS
+F251.	Generalised convulsive epilepsy
+F2510	Grand mal epilepsy
+F2511	Benign myoclonic epilepsy in infancy
+F2512	Epileptic seizures - clonic
+F2513	Epileptic seizures - myoclonic
+F2514	Epileptic seizures - tonic
+F251y	Other specified generalised convulsive epilepsy
+F251z	Generalised convulsive epilepsy NOS
+F253.	Status epilepticus
+F254.	Partial epilepsy with impairment of consciousness
+F2540	Temporal lobe epilepsy
+F2542	Psychosensory epilepsy
+F2543	Mesiobasal limbic epilepsy
+F2544	Epileptic automatism
+F254z	Partial epilepsy with impairment of consciousness NOS
+F255.	Partial epilepsy without mention of impairment of consciousness
+F2550	Jacksonian/focal/motor epilep.
+F2551	Epilepsy associated with specific stimuli
+F2552	Somatosensory epilepsy
+F2553	Partial epilepsy with autonomic symptoms
+F2554	Visual reflex epilepsy
+F2555	Unilateral epilepsy
+F255y	Other specified partial epilepsy without mention of impairment of consciousness
+F255z	Partial epilepsy without mention of impairment of consciousness NOS
+F256.	Salaam attack
+F256z	Infantile spasms NOS
+F257.	Kojevnikov's epilepsy
+F25y.	Other forms of epilepsy
+F25y0	Cursive (running) epilepsy
+F25y2	Localization-related(focal)(partial)idiopathic epilepsy and epileptic syndromes with seizures of localised onset
+F25yz	Other forms of epilepsy NOS
+F25z.	Epilepsy NOS
+Fyu50	[X]Other generalised epilepsy and epileptic syndromes
+Fyu51	[X]Other epilepsy
+Fyu52	[X]Other status epilepticus
+Fyu59	[X]Status epilepticus, unspecified
+SC200	Traumatic epilepsy
+X001S	Rasmussen encephalitis
+X003Y	Epileptic dementia
+X005m	Focal epilepsy
+X005o	Centrotemporal epilepsy
+X005p	Benign frontal epilepsy of childhood
+X005q	Benign psychomotor epilepsy of childhood
+X005r	Benign atypical partial epilepsy in childhood
+X005s	Epilepsy with recurrent unilateral seizures in children
+X005t	Benign occipital epilepsy of childhood
+X005u	Benign occipital epilepsy of childhood - early onset variant
+X005v	Benign occipital epilepsy of childhood - late onset variant
+X005w	Primary inherited reading epilepsy
+X005x	Localisation-related symptomatic epilepsy
+X005y	Amygdalo-hippocampal epilepsy
+X005z	Rhinencephalic epilepsy
+X0060	Lateral temporal epilepsy
+X0061	Frontal lobe epilepsy
+X0062	Supplementary motor epilepsy
+X0063	Cingulate epilepsy
+X0064	Anterior frontopolar epilepsy
+X0065	Orbitofrontal epilepsy
+X0066	Dorsolateral epilepsy
+X0067	Opercular epilepsy
+X0069	Parietal lobe epilepsy
+X006A	Occipital lobe epilepsy
+X006C	Chronic progressive epilepsia partialis continua of childhood
+X006D	Localisation-related symptomatic epilepsy with specific precipitant
+X006E	Hemiplegia-hemiconvulsion-epilepsy syndrome
+X006F	Localisation-related cryptogenic epilepsy
+X006G	Primary generalised epilepsy
+X006J	Myoclonic epilepsy of early childhood
+X006K	Juvenile absence epilepsy
+X006L	Impulsive petit mal of Janz
+X006M	Epilepsy with grand mal seizures on awakening
+X006N	Cryptogenic generalised epilepsy
+X006O	Cryptogenic West syndrome
+X006P	Symptomatic West syndrome
+X006Q	Lennox-Gastaut syndrome
+X006R	Cryptogenic Lennox-Gastaut syndrome
+X006S	Symptomatic Lennox-Gastaut syndrome
+X006T	Myoclonic astatic epilepsy
+X006U	Myoclonic absence epilepsy
+X006V	Unverricht-Lundborg syndrome
+X006X	Lafora disease
+X006Y	Myoclonic epilepsy - ragged red fibres
+X006Z	Cryptogenic myoclonic epilepsy
+X006a	Idiopathic myoclonic epilepsy
+X006c	Symptomatic generalised epilepsy
+X006d	Symptomatic early myoclonic encephalopathy
+X006e	Ohtahara syndrome
+X006f	Symptomatic myoclonic epilepsy
+X006l	Epilepsy undetermined whether focal or generalised
+X006n	Severe myoclonic epilepsy in infancy
+X006o	Landau-Kleffner syndrome
+X006p	ESSS - Epilepsy with continuous spike wave during slow-wave sleep
+X006q	Reading epilepsy
+X006s	Secondary reading epilepsy
+X006t	Drug-induced epilepsy
+X006v	Narcotic withdrawal epilepsy
+X006w	Catamenial epilepsy
+X006x	Nocturnal epilepsy
+X006y	Photogenic epilepsy
+X006z	Epilepsy only in relation to photic stimulation
+X0072	Writing epilepsy
+X0073	Musicogenic epilepsy
+X0074	Tactile epilepsy
+X0075	Eating epilepsy
+X0076	Tapping epilepsy
+X0077	Toothbrushing epilepsy
+X0078	Decision-making epilepsy
+X0079	Immersion-related epilepsy
+X007A	Self-induced non-photosensitive epilepsy
+X007B	Status epilepticus
+X007C	Non-convulsive status epilepticus with 3/s spike wave
+X007D	Non-convulsive status epilepticus without 3/s spike wave
+X007E	Non-convulsive simple partial status epilepticus
+X007F	Epilepsia partialis continua
+X007G	Complex partial status epilepticus
+X00RU	Epileptic psychosis
+X00RX	Limbic epilepsy personality syndrome
+X20If	Triple X syndrome, epilepsy, and hypogammaglobulinaemia
+X75Z1	Absence seizure with impairment of consciousness only
+X75Z2	Absence seizure with mild clonic components
+X75Z3	Absence seizure with atonic components
+X75Z4	Absence seizure with tonic components
+X75Z5	Absence seizure with automatisms
+X75Z6	Absence seizure with autonomic components
+X75Z7	Atypical absence seizure
+X75ZD	Epileptic drop attack
+XE15I	Progressive myoclonic epilepsy
+XE15Y	Convulsive status epilepticus
+XE15Z	Motor cortex epilepsy
+XE15a	Epilepsy NOS
+XE185	Attack - epileptic
+XE1hj	O/E - focal (Jacksonian) fit
+XM03i	Absence seizure
+XM03j	Psychomotor fit
+Xa0lJ	Localisation-related idiopathic epilepsy
+Xa0s8	Paranoid-hallucinatory epileptic psychosis
+XaB4R	Motor epilepsy
+XaB4S	Jacksonian, focal or motor epilepsy
+XaB4T	Psychomotor epilepsy
+XaBM2	Grand mal seizure
+XaC34	Fit (in known epileptic) NOS
+XaEIj	Epileptic seizure
+XaIt0	Transient epileptic amnesia
+XaJBb	Epilepsy severity
+XaJBn	Epilepsy confirmed
+XaJFI	Complex partial epileptic seizure
+XaJgP	Stress-induced epilepsy
+XaL2B	Simple partial epileptic seizure
+XaOZG	Panayiotopoulos syndrome
+XaPws	PEHO (progressive encephalopathy with oedema, hypsarrhythmia and optic atrophy) syndrome
+XaQbJ	Petit-mal epilepsy
+XaRGS	Childhood - juvenile - absence epilepsy
+XaYaC	Under care of epilepsy specialist nurse
