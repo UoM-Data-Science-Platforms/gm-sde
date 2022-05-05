@@ -1,0 +1,6 @@
+ga2B.	Levonorgestrel 1.5mg tablet
+ga2C.	Levonelle One Step 1.5mg tablet
+ga2D.	Levonelle 1500micrograms tablet
+ga2E.	UPOSTELLE 1500micrograms tablets
+ga91.	ELLAONE 30mg tablets
+ga9z.	ULIPRISTAL ACETATE 30mg tablets

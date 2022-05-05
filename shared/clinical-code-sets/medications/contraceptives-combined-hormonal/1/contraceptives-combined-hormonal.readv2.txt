@@ -1,0 +1,28 @@
+g864.	NORIMIN tablets
+g83E.	LEVEST tablets
+g812.	MERCILON tablets
+fh1r.	EVRA transdermal patches
+g873.	LOESTRIN-20 tablets
+g862.	BREVINOR tablets
+g811.	MARVELON tablets
+g834.	MICROGYNON-30 tablets
+g8A1.	YASMIN tablets
+g83G.	RIGEVIDON tablets
+g815.	GEDAREL 30micrograms/150micrograms tablets
+g837.	OVRANETTE tablets
+g888.	FEMODETTE tablets
+g867.	TRINOVUM tablets
+g83D.	MICROGYNON 30 ED tablets
+g83I.	MAEXENI tablets
+g832.	LOGYNON tablets
+g865.	OVYSMEN tablets
+g886.	ETHINYLESTRADIOL+GESTODENE 30micrograms/75micrograms tablets
+g8A2.	ETHINYLESTRADIOL+DROSPIRENONE 30micrograms/3mg tablets
+g83A.	ETHINYLESTRADIOL+LEVONORGESTREL 30micrograms/150micrograms tablets
+g882.	FEMODENE tablets
+g874.	LOESTRIN-30 tablets
+g8A5.	LUCETTE tablets
+g911.	NORINYL-1 tablets
+g891.	CILEST tablets
+g893.	LIZINNA tablets
+gj11.	NUVARING 120mcg/15mcg/24 hours vaginal delivery system

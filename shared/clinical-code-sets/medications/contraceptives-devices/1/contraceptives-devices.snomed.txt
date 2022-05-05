@@ -1,0 +1,282 @@
+786411000001105	Flexi-T 300 intrauterine contraceptive device (Durbin Plc)
+2098711000001102	Flexi-T 300 intrauterine contraceptive device (Durbin Plc)
+605511000001109	GyneFix intrauterine contraceptive device (Williams Medical Supplies Ltd)
+2098811000001105	GyneFix intrauterine contraceptive device (Williams Medical Supplies Ltd)
+499311000001100	GyneFixPT intrauterine contraceptive device (Family Planning Sales Ltd)
+2099211000001104	GyneFixPT intrauterine contraceptive device (Family Planning Sales Ltd)
+624111000001109	Multiload Cu250 intrauterine contraceptive device (Organon Laboratories Ltd)
+2099311000001107	Multiload Cu250 intrauterine contraceptive device (Organon Laboratories Ltd)
+694911000001103	Multiload Cu250 Short intrauterine contraceptive device (Organon Laboratories Ltd)
+2099911000001108	Multiload Cu250 Short intrauterine contraceptive device (Organon Laboratories Ltd)
+753811000001106	Multiload Cu375 intrauterine contraceptive device (Organon Laboratories Ltd)
+2100011000001109	Multiload Cu375 intrauterine contraceptive device (Organon Laboratories Ltd)
+194211000001108	Multi-Safe 375 intrauterine contraceptive device (Williams Medical Supplies Ltd)
+2100411000001100	Multi-Safe 375 intrauterine contraceptive device (Williams Medical Supplies Ltd)
+341311000001102	Nova-T intrauterine contraceptive device (Schering Health Care Ltd)
+2100711000001106	Nova-T intrauterine contraceptive device (Schering Health Care Ltd)
+879811000001108	Nova-T 380 intrauterine contraceptive device (Bayer Plc)
+2101011000001100	Nova-T 380 intrauterine contraceptive device (Bayer Plc)
+89611000001104	T-Safe 380A QL intrauterine contraceptive device (Williams Medical Supplies Ltd)
+2101211000001105	T-Safe 380A QL intrauterine contraceptive device (Williams Medical Supplies Ltd)
+7247611000001106	Neo-Safe T380 intrauterine contraceptive device (Williams Medical Supplies Ltd)
+7247811000001105	Neo-Safe T380 intrauterine contraceptive device (Williams Medical Supplies Ltd)
+7303111000001105	Gyne-T 380S intrauterine device (Janssen-Cilag Ltd)
+7303211000001104	Gyne-T 380S intrauterine device (Janssen-Cilag Ltd)
+9420811000001104	Flexi-T+ 380 intrauterine contraceptive device (Durbin Plc)
+9420911000001109	Flexi-T+ 380 intrauterine contraceptive device (Durbin Plc)
+9651911000001103	Load 375 intrauterine contraceptive device (Durbin Plc)
+9652011000001105	Load 375 intrauterine contraceptive device (Durbin Plc)
+9652111000001106	TT380 Slimline intrauterine contraceptive device (Durbin Plc)
+9652211000001100	TT380 Slimline intrauterine contraceptive device (Durbin Plc)
+9652311000001108	UT380 Short intrauterine contraceptive device (Durbin Plc)
+9652411000001101	UT380 Short intrauterine contraceptive device (Durbin Plc)
+9652511000001102	UT380 Standard intrauterine contraceptive device (Durbin Plc)
+9652611000001103	UT380 Standard intrauterine contraceptive device (Durbin Plc)
+12081711000001107	Mini TT380 Slimline intrauterine contraceptive device (Durbin Plc)
+12082311000001104	Mini TT380 Slimline intrauterine contraceptive device (Durbin Plc)
+16117611000001101	Steriload intrauterine contraceptive device (Farla Medical Ltd)
+16117711000001105	Steriload intrauterine contraceptive device (Farla Medical Ltd)
+18222911000001108	Optima TCu 380A intrauterine contraceptive device (Farla Medical Ltd)
+18223011000001100	Optima TCu 380A intrauterine contraceptive device (Farla Medical Ltd)
+20153211000001107	Ancora 375 Cu intrauterine contraceptive device (R.F. Medical Supplies Ltd)
+20153311000001104	Ancora 375 Cu intrauterine contraceptive device (R.F. Medical Supplies Ltd)
+20153411000001106	Copper T380 A intrauterine contraceptive device (R.F. Medical Supplies Ltd)
+20153511000001105	Copper T380 A intrauterine contraceptive device (R.F. Medical Supplies Ltd)
+20153611000001109	Novaplus T 380 Cu intrauterine contraceptive device normal (R.F. Medical Supplies Ltd)
+20153711000001100	Novaplus T 380 Cu intrauterine contraceptive device normal (R.F. Medical Supplies Ltd)
+20153811000001108	Ancora 375 Ag intrauterine contraceptive device (R.F. Medical Supplies Ltd)
+20153911000001103	Ancora 375 Ag intrauterine contraceptive device (R.F. Medical Supplies Ltd)
+20154011000001100	Novaplus T 380 Ag intrauterine contraceptive device normal (R.F. Medical Supplies Ltd)
+20154111000001104	Novaplus T 380 Ag intrauterine contraceptive device normal (R.F. Medical Supplies Ltd)
+20502511000001102	Novaplus T 380 Ag intrauterine contraceptive device mini (R.F. Medical Supplies Ltd)
+20502611000001103	Novaplus T 380 Ag intrauterine contraceptive device mini (R.F. Medical Supplies Ltd)
+20502811000001104	Novaplus T 380 Ag intrauterine contraceptive device maxi (R.F. Medical Supplies Ltd)
+20502911000001109	Novaplus T 380 Ag intrauterine contraceptive device maxi (R.F. Medical Supplies Ltd)
+20503311000001103	Novaplus T 380 Cu intrauterine contraceptive device mini (R.F. Medical Supplies Ltd)
+20503711000001104	Novaplus T 380 Cu intrauterine contraceptive device mini (R.F. Medical Supplies Ltd)
+37578611000001101	IUB Ballerine MIDI intrauterine contraceptive device (Durbin Plc)
+37578711000001105	IUB Ballerine MIDI intrauterine contraceptive device (Durbin Plc)
+3427211000001104	Vaginal contraceptive cap type A No.1
+992611000001100	Vaginal contraceptive cap type A No.1
+50311000001107	Dumas Vault Cap No.1 (Williams Medical Supplies Ltd)
+2117711000001105	Dumas Vault Cap No.1 (Williams Medical Supplies Ltd)
+3427311000001107	Vaginal contraceptive cap type A No.2
+1286311000001107	Vaginal contraceptive cap type A No.2
+129511000001102	Dumas Vault Cap No.2 (Williams Medical Supplies Ltd)
+2118211000001104	Dumas Vault Cap No.2 (Williams Medical Supplies Ltd)
+3427411000001100	Vaginal contraceptive cap type A No.3
+1310111000001102	Vaginal contraceptive cap type A No.3
+562211000001106	Dumas Vault Cap No.3 (Williams Medical Supplies Ltd)
+2118711000001106	Dumas Vault Cap No.3 (Williams Medical Supplies Ltd)
+3427511000001101	Vaginal contraceptive cap type A No.4
+1292811000001100	Vaginal contraceptive cap type A No.4
+396111000001100	Dumas Vault Cap No.4 (Williams Medical Supplies Ltd)
+2119711000001102	Dumas Vault Cap No.4 (Williams Medical Supplies Ltd)
+3427611000001102	Vaginal contraceptive cap type A No.5
+1117911000001106	Vaginal contraceptive cap type A No.5
+234111000001109	Dumas Vault Cap No.5 (Williams Medical Supplies Ltd)
+2120911000001104	Dumas Vault Cap No.5 (Williams Medical Supplies Ltd)
+3427711000001106	Vaginal contraceptive cap type B 22mm
+1121311000001109	Vaginal contraceptive cap type B 22mm
+774711000001103	Prentif Cavity Rim Cervical Cap 22mm (Williams Medical Supplies Ltd)
+2124911000001109	Prentif Cavity Rim Cervical Cap 22mm (Williams Medical Supplies Ltd)
+3427811000001103	Vaginal contraceptive cap type B 25mm
+1153911000001107	Vaginal contraceptive cap type B 25mm
+474711000001106	Prentif Cavity Rim Cervical Cap 25mm (Williams Medical Supplies Ltd)
+2125311000001107	Prentif Cavity Rim Cervical Cap 25mm (Williams Medical Supplies Ltd)
+3427911000001108	Vaginal contraceptive cap type B 28mm
+1286211000001104	Vaginal contraceptive cap type B 28mm
+406711000001109	Prentif Cavity Rim Cervical Cap 28mm (Williams Medical Supplies Ltd)
+2125711000001106	Prentif Cavity Rim Cervical Cap 28mm (Williams Medical Supplies Ltd)
+3428011000001105	Vaginal contraceptive cap type B 31mm
+1183111000001103	Vaginal contraceptive cap type B 31mm
+693211000001109	Prentif Cavity Rim Cervical Cap 31mm (Williams Medical Supplies Ltd)
+2126711000001103	Prentif Cavity Rim Cervical Cap 31mm (Williams Medical Supplies Ltd)
+3428111000001106	Vaginal contraceptive cap type C No.1
+1276111000001104	Vaginal contraceptive cap type C No.1
+678811000001109	Vimule Cap No.1 (Williams Medical Supplies Ltd)
+2127011000001102	Vimule Cap No.1 (Williams Medical Supplies Ltd)
+3428211000001100	Vaginal contraceptive cap type C No.2
+1243511000001104	Vaginal contraceptive cap type C No.2
+200011000001105	Vimule Cap No.2 (Williams Medical Supplies Ltd)
+2127211000001107	Vimule Cap No.2 (Williams Medical Supplies Ltd)
+3428311000001108	Vaginal contraceptive cap type C No.3
+1251411000001100	Vaginal contraceptive cap type C No.3
+889211000001100	Vimule Cap No.3 (Williams Medical Supplies Ltd)
+2127311000001104	Vimule Cap No.3 (Williams Medical Supplies Ltd)
+3428411000001101	Vaginal contraceptive rubber diaphragm flat spring 55mm
+944811000001104	Vaginal contraceptive rubber diaphragm flat spring 55mm
+866211000001106	Reflexions flat spring rubber diaphragm 55mm (Williams Medical Supplies Ltd)
+2144511000001100	Reflexions flat spring rubber diaphragm 55mm (Williams Medical Supplies Ltd)
+3428511000001102	Vaginal contraceptive rubber diaphragm flat spring 60mm
+1086811000001109	Vaginal contraceptive rubber diaphragm flat spring 60mm
+857911000001108	Reflexions flat spring rubber diaphragm 60mm (Williams Medical Supplies Ltd)
+2152511000001108	Reflexions flat spring rubber diaphragm 60mm (Williams Medical Supplies Ltd)
+3428611000001103	Vaginal contraceptive rubber diaphragm flat spring 65mm
+1221111000001109	Vaginal contraceptive rubber diaphragm flat spring 65mm
+70311000001109	Reflexions flat spring rubber diaphragm 65mm (Williams Medical Supplies Ltd)
+2154011000001106	Reflexions flat spring rubber diaphragm 65mm (Williams Medical Supplies Ltd)
+3428711000001107	Vaginal contraceptive rubber diaphragm flat spring 70mm
+1020411000001104	Vaginal contraceptive rubber diaphragm flat spring 70mm
+666011000001109	Reflexions flat spring rubber diaphragm 70mm (Williams Medical Supplies Ltd)
+2154411000001102	Reflexions flat spring rubber diaphragm 70mm (Williams Medical Supplies Ltd)
+3428811000001104	Vaginal contraceptive rubber diaphragm flat spring 75mm
+1163311000001104	Vaginal contraceptive rubber diaphragm flat spring 75mm
+660311000001109	Reflexions flat spring rubber diaphragm 75mm (Williams Medical Supplies Ltd)
+2154711000001108	Reflexions flat spring rubber diaphragm 75mm (Williams Medical Supplies Ltd)
+3428911000001109	Vaginal contraceptive rubber diaphragm flat spring 80mm
+1230911000001102	Vaginal contraceptive rubber diaphragm flat spring 80mm
+381611000001102	Reflexions flat spring rubber diaphragm 80mm (Williams Medical Supplies Ltd)
+2154911000001105	Reflexions flat spring rubber diaphragm 80mm (Williams Medical Supplies Ltd)
+3429011000001100	Vaginal contraceptive rubber diaphragm flat spring 85mm
+1259911000001107	Vaginal contraceptive rubber diaphragm flat spring 85mm
+27211000001101	Reflexions flat spring rubber diaphragm 85mm (Williams Medical Supplies Ltd)
+2155311000001108	Reflexions flat spring rubber diaphragm 85mm (Williams Medical Supplies Ltd)
+3429111000001104	Vaginal contraceptive rubber diaphragm flat spring 90mm
+1138011000001102	Vaginal contraceptive rubber diaphragm flat spring 90mm
+131711000001105	Reflexions flat spring rubber diaphragm 90mm (Williams Medical Supplies Ltd)
+2155511000001102	Reflexions flat spring rubber diaphragm 90mm (Williams Medical Supplies Ltd)
+3429211000001105	Vaginal contraceptive rubber diaphragm flat spring 95mm
+1114111000001103	Vaginal contraceptive rubber diaphragm flat spring 95mm
+604711000001103	Reflexions flat spring rubber diaphragm 95mm (Williams Medical Supplies Ltd)
+2156111000001100	Reflexions flat spring rubber diaphragm 95mm (Williams Medical Supplies Ltd)
+3429411000001109	Vaginal contraceptive rubber diaphragm type B coil spring 60mm
+1231611000001103	Vaginal contraceptive rubber diaphragm type B coil spring 60mm
+4411000001101	Ortho coil spring rubber diaphragm 60mm (Janssen-Cilag Ltd)
+2156511000001109	Ortho coil spring rubber diaphragm 60mm (Janssen-Cilag Ltd)
+3429511000001108	Vaginal contraceptive rubber diaphragm type B coil spring 65mm
+1214011000001101	Vaginal contraceptive rubber diaphragm type B coil spring 65mm
+685611000001109	Ortho coil spring rubber diaphragm 65mm (Janssen-Cilag Ltd)
+2157011000001103	Ortho coil spring rubber diaphragm 65mm (Janssen-Cilag Ltd)
+3429611000001107	Vaginal contraceptive rubber diaphragm type B coil spring 70mm
+1031211000001107	Vaginal contraceptive rubber diaphragm type B coil spring 70mm
+288911000001107	Ortho coil spring rubber diaphragm 70mm (Janssen-Cilag Ltd)
+2157411000001107	Ortho coil spring rubber diaphragm 70mm (Janssen-Cilag Ltd)
+3429711000001103	Vaginal contraceptive rubber diaphragm type B coil spring 75mm
+1295611000001108	Vaginal contraceptive rubber diaphragm type B coil spring 75mm
+255011000001106	Ortho coil spring rubber diaphragm 75mm (Janssen-Cilag Ltd)
+2159411000001103	Ortho coil spring rubber diaphragm 75mm (Janssen-Cilag Ltd)
+3429811000001106	Vaginal contraceptive rubber diaphragm type B coil spring 80mm
+1238111000001103	Vaginal contraceptive rubber diaphragm type B coil spring 80mm
+159211000001101	Ortho coil spring rubber diaphragm 80mm (Janssen-Cilag Ltd)
+2164111000001100	Ortho coil spring rubber diaphragm 80mm (Janssen-Cilag Ltd)
+3429911000001101	Vaginal contraceptive rubber diaphragm type B coil spring 85mm
+982911000001105	Vaginal contraceptive rubber diaphragm type B coil spring 85mm
+584811000001104	Ortho coil spring rubber diaphragm 85mm (Janssen-Cilag Ltd)
+2164811000001107	Ortho coil spring rubber diaphragm 85mm (Janssen-Cilag Ltd)
+3430011000001106	Vaginal contraceptive rubber diaphragm type B coil spring 90mm
+1079911000001102	Vaginal contraceptive rubber diaphragm type B coil spring 90mm
+533111000001102	Ortho coil spring rubber diaphragm 90mm (Janssen-Cilag Ltd)
+2165511000001105	Ortho coil spring rubber diaphragm 90mm (Janssen-Cilag Ltd)
+3430111000001107	Vaginal contraceptive rubber diaphragm type B coil spring 95mm
+1193911000001101	Vaginal contraceptive rubber diaphragm type B coil spring 95mm
+690311000001107	Ortho coil spring rubber diaphragm 95mm (Janssen-Cilag Ltd)
+2166011000001106	Ortho coil spring rubber diaphragm 95mm (Janssen-Cilag Ltd)
+3429311000001102	Vaginal contraceptive rubber diaphragm type B coil spring 100mm
+1117211000001102	Vaginal contraceptive rubber diaphragm type B coil spring 100mm
+901111000001101	Ortho coil spring rubber diaphragm 100mm (Janssen-Cilag Ltd)
+2167011000001109	Ortho coil spring rubber diaphragm 100mm (Janssen-Cilag Ltd)
+3430211000001101	Vaginal contraceptive rubber diaphragm type C arcing spring 60mm
+1026511000001103	Vaginal contraceptive rubber diaphragm type C arcing spring 60mm
+124711000001106	All Flex arcing spring rubber diaphragm 60mm (Janssen-Cilag Ltd)
+2168611000001103	All Flex arcing spring rubber diaphragm 60mm (Janssen-Cilag Ltd)
+3430311000001109	Vaginal contraceptive rubber diaphragm type C arcing spring 65mm
+1285611000001107	Vaginal contraceptive rubber diaphragm type C arcing spring 65mm
+919111000001100	All Flex arcing spring rubber diaphragm 65mm (Janssen-Cilag Ltd)
+2169111000001104	All Flex arcing spring rubber diaphragm 65mm (Janssen-Cilag Ltd)
+3430411000001102	Vaginal contraceptive rubber diaphragm type C arcing spring 70mm
+992211000001102	Vaginal contraceptive rubber diaphragm type C arcing spring 70mm
+107211000001104	All Flex arcing spring rubber diaphragm 70mm (Janssen-Cilag Ltd)
+2170111000001101	All Flex arcing spring rubber diaphragm 70mm (Janssen-Cilag Ltd)
+3430511000001103	Vaginal contraceptive rubber diaphragm type C arcing spring 75mm
+1270311000001100	Vaginal contraceptive rubber diaphragm type C arcing spring 75mm
+684911000001102	All Flex arcing spring rubber diaphragm 75mm (Janssen-Cilag Ltd)
+2171411000001102	All Flex arcing spring rubber diaphragm 75mm (Janssen-Cilag Ltd)
+3430611000001104	Vaginal contraceptive rubber diaphragm type C arcing spring 80mm
+1298711000001106	Vaginal contraceptive rubber diaphragm type C arcing spring 80mm
+381711000001106	All Flex arcing spring rubber diaphragm 80mm (Janssen-Cilag Ltd)
+2172811000001109	All Flex arcing spring rubber diaphragm 80mm (Janssen-Cilag Ltd)
+3430711000001108	Vaginal contraceptive rubber diaphragm type C arcing spring 85mm
+1178011000001104	Vaginal contraceptive rubber diaphragm type C arcing spring 85mm
+67211000001109	All Flex arcing spring rubber diaphragm 85mm (Janssen-Cilag Ltd)
+2174011000001109	All Flex arcing spring rubber diaphragm 85mm (Janssen-Cilag Ltd)
+3430811000001100	Vaginal contraceptive rubber diaphragm type C arcing spring 90mm
+961011000001101	Vaginal contraceptive rubber diaphragm type C arcing spring 90mm
+373711000001101	All Flex arcing spring rubber diaphragm 90mm (Janssen-Cilag Ltd)
+2175111000001109	All Flex arcing spring rubber diaphragm 90mm (Janssen-Cilag Ltd)
+3430911000001105	Vaginal contraceptive rubber diaphragm type C arcing spring 95mm
+1106011000001106	Vaginal contraceptive rubber diaphragm type C arcing spring 95mm
+341411000001109	All Flex arcing spring rubber diaphragm 95mm (Janssen-Cilag Ltd)
+2175911000001107	All Flex arcing spring rubber diaphragm 95mm (Janssen-Cilag Ltd)
+3456911000001109	Fertility ovulation thermometer
+1299411000001108	Fertility ovulation thermometer
+62111000001100	Fertility ovulation thermometer (G.H.Zeal Ltd)
+2283811000001108	Fertility ovulation thermometer (G.H.Zeal Ltd)
+4172711000001109	Vaginal contraceptive cap silicone 22mm
+4160211000001107	Vaginal contraceptive cap silicone 22mm
+4160311000001104	FemCap 22mm (Durbin Plc)
+4160411000001106	FemCap 22mm (Durbin Plc)
+4172811000001101	Vaginal contraceptive cap silicone 26mm
+4160511000001105	Vaginal contraceptive cap silicone 26mm
+4160611000001109	FemCap 26mm (Durbin Plc)
+4160711000001100	FemCap 26mm (Durbin Plc)
+4172911000001106	Vaginal contraceptive cap silicone 30mm
+4160811000001108	Vaginal contraceptive cap silicone 30mm
+4160911000001103	FemCap 30mm (Durbin Plc)
+4161011000001106	FemCap 30mm (Durbin Plc)
+10226611000001103	Vaginal contraceptive silicone diaphragm type B coil spring 60mm
+10213011000001108	Vaginal contraceptive silicone diaphragm type B coil spring 60mm
+10213111000001109	Milex omniflex coil spring silicone diaphragm 60mm (Durbin Plc)
+10213211000001103	Milex omniflex coil spring silicone diaphragm 60mm (Durbin Plc)
+10226711000001107	Vaginal contraceptive silicone diaphragm type B coil spring 65mm
+10213611000001101	Vaginal contraceptive silicone diaphragm type B coil spring 65mm
+10213811000001102	Milex omniflex coil spring silicone diaphragm 65mm (Durbin Plc)
+10213911000001107	Milex omniflex coil spring silicone diaphragm 65mm (Durbin Plc)
+10226811000001104	Vaginal contraceptive silicone diaphragm type B coil spring 70mm
+10214211000001100	Vaginal contraceptive silicone diaphragm type B coil spring 70mm
+10214311000001108	Milex omniflex coil spring silicone diaphragm 70mm (Durbin Plc)
+10214411000001101	Milex omniflex coil spring silicone diaphragm 70mm (Durbin Plc)
+10226911000001109	Vaginal contraceptive silicone diaphragm type B coil spring 75mm
+10215011000001109	Vaginal contraceptive silicone diaphragm type B coil spring 75mm
+10215111000001105	Milex omniflex coil spring silicone diaphragm 75mm (Durbin Plc)
+10215211000001104	Milex omniflex coil spring silicone diaphragm 75mm (Durbin Plc)
+10227011000001108	Vaginal contraceptive silicone diaphragm type B coil spring 80mm
+10215311000001107	Vaginal contraceptive silicone diaphragm type B coil spring 80mm
+10215411000001100	Milex omniflex coil spring silicone diaphragm 80mm (Durbin Plc)
+10215511000001101	Milex omniflex coil spring silicone diaphragm 80mm (Durbin Plc)
+10227111000001109	Vaginal contraceptive silicone diaphragm type B coil spring 85mm
+10215611000001102	Vaginal contraceptive silicone diaphragm type B coil spring 85mm
+10215711000001106	Milex omniflex coil spring silicone diaphragm 85mm (Durbin Plc)
+10215811000001103	Milex omniflex coil spring silicone diaphragm 85mm (Durbin Plc)
+10227211000001103	Vaginal contraceptive silicone diaphragm type B coil spring 90mm
+10215911000001108	Vaginal contraceptive silicone diaphragm type B coil spring 90mm
+10216011000001100	Milex omniflex coil spring silicone diaphragm 90mm (Durbin Plc)
+10216111000001104	Milex omniflex coil spring silicone diaphragm 90mm (Durbin Plc)
+10227311000001106	Vaginal contraceptive silicone diaphragm type C arcing spring 60mm
+10216711000001103	Vaginal contraceptive silicone diaphragm type C arcing spring 60mm
+10216811000001106	Milex arcing spring silicone diaphragm 60mm (Durbin Plc)
+10216911000001101	Milex arcing spring silicone diaphragm 60mm (Durbin Plc)
+10217911000001103	Milex arcing spring silicone diaphragm 65mm (Durbin Plc)
+10218211000001106	Milex arcing spring silicone diaphragm 65mm (Durbin Plc)
+16319311000001105	Ortho All-Flex arcing spring silicone diaphragm 65mm (Janssen-Cilag Ltd)
+16319511000001104	Ortho All-Flex arcing spring silicone diaphragm 65mm (Janssen-Cilag Ltd)
+10218411000001105	Milex arcing spring silicone diaphragm 70mm (Durbin Plc)
+10218511000001109	Milex arcing spring silicone diaphragm 70mm (Durbin Plc)
+16319711000001109	Ortho All-Flex arcing spring silicone diaphragm 70mm (Janssen-Cilag Ltd)
+16319811000001101	Ortho All-Flex arcing spring silicone diaphragm 70mm (Janssen-Cilag Ltd)
+10219311000001109	Milex arcing spring silicone diaphragm 75mm (Durbin Plc)
+10219411000001102	Milex arcing spring silicone diaphragm 75mm (Durbin Plc)
+16320111000001109	Ortho All-Flex arcing spring silicone diaphragm 75mm (Janssen-Cilag Ltd)
+16320211000001103	Ortho All-Flex arcing spring silicone diaphragm 75mm (Janssen-Cilag Ltd)
+10219911000001105	Milex arcing spring silicone diaphragm 80mm (Durbin Plc)
+10220011000001107	Milex arcing spring silicone diaphragm 80mm (Durbin Plc)
+16320311000001106	Ortho All-Flex arcing spring silicone diaphragm 80mm (Janssen-Cilag Ltd)
+16320511000001100	Ortho All-Flex arcing spring silicone diaphragm 80mm (Janssen-Cilag Ltd)
+10227811000001102	Vaginal contraceptive silicone diaphragm type C arcing spring 85mm
+10220111000001108	Vaginal contraceptive silicone diaphragm type C arcing spring 85mm
+10220211000001102	Milex arcing spring silicone diaphragm 85mm (Durbin Plc)
+10220311000001105	Milex arcing spring silicone diaphragm 85mm (Durbin Plc)
+10227911000001107	Vaginal contraceptive silicone diaphragm type C arcing spring 90mm
+10220411000001103	Vaginal contraceptive silicone diaphragm type C arcing spring 90mm
+10220511000001104	Milex arcing spring silicone diaphragm 90mm (Durbin Plc)
+10220611000001100	Milex arcing spring silicone diaphragm 90mm (Durbin Plc)
