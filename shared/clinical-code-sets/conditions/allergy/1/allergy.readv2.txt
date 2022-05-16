@@ -36,3 +36,4 @@ H171000	Allergy to animal
 9bJ5.00	Transfer-degraded non-drug allergy
 9bJ4.00	Transfer-degraded drug allergy
 J432.12	Cow's milk allergy
+1Z4..00 Allergic reaction to drug
