@@ -1,0 +1,83 @@
+228007	Lucio phenomenon (disorder)
+9177003	Histiocytic vasculitis of skin (disorder)
+11791001	Necrotizing vasculitis (disorder)
+31996006	Vasculitis (disorder)
+46286007	Lymphocytic vasculitis of skin (disorder)
+46956008	Polyangiitis
+53312001	Vasculitis of the skin (disorder)
+55275006	Non-tubercular erythema induratum
+56780006	Segmental hyalinizing vasculitis (disorder)
+60555002	Hypersensitivity angiitis (disorder)
+64832003	Neutrophilic vasculitis of skin (disorder)
+77628002	Retinal vasculitis (disorder)
+95578000	Renal vasculitis (disorder)
+190815001	Cryoglobulinemic vasculitis (disorder)
+191306005	Henoch-Schönlein purpura (disorder)
+230731002	Cerebral arteritis in systemic vasculitis (disorder)
+230733004	Isolated angiitis of central nervous system (disorder)
+234019004	Secondary systemic vasculitis (disorder)
+234020005	Vasculitis caused by drug
+238762002	Livedoid vasculitis (disorder)
+238785001	Primary cutaneous vasculitis (disorder)
+238786000	Gougerot-Ruiter purpura (disorder)
+238787009	Secondary cutaneous vasculitis (disorder)
+239924002	Primary necrotizing systemic vasculitis (disorder)
+239933000	Primary necrotizing vasculitis with granulomata (disorder)
+239941000	Nailfold rheumatoid vasculitis (disorder)
+239942007	Systemic rheumatoid vasculitis (disorder)
+239943002	Necrotizing rheumatoid vasculitis (disorder)
+239944008	Lupus erythematosus-associated vasculitis
+239945009	Hypocomplementemic urticarial vasculitis (disorder)
+239947001	Essential mixed cryoglobulinemia (disorder)
+400054000	Rheumatoid vasculitis
+402416000	Urticarial vasculitis with monoclonal immunoglobulin M component, Schnitzler
+402655006	Necrotizing cutaneous vasculitis
+402656007	Urticarial vasculitis
+402657003	Necrotizing vasculitis secondary to connective tissue disease
+402658008	Serum sickness type vasculitis
+402659000	Drug-induced necrotizing vasculitis
+402660005	Necrotizing vasculitis secondary to infection
+402661009	Paraneoplastic vasculitis
+402662002	Necrotizing vasculitis due to mixed cryoglobulinemia
+402663007	Pustular vasculitis
+402664001	Localized cutaneous vasculitis
+402855009	Normocomplementemic urticarial vasculitis
+402859003	Necrotizing vasculitis of undetermined etiology
+402958005	Pustular vasculitis due to gonococcal bacteremia
+403510002	Urticarial vasculitis due to lupus erythematosus
+403511003	Necrotizing vasculitis due to lupus erythematosus
+403518009	Necrotizing vasculitis due to scleroderma
+403616000	Drug-induced lymphocytic vasculitis
+407530004	Primary systemic vasculitis
+416703007	Retinal vasculitis due to polyarteritis nodosa
+417303004	Retinal vasculitis due to systemic lupus erythematosus
+427020007	Cerebral vasculitis
+427213005	Autoimmune vasculitis
+427356003	Eosinophilic vasculitis of skin
+718217000	Cutaneous small vessel vasculitis
+721664001	Mesenteric arteritis
+722191003	Antineutrophil cytoplasmic antibody (ANCA) positive vasculitis
+722858009	Vasculitis of large intestine
+724063005	Postinfective vasculitis
+724597006	Large vessel vasculitis
+724598001	Medium sized vessel vasculitis
+724599009	Small vessel vasculitis
+724600007	Immune complex small vessel vasculitis
+724601006	Vasculitis caused by antineutrophil cytoplasmic antibody
+724602004	Single organ vasculitis
+724996005	Vasculitic lumbosacral plexopathy
+737184001	Interstitial lung disease with systemic vasculitis
+762302008	Drug-associated immune complex vasculitis
+762352004	Demyelination due to systemic vasculitis
+762537007	Livedoid vasculitis of lower limb due to varicose veins of lower limb
+985941000000100	Medium vessel vasculitis (disorder)
+101711000119105	Glomerulonephritis co-occurrent and due to antineutrophil cytoplasmic antibody positive vasculitis
+985971000000106	Sarcoid vasculitis (disorder)
+988101000000109	Vasculitis co-occurrent and due to Hepatitis B virus infection (disorder)
+988081000000103	Antineutrophil cytoplasmic antibody associated vasculitis caused by drug (disorder)
+988111000000106	Cryoglobulinaemic vasculitis co-occurrent and due to Hepatitis C virus infection (disorder)
+233948000	Pulmonary hypertension in vasculitis
+703355003	Pulmonary hypertension due to vasculitis (disorder)
+404658009	Optic disc vasculitis
+193177003	Polyneuropathy in collagen vascular disease (disorder)
+472974007	History of vasculitis
