@@ -1,0 +1,5 @@
+h826.	CICLOSPORIN 25mg capsules
+h827.	CICLOSPORIN 100mg capsules
+h82D.	NEORAL 100mg/mL sugar free oral solution
+h82x.	CICLOSPORIN 100mg/mL sugar free oral solution
+h83F.	ADOPORT 1mg capsules
