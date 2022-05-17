@@ -46,3 +46,4 @@ K051.00	Chronic kidney disease stage 1
 1Z1..	Chronic renal impairment
 K050.	End stage renal failure
 K0D..	End-stage renal disease
+K05..00	Chronic renal failure
