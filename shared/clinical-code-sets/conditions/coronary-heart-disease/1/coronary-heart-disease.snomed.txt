@@ -1,3 +1,4 @@
+snomed	Description
 G3...00	Ischaemic heart disease
 G3...12	Atherosclerotic heart disease
 G3...13	IHD - Ischaemic heart disease
@@ -133,6 +134,3 @@ Gyu3400	[X]Acute transmural myocardial infarction of unspecified site
 14AH.00	H/O: Myocardial infarction in last year
 P6yy600	Congenital aneurysm of heart
 SP07600	Coronary artery bypass graft occlusion
-G310.00	Postmyocardial infarction syndrome
-G70..00	Arteriosclerosis
-G70..00	Atherosclerosis
