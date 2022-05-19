@@ -60,10 +60,10 @@ Name,Version,Terminology,Code,ExcelCode,Description`;
  * @param {string} config.another - Another property
  * @returns {string} - Markdown content string
  */
-function generateProjectSupplementaryReadme({ codeSets, includedSqlFiles }) {
+function generateProjectSupplementaryReadme({ codeSets, includedSqlFiles, terminologies }) {
   const reusableQueryIntro = getReusableQueryIntro(includedSqlFiles);
   const reusableQueryBody = getReusableQueryBody(includedSqlFiles);
-  const codeSetTable = getCodeSetTable(codeSets);
+  const codeSetTable = getCodeSetTable(codeSets, terminologies);
   const codeSetIntro = getCodesetIntro(codeSets);
   const collatedCodeSetReadMe = collateCodeSetReadmes(codeSets);
   const toc = getTableOfContents();
@@ -144,7 +144,7 @@ Further details for each code set can be found below.
 `;
 }
 
-function getCodeSetTable(codeSets) {
+function getCodeSetTable(codeSets, terminologies = ['snomed', 'readv2', 'ctv3', 'emis']) {
   const tableIntro = `
 # Clinical code sets
 
@@ -159,7 +159,7 @@ All code sets required for this analysis are listed here. Individual lists for e
         .map((item) =>
           item.file
             .split('\n')
-            .filter((x) => x.length > 2)
+            .filter((x) => x.length > 2 && terminologies.indexOf(item.terminology) > -1)
             .map((row) => {
               const [code, description] = row.split('\t');
               return `|${x.codeSet} v${x.version}|${item.terminology}|${code}|${description}|`;
