@@ -1,0 +1,2 @@
+301331008	Finding of body mass index (finding)
+60621009	Body mass index (observable entity)

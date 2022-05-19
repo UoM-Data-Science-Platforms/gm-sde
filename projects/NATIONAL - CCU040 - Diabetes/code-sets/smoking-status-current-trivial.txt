@@ -1,0 +1,3 @@
+266920004	Trivial cigarette smoker (less than one cigarette/day) (finding)
+428041000124106	Occasional tobacco smoker (finding)
+230059006	Occasional cigarette smoker (finding)

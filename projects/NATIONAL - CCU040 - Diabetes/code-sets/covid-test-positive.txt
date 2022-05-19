@@ -1,0 +1,14 @@
+871553007	Detection of SARS-CoV-2 antigen
+1322781000000102	Severe acute respiratory syndrome coronavirus 2 antigen detection result positive (finding)
+1240511000000106	Detection of 2019-nCoV (novel coronavirus) using polymerase chain reaction technique
+840539006	COVID-19
+1240581000000104	2019-nCoV (novel coronavirus) detected 
+12802201000006101	Confirmed 2019-nCoV (Wuhan) infection
+840533007	SARS-CoV-2
+840533007	Severe acute respiratory syndrome coronavirus 2
+840533007	Severe acute respiratory syndrome coronavirus 2 (organism)
+1240381000000105	Severe acute respiratory syndrome coronavirus 2 (organism)
+1240391000000107	Antigen of severe acute respiratory syndrome coronavirus 2 (substance)
+1240411000000107	Ribonucleic acid of Severe acute respiratory syndrome coronavirus 2 (substance)
+1240421000000101	Serotype severe acute respiratory syndrome coronavirus 2 (qualifier value)
+1300721000000109	Coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2 confirmed by laboratory test (situation)
