@@ -1,0 +1,3 @@
+EMISQUR1	Urine dipstick for leucocytes
+EMISQUR2	Urine dipstick leucocytes positive
+EMISQUR3	Urine dipstick leucocytes negative

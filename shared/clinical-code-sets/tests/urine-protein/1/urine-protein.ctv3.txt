@@ -1,0 +1,7 @@
+467..	Urine protein test
+4672.	Urine protein test negative
+4673.	Urine protein test = trace
+4674.	Urine protein test = +
+4675.	Urine protein test = ++
+4676.	Urine protein test = +++
+4677.	Urine protein test = ++++
