@@ -1,15 +1,15 @@
-# Height
+# Pregnancy
 
-A patient's height as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`229.. - O/E - Height`).
+Any codes indicating a patient is pregnant. Note that some of the codes in this code set are redacted from the GMCR due to sensitivity (e.g. abortion, unwanted pregnancy)
 
-Codes taken from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
+Code list provided by PI for RQ050.
 
 ## Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `66.10% - 72.59%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `10.92% - 13.36%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-10-13 | EMIS            | 26929848   | 1885015 (71.68%) |  1884110 (71.64%) |
-| 2021-10-13 | TPP             | 211812     |  140013 (66.10%) |   140013 (66.10%) |
-| 2021-10-13 | Vision          | 338205     |  245440 (72.59%) |   245440 (72.57%) |
+| 2022-04-28 | EMIS            |  2661707   | 329135 (12.37%)  |  326253 (12.28%)  |
+| 2022-04-28 | TPP             |  212737    |  23238 (10.92%)  |   23237 (10.92%)  |
+| 2022-04-28 | Vision          |  342156    |  45729 (13.36%)  |   45622 (13.33%)  |

@@ -1,0 +1,2 @@
+443e.	Serum LH level
+443f.	Plasma LH level

@@ -2,14 +2,13 @@
   "description": "",
   "repository": {},
   "license": "ISC",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "dependencies": {
     "@azure/ms-rest-nodeauth": "^3.0.7",
     "chalk": "^4.1.0",
     "clear": "^0.1.0",
     "inquirer": "^8.0.0",
     "mssql": "^7.0.0",
-    "puppeteer": "^10.0.0",
-    "csv-stringify": "6.0.4"
+    "puppeteer": "^10.0.0"
   }
 }

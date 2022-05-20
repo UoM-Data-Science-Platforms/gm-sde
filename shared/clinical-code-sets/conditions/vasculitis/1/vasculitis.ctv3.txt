@@ -1,0 +1,34 @@
+C3321	Cryoglobulinaemic vasculitis
+X205F	Secondary systemic vasculitis
+X205G	Vasculitis secondary to drug
+X701l	Rheumatoid vasculitis
+X705w	Lupus vasculitis
+X205D	Systemic vasculitis
+X705t	Nailfold rheumatoid vasculitis
+X705u	Systemic rheumatoid vasculitis
+X705v	Necrotising rheumatoid vasculitis
+G76B.	Vasculitis
+X7061	Essential cryoglobulinaemic vasculitis
+X50BC	Primary cutaneous vasculitis
+X50BG	Gougerot-Ruiter vasculitis
+X705x	Hypocomplementaemic vasculitis
+X50BI	Secondary cutaneous vasculitis
+Myu7A	[X]Other vasculitis limited to the skin
+Myu7G	[X]Vasculitis limited to skin, unspecified
+X50BK	Nodular vasculitis
+X00Dw	Cerebral arteritis in systemic vasculitis
+X00Dz	Primary central nervous system granulomatous vasculitis
+X705i	Churg-Strauss vasculitis
+F421E	Retinal vasculitis NOS
+X00dO	Retinal vasculitis
+X309p	Peritoneal vasculitis
+XaXlI	H/O vasculitis
+D310.	Allergic purpura
+D3100	Acute vascular purpura
+F371.	Neuropathy in vasculitis and connective tissue disease
+G750.	(Polyarteritis nodosa) or (necrotising angiitis)
+G750.	Polyarteritis nodosa
+G752.	Hypersensitivity: [angiitis] or [arteritis]
+G752z	Hypersensitivity angiitis NOS
+X203B	Post-arteritic pulmonary hypertension
+XE0VV	Hypersensitivity angiitis

@@ -1,0 +1,30 @@
+23132008	Amyloid light-chain amyloidosis
+94704006	Multiple myeloma in remission (disorder)
+109989006	Multiple myeloma (disorder)
+209962000	Myeloma-associated amyloidosis
+277579002	Light chain myeloma (disorder)
+277580004	Non-secretory myeloma (disorder)
+285420006	Immunoglobulin A myeloma
+285421005	Immunoglobulin G myeloma (disorder)
+285422003	Immunoglobulin D myeloma
+313427003	Lambda light chain myeloma (disorder)
+413587002	Smouldering myeloma
+414553000	Kappa light chain myeloma
+415110002	Plasma cell myeloma/plasmacytoma
+425657001	Osteosclerotic myeloma
+426336007	SOM disease
+440422002	Asymptomatic multiple myeloma
+441313008	Indolent myeloma
+739301006	Osteoporosis in multiple myelomatosis
+10639003	Solitary plasmacytoma of bone
+55921005	Multiple myeloma, no International Classification of Diseases for Oncology subtype
+399456004	Plasma cell myeloma/plasmacytoma
+415109007	Plasma cell myeloma - category
+64446007	Myeloma cell (cell)
+32278006	Myeloma cast nephropathy
+429646003	X-ray skeletal survey for multiple myeloma
+127911000119105	Light chain nephropathy due to multiple myeloma (disorder)
+230586003	Neuropathy due to multiple myeloma (disorder)
+120481000119109	History of multiple myeloma (situation)
+434462008	Family history of multiple myeloma
+402453006	Myeloma-associated cutaneous amyloid

@@ -1,0 +1,20 @@
+﻿66U..00	Menopause monitoring
+66UZ.00	Menopause monitoring NOS
+66UF.00	Menopause: gen counselling
+66UE.00	Menopause: sexual advice
+66UD.00	Menopause: dietary advice
+66U5.00	Menopause: bone density check
+66U4.00	Menopause: LH, FSH checked
+66U3.00	Menopause symptoms present
+66U2.00	Menopause follow-up assessment
+66U1.00	Menopause initial assessment
+C163400	Early menopause
+C163111	Premature menopause NOS
+12F9.00	FH: Late menopause
+12F8.00	FH: Early menopause
+K5Az.00	Menopausal and postmenopausal disorder NOS
+K5A4.00	Artificial menopause state
+1512.00	Menopause
+67I1.00	Advice about the menopause
+C163100	Secondary ovarian failure
+K5A2z00	Menopausal symptoms NOS

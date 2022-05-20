@@ -1,0 +1,18 @@
+M2y0X00	Vasculitis limited to skin, unspecified
+M2y0200	Livedoid vasculitis
+Myu7G00	[X]Vasculitis limited to skin, unspecified
+Myu7A00	[X]Other vasculitis limited to the skin
+M152.11	Nodular vasculitis
+C332100	Cryoglobulinaemic vasculitis
+F421E00	Retinal vasculitis NOS
+G758.00	Churg-Strauss vasculitis
+G76B.00	Vasculitis
+N040N00	Rheumatoid vasculitis
+D310.	Allergic purpura
+D3100	Acute vascular purpura
+F371.	Polyneuropathy in collagen vascular disease
+G750.	Necrotising angiitis
+G750.	Polyarteritis nodosa
+G752.	Hypersensitivity angiitis
+G752z	Hypersensitivity angiitis NOS
+M152.	Erythema nodosum

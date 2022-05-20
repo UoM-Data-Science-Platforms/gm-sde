@@ -1,0 +1,4 @@
+1023191000000105	Serum FSH level
+1023201000000107	Plasma FSH level
+1027161000000108	FSH - Follicle stimulating hormone level
+273971007	Serum FSH level

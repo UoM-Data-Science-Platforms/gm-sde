@@ -1,0 +1,11 @@
+K04..	Acute kidney injury
+Xaa8O	Acute kidney injury stage 1
+Xaa8P	Acute kidney injury stage 2
+Xaa8Q	Acute kidney injury stage 3
+XabmE	Acute kidney injury warning stage
+Xabuj	Provision of written information about acute kidney injury
+XaebJ	H/O: acute kidney injury
+K04z.	Acute renal failure NOS
+Kyu20	[X]Other acute renal failure
+X30Iu	Myoglobinuric acute renal failure
+XM08q	Prerenal renal failure
