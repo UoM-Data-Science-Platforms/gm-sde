@@ -1,0 +1,46 @@
+585O.00	Quantitative ultrasound scan of heel - result osteoporotic
+58E4.00	Forearm DXA scan result osteoporotic
+58E8.00	Heel DXA scan T score
+58EA.00	Heel DXA scan result osteoporotic
+58EE.00	Hip DXA scan T score
+58EG.00	Hip DXA scan result osteoporotic
+58EK.00	Lumbar spine DXA scan T score
+58EM.00	Lumbar DXA scan result osteoporotic
+58ES.00	Femoral neck DEXA scan T score
+58EV.00	Femoral neck DEXA scan result osteoporotic
+7230A	OSTEOPOROSIS
+7230B	OSTEOPOROSIS SENILIS
+7230D	VERTEBRAL OSTEOPOROSIS
+7230PM	OSTEOPOROSIS POSTMENOPAUSAL
+7230PT	OSTEOPOROSIS POST-TRAUMATIC
+N330.00	Osteoporosis
+N330000	Osteoporosis; unspecified
+N330100	Senile osteoporosis
+N330200	Postmenopausal osteoporosis
+N330300	Idiopathic osteoporosis
+N330400	Dissuse osteoporosis
+N330500	Drug-induced osteoporosis
+N330600	Postoophorectomy osteoporosis
+N330700	Postsurgical malabsorption osteoporosis
+N330800	Localized osteoporosis - Lequesne
+N330900	Osteoporosis in multiple myelomatosis
+N330A00	Osteoporosis in endocrine disorders
+N330B00	Vertebral osteoporosis
+N330C00	Osteoporosis localized to spine
+N330D00	Osteoporosis due to corticosteroids
+N330z00	Osteoporosis NOS
+N331200	Postoophorectomy osteoporosis with pathological fracture
+N331300	Osteoporosis of disuse with pathological fracture
+N331400	Postsurgical malabsorption osteoporosis with path fracture
+N331500	Drug-induced osteoporosis with pathological fracture
+N331600	Idiopathic osteoporosis with pathological fracture
+N331800	Osteoporosis + pathological fracture lumbar vertebrae
+N331900	Osteoporosis + pathological fracture thoracic vertebrae
+N331A00	Osteoporosis + pathological fracture cervical vertebrae
+N331B00	Postmenopausal osteoporosis with pathological fracture
+N331M00	Fragility fracture due to unspecified osteoporosis
+N331N00	Fragility fracture
+NyuB000	[X]Other osteoporosis with pathological fracture
+NyuB100	[X]Other osteoporosis
+NyuB200	[X]Osteoporosis in other disorders classified elsewhere
+NyuB800	[X]Unspecified osteoporosis with pathological fracture

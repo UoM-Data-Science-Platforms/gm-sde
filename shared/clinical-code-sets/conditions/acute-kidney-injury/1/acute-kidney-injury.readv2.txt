@@ -1,0 +1,12 @@
+K04..12	Acute kidney injury
+K04E.00	Acute kidney injury stage 3
+K04D.00	Acute kidney injury stage 2
+K04C.00	Acute kidney injury stage 1
+451L.00	Acute kidney injury warning stage
+8OAG.00	Provision of written information about acute kidney injury
+14D8.00	H/O: acute kidney injury
+K040.00	Acute renal tubular necrosis
+K04y.00	Other acute renal failure
+K04z.00	Acute renal failure NOS
+Kyu2000	[X]Other acute renal failure
+SK08.00	Acute renal failure due to rhabdomyolysis

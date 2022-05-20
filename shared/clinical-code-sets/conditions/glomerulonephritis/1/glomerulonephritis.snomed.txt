@@ -1,0 +1,141 @@
+1426004	Necrotizing glomerulonephritis (disorder)
+3704008	Diffuse endocapillary proliferative glomerulonephritis (disorder)
+4676006	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class II (disorder)
+11013005	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class VI
+13335004	Sclerosing glomerulonephritis (disorder)
+19351000	Acute glomerulonephritis (disorder)
+20917003	CGN - Chronic glomerulonephritis
+35546006	Mesangial proliferative glomerulonephritis (disorder)
+36171008	GN - Glomerulonephritis
+36402006	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class IV
+44785005	MCN - Minimal change nephropathy
+50581000	Goodpasture syndrome
+52042003	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class V
+55652009	Idiopathic crescentic glomerulonephritis type 3
+57965003	Acute benign haemorrhagic glomerulonephritis
+59479006	Mesangiocapillary glomerulonephritis, type II (disorder)
+64168005	Idiopathic crescentic glomerulonephritis, type I (disorder)
+64212008	Diffuse crescentic glomerulonephritis (disorder)
+68544003	PSGN - Post-streptococcal glomerulonephritis
+68779003	Primary immunoglobulin A nephropathy (disorder)
+68815009	Systemic lupus erythematosus glomerulonephritis syndrome
+73286009	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class I (disorder)
+73305009	Amyloid-like glomerulopathy
+75888001	Mesangiocapillary glomerulonephritis type I
+76521009	Systemic lupus erythematosus glomerulonephritis syndrome, World Health Organization class III
+77182004	Chronic nephritic syndrome, diffuse membranous glomerulonephritis
+80321008	Mesangiocapillary glomerulonephritis (disorder)
+83866005	Focal AND segmental proliferative glomerulonephritis (disorder)
+123609007	Subacute glomerulonephritis (disorder)
+123752003	Immune complex glomerulonephritis
+197579006	Acute proliferative glomerulonephritis (disorder)
+197582001	Acute glomerulonephritis associated with another disorder
+197589005	Nephrotic syndrome with proliferative glomerulonephritis (disorder)
+197590001	Nephrotic syndrome with membranous glomerulonephritis (disorder)
+197591002	Nephrotic syndrome with membranoproliferative glomerulonephritis (disorder)
+197595006	Nephrotic syndrome, diffuse membranous glomerulonephritis (disorder)
+197596007	Nephrotic syndrome, diffuse mesangial proliferative glomerulonephritis (disorder)
+197597003	Nephrotic syndrome, diffuse endocapillary proliferative glomerulonephritis (disorder)
+197598008	Nephrotic syndrome, diffuse mesangiocapillary glomerulonephritis (disorder)
+197600002	Nephrotic syndrome, diffuse crescentic glomerulonephritis (disorder)
+197613008	Chronic mesangial proliferative glomerulonephritis (disorder)
+197616000	Chronic glomerulonephritis associated with another disorder
+197617009	Chronic exudative glomerulonephritis (disorder)
+197618004	Chronic focal glomerulonephritis (disorder)
+197619007	Chronic diffuse glomerulonephritis (disorder)
+197626007	Focal membranoproliferative glomerulonephritis (disorder)
+197629000	Anaphylactoid glomerulonephritis (disorder)
+197683002	Acute nephritic syndrome, diffuse membranous glomerulonephritis (disorder)
+197684008	Acute nephritic syndrome, diffuse mesangial proliferative glomerulonephritis (disorder)
+197685009	Acute nephritic syndrome, diffuse endocapillary proliferative glomerulonephritis (disorder)
+197686005	Acute nephritic syndrome, diffuse mesangiocapillary glomerulonephritis (disorder)
+197688006	Acute nephritic syndrome, diffuse crescentic glomerulonephritis (disorder)
+197692004	Rapidly progressive nephritic syndrome, diffuse membranous glomerulonephritis (disorder)
+197693009	Rapidly progressive nephritic syndrome, diffuse mesangial proliferative glomerulonephritis (disorder)
+197694003	Rapidly progressive nephritic syndrome, diffuse endocapillary proliferative glomerulonephritis (disorder)
+197695002	Rapidly progressive nephritic syndrome, diffuse mesangiocapillary glomerulonephritis (disorder)
+197697005	Rapidly progressive nephritic syndrome, diffuse crescentic glomerulonephritis (disorder)
+197712008	Chronic nephritic syndrome, diffuse endocapillary proliferative glomerulonephritis (disorder)
+197713003	Chronic nephritic syndrome, diffuse mesangiocapillary glomerulonephritis (disorder)
+197715005	Chronic nephritic syndrome, diffuse crescentic glomerulonephritis (disorder)
+197720005	Isolated proteinuria with specified morphological lesion, diffuse membranous glomerulonephritis (finding)
+197721009	Isolated proteinuria with specified morphological lesion, diffuse mesangial proliferative glomerulonephritis (finding)
+197722002	Isolated proteinuria with specified morphological lesion, diffuse endocapillary proliferative glomerulonephritis (finding)
+197723007	Isolated proteinuria with specified morphological lesion, diffuse mesangiocapillary glomerulonephritis (finding)
+197725000	Isolated proteinuria with specified morphological lesion, diffuse concentric glomerulonephritis (finding)
+236392004	Rapidly progressive glomerulonephritis (disorder)
+236393009	Endocapillary proliferative glomerulonephritis
+236394003	Idiopathic endocapillary glomerulonephritis (disorder)
+236395002	Post-infectious glomerulonephritis (disorder)
+236397005	Post-infectious glomerulonephritis - Garland variety (disorder)
+236398000	Proliferative crescentic glomerulonephritis
+236399008	Steroid-sensitive minimal change glomerulonephritis (disorder)
+236400001	Steroid-resistant minimal change glomerulonephritis (disorder)
+236401002	Steroid-dependent minimal change glomerulonephritis (disorder)
+236407003	Immunoglobulin A nephropathy (disorder)
+236409000	Mesangiocapillary glomerulonephritis type III (disorder)
+236410005	Mesangiocapillary glomerulonephritis type IV (disorder)
+236411009	Immunoglobulin M nephropathy (disorder)
+236413007	Membranous glomerulonephritis - stage I (disorder)
+236414001	Membranous glomerulonephritis - stage II (disorder)
+236415000	Membranous glomerulonephritis - stage III (disorder)
+236416004	Membranous glomerulonephritis - stage IV (disorder)
+236417008	Membranous glomerulonephritis stage V (disorder)
+236419006	Progressive hereditary glomerulonephritis without deafness (disorder)
+236505008	Cryoglobulinemic glomerulonephritis (disorder)
+236508005	Malignancy-associated glomerulonephritis (disorder)
+236586006	De novo glomerulonephritis (disorder)
+236590008	Cytomegalovirus-induced glomerulonephritis (disorder)
+239932005	Primary pauci-immune necrotizing and crescentic glomerulonephritis (disorder)
+266549004	Nephrotic syndrome with minimal change glomerulonephritis (disorder)
+359694003	Idiopathic crescentic glomerulonephritis, type II (disorder)
+363233007	Nephrotic syndrome secondary to glomerulonephritis (disorder)
+399190000	Non-progressive hereditary glomerulonephritis
+399340005	Alport's syndrome
+425384007	Sarcoidosis with glomerulonephritis
+425455002	Diabetic glomerulonephritis
+427555000	Glomerulonephritis co-occurrent and due to Wegener's granulomatosis
+441815006	Proliferative glomerulonephritis (disorder)
+445258009	Idiopathic rapidly progressive glomerulonephritis
+707332000	Recurrent proliferative glomerulonephritis (disorder)
+711531007	Focal mesangial proliferative glomerulonephritis (disorder)
+714815007	Recurrent haematuria co-occurrent and due to diffuse crescentic glomerulonephritis
+714816008	Persistent haematuria co-occurrent and due to diffuse crescentic glomerulonephritis
+714817004	Recurrent haematuria co-occurrent and due to diffuse endocapillary proliferative glomerulonephritis
+714818009	Persistent haematuria co-occurrent and due to diffuse endocapillary proliferative glomerulonephritis
+714819001	Recurrent haematuria co-occurrent and due to diffuse mesangiocapillary glomerulonephritis
+714820007	Persistent haematuria co-occurrent and due to diffuse mesangiocapillary glomerulonephritis
+714821006	Recurrent haematuria co-occurrent and due to diffuse membranous glomerulonephritis
+714822004	Persistent haematuria co-occurrent and due to diffuse membranous glomerulonephritis
+714825002	Recurrent haematuria co-occurrent and due to diffuse mesangial proliferative glomerulonephritis
+714826001	Persistent haematuria co-occurrent and due to diffuse mesangial proliferative glomerulonephritis
+718192000	Congo red negative amyloidosis like glomerulopathy
+722086002	Malignancy-associated membranous nephropathy
+722119002	Idiopathic membranous nephropathy
+722120008	Membranous glomerulonephritis caused by drug
+722168002	Membranous glomerulonephritis co-occurrent with infectious disease
+722761003	Complement component 3 glomerulonephritis
+726082003	Immunotactoid glomerulonephritis
+733472005	Microcephalus, glomerulonephritis, marfanoid habitus syndrome
+106911000119102	Idiopathic glomerulonephritis
+120241000119100	Glomerulonephritis due to hepatitis C
+85381000119105	Glomerulonephritis due to Henoch-Schönlein purpura (disorder)
+89681000119101	Glomerulonephritis co-occurrent and due to scleroderma
+101711000119105	Glomerulonephritis co-occurrent and due to antineutrophil cytoplasmic antibody positive vasculitis
+90971000119103	Glomerulonephritis co-occurrent and due to vasculitis
+195791000119101	Chronic proliferative glomerulonephritis
+367561000119103	Hereditary diffuse mesangiocapillary glomerulonephritis (disorder)
+367551000119100	Hereditary diffuse mesangial proliferative glomerulonephritis (disorder)
+367531000119106	Hereditary diffuse endocapillary proliferative glomerulonephritis
+367541000119102	Hereditary diffuse membranous glomerulonephritis
+368941000119108	Hereditary nephropathy co-occurrent with membranoproliferative glomerulonephritis type III
+368881000119109	Rapidly progressive nephritic syndrome co-occurrent and due to membranoproliferative glomerulonephritis type III (disorder)
+28191000119109	Chronic nephritic syndrome with membranous glomerulonephritis (disorder)
+368931000119104	Isolated proteinuria co-occurrent and due to membranoproliferative glomerulonephritis type III (disorder)
+368921000119102	Nephritic syndrome co-occurrent and due to membranoproliferative glomerulonephritis type III (disorder)
+368911000119109	Nephrotic syndrome co-occurrent and due to membranoproliferative glomerulonephritis type III
+367511000119101	Hereditary dense deposit disease
+367521000119108	Hereditary diffuse crescentic glomerulonephritis (disorder)
+368871000119106	Acute nephritic syndrome co-occurrent and due to membranoproliferative glomerulonephritis type III (disorder)
+368901000119106	Chronic nephritic syndrome co-occurrent and due to membranoproliferative glomerulonephritis type III (disorder)
+123610002	Healed glomerulonephritis (disorder)

@@ -1,0 +1,24 @@
+N330.	Osteoporosis
+N3300	Osteoporosis, unspecified
+N3301	Senile osteoporosis
+N3302	Postmenopausal osteoporosis
+N3303	Idiopathic generalised osteoporosis
+N3304	Disuse osteoporosis
+N3305	Drug-induced osteoporosis
+N3307	Post-surgical malabsorption osteoporosis
+N3309	Osteoporosis in multiple myelomatosis
+N330A	Osteoporosis in endocrine disorders
+N330B	Vertebral osteoporosis
+N330z	Osteoporosis NOS
+N3313	Osteoporosis of disuse with pathological fracture
+N3315	Drug-induced osteoporosis with pathological fracture
+N3316	Idiopathic osteoporosis with pathological fracture
+N3318	Osteoporosis with pathological fracture of lumbar vertebrae
+N3319	Osteoporosis with pathological fracture of thoracic vertebrae
+N331A	Osteoporosis with pathological fracture of cervical vertebrae
+N331B	Postmenopausal osteoporosis with pathological fracture
+NyuB0	[X]Other osteoporosis with pathological fracture
+NyuB1	[X]Other osteoporosis
+NyuB2	[X]Osteoporosis in other disorders classified elsewhere
+NyuB8	[X]Unspecified osteoporosis with pathological fracture
+XaE5D	Osteopenia

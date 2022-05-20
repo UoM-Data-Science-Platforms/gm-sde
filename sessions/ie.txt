@@ -163,3 +163,12 @@ Find out the following total number of rows to investigate how big the chohorts 
 2021-11-30 14.00 - 18.00 
 -- Check vaccination details for RQ004
 -- Check that the covid information table extract for RQ004 works.
+
+2022-3-10 11.00-12.00
+-- Investigation of data linkage issues for RQ004
+
+2022-3-11 15.00 - 17.00
+-- Investigation of data linkage issues for RQ004
+
+2022-3-29 15.00-16.00
+-- Assessing feasibility for RQ047 Lai.

@@ -1,0 +1,15 @@
+fo14.	*DIDRONEL PMO tablets
+fo1z.	DISODIUM ETIDRONATE 200mg tablets
+fo44.	FOSAMAX ONCE WEEKLY 70mg tablets
+fo46.	ALENDRONIC ACID 70mg/100mL oral solution
+fo64.	ACTONEL COMBI 35mg tablets and sachet effervescent granules
+fo6x.	RISEDRONATE SODIUM 35mg tablets
+fo6y.	RISEDRONATE SODIUM 5mg tablets
+fo7w.	ZOLEDRONIC ACID 4mg/100mL solution for infusion
+fo7y.	ZOLEDRONIC ACID 800 micrograms/mL infusion concentrate 5mL vial
+fo7z.	ZOLEDRONIC ACID 4mg i-v infusion (pdr for recon)+diluent
+fo8x.	IBANDRONIC ACID 150mg tablets
+fu5z.	STRONTIUM RANELATE 2g sachets
+fu91.	DENOSUMAB 60mg/1mL solution for injection prefilled syringe
+fu92.	PROLIA 60mg/1mL solution for injection prefilled syringe
+fu94.	DENOSUMAB 120mg/1.7mL solution for injection

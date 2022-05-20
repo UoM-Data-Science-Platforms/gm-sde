@@ -1,0 +1,5 @@
+h826.	Ciclosporin 25mg capsule
+h827.	Ciclosporin 100mg capsule
+h82D.	Neoral 100mg/mL s/f oral solution
+h82x.	Ciclosporin 100mg/mL s/f oral solution
+h83F.	ADOPORT 1mg capsules
