@@ -55,40 +55,29 @@ FROM #CovidPatients;*/
 -- Define the main cohort that will be matched
 CREATE OR REPLACE GLOBAL TEMPORARY VIEW CCU040_MainCohort
 AS
-
-
-IF OBJECT_ID('tempdb..#MainCohort') IS NOT NULL DROP TABLE #MainCohort;
-SELECT 
-  c.FK_Patient_Link_ID,
-  FirstCovidPositiveDate AS IndexDate,
-  FirstDiagnosisDate,
-  FirstT1DiagnosisDate,
-  FirstT2DiagnosisDate,
-  Sex,
-  YearOfBirth,
-  LSOA_Code
-INTO #MainCohort
-FROM #CovidPatients c
-LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = c.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = c.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = c.FK_Patient_Link_ID
-LEFT OUTER JOIN #DiabeticPatients dm ON dm.FK_Patient_Link_ID = c.FK_Patient_Link_ID
-LEFT OUTER JOIN #DiabeticTypeIPatients t1 ON t1.FK_Patient_Link_ID = c.FK_Patient_Link_ID
-LEFT OUTER JOIN #DiabeticTypeIIPatients t2 ON t2.FK_Patient_Link_ID = c.FK_Patient_Link_ID
-WHERE c.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #DiabeticPatients);
---8582
+SELECT
+  PatientId,
+  SEX As Sex,
+  YEAR(DATE_OF_BIRTH) AS YearOfBirth,
+  FirstCovidPositiveDate
+FROM global_temp.CCU040_CovidPatientsFromGDPPR
+  LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.curr302_patient_skinny_record skin
+    ON skin.NHS_NUMBER_DEID = PatientId
+WHERE PatientId IN (SELECT PatientId FROM global_temp.CCU040_Cohort_DM);
 
 -- Define the population of potential matches for the cohort
-IF OBJECT_ID('tempdb..#PotentialMatches') IS NOT NULL DROP TABLE #PotentialMatches;
-SELECT c.FK_Patient_Link_ID, FirstCovidPositiveDate AS IndexDate, Sex, YearOfBirth
-INTO #PotentialMatches
-FROM #CovidPatients c
-LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = c.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = c.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = c.FK_Patient_Link_ID
-EXCEPT
-SELECT FK_Patient_Link_ID, IndexDate, Sex, YearOfBirth FROM #MainCohort;
--- 88197
+CREATE OR REPLACE GLOBAL TEMPORARY VIEW CCU040_PotentialMatches
+AS
+SELECT
+  PatientId,
+  SEX As Sex,
+  YEAR(DATE_OF_BIRTH) AS YearOfBirth,
+  FirstCovidPositiveDate
+FROM global_temp.CCU040_CovidPatientsFromGDPPR
+  LEFT OUTER JOIN dars_nic_391419_j3w9t_collab.curr302_patient_skinny_record skin
+    ON skin.NHS_NUMBER_DEID = PatientId
+WHERE PatientId NOT IN (SELECT PatientId FROM global_temp.CCU040_Cohort_DM);
+
 
 --\> EXECUTE query-cohort-matching-yob-sex-index-date.sql index-date-flex:14 yob-flex:5
 
