@@ -6,5 +6,4 @@
 136J.00	Social drinker
 136L.00	Alcohol intake within recommended sensible limits
 136Z.00	Alcohol consumption NOS
-136..00	Alcohol consumption
 136a.00	Increasing risk drinking
