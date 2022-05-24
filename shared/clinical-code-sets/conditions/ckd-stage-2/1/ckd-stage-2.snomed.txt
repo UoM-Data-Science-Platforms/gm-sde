@@ -1,0 +1,13 @@
+﻿431856006	CKD stage 2
+140131000119102	Hypertension in chronic kidney disease stage 2 due to type II diabetes mellitus
+741000119101	Chronic kidney disease stage 2 due to type II diabetes mellitus
+129181000119109	Chronic kidney disease stage 2 due to hypertension (disorder)
+324211000000106	Chronic kidney disease stage 2 without proteinuria
+324181000000105	Chronic kidney disease stage 2 with proteinuria
+285861000119100	Malignant hypertensive chronic kidney disease stage 2 (disorder)
+96741000119109	Hypertensive heart AND chronic kidney disease stage 2 (disorder)
+90731000119103	Chronic kidney disease stage 2 due to type I diabetes mellitus
+284981000119102	Chronic kidney disease stage 2 due to benign hypertension (disorder)
+949521000000108	Chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A1
+949561000000100	Chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A2
+949621000000109	Chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A3

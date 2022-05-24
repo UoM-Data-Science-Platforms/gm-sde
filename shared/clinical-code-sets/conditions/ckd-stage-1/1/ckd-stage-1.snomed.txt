@@ -1,0 +1,12 @@
+﻿431855005	CKD stage 1
+117681000119102	Chronic kidney disease stage 1 due to hypertension (disorder)
+90721000119101	Chronic kidney disease stage 1 due to type I diabetes mellitus
+751000119104	Chronic kidney disease stage 1 due to type II diabetes mellitus
+285851000119102	Malignant hypertensive chronic kidney disease stage 1 (disorder)
+96751000119106	Hypertensive heart AND chronic kidney disease stage 1 (disorder)
+284971000119100	Chronic kidney disease stage 1 due to benign hypertension (disorder)
+324151000000104	Chronic kidney disease stage 1 without proteinuria
+324121000000109	Chronic kidney disease stage 1 with proteinuria
+949401000000103	Chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A1
+949421000000107	Chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A2
+949481000000108	Chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A3
