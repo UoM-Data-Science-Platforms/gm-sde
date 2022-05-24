@@ -1,0 +1,36 @@
+﻿K5A1.	Bleeding after menopause
+K5A4.	Artificial menopause state
+K5Az.	Menopausal and postmenopausal disorder NOS
+X408w	Premature menopause
+X408x	Menopause ovarian failure
+Xa0be	Post-hysterectomy menopause
+Xa0bf	Post-radiation menopause
+X40NJ	Premature menopause NOS
+66U1.	Menopause initial assessment
+XE1TE	Menopause monitoring
+66U2.	Menopause follow-up assessment
+66U4.	Menopause: LH, FSH checked
+66U5.	Menopause: bone density check
+66UZ.	Menopause monitoring NOS
+X408b	Normal menopause
+Xa06h	Menopause observation
+X408c	Delayed menopause
+Xa4eB	Menopause present
+Xa4eC	Menopause absent
+Xa9Go	During menopause
+XaBv4	Temporal periods relating to menopause
+XaBv7	Before menopause
+12F8.	FH: Early menopause
+12F9.	FH: Late menopause
+66U3.	Menopause symptoms present
+X74Wi	Menopause monitoring status
+66UD.	Menopause: dietary advice
+XaEFj	Advice about the menopause
+1512.	Menopause
+66U..	Menopause monitoring
+66UE.	Menopause: sexual advice
+66UF.	Menopause: gen counselling
+C1631	Premature menopause NOS
+XE0h5	Menopause menorrhagia
+K5A2z	Menopausal symptoms NOS
+XaB7M	After menopause

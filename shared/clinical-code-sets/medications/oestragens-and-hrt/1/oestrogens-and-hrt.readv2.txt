@@ -1,0 +1,12 @@
+ff2f.	CLIMAVAL 1mg tablets
+ff2K.	FEMSEVEN 50 patches
+ff2M.	ESTRADIOL VALERATE 1mg tablets
+ff2r.	ESTRADIOL 50micrograms patches
+ff2v.	*ESTRADIOL 100mg implant
+ff2z.	ESTRADIOL 2mg tablets
+ff41.	PREMARIN 625micrograms tablets
+fh12.	CYCLO-PROGYNOVA 2mg tablets
+fh17.	PREMPAK-C 0.625 tablets x1 month
+fh1E.	FEMOSTON-2/10 tablets
+fh1N.	EVOREL SEQUI patches
+fh1O.	EVOREL CONTI patches

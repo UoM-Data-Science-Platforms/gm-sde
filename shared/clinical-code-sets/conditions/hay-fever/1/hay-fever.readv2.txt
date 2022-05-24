@@ -1,0 +1,7 @@
+12D4.	FH: Hay fever
+14B1.	H/O: hay fever
+H170.	Allergic rhinitis due to pollens
+H330.	Hay fever with asthma
+H3300	Hay fever with asthma
+Hyu20	[X]Other seasonal allergic rhinitis
+ZV19L	[V]Family history of hay fever

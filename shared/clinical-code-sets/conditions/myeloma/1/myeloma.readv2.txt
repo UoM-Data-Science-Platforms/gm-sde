@@ -1,0 +1,17 @@
+BBn2.11	[M]Monostotic myeloma
+BBn2.12	[M]Solitary myeloma
+BBn0.11	[M]Multiple myeloma
+BBn0.12	[M]Myeloma NOS
+BBn0.00	[M]Plasma cell myeloma
+BBn0.14	[M]Plasmacytic myeloma
+B63..00	Multiple myeloma and immunoproliferative neoplasms
+B63z.00	Immunoproliferative neoplasm or myeloma NOS
+B630.00	Multiple myeloma
+B630300	Lambda light chain myeloma
+B630100	Solitary myeloma
+B936.11	Myeloma - solitary
+B936.00	Neoplasm of uncertain behaviour of plasma cells
+B936.00	Plasmacytoma NOS
+BBn3.00	[M]Plasma cell tumour, malignant
+C373C00	AL amyloidosis
+N330900	Osteoporosis in multiple myelomatosis

@@ -1,0 +1,4 @@
+46B..	Urine bacteriuria test
+46B2.	Urine bacteria test: negative
+46B3.	Urine bacteria test: positive
+46H..	Bacteria in urine O/E

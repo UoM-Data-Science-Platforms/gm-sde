@@ -1,0 +1,3 @@
+44G7.	Plasma gamma-glutamyl transferase level
+44G9.	Serum gamma-glutamyl transferase level
+44G4.	Gamma - G.T. level

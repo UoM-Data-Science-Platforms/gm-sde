@@ -1,0 +1,5 @@
+69480007	Gammaglutamyl transferase
+1028091000000102	Gamma-glutamyl transferase level
+60153001	Gamma-glutamyl transferase
+1000851000000108	Plasma gamma-glutamyl transferase level
+1000861000000106	Serum gamma-glutamyl transferase level

@@ -1,0 +1,106 @@
+﻿14D1.	H/O: nephritis
+14V2.	H/O: renal dialysis
+72610	Cyclodialysis
+7B002	Cadaveric renal transplant
+7B063	Exploration of renal transplant
+7L1A1	Peritoneal dialysis
+7L1A2	Haemodialysis NEC
+7L1B0	Insertion of chronic ambulatory peritoneal dialysis catheter
+7L1B1	Removal of chronic ambulatory peritoneal dialysis catheter
+7L1C.	Placement of other apparatus for compensation for renal failure
+7L1C0	Insertion of temporary peritoneal dialysis catheter
+A1601	Tuberculous pyelitis
+C341.	Chronic urate nephropathy
+D0111	Vitamin B12 deficiency anaemia due to malabsorption with proteinuria
+F447C	Iridodialysis
+G222.	Hypertensive renal disease with renal failure
+K0...	Nephritis, nephrosis and nephrotic syndrome
+K00..	Nephritis (& [acute] or [acute glomerulonephritis] or [Bright's disease])
+K000.	Acute proliferative glomerulonephritis
+K001.	Acute nephritis with lesions of necrotising glomerulitis
+K00y.	Other acute glomerulonephritis
+K00y0	Acute glomerulonephritis in diseases EC
+K00y2	Acute focal nephritis
+K00z.	Acute glomerulonephritis NOS
+K01..	Nephrotic syndrome
+K011.	Nephrotic syndrome with membranous glomerulonephritis
+K012.	Nephrotic syndrome with membranoproliferative glomerulonephritis
+K014.	Nephrotic syndrome, minor glomerular abnormality
+K015.	Nephrotic syndrome, focal and segmental glomerular lesions
+K016.	Nephrotic syndrome, diffuse membranous glomerulonephritis
+K017.	Nephrotic syndrome, diffuse mesangial proliferative glomerulonephritis
+K019.	Nephrotic syndrome, diffuse mesangiocapillary glomerulonephritis
+K01w.	Congenital nephrotic syndrome
+K01x1	Nephrotic syndrome in diabetes mellitus
+K01x3	Nephrotic syndrome in polyarteritis nodosa
+K01y.	Nephrotic syndrome with other pathological kidney lesions
+K01z.	Nephrotic syndrome NOS
+K02..	Chronic nephropathy (& [glomerulonephritis] or [nephritis])
+K020.	Chronic mesangial proliferative glomerulonephritis
+K021.	Membranous glomerulonephritis
+K022.	Mesangiocapillary glomerulonephritis
+K02y.	Other chronic glomerulonephritis
+K02y2	Chronic focal glomerulonephritis
+K03..	Nephritis &/or nephropathy unspecified
+K030.	Proliferative nephritis unspecified
+K031.	Membranous nephritis unspecified
+K0325	Other familial glomerulonephritis
+K0326	Berger's IgA or IgG nephropathy
+K03y.	Other nephritis and nephrosis unspecified
+K03y2	Other interstitial nephritis
+K03yz	Other nephritis and nephrosis NOS
+K03z.	Unspecified glomerulonephritis NOS
+K04..	Acute renal failure
+K04y.	Other acute renal failure
+K04z.	Acute renal failure NOS
+K05..	Renal failure: [chronic] or [end stage]
+K06..	(Renal failure unspecified) or (uraemia NOS)
+K08..	Impaired renal function disorder
+K080.	Renal osteodystrophy
+K0803	Renal rickets
+K080z	Renal osteodystrophy NOS
+K081.	Nephrogenic diabetes insipidus
+K08y.	Other impaired renal function disorder
+K08y0	Hypokalaemic nephropathy
+K08z.	Impaired renal function disorder NOS
+K0A02	Acute nephritic syndrome, diffuse membranous glomerulonephritis
+K0A3.	Chronic nephritic syndrome
+K0A31	Chronic nephritic syndrome, focal and segmental glomerular lesions
+K0A52	Hereditary nephropathy, not elsewhere classified, diffuse membranous glomerulonephritis
+K0y..	Other specified nephritis, nephrosis or nephrotic syndrome
+K0z..	Nephritis, nephrosis and nephrotic syndrome NOS
+K100.	Chronic pyelonephritis
+K1002	Chronic pyelitis
+K1003	Chronic pyonephrosis
+K1006	Calculous pyelonephritis
+K100z	Chronic pyelonephritis NOS
+K101.	Acute pyelonephritis
+K1012	Acute pyelitis
+K1013	Acute pyonephrosis
+K101z	Acute pyelonephritis NOS
+K10y.	Pyelonephritis and pyonephrosis unspecified
+K10y0	Pyelonephritis unspecified
+K10y1	Pyelitis unspecified
+K10y2	Pyonephrosis unspecified
+K10y3	Pyelonephritis in diseases EC
+K10yz	Unspecified pyelonephritis NOS
+K11..	Hydronephrosis
+K111.	Hydroureteronephrosis
+K112.	Hydronephrosis with renal and ureteral calculous obstruction
+K11z.	Hydronephrosis NOS
+K136.	Orthostatic proteinuria
+Kyu09	[X]Unspecified nephritic syndrome, diffuse mesangial proliferative glomerulonephritis
+Kyu10	[X]Other chronic tubulo-interstitial nephritis
+Kyu11	[X]Other and unspecified hydronephrosis
+Kyu14	[X]Nephropathy induced by other drugs and biological substances
+Kyu1E	[X]Tubulo-interstitial nephritis, not specified as acute or chronic
+Kyu1F	[X]Hydronephrosis with ureteral stricture NEC
+Kyu20	[X]Other acute renal failure
+Kyu21	[X]Other chronic renal failure
+Kyu5G	[X]Persistent proteinuria, unspecified
+Lyu1.	[X]Oedema, proteinuria and hypertensive disorders in pregnancy, childbirth and the puerperium
+PD23.	Congenital hydronephrosis
+SP015	Mechanical complication of dialysis catheter
+SP083	Kidney transplant failure and rejection
+TB001	Transplantation of kidney as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+ZV420	[V]Kidney transplanted
