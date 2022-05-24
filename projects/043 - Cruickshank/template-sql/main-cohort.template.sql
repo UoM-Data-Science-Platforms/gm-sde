@@ -2,6 +2,10 @@
 --│ Main cohort file │
 --└──────────────────┘
 
+TODO 
+- months at lsoa
+- investigate occupation coding
+
 -- Cohort is everyone who tested positive with COVID-19 infection.
 -- OUTPUT: Data with the following fields
 -- 	- PatientId (int)
