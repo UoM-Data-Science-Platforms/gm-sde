@@ -703,12 +703,12 @@ WHERE (
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate >= @MinDate
-AND MedicationDate >= DATEADD(@IndexDate, -1) 
+AND MedicationDate >= DATEADD(year, @IndexDate, -1) 
 AND MedicationDate <= @IndexDate
 
 -- Create temp table with PatientConditionsOccurences
 IF OBJECT_ID('tempdb..#PatientConditionsOccurences') IS NOT NULL DROP TABLE #PatientConditionsOccurences;
-CREATE TABLE #PatientConditionsOccurences (FK_Patient_Link_ID BIGINT, LTC VARCHAR(100), FirstDate DATE, LastDate DATE, ConditionOc curences BIGINT);
+CREATE TABLE #PatientConditionsOccurences (FK_Patient_Link_ID BIGINT, LTC VARCHAR(100), FirstDate DATE, LastDate DATE, ConditionOccurences BIGINT);
 
 INSERT INTO #PatientConditionsOccurences
 SELECT 
