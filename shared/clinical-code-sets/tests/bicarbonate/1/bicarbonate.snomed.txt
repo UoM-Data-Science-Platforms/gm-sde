@@ -1,0 +1,7 @@
+1012701000000104	Blood bicarbonate level
+271239003	Serum bicarbonate (& level)
+1000681000000103	Serum bicarbonate level
+1032311000000109	Bicarbonate level
+1018001000000103	Actual bicarbonate level
+1018011000000101	Standard bicarbonate level
+992991000000103	Plasma bicarbonate level

@@ -1,0 +1,4 @@
+44h3.	Blood bicarbonate level
+44hB.	Actual bicarbonate level
+44hC.	Standard bicarbonate level
+44i0.	Plasma bicarbonate level
