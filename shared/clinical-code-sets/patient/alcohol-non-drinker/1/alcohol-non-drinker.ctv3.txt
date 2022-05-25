@@ -1,3 +1,2 @@
 1361.	Teetotaller
-1362.	Drinks: [rarely] or [<1u/day]
 136M.	Current non-drinker

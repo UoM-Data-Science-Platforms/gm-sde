@@ -1,3 +1,5 @@
 1362.12	Drinks occasionally
+1362.00	Trivial drinker - <1u/day
 136N.00	Light drinker
 136d.00	Lower risk drinking
+1362.11	Drinks rarely

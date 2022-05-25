@@ -1,7 +1,6 @@
 1361.11	Non drinker alcohol
 1361.12	Non-drinker alcohol
-1362.11	Drinks rarely
 136M.00	Current non drinker
 1361.00	Teetotaller
-1362.00	Trivial drinker - <1u/day
+
 
