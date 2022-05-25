@@ -355,5 +355,5 @@ DROP TABLE #VacTemp7;
 
 
 
-SELECT FK_Patient_Link_ID AS PatientId, VaccineDoseDate FROM #COVIDVaccines
-ORDER BY FK_Patient_Link_ID, VaccineDoseDate;
+SELECT FK_Patient_Link_ID AS PatientId, EventDate AS VaccineDate FROM #COVIDVaccines
+ORDER BY FK_Patient_Link_ID, EventDate;

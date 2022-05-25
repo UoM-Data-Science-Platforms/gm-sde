@@ -28,7 +28,7 @@ SELECT
   o.FK_Patient_Link_ID AS PatientId,
   admit.AdmissionDate,
   los.DischargeDate,
-  admit.AdmissionType
+  admit.AdmissionType AS [Status]
 FROM #OxAtHome o
 LEFT OUTER JOIN #AdmissionTypes admit ON admit.FK_Patient_Link_ID = o.FK_Patient_Link_ID
 LEFT OUTER JOIN #LengthOfStay los 

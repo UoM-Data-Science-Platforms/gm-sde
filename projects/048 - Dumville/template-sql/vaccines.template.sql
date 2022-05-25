@@ -39,5 +39,5 @@ WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #OxAtHome);
 
 --> EXECUTE query-get-covid-vaccines.sql gp-events-table:#PatientEventData gp-medications-table:#PatientMedicationData
 
-SELECT FK_Patient_Link_ID AS PatientId, EventDate AS VaccineDoseDate FROM #COVIDVaccines
+SELECT FK_Patient_Link_ID AS PatientId, EventDate AS VaccineDate FROM #COVIDVaccines
 ORDER BY FK_Patient_Link_ID, EventDate;

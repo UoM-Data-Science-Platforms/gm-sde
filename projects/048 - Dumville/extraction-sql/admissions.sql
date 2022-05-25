@@ -11,6 +11,10 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
+-- Set the start date
+DECLARE @StartDate datetime;
+SET @StartDate = '2020-01-01';
+
 -- Assume temp table #OxAtHome (FK_Patient_Link_ID, AdmissionDate, DischargeDate)
 
 -- Table of all patients (not matching cohort - will do that subsequently)
@@ -204,7 +208,7 @@ SELECT
   o.FK_Patient_Link_ID AS PatientId,
   admit.AdmissionDate,
   los.DischargeDate,
-  admit.AdmissionType
+  admit.AdmissionType AS [Status]
 FROM #OxAtHome o
 LEFT OUTER JOIN #AdmissionTypes admit ON admit.FK_Patient_Link_ID = o.FK_Patient_Link_ID
 LEFT OUTER JOIN #LengthOfStay los 
