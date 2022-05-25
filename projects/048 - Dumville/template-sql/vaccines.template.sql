@@ -2,6 +2,10 @@
 --│ Vaccine doses │
 --└───────────────┘
 
+--------------------- RDE CHECK ---------------------
+-- Le Mai Parkes  - 25 May 2022 - via pull request --
+-----------------------------------------------------
+
 -- OUTPUT: Data with the following fields
 --  - PatientId (int)
 --  - VaccineDate (YYYYMMDD)
