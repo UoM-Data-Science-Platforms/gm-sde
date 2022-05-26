@@ -1,0 +1,14 @@
+﻿431857002	CKD stage 4
+140111000119107	Hypertension in chronic kidney disease stage 4 due to type II diabetes mellitus
+721000119107	Chronic kidney disease stage 4 due to type II diabetes mellitus
+129151000119102	Chronic kidney disease stage 4 due to hypertension (disorder)
+324441000000106	Chronic kidney disease stage 4 with proteinuria
+324471000000100	Chronic kidney disease stage 4 without proteinuria
+285881000119109	Malignant hypertensive chronic kidney disease stage 4 (disorder)
+96721000119103	Hypertensive heart AND chronic kidney disease stage 4 (disorder)
+90751000119109	Chronic kidney disease stage 4 due to type I diabetes mellitus
+285001000119105	Chronic kidney disease stage 4 due to benign hypertension (disorder)
+950181000000106	Chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A1
+950211000000107	Chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A2
+950231000000104	Chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A3
+691401000119104	Anaemia in chronic kidney disease stage 4

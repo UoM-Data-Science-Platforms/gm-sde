@@ -1,0 +1,16 @@
+66U..11	Hormone replacement therapy
+66U7.00	HRT started
+66U8.00	HRT side-effects
+66U9.00	HRT changed
+66UB.00	HRT: unopposed oestrogen
+66uc.00	HRT: combined oestrog/progest
+66UC.00	HRT: combined oestrog/progest
+66UH.00	Hormone replacement therapy bleed pattern - normal
+66UI.00	Hormone replacement therapy bleed pattern - abnormal
+66UJ.00	Hormone replacement therapy bleed pattern - not relevant
+66UK.00	Hormone replacement therapy bleed pattern - no bleeding
+8B64.00	Hormone replacement therapy
+8B64000	Hormone Replacement Therapy ongoing treatment
+8B64.11	Hormone implant - HRT
+8B64.12	HRT prophylaxis
+66U..00	Menopause monitoring

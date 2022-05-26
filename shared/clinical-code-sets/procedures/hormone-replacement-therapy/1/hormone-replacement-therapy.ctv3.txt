@@ -1,0 +1,14 @@
+66U8.	HRT side-effects
+66UB.	HRT: unopposed oestrogen
+66UC.	HRT: combined oestrogen/progestogen
+XaISA	Hormone replacement therapy bleed pattern - normal
+XaISB	Hormone replacement therapy bleed pattern - abnormal
+XaISC	Hormone replacement therapy bleed pattern - not relevant
+XaISD	Hormone replacement therapy bleed pattern - no bleeding
+XaISE	Years on hormone replacement therapy
+66U7.	HRT started
+66U9.	HRT changed
+XE0hs	HRT - Hormone replacement therapy
+8B640	Hormone Replacement Therapy ongoing treatment
+66U..	(Menopause monitoring) or (hormone replacement therapy)
+8B64.	Hormone replacement therapy (& [prophylaxis] or [implant])

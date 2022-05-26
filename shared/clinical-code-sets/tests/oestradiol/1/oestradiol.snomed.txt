@@ -1,0 +1,4 @@
+166448005	Serum oestradiol measurement
+1023231000000101	Plasma oestradiol level
+1010521000000102	Serum oestradiol level
+37538009	Oestradiol measurement

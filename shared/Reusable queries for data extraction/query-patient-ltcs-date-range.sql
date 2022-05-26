@@ -703,14 +703,14 @@ WHERE (
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate >= @MinDate
-AND MedicationDate >= DATEADD(@IndexDate, -1) 
-AND MedicationDate <= @IndexDate
+AND MedicationDate < @IndexDate
+AND MedicationDate >= DATEADD(year, -1, @IndexDate);
 
 -- Create temp table with PatientConditionsOccurences
-IF OBJECT_ID('tempdb..#PatientConditionsOccurences') IS NOT NULL DROP TABLE #PatientConditionsOccurences;
-CREATE TABLE #PatientConditionsOccurences (FK_Patient_Link_ID BIGINT, LTC VARCHAR(100), FirstDate DATE, LastDate DATE, ConditionOc curences BIGINT);
+IF OBJECT_ID('tempdb..#PatientsWithLTCs') IS NOT NULL DROP TABLE #PatientsWithLTCs;
+CREATE TABLE #PatientsWithLTCs (FK_Patient_Link_ID BIGINT, LTC VARCHAR(100), FirstDate DATE, LastDate DATE, ConditionOccurences BIGINT);
 
-INSERT INTO #PatientConditionsOccurences
+INSERT INTO #PatientsWithLTCs
 SELECT 
   FK_Patient_Link_ID, 
   Condition,
@@ -730,7 +730,7 @@ WHERE Condition IN (
 GROUP BY FK_Patient_Link_ID, Condition
 
 -- Cancer only if first diagnosis in last 5 years
-INSERT INTO #PatientConditionsOccurences
+INSERT INTO #PatientsWithLTCs
 SELECT 
   FK_Patient_Link_ID,
   'Cancer' AS Condition, 
@@ -739,15 +739,15 @@ SELECT
   COUNT(*) AS ConditionOccurences  
 FROM #LTCCancerTemp
 GROUP BY FK_Patient_Link_ID
-HAVING MIN(EventDate) >= DATEADD(YEAR, -5, @StartDate);
+HAVING MIN(EventDate) >= DATEADD(YEAR, -5, @IndexDate);
 
 
-INSERT INTO #PatientConditionsOccurences
+INSERT INTO #PatientsWithLTCs
 SELECT 
   FK_Patient_Link_ID, 
   Condition,
-  MIN(MedicationDate) AS FirstDate, 
-  MAX(MedicationDate) AS LastDate,
+  MIN(EventDate) AS FirstDate, 
+  MAX(EventDate) AS LastDate,
   COUNT(*) AS ConditionOccurences
 FROM #LTCTemp
 GROUP BY FK_Patient_Link_ID, Condition

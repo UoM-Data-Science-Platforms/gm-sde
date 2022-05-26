@@ -1,0 +1,131 @@
+﻿14S2.00	h/o: kidney recipient
+14V2.00	h/o: renal dialysis
+14V2.11	h/o: kidney dialysis
+1Z14.00	chronic kidney disease stage 5
+1Z1K.00	chronic kidney disease stage 5 with proteinuria
+1Z1K.11	ckd stage 5 with proteinuria
+1Z1L.00	chronic kidney disease stage 5 without proteinuria
+1Z1L.11	ckd stage 5 without proteinuria
+4I29.00	peritoneal dialysis sample
+4N0..00	dialysis fluid urea level
+4N2..00	dialysis fluid glucose level
+67P4100	discussion about kidney transplantation
+7A60.00	arteriovenous shunt
+7A60000	insertion of arteriovenous prosthesis
+7A60100	creation of arteriovenous fistula nec
+7A60111	creation of radial-cephalic fistula
+7A60112	creation of brachial-cephalic fistula
+7A60200	attention to arteriovenous shunt
+7A60300	removal of infected arteriovenous shunt
+7A60400	banding of arteriovenous fistula
+7A60500	thrombectomy of arteriovenous fistula
+7A60600	creation of graft fistula for dialysis
+7A60y00	other specified arteriovenous shunt
+7A60z00	arteriovenous shunt nos
+7A61100	repair of acquired arteriovenous fistula
+7A61111	ligation of acquired arteriovenous fistula
+7A61400	ligation of acquired arteriovenous fistula
+7A61900	ligation of arteriovenous dialysis fistula
+7A61A00	ligation of arteriovenous dialysis graft
+7B00.00	transplantation of kidney
+7B00100	transplantation of kidney from live donor
+7B00111	allotransplantation of kidney from live donor
+7B00200	transplantation of kidney from cadaver
+7B00211	allotransplantation of kidney from cadaver
+7B00212	cadaveric renal transplant
+7B00300	allotransplantation of kidney from cadaver  heart-beating
+7B00400	allotransplantation kidney from cadaver  heart non-beating
+7B00600	xenograft renal transplant
+7B00y00	other specified transplantation of kidney
+7B00z00	transplantation of kidney nos
+7B01500	transplant nephrectomy
+7B01511	excision of rejected transplanted kidney
+7B06300	exploration of renal transplant
+7B0F.00	interventions associated with transplantation of kidney
+7B0F100	pre-transplantation of kidney work-up; recipient
+7B0F300	post-transplantation of kidney examination; recipient
+7B0Fy00	os interventions associated with transplantation of kidney
+7B0Fz00	interventions associated with transplantation of kidney nos
+7L1A.00	compensation for renal failure
+7L1A000	renal dialysis
+7L1A011	thomas intravascular shunt for dialysis
+7L1A100	peritoneal dialysis
+7L1A.11	dialysis for renal failure
+7L1A200	haemodialysis nec
+7L1A300	haemofiltration
+7L1A400	automated peritoneal dialysis
+7L1A500	continuous ambulatory peritoneal dialysis
+7L1A600	peritoneal dialysis nec
+7L1Ay00	other specified compensation for renal failure
+7L1Az00	compensation for renal failure nos
+7L1B.00	placement ambulatory apparatus compensation renal failure
+7L1B000	insertion of ambulatory peritoneal dialysis catheter
+7L1B100	removal of ambulatory peritoneal dialysis catheter
+7L1B.11	placement ambulatory dialysis apparatus - compens renal fail
+7L1B200	flushing of peritoneal dialysis catheter
+7L1By00	placement ambulatory apparatus- compensate renal failure os
+7L1C.00	placement other apparatus for compensation for renal failure
+7L1C000	insertion of temporary peritoneal dialysis catheter
+7L1Cy00	placement other apparatus- compensate for renal failure os
+7L1Cz00	placement other apparatus- compensate for renal failure nos
+8L50.00	renal transplant planned
+9b8K.00	transplantation surgery
+9Ot5.00	predicted stage chronic kidney disease
+G72C.00	ruptured aneurysm of dialysis vascular access
+G72D.00	aneurysm of dialysis arteriovenous fistula
+G72D100	aneurysm of needle site of dialysis arteriovenous fistula
+G72D200	aneurysm of anastomotic site of dialysis av fistula
+G760.00	acquired arteriovenous fistula
+Gy1..00	stenosis of dialysis vascular access
+Gy21.00	thrombosis of dialysis arteriovenous fistula
+Gy3..00	occlusion of dialysis vascular access
+Gy31.00	occlusion of dialysis arteriovenous fistula
+Gy40.00	infection of dialysis arteriovenous graft
+Gy41.00	infection of dialysis arteriovenous fistula
+Gy51.00	haemorrhage of dialysis arteriovenous fistula
+Gy60.00	rupture of dialysis arteriovenous graft
+K050.00	end stage renal failure
+K05..12	end stage renal failure
+K055.00	chronic kidney disease stage 5
+K0B5.00	renal tubulo-interstitial disordrs in transplant rejectn
+K0D..00	end-stage renal disease
+Kyu1C00	[x]renal tubulo-interstitial disorders/transplant rejection
+SP01500	mechanical complication of dialysis catheter
+SP01700	mechanical complication of arterio-venous surgical fistula
+SP05613	[x] peritoneal dialysis associated peritonitis
+SP06B00	continuous ambulatory peritoneal dialysis associated perit
+SP07G00	stenosis of arteriovenous dialysis fistula
+SP07N00	arteriovenous fistula thrombosis
+SP08011	det.ren.func.after ren.transpl
+SP08300	kidney transplant failure and rejection
+SP08J00	chronic rejection of renal transplant
+SP08N00	unexplained episode of renal transplant dysfunction
+SP08R00	renal transplant rejection
+SP08T00	urological complication of renal transplant
+SP08W00	vascular complication of renal transplant
+SP0E.00	disorders associated with peritoneal dialysis
+SP0G.00	anaphylactoid reaction due to haemodialysis
+TA02000	accid cut;puncture;perf;h'ge - kidney dialysis
+TA22.00	failure of sterile precautions during perfusion
+TA22000	failure of sterile precautions during kidney dialysis
+TB00100	kidney transplant with complication; without blame
+TB00111	renal transplant with complication; without blame
+TB11.00	kidney dialysis with complication; without blame
+TB11.11	renal dialysis with complication; without blame
+U612200	[x]failure sterile precautions dur kidney dialys/other perf
+Z1A..00	dialysis training
+Z1A1.00	peritoneal dialysis training
+Z1A2.00	haemodialysis training
+Z919.00	care of haemodialysis equipment
+Z919100	priming haemodialysis lines
+Z919300	reversing haemodialysis lines
+Z91A.00	peritoneal dialysis bag procedure
+ZV42000	[v]kidney transplanted
+ZV45100	[v]renal dialysis status
+ZV56.00	[v]aftercare involving intermittent dialysis
+ZV56000	[v]aftercare involving extracorporeal dialysis
+ZV56011	[v]aftercare involving renal dialysis nos
+ZV56100	[v]preparatory care for dialysis
+ZV56y00	[v]other specified aftercare involving intermittent dialysis
+ZV56y11	[v]aftercare involving peritoneal dialysis
+ZVu3G00	[x]other dialysis

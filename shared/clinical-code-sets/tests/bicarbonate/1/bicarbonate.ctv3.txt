@@ -1,0 +1,7 @@
+XaDvc	Blood bicarbonate level
+44I7.	Serum bicarbonate (& level)
+XE2q2	Serum bicarbonate level
+X770W	Bicarbonate level
+XaJp7	Actual bicarbonate level
+XaJp8	Standard bicarbonate level
+XaItM	Plasma bicarbonate level

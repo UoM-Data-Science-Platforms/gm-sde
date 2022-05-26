@@ -1,0 +1,6 @@
+﻿XaLHH	Chronic kidney disease stage 2
+XacA4	CKD G2A1 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A1
+XacA6	CKD G2A2 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A2
+XacA9	CKD G2A3 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A3
+XaO3s	Chronic kidney disease stage 2 without proteinuria
+XaO3r	Chronic kidney disease stage 2 with proteinuria
