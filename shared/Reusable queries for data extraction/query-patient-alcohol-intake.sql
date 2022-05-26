@@ -127,8 +127,8 @@ GROUP BY a.FK_Patient_Link_ID;
 IF OBJECT_ID('tempdb..#PatientAlcoholIntake') IS NOT NULL DROP TABLE #PatientAlcoholIntake;
 SELECT 
 	p.FK_Patient_Link_ID,
-	CASE WHEN w.[Status] IS NULL THEN 'non-drinker' ELSE w.[Status] END AS WorstAlcoholIntake,
-	CASE WHEN c.[Status] IS NULL THEN 'non-drinker' ELSE c.[Status] END AS CurrentAlcoholIntake
+	CASE WHEN w.[Status] IS NULL THEN 'unknown' ELSE w.[Status] END AS WorstAlcoholIntake,
+	CASE WHEN c.[Status] IS NULL THEN 'unknown' ELSE c.[Status] END AS CurrentAlcoholIntake
 INTO #PatientAlcoholIntake FROM #Patients p
 LEFT OUTER JOIN #TempWorstAlc w on w.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #TempCurrentAlc c on c.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
