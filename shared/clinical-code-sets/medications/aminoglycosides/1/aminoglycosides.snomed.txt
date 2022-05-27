@@ -1,0 +1,255 @@
+36051011000001102	Gentamicin 80mg/2ml solution for injection ampoules
+3844911000001106	Gentamicin 80mg/2ml solution for injection ampoules
+3845011000001106	Gentamicin 80mg/2ml solution for injection ampoules
+3845111000001107	Gentamicin 80mg/2ml solution for injection ampoules
+3845211000001101	Gentamicin 80mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3845311000001109	Gentamicin 80mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+27872811000001104	Gentamicin 80mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3845811000001100	Cidomycin 80mg/2ml solution for injection ampoules (Sanofi)
+6926111000001103	Cidomycin 80mg/2ml solution for injection ampoules (Sanofi)
+3846011000001102	Cidomycin 80mg/2ml solution for injection ampoules (Sanofi)
+3846511000001105	Gentamicin 80mg/2ml solution for injection ampoules (Hospira UK Ltd)
+3846811000001108	Gentamicin 80mg/2ml solution for injection ampoules (Hospira UK Ltd)
+3847011000001104	Genticin Injectable 80mg/2ml solution for injection ampoules (Advanz Pharma)
+3847211000001109	Genticin Injectable 80mg/2ml solution for injection ampoules (Advanz Pharma)
+3847411000001108	Gentamicin 80mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+3847611000001106	Gentamicin 80mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+27334311000001101	Gentamicin 80mg/2ml solution for injection ampoules (Advanz Pharma)
+27334611000001106	Gentamicin 80mg/2ml solution for injection ampoules (Advanz Pharma)
+29862011000001106	Gentamicin 80mg/2ml solution for injection ampoules (Wockhardt UK Ltd)
+29862111000001107	Gentamicin 80mg/2ml solution for injection ampoules (Wockhardt UK Ltd)
+32334511000001109	Gentamicin 80mg/2ml solution for injection ampoules (Colorama Pharmaceuticals Ltd)
+32334711000001104	Gentamicin 80mg/2ml solution for injection ampoules (Colorama Pharmaceuticals Ltd)
+39993811000001101	Gentamicin 80mg/2ml solution for injection ampoules (Panpharma UK Ltd)
+39993911000001106	Gentamicin 80mg/2ml solution for injection ampoules (Panpharma UK Ltd)
+36063011000001107	Gentamicin 20mg/2ml solution for injection vials
+3983511000001101	Gentamicin 20mg/2ml solution for injection vials
+3983611000001102	Cidomycin Paediatric 20mg/2ml solution for injection vials (Beacon Pharmaceuticals Ltd)
+3983711000001106	Cidomycin Paediatric 20mg/2ml solution for injection vials (Beacon Pharmaceuticals Ltd)
+17330211000001102	Gentamicin Paediatric 20mg/2ml solution for injection vials (Zentiva Pharma UK Ltd)
+17330311000001105	Gentamicin Paediatric 20mg/2ml solution for injection vials (Zentiva Pharma UK Ltd)
+36051111000001101	Gentamicin 80mg/2ml solution for injection vials
+3996511000001108	Gentamicin 80mg/2ml solution for injection vials
+3996711000001103	Gentamicin 80mg/2ml solution for injection vials
+3997111000001101	Gentamicin 80mg/2ml solution for injection vials (A A H Pharmaceuticals Ltd)
+3997411000001106	Gentamicin 80mg/2ml solution for injection vials (A A H Pharmaceuticals Ltd)
+3997811000001108	Cidomycin 80mg/2ml solution for injection vials (Sanofi)
+6924211000001104	Cidomycin 80mg/2ml solution for injection vials (Sanofi)
+3997911000001103	Cidomycin 80mg/2ml solution for injection vials (Sanofi)
+3998211000001106	Gentamicin 80mg/2ml solution for injection vials (Pfizer Ltd)
+3998511000001109	Gentamicin 80mg/2ml solution for injection vials (Pfizer Ltd)
+3998811000001107	Gentamicin 80mg/2ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+3998911000001102	Gentamicin 80mg/2ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+36050911000001105	Gentamicin 40mg/1ml solution for injection ampoules
+3998611000001108	Gentamicin 40mg/1ml solution for injection ampoules
+3999111000001107	Gentamicin 40mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3999211000001101	Gentamicin 40mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3999411000001102	Gentamicin 40mg/1ml solution for injection ampoules (Hospira UK Ltd)
+3999611000001104	Gentamicin 40mg/1ml solution for injection ampoules (Hospira UK Ltd)
+3999911000001105	Gentamicin 40mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+4000211000001102	Gentamicin 40mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+324158001	Neomycin 500mg tablets
+4055211000001103	Neomycin 500mg tablets
+4055311000001106	Neomycin 500mg tablets (A A H Pharmaceuticals Ltd)
+4055411000001104	Neomycin 500mg tablets (A A H Pharmaceuticals Ltd)
+4055511000001100	Nivemycin 500mg tablets (Advanz Pharma)
+4055611000001101	Nivemycin 500mg tablets (Advanz Pharma)
+4055711000001105	Neomycin 500mg tablets (Alliance Healthcare (Distribution) Ltd)
+4055811000001102	Neomycin 500mg tablets (Alliance Healthcare (Distribution) Ltd)
+4208311000001104	Neomycin 500mg tablets (Teva UK Ltd)
+4208411000001106	Neomycin 500mg tablets (Teva UK Ltd)
+28932611000001103	Neomycin 500mg tablets (Advanz Pharma)
+28932711000001107	Neomycin 500mg tablets (Advanz Pharma)
+4145111000001102	Tobramycin 300mg/5ml nebuliser liquid ampoules
+4124611000001107	Tobramycin 300mg/5ml nebuliser liquid ampoules
+4125111000001100	Tobi 300mg/5ml nebuliser solution 5ml ampoules (Viatris UK Healthcare Ltd)
+4125211000001106	Tobi 300mg/5ml nebuliser solution 5ml ampoules (Viatris UK Healthcare Ltd)
+22768711000001101	Tymbrineb 300mg/5ml nebuliser solution 5ml ampoules (Teva UK Ltd)
+22768811000001109	Tymbrineb 300mg/5ml nebuliser solution 5ml ampoules (Teva UK Ltd)
+34551411000001102	Tobramycin 300mg/5ml nebuliser liquid ampoules (Sun Pharmaceutical Industries Europe B.V.)
+34551511000001103	Tobramycin 300mg/5ml nebuliser liquid ampoules (Sun Pharmaceutical Industries Europe B.V.)
+38094611000001107	Munuza 300mg/5ml nebuliser solution 5ml ampoules (Aristo Pharma Ltd)
+38095011000001101	Munuza 300mg/5ml nebuliser solution 5ml ampoules (Aristo Pharma Ltd)
+38179011000001103	Tobramycin 300mg/5ml nebuliser liquid ampoules (Zentiva Pharma UK Ltd)
+38179111000001102	Tobramycin 300mg/5ml nebuliser liquid ampoules (Zentiva Pharma UK Ltd)
+38853811000001103	Tobramycin 300mg/5ml nebuliser liquid ampoules (A A H Pharmaceuticals Ltd)
+38853911000001108	Tobramycin 300mg/5ml nebuliser liquid ampoules (A A H Pharmaceuticals Ltd)
+38989511000001100	Tobramycin 300mg/5ml nebuliser liquid ampoules (Alliance Healthcare (Distribution) Ltd)
+38989611000001101	Tobramycin 300mg/5ml nebuliser liquid ampoules (Alliance Healthcare (Distribution) Ltd)
+4145011000001103	Tobramycin 80mg/2ml solution for injection vials
+4125711000001104	Tobramycin 80mg/2ml solution for injection vials
+4126611000001103	Tobramycin 80mg/2ml solution for injection vials
+4126711000001107	Tobramycin 80mg/2ml solution for injection vials
+4127011000001108	Tobramycin 80mg/2ml solution for injection vials (A A H Pharmaceuticals Ltd)
+4127511000001100	Tobramycin 80mg/2ml solution for injection vials (A A H Pharmaceuticals Ltd)
+4127611000001101	Tobramycin 80mg/2ml solution for injection vials (A A H Pharmaceuticals Ltd)
+4128011000001109	Tobramycin 80mg/2ml solution for injection vials (Pfizer Ltd)
+4128211000001104	Tobramycin 80mg/2ml solution for injection vials (Pfizer Ltd)
+4128611000001102	Nebcin 80mg/2ml solution for injection vials (Flynn Pharma Ltd)
+4128911000001108	Nebcin 80mg/2ml solution for injection vials (Flynn Pharma Ltd)
+4129111000001103	Tobramycin 80mg/2ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+4129311000001101	Tobramycin 80mg/2ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+9187811000001109	Tobramycin 80mg/2ml solution for injection vials (Actavis UK Ltd)
+9187911000001104	Tobramycin 80mg/2ml solution for injection vials (Actavis UK Ltd)
+12949811000001100	Tobramycin 80mg/2ml solution for injection vials (Teva UK Ltd)
+12949911000001105	Tobramycin 80mg/2ml solution for injection vials (Teva UK Ltd)
+26857411000001100	Tobramycin 80mg/2ml solution for injection vials (Ennogen Healthcare Ltd)
+26857511000001101	Tobramycin 80mg/2ml solution for injection vials (Ennogen Healthcare Ltd)
+38027711000001101	Tobramycin 80mg/2ml solution for injection vials (Flynn Pharma Ltd)
+38027811000001109	Tobramycin 80mg/2ml solution for injection vials (Flynn Pharma Ltd)
+35919811000001108	Tobramycin 80mg/2ml solution for infusion ampoules
+4158311000001106	Tobramycin 80mg/2ml solution for infusion ampoules
+4158411000001104	Tobramycin 80mg/2ml solution for infusion ampoules (Actavis UK Ltd)
+4158511000001100	Tobramycin 80mg/2ml solution for infusion ampoules (Actavis UK Ltd)
+36031111000001100	Netilmicin 15mg/1.5ml solution for injection ampoules
+4462611000001109	Netilmicin 15mg/1.5ml solution for injection ampoules
+4462711000001100	Netillin 15mg/1.5ml solution for injection ampoules (Schering-Plough Ltd)
+4462811000001108	Netillin 15mg/1.5ml solution for injection ampoules (Schering-Plough Ltd)
+36031311000001103	Netilmicin 50mg/1ml solution for injection ampoules
+4462911000001103	Netilmicin 50mg/1ml solution for injection ampoules
+4463011000001106	Netillin 50mg/1ml solution for injection ampoules (Schering-Plough Ltd)
+4463111000001107	Netillin 50mg/1ml solution for injection ampoules (Schering-Plough Ltd)
+36030911000001109	Netilmicin 100mg/1ml solution for injection ampoules
+4463211000001101	Netilmicin 100mg/1ml solution for injection ampoules
+4463311000001109	Netillin 100mg/1ml solution for injection ampoules (Schering-Plough Ltd)
+4463411000001102	Netillin 100mg/1ml solution for injection ampoules (Schering-Plough Ltd)
+36031011000001101	Netilmicin 150mg/1.5ml solution for injection ampoules
+4463511000001103	Netilmicin 150mg/1.5ml solution for injection ampoules
+4463611000001104	Netillin 150mg/1.5ml solution for injection ampoules (Schering-Plough Ltd)
+4463711000001108	Netillin 150mg/1.5ml solution for injection ampoules (Schering-Plough Ltd)
+36031211000001106	Netilmicin 200mg/2ml solution for injection ampoules
+4464311000001106	Netilmicin 200mg/2ml solution for injection ampoules
+4464611000001101	Netillin 200mg/2ml solution for injection ampoules (Schering-Plough Ltd)
+4464711000001105	Netillin 200mg/2ml solution for injection ampoules (Schering-Plough Ltd)
+35899911000001109	Amikacin 500mg/2ml solution for injection vials
+4500011000001105	Amikacin 500mg/2ml solution for injection vials
+4500111000001106	Amikin 500mg/2ml solution for injection vials (Bristol-Myers Squibb Pharmaceuticals Ltd)
+4500211000001100	Amikin 500mg/2ml solution for injection vials (Bristol-Myers Squibb Pharmaceuticals Ltd)
+9222111000001109	Amikacin 500mg/2ml solution for injection vials (A A H Pharmaceuticals Ltd)
+9222811000001102	Amikacin 500mg/2ml solution for injection vials (A A H Pharmaceuticals Ltd)
+11591311000001108	Amikacin 500mg/2ml solution for injection vials (Pfizer Ltd)
+11591411000001101	Amikacin 500mg/2ml solution for injection vials (Pfizer Ltd)
+39488711000001101	Amikacin 500mg/2ml solution for injection vials (Tillomed Laboratories Ltd)
+39488811000001109	Amikacin 500mg/2ml solution for injection vials (Tillomed Laboratories Ltd)
+35899811000001104	Amikacin 100mg/2ml solution for injection vials
+4500311000001108	Amikacin 100mg/2ml solution for injection vials
+4500411000001101	Amikin 100mg/2ml solution for injection vials (Vianex S.A.)
+4500511000001102	Amikin 100mg/2ml solution for injection vials (Vianex S.A.)
+35919711000001100	Tobramycin 40mg/1ml solution for injection ampoules
+4514211000001106	Tobramycin 40mg/1ml solution for injection ampoules
+4514311000001103	Tobramycin 40mg/1ml solution for injection ampoules (Actavis UK Ltd)
+4514411000001105	Tobramycin 40mg/1ml solution for injection ampoules (Actavis UK Ltd)
+4516011000001106	Tobramycin 240mg/6ml solution for injection vials
+4514511000001109	Tobramycin 240mg/6ml solution for injection vials
+4514611000001108	Tobramycin 240mg/6ml solution for injection vials (Pfizer Ltd)
+4514711000001104	Tobramycin 240mg/6ml solution for injection vials (Pfizer Ltd)
+35777411000001100	Tobramycin 240mg/6ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+35777511000001101	Tobramycin 240mg/6ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+34194211000001103	Tobramycin 20mg/2ml solution for injection vials
+4514811000001107	Tobramycin 20mg/2ml solution for injection vials
+4514911000001102	Nebcin 20mg/2ml solution for injection vials (King Pharmaceuticals Ltd)
+4515011000001102	Nebcin 20mg/2ml solution for injection vials (King Pharmaceuticals Ltd)
+4615711000001107	Gentamicin 5mg/1ml solution for injection ampoules
+4608911000001101	Gentamicin 5mg/1ml solution for injection ampoules
+4609011000001105	Cidomycin Intrathecal 5mg/1ml solution for injection ampoules (Aventis Pharma)
+4609111000001106	Cidomycin Intrathecal 5mg/1ml solution for injection ampoules (Aventis Pharma)
+10967311000001102	Gentamicin Intrathecal 5mg/1ml solution for injection ampoules (Zentiva Pharma UK Ltd)
+10967411000001109	Gentamicin Intrathecal 5mg/1ml solution for injection ampoules (Zentiva Pharma UK Ltd)
+4957911000001108	Tobramycin 40mg/1ml solution for injection vials
+4943811000001107	Tobramycin 40mg/1ml solution for injection vials
+4943911000001102	Tobramycin 40mg/1ml solution for injection vials
+4944011000001104	Tobramycin 40mg/1ml solution for injection vials (A A H Pharmaceuticals Ltd)
+4944111000001103	Tobramycin 40mg/1ml solution for injection vials (A A H Pharmaceuticals Ltd)
+4944211000001109	Tobramycin 40mg/1ml solution for injection vials (A A H Pharmaceuticals Ltd)
+4944311000001101	Tobramycin 40mg/1ml solution for injection vials (Hospira UK Ltd)
+4944411000001108	Tobramycin 40mg/1ml solution for injection vials (Hospira UK Ltd)
+4944511000001107	Tobramycin 40mg/1ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+4944611000001106	Tobramycin 40mg/1ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+9187611000001105	Tobramycin 40mg/1ml solution for injection vials (Actavis UK Ltd)
+9187711000001101	Tobramycin 40mg/1ml solution for injection vials (Actavis UK Ltd)
+12949611000001104	Tobramycin 40mg/1ml solution for injection vials (Teva UK Ltd)
+12949711000001108	Tobramycin 40mg/1ml solution for injection vials (Teva UK Ltd)
+8523611000001103	Gentamicin 50mg/5ml oral solution
+8494011000001106	Gentamicin 50mg/5ml oral solution
+35103211000001109	Gentamicin 50mg/5ml oral solution
+8494111000001107	Gentamicin 50mg/5ml oral solution (Special Order)
+8494311000001109	Gentamicin 50mg/5ml oral solution (Special Order)
+35103311000001101	Gentamicin 50mg/5ml oral solution (Special Order)
+12089911000001108	Gentamicin 62.5mg/5ml oral solution
+12075111000001102	Gentamicin 62.5mg/5ml oral solution
+12075211000001108	Gentamicin 62.5mg/5ml oral solution (Special Order)
+12075411000001107	Gentamicin 62.5mg/5ml oral solution (Special Order)
+12090011000001100	Gentamicin 75mg/5ml oral solution
+12076311000001105	Gentamicin 75mg/5ml oral solution
+12076611000001100	Gentamicin 75mg/5ml oral solution (Special Order)
+12076911000001106	Gentamicin 75mg/5ml oral solution (Special Order)
+12301911000001109	Neomycin 100mg/5ml oral solution
+12272911000001100	Neomycin 100mg/5ml oral solution
+12273311000001106	Neomycin 100mg/5ml oral solution (Special Order)
+12273511000001100	Neomycin 100mg/5ml oral solution (Special Order)
+12302011000001102	Neomycin 500mg/5ml oral solution
+12274311000001108	Neomycin 500mg/5ml oral solution
+20531311000001109	Neomycin 500mg/5ml oral solution
+20531411000001102	Neomycin 500mg/5ml oral solution
+12274811000001104	Neomycin 500mg/5ml oral solution (Special Order)
+12275011000001109	Neomycin 500mg/5ml oral solution (Special Order)
+20531511000001103	Neomycin 500mg/5ml oral solution (Special Order)
+20531611000001104	Neomycin 500mg/5ml oral solution (Special Order)
+14801411000001105	Tobramycin 300mg/4ml nebuliser liquid ampoules
+14791011000001101	Tobramycin 300mg/4ml nebuliser liquid ampoules
+14791111000001100	Bramitob 300mg/4ml nebuliser solution 4ml ampoules (Chiesi Ltd)
+14791211000001106	Bramitob 300mg/4ml nebuliser solution 4ml ampoules (Chiesi Ltd)
+19544811000001101	Tobramycin 28mg inhalation powder capsules with device
+19536711000001104	Tobramycin 28mg inhalation powder capsules with device
+19536811000001107	Tobramycin 28mg inhalation powder capsules with device
+19536911000001102	Tobi Podhaler 28mg inhalation powder capsules with device (Viatris UK Healthcare Ltd)
+19537011000001103	Tobi Podhaler 28mg inhalation powder capsules with device (Viatris UK Healthcare Ltd)
+19537111000001102	Tobi Podhaler 28mg inhalation powder capsules with device (Viatris UK Healthcare Ltd)
+23676411000001103	Tobramycin 20mg/5ml oral solution
+23671311000001102	Tobramycin 20mg/5ml oral solution
+23671411000001109	Tobramycin 20mg/5ml oral solution (Special Order)
+23671511000001108	Tobramycin 20mg/5ml oral solution (Special Order)
+27800411000001108	Gentamicin 30mg/5ml oral suspension
+27690711000001107	Gentamicin 30mg/5ml oral suspension
+27690911000001109	Gentamicin 30mg/5ml oral suspension (Special Order)
+27691011000001101	Gentamicin 30mg/5ml oral suspension (Special Order)
+29827911000001102	Gentamicin 35mg/5ml oral suspension
+29793211000001108	Gentamicin 35mg/5ml oral suspension
+29793411000001107	Gentamicin 35mg/5ml oral suspension (Special Order)
+29793511000001106	Gentamicin 35mg/5ml oral suspension (Special Order)
+29903511000001102	Gentamicin 20mg/2ml solution for injection ampoules
+29861711000001101	Gentamicin 20mg/2ml solution for injection ampoules
+29861811000001109	Gentamicin 20mg/2ml solution for injection ampoules (Wockhardt UK Ltd)
+29861911000001104	Gentamicin 20mg/2ml solution for injection ampoules (Wockhardt UK Ltd)
+29934211000001107	Gentamicin 20mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+29934311000001104	Gentamicin 20mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+29951311000001103	Gentamicin 80mg/80ml infusion bags
+29941711000001102	Gentamicin 80mg/80ml infusion bags
+29941811000001105	Gentamicin 80mg/80ml infusion bags (A A H Pharmaceuticals Ltd)
+29941911000001100	Gentamicin 80mg/80ml infusion bags (A A H Pharmaceuticals Ltd)
+29942711000001109	Gentamicin 80mg/80ml infusion bags (B.Braun Medical Ltd)
+29942811000001101	Gentamicin 80mg/80ml infusion bags (B.Braun Medical Ltd)
+29951111000001100	Gentamicin 240mg/80ml infusion bags
+29942011000001107	Gentamicin 240mg/80ml infusion bags
+29942211000001102	Gentamicin 240mg/80ml infusion bags (A A H Pharmaceuticals Ltd)
+29942311000001105	Gentamicin 240mg/80ml infusion bags (A A H Pharmaceuticals Ltd)
+29942911000001106	Gentamicin 240mg/80ml infusion bags (B.Braun Medical Ltd)
+29943011000001103	Gentamicin 240mg/80ml infusion bags (B.Braun Medical Ltd)
+29951211000001106	Gentamicin 360mg/120ml infusion bags
+29942411000001103	Gentamicin 360mg/120ml infusion bags
+29942511000001104	Gentamicin 360mg/120ml infusion bags (A A H Pharmaceuticals Ltd)
+29942611000001100	Gentamicin 360mg/120ml infusion bags (A A H Pharmaceuticals Ltd)
+29943111000001102	Gentamicin 360mg/120ml infusion bags (B.Braun Medical Ltd)
+29943211000001108	Gentamicin 360mg/120ml infusion bags (B.Braun Medical Ltd)
+32656811000001108	Tobramycin 40mg/5ml oral solution
+32645611000001101	Tobramycin 40mg/5ml oral solution
+32645711000001105	Tobramycin 40mg/5ml oral solution (Special Order)
+32645811000001102	Tobramycin 40mg/5ml oral solution (Special Order)
+32749211000001108	Gentamicin 45mg/5ml oral solution
+32743311000001103	Gentamicin 45mg/5ml oral solution
+32743411000001105	Gentamicin 45mg/5ml oral solution (Special Order)
+32743511000001109	Gentamicin 45mg/5ml oral solution (Special Order)
+32936811000001108	Tobramycin 170mg/1.7ml nebuliser liquid ampoules
+32932911000001102	Tobramycin 170mg/1.7ml nebuliser liquid ampoules
+32933111000001106	Vantobra 170mg/1.7ml nebuliser solution 1.7ml ampoules (Pari Medical Ltd)
+32933311000001108	Vantobra 170mg/1.7ml nebuliser solution 1.7ml ampoules (Pari Medical Ltd)
