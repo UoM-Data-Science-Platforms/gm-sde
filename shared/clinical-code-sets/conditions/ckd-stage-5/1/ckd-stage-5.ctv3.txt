@@ -1,0 +1,6 @@
+﻿XaLHK	Chronic kidney disease stage 5
+XacAf	CKD G5A1 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A1
+XacAh	CKD G5A2 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A2
+XacAi	CKD G5A3 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A3
+XaO41	Chronic kidney disease stage 5 with proteinuria
+XaO42	Chronic kidney disease stage 5 without proteinuria

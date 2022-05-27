@@ -1,0 +1,7 @@
+﻿1Z1c.00	CKD G4A3 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A3
+1Z1b.00	CKD G4A2 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A2
+1Z1a.00	CKD G4A1 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A1
+1Z13.00	Chronic kidney disease stage 4
+1Z1J.00	Chronic kidney disease stage 4 without proteinuria
+1Z1H.00	Chronic kidney disease stage 4 with proteinuria
+K054.00	Chronic kidney disease stage 4

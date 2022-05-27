@@ -1,0 +1,7 @@
+﻿1Z1f.00	CKD G5A3 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A3
+1Z1e.00	CKD G5A2 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A2
+1Z1d.00	CKD G5A1 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A1
+1Z14.00	Chronic kidney disease stage 5
+1Z1L.00	Chronic kidney disease stage 5 without proteinuria
+1Z1K.00	Chronic kidney disease stage 5 with proteinuria
+K055.00	Chronic kidney disease stage 5

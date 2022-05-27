@@ -16,8 +16,13 @@
 --  - DateOfHighClinicalVulnerabilityIndicator
 --  - HasModerateClinicalVulnerabilityIndicator (Y/N)
 --	-	IsClinicallyEligibleForFluVaccine (Y/N)
+--	-	DateOfFluVaccineIn20152016Season (YYYY-MM-DD)
+--	-	DateOfFluVaccineIn20162017Season (YYYY-MM-DD)
+--	-	DateOfFluVaccineIn20172018Season (YYYY-MM-DD)
+--	-	DateOfFluVaccineIn20182019Season (YYYY-MM-DD)
 --	-	DateOfFluVaccineIn20192020Season (YYYY-MM-DD)
 --	-	DateOfFluVaccineIn20202021Season (YYYY-MM-DD)
+--	-	DateOfFluVaccineIn20212022Season (YYYY-MM-DD)
 --  - HasCovidHospitalisation (Y/N)
 --  - DateOfFirstCovidHospitalisation
 --  - HasCovidDeathWithin28Days (Y/N)
@@ -68,13 +73,18 @@ SELECT * FROM #Temp;
 --> EXECUTE query-patient-sex.sql
 --> EXECUTE query-patient-care-home-resident.sql
 
---> EXECUTE query-get-admissions-and-length-of-stay.sql
---> EXECUTE query-admissions-covid-utilisation.sql start-date:2020-02-01
+--> EXECUTE query-get-admissions-and-length-of-stay.sql all-patients:true
+--> EXECUTE query-admissions-covid-utilisation.sql start-date:2020-02-01 all-patients:true gp-events-table:RLS.vw_GP_Events
 
---> EXECUTE query-get-covid-vaccines.sql
+--> EXECUTE query-get-covid-vaccines.sql gp-events-table:RLS.vw_GP_Events gp-medications-table:RLS.vw_GP_Medications
 
+--> EXECUTE query-received-flu-vaccine.sql date-from:2015-07-01 date-to:2016-06-30 id:2015
+--> EXECUTE query-received-flu-vaccine.sql date-from:2016-07-01 date-to:2017-06-30 id:2016
+--> EXECUTE query-received-flu-vaccine.sql date-from:2017-07-01 date-to:2018-06-30 id:2017
+--> EXECUTE query-received-flu-vaccine.sql date-from:2018-07-01 date-to:2019-06-30 id:2018
 --> EXECUTE query-received-flu-vaccine.sql date-from:2019-07-01 date-to:2020-06-30 id:2019
 --> EXECUTE query-received-flu-vaccine.sql date-from:2020-07-01 date-to:2021-06-30 id:2020
+--> EXECUTE query-received-flu-vaccine.sql date-from:2021-07-01 date-to:2022-06-30 id:2021
 
 --> EXECUTE query-get-flu-vaccine-eligible.sql
 
@@ -126,8 +136,13 @@ SELECT
 	HighVulnerabilityCodeDate AS DateOfHighClinicalVulnerabilityIndicator,
 	CASE WHEN mv.FK_Patient_Link_ID IS NOT NULL THEN 'Y' ELSE 'N' END AS HasModerateClinicalVulnerability,
 	CASE WHEN flu.FK_Patient_Link_ID IS NOT NULL THEN 'Y' ELSE 'N' END AS IsClinicallyEligibleForFluVaccine,
+	fluvac2015.FluVaccineDate AS DateOfFluVaccineIn20152016Season,
+	fluvac2016.FluVaccineDate AS DateOfFluVaccineIn20162017Season,
+	fluvac2017.FluVaccineDate AS DateOfFluVaccineIn20172018Season,
+	fluvac2018.FluVaccineDate AS DateOfFluVaccineIn20182019Season,
 	fluvac2019.FluVaccineDate AS DateOfFluVaccineIn20192020Season,
 	fluvac2020.FluVaccineDate AS DateOfFluVaccineIn20202021Season,
+	fluvac2021.FluVaccineDate AS DateOfFluVaccineIn20212022Season,
 	CASE WHEN DateOfFirstCovidHospitalisation IS NOT NULL THEN 'Y' ELSE 'N' END AS HasCovidHospitalisation,
 	DateOfFirstCovidHospitalisation,
 	CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN 'Y' ELSE 'N' END AS HasCovidDeathWithin28Days,
@@ -152,5 +167,10 @@ LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDVaccinations v ON v.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #VaccineDeclinedPatients vd ON vd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #FluVaccPatients flu ON flu.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientHadFluVaccine2015 fluvac2015 ON fluvac2015.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientHadFluVaccine2016 fluvac2016 ON fluvac2016.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientHadFluVaccine2017 fluvac2017 ON fluvac2017.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientHadFluVaccine2018 fluvac2018 ON fluvac2018.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientHadFluVaccine2019 fluvac2019 ON fluvac2019.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientHadFluVaccine2020 fluvac2020 ON fluvac2020.FK_Patient_Link_ID = p.FK_Patient_Link_ID;;
+LEFT OUTER JOIN #PatientHadFluVaccine2020 fluvac2020 ON fluvac2020.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientHadFluVaccine2021 fluvac2021 ON fluvac2021.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
