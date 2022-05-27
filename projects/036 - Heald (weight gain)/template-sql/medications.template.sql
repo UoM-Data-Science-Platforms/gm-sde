@@ -270,8 +270,13 @@ having count(*) >= 100;
 
 -- Final output
 SELECT
-	FK_Patient_Link_ID AS PatientId, Label, Description, 
-	Quantity, ISNULL(#SafeDosages.Dosage, 'REDACTED') AS Dosage, MedicationDate, SuppliedCode
+	FK_Patient_Link_ID AS PatientId,
+	Label,
+	REPLACE(Description, ',',' ') AS Description,
+	Quantity,
+	REPLACE(REPLACE(REPLACE(ISNULL(#SafeDosages.Dosage, 'REDACTED'),',',' '),CHAR(13),' '),CHAR(10),' ') AS Dosage,
+	MedicationDate,
+	SuppliedCode
 FROM #medications m
 LEFT OUTER JOIN #SafeDosages ON m.Dosage = #SafeDosages.Dosage
 ORDER BY FK_Patient_Link_ID, MedicationDate;

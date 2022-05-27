@@ -1574,7 +1574,7 @@ All code sets required for this analysis are listed here. Individual lists for e
 |severe-mental-illness v1|readv2|Eu20y11|[X]Cenesthopathic schizophrenia|
 |severe-mental-illness v1|readv2|Eu23111|[X]Bouffee delirante with symptoms of schizophrenia|
 |severe-mental-illness v1|readv2|Eu60012|[X]Fanatic paranoid personality disorder|
-|severe-mental-illness v1|readv2|ZS7C611|#N/A|
+|severe-mental-illness v1|readv2|ZS7C611|Schizophrenic language|
 |severe-mental-illness v1|readv2|13Y2.00|Schizophrenia association member|
 |severe-mental-illness v1|readv2|1464.00|H/O: schizophrenia|
 |severe-mental-illness v1|readv2|146H.00|H/O: psychosis|
