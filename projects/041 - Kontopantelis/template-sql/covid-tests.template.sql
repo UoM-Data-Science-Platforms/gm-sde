@@ -1,39 +1,19 @@
---┌─────────────────────────────────────┐
---│ Patient information for main cohort │
---└─────────────────────────────────────┘
+--┌────────────────────────────────────┐
+--│ Covid Test Outcomes	               │
+--└────────────────────────────────────┘
 
 ------------ RESEARCH DATA ENGINEER CHECK ------------
+-- 
 
-------------------------------------------------------
-
--- PatientID
--- registration date with the general practice
--- Month and year of birth (YYYY-MM)
--- Month and year of death (YYYY-MM)
--- Sex at birth (male/female)
--- Ethnicity (white/black/asian/mixed/other)
--- CCG of registered GP practice
--- LSOA Code
--- IMD decile
--- First vaccination date (YYYY-MM or N/A)
--- Second vaccination date (YYYY-MM or N/A)
--- Third vaccination date (YYYY-MM or N/A)
--- Death within 28 days of Covid Diagnosis (Y/N)
--- Date of death due to Covid-19 (YYYY-MM or N/A)
--- Number of AE Episodes before 01.03.20
--- Number of AE Episodes after 01.03.20
--- Total AE Episodes (01.03.18 - 01.03.22)
--- Number of GP appointments before 01.03.20
--- Number of GP appointments after 01.03.20
--- Total GP appointments (01.03.18 - 01.03.22)
--- evidenceOfCKD_egfr (yes/no)
--- evidenceOfCKD_acr (yes/no)
--- atRiskOfCKD (yes/no)
+-- OUTPUT: Data with the following fields
+-- Patient Id
+-- TestOutcome (positive/negative/inconclusive)
+-- TestDate (DD-MM-YYYY)
 
 -- Set the start date
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
-SET @StartDate = '2018-03-01';
+SET @StartDate = '2020-03-01';
 SET @EndDate = '2022-03-01';
 
 --Just want the output, not the messages
@@ -53,7 +33,6 @@ where FK_Reference_Tenancy_ID = 2;
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
-
 
 
 --------------------------------------------------------------------------------------------------------
@@ -172,7 +151,6 @@ WHERE datediff(month, date_previous_acr, EventDate) >=  3 --only find patients w
 -- 	gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes', 'hypertension') AND [Version]=1) OR
 --     gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes', 'hypertension') AND [Version]=1)
 -- 	);
--- 	AND EventDate <= @StartDate
 
 -- CREATE TABLE ONLY INCLUDING THE REQUIRED COHORT, WHICH INCLUDES THOSE WITH EVIDENCE OF CKD AND THOSE AT RISK OF CKD
 
@@ -193,130 +171,22 @@ WHERE p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #egfr_ckd_evidence
 ---------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
 
+-- REDUCE THE #Patients TABLE SO THAT IT ONLY INCLUDES THE COHORT, AND REUSABLE QUERIES CAN USE IT TO BE RUN QUICKER 
 
---> EXECUTE query-get-covid-vaccines.sql gp-events-table:RLS.vw_GP_Events gp-medications-table:RLS.vw_GP_Medications
---> EXECUTE query-patient-gp-history.sql
---> EXECUTE query-patient-practice-and-ccg.sql
+DELETE FROM #Patients
+WHERE FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 
--- FIND PATIENTS THAT HAVE LEFT GM DURING STUDY PERIOD AND THE DATE THAT THEY LEFT
+--> EXECUTE query-patients-with-covid.sql start-date:2020-01-01 gp-events-table:RLS.vw_GP_Events all-patients:false
 
-IF OBJECT_ID('tempdb..#GM_GPs') IS NOT NULL DROP TABLE #GM_GPs;
-SELECT * 
-INTO #GM_GPs
-FROM #PatientGPHistory
-WHERE 
---StartDate <= @StartDate and EndDate > @StartDate and 
-GPPracticeCode <> 'OutOfArea'
-
-IF OBJECT_ID('tempdb..#GM_GP_range') IS NOT NULL DROP TABLE #GM_GP_range;
-SELECT FK_Patient_Link_ID, MIN(StartDate) AS MinDate, MAX(EndDate) AS MaxDate
-INTO #GM_GP_range
-FROM #GM_GPs
-GROUP BY FK_Patient_Link_ID
-ORDER BY FK_Patient_Link_ID, MIN(StartDate)
-
-IF OBJECT_ID('tempdb..#GPExitDates') IS NOT NULL DROP TABLE #GPExitDates;
-SELECT *,
-	MovedOutOfGMDate = CASE WHEN MaxDate <  @EndDate THEN MaxDate ELSE NULL END
-INTO #GPExitDates
-FROM #GM_GP_range
+--bring together for final output
+SELECT 
+	PatientId = FK_Patient_Link_ID,
+	FirstCovidPositiveDate,
+	SecondCovidPositiveDate, 
+	ThirdCovidPositiveDate, 
+	FourthCovidPositiveDate, 
+	FifthCovidPositiveDate
+FROM #CovidPatientsMultipleDiagnoses cv
 
 
 
--- FIND NUMBER OF ATTENDED GP APPOINTMENTS FROM MARCH 2018 TO MARCH 2022
-
-IF OBJECT_ID('tempdb..#gp_appointments') IS NOT NULL DROP TABLE #gp_appointments;
-SELECT G.FK_Patient_Link_ID, 
-	G.AppointmentDate, 
-	BeforeOrAfter1stMarch2020 = CASE WHEN G.AppointmentDate < '2020-03-01' THEN 'BEFORE' ELSE 'AFTER' END
-INTO #gp_appointments
-FROM RLS.vw_GP_Appointments G
-WHERE AppointmentCancelledDate IS NULL 
-AND AppointmentDate BETWEEN '2018-03-01' AND '2022-03-01'
-AND G.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort) 
-
-SELECT FK_Patient_Link_ID, BeforeOrAfter1stMarch2020, COUNT(*) as gp_appointments
-INTO #count_gp_appointments
-FROM #gp_appointments
-GROUP BY FK_Patient_Link_ID, BeforeOrAfter1stMarch2020
-ORDER BY FK_Patient_Link_ID, BeforeOrAfter1stMarch2020
-
--- FIND NUMBER OF A&E APPOINTMENTS FROM MARCH 2018 TO MARCH 2022
-
-IF OBJECT_ID('tempdb..#ae_encounters') IS NOT NULL DROP TABLE #ae_encounters;
-SELECT a.FK_Patient_Link_ID, 
-	a.AttendanceDate, 
-	BeforeOrAfter1stMarch2020 = CASE WHEN a.AttendanceDate < '2020-03-01' THEN 'BEFORE' ELSE 'AFTER' END
-INTO #ae_encounters
-FROM RLS.vw_Acute_AE a
-WHERE EventType = 'Attendance'
-AND a.AttendanceDate BETWEEN '2018-03-01' AND '2022-03-01'
-AND a.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #cohort) 
-
-SELECT FK_Patient_Link_ID, BeforeOrAfter1stMarch2020, COUNT(*) AS ae_encounters
-INTO #count_ae_encounters
-FROM #ae_encounters
-GROUP BY FK_Patient_Link_ID, BeforeOrAfter1stMarch2020
-ORDER BY FK_Patient_Link_ID, BeforeOrAfter1stMarch2020
-
-
--- Get patient list of those with COVID death within 28 days of positive test
-IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
-SELECT DISTINCT FK_Patient_Link_ID 
-INTO #COVIDDeath FROM RLS.vw_COVID19
-WHERE DeathWithin28Days = 'Y'
-	AND EventDate <= @EndDate
-
---> EXECUTE query-patient-sex.sql
---> EXECUTE query-patient-imd.sql
---> EXECUTE query-patient-year-of-birth.sql
---> EXECUTE query-patient-lsoa.sql
---> EXECUTE query-patient-smoking-status.sql gp-events-table:RLS.vw_GP_Events
---> EXECUTE query-patient-alcohol-intake.sql gp-events-table:RLS.vw_GP_Events
-
----- CREATE OUTPUT TABLE OF COHORT PATIENTS (EITHER EVIDENCE OF CKD OR AT RISK OF CKD), JOINING TO TEMP TABLES FOR ALL OTHER INFO 
-
-SELECT  PatientId = p.FK_Patient_Link_ID, 
-		PracticeExitDate = gpex.MovedOutOfGMDate,
-		PracticeCCG = prac.CCG,
-		YearOfBirth, 
-		Sex,
-		EthnicMainGroup,
-	    LSOA_Code,
-		IMD2019Decile1IsMostDeprived10IsLeastDeprived,
-		CurrentSmokingStatus = smok.CurrentSmokingStatus,
-		CurrentAlcoholIntake,
-		WorstAlcoholIntake,
-		DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END,
-		DeathDueToCovid_Year = CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN YEAR(p.DeathDate) ELSE null END,
-		DeathDueToCovid_Month = CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN MONTH(p.DeathDate) ELSE null END,
-		FirstVaccineYear =  YEAR(VaccineDose1Date),
-		FirstVaccineMonth = MONTH(VaccineDose1Date),
-		SecondVaccineYear =  YEAR(VaccineDose2Date),
-		SecondVaccineMonth = MONTH(VaccineDose2Date),
-		ThirdVaccineYear =  YEAR(VaccineDose3Date),
-		ThirdVaccineMonth = MONTH(VaccineDose3Date),
-		AEEncountersBefore1stMarch2020 = ae_b.ae_encounters,
-		AEEncountersAfter1stMarch2020 = ae_a.ae_encounters,
-		GPAppointmentsBefore1stMarch2020 = gp_b.gp_appointments,
-		GPAppointmentsAfter1stMarch2020 =  gp_a.gp_appointments ,
-		EvidenceOfCKD_egfr,
-		EvidenceOfCKD_acr
-		--,AtRiskOfCKD
-FROM #Cohort p
-LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientAlcoholIntake alc ON alc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientPracticeAndCCG prac ON prac.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #GPExitDates gpex ON gpex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #COVIDVaccinations vac ON vac.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #count_ae_encounters ae_b ON ae_b.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND ae_b.BeforeOrAfter1stMarch2020 = 'BEFORE'
-LEFT OUTER JOIN #count_ae_encounters ae_a ON ae_a.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND ae_a.BeforeOrAfter1stMarch2020 = 'AFTER'
-LEFT OUTER JOIN #count_gp_appointments gp_b ON gp_b.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND gp_b.BeforeOrAfter1stMarch2020 = 'BEFORE'
-LEFT OUTER JOIN #count_gp_appointments gp_a ON gp_a.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND gp_a.BeforeOrAfter1stMarch2020 = 'AFTER'
-WHERE YEAR(@StartDate) - YearOfBirth > 18 -- OVER 18s ONLY
---320,594
