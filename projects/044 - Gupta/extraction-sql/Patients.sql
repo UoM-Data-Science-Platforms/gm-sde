@@ -1,6 +1,6 @@
---┌────────────────────────────────────┐
---│ Self-harm episodes per month	     │
---└────────────────────────────────────┘
+--┌──────────────────────────────────────────────┐
+--│ Patients with multimorbidity and covid	     │
+--└──────────────────────────────────────────────┘
 
 -- REVIEW LOG:
 --	
@@ -30,269 +30,6 @@ where FK_Reference_Tenancy_ID = 2;
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
-
-
---┌─────┐
---│ Sex │
---└─────┘
-
--- OBJECTIVE: To get the Sex for each patient.
-
--- INPUT: Assumes there exists a temp table as follows:
--- #Patients (FK_Patient_Link_ID)
---  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-
--- OUTPUT: A temp table as follows:
--- #PatientSex (FK_Patient_Link_ID, Sex)
--- 	- FK_Patient_Link_ID - unique patient id
---	- Sex - M/F
-
--- ASSUMPTIONS:
---	- Patient data is obtained from multiple sources. Where patients have multiple sexes we determine the sex as follows:
---	-	If the patients has a sex in their primary care data feed we use that as most likely to be up to date
---	-	If every sex for a patient is the same, then we use that
---	-	If there is a single most recently updated sex in the database then we use that
---	-	Otherwise the patient's sex is considered unknown
-
--- Get all patients sex for the cohort
-IF OBJECT_ID('tempdb..#AllPatientSexs') IS NOT NULL DROP TABLE #AllPatientSexs;
-SELECT 
-	FK_Patient_Link_ID,
-	FK_Reference_Tenancy_ID,
-	HDMModifDate,
-	Sex
-INTO #AllPatientSexs
-FROM RLS.vw_Patient p
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND Sex IS NOT NULL;
-
-
--- If patients have a tenancy id of 2 we take this as their most likely Sex
--- as this is the GP data feed and so most likely to be up to date
-IF OBJECT_ID('tempdb..#PatientSex') IS NOT NULL DROP TABLE #PatientSex;
-SELECT FK_Patient_Link_ID, MIN(Sex) as Sex INTO #PatientSex FROM #AllPatientSexs
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND FK_Reference_Tenancy_ID = 2
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(Sex) = MAX(Sex);
-
--- Find the patients who remain unmatched
-IF OBJECT_ID('tempdb..#UnmatchedSexPatients') IS NOT NULL DROP TABLE #UnmatchedSexPatients;
-SELECT FK_Patient_Link_ID INTO #UnmatchedSexPatients FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientSex;
-
--- If every Sex is the same for all their linked patient ids then we use that
-INSERT INTO #PatientSex
-SELECT FK_Patient_Link_ID, MIN(Sex) FROM #AllPatientSexs
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedSexPatients)
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(Sex) = MAX(Sex);
-
--- Find any still unmatched patients
-TRUNCATE TABLE #UnmatchedSexPatients;
-INSERT INTO #UnmatchedSexPatients
-SELECT FK_Patient_Link_ID FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientSex;
-
--- If there is a unique most recent Sex then use that
-INSERT INTO #PatientSex
-SELECT p.FK_Patient_Link_ID, MIN(p.Sex) FROM #AllPatientSexs p
-INNER JOIN (
-	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientSexs
-	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedSexPatients)
-	GROUP BY FK_Patient_Link_ID
-) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
-GROUP BY p.FK_Patient_Link_ID
-HAVING MIN(Sex) = MAX(Sex);
-
--- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
-DROP TABLE #AllPatientSexs;
-DROP TABLE #UnmatchedSexPatients;
---┌────────────────────────────┐
---│ Index Multiple Deprivation │
---└────────────────────────────┘
-
--- OBJECTIVE: To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.
-
--- INPUT: Assumes there exists a temp table as follows:
--- #Patients (FK_Patient_Link_ID)
---  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-
--- OUTPUT: A temp table as follows:
--- #PatientIMDDecile (FK_Patient_Link_ID, IMD2019Decile1IsMostDeprived10IsLeastDeprived)
--- 	- FK_Patient_Link_ID - unique patient id
---	- IMD2019Decile1IsMostDeprived10IsLeastDeprived - number 1 to 10 inclusive
-
--- Get all patients IMD_Score (which is a rank) for the cohort and map to decile
--- (Data on mapping thresholds at: https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019
-IF OBJECT_ID('tempdb..#AllPatientIMDDeciles') IS NOT NULL DROP TABLE #AllPatientIMDDeciles;
-SELECT 
-	FK_Patient_Link_ID,
-	FK_Reference_Tenancy_ID,
-	HDMModifDate,
-	CASE 
-		WHEN IMD_Score <= 3284 THEN 1
-		WHEN IMD_Score <= 6568 THEN 2
-		WHEN IMD_Score <= 9853 THEN 3
-		WHEN IMD_Score <= 13137 THEN 4
-		WHEN IMD_Score <= 16422 THEN 5
-		WHEN IMD_Score <= 19706 THEN 6
-		WHEN IMD_Score <= 22990 THEN 7
-		WHEN IMD_Score <= 26275 THEN 8
-		WHEN IMD_Score <= 29559 THEN 9
-		ELSE 10
-	END AS IMD2019Decile1IsMostDeprived10IsLeastDeprived 
-INTO #AllPatientIMDDeciles
-FROM RLS.vw_Patient p
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND IMD_Score IS NOT NULL
-AND IMD_Score != -1;
--- 972479 rows
--- 00:00:11
-
--- If patients have a tenancy id of 2 we take this as their most likely IMD_Score
--- as this is the GP data feed and so most likely to be up to date
-IF OBJECT_ID('tempdb..#PatientIMDDecile') IS NOT NULL DROP TABLE #PatientIMDDecile;
-SELECT FK_Patient_Link_ID, MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) as IMD2019Decile1IsMostDeprived10IsLeastDeprived INTO #PatientIMDDecile FROM #AllPatientIMDDeciles
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND FK_Reference_Tenancy_ID = 2
-GROUP BY FK_Patient_Link_ID;
--- 247377 rows
--- 00:00:00
-
--- Find the patients who remain unmatched
-IF OBJECT_ID('tempdb..#UnmatchedImdPatients') IS NOT NULL DROP TABLE #UnmatchedImdPatients;
-SELECT FK_Patient_Link_ID INTO #UnmatchedImdPatients FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientIMDDecile;
--- 38710 rows
--- 00:00:00
-
--- If every IMD_Score is the same for all their linked patient ids then we use that
-INSERT INTO #PatientIMDDecile
-SELECT FK_Patient_Link_ID, MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) FROM #AllPatientIMDDeciles
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedImdPatients)
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1IsMostDeprived10IsLeastDeprived);
--- 36656
--- 00:00:00
-
--- Find any still unmatched patients
-TRUNCATE TABLE #UnmatchedImdPatients;
-INSERT INTO #UnmatchedImdPatients
-SELECT FK_Patient_Link_ID FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientIMDDecile;
--- 2054 rows
--- 00:00:00
-
--- If there is a unique most recent imd decile then use that
-INSERT INTO #PatientIMDDecile
-SELECT p.FK_Patient_Link_ID, MIN(p.IMD2019Decile1IsMostDeprived10IsLeastDeprived) FROM #AllPatientIMDDeciles p
-INNER JOIN (
-	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientIMDDeciles
-	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedImdPatients)
-	GROUP BY FK_Patient_Link_ID
-) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
-GROUP BY p.FK_Patient_Link_ID
-HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1IsMostDeprived10IsLeastDeprived);
--- 489
--- 00:00:00
---┌───────────────┐
---│ Year of birth │
---└───────────────┘
-
--- OBJECTIVE: To get the year of birth for each patient.
-
--- INPUT: Assumes there exists a temp table as follows:
--- #Patients (FK_Patient_Link_ID)
---  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-
--- OUTPUT: A temp table as follows:
--- #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
--- 	- FK_Patient_Link_ID - unique patient id
---	- YearOfBirth - INT
-
--- ASSUMPTIONS:
---	- Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:
---	-	If the patients has a YOB in their primary care data feed we use that as most likely to be up to date
---	-	If every YOB for a patient is the same, then we use that
---	-	If there is a single most recently updated YOB in the database then we use that
---	-	Otherwise we take the highest YOB for the patient that is not in the future
-
--- Get all patients year of birth for the cohort
-IF OBJECT_ID('tempdb..#AllPatientYearOfBirths') IS NOT NULL DROP TABLE #AllPatientYearOfBirths;
-SELECT 
-	FK_Patient_Link_ID,
-	FK_Reference_Tenancy_ID,
-	HDMModifDate,
-	YEAR(Dob) AS YearOfBirth
-INTO #AllPatientYearOfBirths
-FROM RLS.vw_Patient p
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND Dob IS NOT NULL;
-
-
--- If patients have a tenancy id of 2 we take this as their most likely YOB
--- as this is the GP data feed and so most likely to be up to date
-IF OBJECT_ID('tempdb..#PatientYearOfBirth') IS NOT NULL DROP TABLE #PatientYearOfBirth;
-SELECT FK_Patient_Link_ID, MIN(YearOfBirth) as YearOfBirth INTO #PatientYearOfBirth FROM #AllPatientYearOfBirths
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND FK_Reference_Tenancy_ID = 2
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
-
--- Find the patients who remain unmatched
-IF OBJECT_ID('tempdb..#UnmatchedYobPatients') IS NOT NULL DROP TABLE #UnmatchedYobPatients;
-SELECT FK_Patient_Link_ID INTO #UnmatchedYobPatients FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
-
--- If every YOB is the same for all their linked patient ids then we use that
-INSERT INTO #PatientYearOfBirth
-SELECT FK_Patient_Link_ID, MIN(YearOfBirth) FROM #AllPatientYearOfBirths
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
-
--- Find any still unmatched patients
-TRUNCATE TABLE #UnmatchedYobPatients;
-INSERT INTO #UnmatchedYobPatients
-SELECT FK_Patient_Link_ID FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
-
--- If there is a unique most recent YOB then use that
-INSERT INTO #PatientYearOfBirth
-SELECT p.FK_Patient_Link_ID, MIN(p.YearOfBirth) FROM #AllPatientYearOfBirths p
-INNER JOIN (
-	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientYearOfBirths
-	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
-	GROUP BY FK_Patient_Link_ID
-) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
-GROUP BY p.FK_Patient_Link_ID
-HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
-
--- Find any still unmatched patients
-TRUNCATE TABLE #UnmatchedYobPatients;
-INSERT INTO #UnmatchedYobPatients
-SELECT FK_Patient_Link_ID FROM #Patients
-EXCEPT
-SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
-
--- Otherwise just use the highest value (with the exception that can't be in the future)
-INSERT INTO #PatientYearOfBirth
-SELECT FK_Patient_Link_ID, MAX(YearOfBirth) FROM #AllPatientYearOfBirths
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
-GROUP BY FK_Patient_Link_ID
-HAVING MAX(YearOfBirth) <= YEAR(GETDATE());
-
--- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
-DROP TABLE #AllPatientYearOfBirths;
-DROP TABLE #UnmatchedYobPatients;
-
 
 -- Set the date variables for the LTC code
 
@@ -1006,14 +743,14 @@ WHERE (
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND MedicationDate >= @MinDate
-AND MedicationDate >= DATEADD(year, @IndexDate, -1) 
-AND MedicationDate <= @IndexDate
+AND MedicationDate < @IndexDate
+AND MedicationDate >= DATEADD(year, -1, @IndexDate);
 
 -- Create temp table with PatientConditionsOccurences
-IF OBJECT_ID('tempdb..#PatientConditionsOccurences') IS NOT NULL DROP TABLE #PatientConditionsOccurences;
-CREATE TABLE #PatientConditionsOccurences (FK_Patient_Link_ID BIGINT, LTC VARCHAR(100), FirstDate DATE, LastDate DATE, ConditionOccurences BIGINT);
+IF OBJECT_ID('tempdb..#PatientsWithLTCs') IS NOT NULL DROP TABLE #PatientsWithLTCs;
+CREATE TABLE #PatientsWithLTCs (FK_Patient_Link_ID BIGINT, LTC VARCHAR(100), FirstDate DATE, LastDate DATE, ConditionOccurences BIGINT);
 
-INSERT INTO #PatientConditionsOccurences
+INSERT INTO #PatientsWithLTCs
 SELECT 
   FK_Patient_Link_ID, 
   Condition,
@@ -1033,7 +770,7 @@ WHERE Condition IN (
 GROUP BY FK_Patient_Link_ID, Condition
 
 -- Cancer only if first diagnosis in last 5 years
-INSERT INTO #PatientConditionsOccurences
+INSERT INTO #PatientsWithLTCs
 SELECT 
   FK_Patient_Link_ID,
   'Cancer' AS Condition, 
@@ -1042,15 +779,15 @@ SELECT
   COUNT(*) AS ConditionOccurences  
 FROM #LTCCancerTemp
 GROUP BY FK_Patient_Link_ID
-HAVING MIN(EventDate) >= DATEADD(YEAR, -5, @StartDate);
+HAVING MIN(EventDate) >= DATEADD(YEAR, -5, @IndexDate);
 
 
-INSERT INTO #PatientConditionsOccurences
+INSERT INTO #PatientsWithLTCs
 SELECT 
   FK_Patient_Link_ID, 
   Condition,
-  MIN(MedicationDate) AS FirstDate, 
-  MAX(MedicationDate) AS LastDate,
+  MIN(EventDate) AS FirstDate, 
+  MAX(EventDate) AS LastDate,
   COUNT(*) AS ConditionOccurences
 FROM #LTCTemp
 GROUP BY FK_Patient_Link_ID, Condition
@@ -1082,7 +819,6 @@ FROM (
   SELECT FK_Patient_Link_ID, COUNT(*) AS NumberOfLTCs FROM #PatientsWithLTCs
   GROUP BY FK_Patient_Link_ID
 ) subquery;
-
 
 
 -- FIND ALL PATIENTS WITH A MENTAL CONDITION
@@ -1134,20 +870,728 @@ WHERE
 	and GroupDescription not in ('Exposed', 'Suspected', 'Tested for immunity')
 	and (GroupDescription != 'Unknown' and SubGroupDescription != '')
 
--- FIND ALL PATIENTS THAT MEET THE FOLLOWING CRITERIA:
+
+--┌───────────────┐
+--│ Year of birth │
+--└───────────────┘
+
+-- OBJECTIVE: To get the year of birth for each patient.
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- YearOfBirth - INT
+
+-- ASSUMPTIONS:
+--	- Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:
+--	-	If the patients has a YOB in their primary care data feed we use that as most likely to be up to date
+--	-	If every YOB for a patient is the same, then we use that
+--	-	If there is a single most recently updated YOB in the database then we use that
+--	-	Otherwise we take the highest YOB for the patient that is not in the future
+
+-- Get all patients year of birth for the cohort
+IF OBJECT_ID('tempdb..#AllPatientYearOfBirths') IS NOT NULL DROP TABLE #AllPatientYearOfBirths;
+SELECT 
+	FK_Patient_Link_ID,
+	FK_Reference_Tenancy_ID,
+	HDMModifDate,
+	YEAR(Dob) AS YearOfBirth
+INTO #AllPatientYearOfBirths
+FROM RLS.vw_Patient p
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND Dob IS NOT NULL;
+
+
+-- If patients have a tenancy id of 2 we take this as their most likely YOB
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientYearOfBirth') IS NOT NULL DROP TABLE #PatientYearOfBirth;
+SELECT FK_Patient_Link_ID, MIN(YearOfBirth) as YearOfBirth INTO #PatientYearOfBirth FROM #AllPatientYearOfBirths
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+
+-- Find the patients who remain unmatched
+IF OBJECT_ID('tempdb..#UnmatchedYobPatients') IS NOT NULL DROP TABLE #UnmatchedYobPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedYobPatients FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+
+-- If every YOB is the same for all their linked patient ids then we use that
+INSERT INTO #PatientYearOfBirth
+SELECT FK_Patient_Link_ID, MIN(YearOfBirth) FROM #AllPatientYearOfBirths
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedYobPatients;
+INSERT INTO #UnmatchedYobPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+
+-- If there is a unique most recent YOB then use that
+INSERT INTO #PatientYearOfBirth
+SELECT p.FK_Patient_Link_ID, MIN(p.YearOfBirth) FROM #AllPatientYearOfBirths p
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientYearOfBirths
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+GROUP BY p.FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedYobPatients;
+INSERT INTO #UnmatchedYobPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientYearOfBirth;
+
+-- Otherwise just use the highest value (with the exception that can't be in the future)
+INSERT INTO #PatientYearOfBirth
+SELECT FK_Patient_Link_ID, MAX(YearOfBirth) FROM #AllPatientYearOfBirths
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedYobPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MAX(YearOfBirth) <= YEAR(GETDATE());
+
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientYearOfBirths;
+DROP TABLE #UnmatchedYobPatients;
+
+------------------------------------ CREATE COHORT -------------------------------------
 	-- REGISTERED WITH A GM GP
 	-- OVER  18
 	-- HAD A COVID19 INFECTION
 	-- 2 OR MORE LTCs INCLUDING ONE MENTAL CONDITION
 
+IF OBJECT_ID('tempdb..#Cohort') IS NOT NULL DROP TABLE #Cohort;
+SELECT p.FK_Patient_Link_ID, 
+	EthnicMainGroup,
+	DeathDate,
+	yob.YearOfBirth
+INTO #Cohort
+FROM #Patients p
+LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+WHERE YEAR(@StartDate) - YearOfBirth >= 19 
+	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #covidtests WHERE TestOutcome = 'Positive' )
+	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #2orMoreLTCsIncludingMental)
+
+
+
+-- Get patient list of those with COVID death within 28 days of positive test
+IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
+SELECT DISTINCT FK_Patient_Link_ID 
+INTO #COVIDDeath FROM RLS.vw_COVID19
+WHERE DeathWithin28Days = 'Y'
+	AND EventDate <= @EndDate
+
+
+--┌─────┐
+--│ Sex │
+--└─────┘
+
+-- OBJECTIVE: To get the Sex for each patient.
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #PatientSex (FK_Patient_Link_ID, Sex)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- Sex - M/F
+
+-- ASSUMPTIONS:
+--	- Patient data is obtained from multiple sources. Where patients have multiple sexes we determine the sex as follows:
+--	-	If the patients has a sex in their primary care data feed we use that as most likely to be up to date
+--	-	If every sex for a patient is the same, then we use that
+--	-	If there is a single most recently updated sex in the database then we use that
+--	-	Otherwise the patient's sex is considered unknown
+
+-- Get all patients sex for the cohort
+IF OBJECT_ID('tempdb..#AllPatientSexs') IS NOT NULL DROP TABLE #AllPatientSexs;
+SELECT 
+	FK_Patient_Link_ID,
+	FK_Reference_Tenancy_ID,
+	HDMModifDate,
+	Sex
+INTO #AllPatientSexs
+FROM RLS.vw_Patient p
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND Sex IS NOT NULL;
+
+
+-- If patients have a tenancy id of 2 we take this as their most likely Sex
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientSex') IS NOT NULL DROP TABLE #PatientSex;
+SELECT FK_Patient_Link_ID, MIN(Sex) as Sex INTO #PatientSex FROM #AllPatientSexs
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(Sex) = MAX(Sex);
+
+-- Find the patients who remain unmatched
+IF OBJECT_ID('tempdb..#UnmatchedSexPatients') IS NOT NULL DROP TABLE #UnmatchedSexPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedSexPatients FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientSex;
+
+-- If every Sex is the same for all their linked patient ids then we use that
+INSERT INTO #PatientSex
+SELECT FK_Patient_Link_ID, MIN(Sex) FROM #AllPatientSexs
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedSexPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(Sex) = MAX(Sex);
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedSexPatients;
+INSERT INTO #UnmatchedSexPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientSex;
+
+-- If there is a unique most recent Sex then use that
+INSERT INTO #PatientSex
+SELECT p.FK_Patient_Link_ID, MIN(p.Sex) FROM #AllPatientSexs p
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientSexs
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedSexPatients)
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+GROUP BY p.FK_Patient_Link_ID
+HAVING MIN(Sex) = MAX(Sex);
+
+-- Tidy up - helpful in ensuring the tempdb doesn't run out of space mid-query
+DROP TABLE #AllPatientSexs;
+DROP TABLE #UnmatchedSexPatients;
+--┌────────────────────────────┐
+--│ Index Multiple Deprivation │
+--└────────────────────────────┘
+
+-- OBJECTIVE: To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #PatientIMDDecile (FK_Patient_Link_ID, IMD2019Decile1IsMostDeprived10IsLeastDeprived)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- IMD2019Decile1IsMostDeprived10IsLeastDeprived - number 1 to 10 inclusive
+
+-- Get all patients IMD_Score (which is a rank) for the cohort and map to decile
+-- (Data on mapping thresholds at: https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019
+IF OBJECT_ID('tempdb..#AllPatientIMDDeciles') IS NOT NULL DROP TABLE #AllPatientIMDDeciles;
+SELECT 
+	FK_Patient_Link_ID,
+	FK_Reference_Tenancy_ID,
+	HDMModifDate,
+	CASE 
+		WHEN IMD_Score <= 3284 THEN 1
+		WHEN IMD_Score <= 6568 THEN 2
+		WHEN IMD_Score <= 9853 THEN 3
+		WHEN IMD_Score <= 13137 THEN 4
+		WHEN IMD_Score <= 16422 THEN 5
+		WHEN IMD_Score <= 19706 THEN 6
+		WHEN IMD_Score <= 22990 THEN 7
+		WHEN IMD_Score <= 26275 THEN 8
+		WHEN IMD_Score <= 29559 THEN 9
+		ELSE 10
+	END AS IMD2019Decile1IsMostDeprived10IsLeastDeprived 
+INTO #AllPatientIMDDeciles
+FROM RLS.vw_Patient p
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND IMD_Score IS NOT NULL
+AND IMD_Score != -1;
+-- 972479 rows
+-- 00:00:11
+
+-- If patients have a tenancy id of 2 we take this as their most likely IMD_Score
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientIMDDecile') IS NOT NULL DROP TABLE #PatientIMDDecile;
+SELECT FK_Patient_Link_ID, MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) as IMD2019Decile1IsMostDeprived10IsLeastDeprived INTO #PatientIMDDecile FROM #AllPatientIMDDeciles
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+GROUP BY FK_Patient_Link_ID;
+-- 247377 rows
+-- 00:00:00
+
+-- Find the patients who remain unmatched
+IF OBJECT_ID('tempdb..#UnmatchedImdPatients') IS NOT NULL DROP TABLE #UnmatchedImdPatients;
+SELECT FK_Patient_Link_ID INTO #UnmatchedImdPatients FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientIMDDecile;
+-- 38710 rows
+-- 00:00:00
+
+-- If every IMD_Score is the same for all their linked patient ids then we use that
+INSERT INTO #PatientIMDDecile
+SELECT FK_Patient_Link_ID, MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) FROM #AllPatientIMDDeciles
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedImdPatients)
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1IsMostDeprived10IsLeastDeprived);
+-- 36656
+-- 00:00:00
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedImdPatients;
+INSERT INTO #UnmatchedImdPatients
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientIMDDecile;
+-- 2054 rows
+-- 00:00:00
+
+-- If there is a unique most recent imd decile then use that
+INSERT INTO #PatientIMDDecile
+SELECT p.FK_Patient_Link_ID, MIN(p.IMD2019Decile1IsMostDeprived10IsLeastDeprived) FROM #AllPatientIMDDeciles p
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM #AllPatientIMDDeciles
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedImdPatients)
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+GROUP BY p.FK_Patient_Link_ID
+HAVING MIN(IMD2019Decile1IsMostDeprived10IsLeastDeprived) = MAX(IMD2019Decile1IsMostDeprived10IsLeastDeprived);
+-- 489
+-- 00:00:00
+
+--┌────────────────────┐
+--│ COVID vaccinations │
+--└────────────────────┘
+
+-- OBJECTIVE: To obtain a table with first, second, third... etc vaccine doses per patient.
+
+-- ASSUMPTIONS:
+--	-	GP records can often be duplicated. The assumption is that if a patient receives
+--    two vaccines within 14 days of each other then it is likely that both codes refer
+--    to the same vaccine.
+--  - The vaccine can appear as a procedure or as a medication. We assume that the
+--    presence of either represents a vaccination
+
+-- INPUT: Takes two parameters:
+--	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+--	- gp-medications-table: string - (table name) the name of the table containing the GP medications. Usually is "RLS.vw_GP_Medications" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+
+-- OUTPUT: A temp table as follows:
+-- #COVIDVaccinations (FK_Patient_Link_ID, VaccineDate, DaysSinceFirstVaccine)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- VaccineDose1Date - date of first vaccine (YYYY-MM-DD)
+--	-	VaccineDose2Date - date of second vaccine (YYYY-MM-DD)
+--	-	VaccineDose3Date - date of third vaccine (YYYY-MM-DD)
+--	-	VaccineDose4Date - date of fourth vaccine (YYYY-MM-DD)
+--	-	VaccineDose5Date - date of fifth vaccine (YYYY-MM-DD)
+--	-	VaccineDose6Date - date of sixth vaccine (YYYY-MM-DD)
+--	-	VaccineDose7Date - date of seventh vaccine (YYYY-MM-DD)
+
+-- Get patients with covid vaccine and earliest and latest date
+-- >>> Codesets required... Inserting the code set code
+--
+--┌────────────────────┐
+--│ Clinical code sets │
+--└────────────────────┘
+
+-- OBJECTIVE: To populate temporary tables with the existing clinical code sets.
+--            See the [SQL-generation-process.md](SQL-generation-process.md) for more details.
+
+-- INPUT: No pre-requisites
+
+-- OUTPUT: Five temp tables as follows:
+--  #AllCodes (Concept, Version, Code)
+--  #CodeSets (FK_Reference_Coding_ID, Concept)
+--  #SnomedSets (FK_Reference_SnomedCT_ID, FK_SNOMED_ID)
+--  #VersionedCodeSets (FK_Reference_Coding_ID, Concept, Version)
+--  #VersionedSnomedSets (FK_Reference_SnomedCT_ID, Version, FK_SNOMED_ID)
+
+--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+--!!! DO NOT EDIT THIS FILE MANUALLY !!!
+--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+IF OBJECT_ID('tempdb..#AllCodes') IS NOT NULL DROP TABLE #AllCodes;
+CREATE TABLE #AllCodes (
+  [Concept] [varchar](255) NOT NULL,
+  [Version] INT NOT NULL,
+  [Code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+  [description] [varchar] (255) NULL 
+);
+
+IF OBJECT_ID('tempdb..#codesreadv2') IS NOT NULL DROP TABLE #codesreadv2;
+CREATE TABLE #codesreadv2 (
+  [concept] [varchar](255) NOT NULL,
+  [version] INT NOT NULL,
+	[code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+	[term] [varchar](20) COLLATE Latin1_General_CS_AS NULL,
+	[description] [varchar](255) NULL
+) ON [PRIMARY];
+
+INSERT INTO #codesreadv2
+VALUES ('covid-vaccination',1,'65F0.',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F0.00',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F01',NULL,'Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'65F0100',NULL,'Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'65F02',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F0200',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'65F06',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'65F0600',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'65F07',NULL,'Immunisation course to achieve immunity against SARS-CoV-2'),('covid-vaccination',1,'65F0700',NULL,'Immunisation course to achieve immunity against SARS-CoV-2'),('covid-vaccination',1,'65F08',NULL,'Immunisation course to maintain protection against SARS-CoV-2'),('covid-vaccination',1,'65F0800',NULL,'Immunisation course to maintain protection against SARS-CoV-2'),('covid-vaccination',1,'65F09',NULL,'Administration of third dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'65F0900',NULL,'Administration of third dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'65F0A',NULL,'Administration of fourth dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'65F0A00',NULL,'Administration of fourth dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'9bJ..',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)'),('covid-vaccination',1,'9bJ..00',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)')
+
+INSERT INTO #AllCodes
+SELECT [concept], [version], [code], [description] from #codesreadv2;
+
+IF OBJECT_ID('tempdb..#codesctv3') IS NOT NULL DROP TABLE #codesctv3;
+CREATE TABLE #codesctv3 (
+  [concept] [varchar](255) NOT NULL,
+  [version] INT NOT NULL,
+	[code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+	[term] [varchar](20) COLLATE Latin1_General_CS_AS NULL,
+	[description] [varchar](255) NULL
+) ON [PRIMARY];
+
+INSERT INTO #codesctv3
+VALUES ('covid-vaccination',1,'Y210d',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'Y29e7',NULL,'Administration of first dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y29e8',NULL,'Administration of second dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y2a0e',NULL,'SARS-2 Coronavirus vaccine'),('covid-vaccination',1,'Y2a0f',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 1'),('covid-vaccination',1,'Y2a3a',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 2'),('covid-vaccination',1,'65F06',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'65F09',NULL,'Administration of third dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'65F0A',NULL,'Administration of fourth dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'9bJ..',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)'),('covid-vaccination',1,'Y2a10',NULL,'COVID-19 Vac AstraZeneca (ChAdOx1 S recomb) 5x10000000000 viral particles/0.5ml dose sol for inj MDV part 1'),('covid-vaccination',1,'Y2a39',NULL,'COVID-19 Vac AstraZeneca (ChAdOx1 S recomb) 5x10000000000 viral particles/0.5ml dose sol for inj MDV part 2'),('covid-vaccination',1,'Y2b9d',NULL,'COVID-19 mRNA (nucleoside modified) Vaccine Moderna 0.1mg/0.5mL dose dispersion for injection multidose vials part 2'),('covid-vaccination',1,'Y2f45',NULL,'Administration of third dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y2f48',NULL,'Administration of fourth dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y2f57',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) booster'),('covid-vaccination',1,'Y31cc',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen vaccination'),('covid-vaccination',1,'Y31e6',NULL,'Administration of SARS-CoV-2 mRNA vaccine'),('covid-vaccination',1,'Y31e7',NULL,'Administration of first dose of SARS-CoV-2 mRNA vaccine'),('covid-vaccination',1,'Y31e8',NULL,'Administration of second dose of SARS-CoV-2 mRNA vaccine')
+
+INSERT INTO #AllCodes
+SELECT [concept], [version], [code], [description] from #codesctv3;
+
+IF OBJECT_ID('tempdb..#codessnomed') IS NOT NULL DROP TABLE #codessnomed;
+CREATE TABLE #codessnomed (
+  [concept] [varchar](255) NOT NULL,
+  [version] INT NOT NULL,
+	[code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+	[term] [varchar](20) COLLATE Latin1_General_CS_AS NULL,
+	[description] [varchar](255) NULL
+) ON [PRIMARY];
+
+INSERT INTO #codessnomed
+VALUES ('covid-vaccination',1,'1240491000000103',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'2807821000000115',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'840534001',NULL,'Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)')
+
+INSERT INTO #AllCodes
+SELECT [concept], [version], [code], [description] from #codessnomed;
+
+IF OBJECT_ID('tempdb..#codesemis') IS NOT NULL DROP TABLE #codesemis;
+CREATE TABLE #codesemis (
+  [concept] [varchar](255) NOT NULL,
+  [version] INT NOT NULL,
+	[code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+	[term] [varchar](20) COLLATE Latin1_General_CS_AS NULL,
+	[description] [varchar](255) NULL
+) ON [PRIMARY];
+
+INSERT INTO #codesemis
+VALUES ('covid-vaccination',1,'^ESCT1348323',NULL,'Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348324',NULL,'Administration of first dose of 2019-nCoV (novel coronavirus) vaccine'),('covid-vaccination',1,'COCO138186NEMIS',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)'),('covid-vaccination',1,'^ESCT1348325',NULL,'Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348326',NULL,'Administration of second dose of 2019-nCoV (novel coronavirus) vaccine'),('covid-vaccination',1,'^ESCT1428354',NULL,'Administration of third dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1428342',NULL,'Administration of fourth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1428348',NULL,'Administration of fifth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348298',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'^ESCT1348301',NULL,'COVID-19 vaccination'),('covid-vaccination',1,'^ESCT1299050',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'^ESCT1301222',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'CODI138564NEMIS',NULL,'Covid-19 mRna (nucleoside modified) Vaccine Moderna  Dispersion for injection  0.1 mg/0.5 ml dose, multidose vial'),('covid-vaccination',1,'TASO138184NEMIS',NULL,'Covid-19 Vaccine AstraZeneca (ChAdOx1 S recombinant)  Solution for injection  5x10 billion viral particle/0.5 ml multidose vial'),('covid-vaccination',1,'PCSDT18491_1375',NULL,'Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'PCSDT18491_1376',NULL,'Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'PCSDT18491_716',NULL,'Administration of second dose of SARS-CoV-2 vacc'),('covid-vaccination',1,'PCSDT18491_903',NULL,'Administration of first dose of SARS-CoV-2 vacccine'),('covid-vaccination',1,'PCSDT3370_2254',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'PCSDT3919_2185',NULL,'Administration of first dose of SARS-CoV-2 vacccine'),('covid-vaccination',1,'PCSDT3919_662',NULL,'Administration of second dose of SARS-CoV-2 vacc'),('covid-vaccination',1,'PCSDT4803_1723',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'PCSDT5823_2264',NULL,'Administration of second dose of SARS-CoV-2 vacc'),('covid-vaccination',1,'PCSDT5823_2757',NULL,'Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'PCSDT5823_2902',NULL,'Administration of first dose of SARS-CoV-2 vacccine'),('covid-vaccination',1,'^ESCT1348300',NULL,'Severe acute respiratory syndrome coronavirus 2 vaccination'),('covid-vaccination',1,'ASSO138368NEMIS',NULL,'COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose suspension for injection multidose vials (Janssen-Cilag Ltd)'),('covid-vaccination',1,'COCO141057NEMIS',NULL,'Comirnaty Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.2ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd)'),('covid-vaccination',1,'COSO141059NEMIS',NULL,'COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Serum Institute of India)'),('covid-vaccination',1,'COSU138776NEMIS',NULL,'COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5ml dose suspension for injection multidose vials (Valneva UK Ltd)'),('covid-vaccination',1,'COSU138943NEMIS',NULL,'COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Baxter Oncology GmbH)'),('covid-vaccination',1,'COSU141008NEMIS',NULL,'CoronaVac COVID-19 Vaccine (adjuvanted) 600U/0.5ml dose suspension for injection vials (Sinovac Life Sciences)'),('covid-vaccination',1,'COSU141037NEMIS',NULL,'COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection vials (Beijing Institute of Biological Products)')
+
+INSERT INTO #AllCodes
+SELECT [concept], [version], [code], [description] from #codesemis;
+
+
+IF OBJECT_ID('tempdb..#TempRefCodes') IS NOT NULL DROP TABLE #TempRefCodes;
+CREATE TABLE #TempRefCodes (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, version INT NOT NULL, [description] VARCHAR(255));
+
+-- Read v2 codes
+INSERT INTO #TempRefCodes
+SELECT PK_Reference_Coding_ID, dcr.concept, dcr.[version], dcr.[description]
+FROM [SharedCare].[Reference_Coding] rc
+INNER JOIN #codesreadv2 dcr on dcr.code = rc.MainCode
+WHERE CodingType='ReadCodeV2'
+AND (dcr.term IS NULL OR dcr.term = rc.Term)
+and PK_Reference_Coding_ID != -1;
+
+-- CTV3 codes
+INSERT INTO #TempRefCodes
+SELECT PK_Reference_Coding_ID, dcc.concept, dcc.[version], dcc.[description]
+FROM [SharedCare].[Reference_Coding] rc
+INNER JOIN #codesctv3 dcc on dcc.code = rc.MainCode
+WHERE CodingType='CTV3'
+and PK_Reference_Coding_ID != -1;
+
+-- EMIS codes with a FK Reference Coding ID
+INSERT INTO #TempRefCodes
+SELECT FK_Reference_Coding_ID, ce.concept, ce.[version], ce.[description]
+FROM [SharedCare].[Reference_Local_Code] rlc
+INNER JOIN #codesemis ce on ce.code = rlc.LocalCode
+WHERE FK_Reference_Coding_ID != -1;
+
+IF OBJECT_ID('tempdb..#TempSNOMEDRefCodes') IS NOT NULL DROP TABLE #TempSNOMEDRefCodes;
+CREATE TABLE #TempSNOMEDRefCodes (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [version] INT NOT NULL, [description] VARCHAR(255));
+
+-- SNOMED codes
+INSERT INTO #TempSNOMEDRefCodes
+SELECT PK_Reference_SnomedCT_ID, dcs.concept, dcs.[version], dcs.[description]
+FROM SharedCare.Reference_SnomedCT rs
+INNER JOIN #codessnomed dcs on dcs.code = rs.ConceptID;
+
+-- EMIS codes with a FK SNOMED ID but without a FK Reference Coding ID
+INSERT INTO #TempSNOMEDRefCodes
+SELECT FK_Reference_SnomedCT_ID, ce.concept, ce.[version], ce.[description]
+FROM [SharedCare].[Reference_Local_Code] rlc
+INNER JOIN #codesemis ce on ce.code = rlc.LocalCode
+WHERE FK_Reference_Coding_ID = -1
+AND FK_Reference_SnomedCT_ID != -1;
+
+-- De-duped tables
+IF OBJECT_ID('tempdb..#CodeSets') IS NOT NULL DROP TABLE #CodeSets;
+CREATE TABLE #CodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [description] VARCHAR(255));
+
+IF OBJECT_ID('tempdb..#SnomedSets') IS NOT NULL DROP TABLE #SnomedSets;
+CREATE TABLE #SnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [description] VARCHAR(255));
+
+IF OBJECT_ID('tempdb..#VersionedCodeSets') IS NOT NULL DROP TABLE #VersionedCodeSets;
+CREATE TABLE #VersionedCodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT, [description] VARCHAR(255));
+
+IF OBJECT_ID('tempdb..#VersionedSnomedSets') IS NOT NULL DROP TABLE #VersionedSnomedSets;
+CREATE TABLE #VersionedSnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT, [description] VARCHAR(255));
+
+INSERT INTO #VersionedCodeSets
+SELECT DISTINCT * FROM #TempRefCodes;
+
+INSERT INTO #VersionedSnomedSets
+SELECT DISTINCT * FROM #TempSNOMEDRefCodes;
+
+INSERT INTO #CodeSets
+SELECT FK_Reference_Coding_ID, c.concept, [description]
+FROM #VersionedCodeSets c
+INNER JOIN (
+  SELECT concept, MAX(version) AS maxVersion FROM #VersionedCodeSets
+  GROUP BY concept)
+sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
+
+INSERT INTO #SnomedSets
+SELECT FK_Reference_SnomedCT_ID, c.concept, [description]
+FROM #VersionedSnomedSets c
+INNER JOIN (
+  SELECT concept, MAX(version) AS maxVersion FROM #VersionedSnomedSets
+  GROUP BY concept)
+sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
+
+-- >>> Following code sets injected: covid-vaccination v1
+
+
+IF OBJECT_ID('tempdb..#VacEvents') IS NOT NULL DROP TABLE #VacEvents;
+SELECT FK_Patient_Link_ID, CONVERT(DATE, EventDate) AS EventDate into #VacEvents
+FROM RLS.vw_GP_Events
+WHERE SuppliedCode IN (
+	SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
+)
+AND EventDate > '2020-12-01';
+
+IF OBJECT_ID('tempdb..#VacMeds') IS NOT NULL DROP TABLE #VacMeds;
+SELECT FK_Patient_Link_ID, CONVERT(DATE, MedicationDate) AS EventDate into #VacMeds
+FROM RLS.vw_GP_Medications
+WHERE SuppliedCode IN (
+	SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
+)
+AND MedicationDate > '2020-12-01';
+
+IF OBJECT_ID('tempdb..#COVIDVaccines') IS NOT NULL DROP TABLE #COVIDVaccines;
+SELECT FK_Patient_Link_ID, EventDate into #COVIDVaccines FROM #VacEvents
+UNION
+SELECT FK_Patient_Link_ID, EventDate FROM #VacMeds;
+--4426892 5m03
+
+-- Tidy up
+DROP TABLE #VacEvents;
+DROP TABLE #VacMeds;
+
+-- Get first vaccine dose
+IF OBJECT_ID('tempdb..#VacTemp1') IS NOT NULL DROP TABLE #VacTemp1;
+select FK_Patient_Link_ID, MIN(EventDate) AS VaccineDoseDate
+into #VacTemp1
+from #COVIDVaccines
+group by FK_Patient_Link_ID;
+--2046837
+
+-- Get second vaccine dose (if exists) - assume dose within 14 days is same dose
+IF OBJECT_ID('tempdb..#VacTemp2') IS NOT NULL DROP TABLE #VacTemp2;
+select c.FK_Patient_Link_ID, MIN(c.EventDate) AS VaccineDoseDate
+into #VacTemp2
+from #VacTemp1 v
+inner join #COVIDVaccines c on c.EventDate > DATEADD(day, 14, v.VaccineDoseDate) and c.FK_Patient_Link_ID = v.FK_Patient_Link_ID
+group by c.FK_Patient_Link_ID;
+--1810762
+
+-- Get third vaccine dose (if exists) - assume dose within 14 days is same dose
+IF OBJECT_ID('tempdb..#VacTemp3') IS NOT NULL DROP TABLE #VacTemp3;
+select c.FK_Patient_Link_ID, MIN(c.EventDate) AS VaccineDoseDate
+into #VacTemp3
+from #VacTemp2 v
+inner join #COVIDVaccines c on c.EventDate > DATEADD(day, 14, v.VaccineDoseDate) and c.FK_Patient_Link_ID = v.FK_Patient_Link_ID
+group by c.FK_Patient_Link_ID;
+--578468
+
+-- Get fourth vaccine dose (if exists) - assume dose within 14 days is same dose
+IF OBJECT_ID('tempdb..#VacTemp4') IS NOT NULL DROP TABLE #VacTemp4;
+select c.FK_Patient_Link_ID, MIN(c.EventDate) AS VaccineDoseDate
+into #VacTemp4
+from #VacTemp3 v
+inner join #COVIDVaccines c on c.EventDate > DATEADD(day, 14, v.VaccineDoseDate) and c.FK_Patient_Link_ID = v.FK_Patient_Link_ID
+group by c.FK_Patient_Link_ID;
+--1860
+
+-- Get fifth vaccine dose (if exists) - assume dose within 14 days is same dose
+IF OBJECT_ID('tempdb..#VacTemp5') IS NOT NULL DROP TABLE #VacTemp5;
+select c.FK_Patient_Link_ID, MIN(c.EventDate) AS VaccineDoseDate
+into #VacTemp5
+from #VacTemp4 v
+inner join #COVIDVaccines c on c.EventDate > DATEADD(day, 14, v.VaccineDoseDate) and c.FK_Patient_Link_ID = v.FK_Patient_Link_ID
+group by c.FK_Patient_Link_ID;
+--39
+
+-- Get sixth vaccine dose (if exists) - assume dose within 14 days is same dose
+IF OBJECT_ID('tempdb..#VacTemp6') IS NOT NULL DROP TABLE #VacTemp6;
+select c.FK_Patient_Link_ID, MIN(c.EventDate) AS VaccineDoseDate
+into #VacTemp6
+from #VacTemp5 v
+inner join #COVIDVaccines c on c.EventDate > DATEADD(day, 14, v.VaccineDoseDate) and c.FK_Patient_Link_ID = v.FK_Patient_Link_ID
+group by c.FK_Patient_Link_ID;
+--2
+
+-- Get seventh vaccine dose (if exists) - assume dose within 14 days is same dose
+IF OBJECT_ID('tempdb..#VacTemp7') IS NOT NULL DROP TABLE #VacTemp7;
+select c.FK_Patient_Link_ID, MIN(c.EventDate) AS VaccineDoseDate
+into #VacTemp7
+from #VacTemp6 v
+inner join #COVIDVaccines c on c.EventDate > DATEADD(day, 14, v.VaccineDoseDate) and c.FK_Patient_Link_ID = v.FK_Patient_Link_ID
+group by c.FK_Patient_Link_ID;
+--2
+
+IF OBJECT_ID('tempdb..#COVIDVaccinations') IS NOT NULL DROP TABLE #COVIDVaccinations;
+SELECT v1.FK_Patient_Link_ID, v1.VaccineDoseDate AS VaccineDose1Date,
+v2.VaccineDoseDate AS VaccineDose2Date,
+v3.VaccineDoseDate AS VaccineDose3Date,
+v4.VaccineDoseDate AS VaccineDose4Date,
+v5.VaccineDoseDate AS VaccineDose5Date,
+v6.VaccineDoseDate AS VaccineDose6Date,
+v7.VaccineDoseDate AS VaccineDose7Date
+INTO #COVIDVaccinations
+FROM #VacTemp1 v1
+LEFT OUTER JOIN #VacTemp2 v2 ON v2.FK_Patient_Link_ID = v1.FK_Patient_Link_ID
+LEFT OUTER JOIN #VacTemp3 v3 ON v3.FK_Patient_Link_ID = v1.FK_Patient_Link_ID
+LEFT OUTER JOIN #VacTemp4 v4 ON v4.FK_Patient_Link_ID = v1.FK_Patient_Link_ID
+LEFT OUTER JOIN #VacTemp5 v5 ON v5.FK_Patient_Link_ID = v1.FK_Patient_Link_ID
+LEFT OUTER JOIN #VacTemp6 v6 ON v6.FK_Patient_Link_ID = v1.FK_Patient_Link_ID
+LEFT OUTER JOIN #VacTemp7 v7 ON v7.FK_Patient_Link_ID = v1.FK_Patient_Link_ID;
+
+-- Tidy up
+DROP TABLE #VacTemp1;
+DROP TABLE #VacTemp2;
+DROP TABLE #VacTemp3;
+DROP TABLE #VacTemp4;
+DROP TABLE #VacTemp5;
+DROP TABLE #VacTemp6;
+DROP TABLE #VacTemp7;
+
+
+
+
+-- CREATE WIDE TABLE SHOWING WHICH PATIENTS HAVE A HISTORY OF EACH LTC
+
+SELECT FK_Patient_Link_ID,
+		HO_cancer 						= MAX(CASE WHEN LTC = 'cancer' then 1 else 0 end),
+		HO_painful_condition 			= MAX(CASE WHEN LTC = 'painful condition' then 1 else 0 end),
+		HO_migraine 					= MAX(CASE WHEN LTC = 'migraine' then 1 else 0 end),
+		HO_epilepsy						= MAX(CASE WHEN LTC = 'epilepsy' then 1 else 0 end),
+		HO_coronary_heart_disease 		= MAX(CASE WHEN LTC = 'coronary heart disease' then 1 else 0 end),
+		HO_atrial_fibrillation 			= MAX(CASE WHEN LTC = 'atrial fibrillation' then 1 else 0 end),
+		HO_heart_failure 				= MAX(CASE WHEN LTC = 'heart failure' then 1 else 0 end),
+		HO_hypertension 				= MAX(CASE WHEN LTC = 'hypertension' then 1 else 0 end),
+		HO_peripheral_vascular_disease  = MAX(CASE WHEN LTC = 'peripheral vascular disease' then 1 else 0 end),
+		HO_stroke_and_transient_ischaemic_attack = MAX(CASE WHEN LTC = 'stroke and tia' then 1 else 0 end),
+		HO_diabetes 					= MAX(CASE WHEN LTC = 'diabetes' then 1 else 0 end),
+		HO_thyroid_disorders 			= MAX(CASE WHEN LTC = 'thyroid disorders' then 1 else 0 end),
+		HO_chronic_liver_disease 		= MAX(CASE WHEN LTC = 'chronic liver disease' then 1 else 0 end),
+		HO_diverticular_disease_of_intestine = MAX(CASE WHEN LTC = 'diverticular disease of intestine' then 1 else 0 end),
+		HO_inflammatory_bowel_disease 	= MAX(CASE WHEN LTC = 'inflammatory bowel disease' then 1 else 0 end),
+		HO_irritable_bowel_syndrome 	= MAX(CASE WHEN LTC = 'irritable bowel syndrome' then 1 else 0 end),
+		HO_constipation					= MAX(CASE WHEN LTC = 'constipation' then 1 else 0 end),
+		HO_dyspepsia					= MAX(CASE WHEN LTC = 'dyspepsia' then 1 else 0 end),
+		HO_peptic_ulcer_disease 		= MAX(CASE WHEN LTC = 'peptic ulcer disease' then 1 else 0 end),
+		HO_psoriasis_or_eczema 			= MAX(CASE WHEN LTC = 'psoriasis or eczema' then 1 else 0 end),
+		HO_rheumatoid_arthritis_other_inflammatory_polyarthropathies	= MAX(CASE WHEN LTC = 'rheumatoid arthritis and other inflammatory polyarthropathies' then 1 else 0 end),
+		HO_multiple_sclerosis			= MAX(CASE WHEN LTC = 'multiple sclerosis' then 1 else 0 end),
+		HO_parkinsons_disease 			= MAX(CASE WHEN LTC = 'parkinsons disease' then 1 else 0 end),
+		HO_anorexia_bulimia 			= MAX(CASE WHEN LTC = 'anorexia or bulimia' then 1 else 0 end),
+		HO_anxiety_other_somatoform_disorders	= MAX(CASE WHEN LTC = 'anxiety and other somatoform disorders' then 1 else 0 end),
+		HO_dementia						= MAX(CASE WHEN LTC = 'dementia' then 1 else 0 end),
+		HO_depression					= MAX(CASE WHEN LTC = 'depression' then 1 else 0 end),
+		HO_schizophrenia_or_bipolar		= MAX(CASE WHEN LTC = 'schizophrenia or bipolar' then 1 else 0 end),
+		HO_chronic_kidney_disease		= MAX(CASE WHEN LTC = 'chronic kidney disease' then 1 else 0 end),
+		HO_prostate_disorders			= MAX(CASE WHEN LTC = 'prostate disorders' then 1 else 0 end),
+		HO_asthma						= MAX(CASE WHEN LTC = 'asthma' then 1 else 0 end),
+		HO_bronchiectasis				= MAX(CASE WHEN LTC = 'bronchiectasis' then 1 else 0 end),
+		HO_chronic_sinusitis			= MAX(CASE WHEN LTC = 'chronic sinusitis' then 1 else 0 end),
+		HO_copd							= MAX(CASE WHEN LTC = 'copd' then 1 else 0 end),
+		HO_blindness_low_vision			= MAX(CASE WHEN LTC = 'blindness and low vision' then 1 else 0 end),
+		HO_glaucoma						= MAX(CASE WHEN LTC = 'glaucoma' then 1 else 0 end),
+		HO_hearing_loss					= MAX(CASE WHEN LTC = 'hearing loss' then 1 else 0 end),
+		HO_learning_disability			= MAX(CASE WHEN LTC = 'learning disability' then 1 else 0 end),
+		HO_alcohol_problems				= MAX(CASE WHEN LTC = 'alcohol problems' then 1 else 0 end),
+		HO_psychoactive_substance_abuse	= MAX(CASE WHEN LTC = 'psychoactive substance abuse' then 1 else 0 end)
+INTO #HistoryOfLTCs
+FROM #PatientsWithLTCs
+GROUP BY FK_Patient_Link_ID
+
+
+-- BRING TOGETHER FOR FINAL DATA EXTRACT
+
 IF OBJECT_ID('tempdb..#final') IS NOT NULL DROP TABLE #final;
-SELECT DISTINCT p.FK_Patient_Link_ID, yob.YearOfBirth
-INTO #final
-FROM #2orMoreLTCsIncludingMental p
-LEFT JOIN #PatientYearOfBirth yob on yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-WHERE P.FK_Patient_Link_ID IN 
-	(SELECT DISTINCT FK_Patient_Link_ID 
-	FROM #covidtests
-	WHERE TestOutcome = 'Positive' )
-AND YEAR(@StartDate) - YearOfBirth >= 19 
+SELECT DISTINCT 
+	p.FK_Patient_Link_ID, 
+	p.YearOfBirth, 
+	Sex,
+	p.EthnicMainGroup,
+	LSOA_Code,
+	IMD2019Decile1IsMostDeprived10IsLeastDeprived,
+	DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END,
+	DeathDueToCovid_Year = CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN YEAR(p.DeathDate) ELSE null END,
+	DeathDueToCovid_Month = CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN MONTH(p.DeathDate) ELSE null END,
+	FirstVaccineYear =  YEAR(VaccineDose1Date),
+	FirstVaccineMonth = MONTH(VaccineDose1Date),
+	SecondVaccineYear =  YEAR(VaccineDose2Date),
+	SecondVaccineMonth = MONTH(VaccineDose2Date),
+	ThirdVaccineYear =  YEAR(VaccineDose3Date),
+	ThirdVaccineMonth = MONTH(VaccineDose3Date)
+	,HO_cancer = ISNULL(HO_painful_condition, 0)
+	,HO_painful_condition = ISNULL(HO_painful_condition, 0)
+	,HO_migraine  = ISNULL(HO_migraine , 0)
+	,HO_epilepsy = ISNULL(HO_epilepsy, 0)
+	,HO_coronary_heart_disease  = ISNULL(HO_coronary_heart_disease , 0)
+	,HO_atrial_fibrillation  = ISNULL(HO_atrial_fibrillation , 0)
+	,HO_heart_failure = ISNULL(HO_heart_failure, 0)
+	,HO_hypertension = ISNULL(HO_hypertension, 0)
+	,HO_peripheral_vascular_disease = ISNULL(HO_peripheral_vascular_disease, 0)
+	,HO_stroke_and_transient_ischaemic_attack = ISNULL(HO_stroke_and_transient_ischaemic_attack, 0)
+	,HO_diabetes  = ISNULL(HO_diabetes , 0)
+	,HO_thyroid_disorders  = ISNULL(HO_thyroid_disorders , 0)
+	,HO_chronic_liver_disease  = ISNULL(HO_chronic_liver_disease , 0)
+	,HO_diverticular_disease_of_intestine = ISNULL(HO_diverticular_disease_of_intestine, 0)
+	,HO_inflammatory_bowel_disease  = ISNULL(HO_inflammatory_bowel_disease , 0)
+	,HO_irritable_bowel_syndrome  = ISNULL(HO_irritable_bowel_syndrome , 0)
+	,HO_constipation = ISNULL(HO_constipation, 0)
+	,HO_dyspepsia = ISNULL(HO_dyspepsia, 0)
+	,HO_peptic_ulcer_disease  = ISNULL(HO_peptic_ulcer_disease , 0)
+	,HO_psoriasis_or_eczema  = ISNULL(HO_psoriasis_or_eczema , 0)
+	,HO_rheumatoid_arthritis_other_inflammatory_polyarthropathies = ISNULL(HO_rheumatoid_arthritis_other_inflammatory_polyarthropathies, 0)
+	,HO_multiple_sclerosis = ISNULL(HO_multiple_sclerosis, 0)
+	,HO_parkinsons_disease  = ISNULL(HO_parkinsons_disease , 0)
+	,HO_anorexia_bulimia  = ISNULL(HO_anorexia_bulimia , 0)
+	,HO_anxiety_other_somatoform_disorders = ISNULL(HO_anxiety_other_somatoform_disorders, 0)
+	,HO_dementia = ISNULL(HO_dementia, 0)
+	,HO_depression = ISNULL(HO_depression, 0)
+	,HO_schizophrenia_or_bipolar = ISNULL(HO_schizophrenia_or_bipolar, 0)
+	,HO_chronic_kidney_disease = ISNULL(HO_chronic_kidney_disease, 0)
+	,HO_prostate_disorders = ISNULL(HO_prostate_disorders, 0)
+	,HO_asthma = ISNULL(HO_asthma, 0)
+	,HO_bronchiectasis = ISNULL(HO_bronchiectasis, 0)
+	,HO_chronic_sinusitis = ISNULL(HO_chronic_sinusitis, 0)
+	,HO_copd = ISNULL(HO_copd, 0)
+	,HO_blindness_low_vision = ISNULL(HO_blindness_low_vision, 0)
+	,HO_glaucoma = ISNULL(HO_glaucoma, 0)
+	,HO_hearing_loss = ISNULL(HO_hearing_loss, 0)
+	,HO_learning_disability = ISNULL(HO_learning_disability, 0)
+	,HO_alcohol_problems = ISNULL(HO_alcohol_problems, 0)
+	,HO_psychoactive_substance_abuse = ISNULL(HO_psychoactive_substance_abuse, 0)
+FROM #Cohort p 
+LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #COVIDVaccinations vac ON vac.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #HistoryOfLTCs ltc on ltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 --70,845

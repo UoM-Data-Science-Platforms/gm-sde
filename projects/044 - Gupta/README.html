@@ -122,72 +122,44 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <h2>Reusable queries</h2>
 <p>This project required the following reusable queries:</p>
 <ul>
-<li>GET No. LTCS per patient</li>
-<li>Long-term conditions and comorbidities</li>
-<li>Year of birth</li>
+<li>COVID vaccinations</li>
 <li>Index Multiple Deprivation</li>
 <li>Sex</li>
+<li>Year of birth</li>
+<li>GET No. LTCS per patient</li>
+<li>Long-term conditions and comorbidities</li>
+<li>COVID-related secondary admissions</li>
+<li>Patients with COVID</li>
+<li>Secondary admissions and length of stay</li>
+<li>Secondary discharges</li>
 </ul>
 <p>Further details for each query can be found below.</p>
-<h3>GET No. LTCS per patient</h3>
-<p>To get the number of long-term conditions for each patient.</p>
-<p><em>Input</em></p>
-<pre><code>Assumes there exists a temp table as follows:
- #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
- Therefore this is run after query-patient-ltcs.sql
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>A temp table with a row for each patient with the number of LTCs they have
- #NumLTCs (FK_Patient_Link_ID, NumberOfLTCs)
-</code></pre>
-<p><em>File</em>: <code>query-patient-ltcs-number-of.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-number-of.sql">https://github.com/rw251/.../query-patient-ltcs-number-of.sql</a></p>
-<hr>
-<h3>Long-term conditions and comorbidities</h3>
-<p>To get long-term conditions for each patient within a date range.</p>
-<p><em>Input</em></p>
-<pre><code>Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
- A distinct list of FK_Patient_Link_IDs for each patient in the cohort
- @IndexDate - The index date of the study
- @MinDate - The minimum date that the study has access from
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>A temp table with a row for each patient and ltc combo
- #PatientsWithLTCs
-   FK_Patient_Link_ID,
-   Condition,
-   FirstDate,
-   LastDate,
-   NoInLastYear,number of times mentioned in year prior to index date
-   LTCflag, flag to indicate whether is a long condition (Y) or not (N) - see comments on code for defining long term conditions.
-</code></pre>
-<p><em>File</em>: <code>query-patient-ltcs-date-range.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-date-range.sql">https://github.com/rw251/.../query-patient-ltcs-date-range.sql</a></p>
-<hr>
-<h3>Year of birth</h3>
-<p>To get the year of birth for each patient.</p>
+<h3>COVID vaccinations</h3>
+<p>To obtain a table with first, second, third... etc vaccine doses per patient.</p>
 <p><em>Assumptions</em></p>
 <ul>
-<li>Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:</li>
-<li>If the patients has a YOB in their primary care data feed we use that as most likely to be up to date</li>
-<li>If every YOB for a patient is the same, then we use that</li>
-<li>If there is a single most recently updated YOB in the database then we use that</li>
-<li>Otherwise we take the highest YOB for the patient that is not in the future</li>
+<li>GP records can often be duplicated. The assumption is that if a patient receives two vaccines within 14 days of each other then it is likely that both codes refer to the same vaccine.</li>
+<li>The vaccine can appear as a procedure or as a medication. We assume that the presence of either represents a vaccination</li>
 </ul>
 <p><em>Input</em></p>
-<pre><code>Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+<pre><code>Takes two parameters:
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is &quot;RLS.vw_GP_Events&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+	- gp-medications-table: string - (table name) the name of the table containing the GP medications. Usually is &quot;RLS.vw_GP_Medications&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 </code></pre>
 <p><em>Output</em></p>
 <pre><code>A temp table as follows:
- #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
+ #COVIDVaccinations (FK_Patient_Link_ID, VaccineDate, DaysSinceFirstVaccine)
  	- FK_Patient_Link_ID - unique patient id
-	- YearOfBirth - INT
+	- VaccineDose1Date - date of first vaccine (YYYY-MM-DD)
+	-	VaccineDose2Date - date of second vaccine (YYYY-MM-DD)
+	-	VaccineDose3Date - date of third vaccine (YYYY-MM-DD)
+	-	VaccineDose4Date - date of fourth vaccine (YYYY-MM-DD)
+	-	VaccineDose5Date - date of fifth vaccine (YYYY-MM-DD)
+	-	VaccineDose6Date - date of sixth vaccine (YYYY-MM-DD)
+	-	VaccineDose7Date - date of seventh vaccine (YYYY-MM-DD)
 </code></pre>
-<p><em>File</em>: <code>query-patient-year-of-birth.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-year-of-birth.sql">https://github.com/rw251/.../query-patient-year-of-birth.sql</a></p>
+<p><em>File</em>: <code>query-get-covid-vaccines.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-covid-vaccines.sql">https://github.com/rw251/.../query-get-covid-vaccines.sql</a></p>
 <hr>
 <h3>Index Multiple Deprivation</h3>
 <p>To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.</p>
@@ -228,8 +200,412 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </code></pre>
 <p><em>File</em>: <code>query-patient-sex.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-sex.sql">https://github.com/rw251/.../query-patient-sex.sql</a></p>
+<hr>
+<h3>Year of birth</h3>
+<p>To get the year of birth for each patient.</p>
+<p><em>Assumptions</em></p>
+<ul>
+<li>Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:</li>
+<li>If the patients has a YOB in their primary care data feed we use that as most likely to be up to date</li>
+<li>If every YOB for a patient is the same, then we use that</li>
+<li>If there is a single most recently updated YOB in the database then we use that</li>
+<li>Otherwise we take the highest YOB for the patient that is not in the future</li>
+</ul>
+<p><em>Input</em></p>
+<pre><code>Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table as follows:
+ #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
+ 	- FK_Patient_Link_ID - unique patient id
+	- YearOfBirth - INT
+</code></pre>
+<p><em>File</em>: <code>query-patient-year-of-birth.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-year-of-birth.sql">https://github.com/rw251/.../query-patient-year-of-birth.sql</a></p>
+<hr>
+<h3>GET No. LTCS per patient</h3>
+<p>To get the number of long-term conditions for each patient.</p>
+<p><em>Input</em></p>
+<pre><code>Assumes there exists a temp table as follows:
+ #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
+ Therefore this is run after query-patient-ltcs.sql
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table with a row for each patient with the number of LTCs they have
+ #NumLTCs (FK_Patient_Link_ID, NumberOfLTCs)
+</code></pre>
+<p><em>File</em>: <code>query-patient-ltcs-number-of.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-number-of.sql">https://github.com/rw251/.../query-patient-ltcs-number-of.sql</a></p>
+<hr>
+<h3>Long-term conditions and comorbidities</h3>
+<p>To get long-term conditions for each patient within a date range.</p>
+<p><em>Input</em></p>
+<pre><code>Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+ A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+ @IndexDate - The index date of the study
+ @MinDate - The minimum date that the study has access from
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table with a row for each patient and ltc combo
+ #PatientsWithLTCs
+   FK_Patient_Link_ID,
+   Condition,
+   FirstDate,
+   LastDate,
+   NoInLastYear,number of times mentioned in year prior to index date
+   LTCflag, flag to indicate whether is a long condition (Y) or not (N) - see comments on code for defining long term conditions.
+</code></pre>
+<p><em>File</em>: <code>query-patient-ltcs-date-range.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-date-range.sql">https://github.com/rw251/.../query-patient-ltcs-date-range.sql</a></p>
+<hr>
+<h3>COVID-related secondary admissions</h3>
+<p>To classify every admission to secondary care based on whether it is a COVID or non-COVID related. A COVID-related admission is classed as an admission within 4 weeks after, or up to 2 weeks before a positive test.</p>
+<p><em>Input</em></p>
+<pre><code>Takes one parameter
+  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is &quot;RLS.vw_GP_Events&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+ And assumes there exists two temp tables as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+ #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
+  A distinct list of the admissions for each patient in the cohort
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table as follows:
+ #COVIDUtilisationAdmissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
+	- FK_Patient_Link_ID - unique patient id
+	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+	- CovidHealthcareUtilisation - 'TRUE' if admission within 4 weeks after, or up to 14 days before, a positive test
+</code></pre>
+<p><em>File</em>: <code>query-admissions-covid-utilisation.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-admissions-covid-utilisation.sql">https://github.com/rw251/.../query-admissions-covid-utilisation.sql</a></p>
+<hr>
+<h3>Patients with COVID</h3>
+<p>To get tables of all patients with a COVID diagnosis in their record. This now includes a table that has reinfections. This uses a 90 day cut-off to rule out patients that get multiple tests for a single infection. This 90 day cut-off is also used in the government COVID dashboard. In the first wave, prior to widespread COVID testing, and prior to the correct clinical codes being	available to clinicians, infections were recorded in a variety of ways. We therefore take the first diagnosis from any code indicative of COVID. However, for subsequent infections we insist on the presence of a positive COVID test (PCR or antigen) as opposed to simply a diagnosis code. This is to avoid the situation where a hospital diagnosis code gets entered into the primary care record several months after the actual infection.</p>
+<p><em>Input</em></p>
+<pre><code>Takes three parameters
+  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is &quot;RLS.vw_GP_Events&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>Three temp tables as follows:
+ #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- FirstCovidPositiveDate - earliest COVID diagnosis
+ #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- CovidPositiveDate - any COVID diagnosis
+ #CovidPatientsMultipleDiagnoses
+	-	FK_Patient_Link_ID - unique patient id
+	-	FirstCovidPositiveDate - date of first COVID diagnosis
+	-	SecondCovidPositiveDate - date of second COVID diagnosis
+	-	ThirdCovidPositiveDate - date of third COVID diagnosis
+	-	FourthCovidPositiveDate - date of fourth COVID diagnosis
+	-	FifthCovidPositiveDate - date of fifth COVID diagnosis
+</code></pre>
+<p><em>File</em>: <code>query-patients-with-covid.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patients-with-covid.sql">https://github.com/rw251/.../query-patients-with-covid.sql</a></p>
+<hr>
+<h3>Secondary admissions and length of stay</h3>
+<p>To obtain a table with every secondary care admission, along with the acute provider, the date of admission, the date of discharge, and the length of stay.</p>
+<p><em>Input</em></p>
+<pre><code>One parameter
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>Two temp table as follows:
+ #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
+ 	- FK_Patient_Link_ID - unique patient id
+	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+  (Limited to one admission per person per hospital per day, because if a patient has 2 admissions
+   on the same day to the same hopsital then it's most likely data duplication rather than two short
+   hospital stays)
+ #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
+ 	- FK_Patient_Link_ID - unique patient id
+	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+	- DischargeDate - date of discharge (YYYY-MM-DD)
+	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
+</code></pre>
+<p><em>File</em>: <code>query-get-admissions-and-length-of-stay.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-admissions-and-length-of-stay.sql">https://github.com/rw251/.../query-get-admissions-and-length-of-stay.sql</a></p>
+<hr>
+<h3>Secondary discharges</h3>
+<p>To obtain a table with every secondary care discharge, along with the acute provider, and the date of discharge.</p>
+<p><em>Input</em></p>
+<pre><code>One parameter
+	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table as follows:
+ #Discharges (FK_Patient_Link_ID, DischargeDate, AcuteProvider)
+ 	- FK_Patient_Link_ID - unique patient id
+	- DischargeDate - date of discharge (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+  (Limited to one discharge per person per hospital per day, because if a patient has 2 discharges
+   on the same day to the same hopsital then it's most likely data duplication rather than two short
+   hospital stays)
+</code></pre>
+<p><em>File</em>: <code>query-get-discharges.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-discharges.sql">https://github.com/rw251/.../query-get-discharges.sql</a></p>
 <h2>Clinical code sets</h2>
-<p>This project did not require any clinical code sets.</p>
+<p>This project required the following clinical code sets:</p>
+<ul>
+<li>covid-positive-antigen-test v1</li>
+<li>covid-positive-pcr-test v1</li>
+<li>covid-positive-test-other v1</li>
+<li>covid-vaccination v1</li>
+</ul>
+<p>Further details for each code set can be found below.</p>
+<h3>COVID-19 positive antigen test</h3>
+<p>A code that indicates that a person has a positive antigen test for COVID-19.</p>
+<h4>COVID positive tests in primary care</h4>
+<p>The codes used in primary care to indicate a positive COVID test can be split into 3 types: antigen test, PCR test and other. We keep these as separate code sets. However due to the way that COVID diagnoses are recorded in different ways in different GP systems, and because some codes are ambiguous, currently it only makes sense to group these 3 code sets together. Therefore the prevalence log below is for the combined code sets of <code>covid-positive-antigen-test</code>, <code>covid-positive-pcr-test</code> and <code>covid-positive-test-other</code>.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>18.6% - 20.5%</code> suggests that this code set is likely well defined. <em>NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids.</em></p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-02-25</td>
+<td>EMIS</td>
+<td>2656041</td>
+<td style="text-align:right">152972 (5.76%)</td>
+<td style="text-align:right">545759 (20.5%)</td>
+</tr>
+<tr>
+<td>2022-02-25</td>
+<td>TPP</td>
+<td>212453</td>
+<td style="text-align:right">256 (0.12%)</td>
+<td style="text-align:right">39503 (18.6%)</td>
+</tr>
+<tr>
+<td>2022-02-25</td>
+<td>Vision</td>
+<td>341354</td>
+<td style="text-align:right">9440 (2.77%)</td>
+<td style="text-align:right">65963 (19.3%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/covid-positive-antigen-test/1">https://github.com/rw251/.../tests/covid-positive-antigen-test/1</a></p>
+<h3>COVID-19 positive pcr test</h3>
+<p>A code that indicates that a person has a positive pcr test for COVID-19.</p>
+<h4>COVID positive tests in primary care</h4>
+<p>The codes used in primary care to indicate a positive COVID test can be split into 3 types: antigen test, PCR test and other. We keep these as separate code sets. However due to the way that COVID diagnoses are recorded in different ways in different GP systems, and because some codes are ambiguous, currently it only makes sense to group these 3 code sets together. Therefore the prevalence log below is for the combined code sets of <code>covid-positive-antigen-test</code>, <code>covid-positive-pcr-test</code> and <code>covid-positive-test-other</code>.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>18.6% - 20.5%</code> suggests that this code set is likely well defined. <em>NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids.</em></p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-02-25</td>
+<td>EMIS</td>
+<td>2656041</td>
+<td style="text-align:right">152972 (5.76%)</td>
+<td style="text-align:right">545759 (20.5%)</td>
+</tr>
+<tr>
+<td>2022-02-25</td>
+<td>TPP</td>
+<td>212453</td>
+<td style="text-align:right">256 (0.12%)</td>
+<td style="text-align:right">39503 (18.6%)</td>
+</tr>
+<tr>
+<td>2022-02-25</td>
+<td>Vision</td>
+<td>341354</td>
+<td style="text-align:right">9440 (2.77%)</td>
+<td style="text-align:right">65963 (19.3%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/covid-positive-pcr-test/1">https://github.com/rw251/.../tests/covid-positive-pcr-test/1</a></p>
+<h3>COVID-19 positive test - other</h3>
+<p>A code that indicates that a person has a positive test for COVID-19, but where the type of test (antigen or PCR) is unknown.</p>
+<h4>COVID positive tests in primary care</h4>
+<p>The codes used in primary care to indicate a positive COVID test can be split into 3 types: antigen test, PCR test and other. We keep these as separate code sets. However due to the way that COVID diagnoses are recorded in different ways in different GP systems, and because some codes are ambiguous, currently it only makes sense to group these 3 code sets together. Therefore the prevalence log below is for the combined code sets of <code>covid-positive-antigen-test</code>, <code>covid-positive-pcr-test</code> and <code>covid-positive-test-other</code>.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>18.6% - 20.5%</code> suggests that this code set is likely well defined. <em>NB - this code set needs to rely on the SuppliedCode in the database rather than the foreign key ids.</em></p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-02-25</td>
+<td>EMIS</td>
+<td>2656041</td>
+<td style="text-align:right">152972 (5.76%)</td>
+<td style="text-align:right">545759 (20.5%)</td>
+</tr>
+<tr>
+<td>2022-02-25</td>
+<td>TPP</td>
+<td>212453</td>
+<td style="text-align:right">256 (0.12%)</td>
+<td style="text-align:right">39503 (18.6%)</td>
+</tr>
+<tr>
+<td>2022-02-25</td>
+<td>Vision</td>
+<td>341354</td>
+<td style="text-align:right">9440 (2.77%)</td>
+<td style="text-align:right">65963 (19.3%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/covid-positive-test-other/1">https://github.com/rw251/.../tests/covid-positive-test-other/1</a></p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
+<p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>1.19% - 26.55%</code> as of 11th March 2021 is too wide. However the prevalence figure of 26.55% from EMIS is close to public data and is likely ok.</p>
+<p><strong>UPDATE - 25th March 2021</strong> Missing Read and CTV3 codes were added to the vaccination list and now the range of <code>26.91% - 32.96%</code> seems reasonable. It should be noted that there is an approx 2 week lag between events occurring and them being entered in the record.</p>
+<p><strong>UPDATE - 12th April 2021</strong>, latest prevalence figures.</p>
+<p><strong>UPDATE - 18th March 2022</strong> There are now new codes for things like 3rd/4th/booster dose of vaccine. The latest prevalence shows <code>65.0% - 66.3%</code> have at least one vaccine code in the GP_Events table, and <code>88.2% - 93.6%</code> have at least one code for the vaccine in the GP_Medications table.</p>
+<p>MED</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-05-12</td>
+<td>EMIS</td>
+<td>2606497</td>
+<td style="text-align:right">0 (0%)</td>
+<td style="text-align:right">379577(14.56%)</td>
+</tr>
+<tr>
+<td>2021-05-12</td>
+<td>TPP</td>
+<td>210810</td>
+<td style="text-align:right">0 (0%)</td>
+<td style="text-align:right">1637(0.78%)</td>
+</tr>
+<tr>
+<td>2021-05-12</td>
+<td>Vision</td>
+<td>334784</td>
+<td style="text-align:right">0 (0%)</td>
+<td style="text-align:right">93(0.03%)</td>
+</tr>
+<tr>
+<td>2022-03-18</td>
+<td>EMIS</td>
+<td>2658131</td>
+<td style="text-align:right">1750506 (65.9%)</td>
+<td style="text-align:right">1763420(66.3%)</td>
+</tr>
+<tr>
+<td>2022-03-18</td>
+<td>TPP</td>
+<td>212662</td>
+<td style="text-align:right">8207 (3.9%)</td>
+<td style="text-align:right">138285(65.0%)</td>
+</tr>
+<tr>
+<td>2022-03-18</td>
+<td>Vision</td>
+<td>341594</td>
+<td style="text-align:right">122060 (35.7%)</td>
+<td style="text-align:right">225844(66.1%)</td>
+</tr>
+</tbody>
+</table>
+<p>EVENT</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-05-12</td>
+<td>EMIS</td>
+<td>2606497</td>
+<td style="text-align:right">4446 (0.17%)</td>
+<td style="text-align:right">1101577 (42.26%)</td>
+</tr>
+<tr>
+<td>2021-05-12</td>
+<td>TPP</td>
+<td>210810</td>
+<td style="text-align:right">7 (0.00%)</td>
+<td style="text-align:right">87841 (41.66%)</td>
+</tr>
+<tr>
+<td>2021-05-12</td>
+<td>Vision</td>
+<td>334784</td>
+<td style="text-align:right">1 (0.00%)</td>
+<td style="text-align:right">142724 (42.63%)</td>
+</tr>
+<tr>
+<td>2022-03-18</td>
+<td>EMIS</td>
+<td>2658131</td>
+<td style="text-align:right">2486786 (93.6%)</td>
+<td style="text-align:right">1676951 (63.1%)</td>
+</tr>
+<tr>
+<td>2022-03-18</td>
+<td>TPP</td>
+<td>212662</td>
+<td style="text-align:right">187463 (88.2%)</td>
+<td style="text-align:right">7314 (3.44%)</td>
+</tr>
+<tr>
+<td>2022-03-18</td>
+<td>Vision</td>
+<td>341594</td>
+<td style="text-align:right">312617 (91.5%)</td>
+<td style="text-align:right">62512 (18.3%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/covid-vaccination/1">https://github.com/rw251/.../procedures/covid-vaccination/1</a></p>
 <h1>Clinical code sets</h1>
 <p>All code sets required for this analysis are listed here. Individual lists for each concept can also be found by using the links above.</p>
 <table>
@@ -241,4 +617,648 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <th>Description</th>
 </tr>
 </thead>
+<tbody>
+<tr>
+<td>covid-positive-antigen-test v1</td>
+<td>ctv3</td>
+<td>Y269d</td>
+<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen detection result positive</td>
+</tr>
+<tr>
+<td>covid-positive-antigen-test v1</td>
+<td>ctv3</td>
+<td>43kB1</td>
+<td>SARS-CoV-2 antigen positive</td>
+</tr>
+<tr>
+<td>covid-positive-antigen-test v1</td>
+<td>emis</td>
+<td>^ESCT1305304</td>
+<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen detection result positive</td>
+</tr>
+<tr>
+<td>covid-positive-antigen-test v1</td>
+<td>emis</td>
+<td>^ESCT1348538</td>
+<td>Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen</td>
+</tr>
+<tr>
+<td>covid-positive-antigen-test v1</td>
+<td>readv2</td>
+<td>43kB1</td>
+<td>SARS-CoV-2 antigen positive</td>
+</tr>
+<tr>
+<td>covid-positive-pcr-test v1</td>
+<td>ctv3</td>
+<td>4J3R6</td>
+<td>SARS-CoV-2 RNA pos lim detect</td>
+</tr>
+<tr>
+<td>covid-positive-pcr-test v1</td>
+<td>ctv3</td>
+<td>Y240b</td>
+<td>Severe acute respiratory syndrome coronavirus 2 qualitative existence in specimen (observable entity)</td>
+</tr>
+<tr>
+<td>covid-positive-pcr-test v1</td>
+<td>ctv3</td>
+<td>Y2a3b</td>
+<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive</td>
+</tr>
+<tr>
+<td>covid-positive-pcr-test v1</td>
+<td>ctv3</td>
+<td>A7952</td>
+<td>COVID-19 confirmed by laboratory test</td>
+</tr>
+<tr>
+<td>covid-positive-pcr-test v1</td>
+<td>ctv3</td>
+<td>Y228d</td>
+<td>Coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2 confirmed by laboratory test (situation)</td>
+</tr>
+<tr>
+<td>covid-positive-pcr-test v1</td>
+<td>ctv3</td>
+<td>Y210e</td>
+<td>Detection of 2019-nCoV (novel coronavirus) using polymerase chain reaction technique</td>
+</tr>
+<tr>
+<td>covid-positive-pcr-test v1</td>
+<td>ctv3</td>
+<td>43hF.</td>
+<td>Detection of SARS-CoV-2 by PCR</td>
+</tr>
+<tr>
+<td>covid-positive-pcr-test v1</td>
+<td>ctv3</td>
+<td>Y2a3d</td>
+<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection</td>
+</tr>
+<tr>
+<td>covid-positive-pcr-test v1</td>
+<td>emis</td>
+<td>^ESCT1305238</td>
+<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) qualitative existence in specimen</td>
+</tr>
+<tr>
+<td>covid-positive-pcr-test v1</td>
+<td>emis</td>
+<td>^ESCT1348314</td>
+<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive</td>
+</tr>
+<tr>
+<td>covid-positive-pcr-test v1</td>
+<td>emis</td>
+<td>^ESCT1305235</td>
+<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive</td>
+</tr>
+<tr>
+<td>covid-positive-pcr-test v1</td>
+<td>emis</td>
+<td>^ESCT1300228</td>
+<td>COVID-19 confirmed by laboratory test GP COVID-19</td>
+</tr>
+<tr>
+<td>covid-positive-pcr-test v1</td>
+<td>emis</td>
+<td>^ESCT1348316</td>
+<td>2019-nCoV (novel coronavirus) ribonucleic acid detected</td>
+</tr>
+<tr>
+<td>covid-positive-pcr-test v1</td>
+<td>emis</td>
+<td>^ESCT1301223</td>
+<td>Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) using polymerase chain reaction technique</td>
+</tr>
+<tr>
+<td>covid-positive-pcr-test v1</td>
+<td>emis</td>
+<td>^ESCT1348359</td>
+<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection</td>
+</tr>
+<tr>
+<td>covid-positive-pcr-test v1</td>
+<td>emis</td>
+<td>^ESCT1299053</td>
+<td>Detection of 2019-nCoV (novel coronavirus) using polymerase chain reaction technique</td>
+</tr>
+<tr>
+<td>covid-positive-pcr-test v1</td>
+<td>emis</td>
+<td>^ESCT1300228</td>
+<td>COVID-19 confirmed by laboratory test</td>
+</tr>
+<tr>
+<td>covid-positive-pcr-test v1</td>
+<td>emis</td>
+<td>^ESCT1348359</td>
+<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection</td>
+</tr>
+<tr>
+<td>covid-positive-pcr-test v1</td>
+<td>readv2</td>
+<td>4J3R6</td>
+<td>SARS-CoV-2 RNA pos lim detect</td>
+</tr>
+<tr>
+<td>covid-positive-pcr-test v1</td>
+<td>readv2</td>
+<td>A7952</td>
+<td>COVID-19 confirmed by laboratory test</td>
+</tr>
+<tr>
+<td>covid-positive-pcr-test v1</td>
+<td>readv2</td>
+<td>43hF.</td>
+<td>Detection of SARS-CoV-2 by PCR</td>
+</tr>
+<tr>
+<td>covid-positive-test-other v1</td>
+<td>ctv3</td>
+<td>4J3R1</td>
+<td>2019-nCoV (novel coronavirus) detected</td>
+</tr>
+<tr>
+<td>covid-positive-test-other v1</td>
+<td>ctv3</td>
+<td>Y20d1</td>
+<td>Confirmed 2019-nCov (Wuhan) infection</td>
+</tr>
+<tr>
+<td>covid-positive-test-other v1</td>
+<td>ctv3</td>
+<td>Y23f7</td>
+<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive</td>
+</tr>
+<tr>
+<td>covid-positive-test-other v1</td>
+<td>emis</td>
+<td>^ESCT1303928</td>
+<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive</td>
+</tr>
+<tr>
+<td>covid-positive-test-other v1</td>
+<td>emis</td>
+<td>^ESCT1299074</td>
+<td>2019-nCoV (novel coronavirus) detected</td>
+</tr>
+<tr>
+<td>covid-positive-test-other v1</td>
+<td>emis</td>
+<td>^ESCT1301230</td>
+<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detected</td>
+</tr>
+<tr>
+<td>covid-positive-test-other v1</td>
+<td>emis</td>
+<td>EMISNQCO303</td>
+<td>Confirmed 2019-nCoV (Wuhan) infectio</td>
+</tr>
+<tr>
+<td>covid-positive-test-other v1</td>
+<td>emis</td>
+<td>^ESCT1299075</td>
+<td>Wuhan 2019-nCoV (novel coronavirus) detected</td>
+</tr>
+<tr>
+<td>covid-positive-test-other v1</td>
+<td>emis</td>
+<td>^ESCT1300229</td>
+<td>COVID-19 confirmed using clinical diagnostic criteria</td>
+</tr>
+<tr>
+<td>covid-positive-test-other v1</td>
+<td>emis</td>
+<td>^ESCT1348575</td>
+<td>Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)</td>
+</tr>
+<tr>
+<td>covid-positive-test-other v1</td>
+<td>emis</td>
+<td>^ESCT1299074</td>
+<td>2019-nCoV (novel coronavirus) detected</td>
+</tr>
+<tr>
+<td>covid-positive-test-other v1</td>
+<td>emis</td>
+<td>^ESCT1300229</td>
+<td>COVID-19 confirmed using clinical diagnostic criteria</td>
+</tr>
+<tr>
+<td>covid-positive-test-other v1</td>
+<td>emis</td>
+<td>EMISNQCO303</td>
+<td>Confirmed 2019-nCoV (novel coronavirus) infection</td>
+</tr>
+<tr>
+<td>covid-positive-test-other v1</td>
+<td>emis</td>
+<td>EMISNQCO303</td>
+<td>Confirmed 2019-nCoV (novel coronavirus) infection</td>
+</tr>
+<tr>
+<td>covid-positive-test-other v1</td>
+<td>emis</td>
+<td>^ESCT1348575</td>
+<td>Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)</td>
+</tr>
+<tr>
+<td>covid-positive-test-other v1</td>
+<td>readv2</td>
+<td>4J3R1</td>
+<td>2019-nCoV (novel coronavirus) detected</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y210d</td>
+<td>2019-nCoV (novel coronavirus) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y29e7</td>
+<td>Administration of first dose of SARS-CoV-2 vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y29e8</td>
+<td>Administration of second dose of SARS-CoV-2 vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y2a0e</td>
+<td>SARS-2 Coronavirus vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y2a0f</td>
+<td>COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 1</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y2a3a</td>
+<td>COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 2</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>65F06</td>
+<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>65F09</td>
+<td>Administration of third dose of SARS-CoV-2 vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>65F0A</td>
+<td>Administration of fourth dose of SARS-CoV-2 vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>9bJ..</td>
+<td>COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y2a10</td>
+<td>COVID-19 Vac AstraZeneca (ChAdOx1 S recomb) 5x10000000000 viral particles/0.5ml dose sol for inj MDV part 1</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y2a39</td>
+<td>COVID-19 Vac AstraZeneca (ChAdOx1 S recomb) 5x10000000000 viral particles/0.5ml dose sol for inj MDV part 2</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y2b9d</td>
+<td>COVID-19 mRNA (nucleoside modified) Vaccine Moderna 0.1mg/0.5mL dose dispersion for injection multidose vials part 2</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y2f45</td>
+<td>Administration of third dose of SARS-CoV-2 vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y2f48</td>
+<td>Administration of fourth dose of SARS-CoV-2 vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y2f57</td>
+<td>COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) booster</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y31cc</td>
+<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y31e6</td>
+<td>Administration of SARS-CoV-2 mRNA vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y31e7</td>
+<td>Administration of first dose of SARS-CoV-2 mRNA vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>ctv3</td>
+<td>Y31e8</td>
+<td>Administration of second dose of SARS-CoV-2 mRNA vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>^ESCT1348323</td>
+<td>Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>^ESCT1348324</td>
+<td>Administration of first dose of 2019-nCoV (novel coronavirus) vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>COCO138186NEMIS</td>
+<td>COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>^ESCT1348325</td>
+<td>Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>^ESCT1348326</td>
+<td>Administration of second dose of 2019-nCoV (novel coronavirus) vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>^ESCT1428354</td>
+<td>Administration of third dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>^ESCT1428342</td>
+<td>Administration of fourth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>^ESCT1428348</td>
+<td>Administration of fifth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>^ESCT1348298</td>
+<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>^ESCT1348301</td>
+<td>COVID-19 vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>^ESCT1299050</td>
+<td>2019-nCoV (novel coronavirus) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>^ESCT1301222</td>
+<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>CODI138564NEMIS</td>
+<td>Covid-19 mRna (nucleoside modified) Vaccine Moderna  Dispersion for injection  0.1 mg/0.5 ml dose, multidose vial</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>TASO138184NEMIS</td>
+<td>Covid-19 Vaccine AstraZeneca (ChAdOx1 S recombinant)  Solution for injection  5x10 billion viral particle/0.5 ml multidose vial</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>PCSDT18491_1375</td>
+<td>Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>PCSDT18491_1376</td>
+<td>Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>PCSDT18491_716</td>
+<td>Administration of second dose of SARS-CoV-2 vacc</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>PCSDT18491_903</td>
+<td>Administration of first dose of SARS-CoV-2 vacccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>PCSDT3370_2254</td>
+<td>2019-nCoV (novel coronavirus) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>PCSDT3919_2185</td>
+<td>Administration of first dose of SARS-CoV-2 vacccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>PCSDT3919_662</td>
+<td>Administration of second dose of SARS-CoV-2 vacc</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>PCSDT4803_1723</td>
+<td>2019-nCoV (novel coronavirus) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>PCSDT5823_2264</td>
+<td>Administration of second dose of SARS-CoV-2 vacc</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>PCSDT5823_2757</td>
+<td>Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>PCSDT5823_2902</td>
+<td>Administration of first dose of SARS-CoV-2 vacccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>^ESCT1348300</td>
+<td>Severe acute respiratory syndrome coronavirus 2 vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>ASSO138368NEMIS</td>
+<td>COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose suspension for injection multidose vials (Janssen-Cilag Ltd)</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>COCO141057NEMIS</td>
+<td>Comirnaty Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.2ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd)</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>COSO141059NEMIS</td>
+<td>COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Serum Institute of India)</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>COSU138776NEMIS</td>
+<td>COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5ml dose suspension for injection multidose vials (Valneva UK Ltd)</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>COSU138943NEMIS</td>
+<td>COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Baxter Oncology GmbH)</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>COSU141008NEMIS</td>
+<td>CoronaVac COVID-19 Vaccine (adjuvanted) 600U/0.5ml dose suspension for injection vials (Sinovac Life Sciences)</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>emis</td>
+<td>COSU141037NEMIS</td>
+<td>COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection vials (Beijing Institute of Biological Products)</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>readv2</td>
+<td>65F0.</td>
+<td>2019-nCoV (novel coronavirus) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>readv2</td>
+<td>65F0100</td>
+<td>Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>readv2</td>
+<td>65F0200</td>
+<td>2019-nCoV (novel coronavirus) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>readv2</td>
+<td>65F0600</td>
+<td>SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>readv2</td>
+<td>65F0700</td>
+<td>Immunisation course to achieve immunity against SARS-CoV-2</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>readv2</td>
+<td>65F0800</td>
+<td>Immunisation course to maintain protection against SARS-CoV-2</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>readv2</td>
+<td>65F0900</td>
+<td>Administration of third dose of SARS-CoV-2 vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>readv2</td>
+<td>65F0A00</td>
+<td>Administration of fourth dose of SARS-CoV-2 vaccine</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>readv2</td>
+<td>9bJ..</td>
+<td>COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>snomed</td>
+<td>1240491000000103</td>
+<td>2019-nCoV (novel coronavirus) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>snomed</td>
+<td>2807821000000115</td>
+<td>2019-nCoV (novel coronavirus) vaccination</td>
+</tr>
+<tr>
+<td>covid-vaccination v1</td>
+<td>snomed</td>
+<td>840534001</td>
+<td>Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)</td>
+</tr>
+</tbody>
 </table>

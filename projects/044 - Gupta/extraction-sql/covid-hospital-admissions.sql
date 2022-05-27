@@ -1,0 +1,563 @@
+--┌────────────────────────────────────────────────────────────┐
+--│ Hospital stay information for multimorbidity cohort        │
+--└────────────────────────────────────────────────────────────┘
+
+------------ RESEARCH DATA ENGINEER CHECK ------------
+
+-- OUTPUT: Data with the following fields
+-- Patient Id
+-- AdmissionDate (DD-MM-YYYY)
+-- DischargeDate (DD-MM-YYYY)
+-- LengthOfStay 
+-- Hospital - ANONYMOUS
+
+-- Set the start date
+DECLARE @StartDate datetime;
+DECLARE @EndDate datetime;
+SET @StartDate = '2020-01-01';
+SET @EndDate = '2022-05-01';
+
+--Just want the output, not the messages
+SET NOCOUNT ON;
+
+-- Find all patients alive at start date
+IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
+SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
+WHERE (DeathDate IS NULL OR DeathDate >= @StartDate);
+
+-- Find all patients registered with a GP
+IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
+SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [RLS].vw_Patient
+where FK_Reference_Tenancy_ID = 2;
+
+-- Make cohort from patients alive at start date and registered with a GP
+IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
+SELECT pp.* INTO #Patients FROM #PossiblePatients pp
+INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
+
+
+
+--------------------------------------------------------------------------------------------------------
+----------------------------------- DEFINE MAIN COHORT -- ----------------------------------------------
+--------------------------------------------------------------------------------------------------------
+
+
+
+--┌─────────────────────────────────────────┐
+--│ Secondary admissions and length of stay │
+--└─────────────────────────────────────────┘
+
+-- OBJECTIVE: To obtain a table with every secondary care admission, along with the acute provider,
+--						the date of admission, the date of discharge, and the length of stay.
+
+-- INPUT: One parameter
+--	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+
+-- OUTPUT: Two temp table as follows:
+-- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- AdmissionDate - date of admission (YYYY-MM-DD)
+--	- AcuteProvider - Bolton, SRFT, Stockport etc..
+--  (Limited to one admission per person per hospital per day, because if a patient has 2 admissions 
+--   on the same day to the same hopsital then it's most likely data duplication rather than two short
+--   hospital stays)
+-- #LengthOfStay (FK_Patient_Link_ID, AdmissionDate)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- AdmissionDate - date of admission (YYYY-MM-DD)
+--	- AcuteProvider - Bolton, SRFT, Stockport etc..
+--	- DischargeDate - date of discharge (YYYY-MM-DD)
+--	- LengthOfStay - Number of days between admission and discharge. 1 = [0,1) days, 2 = [1,2) days, etc.
+
+-- Populate temporary table with admissions
+-- Convert AdmissionDate to a date to avoid issues where a person has two admissions
+-- on the same day (but only one discharge)
+IF OBJECT_ID('tempdb..#Admissions') IS NOT NULL DROP TABLE #Admissions;
+CREATE TABLE #Admissions (
+	FK_Patient_Link_ID BIGINT,
+	AdmissionDate DATE,
+	AcuteProvider NVARCHAR(150)
+);
+BEGIN
+	IF 'false'='true'
+		INSERT INTO #Admissions
+		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) AS AdmissionDate, t.TenancyName AS AcuteProvider
+		FROM [RLS].[vw_Acute_Inpatients] i
+		LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
+		WHERE EventType = 'Admission'
+		AND AdmissionDate >= @StartDate;
+	ELSE
+		INSERT INTO #Admissions
+		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) AS AdmissionDate, t.TenancyName AS AcuteProvider
+		FROM [RLS].[vw_Acute_Inpatients] i
+		LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
+		WHERE EventType = 'Admission'
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+		AND AdmissionDate >= @StartDate;
+END
+
+--┌──────────────────────┐
+--│ Secondary discharges │
+--└──────────────────────┘
+
+-- OBJECTIVE: To obtain a table with every secondary care discharge, along with the acute provider,
+--						and the date of discharge.
+
+-- INPUT: One parameter
+--	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+
+-- OUTPUT: A temp table as follows:
+-- #Discharges (FK_Patient_Link_ID, DischargeDate, AcuteProvider)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- DischargeDate - date of discharge (YYYY-MM-DD)
+--	- AcuteProvider - Bolton, SRFT, Stockport etc..
+--  (Limited to one discharge per person per hospital per day, because if a patient has 2 discharges 
+--   on the same day to the same hopsital then it's most likely data duplication rather than two short
+--   hospital stays)
+
+-- Populate temporary table with discharges
+IF OBJECT_ID('tempdb..#Discharges') IS NOT NULL DROP TABLE #Discharges;
+CREATE TABLE #Discharges (
+	FK_Patient_Link_ID BIGINT,
+	DischargeDate DATE,
+	AcuteProvider NVARCHAR(150)
+);
+BEGIN
+	IF 'false'='true'
+		INSERT INTO #Discharges
+    SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, DischargeDate) AS DischargeDate, t.TenancyName AS AcuteProvider 
+    FROM [RLS].[vw_Acute_Inpatients] i
+    LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
+    WHERE EventType = 'Discharge'
+    AND DischargeDate >= @StartDate;
+  ELSE
+		INSERT INTO #Discharges
+    SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, DischargeDate) AS DischargeDate, t.TenancyName AS AcuteProvider 
+    FROM [RLS].[vw_Acute_Inpatients] i
+    LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
+    WHERE EventType = 'Discharge'
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+    AND DischargeDate >= @StartDate;
+END
+-- 535285 rows	535285 rows
+-- 00:00:28		00:00:14
+
+
+-- Link admission with discharge to get length of stay
+-- Length of stay is zero-indexed e.g. 
+-- 1 = [0,1) days
+-- 2 = [1,2) days
+IF OBJECT_ID('tempdb..#LengthOfStay') IS NOT NULL DROP TABLE #LengthOfStay;
+SELECT 
+	a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider, 
+	MIN(d.DischargeDate) AS DischargeDate, 
+	1 + DATEDIFF(day,a.AdmissionDate, MIN(d.DischargeDate)) AS LengthOfStay
+	INTO #LengthOfStay
+FROM #Admissions a
+INNER JOIN #Discharges d ON d.FK_Patient_Link_ID = a.FK_Patient_Link_ID AND d.DischargeDate >= a.AdmissionDate AND d.AcuteProvider = a.AcuteProvider
+GROUP BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider
+ORDER BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider;
+-- 511740 rows	511740 rows	
+-- 00:00:04		00:00:05
+
+--┌────────────────────────────────────┐
+--│ COVID-related secondary admissions │
+--└────────────────────────────────────┘
+
+-- OBJECTIVE: To classify every admission to secondary care based on whether it is a COVID or non-COVID related.
+--						A COVID-related admission is classed as an admission within 4 weeks after, or up to 2 weeks before
+--						a positive test.
+
+-- INPUT: Takes one parameter
+--  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+--	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+--	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+-- And assumes there exists two temp tables as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+-- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
+--  A distinct list of the admissions for each patient in the cohort
+
+-- OUTPUT: A temp table as follows:
+-- #COVIDUtilisationAdmissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, CovidHealthcareUtilisation)
+--	- FK_Patient_Link_ID - unique patient id
+--	- AdmissionDate - date of admission (YYYY-MM-DD)
+--	- AcuteProvider - Bolton, SRFT, Stockport etc..
+--	- CovidHealthcareUtilisation - 'TRUE' if admission within 4 weeks after, or up to 14 days before, a positive test
+
+-- Get first positive covid test for each patient
+--┌─────────────────────┐
+--│ Patients with COVID │
+--└─────────────────────┘
+
+-- OBJECTIVE: To get tables of all patients with a COVID diagnosis in their record. This now includes a table
+-- that has reinfections. This uses a 90 day cut-off to rule out patients that get multiple tests for
+-- a single infection. This 90 day cut-off is also used in the government COVID dashboard. In the first wave,
+-- prior to widespread COVID testing, and prior to the correct clinical codes being	available to clinicians,
+-- infections were recorded in a variety of ways. We therefore take the first diagnosis from any code indicative
+-- of COVID. However, for subsequent infections we insist on the presence of a positive COVID test (PCR or antigen)
+-- as opposed to simply a diagnosis code. This is to avoid the situation where a hospital diagnosis code gets 
+-- entered into the primary care record several months after the actual infection.
+
+-- INPUT: Takes three parameters
+--  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+--	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+--	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+
+-- OUTPUT: Three temp tables as follows:
+-- #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- FirstCovidPositiveDate - earliest COVID diagnosis
+-- #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- CovidPositiveDate - any COVID diagnosis
+-- #CovidPatientsMultipleDiagnoses
+--	-	FK_Patient_Link_ID - unique patient id
+--	-	FirstCovidPositiveDate - date of first COVID diagnosis
+--	-	SecondCovidPositiveDate - date of second COVID diagnosis
+--	-	ThirdCovidPositiveDate - date of third COVID diagnosis
+--	-	FourthCovidPositiveDate - date of fourth COVID diagnosis
+--	-	FifthCovidPositiveDate - date of fifth COVID diagnosis
+
+-- >>> Codesets required... Inserting the code set code
+--
+--┌────────────────────┐
+--│ Clinical code sets │
+--└────────────────────┘
+
+-- OBJECTIVE: To populate temporary tables with the existing clinical code sets.
+--            See the [SQL-generation-process.md](SQL-generation-process.md) for more details.
+
+-- INPUT: No pre-requisites
+
+-- OUTPUT: Five temp tables as follows:
+--  #AllCodes (Concept, Version, Code)
+--  #CodeSets (FK_Reference_Coding_ID, Concept)
+--  #SnomedSets (FK_Reference_SnomedCT_ID, FK_SNOMED_ID)
+--  #VersionedCodeSets (FK_Reference_Coding_ID, Concept, Version)
+--  #VersionedSnomedSets (FK_Reference_SnomedCT_ID, Version, FK_SNOMED_ID)
+
+--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+--!!! DO NOT EDIT THIS FILE MANUALLY !!!
+--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+IF OBJECT_ID('tempdb..#AllCodes') IS NOT NULL DROP TABLE #AllCodes;
+CREATE TABLE #AllCodes (
+  [Concept] [varchar](255) NOT NULL,
+  [Version] INT NOT NULL,
+  [Code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+  [description] [varchar] (255) NULL 
+);
+
+IF OBJECT_ID('tempdb..#codesreadv2') IS NOT NULL DROP TABLE #codesreadv2;
+CREATE TABLE #codesreadv2 (
+  [concept] [varchar](255) NOT NULL,
+  [version] INT NOT NULL,
+	[code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+	[term] [varchar](20) COLLATE Latin1_General_CS_AS NULL,
+	[description] [varchar](255) NULL
+) ON [PRIMARY];
+
+INSERT INTO #codesreadv2
+VALUES ('covid-positive-antigen-test',1,'43kB1',NULL,'SARS-CoV-2 antigen positive'),('covid-positive-antigen-test',1,'43kB100',NULL,'SARS-CoV-2 antigen positive');
+INSERT INTO #codesreadv2
+VALUES ('covid-positive-pcr-test',1,'4J3R6',NULL,'SARS-CoV-2 RNA pos lim detect'),('covid-positive-pcr-test',1,'4J3R600',NULL,'SARS-CoV-2 RNA pos lim detect'),('covid-positive-pcr-test',1,'A7952',NULL,'COVID-19 confirmed by laboratory test'),('covid-positive-pcr-test',1,'A795200',NULL,'COVID-19 confirmed by laboratory test'),('covid-positive-pcr-test',1,'43hF.',NULL,'Detection of SARS-CoV-2 by PCR'),('covid-positive-pcr-test',1,'43hF.00',NULL,'Detection of SARS-CoV-2 by PCR');
+INSERT INTO #codesreadv2
+VALUES ('covid-positive-test-other',1,'4J3R1',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'4J3R100',NULL,'2019-nCoV (novel coronavirus) detected')
+
+INSERT INTO #AllCodes
+SELECT [concept], [version], [code], [description] from #codesreadv2;
+
+IF OBJECT_ID('tempdb..#codesctv3') IS NOT NULL DROP TABLE #codesctv3;
+CREATE TABLE #codesctv3 (
+  [concept] [varchar](255) NOT NULL,
+  [version] INT NOT NULL,
+	[code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+	[term] [varchar](20) COLLATE Latin1_General_CS_AS NULL,
+	[description] [varchar](255) NULL
+) ON [PRIMARY];
+
+INSERT INTO #codesctv3
+VALUES ('covid-positive-antigen-test',1,'Y269d',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen detection result positive'),('covid-positive-antigen-test',1,'43kB1',NULL,'SARS-CoV-2 antigen positive');
+INSERT INTO #codesctv3
+VALUES ('covid-positive-pcr-test',1,'4J3R6',NULL,'SARS-CoV-2 RNA pos lim detect'),('covid-positive-pcr-test',1,'Y240b',NULL,'Severe acute respiratory syndrome coronavirus 2 qualitative existence in specimen (observable entity)'),('covid-positive-pcr-test',1,'Y2a3b',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive'),('covid-positive-pcr-test',1,'A7952',NULL,'COVID-19 confirmed by laboratory test'),('covid-positive-pcr-test',1,'Y228d',NULL,'Coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2 confirmed by laboratory test (situation)'),('covid-positive-pcr-test',1,'Y210e',NULL,'Detection of 2019-nCoV (novel coronavirus) using polymerase chain reaction technique'),('covid-positive-pcr-test',1,'43hF.',NULL,'Detection of SARS-CoV-2 by PCR'),('covid-positive-pcr-test',1,'Y2a3d',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection');
+INSERT INTO #codesctv3
+VALUES ('covid-positive-test-other',1,'4J3R1',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'Y20d1',NULL,'Confirmed 2019-nCov (Wuhan) infection'),('covid-positive-test-other',1,'Y23f7',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive')
+
+INSERT INTO #AllCodes
+SELECT [concept], [version], [code], [description] from #codesctv3;
+
+IF OBJECT_ID('tempdb..#codessnomed') IS NOT NULL DROP TABLE #codessnomed;
+CREATE TABLE #codessnomed (
+  [concept] [varchar](255) NOT NULL,
+  [version] INT NOT NULL,
+	[code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+	[term] [varchar](20) COLLATE Latin1_General_CS_AS NULL,
+	[description] [varchar](255) NULL
+) ON [PRIMARY];
+
+
+
+INSERT INTO #AllCodes
+SELECT [concept], [version], [code], [description] from #codessnomed;
+
+IF OBJECT_ID('tempdb..#codesemis') IS NOT NULL DROP TABLE #codesemis;
+CREATE TABLE #codesemis (
+  [concept] [varchar](255) NOT NULL,
+  [version] INT NOT NULL,
+	[code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+	[term] [varchar](20) COLLATE Latin1_General_CS_AS NULL,
+	[description] [varchar](255) NULL
+) ON [PRIMARY];
+
+INSERT INTO #codesemis
+VALUES ('covid-positive-antigen-test',1,'^ESCT1305304',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen detection result positive'),('covid-positive-antigen-test',1,'^ESCT1348538',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen');
+INSERT INTO #codesemis
+VALUES ('covid-positive-pcr-test',1,'^ESCT1305238',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) qualitative existence in specimen'),('covid-positive-pcr-test',1,'^ESCT1348314',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive'),('covid-positive-pcr-test',1,'^ESCT1305235',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive'),('covid-positive-pcr-test',1,'^ESCT1300228',NULL,'COVID-19 confirmed by laboratory test GP COVID-19'),('covid-positive-pcr-test',1,'^ESCT1348316',NULL,'2019-nCoV (novel coronavirus) ribonucleic acid detected'),('covid-positive-pcr-test',1,'^ESCT1301223',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) using polymerase chain reaction technique'),('covid-positive-pcr-test',1,'^ESCT1348359',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection'),('covid-positive-pcr-test',1,'^ESCT1299053',NULL,'Detection of 2019-nCoV (novel coronavirus) using polymerase chain reaction technique'),('covid-positive-pcr-test',1,'^ESCT1300228',NULL,'COVID-19 confirmed by laboratory test'),('covid-positive-pcr-test',1,'^ESCT1348359',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection');
+INSERT INTO #codesemis
+VALUES ('covid-positive-test-other',1,'^ESCT1303928',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive'),('covid-positive-test-other',1,'^ESCT1299074',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'^ESCT1301230',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detected'),('covid-positive-test-other',1,'EMISNQCO303',NULL,'Confirmed 2019-nCoV (Wuhan) infectio'),('covid-positive-test-other',1,'^ESCT1299075',NULL,'Wuhan 2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'^ESCT1300229',NULL,'COVID-19 confirmed using clinical diagnostic criteria'),('covid-positive-test-other',1,'^ESCT1348575',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)'),('covid-positive-test-other',1,'^ESCT1299074',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'^ESCT1300229',NULL,'COVID-19 confirmed using clinical diagnostic criteria'),('covid-positive-test-other',1,'EMISNQCO303',NULL,'Confirmed 2019-nCoV (novel coronavirus) infection'),('covid-positive-test-other',1,'EMISNQCO303',NULL,'Confirmed 2019-nCoV (novel coronavirus) infection'),('covid-positive-test-other',1,'^ESCT1348575',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)')
+
+INSERT INTO #AllCodes
+SELECT [concept], [version], [code], [description] from #codesemis;
+
+
+IF OBJECT_ID('tempdb..#TempRefCodes') IS NOT NULL DROP TABLE #TempRefCodes;
+CREATE TABLE #TempRefCodes (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, version INT NOT NULL, [description] VARCHAR(255));
+
+-- Read v2 codes
+INSERT INTO #TempRefCodes
+SELECT PK_Reference_Coding_ID, dcr.concept, dcr.[version], dcr.[description]
+FROM [SharedCare].[Reference_Coding] rc
+INNER JOIN #codesreadv2 dcr on dcr.code = rc.MainCode
+WHERE CodingType='ReadCodeV2'
+AND (dcr.term IS NULL OR dcr.term = rc.Term)
+and PK_Reference_Coding_ID != -1;
+
+-- CTV3 codes
+INSERT INTO #TempRefCodes
+SELECT PK_Reference_Coding_ID, dcc.concept, dcc.[version], dcc.[description]
+FROM [SharedCare].[Reference_Coding] rc
+INNER JOIN #codesctv3 dcc on dcc.code = rc.MainCode
+WHERE CodingType='CTV3'
+and PK_Reference_Coding_ID != -1;
+
+-- EMIS codes with a FK Reference Coding ID
+INSERT INTO #TempRefCodes
+SELECT FK_Reference_Coding_ID, ce.concept, ce.[version], ce.[description]
+FROM [SharedCare].[Reference_Local_Code] rlc
+INNER JOIN #codesemis ce on ce.code = rlc.LocalCode
+WHERE FK_Reference_Coding_ID != -1;
+
+IF OBJECT_ID('tempdb..#TempSNOMEDRefCodes') IS NOT NULL DROP TABLE #TempSNOMEDRefCodes;
+CREATE TABLE #TempSNOMEDRefCodes (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [version] INT NOT NULL, [description] VARCHAR(255));
+
+-- SNOMED codes
+INSERT INTO #TempSNOMEDRefCodes
+SELECT PK_Reference_SnomedCT_ID, dcs.concept, dcs.[version], dcs.[description]
+FROM SharedCare.Reference_SnomedCT rs
+INNER JOIN #codessnomed dcs on dcs.code = rs.ConceptID;
+
+-- EMIS codes with a FK SNOMED ID but without a FK Reference Coding ID
+INSERT INTO #TempSNOMEDRefCodes
+SELECT FK_Reference_SnomedCT_ID, ce.concept, ce.[version], ce.[description]
+FROM [SharedCare].[Reference_Local_Code] rlc
+INNER JOIN #codesemis ce on ce.code = rlc.LocalCode
+WHERE FK_Reference_Coding_ID = -1
+AND FK_Reference_SnomedCT_ID != -1;
+
+-- De-duped tables
+IF OBJECT_ID('tempdb..#CodeSets') IS NOT NULL DROP TABLE #CodeSets;
+CREATE TABLE #CodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [description] VARCHAR(255));
+
+IF OBJECT_ID('tempdb..#SnomedSets') IS NOT NULL DROP TABLE #SnomedSets;
+CREATE TABLE #SnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, concept VARCHAR(255) NOT NULL, [description] VARCHAR(255));
+
+IF OBJECT_ID('tempdb..#VersionedCodeSets') IS NOT NULL DROP TABLE #VersionedCodeSets;
+CREATE TABLE #VersionedCodeSets (FK_Reference_Coding_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT, [description] VARCHAR(255));
+
+IF OBJECT_ID('tempdb..#VersionedSnomedSets') IS NOT NULL DROP TABLE #VersionedSnomedSets;
+CREATE TABLE #VersionedSnomedSets (FK_Reference_SnomedCT_ID BIGINT NOT NULL, Concept VARCHAR(255), [Version] INT, [description] VARCHAR(255));
+
+INSERT INTO #VersionedCodeSets
+SELECT DISTINCT * FROM #TempRefCodes;
+
+INSERT INTO #VersionedSnomedSets
+SELECT DISTINCT * FROM #TempSNOMEDRefCodes;
+
+INSERT INTO #CodeSets
+SELECT FK_Reference_Coding_ID, c.concept, [description]
+FROM #VersionedCodeSets c
+INNER JOIN (
+  SELECT concept, MAX(version) AS maxVersion FROM #VersionedCodeSets
+  GROUP BY concept)
+sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
+
+INSERT INTO #SnomedSets
+SELECT FK_Reference_SnomedCT_ID, c.concept, [description]
+FROM #VersionedSnomedSets c
+INNER JOIN (
+  SELECT concept, MAX(version) AS maxVersion FROM #VersionedSnomedSets
+  GROUP BY concept)
+sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
+
+-- >>> Following code sets injected: covid-positive-antigen-test v1/covid-positive-pcr-test v1/covid-positive-test-other v1
+
+IF OBJECT_ID('tempdb..#CovidPatientsAllDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsAllDiagnoses;
+CREATE TABLE #CovidPatientsAllDiagnoses (
+	FK_Patient_Link_ID BIGINT,
+	CovidPositiveDate DATE
+);
+BEGIN
+	IF 'false'='true'
+		INSERT INTO #CovidPatientsAllDiagnoses
+		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
+		FROM [RLS].[vw_COVID19]
+		WHERE (
+			(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+		)
+		AND EventDate > '2020-01-01'
+		AND EventDate <= GETDATE();
+	ELSE 
+		INSERT INTO #CovidPatientsAllDiagnoses
+		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
+		FROM [RLS].[vw_COVID19]
+		WHERE (
+			(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+		)
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+		AND EventDate > '2020-01-01'
+		AND EventDate <= GETDATE();
+END
+
+-- We can rely on the GraphNet table for first diagnosis.
+IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
+SELECT FK_Patient_Link_ID, MIN(CovidPositiveDate) AS FirstCovidPositiveDate INTO #CovidPatients
+FROM #CovidPatientsAllDiagnoses
+GROUP BY FK_Patient_Link_ID;
+
+-- Now let's get the dates of any positive test (i.e. not things like suspected, or historic)
+IF OBJECT_ID('tempdb..#AllPositiveTestsTemp') IS NOT NULL DROP TABLE #AllPositiveTestsTemp;
+CREATE TABLE #AllPositiveTestsTemp (
+	FK_Patient_Link_ID BIGINT,
+	TestDate DATE
+);
+BEGIN
+	IF 'false'='true'
+		INSERT INTO #AllPositiveTestsTemp
+		SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
+		FROM RLS.vw_GP_Events
+		WHERE SuppliedCode IN (
+			select Code from #AllCodes 
+			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
+			AND Version = 1
+		);
+	ELSE 
+		INSERT INTO #AllPositiveTestsTemp
+		SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
+		FROM RLS.vw_GP_Events
+		WHERE SuppliedCode IN (
+			select Code from #AllCodes 
+			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
+			AND Version = 1
+		)
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+END
+
+IF OBJECT_ID('tempdb..#CovidPatientsMultipleDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsMultipleDiagnoses;
+CREATE TABLE #CovidPatientsMultipleDiagnoses (
+	FK_Patient_Link_ID BIGINT,
+	FirstCovidPositiveDate DATE,
+	SecondCovidPositiveDate DATE,
+	ThirdCovidPositiveDate DATE,
+	FourthCovidPositiveDate DATE,
+	FifthCovidPositiveDate DATE
+);
+
+-- Populate first diagnosis
+INSERT INTO #CovidPatientsMultipleDiagnoses (FK_Patient_Link_ID, FirstCovidPositiveDate)
+SELECT FK_Patient_Link_ID, MIN(FirstCovidPositiveDate) FROM
+(
+	SELECT * FROM #CovidPatients
+	UNION
+	SELECT * FROM #AllPositiveTestsTemp
+) sub
+GROUP BY FK_Patient_Link_ID;
+
+-- Now let's get second tests.
+UPDATE t1
+SET t1.SecondCovidPositiveDate = NextTestDate
+FROM #CovidPatientsMultipleDiagnoses AS t1
+INNER JOIN (
+SELECT cp.FK_Patient_Link_ID, MIN(apt.TestDate) AS NextTestDate FROM #CovidPatients cp
+INNER JOIN #AllPositiveTestsTemp apt ON cp.FK_Patient_Link_ID = apt.FK_Patient_Link_ID AND apt.TestDate >= DATEADD(day, 90, FirstCovidPositiveDate)
+GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient_Link_ID;
+
+-- Now let's get third tests.
+UPDATE t1
+SET t1.ThirdCovidPositiveDate = NextTestDate
+FROM #CovidPatientsMultipleDiagnoses AS t1
+INNER JOIN (
+SELECT cp.FK_Patient_Link_ID, MIN(apt.TestDate) AS NextTestDate FROM #CovidPatientsMultipleDiagnoses cp
+INNER JOIN #AllPositiveTestsTemp apt ON cp.FK_Patient_Link_ID = apt.FK_Patient_Link_ID AND apt.TestDate >= DATEADD(day, 90, SecondCovidPositiveDate)
+GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient_Link_ID;
+
+-- Now let's get fourth tests.
+UPDATE t1
+SET t1.FourthCovidPositiveDate = NextTestDate
+FROM #CovidPatientsMultipleDiagnoses AS t1
+INNER JOIN (
+SELECT cp.FK_Patient_Link_ID, MIN(apt.TestDate) AS NextTestDate FROM #CovidPatientsMultipleDiagnoses cp
+INNER JOIN #AllPositiveTestsTemp apt ON cp.FK_Patient_Link_ID = apt.FK_Patient_Link_ID AND apt.TestDate >= DATEADD(day, 90, ThirdCovidPositiveDate)
+GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient_Link_ID;
+
+-- Now let's get fifth tests.
+UPDATE t1
+SET t1.FifthCovidPositiveDate = NextTestDate
+FROM #CovidPatientsMultipleDiagnoses AS t1
+INNER JOIN (
+SELECT cp.FK_Patient_Link_ID, MIN(apt.TestDate) AS NextTestDate FROM #CovidPatientsMultipleDiagnoses cp
+INNER JOIN #AllPositiveTestsTemp apt ON cp.FK_Patient_Link_ID = apt.FK_Patient_Link_ID AND apt.TestDate >= DATEADD(day, 90, FourthCovidPositiveDate)
+GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient_Link_ID;
+
+IF OBJECT_ID('tempdb..#COVIDUtilisationAdmissions') IS NOT NULL DROP TABLE #COVIDUtilisationAdmissions;
+SELECT 
+	a.*, 
+	CASE
+		WHEN c.FK_Patient_Link_ID IS NOT NULL THEN 'TRUE'
+		ELSE 'FALSE'
+	END AS CovidHealthcareUtilisation
+INTO #COVIDUtilisationAdmissions 
+FROM #Admissions a
+LEFT OUTER join #CovidPatients c ON 
+	a.FK_Patient_Link_ID = c.FK_Patient_Link_ID 
+	AND a.AdmissionDate <= DATEADD(WEEK, 4, c.FirstCovidPositiveDate)
+	AND a.AdmissionDate >= DATEADD(DAY, -14, c.FirstCovidPositiveDate);
+
+
+----- create anonymised identifier for each hospital
+
+IF OBJECT_ID('tempdb..#hospitals') IS NOT NULL DROP TABLE #hospitals;
+SELECT DISTINCT AcuteProvider
+INTO #hospitals
+FROM #LengthOfStay
+
+IF OBJECT_ID('tempdb..#RandomiseHospital') IS NOT NULL DROP TABLE #RandomiseHospital;
+SELECT AcuteProvider
+	, HospitalID = ROW_NUMBER() OVER (order by newid())
+INTO #RandomiseHospital
+FROM #hospitals
+
+
+--bring together for final output
+SELECT 
+	PatientId = m.FK_Patient_Link_ID,
+	l.AdmissionDate,
+	l.DischargeDate,
+	rh.HospitalID
+FROM #Cohort m 
+LEFT JOIN #LengthOfStay l ON m.FK_Patient_Link_ID = l.FK_Patient_Link_ID
+LEFT OUTER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND c.AdmissionDate = l.AdmissionDate AND c.AcuteProvider = l.AcuteProvider
+LEFT OUTER JOIN #RandomiseHospital rh ON rh.AcuteProvider = l.AcuteProvider
+WHERE c.CovidHealthcareUtilisation = 'TRUE'
+	AND l.AdmissionDate <= @EndDate

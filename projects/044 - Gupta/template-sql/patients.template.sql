@@ -91,6 +91,28 @@ WHERE
 	and (GroupDescription != 'Unknown' and SubGroupDescription != '')
 
 
+--> EXECUTE query-patient-year-of-birth.sql
+
+------------------------------------ CREATE COHORT -------------------------------------
+	-- REGISTERED WITH A GM GP
+	-- OVER  18
+	-- HAD A COVID19 INFECTION
+	-- 2 OR MORE LTCs INCLUDING ONE MENTAL CONDITION
+
+IF OBJECT_ID('tempdb..#Cohort') IS NOT NULL DROP TABLE #Cohort;
+SELECT p.FK_Patient_Link_ID, 
+	EthnicMainGroup,
+	DeathDate,
+	yob.YearOfBirth
+INTO #Cohort
+FROM #Patients p
+LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+WHERE YEAR(@StartDate) - YearOfBirth >= 19 
+	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #covidtests WHERE TestOutcome = 'Positive' )
+	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #2orMoreLTCsIncludingMental)
+
+
+
 -- Get patient list of those with COVID death within 28 days of positive test
 IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT FK_Patient_Link_ID 
@@ -101,7 +123,8 @@ WHERE DeathWithin28Days = 'Y'
 
 --> EXECUTE query-patient-sex.sql
 --> EXECUTE query-patient-imd.sql
---> EXECUTE query-patient-year-of-birth.sql
+--> EXECUTE query-patient-lsoa.sql
+
 --> EXECUTE query-get-covid-vaccines.sql gp-events-table:RLS.vw_GP_Events gp-medications-table:RLS.vw_GP_Medications
 
 
@@ -153,18 +176,14 @@ FROM #PatientsWithLTCs
 GROUP BY FK_Patient_Link_ID
 
 
--- FIND ALL PATIENTS THAT MEET THE FOLLOWING CRITERIA:
-	-- REGISTERED WITH A GM GP
-	-- OVER  18
-	-- HAD A COVID19 INFECTION
-	-- 2 OR MORE LTCs INCLUDING ONE MENTAL CONDITION
+-- BRING TOGETHER FOR FINAL DATA EXTRACT
 
 IF OBJECT_ID('tempdb..#final') IS NOT NULL DROP TABLE #final;
 SELECT DISTINCT 
 	p.FK_Patient_Link_ID, 
-	YearOfBirth, 
+	p.YearOfBirth, 
 	Sex,
-	EthnicMainGroup,
+	p.EthnicMainGroup,
 	LSOA_Code,
 	IMD2019Decile1IsMostDeprived10IsLeastDeprived,
 	DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END,
@@ -216,17 +235,11 @@ SELECT DISTINCT
 	,HO_learning_disability = ISNULL(HO_learning_disability, 0)
 	,HO_alcohol_problems = ISNULL(HO_alcohol_problems, 0)
 	,HO_psychoactive_substance_abuse = ISNULL(HO_psychoactive_substance_abuse, 0)
-INTO #Cohort
-FROM #2orMoreLTCsIncludingMental p 
+FROM #Cohort p 
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDVaccinations vac ON vac.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #HistoryOfLTCs ltc on ltc.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-WHERE P.FK_Patient_Link_ID IN 
-	(SELECT DISTINCT FK_Patient_Link_ID FROM #covidtests WHERE TestOutcome = 'Positive' )
-	AND YEAR(@StartDate) - YearOfBirth >= 19 
-	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #2orMoreLTCsIncludingMental)
+LEFT OUTER JOIN #HistoryOfLTCs ltc on ltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 --70,845
