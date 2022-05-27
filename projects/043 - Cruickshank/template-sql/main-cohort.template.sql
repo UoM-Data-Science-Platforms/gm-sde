@@ -2,11 +2,14 @@
 --│ Main cohort file │
 --└──────────────────┘
 
-TODO 
-- months at lsoa
-- investigate occupation coding
+-- Cohort is everyone who tested positive with COVID-19 infection. 
 
--- Cohort is everyone who tested positive with COVID-19 infection.
+-- PI also wanted Occupation, but there is a higher risk of re-identification if we supply it raw
+-- e.g. if person is an MP, university VC, head teacher, professional sports person etc. Also there
+-- are sensitive occupations like sex worker. Agreed to supply as is, then PI can decide what processing
+-- is required e.g. mapping occupations to key/non-key worker etc. Also PI is aware that occupation
+-- is poorly recorded ~10% of patients.
+
 -- OUTPUT: Data with the following fields
 -- 	- PatientId (int)
 --  - FirstCovidPositiveDate (DDMMYYYY)
@@ -18,6 +21,7 @@ TODO
 --  - DateOfDeath (DDMMYYYY)
 --  - DeathWithin28Days (Y/N)
 --  - LSOA
+--  - LSOAStartDate (NB - this is either when they moved there OR when the data feed started)
 --  - Months at this LSOA (if possible)
 --  - YearOfBirth (YYYY)
 --  - Sex (M/F)
@@ -38,7 +42,6 @@ TODO
 --  - VaccineDose3Date (DDMMYYYY)
 --  - VaccineDose4Date (DDMMYYYY)
 --  - VaccineDose5Date (DDMMYYYY)
---  - Occupation (realises may be poorly coded)
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -227,6 +230,48 @@ SELECT DISTINCT FK_Patient_Link_ID
 INTO #COVIDDeath FROM RLS.vw_COVID19
 WHERE DeathWithin28Days = 'Y';
 
+-- Get start date at LSOA from address history.
+-- NB !! Virtually all start dates are post 2019 i.e. the start date
+-- is either when they moved in OR when the data feed started OR
+-- when they first registered with a GM GP. So not great, but PI is
+-- aware of this.
+
+-- First find the earliest start date for their current LSOA
+IF OBJECT_ID('tempdb..#PatientLSOAEarliestStart') IS NOT NULL DROP TABLE #PatientLSOAEarliestStart;
+select l.FK_Patient_Link_ID, MIN(StartDate) AS EarliestStartDate
+into #PatientLSOAEarliestStart
+from #PatientLSOA l
+left outer join RLS.vw_Patient_Address_History h
+	on h.FK_Patient_Link_ID = l.FK_Patient_Link_ID
+	and h.LSOA_Code = l.LSOA_Code
+group by l.FK_Patient_Link_ID;
+
+-- Now find the most recent end date for not their current LSOA
+IF OBJECT_ID('tempdb..#PatientLSOALatestEnd') IS NOT NULL DROP TABLE #PatientLSOALatestEnd;
+select l.FK_Patient_Link_ID, MAX(EndDate) AS LatestEndDate
+into #PatientLSOALatestEnd
+from #PatientLSOA l
+left outer join RLS.vw_Patient_Address_History h
+	on h.FK_Patient_Link_ID = l.FK_Patient_Link_ID
+	and h.LSOA_Code != l.LSOA_Code
+where EndDate is not null
+group by l.FK_Patient_Link_ID;
+
+-- Bring together. Either earliest start date or most recent end date of a different LSOA (if it exists).
+IF OBJECT_ID('tempdb..#PatientLSOAStartDates') IS NOT NULL DROP TABLE #PatientLSOAStartDates;
+select 
+	s.FK_Patient_Link_ID,
+	CAST (
+	CASE
+		WHEN LatestEndDate is null THEN EarliestStartDate
+		WHEN EarliestStartDate > LatestEndDate THEN EarliestStartDate
+		ELSE LatestEndDate
+	END AS DATE) AS LSOAStartDate
+into #PatientLSOAStartDates
+from #PatientLSOAEarliestStart s
+left outer join #PatientLSOALatestEnd e
+on e.FK_Patient_Link_ID = s.FK_Patient_Link_ID;
+
 SELECT 
   m.FK_Patient_Link_ID AS PatientId,
   FirstCovidPositiveDate,
@@ -242,7 +287,7 @@ SELECT
   YEAR(DeathDate) AS YearOfDeath,
   CASE WHEN covidDeath.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS DeathWithin28DaysCovidPositiveTest,
   LSOA_Code AS LSOA,
-  --MONTHS AT LSOA
+  lsoaStart.LSOAStartDate AS LSOAStartDate,
   YearOfBirth,
   Sex,
   EthnicCategoryDescription,
@@ -265,6 +310,7 @@ SELECT
 FROM #Patients m
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientLSOAStartDates lsoaStart ON lsoaStart.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
