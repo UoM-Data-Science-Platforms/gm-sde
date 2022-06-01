@@ -129,12 +129,6 @@ WHERE (
 -- Below is split up, because doing it without the date filter led to 
 -- an out of memory exception.
 
-SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EntryDate FROM RLS.vw_GP_Events
-WHERE FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier)
-AND EventDate >= '2019-01-01'
-AND EventDate < '2019-02-01'
---2,242,912 records in 4m21
-
 SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EntryDate
 INTO #Encounters
 FROM RLS.vw_GP_Events
@@ -262,14 +256,13 @@ LEFT OUTER JOIN #GPEncounterFinal e ON p.FK_Patient_Link_ID = e.FK_Patient_Link_
 LEFT OUTER JOIN #TableAdmissionAfterGP t ON p.FK_Patient_Link_ID = t.FK_Patient_Link_ID AND p.[Year] = t.[Year] AND p.[Month] = t.[Month];
 
 -- Count
-IF OBJECT_ID('tempdb..#UnplannedAdmissions') IS NOT NULL DROP TABLE #UnplannedAdmissions;
 SELECT [Year], [Month], CCG, GPPracticeCode AS GPPracticeId, 
 	   SUM (CASE WHEN AdmissionAfterGP = 'Y' THEN 1 ELSE 0 END) AS NumberOfUnplannedAdmissionsFollowingEncounter,
 	   SUM (NumberOfGPEncounter) AS NumberOfGPEncounter,
 	   SUM (NumberOfUnplannedAdmissions) AS NumberOfUnplannedAdmissions
-INTO #UnplannedAdmissions
 FROM #Table
 WHERE [Year] IS NOT NULL AND [Month] IS NOT NULL AND (CCG IS NOT NULL OR GPPracticeCode IS NOT NULL)
+	  AND GPPracticeCode NOT LIKE '%DO NOT USE%' AND GPPracticeCode NOT LIKE '%TEST%'
 GROUP BY [Year], [Month], CCG, GPPracticeCode;
 
 

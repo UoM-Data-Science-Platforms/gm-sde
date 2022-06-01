@@ -23,16 +23,9 @@ SELECT DISTINCT FK_Patient_Link_ID INTO #Patients FROM [RLS].vw_Patient;
 
 --> EXECUTE query-classify-secondary-admissions.sql
 
--- Create a table with all patients (ID)=========================================================================================================================
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT DISTINCT FK_Patient_Link_ID INTO #Patients FROM [RLS].vw_Patient;
-
---> EXECUTE query-classify-secondary-admissions.sql
 
 -- Create the table of secondary admision===============================================================================================================
-IF OBJECT_ID('tempdb..#UnplannedAdmission') IS NOT NULL DROP TABLE #UnplannedAdmission;
 SELECT DISTINCT FK_Patient_Link_ID AS PatientId, AdmissionDate AS Date
-INTO #UnplannedAdmission
 FROM #AdmissionTypes
 WHERE YEAR (AdmissionDate) >= 2019 AND AdmissionType = 'Unplanned';
 
