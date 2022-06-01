@@ -1,5 +1,5 @@
 ﻿--+--------------------------------------------------------------------------------+
---¦ People with coded heart failure prescribed NSAIDs as repeat medication         ¦
+--¦ All triggers         ¦
 --+--------------------------------------------------------------------------------+
 
 -------- RESEARCH DATA ENGINEER CHECK ---------
@@ -9,8 +9,7 @@
 -- Month (1-12)
 -- CCG (can be an anonymised id for each CCG)
 -- GPPracticeId
--- NumberOfHFandNSAID (integer) The number of unique patients per month, ccg and practice who have a previous diagnosis of heart failure, and who received a prescription for an NSAID in this month AND who also had an NSAID prescription in the preceding 2 months OR who had 2 or more NSAID prescriptions on different days in this month.
--- NumberOfNSAIDs (integer) The number of patients prescribed an NSAID in this month, ccg and practice.
+-- NumberOfPatients (integer)
 
 -- Set the start date
 DECLARE @StartDate datetime;
@@ -131,10 +130,8 @@ GROUP BY h.FK_Patient_Link_ID, DateOfInterest;
 
 
 -- Count============================================================================================================================================================
-IF OBJECT_ID('tempdb..#MonthlyPatientCounts') IS NOT NULL DROP TABLE #MonthlyPatientCounts;
 SELECT Year, Month, CCG, GPPracticeCode AS GPPracticeId, 
 	   SUM(CASE WHEN Day IS NOT NULL THEN 1 ELSE 0 END) AS NumberOfPatients
-INTO #MonthlyPatientCounts
 FROM #PatientGPPracticesOnDate
 WHERE Year IS NOT NULL AND Month IS NOT NULL AND (CCG IS NOT NULL OR GPPracticeCode IS NOT NULL)
 GROUP BY Year, Month, CCG, CCG, GPPracticeCode;

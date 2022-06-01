@@ -18,8 +18,6 @@ SET NOCOUNT ON;
 
 -- Create the final table==========================================================================================================================================
 -- No OOH data is available
-IF OBJECT_ID('tempdb..#OohOrAeAttendance') IS NOT NULL DROP TABLE #OohOrAeAttendance;
-SELECT DISTINCT FK_Patient_Link_ID AS PatientID, TRY_CONVERT(DATE, SourceDate) AS Date
-INTO #OohOrAeAttendance
+SELECT DISTINCT FK_Patient_Link_ID AS PatientID, TRY_CONVERT(DATE, AttendanceDate) AS Date
 FROM [RLS].[vw_Acute_AE]
-WHERE EventType = 'Attendance' AND TRY_CONVERT(DATE, SourceDate) >= @StartDate;
+WHERE EventType = 'Attendance' AND TRY_CONVERT(DATE, AttendanceDate) >= @StartDate;

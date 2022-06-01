@@ -171,11 +171,10 @@ LEFT OUTER JOIN #HaemoglobinFinal h ON p.FK_Patient_Link_ID = h.FK_Patient_Link_
 LEFT OUTER JOIN #FerritinFinal f ON p.FK_Patient_Link_ID = f.FK_Patient_Link_ID AND p.[Year] = f.[Year] AND p.[Month] = f.[Month];
 
 -- Count for the final table
-IF OBJECT_ID('tempdb..#Over75Haemoblogin') IS NOT NULL DROP TABLE #Over75Haemoblogin;
 SELECT [Year], [Month], CCG, GPPracticeCode AS GPPracticeId, 
 	   SUM(CASE WHEN Age > 75 AND (Haemoglobin_values < 100 OR Ferritin_values < 15) THEN 1 ELSE 0 END) AS NumberOfOver75WithLowHaem,
 	   SUM(CASE WHEN Age > 75 THEN 1 ELSE 0 END) AS NumberOfOver75s
-INTO #Over75Haemoblogin
 FROM #Table
-WHERE [Year] IS NOT NULL AND [Month] IS NOT NULL AND (CCG IS NOT NULL OR GPPracticeCode IS NOT NULL)
+WHERE [Year] IS NOT NULL AND [Month] IS NOT NULL AND (CCG IS NOT NULL OR GPPracticeCode IS NOT NULL) 
+	    AND GPPracticeCode NOT LIKE '%DO NOT USE%' AND GPPracticeCode NOT LIKE '%TEST%'
 GROUP BY [Year], [Month], CCG, GPPracticeCode;
