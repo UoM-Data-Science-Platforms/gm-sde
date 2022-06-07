@@ -161,4 +161,5 @@ SELECT [Year], [Month], CCG, GPPracticeCode AS GPPracticeId,
 INTO #eGFRPerMonth
 FROM #TableCount
 WHERE [Year] IS NOT NULL AND [Month] IS NOT NULL AND (CCG IS NOT NULL OR GPPracticeCode IS NOT NULL)
+	  AND GPPracticeCode NOT LIKE '%DO NOT USE%' AND GPPracticeCode NOT LIKE '%TEST%'
 GROUP BY [Year], [Month], CCG, GPPracticeCode;

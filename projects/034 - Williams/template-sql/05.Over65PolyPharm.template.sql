@@ -154,15 +154,14 @@ INTO #TableCount
 FROM #Table;
 
 -- Count
-IF OBJECT_ID('tempdb..#Over65PolyPharm') IS NOT NULL DROP TABLE #Over65PolyPharm;
 SELECT [Year], [Month], CCG, GPPracticeCode AS GPPracticeId, 
 	   SUM(CASE WHEN Age > 65 AND (ACEIARB IS NOT NULL OR ACEIARB_last_month IS NOT NULL) 
 							  AND (Diuretic IS NOT NULL OR Diuretic_last_month IS NOT NULL) 
 							  AND (NSAIDS IS NOT NULL OR NSAIDS_last_month IS NOT NULL) THEN 1 ELSE 0 END) AS NumberOfOver65PolyPharm,
 	   SUM(CASE WHEN Age > 65 THEN 1 ELSE 0 END) AS NumberOfOver65s
-INTO #Over65PolyPharm
 FROM #TableCount
 WHERE [Year] IS NOT NULL AND [Month] IS NOT NULL AND (CCG IS NOT NULL OR GPPracticeCode IS NOT NULL)
+	  AND GPPracticeCode NOT LIKE '%DO NOT USE%' AND GPPracticeCode NOT LIKE '%TEST%'
 GROUP BY [Year], [Month], CCG, GPPracticeCode;
 
 

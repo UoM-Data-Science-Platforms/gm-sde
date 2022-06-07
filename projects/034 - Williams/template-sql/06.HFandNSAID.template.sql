@@ -166,13 +166,12 @@ INTO #TableCount
 FROM #Table t
 
 --- Count
-IF OBJECT_ID('tempdb..#HFandNSAID') IS NOT NULL DROP TABLE #HFandNSAID;
 SELECT [Year], Month, CCG, GPPracticeCode AS GPPracticeId, 
 	   SUM(CASE WHEN HF_fill IS NOT NULL AND (NSAIDS_3_consecutive_months = 'Y' OR NSAIDS_per_month >= 2) THEN 1 ELSE 0 END) AS NumberOfHFandNSAID,
 	   SUM(CASE WHEN NSAIDS_per_month IS NOT NULL THEN 1 ELSE 0 END) AS NumberOfNSAIDs
-INTO #HFandNSAID
 FROM #TableCount
 WHERE [Year] IS NOT NULL AND Month IS NOT NULL AND (CCG IS NOT NULL OR GPPracticeCode IS NOT NULL)
+	  AND GPPracticeCode NOT LIKE '%DO NOT USE%' AND GPPracticeCode NOT LIKE '%TEST%'
 GROUP BY [Year], [Month], CCG, GPPracticeCode;
 
 

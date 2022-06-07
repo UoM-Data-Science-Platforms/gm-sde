@@ -1,5 +1,5 @@
 ﻿--+---------------------------------------------------------------------------+
---¦ Patients with a new allergy code                                          ¦
+--¦ Patients with a new diagnosis                                             ¦
 --+---------------------------------------------------------------------------+
 
 -------- RESEARCH DATA ENGINEER CHECK ---------
@@ -486,9 +486,7 @@ SELECT * FROM #COPDFirst;
 
 
 -- Create the final table============================================================================================================================
-IF OBJECT_ID('tempdb..#NewDiagnoses') IS NOT NULL DROP TABLE #NewDiagnoses;
 SELECT DISTINCT FK_Patient_Link_ID AS PatientId, EventDate AS [Date] 
-INTO #NewDiagnoses
 FROM #Table
 WHERE YEAR(EventDate) >= 2019;
 
