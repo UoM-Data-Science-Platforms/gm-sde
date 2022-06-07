@@ -34,15 +34,18 @@ Prior to data extraction, the code is checked and signed off by another RDE.
 This project required the following reusable queries:
 
 - COVID vaccinations
+- Smoking status
+- BMI
+- Lower level super output area
 - Index Multiple Deprivation
 - Sex
-- Year of birth
-- GET No. LTCS per patient
-- Long-term conditions and comorbidities
 - COVID-related secondary admissions
 - Patients with COVID
 - Secondary admissions and length of stay
 - Secondary discharges
+- Year of birth
+- GET No. LTCS per patient
+- Long-term conditions and comorbidities
 
 Further details for each query can be found below.
 
@@ -77,6 +80,97 @@ A temp table as follows:
 _File_: `query-get-covid-vaccines.sql`
 
 _Link_: [https://github.com/rw251/.../query-get-covid-vaccines.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-covid-vaccines.sql)
+
+---
+### Smoking status
+To get the smoking status for each patient in a cohort.
+
+_Assumptions_
+
+- We take the most recent smoking status in a patient's record to be correct
+- However, there is likely confusion between the "non smoker" and "never smoked" codes. Especially as sometimes the synonyms for these codes overlap. Therefore, a patient wih a most recent smoking status of "never", but who has previous smoking codes, would be classed as WorstSmokingStatus=non-trivial-smoker / CurrentSmokingStatus=non-smoker
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+ Also takes one parameter:
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID, and FK_Reference_SnomedCT_ID
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientSmokingStatus (FK_Patient_Link_ID, PassiveSmoker, WorstSmokingStatus, CurrentSmokingStatus)
+	- FK_Patient_Link_ID - unique patient id
+	- PassiveSmoker - Y/N (whether a patient has ever had a code for passive smoking)
+	- WorstSmokingStatus - [non-trivial-smoker/trivial-smoker/non-smoker]
+	- CurrentSmokingStatus - [non-trivial-smoker/trivial-smoker/non-smoker]
+```
+_File_: `query-patient-smoking-status.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-smoking-status.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-smoking-status.sql)
+
+---
+### BMI
+To get the BMI for each patient in a cohort.
+
+_Assumptions_
+
+- We take the measurement closest to @IndexDate to be correct
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+ Also takes one parameter:
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID, and FK_Reference_SnomedCT_ID
+ Also assumes there is an @IndexDate defined - The index date of the study
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientBMI (FK_Patient_Link_ID, BMI, DateOfBMIMeasurement)
+	- FK_Patient_Link_ID - unique patient id
+  - BMI
+  - DateOfBMIMeasurement
+```
+_File_: `query-patient-bmi.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-bmi.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-bmi.sql)
+
+---
+### Lower level super output area
+To get the LSOA for each patient.
+
+_Assumptions_
+
+- Patient data is obtained from multiple sources. Where patients have multiple LSOAs we determine the LSOA as follows:
+- If the patients has an LSOA in their primary care data feed we use that as most likely to be up to date
+- If every LSOA for a paitent is the same, then we use that
+- If there is a single most recently updated LSOA in the database then we use that
+- Otherwise the patient's LSOA is considered unknown
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientLSOA (FK_Patient_Link_ID, LSOA)
+ 	- FK_Patient_Link_ID - unique patient id
+	- LSOA_Code - nationally recognised LSOA identifier
+```
+_File_: `query-patient-lsoa.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-lsoa.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-lsoa.sql)
 
 ---
 ### Index Multiple Deprivation
@@ -129,84 +223,6 @@ A temp table as follows:
 _File_: `query-patient-sex.sql`
 
 _Link_: [https://github.com/rw251/.../query-patient-sex.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-sex.sql)
-
----
-### Year of birth
-To get the year of birth for each patient.
-
-_Assumptions_
-
-- Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:
-- If the patients has a YOB in their primary care data feed we use that as most likely to be up to date
-- If every YOB for a patient is the same, then we use that
-- If there is a single most recently updated YOB in the database then we use that
-- Otherwise we take the highest YOB for the patient that is not in the future
-
-_Input_
-```
-Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-```
-
-_Output_
-```
-A temp table as follows:
- #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
- 	- FK_Patient_Link_ID - unique patient id
-	- YearOfBirth - INT
-```
-_File_: `query-patient-year-of-birth.sql`
-
-_Link_: [https://github.com/rw251/.../query-patient-year-of-birth.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-year-of-birth.sql)
-
----
-### GET No. LTCS per patient
-To get the number of long-term conditions for each patient.
-
-_Input_
-```
-Assumes there exists a temp table as follows:
- #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
- Therefore this is run after query-patient-ltcs.sql
-```
-
-_Output_
-```
-A temp table with a row for each patient with the number of LTCs they have
- #NumLTCs (FK_Patient_Link_ID, NumberOfLTCs)
-```
-_File_: `query-patient-ltcs-number-of.sql`
-
-_Link_: [https://github.com/rw251/.../query-patient-ltcs-number-of.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-number-of.sql)
-
----
-### Long-term conditions and comorbidities
-To get long-term conditions for each patient within a date range.
-
-_Input_
-```
-Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
- A distinct list of FK_Patient_Link_IDs for each patient in the cohort
- @IndexDate - The index date of the study
- @MinDate - The minimum date that the study has access from
-```
-
-_Output_
-```
-A temp table with a row for each patient and ltc combo
- #PatientsWithLTCs
-   FK_Patient_Link_ID,
-   Condition,
-   FirstDate,
-   LastDate,
-   NoInLastYear,number of times mentioned in year prior to index date
-   LTCflag, flag to indicate whether is a long condition (Y) or not (N) - see comments on code for defining long term conditions.
-```
-_File_: `query-patient-ltcs-date-range.sql`
-
-_Link_: [https://github.com/rw251/.../query-patient-ltcs-date-range.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-date-range.sql)
 
 ---
 ### COVID-related secondary admissions
@@ -326,6 +342,84 @@ A temp table as follows:
 _File_: `query-get-discharges.sql`
 
 _Link_: [https://github.com/rw251/.../query-get-discharges.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-discharges.sql)
+
+---
+### Year of birth
+To get the year of birth for each patient.
+
+_Assumptions_
+
+- Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:
+- If the patients has a YOB in their primary care data feed we use that as most likely to be up to date
+- If every YOB for a patient is the same, then we use that
+- If there is a single most recently updated YOB in the database then we use that
+- Otherwise we take the highest YOB for the patient that is not in the future
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
+ 	- FK_Patient_Link_ID - unique patient id
+	- YearOfBirth - INT
+```
+_File_: `query-patient-year-of-birth.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-year-of-birth.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-year-of-birth.sql)
+
+---
+### GET No. LTCS per patient
+To get the number of long-term conditions for each patient.
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
+ Therefore this is run after query-patient-ltcs.sql
+```
+
+_Output_
+```
+A temp table with a row for each patient with the number of LTCs they have
+ #NumLTCs (FK_Patient_Link_ID, NumberOfLTCs)
+```
+_File_: `query-patient-ltcs-number-of.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-ltcs-number-of.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-number-of.sql)
+
+---
+### Long-term conditions and comorbidities
+To get long-term conditions for each patient within a date range.
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+ A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+ @IndexDate - The index date of the study
+ @MinDate - The minimum date that the study has access from
+```
+
+_Output_
+```
+A temp table with a row for each patient and ltc combo
+ #PatientsWithLTCs
+   FK_Patient_Link_ID,
+   Condition,
+   FirstDate,
+   LastDate,
+   NoInLastYear,number of times mentioned in year prior to index date
+   LTCflag, flag to indicate whether is a long condition (Y) or not (N) - see comments on code for defining long term conditions.
+```
+_File_: `query-patient-ltcs-date-range.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-ltcs-date-range.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-date-range.sql)
 ## Clinical code sets
 
 This project required the following clinical code sets:
@@ -333,7 +427,23 @@ This project required the following clinical code sets:
 - covid-positive-antigen-test v1
 - covid-positive-pcr-test v1
 - covid-positive-test-other v1
+- bmi v2
+- smoking-status-current v1
+- smoking-status-currently-not v1
+- smoking-status-ex v1
+- smoking-status-ex-trivial v1
+- smoking-status-never v1
+- smoking-status-passive v1
+- smoking-status-trivial v1
 - covid-vaccination v1
+- systolic-blood-pressure v1
+- diastolic-blood-pressure v1
+- hba1c v2
+- cholesterol v2
+- ldl-cholesterol v1
+- hdl-cholesterol v1
+- triglycerides v1
+- egfr v1
 
 Further details for each code set can be found below.
 
@@ -391,6 +501,61 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 LINK: [https://github.com/rw251/.../tests/covid-positive-test-other/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/covid-positive-test-other/1)
 
+### Body Mass Index (BMI)
+
+A patient's BMI as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`22K.. - Body Mass Index`). It does not include codes that indicate a patient's BMI (`22K6. - Body mass index less than 20`) without giving the actual value.
+
+**NB: This code set is intended to indicate a patient's BMI. If you need to know whether a BMI was recorded then please use v1 of the code set.**
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `63.96% - 79.69%` suggests that this code set is perhaps not well defined. However, as EMIS (80% of practices) and TPP (10% of practices) are close, it could simply be down to Vision automatically recording BMIs and therefore increasing the prevalence there.
+
+**UPDATE** By looking at the prevalence of patients with a BMI code that also has a non-zero value the range becomes `62.48% - 64.93%` which suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-07 | EMIS            | 2605681    | 1709250 (65.60%) |  1709224 (65.60%) |
+| 2021-05-07 | TPP             | 210817     |  134841 (63.96%) |   134835 (63.96%) |
+| 2021-05-07 | Vision          | 334632     |  266612 (79.67%) |   266612 (79.67%) |
+| 2021-05-11 | EMIS            | 2606497    | 1692442 (64.93%) |  1692422 (64.93%) |
+| 2021-05-11 | TPP             | 210810     |  134652 (63.87%) |   134646 (63.87%) |
+| 2021-05-11 | Vision          | 334784     |  209175 (62.48%) |   209175 (62.48%) |
+
+LINK: [https://github.com/rw251/.../patient/bmi/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/bmi/2)
+
+### Smoking status current
+
+Any code suggestive that a patient is a current smoker.
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-current/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-current/1)
+
+### Smoking status currently not
+
+Any code suggestive that a patient is currently a non-smoker. This is different to the "never smoked" code set.
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-currently-not/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-currently-not/1)
+
+### Smoking status ex
+
+Any code suggestive that a patient is an ex-smoker.
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-ex/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-ex/1)
+
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-ex-trivial/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-ex-trivial/1)
+
+### Smoking status never
+
+Any code suggestive that a patient has never smoked. This is different to the "currently not" code set.
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-never/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-never/1)
+
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-passive/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-passive/1)
+
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-trivial/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-trivial/1)
+
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
@@ -426,6 +591,134 @@ EVENT
 | 2022-03-18 | Vision          | 341594     |   312617 (91.5%) |     62512 (18.3%) |
 
 LINK: [https://github.com/rw251/.../procedures/covid-vaccination/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/covid-vaccination/1)
+
+### Systolic Blood pressure
+
+Any indication that systolic blood pressure has been recorded for a patient. This code set only includes codes that are accompanied by a value (`2469. - O/E - Systolic BP reading`).
+
+Blood pressure codes retrieved from [GetSet](https://getset.ga) and metadata available in this directory.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `64.46% - 67.00%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1741342 (66.21%) |  1741342 (66.21%) |
+| 2021-10-13 | TPP             | 211812     |  137571 (64.95%) |   137571 (64.95%) |
+| 2021-10-13 | Vision          | 338205     |  208971 (61.79%) |   208971 (61.79%) |
+LINK: [https://github.com/rw251/.../tests/systolic-blood-pressure/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/systolic-blood-pressure/1)
+
+### Diastolic Blood pressure
+
+Any diastolic blood pressure measurements, with values, that have been recorded for a patient.
+
+Blood pressure codes retrieved from [GetSet](https://getset.ga) and metadata available in this directory.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `64.46% - 67.00%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1741082 (66.21%) |  1741077 (66.21%) |
+| 2021-10-13 | TPP             | 211812     |  137567 (64.95%) |   137567 (64.95%) |
+| 2021-10-13 | Vision          | 338205     |  208958 (61.79%) |   208958 (61.79%) |
+LINK: [https://github.com/rw251/.../tests/diastolic-blood-pressure/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/diastolic-blood-pressure/1)
+
+### HbA1c
+
+A patient's HbA1c as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`1003671000000109 - Haemoglobin A1c level`). It does not include codes that indicate a patient's BMI (`165679005 - Haemoglobin A1c (HbA1c) less than 7%`) without giving the actual value.
+
+**NB: This code set is intended to indicate a patient's HbA1c. If you need to know whether a HbA1c was recorded then please use v1 of the code set.**
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `44.93% - 50.88%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-07 | EMIS            | 2605681    | 1170688 (44.93%) |  1170688 (44.93%) |
+| 2021-05-07 | TPP             | 210817     |   98972 (46.95%) |    98972 (46.95%) |
+| 2021-05-07 | Vision          | 334632     |  170245 (50.88%) |   170245 (50.88%) |
+
+LINK: [https://github.com/rw251/.../tests/hba1c/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/hba1c/2)
+
+### Cholesterol
+
+A patient's total cholesterol as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`44P.. Serum cholesterol`). It does not include codes that indicate a patient's BMI (`44P3. - Serum cholesterol raised`) without giving the actual value.
+
+**NB: This code set is intended to indicate a patient's total cholesterol. If you need to know whether a cholesterol was recorded then please use v1 of the code set.**
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `43.99% - 49.34%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-11 | EMIS            | 2606497    | 1146925 (44.00%) |  1146651 (43.99%) |
+| 2021-05-11 | TPP             | 210810     |   98627 (46.78%) |    98627 (46.78%) |
+| 2021-05-11 | Vision          | 334784     |  165186 (49.34%) |   165186 (49.34%) |
+
+LINK: [https://github.com/rw251/.../tests/cholesterol/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/cholesterol/2)
+
+### LDL Cholesterol
+
+A patient's LDL cholesterol as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`44P6.00 - Serum LDL cholesterol level`).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `41.22% - 45.54%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1102872 (41.94%) |  1102872 (41.94%) |
+| 2021-10-13 | TPP             | 211812     |   91673 (43.28%) |    91673 (43.28%) |
+| 2021-10-13 | Vision          | 338205     |  154055 (45.55%) |   154055 (45.55%) |
+
+LINK: [https://github.com/rw251/.../tests/ldl-cholesterol/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/ldl-cholesterol/1)
+
+### HDL Cholesterol
+
+A patient's HDL cholesterol as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`44P5.00 - Serum HDL cholesterol level`).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `43.66% - 48.97%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1168326 (44.42%) |  1168326 (44.42%) |
+| 2021-10-13 | TPP             | 211812     |  100823 (47.60%) |   100823 (47.60%) |
+| 2021-10-13 | Vision          | 338205     |  165935 (49.06%) |   165935 (49.06%) |
+
+LINK: [https://github.com/rw251/.../tests/hdl-cholesterol/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/hdl-cholesterol/1)
+
+### Triglyceride (level)
+
+A patient's triglyceride level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`44Q..00 - Serum triglycerides`). It does not include codes that indicate a patient's creatinine (`44Q3.00 - Serum triglycerides raised') without giving the actual value.
+
+Codes taken from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `43.18% - 48.34%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-10-13 | EMIS            | 26929848   | 1135572 (43.18%) |  1135572 (43.18%) |
+| 2021-10-13 | TPP             | 211812     |   99188 (46.82%) |    99188 (46.82%) |
+| 2021-10-13 | Vision          | 338205     |  163502 (48.34%) |   163502 (48.34%) |
+
+LINK: [https://github.com/rw251/.../tests/triglycerides/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/triglycerides/1)
+
+### Glomerular filtration rate (GFR)
+
+Any code that gives the value of a patient's GFR (or estimated GFR - EGFR).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `52.43% - 57.73%` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-06-10 | EMIS            | 2610073    | 1369349 (52.46%) |  1368468 (52.43%) |
+| 2021-06-10 | TPP             | 211034     |  121897 (57.76%) |   121835 (57.73%) |
+| 2021-06-10 | Vision          | 335344     |  184635 (55.06%) |   184523 (55.02%) |
+
+LINK: [https://github.com/rw251/.../tests/egfr/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/egfr/1)
 # Clinical code sets
 
 All code sets required for this analysis are listed here. Individual lists for each concept can also be found by using the links above.
@@ -474,6 +767,178 @@ All code sets required for this analysis are listed here. Individual lists for e
 |covid-positive-test-other v1|emis|EMISNQCO303|Confirmed 2019-nCoV (novel coronavirus) infection|
 |covid-positive-test-other v1|emis|^ESCT1348575|Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)|
 |covid-positive-test-other v1|readv2|4J3R1|2019-nCoV (novel coronavirus) detected |
+|bmi v2|ctv3|22K..|Body Mass Index|
+|bmi v2|readv2|22K..00|Body Mass Index|
+|bmi v2|snomed|301331008|Finding of body mass index (finding)|
+|smoking-status-current v1|ctv3|1373.|Lt cigaret smok, 1-9 cigs/day|
+|smoking-status-current v1|ctv3|1374.|Mod cigaret smok, 10-19 cigs/d|
+|smoking-status-current v1|ctv3|1375.|Hvy cigaret smok, 20-39 cigs/d|
+|smoking-status-current v1|ctv3|1376.|Very hvy cigs smoker,40+cigs/d|
+|smoking-status-current v1|ctv3|137C.|Keeps trying to stop smoking|
+|smoking-status-current v1|ctv3|137D.|Admitted tobacco cons untrue ?|
+|smoking-status-current v1|ctv3|137G.|Trying to give up smoking|
+|smoking-status-current v1|ctv3|137H.|Pipe smoker|
+|smoking-status-current v1|ctv3|137J.|Cigar smoker|
+|smoking-status-current v1|ctv3|137M.|Rolls own cigarettes|
+|smoking-status-current v1|ctv3|137P.|Cigarette smoker|
+|smoking-status-current v1|ctv3|137Q.|Smoking started|
+|smoking-status-current v1|ctv3|137R.|Current smoker|
+|smoking-status-current v1|ctv3|137Z.|Tobacco consumption NOS|
+|smoking-status-current v1|ctv3|Ub1tI|Cigarette consumption|
+|smoking-status-current v1|ctv3|Ub1tJ|Cigar consumption|
+|smoking-status-current v1|ctv3|Ub1tK|Pipe tobacco consumption|
+|smoking-status-current v1|ctv3|XaBSp|Smoking restarted|
+|smoking-status-current v1|ctv3|XaIIu|Smoking reduced|
+|smoking-status-current v1|ctv3|XaIkW|Thinking about stop smoking|
+|smoking-status-current v1|ctv3|XaIkX|Ready to stop smoking|
+|smoking-status-current v1|ctv3|XaIkY|Not interested stop smoking|
+|smoking-status-current v1|ctv3|XaItg|Reason for restarting smoking|
+|smoking-status-current v1|ctv3|XaIuQ|Cigarette pack-years|
+|smoking-status-current v1|ctv3|XaJX2|Min from wake to 1st tobac con|
+|smoking-status-current v1|ctv3|XaWNE|Failed attempt to stop smoking|
+|smoking-status-current v1|ctv3|XaZIE|Waterpipe tobacco consumption|
+|smoking-status-current v1|ctv3|XE0og|Tobacco smoking consumption|
+|smoking-status-current v1|ctv3|XE0oq|Cigarette smoker|
+|smoking-status-current v1|ctv3|XE0or|Smoking started|
+|smoking-status-current v1|readv2|137P.00|Cigarette smoker|
+|smoking-status-current v1|readv2|137P.11|Smoker|
+|smoking-status-current v1|readv2|13p3.00|Smoking status at 52 weeks|
+|smoking-status-current v1|readv2|1374.00|Moderate smoker - 10-19 cigs/d|
+|smoking-status-current v1|readv2|137G.00|Trying to give up smoking|
+|smoking-status-current v1|readv2|137R.00|Current smoker|
+|smoking-status-current v1|readv2|1376.00|Very heavy smoker - 40+cigs/d|
+|smoking-status-current v1|readv2|1375.00|Heavy smoker - 20-39 cigs/day|
+|smoking-status-current v1|readv2|1373.00|Light smoker - 1-9 cigs/day|
+|smoking-status-current v1|readv2|137M.00|Rolls own cigarettes|
+|smoking-status-current v1|readv2|137o.00|Waterpipe tobacco consumption|
+|smoking-status-current v1|readv2|137m.00|Failed attempt to stop smoking|
+|smoking-status-current v1|readv2|137h.00|Minutes from waking to first tobacco consumption|
+|smoking-status-current v1|readv2|137g.00|Cigarette pack-years|
+|smoking-status-current v1|readv2|137f.00|Reason for restarting smoking|
+|smoking-status-current v1|readv2|137e.00|Smoking restarted|
+|smoking-status-current v1|readv2|137d.00|Not interested in stopping smoking|
+|smoking-status-current v1|readv2|137c.00|Thinking about stopping smoking|
+|smoking-status-current v1|readv2|137b.00|Ready to stop smoking|
+|smoking-status-current v1|readv2|137C.00|Keeps trying to stop smoking|
+|smoking-status-current v1|readv2|137J.00|Cigar smoker|
+|smoking-status-current v1|readv2|137H.00|Pipe smoker|
+|smoking-status-current v1|readv2|137a.00|Pipe tobacco consumption|
+|smoking-status-current v1|readv2|137Z.00|Tobacco consumption NOS|
+|smoking-status-current v1|readv2|137Y.00|Cigar consumption|
+|smoking-status-current v1|readv2|137X.00|Cigarette consumption|
+|smoking-status-current v1|readv2|137V.00|Smoking reduced|
+|smoking-status-current v1|readv2|137Q.00|Smoking started|
+|smoking-status-current v1|readv2|137Q.11|Smoking restarted|
+|smoking-status-current v1|snomed|266929003|Smoking started (life style)|
+|smoking-status-current v1|snomed|836001000000109|Waterpipe tobacco consumption (observable entity)|
+|smoking-status-current v1|snomed|77176002|Smoker (life style)|
+|smoking-status-current v1|snomed|65568007|Cigarette smoker (life style)|
+|smoking-status-current v1|snomed|394873005|Not interested in stopping smoking (finding)|
+|smoking-status-current v1|snomed|394872000|Ready to stop smoking (finding)|
+|smoking-status-current v1|snomed|394871007|Thinking about stopping smoking (observable entity)|
+|smoking-status-current v1|snomed|266918002|Tobacco smoking consumption (observable entity)|
+|smoking-status-current v1|snomed|230057008|Cigar consumption (observable entity)|
+|smoking-status-current v1|snomed|230056004|Cigarette consumption (observable entity)|
+|smoking-status-current v1|snomed|160623006|Smoking: [started] or [restarted]|
+|smoking-status-current v1|snomed|160622001|Smoker (& cigarette)|
+|smoking-status-current v1|snomed|160619003|Rolls own cigarettes (finding)|
+|smoking-status-current v1|snomed|160616005|Trying to give up smoking (finding)|
+|smoking-status-current v1|snomed|160612007|Keeps trying to stop smoking (finding)|
+|smoking-status-current v1|snomed|160606002|Very heavy cigarette smoker (40+ cigs/day) (life style)|
+|smoking-status-current v1|snomed|160605003|Heavy cigarette smoker (20-39 cigs/day) (life style)|
+|smoking-status-current v1|snomed|160604004|Moderate cigarette smoker (10-19 cigs/day) (life style)|
+|smoking-status-current v1|snomed|160603005|Light cigarette smoker (1-9 cigs/day) (life style)|
+|smoking-status-current v1|snomed|59978006|Cigar smoker (life style)|
+|smoking-status-current v1|snomed|446172000|Failed attempt to stop smoking (finding)|
+|smoking-status-current v1|snomed|413173009|Minutes from waking to first tobacco consumption (observable entity)|
+|smoking-status-current v1|snomed|401201003|Cigarette pack-years (observable entity)|
+|smoking-status-current v1|snomed|401159003|Reason for restarting smoking (observable entity)|
+|smoking-status-current v1|snomed|308438006|Smoking restarted (life style)|
+|smoking-status-current v1|snomed|230058003|Pipe tobacco consumption (observable entity)|
+|smoking-status-current v1|snomed|134406006|Smoking reduced (observable entity)|
+|smoking-status-current v1|snomed|82302008|Pipe smoker (life style)|
+|smoking-status-currently-not v1|ctv3|Ub0oq|Non-smoker|
+|smoking-status-currently-not v1|ctv3|137L.|Current non-smoker|
+|smoking-status-currently-not v1|readv2|137L.00|Current non-smoker|
+|smoking-status-currently-not v1|snomed|160618006|Current non-smoker (life style)|
+|smoking-status-currently-not v1|snomed|8392000|Non-smoker (life style)|
+|smoking-status-ex v1|ctv3|1378.|Ex-light smoker (1-9/day)|
+|smoking-status-ex v1|ctv3|1379.|Ex-moderate smoker (10-19/day)|
+|smoking-status-ex v1|ctv3|137A.|Ex-heavy smoker (20-39/day)|
+|smoking-status-ex v1|ctv3|137B.|Ex-very heavy smoker (40+/day)|
+|smoking-status-ex v1|ctv3|137F.|Ex-smoker - amount unknown|
+|smoking-status-ex v1|ctv3|137K.|Stopped smoking|
+|smoking-status-ex v1|ctv3|137N.|Ex-pipe smoker|
+|smoking-status-ex v1|ctv3|137O.|Ex-cigar smoker|
+|smoking-status-ex v1|ctv3|137T.|Date ceased smoking|
+|smoking-status-ex v1|ctv3|Ub1na|Ex-smoker|
+|smoking-status-ex v1|ctv3|Xa1bv|Ex-cigarette smoker|
+|smoking-status-ex v1|ctv3|XaIr7|Smoking free weeks|
+|smoking-status-ex v1|ctv3|XaKlS|[V]PH of tobacco abuse|
+|smoking-status-ex v1|ctv3|XaQ8V|Ex roll-up cigarette smoker|
+|smoking-status-ex v1|ctv3|XaQzw|Recently stopped smoking|
+|smoking-status-ex v1|ctv3|XE0ok|Ex-light cigaret smok, 1-9/day|
+|smoking-status-ex v1|ctv3|XE0ol|Ex-mod cigaret smok, 10-19/day|
+|smoking-status-ex v1|ctv3|XE0om|Ex-heav cigaret smok,20-39/day|
+|smoking-status-ex v1|ctv3|XE0on|Ex-very hv cigaret smk,40+/day|
+|smoking-status-ex v1|readv2|137l.00|Ex roll-up cigarette smoker|
+|smoking-status-ex v1|readv2|137j.00|Ex-cigarette smoker|
+|smoking-status-ex v1|readv2|137S.00|Ex smoker|
+|smoking-status-ex v1|readv2|137O.00|Ex cigar smoker|
+|smoking-status-ex v1|readv2|137N.00|Ex pipe smoker|
+|smoking-status-ex v1|readv2|137F.00|Ex-smoker - amount unknown|
+|smoking-status-ex v1|readv2|137B.00|Ex-very heavy smoker (40+/day)|
+|smoking-status-ex v1|readv2|137A.00|Ex-heavy smoker (20-39/day)|
+|smoking-status-ex v1|readv2|1379.00|Ex-moderate smoker (10-19/day)|
+|smoking-status-ex v1|readv2|1378.00|Ex-light smoker (1-9/day)|
+|smoking-status-ex v1|readv2|137K.00|Stopped smoking|
+|smoking-status-ex v1|readv2|137K000|Recently stopped smoking|
+|smoking-status-ex v1|readv2|137T.00|Date ceased smoking|
+|smoking-status-ex v1|readv2|13p4.00|Smoking free weeks|
+|smoking-status-ex v1|snomed|160617001|Stopped smoking (life style)|
+|smoking-status-ex v1|snomed|160620009|Ex-pipe smoker (life style)|
+|smoking-status-ex v1|snomed|160621008|Ex-cigar smoker (life style)|
+|smoking-status-ex v1|snomed|160625004|Date ceased smoking (observable entity)|
+|smoking-status-ex v1|snomed|266922007|Ex-light cigarette smoker (1-9/day) (life style)|
+|smoking-status-ex v1|snomed|266923002|Ex-moderate cigarette smoker (10-19/day) (life style)|
+|smoking-status-ex v1|snomed|266924008|Ex-heavy cigarette smoker (20-39/day) (life style)|
+|smoking-status-ex v1|snomed|266925009|Ex-very heavy cigarette smoker (40+/day) (life style)|
+|smoking-status-ex v1|snomed|281018007|Ex-cigarette smoker (life style)|
+|smoking-status-ex v1|snomed|395177003|Smoking free weeks (observable entity)|
+|smoking-status-ex v1|snomed|492191000000103|Ex roll-up cigarette smoker (finding)|
+|smoking-status-ex v1|snomed|517211000000106|Recently stopped smoking (finding)|
+|smoking-status-ex v1|snomed|8517006|Ex-smoker (life style)|
+|smoking-status-ex-trivial v1|ctv3|XE0oj|Ex-triv cigaret smoker, <1/day|
+|smoking-status-ex-trivial v1|ctv3|1377.|Ex-trivial smoker (<1/day)|
+|smoking-status-ex-trivial v1|readv2|1377.00|Ex-trivial smoker (<1/day)|
+|smoking-status-ex-trivial v1|snomed|266921000|Ex-trivial cigarette smoker (<1/day) (life style)|
+|smoking-status-never v1|ctv3|XE0oh|Never smoked tobacco|
+|smoking-status-never v1|ctv3|1371.|Never smoked tobacco|
+|smoking-status-never v1|readv2|1371.00|Never smoked tobacco|
+|smoking-status-never v1|snomed|160601007|Non-smoker (& [never smoked tobacco])|
+|smoking-status-never v1|snomed|266919005|Never smoked tobacco (life style)|
+|smoking-status-passive v1|ctv3|137I.|Passive smoker|
+|smoking-status-passive v1|ctv3|Ub0pe|Exposed to tobacco smoke at work|
+|smoking-status-passive v1|ctv3|Ub0pf|Exposed to tobacco smoke at home|
+|smoking-status-passive v1|ctv3|Ub0pg|Exposed to tobacco smoke in public places|
+|smoking-status-passive v1|ctv3|13WF4|Passive smoking risk|
+|smoking-status-passive v1|readv2|137I.00|Passive smoker|
+|smoking-status-passive v1|readv2|137I000|Exposed to tobacco smoke at home|
+|smoking-status-passive v1|readv2|13WF400|Passive smoking risk|
+|smoking-status-passive v1|snomed|43381005|Passive smoker (finding)|
+|smoking-status-passive v1|snomed|161080002|Passive smoking risk (environment)|
+|smoking-status-passive v1|snomed|228523000|Exposed to tobacco smoke at work (finding)|
+|smoking-status-passive v1|snomed|228524006|Exposed to tobacco smoke at home (finding)|
+|smoking-status-passive v1|snomed|228525007|Exposed to tobacco smoke in public places (finding)|
+|smoking-status-passive v1|snomed|713142003|At risk from passive smoking (finding)|
+|smoking-status-passive v1|snomed|722451000000101|Passive smoking (qualifier value)|
+|smoking-status-trivial v1|ctv3|XagO3|Occasional tobacco smoker|
+|smoking-status-trivial v1|ctv3|XE0oi|Triv cigaret smok, < 1 cig/day|
+|smoking-status-trivial v1|ctv3|1372.|Trivial smoker - < 1 cig/day|
+|smoking-status-trivial v1|readv2|1372.00|Trivial smoker - < 1 cig/day|
+|smoking-status-trivial v1|readv2|1372.11|Occasional smoker|
+|smoking-status-trivial v1|snomed|266920004|Trivial cigarette smoker (less than one cigarette/day) (life style)|
+|smoking-status-trivial v1|snomed|428041000124106|Occasional tobacco smoker (finding)|
 |covid-vaccination v1|ctv3|Y210d|2019-nCoV (novel coronavirus) vaccination|
 |covid-vaccination v1|ctv3|Y29e7|Administration of first dose of SARS-CoV-2 vaccine|
 |covid-vaccination v1|ctv3|Y29e8|Administration of second dose of SARS-CoV-2 vaccine|
@@ -539,3 +1004,249 @@ All code sets required for this analysis are listed here. Individual lists for e
 |covid-vaccination v1|snomed|1240491000000103|2019-nCoV (novel coronavirus) vaccination|
 |covid-vaccination v1|snomed|2807821000000115|2019-nCoV (novel coronavirus) vaccination|
 |covid-vaccination v1|snomed|840534001|Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)|
+|systolic-blood-pressure v1|ctv3|X779Q|Non-invasive systol art press|
+|systolic-blood-pressure v1|ctv3|X779R|Invasive systol arterial press|
+|systolic-blood-pressure v1|ctv3|Xac5L|Baseline systolic BP|
+|systolic-blood-pressure v1|ctv3|Xaedo|Non-invasive central systlc BP|
+|systolic-blood-pressure v1|ctv3|XaF4d|24h systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|XaF4D|Min systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|XaF4E|Max systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|XaF4F|Ave systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|XaF4G|Min day systol blood pressure|
+|systolic-blood-pressure v1|ctv3|XaF4H|Min night syst blood pressure|
+|systolic-blood-pressure v1|ctv3|XaF4I|Max night syst blood pressure|
+|systolic-blood-pressure v1|ctv3|XaF4J|Max day syst blood pressure|
+|systolic-blood-pressure v1|ctv3|XaF4K|Ave night syst blood pressure|
+|systolic-blood-pressure v1|ctv3|XaF4L|Ave day systol blood pressure|
+|systolic-blood-pressure v1|ctv3|XaF4M|Min 24h systol blood pressure|
+|systolic-blood-pressure v1|ctv3|XaF4N|Max 24h systol blood pressure|
+|systolic-blood-pressure v1|ctv3|XaF4O|Ave 24h systol blood pressure|
+|systolic-blood-pressure v1|ctv3|XaIwj|Standing systolic BP|
+|systolic-blood-pressure v1|ctv3|XaJ2E|Sitting systolic BP|
+|systolic-blood-pressure v1|ctv3|XaJ2G|Lying systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|XaKFx|Average home systolic BP|
+|systolic-blood-pressure v1|ctv3|XaKjF|Ambulatory systolic BP|
+|systolic-blood-pressure v1|ctv3|XaXfX|Post exerc sys BP respons norm|
+|systolic-blood-pressure v1|ctv3|XaXfY|Post exer sys BP respon abnorm|
+|systolic-blood-pressure v1|ctv3|XaYg9|Systolic BP centile|
+|systolic-blood-pressure v1|ctv3|XM02X|SAP - Systol arterial pressure|
+|systolic-blood-pressure v1|ctv3|246o0|Non-invasive central systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|246n1|Baseline systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|246l.|Average systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|246j.|Systolic blood pressure centile|
+|systolic-blood-pressure v1|ctv3|246e.|Ambulatory systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|246d.|Average home systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|246b.|Average night interval systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|246Y.|Average day interval systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|246W.|Average 24 hour systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|246S.|Lying systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|246Q.|Sitting systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|246N.|Standing systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|246K.|Target systolic blood pressure|
+|systolic-blood-pressure v1|ctv3|2469.|O/E - Systolic BP reading|
+|systolic-blood-pressure v1|emis|EMISNQSY8|Systolic blood pressure - left arm|
+|systolic-blood-pressure v1|emis|EMISNQSY9|Systolic blood pressure - right arm|
+|systolic-blood-pressure v1|readv2|246o000|Non-invasive central systolic blood pressure|
+|systolic-blood-pressure v1|readv2|246n100|Baseline systolic blood pressure|
+|systolic-blood-pressure v1|readv2|246l.00|Average systolic blood pressure|
+|systolic-blood-pressure v1|readv2|246j.00|Systolic blood pressure centile|
+|systolic-blood-pressure v1|readv2|246e.00|Ambulatory systolic blood pressure|
+|systolic-blood-pressure v1|readv2|246d.00|Average home systolic blood pressure|
+|systolic-blood-pressure v1|readv2|246b.00|Average night interval systolic blood pressure|
+|systolic-blood-pressure v1|readv2|246Y.00|Average day interval systolic blood pressure|
+|systolic-blood-pressure v1|readv2|246W.00|Average 24 hour systolic blood pressure|
+|systolic-blood-pressure v1|readv2|246S.00|Lying systolic blood pressure|
+|systolic-blood-pressure v1|readv2|246Q.00|Sitting systolic blood pressure|
+|systolic-blood-pressure v1|readv2|246N.00|Standing systolic blood pressure|
+|systolic-blood-pressure v1|readv2|246K.00|Target systolic blood pressure|
+|systolic-blood-pressure v1|readv2|2469.00|O/E - Systolic BP reading|
+|systolic-blood-pressure v1|snomed|72313002|Systolic arterial pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|251070002|Non-invasive systolic blood pressure|
+|systolic-blood-pressure v1|snomed|251071003|Invasive systolic blood pressure|
+|systolic-blood-pressure v1|snomed|271649006|SAP - Systolic arterial pressure|
+|systolic-blood-pressure v1|snomed|314438006|Minimum systolic blood pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|314439003|Maximum systolic blood pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|314440001|Average systolic blood pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|314441002|Minimum day interval systolic blood pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|314442009|Minimum night interval systolic blood pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|314443004|Maximum night interval systolic blood pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|314444005|Maximum day interval systolic blood pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|314445006|Average night interval systolic blood pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|314446007|Average day interval systolic blood pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|314447003|Minimum 24 hour systolic blood pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|314448008|Maximum 24 hour systolic blood pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|314449000|Average 24 hour systolic blood pressure (observable entity|
+|systolic-blood-pressure v1|snomed|314464000|24 hour systolic blood pressure (observable entity)|
+|systolic-blood-pressure v1|snomed|399304008|Systolic blood pressure on admission|
+|systolic-blood-pressure v1|snomed|400974009|Standing systolic blood pressure|
+|systolic-blood-pressure v1|snomed|407554009|Sitting systolic blood pressure|
+|systolic-blood-pressure v1|snomed|407556006|Lying systolic blood pressure|
+|systolic-blood-pressure v1|snomed|413606001|Average home systolic blood pressure|
+|systolic-blood-pressure v1|snomed|716579001|Baseline systolic blood pressure|
+|systolic-blood-pressure v1|snomed|198081000000101|Ambulatory systolic blood pressure|
+|systolic-blood-pressure v1|snomed|814101000000107|Systolic blood pressure centile|
+|systolic-blood-pressure v1|snomed|1036551000000101|Non-invasive central systolic blood pressure|
+|systolic-blood-pressure v1|snomed|1087991000000109|Level of reduction in systolic blood pressure on standing (observable entity)|
+|systolic-blood-pressure v1|snomed|12929001|Normal systolic arterial pressure (finding)|
+|systolic-blood-pressure v1|snomed|18050000|Increased systolic arterial pressure (finding)|
+|systolic-blood-pressure v1|snomed|18352002|Abnormal systolic arterial pressure (finding)|
+|systolic-blood-pressure v1|snomed|81010002|Decreased systolic arterial pressure (finding)|
+|systolic-blood-pressure v1|snomed|163030003|On examination - Systolic blood pressure reading|
+|systolic-blood-pressure v1|snomed|707303003|Post exercise systolic blood pressure response abnormal|
+|systolic-blood-pressure v1|snomed|707304009|Post exercise systolic blood pressure response normal (finding)|
+|diastolic-blood-pressure v1|ctv3|X779S|DAP-Diastolic arterial pressur|
+|diastolic-blood-pressure v1|ctv3|X779T|DAP-Diastolic arterial pressur|
+|diastolic-blood-pressure v1|ctv3|Xac5K|Baseline diastolic BP|
+|diastolic-blood-pressure v1|ctv3|Xaedp|Non-invasive centrl diastlc BP|
+|diastolic-blood-pressure v1|ctv3|XaF4a|Ave day diastol blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaF4b|Ave 24h diastol blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaF4e|24h diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaF4Q|Min diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaF4R|Max diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaF4S|Ave diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaF4T|Min day diastol blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaF4U|Min night diast blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaF4V|Min 24h diastol blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaF4W|Max night diast blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaF4X|Max day diast blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaF4Y|Max 24h diastol blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaF4Z|Ave night diast blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaIwk|Standing diastolic BP|
+|diastolic-blood-pressure v1|ctv3|XaJ2F|Sitting diastolic BP|
+|diastolic-blood-pressure v1|ctv3|XaJ2H|Lying diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|XaKFw|Average home diastolic BP|
+|diastolic-blood-pressure v1|ctv3|XaKjG|Ambulatory diastolic BP|
+|diastolic-blood-pressure v1|ctv3|XaYg8|Diastolic BP centile|
+|diastolic-blood-pressure v1|ctv3|XM02Y|DAP-Diastolic arterial pressur|
+|diastolic-blood-pressure v1|ctv3|246o1|Non-invasive central diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|246n0|Baseline diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|246m.|Average diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|246i.|Diastolic blood pressure centile|
+|diastolic-blood-pressure v1|ctv3|246f.|Ambulatory diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|246c.|Average home diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|246a.|Average night interval diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|246X.|Average day interval diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|246V.|Average 24 hour diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|246T.|Lying diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|246R.|Sitting diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|246P.|Standing diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|246L.|Target diastolic blood pressure|
+|diastolic-blood-pressure v1|ctv3|246A.|O/E - Diastolic BP reading|
+|diastolic-blood-pressure v1|emis|EMISNQDI86|Diastolic blood pressure - left arm|
+|diastolic-blood-pressure v1|emis|EMISNQDI87|Diastolic blood pressure - right arm|
+|diastolic-blood-pressure v1|readv2|246o100|Non-invasive central diastolic blood pressure|
+|diastolic-blood-pressure v1|readv2|246n000|Baseline diastolic blood pressure|
+|diastolic-blood-pressure v1|readv2|246m.00|Average diastolic blood pressure|
+|diastolic-blood-pressure v1|readv2|246i.00|Diastolic blood pressure centile|
+|diastolic-blood-pressure v1|readv2|246f.00|Ambulatory diastolic blood pressure|
+|diastolic-blood-pressure v1|readv2|246c.00|Average home diastolic blood pressure|
+|diastolic-blood-pressure v1|readv2|246a.00|Average night interval diastolic blood pressure|
+|diastolic-blood-pressure v1|readv2|246X.00|Average day interval diastolic blood pressure|
+|diastolic-blood-pressure v1|readv2|246V.00|Average 24 hour diastolic blood pressure|
+|diastolic-blood-pressure v1|readv2|246T.00|Lying diastolic blood pressure|
+|diastolic-blood-pressure v1|readv2|246R.00|Sitting diastolic blood pressure|
+|diastolic-blood-pressure v1|readv2|246P.00|Standing diastolic blood pressure|
+|diastolic-blood-pressure v1|readv2|246L.00|Target diastolic blood pressure|
+|diastolic-blood-pressure v1|readv2|246A.00|O/E - Diastolic BP reading|
+|diastolic-blood-pressure v1|snomed|174255007|Non-invasive diastolic blood pressure|
+|diastolic-blood-pressure v1|snomed|251073000|Invasive diastolic blood pressure|
+|diastolic-blood-pressure v1|snomed|271650006|Diastolic arterial pressure|
+|diastolic-blood-pressure v1|snomed|314451001|Minimum diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|314452008|Maximum diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|314453003|Average diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|314454009|Minimum day interval diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|314455005|Minimum night interval diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|314456006|Minimum 24 hour diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|314457002|Maximum night interval diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|314458007|Maximum day interval diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|314459004|Maximum 24 hour diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|314460009|Average night interval diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|314461008|Average day interval diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|314462001|Average 24 hour diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|314465004|24 hour diastolic blood pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|400975005|Standing diastolic blood pressure|
+|diastolic-blood-pressure v1|snomed|407555005|Sitting diastolic blood pressure|
+|diastolic-blood-pressure v1|snomed|407557002|Lying diastolic blood pressure|
+|diastolic-blood-pressure v1|snomed|413605002|Average home diastolic blood pressure|
+|diastolic-blood-pressure v1|snomed|446226005|Diastolic blood pressure on admission|
+|diastolic-blood-pressure v1|snomed|716632005|Baseline diastolic blood pressure|
+|diastolic-blood-pressure v1|snomed|198091000000104|Ambulatory diastolic blood pressure|
+|diastolic-blood-pressure v1|snomed|814081000000101|Diastolic blood pressure centile|
+|diastolic-blood-pressure v1|snomed|1091811000000102|Diastolic arterial pressure (observable entity)|
+|diastolic-blood-pressure v1|snomed|1036571000000105|Non-invasive central diastolic blood pressure|
+|diastolic-blood-pressure v1|snomed|23154005|Increased diastolic arterial pressure (finding)|
+|diastolic-blood-pressure v1|snomed|42689008|Decreased diastolic arterial pressure (finding)|
+|diastolic-blood-pressure v1|snomed|49844009|Abnormal diastolic arterial pressure (finding)|
+|diastolic-blood-pressure v1|snomed|53813002|Normal diastolic arterial pressure (finding)|
+|diastolic-blood-pressure v1|snomed|163031004|On examination - Diastolic BP reading|
+|hba1c v2|ctv3|XaERp|HbA1c level (DCCT aligned)|
+|hba1c v2|ctv3|XaPbt|HbA1c levl - IFCC standardised|
+|hba1c v2|ctv3|42W5.|Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised|
+|hba1c v2|ctv3|42W4.|HbA1c level (DCCT aligned)|
+|hba1c v2|readv2|42W5.00|Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised|
+|hba1c v2|readv2|42W4.00|HbA1c level (DCCT aligned)|
+|hba1c v2|snomed|1019431000000105|HbA1c level (Diabetes Control and Complications Trial aligned)|
+|hba1c v2|snomed|999791000000106|Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised|
+|cholesterol v2|ctv3|XSK14|Total cholesterol measurement|
+|cholesterol v2|ctv3|44PH.|Total cholesterol measurement|
+|cholesterol v2|ctv3|44PJ.|Serum total cholesterol level|
+|cholesterol v2|ctv3|44P..|Serum cholesterol|
+|cholesterol v2|ctv3|44PZ.|Serum cholesterol NOS|
+|cholesterol v2|ctv3|XE2eD|Serum cholesterol|
+|cholesterol v2|ctv3|XaJe9|Serum total cholesterol level|
+|cholesterol v2|readv2|44P..00|Serum cholesterol|
+|cholesterol v2|readv2|44PZ.00|Serum cholesterol NOS|
+|cholesterol v2|readv2|44PJ.00|Serum total cholesterol level|
+|cholesterol v2|readv2|44PH.00|Total cholesterol measurement|
+|cholesterol v2|snomed|1005671000000105|Serum cholesterol level|
+|cholesterol v2|snomed|412808005|Serum total cholesterol level|
+|cholesterol v2|snomed|121868005|Total cholesterol measurement (procedure)|
+|cholesterol v2|snomed|994351000000103|Serum total cholesterol level|
+|ldl-cholesterol v1|ctv3|44P6.|Serum LDL cholesterol level|
+|ldl-cholesterol v1|ctv3|XaIp4|Calculated LDL cholesterol lev|
+|ldl-cholesterol v1|ctv3|XaEVs|Plasma LDL cholesterol level|
+|ldl-cholesterol v1|readv2|44PI.00|Calculated LDL cholesterol level|
+|ldl-cholesterol v1|readv2|44P6.00|Serum LDL cholesterol level|
+|ldl-cholesterol v1|readv2|44dB.00|Plasma LDL cholesterol level|
+|ldl-cholesterol v1|snomed|1010591000000104|Plasma low density lipoprotein cholesterol level (observable entity)|
+|ldl-cholesterol v1|snomed|1014501000000104|Calculated low density lipoprotein cholesterol level (observable entity)|
+|ldl-cholesterol v1|snomed|1022191000000100|Serum low density lipoprotein cholesterol level (observable entity)|
+|hdl-cholesterol v1|ctv3|44P5.|Serum HDL cholesterol level|
+|hdl-cholesterol v1|ctv3|44PC.|Ser random HDL cholesterol lev|
+|hdl-cholesterol v1|ctv3|XaEVr|Plasma HDL cholesterol level|
+|hdl-cholesterol v1|readv2|44PC.00|Serum random HDL cholesterol level|
+|hdl-cholesterol v1|readv2|44P5.00|Serum HDL cholesterol level|
+|hdl-cholesterol v1|readv2|44dA.00|Plasma HDL cholesterol level|
+|hdl-cholesterol v1|snomed|1005681000000107|Serum high density lipoprotein cholesterol level (observable entity)|
+|hdl-cholesterol v1|snomed|1010581000000101|Plasma high density lipoprotein cholesterol level (observable entity)|
+|hdl-cholesterol v1|snomed|1026461000000104|Serum random high density lipoprotein cholesterol level (observable entity)|
+|triglycerides v1|ctv3|XE2q9|Serum triglycerides|
+|triglycerides v1|ctv3|XE2q9|Serum triglyceride levels|
+|triglycerides v1|ctv3|44Q4.|Serum fasting triglyceride level|
+|triglycerides v1|ctv3|44QZ.|Serum triglycerides NOS|
+|triglycerides v1|readv2|44Q..00|Serum triglycerides|
+|triglycerides v1|readv2|44Q4.00|Serum fasting triglyceride level|
+|triglycerides v1|readv2|44Q5.00|Serum random triglyceride level|
+|triglycerides v1|readv2|44QZ.00|Serum triglycerides NOS|
+|egfr v1|ctv3|X70kK|Tc99m-DTPA clearance - GFR|
+|egfr v1|ctv3|X70kL|Cr51- EDTA clearance - GFR|
+|egfr v1|ctv3|X90kf|With GFR|
+|egfr v1|ctv3|XaK8y|Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation|
+|egfr v1|ctv3|XaMDA|Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin|
+|egfr v1|ctv3|XaZpN|Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres|
+|egfr v1|ctv3|XacUJ|Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres|
+|egfr v1|ctv3|XacUK|Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres|
+|egfr v1|readv2|451E.00|Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation|
+|egfr v1|readv2|451G.00|Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin|
+|egfr v1|readv2|451K.00|Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres|
+|egfr v1|readv2|451M.00|Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres|
+|egfr v1|readv2|451N.00|Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres|
+|egfr v1|snomed|1011481000000105|eGFR (estimated glomerular filtration rate) using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres|
+|egfr v1|snomed|1011491000000107|eGFR (estimated glomerular filtration rate) using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres|
+|egfr v1|snomed|1020291000000106|GFR (glomerular filtration rate) calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation|
+|egfr v1|snomed|1107411000000104|eGFR (estimated glomerular filtration rate) by laboratory calculation|
+|egfr v1|snomed|241373003|Technetium-99m-diethylenetriamine pentaacetic acid clearance - glomerular filtration rate (procedure)|
+|egfr v1|snomed|262300005|With glomerular filtration rate|
+|egfr v1|snomed|737105002|GFR (glomerular filtration rate) calculation technique|
+|egfr v1|snomed|80274001|Glomerular filtration rate (observable entity)|
+|egfr v1|snomed|996231000000108|GFR (glomerular filtration rate) calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin|

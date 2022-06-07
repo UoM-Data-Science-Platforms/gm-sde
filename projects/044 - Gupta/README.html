@@ -123,15 +123,18 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <p>This project required the following reusable queries:</p>
 <ul>
 <li>COVID vaccinations</li>
+<li>Smoking status</li>
+<li>BMI</li>
+<li>Lower level super output area</li>
 <li>Index Multiple Deprivation</li>
 <li>Sex</li>
-<li>Year of birth</li>
-<li>GET No. LTCS per patient</li>
-<li>Long-term conditions and comorbidities</li>
 <li>COVID-related secondary admissions</li>
 <li>Patients with COVID</li>
 <li>Secondary admissions and length of stay</li>
 <li>Secondary discharges</li>
+<li>Year of birth</li>
+<li>GET No. LTCS per patient</li>
+<li>Long-term conditions and comorbidities</li>
 </ul>
 <p>Further details for each query can be found below.</p>
 <h3>COVID vaccinations</h3>
@@ -160,6 +163,79 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </code></pre>
 <p><em>File</em>: <code>query-get-covid-vaccines.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-covid-vaccines.sql">https://github.com/rw251/.../query-get-covid-vaccines.sql</a></p>
+<hr>
+<h3>Smoking status</h3>
+<p>To get the smoking status for each patient in a cohort.</p>
+<p><em>Assumptions</em></p>
+<ul>
+<li>We take the most recent smoking status in a patient's record to be correct</li>
+<li>However, there is likely confusion between the &quot;non smoker&quot; and &quot;never smoked&quot; codes. Especially as sometimes the synonyms for these codes overlap. Therefore, a patient wih a most recent smoking status of &quot;never&quot;, but who has previous smoking codes, would be classed as WorstSmokingStatus=non-trivial-smoker / CurrentSmokingStatus=non-smoker</li>
+</ul>
+<p><em>Input</em></p>
+<pre><code>Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+ Also takes one parameter:
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is &quot;RLS.vw_GP_Events&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID, and FK_Reference_SnomedCT_ID
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table as follows:
+ #PatientSmokingStatus (FK_Patient_Link_ID, PassiveSmoker, WorstSmokingStatus, CurrentSmokingStatus)
+	- FK_Patient_Link_ID - unique patient id
+	- PassiveSmoker - Y/N (whether a patient has ever had a code for passive smoking)
+	- WorstSmokingStatus - [non-trivial-smoker/trivial-smoker/non-smoker]
+	- CurrentSmokingStatus - [non-trivial-smoker/trivial-smoker/non-smoker]
+</code></pre>
+<p><em>File</em>: <code>query-patient-smoking-status.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-smoking-status.sql">https://github.com/rw251/.../query-patient-smoking-status.sql</a></p>
+<hr>
+<h3>BMI</h3>
+<p>To get the BMI for each patient in a cohort.</p>
+<p><em>Assumptions</em></p>
+<ul>
+<li>We take the measurement closest to @IndexDate to be correct</li>
+</ul>
+<p><em>Input</em></p>
+<pre><code>Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+ Also takes one parameter:
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is &quot;RLS.vw_GP_Events&quot; but can be anything with the columns: FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID, and FK_Reference_SnomedCT_ID
+ Also assumes there is an @IndexDate defined - The index date of the study
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table as follows:
+ #PatientBMI (FK_Patient_Link_ID, BMI, DateOfBMIMeasurement)
+	- FK_Patient_Link_ID - unique patient id
+  - BMI
+  - DateOfBMIMeasurement
+</code></pre>
+<p><em>File</em>: <code>query-patient-bmi.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-bmi.sql">https://github.com/rw251/.../query-patient-bmi.sql</a></p>
+<hr>
+<h3>Lower level super output area</h3>
+<p>To get the LSOA for each patient.</p>
+<p><em>Assumptions</em></p>
+<ul>
+<li>Patient data is obtained from multiple sources. Where patients have multiple LSOAs we determine the LSOA as follows:</li>
+<li>If the patients has an LSOA in their primary care data feed we use that as most likely to be up to date</li>
+<li>If every LSOA for a paitent is the same, then we use that</li>
+<li>If there is a single most recently updated LSOA in the database then we use that</li>
+<li>Otherwise the patient's LSOA is considered unknown</li>
+</ul>
+<p><em>Input</em></p>
+<pre><code>Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table as follows:
+ #PatientLSOA (FK_Patient_Link_ID, LSOA)
+ 	- FK_Patient_Link_ID - unique patient id
+	- LSOA_Code - nationally recognised LSOA identifier
+</code></pre>
+<p><em>File</em>: <code>query-patient-lsoa.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-lsoa.sql">https://github.com/rw251/.../query-patient-lsoa.sql</a></p>
 <hr>
 <h3>Index Multiple Deprivation</h3>
 <p>To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.</p>
@@ -200,66 +276,6 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </code></pre>
 <p><em>File</em>: <code>query-patient-sex.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-sex.sql">https://github.com/rw251/.../query-patient-sex.sql</a></p>
-<hr>
-<h3>Year of birth</h3>
-<p>To get the year of birth for each patient.</p>
-<p><em>Assumptions</em></p>
-<ul>
-<li>Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:</li>
-<li>If the patients has a YOB in their primary care data feed we use that as most likely to be up to date</li>
-<li>If every YOB for a patient is the same, then we use that</li>
-<li>If there is a single most recently updated YOB in the database then we use that</li>
-<li>Otherwise we take the highest YOB for the patient that is not in the future</li>
-</ul>
-<p><em>Input</em></p>
-<pre><code>Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>A temp table as follows:
- #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
- 	- FK_Patient_Link_ID - unique patient id
-	- YearOfBirth - INT
-</code></pre>
-<p><em>File</em>: <code>query-patient-year-of-birth.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-year-of-birth.sql">https://github.com/rw251/.../query-patient-year-of-birth.sql</a></p>
-<hr>
-<h3>GET No. LTCS per patient</h3>
-<p>To get the number of long-term conditions for each patient.</p>
-<p><em>Input</em></p>
-<pre><code>Assumes there exists a temp table as follows:
- #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
- Therefore this is run after query-patient-ltcs.sql
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>A temp table with a row for each patient with the number of LTCs they have
- #NumLTCs (FK_Patient_Link_ID, NumberOfLTCs)
-</code></pre>
-<p><em>File</em>: <code>query-patient-ltcs-number-of.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-number-of.sql">https://github.com/rw251/.../query-patient-ltcs-number-of.sql</a></p>
-<hr>
-<h3>Long-term conditions and comorbidities</h3>
-<p>To get long-term conditions for each patient within a date range.</p>
-<p><em>Input</em></p>
-<pre><code>Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
- A distinct list of FK_Patient_Link_IDs for each patient in the cohort
- @IndexDate - The index date of the study
- @MinDate - The minimum date that the study has access from
-</code></pre>
-<p><em>Output</em></p>
-<pre><code>A temp table with a row for each patient and ltc combo
- #PatientsWithLTCs
-   FK_Patient_Link_ID,
-   Condition,
-   FirstDate,
-   LastDate,
-   NoInLastYear,number of times mentioned in year prior to index date
-   LTCflag, flag to indicate whether is a long condition (Y) or not (N) - see comments on code for defining long term conditions.
-</code></pre>
-<p><em>File</em>: <code>query-patient-ltcs-date-range.sql</code></p>
-<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-date-range.sql">https://github.com/rw251/.../query-patient-ltcs-date-range.sql</a></p>
 <hr>
 <h3>COVID-related secondary admissions</h3>
 <p>To classify every admission to secondary care based on whether it is a COVID or non-COVID related. A COVID-related admission is classed as an admission within 4 weeks after, or up to 2 weeks before a positive test.</p>
@@ -355,13 +371,89 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </code></pre>
 <p><em>File</em>: <code>query-get-discharges.sql</code></p>
 <p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-discharges.sql">https://github.com/rw251/.../query-get-discharges.sql</a></p>
+<hr>
+<h3>Year of birth</h3>
+<p>To get the year of birth for each patient.</p>
+<p><em>Assumptions</em></p>
+<ul>
+<li>Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:</li>
+<li>If the patients has a YOB in their primary care data feed we use that as most likely to be up to date</li>
+<li>If every YOB for a patient is the same, then we use that</li>
+<li>If there is a single most recently updated YOB in the database then we use that</li>
+<li>Otherwise we take the highest YOB for the patient that is not in the future</li>
+</ul>
+<p><em>Input</em></p>
+<pre><code>Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table as follows:
+ #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
+ 	- FK_Patient_Link_ID - unique patient id
+	- YearOfBirth - INT
+</code></pre>
+<p><em>File</em>: <code>query-patient-year-of-birth.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-year-of-birth.sql">https://github.com/rw251/.../query-patient-year-of-birth.sql</a></p>
+<hr>
+<h3>GET No. LTCS per patient</h3>
+<p>To get the number of long-term conditions for each patient.</p>
+<p><em>Input</em></p>
+<pre><code>Assumes there exists a temp table as follows:
+ #PatientsWithLTCs (FK_Patient_Link_ID, LTC)
+ Therefore this is run after query-patient-ltcs.sql
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table with a row for each patient with the number of LTCs they have
+ #NumLTCs (FK_Patient_Link_ID, NumberOfLTCs)
+</code></pre>
+<p><em>File</em>: <code>query-patient-ltcs-number-of.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-number-of.sql">https://github.com/rw251/.../query-patient-ltcs-number-of.sql</a></p>
+<hr>
+<h3>Long-term conditions and comorbidities</h3>
+<p>To get long-term conditions for each patient within a date range.</p>
+<p><em>Input</em></p>
+<pre><code>Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+ A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+ @IndexDate - The index date of the study
+ @MinDate - The minimum date that the study has access from
+</code></pre>
+<p><em>Output</em></p>
+<pre><code>A temp table with a row for each patient and ltc combo
+ #PatientsWithLTCs
+   FK_Patient_Link_ID,
+   Condition,
+   FirstDate,
+   LastDate,
+   NoInLastYear,number of times mentioned in year prior to index date
+   LTCflag, flag to indicate whether is a long condition (Y) or not (N) - see comments on code for defining long term conditions.
+</code></pre>
+<p><em>File</em>: <code>query-patient-ltcs-date-range.sql</code></p>
+<p><em>Link</em>: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-ltcs-date-range.sql">https://github.com/rw251/.../query-patient-ltcs-date-range.sql</a></p>
 <h2>Clinical code sets</h2>
 <p>This project required the following clinical code sets:</p>
 <ul>
 <li>covid-positive-antigen-test v1</li>
 <li>covid-positive-pcr-test v1</li>
 <li>covid-positive-test-other v1</li>
+<li>bmi v2</li>
+<li>smoking-status-current v1</li>
+<li>smoking-status-currently-not v1</li>
+<li>smoking-status-ex v1</li>
+<li>smoking-status-ex-trivial v1</li>
+<li>smoking-status-never v1</li>
+<li>smoking-status-passive v1</li>
+<li>smoking-status-trivial v1</li>
 <li>covid-vaccination v1</li>
+<li>systolic-blood-pressure v1</li>
+<li>diastolic-blood-pressure v1</li>
+<li>hba1c v2</li>
+<li>cholesterol v2</li>
+<li>ldl-cholesterol v1</li>
+<li>hdl-cholesterol v1</li>
+<li>triglycerides v1</li>
+<li>egfr v1</li>
 </ul>
 <p>Further details for each code set can be found below.</p>
 <h3>COVID-19 positive antigen test</h3>
@@ -487,6 +579,83 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </tbody>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/covid-positive-test-other/1">https://github.com/rw251/.../tests/covid-positive-test-other/1</a></p>
+<h3>Body Mass Index (BMI)</h3>
+<p>A patient's BMI as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>22K.. - Body Mass Index</code>). It does not include codes that indicate a patient's BMI (<code>22K6. - Body mass index less than 20</code>) without giving the actual value.</p>
+<p><strong>NB: This code set is intended to indicate a patient's BMI. If you need to know whether a BMI was recorded then please use v1 of the code set.</strong></p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>63.96% - 79.69%</code> suggests that this code set is perhaps not well defined. However, as EMIS (80% of practices) and TPP (10% of practices) are close, it could simply be down to Vision automatically recording BMIs and therefore increasing the prevalence there.</p>
+<p><strong>UPDATE</strong> By looking at the prevalence of patients with a BMI code that also has a non-zero value the range becomes <code>62.48% - 64.93%</code> which suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-05-07</td>
+<td>EMIS</td>
+<td>2605681</td>
+<td style="text-align:right">1709250 (65.60%)</td>
+<td style="text-align:right">1709224 (65.60%)</td>
+</tr>
+<tr>
+<td>2021-05-07</td>
+<td>TPP</td>
+<td>210817</td>
+<td style="text-align:right">134841 (63.96%)</td>
+<td style="text-align:right">134835 (63.96%)</td>
+</tr>
+<tr>
+<td>2021-05-07</td>
+<td>Vision</td>
+<td>334632</td>
+<td style="text-align:right">266612 (79.67%)</td>
+<td style="text-align:right">266612 (79.67%)</td>
+</tr>
+<tr>
+<td>2021-05-11</td>
+<td>EMIS</td>
+<td>2606497</td>
+<td style="text-align:right">1692442 (64.93%)</td>
+<td style="text-align:right">1692422 (64.93%)</td>
+</tr>
+<tr>
+<td>2021-05-11</td>
+<td>TPP</td>
+<td>210810</td>
+<td style="text-align:right">134652 (63.87%)</td>
+<td style="text-align:right">134646 (63.87%)</td>
+</tr>
+<tr>
+<td>2021-05-11</td>
+<td>Vision</td>
+<td>334784</td>
+<td style="text-align:right">209175 (62.48%)</td>
+<td style="text-align:right">209175 (62.48%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/bmi/2">https://github.com/rw251/.../patient/bmi/2</a></p>
+<h3>Smoking status current</h3>
+<p>Any code suggestive that a patient is a current smoker.</p>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-current/1">https://github.com/rw251/.../patient/smoking-status-current/1</a></p>
+<h3>Smoking status currently not</h3>
+<p>Any code suggestive that a patient is currently a non-smoker. This is different to the &quot;never smoked&quot; code set.</p>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-currently-not/1">https://github.com/rw251/.../patient/smoking-status-currently-not/1</a></p>
+<h3>Smoking status ex</h3>
+<p>Any code suggestive that a patient is an ex-smoker.</p>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-ex/1">https://github.com/rw251/.../patient/smoking-status-ex/1</a></p>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-ex-trivial/1">https://github.com/rw251/.../patient/smoking-status-ex-trivial/1</a></p>
+<h3>Smoking status never</h3>
+<p>Any code suggestive that a patient has never smoked. This is different to the &quot;currently not&quot; code set.</p>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-never/1">https://github.com/rw251/.../patient/smoking-status-never/1</a></p>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-passive/1">https://github.com/rw251/.../patient/smoking-status-passive/1</a></p>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-trivial/1">https://github.com/rw251/.../patient/smoking-status-trivial/1</a></p>
 <h4>Prevalence log</h4>
 <p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.</p>
 <p>The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range <code>1.19% - 26.55%</code> as of 11th March 2021 is too wide. However the prevalence figure of 26.55% from EMIS is close to public data and is likely ok.</p>
@@ -606,6 +775,335 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </tbody>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/covid-vaccination/1">https://github.com/rw251/.../procedures/covid-vaccination/1</a></p>
+<h3>Systolic Blood pressure</h3>
+<p>Any indication that systolic blood pressure has been recorded for a patient. This code set only includes codes that are accompanied by a value (<code>2469. - O/E - Systolic BP reading</code>).</p>
+<p>Blood pressure codes retrieved from <a href="https://getset.ga">GetSet</a> and metadata available in this directory.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>64.46% - 67.00%</code> suggests that this code set is likely well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-10-13</td>
+<td>EMIS</td>
+<td>26929848</td>
+<td style="text-align:right">1741342 (66.21%)</td>
+<td style="text-align:right">1741342 (66.21%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>TPP</td>
+<td>211812</td>
+<td style="text-align:right">137571 (64.95%)</td>
+<td style="text-align:right">137571 (64.95%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>Vision</td>
+<td>338205</td>
+<td style="text-align:right">208971 (61.79%)</td>
+<td style="text-align:right">208971 (61.79%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/systolic-blood-pressure/1">https://github.com/rw251/.../tests/systolic-blood-pressure/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<h3>Diastolic Blood pressure</h3>
+<p>Any diastolic blood pressure measurements, with values, that have been recorded for a patient.</p>
+<p>Blood pressure codes retrieved from <a href="https://getset.ga">GetSet</a> and metadata available in this directory.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>64.46% - 67.00%</code> suggests that this code set is likely well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-10-13</td>
+<td>EMIS</td>
+<td>26929848</td>
+<td style="text-align:right">1741082 (66.21%)</td>
+<td style="text-align:right">1741077 (66.21%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>TPP</td>
+<td>211812</td>
+<td style="text-align:right">137567 (64.95%)</td>
+<td style="text-align:right">137567 (64.95%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>Vision</td>
+<td>338205</td>
+<td style="text-align:right">208958 (61.79%)</td>
+<td style="text-align:right">208958 (61.79%)</td>
+</tr>
+<tr>
+<td>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/diastolic-blood-pressure/1">https://github.com/rw251/.../tests/diastolic-blood-pressure/1</a></td>
+<td></td>
+<td></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<h3>HbA1c</h3>
+<p>A patient's HbA1c as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>1003671000000109 - Haemoglobin A1c level</code>). It does not include codes that indicate a patient's BMI (<code>165679005 - Haemoglobin A1c (HbA1c) less than 7%</code>) without giving the actual value.</p>
+<p><strong>NB: This code set is intended to indicate a patient's HbA1c. If you need to know whether a HbA1c was recorded then please use v1 of the code set.</strong></p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>44.93% - 50.88%</code> suggests that this code set is likely well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-05-07</td>
+<td>EMIS</td>
+<td>2605681</td>
+<td style="text-align:right">1170688 (44.93%)</td>
+<td style="text-align:right">1170688 (44.93%)</td>
+</tr>
+<tr>
+<td>2021-05-07</td>
+<td>TPP</td>
+<td>210817</td>
+<td style="text-align:right">98972 (46.95%)</td>
+<td style="text-align:right">98972 (46.95%)</td>
+</tr>
+<tr>
+<td>2021-05-07</td>
+<td>Vision</td>
+<td>334632</td>
+<td style="text-align:right">170245 (50.88%)</td>
+<td style="text-align:right">170245 (50.88%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/hba1c/2">https://github.com/rw251/.../tests/hba1c/2</a></p>
+<h3>Cholesterol</h3>
+<p>A patient's total cholesterol as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>44P.. Serum cholesterol</code>). It does not include codes that indicate a patient's BMI (<code>44P3. - Serum cholesterol raised</code>) without giving the actual value.</p>
+<p><strong>NB: This code set is intended to indicate a patient's total cholesterol. If you need to know whether a cholesterol was recorded then please use v1 of the code set.</strong></p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>43.99% - 49.34%</code> suggests that this code set is likely well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-05-11</td>
+<td>EMIS</td>
+<td>2606497</td>
+<td style="text-align:right">1146925 (44.00%)</td>
+<td style="text-align:right">1146651 (43.99%)</td>
+</tr>
+<tr>
+<td>2021-05-11</td>
+<td>TPP</td>
+<td>210810</td>
+<td style="text-align:right">98627 (46.78%)</td>
+<td style="text-align:right">98627 (46.78%)</td>
+</tr>
+<tr>
+<td>2021-05-11</td>
+<td>Vision</td>
+<td>334784</td>
+<td style="text-align:right">165186 (49.34%)</td>
+<td style="text-align:right">165186 (49.34%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/cholesterol/2">https://github.com/rw251/.../tests/cholesterol/2</a></p>
+<h3>LDL Cholesterol</h3>
+<p>A patient's LDL cholesterol as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>44P6.00 - Serum LDL cholesterol level</code>).</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>41.22% - 45.54%</code> suggests that this code set is likely well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-10-13</td>
+<td>EMIS</td>
+<td>26929848</td>
+<td style="text-align:right">1102872 (41.94%)</td>
+<td style="text-align:right">1102872 (41.94%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>TPP</td>
+<td>211812</td>
+<td style="text-align:right">91673 (43.28%)</td>
+<td style="text-align:right">91673 (43.28%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>Vision</td>
+<td>338205</td>
+<td style="text-align:right">154055 (45.55%)</td>
+<td style="text-align:right">154055 (45.55%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/ldl-cholesterol/1">https://github.com/rw251/.../tests/ldl-cholesterol/1</a></p>
+<h3>HDL Cholesterol</h3>
+<p>A patient's HDL cholesterol as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>44P5.00 - Serum HDL cholesterol level</code>).</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>43.66% - 48.97%</code> suggests that this code set is likely well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-10-13</td>
+<td>EMIS</td>
+<td>26929848</td>
+<td style="text-align:right">1168326 (44.42%)</td>
+<td style="text-align:right">1168326 (44.42%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>TPP</td>
+<td>211812</td>
+<td style="text-align:right">100823 (47.60%)</td>
+<td style="text-align:right">100823 (47.60%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>Vision</td>
+<td>338205</td>
+<td style="text-align:right">165935 (49.06%)</td>
+<td style="text-align:right">165935 (49.06%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/hdl-cholesterol/1">https://github.com/rw251/.../tests/hdl-cholesterol/1</a></p>
+<h3>Triglyceride (level)</h3>
+<p>A patient's triglyceride level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (<code>44Q..00 - Serum triglycerides</code>). It does not include codes that indicate a patient's creatinine (`44Q3.00 - Serum triglycerides raised') without giving the actual value.</p>
+<p>Codes taken from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>43.18% - 48.34%</code> suggests that this code set is likely well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-10-13</td>
+<td>EMIS</td>
+<td>26929848</td>
+<td style="text-align:right">1135572 (43.18%)</td>
+<td style="text-align:right">1135572 (43.18%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>TPP</td>
+<td>211812</td>
+<td style="text-align:right">99188 (46.82%)</td>
+<td style="text-align:right">99188 (46.82%)</td>
+</tr>
+<tr>
+<td>2021-10-13</td>
+<td>Vision</td>
+<td>338205</td>
+<td style="text-align:right">163502 (48.34%)</td>
+<td style="text-align:right">163502 (48.34%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/triglycerides/1">https://github.com/rw251/.../tests/triglycerides/1</a></p>
+<h3>Glomerular filtration rate (GFR)</h3>
+<p>Any code that gives the value of a patient's GFR (or estimated GFR - EGFR).</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>52.43% - 57.73%</code> suggests that this code set is likely well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-06-10</td>
+<td>EMIS</td>
+<td>2610073</td>
+<td style="text-align:right">1369349 (52.46%)</td>
+<td style="text-align:right">1368468 (52.43%)</td>
+</tr>
+<tr>
+<td>2021-06-10</td>
+<td>TPP</td>
+<td>211034</td>
+<td style="text-align:right">121897 (57.76%)</td>
+<td style="text-align:right">121835 (57.73%)</td>
+</tr>
+<tr>
+<td>2021-06-10</td>
+<td>Vision</td>
+<td>335344</td>
+<td style="text-align:right">184635 (55.06%)</td>
+<td style="text-align:right">184523 (55.02%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/egfr/1">https://github.com/rw251/.../tests/egfr/1</a></p>
 <h1>Clinical code sets</h1>
 <p>All code sets required for this analysis are listed here. Individual lists for each concept can also be found by using the links above.</p>
 <table>
@@ -869,6 +1367,1038 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td>readv2</td>
 <td>4J3R1</td>
 <td>2019-nCoV (novel coronavirus) detected</td>
+</tr>
+<tr>
+<td>bmi v2</td>
+<td>ctv3</td>
+<td>22K..</td>
+<td>Body Mass Index</td>
+</tr>
+<tr>
+<td>bmi v2</td>
+<td>readv2</td>
+<td>22K..00</td>
+<td>Body Mass Index</td>
+</tr>
+<tr>
+<td>bmi v2</td>
+<td>snomed</td>
+<td>301331008</td>
+<td>Finding of body mass index (finding)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>1373.</td>
+<td>Lt cigaret smok, 1-9 cigs/day</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>1374.</td>
+<td>Mod cigaret smok, 10-19 cigs/d</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>1375.</td>
+<td>Hvy cigaret smok, 20-39 cigs/d</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>1376.</td>
+<td>Very hvy cigs smoker,40+cigs/d</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>137C.</td>
+<td>Keeps trying to stop smoking</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>137D.</td>
+<td>Admitted tobacco cons untrue ?</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>137G.</td>
+<td>Trying to give up smoking</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>137H.</td>
+<td>Pipe smoker</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>137J.</td>
+<td>Cigar smoker</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>137M.</td>
+<td>Rolls own cigarettes</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>137P.</td>
+<td>Cigarette smoker</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>137Q.</td>
+<td>Smoking started</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>137R.</td>
+<td>Current smoker</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>137Z.</td>
+<td>Tobacco consumption NOS</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>Ub1tI</td>
+<td>Cigarette consumption</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>Ub1tJ</td>
+<td>Cigar consumption</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>Ub1tK</td>
+<td>Pipe tobacco consumption</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>XaBSp</td>
+<td>Smoking restarted</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>XaIIu</td>
+<td>Smoking reduced</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>XaIkW</td>
+<td>Thinking about stop smoking</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>XaIkX</td>
+<td>Ready to stop smoking</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>XaIkY</td>
+<td>Not interested stop smoking</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>XaItg</td>
+<td>Reason for restarting smoking</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>XaIuQ</td>
+<td>Cigarette pack-years</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>XaJX2</td>
+<td>Min from wake to 1st tobac con</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>XaWNE</td>
+<td>Failed attempt to stop smoking</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>XaZIE</td>
+<td>Waterpipe tobacco consumption</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>XE0og</td>
+<td>Tobacco smoking consumption</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>XE0oq</td>
+<td>Cigarette smoker</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>ctv3</td>
+<td>XE0or</td>
+<td>Smoking started</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>137P.00</td>
+<td>Cigarette smoker</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>137P.11</td>
+<td>Smoker</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>13p3.00</td>
+<td>Smoking status at 52 weeks</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>1374.00</td>
+<td>Moderate smoker - 10-19 cigs/d</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>137G.00</td>
+<td>Trying to give up smoking</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>137R.00</td>
+<td>Current smoker</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>1376.00</td>
+<td>Very heavy smoker - 40+cigs/d</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>1375.00</td>
+<td>Heavy smoker - 20-39 cigs/day</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>1373.00</td>
+<td>Light smoker - 1-9 cigs/day</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>137M.00</td>
+<td>Rolls own cigarettes</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>137o.00</td>
+<td>Waterpipe tobacco consumption</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>137m.00</td>
+<td>Failed attempt to stop smoking</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>137h.00</td>
+<td>Minutes from waking to first tobacco consumption</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>137g.00</td>
+<td>Cigarette pack-years</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>137f.00</td>
+<td>Reason for restarting smoking</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>137e.00</td>
+<td>Smoking restarted</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>137d.00</td>
+<td>Not interested in stopping smoking</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>137c.00</td>
+<td>Thinking about stopping smoking</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>137b.00</td>
+<td>Ready to stop smoking</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>137C.00</td>
+<td>Keeps trying to stop smoking</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>137J.00</td>
+<td>Cigar smoker</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>137H.00</td>
+<td>Pipe smoker</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>137a.00</td>
+<td>Pipe tobacco consumption</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>137Z.00</td>
+<td>Tobacco consumption NOS</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>137Y.00</td>
+<td>Cigar consumption</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>137X.00</td>
+<td>Cigarette consumption</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>137V.00</td>
+<td>Smoking reduced</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>137Q.00</td>
+<td>Smoking started</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>readv2</td>
+<td>137Q.11</td>
+<td>Smoking restarted</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>266929003</td>
+<td>Smoking started (life style)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>836001000000109</td>
+<td>Waterpipe tobacco consumption (observable entity)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>77176002</td>
+<td>Smoker (life style)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>65568007</td>
+<td>Cigarette smoker (life style)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>394873005</td>
+<td>Not interested in stopping smoking (finding)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>394872000</td>
+<td>Ready to stop smoking (finding)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>394871007</td>
+<td>Thinking about stopping smoking (observable entity)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>266918002</td>
+<td>Tobacco smoking consumption (observable entity)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>230057008</td>
+<td>Cigar consumption (observable entity)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>230056004</td>
+<td>Cigarette consumption (observable entity)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>160623006</td>
+<td>Smoking: [started] or [restarted]</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>160622001</td>
+<td>Smoker (&amp; cigarette)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>160619003</td>
+<td>Rolls own cigarettes (finding)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>160616005</td>
+<td>Trying to give up smoking (finding)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>160612007</td>
+<td>Keeps trying to stop smoking (finding)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>160606002</td>
+<td>Very heavy cigarette smoker (40+ cigs/day) (life style)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>160605003</td>
+<td>Heavy cigarette smoker (20-39 cigs/day) (life style)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>160604004</td>
+<td>Moderate cigarette smoker (10-19 cigs/day) (life style)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>160603005</td>
+<td>Light cigarette smoker (1-9 cigs/day) (life style)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>59978006</td>
+<td>Cigar smoker (life style)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>446172000</td>
+<td>Failed attempt to stop smoking (finding)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>413173009</td>
+<td>Minutes from waking to first tobacco consumption (observable entity)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>401201003</td>
+<td>Cigarette pack-years (observable entity)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>401159003</td>
+<td>Reason for restarting smoking (observable entity)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>308438006</td>
+<td>Smoking restarted (life style)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>230058003</td>
+<td>Pipe tobacco consumption (observable entity)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>134406006</td>
+<td>Smoking reduced (observable entity)</td>
+</tr>
+<tr>
+<td>smoking-status-current v1</td>
+<td>snomed</td>
+<td>82302008</td>
+<td>Pipe smoker (life style)</td>
+</tr>
+<tr>
+<td>smoking-status-currently-not v1</td>
+<td>ctv3</td>
+<td>Ub0oq</td>
+<td>Non-smoker</td>
+</tr>
+<tr>
+<td>smoking-status-currently-not v1</td>
+<td>ctv3</td>
+<td>137L.</td>
+<td>Current non-smoker</td>
+</tr>
+<tr>
+<td>smoking-status-currently-not v1</td>
+<td>readv2</td>
+<td>137L.00</td>
+<td>Current non-smoker</td>
+</tr>
+<tr>
+<td>smoking-status-currently-not v1</td>
+<td>snomed</td>
+<td>160618006</td>
+<td>Current non-smoker (life style)</td>
+</tr>
+<tr>
+<td>smoking-status-currently-not v1</td>
+<td>snomed</td>
+<td>8392000</td>
+<td>Non-smoker (life style)</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>ctv3</td>
+<td>1378.</td>
+<td>Ex-light smoker (1-9/day)</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>ctv3</td>
+<td>1379.</td>
+<td>Ex-moderate smoker (10-19/day)</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>ctv3</td>
+<td>137A.</td>
+<td>Ex-heavy smoker (20-39/day)</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>ctv3</td>
+<td>137B.</td>
+<td>Ex-very heavy smoker (40+/day)</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>ctv3</td>
+<td>137F.</td>
+<td>Ex-smoker - amount unknown</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>ctv3</td>
+<td>137K.</td>
+<td>Stopped smoking</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>ctv3</td>
+<td>137N.</td>
+<td>Ex-pipe smoker</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>ctv3</td>
+<td>137O.</td>
+<td>Ex-cigar smoker</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>ctv3</td>
+<td>137T.</td>
+<td>Date ceased smoking</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>ctv3</td>
+<td>Ub1na</td>
+<td>Ex-smoker</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>ctv3</td>
+<td>Xa1bv</td>
+<td>Ex-cigarette smoker</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>ctv3</td>
+<td>XaIr7</td>
+<td>Smoking free weeks</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>ctv3</td>
+<td>XaKlS</td>
+<td>[V]PH of tobacco abuse</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>ctv3</td>
+<td>XaQ8V</td>
+<td>Ex roll-up cigarette smoker</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>ctv3</td>
+<td>XaQzw</td>
+<td>Recently stopped smoking</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>ctv3</td>
+<td>XE0ok</td>
+<td>Ex-light cigaret smok, 1-9/day</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>ctv3</td>
+<td>XE0ol</td>
+<td>Ex-mod cigaret smok, 10-19/day</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>ctv3</td>
+<td>XE0om</td>
+<td>Ex-heav cigaret smok,20-39/day</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>ctv3</td>
+<td>XE0on</td>
+<td>Ex-very hv cigaret smk,40+/day</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>readv2</td>
+<td>137l.00</td>
+<td>Ex roll-up cigarette smoker</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>readv2</td>
+<td>137j.00</td>
+<td>Ex-cigarette smoker</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>readv2</td>
+<td>137S.00</td>
+<td>Ex smoker</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>readv2</td>
+<td>137O.00</td>
+<td>Ex cigar smoker</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>readv2</td>
+<td>137N.00</td>
+<td>Ex pipe smoker</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>readv2</td>
+<td>137F.00</td>
+<td>Ex-smoker - amount unknown</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>readv2</td>
+<td>137B.00</td>
+<td>Ex-very heavy smoker (40+/day)</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>readv2</td>
+<td>137A.00</td>
+<td>Ex-heavy smoker (20-39/day)</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>readv2</td>
+<td>1379.00</td>
+<td>Ex-moderate smoker (10-19/day)</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>readv2</td>
+<td>1378.00</td>
+<td>Ex-light smoker (1-9/day)</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>readv2</td>
+<td>137K.00</td>
+<td>Stopped smoking</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>readv2</td>
+<td>137K000</td>
+<td>Recently stopped smoking</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>readv2</td>
+<td>137T.00</td>
+<td>Date ceased smoking</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>readv2</td>
+<td>13p4.00</td>
+<td>Smoking free weeks</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>snomed</td>
+<td>160617001</td>
+<td>Stopped smoking (life style)</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>snomed</td>
+<td>160620009</td>
+<td>Ex-pipe smoker (life style)</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>snomed</td>
+<td>160621008</td>
+<td>Ex-cigar smoker (life style)</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>snomed</td>
+<td>160625004</td>
+<td>Date ceased smoking (observable entity)</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>snomed</td>
+<td>266922007</td>
+<td>Ex-light cigarette smoker (1-9/day) (life style)</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>snomed</td>
+<td>266923002</td>
+<td>Ex-moderate cigarette smoker (10-19/day) (life style)</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>snomed</td>
+<td>266924008</td>
+<td>Ex-heavy cigarette smoker (20-39/day) (life style)</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>snomed</td>
+<td>266925009</td>
+<td>Ex-very heavy cigarette smoker (40+/day) (life style)</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>snomed</td>
+<td>281018007</td>
+<td>Ex-cigarette smoker (life style)</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>snomed</td>
+<td>395177003</td>
+<td>Smoking free weeks (observable entity)</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>snomed</td>
+<td>492191000000103</td>
+<td>Ex roll-up cigarette smoker (finding)</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>snomed</td>
+<td>517211000000106</td>
+<td>Recently stopped smoking (finding)</td>
+</tr>
+<tr>
+<td>smoking-status-ex v1</td>
+<td>snomed</td>
+<td>8517006</td>
+<td>Ex-smoker (life style)</td>
+</tr>
+<tr>
+<td>smoking-status-ex-trivial v1</td>
+<td>ctv3</td>
+<td>XE0oj</td>
+<td>Ex-triv cigaret smoker, &lt;1/day</td>
+</tr>
+<tr>
+<td>smoking-status-ex-trivial v1</td>
+<td>ctv3</td>
+<td>1377.</td>
+<td>Ex-trivial smoker (&lt;1/day)</td>
+</tr>
+<tr>
+<td>smoking-status-ex-trivial v1</td>
+<td>readv2</td>
+<td>1377.00</td>
+<td>Ex-trivial smoker (&lt;1/day)</td>
+</tr>
+<tr>
+<td>smoking-status-ex-trivial v1</td>
+<td>snomed</td>
+<td>266921000</td>
+<td>Ex-trivial cigarette smoker (&lt;1/day) (life style)</td>
+</tr>
+<tr>
+<td>smoking-status-never v1</td>
+<td>ctv3</td>
+<td>XE0oh</td>
+<td>Never smoked tobacco</td>
+</tr>
+<tr>
+<td>smoking-status-never v1</td>
+<td>ctv3</td>
+<td>1371.</td>
+<td>Never smoked tobacco</td>
+</tr>
+<tr>
+<td>smoking-status-never v1</td>
+<td>readv2</td>
+<td>1371.00</td>
+<td>Never smoked tobacco</td>
+</tr>
+<tr>
+<td>smoking-status-never v1</td>
+<td>snomed</td>
+<td>160601007</td>
+<td>Non-smoker (&amp; [never smoked tobacco])</td>
+</tr>
+<tr>
+<td>smoking-status-never v1</td>
+<td>snomed</td>
+<td>266919005</td>
+<td>Never smoked tobacco (life style)</td>
+</tr>
+<tr>
+<td>smoking-status-passive v1</td>
+<td>ctv3</td>
+<td>137I.</td>
+<td>Passive smoker</td>
+</tr>
+<tr>
+<td>smoking-status-passive v1</td>
+<td>ctv3</td>
+<td>Ub0pe</td>
+<td>Exposed to tobacco smoke at work</td>
+</tr>
+<tr>
+<td>smoking-status-passive v1</td>
+<td>ctv3</td>
+<td>Ub0pf</td>
+<td>Exposed to tobacco smoke at home</td>
+</tr>
+<tr>
+<td>smoking-status-passive v1</td>
+<td>ctv3</td>
+<td>Ub0pg</td>
+<td>Exposed to tobacco smoke in public places</td>
+</tr>
+<tr>
+<td>smoking-status-passive v1</td>
+<td>ctv3</td>
+<td>13WF4</td>
+<td>Passive smoking risk</td>
+</tr>
+<tr>
+<td>smoking-status-passive v1</td>
+<td>readv2</td>
+<td>137I.00</td>
+<td>Passive smoker</td>
+</tr>
+<tr>
+<td>smoking-status-passive v1</td>
+<td>readv2</td>
+<td>137I000</td>
+<td>Exposed to tobacco smoke at home</td>
+</tr>
+<tr>
+<td>smoking-status-passive v1</td>
+<td>readv2</td>
+<td>13WF400</td>
+<td>Passive smoking risk</td>
+</tr>
+<tr>
+<td>smoking-status-passive v1</td>
+<td>snomed</td>
+<td>43381005</td>
+<td>Passive smoker (finding)</td>
+</tr>
+<tr>
+<td>smoking-status-passive v1</td>
+<td>snomed</td>
+<td>161080002</td>
+<td>Passive smoking risk (environment)</td>
+</tr>
+<tr>
+<td>smoking-status-passive v1</td>
+<td>snomed</td>
+<td>228523000</td>
+<td>Exposed to tobacco smoke at work (finding)</td>
+</tr>
+<tr>
+<td>smoking-status-passive v1</td>
+<td>snomed</td>
+<td>228524006</td>
+<td>Exposed to tobacco smoke at home (finding)</td>
+</tr>
+<tr>
+<td>smoking-status-passive v1</td>
+<td>snomed</td>
+<td>228525007</td>
+<td>Exposed to tobacco smoke in public places (finding)</td>
+</tr>
+<tr>
+<td>smoking-status-passive v1</td>
+<td>snomed</td>
+<td>713142003</td>
+<td>At risk from passive smoking (finding)</td>
+</tr>
+<tr>
+<td>smoking-status-passive v1</td>
+<td>snomed</td>
+<td>722451000000101</td>
+<td>Passive smoking (qualifier value)</td>
+</tr>
+<tr>
+<td>smoking-status-trivial v1</td>
+<td>ctv3</td>
+<td>XagO3</td>
+<td>Occasional tobacco smoker</td>
+</tr>
+<tr>
+<td>smoking-status-trivial v1</td>
+<td>ctv3</td>
+<td>XE0oi</td>
+<td>Triv cigaret smok, &lt; 1 cig/day</td>
+</tr>
+<tr>
+<td>smoking-status-trivial v1</td>
+<td>ctv3</td>
+<td>1372.</td>
+<td>Trivial smoker - &lt; 1 cig/day</td>
+</tr>
+<tr>
+<td>smoking-status-trivial v1</td>
+<td>readv2</td>
+<td>1372.00</td>
+<td>Trivial smoker - &lt; 1 cig/day</td>
+</tr>
+<tr>
+<td>smoking-status-trivial v1</td>
+<td>readv2</td>
+<td>1372.11</td>
+<td>Occasional smoker</td>
+</tr>
+<tr>
+<td>smoking-status-trivial v1</td>
+<td>snomed</td>
+<td>266920004</td>
+<td>Trivial cigarette smoker (less than one cigarette/day) (life style)</td>
+</tr>
+<tr>
+<td>smoking-status-trivial v1</td>
+<td>snomed</td>
+<td>428041000124106</td>
+<td>Occasional tobacco smoker (finding)</td>
 </tr>
 <tr>
 <td>covid-vaccination v1</td>
@@ -1259,6 +2789,1482 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td>snomed</td>
 <td>840534001</td>
 <td>Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>X779Q</td>
+<td>Non-invasive systol art press</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>X779R</td>
+<td>Invasive systol arterial press</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>Xac5L</td>
+<td>Baseline systolic BP</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>Xaedo</td>
+<td>Non-invasive central systlc BP</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4d</td>
+<td>24h systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4D</td>
+<td>Min systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4E</td>
+<td>Max systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4F</td>
+<td>Ave systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4G</td>
+<td>Min day systol blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4H</td>
+<td>Min night syst blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4I</td>
+<td>Max night syst blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4J</td>
+<td>Max day syst blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4K</td>
+<td>Ave night syst blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4L</td>
+<td>Ave day systol blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4M</td>
+<td>Min 24h systol blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4N</td>
+<td>Max 24h systol blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4O</td>
+<td>Ave 24h systol blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaIwj</td>
+<td>Standing systolic BP</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaJ2E</td>
+<td>Sitting systolic BP</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaJ2G</td>
+<td>Lying systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaKFx</td>
+<td>Average home systolic BP</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaKjF</td>
+<td>Ambulatory systolic BP</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaXfX</td>
+<td>Post exerc sys BP respons norm</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaXfY</td>
+<td>Post exer sys BP respon abnorm</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaYg9</td>
+<td>Systolic BP centile</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XM02X</td>
+<td>SAP - Systol arterial pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246o0</td>
+<td>Non-invasive central systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246n1</td>
+<td>Baseline systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246l.</td>
+<td>Average systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246j.</td>
+<td>Systolic blood pressure centile</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246e.</td>
+<td>Ambulatory systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246d.</td>
+<td>Average home systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246b.</td>
+<td>Average night interval systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246Y.</td>
+<td>Average day interval systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246W.</td>
+<td>Average 24 hour systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246S.</td>
+<td>Lying systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246Q.</td>
+<td>Sitting systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246N.</td>
+<td>Standing systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246K.</td>
+<td>Target systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>2469.</td>
+<td>O/E - Systolic BP reading</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>emis</td>
+<td>EMISNQSY8</td>
+<td>Systolic blood pressure - left arm</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>emis</td>
+<td>EMISNQSY9</td>
+<td>Systolic blood pressure - right arm</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246o000</td>
+<td>Non-invasive central systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246n100</td>
+<td>Baseline systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246l.00</td>
+<td>Average systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246j.00</td>
+<td>Systolic blood pressure centile</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246e.00</td>
+<td>Ambulatory systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246d.00</td>
+<td>Average home systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246b.00</td>
+<td>Average night interval systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246Y.00</td>
+<td>Average day interval systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246W.00</td>
+<td>Average 24 hour systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246S.00</td>
+<td>Lying systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246Q.00</td>
+<td>Sitting systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246N.00</td>
+<td>Standing systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246K.00</td>
+<td>Target systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>2469.00</td>
+<td>O/E - Systolic BP reading</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>72313002</td>
+<td>Systolic arterial pressure (observable entity)</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>251070002</td>
+<td>Non-invasive systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>251071003</td>
+<td>Invasive systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>271649006</td>
+<td>SAP - Systolic arterial pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314438006</td>
+<td>Minimum systolic blood pressure (observable entity)</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314439003</td>
+<td>Maximum systolic blood pressure (observable entity)</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314440001</td>
+<td>Average systolic blood pressure (observable entity)</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314441002</td>
+<td>Minimum day interval systolic blood pressure (observable entity)</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314442009</td>
+<td>Minimum night interval systolic blood pressure (observable entity)</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314443004</td>
+<td>Maximum night interval systolic blood pressure (observable entity)</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314444005</td>
+<td>Maximum day interval systolic blood pressure (observable entity)</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314445006</td>
+<td>Average night interval systolic blood pressure (observable entity)</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314446007</td>
+<td>Average day interval systolic blood pressure (observable entity)</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314447003</td>
+<td>Minimum 24 hour systolic blood pressure (observable entity)</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314448008</td>
+<td>Maximum 24 hour systolic blood pressure (observable entity)</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314449000</td>
+<td>Average 24 hour systolic blood pressure (observable entity</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314464000</td>
+<td>24 hour systolic blood pressure (observable entity)</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>399304008</td>
+<td>Systolic blood pressure on admission</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>400974009</td>
+<td>Standing systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>407554009</td>
+<td>Sitting systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>407556006</td>
+<td>Lying systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>413606001</td>
+<td>Average home systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>716579001</td>
+<td>Baseline systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>198081000000101</td>
+<td>Ambulatory systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>814101000000107</td>
+<td>Systolic blood pressure centile</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>1036551000000101</td>
+<td>Non-invasive central systolic blood pressure</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>1087991000000109</td>
+<td>Level of reduction in systolic blood pressure on standing (observable entity)</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>12929001</td>
+<td>Normal systolic arterial pressure (finding)</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>18050000</td>
+<td>Increased systolic arterial pressure (finding)</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>18352002</td>
+<td>Abnormal systolic arterial pressure (finding)</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>81010002</td>
+<td>Decreased systolic arterial pressure (finding)</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>163030003</td>
+<td>On examination - Systolic blood pressure reading</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>707303003</td>
+<td>Post exercise systolic blood pressure response abnormal</td>
+</tr>
+<tr>
+<td>systolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>707304009</td>
+<td>Post exercise systolic blood pressure response normal (finding)</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>X779S</td>
+<td>DAP-Diastolic arterial pressur</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>X779T</td>
+<td>DAP-Diastolic arterial pressur</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>Xac5K</td>
+<td>Baseline diastolic BP</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>Xaedp</td>
+<td>Non-invasive centrl diastlc BP</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4a</td>
+<td>Ave day diastol blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4b</td>
+<td>Ave 24h diastol blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4e</td>
+<td>24h diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4Q</td>
+<td>Min diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4R</td>
+<td>Max diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4S</td>
+<td>Ave diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4T</td>
+<td>Min day diastol blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4U</td>
+<td>Min night diast blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4V</td>
+<td>Min 24h diastol blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4W</td>
+<td>Max night diast blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4X</td>
+<td>Max day diast blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4Y</td>
+<td>Max 24h diastol blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaF4Z</td>
+<td>Ave night diast blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaIwk</td>
+<td>Standing diastolic BP</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaJ2F</td>
+<td>Sitting diastolic BP</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaJ2H</td>
+<td>Lying diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaKFw</td>
+<td>Average home diastolic BP</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaKjG</td>
+<td>Ambulatory diastolic BP</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XaYg8</td>
+<td>Diastolic BP centile</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>XM02Y</td>
+<td>DAP-Diastolic arterial pressur</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246o1</td>
+<td>Non-invasive central diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246n0</td>
+<td>Baseline diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246m.</td>
+<td>Average diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246i.</td>
+<td>Diastolic blood pressure centile</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246f.</td>
+<td>Ambulatory diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246c.</td>
+<td>Average home diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246a.</td>
+<td>Average night interval diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246X.</td>
+<td>Average day interval diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246V.</td>
+<td>Average 24 hour diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246T.</td>
+<td>Lying diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246R.</td>
+<td>Sitting diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246P.</td>
+<td>Standing diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246L.</td>
+<td>Target diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>ctv3</td>
+<td>246A.</td>
+<td>O/E - Diastolic BP reading</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>emis</td>
+<td>EMISNQDI86</td>
+<td>Diastolic blood pressure - left arm</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>emis</td>
+<td>EMISNQDI87</td>
+<td>Diastolic blood pressure - right arm</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246o100</td>
+<td>Non-invasive central diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246n000</td>
+<td>Baseline diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246m.00</td>
+<td>Average diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246i.00</td>
+<td>Diastolic blood pressure centile</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246f.00</td>
+<td>Ambulatory diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246c.00</td>
+<td>Average home diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246a.00</td>
+<td>Average night interval diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246X.00</td>
+<td>Average day interval diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246V.00</td>
+<td>Average 24 hour diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246T.00</td>
+<td>Lying diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246R.00</td>
+<td>Sitting diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246P.00</td>
+<td>Standing diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246L.00</td>
+<td>Target diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>readv2</td>
+<td>246A.00</td>
+<td>O/E - Diastolic BP reading</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>174255007</td>
+<td>Non-invasive diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>251073000</td>
+<td>Invasive diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>271650006</td>
+<td>Diastolic arterial pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314451001</td>
+<td>Minimum diastolic blood pressure (observable entity)</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314452008</td>
+<td>Maximum diastolic blood pressure (observable entity)</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314453003</td>
+<td>Average diastolic blood pressure (observable entity)</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314454009</td>
+<td>Minimum day interval diastolic blood pressure (observable entity)</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314455005</td>
+<td>Minimum night interval diastolic blood pressure (observable entity)</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314456006</td>
+<td>Minimum 24 hour diastolic blood pressure (observable entity)</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314457002</td>
+<td>Maximum night interval diastolic blood pressure (observable entity)</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314458007</td>
+<td>Maximum day interval diastolic blood pressure (observable entity)</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314459004</td>
+<td>Maximum 24 hour diastolic blood pressure (observable entity)</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314460009</td>
+<td>Average night interval diastolic blood pressure (observable entity)</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314461008</td>
+<td>Average day interval diastolic blood pressure (observable entity)</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314462001</td>
+<td>Average 24 hour diastolic blood pressure (observable entity)</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>314465004</td>
+<td>24 hour diastolic blood pressure (observable entity)</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>400975005</td>
+<td>Standing diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>407555005</td>
+<td>Sitting diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>407557002</td>
+<td>Lying diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>413605002</td>
+<td>Average home diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>446226005</td>
+<td>Diastolic blood pressure on admission</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>716632005</td>
+<td>Baseline diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>198091000000104</td>
+<td>Ambulatory diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>814081000000101</td>
+<td>Diastolic blood pressure centile</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>1091811000000102</td>
+<td>Diastolic arterial pressure (observable entity)</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>1036571000000105</td>
+<td>Non-invasive central diastolic blood pressure</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>23154005</td>
+<td>Increased diastolic arterial pressure (finding)</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>42689008</td>
+<td>Decreased diastolic arterial pressure (finding)</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>49844009</td>
+<td>Abnormal diastolic arterial pressure (finding)</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>53813002</td>
+<td>Normal diastolic arterial pressure (finding)</td>
+</tr>
+<tr>
+<td>diastolic-blood-pressure v1</td>
+<td>snomed</td>
+<td>163031004</td>
+<td>On examination - Diastolic BP reading</td>
+</tr>
+<tr>
+<td>hba1c v2</td>
+<td>ctv3</td>
+<td>XaERp</td>
+<td>HbA1c level (DCCT aligned)</td>
+</tr>
+<tr>
+<td>hba1c v2</td>
+<td>ctv3</td>
+<td>XaPbt</td>
+<td>HbA1c levl - IFCC standardised</td>
+</tr>
+<tr>
+<td>hba1c v2</td>
+<td>ctv3</td>
+<td>42W5.</td>
+<td>Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised</td>
+</tr>
+<tr>
+<td>hba1c v2</td>
+<td>ctv3</td>
+<td>42W4.</td>
+<td>HbA1c level (DCCT aligned)</td>
+</tr>
+<tr>
+<td>hba1c v2</td>
+<td>readv2</td>
+<td>42W5.00</td>
+<td>Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised</td>
+</tr>
+<tr>
+<td>hba1c v2</td>
+<td>readv2</td>
+<td>42W4.00</td>
+<td>HbA1c level (DCCT aligned)</td>
+</tr>
+<tr>
+<td>hba1c v2</td>
+<td>snomed</td>
+<td>1019431000000105</td>
+<td>HbA1c level (Diabetes Control and Complications Trial aligned)</td>
+</tr>
+<tr>
+<td>hba1c v2</td>
+<td>snomed</td>
+<td>999791000000106</td>
+<td>Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised</td>
+</tr>
+<tr>
+<td>cholesterol v2</td>
+<td>ctv3</td>
+<td>XSK14</td>
+<td>Total cholesterol measurement</td>
+</tr>
+<tr>
+<td>cholesterol v2</td>
+<td>ctv3</td>
+<td>44PH.</td>
+<td>Total cholesterol measurement</td>
+</tr>
+<tr>
+<td>cholesterol v2</td>
+<td>ctv3</td>
+<td>44PJ.</td>
+<td>Serum total cholesterol level</td>
+</tr>
+<tr>
+<td>cholesterol v2</td>
+<td>ctv3</td>
+<td>44P..</td>
+<td>Serum cholesterol</td>
+</tr>
+<tr>
+<td>cholesterol v2</td>
+<td>ctv3</td>
+<td>44PZ.</td>
+<td>Serum cholesterol NOS</td>
+</tr>
+<tr>
+<td>cholesterol v2</td>
+<td>ctv3</td>
+<td>XE2eD</td>
+<td>Serum cholesterol</td>
+</tr>
+<tr>
+<td>cholesterol v2</td>
+<td>ctv3</td>
+<td>XaJe9</td>
+<td>Serum total cholesterol level</td>
+</tr>
+<tr>
+<td>cholesterol v2</td>
+<td>readv2</td>
+<td>44P..00</td>
+<td>Serum cholesterol</td>
+</tr>
+<tr>
+<td>cholesterol v2</td>
+<td>readv2</td>
+<td>44PZ.00</td>
+<td>Serum cholesterol NOS</td>
+</tr>
+<tr>
+<td>cholesterol v2</td>
+<td>readv2</td>
+<td>44PJ.00</td>
+<td>Serum total cholesterol level</td>
+</tr>
+<tr>
+<td>cholesterol v2</td>
+<td>readv2</td>
+<td>44PH.00</td>
+<td>Total cholesterol measurement</td>
+</tr>
+<tr>
+<td>cholesterol v2</td>
+<td>snomed</td>
+<td>1005671000000105</td>
+<td>Serum cholesterol level</td>
+</tr>
+<tr>
+<td>cholesterol v2</td>
+<td>snomed</td>
+<td>412808005</td>
+<td>Serum total cholesterol level</td>
+</tr>
+<tr>
+<td>cholesterol v2</td>
+<td>snomed</td>
+<td>121868005</td>
+<td>Total cholesterol measurement (procedure)</td>
+</tr>
+<tr>
+<td>cholesterol v2</td>
+<td>snomed</td>
+<td>994351000000103</td>
+<td>Serum total cholesterol level</td>
+</tr>
+<tr>
+<td>ldl-cholesterol v1</td>
+<td>ctv3</td>
+<td>44P6.</td>
+<td>Serum LDL cholesterol level</td>
+</tr>
+<tr>
+<td>ldl-cholesterol v1</td>
+<td>ctv3</td>
+<td>XaIp4</td>
+<td>Calculated LDL cholesterol lev</td>
+</tr>
+<tr>
+<td>ldl-cholesterol v1</td>
+<td>ctv3</td>
+<td>XaEVs</td>
+<td>Plasma LDL cholesterol level</td>
+</tr>
+<tr>
+<td>ldl-cholesterol v1</td>
+<td>readv2</td>
+<td>44PI.00</td>
+<td>Calculated LDL cholesterol level</td>
+</tr>
+<tr>
+<td>ldl-cholesterol v1</td>
+<td>readv2</td>
+<td>44P6.00</td>
+<td>Serum LDL cholesterol level</td>
+</tr>
+<tr>
+<td>ldl-cholesterol v1</td>
+<td>readv2</td>
+<td>44dB.00</td>
+<td>Plasma LDL cholesterol level</td>
+</tr>
+<tr>
+<td>ldl-cholesterol v1</td>
+<td>snomed</td>
+<td>1010591000000104</td>
+<td>Plasma low density lipoprotein cholesterol level (observable entity)</td>
+</tr>
+<tr>
+<td>ldl-cholesterol v1</td>
+<td>snomed</td>
+<td>1014501000000104</td>
+<td>Calculated low density lipoprotein cholesterol level (observable entity)</td>
+</tr>
+<tr>
+<td>ldl-cholesterol v1</td>
+<td>snomed</td>
+<td>1022191000000100</td>
+<td>Serum low density lipoprotein cholesterol level (observable entity)</td>
+</tr>
+<tr>
+<td>hdl-cholesterol v1</td>
+<td>ctv3</td>
+<td>44P5.</td>
+<td>Serum HDL cholesterol level</td>
+</tr>
+<tr>
+<td>hdl-cholesterol v1</td>
+<td>ctv3</td>
+<td>44PC.</td>
+<td>Ser random HDL cholesterol lev</td>
+</tr>
+<tr>
+<td>hdl-cholesterol v1</td>
+<td>ctv3</td>
+<td>XaEVr</td>
+<td>Plasma HDL cholesterol level</td>
+</tr>
+<tr>
+<td>hdl-cholesterol v1</td>
+<td>readv2</td>
+<td>44PC.00</td>
+<td>Serum random HDL cholesterol level</td>
+</tr>
+<tr>
+<td>hdl-cholesterol v1</td>
+<td>readv2</td>
+<td>44P5.00</td>
+<td>Serum HDL cholesterol level</td>
+</tr>
+<tr>
+<td>hdl-cholesterol v1</td>
+<td>readv2</td>
+<td>44dA.00</td>
+<td>Plasma HDL cholesterol level</td>
+</tr>
+<tr>
+<td>hdl-cholesterol v1</td>
+<td>snomed</td>
+<td>1005681000000107</td>
+<td>Serum high density lipoprotein cholesterol level (observable entity)</td>
+</tr>
+<tr>
+<td>hdl-cholesterol v1</td>
+<td>snomed</td>
+<td>1010581000000101</td>
+<td>Plasma high density lipoprotein cholesterol level (observable entity)</td>
+</tr>
+<tr>
+<td>hdl-cholesterol v1</td>
+<td>snomed</td>
+<td>1026461000000104</td>
+<td>Serum random high density lipoprotein cholesterol level (observable entity)</td>
+</tr>
+<tr>
+<td>triglycerides v1</td>
+<td>ctv3</td>
+<td>XE2q9</td>
+<td>Serum triglycerides</td>
+</tr>
+<tr>
+<td>triglycerides v1</td>
+<td>ctv3</td>
+<td>XE2q9</td>
+<td>Serum triglyceride levels</td>
+</tr>
+<tr>
+<td>triglycerides v1</td>
+<td>ctv3</td>
+<td>44Q4.</td>
+<td>Serum fasting triglyceride level</td>
+</tr>
+<tr>
+<td>triglycerides v1</td>
+<td>ctv3</td>
+<td>44QZ.</td>
+<td>Serum triglycerides NOS</td>
+</tr>
+<tr>
+<td>triglycerides v1</td>
+<td>readv2</td>
+<td>44Q..00</td>
+<td>Serum triglycerides</td>
+</tr>
+<tr>
+<td>triglycerides v1</td>
+<td>readv2</td>
+<td>44Q4.00</td>
+<td>Serum fasting triglyceride level</td>
+</tr>
+<tr>
+<td>triglycerides v1</td>
+<td>readv2</td>
+<td>44Q5.00</td>
+<td>Serum random triglyceride level</td>
+</tr>
+<tr>
+<td>triglycerides v1</td>
+<td>readv2</td>
+<td>44QZ.00</td>
+<td>Serum triglycerides NOS</td>
+</tr>
+<tr>
+<td>egfr v1</td>
+<td>ctv3</td>
+<td>X70kK</td>
+<td>Tc99m-DTPA clearance - GFR</td>
+</tr>
+<tr>
+<td>egfr v1</td>
+<td>ctv3</td>
+<td>X70kL</td>
+<td>Cr51- EDTA clearance - GFR</td>
+</tr>
+<tr>
+<td>egfr v1</td>
+<td>ctv3</td>
+<td>X90kf</td>
+<td>With GFR</td>
+</tr>
+<tr>
+<td>egfr v1</td>
+<td>ctv3</td>
+<td>XaK8y</td>
+<td>Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation</td>
+</tr>
+<tr>
+<td>egfr v1</td>
+<td>ctv3</td>
+<td>XaMDA</td>
+<td>Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin</td>
+</tr>
+<tr>
+<td>egfr v1</td>
+<td>ctv3</td>
+<td>XaZpN</td>
+<td>Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres</td>
+</tr>
+<tr>
+<td>egfr v1</td>
+<td>ctv3</td>
+<td>XacUJ</td>
+<td>Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres</td>
+</tr>
+<tr>
+<td>egfr v1</td>
+<td>ctv3</td>
+<td>XacUK</td>
+<td>Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres</td>
+</tr>
+<tr>
+<td>egfr v1</td>
+<td>readv2</td>
+<td>451E.00</td>
+<td>Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation</td>
+</tr>
+<tr>
+<td>egfr v1</td>
+<td>readv2</td>
+<td>451G.00</td>
+<td>Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin</td>
+</tr>
+<tr>
+<td>egfr v1</td>
+<td>readv2</td>
+<td>451K.00</td>
+<td>Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres</td>
+</tr>
+<tr>
+<td>egfr v1</td>
+<td>readv2</td>
+<td>451M.00</td>
+<td>Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres</td>
+</tr>
+<tr>
+<td>egfr v1</td>
+<td>readv2</td>
+<td>451N.00</td>
+<td>Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres</td>
+</tr>
+<tr>
+<td>egfr v1</td>
+<td>snomed</td>
+<td>1011481000000105</td>
+<td>eGFR (estimated glomerular filtration rate) using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres</td>
+</tr>
+<tr>
+<td>egfr v1</td>
+<td>snomed</td>
+<td>1011491000000107</td>
+<td>eGFR (estimated glomerular filtration rate) using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres</td>
+</tr>
+<tr>
+<td>egfr v1</td>
+<td>snomed</td>
+<td>1020291000000106</td>
+<td>GFR (glomerular filtration rate) calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation</td>
+</tr>
+<tr>
+<td>egfr v1</td>
+<td>snomed</td>
+<td>1107411000000104</td>
+<td>eGFR (estimated glomerular filtration rate) by laboratory calculation</td>
+</tr>
+<tr>
+<td>egfr v1</td>
+<td>snomed</td>
+<td>241373003</td>
+<td>Technetium-99m-diethylenetriamine pentaacetic acid clearance - glomerular filtration rate (procedure)</td>
+</tr>
+<tr>
+<td>egfr v1</td>
+<td>snomed</td>
+<td>262300005</td>
+<td>With glomerular filtration rate</td>
+</tr>
+<tr>
+<td>egfr v1</td>
+<td>snomed</td>
+<td>737105002</td>
+<td>GFR (glomerular filtration rate) calculation technique</td>
+</tr>
+<tr>
+<td>egfr v1</td>
+<td>snomed</td>
+<td>80274001</td>
+<td>Glomerular filtration rate (observable entity)</td>
+</tr>
+<tr>
+<td>egfr v1</td>
+<td>snomed</td>
+<td>996231000000108</td>
+<td>GFR (glomerular filtration rate) calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin</td>
 </tr>
 </tbody>
 </table>
