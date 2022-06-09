@@ -1,0 +1,93 @@
+x00C5	Voltarol Emulgel
+j223.	Voltarol 75mg/3mL injection
+ja1N.	Transvasin cream 40g
+h8Fz.	TOCILIZUMAB 80mg/4mL infusion concentrate
+h8Fw.	TOCILIZUMAB 162mg/0.9mL soln for injection prefilled syringe
+jA1w.	Rofecoxib 12.5mg tablet
+ja35.	QUTENZA 179mg patches
+j2c2.	Naproxen 500mg tablet
+j2cl.	Naproxen 500mg e/c tablet
+j2cw.	Naproxen 375mg e/c tablet
+j2c1.	Naproxen 250mg tablet
+j2ck.	Naproxen 250mg e/c tablet
+j2c6.	Naprosyn 500mg tablet
+j515.	Myocrisin 50mg/0.5mL injection
+j514.	Myocrisin 20mg/0.5mL injection
+j513.	Myocrisin 10mg/0.5mL injection
+x026V	Movelat gel
+j2n6.	Mobic 15mg tablet
+h3GR.	METOJECT PEN 22.5mg/0.45mL soln for injection prefilled pen
+h3GP.	METOJECT PEN 20mg/0.4mL solution for injection prefilled pen
+h3GJ.	METOJECT PEN 12.5mg/0.25mL soln for injection prefilled pen
+h34T.	METOJECT 25mg/0.5mL solution for injection prefilled syringe
+h3GB.	METOJECT 22.5mg/0.45mL soln for injection prefilled syringe
+h34G.	METOJECT 20mg/2mL solution for injection prefilled syringe
+h34R.	METOJECT 20mg/0.4mL solution for injection prefilled syringe
+h3G9.	METOJECT 17.5mg/0.35mL soln for injection prefilled syringe
+h34P.	METOJECT 15mg/0.3mL solution for injection prefilled syringe
+h3G7.	METOJECT 12.5mg/0.25mL soln for injection prefilled syringe
+fe5y.	Methylprednisolone acetate 80mg/2mL injection
+h341.	Methotrexate 2.5mg tablet
+h34A.	METHOTREXATE 15mg/1.5mL solution for injection prefilled syringe
+h3GM.	METHOTREXATE 15mg/0.3mL solution for injection prefilled pen
+h34Q.	METHOTREXATE 15mg/0.3mL solution for injection pfs
+h3G8.	METHOTREXATE 12.5mg/0.25mL solution for injection pfs
+h3GK.	METHOTREXATE 12.5mg/0.25mL soln for injection prefilled pen
+j85y.	Methocarbamol 750mg tablet
+j2bx.	Mefenamic acid 500mg tablet
+j59x.	Leflunomide 10mg tablet
+ja1V.	Ketoprofen 2.5% gel
+h8Bz.	INFLIXIMAB 100mg powder for solution for injection
+h8B2.	INFLECTRA 100mg powder for concentrate for soln for infusion
+j292.	Indomethacin 50mg capsule
+j291.	Indomethacin 25mg capsule
+j292.	Indometacin 50mg capsule
+j291.	Indometacin 25mg capsule
+j299.	Indocid 25mg capsule
+j28P.	Ibuprofen 600mg/sachet effervescent granules
+j283.	Ibuprofen 600mg tablet
+j282.	Ibuprofen 400mg tablet
+j281.	Ibuprofen 200mg tablet
+j28w.	Ibuprofen 100mg/5mL syrup
+j28Y.	Ibuprofen 100mg/5mL sugar free syrup
+j28Y.	Ibuprofen 100mg/5mL s/f oral suspension
+j28w.	Ibuprofen 100mg/5mL oral suspension
+j54z.	Hydroxychloroquine sulphate 200mg tablet
+h872.	Humira 40mg injection solution 0.8mL prefilled syringe
+h874.	HUMIRA 40mg injection solution 0.8mL prefilled pen
+j258.	Fenbufen 300mg tablet
+x04xv	Fenbid Forte 10% gel
+h895.	ETANERCEPT 50mg solution for injection prefilled pen
+h89x.	ENBREL 50mg solution for injection prefilled syringe
+h89u.	ENBREL 50mg solution for injection prefilled pen
+h89z.	Enbrel 50mg powder+solvent for solution for injection
+j232.	Dolobid 500mg tablet
+j22p.	Diclofenac sodium+misoprostol 50mg/200micrograms tablet
+j229.	Diclofenac sodium 75mg/3mL injection
+j22y.	Diclofenac sodium 75mg m/r tablet
+j22C.	Diclofenac sodium 75mg m/r capsule
+j22e.	Diclofenac sodium 50mg e/c tablet
+j22d.	Diclofenac sodium 25mg e/c tablet
+j22a.	Diclofenac sodium 100mg suppository
+j22c.	Diclofenac sodium 100mg m/r tablet
+j2rz.	Diclofenac potassium 50mg tablet
+j435.	Depo-Medrone+Lidocaine 80mg/20mg/2mL injection
+j436.	Depo-Medrone+Lidocaine 40mg/10mg/1mL injection
+fe5c.	Depo-Medrone 80mg/2mL injection
+fe5b.	Depo-Medrone 40mg/1mL injection
+fe5e.	Depo-Medrone 120mg/3mL injection
+j622.	Colchicine 500micrograms tablet
+h8G2.	CIMZIA 200mg solution for injection prefilled syringe
+jA2y.	Celecoxib 200mg capsule
+j288.	Brufen 400mg tablet
+j287.	Brufen 200mg tablet
+j28a.	Brufen 100mg/5mL syrup
+j82z.	Baclofen 5mg/5mL s/f liquid
+j22o.	Arthrotec tablet
+j22z.	Arthrotec 75mg/200mcg tablet
+j22z.	Arthrotec 75 tablet
+j22o.	Arthrotec 50 tablet
+j612.	Allopurinol 300mg tablet
+j611.	Allopurinol 100mg tablet
+ja18.	Algesal cream
+j2j1.	Acemetacin 60mg capsule

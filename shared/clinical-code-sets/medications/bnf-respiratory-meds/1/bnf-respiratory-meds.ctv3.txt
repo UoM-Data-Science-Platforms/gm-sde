@@ -1,0 +1,118 @@
+ck16.	XOLAIR 150mg/1mL solution for injection prefilled syringe
+ck12.	Xolair 150mg injection (pdr for recon)+solvent
+c13m.	Ventolin 5mg/2.5mL Nebule
+c135.	Ventolin 2.5mg/2.5mL Nebule
+c13T.	Ventolin 100micrograms Evohaler
+c8k2.	Vallergan 7.5mg/5mL syrup
+c43e.	Uniphyllin Continus 400mg m/r tablet
+c43h.	Uniphyllin Continus 300mg m/r tablet
+c43f.	Uniphyllin Continus 200mg m/r tablet
+c8kz.	Trimeprazine tartrate 30mg/5mL syrup
+c331.	Tiotropium 18micrograms inhalation capsule
+c332.	Tiotropium 18micrograms capsule+inhaler device
+c43u.	Theophylline 250mg m/r capsule
+c8p2.	Telfast 120 tablet
+c673.	Symbicort 400/12 Turbohaler
+c672.	Symbicort 200/6 Turbohaler
+ci1f.	Sudafed 60mg tablet
+c13B.	Steri-Neb Salamol 5mg/2.5mL nebulisation unit
+c33x.	SPIRIVA RESPIMAT 2.5micrograms inhalation cartridges with Respimat inhaler device
+c33y.	Spiriva Combopack 18micrograms capsule+HandiHaler inhaler device
+c33z.	Spiriva 18micrograms inhalation capsule
+ch1a.	Simple s/f linctus
+ch15.	Simple paediatric linctus
+ch14.	Simple linctus
+c199.	Serevent 25micrograms Evohaler
+c1D3.	Seretide 500 Accuhaler
+c1D4.	Seretide 50 Evohaler
+c1D6.	Seretide 250 Evohaler
+c1D2.	Seretide 250 Accuhaler
+c1D5.	Seretide 125 Evohaler
+c1Dz.	Salmeterol+fluticasone propionate 50micrograms/500micrograms breath-actuated dry powder inhaler
+c1Dy.	Salmeterol+fluticasone propionate 50micrograms/250micrograms breath-actuated dry powder inhaler
+c1Dx.	Salmeterol+fluticasone propionate 50micrograms/100micrograms breath-actuated dry powder inhaler
+c1Du.	Salmeterol+fluticasone propionate 25micrograms/50micrograms CFC-free inhaler
+c1Dw.	Salmeterol+fluticasone propionate 25micrograms/250micrograms CFC-free inhaler
+c1Dv.	Salmeterol+fluticasone propionate 25micrograms/125micrograms CFC-free inhaler
+c195.	Salmeterol 50micrograms/blister disks+disk inhaler
+c197.	Salmeterol 50micrograms breath-actuated dry powder inhaler
+c191.	Salmeterol 25micrograms inhaler
+c19z.	Salmeterol 25micrograms CFC-free inhaler
+c11z.	Salbutamol 2mg/5mL sugar free syrup
+c13v.	Salbutamol 100micrograms inhaler
+c13J.	Salbutamol 100micrograms CFC-free inhaler
+c13U.	Salbutamol 100micrograms CFC-free breath-actuated aerosol inhaler
+c133.	Salbulin 100micrograms inhaler
+c13Z.	Salamol 100micrograms CFC-free inhaler
+c665.	Qvar 50 inhaler
+c666.	Qvar 100 inhaler
+c644.	Pulmicort LS 50micrograms spacer inhaler
+ci1w.	Pseudoephedrine hydrochloride 60mg tablet
+ci1z.	Pseudoephedrine 30mg/5mL elixir
+c8iw.	Promethazine hydrochloride 25mg tablet
+c843.	Piriton 4mg tablet
+c845.	Piriton 2mg/5mL syrup
+c41a.	Phyllocontin Continus 225mg m/r tablet
+cg79.	Pholcodine strong 10mg/5mL s/f linctus
+cg78.	Pholcodine 5mg/5mL s/f linctus
+cg71.	Pholcodine 5mg/5mL linctus
+cg77.	Pholcodine 2mg/5mL paediatric s/f linctus
+c8i3.	Phenergan 5mg/5mL elixir
+c25w.	Orciprenaline sulphate 10mg/5mL syrup
+ck11.	Omalizumab 150mg injection (pdr for recon)+solvent
+c8r1.	Neoclarityn 5mg tablet
+cA12.	Montelukast 5mg chewable tablet
+cA11.	Montelukast 10mg tablet
+cg51.	Methadone 2mg/5mL linctus
+c8o3.	Loratadine 5mg/5mL syrup
+c8o1.	Loratadine 10mg tablet
+c8sz.	Levocetirizine dihydrochloride 5mg tablet
+bp1K.	JEXT 150micrograms/0.15mL soln for injection prefilled pen
+c31v.	Ipratropium bromide 250micrograms/1mL nebuliser solution
+d28x.	Hydroxyzine hydrochloride 10mg tablet
+c91g.	GRAZAX 75,000 SQ-T oral lyophilisate
+ci1A.	Galpseud Plus s/f linctus
+c6A1.	FOSTAIR 100micrograms/6micrograms inhaler
+c1C4.	Formoterol fumarate dihydrate 12micrograms breath-actuated dry powder inhaler
+c65f.	Fluticasone propionate 50micrograms CFC-free inhaler
+c65C.	Fluticasone propionate 250micrograms/blister disks refill
+c65b.	Fluticasone propionate 125micrograms CFC-free inhaler
+c65e.	Flixotide 250micrograms Evohaler
+c8p3.	Fexofenadine hydrochloride 180mg tablet
+c8p1.	Fexofenadine hydrochloride 120mg tablet
+bp1B.	Epipen JR 150micrograms/0.3mL preloaded injection pen
+bp1A.	Epipen 300micrograms/0.3mL preloaded injection pen
+c1E7.	Easyhaler Salbutamol 100micrograms breath-actuated dry powder inhaler
+c51i.	Duovent inhaler
+c8rz.	Desloratadine 5mg tablet
+c8rx.	DESLORATADINE 2.5mg/5mL oral solution
+c51E.	Combivent Unit Dose Vial
+c51D.	Combivent inhaler
+c66c.	CLENIL MODULITE 50micrograms CFC-free inhaler
+c66e.	CLENIL MODULITE 200micrograms CFC-free inhaler
+c66d.	CLENIL MODULITE 100micrograms CFC-free inhaler
+c84y.	Chlorpheniramine maleate 2mg/5mL syrup
+c84w.	Chlorpheniramine maleate 2mg/5mL sugar free syrup
+c84z.	Chlorpheniramine maleate 10mg/1mL injection
+c8n3.	Cetirizine dihydrochloride 1mg/1mL s/f oral solution
+c8n1.	Cetirizine dihydrochloride 10mg tablet
+ce31.	Carbocisteine 375mg capsule
+c67x.	Budesonide+formoterol fumarate dihydrate 400micrograms/12micrograms breath-actuated dry powder inhaler
+c67y.	Budesonide+formoterol fumarate dihydrate 200micrograms/6micrograms breath-actuated dry powder inhaler
+c67z.	Budesonide+formoterol fumarate dihydrate 100micrograms/6micrograms breath-actuated dry powder inhaler
+c141.	Bricanyl 5mg tablet
+c142.	Bricanyl 1.5mg/5mL s/f syrup
+c612.	Becotide 50 inhaler
+c614.	Becotide 200micrograms Rotacap
+c617.	Becotide 100 inhaler
+c61v.	Beclomethasone dipropionate 50micrograms inhaler
+c61D.	Beclomethasone dipropionate 50micrograms breath-actuated aerosol inhaler
+c61z.	Beclomethasone dipropionate 100micrograms inhaler
+c61F.	Beclomethasone dipropionate 100micrograms breath-actuated aerosol inhaler
+c66V.	Beclometasone dipropionate 50micrograms CFC-free inhaler
+c61N.	Beclazone 50 Easi-Breathe inhaler
+c31G.	Atrovent 20micrograms CFC-free inhaler
+d282.	Atarax 25mg tablet
+ch11.	Ammonia+ipecacuanha mixture
+c252.	Alupent 10mg/5mL s/f syrup
+cA22.	Accolate 20mg tablet
