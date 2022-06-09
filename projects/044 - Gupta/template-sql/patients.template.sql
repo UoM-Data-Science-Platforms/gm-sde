@@ -2,8 +2,8 @@
 --│ Patients with multimorbidity and covid	     │
 --└──────────────────────────────────────────────┘
 
--- REVIEW LOG:
---	
+------------- RDE CHECK -----------------
+-----------------------------------------	
 
 -- OUTPUT: Data with the following fields
 
@@ -285,36 +285,45 @@ LEFT JOIN #most_recent_date_before_covid bef ON bef.FK_Patient_Link_ID = o.FK_Pa
 LEFT JOIN #most_recent_date_after_covid aft ON aft.FK_Patient_Link_ID = o.FK_Patient_Link_ID AND aft.MostRecentDate = o.EventDate and aft.Concept = o.Concept
 WHERE bef.MostRecentDate = o.EventDate OR aft.MostRecentDate = o.EventDate
 
+
 SELECT
 	 FK_Patient_Link_ID
 	,SystolicBP_1 = MAX(CASE WHEN [Concept] = 'systolic-blood-pressure' AND BeforeOrAfterCovid = 'before' THEN [Value] ELSE 0 END)
-	--,SystolicBP_1_dt = MAX(CASE WHEN [Concept] = 'systolic-blood-pressure' AND BeforeOrAfterCovid = 'before' THEN EventDate ELSE 0 END)
+	,SystolicBP_1_dt = MAX(CASE WHEN [Concept] = 'systolic-blood-pressure' AND BeforeOrAfterCovid = 'before' THEN EventDate ELSE 0 END)
 	,SystolicBP_2 = MAX(CASE WHEN [Concept] = 'systolic-blood-pressure' AND BeforeOrAfterCovid = 'after' THEN [Value] ELSE 0 END)
-	--,SystolicBP_2_dt = MAX(CASE WHEN [Concept] = 'systolic-blood-pressure' AND BeforeOrAfterCovid = 'after' THEN EventDate ELSE 0 END)
-	--,diastolicBP_1 = CASE WHEN [Concept] = 'diastolic-blood-pressure' AND BeforeOrAfterCovid = 'before' THEN [Value]
-	--,diastolicBP_1_dt = CASE WHEN [Concept] = 'diastolic-blood-pressure' AND BeforeOrAfterCovid = 'before' THEN EventDate
-	--,diastolicBP_2 = CASE WHEN [Concept] = 'diastolic-blood-pressure' AND BeforeOrAfterCovid = 'after' THEN [Value]
-	--,diastolicBP_2_dt = CASE WHEN [Concept] = 'diastolic-blood-pressure' AND BeforeOrAfterCovid = 'after' THEN EventDate
-	--,cholesterol_1 = CASE WHEN [Concept] = 'cholesterol' AND BeforeOrAfterCovid = 'before' THEN [Value]
-	--,cholesterol_1_dt = CASE WHEN [Concept] = 'cholesterol' AND BeforeOrAfterCovid = 'before' THEN EventDate
-	--,cholesterol_2 = CASE WHEN [Concept] = 'cholesterol' AND BeforeOrAfterCovid = 'after' THEN [Value]
-	--,cholesterol_2_dt = CASE WHEN [Concept] = 'cholesterol' AND BeforeOrAfterCovid = 'after' THEN EventDate
-	--,HDLcholesterol_1 = CASE WHEN [Concept] = 'hdl-cholesterol' AND BeforeOrAfterCovid = 'before' THEN [Value]
-	--,HDLcholesterol_2 = CASE WHEN [Concept] = 'hdl-cholesterol' AND BeforeOrAfterCovid = 'after' THEN [Value]
-	--,HDLcholesterol _1_dt = CASE WHEN [Concept] = 'hdl-cholesterol' AND BeforeOrAfterCovid = 'before' THEN [Value]
-	--,HDLcholesterol_2_dt = CASE WHEN [Concept] = 'hdl-cholesterol' AND BeforeOrAfterCovid = 'after' THEN [Value]
-
-	--,LDL_cholesterol_1 = CASE WHEN [Concept] = 'ldl-cholesterol' AND BeforeOrAfterCovid = 'before' THEN [Value]
-	--,LDL_cholesterol_2 = CASE WHEN [Concept] = 'ldl-cholesterol' AND BeforeOrAfterCovid = 'after' THEN [Value]
-	--,Triglyceride_1 = CASE WHEN [Concept] = 'triglycerides' AND BeforeOrAfterCovid = 'before' THEN [Value]
-	--,Triglyceride_2 = CASE WHEN [Concept] = 'triglycerides' AND BeforeOrAfterCovid = 'after' THEN [Value]
-	--,egfr_1 = CASE WHEN [Concept] = 'egfr' AND BeforeOrAfterCovid = 'before' THEN [Value]
-	--,egfr_2 = CASE WHEN [Concept] = 'egfr' AND BeforeOrAfterCovid = 'after' THEN [Value]
-	--,hba1c_1 = CASE WHEN [Concept] = 'hba1c' AND BeforeOrAfterCovid = 'before' THEN [Value]
-	--,hba1c_2 = CASE WHEN [Concept] = 'hba1c' AND BeforeOrAfterCovid = 'after' THEN [Value]
+	,SystolicBP_2_dt = MAX(CASE WHEN [Concept] = 'systolic-blood-pressure' AND BeforeOrAfterCovid = 'after' THEN EventDate ELSE 0 END)
+	,diastolicBP_1 = CASE WHEN [Concept] = 'diastolic-blood-pressure' AND BeforeOrAfterCovid = 'before' THEN [Value]
+	,diastolicBP_1_dt = CASE WHEN [Concept] = 'diastolic-blood-pressure' AND BeforeOrAfterCovid = 'before' THEN EventDate
+	,diastolicBP_2 = CASE WHEN [Concept] = 'diastolic-blood-pressure' AND BeforeOrAfterCovid = 'after' THEN [Value]
+	,diastolicBP_2_dt = CASE WHEN [Concept] = 'diastolic-blood-pressure' AND BeforeOrAfterCovid = 'after' THEN EventDate
+	,cholesterol_1 = CASE WHEN [Concept] = 'cholesterol' AND BeforeOrAfterCovid = 'before' THEN [Value]
+	,cholesterol_1_dt = CASE WHEN [Concept] = 'cholesterol' AND BeforeOrAfterCovid = 'before' THEN EventDate
+	,cholesterol_2 = CASE WHEN [Concept] = 'cholesterol' AND BeforeOrAfterCovid = 'after' THEN [Value]
+	,cholesterol_2_dt = CASE WHEN [Concept] = 'cholesterol' AND BeforeOrAfterCovid = 'after' THEN EventDate
+	,HDLcholesterol_1 = CASE WHEN [Concept] = 'hdl-cholesterol' AND BeforeOrAfterCovid = 'before' THEN [Value]
+	,HDLcholesterol _1_dt = CASE WHEN [Concept] = 'hdl-cholesterol' AND BeforeOrAfterCovid = 'before' THEN EventDate
+	,HDLcholesterol_2 = CASE WHEN [Concept] = 'hdl-cholesterol' AND BeforeOrAfterCovid = 'after' THEN [Value]
+	,HDLcholesterol_2_dt = CASE WHEN [Concept] = 'hdl-cholesterol' AND BeforeOrAfterCovid = 'after' THEN EventDate
+	,LDL_cholesterol_1 = CASE WHEN [Concept] = 'ldl-cholesterol' AND BeforeOrAfterCovid = 'before' THEN [Value]
+	,LDL_cholesterol_1_dt = CASE WHEN [Concept] = 'ldl-cholesterol' AND BeforeOrAfterCovid = 'before' THEN EventDate
+	,LDL_cholesterol_2 = CASE WHEN [Concept] = 'ldl-cholesterol' AND BeforeOrAfterCovid = 'after' THEN [Value]
+	,LDL_cholesterol_2_dt = CASE WHEN [Concept] = 'ldl-cholesterol' AND BeforeOrAfterCovid = 'after' THEN EventDate
+	,Triglyceride_1 = CASE WHEN [Concept] = 'triglycerides' AND BeforeOrAfterCovid = 'before' THEN [Value]
+	,Triglyceride_1_dt = CASE WHEN [Concept] = 'triglycerides' AND BeforeOrAfterCovid = 'before' THEN EventDate
+	,Triglyceride_2 = CASE WHEN [Concept] = 'triglycerides' AND BeforeOrAfterCovid = 'after' THEN [Value]
+	,Triglyceride_2_dt = CASE WHEN [Concept] = 'triglycerides' AND BeforeOrAfterCovid = 'after' THEN EventDate
+	,egfr_1 = CASE WHEN [Concept] = 'egfr' AND BeforeOrAfterCovid = 'before' THEN [Value]
+	,egfr_1_dt = CASE WHEN [Concept] = 'egfr' AND BeforeOrAfterCovid = 'before' THEN EventDate
+	,egfr_2 = CASE WHEN [Concept] = 'egfr' AND BeforeOrAfterCovid = 'after' THEN [Value]
+	,egfr_2_dt = CASE WHEN [Concept] = 'egfr' AND BeforeOrAfterCovid = 'after' THEN EventDate
+	,hba1c_1 = CASE WHEN [Concept] = 'hba1c' AND BeforeOrAfterCovid = 'before' THEN [Value]
+	,hba1c_1_dt = CASE WHEN [Concept] = 'hba1c' AND BeforeOrAfterCovid = 'before' THEN EventDate
+	,hba1c_2 = CASE WHEN [Concept] = 'hba1c' AND BeforeOrAfterCovid = 'after' THEN [Value]
+	,hba1c_2_dt = CASE WHEN [Concept] = 'hba1c' AND BeforeOrAfterCovid = 'after' THEN EventDate
 FROM #closest_observations
 WHERE ROW_NUM = 1
 GROUP BY FK_Patient_Link_ID
+
 
 
 -- BRING TOGETHER FOR FINAL DATA EXTRACT
@@ -424,23 +433,38 @@ SELECT DISTINCT
 	,NEW_learning_disability = ISNULL(NEW_learning_disability, 0)
 	,NEW_alcohol_problems = ISNULL(NEW_alcohol_problems, 0)
 	,NEW_psychoactive_substance_abuse = ISNULL(NEW_psychoactive_substance_abuse, 0)
-	,Systolic blood pressure_1 = obs_b.
-	,Systolic blood pressure_2
-	,diastolic blood pressure_1
-	,diastolic blood pressure_2
-	,cholesterol level_1
-	,cholesterol level_2
-	,HDL cholesterol level_1
-	,HDL cholesterol level_2
-	,LDL cholesterol level_1
-	,LDL cholesterol level_2
-	,Triglyceride level_1
-	,Triglyceride level_2
+	,SystolicBP_1
+	,SystolicBP_1_dt 
+	,SystolicBP_2
+	,SystolicBP_2_dt 
+	,diastolicBP_1
+	,diastolicBP_1_dt
+	,diastolicBP_2
+	,diastolicBP_2_dt
+	,cholesterol_1
+	,cholesterol_1_dt
+	,cholesterol_2
+	,cholesterol_2_dt
+	,HDLcholesterol_1
+	,HDLcholesterol_1_dt 
+	,HDLcholesterol_2
+	,HDLcholesterol_2_dt 
+	,LDL_cholesterol_1
+	,LDL_cholesterol_1_dt
+	,LDL_cholesterol_2
+	,LDL_cholesterol_2_dt
+	,Triglyceride_1
+	,Triglyceride_1_dt
+	,Triglyceride_2
+	,Triglyceride_2_dt
 	,egfr_1
+	,egfr_1_dt 
 	,egfr_2
+	,egfr_2_dt 
 	,hba1c_1
+	,hba1c_1_dt
 	,hba1c_2
-
+	,hba1c_2_dt
 FROM #Cohort p 
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
@@ -452,6 +476,4 @@ LEFT OUTER JOIN #COVIDVaccinations vac ON vac.FK_Patient_Link_ID = p.FK_Patient_
 LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cv ON CV.FK_Patient_Link_ID = P.FK_Patient_Link_ID
 LEFT OUTER JOIN #HistoryOfLTCs ltc on ltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #NewLTCs nltc on nltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #closest_observations obs_b on obs_b.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND BeforeOrAfterCovid = 'before'
-LEFT OUTER JOIN #closest_observations obs_a on obs_a.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND BeforeOrAfterCovid = 'after'
---70,845
+LEFT OUTER JOIN #patient_observations obs on obs.FK_Patient_Link_ID = p.FK_Patient_Link_ID
