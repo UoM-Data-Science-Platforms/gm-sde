@@ -328,7 +328,8 @@ This project required the following clinical code sets:
 - asthma v1
 - coronary-heart-disease v1
 - stroke v1
-- diabetes v1
+- diabetes-type-i v1
+- diabetes-type-ii v1
 - copd v1
 - hypertension v1
 - bmi v2
@@ -505,22 +506,39 @@ The discrepancy between the patients counted when using the IDs vs using the cli
 
 LINK: [https://github.com/rw251/.../conditions/stroke/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/stroke/1)
 
-### Diabetes mellitus
+### Diabetes mellitus type 1
 
-Code set for any diagnosis of diabetes mellitus (type I/type II/other).
+Any diagnosis of T1DM. A super set of the QOF business rule.
 
 Developed from https://getset.ga.
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `5.96% - 6.05%` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.42% - 0.48%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-05-07 | EMIS            | 2605681    |   155421 (5.96%) |    155398 (5.96%) |
-| 2021-05-07 | TPP             | 210817     |    12743 (6.04%) |     12745 (6.05%) |
-| 2021-05-07 | Vision          | 334632     |    20145 (6.02%) |     20145 (6.02%) |
+| 2021-05-07 | EMIS            | 2605681    |    11381 (0.44%) |     11381 (0.44%) |
+| 2021-05-07 | TPP             | 210817     |      887 (0.42%) |       887 (0.42%) |
+| 2021-05-07 | Vision          | 334632     |     1607 (0.48%) |      1607 (0.48%) |
 
-LINK: [https://github.com/rw251/.../conditions/diabetes/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/diabetes/1)
+LINK: [https://github.com/rw251/.../conditions/diabetes-type-i/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/diabetes-type-i/1)
+
+### Diabetes mellitus type 2
+
+Any diagnosis of T2DM. A super set of the QOF business rule. Includes "adult onset" diabetes, but DOES NOT include "maturity onset" diabetes.
+
+Developed from https://getset.ga.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `5.06% - 5.20%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-07 | EMIS            | 2605681    |   133938 (5.14%) |    133938 (5.14%) |
+| 2021-05-07 | TPP             | 210817     |    10954 (5.20%) |     10954 (5.20%) |
+| 2021-05-07 | Vision          | 334632     |    16936 (5.06%) |     16933 (5.06%) |
+
+LINK: [https://github.com/rw251/.../conditions/diabetes-type-ii/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/diabetes-type-ii/1)
 
 ### COPD
 
@@ -1646,546 +1664,350 @@ All code sets required for this analysis are listed here. Individual lists for e
 |stroke v1|readv2|Gyu6600|[X]Occlusion and stenosis of other cerebral arteries|
 |stroke v1|readv2|Gyu6F00|[X]Intracerebral haemorrhage in hemisphere, unspecified|
 |stroke v1|readv2|Gyu6G00|[X]Cerebral infarction due to unspecified occlusion or stenosis of precerebral arteries|
-|diabetes v1|ctv3|C10..|DM - Diabetes mellitus|
-|diabetes v1|ctv3|C100.|Diabetes mellitus with no mention of complication|
-|diabetes v1|ctv3|C1000|Diabetes mellitus, juvenile type, with no mention of complication|
-|diabetes v1|ctv3|C1001|Maturity onset diabetes|
-|diabetes v1|ctv3|C100z|Diabetes mellitus NOS with no mention of complication|
-|diabetes v1|ctv3|C101.|Diabetic ketoacidosis|
-|diabetes v1|ctv3|C1010|Diabetes mellitus, juvenile type, with ketoacidosis|
-|diabetes v1|ctv3|C1011|Diabetes mellitus, adult onset, with ketoacidosis|
-|diabetes v1|ctv3|C101y|Other specified diabetes mellitus with ketoacidosis|
-|diabetes v1|ctv3|C101z|Diabetes mellitus NOS with ketoacidosis|
-|diabetes v1|ctv3|C102.|Diabetes mellitus with hyperosmolar coma|
-|diabetes v1|ctv3|C1020|Diabetes mellitus, juvenile type, with hyperosmolar coma|
-|diabetes v1|ctv3|C1021|Diabetes mellitus, adult onset, with hyperosmolar coma|
-|diabetes v1|ctv3|C102z|Diabetes mellitus NOS with hyperosmolar coma|
-|diabetes v1|ctv3|C103.|Diabetes mellitus with ketoacidotic coma|
-|diabetes v1|ctv3|C1030|Diabetes mellitus, juvenile type, with ketoacidotic coma|
-|diabetes v1|ctv3|C1031|Diabetes mellitus, adult onset, with ketoacidotic coma|
-|diabetes v1|ctv3|C103y|Other specified diabetes mellitus with coma|
-|diabetes v1|ctv3|C103z|Diabetes mellitus NOS with ketoacidotic coma|
-|diabetes v1|ctv3|C1040|Diabetes mellitus, juvenile type, with renal manifestation|
-|diabetes v1|ctv3|C1041|Diabetes mellitus, adult onset, with renal manifestation|
-|diabetes v1|ctv3|C104y|Other specified diabetes mellitus with renal complications|
-|diabetes v1|ctv3|C104z|Diabetes mellitus with nephropathy NOS|
-|diabetes v1|ctv3|C105.|Diabetes mellitus with ophthalmic manifestation|
-|diabetes v1|ctv3|C1050|Diabetes mellitus, juvenile type, with ophthalmic manifestation|
-|diabetes v1|ctv3|C1051|Diabetes mellitus, adult onset, with ophthalmic manifestation|
-|diabetes v1|ctv3|C105y|Other specified diabetes mellitus with ophthalmic complications|
-|diabetes v1|ctv3|C105z|Diabetes mellitus NOS with ophthalmic manifestation|
-|diabetes v1|ctv3|C1060|Diabetes mellitus, juvenile type, with neurological manifestation|
-|diabetes v1|ctv3|C1061|Diabetes mellitus, adult onset, with neurological manifestation|
-|diabetes v1|ctv3|C106y|Other specified diabetes mellitus with neurological complications|
-|diabetes v1|ctv3|C106z|Diabetes mellitus NOS with neurological manifestation|
-|diabetes v1|ctv3|C1070|Diabetes mellitus, juvenile type, with peripheral circulatory disorder|
-|diabetes v1|ctv3|C1071|Diabetes mellitus, adult onset, with peripheral circulatory disorder|
-|diabetes v1|ctv3|C1072|Diabetes mellitus, adult with gangrene|
-|diabetes v1|ctv3|C107y|Other specified diabetes mellitus with peripheral circulatory complications|
-|diabetes v1|ctv3|C107z|Diabetes mellitus NOS with peripheral circulatory disorder|
-|diabetes v1|ctv3|C1080|Insulin-dependent diabetes mellitus with renal complications|
-|diabetes v1|ctv3|C1081|Insulin-dependent diabetes mellitus with ophthalmic complications|
-|diabetes v1|ctv3|C1082|Insulin-dependent diabetes mellitus with neurological complications|
-|diabetes v1|ctv3|C1083|Insulin-dependent diabetes mellitus with multiple complications|
-|diabetes v1|ctv3|C1085|Insulin-dependent diabetes mellitus with ulcer|
-|diabetes v1|ctv3|C1086|Insulin-dependent diabetes mellitus with gangrene|
-|diabetes v1|ctv3|C1087|IDDM - Insulin-dependent diabetes mellitus with retinopathy|
-|diabetes v1|ctv3|C1088|Insulin-dependent diabetes mellitus - poor control|
-|diabetes v1|ctv3|C1089|Insulin-dependent diabetes maturity onset|
-|diabetes v1|ctv3|C108y|Other specified diabetes mellitus with multiple complications|
-|diabetes v1|ctv3|C108z|Unspecified diabetes mellitus with multiple complications|
-|diabetes v1|ctv3|C1090|Non-insulin-dependent diabetes mellitus with renal complications|
-|diabetes v1|ctv3|C1091|Non-insulin-dependent diabetes mellitus with ophthalmic complications|
-|diabetes v1|ctv3|C1092|Non-insulin-dependent diabetes mellitus with neurological complications|
-|diabetes v1|ctv3|C1093|Non-insulin-dependent diabetes mellitus with multiple complications|
-|diabetes v1|ctv3|C1094|Non-insulin-dependent diabetes mellitus with ulcer|
-|diabetes v1|ctv3|C1095|Non-insulin-dependent diabetes mellitus with gangrene|
-|diabetes v1|ctv3|C1096|NIDDM - Non-insulin-dependent diabetes mellitus with retinopathy|
-|diabetes v1|ctv3|C1097|Non-insulin-dependent diabetes mellitus - poor control|
-|diabetes v1|ctv3|C10A0|Malnutrition-related diabetes mellitus with coma|
-|diabetes v1|ctv3|C10A1|Malnutrition-related diabetes mellitus with ketoacidosis|
-|diabetes v1|ctv3|C10A2|Malnutrition-related diabetes mellitus with renal complications|
-|diabetes v1|ctv3|C10A3|Malnutrition-related diabetes mellitus with ophthalmic complications|
-|diabetes v1|ctv3|C10A4|Malnutrition-related diabetes mellitus with neurological complications|
-|diabetes v1|ctv3|C10A5|Malnutrition-related diabetes mellitus with peripheral circulatory complications|
-|diabetes v1|ctv3|C10A6|Malnutrition-related diabetes mellitus with multiple complications|
-|diabetes v1|ctv3|C10A7|Malnutrition-related diabetes mellitus without complications|
-|diabetes v1|ctv3|C10B0|Steroid-induced diabetes mellitus without complication|
-|diabetes v1|ctv3|C10y.|Diabetes mellitus with other specified manifestation|
-|diabetes v1|ctv3|C10y0|Diabetes mellitus, juvenile type, with other specified manifestation|
-|diabetes v1|ctv3|C10y1|Diabetes mellitus, adult onset, with other specified manifestation|
-|diabetes v1|ctv3|C10yy|Other specified diabetes mellitus with other specified complications|
-|diabetes v1|ctv3|C10yz|Diabetes mellitus NOS with other specified manifestation|
-|diabetes v1|ctv3|C10z.|Diabetes mellitus with unspecified complication|
-|diabetes v1|ctv3|C10z0|Diabetes mellitus, juvenile type, with unspecified complication|
-|diabetes v1|ctv3|C10z1|Diabetes mellitus, adult onset, with unspecified complication|
-|diabetes v1|ctv3|C10zy|Other specified diabetes mellitus with unspecified complications|
-|diabetes v1|ctv3|C10zz|Diabetes mellitus NOS with unspecified complication|
-|diabetes v1|ctv3|Cyu20|[X]Other specified diabetes mellitus|
-|diabetes v1|ctv3|Cyu21|[X]Malnutrition-related diabetes mellitus with other specified complications|
-|diabetes v1|ctv3|Cyu22|[X]Malnutrition-related diabetes mellitus with unspecified complications|
-|diabetes v1|ctv3|Cyu23|[X]Unspecified diabetes mellitus with renal complications|
-|diabetes v1|ctv3|L180.|Diabetes mellitus during pregnancy, childbirth and the puerperium|
-|diabetes v1|ctv3|L1800|Diabetes mellitus - unspecified whether during pregnancy or the puerperium|
-|diabetes v1|ctv3|L1801|Diabetes mellitus during pregnancy - baby delivered|
-|diabetes v1|ctv3|L1802|Diabetes mellitus in the puerperium - baby delivered during current episode of care|
-|diabetes v1|ctv3|L1803|Diabetes mellitus during pregnancy - baby not yet delivered|
-|diabetes v1|ctv3|L1804|Diabetes mellitus in the puerperium - baby delivered during previous episode of care|
-|diabetes v1|ctv3|L1805|Pre-existing diabetes mellitus, insulin-dependent|
-|diabetes v1|ctv3|L1806|Pre-existing diabetes mellitus, non-insulin-dependent|
-|diabetes v1|ctv3|L1807|Pre-existing malnutrition-related diabetes mellitus|
-|diabetes v1|ctv3|L1808|Diabetes mellitus arising in pregnancy|
-|diabetes v1|ctv3|L180z|Diabetes mellitus during pregnancy, childbirth or the puerperium NOS|
-|diabetes v1|ctv3|Lyu29|[X]Pre-existing diabetes mellitus, unspecified|
-|diabetes v1|ctv3|Q441.|Neonatal diabetes mellitus|
-|diabetes v1|ctv3|X40J4|Insulin-dependent diabetes mellitus|
-|diabetes v1|ctv3|X40J5|Non-insulin-dependent diabetes mellitus|
-|diabetes v1|ctv3|X40J6|Insulin treated Type 2 diabetes mellitus|
-|diabetes v1|ctv3|X40J7|Malnutrition-related diabetes mellitus|
-|diabetes v1|ctv3|X40J8|Malnutrition-related diabetes mellitus - fibrocalculous|
-|diabetes v1|ctv3|X40J9|Malnutrition-related diabetes mellitus - protein-deficient|
-|diabetes v1|ctv3|X40JA|Secondary diabetes mellitus|
-|diabetes v1|ctv3|X40JB|Secondary pancreatic diabetes mellitus|
-|diabetes v1|ctv3|X40JC|Secondary endocrine diabetes mellitus|
-|diabetes v1|ctv3|X40JE|Reaven's syndrome|
-|diabetes v1|ctv3|X40JF|Transitory neonatal diabetes mellitus|
-|diabetes v1|ctv3|X40JG|Genetic syndromes of diabetes mellitus|
-|diabetes v1|ctv3|X40JI|Maturity onset diabetes in youth type 1|
-|diabetes v1|ctv3|X40JJ|Diabetes mellitus autosomal dominant type 2|
-|diabetes v1|ctv3|X40JN|Lipodystrophy, partial, with Reiger anomaly, short stature, and insulinopenic diabetes mellitus|
-|diabetes v1|ctv3|X40JQ|Muscular atrophy, ataxia, retinitis pigmentosa, and diabetes mellitus|
-|diabetes v1|ctv3|X40JV|Hypogonadism, diabetes mellitus, alopecia ,mental retardation and electrocardiographic abnormalities|
-|diabetes v1|ctv3|X40JX|Pineal hyperplasia, insulin-resistant diabetes mellitus and somatic abnormalities|
-|diabetes v1|ctv3|X40JY|Congenital insulin-dependent diabetes mellitus with fatal secretory diarrhoea|
-|diabetes v1|ctv3|X40Ja|Abnormal metabolic state in diabetes mellitus|
-|diabetes v1|ctv3|X50GO|Soft tissue complication of diabetes mellitus|
-|diabetes v1|ctv3|XE10E|Diabetes mellitus, juvenile type, with no mention of complication|
-|diabetes v1|ctv3|XE10F|Diabetes mellitus, adult onset, with no mention of complication|
-|diabetes v1|ctv3|XE10G|Diabetes mellitus with renal manifestation|
-|diabetes v1|ctv3|XE10H|Diabetes mellitus with neurological manifestation|
-|diabetes v1|ctv3|XE10I|Diabetes mellitus with peripheral circulatory disorder|
-|diabetes v1|ctv3|XE12C|Insulin dependent diabetes mel|
-|diabetes v1|ctv3|XE15k|Diabetes mellitus with polyneuropathy|
-|diabetes v1|ctv3|XM19i|[EDTA] Diabetes Type I (insulin dependent) associated with renal failure|
-|diabetes v1|ctv3|XM19j|[EDTA] Diabetes Type II (non-insulin-dependent) associated with renal failure|
-|diabetes v1|ctv3|XM1Qx|Diabetes mellitus with gangrene|
-|diabetes v1|ctv3|XSETH|Maturity onset diabetes mellitus in young|
-|diabetes v1|ctv3|XSETK|Drug-induced diabetes mellitus|
-|diabetes v1|ctv3|XSETp|Diabetes mellitus due to insulin receptor antibodies|
-|diabetes v1|ctv3|Xa08a|Small for gestation neonatal diabetes mellitus|
-|diabetes v1|ctv3|Xa4g7|Unstable type 1 diabetes mellitus|
-|diabetes v1|ctv3|Xa9FG|Postpancreatectomy diabetes mellitus|
-|diabetes v1|ctv3|XaA6b|Perceived control of insulin-dependent diabetes|
-|diabetes v1|ctv3|XaELP|Insulin-dependent diabetes without complication|
-|diabetes v1|ctv3|XaELQ|Non-insulin-dependent diabetes mellitus without complication|
-|diabetes v1|ctv3|XaEnn|Type I diabetes mellitus with mononeuropathy|
-|diabetes v1|ctv3|XaEno|Insulin dependent diabetes mellitus with polyneuropathy|
-|diabetes v1|ctv3|XaEnp|Type II diabetes mellitus with mononeuropathy|
-|diabetes v1|ctv3|XaEnq|Type 2 diabetes mellitus with polyneuropathy|
-|diabetes v1|ctv3|XaF04|Type 1 diabetes mellitus with nephropathy|
-|diabetes v1|ctv3|XaF05|Type 2 diabetes mellitus with nephropathy|
-|diabetes v1|ctv3|XaFWG|Type 1 diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|ctv3|XaFWI|Type II diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|ctv3|XaFm8|Type 1 diabetes mellitus with diabetic cataract|
-|diabetes v1|ctv3|XaFmA|Type II diabetes mellitus with diabetic cataract|
-|diabetes v1|ctv3|XaFmK|Type I diabetes mellitus with peripheral angiopathy|
-|diabetes v1|ctv3|XaFmL|Type 1 diabetes mellitus with arthropathy|
-|diabetes v1|ctv3|XaFmM|Type 1 diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|ctv3|XaFn7|Non-insulin-dependent diabetes mellitus with peripheral angiopathy|
-|diabetes v1|ctv3|XaFn8|Non-insulin dependent diabetes mellitus with arthropathy|
-|diabetes v1|ctv3|XaFn9|Non-insulin dependent diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|ctv3|XaIrf|Hyperosmolar non-ketotic state in type II diabetes mellitus|
-|diabetes v1|ctv3|XaIyz|Diabetes mellitus with persistent microalbuminuria|
-|diabetes v1|ctv3|XaIz0|Diabetes mellitus with persistent proteinuria|
-|diabetes v1|ctv3|XaIzM|Type 1 diabetes mellitus with persistent proteinuria|
-|diabetes v1|ctv3|XaIzN|Type 1 diabetes mellitus with persistent microalbuminuria|
-|diabetes v1|ctv3|XaIzQ|Type 2 diabetes mellitus with persistent proteinuria|
-|diabetes v1|ctv3|XaIzR|Type 2 diabetes mellitus with persistent microalbuminuria|
-|diabetes v1|ctv3|XaJQp|Type II diabetes mellitus with exudative maculopathy|
-|diabetes v1|ctv3|XaJSr|Type I diabetes mellitus with exudative maculopathy|
-|diabetes v1|ctv3|XaJUI|Diabetes mellitus induced by non-steroid drugs|
-|diabetes v1|ctv3|XaJlL|Secondary pancreatic diabetes mellitus without complication|
-|diabetes v1|ctv3|XaJlM|Diabetes mellitus induced by non-steroid drugs without complication|
-|diabetes v1|ctv3|XaJlQ|Lipoatrophic diabetes mellitus without complication|
-|diabetes v1|ctv3|XaJlR|Secondary diabetes mellitus without complication|
-|diabetes v1|ctv3|XaKyW|Type I diabetes mellitus with gastroparesis|
-|diabetes v1|ctv3|XaKyX|Type II diabetes mellitus with gastroparesis|
-|diabetes v1|ctv3|XaMzI|Cystic fibrosis related diabetes mellitus|
-|diabetes v1|ctv3|XaOPt|Maternally inherited diabetes mellitus|
-|diabetes v1|ctv3|XaOPu|Latent autoimmune diabetes mellitus in adult|
-|diabetes v1|ctv3|XacoB|Maturity onset diabetes of the young type 5|
-|diabetes v1|ctv3|XaIfG|Type II diabetes on insulin|
-|diabetes v1|ctv3|XaIfI|Type II diabetes on diet only|
-|diabetes v1|emis|^ESCTGE801661|Gestational diabetes, delivered|
-|diabetes v1|emis|^ESCTGE801662|Gestational diabetes mellitus complicating pregnancy|
-|diabetes v1|emis|^ESCTMA257526|Maternal diabetes mellitus with hypoglycaemia affecting foetus OR newborn|
-|diabetes v1|emis|EMISQNU2|Number of admissions for ketoacidosis|
-|diabetes v1|emis|ESCTDI20|Diabetic ketoacidosis without coma|
-|diabetes v1|emis|ESCTDI22|Diabetic severe hyperglycaemia|
-|diabetes v1|emis|ESCTDI23|Diabetic hyperosmolar non-ketotic state|
-|diabetes v1|emis|ESCTDR3|Drug-induced diabetes mellitus|
-|diabetes v1|emis|ESCTSE11|Secondary endocrine diabetes mellitus|
-|diabetes v1|readv2|C10..00|Diabetes mellitus|
-|diabetes v1|readv2|C100.00|Diabetes mellitus with no mention of complication|
-|diabetes v1|readv2|C100000|Diabetes mellitus, juvenile type, with no mention of complication|
-|diabetes v1|readv2|C100011|Insulin dependent diabetes mellitus|
-|diabetes v1|readv2|C100100|Diabetes mellitus, adult onset, with no mention of complication|
-|diabetes v1|readv2|C100111|Maturity onset diabetes|
-|diabetes v1|readv2|C100112|Non-insulin dependent diabetes mellitus|
-|diabetes v1|readv2|C100z00|Diabetes mellitus NOS with no mention of complication|
-|diabetes v1|readv2|C101.00|Diabetes mellitus with ketoacidosis|
-|diabetes v1|readv2|C101000|Diabetes mellitus, juvenile type, with ketoacidosis|
-|diabetes v1|readv2|C101100|Diabetes mellitus, adult onset, with ketoacidosis|
-|diabetes v1|readv2|C101y00|Other specified diabetes mellitus with ketoacidosis|
-|diabetes v1|readv2|C101z00|Diabetes mellitus NOS with ketoacidosis|
-|diabetes v1|readv2|C102.00|Diabetes mellitus with hyperosmolar coma|
-|diabetes v1|readv2|C102000|Diabetes mellitus, juvenile type, with hyperosmolar coma|
-|diabetes v1|readv2|C102100|Diabetes mellitus, adult onset, with hyperosmolar coma|
-|diabetes v1|readv2|C102z00|Diabetes mellitus NOS with hyperosmolar coma|
-|diabetes v1|readv2|C103.00|Diabetes mellitus with ketoacidotic coma|
-|diabetes v1|readv2|C103000|Diabetes mellitus, juvenile type, with ketoacidotic coma|
-|diabetes v1|readv2|C103100|Diabetes mellitus, adult onset, with ketoacidotic coma|
-|diabetes v1|readv2|C103y00|Other specified diabetes mellitus with coma|
-|diabetes v1|readv2|C103z00|Diabetes mellitus NOS with ketoacidotic coma|
-|diabetes v1|readv2|C104.00|Diabetes mellitus with renal manifestation|
-|diabetes v1|readv2|C104000|Diabetes mellitus, juvenile type, with renal manifestation|
-|diabetes v1|readv2|C104100|Diabetes mellitus, adult onset, with renal manifestation|
-|diabetes v1|readv2|C104y00|Other specified diabetes mellitus with renal complications|
-|diabetes v1|readv2|C104z00|Diabetes mellitus with nephropathy NOS|
-|diabetes v1|readv2|C105.00|Diabetes mellitus with ophthalmic manifestation|
-|diabetes v1|readv2|C105000|Diabetes mellitus, juvenile type, with ophthalmic manifestation|
-|diabetes v1|readv2|C105100|Diabetes mellitus, adult onset, with ophthalmic manifestation|
-|diabetes v1|readv2|C105y00|Other specified diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C105z00|Diabetes mellitus NOS with ophthalmic manifestation|
-|diabetes v1|readv2|C106.00|Diabetes mellitus with neurological manifestation|
-|diabetes v1|readv2|C106.12|Diabetes mellitus with neuropathy|
-|diabetes v1|readv2|C106.13|Diabetes mellitus with polyneuropathy|
-|diabetes v1|readv2|C106000|Diabetes mellitus, juvenile type, with neurological manifestation|
-|diabetes v1|readv2|C106100|Diabetes mellitus, adult onset, with neurological manifestation|
-|diabetes v1|readv2|C106y00|Other specified diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C106z00|Diabetes mellitus NOS with neurological manifestation|
-|diabetes v1|readv2|C107.00|Diabetes mellitus with peripheral circulatory disorder|
-|diabetes v1|readv2|C107.11|Diabetes mellitus with gangrene|
-|diabetes v1|readv2|C107000|Diabetes mellitus, juvenile type, with peripheral circulatory disorder|
-|diabetes v1|readv2|C107100|Diabetes mellitus, adult onset, with peripheral circulatory disorder|
-|diabetes v1|readv2|C107200|Diabetes mellitus, adult with gangrene|
-|diabetes v1|readv2|C107y00|Other specified diabetes mellitus with peripheral circulatory complications|
-|diabetes v1|readv2|C107z00|Diabetes mellitus NOS with peripheral circulatory disorder|
-|diabetes v1|readv2|C108.00|Insulin dependent diabetes mellitus|
-|diabetes v1|readv2|C108.11|IDDM-Insulin dependent diabetes mellitus|
-|diabetes v1|readv2|C108.12|Type 1 diabetes mellitus|
-|diabetes v1|readv2|C108.13|Type I diabetes mellitus|
-|diabetes v1|readv2|C108000|Insulin-dependent diabetes mellitus with renal complications|
-|diabetes v1|readv2|C108011|Type I diabetes mellitus with renal complications|
-|diabetes v1|readv2|C108012|Type 1 diabetes mellitus with renal complications|
-|diabetes v1|readv2|C108100|Insulin-dependent diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C108111|Type I diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C108112|Type 1 diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C108200|Insulin-dependent diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C108211|Type I diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C108212|Type 1 diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C108300|Insulin dependent diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C108311|Type I diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C108312|Type 1 diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C108400|Unstable insulin dependent diabetes mellitus|
-|diabetes v1|readv2|C108411|Unstable type I diabetes mellitus|
-|diabetes v1|readv2|C108412|Unstable type 1 diabetes mellitus|
-|diabetes v1|readv2|C108500|Insulin dependent diabetes mellitus with ulcer|
-|diabetes v1|readv2|C108511|Type I diabetes mellitus with ulcer|
-|diabetes v1|readv2|C108512|Type 1 diabetes mellitus with ulcer|
-|diabetes v1|readv2|C108600|Insulin dependent diabetes mellitus with gangrene|
-|diabetes v1|readv2|C108611|Type I diabetes mellitus with gangrene|
-|diabetes v1|readv2|C108612|Type 1 diabetes mellitus with gangrene|
-|diabetes v1|readv2|C108700|Insulin dependent diabetes mellitus with retinopathy|
-|diabetes v1|readv2|C108711|Type I diabetes mellitus with retinopathy|
-|diabetes v1|readv2|C108712|Type 1 diabetes mellitus with retinopathy|
-|diabetes v1|readv2|C108800|Insulin dependent diabetes mellitus - poor control|
-|diabetes v1|readv2|C108811|Type I diabetes mellitus - poor control|
-|diabetes v1|readv2|C108812|Type 1 diabetes mellitus - poor control|
-|diabetes v1|readv2|C108900|Insulin dependent diabetes maturity onset|
-|diabetes v1|readv2|C108911|Type I diabetes mellitus maturity onset|
-|diabetes v1|readv2|C108912|Type 1 diabetes mellitus maturity onset|
-|diabetes v1|readv2|C108A00|Insulin-dependent diabetes without complication|
-|diabetes v1|readv2|C108A11|Type I diabetes mellitus without complication|
-|diabetes v1|readv2|C108A12|Type 1 diabetes mellitus without complication|
-|diabetes v1|readv2|C108B00|Insulin dependent diabetes mellitus with mononeuropathy|
-|diabetes v1|readv2|C108B11|Type I diabetes mellitus with mononeuropathy|
-|diabetes v1|readv2|C108B12|Type 1 diabetes mellitus with mononeuropathy|
-|diabetes v1|readv2|C108C00|Insulin dependent diabetes mellitus with polyneuropathy|
-|diabetes v1|readv2|C108C11|Type I diabetes mellitus with polyneuropathy|
-|diabetes v1|readv2|C108C12|Type 1 diabetes mellitus with polyneuropathy|
-|diabetes v1|readv2|C108D00|Insulin dependent diabetes mellitus with nephropathy|
-|diabetes v1|readv2|C108D11|Type I diabetes mellitus with nephropathy|
-|diabetes v1|readv2|C108D12|Type 1 diabetes mellitus with nephropathy|
-|diabetes v1|readv2|C108E00|Insulin dependent diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|readv2|C108E11|Type I diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|readv2|C108E12|Type 1 diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|readv2|C108F00|Insulin dependent diabetes mellitus with diabetic cataract|
-|diabetes v1|readv2|C108F11|Type I diabetes mellitus with diabetic cataract|
-|diabetes v1|readv2|C108F12|Type 1 diabetes mellitus with diabetic cataract|
-|diabetes v1|readv2|C108G00|Insulin dependent diabetes mellitus with peripheral angiopathy|
-|diabetes v1|readv2|C108G11|Type I diabetes mellitus with peripheral angiopathy|
-|diabetes v1|readv2|C108G12|Type 1 diabetes mellitus with peripheral angiopathy|
-|diabetes v1|readv2|C108H00|Insulin dependent diabetes mellitus with arthropathy|
-|diabetes v1|readv2|C108H11|Type I diabetes mellitus with arthropathy|
-|diabetes v1|readv2|C108H12|Type 1 diabetes mellitus with arthropathy|
-|diabetes v1|readv2|C108J00|Insulin dependent diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|readv2|C108J11|Type I diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|readv2|C108J12|Type 1 diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|readv2|C108y00|Other specified diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C108z00|Unspecified diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C109.00|Non-insulin dependent diabetes mellitus|
-|diabetes v1|readv2|C109.11|NIDDM - Non-insulin dependent diabetes mellitus|
-|diabetes v1|readv2|C109.12|Type 2 diabetes mellitus|
-|diabetes v1|readv2|C109.13|Type II diabetes mellitus|
-|diabetes v1|readv2|C109000|Non-insulin-dependent diabetes mellitus with renal complications|
-|diabetes v1|readv2|C109011|Type II diabetes mellitus with renal complications|
-|diabetes v1|readv2|C109012|Type 2 diabetes mellitus with renal complications|
-|diabetes v1|readv2|C109100|Non-insulin-dependent diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C109111|Type II diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C109112|Type 2 diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C109200|Non-insulin-dependent diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C109211|Type II diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C109212|Type 2 diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C109300|Non-insulin-dependent diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C109311|Type II diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C109312|Type 2 diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C109400|Non-insulin dependent diabetes mellitus with ulcer|
-|diabetes v1|readv2|C109411|Type II diabetes mellitus with ulcer|
-|diabetes v1|readv2|C109412|Type 2 diabetes mellitus with ulcer|
-|diabetes v1|readv2|C109500|Non-insulin dependent diabetes mellitus with gangrene|
-|diabetes v1|readv2|C109511|Type II diabetes mellitus with gangrene|
-|diabetes v1|readv2|C109512|Type 2 diabetes mellitus with gangrene|
-|diabetes v1|readv2|C109600|Non-insulin-dependent diabetes mellitus with retinopathy|
-|diabetes v1|readv2|C109611|Type II diabetes mellitus with retinopathy|
-|diabetes v1|readv2|C109612|Type 2 diabetes mellitus with retinopathy|
-|diabetes v1|readv2|C109700|Non-insulin dependent diabetes mellitus - poor control|
-|diabetes v1|readv2|C109711|Type II diabetes mellitus - poor control|
-|diabetes v1|readv2|C109712|Type 2 diabetes mellitus - poor control|
-|diabetes v1|readv2|C109800|Reaven's syndrome|
-|diabetes v1|readv2|C109900|Non-insulin-dependent diabetes mellitus without complication|
-|diabetes v1|readv2|C109911|Type II diabetes mellitus without complication|
-|diabetes v1|readv2|C109912|Type 2 diabetes mellitus without complication|
-|diabetes v1|readv2|C109A00|Non-insulin dependent diabetes mellitus with mononeuropathy|
-|diabetes v1|readv2|C109A11|Type II diabetes mellitus with mononeuropathy|
-|diabetes v1|readv2|C109A12|Type 2 diabetes mellitus with mononeuropathy|
-|diabetes v1|readv2|C109B00|Non-insulin dependent diabetes mellitus with polyneuropathy|
-|diabetes v1|readv2|C109B11|Type II diabetes mellitus with polyneuropathy|
-|diabetes v1|readv2|C109B12|Type 2 diabetes mellitus with polyneuropathy|
-|diabetes v1|readv2|C109C00|Non-insulin dependent diabetes mellitus with nephropathy|
-|diabetes v1|readv2|C109C11|Type II diabetes mellitus with nephropathy|
-|diabetes v1|readv2|C109C12|Type 2 diabetes mellitus with nephropathy|
-|diabetes v1|readv2|C109D00|Non-insulin dependent diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|readv2|C109D11|Type II diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|readv2|C109D12|Type 2 diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|readv2|C109E00|Non-insulin dependent diabetes mellitus with diabetic cataract|
-|diabetes v1|readv2|C109E11|Type II diabetes mellitus with diabetic cataract|
-|diabetes v1|readv2|C109E12|Type 2 diabetes mellitus with diabetic cataract|
-|diabetes v1|readv2|C109F00|Non-insulin-dependent diabetes mellitus with peripheral angiopathy|
-|diabetes v1|readv2|C109F11|Type II diabetes mellitus with peripheral angiopathy|
-|diabetes v1|readv2|C109F12|Type 2 diabetes mellitus with peripheral angiopathy|
-|diabetes v1|readv2|C109G00|Non-insulin dependent diabetes mellitus with arthropathy|
-|diabetes v1|readv2|C109G11|Type II diabetes mellitus with arthropathy|
-|diabetes v1|readv2|C109G12|Type 2 diabetes mellitus with arthropathy|
-|diabetes v1|readv2|C109H00|Non-insulin dependent diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|readv2|C109H11|Type II diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|readv2|C109H12|Type 2 diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|readv2|C109J00|Insulin treated Type 2 diabetes mellitus|
-|diabetes v1|readv2|C109J11|Insulin treated non-insulin dependent diabetes mellitus|
-|diabetes v1|readv2|C109J12|Insulin treated Type II diabetes mellitus|
-|diabetes v1|readv2|C109K00|Hyperosmolar non-ketotic state in type 2 diabetes mellitus|
-|diabetes v1|readv2|C10A.00|Malnutrition-related diabetes mellitus|
-|diabetes v1|readv2|C10A000|Malnutrition-related diabetes mellitus with coma|
-|diabetes v1|readv2|C10A100|Malnutrition-related diabetes mellitus with ketoacidosis|
-|diabetes v1|readv2|C10A200|Malnutrition-related diabetes mellitus with renal complications|
-|diabetes v1|readv2|C10A300|Malnutrition-related diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C10A400|Malnutrition-related diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C10A500|Malnutrition-related diabetes mellitus with peripheral circulatory complications|
-|diabetes v1|readv2|C10A600|Malnutrition-related diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C10A700|Malnutrition-related diabetes mellitus without complications|
-|diabetes v1|readv2|C10AW00|Malnutrition-related diabetes mellitus with unspecified complications|
-|diabetes v1|readv2|C10AX00|Malnutrition-related diabetes mellitus with other specified complications|
-|diabetes v1|readv2|C10B.00|Diabetes mellitus induced by steroids|
-|diabetes v1|readv2|C10B000|Steroid induced diabetes mellitus without complication|
-|diabetes v1|readv2|C10C.00|Diabetes mellitus autosomal dominant|
-|diabetes v1|readv2|C10C.11|Maturity onset diabetes in youth|
-|diabetes v1|readv2|C10C.12|Maturity onset diabetes in youth type 1|
-|diabetes v1|readv2|C10D.00|Diabetes mellitus autosomal dominant type 2|
-|diabetes v1|readv2|C10D.11|Maturity onset diabetes in youth type 2|
-|diabetes v1|readv2|C10E.00|Type 1 diabetes mellitus|
-|diabetes v1|readv2|C10E.11|Type I diabetes mellitus|
-|diabetes v1|readv2|C10E.12|Insulin dependent diabetes mellitus|
-|diabetes v1|readv2|C10E000|Type 1 diabetes mellitus with renal complications|
-|diabetes v1|readv2|C10E011|Type I diabetes mellitus with renal complications|
-|diabetes v1|readv2|C10E012|Insulin-dependent diabetes mellitus with renal complications|
-|diabetes v1|readv2|C10E100|Type 1 diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C10E111|Type I diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C10E112|Insulin-dependent diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C10E200|Type 1 diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C10E211|Type I diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C10E212|Insulin-dependent diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C10E300|Type 1 diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C10E311|Type I diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C10E312|Insulin dependent diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C10E400|Unstable type 1 diabetes mellitus|
-|diabetes v1|readv2|C10E411|Unstable type I diabetes mellitus|
-|diabetes v1|readv2|C10E412|Unstable insulin dependent diabetes mellitus|
-|diabetes v1|readv2|C10E500|Type 1 diabetes mellitus with ulcer|
-|diabetes v1|readv2|C10E511|Type I diabetes mellitus with ulcer|
-|diabetes v1|readv2|C10E512|Insulin dependent diabetes mellitus with ulcer|
-|diabetes v1|readv2|C10E600|Type 1 diabetes mellitus with gangrene|
-|diabetes v1|readv2|C10E611|Type I diabetes mellitus with gangrene|
-|diabetes v1|readv2|C10E612|Insulin dependent diabetes mellitus with gangrene|
-|diabetes v1|readv2|C10E700|Type 1 diabetes mellitus with retinopathy|
-|diabetes v1|readv2|C10E711|Type I diabetes mellitus with retinopathy|
-|diabetes v1|readv2|C10E712|Insulin dependent diabetes mellitus with retinopathy|
-|diabetes v1|readv2|C10E800|Type 1 diabetes mellitus - poor control|
-|diabetes v1|readv2|C10E811|Type I diabetes mellitus - poor control|
-|diabetes v1|readv2|C10E812|Insulin dependent diabetes mellitus - poor control|
-|diabetes v1|readv2|C10E900|Type 1 diabetes mellitus maturity onset|
-|diabetes v1|readv2|C10E911|Type I diabetes mellitus maturity onset|
-|diabetes v1|readv2|C10E912|Insulin dependent diabetes maturity onset|
-|diabetes v1|readv2|C10EA00|Type 1 diabetes mellitus without complication|
-|diabetes v1|readv2|C10EA11|Type I diabetes mellitus without complication|
-|diabetes v1|readv2|C10EA12|Insulin-dependent diabetes without complication|
-|diabetes v1|readv2|C10EB00|Type 1 diabetes mellitus with mononeuropathy|
-|diabetes v1|readv2|C10EB11|Type I diabetes mellitus with mononeuropathy|
-|diabetes v1|readv2|C10EB12|Insulin dependent diabetes mellitus with mononeuropathy|
-|diabetes v1|readv2|C10EC00|Type 1 diabetes mellitus with polyneuropathy|
-|diabetes v1|readv2|C10EC11|Type I diabetes mellitus with polyneuropathy|
-|diabetes v1|readv2|C10EC12|Insulin dependent diabetes mellitus with polyneuropathy|
-|diabetes v1|readv2|C10ED00|Type 1 diabetes mellitus with nephropathy|
-|diabetes v1|readv2|C10ED11|Type I diabetes mellitus with nephropathy|
-|diabetes v1|readv2|C10ED12|Insulin dependent diabetes mellitus with nephropathy|
-|diabetes v1|readv2|C10EE00|Type 1 diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|readv2|C10EE11|Type I diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|readv2|C10EE12|Insulin dependent diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|readv2|C10EF00|Type 1 diabetes mellitus with diabetic cataract|
-|diabetes v1|readv2|C10EF11|Type I diabetes mellitus with diabetic cataract|
-|diabetes v1|readv2|C10EF12|Insulin dependent diabetes mellitus with diabetic cataract|
-|diabetes v1|readv2|C10EG00|Type 1 diabetes mellitus with peripheral angiopathy|
-|diabetes v1|readv2|C10EG11|Type I diabetes mellitus with peripheral angiopathy|
-|diabetes v1|readv2|C10EG12|Insulin dependent diabetes mellitus with peripheral angiopathy|
-|diabetes v1|readv2|C10EH00|Type 1 diabetes mellitus with arthropathy|
-|diabetes v1|readv2|C10EH11|Type I diabetes mellitus with arthropathy|
-|diabetes v1|readv2|C10EH12|Insulin dependent diabetes mellitus with arthropathy|
-|diabetes v1|readv2|C10EJ00|Type 1 diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|readv2|C10EJ11|Type I diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|readv2|C10EJ12|Insulin dependent diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|readv2|C10EK00|Type 1 diabetes mellitus with persistent proteinuria|
-|diabetes v1|readv2|C10EK11|Type I diabetes mellitus with persistent proteinuria|
-|diabetes v1|readv2|C10EL00|Type 1 diabetes mellitus with persistent microalbuminuria|
-|diabetes v1|readv2|C10EL11|Type I diabetes mellitus with persistent microalbuminuria|
-|diabetes v1|readv2|C10EM00|Type 1 diabetes mellitus with ketoacidosis|
-|diabetes v1|readv2|C10EM11|Type I diabetes mellitus with ketoacidosis|
-|diabetes v1|readv2|C10EN00|Type 1 diabetes mellitus with ketoacidotic coma|
-|diabetes v1|readv2|C10EN11|Type I diabetes mellitus with ketoacidotic coma|
-|diabetes v1|readv2|C10EP00|Type 1 diabetes mellitus with exudative maculopathy|
-|diabetes v1|readv2|C10EP11|Type I diabetes mellitus with exudative maculopathy|
-|diabetes v1|readv2|C10EQ00|Type 1 diabetes mellitus with gastroparesis|
-|diabetes v1|readv2|C10EQ11|Type I diabetes mellitus with gastroparesis|
-|diabetes v1|readv2|C10ER00|Latent autoimmune diabetes mellitus in adult|
-|diabetes v1|readv2|C10F.00|Type 2 diabetes mellitus|
-|diabetes v1|readv2|C10F.11|Type II diabetes mellitus|
-|diabetes v1|readv2|C10F000|Type 2 diabetes mellitus with renal complications|
-|diabetes v1|readv2|C10F011|Type II diabetes mellitus with renal complications|
-|diabetes v1|readv2|C10F100|Type 2 diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C10F111|Type II diabetes mellitus with ophthalmic complications|
-|diabetes v1|readv2|C10F200|Type 2 diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C10F211|Type II diabetes mellitus with neurological complications|
-|diabetes v1|readv2|C10F300|Type 2 diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C10F311|Type II diabetes mellitus with multiple complications|
-|diabetes v1|readv2|C10F400|Type 2 diabetes mellitus with ulcer|
-|diabetes v1|readv2|C10F411|Type II diabetes mellitus with ulcer|
-|diabetes v1|readv2|C10F500|Type 2 diabetes mellitus with gangrene|
-|diabetes v1|readv2|C10F511|Type II diabetes mellitus with gangrene|
-|diabetes v1|readv2|C10F600|Type 2 diabetes mellitus with retinopathy|
-|diabetes v1|readv2|C10F611|Type II diabetes mellitus with retinopathy|
-|diabetes v1|readv2|C10F700|Type 2 diabetes mellitus - poor control|
-|diabetes v1|readv2|C10F711|Type II diabetes mellitus - poor control|
-|diabetes v1|readv2|C10F800|Reaven's syndrome|
-|diabetes v1|readv2|C10F811|Metabolic syndrome X|
-|diabetes v1|readv2|C10F900|Type 2 diabetes mellitus without complication|
-|diabetes v1|readv2|C10F911|Type II diabetes mellitus without complication|
-|diabetes v1|readv2|C10FA00|Type 2 diabetes mellitus with mononeuropathy|
-|diabetes v1|readv2|C10FA11|Type II diabetes mellitus with mononeuropathy|
-|diabetes v1|readv2|C10FB00|Type 2 diabetes mellitus with polyneuropathy|
-|diabetes v1|readv2|C10FB11|Type II diabetes mellitus with polyneuropathy|
-|diabetes v1|readv2|C10FC00|Type 2 diabetes mellitus with nephropathy|
-|diabetes v1|readv2|C10FC11|Type II diabetes mellitus with nephropathy|
-|diabetes v1|readv2|C10FD00|Type 2 diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|readv2|C10FD11|Type II diabetes mellitus with hypoglycaemic coma|
-|diabetes v1|readv2|C10FE00|Type 2 diabetes mellitus with diabetic cataract|
-|diabetes v1|readv2|C10FE11|Type II diabetes mellitus with diabetic cataract|
-|diabetes v1|readv2|C10FF00|Type 2 diabetes mellitus with peripheral angiopathy|
-|diabetes v1|readv2|C10FF11|Type II diabetes mellitus with peripheral angiopathy|
-|diabetes v1|readv2|C10FG00|Type 2 diabetes mellitus with arthropathy|
-|diabetes v1|readv2|C10FG11|Type II diabetes mellitus with arthropathy|
-|diabetes v1|readv2|C10FH00|Type 2 diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|readv2|C10FH11|Type II diabetes mellitus with neuropathic arthropathy|
-|diabetes v1|readv2|C10FJ00|Insulin treated Type 2 diabetes mellitus|
-|diabetes v1|readv2|C10FJ11|Insulin treated Type II diabetes mellitus|
-|diabetes v1|readv2|C10FK00|Hyperosmolar non-ketotic state in type 2 diabetes mellitus|
-|diabetes v1|readv2|C10FK11|Hyperosmolar non-ketotic state in type II diabetes mellitus|
-|diabetes v1|readv2|C10FL00|Type 2 diabetes mellitus with persistent proteinuria|
-|diabetes v1|readv2|C10FL11|Type II diabetes mellitus with persistent proteinuria|
-|diabetes v1|readv2|C10FM00|Type 2 diabetes mellitus with persistent microalbuminuria|
-|diabetes v1|readv2|C10FM11|Type II diabetes mellitus with persistent microalbuminuria|
-|diabetes v1|readv2|C10FN00|Type 2 diabetes mellitus with ketoacidosis|
-|diabetes v1|readv2|C10FN11|Type II diabetes mellitus with ketoacidosis|
-|diabetes v1|readv2|C10FP00|Type 2 diabetes mellitus with ketoacidotic coma|
-|diabetes v1|readv2|C10FP11|Type II diabetes mellitus with ketoacidotic coma|
-|diabetes v1|readv2|C10FQ00|Type 2 diabetes mellitus with exudative maculopathy|
-|diabetes v1|readv2|C10FQ11|Type II diabetes mellitus with exudative maculopathy|
-|diabetes v1|readv2|C10FR00|Type 2 diabetes mellitus with gastroparesis|
-|diabetes v1|readv2|C10FR11|Type II diabetes mellitus with gastroparesis|
-|diabetes v1|readv2|C10FS00|Maternally inherited diabetes mellitus|
-|diabetes v1|readv2|C10G.00|Secondary pancreatic diabetes mellitus|
-|diabetes v1|readv2|C10G000|Secondary pancreatic diabetes mellitus without complication|
-|diabetes v1|readv2|C10H.00|Diabetes mellitus induced by non-steroid drugs|
-|diabetes v1|readv2|C10H000|Diabetes mellitus induced by non-steroid drugs without complication|
-|diabetes v1|readv2|C10M.00|Lipoatrophic diabetes mellitus|
-|diabetes v1|readv2|C10M000|Lipoatrophic diabetes mellitus without complication|
-|diabetes v1|readv2|C10N.00|Secondary diabetes mellitus|
-|diabetes v1|readv2|C10N000|Secondary diabetes mellitus without complication|
-|diabetes v1|readv2|C10N100|Cystic fibrosis related diabetes mellitus|
-|diabetes v1|readv2|C10Q.00|Maturity onset diabetes of the young type 5|
-|diabetes v1|readv2|C10y.00|Diabetes mellitus with other specified manifestation|
-|diabetes v1|readv2|C10y000|Diabetes mellitus, juvenile type, with other specified manifestation|
-|diabetes v1|readv2|C10y100|Diabetes mellitus, adult onset, with other specified manifestation|
-|diabetes v1|readv2|C10yy00|Other specified diabetes mellitus with other specified complications|
-|diabetes v1|readv2|C10yz00|Diabetes mellitus NOS with other specified manifestation|
-|diabetes v1|readv2|C10z.00|Diabetes mellitus with unspecified complication|
-|diabetes v1|readv2|C10z000|Diabetes mellitus, juvenile type, with unspecified complication|
-|diabetes v1|readv2|C10z100|Diabetes mellitus, adult onset, with unspecified complication|
-|diabetes v1|readv2|C10zy00|Other specified diabetes mellitus with unspecified complications|
-|diabetes v1|readv2|C10zz00|Diabetes mellitus NOS with unspecified complication|
-|diabetes v1|readv2|C1A0.00|Metabolic syndrome|
-|diabetes v1|readv2|Cyu2.00|[X]Diabetes mellitus|
-|diabetes v1|readv2|Cyu2000|[X]Other specified diabetes mellitus|
-|diabetes v1|readv2|Cyu2100|[X]Malnutrition-related diabetes mellitus with other specified complications|
-|diabetes v1|readv2|Cyu2200|[X]Malnutrition-related diabetes mellitus with unspecified complications|
-|diabetes v1|readv2|Cyu2300|[X]Unspecified diabetes mellitus with renal complications|
-|diabetes v1|readv2|L180.00|Diabetes mellitus during pregnancy, childbirth and the puerperium|
-|diabetes v1|readv2|L180000|Diabetes mellitus - unspecified whether during pregnancy or the puerperium|
-|diabetes v1|readv2|L180100|Diabetes mellitus during pregnancy - baby delivered|
-|diabetes v1|readv2|L180200|Diabetes mellitus in the puerperium - baby delivered during current episode of care|
-|diabetes v1|readv2|L180300|Diabetes mellitus during pregnancy - baby not yet delivered|
-|diabetes v1|readv2|L180400|Diabetes mellitus in the pueperium - baby delivered during previous episode of care|
-|diabetes v1|readv2|L180500|Pre-existing diabetes mellitus, insulin-dependent|
-|diabetes v1|readv2|L180600|Pre-existing diabetes mellitus, non-insulin-dependent|
-|diabetes v1|readv2|L180700|Pre-existing malnutrition-related diabetes mellitus|
-|diabetes v1|readv2|L180800|Diabetes mellitus arising in pregnancy|
-|diabetes v1|readv2|L180811|Gestational diabetes mellitus|
-|diabetes v1|readv2|L180900|Gestational diabetes mellitus|
-|diabetes v1|readv2|L180A00|Pre-existing type 1 diabetes mellitus in pregnancy|
-|diabetes v1|readv2|L180B00|Pre-existing type 2 diabetes mellitus in pregnancy|
-|diabetes v1|readv2|L180X00|Pre-existing diabetes mellitus, unspecified|
-|diabetes v1|readv2|L180z00|Diabetes mellitus during pregnancy, childbirth or the puerperium NOS|
-|diabetes v1|readv2|Lyu2900|[X]Pre-existing diabetes mellitus, unspecified|
-|diabetes v1|readv2|PKyP.00|Diabetes insipidus, diabetes mellitus, optic atrophy and deafness|
-|diabetes v1|readv2|Q441.00|Neonatal diabetes mellitus|
-|diabetes v1|readv2|ZV13F00|[V]Personal history of gestational diabetes mellitus|
+|diabetes-type-i v1|ctv3|C1000|Diabetes mellitus, juvenile type, with no mention of complication|
+|diabetes-type-i v1|ctv3|C1010|Diabetes mellitus, juvenile type, with ketoacidosis|
+|diabetes-type-i v1|ctv3|C1020|Diabetes mellitus, juvenile type, with hyperosmolar coma|
+|diabetes-type-i v1|ctv3|C1030|Diabetes mellitus, juvenile type, with ketoacidotic coma|
+|diabetes-type-i v1|ctv3|C1040|Diabetes mellitus, juvenile type, with renal manifestation|
+|diabetes-type-i v1|ctv3|C1050|Diabetes mellitus, juvenile type, with ophthalmic manifestation|
+|diabetes-type-i v1|ctv3|C1060|Diabetes mellitus, juvenile type, with neurological manifestation|
+|diabetes-type-i v1|ctv3|C1070|Diabetes mellitus, juvenile type, with peripheral circulatory disorder|
+|diabetes-type-i v1|ctv3|C1080|Insulin-dependent diabetes mellitus with renal complications|
+|diabetes-type-i v1|ctv3|C1081|Insulin-dependent diabetes mellitus with ophthalmic complications|
+|diabetes-type-i v1|ctv3|C1082|Insulin-dependent diabetes mellitus with neurological complications|
+|diabetes-type-i v1|ctv3|C1083|Insulin-dependent diabetes mellitus with multiple complications|
+|diabetes-type-i v1|ctv3|C1085|Insulin-dependent diabetes mellitus with ulcer|
+|diabetes-type-i v1|ctv3|C1086|Insulin-dependent diabetes mellitus with gangrene|
+|diabetes-type-i v1|ctv3|C1087|IDDM - Insulin-dependent diabetes mellitus with retinopathy|
+|diabetes-type-i v1|ctv3|C1088|Insulin-dependent diabetes mellitus - poor control|
+|diabetes-type-i v1|ctv3|C1089|Insulin-dependent diabetes maturity onset|
+|diabetes-type-i v1|ctv3|C10y0|Diabetes mellitus, juvenile type, with other specified manifestation|
+|diabetes-type-i v1|ctv3|C10z0|Diabetes mellitus, juvenile type, with unspecified complication|
+|diabetes-type-i v1|ctv3|X40J4|Insulin-dependent diabetes mellitus|
+|diabetes-type-i v1|ctv3|X40JY|Congenital insulin-dependent diabetes mellitus with fatal secretory diarrhoea|
+|diabetes-type-i v1|ctv3|XE10E|Diabetes mellitus, juvenile type, with no mention of complication|
+|diabetes-type-i v1|ctv3|XE12C|Insulin dependent diabetes mel|
+|diabetes-type-i v1|ctv3|XM19i|[EDTA] Diabetes Type I (insulin dependent) associated with renal failure|
+|diabetes-type-i v1|ctv3|Xa4g7|Unstable type 1 diabetes mellitus|
+|diabetes-type-i v1|ctv3|XaA6b|Perceived control of insulin-dependent diabetes|
+|diabetes-type-i v1|ctv3|XaELP|Insulin-dependent diabetes without complication|
+|diabetes-type-i v1|ctv3|XaEnn|Type I diabetes mellitus with mononeuropathy|
+|diabetes-type-i v1|ctv3|XaEno|Insulin dependent diabetes mellitus with polyneuropathy|
+|diabetes-type-i v1|ctv3|XaF04|Type 1 diabetes mellitus with nephropathy|
+|diabetes-type-i v1|ctv3|XaFWG|Type 1 diabetes mellitus with hypoglycaemic coma|
+|diabetes-type-i v1|ctv3|XaFm8|Type 1 diabetes mellitus with diabetic cataract|
+|diabetes-type-i v1|ctv3|XaFmK|Type I diabetes mellitus with peripheral angiopathy|
+|diabetes-type-i v1|ctv3|XaFmL|Type 1 diabetes mellitus with arthropathy|
+|diabetes-type-i v1|ctv3|XaFmM|Type 1 diabetes mellitus with neuropathic arthropathy|
+|diabetes-type-i v1|ctv3|XaIzM|Type 1 diabetes mellitus with persistent proteinuria|
+|diabetes-type-i v1|ctv3|XaIzN|Type 1 diabetes mellitus with persistent microalbuminuria|
+|diabetes-type-i v1|ctv3|XaJSr|Type I diabetes mellitus with exudative maculopathy|
+|diabetes-type-i v1|ctv3|XaKyW|Type I diabetes mellitus with gastroparesis|
+|diabetes-type-i v1|readv2|C100000|Diabetes mellitus, juvenile type, with no mention of complication|
+|diabetes-type-i v1|readv2|C100011|Insulin dependent diabetes mellitus|
+|diabetes-type-i v1|readv2|C101000|Diabetes mellitus, juvenile type, with ketoacidosis|
+|diabetes-type-i v1|readv2|C102000|Diabetes mellitus, juvenile type, with hyperosmolar coma|
+|diabetes-type-i v1|readv2|C103000|Diabetes mellitus, juvenile type, with ketoacidotic coma|
+|diabetes-type-i v1|readv2|C104000|Diabetes mellitus, juvenile type, with renal manifestation|
+|diabetes-type-i v1|readv2|C105000|Diabetes mellitus, juvenile type, with ophthalmic manifestation|
+|diabetes-type-i v1|readv2|C106000|Diabetes mellitus, juvenile type, with neurological manifestation|
+|diabetes-type-i v1|readv2|C107000|Diabetes mellitus, juvenile type, with peripheral circulatory disorder|
+|diabetes-type-i v1|readv2|C108.00|Insulin dependent diabetes mellitus|
+|diabetes-type-i v1|readv2|C108.11|IDDM-Insulin dependent diabetes mellitus|
+|diabetes-type-i v1|readv2|C108.12|Type 1 diabetes mellitus|
+|diabetes-type-i v1|readv2|C108.13|Type I diabetes mellitus|
+|diabetes-type-i v1|readv2|C108000|Insulin-dependent diabetes mellitus with renal complications|
+|diabetes-type-i v1|readv2|C108011|Type I diabetes mellitus with renal complications|
+|diabetes-type-i v1|readv2|C108012|Type 1 diabetes mellitus with renal complications|
+|diabetes-type-i v1|readv2|C108100|Insulin-dependent diabetes mellitus with ophthalmic complications|
+|diabetes-type-i v1|readv2|C108111|Type I diabetes mellitus with ophthalmic complications|
+|diabetes-type-i v1|readv2|C108112|Type 1 diabetes mellitus with ophthalmic complications|
+|diabetes-type-i v1|readv2|C108200|Insulin-dependent diabetes mellitus with neurological complications|
+|diabetes-type-i v1|readv2|C108211|Type I diabetes mellitus with neurological complications|
+|diabetes-type-i v1|readv2|C108212|Type 1 diabetes mellitus with neurological complications|
+|diabetes-type-i v1|readv2|C108300|Insulin dependent diabetes mellitus with multiple complications|
+|diabetes-type-i v1|readv2|C108311|Type I diabetes mellitus with multiple complications|
+|diabetes-type-i v1|readv2|C108312|Type 1 diabetes mellitus with multiple complications|
+|diabetes-type-i v1|readv2|C108400|Unstable insulin dependent diabetes mellitus|
+|diabetes-type-i v1|readv2|C108411|Unstable type I diabetes mellitus|
+|diabetes-type-i v1|readv2|C108412|Unstable type 1 diabetes mellitus|
+|diabetes-type-i v1|readv2|C108500|Insulin dependent diabetes mellitus with ulcer|
+|diabetes-type-i v1|readv2|C108511|Type I diabetes mellitus with ulcer|
+|diabetes-type-i v1|readv2|C108512|Type 1 diabetes mellitus with ulcer|
+|diabetes-type-i v1|readv2|C108600|Insulin dependent diabetes mellitus with gangrene|
+|diabetes-type-i v1|readv2|C108611|Type I diabetes mellitus with gangrene|
+|diabetes-type-i v1|readv2|C108612|Type 1 diabetes mellitus with gangrene|
+|diabetes-type-i v1|readv2|C108700|Insulin dependent diabetes mellitus with retinopathy|
+|diabetes-type-i v1|readv2|C108711|Type I diabetes mellitus with retinopathy|
+|diabetes-type-i v1|readv2|C108712|Type 1 diabetes mellitus with retinopathy|
+|diabetes-type-i v1|readv2|C108800|Insulin dependent diabetes mellitus - poor control|
+|diabetes-type-i v1|readv2|C108811|Type I diabetes mellitus - poor control|
+|diabetes-type-i v1|readv2|C108812|Type 1 diabetes mellitus - poor control|
+|diabetes-type-i v1|readv2|C108900|Insulin dependent diabetes maturity onset|
+|diabetes-type-i v1|readv2|C108911|Type I diabetes mellitus maturity onset|
+|diabetes-type-i v1|readv2|C108912|Type 1 diabetes mellitus maturity onset|
+|diabetes-type-i v1|readv2|C108A00|Insulin-dependent diabetes without complication|
+|diabetes-type-i v1|readv2|C108A11|Type I diabetes mellitus without complication|
+|diabetes-type-i v1|readv2|C108A12|Type 1 diabetes mellitus without complication|
+|diabetes-type-i v1|readv2|C108B00|Insulin dependent diabetes mellitus with mononeuropathy|
+|diabetes-type-i v1|readv2|C108B11|Type I diabetes mellitus with mononeuropathy|
+|diabetes-type-i v1|readv2|C108B12|Type 1 diabetes mellitus with mononeuropathy|
+|diabetes-type-i v1|readv2|C108C00|Insulin dependent diabetes mellitus with polyneuropathy|
+|diabetes-type-i v1|readv2|C108C11|Type I diabetes mellitus with polyneuropathy|
+|diabetes-type-i v1|readv2|C108C12|Type 1 diabetes mellitus with polyneuropathy|
+|diabetes-type-i v1|readv2|C108D00|Insulin dependent diabetes mellitus with nephropathy|
+|diabetes-type-i v1|readv2|C108D11|Type I diabetes mellitus with nephropathy|
+|diabetes-type-i v1|readv2|C108D12|Type 1 diabetes mellitus with nephropathy|
+|diabetes-type-i v1|readv2|C108E00|Insulin dependent diabetes mellitus with hypoglycaemic coma|
+|diabetes-type-i v1|readv2|C108E11|Type I diabetes mellitus with hypoglycaemic coma|
+|diabetes-type-i v1|readv2|C108E12|Type 1 diabetes mellitus with hypoglycaemic coma|
+|diabetes-type-i v1|readv2|C108F00|Insulin dependent diabetes mellitus with diabetic cataract|
+|diabetes-type-i v1|readv2|C108F11|Type I diabetes mellitus with diabetic cataract|
+|diabetes-type-i v1|readv2|C108F12|Type 1 diabetes mellitus with diabetic cataract|
+|diabetes-type-i v1|readv2|C108G00|Insulin dependent diabetes mellitus with peripheral angiopathy|
+|diabetes-type-i v1|readv2|C108G11|Type I diabetes mellitus with peripheral angiopathy|
+|diabetes-type-i v1|readv2|C108G12|Type 1 diabetes mellitus with peripheral angiopathy|
+|diabetes-type-i v1|readv2|C108H00|Insulin dependent diabetes mellitus with arthropathy|
+|diabetes-type-i v1|readv2|C108H11|Type I diabetes mellitus with arthropathy|
+|diabetes-type-i v1|readv2|C108H12|Type 1 diabetes mellitus with arthropathy|
+|diabetes-type-i v1|readv2|C108J00|Insulin dependent diabetes mellitus with neuropathic arthropathy|
+|diabetes-type-i v1|readv2|C108J11|Type I diabetes mellitus with neuropathic arthropathy|
+|diabetes-type-i v1|readv2|C108J12|Type 1 diabetes mellitus with neuropathic arthropathy|
+|diabetes-type-i v1|readv2|C10E.00|Type 1 diabetes mellitus|
+|diabetes-type-i v1|readv2|C10E.11|Type I diabetes mellitus|
+|diabetes-type-i v1|readv2|C10E.12|Insulin dependent diabetes mellitus|
+|diabetes-type-i v1|readv2|C10E000|Type 1 diabetes mellitus with renal complications|
+|diabetes-type-i v1|readv2|C10E011|Type I diabetes mellitus with renal complications|
+|diabetes-type-i v1|readv2|C10E012|Insulin-dependent diabetes mellitus with renal complications|
+|diabetes-type-i v1|readv2|C10E100|Type 1 diabetes mellitus with ophthalmic complications|
+|diabetes-type-i v1|readv2|C10E111|Type I diabetes mellitus with ophthalmic complications|
+|diabetes-type-i v1|readv2|C10E112|Insulin-dependent diabetes mellitus with ophthalmic complications|
+|diabetes-type-i v1|readv2|C10E200|Type 1 diabetes mellitus with neurological complications|
+|diabetes-type-i v1|readv2|C10E211|Type I diabetes mellitus with neurological complications|
+|diabetes-type-i v1|readv2|C10E212|Insulin-dependent diabetes mellitus with neurological complications|
+|diabetes-type-i v1|readv2|C10E300|Type 1 diabetes mellitus with multiple complications|
+|diabetes-type-i v1|readv2|C10E311|Type I diabetes mellitus with multiple complications|
+|diabetes-type-i v1|readv2|C10E312|Insulin dependent diabetes mellitus with multiple complications|
+|diabetes-type-i v1|readv2|C10E400|Unstable type 1 diabetes mellitus|
+|diabetes-type-i v1|readv2|C10E411|Unstable type I diabetes mellitus|
+|diabetes-type-i v1|readv2|C10E412|Unstable insulin dependent diabetes mellitus|
+|diabetes-type-i v1|readv2|C10E500|Type 1 diabetes mellitus with ulcer|
+|diabetes-type-i v1|readv2|C10E511|Type I diabetes mellitus with ulcer|
+|diabetes-type-i v1|readv2|C10E512|Insulin dependent diabetes mellitus with ulcer|
+|diabetes-type-i v1|readv2|C10E600|Type 1 diabetes mellitus with gangrene|
+|diabetes-type-i v1|readv2|C10E611|Type I diabetes mellitus with gangrene|
+|diabetes-type-i v1|readv2|C10E612|Insulin dependent diabetes mellitus with gangrene|
+|diabetes-type-i v1|readv2|C10E700|Type 1 diabetes mellitus with retinopathy|
+|diabetes-type-i v1|readv2|C10E711|Type I diabetes mellitus with retinopathy|
+|diabetes-type-i v1|readv2|C10E712|Insulin dependent diabetes mellitus with retinopathy|
+|diabetes-type-i v1|readv2|C10E800|Type 1 diabetes mellitus - poor control|
+|diabetes-type-i v1|readv2|C10E811|Type I diabetes mellitus - poor control|
+|diabetes-type-i v1|readv2|C10E812|Insulin dependent diabetes mellitus - poor control|
+|diabetes-type-i v1|readv2|C10E900|Type 1 diabetes mellitus maturity onset|
+|diabetes-type-i v1|readv2|C10E911|Type I diabetes mellitus maturity onset|
+|diabetes-type-i v1|readv2|C10E912|Insulin dependent diabetes maturity onset|
+|diabetes-type-i v1|readv2|C10EA00|Type 1 diabetes mellitus without complication|
+|diabetes-type-i v1|readv2|C10EA11|Type I diabetes mellitus without complication|
+|diabetes-type-i v1|readv2|C10EA12|Insulin-dependent diabetes without complication|
+|diabetes-type-i v1|readv2|C10EB00|Type 1 diabetes mellitus with mononeuropathy|
+|diabetes-type-i v1|readv2|C10EB11|Type I diabetes mellitus with mononeuropathy|
+|diabetes-type-i v1|readv2|C10EB12|Insulin dependent diabetes mellitus with mononeuropathy|
+|diabetes-type-i v1|readv2|C10EC00|Type 1 diabetes mellitus with polyneuropathy|
+|diabetes-type-i v1|readv2|C10EC11|Type I diabetes mellitus with polyneuropathy|
+|diabetes-type-i v1|readv2|C10EC12|Insulin dependent diabetes mellitus with polyneuropathy|
+|diabetes-type-i v1|readv2|C10ED00|Type 1 diabetes mellitus with nephropathy|
+|diabetes-type-i v1|readv2|C10ED11|Type I diabetes mellitus with nephropathy|
+|diabetes-type-i v1|readv2|C10ED12|Insulin dependent diabetes mellitus with nephropathy|
+|diabetes-type-i v1|readv2|C10EE00|Type 1 diabetes mellitus with hypoglycaemic coma|
+|diabetes-type-i v1|readv2|C10EE11|Type I diabetes mellitus with hypoglycaemic coma|
+|diabetes-type-i v1|readv2|C10EE12|Insulin dependent diabetes mellitus with hypoglycaemic coma|
+|diabetes-type-i v1|readv2|C10EF00|Type 1 diabetes mellitus with diabetic cataract|
+|diabetes-type-i v1|readv2|C10EF11|Type I diabetes mellitus with diabetic cataract|
+|diabetes-type-i v1|readv2|C10EF12|Insulin dependent diabetes mellitus with diabetic cataract|
+|diabetes-type-i v1|readv2|C10EG00|Type 1 diabetes mellitus with peripheral angiopathy|
+|diabetes-type-i v1|readv2|C10EG11|Type I diabetes mellitus with peripheral angiopathy|
+|diabetes-type-i v1|readv2|C10EG12|Insulin dependent diabetes mellitus with peripheral angiopathy|
+|diabetes-type-i v1|readv2|C10EH00|Type 1 diabetes mellitus with arthropathy|
+|diabetes-type-i v1|readv2|C10EH11|Type I diabetes mellitus with arthropathy|
+|diabetes-type-i v1|readv2|C10EH12|Insulin dependent diabetes mellitus with arthropathy|
+|diabetes-type-i v1|readv2|C10EJ00|Type 1 diabetes mellitus with neuropathic arthropathy|
+|diabetes-type-i v1|readv2|C10EJ11|Type I diabetes mellitus with neuropathic arthropathy|
+|diabetes-type-i v1|readv2|C10EJ12|Insulin dependent diabetes mellitus with neuropathic arthropathy|
+|diabetes-type-i v1|readv2|C10EK00|Type 1 diabetes mellitus with persistent proteinuria|
+|diabetes-type-i v1|readv2|C10EK11|Type I diabetes mellitus with persistent proteinuria|
+|diabetes-type-i v1|readv2|C10EL00|Type 1 diabetes mellitus with persistent microalbuminuria|
+|diabetes-type-i v1|readv2|C10EL11|Type I diabetes mellitus with persistent microalbuminuria|
+|diabetes-type-i v1|readv2|C10EM00|Type 1 diabetes mellitus with ketoacidosis|
+|diabetes-type-i v1|readv2|C10EM11|Type I diabetes mellitus with ketoacidosis|
+|diabetes-type-i v1|readv2|C10EN00|Type 1 diabetes mellitus with ketoacidotic coma|
+|diabetes-type-i v1|readv2|C10EN11|Type I diabetes mellitus with ketoacidotic coma|
+|diabetes-type-i v1|readv2|C10EP00|Type 1 diabetes mellitus with exudative maculopathy|
+|diabetes-type-i v1|readv2|C10EP11|Type I diabetes mellitus with exudative maculopathy|
+|diabetes-type-i v1|readv2|C10EQ00|Type 1 diabetes mellitus with gastroparesis|
+|diabetes-type-i v1|readv2|C10EQ11|Type I diabetes mellitus with gastroparesis|
+|diabetes-type-i v1|readv2|C10y000|Diabetes mellitus, juvenile type, with other specified manifestation|
+|diabetes-type-i v1|readv2|C10z000|Diabetes mellitus, juvenile type, with unspecified complication|
+|diabetes-type-ii v1|ctv3|C1011|Diabetes mellitus, adult onset, with ketoacidosis|
+|diabetes-type-ii v1|ctv3|C1021|Diabetes mellitus, adult onset, with hyperosmolar coma|
+|diabetes-type-ii v1|ctv3|C1031|Diabetes mellitus, adult onset, with ketoacidotic coma|
+|diabetes-type-ii v1|ctv3|C1041|Diabetes mellitus, adult onset, with renal manifestation|
+|diabetes-type-ii v1|ctv3|C1051|Diabetes mellitus, adult onset, with ophthalmic manifestation|
+|diabetes-type-ii v1|ctv3|C1061|Diabetes mellitus, adult onset, with neurological manifestation|
+|diabetes-type-ii v1|ctv3|C1071|Diabetes mellitus, adult onset, with peripheral circulatory disorder|
+|diabetes-type-ii v1|ctv3|C1090|Non-insulin-dependent diabetes mellitus with renal complications|
+|diabetes-type-ii v1|ctv3|C1091|Non-insulin-dependent diabetes mellitus with ophthalmic complications|
+|diabetes-type-ii v1|ctv3|C1092|Non-insulin-dependent diabetes mellitus with neurological complications|
+|diabetes-type-ii v1|ctv3|C1093|Non-insulin-dependent diabetes mellitus with multiple complications|
+|diabetes-type-ii v1|ctv3|C1094|Non-insulin-dependent diabetes mellitus with ulcer|
+|diabetes-type-ii v1|ctv3|C1095|Non-insulin-dependent diabetes mellitus with gangrene|
+|diabetes-type-ii v1|ctv3|C1096|NIDDM - Non-insulin-dependent diabetes mellitus with retinopathy|
+|diabetes-type-ii v1|ctv3|C1097|Non-insulin-dependent diabetes mellitus - poor control|
+|diabetes-type-ii v1|ctv3|C10y1|Diabetes mellitus, adult onset, with other specified manifestation|
+|diabetes-type-ii v1|ctv3|C10z1|Diabetes mellitus, adult onset, with unspecified complication|
+|diabetes-type-ii v1|ctv3|X40J5|Non-insulin-dependent diabetes mellitus|
+|diabetes-type-ii v1|ctv3|X40J6|Insulin treated Type 2 diabetes mellitus|
+|diabetes-type-ii v1|ctv3|X40JJ|Diabetes mellitus autosomal dominant type 2|
+|diabetes-type-ii v1|ctv3|XE10F|Diabetes mellitus, adult onset, with no mention of complication|
+|diabetes-type-ii v1|ctv3|XM19j|[EDTA] Diabetes Type II (non-insulin-dependent) associated with renal failure|
+|diabetes-type-ii v1|ctv3|XaELQ|Non-insulin-dependent diabetes mellitus without complication|
+|diabetes-type-ii v1|ctv3|XaEnp|Type II diabetes mellitus with mononeuropathy|
+|diabetes-type-ii v1|ctv3|XaEnq|Type 2 diabetes mellitus with polyneuropathy|
+|diabetes-type-ii v1|ctv3|XaF05|Type 2 diabetes mellitus with nephropathy|
+|diabetes-type-ii v1|ctv3|XaFWI|Type II diabetes mellitus with hypoglycaemic coma|
+|diabetes-type-ii v1|ctv3|XaFmA|Type II diabetes mellitus with diabetic cataract|
+|diabetes-type-ii v1|ctv3|XaFn7|Non-insulin-dependent diabetes mellitus with peripheral angiopathy|
+|diabetes-type-ii v1|ctv3|XaFn8|Non-insulin dependent diabetes mellitus with arthropathy|
+|diabetes-type-ii v1|ctv3|XaFn9|Non-insulin dependent diabetes mellitus with neuropathic arthropathy|
+|diabetes-type-ii v1|ctv3|XaIfG|Type II diabetes on insulin|
+|diabetes-type-ii v1|ctv3|XaIfI|Type II diabetes on diet only|
+|diabetes-type-ii v1|ctv3|XaIrf|Hyperosmolar non-ketotic state in type II diabetes mellitus|
+|diabetes-type-ii v1|ctv3|XaIzQ|Type 2 diabetes mellitus with persistent proteinuria|
+|diabetes-type-ii v1|ctv3|XaIzR|Type 2 diabetes mellitus with persistent microalbuminuria|
+|diabetes-type-ii v1|ctv3|XaJQp|Type II diabetes mellitus with exudative maculopathy|
+|diabetes-type-ii v1|ctv3|XaKyX|Type II diabetes mellitus with gastroparesis|
+|diabetes-type-ii v1|readv2|C100100|Diabetes mellitus, adult onset, with no mention of complication|
+|diabetes-type-ii v1|readv2|C100112|Non-insulin dependent diabetes mellitus|
+|diabetes-type-ii v1|readv2|C101100|Diabetes mellitus, adult onset, with ketoacidosis|
+|diabetes-type-ii v1|readv2|C102100|Diabetes mellitus, adult onset, with hyperosmolar coma|
+|diabetes-type-ii v1|readv2|C103100|Diabetes mellitus, adult onset, with ketoacidotic coma|
+|diabetes-type-ii v1|readv2|C104100|Diabetes mellitus, adult onset, with renal manifestation|
+|diabetes-type-ii v1|readv2|C105100|Diabetes mellitus, adult onset, with ophthalmic manifestation|
+|diabetes-type-ii v1|readv2|C106100|Diabetes mellitus, adult onset, with neurological manifestation|
+|diabetes-type-ii v1|readv2|C107100|Diabetes mellitus, adult onset, with peripheral circulatory disorder|
+|diabetes-type-ii v1|readv2|C109.00|Non-insulin dependent diabetes mellitus|
+|diabetes-type-ii v1|readv2|C109.11|NIDDM - Non-insulin dependent diabetes mellitus|
+|diabetes-type-ii v1|readv2|C109.12|Type 2 diabetes mellitus|
+|diabetes-type-ii v1|readv2|C109.13|Type II diabetes mellitus|
+|diabetes-type-ii v1|readv2|C109000|Non-insulin-dependent diabetes mellitus with renal complications|
+|diabetes-type-ii v1|readv2|C109011|Type II diabetes mellitus with renal complications|
+|diabetes-type-ii v1|readv2|C109012|Type 2 diabetes mellitus with renal complications|
+|diabetes-type-ii v1|readv2|C109100|Non-insulin-dependent diabetes mellitus with ophthalmic complications|
+|diabetes-type-ii v1|readv2|C109111|Type II diabetes mellitus with ophthalmic complications|
+|diabetes-type-ii v1|readv2|C109112|Type 2 diabetes mellitus with ophthalmic complications|
+|diabetes-type-ii v1|readv2|C109200|Non-insulin-dependent diabetes mellitus with neurological complications|
+|diabetes-type-ii v1|readv2|C109211|Type II diabetes mellitus with neurological complications|
+|diabetes-type-ii v1|readv2|C109212|Type 2 diabetes mellitus with neurological complications|
+|diabetes-type-ii v1|readv2|C109300|Non-insulin-dependent diabetes mellitus with multiple complications|
+|diabetes-type-ii v1|readv2|C109311|Type II diabetes mellitus with multiple complications|
+|diabetes-type-ii v1|readv2|C109312|Type 2 diabetes mellitus with multiple complications|
+|diabetes-type-ii v1|readv2|C109400|Non-insulin dependent diabetes mellitus with ulcer|
+|diabetes-type-ii v1|readv2|C109411|Type II diabetes mellitus with ulcer|
+|diabetes-type-ii v1|readv2|C109412|Type 2 diabetes mellitus with ulcer|
+|diabetes-type-ii v1|readv2|C109500|Non-insulin dependent diabetes mellitus with gangrene|
+|diabetes-type-ii v1|readv2|C109511|Type II diabetes mellitus with gangrene|
+|diabetes-type-ii v1|readv2|C109512|Type 2 diabetes mellitus with gangrene|
+|diabetes-type-ii v1|readv2|C109600|Non-insulin-dependent diabetes mellitus with retinopathy|
+|diabetes-type-ii v1|readv2|C109611|Type II diabetes mellitus with retinopathy|
+|diabetes-type-ii v1|readv2|C109612|Type 2 diabetes mellitus with retinopathy|
+|diabetes-type-ii v1|readv2|C109700|Non-insulin dependent diabetes mellitus - poor control|
+|diabetes-type-ii v1|readv2|C109711|Type II diabetes mellitus - poor control|
+|diabetes-type-ii v1|readv2|C109712|Type 2 diabetes mellitus - poor control|
+|diabetes-type-ii v1|readv2|C109900|Non-insulin-dependent diabetes mellitus without complication|
+|diabetes-type-ii v1|readv2|C109911|Type II diabetes mellitus without complication|
+|diabetes-type-ii v1|readv2|C109912|Type 2 diabetes mellitus without complication|
+|diabetes-type-ii v1|readv2|C109A00|Non-insulin dependent diabetes mellitus with mononeuropathy|
+|diabetes-type-ii v1|readv2|C109A11|Type II diabetes mellitus with mononeuropathy|
+|diabetes-type-ii v1|readv2|C109A12|Type 2 diabetes mellitus with mononeuropathy|
+|diabetes-type-ii v1|readv2|C109B00|Non-insulin dependent diabetes mellitus with polyneuropathy|
+|diabetes-type-ii v1|readv2|C109B11|Type II diabetes mellitus with polyneuropathy|
+|diabetes-type-ii v1|readv2|C109B12|Type 2 diabetes mellitus with polyneuropathy|
+|diabetes-type-ii v1|readv2|C109C00|Non-insulin dependent diabetes mellitus with nephropathy|
+|diabetes-type-ii v1|readv2|C109C11|Type II diabetes mellitus with nephropathy|
+|diabetes-type-ii v1|readv2|C109C12|Type 2 diabetes mellitus with nephropathy|
+|diabetes-type-ii v1|readv2|C109D00|Non-insulin dependent diabetes mellitus with hypoglycaemic coma|
+|diabetes-type-ii v1|readv2|C109D11|Type II diabetes mellitus with hypoglycaemic coma|
+|diabetes-type-ii v1|readv2|C109D12|Type 2 diabetes mellitus with hypoglycaemic coma|
+|diabetes-type-ii v1|readv2|C109E00|Non-insulin dependent diabetes mellitus with diabetic cataract|
+|diabetes-type-ii v1|readv2|C109E11|Type II diabetes mellitus with diabetic cataract|
+|diabetes-type-ii v1|readv2|C109E12|Type 2 diabetes mellitus with diabetic cataract|
+|diabetes-type-ii v1|readv2|C109F00|Non-insulin-dependent diabetes mellitus with peripheral angiopathy|
+|diabetes-type-ii v1|readv2|C109F11|Type II diabetes mellitus with peripheral angiopathy|
+|diabetes-type-ii v1|readv2|C109F12|Type 2 diabetes mellitus with peripheral angiopathy|
+|diabetes-type-ii v1|readv2|C109G00|Non-insulin dependent diabetes mellitus with arthropathy|
+|diabetes-type-ii v1|readv2|C109G11|Type II diabetes mellitus with arthropathy|
+|diabetes-type-ii v1|readv2|C109G12|Type 2 diabetes mellitus with arthropathy|
+|diabetes-type-ii v1|readv2|C109H00|Non-insulin dependent diabetes mellitus with neuropathic arthropathy|
+|diabetes-type-ii v1|readv2|C109H11|Type II diabetes mellitus with neuropathic arthropathy|
+|diabetes-type-ii v1|readv2|C109H12|Type 2 diabetes mellitus with neuropathic arthropathy|
+|diabetes-type-ii v1|readv2|C109J00|Insulin treated Type 2 diabetes mellitus|
+|diabetes-type-ii v1|readv2|C109J11|Insulin treated non-insulin dependent diabetes mellitus|
+|diabetes-type-ii v1|readv2|C109J12|Insulin treated Type II diabetes mellitus|
+|diabetes-type-ii v1|readv2|C109K00|Hyperosmolar non-ketotic state in type 2 diabetes mellitus|
+|diabetes-type-ii v1|readv2|C10D.00|Diabetes mellitus autosomal dominant type 2|
+|diabetes-type-ii v1|readv2|C10F.00|Type 2 diabetes mellitus|
+|diabetes-type-ii v1|readv2|C10F.11|Type II diabetes mellitus|
+|diabetes-type-ii v1|readv2|C10F000|Type 2 diabetes mellitus with renal complications|
+|diabetes-type-ii v1|readv2|C10F011|Type II diabetes mellitus with renal complications|
+|diabetes-type-ii v1|readv2|C10F100|Type 2 diabetes mellitus with ophthalmic complications|
+|diabetes-type-ii v1|readv2|C10F111|Type II diabetes mellitus with ophthalmic complications|
+|diabetes-type-ii v1|readv2|C10F200|Type 2 diabetes mellitus with neurological complications|
+|diabetes-type-ii v1|readv2|C10F211|Type II diabetes mellitus with neurological complications|
+|diabetes-type-ii v1|readv2|C10F300|Type 2 diabetes mellitus with multiple complications|
+|diabetes-type-ii v1|readv2|C10F311|Type II diabetes mellitus with multiple complications|
+|diabetes-type-ii v1|readv2|C10F400|Type 2 diabetes mellitus with ulcer|
+|diabetes-type-ii v1|readv2|C10F411|Type II diabetes mellitus with ulcer|
+|diabetes-type-ii v1|readv2|C10F500|Type 2 diabetes mellitus with gangrene|
+|diabetes-type-ii v1|readv2|C10F511|Type II diabetes mellitus with gangrene|
+|diabetes-type-ii v1|readv2|C10F600|Type 2 diabetes mellitus with retinopathy|
+|diabetes-type-ii v1|readv2|C10F611|Type II diabetes mellitus with retinopathy|
+|diabetes-type-ii v1|readv2|C10F700|Type 2 diabetes mellitus - poor control|
+|diabetes-type-ii v1|readv2|C10F711|Type II diabetes mellitus - poor control|
+|diabetes-type-ii v1|readv2|C10F900|Type 2 diabetes mellitus without complication|
+|diabetes-type-ii v1|readv2|C10F911|Type II diabetes mellitus without complication|
+|diabetes-type-ii v1|readv2|C10FA00|Type 2 diabetes mellitus with mononeuropathy|
+|diabetes-type-ii v1|readv2|C10FA11|Type II diabetes mellitus with mononeuropathy|
+|diabetes-type-ii v1|readv2|C10FB00|Type 2 diabetes mellitus with polyneuropathy|
+|diabetes-type-ii v1|readv2|C10FB11|Type II diabetes mellitus with polyneuropathy|
+|diabetes-type-ii v1|readv2|C10FC00|Type 2 diabetes mellitus with nephropathy|
+|diabetes-type-ii v1|readv2|C10FC11|Type II diabetes mellitus with nephropathy|
+|diabetes-type-ii v1|readv2|C10FD00|Type 2 diabetes mellitus with hypoglycaemic coma|
+|diabetes-type-ii v1|readv2|C10FD11|Type II diabetes mellitus with hypoglycaemic coma|
+|diabetes-type-ii v1|readv2|C10FE00|Type 2 diabetes mellitus with diabetic cataract|
+|diabetes-type-ii v1|readv2|C10FE11|Type II diabetes mellitus with diabetic cataract|
+|diabetes-type-ii v1|readv2|C10FF00|Type 2 diabetes mellitus with peripheral angiopathy|
+|diabetes-type-ii v1|readv2|C10FF11|Type II diabetes mellitus with peripheral angiopathy|
+|diabetes-type-ii v1|readv2|C10FG00|Type 2 diabetes mellitus with arthropathy|
+|diabetes-type-ii v1|readv2|C10FG11|Type II diabetes mellitus with arthropathy|
+|diabetes-type-ii v1|readv2|C10FH00|Type 2 diabetes mellitus with neuropathic arthropathy|
+|diabetes-type-ii v1|readv2|C10FH11|Type II diabetes mellitus with neuropathic arthropathy|
+|diabetes-type-ii v1|readv2|C10FJ00|Insulin treated Type 2 diabetes mellitus|
+|diabetes-type-ii v1|readv2|C10FJ11|Insulin treated Type II diabetes mellitus|
+|diabetes-type-ii v1|readv2|C10FK00|Hyperosmolar non-ketotic state in type 2 diabetes mellitus|
+|diabetes-type-ii v1|readv2|C10FK11|Hyperosmolar non-ketotic state in type II diabetes mellitus|
+|diabetes-type-ii v1|readv2|C10FL00|Type 2 diabetes mellitus with persistent proteinuria|
+|diabetes-type-ii v1|readv2|C10FL11|Type II diabetes mellitus with persistent proteinuria|
+|diabetes-type-ii v1|readv2|C10FM00|Type 2 diabetes mellitus with persistent microalbuminuria|
+|diabetes-type-ii v1|readv2|C10FM11|Type II diabetes mellitus with persistent microalbuminuria|
+|diabetes-type-ii v1|readv2|C10FN00|Type 2 diabetes mellitus with ketoacidosis|
+|diabetes-type-ii v1|readv2|C10FN11|Type II diabetes mellitus with ketoacidosis|
+|diabetes-type-ii v1|readv2|C10FP00|Type 2 diabetes mellitus with ketoacidotic coma|
+|diabetes-type-ii v1|readv2|C10FP11|Type II diabetes mellitus with ketoacidotic coma|
+|diabetes-type-ii v1|readv2|C10FQ00|Type 2 diabetes mellitus with exudative maculopathy|
+|diabetes-type-ii v1|readv2|C10FQ11|Type II diabetes mellitus with exudative maculopathy|
+|diabetes-type-ii v1|readv2|C10FR00|Type 2 diabetes mellitus with gastroparesis|
+|diabetes-type-ii v1|readv2|C10FR11|Type II diabetes mellitus with gastroparesis|
+|diabetes-type-ii v1|readv2|C10y100|Diabetes mellitus, adult onset, with other specified manifestation|
+|diabetes-type-ii v1|readv2|C10z100|Diabetes mellitus, adult onset, with unspecified complication|
 |copd v1|ctv3|H3...|COPD - Chronic obstructive pulmonary disease|
 |copd v1|ctv3|H31..|Chronic bronchitis|
 |copd v1|ctv3|H310.|Simple chronic bronchitis|
