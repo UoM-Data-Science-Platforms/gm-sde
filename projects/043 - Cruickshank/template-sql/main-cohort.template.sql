@@ -14,6 +14,8 @@
 -- is required e.g. mapping occupations to key/non-key worker etc. Also PI is aware that occupation
 -- is poorly recorded ~10% of patients.
 
+-- UPDATE 10 June 2022 - PI requests for diabetes to be split T1/T2
+
 -- OUTPUT: Data with the following fields
 -- 	- PatientId (int)
 --  - FirstCovidPositiveDate (DDMMYYYY)
@@ -31,13 +33,13 @@
 --  - Sex (M/F)
 --  - Ethnicity
 --  - IMD2019Decile1IsMostDeprived10IsLeastDeprived
---  - HasAsthma (Y/N) (at time of 1st COVID dx)
---  - HasIschemic heart disease (Y/N) (at time of 1st COVID dx)
---  - HasOther heart disease (Y/N) (at time of 1st COVID dx)
---  - HasStroke (Y/N) (at time of 1st COVID dx)
---  - HasDiabetes (Y/N) (at time of 1st COVID dx)
---  - HasCOPD (Y/N) (at time of 1st COVID dx)
---  - HasHypertension (Y/N) (at time of 1st COVID dx)
+--  - PatientHasAsthma (Y/N) (at time of 1st COVID dx)
+--  - PatientHasCHD (Y/N) (at time of 1st COVID dx)
+--  - PatientHasStroke (Y/N) (at time of 1st COVID dx)
+--  - PatientHasT1DM (Y/N) (at time of 1st COVID dx)
+--  - PatientHasT2DM (Y/N) (at time of 1st COVID dx)
+--  - PatientHasCOPD (Y/N) (at time of 1st COVID dx)
+--  - PatientHasHypertension (Y/N) (at time of 1st COVID dx)
 --  - WorstSmokingStatus (non-smoker / trivial smoker / non-trivial smoker)
 --  - CurrentSmokingStatus (non-smoker / trivial smoker / non-trivial smoker)
 --  - BMI (at time of 1st COVID dx)
@@ -162,14 +164,25 @@ WHERE (
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
---> CODESET diabetes:1
-IF OBJECT_ID('tempdb..#PatientDiagnosesDIABETES') IS NOT NULL DROP TABLE #PatientDiagnosesDIABETES;
+--> CODESET diabetes-type-i:1
+IF OBJECT_ID('tempdb..#PatientDiagnosesT1DM') IS NOT NULL DROP TABLE #PatientDiagnosesT1DM;
 SELECT DISTINCT FK_Patient_Link_ID
-INTO #PatientDiagnosesDIABETES
+INTO #PatientDiagnosesT1DM
 FROM RLS.vw_GP_Events
 WHERE (
-	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('diabetes') AND [Version]=1)) OR
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('diabetes') AND [Version]=1))
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('diabetes-type-i') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('diabetes-type-i') AND [Version]=1))
+)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+
+--> CODESET diabetes-type-ii:1
+IF OBJECT_ID('tempdb..#PatientDiagnosesT2DM') IS NOT NULL DROP TABLE #PatientDiagnosesT2DM;
+SELECT DISTINCT FK_Patient_Link_ID
+INTO #PatientDiagnosesT2DM
+FROM RLS.vw_GP_Events
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('diabetes-type-ii') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('diabetes-type-ii') AND [Version]=1))
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
@@ -299,7 +312,8 @@ SELECT
   CASE WHEN asthma.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasASTHMA,
   CASE WHEN chd.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasCHD,
   CASE WHEN stroke.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasSTROKE,
-  CASE WHEN dm.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasDIABETES,
+  CASE WHEN t1dm.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasT1DM,
+  CASE WHEN t2dm.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasT2DM,
   CASE WHEN copd.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasCOPD,
   CASE WHEN htn.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasHYPERTENSION,
   smok.WorstSmokingStatus,
@@ -321,7 +335,8 @@ LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = m.FK_Patient_L
 LEFT OUTER JOIN #PatientDiagnosesASTHMA asthma ON asthma.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesCHD chd ON chd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesSTROKE stroke ON stroke.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientDiagnosesDIABETES dm ON dm.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosesT1DM t1dm ON t1dm.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientDiagnosesT2DM t2dm ON t2dm.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesCOPD copd ON copd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesHYPERTENSION htn ON htn.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = m.FK_Patient_Link_ID

@@ -361,7 +361,8 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <li>asthma v1</li>
 <li>coronary-heart-disease v1</li>
 <li>stroke v1</li>
-<li>diabetes v1</li>
+<li>diabetes-type-i v1</li>
+<li>diabetes-type-ii v1</li>
 <li>copd v1</li>
 <li>hypertension v1</li>
 <li>bmi v2</li>
@@ -742,11 +743,11 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 </tbody>
 </table>
 <p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/stroke/1">https://github.com/rw251/.../conditions/stroke/1</a></p>
-<h3>Diabetes mellitus</h3>
-<p>Code set for any diagnosis of diabetes mellitus (type I/type II/other).</p>
+<h3>Diabetes mellitus type 1</h3>
+<p>Any diagnosis of T1DM. A super set of the QOF business rule.</p>
 <p>Developed from https://getset.ga.</p>
 <h4>Prevalence log</h4>
-<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>5.96% - 6.05%</code> suggests that this code set is well defined.</p>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>0.42% - 0.48%</code> suggests that this code set is well defined.</p>
 <table>
 <thead>
 <tr>
@@ -762,26 +763,66 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td>2021-05-07</td>
 <td>EMIS</td>
 <td>2605681</td>
-<td style="text-align:right">155421 (5.96%)</td>
-<td style="text-align:right">155398 (5.96%)</td>
+<td style="text-align:right">11381 (0.44%)</td>
+<td style="text-align:right">11381 (0.44%)</td>
 </tr>
 <tr>
 <td>2021-05-07</td>
 <td>TPP</td>
 <td>210817</td>
-<td style="text-align:right">12743 (6.04%)</td>
-<td style="text-align:right">12745 (6.05%)</td>
+<td style="text-align:right">887 (0.42%)</td>
+<td style="text-align:right">887 (0.42%)</td>
 </tr>
 <tr>
 <td>2021-05-07</td>
 <td>Vision</td>
 <td>334632</td>
-<td style="text-align:right">20145 (6.02%)</td>
-<td style="text-align:right">20145 (6.02%)</td>
+<td style="text-align:right">1607 (0.48%)</td>
+<td style="text-align:right">1607 (0.48%)</td>
 </tr>
 </tbody>
 </table>
-<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/diabetes/1">https://github.com/rw251/.../conditions/diabetes/1</a></p>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/diabetes-type-i/1">https://github.com/rw251/.../conditions/diabetes-type-i/1</a></p>
+<h3>Diabetes mellitus type 2</h3>
+<p>Any diagnosis of T2DM. A super set of the QOF business rule. Includes &quot;adult onset&quot; diabetes, but DOES NOT include &quot;maturity onset&quot; diabetes.</p>
+<p>Developed from https://getset.ga.</p>
+<h4>Prevalence log</h4>
+<p>By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range <code>5.06% - 5.20%</code> suggests that this code set is well defined.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Practice system</th>
+<th>Population</th>
+<th style="text-align:right">Patients from ID</th>
+<th style="text-align:right">Patient from code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021-05-07</td>
+<td>EMIS</td>
+<td>2605681</td>
+<td style="text-align:right">133938 (5.14%)</td>
+<td style="text-align:right">133938 (5.14%)</td>
+</tr>
+<tr>
+<td>2021-05-07</td>
+<td>TPP</td>
+<td>210817</td>
+<td style="text-align:right">10954 (5.20%)</td>
+<td style="text-align:right">10954 (5.20%)</td>
+</tr>
+<tr>
+<td>2021-05-07</td>
+<td>Vision</td>
+<td>334632</td>
+<td style="text-align:right">16936 (5.06%)</td>
+<td style="text-align:right">16933 (5.06%)</td>
+</tr>
+</tbody>
+</table>
+<p>LINK: <a href="https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/diabetes-type-ii/1">https://github.com/rw251/.../conditions/diabetes-type-ii/1</a></p>
 <h3>COPD</h3>
 <p>Any suggestion of a diagnosis of COPD.</p>
 <p>Developed from https://getset.ga.</p>
@@ -7315,3244 +7356,2068 @@ Prior to data extraction, the code is checked and signed off by another RDE.</p>
 <td>[X]Cerebral infarction due to unspecified occlusion or stenosis of precerebral arteries</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C10..</td>
-<td>DM - Diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C100.</td>
-<td>Diabetes mellitus with no mention of complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>C1000</td>
 <td>Diabetes mellitus, juvenile type, with no mention of complication</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C1001</td>
-<td>Maturity onset diabetes</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C100z</td>
-<td>Diabetes mellitus NOS with no mention of complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C101.</td>
-<td>Diabetic ketoacidosis</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>C1010</td>
 <td>Diabetes mellitus, juvenile type, with ketoacidosis</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C1011</td>
-<td>Diabetes mellitus, adult onset, with ketoacidosis</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C101y</td>
-<td>Other specified diabetes mellitus with ketoacidosis</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C101z</td>
-<td>Diabetes mellitus NOS with ketoacidosis</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C102.</td>
-<td>Diabetes mellitus with hyperosmolar coma</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>C1020</td>
 <td>Diabetes mellitus, juvenile type, with hyperosmolar coma</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C1021</td>
-<td>Diabetes mellitus, adult onset, with hyperosmolar coma</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C102z</td>
-<td>Diabetes mellitus NOS with hyperosmolar coma</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C103.</td>
-<td>Diabetes mellitus with ketoacidotic coma</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>C1030</td>
 <td>Diabetes mellitus, juvenile type, with ketoacidotic coma</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C1031</td>
-<td>Diabetes mellitus, adult onset, with ketoacidotic coma</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C103y</td>
-<td>Other specified diabetes mellitus with coma</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C103z</td>
-<td>Diabetes mellitus NOS with ketoacidotic coma</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>C1040</td>
 <td>Diabetes mellitus, juvenile type, with renal manifestation</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C1041</td>
-<td>Diabetes mellitus, adult onset, with renal manifestation</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C104y</td>
-<td>Other specified diabetes mellitus with renal complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C104z</td>
-<td>Diabetes mellitus with nephropathy NOS</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C105.</td>
-<td>Diabetes mellitus with ophthalmic manifestation</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>C1050</td>
 <td>Diabetes mellitus, juvenile type, with ophthalmic manifestation</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C1051</td>
-<td>Diabetes mellitus, adult onset, with ophthalmic manifestation</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C105y</td>
-<td>Other specified diabetes mellitus with ophthalmic complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C105z</td>
-<td>Diabetes mellitus NOS with ophthalmic manifestation</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>C1060</td>
 <td>Diabetes mellitus, juvenile type, with neurological manifestation</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C1061</td>
-<td>Diabetes mellitus, adult onset, with neurological manifestation</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C106y</td>
-<td>Other specified diabetes mellitus with neurological complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C106z</td>
-<td>Diabetes mellitus NOS with neurological manifestation</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>C1070</td>
 <td>Diabetes mellitus, juvenile type, with peripheral circulatory disorder</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C1071</td>
-<td>Diabetes mellitus, adult onset, with peripheral circulatory disorder</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C1072</td>
-<td>Diabetes mellitus, adult with gangrene</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C107y</td>
-<td>Other specified diabetes mellitus with peripheral circulatory complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C107z</td>
-<td>Diabetes mellitus NOS with peripheral circulatory disorder</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>C1080</td>
 <td>Insulin-dependent diabetes mellitus with renal complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>C1081</td>
 <td>Insulin-dependent diabetes mellitus with ophthalmic complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>C1082</td>
 <td>Insulin-dependent diabetes mellitus with neurological complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>C1083</td>
 <td>Insulin-dependent diabetes mellitus with multiple complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>C1085</td>
 <td>Insulin-dependent diabetes mellitus with ulcer</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>C1086</td>
 <td>Insulin-dependent diabetes mellitus with gangrene</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>C1087</td>
 <td>IDDM - Insulin-dependent diabetes mellitus with retinopathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>C1088</td>
 <td>Insulin-dependent diabetes mellitus - poor control</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>C1089</td>
 <td>Insulin-dependent diabetes maturity onset</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C108y</td>
-<td>Other specified diabetes mellitus with multiple complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C108z</td>
-<td>Unspecified diabetes mellitus with multiple complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C1090</td>
-<td>Non-insulin-dependent diabetes mellitus with renal complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C1091</td>
-<td>Non-insulin-dependent diabetes mellitus with ophthalmic complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C1092</td>
-<td>Non-insulin-dependent diabetes mellitus with neurological complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C1093</td>
-<td>Non-insulin-dependent diabetes mellitus with multiple complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C1094</td>
-<td>Non-insulin-dependent diabetes mellitus with ulcer</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C1095</td>
-<td>Non-insulin-dependent diabetes mellitus with gangrene</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C1096</td>
-<td>NIDDM - Non-insulin-dependent diabetes mellitus with retinopathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C1097</td>
-<td>Non-insulin-dependent diabetes mellitus - poor control</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C10A0</td>
-<td>Malnutrition-related diabetes mellitus with coma</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C10A1</td>
-<td>Malnutrition-related diabetes mellitus with ketoacidosis</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C10A2</td>
-<td>Malnutrition-related diabetes mellitus with renal complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C10A3</td>
-<td>Malnutrition-related diabetes mellitus with ophthalmic complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C10A4</td>
-<td>Malnutrition-related diabetes mellitus with neurological complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C10A5</td>
-<td>Malnutrition-related diabetes mellitus with peripheral circulatory complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C10A6</td>
-<td>Malnutrition-related diabetes mellitus with multiple complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C10A7</td>
-<td>Malnutrition-related diabetes mellitus without complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C10B0</td>
-<td>Steroid-induced diabetes mellitus without complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C10y.</td>
-<td>Diabetes mellitus with other specified manifestation</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>C10y0</td>
 <td>Diabetes mellitus, juvenile type, with other specified manifestation</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C10y1</td>
-<td>Diabetes mellitus, adult onset, with other specified manifestation</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C10yy</td>
-<td>Other specified diabetes mellitus with other specified complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C10yz</td>
-<td>Diabetes mellitus NOS with other specified manifestation</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C10z.</td>
-<td>Diabetes mellitus with unspecified complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>C10z0</td>
 <td>Diabetes mellitus, juvenile type, with unspecified complication</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C10z1</td>
-<td>Diabetes mellitus, adult onset, with unspecified complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C10zy</td>
-<td>Other specified diabetes mellitus with unspecified complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>C10zz</td>
-<td>Diabetes mellitus NOS with unspecified complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>Cyu20</td>
-<td>[X]Other specified diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>Cyu21</td>
-<td>[X]Malnutrition-related diabetes mellitus with other specified complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>Cyu22</td>
-<td>[X]Malnutrition-related diabetes mellitus with unspecified complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>Cyu23</td>
-<td>[X]Unspecified diabetes mellitus with renal complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>L180.</td>
-<td>Diabetes mellitus during pregnancy, childbirth and the puerperium</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>L1800</td>
-<td>Diabetes mellitus - unspecified whether during pregnancy or the puerperium</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>L1801</td>
-<td>Diabetes mellitus during pregnancy - baby delivered</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>L1802</td>
-<td>Diabetes mellitus in the puerperium - baby delivered during current episode of care</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>L1803</td>
-<td>Diabetes mellitus during pregnancy - baby not yet delivered</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>L1804</td>
-<td>Diabetes mellitus in the puerperium - baby delivered during previous episode of care</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>L1805</td>
-<td>Pre-existing diabetes mellitus, insulin-dependent</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>L1806</td>
-<td>Pre-existing diabetes mellitus, non-insulin-dependent</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>L1807</td>
-<td>Pre-existing malnutrition-related diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>L1808</td>
-<td>Diabetes mellitus arising in pregnancy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>L180z</td>
-<td>Diabetes mellitus during pregnancy, childbirth or the puerperium NOS</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>Lyu29</td>
-<td>[X]Pre-existing diabetes mellitus, unspecified</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>Q441.</td>
-<td>Neonatal diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>X40J4</td>
 <td>Insulin-dependent diabetes mellitus</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>X40J5</td>
-<td>Non-insulin-dependent diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>X40J6</td>
-<td>Insulin treated Type 2 diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>X40J7</td>
-<td>Malnutrition-related diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>X40J8</td>
-<td>Malnutrition-related diabetes mellitus - fibrocalculous</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>X40J9</td>
-<td>Malnutrition-related diabetes mellitus - protein-deficient</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>X40JA</td>
-<td>Secondary diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>X40JB</td>
-<td>Secondary pancreatic diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>X40JC</td>
-<td>Secondary endocrine diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>X40JE</td>
-<td>Reaven's syndrome</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>X40JF</td>
-<td>Transitory neonatal diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>X40JG</td>
-<td>Genetic syndromes of diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>X40JI</td>
-<td>Maturity onset diabetes in youth type 1</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>X40JJ</td>
-<td>Diabetes mellitus autosomal dominant type 2</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>X40JN</td>
-<td>Lipodystrophy, partial, with Reiger anomaly, short stature, and insulinopenic diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>X40JQ</td>
-<td>Muscular atrophy, ataxia, retinitis pigmentosa, and diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>X40JV</td>
-<td>Hypogonadism, diabetes mellitus, alopecia ,mental retardation and electrocardiographic abnormalities</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>X40JX</td>
-<td>Pineal hyperplasia, insulin-resistant diabetes mellitus and somatic abnormalities</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>X40JY</td>
 <td>Congenital insulin-dependent diabetes mellitus with fatal secretory diarrhoea</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>X40Ja</td>
-<td>Abnormal metabolic state in diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>X50GO</td>
-<td>Soft tissue complication of diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>XE10E</td>
 <td>Diabetes mellitus, juvenile type, with no mention of complication</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XE10F</td>
-<td>Diabetes mellitus, adult onset, with no mention of complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XE10G</td>
-<td>Diabetes mellitus with renal manifestation</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XE10H</td>
-<td>Diabetes mellitus with neurological manifestation</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XE10I</td>
-<td>Diabetes mellitus with peripheral circulatory disorder</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>XE12C</td>
 <td>Insulin dependent diabetes mel</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XE15k</td>
-<td>Diabetes mellitus with polyneuropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>XM19i</td>
 <td>[EDTA] Diabetes Type I (insulin dependent) associated with renal failure</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XM19j</td>
-<td>[EDTA] Diabetes Type II (non-insulin-dependent) associated with renal failure</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XM1Qx</td>
-<td>Diabetes mellitus with gangrene</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XSETH</td>
-<td>Maturity onset diabetes mellitus in young</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XSETK</td>
-<td>Drug-induced diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XSETp</td>
-<td>Diabetes mellitus due to insulin receptor antibodies</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>Xa08a</td>
-<td>Small for gestation neonatal diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>Xa4g7</td>
 <td>Unstable type 1 diabetes mellitus</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>Xa9FG</td>
-<td>Postpancreatectomy diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>XaA6b</td>
 <td>Perceived control of insulin-dependent diabetes</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>XaELP</td>
 <td>Insulin-dependent diabetes without complication</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaELQ</td>
-<td>Non-insulin-dependent diabetes mellitus without complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>XaEnn</td>
 <td>Type I diabetes mellitus with mononeuropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>XaEno</td>
 <td>Insulin dependent diabetes mellitus with polyneuropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaEnp</td>
-<td>Type II diabetes mellitus with mononeuropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaEnq</td>
-<td>Type 2 diabetes mellitus with polyneuropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>XaF04</td>
 <td>Type 1 diabetes mellitus with nephropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaF05</td>
-<td>Type 2 diabetes mellitus with nephropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>XaFWG</td>
 <td>Type 1 diabetes mellitus with hypoglycaemic coma</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaFWI</td>
-<td>Type II diabetes mellitus with hypoglycaemic coma</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>XaFm8</td>
 <td>Type 1 diabetes mellitus with diabetic cataract</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaFmA</td>
-<td>Type II diabetes mellitus with diabetic cataract</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>XaFmK</td>
 <td>Type I diabetes mellitus with peripheral angiopathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>XaFmL</td>
 <td>Type 1 diabetes mellitus with arthropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>XaFmM</td>
 <td>Type 1 diabetes mellitus with neuropathic arthropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaFn7</td>
-<td>Non-insulin-dependent diabetes mellitus with peripheral angiopathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaFn8</td>
-<td>Non-insulin dependent diabetes mellitus with arthropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaFn9</td>
-<td>Non-insulin dependent diabetes mellitus with neuropathic arthropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaIrf</td>
-<td>Hyperosmolar non-ketotic state in type II diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaIyz</td>
-<td>Diabetes mellitus with persistent microalbuminuria</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaIz0</td>
-<td>Diabetes mellitus with persistent proteinuria</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>XaIzM</td>
 <td>Type 1 diabetes mellitus with persistent proteinuria</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>XaIzN</td>
 <td>Type 1 diabetes mellitus with persistent microalbuminuria</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaIzQ</td>
-<td>Type 2 diabetes mellitus with persistent proteinuria</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaIzR</td>
-<td>Type 2 diabetes mellitus with persistent microalbuminuria</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaJQp</td>
-<td>Type II diabetes mellitus with exudative maculopathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>XaJSr</td>
 <td>Type I diabetes mellitus with exudative maculopathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaJUI</td>
-<td>Diabetes mellitus induced by non-steroid drugs</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaJlL</td>
-<td>Secondary pancreatic diabetes mellitus without complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaJlM</td>
-<td>Diabetes mellitus induced by non-steroid drugs without complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaJlQ</td>
-<td>Lipoatrophic diabetes mellitus without complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaJlR</td>
-<td>Secondary diabetes mellitus without complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>ctv3</td>
 <td>XaKyW</td>
 <td>Type I diabetes mellitus with gastroparesis</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaKyX</td>
-<td>Type II diabetes mellitus with gastroparesis</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaMzI</td>
-<td>Cystic fibrosis related diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaOPt</td>
-<td>Maternally inherited diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaOPu</td>
-<td>Latent autoimmune diabetes mellitus in adult</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XacoB</td>
-<td>Maturity onset diabetes of the young type 5</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaIfG</td>
-<td>Type II diabetes on insulin</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>ctv3</td>
-<td>XaIfI</td>
-<td>Type II diabetes on diet only</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>emis</td>
-<td>^ESCTGE801661</td>
-<td>Gestational diabetes, delivered</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>emis</td>
-<td>^ESCTGE801662</td>
-<td>Gestational diabetes mellitus complicating pregnancy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>emis</td>
-<td>^ESCTMA257526</td>
-<td>Maternal diabetes mellitus with hypoglycaemia affecting foetus OR newborn</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>emis</td>
-<td>EMISQNU2</td>
-<td>Number of admissions for ketoacidosis</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>emis</td>
-<td>ESCTDI20</td>
-<td>Diabetic ketoacidosis without coma</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>emis</td>
-<td>ESCTDI22</td>
-<td>Diabetic severe hyperglycaemia</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>emis</td>
-<td>ESCTDI23</td>
-<td>Diabetic hyperosmolar non-ketotic state</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>emis</td>
-<td>ESCTDR3</td>
-<td>Drug-induced diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>emis</td>
-<td>ESCTSE11</td>
-<td>Secondary endocrine diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10..00</td>
-<td>Diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C100.00</td>
-<td>Diabetes mellitus with no mention of complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C100000</td>
 <td>Diabetes mellitus, juvenile type, with no mention of complication</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C100011</td>
 <td>Insulin dependent diabetes mellitus</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C100100</td>
-<td>Diabetes mellitus, adult onset, with no mention of complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C100111</td>
-<td>Maturity onset diabetes</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C100112</td>
-<td>Non-insulin dependent diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C100z00</td>
-<td>Diabetes mellitus NOS with no mention of complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C101.00</td>
-<td>Diabetes mellitus with ketoacidosis</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C101000</td>
 <td>Diabetes mellitus, juvenile type, with ketoacidosis</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C101100</td>
-<td>Diabetes mellitus, adult onset, with ketoacidosis</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C101y00</td>
-<td>Other specified diabetes mellitus with ketoacidosis</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C101z00</td>
-<td>Diabetes mellitus NOS with ketoacidosis</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C102.00</td>
-<td>Diabetes mellitus with hyperosmolar coma</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C102000</td>
 <td>Diabetes mellitus, juvenile type, with hyperosmolar coma</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C102100</td>
-<td>Diabetes mellitus, adult onset, with hyperosmolar coma</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C102z00</td>
-<td>Diabetes mellitus NOS with hyperosmolar coma</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C103.00</td>
-<td>Diabetes mellitus with ketoacidotic coma</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C103000</td>
 <td>Diabetes mellitus, juvenile type, with ketoacidotic coma</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C103100</td>
-<td>Diabetes mellitus, adult onset, with ketoacidotic coma</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C103y00</td>
-<td>Other specified diabetes mellitus with coma</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C103z00</td>
-<td>Diabetes mellitus NOS with ketoacidotic coma</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C104.00</td>
-<td>Diabetes mellitus with renal manifestation</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C104000</td>
 <td>Diabetes mellitus, juvenile type, with renal manifestation</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C104100</td>
-<td>Diabetes mellitus, adult onset, with renal manifestation</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C104y00</td>
-<td>Other specified diabetes mellitus with renal complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C104z00</td>
-<td>Diabetes mellitus with nephropathy NOS</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C105.00</td>
-<td>Diabetes mellitus with ophthalmic manifestation</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C105000</td>
 <td>Diabetes mellitus, juvenile type, with ophthalmic manifestation</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C105100</td>
-<td>Diabetes mellitus, adult onset, with ophthalmic manifestation</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C105y00</td>
-<td>Other specified diabetes mellitus with ophthalmic complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C105z00</td>
-<td>Diabetes mellitus NOS with ophthalmic manifestation</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C106.00</td>
-<td>Diabetes mellitus with neurological manifestation</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C106.12</td>
-<td>Diabetes mellitus with neuropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C106.13</td>
-<td>Diabetes mellitus with polyneuropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C106000</td>
 <td>Diabetes mellitus, juvenile type, with neurological manifestation</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C106100</td>
-<td>Diabetes mellitus, adult onset, with neurological manifestation</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C106y00</td>
-<td>Other specified diabetes mellitus with neurological complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C106z00</td>
-<td>Diabetes mellitus NOS with neurological manifestation</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C107.00</td>
-<td>Diabetes mellitus with peripheral circulatory disorder</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C107.11</td>
-<td>Diabetes mellitus with gangrene</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C107000</td>
 <td>Diabetes mellitus, juvenile type, with peripheral circulatory disorder</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C107100</td>
-<td>Diabetes mellitus, adult onset, with peripheral circulatory disorder</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C107200</td>
-<td>Diabetes mellitus, adult with gangrene</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C107y00</td>
-<td>Other specified diabetes mellitus with peripheral circulatory complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C107z00</td>
-<td>Diabetes mellitus NOS with peripheral circulatory disorder</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108.00</td>
 <td>Insulin dependent diabetes mellitus</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108.11</td>
 <td>IDDM-Insulin dependent diabetes mellitus</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108.12</td>
 <td>Type 1 diabetes mellitus</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108.13</td>
 <td>Type I diabetes mellitus</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108000</td>
 <td>Insulin-dependent diabetes mellitus with renal complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108011</td>
 <td>Type I diabetes mellitus with renal complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108012</td>
 <td>Type 1 diabetes mellitus with renal complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108100</td>
 <td>Insulin-dependent diabetes mellitus with ophthalmic complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108111</td>
 <td>Type I diabetes mellitus with ophthalmic complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108112</td>
 <td>Type 1 diabetes mellitus with ophthalmic complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108200</td>
 <td>Insulin-dependent diabetes mellitus with neurological complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108211</td>
 <td>Type I diabetes mellitus with neurological complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108212</td>
 <td>Type 1 diabetes mellitus with neurological complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108300</td>
 <td>Insulin dependent diabetes mellitus with multiple complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108311</td>
 <td>Type I diabetes mellitus with multiple complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108312</td>
 <td>Type 1 diabetes mellitus with multiple complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108400</td>
 <td>Unstable insulin dependent diabetes mellitus</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108411</td>
 <td>Unstable type I diabetes mellitus</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108412</td>
 <td>Unstable type 1 diabetes mellitus</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108500</td>
 <td>Insulin dependent diabetes mellitus with ulcer</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108511</td>
 <td>Type I diabetes mellitus with ulcer</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108512</td>
 <td>Type 1 diabetes mellitus with ulcer</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108600</td>
 <td>Insulin dependent diabetes mellitus with gangrene</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108611</td>
 <td>Type I diabetes mellitus with gangrene</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108612</td>
 <td>Type 1 diabetes mellitus with gangrene</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108700</td>
 <td>Insulin dependent diabetes mellitus with retinopathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108711</td>
 <td>Type I diabetes mellitus with retinopathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108712</td>
 <td>Type 1 diabetes mellitus with retinopathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108800</td>
 <td>Insulin dependent diabetes mellitus - poor control</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108811</td>
 <td>Type I diabetes mellitus - poor control</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108812</td>
 <td>Type 1 diabetes mellitus - poor control</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108900</td>
 <td>Insulin dependent diabetes maturity onset</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108911</td>
 <td>Type I diabetes mellitus maturity onset</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108912</td>
 <td>Type 1 diabetes mellitus maturity onset</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108A00</td>
 <td>Insulin-dependent diabetes without complication</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108A11</td>
 <td>Type I diabetes mellitus without complication</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108A12</td>
 <td>Type 1 diabetes mellitus without complication</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108B00</td>
 <td>Insulin dependent diabetes mellitus with mononeuropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108B11</td>
 <td>Type I diabetes mellitus with mononeuropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108B12</td>
 <td>Type 1 diabetes mellitus with mononeuropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108C00</td>
 <td>Insulin dependent diabetes mellitus with polyneuropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108C11</td>
 <td>Type I diabetes mellitus with polyneuropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108C12</td>
 <td>Type 1 diabetes mellitus with polyneuropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108D00</td>
 <td>Insulin dependent diabetes mellitus with nephropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108D11</td>
 <td>Type I diabetes mellitus with nephropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108D12</td>
 <td>Type 1 diabetes mellitus with nephropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108E00</td>
 <td>Insulin dependent diabetes mellitus with hypoglycaemic coma</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108E11</td>
 <td>Type I diabetes mellitus with hypoglycaemic coma</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108E12</td>
 <td>Type 1 diabetes mellitus with hypoglycaemic coma</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108F00</td>
 <td>Insulin dependent diabetes mellitus with diabetic cataract</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108F11</td>
 <td>Type I diabetes mellitus with diabetic cataract</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108F12</td>
 <td>Type 1 diabetes mellitus with diabetic cataract</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108G00</td>
 <td>Insulin dependent diabetes mellitus with peripheral angiopathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108G11</td>
 <td>Type I diabetes mellitus with peripheral angiopathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108G12</td>
 <td>Type 1 diabetes mellitus with peripheral angiopathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108H00</td>
 <td>Insulin dependent diabetes mellitus with arthropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108H11</td>
 <td>Type I diabetes mellitus with arthropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108H12</td>
 <td>Type 1 diabetes mellitus with arthropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108J00</td>
 <td>Insulin dependent diabetes mellitus with neuropathic arthropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108J11</td>
 <td>Type I diabetes mellitus with neuropathic arthropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C108J12</td>
 <td>Type 1 diabetes mellitus with neuropathic arthropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C108y00</td>
-<td>Other specified diabetes mellitus with multiple complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C108z00</td>
-<td>Unspecified diabetes mellitus with multiple complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109.00</td>
-<td>Non-insulin dependent diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109.11</td>
-<td>NIDDM - Non-insulin dependent diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109.12</td>
-<td>Type 2 diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109.13</td>
-<td>Type II diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109000</td>
-<td>Non-insulin-dependent diabetes mellitus with renal complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109011</td>
-<td>Type II diabetes mellitus with renal complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109012</td>
-<td>Type 2 diabetes mellitus with renal complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109100</td>
-<td>Non-insulin-dependent diabetes mellitus with ophthalmic complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109111</td>
-<td>Type II diabetes mellitus with ophthalmic complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109112</td>
-<td>Type 2 diabetes mellitus with ophthalmic complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109200</td>
-<td>Non-insulin-dependent diabetes mellitus with neurological complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109211</td>
-<td>Type II diabetes mellitus with neurological complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109212</td>
-<td>Type 2 diabetes mellitus with neurological complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109300</td>
-<td>Non-insulin-dependent diabetes mellitus with multiple complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109311</td>
-<td>Type II diabetes mellitus with multiple complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109312</td>
-<td>Type 2 diabetes mellitus with multiple complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109400</td>
-<td>Non-insulin dependent diabetes mellitus with ulcer</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109411</td>
-<td>Type II diabetes mellitus with ulcer</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109412</td>
-<td>Type 2 diabetes mellitus with ulcer</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109500</td>
-<td>Non-insulin dependent diabetes mellitus with gangrene</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109511</td>
-<td>Type II diabetes mellitus with gangrene</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109512</td>
-<td>Type 2 diabetes mellitus with gangrene</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109600</td>
-<td>Non-insulin-dependent diabetes mellitus with retinopathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109611</td>
-<td>Type II diabetes mellitus with retinopathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109612</td>
-<td>Type 2 diabetes mellitus with retinopathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109700</td>
-<td>Non-insulin dependent diabetes mellitus - poor control</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109711</td>
-<td>Type II diabetes mellitus - poor control</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109712</td>
-<td>Type 2 diabetes mellitus - poor control</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109800</td>
-<td>Reaven's syndrome</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109900</td>
-<td>Non-insulin-dependent diabetes mellitus without complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109911</td>
-<td>Type II diabetes mellitus without complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109912</td>
-<td>Type 2 diabetes mellitus without complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109A00</td>
-<td>Non-insulin dependent diabetes mellitus with mononeuropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109A11</td>
-<td>Type II diabetes mellitus with mononeuropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109A12</td>
-<td>Type 2 diabetes mellitus with mononeuropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109B00</td>
-<td>Non-insulin dependent diabetes mellitus with polyneuropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109B11</td>
-<td>Type II diabetes mellitus with polyneuropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109B12</td>
-<td>Type 2 diabetes mellitus with polyneuropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109C00</td>
-<td>Non-insulin dependent diabetes mellitus with nephropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109C11</td>
-<td>Type II diabetes mellitus with nephropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109C12</td>
-<td>Type 2 diabetes mellitus with nephropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109D00</td>
-<td>Non-insulin dependent diabetes mellitus with hypoglycaemic coma</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109D11</td>
-<td>Type II diabetes mellitus with hypoglycaemic coma</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109D12</td>
-<td>Type 2 diabetes mellitus with hypoglycaemic coma</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109E00</td>
-<td>Non-insulin dependent diabetes mellitus with diabetic cataract</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109E11</td>
-<td>Type II diabetes mellitus with diabetic cataract</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109E12</td>
-<td>Type 2 diabetes mellitus with diabetic cataract</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109F00</td>
-<td>Non-insulin-dependent diabetes mellitus with peripheral angiopathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109F11</td>
-<td>Type II diabetes mellitus with peripheral angiopathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109F12</td>
-<td>Type 2 diabetes mellitus with peripheral angiopathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109G00</td>
-<td>Non-insulin dependent diabetes mellitus with arthropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109G11</td>
-<td>Type II diabetes mellitus with arthropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109G12</td>
-<td>Type 2 diabetes mellitus with arthropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109H00</td>
-<td>Non-insulin dependent diabetes mellitus with neuropathic arthropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109H11</td>
-<td>Type II diabetes mellitus with neuropathic arthropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109H12</td>
-<td>Type 2 diabetes mellitus with neuropathic arthropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109J00</td>
-<td>Insulin treated Type 2 diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109J11</td>
-<td>Insulin treated non-insulin dependent diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109J12</td>
-<td>Insulin treated Type II diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C109K00</td>
-<td>Hyperosmolar non-ketotic state in type 2 diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10A.00</td>
-<td>Malnutrition-related diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10A000</td>
-<td>Malnutrition-related diabetes mellitus with coma</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10A100</td>
-<td>Malnutrition-related diabetes mellitus with ketoacidosis</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10A200</td>
-<td>Malnutrition-related diabetes mellitus with renal complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10A300</td>
-<td>Malnutrition-related diabetes mellitus with ophthalmic complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10A400</td>
-<td>Malnutrition-related diabetes mellitus with neurological complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10A500</td>
-<td>Malnutrition-related diabetes mellitus with peripheral circulatory complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10A600</td>
-<td>Malnutrition-related diabetes mellitus with multiple complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10A700</td>
-<td>Malnutrition-related diabetes mellitus without complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10AW00</td>
-<td>Malnutrition-related diabetes mellitus with unspecified complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10AX00</td>
-<td>Malnutrition-related diabetes mellitus with other specified complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10B.00</td>
-<td>Diabetes mellitus induced by steroids</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10B000</td>
-<td>Steroid induced diabetes mellitus without complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10C.00</td>
-<td>Diabetes mellitus autosomal dominant</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10C.11</td>
-<td>Maturity onset diabetes in youth</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10C.12</td>
-<td>Maturity onset diabetes in youth type 1</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10D.00</td>
-<td>Diabetes mellitus autosomal dominant type 2</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10D.11</td>
-<td>Maturity onset diabetes in youth type 2</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E.00</td>
 <td>Type 1 diabetes mellitus</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E.11</td>
 <td>Type I diabetes mellitus</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E.12</td>
 <td>Insulin dependent diabetes mellitus</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E000</td>
 <td>Type 1 diabetes mellitus with renal complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E011</td>
 <td>Type I diabetes mellitus with renal complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E012</td>
 <td>Insulin-dependent diabetes mellitus with renal complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E100</td>
 <td>Type 1 diabetes mellitus with ophthalmic complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E111</td>
 <td>Type I diabetes mellitus with ophthalmic complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E112</td>
 <td>Insulin-dependent diabetes mellitus with ophthalmic complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E200</td>
 <td>Type 1 diabetes mellitus with neurological complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E211</td>
 <td>Type I diabetes mellitus with neurological complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E212</td>
 <td>Insulin-dependent diabetes mellitus with neurological complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E300</td>
 <td>Type 1 diabetes mellitus with multiple complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E311</td>
 <td>Type I diabetes mellitus with multiple complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E312</td>
 <td>Insulin dependent diabetes mellitus with multiple complications</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E400</td>
 <td>Unstable type 1 diabetes mellitus</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E411</td>
 <td>Unstable type I diabetes mellitus</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E412</td>
 <td>Unstable insulin dependent diabetes mellitus</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E500</td>
 <td>Type 1 diabetes mellitus with ulcer</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E511</td>
 <td>Type I diabetes mellitus with ulcer</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E512</td>
 <td>Insulin dependent diabetes mellitus with ulcer</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E600</td>
 <td>Type 1 diabetes mellitus with gangrene</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E611</td>
 <td>Type I diabetes mellitus with gangrene</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E612</td>
 <td>Insulin dependent diabetes mellitus with gangrene</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E700</td>
 <td>Type 1 diabetes mellitus with retinopathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E711</td>
 <td>Type I diabetes mellitus with retinopathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E712</td>
 <td>Insulin dependent diabetes mellitus with retinopathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E800</td>
 <td>Type 1 diabetes mellitus - poor control</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E811</td>
 <td>Type I diabetes mellitus - poor control</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E812</td>
 <td>Insulin dependent diabetes mellitus - poor control</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E900</td>
 <td>Type 1 diabetes mellitus maturity onset</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E911</td>
 <td>Type I diabetes mellitus maturity onset</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10E912</td>
 <td>Insulin dependent diabetes maturity onset</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EA00</td>
 <td>Type 1 diabetes mellitus without complication</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EA11</td>
 <td>Type I diabetes mellitus without complication</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EA12</td>
 <td>Insulin-dependent diabetes without complication</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EB00</td>
 <td>Type 1 diabetes mellitus with mononeuropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EB11</td>
 <td>Type I diabetes mellitus with mononeuropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EB12</td>
 <td>Insulin dependent diabetes mellitus with mononeuropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EC00</td>
 <td>Type 1 diabetes mellitus with polyneuropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EC11</td>
 <td>Type I diabetes mellitus with polyneuropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EC12</td>
 <td>Insulin dependent diabetes mellitus with polyneuropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10ED00</td>
 <td>Type 1 diabetes mellitus with nephropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10ED11</td>
 <td>Type I diabetes mellitus with nephropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10ED12</td>
 <td>Insulin dependent diabetes mellitus with nephropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EE00</td>
 <td>Type 1 diabetes mellitus with hypoglycaemic coma</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EE11</td>
 <td>Type I diabetes mellitus with hypoglycaemic coma</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EE12</td>
 <td>Insulin dependent diabetes mellitus with hypoglycaemic coma</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EF00</td>
 <td>Type 1 diabetes mellitus with diabetic cataract</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EF11</td>
 <td>Type I diabetes mellitus with diabetic cataract</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EF12</td>
 <td>Insulin dependent diabetes mellitus with diabetic cataract</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EG00</td>
 <td>Type 1 diabetes mellitus with peripheral angiopathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EG11</td>
 <td>Type I diabetes mellitus with peripheral angiopathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EG12</td>
 <td>Insulin dependent diabetes mellitus with peripheral angiopathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EH00</td>
 <td>Type 1 diabetes mellitus with arthropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EH11</td>
 <td>Type I diabetes mellitus with arthropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EH12</td>
 <td>Insulin dependent diabetes mellitus with arthropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EJ00</td>
 <td>Type 1 diabetes mellitus with neuropathic arthropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EJ11</td>
 <td>Type I diabetes mellitus with neuropathic arthropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EJ12</td>
 <td>Insulin dependent diabetes mellitus with neuropathic arthropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EK00</td>
 <td>Type 1 diabetes mellitus with persistent proteinuria</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EK11</td>
 <td>Type I diabetes mellitus with persistent proteinuria</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EL00</td>
 <td>Type 1 diabetes mellitus with persistent microalbuminuria</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EL11</td>
 <td>Type I diabetes mellitus with persistent microalbuminuria</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EM00</td>
 <td>Type 1 diabetes mellitus with ketoacidosis</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EM11</td>
 <td>Type I diabetes mellitus with ketoacidosis</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EN00</td>
 <td>Type 1 diabetes mellitus with ketoacidotic coma</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EN11</td>
 <td>Type I diabetes mellitus with ketoacidotic coma</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EP00</td>
 <td>Type 1 diabetes mellitus with exudative maculopathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EP11</td>
 <td>Type I diabetes mellitus with exudative maculopathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EQ00</td>
 <td>Type 1 diabetes mellitus with gastroparesis</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10EQ11</td>
 <td>Type I diabetes mellitus with gastroparesis</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10ER00</td>
-<td>Latent autoimmune diabetes mellitus in adult</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10F.00</td>
-<td>Type 2 diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10F.11</td>
-<td>Type II diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10F000</td>
-<td>Type 2 diabetes mellitus with renal complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10F011</td>
-<td>Type II diabetes mellitus with renal complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10F100</td>
-<td>Type 2 diabetes mellitus with ophthalmic complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10F111</td>
-<td>Type II diabetes mellitus with ophthalmic complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10F200</td>
-<td>Type 2 diabetes mellitus with neurological complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10F211</td>
-<td>Type II diabetes mellitus with neurological complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10F300</td>
-<td>Type 2 diabetes mellitus with multiple complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10F311</td>
-<td>Type II diabetes mellitus with multiple complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10F400</td>
-<td>Type 2 diabetes mellitus with ulcer</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10F411</td>
-<td>Type II diabetes mellitus with ulcer</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10F500</td>
-<td>Type 2 diabetes mellitus with gangrene</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10F511</td>
-<td>Type II diabetes mellitus with gangrene</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10F600</td>
-<td>Type 2 diabetes mellitus with retinopathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10F611</td>
-<td>Type II diabetes mellitus with retinopathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10F700</td>
-<td>Type 2 diabetes mellitus - poor control</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10F711</td>
-<td>Type II diabetes mellitus - poor control</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10F800</td>
-<td>Reaven's syndrome</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10F811</td>
-<td>Metabolic syndrome X</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10F900</td>
-<td>Type 2 diabetes mellitus without complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10F911</td>
-<td>Type II diabetes mellitus without complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FA00</td>
-<td>Type 2 diabetes mellitus with mononeuropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FA11</td>
-<td>Type II diabetes mellitus with mononeuropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FB00</td>
-<td>Type 2 diabetes mellitus with polyneuropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FB11</td>
-<td>Type II diabetes mellitus with polyneuropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FC00</td>
-<td>Type 2 diabetes mellitus with nephropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FC11</td>
-<td>Type II diabetes mellitus with nephropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FD00</td>
-<td>Type 2 diabetes mellitus with hypoglycaemic coma</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FD11</td>
-<td>Type II diabetes mellitus with hypoglycaemic coma</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FE00</td>
-<td>Type 2 diabetes mellitus with diabetic cataract</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FE11</td>
-<td>Type II diabetes mellitus with diabetic cataract</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FF00</td>
-<td>Type 2 diabetes mellitus with peripheral angiopathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FF11</td>
-<td>Type II diabetes mellitus with peripheral angiopathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FG00</td>
-<td>Type 2 diabetes mellitus with arthropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FG11</td>
-<td>Type II diabetes mellitus with arthropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FH00</td>
-<td>Type 2 diabetes mellitus with neuropathic arthropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FH11</td>
-<td>Type II diabetes mellitus with neuropathic arthropathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FJ00</td>
-<td>Insulin treated Type 2 diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FJ11</td>
-<td>Insulin treated Type II diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FK00</td>
-<td>Hyperosmolar non-ketotic state in type 2 diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FK11</td>
-<td>Hyperosmolar non-ketotic state in type II diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FL00</td>
-<td>Type 2 diabetes mellitus with persistent proteinuria</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FL11</td>
-<td>Type II diabetes mellitus with persistent proteinuria</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FM00</td>
-<td>Type 2 diabetes mellitus with persistent microalbuminuria</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FM11</td>
-<td>Type II diabetes mellitus with persistent microalbuminuria</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FN00</td>
-<td>Type 2 diabetes mellitus with ketoacidosis</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FN11</td>
-<td>Type II diabetes mellitus with ketoacidosis</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FP00</td>
-<td>Type 2 diabetes mellitus with ketoacidotic coma</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FP11</td>
-<td>Type II diabetes mellitus with ketoacidotic coma</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FQ00</td>
-<td>Type 2 diabetes mellitus with exudative maculopathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FQ11</td>
-<td>Type II diabetes mellitus with exudative maculopathy</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FR00</td>
-<td>Type 2 diabetes mellitus with gastroparesis</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FR11</td>
-<td>Type II diabetes mellitus with gastroparesis</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10FS00</td>
-<td>Maternally inherited diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10G.00</td>
-<td>Secondary pancreatic diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10G000</td>
-<td>Secondary pancreatic diabetes mellitus without complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10H.00</td>
-<td>Diabetes mellitus induced by non-steroid drugs</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10H000</td>
-<td>Diabetes mellitus induced by non-steroid drugs without complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10M.00</td>
-<td>Lipoatrophic diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10M000</td>
-<td>Lipoatrophic diabetes mellitus without complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10N.00</td>
-<td>Secondary diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10N000</td>
-<td>Secondary diabetes mellitus without complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10N100</td>
-<td>Cystic fibrosis related diabetes mellitus</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10Q.00</td>
-<td>Maturity onset diabetes of the young type 5</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10y.00</td>
-<td>Diabetes mellitus with other specified manifestation</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10y000</td>
 <td>Diabetes mellitus, juvenile type, with other specified manifestation</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10y100</td>
-<td>Diabetes mellitus, adult onset, with other specified manifestation</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10yy00</td>
-<td>Other specified diabetes mellitus with other specified complications</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10yz00</td>
-<td>Diabetes mellitus NOS with other specified manifestation</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10z.00</td>
-<td>Diabetes mellitus with unspecified complication</td>
-</tr>
-<tr>
-<td>diabetes v1</td>
+<td>diabetes-type-i v1</td>
 <td>readv2</td>
 <td>C10z000</td>
 <td>Diabetes mellitus, juvenile type, with unspecified complication</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10z100</td>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>C1011</td>
+<td>Diabetes mellitus, adult onset, with ketoacidosis</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>C1021</td>
+<td>Diabetes mellitus, adult onset, with hyperosmolar coma</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>C1031</td>
+<td>Diabetes mellitus, adult onset, with ketoacidotic coma</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>C1041</td>
+<td>Diabetes mellitus, adult onset, with renal manifestation</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>C1051</td>
+<td>Diabetes mellitus, adult onset, with ophthalmic manifestation</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>C1061</td>
+<td>Diabetes mellitus, adult onset, with neurological manifestation</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>C1071</td>
+<td>Diabetes mellitus, adult onset, with peripheral circulatory disorder</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>C1090</td>
+<td>Non-insulin-dependent diabetes mellitus with renal complications</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>C1091</td>
+<td>Non-insulin-dependent diabetes mellitus with ophthalmic complications</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>C1092</td>
+<td>Non-insulin-dependent diabetes mellitus with neurological complications</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>C1093</td>
+<td>Non-insulin-dependent diabetes mellitus with multiple complications</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>C1094</td>
+<td>Non-insulin-dependent diabetes mellitus with ulcer</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>C1095</td>
+<td>Non-insulin-dependent diabetes mellitus with gangrene</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>C1096</td>
+<td>NIDDM - Non-insulin-dependent diabetes mellitus with retinopathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>C1097</td>
+<td>Non-insulin-dependent diabetes mellitus - poor control</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>C10y1</td>
+<td>Diabetes mellitus, adult onset, with other specified manifestation</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>C10z1</td>
 <td>Diabetes mellitus, adult onset, with unspecified complication</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10zy00</td>
-<td>Other specified diabetes mellitus with unspecified complications</td>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>X40J5</td>
+<td>Non-insulin-dependent diabetes mellitus</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C10zz00</td>
-<td>Diabetes mellitus NOS with unspecified complication</td>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>X40J6</td>
+<td>Insulin treated Type 2 diabetes mellitus</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>C1A0.00</td>
-<td>Metabolic syndrome</td>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>X40JJ</td>
+<td>Diabetes mellitus autosomal dominant type 2</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>Cyu2.00</td>
-<td>[X]Diabetes mellitus</td>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>XE10F</td>
+<td>Diabetes mellitus, adult onset, with no mention of complication</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>Cyu2000</td>
-<td>[X]Other specified diabetes mellitus</td>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>XM19j</td>
+<td>[EDTA] Diabetes Type II (non-insulin-dependent) associated with renal failure</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>Cyu2100</td>
-<td>[X]Malnutrition-related diabetes mellitus with other specified complications</td>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>XaELQ</td>
+<td>Non-insulin-dependent diabetes mellitus without complication</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>Cyu2200</td>
-<td>[X]Malnutrition-related diabetes mellitus with unspecified complications</td>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>XaEnp</td>
+<td>Type II diabetes mellitus with mononeuropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>Cyu2300</td>
-<td>[X]Unspecified diabetes mellitus with renal complications</td>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>XaEnq</td>
+<td>Type 2 diabetes mellitus with polyneuropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>L180.00</td>
-<td>Diabetes mellitus during pregnancy, childbirth and the puerperium</td>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>XaF05</td>
+<td>Type 2 diabetes mellitus with nephropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>L180000</td>
-<td>Diabetes mellitus - unspecified whether during pregnancy or the puerperium</td>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>XaFWI</td>
+<td>Type II diabetes mellitus with hypoglycaemic coma</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>L180100</td>
-<td>Diabetes mellitus during pregnancy - baby delivered</td>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>XaFmA</td>
+<td>Type II diabetes mellitus with diabetic cataract</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>L180200</td>
-<td>Diabetes mellitus in the puerperium - baby delivered during current episode of care</td>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>XaFn7</td>
+<td>Non-insulin-dependent diabetes mellitus with peripheral angiopathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>L180300</td>
-<td>Diabetes mellitus during pregnancy - baby not yet delivered</td>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>XaFn8</td>
+<td>Non-insulin dependent diabetes mellitus with arthropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>L180400</td>
-<td>Diabetes mellitus in the pueperium - baby delivered during previous episode of care</td>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>XaFn9</td>
+<td>Non-insulin dependent diabetes mellitus with neuropathic arthropathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>L180500</td>
-<td>Pre-existing diabetes mellitus, insulin-dependent</td>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>XaIfG</td>
+<td>Type II diabetes on insulin</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>L180600</td>
-<td>Pre-existing diabetes mellitus, non-insulin-dependent</td>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>XaIfI</td>
+<td>Type II diabetes on diet only</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>L180700</td>
-<td>Pre-existing malnutrition-related diabetes mellitus</td>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>XaIrf</td>
+<td>Hyperosmolar non-ketotic state in type II diabetes mellitus</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>L180800</td>
-<td>Diabetes mellitus arising in pregnancy</td>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>XaIzQ</td>
+<td>Type 2 diabetes mellitus with persistent proteinuria</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>L180811</td>
-<td>Gestational diabetes mellitus</td>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>XaIzR</td>
+<td>Type 2 diabetes mellitus with persistent microalbuminuria</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>L180900</td>
-<td>Gestational diabetes mellitus</td>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>XaJQp</td>
+<td>Type II diabetes mellitus with exudative maculopathy</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
-<td>readv2</td>
-<td>L180A00</td>
-<td>Pre-existing type 1 diabetes mellitus in pregnancy</td>
+<td>diabetes-type-ii v1</td>
+<td>ctv3</td>
+<td>XaKyX</td>
+<td>Type II diabetes mellitus with gastroparesis</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-ii v1</td>
 <td>readv2</td>
-<td>L180B00</td>
-<td>Pre-existing type 2 diabetes mellitus in pregnancy</td>
+<td>C100100</td>
+<td>Diabetes mellitus, adult onset, with no mention of complication</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-ii v1</td>
 <td>readv2</td>
-<td>L180X00</td>
-<td>Pre-existing diabetes mellitus, unspecified</td>
+<td>C100112</td>
+<td>Non-insulin dependent diabetes mellitus</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-ii v1</td>
 <td>readv2</td>
-<td>L180z00</td>
-<td>Diabetes mellitus during pregnancy, childbirth or the puerperium NOS</td>
+<td>C101100</td>
+<td>Diabetes mellitus, adult onset, with ketoacidosis</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-ii v1</td>
 <td>readv2</td>
-<td>Lyu2900</td>
-<td>[X]Pre-existing diabetes mellitus, unspecified</td>
+<td>C102100</td>
+<td>Diabetes mellitus, adult onset, with hyperosmolar coma</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-ii v1</td>
 <td>readv2</td>
-<td>PKyP.00</td>
-<td>Diabetes insipidus, diabetes mellitus, optic atrophy and deafness</td>
+<td>C103100</td>
+<td>Diabetes mellitus, adult onset, with ketoacidotic coma</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-ii v1</td>
 <td>readv2</td>
-<td>Q441.00</td>
-<td>Neonatal diabetes mellitus</td>
+<td>C104100</td>
+<td>Diabetes mellitus, adult onset, with renal manifestation</td>
 </tr>
 <tr>
-<td>diabetes v1</td>
+<td>diabetes-type-ii v1</td>
 <td>readv2</td>
-<td>ZV13F00</td>
-<td>[V]Personal history of gestational diabetes mellitus</td>
+<td>C105100</td>
+<td>Diabetes mellitus, adult onset, with ophthalmic manifestation</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C106100</td>
+<td>Diabetes mellitus, adult onset, with neurological manifestation</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C107100</td>
+<td>Diabetes mellitus, adult onset, with peripheral circulatory disorder</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109.00</td>
+<td>Non-insulin dependent diabetes mellitus</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109.11</td>
+<td>NIDDM - Non-insulin dependent diabetes mellitus</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109.12</td>
+<td>Type 2 diabetes mellitus</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109.13</td>
+<td>Type II diabetes mellitus</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109000</td>
+<td>Non-insulin-dependent diabetes mellitus with renal complications</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109011</td>
+<td>Type II diabetes mellitus with renal complications</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109012</td>
+<td>Type 2 diabetes mellitus with renal complications</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109100</td>
+<td>Non-insulin-dependent diabetes mellitus with ophthalmic complications</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109111</td>
+<td>Type II diabetes mellitus with ophthalmic complications</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109112</td>
+<td>Type 2 diabetes mellitus with ophthalmic complications</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109200</td>
+<td>Non-insulin-dependent diabetes mellitus with neurological complications</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109211</td>
+<td>Type II diabetes mellitus with neurological complications</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109212</td>
+<td>Type 2 diabetes mellitus with neurological complications</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109300</td>
+<td>Non-insulin-dependent diabetes mellitus with multiple complications</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109311</td>
+<td>Type II diabetes mellitus with multiple complications</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109312</td>
+<td>Type 2 diabetes mellitus with multiple complications</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109400</td>
+<td>Non-insulin dependent diabetes mellitus with ulcer</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109411</td>
+<td>Type II diabetes mellitus with ulcer</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109412</td>
+<td>Type 2 diabetes mellitus with ulcer</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109500</td>
+<td>Non-insulin dependent diabetes mellitus with gangrene</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109511</td>
+<td>Type II diabetes mellitus with gangrene</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109512</td>
+<td>Type 2 diabetes mellitus with gangrene</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109600</td>
+<td>Non-insulin-dependent diabetes mellitus with retinopathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109611</td>
+<td>Type II diabetes mellitus with retinopathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109612</td>
+<td>Type 2 diabetes mellitus with retinopathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109700</td>
+<td>Non-insulin dependent diabetes mellitus - poor control</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109711</td>
+<td>Type II diabetes mellitus - poor control</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109712</td>
+<td>Type 2 diabetes mellitus - poor control</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109900</td>
+<td>Non-insulin-dependent diabetes mellitus without complication</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109911</td>
+<td>Type II diabetes mellitus without complication</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109912</td>
+<td>Type 2 diabetes mellitus without complication</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109A00</td>
+<td>Non-insulin dependent diabetes mellitus with mononeuropathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109A11</td>
+<td>Type II diabetes mellitus with mononeuropathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109A12</td>
+<td>Type 2 diabetes mellitus with mononeuropathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109B00</td>
+<td>Non-insulin dependent diabetes mellitus with polyneuropathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109B11</td>
+<td>Type II diabetes mellitus with polyneuropathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109B12</td>
+<td>Type 2 diabetes mellitus with polyneuropathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109C00</td>
+<td>Non-insulin dependent diabetes mellitus with nephropathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109C11</td>
+<td>Type II diabetes mellitus with nephropathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109C12</td>
+<td>Type 2 diabetes mellitus with nephropathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109D00</td>
+<td>Non-insulin dependent diabetes mellitus with hypoglycaemic coma</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109D11</td>
+<td>Type II diabetes mellitus with hypoglycaemic coma</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109D12</td>
+<td>Type 2 diabetes mellitus with hypoglycaemic coma</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109E00</td>
+<td>Non-insulin dependent diabetes mellitus with diabetic cataract</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109E11</td>
+<td>Type II diabetes mellitus with diabetic cataract</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109E12</td>
+<td>Type 2 diabetes mellitus with diabetic cataract</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109F00</td>
+<td>Non-insulin-dependent diabetes mellitus with peripheral angiopathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109F11</td>
+<td>Type II diabetes mellitus with peripheral angiopathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109F12</td>
+<td>Type 2 diabetes mellitus with peripheral angiopathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109G00</td>
+<td>Non-insulin dependent diabetes mellitus with arthropathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109G11</td>
+<td>Type II diabetes mellitus with arthropathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109G12</td>
+<td>Type 2 diabetes mellitus with arthropathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109H00</td>
+<td>Non-insulin dependent diabetes mellitus with neuropathic arthropathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109H11</td>
+<td>Type II diabetes mellitus with neuropathic arthropathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109H12</td>
+<td>Type 2 diabetes mellitus with neuropathic arthropathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109J00</td>
+<td>Insulin treated Type 2 diabetes mellitus</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109J11</td>
+<td>Insulin treated non-insulin dependent diabetes mellitus</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109J12</td>
+<td>Insulin treated Type II diabetes mellitus</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C109K00</td>
+<td>Hyperosmolar non-ketotic state in type 2 diabetes mellitus</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10D.00</td>
+<td>Diabetes mellitus autosomal dominant type 2</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10F.00</td>
+<td>Type 2 diabetes mellitus</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10F.11</td>
+<td>Type II diabetes mellitus</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10F000</td>
+<td>Type 2 diabetes mellitus with renal complications</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10F011</td>
+<td>Type II diabetes mellitus with renal complications</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10F100</td>
+<td>Type 2 diabetes mellitus with ophthalmic complications</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10F111</td>
+<td>Type II diabetes mellitus with ophthalmic complications</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10F200</td>
+<td>Type 2 diabetes mellitus with neurological complications</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10F211</td>
+<td>Type II diabetes mellitus with neurological complications</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10F300</td>
+<td>Type 2 diabetes mellitus with multiple complications</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10F311</td>
+<td>Type II diabetes mellitus with multiple complications</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10F400</td>
+<td>Type 2 diabetes mellitus with ulcer</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10F411</td>
+<td>Type II diabetes mellitus with ulcer</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10F500</td>
+<td>Type 2 diabetes mellitus with gangrene</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10F511</td>
+<td>Type II diabetes mellitus with gangrene</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10F600</td>
+<td>Type 2 diabetes mellitus with retinopathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10F611</td>
+<td>Type II diabetes mellitus with retinopathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10F700</td>
+<td>Type 2 diabetes mellitus - poor control</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10F711</td>
+<td>Type II diabetes mellitus - poor control</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10F900</td>
+<td>Type 2 diabetes mellitus without complication</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10F911</td>
+<td>Type II diabetes mellitus without complication</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FA00</td>
+<td>Type 2 diabetes mellitus with mononeuropathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FA11</td>
+<td>Type II diabetes mellitus with mononeuropathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FB00</td>
+<td>Type 2 diabetes mellitus with polyneuropathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FB11</td>
+<td>Type II diabetes mellitus with polyneuropathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FC00</td>
+<td>Type 2 diabetes mellitus with nephropathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FC11</td>
+<td>Type II diabetes mellitus with nephropathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FD00</td>
+<td>Type 2 diabetes mellitus with hypoglycaemic coma</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FD11</td>
+<td>Type II diabetes mellitus with hypoglycaemic coma</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FE00</td>
+<td>Type 2 diabetes mellitus with diabetic cataract</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FE11</td>
+<td>Type II diabetes mellitus with diabetic cataract</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FF00</td>
+<td>Type 2 diabetes mellitus with peripheral angiopathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FF11</td>
+<td>Type II diabetes mellitus with peripheral angiopathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FG00</td>
+<td>Type 2 diabetes mellitus with arthropathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FG11</td>
+<td>Type II diabetes mellitus with arthropathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FH00</td>
+<td>Type 2 diabetes mellitus with neuropathic arthropathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FH11</td>
+<td>Type II diabetes mellitus with neuropathic arthropathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FJ00</td>
+<td>Insulin treated Type 2 diabetes mellitus</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FJ11</td>
+<td>Insulin treated Type II diabetes mellitus</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FK00</td>
+<td>Hyperosmolar non-ketotic state in type 2 diabetes mellitus</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FK11</td>
+<td>Hyperosmolar non-ketotic state in type II diabetes mellitus</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FL00</td>
+<td>Type 2 diabetes mellitus with persistent proteinuria</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FL11</td>
+<td>Type II diabetes mellitus with persistent proteinuria</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FM00</td>
+<td>Type 2 diabetes mellitus with persistent microalbuminuria</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FM11</td>
+<td>Type II diabetes mellitus with persistent microalbuminuria</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FN00</td>
+<td>Type 2 diabetes mellitus with ketoacidosis</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FN11</td>
+<td>Type II diabetes mellitus with ketoacidosis</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FP00</td>
+<td>Type 2 diabetes mellitus with ketoacidotic coma</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FP11</td>
+<td>Type II diabetes mellitus with ketoacidotic coma</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FQ00</td>
+<td>Type 2 diabetes mellitus with exudative maculopathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FQ11</td>
+<td>Type II diabetes mellitus with exudative maculopathy</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FR00</td>
+<td>Type 2 diabetes mellitus with gastroparesis</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10FR11</td>
+<td>Type II diabetes mellitus with gastroparesis</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10y100</td>
+<td>Diabetes mellitus, adult onset, with other specified manifestation</td>
+</tr>
+<tr>
+<td>diabetes-type-ii v1</td>
+<td>readv2</td>
+<td>C10z100</td>
+<td>Diabetes mellitus, adult onset, with unspecified complication</td>
 </tr>
 <tr>
 <td>copd v1</td>
