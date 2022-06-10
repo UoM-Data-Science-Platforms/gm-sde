@@ -2,6 +2,10 @@
 --│ Main cohort file │
 --└──────────────────┘
 
+---------------------- RDE CHECK ---------------------
+-- Le Mai Parkes  - 10 June 2022 - via pull request --
+------------------------------------------------------
+
 -- Cohort is everyone who tested positive with COVID-19 infection. 
 
 -- PI also wanted Occupation, but there is a higher risk of re-identification if we supply it raw
