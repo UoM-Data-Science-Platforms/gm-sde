@@ -33,35 +33,6 @@ SELECT
 	FK_Reference_SnomedCT_ID,
 	[Value]
 INTO #AllPatientBMI
-FROM {param:gp-events-table}
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-	AND FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'bmi'AND [Version]=1) 
-	AND EventDate <= @IndexDate
-UNION
-SELECT 
-	FK_Patient_Link_ID,
-	CAST(EventDate AS DATE) AS EventDate,
-	FK_Reference_Coding_ID,
-	FK_Reference_SnomedCT_ID,
-	[Value]
-FROM {param:gp-events-table}
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-	AND FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'bmi' AND [Version]=1)
-	AND EventDate <= @IndexDate
-
-
-DECLARE @IndexDate datetime;
-SET @IndexDate = '2020-03-01';
--- Get all BMI measurements 
-
-IF OBJECT_ID('tempdb..#AllPatientBMI') IS NOT NULL DROP TABLE #AllPatientBMI;
-SELECT 
-	FK_Patient_Link_ID,
-	CAST(EventDate AS DATE) AS EventDate,
-	FK_Reference_Coding_ID,
-	FK_Reference_SnomedCT_ID,
-	[Value]
-INTO #AllPatientBMI
 FROM RLS.vw_GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'bmi'AND [Version]=1) 
@@ -80,12 +51,12 @@ WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 
 
 -- For closest BMI prior to index date
-IF OBJECT_ID('tempdb..#TempCurrent') IS NOT NULL DROP TABLE #TempCurrent;
+IF OBJECT_ID('tempdb..#TempCurrentBMI') IS NOT NULL DROP TABLE #TempCurrentBMI;
 SELECT 
 	a.FK_Patient_Link_ID, 
 	Max([Value]) as [Value],
 	Max(EventDate) as EventDate
-INTO #TempCurrent
+INTO #TempCurrentBMI
 FROM #AllPatientBMI a
 INNER JOIN (
 	SELECT FK_Patient_Link_ID, MAX(EventDate) AS MostRecentDate 
@@ -102,4 +73,4 @@ SELECT
 	EventDate
 INTO #PatientBMI 
 FROM #Patients p
-LEFT OUTER JOIN #TempCurrent c on c.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #TempCurrentBMI c on c.FK_Patient_Link_ID = p.FK_Patient_Link_ID

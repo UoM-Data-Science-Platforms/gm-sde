@@ -1,10 +1,10 @@
 ﻿--+---------------------------------------------------------------------------+
---¦ Haemoglobin <100g/L                                                       ¦
+--¦ Patients with a recorded haemoglobin                                      ¦
 --+---------------------------------------------------------------------------+
 
 -------- RESEARCH DATA ENGINEER CHECK ---------
 
--- OUTPUT: Data with one row for each time a patient has a haemoglobin value <100
+-- OUTPUT: Data of patients with a recorded haemoglobin
 -- Year (YYYY)
 -- Month (1-12)
 -- CCG (can be an anonymised id for each CCG)
@@ -130,10 +130,8 @@ LEFT OUTER JOIN #PatientPracticeAndCCG gp ON p.FK_Patient_Link_ID = GP.FK_Patien
 LEFT OUTER JOIN #HaemoglobinFinal h ON p.FK_Patient_Link_ID = h.FK_Patient_Link_ID AND p.[Year] = h.[Year] AND p.[Month] = h.[Month];
 
 -- Count for the final table
-IF OBJECT_ID('tempdb..#Haem') IS NOT NULL DROP TABLE #Haem;
 SELECT Year, Month, CCG, GPPracticeCode AS GPPracticeId, 
 	   SUM(CASE WHEN Haemoglobin_values IS NOT NULL THEN 1 ELSE 0 END) AS NumberOfHaem
-INTO #Haem
 FROM #Table
 WHERE Year IS NOT NULL AND Month IS NOT NULL AND (CCG IS NOT NULL OR GPPracticeCode IS NOT NULL)
 GROUP BY [Year], [Month], CCG, GPPracticeCode;

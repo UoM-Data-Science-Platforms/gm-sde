@@ -1,0 +1,42 @@
+he57.	ZOLADEX LA 10.8mg SafeSystem implant
+h8A1.	TYSABRI 300mg/15mL solution for injection
+dA53.	TECFIDERA 240mg gastro-resistant capsules
+heF8.	SOMATULINE AUTOGEL 120mg/0.5mL prefilled syringe
+he6D.	SANDOSTATIN LAR 20mg depot injection+solvent
+he6C.	SANDOSTATIN LAR 10mg depot injection+solvent
+hh12.	RITUXIMAB 500mg/50mL infusion concentrate
+hh11.	RITUXIMAB 100mg/10mL infusion concentrate
+he85.	PROSTAP SR DCS 3.75mg powder+solvent for susp injection pfs
+he84.	PROSTAP 3 injection (pdr for recon)+diluent
+he87.	PROSTAP 3 DCS 11.25mg powder+solvent for susp injection pfs
+he62.	OCTREOTIDE 100microgram/1mL solution for injection
+h82D.	NEORAL 100mg/mL sugar free oral solution
+h843.	MYCOPHENOLATE MOFETIL 500mg tablets
+h841.	MYCOPHENOLATE MOFETIL 250mg capsules
+h344.	METHOTREXATE 5mg/2mL solution for injection
+he88.	LEUPRORELIN ACETATE 11.25mg pdr+solv for susp injection pfs
+he83.	LEUPRORELIN ACETATE 11.25mg injection (pdr for recon)+diluent
+heE1.	LETROZOLE 2.5mg tablets
+hh33.	LEMTRADA 12mg concentrate for solution for infusion
+heF4.	LANREOTIDE 90mg/0.3mL prefilled syringe
+heF5.	LANREOTIDE 120mg/0.5mL prefilled syringe
+he52.	GOSERELIN 3.6mg implant
+he53.	GOSERELIN 10.8mg implant
+heB4.	GONAPEPTYL DEPOT 3.75mg injection (pdr for recon)+solvent prefilled syringe
+h8J1.	GILENYA 500micrograms capsules
+heI1.	FIRMAGON 80mg powder and solvent for solution for injection
+heH1.	FASLODEX 50mg/mL solution for injection 5mL prefilled syringe
+heI2.	DEGARELIX 80mg powder and solvent for solution for injection
+heB2.	DECAPEPTYL SR 3mg injection (pdr for recon)+diluent
+heB9.	DECAPEPTYL SR 22.5mg injection (pdr for recon)+diluent
+heB6.	DECAPEPTYL SR 11.25mg injection (pdr for recon)+diluent
+h826.	CICLOSPORIN 25mg capsules
+h82x.	CICLOSPORIN 100mg/mL sugar free oral solution
+h827.	CICLOSPORIN 100mg capsules
+heA2.	CASODEX 50mg tablets
+h71x.	AZATHIOPRINE 50mg tablets
+h71y.	AZATHIOPRINE 25mg tablets
+h83F.	ADOPORT 1mg capsules
+he51.	*ZOLADEX 3.6mg implant
+he82.	*PROSTAP SR 3.75mg injection
+he81.	*LEUPRORELIN 3.75mg injection

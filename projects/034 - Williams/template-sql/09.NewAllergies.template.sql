@@ -32,8 +32,6 @@ WHERE (
 );
 
 -- Create the table of new allergy code=============================================================================================================
-IF OBJECT_ID('tempdb..#NewAllergies') IS NOT NULL DROP TABLE #NewAllergies;
 SELECT FK_Patient_Link_ID AS PatientId, MIN(EventDate) AS Date
-INTO #NewAllergies
 FROM #AllergyAll
 GROUP BY FK_Patient_Link_ID, FK_Reference_Coding_ID;

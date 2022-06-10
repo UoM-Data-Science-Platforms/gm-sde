@@ -125,13 +125,12 @@ FROM #TableCount
 GROUP BY FK_Patient_Link_ID, [Year], [Month], CCG, GPPracticeCode;
 
 -- Count
-IF OBJECT_ID('tempdb..#eGFRNotFirstPerMonth') IS NOT NULL DROP TABLE #eGFRNotFirstPerMonth;
 SELECT [Year], [Month], CCG, GPPracticeCode AS GPPracticeId, 
 	   SUM(CASE WHEN Difference_eGFR_min <= -10 THEN 1 ELSE 0 END) AS NumberOfDroppedEGFRs,
 	   SUM(CASE WHEN First_reading_max = 'N' THEN 1 ELSE 0 END) AS NumberOfSubsequentEGFRs
-INTO #eGFRNotFirstPerMonth
 FROM #TableFinal
-WHERE [Year] IS NOT NULL AND [Month] IS NOT NULL AND (CCG IS NOT NULL OR GPPracticeCode IS NOT NULL)
+WHERE [Year] IS NOT NULL AND [Month] IS NOT NULL AND (CCG IS NOT NULL OR GPPracticeCode IS NOT NULL) 
+      AND GPPracticeCode NOT LIKE '%DO NOT USE%' AND GPPracticeCode NOT LIKE '%TEST%'
 GROUP BY [Year], [Month], CCG, GPPracticeCode;
 
 

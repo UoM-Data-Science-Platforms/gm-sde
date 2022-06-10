@@ -1,0 +1,108 @@
+e112.	*CRYSTAPEN 600mg injection
+e11w.	BENZYLPENICILLIN 600mg injection
+e153.	PHENOXYMETHYLPENICILLIN 250mg tablets
+e155.	PHENOXYMETHYLPENICILLIN 125mg/5mL syrup
+e157.	PHENOXYMETHYLPENICILLIN 250mg/5mL syrup
+e22j.	FLUCLOXACILLIN 125mg/5mL syrup
+e22k.	FLUCLOXACILLIN 250mg/5mL syrup
+e22m.	FLUCLOMIX 500mg capsules
+e315.	AMOXIL 250mg capsules
+e316.	AMOXIL 500mg capsules
+e31a.	*AMOXIL SF 250mg/5mL syrup
+e31b.	AMOXIL 125mg/1.25mL paediatric suspension
+e31h.	AUGMENTIN 375mg tablets
+e31i.	AUGMENTIN 375mg dispersible tablets
+e31k.	AUGMENTIN 125/31 in 5mL paediatric suspension
+e31Q.	CO-AMOXICLAV 125/31mg in 5mL suspension
+e31T.	AUGMENTIN 625mg tablets
+e31u.	CO-AMOXICLAV 375mg dispersible tablets
+e31X.	CO-AMOXICLAV 400/57mg in 5mL sugar free suspension
+e31z.	CO-AMOXICLAV 250/62 in 5mL suspension
+e335.	MAGNAPEN 500mg capsules
+e33a.	CO-FLUAMPICIL 125/125mg syrup
+e3zk.	AMOXICILLIN 125mg/5mL sugar free suspension
+e3zm.	AMOXICILLIN 125mg/5mL syrup
+e3zn.	AMOXICILLIN 250mg/5mL syrup
+e3zo.	AMOXICILLIN 125mg/1.25mL paediatric suspension
+e3zu.	AMOXICILLIN 250mg/5mL sugar free suspension
+e613.	DISTACLOR 250mg/5mL suspension
+e615.	CEFACLOR 125mg/5mL suspension
+e61a.	CEFACLOR 375mg m/r tablets
+e61C.	CEFACLOR 125mg/5mL sugar free suspension
+e625.	CEFADROXIL 125mg/5mL suspension
+e695.	CEFALEXIN 125mg/5mL mixture
+e696.	CEFALEXIN 250mg/5mL mixture
+e699.	CEPOREX 500mg capsules
+e69g.	CEPOREX 250mg/5mL syrup
+e758.	DOXYCYCLINE 100mg capsules
+e76z.	LYMECYCLINE 408mg capsules
+e773.	MINOCYCLINE 100mg m/r capsules
+e782.	OXYTETRACYCLINE 250mg tablets
+e911.	ERYTHROMYCIN 250mg e/c tablets
+e912.	ERYTHROMYCIN 500mg tablets
+e91a.	ERYMAX 250mg e/c granules in capsules
+e91C.	ERYTHROPED P.I. 125mg/5mL sugar free suspension 140mL
+e91E.	ERYTHROMYCIN 125mg/5mL sugar free suspension
+e91F.	ERYTHROMYCIN 250mg/5mL sugar free suspension
+e91L.	*ERYTHROMYCIN 250mg capsules
+e91m.	ERYTHROPED FORTE 500mg/5mL suspension
+e91R.	ERYTHROMYCIN 500mg/5mL sugar free suspension
+e91u.	ERYTHROMYCIN 125mg/5mL suspension
+e91v.	ERYTHROMYCIN 250mg/5mL suspension
+e91w.	ERYTHROMYCIN 500mg/5mL suspension
+e921.	CLARITHROMYCIN 250mg tablets
+e923.	CLARITHROMYCIN 125mg/5mL paediatric suspension
+e927.	CLARITHROMYCIN 500mg tablets
+e929.	CLARITHROMYCIN 500mg m/r tablets
+e92A.	KLARICID XL 500mg m/r tablets
+e92D.	CLARITHROMYCIN 250mg/5mL paediatric suspension
+e931.	AZITHROMYCIN 250mg capsules
+eb37.	COLOMYCIN 2million units injection (pdr for recon)
+ebG4.	RIFAXIMIN 550mg tablets
+ec11.	CO-TRIMOXAZOLE 480mg tablets
+ec2l.	SEPTRIN 480mg tablets
+ecc1.	TRIMETHOPRIM 100mg tablets
+ecc2.	TRIMETHOPRIM 200mg tablets
+ecc4.	TRIMETHOPRIM 50mg/5mL sugar free suspension
+ed6e.	RIFINAH 150mg/100mg tablets
+ed6p.	RIFAMPICIN+ISONIAZID 300mg/150mg tablets
+ef12.	METRONIDAZOLE 400mg tablets
+eg11.	NITROFURANTOIN 50mg tablets
+eg12.	NITROFURANTOIN 100mg tablets
+eg1w.	NITROFURANTOIN 100mg m/r capsules
+eg1y.	NITROFURANTOIN 50mg capsules
+eg1z.	NITROFURANTOIN 100mg capsules
+eg64.	CIPROXIN 500mg tablets
+eg69.	CIPROFLOXACIN 5g/100mL oral suspension
+eg91.	NORFLOXACIN 400mg tablets
+eg92.	*UTINOR 400mg tablets x6
+eh71.	NYSTATIN 100,000units/mL suspension
+eh73.	NYSTAN 100,000units/mL suspension
+eh81.	FLUCONAZOLE 50mg capsules
+eh82.	FLUCONAZOLE 150mg capsules
+eh84.	DIFLUCAN 150mg capsules
+eh91.	ITRACONAZOLE 100mg capsules
+eha1.	TERBINAFINE 250mg tablets
+ei15.	ACICLOVIR 200mg tablets
+ei16.	ACICLOVIR 200mg/5mL sugar free suspension
+ei18.	ACICLOVIR 400mg tablets
+ei1g.	ACICLOVIR 400mg/5mL suspension
+ei1o.	ACICLOVIR 800mg tablets
+ei58.	ZIDOVUDINE 50mg/5mL sugar free oral solution
+ei94.	FAMVIR 125mg tablets
+ei95.	FAMCICLOVIR 750mg tablets
+eik1.	ATRIPLA 600mg/200mg/245mg tablets
+eiK9.	NEVIRAPINE 400mg m/r tablets
+eiQ1.	ZANAMIVIR 5mg/blister disks+disk inhaler
+eiQ2.	RELENZA 5mg/blister disks+diskhaler
+eiRy.	PALIVIZUMAB 50mg injection (pdr for recon)+solvent
+eiX1.	OSELTAMIVIR 75mg capsules
+eiX3.	TAMIFLU 75mg capsules
+eiX7.	TAMIFLU 45mg capsules
+eiX8.	OSELTAMIVIR 45mg capsules
+ej71.	QUININE BISULFATE 300mg tablets
+ej75.	QUININE SULPHATE 200mg tablets
+ej76.	QUININE SULPHATE 300mg tablets
+ejB2.	MALARONE tablets
+eq1y.	MEBENDAZOLE 100mg tablets
+eq1z.	MEBENDAZOLE 100mg/5mL suspension
