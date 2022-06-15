@@ -13,19 +13,16 @@
 -- For each patient, this produces longitudinal readings for
 -- BMI, HbA1c, Cholesterol, LDL-cholesterol, HDL-cholesterol, Vitamin D, Testosterone, SHBG, eGFR,
 
--- All blood glucose, , Bone profile,
---  LH, FSH, T4, TSH, Prolactin, Creatinine, weight, 
--- systolic blood pressure, diastolic blood pressure
+-- All blood glucose, Bone profile, LH, FSH, T4, TSH, Prolactin, Creatinine, weight, 
+-- systolic blood pressure, diastolic blood pressure,
+-- height, triglycerides, alkaline phosphatase (ALP),
+glucose, c-reactive protein, , lymphocyte cell count, neutrophil cell count
 
 -- since 2018-01-01.
+-- UPDATE 15 June 2022 - PI has requested to go back as far as possible
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
-
--- Set the start date
-DECLARE @StartDate datetime;
-SET @StartDate = '2018-01-01';
-
 
 -- First get all the SMI patients and the date of first diagnosis
 --> CODESET severe-mental-illness:1 antipsychotics:1
@@ -58,7 +55,7 @@ UNION
 SELECT FK_Patient_Link_ID FROM #AntipsycoticPatients;
 
 --> CODESET bmi:2 hba1c:2 cholesterol:2 ldl-cholesterol:1 hdl-cholesterol:1 vitamin-d:1 testosterone:1 sex-hormone-binding-globulin:1 egfr:1
---> CODESET weight:1 systolic-blood-pressure:1 diastolic-blood-pressure:1
+--> CODESET weight:1 systolic-blood-pressure:1 diastolic-blood-pressure:1 height:1 triglycerides:1 alkaline-phosphatase:1
 
 -- First lets get all the measurements in one place to improve query speed later on
 IF OBJECT_ID('tempdb..#biomarkerValues') IS NOT NULL DROP TABLE #biomarkerValues;
@@ -75,7 +72,6 @@ WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets)
 )
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND EventDate >= @StartDate
 AND UPPER([Value]) NOT LIKE '%[A-Z]%' -- Remove any value that contains text. The only valid character is "e" in scientific notation e.g. 2e17 - but none of these values will be in that range
 AND [Value] IS NOT NULL
 AND [Value] != '0'; -- In theory none of these markers should have a 0 value so this is a sensible default to exclude
@@ -184,6 +180,31 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'diastolic-blood-pressure' AND [Version] = 1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'diastolic-blood-pressure' AND [Version] = 1))
 );
+
+INSERT INTO #biomarkers
+SELECT FK_Patient_Link_ID, 'height' AS Label, EventDate, [Value]
+FROM #biomarkerValues
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'height' AND [Version] = 1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'height' AND [Version] = 1))
+);
+
+INSERT INTO #biomarkers
+SELECT FK_Patient_Link_ID, 'triglycerides' AS Label, EventDate, [Value]
+FROM #biomarkerValues
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'triglycerides' AND [Version] = 1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'triglycerides' AND [Version] = 1))
+);
+
+INSERT INTO #biomarkers
+SELECT FK_Patient_Link_ID, 'alkaline-phosphatase' AS Label, EventDate, [Value]
+FROM #biomarkerValues
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'alkaline-phosphatase' AND [Version] = 1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'alkaline-phosphatase' AND [Version] = 1))
+);
+
 
 -- Final output
 SELECT FK_Patient_Link_ID AS PatientId, Label, EventDate, [Value]

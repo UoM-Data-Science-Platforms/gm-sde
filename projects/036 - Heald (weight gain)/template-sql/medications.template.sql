@@ -13,14 +13,10 @@
 -- For each patient, this produces longitudinal readings for antipsycotic medications
 
 -- since 2018-01-01.
+-- UPDATE 15 June 2022 - PI has requested to go back as far as possible
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
-
--- Set the start date
-DECLARE @StartDate datetime;
-SET @StartDate = '2018-01-01';
-
 
 -- First get all the SMI patients and the date of first diagnosis
 --> CODESET severe-mental-illness:1 antipsychotics:1
@@ -85,8 +81,7 @@ INTO #allMedications
 FROM RLS.vw_GP_Medications m
 LEFT OUTER JOIN #CodeDescriptions d on d.PK_Reference_Coding_ID = FK_Reference_Coding_ID
 WHERE FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets)
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND MedicationDate >= @StartDate;
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 
 -- Get all medications for the cohort
 IF OBJECT_ID('tempdb..#medications') IS NOT NULL DROP TABLE #medications;
