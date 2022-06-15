@@ -1,0 +1,16 @@
+{
+  "includeTerms": ["neutrophil count"],
+  "excludeTerms": [
+    "normal",
+    "band neutrophil count",
+    "neutrophilia",
+    "neutropenia",
+    "granulocyte count",
+    "percentage",
+    "band cell count"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdOn": "2022-06-15T09:33:16.126Z",
+  "lastUpdated": "2022-06-15T09:33:16.126Z"
+}

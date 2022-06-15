@@ -1,0 +1,2 @@
+42M..00	Lymphocyte count
+42MZ.00	Lymphocyte count NOS

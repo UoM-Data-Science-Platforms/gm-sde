@@ -1,0 +1,44 @@
+44T1.	Random blood glucose (& level)
+44T3.	2 hours post food blood sugar
+44T4.	Dip-stick blood sugar (& level)
+44T5.	Laboratory blood sugar
+44T6.	Lunch time blood sugar (& level)
+44T7.	Supper time blood sugar (& level)
+44T8.	Bedtime blood sugar (& level)
+44U7.	2 hour post-prandial blood glucose level
+X772z	Blood glucose level
+XE25X	2 hours post-food blood sugar
+XE25Y	Blood glucose result
+XE28q	Sugar method - blood
+XE28s	Glucose result - blood
+XE2mp	Random blood glucose level
+XE2mr	Lunchtime blood ([?sugar/glucose] and [pre/post] and [?procedure/observable])
+XE2ms	Supper time blood sugar level
+XE2mt	Blood glucose level at bedtime
+XE2qA	Dipstick blood sugar
+XM1Vx	BM stix glucose level
+Xa973	Post-prandial blood sugar
+Xa974	Capillary blood glucose level
+XaEM2	60 minute blood glucose level
+XaENB	120 minute blood glucose level
+XaENC	90 minute blood glucose level
+XaEOS	150 minute blood glucose level
+XaEOf	30 minute blood glucose level
+XaJmX	Blood glucose series
+XaXcf	Overnight blood glucose range
+XaXcx	Bedtime blood glucose range
+XaXdW	Blood glucose range before breakfast
+XaXdX	Blood glucose range after lunch
+XaXdY	Blood glucose range before evening meal
+XaXdZ	Blood glucose range after breakfast
+XaXda	Blood glucose range after evening meal
+XaXee	Blood glucose range before lunch
+XaaFn	Blood glucose level before breakfast
+XaaFo	Blood glucose level after breakfast
+XaaFp	Blood glucose level before lunch
+XaaFq	Blood glucose level after lunch
+XaaFs	Blood glucose level before evening meal
+XaaFu	Blood glucose level at bedtime
+Xabhy	Baseline blood glucose level
+Xabmv	Blood glucose level after evening meal
+Xabmw	Blood glucose level during night

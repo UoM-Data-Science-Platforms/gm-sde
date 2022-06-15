@@ -1,0 +1,29 @@
+44T1.00	Random blood sugar
+44T3.00	2 hours post food blood sugar
+44T3.11	Post prandial blood sugar
+44T4.00	Dip-stick blood sugar
+44T5.00	Laboratory blood sugar
+44T6.00	Lunch time blood sugar
+44T7.00	Supper time blood sugar
+44T8.00	Bedtime blood sugar
+44TE.00	30 minute blood glucose level
+44TF.00	60 minute blood glucose level
+44TG.00	90 minute blood glucose level
+44TH.00	120 minute blood glucose level
+44TI.00	150 minute blood glucose level
+44TJ.00	Blood glucose level
+44TJ000	Blood glucose range before breakfast
+44TJ100	Blood glucose range after breakfast
+44TJ200	Bedtime blood glucose range
+44TJ300	Blood glucose range before lunch
+44TJ400	Blood glucose range after lunch
+44TJ500	Blood glucose range before evening meal
+44TJ600	Blood glucose range after evening meal
+44TJ700	Overnight blood glucose range
+44TJ800	Baseline blood glucose level
+44TJ900	Blood glucose level after evening meal
+44TJA00	Blood glucose level during night
+44TM.00	Blood glucose series
+44U..00	Blood glucose result
+44U..11	Blood sugar result
+44U7.00	2 hour post-prandial blood glucose level
