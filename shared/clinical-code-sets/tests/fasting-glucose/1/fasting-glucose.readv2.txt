@@ -1,0 +1,3 @@
+44TK.00	Fasting blood glucose level
+44f1.00	Serum fasting glucose level
+44g1.00	Plasma fasting glucose level
