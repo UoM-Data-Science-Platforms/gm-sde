@@ -293,7 +293,7 @@ SELECT
   sm.CurrentSmokingStatus,
   lsoa.LSOA_Code AS LSOA,
   imd.IMD2019Decile1IsMostDeprived10IsLeastDeprived,
-  pl.EthnicCategoryDescription AS Ethnicity,
+  pl.NHS_EthnicCategory AS Ethnicity,
   bmi.BMIValue,
   bmi.BMILatestDate,
   pa.FrailtyScore,
