@@ -315,6 +315,7 @@ async function downloadZipFile({ url, name }) {
     return zipFileLocation;
   }
   console.log('Downloading zip file...');
+
   return rp({
     uri: `${URL_ROOT}${url}`,
     method: 'GET',
@@ -323,13 +324,15 @@ async function downloadZipFile({ url, name }) {
       'Content-type': 'application/zip',
     },
   }).then(function (body) {
-    let writeStream = fs.createWriteStream(zipFileLocation);
-    writeStream.write(body, 'binary');
-    writeStream.on('finish', () => {
-      console.log(`Zip file downloaded:\n\t${zipFileLocation}`);
-      return zipFileLocation;
+    return new Promise((resolve) => {
+      let writeStream = fs.createWriteStream(zipFileLocation);
+      writeStream.write(body, 'binary');
+      writeStream.on('finish', () => {
+        console.log(`Zip file downloaded:\n\t${zipFileLocation}`);
+        resolve(zipFileLocation);
+      });
+      writeStream.end();
     });
-    writeStream.end();
   });
 }
 
