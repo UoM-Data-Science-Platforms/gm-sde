@@ -1,0 +1,171 @@
+332051001	Mometasone 0.1% scalp lotion
+984411000001109	Mometasone 0.1% scalp lotion
+188811000001100	Elocon 0.1% scalp lotion
+2139411000001104	Elocon 0.1% scalp lotion
+332049000	Mometasone 0.1% cream
+1242911000001104	Mometasone 0.1% cream
+1121511000001103	Mometasone 0.1% cream
+498811000001102	Elocon 0.1% cream
+2140211000001106	Elocon 0.1% cream
+2140311000001103	Elocon 0.1% cream
+19237711000001109	Mometasone 0.1% cream
+19238211000001103	Mometasone 0.1% cream
+19238311000001106	Mometasone 0.1% cream
+19302511000001102	Mometasone 0.1% cream
+19302611000001103	Mometasone 0.1% cream
+19302711000001107	Mometasone 0.1% cream
+19563411000001106	Mometasone 0.1% cream
+19563511000001105	Mometasone 0.1% cream
+19563611000001109	Mometasone 0.1% cream
+21303411000001100	Mometasone 0.1% cream
+21303511000001101	Mometasone 0.1% cream
+21303711000001106	Mometasone 0.1% cream
+21539911000001104	Mometasone 0.1% cream
+21540011000001105	Mometasone 0.1% cream
+21540111000001106	Mometasone 0.1% cream
+21807111000001104	Mometasone 0.1% cream
+21807211000001105	Mometasone 0.1% cream
+22517911000001100	Mometasone 0.1% cream
+22518011000001103	Mometasone 0.1% cream
+22518111000001102	Mometasone 0.1% cream
+24401911000001106	Mometasone 0.1% cream
+24402211000001109	Mometasone 0.1% cream
+24402111000001103	Mometasone 0.1% cream
+29925911000001101	Mometasone 0.1% cream
+29926011000001109	Mometasone 0.1% cream
+30832811000001109	Mometasone 0.1% cream
+30832911000001104	Mometasone 0.1% cream
+30833011000001107	Mometasone 0.1% cream
+39049111000001109	Mometasone 0.1% cream
+39049311000001106	Mometasone 0.1% cream
+39049211000001103	Mometasone 0.1% cream
+332050000	Mometasone 0.1% ointment
+1293111000001101	Mometasone 0.1% ointment
+1303211000001101	Mometasone 0.1% ointment
+19298311000001100	Mometasone 0.1% ointment
+19299111000001109	Mometasone 0.1% ointment
+338611000001100	Elocon 0.1% ointment
+2140811000001107	Elocon 0.1% ointment
+2141211000001100	Elocon 0.1% ointment
+16098611000001106	Mometasone 0.1% ointment
+16098811000001105	Mometasone 0.1% ointment
+16098711000001102	Mometasone 0.1% ointment
+19298611000001105	Mometasone 0.1% ointment
+19299211000001103	Mometasone 0.1% ointment
+16184811000001109	Mometasone 0.1% ointment
+16184911000001104	Mometasone 0.1% ointment
+16185011000001104	Mometasone 0.1% ointment
+19669611000001102	Mometasone 0.1% ointment
+19669711000001106	Mometasone 0.1% ointment
+16638711000001100	Mometasone 0.1% ointment
+16638811000001108	Mometasone 0.1% ointment
+16638911000001103	Mometasone 0.1% ointment
+16641211000001104	Mometasone 0.1% ointment
+16641311000001107	Mometasone 0.1% ointment
+16641411000001100	Mometasone 0.1% ointment
+18140911000001108	Mometasone 0.1% ointment
+18141011000001100	Mometasone 0.1% ointment
+18141111000001104	Mometasone 0.1% ointment
+21303811000001103	Mometasone 0.1% ointment
+21303911000001108	Mometasone 0.1% ointment
+21304011000001106	Mometasone 0.1% ointment
+21540211000001100	Mometasone 0.1% ointment
+21540311000001108	Mometasone 0.1% ointment
+21540411000001101	Mometasone 0.1% ointment
+21807411000001109	Mometasone 0.1% ointment
+21807711000001103	Mometasone 0.1% ointment
+21807911000001101	Mometasone 0.1% ointment
+21807611000001107	Mometasone 0.1% ointment
+21807811000001106	Mometasone 0.1% ointment
+24402311000001101	Mometasone 0.1% ointment
+24402511000001107	Mometasone 0.1% ointment
+24402411000001108	Mometasone 0.1% ointment
+29926211000001104	Mometasone 0.1% ointment
+29926311000001107	Mometasone 0.1% ointment
+29926411000001100	Mometasone 0.1% ointment
+30833111000001108	Mometasone 0.1% ointment
+30833211000001102	Mometasone 0.1% ointment
+30833311000001105	Mometasone 0.1% ointment
+33599611000001105	Mometasone 0.1% ointment
+33599711000001101	Mometasone 0.1% ointment
+33599811000001109	Mometasone 0.1% ointment
+38733911000001107	Mometasone 0.1% ointment
+38827211000001107	Mometasone 0.1% ointment
+38734011000001105	Mometasone 0.1% ointment
+39050111000001102	Mometasone 0.1% ointment
+39050211000001108	Mometasone 0.1% ointment
+39883111000001102	Mometasone 0.1% ointment
+18525411000001101	Mometasone 0.1% ointment 50% in White soft paraffin
+18524411000001102	Mometasone 0.1% ointment 50% in White soft paraffin
+18524511000001103	Mometasone 0.1% ointment 50% in White soft paraffin
+18524611000001104	Mometasone 0.1% ointment 50% in White soft paraffin
+32695711000001104	Mometasone 0.1% ointment 10% in White soft paraffin
+32680611000001104	Mometasone 0.1% ointment 10% in White soft paraffin
+32680711000001108	Mometasone 0.1% ointment 10% in White soft paraffin
+32680811000001100	Mometasone 0.1% ointment 10% in White soft paraffin
+32695811000001107	Mometasone 0.1% ointment 25% in White soft paraffin
+32680911000001105	Mometasone 0.1% ointment 25% in White soft paraffin
+32681011000001102	Mometasone 0.1% ointment 25% in White soft paraffin
+32681111000001101	Mometasone 0.1% ointment 25% in White soft paraffin
+38895611000001107	Mometasone 400micrograms/dose dry powder inhaler
+4043211000001104	Mometasone 400micrograms/dose dry powder inhaler
+4043311000001107	Mometasone 400micrograms/dose dry powder inhaler
+4043811000001103	Asmanex 400micrograms/dose Twisthaler
+4043911000001108	Asmanex 400micrograms/dose Twisthaler
+4044411000001102	Asmanex 400micrograms/dose Twisthaler
+38895411000001109	Mometasone 200micrograms/dose dry powder inhaler
+4045111000001106	Mometasone 200micrograms/dose dry powder inhaler
+4045211000001100	Mometasone 200micrograms/dose dry powder inhaler
+4045711000001107	Asmanex 200micrograms/dose Twisthaler
+4045911000001109	Asmanex 200micrograms/dose Twisthaler
+4046111000001100	Asmanex 200micrograms/dose Twisthaler
+39134511000001107	Generic Enerzair Breezhaler 114/46/136microg inh caps + dev
+39134611000001106	Generic Enerzair Breezhaler 114/46/136microg inh caps + dev
+39134711000001102	Enerzair Breezhaler 114microg / 46microg / 136microg/dose
+39134811000001105	Enerzair Breezhaler 114microg / 46microg / 136microg/dose
+39134911000001100	Enerzair Breezhaler 114microg / 46microg / 136microg/dose
+39116511000001109	Indacaterol 125microg/Mometasone 62.5microg/dose pdr caps
+39114411000001102	Indacaterol 125microg/Mometasone 62.5microg/dose pdr caps
+39114511000001103	Atectura Breezhaler 125microg/62.5microg inhalation pdr caps
+39114611000001104	Atectura Breezhaler 125microg/62.5microg inhalation pdr caps
+39116311000001103	Indacaterol 125microg/Mometasone 127.5microg/dose pdr caps
+39115211000001100	Indacaterol 125microg/Mometasone 127.5microg/dose pdr caps
+39115411000001101	Atectura Breezhaler 125microg/127.5microg pdr caps
+39115511000001102	Atectura Breezhaler 125microg/127.5microg pdr caps
+39116411000001105	Indacaterol 125microg/Mometasone 260microg/dose pdr caps
+39115811000001104	Indacaterol 125microg/Mometasone 260microg/dose pdr caps
+39115911000001109	Atectura Breezhaler 125microg/260microg inhalation pdr caps
+39116011000001101	Atectura Breezhaler 125microg/260microg inhalation pdr caps
+39109911000001109	Mometasone 50micrograms/dose nasal spray
+1078811000001100	Mometasone 50micrograms/dose nasal spray
+5393511000001100	Mometasone 50micrograms/dose nasal spray
+123711000001109	Nasonex 50micrograms/dose nasal spray
+2679411000001100	Nasonex 50micrograms/dose nasal spray
+23655711000001104	Mometasone 50micrograms/dose nasal spray
+23655811000001107	Mometasone 50micrograms/dose nasal spray
+23679811000001107	Mometasone 50micrograms/dose nasal spray
+23680011000001101	Mometasone 50micrograms/dose nasal spray
+23679911000001102	Mometasone 50micrograms/dose nasal spray
+23680111000001100	Mometasone 50micrograms/dose nasal spray
+23726411000001109	Mometasone 50micrograms/dose nasal spray
+23726611000001107	Mometasone 50micrograms/dose nasal spray
+24605011000001106	Mometasone 50micrograms/dose nasal spray
+24605111000001107	Mometasone 50micrograms/dose nasal spray
+29925411000001109	Mometasone 50micrograms/dose nasal spray
+29925711000001103	Mometasone 50micrograms/dose nasal spray
+30061811000001108	Mometasone 50micrograms/dose nasal spray
+30061911000001103	Mometasone 50micrograms/dose nasal spray
+32423511000001103	Mometasone 50micrograms/dose nasal spray
+32423711000001108	Mometasone 50micrograms/dose nasal spray
+34957111000001107	Mometasone 50micrograms/dose nasal spray
+34957211000001101	Mometasone 50micrograms/dose nasal spray
+36806611000001106	Mometasone 50micrograms/dose nasal spray
+36806911000001100	Mometasone 50micrograms/dose nasal spray
+37122311000001100	Mometasone 50micrograms/dose nasal spray
+37122411000001107	Mometasone 50micrograms/dose nasal spray
+39049411000001104	Mometasone 50micrograms/dose nasal spray
+39049511000001100	Mometasone 50micrograms/dose nasal spray
+40015611000001105	Mometasone 25microg / Olopatadine 600microg/dose nsl spy
+39970211000001101	Mometasone 25microg / Olopatadine 600microg/dose nsl spy
+39970511000001103	Ryaltris 25micrograms/dose / 600micrograms/dose nasal spray
+39970611000001104	Ryaltris 25micrograms/dose / 600micrograms/dose nasal spray

@@ -1,0 +1,60 @@
+40034211000001104	Avenor 25micrograms/dose / 50micrograms/dose inhaler
+40034311000001107	Avenor 25micrograms/dose / 50micrograms/dose inhaler
+40040711000001101	Avenor 25micrograms/dose / 125micrograms/dose inhaler
+40040811000001109	Avenor 25micrograms/dose / 125micrograms/dose inhaler
+40040911000001104	Avenor 25micrograms/dose / 250micrograms/dose inhaler
+40041011000001107	Avenor 25micrograms/dose / 250micrograms/dose inhaler
+35594011000001105	Combisal 25micrograms/dose / 50micrograms/dose inhaler
+35594111000001106	Combisal 25micrograms/dose / 50micrograms/dose inhaler
+35594211000001100	Combisal 25micrograms/dose / 125micrograms/dose inhaler
+35594311000001108	Combisal 25micrograms/dose / 125micrograms/dose inhaler
+35594411000001101	Combisal 25micrograms/dose / 250micrograms/dose inhaler
+35594511000001102	Combisal 25micrograms/dose / 250micrograms/dose inhaler
+453611000001102	Seretide 50 Evohaler
+2830011000001108	Seretide 50 Evohaler
+810211000001105	Seretide 125 Evohaler
+2830811000001102	Seretide 125 Evohaler
+539811000001106	Seretide 250 Evohaler
+2831011000001104	Seretide 250 Evohaler
+3186911000001100	Seretide 100 Accuhaler
+3187011000001101	Seretide 100 Accuhaler
+3187211000001106	Seretide 250 Accuhaler
+3187311000001103	Seretide 250 Accuhaler
+3188311000001102	Seretide 500 Accuhaler
+3188411000001109	Seretide 500 Accuhaler
+34215311000001107	AirFluSal 25micrograms/dose / 125micrograms/dose inhaler
+34215411000001100	AirFluSal 25micrograms/dose / 125micrograms/dose inhaler
+34215511000001101	AirFluSal 25micrograms/dose / 250micrograms/dose inhaler
+34215611000001102	AirFluSal 25micrograms/dose / 250micrograms/dose inhaler
+30950311000001106	AirFluSal Forspiro 50microg / 500microg/dose dry pdr inh
+30950411000001104	AirFluSal Forspiro 50microg / 500microg/dose dry pdr inh
+34677011000001107	Aloflute 25micrograms/dose / 125micrograms/dose inhaler
+34677111000001108	Aloflute 25micrograms/dose / 125micrograms/dose inhaler
+34675711000001103	Aloflute 25micrograms/dose / 250micrograms/dose inhaler
+34675911000001101	Aloflute 25micrograms/dose / 250micrograms/dose inhaler
+34023611000001101	Sereflo 25micrograms/dose / 125micrograms/dose inhaler
+34023711000001105	Sereflo 25micrograms/dose / 125micrograms/dose inhaler
+34023811000001102	Sereflo 25micrograms/dose / 250micrograms/dose inhaler
+34023911000001107	Sereflo 25micrograms/dose / 250micrograms/dose inhaler
+40504911000001103	Sereflo Ciphaler 50microg / 250microg/dose dry pdr inh
+40505011000001103	Sereflo Ciphaler 50microg / 250microg/dose dry pdr inh
+29782111000001107	Sirdupla 25micrograms/dose / 125micrograms/dose inhaler
+29782211000001101	Sirdupla 25micrograms/dose / 125micrograms/dose inhaler
+29782511000001103	Sirdupla 25micrograms/dose / 250micrograms/dose inhaler
+29782611000001104	Sirdupla 25micrograms/dose / 250micrograms/dose inhaler
+39567811000001100	Fixkoh Airmaster 50microg/dose / 100microg/dose dry pdr inh
+39567911000001105	Fixkoh Airmaster 50microg/dose / 100microg/dose dry pdr inh
+39567611000001104	Fixkoh Airmaster 50microg/dose / 250microg/dose dry pdr inh
+39567711000001108	Fixkoh Airmaster 50microg/dose / 250microg/dose dry pdr inh
+39567411000001102	Fixkoh Airmaster 50microg/dose / 500microg/dose dry pdr inh
+39567511000001103	Fixkoh Airmaster 50microg/dose / 500microg/dose dry pdr inh
+40444911000001101	Seffalair Spiromax 12.75microg / 202microg/dose dry pdr inh
+40445011000001101	Seffalair Spiromax 12.75microg / 202microg/dose dry pdr inh
+40445111000001100	Seffalair Spiromax 12.75microg / 100microg/dose dry pdr inh
+40445211000001106	Seffalair Spiromax 12.75microg / 100microg/dose dry pdr inh
+36604711000001102	Stalpex 50microg/dose / 500microg/dose dry powder inh
+36604911000001100	Stalpex 50microg/dose / 500microg/dose dry powder inh
+35515511000001100	Fusacomb Easyhaler 50microg / 250microg/dose dry pdr inh
+35515611000001101	Fusacomb Easyhaler 50microg / 250microg/dose dry pdr inh
+35515311000001106	Fusacomb Easyhaler 50microg / 500microg/dose dry pdr inh
+35515411000001104	Fusacomb Easyhaler 50microg / 500microg/dose dry pdr inh

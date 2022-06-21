@@ -1,0 +1,12 @@
+35921511000001102	Triamcinolone acetonide 10mg/1ml inj ampoules
+951711000001107	Triamcinolone acetonide 10mg/1ml inj ampoules
+911211000001105	Adcortyl Intra-articular / Intradermal 10mg/1ml inj ampoules
+2755211000001105	Adcortyl Intra-articular / Intradermal 10mg/1ml inj ampoules
+35921711000001107	Triamcinolone acetonide 40mg/1ml inj vials
+1177411000001109	Triamcinolone acetonide 40mg/1ml inj vials
+306011000001103	Kenalog Intra-articular / Intramuscular 40mg/1ml inj vials
+2755911000001101	Kenalog Intra-articular / Intramuscular 40mg/1ml inj vials
+35921811000001104	Triamcinolone acetonide 50mg/5ml inj vials
+1116111000001105	Triamcinolone acetonide 50mg/5ml inj vials
+89311000001109	Adcortyl Intra-articular / Intradermal 50mg/5ml inj vials
+2757111000001108	Adcortyl Intra-articular / Intradermal 50mg/5ml inj vials

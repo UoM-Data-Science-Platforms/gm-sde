@@ -1,0 +1,14 @@
+4562411000001104	Triamcinolone hexacetonide 20mg/1ml inj vials
+4562511000001100	Triamcinolone hexacetonide 20mg/1ml inj vials
+4562611000001101	Lederspan 20mg/1ml suspension for injection vials
+4562711000001105	Lederspan 20mg/1ml suspension for injection vials
+35922011000001102	Triamcinolone hexacetonide 100mg/5ml inj vials
+4562911000001107	Triamcinolone hexacetonide 100mg/5ml inj vials
+4563011000001104	Lederspan 100mg/5ml suspension for injection vials
+4563111000001103	Lederspan 100mg/5ml suspension for injection vials
+24566011000001105	Triamcinolone hexacetonide 20mg/1ml inj ampoules
+24564511000001108	Triamcinolone hexacetonide 20mg/1ml inj ampoules
+24564611000001107	Triamcinolone hexacetonide 20mg/1ml inj ampoules
+24564911000001101	Triamcinolone hexacetonide 20mg/1ml inj ampoules
+28490511000001105	Triamcinolone hexacetonide 20mg/1ml inj ampoules
+28490611000001109	Triamcinolone hexacetonide 20mg/1ml inj ampoules

@@ -1,0 +1,4 @@
+23621711000001102	Relvar Ellipta 184microg/dose / 22microg/dose dry pdr inh
+23621811000001105	Relvar Ellipta 184microg/dose / 22microg/dose dry pdr inh
+23622011000001107	Relvar Ellipta 92microg/dose / 22microg/dose dry pdr inh
+23622111000001108	Relvar Ellipta 92microg/dose / 22microg/dose dry pdr inh

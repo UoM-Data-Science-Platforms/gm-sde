@@ -1,0 +1,8 @@
+539211000001105	Proctosedyl ointment
+2683611000001106	Proctosedyl ointment
+564411000001103	Proctosedyl suppositories
+2684111000001101	Proctosedyl suppositories
+754811000001109	Uniroid HC ointment
+2683211000001109	Uniroid HC ointment
+904311000001101	Uniroid HC suppositories
+2684411000001106	Uniroid HC suppositories

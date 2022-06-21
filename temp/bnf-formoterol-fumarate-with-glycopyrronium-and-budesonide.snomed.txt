@@ -1,0 +1,4 @@
+39343511000001103	Generic Trixeo Aerosphere 5microg/7.2microg/160microg/dose
+39327211000001107	Generic Trixeo Aerosphere 5microg/7.2microg/160microg/dose
+39327311000001104	Trixeo Aerosphere 5microg / 7.2microg / 160microg/dose inh
+39327411000001106	Trixeo Aerosphere 5microg / 7.2microg / 160microg/dose inh

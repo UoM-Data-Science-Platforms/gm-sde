@@ -1,0 +1,20 @@
+36098311000001104	Diflucortolone 0.1% oily cream
+1193011000001100	Diflucortolone 0.1% oily cream
+322911000001105	Nerisone 0.1% oily cream
+2569811000001103	Nerisone 0.1% oily cream
+331904003	Diflucortolone 0.1% cream
+3835711000001107	Diflucortolone 0.1% cream
+3835911000001109	Nerisone 0.1% cream
+3836011000001101	Nerisone 0.1% cream
+36098411000001106	Diflucortolone 0.3% oily cream
+3836311000001103	Diflucortolone 0.3% oily cream
+3836511000001109	Nerisone Forte 0.3% oily cream
+3836711000001104	Nerisone Forte 0.3% oily cream
+331906001	Diflucortolone 0.1% ointment
+3961011000001105	Diflucortolone 0.1% ointment
+3961311000001108	Nerisone 0.1% ointment
+3961611000001103	Nerisone 0.1% ointment
+331908000	Diflucortolone 0.3% ointment
+3961911000001109	Diflucortolone 0.3% ointment
+3962011000001102	Nerisone Forte 0.3% ointment
+3962311000001104	Nerisone Forte 0.3% ointment

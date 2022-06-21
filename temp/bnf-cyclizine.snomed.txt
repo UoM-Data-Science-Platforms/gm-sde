@@ -1,0 +1,148 @@
+322064006	Cyclizine 50mg tablets
+1155611000001102	Cyclizine 50mg tablets
+33211111000001105	Cyclizine 50mg tablets
+75711000001103	Valoid 50mg tablets
+2728011000001109	Valoid 50mg tablets
+20511711000001103	Cyclizine 50mg tablets
+20511811000001106	Cyclizine 50mg tablets
+20964011000001107	Cyclizine 50mg tablets
+20964111000001108	Cyclizine 50mg tablets
+20970411000001102	Cyclizine 50mg tablets
+20970511000001103	Cyclizine 50mg tablets
+33567411000001100	Cyclizine 50mg tablets
+21908911000001105	Cyclizine 50mg tablets
+21909111000001100	Cyclizine 50mg tablets
+22261411000001108	Cyclizine 50mg tablets
+22261511000001107	Cyclizine 50mg tablets
+23653611000001109	Cyclizine 50mg tablets
+23653711000001100	Cyclizine 50mg tablets
+23966611000001108	Cyclizine 50mg tablets
+23966711000001104	Cyclizine 50mg tablets
+24131611000001106	Cyclizine 50mg tablets
+24131711000001102	Cyclizine 50mg tablets
+29800911000001107	Cyclizine 50mg tablets
+29801011000001104	Cyclizine 50mg tablets
+32403211000001107	Cyclizine 50mg tablets
+32403311000001104	Cyclizine 50mg tablets
+33211311000001107	Cyclizine 50mg tablets
+33212011000001101	Cyclizine 50mg tablets
+37057311000001106	Cyclizine 50mg tablets
+37057411000001104	Cyclizine 50mg tablets
+38863311000001100	Cyclizine 50mg tablets
+38863411000001107	Cyclizine 50mg tablets
+8450511000001103	Cyclizine 50mg/5ml oral solution
+8408111000001103	Cyclizine 50mg/5ml oral solution
+22244811000001102	Cyclizine 50mg/5ml oral solution
+8408211000001109	Cyclizine 50mg/5ml oral solution
+8408311000001101	Cyclizine 50mg/5ml oral solution
+22244911000001107	Cyclizine 50mg/5ml oral solution
+8450611000001104	Cyclizine 50mg/5ml oral suspension
+8408411000001108	Cyclizine 50mg/5ml oral suspension
+22245011000001107	Cyclizine 50mg/5ml oral suspension
+8408511000001107	Cyclizine 50mg/5ml oral suspension
+8408611000001106	Cyclizine 50mg/5ml oral suspension
+22245111000001108	Cyclizine 50mg/5ml oral suspension
+8450711000001108	Cyclizine 62.5mg/5ml oral liquid
+8408811000001105	Cyclizine 62.5mg/5ml oral liquid
+8408911000001100	Cyclizine 62.5mg/5ml oral liquid
+8409311000001107	Cyclizine 62.5mg/5ml oral liquid
+8450811000001100	Cyclizine 62.5mg/5ml oral liquid
+8410211000001108	Cyclizine 62.5mg/5ml oral liquid
+8410611000001105	Cyclizine 62.5mg/5ml oral liquid
+8410711000001101	Cyclizine 62.5mg/5ml oral liquid
+11816711000001104	Cyclizine 10mg/5ml oral liquid
+11795211000001103	Cyclizine 10mg/5ml oral liquid
+11795311000001106	Cyclizine 10mg/5ml oral liquid
+11795411000001104	Cyclizine 10mg/5ml oral liquid
+11816611000001108	Cyclizine 10mg/5ml oral liquid
+11795511000001100	Cyclizine 10mg/5ml oral liquid
+11795611000001101	Cyclizine 10mg/5ml oral liquid
+11795711000001105	Cyclizine 10mg/5ml oral liquid
+11816911000001102	Cyclizine 12.5mg/5ml oral liquid
+11795811000001102	Cyclizine 12.5mg/5ml oral liquid
+11795911000001107	Cyclizine 12.5mg/5ml oral liquid
+11796011000001104	Cyclizine 12.5mg/5ml oral liquid
+11816811000001107	Cyclizine 12.5mg/5ml oral liquid
+11796111000001103	Cyclizine 12.5mg/5ml oral liquid
+11796211000001109	Cyclizine 12.5mg/5ml oral liquid
+11796311000001101	Cyclizine 12.5mg/5ml oral liquid
+11817111000001102	Cyclizine 2.5mg/5ml oral liquid
+11796411000001108	Cyclizine 2.5mg/5ml oral liquid
+11796511000001107	Cyclizine 2.5mg/5ml oral liquid
+11796611000001106	Cyclizine 2.5mg/5ml oral liquid
+11817011000001103	Cyclizine 2.5mg/5ml oral liquid
+11796711000001102	Cyclizine 2.5mg/5ml oral liquid
+11796811000001105	Cyclizine 2.5mg/5ml oral liquid
+11796911000001100	Cyclizine 2.5mg/5ml oral liquid
+11817311000001100	Cyclizine 250mg/5ml oral liquid
+11797011000001101	Cyclizine 250mg/5ml oral liquid
+11797111000001100	Cyclizine 250mg/5ml oral liquid
+11797211000001106	Cyclizine 250mg/5ml oral liquid
+11817211000001108	Cyclizine 250mg/5ml oral liquid
+11797311000001103	Cyclizine 250mg/5ml oral liquid
+11797411000001105	Cyclizine 250mg/5ml oral liquid
+11797511000001109	Cyclizine 250mg/5ml oral liquid
+11817511000001106	Cyclizine 25mg/5ml oral liquid
+11797611000001108	Cyclizine 25mg/5ml oral liquid
+11797711000001104	Cyclizine 25mg/5ml oral liquid
+11797811000001107	Cyclizine 25mg/5ml oral liquid
+11817411000001107	Cyclizine 25mg/5ml oral liquid
+11797911000001102	Cyclizine 25mg/5ml oral liquid
+11798011000001100	Cyclizine 25mg/5ml oral liquid
+11798111000001104	Cyclizine 25mg/5ml oral liquid
+11817711000001101	Cyclizine 30mg/5ml oral liquid
+11798211000001105	Cyclizine 30mg/5ml oral liquid
+11798311000001102	Cyclizine 30mg/5ml oral liquid
+11798411000001109	Cyclizine 30mg/5ml oral liquid
+11817611000001105	Cyclizine 30mg/5ml oral liquid
+11798511000001108	Cyclizine 30mg/5ml oral liquid
+11798611000001107	Cyclizine 30mg/5ml oral liquid
+11798711000001103	Cyclizine 30mg/5ml oral liquid
+11817911000001104	Cyclizine 5mg/5ml oral liquid
+11798811000001106	Cyclizine 5mg/5ml oral liquid
+11798911000001101	Cyclizine 5mg/5ml oral liquid
+11799011000001105	Cyclizine 5mg/5ml oral liquid
+11817811000001109	Cyclizine 5mg/5ml oral liquid
+11799111000001106	Cyclizine 5mg/5ml oral liquid
+11799211000001100	Cyclizine 5mg/5ml oral liquid
+11799311000001108	Cyclizine 5mg/5ml oral liquid
+15436411000001109	Cyclizine 25mg suppositories
+15433311000001106	Cyclizine 25mg suppositories
+15433411000001104	Cyclizine 25mg suppositories
+15433511000001100	Cyclizine 25mg suppositories
+16073311000001102	Cyclizine 50mg suppositories
+16043411000001105	Cyclizine 50mg suppositories
+16043611000001108	Cyclizine 50mg suppositories
+16043711000001104	Cyclizine 50mg suppositories
+32473911000001109	Cyclizine 12.5mg suppositories
+32472711000001104	Cyclizine 12.5mg suppositories
+32472811000001107	Cyclizine 12.5mg suppositories
+32472911000001102	Cyclizine 12.5mg suppositories
+37084111000001109	Cyclizine 50mg/1ml solution for injection ampoules
+946211000001105	Cyclizine 50mg/1ml solution for injection ampoules
+8721411000001104	Cyclizine 50mg/1ml solution for injection ampoules
+708211000001108	Valoid 50mg/1ml solution for injection ampoules
+2728711000001106	Valoid 50mg/1ml solution for injection ampoules
+8715511000001105	Cyclizine 50mg/1ml solution for injection ampoules
+8721511000001100	Cyclizine 50mg/1ml solution for injection ampoules
+8825511000001104	Cyclizine 50mg/1ml solution for injection ampoules
+28039611000001103	Cyclizine 50mg/1ml solution for injection ampoules
+8825811000001101	Cyclizine 50mg/1ml solution for injection ampoules
+9457811000001104	Cyclizine 50mg/1ml solution for injection ampoules
+27963011000001101	Cyclizine 50mg/1ml solution for injection ampoules
+9457911000001109	Cyclizine 50mg/1ml solution for injection ampoules
+27944111000001107	Cyclizine 50mg/1ml solution for injection ampoules
+27944211000001101	Cyclizine 50mg/1ml solution for injection ampoules
+35577111000001109	Cyclizine 50mg/1ml solution for injection ampoules
+35577211000001103	Cyclizine 50mg/1ml solution for injection ampoules
+36781711000001109	Cyclizine 50mg/1ml solution for injection ampoules
+36781811000001101	Cyclizine 50mg/1ml solution for injection ampoules
+37236411000001107	Cyclizine 50mg/1ml solution for injection ampoules
+37236511000001106	Cyclizine 50mg/1ml solution for injection ampoules
+37756711000001105	Cyclizine 50mg/1ml solution for injection ampoules
+38862911000001106	Cyclizine 50mg/1ml solution for injection ampoules
+38863211000001108	Cyclizine 50mg/1ml solution for injection ampoules
+39949511000001107	Cyclizine 50mg/1ml solution for injection ampoules
+39949611000001106	Cyclizine 50mg/1ml solution for injection ampoules
+39991311000001109	Cyclizine 50mg/1ml solution for injection ampoules
+39991411000001102	Cyclizine 50mg/1ml solution for injection ampoules

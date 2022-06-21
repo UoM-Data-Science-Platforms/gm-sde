@@ -1,0 +1,637 @@
+3550511000001105	Generic Otosporin ear drops
+1062711000001102	Generic Otosporin ear drops
+1185511000001106	Generic Otosporin ear drops
+423211000001103	Otosporin ear drops
+2262911000001108	Otosporin ear drops
+2263111000001104	Otosporin ear drops
+346992009	Hydrocortisone 1% cream
+959811000001103	Hydrocortisone 1% cream
+1156211000001105	Hydrocortisone 1% cream
+1186711000001109	Hydrocortisone 1% cream
+18746111000001102	Hydrocortisone 1% cream
+623911000001105	Hydrocortisone 1% cream
+1551811000001106	Hydrocortisone 1% cream
+1552011000001108	Hydrocortisone 1% cream
+1552211000001103	Hydrocortisone 1% cream
+723111000001100	Hydrocortisone 1% cream
+1552811000001102	Hydrocortisone 1% cream
+1552911000001107	Hydrocortisone 1% cream
+1553011000001104	Hydrocortisone 1% cream
+703211000001100	Zenoxone 1% cream
+1553411000001108	Zenoxone 1% cream
+575811000001106	Efcortelan 1% cream
+1555811000001109	Efcortelan 1% cream
+561211000001104	Hydrocortisone 1% cream
+1555911000001104	Hydrocortisone 1% cream
+1556111000001108	Hydrocortisone 1% cream
+1556211000001102	Hydrocortisone 1% cream
+131211000001103	Hydrocortisone 1% cream
+1556311000001105	Hydrocortisone 1% cream
+1556411000001103	Hydrocortisone 1% cream
+1556511000001104	Hydrocortisone 1% cream
+745111000001101	Hydrocortisone 1% cream
+1615711000001102	Hydrocortisone 1% cream
+4193211000001104	Hydrocortisone 1% cream
+4193311000001107	Hydrocortisone 1% cream
+4193411000001100	Hydrocortisone 1% cream
+4193511000001101	Hydrocortisone 1% cream
+4774211000001104	Mildison Lipocream 1% cream
+4774311000001107	Mildison Lipocream 1% cream
+5437511000001106	Exe-Cort Hydrocortisone 1% cream
+5437611000001105	Exe-Cort Hydrocortisone 1% cream
+7932411000001105	Hydrocortisone 1% cream
+7932711000001104	Hydrocortisone 1% cream
+13623011000001104	Hydrocortisone 1% cream
+13623111000001103	Hydrocortisone 1% cream
+17012011000001102	Hydrocortisone 1% cream
+18954711000001104	Hydrocortisone 1% cream
+18954511000001109	Hydrocortisone 1% cream
+13662511000001108	Hydrocortisone 1% cream
+13662611000001107	Hydrocortisone 1% cream
+14943511000001108	Hydrocortisone 1% cream
+14943611000001107	Hydrocortisone 1% cream
+14943711000001103	Hydrocortisone 1% cream
+14943811000001106	Hydrocortisone 1% cream
+17200011000001107	Hydrocortisone 1% cream
+17200211000001102	Hydrocortisone 1% cream
+17200411000001103	Hydrocortisone 1% cream
+17200611000001100	Hydrocortisone 1% cream
+17921811000001100	Hydrocortisone 1% cream
+17922111000001102	Hydrocortisone 1% cream
+17922311000001100	Hydrocortisone 1% cream
+17922511000001106	Hydrocortisone 1% cream
+18282711000001102	Hydrocortisone 1% cream
+18282811000001105	Hydrocortisone 1% cream
+38696411000001109	Hydrocortisone 1% cream
+18412711000001101	Derma Care Hydrocortisone 1% cream
+18412811000001109	Derma Care Hydrocortisone 1% cream
+18746311000001100	Hydrocortisone Bite and Sting Relief 1% cream
+18746411000001107	Hydrocortisone Bite and Sting Relief 1% cream
+20324211000001100	Hydrocortisone 1% cream
+20324311000001108	Hydrocortisone 1% cream
+21639111000001105	Pinewood Bites and Stings Relief 1% cream
+21639211000001104	Pinewood Bites and Stings Relief 1% cream
+22454211000001100	Hydrocortisone 1% cream
+22454311000001108	Hydrocortisone 1% cream
+23596611000001103	Hydrocortisone 1% cream
+23596711000001107	Hydrocortisone 1% cream
+24150511000001101	Hydrocortisone 1% cream
+24150711000001106	Hydrocortisone 1% cream
+24150911000001108	Hydrocortisone 1% cream
+24151211000001105	Hydrocortisone 1% cream
+29872011000001102	Hydrocortisone 1% cream
+29872211000001107	Hydrocortisone 1% cream
+29872311000001104	Hydrocortisone 1% cream
+29872111000001101	Hydrocortisone 1% cream
+30206711000001104	Hydrocortisone 1% cream
+30206811000001107	Hydrocortisone 1% cream
+30206911000001102	Hydrocortisone 1% cream
+30209311000001105	Hydrocortisone 1% cream
+38939311000001104	Hydrocortisone 1% cream
+38939411000001106	Hydrocortisone 1% cream
+38939611000001109	Hydrocortisone 1% cream
+38939811000001108	Hydrocortisone 1% cream
+331746003	Hydrocortisone 1% / Clotrimazole 1% cream
+1045911000001100	Hydrocortisone 1% / Clotrimazole 1% cream
+952511000001105	Hydrocortisone 1% / Clotrimazole 1% cream
+507311000001100	Canesten Hydrocortisone cream
+1557311000001108	Canesten Hydrocortisone cream
+125711000001105	Canesten HC cream
+1557611000001103	Canesten HC cream
+346990001	Hydrocortisone 0.5% cream
+1215911000001103	Hydrocortisone 0.5% cream
+943411000001104	Hydrocortisone 0.5% cream
+300411000001105	Hydrocortisone 0.5% cream
+1558011000001106	Hydrocortisone 0.5% cream
+14731811000001102	Hydrocortisone 0.5% cream
+424011000001105	Hydrocortisone 0.5% cream
+1558311000001109	Hydrocortisone 0.5% cream
+912211000001103	Hydrocortisone 0.5% cream
+1558511000001103	Hydrocortisone 0.5% cream
+151811000001101	Efcortelan 0.5% cream
+1558611000001104	Efcortelan 0.5% cream
+279511000001103	Hydrocortisone 0.5% cream
+1558711000001108	Hydrocortisone 0.5% cream
+882311000001100	Hydrocortisone 0.5% cream
+1558811000001100	Hydrocortisone 0.5% cream
+15248111000001102	Hydrocortisone 0.5% cream
+4193011000001109	Hydrocortisone 0.5% cream
+4193111000001105	Hydrocortisone 0.5% cream
+14943211000001105	Hydrocortisone 0.5% cream
+14943311000001102	Hydrocortisone 0.5% cream
+14943411000001109	Hydrocortisone 0.5% cream
+17921511000001103	Hydrocortisone 0.5% cream
+17921711000001108	Hydrocortisone 0.5% cream
+22043111000001103	Hydrocortisone 0.5% cream
+22043211000001109	Hydrocortisone 0.5% cream
+24150111000001105	Hydrocortisone 0.5% cream
+24150211000001104	Hydrocortisone 0.5% cream
+29871611000001103	Hydrocortisone 0.5% cream
+29871711000001107	Hydrocortisone 0.5% cream
+37087611000001107	Hydrocortisone 0.5% cream
+37087711000001103	Hydrocortisone 0.5% cream
+38938911000001106	Hydrocortisone 0.5% cream
+38939011000001102	Hydrocortisone 0.5% cream
+331661006	Hydrocortisone 2.5% cream
+1130811000001105	Hydrocortisone 2.5% cream
+1157411000001106	Hydrocortisone 2.5% cream
+112311000001108	Hydrocortisone 2.5% cream
+1564211000001102	Hydrocortisone 2.5% cream
+14732511000001108	Hydrocortisone 2.5% cream
+439211000001103	Efcortelan 2.5% cream
+1564611000001100	Efcortelan 2.5% cream
+253211000001100	Hydrocortisone 2.5% cream
+1564711000001109	Hydrocortisone 2.5% cream
+886611000001106	Hydrocortisone 2.5% cream
+1565011000001106	Hydrocortisone 2.5% cream
+15248211000001108	Hydrocortisone 2.5% cream
+4193611000001102	Hydrocortisone 2.5% cream
+4193711000001106	Hydrocortisone 2.5% cream
+14943911000001101	Hydrocortisone 2.5% cream
+14944011000001103	Hydrocortisone 2.5% cream
+14944111000001102	Hydrocortisone 2.5% cream
+17922711000001101	Hydrocortisone 2.5% cream
+17922911000001104	Hydrocortisone 2.5% cream
+17923111000001108	Hydrocortisone 2.5% cream
+22043311000001101	Hydrocortisone 2.5% cream
+22043411000001108	Hydrocortisone 2.5% cream
+24151411000001109	Hydrocortisone 2.5% cream
+24151611000001107	Hydrocortisone 2.5% cream
+29872711000001100	Hydrocortisone 2.5% cream
+29872811000001108	Hydrocortisone 2.5% cream
+30209411000001103	Hydrocortisone 2.5% cream
+30209711000001109	Hydrocortisone 2.5% cream
+38947811000001104	Hydrocortisone 2.5% cream
+38947911000001109	Hydrocortisone 2.5% cream
+331680008	Hydrocortisone 0.1% cream
+975811000001104	Hydrocortisone 0.1% cream
+1102711000001109	Hydrocortisone 0.1% cream
+645811000001104	Dioderm 0.1% cream
+1567111000001103	Dioderm 0.1% cream
+157311000001104	Dermacort hydrocortisone 0.1% cream
+1567211000001109	Dermacort hydrocortisone 0.1% cream
+331744000	Hydrocortisone 1% / Miconazole 2% ointment
+1110811000001100	Hydrocortisone 1% / Miconazole 2% ointment
+278911000001102	Daktacort ointment
+2062411000001109	Daktacort ointment
+331745004	Hydrocortisone 1% / Miconazole 2% cream
+1205311000001101	Hydrocortisone 1% / Miconazole 2% cream
+1103811000001109	Hydrocortisone 1% / Miconazole 2% cream
+859911000001101	Daktacort 2%/1% cream
+2065911000001109	Daktacort 2%/1% cream
+301011000001105	Daktacort Hydrocortisone cream
+2067411000001107	Daktacort Hydrocortisone cream
+3556711000001102	Generic Timodine cream
+1267111000001106	Generic Timodine cream
+93111000001108	Timodine cream
+2223011000001105	Timodine cream
+331720002	Hydrocortisone 0.25% / Crotamiton 10% cream
+1028111000001106	Hydrocortisone 0.25% / Crotamiton 10% cream
+1155711000001106	Hydrocortisone 0.25% / Crotamiton 10% cream
+646411000001105	Eurax Hydrocortisone cream
+2247011000001102	Eurax Hydrocortisone cream
+179411000001100	Eurax Hc cream
+2249411000001102	Eurax Hc cream
+3392611000001104	Generic Calmurid HC cream
+991711000001102	Generic Calmurid HC cream
+1259511000001100	Generic Calmurid HC cream
+8048111000001102	Generic Calmurid HC cream
+536911000001105	Calmurid HC cream
+2287711000001105	Calmurid HC cream
+2287811000001102	Calmurid HC cream
+8048311000001100	Calmurid HC cream
+331743006	Econazole 1% / Hydrocortisone 1% cream
+1196011000001108	Econazole 1% / Hydrocortisone 1% cream
+674411000001103	Econacort cream
+2637511000001106	Econacort cream
+331735001	Hydrocortisone 1% / Clioquinol 3% ointment
+1188611000001104	Hydrocortisone 1% / Clioquinol 3% ointment
+875811000001105	Vioform-Hydrocortisone ointment
+2677711000001103	Vioform-Hydrocortisone ointment
+331736000	Clioquinol 3% / Hydrocortisone 1% cream
+1000611000001109	Clioquinol 3% / Hydrocortisone 1% cream
+595711000001105	Vioform-Hydrocortisone cream
+2677811000001106	Vioform-Hydrocortisone cream
+353223001	Hydrocortisone 0.5% ointment
+2927211000001105	Hydrocortisone 0.5% ointment
+2927411000001109	Hydrocortisone 0.5% ointment
+2927511000001108	Hydrocortisone 0.5% ointment
+2927611000001107	Hydrocortisone 0.5% ointment
+14733011000001109	Hydrocortisone 0.5% ointment
+3304711000001101	Hydrocortisone 0.5% ointment
+2927811000001106	Hydrocortisone 0.5% ointment
+3306711000001105	Hydrocortisone 0.5% ointment
+2928211000001109	Hydrocortisone 0.5% ointment
+2928411000001108	Efcortelan 0.5% ointment
+2928511000001107	Efcortelan 0.5% ointment
+3302011000001109	Hydrocortisone 0.5% ointment
+2928711000001102	Hydrocortisone 0.5% ointment
+3305911000001100	Hydrocortisone 0.5% ointment
+2929011000001109	Hydrocortisone 0.5% ointment
+15248311000001100	Hydrocortisone 0.5% ointment
+4193811000001103	Hydrocortisone 0.5% ointment
+4193911000001108	Hydrocortisone 0.5% ointment
+14944211000001108	Hydrocortisone 0.5% ointment
+14944311000001100	Hydrocortisone 0.5% ointment
+14944411000001107	Hydrocortisone 0.5% ointment
+17923211000001102	Hydrocortisone 0.5% ointment
+17923311000001105	Hydrocortisone 0.5% ointment
+22043511000001107	Hydrocortisone 0.5% ointment
+22043611000001106	Hydrocortisone 0.5% ointment
+24152011000001108	Hydrocortisone 0.5% ointment
+24152111000001109	Hydrocortisone 0.5% ointment
+29871811000001104	Hydrocortisone 0.5% ointment
+29871911000001109	Hydrocortisone 0.5% ointment
+30210011000001101	Hydrocortisone 0.5% ointment
+30210211000001106	Hydrocortisone 0.5% ointment
+40327911000001101	Hydrocortisone 0.5% ointment
+40328011000001104	Hydrocortisone 0.5% ointment
+331722005	Hydrocortisone 1% / Urea 10% cream
+2929111000001105	Hydrocortisone 1% / Urea 10% cream
+2929211000001104	Hydrocortisone 1% / Urea 10% cream
+2929511000001101	Alphaderm 1%/10% cream
+2929911000001108	Alphaderm 1%/10% cream
+2930111000001102	Alphaderm 1%/10% cream
+18543211000001102	Hydromol HC Intensive cream
+18543311000001105	Hydromol HC Intensive cream
+18543511000001104	Hydromol HC Intensive cream
+347949006	Hydrocortisone 1% ointment
+2929411000001100	Hydrocortisone 1% ointment
+2929711000001106	Hydrocortisone 1% ointment
+2929811000001103	Hydrocortisone 1% ointment
+2930011000001103	Hydrocortisone 1% ointment
+2930311000001100	Hydrocortisone 1% ointment
+2930411000001107	Hydrocortisone 1% ointment
+2930611000001105	Hydrocortisone 1% ointment
+3305811000001105	Hydrocortisone 1% ointment
+2930711000001101	Hydrocortisone 1% ointment
+2930811000001109	Hydrocortisone 1% ointment
+2930911000001104	Hydrocortisone 1% ointment
+2931211000001102	Efcortelan 1% ointment
+2931311000001105	Efcortelan 1% ointment
+3301911000001102	Hydrocortisone 1% ointment
+2931411000001103	Hydrocortisone 1% ointment
+2931511000001104	Hydrocortisone 1% ointment
+2931611000001100	Hydrocortisone 1% ointment
+3302311000001107	Hydrocortisone 1% ointment
+2931711000001109	Hydrocortisone 1% ointment
+2931811000001101	Hydrocortisone 1% ointment
+2931911000001106	Hydrocortisone 1% ointment
+4194011000001106	Hydrocortisone 1% ointment
+4194111000001107	Hydrocortisone 1% ointment
+4194211000001101	Hydrocortisone 1% ointment
+4194311000001109	Hydrocortisone 1% ointment
+9746411000001106	Hydrocortisone 1% ointment
+9746511000001105	Hydrocortisone 1% ointment
+14944511000001106	Hydrocortisone 1% ointment
+14944611000001105	Hydrocortisone 1% ointment
+14944711000001101	Hydrocortisone 1% ointment
+14944811000001109	Hydrocortisone 1% ointment
+16373311000001101	Hydrocortisone 1% ointment
+16373511000001107	Hydrocortisone 1% ointment
+16548011000001105	Hydrocortisone 1% ointment
+17012111000001101	Hydrocortisone 1% ointment
+17200711000001109	Hydrocortisone 1% ointment
+17200811000001101	Hydrocortisone 1% ointment
+17200911000001106	Hydrocortisone 1% ointment
+17201011000001103	Hydrocortisone 1% ointment
+17923411000001103	Hydrocortisone 1% ointment
+17923511000001104	Hydrocortisone 1% ointment
+17923611000001100	Hydrocortisone 1% ointment
+17923711000001109	Hydrocortisone 1% ointment
+18282911000001100	Hydrocortisone 1% ointment
+38696511000001108	Hydrocortisone 1% ointment
+18283011000001108	Hydrocortisone 1% ointment
+22043711000001102	Hydrocortisone 1% ointment
+22043811000001105	Hydrocortisone 1% ointment
+23596811000001104	Hydrocortisone 1% ointment
+23596911000001109	Hydrocortisone 1% ointment
+24152211000001103	Hydrocortisone 1% ointment
+24152311000001106	Hydrocortisone 1% ointment
+24152411000001104	Hydrocortisone 1% ointment
+24152911000001107	Hydrocortisone 1% ointment
+29873511000001103	Hydrocortisone 1% ointment
+29873611000001104	Hydrocortisone 1% ointment
+29873711000001108	Hydrocortisone 1% ointment
+29873811000001100	Hydrocortisone 1% ointment
+30210611000001108	Hydrocortisone 1% ointment
+37088211000001109	Hydrocortisone 1% ointment
+30210711000001104	Hydrocortisone 1% ointment
+30210811000001107	Hydrocortisone 1% ointment
+30993511000001103	Boots Derma Care Hydrocortisone 1% ointment
+30993611000001104	Boots Derma Care Hydrocortisone 1% ointment
+38947311000001108	Hydrocortisone 1% ointment
+38947511000001102	Hydrocortisone 1% ointment
+38947611000001103	Hydrocortisone 1% ointment
+38947711000001107	Hydrocortisone 1% ointment
+331695005	Hydrocortisone 2.5% ointment
+2932011000001104	Hydrocortisone 2.5% ointment
+2932111000001103	Hydrocortisone 2.5% ointment
+2932211000001109	Hydrocortisone 2.5% ointment
+2932311000001101	Hydrocortisone 2.5% ointment
+14733111000001105	Hydrocortisone 2.5% ointment
+2932511000001107	Efcortelan 2.5% ointment
+2932711000001102	Efcortelan 2.5% ointment
+3303511000001108	Hydrocortisone 2.5% ointment
+2933011000001108	Hydrocortisone 2.5% ointment
+3306011000001108	Hydrocortisone 2.5% ointment
+2933111000001109	Hydrocortisone 2.5% ointment
+15248411000001107	Hydrocortisone 2.5% ointment
+4194411000001102	Hydrocortisone 2.5% ointment
+4194511000001103	Hydrocortisone 2.5% ointment
+14944911000001104	Hydrocortisone 2.5% ointment
+14945011000001104	Hydrocortisone 2.5% ointment
+14945111000001103	Hydrocortisone 2.5% ointment
+17923811000001101	Hydrocortisone 2.5% ointment
+17923911000001106	Hydrocortisone 2.5% ointment
+17924011000001109	Hydrocortisone 2.5% ointment
+22043911000001100	Hydrocortisone 2.5% ointment
+22044011000001102	Hydrocortisone 2.5% ointment
+24153311000001101	Hydrocortisone 2.5% ointment
+24153511000001107	Hydrocortisone 2.5% ointment
+29874011000001108	Hydrocortisone 2.5% ointment
+29874111000001109	Hydrocortisone 2.5% ointment
+30210911000001102	Hydrocortisone 2.5% ointment
+30211011000001105	Hydrocortisone 2.5% ointment
+38945711000001101	Hydrocortisone 2.5% ointment
+38945811000001109	Hydrocortisone 2.5% ointment
+3549911000001106	Nystatin 100,000units/g/Chlorhex Hcl 1% / Hydrocort 0.5% crm
+3087711000001108	Nystatin 100,000units/g/Chlorhex Hcl 1% / Hydrocort 0.5% crm
+3088811000001101	Nystaform HC cream
+3089211000001107	Nystaform HC cream
+33337711000001100	Nystatin 100,000units/g/Chlorhex Hcl 1% / Hydrocort 0.5% crm
+33337811000001108	Nystatin 100,000units/g/Chlorhex Hcl 1% / Hydrocort 0.5% crm
+34838411000001106	Nystatin 100,000units/g/Chlorhex Hcl 1% / Hydrocort 0.5% crm
+34838511000001105	Nystatin 100,000units/g/Chlorhex Hcl 1% / Hydrocort 0.5% crm
+34895211000001109	Nystatin 100,000units/g/Chlorhex Hcl 1% / Hydrocort 0.5% crm
+34895311000001101	Nystatin 100,000units/g/Chlorhex Hcl 1% / Hydrocort 0.5% crm
+331738004	Oxytetracycline 3% / Hydrocortisone 1% ointment
+3143311000001103	Oxytetracycline 3% / Hydrocortisone 1% ointment
+3143411000001105	Oxytetracycline 3% / Hydrocortisone 1% ointment
+3143811000001107	Terra-Cortril ointment (Pfizer)
+3143911000001102	Terra-Cortril ointment (Pfizer)
+3144111000001103	Terra-Cortril ointment (Pfizer)
+21116111000001108	Terra-Cortril ointment (Intrapharm)
+21116211000001102	Terra-Cortril ointment (Intrapharm)
+3701111000001101	Nystatin 100,000u/g / Chlorhex acetate 1%/ Hydrocort 1% oint
+3692411000001107	Nystatin 100,000u/g / Chlorhex acetate 1%/ Hydrocort 1% oint
+3692511000001106	Nystaform HC ointment
+3692611000001105	Nystaform HC ointment
+33338311000001103	Nystatin 100,000u/g / Chlorhex acetate 1%/ Hydrocort 1% oint
+33338411000001105	Nystatin 100,000u/g / Chlorhex acetate 1%/ Hydrocort 1% oint
+34838211000001107	Nystatin 100,000u/g / Chlorhex acetate 1%/ Hydrocort 1% oint
+34838311000001104	Nystatin 100,000u/g / Chlorhex acetate 1%/ Hydrocort 1% oint
+34895411000001108	Nystatin 100,000u/g / Chlorhex acetate 1%/ Hydrocort 1% oint
+34895511000001107	Nystatin 100,000u/g / Chlorhex acetate 1%/ Hydrocort 1% oint
+3701511000001105	Generic Terra-Cortril Nystatin cream
+3693011000001107	Generic Terra-Cortril Nystatin cream
+3693411000001103	Terra-Cortril Nystatin cream
+3693611000001100	Terra-Cortril Nystatin cream
+4009911000001100	Generic Gregoderm ointment
+3986111000001100	Generic Gregoderm ointment
+3986311000001103	Gregoderm ointment
+3986511000001109	Gregoderm ointment
+331771000	Hydrocortisone 1% / Neomycin 0.5% cream
+4194611000001104	Hydrocortisone 1% / Neomycin 0.5% cream
+4194711000001108	Hydrocortisone 1% / Neomycin 0.5% cream
+4194811000001100	Hydrocortisone 1% / Neomycin 0.5% cream
+4873211000001104	Hydrocortisone 1% / Neomycin 0.5% cream
+4873311000001107	Hydrocortisone 1% / Neomycin 0.5% cream
+4981411000001102	Hydrocort 1% / Potassium hydroxyquinoline sulfate 0.5% crm
+4979611000001109	Hydrocort 1% / Potassium hydroxyquinoline sulfate 0.5% crm
+4979711000001100	Quinocort cream
+4979811000001108	Quinocort cream
+15437011000001102	Ichthammol 2% in Hydrocortisone 1% ointment
+15431711000001109	Ichthammol 2% in Hydrocortisone 1% ointment
+15431811000001101	Ichthammol 2% in Hydrocortisone 1% ointment
+15431911000001106	Ichthammol 2% in Hydrocortisone 1% ointment
+15437111000001101	Ichthammol 5% in Hydrocortisone 1% ointment
+15432011000001104	Ichthammol 5% in Hydrocortisone 1% ointment
+15432111000001103	Ichthammol 5% in Hydrocortisone 1% ointment
+15432211000001109	Ichthammol 5% in Hydrocortisone 1% ointment
+375446003	Hydrocortisone 1% lotion
+18043011000001109	Hydrocortisone 1% lotion
+18043111000001105	Hydrocortisone 1% lotion
+18043211000001104	Hydrocortisone 1% lotion
+18153711000001104	Hydrocortisone 2% lotion
+18150511000001103	Hydrocortisone 2% lotion
+18150611000001104	Hydrocortisone 2% lotion
+18150711000001108	Hydrocortisone 2% lotion
+24856611000001108	Salicylic acid 2% / Sulfur 2% in Hydrocortisone 1% cream
+24783611000001105	Salicylic acid 2% / Sulfur 2% in Hydrocortisone 1% cream
+24783711000001101	Salicylic acid 2% / Sulfur 2% in Hydrocortisone 1% cream
+24783811000001109	Salicylic acid 2% / Sulfur 2% in Hydrocortisone 1% cream
+28990911000001101	Sulfur 2% in Hydrocortisone 0.5% cream
+28979911000001102	Sulfur 2% in Hydrocortisone 0.5% cream
+28980011000001101	Sulfur 2% in Hydrocortisone 0.5% cream
+28980211000001106	Sulfur 2% in Hydrocortisone 0.5% cream
+29669411000001104	Hydrocortisone 0.5% / Salicylic acid 0.25% in Aqueous cream
+29512211000001104	Hydrocortisone 0.5% / Salicylic acid 0.25% in Aqueous cream
+29512311000001107	Hydrocortisone 0.5% / Salicylic acid 0.25% in Aqueous cream
+29512511000001101	Hydrocortisone 0.5% / Salicylic acid 0.25% in Aqueous cream
+29669511000001100	Hydrocortisone 1%/Salicylic acid 1%/Sulfur 1% in Aqueous crm
+29515211000001109	Hydrocortisone 1%/Salicylic acid 1%/Sulfur 1% in Aqueous crm
+29515711000001102	Hydrocortisone 1%/Salicylic acid 1%/Sulfur 1% in Aqueous crm
+29515911000001100	Hydrocortisone 1%/Salicylic acid 1%/Sulfur 1% in Aqueous crm
+29733411000001103	Sulfur 0.5% in Hydrocortisone 1% cream
+29706611000001102	Sulfur 0.5% in Hydrocortisone 1% cream
+29706711000001106	Sulfur 0.5% in Hydrocortisone 1% cream
+29706811000001103	Sulfur 0.5% in Hydrocortisone 1% cream
+29732811000001109	Salicylic acid 1% / Sulfur 1% in Hydrocortisone 1% cream
+29715211000001108	Salicylic acid 1% / Sulfur 1% in Hydrocortisone 1% cream
+29715311000001100	Salicylic acid 1% / Sulfur 1% in Hydrocortisone 1% cream
+29715411000001107	Salicylic acid 1% / Sulfur 1% in Hydrocortisone 1% cream
+30780711000001107	Hydrocortisone 0.5% ointment 50% in White soft paraffin
+30770511000001105	Hydrocortisone 0.5% ointment 50% in White soft paraffin
+30770611000001109	Hydrocortisone 0.5% ointment 50% in White soft paraffin
+30770711000001100	Hydrocortisone 0.5% ointment 50% in White soft paraffin
+30780911000001109	Ichthammol 1% / Clioquinol 3% in Hydrocortisone 1% ointment
+30770811000001108	Ichthammol 1% / Clioquinol 3% in Hydrocortisone 1% ointment
+30770911000001103	Ichthammol 1% / Clioquinol 3% in Hydrocortisone 1% ointment
+30771011000001106	Ichthammol 1% / Clioquinol 3% in Hydrocortisone 1% ointment
+30780811000001104	Hydrocortisone 2.5% in White soft paraffin
+30774011000001109	Hydrocortisone 2.5% in White soft paraffin
+30774111000001105	Hydrocortisone 2.5% in White soft paraffin
+30774211000001104	Hydrocortisone 2.5% in White soft paraffin
+31088411000001105	Sulfur 2% in Hydrocortisone 1% ointment
+31076811000001103	Sulfur 2% in Hydrocortisone 1% ointment
+31076911000001108	Sulfur 2% in Hydrocortisone 1% ointment
+31077011000001107	Sulfur 2% in Hydrocortisone 1% ointment
+31535411000001108	Sulfur 1% in Hydrocortisone 1% cream
+31505411000001103	Sulfur 1% in Hydrocortisone 1% cream
+31505311000001105	Sulfur 1% in Hydrocortisone 1% cream
+31505511000001104	Sulfur 1% in Hydrocortisone 1% cream
+32392311000001100	Hydrocortisone 1% cream 50% in Aqueous cream
+32251111000001108	Hydrocortisone 1% cream 50% in Aqueous cream
+32251411000001103	Hydrocortisone 1% cream 50% in Aqueous cream
+32251511000001104	Hydrocortisone 1% cream 50% in Aqueous cream
+32499511000001109	Hydrocortisone 2% in White soft paraffin
+32477511000001107	Hydrocortisone 2% in White soft paraffin
+32477611000001106	Hydrocortisone 2% in White soft paraffin
+32477711000001102	Hydrocortisone 2% in White soft paraffin
+32499411000001105	Hydrocortisone 1% in White soft paraffin
+32477811000001105	Hydrocortisone 1% in White soft paraffin
+32477911000001100	Hydrocortisone 1% in White soft paraffin
+32478011000001103	Hydrocortisone 1% in White soft paraffin
+32877411000001100	Hydrocortisone 2.5% / Sulfur 1% in Aqueous cream
+32863911000001106	Hydrocortisone 2.5% / Sulfur 1% in Aqueous cream
+32864011000001109	Hydrocortisone 2.5% / Sulfur 1% in Aqueous cream
+32864111000001105	Hydrocortisone 2.5% / Sulfur 1% in Aqueous cream
+16036211000001100	Hydrocortisone 100mg suppositories
+16017811000001105	Hydrocortisone 100mg suppositories
+16017911000001100	Hydrocortisone 100mg suppositories
+16018111000001102	Hydrocortisone 100mg suppositories
+16090211000001106	Hydrocortisone 50mg suppositories
+16085411000001104	Hydrocortisone 50mg suppositories
+16085511000001100	Hydrocortisone 50mg suppositories
+16085611000001101	Hydrocortisone 50mg suppositories
+317678004	Hydrocortisone 25mg suppositories
+20549211000001101	Hydrocortisone 25mg suppositories
+20549311000001109	Hydrocortisone 25mg suppositories
+20549411000001102	Hydrocortisone 25mg suppositories
+33631711000001104	Hydrocortisone 200mg suppositories
+33625711000001104	Hydrocortisone 200mg suppositories
+33625811000001107	Hydrocortisone 200mg suppositories
+33625911000001102	Hydrocortisone 200mg suppositories
+3391011000001103	Generic Anugesic HC cream
+1250211000001105	Generic Anugesic HC cream
+375111000001101	Anugesic HC cream
+2133011000001105	Anugesic HC cream
+3391211000001108	Generic Anusol HC ointment
+1019411000001103	Generic Anusol HC ointment
+1270111000001102	Generic Anusol HC ointment
+429711000001108	Anusol HC ointment
+2156411000001105	Anusol HC ointment
+289611000001105	Anusol Plus HC ointment
+2156611000001108	Anusol Plus HC ointment
+24642411000001103	Anusol Soothing Relief ointment
+24642611000001100	Anusol Soothing Relief ointment
+3391111000001102	Generic Anugesic-HC suppositories
+1276611000001107	Generic Anugesic-HC suppositories
+495211000001105	Anugesic-HC suppositories
+2203211000001106	Anugesic-HC suppositories
+3486311000001100	Lidocaine 5% / Hydrocortisone acetate 0.275% ointment
+1018211000001107	Lidocaine 5% / Hydrocortisone acetate 0.275% ointment
+5033311000001102	Lidocaine 5% / Hydrocortisone acetate 0.275% ointment
+929011000001108	Xyloproct 5%/0.275% ointment
+2469011000001101	Xyloproct 5%/0.275% ointment
+5033911000001101	Xyloproct 5%/0.275% ointment
+3335111000001108	Cinchocaine 0.5% / Hydrocortisone 0.5% ointment
+957411000001109	Cinchocaine 0.5% / Hydrocortisone 0.5% ointment
+754811000001109	Uniroid HC ointment
+2683211000001109	Uniroid HC ointment
+539211000001105	Proctosedyl ointment
+2683611000001106	Proctosedyl ointment
+3335211000001102	Cinchocaine 5mg / Hydrocortisone 5mg suppositories
+1281811000001108	Cinchocaine 5mg / Hydrocortisone 5mg suppositories
+564411000001103	Proctosedyl suppositories
+2684111000001101	Proctosedyl suppositories
+904311000001101	Uniroid HC suppositories
+2684411000001106	Uniroid HC suppositories
+3391311000001100	Generic Anusol HC suppositories
+2947911000001104	Generic Anusol HC suppositories
+2948111000001101	Anusol HC suppositories
+2948211000001107	Anusol HC suppositories
+2948311000001104	Anusol Plus HC suppositories
+2948611000001109	Anusol Plus HC suppositories
+24606111000001101	Anusol Soothing Relief suppositories
+24606211000001107	Anusol Soothing Relief suppositories
+36056611000001102	Hydrocortisone 1% / Pramocaine 1% foam enema
+3057111000001102	Hydrocortisone 1% / Pramocaine 1% foam enema
+3057311000001100	Proctofoam HC foam enema
+3057511000001106	Proctofoam HC foam enema
+317720004	Lidocaine 1% / Hydrocortisone 0.2% spray
+3829411000001101	Lidocaine 1% / Hydrocortisone 0.2% spray
+3829511000001102	Germoloids HC spray
+3829811000001104	Germoloids HC spray
+3830211000001109	Perinal spray
+3830611000001106	Perinal spray
+36056911000001108	Hydrocortisone sodium phosphate 100mg/1ml inj ampoules
+3851711000001109	Hydrocortisone sodium phosphate 100mg/1ml inj ampoules
+3852011000001104	Efcortesol 100mg/1ml solution for injection ampoules
+3852211000001109	Efcortesol 100mg/1ml solution for injection ampoules
+30393911000001101	Hydrocortisone sodium phosphate 100mg/1ml inj ampoules
+30394211000001108	Hydrocortisone sodium phosphate 100mg/1ml inj ampoules
+36057011000001107	Hydrocortisone sodium phosphate 500mg/5ml inj ampoules
+4888411000001100	Hydrocortisone sodium phosphate 500mg/5ml inj ampoules
+4888811000001103	Efcortesol 500mg/5ml solution for injection ampoules
+4888911000001108	Efcortesol 500mg/5ml solution for injection ampoules
+30394611000001105	Hydrocortisone sodium phosphate 500mg/5ml inj ampoules
+30394811000001109	Hydrocortisone sodium phosphate 500mg/5ml inj ampoules
+4195211000001100	Hydrocortisone sodium succinate 100mg inj vials
+4182211000001106	Hydrocortisone sodium succinate 100mg inj vials
+4182611000001108	Solu-Cortef 100mg inj vials
+4182811000001107	Solu-Cortef 100mg inj vials
+13893711000001102	Hydrocortisone sodium succinate 100mg pdr for soln inj vials
+13870711000001103	Hydrocortisone sodium succinate 100mg pdr for soln inj vials
+13871211000001104	Solu-Cortef 100mg powder for solution for injection vials
+13871311000001107	Solu-Cortef 100mg powder for solution for injection vials
+38536611000001108	Hydrocortisone sodium succinate 100mg pdr for soln inj vials
+38536811000001107	Hydrocortisone sodium succinate 100mg pdr for soln inj vials
+36056711000001106	Hydrocortisone acetate 25mg/1ml inj ampoules
+3017111000001109	Hydrocortisone acetate 25mg/1ml inj ampoules
+3017511000001100	Hydrocortistab 25mg/1ml suspension for injection ampoules
+3017811000001102	Hydrocortistab 25mg/1ml suspension for injection ampoules
+330477009	Hydrocortisone 2.5% eye ointment
+3850811000001109	Hydrocortisone 2.5% eye ointment
+3851011000001107	Hydrocortisone 2.5% eye ointment
+3851111000001108	Hydrocortisone 2.5% eye ointment
+3851211000001102	Hydrocortisone 2.5% eye ointment
+3851311000001105	Hydrocortisone 2.5% eye ointment
+11530011000001107	Hydrocortisone 2.5% eye ointment
+11530111000001108	Hydrocortisone 2.5% eye ointment
+330475001	Hydrocortisone acetate 0.5% eye ointment
+3851511000001104	Hydrocortisone acetate 0.5% eye ointment
+32477211000001109	Hydrocortisone acetate 0.5% eye ointment
+3851911000001106	Hydrocortisone acetate 0.5% eye ointment
+3852111000001103	Hydrocortisone acetate 0.5% eye ointment
+3852311000001101	Hydrocortisone acetate 0.5% eye ointment
+3852411000001108	Hydrocortisone acetate 0.5% eye ointment
+3852511000001107	Hydrocortisone acetate 0.5% eye ointment
+3852711000001102	Hydrocortisone acetate 0.5% eye ointment
+32477311000001101	Hydrocortisone acetate 0.5% eye ointment
+32477411000001108	Hydrocortisone acetate 0.5% eye ointment
+330476000	Hydrocortisone 1% eye ointment
+4004911000001101	Hydrocortisone 1% eye ointment
+20886011000001106	Hydrocortisone 1% eye ointment
+4005011000001101	Hydrocortisone 1% eye ointment
+4005111000001100	Hydrocortisone 1% eye ointment
+4005211000001106	Hydrocortisone 1% eye ointment
+4005311000001103	Hydrocortisone 1% eye ointment
+4249111000001103	Hydrocortisone 1% eye ointment
+4249211000001109	Hydrocortisone 1% eye ointment
+20886111000001107	Hydrocortisone 1% eye ointment
+20886211000001101	Hydrocortisone 1% eye ointment
+4880511000001104	Hydrocortisone acetate 1% eye drops
+4877211000001108	Hydrocortisone acetate 1% eye drops
+4877311000001100	Hydrocortisone acetate 1% eye drops
+4877411000001107	Hydrocortisone acetate 1% eye drops
+331742001	Hydrocortisone acetate 1% / Fusidic acid 2% cream
+2903311000001104	Hydrocortisone acetate 1% / Fusidic acid 2% cream
+2903411000001106	Hydrocortisone acetate 1% / Fusidic acid 2% cream
+2903711000001100	Fucidin H cream
+2903911000001103	Fucidin H cream
+2904011000001100	Fucidin H cream
+331740009	Hydrocortisone acetate 1% / Sodium fusidate 2% ointment
+2904511000001108	Hydrocortisone acetate 1% / Sodium fusidate 2% ointment
+2904711000001103	Hydrocortisone acetate 1% / Sodium fusidate 2% ointment
+2905011000001101	Fucidin H ointment
+2905211000001106	Fucidin H ointment
+2905411000001105	Fucidin H ointment
+332041002	Hydrocortisone acetate 1% cream
+4927911000001109	Hydrocortisone acetate 1% cream
+20551711000001107	Hydrocortisone acetate 1% cream
+4928011000001106	Lanacort 1% cream
+4928111000001107	Lanacort 1% cream
+4928211000001101	Hc45 Hydrocortisone 1% cream
+4928311000001109	Hc45 Hydrocortisone 1% cream
+20551811000001104	Boots Bite and Sting Relief Hydrocortisone 1% cream
+20551911000001109	Boots Bite and Sting Relief Hydrocortisone 1% cream
+331700003	Hydrocortisone acetate 1% ointment
+4965011000001105	Hydrocortisone acetate 1% ointment
+4965111000001106	Lanacort 1% ointment
+4965211000001100	Lanacort 1% ointment
+317681009	Hydrocortisone 10% foam aerosol enema
+3048511000001107	Hydrocortisone 10% foam aerosol enema
+3050211000001109	Colifoam 10% aerosol
+3050311000001101	Colifoam 10% aerosol

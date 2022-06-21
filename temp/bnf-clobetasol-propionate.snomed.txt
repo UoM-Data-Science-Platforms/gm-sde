@@ -1,0 +1,208 @@
+346938005	Clobetasol 0.05% cream
+1326111000001106	Clobetasol 0.05% cream
+1232611000001109	Clobetasol 0.05% cream
+60611000001107	Dermovate 0.05% cream
+1933511000001104	Dermovate 0.05% cream
+1933611000001100	Dermovate 0.05% cream
+21304111000001107	ClobaDerm 0.05% cream (Auden McKenzie)
+21304211000001101	ClobaDerm 0.05% cream (Auden McKenzie)
+21304311000001109	ClobaDerm 0.05% cream (Auden McKenzie)
+38016611000001104	ClobaDerm 0.05% cream (Accord Healthcare)
+38016711000001108	ClobaDerm 0.05% cream (Accord Healthcare)
+38034711000001105	ClobaDerm 0.05% cream (Accord Healthcare)
+347928005	Clobetasol 0.05% ointment
+1159011000001106	Clobetasol 0.05% ointment
+1310311000001100	Clobetasol 0.05% ointment
+37718211000001105	Clobetasol 0.05% ointment
+724611000001106	Dermovate 0.05% ointment
+1933911000001106	Dermovate 0.05% ointment
+1934011000001109	Dermovate 0.05% ointment
+21304411000001102	ClobaDerm 0.05% ointment (Auden McKenzie)
+21304511000001103	ClobaDerm 0.05% ointment (Auden McKenzie)
+21304611000001104	ClobaDerm 0.05% ointment (Auden McKenzie)
+37467411000001100	ClobaDerm 0.05% ointment (Accord Healthcare)
+37467511000001101	ClobaDerm 0.05% ointment (Accord Healthcare)
+37558411000001102	ClobaDerm 0.05% ointment (Accord Healthcare)
+3335611000001100	Clobetasol 0.05% scalp application
+1084511000001100	Clobetasol 0.05% scalp application
+1203611000001107	Clobetasol 0.05% scalp application
+107011000001109	Dermovate 0.05% scalp application
+1986511000001102	Dermovate 0.05% scalp application
+1986611000001103	Dermovate 0.05% scalp application
+3405211000001103	Clobetasol 500microg/Neomycin 5mg/Nystatin 100,000unit/g crm
+1165011000001101	Clobetasol 500microg/Neomycin 5mg/Nystatin 100,000unit/g crm
+16511000001106	Dermovate-NN cream
+2201111000001101	Dermovate-NN cream
+18670711000001106	Clobetasol 500microg/Neomycin 5mg/Nystatin 100,000unit/g crm
+18670811000001103	Clobetasol 500microg/Neomycin 5mg/Nystatin 100,000unit/g crm
+19354911000001107	Clobetasol 500microg/Neomycin 5mg/Nystatin 100,000unit/g crm
+19355011000001107	Clobetasol 500microg/Neomycin 5mg/Nystatin 100,000unit/g crm
+21557411000001104	Clobetasol 500microg/Neomycin 5mg/Nystatin 100,000unit/g crm
+21557511000001100	Clobetasol 500microg/Neomycin 5mg/Nystatin 100,000unit/g crm
+24520511000001105	Clobetasol 500microg/Neomycin 5mg/Nystatin 100,000unit/g crm
+24520611000001109	Clobetasol 500microg/Neomycin 5mg/Nystatin 100,000unit/g crm
+28880611000001104	Clobetasol 500microg/Neomycin 5mg/Nystatin 100,000unit/g crm
+28880711000001108	Clobetasol 500microg/Neomycin 5mg/Nystatin 100,000unit/g crm
+3405411000001104	Clobetasol 500microg/Neomycin 5mg/Nystatin 100,000u/g oint
+1023711000001101	Clobetasol 500microg/Neomycin 5mg/Nystatin 100,000u/g oint
+505511000001102	Dermovate-NN ointment
+2203111000001100	Dermovate-NN ointment
+18670911000001108	Clobetasol 500microg/Neomycin 5mg/Nystatin 100,000u/g oint
+18671011000001100	Clobetasol 500microg/Neomycin 5mg/Nystatin 100,000u/g oint
+19355111000001108	Clobetasol 500microg/Neomycin 5mg/Nystatin 100,000u/g oint
+19355211000001102	Clobetasol 500microg/Neomycin 5mg/Nystatin 100,000u/g oint
+21557611000001101	Clobetasol 500microg/Neomycin 5mg/Nystatin 100,000u/g oint
+21557711000001105	Clobetasol 500microg/Neomycin 5mg/Nystatin 100,000u/g oint
+39846411000001105	Clobetasol 500microg/Neomycin 5mg/Nystatin 100,000u/g oint
+39846511000001109	Clobetasol 500microg/Neomycin 5mg/Nystatin 100,000u/g oint
+375770003	Clobetasol 500micrograms/g foam
+10264611000001102	Clobetasol 500micrograms/g foam
+10264711000001106	Clarelux 500micrograms/g foam
+10264811000001103	Clarelux 500micrograms/g foam
+11771811000001108	Clobetasol 500micrograms/g shampoo
+11771411000001106	Clobetasol 500micrograms/g shampoo
+24497811000001106	Clobetasol 500micrograms/g shampoo
+11771511000001105	Etrivex 500micrograms/g shampoo
+11771611000001109	Etrivex 500micrograms/g shampoo
+40207711000001100	Clobetasol 500micrograms/g shampoo
+40207811000001108	Clobetasol 500micrograms/g shampoo
+15226611000001106	Coal tar solution 5% in Clobetasol 0.05% ointment
+15206311000001109	Coal tar solution 5% in Clobetasol 0.05% ointment
+15206411000001102	Coal tar solution 5% in Clobetasol 0.05% ointment
+15206511000001103	Coal tar solution 5% in Clobetasol 0.05% ointment
+15226511000001107	Coal tar solution 5% in Clobetasol 0.05% cream
+15206611000001104	Coal tar solution 5% in Clobetasol 0.05% cream
+15206711000001108	Coal tar solution 5% in Clobetasol 0.05% cream
+15206811000001100	Coal tar solution 5% in Clobetasol 0.05% cream
+15410011000001105	Clobetasol 0.05% ointment 50% in White soft paraffin
+15403811000001108	Clobetasol 0.05% ointment 50% in White soft paraffin
+15403911000001103	Clobetasol 0.05% ointment 50% in White soft paraffin
+15404011000001100	Clobetasol 0.05% ointment 50% in White soft paraffin
+16075411000001108	Salicylic acid 15% in Clobetasol 0.05% ointment
+16044711000001102	Salicylic acid 15% in Clobetasol 0.05% ointment
+16044811000001105	Salicylic acid 15% in Clobetasol 0.05% ointment
+16045111000001104	Salicylic acid 15% in Clobetasol 0.05% ointment
+20422911000001105	Clobetasol 0.05% ointment 25% in White soft paraffin
+20423011000001102	Clobetasol 0.05% ointment 25% in White soft paraffin
+20423111000001101	Clobetasol 0.05% ointment 25% in White soft paraffin
+20423211000001107	Clobetasol 0.05% ointment 25% in White soft paraffin
+20423411000001106	Clobetasol 0.05% ointment 25% in White soft paraffin
+20423311000001104	Clobetasol 0.05% ointment 25% in White soft paraffin
+22911611000001106	Clobetasol 0.05% ointment 10% in Generic Unguentum M cream
+22911711000001102	Clobetasol 0.05% ointment 10% in Generic Unguentum M cream
+22911911000001100	Clobetasol 0.05% ointment 10% in Generic Unguentum M cream
+22912211000001102	Clobetasol 0.05% ointment 10% in Generic Unguentum M cream
+22912411000001103	Clobetasol 0.05% ointment 10% in Generic Unguentum M cream
+22912611000001100	Clobetasol 0.05% ointment 10% in Generic Unguentum M cream
+28423211000001105	Salicylic acid 50% in Clobetasol 0.05% ointment
+28411211000001100	Salicylic acid 50% in Clobetasol 0.05% ointment
+28411311000001108	Salicylic acid 50% in Clobetasol 0.05% ointment
+28411411000001101	Salicylic acid 50% in Clobetasol 0.05% ointment
+28946111000001109	Clobetasol 0.05% ointment 20% in White soft paraffin
+28930211000001101	Clobetasol 0.05% ointment 20% in White soft paraffin
+28930311000001109	Clobetasol 0.05% ointment 20% in White soft paraffin
+28930411000001102	Clobetasol 0.05% ointment 20% in White soft paraffin
+28945711000001102	Clobetasol 0.05% cream 25% in White soft paraffin
+28930511000001103	Clobetasol 0.05% cream 25% in White soft paraffin
+28930611000001104	Clobetasol 0.05% cream 25% in White soft paraffin
+28930711000001108	Clobetasol 0.05% cream 25% in White soft paraffin
+28945911000001100	Clobetasol 0.05% cream 50% in White soft paraffin
+28930811000001100	Clobetasol 0.05% cream 50% in White soft paraffin
+28930911000001105	Clobetasol 0.05% cream 50% in White soft paraffin
+28931011000001102	Clobetasol 0.05% cream 50% in White soft paraffin
+28946011000001108	Clobetasol 0.05% ointment 10% in White soft paraffin
+28931111000001101	Clobetasol 0.05% ointment 10% in White soft paraffin
+28931211000001107	Clobetasol 0.05% ointment 10% in White soft paraffin
+28931411000001106	Clobetasol 0.05% ointment 10% in White soft paraffin
+28947011000001106	Coal tar solution 6% in Clobetasol 0.05% cream
+28931611000001109	Coal tar solution 6% in Clobetasol 0.05% cream
+28931711000001100	Coal tar solution 6% in Clobetasol 0.05% cream
+28932211000001100	Coal tar solution 6% in Clobetasol 0.05% cream
+28946211000001103	Clobetasol 0.05% ointment 30% in White soft paraffin
+28935811000001106	Clobetasol 0.05% ointment 30% in White soft paraffin
+28935911000001101	Clobetasol 0.05% ointment 30% in White soft paraffin
+28936011000001109	Clobetasol 0.05% ointment 30% in White soft paraffin
+28946411000001104	Coal tar 3% / Salicylic acid 2% in Clobetasol 0.05% ointment
+28938011000001108	Coal tar 3% / Salicylic acid 2% in Clobetasol 0.05% ointment
+28938111000001109	Coal tar 3% / Salicylic acid 2% in Clobetasol 0.05% ointment
+28938211000001103	Coal tar 3% / Salicylic acid 2% in Clobetasol 0.05% ointment
+28947511000001103	Salicylic acid 10% in Clobetasol 0.05% ointment
+28938311000001106	Salicylic acid 10% in Clobetasol 0.05% ointment
+28938411000001104	Salicylic acid 10% in Clobetasol 0.05% ointment
+28938511000001100	Salicylic acid 10% in Clobetasol 0.05% ointment
+28947411000001102	Propylene glycol 50% in Clobetasol 0.05% ointment
+28938611000001101	Propylene glycol 50% in Clobetasol 0.05% ointment
+28938711000001105	Propylene glycol 50% in Clobetasol 0.05% ointment
+28938811000001102	Propylene glycol 50% in Clobetasol 0.05% ointment
+28945811000001105	Clobetasol 0.05% cream 30% in Aqueous cream
+28938911000001107	Clobetasol 0.05% cream 30% in Aqueous cream
+28939011000001103	Clobetasol 0.05% cream 30% in Aqueous cream
+28939111000001102	Clobetasol 0.05% cream 30% in Aqueous cream
+28946611000001101	Coal tar solution 10% in Clobetasol 0.05% ointment
+28939211000001108	Coal tar solution 10% in Clobetasol 0.05% ointment
+28939311000001100	Coal tar solution 10% in Clobetasol 0.05% ointment
+28939411000001107	Coal tar solution 10% in Clobetasol 0.05% ointment
+29826711000001102	Clobetasol 0.05% cream 10% in Generic Unguentum M cream
+29783511000001105	Clobetasol 0.05% cream 10% in Generic Unguentum M cream
+29783611000001109	Clobetasol 0.05% cream 10% in Generic Unguentum M cream
+29783711000001100	Clobetasol 0.05% cream 10% in Generic Unguentum M cream
+29826811000001105	Clobetasol 0.05% cream 50% in Generic Unguentum M cream
+29783811000001108	Clobetasol 0.05% cream 50% in Generic Unguentum M cream
+29783911000001103	Clobetasol 0.05% cream 50% in Generic Unguentum M cream
+29784011000001100	Clobetasol 0.05% cream 50% in Generic Unguentum M cream
+29828111000001104	Propylene glycol 40% in Clobetasol 0.05% ointment
+29784311000001102	Propylene glycol 40% in Clobetasol 0.05% ointment
+29784411000001109	Propylene glycol 40% in Clobetasol 0.05% ointment
+29784611000001107	Propylene glycol 40% in Clobetasol 0.05% ointment
+29828211000001105	Salicylic acid 5% in Clobetasol 0.05% cream
+29785011000001101	Salicylic acid 5% in Clobetasol 0.05% cream
+29785111000001100	Salicylic acid 5% in Clobetasol 0.05% cream
+29785211000001106	Salicylic acid 5% in Clobetasol 0.05% cream
+30919811000001102	Coal tar solution 10% in Clobetasol 0.05% cream
+30847611000001109	Coal tar solution 10% in Clobetasol 0.05% cream
+30847711000001100	Coal tar solution 10% in Clobetasol 0.05% cream
+30847811000001108	Coal tar solution 10% in Clobetasol 0.05% cream
+30919411000001104	Clobetasol 0.05% ointment 25% in Generic Unguentum M cream
+30848211000001106	Clobetasol 0.05% ointment 25% in Generic Unguentum M cream
+30848311000001103	Clobetasol 0.05% ointment 25% in Generic Unguentum M cream
+30848411000001105	Clobetasol 0.05% ointment 25% in Generic Unguentum M cream
+32391811000001100	Clobetasol 0.05% oint 25%/Dithranol 0.05% in WSP
+32332311000001105	Clobetasol 0.05% oint 25%/Dithranol 0.05% in WSP
+32332611000001100	Clobetasol 0.05% oint 25%/Dithranol 0.05% in WSP
+32332811000001101	Clobetasol 0.05% oint 25%/Dithranol 0.05% in WSP
+32653811000001104	Clobetasol 0.05% cream 25% in Cetomacrogol cream (Formula A)
+32643411000001103	Clobetasol 0.05% cream 25% in Cetomacrogol cream (Formula A)
+32643511000001104	Clobetasol 0.05% cream 25% in Cetomacrogol cream (Formula A)
+32643611000001100	Clobetasol 0.05% cream 25% in Cetomacrogol cream (Formula A)
+32653911000001109	Clobetasol 0.05% oint 20% in Cetomacrogol crm (Formula A)
+32643811000001101	Clobetasol 0.05% oint 20% in Cetomacrogol crm (Formula A)
+32644011000001109	Clobetasol 0.05% oint 20% in Cetomacrogol crm (Formula A)
+32644111000001105	Clobetasol 0.05% oint 20% in Cetomacrogol crm (Formula A)
+32748111000001109	Clobetasol 0.05% cream 10% in Aqueous cream
+32707111000001101	Clobetasol 0.05% cream 10% in Aqueous cream
+32707211000001107	Clobetasol 0.05% cream 10% in Aqueous cream
+32707311000001104	Clobetasol 0.05% cream 10% in Aqueous cream
+32748311000001106	Clobetasol 0.05% ointment 50% in Emulsifying ointment
+32729911000001102	Clobetasol 0.05% ointment 50% in Emulsifying ointment
+32730011000001107	Clobetasol 0.05% ointment 50% in Emulsifying ointment
+32730111000001108	Clobetasol 0.05% ointment 50% in Emulsifying ointment
+32748211000001103	Clobetasol 0.05% crm 25%/Propylene glycol 40% in Aqueous crm
+32740911000001105	Clobetasol 0.05% crm 25%/Propylene glycol 40% in Aqueous crm
+32741011000001102	Clobetasol 0.05% crm 25%/Propylene glycol 40% in Aqueous crm
+32741111000001101	Clobetasol 0.05% crm 25%/Propylene glycol 40% in Aqueous crm
+35148311000001101	Coal tar solution 25% in Clobetasol 0.05% ointment
+35133211000001100	Coal tar solution 25% in Clobetasol 0.05% ointment
+35133311000001108	Coal tar solution 25% in Clobetasol 0.05% ointment
+35133411000001101	Coal tar solution 25% in Clobetasol 0.05% ointment
+35642511000001109	Clobet .05% oint 50%/Propylene glycol 48%/Salic acid 2% oint
+35640111000001104	Clobet .05% oint 50%/Propylene glycol 48%/Salic acid 2% oint
+35640211000001105	Clobet .05% oint 50%/Propylene glycol 48%/Salic acid 2% oint
+35640311000001102	Clobet .05% oint 50%/Propylene glycol 48%/Salic acid 2% oint
+36002611000001109	Coal tar 10% in Clobetasol 0.05% ointment
+35991611000001107	Coal tar 10% in Clobetasol 0.05% ointment
+35991711000001103	Coal tar 10% in Clobetasol 0.05% ointment
+35991811000001106	Coal tar 10% in Clobetasol 0.05% ointment
+36903311000001102	Clobet .05% crm 25%/Propylene glycol 40% in Gen Unguen M crm
+36892711000001104	Clobet .05% crm 25%/Propylene glycol 40% in Gen Unguen M crm
+36892811000001107	Clobet .05% crm 25%/Propylene glycol 40% in Gen Unguen M crm
+36892911000001102	Clobet .05% crm 25%/Propylene glycol 40% in Gen Unguen M crm

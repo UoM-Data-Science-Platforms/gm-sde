@@ -1,0 +1,21 @@
+25254111000001105	DuoResp Spiromax 160microg/dose / 4.5microg/dose dry pdr inh
+25254211000001104	DuoResp Spiromax 160microg/dose / 4.5microg/dose dry pdr inh
+25254711000001106	DuoResp Spiromax 320microg/dose / 9microg/dose dry pdr inh
+25254911000001108	DuoResp Spiromax 320microg/dose / 9microg/dose dry pdr inh
+34950611000001103	Fobumix Easyhaler 80microg/dose / 4.5microg/dose dry pdr inh
+34950711000001107	Fobumix Easyhaler 80microg/dose / 4.5microg/dose dry pdr inh
+34950311000001108	Fobumix Easyhaler 160microg / 4.5microg/dose dry pdr inh
+34950511000001102	Fobumix Easyhaler 160microg / 4.5microg/dose dry pdr inh
+34950411000001101	Fobumix Easyhaler 160microg / 4.5microg/dose dry pdr inh
+34812111000001106	Fobumix Easyhaler 320microg/dose / 9microg/dose dry pdr inh
+34812311000001108	Fobumix Easyhaler 320microg/dose / 9microg/dose dry pdr inh
+3294211000001101	Symbicort 100/6 Turbohaler
+3294311000001109	Symbicort 100/6 Turbohaler
+3294611000001104	Symbicort 200/6 Turbohaler
+3294711000001108	Symbicort 200/6 Turbohaler
+4373811000001100	Symbicort 400/12 Turbohaler
+4374111000001109	Symbicort 400/12 Turbohaler
+32926011000001100	Symbicort 200microg/dose / 6microg/dose pressurised inh
+32926711000001103	Symbicort 200microg/dose / 6microg/dose pressurised inh
+39105811000001102	Symbicort 100microg/dose / 3microg/dose pressurised inh
+39106111000001103	Symbicort 100microg/dose / 3microg/dose pressurised inh

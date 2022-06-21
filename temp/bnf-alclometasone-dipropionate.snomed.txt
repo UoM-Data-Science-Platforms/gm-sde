@@ -1,0 +1,19 @@
+331777001	Alclometasone 0.05% cream
+2894711000001106	Alclometasone 0.05% cream
+20584211000001105	Alclometasone 0.05% cream
+2894811000001103	Modrasone 0.05% cream
+2894911000001108	Modrasone 0.05% cream
+20584311000001102	Boots Derma Care Eczema & Dermatitis Flare-Up 0.05% cream
+20584411000001109	Boots Derma Care Eczema & Dermatitis Flare-Up 0.05% cream
+38913411000001104	Alclometasone 0.05% cream
+38913511000001100	Alclometasone 0.05% cream
+39137511000001104	Alclometasone 0.05% cream
+39137611000001100	Alclometasone 0.05% cream
+39220311000001109	Alclometasone 0.05% cream
+39220411000001102	Alclometasone 0.05% cream
+40330711000001101	Alclometasone 0.05% cream
+40330811000001109	Alclometasone 0.05% cream
+331778006	Alclometasone 0.05% ointment
+2895111000001109	Alclometasone 0.05% ointment
+2895311000001106	Modrasone 0.05% ointment
+2895411000001104	Modrasone 0.05% ointment
