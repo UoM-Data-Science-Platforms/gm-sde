@@ -486,7 +486,7 @@ LINK: [https://github.com/rw251/.../tests/vitamin-d/1](https://github.com/rw251/
 
 ### Testosterone (level)
 
-A patient's testosterone level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`4473.00 - Serum testosterone`). It does not include codes that indicate a patient's BMI (`4473100 - Serum testosterone level abnormal`) without giving the actual value.
+A patient's testosterone level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`4473.00 - Serum testosterone`). It does not include codes that indicate a patient's testosterone level (`4473100 - Serum testosterone level abnormal`) without giving the actual value.
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.91% - 6.24%` suggests that this code set is likely well defined.
@@ -2237,6 +2237,7 @@ All code sets required for this analysis are listed here. Individual lists for e
 |copd v1|emis|EMISNQAC878|Acute non-infective exacerbation of chronic obstructive pulmonary disease|
 |copd v1|emis|ESCTAC8|Acute infective exacerbation of chronic obstructive airways disease|
 |copd v1|readv2|8H2R.00|Admit COPD emergency|
+|copd v1|readv2|9kf0.00|Chronic obstructive pulmonary disease patient unsuitable for pulmonary rehabilitation|
 |copd v1|readv2|9kf0.11|Chronic obstructive pulmonary disease patient unsuitable for pulmonary rehabilitation|
 |copd v1|readv2|H3...00|Chronic obstructive pulmonary disease|
 |copd v1|readv2|H3...11|Chronic obstructive airways disease|
@@ -2959,7 +2960,7 @@ All code sets required for this analysis are listed here. Individual lists for e
 |severe-mental-illness v1|readv2|Eu20y11|[X]Cenesthopathic schizophrenia|
 |severe-mental-illness v1|readv2|Eu23111|[X]Bouffee delirante with symptoms of schizophrenia|
 |severe-mental-illness v1|readv2|Eu60012|[X]Fanatic paranoid personality disorder|
-|severe-mental-illness v1|readv2|ZS7C611|#N/A|
+|severe-mental-illness v1|readv2|ZS7C611|Schizophrenic language|
 |severe-mental-illness v1|readv2|13Y2.00|Schizophrenia association member|
 |severe-mental-illness v1|readv2|1464.00|H/O: schizophrenia|
 |severe-mental-illness v1|readv2|146H.00|H/O: psychosis|
