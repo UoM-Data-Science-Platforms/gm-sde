@@ -8,9 +8,15 @@
   },
   "dependencies": {
     "chalk": "^4.1.0",
+    "cheerio": "^1.0.0-rc.11",
     "clear": "^0.1.0",
+    "csv-parse": "^5.2.0",
     "inquirer": "^7.3.3",
-    "markdown-it": "^12.3.2"
+    "markdown-it": "^12.3.2",
+    "node-xlsx": "^0.21.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "yauzl": "^2.10.0"
   },
   "devDependencies": {
     "eslint": "^7.22.0",
