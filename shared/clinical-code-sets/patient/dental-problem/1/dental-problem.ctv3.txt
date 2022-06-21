@@ -1,0 +1,29 @@
+1914.	Dental swelling
+X766G	Neglect of dental care
+Xa0Rz	Stress broken partial denture connector
+Xa0mP	Dental filling fallen out
+Xa0mU	Loose dental restoration
+Xa0md	Dental filling lost
+Xa0me	Dental inlay lost
+Xa0mf	Dental crown fallen out
+Xa0mg	Dental bridge lost
+Xa0mh	Dental veneer fallen off
+Xa0mi	Dental post crown fallen out
+Xa0n6	Fractured dental filling
+Xa0n7	Fractured dental inlay
+Xa0n8	Fractured dental crown
+Xa0n9	Fractured dental veneer
+Xa0nA	Fractured dental bridge
+Xa0nG	Leaking dental filling
+Xa0nH	Leaking dental crown
+Xa0nI	Leaking dental veneer
+Xa0nJ	Leaking dental bridge
+Xa0nK	Loose dental filling
+Xa0nL	Loose dental crown
+Xa0nM	Loose dental veneer
+Xa0nN	Loose dental bridge
+Xa0nZ	Tooth fallen off denture
+Xa0na	Broken denture clasp
+1912.	Toothache
+J05y.	Toothache
+X75rT	Painful teething

@@ -1,0 +1,3 @@
+1914.00	Dental swelling
+1912.00	Toothache
+J05y.11	Toothache
