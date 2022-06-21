@@ -10,7 +10,6 @@
 -- file corresponds to a single GP visit, so a person can appear multiple times
 
 TODO Get codes from SNOMED codes for meds
-TODO Get diagnosis codes
 
 -- OUTPUT: Data with the following fields
 --  - PatientId
@@ -24,7 +23,7 @@ TODO Get diagnosis codes
 --  - PatientHasCANCER
 --  - PatientHasCHD
 --  - GPPracticeCode
---  - DiagnosisCodes (comma separated list of the dental diagnosis codes)
+--  - DentalCodes (comma separated list of the dental diagnosis codes)
 --  - PrescribedAntimicrobial (Y/N) (whether patient has a prescription for an antimicrobial on the consultation date)
 --  - PrescribedAnalgesic (Y/N)
 --  - PrescribedOpioid (Y/N)
@@ -39,13 +38,14 @@ SET NOCOUNT ON;
 -- First get all the patients with dental issues
 --> CODESET dental-problems:1
 IF OBJECT_ID('tempdb..#DentalPatients') IS NOT NULL DROP TABLE #DentalPatients;
-SELECT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS ConsultationDate INTO #DentalPatients
+SELECT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS ConsultationDate, STRING_AGG(SuppliedCode, ',') AS DentalCodes INTO #DentalPatients
 FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'dental-problems' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'dental-problems' AND Version = 1)
 )
-AND EventDate>'2018-12-31';
+AND EventDate>'2018-12-31'
+GROUP BY FK_Patient_Link_ID, CAST(EventDate AS DATE);
 
 -- Table of all patients
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
@@ -57,10 +57,8 @@ IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventDa
 SELECT 
   FK_Patient_Link_ID,
   CAST(EventDate AS DATE) AS EventDate,
-  SuppliedCode,
   FK_Reference_SnomedCT_ID,
-  FK_Reference_Coding_ID,
-  [Value]
+  FK_Reference_Coding_ID
 INTO #PatientEventData
 FROM [RLS].vw_GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
@@ -81,12 +79,61 @@ WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 --> EXECUTE query-patient-lsoa.sql
 --> EXECUTE query-patient-practice-and-ccg.sql
 
+-- Now the coprescribed meds
+--> CODESET anti-bacterial-drugs:1
+IF OBJECT_ID('tempdb..#PatientMedANTIBAC') IS NOT NULL DROP TABLE #PatientMedANTIBAC;
+SELECT DISTINCT p.FK_Patient_Link_ID, p.MedicationDate INTO #PatientMedANTIBAC
+FROM #PatientMedicationData p
+INNER JOIN #DentalPatients d 
+  ON p.FK_Patient_Link_ID = d.FK_Patient_Link_ID
+  AND p.MedicationDate = d.ConsultationDate
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('anti-bacterial-drugs') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('anti-bacterial-drugs') AND [Version]=1))
+);
+
+--> CODESET non-opioid-analgesics:1
+IF OBJECT_ID('tempdb..#PatientMedANALGESIC') IS NOT NULL DROP TABLE #PatientMedANALGESIC;
+SELECT DISTINCT p.FK_Patient_Link_ID, p.MedicationDate INTO #PatientMedANALGESIC
+FROM #PatientMedicationData p
+INNER JOIN #DentalPatients d 
+  ON p.FK_Patient_Link_ID = d.FK_Patient_Link_ID
+  AND p.MedicationDate = d.ConsultationDate
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('non-opioid-analgesics') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('non-opioid-analgesics') AND [Version]=1))
+);
+
+--> CODESET opioid-analgesics:1
+IF OBJECT_ID('tempdb..#PatientMedOPIOID') IS NOT NULL DROP TABLE #PatientMedOPIOID;
+SELECT DISTINCT p.FK_Patient_Link_ID, p.MedicationDate INTO #PatientMedOPIOID
+FROM #PatientMedicationData p
+INNER JOIN #DentalPatients d 
+  ON p.FK_Patient_Link_ID = d.FK_Patient_Link_ID
+  AND p.MedicationDate = d.ConsultationDate
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('opioid-analgesics') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('opioid-analgesics') AND [Version]=1))
+);
+
+--> CODESET benzodiazepines:1
+IF OBJECT_ID('tempdb..#PatientMedBENZOS') IS NOT NULL DROP TABLE #PatientMedBENZOS;
+SELECT DISTINCT p.FK_Patient_Link_ID, p.MedicationDate INTO #PatientMedBENZOS
+FROM #PatientMedicationData p
+INNER JOIN #DentalPatients d 
+  ON p.FK_Patient_Link_ID = d.FK_Patient_Link_ID
+  AND p.MedicationDate = d.ConsultationDate
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('benzodiazepines') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('benzodiazepines') AND [Version]=1))
+);
+
 -- Now the comorbidities
 --> CODESET diabetes-type-i:1
 IF OBJECT_ID('tempdb..#PatientDiagnosesT1DM') IS NOT NULL DROP TABLE #PatientDiagnosesT1DM;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #PatientDiagnosesT1DM
-FROM RLS.vw_GP_Events
+FROM #PatientEventData
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('diabetes-type-i') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('diabetes-type-i') AND [Version]=1))
@@ -97,7 +144,7 @@ AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 IF OBJECT_ID('tempdb..#PatientDiagnosesT2DM') IS NOT NULL DROP TABLE #PatientDiagnosesT2DM;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #PatientDiagnosesT2DM
-FROM RLS.vw_GP_Events
+FROM #PatientEventData
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('diabetes-type-ii') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('diabetes-type-ii') AND [Version]=1))
@@ -108,7 +155,7 @@ AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 IF OBJECT_ID('tempdb..#PatientDiagnosesCANCER') IS NOT NULL DROP TABLE #PatientDiagnosesCANCER;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #PatientDiagnosesCANCER
-FROM RLS.vw_GP_Events
+FROM #PatientEventData
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('cancer') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('cancer') AND [Version]=1))
@@ -119,7 +166,7 @@ AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 IF OBJECT_ID('tempdb..#PatientDiagnosesCHD') IS NOT NULL DROP TABLE #PatientDiagnosesCHD;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #PatientDiagnosesCHD
-FROM RLS.vw_GP_Events
+FROM #PatientEventData
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('coronary-heart-disease') AND [Version]=1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('coronary-heart-disease') AND [Version]=1))
@@ -141,11 +188,11 @@ SELECT
   CASE WHEN cancer.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasCANCER,
   CASE WHEN chd.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasCHD,
   practice.GPPracticeCode
-  --  DiagnosisCodes (comma separated list of the dental diagnosis codes)
-  --  PrescribedAntimicrobial (Y/N) (whether patient has a prescription for an antimicrobial on the consultation date) (0501)
-  --  PrescribedAnalgesic (Y/N)  (analgesics 0407 OR non-opioid analgesics (040701/1501042))
-  --  PrescribedOpioid (Y/N)(1501043/040702)
-  --  PrescribedBenzodiazepine (Y/N)
+  m.DentalCodes
+  CASE WHEN antibac.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PrescribedAntimicrobial,--  PrescribedAntimicrobial (Y/N) (whether patient has a prescription for an antimicrobial on the consultation date) (0501)
+  CASE WHEN analgesic.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PrescribedAnalgesic,--  PrescribedAnalgesic (Y/N)  (analgesics 0407 OR non-opioid analgesics (040701/1501042))
+  CASE WHEN opioid.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PrescribedOpioid,--  PrescribedOpioid (Y/N)(1501043/040702)
+  CASE WHEN benzos.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PrescribedBenzodiazepine--  PrescribedBenzodiazepine (Y/N)
   --  ReferralToUrgentDentalCare (Y/N) OPTIONAL FIELD
   --  ReferralToOMFS (Y/N) OPTIONAL FIELD
   --  ReferralToAE (Y/N) OPTIONAL FIELD
@@ -159,3 +206,7 @@ LEFT OUTER JOIN #PatientDiagnosesT2DM t2dm ON t2dm.FK_Patient_Link_ID = m.FK_Pat
 LEFT OUTER JOIN #PatientDiagnosesCANCER cancer ON cancer.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesCHD chd ON chd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientPractice practice on practice.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientMedANTIBAC on antibac.FK_Patient_Link_ID = m.FK_Patient_Link_ID and antibac.MedicationDate = m.ConsultationDate
+LEFT OUTER JOIN #PatientMedANALGESIC on analgesic.FK_Patient_Link_ID = m.FK_Patient_Link_ID and analgesic.MedicationDate = m.ConsultationDate
+LEFT OUTER JOIN #PatientMedOPIOID on opioid.FK_Patient_Link_ID = m.FK_Patient_Link_ID and opioid.MedicationDate = m.ConsultationDate
+LEFT OUTER JOIN #PatientMedBENZOS on benzos.FK_Patient_Link_ID = m.FK_Patient_Link_ID and benzos.MedicationDate = m.ConsultationDate
