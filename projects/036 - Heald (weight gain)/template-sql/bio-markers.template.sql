@@ -16,7 +16,6 @@
 -- All blood glucose, Bone profile, LH, FSH, T4, TSH, Prolactin, Creatinine, weight, 
 -- systolic blood pressure, diastolic blood pressure,
 -- height, triglycerides, alkaline phosphatase (ALP),
-glucose, c-reactive protein, , lymphocyte cell count, neutrophil cell count
 
 -- since 2018-01-01.
 -- UPDATE 15 June 2022 - PI has requested to go back as far as possible
@@ -56,6 +55,7 @@ SELECT FK_Patient_Link_ID FROM #AntipsycoticPatients;
 
 --> CODESET bmi:2 hba1c:2 cholesterol:2 ldl-cholesterol:1 hdl-cholesterol:1 vitamin-d:1 testosterone:1 sex-hormone-binding-globulin:1 egfr:1
 --> CODESET weight:1 systolic-blood-pressure:1 diastolic-blood-pressure:1 height:1 triglycerides:1 alkaline-phosphatase:1
+--> CODESET blood-glucose-level:1 fasting-glucose:1 c-reactive-protein:1 lymphocyte-count:1 neutrophil-count:1
 
 -- First lets get all the measurements in one place to improve query speed later on
 IF OBJECT_ID('tempdb..#biomarkerValues') IS NOT NULL DROP TABLE #biomarkerValues;
@@ -203,6 +203,46 @@ FROM #biomarkerValues
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'alkaline-phosphatase' AND [Version] = 1)) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'alkaline-phosphatase' AND [Version] = 1))
+);
+
+INSERT INTO #biomarkers
+SELECT FK_Patient_Link_ID, 'blood-glucose-level' AS Label, EventDate, [Value]
+FROM #biomarkerValues
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'blood-glucose-level' AND [Version] = 1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'blood-glucose-level' AND [Version] = 1))
+);
+
+INSERT INTO #biomarkers
+SELECT FK_Patient_Link_ID, 'fasting-glucose' AS Label, EventDate, [Value]
+FROM #biomarkerValues
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'fasting-glucose' AND [Version] = 1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'fasting-glucose' AND [Version] = 1))
+);
+
+INSERT INTO #biomarkers
+SELECT FK_Patient_Link_ID, 'c-reactive-protein' AS Label, EventDate, [Value]
+FROM #biomarkerValues
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'c-reactive-protein' AND [Version] = 1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'c-reactive-protein' AND [Version] = 1))
+);
+
+INSERT INTO #biomarkers
+SELECT FK_Patient_Link_ID, 'lymphocyte-count' AS Label, EventDate, [Value]
+FROM #biomarkerValues
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'lymphocyte-count' AND [Version] = 1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'lymphocyte-count' AND [Version] = 1))
+);
+
+INSERT INTO #biomarkers
+SELECT FK_Patient_Link_ID, 'neutrophil-count' AS Label, EventDate, [Value]
+FROM #biomarkerValues
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept = 'neutrophil-count' AND [Version] = 1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept = 'neutrophil-count' AND [Version] = 1))
 );
 
 
