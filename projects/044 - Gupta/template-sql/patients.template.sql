@@ -69,7 +69,7 @@ AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsWithMentalCon
 	-- REGISTERED WITH A GM GP
 	-- OVER  18
 	-- HAD A COVID19 INFECTION
-	-- 2 OR MORE LTCs INCLUDING ONE MENTAL CONDITION
+	-- 2 OR MORE LTCs INCLUDING ONE MENTAL CONDITION (diagnosed before March 2020)
 
 IF OBJECT_ID('tempdb..#Cohort') IS NOT NULL DROP TABLE #Cohort;
 SELECT p.FK_Patient_Link_ID, 
@@ -109,10 +109,10 @@ WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
 
 --> EXECUTE query-patient-sex.sql
 --> EXECUTE query-patient-imd.sql
-
 --> EXECUTE query-patient-lsoa.sql
 --> EXECUTE query-patient-bmi.sql gp-events-table:#PatientEventData
 --> EXECUTE query-patient-smoking-status.sql gp-events-table:#PatientEventData
+--> EXECUTE query-patient-care-home-resident.sql
 
 --> EXECUTE query-get-covid-vaccines.sql gp-events-table:#PatientEventData gp-medications-table:RLS.vw_GP_Medications
 
@@ -259,16 +259,16 @@ IF OBJECT_ID('tempdb..#most_recent_date_before_covid') IS NOT NULL DROP TABLE #m
 SELECT FK_Patient_Link_ID, Concept, MAX(EventDate) as MostRecentDate
 INTO #most_recent_date_before_covid
 FROM #all_observations o
---LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cv ON CV.FK_Patient_Link_ID = o.FK_Patient_Link_ID
---WHERE EventDate < cv.FirstCovidPositiveDate
+LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cv ON CV.FK_Patient_Link_ID = o.FK_Patient_Link_ID
+WHERE EventDate < cv.FirstCovidPositiveDate
 GROUP BY FK_Patient_Link_ID, Concept
 
 IF OBJECT_ID('tempdb..#most_recent_date_after_covid') IS NOT NULL DROP TABLE #most_recent_date_after_covid;
 SELECT FK_Patient_Link_ID, Concept, MIN(EventDate) as MostRecentDate
 INTO #most_recent_date_after_covid
 FROM #all_observations o
---LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cv ON CV.FK_Patient_Link_ID = o.FK_Patient_Link_ID
---WHERE EventDate >= cv.FirstCovidPositiveDate
+LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cv ON CV.FK_Patient_Link_ID = o.FK_Patient_Link_ID
+WHERE EventDate >= cv.FirstCovidPositiveDate
 GROUP BY FK_Patient_Link_ID, Concept
 
 IF OBJECT_ID('tempdb..#closest_observations') IS NOT NULL DROP TABLE #closest_observations;
@@ -278,14 +278,16 @@ SELECT o.FK_Patient_Link_ID,
 	o.[Value], 
 	o.[Units],
 	BeforeOrAfterCovid = CASE WHEN bef.MostRecentDate = o.EventDate THEN 'before' WHEN aft.MostRecentDate = o.EventDate THEN 'after' ELSE 'check' END,
-	ROW_NUM = ROW_NUMBER () OVER (PARTITION BY o.FK_Patient_Link_ID, o.EventDate, o.Concept ORDER BY [Value] DESC) -- THIS WILL BE USED IN NEXT QUERY TO TAKE THE MAX VALUE WHERE 
+	ROW_NUM = ROW_NUMBER () OVER (PARTITION BY o.FK_Patient_Link_ID, o.EventDate, o.Concept ORDER BY [Value] DESC) -- THIS WILL BE USED IN NEXT QUERY TO TAKE THE MAX VALUE WHERE THERE ARE MULTIPLE
 INTO #closest_observations
 FROM #all_observations o
 LEFT JOIN #most_recent_date_before_covid bef ON bef.FK_Patient_Link_ID = o.FK_Patient_Link_ID AND bef.MostRecentDate = o.EventDate and bef.Concept = o.Concept
 LEFT JOIN #most_recent_date_after_covid aft ON aft.FK_Patient_Link_ID = o.FK_Patient_Link_ID AND aft.MostRecentDate = o.EventDate and aft.Concept = o.Concept
 WHERE bef.MostRecentDate = o.EventDate OR aft.MostRecentDate = o.EventDate
 
+-- CREATE WIDE TABLE WITH CLOSEST OBSERVATIONS BEFORE AND AFTER COVID POSITIVE DATE
 
+IF OBJECT_ID('tempdb..#observations_wide') IS NOT NULL DROP TABLE #observations_wide;
 SELECT
 	 FK_Patient_Link_ID
 	,SystolicBP_1 = MAX(CASE WHEN [Concept] = 'systolic-blood-pressure' AND BeforeOrAfterCovid = 'before' THEN [Value] ELSE 0 END)
@@ -320,15 +322,14 @@ SELECT
 	,hba1c_1_dt = CASE WHEN [Concept] = 'hba1c' AND BeforeOrAfterCovid = 'before' THEN EventDate
 	,hba1c_2 = CASE WHEN [Concept] = 'hba1c' AND BeforeOrAfterCovid = 'after' THEN [Value]
 	,hba1c_2_dt = CASE WHEN [Concept] = 'hba1c' AND BeforeOrAfterCovid = 'after' THEN EventDate
+INTO #observations_wide
 FROM #closest_observations
 WHERE ROW_NUM = 1
 GROUP BY FK_Patient_Link_ID
 
-
-
 -- BRING TOGETHER FOR FINAL DATA EXTRACT
 
-SELECT DISTINCT 
+SELECT  
 	p.FK_Patient_Link_ID, 
 	p.YearOfBirth, 
 	Sex,
@@ -339,6 +340,7 @@ SELECT DISTINCT
 	p.EthnicMainGroup,
 	LSOA_Code,
 	IMD2019Decile1IsMostDeprived10IsLeastDeprived,
+	IsCareHomeResident,
 	DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END,
 	DeathDueToCovid_Year = CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN YEAR(p.DeathDate) ELSE null END,
 	DeathDueToCovid_Month = CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN MONTH(p.DeathDate) ELSE null END,
@@ -477,3 +479,4 @@ LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cv ON CV.FK_Patient_Link_ID = P.
 LEFT OUTER JOIN #HistoryOfLTCs ltc on ltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #NewLTCs nltc on nltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #patient_observations obs on obs.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientCareHomeStatus ch on ch.FK_Patient_Link_ID = p.FK_Patient_Link_ID 

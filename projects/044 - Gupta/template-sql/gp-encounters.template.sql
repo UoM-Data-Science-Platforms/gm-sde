@@ -116,15 +116,15 @@ AND (
 	or MainCode like '9H9%'
 );
 
-INSERT INTO #CodingClassifier
-SELECT 'A+E', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
-FROM SharedCare.Reference_Coding
-WHERE CodingType='ReadCodeV2'
-AND (
-	MainCode like '8H2%'
-	or MainCode like '8H[1-3]%'
-	or MainCode in ('9N19.','8HJA.','8HC..','8Hu..','8HC1.','ZL91.','9b00.','9b8D.','9b61.','8Hd1.','ZLD2100','8HE8.','8HJ..','8HJJ.','ZLE1.','ZL51.')
-);
+-- INSERT INTO #CodingClassifier
+-- SELECT 'A+E', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
+-- FROM SharedCare.Reference_Coding
+-- WHERE CodingType='ReadCodeV2'
+-- AND (
+-- 	MainCode like '8H2%'
+-- 	or MainCode like '8H[1-3]%'
+-- 	or MainCode in ('9N19.','8HJA.','8HC..','8Hu..','8HC1.','ZL91.','9b00.','9b8D.','9b61.','8Hd1.','ZLD2100','8HE8.','8HJ..','8HJJ.','ZLE1.','ZL51.')
+-- );
 
 INSERT INTO #CodingClassifier
 SELECT 'Telephone', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
@@ -136,33 +136,33 @@ AND (
 	or MainCode like '9N3A%'
 );
 
-INSERT INTO #CodingClassifier
-SELECT 'Hospital', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
-FROM SharedCare.Reference_Coding
-WHERE CodingType='ReadCodeV2'
-AND (
-	MainCode like '7%'
-	or MainCode like '8H[1-3]%'
-	or MainCode like '9N%' 
-);
+-- INSERT INTO #CodingClassifier
+-- SELECT 'Hospital', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
+-- FROM SharedCare.Reference_Coding
+-- WHERE CodingType='ReadCodeV2'
+-- AND (
+-- 	MainCode like '7%'
+-- 	or MainCode like '8H[1-3]%'
+-- 	or MainCode like '9N%' 
+-- );
 
 -- Add the equivalent CTV3 codes
 INSERT INTO #CodingClassifier
 SELECT 'Face2face', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
 WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Face2face' AND FK_Reference_SnomedCT_ID != -1)
 AND CodingType='CTV3';
-INSERT INTO #CodingClassifier
-SELECT 'A+E', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
-WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='A+E' AND FK_Reference_SnomedCT_ID != -1)
-AND CodingType='CTV3';
+-- INSERT INTO #CodingClassifier
+-- SELECT 'A+E', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
+-- WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='A+E' AND FK_Reference_SnomedCT_ID != -1)
+-- AND CodingType='CTV3';
 INSERT INTO #CodingClassifier
 SELECT 'Telephone', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
 WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Telephone' AND FK_Reference_SnomedCT_ID != -1)
 AND CodingType='CTV3';
-INSERT INTO #CodingClassifier
-SELECT 'Hospital', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
-WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Hospital' AND FK_Reference_SnomedCT_ID != -1)
-AND CodingType='CTV3';
+-- INSERT INTO #CodingClassifier
+-- SELECT 'Hospital', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
+-- WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Hospital' AND FK_Reference_SnomedCT_ID != -1)
+-- AND CodingType='CTV3';
 
 -- Add the equivalent EMIS codes
 INSERT INTO #CodingClassifier
@@ -171,24 +171,24 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Face2face' AND FK_Reference_SnomedCT_ID != -1) OR
 	FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE EncounterType='Face2face' AND PK_Reference_Coding_ID != -1)
 );
-INSERT INTO #CodingClassifier
-SELECT 'A+E', FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Local_Code
-WHERE (
-	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='A+E' AND FK_Reference_SnomedCT_ID != -1) OR
-	FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE EncounterType='A+E' AND PK_Reference_Coding_ID != -1)
-);
+-- INSERT INTO #CodingClassifier
+-- SELECT 'A+E', FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Local_Code
+-- WHERE (
+-- 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='A+E' AND FK_Reference_SnomedCT_ID != -1) OR
+-- 	FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE EncounterType='A+E' AND PK_Reference_Coding_ID != -1)
+-- );
 INSERT INTO #CodingClassifier
 SELECT 'Telephone', FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Local_Code
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Telephone' AND FK_Reference_SnomedCT_ID != -1) OR
 	FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE EncounterType='Telephone' AND PK_Reference_Coding_ID != -1)
 );
-INSERT INTO #CodingClassifier
-SELECT 'Hospital', FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Local_Code
-WHERE (
-	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Hospital' AND FK_Reference_SnomedCT_ID != -1) OR
-	FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE EncounterType='Hospital' AND PK_Reference_Coding_ID != -1)
-);
+-- INSERT INTO #CodingClassifier
+-- SELECT 'Hospital', FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Local_Code
+-- WHERE (
+-- 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Hospital' AND FK_Reference_SnomedCT_ID != -1) OR
+-- 	FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE EncounterType='Hospital' AND PK_Reference_Coding_ID != -1)
+-- );
 
 -- All above takes ~30s
 
