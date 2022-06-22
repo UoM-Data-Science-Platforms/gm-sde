@@ -1,0 +1,35 @@
+L281.00	Premature rupture of membranes
+L14..11	Premature labour
+62O6.00	Vaginal 'show'
+279..00	O/E - VE - cervical dilatation
+L150.00	Post-term pregnancy
+L15..11	Post-term pregnancy
+62O7.00	Pregnancy prolonged - 41 weeks
+L15..00	Prolonged or post-term pregnancy
+Z22AE00	Baby overdue
+62O6.11	Vaginal 'show' - A/N
+62NE.00	A/N 39 week examination
+62NF.00	A/N 40 week examination
+62X3.00	Full term gestation - 40 weeks
+L15z.00	Prolonged pregnancy NOS
+62NG.00	A/N 41 week examination
+L150z00	Post-term pregnancy NOS
+62O8.00	Pregnancy prolonged - 42 weeks
+L281z00	Premature rupture of membranes NOS
+62NH.00	A/N 42 week examination
+L281400	Premature rupture of membranes, labour delayed by therapy
+Q011.00	Fetus/neonate affected maternal premature rupture membrane
+L150000	Post-term pregnancy unspecified
+L150200	Post-term pregnancy - not delivered
+L281000	Premature rupture of membranes unspecified
+Z265800	Pulsation absent in prolapsed cord
+2782.00	O/E - VE - cervix ripe
+279Z.00	O/E - VE - cervix dilat. NOS
+2792.00	O/E - VE - os=0-1cm dilated
+2794.00	O/E - VE - os=2-4cm dilated
+L281200	Premature rupture of membranes with antenatal problem
+2796.00	O/E - VE - os=6-8cm dilated
+2793.00	O/E - VE - os=1-2cm dilated
+L227z00	High head at term NOS
+L143000	Premature labour without delivery
+Z246500	Time vaginal show detected
