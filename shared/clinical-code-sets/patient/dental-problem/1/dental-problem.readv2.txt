@@ -1,3 +1,232 @@
 1914.00	Dental swelling
 1912.00	Toothache
 J05y.11	Toothache
+J00..00	Tooth development and eruption disorders
+J000.00	Anodontia
+J000000	Partial anodontia
+J000100	Complete anodontia
+J000200	Congenital anodontia
+J000300	Senile anodontia
+J000400	Hypodontia
+J000500	Oligodontia
+J000z00	Anodontia NOS
+J001.00	Supernumerary teeth
+J001000	Fourth molar
+J001100	Mesiodens
+J001200	Paramolar supernumerary tooth
+J001300	Supplemental teeth
+J001z00	Supernumerary teeth NOS
+J002.00	Tooth size and form abnormality
+J003.00	Mottled teeth
+J003000	Dental fluorosis
+J003100	Nonfluoride enamel opacities
+J003z00	Mottled tooth NOS
+J004.00	Disturbance of tooth formation
+J004000	Aplasia of cementum
+J004100	Hypoplasia of cementum
+J004200	Dilaceration of tooth
+J004300	Antenatal enamel hypoplasia
+J004400	Neonatal enamel hypoplasia
+J004500	Postnatal enamel hypoplasia
+J004600	Horner's teeth
+J004700	Hypocalcification of teeth
+J004800	Regional odontodysplasia
+J004900	Turner's tooth
+J004z00	Tooth formation disturbance NOS
+J005.00	Hereditary tooth structure disturbances NEC
+J005000	Amelogenesis imperfecta
+J005100	Dentinogenesis imperfecta
+J005200	Odontogenesis imperfecta
+J005300	Dentinal dysplasia
+J005400	Shell teeth
+J005z00	Hereditary tooth structure disturbances NEC NOS
+J006.00	Tooth eruption disturbances
+J006000	Late tooth eruption
+J006100	Obstructed tooth eruption
+J006200	Premature tooth eruption
+J006300	Persistent primary tooth eruption
+J006400	Persistent deciduous teeth
+J006z00	Tooth eruption disturbances NOS
+J007.00	Teething syndrome
+J00y.00	Other tooth development and eruption disturbances
+J00y000	Pre-eruption tooth colour changes
+J00yz00	Other tooth development and eruption disturbances NOS
+J00z.00	Tooth development and eruption disorders NOS
+J01..00	Teeth hard tissue diseases
+J010.00	Dental caries
+J010000	Arrested dental caries
+J010100	Cementum dental caries
+J010200	Acute dentine dental caries
+J010300	Chronic dentine dental caries
+J010400	Dentine dental caries unspecified
+J010500	Acute enamel dental caries
+J010600	Chronic enamel dental caries
+J010700	Incipient enamel dental caries
+J010800	Enamel dental caries unspecified
+J010900	Infantile melanodontia
+J010A00	Odontoclasia
+J010B00	White spot lesions of teeth
+J010C00	Carious exposure of pulp
+J010z00	Dental caries NOS
+J011.00	Excessive attrition of teeth
+J011000	Approximal tooth wear
+J011100	Occlusal tooth wear
+J011z00	Excessive tooth attrition NOS
+J012.00	Abrasion of teeth
+J012000	Dentifrice abrasion of teeth
+J012100	Habitual abrasion of teeth
+J012200	Occupational abrasion of teeth
+J012300	Ritual abrasion of teeth
+J012400	Traditional abrasion of teeth
+J012500	Wedge defect of teeth NOS
+J012z00	Abrasion of teeth NOS
+J013.00	Erosion of teeth
+J013000	Teeth erosion due to medicine
+J013100	Teeth erosion due to vomiting
+J013200	Idiopathic teeth erosion
+J013300	Occupational teeth erosion
+J013z00	Erosion of teeth NOS
+J014.00	Pathological tooth resorption
+J014000	External resorption of teeth
+J014100	Internal resorption of teeth
+J014z00	Pathological tooth resorption NOS
+J015.00	Hypercementosis
+J016.00	Ankylosis of teeth
+J017.00	Posteruptive teeth staining
+J017000	Teeth staining due to drugs
+J017100	Teeth staining due to metals
+J017200	Teeth staining due to pulpal bleeding
+J017z00	Posteruptive teeth staining NOS
+J01y.00	Other teeth hard tissue disease
+J01y000	Irradiated teeth enamel
+J01y100	Sensitive teeth dentine
+J01yz00	Other teeth hard tissue disease NOS
+J01z.00	Hard tissue teeth disease NOS
+J02..00	Pulp and periapical tissue disease
+J020.00	Pulpitis
+J020000	Pulpal abscess
+J020100	Pulpal polyp
+J020200	Acute pulpitis
+J020300	Chronic hyperplastic pulpitis
+J020400	Chronic ulcerative pulpitis
+J020500	Chronic pulpitis unspecified
+J020600	Suppurative pulpitis
+J020z00	Pulpitis NOS
+J021.00	Necrosis of the pulp
+J021000	Pulp gangrene
+J021100	Mummified pulp
+J021z00	Necrosis of the pulp NOS
+J022.00	Pulp degeneration
+J022000	Pulp stones - denticles
+J022z00	Pulp degeneration NOS
+J023.00	Abnormal pulp hard tissue
+J023000	Secondary dentine
+J023z00	Abnormal pulp hard tissue NOS
+J024.00	Acute apical periodontitis
+J025.00	Periapical abscess without a sinus
+J025000	Dental abscess
+J025100	Dentoalveolar abscess
+J025z00	Periapical abscess without a sinus NOS
+J026.00	Chronic apical periodontitis
+J026000	Apical granuloma
+J026100	Periapical granuloma
+J026z00	Chronic apical periodontitis NOS
+J027.00	Periapical abscess with a sinus
+J027000	Alveolar process fistula
+J027100	Dental fistula
+J027z00	Periapical abscess with a fistula NOS
+J028.00	Radicular cyst
+J028000	Periodontal cyst
+J028100	Periapical cyst
+J028200	Radiculodental cyst
+J028300	Residual radicular cyst
+J028z00	Radicular cyst NOS
+J02z.00	Pulp and periapical tissue disease NOS
+J03..00	Gingival and periodontal disease
+J030.00	Acute gingivitis
+J031.00	Chronic gingivitis
+J031000	Simple marginal gingivitis
+J031100	Ulcerative gingivitis
+J031200	Desquamative gingivitis
+J031300	Hyperplastic gingivitis
+J031400	Gingivostomatitis
+J031z00	Chronic gingivitis NOS
+J032.00	Gingival recession
+J032000	Generalised gingival recession
+J032100	Localised gingival recession
+J032200	Postinfective gingival recession
+J032300	Postoperative gingival recession
+J032z00	Gingival recession NOS
+J033.00	Acute periodontitis
+J033000	Acute pericementitis
+J033100	Acute pericoronitis
+J033200	Paradontal abscess
+J033300	Periodontal abscess
+J033z00	Acute periodontitis NOS
+J034.00	Chronic periodontitis
+J034000	Chronic pericoronitis
+J034100	Chronic pericementitis
+J034200	Chronic periodontitis simplex
+J034300	Chronic periodontitis complex
+J034400	Alveolar pyorrhoea
+J034z00	Chronic periodontitis NOS
+J035.00	Periodontosis
+J036.00	Accretions on teeth
+J036000	Subgingival dental calculus
+J036100	Supragingival dental calculus
+J036200	Betel deposit on teeth
+J036300	Plaque on teeth
+J036400	Tobacco deposit on teeth
+J036z00	Accretions on teeth NOS
+J03X.00	Disorder of gingiva and edentulous alveolar ridge, unspecified
+J03y.00	Other specified periodontal disease
+J03y000	Giant cell epulis
+J03y100	Giant cell peripheral granuloma
+J03y200	Gingival cysts
+J03y300	Gingival enlargement NOS
+J03y400	Gingival fibromatosis
+J03y500	Gingival polyp
+J03y600	Periodontal lesions due to traumatic occlusion
+J03y700	Gingival and edentulous alveolar ridge lesion associated with trauma
+J03y800	Gingival hyperplasia
+J03y900	Parulis
+J03yz00	Other specified periodontal disease NOS
+J03z.00	Gingival and periodontal disease NOS
+J043B00	Impacted molars
+J043C00	Impacted wisdom teeth
+J046.00	Temporomandibular joint disorders
+J046000	Temporomandibular joint ankylosis
+J046100	Costen's syndrome
+J046200	Temporomandibular joint derangement
+J046300	Snapping jaw
+J046400	Temporomandibular joint-pain-dysfunction syndrome
+J046500	Locked temporomandibular joint
+J046z00	Temporomandibular joint disorder NOS
+J04y.00	Other dentofacial anomalies
+J04z.00	Dentofacial anomalies NOS
+J05..00	Other dental diseases and conditions of the teeth and supporting structures
+J050.00	Teeth exfoliation due to systemic causes
+J051.00	Acquired absence of teeth
+J051000	Loss of teeth due to an accident
+J051100	Loss of teeth due to extraction
+J051200	Loss of teeth due to local periodontal disease
+J051z00	Acquired absence of teeth NOS
+J052.00	Edentulous alveolar ridge atrophy
+J053.00	Retained dental root
+J054.00	Orofacial sinus
+J05y.00	Other specified dental disorder
+J05y000	Alveolar ridge enlargement NOS
+J05y100	Irregular alveolar process
+J05yz00	Other specified dental disorder NOS
+J05z.00	Dental diseases and conditions NOS
+J06..00	Diseases of the jaws
+J060.00	Developmental odontogenic cyst
+J060000	Alveodental cyst
+J060100	Dentigerous cyst
+J060200	Eruption cyst
+J060300	Primordial cyst
+J060z00	Developmental odontogenic cysts NOS
+J083300	Ludwig's angina
+J083400	Oral fistula
+J083500	Oroantral fistula
+J083z00	Oral cellulitis and abscess NOS
