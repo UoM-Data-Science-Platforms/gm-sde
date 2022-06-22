@@ -10,6 +10,7 @@
 -- file corresponds to a single GP visit, so a person can appear multiple times
 
 TODO Get codes from SNOMED codes for meds
+TODO Check dental problem list
 
 -- OUTPUT: Data with the following fields
 --  - PatientId
