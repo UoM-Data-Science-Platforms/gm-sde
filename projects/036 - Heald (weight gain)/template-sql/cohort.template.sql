@@ -2,6 +2,13 @@
 --│ Diabetes and COVID cohort file │
 --└────────────────────────────────┘
 
+TODO
+- FEP or BAD category for each first diagnosis
+  - perhaps make new strict code sets for these?
+  - YES - need to get extra codes form READ for 2 dx and 2 history
+- Check fasting glucose prevalence
+- Add medications to extract (BIG JOB)
+
 ----------------------- RDE CHECK ---------------------
 -- George Tilston  - 7 April 2022 - via pull request --
 -------------------------------------------------------
@@ -12,7 +19,8 @@
 -- PatientId, YearOfBirth, DeathDate, DeathWithin28Days, Frailty,
 -- Sex, LSOA, EthnicCategoryDescription, TownsendScoreHigherIsMoreDeprived, TownsendQuintileHigherIsMoreDeprived,
 -- COHORT SPECIFIC
--- FirstDiagnosisDate, FirstAntipsycoticDate, FirstCOVIDPositiveTestDate, SecondCOVIDPositiveTestDate,
+-- FirstBipolarDate, FirstBipolarHistoryCode, FirstPsychosisSchizophreniaDate, 
+-- FirstPsychosisSchizophreniaHistoryCode, FirstAntipsycoticDate, FirstCOVIDPositiveTestDate, SecondCOVIDPositiveTestDate,
 -- ThirdCOVIDPositiveTestDate, FourthCOVIDPositiveTestDate, FifthCOVIDPositiveTestDate,
 -- FirstAdmissionPost1stCOVIDTest, LengthOfStayFirstAdmission1stCOVIDTest, FirstAdmissionPost2ndCOVIDTest, LengthOfStayFirstAdmission2ndCOVIDTest,
 -- FirstAdmissionPost3rdCOVIDTest, LengthOfStayFirstAdmission3rdCOVIDTest, FirstAdmissionPost4thCOVIDTest, LengthOfStayFirstAdmission4thCOVIDTest,
@@ -31,19 +39,48 @@ DECLARE @StartDate datetime;
 SET @StartDate = '2020-01-01';
 
 -- First get all the SMI patients and the date of first diagnosis
---> CODESET severe-mental-illness:1 antipsychotics:1
+--> CODESET bipolar:2 schizophrenia-psychosis:2 history-of-bipolar:1 antipsychotics:1
+--> CODESET history-of-psychosis-or-schizophrenia:1
 --> CODESET amisulpride:1 aripiprazole:1 asenapine:1 chlorpromazine:1 clozapine:1 flupentixol:1 fluphenazine:1
 --> CODESET haloperidol:1 levomepromazine:1 loxapine:1 lurasidone:1 olanzapine:1 paliperidone:1 perphenazine:1
 --> CODESET pimozide:1 quetiapine:1 risperidone:1 sertindole:1 sulpiride:1 thioridazine:1 trifluoperazine:1
 --> CODESET zotepine:1 zuclopenthixol:1
-IF OBJECT_ID('tempdb..#SMIPatients') IS NOT NULL DROP TABLE #SMIPatients;
-SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstDiagnosisDate INTO #SMIPatients
+IF OBJECT_ID('tempdb..#BipolarPatients') IS NOT NULL DROP TABLE #BipolarPatients;
+SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstBipolarDate INTO #BipolarPatients
 FROM RLS.vw_GP_Events
 WHERE (
-	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('severe-mental-illness') AND [Version]=1) OR
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('severe-mental-illness') AND [Version]=1)
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('bipolar') AND [Version]=2) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('bipolar') AND [Version]=2)
 )
 GROUP BY FK_Patient_Link_ID;
+
+IF OBJECT_ID('tempdb..#PsychosisSchizoPatients') IS NOT NULL DROP TABLE #PsychosisSchizoPatients;
+SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstPsychosisSchizophreniaDate INTO #PsychosisSchizoPatients
+FROM RLS.vw_GP_Events
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('schizophrenia-psychosis') AND [Version]=2) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('schizophrenia-psychosis') AND [Version]=2)
+)
+GROUP BY FK_Patient_Link_ID;
+
+IF OBJECT_ID('tempdb..#BipolarHistoryPatients') IS NOT NULL DROP TABLE #BipolarHistoryPatients;
+SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstBipolarHistoryCode INTO #BipolarHistoryPatients
+FROM RLS.vw_GP_Events
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('history-of-bipolar') AND [Version]=1) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('history-of-bipolar') AND [Version]=1)
+)
+GROUP BY FK_Patient_Link_ID;
+
+IF OBJECT_ID('tempdb..#PsychSchizoHistoryPatients') IS NOT NULL DROP TABLE #PsychSchizoHistoryPatients;
+SELECT FK_Patient_Link_ID, MIN(CAST(EventDate AS DATE)) AS FirstPsychosisSchizophreniaHistoryCode INTO #PsychSchizoHistoryPatients
+FROM RLS.vw_GP_Events
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('history-of-psychosis-or-schizophrenia') AND [Version]=1) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('history-of-psychosis-or-schizophrenia') AND [Version]=1)
+)
+GROUP BY FK_Patient_Link_ID;
+
 
 IF OBJECT_ID('tempdb..#AntipsycoticPatients') IS NOT NULL DROP TABLE #AntipsycoticPatients;
 SELECT FK_Patient_Link_ID, MIN(CAST(MedicationDate AS DATE)) AS FirstAntipsycoticDate INTO #AntipsycoticPatients
@@ -56,7 +93,13 @@ GROUP BY FK_Patient_Link_ID;
 
 -- Table of all patients with SMI or antipsycotic
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT FK_Patient_Link_ID INTO #Patients FROM #SMIPatients
+SELECT FK_Patient_Link_ID INTO #Patients FROM #BipolarPatients
+UNION
+SELECT FK_Patient_Link_ID INTO #Patients FROM #BipolarHistoryPatients
+UNION
+SELECT FK_Patient_Link_ID INTO #Patients FROM #PsychosisSchizoPatients
+UNION
+SELECT FK_Patient_Link_ID INTO #Patients FROM #PsychSchizoHistoryPatients
 UNION
 SELECT FK_Patient_Link_ID FROM #AntipsycoticPatients;
 
@@ -234,7 +277,10 @@ SELECT
   EthnicCategoryDescription,
   TownsendScoreHigherIsMoreDeprived,
   TownsendQuintileHigherIsMoreDeprived,
-  FirstDiagnosisDate,
+  bad.FirstBipolarDate,
+  badhist.FirstBipolarHistoryCode,
+  fep.FirstPsychosisSchizophreniaDate, 
+  fephist.FirstPsychosisSchizophreniaHistoryCode
   FirstAntipsycoticDate,
   FirstCovidPositiveDate,
   SecondCovidPositiveDate,
@@ -264,7 +310,10 @@ SELECT
   VaccineDose5Date AS FifthVaccineDate,
   VaccineDose6Date AS SixthVaccineDate
 FROM #Patients m
-LEFT OUTER JOIN #SMIPatients smi ON smi.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #BipolarPatients bad ON bad.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #BipolarHistoryPatients badhist ON badhist.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PsychosisSchizoPatients fep ON fep.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #PsychSchizoHistoryPatients fephist ON fephist.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #AntipsycoticPatients anti ON anti.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN RLS.vw_Patient_Link pl ON pl.PK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = m.FK_Patient_Link_ID
