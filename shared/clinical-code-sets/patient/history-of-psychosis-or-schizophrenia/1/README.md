@@ -1,8 +1,6 @@
-# Bipolar affective disorder
+# History of psychosis or schizophrenia
 
-Code set for patients with a diagnosis of bipolar or mania. This code set (v2) only includes diagnoses and so is useful for identifying the first diagnosis of bipolar. This differs from (v1) which also includes "history of" codes and certain medications that would indicate a patient has bipolar, which is better suited for identifying patients with bipolar, but not necessarily their first diagnosis.
-
-Developed from https://phenotypes.healthdatagateway.org/phenotypes/PH38/version/76/detail/.
+Any code that indicates a patient has a history of psychosis or schizophrenia. This includes "history of" codes.
 
 ## Prevalence log
 
