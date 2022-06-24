@@ -462,7 +462,7 @@ async function downloadZipFile({ url, name }) {
   });
 }
 
-async function parseMapppingFile(filename) {
+async function parseMappingFile(filename) {
   let xlsxFile;
   const jsonFileName = filename.replace('.zip', '.json');
   if (fs.existsSync(jsonFileName)) {
@@ -553,10 +553,17 @@ async function parseMapppingFile(filename) {
   });
 }
 
+function exportMatchingDrugs(bnfPrefixArray) {
+  return function (mapping) {
+    const matchingDrugs = mapping
+      .filter((item) => bnfPrefixArray.some((bnfPrefix) => item.bnfCode.startsWith(bnfPrefix)))
+      .map((x) => `${x.snomedCode}\t${x.bnfName}`);
+    fs.writeFileSync('drugs.temp.txt', matchingDrugs.join('\n'));
+  };
+}
+
 getBNFHierarchy();
 // getLatestMappingFileLink()
 //   .then(downloadZipFile)
-//   .then(parseMapppingFile)
-//   .then((mapping) => {
-//     console.log(mapping.slice(0, 10));
-//   });
+//   .then(parseMappingFile)
+//   .then(exportMatchingDrugs(['0603020J0', '0603020L0', '0603020M0', '1001022G0']));
