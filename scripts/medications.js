@@ -215,6 +215,7 @@ This is usually because the bnf hierarchy csv has been opened in excel and saved
       record[cName.Chpt]
         .toLowerCase()
         .replace(/-/gi, '')
+        .replace(/[\\/]/gi, ' ')
         .split(' ')
         .forEach((word) => {
           if (!freq[word]) {
@@ -226,6 +227,7 @@ This is usually because the bnf hierarchy csv has been opened in excel and saved
       record[cName.Sec]
         .toLowerCase()
         .replace(/-/gi, '')
+        .replace(/[\\/]/gi, ' ')
         .split(' ')
         .forEach((word) => {
           if (!freq[word]) {
@@ -237,6 +239,7 @@ This is usually because the bnf hierarchy csv has been opened in excel and saved
       record[cName.Para]
         .toLowerCase()
         .replace(/-/gi, '')
+        .replace(/[\\/]/gi, ' ')
         .split(' ')
         .forEach((word) => {
           if (!freq[word]) {
@@ -248,6 +251,7 @@ This is usually because the bnf hierarchy csv has been opened in excel and saved
       record[cName.SubPara]
         .toLowerCase()
         .replace(/-/gi, '')
+        .replace(/[\\/]/gi, ' ')
         .split(' ')
         .forEach((word) => {
           if (!freq[word]) {
@@ -259,6 +263,7 @@ This is usually because the bnf hierarchy csv has been opened in excel and saved
       record[cName.Chem]
         .toLowerCase()
         .replace(/-/gi, '')
+        .replace(/[\\/]/gi, ' ')
         .split(' ')
         .forEach((word) => {
           if (!freq[word]) {
@@ -270,6 +275,7 @@ This is usually because the bnf hierarchy csv has been opened in excel and saved
       record[cName.Prod]
         .toLowerCase()
         .replace(/-/gi, '')
+        .replace(/[\\/]/gi, ' ')
         .split(' ')
         .forEach((word) => {
           if (!freq[word]) {
@@ -281,6 +287,7 @@ This is usually because the bnf hierarchy csv has been opened in excel and saved
       record[cName.Pres]
         .toLowerCase()
         .replace(/-/gi, '')
+        .replace(/[\\/]/gi, ' ')
         .split(' ')
         .forEach((word) => {
           if (!freq[word]) {
@@ -290,18 +297,137 @@ This is usually because the bnf hierarchy csv has been opened in excel and saved
         });
   });
 
-  displayMatches(freq, all, 'antidepressant');
+  displayMatches(freq, all, process.argv.length > 2 ? process.argv[2] : 'benzo*');
   // Sort the words by frequency
+}
+
+function getAncestors(prefix) {
+  const ancestors = [];
+  if (prefix.length === 2) return ancestors;
+  let l1 = prefix.substring(0, 2);
+  ancestors.push(l1);
+  if (prefix.length === 4) return ancestors;
+  let l2 = prefix.substring(0, 4);
+  ancestors.push(l2);
+  if (prefix.length === 6) return ancestors;
+  let l3 = prefix.substring(0, 6);
+  ancestors.push(l3);
+  if (prefix.length === 7) return ancestors;
+  let l4 = prefix.substring(0, 7);
+  ancestors.push(l4);
+  if (prefix.length === 9) return ancestors;
+  let l5 = prefix.substring(0, 9);
+  ancestors.push(l5);
+  if (prefix.length === 11) return ancestors;
+  let l6 = prefix.substring(0, 11);
+  ancestors.push(l6);
+  if (prefix.length === 15) return ancestors;
+  console.log('Unexpected code length!!');
+  process.exit();
+}
+
+function getSiblings(prefix, all, matches) {
+  const siblings = [];
+  if (prefix.length === 2) return siblings;
+  const allKeys = Object.keys(all);
+  if (prefix.length === 4)
+    return allKeys.filter(
+      (key) =>
+        key.length === 4 &&
+        key.substring(0, 2) === prefix.substring(0, 2) &&
+        key !== prefix &&
+        matches.indexOf(key) < 0
+    );
+  if (prefix.length === 6)
+    return allKeys.filter(
+      (key) =>
+        key.length === 6 &&
+        key.substring(0, 4) === prefix.substring(0, 4) &&
+        key !== prefix &&
+        matches.indexOf(key) < 0
+    );
+  if (prefix.length === 7)
+    return allKeys.filter(
+      (key) =>
+        key.length === 7 &&
+        key.substring(0, 6) === prefix.substring(0, 6) &&
+        key !== prefix &&
+        matches.indexOf(key) < 0
+    );
+  if (prefix.length === 9)
+    return allKeys.filter(
+      (key) =>
+        key.length === 9 &&
+        key.substring(0, 7) === prefix.substring(0, 7) &&
+        key !== prefix &&
+        matches.indexOf(key) < 0
+    );
+  if (prefix.length === 11)
+    return allKeys.filter(
+      (key) =>
+        key.length === 11 &&
+        key.substring(0, 9) === prefix.substring(0, 9) &&
+        key !== prefix &&
+        matches.indexOf(key) < 0
+    );
+  if (prefix.length === 15)
+    return allKeys.filter(
+      (key) =>
+        key.length === 15 &&
+        key.substring(0, 11) === prefix.substring(0, 11) &&
+        key !== prefix &&
+        matches.indexOf(key) < 0
+    );
+
+  console.log('Unexpected code length!!');
+  process.exit();
 }
 
 function displayMatches(freq, all, word) {
   const normaliseWord = word.toLowerCase().replace(/-/gi, '');
-  if (freq[normaliseWord]) {
-    const matches = Array.from(freq[normaliseWord]);
+  let matches = [];
+  if (normaliseWord.indexOf('*') > -1) {
+    Object.keys(freq)
+      .filter((x) => x.indexOf(normaliseWord.replace('*', '')) > -1)
+      .forEach((x) => {
+        for (let item of freq[x]) matches.push(item);
+      });
+  } else if (freq[normaliseWord]) {
+    matches = Array.from(freq[normaliseWord]);
+  }
+  if (matches.length > 0) {
+    const reducedMatches = [];
+    const ancestors = new Set();
+    const siblings = new Set();
+    matches.forEach((match) => {
+      if (matches.filter((x) => match.startsWith(x) && match !== x).length === 0) {
+        reducedMatches.push({ match, isMatch: true });
+        getAncestors(match, all).forEach((ancestor) => {
+          ancestors.add(ancestor);
+        });
+        getSiblings(match, all, matches).forEach((sibling) => {
+          siblings.add(sibling);
+        });
+      }
+    });
+    ancestors.forEach((x) => {
+      reducedMatches.push({ match: x, isMatch: false });
+    });
+    siblings.forEach((x) => {
+      reducedMatches.push({ match: x, isMatch: false });
+    });
+    reducedMatches.sort((a, b) => {
+      if (a.match < b.match) return -1;
+      if (a.match > b.match) return 1;
+      return 0;
+    });
+    // console.log(JSON.stringify(reducedMatches, null, 2));
+    // console.log(ancestors);
+    // console.log(siblings);
     console.log(
-      matches
-        .map((x) => {
-          if (all[x]) return '             '.slice(0, x.length - 2) + all[x].name;
+      reducedMatches
+        .map(({ match }) => {
+          if (all[match]) return match + '  ' + all[match].name;
         })
         .join('\n')
     );
