@@ -1,0 +1,5 @@
+L05..12	Termination of pregnancy
+7E08600	Termination of pregnancy NEC
+L051711	Incomplete termination of pregnancy
+8Cg..00	Pregnancy termination care
+6776000	Post-termination counselling

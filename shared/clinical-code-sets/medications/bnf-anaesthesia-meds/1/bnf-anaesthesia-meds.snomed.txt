@@ -1,0 +1,1693 @@
+331615006	Lidocaine 2.5% / Prilocaine 2.5% cream
+2936211000001105	Lidocaine 2.5% / Prilocaine 2.5% cream
+7668311000001109	Lidocaine 2.5% / Prilocaine 2.5% cream
+14678811000001104	Lidocaine 2.5% / Prilocaine 2.5% cream
+2936311000001102	Emla 5% cream (Aspen Pharma Trading Ltd)
+2937411000001106	Emla 5% cream (Aspen Pharma Trading Ltd)
+19466611000001108	Emla 5% cream (Aspen Pharma Trading Ltd)
+7668411000001102	Emla 5% cream (Aspen Pharma Trading Ltd)
+19466711000001104	Emla 5% cream (Aspen Pharma Trading Ltd)
+23364211000001105	Denela 5% cream (Teva UK Ltd)
+23364311000001102	Denela 5% cream (Teva UK Ltd)
+24528511000001108	Denela 5% cream (Teva UK Ltd)
+24528711000001103	Denela 5% cream (Teva UK Ltd)
+24528611000001107	Denela 5% cream (Teva UK Ltd)
+34881811000001106	Nulbia 5% cream (Glenmark Pharmaceuticals Europe Ltd)
+34881911000001101	Nulbia 5% cream (Glenmark Pharmaceuticals Europe Ltd)
+34882111000001109	Nulbia 5% cream (Glenmark Pharmaceuticals Europe Ltd)
+34882011000001108	Nulbia 5% cream (Glenmark Pharmaceuticals Europe Ltd)
+36124911000001107	Midazolam 10mg/2ml solution for injection ampoules
+3382911000001109	Midazolam 10mg/2ml solution for injection ampoules
+3383311000001103	Midazolam 10mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3383611000001108	Midazolam 10mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3384011000001104	Midazolam 10mg/2ml solution for injection ampoules (Wockhardt UK Ltd)
+3384511000001107	Midazolam 10mg/2ml solution for injection ampoules (Wockhardt UK Ltd)
+3385011000001100	Hypnovel 10mg/2ml solution for injection ampoules (Neon Healthcare Ltd)
+3385211000001105	Hypnovel 10mg/2ml solution for injection ampoules (Neon Healthcare Ltd)
+3385311000001102	Midazolam 10mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+3385411000001109	Midazolam 10mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+5104211000001105	Midazolam 10mg/2ml solution for injection ampoules (hameln pharma Ltd)
+5104311000001102	Midazolam 10mg/2ml solution for injection ampoules (hameln pharma Ltd)
+10679811000001109	Midazolam 10mg/2ml solution for injection ampoules (Advanz Pharma)
+10679911000001104	Midazolam 10mg/2ml solution for injection ampoules (Advanz Pharma)
+19711411000001105	Midazolam 10mg/2ml solution for injection ampoules (Actavis UK Ltd)
+19711511000001109	Midazolam 10mg/2ml solution for injection ampoules (Actavis UK Ltd)
+27858211000001101	Midazolam 10mg/2ml solution for injection ampoules (Accord Healthcare Ltd)
+27858411000001102	Midazolam 10mg/2ml solution for injection ampoules (Accord Healthcare Ltd)
+29745511000001101	Midazolam 10mg/2ml solution for injection ampoules (J M McGill Ltd)
+29745611000001102	Midazolam 10mg/2ml solution for injection ampoules (J M McGill Ltd)
+29746211000001105	Midazolam 10mg/2ml solution for injection ampoules (Niche Pharma Ltd)
+29746311000001102	Midazolam 10mg/2ml solution for injection ampoules (Niche Pharma Ltd)
+31994411000001107	Midazolam 10mg/2ml solution for injection ampoules (Ennogen Healthcare Ltd)
+31994511000001106	Midazolam 10mg/2ml solution for injection ampoules (Ennogen Healthcare Ltd)
+32480111000001109	Midazolam 10mg/2ml solution for injection ampoules (Colorama Pharmaceuticals Ltd)
+32482611000001100	Midazolam 10mg/2ml solution for injection ampoules (Colorama Pharmaceuticals Ltd)
+39877111000001103	Midazolam 10mg/2ml solution for injection ampoules (Medihealth (Northern) Ltd)
+39877311000001101	Midazolam 10mg/2ml solution for injection ampoules (Medihealth (Northern) Ltd)
+3602611000001107	Lidocaine 200mg/20ml (1%) / Adrenaline (base) 100micrograms/20ml (1 in 200,000) solution for injection vials
+3594511000001105	Lidocaine 200mg/20ml (1%) / Adrenaline (base) 100micrograms/20ml (1 in 200,000) solution for injection vials
+3594611000001109	Xylocaine 1% with Adrenaline 100micrograms/20ml (1 in 200,000) solution for injection vials (Aspen Pharma Trading Ltd)
+3595211000001108	Xylocaine 1% with Adrenaline 100micrograms/20ml (1 in 200,000) solution for injection vials (Aspen Pharma Trading Ltd)
+36039711000001100	Lidocaine 400mg/20ml (2%) solution for injection vials
+3594711000001100	Lidocaine 400mg/20ml (2%) solution for injection vials
+3594811000001108	Lidocaine 400mg/20ml (2%) solution for injection vials (A A H Pharmaceuticals Ltd)
+3594911000001103	Lidocaine 400mg/20ml (2%) solution for injection vials (A A H Pharmaceuticals Ltd)
+5098511000001105	Lidocaine 400mg/20ml (2%) solution for injection vials (hameln pharma Ltd)
+5098611000001109	Lidocaine 400mg/20ml (2%) solution for injection vials (hameln pharma Ltd)
+10060311000001106	Lidocaine 400mg/20ml (2%) solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+10060411000001104	Lidocaine 400mg/20ml (2%) solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+36039411000001106	Lidocaine 20mg/2ml (1%) solution for injection ampoules
+3595011000001103	Lidocaine 20mg/2ml (1%) solution for injection ampoules
+3595111000001102	Lidocaine 20mg/2ml (1%) solution for injection ampoules
+3595311000001100	Lidocaine 20mg/2ml (1%) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3595411000001107	Lidocaine 20mg/2ml (1%) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3595511000001106	Lidocaine 20mg/2ml (1%) solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+3595711000001101	Lidocaine 20mg/2ml (1%) solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+3595811000001109	Lidocaine 20mg/2ml (1%) solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+3596111000001108	Lidocaine 20mg/2ml (1%) solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+3596211000001102	Lidocaine 20mg/2ml (1%) solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+3596611000001100	Lidocaine 20mg/2ml (1%) solution for injection Sure-Amp ampoules (Mercury Pharma Group Ltd)
+3596811000001101	Lidocaine 20mg/2ml (1%) solution for injection Sure-Amp ampoules (Mercury Pharma Group Ltd)
+5092711000001103	Lidocaine 20mg/2ml (1%) solution for injection ampoules (hameln pharma Ltd)
+5092811000001106	Lidocaine 20mg/2ml (1%) solution for injection ampoules (hameln pharma Ltd)
+10683011000001108	Lidocaine 20mg/2ml (1%) solution for injection ampoules (Advanz Pharma)
+10683111000001109	Lidocaine 20mg/2ml (1%) solution for injection ampoules (Advanz Pharma)
+18138711000001109	Lidocaine 20mg/2ml (1%) solution for injection ampoules (Phoenix Healthcare Distribution Ltd)
+18138811000001101	Lidocaine 20mg/2ml (1%) solution for injection ampoules (Phoenix Healthcare Distribution Ltd)
+34537711000001100	Lidocaine 20mg/2ml (1%) solution for injection ampoules (Peckforton Pharmaceuticals Ltd)
+34537811000001108	Lidocaine 20mg/2ml (1%) solution for injection ampoules (Peckforton Pharmaceuticals Ltd)
+3602511000001108	Lidocaine 400mg/20ml (2%) / Adrenaline (base) 100micrograms/20ml (1 in 200,000) solution for injection vials
+3595611000001105	Lidocaine 400mg/20ml (2%) / Adrenaline (base) 100micrograms/20ml (1 in 200,000) solution for injection vials
+3595911000001104	Xylocaine 2% with Adrenaline 100micrograms/20ml (1 in 200,000) solution for injection vials (Aspen Pharma Trading Ltd)
+3596011000001107	Xylocaine 2% with Adrenaline 100micrograms/20ml (1 in 200,000) solution for injection vials (Aspen Pharma Trading Ltd)
+3602411000001109	Lidocaine 200mg/20ml (1%) solution for injection vials
+3596311000001105	Lidocaine 200mg/20ml (1%) solution for injection vials
+3596411000001103	Lidocaine 200mg/20ml (1%) solution for injection vials (A A H Pharmaceuticals Ltd)
+3596511000001104	Lidocaine 200mg/20ml (1%) solution for injection vials (A A H Pharmaceuticals Ltd)
+3596711000001109	Lidocaine 200mg/20ml (1%) solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+3596911000001106	Lidocaine 200mg/20ml (1%) solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+5098111000001101	Lidocaine 200mg/20ml (1%) solution for injection vials (hameln pharma Ltd)
+5098211000001107	Lidocaine 200mg/20ml (1%) solution for injection vials (hameln pharma Ltd)
+3601911000001107	Lidocaine 100mg/5ml (2%) solution for injection ampoules
+3597511000001102	Lidocaine 100mg/5ml (2%) solution for injection ampoules
+3597611000001103	Lidocaine 100mg/5ml (2%) solution for injection ampoules
+35863811000001104	Lidocaine 100mg/5ml (2%) solution for injection ampoules
+3597711000001107	Lidocaine 100mg/5ml (2%) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3597811000001104	Lidocaine 100mg/5ml (2%) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3597911000001109	Lidocaine 100mg/5ml (2%) solution for injection Sure-Amp ampoules (Advanz Pharma)
+3598011000001106	Lidocaine 100mg/5ml (2%) solution for injection Sure-Amp ampoules (Advanz Pharma)
+3598111000001107	Lidocaine 100mg/5ml (2%) solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+3598211000001101	Lidocaine 100mg/5ml (2%) solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+3598311000001109	Lidocaine 100mg/5ml (2%) solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+3598411000001102	Lidocaine 100mg/5ml (2%) solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+3598511000001103	Lidocaine 100mg/5ml (2%) solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+5097211000001108	Lidocaine 100mg/5ml (2%) solution for injection ampoules (hameln pharma Ltd)
+5097411000001107	Lidocaine 100mg/5ml (2%) solution for injection ampoules (hameln pharma Ltd)
+10680611000001105	Lidocaine 100mg/5ml (2%) solution for injection ampoules (Advanz Pharma)
+10680711000001101	Lidocaine 100mg/5ml (2%) solution for injection ampoules (Advanz Pharma)
+34538411000001105	Lidocaine 100mg/5ml (2%) solution for injection ampoules (Peckforton Pharmaceuticals Ltd)
+34538511000001109	Lidocaine 100mg/5ml (2%) solution for injection ampoules (Peckforton Pharmaceuticals Ltd)
+35863911000001109	Lidocaine 100mg/5ml (2%) solution for injection Mini-Plasco ampoules (B.Braun Medical Ltd)
+36117511000001103	Lidocaine 100mg/5ml (2%) solution for injection Mini-Plasco ampoules (B.Braun Medical Ltd)
+35864011000001107	Lidocaine 100mg/5ml (2%) solution for injection Mini-Plasco ampoules (B.Braun Medical Ltd)
+36463611000001109	Lidocaine 100mg/5ml (2%) solution for injection Mini-Plasco ampoules (hameln pharma Ltd)
+36463711000001100	Lidocaine 100mg/5ml (2%) solution for injection Mini-Plasco ampoules (hameln pharma Ltd)
+36040011000001109	Lidocaine 50mg/5ml (1%) solution for injection ampoules
+3599111000001100	Lidocaine 50mg/5ml (1%) solution for injection ampoules
+3599211000001106	Lidocaine 50mg/5ml (1%) solution for injection ampoules
+35863211000001100	Lidocaine 50mg/5ml (1%) solution for injection ampoules
+3599311000001103	Lidocaine 50mg/5ml (1%) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3599411000001105	Lidocaine 50mg/5ml (1%) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3599511000001109	Lidocaine 50mg/5ml (1%) solution for injection Sure-Amp ampoules (Advanz Pharma)
+3599611000001108	Lidocaine 50mg/5ml (1%) solution for injection Sure-Amp ampoules (Advanz Pharma)
+3599711000001104	Lidocaine 50mg/5ml (1%) solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+3599811000001107	Lidocaine 50mg/5ml (1%) solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+3599911000001102	Lidocaine 50mg/5ml (1%) solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+3600011000001104	Lidocaine 50mg/5ml (1%) solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+3600111000001103	Lidocaine 50mg/5ml (1%) solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+5092911000001101	Lidocaine 50mg/5ml (1%) solution for injection ampoules (hameln pharma Ltd)
+5093011000001109	Lidocaine 50mg/5ml (1%) solution for injection ampoules (hameln pharma Ltd)
+10682811000001105	Lidocaine 50mg/5ml (1%) solution for injection ampoules (Advanz Pharma)
+10682911000001100	Lidocaine 50mg/5ml (1%) solution for injection ampoules (Advanz Pharma)
+34537911000001103	Lidocaine 50mg/5ml (1%) solution for injection ampoules (Peckforton Pharmaceuticals Ltd)
+34538011000001101	Lidocaine 50mg/5ml (1%) solution for injection ampoules (Peckforton Pharmaceuticals Ltd)
+35863311000001108	Lidocaine 50mg/5ml (1%) solution for injection Mini-Plasco ampoules (B.Braun Medical Ltd)
+36118311000001105	Lidocaine 50mg/5ml (1%) solution for injection Mini-Plasco ampoules (B.Braun Medical Ltd)
+35863411000001101	Lidocaine 50mg/5ml (1%) solution for injection Mini-Plasco ampoules (B.Braun Medical Ltd)
+36463211000001107	Lidocaine 50mg/5ml (1%) solution for injection Mini-Plasco ampoules (hameln pharma Ltd)
+36463311000001104	Lidocaine 50mg/5ml (1%) solution for injection Mini-Plasco ampoules (hameln pharma Ltd)
+36039811000001108	Lidocaine 40mg/2ml (2%) solution for injection ampoules
+3600211000001109	Lidocaine 40mg/2ml (2%) solution for injection ampoules
+3600311000001101	Lidocaine 40mg/2ml (2%) solution for injection ampoules
+3600411000001108	Lidocaine 40mg/2ml (2%) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3600511000001107	Lidocaine 40mg/2ml (2%) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3600611000001106	Lidocaine 40mg/2ml (2%) solution for injection Sure-Amp ampoules (Mercury Pharma Group Ltd)
+3600711000001102	Lidocaine 40mg/2ml (2%) solution for injection Sure-Amp ampoules (Mercury Pharma Group Ltd)
+3600811000001105	Lidocaine 40mg/2ml (2%) solution for injection Mini-Plasco ampoules (B.Braun Medical Ltd)
+3600911000001100	Lidocaine 40mg/2ml (2%) solution for injection Mini-Plasco ampoules (B.Braun Medical Ltd)
+3601011000001108	Lidocaine 40mg/2ml (2%) solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+3601111000001109	Lidocaine 40mg/2ml (2%) solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+3601211000001103	Lidocaine 40mg/2ml (2%) solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+3601311000001106	Lidocaine 40mg/2ml (2%) solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+3601411000001104	Lidocaine 40mg/2ml (2%) solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+5096511000001109	Lidocaine 40mg/2ml (2%) solution for injection ampoules (hameln pharma Ltd)
+5096711000001104	Lidocaine 40mg/2ml (2%) solution for injection ampoules (hameln pharma Ltd)
+10680811000001109	Lidocaine 40mg/2ml (2%) solution for injection ampoules (Advanz Pharma)
+10680911000001104	Lidocaine 40mg/2ml (2%) solution for injection ampoules (Advanz Pharma)
+18139111000001101	Lidocaine 40mg/2ml (2%) solution for injection ampoules (Phoenix Healthcare Distribution Ltd)
+18139211000001107	Lidocaine 40mg/2ml (2%) solution for injection ampoules (Phoenix Healthcare Distribution Ltd)
+34538211000001106	Lidocaine 40mg/2ml (2%) solution for injection ampoules (Peckforton Pharmaceuticals Ltd)
+34538311000001103	Lidocaine 40mg/2ml (2%) solution for injection ampoules (Peckforton Pharmaceuticals Ltd)
+331617003	Tetracaine 4% gel
+3718111000001107	Tetracaine 4% gel
+8968511000001106	Tetracaine 4% gel
+3718311000001109	Ametop 4% gel (Forum Health Products Ltd)
+3718611000001104	Ametop 4% gel (Forum Health Products Ltd)
+8968911000001104	Ametop 4% gel (Forum Health Products Ltd)
+334240007	Lidocaine 1% gel
+3763711000001103	Lidocaine 1% gel
+14158211000001102	Lidocaine 1% gel
+3763811000001106	Lidocaine 1% gel (A A H Pharmaceuticals Ltd)
+3763911000001101	Lidocaine 1% gel (A A H Pharmaceuticals Ltd)
+3764011000001103	Lidocaine 1% gel (AstraZeneca UK Ltd)
+3764111000001102	Lidocaine 1% gel (AstraZeneca UK Ltd)
+3764211000001108	Lidocaine 1% gel (Alliance Healthcare (Distribution) Ltd)
+3764311000001100	Lidocaine 1% gel (Alliance Healthcare (Distribution) Ltd)
+4774711000001106	Lidocaine 1% gel (Teva UK Ltd)
+4774811000001103	Lidocaine 1% gel (Teva UK Ltd)
+14158311000001105	Lidocaine 1% gel (Special Order)
+14158411000001103	Lidocaine 1% gel (Special Order)
+334243009	Lidocaine 2% gel
+3764411000001107	Lidocaine 2% gel
+17417211000001100	Lidocaine 2% gel
+21391011000001106	Lidocaine 2% gel
+22692111000001108	Lidocaine 2% gel
+3764611000001105	Lidocaine 2% gel (A A H Pharmaceuticals Ltd)
+3764711000001101	Lidocaine 2% gel (A A H Pharmaceuticals Ltd)
+3765011000001104	Lidocaine 2% gel (AstraZeneca UK Ltd)
+3765111000001103	Lidocaine 2% gel (AstraZeneca UK Ltd)
+3765311000001101	Lidocaine 2% gel (Alliance Healthcare (Distribution) Ltd)
+3765411000001108	Lidocaine 2% gel (Alliance Healthcare (Distribution) Ltd)
+4774911000001108	Lidocaine 2% gel (Teva UK Ltd)
+4775011000001108	Lidocaine 2% gel (Teva UK Ltd)
+17417311000001108	Lidocaine 2% gel (Drug Tariff Special Order)
+23392911000001108	Lidocaine 2% gel (Drug Tariff Special Order)
+17417411000001101	Lidocaine 2% gel (Drug Tariff Special Order)
+21391111000001107	Lidocaine 2% gel (Drug Tariff Special Order)
+22692211000001102	Lidocaine 2% gel (Drug Tariff Special Order)
+3776011000001101	Lidocaine 100mg/10ml (1%) solution for injection ampoules
+3767711000001108	Lidocaine 100mg/10ml (1%) solution for injection ampoules
+3767811000001100	Lidocaine 100mg/10ml (1%) solution for injection ampoules
+3767911000001105	Lidocaine 100mg/10ml (1%) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3768011000001107	Lidocaine 100mg/10ml (1%) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3768111000001108	Lidocaine 100mg/10ml (1%) solution for injection Sure-Amp ampoules (Advanz Pharma)
+3768211000001102	Lidocaine 100mg/10ml (1%) solution for injection Sure-Amp ampoules (Advanz Pharma)
+3768311000001105	Lidocaine 100mg/10ml (1%) solution for injection Mini-Plasco ampoules (B.Braun Medical Ltd)
+3768411000001103	Lidocaine 100mg/10ml (1%) solution for injection Mini-Plasco ampoules (B.Braun Medical Ltd)
+3768511000001104	Lidocaine 100mg/10ml (1%) solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+3768611000001100	Lidocaine 100mg/10ml (1%) solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+3768711000001109	Lidocaine 100mg/10ml (1%) solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+3768811000001101	Lidocaine 100mg/10ml (1%) solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+3768911000001106	Lidocaine 100mg/10ml (1%) solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+5093111000001105	Lidocaine 100mg/10ml (1%) solution for injection ampoules (hameln pharma Ltd)
+5093211000001104	Lidocaine 100mg/10ml (1%) solution for injection ampoules (hameln pharma Ltd)
+10682611000001106	Lidocaine 100mg/10ml (1%) solution for injection ampoules (Advanz Pharma)
+10682711000001102	Lidocaine 100mg/10ml (1%) solution for injection ampoules (Advanz Pharma)
+22465411000001105	Lidocaine 100mg/10ml (1%) solution for injection ampoules (Waymade Healthcare Plc)
+22465511000001109	Lidocaine 100mg/10ml (1%) solution for injection ampoules (Waymade Healthcare Plc)
+36463411000001106	Lidocaine 100mg/10ml (1%) solution for injection Mini-Plasco ampoules (hameln pharma Ltd)
+36463511000001105	Lidocaine 100mg/10ml (1%) solution for injection Mini-Plasco ampoules (hameln pharma Ltd)
+36039311000001104	Lidocaine 200mg/20ml (1%) solution for injection ampoules
+3769511000001105	Lidocaine 200mg/20ml (1%) solution for injection ampoules
+3769611000001109	Lidocaine 200mg/20ml (1%) solution for injection ampoules
+35863511000001102	Lidocaine 200mg/20ml (1%) solution for injection ampoules
+3769711000001100	Lidocaine 200mg/20ml (1%) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3769811000001108	Lidocaine 200mg/20ml (1%) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3769911000001103	Lidocaine 200mg/20ml (1%) solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+3770011000001104	Lidocaine 200mg/20ml (1%) solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+3770111000001103	Lidocaine 200mg/20ml (1%) solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+3770211000001109	Lidocaine 200mg/20ml (1%) solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+3770311000001101	Lidocaine 200mg/20ml (1%) solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+5093411000001100	Lidocaine 200mg/20ml (1%) solution for injection ampoules (hameln pharma Ltd)
+5093511000001101	Lidocaine 200mg/20ml (1%) solution for injection ampoules (hameln pharma Ltd)
+10682411000001108	Lidocaine 200mg/20ml (1%) solution for injection ampoules (Advanz Pharma)
+10682511000001107	Lidocaine 200mg/20ml (1%) solution for injection ampoules (Advanz Pharma)
+35863611000001103	Lidocaine 200mg/20ml (1%) solution for injection Mini-Plasco ampoules (B.Braun Medical Ltd)
+36117811000001100	Lidocaine 200mg/20ml (1%) solution for injection Mini-Plasco ampoules (B.Braun Medical Ltd)
+35863711000001107	Lidocaine 200mg/20ml (1%) solution for injection Mini-Plasco ampoules (B.Braun Medical Ltd)
+36039611000001109	Lidocaine 400mg/20ml (2%) solution for injection ampoules
+3770411000001108	Lidocaine 400mg/20ml (2%) solution for injection ampoules
+3770511000001107	Lidocaine 400mg/20ml (2%) solution for injection ampoules
+35864211000001102	Lidocaine 400mg/20ml (2%) solution for injection ampoules
+3770611000001106	Lidocaine 400mg/20ml (2%) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3770711000001102	Lidocaine 400mg/20ml (2%) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3770811000001105	Lidocaine 400mg/20ml (2%) solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+3770911000001100	Lidocaine 400mg/20ml (2%) solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+3771011000001108	Lidocaine 400mg/20ml (2%) solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+5097511000001106	Lidocaine 400mg/20ml (2%) solution for injection ampoules (hameln pharma Ltd)
+5097611000001105	Lidocaine 400mg/20ml (2%) solution for injection ampoules (hameln pharma Ltd)
+10680411000001107	Lidocaine 400mg/20ml (2%) solution for injection ampoules (Advanz Pharma)
+10680511000001106	Lidocaine 400mg/20ml (2%) solution for injection ampoules (Advanz Pharma)
+35864311000001105	Lidocaine 400mg/20ml (2%) solution for injection Mini-Plasco ampoules (B.Braun Medical Ltd)
+36118111000001108	Lidocaine 400mg/20ml (2%) solution for injection Mini-Plasco ampoules (B.Braun Medical Ltd)
+35864411000001103	Lidocaine 400mg/20ml (2%) solution for injection Mini-Plasco ampoules (B.Braun Medical Ltd)
+36044311000001104	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules
+3790011000001108	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules
+3790211000001103	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3790311000001106	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3790611000001101	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (UCB Pharma Ltd)
+3790911000001107	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (UCB Pharma Ltd)
+3791211000001109	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+3791411000001108	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+3791811000001105	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+3792111000001108	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+9470711000001108	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (Wockhardt UK Ltd)
+9470811000001100	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (Wockhardt UK Ltd)
+32456211000001109	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (Phoenix Labs Ltd)
+32456411000001108	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (Phoenix Labs Ltd)
+37390211000001109	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (DE Pharmaceuticals)
+37390511000001107	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (DE Pharmaceuticals)
+38967711000001104	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (Medihealth (Northern) Ltd)
+38967811000001107	Hyoscine hydrobromide 400micrograms/1ml solution for injection ampoules (Medihealth (Northern) Ltd)
+38896111000001105	Glycopyrronium bromide 200micrograms/1ml solution for injection ampoules
+3822911000001104	Glycopyrronium bromide 200micrograms/1ml solution for injection ampoules
+15934511000001104	Glycopyrronium bromide 200micrograms/1ml solution for injection ampoules
+3823111000001108	Robinul 200micrograms/1ml solution for injection ampoules (Mercury Pharma Group Ltd)
+3823311000001105	Robinul 200micrograms/1ml solution for injection ampoules (Mercury Pharma Group Ltd)
+11487811000001104	Glycopyrronium bromide 200micrograms/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+11488011000001106	Glycopyrronium bromide 200micrograms/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+13845011000001105	Glycopyrronium bromide 200micrograms/1ml solution for injection ampoules (Advanz Pharma)
+13845111000001106	Glycopyrronium bromide 200micrograms/1ml solution for injection ampoules (Advanz Pharma)
+14729811000001104	Glycopyrronium bromide 200micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+14730211000001109	Glycopyrronium bromide 200micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+15934711000001109	Glycopyrronium bromide 200micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+20506811000001103	Glycopyrronium bromide 200micrograms/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+20506911000001108	Glycopyrronium bromide 200micrograms/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+28991411000001100	Glycopyrronium bromide 200micrograms/1ml solution for injection ampoules (Accord Healthcare Ltd)
+28991511000001101	Glycopyrronium bromide 200micrograms/1ml solution for injection ampoules (Accord Healthcare Ltd)
+37605211000001106	Glycopyrronium bromide 200micrograms/1ml solution for injection ampoules (DE Pharmaceuticals)
+37605311000001103	Glycopyrronium bromide 200micrograms/1ml solution for injection ampoules (DE Pharmaceuticals)
+39321311000001105	Glycopyrronium bromide 200micrograms/1ml solution for injection ampoules (Medihealth (Northern) Ltd)
+39321411000001103	Glycopyrronium bromide 200micrograms/1ml solution for injection ampoules (Medihealth (Northern) Ltd)
+334245002	Lidocaine 5% ointment
+3842211000001106	Lidocaine 5% ointment
+3842511000001109	Lidocaine 5% ointment (A A H Pharmaceuticals Ltd)
+3843011000001105	Lidocaine 5% ointment (A A H Pharmaceuticals Ltd)
+3843211000001100	Lidocaine 5% ointment (Alliance Healthcare (Distribution) Ltd)
+3843611000001103	Lidocaine 5% ointment (Alliance Healthcare (Distribution) Ltd)
+4208111000001101	Lidocaine 5% ointment (Teva UK Ltd)
+4208211000001107	Lidocaine 5% ointment (Teva UK Ltd)
+23261111000001105	Lidocaine 5% ointment (AM Distributions (Yorkshire) Ltd)
+23261211000001104	Lidocaine 5% ointment (AM Distributions (Yorkshire) Ltd)
+23430011000001109	Lidocaine 5% ointment (J M McGill Ltd)
+23430111000001105	Lidocaine 5% ointment (J M McGill Ltd)
+23938611000001102	Lidocaine 5% ointment (Niche Pharma Ltd)
+23938711000001106	Lidocaine 5% ointment (Niche Pharma Ltd)
+23940711000001108	Lidocaine 5% ointment (DE Pharmaceuticals)
+23940811000001100	Lidocaine 5% ointment (DE Pharmaceuticals)
+24027611000001105	Lidocaine 5% ointment (CST Pharma Ltd)
+24027711000001101	Lidocaine 5% ointment (CST Pharma Ltd)
+24570411000001105	Lidocaine 5% ointment (Mawdsley-Brooks & Company Ltd)
+24570511000001109	Lidocaine 5% ointment (Mawdsley-Brooks & Company Ltd)
+24625111000001104	Lidocaine 5% ointment (Colorama Pharmaceuticals Ltd)
+24625211000001105	Lidocaine 5% ointment (Colorama Pharmaceuticals Ltd)
+25878011000001109	Lidocaine 5% ointment (Icarus Pharmaceuticals Ltd)
+25880511000001107	Lidocaine 5% ointment (Icarus Pharmaceuticals Ltd)
+28128311000001106	Lidocaine 5% ointment (Pharma-z Ltd)
+28128511000001100	Lidocaine 5% ointment (Pharma-z Ltd)
+28393411000001108	Lidocaine 5% ointment (Ennogen Healthcare Ltd)
+28393511000001107	Lidocaine 5% ointment (Ennogen Healthcare Ltd)
+39017911000001106	Lidocaine 5% ointment (Medihealth (Northern) Ltd)
+39018211000001103	Lidocaine 5% ointment (Medihealth (Northern) Ltd)
+36044411000001106	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules
+3855811000001103	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules
+3857611000001109	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3857811000001108	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3858211000001106	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+3858711000001104	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+3858811000001107	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+3859011000001106	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+9470911000001105	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (Wockhardt UK Ltd)
+9471011000001102	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (Wockhardt UK Ltd)
+23216511000001106	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (J M McGill Ltd)
+23216711000001101	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (J M McGill Ltd)
+23938211000001104	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (Niche Pharma Ltd)
+23938311000001107	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (Niche Pharma Ltd)
+29210111000001102	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (Ennogen Healthcare Ltd)
+29210211000001108	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (Ennogen Healthcare Ltd)
+37390711000001102	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (DE Pharmaceuticals)
+37390811000001105	Hyoscine hydrobromide 600micrograms/1ml solution for injection ampoules (DE Pharmaceuticals)
+3876211000001108	Lidocaine 100mg/20ml (0.5%) / Adrenaline (base) 100micrograms/20ml (1 in 200,000) solution for injection vials
+3866911000001109	Lidocaine 100mg/20ml (0.5%) / Adrenaline (base) 100micrograms/20ml (1 in 200,000) solution for injection vials
+3867011000001108	Xylocaine 0.5% with Adrenaline 100micrograms/20ml (1 in 200,000) solution for injection vials (AstraZeneca UK Ltd)
+3867111000001109	Xylocaine 0.5% with Adrenaline 100micrograms/20ml (1 in 200,000) solution for injection vials (AstraZeneca UK Ltd)
+36125011000001107	Midazolam 10mg/5ml solution for injection ampoules
+3879311000001107	Midazolam 10mg/5ml solution for injection ampoules
+3879511000001101	Midazolam 10mg/5ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3879611000001102	Midazolam 10mg/5ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3879711000001106	Midazolam 10mg/5ml solution for injection ampoules (Wockhardt UK Ltd)
+3879911000001108	Midazolam 10mg/5ml solution for injection ampoules (Wockhardt UK Ltd)
+3880111000001105	Midazolam 10mg/5ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+3880211000001104	Midazolam 10mg/5ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+3880411000001100	Hypnovel 10mg/5ml solution for injection ampoules (Roche Products Ltd)
+3880511000001101	Hypnovel 10mg/5ml solution for injection ampoules (Roche Products Ltd)
+5104011000001100	Midazolam 10mg/5ml solution for injection ampoules (hameln pharma Ltd)
+5104111000001104	Midazolam 10mg/5ml solution for injection ampoules (hameln pharma Ltd)
+10679511000001106	Midazolam 10mg/5ml solution for injection ampoules (Advanz Pharma)
+10679711000001101	Midazolam 10mg/5ml solution for injection ampoules (Advanz Pharma)
+19711211000001106	Midazolam 10mg/5ml solution for injection ampoules (Actavis UK Ltd)
+19711311000001103	Midazolam 10mg/5ml solution for injection ampoules (Actavis UK Ltd)
+20227811000001101	Midazolam 10mg/5ml solution for injection ampoules (Phoenix Healthcare Distribution Ltd)
+20227911000001106	Midazolam 10mg/5ml solution for injection ampoules (Phoenix Healthcare Distribution Ltd)
+27953111000001108	Midazolam 10mg/5ml solution for injection ampoules (Accord Healthcare Ltd)
+27953211000001102	Midazolam 10mg/5ml solution for injection ampoules (Accord Healthcare Ltd)
+35905711000001104	Atropine 600micrograms/1ml solution for injection ampoules
+3945811000001108	Atropine 600micrograms/1ml solution for injection ampoules
+3945911000001103	Atropine 600micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3946011000001106	Atropine 600micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3946111000001107	Atropine 600micrograms/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+3946211000001101	Atropine 600micrograms/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+3946411000001102	Atropine 600micrograms/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+3946611000001104	Atropine 600micrograms/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+5082111000001100	Atropine 600micrograms/1ml solution for injection ampoules (hameln pharma Ltd)
+5082211000001106	Atropine 600micrograms/1ml solution for injection ampoules (hameln pharma Ltd)
+10674211000001109	Atropine 600micrograms/1ml solution for injection ampoules (Advanz Pharma)
+10674311000001101	Atropine 600micrograms/1ml solution for injection ampoules (Advanz Pharma)
+18083211000001108	Atropine 600micrograms/1ml solution for injection ampoules (Phoenix Healthcare Distribution Ltd)
+18083311000001100	Atropine 600micrograms/1ml solution for injection ampoules (Phoenix Healthcare Distribution Ltd)
+32873011000001103	Atropine 600micrograms/1ml solution for injection ampoules (Sigma Pharmaceuticals Plc)
+32873111000001102	Atropine 600micrograms/1ml solution for injection ampoules (Sigma Pharmaceuticals Plc)
+36119811000001108	Fentanyl 100micrograms/2ml solution for injection ampoules
+3982511000001108	Fentanyl 100micrograms/2ml solution for injection ampoules
+3982611000001107	Fentanyl 100micrograms/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3982711000001103	Fentanyl 100micrograms/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+3982811000001106	Sublimaze 100micrograms/2ml solution for injection ampoules (Janssen-Cilag Ltd)
+3982911000001101	Sublimaze 100micrograms/2ml solution for injection ampoules (Janssen-Cilag Ltd)
+3983011000001109	Fentanyl 100micrograms/2ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+3983111000001105	Fentanyl 100micrograms/2ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+10351011000001109	Fentanyl 100micrograms/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+10351111000001105	Fentanyl 100micrograms/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+10683611000001101	Fentanyl 100micrograms/2ml solution for injection ampoules (Advanz Pharma)
+10683711000001105	Fentanyl 100micrograms/2ml solution for injection ampoules (Advanz Pharma)
+15627411000001107	Fentanyl 100micrograms/2ml solution for injection ampoules (Actavis UK Ltd)
+15627911000001104	Fentanyl 100micrograms/2ml solution for injection ampoules (Actavis UK Ltd)
+28792911000001108	Fentanyl 100micrograms/2ml solution for injection ampoules (hameln pharma Ltd)
+28793011000001100	Fentanyl 100micrograms/2ml solution for injection ampoules (hameln pharma Ltd)
+36036711000001105	Ketamine 1g/10ml solution for injection vials
+3987011000001103	Ketamine 1g/10ml solution for injection vials
+3987211000001108	Ketalar 1g/10ml solution for injection vials (Pfizer Ltd)
+3987511000001106	Ketalar 1g/10ml solution for injection vials (Pfizer Ltd)
+36036811000001102	Ketamine 200mg/20ml solution for injection vials
+3988111000001101	Ketamine 200mg/20ml solution for injection vials
+3988711000001100	Ketalar 200mg/20ml solution for injection vials (Pfizer Ltd)
+3989011000001107	Ketalar 200mg/20ml solution for injection vials (Pfizer Ltd)
+36036911000001107	Ketamine 500mg/10ml solution for injection vials
+3990311000001100	Ketamine 500mg/10ml solution for injection vials
+30781711000001104	Ketamine 500mg/10ml solution for injection vials
+3990611000001105	Ketalar 500mg/10ml solution for injection vials (Pfizer Ltd)
+3990711000001101	Ketalar 500mg/10ml solution for injection vials (Pfizer Ltd)
+30781811000001107	Ketamine 500mg/10ml solution for injection vials (hameln pharma Ltd)
+30781911000001102	Ketamine 500mg/10ml solution for injection vials (hameln pharma Ltd)
+34551211000001101	Ketamine 500mg/10ml solution for injection vials (Panpharma UK Ltd)
+34551311000001109	Ketamine 500mg/10ml solution for injection vials (Panpharma UK Ltd)
+38895711000001103	Glycopyrronium bromide 600micrograms/3ml solution for injection ampoules
+4000711000001109	Glycopyrronium bromide 600micrograms/3ml solution for injection ampoules
+4882211000001101	Glycopyrronium bromide 600micrograms/3ml solution for injection ampoules
+4000811000001101	Robinul 600micrograms/3ml solution for injection ampoules (Mercury Pharma Group Ltd)
+4000911000001106	Robinul 600micrograms/3ml solution for injection ampoules (Mercury Pharma Group Ltd)
+4882411000001102	Robinul 600micrograms/3ml solution for injection ampoules (Mercury Pharma Group Ltd)
+11488111000001107	Glycopyrronium bromide 600micrograms/3ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+11488311000001109	Glycopyrronium bromide 600micrograms/3ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+13845211000001100	Glycopyrronium bromide 600micrograms/3ml solution for injection ampoules (Advanz Pharma)
+13845411000001101	Glycopyrronium bromide 600micrograms/3ml solution for injection ampoules (Advanz Pharma)
+13845311000001108	Glycopyrronium bromide 600micrograms/3ml solution for injection ampoules (Advanz Pharma)
+14730811000001105	Glycopyrronium bromide 600micrograms/3ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+14731111000001109	Glycopyrronium bromide 600micrograms/3ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+15934811000001101	Glycopyrronium bromide 600micrograms/3ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+20507011000001107	Glycopyrronium bromide 600micrograms/3ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+34044411000001104	Glycopyrronium bromide 600micrograms/3ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+20507111000001108	Glycopyrronium bromide 600micrograms/3ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+28991211000001104	Glycopyrronium bromide 600micrograms/3ml solution for injection ampoules (Accord Healthcare Ltd)
+28991311000001107	Glycopyrronium bromide 600micrograms/3ml solution for injection ampoules (Accord Healthcare Ltd)
+37388311000001100	Glycopyrronium bromide 600micrograms/3ml solution for injection ampoules (DE Pharmaceuticals)
+37388411000001107	Glycopyrronium bromide 600micrograms/3ml solution for injection ampoules (DE Pharmaceuticals)
+36039911000001103	Lidocaine 50mg/10ml (0.5%) solution for injection ampoules
+4010211000001100	Lidocaine 50mg/10ml (0.5%) solution for injection ampoules
+4010311000001108	Lidocaine 50mg/10ml (0.5%) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4010411000001101	Lidocaine 50mg/10ml (0.5%) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4010511000001102	Lidocaine 50mg/10ml (0.5%) solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+4010611000001103	Lidocaine 50mg/10ml (0.5%) solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+10684011000001105	Lidocaine 50mg/10ml (0.5%) solution for injection ampoules (Advanz Pharma)
+10684111000001106	Lidocaine 50mg/10ml (0.5%) solution for injection ampoules (Advanz Pharma)
+14612311000001101	Lidocaine 4% solution
+4013611000001107	Lidocaine 4% solution
+4013811000001106	Lidocaine 4% solution
+23563111000001103	Lidocaine 4% solution
+23563211000001109	Lidocaine 4% solution
+23672111000001109	Lidocaine 4% solution
+24503711000001101	Lidocaine 4% solution
+24503811000001109	Lidocaine 4% solution
+4013911000001101	Lidocaine 4% solution (Alliance Healthcare (Distribution) Ltd)
+4014011000001103	Lidocaine 4% solution (Alliance Healthcare (Distribution) Ltd)
+4014111000001102	Xylocaine Topical 4% solution (AstraZeneca UK Ltd)
+4014211000001108	Xylocaine Topical 4% solution (AstraZeneca UK Ltd)
+4223511000001108	Lidocaine 4% solution (Teva UK Ltd)
+4223611000001107	Lidocaine 4% solution (Teva UK Ltd)
+4744911000001107	Lidocaine 4% solution (A A H Pharmaceuticals Ltd)
+4745011000001107	Lidocaine 4% solution (A A H Pharmaceuticals Ltd)
+23563011000001104	Lidocaine 4% solution (Special Order)
+23563311000001101	Lidocaine 4% solution (Special Order)
+23563411000001108	Lidocaine 4% solution (Special Order)
+23672211000001103	Lidocaine 4% solution (Special Order)
+24503911000001104	Lidocaine 4% solution (Special Order)
+24504011000001101	Lidocaine 4% solution (Special Order)
+36037411000001102	Ketorolac 10mg/1ml solution for injection ampoules
+4060711000001108	Ketorolac 10mg/1ml solution for injection ampoules
+4060911000001105	Toradol 10mg/1ml solution for injection ampoules (Roche Products Ltd)
+4061111000001101	Toradol 10mg/1ml solution for injection ampoules (Roche Products Ltd)
+36037511000001103	Ketorolac 30mg/1ml solution for injection ampoules
+4061411000001106	Ketorolac 30mg/1ml solution for injection ampoules
+13648711000001105	Ketorolac 30mg/1ml solution for injection ampoules
+4061511000001105	Toradol 30mg/1ml solution for injection ampoules (Atnahs Pharma UK Ltd)
+4061611000001109	Toradol 30mg/1ml solution for injection ampoules (Atnahs Pharma UK Ltd)
+13648811000001102	Ketorolac 30mg/1ml solution for injection ampoules (Kent Pharma (UK) Ltd)
+13648911000001107	Ketorolac 30mg/1ml solution for injection ampoules (Kent Pharma (UK) Ltd)
+19572711000001100	Ketorolac 30mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+35426911000001102	Ketorolac 30mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+19572911000001103	Ketorolac 30mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+33899511000001107	Ketorolac 30mg/1ml solution for injection ampoules (Peckforton Pharmaceuticals Ltd)
+33899611000001106	Ketorolac 30mg/1ml solution for injection ampoules (Peckforton Pharmaceuticals Ltd)
+38735511000001101	Ketorolac 30mg/1ml solution for injection ampoules (Baxter Healthcare Ltd)
+38735611000001102	Ketorolac 30mg/1ml solution for injection ampoules (Baxter Healthcare Ltd)
+39696811000001109	Ketorolac 10mg tablets
+4061711000001100	Ketorolac 10mg tablets
+4061811000001108	Toradol 10mg tablets (Roche Products Ltd)
+4061911000001103	Toradol 10mg tablets (Roche Products Ltd)
+4080711000001105	Lidocaine 1% and Chlorhexidine gel
+4080211000001103	Lidocaine 1% and Chlorhexidine gel
+4080311000001106	Lidocaine 1% and Chlorhexidine gel (A A H Pharmaceuticals Ltd)
+4080411000001104	Lidocaine 1% and Chlorhexidine gel (A A H Pharmaceuticals Ltd)
+4080511000001100	Lidocaine 1% and Chlorhexidine gel (AstraZeneca UK Ltd)
+4080611000001101	Lidocaine 1% and Chlorhexidine gel (AstraZeneca UK Ltd)
+4775411000001104	Lidocaine 1% and Chlorhexidine gel (Teva UK Ltd)
+4775511000001100	Lidocaine 1% and Chlorhexidine gel (Teva UK Ltd)
+334246001	Lidocaine 10% spray sugar free
+4118011000001101	Lidocaine 10% spray sugar free
+4118111000001100	Xylocaine 10mg/dose spray (Aspen Pharma Trading Ltd)
+4118211000001106	Xylocaine 10mg/dose spray (Aspen Pharma Trading Ltd)
+35913511000001108	Bupivacaine 50mg/10ml (0.5%) solution for injection ampoules
+4183911000001109	Bupivacaine 50mg/10ml (0.5%) solution for injection ampoules
+13615911000001105	Bupivacaine 50mg/10ml (0.5%) solution for injection ampoules
+20940911000001106	Bupivacaine 50mg/10ml (0.5%) solution for injection ampoules
+4184011000001107	Bupivacaine 50mg/10ml (0.5%) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4184111000001108	Bupivacaine 50mg/10ml (0.5%) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+13616011000001102	Bupivacaine 50mg/10ml (0.5%) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4184711000001109	Bupivacaine 0.5% solution for injection 10ml Sure-Amp ampoules (Advanz Pharma)
+4185111000001107	Bupivacaine 0.5% solution for injection 10ml Sure-Amp ampoules (Advanz Pharma)
+13999011000001105	Bupivacaine 0.5% solution for injection 10ml Sure-Amp ampoules (Advanz Pharma)
+4185711000001108	Marcain 0.5% solution for injection 10ml Polyamp Steripack ampoules (Aspen Pharma Trading Ltd)
+4186211000001107	Marcain 0.5% solution for injection 10ml Polyamp Steripack ampoules (Aspen Pharma Trading Ltd)
+20941011000001103	Marcain 0.5% solution for injection 10ml Polyamp Steripack ampoules (Aspen Pharma Trading Ltd)
+10676711000001106	Bupivacaine 50mg/10ml (0.5%) solution for injection ampoules (Advanz Pharma)
+10676911000001108	Bupivacaine 50mg/10ml (0.5%) solution for injection ampoules (Advanz Pharma)
+30786211000001103	Bupivacaine 50mg/10ml (0.5%) solution for injection ampoules (Accord Healthcare Ltd)
+30786311000001106	Bupivacaine 50mg/10ml (0.5%) solution for injection ampoules (Accord Healthcare Ltd)
+35913111000001104	Bupivacaine 25mg/10ml (0.25%) solution for injection ampoules
+4188511000001106	Bupivacaine 25mg/10ml (0.25%) solution for injection ampoules
+13615711000001108	Bupivacaine 25mg/10ml (0.25%) solution for injection ampoules
+20940711000001109	Bupivacaine 25mg/10ml (0.25%) solution for injection ampoules
+4189311000001106	Bupivacaine 25mg/10ml (0.25%) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4189411000001104	Bupivacaine 25mg/10ml (0.25%) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+13615811000001100	Bupivacaine 25mg/10ml (0.25%) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4189711000001105	Bupivacaine 0.25% solution for injection 10ml Sure-Amp ampoules (Advanz Pharma)
+4189911000001107	Bupivacaine 0.25% solution for injection 10ml Sure-Amp ampoules (Advanz Pharma)
+13998811000001106	Bupivacaine 0.25% solution for injection 10ml Sure-Amp ampoules (Advanz Pharma)
+4190111000001103	Marcain 0.25% solution for injection 10ml Polyamp Steripack ampoules (Aspen Pharma Trading Ltd)
+4190511000001107	Marcain 0.25% solution for injection 10ml Polyamp Steripack ampoules (Aspen Pharma Trading Ltd)
+20940811000001101	Marcain 0.25% solution for injection 10ml Polyamp Steripack ampoules (Aspen Pharma Trading Ltd)
+10676211000001104	Bupivacaine 25mg/10ml (0.25%) solution for injection ampoules (Mercury Pharma Group Ltd)
+10676311000001107	Bupivacaine 25mg/10ml (0.25%) solution for injection ampoules (Mercury Pharma Group Ltd)
+4210211000001106	Lidocaine 44mg/2.2ml (2%) / Adrenaline (base) 27.5micrograms/2.2ml (1 in 80,000) solution for injection cartridges
+4206811000001107	Lidocaine 44mg/2.2ml (2%) / Adrenaline (base) 27.5micrograms/2.2ml (1 in 80,000) solution for injection cartridges
+4206911000001102	Lidocaine 44mg/2.2ml (2%) / Adrenaline (base) 27.5micrograms/2.2ml (1 in 80,000) solution for injection cartridges
+5251611000001101	Lidocaine 44mg/2.2ml (2%) / Adrenaline (base) 27.5micrograms/2.2ml (1 in 80,000) solution for injection cartridges
+4207011000001103	Lignostab-A 2% 1 in 80,000 injection 2.2ml cartridges (Dentsply Ltd)
+4207111000001102	Lignostab-A 2% 1 in 80,000 injection 2.2ml cartridges (Dentsply Ltd)
+4207211000001108	Xylotox 2% E80 Dental injection 2.2ml cartridges (Dentsply Ltd)
+4207311000001100	Xylotox 2% E80 Dental injection 2.2ml cartridges (Dentsply Ltd)
+4207411000001107	Xylocaine 2% with Adrenaline 1 in 80,000 injection 2.2ml cartridges (Dentsply Ltd)
+4207511000001106	Xylocaine 2% with Adrenaline 1 in 80,000 injection 2.2ml cartridges (Dentsply Ltd)
+5251511000001100	Rexocaine 2% injection 2.2ml cartridges (Henry Schein Ltd)
+5252211000001105	Rexocaine 2% injection 2.2ml cartridges (Henry Schein Ltd)
+21313511000001103	Lignospan Special 20mg/ml / 12.5micrograms/ml solution for injection 2.2ml cartridges (Septodont Ltd)
+21313611000001104	Lignospan Special 20mg/ml / 12.5micrograms/ml solution for injection 2.2ml cartridges (Septodont Ltd)
+36067711000001104	Flumazenil 500micrograms/5ml solution for injection ampoules
+4341011000001109	Flumazenil 500micrograms/5ml solution for injection ampoules
+36236611000001109	Flumazenil 500micrograms/5ml solution for injection ampoules
+4341111000001105	Anexate 500micrograms/5ml solution for injection ampoules (Roche Products Ltd)
+4341211000001104	Anexate 500micrograms/5ml solution for injection ampoules (Roche Products Ltd)
+9179711000001102	Flumazenil 500micrograms/5ml solution for injection ampoules (Teva UK Ltd)
+9179811000001105	Flumazenil 500micrograms/5ml solution for injection ampoules (Teva UK Ltd)
+14793511000001108	Flumazenil 500micrograms/5ml solution for injection ampoules (hameln pharma Ltd)
+14793611000001107	Flumazenil 500micrograms/5ml solution for injection ampoules (hameln pharma Ltd)
+36236711000001100	Flumazenil 500micrograms/5ml solution for injection ampoules (hameln pharma Ltd)
+20191611000001102	Flumazenil 500micrograms/5ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+20191711000001106	Flumazenil 500micrograms/5ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+38677011000001108	Flumazenil 500micrograms/5ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+21539711000001101	Flumazenil 500micrograms/5ml solution for injection ampoules (Actavis UK Ltd)
+21539811000001109	Flumazenil 500micrograms/5ml solution for injection ampoules (Actavis UK Ltd)
+22971811000001101	Flumazenil 500micrograms/5ml solution for injection ampoules (Kent Pharma (UK) Ltd)
+22971911000001106	Flumazenil 500micrograms/5ml solution for injection ampoules (Kent Pharma (UK) Ltd)
+35832711000001109	Flumazenil 500micrograms/5ml solution for injection ampoules (Consilient Health Ltd)
+35832811000001101	Flumazenil 500micrograms/5ml solution for injection ampoules (Consilient Health Ltd)
+35914511000001106	Suxamethonium chloride 100mg/2ml solution for injection ampoules
+4341311000001107	Suxamethonium chloride 100mg/2ml solution for injection ampoules
+4341411000001100	Suxamethonium chloride 100mg/2ml solution for injection ampoules
+4341811000001103	Suxamethonium chloride 100mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4341911000001108	Suxamethonium chloride 100mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4342111000001100	Anectine 100mg/2ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+4342411000001105	Anectine 100mg/2ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+10680211000001108	Suxamethonium chloride 100mg/2ml solution for injection ampoules (Advanz Pharma)
+10680311000001100	Suxamethonium chloride 100mg/2ml solution for injection ampoules (Advanz Pharma)
+12883511000001104	Suxamethonium chloride 100mg/2ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+12883611000001100	Suxamethonium chloride 100mg/2ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+334108003	Dantrolene 20mg powder for solution for injection vials
+4353611000001101	Dantrolene 20mg powder for solution for injection vials
+19745911000001109	Dantrolene 20mg powder for solution for injection vials
+4353811000001102	Dantrium Intravenous 20mg powder for solution for injection vials (Forum Health Products Ltd)
+4353911000001107	Dantrium Intravenous 20mg powder for solution for injection vials (Forum Health Products Ltd)
+19746011000001101	Dantrium Intravenous 20mg powder for solution for injection vials (Forum Health Products Ltd)
+35932011000001104	Propofol 200mg/20ml emulsion for injection ampoules
+4354811000001104	Propofol 200mg/20ml emulsion for injection ampoules
+4354911000001109	Diprivan 1% emulsion for injection 20ml ampoules (Aspen Pharma Trading Ltd)
+4355011000001109	Diprivan 1% emulsion for injection 20ml ampoules (Aspen Pharma Trading Ltd)
+4355211000001104	Propofol 200mg/20ml emulsion for injection ampoules (Zurich Pharmaceuticals)
+4355311000001107	Propofol 200mg/20ml emulsion for injection ampoules (Zurich Pharmaceuticals)
+36079711000001103	Propofol-Lipuro 1% emulsion for injection 20ml ampoules (B.Braun Medical Ltd)
+36080011000001100	Propofol-Lipuro 1% emulsion for injection 20ml ampoules (B.Braun Medical Ltd)
+36612711000001105	Propoven 1% emulsion for injection 20ml ampoules (Fresenius Kabi Ltd)
+36612811000001102	Propoven 1% emulsion for injection 20ml ampoules (Fresenius Kabi Ltd)
+35932211000001109	Propofol 500mg/50ml emulsion for infusion vials
+4355411000001100	Propofol 500mg/50ml emulsion for infusion vials
+34343011000001107	Propofol 500mg/50ml emulsion for infusion vials
+4355811000001103	Diprivan 1% emulsion for infusion 50ml vials (AstraZeneca UK Ltd)
+4356011000001100	Diprivan 1% emulsion for infusion 50ml vials (AstraZeneca UK Ltd)
+4356211000001105	Propofol 500mg/50ml emulsion for infusion vials (Zurich Pharmaceuticals)
+4356311000001102	Propofol 500mg/50ml emulsion for infusion vials (Zurich Pharmaceuticals)
+34343111000001108	Propofol-Lipuro 1% emulsion for infusion 50ml vials (B.Braun Medical Ltd)
+34343311000001105	Propofol-Lipuro 1% emulsion for infusion 50ml vials (B.Braun Medical Ltd)
+34549311000001105	Propofol 500mg/50ml emulsion for infusion vials (Peckforton Pharmaceuticals Ltd)
+34549411000001103	Propofol 500mg/50ml emulsion for infusion vials (Peckforton Pharmaceuticals Ltd)
+36533511000001105	Propoven 1% emulsion for infusion 50ml vials (Fresenius Kabi Ltd)
+36533611000001109	Propoven 1% emulsion for infusion 50ml vials (Fresenius Kabi Ltd)
+38733011000001108	Propofol 500mg/50ml emulsion for infusion vials (Baxter Healthcare Ltd)
+38733111000001109	Propofol 500mg/50ml emulsion for infusion vials (Baxter Healthcare Ltd)
+35931711000001109	Propofol 1g/100ml emulsion for infusion vials
+4356511000001108	Propofol 1g/100ml emulsion for infusion vials
+36080511000001108	Propofol 1g/100ml emulsion for infusion vials
+4356711000001103	Propofol 1g/100ml emulsion for infusion vials (Zurich Pharmaceuticals)
+4356911000001101	Propofol 1g/100ml emulsion for infusion vials (Zurich Pharmaceuticals)
+4357011000001102	Diprivan 1% emulsion for infusion 100ml vials (AstraZeneca UK Ltd)
+4357111000001101	Diprivan 1% emulsion for infusion 100ml vials (AstraZeneca UK Ltd)
+34550411000001106	Propofol 1g/100ml emulsion for infusion vials (Peckforton Pharmaceuticals Ltd)
+34550511000001105	Propofol 1g/100ml emulsion for infusion vials (Peckforton Pharmaceuticals Ltd)
+36083711000001107	Propofol-Lipuro 1% emulsion for infusion 100ml vials (B.Braun Medical Ltd)
+36083911000001109	Propofol-Lipuro 1% emulsion for infusion 100ml vials (B.Braun Medical Ltd)
+36533311000001104	Propoven 1% emulsion for infusion 100ml vials (Fresenius Kabi Ltd)
+36533411000001106	Propoven 1% emulsion for infusion 100ml vials (Fresenius Kabi Ltd)
+38732611000001106	Propofol 1g/100ml emulsion for infusion vials (Baxter Healthcare Ltd)
+38732711000001102	Propofol 1g/100ml emulsion for infusion vials (Baxter Healthcare Ltd)
+35896411000001108	Alfentanil 1mg/2ml solution for injection ampoules
+4400411000001109	Alfentanil 1mg/2ml solution for injection ampoules
+4400611000001107	Rapifen 1mg/2ml solution for injection ampoules (Piramal Critical Care Ltd)
+4400711000001103	Rapifen 1mg/2ml solution for injection ampoules (Piramal Critical Care Ltd)
+13803811000001108	Alfentanil 1mg/2ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+13803911000001103	Alfentanil 1mg/2ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+13930311000001106	Alfentanil 1mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+13930411000001104	Alfentanil 1mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+14961811000001101	Alfentanil 1mg/2ml solution for injection ampoules (hameln pharma Ltd)
+14961911000001106	Alfentanil 1mg/2ml solution for injection ampoules (hameln pharma Ltd)
+16729711000001102	Alfentanil 1mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+16729811000001105	Alfentanil 1mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+39143911000001101	Alfentanil 1mg/2ml solution for injection ampoules (AS Kalceks)
+39144011000001103	Alfentanil 1mg/2ml solution for injection ampoules (AS Kalceks)
+35896611000001106	Alfentanil 5mg/10ml solution for injection ampoules
+4400911000001101	Alfentanil 5mg/10ml solution for injection ampoules
+13804111000001104	Alfentanil 5mg/10ml solution for injection ampoules
+4401111000001105	Rapifen 5mg/10ml solution for injection ampoules (Piramal Critical Care Ltd)
+4401211000001104	Rapifen 5mg/10ml solution for injection ampoules (Piramal Critical Care Ltd)
+13804011000001100	Alfentanil 5mg/10ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+13804211000001105	Alfentanil 5mg/10ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+13930511000001100	Alfentanil 5mg/10ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+13930611000001101	Alfentanil 5mg/10ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+14961011000001107	Alfentanil 5mg/10ml solution for injection ampoules (hameln pharma Ltd)
+14965111000001105	Alfentanil 5mg/10ml solution for injection ampoules (hameln pharma Ltd)
+36234711000001109	Alfentanil 5mg/10ml solution for injection ampoules (hameln pharma Ltd)
+18751711000001105	Alfentanil 5mg/10ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+18751811000001102	Alfentanil 5mg/10ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+18751911000001107	Alfentanil 5mg/10ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+39143711000001103	Alfentanil 5mg/10ml solution for injection ampoules (AS Kalceks)
+39143811000001106	Alfentanil 5mg/10ml solution for injection ampoules (AS Kalceks)
+35896711000001102	Alfentanil 5mg/1ml solution for injection ampoules
+4401411000001100	Alfentanil 5mg/1ml solution for injection ampoules
+4410411000001106	Rapifen Intensive Care 5mg/1ml solution for injection ampoules (Piramal Critical Care Ltd)
+4410611000001109	Rapifen Intensive Care 5mg/1ml solution for injection ampoules (Piramal Critical Care Ltd)
+14962111000001103	Alfentanil 5mg/1ml solution for injection ampoules (hameln pharma Ltd)
+14962211000001109	Alfentanil 5mg/1ml solution for injection ampoules (hameln pharma Ltd)
+16441311000001109	Alfentanil 5mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+16441411000001102	Alfentanil 5mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+35904311000001102	Atracurium besilate 250mg/25ml solution for injection vials
+4416811000001105	Atracurium besilate 250mg/25ml solution for injection vials
+4416911000001100	Atracurium besilate 250mg/25ml solution for injection vials
+4417011000001101	Atracurium besilate 250mg/25ml solution for injection vials (Pfizer Ltd)
+4429511000001106	Atracurium besilate 250mg/25ml solution for injection vials (Pfizer Ltd)
+4417211000001106	Atracurium besilate 250mg/25ml solution for injection vials (A A H Pharmaceuticals Ltd)
+4417311000001103	Atracurium besilate 250mg/25ml solution for injection vials (A A H Pharmaceuticals Ltd)
+4417411000001105	Tracrium 250mg/25ml solution for injection vials (Aspen Pharma Trading Ltd)
+4429411000001107	Tracrium 250mg/25ml solution for injection vials (Aspen Pharma Trading Ltd)
+35904511000001108	Atracurium besilate 50mg/5ml solution for injection ampoules
+4417611000001108	Atracurium besilate 50mg/5ml solution for injection ampoules
+29932911000001107	Atracurium besilate 50mg/5ml solution for injection ampoules
+4417711000001104	Atracurium besilate 50mg/5ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4417811000001107	Atracurium besilate 50mg/5ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+29933011000001104	Atracurium besilate 50mg/5ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4417911000001102	Tracrium 50mg/5ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+4418011000001100	Tracrium 50mg/5ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+4418711000001103	Atracurium besilate 50mg/5ml solution for injection ampoules (Pfizer Ltd)
+4418811000001106	Atracurium besilate 50mg/5ml solution for injection ampoules (Pfizer Ltd)
+5081611000001102	Atracurium besilate 50mg/5ml solution for injection ampoules (hameln pharma Ltd)
+5081711000001106	Atracurium besilate 50mg/5ml solution for injection ampoules (hameln pharma Ltd)
+36234911000001106	Atracurium besilate 50mg/5ml solution for injection ampoules (hameln pharma Ltd)
+9305511000001109	Atracurium besilate 50mg/5ml solution for injection ampoules (Genus Pharmaceuticals Ltd)
+9305611000001108	Atracurium besilate 50mg/5ml solution for injection ampoules (Genus Pharmaceuticals Ltd)
+35831011000001104	Atracurium besilate 50mg/5ml solution for injection ampoules (Consilient Health Ltd)
+35831111000001103	Atracurium besilate 50mg/5ml solution for injection ampoules (Consilient Health Ltd)
+38061511000001108	Atracurium besilate 50mg/5ml solution for injection ampoules (AS Kalceks)
+38061611000001107	Atracurium besilate 50mg/5ml solution for injection ampoules (AS Kalceks)
+35904411000001109	Atracurium besilate 25mg/2.5ml solution for injection ampoules
+4418211000001105	Atracurium besilate 25mg/2.5ml solution for injection ampoules
+35830711000001105	Atracurium besilate 25mg/2.5ml solution for injection ampoules
+4418411000001109	Atracurium besilate 25mg/2.5ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4418611000001107	Atracurium besilate 25mg/2.5ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4419011000001105	Tracrium 25mg/2.5ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+4419311000001108	Tracrium 25mg/2.5ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+4419411000001101	Atracurium besilate 25mg/2.5ml solution for injection ampoules (Pfizer Ltd)
+4419511000001102	Atracurium besilate 25mg/2.5ml solution for injection ampoules (Pfizer Ltd)
+5081411000001100	Atracurium besilate 25mg/2.5ml solution for injection ampoules (hameln pharma Ltd)
+5081511000001101	Atracurium besilate 25mg/2.5ml solution for injection ampoules (hameln pharma Ltd)
+36234811000001101	Atracurium besilate 25mg/2.5ml solution for injection ampoules (hameln pharma Ltd)
+9305311000001103	Atracurium besilate 25mg/2.5ml solution for injection ampoules (Genus Pharmaceuticals Ltd)
+9305411000001105	Atracurium besilate 25mg/2.5ml solution for injection ampoules (Genus Pharmaceuticals Ltd)
+18165311000001106	Atracurium besilate 25mg/2.5ml solution for injection ampoules (Actavis UK Ltd)
+18165411000001104	Atracurium besilate 25mg/2.5ml solution for injection ampoules (Actavis UK Ltd)
+35830811000001102	Atracurium besilate 25mg/2.5ml solution for injection ampoules (Consilient Health Ltd)
+35830911000001107	Atracurium besilate 25mg/2.5ml solution for injection ampoules (Consilient Health Ltd)
+38061311000001102	Atracurium besilate 25mg/2.5ml solution for injection ampoules (AS Kalceks)
+38061411000001109	Atracurium besilate 25mg/2.5ml solution for injection ampoules (AS Kalceks)
+36029111000001103	Naloxone 40micrograms/2ml solution for injection ampoules
+4473511000001105	Naloxone 40micrograms/2ml solution for injection ampoules
+4473811000001108	Narcan Neonatal 40micrograms/2ml solution for injection ampoules (Bristol-Myers Squibb Pharmaceuticals Ltd)
+4473911000001103	Narcan Neonatal 40micrograms/2ml solution for injection ampoules (Bristol-Myers Squibb Pharmaceuticals Ltd)
+17232811000001105	Naloxone 40micrograms/2ml solution for injection ampoules (Advanz Pharma)
+17233111000001109	Naloxone 40micrograms/2ml solution for injection ampoules (Advanz Pharma)
+4481411000001104	Bupivacaine 20mg/4ml (0.5%) / Glucose 320mg/4ml solution for injection ampoules
+4475111000001100	Bupivacaine 20mg/4ml (0.5%) / Glucose 320mg/4ml solution for injection ampoules
+4475211000001106	Marcain Heavy 0.5% solution for injection 4ml ampoules (Aspen Pharma Trading Ltd)
+4475311000001103	Marcain Heavy 0.5% solution for injection 4ml ampoules (Aspen Pharma Trading Ltd)
+4508111000001108	Midazolam 50mg/50ml solution for infusion vials
+4485811000001104	Midazolam 50mg/50ml solution for infusion vials
+4485911000001109	Midazolam 50mg/50ml solution for infusion vials (A A H Pharmaceuticals Ltd)
+4486011000001101	Midazolam 50mg/50ml solution for infusion vials (A A H Pharmaceuticals Ltd)
+4486111000001100	Midazolam 50mg/50ml solution for infusion vials (Martindale Pharmaceuticals Ltd)
+4486211000001106	Midazolam 50mg/50ml solution for infusion vials (Martindale Pharmaceuticals Ltd)
+15248511000001106	Midazolam 50mg/50ml solution for infusion vials (Alliance Healthcare (Distribution) Ltd)
+15248611000001105	Midazolam 50mg/50ml solution for infusion vials (Alliance Healthcare (Distribution) Ltd)
+28797911000001105	Midazolam 50mg/50ml solution for infusion vials (hameln pharma Ltd)
+28798111000001108	Midazolam 50mg/50ml solution for infusion vials (hameln pharma Ltd)
+36125411000001103	Midazolam 50mg/10ml solution for injection ampoules
+4486411000001105	Midazolam 50mg/10ml solution for injection ampoules
+4486511000001109	Midazolam 50mg/10ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4486611000001108	Midazolam 50mg/10ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4486811000001107	Midazolam 50mg/10ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+4486911000001102	Midazolam 50mg/10ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+5104411000001109	Midazolam 50mg/10ml solution for injection ampoules (hameln pharma Ltd)
+5104511000001108	Midazolam 50mg/10ml solution for injection ampoules (hameln pharma Ltd)
+10679011000001103	Midazolam 50mg/10ml solution for injection ampoules (Advanz Pharma)
+10679111000001102	Midazolam 50mg/10ml solution for injection ampoules (Advanz Pharma)
+20275411000001105	Midazolam 50mg/10ml solution for injection ampoules (Accord Healthcare Ltd)
+20275511000001109	Midazolam 50mg/10ml solution for injection ampoules (Accord Healthcare Ltd)
+23430611000001102	Midazolam 50mg/10ml solution for injection ampoules (J M McGill Ltd)
+23430711000001106	Midazolam 50mg/10ml solution for injection ampoules (J M McGill Ltd)
+23939211000001109	Midazolam 50mg/10ml solution for injection ampoules (Niche Pharma Ltd)
+23939311000001101	Midazolam 50mg/10ml solution for injection ampoules (Niche Pharma Ltd)
+39147111000001107	Midazolam 50mg/10ml solution for injection ampoules (AS Kalceks)
+39147211000001101	Midazolam 50mg/10ml solution for injection ampoules (AS Kalceks)
+35935611000001102	Ropivacaine 75mg/10ml solution for injection ampoules
+4510511000001100	Ropivacaine 75mg/10ml solution for injection ampoules
+5032611000001102	Ropivacaine 75mg/10ml solution for injection ampoules
+4510611000001101	Naropin 75mg/10ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+4510711000001105	Naropin 75mg/10ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+5032811000001103	Naropin 75mg/10ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+21701711000001109	Ropivacaine 75mg/10ml solution for injection ampoules (Advanz Pharma)
+21701811000001101	Ropivacaine 75mg/10ml solution for injection ampoules (Advanz Pharma)
+36569711000001109	Ropivacaine 75mg/10ml solution for injection ampoules (Fresenius Kabi Ltd)
+36569911000001106	Ropivacaine 75mg/10ml solution for injection ampoules (Fresenius Kabi Ltd)
+37671911000001108	Ropivacaine 75mg/10ml solution for injection ampoules (Sintetica Ltd)
+37672011000001101	Ropivacaine 75mg/10ml solution for injection ampoules (Sintetica Ltd)
+39651411000001108	Ropivacaine 75mg/10ml solution for injection ampoules (Altan Pharma Ltd)
+39651511000001107	Ropivacaine 75mg/10ml solution for injection ampoules (Altan Pharma Ltd)
+35935411000001100	Ropivacaine 20mg/10ml solution for injection ampoules
+4510811000001102	Ropivacaine 20mg/10ml solution for injection ampoules
+5032211000001104	Ropivacaine 20mg/10ml solution for injection ampoules
+4510911000001107	Naropin 20mg/10ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+4511011000001104	Naropin 20mg/10ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+5032411000001100	Naropin 20mg/10ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+21701911000001106	Ropivacaine 20mg/10ml solution for injection ampoules (Advanz Pharma)
+21702011000001104	Ropivacaine 20mg/10ml solution for injection ampoules (Advanz Pharma)
+36761011000001109	Ropivacaine 20mg/10ml solution for injection ampoules (Fresenius Kabi Ltd)
+36761111000001105	Ropivacaine 20mg/10ml solution for injection ampoules (Fresenius Kabi Ltd)
+37671311000001107	Ropivacaine 20mg/10ml solution for injection ampoules (Sintetica Ltd)
+37671811000001103	Ropivacaine 20mg/10ml solution for injection ampoules (Sintetica Ltd)
+35935211000001104	Ropivacaine 100mg/10ml solution for injection ampoules
+4513011000001103	Ropivacaine 100mg/10ml solution for injection ampoules
+5032911000001108	Ropivacaine 100mg/10ml solution for injection ampoules
+4513711000001101	Naropin 100mg/10ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+4513911000001104	Naropin 100mg/10ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+5033011000001100	Naropin 100mg/10ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+21701511000001104	Ropivacaine 100mg/10ml solution for injection ampoules (Advanz Pharma)
+21701611000001100	Ropivacaine 100mg/10ml solution for injection ampoules (Advanz Pharma)
+36570211000001100	Ropivacaine 100mg/10ml solution for injection ampoules (Fresenius Kabi Ltd)
+36570311000001108	Ropivacaine 100mg/10ml solution for injection ampoules (Fresenius Kabi Ltd)
+37672411000001105	Ropivacaine 100mg/10ml solution for injection ampoules (Sintetica Ltd)
+37672611000001108	Ropivacaine 100mg/10ml solution for injection ampoules (Sintetica Ltd)
+36120111000001100	Fentanyl 500micrograms/10ml solution for injection ampoules
+4521311000001106	Fentanyl 500micrograms/10ml solution for injection ampoules
+4521411000001104	Fentanyl 500micrograms/10ml solution for injection ampoules
+4521711000001105	Fentanyl 500micrograms/10ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4522011000001100	Fentanyl 500micrograms/10ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4522311000001102	Sublimaze 500micrograms/10ml solution for injection ampoules (Piramal Critical Care Ltd)
+4522711000001103	Sublimaze 500micrograms/10ml solution for injection ampoules (Piramal Critical Care Ltd)
+4523111000001105	Fentanyl 500micrograms/10ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+4523411000001100	Fentanyl 500micrograms/10ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+10351211000001104	Fentanyl 500micrograms/10ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+10351311000001107	Fentanyl 500micrograms/10ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+10683811000001102	Fentanyl 500micrograms/10ml solution for injection ampoules (Advanz Pharma)
+10683911000001107	Fentanyl 500micrograms/10ml solution for injection ampoules (Advanz Pharma)
+15628411000001106	Fentanyl 500micrograms/10ml solution for injection ampoules (Actavis UK Ltd)
+15628511000001105	Fentanyl 500micrograms/10ml solution for injection ampoules (Actavis UK Ltd)
+28793111000001104	Fentanyl 500micrograms/10ml solution for injection ampoules (hameln pharma Ltd)
+28793211000001105	Fentanyl 500micrograms/10ml solution for injection ampoules (hameln pharma Ltd)
+36030711000001107	Neostigmine 2.5mg/1ml / Glycopyrronium bromide 500micrograms/1ml solution for injection ampoules
+4565011000001103	Neostigmine 2.5mg/1ml / Glycopyrronium bromide 500micrograms/1ml solution for injection ampoules
+4565111000001102	Robinul-Neostigmine solution for injection 1ml ampoules (Mercury Pharma Group Ltd)
+4565211000001108	Robinul-Neostigmine solution for injection 1ml ampoules (Mercury Pharma Group Ltd)
+11488711000001108	Neostigmine 2.5mg/1ml / Glycopyrronium bromide 500micrograms/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+11488811000001100	Neostigmine 2.5mg/1ml / Glycopyrronium bromide 500micrograms/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+14739611000001100	Neostigmine 2.5mg/1ml / Glycopyrronium bromide 500micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+14739911000001106	Neostigmine 2.5mg/1ml / Glycopyrronium bromide 500micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+15357211000001100	Neostigmine 2.5mg/1ml / Glycopyrronium bromide 500micrograms/1ml solution for injection ampoules (Advanz Pharma)
+15357311000001108	Neostigmine 2.5mg/1ml / Glycopyrronium bromide 500micrograms/1ml solution for injection ampoules (Advanz Pharma)
+20507411000001103	Neostigmine 2.5mg/1ml / Glycopyrronium bromide 500micrograms/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+20507511000001104	Neostigmine 2.5mg/1ml / Glycopyrronium bromide 500micrograms/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+35905311000001103	Atropine 3mg/10ml solution for injection pre-filled syringes
+4565311000001100	Atropine 3mg/10ml solution for injection pre-filled syringes
+24612011000001103	Atropine 3mg/10ml solution for injection pre-filled syringes
+4565411000001107	Atropine 3mg/10ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd)
+4565511000001106	Atropine 3mg/10ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd)
+24917711000001100	Atropine 3mg/10ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd)
+4565611000001105	Atropine 3mg/10ml solution for injection pre-filled syringes (Martindale Pharmaceuticals Ltd)
+4565711000001101	Atropine 3mg/10ml solution for injection pre-filled syringes (Martindale Pharmaceuticals Ltd)
+4565811000001109	Atropine 3mg/10ml solution for injection pre-filled syringes (Alliance Healthcare (Distribution) Ltd)
+4565911000001104	Atropine 3mg/10ml solution for injection pre-filled syringes (Alliance Healthcare (Distribution) Ltd)
+24612111000001102	Atropine 3mg/10ml solution for injection pre-filled syringes (Aguettant Ltd)
+32533811000001107	Atropine 3mg/10ml solution for injection pre-filled syringes (Aguettant Ltd)
+24612211000001108	Atropine 3mg/10ml solution for injection pre-filled syringes (Aguettant Ltd)
+36039211000001107	Lidocaine 160mg/4ml (4%) oromucosal solution pre-filled syringes
+4573111000001109	Lidocaine 160mg/4ml (4%) oromucosal solution pre-filled syringes
+10801811000001105	Lidocaine 160mg/4ml (4%) oromucosal solution pre-filled syringes
+4573811000001102	Lidocaine 4% oromucosal solution Laryngojet pre-filled syringes (UCB Pharma Ltd)
+4573911000001107	Lidocaine 4% oromucosal solution Laryngojet pre-filled syringes (UCB Pharma Ltd)
+10802011000001107	Lidocaine 4% oromucosal solution Laryngojet pre-filled syringes (UCB Pharma Ltd)
+35904811000001106	Atropine 1.25mg/1ml solution for injection ampoules
+4581411000001106	Atropine 1.25mg/1ml solution for injection ampoules
+4581511000001105	Atropine 1.25mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4581611000001109	Atropine 1.25mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4581711000001100	Atropine 1.25mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+4581811000001108	Atropine 1.25mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+4581911000001103	Atropine 1.25mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+4582011000001105	Atropine 1.25mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+35905611000001108	Atropine 500micrograms/5ml solution for injection pre-filled syringes
+4583711000001104	Atropine 500micrograms/5ml solution for injection pre-filled syringes
+30987111000001100	Atropine 500micrograms/5ml solution for injection pre-filled syringes
+4583811000001107	Atropine 500micrograms/5ml solution for injection Minijet pre-filled syringes (UCB Pharma Ltd)
+4583911000001102	Atropine 500micrograms/5ml solution for injection Minijet pre-filled syringes (UCB Pharma Ltd)
+30986911000001100	Atropine 500micrograms/5ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd)
+30987011000001101	Atropine 500micrograms/5ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd)
+30987211000001106	Atropine 500micrograms/5ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd)
+32530511000001103	Atropine 500micrograms/5ml solution for injection pre-filled syringes (Aguettant Ltd)
+32530711000001108	Atropine 500micrograms/5ml solution for injection pre-filled syringes (Aguettant Ltd)
+32530811000001100	Atropine 500micrograms/5ml solution for injection pre-filled syringes (Aguettant Ltd)
+35904911000001101	Atropine 1mg/10ml solution for injection pre-filled syringes
+4584011000001104	Atropine 1mg/10ml solution for injection pre-filled syringes
+4584111000001103	Atropine 1mg/10ml solution for injection Minijet pre-filled syringes (UCB Pharma Ltd)
+4584211000001109	Atropine 1mg/10ml solution for injection Minijet pre-filled syringes (UCB Pharma Ltd)
+35905411000001105	Atropine 3mg/30ml solution for injection pre-filled syringes
+4584311000001101	Atropine 3mg/30ml solution for injection pre-filled syringes
+4584411000001108	Atropine 3mg/30ml solution for injection Minijet pre-filled syringes (UCB Pharma Ltd)
+4584511000001107	Atropine 3mg/30ml solution for injection Minijet pre-filled syringes (UCB Pharma Ltd)
+36039111000001101	Lidocaine 100mg/5ml (2%) solution for injection pre-filled syringes
+4586011000001109	Lidocaine 100mg/5ml (2%) solution for injection pre-filled syringes
+4586311000001107	Lidocaine 100mg/5ml (2%) solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd)
+4586411000001100	Lidocaine 100mg/5ml (2%) solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd)
+4586511000001101	Lidocaine 100mg/5ml (2%) solution for injection pre-filled syringes (Martindale Pharmaceuticals Ltd)
+4586711000001106	Lidocaine 100mg/5ml (2%) solution for injection pre-filled syringes (Martindale Pharmaceuticals Ltd)
+4586811000001103	Lidocaine 100mg/5ml (2%) solution for injection pre-filled syringes (Alliance Healthcare (Distribution) Ltd)
+4587011000001107	Lidocaine 100mg/5ml (2%) solution for injection pre-filled syringes (Alliance Healthcare (Distribution) Ltd)
+4616011000001101	Bupivacaine 25mg/10ml (0.25%) / Adrenaline (base) 50micrograms/10ml (1 in 200,000) solution for injection ampoules
+4599511000001107	Bupivacaine 25mg/10ml (0.25%) / Adrenaline (base) 50micrograms/10ml (1 in 200,000) solution for injection ampoules
+4599611000001106	Bupivacaine 25mg/10ml (0.25%) / Adrenaline (base) 50micrograms/10ml (1 in 200,000) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4599911000001100	Bupivacaine 25mg/10ml (0.25%) / Adrenaline (base) 50micrograms/10ml (1 in 200,000) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4600111000001101	Marcain 0.25% with Adrenaline 50micrograms/10ml (1 in 200,000) solution for injection ampoules (AstraZeneca UK Ltd)
+4600211000001107	Marcain 0.25% with Adrenaline 50micrograms/10ml (1 in 200,000) solution for injection ampoules (AstraZeneca UK Ltd)
+10678411000001104	Bupivacaine 25mg/10ml (0.25%) / Adrenaline (base) 50micrograms/10ml (1 in 200,000) solution for injection ampoules (Advanz Pharma)
+10678511000001100	Bupivacaine 25mg/10ml (0.25%) / Adrenaline (base) 50micrograms/10ml (1 in 200,000) solution for injection ampoules (Advanz Pharma)
+4616111000001100	Bupivacaine 50mg/10ml (0.5%) / Adrenaline (base) 50micrograms/10ml (1 in 200,000) solution for injection ampoules
+4607511000001109	Bupivacaine 50mg/10ml (0.5%) / Adrenaline (base) 50micrograms/10ml (1 in 200,000) solution for injection ampoules
+4607711000001104	Bupivacaine 50mg/10ml (0.5%) / Adrenaline (base) 50micrograms/10ml (1 in 200,000) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4608111000001104	Bupivacaine 50mg/10ml (0.5%) / Adrenaline (base) 50micrograms/10ml (1 in 200,000) solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4608211000001105	Marcain 0.5% with Adrenaline 50micrograms/10ml (1 in 200,000) solution for injection ampoules (AstraZeneca UK Ltd)
+4608411000001109	Marcain 0.5% with Adrenaline 50micrograms/10ml (1 in 200,000) solution for injection ampoules (AstraZeneca UK Ltd)
+10678811000001102	Bupivacaine 50mg/10ml (0.5%) / Adrenaline (base) 50micrograms/10ml (1 in 200,000) solution for injection ampoules (Advanz Pharma)
+10678911000001107	Bupivacaine 50mg/10ml (0.5%) / Adrenaline (base) 50micrograms/10ml (1 in 200,000) solution for injection ampoules (Advanz Pharma)
+36036511000001100	Mivacurium chloride 20mg/10ml solution for injection ampoules
+4620111000001109	Mivacurium chloride 20mg/10ml solution for injection ampoules
+4620411000001104	Mivacron 20mg/10ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+4620511000001100	Mivacron 20mg/10ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+36036411000001104	Mivacurium chloride 10mg/5ml solution for injection ampoules
+4621011000001104	Mivacurium chloride 10mg/5ml solution for injection ampoules
+4621111000001103	Mivacron 10mg/5ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+4621311000001101	Mivacron 10mg/5ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+4706511000001104	Lidocaine hydrochloride 0.5% / Cetylpyridinium chloride 0.025% oromucosal gel sugar free
+4656511000001102	Lidocaine hydrochloride 0.5% / Cetylpyridinium chloride 0.025% oromucosal gel sugar free
+23663711000001105	Lidocaine hydrochloride 0.5% / Cetylpyridinium chloride 0.025% oromucosal gel sugar free
+4656611000001103	Woodward's teething gel (SSL International Plc)
+4656711000001107	Woodward's teething gel (SSL International Plc)
+23663811000001102	Bonjela Junior gel (Reckitt Benckiser Healthcare (UK) Ltd)
+23663911000001107	Bonjela Junior gel (Reckitt Benckiser Healthcare (UK) Ltd)
+36038611000001100	Levobupivacaine 25mg/10ml solution for injection ampoules
+4681511000001102	Levobupivacaine 25mg/10ml solution for injection ampoules
+36569011000001107	Levobupivacaine 25mg/10ml solution for injection ampoules
+4681611000001103	Chirocaine 25mg/10ml solution for injection ampoules (AbbVie Ltd)
+4681711000001107	Chirocaine 25mg/10ml solution for injection ampoules (AbbVie Ltd)
+36569111000001108	Levobupivacaine 25mg/10ml solution for injection ampoules (Fresenius Kabi Ltd)
+36569211000001102	Levobupivacaine 25mg/10ml solution for injection ampoules (Fresenius Kabi Ltd)
+39247911000001108	Levobupivacaine 25mg/10ml solution for injection ampoules (Altan Pharma Ltd)
+39248011000001105	Levobupivacaine 25mg/10ml solution for injection ampoules (Altan Pharma Ltd)
+36038711000001109	Levobupivacaine 50mg/10ml solution for injection ampoules
+4682311000001104	Levobupivacaine 50mg/10ml solution for injection ampoules
+36614311000001104	Levobupivacaine 50mg/10ml solution for injection ampoules
+4682511000001105	Chirocaine 50mg/10ml solution for injection ampoules (AbbVie Ltd)
+4682611000001109	Chirocaine 50mg/10ml solution for injection ampoules (AbbVie Ltd)
+36614411000001106	Levobupivacaine 50mg/10ml solution for injection ampoules (Fresenius Kabi Ltd)
+36614511000001105	Levobupivacaine 50mg/10ml solution for injection ampoules (Fresenius Kabi Ltd)
+39655711000001100	Levobupivacaine 50mg/10ml solution for injection ampoules (Altan Pharma Ltd)
+39655811000001108	Levobupivacaine 50mg/10ml solution for injection ampoules (Altan Pharma Ltd)
+36038811000001101	Levobupivacaine 75mg/10ml solution for injection ampoules
+4682711000001100	Levobupivacaine 75mg/10ml solution for injection ampoules
+36568611000001109	Levobupivacaine 75mg/10ml solution for injection ampoules
+4682811000001108	Chirocaine 75mg/10ml solution for injection ampoules (AbbVie Ltd)
+4682911000001103	Chirocaine 75mg/10ml solution for injection ampoules (AbbVie Ltd)
+36568711000001100	Levobupivacaine 75mg/10ml solution for injection ampoules (Fresenius Kabi Ltd)
+36568811000001108	Levobupivacaine 75mg/10ml solution for injection ampoules (Fresenius Kabi Ltd)
+35935511000001101	Ropivacaine 400mg/200ml infusion bags
+4695111000001107	Ropivacaine 400mg/200ml infusion bags
+21669711000001104	Ropivacaine 400mg/200ml infusion bags
+4695211000001101	Naropin 400mg/200ml infusion Polybags (Aspen Pharma Trading Ltd)
+4695311000001109	Naropin 400mg/200ml infusion Polybags (Aspen Pharma Trading Ltd)
+18112011000001104	Ropivacaine 400mg/200ml infusion bags (Teva UK Ltd)
+18112111000001103	Ropivacaine 400mg/200ml infusion bags (Teva UK Ltd)
+21669811000001107	Ropivacaine 400mg/200ml infusion bags (Advanz Pharma)
+21669911000001102	Ropivacaine 400mg/200ml infusion bags (Advanz Pharma)
+36614611000001109	Ropivacaine 400mg/200ml infusion bags (Fresenius Kabi Ltd)
+36614711000001100	Ropivacaine 400mg/200ml infusion bags (Fresenius Kabi Ltd)
+37670711000001103	Ropivacaine 400mg/200ml infusion bags (Sintetica Ltd)
+38250211000001102	Ropivacaine 400mg/200ml infusion bags (Sintetica Ltd)
+37670811000001106	Ropivacaine 400mg/200ml infusion bags (Sintetica Ltd)
+39651211000001109	Ropivacaine 400mg/200ml infusion bags (Altan Pharma Ltd)
+39651311000001101	Ropivacaine 400mg/200ml infusion bags (Altan Pharma Ltd)
+35935311000001107	Ropivacaine 200mg/100ml infusion bags
+4695511000001103	Ropivacaine 200mg/100ml infusion bags
+4695611000001104	Naropin 200mg/100ml infusion Polybags (AstraZeneca UK Ltd)
+4695711000001108	Naropin 200mg/100ml infusion Polybags (AstraZeneca UK Ltd)
+35931911000001106	Propofol 1g/50ml emulsion for infusion vials
+4724811000001104	Propofol 1g/50ml emulsion for infusion vials
+36084311000001105	Propofol 1g/50ml emulsion for infusion vials
+4724911000001109	Diprivan 2% emulsion for infusion 50ml vials (AstraZeneca UK Ltd)
+4725011000001109	Diprivan 2% emulsion for infusion 50ml vials (AstraZeneca UK Ltd)
+4725111000001105	Propofol 1g/50ml emulsion for infusion vials (Zurich Pharmaceuticals)
+4725211000001104	Propofol 1g/50ml emulsion for infusion vials (Zurich Pharmaceuticals)
+34550611000001109	Propofol 1g/50ml emulsion for infusion vials (Peckforton Pharmaceuticals Ltd)
+34550711000001100	Propofol 1g/50ml emulsion for infusion vials (Peckforton Pharmaceuticals Ltd)
+36444711000001109	Propofol-Lipuro 2% emulsion for infusion 50ml vials (B.Braun Medical Ltd)
+36444811000001101	Propofol-Lipuro 2% emulsion for infusion 50ml vials (B.Braun Medical Ltd)
+36533711000001100	Propoven 2% emulsion for infusion 50ml vials (Fresenius Kabi Ltd)
+36533811000001108	Propoven 2% emulsion for infusion 50ml vials (Fresenius Kabi Ltd)
+38733211000001103	Propofol 1g/50ml emulsion for infusion vials (Baxter Healthcare Ltd)
+38733311000001106	Propofol 1g/50ml emulsion for infusion vials (Baxter Healthcare Ltd)
+4748111000001103	Prilocaine 200mg/20ml solution for injection vials
+4734411000001103	Prilocaine 200mg/20ml solution for injection vials
+4734611000001100	Citanest 1% solution for injection 20ml vials (AstraZeneca UK Ltd)
+4734711000001109	Citanest 1% solution for injection 20ml vials (AstraZeneca UK Ltd)
+4748011000001104	Parecoxib 40mg powder and solvent for solution for injection vials
+4734511000001104	Parecoxib 40mg powder and solvent for solution for injection vials
+4734811000001101	Dynastat 40mg powder and solvent for solution for injection vials (Pfizer Ltd)
+4734911000001106	Dynastat 40mg powder and solvent for solution for injection vials (Pfizer Ltd)
+36149011000001107	Vecuronium bromide 10mg powder and solvent for solution for injection vials
+4742211000001107	Vecuronium bromide 10mg powder and solvent for solution for injection vials
+18550211000001105	Vecuronium bromide 10mg powder and solvent for solution for injection vials
+4742411000001106	Norcuron 10mg powder and solvent for solution for injection vials (Organon Pharma (UK) Ltd)
+4742611000001109	Norcuron 10mg powder and solvent for solution for injection vials (Organon Pharma (UK) Ltd)
+18550311000001102	Norcuron 10mg powder and solvent for solution for injection vials (Organon Pharma (UK) Ltd)
+36125511000001104	Midazolam 5mg/5ml solution for injection ampoules
+4751911000001107	Midazolam 5mg/5ml solution for injection ampoules
+40478111000001109	Midazolam 5mg/5ml solution for injection ampoules
+4752011000001100	Midazolam 5mg/5ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4752111000001104	Midazolam 5mg/5ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+10681911000001106	Midazolam 5mg/5ml solution for injection ampoules (Advanz Pharma)
+10682011000001104	Midazolam 5mg/5ml solution for injection ampoules (Advanz Pharma)
+11055311000001102	Midazolam 5mg/5ml solution for injection ampoules (hameln pharma Ltd)
+11055411000001109	Midazolam 5mg/5ml solution for injection ampoules (hameln pharma Ltd)
+12059111000001103	Midazolam 5mg/5ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+12059211000001109	Midazolam 5mg/5ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+20275911000001102	Midazolam 5mg/5ml solution for injection ampoules (Accord Healthcare Ltd)
+20276011000001105	Midazolam 5mg/5ml solution for injection ampoules (Accord Healthcare Ltd)
+23430811000001103	Midazolam 5mg/5ml solution for injection ampoules (J M McGill Ltd)
+23430911000001108	Midazolam 5mg/5ml solution for injection ampoules (J M McGill Ltd)
+23958211000001100	Midazolam 5mg/5ml solution for injection ampoules (Niche Pharma Ltd)
+23958411000001101	Midazolam 5mg/5ml solution for injection ampoules (Niche Pharma Ltd)
+40478211000001103	Midazolam 5mg/5ml solution for injection ampoules (AS Kalceks)
+40478411000001104	Midazolam 5mg/5ml solution for injection ampoules (AS Kalceks)
+40478311000001106	Midazolam 5mg/5ml solution for injection ampoules (AS Kalceks)
+36125211000001102	Midazolam 2mg/2ml solution for injection ampoules
+4752211000001105	Midazolam 2mg/2ml solution for injection ampoules
+4752311000001102	Midazolam 2mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4752411000001109	Midazolam 2mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+10681711000001109	Midazolam 2mg/2ml solution for injection ampoules (Advanz Pharma)
+10681811000001101	Midazolam 2mg/2ml solution for injection ampoules (Advanz Pharma)
+11055111000001104	Midazolam 2mg/2ml solution for injection ampoules (hameln pharma Ltd)
+11055211000001105	Midazolam 2mg/2ml solution for injection ampoules (hameln pharma Ltd)
+12058611000001102	Midazolam 2mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+12058811000001103	Midazolam 2mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+23430411000001100	Midazolam 2mg/2ml solution for injection ampoules (J M McGill Ltd)
+23430511000001101	Midazolam 2mg/2ml solution for injection ampoules (J M McGill Ltd)
+23939011000001104	Midazolam 2mg/2ml solution for injection ampoules (Niche Pharma Ltd)
+23939111000001103	Midazolam 2mg/2ml solution for injection ampoules (Niche Pharma Ltd)
+35931811000001101	Propofol 1g/50ml emulsion for infusion pre-filled syringes
+4763711000001101	Propofol 1g/50ml emulsion for infusion pre-filled syringes
+4763811000001109	Diprivan 2% emulsion for infusion 50ml pre-filled syringes (Aspen Pharma Trading Ltd)
+4763911000001104	Diprivan 2% emulsion for infusion 50ml pre-filled syringes (Aspen Pharma Trading Ltd)
+36024811000001106	Pancuronium bromide 4mg/2ml solution for injection ampoules
+4768011000001105	Pancuronium bromide 4mg/2ml solution for injection ampoules
+4768111000001106	Pancuronium bromide 4mg/2ml solution for injection ampoules
+4768211000001100	Pancuronium bromide 4mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4768311000001108	Pancuronium bromide 4mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4768411000001101	Pancuronium bromide 4mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4768511000001102	Pancuronium bromide 4mg/2ml solution for injection ampoules (Pfizer Ltd)
+4768711000001107	Pancuronium bromide 4mg/2ml solution for injection ampoules (Pfizer Ltd)
+4768611000001103	Pancuronium bromide 4mg/2ml solution for injection ampoules (Pfizer Ltd)
+4768811000001104	Pancuronium bromide 4mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+4768911000001109	Pancuronium bromide 4mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+4769011000001100	Pavulon 4mg/2ml solution for injection ampoules (Organon Laboratories Ltd)
+4769111000001104	Pavulon 4mg/2ml solution for injection ampoules (Organon Laboratories Ltd)
+10681311000001105	Pancuronium bromide 4mg/2ml solution for injection ampoules (Mercury Pharma Group Ltd)
+10681411000001103	Pancuronium bromide 4mg/2ml solution for injection ampoules (Mercury Pharma Group Ltd)
+7289111000001100	Lidocaine 2% and Chlorhexidine gel
+4775911000001107	Lidocaine 2% and Chlorhexidine gel
+8551311000001108	Lidocaine 2% and Chlorhexidine gel
+8551411000001101	Lidocaine 2% and Chlorhexidine gel
+4776011000001104	Lidocaine 2% and Chlorhexidine gel (A A H Pharmaceuticals Ltd)
+4776111000001103	Lidocaine 2% and Chlorhexidine gel (A A H Pharmaceuticals Ltd)
+4776211000001109	Lidocaine 2% and Chlorhexidine gel (Teva UK Ltd)
+4776311000001101	Lidocaine 2% and Chlorhexidine gel (Teva UK Ltd)
+4776411000001108	Lidocaine 2% and Chlorhexidine gel (AstraZeneca UK Ltd)
+4776511000001107	Lidocaine 2% and Chlorhexidine gel (AstraZeneca UK Ltd)
+5426811000001105	Lidocaine 2% and Chlorhexidine gel (Alliance Healthcare (Distribution) Ltd)
+5427311000001103	Lidocaine 2% and Chlorhexidine gel (Alliance Healthcare (Distribution) Ltd)
+8552411000001106	Instillagel gel (CliniMed Ltd)
+8553811000001100	Instillagel gel (CliniMed Ltd)
+8554011000001108	Instillagel gel (CliniMed Ltd)
+4777411000001105	Parecoxib 40mg powder for solution for injection vials
+4777311000001103	Parecoxib 40mg powder for solution for injection vials
+4777511000001109	Dynastat 40mg powder for solution for injection vials (Pfizer Ltd)
+4777711000001104	Dynastat 40mg powder for solution for injection vials (Pfizer Ltd)
+39120811000001102	Parecoxib 40mg powder for solution for injection vials (Aspire Pharma Ltd)
+39120911000001107	Parecoxib 40mg powder for solution for injection vials (Aspire Pharma Ltd)
+35932111000001103	Propofol 500mg/50ml emulsion for infusion pre-filled syringes
+4781511000001109	Propofol 500mg/50ml emulsion for infusion pre-filled syringes
+4781611000001108	Diprivan 1% emulsion for infusion 50ml pre-filled syringes (Aspen Pharma Trading Ltd)
+4781711000001104	Diprivan 1% emulsion for infusion 50ml pre-filled syringes (Aspen Pharma Trading Ltd)
+35935111000001105	Rocuronium bromide 50mg/5ml solution for injection vials
+4799011000001103	Rocuronium bromide 50mg/5ml solution for injection vials
+16586611000001108	Rocuronium bromide 50mg/5ml solution for injection vials
+4799111000001102	Esmeron 50mg/5ml solution for injection vials (Merck Sharp & Dohme (UK) Ltd)
+4799211000001108	Esmeron 50mg/5ml solution for injection vials (Merck Sharp & Dohme (UK) Ltd)
+16586911000001102	Esmeron 50mg/5ml solution for injection vials (Merck Sharp & Dohme (UK) Ltd)
+17369911000001106	Rocuronium bromide 50mg/5ml solution for injection vials (hameln pharma Ltd)
+17370011000001105	Rocuronium bromide 50mg/5ml solution for injection vials (hameln pharma Ltd)
+28966011000001100	Rocuronium bromide 50mg/5ml solution for injection vials (A A H Pharmaceuticals Ltd)
+28966111000001104	Rocuronium bromide 50mg/5ml solution for injection vials (A A H Pharmaceuticals Ltd)
+32712511000001109	Rocuronium bromide 50mg/5ml solution for injection vials (Pfizer Ltd)
+32712711000001104	Rocuronium bromide 50mg/5ml solution for injection vials (Pfizer Ltd)
+34755811000001101	Rocuronium bromide 50mg/5ml solution for injection vials (Bowmed Ibisqus Ltd)
+34755911000001106	Rocuronium bromide 50mg/5ml solution for injection vials (Bowmed Ibisqus Ltd)
+36530511000001104	Rocuronium bromide 50mg/5ml solution for injection vials (Fresenius Kabi Ltd)
+36530611000001100	Rocuronium bromide 50mg/5ml solution for injection vials (Fresenius Kabi Ltd)
+39164411000001101	Rocuronium bromide 50mg/5ml solution for injection vials (AS Kalceks)
+39164511000001102	Rocuronium bromide 50mg/5ml solution for injection vials (AS Kalceks)
+35935011000001109	Rocuronium bromide 100mg/10ml solution for injection vials
+4799311000001100	Rocuronium bromide 100mg/10ml solution for injection vials
+4799411000001107	Esmeron 100mg/10ml solution for injection vials (Organon Pharma (UK) Ltd)
+4799511000001106	Esmeron 100mg/10ml solution for injection vials (Organon Pharma (UK) Ltd)
+17370111000001106	Rocuronium bromide 100mg/10ml solution for injection vials (hameln pharma Ltd)
+17370211000001100	Rocuronium bromide 100mg/10ml solution for injection vials (hameln pharma Ltd)
+32502411000001107	Rocuronium bromide 100mg/10ml solution for injection vials (A A H Pharmaceuticals Ltd)
+32502511000001106	Rocuronium bromide 100mg/10ml solution for injection vials (A A H Pharmaceuticals Ltd)
+32712811000001107	Rocuronium bromide 100mg/10ml solution for injection vials (Pfizer Ltd)
+32713111000001106	Rocuronium bromide 100mg/10ml solution for injection vials (Pfizer Ltd)
+34755611000001100	Rocuronium bromide 100mg/10ml solution for injection vials (Bowmed Ibisqus Ltd)
+34755711000001109	Rocuronium bromide 100mg/10ml solution for injection vials (Bowmed Ibisqus Ltd)
+36530711000001109	Rocuronium bromide 100mg/10ml solution for injection vials (Fresenius Kabi Ltd)
+36530811000001101	Rocuronium bromide 100mg/10ml solution for injection vials (Fresenius Kabi Ltd)
+36142311000001102	Cisatracurium besilate 5mg/2.5ml solution for injection ampoules
+4851011000001105	Cisatracurium besilate 5mg/2.5ml solution for injection ampoules
+4851111000001106	Nimbex 5mg/2.5ml solution for injection ampoules (GlaxoSmithKline UK Ltd)
+4851311000001108	Nimbex 5mg/2.5ml solution for injection ampoules (GlaxoSmithKline UK Ltd)
+36142011000001100	Cisatracurium besilate 10mg/5ml solution for injection ampoules
+4851611000001103	Cisatracurium besilate 10mg/5ml solution for injection ampoules
+4851711000001107	Nimbex 10mg/5ml solution for injection ampoules (GlaxoSmithKline UK Ltd)
+4851811000001104	Nimbex 10mg/5ml solution for injection ampoules (GlaxoSmithKline UK Ltd)
+37913411000001108	Cisatracurium besilate 10mg/5ml solution for injection ampoules (AS Kalceks)
+37913511000001107	Cisatracurium besilate 10mg/5ml solution for injection ampoules (AS Kalceks)
+36142211000001105	Cisatracurium besilate 20mg/10ml solution for injection ampoules
+4852011000001102	Cisatracurium besilate 20mg/10ml solution for injection ampoules
+36785211000001104	Cisatracurium besilate 20mg/10ml solution for injection ampoules
+4852111000001101	Nimbex 20mg/10ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+4852311000001104	Nimbex 20mg/10ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+29933211000001109	Cisatracurium besilate 20mg/10ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+29933311000001101	Cisatracurium besilate 20mg/10ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+33589811000001108	Cisatracurium besilate 20mg/10ml solution for injection ampoules (Viatris UK Healthcare Ltd)
+33589911000001103	Cisatracurium besilate 20mg/10ml solution for injection ampoules (Viatris UK Healthcare Ltd)
+36785311000001107	Cisatracurium besilate 20mg/10ml solution for injection ampoules (Consilient Health Ltd)
+36785411000001100	Cisatracurium besilate 20mg/10ml solution for injection ampoules (Consilient Health Ltd)
+36785511000001101	Cisatracurium besilate 20mg/10ml solution for injection ampoules (Consilient Health Ltd)
+36885411000001103	Cisatracurium besilate 20mg/10ml solution for injection ampoules (Kent Pharma (UK) Ltd)
+36885611000001100	Cisatracurium besilate 20mg/10ml solution for injection ampoules (Kent Pharma (UK) Ltd)
+37913211000001109	Cisatracurium besilate 20mg/10ml solution for injection ampoules (AS Kalceks)
+37913311000001101	Cisatracurium besilate 20mg/10ml solution for injection ampoules (AS Kalceks)
+34194411000001104	Cisatracurium besilate 150mg/30ml solution for injection vials
+4852511000001105	Cisatracurium besilate 150mg/30ml solution for injection vials
+39338011000001103	Cisatracurium besilate 150mg/30ml solution for injection vials
+4852611000001109	Nimbex Forte 150mg/30ml solution for injection vials (Aspen Pharma Trading Ltd)
+4852711000001100	Nimbex Forte 150mg/30ml solution for injection vials (Aspen Pharma Trading Ltd)
+21340811000001101	Cisatracurium besilate 150mg/30ml solution for injection vials (Pfizer Ltd)
+21340911000001106	Cisatracurium besilate 150mg/30ml solution for injection vials (Pfizer Ltd)
+25869811000001103	Cisatracurium besilate 150mg/30ml solution for injection vials (A A H Pharmaceuticals Ltd)
+25870411000001103	Cisatracurium besilate 150mg/30ml solution for injection vials (A A H Pharmaceuticals Ltd)
+33590311000001109	Cisatracurium besilate 150mg/30ml solution for injection vials (Viatris UK Healthcare Ltd)
+33590411000001102	Cisatracurium besilate 150mg/30ml solution for injection vials (Viatris UK Healthcare Ltd)
+39338111000001102	Cisatracurium besilate 150mg/30ml solution for injection vials (Viatris UK Healthcare Ltd)
+34737611000001108	Cisatracurium besilate 150mg/30ml solution for injection vials (Accord Healthcare Ltd)
+34737711000001104	Cisatracurium besilate 150mg/30ml solution for injection vials (Accord Healthcare Ltd)
+4899111000001104	Lidocaine 200mg/10ml (2%) solution for injection ampoules
+4881211000001108	Lidocaine 200mg/10ml (2%) solution for injection ampoules
+4881511000001106	Lidocaine 200mg/10ml (2%) solution for injection Mini-Plasco ampoules (B.Braun Medical Ltd)
+4881611000001105	Lidocaine 200mg/10ml (2%) solution for injection Mini-Plasco ampoules (B.Braun Medical Ltd)
+4881711000001101	Lidocaine 200mg/10ml (2%) solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+4881811000001109	Lidocaine 200mg/10ml (2%) solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+4957611000001102	Procaine hydrochloride 40mg/2ml solution for injection ampoules
+4949111000001102	Procaine hydrochloride 40mg/2ml solution for injection ampoules
+4949311000001100	Procaine hydrochloride 40mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4949711000001101	Procaine hydrochloride 40mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+4950111000001109	Procaine hydrochloride 40mg/2ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+4950311000001106	Procaine hydrochloride 40mg/2ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+4950511000001100	Procaine hydrochloride 40mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+4950711000001105	Procaine hydrochloride 40mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+334219006	Lidocaine 5% / Phenylephrine 0.5% nasal spray
+4960811000001105	Lidocaine 5% / Phenylephrine 0.5% nasal spray
+4960911000001100	Lidocaine 5% / Phenylephrine 0.5% nasal spray (A A H Pharmaceuticals Ltd)
+4961011000001108	Lidocaine 5% / Phenylephrine 0.5% nasal spray (A A H Pharmaceuticals Ltd)
+4961111000001109	Lidocaine 5% / Phenylephrine 0.5% nasal spray (Martindale Pharmaceuticals Ltd)
+4961311000001106	Lidocaine 5% / Phenylephrine 0.5% nasal spray (Martindale Pharmaceuticals Ltd)
+5253211000001104	Lidocaine 5% / Phenylephrine 0.5% nasal spray (Alliance Healthcare (Distribution) Ltd)
+5253311000001107	Lidocaine 5% / Phenylephrine 0.5% nasal spray (Alliance Healthcare (Distribution) Ltd)
+26852611000001100	Lidocaine 5% / Phenylephrine 0.5% nasal spray (Ennogen Healthcare Ltd)
+26852711000001109	Lidocaine 5% / Phenylephrine 0.5% nasal spray (Ennogen Healthcare Ltd)
+5251811000001102	Mepivacaine 44mg/2.2ml / Adrenaline (base) 22micrograms/2.2ml (1 in 100,000) solution for injection cartridges
+5244311000001106	Mepivacaine 44mg/2.2ml / Adrenaline (base) 22micrograms/2.2ml (1 in 100,000) solution for injection cartridges
+5244611000001101	Scandonest special 2% solution for injection 2.2ml cartridges (Septodont Ltd)
+5244711000001105	Scandonest special 2% solution for injection 2.2ml cartridges (Septodont Ltd)
+5251911000001107	Mepivacaine 66mg/2.2ml solution for injection cartridges
+5244411000001104	Mepivacaine 66mg/2.2ml solution for injection cartridges
+5244511000001100	Scandonest plain 3% solution for injection 2.2ml cartridges (Septodont Ltd)
+5244811000001102	Scandonest plain 3% solution for injection 2.2ml cartridges (Septodont Ltd)
+5650811000001107	Prilocaine 500mg/50ml solution for injection vials
+5637911000001102	Prilocaine 500mg/50ml solution for injection vials
+5638011000001100	Citanest 1% solution for injection 50ml vials (Aspen Pharma Trading Ltd)
+5638111000001104	Citanest 1% solution for injection 50ml vials (Aspen Pharma Trading Ltd)
+333834003	Thiopental 500mg powder for solution for injection vials
+6866511000001106	Thiopental 500mg powder for solution for injection vials
+34673211000001106	Thiopental 500mg powder for solution for injection vials
+6866711000001101	Thiopental 500mg powder for solution for injection vials (A A H Pharmaceuticals Ltd)
+6866911000001104	Thiopental 500mg powder for solution for injection vials (A A H Pharmaceuticals Ltd)
+11618711000001108	Thiopental 500mg powder for solution for injection vials (Kyowa Kirin Ltd)
+11618811000001100	Thiopental 500mg powder for solution for injection vials (Kyowa Kirin Ltd)
+34673311000001103	Thiopental 500mg powder for solution for injection vials (Kyowa Kirin Ltd)
+37367711000001104	Thiopental 500mg powder for solution for injection vials (Advanz Pharma)
+37367811000001107	Thiopental 500mg powder for solution for injection vials (Advanz Pharma)
+38546311000001104	Thiopental 500mg powder for solution for injection vials (Panpharma UK Ltd)
+38546811000001108	Thiopental 500mg powder for solution for injection vials (Panpharma UK Ltd)
+333988009	Remifentanil 1mg powder for solution for injection vials
+7312011000001102	Remifentanil 1mg powder for solution for injection vials
+7312111000001101	Ultiva 1mg powder for solution for injection vials (Aspen Pharma Trading Ltd)
+7312211000001107	Ultiva 1mg powder for solution for injection vials (Aspen Pharma Trading Ltd)
+19180211000001108	Remifentanil 1mg powder for concentrate for solution for injection vials (Teva UK Ltd)
+19180311000001100	Remifentanil 1mg powder for concentrate for solution for injection vials (Teva UK Ltd)
+19241511000001109	Remifentanil 1mg powder for concentrate for solution for injection vials (A A H Pharmaceuticals Ltd)
+19241611000001108	Remifentanil 1mg powder for concentrate for solution for injection vials (A A H Pharmaceuticals Ltd)
+19660711000001104	Remifentanil 1mg powder for concentrate for solution for injection vials (Wockhardt UK Ltd)
+19660911000001102	Remifentanil 1mg powder for concentrate for solution for injection vials (Wockhardt UK Ltd)
+19685211000001100	Remifentanil 1mg powder for concentrate for solution for injection vials (Hospira UK Ltd)
+19685311000001108	Remifentanil 1mg powder for concentrate for solution for injection vials (Hospira UK Ltd)
+22122011000001102	Remifentanil 1mg powder for concentrate for solution for injection vials (Actavis UK Ltd)
+22122111000001101	Remifentanil 1mg powder for concentrate for solution for injection vials (Actavis UK Ltd)
+40481911000001106	Remifentanil 1mg powder for concentrate for solution for injection vials (Fresenius Kabi Ltd)
+40482011000001104	Remifentanil 1mg powder for concentrate for solution for injection vials (Fresenius Kabi Ltd)
+333989001	Remifentanil 2mg powder for solution for injection vials
+7312311000001104	Remifentanil 2mg powder for solution for injection vials
+7312411000001106	Ultiva 2mg powder for solution for injection vials (Aspen Pharma Trading Ltd)
+7312511000001105	Ultiva 2mg powder for solution for injection vials (Aspen Pharma Trading Ltd)
+19180411000001107	Remifentanil 2mg powder for concentrate for solution for injection vials (Teva UK Ltd)
+19180511000001106	Remifentanil 2mg powder for concentrate for solution for injection vials (Teva UK Ltd)
+19241711000001104	Remifentanil 2mg powder for concentrate for solution for injection vials (A A H Pharmaceuticals Ltd)
+19241811000001107	Remifentanil 2mg powder for concentrate for solution for injection vials (A A H Pharmaceuticals Ltd)
+19659711000001100	Remifentanil 2mg powder for concentrate for solution for injection vials (Wockhardt UK Ltd)
+19659811000001108	Remifentanil 2mg powder for concentrate for solution for injection vials (Wockhardt UK Ltd)
+19685411000001101	Remifentanil 2mg powder for concentrate for solution for injection vials (Hospira UK Ltd)
+19685511000001102	Remifentanil 2mg powder for concentrate for solution for injection vials (Hospira UK Ltd)
+22122211000001107	Remifentanil 2mg powder for concentrate for solution for injection vials (Actavis UK Ltd)
+22122311000001104	Remifentanil 2mg powder for concentrate for solution for injection vials (Actavis UK Ltd)
+24014411000001105	Remifentanil 2mg powder for concentrate for solution for injection vials (Sandoz Ltd)
+24014511000001109	Remifentanil 2mg powder for concentrate for solution for injection vials (Sandoz Ltd)
+40482111000001103	Remifentanil 2mg powder for concentrate for solution for injection vials (Fresenius Kabi Ltd)
+40482211000001109	Remifentanil 2mg powder for concentrate for solution for injection vials (Fresenius Kabi Ltd)
+333990005	Remifentanil 5mg powder for solution for injection vials
+7312611000001109	Remifentanil 5mg powder for solution for injection vials
+7312711000001100	Ultiva 5mg powder for solution for injection vials (Aspen Pharma Trading Ltd)
+7312811000001108	Ultiva 5mg powder for solution for injection vials (Aspen Pharma Trading Ltd)
+19180611000001105	Remifentanil 5mg powder for concentrate for solution for injection vials (Teva UK Ltd)
+19180711000001101	Remifentanil 5mg powder for concentrate for solution for injection vials (Teva UK Ltd)
+19473811000001106	Remifentanil 5mg powder for concentrate for solution for injection vials (A A H Pharmaceuticals Ltd)
+19473911000001101	Remifentanil 5mg powder for concentrate for solution for injection vials (A A H Pharmaceuticals Ltd)
+19660411000001105	Remifentanil 5mg powder for concentrate for solution for injection vials (Wockhardt UK Ltd)
+19660611000001108	Remifentanil 5mg powder for concentrate for solution for injection vials (Wockhardt UK Ltd)
+19685611000001103	Remifentanil 5mg powder for concentrate for solution for injection vials (Hospira UK Ltd)
+19685711000001107	Remifentanil 5mg powder for concentrate for solution for injection vials (Hospira UK Ltd)
+22122411000001106	Remifentanil 5mg powder for concentrate for solution for injection vials (Actavis UK Ltd)
+22122511000001105	Remifentanil 5mg powder for concentrate for solution for injection vials (Actavis UK Ltd)
+28095211000001107	Remifentanil 5mg powder for concentrate for solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+28095311000001104	Remifentanil 5mg powder for concentrate for solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+36084811000001101	Remifentanil 5mg powder for concentrate for solution for injection vials (B.Braun Medical Ltd)
+36085511000001103	Remifentanil 5mg powder for concentrate for solution for injection vials (B.Braun Medical Ltd)
+40482311000001101	Remifentanil 5mg powder for concentrate for solution for injection vials (Fresenius Kabi Ltd)
+40482411000001108	Remifentanil 5mg powder for concentrate for solution for injection vials (Fresenius Kabi Ltd)
+7623211000001104	Etomidate 20mg/10ml solution for injection ampoules
+7623311000001107	Etomidate 20mg/10ml solution for injection ampoules
+7623411000001100	Hypnomidate 20mg/10ml solution for injection ampoules (Piramal Critical Care Ltd)
+7623511000001101	Hypnomidate 20mg/10ml solution for injection ampoules (Piramal Critical Care Ltd)
+7642711000001101	Suxamethonium chloride 100mg/2ml solution for injection pre-filled syringes
+7642811000001109	Suxamethonium chloride 100mg/2ml solution for injection pre-filled syringes
+7642911000001104	Suxamethonium chloride 100mg/2ml solution for injection pre-filled syringes (Martindale Pharmaceuticals Ltd)
+7643011000001107	Suxamethonium chloride 100mg/2ml solution for injection pre-filled syringes (Martindale Pharmaceuticals Ltd)
+18510211000001103	Suxamethonium chloride 100mg/2ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd)
+18510311000001106	Suxamethonium chloride 100mg/2ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd)
+23716311000001108	Suxamethonium chloride 100mg/2ml solution for injection pre-filled syringes (Special Order)
+23716411000001101	Suxamethonium chloride 100mg/2ml solution for injection pre-filled syringes (Special Order)
+7811511000001104	Bupivacaine 100mg/100ml (0.1%) infusion bags
+7811611000001100	Bupivacaine 100mg/100ml (0.1%) infusion bags
+7811711000001109	Bupivacaine 100mg/100ml (0.1%) infusion bags
+7811811000001101	Bupivacaine 100mg/100ml (0.1%) infusion bags
+7811911000001106	Bupivacaine 100mg/100ml (0.1%) infusion bags (Advanz Pharma)
+7812011000001104	Bupivacaine 100mg/100ml (0.1%) infusion bags (Advanz Pharma)
+7812111000001103	Bupivacaine 100mg/100ml (0.1%) infusion bags (Advanz Pharma)
+7812211000001109	Bupivacaine 100mg/100ml (0.1%) infusion bags (Advanz Pharma)
+7812311000001101	Bupivacaine 250mg/250ml (0.1%) infusion bags
+7812411000001108	Bupivacaine 250mg/250ml (0.1%) infusion bags
+7812511000001107	Bupivacaine 250mg/250ml (0.1%) infusion bags
+7812611000001106	Bupivacaine 250mg/250ml (0.1%) infusion bags
+37830911000001106	Bupivacaine 250mg/250ml (0.1%) infusion bags
+7812711000001102	Bupivacaine 250mg/250ml (0.1%) infusion bags (Advanz Pharma)
+7812811000001105	Bupivacaine 250mg/250ml (0.1%) infusion bags (Advanz Pharma)
+7812911000001100	Bupivacaine 250mg/250ml (0.1%) infusion bags (Advanz Pharma)
+7813011000001108	Bupivacaine 250mg/250ml (0.1%) infusion bags (Advanz Pharma)
+37831011000001103	Bupivacaine 250mg/250ml (0.1%) infusion bags (Advanz Pharma)
+18499011000001106	Bupivacaine 250mg/250ml (0.1%) infusion bags (A A H Pharmaceuticals Ltd)
+18499411000001102	Bupivacaine 250mg/250ml (0.1%) infusion bags (A A H Pharmaceuticals Ltd)
+35913411000001109	Bupivacaine 312.5mg/250ml (0.125%) infusion bags
+7842811000001102	Bupivacaine 312.5mg/250ml (0.125%) infusion bags
+7842911000001107	Bupivacaine 312.5mg/250ml (0.125%) infusion bags
+7843011000001104	Bupivacaine 312.5mg/250ml (0.125%) infusion bags
+37831111000001102	Bupivacaine 312.5mg/250ml (0.125%) infusion bags
+7843911000001100	Bupivacaine 312.5mg/250ml (0.125%) infusion bags (Advanz Pharma)
+7844011000001102	Bupivacaine 312.5mg/250ml (0.125%) infusion bags (Advanz Pharma)
+7844311000001104	Bupivacaine 312.5mg/250ml (0.125%) infusion bags (Advanz Pharma)
+7844411000001106	Bupivacaine 312.5mg/250ml (0.125%) infusion bags (Advanz Pharma)
+37831211000001108	Bupivacaine 312.5mg/250ml (0.125%) infusion bags (Advanz Pharma)
+18756211000001106	Bupivacaine 312.5mg/250ml (0.125%) infusion bags (A A H Pharmaceuticals Ltd)
+18756311000001103	Bupivacaine 312.5mg/250ml (0.125%) infusion bags (A A H Pharmaceuticals Ltd)
+35905011000001101	Atropine 1mg/1ml solution for injection ampoules
+7857811000001101	Atropine 1mg/1ml solution for injection ampoules
+7857911000001106	Atropine 1mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+7858211000001103	Atropine 1mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+7858311000001106	Atropine 1mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+7858411000001104	Atropine 1mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+7858511000001100	Atropine 1mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+7858811000001102	Atropine 1mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+35905511000001109	Atropine 400micrograms/1ml solution for injection ampoules
+7859711000001101	Atropine 400micrograms/1ml solution for injection ampoules
+7861111000001107	Atropine 400micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+7861611000001104	Atropine 400micrograms/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+7861711000001108	Atropine 400micrograms/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+7861811000001100	Atropine 400micrograms/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+7861911000001105	Atropine 400micrograms/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+7862011000001103	Atropine 400micrograms/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+35905111000001100	Atropine 1mg/5ml solution for injection pre-filled syringes
+7869011000001105	Atropine 1mg/5ml solution for injection pre-filled syringes
+24611711000001108	Atropine 1mg/5ml solution for injection pre-filled syringes
+7869111000001106	Atropine 1mg/5ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd)
+7869211000001100	Atropine 1mg/5ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd)
+24917611000001109	Atropine 1mg/5ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd)
+7869311000001108	Atropine 1mg/5ml solution for injection pre-filled syringes (Martindale Pharmaceuticals Ltd)
+7869411000001101	Atropine 1mg/5ml solution for injection pre-filled syringes (Martindale Pharmaceuticals Ltd)
+24611811000001100	Atropine 1mg/5ml solution for injection pre-filled syringes (Aguettant Ltd)
+32533011000001101	Atropine 1mg/5ml solution for injection pre-filled syringes (Aguettant Ltd)
+24611911000001105	Atropine 1mg/5ml solution for injection pre-filled syringes (Aguettant Ltd)
+35905811000001107	Atropine 600micrograms/1ml solution for injection pre-filled syringes
+7873811000001109	Atropine 600micrograms/1ml solution for injection pre-filled syringes
+7873911000001104	Atropine 600micrograms/1ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd)
+7874011000001101	Atropine 600micrograms/1ml solution for injection pre-filled syringes (A A H Pharmaceuticals Ltd)
+7874111000001100	Atropine 600micrograms/1ml solution for injection pre-filled syringes (Martindale Pharmaceuticals Ltd)
+7874211000001106	Atropine 600micrograms/1ml solution for injection pre-filled syringes (Martindale Pharmaceuticals Ltd)
+7977911000001102	Midazolam 100mg/50ml solution for infusion vials
+7978011000001100	Midazolam 100mg/50ml solution for infusion vials
+7978111000001104	Midazolam 100mg/50ml solution for infusion vials (Martindale Pharmaceuticals Ltd)
+7978211000001105	Midazolam 100mg/50ml solution for infusion vials (Martindale Pharmaceuticals Ltd)
+10267211000001106	Midazolam 100mg/50ml solution for infusion vials (A A H Pharmaceuticals Ltd)
+10267311000001103	Midazolam 100mg/50ml solution for infusion vials (A A H Pharmaceuticals Ltd)
+10267411000001105	Midazolam 100mg/50ml solution for infusion vials (Alliance Healthcare (Distribution) Ltd)
+10267611000001108	Midazolam 100mg/50ml solution for infusion vials (Alliance Healthcare (Distribution) Ltd)
+28797311000001109	Midazolam 100mg/50ml solution for infusion vials (hameln pharma Ltd)
+28797411000001102	Midazolam 100mg/50ml solution for infusion vials (hameln pharma Ltd)
+35905211000001106	Atropine 3mg/10ml solution for injection ampoules
+7979711000001107	Atropine 3mg/10ml solution for injection ampoules
+7979811000001104	Atropine 3mg/10ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+7979911000001109	Atropine 3mg/10ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+8286311000001103	Bupivacaine 75mg/10ml (0.75%) solution for injection ampoules
+8177211000001100	Bupivacaine 75mg/10ml (0.75%) solution for injection ampoules
+8177311000001108	Bupivacaine 0.75% solution for injection 10ml Sure-Amp ampoules (Mercury Pharma Group Ltd)
+8177411000001101	Bupivacaine 0.75% solution for injection 10ml Sure-Amp ampoules (Mercury Pharma Group Ltd)
+8973111000001100	Tetracaine 4% gel with Vapour-permeable adhesive film dressing 6cm x 7cm
+8968611000001105	Tetracaine 4% gel with Vapour-permeable adhesive film dressing 6cm x 7cm
+8968711000001101	Ametop 4% gel dispensing pack (Forum Health Products Ltd)
+8969011000001108	Ametop 4% gel dispensing pack (Forum Health Products Ltd)
+9742811000001107	Lidocaine 25mg/g / Prilocaine 25mg/g periodontal gel 1.7g cartridges sugar free
+9731111000001109	Lidocaine 25mg/g / Prilocaine 25mg/g periodontal gel 1.7g cartridges sugar free
+9731211000001103	Oraqix 25mg/25mg/g periodontal gel 1.7g cartridges (Dentsply Ltd)
+9731311000001106	Oraqix 25mg/25mg/g periodontal gel 1.7g cartridges (Dentsply Ltd)
+9765411000001105	Cocaine powder
+9763511000001105	Cocaine powder
+15079811000001105	Cocaine powder
+9763611000001109	Cocaine powder (Martindale Pharmaceuticals Ltd)
+9763711000001100	Cocaine powder (Martindale Pharmaceuticals Ltd)
+9763811000001108	Cocaine powder (Alliance Healthcare (Distribution) Ltd)
+9763911000001103	Cocaine powder (Alliance Healthcare (Distribution) Ltd)
+10061911000001100	Cocaine powder (A A H Pharmaceuticals Ltd)
+10062011000001107	Cocaine powder (A A H Pharmaceuticals Ltd)
+15079411000001108	Cocaine powder (Sigma Pharmaceuticals Plc)
+15079611000001106	Cocaine powder (Sigma Pharmaceuticals Plc)
+15080111000001103	Cocaine powder (Sigma Pharmaceuticals Plc)
+9904511000001101	Lidocaine 25mg/g / Prilocaine 25mg/g periodontal gel 1.7g cartridges with applicator sugar free
+9903111000001108	Lidocaine 25mg/g / Prilocaine 25mg/g periodontal gel 1.7g cartridges with applicator sugar free
+9903211000001102	Oraqix 25mg/25mg/g periodontal gel 1.7g cartridges with dispenser (Dentsply Ltd)
+9903311000001105	Oraqix 25mg/25mg/g periodontal gel 1.7g cartridges with dispenser (Dentsply Ltd)
+376491004	Lidocaine 5% medicated plasters
+10570111000001104	Lidocaine 5% medicated plasters
+11052811000001104	Lidocaine 5% medicated plasters
+10570211000001105	Lidoderm 5% patches (Teikoku Seiyaku)
+10570311000001102	Lidoderm 5% patches (Teikoku Seiyaku)
+11052611000001103	Versatis 700mg medicated plasters (Grunenthal Ltd)
+11052711000001107	Versatis 700mg medicated plasters (Grunenthal Ltd)
+11053411000001105	Versatis 700mg medicated plasters (Grunenthal Ltd)
+34178211000001102	Ralvo 700mg medicated plasters (Grunenthal Ltd)
+34178311000001105	Ralvo 700mg medicated plasters (Grunenthal Ltd)
+36151111000001107	Ziconotide 100micrograms/1ml solution for infusion vials
+10605511000001102	Ziconotide 100micrograms/1ml solution for infusion vials
+10605611000001103	Prialt 100micrograms/1ml solution for infusion vials (Esteve Pharmaceuticals Ltd)
+10605711000001107	Prialt 100micrograms/1ml solution for infusion vials (Esteve Pharmaceuticals Ltd)
+36151311000001109	Ziconotide 500micrograms/5ml solution for infusion vials
+10605811000001104	Ziconotide 500micrograms/5ml solution for infusion vials
+10605911000001109	Prialt 500micrograms/5ml solution for infusion vials (Esteve Pharmaceuticals Ltd)
+10606011000001101	Prialt 500micrograms/5ml solution for infusion vials (Esteve Pharmaceuticals Ltd)
+10637611000001102	Ketamine 50mg/5ml solution for injection ampoules
+10637711000001106	Ketamine 50mg/5ml solution for injection ampoules
+15872711000001109	Ketamine 50mg/5ml solution for injection ampoules
+10637811000001103	Ketamin 10 Curamed 50mg/5ml solution for injection ampoules (Imported (Germany))
+10637911000001108	Ketamin 10 Curamed 50mg/5ml solution for injection ampoules (Imported (Germany))
+15872811000001101	Ketamine 50mg/5ml solution for injection ampoules (Special Order)
+15872911000001106	Ketamine 50mg/5ml solution for injection ampoules (Special Order)
+10790111000001109	Ketamine 25mg/5ml solution for injection ampoules
+10790211000001103	Ketamine 25mg/5ml solution for injection ampoules
+15872111000001108	Ketamine 25mg/5ml solution for injection ampoules
+15872211000001102	Ketamine 25mg/5ml solution for injection ampoules (Special Order)
+15872311000001105	Ketamine 25mg/5ml solution for injection ampoules (Special Order)
+10790511000001100	Ketamine 50mg/2ml solution for injection ampoules
+10790611000001101	Ketamine 50mg/2ml solution for injection ampoules
+15872411000001103	Ketamine 50mg/2ml solution for injection ampoules
+15872511000001104	Ketamine 50mg/2ml solution for injection ampoules (Special Order)
+15872611000001100	Ketamine 50mg/2ml solution for injection ampoules (Special Order)
+11416011000001109	Prilocaine 54mg/1.8ml / Felypressin 0.054units/1.8ml solution for injection self aspirating cartridges
+11398011000001101	Prilocaine 54mg/1.8ml / Felypressin 0.054units/1.8ml solution for injection self aspirating cartridges
+11398111000001100	Citanest 3% with Octapressin Dental 0.054units/1.8ml solution for injection self aspirating cartridges (Dentsply Ltd)
+11398211000001106	Citanest 3% with Octapressin Dental 0.054units/1.8ml solution for injection self aspirating cartridges (Dentsply Ltd)
+11424411000001100	Ketamine 100mg/2ml solution for injection ampoules
+11424511000001101	Ketamine 100mg/2ml solution for injection ampoules
+15871711000001102	Ketamine 100mg/2ml solution for injection ampoules
+11424611000001102	Ketamin 100mg/2ml solution for injection ampoules (Imported (Germany))
+11424711000001106	Ketamin 100mg/2ml solution for injection ampoules (Imported (Germany))
+15871911000001100	Ketamine 100mg/2ml solution for injection ampoules (Special Order)
+15872011000001107	Ketamine 100mg/2ml solution for injection ampoules (Special Order)
+14616011000001100	Cocaine 4% topical solution
+11500211000001108	Cocaine 4% topical solution
+34801711000001102	Cocaine 4% topical solution
+11500311000001100	Cocaine 4% topical solution (Imported (United States))
+11500411000001107	Cocaine 4% topical solution (Imported (United States))
+34801811000001105	Cocaine 4% topical solution (Special Order)
+34801911000001100	Cocaine 4% topical solution (Special Order)
+11549911000001104	Cocaine 10% spray
+11546211000001104	Cocaine 10% spray
+11546311000001107	Cocaine 10% spray (A A H Pharmaceuticals Ltd)
+11546411000001100	Cocaine 10% spray (A A H Pharmaceuticals Ltd)
+11546511000001101	Cocaine 10% spray (Alliance Healthcare (Distribution) Ltd)
+11546611000001102	Cocaine 10% spray (Alliance Healthcare (Distribution) Ltd)
+11546711000001106	Cocaine 10% spray (Martindale Pharmaceuticals Ltd)
+11546811000001103	Cocaine 10% spray (Martindale Pharmaceuticals Ltd)
+11819511000001104	Lidocaine hydrochloride 0.6% / Cetylpyridinium chloride 0.02% oromucosal gel sugar free
+11793111000001108	Lidocaine hydrochloride 0.6% / Cetylpyridinium chloride 0.02% oromucosal gel sugar free
+11793211000001102	Children's 3 Months Plus teething gel sugar free (The Boots Company Plc)
+11793311000001105	Children's 3 Months Plus teething gel sugar free (The Boots Company Plc)
+13146711000001105	Cocaine 2% mouthwash
+13135911000001101	Cocaine 2% mouthwash
+22345711000001100	Cocaine 2% mouthwash
+13136011000001109	Cocaine 2% mouthwash (Special Order)
+13136111000001105	Cocaine 2% mouthwash (Special Order)
+22345811000001108	Cocaine 2% mouthwash (Special Order)
+13210811000001108	Lidocaine 70mg / Tetracaine 70mg medicated plasters
+13205511000001103	Lidocaine 70mg / Tetracaine 70mg medicated plasters
+13205811000001100	Rapydan 70mg/70mg medicated plasters (EUSA Pharma (UK) Ltd)
+13206111000001101	Rapydan 70mg/70mg medicated plasters (EUSA Pharma (UK) Ltd)
+14055311000001105	Cocaine 5% mouthwash
+14022011000001101	Cocaine 5% mouthwash
+20581811000001109	Cocaine 5% mouthwash
+20581911000001104	Cocaine 5% mouthwash
+14022111000001100	Cocaine 5% mouthwash (Special Order)
+14022311000001103	Cocaine 5% mouthwash (Special Order)
+20582011000001106	Cocaine 5% mouthwash (Special Order)
+20582111000001107	Cocaine 5% mouthwash (Special Order)
+14203911000001107	Lidocaine 4% cream
+14188911000001103	Lidocaine 4% cream
+14189011000001107	Lidocaine 4% cream
+32199011000001100	Lidocaine 4% cream
+14189111000001108	LMX 4 cream (Ferndale Pharmaceuticals Ltd)
+14189211000001102	LMX 4 cream (Ferndale Pharmaceuticals Ltd)
+14189311000001105	LMX 4 cream (Ferndale Pharmaceuticals Ltd)
+32199511000001108	LMX 4 cream (Ferndale Pharmaceuticals Ltd)
+17076111000001105	LMX 4 cream with Tegaderm dressing 10cm x 6cm (Ferndale Pharmaceuticals Ltd)
+17076211000001104	LMX 4 cream with Tegaderm dressing 10cm x 6cm (Ferndale Pharmaceuticals Ltd)
+14638311000001105	Nitrous oxide cylinders size E (BOC Ltd)
+14638511000001104	Nitrous oxide cylinders size E (BOC Ltd)
+14639211000001107	Nitrous oxide cylinders size F (BOC Ltd)
+14639411000001106	Nitrous oxide cylinders size F (BOC Ltd)
+14640011000001109	Nitrous oxide cylinders size G (BOC Ltd)
+14640111000001105	Nitrous oxide cylinders size G (BOC Ltd)
+14640611000001102	Nitrous oxide cylinders size D (BOC Ltd)
+14640711000001106	Nitrous oxide cylinders size D (BOC Ltd)
+14680511000001108	Nitrous oxide 50% / Oxygen 50%
+14642511000001100	Nitrous oxide 50% / Oxygen 50%
+14642711000001105	Nitrous oxide 50% / Oxygen 50%
+14642911000001107	Nitrous oxide 50% / Oxygen 50%
+14643111000001103	Nitrous oxide 50% / Oxygen 50%
+14643311000001101	Nitrous oxide 50% / Oxygen 50%
+14643511000001107	Nitrous oxide 50% / Oxygen 50%
+14643611000001106	Nitrous oxide 50% / Oxygen 50%
+14643811000001105	Nitrous oxide 50% / Oxygen 50%
+14644011000001102	Nitrous oxide 50% / Oxygen 50%
+14644211000001107	Nitrous oxide 50% / Oxygen 50%
+14644511000001105	Nitrous oxide 50% / Oxygen 50%
+14644811000001108	Nitrous oxide 50% / Oxygen 50%
+14644911000001103	Nitrous oxide 50% / Oxygen 50%
+14654411000001108	Nitrous oxide 50% / Oxygen 50%
+14654511000001107	Nitrous oxide 50% / Oxygen 50%
+20282511000001108	Nitrous oxide 50% / Oxygen 50%
+20282611000001107	Nitrous oxide 50% / Oxygen 50%
+20282711000001103	Nitrous oxide 50% / Oxygen 50%
+39892711000001105	Nitrous oxide 50% / Oxygen 50%
+14646311000001105	Entonox cylinders size F (BOC Ltd)
+14647511000001102	Entonox cylinders size F (BOC Ltd)
+14649011000001101	Entonox cylinders size HX (BOC Ltd)
+14649111000001100	Entonox cylinders size HX (BOC Ltd)
+14650611000001104	Entonox cylinders size ZX (BOC Ltd)
+14650811000001100	Entonox cylinders size ZX (BOC Ltd)
+14651711000001100	Entonox cylinders size G (BOC Ltd)
+14651811000001108	Entonox cylinders size G (BOC Ltd)
+14652211000001100	Entonox cylinders size D (BOC Ltd)
+14652311000001108	Entonox cylinders size D (BOC Ltd)
+14654611000001106	Entonox cylinders size ZD (BOC Ltd)
+14654711000001102	Entonox cylinders size ZD (BOC Ltd)
+20282811000001106	Entonox cylinders size EA with integral headset (BOC Ltd)
+20282911000001101	Entonox cylinders size EA with integral headset (BOC Ltd)
+20283011000001109	Entonox cylinders size ED with integral headset (BOC Ltd)
+20283111000001105	Entonox cylinders size ED with integral headset (BOC Ltd)
+20283211000001104	Entonox cylinders size EX with integral headset (BOC Ltd)
+20283311000001107	Entonox cylinders size EX with integral headset (BOC Ltd)
+39892811000001102	Entonox cylinders size EW (BOC Ltd)
+39892911000001107	Entonox cylinders size EW (BOC Ltd)
+14937511000001104	Alfentanil 0.1% nasal spray
+14936711000001106	Alfentanil 0.1% nasal spray
+27874811000001105	Alfentanil 0.1% nasal spray
+14937011000001107	Alfentanil 0.1% nasal spray (Special Order)
+14937111000001108	Alfentanil 0.1% nasal spray (Special Order)
+27874911000001100	Alfentanil 0.1% nasal spray (Special Order)
+16090411000001105	Lidocaine 1% ointment
+16083311000001105	Lidocaine 1% ointment
+16083511000001104	Lidocaine 1% ointment (Special Order)
+16083611000001100	Lidocaine 1% ointment (Special Order)
+17071111000001101	Bupivacaine 100mg/100ml (0.1%) / Fentanyl 200micrograms/100ml infusion bags
+17062611000001108	Bupivacaine 100mg/100ml (0.1%) / Fentanyl 200micrograms/100ml infusion bags
+22449111000001109	Bupivacaine 100mg/100ml (0.1%) / Fentanyl 200micrograms/100ml infusion bags
+22449211000001103	Bupivacaine 100mg/100ml (0.1%) / Fentanyl 200micrograms/100ml infusion bags
+17062911000001102	Bupivacaine 100mg/100ml (0.1%) / Fentanyl 200micrograms/100ml infusion bags (Special Order)
+17063211000001100	Bupivacaine 100mg/100ml (0.1%) / Fentanyl 200micrograms/100ml infusion bags (Special Order)
+22449411000001104	Bupivacaine 100mg/100ml (0.1%) / Fentanyl 200micrograms/100ml infusion bags (Special Order)
+22449511000001100	Bupivacaine 100mg/100ml (0.1%) / Fentanyl 200micrograms/100ml infusion bags (Special Order)
+17071211000001107	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 500micrograms/250ml infusion bags
+17062711000001104	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 500micrograms/250ml infusion bags
+19877511000001109	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 500micrograms/250ml infusion bags
+38105711000001107	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 500micrograms/250ml infusion bags
+17063011000001105	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 500micrograms/250ml infusion bags (Special Order)
+17063311000001108	Bupivacaine 250mg/250ml (0.1%) / Fentanyl 500micrograms/250ml infusion bags (Special Order)
+19826111000001104	Bufyl 1mg/ml and 2micrograms/ml 250ml infusion bags (Advanz Pharma)
+19877711000001104	Bufyl 1mg/ml and 2micrograms/ml 250ml infusion bags (Advanz Pharma)
+38105811000001104	Bufyl 1mg/ml and 2micrograms/ml 250ml infusion bags (Advanz Pharma)
+17071311000001104	Bupivacaine 500mg/500ml (0.1%) / Fentanyl 1mg/500ml infusion bags
+17062811000001107	Bupivacaine 500mg/500ml (0.1%) / Fentanyl 1mg/500ml infusion bags
+19879711000001107	Bupivacaine 500mg/500ml (0.1%) / Fentanyl 1mg/500ml infusion bags
+38106211000001106	Bupivacaine 500mg/500ml (0.1%) / Fentanyl 1mg/500ml infusion bags
+17063111000001106	Bupivacaine 500mg/500ml (0.1%) / Fentanyl 1mg/500ml infusion bags (Special Order)
+17063411000001101	Bupivacaine 500mg/500ml (0.1%) / Fentanyl 1mg/500ml infusion bags (Special Order)
+19826311000001102	Bufyl 1mg/ml and 2micrograms/ml 500ml infusion bags (Advanz Pharma)
+19879811000001104	Bufyl 1mg/ml and 2micrograms/ml 500ml infusion bags (Advanz Pharma)
+38106411000001105	Bufyl 1mg/ml and 2micrograms/ml 500ml infusion bags (Advanz Pharma)
+18171811000001105	Atracurium besilate 250mg/25ml solution for injection ampoules
+18167511000001109	Atracurium besilate 250mg/25ml solution for injection ampoules
+18289711000001108	Atracurium besilate 250mg/25ml solution for injection ampoules
+18167611000001108	Atracurium besilate 250mg/25ml solution for injection ampoules (Actavis UK Ltd)
+18167811000001107	Atracurium besilate 250mg/25ml solution for injection ampoules (Actavis UK Ltd)
+18289811000001100	Atracurium besilate 250mg/25ml solution for injection ampoules (Actavis UK Ltd)
+18755611000001103	Atracurium besilate 250mg/25ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+18755711000001107	Atracurium besilate 250mg/25ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+18755811000001104	Atracurium besilate 250mg/25ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+18683311000001109	Cocaine 5% nasal spray
+18673611000001106	Cocaine 5% nasal spray
+28416211000001108	Cocaine 5% nasal spray
+18673711000001102	Cocaine 5% nasal spray (Special Order)
+18673811000001105	Cocaine 5% nasal spray (Special Order)
+28416311000001100	Cocaine 5% nasal spray (Special Order)
+19973711000001101	Cocaine 10% mouthwash
+19954311000001101	Cocaine 10% mouthwash
+22345011000001102	Cocaine 10% mouthwash
+22345211000001107	Cocaine 10% mouthwash
+22345311000001104	Cocaine 10% mouthwash
+19954511000001107	Cocaine 10% mouthwash (Special Order)
+19954611000001106	Cocaine 10% mouthwash (Special Order)
+22345611000001109	Cocaine 10% mouthwash (Special Order)
+22345411000001106	Cocaine 10% mouthwash (Special Order)
+22345511000001105	Cocaine 10% mouthwash (Special Order)
+20455411000001109	Lidocaine 1% / Hydrocortisone 0.1% mouthwash
+20437111000001107	Lidocaine 1% / Hydrocortisone 0.1% mouthwash
+22080211000001105	Lidocaine 1% / Hydrocortisone 0.1% mouthwash
+22080311000001102	Lidocaine 1% / Hydrocortisone 0.1% mouthwash
+20437211000001101	Lidocaine 1% / Hydrocortisone 0.1% mouthwash (Special Order)
+20437311000001109	Lidocaine 1% / Hydrocortisone 0.1% mouthwash (Special Order)
+22080411000001109	Lidocaine 1% / Hydrocortisone 0.1% mouthwash (Special Order)
+22080511000001108	Lidocaine 1% / Hydrocortisone 0.1% mouthwash (Special Order)
+21147911000001103	Cocaine 25% oromucosal paste
+21131511000001103	Cocaine 25% oromucosal paste
+21131811000001100	Cocaine 25% oromucosal paste
+21132011000001103	Cocaine 25% oromucosal paste
+21132211000001108	Cocaine 25% oromucosal paste
+21132411000001107	Cocaine 25% oromucosal paste
+21132611000001105	Cocaine 25% oromucosal paste
+21132811000001109	Cocaine 25% oromucosal paste
+21133011000001107	Cocaine 25% oromucosal paste
+22346011000001106	Cocaine 25% oromucosal paste
+21131611000001104	Cocaine 25% oromucosal paste (Special Order)
+21131711000001108	Cocaine 25% oromucosal paste (Special Order)
+21131911000001105	Cocaine 25% oromucosal paste (Special Order)
+21132111000001102	Cocaine 25% oromucosal paste (Special Order)
+21132311000001100	Cocaine 25% oromucosal paste (Special Order)
+21132511000001106	Cocaine 25% oromucosal paste (Special Order)
+21132711000001101	Cocaine 25% oromucosal paste (Special Order)
+21132911000001104	Cocaine 25% oromucosal paste (Special Order)
+21133111000001108	Cocaine 25% oromucosal paste (Special Order)
+22346111000001107	Cocaine 25% oromucosal paste (Special Order)
+35896511000001107	Alfentanil 500micrograms/1ml solution for injection ampoules
+21562711000001102	Alfentanil 500micrograms/1ml solution for injection ampoules
+21150011000001101	Alfentanil 500micrograms/1ml solution for injection ampoules (Special Order)
+21562811000001105	Alfentanil 500micrograms/1ml solution for injection ampoules (Special Order)
+425136005	Lidocaine 70mg / Tetracaine 70mg cream
+21711711000001106	Lidocaine 70mg / Tetracaine 70mg cream
+21711811000001103	Pliaglis 70mg/g / 70mg/g cream (Galderma (UK) Ltd)
+21711911000001108	Pliaglis 70mg/g / 70mg/g cream (Galderma (UK) Ltd)
+21994211000001109	Cisatracurium besilate 20mg/10ml solution for injection vials
+21990911000001105	Cisatracurium besilate 20mg/10ml solution for injection vials
+21991011000001102	Cisatracurium besilate 20mg/10ml solution for injection vials (Pfizer Ltd)
+21991111000001101	Cisatracurium besilate 20mg/10ml solution for injection vials (Pfizer Ltd)
+28041111000001108	Cisatracurium besilate 20mg/10ml solution for injection vials (A A H Pharmaceuticals Ltd)
+28041211000001102	Cisatracurium besilate 20mg/10ml solution for injection vials (A A H Pharmaceuticals Ltd)
+34740211000001108	Cisatracurium besilate 20mg/10ml solution for injection vials (Accord Healthcare Ltd)
+34740311000001100	Cisatracurium besilate 20mg/10ml solution for injection vials (Accord Healthcare Ltd)
+21994111000001103	Cisatracurium besilate 10mg/5ml solution for injection vials
+21991311000001104	Cisatracurium besilate 10mg/5ml solution for injection vials
+21991411000001106	Cisatracurium besilate 10mg/5ml solution for injection vials (Hospira UK Ltd)
+21991711000001100	Cisatracurium besilate 10mg/5ml solution for injection vials (Hospira UK Ltd)
+21994311000001101	Cisatracurium besilate 5mg/2.5ml solution for injection vials
+21991911000001103	Cisatracurium besilate 5mg/2.5ml solution for injection vials
+21992011000001105	Cisatracurium besilate 5mg/2.5ml solution for injection vials (Hospira UK Ltd)
+21992111000001106	Cisatracurium besilate 5mg/2.5ml solution for injection vials (Hospira UK Ltd)
+22153711000001109	Chloroprocaine 50mg/5ml solution for injection ampoules
+22020011000001107	Chloroprocaine 50mg/5ml solution for injection ampoules
+22020111000001108	Ampres 50mg/5ml solution for injection ampoules (Sintetica Ltd)
+22020211000001102	Ampres 50mg/5ml solution for injection ampoules (Sintetica Ltd)
+22154711000001106	Midazolam 5mg/2ml solution for injection ampoules
+22083711000001107	Midazolam 5mg/2ml solution for injection ampoules
+22083811000001104	Midazolam 5mg/2ml solution for injection ampoules (Special Order)
+22083911000001109	Midazolam 5mg/2ml solution for injection ampoules (Special Order)
+22503911000001107	Cocaine 10% nasal drops
+22504011000001105	Cocaine 10% nasal drops
+22504111000001106	Cocaine 10% nasal drops
+22504211000001100	Cocaine 10% nasal drops
+22504311000001108	Cocaine 10% nasal drops
+22504411000001101	Cocaine 10% nasal drops
+22511611000001102	Cocaine 10% nasal drops
+22504511000001102	Cocaine 10% nasal drops (Special Order)
+22504611000001103	Cocaine 10% nasal drops (Special Order)
+22504711000001107	Cocaine 10% nasal drops (Special Order)
+22504811000001104	Cocaine 10% nasal drops (Special Order)
+22504911000001109	Cocaine 10% nasal drops (Special Order)
+22505011000001109	Cocaine 10% nasal drops (Special Order)
+22511711000001106	Cocaine 10% nasal drops (Special Order)
+24548011000001103	Lidocaine 100mg/10ml (1%) / Adrenaline (base) 50micrograms/10ml (1 in 200,000) solution for injection ampoules
+24548111000001102	Lidocaine 100mg/10ml (1%) / Adrenaline (base) 50micrograms/10ml (1 in 200,000) solution for injection ampoules
+24548211000001108	Lidocaine 100mg/10ml (1%) / Adrenaline (base) 50micrograms/10ml (1 in 200,000) solution for injection ampoules
+24548311000001100	Lidocaine 100mg/10ml (1%) / Adrenaline (base) 50micrograms/10ml (1 in 200,000) solution for injection ampoules (Special Order)
+24548411000001107	Lidocaine 100mg/10ml (1%) / Adrenaline (base) 50micrograms/10ml (1 in 200,000) solution for injection ampoules (Special Order)
+24548511000001106	Lidocaine 100mg/10ml (1%) / Adrenaline (base) 50micrograms/10ml (1 in 200,000) solution for injection ampoules (Special Order)
+24610311000001104	Prilocaine 66mg/2.2ml / Felypressin 0.066units/2.2ml solution for injection self aspirating cartridges
+24608211000001108	Prilocaine 66mg/2.2ml / Felypressin 0.066units/2.2ml solution for injection self aspirating cartridges
+34681311000001105	Prilocaine 66mg/2.2ml / Felypressin 0.066units/2.2ml solution for injection self aspirating cartridges
+24608311000001100	Citanest 3% with Octapressin Dental 0.066units/2.2ml solution for injection self aspirating cartridges (Dentsply Ltd)
+24608411000001107	Citanest 3% with Octapressin Dental 0.066units/2.2ml solution for injection self aspirating cartridges (Dentsply Ltd)
+34681411000001103	Citanest 3% with Octapressin Dental 0.066units/2.2ml solution for injection self aspirating cartridges (Dentsply Ltd)
+28808211000001102	Lidocaine 5% gel
+28786911000001106	Lidocaine 5% gel
+28787011000001105	Lidocaine 5% gel (Special Order)
+28787111000001106	Lidocaine 5% gel (Special Order)
+33570811000001108	Rocuronium bromide 50mg/5ml solution for injection ampoules
+33570511000001105	Rocuronium bromide 50mg/5ml solution for injection ampoules
+33570611000001109	Rocuronium bromide 50mg/5ml solution for injection ampoules (hameln pharma Ltd)
+33570711000001100	Rocuronium bromide 50mg/5ml solution for injection ampoules (hameln pharma Ltd)
+36793511000001104	Rocuronium bromide 50mg/5ml solution for injection ampoules (Bowmed Ibisqus Ltd)
+36793611000001100	Rocuronium bromide 50mg/5ml solution for injection ampoules (Bowmed Ibisqus Ltd)
+34236011000001108	Propofol 500mg/50ml emulsion for infusion ampoules
+34208811000001105	Propofol 500mg/50ml emulsion for infusion ampoules
+34208911000001100	Propofol-Lipuro 1% emulsion for infusion 50ml ampoules (B.Braun Melsungen AG)
+34209011000001109	Propofol-Lipuro 1% emulsion for infusion 50ml ampoules (B.Braun Melsungen AG)
+34682211000001109	Alfentanil 25mg/50ml solution for injection vials
+34539611000001104	Alfentanil 25mg/50ml solution for injection vials
+34539711000001108	Alfentanil 25mg/50ml solution for injection vials (hameln pharma Ltd)
+34539811000001100	Alfentanil 25mg/50ml solution for injection vials (hameln pharma Ltd)
+34557311000001103	Propofol 200mg/20ml emulsion for injection vials
+34549511000001104	Propofol 200mg/20ml emulsion for injection vials
+34549611000001100	Propofol 200mg/20ml emulsion for injection vials (Peckforton Pharmaceuticals Ltd)
+34549711000001109	Propofol 200mg/20ml emulsion for injection vials (Peckforton Pharmaceuticals Ltd)
+38732811000001105	Propofol 200mg/20ml emulsion for injection vials (Baxter Healthcare Ltd)
+38732911000001100	Propofol 200mg/20ml emulsion for injection vials (Baxter Healthcare Ltd)
+35086311000001101	Lidocaine 36mg/1.8ml (2%) / Adrenaline (base) 22.5micrograms/1.8ml (1 in 80,000) solution for injection cartridges
+35061711000001105	Lidocaine 36mg/1.8ml (2%) / Adrenaline (base) 22.5micrograms/1.8ml (1 in 80,000) solution for injection cartridges
+35061911000001107	Lignospan Special 20mg/ml / 12.5micrograms/ml solution for injection 1.8ml cartridges (Septodont Ltd)
+35062111000001104	Lignospan Special 20mg/ml / 12.5micrograms/ml solution for injection 1.8ml cartridges (Septodont Ltd)
+35148711000001102	Lidocaine 10mg / Cetrimide 100microgram oromucosal spray sugar free
+35129911000001105	Lidocaine 10mg / Cetrimide 100microgram oromucosal spray sugar free
+35130011000001100	Xylonor 150mg/g / 1.5mg/g oromucosal spray (Septodont Ltd)
+35130211000001105	Xylonor 150mg/g / 1.5mg/g oromucosal spray (Septodont Ltd)
+35148811000001105	Lidocaine 5% / Cetrimide 0.15% oromucosal gel sugar free
+35131211000001104	Lidocaine 5% / Cetrimide 0.15% oromucosal gel sugar free
+35131511000001101	Xylonor 50mg/g / 1.5mg/g gel (Septodont Ltd)
+35131611000001102	Xylonor 50mg/g / 1.5mg/g gel (Septodont Ltd)
+36459511000001103	Lidocaine 0.5% ointment
+36455311000001107	Lidocaine 0.5% ointment
+36455411000001100	Lidocaine 0.5% ointment (Special Order)
+36455511000001101	Lidocaine 0.5% ointment (Special Order)
+37455011000001105	Rocuronium bromide 100mg/10ml solution for injection ampoules
+36793211000001102	Rocuronium bromide 100mg/10ml solution for injection ampoules
+36793311000001105	Rocuronium bromide 100mg/10ml solution for injection ampoules (Bowmed Ibisqus Ltd)
+36793411000001103	Rocuronium bromide 100mg/10ml solution for injection ampoules (Bowmed Ibisqus Ltd)
+36812211000001105	Vecuronium bromide 10mg powder for solution for injection vials
+36797211000001106	Vecuronium bromide 10mg powder for solution for injection vials
+38010111000001109	Vecuronium bromide 10mg powder for solution for injection vials
+38010211000001103	Vecuronium bromide 10mg powder for solution for injection vials
+38010311000001106	Vecuronium bromide 10mg powder for solution for injection vials
+36797311000001103	Vecuronium bromide 10mg powder for solution for injection vials (Kent Pharma (UK) Ltd)
+36797411000001105	Vecuronium bromide 10mg powder for solution for injection vials (Kent Pharma (UK) Ltd)
+38010411000001104	Vecuronium bromide 10mg powder for solution for injection vials (Sun Pharmaceutical Industries Europe B.V.)
+38010711000001105	Vecuronium bromide 10mg powder for solution for injection vials (Sun Pharmaceutical Industries Europe B.V.)
+38010511000001100	Vecuronium bromide 10mg powder for solution for injection vials (Sun Pharmaceutical Industries Europe B.V.)
+38010611000001101	Vecuronium bromide 10mg powder for solution for injection vials (Sun Pharmaceutical Industries Europe B.V.)
+38010811000001102	Vecuronium bromide 10mg powder for solution for injection vials (Sun Pharmaceutical Industries Europe B.V.)
+38359111000001105	Chloroprocaine 400mg/20ml solution for injection vials
+38347511000001105	Chloroprocaine 400mg/20ml solution for injection vials
+38347611000001109	Ampres 400mg/20ml solution for injection vials (Sintetica Ltd)
+38347811000001108	Ampres 400mg/20ml solution for injection vials (Sintetica Ltd)
+39574711000001108	Midazolam 5mg/ml oral solution sugar free
+39574311000001109	Midazolam 5mg/ml oral solution sugar free
+39574411000001102	Miprosed 5mg/ml oral solution (Syri Ltd)
+39574511000001103	Miprosed 5mg/ml oral solution (Syri Ltd)
