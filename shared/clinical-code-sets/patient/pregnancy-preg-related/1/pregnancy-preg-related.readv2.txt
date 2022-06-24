@@ -1,0 +1,371 @@
+Q42..00	Haemolytic disease of fetus/newborn due to isoimmunisation
+Q420.00	Haemolytic disease due to rhesus isoimmunisation
+Q....11	Fetal and neonatal conditions
+L182.00	Anaemia during pregnancy, childbirth and the puerperium
+L466.00	Galactorrhoea in pregnancy and the puerperium
+67A..00	Pregnancy advice
+L188.00	Abnormal glucose tolerance test in pregnancy/childb/puerp
+L416.00	Haemorrhoids in pregnancy and the puerperium
+L43..00	Obstetric pulmonary embolism
+L169.00	Herpes gestationis
+67A1.00	Infant feeding advice
+959..00	GMS2 maternity claim status
+63C6.00	Maternal drug abuse
+L12..00	Hypertension complicating pregnancy/childbirth/puerperium
+L356.14	Symphysis pubis separation
+95Z..00	Maternity services admin NOS
+L....00	Complications of pregnancy, childbirth and the puerperium
+L180.00	Diabetes mellitus during pregnancy/childbirth/puerperium
+L46z.00	Disorders of lactation NOS
+L120.00	Benign essential hypertension in pregnancy/childbirth/puerp
+Z212.12	Maternity care
+62...12	Maternity care
+63D..00	Placental details
+L261.00	Rhesus isoimmunisation
+L244.00	Other uterine/pelvic floor abnormality in preg/childb/puerp
+L182000	Anaemia - unspecified whether in pregnancy or the puerperium
+L45y.00	Other obstetric breast infections
+958..00	Maternity leave
+L410.00	Varicose veins of legs in pregnancy and the puerperium
+L390.00	Maternal distress
+95...00	Maternity services admin.
+L462.00	Breast engorgement in pregnancy, the puerperium or lactation
+63C7.00	Maternal alcohol abuse
+ZL75.00	Referral to midwife
+L39y500	Maternal exhaustion
+L416.11	Piles - obstetric
+L356.13	Pubic symphysis separation
+L188.11	GTT - glucose tolerance test abnormal in preg/childb/puerp
+ZL33.00	Under care of midwife
+L411.11	Perineal obstetric varicose veins
+Q417100	Cerebellar (nontraum) and post fossa haemorhage fet newborn
+L450.12	Nipple infection - obstetric
+Q400.00	Congenital rubella
+L451.00	Obstetric breast abscess
+L411.12	Vulval obstetric varicose veins
+L244.11	Cystocele in pregnancy, childbirth and the puerperium
+L46zz00	Disorder of lactation NOS
+L412.00	Superficial thrombophlebitis in pregnancy and the puerperium
+Q023.00	Fetus or neonate affected by placental transfusion syndrome
+L17..00	Infective/parasitic disease in preg/childbirth/puerperium
+L172.00	Other venereal diseases in pregnancy/childbirth/puerperium
+13S..11	Maternity allowances
+L356z00	Obstetric damage to pelvic joints and ligaments NOS
+L1A..00	Sublux of symphysis pubis in preg childbirth and puerp
+L18C.00	Endocrine nutrition+metab dis complic pregn,childbirth+puerp
+Q402300	Congenital toxoplasmosis
+L411.00	VV's of perineum/vulva in pregnancy/puerperium
+L411300	VV's of perineum/vulva in pregnancy/puerperium + a/n comp
+ZL33100	Under care of community-based midwife
+Q000.00	Fetus or neonate affected by maternal hypertensive disease
+Q026z00	Fetus or neonate affected by cord problems NOS
+Q031z00	Fetus/neonate affected by malposition/disproportion NOS
+Q422.00	Haemolytic disease due to isoimmunisation NOS
+L240.11	Bicornuate uterus in pregnancy, childbirth and puerperium
+L466z00	Galactorrhoea in pregnancy and the puerperium NOS
+Lz...00	Complications of pregnancy,childbirth and the puerperium NOS
+Q....13	Fetus and neonate conditions
+L461.00	Cracked nipple in pregnancy, the puerperium or lactation
+63D5.00	Placental abnormality
+L41..11	Varicose veins - obstetric
+67A6.00	Drugs in pregnancy advice
+L46..00	Obstetric breast and lactation disorders NOS
+L430.00	Obstetric air pulmonary embolism
+Q007900	Fetus/neonate affected-plac./breast transfer uterine depress
+L248.13	Vulval abnormality in pregnancy/childbirth/puerperium
+L45..00	Obstetric breast infections
+ZL75111	Referral to community midwife
+L246z11	Polyp of cervix in pregnancy/childbirth/puerperium NOS
+L45zz00	Obstetric breast infection NOS
+L182z00	Anaemia during pregnancy/childbirth/puerperium NOS
+L120z00	Benign essential hypertension in preg/childb/puerp NOS
+L240.00	Congenital abnormality of uterus in preg/childbirth/puerp
+63DZ.00	Placental details NOS
+L412000	Superficial thrombophlebitis in pregnancy/puerperium unsp
+L244z00	Other uterine/pelvic floor abn in preg/childb/puerp NOS
+L12zz00	Unspecified hypertension in preg/childb/puerp NOS
+Q417.00	Intracranial nontraumatic haemorrhage of fetus and newborn
+L244.12	Pendulous abdomen in pregnancy,childbirth and the puerperium
+L463000	Other breast disorder in pregnancy/puerperium/lact unspec
+Z245100	Maternal blood loss minimal
+ZL33111	Under care of community midwife
+67AZ.00	Pregnancy advice NOS
+Z262P00	Placenta healthy
+L120000	Benign essential hypertension in preg/childb/puerp unspec
+L450.11	Abscess of nipple - obstetric
+L462z00	Breast engorgement in pregnancy/puerperium/lactation NOS
+L246.00	Other cervical abnormality in pregnancy/childbirth/puerp
+L247.00	Congenital/acquired abnormality vagina in preg/childb/puerp
+L46y.00	Other disorders of lactation
+L244.13	Rectocele in pregnancy, childbirth and the puerperium
+L244z11	Cystocele in pregnancy, childbirth or the puerperium NOS
+L45z.00	Obstetric breast infection NOS
+Q421.00	Haemolytic disease due to ABO isoimmunisation
+L247.13	Vaginal abnormality in pregnancy/childbirth/puerperium
+L169z00	Herpes gestationis NOS
+L12z.00	Unspecified hypertension in pregnancy/childbirth/puerperium
+L247.11	Septate vagina in pregnancy, childbirth and the puerperium
+Z2...00	Pregnancy, childbirth and puerperium observations
+L45z000	Obstetric breast infection NOS, unspecified
+L187.00	Orthopaedic disorders in pregnancy/childbirth/puerperium
+62Z..00	Maternal care NOS
+L183.00	Drug dependence in pregnancy, childbirth and the puerperium
+L1y..00	Complications of pregnancy/childbirth/puerperium OS
+L12z000	Unspecified hypertension in preg/childb/puerp unspecified
+L171.00	Maternal gonorrhoea during pregnancy/childbirth/puerperium
+L411z00	Varicose veins of perineum/vulva in pregnancy/puerperium NOS
+L175.00	Maternal rubella in pregnancy, childbirth and the puerperium
+953..00	Maternity services claimed
+Z167.00	Expressing colostrum
+L247011	Septate vagina affecting obstetric care
+L18z.00	Medical condition NOS in pregnancy/childbirth/puerperium
+Q023000	Fetus/neonate affected by twin-to-twin transplacental transf
+L18..00	Other medical condition in pregnancy/childbirth/puerperium
+L451z00	Obstetric breast abscess NOS
+L128.00	Pre-exist hypertension compl preg childbirth and puerperium
+Z264300	Amniotic fluid normal
+L241.11	Uterine fibroids in pregnancy, childbirth and the puerperium
+Q002.00	Fetus or neonate affected by maternal infections
+ZL75200	Referral to hospital-based midwife
+Ly...00	Complications of pregnancy,childbirth or the puerperium OS
+L18B.00	Dis of the skin and subcut tis comp preg childbrth puerp
+Q0...00	Fetus/neonate affected by maternal problem unrelated to preg
+ZL75211	Referral to hospital midwife
+7F05400	Biopsy of placenta NEC
+L184.00	Mental disorders in pregnancy, childbirth and the puerperium
+Q023200	Fetus/neonate affected by materno-fetal transplacental trans
+Z265100	Umbilical cord normal
+L181.00	Thyroid dysfunction in pregnancy/childbirth/puerperium
+L46yz00	Other disorder of lactation NOS
+L356.12	Obstetric pelvic ligament damage
+Q45..00	Fetal and newborn blood disorders
+L356.00	Obstetric trauma damaging pelvic joints and ligaments
+L432.00	Obstetric blood-clot pulmonary embolism
+L174.00	Maternal malaria in pregnancy, childbirth and the puerperium
+L240.12	Double uterus in pregnancy, childbirth and the puerperium
+Q015100	Fetus or neonate affected by twin pregnancy
+Q005.00	Fetus or neonate affected by maternal injury
+L41z512	Gestational phlebopathy NOS
+L452.11	Lymphangitis of breast - obstetric
+L242.00	Uterine scar from previous surgery in pregnancy/childb/puerp
+L241z11	Uterine fibroid in pregnancy/childbirth/puerperium NOS
+L46y.11	Galactocele - obstetric
+951..00	FP24 maternity claim status
+L412z00	Superficial thrombophlebitis in pregnancy and puerperium NOS
+Q007200	Fetus/neonate affected by placental/breast transfer narcotic
+Q04..00	Fet newborn affect nox influenc transmit placent breast milk
+L128200	Pre-exist 2ndry hypertens comp preg childbth and puerperium
+ZL75100	Referral to community-based midwife
+L417.00	Obstetric cerebral venous thrombosis
+L246.11	Polyp of cervix in pregnancy, childbirth and the puerperium
+L241.00	Tumour of uterine body in pregnancy/childbirth/puerperium
+L185z00	Congenital cardiovascular disorder in preg/childb/puerp NOS
+L1z..00	Complications of pregnancy/childbirth/puerperium NOS
+ZL33211	Under care of hospital midwife
+L466000	Galactorrhoea in pregnancy and the puerperium unspecified
+Q015.00	Fetus or neonate affected by multiple pregnancy
+L244000	Other uterine/pelvic floor abnormal affecting obstetric care
+L189.00	Dis resp syst comp pregnancy, childbirth & puerperium
+L170.00	Maternal syphilis in pregnancy/childbirth/puerperium
+Qyu0100	[X]Fetus+newborn affectd/oth medical procedure on mother,NEC
+13S1.00	Maternity grant
+L416000	Haemorrhoids in pregnancy and the puerperium unspecified
+L240z11	Bicornuate uterus in pregnancy, childbirth or puerperium NOS
+Q041.00	Fetus and newborn afect by mat use of nutritional chem subs
+Q411200	Intraventric (nontraumatic) haemorhage grade 3 fet newborn
+L185.00	Congenital cardiovascular disorders in preg/childb/puerp
+L242z00	Uterine operation scar in pregnancy/childbirth/puerp NOS
+Q411100	Intraventric (nontraumatic) haemorhage grade 2 fet newborn
+Q417000	Intracerebral (nontraumatic) haemorrhage of fet and newborn
+L173000	Maternal tuberculosis,unspec whether in pregnancy/puerperium
+L244012	Rectocele affecting obstetric care
+L462000	Breast engorgement in pregnancy/puerperium/lactation unspec
+Q026.00	Fetus or neonate affected by other specified cord problems
+L45y000	Other obstetric breast infection unspecified
+L41z513	Gestational thrombosis NOS
+L186.00	Other cardiovascular diseases in pregnancy/childbirth/puerp
+L433.12	Septic obstetric embolism
+Q41yz00	Fetal or newborn haemorrhage NOS
+L176500	Viral hepatitis comp pregnancy, childbirth & the puerperium
+L41z511	Gestational phlebitis NOS
+Q411000	Intraventric (nontraumatic) haemorhage grade 1 fet newborn
+L450z00	Obstetric nipple infection NOS
+L17z.00	Maternal infect/parasitic dis NOS in pregnancy/childb/puerp
+L24..00	Pelvic soft tissue abnormality in pregnancy/childbirth/puerp
+Q0y..00	Maternal problems unrelated preg affecting fetus/neonate OS
+L128000	Pre-exist hyperten heart dis compl preg childbth+puerperium
+L463.00	Other breast disorder in pregnancy/puerperium/lactation
+L356000	Obstetric damage to pelvic joints and ligaments unspecified
+L247012	Stenosis of vagina affecting obstetric care
+953G.00	Total maternity service claim
+L122z00	Other pre-existing hypertension in preg/childb/puerp NOS
+Q41yy00	Other specified fetal or newborn haemorrhage
+L261z00	Rhesus isoimmunisation NOS
+L18A.00	Dis of the digestive sys comp preg childbirth and puerp
+L461z00	Cracked nipple in pregnancy, the puerperium or lactation NOS
+Q00y.00	Fetus or neonate affected by other maternal condition
+L181z00	Thyroid dysfunction in pregnancy/childbirth/puerperium NOS
+L451000	Obstetric breast abscess unspecified
+L410z00	Varicose veins of legs in pregnancy and puerperium NOS
+L247z11	Septate vagina in pregnancy/childbirth/puerperium NOS
+953E.00	Other maternity service claim
+953Z.00	Maternity services claim NOS
+L121000	Renal hypertension in pregnancy/childbirth/puerp unspecified
+L244z12	Rectocele in pregnancy, childbirth or the puerperium NOS
+13S2.00	Maternity allowance
+L18D.00	Dis nervous syst complic pregnancy,childbirth and puerperium
+L450.00	Obstetric nipple infection
+L180z00	Diabetes mellitus in pregnancy/childbirth/puerperium NOS
+Q007C00	Fetus/neonate affected-plac./breast transfer addictive drug
+Q042.00	Fet newborn affect mat exposure to environml chem subs
+Qyu5.00	[X]Haemorrhagic+haematolog disorders of fetus and newborn
+L415.00	Other phlebitis and thrombosis in pregnancy and puerperium
+Z264.00	Condition of amniotic fluid
+L415300	Other phlebitis/thrombosis in preg/puerperium + a/n comp
+Q45z.00	Fetal or newborn blood disorder NOS
+Z264.11	Condition of amniotic liquor
+Q0z..00	Maternal problem unrelated preg affecting fetus/neonate NOS
+L122.00	Other pre-existing hypertension in preg/childbirth/puerp
+Qyu5200	[X]Oth intracranial(nontraumatic)haemorrhages/fetus+newborn
+Q023011	Fetus/neonate affected by feto-fetal transplacental transfus
+ZL33200	Under care of hospital-based midwife
+9k9..00	Intra partum care - enhanced services administration
+9k90.00	Intra partum care - enhanced service completed
+PK83.00	Fetus and newborn affected by maternal use of alcohol
+L46z000	Disorder of lactation NOS, unspecified
+Qyu0C00	[X]Fetus+newborn affected/other maternal noxious influences
+Q04X.00	Fetus+newborn affected/other maternal noxious influences
+L463z00	Other breast disorder in pregnancy/puerperium/lactation NOS
+L180000	Diabetes mellitus - unspec whether in pregnancy/puerperium
+Q01..00	Fetus/neonate affected by maternal complication of pregnancy
+L43..11	Obstetric pulmonary embolus
+Q1...00	Disorders due to slow fetal growth, low and high birthweight
+Q454000	Polycythaemia due to donor twin transfusion
+Q00..00	Fetus or neonate affected by maternal medical problems
+Lyu7.00	[X]Other obstetric conditions, not elsewhere classified
+L466300	Galactorrhoea in pregnancy/puerperium with a/n complication
+L169000	Herpes gestationis unspecified
+Z262P11	Placenta normal
+L18zz00	Medical condition NOS in pregnancy/childb/puerp NOS
+952..00	FP24A maternity claim status
+L460.00	Retracted nipple in pregnancy, the puerperium or lactation
+Q402100	Congenital listeriosis
+Q023100	Fetus/neonate affected by feto-maternal transplacental trans
+L24zz00	Pelvic soft tissue abnormality in preg/childb/puerp NOS
+L450000	Obstetric nipple infection unspecified
+L411000	VV's of perineum/vulva in pregnancy/puerperium unspecified
+Q007A00	Fetus/neonate affect-plac./breast transf hypoglycaemic agent
+6734.00	Counselled by a midwife
+L248.00	Congenital/acquired abnormality vulva in preg/childb/puerp
+L241z00	Uterine body tumour in pregnancy/childbirth/puerperium NOS
+Q007800	Fetus/neonate affected-plac./breast transfer chemotherapy
+L248z00	Vulval abnormality in pregnancy/childbirth/puerperium NOS
+Q016.00	Fetus or neonate affected by maternal death
+Q007100	Fetus/neonate affected by placental/breast transfer alcohol
+Q02z.00	Fetus/neonate affected by abnormalities chorion/amnion NOS
+Q41z.00	Haemorrhage of fetus and newborn NOS
+Q01z.00	Fetus/neonate affected by maternal complic pregnancy NOS
+Q007w00	Fetus/neonate affected-placenta/breast transfer medicine NEC
+L176.00	Other maternal viral dis. in pregnancy/childbirth/puerperium
+L460000	Retracted nipple in pregnancy/puerperium/lactation unspec
+67A8.00	Maternity grant advice
+L41z.00	Venous complications of pregnancy and puerperium NOS
+67AA.00	Maternity milk/vits advice
+Q001.00	Fetus or neonate affected by maternal renal/urinary disease
+Q015200	Fetus or neonate affected by triplet pregnancy
+L188z00	Abnormal GTT in pregnancy/childbirth/puerperium NOS
+L43z.00	Obstetric pulmonary embolism NOS
+L122000	Other pre-existing hypertension in preg/childb/puerp unspec
+L261000	Rhesus isoimmunisation unspecified
+L188000	Abnormal GTT - unspec whether during pregnancy/puerperium
+L46y000	Other disorder of lactation unspecified
+L463300	Other breast disorder in pregnancy/puerperium/lact +a/n comp
+L247z00	Vaginal abnormality in pregnancy/childbirth/puerperium NOS
+Q00z.00	Fetus or neonate affected by maternal medical problem NOS
+L175z00	Maternal rubella in pregnancy/childbirth/puerperium NOS
+Qyu5F00	[X]Intracranial nontraumatic haemorrhage fetus newborn unsp
+L172000	Other maternal venereal disease, unspec pregnancy/puerperium
+L248.11	Persistent hymen in pregnancy, childbirth and the puerperium
+Z262B00	Lesion of placenta
+L416z00	Haemorrhoids in pregnancy and the puerperium NOS
+L185000	Congenital cardiovasc dis - unsp whether in preg/puerperium
+L240z00	Congenital abnormality uterus in pregnancy/childb/puerp NOS
+Lyu1.00	[X]Oedema,proteinuria+hypertens in pregnancy,childbrth,puerp
+L121.00	Renal hypertension in pregnancy/childbirth/puerperium
+Q007400	Fetus/neonate affected-placental/breast transfer anti-infect
+13S3.00	Maternity pay
+L356.11	Obstetric pelvic joint damage
+L175000	Maternal rubella, unspecified whether pregnancy/puerperium
+L121z00	Renal hypertension in pregnancy/childbirth/puerperium NOS
+Q41y.00	Other fetal and newborn haemorrhage
+Z265400	Umbilical cord thick
+Z238200	Uterus relaxed
+Q026400	Fetus or neonate affected by vasa praevia of cord
+L183z00	Drug dependence during pregnancy/childbirth/puerperium NOS
+L170000	Maternal syphilis, unspec whether in pregnancy or puerperium
+Q007300	Fetus/neonate affected-placenta/breast transfer hallucinogen
+Q027100	Fetus or neonate affected by amnionitis
+L246z00	Other cervical abnormality in pregnancy/childbirth/puerp NOS
+Lyu7400	[X]Oth spcf dis+conditns complicat preg,childbirth+puerperum
+L461000	Cracked nipple in pregnancy/puerperium/lactation unspecified
+Q007600	Fetus/neonate affected-plac./breast transfer anticonvulsant
+67A9.00	Maternity benefit advice
+L17yz00	Other mat.infective/parasitic dis in preg/childb/puerp NOS
+L17y.00	Other mat.infective/parasitic disease in preg/childb/puerp.
+63C5.00	Maternal tobacco abuse
+L248000	Vulval abnormality affecting obstetric care
+L43zz00	Obstetric pulmonary embolism NOS
+L410000	Varicose veins of legs in pregnancy/puerperium unspecified
+L173.00	Maternal tuberculosis in pregnancy/childbirth/puerperium
+L460z00	Retracted nipple in pregnancy/puerperium/lactation NOS
+L460300	Retracted nipple in pregnancy/puerperium/lact with a/n comp
+L187000	Orthopaedic disorder - unsp whether in pregnancy/puerperium
+Q007.00	Fetus/neonate affected by poison transferred placenta/breast
+L415000	Other phlebitis/thrombosis in pregnancy/puerperium unsp
+Z262H00	Placenta calcified
+L462300	Breast engorgement in pregnancy/puerperium/lact + a/n comp
+L246z12	Stenosis of cervix in pregnancy/childbirth/puerperium NOS
+L43z000	Obstetric pulmonary embolism NOS, unspecified
+Q027z00	Fetus or neonate affected by chorioamnionitis
+67AF.00	Pregnancy advice for patients with epilepsy
+L416300	Haemorrhoids in pregnancy and puerperium with a/n comp
+L248z11	Persistent hymen in pregnancy/childbirth/puerperium NOS
+L45yz00	Other obstetric breast infection NOS
+Qyu0B00	[X]Fetus and newborn affected by other maternal medication
+63C6.11	Maternal drug misuse
+L179.00	HIV disease complicating pregnancy childbirth puerperium
+Ly2..00	Sequelae of complication pregnancy childbirth and puerperium
+Q007500	Fetus/neonate affected-placental/breast transfer immune sera
+L41yz00	Other venous complication of pregnancy and puerperium NOS
+Q027.00	Fetus or neonate affected by chorioamnionitis
+Q007B00	Fetus/neonate affected-plac./breast transfer endocrine agent
+Q457100	Maternal transfer neutropenia
+Qyu5400	[X]Other specified fetal and neonatal haemorrhages
+Q44X.00	Trans disorder carbohydrate metab of fet and newborn unsp
+Qyu0200	[X]Fetus and newborn affected by other maternal conditions
+Q007x00	Fetus/neonate affected - placental/breast transfer toxic NEC
+L170z00	Maternal syphilis in pregnancy/childbirth/puerperium NOS
+Lyu6900	[X]Other and unspecified disorders of lactation
+Q402311	Congenital hydrocephalus due to toxoplasmosis
+Qyu0.00	[X]Fetus/newborn affected by maternal factors+complications
+Qyu0700	[X]Fetus+newborn affectd/oth+unspcfd conditns/umbilical cord
+L390z00	Maternal distress NOS
+L43yz00	Other obstetric pulmonary embolism NOS
+L43y.11	Fat embolism - obstetric
+L181000	Thyroid dysfunction - unspec whether in pregnancy/puerperium
+Lyu7100	[X]Other viral diseases complicating preg,cldbirth+puerperum
+9mL0.00	Postnatal examination third invitation
+Kyu9H00	[X]Other complicatns associated wth artificial fertilization
+Kyu9P00	[X]Complication assoc with artific fertilization, unspecif
+L171000	Maternal gonorrhoea, unspec whether in pregnancy/puerperium
+L171z00	Maternal gonorrhoea in pregnancy/childbirth/puerperium NOS
+L172z00	Other mat. venereal dis. in pregnancy/childbirth/puerp. NOS
+7E0J.00	Other introduction of gamete into uterine cavity
+7E24211	Endoscopic oocyte recovery NEC
+L28y.12	Amniotic cyst
+Q023z00	Fetus/neonate affected by placental transfusion syndrome NOS
+L390000	Maternal distress unspecified
+L461300	Cracked nipple in pregnancy/puerperium/lactation + a/n comp
+L412300	Superficial thrombophlebitis in preg/puerperium + a/n comp
+L17z000	Mat infect/parasitic dis NOS - pregnancy/puerperium unspec
+Q02y.00	Fetus/neonate affected other abnormalities of chorion/amnion

@@ -1,0 +1,1446 @@
+62...00	Patient pregnant
+62...11	Antenatal care
+L281.00	Premature rupture of membranes
+8HT9.00	Referral to antenatal clinic
+L116.00	Placenta praevia
+L124.12	Toxaemia NOS
+L100.00	Threatened abortion
+L210.00	Twin pregnancy
+L264.00	Intrauterine death
+L224.00	Transverse presentation
+L182500	Iron deficiency anaemia of pregnancy
+7F06012	Shirodkar suture in pregnancy
+7F05111	Amniocentesis NEC
+62G..00	Antenatal ultrasound scan
+8M6..00	Requests pregnancy termination
+584Z.00	U-S obstetric diagn. scan NOS
+2751.00	O/E - no fetal movements
+L222.00	Breech presentation
+L166.11	Cystitis of pregnancy
+L1...00	Pregnancy complications
+L180900	Gestational diabetes mellitus
+L11..11	Antepartum haemorrhage
+L175.11	Rubella contact in pregnancy
+L14..11	Premature labour
+L166500	Infections of kidney in pregnancy
+4654.00	Urine pregnancy test positive
+L16y500	Abdominal pain in pregnancy
+7F05300	Sampling of chorionic villus NEC
+L13..11	Hyperemesis gravidarum
+L126300	Eclampsia - not delivered
+L12z300	Unspecified hypertension in preg/childb/puerp - not deliv
+62N1.00	A/N booking examination
+L10..00	Haemorrhage in early pregnancy
+628..00	A/N care: risk NOS
+6313.00	Consultant unit birth
+4H12.00	Amniotic fluid - nil abnormal
+621..11	Pregnancy confirmed
+Q10z.11	Intrauterine growth retardation
+L112.11	Ablatio placentae
+5842.00	U-S obstetric scan normal
+13H7.00	Unwanted pregnancy
+L16A.00	Glycosuria during pregnancy
+62...13	Pregnancy care
+L130.11	Morning sickness
+9N1N.00	Seen in antenatal clinic
+ZV22.00	[V]Normal pregnancy
+954..00	Mat B1 - cert of expected conf
+ZV28.00	[V]Antenatal screening
+ZV23800	[V]Supervision of high-risk pregnancy due to social problems
+L166800	Urinary tract infection complicating pregnancy
+Q000.11	Fetus affected by maternal toxaemia
+621C.00	Unplanned pregnancy
+ZV28300	[V]Screening for malformations using ultrasonics
+276..00	O/E - fetal heart heard
+Z212.00	Antenatal care
+9594.00	GMS2 claim sent to HA
+9591.00	GMS2 claim signed by patient
+L112.00	Placental abruption
+8H7W.00	Refer to TOP counselling
+L264.11	Fetal death in utero
+L180811	Gestational diabetes mellitus
+L124600	Pre-eclampsia, unspecified
+L250.13	Suspect fetal spina bifida
+8E96.00	Ante-natal exercises
+L125.00	Severe pre-eclampsia
+584..11	Fetal U-S scan
+6776.12	TOP counselling
+L231.00	Generally contracted pelvis
+6776.11	Abortion counselling
+L10y.11	Bleeding in early pregnancy
+L124.00	Mild or unspecified pre-eclampsia
+584A.00	Dating/booking US scan
+7F25000	Fetal heart monitoring NEC
+L265311	Maternal care for intrauterine growth retardation
+623..00	A/N care: obstetric risk
+7F25.12	Foetal monitoring
+Z22A400	Early stage of pregnancy
+Z212.11	Pregnancy care
+62N..00	Antenatal examinations
+Z23D200	Pregnant abdomen observation
+67A3.00	Pregnancy smoking advice
+L13..00	Excessive pregnancy vomiting
+Z271.11	CTG observations
+L2...00	Risk factors in pregnancy
+L180800	Diabetes mellitus arising in pregnancy
+Z22C314	Weeks pregnant
+8B74.00	Iron supplement in pregnancy
+271..12	O/E - uterus size - obstetric
+L270.00	Polyhydramnios
+Z226.00	Pregnancy problem
+L13z.00	Unspecified pregnancy vomiting
+8HHV.00	Referral for termination of pregnancy
+L268000	Reduced fetal movements
+L126.00	Eclampsia
+L263900	Maternal care for fetal tachycardia during pregnancy
+62H..00	A/N Rh antibody screen
+L161.11	Excessive weight gain in pregnancy
+7F25.00	Obstetric monitoring
+7F2B100	Ultrasound monitoring of early pregnancy
+Z227.00	Confirmation of pregnancy
+62B..00	Delivery booking place
+62BZ.00	Delivery booking - place NOS
+621..00	Patient currently pregnant
+62N3.00	A/N 16 week examination
+62N2.00	A/N 12 weeks examination
+62NZ.00	Antenatal examination NOS
+62N5.00	A/N 24 week examination
+62N9.00	A/N 34 week examination
+62N8.00	A/N 32 week examination
+L263.00	Fetal distress - affecting management
+2722.00	O/E - breech presentation
+2721.00	O/E - vertex presentation
+Q42X.00	Hydrops fetalis due to other+unspcfd haemolytic disease
+Q408500	Group B haemolytic streptococcal intra-amniotic infect. NEC
+625..00	A/N care: social risk
+277..00	O/E - VE for pelvic assessment
+271..11	O/E - fundus size - obstetric
+62U..00	Downs screen - blood test
+62A4.00	A/N care midwifery led
+62M..00	Antenatal sickle cell screen
+62K..00	Antenatal syphilis screen
+62W..00	Antenatal blood tests
+62L..00	Antenatal blood group screen
+8HHf.00	Refer to early pregnancy unit
+62F..00	Antenatal amniocentesis
+7F05100	Diagnostic amniocentesis
+62F6.00	A/N amniocentesis - normal
+62F7.00	A/N amniocentesis - abnormal
+584..13	Ultra-sound scan - obstetric
+584D.00	Antenatal ultrasound confirms intra-uterine pregnancy
+584G.00	Nuchal scan
+62GZ.00	Antenatal ultrasound scan NOS
+62GC.00	Antenatal ultrasound scan at 9-16 weeks
+62GB.00	Antenatal ultrasounds scan at 4-8 weeks
+62G8.00	A/N U/S scan abnormal
+4H...00	Amniotic fluid examination
+4JL3.11	Amniotic fluid for C/S
+L166z11	UTI - urinary tract infection in pregnancy
+13H8.00	Illegitimate pregnancy
+L23..00	Cephalo-pelvic disproportion
+L11..00	Antepartum haemorrhage, abruptio placentae, placenta praevia
+6217.00	Pregnant - unplanned - wanted
+L124.11	Mild pre-eclampsia
+621B.00	Pregnant - ? planned
+621Z.00	Patient pregnant NOS
+L10z.00	Early pregnancy haemorrhage NOS
+6174.00	Pregnant, sheath failure
+ZV61900	[V]Other unwanted pregnancy
+L13..12	Hyperemesis of pregnancy
+8B7..11	Pregnancy vitamin/iron prophyl
+6214.00	Pregnant - on history
+621A.00	Pregnancy unplanned ? wanted
+L166300	Genitourinary tract infection in pregnancy - not delivered
+L21..00	Multiple pregnancy
+L27..11	Hydramnios
+6218.00	Pregnant -unplanned-not wanted
+7F06300	External version of breech
+L166z00	Genitourinary tract infection in pregnancy NOS
+L130.00	Mild hyperemesis gravidarum
+L2A..00	Abnormal findings on antenatal screening of mother
+6211.00	Pregnant - urine test confirms
+L414.12	Phlegmasia alba dolens - obstetric
+L294.00	Grand multiparity
+ZV22300	[V]Pregnant state, incidental
+584C.00	Antenatal ultrasound result received
+6221.00	Antenatal care: primigravida
+L16E.00	Pregnancy pruritus
+L33..00	Umbilical cord complications
+L124500	Mild pre-eclampsia
+7F00000	Fetoscopic blood transfusion of fetus
+L21..11	Gestation - multiple
+2724.00	O/E - transverse lie
+6776.13	Termination counselling
+L111.00	Placenta praevia with haemorrhage
+L16B.00	Braxton-Hicks contractions
+L129.00	Moderate pre-eclampsia
+62a..00	Pregnancy review
+957..00	FW 8-applic for presc exempt
+L167.00	Liver disorder in pregnancy
+Z22D100	Viable pregnancy
+62b..00	Antenatal HIV screening
+62X..00	Length of gestation
+62E..11	Feeding intention -baby
+Z265.00	Umbilical cord observations
+L267.00	Other placental conditions
+Z271200	Normal CTG tracing
+614C.00	Progestogen-only Pill failure
+614B.00	Combined O.C. pill failure
+Q10z.00	Fetal growth retardation NOS
+62O1.00	Fetal movements felt
+62O6.00	Vaginal 'show'
+7F25.11	Fetal monitoring
+62F3.00	A/N amniocentesis - not wanted
+584..00	Ultrasound in obstetric diagn.
+62O..12	Static weight gain pregnancy
+L211.00	Triplet pregnancy
+6216.00	Pregnant - planned
+279..00	O/E - VE - cervical dilatation
+L130000	Mild hyperemesis unspecified
+L241311	Uterine fibroid complicating a/n care, baby not delivered
+L123.00	Transient hypertension of pregnancy
+2734.11	O/E - ROP
+539..00	Abdominal obstetric X-ray
+ZV4J000	[V]Problems related to unwanted pregnancy
+7F0..11	Fetus operations
+7N61300	[SO]Placenta
+L14..00	Early or threatened labour
+L241011	Uterine fibroid affecting obstetric care
+L244011	Cystocele affecting obstetric care
+6776.00	Preg. termination counselling
+L182300	Anaemia during pregnancy - baby not yet delivered
+ZV23.00	[V]High-risk pregnancy supervision
+2725.11	O/E - triplet present.
+L2A5.00	Abnormal chromosomal and genet find/antenat screen of mother
+27B..00	O/E - viable fetus
+L123500	Gestational hypertension
+622..00	Antenatal care: gravida No.
+L510.00	Maternal care for hydrops fetalis
+L245.00	Cervical incompetence
+62I..11	AFP test - antenatal
+62E3.11	Intends to breast feed
+Q100.00	Fetus small-for-dates, without mention of malnutrition
+957..11	Prescription exempt form-preg
+Z229100	Intrauterine pregnancy
+Z22A200	High risk pregnancy
+Z22C300	Length of gestation
+Z6U4.00	Breathing awareness for childbirth
+L221.00	Cephalic version NOS
+Z22B100	Single pregnancy
+L243.00	Retroverted incarcerated gravid uterus
+L11y.00	Other antepartum haemorrhage
+275..00	O/E - fetal movements
+62B3.00	G.P. unit delivery booking
+62B2.00	Home delivery booked
+6231.00	A/N care: uncertain dates
+539Z.00	Abdominal obstetric X-ray NOS
+L261.11	Anti-D antibodies
+4444.00	Serum oestriol level
+L140.11	False labour
+6312.00	GP unit birth
+L162.11	Albuminuria in pregnancy without hypertension
+L295.00	Elderly primigravida
+L150.00	Post-term pregnancy
+L28y.13	Amniotic fluid leaking
+615C.00	IUD failure - pregnant
+L2z..00	Risk factors in pregnancy NOS
+L265.00	Small-for-dates fetus in pregnancy
+L141.00	Other threatened labour
+L25..00	Known or suspected fetal abnormality
+L22..00	Malposition and malpresentation of fetus
+L413.00	Antenatal deep vein thrombosis
+L266.00	Large-for-dates fetus in pregnancy
+ZV22y00	[V]Other specified pregnant state
+PK80.00	Fetal alcohol syndrome
+L15..11	Post-term pregnancy
+2684.00	O/E - VE - gravid uterus
+13S..00	Pregnancy benefits
+62O7.00	Pregnancy prolonged - 41 weeks
+L110.00	Placenta praevia without haemorrhage
+2723.00	O/E - oblique lie
+L15..00	Prolonged or post-term pregnancy
+62A1.00	A/N care from G.P.
+62A..00	A/N care provider
+62AZ.00	A/N care provider NOS
+7N61400	[SO]Amniotic membrane
+Z22AE00	Baby overdue
+Z271G11	Type 1 dip
+L10y.00	Other haemorrhage in early pregnancy
+7F04200	Percutaneous sampling of chorionic villus
+2754.00	O/E - fetus very active
+Z265200	Umbilical cord problem
+Z234200	Gravid uterus small-for-dates
+L163300	Pregnancy care of habitual aborter
+Z23AP00	Premature uterine contraction
+Z262R00	Placenta problem
+Z22AD11	Reported conception - pregnancy
+2753.00	O/E - fetal movements felt
+2725.12	O/E - twin presentation
+9Ea2.00	Less 24 wk involv risk injury physic/mentl health preg woman
+62O6.11	Vaginal 'show' - A/N
+Z234100	Gravid uterus large-for-dates
+62I..12	Alpha-feto protein test - A/N
+Z22A100	Low risk pregnancy
+Z212300	Delivery place booked
+9511.00	FP24 signed by patient
+L100z00	Threatened abortion NOS
+9592.00	GMS2 claim completed by Dr.
+9514.00	FP24 sent to FPC
+Z27..00	Obstetric investigative observation
+L16yz00	Other pregnancy complication NOS
+Z234400	Fundal height high for dates
+L284.12	Chorioamnionitis
+L263A00	Maternal care for fetal bradycardia during pregnancy
+Z22AC00	Pregnancy with uncertain dates
+L18A000	Cholestasis of pregnancy
+9542.00	Mat B1 signed
+62B1.00	Delivery: no place booked
+62A2.00	A/N care from consultant
+62NE.00	A/N 39 week examination
+62NC.00	A/N 37 week examination
+62ND.00	A/N 38 week examination
+62N6.00	A/N 28 week examination
+62X0.00	Gestation <24 weeks
+62X2.00	Gestation >24 weeks
+623Z.00	A/N care: obstetric risk NOS
+6235.00	A/N care: H/O perinatal death
+6236.00	A/N care: poor obstetr history
+626..00	A/N care: medical risk
+6251.00	A/N care: poor home conditions
+625Z.00	A/N care: social risk NOS
+6253.00	A/N care: late booker
+2717.00	O/E - fundus 34-36 week size
+2713.00	O/E - fundus 20-24 week size
+2711.00	O/E - fundus 12-16 week size
+2718.00	O/E - fundus 36-38 week size
+2766.00	O/E - fetal heart 120-160
+271B.00	O/E - fundal size = dates
+2714.00	O/E - fundus 24-28 week size
+272..00	O/E - fetal presentation
+ZV23400	[V]Pregnancy with other poor obstetric history
+L2y..00	Other specified risk factors in pregnancy
+L413.11	DVT - deep venous thrombosis, antenatal
+6232.00	A/N care: recurrent aborter
+5841.00	U-S obstetric scan requested
+62GD.00	Antenatal ultrasound scan at 17-22 weeks
+62G9.00	A/N U/S scan for ? abnormality
+4H5..00	Amniotic fluid AFP
+4443.11	HPL - Human placental lactogen level
+444..00	Feto/placental hormones
+7F06z00	Operation on gravid uterus NOS
+L166000	Genitourinary tract infection in pregnancy unspecified
+62U..12	Triple test
+L255300	Maternal care for (suspected) damage to fetus from alcohol
+L16..00	Other pregnancy complication NEC
+L124300	Mild or unspecified pre-eclampsia - not delivered
+2755.00	O/E - fetal movemnt.diminished
+L13y.00	Other pregnancy vomiting
+2761.00	O/E - fetal heart not heard
+62V..00	Delivery place planned
+L166700	Infections of the genital tract in pregnancy
+62V0.00	Home delivery planned
+Z22A300	Concealed pregnancy
+L161.00	Oedema or excessive weight gain in pregnancy no hypertension
+L11..12	Antepartum bleeding
+L130z00	Mild hyperemesis gravidarum NOS
+7F06200	Repositioning of retroverted gravid uterus
+L2A3.00	Abnormal ultrasonic finding on antenatal screening of mother
+62c..00	Antenatal screening
+Z242.00	Labour not established
+L140.00	Threatened premature labour
+L237.00	Other fetal abnormality causing disproportion
+7F27300	Nuchal translucency scan
+62A3.00	A/N - shared care
+7F25z00	Obstetric monitoring NOS
+4453.00	Serum pregnancy test positive
+62NF.00	A/N 40 week examination
+62N4.00	A/N 20 week examination
+L370.11	Placenta accreta without haemorrhage
+L161.13	Gestational oedema
+6223.00	Antenatal care: 3rd pregnancy
+62NB.00	A/N 36 week examination
+L11z.00	Antepartum haemorrhage NOS
+62H4.00	Rh screen - 2nd preg. sample
+62N7.00	A/N 30 week examination
+6222.00	Antenatal care: 2nd pregnancy
+5843.00	U-S obstetric scan abnormal
+615C.11	Pregnant, IUD failure
+62NA.00	A/N 35 week examination
+8B75.00	Vitamin supplement - pregnancy
+L416600	Haemorrhoids in pregnancy
+2725.00	O/E - multiple presentation
+7F06011	McDonald cerclage of cervix
+9562.00	HSA1- form signed
+7F...12	Pregnancy operations
+Z22AA00	Wanted pregnancy
+L244312	Rectocele complicating antenatal care - baby not delivered
+2736.11	O/E - RSA
+Z22AB00	Unplanned pregnancy
+L251.00	Fetus with chromosomal abnormality
+956..00	HSA1-therap. abort. green form
+62B8.00	Midwife unit delivery booking
+6233.00	A/N care: grand multip
+277Z.00	O/E - VE-pelvic assessment NOS
+62OZ.00	Misc. antenatal data NOS
+2715.00	O/E - fundus 28-32 week size
+2716.00	O/E - fundus 32-34 week size
+271..00	O/E - gravid uterus size
+6212.00	Pregnant - blood test confirms
+62G4.00	A/N U/S scan wanted
+7N61200	[SO]Fetus
+L227.00	High head at term
+7F03100	Percutaneous insertion of fetal pleuroamniotic shunt
+Z234500	Fundal height equal to dates
+L165.00	Asymptomatic bacteriuria in pregnancy
+L265000	Small-for-dates unspecified
+6283.00	A/N care: primip. < 17 years
+627..00	A/N care: gynae. risk
+6294.00	No A/N care: not known preg.
+6224.00	Antenatal care: multip
+L280.00	Oligohydramnios
+L130200	Mild hyperemesis-not delivered
+278..00	O/E - VE - cervix ripeness
+955..00	Mat B2 - cert of confinement
+L267500	Other fetal problems
+Z212200	Home delivery planned
+Z22AD00	Presentation of pregnancy
+Z263400	Blood clots in membranes
+Z28..00	Obstetric pelvic observation
+6166.00	Pregnant, diaphragm failure
+62B5.00	Private home delivery booking
+62C1.00	Short stay delivery booking
+6285.00	A/N care: multip. > 35 years
+6254.00	A/N care: H/O child abuse
+L512.00	Maternal care for diminished fetal movements
+62F1.00	A/N amniocentesis -not offered
+L12A.00	HELLP - Syndrome haemolysis, elev liver enzyme low platelets
+Z262C00	Retroplacental clot
+L0A4.00	Failed medical abortion, without complication
+7F2..00	Other obstetric operations
+L280z00	Oligohydramnios NOS
+7Fz..00	Obstetric operations NOS
+L12B.00	Proteinuric hypertension of pregnancy
+L240011	Bicornuate uterus affecting obstetric care
+L392.00	Maternal hypotension syndrome
+L16C000	Gestational proteinuria
+62X1.00	Gestation = 24 weeks
+62X3.00	Full term gestation - 40 weeks
+62U9.00	Downs screen blood test normal
+8HV6.00	Private referral to obstetrician
+L22..11	Malpresentation of fetus
+Q10..00	Slow fetal growth and fetal malnutrition
+L212.00	Quadruplet pregnancy
+Z23A100	Intermittent uterine contractions
+Z23AO00	Irritable uterus
+Z225.00	Normal pregnancy
+Z271912	FHRV - Fetal heart rate variability
+679E.00	Antenatal education
+4H...11	Liquor examination
+624..00	A/N care: precious pregnancy
+6241.00	A/N care: elderly primip.
+6234.00	A/N care: H/O stillbirth
+6281.00	A/N care: under 5ft tall
+6284.00	A/N care: primip. > 30 years
+624Z.00	A/N care: precious preg. NOS
+584..12	U-S scan - obstetric, diagn.
+6213.00	Pregnant - V.E. confirms
+L123z00	Transient hypertension of pregnancy NOS
+Q423.00	Hydrops fetalis due to isoimmunisation
+L100000	Threatened abortion unspecified
+62G6.00	A/N U/S scan normal += dates
+L15z.00	Prolonged pregnancy NOS
+67A5.00	Pregnancy alcohol advice
+ZV22200	[V]Pregnancy confirmed
+939..00	Kick chart
+7F06000	Cerclage of cervix of gravid uterus
+3188.00	Placental localisation
+L16z.00	Pregnancy complication NOS
+L268.00	Other fetal problems
+2743.00	O/E - partial engagement - 3/5
+L220z00	Unstable lie NOS
+L2A1.00	Abnormal biochemical finding on antenatal screen of mother
+67A4.00	Pregnancy exercise advice
+62U..11	Barts test
+938..00	Obstetric coop card
+Z23A700	Niggling uterine contractions
+L16C.00	Pregnancy induced oedema+proteinuria without hypertension
+L167z00	Liver disorder in pregnancy NOS
+ZV28000	[V]Amniocentesis to screen for chromosomal anomalies
+62F4.00	A/N amniocentesis wanted
+62E4.11	Intends to bottle feed
+Z245100	Maternal blood loss minimal
+L265300	Maternal care for poor fetal growth
+Q21..11	Intrauterine hypoxia
+Z239200	Uterine contractions absent
+Q100.11	Fetus small-for-dates (SFD), without mention of malnutrition
+61H1.00	Female sterilisation failure
+62NG.00	A/N 41 week examination
+Z23D100	Girth of pregnant abdomen
+Z234600	Fundal height low for dates
+628Z.00	A/N risk NOS
+6242.00	A/N care: H/O infertility
+6282.00	A/N care:10yrs+since last preg
+271A.00	O/E - fundus = term size
+2719.00	O/E -fundus 38 weeks-term size
+2712.00	O/E - fundus 16-20 week size
+L304.00	Persistent occipitoposterior or occipitoanterior position
+274..12	O/E - presenting part engaged
+584B.00	Viability US scan
+L150z00	Post-term pregnancy NOS
+272..11	O/E - lie of fetus
+L16C100	Gestational oedema with proteinuria
+62G2.00	A/N U/S scan offered
+62G7.00	A/N U/S scan normal +? dates
+62G1.00	A/N U/S scan not offered
+4H13.00	Amniotic fluid - abnormality
+Lyu2500	[X]Other specified pregnancy-related conditions
+8B68.00	Pregnancy prophylactic therapy
+Z22B900	Continuing pregnancy after abortion of sibling fetus
+13Hd.00	Teenage pregnancy
+Z22A.00	Observation of pattern of pregnancy
+62O3.00	Fetal maturity: dates = size
+L264z00	Intrauterine death NOS
+L11zz00	Antepartum haemorrhage NOS
+L2AX.00	Abnormal finding on antenatal screening of mother
+Z22CF00	Date symptom of pregnancy first noted
+6237.00	A/N care: H/O trophoblast.dis.
+L162.12	Nephropathy NOS in pregnancy without hypertension
+ZV22000	[V]First normal pregnancy supervision
+62UA.00	Downs screen blood test abnormal
+67A7.00	Pregnancy dental advice
+L250.11	Suspect fetal anencephaly
+5844.11	Placenta U-S scan
+Lyu2200	[X]Other venous complications in pregnancy
+L265.11	Placental insufficiency
+L33z.00	Umbilical cord complications NOS
+Z271D00	Normal fetal heart baseline pattern
+L160.00	Papyraceous fetus
+L123600	Transient hypertension of pregnancy
+7F...00	Obstetric operations
+Z221.11	Primip
+L126500	Eclampsia in pregnancy
+62L2.00	A/N blood group screen done
+62Uz.00	Downs screening blood test NOS
+63D4.00	Placental infarct
+5858200	Ultrasonic doppler for fetal heart sounds
+4HZ..00	Amniotic fluid exam. NOS
+Q408400	Group A haemolytic streptococcal intra-amniotic infect. NEC
+L385.00	Failed or difficult intubation during pregnancy
+L08..00	Failed attempted abortion
+62GE.00	Antenatal ultrasound scan at 22-40 weeks
+62O..11	Fetal maturity - A/N
+L33zz00	Umbilical cord complications NOS
+L234.00	Mixed feto-pelvic disproportion
+Q420.11	Erythroblastosis fetalis
+444Z.00	Feto/placental hormones NOS
+4442.00	Feto/placen. hormones normal
+L2D..00	Retained intrauterine contraceptive device in pregnancy
+ZV28y00	[V]Other specified antenatal screening
+Z22A600	Teenage pregnancy
+L223.00	Oblique presentation
+Z28..11	Pelvic assessment - childbirth
+L125000	Severe pre-eclampsia unspecified
+7F06100	Removal of cerclage from cervix of gravid uterus
+L125z00	Severe pre-eclampsia NOS
+Z265C00	Number of umbilical veins
+Z22B800	Undiagnosed multiple pregnancy
+61B6.00	Depot contraceptive failure
+Q020.00	Fetus or neonate affected by placenta previa
+4H51.00	Amniotic fluid AFP normal
+L192.00	Continuing preg after intrauterine death one fetus or more
+Z22A700	Surrogate pregnancy
+Z246B00	Estimated maternal blood loss
+L08z.00	Failed attempted abortion NOS
+L10zz00	Early pregnancy haemorrhage NOS
+9531.00	Complete mat. services claimed
+62B6.00	Delivery booking place changed
+L13y000	Other pregnancy vomiting unspecified
+L210z00	Twin pregnancy NOS
+L112200	Placental abruption - not delivered
+L13yz00	Other pregnancy vomiting NOS
+Z23A200	Occasional uterine tightenings
+L240000	Congenital abnormality of uterus affecting obstetric care
+5849.00	U-S scan - fetal presentation
+5848.00	U-S scan - multiple fetus
+Z23A400	Irregular uterine contractions
+62F5.00	A/N amniocentesis - awaited
+L171300	Maternal gonorrhoea in pregnancy - baby not yet delivered
+L16y.00	Other pregnancy complications
+5846.00	U-S scan - fetal maturity
+L140z00	Threatened premature labour NOS
+L2A0.00	Abnormal haematologic find on antenatal screening of mother
+Q021100	Fetus or neonate affected by abruptio placentae
+62KZ.00	Antenatal syphilis screen NOS
+Z22..00	Pregnancy observations
+Q021011	Fetus affected by APH - antepartum haemorrhage
+L16D.00	Excessive weight gain in pregnancy
+67A2.00	Diet in pregnancy advice
+L336.00	Vascular lesions of cord
+ZV61800	[V]Illegitimate pregnancy
+ZV28400	[V]Screening for fetal growth retardation using ultrasonics
+2742.00	O/E - presenting part free-4/5
+2745.00	O/E - presentation engaged-1/5
+2744.00	O/E - partial engagement - 2/5
+2741.00	O/E - presenting part free-5/5
+L127.00	Pre-eclampsia or eclampsia with pre-existing hypertension
+951..11	FP24 - mat claim-on obst.list
+Z22C312	Duration of gestation
+Q470.00	Idiopathic hydrops fetalis
+Z23F.00	Gravid uterus problem
+ZV23111	[V]Pregnancy with history of hydatidiform mole
+Q479.00	Non-immune hydrops fetalis
+5391.00	Obstetric X-ray - fetus
+9Ea4.00	Unborn child at risk physi/ment abnormal serious handicap
+Z271H11	Type 2 dip
+L236.00	Hydrocephalic disproportion
+L250.00	Fetus with central nervous system malformation
+62O8.00	Pregnancy prolonged - 42 weeks
+7F05200	Amnioscopy
+L191.00	Continuing pregnancy after abortion of one fetus or more
+L263200	Fetal distress with antenatal problem
+7F06111	Removal of Shirodkar suture
+62O..00	Misc. antenatal data
+62Y..00	Routine antenatal care
+62E3.00	Feeding intention - breast
+L263A11	Maternal care for reduced fetal heart rate during pregnancy
+Lyu3900	[X]Maternal care/oth spcf known or suspected fetal problems
+7F00.00	Therapeutic fetoscopic operations on fetus
+274..11	O/E - PP free - not engaged
+Z22D.00	Observation of viability of pregnancy
+7F24y00	Other specified other obstetric operation
+5847.00	U-S scan - fetal abnormality
+Z22C311	Pregnancy duration
+62U..13	Double test
+61F3.00	Post-coital OCP failure
+ZV22z00	[V]Unspecified pregnant state
+L280300	Anhydramnios
+7F0..00	Fetus and gravid uterus operations
+L222z00	Breech presentation NOS
+L250.12	Suspect fetal hydrocephaly
+7F04100	Percutaneous sampling of fetal blood
+L232.00	Inlet pelvic contraction
+L263700	Maternal care for fetal hypoxia
+Z221.00	Primigravida
+66AX.00	Diabetes: shared care in pregnancy - diabetol and obstet
+Q022200	Fetus or neonate affected by placental insufficiency
+Z262E00	Old retroplacental clot
+Z245300	Maternal blood loss moderate
+Z26..00	Observation of structures of conception
+Z264400	Normal liquor volume
+Z288.00	Problem of pelvis for delivery
+L162.00	Unspecified renal disease in pregnancy
+Z223.00	Primiparous
+7F28000	Placental localisation scan
+62E4.00	Feeding intention - bottle
+L28..00	Other problems of amniotic cavity and membranes
+Z271F00	Fetal heart deceleration
+L220.00	Fetus - unstable lie
+Z264500	Reduced amniotic fluid
+L0A1.00	Failed medical abortion complic by genital tract/pelvic infn
+62G5.00	A/N U/S scan awaited
+Z22A800	Undiagnosed pregnancy
+L177.00	Infections of bladder in pregnancy
+L127000	Pre-eclampsia or eclampsia with hypertension unspecified
+4443000	Human placental lactogen level normal
+Z262J11	Placental infection
+4443100	HPL - Human placental lactogen abnormal
+L280200	Oligohydramnios with antenatal problem
+9521.00	FP24A signed by patient
+67B..00	Ante-natal relaxation classes
+Z22D200	Non-viable pregnancy
+L10z200	Early pregnancy haemorrhage NOS - not delivered
+Z261.00	Observation of gestational sac
+L161.12	Maternal obesity syndrome
+Q410.00	Fetal blood loss
+ZV23100	[V]Pregnancy with history of trophoblastic disease
+L22y.00	Other fetal malposition and malpresentation
+62O4.00	Fetal maturity: dates not=size
+L140100	Threatened premature labour - not delivered
+L113.00	Antepartum haemorrhage with coagulation defect
+L284.11	Amnionitis
+67A7.11	Care of teeth advice -in preg.
+L26..00	Other fetal and placental problems
+L2B..00	Low weight gain in pregnancy
+62O1.11	Quickening
+L228.00	Multiple pregnancy with malpresentation
+Z229.00	Observation of position of pregnancy
+L180300	Diabetes mellitus during pregnancy - baby not yet delivered
+622Z.00	Antenatal care: gravida NOS
+Z237200	Tender scar of gravid uterus
+7Fy..00	Other specified obstetric operations
+Z261100	Gestational sac present
+ZV28600	[V]Antenatal screening for chromosomal anomalies
+ZV23700	[V]Supervision of very young primigravida
+L245.11	Shirodkar suture present
+L0A..00	Failed attempted abortion
+7F01111	Foetoscopic examination foetus and sampling of foetal blood
+L33y.00	Other umbilical cord complications
+Z271600	Reactive CTG tracing
+13SZ.00	Pregnancy benefit NOS
+L131.00	Hyperemesis gravidarum with metabolic disturbance
+9595.00	GMS2 claim paid by HA - checked
+Z265A00	Number of blood vessels in umbilical cord
+Z22A900	Unwanted pregnancy
+Z22A500	Biochemical pregnancy
+7F0y.00	Other specified operations on fetus or gravid uterus
+7F05000	Drainage of amniotic cavity
+7F26000	Dating scan
+Q012.00	Fetus or neonate affected by maternal oligohydramnios
+2733.11	O/E - LOP
+L335.00	Vasa praevia
+L263.12	Fetal bradycardia
+4H45.00	Amniotic fluid cholinesterase
+L0A2.00	Failed medical abortion comp by delayed/excessive haem'ge
+5391.11	Fetus - abdominal X-ray, obst.
+62CZ.00	Delivery booking - stay NOS
+9532.00	Mat booking before 16th week
+L5...00	Maternal care for fetus
+6215.00	Pregnant - on abdom. palpation
+62FZ.00	Antenatal amniocentesis NOS
+629..00	No ante-natal care
+L254.12	Suspect fetal damage from maternal toxoplasmosis
+ZV61600	[V]Multiparity
+L212200	Quadruplet pregnancy with antenatal problem
+Z265B00	Number of umbilical arteries
+L255.00	Fetus with drug damage
+7F04.11	Diagnostic percutaneous examination of placenta
+Z263900	Number of chorions in membranes
+6252.00	A/N care: poor A/N attender
+Z22AB11	Accidental pregnancy
+62G3.00	A/N U/S scan not wanted
+9512.00	FP24 completed by Dr.
+2732.11	O/E - ROA
+Z224.00	Multiparous
+L168.00	Fatigue during pregnancy
+Q021111	Fetus affected by placental abruption
+4445.00	Placental function test
+ZV23000	[V]Pregnancy with history of infertility
+7N61100	[SO]Gravid uterus
+275Z.00	O/E - fetal movements NOS
+L336000	Vascular lesions of cord unspecified
+L266000	Large-for-dates unspecified
+Q013.00	Fetus or neonate affected by maternal polyhydramnios
+L251z00	Fetus with chromosomal abnormality NOS
+2734.00	O/E - presenting part ROP
+7F25y00	Other specified obstetric monitoring
+Z22C313	Duration of pregnancy
+954Z.00	Mat B1 certificate NOS
+L127300	Pre-eclampsia or eclampsia with hypertension - not delivered
+L188300	Abnormal GTT during pregnancy - baby not yet delivered
+42YG.00	Fetal cell test
+539..11	Obstet. X-ray abdomen
+L263.13	Fetal tachycardia
+L178.00	Infections of urethra in pregnancy
+Z22D300	Uncertain viability of pregnancy
+2731.11	O/E - LOA
+L13z200	Unspecified pregnancy vomiting - not delivered
+L410500	Varicose veins of legs in pregnancy
+2752.00	O/E - fetal movements seen
+L281z00	Premature rupture of membranes NOS
+L16y000	Other pregnancy complication unspecified
+L263z00	Fetal distress NOS
+L161000	Oedema or excessive weight gain in pregnancy, unspecified
+7F03000	Percutaneous insertion of fetal vesicoamniotic shunt
+61G1.00	Vasectomy failure
+L169300	Herpes gestationis - not delivered
+Z271.00	Cardiotochogram observation
+L10z000	Early pregnancy haemorrhage NOS unspecified
+Z22D311	Query viability of pregnancy
+Q02..00	Fetus/neonate affected by complic of placenta/cord/membrane
+9515.00	FP24 paid by FPC - checked
+Z252.00	Mother not delivered
+L210000	Twin pregnancy unspecified
+Z246B11	EBL - Estimated maternal blood loss
+Z23E.00	Gravid uterus normal
+L140200	False labour at or after 37 completed weeks of gestation
+L167200	Liver disorder in pregnancy - not delivered
+L51X.00	Maternal care/known or suspected fetal problem,unspecifd
+L250400	Maternal care for CNS malformation in fetus
+ZV23y00	[V]Other specified high-risk pregnancy
+L251400	Maternal care for chromosomal abnormality in fetus
+L28z200	Amniotic cavity and membrane problem NOS with a/n problem
+L162000	Unspecified renal disease in pregnancy unspecified
+2735.11	O/E - LSA
+7F06400	External cephalic version
+Z271C00	Fetal heart baseline pattern
+6B22.00	Sure Start antenatal visit
+Q408.00	Intra-amniotic fetal infection
+L131z00	Hyperemesis gravidarum with metabolic disturbance NOS
+L123000	Transient hypertension of pregnancy unspecified
+7M0f.00	Gestational age
+L251000	Fetus with chromosomal abnormality unspecified
+62O2.00	Fetal movements seen
+62NH.00	A/N 42 week examination
+Z271900	Fetal heart rate variability
+ZV23600	[V]Supervisn/pregnancy wth history insufficnt antenatal care
+ZV22.11	[V]Supervision of normal pregnancy
+Q021500	Fetus or neonate affected by premature placental separation
+L233.00	Outlet pelvic contraction
+L265z00	Small-for-dates NOS
+L175300	Maternal rubella during pregnancy - baby not yet delivered
+L126000	Eclampsia unspecified
+9513.00	FP24 claim checked by staff
+L394z00	Other complications of obstetric procedures NOS
+ZV22100	[V]Other normal pregnancy supervision
+4441.00	Feto/placent. hormones abnorm.
+L13zz00	Unspecified pregnancy vomiting NOS
+L256.00	Fetus with radiation damage
+5392.00	Obstetric X-ray - placenta
+Q10..11	Fetal malnutrition
+L27..00	Polyhydramnios and hydramnios
+Z235400	Pendulous pregnant abdomen
+9NV1.00	Antenatal clinic
+L187300	Orthopaedic disorder in pregnancy - baby not yet delivered
+PK84.00	Fetal valproate syndrome
+6293.00	Ante-natal care: not attended
+Z245400	Maternal blood loss heavy
+7F2y.00	Other specified obstetric operations
+L124000	Mild or unspecified pre-eclampsia unspecified
+L11z000	Antepartum haemorrhage NOS, unspecified
+L112.12	Couvelaire uterus
+7F03200	Percutaneous blood transfusion of fetus
+L100200	Threatened abortion - not delivered
+4445000	Placental function test normal
+Z263.00	Uterine membrane observations
+L16A000	Glycosuria during pregnancy unspecified
+62C2.00	Full stay delivery booking
+Z237.00	Observation of sensation of gravid uterus
+62E..00	Feeding intention
+L124z00	Mild or unspecified pre-eclampsia NOS
+L267300	Placental transfusion syndromes
+Z245200	Maternal blood loss within normal limits
+Z238112	Fundus firm
+L25z.00	Fetus with damage NOS
+L140000	Threatened premature labour unspecified
+Z22BA00	Contin pregnancy after intrauterine death of sibling fetus
+L264000	Intrauterine death unspecified
+Z271500	CTG reactivity
+L0A3.00	Failed medical abortion, complicated by embolism
+7F0..12	Fetus & gravid uterus ops
+L411500	Genital varices in pregnancy
+L411512	Vaginal varices in pregnancy
+Z235300	Transversely enlarged pregnant abdomen
+276Z.00	O/E - fetal heart NOS
+L14z.00	Early or threatened labour NOS
+L23z.00	Disproportion NOS
+Z23..00	Observation of gravid uterus
+2791.00	O/E - VE - cervical os closed
+L19..00	Complications specific to multiple gestation
+M240500	Alopecia of pregnancy
+L112z00	Placental abruption NOS
+Z261200	Gestational sac absent
+Z262D00	Fresh retroplacental clot
+TB14200	Amniocentesis with complication, without blame
+L115.12	Antepartum haemorrhage with uterine fibroid
+L115.11	Antepartum haemorrhage with fibroid
+Z271100	Fetal heart acceleration
+Z239800	Uterine activity
+Q013.11	Fetus affected by hydramnios
+938Z.00	Obstetric coop card NOS
+L263800	Maternal care for fetal decelerations during pregnancy
+62E2.00	Feeding intention - unsure
+62E1.00	Feeding intention - not known
+L266z00	Large-for-dates NOS
+L25zz00	Fetus with damage NOS
+Z23B100	Date false contractions first detected
+L250200	Fetus with central nervous system malformation + a/n problem
+L413z00	Antenatal deep vein thrombosis NOS
+L210200	Twin pregnancy with antenatal problem
+L10y000	Other haemorrhage in early pregnancy unspecified
+L120300	Benign essential hypertension in preg/childb/puerp-not deliv
+7F06.00	Operations on gravid uterus
+7F0z.00	Fetus and gravid uterus operations NOS
+ZV28100	[V]Amniotic fluid to screen for alphafetoprotein levels
+Z22A211	HRP - High risk pregnancy
+Z222.11	Multip
+L270200	Polyhydramnios with antenatal problem
+Z212100	Delivery place planned
+L161300	Oedema or excessive weight gain in pregnancy - not delivered
+L211000	Triplet pregnancy unspecified
+L252000	Fetus with hereditary disease unspecified
+L230.00	Disproportion - major pelvic abnormality
+L161z00	Oedema or excessive weight gain in pregnancy NOS
+9522.00	FP24A completed by Dr.
+L185.11	Congenital heart disease in pregnancy
+7F2z.00	Other obstetric operations NOS
+62F8.00	A/N amnio. for ? chrom.abnorm.
+ZV28200	[V]Other screening based on amniocentesis
+Z236100	Normal position of gravid uterus
+Z263C00	Intact membranes
+L281400	Premature rupture of membranes, labour delayed by therapy
+Z23A800	Mild uterine contractions
+L51..00	Maternal care for other known or suspected fetal problems
+L167000	Liver disorder in pregnancy unspecified
+4H72.00	Amniotic fetal cell abnormal
+L11y000	Other antepartum haemorrhage unspecified
+7F04z00	Diagnostic percutaneous examination of fetus NOS
+L110200	Placenta praevia without haemorrhage - not delivered
+271Z.00	O/E - gravid uterus size NOS
+2768.00	O/E - fetal heart 180-200
+2767.00	O/E - fetal heart 160-180
+Z231.00	Gravid uterus present
+Z234300	Observation of height of gravid uterus
+L392z00	Maternal hypotension syndrome NOS
+2726.00	O/E -fetal presentation unsure
+Z222.00	Multigravida
+Q101.00	Fetus small-for-dates with signs of malnutrition
+Z675.00	Antenatal class
+Z264111	Quantity of liquor
+61E5.00	Symto-thermal c'ceptn failure
+Q021000	Fetus/neonate affected by antepartum haemorrhage unspecified
+L113.13	Antepartum haemorrhage with hypofibrinogenaemia
+L16A300	Glycosuria during pregnancy - not delivered
+2735.00	O/E - presenting part LSA
+7F01z12	Fetoscopy NEC
+9391.00	Kick chart issued
+Lyu3A00	[X]Maternal care/known or suspected fetal problem,unspecifd
+L168000	Fatigue during pregnancy unspecified
+62K2.00	A/N syphilis screen-blood sent
+61F4.00	Post-coital IUCD failure
+Z235.00	Observation of shape of pregnant abdomen
+L16y300	Other pregnancy complication - not delivered
+L141100	Other threatened labour - not delivered
+L263000	Fetal distress unspecified
+L412500	Superficial thrombophlebitis in pregnancy
+L183.11	Pregnancy and drug dependence
+62GA.00	A/N U/S scan for slow growth
+Z262E11	Stale retroplacental clot
+L141z00	Other threatened labour NOS
+L270z00	Polyhydramnios NOS
+9533.00	Mat booking 17-30 weeks
+L111200	Placenta praevia with haemorrhage - not delivered
+62U8.00	Downs screening - blood sent
+2771.00	O/E - VE - pelvis adequate
+7F01100	Fetoscopic examination of fetus and sampling of fetal blood
+Z243200	First stage of labour not established
+9384.00	Obstetric coop card updated
+L141000	Other threatened labour unspecified
+L164.00	Peripheral neuritis in pregnancy
+L112000	Placental abruption unspecified
+62F2.00	A/N amniocentesis - offered
+7F05.00	Other operations on amniotic cavity
+L132.00	Late vomiting of pregnancy
+6291.00	Ante-natal care: not offered
+Q011.00	Fetus/neonate affected maternal premature rupture membrane
+L413000	Antenatal deep vein thrombosis unspecified
+L244300	Other uterine/pelvic floor abnormal - baby not yet delivered
+ZV23200	[V]Pregnancy with history of abortion
+62U0.00	Triple test offered
+9593.00	GMS2 claim checked by staff
+L254.11	Suspect fetal damage from maternal alcohol
+62EZ.00	Feeding intention - NOS
+L222000	Breech presentation unspecified
+L260.00	Fetal-maternal haemorrhage
+Q026.11	Fetus affected by cord problems
+9393.00	Kick chart duplicate issued
+7F24z00	Other obstetric operation NOS
+L222200	Breech presentation with antenatal problem
+L186.11	Heart disease during pregnancy
+L241300	Tumour of uterine body complicating a/n care, baby not deliv
+L41z500	Venous complication of pregnancy, unspecified
+Z265A11	Number of vessels entering umbilical cord
+9563.00	HSA1- refused to sign
+7F26100	Viability scan
+L183300	Drug dependence during pregnancy - baby not yet delivered
+L18z300	Medical condition NOS in pregnancy - baby not yet delivered
+272Z.00	O/E - fetal presentation NOS
+L126z00	Eclampsia NOS
+Z271400	Unsatisfactory CTG tracing
+Q40y000	Intrauterine fetal sepsis, unspecified
+L125300	Severe pre-eclampsia - not delivered
+L150000	Post-term pregnancy unspecified
+6292.00	Ante-natal care: not wanted
+L23zz00	Disproportion NOS
+L150200	Post-term pregnancy - not delivered
+Z22B.00	Observation of quantity of pregnancy
+L514.00	Maternal care for poor fetal growth
+L2C..00	Malnutrition in pregnancy
+Z239300	Uterine contractions ceased
+ZV28z00	[V]Unspecified antenatal screening
+4H6..11	Amnicator test
+L166.00	Genitourinary tract infections in pregnancy
+L253.11	Fetus with suspected rubella damage via mother
+L111z00	Placenta praevia with haemorrhage NOS
+2731.00	O/E - presenting part LOA
+Z271300	CTG tracing problem
+62HZ.00	A/N Rh antibody screen NOS
+Q021.00	Fetus/neonate affect other placental separation/haemorrhage
+4444.11	Human placental lactogen
+L224000	Transverse lie unspecified
+L266300	Suspected macroscopic fetus
+Z22C.00	Observation of measures of pregnancy
+4JL3.00	Amniotic fluid for organism
+5844.00	U-S scan -placental localisatn
+2765.00	O/E - fetal heart 100-120
+L11y200	Other antepartum haemorrhage - not delivered
+L132000	Late pregnancy vomiting unspecified
+L251.11	Suspect cystic fibrosis fetus
+L262200	Other blood-group isoimmunisation with antenatal problem
+Z234.00	Observation of size of gravid uterus
+Z264112	Amount of liquor
+61D4.00	Contraceptive sponge failure
+L243000	Retroverted incarcerated gravid uterus unspecified
+L264200	Intrauterine death with antenatal problem
+L25y000	Fetus with other damage NEC, unspecified
+2772.00	O/E - VE - pelvis not adequate
+R123.00	[D]Amniotic fluid abnormal
+L10yz00	Other haemorrhage in early pregnancy NOS
+L11z200	Antepartum haemorrhage NOS - not deliv
+9541.00	Mat B1 due
+273..11	O/E - position-presenting part
+L257.12	Fetus with damage due to intra-uterine contraceptive device
+L21y.00	Other multiple pregnancy
+9534.00	Mat booking after 31 weeks
+L417000	Cerebral venous thrombosis in pregnancy
+L281000	Premature rupture of membranes unspecified
+ZV23z00	[V]Unspecified high-risk pregnancy
+L221z00	Cephalic version NOS
+L260200	Fetal-maternal haemorrhage with antenatal problem
+Q022000	Fetus or neonate affected by placental dysfunction
+62H3.00	Rh screen - 1st preg. sample
+274Z.00	O/E - fetal station NOS
+2733.00	O/E - presenting part LOP
+273..00	O/E - presenting part position
+274..00	O/E - presenting part station
+L2A4.00	Abnormal radiological finding on antenatal screen of mother
+L224200	Transverse lie with antenatal problem
+L11yz00	Other antepartum haemorrhage NOS
+Q016.11	Fetus affected by maternal death
+62LZ.00	A/N blood group screen NOS
+62F9.00	A/N amnio. for ? neural tube
+9bE3.00	Maternity registration
+9524.00	FP24A sent to FPC
+9518.00	FP24 -FPC contacted re mistake
+7F04.00	Diagnostic percutaneous examination of fetus
+Z264100	Observation of quantity of liquor
+L110000	Placenta praevia without haemorrhage unspecified
+62M2.00	A/N sickle cell screen done
+L25z000	Fetus with damage NOS, unspecified
+L25yz00	Fetus with other damage NEC NOS
+L336z00	Vascular lesions of cord NOS
+2782.00	O/E - VE - cervix ripe
+L240311	Bicornuate uterus complicating a/n care, baby not delivered
+Z271E00	Sinusoidal pattern of fetal heart
+2764.00	O/E - fetal heart 80-100
+951Z.00	FP24 mat.claim status NOS
+L110z00	Placenta praevia without haemorrhage NOS
+L33yz00	Other umbilical cord complications NOS
+L245z00	Cervical incompetence NOS
+L16Az00	Glycosuria during pregnancy NOS
+4H5Z.00	Amniotic fluid AFP NOS
+62U4.00	Triple test wanted
+2732.00	O/E - presenting ROA
+2736.00	O/E - presenting part RSA
+L115.00	Antepartum haemorrhage with uterine leiomyoma
+Z263A00	Membranes complete
+L250000	Fetus with central nervous system malformation unspecified
+L250z00	Fetus with central nervous system malformation NOS
+L235.00	Large fetus causing disproportion
+959A.00	GMS2 claim - HA dispute fee due
+Q017.11	Fetus affected by malpresentation
+L123300	Transient hypertension of pregnancy - not delivered
+7F04111	Percutaneous sampling of foetal blood
+952..11	FP24A - mat claim-not obst lis
+L248300	Vulval abn complicating a/n care - baby not yet delivered
+62H1.00	A/N Rh screen not offered
+L212z00	Quadruplet pregnancy NOS
+L132200	Late pregnancy vomiting - not delivered
+L233z00	Outlet pelvic contraction NOS
+L257.00	Fetus with damage due to intra-uterine contraceptive device
+9561.00	HSA1- form eligible
+5845.00	U-S scan - fetal cephalometry
+4H43.00	Amniotic fluid L/S ratio
+272..12	O/E - presenting part
+L224z00	Transverse lie NOS
+952Z.00	FP24A mat.claim status NOS
+62U1.00	Double test offered
+956Z.00	HSA1- green form NOS
+L253.00	Fetus with viral damage via mother
+L284.00	Amniotic cavity infection
+L28z.00	Amniotic cavity and membrane problems NOS
+2763.00	O/E - fetal heart 40-80
+Lyu2100	[X]Other vomiting complicating pregnancy
+L335.11	Velamentous insertion of cord
+9529.00	FP24A-FPC make up payment
+4H1..00	Amniotic fluid exam. - general
+9526.00	FP24A paid by FPC - underpaid
+9519.00	FP24 -FPC make up payment
+629Z.00	No ante-natal care NOS
+279Z.00	O/E - VE - cervix dilat. NOS
+L246311	Polyp of cervix complicating a/n care- baby not delivered
+L270000	Polyhydramnios unspecified
+L247300	Vaginal abnormality complicating a/n care-baby not delivered
+L28zz00	Amniotic cavity and membrane problem NOS
+L252.00	Fetus with hereditary disease
+L254.00	Fetus with damage due to other maternal disease
+4H71.00	Amniotic fetal cell study: NAD
+4H23.00	Amniotic fluid -meconium stain
+4H22.00	Amniotic fluid - blood stained
+L131000	Hyperemesis gravidarum with metabolic disturbance unsp
+L261200	Rhesus isoimmunisation with antenatal problem
+L243z00	Retroverted incarcerated gravid uterus NOS
+L294000	Grand multiparity unspecified
+L231z00	Generally contracted pelvis NOS
+L13z000	Unspecified pregnancy vomiting unspecified
+L27z.00	Polyhydramnios NOS
+L168z00	Fatigue during pregnancy NOS
+ZVu2900	[X]Other antenatal screening
+L28y.00	Other problems of amniotic cavity and membranes
+4H53.00	Amniotic fluid AFP abnormal
+L412511	Thrombophlebitis of legs in pregnancy
+L10y200	Other haemorrhage in early pregnancy - not delivered
+Lyu3B00	[X]Other disorders of amniotic fluid and membranes
+7F28.00	Other non routine obstetric scan
+7F08.00	Therapeutic percutaneous operations twin-twin transfusion
+L113000	Antepartum haemorrhage with coagulation defect unspecified
+7F2B.00	Obstetric ultrasound monitoring
+7F26z00	Routine obstetric scan NOS
+7F28z00	Other non routine obstetric scan NOS
+4446.00	Serum unconjugated oestriol mean of median measurement
+4447.00	Plasma unconjugated oestriol mean of median measurement
+7F27.00	Non routine obstetric scan for fetal observations
+7F26.00	Routine obstetric scan
+7F24.00	Other obstetric operations
+7M0f000	Over 20 weeks gestational age
+Z262J00	Placenta infected
+7F05z00	Other operation on amniotic cavity NOS
+L23y.00	Other disproportion
+7F2A000	Obstetric umbilical artery Doppler
+7F2Bz00	Obstetric ultrasound monitoring NOS
+7F2A.00	Obstetric Doppler studies
+L237200	Other fetal abnormality causing disproportion with a/n prob
+L394.00	Other complications of obstetric procedures
+7F28100	Liquor volume scan
+62U6.00	Triple test not wanted
+7F07.00	Therapeutic endoscopic operations for twin-twin transfusion
+4H31.00	Amniotic fluid microscopy -NAD
+Z264600	Excessive amniotic fluid
+62a..11	Review of pregnancy
+7M0f200	9 - 13 weeks gestational age
+7F29.00	Other maternal physiological assessments
+7M0fz00	Gestational age NOS
+Z235200	Rounded pregnant abdomen
+L251.12	Suspect mongol fetus
+7F03300	Percutaneous insertion of fetal pleural drain
+Q022.00	Fetus/neonate affected by placental abnormality NEC
+7F27000	Biophysical profile
+Z271A00	Good baseline variability in fetal heart rate
+L181300	Thyroid dysfunction in pregnancy - baby not yet delivered
+7F27200	Fetal biometry
+7M0f400	From 9 weeks to <14 weeks gestational age
+Q410000	Fetal blood loss, unspecified
+7F26200	Mid trimester scan
+951A.00	FP24 -FPC dispute fee due
+4H3..00	Amniotic fluid microscopy
+L162.13	Uraemia in pregnancy without hypertension
+9598.00	GMS2 claim - HA contacted re mistake
+L127z00	Pre-eclampsia or eclampsia + pre-existing hypertension NOS
+L241000	Tumour of uterine body affecting obstetric care
+L33z000	Umbilical cord complications NOS, unspecified
+ZV22400	[V]Supervision of other normal pregnancy
+7F06y00	Other specified operation on gravid uterus
+2792.00	O/E - VE - os=0-1cm dilated
+4H4..00	Amniotic fluid chemistry
+62C..00	Deliv.booking - length of stay
+7F29100	Cervical length scanning at 24 weeks
+Z235100	Ovoid pregnant abdomen
+Z22B500	Quintuplet pregnancy
+Z271411	Technically poor CTG
+7F27500	Rhesus detailed scan
+L131200	Hyperemesis gravidarum with metabolic disturbance - not del
+7F2Az00	Obstetric Doppler studies NOS
+Lyu0100	[X]Other specified abnormal products of conception
+L211z00	Triplet pregnancy NOS
+273Z.00	O/E - presenting part posn.NOS
+9Nk3.00	Seen in fetal medicine clinic
+67AB.00	Preg. prescription exempt adv.
+Z238.00	Observation of contraction state of uterus
+9Nk3.11	Seen in foetal medicine clinic
+9599.00	GMS2 claim - HA make up payment
+L294z00	Grand multiparity NOS
+2794.00	O/E - VE - os=2-4cm dilated
+7F2A111	Doppler ultrasound scan of uterine artery
+7F08.11	Therapeutic percutaneous operation twin-twin transfusion syn
+Z262O00	Observation of placental function
+9525.00	FP24A paid by FPC - checked
+Z271B00	Poor baseline variability in fetal heart rate
+Q101.11	Fetus small-for-dates (SFD) with signs of malnutrition
+L263.11	Fetal acidosis
+7F28y00	Other specified other non routine obstetric scan
+7M0f300	Under 9 weeks gestational age
+7M0f100	14 - 20 weeks gestational age
+Q408z00	Intra-amniotic fetal infection NOS
+952A.00	FP24A-FPC dispute fee due
+7F27z00	Non routine obstetric scan for fetal observations NOS
+2762.00	O/E - fetal heart < 40
+Z236500	Gravid uterus deviated to right
+7F07.11	Therap endoscopic operations for twin-twin transfusion syn
+4448.00	Unconjugated oestriol level
+L25z400	Maternal care for fetal abnormality and damage, unspecified
+L258.00	Fetus with cardiovascular abnormality
+7F26y00	Other specified routine obstetric scan
+L236z00	Hydrocephalic disproportion NOS
+L111000	Placenta praevia with haemorrhage unspecified
+L284z00	Amniotic cavity infection NOS
+L221000	Cephalic version NOS, unspecified
+Z285C00	Obstetric conjugate of pelvis
+Z265600	Pulsation umbilical cord not palp through intact membranes
+L22z.00	Fetal malposition and malpresentation NOS
+L33z200	Umbilical cord complications NOS with antenatal problem
+Q408200	Eschericha coli intra-amniotic fetal infection
+Z262I00	Placenta infarcted
+L122300	Other pre-exist hypertension in preg/childb/puerp-not deliv
+L411513	Vulval varices in pregnancy
+L267600	Placental infarction
+7F07000	Endoscop laser ablation placental arterio-venous anastomosis
+68b0.00	Ant scr show iron defic/poss non signific alpha thalassaemia
+65QF.00	Ant scr shows signifi carrier of sickle cell or thalassaemia
+67AE.00	Folic acid advice in first trimester of pregnancy
+L284.13	Membranitis
+65QE.00	Ant scr shows non sig carrier of sickle cell or thalassaemia
+7F03z00	Therapeutic percutaneous operation on fetus NOS
+68b2.00	Ant scr shows homozygot/compound heterozygote of genetic sig
+7F29000	Maternal cervical assessment
+68b6.00	Antenatal screening declined
+L121300	Renal hypertension in preg/childbirth/puerp - not delivered
+L281200	Premature rupture of membranes with antenatal problem
+68b7.00	Antenatal screening not indicated for partner
+68b..00	Antenatal screening status
+Lyu3C00	[X]Other placental disorders
+7F03400	Percutaneous insertion of bladder drain to fetus
+7F08200	Perc serial drain amnio fluid for twin-twin transfusion synd
+7F07200	End serial drain amnio fluid for twin-twin transfusion synd
+7M0fy00	Other specified gestational age
+L280000	Oligohydramnios unspecified
+68b1.00	Ant scr show homozygot/compound heterozygote no genetic sign
+2796.00	O/E - VE - os=6-8cm dilated
+7F01000	Fetoscopic examination of fetus and biopsy of fetus
+Q007111	Fetal alcohol syndrome
+Z271H00	Late fetal heart deceleration
+Z264700	Change in quantity of liquor
+9Ea0.00	Risk life pregnant woman greater than if pregnancy terminatd
+7F27y00	OS non routine obstetric scan for fetal observations
+L245000	Cervical incompetence unspecified
+68b4.00	Repeat antenatal screening required
+L25z300	Maternal care for suspect fetal abnormal and damage, unspec
+27A..00	O/E - VE - descent of P. part
+L240300	Cong abnorm uterus complicating a/n care, baby not delivered
+L114.00	Antepartum haemorrhage with trauma
+Q021200	Fetus/neonate affected by placental damage-amniocentesis
+9523.00	FP24A claim checked by staff
+L411511	Perineal varices in pregnancy
+L13y200	Other pregnancy vomiting - not delivered
+953F.00	Mat. anaesth. service claim
+L28y200	Other amniotic/membrane problem with antenatal problem
+9516.00	FP24 paid by FPC - underpaid
+4443.00	Placental lactogen - HPL
+68b5.00	Antenatal screening result pending
+L267200	Other placental conditions with antenatal problem
+27A..11	O/E - VE - descent of fetus
+L230000	Disproportion - major pelvic abnormality unspecified
+Z237100	Non-tender scar of gravid uterus
+4H41.00	Amniotic fluid chemistry: NAD
+L267z00	Other placental conditions NOS
+68bA.00	Antenatal screening, at risk couple identified
+L33y200	Other umbilical cord complications with antenatal problem
+L168300	Fatigue during pregnancy - not delivered
+7F08000	Percutan laser ablation placental arterio-venous anastomosis
+2793.00	O/E - VE - os=1-2cm dilated
+7F01.00	Diagnostic endoscopic examination of fetus using fetoscope
+95B..00	Health in Pregnancy grant claim form issued
+Z23D.00	Observation of measures of gravid uterus
+7F27100	Detailed structural scan
+4H62.00	Amnicator test negative
+L25y.00	Fetus with other damage NEC
+L22zz00	Fetal malposition and malpresentation NOS
+L227z00	High head at term NOS
+4H7..00	Amniotic fetal cell study
+PK81.00	Fetal hydantoin syndrome
+L413200	Antenatal deep vein thrombosis with antenatal complication
+L255200	Fetus with drug damage with antenatal problem
+68b3.00	Antenatal screening shows significant disorder
+27A1.00	O/E - VE - P.P high
+L284000	Amniotic cavity infection unspecified
+L252z00	Fetus with hereditary disease NOS
+68b9.00	Anten screen, partner tested and no genetic risk identified
+L392000	Maternal hypotension syndrome unspecified
+Lyu2400	[X]Other+unspcf genitourinary tract infection in pregnancy
+2769.00	O/E - fetal heart > 200
+L244311	Cystocele complicating antenatal care - baby not delivered
+2781.00	O/E - VE - cervix not ripe
+L132z00	Late pregnancy vomiting NOS
+L236000	Hydrocephalic disproportion unspecified
+L253300	Maternal care for damage to fetus from maternal rubella
+27A2.00	O/E - VE - P.P in mid cavity
+Q010.00	Fetus or neonate affected by maternal incompetent cervix
+65QH.00	Ant scr carrier sig haemoglobinopathy inc sickle cel or thal
+ZVu2700	[X]Antenat screen for malform using ultrason/oth physic meth
+L251300	Maternal care for suspected chromosomal abnormality in fetus
+L390300	Maternal distress with antenatal problem
+4H2..00	Amniotic fluid appearance
+4H2Z.00	Amniotic fluid appearance NOS
+65QG.00	Antenatal screening shows non sig haemoglobinopathy carrier
+7F03.00	Therapeutic percutaneous operations on fetus
+Q410600	Fetal haemorrhage into mother's circulation
+L26yz00	Other feto-placental problems NOS
+Q410z00	Fetal blood loss NOS
+7F08z00	Therapeut percutaneous operations twin-twin transfusion NOS
+L08y.00	Failed attempted abortion with no mention of complication
+62MZ.00	A/N sickle cell screen NOS
+9394.00	Kick chart checked
+L265200	Small-for-dates with antenatal problem
+Lyu2A00	[X]Abnormal finding on antenatal screening of mother
+389B.00	Assessment for termination of pregnancy
+8CE0000	Gestational diabetes information leaflet given
+8Hh3.00	Self referral to termination of pregnancy service
+7F00.12	Therapeutic foetoscopic operations on fetus
+6776100	Pre-termination counselling
+L112300	Premature separation of placenta with coagulation defect
+8CEM.00	Downs syndrome antenatal screening information leaflet given
+7F2By00	Other specified obstetric ultrasound monitoring
+7F2A011	Doppler ultrasound scan of umbilical artery
+L260z00	Fetal-maternal haemorrhage NOS
+Lyu3000	[X]Other multiple gestation
+L176300	Other maternal viral dis.in pregnancy-baby not yet delivered
+7F07z00	Therapeutic endoscopic operations twin-twin transfusion NOS
+ZV28500	[V]Screening for isoimmunisation
+9NkN.00	Seen in early pregnancy unit
+Eu32B00	[X]Antenatal depression
+8Hki.00	Referral to teenage pregnancy and parenting support service
+7F2A211	Doppler ultrasound scan of middle cerebral artery of fetus
+L115z00	Antepartum haemorrhage with uterine leiomyoma NOS
+7F27400	Fetal ascites scan
+62X5.00	Length of gestation at time of test
+5392.11	Placentogr.-X-ray,plain
+Z236.00	Observation of arrangement of gravid uterus
+Lyu2600	[X]Other abnormal findings on antenatal screening of mother
+7F2A100	Obstetric uterine artery Doppler
+9Ea3.00	Lss 24 wk inv risk inj phys/men hlth ext child preg wom fmly
+13Iv000	Unborn child subject to child protection plan
+ZVu2600	[X]Other antenatal screening based on amniocentesis
+4Q3N.00	Pregnancy associated plasma protein A level
+L267A00	Placenta accreta
+584G000	Nuchal translucency multiple of median
+67AH.00	Education about toxoplasmosis precautions during pregnancy
+L236200	Hydrocephalic disproportion with antenatal problem
+Q102.00	Fetal malnutrition, no mention light or small for gest age
+L260000	Fetal-maternal haemorrhage unspecified
+Q410700	Fetal exsanguination
+Z263D00	Intact membranes bulging through cervix
+L143000	Premature labour without delivery
+L2A2.00	Abnormal cytological finding on antenatal screen of mother
+L250300	Maternal care for suspected CNS malformation in fetus
+7F2Ay11	Other specified obstetric doppler ultrasound
+L33y000	Other umbilical cord complications unspecified
+Z236400	Gravid uterus deviated to left
+L26z.00	Feto-placental problems NOS
+9Ea1.00	To prevent grave permnt inj physic/mental health preg woman
+L21z.00	Multiple pregnancy NOS
+4445100	Placental function test abnormal
+ZVu2300	[X]Supervision of other normal pregnancy
+Z23B.00	Observation of measures of uterine contractions
+9381.00	Obstetric coop card issued
+67AJ.00	Provision of information about antenatal screening
+L165300	Asymptomatic bacteriuria in pregnancy - not delivered
+27D..00	Height of uterine fundus
+7F08100	Percutaneous serial amnio drainage
+Lyu3500	[X]Maternal care for other abnormalities of pelvic organs
+L246000	Other cervical abnormality affecting obstetric care
+Q410200	Fetal placental blood loss
+7F2Ay00	Other specified obstetric Doppler studies
+9517.00	FP24 paid by FPC - overpaid
+L21zz00	Multiple pregnancy NOS
+7F00y00	Other specified therapeutic fetoscopic operation
+8IEc.00	Pertussis vaccination in pregnancy declined
+9mK..00	Pertussis vaccination in pregnancy invitation
+62NL.00	Antenatal 31 week examination
+7F03600	Percutaneous laser ablation of lesion of fetus
+62NJ.00	Antenatal 22 week examination
+9kv..00	Pertussis vaccinatn progrme pregnant women enhan srvce admin
+7F07y00	OS therapeutic endoscopic operations twin-twin transfusion
+9mK0.00	Pertussis vaccination in pregnancy invitation first letter
+9mK1.00	Pertussis vaccination in pregnancy invitation second letter
+9mK2.00	Pertussis vaccination in pregnancy invitation third letter
+4H4Z.00	Amniotic fluid chemistry NOS
+7F25200	Cardiotocography
+62NK.00	Antenatal 25 week examination
+9Nif.00	Did not attend pertussis vaccination in pregnancy
+L335000	Vasa praevia unspecified
+L267400	Malformation of placenta
+L08x.00	Failed attempted abortion with complication NOS
+L266200	Large-for-dates with antenatal problem
+B911.00	Neoplasm of uncertain behaviour of placenta
+L165z00	Asymptomatic bacteriuria in pregnancy NOS
+62c0.00	Crown rump length
+62H2.00	A/N Rh screen offered
+Q102.11	Fetal malnutrition without mention of 'light for dates'
+62U7.00	Double test not wanted
+Z236300	Pregnant uterus displaced laterally
+L21y200	Other multiple pregnancy with antenatal problem
+7F25211	Cardiotochogram
+4H7Z.00	Amniotic fetal cell study NOS
+67Iu.00	Advice on risk harm to fetus from maternl medictn dur preg
+ZC2CB00	Dietary advice for gestational diabetes
+Lyu3D00	[X]Other premature separation of placenta
+L394000	Other complications of obstetric procedures unspecified
+L267900	Morbidly adherent placenta
+7F03y00	Other specified therapeutic percutaneous operation on fetus
+63G0.00	Membranes complete
+L245300	Cervical incompetence with antenatal problem
+62U5.00	Double test wanted
+62M1.00	A/N sickle screen not done
+62L1.00	A/N blood gp screen not done
+62U3.00	Double test not offered
+62U2.00	Triple test not offered
+9NFV.00	Health visitor antenatal visit
+62K1.00	A/N syphilis screen not done
+R14B.00	[D]Abnormal placental function test
+62H5.00	Rh screen - 3rd preg. sample
+L184300	Mental disorder during pregnancy - baby not yet delivered
+L220000	Unstable lie unspecified
+Z246500	Time vaginal show detected
+7F2Az11	Obstetric doppler ultrasound NOS
+Z235211	Globular pregnant abdomen
+27AZ.00	O/E - VE - descent of P.P NOS
+Z271G00	Early fetal heart deceleration
+4H43.12	Sphingomyelin -amniotic
+L26y.00	Other feto-placental problems
+Z263100	Amniotc membranes normal
+274..13	O/E - station of pres. part
+939Z.00	Kick chart NOS
+67It.00	Advice on risk harm to mother from maternl medictn dur preg
+9OqCF00	Sickle cell repeat screening with further sample required
+L230200	Disproportion - major pelvic abnormality with antenatal prob
+Z285800	Shape of sacrosciatic notch
+L415500	Other phlebitis in pregnancy
+L114z00	Antepartum haemorrhage with trauma NOS
+7F09y00	Other specified destruction of fetus
+4H1Z.00	Amniotic fluid exam. gen. NOS
+62X6.00	Gestation less than 28 weeks
+Lyu3300	[X]Maternal care for other abnormalities of cervix
+Lyu2000	[X]Other haemorrhage in early pregnancy
+L080.00	Failed attempted abortion + genital tract/pelvic infection
+L081.00	Failed attempted abortion + delayed or excessive haemorrhage
+L082.00	Failed attempted abortion + damage to pelvic organs/tissues
+L083.00	Failed attempted abortion with renal failure
+L084.00	Failed attempted abortion with metabolic disorder
+L085.00	Failed attempted abortion with shock
+L086.00	Failed attempted abortion with embolism
+L08w.00	Failed attempted abortion with other specified complication
+L170300	Maternal syphilis during pregnancy - baby not yet delivered
+L172300	Other maternal venereal dis. in pregnancy-baby not delivered
+Lyu0300	[X]Failed medical abortion,wth other+unspcfied complications
+Lyu0400	[X]Oth+unspcf failed inducd abort,complct gen tract+pelv inf
+Lyu0500	[X]Oth+unspc fail induc abortn,complict/delay/exces h'morrhg
+Lyu0600	[X]Other+unspcf failed induced abortion,complicated/embolism
+Lyu0700	[X]Oth+unspcf failed inducd abortn,wth oth+unspcf complicatn
+Lyu0800	[X]Other+unspcf failed induced abortion,without complication
+9OqCH00	Sickle cell not screened for or screening incomplete
+4H11.00	Amniotic fluid sent for exam.
+ZV23112	[V]Pregnancy with history of vesicular mole
+L223000	Oblique lie unspecified
+L432300	Obstetric blood-clot pulmonary embolism + a/n complication
+Q02y.00	Fetus/neonate affected other abnormalities of chorion/amnion
+4Q3N000	Pregnancy associated plasma protein A multiple of median
+L231000	Generally contracted pelvis unspecified
+44Zg.00	Plasma human chorionic gonadotrophin concentration

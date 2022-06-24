@@ -1,0 +1,16 @@
+﻿41114007	Mild proteinuric hypertension of pregnancy
+46764007	Severe proteinuric hypertension of pregnancy
+67359005	Superimposed pre-eclampsia
+198983002	Severe pre-eclampsia - delivered (disorder)
+198984008	Severe pre-eclampsia - delivered with postnatal complication (disorder)
+198985009	Severe pre-eclampsia - not delivered (disorder)
+198986005	Severe pre-eclampsia with postnatal complication (disorder)
+198997005	Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)
+198999008	Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)
+199000005	Pre-eclampsia or eclampsia with pre-existing hypertension - delivered with postnatal complication (disorder)
+199002002	Pre-eclampsia or eclampsia with pre-existing hypertension - not delivered (disorder)
+199003007	Pre-eclampsia or eclampsia with pre-existing hypertension with postnatal complication (disorder)
+237281009	Moderate proteinuric hypertension of pregnancy (disorder)
+398254007	Preeclampsia
+765182005	Postpartum pre-eclampsia
+736992003	Nephropathy following pre-eclampsia
