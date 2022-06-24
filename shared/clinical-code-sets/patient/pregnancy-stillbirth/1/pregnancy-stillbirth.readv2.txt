@@ -1,0 +1,29 @@
+Q4z..15	Stillbirth NEC
+Q48D100	[X]Macerated stillbirth
+Q48D.00	[X] Stillbirth
+ZV27.12	[V]Stillbirth
+ZV32.00	[V]Twin, mate stillborn
+ZV27100	[V]Single stillbirth
+Q210.00	Fetal death due to prelabour anoxia
+Q48D000	[X]Fresh stillbirth
+6334.00	Twins - 1 still + 1 live born
+6332.00	Single stillbirth
+6335.00	Twins - both still born
+ZV27400	[V]Twins, both stillborn
+7F1A200	Cleidotomy of fetus to facilitate delivery
+L264100	Intrauterine death - delivered
+ZV27300	[V]Twins, one live born and one stillborn
+633..12	Stillbirth [prevention record]
+Q211.00	Fetal death due to labour anoxia
+942..00	Medical cert. of still-birth
+6337.00	Triplets -2 live+ 1 still born
+ZV32000	[V]Twin, born in hospital, mate stillborn
+6339.00	Triplets - 3 still born
+ZV36100	[V]Other multiple birth, before hospital, mates live+still
+ZV27700	[V]Other multiple birth, all stillborn
+ZV32z00	[V]Twin, mate stillborn, NOS
+L399.00	Destructive operation for delivery
+ZV36z00	[V]Other multiple birth, mates live and stillborn NOS
+6338	Triplets-1 live+ 2 still born
+ZVu2B00	[X]Other multiple births, some liveborn
+633B.00	Antepartum stillbirth

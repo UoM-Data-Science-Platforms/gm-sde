@@ -1,0 +1,1525 @@
+39697011000001100	Benzydamine 0.15% mouthwash sugar free
+1079011000001101	Benzydamine 0.15% mouthwash sugar free
+1306911000001104	Benzydamine 0.15% mouthwash sugar free
+301311000001108	Difflam Oral Rinse 0.15% solution (Viatris UK Healthcare Ltd)
+1998311000001108	Difflam Oral Rinse 0.15% solution (Viatris UK Healthcare Ltd)
+737011000001105	Difflam 0.15% Sore Throat Rinse (Viatris UK Healthcare Ltd)
+2000111000001102	Difflam 0.15% Sore Throat Rinse (Viatris UK Healthcare Ltd)
+21272011000001102	Benzydamine 0.15% mouthwash sugar free (Advanz Pharma)
+21272111000001101	Benzydamine 0.15% mouthwash sugar free (Advanz Pharma)
+21347111000001109	Benzydamine 0.15% mouthwash sugar free (Alliance Healthcare (Distribution) Ltd)
+21347211000001103	Benzydamine 0.15% mouthwash sugar free (Alliance Healthcare (Distribution) Ltd)
+21374311000001101	Benzydamine 0.15% mouthwash sugar free (A A H Pharmaceuticals Ltd)
+21374411000001108	Benzydamine 0.15% mouthwash sugar free (A A H Pharmaceuticals Ltd)
+21511611000001101	Benzydamine 0.15% mouthwash sugar free (Teva UK Ltd)
+21511711000001105	Benzydamine 0.15% mouthwash sugar free (Teva UK Ltd)
+22203211000001109	Benzydamine 0.15% mouthwash sugar free (Phoenix Healthcare Distribution Ltd)
+22203311000001101	Benzydamine 0.15% mouthwash sugar free (Phoenix Healthcare Distribution Ltd)
+22618711000001108	Benzydamine 0.15% mouthwash sugar free (DE Pharmaceuticals)
+22618811000001100	Benzydamine 0.15% mouthwash sugar free (DE Pharmaceuticals)
+38805411000001107	Benzydamine 0.15% mouthwash sugar free (Medihealth (Northern) Ltd)
+38805511000001106	Benzydamine 0.15% mouthwash sugar free (Medihealth (Northern) Ltd)
+331148007	Benzydamine 0.15% oromucosal spray sugar free
+1256811000001108	Benzydamine 0.15% oromucosal spray sugar free
+531611000001106	Difflam 0.15% spray (Viatris UK Healthcare Ltd)
+2006411000001109	Difflam 0.15% spray (Viatris UK Healthcare Ltd)
+17290311000001107	Benzydamine 0.15% oromucosal spray sugar free (A A H Pharmaceuticals Ltd)
+17290411000001100	Benzydamine 0.15% oromucosal spray sugar free (A A H Pharmaceuticals Ltd)
+17666411000001102	Benzydamine 0.15% oromucosal spray sugar free (Advanz Pharma)
+17666511000001103	Benzydamine 0.15% oromucosal spray sugar free (Advanz Pharma)
+18031511000001104	Benzydamine 0.15% oromucosal spray sugar free (Alliance Healthcare (Distribution) Ltd)
+18031611000001100	Benzydamine 0.15% oromucosal spray sugar free (Alliance Healthcare (Distribution) Ltd)
+20593411000001107	Benzydamine 0.15% oromucosal spray sugar free (Teva UK Ltd)
+20593511000001106	Benzydamine 0.15% oromucosal spray sugar free (Teva UK Ltd)
+22203411000001108	Benzydamine 0.15% oromucosal spray sugar free (Phoenix Healthcare Distribution Ltd)
+22203511000001107	Benzydamine 0.15% oromucosal spray sugar free (Phoenix Healthcare Distribution Ltd)
+22619211000001106	Benzydamine 0.15% oromucosal spray sugar free (DE Pharmaceuticals)
+22619311000001103	Benzydamine 0.15% oromucosal spray sugar free (DE Pharmaceuticals)
+35650411000001107	Benzydamine 0.15% oromucosal spray sugar free (Zentiva Pharma UK Ltd)
+35650511000001106	Benzydamine 0.15% oromucosal spray sugar free (Zentiva Pharma UK Ltd)
+38251311000001100	Benzydamine 0.15% oromucosal spray sugar free (Accord Healthcare Ltd)
+38251411000001107	Benzydamine 0.15% oromucosal spray sugar free (Accord Healthcare Ltd)
+38805611000001105	Benzydamine 0.15% oromucosal spray sugar free (Medihealth (Northern) Ltd)
+38805711000001101	Benzydamine 0.15% oromucosal spray sugar free (Medihealth (Northern) Ltd)
+331189005	Amphotericin B 10mg lozenges sugar free
+1219011000001100	Amphotericin B 10mg lozenges sugar free
+28870411000001107	Amphotericin B 10mg lozenges sugar free
+200111000001106	Fungilin 10mg lozenges (Bristol-Myers Squibb Pharmaceuticals Ltd)
+2033511000001105	Fungilin 10mg lozenges (Bristol-Myers Squibb Pharmaceuticals Ltd)
+28870511000001106	Amphotericin B 10mg lozenges sugar free (Special Order)
+28870611000001105	Amphotericin B 10mg lozenges sugar free (Special Order)
+3557011000001101	Generic Tri-Adcortyl Otic ointment
+1085011000001107	Generic Tri-Adcortyl Otic ointment
+358611000001101	Tri-Adcortyl Otic ointment (Bristol-Myers Squibb Pharmaceuticals Ltd)
+2192311000001108	Tri-Adcortyl Otic ointment (Bristol-Myers Squibb Pharmaceuticals Ltd)
+34820711000001100	Artificial saliva spray
+1098911000001104	Artificial saliva spray
+1189511000001109	Artificial saliva spray
+1203811000001106	Artificial saliva spray
+14955611000001108	Artificial saliva spray
+18589411000001107	Artificial saliva spray
+860311000001101	Luborant spray (Mercury Pharma Group Ltd)
+2267411000001102	Luborant spray (Mercury Pharma Group Ltd)
+860711000001102	AS Saliva Orthana spray (A S Pharma Ltd)
+2292811000001101	AS Saliva Orthana spray (A S Pharma Ltd)
+243711000001109	Salivace spray (Penn Pharmaceuticals Ltd)
+2387911000001101	Salivace spray (Penn Pharmaceuticals Ltd)
+14955711000001104	AS Saliva Orthana spray refill (A S Pharma Ltd)
+14955811000001107	AS Saliva Orthana spray refill (A S Pharma Ltd)
+18589511000001106	AS Saliva Orthana spray refill (A S Pharma Ltd)
+3550511000001105	Generic Otosporin ear drops
+1062711000001102	Generic Otosporin ear drops
+1185511000001106	Generic Otosporin ear drops
+423211000001103	Otosporin ear drops (Phoenix Labs Ltd)
+2262911000001108	Otosporin ear drops (Phoenix Labs Ltd)
+2263111000001104	Otosporin ear drops (Phoenix Labs Ltd)
+3550411000001106	Generic Otomize ear spray
+1260011000001109	Generic Otomize ear spray
+507711000001101	Otomize ear spray (Teva UK Ltd)
+2266511000001100	Otomize ear spray (Teva UK Ltd)
+3555611000001101	Generic Sofradex ear/eye ointment
+1035511000001108	Generic Sofradex ear/eye ointment
+794811000001104	Sofradex ear/eye ointment (Florizel Ltd)
+2283511000001105	Sofradex ear/eye ointment (Florizel Ltd)
+3555511000001100	Generic Sofradex ear/eye drops
+1278211000001106	Generic Sofradex ear/eye drops
+35106311000001105	Generic Sofradex ear/eye drops
+535411000001106	Sofradex ear/eye drops (Sanofi)
+2283711000001100	Sofradex ear/eye drops (Sanofi)
+35106411000001103	Sofradex ear/eye drops (Sanofi)
+3393511000001105	Generic Cerumol ear drops
+1267911000001109	Generic Cerumol ear drops
+76211000001104	Cerumol ear drops (Thornton & Ross Ltd)
+2285111000001100	Cerumol ear drops (Thornton & Ross Ltd)
+35368811000001107	Xylometazoline 0.05% nasal drops
+1120911000001103	Xylometazoline 0.05% nasal drops
+458311000001104	Otradrops Child nasal drops (Manx Healthcare Ltd)
+2463911000001100	Otradrops Child nasal drops (Manx Healthcare Ltd)
+355811000001106	Otrivine Child nasal drops (GlaxoSmithKline Consumer Healthcare UK Ltd)
+2464311000001104	Otrivine Child nasal drops (GlaxoSmithKline Consumer Healthcare UK Ltd)
+201111000001100	Tixycolds Cold and Allergy nasal drops (Novartis Consumer Health UK Ltd)
+2464711000001100	Tixycolds Cold and Allergy nasal drops (Novartis Consumer Health UK Ltd)
+331104002	Xylometazoline 0.1% nasal drops
+1199411000001106	Xylometazoline 0.1% nasal drops
+806311000001102	Otrivine Adult 0.1% nasal drops (GlaxoSmithKline Consumer Healthcare UK Ltd)
+2465811000001109	Otrivine Adult 0.1% nasal drops (GlaxoSmithKline Consumer Healthcare UK Ltd)
+729511000001106	Otradrops Adult Formula 0.1% nasal drops (Manx Healthcare Ltd)
+2466211000001102	Otradrops Adult Formula 0.1% nasal drops (Manx Healthcare Ltd)
+353205009	Xylometazoline 0.1% nasal spray
+1058111000001105	Xylometazoline 0.1% nasal spray
+4935311000001103	Xylometazoline 0.1% nasal spray
+136011000001101	Otraspray nasal spray (Manx Healthcare Ltd)
+2467111000001106	Otraspray nasal spray (Manx Healthcare Ltd)
+575711000001103	Otrivine Adult nasal spray (GlaxoSmithKline Consumer Healthcare UK Ltd)
+2467411000001101	Otrivine Adult nasal spray (GlaxoSmithKline Consumer Healthcare UK Ltd)
+12611000001109	Otrivine Adult Measured Dose Sinusitis spray (GlaxoSmithKline Consumer Healthcare UK Ltd)
+2467711000001107	Otrivine Adult Measured Dose Sinusitis spray (GlaxoSmithKline Consumer Healthcare UK Ltd)
+4596511000001102	Otrivine Adult Menthol nasal spray (Novartis Consumer Health UK Ltd)
+4596611000001103	Otrivine Adult Menthol nasal spray (Novartis Consumer Health UK Ltd)
+4935211000001106	Sudafed Blocked Nose 0.1% spray (McNeil Products Ltd)
+4935411000001105	Sudafed Blocked Nose 0.1% spray (McNeil Products Ltd)
+17531211000001106	Otrivine Adult Metered Dose 0.1% nasal spray (GlaxoSmithKline Consumer Healthcare UK Ltd)
+17531311000001103	Otrivine Adult Metered Dose 0.1% nasal spray (GlaxoSmithKline Consumer Healthcare UK Ltd)
+19904611000001101	Otrivine Allergy Relief 0.1% nasal spray (GlaxoSmithKline Consumer Healthcare UK Ltd)
+19904711000001105	Otrivine Allergy Relief 0.1% nasal spray (GlaxoSmithKline Consumer Healthcare UK Ltd)
+20002911000001106	Sudafed Mucus Relief 0.1% nasal spray (McNeil Products Ltd)
+20003011000001103	Sudafed Mucus Relief 0.1% nasal spray (McNeil Products Ltd)
+26349811000001107	Otrivine Congestion Relief 0.1% nasal spray (GlaxoSmithKline Consumer Healthcare UK Ltd)
+26350011000001106	Otrivine Congestion Relief 0.1% nasal spray (GlaxoSmithKline Consumer Healthcare UK Ltd)
+32277711000001103	Sudafed Congestion Relief 0.1% nasal spray (McNeil Products Ltd)
+32277811000001106	Sudafed Congestion Relief 0.1% nasal spray (McNeil Products Ltd)
+35825311000001101	Sudafed Sinus-Ease 0.1% nasal spray (McNeil Products Ltd)
+35825411000001108	Sudafed Sinus-Ease 0.1% nasal spray (McNeil Products Ltd)
+331163005	Triamcinolone 0.1% oromucosal paste
+1158811000001107	Triamcinolone 0.1% oromucosal paste
+1101511000001107	Triamcinolone 0.1% oromucosal paste
+28801611000001108	Triamcinolone 0.1% oromucosal paste
+155611000001102	Adcortyl In Orabase for Mouth Ulcer 0.1% oromucosal paste (Bristol-Myers Squibb Pharmaceuticals Ltd)
+2472711000001102	Adcortyl In Orabase for Mouth Ulcer 0.1% oromucosal paste (Bristol-Myers Squibb Pharmaceuticals Ltd)
+106211000001101	Adcortyl in Orabase 0.1% oromucosal paste (Bristol-Myers Squibb Pharmaceuticals Ltd)
+2473611000001101	Adcortyl in Orabase 0.1% oromucosal paste (Bristol-Myers Squibb Pharmaceuticals Ltd)
+28801711000001104	Triamcinolone 0.1% oromucosal paste (Drug Tariff Special Order)
+33577611000001108	Triamcinolone 0.1% oromucosal paste (Drug Tariff Special Order)
+28801811000001107	Triamcinolone 0.1% oromucosal paste (Drug Tariff Special Order)
+38750811000001108	Triamcinolone 55micrograms/dose nasal spray
+966111000001109	Triamcinolone 55micrograms/dose nasal spray
+15249511000001100	Triamcinolone 55micrograms/dose nasal spray
+269011000001101	Nasacort 55micrograms/dose nasal spray (Sanofi)
+2475611000001102	Nasacort 55micrograms/dose nasal spray (Sanofi)
+15249411000001104	Nasacort Allergy 55micrograms/dose nasal spray (Sanofi)
+15249611000001101	Nasacort Allergy 55micrograms/dose nasal spray (Sanofi)
+331046009	Sodium cromoglicate 4% nasal spray
+1132011000001100	Sodium cromoglicate 4% nasal spray
+920711000001103	Rynacrom 4% nasal spray (Sanofi)
+2487511000001104	Rynacrom 4% nasal spray (Sanofi)
+331001008	Docusate sodium 0.5% ear drops
+1244411000001100	Docusate sodium 0.5% ear drops
+383611000001103	Waxsol ear drops (Viatris UK Healthcare Ltd)
+2568511000001107	Waxsol ear drops (Viatris UK Healthcare Ltd)
+331035006	Flunisolide 25micrograms/dose nasal spray
+1326211000001100	Flunisolide 25micrograms/dose nasal spray
+35570011000001107	Flunisolide 25micrograms/dose nasal spray
+656911000001100	Syntaris 0.025% nasal spray (Teva UK Ltd)
+2604711000001104	Syntaris 0.025% nasal spray (Teva UK Ltd)
+35570111000001108	Flunisolide 25micrograms/dose nasal spray (Special Order)
+35570211000001102	Flunisolide 25micrograms/dose nasal spray (Special Order)
+39109911000001109	Mometasone 50micrograms/dose nasal spray
+1078811000001100	Mometasone 50micrograms/dose nasal spray
+5393511000001100	Mometasone 50micrograms/dose nasal spray
+123711000001109	Nasonex 50micrograms/dose nasal spray (Organon Pharma (UK) Ltd)
+2679411000001100	Nasonex 50micrograms/dose nasal spray (Organon Pharma (UK) Ltd)
+23655711000001104	Mometasone 50micrograms/dose nasal spray (Sandoz Ltd)
+23655811000001107	Mometasone 50micrograms/dose nasal spray (Sandoz Ltd)
+23679811000001107	Mometasone 50micrograms/dose nasal spray (A A H Pharmaceuticals Ltd)
+23680011000001101	Mometasone 50micrograms/dose nasal spray (A A H Pharmaceuticals Ltd)
+23679911000001102	Mometasone 50micrograms/dose nasal spray (Teva UK Ltd)
+23680111000001100	Mometasone 50micrograms/dose nasal spray (Teva UK Ltd)
+23726411000001109	Mometasone 50micrograms/dose nasal spray (Alliance Healthcare (Distribution) Ltd)
+23726611000001107	Mometasone 50micrograms/dose nasal spray (Alliance Healthcare (Distribution) Ltd)
+24605011000001106	Mometasone 50micrograms/dose nasal spray (Actavis UK Ltd)
+24605111000001107	Mometasone 50micrograms/dose nasal spray (Actavis UK Ltd)
+29925411000001109	Mometasone 50micrograms/dose nasal spray (Sigma Pharmaceuticals Plc)
+29925711000001103	Mometasone 50micrograms/dose nasal spray (Sigma Pharmaceuticals Plc)
+30061811000001108	Mometasone 50micrograms/dose nasal spray (DE Pharmaceuticals)
+30061911000001103	Mometasone 50micrograms/dose nasal spray (DE Pharmaceuticals)
+32423511000001103	Mometasone 50micrograms/dose nasal spray (Kent Pharma (UK) Ltd)
+32423711000001108	Mometasone 50micrograms/dose nasal spray (Kent Pharma (UK) Ltd)
+34957111000001107	Mometasone 50micrograms/dose nasal spray (Almus Pharmaceuticals Ltd)
+34957211000001101	Mometasone 50micrograms/dose nasal spray (Almus Pharmaceuticals Ltd)
+36806611000001106	Mometasone 50micrograms/dose nasal spray (NorthStar Healthcare Unlimited Company)
+36806911000001100	Mometasone 50micrograms/dose nasal spray (NorthStar Healthcare Unlimited Company)
+37122311000001100	Mometasone 50micrograms/dose nasal spray (Mawdsley-Brooks & Company Ltd)
+37122411000001107	Mometasone 50micrograms/dose nasal spray (Mawdsley-Brooks & Company Ltd)
+39049411000001104	Mometasone 50micrograms/dose nasal spray (Medihealth (Northern) Ltd)
+39049511000001100	Mometasone 50micrograms/dose nasal spray (Medihealth (Northern) Ltd)
+331177008	Choline salicylate 8.7% oromucosal gel sugar free
+1231211000001100	Choline salicylate 8.7% oromucosal gel sugar free
+4778711000001103	Choline salicylate 8.7% oromucosal gel sugar free
+430511000001108	Bonjela Original gel (Reckitt Benckiser Healthcare (UK) Ltd)
+2679711000001106	Bonjela Original gel (Reckitt Benckiser Healthcare (UK) Ltd)
+4778811000001106	Dinneford's Teejel gel (SSL International Plc)
+4778911000001101	Dinneford's Teejel gel (SSL International Plc)
+9467511000001107	Bonjela Cool Mint gel (Reckitt Benckiser Healthcare (UK) Ltd)
+9467611000001106	Bonjela Cool Mint gel (Reckitt Benckiser Healthcare (UK) Ltd)
+330920003	Flumetasone 0.02% / Clioquinol 1% ear drops
+1066611000001107	Flumetasone 0.02% / Clioquinol 1% ear drops
+12201811000001107	Flumetasone 0.02% / Clioquinol 1% ear drops
+903511000001109	Locorten Vioform ear drops (Advanz Pharma)
+2683811000001105	Locorten Vioform ear drops (Advanz Pharma)
+12201911000001102	Locorten Vioform ear drops (Advanz Pharma)
+24612911000001104	Flumetasone 0.02% / Clioquinol 1% ear drops (Advanz Pharma)
+24613011000001107	Flumetasone 0.02% / Clioquinol 1% ear drops (Advanz Pharma)
+24613111000001108	Flumetasone 0.02% / Clioquinol 1% ear drops (Advanz Pharma)
+24774711000001109	Flumetasone 0.02% / Clioquinol 1% ear drops (Alliance Healthcare (Distribution) Ltd)
+24774911000001106	Flumetasone 0.02% / Clioquinol 1% ear drops (Alliance Healthcare (Distribution) Ltd)
+24775111000001107	Flumetasone 0.02% / Clioquinol 1% ear drops (Alliance Healthcare (Distribution) Ltd)
+24918311000001103	Flumetasone 0.02% / Clioquinol 1% ear drops (A A H Pharmaceuticals Ltd)
+24918411000001105	Flumetasone 0.02% / Clioquinol 1% ear drops (A A H Pharmaceuticals Ltd)
+24918511000001109	Flumetasone 0.02% / Clioquinol 1% ear drops (A A H Pharmaceuticals Ltd)
+37381511000001101	Flumetasone 0.02% / Clioquinol 1% ear drops (DE Pharmaceuticals)
+37381711000001106	Flumetasone 0.02% / Clioquinol 1% ear drops (DE Pharmaceuticals)
+331083009	Ephedrine 0.5% nasal drops
+1019211000001102	Ephedrine 0.5% nasal drops
+1246411000001108	Ephedrine 0.5% nasal drops
+781711000001105	Ephedrine 0.5% nasal drops (A A H Pharmaceuticals Ltd)
+2708011000001104	Ephedrine 0.5% nasal drops (A A H Pharmaceuticals Ltd)
+833511000001105	Ephedrine 0.5% nasal drops (Thornton & Ross Ltd)
+2708411000001108	Ephedrine 0.5% nasal drops (Thornton & Ross Ltd)
+162611000001104	Ephedrine 0.5% nasal drops (Alliance Healthcare (Distribution) Ltd)
+2708611000001106	Ephedrine 0.5% nasal drops (Alliance Healthcare (Distribution) Ltd)
+2708711000001102	Ephedrine 0.5% nasal drops (Alliance Healthcare (Distribution) Ltd)
+38883711000001103	Ephedrine 0.5% nasal drops (Medihealth (Northern) Ltd)
+38883811000001106	Ephedrine 0.5% nasal drops (Medihealth (Northern) Ltd)
+331084003	Ephedrine 1% nasal drops
+996311000001109	Ephedrine 1% nasal drops
+103211000001108	Ephedrine 1% nasal drops (A A H Pharmaceuticals Ltd)
+2727211000001103	Ephedrine 1% nasal drops (A A H Pharmaceuticals Ltd)
+245511000001100	Ephedrine 1% nasal drops (The Boots Company Plc)
+2727311000001106	Ephedrine 1% nasal drops (The Boots Company Plc)
+835711000001104	Ephedrine 1% nasal drops (Thornton & Ross Ltd)
+2727411000001104	Ephedrine 1% nasal drops (Thornton & Ross Ltd)
+324311000001102	Ephedrine 1% nasal drops (Alliance Healthcare (Distribution) Ltd)
+2727511000001100	Ephedrine 1% nasal drops (Alliance Healthcare (Distribution) Ltd)
+331141001	Neomycin 0.5% / Chlorhexidine hydrochloride 0.1% cream
+1176211000001108	Neomycin 0.5% / Chlorhexidine hydrochloride 0.1% cream
+286111000001105	Naseptin nasal cream (Alliance Pharmaceuticals Ltd)
+2784411000001103	Naseptin nasal cream (Alliance Pharmaceuticals Ltd)
+39719911000001101	Nystatin 100,000unit pastilles
+1260311000001107	Nystatin 100,000unit pastilles
+338511000001104	Nystan 100,000unit pastilles (Bristol-Myers Squibb Pharmaceuticals Ltd)
+2787011000001104	Nystan 100,000unit pastilles (Bristol-Myers Squibb Pharmaceuticals Ltd)
+39110511000001107	Fluticasone propionate 50micrograms/dose nasal spray
+1119911000001104	Fluticasone propionate 50micrograms/dose nasal spray
+4365011000001101	Fluticasone propionate 50micrograms/dose nasal spray
+5366311000001100	Fluticasone propionate 50micrograms/dose nasal spray
+480211000001100	Flixonase 50micrograms/dose aqueous nasal spray (GlaxoSmithKline UK Ltd)
+2810911000001102	Flixonase 50micrograms/dose aqueous nasal spray (GlaxoSmithKline UK Ltd)
+4365311000001103	Pirinase Hayfever 0.05% nasal spray (GlaxoSmithKline Consumer Healthcare UK Ltd)
+4365611000001108	Pirinase Hayfever 0.05% nasal spray (GlaxoSmithKline Consumer Healthcare UK Ltd)
+37434211000001102	Pirinase Hayfever 0.05% nasal spray (GlaxoSmithKline Consumer Healthcare UK Ltd)
+9310711000001107	Nasofan 50micrograms/dose aqueous nasal spray (Teva UK Ltd)
+9310911000001109	Nasofan 50micrograms/dose aqueous nasal spray (Teva UK Ltd)
+9328511000001107	Fluticasone propionate 50micrograms/dose nasal spray (Kent Pharma (UK) Ltd)
+9328611000001106	Fluticasone propionate 50micrograms/dose nasal spray (Kent Pharma (UK) Ltd)
+11177911000001100	Nasofan Allergy 50micrograms/dose nasal spray (Teva UK Ltd)
+11178011000001103	Nasofan Allergy 50micrograms/dose nasal spray (Teva UK Ltd)
+20534011000001109	Boots Pharmacy Hayfever and Allergy 50micrograms/dose nasal spray (The Boots Company Plc)
+20534111000001105	Boots Pharmacy Hayfever and Allergy 50micrograms/dose nasal spray (The Boots Company Plc)
+31572011000001107	Pirinase Hayfever Relief for Adults 0.05% nasal spray (GlaxoSmithKline Consumer Healthcare UK Ltd)
+31572311000001105	Pirinase Hayfever Relief for Adults 0.05% nasal spray (GlaxoSmithKline Consumer Healthcare UK Ltd)
+35912211000001104	Budesonide 100micrograms/dose nasal spray
+1020811000001102	Budesonide 100micrograms/dose nasal spray
+1131711000001105	Budesonide 100micrograms/dose nasal spray
+19528211000001105	Budesonide 100micrograms/dose nasal spray
+117711000001109	Budesonide 100micrograms/dose nasal spray (A A H Pharmaceuticals Ltd)
+2812511000001105	Budesonide 100micrograms/dose nasal spray (A A H Pharmaceuticals Ltd)
+9222311000001106	Budesonide 100micrograms/dose nasal spray (A A H Pharmaceuticals Ltd)
+544311000001102	Rhinocort Aqua 100micrograms/dose nasal spray (AstraZeneca UK Ltd)
+2812911000001103	Rhinocort Aqua 100micrograms/dose nasal spray (AstraZeneca UK Ltd)
+65711000001108	Budesonide 100micrograms/dose nasal spray (Kent Pharma (UK) Ltd)
+2813111000001107	Budesonide 100micrograms/dose nasal spray (Kent Pharma (UK) Ltd)
+9088711000001106	Budesonide 100micrograms/dose nasal spray (Kent Pharma (UK) Ltd)
+642611000001107	Budesonide 100micrograms/dose nasal spray (Viatris UK Healthcare Ltd)
+2813811000001100	Budesonide 100micrograms/dose nasal spray (Viatris UK Healthcare Ltd)
+10271611000001106	Budesonide 100micrograms/dose nasal spray (Alliance Healthcare (Distribution) Ltd)
+10271711000001102	Budesonide 100micrograms/dose nasal spray (Alliance Healthcare (Distribution) Ltd)
+15060211000001106	Budesonide 100micrograms/dose nasal spray (Sigma Pharmaceuticals Plc)
+15060311000001103	Budesonide 100micrograms/dose nasal spray (Sigma Pharmaceuticals Plc)
+19528311000001102	Budeflam Aquanase 100micrograms/dose nasal spray (Imported (South Africa))
+19528411000001109	Budeflam Aquanase 100micrograms/dose nasal spray (Imported (South Africa))
+28871811000001101	Aircort 100micrograms/dose nasal spray (Imported (Italy))
+28871911000001106	Aircort 100micrograms/dose nasal spray (Imported (Italy))
+330953008	Betamethasone 0.1% / Neomycin 0.5% ear/eye/nose drops
+2839211000001105	Betamethasone 0.1% / Neomycin 0.5% ear/eye/nose drops
+2839311000001102	Betamethasone 0.1% / Neomycin 0.5% ear/eye/nose drops
+2839411000001109	Vistamethasone N ear/eye/nose drops (Martindale Pharmaceuticals Ltd)
+2839511000001108	Vistamethasone N ear/eye/nose drops (Martindale Pharmaceuticals Ltd)
+2839611000001107	Vistamethasone N ear/eye/nose drops (Martindale Pharmaceuticals Ltd)
+2839711000001103	Betnesol-N ear/eye/nose drops (RPH Pharmaceuticals AB)
+2839811000001106	Betnesol-N ear/eye/nose drops (RPH Pharmaceuticals AB)
+330950006	Prednisolone 0.5% / Neomycin 0.5% ear/eye drops
+2839911000001101	Prednisolone 0.5% / Neomycin 0.5% ear/eye drops
+2840211000001102	Predsol-N ear/eye drops (Focus Pharmaceuticals Ltd)
+2840311000001105	Predsol-N ear/eye drops (Focus Pharmaceuticals Ltd)
+36148411000001106	Urea hydrogen peroxide 5% ear drops
+2900011000001107	Urea hydrogen peroxide 5% ear drops
+2900411000001103	Otex 5% ear drops (Diomed Developments Ltd)
+2900711000001109	Otex 5% ear drops (Diomed Developments Ltd)
+2901311000001100	Exterol 5% ear drops (Dermal Laboratories Ltd)
+2901611000001105	Exterol 5% ear drops (Dermal Laboratories Ltd)
+331140000	Mupirocin 2% nasal ointment
+2906611000001103	Mupirocin 2% nasal ointment
+40229511000001109	Mupirocin 2% nasal ointment
+2906711000001107	Bactroban 2% nasal ointment (GlaxoSmithKline UK Ltd)
+2906911000001109	Bactroban 2% nasal ointment (GlaxoSmithKline UK Ltd)
+40229311000001103	Mupirocin 2% nasal ointment (Tetris Pharma Ltd)
+40229611000001108	Mupirocin 2% nasal ointment (Tetris Pharma Ltd)
+330936001	Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops
+2914511000001106	Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops
+2914711000001101	Gentisone HC ear drops (Advanz Pharma)
+2914911000001104	Gentisone HC ear drops (Advanz Pharma)
+28800011000001105	Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops (Advanz Pharma)
+28800111000001106	Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops (Advanz Pharma)
+28972911000001107	Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops (Alliance Healthcare (Distribution) Ltd)
+28973011000001104	Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops (Alliance Healthcare (Distribution) Ltd)
+37386611000001109	Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops (DE Pharmaceuticals)
+37386911000001103	Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops (DE Pharmaceuticals)
+39855511000001100	Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops (Medihealth (Northern) Ltd)
+39855611000001101	Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops (Medihealth (Northern) Ltd)
+400605006	Tramazoline 120micrograms/dose / Dexamethasone 20micrograms/dose nasal spray
+2934111000001106	Tramazoline 120micrograms/dose / Dexamethasone 20micrograms/dose nasal spray
+2934211000001100	Dexa-Rhinaspray Duo nasal spray (Boehringer Ingelheim Ltd)
+2934311000001108	Dexa-Rhinaspray Duo nasal spray (Boehringer Ingelheim Ltd)
+39111911000001107	Beclometasone 50micrograms/dose nasal spray
+2938611000001108	Beclometasone 50micrograms/dose nasal spray
+2941811000001102	Beclometasone 50micrograms/dose nasal spray
+2941911000001107	Beclometasone 50micrograms/dose nasal spray
+2938811000001107	Beclometasone 50micrograms/dose nasal spray (A A H Pharmaceuticals Ltd)
+2938911000001102	Beclometasone 50micrograms/dose nasal spray (A A H Pharmaceuticals Ltd)
+2939011000001106	Beclometasone 50micrograms/dose nasal spray (Actavis UK Ltd)
+2939111000001107	Beclometasone 50micrograms/dose nasal spray (Actavis UK Ltd)
+2939211000001101	Beclometasone 50micrograms/dose nasal spray (Viatris UK Healthcare Ltd)
+2939311000001109	Beclometasone 50micrograms/dose nasal spray (Viatris UK Healthcare Ltd)
+2939411000001102	Beclometasone 50micrograms/dose nasal spray (Kent Pharma (UK) Ltd)
+2939511000001103	Beclometasone 50micrograms/dose nasal spray (Kent Pharma (UK) Ltd)
+2939811000001100	Beclometasone 50micrograms/dose nasal spray (Alliance Healthcare (Distribution) Ltd)
+2940011000001104	Beclometasone 50micrograms/dose nasal spray (Alliance Healthcare (Distribution) Ltd)
+2940211000001109	Beclo-Aqua 50micrograms/dose nasal spray (Galen Ltd)
+2940311000001101	Beclo-Aqua 50micrograms/dose nasal spray (Galen Ltd)
+2940411000001108	Beconase Aqueous 50micrograms/dose nasal spray (GlaxoSmithKline UK Ltd)
+2940511000001107	Beconase Aqueous 50micrograms/dose nasal spray (GlaxoSmithKline UK Ltd)
+2940611000001106	Nasobec Aqueous 50micrograms/dose nasal spray (Teva UK Ltd)
+2940711000001102	Nasobec Aqueous 50micrograms/dose nasal spray (Teva UK Ltd)
+2940911000001100	Vivabec 50micrograms/dose nasal spray (Lexon (UK) Ltd)
+2941011000001108	Vivabec 50micrograms/dose nasal spray (Lexon (UK) Ltd)
+2942511000001108	Beconase Hayfever 50micrograms/dose nasal spray (Omega Pharma Ltd)
+2945411000001101	Beconase Hayfever 50micrograms/dose nasal spray (Omega Pharma Ltd)
+2944911000001105	Beconase Hayfever 50micrograms/dose nasal spray (Omega Pharma Ltd)
+2946111000001100	Nasobec Hayfever 50micrograms/dose nasal spray (Teva UK Ltd)
+2946411000001105	Nasobec Hayfever 50micrograms/dose nasal spray (Teva UK Ltd)
+2946911000001102	Care Hayfever Relief 50micrograms/dose nasal spray (Thornton & Ross Ltd)
+2947211000001108	Care Hayfever Relief 50micrograms/dose nasal spray (Thornton & Ross Ltd)
+4636511000001101	Rino Clenil 50micrograms/dose nasal spray (Chiesi Ltd)
+4637011000001107	Rino Clenil 50micrograms/dose nasal spray (Chiesi Ltd)
+4699711000001105	Pollenase Hayfever 50micrograms/dose nasal spray (East Midlands Pharma Ltd)
+4699811000001102	Pollenase Hayfever 50micrograms/dose nasal spray (East Midlands Pharma Ltd)
+6497711000001106	Beconase Hayfever Relief for Adults 50micrograms/dose nasal spray (Omega Pharma Ltd)
+6498111000001106	Beconase Hayfever Relief for Adults 50micrograms/dose nasal spray (Omega Pharma Ltd)
+9189011000001107	Beclometasone 50micrograms/dose nasal spray (Teva UK Ltd)
+9189111000001108	Beclometasone 50micrograms/dose nasal spray (Teva UK Ltd)
+11578811000001101	Beclometasone 50micrograms/dose nasal spray (Vantage)
+11578911000001106	Beclometasone 50micrograms/dose nasal spray (Vantage)
+13646311000001107	Beclometasone Hayfever Relief 50micrograms/dose nasal spray (Numark Ltd)
+13646411000001100	Beclometasone Hayfever Relief 50micrograms/dose nasal spray (Numark Ltd)
+15069111000001105	Beclometasone 50micrograms/dose nasal spray (PLIVA Pharma Ltd)
+15069211000001104	Beclometasone 50micrograms/dose nasal spray (PLIVA Pharma Ltd)
+17794911000001106	Beclometasone 50micrograms/dose nasal spray (Phoenix Healthcare Distribution Ltd)
+17795111000001107	Beclometasone 50micrograms/dose nasal spray (Phoenix Healthcare Distribution Ltd)
+20119311000001105	Pollenase Hayfever Relief for Adults 50micrograms/dose nasal spray (East Midlands Pharma Ltd)
+20119411000001103	Pollenase Hayfever Relief for Adults 50micrograms/dose nasal spray (East Midlands Pharma Ltd)
+21782111000001102	Beclometasone 50micrograms/dose nasal spray (Waymade Healthcare Plc)
+21782311000001100	Beclometasone 50micrograms/dose nasal spray (Waymade Healthcare Plc)
+21782211000001108	Beclometasone 50micrograms/dose nasal spray (Waymade Healthcare Plc)
+24664011000001108	Numark Hayfever Relief 50micrograms/dose nasal spray (Numark Ltd)
+24664111000001109	Numark Hayfever Relief 50micrograms/dose nasal spray (Numark Ltd)
+27980111000001109	Numark Hayfever Relief 50micrograms/dose nasal spray (Numark Ltd)
+29773711000001106	Beclometasone 50micrograms/dose nasal spray (Sigma Pharmaceuticals Plc)
+29773811000001103	Beclometasone 50micrograms/dose nasal spray (Sigma Pharmaceuticals Plc)
+29998711000001104	Beclometasone 50micrograms/dose nasal spray (Mawdsley-Brooks & Company Ltd)
+29998811000001107	Beclometasone 50micrograms/dose nasal spray (Mawdsley-Brooks & Company Ltd)
+30027511000001108	Beclometasone 50micrograms/dose nasal spray (DE Pharmaceuticals)
+30027611000001107	Beclometasone 50micrograms/dose nasal spray (DE Pharmaceuticals)
+38804811000001108	Beclometasone 50micrograms/dose nasal spray (Medihealth (Northern) Ltd)
+38804911000001103	Beclometasone 50micrograms/dose nasal spray (Medihealth (Northern) Ltd)
+39112311000001102	Chlorhexidine gluconate 0.2% mouthwash
+3028411000001105	Chlorhexidine gluconate 0.2% mouthwash
+3028611000001108	Chlorhexidine gluconate 0.2% mouthwash
+22686211000001100	Chlorhexidine gluconate 0.2% mouthwash
+24648111000001106	Chlorhexidine gluconate 0.2% mouthwash
+3029111000001107	Chlorhexidine gluconate 0.2% mouthwash original (A A H Pharmaceuticals Ltd)
+3029211000001101	Chlorhexidine gluconate 0.2% mouthwash original (A A H Pharmaceuticals Ltd)
+3029411000001102	Chlorhexidine gluconate 0.2% mouthwash peppermint (A A H Pharmaceuticals Ltd)
+3029711000001108	Chlorhexidine gluconate 0.2% mouthwash peppermint (A A H Pharmaceuticals Ltd)
+3030011000001100	Chlorhexidine gluconate 0.2% mouthwash aniseed (A A H Pharmaceuticals Ltd)
+3030111000001104	Chlorhexidine gluconate 0.2% mouthwash aniseed (A A H Pharmaceuticals Ltd)
+3030411000001109	Chlorhexidine gluconate 0.2% mouthwash natural (Ecolab Healthcare Division)
+3030511000001108	Chlorhexidine gluconate 0.2% mouthwash natural (Ecolab Healthcare Division)
+3030711000001103	Chlorhexidine gluconate 0.2% mouthwash peppermint (Ecolab Healthcare Division)
+3030811000001106	Chlorhexidine gluconate 0.2% mouthwash peppermint (Ecolab Healthcare Division)
+3031111000001105	Chlorhexidine gluconate 0.2% mouthwash aniseed (Ecolab Healthcare Division)
+3031411000001100	Chlorhexidine gluconate 0.2% mouthwash aniseed (Ecolab Healthcare Division)
+3032011000001101	Corsodyl 0.2% mouthwash aniseed (GlaxoSmithKline Consumer Healthcare UK Ltd)
+3032111000001100	Corsodyl 0.2% mouthwash aniseed (GlaxoSmithKline Consumer Healthcare UK Ltd)
+3032211000001106	Corsodyl Mint 0.2% mouthwash (GlaxoSmithKline Consumer Healthcare UK Ltd)
+3032811000001107	Corsodyl Mint 0.2% mouthwash (GlaxoSmithKline Consumer Healthcare UK Ltd)
+3032911000001102	Corsodyl Mint 0.2% mouthwash (GlaxoSmithKline Consumer Healthcare UK Ltd)
+3033011000001105	Chlorhexidine gluconate 0.2% mouthwash plain (Alliance Healthcare (Distribution) Ltd)
+3033211000001100	Chlorhexidine gluconate 0.2% mouthwash plain (Alliance Healthcare (Distribution) Ltd)
+3033311000001108	Chlorhexidine gluconate 0.2% mouthwash peppermint (Alliance Healthcare (Distribution) Ltd)
+3033511000001102	Chlorhexidine gluconate 0.2% mouthwash peppermint (Alliance Healthcare (Distribution) Ltd)
+3033611000001103	Chlorhexidine gluconate 0.2% mouthwash aniseed (Alliance Healthcare (Distribution) Ltd)
+3033811000001104	Chlorhexidine gluconate 0.2% mouthwash aniseed (Alliance Healthcare (Distribution) Ltd)
+7382011000001104	Chlorhexidine gluconate 0.2% mouthwash aniseed (Thornton & Ross Ltd)
+7382111000001103	Chlorhexidine gluconate 0.2% mouthwash aniseed (Thornton & Ross Ltd)
+10146911000001108	Chlorhexidine gluconate 0.2% mouthwash (Lloyds Pharmacy Ltd)
+10147011000001107	Chlorhexidine gluconate 0.2% mouthwash (Lloyds Pharmacy Ltd)
+11782711000001102	Tarodent 0.2% mouthwash (Taro Pharmaceuticals (UK) Ltd)
+11782811000001105	Tarodent 0.2% mouthwash (Taro Pharmaceuticals (UK) Ltd)
+13662911000001101	Chlorhexidine gluconate 0.2% mouthwash (Numark Ltd)
+13663011000001109	Chlorhexidine gluconate 0.2% mouthwash (Numark Ltd)
+18086911000001105	Chlorhexidine gluconate 0.2% mouthwash peppermint (Phoenix Healthcare Distribution Ltd)
+18087011000001109	Chlorhexidine gluconate 0.2% mouthwash peppermint (Phoenix Healthcare Distribution Ltd)
+18087111000001105	Chlorhexidine gluconate 0.2% mouthwash original (Phoenix Healthcare Distribution Ltd)
+18087211000001104	Chlorhexidine gluconate 0.2% mouthwash original (Phoenix Healthcare Distribution Ltd)
+21837611000001104	Chlorhexidine gluconate 0.2% mouthwash original (Waymade Healthcare Plc)
+21837711000001108	Chlorhexidine gluconate 0.2% mouthwash original (Waymade Healthcare Plc)
+21837811000001100	Chlorhexidine gluconate 0.2% mouthwash peppermint (Waymade Healthcare Plc)
+21847211000001100	Chlorhexidine gluconate 0.2% mouthwash peppermint (Waymade Healthcare Plc)
+21967711000001106	Corsodyl 0.2% mouthwash alcohol free (GlaxoSmithKline Consumer Healthcare UK Ltd)
+21967811000001103	Corsodyl 0.2% mouthwash alcohol free (GlaxoSmithKline Consumer Healthcare UK Ltd)
+24648211000001100	Chlorhexidine gluconate 0.2% mouthwash alcohol free (Colorama Pharmaceuticals Ltd)
+28106911000001103	Chlorhexidine gluconate 0.2% mouthwash alcohol free (Colorama Pharmaceuticals Ltd)
+24648511000001102	Chlorhexidine gluconate 0.2% mouthwash alcohol free (Colorama Pharmaceuticals Ltd)
+27475611000001102	Colgate Pro Gum Health 0.2% antiseptic mouthwash (Colgate-Palmolive (UK) Ltd)
+27475911000001108	Colgate Pro Gum Health 0.2% antiseptic mouthwash (Colgate-Palmolive (UK) Ltd)
+27994311000001104	Chlorhexidine gluconate 0.2% mouthwash alcohol free (J M McGill Ltd)
+27994411000001106	Chlorhexidine gluconate 0.2% mouthwash alcohol free (J M McGill Ltd)
+27994511000001105	Chlorhexidine gluconate 0.2% mouthwash alcohol free (J M McGill Ltd)
+28887111000001108	Chlorhexidine gluconate 0.2% mouthwash alcohol free (Niche Pharma Ltd)
+28887211000001102	Chlorhexidine gluconate 0.2% mouthwash alcohol free (Niche Pharma Ltd)
+28887311000001105	Chlorhexidine gluconate 0.2% mouthwash alcohol free (Niche Pharma Ltd)
+30926711000001109	Chlorhexidine gluconate 0.2% mouthwash alcohol free (DE Pharmaceuticals)
+30926811000001101	Chlorhexidine gluconate 0.2% mouthwash alcohol free (DE Pharmaceuticals)
+33762411000001102	Chlorhexidine gluconate 0.2% mouthwash peppermint (Thornton & Ross Ltd)
+33762611000001104	Chlorhexidine gluconate 0.2% mouthwash peppermint (Thornton & Ross Ltd)
+39207311000001101	Chlorhexidine gluconate 0.2% mouthwash original (Medihealth (Northern) Ltd)
+39207511000001107	Chlorhexidine gluconate 0.2% mouthwash original (Medihealth (Northern) Ltd)
+39208111000001102	Chlorhexidine gluconate 0.2% mouthwash peppermint (Medihealth (Northern) Ltd)
+39208411000001107	Chlorhexidine gluconate 0.2% mouthwash peppermint (Medihealth (Northern) Ltd)
+36055811000001106	Hexetidine 0.1% mouthwash sugar free
+3056911000001102	Hexetidine 0.1% mouthwash sugar free
+3057011000001103	Hexetidine 0.1% mouthwash sugar free
+3057211000001108	Oraldene 0.1% mouthwash peppermint (McNeil Products Ltd)
+3057411000001107	Oraldene 0.1% mouthwash peppermint (McNeil Products Ltd)
+3057611000001105	Oraldene 0.1% mouthwash peppermint (McNeil Products Ltd)
+11623311000001108	Oraldene Icemint 0.1% mouthwash (McNeil Products Ltd)
+11623411000001101	Oraldene Icemint 0.1% mouthwash (McNeil Products Ltd)
+331164004	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free
+3083111000001104	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free
+3083211000001105	Corlan 2.5mg Pellets (Auden McKenzie (Pharma Division) Ltd)
+3083311000001102	Corlan 2.5mg Pellets (Auden McKenzie (Pharma Division) Ltd)
+17872211000001101	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Accord Healthcare Ltd)
+17872311000001109	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Accord Healthcare Ltd)
+18032711000001102	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+18032811000001105	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+18111811000001101	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (A A H Pharmaceuticals Ltd)
+18111911000001106	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (A A H Pharmaceuticals Ltd)
+18725311000001107	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Sigma Pharmaceuticals Plc)
+18725611000001102	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Sigma Pharmaceuticals Plc)
+22044211000001107	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Waymade Healthcare Plc)
+22044311000001104	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Waymade Healthcare Plc)
+24149511000001107	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (DE Pharmaceuticals)
+24149611000001106	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (DE Pharmaceuticals)
+37087211000001105	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Mawdsley-Brooks & Company Ltd)
+37087411000001109	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Mawdsley-Brooks & Company Ltd)
+38945911000001104	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Medihealth (Northern) Ltd)
+38946011000001107	Hydrocortisone 2.5mg muco-adhesive buccal tablets sugar free (Medihealth (Northern) Ltd)
+330973003	Neomycin 0.35% / Triamcinolone 0.1% ear drops
+3156611000001104	Neomycin 0.35% / Triamcinolone 0.1% ear drops
+3156911000001105	Audicort ear drops (Mercury Pharma Group Ltd)
+3157111000001105	Audicort ear drops (Mercury Pharma Group Ltd)
+324682007	Miconazole 20mg/g oromucosal gel sugar free
+3163911000001108	Miconazole 20mg/g oromucosal gel sugar free
+3164011000001106	Miconazole 20mg/g oromucosal gel sugar free
+3164211000001101	Daktarin 20mg/g oromucosal gel (Johnson & Johnson Ltd)
+3164411000001102	Daktarin 20mg/g oromucosal gel (Johnson & Johnson Ltd)
+3164511000001103	Daktarin 20mg/g oromucosal gel (Johnson & Johnson Ltd)
+14718011000001108	Daktarin 20mg/g oromucosal gel (Janssen-Cilag Ltd)
+14718311000001106	Daktarin 20mg/g oromucosal gel (Janssen-Cilag Ltd)
+38896611000001102	Ipratropium bromide 21micrograms/dose nasal spray
+3346011000001104	Ipratropium bromide 21micrograms/dose nasal spray
+3346411000001108	Rinatec 21micrograms/dose nasal spray (Sanofi)
+3346711000001102	Rinatec 21micrograms/dose nasal spray (Sanofi)
+331057004	Azelastine 140micrograms/dose nasal spray
+3601511000001100	Azelastine 140micrograms/dose nasal spray
+4247311000001106	Azelastine 140micrograms/dose nasal spray
+7386211000001105	Azelastine 140micrograms/dose nasal spray
+7424811000001102	Azelastine 140micrograms/dose nasal spray
+3601611000001101	Rhinolast 140micrograms/dose nasal spray (Viatris UK Healthcare Ltd)
+3601711000001105	Rhinolast 140micrograms/dose nasal spray (Viatris UK Healthcare Ltd)
+7386311000001102	Rhinolast 140micrograms/dose nasal spray (Viatris UK Healthcare Ltd)
+4247411000001104	Aller-Eze 140micrograms/dose nasal spray (Novartis Consumer Health UK Ltd)
+7424911000001107	Aller-Eze 140micrograms/dose nasal spray (Novartis Consumer Health UK Ltd)
+331284008	Chlorhexidine 1% dental gel sugar free
+3637011000001109	Chlorhexidine 1% dental gel sugar free
+3637111000001105	Corsodyl 1% dental gel (GlaxoSmithKline Consumer Healthcare UK Ltd)
+3637311000001107	Corsodyl 1% dental gel (GlaxoSmithKline Consumer Healthcare UK Ltd)
+331288006	Chlorhexidine 0.2% oral spray sugar free
+3638311000001108	Chlorhexidine 0.2% oral spray sugar free
+3639011000001100	Corsodyl 0.2% oral spray (GlaxoSmithKline Consumer Healthcare UK Ltd)
+3639211000001105	Corsodyl 0.2% oral spray (GlaxoSmithKline Consumer Healthcare UK Ltd)
+330900004	Acetic acid 2% ear spray
+3697611000001108	Acetic acid 2% ear spray
+3697711000001104	EarCalm 2% spray (Teva UK Ltd)
+3697811000001107	EarCalm 2% spray (Teva UK Ltd)
+3731811000001100	Cetylpyridinium chloride 1.4mg lozenges
+3717111000001106	Cetylpyridinium chloride 1.4mg lozenges
+3717211000001100	Merocets 1.4mg lozenges (SSL International Plc)
+3717311000001108	Merocets 1.4mg lozenges (SSL International Plc)
+3731911000001105	Dichlorobenzyl alcohol 1.2mg / Amylmetacresol 600microgram lozenges
+3729311000001106	Dichlorobenzyl alcohol 1.2mg / Amylmetacresol 600microgram lozenges
+12209711000001100	Dichlorobenzyl alcohol 1.2mg / Amylmetacresol 600microgram lozenges
+13096311000001106	Dichlorobenzyl alcohol 1.2mg / Amylmetacresol 600microgram lozenges
+13096411000001104	Dichlorobenzyl alcohol 1.2mg / Amylmetacresol 600microgram lozenges
+3729411000001104	Strepsils Honey and Lemon lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+3729511000001100	Strepsils Honey and Lemon lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+12209911000001103	Strepsils Honey and Lemon lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+13097311000001109	Strepsils Honey and Lemon lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+13097411000001102	Strepsils Honey and Lemon lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+3729611000001101	Strepsils lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+3729711000001105	Strepsils lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+12210011000001108	Strepsils lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+13096611000001101	Strepsils lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+13096711000001105	Strepsils lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+14692911000001101	Strepsils Cool lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+21524411000001105	Strepsils Cool lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+14693011000001109	Strepsils Cool lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+14693111000001105	Strepsils Cool lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+18597411000001104	Strepsils Warm lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+21524311000001103	Strepsils Warm lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+18597511000001100	Strepsils Warm lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+18597611000001101	Strepsils Warm lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+35748911000001105	Strepsils Menthol 1.2mg/600microgram lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+35749111000001100	Strepsils Menthol 1.2mg/600microgram lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+34820611000001109	Thymol glycerin compound mouthwash
+3729911000001107	Thymol glycerin compound mouthwash
+3730011000001102	Thymol glycerin compound mouthwash
+3730211000001107	Thymol glycerin compound mouthwash
+3730311000001104	Thymol glycerin compound mouthwash (A A H Pharmaceuticals Ltd)
+3730411000001106	Thymol glycerin compound mouthwash (A A H Pharmaceuticals Ltd)
+3730511000001105	Thymol glycerin compound mouthwash (A A H Pharmaceuticals Ltd)
+3730611000001109	Thymol glycerin compound mouthwash (A A H Pharmaceuticals Ltd)
+3730711000001100	Thymol glycerin compound mouthwash (Thornton & Ross Ltd)
+3730811000001108	Thymol glycerin compound mouthwash (Thornton & Ross Ltd)
+3730911000001103	Thymol glycerin compound mouthwash (Thornton & Ross Ltd)
+3731011000001106	Thymol glycerin compound mouthwash (Alliance Healthcare (Distribution) Ltd)
+3731111000001107	Thymol glycerin compound mouthwash (Alliance Healthcare (Distribution) Ltd)
+3731211000001101	Thymol glycerin compound mouthwash (Alliance Healthcare (Distribution) Ltd)
+9501711000001103	Care Antiseptic Mouthwash (Thornton & Ross Ltd)
+9501911000001101	Care Antiseptic Mouthwash (Thornton & Ross Ltd)
+331255004	Benzocaine 10mg / Cetylpyridinium chloride 1.4mg lozenges
+3733511000001104	Benzocaine 10mg / Cetylpyridinium chloride 1.4mg lozenges
+3733611000001100	Merocaine lozenges (SSL International Plc)
+3733811000001101	Merocaine lozenges (SSL International Plc)
+331257007	Benzocaine 5mg / Tyrothricin 1mg lozenges
+3738711000001103	Benzocaine 5mg / Tyrothricin 1mg lozenges
+3738811000001106	Tyrozets lozenges (McNeil Products Ltd)
+3739011000001105	Tyrozets lozenges (McNeil Products Ltd)
+4952811000001101	Boots Anaesthetic and Antibiotic throat lozenges (The Boots Company Plc)
+4953111000001102	Boots Anaesthetic and Antibiotic throat lozenges (The Boots Company Plc)
+331348004	Flurbiprofen 8.75mg lozenges
+3755911000001106	Flurbiprofen 8.75mg lozenges
+3756011000001103	Strefen Honey and Lemon 8.75mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+3756111000001102	Strefen Honey and Lemon 8.75mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+36020511000001104	Povidone-Iodine 1% mouthwash sugar free
+3786911000001109	Povidone-Iodine 1% mouthwash sugar free
+3787111000001109	Betadine 1% gargle and mouthwash (Molnlycke Health Care Ltd)
+3787311000001106	Betadine 1% gargle and mouthwash (Molnlycke Health Care Ltd)
+331236004	Benzalkonium chloride 500microgram lozenges sugar free
+3800911000001107	Benzalkonium chloride 500microgram lozenges sugar free
+3801011000001104	Bradosol Sugar Free Citrus 500microgram lozenges (Novartis Consumer Health UK Ltd)
+3801111000001103	Bradosol Sugar Free Citrus 500microgram lozenges (Novartis Consumer Health UK Ltd)
+3801211000001109	Bradosol Sugar Free Cherry Menthol 500microgram lozenges (Novartis Consumer Health UK Ltd)
+3801311000001101	Bradosol Sugar Free Cherry Menthol 500microgram lozenges (Novartis Consumer Health UK Ltd)
+3805511000001105	Artificial saliva lozenges
+3803811000001109	Artificial saliva lozenges
+3804011000001101	AS Saliva Orthana lozenges (CCMed Ltd)
+3804211000001106	AS Saliva Orthana lozenges (CCMed Ltd)
+331171009	Benzocaine 10mg / Dequalinium chloride 250microgram lozenges
+3805111000001101	Benzocaine 10mg / Dequalinium chloride 250microgram lozenges
+3805211000001107	Dequacaine lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+3805311000001104	Dequacaine lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+3818311000001106	Benzocaine 1.5mg/dose oromucosal spray sugar free
+3811011000001102	Benzocaine 1.5mg/dose oromucosal spray sugar free
+3811211000001107	AAA 1.5mg/dose sore throat spray (Manx Healthcare Ltd)
+3811311000001104	AAA 1.5mg/dose sore throat spray (Manx Healthcare Ltd)
+39698411000001108	Carbenoxolone 1% granules 2g sachets
+3812511000001102	Carbenoxolone 1% granules 2g sachets
+3812611000001103	Bioplex Mouthwash 1% granules 2g sachets (Teva UK Ltd)
+3812711000001107	Bioplex Mouthwash 1% granules 2g sachets (Teva UK Ltd)
+330916002	Chloramphenicol 5% ear drops
+3815711000001103	Chloramphenicol 5% ear drops
+3815811000001106	Chloramphenicol 5% ear drops (A A H Pharmaceuticals Ltd)
+3815911000001101	Chloramphenicol 5% ear drops (A A H Pharmaceuticals Ltd)
+3816011000001109	Chloramphenicol 5% ear drops (Martindale Pharmaceuticals Ltd)
+3816111000001105	Chloramphenicol 5% ear drops (Martindale Pharmaceuticals Ltd)
+3816211000001104	Chloramphenicol 5% ear drops (Thornton & Ross Ltd)
+3816511000001101	Chloramphenicol 5% ear drops (Thornton & Ross Ltd)
+3816811000001103	Chloramphenicol 5% ear drops (Alliance Healthcare (Distribution) Ltd)
+3816911000001108	Chloramphenicol 5% ear drops (Alliance Healthcare (Distribution) Ltd)
+21833211000001105	Chloramphenicol 5% ear drops (Waymade Healthcare Plc)
+21833311000001102	Chloramphenicol 5% ear drops (Waymade Healthcare Plc)
+30029111000001105	Chloramphenicol 5% ear drops (DE Pharmaceuticals)
+30029211000001104	Chloramphenicol 5% ear drops (DE Pharmaceuticals)
+331194005	Dequalinium chloride 250microgram lozenges
+3821311000001109	Dequalinium chloride 250microgram lozenges
+3821411000001102	Dequalinium chloride 250microgram lozenges
+3821511000001103	Dequadin 250microgram lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+3821611000001104	Dequadin 250microgram lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+3821711000001108	Dequadin 250microgram lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+331263003	Lidocaine 0.33% / Cetylpyridinium chloride 0.1% oromucosal gel sugar free
+3834211000001101	Lidocaine 0.33% / Cetylpyridinium chloride 0.1% oromucosal gel sugar free
+3834311000001109	Lidocaine 0.33% / Cetylpyridinium chloride 0.1% oromucosal gel sugar free
+3834611000001104	Dentinox teething gel (Dendron Brands Ltd)
+36753611000001106	Dentinox teething gel (Dendron Brands Ltd)
+3834911000001105	Dentinox teething gel (Dendron Brands Ltd)
+3835611000001103	Calgel teething gel (McNeil Products Ltd)
+3835811000001104	Calgel teething gel (McNeil Products Ltd)
+331049002	Sodium cromoglicate 2% nasal spray
+3841411000001100	Sodium cromoglicate 2% nasal spray
+3841611000001102	Vividrin 2% nasal spray (Bausch & Lomb UK Ltd)
+3841711000001106	Vividrin 2% nasal spray (Bausch & Lomb UK Ltd)
+12099911000001107	Vividrin 2% nasal spray (Imported (Ireland))
+12100011000001108	Vividrin 2% nasal spray (Imported (Ireland))
+36135711000001106	Chlorhexidine gluconate 0.1% / Chlorobutanol 0.5% mouthwash sugar free
+3857911000001103	Chlorhexidine gluconate 0.1% / Chlorobutanol 0.5% mouthwash sugar free
+3858011000001101	Chlorhexidine gluconate 0.1% / Chlorobutanol 0.5% mouthwash sugar free
+3858111000001100	Chlorhexidine gluconate 0.1% / Chlorobutanol 0.5% mouthwash sugar free
+3858311000001103	Eludril mouthwash (Pierre Fabre Ltd)
+3858411000001105	Eludril mouthwash (Pierre Fabre Ltd)
+3858511000001109	Eludril mouthwash (Pierre Fabre Ltd)
+3858611000001108	Eludril mouthwash (Pierre Fabre Ltd)
+3875811000001101	Levocabastine 0.05% nasal spray
+3871511000001102	Levocabastine 0.05% nasal spray
+3871611000001103	Levocabastine 0.05% nasal spray
+3871711000001107	Livostin Direct 0.05% nasal spray (McNeil Products Ltd)
+3871911000001109	Livostin Direct 0.05% nasal spray (McNeil Products Ltd)
+3872111000001101	Livostin 0.05% nasal spray (Novartis Pharmaceuticals UK Ltd)
+3872311000001104	Livostin 0.05% nasal spray (Novartis Pharmaceuticals UK Ltd)
+39702611000001102	Pilocarpine 5mg tablets
+3894411000001107	Pilocarpine 5mg tablets
+3894511000001106	Salagen 5mg tablets (Norgine Pharmaceuticals Ltd)
+3894711000001101	Salagen 5mg tablets (Norgine Pharmaceuticals Ltd)
+331259005	Benzocaine 2% / Chloroxylenol 0.106% oromucosal gel sugar free
+3937511000001102	Benzocaine 2% / Chloroxylenol 0.106% oromucosal gel sugar free
+3937611000001103	Rinstead Adult gel (Schering-Plough Ltd)
+3937711000001107	Rinstead Adult gel (Schering-Plough Ltd)
+3958111000001108	Chlorobutanol 1% tincture
+3953711000001103	Chlorobutanol 1% tincture
+3954011000001103	Frador 1% tincture (Fenton Pharmaceuticals Ltd)
+3954111000001102	Frador 1% tincture (Fenton Pharmaceuticals Ltd)
+14612111000001103	Chlorhexidine 0.05% / Tetracaine 0.015% oromucosal spray sugar free
+3954711000001101	Chlorhexidine 0.05% / Tetracaine 0.015% oromucosal spray sugar free
+3955011000001104	Eludril spray (Pierre Fabre Ltd)
+3955111000001103	Eludril spray (Pierre Fabre Ltd)
+408607002	Doxycycline 20mg tablets
+3959311000001104	Doxycycline 20mg tablets
+3959411000001106	Periostat 20mg tablets (Alliance Pharmaceuticals Ltd)
+3959511000001105	Periostat 20mg tablets (Alliance Pharmaceuticals Ltd)
+3973211000001107	Dequalinium chloride 250microgram pastilles sugar free
+3966011000001103	Dequalinium chloride 250microgram pastilles sugar free
+3966111000001102	Labosept 250microgram pastilles (Laboratories For Applied Biology Ltd)
+3966211000001108	Labosept 250microgram pastilles (Laboratories For Applied Biology Ltd)
+4018411000001103	Generic Strepsils Pain Relief Plus lozenges
+3988311000001104	Generic Strepsils Pain Relief Plus lozenges
+3988911000001103	Strepsils Pain Relief Plus lozenges (Crookes Healthcare Ltd)
+3989811000001101	Strepsils Pain Relief Plus lozenges (Crookes Healthcare Ltd)
+4030011000001103	Salicylic acid 1% / Rhubarb extract 5% oromucosal solution
+3987811000001109	Salicylic acid 1% / Rhubarb extract 5% oromucosal solution
+3988611000001109	Pyralvex solution (Viatris UK Healthcare Ltd)
+3989111000001108	Pyralvex solution (Viatris UK Healthcare Ltd)
+4018311000001105	Generic Strepsils Menthol and Eucalyptus lozenges
+3989511000001104	Generic Strepsils Menthol and Eucalyptus lozenges
+10682111000001103	Generic Strepsils Menthol and Eucalyptus lozenges
+14700211000001103	Generic Strepsils Menthol and Eucalyptus lozenges
+3990111000001102	Strepsils Menthol and Eucalyptus lozenges (Crookes Healthcare Ltd)
+3990211000001108	Strepsils Menthol and Eucalyptus lozenges (Crookes Healthcare Ltd)
+10682211000001109	Strepsils Sore Throat and Blocked Nose lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+11935911000001106	Strepsils Sore Throat and Blocked Nose lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+10682311000001101	Strepsils Sore Throat and Blocked Nose lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+14700311000001106	Strepsils Sore Throat and Blocked Nose lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+21680711000001108	Strepsils Sore Throat and Cough lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+21680811000001100	Strepsils Sore Throat and Cough lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+330951005	Hydrocortisone 1.5% / Neomycin 0.5% ear/eye ointment
+3991311000001105	Hydrocortisone 1.5% / Neomycin 0.5% ear/eye ointment
+3991711000001109	Neo-Cortef ear/eye ointment (PLIVA Pharma Ltd)
+3992011000001104	Neo-Cortef ear/eye ointment (PLIVA Pharma Ltd)
+4018211000001102	Hexylresorcinol 2.4mg lozenges
+4001911000001104	Hexylresorcinol 2.4mg lozenges
+12209111000001101	Hexylresorcinol 2.4mg lozenges
+13097511000001103	Hexylresorcinol 2.4mg lozenges
+13097611000001104	Hexylresorcinol 2.4mg lozenges
+4002011000001106	Strepsils Extra Strength Blackcurrant 2.4mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+4002111000001107	Strepsils Extra Strength Blackcurrant 2.4mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+12209311000001104	Strepsils Extra Strength Blackcurrant 2.4mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+13097711000001108	Strepsils Extra Strength Blackcurrant 2.4mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+13097811000001100	Strepsils Extra Strength Blackcurrant 2.4mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+4002211000001101	Strepsils Extra Cherry 2.4mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+4002411000001102	Strepsils Extra Cherry 2.4mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+12209211000001107	Strepsils Extra Cherry 2.4mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+14700111000001109	Strepsils Extra Cherry 2.4mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+4002511000001103	TCP Sore Throat 2.4mg lozenges (Omega Pharma Ltd)
+4002611000001104	TCP Sore Throat 2.4mg lozenges (Omega Pharma Ltd)
+4003911000001103	Lemsip Sore Throat Triple Action Citrus Fruit 2.4mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+4004211000001105	Lemsip Sore Throat Triple Action Citrus Fruit 2.4mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+4585311000001102	Benylin Sore Throat Honey and Lemon 2.4mg lozenges (Pfizer Consumer Healthcare Ltd)
+4585511000001108	Benylin Sore Throat Honey and Lemon 2.4mg lozenges (Pfizer Consumer Healthcare Ltd)
+8143111000001104	Strepsils Extra Citrus Menthol 2.4mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+8143211000001105	Strepsils Extra Citrus Menthol 2.4mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+12209411000001106	Strepsils Extra Citrus Menthol 2.4mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+9463411000001101	Lemsip Sore Throat Triple Action Honey & Lemon 2.4mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+9463511000001102	Lemsip Sore Throat Triple Action Honey & Lemon 2.4mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+13853711000001109	Lloydspharmacy Double Action Throat Blackcurrant 2.4mg lozenges (Lloyds Pharmacy Ltd)
+13853811000001101	Lloydspharmacy Double Action Throat Blackcurrant 2.4mg lozenges (Lloyds Pharmacy Ltd)
+15645511000001100	Buttercup Max Strength Sore Throat 2.4mg lozenges (Omega Pharma Ltd)
+15645611000001101	Buttercup Max Strength Sore Throat 2.4mg lozenges (Omega Pharma Ltd)
+17985411000001107	Boots Sore Throat Relief Dual Action 2.4mg lozenges blackcurrant (The Boots Company Plc)
+17985511000001106	Boots Sore Throat Relief Dual Action 2.4mg lozenges blackcurrant (The Boots Company Plc)
+17985911000001104	Boots Sore Throat Relief Dual Action 2.4mg lozenges black cherry (The Boots Company Plc)
+17986011000001107	Boots Sore Throat Relief Dual Action 2.4mg lozenges black cherry (The Boots Company Plc)
+17986211000001102	Boots Sore Throat Relief Dual Action 2.4mg lozenges honey & lemon (The Boots Company Plc)
+17986411000001103	Boots Sore Throat Relief Dual Action 2.4mg lozenges honey & lemon (The Boots Company Plc)
+30785811000001105	Strepsils Extra Triple Action Blackcurrant 2.4mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+30785911000001100	Strepsils Extra Triple Action Blackcurrant 2.4mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+30786011000001108	Strepsils Extra Triple Action Cherry 2.4mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+30786111000001109	Strepsils Extra Triple Action Cherry 2.4mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+4018911000001106	Hydrogen peroxide 1.5% mouthwash sugar free
+4002711000001108	Hydrogen peroxide 1.5% mouthwash sugar free
+4002911000001105	Peroxyl 1.5% mouthwash (Colgate-Palmolive (UK) Ltd)
+4003511000001105	Peroxyl 1.5% mouthwash (Colgate-Palmolive (UK) Ltd)
+4009011000001104	Generic Anbesol liquid
+4003111000001101	Generic Anbesol liquid
+4003211000001107	Generic Anbesol liquid
+28410111000001100	Generic Anbesol liquid
+38861311000001101	Generic Anbesol liquid
+4004011000001100	Anbesol liquid (Alliance Pharmaceuticals Ltd)
+4004411000001109	Anbesol liquid (Alliance Pharmaceuticals Ltd)
+4004311000001102	Anbesol liquid (Alliance Pharmaceuticals Ltd)
+28410211000001106	Anbesol liquid (Alliance Pharmaceuticals Ltd)
+38861611000001106	Anbesol liquid (Alliance Pharmaceuticals Ltd)
+330952003	Hydrocortisone 1.5% / Neomycin 0.5% ear/eye drops
+4004611000001107	Hydrocortisone 1.5% / Neomycin 0.5% ear/eye drops
+4004711000001103	Neo-Cortef ear/eye drops (PLIVA Pharma Ltd)
+4004811000001106	Neo-Cortef ear/eye drops (PLIVA Pharma Ltd)
+331050002	Sodium cromoglicate 2% / Xylometazoline 0.025% nasal spray
+4005911000001102	Sodium cromoglicate 2% / Xylometazoline 0.025% nasal spray
+4006011000001105	Rynacrom Allergy nasal spray (Aventis Pharma)
+4006111000001106	Rynacrom Allergy nasal spray (Aventis Pharma)
+331260000	Lidocaine 5mg / Domiphen bromide 500microgram lozenges sugar free
+4010711000001107	Lidocaine 5mg / Domiphen bromide 500microgram lozenges sugar free
+4010911000001109	Bradosol Plus lozenges (Novartis Consumer Health UK Ltd)
+4011111000001100	Bradosol Plus lozenges (Novartis Consumer Health UK Ltd)
+4018511000001104	Generic Anbesol teething gel sugar free
+4013311000001102	Generic Anbesol teething gel sugar free
+4013411000001109	Anbesol teething gel (Alliance Pharmaceuticals Ltd)
+4013511000001108	Anbesol teething gel (Alliance Pharmaceuticals Ltd)
+4019011000001102	Lidocaine 0.33% / Cetalkonium chloride 0.01% oromucosal gel sugar free
+4016711000001105	Lidocaine 0.33% / Cetalkonium chloride 0.01% oromucosal gel sugar free
+4016811000001102	Bonjela Teething gel (Reckitt Benckiser Healthcare (UK) Ltd)
+4016911000001107	Bonjela Teething gel (Reckitt Benckiser Healthcare (UK) Ltd)
+4030811000001109	Generic Anbesol Adult Strength gel sugar free
+4022911000001103	Generic Anbesol Adult Strength gel sugar free
+4023111000001107	Anbesol Adult Strength gel (Alliance Pharmaceuticals Ltd)
+4023311000001109	Anbesol Adult Strength gel (Alliance Pharmaceuticals Ltd)
+4090411000001100	Generic Merocets Plus lozenges
+4081911000001100	Generic Merocets Plus lozenges
+4082011000001107	Merocets Plus lozenges (SSL International Plc)
+4082211000001102	Merocets Plus lozenges (SSL International Plc)
+4107311000001102	Dichlorobenzyl alcohol 1.2mg / Amylmetacresol 600microgram lozenges sugar free
+4103511000001103	Dichlorobenzyl alcohol 1.2mg / Amylmetacresol 600microgram lozenges sugar free
+11935611000001100	Dichlorobenzyl alcohol 1.2mg / Amylmetacresol 600microgram lozenges sugar free
+14699911000001106	Dichlorobenzyl alcohol 1.2mg / Amylmetacresol 600microgram lozenges sugar free
+4103611000001104	Strepsils lozenges lemon & herb sugar free (Reckitt Benckiser Healthcare (UK) Ltd)
+4103711000001108	Strepsils lozenges lemon & herb sugar free (Reckitt Benckiser Healthcare (UK) Ltd)
+11935811000001101	Strepsils lozenges lemon & herb sugar free (Reckitt Benckiser Healthcare (UK) Ltd)
+8989911000001105	Strepsils Strawberry lozenges sugar free (Reckitt Benckiser Healthcare (UK) Ltd)
+8990011000001102	Strepsils Strawberry lozenges sugar free (Reckitt Benckiser Healthcare (UK) Ltd)
+11935711000001109	Strepsils Strawberry lozenges sugar free (Reckitt Benckiser Healthcare (UK) Ltd)
+14700011000001108	Strepsils Strawberry lozenges sugar free (Reckitt Benckiser Healthcare (UK) Ltd)
+21680311000001109	Strepsils Children 6+ lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+21680411000001102	Strepsils Children 6+ lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+4118911000001102	Generic Strepsils Orange with Vitamin C 100mg lozenges
+4113611000001101	Generic Strepsils Orange with Vitamin C 100mg lozenges
+11936011000001103	Generic Strepsils Orange with Vitamin C 100mg lozenges
+12210111000001109	Generic Strepsils Orange with Vitamin C 100mg lozenges
+4113711000001105	Strepsils Orange with Vitamin C 100mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+4113811000001102	Strepsils Orange with Vitamin C 100mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+11936111000001102	Strepsils Orange with Vitamin C 100mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+12210211000001103	Strepsils Orange with Vitamin C 100mg lozenges (Reckitt Benckiser Healthcare (UK) Ltd)
+4161411000001102	Lidocaine 2% oromucosal spray
+4147911000001109	Lidocaine 2% oromucosal spray
+4148211000001101	Dequaspray 2% oromucosal spray (Reckitt Benckiser Healthcare (UK) Ltd)
+4148311000001109	Dequaspray 2% oromucosal spray (Reckitt Benckiser Healthcare (UK) Ltd)
+4148511000001103	Strepsils 2% pain relief spray (Crookes Healthcare Ltd)
+4148911000001105	Strepsils 2% pain relief spray (Crookes Healthcare Ltd)
+17988211000001101	Boots Anaesthetic Sore Throat Relief 2% spray (The Boots Company Plc)
+17988311000001109	Boots Anaesthetic Sore Throat Relief 2% spray (The Boots Company Plc)
+35910311000001108	Benzocaine 1mg/dose oromucosal spray sugar free
+4186911000001103	Benzocaine 1mg/dose oromucosal spray sugar free
+4187211000001109	Ultra Chloraseptic 0.71% anaesthetic throat spray original (Prestige Brands (UK) Ltd)
+4187311000001101	Ultra Chloraseptic 0.71% anaesthetic throat spray original (Prestige Brands (UK) Ltd)
+8070811000001107	Ultra Chloraseptic 0.71% anaesthetic throat spray cherry (Prestige Brands (UK) Ltd)
+8070911000001102	Ultra Chloraseptic 0.71% anaesthetic throat spray cherry (Prestige Brands (UK) Ltd)
+22639611000001103	Ultra Chloraseptic 0.71% anaesthetic throat spray blackcurrant (Prestige Brands (UK) Ltd)
+22639711000001107	Ultra Chloraseptic 0.71% anaesthetic throat spray blackcurrant (Prestige Brands (UK) Ltd)
+33659311000001100	Children's Chloraseptic 0.71% Sore Throat spray (Prestige Brands (UK) Ltd)
+33659411000001107	Children's Chloraseptic 0.71% Sore Throat spray (Prestige Brands (UK) Ltd)
+33744111000001108	Ultra Chloraseptic 0.71% anaesthetic throat spray honey & lemon (Prestige Brands (UK) Ltd)
+33744211000001102	Ultra Chloraseptic 0.71% anaesthetic throat spray honey & lemon (Prestige Brands (UK) Ltd)
+330917006	Chloramphenicol 10% ear drops
+4187411000001108	Chloramphenicol 10% ear drops
+4187511000001107	Chloramphenicol 10% ear drops (A A H Pharmaceuticals Ltd)
+4187811000001105	Chloramphenicol 10% ear drops (A A H Pharmaceuticals Ltd)
+4188011000001103	Chloramphenicol 10% ear drops (Martindale Pharmaceuticals Ltd)
+4188211000001108	Chloramphenicol 10% ear drops (Martindale Pharmaceuticals Ltd)
+11382411000001109	Chloramphenicol 10% ear drops (Alliance Healthcare (Distribution) Ltd)
+11382511000001108	Chloramphenicol 10% ear drops (Alliance Healthcare (Distribution) Ltd)
+21833411000001109	Chloramphenicol 10% ear drops (Waymade Healthcare Plc)
+21833511000001108	Chloramphenicol 10% ear drops (Waymade Healthcare Plc)
+25834711000001100	Chloramphenicol 10% ear drops (Ennogen Healthcare Ltd)
+25835011000001103	Chloramphenicol 10% ear drops (Ennogen Healthcare Ltd)
+30029311000001107	Chloramphenicol 10% ear drops (DE Pharmaceuticals)
+30029411000001100	Chloramphenicol 10% ear drops (DE Pharmaceuticals)
+31355011000001102	Chloramphenicol 10% ear drops (J M McGill Ltd)
+31355211000001107	Chloramphenicol 10% ear drops (J M McGill Ltd)
+32202611000001100	Chloramphenicol 10% ear drops (Niche Pharma Ltd)
+32202711000001109	Chloramphenicol 10% ear drops (Niche Pharma Ltd)
+4210111000001100	Lidocaine 0.5% / Cetylpyridinium chloride 0.1% oromucosal gel sugar free
+4196811000001107	Lidocaine 0.5% / Cetylpyridinium chloride 0.1% oromucosal gel sugar free
+4197011000001103	Rinstead teething gel (Schering-Plough Ltd)
+4197211000001108	Rinstead teething gel (Schering-Plough Ltd)
+4209911000001106	Fusafungine 500micrograms/dose nasal/oromucosal spray sugar free
+4202711000001103	Fusafungine 500micrograms/dose nasal/oromucosal spray sugar free
+4203711000001106	Locabiotal 500micrograms/dose nasal/oromucosal spray (Servier Laboratories Ltd)
+4203911000001108	Locabiotal 500micrograms/dose nasal/oromucosal spray (Servier Laboratories Ltd)
+4217911000001101	Phenol 0.71% mouthwash sugar free
+4211811000001104	Phenol 0.71% mouthwash sugar free
+4211911000001109	Ultra Chloraseptic 0.71% antiseptic mouthwash and gargle (Prestige Brands (UK) Ltd)
+4212011000001102	Ultra Chloraseptic 0.71% antiseptic mouthwash and gargle (Prestige Brands (UK) Ltd)
+4360011000001107	Phenylephrine 0.5% nasal drops
+4350711000001101	Phenylephrine 0.5% nasal drops
+4350811000001109	Fenox 0.5% nasal drops (Thornton & Ross Ltd)
+4350911000001104	Fenox 0.5% nasal drops (Thornton & Ross Ltd)
+4359411000001102	Choline salicylate 16% / Glycerol 12.62% ear drops
+4354511000001102	Choline salicylate 16% / Glycerol 12.62% ear drops
+4354611000001103	Earex Plus ear drops (G.R. Lane Health Products Ltd)
+4354711000001107	Earex Plus ear drops (G.R. Lane Health Products Ltd)
+38894911000001100	Fluticasone 400microgram/unit dose nasal drops
+4380311000001107	Fluticasone 400microgram/unit dose nasal drops
+4380511000001101	Flixonase Nasule 400microgram/unit dose nasal drops (GlaxoSmithKline UK Ltd)
+4380711000001106	Flixonase Nasule 400microgram/unit dose nasal drops (GlaxoSmithKline UK Ltd)
+135588001	Benzocaine 10% dental gel sugar free
+4510211000001103	Benzocaine 10% dental gel sugar free
+4510311000001106	Orajel 10% dental gel (Church & Dwight UK Ltd)
+4510411000001104	Orajel 10% dental gel (Church & Dwight UK Ltd)
+8063711000001100	Orajel 10% mouth gel (Church & Dwight UK Ltd)
+8063811000001108	Orajel 10% mouth gel (Church & Dwight UK Ltd)
+4558511000001106	Generic Olbas pastilles
+4529911000001106	Generic Olbas pastilles
+4530011000001101	Olbas pastilles (G.R. Lane Health Products Ltd)
+4530111000001100	Olbas pastilles (G.R. Lane Health Products Ltd)
+4561611000001107	Lidocaine 0.05% / Chlorhexidine 0.2% oromucosal spray sugar free
+4530411000001105	Lidocaine 0.05% / Chlorhexidine 0.2% oromucosal spray sugar free
+4530711000001104	Covonia Sore Throat 0.2%/0.05% oromucosal spray menthol (Thornton & Ross Ltd)
+4530911000001102	Covonia Sore Throat 0.2%/0.05% oromucosal spray menthol (Thornton & Ross Ltd)
+36133311000001106	Covonia Sore Throat 0.2%/0.05% oromucosal spray lemon (Thornton & Ross Ltd)
+36133411000001104	Covonia Sore Throat 0.2%/0.05% oromucosal spray lemon (Thornton & Ross Ltd)
+4558611000001105	Generic Olbas inhaler
+4531011000001105	Generic Olbas inhaler
+17666711000001108	Generic Olbas inhaler
+4531111000001106	Olbas inhaler (G.R. Lane Health Products Ltd)
+4531211000001100	Olbas inhaler (G.R. Lane Health Products Ltd)
+17666811000001100	Olbas inhaler (G.R. Lane Health Products Ltd)
+39719111000001104	Minocycline 2% dental gel sugar free
+4576311000001102	Minocycline 2% dental gel sugar free
+4576511000001108	Dentomycin 2% dental gel (Henry Schein Ltd)
+4576611000001107	Dentomycin 2% dental gel (Henry Schein Ltd)
+4599011000001104	Hexylresorcinol 2.5mg / Benzalkonium chloride 600microgram lozenges sugar free
+4582411000001101	Hexylresorcinol 2.5mg / Benzalkonium chloride 600microgram lozenges sugar free
+4582511000001102	Beechams Throat-Plus Lemon lozenges (GlaxoSmithKline Consumer Healthcare UK Ltd)
+4582611000001103	Beechams Throat-Plus Lemon lozenges (GlaxoSmithKline Consumer Healthcare UK Ltd)
+4582711000001107	Beechams Throat-Plus Blackcurrant lozenges (GlaxoSmithKline Consumer Healthcare UK Ltd)
+4582811000001104	Beechams Throat-Plus Blackcurrant lozenges (GlaxoSmithKline Consumer Healthcare UK Ltd)
+4600511000001105	Menthol 16mg pastilles
+4582911000001109	Menthol 16mg pastilles
+4583011000001101	Meggezones 16mg pastilles (Bayer Plc)
+4583111000001100	Meggezones 16mg pastilles (Bayer Plc)
+4615211000001100	Levomenthol 0.3% ointment
+4609211000001100	Levomenthol 0.3% ointment
+4609311000001108	Happinose 0.3% ointment (Diomed Developments Ltd)
+4609511000001102	Happinose 0.3% ointment (Diomed Developments Ltd)
+4615411000001101	Lidocaine 0.66% / Aminoacridine 0.05% oromucosal gel
+4612011000001100	Lidocaine 0.66% / Aminoacridine 0.05% oromucosal gel
+4613211000001104	Medijel oromucosal gel (Dendron Brands Ltd)
+4613511000001101	Medijel oromucosal gel (Dendron Brands Ltd)
+4615311000001108	Lidocaine 0.25% / Aminoacridine 0.025% pastilles
+4613611000001102	Lidocaine 0.25% / Aminoacridine 0.025% pastilles
+4613711000001106	Medijel pastilles (Dendron Brands Ltd)
+4613811000001103	Medijel pastilles (Dendron Brands Ltd)
+4661311000001105	Choline salicylate 21.61% / Glycerol 12.62% ear drops
+4656811000001104	Choline salicylate 21.61% / Glycerol 12.62% ear drops
+4656911000001109	Audax ear drops (SSL International Plc)
+4657011000001108	Audax ear drops (SSL International Plc)
+4758511000001105	Generic Earex ear drops
+4757111000001102	Generic Earex ear drops
+4757211000001108	Earex ear drops (G.R. Lane Health Products Ltd)
+4757311000001100	Earex ear drops (G.R. Lane Health Products Ltd)
+4870711000001102	Chlorhexidine gluconate 0.12% mouthwash sugar free
+4867911000001105	Chlorhexidine gluconate 0.12% mouthwash sugar free
+4868311000001105	Colgate Chlorohex 1200 mouthwash (Colgate-Palmolive (UK) Ltd)
+4868611000001100	Colgate Chlorohex 1200 mouthwash (Colgate-Palmolive (UK) Ltd)
+4939311000001101	Phenylephrine 0.5% nasal spray
+4929711000001104	Phenylephrine 0.5% nasal spray
+4930011000001107	Fenox 0.5% nasal spray (Thornton & Ross Ltd)
+4930111000001108	Fenox 0.5% nasal spray (Thornton & Ross Ltd)
+331096005	Oxymetazoline 0.05% nasal spray
+4935511000001109	Oxymetazoline 0.05% nasal spray
+8823911000001105	Oxymetazoline 0.05% nasal spray
+9537511000001107	Oxymetazoline 0.05% nasal spray
+4935611000001108	Afrazine 0.05% nasal spray (Schering-Plough Ltd)
+4935711000001104	Afrazine 0.05% nasal spray (Schering-Plough Ltd)
+8104511000001101	Lemsip Max Sinus All Night Decongestant 0.05% nasal spray (Reckitt Benckiser Healthcare (UK) Ltd)
+8104611000001102	Lemsip Max Sinus All Night Decongestant 0.05% nasal spray (Reckitt Benckiser Healthcare (UK) Ltd)
+8112111000001104	Galpharm Nasal Decongestant 0.05% spray (Galpharm International Ltd)
+8112211000001105	Galpharm Nasal Decongestant 0.05% spray (Galpharm International Ltd)
+8862311000001108	Vicks Sinex Micromist nasal spray (Procter & Gamble (Health & Beauty Care) Ltd)
+8862411000001101	Vicks Sinex Micromist nasal spray (Procter & Gamble (Health & Beauty Care) Ltd)
+8862511000001102	Vicks Sinex Decongestant nasal spray (Procter & Gamble (Health & Beauty Care) Ltd)
+8862611000001103	Vicks Sinex Decongestant nasal spray (Procter & Gamble (Health & Beauty Care) Ltd)
+9537611000001106	Boots Blocked Nose Relief 0.05% nasal spray (The Boots Company Plc)
+9537711000001102	Boots Blocked Nose Relief 0.05% nasal spray (The Boots Company Plc)
+10878211000001109	Galpharm Cold & Flu Decongestant 0.05% nasal spray (Galpharm International Ltd)
+10878311000001101	Galpharm Cold & Flu Decongestant 0.05% nasal spray (Galpharm International Ltd)
+13582211000001101	Galsud Decongestant 0.05% nasal spray (Thornton & Ross Ltd)
+13582311000001109	Galsud Decongestant 0.05% nasal spray (Thornton & Ross Ltd)
+18568911000001105	Care Decongestant 0.05% nasal spray (Thornton & Ross Ltd)
+18569011000001101	Care Decongestant 0.05% nasal spray (Thornton & Ross Ltd)
+24392411000001103	Numark Nasal Decongestant 0.05% spray (Numark Ltd)
+24392511000001104	Numark Nasal Decongestant 0.05% spray (Numark Ltd)
+4978111000001108	Menthol 0.3% ointment
+4971811000001107	Menthol 0.3% ointment
+4972111000001105	Nostroline 0.3% ointment (Strides Pharma UK Ltd)
+4972211000001104	Nostroline 0.3% ointment (Strides Pharma UK Ltd)
+331231009	Metronidazole 25% oromucosal gel sugar free
+4972611000001102	Metronidazole 25% oromucosal gel sugar free
+4972711000001106	Elyzol 25% oromucosal gel (Colgate-Palmolive (UK) Ltd)
+4973111000001104	Elyzol 25% oromucosal gel (Colgate-Palmolive (UK) Ltd)
+4999411000001100	Bismuth subnitrate and Iodoform paste 30g sachets
+4991411000001101	Bismuth subnitrate and Iodoform paste 30g sachets
+4991511000001102	Bismuth subnitrate and Iodoform paste 30g sachets (Martindale Pharmaceuticals Ltd)
+4991611000001103	Bismuth subnitrate and Iodoform paste 30g sachets (Martindale Pharmaceuticals Ltd)
+35334611000001106	Bismuth subnitrate and Iodoform paste 30g sachets (A A H Pharmaceuticals Ltd)
+35335111000001104	Bismuth subnitrate and Iodoform paste 30g sachets (A A H Pharmaceuticals Ltd)
+5191711000001103	Mouthwash solution tablets
+5188311000001108	Mouthwash solution tablets
+5188611000001103	Mouthwash solution tablets (A A H Pharmaceuticals Ltd)
+5188711000001107	Mouthwash solution tablets (A A H Pharmaceuticals Ltd)
+5188811000001104	Mouthwash solution tablets (Accord Healthcare Ltd)
+5189011000001100	Mouthwash solution tablets (Accord Healthcare Ltd)
+5189111000001104	Mouthwash solution tablets (Alliance Healthcare (Distribution) Ltd)
+5189311000001102	Mouthwash solution tablets (Alliance Healthcare (Distribution) Ltd)
+5239511000001100	Hydrogen peroxide 1.5% ear drops
+5220911000001104	Hydrogen peroxide 1.5% ear drops
+24552111000001103	Hydrogen peroxide 1.5% ear drops
+8178111000001107	Hydrogen peroxide 1.5% ear drops (Extemp Order)
+8178211000001101	Hydrogen peroxide 1.5% ear drops (Extemp Order)
+24552211000001109	Hydrogen peroxide 1.5% ear drops (Special Order)
+24552311000001101	Hydrogen peroxide 1.5% ear drops (Special Order)
+34820911000001103	Sodium chloride compound mouthwash
+5223311000001106	Sodium chloride compound mouthwash
+11417611000001100	Sodium chloride compound mouthwash
+22384711000001108	Sodium chloride compound mouthwash
+8197311000001101	Sodium chloride compound mouthwash (Extemp Order)
+8197511000001107	Sodium chloride compound mouthwash (Extemp Order)
+11417411000001103	Sodium chloride compound mouthwash (Special Order)
+11417811000001101	Sodium chloride compound mouthwash (Special Order)
+22384811000001100	Sodium chloride compound mouthwash (Special Order)
+5252311000001102	Generic Oleum rhinale nasal drops
+5247911000001101	Generic Oleum rhinale nasal drops
+5248011000001104	Oleum rhinale nasal drops (Weleda (UK) Ltd)
+5248111000001103	Oleum rhinale nasal drops (Weleda (UK) Ltd)
+7425611000001100	Budesonide 64micrograms/dose nasal spray
+7401711000001101	Budesonide 64micrograms/dose nasal spray
+7401811000001109	Rhinocort Aqua 64 nasal spray (McNeil Products Ltd)
+7401911000001104	Rhinocort Aqua 64 nasal spray (McNeil Products Ltd)
+16640611000001107	Budesonide 64micrograms/dose nasal spray (Alliance Healthcare (Distribution) Ltd)
+16640711000001103	Budesonide 64micrograms/dose nasal spray (Alliance Healthcare (Distribution) Ltd)
+16730311000001108	Budesonide 64micrograms/dose nasal spray (A A H Pharmaceuticals Ltd)
+16730411000001101	Budesonide 64micrograms/dose nasal spray (A A H Pharmaceuticals Ltd)
+17809011000001108	Budesonide 64micrograms/dose nasal spray (Phoenix Healthcare Distribution Ltd)
+17809111000001109	Budesonide 64micrograms/dose nasal spray (Phoenix Healthcare Distribution Ltd)
+20284211000001101	Budesonide 64micrograms/dose nasal spray (Sandoz Ltd)
+20284311000001109	Budesonide 64micrograms/dose nasal spray (Sandoz Ltd)
+22622211000001106	Budesonide 64micrograms/dose nasal spray (DE Pharmaceuticals)
+22622311000001103	Budesonide 64micrograms/dose nasal spray (DE Pharmaceuticals)
+35089811000001104	Benacort 64micrograms nasal spray (McNeil Products Ltd)
+35089911000001109	Benacort 64micrograms nasal spray (McNeil Products Ltd)
+38806911000001106	Budesonide 64micrograms/dose nasal spray (Medihealth (Northern) Ltd)
+38807011000001105	Budesonide 64micrograms/dose nasal spray (Medihealth (Northern) Ltd)
+7876611000001104	Generic Biotene dry mouth antibacterial toothpaste
+7843611000001106	Generic Biotene dry mouth antibacterial toothpaste
+23325911000001107	Generic Biotene dry mouth antibacterial toothpaste
+7843711000001102	Biotene dry mouth antibacterial toothpaste original (GlaxoSmithKline Consumer Healthcare UK Ltd)
+7843811000001105	Biotene dry mouth antibacterial toothpaste original (GlaxoSmithKline Consumer Healthcare UK Ltd)
+23326011000001104	Biotene dry mouth antibacterial toothpaste original (GlaxoSmithKline Consumer Healthcare UK Ltd)
+7876811000001100	Generic Biotene dry mouth gum sugar free
+7848311000001109	Generic Biotene dry mouth gum sugar free
+7848411000001102	Biotene dry mouth gum (GlaxoSmithKline Consumer Healthcare UK Ltd)
+7848811000001100	Biotene dry mouth gum (GlaxoSmithKline Consumer Healthcare UK Ltd)
+7876511000001103	Generic Biotene Oralbalance dry mouth system
+7849511000001109	Generic Biotene Oralbalance dry mouth system
+7849911000001102	Biotene Oralbalance dry mouth system (GlaxoSmithKline Consumer Healthcare UK Ltd)
+7850411000001102	Biotene Oralbalance dry mouth system (GlaxoSmithKline Consumer Healthcare UK Ltd)
+7969411000001109	Cetylpyridinium chloride 1.28mg/g / Menthol 330micrograms/g pastilles sugar free
+7960111000001109	Cetylpyridinium chloride 1.28mg/g / Menthol 330micrograms/g pastilles sugar free
+8153711000001100	Cetylpyridinium chloride 1.28mg/g / Menthol 330micrograms/g pastilles sugar free
+7960211000001103	Rinstead pastilles sugar free (Bayer Plc)
+7960311000001106	Rinstead pastilles sugar free (Bayer Plc)
+8153811000001108	Rinstead pastilles sugar free (Bayer Plc)
+331002001	Docusate sodium 5% ear drops
+7996711000001106	Docusate sodium 5% ear drops
+8157311000001106	Docusate sodium 5% ear drops
+8157711000001105	Molcer ear drops (Wallace Manufacturing Chemists Ltd)
+8157911000001107	Molcer ear drops (Wallace Manufacturing Chemists Ltd)
+8158511000001101	Clear Ear drops (Strides Pharma UK Ltd)
+8158711000001106	Clear Ear drops (Strides Pharma UK Ltd)
+8012511000001102	Menthol 8mg/g / Eucalyptus oil 6mg/g pastilles
+8012611000001103	Menthol 8mg/g / Eucalyptus oil 6mg/g pastilles
+8012711000001107	Hill's Balsam Nasal Congestion pastilles (Infohealth Laboratories Ltd)
+8013011000001101	Hill's Balsam Nasal Congestion pastilles (Infohealth Laboratories Ltd)
+16222411000001105	Potter's Decongestant pastilles (Ernest Jackson & Co. Ltd)
+16222511000001109	Potter's Decongestant pastilles (Ernest Jackson & Co. Ltd)
+8035411000001101	Vocalzone Throat pastilles original (Kestrel Medical Ltd)
+8035511000001102	Vocalzone Throat pastilles original (Kestrel Medical Ltd)
+36465111000001100	Vocalzone Throat pastilles blackcurrant (Kestrel Medical Ltd)
+36465211000001106	Vocalzone Throat pastilles blackcurrant (Kestrel Medical Ltd)
+36465311000001103	Vocalzone Throat pastilles honey & lemon (Kestrel Medical Ltd)
+36465411000001105	Vocalzone Throat pastilles honey & lemon (Kestrel Medical Ltd)
+8049211000001103	Hexylresorcinol 2.5mg / Benzalkonium chloride 1.2mg lozenges
+8049311000001106	Hexylresorcinol 2.5mg / Benzalkonium chloride 1.2mg lozenges
+8049411000001104	Hexylresorcinol 2.5mg / Benzalkonium chloride 1.2mg lozenges
+8049511000001100	Beechams Max Strength Sore Throat Blackberry lozenges (GlaxoSmithKline Consumer Healthcare UK Ltd)
+8049711000001105	Beechams Max Strength Sore Throat Blackberry lozenges (GlaxoSmithKline Consumer Healthcare UK Ltd)
+8049811000001102	Beechams Max Strength Sore Throat Blackberry lozenges (GlaxoSmithKline Consumer Healthcare UK Ltd)
+8049911000001107	Beechams Max Strength Sore Throat Lemon and Honey lozenges (GlaxoSmithKline Consumer Healthcare UK Ltd)
+8050011000001103	Beechams Max Strength Sore Throat Lemon and Honey lozenges (GlaxoSmithKline Consumer Healthcare UK Ltd)
+8050111000001102	Beechams Max Strength Sore Throat Lemon and Honey lozenges (GlaxoSmithKline Consumer Healthcare UK Ltd)
+9514911000001101	Halls Max Strength Sore Throat Relief Honey and Lemon lozenges (Ernest Jackson & Co. Ltd)
+9515011000001101	Halls Max Strength Sore Throat Relief Honey and Lemon lozenges (Ernest Jackson & Co. Ltd)
+9515111000001100	Halls Max Strength Sore Throat Relief Original lozenges (Ernest Jackson & Co. Ltd)
+9515211000001106	Halls Max Strength Sore Throat Relief Original lozenges (Ernest Jackson & Co. Ltd)
+135589009	Benzocaine 20% dental gel sugar free
+8065211000001106	Benzocaine 20% dental gel sugar free
+8065311000001103	Orajel Extra Strength 20% dental gel (Church & Dwight UK Ltd)
+8065411000001105	Orajel Extra Strength 20% dental gel (Church & Dwight UK Ltd)
+8066111000001106	Clove oil 21% / Chlorobutanol 7% dental gel sugar free
+8066211000001100	Clove oil 21% / Chlorobutanol 7% dental gel sugar free
+8066311000001108	Soothake dental gel (Optima Consumer Health Ltd)
+8066411000001101	Soothake dental gel (Optima Consumer Health Ltd)
+8064311000001102	Clove oil 10% / Lidocaine 0.7% dental liquid sugar free
+8065811000001107	Clove oil 10% / Lidocaine 0.7% dental liquid sugar free
+8065911000001102	Soothake Toothache Tincture dental liquid (Optima Consumer Health Ltd)
+8066011000001105	Soothake Toothache Tincture dental liquid (Optima Consumer Health Ltd)
+8104811000001103	Glycerol 66mg / Thymol 880microgram pastilles
+8103811000001101	Glycerol 66mg / Thymol 880microgram pastilles
+8104011000001109	Potter's Glycerin and Thymol Sore Throat pastilles (Ernest Jackson & Co. Ltd)
+8104211000001104	Potter's Glycerin and Thymol Sore Throat pastilles (Ernest Jackson & Co. Ltd)
+8109911000001109	Clove oil 50% dental liquid sugar free
+8106311000001101	Clove oil 50% dental liquid sugar free
+8106411000001108	Dentogen Clove Oil 50% dental liquid (Crescent Pharma OTC Ltd)
+8106511000001107	Dentogen Clove Oil 50% dental liquid (Crescent Pharma OTC Ltd)
+8109811000001104	Clove oil 20% dental gel sugar free
+8106611000001106	Clove oil 20% dental gel sugar free
+8106711000001102	Dentogen Clove Oil 20% dental gel (Crescent Pharma Ltd)
+8106811000001105	Dentogen Clove Oil 20% dental gel (Crescent Pharma Ltd)
+8136411000001100	Menthol 0.185% / Eucalyptus oil 0.08% lozenges
+8133611000001108	Menthol 0.185% / Eucalyptus oil 0.08% lozenges
+8133711000001104	Halls Mentholyptus Original lozenges (Ernest Jackson & Co. Ltd)
+8133811000001107	Halls Mentholyptus Original lozenges (Ernest Jackson & Co. Ltd)
+8136211000001104	Menthol 0.14% / Eucalyptus oil 0.028% lozenges
+8133911000001102	Menthol 0.14% / Eucalyptus oil 0.028% lozenges
+8134011000001104	Halls Mentholyptus Blackcurrant lozenges (Ernest Jackson & Co. Ltd)
+8134111000001103	Halls Mentholyptus Blackcurrant lozenges (Ernest Jackson & Co. Ltd)
+8136611000001102	Menthol 0.52% / Eucalyptus oil 0.26% lozenges
+8134211000001109	Menthol 0.52% / Eucalyptus oil 0.26% lozenges
+8134311000001101	Halls Mentholyptus Extra Strong lozenges (Ernest Jackson & Co. Ltd)
+8134411000001108	Halls Mentholyptus Extra Strong lozenges (Ernest Jackson & Co. Ltd)
+8136311000001107	Menthol 0.16% / Eucalyptus oil 0.14% lozenges sugar free
+8134511000001107	Menthol 0.16% / Eucalyptus oil 0.14% lozenges sugar free
+8134611000001106	Halls Mentholyptus Sugar Free Cherry lozenges (Ernest Jackson & Co. Ltd)
+8134711000001102	Halls Mentholyptus Sugar Free Cherry lozenges (Ernest Jackson & Co. Ltd)
+8136511000001101	Menthol 0.24% / Eucalyptus oil 0.1% lozenges sugar free
+8134811000001105	Menthol 0.24% / Eucalyptus oil 0.1% lozenges sugar free
+8134911000001100	Halls Mentholyptus Original Sugar Free lozenges (Ernest Jackson & Co. Ltd)
+8135011000001100	Halls Mentholyptus Original Sugar Free lozenges (Ernest Jackson & Co. Ltd)
+8147611000001104	Amylmetacresol 600microgram lozenges
+8142711000001106	Amylmetacresol 600microgram lozenges
+8142811000001103	Throaties Anti-bacterial 600microgram pastilles lemon & honey (Ernest Jackson & Co. Ltd)
+8142911000001108	Throaties Anti-bacterial 600microgram pastilles lemon & honey (Ernest Jackson & Co. Ltd)
+8172511000001100	Throaties Anti-bacterial 600microgram pastilles redcurrant & rosehip (Ernest Jackson & Co. Ltd)
+8172611000001101	Throaties Anti-bacterial 600microgram pastilles redcurrant & rosehip (Ernest Jackson & Co. Ltd)
+11761511000001101	Antiseptic Throat Drops Cherry Menthol (The Boots Company Plc)
+11761711000001106	Antiseptic Throat Drops Cherry Menthol (The Boots Company Plc)
+11778411000001104	Antiseptic Throat Drops Orange and Menthol with Vitamin C (The Boots Company Plc)
+11778511000001100	Antiseptic Throat Drops Orange and Menthol with Vitamin C (The Boots Company Plc)
+17983711000001102	Boots Sore Throat Relief 600microgram lozenges cherry (The Boots Company Plc)
+17983811000001105	Boots Sore Throat Relief 600microgram lozenges cherry (The Boots Company Plc)
+17984111000001101	Boots Sore Throat Relief 600microgram lozenges lemon (The Boots Company Plc)
+17984311000001104	Boots Sore Throat Relief 600microgram lozenges lemon (The Boots Company Plc)
+17984711000001100	Boots Sore Throat Relief 600microgram lozenges orange & menthol (The Boots Company Plc)
+17984811000001108	Boots Sore Throat Relief 600microgram lozenges orange & menthol (The Boots Company Plc)
+8306611000001100	Benzocaine 150mg/5ml oral solution
+8289611000001100	Benzocaine 150mg/5ml oral solution
+8289811000001101	Benzocaine 150mg/5ml oral solution (Special Order)
+8290011000001103	Benzocaine 150mg/5ml oral solution (Special Order)
+8306511000001104	Benzocaine 150mg/5ml oral suspension
+8290611000001105	Benzocaine 150mg/5ml oral suspension
+8291011000001107	Benzocaine 150mg/5ml oral suspension (Special Order)
+8291111000001108	Benzocaine 150mg/5ml oral suspension (Special Order)
+8399011000001103	Sodium chloride 0.9% nebuliser liquid 20ml unit dose vials
+8394611000001106	Sodium chloride 0.9% nebuliser liquid 20ml unit dose vials
+8394711000001102	Saline nebuliser liquid 20ml unit dose Steripoule vials (Galen Ltd)
+8394811000001105	Saline nebuliser liquid 20ml unit dose Steripoule vials (Galen Ltd)
+8793711000001100	Ephedrine 0.25% nasal drops
+8784711000001102	Ephedrine 0.25% nasal drops
+8784811000001105	Ephedrine 0.25% nasal drops (Special Order)
+8784911000001100	Ephedrine 0.25% nasal drops (Special Order)
+8793811000001108	Ephedrine 2% nasal drops
+8785011000001100	Ephedrine 2% nasal drops
+8785111000001104	Ephedrine 2% nasal drops (Special Order)
+8785211000001105	Ephedrine 2% nasal drops (Special Order)
+8967711000001102	Sodium chloride 7% nebuliser liquid
+8905911000001109	Sodium chloride 7% nebuliser liquid
+20981211000001102	Sodium chloride 7% nebuliser liquid
+8906011000001101	Sodium chloride 7% nebuliser liquid (Special Order)
+8906211000001106	Sodium chloride 7% nebuliser liquid (Special Order)
+20981311000001105	Sodium chloride 7% nebuliser liquid (Special Order)
+9168311000001101	Cetylpyridinium chloride 0.025% gel
+9164011000001108	Cetylpyridinium chloride 0.025% gel
+9164111000001109	Germolene 0.025% antiseptic gel (Bayer Plc)
+9164211000001103	Germolene 0.025% antiseptic gel (Bayer Plc)
+17842911000001106	Boots Antiseptic 0.025% gel (The Boots Company Plc)
+17843011000001103	Boots Antiseptic 0.025% gel (The Boots Company Plc)
+9385211000001107	Nowax ear drops (Bell,Sons & Co (Druggists) Ltd)
+9385311000001104	Nowax ear drops (Bell,Sons & Co (Druggists) Ltd)
+16736511000001100	Golden ear drops (Bell,Sons & Co (Druggists) Ltd)
+16736611000001101	Golden ear drops (Bell,Sons & Co (Druggists) Ltd)
+11236511000001105	Generic Biotene Oralbalance dry mouth moisturising liquid
+11176011000001102	Generic Biotene Oralbalance dry mouth moisturising liquid
+11176111000001101	Biotene Oralbalance dry mouth moisturising liquid (GlaxoSmithKline Consumer Healthcare UK Ltd)
+11176211000001107	Biotene Oralbalance dry mouth moisturising liquid (GlaxoSmithKline Consumer Healthcare UK Ltd)
+11762211000001106	Dichlorobenzyl alcohol 1.29mg pastilles sugar free
+11753411000001108	Dichlorobenzyl alcohol 1.29mg pastilles sugar free
+11753511000001107	Antiseptic Sore Mouth 1.29mg pastilles (The Boots Company Plc)
+11753611000001106	Antiseptic Sore Mouth 1.29mg pastilles (The Boots Company Plc)
+11764211000001102	Lidocaine 0.6% / Cetylpyridinium chloride 0.02% oromucosal gel
+11760911000001101	Lidocaine 0.6% / Cetylpyridinium chloride 0.02% oromucosal gel
+11761011000001109	Boots Mouth Ulcer gel (The Boots Company Plc)
+11761111000001105	Boots Mouth Ulcer gel (The Boots Company Plc)
+11787011000001102	Amylmetacresol 600microgram lozenges sugar free
+11780011000001103	Amylmetacresol 600microgram lozenges sugar free
+17985111000001102	Amylmetacresol 600microgram lozenges sugar free
+11780111000001102	Antiseptic Throat Drops Blackcurrant sugar free (The Boots Company Plc)
+11780211000001108	Antiseptic Throat Drops Blackcurrant sugar free (The Boots Company Plc)
+17985011000001103	Boots Sore Throat Relief 600microgram lozenges sugar free (The Boots Company Plc)
+17985211000001108	Boots Sore Throat Relief 600microgram lozenges sugar free (The Boots Company Plc)
+12285811000001106	Benzocaine 125mg/5ml oral suspension
+12229411000001103	Benzocaine 125mg/5ml oral suspension
+12229511000001104	Benzocaine 125mg/5ml oral suspension (Special Order)
+12229611000001100	Benzocaine 125mg/5ml oral suspension (Special Order)
+12285711000001103	Benzocaine 125mg/5ml oral solution
+12229711000001109	Benzocaine 125mg/5ml oral solution
+12229811000001101	Benzocaine 125mg/5ml oral solution (Special Order)
+12229911000001106	Benzocaine 125mg/5ml oral solution (Special Order)
+13042111000001100	Pilocarpine hydrochloride 1.25mg/5ml oral solution
+13028811000001106	Pilocarpine hydrochloride 1.25mg/5ml oral solution
+13029011000001105	Pilocarpine hydrochloride 1.25mg/5ml oral solution (Special Order)
+13029111000001106	Pilocarpine hydrochloride 1.25mg/5ml oral solution (Special Order)
+13042211000001106	Pilocarpine hydrochloride 2.5mg/5ml oral solution
+13032211000001105	Pilocarpine hydrochloride 2.5mg/5ml oral solution
+13032311000001102	Pilocarpine hydrochloride 2.5mg/5ml oral solution (Special Order)
+13032511000001108	Pilocarpine hydrochloride 2.5mg/5ml oral solution (Special Order)
+13042311000001103	Pilocarpine hydrochloride 3mg/5ml oral solution
+13032811000001106	Pilocarpine hydrochloride 3mg/5ml oral solution
+13033011000001109	Pilocarpine hydrochloride 3mg/5ml oral solution (Special Order)
+13033111000001105	Pilocarpine hydrochloride 3mg/5ml oral solution (Special Order)
+13042411000001105	Pilocarpine hydrochloride 5mg/5ml oral solution
+13033411000001100	Pilocarpine hydrochloride 5mg/5ml oral solution
+13033511000001101	Pilocarpine hydrochloride 5mg/5ml oral solution (Special Order)
+13033611000001102	Pilocarpine hydrochloride 5mg/5ml oral solution (Special Order)
+13042511000001109	Pilocarpine hydrochloride 8mg/5ml oral solution
+13034611000001104	Pilocarpine hydrochloride 8mg/5ml oral solution
+13034811000001100	Pilocarpine hydrochloride 8mg/5ml oral solution (Special Order)
+13035011000001105	Pilocarpine hydrochloride 8mg/5ml oral solution (Special Order)
+13533111000001108	Miconazole 50mg muco-adhesive buccal tablets sugar free
+13505711000001103	Miconazole 50mg muco-adhesive buccal tablets sugar free
+13505811000001106	Loramyc 50mg muco-adhesive buccal tablets (Laboratoires BioAlliance Pharma)
+13505911000001101	Loramyc 50mg muco-adhesive buccal tablets (Laboratoires BioAlliance Pharma)
+13532211000001108	Generic Sinotar tablets
+13506611000001102	Generic Sinotar tablets
+13506711000001106	Sinotar tablets (G.R. Lane Health Products Ltd)
+13506811000001103	Sinotar tablets (G.R. Lane Health Products Ltd)
+13573111000001105	Chlorhexidine gluconate 0.06% / Sodium fluoride 0.05% mouthwash sugar free
+13571611000001101	Chlorhexidine gluconate 0.06% / Sodium fluoride 0.05% mouthwash sugar free
+13571711000001105	Corsodyl Daily Defence mouthwash (GlaxoSmithKline Consumer Healthcare UK Ltd)
+13571811000001102	Corsodyl Daily Defence mouthwash (GlaxoSmithKline Consumer Healthcare UK Ltd)
+22554511000001109	Corsodyl Daily mouthwash fresh mint (GlaxoSmithKline Consumer Healthcare UK Ltd)
+22554611000001108	Corsodyl Daily mouthwash fresh mint (GlaxoSmithKline Consumer Healthcare UK Ltd)
+22554711000001104	Corsodyl Daily mouthwash cool mint (GlaxoSmithKline Consumer Healthcare UK Ltd)
+22554911000001102	Corsodyl Daily mouthwash cool mint (GlaxoSmithKline Consumer Healthcare UK Ltd)
+37593611000001100	Corsodyl Daily mouthwash icy white (GlaxoSmithKline Consumer Healthcare UK Ltd)
+37593711000001109	Corsodyl Daily mouthwash icy white (GlaxoSmithKline Consumer Healthcare UK Ltd)
+13639311000001101	Generic Olbas Blackcurrant pastilles sugar free
+13632811000001100	Generic Olbas Blackcurrant pastilles sugar free
+13632911000001105	Olbas Blackcurrant pastilles (G.R. Lane Health Products Ltd)
+13633011000001102	Olbas Blackcurrant pastilles (G.R. Lane Health Products Ltd)
+13640511000001103	Lactoperoxidase 50unit medicated chewing gum sugar free
+13638011000001109	Lactoperoxidase 50unit medicated chewing gum sugar free
+13638111000001105	BioXtra 50unit medicated chewing gum (R.I.S. Products Ltd)
+13638211000001104	BioXtra 50unit medicated chewing gum (R.I.S. Products Ltd)
+13664911000001105	Lidocaine 0.66% / Aminoacridine 0.05% oromucosal gel sugar free
+13664211000001101	Lidocaine 0.66% / Aminoacridine 0.05% oromucosal gel sugar free
+13664311000001109	Iglu oromucosal gel (Diomed Developments Ltd)
+13664411000001102	Iglu oromucosal gel (Diomed Developments Ltd)
+16659311000001109	Iglu Rapid Relief oromucosal gel (Diomed Developments Ltd)
+16659411000001102	Iglu Rapid Relief oromucosal gel (Diomed Developments Ltd)
+13718211000001100	Lactoperoxidase 50unit oromucosal tablets sugar free
+13717211000001104	Lactoperoxidase 50unit oromucosal tablets sugar free
+13717311000001107	BioXtra 50unit sucking tablets (R.I.S. Products Ltd)
+13717411000001100	BioXtra 50unit sucking tablets (R.I.S. Products Ltd)
+13844311000001109	Generic UltraDEX Oral Rinse sugar free
+13834311000001108	Generic UltraDEX Oral Rinse sugar free
+13834511000001102	Generic UltraDEX Oral Rinse sugar free
+13835011000001109	UltraDEX Oral Rinse (Periproducts Ltd)
+13835111000001105	UltraDEX Oral Rinse (Periproducts Ltd)
+13835311000001107	UltraDEX Oral Rinse (Periproducts Ltd)
+13859311000001108	Dichlorobenzyl alcohol 230micrograms / Amylmetacresol 120micrograms lozenges
+13855711000001105	Dichlorobenzyl alcohol 230micrograms / Amylmetacresol 120micrograms lozenges
+13855811000001102	Lloydspharmacy Antiseptic Throat lozenges (Lloyds Pharmacy Ltd)
+13856111000001103	Lloydspharmacy Antiseptic Throat lozenges (Lloyds Pharmacy Ltd)
+13893111000001103	Dequalinium chloride 250microgram lozenges sugar free
+13860711000001108	Dequalinium chloride 250microgram lozenges sugar free
+13860811000001100	Lloydspharmacy Sugar Free Antiseptic 250microgram lozenges (Lloyds Pharmacy Ltd)
+13860911000001105	Lloydspharmacy Sugar Free Antiseptic 250microgram lozenges (Lloyds Pharmacy Ltd)
+14021111000001105	Burow's Solution BP (Aluminium acetate 13%) ear drops
+14021611000001102	Burow's Solution BP (Aluminium acetate 13%) ear drops
+39218311000001102	Burow's Solution BP (Aluminium acetate 13%) ear drops
+14021711000001106	Aluminium acetate 13% ear drops (Special Order)
+14021911000001108	Aluminium acetate 13% ear drops (Special Order)
+14779311000001107	Benzydamine 3mg lozenges sugar free
+14773911000001105	Benzydamine 3mg lozenges sugar free
+14774011000001108	Lozamine 3mg lozenges (Accura Health Ltd)
+14774211000001103	Lozamine 3mg lozenges (Accura Health Ltd)
+37151611000001100	Difflam 3mg lozenges eucalyptus (Viatris UK Healthcare Ltd)
+37151811000001101	Difflam 3mg lozenges eucalyptus (Viatris UK Healthcare Ltd)
+37152011000001104	Difflam 3mg lozenges lemon (Viatris UK Healthcare Ltd)
+37152211000001109	Difflam 3mg lozenges lemon (Viatris UK Healthcare Ltd)
+37152411000001108	Difflam 3mg lozenges mint (Viatris UK Healthcare Ltd)
+37152511000001107	Difflam 3mg lozenges mint (Viatris UK Healthcare Ltd)
+37152611000001106	Difflam 3mg lozenges orange-honey (Viatris UK Healthcare Ltd)
+37152711000001102	Difflam 3mg lozenges orange-honey (Viatris UK Healthcare Ltd)
+14799611000001109	Glucose 25% in glycerol nasal drops (Special Order)
+14799711000001100	Glucose 25% in glycerol nasal drops (Special Order)
+14957011000001108	Aluminium acetate 8% ear drops
+14950711000001109	Aluminium acetate 8% ear drops
+20112611000001107	Aluminium acetate 8% ear drops
+20112811000001106	Aluminium acetate 8% ear drops
+14950811000001101	Aluminium acetate 8% ear drops (Special Order)
+14950911000001106	Aluminium acetate 8% ear drops (Special Order)
+20112711000001103	Aluminium acetate 8% ear drops (Special Order)
+20112911000001101	Aluminium acetate 8% ear drops (Special Order)
+425984002	Fluticasone furoate 27.5micrograms/dose nasal spray
+15046211000001101	Fluticasone furoate 27.5micrograms/dose nasal spray
+15046311000001109	Avamys 27.5micrograms/dose nasal spray (GlaxoSmithKline UK Ltd)
+15046411000001102	Avamys 27.5micrograms/dose nasal spray (GlaxoSmithKline UK Ltd)
+15533511000001109	Glucose 20% in glycerol nasal drops
+15530811000001100	Glucose 20% in glycerol nasal drops
+21383011000001108	Glucose 20% in glycerol nasal drops
+15531211000001107	Glucose 20% in glycerol nasal drops (Special Order)
+15531311000001104	Glucose 20% in glycerol nasal drops (Special Order)
+21383111000001109	Glucose 20% in glycerol nasal drops (Special Order)
+15567411000001106	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 1.25cm x 100cm
+15546211000001103	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 1.25cm x 100cm
+33694811000001100	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 1.25cm x 100cm
+15546311000001106	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 1.25cm x 100cm (Martindale Pharmaceuticals Ltd)
+15546411000001104	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 1.25cm x 100cm (Martindale Pharmaceuticals Ltd)
+33694911000001105	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 1.25cm x 100cm (Martindale Pharmaceuticals Ltd)
+15567511000001105	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 1.25cm x 200cm
+15546511000001100	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 1.25cm x 200cm
+33695011000001105	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 1.25cm x 200cm
+15546611000001101	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 1.25cm x 200cm (Martindale Pharmaceuticals Ltd)
+15546711000001105	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 1.25cm x 200cm (Martindale Pharmaceuticals Ltd)
+33695111000001106	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 1.25cm x 200cm (Martindale Pharmaceuticals Ltd)
+15567611000001109	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 1.25cm x 300cm
+15546811000001102	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 1.25cm x 300cm
+33695211000001100	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 1.25cm x 300cm
+15546911000001107	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 1.25cm x 300cm (Martindale Pharmaceuticals Ltd)
+15547011000001106	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 1.25cm x 300cm (Martindale Pharmaceuticals Ltd)
+33695311000001108	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 1.25cm x 300cm (Martindale Pharmaceuticals Ltd)
+15567711000001100	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 2.5cm x 100cm
+15547111000001107	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 2.5cm x 100cm
+33695711000001107	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 2.5cm x 100cm
+15547211000001101	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 2.5cm x 100cm (Martindale Pharmaceuticals Ltd)
+15547311000001109	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 2.5cm x 100cm (Martindale Pharmaceuticals Ltd)
+33695811000001104	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 2.5cm x 100cm (Martindale Pharmaceuticals Ltd)
+15567811000001108	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 2.5cm x 200cm
+15547411000001102	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 2.5cm x 200cm
+33695911000001109	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 2.5cm x 200cm
+15547511000001103	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 2.5cm x 200cm (Martindale Pharmaceuticals Ltd)
+15547611000001104	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 2.5cm x 200cm (Martindale Pharmaceuticals Ltd)
+33696311000001103	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 2.5cm x 200cm (Martindale Pharmaceuticals Ltd)
+15567911000001103	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 2.5cm x 300cm
+15547711000001108	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 2.5cm x 300cm
+33696411000001105	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 2.5cm x 300cm
+15547811000001100	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 2.5cm x 300cm (Martindale Pharmaceuticals Ltd)
+15547911000001105	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 2.5cm x 300cm (Martindale Pharmaceuticals Ltd)
+33696511000001109	Bismuth subnitrate 20% / Iodoform 40% paste impregnated gauze dressing 2.5cm x 300cm (Martindale Pharmaceuticals Ltd)
+16501311000001107	Cerumol olive oil ear drops (Thornton & Ross Ltd)
+16501811000001103	Cerumol olive oil ear drops (Thornton & Ross Ltd)
+16246811000001106	Menthol 0.3% / Anise oil 0.2% lozenges
+16222911000001102	Menthol 0.3% / Anise oil 0.2% lozenges
+16223011000001105	Zubes Original lozenges (Ernest Jackson & Co. Ltd)
+16223111000001106	Zubes Original lozenges (Ernest Jackson & Co. Ltd)
+16246611000001107	Generic Zubes Honey & Lemon lozenges
+16223511000001102	Generic Zubes Honey & Lemon lozenges
+16223611000001103	Zubes Honey & Lemon lozenges (Ernest Jackson & Co. Ltd)
+16223711000001107	Zubes Honey & Lemon lozenges (Ernest Jackson & Co. Ltd)
+16246511000001108	Generic Throaties Strong Original pastilles
+16225911000001105	Generic Throaties Strong Original pastilles
+16226011000001102	Throaties Strong Original pastilles (Ernest Jackson & Co. Ltd)
+16226111000001101	Throaties Strong Original pastilles (Ernest Jackson & Co. Ltd)
+16246711000001103	Honey 1.76% / Menthol 0.076% pastilles
+16226211000001107	Honey 1.76% / Menthol 0.076% pastilles
+16226311000001104	Throaties Blackcurrant pastilles (Ernest Jackson & Co. Ltd)
+16226411000001106	Throaties Blackcurrant pastilles (Ernest Jackson & Co. Ltd)
+16246311000001102	Generic Boots Easy Breathing pastilles
+16226611000001109	Generic Boots Easy Breathing pastilles
+17840411000001104	Boots Easy Breathing pastilles (The Boots Company Plc)
+17840511000001100	Boots Easy Breathing pastilles (The Boots Company Plc)
+17563611000001100	Sodium chloride 3% nebuliser liquid
+17529011000001104	Sodium chloride 3% nebuliser liquid
+17529111000001103	Sodium chloride 3% nebuliser liquid (Special Order)
+17529211000001109	Sodium chloride 3% nebuliser liquid (Special Order)
+17563711000001109	Sodium chloride 3% nebuliser liquid 10ml unit dose vials
+17529311000001101	Sodium chloride 3% nebuliser liquid 10ml unit dose vials
+17529511000001107	Sodium chloride 3% nebuliser liquid 10ml unit dose vials (Special Order)
+17529611000001106	Sodium chloride 3% nebuliser liquid 10ml unit dose vials (Special Order)
+17563811000001101	Sodium chloride 3% nebuliser liquid 20ml unit dose vials
+17529411000001108	Sodium chloride 3% nebuliser liquid 20ml unit dose vials
+17529711000001102	Sodium chloride 3% nebuliser liquid 20ml unit dose vials (Special Order)
+17529811000001105	Sodium chloride 3% nebuliser liquid 20ml unit dose vials (Special Order)
+17853611000001107	Cetylpyridinium chloride 0.025% mouthwash sugar free
+17849611000001107	Cetylpyridinium chloride 0.025% mouthwash sugar free
+17849711000001103	Boots Oral Antiseptic 0.025% mouthwash (The Boots Company Plc)
+17849811000001106	Boots Oral Antiseptic 0.025% mouthwash (The Boots Company Plc)
+17973411000001102	Generic Boots Catarrh pastilles
+17951111000001108	Generic Boots Catarrh pastilles
+17951511000001104	Boots Catarrh pastilles (The Boots Company Plc)
+17951611000001100	Boots Catarrh pastilles (The Boots Company Plc)
+17951711000001109	Potter's Catarrh pastilles (Ernest Jackson & Co. Ltd)
+17951811000001101	Potter's Catarrh pastilles (Ernest Jackson & Co. Ltd)
+18064211000001109	Lemon Glycerin swabsticks (Optimum Medical Solutions Ltd)
+18064311000001101	Lemon Glycerin swabsticks (Optimum Medical Solutions Ltd)
+18064411000001108	Blackcurrant Glycerin swabsticks (Optimum Medical Solutions Ltd)
+18064511000001107	Blackcurrant Glycerin swabsticks (Optimum Medical Solutions Ltd)
+18782111000001105	Colistimethate 1% ear drops
+18781711000001104	Colistimethate 1% ear drops
+18781811000001107	Colistimethate 1% ear drops (Special Order)
+18781911000001102	Colistimethate 1% ear drops (Special Order)
+19395211000001107	Ciprofloxacin 0.3% ear drops
+19389111000001103	Ciprofloxacin 0.3% ear drops
+39322911000001100	Ciprofloxacin 0.3% ear drops
+19389211000001109	Ciprofloxacin 0.3% ear drops (Drug Tariff Special Order)
+19389311000001101	Ciprofloxacin 0.3% ear drops (Drug Tariff Special Order)
+39323011000001108	Ciprofloxacin 0.3% ear drops (Drug Tariff Special Order)
+19698311000001103	Glucose 50% in glycerol nasal drops
+19680211000001109	Glucose 50% in glycerol nasal drops
+19680311000001101	Glucose 50% in glycerol nasal drops (Special Order)
+19680411000001108	Glucose 50% in glycerol nasal drops (Special Order)
+20065711000001104	Generic ProntOral mouthwash
+20037011000001103	Generic ProntOral mouthwash
+20122111000001108	Echinacea throat spray sugar free
+20117611000001105	Echinacea throat spray sugar free
+20117711000001101	Echinaforce throat spray (A.Vogel UK Ltd)
+20117811000001109	Echinaforce throat spray (A.Vogel UK Ltd)
+20138411000001104	Sodium chloride 7% nebuliser liquid 5ml ampoules
+20138511000001100	Sodium chloride 7% nebuliser liquid 5ml ampoules
+20142011000001109	Sodium chloride 7% nebuliser liquid 5ml ampoules
+20138611000001101	Sodium chloride 7% nebuliser liquid 5ml ampoules (Special Order)
+20138711000001105	Sodium chloride 7% nebuliser liquid 5ml ampoules (Special Order)
+20142111000001105	Sodium chloride 7% nebuliser liquid 5ml ampoules (Special Order)
+20138811000001102	Sodium chloride 7% nebuliser liquid 5ml bottles
+20138911000001107	Sodium chloride 7% nebuliser liquid 5ml bottles
+20139011000001103	Sodium chloride 7% nebuliser liquid 5ml bottles (Special Order)
+20139111000001102	Sodium chloride 7% nebuliser liquid 5ml bottles (Special Order)
+21147411000001106	Otocomb Otic ear ointment (Imported (Australia))
+21147511000001105	Otocomb Otic ear ointment (Imported (Australia))
+21147611000001109	Kenacomb Otic ear ointment (Imported (Australia))
+21147711000001100	Kenacomb Otic ear ointment (Imported (Australia))
+21994411000001108	Fluticasone propionate 50micrograms/dose / Azelastine 137micrograms/dose nasal spray
+21976611000001106	Fluticasone propionate 50micrograms/dose / Azelastine 137micrograms/dose nasal spray
+21976811000001105	Dymista 137micrograms/dose / 50micrograms/dose nasal spray (Viatris UK Healthcare Ltd)
+21977011000001101	Dymista 137micrograms/dose / 50micrograms/dose nasal spray (Viatris UK Healthcare Ltd)
+22213711000001100	Acetic acid 5% ear spray
+22207811000001104	Acetic acid 5% ear spray
+22207911000001109	Acetic acid 5% ear spray (Special Order)
+22208011000001106	Acetic acid 5% ear spray (Special Order)
+22373111000001101	Polyethylene oxide 150mg lozenges
+22373211000001107	Polyethylene oxide 150mg lozenges
+22373311000001104	Polyethylene oxide 150mg lozenges
+22373411000001106	Polyethylene oxide 150mg lozenges (Special Order)
+22373611000001109	Polyethylene oxide 150mg lozenges (Special Order)
+22373511000001105	Polyethylene oxide 150mg lozenges (Special Order)
+22683811000001108	Sodium chloride 0.9% nebuliser liquid 2.5ml unit dose ampoules
+22664911000001104	Sodium chloride 0.9% nebuliser liquid 2.5ml unit dose ampoules
+22665011000001104	Sodium chloride 0.9% nebuliser liquid 2.5ml unit dose ampoules (Accord Healthcare Ltd)
+22665211000001109	Sodium chloride 0.9% nebuliser liquid 2.5ml unit dose ampoules (Accord Healthcare Ltd)
+28966211000001105	Sodium chloride 0.9% nebuliser liquid 2.5ml unit dose ampoules (A A H Pharmaceuticals Ltd)
+28966311000001102	Sodium chloride 0.9% nebuliser liquid 2.5ml unit dose ampoules (A A H Pharmaceuticals Ltd)
+32419411000001106	Sodium chloride 0.9% nebuliser liquid 2.5ml unit dose ampoules (Alliance Healthcare (Distribution) Ltd)
+32419511000001105	Sodium chloride 0.9% nebuliser liquid 2.5ml unit dose ampoules (Alliance Healthcare (Distribution) Ltd)
+34174811000001109	Saline 0.9% nebuliser liquid 2.5ml Steri-Neb unit dose ampoules (Teva UK Ltd)
+34174911000001104	Saline 0.9% nebuliser liquid 2.5ml Steri-Neb unit dose ampoules (Teva UK Ltd)
+34175011000001104	Saline Steripoules nebuliser liquid 2.5ml unit dose ampoules (Galen Ltd)
+34175111000001103	Saline Steripoules nebuliser liquid 2.5ml unit dose ampoules (Galen Ltd)
+40372511000001109	Sodium chloride 0.9% nebuliser liquid 2.5ml unit dose ampoules (DE Pharmaceuticals)
+40372611000001108	Sodium chloride 0.9% nebuliser liquid 2.5ml unit dose ampoules (DE Pharmaceuticals)
+28049511000001103	Hydrocortisone 4mg pastilles
+28044411000001101	Hydrocortisone 4mg pastilles
+28044511000001102	Hydrocortisone 4mg pastilles (Special Order)
+28044611000001103	Hydrocortisone 4mg pastilles (Special Order)
+28419011000001109	Xerostom dry mouth spray (Curaprox (UK) Ltd)
+28419111000001105	Xerostom dry mouth spray (Curaprox (UK) Ltd)
+32969311000001102	Xerostom dry mouth spray (Curaprox (UK) Ltd)
+29004511000001105	Thyme 59.5mg pastilles
+28999411000001104	Thyme 59.5mg pastilles
+28999511000001100	Thyme 59.5mg pastilles
+28999611000001101	Thyme 59.5mg pastilles
+28999711000001105	Buttercup Bronchostop Cough pastilles (Omega Pharma Ltd)
+28999811000001102	Buttercup Bronchostop Cough pastilles (Omega Pharma Ltd)
+28999911000001107	Buttercup Bronchostop Cough pastilles (Omega Pharma Ltd)
+29000011000001109	Buttercup Bronchostop Cough pastilles (Omega Pharma Ltd)
+29767211000001101	Aluminium acetate 0.3% ear drops
+29754911000001107	Aluminium acetate 0.3% ear drops
+29755011000001107	Aluminium acetate 0.3% ear drops (Special Order)
+29755111000001108	Aluminium acetate 0.3% ear drops (Special Order)
+30780311000001108	Ciprofloxacin 0.3% / Dexamethasone 0.1% ear drops
+30293111000001108	Ciprofloxacin 0.3% / Dexamethasone 0.1% ear drops
+30293211000001102	Cilodex ear drops (Consilient Health Ltd)
+30293311000001105	Cilodex ear drops (Consilient Health Ltd)
+38873411000001103	Ciprofloxacin 0.3% / Dexamethasone 0.1% ear drops (Consilient Health Ltd)
+38873811000001101	Ciprofloxacin 0.3% / Dexamethasone 0.1% ear drops (Consilient Health Ltd)
+39087211000001100	Ciprofloxacin 0.3% / Dexamethasone 0.1% ear drops (A A H Pharmaceuticals Ltd)
+39087311000001108	Ciprofloxacin 0.3% / Dexamethasone 0.1% ear drops (A A H Pharmaceuticals Ltd)
+30780211000001100	Chlorhexidine 0.2% dental gel
+30776111000001103	Chlorhexidine 0.2% dental gel
+30776211000001109	Perio-kin 0.2% gel (Imported (Kuwait))
+30776311000001101	Perio-kin 0.2% gel (Imported (Kuwait))
+32499211000001106	Generic Kilkof lozenges
+32476611000001109	Generic Kilkof lozenges
+32476711000001100	Kilkof lozenges (Bell,Sons & Co (Druggists) Ltd)
+32476811000001108	Kilkof lozenges (Bell,Sons & Co (Druggists) Ltd)
+32878711000001107	Ofloxacin 0.3% ear drops
+32863311000001105	Ofloxacin 0.3% ear drops
+32863411000001103	Ofloxacin 0.3% ear drops (Special Order)
+32863511000001104	Ofloxacin 0.3% ear drops (Special Order)
+33678211000001100	Aluminium acetate 12% ear drops
+33670511000001100	Aluminium acetate 12% ear drops
+33670611000001101	Aluminium acetate 12% ear drops (Special Order)
+33670711000001105	Aluminium acetate 12% ear drops (Special Order)
+33733711000001106	Diclofenac 0.074% mouthwash sugar free
+33731311000001106	Diclofenac 0.074% mouthwash sugar free
+33731411000001104	Diclofenac 0.74mg/ml mouthwash sugar free (Morningside Healthcare Ltd)
+33731511000001100	Diclofenac 0.74mg/ml mouthwash sugar free (Morningside Healthcare Ltd)
+34044211000001103	Diclofenac 0.074% mouthwash sugar free (Alliance Healthcare (Distribution) Ltd)
+34044311000001106	Diclofenac 0.074% mouthwash sugar free (Alliance Healthcare (Distribution) Ltd)
+37603211000001107	Diclofenac 0.74mg/ml mouthwash sugar free (DE Pharmaceuticals)
+37603311000001104	Diclofenac 0.74mg/ml mouthwash sugar free (DE Pharmaceuticals)
+34941111000001103	Ciprofloxacin 2mg/ml ear drops 0.25ml unit dose preservative free
+34940511000001100	Ciprofloxacin 2mg/ml ear drops 0.25ml unit dose preservative free
+34940611000001101	Cetraxal 2mg/ml ear drops 0.25ml unit dose (Aspire Pharma Ltd)
+34940711000001105	Cetraxal 2mg/ml ear drops 0.25ml unit dose (Aspire Pharma Ltd)
+35204811000001105	Generic Iglu pastilles sugar free
+35197611000001100	Generic Iglu pastilles sugar free
+35197711000001109	Iglu pastilles sugar free (Diomed Developments Ltd)
+35197811000001101	Iglu pastilles sugar free (Diomed Developments Ltd)
+35873211000001106	Ciprofloxacin 3mg/ml / Fluocinolone acetonide 0.25mg/ml ear drops 0.25ml unit dose preservative free
+35859911000001102	Ciprofloxacin 3mg/ml / Fluocinolone acetonide 0.25mg/ml ear drops 0.25ml unit dose preservative free
+35860111000001104	Cetraxal Plus 3mg/ml + 0.25mg/ml ear drops 0.25ml unit dose (Aspire Pharma Ltd)
+35860311000001102	Cetraxal Plus 3mg/ml + 0.25mg/ml ear drops 0.25ml unit dose (Aspire Pharma Ltd)
+37693111000001103	Xylometazoline 70micrograms/dose / Ipratropium bromide 84micrograms/dose nasal spray
+37686111000001107	Xylometazoline 70micrograms/dose / Ipratropium bromide 84micrograms/dose nasal spray
+37686311000001109	Otrivine Extra Dual Relief 0.5mg/ml / 0.6mg/ml nasal spray (GlaxoSmithKline Consumer Healthcare UK Ltd)
+37686411000001102	Otrivine Extra Dual Relief 0.5mg/ml / 0.6mg/ml nasal spray (GlaxoSmithKline Consumer Healthcare UK Ltd)
+39150711000001109	Phenazone 40mg/g / Lidocaine 10mg/g ear drops
+39150311000001105	Phenazone 40mg/g / Lidocaine 10mg/g ear drops
+39150411000001103	Otigo 40mg/g / 10mg/g ear drops (Renascience Pharma Ltd)
+39150511000001104	Otigo 40mg/g / 10mg/g ear drops (Renascience Pharma Ltd)
+39804111000001104	Generic Octenident mouthwash sugar free
+39802211000001101	Generic Octenident mouthwash sugar free
+39802311000001109	Octenident mouthwash (Schulke & Mayr UK Ltd)
+39802411000001102	Octenident mouthwash (Schulke & Mayr UK Ltd)
+40015611000001105	Mometasone 25micrograms/dose / Olopatadine 600micrograms/dose nasal spray
+39970211000001101	Mometasone 25micrograms/dose / Olopatadine 600micrograms/dose nasal spray
+39970511000001103	Ryaltris 25micrograms/dose / 600micrograms/dose nasal spray (Glenmark Pharmaceuticals Europe Ltd)
+39970611000001104	Ryaltris 25micrograms/dose / 600micrograms/dose nasal spray (Glenmark Pharmaceuticals Europe Ltd)

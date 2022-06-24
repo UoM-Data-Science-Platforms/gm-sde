@@ -34,6 +34,15 @@ Prior to data extraction, the code is checked and signed off by another RDE.
 This project required the following reusable queries:
 
 - BMI
+- Smoking status
+- Lower level super output area
+- Year of birth
+- Index Multiple Deprivation
+- Sex
+- GET practice and ccg for each patient
+- CCG lookup table
+- Patient GP history
+- Classify secondary admissions
 
 Further details for each query can be found below.
 
@@ -65,14 +74,320 @@ A temp table as follows:
 _File_: `query-patient-bmi.sql`
 
 _Link_: [https://github.com/rw251/.../query-patient-bmi.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-bmi.sql)
+
+---
+### Smoking status
+To get the smoking status for each patient in a cohort.
+
+_Assumptions_
+
+- We take the most recent smoking status in a patient's record to be correct
+- However, there is likely confusion between the "non smoker" and "never smoked" codes. Especially as sometimes the synonyms for these codes overlap. Therefore, a patient wih a most recent smoking status of "never", but who has previous smoking codes, would be classed as WorstSmokingStatus=non-trivial-smoker / CurrentSmokingStatus=non-smoker
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+ Also takes one parameter:
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID, and FK_Reference_SnomedCT_ID
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientSmokingStatus (FK_Patient_Link_ID, PassiveSmoker, WorstSmokingStatus, CurrentSmokingStatus)
+	- FK_Patient_Link_ID - unique patient id
+	- PassiveSmoker - Y/N (whether a patient has ever had a code for passive smoking)
+	- WorstSmokingStatus - [non-trivial-smoker/trivial-smoker/non-smoker]
+	- CurrentSmokingStatus - [non-trivial-smoker/trivial-smoker/non-smoker]
+```
+_File_: `query-patient-smoking-status.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-smoking-status.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-smoking-status.sql)
+
+---
+### Lower level super output area
+To get the LSOA for each patient.
+
+_Assumptions_
+
+- Patient data is obtained from multiple sources. Where patients have multiple LSOAs we determine the LSOA as follows:
+- If the patients has an LSOA in their primary care data feed we use that as most likely to be up to date
+- If every LSOA for a paitent is the same, then we use that
+- If there is a single most recently updated LSOA in the database then we use that
+- Otherwise the patient's LSOA is considered unknown
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientLSOA (FK_Patient_Link_ID, LSOA)
+ 	- FK_Patient_Link_ID - unique patient id
+	- LSOA_Code - nationally recognised LSOA identifier
+```
+_File_: `query-patient-lsoa.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-lsoa.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-lsoa.sql)
+
+---
+### Year of birth
+To get the year of birth for each patient.
+
+_Assumptions_
+
+- Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:
+- If the patients has a YOB in their primary care data feed we use that as most likely to be up to date
+- If every YOB for a patient is the same, then we use that
+- If there is a single most recently updated YOB in the database then we use that
+- Otherwise we take the highest YOB for the patient that is not in the future
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
+ 	- FK_Patient_Link_ID - unique patient id
+	- YearOfBirth - INT
+```
+_File_: `query-patient-year-of-birth.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-year-of-birth.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-year-of-birth.sql)
+
+---
+### Index Multiple Deprivation
+To get the 2019 Index of Multiple Deprivation (IMD) decile for each patient.
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientIMDDecile (FK_Patient_Link_ID, IMD2019Decile1IsMostDeprived10IsLeastDeprived)
+ 	- FK_Patient_Link_ID - unique patient id
+	- IMD2019Decile1IsMostDeprived10IsLeastDeprived - number 1 to 10 inclusive
+```
+_File_: `query-patient-imd.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-imd.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-imd.sql)
+
+---
+### Sex
+To get the Sex for each patient.
+
+_Assumptions_
+
+- Patient data is obtained from multiple sources. Where patients have multiple sexes we determine the sex as follows:
+- If the patients has a sex in their primary care data feed we use that as most likely to be up to date
+- If every sex for a patient is the same, then we use that
+- If there is a single most recently updated sex in the database then we use that
+- Otherwise the patient's sex is considered unknown
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientSex (FK_Patient_Link_ID, Sex)
+ 	- FK_Patient_Link_ID - unique patient id
+	- Sex - M/F
+```
+_File_: `query-patient-sex.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-sex.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-sex.sql)
+
+---
+### GET practice and ccg for each patient
+For each patient to get the practice id that they are registered to, and the CCG name that the practice belongs to.
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+Two temp tables as follows:
+ #PatientPractice (FK_Patient_Link_ID, GPPracticeCode)
+	- FK_Patient_Link_ID - unique patient id
+	- GPPracticeCode - the nationally recognised practice id for the patient
+ #PatientPracticeAndCCG (FK_Patient_Link_ID, GPPracticeCode, CCG)
+	- FK_Patient_Link_ID - unique patient id
+	- GPPracticeCode - the nationally recognised practice id for the patient
+	- CCG - the name of the patient's CCG
+```
+_File_: `query-patient-practice-and-ccg.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-practice-and-ccg.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-practice-and-ccg.sql)
+
+---
+### CCG lookup table
+To provide lookup table for CCG names. The GMCR provides the CCG id (e.g. '00T', '01G') but not the CCG name. This table can be used in other queries when the output is required to be a ccg name rather than an id.
+
+_Input_
+```
+No pre-requisites
+```
+
+_Output_
+```
+A temp table as follows:
+ #CCGLookup (CcgId, CcgName)
+ 	- CcgId - Nationally recognised ccg id
+	- CcgName - Bolton, Stockport etc..
+```
+_File_: `query-ccg-lookup.sql`
+
+_Link_: [https://github.com/rw251/.../query-ccg-lookup.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-ccg-lookup.sql)
+
+---
+### Patient GP history
+To produce a table showing the start and end dates for each practice the patient has been registered at.
+
+_Assumptions_
+
+- We do not have data on patients who move out of GM, though we do know that it happened. For these patients we record the GPPracticeCode as OutOfArea
+- Where two adjacent time periods either overlap, or have a gap between them, we assume that the most recent registration is more accurate and adjust the end date of the first time period accordingly. This is an infrequent occurrence.
+
+_Input_
+```
+No pre-requisites
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientGPHistory (FK_Patient_Link_ID, GPPracticeCode, StartDate, EndDate)
+	- FK_Patient_Link_ID - unique patient id
+	- GPPracticeCode - national GP practice id system
+	- StartDate - date the patient registered at the practice
+	- EndDate - date the patient left the practice
+```
+_File_: `query-patient-gp-history.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-gp-history.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-gp-history.sql)
+
+---
+### Classify secondary admissions
+To categorise admissions to secondary care into 5 categories: Maternity, Unplanned, Planned, Transfer and Unknown.
+
+_Assumptions_
+
+- We assume patients can only have one admission per day. This is probably not true, but where we see multiple admissions it is more likely to be data duplication, or internal admissions, than an admission, discharge and another admission in the same day.
+- Where patients have multiple admissions we choose the "highest" category for admission with the categories ranked as follows: Maternity > Unplanned > Planned > Transfer > Unknown
+- We have used the following classifications based on the AdmissionTypeCode:
+	- PLANNED: PL (ELECTIVE PLANNED), 11 (Elective - Waiting List), WL (ELECTIVE WL), 13 (Elective - Planned), 12 (Elective - Booked), BL (ELECTIVE BOOKED), D (NULL), Endoscopy (Endoscopy), OP (DIRECT OUTPAT CLINIC), Venesection (X36.2 Venesection), Colonoscopy (H22.9 Colonoscopy), Medical (Medical)
+	- UNPLANNED: AE (AE.DEPT.OF PROVIDER), 21 (Emergency - Local A&E), I (NULL), GP (GP OR LOCUM GP), 22 (Emergency - GP), 23 (Emergency - Bed Bureau), 28 (Emergency - Other (inc other provider A&E)), 2D (Emergency - Other), 24 (Emergency - Clinic), EM (EMERGENCY OTHER), AI (ACUTE TO INTMED CARE), BB (EMERGENCY BED BUREAU), DO (EMERGENCY DOMICILE), 2A (A+E Department of another provider where the Patient has not been admitted), A+E (Admission	 A+E Admission), Emerg (GP	Emergency GP Patient)
+	- MATERNITY: 31 (Maternity ante-partum), BH (BABY BORN IN HOSP), AN (MATERNITY ANTENATAL), 82 (Birth in this Health Care Provider), PN (MATERNITY POST NATAL), B (NULL), 32 (Maternity post-partum), BHOSP (Birth in this Health Care Provider)
+	- TRANSFER: 81 (Transfer from other hosp (not A&E)), TR (PLAN TRANS TO TRUST), ET (EM TRAN (OTHER PROV)), HospTran (Transfer from other NHS Hospital), T (TRANSFER), CentTrans (Transfer from CEN Site)
+	- OTHER: Anything else not previously classified
+
+_Input_
+```
+No pre-requisites
+```
+
+_Output_
+```
+A temp table as follows:
+ #AdmissionTypes (FK_Patient_Link_ID, AdmissionDate, AcuteProvider, AdmissionType)
+ 	- FK_Patient_Link_ID - unique patient id
+	- AdmissionDate - date of admission (YYYY-MM-DD)
+	- AcuteProvider - Bolton, SRFT, Stockport etc..
+	- AdmissionType - One of: Maternity/Unplanned/Planned/Transfer/Unknown
+```
+_File_: `query-classify-secondary-admissions.sql`
+
+_Link_: [https://github.com/rw251/.../query-classify-secondary-admissions.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-classify-secondary-admissions.sql)
 ## Clinical code sets
 
 This project required the following clinical code sets:
 
-- bmi v2
 - pregnancy v1
+- smoking-status-current v1
+- smoking-status-currently-not v1
+- smoking-status-ex v1
+- smoking-status-ex-trivial v1
+- smoking-status-never v1
+- smoking-status-passive v1
+- smoking-status-trivial v1
+- bmi v2
 
 Further details for each code set can be found below.
+
+### Pregnancy
+
+Any codes indicating a patient is pregnant. Note that some of the codes in this code set are redacted from the GMCR due to sensitivity (e.g. abortion, unwanted pregnancy)
+
+Code list provided by PI for RQ050.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `10.92% - 13.36%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-04-28 | EMIS            |  2661707   | 329135 (12.37%)  |  326253 (12.28%)  |
+| 2022-04-28 | TPP             |  212737    |  23238 (10.92%)  |   23237 (10.92%)  |
+| 2022-04-28 | Vision          |  342156    |  45729 (13.36%)  |   45622 (13.33%)  |
+
+LINK: [https://github.com/rw251/.../patient/pregnancy/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/pregnancy/1)
+
+### Smoking status current
+
+Any code suggestive that a patient is a current smoker.
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-current/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-current/1)
+
+### Smoking status currently not
+
+Any code suggestive that a patient is currently a non-smoker. This is different to the "never smoked" code set.
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-currently-not/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-currently-not/1)
+
+### Smoking status ex
+
+Any code suggestive that a patient is an ex-smoker.
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-ex/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-ex/1)
+
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-ex-trivial/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-ex-trivial/1)
+
+### Smoking status never
+
+Any code suggestive that a patient has never smoked. This is different to the "currently not" code set.
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-never/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-never/1)
+
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-passive/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-passive/1)
+
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-trivial/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-trivial/1)
 
 ### Body Mass Index (BMI)
 
@@ -95,32 +410,12 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2021-05-11 | Vision          | 334784     |  209175 (62.48%) |   209175 (62.48%) |
 
 LINK: [https://github.com/rw251/.../patient/bmi/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/bmi/2)
-
-### Pregnancy
-
-Any codes indicating a patient is pregnant. Note that some of the codes in this code set are redacted from the GMCR due to sensitivity (e.g. abortion, unwanted pregnancy)
-
-Code list provided by PI for RQ050.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `10.92% - 13.36%` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-04-28 | EMIS            |  2661707   | 329135 (12.37%)  |  326253 (12.28%)  |
-| 2022-04-28 | TPP             |  212737    |  23238 (10.92%)  |   23237 (10.92%)  |
-| 2022-04-28 | Vision          |  342156    |  45729 (13.36%)  |   45622 (13.33%)  |
-
-LINK: [https://github.com/rw251/.../patient/pregnancy/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/pregnancy/1)
 # Clinical code sets
 
 All code sets required for this analysis are listed here. Individual lists for each concept can also be found by using the links above.
 
 | Clinical concept | Terminology | Code | Description |
 | ---------------- | ----------- | ---- | ----------- |
-|bmi v2|ctv3|22K..|Body Mass Index|
-|bmi v2|readv2|22K..00|Body Mass Index|
-|bmi v2|snomed|301331008|Finding of body mass index (finding)|
 |pregnancy v1|ctv3|13H7.|Unwanted: [pregnancy] or [child]|
 |pregnancy v1|ctv3|12G2.|FH: Diabetes in pregnancy|
 |pregnancy v1|ctv3|465Z.|Urine pregnancy test NOS|
@@ -1938,3 +2233,175 @@ All code sets required for this analysis are listed here. Individual lists for e
 |pregnancy v1|snomed|355634010|Vulval varices in pregnancy|
 |pregnancy v1|snomed|35234010|Phlebitis complicating pregnancy AND/OR puerperium|
 |pregnancy v1|snomed|410890017|Dilation of cervix uteri and curettage for termination of pregnancy|
+|smoking-status-current v1|ctv3|1373.|Lt cigaret smok, 1-9 cigs/day|
+|smoking-status-current v1|ctv3|1374.|Mod cigaret smok, 10-19 cigs/d|
+|smoking-status-current v1|ctv3|1375.|Hvy cigaret smok, 20-39 cigs/d|
+|smoking-status-current v1|ctv3|1376.|Very hvy cigs smoker,40+cigs/d|
+|smoking-status-current v1|ctv3|137C.|Keeps trying to stop smoking|
+|smoking-status-current v1|ctv3|137D.|Admitted tobacco cons untrue ?|
+|smoking-status-current v1|ctv3|137G.|Trying to give up smoking|
+|smoking-status-current v1|ctv3|137H.|Pipe smoker|
+|smoking-status-current v1|ctv3|137J.|Cigar smoker|
+|smoking-status-current v1|ctv3|137M.|Rolls own cigarettes|
+|smoking-status-current v1|ctv3|137P.|Cigarette smoker|
+|smoking-status-current v1|ctv3|137Q.|Smoking started|
+|smoking-status-current v1|ctv3|137R.|Current smoker|
+|smoking-status-current v1|ctv3|137Z.|Tobacco consumption NOS|
+|smoking-status-current v1|ctv3|Ub1tI|Cigarette consumption|
+|smoking-status-current v1|ctv3|Ub1tJ|Cigar consumption|
+|smoking-status-current v1|ctv3|Ub1tK|Pipe tobacco consumption|
+|smoking-status-current v1|ctv3|XaBSp|Smoking restarted|
+|smoking-status-current v1|ctv3|XaIIu|Smoking reduced|
+|smoking-status-current v1|ctv3|XaIkW|Thinking about stop smoking|
+|smoking-status-current v1|ctv3|XaIkX|Ready to stop smoking|
+|smoking-status-current v1|ctv3|XaIkY|Not interested stop smoking|
+|smoking-status-current v1|ctv3|XaItg|Reason for restarting smoking|
+|smoking-status-current v1|ctv3|XaIuQ|Cigarette pack-years|
+|smoking-status-current v1|ctv3|XaJX2|Min from wake to 1st tobac con|
+|smoking-status-current v1|ctv3|XaWNE|Failed attempt to stop smoking|
+|smoking-status-current v1|ctv3|XaZIE|Waterpipe tobacco consumption|
+|smoking-status-current v1|ctv3|XE0og|Tobacco smoking consumption|
+|smoking-status-current v1|ctv3|XE0oq|Cigarette smoker|
+|smoking-status-current v1|ctv3|XE0or|Smoking started|
+|smoking-status-current v1|readv2|137P.00|Cigarette smoker|
+|smoking-status-current v1|readv2|137P.11|Smoker|
+|smoking-status-current v1|readv2|13p3.00|Smoking status at 52 weeks|
+|smoking-status-current v1|readv2|1374.00|Moderate smoker - 10-19 cigs/d|
+|smoking-status-current v1|readv2|137G.00|Trying to give up smoking|
+|smoking-status-current v1|readv2|137R.00|Current smoker|
+|smoking-status-current v1|readv2|1376.00|Very heavy smoker - 40+cigs/d|
+|smoking-status-current v1|readv2|1375.00|Heavy smoker - 20-39 cigs/day|
+|smoking-status-current v1|readv2|1373.00|Light smoker - 1-9 cigs/day|
+|smoking-status-current v1|readv2|137M.00|Rolls own cigarettes|
+|smoking-status-current v1|readv2|137o.00|Waterpipe tobacco consumption|
+|smoking-status-current v1|readv2|137m.00|Failed attempt to stop smoking|
+|smoking-status-current v1|readv2|137h.00|Minutes from waking to first tobacco consumption|
+|smoking-status-current v1|readv2|137g.00|Cigarette pack-years|
+|smoking-status-current v1|readv2|137f.00|Reason for restarting smoking|
+|smoking-status-current v1|readv2|137e.00|Smoking restarted|
+|smoking-status-current v1|readv2|137d.00|Not interested in stopping smoking|
+|smoking-status-current v1|readv2|137c.00|Thinking about stopping smoking|
+|smoking-status-current v1|readv2|137b.00|Ready to stop smoking|
+|smoking-status-current v1|readv2|137C.00|Keeps trying to stop smoking|
+|smoking-status-current v1|readv2|137J.00|Cigar smoker|
+|smoking-status-current v1|readv2|137H.00|Pipe smoker|
+|smoking-status-current v1|readv2|137a.00|Pipe tobacco consumption|
+|smoking-status-current v1|readv2|137Z.00|Tobacco consumption NOS|
+|smoking-status-current v1|readv2|137Y.00|Cigar consumption|
+|smoking-status-current v1|readv2|137X.00|Cigarette consumption|
+|smoking-status-current v1|readv2|137V.00|Smoking reduced|
+|smoking-status-current v1|readv2|137Q.00|Smoking started|
+|smoking-status-current v1|readv2|137Q.11|Smoking restarted|
+|smoking-status-current v1|snomed|266929003|Smoking started (life style)|
+|smoking-status-current v1|snomed|836001000000109|Waterpipe tobacco consumption (observable entity)|
+|smoking-status-current v1|snomed|77176002|Smoker (life style)|
+|smoking-status-current v1|snomed|65568007|Cigarette smoker (life style)|
+|smoking-status-current v1|snomed|394873005|Not interested in stopping smoking (finding)|
+|smoking-status-current v1|snomed|394872000|Ready to stop smoking (finding)|
+|smoking-status-current v1|snomed|394871007|Thinking about stopping smoking (observable entity)|
+|smoking-status-current v1|snomed|266918002|Tobacco smoking consumption (observable entity)|
+|smoking-status-current v1|snomed|230057008|Cigar consumption (observable entity)|
+|smoking-status-current v1|snomed|230056004|Cigarette consumption (observable entity)|
+|smoking-status-current v1|snomed|160623006|Smoking: [started] or [restarted]|
+|smoking-status-current v1|snomed|160622001|Smoker (& cigarette)|
+|smoking-status-current v1|snomed|160619003|Rolls own cigarettes (finding)|
+|smoking-status-current v1|snomed|160616005|Trying to give up smoking (finding)|
+|smoking-status-current v1|snomed|160612007|Keeps trying to stop smoking (finding)|
+|smoking-status-current v1|snomed|160606002|Very heavy cigarette smoker (40+ cigs/day) (life style)|
+|smoking-status-current v1|snomed|160605003|Heavy cigarette smoker (20-39 cigs/day) (life style)|
+|smoking-status-current v1|snomed|160604004|Moderate cigarette smoker (10-19 cigs/day) (life style)|
+|smoking-status-current v1|snomed|160603005|Light cigarette smoker (1-9 cigs/day) (life style)|
+|smoking-status-current v1|snomed|59978006|Cigar smoker (life style)|
+|smoking-status-current v1|snomed|446172000|Failed attempt to stop smoking (finding)|
+|smoking-status-current v1|snomed|413173009|Minutes from waking to first tobacco consumption (observable entity)|
+|smoking-status-current v1|snomed|401201003|Cigarette pack-years (observable entity)|
+|smoking-status-current v1|snomed|401159003|Reason for restarting smoking (observable entity)|
+|smoking-status-current v1|snomed|308438006|Smoking restarted (life style)|
+|smoking-status-current v1|snomed|230058003|Pipe tobacco consumption (observable entity)|
+|smoking-status-current v1|snomed|134406006|Smoking reduced (observable entity)|
+|smoking-status-current v1|snomed|82302008|Pipe smoker (life style)|
+|smoking-status-currently-not v1|ctv3|Ub0oq|Non-smoker|
+|smoking-status-currently-not v1|ctv3|137L.|Current non-smoker|
+|smoking-status-currently-not v1|readv2|137L.00|Current non-smoker|
+|smoking-status-currently-not v1|snomed|160618006|Current non-smoker (life style)|
+|smoking-status-currently-not v1|snomed|8392000|Non-smoker (life style)|
+|smoking-status-ex v1|ctv3|1378.|Ex-light smoker (1-9/day)|
+|smoking-status-ex v1|ctv3|1379.|Ex-moderate smoker (10-19/day)|
+|smoking-status-ex v1|ctv3|137A.|Ex-heavy smoker (20-39/day)|
+|smoking-status-ex v1|ctv3|137B.|Ex-very heavy smoker (40+/day)|
+|smoking-status-ex v1|ctv3|137F.|Ex-smoker - amount unknown|
+|smoking-status-ex v1|ctv3|137K.|Stopped smoking|
+|smoking-status-ex v1|ctv3|137N.|Ex-pipe smoker|
+|smoking-status-ex v1|ctv3|137O.|Ex-cigar smoker|
+|smoking-status-ex v1|ctv3|137T.|Date ceased smoking|
+|smoking-status-ex v1|ctv3|Ub1na|Ex-smoker|
+|smoking-status-ex v1|ctv3|Xa1bv|Ex-cigarette smoker|
+|smoking-status-ex v1|ctv3|XaIr7|Smoking free weeks|
+|smoking-status-ex v1|ctv3|XaKlS|[V]PH of tobacco abuse|
+|smoking-status-ex v1|ctv3|XaQ8V|Ex roll-up cigarette smoker|
+|smoking-status-ex v1|ctv3|XaQzw|Recently stopped smoking|
+|smoking-status-ex v1|ctv3|XE0ok|Ex-light cigaret smok, 1-9/day|
+|smoking-status-ex v1|ctv3|XE0ol|Ex-mod cigaret smok, 10-19/day|
+|smoking-status-ex v1|ctv3|XE0om|Ex-heav cigaret smok,20-39/day|
+|smoking-status-ex v1|ctv3|XE0on|Ex-very hv cigaret smk,40+/day|
+|smoking-status-ex v1|readv2|137l.00|Ex roll-up cigarette smoker|
+|smoking-status-ex v1|readv2|137j.00|Ex-cigarette smoker|
+|smoking-status-ex v1|readv2|137S.00|Ex smoker|
+|smoking-status-ex v1|readv2|137O.00|Ex cigar smoker|
+|smoking-status-ex v1|readv2|137N.00|Ex pipe smoker|
+|smoking-status-ex v1|readv2|137F.00|Ex-smoker - amount unknown|
+|smoking-status-ex v1|readv2|137B.00|Ex-very heavy smoker (40+/day)|
+|smoking-status-ex v1|readv2|137A.00|Ex-heavy smoker (20-39/day)|
+|smoking-status-ex v1|readv2|1379.00|Ex-moderate smoker (10-19/day)|
+|smoking-status-ex v1|readv2|1378.00|Ex-light smoker (1-9/day)|
+|smoking-status-ex v1|readv2|137K.00|Stopped smoking|
+|smoking-status-ex v1|readv2|137K000|Recently stopped smoking|
+|smoking-status-ex v1|readv2|137T.00|Date ceased smoking|
+|smoking-status-ex v1|readv2|13p4.00|Smoking free weeks|
+|smoking-status-ex v1|snomed|160617001|Stopped smoking (life style)|
+|smoking-status-ex v1|snomed|160620009|Ex-pipe smoker (life style)|
+|smoking-status-ex v1|snomed|160621008|Ex-cigar smoker (life style)|
+|smoking-status-ex v1|snomed|160625004|Date ceased smoking (observable entity)|
+|smoking-status-ex v1|snomed|266922007|Ex-light cigarette smoker (1-9/day) (life style)|
+|smoking-status-ex v1|snomed|266923002|Ex-moderate cigarette smoker (10-19/day) (life style)|
+|smoking-status-ex v1|snomed|266924008|Ex-heavy cigarette smoker (20-39/day) (life style)|
+|smoking-status-ex v1|snomed|266925009|Ex-very heavy cigarette smoker (40+/day) (life style)|
+|smoking-status-ex v1|snomed|281018007|Ex-cigarette smoker (life style)|
+|smoking-status-ex v1|snomed|395177003|Smoking free weeks (observable entity)|
+|smoking-status-ex v1|snomed|492191000000103|Ex roll-up cigarette smoker (finding)|
+|smoking-status-ex v1|snomed|517211000000106|Recently stopped smoking (finding)|
+|smoking-status-ex v1|snomed|8517006|Ex-smoker (life style)|
+|smoking-status-ex-trivial v1|ctv3|XE0oj|Ex-triv cigaret smoker, <1/day|
+|smoking-status-ex-trivial v1|ctv3|1377.|Ex-trivial smoker (<1/day)|
+|smoking-status-ex-trivial v1|readv2|1377.00|Ex-trivial smoker (<1/day)|
+|smoking-status-ex-trivial v1|snomed|266921000|Ex-trivial cigarette smoker (<1/day) (life style)|
+|smoking-status-never v1|ctv3|XE0oh|Never smoked tobacco|
+|smoking-status-never v1|ctv3|1371.|Never smoked tobacco|
+|smoking-status-never v1|readv2|1371.00|Never smoked tobacco|
+|smoking-status-never v1|snomed|160601007|Non-smoker (& [never smoked tobacco])|
+|smoking-status-never v1|snomed|266919005|Never smoked tobacco (life style)|
+|smoking-status-passive v1|ctv3|137I.|Passive smoker|
+|smoking-status-passive v1|ctv3|Ub0pe|Exposed to tobacco smoke at work|
+|smoking-status-passive v1|ctv3|Ub0pf|Exposed to tobacco smoke at home|
+|smoking-status-passive v1|ctv3|Ub0pg|Exposed to tobacco smoke in public places|
+|smoking-status-passive v1|ctv3|13WF4|Passive smoking risk|
+|smoking-status-passive v1|readv2|137I.00|Passive smoker|
+|smoking-status-passive v1|readv2|137I000|Exposed to tobacco smoke at home|
+|smoking-status-passive v1|readv2|13WF400|Passive smoking risk|
+|smoking-status-passive v1|snomed|43381005|Passive smoker (finding)|
+|smoking-status-passive v1|snomed|161080002|Passive smoking risk (environment)|
+|smoking-status-passive v1|snomed|228523000|Exposed to tobacco smoke at work (finding)|
+|smoking-status-passive v1|snomed|228524006|Exposed to tobacco smoke at home (finding)|
+|smoking-status-passive v1|snomed|228525007|Exposed to tobacco smoke in public places (finding)|
+|smoking-status-passive v1|snomed|713142003|At risk from passive smoking (finding)|
+|smoking-status-passive v1|snomed|722451000000101|Passive smoking (qualifier value)|
+|smoking-status-trivial v1|ctv3|XagO3|Occasional tobacco smoker|
+|smoking-status-trivial v1|ctv3|XE0oi|Triv cigaret smok, < 1 cig/day|
+|smoking-status-trivial v1|ctv3|1372.|Trivial smoker - < 1 cig/day|
+|smoking-status-trivial v1|readv2|1372.00|Trivial smoker - < 1 cig/day|
+|smoking-status-trivial v1|readv2|1372.11|Occasional smoker|
+|smoking-status-trivial v1|snomed|266920004|Trivial cigarette smoker (less than one cigarette/day) (life style)|
+|smoking-status-trivial v1|snomed|428041000124106|Occasional tobacco smoker (finding)|
+|bmi v2|ctv3|22K..|Body Mass Index|
+|bmi v2|readv2|22K..00|Body Mass Index|
+|bmi v2|snomed|301331008|Finding of body mass index (finding)|

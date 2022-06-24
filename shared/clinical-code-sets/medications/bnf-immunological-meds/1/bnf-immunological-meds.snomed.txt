@@ -1,0 +1,1137 @@
+35369211000001101	Diphtheria / Tetanus vaccine (adsorbed) for adults and adolescents suspension for injection 0.5ml pre-filled syringes
+2983011000001103	Diphtheria / Tetanus vaccine (adsorbed) for adults and adolescents suspension for injection 0.5ml pre-filled syringes
+2984011000001101	Diftavax vaccine suspension for injection 0.5ml pre-filled syringes (sanofi pasteur MSD Ltd)
+2984111000001100	Diftavax vaccine suspension for injection 0.5ml pre-filled syringes (sanofi pasteur MSD Ltd)
+3486911000001104	Hepatitis B (rDNA) 10micrograms/1ml vaccine suspension for injection vials
+2984411000001105	Hepatitis B (rDNA) 10micrograms/1ml vaccine suspension for injection vials
+2985211000001107	Hepatitis B (rDNA) 10micrograms/1ml vaccine suspension for injection vials
+2985811000001108	HBvaxPRO 10micrograms/1ml vaccine suspension for injection vials (Organon Pharma (UK) Ltd)
+2986111000001107	HBvaxPRO 10micrograms/1ml vaccine suspension for injection vials (Organon Pharma (UK) Ltd)
+3034111000001108	HBvaxPRO 10micrograms/1ml vaccine suspension for injection vials (Organon Pharma (UK) Ltd)
+39709311000001104	Rabies vaccine powder and solvent for suspension for injection 1ml vials
+2985411000001106	Rabies vaccine powder and solvent for suspension for injection 1ml vials
+2987111000001105	Rabies vaccine powder and solvent for suspension for injection 1ml vials (Sanofi Pasteur)
+2987311000001107	Rabies vaccine powder and solvent for suspension for injection 1ml vials (Sanofi Pasteur)
+3304011000001103	Rabies vaccine powder and solvent for suspension for injection 1ml vials (Alliance Healthcare (Distribution) Ltd)
+2989211000001105	Rabies vaccine powder and solvent for suspension for injection 1ml vials (Alliance Healthcare (Distribution) Ltd)
+33560211000001103	Rabies vaccine powder and solvent for suspension for injection 1ml vials (A A H Pharmaceuticals Ltd)
+33560311000001106	Rabies vaccine powder and solvent for suspension for injection 1ml vials (A A H Pharmaceuticals Ltd)
+3486811000001109	Hepatitis B (rDNA) 40micrograms/1ml vaccine suspension for injection vials
+2987511000001101	Hepatitis B (rDNA) 40micrograms/1ml vaccine suspension for injection vials
+2987811000001103	HBvaxPRO 40micrograms/1ml vaccine suspension for injection vials (Merck Sharp & Dohme (UK) Ltd)
+2987911000001108	HBvaxPRO 40micrograms/1ml vaccine suspension for injection vials (Merck Sharp & Dohme (UK) Ltd)
+35369411000001102	Hepatitis B (rDNA) 20micrograms/1ml vaccine suspension for injection vials
+2988411000001101	Hepatitis B (rDNA) 20micrograms/1ml vaccine suspension for injection vials
+2988511000001102	Hepatitis B (rDNA) 20micrograms/1ml vaccine suspension for injection vials
+2988611000001103	Hepatitis B (rDNA) 20micrograms/1ml vaccine suspension for injection vials
+2988811000001104	Engerix B 20micrograms/1ml vaccine suspension for injection vials (GlaxoSmithKline UK Ltd)
+2988911000001109	Engerix B 20micrograms/1ml vaccine suspension for injection vials (GlaxoSmithKline UK Ltd)
+2989111000001104	Engerix B 20micrograms/1ml vaccine suspension for injection vials (GlaxoSmithKline UK Ltd)
+2989311000001102	Engerix B 20micrograms/1ml vaccine suspension for injection vials (GlaxoSmithKline UK Ltd)
+35369311000001109	Hepatitis B (rDNA) 10micrograms/0.5ml vaccine suspension for injection vials
+2989911000001101	Hepatitis B (rDNA) 10micrograms/0.5ml vaccine suspension for injection vials
+2990211000001104	Engerix B 10micrograms/0.5ml vaccine suspension for injection vials (GlaxoSmithKline UK Ltd)
+2990411000001100	Engerix B 10micrograms/0.5ml vaccine suspension for injection vials (GlaxoSmithKline UK Ltd)
+36055711000001103	Hepatitis B (rDNA) 20micrograms/1ml vaccine suspension for injection pre-filled syringes
+2991211000001105	Hepatitis B (rDNA) 20micrograms/1ml vaccine suspension for injection pre-filled syringes
+2991411000001109	Hepatitis B (rDNA) 20micrograms/1ml vaccine suspension for injection pre-filled syringes
+2991611000001107	Engerix B 20micrograms/1ml vaccine suspension for injection pre-filled syringes (GlaxoSmithKline UK Ltd)
+2991711000001103	Engerix B 20micrograms/1ml vaccine suspension for injection pre-filled syringes (GlaxoSmithKline UK Ltd)
+2992111000001109	Engerix B 20micrograms/1ml vaccine suspension for injection pre-filled syringes (GlaxoSmithKline UK Ltd)
+36055511000001108	Hepatitis A (inactivated) / Hepatitis B (rDNA) vaccine (adsorbed) suspension for injection 1ml pre-filled syringes
+2991811000001106	Hepatitis A (inactivated) / Hepatitis B (rDNA) vaccine (adsorbed) suspension for injection 1ml pre-filled syringes
+2992211000001103	Hepatitis A (inactivated) / Hepatitis B (rDNA) vaccine (adsorbed) suspension for injection 1ml pre-filled syringes
+2993111000001103	Twinrix Adult vaccine suspension for injection 1ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+2994811000001108	Twinrix Adult vaccine suspension for injection 1ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+2996211000001102	Twinrix Adult vaccine suspension for injection 1ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+12951811000001104	Ambirix vaccine suspension for injection 1ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+12952011000001102	Ambirix vaccine suspension for injection 1ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+39715111000001101	Typhoid polysaccharide 25micrograms/0.5ml vaccine solution for injection pre-filled syringes
+2994411000001106	Typhoid polysaccharide 25micrograms/0.5ml vaccine solution for injection pre-filled syringes
+2994611000001109	Typhoid polysaccharide 25micrograms/0.5ml vaccine solution for injection pre-filled syringes
+2995611000001105	Typhim Vi 25micrograms/0.5ml vaccine solution for injection pre-filled syringes (Sanofi Pasteur)
+2995911000001104	Typhim Vi 25micrograms/0.5ml vaccine solution for injection pre-filled syringes (Sanofi Pasteur)
+2996411000001103	Typhim Vi 25micrograms/0.5ml vaccine solution for injection pre-filled syringes (Sanofi Pasteur)
+2996711000001109	Typherix 25micrograms/0.5ml vaccine solution for injection pre-filled syringes (GlaxoSmithKline UK Ltd)
+2996911000001106	Typherix 25micrograms/0.5ml vaccine solution for injection pre-filled syringes (GlaxoSmithKline UK Ltd)
+2997311000001108	Typherix 25micrograms/0.5ml vaccine solution for injection pre-filled syringes (GlaxoSmithKline UK Ltd)
+36055411000001109	Hepatitis A (inactivated) / Hepatitis B (rDNA) vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+2997111000001106	Hepatitis A (inactivated) / Hepatitis B (rDNA) vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+2997511000001102	Twinrix Paediatric vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+2997811000001104	Twinrix Paediatric vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+36146311000001103	Typhoid vaccine (live, oral, strain ty21a) gastro-resistant capsules
+2998411000001102	Typhoid vaccine (live, oral, strain ty21a) gastro-resistant capsules
+2998811000001100	Vivotif vaccine gastro-resistant capsules (Emergent BioSolutions UK Ltd)
+2999211000001106	Vivotif vaccine gastro-resistant capsules (Emergent BioSolutions UK Ltd)
+37055911000001102	Tetanus vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+3002211000001103	Tetanus vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+3002311000001106	Tetanus vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+3002411000001104	Clostet vaccine suspension for injection 0.5ml pre-filled syringes (Novartis Vaccines and Diagnostics Ltd)
+3002611000001101	Clostet vaccine suspension for injection 0.5ml pre-filled syringes (Novartis Vaccines and Diagnostics Ltd)
+3002511000001100	Clostet vaccine suspension for injection 0.5ml pre-filled syringes (Novartis Vaccines and Diagnostics Ltd)
+36055611000001107	Hepatitis A vaccine (inactivated, adsorbed) suspension for injection 0.5ml pre-filled syringes
+3002711000001105	Hepatitis A vaccine (inactivated, adsorbed) suspension for injection 0.5ml pre-filled syringes
+3002811000001102	Hepatitis A vaccine (inactivated, adsorbed) suspension for injection 0.5ml pre-filled syringes
+3003611000001106	Havrix Junior Monodose vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+3003711000001102	Havrix Junior Monodose vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+3003911000001100	Havrix Junior Monodose vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+3004111000001101	Avaxim vaccine suspension for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
+3004311000001104	Avaxim vaccine suspension for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
+3004911000001103	Avaxim vaccine suspension for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
+3005111000001102	VAQTA Paediatric vaccine suspension for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd)
+3005311000001100	VAQTA Paediatric vaccine suspension for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd)
+3439211000001108	Pneumococcal polysaccharide vaccine solution for injection 0.5ml pre-filled syringes
+3003511000001107	Pneumococcal polysaccharide vaccine solution for injection 0.5ml pre-filled syringes
+3005011000001103	Pneumovax II vaccine solution for injection 0.5ml pre-filled syringes (Organon Pharma (UK) Ltd)
+3005611000001105	Pneumovax II vaccine solution for injection 0.5ml pre-filled syringes (Organon Pharma (UK) Ltd)
+36461211000001108	Pneumovax 23 solution for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd)
+36461311000001100	Pneumovax 23 solution for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd)
+39714111000001100	Hepatitis A vaccine (inactivated, adsorbed) suspension for injection 1ml pre-filled syringes
+3005711000001101	Hepatitis A vaccine (inactivated, adsorbed) suspension for injection 1ml pre-filled syringes
+3005811000001109	Hepatitis A vaccine (inactivated, adsorbed) suspension for injection 1ml pre-filled syringes
+3006311000001105	Havrix Monodose vaccine suspension for injection 1ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+3006411000001103	Havrix Monodose vaccine suspension for injection 1ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+3006511000001104	Havrix Monodose vaccine suspension for injection 1ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+3006711000001109	VAQTA vaccine suspension for injection 1ml pre-filled syringes (Organon Pharma (UK) Ltd)
+3006811000001101	VAQTA vaccine suspension for injection 1ml pre-filled syringes (Organon Pharma (UK) Ltd)
+21732911000001105	VAQTA Adult vaccine suspension for injection 1ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd)
+21733011000001102	VAQTA Adult vaccine suspension for injection 1ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd)
+3439311000001100	Pneumococcal polysaccharide vaccine solution for injection 0.5ml vials
+3007311000001108	Pneumococcal polysaccharide vaccine solution for injection 0.5ml vials
+3007511000001102	Pneumococcal polysaccharide vaccine solution for injection 0.5ml vials
+3017311000001106	Pneumovax II vaccine solution for injection 0.5ml vials (Organon Pharma (UK) Ltd)
+3018011000001109	Pneumovax II vaccine solution for injection 0.5ml vials (Organon Pharma (UK) Ltd)
+3018111000001105	Pnu-Imune vaccine solution for injection 0.5ml vials (Wyeth Pharmaceuticals)
+3018211000001104	Pnu-Imune vaccine solution for injection 0.5ml vials (Wyeth Pharmaceuticals)
+3018311000001107	Pnu-Imune vaccine solution for injection 0.5ml vials (Wyeth Pharmaceuticals)
+27396511000001105	Pneumococcal polysaccharide vaccine solution for injection 0.5ml vials (Organon Pharma (UK) Ltd)
+27396611000001109	Pneumococcal polysaccharide vaccine solution for injection 0.5ml vials (Organon Pharma (UK) Ltd)
+34783011000001102	Pneumococcal polysaccharide vaccine solution for injection 0.5ml vials (A A H Pharmaceuticals Ltd)
+34783111000001101	Pneumococcal polysaccharide vaccine solution for injection 0.5ml vials (A A H Pharmaceuticals Ltd)
+35111211000001108	Pneumococcal polysaccharide vaccine solution for injection 0.5ml vials (Alliance Healthcare (Distribution) Ltd)
+35111311000001100	Pneumococcal polysaccharide vaccine solution for injection 0.5ml vials (Alliance Healthcare (Distribution) Ltd)
+3487011000001100	Hepatitis B (rDNA) 10micrograms/0.5ml vaccine suspension for injection pre-filled syringes
+3019811000001105	Hepatitis B (rDNA) 10micrograms/0.5ml vaccine suspension for injection pre-filled syringes
+3020511000001106	Engerix B 10micrograms/0.5ml vaccine suspension for injection pre-filled syringes (GlaxoSmithKline UK Ltd)
+3020611000001105	Engerix B 10micrograms/0.5ml vaccine suspension for injection pre-filled syringes (GlaxoSmithKline UK Ltd)
+3439111000001102	Pneumococcal polysaccharide conjugated vaccine (adsorbed) suspension for injection 0.5ml vials
+3021011000001107	Pneumococcal polysaccharide conjugated vaccine (adsorbed) suspension for injection 0.5ml vials
+3021111000001108	Prevenar vaccine suspension for injection 0.5ml vials (Wyeth Pharmaceuticals)
+3021211000001102	Prevenar vaccine suspension for injection 0.5ml vials (Wyeth Pharmaceuticals)
+39716811000001100	Influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes
+3243711000001102	Influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes
+3244111000001101	Influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes
+3244411000001106	Influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
+3244811000001108	Influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
+3245611000001105	Influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
+3245911000001104	Fluarix vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+3246211000001102	Fluarix vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+3246411000001103	Fluarix vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+3247011000001105	Begrivac vaccine suspension for injection 0.5ml pre-filled syringes (Novartis Vaccines and Diagnostics Ltd)
+3247211000001100	Begrivac vaccine suspension for injection 0.5ml pre-filled syringes (Novartis Vaccines and Diagnostics Ltd)
+3247511000001102	Begrivac vaccine suspension for injection 0.5ml pre-filled syringes (Novartis Vaccines and Diagnostics Ltd)
+9511411000001107	Enzira vaccine suspension for injection 0.5ml pre-filled syringes (Pfizer Ltd)
+9511511000001106	Enzira vaccine suspension for injection 0.5ml pre-filled syringes (Pfizer Ltd)
+9511611000001105	Enzira vaccine suspension for injection 0.5ml pre-filled syringes (Pfizer Ltd)
+10133911000001103	Influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes (A A H Pharmaceuticals Ltd)
+10134011000001100	Influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes (A A H Pharmaceuticals Ltd)
+35031411000001107	Influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes (A A H Pharmaceuticals Ltd)
+11278411000001109	Influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes (Pfizer Ltd)
+21146511000001108	Influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes (Pfizer Ltd)
+11278511000001108	Influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes (Pfizer Ltd)
+20292211000001109	Preflucel vaccine suspension for injection 0.5ml pre-filled syringes (Baxter Healthcare Ltd)
+20292311000001101	Preflucel vaccine suspension for injection 0.5ml pre-filled syringes (Baxter Healthcare Ltd)
+22704311000001109	Fluarix Tetra vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+25256511000001107	Fluarix Tetra vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+22704411000001102	Fluarix Tetra vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+34680411000001107	Quadrivalent influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
+34680511000001106	Quadrivalent influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
+34680611000001105	Quadrivalent influenza vaccine (split virion, inactivated) suspension for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
+39716611000001104	Influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes
+3249011000001101	Influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes
+3249211000001106	Influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes
+3249511000001109	Fluvirin vaccine suspension for injection 0.5ml pre-filled syringes (Novartis Vaccines and Diagnostics Ltd)
+3251211000001107	Fluvirin vaccine suspension for injection 0.5ml pre-filled syringes (Novartis Vaccines and Diagnostics Ltd)
+3251011000001102	Fluvirin vaccine suspension for injection 0.5ml pre-filled syringes (Novartis Vaccines and Diagnostics Ltd)
+3252611000001103	Influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes (Novartis Vaccines and Diagnostics Ltd)
+3252911000001109	Influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes (Novartis Vaccines and Diagnostics Ltd)
+3252711000001107	Influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes (Novartis Vaccines and Diagnostics Ltd)
+3255011000001100	Influvac Sub-unit vaccine suspension for injection 0.5ml pre-filled syringes (Viatris UK Healthcare Ltd)
+3255211000001105	Influvac Sub-unit vaccine suspension for injection 0.5ml pre-filled syringes (Viatris UK Healthcare Ltd)
+3255111000001104	Influvac Sub-unit vaccine suspension for injection 0.5ml pre-filled syringes (Viatris UK Healthcare Ltd)
+3255311000001102	Agrippal vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus UK Ltd)
+3255411000001109	Agrippal vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus UK Ltd)
+4029011000001109	Agrippal vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus UK Ltd)
+4365711000001104	Mastaflu vaccine suspension for injection 0.5ml pre-filled syringes (Masta Ltd)
+4365911000001102	Mastaflu vaccine suspension for injection 0.5ml pre-filled syringes (Masta Ltd)
+4365811000001107	Mastaflu vaccine suspension for injection 0.5ml pre-filled syringes (Masta Ltd)
+10859911000001105	Imuvac vaccine suspension for injection 0.5ml pre-filled syringes (Viatris UK Healthcare Ltd)
+10860111000001108	Imuvac vaccine suspension for injection 0.5ml pre-filled syringes (Viatris UK Healthcare Ltd)
+10860011000001107	Imuvac vaccine suspension for injection 0.5ml pre-filled syringes (Viatris UK Healthcare Ltd)
+15382311000001101	Optaflu vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus UK Ltd)
+15382411000001108	Optaflu vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus UK Ltd)
+23445511000001105	Optaflu vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus UK Ltd)
+22628411000001107	Influvac Desu vaccine suspension for injection 0.5ml pre-filled syringes (Abbott Healthcare Products Ltd)
+22628511000001106	Influvac Desu vaccine suspension for injection 0.5ml pre-filled syringes (Abbott Healthcare Products Ltd)
+22628611000001105	Influvac Desu vaccine suspension for injection 0.5ml pre-filled syringes (Abbott Healthcare Products Ltd)
+35726811000001104	Influenza Tetra MYL vaccine suspension for injection 0.5ml pre-filled syringes (Viatris UK Healthcare Ltd)
+35727011000001108	Influenza Tetra MYL vaccine suspension for injection 0.5ml pre-filled syringes (Viatris UK Healthcare Ltd)
+35726911000001109	Influenza Tetra MYL vaccine suspension for injection 0.5ml pre-filled syringes (Viatris UK Healthcare Ltd)
+35727111000001109	Influvac sub-unit Tetra vaccine suspension for injection 0.5ml pre-filled syringes (Viatris UK Healthcare Ltd)
+35727311000001106	Influvac sub-unit Tetra vaccine suspension for injection 0.5ml pre-filled syringes (Viatris UK Healthcare Ltd)
+35727211000001103	Influvac sub-unit Tetra vaccine suspension for injection 0.5ml pre-filled syringes (Viatris UK Healthcare Ltd)
+35727411000001104	Influenza MYL vaccine suspension for injection 0.5ml pre-filled syringes (Viatris UK Healthcare Ltd)
+35727511000001100	Influenza MYL vaccine suspension for injection 0.5ml pre-filled syringes (Viatris UK Healthcare Ltd)
+35727611000001101	Influenza MYL vaccine suspension for injection 0.5ml pre-filled syringes (Viatris UK Healthcare Ltd)
+36509011000001106	Flucelvax Tetra vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus UK Ltd)
+36509111000001107	Flucelvax Tetra vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus UK Ltd)
+36510911000001101	Flucelvax Tetra vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus UK Ltd)
+40085011000001101	Cell-based quadrivalent influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes (Seqirus UK Ltd)
+40085211000001106	Cell-based quadrivalent influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes (Seqirus UK Ltd)
+40085111000001100	Cell-based quadrivalent influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes (Seqirus UK Ltd)
+39718611000001103	Meningococcal C conjugate vaccine suspension for injection 0.5ml vials
+3491311000001107	Meningococcal C conjugate vaccine suspension for injection 0.5ml vials
+3491411000001100	Meningitec vaccine suspension for injection 0.5ml vials (Wyeth Pharmaceuticals)
+3491711000001106	Meningitec vaccine suspension for injection 0.5ml vials (Wyeth Pharmaceuticals)
+3559311000001108	Meningococcal polysaccharide A, C, W135 and Y conjugate vaccine powder and solvent for solution for injection 0.5ml vials
+3491911000001108	Meningococcal polysaccharide A, C, W135 and Y conjugate vaccine powder and solvent for solution for injection 0.5ml vials
+3492011000001101	ACWY Vax vaccine powder and solvent for solution for injection 0.5ml vials (GlaxoSmithKline UK Ltd)
+3492211000001106	ACWY Vax vaccine powder and solvent for solution for injection 0.5ml vials (GlaxoSmithKline UK Ltd)
+3559211000001100	Meningococcal polysaccharide A and C vaccine powder and solvent for solution for injection vials
+3492711000001104	Meningococcal polysaccharide A and C vaccine powder and solvent for solution for injection vials
+3492811000001107	AC Vax vaccine powder and solvent for solution for injection vials (GlaxoSmithKline UK Ltd)
+3493011000001105	AC Vax vaccine powder and solvent for solution for injection vials (GlaxoSmithKline UK Ltd)
+4830711000001100	Mengivac A + C vaccine powder and solvent for solution for injection vials (sanofi pasteur MSD Ltd)
+4830811000001108	Mengivac A + C vaccine powder and solvent for solution for injection vials (sanofi pasteur MSD Ltd)
+9478811000001102	Tetanus immunoglobulin 250units/1ml solution for injection pre-filled syringes
+4122111000001107	Tetanus immunoglobulin 250units/1ml solution for injection pre-filled syringes
+4122211000001101	Tetabulin 250units/1ml solution for injection pre-filled syringes (Baxter Healthcare Ltd)
+4122311000001109	Tetabulin 250units/1ml solution for injection pre-filled syringes (Baxter Healthcare Ltd)
+4139611000001109	Hepatitis B (rDNA) 5micrograms/0.5ml vaccine suspension for injection vials
+4130511000001102	Hepatitis B (rDNA) 5micrograms/0.5ml vaccine suspension for injection vials
+4130711000001107	HBvaxPRO 5micrograms/0.5ml vaccine suspension for injection vials (Organon Pharma (UK) Ltd)
+4130811000001104	HBvaxPRO 5micrograms/0.5ml vaccine suspension for injection vials (Organon Pharma (UK) Ltd)
+4177811000001103	Rubella vaccine powder and solvent for solution for injection 0.5ml vials
+4158711000001105	Rubella vaccine powder and solvent for solution for injection 0.5ml vials
+4158911000001107	Ervevax vaccine powder and solvent for solution for injection 0.5ml vials (GlaxoSmithKline UK Ltd)
+4159111000001102	Ervevax vaccine powder and solvent for solution for injection 0.5ml vials (GlaxoSmithKline UK Ltd)
+39715811000001108	Normal immunoglobulin human 3g powder and solvent for solution for injection bottles
+4163911000001106	Normal immunoglobulin human 3g powder and solvent for solution for injection bottles
+4164111000001105	Sandoglobulin 3g powder and solvent for solution for injection bottles (CSL Behring UK Ltd)
+4164311000001107	Sandoglobulin 3g powder and solvent for solution for injection bottles (CSL Behring UK Ltd)
+9053911000001105	Normal immunoglobulin human 3g powder and solvent for solution for injection bottles (Scottish National Blood Transfusion Service)
+9054111000001109	Normal immunoglobulin human 3g powder and solvent for solution for injection bottles (Scottish National Blood Transfusion Service)
+36032711000001106	Normal immunoglobulin human 6g powder and solvent for solution for infusion bottles
+4164611000001102	Normal immunoglobulin human 6g powder and solvent for solution for infusion bottles
+4164811000001103	Sandoglobulin 6g powder and solvent for solution for infusion bottles (CSL Behring UK Ltd)
+4164911000001108	Sandoglobulin 6g powder and solvent for solution for infusion bottles (CSL Behring UK Ltd)
+4210311000001103	Normal immunoglobulin human 1.6g/10ml solution for injection vials
+4204811000001100	Normal immunoglobulin human 1.6g/10ml solution for injection vials
+4205211000001100	Gammabulin 1.6g/10ml solution for injection vials (Baxter Healthcare Ltd)
+4205411000001101	Gammabulin 1.6g/10ml solution for injection vials (Baxter Healthcare Ltd)
+5437711000001101	Subcuvia 1.6g/10ml solution for injection vials (Baxalta UK Ltd)
+5437811000001109	Subcuvia 1.6g/10ml solution for injection vials (Baxalta UK Ltd)
+9362011000001105	Vivaglobin 1.6g/10ml solution for injection vials (CSL Behring UK Ltd)
+9362111000001106	Vivaglobin 1.6g/10ml solution for injection vials (CSL Behring UK Ltd)
+4368311000001107	Normal immunoglobulin human 5g/100ml solution for infusion vials
+4363911000001103	Normal immunoglobulin human 5g/100ml solution for infusion vials
+4364311000001102	Vigam Liquid 5g/100ml solution for infusion vials (Bio Products Laboratory Ltd)
+4364611000001107	Vigam Liquid 5g/100ml solution for infusion vials (Bio Products Laboratory Ltd)
+4763111000001102	Flebogamma 5g/100ml solution for infusion vials (Grifols UK Ltd)
+4763211000001108	Flebogamma 5g/100ml solution for infusion vials (Grifols UK Ltd)
+10793711000001101	Octagam 5g/100ml solution for infusion vials (Octapharma Ltd)
+10793811000001109	Octagam 5g/100ml solution for infusion vials (Octapharma Ltd)
+16076811000001102	Flebogamma DIF 5g/100ml solution for infusion vials (Grifols UK Ltd)
+16076911000001107	Flebogamma DIF 5g/100ml solution for infusion vials (Grifols UK Ltd)
+17198811000001103	Gammaplex 5g/100ml solution for infusion vials (Bio Products Laboratory Ltd)
+17199011000001104	Gammaplex 5g/100ml solution for infusion vials (Bio Products Laboratory Ltd)
+21210311000001109	Intratect 5g/100ml solution for infusion vials (Biotest (UK) Ltd)
+21210411000001102	Intratect 5g/100ml solution for infusion vials (Biotest (UK) Ltd)
+22355911000001100	Aragam 5g/100ml solution for infusion vials (Oxbridge Pharma Ltd)
+22356011000001108	Aragam 5g/100ml solution for infusion vials (Oxbridge Pharma Ltd)
+4368511000001101	Normal immunoglobulin human 2.5g/50ml solution for infusion vials
+4364811000001106	Normal immunoglobulin human 2.5g/50ml solution for infusion vials
+4364911000001101	Vigam Liquid 2.5g/50ml solution for infusion vials (Bio Products Laboratory Ltd)
+4365111000001100	Vigam Liquid 2.5g/50ml solution for infusion vials (Bio Products Laboratory Ltd)
+4763511000001106	Flebogamma 2.5g/50ml solution for infusion vials (Grifols UK Ltd)
+4763611000001105	Flebogamma 2.5g/50ml solution for infusion vials (Grifols UK Ltd)
+10793511000001106	Octagam 2.5g/50ml solution for infusion vials (Octapharma Ltd)
+10793611000001105	Octagam 2.5g/50ml solution for infusion vials (Octapharma Ltd)
+16077411000001102	Flebogamma DIF 2.5g/50ml solution for infusion vials (Grifols UK Ltd)
+16077511000001103	Flebogamma DIF 2.5g/50ml solution for infusion vials (Grifols UK Ltd)
+17199811000001105	Gammaplex 2.5g/50ml solution for infusion vials (Bio Products Laboratory Ltd)
+17200111000001108	Gammaplex 2.5g/50ml solution for infusion vials (Bio Products Laboratory Ltd)
+21209911000001101	Intratect 2.5g/50ml solution for infusion vials (Biotest (UK) Ltd)
+21210011000001106	Intratect 2.5g/50ml solution for infusion vials (Biotest (UK) Ltd)
+22355711000001102	Aragam 2.5g/50ml solution for infusion vials (Oxbridge Pharma Ltd)
+22355811000001105	Aragam 2.5g/50ml solution for infusion vials (Oxbridge Pharma Ltd)
+4368411000001100	Normal immunoglobulin human 10g/200ml solution for infusion vials
+4365211000001106	Normal immunoglobulin human 10g/200ml solution for infusion vials
+4365411000001105	Vigam Liquid 10g/200ml solution for infusion vials (Bio Products Laboratory Ltd)
+4365511000001109	Vigam Liquid 10g/200ml solution for infusion vials (Bio Products Laboratory Ltd)
+4763311000001100	Flebogamma 10g/200ml solution for infusion vials (Grifols UK Ltd)
+4763411000001107	Flebogamma 10g/200ml solution for infusion vials (Grifols UK Ltd)
+10793911000001104	Octagam 10g/200ml solution for infusion vials (Octapharma Ltd)
+10794011000001101	Octagam 10g/200ml solution for infusion vials (Octapharma Ltd)
+16077011000001106	Flebogamma DIF 10g/200ml solution for infusion vials (Grifols UK Ltd)
+16077111000001107	Flebogamma DIF 10g/200ml solution for infusion vials (Grifols UK Ltd)
+17200311000001105	Gammaplex 10g/200ml solution for infusion vials (Bio Products Laboratory Ltd)
+17200511000001104	Gammaplex 10g/200ml solution for infusion vials (Bio Products Laboratory Ltd)
+21210611000001104	Intratect 10g/200ml solution for infusion vials (Biotest (UK) Ltd)
+21210711000001108	Intratect 10g/200ml solution for infusion vials (Biotest (UK) Ltd)
+22356211000001103	Aragam 10g/200ml solution for infusion vials (Oxbridge Pharma Ltd)
+22356311000001106	Aragam 10g/200ml solution for infusion vials (Oxbridge Pharma Ltd)
+4428211000001103	Normal immunoglobulin human 1g powder and solvent for solution for injection bottles
+4401811000001103	Normal immunoglobulin human 1g powder and solvent for solution for injection bottles
+4401911000001108	Sandoglobulin 1g powder and solvent for solution for injection bottles (CSL Behring UK Ltd)
+4402011000001101	Sandoglobulin 1g powder and solvent for solution for injection bottles (CSL Behring UK Ltd)
+4428311000001106	Normal immunoglobulin human 12g powder and solvent for solution for infusion bottles
+4402111000001100	Normal immunoglobulin human 12g powder and solvent for solution for infusion bottles
+4402311000001103	Sandoglobulin 12g powder and solvent for solution for infusion bottles (CSL Behring UK Ltd)
+4402411000001105	Sandoglobulin 12g powder and solvent for solution for infusion bottles (CSL Behring UK Ltd)
+4515111000001101	Normal immunoglobulin human 5g powder and solvent for solution for injection bottles
+4505711000001102	Normal immunoglobulin human 5g powder and solvent for solution for injection bottles
+4505911000001100	Vigam-S 5g powder and solvent for solution for injection bottles (Bio Products Laboratory Ltd)
+4506011000001108	Vigam-S 5g powder and solvent for solution for injection bottles (Bio Products Laboratory Ltd)
+4764011000001101	Gammagard S/D 5g powder and solvent for solution for injection bottles (Takeda UK Ltd)
+4764111000001100	Gammagard S/D 5g powder and solvent for solution for injection bottles (Takeda UK Ltd)
+4639811000001109	Measles, Mumps and Rubella vaccine (live) powder and solvent for solution for injection 0.5ml vials
+4621411000001108	Measles, Mumps and Rubella vaccine (live) powder and solvent for solution for injection 0.5ml vials
+4621611000001106	Priorix vaccine powder and solvent for solution for injection 0.5ml vials (GlaxoSmithKline UK Ltd)
+4621711000001102	Priorix vaccine powder and solvent for solution for injection 0.5ml vials (GlaxoSmithKline UK Ltd)
+4830211000001107	M-M-R II vaccine powder and solvent for solution for injection 0.5ml vials (Organon Pharma (UK) Ltd)
+4830611000001109	M-M-R II vaccine powder and solvent for solution for injection 0.5ml vials (Organon Pharma (UK) Ltd)
+4639911000001104	Varicella vaccine (live) powder and solvent for solution for injection 0.5ml vials
+4622811000001101	Varicella vaccine (live) powder and solvent for solution for injection 0.5ml vials
+4622911000001106	Varilrix vaccine powder and solvent for solution for injection 0.5ml vials (GlaxoSmithKline UK Ltd)
+4623011000001103	Varilrix vaccine powder and solvent for solution for injection 0.5ml vials (GlaxoSmithKline UK Ltd)
+4672111000001109	Hepatitis A vaccine (inactivated, adsorbed) suspension for injection 0.5ml vials
+4643011000001100	Hepatitis A vaccine (inactivated, adsorbed) suspension for injection 0.5ml vials
+4643211000001105	VAQTA Paediatric vaccine suspension for injection 0.5ml vials (Organon Pharma (UK) Ltd)
+4643311000001102	VAQTA Paediatric vaccine suspension for injection 0.5ml vials (Organon Pharma (UK) Ltd)
+30997511000001108	Havrix Junior Monodose vaccine suspension for injection 0.5ml vials (GlaxoSmithKline UK Ltd)
+30997611000001107	Havrix Junior Monodose vaccine suspension for injection 0.5ml vials (GlaxoSmithKline UK Ltd)
+4652011000001106	Haemophilus type b conjugate vaccine solution for injection 0.5ml vials
+4643611000001107	Haemophilus type b conjugate vaccine solution for injection 0.5ml vials
+4643711000001103	HibTITER vaccine solution for injection 0.5ml vials (Wyeth Pharmaceuticals)
+4643811000001106	HibTITER vaccine solution for injection 0.5ml vials (Wyeth Pharmaceuticals)
+4652111000001107	Haemophilus type b conjugate vaccine powder and solvent for solution for injection 0.5ml vials
+4644111000001102	Haemophilus type b conjugate vaccine powder and solvent for solution for injection 0.5ml vials
+4644211000001108	Hiberix vaccine powder and solvent for solution for injection 0.5ml vials (GlaxoSmithKline UK Ltd)
+4644411000001107	Hiberix vaccine powder and solvent for solution for injection 0.5ml vials (GlaxoSmithKline UK Ltd)
+4702411000001104	Diphtheria / Tetanus / Pertussis (acellular component) vaccine (adsorbed) injection pre-filled syringes / Haemophilus type b conjugate vaccine injection vials
+4688711000001102	Diphtheria / Tetanus / Pertussis (acellular component) vaccine (adsorbed) injection pre-filled syringes / Haemophilus type b conjugate vaccine injection vials
+4694611000001100	Diphtheria / Tetanus / Pertussis (acellular component) vaccine (adsorbed) injection pre-filled syringes / Haemophilus type b conjugate vaccine injection vials
+4689111000001105	Act-HIB DTP vaccine injection pack (sanofi pasteur MSD Ltd)
+4689411000001100	Act-HIB DTP vaccine injection pack (sanofi pasteur MSD Ltd)
+4695011000001106	Infanrix-Hib vaccine injection pack (GlaxoSmithKline UK Ltd)
+4695411000001102	Infanrix-Hib vaccine injection pack (GlaxoSmithKline UK Ltd)
+4702311000001106	Diphtheria / Tetanus / Pertussis (acellular component) vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+4697211000001109	Diphtheria / Tetanus / Pertussis (acellular component) vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+4697711000001102	Infanrix vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+4698011000001103	Infanrix vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+39715911000001103	Normal immunoglobulin human 500mg powder and solvent for solution for injection bottles
+4764211000001106	Normal immunoglobulin human 500mg powder and solvent for solution for injection bottles
+4764311000001103	Gammagard S/D 500mg powder and solvent for solution for injection bottles (Baxalta UK Ltd)
+4764411000001105	Gammagard S/D 500mg powder and solvent for solution for injection bottles (Baxalta UK Ltd)
+39715711000001100	Normal immunoglobulin human 2.5g powder and solvent for solution for injection bottles
+4764511000001109	Normal immunoglobulin human 2.5g powder and solvent for solution for injection bottles
+4764611000001108	Gammagard S/D 2.5g powder and solvent for solution for injection bottles (Baxalta UK Ltd)
+4764711000001104	Gammagard S/D 2.5g powder and solvent for solution for injection bottles (Baxalta UK Ltd)
+4764811000001107	Vigam-S 2.5g powder and solvent for solution for injection bottles (Bio Products Laboratory Ltd)
+4764911000001102	Vigam-S 2.5g powder and solvent for solution for injection bottles (Bio Products Laboratory Ltd)
+39715611000001109	Normal immunoglobulin human 10g powder and solvent for solution for injection bottles
+4765111000001101	Normal immunoglobulin human 10g powder and solvent for solution for injection bottles
+4765311000001104	Gammagard S/D 10g powder and solvent for solution for injection bottles (Takeda UK Ltd)
+4765411000001106	Gammagard S/D 10g powder and solvent for solution for injection bottles (Takeda UK Ltd)
+9054711000001105	Normal immunoglobulin human 10g powder and solvent for solution for injection bottles (Scottish National Blood Transfusion Service)
+9054811000001102	Normal immunoglobulin human 10g powder and solvent for solution for injection bottles (Scottish National Blood Transfusion Service)
+4792711000001107	Normal immunoglobulin human 500mg/10ml solution for infusion vials
+4781811000001107	Normal immunoglobulin human 500mg/10ml solution for infusion vials
+4781911000001102	Flebogamma 500mg/10ml solution for infusion vials (Grifols UK Ltd)
+4782011000001109	Flebogamma 500mg/10ml solution for infusion vials (Grifols UK Ltd)
+16077211000001101	Flebogamma DIF 500mg/10ml solution for infusion vials (Grifols UK Ltd)
+16077311000001109	Flebogamma DIF 500mg/10ml solution for infusion vials (Grifols UK Ltd)
+39718511000001102	Meningococcal C conjugate vaccine suspension for injection 0.5ml pre-filled syringes
+4793111000001100	Meningococcal C conjugate vaccine suspension for injection 0.5ml pre-filled syringes
+24467311000001100	Meningococcal C conjugate vaccine suspension for injection 0.5ml pre-filled syringes
+4793211000001106	NeisVac-C vaccine suspension for injection 0.5ml pre-filled syringes (Pfizer Ltd)
+4793311000001103	NeisVac-C vaccine suspension for injection 0.5ml pre-filled syringes (Pfizer Ltd)
+13631611000001105	Meningitec vaccine suspension for injection 0.5ml pre-filled syringes (Nuron Biotech B.V.)
+13631711000001101	Meningitec vaccine suspension for injection 0.5ml pre-filled syringes (Nuron Biotech B.V.)
+24467511000001106	Meningitec vaccine suspension for injection 0.5ml pre-filled syringes (Nuron Biotech B.V.)
+36150811000001108	Yellow fever vaccine (live) powder and solvent for suspension for injection 0.5ml vials
+4819711000001104	Yellow fever vaccine (live) powder and solvent for suspension for injection 0.5ml vials
+8087011000001105	Yellow fever vaccine (live) powder and solvent for suspension for injection 0.5ml vials
+4820311000001102	Stamaril vaccine powder and solvent for suspension for injection 0.5ml vials (Sanofi Pasteur)
+4820511000001108	Stamaril vaccine powder and solvent for suspension for injection 0.5ml vials (Sanofi Pasteur)
+8087111000001106	Arilvax vaccine powder and solvent for suspension for injection 0.5ml vials (Novartis Vaccines and Diagnostics Ltd)
+8087211000001100	Arilvax vaccine powder and solvent for suspension for injection 0.5ml vials (Novartis Vaccines and Diagnostics Ltd)
+72171000001103	Tetanus immunoglobulin human 250unit solution for injection vials
+4947111000001108	Tetanus immunoglobulin human 250unit solution for injection vials
+4953011000001103	Tetanus immunoglobulin human 250unit solution for injection vials (Bio Products Laboratory Ltd)
+4953311000001100	Tetanus immunoglobulin human 250unit solution for injection vials (Bio Products Laboratory Ltd)
+4955911000001103	Liberim T 250unit solution for injection vials (Scottish National Blood Transfusion Service)
+4956011000001106	Liberim T 250unit solution for injection vials (Scottish National Blood Transfusion Service)
+39694311000001106	Anti-D (RHO) immunoglobulin 1,250units/1ml solution for injection pre-filled syringes
+4971611000001108	Anti-D (RHO) immunoglobulin 1,250units/1ml solution for injection pre-filled syringes
+4971911000001102	Anti-D (RHO) immunoglobulin 1,250units/1ml solution for injection pre-filled syringes (Baxter Healthcare Ltd)
+4972011000001109	Anti-D (RHO) immunoglobulin 1,250units/1ml solution for injection pre-filled syringes (Baxter Healthcare Ltd)
+7559711000001102	Partobulin SDF 1,250units/1ml solution for injection pre-filled syringes (Baxter Healthcare Ltd)
+7559811000001105	Partobulin SDF 1,250units/1ml solution for injection pre-filled syringes (Baxter Healthcare Ltd)
+333775003	Varicella immunoglobulin 250mg solution for injection vials
+4984211000001104	Varicella immunoglobulin 250mg solution for injection vials
+4984311000001107	Varicella-Zoster immunoglobulin human 250mg solution for injection vials (Bio Products Laboratory Ltd)
+4984411000001100	Varicella-Zoster immunoglobulin human 250mg solution for injection vials (Bio Products Laboratory Ltd)
+9050711000001104	Liberim Z 250mg solution for injection vials (Scottish National Blood Transfusion Service)
+9050911000001102	Liberim Z 250mg solution for injection vials (Scottish National Blood Transfusion Service)
+39694511000001100	Anti-D (RHO) immunoglobulin 250unit solution for injection vials
+4992211000001107	Anti-D (RHO) immunoglobulin 250unit solution for injection vials
+4992311000001104	D-Gam Anti-D immunoglobulin 250unit solution for injection vials (Bio Products Laboratory Ltd)
+4992411000001106	D-Gam Anti-D immunoglobulin 250unit solution for injection vials (Bio Products Laboratory Ltd)
+9048211000001106	Liberim D 250 solution for injection vials (Scottish National Blood Transfusion Service)
+9048311000001103	Liberim D 250 solution for injection vials (Scottish National Blood Transfusion Service)
+39694711000001105	Anti-D (RHO) immunoglobulin 500unit solution for injection vials
+4992511000001105	Anti-D (RHO) immunoglobulin 500unit solution for injection vials
+4992611000001109	D-Gam Anti-D immunoglobulin 500unit solution for injection vials (Bio Products Laboratory Ltd)
+4992711000001100	D-Gam Anti-D immunoglobulin 500unit solution for injection vials (Bio Products Laboratory Ltd)
+9048411000001105	Liberim D 500 solution for injection vials (Scottish National Blood Transfusion Service)
+9048511000001109	Liberim D 500 solution for injection vials (Scottish National Blood Transfusion Service)
+9566111000001107	Anti-D (RHO) immunoglobulin 1,500unit solution for injection vials
+4992811000001108	Anti-D (RHO) immunoglobulin 1,500unit solution for injection vials
+4993011000001106	D-Gam Anti-D immunoglobulin 1,500unit solution for injection vials (Bio Products Laboratory Ltd)
+4993211000001101	D-Gam Anti-D immunoglobulin 1,500unit solution for injection vials (Bio Products Laboratory Ltd)
+39694411000001104	Anti-D (RHO) immunoglobulin 2,500unit solution for injection vials
+4993411000001102	Anti-D (RHO) immunoglobulin 2,500unit solution for injection vials
+4993611000001104	D-Gam Anti-D immunoglobulin 2,500unit solution for injection vials (Bio Products Laboratory Ltd)
+4993711000001108	D-Gam Anti-D immunoglobulin 2,500unit solution for injection vials (Bio Products Laboratory Ltd)
+5002011000001102	Rabies immunoglobulin human 500unit solution for injection vials
+4996411000001107	Rabies immunoglobulin human 500unit solution for injection vials
+4996611000001105	Rabies immunoglobulin human 500unit solution for injection vials (Bio Products Laboratory Ltd)
+4996911000001104	Rabies immunoglobulin human 500unit solution for injection vials (Bio Products Laboratory Ltd)
+5005111000001108	Tick-borne encephalitis immunoglobulin human solution for injection 2ml vials
+5002911000001103	Tick-borne encephalitis immunoglobulin human solution for injection 2ml vials
+5004111000001109	FSME-Bulin solution for injection 2ml vials (Baxter Healthcare Ltd)
+5004411000001104	FSME-Bulin solution for injection 2ml vials (Baxter Healthcare Ltd)
+5005211000001102	Tick-borne encephalitis immunoglobulin human solution for injection 5ml vials
+5004711000001105	Tick-borne encephalitis immunoglobulin human solution for injection 5ml vials
+5004811000001102	FSME-Bulin solution for injection 5ml vials (Baxter Healthcare Ltd)
+5004911000001107	FSME-Bulin solution for injection 5ml vials (Baxter Healthcare Ltd)
+10246811000001101	Tick-borne encephalitis vaccine (inactivated) suspension for injection 0.5ml pre-filled syringes
+5006711000001101	Tick-borne encephalitis vaccine (inactivated) suspension for injection 0.5ml pre-filled syringes
+5006811000001109	FSME-Immun vaccine suspension for injection 0.5ml pre-filled syringes (Baxter Healthcare Ltd)
+5006911000001104	FSME-Immun vaccine suspension for injection 0.5ml pre-filled syringes (Baxter Healthcare Ltd)
+13507411000001103	TicoVac vaccine suspension for injection 0.5ml pre-filled syringes (Pfizer Ltd)
+13507511000001104	TicoVac vaccine suspension for injection 0.5ml pre-filled syringes (Pfizer Ltd)
+5191011000001100	Cholera vaccine oral suspension and vehicle
+5185711000001100	Cholera vaccine oral suspension and vehicle
+5185811000001108	Cholera vaccine oral suspension and vehicle
+5185911000001103	Dukoral cholera vaccine oral suspension (Valneva UK Ltd)
+5186011000001106	Dukoral cholera vaccine oral suspension (Valneva UK Ltd)
+5186211000001101	Dukoral cholera vaccine oral suspension (Valneva UK Ltd)
+39715411000001106	Hepatitis B immunoglobulin human 200unit solution for injection vials
+5250411000001108	Hepatitis B immunoglobulin human 200unit solution for injection vials
+5250511000001107	Hepatitis B immunoglobulin human 200unit solution for injection vials (Bio Products Laboratory Ltd)
+5250611000001106	Hepatitis B immunoglobulin human 200unit solution for injection vials (Bio Products Laboratory Ltd)
+39715511000001105	Hepatitis B immunoglobulin human 500unit solution for injection vials
+5250711000001102	Hepatitis B immunoglobulin human 500unit solution for injection vials
+5250811000001105	Hepatitis B immunoglobulin human 500unit solution for injection vials (Bio Products Laboratory Ltd)
+5250911000001100	Hepatitis B immunoglobulin human 500unit solution for injection vials (Bio Products Laboratory Ltd)
+9051511000001102	Liberim HB 500unit solution for injection vials (Scottish National Blood Transfusion Service)
+9051611000001103	Liberim HB 500unit solution for injection vials (Scottish National Blood Transfusion Service)
+5457711000001100	Normal immunoglobulin human 800mg/5ml solution for injection vials
+5437911000001104	Normal immunoglobulin human 800mg/5ml solution for injection vials
+5438011000001102	Subcuvia 800mg/5ml solution for injection vials (Baxalta UK Ltd)
+5438111000001101	Subcuvia 800mg/5ml solution for injection vials (Baxalta UK Ltd)
+7353311000001101	Meningococcal C conjugate vaccine powder and solvent for suspension for injection 0.5ml vials
+7336411000001102	Meningococcal C conjugate vaccine powder and solvent for suspension for injection 0.5ml vials
+7336511000001103	Meningococcal C conjugate vaccine powder and solvent for suspension for injection 0.5ml vials
+7336611000001104	Menjugate vaccine powder and solvent for suspension for injection 0.5ml vials (Novartis Vaccines and Diagnostics Ltd)
+7336711000001108	Menjugate vaccine powder and solvent for suspension for injection 0.5ml vials (Novartis Vaccines and Diagnostics Ltd)
+7336811000001100	Menjugate vaccine powder and solvent for suspension for injection 0.5ml vials (Novartis Vaccines and Diagnostics Ltd)
+7386611000001107	Diphtheria / Tetanus / Poliomyelitis (inactivated) vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+7374211000001109	Diphtheria / Tetanus / Poliomyelitis (inactivated) vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+7374311000001101	Revaxis vaccine suspension for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
+7374511000001107	Revaxis vaccine suspension for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
+13340711000001104	Anti-D (RHO) immunoglobulin 1,500unit powder and solvent for solution for injection vials
+7577511000001102	Anti-D (RHO) immunoglobulin 1,500unit powder and solvent for solution for injection vials
+7577611000001103	WinRho SDF 1,500unit powder and solvent for solution for injection vials (Baxter Healthcare Ltd)
+7577711000001107	WinRho SDF 1,500unit powder and solvent for solution for injection vials (Baxter Healthcare Ltd)
+7577811000001104	Anti-D (RHO) immunoglobulin 5,000unit powder and solvent for solution for injection vials
+7577911000001109	Anti-D (RHO) immunoglobulin 5,000unit powder and solvent for solution for injection vials
+7578011000001106	WinRho SDF 5,000unit powder and solvent for solution for injection vials (Baxter Healthcare Ltd)
+7578111000001107	WinRho SDF 5,000unit powder and solvent for solution for injection vials (Baxter Healthcare Ltd)
+7641111000001107	Hepatitis A vaccine (inactivated, adsorbed) emulsion for injection 0.5ml pre-filled syringes
+7639211000001104	Hepatitis A vaccine (inactivated, adsorbed) emulsion for injection 0.5ml pre-filled syringes
+7639311000001107	Hepatitis A vaccine (inactivated, adsorbed) emulsion for injection 0.5ml pre-filled syringes
+7639411000001100	Epaxal vaccine emulsion for injection 0.5ml pre-filled syringes (Janssen-Cilag Ltd)
+7639511000001101	Epaxal vaccine emulsion for injection 0.5ml pre-filled syringes (Janssen-Cilag Ltd)
+7639611000001102	Epaxal vaccine emulsion for injection 0.5ml pre-filled syringes (Janssen-Cilag Ltd)
+7661411000001109	Poliomyelitis vaccine (inactivated) suspension for injection 0.5ml pre-filled syringes
+7651011000001109	Poliomyelitis vaccine (inactivated) suspension for injection 0.5ml pre-filled syringes
+7651111000001105	Poliomyelitis vaccine (inactivated) suspension for injection 0.5ml pre-filled syringes (sanofi pasteur MSD Ltd)
+7651211000001104	Poliomyelitis vaccine (inactivated) suspension for injection 0.5ml pre-filled syringes (sanofi pasteur MSD Ltd)
+7966211000001101	Normal immunoglobulin human 750mg/4.6875ml solution for injection vials
+7949211000001104	Normal immunoglobulin human 750mg/4.6875ml solution for injection vials
+7949411000001100	Subgam 750mg/4.6875ml solution for injection vials (Bio Products Laboratory Ltd)
+7949611000001102	Subgam 750mg/4.6875ml solution for injection vials (Bio Products Laboratory Ltd)
+7990711000001108	Varicella vaccine (live) powder and solvent for suspension for injection 0.5ml vials
+7995311000001102	Varicella vaccine (live) powder and solvent for suspension for injection 0.5ml vials
+7995511000001108	Varivax vaccine powder and solvent for suspension for injection 0.5ml vials (Merck Sharp & Dohme (UK) Ltd)
+7995611000001107	Varivax vaccine powder and solvent for suspension for injection 0.5ml vials (Merck Sharp & Dohme (UK) Ltd)
+8100611000001109	Diphtheria / Tetanus / Pertussis (acellular component) / Poliomyelitis (inactivated) / Haemophilus type b conjugate vaccine (adsorbed) suspension for injection 0.5ml vials
+8088711000001108	Diphtheria / Tetanus / Pertussis (acellular component) / Poliomyelitis (inactivated) / Haemophilus type b conjugate vaccine (adsorbed) suspension for injection 0.5ml vials
+8088811000001100	Pediacel vaccine suspension for injection 0.5ml vials (sanofi pasteur MSD Ltd)
+8088911000001105	Pediacel vaccine suspension for injection 0.5ml vials (sanofi pasteur MSD Ltd)
+8153411000001106	Diphtheria / Tetanus / Pertussis (acellular component) / Poliomyelitis (inactivated) vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+8149011000001102	Diphtheria / Tetanus / Pertussis (acellular component) / Poliomyelitis (inactivated) vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+8426011000001105	Infanrix-IPV vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+8426111000001106	Infanrix-IPV vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+8165711000001106	Rabies vaccine powder and solvent for solution for injection 1ml vials
+8165211000001104	Rabies vaccine powder and solvent for solution for injection 1ml vials
+8165311000001107	Rabipur vaccine powder and solvent for solution for injection 1ml vials (GlaxoSmithKline UK Ltd)
+8165411000001100	Rabipur vaccine powder and solvent for solution for injection 1ml vials (GlaxoSmithKline UK Ltd)
+8165511000001101	Rabies vaccine powder and solvent for solution for injection 1ml vials (A A H Pharmaceuticals Ltd)
+8165611000001102	Rabies vaccine powder and solvent for solution for injection 1ml vials (A A H Pharmaceuticals Ltd)
+8174811000001108	Anti-D (RHO) immunoglobulin 1,500units/2ml solution for injection pre-filled syringes
+8173511000001107	Anti-D (RHO) immunoglobulin 1,500units/2ml solution for injection pre-filled syringes
+8173611000001106	Rhophylac 1,500units/2ml solution for injection pre-filled syringes (CSL Behring UK Ltd)
+8173711000001102	Rhophylac 1,500units/2ml solution for injection pre-filled syringes (CSL Behring UK Ltd)
+8888711000001107	Diphtheria (low dose) / Tetanus / Pertussis (acellular component) / Poliomyelitis (inactivated) vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+8881211000001109	Diphtheria (low dose) / Tetanus / Pertussis (acellular component) / Poliomyelitis (inactivated) vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+8882411000001103	Repevax vaccine suspension for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
+8882711000001109	Repevax vaccine suspension for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
+26267211000001100	Boostrix-IPV suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+26267711000001107	Boostrix-IPV suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+9056311000001100	Normal immunoglobulin human 250mg/1.67ml solution for injection vials
+9052611000001109	Normal immunoglobulin human 250mg/1.67ml solution for injection vials
+9052411000001106	Liberim IM 250mg/1.67ml solution for injection vials (Scottish National Blood Transfusion Service)
+9052711000001100	Liberim IM 250mg/1.67ml solution for injection vials (Scottish National Blood Transfusion Service)
+9262611000001107	Normal immunoglobulin human 6g/50ml solution for infusion vials
+9252911000001106	Normal immunoglobulin human 6g/50ml solution for infusion vials
+9253211000001108	Sandoglobulin NF 6g/50ml solution for infusion vials (CSL Behring UK Ltd)
+9253311000001100	Sandoglobulin NF 6g/50ml solution for infusion vials (CSL Behring UK Ltd)
+9262511000001108	Normal immunoglobulin human 12g/100ml solution for infusion vials
+9253611000001105	Normal immunoglobulin human 12g/100ml solution for infusion vials
+9253711000001101	Sandoglobulin NF 12g/100ml solution for infusion vials (CSL Behring UK Ltd)
+9253811000001109	Sandoglobulin NF 12g/100ml solution for infusion vials (CSL Behring UK Ltd)
+9324711000001105	Bacillus Calmette-Guerin vaccine powder and solvent for suspension for injection vials
+9316511000001100	Bacillus Calmette-Guerin vaccine powder and solvent for suspension for injection vials
+9316611000001101	Bacillus Calmette-Guerin vaccine powder and solvent for suspension for injection vials (Statens Serum Institut)
+9316711000001105	Bacillus Calmette-Guerin vaccine powder and solvent for suspension for injection vials (Statens Serum Institut)
+9519711000001102	Influenza vaccine (split virion, inactivated) suspension for injection 0.25ml pre-filled syringes
+9509111000001100	Influenza vaccine (split virion, inactivated) suspension for injection 0.25ml pre-filled syringes
+9509211000001106	Influenza vaccine (split virion, inactivated) suspension for injection 0.25ml pre-filled syringes (sanofi pasteur MSD Ltd)
+9509311000001103	Influenza vaccine (split virion, inactivated) suspension for injection 0.25ml pre-filled syringes (sanofi pasteur MSD Ltd)
+9564011000001101	Hepatitis B (rDNA) 20micrograms/0.5ml vaccine suspension for injection pre-filled syringes
+9556311000001103	Hepatitis B (rDNA) 20micrograms/0.5ml vaccine suspension for injection pre-filled syringes
+9556611000001108	Hepatitis B (rDNA) 20micrograms/0.5ml vaccine suspension for injection pre-filled syringes
+9556411000001105	Fendrix 20micrograms/0.5ml vaccine suspension for injection pre-filled syringes (GlaxoSmithKline UK Ltd)
+9556511000001109	Fendrix 20micrograms/0.5ml vaccine suspension for injection pre-filled syringes (GlaxoSmithKline UK Ltd)
+9556711000001104	Fendrix 20micrograms/0.5ml vaccine suspension for injection pre-filled syringes (GlaxoSmithKline UK Ltd)
+9724611000001102	Normal immunoglobulin human 1.5g/9.375ml solution for injection vials
+9721611000001104	Normal immunoglobulin human 1.5g/9.375ml solution for injection vials
+9721711000001108	Subgam 1.5g/9.375ml solution for injection vials (Bio Products Laboratory Ltd)
+9721811000001100	Subgam 1.5g/9.375ml solution for injection vials (Bio Products Laboratory Ltd)
+9904411000001100	Haemophilus type b / Meningococcal C conjugate vaccine powder and solvent for solution for injection 0.5ml vials
+9903611000001100	Haemophilus type b / Meningococcal C conjugate vaccine powder and solvent for solution for injection 0.5ml vials
+9903711000001109	Menitorix vaccine powder and solvent for solution for injection 0.5ml vials (GlaxoSmithKline UK Ltd)
+9903811000001101	Menitorix vaccine powder and solvent for solution for injection 0.5ml vials (GlaxoSmithKline UK Ltd)
+10246611000001100	Tick-borne encephalitis vaccine (inactivated) suspension for injection 0.25ml pre-filled syringes
+10230311000001108	Tick-borne encephalitis vaccine (inactivated) suspension for injection 0.25ml pre-filled syringes
+10230411000001101	FSME-Immun Junior vaccine suspension for injection 0.25ml pre-filled syringes (Baxter Healthcare Ltd)
+10230511000001102	FSME-Immun Junior vaccine suspension for injection 0.25ml pre-filled syringes (Baxter Healthcare Ltd)
+14603111000001107	TicoVac Junior vaccine suspension for injection 0.25ml pre-filled syringes (Pfizer Ltd)
+14603211000001101	TicoVac Junior vaccine suspension for injection 0.25ml pre-filled syringes (Pfizer Ltd)
+10245211000001108	Pneumococcal polysaccharide conjugated vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+10230911000001109	Pneumococcal polysaccharide conjugated vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+13668111000001101	Pneumococcal polysaccharide conjugated vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+10231211000001106	Prevenar vaccine suspension for injection 0.5ml pre-filled syringes (Pfizer Ltd)
+10231311000001103	Prevenar vaccine suspension for injection 0.5ml pre-filled syringes (Pfizer Ltd)
+13668211000001107	Prevenar vaccine suspension for injection 0.5ml pre-filled syringes (Pfizer Ltd)
+16649411000001104	Prevenar 13 vaccine suspension for injection 0.5ml pre-filled syringes (Pfizer Ltd)
+16649511000001100	Prevenar 13 vaccine suspension for injection 0.5ml pre-filled syringes (Pfizer Ltd)
+21562911000001100	Prevenar 13 vaccine suspension for injection 0.5ml pre-filled syringes (Pfizer Ltd)
+16660211000001102	Synflorix vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+16660311000001105	Synflorix vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+10309511000001105	Influenza vaccine (surface antigen, inactivated, virosome) suspension for injection 0.5ml pre-filled syringes
+10306211000001103	Influenza vaccine (surface antigen, inactivated, virosome) suspension for injection 0.5ml pre-filled syringes
+10306311000001106	Influenza vaccine (surface antigen, inactivated, virosome) suspension for injection 0.5ml pre-filled syringes
+10306411000001104	Invivac vaccine suspension for injection 0.5ml pre-filled syringes (Abbott Healthcare Products Ltd)
+10306511000001100	Invivac vaccine suspension for injection 0.5ml pre-filled syringes (Abbott Healthcare Products Ltd)
+10306611000001101	Inflexal V vaccine suspension for injection 0.5ml pre-filled syringes (Janssen-Cilag Ltd)
+10306711000001105	Inflexal V vaccine suspension for injection 0.5ml pre-filled syringes (Janssen-Cilag Ltd)
+10306811000001102	Inflexal V vaccine suspension for injection 0.5ml pre-filled syringes (Janssen-Cilag Ltd)
+10455811000001107	Viroflu vaccine suspension for injection 0.5ml pre-filled syringes (Janssen-Cilag Ltd)
+10455911000001102	Viroflu vaccine suspension for injection 0.5ml pre-filled syringes (Janssen-Cilag Ltd)
+10456011000001105	Viroflu vaccine suspension for injection 0.5ml pre-filled syringes (Janssen-Cilag Ltd)
+10353511000001102	Rotavirus vaccine live oral suspension 1ml vials
+10344211000001104	Rotavirus vaccine live oral suspension 1ml vials
+10344411000001100	Rotarix vaccine live powder and solvent for oral suspension 1ml vials (GlaxoSmithKline UK Ltd)
+10344611000001102	Rotarix vaccine live powder and solvent for oral suspension 1ml vials (GlaxoSmithKline UK Ltd)
+10774511000001103	Hepatitis B (rDNA) 5micrograms/0.5ml vaccine suspension for injection pre-filled syringes
+10751611000001103	Hepatitis B (rDNA) 5micrograms/0.5ml vaccine suspension for injection pre-filled syringes
+10751711000001107	HBVAXPRO 5micrograms/0.5ml vaccine suspension for injection pre-filled syringes (Merck Sharp & Dohme (UK) Ltd)
+10751811000001104	HBVAXPRO 5micrograms/0.5ml vaccine suspension for injection pre-filled syringes (Merck Sharp & Dohme (UK) Ltd)
+10774411000001102	Hepatitis B (rDNA) 10micrograms/1ml vaccine suspension for injection pre-filled syringes
+10751911000001109	Hepatitis B (rDNA) 10micrograms/1ml vaccine suspension for injection pre-filled syringes
+10752011000001102	HBVAXPRO 10micrograms/1ml vaccine suspension for injection pre-filled syringes (Merck Sharp & Dohme (UK) Ltd)
+10752111000001101	HBVAXPRO 10micrograms/1ml vaccine suspension for injection pre-filled syringes (Merck Sharp & Dohme (UK) Ltd)
+10795711000001100	Diphtheria / Tetanus / Pertussis (acellular component) / Poliomyelitis (inactivated) / Haemophilus type b conjugate vaccine (adsorbed) powder and suspension for suspension for injection 0.5ml pre-filled syringes
+10776411000001105	Diphtheria / Tetanus / Pertussis (acellular component) / Poliomyelitis (inactivated) / Haemophilus type b conjugate vaccine (adsorbed) powder and suspension for suspension for injection 0.5ml pre-filled syringes
+10776511000001109	Infanrix-IPV + Hib vaccine powder and suspension for suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+10776611000001108	Infanrix-IPV + Hib vaccine powder and suspension for suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+10893611000001107	Human papillomavirus (type 6, 11, 16, 18) vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+10879911000001108	Human papillomavirus (type 6, 11, 16, 18) vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+10880211000001104	Gardasil vaccine suspension for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd)
+10880311000001107	Gardasil vaccine suspension for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd)
+10907811000001105	Anthrax vaccine suspension for injection 0.5ml ampoules
+10907911000001100	Anthrax vaccine suspension for injection 0.5ml ampoules
+10908011000001103	Anthrax vaccine (alum precipitated sterile filtrate) suspension for injection 0.5ml ampoules (Secretary of State for Health)
+10908111000001102	Anthrax vaccine (alum precipitated sterile filtrate) suspension for injection 0.5ml ampoules (Secretary of State for Health)
+11236711000001100	Hepatitis A HM175 strain (adsorbed) / Typhoid polysaccharide vaccine suspension for injection 1ml pre-filled syringes
+11235111000001107	Hepatitis A HM175 strain (adsorbed) / Typhoid polysaccharide vaccine suspension for injection 1ml pre-filled syringes
+11235211000001101	Hepatitis A HM175 strain (adsorbed) / Typhoid polysaccharide vaccine suspension for injection 1ml pre-filled syringes
+11235311000001109	Hepatyrix vaccine suspension for injection 1ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+11235411000001102	Hepatyrix vaccine suspension for injection 1ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+11235511000001103	Hepatyrix vaccine suspension for injection 1ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+11236611000001109	Hepatitis A GBM strain (adsorbed) / Typhoid polysaccharide vaccine suspension for injection 1ml pre-filled syringes
+11235811000001100	Hepatitis A GBM strain (adsorbed) / Typhoid polysaccharide vaccine suspension for injection 1ml pre-filled syringes
+11235911000001105	ViATIM vaccine suspension for injection 1ml pre-filled syringes (Sanofi Pasteur)
+11236011000001102	ViATIM vaccine suspension for injection 1ml pre-filled syringes (Sanofi Pasteur)
+11958011000001103	Tuberculin purified protein derivative (RT 23) 20 tuberculin units/ml solution for injection 1.5ml vials
+11953811000001104	Tuberculin purified protein derivative (RT 23) 20 tuberculin units/ml solution for injection 1.5ml vials
+11953911000001109	Tuberculin PPD RT 23 SSI 20 tuberculin units/ml solution for injection 1.5ml vials (Imported (Denmark))
+11954011000001107	Tuberculin PPD RT 23 SSI 20 tuberculin units/ml solution for injection 1.5ml vials (Imported (Denmark))
+17994411000001107	Tuberculin purified protein derivative (RT 23) 20 tuberculin units/ml solution for injection 1.5ml vials (Special Order)
+17994511000001106	Tuberculin purified protein derivative (RT 23) 20 tuberculin units/ml solution for injection 1.5ml vials (Special Order)
+11957911000001100	Tuberculin purified protein derivative (RT 23) 100 tuberculin units/ml solution for injection 1.5ml vials
+11954111000001108	Tuberculin purified protein derivative (RT 23) 100 tuberculin units/ml solution for injection 1.5ml vials
+11954211000001102	Tuberculin PPD RT 23 SSI 100 tuberculin units/ml solution for injection 1.5ml vials (Imported (Denmark))
+11954311000001105	Tuberculin PPD RT 23 SSI 100 tuberculin units/ml solution for injection 1.5ml vials (Imported (Denmark))
+17994211000001108	Tuberculin purified protein derivative (RT 23) 100 tuberculin units/ml solution for injection 1.5ml vials (Special Order)
+17994311000001100	Tuberculin purified protein derivative (RT 23) 100 tuberculin units/ml solution for injection 1.5ml vials (Special Order)
+12299011000001104	Human papillomavirus (type 16, 18) vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+12238711000001102	Human papillomavirus (type 16, 18) vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+12240911000001103	Human papillomavirus (type 16, 18) vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+12238911000001100	Cervarix vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+12239011000001109	Cervarix vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+12241111000001107	Cervarix vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+13756911000001103	Japanese encephalitis vaccine solution for injection 1ml vials
+13741211000001101	Japanese encephalitis vaccine solution for injection 1ml vials
+13746011000001104	Japanese encephalitis GCVC vaccine solution for injection 1ml vials (Imported (Korea))
+13746111000001103	Japanese encephalitis GCVC vaccine solution for injection 1ml vials (Imported (Korea))
+13756811000001108	Japanese encephalitis vaccine solution for injection 10ml vials
+13747811000001107	Japanese encephalitis vaccine solution for injection 10ml vials
+13747911000001102	Japanese encephalitis GCVC vaccine solution for injection 10ml vials (Imported (Korea))
+13748011000001100	Japanese encephalitis GCVC vaccine solution for injection 10ml vials (Imported (Korea))
+13757011000001104	Japanese encephalitis vaccine solution for injection 20ml vials
+13748111000001104	Japanese encephalitis vaccine solution for injection 20ml vials
+13748211000001105	Japanese encephalitis GCVC vaccine solution for injection 20ml vials (Imported (Korea))
+13748311000001102	Japanese encephalitis GCVC vaccine solution for injection 20ml vials (Imported (Korea))
+14015211000001108	Measles, Mumps and Rubella vaccine (live) powder and solvent for suspension for injection 0.5ml pre-filled syringes
+13968111000001102	Measles, Mumps and Rubella vaccine (live) powder and solvent for suspension for injection 0.5ml pre-filled syringes
+13968211000001108	M-M-RVAXPRO vaccine powder and solvent for suspension for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd)
+13968311000001100	M-M-RVAXPRO vaccine powder and solvent for suspension for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd)
+15097511000001105	Normal immunoglobulin human 10g/100ml solution for infusion bottles
+15071811000001109	Normal immunoglobulin human 10g/100ml solution for infusion bottles
+15072511000001103	Octagam 10% 10g/100ml solution for infusion bottles (Octapharma Ltd)
+15072911000001105	Octagam 10% 10g/100ml solution for infusion bottles (Octapharma Ltd)
+35379911000001102	Panzyga 10g/100ml solution for infusion bottles (Octapharma Ltd)
+35380111000001100	Panzyga 10g/100ml solution for infusion bottles (Octapharma Ltd)
+36941011000001106	Gammaplex 10% 10g/100ml solution for infusion bottles (Bio Products Laboratory Ltd)
+36941111000001107	Gammaplex 10% 10g/100ml solution for infusion bottles (Bio Products Laboratory Ltd)
+15097611000001109	Normal immunoglobulin human 5g/50ml solution for infusion bottles
+15073511000001105	Normal immunoglobulin human 5g/50ml solution for infusion bottles
+15073711000001100	Octagam 10% 5g/50ml solution for infusion bottles (Octapharma Ltd)
+15073811000001108	Octagam 10% 5g/50ml solution for infusion bottles (Octapharma Ltd)
+35379511000001109	Panzyga 5g/50ml solution for infusion bottles (Octapharma Ltd)
+35379611000001108	Panzyga 5g/50ml solution for infusion bottles (Octapharma Ltd)
+36937511000001108	Gammaplex 10% 5g/50ml solution for infusion bottles (Bio Products Laboratory Ltd)
+36937611000001107	Gammaplex 10% 5g/50ml solution for infusion bottles (Bio Products Laboratory Ltd)
+15144911000001109	Normal immunoglobulin human 480mg/3ml solution for injection vials
+15144811000001104	Normal immunoglobulin human 480mg/3ml solution for injection vials
+15145111000001105	Vivaglobin 480mg/3ml solution for injection vials (CSL Behring UK Ltd)
+15145211000001104	Vivaglobin 480mg/3ml solution for injection vials (CSL Behring UK Ltd)
+15145011000001109	Normal immunoglobulin human 3.2g/20ml solution for injection vials
+15145511000001101	Normal immunoglobulin human 3.2g/20ml solution for injection vials
+15145711000001106	Vivaglobin 3.2g/20ml solution for injection vials (CSL Behring UK Ltd)
+15145811000001103	Vivaglobin 3.2g/20ml solution for injection vials (CSL Behring UK Ltd)
+15145311000001107	Normal immunoglobulin human 5g/50ml solution for infusion vials
+15146011000001100	Normal immunoglobulin human 5g/50ml solution for infusion vials
+15146111000001104	Privigen 5g/50ml solution for infusion vials (CSL Behring UK Ltd)
+15146211000001105	Privigen 5g/50ml solution for infusion vials (CSL Behring UK Ltd)
+17172211000001109	Kiovig 5g/50ml solution for infusion vials (Takeda UK Ltd)
+17172311000001101	Kiovig 5g/50ml solution for infusion vials (Takeda UK Ltd)
+19177611000001100	Flebogamma DIF 5g/50ml solution for infusion vials (Grifols UK Ltd)
+19177711000001109	Flebogamma DIF 5g/50ml solution for infusion vials (Grifols UK Ltd)
+19804711000001100	Gamunex 10% 5g/50ml solution for infusion vials (Grifols UK Ltd)
+19804811000001108	Gamunex 10% 5g/50ml solution for infusion vials (Grifols UK Ltd)
+21830811000001104	Intratect 5g/50ml solution for infusion vials (Biotest (UK) Ltd)
+21830911000001109	Intratect 5g/50ml solution for infusion vials (Biotest (UK) Ltd)
+28980511000001109	Normal immunoglobulin human 5g/50ml solution for infusion vials (Takeda UK Ltd)
+28980611000001108	Normal immunoglobulin human 5g/50ml solution for infusion vials (Takeda UK Ltd)
+34485011000001107	Iqymune 5g/50ml solution for infusion vials (LFB Biopharmaceuticals Ltd)
+34485111000001108	Iqymune 5g/50ml solution for infusion vials (LFB Biopharmaceuticals Ltd)
+37565111000001107	Gammaplex 5g/50ml solution for infusion vials (Bio Products Laboratory Ltd)
+37565211000001101	Gammaplex 5g/50ml solution for infusion vials (Bio Products Laboratory Ltd)
+15145411000001100	Normal immunoglobulin human 10g/100ml solution for infusion vials
+15146311000001102	Normal immunoglobulin human 10g/100ml solution for infusion vials
+15146411000001109	Privigen 10g/100ml solution for infusion vials (CSL Behring UK Ltd)
+15146511000001108	Privigen 10g/100ml solution for infusion vials (CSL Behring UK Ltd)
+17172411000001108	Kiovig 10g/100ml solution for infusion vials (Takeda UK Ltd)
+17172611000001106	Kiovig 10g/100ml solution for infusion vials (Takeda UK Ltd)
+19177211000001102	Flebogamma DIF 10g/100ml solution for infusion vials (Grifols UK Ltd)
+19177311000001105	Flebogamma DIF 10g/100ml solution for infusion vials (Grifols UK Ltd)
+19804911000001103	Gamunex 10% 10g/100ml solution for infusion vials (Grifols UK Ltd)
+19805011000001103	Gamunex 10% 10g/100ml solution for infusion vials (Grifols UK Ltd)
+21832011000001109	Intratect 10g/100ml solution for infusion vials (Biotest (UK) Ltd)
+21832111000001105	Intratect 10g/100ml solution for infusion vials (Biotest (UK) Ltd)
+28981311000001108	Normal immunoglobulin human 10g/100ml solution for infusion vials (Takeda UK Ltd)
+28981411000001101	Normal immunoglobulin human 10g/100ml solution for infusion vials (Takeda UK Ltd)
+34485711000001109	Iqymune 10g/100ml solution for infusion vials (LFB Biopharmaceuticals Ltd)
+34485811000001101	Iqymune 10g/100ml solution for infusion vials (LFB Biopharmaceuticals Ltd)
+37564711000001109	Gammaplex 10g/100ml solution for infusion vials (Bio Products Laboratory Ltd)
+37564811000001101	Gammaplex 10g/100ml solution for infusion vials (Bio Products Laboratory Ltd)
+15145611000001102	Normal immunoglobulin human 20g/200ml solution for infusion vials
+15146711000001103	Normal immunoglobulin human 20g/200ml solution for infusion vials
+15146811000001106	Privigen 20g/200ml solution for infusion vials (CSL Behring UK Ltd)
+15146911000001101	Privigen 20g/200ml solution for infusion vials (CSL Behring UK Ltd)
+17172711000001102	Kiovig 20g/200ml solution for infusion vials (Takeda UK Ltd)
+17172811000001105	Kiovig 20g/200ml solution for infusion vials (Takeda UK Ltd)
+19177411000001103	Flebogamma DIF 20g/200ml solution for infusion vials (Grifols UK Ltd)
+19177511000001104	Flebogamma DIF 20g/200ml solution for infusion vials (Grifols UK Ltd)
+19805111000001102	Gamunex 10% 20g/200ml solution for infusion vials (Grifols UK Ltd)
+19805211000001108	Gamunex 10% 20g/200ml solution for infusion vials (Grifols UK Ltd)
+21833011000001100	Intratect 20g/200ml solution for infusion vials (Biotest (UK) Ltd)
+21833111000001104	Intratect 20g/200ml solution for infusion vials (Biotest (UK) Ltd)
+28982311000001104	Normal immunoglobulin human 20g/200ml solution for infusion vials (Takeda UK Ltd)
+28982411000001106	Normal immunoglobulin human 20g/200ml solution for infusion vials (Takeda UK Ltd)
+34485911000001106	Iqymune 20g/200ml solution for infusion vials (LFB Biopharmaceuticals Ltd)
+34486011000001103	Iqymune 20g/200ml solution for infusion vials (LFB Biopharmaceuticals Ltd)
+37564911000001106	Gammaplex 20g/200ml solution for infusion vials (Bio Products Laboratory Ltd)
+37565011000001106	Gammaplex 20g/200ml solution for infusion vials (Bio Products Laboratory Ltd)
+15437211000001107	Japanese encephalitis vaccine (inactivated, adsorbed) suspension for injection 0.5ml pre-filled syringes
+15398511000001108	Japanese encephalitis vaccine (inactivated, adsorbed) suspension for injection 0.5ml pre-filled syringes
+15399311000001108	Ixiaro vaccine suspension for injection 0.5ml pre-filled syringes (Valneva UK Ltd)
+15399511000001102	Ixiaro vaccine suspension for injection 0.5ml pre-filled syringes (Valneva UK Ltd)
+15474011000001107	Influenza vaccine (split virion, inactivated) 9microgram strain suspension for injection 0.1ml pre-filled syringes
+15454411000001100	Influenza vaccine (split virion, inactivated) 9microgram strain suspension for injection 0.1ml pre-filled syringes
+15454511000001101	Intanza 9microgram strain vaccine suspension for injection 0.1ml pre-filled syringes (sanofi pasteur MSD Ltd)
+15454611000001102	Intanza 9microgram strain vaccine suspension for injection 0.1ml pre-filled syringes (sanofi pasteur MSD Ltd)
+15507511000001109	Influenza vaccine (split virion, inactivated) 15microgram strain suspension for injection 0.1ml pre-filled syringes
+15506411000001108	Influenza vaccine (split virion, inactivated) 15microgram strain suspension for injection 0.1ml pre-filled syringes
+20450511000001103	Influenza vaccine (split virion, inactivated) 15microgram strain suspension for injection 0.1ml pre-filled syringes
+15506511000001107	Intanza 15microgram strain vaccine suspension for injection 0.1ml pre-filled syringes (sanofi pasteur MSD Ltd)
+15506611000001106	Intanza 15microgram strain vaccine suspension for injection 0.1ml pre-filled syringes (sanofi pasteur MSD Ltd)
+20450611000001104	Intanza 15microgram strain vaccine suspension for injection 0.1ml pre-filled syringes (sanofi pasteur MSD Ltd)
+15568111000001100	Normal immunoglobulin human 2.5g/25ml solution for infusion vials
+15545611000001106	Normal immunoglobulin human 2.5g/25ml solution for infusion vials
+15545711000001102	Privigen 2.5g/25ml solution for infusion vials (CSL Behring UK Ltd)
+15545811000001105	Privigen 2.5g/25ml solution for infusion vials (CSL Behring UK Ltd)
+17172011000001104	Kiovig 2.5g/25ml solution for infusion vials (Takeda UK Ltd)
+17172111000001103	Kiovig 2.5g/25ml solution for infusion vials (Takeda UK Ltd)
+28978511000001103	Normal immunoglobulin human 2.5g/25ml solution for infusion vials (Takeda UK Ltd)
+28978611000001104	Normal immunoglobulin human 2.5g/25ml solution for infusion vials (Takeda UK Ltd)
+15651311000001107	Influenza H1N1 vaccine (whole virion, Vero cell derived, inactivated) suspension for injection
+15650011000001100	Influenza H1N1 vaccine (whole virion, Vero cell derived, inactivated) suspension for injection
+15650611000001107	Celvapan (H1N1) vaccine (whole virion, Vero cell derived, inactivated) suspension for injection (Baxter Healthcare Ltd)
+15650711000001103	Celvapan (H1N1) vaccine (whole virion, Vero cell derived, inactivated) suspension for injection (Baxter Healthcare Ltd)
+15651211000001104	Influenza H1N1 vaccine (split virion, inactivated, adjuvanted) emulsion and suspension for emulsion for injection
+15650911000001101	Influenza H1N1 vaccine (split virion, inactivated, adjuvanted) emulsion and suspension for emulsion for injection
+15651011000001109	Pandemrix vaccine emulsion and suspension for emulsion for injection (GlaxoSmithKline UK Ltd)
+15651111000001105	Pandemrix vaccine emulsion and suspension for emulsion for injection (GlaxoSmithKline UK Ltd)
+16090711000001104	Normal immunoglobulin human 20g/400ml solution for infusion vials
+16077611000001104	Normal immunoglobulin human 20g/400ml solution for infusion vials
+16077711000001108	Flebogamma DIF 20g/400ml solution for infusion vials (Grifols UK Ltd)
+16077811000001100	Flebogamma DIF 20g/400ml solution for infusion vials (Grifols UK Ltd)
+21714211000001102	Gammaplex 20g/400ml solution for infusion vials (Bio Products Laboratory Ltd)
+21714311000001105	Gammaplex 20g/400ml solution for infusion vials (Bio Products Laboratory Ltd)
+22356511000001100	Aragam 20g/400ml solution for infusion vials (Oxbridge Pharma Ltd)
+22356611000001101	Aragam 20g/400ml solution for infusion vials (Oxbridge Pharma Ltd)
+17180811000001100	Normal immunoglobulin human 1g/10ml solution for infusion vials
+17171711000001109	Normal immunoglobulin human 1g/10ml solution for infusion vials
+17171811000001101	Kiovig 1g/10ml solution for infusion vials (Takeda UK Ltd)
+17171911000001106	Kiovig 1g/10ml solution for infusion vials (Takeda UK Ltd)
+19839011000001108	Gamunex 10% 1g/10ml solution for infusion vials (Grifols UK Ltd)
+19839111000001109	Gamunex 10% 1g/10ml solution for infusion vials (Grifols UK Ltd)
+21830411000001101	Intratect 1g/10ml solution for infusion vials (Biotest (UK) Ltd)
+21830511000001102	Intratect 1g/10ml solution for infusion vials (Biotest (UK) Ltd)
+17192211000001101	Meningococcal oligosaccharide A, C, W135 and Y conjugate vaccine powder and solvent for solution for injection 0.5ml vials
+17188611000001101	Meningococcal oligosaccharide A, C, W135 and Y conjugate vaccine powder and solvent for solution for injection 0.5ml vials
+17188711000001105	Menveo vaccine powder and solvent for solution for injection 0.5ml vials (GlaxoSmithKline UK Ltd)
+17188811000001102	Menveo vaccine powder and solvent for solution for injection 0.5ml vials (GlaxoSmithKline UK Ltd)
+17987011000001105	Normal immunoglobulin human 3.3g/20ml solution for injection vials
+17976411000001107	Normal immunoglobulin human 3.3g/20ml solution for injection vials
+32741311000001104	Normal immunoglobulin human 3.3g/20ml solution for injection vials
+17976511000001106	Gammanorm 3.3g/20ml solution for injection vials (Octapharma Ltd)
+17976611000001105	Gammanorm 3.3g/20ml solution for injection vials (Octapharma Ltd)
+32741411000001106	Gammanorm 3.3g/20ml solution for injection vials (Octapharma Ltd)
+17986911000001106	Normal immunoglobulin human 1.65g/10ml solution for injection vials
+17976711000001101	Normal immunoglobulin human 1.65g/10ml solution for injection vials
+32740811000001100	Normal immunoglobulin human 1.65g/10ml solution for injection vials
+17976811000001109	Gammanorm 1.65g/10ml solution for injection vials (Octapharma Ltd)
+17976911000001104	Gammanorm 1.65g/10ml solution for injection vials (Octapharma Ltd)
+32741211000001107	Gammanorm 1.65g/10ml solution for injection vials (Octapharma Ltd)
+17996111000001109	Rotavirus vaccine live oral suspension 1.5ml pre-filled syringes
+17992111000001105	Rotavirus vaccine live oral suspension 1.5ml pre-filled syringes
+17992311000001107	Rotarix vaccine live oral suspension 1.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+17992711000001106	Rotarix vaccine live oral suspension 1.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+19448411000001104	Hepatitis A (inactivated) / Hepatitis B (rDNA) vaccine (adsorbed) suspension for injection 1ml vials
+19379711000001109	Hepatitis A (inactivated) / Hepatitis B (rDNA) vaccine (adsorbed) suspension for injection 1ml vials
+19379811000001101	Twinrix Adult vaccine suspension for Injection 1ml vials (GlaxoSmithKline UK Ltd)
+19379911000001106	Twinrix Adult vaccine suspension for Injection 1ml vials (GlaxoSmithKline UK Ltd)
+19466511000001109	Normal immunoglobulin human 1g/5ml solution for infusion vials
+19466911000001102	Normal immunoglobulin human 1g/5ml solution for infusion vials
+19466811000001107	Hizentra 1g/5ml solution for infusion vials (CSL Behring UK Ltd)
+19467011000001103	Hizentra 1g/5ml solution for infusion vials (CSL Behring UK Ltd)
+34690411000001106	Cuvitru 1g/5ml solution for infusion vials (Takeda UK Ltd)
+34690511000001105	Cuvitru 1g/5ml solution for infusion vials (Takeda UK Ltd)
+19467111000001102	Normal immunoglobulin human 2g/10ml solution for infusion vials
+19467311000001100	Normal immunoglobulin human 2g/10ml solution for infusion vials
+19467211000001108	Hizentra 2g/10ml solution for infusion vials (CSL Behring UK Ltd)
+19467411000001107	Hizentra 2g/10ml solution for infusion vials (CSL Behring UK Ltd)
+34690611000001109	Cuvitru 2g/10ml solution for infusion vials (Takeda UK Ltd)
+34690711000001100	Cuvitru 2g/10ml solution for infusion vials (Takeda UK Ltd)
+19467511000001106	Normal immunoglobulin human 4g/20ml solution for infusion vials
+19467711000001101	Normal immunoglobulin human 4g/20ml solution for infusion vials
+19467611000001105	Hizentra 4g/20ml solution for infusion vials (CSL Behring UK Ltd)
+19467811000001109	Hizentra 4g/20ml solution for infusion vials (CSL Behring UK Ltd)
+34690211000001107	Cuvitru 4g/20ml solution for infusion vials (Takeda UK Ltd)
+34690311000001104	Cuvitru 4g/20ml solution for infusion vials (Takeda UK Ltd)
+19476011000001108	Normal immunoglobulin human 2g/20ml solution for infusion vials
+19470211000001100	Normal immunoglobulin human 2g/20ml solution for infusion vials
+19470311000001108	Octagam 10% 2g/20ml solution for infusion vials (Octapharma Ltd)
+19470411000001101	Octagam 10% 2g/20ml solution for infusion vials (Octapharma Ltd)
+34485211000001102	Iqymune 2g/20ml solution for infusion vials (LFB Biopharmaceuticals Ltd)
+34485311000001105	Iqymune 2g/20ml solution for infusion vials (LFB Biopharmaceuticals Ltd)
+19475911000001100	Normal immunoglobulin human 20g/200ml solution for infusion bottles
+19470511000001102	Normal immunoglobulin human 20g/200ml solution for infusion bottles
+19470611000001103	Octagam 10% 20g/200ml solution for infusion bottles (Octapharma Ltd)
+19470711000001107	Octagam 10% 20g/200ml solution for infusion bottles (Octapharma Ltd)
+35380411000001105	Panzyga 20g/200ml solution for infusion bottles (Octapharma Ltd)
+35380511000001109	Panzyga 20g/200ml solution for infusion bottles (Octapharma Ltd)
+36941211000001101	Gammaplex 10% 20g/200ml solution for infusion bottles (Bio Products Laboratory Ltd)
+36941311000001109	Gammaplex 10% 20g/200ml solution for infusion bottles (Bio Products Laboratory Ltd)
+19475711000001102	Normal immunoglobulin human 10g/200ml solution for infusion bottles
+19470811000001104	Normal immunoglobulin human 10g/200ml solution for infusion bottles
+19470911000001109	Octagam 5% 10g/200ml solution for infusion bottles (Octapharma Ltd)
+19471011000001101	Octagam 5% 10g/200ml solution for infusion bottles (Octapharma Ltd)
+19475811000001105	Normal immunoglobulin human 2.5g/50ml solution for infusion bottles
+19471111000001100	Normal immunoglobulin human 2.5g/50ml solution for infusion bottles
+19471211000001106	Octagam 5% 2.5g/50ml solution for infusion bottles (Octapharma Ltd)
+19471311000001103	Octagam 5% 2.5g/50ml solution for infusion bottles (Octapharma Ltd)
+19476111000001109	Normal immunoglobulin human 5g/100ml solution for infusion bottles
+19471411000001105	Normal immunoglobulin human 5g/100ml solution for infusion bottles
+19471511000001109	Octagam 5% 5g/100ml solution for infusion bottles (Octapharma Ltd)
+19471611000001108	Octagam 5% 5g/100ml solution for infusion bottles (Octapharma Ltd)
+19821411000001103	Influenza vaccine (live attenuated) nasal suspension 0.2ml unit dose
+19840311000001103	Influenza vaccine (live attenuated) nasal suspension 0.2ml unit dose
+19820511000001106	Fluenz vaccine nasal suspension 0.2ml unit dose (AstraZeneca UK Ltd)
+19840411000001105	Fluenz vaccine nasal suspension 0.2ml unit dose (AstraZeneca UK Ltd)
+27114211000001105	Fluenz Tetra vaccine nasal suspension 0.2ml unit dose (AstraZeneca UK Ltd)
+27114311000001102	Fluenz Tetra vaccine nasal suspension 0.2ml unit dose (AstraZeneca UK Ltd)
+30935711000001104	FluMist Quadrivalent vaccine nasal suspension 0.2ml unit dose (AstraZeneca UK Ltd)
+30935811000001107	FluMist Quadrivalent vaccine nasal suspension 0.2ml unit dose (AstraZeneca UK Ltd)
+20113811000001103	Shingles (Herpes Zoster) vaccine (live) powder and solvent for suspension for injection 0.65ml pre-filled syringes
+20110411000001108	Shingles (Herpes Zoster) vaccine (live) powder and solvent for suspension for injection 0.65ml pre-filled syringes
+20110511000001107	Zostavax vaccine powder and solvent for suspension for injection 0.65ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd)
+20110611000001106	Zostavax vaccine powder and solvent for suspension for injection 0.65ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd)
+20556211000001108	Meningococcal polysaccharide A, C, W135 and Y conjugate vaccine powder and solvent for solution for injection 0.5ml pre-filled syringes
+20517711000001107	Meningococcal polysaccharide A, C, W135 and Y conjugate vaccine powder and solvent for solution for injection 0.5ml pre-filled syringes
+20517811000001104	Nimenrix vaccine powder and solvent for solution for injection 0.5ml pre-filled syringes (Pfizer Ltd)
+20517911000001109	Nimenrix vaccine powder and solvent for solution for injection 0.5ml pre-filled syringes (Pfizer Ltd)
+21216411000001100	Normal immunoglobulin human 1g/20ml solution for infusion vials
+21209411000001109	Normal immunoglobulin human 1g/20ml solution for infusion vials
+21209611000001107	Intratect 1g/20ml solution for infusion vials (Biotest (UK) Ltd)
+21209711000001103	Intratect 1g/20ml solution for infusion vials (Biotest (UK) Ltd)
+23611911000001107	Generic Bexsero vaccine suspension for injection 0.5ml pre-filled syringes
+23584111000001103	Generic Bexsero vaccine suspension for injection 0.5ml pre-filled syringes
+39043211000001100	Generic Bexsero vaccine suspension for injection 0.5ml pre-filled syringes
+23584211000001109	Bexsero vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+23584311000001101	Bexsero vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+39043911000001109	Bexsero vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+28049911000001105	Rabies vaccine powder and solvent for suspension for injection 0.5ml vials
+28047911000001103	Rabies vaccine powder and solvent for suspension for injection 0.5ml vials
+28048011000001101	Verorab powder and solvent for suspension for injection 0.5ml vials (Imported (France))
+28048111000001100	Verorab powder and solvent for suspension for injection 0.5ml vials (Imported (France))
+28989911000001108	Normal immunoglobulin human 2.5g/25ml solution for infusion vials and Recombinant human hyaluronidase solution for infusion 1.25ml vials
+28980111000001100	Normal immunoglobulin human 2.5g/25ml solution for infusion vials and Recombinant human hyaluronidase solution for infusion 1.25ml vials
+28980311000001103	HyQvia 2.5g/25ml solution for infusion and 1.25ml vials (Takeda UK Ltd)
+28980411000001105	HyQvia 2.5g/25ml solution for infusion and 1.25ml vials (Takeda UK Ltd)
+28990311000001102	Normal immunoglobulin human 5g/50ml solution for infusion vials and Recombinant human hyaluronidase solution for infusion 2.5ml vials
+28981011000001105	Normal immunoglobulin human 5g/50ml solution for infusion vials and Recombinant human hyaluronidase solution for infusion 2.5ml vials
+28981111000001106	HyQvia 5g/50ml solution for infusion and 2.5ml vials (Takeda UK Ltd)
+28981211000001100	HyQvia 5g/50ml solution for infusion and 2.5ml vials (Takeda UK Ltd)
+28989811000001103	Normal immunoglobulin human 10g/100ml solution for infusion vials and Recombinant human hyaluronidase solution for infusion 5ml vials
+28981911000001109	Normal immunoglobulin human 10g/100ml solution for infusion vials and Recombinant human hyaluronidase solution for infusion 5ml vials
+28982111000001101	HyQvia 10g/100ml solution for infusion and 5ml vials (Takeda UK Ltd)
+28982211000001107	HyQvia 10g/100ml solution for infusion and 5ml vials (Takeda UK Ltd)
+28990011000001100	Normal immunoglobulin human 20g/200ml solution for infusion vials and Recombinant human hyaluronidase solution for infusion 10ml vials
+28982811000001108	Normal immunoglobulin human 20g/200ml solution for infusion vials and Recombinant human hyaluronidase solution for infusion 10ml vials
+28982911000001103	HyQvia 20g/200ml solution for infusion and 10ml vials (Takeda UK Ltd)
+28983011000001106	HyQvia 20g/200ml solution for infusion and 10ml vials (Takeda UK Ltd)
+28990111000001104	Normal immunoglobulin human 30g/300ml solution for infusion vials
+28983111000001107	Normal immunoglobulin human 30g/300ml solution for infusion vials
+28983211000001101	Normal immunoglobulin human 30g/300ml solution for infusion vials (Takeda UK Ltd)
+28983311000001109	Normal immunoglobulin human 30g/300ml solution for infusion vials (Takeda UK Ltd)
+33221311000001102	Kiovig 30g/300ml solution for infusion vials (Takeda UK Ltd)
+33221611000001107	Kiovig 30g/300ml solution for infusion vials (Takeda UK Ltd)
+28990211000001105	Normal immunoglobulin human 30g/300ml solution for infusion vials and Recombinant human hyaluronidase solution for infusion 15ml vials
+28983811000001100	Normal immunoglobulin human 30g/300ml solution for infusion vials and Recombinant human hyaluronidase solution for infusion 15ml vials
+28983911000001105	HyQvia 30g/300ml solution for infusion and 15ml vials (Takeda UK Ltd)
+28984011000001108	HyQvia 30g/300ml solution for infusion and 15ml vials (Takeda UK Ltd)
+31002511000001108	Hepatitis A vaccine (inactivated, adsorbed) suspension for injection 1ml vials
+30997211000001105	Hepatitis A vaccine (inactivated, adsorbed) suspension for injection 1ml vials
+30997311000001102	Havrix Monodose vaccine suspension for injection 1ml vials (GlaxoSmithKline UK Ltd)
+30997411000001109	Havrix Monodose vaccine suspension for injection 1ml vials (GlaxoSmithKline UK Ltd)
+33209211000001101	VAQTA Adult vaccine suspension for injection 1ml vials (Organon Pharma (UK) Ltd)
+33209511000001103	VAQTA Adult vaccine suspension for injection 1ml vials (Organon Pharma (UK) Ltd)
+32466911000001108	Normal immunoglobulin human 2g/12ml solution for injection vials
+32467011000001107	Normal immunoglobulin human 2g/12ml solution for injection vials
+32467111000001108	Gammanorm 2g/12ml solution for injection vials (Octapharma Ltd)
+32467211000001102	Gammanorm 2g/12ml solution for injection vials (Octapharma Ltd)
+39931511000001107	Cutaquig 2g/12ml solution for injection vials (Octapharma Ltd)
+39931611000001106	Cutaquig 2g/12ml solution for injection vials (Octapharma Ltd)
+32467311000001105	Normal immunoglobulin human 4g/24ml solution for injection vials
+32467411000001103	Normal immunoglobulin human 4g/24ml solution for injection vials
+32467511000001104	Gammanorm 4g/24ml solution for injection vials (Octapharma Ltd)
+32467611000001100	Gammanorm 4g/24ml solution for injection vials (Octapharma Ltd)
+39931711000001102	Cutaquig 4g/24ml solution for injection vials (Octapharma Ltd)
+39931811000001105	Cutaquig 4g/24ml solution for injection vials (Octapharma Ltd)
+32467711000001109	Normal immunoglobulin human 8g/48ml solution for injection vials
+32467811000001101	Normal immunoglobulin human 8g/48ml solution for injection vials
+32467911000001106	Gammanorm 8g/48ml solution for injection vials (Octapharma Ltd)
+32468011000001108	Gammanorm 8g/48ml solution for injection vials (Octapharma Ltd)
+39931911000001100	Cutaquig 8g/48ml solution for injection vials (Octapharma Ltd)
+39932011000001107	Cutaquig 8g/48ml solution for injection vials (Octapharma Ltd)
+32523511000001106	Normal immunoglobulin human 1g/6ml solution for injection vials
+32502911000001104	Normal immunoglobulin human 1g/6ml solution for injection vials
+32503011000001107	Gammanorm 1g/6ml solution for injection vials (Octapharma Ltd)
+32503111000001108	Gammanorm 1g/6ml solution for injection vials (Octapharma Ltd)
+39931311000001101	Cutaquig 1g/6ml solution for injection vials (Octapharma Ltd)
+39931411000001108	Cutaquig 1g/6ml solution for injection vials (Octapharma Ltd)
+33494711000001106	Human papillomavirus (type 6, 11, 16, 18, 31, 33, 45, 52, 58) vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+33493011000001107	Human papillomavirus (type 6, 11, 16, 18, 31, 33, 45, 52, 58) vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+33493111000001108	Gardasil 9 vaccine suspension for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd)
+33493211000001102	Gardasil 9 vaccine suspension for injection 0.5ml pre-filled syringes (Merck Sharp & Dohme (UK) Ltd)
+33523611000001101	Bacillus Calmette-Guerin vaccine powder and solvent for suspension for injection ampoules
+33513611000001109	Bacillus Calmette-Guerin vaccine powder and solvent for suspension for injection ampoules
+33513711000001100	InterVax BCG vaccine powder and solvent for suspension for injection ampoules (InterVax Ltd)
+33513811000001108	InterVax BCG vaccine powder and solvent for suspension for injection ampoules (InterVax Ltd)
+34236111000001109	Rabies vaccine powder and solvent for solution for injection 1ml pre-filled syringes
+34197511000001108	Rabies vaccine powder and solvent for solution for injection 1ml pre-filled syringes
+34197611000001107	Rabipur vaccine powder and solvent for solution for injection 1ml pre-filled syringes (Valneva UK Ltd)
+34197711000001103	Rabipur vaccine powder and solvent for solution for injection 1ml pre-filled syringes (Valneva UK Ltd)
+34617511000001108	Rotavirus vaccine live oral suspension 1.5ml tube
+34609811000001101	Rotavirus vaccine live oral suspension 1.5ml tube
+34609911000001106	Rotarix vaccine live oral suspension 1.5ml tube (GlaxoSmithKline UK Ltd)
+34610011000001101	Rotarix vaccine live oral suspension 1.5ml tube (GlaxoSmithKline UK Ltd)
+34617111000001104	Generic Trumenba vaccine suspension for injection 0.5ml pre-filled syringes
+34610711000001104	Generic Trumenba vaccine suspension for injection 0.5ml pre-filled syringes
+34610811000001107	Trumenba vaccine suspension for injection 0.5ml pre-filled syringes (Pfizer Ltd)
+34610911000001102	Trumenba vaccine suspension for injection 0.5ml pre-filled syringes (Pfizer Ltd)
+34697911000001102	Normal immunoglobulin human 8g/40ml solution for infusion vials
+34690811000001108	Normal immunoglobulin human 8g/40ml solution for infusion vials
+34690911000001103	Cuvitru 8g/40ml solution for infusion vials (Takeda UK Ltd)
+34691011000001106	Cuvitru 8g/40ml solution for infusion vials (Takeda UK Ltd)
+34769511000001105	Diphtheria / Tetanus / Pertussis (acellular component) / Hepatitis B (surface antigen) / Poliomyelitis (inactivated) / Haemophilus type b conjugate vaccine (adsorbed) powder and suspension for suspension for injection 0.5ml pre-filled syringes
+34765711000001102	Diphtheria / Tetanus / Pertussis (acellular component) / Hepatitis B (surface antigen) / Poliomyelitis (inactivated) / Haemophilus type b conjugate vaccine (adsorbed) powder and suspension for suspension for injection 0.5ml pre-filled syringes
+34765811000001105	Infanrix Hexa vaccine powder and suspension for suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+34765911000001100	Infanrix Hexa vaccine powder and suspension for suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+34938511000001103	Measles, Mumps and Rubella vaccine (live) powder and solvent for solution for injection 0.5ml pre-filled syringes
+34924711000001102	Measles, Mumps and Rubella vaccine (live) powder and solvent for solution for injection 0.5ml pre-filled syringes
+34925111000001104	Priorix vaccine powder and solvent for solution for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+34925411000001109	Priorix vaccine powder and solvent for solution for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd)
+35356311000001108	Normal immunoglobulin human 1g/5ml solution for injection pre-filled syringes
+35323811000001109	Normal immunoglobulin human 1g/5ml solution for injection pre-filled syringes
+35323911000001104	Hizentra 1g/5ml solution for injection pre-filled syringes (CSL Behring UK Ltd)
+35324011000001101	Hizentra 1g/5ml solution for injection pre-filled syringes (CSL Behring UK Ltd)
+35356411000001101	Normal immunoglobulin human 2g/10ml solution for injection pre-filled syringes
+35324111000001100	Normal immunoglobulin human 2g/10ml solution for injection pre-filled syringes
+35324211000001106	Hizentra 2g/10ml solution for injection pre-filled syringes (CSL Behring UK Ltd)
+35324311000001103	Hizentra 2g/10ml solution for injection pre-filled syringes (CSL Behring UK Ltd)
+35431711000001107	Normal immunoglobulin human 2.5g/25ml solution for infusion bottles
+35379211000001106	Normal immunoglobulin human 2.5g/25ml solution for infusion bottles
+35379311000001103	Panzyga 2.5g/25ml solution for infusion bottles (Octapharma Ltd)
+35379411000001105	Panzyga 2.5g/25ml solution for infusion bottles (Octapharma Ltd)
+36108211000001104	Normal immunoglobulin human 1g/6.25ml solution for injection vials
+35940211000001109	Normal immunoglobulin human 1g/6.25ml solution for injection vials
+35940311000001101	Subgam 1g/6.25ml solution for injection vials (Bio Products Laboratory Ltd)
+35940411000001108	Subgam 1g/6.25ml solution for injection vials (Bio Products Laboratory Ltd)
+36108311000001107	Normal immunoglobulin human 2g/12.5ml solution for injection vials
+35940511000001107	Normal immunoglobulin human 2g/12.5ml solution for injection vials
+35940611000001106	Subgam 2g/12.5ml solution for injection vials (Bio Products Laboratory Ltd)
+35940711000001102	Subgam 2g/12.5ml solution for injection vials (Bio Products Laboratory Ltd)
+36108411000001100	Normal immunoglobulin human 4g/25ml solution for injection vials
+35940811000001105	Normal immunoglobulin human 4g/25ml solution for injection vials
+35940911000001100	Subgam 4g/25ml solution for injection vials (Bio Products Laboratory Ltd)
+35941011000001108	Subgam 4g/25ml solution for injection vials (Bio Products Laboratory Ltd)
+36755311000001100	Influenza vaccine (split virion, inactivated) High Dose suspension for injection 0.5ml pre-filled syringes
+36754011000001102	Influenza vaccine (split virion, inactivated) High Dose suspension for injection 0.5ml pre-filled syringes
+36754111000001101	Trivalent influenza vaccine (split virion, inactivated) High Dose suspension for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
+36754211000001107	Trivalent influenza vaccine (split virion, inactivated) High Dose suspension for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
+36831111000001101	Anthrax vaccine suspension for injection 5ml multidose vials
+36831211000001107	Anthrax vaccine suspension for injection 5ml multidose vials
+36831311000001104	Anthrax vaccine suspension for injection 5ml multidose vials
+36831411000001106	BioThrax suspension for injection 5ml multidose vials (Secretary of State for Health)
+36831511000001105	BioThrax suspension for injection 5ml multidose vials (Secretary of State for Health)
+36831611000001109	BioThrax suspension for injection 5ml multidose vials (Secretary of State for Health)
+37247711000001104	Bacillus Calmette-Guerin vaccine powder for suspension for injection 1ml vials
+37240011000001102	Bacillus Calmette-Guerin vaccine powder for suspension for injection 1ml vials
+37240111000001101	BCG Vaccine AJV powder for suspension for injection 1ml vials (AJ Vaccines)
+37240211000001107	BCG Vaccine AJV powder for suspension for injection 1ml vials (AJ Vaccines)
+37240411000001106	Diluted Sauton AJV solvent for suspension for injection 1ml vials (AJ Vaccines)
+37240511000001105	Diluted Sauton AJV solvent for suspension for injection 1ml vials (AJ Vaccines)
+37531311000001101	Adjuvanted trivalent influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes
+37513211000001101	Adjuvanted trivalent influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes
+37513511000001103	Adjuvanted trivalent influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes
+37514711000001105	Fluad vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus UK Ltd)
+37514911000001107	Fluad vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus UK Ltd)
+37514811000001102	Fluad vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus UK Ltd)
+37547211000001103	Adjuvanted trivalent influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes (Seqirus UK Ltd)
+37547411000001104	Adjuvanted trivalent influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes (Seqirus UK Ltd)
+37547311000001106	Adjuvanted trivalent influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes (Seqirus UK Ltd)
+38737511000001105	Shingles (Herpes Zoster) adjuvanted recombinant vaccine powder and solvent for suspension for injection 0.5ml vials
+38736711000001103	Shingles (Herpes Zoster) adjuvanted recombinant vaccine powder and solvent for suspension for injection 0.5ml vials
+38736811000001106	Shingrix (Herpes Zoster) adjuvanted recombinant vaccine powder and solvent for suspension for injection 0.5ml vials (Imported (United States))
+38736911000001101	Shingrix (Herpes Zoster) adjuvanted recombinant vaccine powder and solvent for suspension for injection 0.5ml vials (Imported (United States))
+38973511000001106	Adjuvanted quadrivalent influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes
+38969911000001109	Adjuvanted quadrivalent influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes
+38970011000001108	Adjuvanted quadrivalent influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes
+38973211000001108	Fluad Tetra vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus UK Ltd)
+38973411000001107	Fluad Tetra vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus UK Ltd)
+38972311000001105	Fluad Tetra vaccine suspension for injection 0.5ml pre-filled syringes (Seqirus UK Ltd)
+40085311000001103	Adjuvanted quadrivalent influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes (Seqirus UK Ltd)
+40085411000001105	Adjuvanted quadrivalent influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes (Seqirus UK Ltd)
+40085611000001108	Adjuvanted quadrivalent influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes (Seqirus UK Ltd)
+39116211000001106	Generic COVID-19 Vaccine Vaxzevria (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose suspension for injection multidose vials
+39114711000001108	Generic COVID-19 Vaccine Vaxzevria (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose suspension for injection multidose vials
+39114811000001100	Generic COVID-19 Vaccine Vaxzevria (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose suspension for injection multidose vials
+39301011000001100	Generic COVID-19 Vaccine Vaxzevria (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose suspension for injection multidose vials
+39301111000001104	Generic COVID-19 Vaccine Vaxzevria (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose suspension for injection multidose vials
+39114911000001105	COVID-19 Vaccine Vaxzevria (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose suspension for injection multidose vials (AstraZeneca UK Ltd)
+39115011000001105	COVID-19 Vaccine Vaxzevria (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose suspension for injection multidose vials (AstraZeneca UK Ltd)
+39115111000001106	COVID-19 Vaccine Vaxzevria (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose suspension for injection multidose vials (AstraZeneca UK Ltd)
+39301211000001105	COVID-19 Vaccine Vaxzevria (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose suspension for injection multidose vials (AstraZeneca UK Ltd)
+39301311000001102	COVID-19 Vaccine Vaxzevria (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose suspension for injection multidose vials (AstraZeneca UK Ltd)
+39116111000001100	Generic Comirnaty COVID-19 mRNA Vaccine 30micrograms/0.3ml dose concentrate for dispersion for injection multidose vials
+39115311000001108	Generic Comirnaty COVID-19 mRNA Vaccine 30micrograms/0.3ml dose concentrate for dispersion for injection multidose vials
+39214411000001100	Generic Comirnaty COVID-19 mRNA Vaccine 30micrograms/0.3ml dose concentrate for dispersion for injection multidose vials
+39115611000001103	Comirnaty COVID-19 mRNA Vaccine 30micrograms/0.3ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd)
+39115711000001107	Comirnaty COVID-19 mRNA Vaccine 30micrograms/0.3ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd)
+39214511000001101	Comirnaty COVID-19 mRNA Vaccine 30micrograms/0.3ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd)
+39126711000001108	Quadrivalent influenza vaccine (recombinant, inactivated) solution for injection 0.5ml pre-filled syringes
+39121011000001104	Quadrivalent influenza vaccine (recombinant, inactivated) solution for injection 0.5ml pre-filled syringes
+39121111000001103	Quadrivalent influenza vaccine (recombinant, inactivated) solution for injection 0.5ml pre-filled syringes
+39121211000001109	Flublok Quadrivalent vaccine (recombinant) solution for injection 0.5ml pre-filled syringes (Imported (United States))
+39121311000001101	Flublok Quadrivalent vaccine (recombinant) solution for injection 0.5ml pre-filled syringes (Imported (United States))
+39121411000001108	Flublok Quadrivalent vaccine (recombinant) solution for injection 0.5ml pre-filled syringes (Imported (United States))
+39566211000001103	Supemtek Quadrivalent vaccine (recombinant) solution for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
+39586111000001106	Supemtek Quadrivalent vaccine (recombinant) solution for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
+39566311000001106	Supemtek Quadrivalent vaccine (recombinant) solution for injection 0.5ml pre-filled syringes (Sanofi Pasteur)
+39233911000001100	Generic COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose suspension for injection multidose vials
+39230011000001109	Generic COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose suspension for injection multidose vials
+39230111000001105	Generic COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose suspension for injection multidose vials
+39230211000001104	COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose suspension for injection multidose vials (Janssen-Cilag Ltd)
+39230311000001107	COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose suspension for injection multidose vials (Janssen-Cilag Ltd)
+39230411000001100	COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose suspension for injection multidose vials (Janssen-Cilag Ltd)
+39326811000001106	Generic Spikevax COVID-19 mRNA (nucleoside modified) Vaccine 0.1mg/0.5ml dose dispersion for injection multidose vials
+39326611000001107	Generic Spikevax COVID-19 mRNA (nucleoside modified) Vaccine 0.1mg/0.5ml dose dispersion for injection multidose vials
+39375311000001106	Generic Spikevax COVID-19 mRNA (nucleoside modified) Vaccine 0.1mg/0.5ml dose dispersion for injection multidose vials
+39326911000001101	Spikevax COVID-19 mRNA (nucleoside modified) Vaccine 0.1mg/0.5ml dose dispersion for injection multidose vials (Moderna, Inc)
+39327011000001102	Spikevax COVID-19 mRNA (nucleoside modified) Vaccine 0.1mg/0.5ml dose dispersion for injection multidose vials (Moderna, Inc)
+39375411000001104	Spikevax COVID-19 mRNA (nucleoside modified) Vaccine 0.1mg/0.5ml dose dispersion for injection multidose vials (Moderna, Inc)
+39494911000001105	Diphtheria / Tetanus / Pertussis (acellular component) / Hepatitis B (surface antigen) / Poliomyelitis (inactivated) / Haemophilus type b conjugate vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+39367011000001109	Diphtheria / Tetanus / Pertussis (acellular component) / Hepatitis B (surface antigen) / Poliomyelitis (inactivated) / Haemophilus type b conjugate vaccine (adsorbed) suspension for injection 0.5ml pre-filled syringes
+39367111000001105	Vaxelis vaccine suspension for injection 0.5ml pre-filled syringes (Sanofi)
+39367211000001104	Vaxelis vaccine suspension for injection 0.5ml pre-filled syringes (Sanofi)
+39375211000001103	Generic COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5ml dose suspension for injection multidose vials
+39373011000001107	Generic COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5ml dose suspension for injection multidose vials
+39373111000001108	Generic COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5ml dose suspension for injection multidose vials
+39373511000001104	COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5ml dose suspension for injection multidose vials (Valneva UK Ltd)
+39374411000001100	COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5ml dose suspension for injection multidose vials (Valneva UK Ltd)
+39374711000001106	COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5ml dose suspension for injection multidose vials (Valneva UK Ltd)
+39478211000001100	Generic COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials
+39472811000001101	Generic COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials
+39472911000001106	Generic COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials
+40483211000001103	Generic COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials
+39473011000001103	COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Baxter Oncology GmbH)
+39473111000001102	COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Baxter Oncology GmbH)
+39473211000001108	COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Baxter Oncology GmbH)
+40483111000001109	COVID-19 Vaccine Covovax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Serum Institute of India)
+40483311000001106	COVID-19 Vaccine Covovax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Serum Institute of India)
+39756611000001109	Shingles (Herpes Zoster) adjuvanted recombinant vaccine powder and suspension for suspension for injection 0.5ml vials
+39655411000001106	Shingles (Herpes Zoster) adjuvanted recombinant vaccine powder and suspension for suspension for injection 0.5ml vials
+39655511000001105	Shingrix (Herpes Zoster) adjuvanted recombinant vaccine powder and suspension for suspension for injection 0.5ml vials (GlaxoSmithKline UK Ltd)
+39655611000001109	Shingrix (Herpes Zoster) adjuvanted recombinant vaccine powder and suspension for suspension for injection 0.5ml vials (GlaxoSmithKline UK Ltd)
+40039411000001101	Meningococcal polysaccharide A, C, W135 and Y conjugate vaccine solution for injection 0.5ml vials
+39779511000001103	Meningococcal polysaccharide A, C, W135 and Y conjugate vaccine solution for injection 0.5ml vials
+39779611000001104	MenQuadfi vaccine solution for injection 0.5ml vials (Sanofi Pasteur)
+39779711000001108	MenQuadfi vaccine solution for injection 0.5ml vials (Sanofi Pasteur)
+39828011000001104	Generic COVID-19 Vaccine Medicago (CoVLP) 3.75micrograms/0.5ml dose emulsion for injection multidose vials
+39826211000001108	Generic COVID-19 Vaccine Medicago (CoVLP) 3.75micrograms/0.5ml dose emulsion for injection multidose vials
+39826411000001107	Generic COVID-19 Vaccine Medicago (CoVLP) 3.75micrograms/0.5ml dose emulsion for injection multidose vials
+39826711000001101	COVID-19 Vaccine Medicago (CoVLP) 3.75micrograms/0.5ml dose emulsion for injection multidose vials (Medicago Inc)
+39826911000001104	COVID-19 Vaccine Medicago (CoVLP) 3.75micrograms/0.5ml dose emulsion for injection multidose vials (Medicago Inc)
+39827011000001100	COVID-19 Vaccine Medicago (CoVLP) 3.75micrograms/0.5ml dose emulsion for injection multidose vials (Medicago Inc)
+40329811000001103	Generic CoronaVac COVID-19 Vaccine (adjuvanted) 600U/0.5ml dose suspension for injection vials
+40306211000001100	Generic CoronaVac COVID-19 Vaccine (adjuvanted) 600U/0.5ml dose suspension for injection vials
+40306411000001101	CoronaVac COVID-19 Vaccine (adjuvanted) 600U/0.5ml dose suspension for injection vials (Sinovac Life Sciences)
+40306511000001102	CoronaVac COVID-19 Vaccine (adjuvanted) 600U/0.5ml dose suspension for injection vials (Sinovac Life Sciences)
+40335611000001102	Generic COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection vials
+40331511000001104	Generic COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection vials
+40331611000001100	COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection vials (Beijing Institute of Biological Products)
+40331711000001109	COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection vials (Beijing Institute of Biological Products)
+40335511000001101	Generic COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection pre-filled syringes
+40331811000001101	Generic COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection pre-filled syringes
+40331911000001106	COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection pre-filled syringes (Beijing Institute of Biological Products)
+40332011000001104	COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection pre-filled syringes (Beijing Institute of Biological Products)
+40335311000001107	Generic COVID-19 Vaccine Covaxin (NIV-2020-770 inactivated) 6micrograms/0.5ml dose suspension for injection multidose vials
+40332111000001103	Generic COVID-19 Vaccine Covaxin (NIV-2020-770 inactivated) 6micrograms/0.5ml dose suspension for injection multidose vials
+40332211000001109	Generic COVID-19 Vaccine Covaxin (NIV-2020-770 inactivated) 6micrograms/0.5ml dose suspension for injection multidose vials
+40332311000001101	COVID-19 Vaccine Covaxin (NIV-2020-770 inactivated) 6micrograms/0.5ml dose suspension for injection multidose vials (Bharat Biotech International Ltd)
+40332411000001108	COVID-19 Vaccine Covaxin (NIV-2020-770 inactivated) 6micrograms/0.5ml dose suspension for injection multidose vials (Bharat Biotech International Ltd)
+40332511000001107	COVID-19 Vaccine Covaxin (NIV-2020-770 inactivated) 6micrograms/0.5ml dose suspension for injection multidose vials (Bharat Biotech International Ltd)
+40335411000001100	Generic COVID-19 Vaccine Covaxin (NIV-2020-770 inactivated) 6micrograms/0.5ml dose suspension for injection vials
+40332611000001106	Generic COVID-19 Vaccine Covaxin (NIV-2020-770 inactivated) 6micrograms/0.5ml dose suspension for injection vials
+40332711000001102	COVID-19 Vaccine Covaxin (NIV-2020-770 inactivated) 6micrograms/0.5ml dose suspension for injection vials (Bharat Biotech International Ltd)
+40332811000001105	COVID-19 Vaccine Covaxin (NIV-2020-770 inactivated) 6micrograms/0.5ml dose suspension for injection vials (Bharat Biotech International Ltd)
+40366311000001107	Generic COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials
+40347611000001105	Generic COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials
+40347711000001101	Generic COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials
+40347811000001109	Generic COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials
+40347911000001104	Generic COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials
+40348011000001102	COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Serum Institute of India)
+40348211000001107	COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Serum Institute of India)
+40348311000001104	COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Serum Institute of India)
+40348511000001105	COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Serum Institute of India)
+40348611000001109	COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Serum Institute of India)
+40366411000001100	Generic COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection vials
+40362311000001108	Generic COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection vials
+40362511000001102	COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection vials (Serum Institute of India)
+40362611000001103	COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection vials (Serum Institute of India)
+40389011000001100	Generic Comirnaty Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.2ml dose concentrate for dispersion for injection multidose vials
+40384411000001105	Generic Comirnaty Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.2ml dose concentrate for dispersion for injection multidose vials
+40384511000001109	Generic Comirnaty Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.2ml dose concentrate for dispersion for injection multidose vials
+40384611000001108	Comirnaty Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.2ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd)
+40384711000001104	Comirnaty Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.2ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd)
+40384811000001107	Comirnaty Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.2ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd)
+40388711000001107	Generic COVID-19 Vaccine Sputnik V Component I (recombinant serotype 26 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection vials
+40385311000001104	Generic COVID-19 Vaccine Sputnik V Component I (recombinant serotype 26 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection vials
+40385711000001100	COVID-19 Vaccine Sputnik V Component I (recombinant serotype 26 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection vials (Gamaleya NRCEM)
+40385911000001103	COVID-19 Vaccine Sputnik V Component I (recombinant serotype 26 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection vials (Gamaleya NRCEM)
+40388911000001109	Generic COVID-19 Vaccine Sputnik V Component II (recombinant serotype 5 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection vials
+40387011000001109	Generic COVID-19 Vaccine Sputnik V Component II (recombinant serotype 5 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection vials
+40387111000001105	COVID-19 Vaccine Sputnik V Component II (recombinant serotype 5 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection vials (Gamaleya NRCEM)
+40387211000001104	COVID-19 Vaccine Sputnik V Component II (recombinant serotype 5 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection vials (Gamaleya NRCEM)
+40388611000001103	Generic COVID-19 Vaccine Sputnik V Component I (recombinant serotype 26 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection multidose vials
+40387311000001107	Generic COVID-19 Vaccine Sputnik V Component I (recombinant serotype 26 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection multidose vials
+40387411000001100	COVID-19 Vaccine Sputnik V Component I (recombinant serotype 26 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Gamaleya NRCEM)
+40387511000001101	COVID-19 Vaccine Sputnik V Component I (recombinant serotype 26 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Gamaleya NRCEM)
+40388811000001104	Generic COVID-19 Vaccine Sputnik V Component II (recombinant serotype 5 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection multidose vials
+40387611000001102	Generic COVID-19 Vaccine Sputnik V Component II (recombinant serotype 5 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection multidose vials
+40387711000001106	COVID-19 Vaccine Sputnik V Component II (recombinant serotype 5 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Gamaleya NRCEM)
+40387811000001103	COVID-19 Vaccine Sputnik V Component II (recombinant serotype 5 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Gamaleya NRCEM)
+40402411000001109	COVID-19 Vaccine AZD2816 AstraZeneca (ChAdOx1 nCOV-19) 3.5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (AstraZeneca AB)
+40402911000001101	COVID-19 Vaccine AZD2816 AstraZeneca (ChAdOx1 nCOV-19) 3.5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (AstraZeneca AB)
