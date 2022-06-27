@@ -210,12 +210,7 @@ WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
 
 -- load codesets needed for retrieving medication prescriptions
 
------ UNUSED CURRENTLY
--- CODESET aminoglycosides:1 ace-inhibitor:1 bisphosphonates:1 calcineurin-inhibitors:1 diuretic:1 lithium:1 mesalazine:1 nsaids:1
--- CODESET sglt2-inhibitors:1 metformin:1 sulphonylureas:1 glp1-receptor-agonists:1 statins:1 antipsychotics:1 oestrogens-and-hrt:1 hormone-replacement-therapy:1
--- CODESET contraceptives-combined-hormonal:1 contraceptives-devices:1 contraceptives-emergency-pills:1 contraceptives-progesterone-only:1
-
---> CODESET statins:1 ace-inhibitor:1 aspirin:1 clopidogrel:1 sglt2-inhibitors:1 oestrogens-and-hrt:1 nsaids:1
+--> CODESET statins:1 ace-inhibitor:1 aspirin:1 clopidogrel:1 sglt2-inhibitors:1 nsaids:1 hormone-replacement-therapy:1
 
 
 -- FIX ISSUE WITH DUPLICATE MEDICATIONS, CAUSED BY SOME CODES APPEARING MULTIPLE TIMES IN #VersionedCodeSets and #VersionedSnomedSets
@@ -232,8 +227,7 @@ IF OBJECT_ID('tempdb..#medications_rx') IS NOT NULL DROP TABLE #medications_rx;
 SELECT 
 	 m.FK_Patient_Link_ID,
 		CAST(MedicationDate AS DATE) as PrescriptionDate,
-		Concept = --'oestrgogens-and-hrt'
-		CASE WHEN s.Concept IS NOT NULL THEN s.Concept ELSE c.Concept END
+		Concept = CASE WHEN s.Concept IS NOT NULL THEN s.Concept ELSE c.Concept END
 INTO #medications_rx
 FROM RLS.vw_GP_Medications m
 LEFT OUTER JOIN #VersionedSnomedSets_1 s ON s.FK_Reference_SnomedCT_ID = m.FK_Reference_SnomedCT_ID
@@ -262,17 +256,6 @@ select
 	[sglt2-inhibitor] = ISNULL(SUM(CASE WHEN Concept = 'sglt2-inhibitors' then 1 else 0 end),0),
     nsaid = ISNULL(SUM(CASE WHEN Concept = 'nsaids' then 1 else 0 end),0), 
 	[hormone-replacement-therapy] = ISNULL(SUM(CASE WHEN Concept = 'hormone-replacement-therapy' then 1 else 0 end),0)
-	-- aminoglycoside = ISNULL(SUM(CASE WHEN Concept = 'aminoglycosides' then 1 else 0 end),0),
-	-- bisphosphonate = ISNULL(SUM(CASE WHEN Concept = 'bisphosphonates' then 1 else 0 end),0),
-	-- [calcineurin-inhibitor] = ISNULL(SUM(CASE WHEN Concept = 'calcineurin-inhibitor' then 1 else 0 end),0),
-	-- diuretic = ISNULL(SUM(CASE WHEN Concept = 'diuretic' then 1 else 0 end),0),
-	-- lithium = ISNULL(SUM(CASE WHEN Concept = 'lithium' then 1 else 0 end),0),
-	-- mesalazine = ISNULL(SUM(CASE WHEN Concept = 'mesalazine' then 1 else 0 end),0),
-	-- metformin = ISNULL(SUM(CASE WHEN Concept = 'metformin' then 1 else 0 end),0),
-	-- sulphonylurea = ISNULL(SUM(CASE WHEN Concept = 'sulphonylureas' then 1 else 0 end),0),
-	-- [glp1-receptor-agonist] = ISNULL(SUM(CASE WHEN Concept = 'glp1-receptor-agonists' then 1 else 0 end),0),
-	-- antipsychotic = ISNULL(SUM(CASE WHEN Concept = 'antipsychotics' then 1 else 0 end),0),
-	-- contraceptive = ISNULL(SUM(CASE WHEN Concept in ('contraceptives-combined-hormonal','contraceptives-devices','contraceptives-emergency-pills','contraceptives-progesterone-only') then 1 else 0 end),0)
 from #medications_rx
 group by FK_Patient_Link_ID, YEAR(PrescriptionDate), Month(PrescriptionDate)
 order by FK_Patient_Link_ID, YEAR(PrescriptionDate), Month(PrescriptionDate)
