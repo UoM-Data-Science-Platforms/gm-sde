@@ -195,15 +195,10 @@ WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
 
 -- LOAD CODESETS FOR OBSERVATIONS WITH A VALUE (EXCEPT THOSE ALREADY LOADED AT START OF SCRIPT)
 
---> CODESET hba1c:2 creatinine:1 triglycerides:1 urea:1 vitamin-d:1 calcium:1  bicarbonate:1 ferritin:1 b12:1 folate:1 haemoglobin:1 
+--> CODESET hba1c:2 creatinine:1 triglycerides:1 urea:1 vitamin-d:1 calcium:1 bicarbonate:1 ferritin:1 b12:1 folate:1 haemoglobin:1 
 --> CODESET systolic-blood-pressure:1 diastolic-blood-pressure:1 urine-protein-creatinine-ratio:1
 --> CODESET alanine-aminotransferase:1 albumin:1 alkaline-phosphatase:1 total-bilirubin:1 gamma-glutamyl-transferase:1
 --> CODESET cholesterol:2 ldl-cholesterol:1 hdl-cholesterol:1 urine-blood:1  
-
-
--- NOT NEEDED ANYMORE: sodium:1 potassium:1 cholesterol-hdl-ratio:1 urine-protein:1 urine-ketones:1 urine-glucose:1
--- qrisk-score:1 white-blood-cells:1 red-blood-cells:1 platelets:1 mean-corpuscular-volume:1
--- luteinising-hormone:1 fsh:1 sex-hormone-binding-globulin:1 oestradiol:1 progesterone:1 testosterone:1 parathyroid-hormone:1
 
 -- GET VALUES FOR ALL OBSERVATIONS OF INTEREST
 
