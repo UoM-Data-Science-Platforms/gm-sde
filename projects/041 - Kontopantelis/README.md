@@ -35,8 +35,8 @@ This project required the following reusable queries:
 
 - Alcohol Intake
 - Smoking status
+- BMI
 - Lower level super output area
-- Year of birth
 - Index Multiple Deprivation
 - Sex
 - GET practice and ccg for each patient
@@ -47,6 +47,7 @@ This project required the following reusable queries:
 - Patients with COVID
 - Secondary admissions and length of stay
 - Secondary discharges
+- Year of birth
 
 Further details for each query can be found below.
 
@@ -110,6 +111,36 @@ _File_: `query-patient-smoking-status.sql`
 _Link_: [https://github.com/rw251/.../query-patient-smoking-status.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-smoking-status.sql)
 
 ---
+### BMI
+To get the BMI for each patient in a cohort.
+
+_Assumptions_
+
+- We take the measurement closest to @IndexDate to be correct
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+ Also takes one parameter:
+	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID, and FK_Reference_SnomedCT_ID
+ Also assumes there is an @IndexDate defined - The index date of the study
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientBMI (FK_Patient_Link_ID, BMI, DateOfBMIMeasurement)
+	- FK_Patient_Link_ID - unique patient id
+  - BMI
+  - DateOfBMIMeasurement
+```
+_File_: `query-patient-bmi.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-bmi.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-bmi.sql)
+
+---
 ### Lower level super output area
 To get the LSOA for each patient.
 
@@ -138,36 +169,6 @@ A temp table as follows:
 _File_: `query-patient-lsoa.sql`
 
 _Link_: [https://github.com/rw251/.../query-patient-lsoa.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-lsoa.sql)
-
----
-### Year of birth
-To get the year of birth for each patient.
-
-_Assumptions_
-
-- Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:
-- If the patients has a YOB in their primary care data feed we use that as most likely to be up to date
-- If every YOB for a patient is the same, then we use that
-- If there is a single most recently updated YOB in the database then we use that
-- Otherwise we take the highest YOB for the patient that is not in the future
-
-_Input_
-```
-Assumes there exists a temp table as follows:
- #Patients (FK_Patient_Link_ID)
-  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
-```
-
-_Output_
-```
-A temp table as follows:
- #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
- 	- FK_Patient_Link_ID - unique patient id
-	- YearOfBirth - INT
-```
-_File_: `query-patient-year-of-birth.sql`
-
-_Link_: [https://github.com/rw251/.../query-patient-year-of-birth.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-year-of-birth.sql)
 
 ---
 ### Index Multiple Deprivation
@@ -445,6 +446,36 @@ A temp table as follows:
 _File_: `query-get-discharges.sql`
 
 _Link_: [https://github.com/rw251/.../query-get-discharges.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-discharges.sql)
+
+---
+### Year of birth
+To get the year of birth for each patient.
+
+_Assumptions_
+
+- Patient data is obtained from multiple sources. Where patients have multiple YOBs we determine the YOB as follows:
+- If the patients has a YOB in their primary care data feed we use that as most likely to be up to date
+- If every YOB for a patient is the same, then we use that
+- If there is a single most recently updated YOB in the database then we use that
+- Otherwise we take the highest YOB for the patient that is not in the future
+
+_Input_
+```
+Assumes there exists a temp table as follows:
+ #Patients (FK_Patient_Link_ID)
+  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+```
+
+_Output_
+```
+A temp table as follows:
+ #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
+ 	- FK_Patient_Link_ID - unique patient id
+	- YearOfBirth - INT
+```
+_File_: `query-patient-year-of-birth.sql`
+
+_Link_: [https://github.com/rw251/.../query-patient-year-of-birth.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-year-of-birth.sql)
 ## Clinical code sets
 
 This project required the following clinical code sets:
@@ -453,21 +484,28 @@ This project required the following clinical code sets:
 - diabetes v1
 - egfr v1
 - urinary-albumin-creatinine-ratio v1
+- glomerulonephritis v1
+- kidney-transplant v1
+- kidney-stones v1
+- vasculitis v1
 - covid-positive-antigen-test v1
 - covid-positive-pcr-test v1
 - covid-positive-test-other v1
-- sle v1
-- vasculitis v1
-- gout v1
-- haematuria v1
-- non-alc-fatty-liver-disease v1
 - renal-replacement-therapy v1
-- kidney-transplant v1
 - acute-kidney-injury v1
-- glomerulonephritis v1
 - polycystic-kidney-disease v1
 - family-history-kidney-disease v1
 - end-stage-renal-disease v1
+- ckd-stage-1 v1
+- ckd-stage-2 v1
+- ckd-stage-3 v1
+- ckd-stage-4 v1
+- ckd-stage-5 v1
+- chronic-kidney-disease v1
+- sle v1
+- gout v1
+- haematuria v1
+- non-alc-fatty-liver-disease v1
 - long-covid v1
 - menopause v1
 - myeloma v1
@@ -483,11 +521,7 @@ This project required the following clinical code sets:
 - bipolar v1
 - eating-disorders v1
 - selfharm-episodes v1
-- ckd-stage-1 v1
-- ckd-stage-2 v1
-- ckd-stage-3 v1
-- ckd-stage-4 v1
-- ckd-stage-5 v1
+- uti v1
 - aminoglycosides v1
 - ace-inhibitor v1
 - bisphosphonates v1
@@ -502,16 +536,33 @@ This project required the following clinical code sets:
 - glp1-receptor-agonists v1
 - statins v1
 - antipsychotics v1
+- oestrogens-and-hrt v1
 - contraceptives-combined-hormonal v1
 - contraceptives-devices v1
 - contraceptives-emergency-pills v1
 - contraceptives-progesterone-only v1
+- covid-vaccination v1
+- bmi v2
+- smoking-status-current v1
+- smoking-status-currently-not v1
+- smoking-status-ex v1
+- smoking-status-ex-trivial v1
+- smoking-status-never v1
+- smoking-status-passive v1
+- smoking-status-trivial v1
+- alcohol-non-drinker v1
+- alcohol-light-drinker v1
+- alcohol-moderate-drinker v1
+- alcohol-heavy-drinker v1
+- alcohol-weekly-intake v1
 - hba1c v2
-- sodium v1
 - creatinine v1
 - triglycerides v1
-- potassium v1
 - urea v1
+- vitamin-d v1
+- calcium v1
+- qrisk-score v1
+- bicarbonate v1
 - ferritin v1
 - b12 v1
 - folate v1
@@ -538,29 +589,10 @@ This project required the following clinical code sets:
 - cholesterol v2
 - ldl-cholesterol v1
 - hdl-cholesterol v1
-- cholesterol-hdl-ratio v1
 - urine-blood v1
 - urine-protein v1
 - urine-ketones v1
 - urine-glucose v1
-- bmi v2
-- height v1
-- weight v1
-- vitamin-d v1
-- calcium v1
-- covid-vaccination v1
-- smoking-status-current v1
-- smoking-status-currently-not v1
-- smoking-status-ex v1
-- smoking-status-ex-trivial v1
-- smoking-status-never v1
-- smoking-status-passive v1
-- smoking-status-trivial v1
-- alcohol-non-drinker v1
-- alcohol-light-drinker v1
-- alcohol-moderate-drinker v1
-- alcohol-heavy-drinker v1
-- alcohol-weekly-intake v1
 
 Further details for each code set can be found below.
 
@@ -628,6 +660,73 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 LINK: [https://github.com/rw251/.../tests/urinary-albumin-creatinine-ratio/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/urinary-albumin-creatinine-ratio/1)
 
+### Glomerulonephritis
+ 
+Codes developed from GetSet. Codes indicate a diagnosis of glomerulonephritis at some point. They are not all diagnosis codes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.08% - 0.16%` suggests potential missing codes.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-17 | EMIS            | 2662570    |    4194 (0.16%)  |     4194 (0.16%)  |
+| 2022-05-17 | TPP             | 212696     |     173 (0.08%)  |      173 (0.08%)  |
+| 2022-05-17 | Vision          | 342344     |     348 (0.10%)  |      333 (0.10%)  |
+
+LINK: [https://github.com/rw251/.../conditions/glomerulonephritis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/glomerulonephritis/1)
+
+### Kidney transplant
+
+Codes indicating a kidney transplant has been carried out. Codes developed from OpenSafely.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.06% - 0.07%` is sufficiently narrow that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-04 | EMIS            | 2662112    |     1479 (0.06%) |      1479 (0.06%) |
+| 2022-05-04 | TPP             | 212726     |      154 (0.07%) |       154 (0.07%) |
+| 2022-05-04 | Vision          | 342310     |      221 (0.06%) |       221 (0.06%) |
+LINK: [https://github.com/rw251/.../procedures/kidney-transplant/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/kidney-transplant/1)
+
+### Kidney Stones
+
+Codes from: https://www.opencodelists.org/ctv3/concept/XE0dk/
+
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.72% - 0.84%` indicates a good coverage of codes.
+
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-16 | EMIS            | 2658131    |    20649 (0.78%) |     20468 (0.78%) |
+| 2022-03-16 | TPP             | 212662     |     1796 (0.84%) |      1796 (0.84%) |
+| 2022-03-16 | Vision          | 341594     |     2467 (0.72%) |      2315 (0.68%) |
+
+LINK: [https://github.com/rw251/.../conditions/kidney-stones/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/kidney-stones/1)
+
+### Vasculitis
+ 
+Codes developed from GetSet. Codes indicate presence of vasculitis at some point. They are not all diagnosis codes.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.30% - 0.40%` suggests this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-17 | EMIS            | 2662570    |   10689 (0.40%)  |    10689 (0.40%)  |
+| 2022-05-17 | TPP             | 212696     |     646 (0.30%)  |      646 (0.08%)  |
+| 2022-05-17 | Vision          | 342344     |    1314 (0.38%)  |     1304 (0.38%)  |
+
+LINK: [https://github.com/rw251/.../conditions/vasculitis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/vasculitis/1)
+
 ### COVID-19 positive antigen test
 
 A code that indicates that a person has a positive antigen test for COVID-19.
@@ -682,6 +781,173 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 LINK: [https://github.com/rw251/.../tests/covid-positive-test-other/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/covid-positive-test-other/1)
 
+### Renal Replacement Therapy
+
+Codes indicating that the patient has had renal replacement therapy. Codes developed from OpenSafely.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.08% - 0.10%` is sufficiently narrow that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-04 | EMIS            | 2662112    |     2286 (0.09%) |      2286 (0.09%) |
+| 2022-05-04 | TPP             | 212726     |      219 (0.10%) |       219 (0.10%) |
+| 2022-05-04 | Vision          | 342310     |      286 (0.08%) |       285 (0.08%) |
+
+LINK: [https://github.com/rw251/.../procedures/renal-replacement-therapy/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/renal-replacement-therapy/1)
+
+### Acute Kidney Injury
+
+This code set was created using getset.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `6.74% - 16.94%` suggests that this code set is missins Readv2 codes (underreporting TPP)
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-16 | EMIS            | 2662570    |  451145 (16.94%) |   450508 (16.92%) |
+| 2021-05-16 | TPP             | 212696     |    14326 (6.74%) |     14274 (6.71%) |
+| 2021-05-16 | Vision          | 342344     |   50937 (14.88%) |    50887 (14.86%) |
+
+LINK: [https://github.com/rw251/.../conditions/acute-kidney-injury/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/acute-kidney-injury/1)
+
+### Polycystic Kidney Disease
+ 
+Codes from: https://www.opencodelists.org/ctv3/concept/PD11./
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.17% - 0.21%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-04-05 | EMIS            | 2660237    |     4789 (0.18%) |      1252 (0.05%) |
+| 2022-04-05 | TPP             | 212647     |      352 (0.17%) |       101 (0.05%) |
+| 2022-04-05 | Vision          | 341912     |      716 (0.21%) |       156 (0.05%) |
+
+
+LINK: [https://github.com/rw251/.../conditions/polycystic-kidney-disease/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/polycystic-kidney-disease/1)
+
+### Family history of kidney disease
+
+Developed manually from GMCR reference code table.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.01% - 0.09%` suggests that codes in this code set are rarely used.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-20 | EMIS            | 2662570    |   2512 (0.09%)   |    2512 (0.09%)   |
+| 2022-05-20 | TPP             | 212696     |    112 (0.05%)   |     112 (0.05%)   |
+| 2022-05-20 | Vision          | 342344     |     19 (0.01%)   |      19 (0.01%)   |
+
+LINK: [https://github.com/rw251/.../conditions/family-history-kidney-disease/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/family-history-kidney-disease/1)
+
+### End stage renal disease
+
+Developed from https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/30/codelist/res30-esrd/.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.09% - 0.20%` suggests that this code set is well defined.
+
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-20 | EMIS            | 2662570    |   3148 (0.12%)   |    5124 (0.19%)   |
+| 2022-05-20 | TPP             | 212696     |    184 (0.09%)   |     188 (0.09%)   |
+| 2022-05-20 | Vision          | 342344     |    394 (0.12%)   |     690 (0.20%)   |
+
+LINK: [https://github.com/rw251/.../conditions/end-stage-renal-disease/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/end-stage-renal-disease/1)
+
+### Chronic kidney disease (CKD) - Stage 1 - diagnosis codes
+
+Developed from https://getset.ga.
+
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-04-06 | EMIS            | 2660237    |   (%)   |    (%)   |
+| 2022-04-06 | TPP             | 212647     |   (%)   |    (%)   |
+| 2022-04-06 | Vision          | 341912     |   (%)   |    (%)   |
+LINK: [https://github.com/rw251/.../conditions/ckd-stage-1/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ckd-stage-1/1)
+
+### Chronic kidney disease stage 2
+
+Codes taken from the general CKD code set
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-04-06 | EMIS            | 2660237    |   (%)   |    (%)   |
+| 2022-04-06 | TPP             | 212647     |   (%)   |    (%)   |
+| 2022-04-06 | Vision          | 341912     |   (%)   |    (%)   |
+LINK: [https://github.com/rw251/.../conditions/ckd-stage-2/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ckd-stage-2/1)
+
+### Chronic kidney disease (CKD) stage 3
+
+Codes taken from the general CKD code set
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-04-06 | EMIS            | 2660237    |   (%)   |    (%)   |
+| 2022-04-06 | TPP             | 212647     |   (%)   |    (%)   |
+| 2022-04-06 | Vision          | 341912     |   (%)   |    (%)   |
+LINK: [https://github.com/rw251/.../conditions/ckd-stage-3/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ckd-stage-3/1)
+
+### Chronic kidney disease (CKD) stage 4 codes
+
+Codes taken from the general CKD code set
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-04-06 | EMIS            | 2660237    |   (%)   |    (%)   |
+| 2022-04-06 | TPP             | 212647     |   (%)   |    (%)   |
+| 2022-04-06 | Vision          | 341912     |   (%)   |    (%)   |
+LINK: [https://github.com/rw251/.../conditions/ckd-stage-4/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ckd-stage-4/1)
+
+### Chronic kidney disease (CKD) stage 5
+
+Codes taken from the general CKD code set
+#### Prevalence log
+
+update
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-04-06 | EMIS            | 2660237    |   (%)   |    (%)   |
+| 2022-04-06 | TPP             | 212647     |   (%)   |    (%)   |
+| 2022-04-06 | Vision          | 341912     |   (%)   |    (%)   |
+LINK: [https://github.com/rw251/.../conditions/ckd-stage-5/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ckd-stage-5/1)
+
+### Chronic kidney disease (CKD) diagnosis codes
+
+Developed from https://getset.ga.
+This list only includes CKD diagnosis codes (`XaNbn. - Chronic kidney disease stage 3ASerum cholesterol raised`), rather than codes which indicate that a patient might have CKD (`9Ni9.00 - Did not attend chronic kidney disease monitoring clinic`).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `3.18% - 4.30%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-04-06 | EMIS            | 2660237    |  85992 (3.23%)   |   84567 (3.18%)   |
+| 2022-04-06 | TPP             | 212647     |   9146 (4.30%)   |    9143 (4.30%)   |
+| 2022-04-06 | Vision          | 341912     |  13406 (3.92%)   |   13375 (3.91%)   |
+LINK: [https://github.com/rw251/.../conditions/chronic-kidney-disease/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/chronic-kidney-disease/1)
+
 ### Systemic Lupus Erythematosus
  
 Codes from: https://www.opencodelists.org/codelist/opensafely/systemic-lupus-erythematosus-sle/2020-05-12/#full-list 
@@ -699,23 +965,6 @@ The discrepancy between the patients counted when using the IDs vs using the cli
 
 
 LINK: [https://github.com/rw251/.../conditions/sle/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/sle/1)
-
-### Vasculitis
- 
-Codes developed from GetSet. Codes indicate presence of vasculitis at some point. They are not all diagnosis codes.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
-
-The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.30% - 0.40%` suggests this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-05-17 | EMIS            | 2662570    |   10689 (0.40%)  |    10689 (0.40%)  |
-| 2022-05-17 | TPP             | 212696     |     646 (0.30%)  |      646 (0.08%)  |
-| 2022-05-17 | Vision          | 342344     |    1314 (0.38%)  |     1304 (0.38%)  |
-
-LINK: [https://github.com/rw251/.../conditions/vasculitis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/vasculitis/1)
 
 ### Gout
 
@@ -768,116 +1017,6 @@ The discrepancy between the patients counted when using the IDs vs using the cli
 
 
 LINK: [https://github.com/rw251/.../conditions/non-alc-fatty-liver-disease/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/non-alc-fatty-liver-disease/1)
-
-### Renal Replacement Therapy
-
-Codes indicating that the patient has had renal replacement therapy. Codes developed from OpenSafely.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.08% - 0.10%` is sufficiently narrow that this code set is likely well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-05-04 | EMIS            | 2662112    |     2286 (0.09%) |      2286 (0.09%) |
-| 2022-05-04 | TPP             | 212726     |      219 (0.10%) |       219 (0.10%) |
-| 2022-05-04 | Vision          | 342310     |      286 (0.08%) |       285 (0.08%) |
-
-LINK: [https://github.com/rw251/.../procedures/renal-replacement-therapy/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/renal-replacement-therapy/1)
-
-### Kidney transplant
-
-Codes indicating a kidney transplant has been carried out. Codes developed from OpenSafely.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.06% - 0.07%` is sufficiently narrow that this code set is likely well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-05-04 | EMIS            | 2662112    |     1479 (0.06%) |      1479 (0.06%) |
-| 2022-05-04 | TPP             | 212726     |      154 (0.07%) |       154 (0.07%) |
-| 2022-05-04 | Vision          | 342310     |      221 (0.06%) |       221 (0.06%) |
-LINK: [https://github.com/rw251/.../procedures/kidney-transplant/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/kidney-transplant/1)
-
-### Acute Kidney Injury
-
-This code set was created using getset.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `6.74% - 16.94%` suggests that this code set is missins Readv2 codes (underreporting TPP)
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-05-16 | EMIS            | 2662570    |  451145 (16.94%) |   450508 (16.92%) |
-| 2021-05-16 | TPP             | 212696     |    14326 (6.74%) |     14274 (6.71%) |
-| 2021-05-16 | Vision          | 342344     |   50937 (14.88%) |    50887 (14.86%) |
-
-LINK: [https://github.com/rw251/.../conditions/acute-kidney-injury/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/acute-kidney-injury/1)
-
-### Glomerulonephritis
- 
-Codes developed from GetSet. Codes indicate a diagnosis of glomerulonephritis at some point. They are not all diagnosis codes.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
-
-The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.08% - 0.16%` suggests potential missing codes.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-05-17 | EMIS            | 2662570    |    4194 (0.16%)  |     4194 (0.16%)  |
-| 2022-05-17 | TPP             | 212696     |     173 (0.08%)  |      173 (0.08%)  |
-| 2022-05-17 | Vision          | 342344     |     348 (0.10%)  |      333 (0.10%)  |
-
-LINK: [https://github.com/rw251/.../conditions/glomerulonephritis/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/glomerulonephritis/1)
-
-### Polycystic Kidney Disease
- 
-Codes from: https://www.opencodelists.org/ctv3/concept/PD11./
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
-
-The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `0.17% - 0.21%` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-04-05 | EMIS            | 2660237    |     4789 (0.18%) |      1252 (0.05%) |
-| 2022-04-05 | TPP             | 212647     |      352 (0.17%) |       101 (0.05%) |
-| 2022-04-05 | Vision          | 341912     |      716 (0.21%) |       156 (0.05%) |
-
-
-LINK: [https://github.com/rw251/.../conditions/polycystic-kidney-disease/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/polycystic-kidney-disease/1)
-
-### Family history of kidney disease
-
-Developed manually from GMCR reference code table.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.01% - 0.09%` suggests that codes in this code set are rarely used.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-05-20 | EMIS            | 2662570    |   2512 (0.09%)   |    2512 (0.09%)   |
-| 2022-05-20 | TPP             | 212696     |    112 (0.05%)   |     112 (0.05%)   |
-| 2022-05-20 | Vision          | 342344     |     19 (0.01%)   |      19 (0.01%)   |
-
-LINK: [https://github.com/rw251/.../conditions/family-history-kidney-disease/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/family-history-kidney-disease/1)
-
-### End stage renal disease
-
-Developed from https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/30/codelist/res30-esrd/.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.09% - 0.20%` suggests that this code set is well defined.
-
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-05-20 | EMIS            | 2662570    |   3148 (0.12%)   |    5124 (0.19%)   |
-| 2022-05-20 | TPP             | 212696     |    184 (0.09%)   |     188 (0.09%)   |
-| 2022-05-20 | Vision          | 342344     |    394 (0.12%)   |     690 (0.20%)   |
-
-LINK: [https://github.com/rw251/.../conditions/end-stage-renal-disease/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/end-stage-renal-disease/1)
 
 ### long covid
 
@@ -1137,78 +1276,22 @@ The discrepancy between the patients counted when using the IDs vs using the cli
 | 2021-04-14 | Vision          | 333786     |    12661 (3.79%) |     11975 (3.59%) |
 LINK: [https://github.com/rw251/.../patient/selfharm-episodes/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/selfharm-episodes/1)
 
-### Chronic kidney disease (CKD) - Stage 1 - diagnosis codes
+### Urinary tract infection
 
-Developed from https://getset.ga.
-
+Codes taken from https://phenotypes.healthdatagateway.org/concepts/C2679/version/6771/detail/#home
 #### Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `14.03% - 20.68%` suggests there are potential missing codes from TPP practices. Perhaps some Readv2 codes are missing.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-04-06 | EMIS            | 2660237    |   (%)   |    (%)   |
-| 2022-04-06 | TPP             | 212647     |   (%)   |    (%)   |
-| 2022-04-06 | Vision          | 341912     |   (%)   |    (%)   |
-LINK: [https://github.com/rw251/.../conditions/ckd-stage-1/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ckd-stage-1/1)
+| 2022-04-11 | EMIS            | 2660237    |  526473 (19.79%) |   523378 (19.67%) |
+| 2022-04-11 | TPP             | 212647     |   29844 (14.03%) |     13227 (6.22%) |
+| 2022-04-11 | Vision          | 341912     |   70709 (20.68%) |    70355 (20.58%) |
 
-### Chronic kidney disease stage 2
-
-Codes taken from the general CKD code set
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-04-06 | EMIS            | 2660237    |   (%)   |    (%)   |
-| 2022-04-06 | TPP             | 212647     |   (%)   |    (%)   |
-| 2022-04-06 | Vision          | 341912     |   (%)   |    (%)   |
-LINK: [https://github.com/rw251/.../conditions/ckd-stage-2/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ckd-stage-2/1)
-
-### Chronic kidney disease (CKD) stage 3
-
-Codes taken from the general CKD code set
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-04-06 | EMIS            | 2660237    |   (%)   |    (%)   |
-| 2022-04-06 | TPP             | 212647     |   (%)   |    (%)   |
-| 2022-04-06 | Vision          | 341912     |   (%)   |    (%)   |
-LINK: [https://github.com/rw251/.../conditions/ckd-stage-3/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ckd-stage-3/1)
-
-### Chronic kidney disease (CKD) stage 4 codes
-
-Codes taken from the general CKD code set
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-04-06 | EMIS            | 2660237    |   (%)   |    (%)   |
-| 2022-04-06 | TPP             | 212647     |   (%)   |    (%)   |
-| 2022-04-06 | Vision          | 341912     |   (%)   |    (%)   |
-LINK: [https://github.com/rw251/.../conditions/ckd-stage-4/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ckd-stage-4/1)
-
-### Chronic kidney disease (CKD) stage 5
-
-Codes taken from the general CKD code set
-#### Prevalence log
-
-update
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-04-06 | EMIS            | 2660237    |   (%)   |    (%)   |
-| 2022-04-06 | TPP             | 212647     |   (%)   |    (%)   |
-| 2022-04-06 | Vision          | 341912     |   (%)   |    (%)   |
-LINK: [https://github.com/rw251/.../conditions/ckd-stage-5/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/ckd-stage-5/1)
+LINK: [https://github.com/rw251/.../conditions/uti/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/uti/1)
 
 ### Aminoglycoside antibiotics
 
@@ -1218,18 +1301,14 @@ Codes developed from BNF codes (mapped to SNOMED) starting with 050104.
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. 
-Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
+Here is a log for this code set. The prevalence range `%0.01 - 0.01%` suggests that this code set is well defined but these codes are rarely used.
 
-
-update
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-07-20 | EMIS            | 2616446    |    81113 (3.10%) |     81141 (3.10%) |
-| 2021-07-20 | TPP             | 211414     |     6642 (3.14%) |      7995 (3.78%) |
-| 2021-07-20 | Vision          | 336776     |    10600 (3.15%) |     10600 (3.15%) |
-
-
+| 2022-06-07 | EMIS            | 2662570    |    279 (0.01%)   |       5 (0.00%)   |
+| 2022-06-07 | TPP             | 212696     |     18 (0.01%)   |      18 (0.01%)   |
+| 2022-06-07 | Vision          | 342344     |     18 (0.01%)   |      10 (0.00%)   |
 LINK: [https://github.com/rw251/.../medications/aminoglycosides/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/aminoglycosides/1)
 
 ### ACE Inhibitors
@@ -1437,6 +1516,21 @@ Here is a log for this code set. The prevalence range `3.10% - 3.78%` suggests t
 
 LINK: [https://github.com/rw251/.../medications/antipsychotics/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/antipsychotics/1)
 
+### Hormone replacement therapy medications
+
+This code set was created from BNF codes starting with 0604011. A mapping from prod codes to BNF was used.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.35% - 5.56%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-17 | EMIS            | 2662570    |   135868 (5.10%) |      915 (0.03%)  |
+| 2022-05-17 | TPP             | 212696     |    11834 (5.56%) |     4834 (2.27%)  |
+| 2022-05-17 | Vision          | 342344     |    14878 (4.35%) |     1627 (0.48%)  |
+
+LINK: [https://github.com/rw251/.../medications/oestrogens-and-hrt/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/oestrogens-and-hrt/1)
+
 ### Contraceptives - combined hormonal
 
 This code set was created from BNF codes (mapped to SNOMED) starting with 070301 (following same process as https://arro.anglia.ac.uk/id/eprint/707403/4/Walker_2022.pdf)
@@ -1498,6 +1592,126 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 LINK: [https://github.com/rw251/.../medications/contraceptives-progesterone-only/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/medications/contraceptives-progesterone-only/1)
 
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
+
+The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `1.19% - 26.55%` as of 11th March 2021 is too wide. However the prevalence figure of 26.55% from EMIS is close to public data and is likely ok.
+
+**UPDATE - 25th March 2021** Missing Read and CTV3 codes were added to the vaccination list and now the range of `26.91% - 32.96%` seems reasonable. It should be noted that there is an approx 2 week lag between events occurring and them being entered in the record.
+
+**UPDATE - 12th April 2021**, latest prevalence figures.
+
+**UPDATE - 18th March 2022** There are now new codes for things like 3rd/4th/booster dose of vaccine. The latest prevalence shows `65.0% - 66.3%` have at least one vaccine code in the GP_Events table, and `88.2% - 93.6%` have at least one code for the vaccine in the GP_Medications table.
+
+MED
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-12 | EMIS            | 2606497    |           0 (0%) |    379577(14.56%) |
+| 2021-05-12 | TPP             | 210810     |           0 (0%) |       1637(0.78%) |
+| 2021-05-12 | Vision          | 334784     |           0 (0%) |         93(0.03%) |
+| 2022-03-18 | EMIS            | 2658131    |  1750506 (65.9%) |    1763420(66.3%) |
+| 2022-03-18 | TPP             | 212662     |      8207 (3.9%) |     138285(65.0%) |
+| 2022-03-18 | Vision          | 341594     |   122060 (35.7%) |     225844(66.1%) |
+
+EVENT
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-12 | EMIS            | 2606497    |     4446 (0.17%) |  1101577 (42.26%) |
+| 2021-05-12 | TPP             | 210810     |        7 (0.00%) |    87841 (41.66%) |
+| 2021-05-12 | Vision          | 334784     |        1 (0.00%) |   142724 (42.63%) |
+| 2022-03-18 | EMIS            | 2658131    |  2486786 (93.6%) |   1676951 (63.1%) |
+| 2022-03-18 | TPP             | 212662     |   187463 (88.2%) |      7314 (3.44%) |
+| 2022-03-18 | Vision          | 341594     |   312617 (91.5%) |     62512 (18.3%) |
+
+LINK: [https://github.com/rw251/.../procedures/covid-vaccination/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/covid-vaccination/1)
+
+### Body Mass Index (BMI)
+
+A patient's BMI as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`22K.. - Body Mass Index`). It does not include codes that indicate a patient's BMI (`22K6. - Body mass index less than 20`) without giving the actual value.
+
+**NB: This code set is intended to indicate a patient's BMI. If you need to know whether a BMI was recorded then please use v1 of the code set.**
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `63.96% - 79.69%` suggests that this code set is perhaps not well defined. However, as EMIS (80% of practices) and TPP (10% of practices) are close, it could simply be down to Vision automatically recording BMIs and therefore increasing the prevalence there.
+
+**UPDATE** By looking at the prevalence of patients with a BMI code that also has a non-zero value the range becomes `62.48% - 64.93%` which suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-07 | EMIS            | 2605681    | 1709250 (65.60%) |  1709224 (65.60%) |
+| 2021-05-07 | TPP             | 210817     |  134841 (63.96%) |   134835 (63.96%) |
+| 2021-05-07 | Vision          | 334632     |  266612 (79.67%) |   266612 (79.67%) |
+| 2021-05-11 | EMIS            | 2606497    | 1692442 (64.93%) |  1692422 (64.93%) |
+| 2021-05-11 | TPP             | 210810     |  134652 (63.87%) |   134646 (63.87%) |
+| 2021-05-11 | Vision          | 334784     |  209175 (62.48%) |   209175 (62.48%) |
+
+LINK: [https://github.com/rw251/.../patient/bmi/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/bmi/2)
+
+### Smoking status current
+
+Any code suggestive that a patient is a current smoker.
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-current/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-current/1)
+
+### Smoking status currently not
+
+Any code suggestive that a patient is currently a non-smoker. This is different to the "never smoked" code set.
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-currently-not/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-currently-not/1)
+
+### Smoking status ex
+
+Any code suggestive that a patient is an ex-smoker.
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-ex/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-ex/1)
+
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-ex-trivial/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-ex-trivial/1)
+
+### Smoking status never
+
+Any code suggestive that a patient has never smoked. This is different to the "currently not" code set.
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-never/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-never/1)
+
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-passive/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-passive/1)
+
+
+LINK: [https://github.com/rw251/.../patient/smoking-status-trivial/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-trivial/1)
+
+### Alcohol non drinker
+
+Any code suggestive that a patient is a non-drinker.
+
+LINK: [https://github.com/rw251/.../patient/alcohol-non-drinker/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/alcohol-non-drinker/1)
+
+### Alcohol light drinker
+
+Any code suggestive that a patient is a light drinker.
+
+LINK: [https://github.com/rw251/.../patient/alcohol-light-drinker/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/alcohol-light-drinker/1)
+
+### Alcohol moderate drinker
+
+Any code suggestive that a patient is a moderate drinker.
+
+LINK: [https://github.com/rw251/.../patient/alcohol-moderate-drinker/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/alcohol-moderate-drinker/1)
+
+### Alcohol heavy drinker
+
+Any code suggestive that a patient is a heavy drinker.
+
+LINK: [https://github.com/rw251/.../patient/alcohol-heavy-drinker/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/alcohol-heavy-drinker/1)
+
+### Alcohol intake per week
+
+Any code indicative of a patient's alcohol intake per week.
+LINK: [https://github.com/rw251/.../patient/alcohol-weekly-intake/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/alcohol-weekly-intake/1)
+
 ### HbA1c
 
 A patient's HbA1c as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`1003671000000109 - Haemoglobin A1c level`). It does not include codes that indicate a patient's BMI (`165679005 - Haemoglobin A1c (HbA1c) less than 7%`) without giving the actual value.
@@ -1514,23 +1728,6 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2021-05-07 | Vision          | 334632     |  170245 (50.88%) |   170245 (50.88%) |
 
 LINK: [https://github.com/rw251/.../tests/hba1c/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/hba1c/2)
-
-### Sodium
-
-This code set only includes codes that are accompanied by a value (e.g. `XaIRf - Plasma sodium level).
-
-Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%57.92 - 60.92%` suggests that this code set is likely well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-05-24 | EMIS            | 2662570    | 1542179 (57.92%) |  1542171 (57.92%) |
-| 2021-05-24 | TPP             | 212696     |  128437 (60.39%) |   128432 (60.38%) |
-| 2021-05-24 | Vision          | 342344     |  208550 (60.92%) |   208549 (60.92%) |
-
-LINK: [https://github.com/rw251/.../tests/sodium/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/sodium/1)
 
 ### Creatinine (level)
 
@@ -1567,25 +1764,6 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 LINK: [https://github.com/rw251/.../tests/triglycerides/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/triglycerides/1)
 
-### Potassium
-
-This code set only includes codes that are accompanied by a value (e.g. `XaDvZ - Blood potassium level`).
-
-Codes retrieved manually using search term 'Potassium'
-#### Prevalence log
-
-UPDATE:
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%57.78 - 61.10%` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-03-28 | EMIS            | 2658708    | 1543723 (58.06%) |  1536259 (57.78%) |
-| 2022-03-28 | TPP             | 212645     |  128609 (60.48%) |   128603 (60.48%) |
-| 2022-03-28 | Vision          | 341667     |  208885 (61.14%) |   208767 (61.10%) |
-
-LINK: [https://github.com/rw251/.../tests/potassium/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/potassium/1)
-
 ### Urea
 
 This code set only includes codes that are accompanied by a value (e.g. `X771P - Blood urea`).
@@ -1602,6 +1780,68 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2022-03-21 | Vision          | 341594     |  205044 (60.03%) |   205044 (60.03%) |
 
 LINK: [https://github.com/rw251/.../tests/urea/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/urea/1)
+
+### Vitamin D
+
+A patient's vitamin D level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`44P6.00 - Serum LDL cholesterol level`). This only includes codes for total vitamin D level and does not use codes that measure a patient's D2 or D3 levels.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.30% - 14.10%` suggests that this code set is not well defined and there are TPP codes that are missing.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2021-05-11 | EMIS            | 2606497    |  282971 (10.86%) |   282971 (10.86%) |
+| 2021-05-11 | TPP             | 210810     |     9056 (4.30%) |      9056 (4.30%) |
+| 2021-05-11 | Vision          | 334784     |   47198 (14.10%) |    47198 (14.10%) |
+
+LINK: [https://github.com/rw251/.../tests/vitamin-d/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/vitamin-d/1)
+
+### Calcium
+
+This code set only includes codes that are accompanied by a value (e.g. `XE2q3 - Serum calcium level`).
+
+Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%39.42 - 48.98%` suggests that there may be missing codes from EMIS practices.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-03-28 | EMIS            | 2658708    | 1048189 (39.42%) |  1048189 (39.42%) |
+| 2022-03-28 | TPP             | 212645     |  102117 (48.02%) |   102121 (48.02%) |
+| 2022-03-28 | Vision          | 341667     |  167336 (48.98%) |   167336 (48.98%) |
+
+LINK: [https://github.com/rw251/.../tests/calcium/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/calcium/1)
+
+### Qrisk score
+
+Codes retrieved manually using search term 'QRISK'.#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `27.34% - 30.06%` suggests that this code set is well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-04-05 | EMIS            | 2660237    |  799544 (30.06%) |   796808 (29.95%) |
+| 2022-04-05 | TPP             | 796808     |   62933 (29.60%) |    62933 (29.60%) |
+| 2022-04-05 | Vision          | 341912     |   93467 (27.34%) |    91459 (26.75%) |
+
+
+LINK: [https://github.com/rw251/.../tests/qrisk-score/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/qrisk-score/1)
+
+### Bicarbonate (level)
+
+A patient's bicarbonate level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (``).
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is likely well defined.
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-05-25 | EMIS            | 2662112    |  269763 (10.13%) |   269763 (10.13%) |
+| 2022-05-25 | TPP             | 212726     |   35976 (16.91%) |    35976 (16.91%) |
+| 2022-05-25 | Vision          | 342310     |    10259 (3.00%) |     10259 (3.00%) |
+
+LINK: [https://github.com/rw251/.../tests/bicarbonate/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/bicarbonate/1)
 
 ### Ferritin
 
@@ -2022,26 +2262,6 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 LINK: [https://github.com/rw251/.../tests/hdl-cholesterol/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/hdl-cholesterol/1)
 
-### Cholesterol: HDL ratio
-
-This code set only includes codes that are accompanied by a value
-
-Codes retrieved from: https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/article/6/codelist/cholesterol_level/ 
-#### Prevalence log
-
-UPDATE BELOW:
-
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is likely well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-03-31 | EMIS            | 2604007    | 1727895 (66.36%) |  1727819 (66.35%) |
-| 2021-03-31 | TPP             | 210535     |  135713 (64.46%) |   135713 (64.46%) |
-| 2021-03-31 | Vision          | 333730     |  223597 (67.00%) |   223594 (67.00%) |
-
-LINK: [https://github.com/rw251/.../tests/cholesterol-hdl-ratio/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/cholesterol-hdl-ratio/1)
-
 ### Urine blood test
 
 This code set includes codes that indicate the result of blood in urine test. Posiive and negative results are included. When using this code set, your script will need to use a case_when statement, using the individual codes to classify which results are positive and which are negative.
@@ -2109,190 +2329,6 @@ update
 
 
 LINK: [https://github.com/rw251/.../tests/urine-glucose/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/urine-glucose/1)
-
-### Body Mass Index (BMI)
-
-A patient's BMI as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`22K.. - Body Mass Index`). It does not include codes that indicate a patient's BMI (`22K6. - Body mass index less than 20`) without giving the actual value.
-
-**NB: This code set is intended to indicate a patient's BMI. If you need to know whether a BMI was recorded then please use v1 of the code set.**
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `63.96% - 79.69%` suggests that this code set is perhaps not well defined. However, as EMIS (80% of practices) and TPP (10% of practices) are close, it could simply be down to Vision automatically recording BMIs and therefore increasing the prevalence there.
-
-**UPDATE** By looking at the prevalence of patients with a BMI code that also has a non-zero value the range becomes `62.48% - 64.93%` which suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-05-07 | EMIS            | 2605681    | 1709250 (65.60%) |  1709224 (65.60%) |
-| 2021-05-07 | TPP             | 210817     |  134841 (63.96%) |   134835 (63.96%) |
-| 2021-05-07 | Vision          | 334632     |  266612 (79.67%) |   266612 (79.67%) |
-| 2021-05-11 | EMIS            | 2606497    | 1692442 (64.93%) |  1692422 (64.93%) |
-| 2021-05-11 | TPP             | 210810     |  134652 (63.87%) |   134646 (63.87%) |
-| 2021-05-11 | Vision          | 334784     |  209175 (62.48%) |   209175 (62.48%) |
-
-LINK: [https://github.com/rw251/.../patient/bmi/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/bmi/2)
-
-### Height
-
-A patient's height as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`229.. - O/E - Height`).
-
-Codes taken from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `66.10% - 72.59%` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-10-13 | EMIS            | 26929848   | 1885015 (71.68%) |  1884110 (71.64%) |
-| 2021-10-13 | TPP             | 211812     |  140013 (66.10%) |   140013 (66.10%) |
-| 2021-10-13 | Vision          | 338205     |  245440 (72.59%) |   245440 (72.57%) |
-LINK: [https://github.com/rw251/.../patient/height/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/height/1)
-
-### Weight
-
-A patient's weight as recorded via clinical code and value. This code set only includes codes that are accompanied by a value.
-
-Codes taken from https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `73.09% - 79.68%` suggests that this code set is well defined.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-10-13 | EMIS            | 26929848   | 2054449 (78.12%) |  2053717 (78.09%) |
-| 2021-10-13 | TPP             | 211812     |  154813 (73.09%) |   154813 (73.09%) |
-| 2021-10-13 | Vision          | 338205     |  269496 (79.68%) |   269496 (79.68%) |
-LINK: [https://github.com/rw251/.../patient/weight/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/weight/1)
-
-### Vitamin D
-
-A patient's vitamin D level as recorded via clinical code and value. This code set only includes codes that are accompanied by a value (`44P6.00 - Serum LDL cholesterol level`). This only includes codes for total vitamin D level and does not use codes that measure a patient's D2 or D3 levels.
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `4.30% - 14.10%` suggests that this code set is not well defined and there are TPP codes that are missing.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-05-11 | EMIS            | 2606497    |  282971 (10.86%) |   282971 (10.86%) |
-| 2021-05-11 | TPP             | 210810     |     9056 (4.30%) |      9056 (4.30%) |
-| 2021-05-11 | Vision          | 334784     |   47198 (14.10%) |    47198 (14.10%) |
-
-LINK: [https://github.com/rw251/.../tests/vitamin-d/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/vitamin-d/1)
-
-### Calcium
-
-This code set only includes codes that are accompanied by a value (e.g. `XE2q3 - Serum calcium level`).
-
-Codes retrieved from: https://www.medrxiv.org/content/medrxiv/suppl/2020/05/19/2020.05.14.20101626.DC1/2020.05.14.20101626-1.pdf
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `%39.42 - 48.98%` suggests that there may be missing codes from EMIS practices.
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2022-03-28 | EMIS            | 2658708    | 1048189 (39.42%) |  1048189 (39.42%) |
-| 2022-03-28 | TPP             | 212645     |  102117 (48.02%) |   102121 (48.02%) |
-| 2022-03-28 | Vision          | 341667     |  167336 (48.98%) |   167336 (48.98%) |
-
-LINK: [https://github.com/rw251/.../tests/calcium/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/tests/calcium/1)
-
-#### Prevalence log
-
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
-
-The discrepancy between the patients counted when using the IDs vs using the clinical codes is due to these being new codes which haven't all filtered through to the main Graphnet dictionary. The prevalence range `1.19% - 26.55%` as of 11th March 2021 is too wide. However the prevalence figure of 26.55% from EMIS is close to public data and is likely ok.
-
-**UPDATE - 25th March 2021** Missing Read and CTV3 codes were added to the vaccination list and now the range of `26.91% - 32.96%` seems reasonable. It should be noted that there is an approx 2 week lag between events occurring and them being entered in the record.
-
-**UPDATE - 12th April 2021**, latest prevalence figures.
-
-**UPDATE - 18th March 2022** There are now new codes for things like 3rd/4th/booster dose of vaccine. The latest prevalence shows `65.0% - 66.3%` have at least one vaccine code in the GP_Events table, and `88.2% - 93.6%` have at least one code for the vaccine in the GP_Medications table.
-
-MED
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-05-12 | EMIS            | 2606497    |           0 (0%) |    379577(14.56%) |
-| 2021-05-12 | TPP             | 210810     |           0 (0%) |       1637(0.78%) |
-| 2021-05-12 | Vision          | 334784     |           0 (0%) |         93(0.03%) |
-| 2022-03-18 | EMIS            | 2658131    |  1750506 (65.9%) |    1763420(66.3%) |
-| 2022-03-18 | TPP             | 212662     |      8207 (3.9%) |     138285(65.0%) |
-| 2022-03-18 | Vision          | 341594     |   122060 (35.7%) |     225844(66.1%) |
-
-EVENT
-
-| Date       | Practice system | Population | Patients from ID | Patient from code |
-| ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-05-12 | EMIS            | 2606497    |     4446 (0.17%) |  1101577 (42.26%) |
-| 2021-05-12 | TPP             | 210810     |        7 (0.00%) |    87841 (41.66%) |
-| 2021-05-12 | Vision          | 334784     |        1 (0.00%) |   142724 (42.63%) |
-| 2022-03-18 | EMIS            | 2658131    |  2486786 (93.6%) |   1676951 (63.1%) |
-| 2022-03-18 | TPP             | 212662     |   187463 (88.2%) |      7314 (3.44%) |
-| 2022-03-18 | Vision          | 341594     |   312617 (91.5%) |     62512 (18.3%) |
-
-LINK: [https://github.com/rw251/.../procedures/covid-vaccination/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/procedures/covid-vaccination/1)
-
-### Smoking status current
-
-Any code suggestive that a patient is a current smoker.
-
-LINK: [https://github.com/rw251/.../patient/smoking-status-current/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-current/1)
-
-### Smoking status currently not
-
-Any code suggestive that a patient is currently a non-smoker. This is different to the "never smoked" code set.
-
-LINK: [https://github.com/rw251/.../patient/smoking-status-currently-not/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-currently-not/1)
-
-### Smoking status ex
-
-Any code suggestive that a patient is an ex-smoker.
-
-LINK: [https://github.com/rw251/.../patient/smoking-status-ex/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-ex/1)
-
-
-LINK: [https://github.com/rw251/.../patient/smoking-status-ex-trivial/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-ex-trivial/1)
-
-### Smoking status never
-
-Any code suggestive that a patient has never smoked. This is different to the "currently not" code set.
-
-LINK: [https://github.com/rw251/.../patient/smoking-status-never/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-never/1)
-
-
-LINK: [https://github.com/rw251/.../patient/smoking-status-passive/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-passive/1)
-
-
-LINK: [https://github.com/rw251/.../patient/smoking-status-trivial/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/smoking-status-trivial/1)
-
-### Alcohol non drinker
-
-Any code suggestive that a patient is a non-drinker.
-
-LINK: [https://github.com/rw251/.../patient/alcohol-non-drinker/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/alcohol-non-drinker/1)
-
-### Alcohol light drinker
-
-Any code suggestive that a patient is a light drinker.
-
-LINK: [https://github.com/rw251/.../patient/alcohol-light-drinker/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/alcohol-light-drinker/1)
-
-### Alcohol moderate drinker
-
-Any code suggestive that a patient is a moderate drinker.
-
-LINK: [https://github.com/rw251/.../patient/alcohol-moderate-drinker/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/alcohol-moderate-drinker/1)
-
-### Alcohol heavy drinker
-
-Any code suggestive that a patient is a heavy drinker.
-
-LINK: [https://github.com/rw251/.../patient/alcohol-heavy-drinker/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/alcohol-heavy-drinker/1)
-
-### Alcohol intake per week
-
-Any code indicative of a patient's alcohol intake per week.
-LINK: [https://github.com/rw251/.../patient/alcohol-weekly-intake/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/patient/alcohol-weekly-intake/1)
 # Clinical code sets
 
 All code sets required for this analysis are listed here. Individual lists for each concept can also be found by using the links above.
@@ -2940,789 +2976,6 @@ All code sets required for this analysis are listed here. Individual lists for e
 |urinary-albumin-creatinine-ratio v1|ctv3|XE2n3|Urine albumin:creatinine ratio|
 |urinary-albumin-creatinine-ratio v1|readv2|46TC.|Urine albumin:creatinine ratio|
 |urinary-albumin-creatinine-ratio v1|snomed|271075006|Urine albumin/creatinine ratio measurement|
-|covid-positive-antigen-test v1|ctv3|Y269d|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen detection result positive|
-|covid-positive-antigen-test v1|ctv3|43kB1|SARS-CoV-2 antigen positive |
-|covid-positive-antigen-test v1|emis|^ESCT1305304|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen detection result positive|
-|covid-positive-antigen-test v1|emis|^ESCT1348538|Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen|
-|covid-positive-antigen-test v1|readv2|43kB1|SARS-CoV-2 antigen positive |
-|covid-positive-pcr-test v1|ctv3|4J3R6|SARS-CoV-2 RNA pos lim detect|
-|covid-positive-pcr-test v1|ctv3|Y240b|Severe acute respiratory syndrome coronavirus 2 qualitative existence in specimen (observable entity)|
-|covid-positive-pcr-test v1|ctv3|Y2a3b|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive|
-|covid-positive-pcr-test v1|ctv3|A7952|COVID-19 confirmed by laboratory test|
-|covid-positive-pcr-test v1|ctv3|Y228d|Coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2 confirmed by laboratory test (situation)|
-|covid-positive-pcr-test v1|ctv3|Y210e|Detection of 2019-nCoV (novel coronavirus) using polymerase chain reaction technique|
-|covid-positive-pcr-test v1|ctv3|43hF.|Detection of SARS-CoV-2 by PCR |
-|covid-positive-pcr-test v1|ctv3|Y2a3d|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection|
-|covid-positive-pcr-test v1|emis|^ESCT1305238|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) qualitative existence in specimen|
-|covid-positive-pcr-test v1|emis|^ESCT1348314|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive|
-|covid-positive-pcr-test v1|emis|^ESCT1305235|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive |
-|covid-positive-pcr-test v1|emis|^ESCT1300228|COVID-19 confirmed by laboratory test GP COVID-19|
-|covid-positive-pcr-test v1|emis|^ESCT1348316|2019-nCoV (novel coronavirus) ribonucleic acid detected|
-|covid-positive-pcr-test v1|emis|^ESCT1301223|Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) using polymerase chain reaction technique|
-|covid-positive-pcr-test v1|emis|^ESCT1348359|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection|
-|covid-positive-pcr-test v1|emis|^ESCT1299053|Detection of 2019-nCoV (novel coronavirus) using polymerase chain reaction technique|
-|covid-positive-pcr-test v1|emis|^ESCT1300228|COVID-19 confirmed by laboratory test|
-|covid-positive-pcr-test v1|emis|^ESCT1348359|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection|
-|covid-positive-pcr-test v1|readv2|4J3R6|SARS-CoV-2 RNA pos lim detect|
-|covid-positive-pcr-test v1|readv2|A7952|COVID-19 confirmed by laboratory test|
-|covid-positive-pcr-test v1|readv2|43hF.|Detection of SARS-CoV-2 by PCR |
-|covid-positive-test-other v1|ctv3|4J3R1|2019-nCoV (novel coronavirus) detected |
-|covid-positive-test-other v1|ctv3|Y20d1|Confirmed 2019-nCov (Wuhan) infection|
-|covid-positive-test-other v1|ctv3|Y23f7|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive|
-|covid-positive-test-other v1|emis|^ESCT1303928|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive |
-|covid-positive-test-other v1|emis|^ESCT1299074|2019-nCoV (novel coronavirus) detected|
-|covid-positive-test-other v1|emis|^ESCT1301230|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detected|
-|covid-positive-test-other v1|emis|EMISNQCO303|Confirmed 2019-nCoV (Wuhan) infectio|
-|covid-positive-test-other v1|emis|^ESCT1299075|Wuhan 2019-nCoV (novel coronavirus) detected|
-|covid-positive-test-other v1|emis|^ESCT1300229|COVID-19 confirmed using clinical diagnostic criteria|
-|covid-positive-test-other v1|emis|^ESCT1348575|Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)|
-|covid-positive-test-other v1|emis|^ESCT1299074|2019-nCoV (novel coronavirus) detected|
-|covid-positive-test-other v1|emis|^ESCT1300229|COVID-19 confirmed using clinical diagnostic criteria|
-|covid-positive-test-other v1|emis|EMISNQCO303|Confirmed 2019-nCoV (novel coronavirus) infection|
-|covid-positive-test-other v1|emis|EMISNQCO303|Confirmed 2019-nCoV (novel coronavirus) infection|
-|covid-positive-test-other v1|emis|^ESCT1348575|Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)|
-|covid-positive-test-other v1|readv2|4J3R1|2019-nCoV (novel coronavirus) detected |
-|sle v1|ctv3|F3710|Polyneuropathy in disseminated lupus erythematosus|
-|sle v1|ctv3|F3961|Myopathy due to disseminated lupus erythematosus|
-|sle v1|ctv3|F4D33|Discoid lupus eyelid|
-|sle v1|ctv3|H57y4|Lung disease with systemic lupus erythematosus|
-|sle v1|ctv3|K01x4|(Nephr synd in system lupus erythemat) or (lupus nephritis]|
-|sle v1|ctv3|M154.|Lupus erythematosus|
-|sle v1|ctv3|M1540|Lupus erythematosus chronicus|
-|sle v1|ctv3|M1541|Discoid lupus erythematosus|
-|sle v1|ctv3|M1542|Lupus erythematosus migrans|
-|sle v1|ctv3|M1543|Lupus erythematosus nodularis|
-|sle v1|ctv3|M1544|Lupus erythematosus profundus|
-|sle v1|ctv3|M1545|Lupus erythematosus tumidus|
-|sle v1|ctv3|M1546|Lupus erythematosus unguium mutilans|
-|sle v1|ctv3|M154z|Lupus erythematosus NOS|
-|sle v1|ctv3|Myu78|[X]Other local lupus erythematosus|
-|sle v1|ctv3|N000.|Systemic lupus erythematosus|
-|sle v1|ctv3|N0002|Drug-induced systemic lupus erythematosus|
-|sle v1|ctv3|N000z|Systemic lupus erythematosus NOS|
-|sle v1|ctv3|Nyu43|[X]Other forms of systemic lupus erythematosus|
-|sle v1|ctv3|X00Dx|Cerebral lupus|
-|sle v1|ctv3|X00Dx|Cerebral lupus|
-|sle v1|ctv3|X30Kn|Lupus nephritis - WHO Class I|
-|sle v1|ctv3|X30Ko|Lupus nephritis - WHO Class II|
-|sle v1|ctv3|X30Kp|Lupus nephritis - WHO Class III|
-|sle v1|ctv3|X30Kq|Lupus nephritis - WHO Class IV|
-|sle v1|ctv3|X30Kr|Lupus nephritis - WHO Class V|
-|sle v1|ctv3|X30Ks|Lupus nephritis - WHO Class VI|
-|sle v1|ctv3|X50Ew|Lupus erythematosus and erythema multiforme-like syndrome|
-|sle v1|ctv3|X50Ex|Chronic discoid lupus erythematosus|
-|sle v1|ctv3|X50Ez|Chilblain lupus erythematosus|
-|sle v1|ctv3|X704W|Limited lupus erythematosus|
-|sle v1|ctv3|X704X|Systemic lupus erythematosus with organ/system involvement|
-|sle v1|ctv3|X704a|Lupus panniculitis|
-|sle v1|ctv3|X704b|Bullous systemic lupus erythematosus|
-|sle v1|ctv3|X704c|Systemic lupus erythematosus with multisystem involvement|
-|sle v1|ctv3|X704d|Cutaneous lupus erythematosus|
-|sle v1|ctv3|X704g|Neonatal lupus erythematosus|
-|sle v1|ctv3|X704h|Subacute cutaneous lupus erythematosus|
-|sle v1|ctv3|XE0da|Lupus nephritis|
-|sle v1|ctv3|XE0da|Lupus nephritis|
-|sle v1|ctv3|XM197|[EDTA] Lupus erythematosus associated with renal failure|
-|sle v1|ctv3|XaBE1|Renal tubulo-interstitial disord in systemic lupus erythemat|
-|sle v1|ctv3|XaC1J|Systemic lupus erythematosus with pericarditis|
-|sle v1|readv2|F3710|Polyneuropathy in disseminated lupus erythematosus|
-|sle v1|readv2|F3961|Myopathy due to disseminated lupus erythematosus|
-|sle v1|readv2|F4D33|Eyelid discoid lupus erythematosus|
-|sle v1|readv2|H57y4|Lung disease with systemic lupus erythematosus|
-|sle v1|readv2|K01x4|Lupus nephritis|
-|sle v1|readv2|K01x4|Nephrotic syndrome in systemic lupus erythematosus|
-|sle v1|readv2|M154.|Lupus erythematosus|
-|sle v1|readv2|M1540|Lupus erythematosus chronicus|
-|sle v1|readv2|M1541|Discoid lupus erythematosus|
-|sle v1|readv2|M1542|Lupus erythematosus migrans|
-|sle v1|readv2|M1543|Lupus erythematosus nodularis|
-|sle v1|readv2|M1544|Lupus erythematosus profundus|
-|sle v1|readv2|M1545|Lupus erythematosus tumidus|
-|sle v1|readv2|M1546|Lupus erythematosus unguium mutilans|
-|sle v1|readv2|M154z|Lupus erythematosus NOS|
-|sle v1|readv2|Myu78|[X]Other local lupus erythematosus|
-|sle v1|readv2|N000.|Systemic lupus erythematosus|
-|sle v1|readv2|N0002|Drug-induced systemic lupus erythematosus|
-|sle v1|readv2|N000z|Systemic lupus erythematosus NOS|
-|sle v1|readv2|Nyu43|[X]Other forms of systemic lupus erythematosus|
-|vasculitis v1|ctv3|C3321|Cryoglobulinaemic vasculitis|
-|vasculitis v1|ctv3|X205F|Secondary systemic vasculitis|
-|vasculitis v1|ctv3|X205G|Vasculitis secondary to drug|
-|vasculitis v1|ctv3|X701l|Rheumatoid vasculitis|
-|vasculitis v1|ctv3|X705w|Lupus vasculitis|
-|vasculitis v1|ctv3|X205D|Systemic vasculitis|
-|vasculitis v1|ctv3|X705t|Nailfold rheumatoid vasculitis|
-|vasculitis v1|ctv3|X705u|Systemic rheumatoid vasculitis|
-|vasculitis v1|ctv3|X705v|Necrotising rheumatoid vasculitis|
-|vasculitis v1|ctv3|G76B.|Vasculitis|
-|vasculitis v1|ctv3|X7061|Essential cryoglobulinaemic vasculitis|
-|vasculitis v1|ctv3|X50BC|Primary cutaneous vasculitis|
-|vasculitis v1|ctv3|X50BG|Gougerot-Ruiter vasculitis|
-|vasculitis v1|ctv3|X705x|Hypocomplementaemic vasculitis|
-|vasculitis v1|ctv3|X50BI|Secondary cutaneous vasculitis|
-|vasculitis v1|ctv3|Myu7A|[X]Other vasculitis limited to the skin|
-|vasculitis v1|ctv3|Myu7G|[X]Vasculitis limited to skin, unspecified|
-|vasculitis v1|ctv3|X50BK|Nodular vasculitis|
-|vasculitis v1|ctv3|X00Dw|Cerebral arteritis in systemic vasculitis|
-|vasculitis v1|ctv3|X00Dz|Primary central nervous system granulomatous vasculitis|
-|vasculitis v1|ctv3|X705i|Churg-Strauss vasculitis|
-|vasculitis v1|ctv3|F421E|Retinal vasculitis NOS|
-|vasculitis v1|ctv3|X00dO|Retinal vasculitis|
-|vasculitis v1|ctv3|X309p|Peritoneal vasculitis|
-|vasculitis v1|ctv3|XaXlI|H/O vasculitis|
-|vasculitis v1|ctv3|D310.|Allergic purpura|
-|vasculitis v1|ctv3|D3100|Acute vascular purpura|
-|vasculitis v1|ctv3|F371.|Neuropathy in vasculitis and connective tissue disease|
-|vasculitis v1|ctv3|G750.|(Polyarteritis nodosa) or (necrotising angiitis)|
-|vasculitis v1|ctv3|G750.|Polyarteritis nodosa|
-|vasculitis v1|ctv3|G752.|Hypersensitivity: [angiitis] or [arteritis]|
-|vasculitis v1|ctv3|G752z|Hypersensitivity angiitis NOS|
-|vasculitis v1|ctv3|X203B|Post-arteritic pulmonary hypertension|
-|vasculitis v1|ctv3|XE0VV|Hypersensitivity angiitis|
-|vasculitis v1|readv2|M2y0X00|Vasculitis limited to skin, unspecified|
-|vasculitis v1|readv2|M2y0200|Livedoid vasculitis|
-|vasculitis v1|readv2|Myu7G00|[X]Vasculitis limited to skin, unspecified|
-|vasculitis v1|readv2|Myu7A00|[X]Other vasculitis limited to the skin|
-|vasculitis v1|readv2|M152.11|Nodular vasculitis|
-|vasculitis v1|readv2|C332100|Cryoglobulinaemic vasculitis|
-|vasculitis v1|readv2|F421E00|Retinal vasculitis NOS|
-|vasculitis v1|readv2|G758.00|Churg-Strauss vasculitis|
-|vasculitis v1|readv2|G76B.00|Vasculitis|
-|vasculitis v1|readv2|N040N00|Rheumatoid vasculitis|
-|vasculitis v1|readv2|D310.|Allergic purpura|
-|vasculitis v1|readv2|D3100|Acute vascular purpura|
-|vasculitis v1|readv2|F371.|Polyneuropathy in collagen vascular disease|
-|vasculitis v1|readv2|G750.|Necrotising angiitis|
-|vasculitis v1|readv2|G750.|Polyarteritis nodosa|
-|vasculitis v1|readv2|G752.|Hypersensitivity angiitis|
-|vasculitis v1|readv2|G752z|Hypersensitivity angiitis NOS|
-|vasculitis v1|readv2|M152.|Erythema nodosum|
-|vasculitis v1|snomed|228007|Lucio phenomenon (disorder)|
-|vasculitis v1|snomed|9177003|Histiocytic vasculitis of skin (disorder)|
-|vasculitis v1|snomed|11791001|Necrotizing vasculitis (disorder)|
-|vasculitis v1|snomed|31996006|Vasculitis (disorder)|
-|vasculitis v1|snomed|46286007|Lymphocytic vasculitis of skin (disorder)|
-|vasculitis v1|snomed|46956008|Polyangiitis|
-|vasculitis v1|snomed|53312001|Vasculitis of the skin (disorder)|
-|vasculitis v1|snomed|55275006|Non-tubercular erythema induratum|
-|vasculitis v1|snomed|56780006|Segmental hyalinizing vasculitis (disorder)|
-|vasculitis v1|snomed|60555002|Hypersensitivity angiitis (disorder)|
-|vasculitis v1|snomed|64832003|Neutrophilic vasculitis of skin (disorder)|
-|vasculitis v1|snomed|77628002|Retinal vasculitis (disorder)|
-|vasculitis v1|snomed|95578000|Renal vasculitis (disorder)|
-|vasculitis v1|snomed|190815001|Cryoglobulinemic vasculitis (disorder)|
-|vasculitis v1|snomed|191306005|Henoch-Schönlein purpura (disorder)|
-|vasculitis v1|snomed|230731002|Cerebral arteritis in systemic vasculitis (disorder)|
-|vasculitis v1|snomed|230733004|Isolated angiitis of central nervous system (disorder)|
-|vasculitis v1|snomed|234019004|Secondary systemic vasculitis (disorder)|
-|vasculitis v1|snomed|234020005|Vasculitis caused by drug|
-|vasculitis v1|snomed|238762002|Livedoid vasculitis (disorder)|
-|vasculitis v1|snomed|238785001|Primary cutaneous vasculitis (disorder)|
-|vasculitis v1|snomed|238786000|Gougerot-Ruiter purpura (disorder)|
-|vasculitis v1|snomed|238787009|Secondary cutaneous vasculitis (disorder)|
-|vasculitis v1|snomed|239924002|Primary necrotizing systemic vasculitis (disorder)|
-|vasculitis v1|snomed|239933000|Primary necrotizing vasculitis with granulomata (disorder)|
-|vasculitis v1|snomed|239941000|Nailfold rheumatoid vasculitis (disorder)|
-|vasculitis v1|snomed|239942007|Systemic rheumatoid vasculitis (disorder)|
-|vasculitis v1|snomed|239943002|Necrotizing rheumatoid vasculitis (disorder)|
-|vasculitis v1|snomed|239944008|Lupus erythematosus-associated vasculitis|
-|vasculitis v1|snomed|239945009|Hypocomplementemic urticarial vasculitis (disorder)|
-|vasculitis v1|snomed|239947001|Essential mixed cryoglobulinemia (disorder)|
-|vasculitis v1|snomed|400054000|Rheumatoid vasculitis|
-|vasculitis v1|snomed|402416000|Urticarial vasculitis with monoclonal immunoglobulin M component, Schnitzler|
-|vasculitis v1|snomed|402655006|Necrotizing cutaneous vasculitis|
-|vasculitis v1|snomed|402656007|Urticarial vasculitis|
-|vasculitis v1|snomed|402657003|Necrotizing vasculitis secondary to connective tissue disease|
-|vasculitis v1|snomed|402658008|Serum sickness type vasculitis|
-|vasculitis v1|snomed|402659000|Drug-induced necrotizing vasculitis|
-|vasculitis v1|snomed|402660005|Necrotizing vasculitis secondary to infection|
-|vasculitis v1|snomed|402661009|Paraneoplastic vasculitis|
-|vasculitis v1|snomed|402662002|Necrotizing vasculitis due to mixed cryoglobulinemia|
-|vasculitis v1|snomed|402663007|Pustular vasculitis|
-|vasculitis v1|snomed|402664001|Localized cutaneous vasculitis|
-|vasculitis v1|snomed|402855009|Normocomplementemic urticarial vasculitis|
-|vasculitis v1|snomed|402859003|Necrotizing vasculitis of undetermined etiology|
-|vasculitis v1|snomed|402958005|Pustular vasculitis due to gonococcal bacteremia|
-|vasculitis v1|snomed|403510002|Urticarial vasculitis due to lupus erythematosus|
-|vasculitis v1|snomed|403511003|Necrotizing vasculitis due to lupus erythematosus|
-|vasculitis v1|snomed|403518009|Necrotizing vasculitis due to scleroderma|
-|vasculitis v1|snomed|403616000|Drug-induced lymphocytic vasculitis|
-|vasculitis v1|snomed|407530004|Primary systemic vasculitis|
-|vasculitis v1|snomed|416703007|Retinal vasculitis due to polyarteritis nodosa|
-|vasculitis v1|snomed|417303004|Retinal vasculitis due to systemic lupus erythematosus|
-|vasculitis v1|snomed|427020007|Cerebral vasculitis|
-|vasculitis v1|snomed|427213005|Autoimmune vasculitis|
-|vasculitis v1|snomed|427356003|Eosinophilic vasculitis of skin|
-|vasculitis v1|snomed|718217000|Cutaneous small vessel vasculitis|
-|vasculitis v1|snomed|721664001|Mesenteric arteritis|
-|vasculitis v1|snomed|722191003|Antineutrophil cytoplasmic antibody (ANCA) positive vasculitis|
-|vasculitis v1|snomed|722858009|Vasculitis of large intestine|
-|vasculitis v1|snomed|724063005|Postinfective vasculitis|
-|vasculitis v1|snomed|724597006|Large vessel vasculitis|
-|vasculitis v1|snomed|724598001|Medium sized vessel vasculitis|
-|vasculitis v1|snomed|724599009|Small vessel vasculitis|
-|vasculitis v1|snomed|724600007|Immune complex small vessel vasculitis|
-|vasculitis v1|snomed|724601006|Vasculitis caused by antineutrophil cytoplasmic antibody|
-|vasculitis v1|snomed|724602004|Single organ vasculitis|
-|vasculitis v1|snomed|724996005|Vasculitic lumbosacral plexopathy|
-|vasculitis v1|snomed|737184001|Interstitial lung disease with systemic vasculitis|
-|vasculitis v1|snomed|762302008|Drug-associated immune complex vasculitis|
-|vasculitis v1|snomed|762352004|Demyelination due to systemic vasculitis|
-|vasculitis v1|snomed|762537007|Livedoid vasculitis of lower limb due to varicose veins of lower limb|
-|vasculitis v1|snomed|985941000000100|Medium vessel vasculitis (disorder)|
-|vasculitis v1|snomed|101711000119105|Glomerulonephritis co-occurrent and due to antineutrophil cytoplasmic antibody positive vasculitis|
-|vasculitis v1|snomed|985971000000106|Sarcoid vasculitis (disorder)|
-|vasculitis v1|snomed|988101000000109|Vasculitis co-occurrent and due to Hepatitis B virus infection (disorder)|
-|vasculitis v1|snomed|988081000000103|Antineutrophil cytoplasmic antibody associated vasculitis caused by drug (disorder)|
-|vasculitis v1|snomed|988111000000106|Cryoglobulinaemic vasculitis co-occurrent and due to Hepatitis C virus infection (disorder)|
-|vasculitis v1|snomed|233948000|Pulmonary hypertension in vasculitis|
-|vasculitis v1|snomed|703355003|Pulmonary hypertension due to vasculitis (disorder)|
-|vasculitis v1|snomed|404658009|Optic disc vasculitis|
-|vasculitis v1|snomed|193177003|Polyneuropathy in collagen vascular disease (disorder)|
-|vasculitis v1|snomed|472974007|History of vasculitis|
-|gout v1|ctv3|XabbG|Acute exacerbation of gout |
-|gout v1|ctv3|C34z.|Gout NOS |
-|gout v1|ctv3|C34yz|Other specified gouty manifestation NOS|
-|gout v1|ctv3|X40UW|Primary gout |
-|gout v1|ctv3|X702o|Secondary gout |
-|gout v1|ctv3|X702q|Gout secondary to drug |
-|gout v1|ctv3|X702s|Gout secondary to enzyme defect |
-|gout v1|ctv3|X702r|Gout secondary to lead |
-|gout v1|ctv3|X702p|Gout secondary to renal impairment |
-|gout v1|ctv3|XM19g|[EDTA] Gout associated with renal failure|
-|gout v1|ctv3|Nyu17|Other secondary gout |
-|gout v1|readv2|Nyu17|[X]Other secondary gout|
-|gout v1|readv2|C34z.|Gout NOS|
-|gout v1|readv2|C34..|Gout|
-|gout v1|readv2|C342.|Idiopathic gout|
-|gout v1|readv2|C344.|Drug-induced gout|
-|gout v1|readv2|C345.|Gout due to impairment of renal function|
-|gout v1|readv2|C346.|Acute exacerbation of gout|
-|gout v1|readv2|C34yz|Other specified gouty manifestation NOS|
-|gout v1|snomed|239843003|[X]Other secondary gout|
-|gout v1|snomed|924311000000106|Acute exacerbation of gout|
-|gout v1|snomed|239844009|Gout due impairment renal func|
-|gout v1|snomed|90560007|Gout NOS|
-|gout v1|snomed|239845005|Gout secondary to drug|
-|gout v1|snomed|239847002|Gout secondary to enzym defect|
-|gout v1|snomed|239846006|Gout secondary to lead|
-|gout v1|snomed|24595009|Primary gout|
-|haematuria v1|ctv3|14D5.|H/O: haematuria|
-|haematuria v1|ctv3|1A45.|Blood in urine (& symptom)|
-|haematuria v1|ctv3|4625|Urine: red - blood|
-|haematuria v1|ctv3|4693|Urine: trace non-haemol. blood|
-|haematuria v1|ctv3|4694|Urine: trace haemolysed blood|
-|haematuria v1|ctv3|46G2.|Urine microscopy blood cells present: (& RBC)|
-|haematuria v1|ctv3|K0321|Recurrent benign haematuria syndrome|
-|haematuria v1|ctv3|K0A2.|Recurrent and persistent haematuria|
-|haematuria v1|ctv3|K0A20|Recurrent and persistent haematuria, minor glomerular abnormality|
-|haematuria v1|ctv3|K0A21|Recurrent and persistent haematuria, focal and segmental glomerular lesions|
-|haematuria v1|ctv3|K0A22|Recurrent and persistent haematuria, diffuse membranous glomerulonephritis|
-|haematuria v1|ctv3|K0A23|Recurrent and persistent haematuria, diffuse mesangial proliferative glomerulonephritis|
-|haematuria v1|ctv3|K0A24|Recurrent and persistent haematuria, diffuse endocapillary proliferative glomerulonephritis|
-|haematuria v1|ctv3|K0A25|Recurrent and persistent haematuria, diffuse mesangiocapillary glomerulonephritis|
-|haematuria v1|ctv3|K0A26|Recurrent and persistent haematuria, dense deposit disease|
-|haematuria v1|ctv3|K0A27|Recurrent and persistent haematuria, diffuse crescentic glomerulonephritis|
-|haematuria v1|ctv3|K197.|Traumatic haematuria|
-|haematuria v1|ctv3|K1970|Painless haematuria|
-|haematuria v1|ctv3|K1971|Painful haematuria|
-|haematuria v1|ctv3|K1972|Microscopic haematuria|
-|haematuria v1|ctv3|K1973|Frank haematuria|
-|haematuria v1|ctv3|K1974|Clot haematuria|
-|haematuria v1|ctv3|X30Ih|Benign familial haematuria|
-|haematuria v1|ctv3|X30Pw|Traumatic haematuria|
-|haematuria v1|ctv3|X30Px|Loin pain - haematuria syndrome|
-|haematuria v1|ctv3|X30Pz|Upper urinary tract haematuria|
-|haematuria v1|ctv3|X30Q0|Chemical haematuria|
-|haematuria v1|ctv3|Xa04u|Blood in urine|
-|haematuria v1|ctv3|Xa1cp|RBCs- red blood cells in urine|
-|haematuria v1|ctv3|Xa1uI|Persistent frank haematuria|
-|haematuria v1|ctv3|Xa1uJ|Recurrent frank haematuria|
-|haematuria v1|ctv3|Xa1uK|Persistent microscopic haematuria|
-|haematuria v1|ctv3|Xa1uL|Recurrent microscopic haematuria|
-|haematuria v1|ctv3|Xa1uM|Persistent haematuria|
-|haematuria v1|ctv3|Xa1uN|Recurrent haematuria|
-|haematuria v1|ctv3|Xaafu|Referral to haematuria clinic|
-|haematuria v1|ctv3|XaB5q|Haematuria NOS|
-|haematuria v1|ctv3|XE0e5|Essential haematuria|
-|haematuria v1|ctv3|XE0rU|Blood in urine - haematuria|
-|haematuria v1|ctv3|XE0ul|Blood - urine - symptom|
-|haematuria v1|ctv3|XE0un|Blood in urine - haematuria|
-|haematuria v1|ctv3|8T10.|Referral to haematuria clinic|
-|haematuria v1|ctv3|K1975|Benign familial haematuria|
-|haematuria v1|emis|EMISNQRE95|Referred to haematuria clinic|
-|haematuria v1|emis|EMISNQSE31|Seen in haematuria clinic|
-|haematuria v1|emis|EMISNQHA60|Haematuria associated with urinary catheter|
-|haematuria v1|readv2|14D5.|H/O: haematuria|
-|haematuria v1|readv2|1A45.|Blood in urine - haematuria|
-|haematuria v1|readv2|4625|Urine: red - blood|
-|haematuria v1|readv2|4693|Urine: trace non-haemol. blood|
-|haematuria v1|readv2|4694|Urine: trace haemolysed blood|
-|haematuria v1|readv2|46G2.|RBCs- red blood cells in urine|
-|haematuria v1|readv2|8T10.|Referral to haematuria clinic|
-|haematuria v1|readv2|K0321|Recurrent benign haematuria syndrome|
-|haematuria v1|readv2|K0A2.|Recurrent and persistent haematuria|
-|haematuria v1|readv2|K0A20|Recurrent and persistent haematuria, minor glomerular abnormality|
-|haematuria v1|readv2|K0A21|Recurrent and persistent haematuria, focal and segmental glomerular lesions|
-|haematuria v1|readv2|K0A22|Recurrent and persistent haematuria, diffuse membranous glomerulonephritis|
-|haematuria v1|readv2|K0A23|Recurrent and persistent haematuria, diffuse mesangial proliferative glomerulonephritis|
-|haematuria v1|readv2|K0A24|Recurrent and persistent haematuria, diffuse endocapillary proliferative glomerulonephritis|
-|haematuria v1|readv2|K0A25|Recurrent and persistent haematuria, diffuse mesangiocapillary glomerulonephritis|
-|haematuria v1|readv2|K0A26|Recurrent and persistent haematuria, dense deposit disease|
-|haematuria v1|readv2|K0A27|Recurrent and persistent haematuria, diffuse crescentic glomerulonephritis|
-|haematuria v1|readv2|K197.|Haematuria|
-|haematuria v1|readv2|K1970|Painless haematuria|
-|haematuria v1|readv2|K1971|Painful haematuria|
-|haematuria v1|readv2|K1972|Microscopic haematuria|
-|haematuria v1|readv2|K1973|Frank haematuria|
-|haematuria v1|readv2|K1974|Clot haematuria|
-|haematuria v1|readv2|K1975|Benign familial haematuria|
-|haematuria v1|snomed|53298000|Hematuria syndrome (disorder) |
-|haematuria v1|snomed|34436003|Blood in urine (finding) |
-|haematuria v1|snomed|86208007|Loin pain-hematuria syndrome (disorder)|
-|haematuria v1|snomed|20407004|Benign hematuria |
-|haematuria v1|snomed|236718002|Chemical hematuria |
-|haematuria v1|snomed|399094007|Familial hematuria |
-|haematuria v1|snomed|197941005|Frank hematuria |
-|haematuria v1|snomed|197942003|Clot hematuria |
-|haematuria v1|snomed|281855006|Persistent frank hematuria |
-|haematuria v1|snomed|281856007|Recurrent frank hematuria |
-|haematuria v1|snomed|367171000119100|Hematuria co-occurrent and due to cystitis |
-|haematuria v1|snomed|366941000119107|Hematuria co-occurrent and due to acute cystitis |
-|haematuria v1|snomed|368971000119101|Hematuria co-occurrent and due to chronic cystitis |
-|haematuria v1|snomed|367661000119102|Hematuria co-occurrent and due to chronic interstitial cystitis |
-|haematuria v1|snomed|368371000119102|Hematuria co-occurrent and due to trigonitis |
-|haematuria v1|snomed|367671000119108|Hematuria co-occurrent and due to irradiation cystitis |
-|haematuria v1|snomed|719551008|Hematuria due to radiation cystitis |
-|haematuria v1|snomed|314280007|Hematuria of undiagnosed cause |
-|haematuria v1|snomed|197940006|Microscopic hematuria |
-|haematuria v1|snomed|16698651000119100|Asymptomatic microscopic hematuria |
-|haematuria v1|snomed|367011000119109|Benign essential microscopic hematuria |
-|haematuria v1|snomed|281857003|Persistent microscopic hematuria |
-|haematuria v1|snomed|281858008|Recurrent microscopic hematuria |
-|haematuria v1|snomed|197939009|Painful hematuria |
-|haematuria v1|snomed|197938001|Painless hematuria |
-|haematuria v1|snomed|281859000|Persistent hematuria |
-|haematuria v1|snomed|281855006|Persistent frank hematuria |
-|haematuria v1|snomed|714814006|Persistent hematuria co-occurrent and due to dense deposit disease |
-|haematuria v1|snomed|714816008|Persistent hematuria co-occurrent and due to diffuse crescentic glomerulonephritis |
-|haematuria v1|snomed|714818009|Persistent hematuria co-occurrent and due to diffuse endocapillary proliferative glomerulonephritis |
-|haematuria v1|snomed|714822004|Persistent hematuria co-occurrent and due to diffuse membranous glomerulonephritis |
-|haematuria v1|snomed|714826001|Persistent hematuria co-occurrent and due to diffuse mesangial proliferative glomerulonephritis |
-|haematuria v1|snomed|714820007|Persistent hematuria co-occurrent and due to diffuse mesangiocapillary glomerulonephritis |
-|haematuria v1|snomed|714828000|Persistent hematuria co-occurrent and due to focal and segmental glomerular lesions |
-|haematuria v1|snomed|714824003|Persistent hematuria co-occurrent and due to minor glomerular abnormality |
-|haematuria v1|snomed|281857003|Persistent microscopic hematuria |
-|haematuria v1|snomed|281860005|Recurrent hematuria |
-|haematuria v1|snomed|197627003|Recurrent benign hematuria syndrome |
-|haematuria v1|snomed|281856007|Recurrent frank hematuria |
-|haematuria v1|snomed|714813000|Recurrent hematuria co-occurrent and due to dense deposit disease |
-|haematuria v1|snomed|714815007|Recurrent hematuria co-occurrent and due to diffuse crescentic glomerulonephritis |
-|haematuria v1|snomed|714817004|Recurrent hematuria co-occurrent and due to diffuse endocapillary proliferative glomerulonephritis |
-|haematuria v1|snomed|714821006|Recurrent hematuria co-occurrent and due to diffuse membranous glomerulonephritis |
-|haematuria v1|snomed|714825002|Recurrent hematuria co-occurrent and due to diffuse mesangial proliferative glomerulonephritis |
-|haematuria v1|snomed|714819001|Recurrent hematuria co-occurrent and due to diffuse mesangiocapillary glomerulonephritis |
-|haematuria v1|snomed|714827005|Recurrent hematuria co-occurrent and due to focal and segmental glomerular lesions |
-|haematuria v1|snomed|714823009|Recurrent hematuria co-occurrent and due to minor glomerular abnormality |
-|haematuria v1|snomed|281858008|Recurrent microscopic hematuria |
-|haematuria v1|snomed|371020003|Renal hematuria |
-|haematuria v1|snomed|7724006|Nephritic syndrome |
-|haematuria v1|snomed|236717007|Upper urinary tract hematuria |
-|non-alc-fatty-liver-disease v1|ctv3|J61y1|Non-alcoholic fatty liver|
-|non-alc-fatty-liver-disease v1|readv2|J61y1|Non-alcoholic fatty liver|
-|non-alc-fatty-liver-disease v1|snomed|197315008|Non-alcoholic fatty liver|
-|renal-replacement-therapy v1|ctv3|14S2.|H/O: kidney recipient|
-|renal-replacement-therapy v1|ctv3|7A600|Insertion of arteriovenous prosthesis|
-|renal-replacement-therapy v1|ctv3|7A602|Attention to arteriovenous shunt|
-|renal-replacement-therapy v1|ctv3|7A603|Removal of infected arteriovenous shunt|
-|renal-replacement-therapy v1|ctv3|7A60y|Other specified arteriovenous shunt|
-|renal-replacement-therapy v1|ctv3|7A60z|Arteriovenous shunt NOS|
-|renal-replacement-therapy v1|ctv3|7A614|Ligation of acquired arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|7A6E2|Declotting of thigh vein loop|
-|renal-replacement-therapy v1|ctv3|7B00.|Renal transplant|
-|renal-replacement-therapy v1|ctv3|7B001|Live donor renal transplant|
-|renal-replacement-therapy v1|ctv3|7B002|Cadaveric renal transplant|
-|renal-replacement-therapy v1|ctv3|7B00y|Other specified transplantation of kidney|
-|renal-replacement-therapy v1|ctv3|7B00z|Transplantation of kidney NOS|
-|renal-replacement-therapy v1|ctv3|7L1A.|Compensation for renal failure (& dialysis)|
-|renal-replacement-therapy v1|ctv3|7L1A0|(Renal dialysis) or (Thomas intravascular dialysis shunt)|
-|renal-replacement-therapy v1|ctv3|7L1A1|Peritoneal dialysis|
-|renal-replacement-therapy v1|ctv3|7L1A2|Haemodialysis NEC|
-|renal-replacement-therapy v1|ctv3|7L1Ay|Other specified compensation for renal failure|
-|renal-replacement-therapy v1|ctv3|7L1Az|Compensation for renal failure NOS|
-|renal-replacement-therapy v1|ctv3|7L1B.|Chronic ambulatory peritoneal dialysis catheter procedure ++|
-|renal-replacement-therapy v1|ctv3|7L1B0|Insertion of chronic ambulatory peritoneal dialysis catheter|
-|renal-replacement-therapy v1|ctv3|7L1B1|Removal of chronic ambulatory peritoneal dialysis catheter|
-|renal-replacement-therapy v1|ctv3|7L1By|Placement ambulatory apparatus- compensate renal failure OS|
-|renal-replacement-therapy v1|ctv3|7L1Bz|Placement ambulatory apparatus- compensate renal failure NOS|
-|renal-replacement-therapy v1|ctv3|7L1C.|Placement other apparatus for compensation for renal failure|
-|renal-replacement-therapy v1|ctv3|7L1C0|Insertion of temporary peritoneal dialysis catheter|
-|renal-replacement-therapy v1|ctv3|7L1Cy|Placement other apparatus- compensate for renal failure OS|
-|renal-replacement-therapy v1|ctv3|7L1Cz|Placement other apparatus- compensate for renal failure NOS|
-|renal-replacement-therapy v1|ctv3|8877|Ultrafiltration|
-|renal-replacement-therapy v1|ctv3|8882|Intestinal dialysis|
-|renal-replacement-therapy v1|ctv3|G760.|Acquired arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|TA020|Accid cut,puncture,perf,h'ge - kidney dialysis|
-|renal-replacement-therapy v1|ctv3|TA02z|Accid cut,puncture,perf,h'ge - perfusion NOS|
-|renal-replacement-therapy v1|ctv3|TA22.|Failure of sterile precautions during perfusion|
-|renal-replacement-therapy v1|ctv3|TA220|Failure of sterile precautions during kidney dialysis|
-|renal-replacement-therapy v1|ctv3|TA22y|Failure of sterile precautions during other perfusion|
-|renal-replacement-therapy v1|ctv3|TA22z|Failure of sterile precautions during perfusion NOS|
-|renal-replacement-therapy v1|ctv3|TA420|Mech failure of instrument &/or apparatus during kidney dial|
-|renal-replacement-therapy v1|ctv3|TB11.|Kidney dialysis with complication, without blame|
-|renal-replacement-therapy v1|ctv3|TB11.|Kidney dialysis with complication, without blame|
-|renal-replacement-therapy v1|ctv3|U6122|[X]Failure sterile precautions dur kidney dialys/other perf|
-|renal-replacement-therapy v1|ctv3|Ua1IM|Chronic peritoneal dialysis|
-|renal-replacement-therapy v1|ctv3|Ua1IN|Stab peritoneal dialysis|
-|renal-replacement-therapy v1|ctv3|X018M|Creation of Cimino fistula|
-|renal-replacement-therapy v1|ctv3|X018M|Creation of Cimino fistula|
-|renal-replacement-therapy v1|ctv3|X018N|Creation brachiocephalic fistula|
-|renal-replacement-therapy v1|ctv3|X018T|Angioplasty of arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|X018U|Thrombolysis of arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|X018V|Thrombolysis of arteriovenous graft|
-|renal-replacement-therapy v1|ctv3|X018Y|Embolectomy of arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|X018Z|Embolectomy of arteriovenous graft|
-|renal-replacement-therapy v1|ctv3|X018a|Procedure on intraluminal device of arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|X018b|Insertion of intraluminal device into arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|X018c|Insertion of stent into arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|X018d|Removal of intraluminal device from arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|X018e|Removal of stent from arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|X018f|Adjustment of intraluminal device of arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|X018g|Adjustment of arteriovenous fistula stent|
-|renal-replacement-therapy v1|ctv3|X018j|Banding of arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|X018n|Exploration of arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|X018o|Exploration of arteriovenous graft|
-|renal-replacement-therapy v1|ctv3|X01AF|Intermittent haemodialysis|
-|renal-replacement-therapy v1|ctv3|X01AG|Intermittent haemodialysis with sequential ultrafiltration|
-|renal-replacement-therapy v1|ctv3|X01AH|Intermittent haemodialysis with continuous ultrafiltration|
-|renal-replacement-therapy v1|ctv3|X01AI|Continuous haemodialysis|
-|renal-replacement-therapy v1|ctv3|X01AJ|Continuous arteriovenous haemodialysis|
-|renal-replacement-therapy v1|ctv3|X01AK|Continuous venovenous haemodialysis|
-|renal-replacement-therapy v1|ctv3|X01AL|Haemofiltration|
-|renal-replacement-therapy v1|ctv3|X01AM|Intermittent haemofiltration|
-|renal-replacement-therapy v1|ctv3|X01AN|Continuous haemofiltration|
-|renal-replacement-therapy v1|ctv3|X01AO|Continuous arteriovenous haemofiltration|
-|renal-replacement-therapy v1|ctv3|X01AP|Continuous venovenous haemofiltration|
-|renal-replacement-therapy v1|ctv3|X01AQ|Haemodiafiltration|
-|renal-replacement-therapy v1|ctv3|X01AR|Intermittent haemodiafiltration|
-|renal-replacement-therapy v1|ctv3|X01AS|Continuous haemodiafiltration|
-|renal-replacement-therapy v1|ctv3|X01AT|Continuous arteriovenous haemodiafiltration|
-|renal-replacement-therapy v1|ctv3|X01AU|Continuous venovenous haemodiafiltration|
-|renal-replacement-therapy v1|ctv3|X01AY|Plasma filtration|
-|renal-replacement-therapy v1|ctv3|X30D2|Xenograft renal transplant|
-|renal-replacement-therapy v1|ctv3|X30J0|End stage renal failure|
-|renal-replacement-therapy v1|ctv3|X30J1|End stage renal failure, untreated by RRT|
-|renal-replacement-therapy v1|ctv3|X30J2|End stage renal failure on dialysis|
-|renal-replacement-therapy v1|ctv3|X30J3|End stage renal failure with renal transplant|
-|renal-replacement-therapy v1|ctv3|X30Lp|Disorder associated with dialysis|
-|renal-replacement-therapy v1|ctv3|X30Lq|Acute disorder of haemodialysis|
-|renal-replacement-therapy v1|ctv3|X30Lr|Dialysis disequilibrium|
-|renal-replacement-therapy v1|ctv3|X30Ls|First use syndrome of dialysis|
-|renal-replacement-therapy v1|ctv3|X30Lt|Anaphylactoid reaction to dialysis|
-|renal-replacement-therapy v1|ctv3|X30Lu|Hyperchloraemic acidosis associated with dialysis|
-|renal-replacement-therapy v1|ctv3|X30Lv|Hard water syndrome|
-|renal-replacement-therapy v1|ctv3|X30Lw|Long-term disorder of dialysis|
-|renal-replacement-therapy v1|ctv3|X30Lx|Beta-2 microglobulin amyloidosis|
-|renal-replacement-therapy v1|ctv3|X30Ly|Beta-2 microglobulin arthropathy|
-|renal-replacement-therapy v1|ctv3|X30Lz|Matrix stone formation of dialysis|
-|renal-replacement-therapy v1|ctv3|X30M0|Aluminium intoxication|
-|renal-replacement-therapy v1|ctv3|X30M1|Aluminium bone disease|
-|renal-replacement-therapy v1|ctv3|X30M2|Aluminium-related osteomalacia|
-|renal-replacement-therapy v1|ctv3|X30M3|Aluminium-related fracturing osteodystrophy|
-|renal-replacement-therapy v1|ctv3|X30M4|Polyserositis syndrome of dialysis|
-|renal-replacement-therapy v1|ctv3|X30M5|Underdialysis|
-|renal-replacement-therapy v1|ctv3|X30M6|Adynamic bone disease|
-|renal-replacement-therapy v1|ctv3|X30M7|Disorders associated with peritoneal dialysis|
-|renal-replacement-therapy v1|ctv3|X30M8|Pain during inflow of dialysate|
-|renal-replacement-therapy v1|ctv3|X30M9|Pain during outflow of dialysate|
-|renal-replacement-therapy v1|ctv3|X30MB|Bloodstained peritoneal dialysis effluent|
-|renal-replacement-therapy v1|ctv3|X30MC|Peritoneal dialysis catheter exit site infection|
-|renal-replacement-therapy v1|ctv3|X30MD|Peritoneal dialysis catheter tunnel infection|
-|renal-replacement-therapy v1|ctv3|X30ME|Loss of ultrafiltration|
-|renal-replacement-therapy v1|ctv3|X30MF|Loss of solute clearance|
-|renal-replacement-therapy v1|ctv3|X30MG|Disorder of peritoneal dialysis catheter|
-|renal-replacement-therapy v1|ctv3|X30MH|Obstruction of peritoneal dialysis catheter|
-|renal-replacement-therapy v1|ctv3|X30MI|Migration of peritoneal dialysis catheter|
-|renal-replacement-therapy v1|ctv3|X30MJ|Omental wrapping around peritoneal dialysis catheter|
-|renal-replacement-therapy v1|ctv3|X30MK|Poor drainage of peritoneal dialysis catheter|
-|renal-replacement-therapy v1|ctv3|X30ML|Extrusion of peritoneal dialysis catheter cuff|
-|renal-replacement-therapy v1|ctv3|X30MM|Misplacement of acute peritoneal dialysis catheter|
-|renal-replacement-therapy v1|ctv3|X30MN|Renal transplant disorder|
-|renal-replacement-therapy v1|ctv3|X30MO|Primary non-function of renal transplant|
-|renal-replacement-therapy v1|ctv3|X30MP|Renal transplant rejection|
-|renal-replacement-therapy v1|ctv3|X30MQ|Hyperacute rejection of renal transplant|
-|renal-replacement-therapy v1|ctv3|X30MR|Accelerated rejection of renal transplant|
-|renal-replacement-therapy v1|ctv3|X30MS|Very mild acute rejection of renal transplant|
-|renal-replacement-therapy v1|ctv3|X30MT|Acute rejection of renal transplant|
-|renal-replacement-therapy v1|ctv3|X30MU|Acute rejection of renal transplant - grade I|
-|renal-replacement-therapy v1|ctv3|X30MV|Acute rejection of renal transplant - grade II|
-|renal-replacement-therapy v1|ctv3|X30MW|Acute rejection of renal transplant - grade III|
-|renal-replacement-therapy v1|ctv3|X30MX|Chronic rejection of renal transplant|
-|renal-replacement-therapy v1|ctv3|X30MY|Chronic rejection of renal transplant - grade 1|
-|renal-replacement-therapy v1|ctv3|X30MZ|Chronic rejection of renal transplant - grade II|
-|renal-replacement-therapy v1|ctv3|X30Ma|Chronic rejection of renal transplant - grade III|
-|renal-replacement-therapy v1|ctv3|X30Mb|Acute-on-chronic rejection of renal transplant|
-|renal-replacement-therapy v1|ctv3|X30Mc|Failed renal transplant|
-|renal-replacement-therapy v1|ctv3|X30Md|Perfusion injury of renal transplant|
-|renal-replacement-therapy v1|ctv3|X30Mg|Transplant glomerulopathy|
-|renal-replacement-therapy v1|ctv3|X30Mh|Transplant glomerulopathy - early form|
-|renal-replacement-therapy v1|ctv3|X30Mi|Transplant glomerulopathy - late form|
-|renal-replacement-therapy v1|ctv3|X30NN|Perirenal and periureteric post-transplant lymphocele|
-|renal-replacement-therapy v1|ctv3|X40bz|Renewal of chronic ambulatory peritoneal dialysis catheter|
-|renal-replacement-therapy v1|ctv3|X40c0|Adjustment chronic ambulatory peritoneal dialysis catheter|
-|renal-replacement-therapy v1|ctv3|X40c1|Aspiration chronic ambulatory peritoneal dialysis catheter|
-|renal-replacement-therapy v1|ctv3|X40c2|Flushing of chronic ambulatory peritoneal dialysis catheter|
-|renal-replacement-therapy v1|ctv3|X40c3|Continuous ambulatory peritoneal dialysis|
-|renal-replacement-therapy v1|ctv3|X40c4|Continuous cycling peritoneal dialysis|
-|renal-replacement-therapy v1|ctv3|X40c5|Intermittent peritoneal dialysis|
-|renal-replacement-therapy v1|ctv3|X40c6|Tidal peritoneal dialysis|
-|renal-replacement-therapy v1|ctv3|X40c7|Night-time intermittent peritoneal dialysis|
-|renal-replacement-therapy v1|ctv3|XE0Fh|Creation of arteriovenous fistula NEC|
-|renal-replacement-therapy v1|ctv3|XE0Fh|Creation of arteriovenous fistula NEC|
-|renal-replacement-therapy v1|ctv3|XE0Fj|Repair of acquired arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|XE0Fj|Repair of acquired arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|XE0Jf|Compensation for renal failure|
-|renal-replacement-therapy v1|ctv3|XE0Jf|Compensation for renal failure|
-|renal-replacement-therapy v1|ctv3|XE0Jg|Renal dialysis|
-|renal-replacement-therapy v1|ctv3|XE0Jg|Renal dialysis|
-|renal-replacement-therapy v1|ctv3|XE0kD|Renal dialysis (& haemodialysis)|
-|renal-replacement-therapy v1|ctv3|XE21r|Mechanical failure of apparatus during kidney dialysis|
-|renal-replacement-therapy v1|ctv3|XE21r|Mechanical failure of apparatus during kidney dialysis|
-|renal-replacement-therapy v1|ctv3|XE2u6|Chronic ambulatory peritoneal dialysis catheter procedure|
-|renal-replacement-therapy v1|ctv3|Xa0Ex|Peritoneal dialysis-associated peritonitis|
-|renal-replacement-therapy v1|ctv3|Xa0FB|Percutaneous balloon angioplasty of arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|Xa0Gm|Percutaneous embolectomy of arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|Xa0H7|Percutaneous thrombolysis of arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|Xa0HK|Unexplained episode of renal transplant dysfunction|
-|renal-replacement-therapy v1|ctv3|Xa0HL|Pre-existing disease in renal transplant|
-|renal-replacement-therapy v1|ctv3|Xa0ol|Procedure related to surgical arteriovenous connection|
-|renal-replacement-therapy v1|ctv3|Xa0x1|Removal of arteriovenous shunt|
-|renal-replacement-therapy v1|ctv3|Xa1dw|Transplant kidney|
-|renal-replacement-therapy v1|ctv3|Xa24I|Acquired renal arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|Xa3x6|Kidney replacement|
-|renal-replacement-therapy v1|ctv3|Xa402|Extracorporeal kidney|
-|renal-replacement-therapy v1|ctv3|Xa8S7|Haemodialysis|
-|renal-replacement-therapy v1|ctv3|Xa8S7|Haemodialysis|
-|renal-replacement-therapy v1|ctv3|Xa9zl|Dependence on renal dialysis|
-|renal-replacement-therapy v1|ctv3|XaBrA|Haemodialysis procedure|
-|renal-replacement-therapy v1|ctv3|XaC2Z|[X] Peritoneal dialysis associated peritonitis|
-|renal-replacement-therapy v1|ctv3|XaE9T|Donor renal transplantation|
-|renal-replacement-therapy v1|ctv3|XaLiG|Thrombectomy of arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|XaLiH|Creation of graft fistula for dialysis|
-|renal-replacement-therapy v1|ctv3|XaM1o|Allotransplantation of kidney from cadaver, heart-beating|
-|renal-replacement-therapy v1|ctv3|XaM1p|Allotransplantation kidney from cadaver, heart non-beating|
-|renal-replacement-therapy v1|ctv3|XaM2A|Automated peritoneal dialysis|
-|renal-replacement-therapy v1|ctv3|XaMKM|Allotransplantation of kidney from cadaver NEC|
-|renal-replacement-therapy v1|ctv3|XaMMt|Peritoneal dialysis NEC|
-|renal-replacement-therapy v1|ctv3|XaMtq|Extracorporeal albumin haemodialysis|
-|renal-replacement-therapy v1|ctv3|XaOmL|Ligation of arteriovenous dialysis fistula|
-|renal-replacement-therapy v1|ctv3|XaOoH|Ligation of arteriovenous dialysis graft|
-|renal-replacement-therapy v1|ctv3|XaREO|Continuous ambulatory peritoneal dialysis associated perit|
-|renal-replacement-therapy v1|ctv3|XaZWa|Urological complication of renal transplant|
-|renal-replacement-therapy v1|ctv3|XaZYx|Vascular complication of renal transplant|
-|renal-replacement-therapy v1|ctv3|XaZc8|Ruptured aneurysm of dialysis vascular access|
-|renal-replacement-therapy v1|ctv3|XaZcQ|Aneurysm of superficialised artery of dialysis AV fistula|
-|renal-replacement-therapy v1|ctv3|XaZcU|Aneurysm of dialysis arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|XaZcX|Aneurysm of needle site of dialysis arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|XaZcd|Aneurysm of anastomotic site of dialysis AV fistula|
-|renal-replacement-therapy v1|ctv3|XaZdk|Thrombus in peritoneal dialysis catheter|
-|renal-replacement-therapy v1|ctv3|XaZe2|Rupture of artery of transplanted kidney|
-|renal-replacement-therapy v1|ctv3|XaZe3|Rupture of vein of transplanted kidney|
-|renal-replacement-therapy v1|ctv3|XaZe7|Stenosis of vein of transplanted kidney|
-|renal-replacement-therapy v1|ctv3|XaZkw|Aneurysm of vein of transplanted kidney|
-|renal-replacement-therapy v1|ctv3|XaZl0|Aneurysm of artery of transplanted kidney|
-|renal-replacement-therapy v1|ctv3|XaZlu|Stenosis of dialysis vascular access|
-|renal-replacement-therapy v1|ctv3|XaZlv|Thrombosis of dialysis vascular access|
-|renal-replacement-therapy v1|ctv3|XaZmp|Anaphylactoid reaction due to haemodialysis|
-|renal-replacement-therapy v1|ctv3|Xaa2O|Thrombosis of artery of transplanted kidney|
-|renal-replacement-therapy v1|ctv3|Xaa2Q|Thrombosis of vein of transplanted kidney|
-|renal-replacement-therapy v1|ctv3|Xaa5S|Occlusion of dialysis vascular access|
-|renal-replacement-therapy v1|ctv3|Xaa5T|Infection of dialysis vascular access|
-|renal-replacement-therapy v1|ctv3|Xaa5U|Haemorrhage of dialysis vascular access|
-|renal-replacement-therapy v1|ctv3|Xaa5W|Stenosis of dialysis arteriovenous graft|
-|renal-replacement-therapy v1|ctv3|Xaa5X|Stenosis of dialysis arteriovenous shunt|
-|renal-replacement-therapy v1|ctv3|Xaa5e|Thrombosis of dialysis arteriovenous graft|
-|renal-replacement-therapy v1|ctv3|Xaa5f|Thrombosis of dialysis arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|Xaa5g|Thrombosis of dialysis arteriovenous shunt|
-|renal-replacement-therapy v1|ctv3|Xaa5h|Occlusion of dialysis arteriovenous graft|
-|renal-replacement-therapy v1|ctv3|Xaa5i|Occlusion of dialysis arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|Xaa5j|Occlusion of dialysis arteriovenous shunt|
-|renal-replacement-therapy v1|ctv3|Xaa6n|Infection of dialysis arteriovenous graft|
-|renal-replacement-therapy v1|ctv3|Xaa6o|Infection of dialysis arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|Xaa7F|Infection of dialysis arteriovenous shunt|
-|renal-replacement-therapy v1|ctv3|Xaa7H|Haemorrhage of dialysis arteriovenous graft|
-|renal-replacement-therapy v1|ctv3|Xaa7I|Haemorrhage of dialysis arteriovenous fistula|
-|renal-replacement-therapy v1|ctv3|Xaa7J|Haemorrhage of dialysis arteriovenous shunt|
-|renal-replacement-therapy v1|ctv3|Xaa7K|Rupture of dialysis arteriovenous graft|
-|renal-replacement-therapy v1|ctv3|XaaEx|Stenosis of arterial side of dialysis arteriovenous shunt|
-|renal-replacement-therapy v1|ctv3|XaaEy|Stenosis of venous side of dialysis arteriovenous shunt|
-|renal-replacement-therapy v1|ctv3|ZV420|[V]Kidney transplanted|
-|renal-replacement-therapy v1|ctv3|ZV451|[V]Renal dialysis status|
-|renal-replacement-therapy v1|ctv3|ZV56.|[V]Aftercare involving intermittent dialysis|
-|renal-replacement-therapy v1|ctv3|ZV560|[V]Aftercare involving extracorporeal dialysis|
-|renal-replacement-therapy v1|ctv3|ZV560|[V]Aftercare involving extracorporeal dialysis|
-|renal-replacement-therapy v1|ctv3|ZV561|[V]Preparatory care for dialysis|
-|renal-replacement-therapy v1|ctv3|ZV56y|[V]Other specified aftercare involving intermittent dialysis|
-|renal-replacement-therapy v1|ctv3|ZV56z|[V]Unspecified aftercare involving intermittent dialysis|
-|renal-replacement-therapy v1|ctv3|ZVu3G|[X]Other dialysis|
-|renal-replacement-therapy v1|readv2|14S2.|H/O: kidney recipient|
-|renal-replacement-therapy v1|readv2|7A600|Insertion of arteriovenous prosthesis|
-|renal-replacement-therapy v1|readv2|7A602|Attention to arteriovenous shunt|
-|renal-replacement-therapy v1|readv2|7A603|Removal of infected arteriovenous shunt|
-|renal-replacement-therapy v1|readv2|7A60y|Other specified arteriovenous shunt|
-|renal-replacement-therapy v1|readv2|7A60z|Arteriovenous shunt NOS|
-|renal-replacement-therapy v1|readv2|7A614|Ligation of acquired arteriovenous fistula|
-|renal-replacement-therapy v1|readv2|7A6E2|Declotting of thigh vein loop|
-|renal-replacement-therapy v1|readv2|7B00.|Transplantation of kidney|
-|renal-replacement-therapy v1|readv2|7B001|Allotransplantation of kidney from live donor|
-|renal-replacement-therapy v1|readv2|7B001|Transplantation of kidney from live donor|
-|renal-replacement-therapy v1|readv2|7B002|Allotransplantation of kidney from cadaver|
-|renal-replacement-therapy v1|readv2|7B002|Cadaveric renal transplant|
-|renal-replacement-therapy v1|readv2|7B002|Transplantation of kidney from cadaver|
-|renal-replacement-therapy v1|readv2|7B00y|Other specified transplantation of kidney|
-|renal-replacement-therapy v1|readv2|7B00z|Transplantation of kidney NOS|
-|renal-replacement-therapy v1|readv2|7L1A.|Compensation for renal failure|
-|renal-replacement-therapy v1|readv2|7L1A.|Dialysis for renal failure|
-|renal-replacement-therapy v1|readv2|7L1A0|Renal dialysis|
-|renal-replacement-therapy v1|readv2|7L1A1|Peritoneal dialysis|
-|renal-replacement-therapy v1|readv2|7L1A2|Haemodialysis NEC|
-|renal-replacement-therapy v1|readv2|7L1B.|Placement of ambulatory apparatus for compensation for renal failure|
-|renal-replacement-therapy v1|readv2|7L1B0|Insertion of ambulatory peritoneal dialysis catheter|
-|renal-replacement-therapy v1|readv2|7L1B1|Removal of ambulatory peritoneal dialysis catheter|
-|renal-replacement-therapy v1|readv2|7L1C.|Placement of other apparatus for compensation for renal failure|
-|renal-replacement-therapy v1|readv2|7L1C0|Insertion of temporary peritoneal dialysis catheter|
-|renal-replacement-therapy v1|readv2|7L1Cy|Other specified placement of other apparatus for compensation for renal failure|
-|renal-replacement-therapy v1|readv2|G760.|Acquired arteriovenous fistula|
-|renal-replacement-therapy v1|readv2|TB11.|Kidney dialysis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of procedure|
-|renal-replacement-therapy v1|readv2|TB11.|Renal dialysis with complication, without blame|
-|renal-replacement-therapy v1|readv2|ZV420|[V]Kidney transplanted|
-|renal-replacement-therapy v1|readv2|ZV451|[V]Renal dialysis status|
-|renal-replacement-therapy v1|readv2|ZV560|[V]Aftercare involving renal dialysis NOS|
-|renal-replacement-therapy v1|readv2|ZV561|[V]Preparatory care for dialysis|
-|renal-replacement-therapy v1|readv2|ZV56y|[V]Aftercare involving peritoneal dialysis|
-|renal-replacement-therapy v1|readv2|ZV56y|[V]Other specified aftercare involving intermittent dialysis|
-|renal-replacement-therapy v1|readv2|ZV56z|[V]Unspecified aftercare involving intermittent dialysis|
-|renal-replacement-therapy v1|readv2|ZVu3G|[X]Other dialysis|
-|kidney-transplant v1|ctv3|14S2.|H/O: kidney recipient|
-|kidney-transplant v1|ctv3|7B00.|Renal transplant|
-|kidney-transplant v1|ctv3|7B001|Live donor renal transplant|
-|kidney-transplant v1|ctv3|7B002|Cadaveric renal transplant|
-|kidney-transplant v1|ctv3|7B00y|Other specified transplantation of kidney|
-|kidney-transplant v1|ctv3|7B00z|Transplantation of kidney NOS|
-|kidney-transplant v1|ctv3|K0B5.|Renal tubulo-interstitial disorders in transplant rejection|
-|kidney-transplant v1|ctv3|SP080|(Transpl organ fail) or (deterior ren func aft ren transpl)|
-|kidney-transplant v1|ctv3|SP083|Kidney transplant failure and rejection|
-|kidney-transplant v1|ctv3|TB001|Kidney transplant with complication, without blame|
-|kidney-transplant v1|ctv3|X30D2|Xenograft renal transplant|
-|kidney-transplant v1|ctv3|X30J3|End stage renal failure with renal transplant|
-|kidney-transplant v1|ctv3|X30Ma|Chronic rejection of renal transplant - grade III|
-|kidney-transplant v1|ctv3|X30Mb|Acute-on-chronic rejection of renal transplant|
-|kidney-transplant v1|ctv3|X30Mc|Failed renal transplant|
-|kidney-transplant v1|ctv3|X30Md|Perfusion injury of renal transplant|
-|kidney-transplant v1|ctv3|X30Me|De novo transplant disease|
-|kidney-transplant v1|ctv3|X30Mf|De novo glomerulonephritis|
-|kidney-transplant v1|ctv3|X30Mg|Transplant glomerulopathy|
-|kidney-transplant v1|ctv3|X30Mh|Transplant glomerulopathy - early form|
-|kidney-transplant v1|ctv3|X30Mi|Transplant glomerulopathy - late form|
-|kidney-transplant v1|ctv3|X30MN|Renal transplant disorder|
-|kidney-transplant v1|ctv3|X30MO|Primary non-function of renal transplant|
-|kidney-transplant v1|ctv3|X30MP|Renal transplant rejection|
-|kidney-transplant v1|ctv3|X30MQ|Hyperacute rejection of renal transplant|
-|kidney-transplant v1|ctv3|X30MR|Accelerated rejection of renal transplant|
-|kidney-transplant v1|ctv3|X30MS|Very mild acute rejection of renal transplant|
-|kidney-transplant v1|ctv3|X30MT|Acute rejection of renal transplant|
-|kidney-transplant v1|ctv3|X30MU|Acute rejection of renal transplant - grade I|
-|kidney-transplant v1|ctv3|X30MV|Acute rejection of renal transplant - grade II|
-|kidney-transplant v1|ctv3|X30MW|Acute rejection of renal transplant - grade III|
-|kidney-transplant v1|ctv3|X30MX|Chronic rejection of renal transplant|
-|kidney-transplant v1|ctv3|X30MY|Chronic rejection of renal transplant - grade 1|
-|kidney-transplant v1|ctv3|X30MZ|Chronic rejection of renal transplant - grade II|
-|kidney-transplant v1|ctv3|X30NN|Perirenal and periureteric post-transplant lymphocele|
-|kidney-transplant v1|ctv3|Xa0HK|Unexplained episode of renal transplant dysfunction|
-|kidney-transplant v1|ctv3|Xa0HL|Pre-existing disease in renal transplant|
-|kidney-transplant v1|ctv3|Xa1dw|Transplant kidney|
-|kidney-transplant v1|ctv3|Xa3x6|Kidney replacement|
-|kidney-transplant v1|ctv3|Xaa2O|Thrombosis of artery of transplanted kidney|
-|kidney-transplant v1|ctv3|Xaa2Q|Thrombosis of vein of transplanted kidney|
-|kidney-transplant v1|ctv3|XaE9T|Donor renal transplantation|
-|kidney-transplant v1|ctv3|XaM1o|Allotransplantation of kidney from cadaver, heart-beating|
-|kidney-transplant v1|ctv3|XaM1p|Allotransplantation kidney from cadaver, heart non-beating|
-|kidney-transplant v1|ctv3|XaM4e|Interventions associated with transplantation of kidney|
-|kidney-transplant v1|ctv3|XaM4f|OS interventions associated with transplantation of kidney|
-|kidney-transplant v1|ctv3|XaM4g|Interventions associated with transplantation of kidney NOS|
-|kidney-transplant v1|ctv3|XaM4l|Post-transplantation of kidney examination, recipient|
-|kidney-transplant v1|ctv3|XaMKM|Allotransplantation of kidney from cadaver NEC|
-|kidney-transplant v1|ctv3|XaZe2|Rupture of artery of transplanted kidney|
-|kidney-transplant v1|ctv3|XaZe3|Rupture of vein of transplanted kidney|
-|kidney-transplant v1|ctv3|XaZe7|Stenosis of vein of transplanted kidney|
-|kidney-transplant v1|ctv3|XaZkw|Aneurysm of vein of transplanted kidney|
-|kidney-transplant v1|ctv3|XaZl0|Aneurysm of artery of transplanted kidney|
-|kidney-transplant v1|ctv3|XaZWa|Urological complication of renal transplant|
-|kidney-transplant v1|ctv3|XaZYx|Vascular complication of renal transplant|
-|kidney-transplant v1|ctv3|Y1602|Kidney-pancreas transplant|
-|kidney-transplant v1|ctv3|ZV420|[V]Kidney transplanted|
-|kidney-transplant v1|readv2|14S2.|H/O: kidney recipient|
-|kidney-transplant v1|readv2|7B00.|Transplantation of kidney|
-|kidney-transplant v1|readv2|7B001|Allotransplantation of kidney from live donor|
-|kidney-transplant v1|readv2|7B001|Transplantation of kidney from live donor|
-|kidney-transplant v1|readv2|7B002|Allotransplantation of kidney from cadaver|
-|kidney-transplant v1|readv2|7B002|Cadaveric renal transplant|
-|kidney-transplant v1|readv2|7B002|Transplantation of kidney from cadaver|
-|kidney-transplant v1|readv2|7B00y|Other specified transplantation of kidney|
-|kidney-transplant v1|readv2|7B00z|Transplantation of kidney NOS|
-|kidney-transplant v1|readv2|K0B5.|Renal tubulo-interstitial disorders in transplant rejection|
-|kidney-transplant v1|readv2|SP080|Transplanted organ failure|
-|kidney-transplant v1|readv2|SP083|Kidney transplant failure and rejection|
-|kidney-transplant v1|readv2|TB001|Renal transplant with complication, without blame|
-|kidney-transplant v1|readv2|TB001|Transplantation of kidney as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation|
-|kidney-transplant v1|readv2|ZV420|[V]Kidney transplanted|
-|acute-kidney-injury v1|ctv3|K04..|Acute kidney injury|
-|acute-kidney-injury v1|ctv3|Xaa8O|Acute kidney injury stage 1|
-|acute-kidney-injury v1|ctv3|Xaa8P|Acute kidney injury stage 2|
-|acute-kidney-injury v1|ctv3|Xaa8Q|Acute kidney injury stage 3|
-|acute-kidney-injury v1|ctv3|XabmE|Acute kidney injury warning stage|
-|acute-kidney-injury v1|ctv3|Xabuj|Provision of written information about acute kidney injury|
-|acute-kidney-injury v1|ctv3|XaebJ|H/O: acute kidney injury|
-|acute-kidney-injury v1|ctv3|K04z.|Acute renal failure NOS|
-|acute-kidney-injury v1|ctv3|Kyu20|[X]Other acute renal failure|
-|acute-kidney-injury v1|ctv3|X30Iu|Myoglobinuric acute renal failure|
-|acute-kidney-injury v1|ctv3|XM08q|Prerenal renal failure|
-|acute-kidney-injury v1|readv2|K04..12|Acute kidney injury|
-|acute-kidney-injury v1|readv2|K04E.00|Acute kidney injury stage 3|
-|acute-kidney-injury v1|readv2|K04D.00|Acute kidney injury stage 2|
-|acute-kidney-injury v1|readv2|K04C.00|Acute kidney injury stage 1|
-|acute-kidney-injury v1|readv2|451L.00|Acute kidney injury warning stage|
-|acute-kidney-injury v1|readv2|8OAG.00|Provision of written information about acute kidney injury|
-|acute-kidney-injury v1|readv2|14D8.00|H/O: acute kidney injury|
-|acute-kidney-injury v1|readv2|K040.00|Acute renal tubular necrosis|
-|acute-kidney-injury v1|readv2|K04y.00|Other acute renal failure|
-|acute-kidney-injury v1|readv2|K04z.00|Acute renal failure NOS|
-|acute-kidney-injury v1|readv2|Kyu2000|[X]Other acute renal failure|
-|acute-kidney-injury v1|readv2|SK08.00|Acute renal failure due to rhabdomyolysis|
-|acute-kidney-injury v1|snomed|14669001|Acute renal failure|
-|acute-kidney-injury v1|snomed|23697004|Crush syndrome (disorder)|
-|acute-kidney-injury v1|snomed|722095005|Acute kidney injury due to circulatory failure|
-|acute-kidney-injury v1|snomed|722096006|Acute kidney injury due to hypovolemia|
-|acute-kidney-injury v1|snomed|722278006|Acute kidney injury due to sepsis|
-|acute-kidney-injury v1|snomed|726541005|AKI (acute kidney injury) due to trauma|
-|acute-kidney-injury v1|snomed|140031000119103|Nontraumatic AKI (acute kidney injury)|
-|acute-kidney-injury v1|snomed|851931000000107|Acute kidney injury stage 1 (disorder)|
-|acute-kidney-injury v1|snomed|851941000000103|Acute kidney injury stage 2 (disorder)|
-|acute-kidney-injury v1|snomed|851951000000100|Acute kidney injury stage 3 (disorder)|
-|acute-kidney-injury v1|snomed|145681000119101|Acute renal failure due to tubular necrosis|
-|acute-kidney-injury v1|snomed|129561000119108|Acute renal failure|
-|acute-kidney-injury v1|snomed|1048451000000103|Acute kidney injury due to acute tubular necrosis due to hypovolaemia (disorder)|
-|acute-kidney-injury v1|snomed|1048481000000109|Acute kidney injury due to acute tubular necrosis due to circulatory failure (disorder)|
-|acute-kidney-injury v1|snomed|1048491000000106|Acute kidney injury due to acute tubular necrosis due to sepsis (disorder)|
-|acute-kidney-injury v1|snomed|1048501000000100|Acute kidney injury due to acute tubular necrosis with histological evidence (disorder)|
-|acute-kidney-injury v1|snomed|1048511000000103|Acute kidney injury due to acute tubular necrosis due to hypovolaemia with histological evidence (disorder)|
-|acute-kidney-injury v1|snomed|1048541000000102|Acute kidney injury due to acute tubular necrosis due to circulatory failure with histological evidence (disorder)|
-|acute-kidney-injury v1|snomed|1048521000000109|Acute kidney injury due to acute tubular necrosis due to sepsis with histological evidence (disorder)|
-|acute-kidney-injury v1|snomed|1007921000000107|Acute kidney injury warning stage|
-|acute-kidney-injury v1|snomed|137971000119104|History of acute renal failure (situation)|
-|acute-kidney-injury v1|snomed|938911000000100|At risk of AKI (acute kidney injury)|
-|acute-kidney-injury v1|snomed|1127821000000102|Acute kidney injury findings simple reference set (foundation metadata concept)|
-|acute-kidney-injury v1|snomed|939531000000109|Provision of information about AKI (acute kidney injury)|
 |glomerulonephritis v1|ctv3|Xa1uD|Glomerulonephritis |
 |glomerulonephritis v1|ctv3|XE0dY|Acute glomerulonephritis |
 |glomerulonephritis v1|ctv3|K00z.|Acute glomerulonephritis NOS |
@@ -4105,6 +3358,619 @@ All code sets required for this analysis are listed here. Individual lists for e
 |glomerulonephritis v1|snomed|368871000119106|Acute nephritic syndrome co-occurrent and due to membranoproliferative glomerulonephritis type III (disorder)|
 |glomerulonephritis v1|snomed|368901000119106|Chronic nephritic syndrome co-occurrent and due to membranoproliferative glomerulonephritis type III (disorder)|
 |glomerulonephritis v1|snomed|123610002|Healed glomerulonephritis (disorder)|
+|kidney-transplant v1|ctv3|14S2.|H/O: kidney recipient|
+|kidney-transplant v1|ctv3|7B00.|Renal transplant|
+|kidney-transplant v1|ctv3|7B001|Live donor renal transplant|
+|kidney-transplant v1|ctv3|7B002|Cadaveric renal transplant|
+|kidney-transplant v1|ctv3|7B00y|Other specified transplantation of kidney|
+|kidney-transplant v1|ctv3|7B00z|Transplantation of kidney NOS|
+|kidney-transplant v1|ctv3|K0B5.|Renal tubulo-interstitial disorders in transplant rejection|
+|kidney-transplant v1|ctv3|SP080|(Transpl organ fail) or (deterior ren func aft ren transpl)|
+|kidney-transplant v1|ctv3|SP083|Kidney transplant failure and rejection|
+|kidney-transplant v1|ctv3|TB001|Kidney transplant with complication, without blame|
+|kidney-transplant v1|ctv3|X30D2|Xenograft renal transplant|
+|kidney-transplant v1|ctv3|X30J3|End stage renal failure with renal transplant|
+|kidney-transplant v1|ctv3|X30Ma|Chronic rejection of renal transplant - grade III|
+|kidney-transplant v1|ctv3|X30Mb|Acute-on-chronic rejection of renal transplant|
+|kidney-transplant v1|ctv3|X30Mc|Failed renal transplant|
+|kidney-transplant v1|ctv3|X30Md|Perfusion injury of renal transplant|
+|kidney-transplant v1|ctv3|X30Me|De novo transplant disease|
+|kidney-transplant v1|ctv3|X30Mf|De novo glomerulonephritis|
+|kidney-transplant v1|ctv3|X30Mg|Transplant glomerulopathy|
+|kidney-transplant v1|ctv3|X30Mh|Transplant glomerulopathy - early form|
+|kidney-transplant v1|ctv3|X30Mi|Transplant glomerulopathy - late form|
+|kidney-transplant v1|ctv3|X30MN|Renal transplant disorder|
+|kidney-transplant v1|ctv3|X30MO|Primary non-function of renal transplant|
+|kidney-transplant v1|ctv3|X30MP|Renal transplant rejection|
+|kidney-transplant v1|ctv3|X30MQ|Hyperacute rejection of renal transplant|
+|kidney-transplant v1|ctv3|X30MR|Accelerated rejection of renal transplant|
+|kidney-transplant v1|ctv3|X30MS|Very mild acute rejection of renal transplant|
+|kidney-transplant v1|ctv3|X30MT|Acute rejection of renal transplant|
+|kidney-transplant v1|ctv3|X30MU|Acute rejection of renal transplant - grade I|
+|kidney-transplant v1|ctv3|X30MV|Acute rejection of renal transplant - grade II|
+|kidney-transplant v1|ctv3|X30MW|Acute rejection of renal transplant - grade III|
+|kidney-transplant v1|ctv3|X30MX|Chronic rejection of renal transplant|
+|kidney-transplant v1|ctv3|X30MY|Chronic rejection of renal transplant - grade 1|
+|kidney-transplant v1|ctv3|X30MZ|Chronic rejection of renal transplant - grade II|
+|kidney-transplant v1|ctv3|X30NN|Perirenal and periureteric post-transplant lymphocele|
+|kidney-transplant v1|ctv3|Xa0HK|Unexplained episode of renal transplant dysfunction|
+|kidney-transplant v1|ctv3|Xa0HL|Pre-existing disease in renal transplant|
+|kidney-transplant v1|ctv3|Xa1dw|Transplant kidney|
+|kidney-transplant v1|ctv3|Xa3x6|Kidney replacement|
+|kidney-transplant v1|ctv3|Xaa2O|Thrombosis of artery of transplanted kidney|
+|kidney-transplant v1|ctv3|Xaa2Q|Thrombosis of vein of transplanted kidney|
+|kidney-transplant v1|ctv3|XaE9T|Donor renal transplantation|
+|kidney-transplant v1|ctv3|XaM1o|Allotransplantation of kidney from cadaver, heart-beating|
+|kidney-transplant v1|ctv3|XaM1p|Allotransplantation kidney from cadaver, heart non-beating|
+|kidney-transplant v1|ctv3|XaM4e|Interventions associated with transplantation of kidney|
+|kidney-transplant v1|ctv3|XaM4f|OS interventions associated with transplantation of kidney|
+|kidney-transplant v1|ctv3|XaM4g|Interventions associated with transplantation of kidney NOS|
+|kidney-transplant v1|ctv3|XaM4l|Post-transplantation of kidney examination, recipient|
+|kidney-transplant v1|ctv3|XaMKM|Allotransplantation of kidney from cadaver NEC|
+|kidney-transplant v1|ctv3|XaZe2|Rupture of artery of transplanted kidney|
+|kidney-transplant v1|ctv3|XaZe3|Rupture of vein of transplanted kidney|
+|kidney-transplant v1|ctv3|XaZe7|Stenosis of vein of transplanted kidney|
+|kidney-transplant v1|ctv3|XaZkw|Aneurysm of vein of transplanted kidney|
+|kidney-transplant v1|ctv3|XaZl0|Aneurysm of artery of transplanted kidney|
+|kidney-transplant v1|ctv3|XaZWa|Urological complication of renal transplant|
+|kidney-transplant v1|ctv3|XaZYx|Vascular complication of renal transplant|
+|kidney-transplant v1|ctv3|Y1602|Kidney-pancreas transplant|
+|kidney-transplant v1|ctv3|ZV420|[V]Kidney transplanted|
+|kidney-transplant v1|readv2|14S2.|H/O: kidney recipient|
+|kidney-transplant v1|readv2|7B00.|Transplantation of kidney|
+|kidney-transplant v1|readv2|7B001|Allotransplantation of kidney from live donor|
+|kidney-transplant v1|readv2|7B001|Transplantation of kidney from live donor|
+|kidney-transplant v1|readv2|7B002|Allotransplantation of kidney from cadaver|
+|kidney-transplant v1|readv2|7B002|Cadaveric renal transplant|
+|kidney-transplant v1|readv2|7B002|Transplantation of kidney from cadaver|
+|kidney-transplant v1|readv2|7B00y|Other specified transplantation of kidney|
+|kidney-transplant v1|readv2|7B00z|Transplantation of kidney NOS|
+|kidney-transplant v1|readv2|K0B5.|Renal tubulo-interstitial disorders in transplant rejection|
+|kidney-transplant v1|readv2|SP080|Transplanted organ failure|
+|kidney-transplant v1|readv2|SP083|Kidney transplant failure and rejection|
+|kidney-transplant v1|readv2|TB001|Renal transplant with complication, without blame|
+|kidney-transplant v1|readv2|TB001|Transplantation of kidney as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation|
+|kidney-transplant v1|readv2|ZV420|[V]Kidney transplanted|
+|kidney-stones v1|ctv3|XE0dk|Calculus of kidney|
+|kidney-stones v1|ctv3|X30Pp|Calculus in calyceal diverticulum|
+|kidney-stones v1|ctv3|X30Pr|Calculus in pelviureteric junction |
+|kidney-stones v1|ctv3|X30Pq|Calculus in renal pelvis|
+|kidney-stones v1|ctv3|X30Po|Calyceal renal calculus|
+|kidney-stones v1|ctv3|XE0fN|Kidney calculus (& [staghorn]) |
+|kidney-stones v1|ctv3|K120z|Renal calculus NOS |
+|kidney-stones v1|ctv3|K1200|Staghorn calculus|
+|kidney-stones v1|ctv3|XM14o|Uric acid renal calculus|
+|kidney-stones v1|ctv3|4G4..|O/E: renal calculus|
+|kidney-stones v1|ctv3|4G42.|Phosphate kidney stone &/or [O/E: staghorn]|
+|kidney-stones v1|ctv3|4G4Z.|O/E: renal stone NOS|
+|kidney-stones v1|ctv3|C3411|(Uric acid nephrolithiasis) or (renal stone - uric acid)|
+|kidney-stones v1|ctv3|K12..|Urinary calculus (& [kidney &/or ureter)|
+|kidney-stones v1|ctv3|K120.|(Calculus of kidney) or (nephrolithiasis NOS)|
+|kidney-stones v1|ctv3|PD31.|Congenital calculus of kidney|
+|kidney-stones v1|ctv3|X30Pn|Nephrolithiasis NOS|
+|kidney-stones v1|ctv3|XE0dj|Calculus of kidney and ureter|
+|kidney-stones v1|ctv3|XM1XM|Phosphate kidney stone|
+|kidney-stones v1|readv2|4G4..|O/E: kidney stone|
+|kidney-stones v1|readv2|4G42.|O/E: phosphate -staghorn-stone|
+|kidney-stones v1|readv2|4G4Z.|O/E: renal stone NOS|
+|kidney-stones v1|readv2|C3411|Renal stone - uric acid|
+|kidney-stones v1|readv2|K1006|Calculous pyelonephritis|
+|kidney-stones v1|readv2|K12..|Calculus of kidney and ureter|
+|kidney-stones v1|readv2|K120.|Calculus of kidney|
+|kidney-stones v1|readv2|K122.|Calculus of kidney with calculus of ureter|
+|kidney-stones v1|readv2|PD31.|Congenital calculus of kidney|
+|kidney-stones v1|snomed|95570007|Kidney stone (disorder)|
+|kidney-stones v1|snomed|833291009|Calcium oxalate calculus of kidney (disorder)|
+|kidney-stones v1|snomed|427649000|Calcium renal calculus (disorder) |
+|kidney-stones v1|snomed|23754003|Calculous pyelonephritis (disorder)|
+|kidney-stones v1|snomed|236710009|Calculus in renal pelvis (disorder)|
+|kidney-stones v1|snomed|266556005|Calculus of kidney and ureter (disorder)|
+|kidney-stones v1|snomed|236708007|Calyceal renal calculus (disorder)|
+|kidney-stones v1|snomed|48061001|Congenital calculus of kidney (disorder)|
+|kidney-stones v1|snomed|833293007|Cystine calculus of kidney (disorder)|
+|kidney-stones v1|snomed|699322002|Matrix stone of kidney (disorder)|
+|kidney-stones v1|snomed|168041003|On examination - renal calculus (disorder)|
+|kidney-stones v1|snomed|275893001|Phosphate calculus of kidney (disorder) |
+|kidney-stones v1|snomed|1056501000112102|Recurrent kidney stone (disorder)|
+|kidney-stones v1|snomed|197794008|Staghorn calculus (disorder)|
+|kidney-stones v1|snomed|274401005|Uric acid renal calculus (disorder)|
+|kidney-stones v1|snomed|236713006|X-linked recessive nephrolithiasis with renal failure (disorder)|
+|vasculitis v1|ctv3|C3321|Cryoglobulinaemic vasculitis|
+|vasculitis v1|ctv3|X205F|Secondary systemic vasculitis|
+|vasculitis v1|ctv3|X205G|Vasculitis secondary to drug|
+|vasculitis v1|ctv3|X701l|Rheumatoid vasculitis|
+|vasculitis v1|ctv3|X705w|Lupus vasculitis|
+|vasculitis v1|ctv3|X205D|Systemic vasculitis|
+|vasculitis v1|ctv3|X705t|Nailfold rheumatoid vasculitis|
+|vasculitis v1|ctv3|X705u|Systemic rheumatoid vasculitis|
+|vasculitis v1|ctv3|X705v|Necrotising rheumatoid vasculitis|
+|vasculitis v1|ctv3|G76B.|Vasculitis|
+|vasculitis v1|ctv3|X7061|Essential cryoglobulinaemic vasculitis|
+|vasculitis v1|ctv3|X50BC|Primary cutaneous vasculitis|
+|vasculitis v1|ctv3|X50BG|Gougerot-Ruiter vasculitis|
+|vasculitis v1|ctv3|X705x|Hypocomplementaemic vasculitis|
+|vasculitis v1|ctv3|X50BI|Secondary cutaneous vasculitis|
+|vasculitis v1|ctv3|Myu7A|[X]Other vasculitis limited to the skin|
+|vasculitis v1|ctv3|Myu7G|[X]Vasculitis limited to skin, unspecified|
+|vasculitis v1|ctv3|X50BK|Nodular vasculitis|
+|vasculitis v1|ctv3|X00Dw|Cerebral arteritis in systemic vasculitis|
+|vasculitis v1|ctv3|X00Dz|Primary central nervous system granulomatous vasculitis|
+|vasculitis v1|ctv3|X705i|Churg-Strauss vasculitis|
+|vasculitis v1|ctv3|F421E|Retinal vasculitis NOS|
+|vasculitis v1|ctv3|X00dO|Retinal vasculitis|
+|vasculitis v1|ctv3|X309p|Peritoneal vasculitis|
+|vasculitis v1|ctv3|XaXlI|H/O vasculitis|
+|vasculitis v1|ctv3|D310.|Allergic purpura|
+|vasculitis v1|ctv3|D3100|Acute vascular purpura|
+|vasculitis v1|ctv3|F371.|Neuropathy in vasculitis and connective tissue disease|
+|vasculitis v1|ctv3|G750.|(Polyarteritis nodosa) or (necrotising angiitis)|
+|vasculitis v1|ctv3|G750.|Polyarteritis nodosa|
+|vasculitis v1|ctv3|G752.|Hypersensitivity: [angiitis] or [arteritis]|
+|vasculitis v1|ctv3|G752z|Hypersensitivity angiitis NOS|
+|vasculitis v1|ctv3|X203B|Post-arteritic pulmonary hypertension|
+|vasculitis v1|ctv3|XE0VV|Hypersensitivity angiitis|
+|vasculitis v1|readv2|M2y0X00|Vasculitis limited to skin, unspecified|
+|vasculitis v1|readv2|M2y0200|Livedoid vasculitis|
+|vasculitis v1|readv2|Myu7G00|[X]Vasculitis limited to skin, unspecified|
+|vasculitis v1|readv2|Myu7A00|[X]Other vasculitis limited to the skin|
+|vasculitis v1|readv2|M152.11|Nodular vasculitis|
+|vasculitis v1|readv2|C332100|Cryoglobulinaemic vasculitis|
+|vasculitis v1|readv2|F421E00|Retinal vasculitis NOS|
+|vasculitis v1|readv2|G758.00|Churg-Strauss vasculitis|
+|vasculitis v1|readv2|G76B.00|Vasculitis|
+|vasculitis v1|readv2|N040N00|Rheumatoid vasculitis|
+|vasculitis v1|readv2|D310.|Allergic purpura|
+|vasculitis v1|readv2|D3100|Acute vascular purpura|
+|vasculitis v1|readv2|F371.|Polyneuropathy in collagen vascular disease|
+|vasculitis v1|readv2|G750.|Necrotising angiitis|
+|vasculitis v1|readv2|G750.|Polyarteritis nodosa|
+|vasculitis v1|readv2|G752.|Hypersensitivity angiitis|
+|vasculitis v1|readv2|G752z|Hypersensitivity angiitis NOS|
+|vasculitis v1|readv2|M152.|Erythema nodosum|
+|vasculitis v1|snomed|228007|Lucio phenomenon (disorder)|
+|vasculitis v1|snomed|9177003|Histiocytic vasculitis of skin (disorder)|
+|vasculitis v1|snomed|11791001|Necrotizing vasculitis (disorder)|
+|vasculitis v1|snomed|31996006|Vasculitis (disorder)|
+|vasculitis v1|snomed|46286007|Lymphocytic vasculitis of skin (disorder)|
+|vasculitis v1|snomed|46956008|Polyangiitis|
+|vasculitis v1|snomed|53312001|Vasculitis of the skin (disorder)|
+|vasculitis v1|snomed|55275006|Non-tubercular erythema induratum|
+|vasculitis v1|snomed|56780006|Segmental hyalinizing vasculitis (disorder)|
+|vasculitis v1|snomed|60555002|Hypersensitivity angiitis (disorder)|
+|vasculitis v1|snomed|64832003|Neutrophilic vasculitis of skin (disorder)|
+|vasculitis v1|snomed|77628002|Retinal vasculitis (disorder)|
+|vasculitis v1|snomed|95578000|Renal vasculitis (disorder)|
+|vasculitis v1|snomed|190815001|Cryoglobulinemic vasculitis (disorder)|
+|vasculitis v1|snomed|191306005|Henoch-Schönlein purpura (disorder)|
+|vasculitis v1|snomed|230731002|Cerebral arteritis in systemic vasculitis (disorder)|
+|vasculitis v1|snomed|230733004|Isolated angiitis of central nervous system (disorder)|
+|vasculitis v1|snomed|234019004|Secondary systemic vasculitis (disorder)|
+|vasculitis v1|snomed|234020005|Vasculitis caused by drug|
+|vasculitis v1|snomed|238762002|Livedoid vasculitis (disorder)|
+|vasculitis v1|snomed|238785001|Primary cutaneous vasculitis (disorder)|
+|vasculitis v1|snomed|238786000|Gougerot-Ruiter purpura (disorder)|
+|vasculitis v1|snomed|238787009|Secondary cutaneous vasculitis (disorder)|
+|vasculitis v1|snomed|239924002|Primary necrotizing systemic vasculitis (disorder)|
+|vasculitis v1|snomed|239933000|Primary necrotizing vasculitis with granulomata (disorder)|
+|vasculitis v1|snomed|239941000|Nailfold rheumatoid vasculitis (disorder)|
+|vasculitis v1|snomed|239942007|Systemic rheumatoid vasculitis (disorder)|
+|vasculitis v1|snomed|239943002|Necrotizing rheumatoid vasculitis (disorder)|
+|vasculitis v1|snomed|239944008|Lupus erythematosus-associated vasculitis|
+|vasculitis v1|snomed|239945009|Hypocomplementemic urticarial vasculitis (disorder)|
+|vasculitis v1|snomed|239947001|Essential mixed cryoglobulinemia (disorder)|
+|vasculitis v1|snomed|400054000|Rheumatoid vasculitis|
+|vasculitis v1|snomed|402416000|Urticarial vasculitis with monoclonal immunoglobulin M component, Schnitzler|
+|vasculitis v1|snomed|402655006|Necrotizing cutaneous vasculitis|
+|vasculitis v1|snomed|402656007|Urticarial vasculitis|
+|vasculitis v1|snomed|402657003|Necrotizing vasculitis secondary to connective tissue disease|
+|vasculitis v1|snomed|402658008|Serum sickness type vasculitis|
+|vasculitis v1|snomed|402659000|Drug-induced necrotizing vasculitis|
+|vasculitis v1|snomed|402660005|Necrotizing vasculitis secondary to infection|
+|vasculitis v1|snomed|402661009|Paraneoplastic vasculitis|
+|vasculitis v1|snomed|402662002|Necrotizing vasculitis due to mixed cryoglobulinemia|
+|vasculitis v1|snomed|402663007|Pustular vasculitis|
+|vasculitis v1|snomed|402664001|Localized cutaneous vasculitis|
+|vasculitis v1|snomed|402855009|Normocomplementemic urticarial vasculitis|
+|vasculitis v1|snomed|402859003|Necrotizing vasculitis of undetermined etiology|
+|vasculitis v1|snomed|402958005|Pustular vasculitis due to gonococcal bacteremia|
+|vasculitis v1|snomed|403510002|Urticarial vasculitis due to lupus erythematosus|
+|vasculitis v1|snomed|403511003|Necrotizing vasculitis due to lupus erythematosus|
+|vasculitis v1|snomed|403518009|Necrotizing vasculitis due to scleroderma|
+|vasculitis v1|snomed|403616000|Drug-induced lymphocytic vasculitis|
+|vasculitis v1|snomed|407530004|Primary systemic vasculitis|
+|vasculitis v1|snomed|416703007|Retinal vasculitis due to polyarteritis nodosa|
+|vasculitis v1|snomed|417303004|Retinal vasculitis due to systemic lupus erythematosus|
+|vasculitis v1|snomed|427020007|Cerebral vasculitis|
+|vasculitis v1|snomed|427213005|Autoimmune vasculitis|
+|vasculitis v1|snomed|427356003|Eosinophilic vasculitis of skin|
+|vasculitis v1|snomed|718217000|Cutaneous small vessel vasculitis|
+|vasculitis v1|snomed|721664001|Mesenteric arteritis|
+|vasculitis v1|snomed|722191003|Antineutrophil cytoplasmic antibody (ANCA) positive vasculitis|
+|vasculitis v1|snomed|722858009|Vasculitis of large intestine|
+|vasculitis v1|snomed|724063005|Postinfective vasculitis|
+|vasculitis v1|snomed|724597006|Large vessel vasculitis|
+|vasculitis v1|snomed|724598001|Medium sized vessel vasculitis|
+|vasculitis v1|snomed|724599009|Small vessel vasculitis|
+|vasculitis v1|snomed|724600007|Immune complex small vessel vasculitis|
+|vasculitis v1|snomed|724601006|Vasculitis caused by antineutrophil cytoplasmic antibody|
+|vasculitis v1|snomed|724602004|Single organ vasculitis|
+|vasculitis v1|snomed|724996005|Vasculitic lumbosacral plexopathy|
+|vasculitis v1|snomed|737184001|Interstitial lung disease with systemic vasculitis|
+|vasculitis v1|snomed|762302008|Drug-associated immune complex vasculitis|
+|vasculitis v1|snomed|762352004|Demyelination due to systemic vasculitis|
+|vasculitis v1|snomed|762537007|Livedoid vasculitis of lower limb due to varicose veins of lower limb|
+|vasculitis v1|snomed|985941000000100|Medium vessel vasculitis (disorder)|
+|vasculitis v1|snomed|101711000119105|Glomerulonephritis co-occurrent and due to antineutrophil cytoplasmic antibody positive vasculitis|
+|vasculitis v1|snomed|985971000000106|Sarcoid vasculitis (disorder)|
+|vasculitis v1|snomed|988101000000109|Vasculitis co-occurrent and due to Hepatitis B virus infection (disorder)|
+|vasculitis v1|snomed|988081000000103|Antineutrophil cytoplasmic antibody associated vasculitis caused by drug (disorder)|
+|vasculitis v1|snomed|988111000000106|Cryoglobulinaemic vasculitis co-occurrent and due to Hepatitis C virus infection (disorder)|
+|vasculitis v1|snomed|233948000|Pulmonary hypertension in vasculitis|
+|vasculitis v1|snomed|703355003|Pulmonary hypertension due to vasculitis (disorder)|
+|vasculitis v1|snomed|404658009|Optic disc vasculitis|
+|vasculitis v1|snomed|193177003|Polyneuropathy in collagen vascular disease (disorder)|
+|vasculitis v1|snomed|472974007|History of vasculitis|
+|covid-positive-antigen-test v1|ctv3|Y269d|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen detection result positive|
+|covid-positive-antigen-test v1|ctv3|43kB1|SARS-CoV-2 antigen positive |
+|covid-positive-antigen-test v1|emis|^ESCT1305304|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen detection result positive|
+|covid-positive-antigen-test v1|emis|^ESCT1348538|Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen|
+|covid-positive-antigen-test v1|readv2|43kB1|SARS-CoV-2 antigen positive |
+|covid-positive-pcr-test v1|ctv3|4J3R6|SARS-CoV-2 RNA pos lim detect|
+|covid-positive-pcr-test v1|ctv3|Y240b|Severe acute respiratory syndrome coronavirus 2 qualitative existence in specimen (observable entity)|
+|covid-positive-pcr-test v1|ctv3|Y2a3b|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive|
+|covid-positive-pcr-test v1|ctv3|A7952|COVID-19 confirmed by laboratory test|
+|covid-positive-pcr-test v1|ctv3|Y228d|Coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2 confirmed by laboratory test (situation)|
+|covid-positive-pcr-test v1|ctv3|Y210e|Detection of 2019-nCoV (novel coronavirus) using polymerase chain reaction technique|
+|covid-positive-pcr-test v1|ctv3|43hF.|Detection of SARS-CoV-2 by PCR |
+|covid-positive-pcr-test v1|ctv3|Y2a3d|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection|
+|covid-positive-pcr-test v1|emis|^ESCT1305238|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) qualitative existence in specimen|
+|covid-positive-pcr-test v1|emis|^ESCT1348314|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive|
+|covid-positive-pcr-test v1|emis|^ESCT1305235|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive |
+|covid-positive-pcr-test v1|emis|^ESCT1300228|COVID-19 confirmed by laboratory test GP COVID-19|
+|covid-positive-pcr-test v1|emis|^ESCT1348316|2019-nCoV (novel coronavirus) ribonucleic acid detected|
+|covid-positive-pcr-test v1|emis|^ESCT1301223|Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) using polymerase chain reaction technique|
+|covid-positive-pcr-test v1|emis|^ESCT1348359|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection|
+|covid-positive-pcr-test v1|emis|^ESCT1299053|Detection of 2019-nCoV (novel coronavirus) using polymerase chain reaction technique|
+|covid-positive-pcr-test v1|emis|^ESCT1300228|COVID-19 confirmed by laboratory test|
+|covid-positive-pcr-test v1|emis|^ESCT1348359|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection|
+|covid-positive-pcr-test v1|readv2|4J3R6|SARS-CoV-2 RNA pos lim detect|
+|covid-positive-pcr-test v1|readv2|A7952|COVID-19 confirmed by laboratory test|
+|covid-positive-pcr-test v1|readv2|43hF.|Detection of SARS-CoV-2 by PCR |
+|covid-positive-test-other v1|ctv3|4J3R1|2019-nCoV (novel coronavirus) detected |
+|covid-positive-test-other v1|ctv3|Y20d1|Confirmed 2019-nCov (Wuhan) infection|
+|covid-positive-test-other v1|ctv3|Y23f7|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive|
+|covid-positive-test-other v1|emis|^ESCT1303928|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive |
+|covid-positive-test-other v1|emis|^ESCT1299074|2019-nCoV (novel coronavirus) detected|
+|covid-positive-test-other v1|emis|^ESCT1301230|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detected|
+|covid-positive-test-other v1|emis|EMISNQCO303|Confirmed 2019-nCoV (Wuhan) infectio|
+|covid-positive-test-other v1|emis|^ESCT1299075|Wuhan 2019-nCoV (novel coronavirus) detected|
+|covid-positive-test-other v1|emis|^ESCT1300229|COVID-19 confirmed using clinical diagnostic criteria|
+|covid-positive-test-other v1|emis|^ESCT1348575|Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)|
+|covid-positive-test-other v1|emis|^ESCT1299074|2019-nCoV (novel coronavirus) detected|
+|covid-positive-test-other v1|emis|^ESCT1300229|COVID-19 confirmed using clinical diagnostic criteria|
+|covid-positive-test-other v1|emis|EMISNQCO303|Confirmed 2019-nCoV (novel coronavirus) infection|
+|covid-positive-test-other v1|emis|EMISNQCO303|Confirmed 2019-nCoV (novel coronavirus) infection|
+|covid-positive-test-other v1|emis|^ESCT1348575|Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)|
+|covid-positive-test-other v1|readv2|4J3R1|2019-nCoV (novel coronavirus) detected |
+|renal-replacement-therapy v1|ctv3|14S2.|H/O: kidney recipient|
+|renal-replacement-therapy v1|ctv3|7A600|Insertion of arteriovenous prosthesis|
+|renal-replacement-therapy v1|ctv3|7A602|Attention to arteriovenous shunt|
+|renal-replacement-therapy v1|ctv3|7A603|Removal of infected arteriovenous shunt|
+|renal-replacement-therapy v1|ctv3|7A60y|Other specified arteriovenous shunt|
+|renal-replacement-therapy v1|ctv3|7A60z|Arteriovenous shunt NOS|
+|renal-replacement-therapy v1|ctv3|7A614|Ligation of acquired arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|7A6E2|Declotting of thigh vein loop|
+|renal-replacement-therapy v1|ctv3|7B00.|Renal transplant|
+|renal-replacement-therapy v1|ctv3|7B001|Live donor renal transplant|
+|renal-replacement-therapy v1|ctv3|7B002|Cadaveric renal transplant|
+|renal-replacement-therapy v1|ctv3|7B00y|Other specified transplantation of kidney|
+|renal-replacement-therapy v1|ctv3|7B00z|Transplantation of kidney NOS|
+|renal-replacement-therapy v1|ctv3|7L1A.|Compensation for renal failure (& dialysis)|
+|renal-replacement-therapy v1|ctv3|7L1A0|(Renal dialysis) or (Thomas intravascular dialysis shunt)|
+|renal-replacement-therapy v1|ctv3|7L1A1|Peritoneal dialysis|
+|renal-replacement-therapy v1|ctv3|7L1A2|Haemodialysis NEC|
+|renal-replacement-therapy v1|ctv3|7L1Ay|Other specified compensation for renal failure|
+|renal-replacement-therapy v1|ctv3|7L1Az|Compensation for renal failure NOS|
+|renal-replacement-therapy v1|ctv3|7L1B.|Chronic ambulatory peritoneal dialysis catheter procedure ++|
+|renal-replacement-therapy v1|ctv3|7L1B0|Insertion of chronic ambulatory peritoneal dialysis catheter|
+|renal-replacement-therapy v1|ctv3|7L1B1|Removal of chronic ambulatory peritoneal dialysis catheter|
+|renal-replacement-therapy v1|ctv3|7L1By|Placement ambulatory apparatus- compensate renal failure OS|
+|renal-replacement-therapy v1|ctv3|7L1Bz|Placement ambulatory apparatus- compensate renal failure NOS|
+|renal-replacement-therapy v1|ctv3|7L1C.|Placement other apparatus for compensation for renal failure|
+|renal-replacement-therapy v1|ctv3|7L1C0|Insertion of temporary peritoneal dialysis catheter|
+|renal-replacement-therapy v1|ctv3|7L1Cy|Placement other apparatus- compensate for renal failure OS|
+|renal-replacement-therapy v1|ctv3|7L1Cz|Placement other apparatus- compensate for renal failure NOS|
+|renal-replacement-therapy v1|ctv3|8877|Ultrafiltration|
+|renal-replacement-therapy v1|ctv3|8882|Intestinal dialysis|
+|renal-replacement-therapy v1|ctv3|G760.|Acquired arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|TA020|Accid cut,puncture,perf,h'ge - kidney dialysis|
+|renal-replacement-therapy v1|ctv3|TA02z|Accid cut,puncture,perf,h'ge - perfusion NOS|
+|renal-replacement-therapy v1|ctv3|TA22.|Failure of sterile precautions during perfusion|
+|renal-replacement-therapy v1|ctv3|TA220|Failure of sterile precautions during kidney dialysis|
+|renal-replacement-therapy v1|ctv3|TA22y|Failure of sterile precautions during other perfusion|
+|renal-replacement-therapy v1|ctv3|TA22z|Failure of sterile precautions during perfusion NOS|
+|renal-replacement-therapy v1|ctv3|TA420|Mech failure of instrument &/or apparatus during kidney dial|
+|renal-replacement-therapy v1|ctv3|TB11.|Kidney dialysis with complication, without blame|
+|renal-replacement-therapy v1|ctv3|TB11.|Kidney dialysis with complication, without blame|
+|renal-replacement-therapy v1|ctv3|U6122|[X]Failure sterile precautions dur kidney dialys/other perf|
+|renal-replacement-therapy v1|ctv3|Ua1IM|Chronic peritoneal dialysis|
+|renal-replacement-therapy v1|ctv3|Ua1IN|Stab peritoneal dialysis|
+|renal-replacement-therapy v1|ctv3|X018M|Creation of Cimino fistula|
+|renal-replacement-therapy v1|ctv3|X018M|Creation of Cimino fistula|
+|renal-replacement-therapy v1|ctv3|X018N|Creation brachiocephalic fistula|
+|renal-replacement-therapy v1|ctv3|X018T|Angioplasty of arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|X018U|Thrombolysis of arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|X018V|Thrombolysis of arteriovenous graft|
+|renal-replacement-therapy v1|ctv3|X018Y|Embolectomy of arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|X018Z|Embolectomy of arteriovenous graft|
+|renal-replacement-therapy v1|ctv3|X018a|Procedure on intraluminal device of arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|X018b|Insertion of intraluminal device into arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|X018c|Insertion of stent into arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|X018d|Removal of intraluminal device from arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|X018e|Removal of stent from arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|X018f|Adjustment of intraluminal device of arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|X018g|Adjustment of arteriovenous fistula stent|
+|renal-replacement-therapy v1|ctv3|X018j|Banding of arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|X018n|Exploration of arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|X018o|Exploration of arteriovenous graft|
+|renal-replacement-therapy v1|ctv3|X01AF|Intermittent haemodialysis|
+|renal-replacement-therapy v1|ctv3|X01AG|Intermittent haemodialysis with sequential ultrafiltration|
+|renal-replacement-therapy v1|ctv3|X01AH|Intermittent haemodialysis with continuous ultrafiltration|
+|renal-replacement-therapy v1|ctv3|X01AI|Continuous haemodialysis|
+|renal-replacement-therapy v1|ctv3|X01AJ|Continuous arteriovenous haemodialysis|
+|renal-replacement-therapy v1|ctv3|X01AK|Continuous venovenous haemodialysis|
+|renal-replacement-therapy v1|ctv3|X01AL|Haemofiltration|
+|renal-replacement-therapy v1|ctv3|X01AM|Intermittent haemofiltration|
+|renal-replacement-therapy v1|ctv3|X01AN|Continuous haemofiltration|
+|renal-replacement-therapy v1|ctv3|X01AO|Continuous arteriovenous haemofiltration|
+|renal-replacement-therapy v1|ctv3|X01AP|Continuous venovenous haemofiltration|
+|renal-replacement-therapy v1|ctv3|X01AQ|Haemodiafiltration|
+|renal-replacement-therapy v1|ctv3|X01AR|Intermittent haemodiafiltration|
+|renal-replacement-therapy v1|ctv3|X01AS|Continuous haemodiafiltration|
+|renal-replacement-therapy v1|ctv3|X01AT|Continuous arteriovenous haemodiafiltration|
+|renal-replacement-therapy v1|ctv3|X01AU|Continuous venovenous haemodiafiltration|
+|renal-replacement-therapy v1|ctv3|X01AY|Plasma filtration|
+|renal-replacement-therapy v1|ctv3|X30D2|Xenograft renal transplant|
+|renal-replacement-therapy v1|ctv3|X30J0|End stage renal failure|
+|renal-replacement-therapy v1|ctv3|X30J1|End stage renal failure, untreated by RRT|
+|renal-replacement-therapy v1|ctv3|X30J2|End stage renal failure on dialysis|
+|renal-replacement-therapy v1|ctv3|X30J3|End stage renal failure with renal transplant|
+|renal-replacement-therapy v1|ctv3|X30Lp|Disorder associated with dialysis|
+|renal-replacement-therapy v1|ctv3|X30Lq|Acute disorder of haemodialysis|
+|renal-replacement-therapy v1|ctv3|X30Lr|Dialysis disequilibrium|
+|renal-replacement-therapy v1|ctv3|X30Ls|First use syndrome of dialysis|
+|renal-replacement-therapy v1|ctv3|X30Lt|Anaphylactoid reaction to dialysis|
+|renal-replacement-therapy v1|ctv3|X30Lu|Hyperchloraemic acidosis associated with dialysis|
+|renal-replacement-therapy v1|ctv3|X30Lv|Hard water syndrome|
+|renal-replacement-therapy v1|ctv3|X30Lw|Long-term disorder of dialysis|
+|renal-replacement-therapy v1|ctv3|X30Lx|Beta-2 microglobulin amyloidosis|
+|renal-replacement-therapy v1|ctv3|X30Ly|Beta-2 microglobulin arthropathy|
+|renal-replacement-therapy v1|ctv3|X30Lz|Matrix stone formation of dialysis|
+|renal-replacement-therapy v1|ctv3|X30M0|Aluminium intoxication|
+|renal-replacement-therapy v1|ctv3|X30M1|Aluminium bone disease|
+|renal-replacement-therapy v1|ctv3|X30M2|Aluminium-related osteomalacia|
+|renal-replacement-therapy v1|ctv3|X30M3|Aluminium-related fracturing osteodystrophy|
+|renal-replacement-therapy v1|ctv3|X30M4|Polyserositis syndrome of dialysis|
+|renal-replacement-therapy v1|ctv3|X30M5|Underdialysis|
+|renal-replacement-therapy v1|ctv3|X30M6|Adynamic bone disease|
+|renal-replacement-therapy v1|ctv3|X30M7|Disorders associated with peritoneal dialysis|
+|renal-replacement-therapy v1|ctv3|X30M8|Pain during inflow of dialysate|
+|renal-replacement-therapy v1|ctv3|X30M9|Pain during outflow of dialysate|
+|renal-replacement-therapy v1|ctv3|X30MB|Bloodstained peritoneal dialysis effluent|
+|renal-replacement-therapy v1|ctv3|X30MC|Peritoneal dialysis catheter exit site infection|
+|renal-replacement-therapy v1|ctv3|X30MD|Peritoneal dialysis catheter tunnel infection|
+|renal-replacement-therapy v1|ctv3|X30ME|Loss of ultrafiltration|
+|renal-replacement-therapy v1|ctv3|X30MF|Loss of solute clearance|
+|renal-replacement-therapy v1|ctv3|X30MG|Disorder of peritoneal dialysis catheter|
+|renal-replacement-therapy v1|ctv3|X30MH|Obstruction of peritoneal dialysis catheter|
+|renal-replacement-therapy v1|ctv3|X30MI|Migration of peritoneal dialysis catheter|
+|renal-replacement-therapy v1|ctv3|X30MJ|Omental wrapping around peritoneal dialysis catheter|
+|renal-replacement-therapy v1|ctv3|X30MK|Poor drainage of peritoneal dialysis catheter|
+|renal-replacement-therapy v1|ctv3|X30ML|Extrusion of peritoneal dialysis catheter cuff|
+|renal-replacement-therapy v1|ctv3|X30MM|Misplacement of acute peritoneal dialysis catheter|
+|renal-replacement-therapy v1|ctv3|X30MN|Renal transplant disorder|
+|renal-replacement-therapy v1|ctv3|X30MO|Primary non-function of renal transplant|
+|renal-replacement-therapy v1|ctv3|X30MP|Renal transplant rejection|
+|renal-replacement-therapy v1|ctv3|X30MQ|Hyperacute rejection of renal transplant|
+|renal-replacement-therapy v1|ctv3|X30MR|Accelerated rejection of renal transplant|
+|renal-replacement-therapy v1|ctv3|X30MS|Very mild acute rejection of renal transplant|
+|renal-replacement-therapy v1|ctv3|X30MT|Acute rejection of renal transplant|
+|renal-replacement-therapy v1|ctv3|X30MU|Acute rejection of renal transplant - grade I|
+|renal-replacement-therapy v1|ctv3|X30MV|Acute rejection of renal transplant - grade II|
+|renal-replacement-therapy v1|ctv3|X30MW|Acute rejection of renal transplant - grade III|
+|renal-replacement-therapy v1|ctv3|X30MX|Chronic rejection of renal transplant|
+|renal-replacement-therapy v1|ctv3|X30MY|Chronic rejection of renal transplant - grade 1|
+|renal-replacement-therapy v1|ctv3|X30MZ|Chronic rejection of renal transplant - grade II|
+|renal-replacement-therapy v1|ctv3|X30Ma|Chronic rejection of renal transplant - grade III|
+|renal-replacement-therapy v1|ctv3|X30Mb|Acute-on-chronic rejection of renal transplant|
+|renal-replacement-therapy v1|ctv3|X30Mc|Failed renal transplant|
+|renal-replacement-therapy v1|ctv3|X30Md|Perfusion injury of renal transplant|
+|renal-replacement-therapy v1|ctv3|X30Mg|Transplant glomerulopathy|
+|renal-replacement-therapy v1|ctv3|X30Mh|Transplant glomerulopathy - early form|
+|renal-replacement-therapy v1|ctv3|X30Mi|Transplant glomerulopathy - late form|
+|renal-replacement-therapy v1|ctv3|X30NN|Perirenal and periureteric post-transplant lymphocele|
+|renal-replacement-therapy v1|ctv3|X40bz|Renewal of chronic ambulatory peritoneal dialysis catheter|
+|renal-replacement-therapy v1|ctv3|X40c0|Adjustment chronic ambulatory peritoneal dialysis catheter|
+|renal-replacement-therapy v1|ctv3|X40c1|Aspiration chronic ambulatory peritoneal dialysis catheter|
+|renal-replacement-therapy v1|ctv3|X40c2|Flushing of chronic ambulatory peritoneal dialysis catheter|
+|renal-replacement-therapy v1|ctv3|X40c3|Continuous ambulatory peritoneal dialysis|
+|renal-replacement-therapy v1|ctv3|X40c4|Continuous cycling peritoneal dialysis|
+|renal-replacement-therapy v1|ctv3|X40c5|Intermittent peritoneal dialysis|
+|renal-replacement-therapy v1|ctv3|X40c6|Tidal peritoneal dialysis|
+|renal-replacement-therapy v1|ctv3|X40c7|Night-time intermittent peritoneal dialysis|
+|renal-replacement-therapy v1|ctv3|XE0Fh|Creation of arteriovenous fistula NEC|
+|renal-replacement-therapy v1|ctv3|XE0Fh|Creation of arteriovenous fistula NEC|
+|renal-replacement-therapy v1|ctv3|XE0Fj|Repair of acquired arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|XE0Fj|Repair of acquired arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|XE0Jf|Compensation for renal failure|
+|renal-replacement-therapy v1|ctv3|XE0Jf|Compensation for renal failure|
+|renal-replacement-therapy v1|ctv3|XE0Jg|Renal dialysis|
+|renal-replacement-therapy v1|ctv3|XE0Jg|Renal dialysis|
+|renal-replacement-therapy v1|ctv3|XE0kD|Renal dialysis (& haemodialysis)|
+|renal-replacement-therapy v1|ctv3|XE21r|Mechanical failure of apparatus during kidney dialysis|
+|renal-replacement-therapy v1|ctv3|XE21r|Mechanical failure of apparatus during kidney dialysis|
+|renal-replacement-therapy v1|ctv3|XE2u6|Chronic ambulatory peritoneal dialysis catheter procedure|
+|renal-replacement-therapy v1|ctv3|Xa0Ex|Peritoneal dialysis-associated peritonitis|
+|renal-replacement-therapy v1|ctv3|Xa0FB|Percutaneous balloon angioplasty of arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|Xa0Gm|Percutaneous embolectomy of arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|Xa0H7|Percutaneous thrombolysis of arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|Xa0HK|Unexplained episode of renal transplant dysfunction|
+|renal-replacement-therapy v1|ctv3|Xa0HL|Pre-existing disease in renal transplant|
+|renal-replacement-therapy v1|ctv3|Xa0ol|Procedure related to surgical arteriovenous connection|
+|renal-replacement-therapy v1|ctv3|Xa0x1|Removal of arteriovenous shunt|
+|renal-replacement-therapy v1|ctv3|Xa1dw|Transplant kidney|
+|renal-replacement-therapy v1|ctv3|Xa24I|Acquired renal arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|Xa3x6|Kidney replacement|
+|renal-replacement-therapy v1|ctv3|Xa402|Extracorporeal kidney|
+|renal-replacement-therapy v1|ctv3|Xa8S7|Haemodialysis|
+|renal-replacement-therapy v1|ctv3|Xa8S7|Haemodialysis|
+|renal-replacement-therapy v1|ctv3|Xa9zl|Dependence on renal dialysis|
+|renal-replacement-therapy v1|ctv3|XaBrA|Haemodialysis procedure|
+|renal-replacement-therapy v1|ctv3|XaC2Z|[X] Peritoneal dialysis associated peritonitis|
+|renal-replacement-therapy v1|ctv3|XaE9T|Donor renal transplantation|
+|renal-replacement-therapy v1|ctv3|XaLiG|Thrombectomy of arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|XaLiH|Creation of graft fistula for dialysis|
+|renal-replacement-therapy v1|ctv3|XaM1o|Allotransplantation of kidney from cadaver, heart-beating|
+|renal-replacement-therapy v1|ctv3|XaM1p|Allotransplantation kidney from cadaver, heart non-beating|
+|renal-replacement-therapy v1|ctv3|XaM2A|Automated peritoneal dialysis|
+|renal-replacement-therapy v1|ctv3|XaMKM|Allotransplantation of kidney from cadaver NEC|
+|renal-replacement-therapy v1|ctv3|XaMMt|Peritoneal dialysis NEC|
+|renal-replacement-therapy v1|ctv3|XaMtq|Extracorporeal albumin haemodialysis|
+|renal-replacement-therapy v1|ctv3|XaOmL|Ligation of arteriovenous dialysis fistula|
+|renal-replacement-therapy v1|ctv3|XaOoH|Ligation of arteriovenous dialysis graft|
+|renal-replacement-therapy v1|ctv3|XaREO|Continuous ambulatory peritoneal dialysis associated perit|
+|renal-replacement-therapy v1|ctv3|XaZWa|Urological complication of renal transplant|
+|renal-replacement-therapy v1|ctv3|XaZYx|Vascular complication of renal transplant|
+|renal-replacement-therapy v1|ctv3|XaZc8|Ruptured aneurysm of dialysis vascular access|
+|renal-replacement-therapy v1|ctv3|XaZcQ|Aneurysm of superficialised artery of dialysis AV fistula|
+|renal-replacement-therapy v1|ctv3|XaZcU|Aneurysm of dialysis arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|XaZcX|Aneurysm of needle site of dialysis arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|XaZcd|Aneurysm of anastomotic site of dialysis AV fistula|
+|renal-replacement-therapy v1|ctv3|XaZdk|Thrombus in peritoneal dialysis catheter|
+|renal-replacement-therapy v1|ctv3|XaZe2|Rupture of artery of transplanted kidney|
+|renal-replacement-therapy v1|ctv3|XaZe3|Rupture of vein of transplanted kidney|
+|renal-replacement-therapy v1|ctv3|XaZe7|Stenosis of vein of transplanted kidney|
+|renal-replacement-therapy v1|ctv3|XaZkw|Aneurysm of vein of transplanted kidney|
+|renal-replacement-therapy v1|ctv3|XaZl0|Aneurysm of artery of transplanted kidney|
+|renal-replacement-therapy v1|ctv3|XaZlu|Stenosis of dialysis vascular access|
+|renal-replacement-therapy v1|ctv3|XaZlv|Thrombosis of dialysis vascular access|
+|renal-replacement-therapy v1|ctv3|XaZmp|Anaphylactoid reaction due to haemodialysis|
+|renal-replacement-therapy v1|ctv3|Xaa2O|Thrombosis of artery of transplanted kidney|
+|renal-replacement-therapy v1|ctv3|Xaa2Q|Thrombosis of vein of transplanted kidney|
+|renal-replacement-therapy v1|ctv3|Xaa5S|Occlusion of dialysis vascular access|
+|renal-replacement-therapy v1|ctv3|Xaa5T|Infection of dialysis vascular access|
+|renal-replacement-therapy v1|ctv3|Xaa5U|Haemorrhage of dialysis vascular access|
+|renal-replacement-therapy v1|ctv3|Xaa5W|Stenosis of dialysis arteriovenous graft|
+|renal-replacement-therapy v1|ctv3|Xaa5X|Stenosis of dialysis arteriovenous shunt|
+|renal-replacement-therapy v1|ctv3|Xaa5e|Thrombosis of dialysis arteriovenous graft|
+|renal-replacement-therapy v1|ctv3|Xaa5f|Thrombosis of dialysis arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|Xaa5g|Thrombosis of dialysis arteriovenous shunt|
+|renal-replacement-therapy v1|ctv3|Xaa5h|Occlusion of dialysis arteriovenous graft|
+|renal-replacement-therapy v1|ctv3|Xaa5i|Occlusion of dialysis arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|Xaa5j|Occlusion of dialysis arteriovenous shunt|
+|renal-replacement-therapy v1|ctv3|Xaa6n|Infection of dialysis arteriovenous graft|
+|renal-replacement-therapy v1|ctv3|Xaa6o|Infection of dialysis arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|Xaa7F|Infection of dialysis arteriovenous shunt|
+|renal-replacement-therapy v1|ctv3|Xaa7H|Haemorrhage of dialysis arteriovenous graft|
+|renal-replacement-therapy v1|ctv3|Xaa7I|Haemorrhage of dialysis arteriovenous fistula|
+|renal-replacement-therapy v1|ctv3|Xaa7J|Haemorrhage of dialysis arteriovenous shunt|
+|renal-replacement-therapy v1|ctv3|Xaa7K|Rupture of dialysis arteriovenous graft|
+|renal-replacement-therapy v1|ctv3|XaaEx|Stenosis of arterial side of dialysis arteriovenous shunt|
+|renal-replacement-therapy v1|ctv3|XaaEy|Stenosis of venous side of dialysis arteriovenous shunt|
+|renal-replacement-therapy v1|ctv3|ZV420|[V]Kidney transplanted|
+|renal-replacement-therapy v1|ctv3|ZV451|[V]Renal dialysis status|
+|renal-replacement-therapy v1|ctv3|ZV56.|[V]Aftercare involving intermittent dialysis|
+|renal-replacement-therapy v1|ctv3|ZV560|[V]Aftercare involving extracorporeal dialysis|
+|renal-replacement-therapy v1|ctv3|ZV560|[V]Aftercare involving extracorporeal dialysis|
+|renal-replacement-therapy v1|ctv3|ZV561|[V]Preparatory care for dialysis|
+|renal-replacement-therapy v1|ctv3|ZV56y|[V]Other specified aftercare involving intermittent dialysis|
+|renal-replacement-therapy v1|ctv3|ZV56z|[V]Unspecified aftercare involving intermittent dialysis|
+|renal-replacement-therapy v1|ctv3|ZVu3G|[X]Other dialysis|
+|renal-replacement-therapy v1|readv2|14S2.|H/O: kidney recipient|
+|renal-replacement-therapy v1|readv2|7A600|Insertion of arteriovenous prosthesis|
+|renal-replacement-therapy v1|readv2|7A602|Attention to arteriovenous shunt|
+|renal-replacement-therapy v1|readv2|7A603|Removal of infected arteriovenous shunt|
+|renal-replacement-therapy v1|readv2|7A60y|Other specified arteriovenous shunt|
+|renal-replacement-therapy v1|readv2|7A60z|Arteriovenous shunt NOS|
+|renal-replacement-therapy v1|readv2|7A614|Ligation of acquired arteriovenous fistula|
+|renal-replacement-therapy v1|readv2|7A6E2|Declotting of thigh vein loop|
+|renal-replacement-therapy v1|readv2|7B00.|Transplantation of kidney|
+|renal-replacement-therapy v1|readv2|7B001|Allotransplantation of kidney from live donor|
+|renal-replacement-therapy v1|readv2|7B001|Transplantation of kidney from live donor|
+|renal-replacement-therapy v1|readv2|7B002|Allotransplantation of kidney from cadaver|
+|renal-replacement-therapy v1|readv2|7B002|Cadaveric renal transplant|
+|renal-replacement-therapy v1|readv2|7B002|Transplantation of kidney from cadaver|
+|renal-replacement-therapy v1|readv2|7B00y|Other specified transplantation of kidney|
+|renal-replacement-therapy v1|readv2|7B00z|Transplantation of kidney NOS|
+|renal-replacement-therapy v1|readv2|7L1A.|Compensation for renal failure|
+|renal-replacement-therapy v1|readv2|7L1A.|Dialysis for renal failure|
+|renal-replacement-therapy v1|readv2|7L1A0|Renal dialysis|
+|renal-replacement-therapy v1|readv2|7L1A1|Peritoneal dialysis|
+|renal-replacement-therapy v1|readv2|7L1A2|Haemodialysis NEC|
+|renal-replacement-therapy v1|readv2|7L1B.|Placement of ambulatory apparatus for compensation for renal failure|
+|renal-replacement-therapy v1|readv2|7L1B0|Insertion of ambulatory peritoneal dialysis catheter|
+|renal-replacement-therapy v1|readv2|7L1B1|Removal of ambulatory peritoneal dialysis catheter|
+|renal-replacement-therapy v1|readv2|7L1C.|Placement of other apparatus for compensation for renal failure|
+|renal-replacement-therapy v1|readv2|7L1C0|Insertion of temporary peritoneal dialysis catheter|
+|renal-replacement-therapy v1|readv2|7L1Cy|Other specified placement of other apparatus for compensation for renal failure|
+|renal-replacement-therapy v1|readv2|G760.|Acquired arteriovenous fistula|
+|renal-replacement-therapy v1|readv2|TB11.|Kidney dialysis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of procedure|
+|renal-replacement-therapy v1|readv2|TB11.|Renal dialysis with complication, without blame|
+|renal-replacement-therapy v1|readv2|ZV420|[V]Kidney transplanted|
+|renal-replacement-therapy v1|readv2|ZV451|[V]Renal dialysis status|
+|renal-replacement-therapy v1|readv2|ZV560|[V]Aftercare involving renal dialysis NOS|
+|renal-replacement-therapy v1|readv2|ZV561|[V]Preparatory care for dialysis|
+|renal-replacement-therapy v1|readv2|ZV56y|[V]Aftercare involving peritoneal dialysis|
+|renal-replacement-therapy v1|readv2|ZV56y|[V]Other specified aftercare involving intermittent dialysis|
+|renal-replacement-therapy v1|readv2|ZV56z|[V]Unspecified aftercare involving intermittent dialysis|
+|renal-replacement-therapy v1|readv2|ZVu3G|[X]Other dialysis|
+|acute-kidney-injury v1|ctv3|K04..|Acute kidney injury|
+|acute-kidney-injury v1|ctv3|Xaa8O|Acute kidney injury stage 1|
+|acute-kidney-injury v1|ctv3|Xaa8P|Acute kidney injury stage 2|
+|acute-kidney-injury v1|ctv3|Xaa8Q|Acute kidney injury stage 3|
+|acute-kidney-injury v1|ctv3|XabmE|Acute kidney injury warning stage|
+|acute-kidney-injury v1|ctv3|Xabuj|Provision of written information about acute kidney injury|
+|acute-kidney-injury v1|ctv3|XaebJ|H/O: acute kidney injury|
+|acute-kidney-injury v1|ctv3|K04z.|Acute renal failure NOS|
+|acute-kidney-injury v1|ctv3|Kyu20|[X]Other acute renal failure|
+|acute-kidney-injury v1|ctv3|X30Iu|Myoglobinuric acute renal failure|
+|acute-kidney-injury v1|ctv3|XM08q|Prerenal renal failure|
+|acute-kidney-injury v1|readv2|K04..12|Acute kidney injury|
+|acute-kidney-injury v1|readv2|K04E.00|Acute kidney injury stage 3|
+|acute-kidney-injury v1|readv2|K04D.00|Acute kidney injury stage 2|
+|acute-kidney-injury v1|readv2|K04C.00|Acute kidney injury stage 1|
+|acute-kidney-injury v1|readv2|451L.00|Acute kidney injury warning stage|
+|acute-kidney-injury v1|readv2|8OAG.00|Provision of written information about acute kidney injury|
+|acute-kidney-injury v1|readv2|14D8.00|H/O: acute kidney injury|
+|acute-kidney-injury v1|readv2|K040.00|Acute renal tubular necrosis|
+|acute-kidney-injury v1|readv2|K04y.00|Other acute renal failure|
+|acute-kidney-injury v1|readv2|K04z.00|Acute renal failure NOS|
+|acute-kidney-injury v1|readv2|Kyu2000|[X]Other acute renal failure|
+|acute-kidney-injury v1|readv2|SK08.00|Acute renal failure due to rhabdomyolysis|
+|acute-kidney-injury v1|snomed|14669001|Acute renal failure|
+|acute-kidney-injury v1|snomed|23697004|Crush syndrome (disorder)|
+|acute-kidney-injury v1|snomed|722095005|Acute kidney injury due to circulatory failure|
+|acute-kidney-injury v1|snomed|722096006|Acute kidney injury due to hypovolemia|
+|acute-kidney-injury v1|snomed|722278006|Acute kidney injury due to sepsis|
+|acute-kidney-injury v1|snomed|726541005|AKI (acute kidney injury) due to trauma|
+|acute-kidney-injury v1|snomed|140031000119103|Nontraumatic AKI (acute kidney injury)|
+|acute-kidney-injury v1|snomed|851931000000107|Acute kidney injury stage 1 (disorder)|
+|acute-kidney-injury v1|snomed|851941000000103|Acute kidney injury stage 2 (disorder)|
+|acute-kidney-injury v1|snomed|851951000000100|Acute kidney injury stage 3 (disorder)|
+|acute-kidney-injury v1|snomed|145681000119101|Acute renal failure due to tubular necrosis|
+|acute-kidney-injury v1|snomed|129561000119108|Acute renal failure|
+|acute-kidney-injury v1|snomed|1048451000000103|Acute kidney injury due to acute tubular necrosis due to hypovolaemia (disorder)|
+|acute-kidney-injury v1|snomed|1048481000000109|Acute kidney injury due to acute tubular necrosis due to circulatory failure (disorder)|
+|acute-kidney-injury v1|snomed|1048491000000106|Acute kidney injury due to acute tubular necrosis due to sepsis (disorder)|
+|acute-kidney-injury v1|snomed|1048501000000100|Acute kidney injury due to acute tubular necrosis with histological evidence (disorder)|
+|acute-kidney-injury v1|snomed|1048511000000103|Acute kidney injury due to acute tubular necrosis due to hypovolaemia with histological evidence (disorder)|
+|acute-kidney-injury v1|snomed|1048541000000102|Acute kidney injury due to acute tubular necrosis due to circulatory failure with histological evidence (disorder)|
+|acute-kidney-injury v1|snomed|1048521000000109|Acute kidney injury due to acute tubular necrosis due to sepsis with histological evidence (disorder)|
+|acute-kidney-injury v1|snomed|1007921000000107|Acute kidney injury warning stage|
+|acute-kidney-injury v1|snomed|137971000119104|History of acute renal failure (situation)|
+|acute-kidney-injury v1|snomed|938911000000100|At risk of AKI (acute kidney injury)|
+|acute-kidney-injury v1|snomed|1127821000000102|Acute kidney injury findings simple reference set (foundation metadata concept)|
+|acute-kidney-injury v1|snomed|939531000000109|Provision of information about AKI (acute kidney injury)|
 |polycystic-kidney-disease v1|ctv3|PD11.|Polycystic kidney disease|
 |polycystic-kidney-disease v1|ctv3|PD11z|Polycystic kidney disease NOS or cystic kidney disease NEC|
 |polycystic-kidney-disease v1|ctv3|PD111|Autosomal dominant polycystic kidney disease |
@@ -4290,6 +4156,578 @@ All code sets required for this analysis are listed here. Individual lists for e
 |end-stage-renal-disease v1|readv2|ZV56y00|[v]other specified aftercare involving intermittent dialysis|
 |end-stage-renal-disease v1|readv2|ZV56y11|[v]aftercare involving peritoneal dialysis|
 |end-stage-renal-disease v1|readv2|ZVu3G00|[x]other dialysis|
+|ckd-stage-1 v1|ctv3|﻿XaLHG|Chronic kidney disease stage 1|
+|ckd-stage-1 v1|ctv3|Xac9y|CKD G1A1 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A1|
+|ckd-stage-1 v1|ctv3|Xac9z|CKD G1A2 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A2|
+|ckd-stage-1 v1|ctv3|XacA2|CKD G1A3 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A3|
+|ckd-stage-1 v1|ctv3|XaO3p|Chronic kidney disease stage 1 with proteinuria|
+|ckd-stage-1 v1|ctv3|XaO3q|Chronic kidney disease stage 1 without proteinuria|
+|ckd-stage-1 v1|readv2|﻿1Z1P.00|CKD G1A3 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A3|
+|ckd-stage-1 v1|readv2|1Z1N.00|CKD G1A2 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A2|
+|ckd-stage-1 v1|readv2|1Z1M.00|CKD G1A1 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A1|
+|ckd-stage-1 v1|readv2|1Z10.00|Chronic kidney disease stage 1|
+|ckd-stage-1 v1|readv2|1Z18.00|Chronic kidney disease stage 1 without proteinuria|
+|ckd-stage-1 v1|readv2|1Z17.00|Chronic kidney disease stage 1 with proteinuria|
+|ckd-stage-1 v1|readv2|K051.00|Chronic kidney disease stage 1|
+|ckd-stage-1 v1|snomed|﻿431855005|CKD stage 1|
+|ckd-stage-1 v1|snomed|117681000119102|Chronic kidney disease stage 1 due to hypertension (disorder)|
+|ckd-stage-1 v1|snomed|90721000119101|Chronic kidney disease stage 1 due to type I diabetes mellitus|
+|ckd-stage-1 v1|snomed|751000119104|Chronic kidney disease stage 1 due to type II diabetes mellitus|
+|ckd-stage-1 v1|snomed|285851000119102|Malignant hypertensive chronic kidney disease stage 1 (disorder)|
+|ckd-stage-1 v1|snomed|96751000119106|Hypertensive heart AND chronic kidney disease stage 1 (disorder)|
+|ckd-stage-1 v1|snomed|284971000119100|Chronic kidney disease stage 1 due to benign hypertension (disorder)|
+|ckd-stage-1 v1|snomed|324151000000104|Chronic kidney disease stage 1 without proteinuria|
+|ckd-stage-1 v1|snomed|324121000000109|Chronic kidney disease stage 1 with proteinuria|
+|ckd-stage-1 v1|snomed|949401000000103|Chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A1|
+|ckd-stage-1 v1|snomed|949421000000107|Chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A2|
+|ckd-stage-1 v1|snomed|949481000000108|Chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A3|
+|ckd-stage-2 v1|ctv3|﻿XaLHH|Chronic kidney disease stage 2|
+|ckd-stage-2 v1|ctv3|XacA4|CKD G2A1 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A1|
+|ckd-stage-2 v1|ctv3|XacA6|CKD G2A2 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A2|
+|ckd-stage-2 v1|ctv3|XacA9|CKD G2A3 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A3|
+|ckd-stage-2 v1|ctv3|XaO3s|Chronic kidney disease stage 2 without proteinuria|
+|ckd-stage-2 v1|ctv3|XaO3r|Chronic kidney disease stage 2 with proteinuria|
+|ckd-stage-2 v1|readv2|﻿1Z1S.00|CKD G2A3 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A3|
+|ckd-stage-2 v1|readv2|1Z1R.00|CKD G2A2 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A2|
+|ckd-stage-2 v1|readv2|1Z1Q.00|CKD G2A1 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A1|
+|ckd-stage-2 v1|readv2|1Z11.00|Chronic kidney disease stage 2|
+|ckd-stage-2 v1|readv2|1Z1A.00|Chronic kidney disease stage 2 without proteinuria|
+|ckd-stage-2 v1|readv2|1Z19.00|Chronic kidney disease stage 2 with proteinuria|
+|ckd-stage-2 v1|readv2|K052.00|Chronic kidney disease stage 2|
+|ckd-stage-2 v1|snomed|﻿431856006|CKD stage 2|
+|ckd-stage-2 v1|snomed|140131000119102|Hypertension in chronic kidney disease stage 2 due to type II diabetes mellitus|
+|ckd-stage-2 v1|snomed|741000119101|Chronic kidney disease stage 2 due to type II diabetes mellitus|
+|ckd-stage-2 v1|snomed|129181000119109|Chronic kidney disease stage 2 due to hypertension (disorder)|
+|ckd-stage-2 v1|snomed|324211000000106|Chronic kidney disease stage 2 without proteinuria|
+|ckd-stage-2 v1|snomed|324181000000105|Chronic kidney disease stage 2 with proteinuria|
+|ckd-stage-2 v1|snomed|285861000119100|Malignant hypertensive chronic kidney disease stage 2 (disorder)|
+|ckd-stage-2 v1|snomed|96741000119109|Hypertensive heart AND chronic kidney disease stage 2 (disorder)|
+|ckd-stage-2 v1|snomed|90731000119103|Chronic kidney disease stage 2 due to type I diabetes mellitus|
+|ckd-stage-2 v1|snomed|284981000119102|Chronic kidney disease stage 2 due to benign hypertension (disorder)|
+|ckd-stage-2 v1|snomed|949521000000108|Chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A1|
+|ckd-stage-2 v1|snomed|949561000000100|Chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A2|
+|ckd-stage-2 v1|snomed|949621000000109|Chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A3|
+|ckd-stage-3 v1|ctv3|﻿XaLHI|Chronic kidney disease stage 3|
+|ckd-stage-3 v1|ctv3|XacAM|CKD G3aA1 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A1|
+|ckd-stage-3 v1|ctv3|XacAN|CKD G3aA2 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A2|
+|ckd-stage-3 v1|ctv3|XacAO|CKD G3aA3 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A3|
+|ckd-stage-3 v1|ctv3|XacAV|CKD G3bA1 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A1|
+|ckd-stage-3 v1|ctv3|XacAW|CKD G3bA2 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A2|
+|ckd-stage-3 v1|ctv3|XacAX|CKD G3bA3 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A3|
+|ckd-stage-3 v1|ctv3|XaNbn|Chronic kidney disease stage 3A|
+|ckd-stage-3 v1|ctv3|XaNbo|Chronic kidney disease stage 3B|
+|ckd-stage-3 v1|ctv3|XaO3t|Chronic kidney disease stage 3 with proteinuria|
+|ckd-stage-3 v1|ctv3|XaO3u|Chronic kidney disease stage 3 without proteinuria|
+|ckd-stage-3 v1|ctv3|XaO3w|Chronic kidney disease stage 3A without proteinuria|
+|ckd-stage-3 v1|ctv3|XaO3x|Chronic kidney disease stage 3B with proteinuria|
+|ckd-stage-3 v1|ctv3|XaO3y|Chronic kidney disease stage 3B without proteinuria|
+|ckd-stage-3 v1|ctv3|XaO3v|Chronic kidney disease stage 3A with proteinuria|
+|ckd-stage-3 v1|readv2|﻿1Z1Z.00|CKD G3bA3 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A3|
+|ckd-stage-3 v1|readv2|1Z1Y.00|CKD G3bA2 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A2|
+|ckd-stage-3 v1|readv2|1Z1X.00|CKD G3bA1 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A1|
+|ckd-stage-3 v1|readv2|1Z1W.00|CKD G3aA3 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A3|
+|ckd-stage-3 v1|readv2|1Z1V.00|CKD G3aA2 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A2|
+|ckd-stage-3 v1|readv2|1Z1T.00|CKD G3aA1 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A1|
+|ckd-stage-3 v1|readv2|1Z16.00|Chronic kidney disease stage 3B|
+|ckd-stage-3 v1|readv2|1Z15.00|Chronic kidney disease stage 3A|
+|ckd-stage-3 v1|readv2|1Z12.00|Chronic kidney disease stage 3|
+|ckd-stage-3 v1|readv2|1Z1G.00|Chronic kidney disease stage 3B without proteinuria|
+|ckd-stage-3 v1|readv2|1Z1F.00|Chronic kidney disease stage 3B with proteinuria|
+|ckd-stage-3 v1|readv2|1Z1E.00|Chronic kidney disease stage 3A without proteinuria|
+|ckd-stage-3 v1|readv2|1Z1D.00|Chronic kidney disease stage 3A with proteinuria|
+|ckd-stage-3 v1|readv2|1Z1C.00|Chronic kidney disease stage 3 without proteinuria|
+|ckd-stage-3 v1|readv2|1Z1B.00|Chronic kidney disease stage 3 with proteinuria|
+|ckd-stage-3 v1|readv2|K053.00|Chronic kidney disease stage 3|
+|ckd-stage-3 v1|snomed|﻿433144002|CKD stage 3|
+|ckd-stage-3 v1|snomed|700378005|Chronic kidney disease stage 3A (disorder)|
+|ckd-stage-3 v1|snomed|700379002|Chronic kidney disease stage 3B (disorder)|
+|ckd-stage-3 v1|snomed|140121000119100|Hypertension in chronic kidney disease stage 3 due to type II diabetes mellitus|
+|ckd-stage-3 v1|snomed|731000119105|Chronic kidney disease stage 3 due to type II diabetes mellitus|
+|ckd-stage-3 v1|snomed|129171000119106|Chronic kidney disease stage 3 due to hypertension (disorder)|
+|ckd-stage-3 v1|snomed|324281000000104|Chronic kidney disease stage 3 without proteinuria|
+|ckd-stage-3 v1|snomed|324251000000105|Chronic kidney disease stage 3 with proteinuria|
+|ckd-stage-3 v1|snomed|285871000119106|Malignant hypertensive chronic kidney disease stage 3 (disorder)|
+|ckd-stage-3 v1|snomed|96731000119100|Hypertensive heart AND chronic kidney disease stage 3 (disorder)|
+|ckd-stage-3 v1|snomed|90741000119107|Chronic kidney disease stage 3 due to type I diabetes mellitus|
+|ckd-stage-3 v1|snomed|284991000119104|Chronic kidney disease stage 3 due to benign hypertension|
+|ckd-stage-3 v1|snomed|691421000119108|Anemia co-occurrent and due to chronic kidney disease stage 3|
+|ckd-stage-3 v1|snomed|324311000000101|Chronic kidney disease stage 3A with proteinuria|
+|ckd-stage-3 v1|snomed|324341000000100|Chronic kidney disease stage 3A without proteinuria|
+|ckd-stage-3 v1|snomed|324371000000106|Chronic kidney disease stage 3B with proteinuria|
+|ckd-stage-3 v1|snomed|324411000000105|Chronic kidney disease stage 3B without proteinuria|
+|ckd-stage-3 v1|snomed|949881000000106|CKD G3aA1 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A1|
+|ckd-stage-3 v1|snomed|949901000000109|Chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A2|
+|ckd-stage-3 v1|snomed|949921000000100|Chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A3|
+|ckd-stage-3 v1|snomed|950061000000103|Chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A1|
+|ckd-stage-3 v1|snomed|950081000000107|Chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A2|
+|ckd-stage-3 v1|snomed|950101000000101|Chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A3|
+|ckd-stage-4 v1|ctv3|﻿XaLHJ|Chronic kidney disease stage 4|
+|ckd-stage-4 v1|ctv3|XacAb|CKD G4A1 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A1|
+|ckd-stage-4 v1|ctv3|XacAd|CKD G4A2 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A2|
+|ckd-stage-4 v1|ctv3|XacAe|CKD G4A3 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A3|
+|ckd-stage-4 v1|ctv3|XaO40|Chronic kidney disease stage 4 without proteinuria|
+|ckd-stage-4 v1|ctv3|XaO3z|Chronic kidney disease stage 4 with proteinuria|
+|ckd-stage-4 v1|readv2|﻿1Z1c.00|CKD G4A3 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A3|
+|ckd-stage-4 v1|readv2|1Z1b.00|CKD G4A2 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A2|
+|ckd-stage-4 v1|readv2|1Z1a.00|CKD G4A1 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A1|
+|ckd-stage-4 v1|readv2|1Z13.00|Chronic kidney disease stage 4|
+|ckd-stage-4 v1|readv2|1Z1J.00|Chronic kidney disease stage 4 without proteinuria|
+|ckd-stage-4 v1|readv2|1Z1H.00|Chronic kidney disease stage 4 with proteinuria|
+|ckd-stage-4 v1|readv2|K054.00|Chronic kidney disease stage 4|
+|ckd-stage-4 v1|snomed|﻿431857002|CKD stage 4|
+|ckd-stage-4 v1|snomed|140111000119107|Hypertension in chronic kidney disease stage 4 due to type II diabetes mellitus|
+|ckd-stage-4 v1|snomed|721000119107|Chronic kidney disease stage 4 due to type II diabetes mellitus|
+|ckd-stage-4 v1|snomed|129151000119102|Chronic kidney disease stage 4 due to hypertension (disorder)|
+|ckd-stage-4 v1|snomed|324441000000106|Chronic kidney disease stage 4 with proteinuria|
+|ckd-stage-4 v1|snomed|324471000000100|Chronic kidney disease stage 4 without proteinuria|
+|ckd-stage-4 v1|snomed|285881000119109|Malignant hypertensive chronic kidney disease stage 4 (disorder)|
+|ckd-stage-4 v1|snomed|96721000119103|Hypertensive heart AND chronic kidney disease stage 4 (disorder)|
+|ckd-stage-4 v1|snomed|90751000119109|Chronic kidney disease stage 4 due to type I diabetes mellitus|
+|ckd-stage-4 v1|snomed|285001000119105|Chronic kidney disease stage 4 due to benign hypertension (disorder)|
+|ckd-stage-4 v1|snomed|950181000000106|Chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A1|
+|ckd-stage-4 v1|snomed|950211000000107|Chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A2|
+|ckd-stage-4 v1|snomed|950231000000104|Chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A3|
+|ckd-stage-4 v1|snomed|691401000119104|Anaemia in chronic kidney disease stage 4|
+|ckd-stage-5 v1|ctv3|﻿XaLHK|Chronic kidney disease stage 5|
+|ckd-stage-5 v1|ctv3|XacAf|CKD G5A1 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A1|
+|ckd-stage-5 v1|ctv3|XacAh|CKD G5A2 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A2|
+|ckd-stage-5 v1|ctv3|XacAi|CKD G5A3 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A3|
+|ckd-stage-5 v1|ctv3|XaO41|Chronic kidney disease stage 5 with proteinuria|
+|ckd-stage-5 v1|ctv3|XaO42|Chronic kidney disease stage 5 without proteinuria|
+|ckd-stage-5 v1|readv2|﻿1Z1f.00|CKD G5A3 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A3|
+|ckd-stage-5 v1|readv2|1Z1e.00|CKD G5A2 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A2|
+|ckd-stage-5 v1|readv2|1Z1d.00|CKD G5A1 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A1|
+|ckd-stage-5 v1|readv2|1Z14.00|Chronic kidney disease stage 5|
+|ckd-stage-5 v1|readv2|1Z1L.00|Chronic kidney disease stage 5 without proteinuria|
+|ckd-stage-5 v1|readv2|1Z1K.00|Chronic kidney disease stage 5 with proteinuria|
+|ckd-stage-5 v1|readv2|K055.00|Chronic kidney disease stage 5|
+|ckd-stage-5 v1|snomed|﻿433146000|CKD stage 5|
+|ckd-stage-5 v1|snomed|714152005|Chronic kidney disease stage 5 on dialysis|
+|ckd-stage-5 v1|snomed|140101000119109|Hypertension in chronic kidney disease stage 5 due to type II diabetes mellitus|
+|ckd-stage-5 v1|snomed|711000119100|Chronic kidney disease stage 5 due to type II diabetes mellitus|
+|ckd-stage-5 v1|snomed|129161000119100|Chronic kidney disease stage 5 due to hypertension (disorder)|
+|ckd-stage-5 v1|snomed|324541000000105|Chronic kidney disease stage 5 without proteinuria|
+|ckd-stage-5 v1|snomed|324501000000107|Chronic kidney disease stage 5 with proteinuria|
+|ckd-stage-5 v1|snomed|153851000119106|Malignant hypertensive chronic kidney disease stage 5 (disorder)|
+|ckd-stage-5 v1|snomed|96711000119105|Hypertensive heart AND chronic kidney disease stage 5 (disorder)|
+|ckd-stage-5 v1|snomed|90761000119106|Chronic kidney disease stage 5 due to type I diabetes mellitus|
+|ckd-stage-5 v1|snomed|285011000119108|Chronic kidney disease stage 5 due to benign hypertension|
+|ckd-stage-5 v1|snomed|950251000000106|Chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A1|
+|ckd-stage-5 v1|snomed|950291000000103|Chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A2|
+|ckd-stage-5 v1|snomed|950311000000102|Chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A3|
+|ckd-stage-5 v1|snomed|691411000119101|Anaemia in chronic kidney disease stage 5|
+|chronic-kidney-disease v1|ctv3|﻿X30In|Chronic kidney disease|
+|chronic-kidney-disease v1|ctv3|XaLHG|Chronic kidney disease stage 1|
+|chronic-kidney-disease v1|ctv3|XaLHH|Chronic kidney disease stage 2|
+|chronic-kidney-disease v1|ctv3|XaLHI|Chronic kidney disease stage 3|
+|chronic-kidney-disease v1|ctv3|XaLHJ|Chronic kidney disease stage 4|
+|chronic-kidney-disease v1|ctv3|XaLHK|Chronic kidney disease stage 5|
+|chronic-kidney-disease v1|ctv3|Xac9y|CKD G1A1 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A1|
+|chronic-kidney-disease v1|ctv3|Xac9z|CKD G1A2 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A2|
+|chronic-kidney-disease v1|ctv3|XacA2|CKD G1A3 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A3|
+|chronic-kidney-disease v1|ctv3|XacA4|CKD G2A1 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A1|
+|chronic-kidney-disease v1|ctv3|XacA6|CKD G2A2 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A2|
+|chronic-kidney-disease v1|ctv3|XacA9|CKD G2A3 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A3|
+|chronic-kidney-disease v1|ctv3|XacAM|CKD G3aA1 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A1|
+|chronic-kidney-disease v1|ctv3|XacAN|CKD G3aA2 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A2|
+|chronic-kidney-disease v1|ctv3|XacAO|CKD G3aA3 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A3|
+|chronic-kidney-disease v1|ctv3|XacAV|CKD G3bA1 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A1|
+|chronic-kidney-disease v1|ctv3|XacAW|CKD G3bA2 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A2|
+|chronic-kidney-disease v1|ctv3|XacAX|CKD G3bA3 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A3|
+|chronic-kidney-disease v1|ctv3|XacAb|CKD G4A1 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A1|
+|chronic-kidney-disease v1|ctv3|XacAd|CKD G4A2 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A2|
+|chronic-kidney-disease v1|ctv3|XacAe|CKD G4A3 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A3|
+|chronic-kidney-disease v1|ctv3|XacAf|CKD G5A1 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A1|
+|chronic-kidney-disease v1|ctv3|XacAh|CKD G5A2 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A2|
+|chronic-kidney-disease v1|ctv3|XacAi|CKD G5A3 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A3|
+|chronic-kidney-disease v1|ctv3|XaO3p|Chronic kidney disease stage 1 with proteinuria|
+|chronic-kidney-disease v1|ctv3|XaO3s|Chronic kidney disease stage 2 without proteinuria|
+|chronic-kidney-disease v1|ctv3|XaNbn|Chronic kidney disease stage 3A|
+|chronic-kidney-disease v1|ctv3|XaNbo|Chronic kidney disease stage 3B|
+|chronic-kidney-disease v1|ctv3|XaO3t|Chronic kidney disease stage 3 with proteinuria|
+|chronic-kidney-disease v1|ctv3|XaO3u|Chronic kidney disease stage 3 without proteinuria|
+|chronic-kidney-disease v1|ctv3|XaO40|Chronic kidney disease stage 4 without proteinuria|
+|chronic-kidney-disease v1|ctv3|XaO3w|Chronic kidney disease stage 3A without proteinuria|
+|chronic-kidney-disease v1|ctv3|XaO3x|Chronic kidney disease stage 3B with proteinuria|
+|chronic-kidney-disease v1|ctv3|XaO3y|Chronic kidney disease stage 3B without proteinuria|
+|chronic-kidney-disease v1|ctv3|XaMFs|Chronic kidney disease monitoring administration|
+|chronic-kidney-disease v1|ctv3|XaMFt|Chronic kidney disease monitoring first letter|
+|chronic-kidney-disease v1|ctv3|XaMFu|Chronic kidney disease monitoring second letter|
+|chronic-kidney-disease v1|ctv3|XaMFv|Chronic kidney disease monitoring third letter|
+|chronic-kidney-disease v1|ctv3|XaMFw|Chronic kidney disease monitoring verbal invite|
+|chronic-kidney-disease v1|ctv3|XaMFx|Chronic kidney disease monitoring telephone invite|
+|chronic-kidney-disease v1|ctv3|XaMLh|Predicted stage chronic kidney disease|
+|chronic-kidney-disease v1|ctv3|X30J0|ESCRF - End stage chronic renal failure|
+|chronic-kidney-disease v1|ctv3|XaO3q|Chronic kidney disease stage 1 without proteinuria|
+|chronic-kidney-disease v1|ctv3|XaO3r|Chronic kidney disease stage 2 with proteinuria|
+|chronic-kidney-disease v1|ctv3|XaO3v|Chronic kidney disease stage 3A with proteinuria|
+|chronic-kidney-disease v1|ctv3|XaO3z|Chronic kidney disease stage 4 with proteinuria|
+|chronic-kidney-disease v1|ctv3|XaO41|Chronic kidney disease stage 5 with proteinuria|
+|chronic-kidney-disease v1|ctv3|XaO42|Chronic kidney disease stage 5 without proteinuria|
+|chronic-kidney-disease v1|emis|EMISNQCH20|Chronic kidney disease stage 3|
+|chronic-kidney-disease v1|emis|EMISNQCH17|Chronic kidney disease stage|
+|chronic-kidney-disease v1|readv2|﻿1Z1f.00|CKD G5A3 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A3|
+|chronic-kidney-disease v1|readv2|1Z1e.00|CKD G5A2 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A2|
+|chronic-kidney-disease v1|readv2|1Z1d.00|CKD G5A1 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A1|
+|chronic-kidney-disease v1|readv2|1Z1c.00|CKD G4A3 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A3|
+|chronic-kidney-disease v1|readv2|1Z1b.00|CKD G4A2 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A2|
+|chronic-kidney-disease v1|readv2|1Z1a.00|CKD G4A1 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A1|
+|chronic-kidney-disease v1|readv2|1Z1Z.00|CKD G3bA3 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A3|
+|chronic-kidney-disease v1|readv2|1Z1Y.00|CKD G3bA2 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A2|
+|chronic-kidney-disease v1|readv2|1Z1X.00|CKD G3bA1 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A1|
+|chronic-kidney-disease v1|readv2|1Z1W.00|CKD G3aA3 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A3|
+|chronic-kidney-disease v1|readv2|1Z1V.00|CKD G3aA2 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A2|
+|chronic-kidney-disease v1|readv2|1Z1T.00|CKD G3aA1 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A1|
+|chronic-kidney-disease v1|readv2|1Z1S.00|CKD G2A3 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A3|
+|chronic-kidney-disease v1|readv2|1Z1R.00|CKD G2A2 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A2|
+|chronic-kidney-disease v1|readv2|1Z1Q.00|CKD G2A1 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A1|
+|chronic-kidney-disease v1|readv2|1Z1P.00|CKD G1A3 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A3|
+|chronic-kidney-disease v1|readv2|1Z1N.00|CKD G1A2 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A2|
+|chronic-kidney-disease v1|readv2|1Z1M.00|CKD G1A1 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A1|
+|chronic-kidney-disease v1|readv2|1Z16.00|Chronic kidney disease stage 3B|
+|chronic-kidney-disease v1|readv2|1Z15.00|Chronic kidney disease stage 3A|
+|chronic-kidney-disease v1|readv2|1Z14.00|Chronic kidney disease stage 5|
+|chronic-kidney-disease v1|readv2|1Z13.00|Chronic kidney disease stage 4|
+|chronic-kidney-disease v1|readv2|1Z12.00|Chronic kidney disease stage 3|
+|chronic-kidney-disease v1|readv2|1Z11.00|Chronic kidney disease stage 2|
+|chronic-kidney-disease v1|readv2|1Z10.00|Chronic kidney disease stage 1|
+|chronic-kidney-disease v1|readv2|1Z1L.00|Chronic kidney disease stage 5 without proteinuria|
+|chronic-kidney-disease v1|readv2|1Z1K.00|Chronic kidney disease stage 5 with proteinuria|
+|chronic-kidney-disease v1|readv2|1Z1J.00|Chronic kidney disease stage 4 without proteinuria|
+|chronic-kidney-disease v1|readv2|1Z1H.00|Chronic kidney disease stage 4 with proteinuria|
+|chronic-kidney-disease v1|readv2|1Z1G.00|Chronic kidney disease stage 3B without proteinuria|
+|chronic-kidney-disease v1|readv2|1Z1F.00|Chronic kidney disease stage 3B with proteinuria|
+|chronic-kidney-disease v1|readv2|1Z1E.00|Chronic kidney disease stage 3A without proteinuria|
+|chronic-kidney-disease v1|readv2|1Z1D.00|Chronic kidney disease stage 3A with proteinuria|
+|chronic-kidney-disease v1|readv2|1Z1C.00|Chronic kidney disease stage 3 without proteinuria|
+|chronic-kidney-disease v1|readv2|1Z1B.00|Chronic kidney disease stage 3 with proteinuria|
+|chronic-kidney-disease v1|readv2|1Z1A.00|Chronic kidney disease stage 2 without proteinuria|
+|chronic-kidney-disease v1|readv2|1Z19.00|Chronic kidney disease stage 2 with proteinuria|
+|chronic-kidney-disease v1|readv2|1Z18.00|Chronic kidney disease stage 1 without proteinuria|
+|chronic-kidney-disease v1|readv2|1Z17.00|Chronic kidney disease stage 1 with proteinuria|
+|chronic-kidney-disease v1|readv2|K05..13|Chronic kidney disease|
+|chronic-kidney-disease v1|readv2|K055.00|Chronic kidney disease stage 5|
+|chronic-kidney-disease v1|readv2|K054.00|Chronic kidney disease stage 4|
+|chronic-kidney-disease v1|readv2|K053.00|Chronic kidney disease stage 3|
+|chronic-kidney-disease v1|readv2|K052.00|Chronic kidney disease stage 2|
+|chronic-kidney-disease v1|readv2|K051.00|Chronic kidney disease stage 1|
+|chronic-kidney-disease v1|readv2|1Z1..|Chronic renal impairment|
+|chronic-kidney-disease v1|readv2|K050.|End stage renal failure|
+|chronic-kidney-disease v1|readv2|K0D..|End-stage renal disease|
+|chronic-kidney-disease v1|readv2|K05..00|Chronic renal failure|
+|chronic-kidney-disease v1|snomed|﻿46177005|End-stage renal disease|
+|chronic-kidney-disease v1|snomed|431855005|CKD stage 1|
+|chronic-kidney-disease v1|snomed|431856006|CKD stage 2|
+|chronic-kidney-disease v1|snomed|431857002|CKD stage 4|
+|chronic-kidney-disease v1|snomed|433144002|CKD stage 3|
+|chronic-kidney-disease v1|snomed|433146000|CKD stage 5|
+|chronic-kidney-disease v1|snomed|700378005|Chronic kidney disease stage 3A (disorder)|
+|chronic-kidney-disease v1|snomed|700379002|Chronic kidney disease stage 3B (disorder)|
+|chronic-kidney-disease v1|snomed|707323002|Anemia in chronic kidney disease|
+|chronic-kidney-disease v1|snomed|709044004|Chronic renal disease|
+|chronic-kidney-disease v1|snomed|713313000|Chronic kidney disease mineral and bone disorder (disorder)|
+|chronic-kidney-disease v1|snomed|714152005|Chronic kidney disease stage 5 on dialysis|
+|chronic-kidney-disease v1|snomed|714153000|CKD (chronic kidney disease) stage 5t|
+|chronic-kidney-disease v1|snomed|722098007|Chronic kidney disease following donor nephrectomy|
+|chronic-kidney-disease v1|snomed|722149000|Chronic kidney disease due to tumour nephrectomy|
+|chronic-kidney-disease v1|snomed|722150000|Chronic kidney disease due to systemic infection|
+|chronic-kidney-disease v1|snomed|722467000|Chronic kidney disease due to traumatic loss of kidney|
+|chronic-kidney-disease v1|snomed|140121000119100|Hypertension in chronic kidney disease stage 3 due to type II diabetes mellitus|
+|chronic-kidney-disease v1|snomed|140131000119102|Hypertension in chronic kidney disease stage 2 due to type II diabetes mellitus|
+|chronic-kidney-disease v1|snomed|140101000119109|Hypertension in chronic kidney disease stage 5 due to type II diabetes mellitus|
+|chronic-kidney-disease v1|snomed|140111000119107|Hypertension in chronic kidney disease stage 4 due to type II diabetes mellitus|
+|chronic-kidney-disease v1|snomed|71701000119105|Hypertension in chronic kidney disease due to type I diabetes mellitus|
+|chronic-kidney-disease v1|snomed|71421000119105|Hypertension in chronic kidney disease due to type II diabetes mellitus|
+|chronic-kidney-disease v1|snomed|104931000119100|Chronic kidney disease due to hypertension (disorder)|
+|chronic-kidney-disease v1|snomed|731000119105|Chronic kidney disease stage 3 due to type II diabetes mellitus|
+|chronic-kidney-disease v1|snomed|741000119101|Chronic kidney disease stage 2 due to type II diabetes mellitus|
+|chronic-kidney-disease v1|snomed|711000119100|Chronic kidney disease stage 5 due to type II diabetes mellitus|
+|chronic-kidney-disease v1|snomed|721000119107|Chronic kidney disease stage 4 due to type II diabetes mellitus|
+|chronic-kidney-disease v1|snomed|96441000119101|Chronic kidney disease due to type I diabetes mellitus|
+|chronic-kidney-disease v1|snomed|771000119108|Chronic kidney disease due to type 2 diabetes mellitus (disorder)|
+|chronic-kidney-disease v1|snomed|10757481000119107|Preexisting hypertensive heart and chronic kidney disease in pregnancy|
+|chronic-kidney-disease v1|snomed|285831000119108|Malignant hypertensive chronic kidney disease (disorder)|
+|chronic-kidney-disease v1|snomed|129161000119100|Chronic kidney disease stage 5 due to hypertension (disorder)|
+|chronic-kidney-disease v1|snomed|117681000119102|Chronic kidney disease stage 1 due to hypertension (disorder)|
+|chronic-kidney-disease v1|snomed|129171000119106|Chronic kidney disease stage 3 due to hypertension (disorder)|
+|chronic-kidney-disease v1|snomed|129181000119109|Chronic kidney disease stage 2 due to hypertension (disorder)|
+|chronic-kidney-disease v1|snomed|129151000119102|Chronic kidney disease stage 4 due to hypertension (disorder)|
+|chronic-kidney-disease v1|snomed|8501000119104|Hypertensive heart and chronic kidney disease (disorder)|
+|chronic-kidney-disease v1|snomed|96701000119107|Hypertensive heart AND chronic kidney disease on dialysis (disorder)|
+|chronic-kidney-disease v1|snomed|284961000119106|Chronic kidney disease due to benign hypertension (disorder)|
+|chronic-kidney-disease v1|snomed|324281000000104|Chronic kidney disease stage 3 without proteinuria|
+|chronic-kidney-disease v1|snomed|324251000000105|Chronic kidney disease stage 3 with proteinuria|
+|chronic-kidney-disease v1|snomed|285871000119106|Malignant hypertensive chronic kidney disease stage 3 (disorder)|
+|chronic-kidney-disease v1|snomed|96731000119100|Hypertensive heart AND chronic kidney disease stage 3 (disorder)|
+|chronic-kidney-disease v1|snomed|90741000119107|Chronic kidney disease stage 3 due to type I diabetes mellitus|
+|chronic-kidney-disease v1|snomed|284991000119104|Chronic kidney disease stage 3 due to benign hypertension|
+|chronic-kidney-disease v1|snomed|691421000119108|Anemia co-occurrent and due to chronic kidney disease stage 3|
+|chronic-kidney-disease v1|snomed|324211000000106|Chronic kidney disease stage 2 without proteinuria|
+|chronic-kidney-disease v1|snomed|324181000000105|Chronic kidney disease stage 2 with proteinuria|
+|chronic-kidney-disease v1|snomed|285861000119100|Malignant hypertensive chronic kidney disease stage 2 (disorder)|
+|chronic-kidney-disease v1|snomed|96741000119109|Hypertensive heart AND chronic kidney disease stage 2 (disorder)|
+|chronic-kidney-disease v1|snomed|90731000119103|Chronic kidney disease stage 2 due to type I diabetes mellitus|
+|chronic-kidney-disease v1|snomed|284981000119102|Chronic kidney disease stage 2 due to benign hypertension (disorder)|
+|chronic-kidney-disease v1|snomed|324541000000105|Chronic kidney disease stage 5 without proteinuria|
+|chronic-kidney-disease v1|snomed|324501000000107|Chronic kidney disease stage 5 with proteinuria|
+|chronic-kidney-disease v1|snomed|153851000119106|Malignant hypertensive chronic kidney disease stage 5 (disorder)|
+|chronic-kidney-disease v1|snomed|96711000119105|Hypertensive heart AND chronic kidney disease stage 5 (disorder)|
+|chronic-kidney-disease v1|snomed|90761000119106|Chronic kidney disease stage 5 due to type I diabetes mellitus|
+|chronic-kidney-disease v1|snomed|285011000119108|Chronic kidney disease stage 5 due to benign hypertension|
+|chronic-kidney-disease v1|snomed|324441000000106|Chronic kidney disease stage 4 with proteinuria|
+|chronic-kidney-disease v1|snomed|324471000000100|Chronic kidney disease stage 4 without proteinuria|
+|chronic-kidney-disease v1|snomed|285881000119109|Malignant hypertensive chronic kidney disease stage 4 (disorder)|
+|chronic-kidney-disease v1|snomed|96721000119103|Hypertensive heart AND chronic kidney disease stage 4 (disorder)|
+|chronic-kidney-disease v1|snomed|90751000119109|Chronic kidney disease stage 4 due to type I diabetes mellitus|
+|chronic-kidney-disease v1|snomed|285001000119105|Chronic kidney disease stage 4 due to benign hypertension (disorder)|
+|chronic-kidney-disease v1|snomed|90721000119101|Chronic kidney disease stage 1 due to type I diabetes mellitus|
+|chronic-kidney-disease v1|snomed|751000119104|Chronic kidney disease stage 1 due to type II diabetes mellitus|
+|chronic-kidney-disease v1|snomed|285851000119102|Malignant hypertensive chronic kidney disease stage 1 (disorder)|
+|chronic-kidney-disease v1|snomed|96751000119106|Hypertensive heart AND chronic kidney disease stage 1 (disorder)|
+|chronic-kidney-disease v1|snomed|284971000119100|Chronic kidney disease stage 1 due to benign hypertension (disorder)|
+|chronic-kidney-disease v1|snomed|10757401000119104|Pre-existing hypertensive heart and chronic kidney disease in mother complicating childbirth|
+|chronic-kidney-disease v1|snomed|324311000000101|Chronic kidney disease stage 3A with proteinuria|
+|chronic-kidney-disease v1|snomed|324341000000100|Chronic kidney disease stage 3A without proteinuria|
+|chronic-kidney-disease v1|snomed|324371000000106|Chronic kidney disease stage 3B with proteinuria|
+|chronic-kidney-disease v1|snomed|324411000000105|Chronic kidney disease stage 3B without proteinuria|
+|chronic-kidney-disease v1|snomed|949521000000108|Chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A1|
+|chronic-kidney-disease v1|snomed|949561000000100|Chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A2|
+|chronic-kidney-disease v1|snomed|949621000000109|Chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A3|
+|chronic-kidney-disease v1|snomed|950251000000106|Chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A1|
+|chronic-kidney-disease v1|snomed|950291000000103|Chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A2|
+|chronic-kidney-disease v1|snomed|950311000000102|Chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A3|
+|chronic-kidney-disease v1|snomed|950181000000106|Chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A1|
+|chronic-kidney-disease v1|snomed|950211000000107|Chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A2|
+|chronic-kidney-disease v1|snomed|950231000000104|Chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A3|
+|chronic-kidney-disease v1|snomed|324151000000104|Chronic kidney disease stage 1 without proteinuria|
+|chronic-kidney-disease v1|snomed|324121000000109|Chronic kidney disease stage 1 with proteinuria|
+|chronic-kidney-disease v1|snomed|949881000000106|CKD G3aA1 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A1|
+|chronic-kidney-disease v1|snomed|949901000000109|Chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A2|
+|chronic-kidney-disease v1|snomed|949921000000100|Chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A3|
+|chronic-kidney-disease v1|snomed|950061000000103|Chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A1|
+|chronic-kidney-disease v1|snomed|950081000000107|Chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A2|
+|chronic-kidney-disease v1|snomed|950101000000101|Chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A3|
+|chronic-kidney-disease v1|snomed|949401000000103|Chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A1|
+|chronic-kidney-disease v1|snomed|949421000000107|Chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A2|
+|chronic-kidney-disease v1|snomed|949481000000108|Chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A3|
+|chronic-kidney-disease v1|snomed|691401000119104|Anaemia in chronic kidney disease stage 4|
+|chronic-kidney-disease v1|snomed|691411000119101|Anaemia in chronic kidney disease stage 5|
+|chronic-kidney-disease v1|snomed|444271000|Erythropoietin resistance in anemia of chronic kidney disease|
+|chronic-kidney-disease v1|snomed|15781000119107|Hypertensive heart AND chronic kidney disease with congestive heart failure (disorder)|
+|sle v1|ctv3|F3710|Polyneuropathy in disseminated lupus erythematosus|
+|sle v1|ctv3|F3961|Myopathy due to disseminated lupus erythematosus|
+|sle v1|ctv3|F4D33|Discoid lupus eyelid|
+|sle v1|ctv3|H57y4|Lung disease with systemic lupus erythematosus|
+|sle v1|ctv3|K01x4|(Nephr synd in system lupus erythemat) or (lupus nephritis]|
+|sle v1|ctv3|M154.|Lupus erythematosus|
+|sle v1|ctv3|M1540|Lupus erythematosus chronicus|
+|sle v1|ctv3|M1541|Discoid lupus erythematosus|
+|sle v1|ctv3|M1542|Lupus erythematosus migrans|
+|sle v1|ctv3|M1543|Lupus erythematosus nodularis|
+|sle v1|ctv3|M1544|Lupus erythematosus profundus|
+|sle v1|ctv3|M1545|Lupus erythematosus tumidus|
+|sle v1|ctv3|M1546|Lupus erythematosus unguium mutilans|
+|sle v1|ctv3|M154z|Lupus erythematosus NOS|
+|sle v1|ctv3|Myu78|[X]Other local lupus erythematosus|
+|sle v1|ctv3|N000.|Systemic lupus erythematosus|
+|sle v1|ctv3|N0002|Drug-induced systemic lupus erythematosus|
+|sle v1|ctv3|N000z|Systemic lupus erythematosus NOS|
+|sle v1|ctv3|Nyu43|[X]Other forms of systemic lupus erythematosus|
+|sle v1|ctv3|X00Dx|Cerebral lupus|
+|sle v1|ctv3|X00Dx|Cerebral lupus|
+|sle v1|ctv3|X30Kn|Lupus nephritis - WHO Class I|
+|sle v1|ctv3|X30Ko|Lupus nephritis - WHO Class II|
+|sle v1|ctv3|X30Kp|Lupus nephritis - WHO Class III|
+|sle v1|ctv3|X30Kq|Lupus nephritis - WHO Class IV|
+|sle v1|ctv3|X30Kr|Lupus nephritis - WHO Class V|
+|sle v1|ctv3|X30Ks|Lupus nephritis - WHO Class VI|
+|sle v1|ctv3|X50Ew|Lupus erythematosus and erythema multiforme-like syndrome|
+|sle v1|ctv3|X50Ex|Chronic discoid lupus erythematosus|
+|sle v1|ctv3|X50Ez|Chilblain lupus erythematosus|
+|sle v1|ctv3|X704W|Limited lupus erythematosus|
+|sle v1|ctv3|X704X|Systemic lupus erythematosus with organ/system involvement|
+|sle v1|ctv3|X704a|Lupus panniculitis|
+|sle v1|ctv3|X704b|Bullous systemic lupus erythematosus|
+|sle v1|ctv3|X704c|Systemic lupus erythematosus with multisystem involvement|
+|sle v1|ctv3|X704d|Cutaneous lupus erythematosus|
+|sle v1|ctv3|X704g|Neonatal lupus erythematosus|
+|sle v1|ctv3|X704h|Subacute cutaneous lupus erythematosus|
+|sle v1|ctv3|XE0da|Lupus nephritis|
+|sle v1|ctv3|XE0da|Lupus nephritis|
+|sle v1|ctv3|XM197|[EDTA] Lupus erythematosus associated with renal failure|
+|sle v1|ctv3|XaBE1|Renal tubulo-interstitial disord in systemic lupus erythemat|
+|sle v1|ctv3|XaC1J|Systemic lupus erythematosus with pericarditis|
+|sle v1|readv2|F3710|Polyneuropathy in disseminated lupus erythematosus|
+|sle v1|readv2|F3961|Myopathy due to disseminated lupus erythematosus|
+|sle v1|readv2|F4D33|Eyelid discoid lupus erythematosus|
+|sle v1|readv2|H57y4|Lung disease with systemic lupus erythematosus|
+|sle v1|readv2|K01x4|Lupus nephritis|
+|sle v1|readv2|K01x4|Nephrotic syndrome in systemic lupus erythematosus|
+|sle v1|readv2|M154.|Lupus erythematosus|
+|sle v1|readv2|M1540|Lupus erythematosus chronicus|
+|sle v1|readv2|M1541|Discoid lupus erythematosus|
+|sle v1|readv2|M1542|Lupus erythematosus migrans|
+|sle v1|readv2|M1543|Lupus erythematosus nodularis|
+|sle v1|readv2|M1544|Lupus erythematosus profundus|
+|sle v1|readv2|M1545|Lupus erythematosus tumidus|
+|sle v1|readv2|M1546|Lupus erythematosus unguium mutilans|
+|sle v1|readv2|M154z|Lupus erythematosus NOS|
+|sle v1|readv2|Myu78|[X]Other local lupus erythematosus|
+|sle v1|readv2|N000.|Systemic lupus erythematosus|
+|sle v1|readv2|N0002|Drug-induced systemic lupus erythematosus|
+|sle v1|readv2|N000z|Systemic lupus erythematosus NOS|
+|sle v1|readv2|Nyu43|[X]Other forms of systemic lupus erythematosus|
+|gout v1|ctv3|XabbG|Acute exacerbation of gout |
+|gout v1|ctv3|C34z.|Gout NOS |
+|gout v1|ctv3|C34yz|Other specified gouty manifestation NOS|
+|gout v1|ctv3|X40UW|Primary gout |
+|gout v1|ctv3|X702o|Secondary gout |
+|gout v1|ctv3|X702q|Gout secondary to drug |
+|gout v1|ctv3|X702s|Gout secondary to enzyme defect |
+|gout v1|ctv3|X702r|Gout secondary to lead |
+|gout v1|ctv3|X702p|Gout secondary to renal impairment |
+|gout v1|ctv3|XM19g|[EDTA] Gout associated with renal failure|
+|gout v1|ctv3|Nyu17|Other secondary gout |
+|gout v1|readv2|Nyu17|[X]Other secondary gout|
+|gout v1|readv2|C34z.|Gout NOS|
+|gout v1|readv2|C34..|Gout|
+|gout v1|readv2|C342.|Idiopathic gout|
+|gout v1|readv2|C344.|Drug-induced gout|
+|gout v1|readv2|C345.|Gout due to impairment of renal function|
+|gout v1|readv2|C346.|Acute exacerbation of gout|
+|gout v1|readv2|C34yz|Other specified gouty manifestation NOS|
+|gout v1|snomed|239843003|[X]Other secondary gout|
+|gout v1|snomed|924311000000106|Acute exacerbation of gout|
+|gout v1|snomed|239844009|Gout due impairment renal func|
+|gout v1|snomed|90560007|Gout NOS|
+|gout v1|snomed|239845005|Gout secondary to drug|
+|gout v1|snomed|239847002|Gout secondary to enzym defect|
+|gout v1|snomed|239846006|Gout secondary to lead|
+|gout v1|snomed|24595009|Primary gout|
+|haematuria v1|ctv3|14D5.|H/O: haematuria|
+|haematuria v1|ctv3|1A45.|Blood in urine (& symptom)|
+|haematuria v1|ctv3|4625|Urine: red - blood|
+|haematuria v1|ctv3|4693|Urine: trace non-haemol. blood|
+|haematuria v1|ctv3|4694|Urine: trace haemolysed blood|
+|haematuria v1|ctv3|46G2.|Urine microscopy blood cells present: (& RBC)|
+|haematuria v1|ctv3|K0321|Recurrent benign haematuria syndrome|
+|haematuria v1|ctv3|K0A2.|Recurrent and persistent haematuria|
+|haematuria v1|ctv3|K0A20|Recurrent and persistent haematuria, minor glomerular abnormality|
+|haematuria v1|ctv3|K0A21|Recurrent and persistent haematuria, focal and segmental glomerular lesions|
+|haematuria v1|ctv3|K0A22|Recurrent and persistent haematuria, diffuse membranous glomerulonephritis|
+|haematuria v1|ctv3|K0A23|Recurrent and persistent haematuria, diffuse mesangial proliferative glomerulonephritis|
+|haematuria v1|ctv3|K0A24|Recurrent and persistent haematuria, diffuse endocapillary proliferative glomerulonephritis|
+|haematuria v1|ctv3|K0A25|Recurrent and persistent haematuria, diffuse mesangiocapillary glomerulonephritis|
+|haematuria v1|ctv3|K0A26|Recurrent and persistent haematuria, dense deposit disease|
+|haematuria v1|ctv3|K0A27|Recurrent and persistent haematuria, diffuse crescentic glomerulonephritis|
+|haematuria v1|ctv3|K197.|Traumatic haematuria|
+|haematuria v1|ctv3|K1970|Painless haematuria|
+|haematuria v1|ctv3|K1971|Painful haematuria|
+|haematuria v1|ctv3|K1972|Microscopic haematuria|
+|haematuria v1|ctv3|K1973|Frank haematuria|
+|haematuria v1|ctv3|K1974|Clot haematuria|
+|haematuria v1|ctv3|X30Ih|Benign familial haematuria|
+|haematuria v1|ctv3|X30Pw|Traumatic haematuria|
+|haematuria v1|ctv3|X30Px|Loin pain - haematuria syndrome|
+|haematuria v1|ctv3|X30Pz|Upper urinary tract haematuria|
+|haematuria v1|ctv3|X30Q0|Chemical haematuria|
+|haematuria v1|ctv3|Xa04u|Blood in urine|
+|haematuria v1|ctv3|Xa1cp|RBCs- red blood cells in urine|
+|haematuria v1|ctv3|Xa1uI|Persistent frank haematuria|
+|haematuria v1|ctv3|Xa1uJ|Recurrent frank haematuria|
+|haematuria v1|ctv3|Xa1uK|Persistent microscopic haematuria|
+|haematuria v1|ctv3|Xa1uL|Recurrent microscopic haematuria|
+|haematuria v1|ctv3|Xa1uM|Persistent haematuria|
+|haematuria v1|ctv3|Xa1uN|Recurrent haematuria|
+|haematuria v1|ctv3|Xaafu|Referral to haematuria clinic|
+|haematuria v1|ctv3|XaB5q|Haematuria NOS|
+|haematuria v1|ctv3|XE0e5|Essential haematuria|
+|haematuria v1|ctv3|XE0rU|Blood in urine - haematuria|
+|haematuria v1|ctv3|XE0ul|Blood - urine - symptom|
+|haematuria v1|ctv3|XE0un|Blood in urine - haematuria|
+|haematuria v1|ctv3|8T10.|Referral to haematuria clinic|
+|haematuria v1|ctv3|K1975|Benign familial haematuria|
+|haematuria v1|emis|EMISNQRE95|Referred to haematuria clinic|
+|haematuria v1|emis|EMISNQSE31|Seen in haematuria clinic|
+|haematuria v1|emis|EMISNQHA60|Haematuria associated with urinary catheter|
+|haematuria v1|readv2|14D5.|H/O: haematuria|
+|haematuria v1|readv2|1A45.|Blood in urine - haematuria|
+|haematuria v1|readv2|4625|Urine: red - blood|
+|haematuria v1|readv2|4693|Urine: trace non-haemol. blood|
+|haematuria v1|readv2|4694|Urine: trace haemolysed blood|
+|haematuria v1|readv2|46G2.|RBCs- red blood cells in urine|
+|haematuria v1|readv2|8T10.|Referral to haematuria clinic|
+|haematuria v1|readv2|K0321|Recurrent benign haematuria syndrome|
+|haematuria v1|readv2|K0A2.|Recurrent and persistent haematuria|
+|haematuria v1|readv2|K0A20|Recurrent and persistent haematuria, minor glomerular abnormality|
+|haematuria v1|readv2|K0A21|Recurrent and persistent haematuria, focal and segmental glomerular lesions|
+|haematuria v1|readv2|K0A22|Recurrent and persistent haematuria, diffuse membranous glomerulonephritis|
+|haematuria v1|readv2|K0A23|Recurrent and persistent haematuria, diffuse mesangial proliferative glomerulonephritis|
+|haematuria v1|readv2|K0A24|Recurrent and persistent haematuria, diffuse endocapillary proliferative glomerulonephritis|
+|haematuria v1|readv2|K0A25|Recurrent and persistent haematuria, diffuse mesangiocapillary glomerulonephritis|
+|haematuria v1|readv2|K0A26|Recurrent and persistent haematuria, dense deposit disease|
+|haematuria v1|readv2|K0A27|Recurrent and persistent haematuria, diffuse crescentic glomerulonephritis|
+|haematuria v1|readv2|K197.|Haematuria|
+|haematuria v1|readv2|K1970|Painless haematuria|
+|haematuria v1|readv2|K1971|Painful haematuria|
+|haematuria v1|readv2|K1972|Microscopic haematuria|
+|haematuria v1|readv2|K1973|Frank haematuria|
+|haematuria v1|readv2|K1974|Clot haematuria|
+|haematuria v1|readv2|K1975|Benign familial haematuria|
+|haematuria v1|snomed|53298000|Hematuria syndrome (disorder) |
+|haematuria v1|snomed|34436003|Blood in urine (finding) |
+|haematuria v1|snomed|86208007|Loin pain-hematuria syndrome (disorder)|
+|haematuria v1|snomed|20407004|Benign hematuria |
+|haematuria v1|snomed|236718002|Chemical hematuria |
+|haematuria v1|snomed|399094007|Familial hematuria |
+|haematuria v1|snomed|197941005|Frank hematuria |
+|haematuria v1|snomed|197942003|Clot hematuria |
+|haematuria v1|snomed|281855006|Persistent frank hematuria |
+|haematuria v1|snomed|281856007|Recurrent frank hematuria |
+|haematuria v1|snomed|367171000119100|Hematuria co-occurrent and due to cystitis |
+|haematuria v1|snomed|366941000119107|Hematuria co-occurrent and due to acute cystitis |
+|haematuria v1|snomed|368971000119101|Hematuria co-occurrent and due to chronic cystitis |
+|haematuria v1|snomed|367661000119102|Hematuria co-occurrent and due to chronic interstitial cystitis |
+|haematuria v1|snomed|368371000119102|Hematuria co-occurrent and due to trigonitis |
+|haematuria v1|snomed|367671000119108|Hematuria co-occurrent and due to irradiation cystitis |
+|haematuria v1|snomed|719551008|Hematuria due to radiation cystitis |
+|haematuria v1|snomed|314280007|Hematuria of undiagnosed cause |
+|haematuria v1|snomed|197940006|Microscopic hematuria |
+|haematuria v1|snomed|16698651000119100|Asymptomatic microscopic hematuria |
+|haematuria v1|snomed|367011000119109|Benign essential microscopic hematuria |
+|haematuria v1|snomed|281857003|Persistent microscopic hematuria |
+|haematuria v1|snomed|281858008|Recurrent microscopic hematuria |
+|haematuria v1|snomed|197939009|Painful hematuria |
+|haematuria v1|snomed|197938001|Painless hematuria |
+|haematuria v1|snomed|281859000|Persistent hematuria |
+|haematuria v1|snomed|281855006|Persistent frank hematuria |
+|haematuria v1|snomed|714814006|Persistent hematuria co-occurrent and due to dense deposit disease |
+|haematuria v1|snomed|714816008|Persistent hematuria co-occurrent and due to diffuse crescentic glomerulonephritis |
+|haematuria v1|snomed|714818009|Persistent hematuria co-occurrent and due to diffuse endocapillary proliferative glomerulonephritis |
+|haematuria v1|snomed|714822004|Persistent hematuria co-occurrent and due to diffuse membranous glomerulonephritis |
+|haematuria v1|snomed|714826001|Persistent hematuria co-occurrent and due to diffuse mesangial proliferative glomerulonephritis |
+|haematuria v1|snomed|714820007|Persistent hematuria co-occurrent and due to diffuse mesangiocapillary glomerulonephritis |
+|haematuria v1|snomed|714828000|Persistent hematuria co-occurrent and due to focal and segmental glomerular lesions |
+|haematuria v1|snomed|714824003|Persistent hematuria co-occurrent and due to minor glomerular abnormality |
+|haematuria v1|snomed|281857003|Persistent microscopic hematuria |
+|haematuria v1|snomed|281860005|Recurrent hematuria |
+|haematuria v1|snomed|197627003|Recurrent benign hematuria syndrome |
+|haematuria v1|snomed|281856007|Recurrent frank hematuria |
+|haematuria v1|snomed|714813000|Recurrent hematuria co-occurrent and due to dense deposit disease |
+|haematuria v1|snomed|714815007|Recurrent hematuria co-occurrent and due to diffuse crescentic glomerulonephritis |
+|haematuria v1|snomed|714817004|Recurrent hematuria co-occurrent and due to diffuse endocapillary proliferative glomerulonephritis |
+|haematuria v1|snomed|714821006|Recurrent hematuria co-occurrent and due to diffuse membranous glomerulonephritis |
+|haematuria v1|snomed|714825002|Recurrent hematuria co-occurrent and due to diffuse mesangial proliferative glomerulonephritis |
+|haematuria v1|snomed|714819001|Recurrent hematuria co-occurrent and due to diffuse mesangiocapillary glomerulonephritis |
+|haematuria v1|snomed|714827005|Recurrent hematuria co-occurrent and due to focal and segmental glomerular lesions |
+|haematuria v1|snomed|714823009|Recurrent hematuria co-occurrent and due to minor glomerular abnormality |
+|haematuria v1|snomed|281858008|Recurrent microscopic hematuria |
+|haematuria v1|snomed|371020003|Renal hematuria |
+|haematuria v1|snomed|7724006|Nephritic syndrome |
+|haematuria v1|snomed|236717007|Upper urinary tract hematuria |
+|non-alc-fatty-liver-disease v1|ctv3|J61y1|Non-alcoholic fatty liver|
+|non-alc-fatty-liver-disease v1|readv2|J61y1|Non-alcoholic fatty liver|
+|non-alc-fatty-liver-disease v1|snomed|197315008|Non-alcoholic fatty liver|
 |long-covid v1|emis|^ESCT1348648|Ongoing symptomatic COVID-19|
 |long-covid v1|emis|^ESCT1348628|Assessment using Newcastle post-COVID syndrome Follow-up Screening Questionnaire|
 |long-covid v1|emis|^ESCT1348627|Newcastle post-COVID syndrome Follow-up Screening Questionnaire|
@@ -11167,166 +11605,219 @@ All code sets required for this analysis are listed here. Individual lists for e
 |selfharm-episodes v1|snomed|61438005|"[X]Poisoning by and exposure to psychotropic drugs, occurrence at home, undetermined intent"|
 |selfharm-episodes v1|snomed|61438005|"[X]Poisoning by and exposure to psychotropic drugs, occurrence in residential institution, undetermined intent"|
 |selfharm-episodes v1|snomed|61438005|"[X]Poisoning by and exposure to psychotropic drugs, occurrence at school, other institution and public administrative area, undetermined intent"|
-|ckd-stage-1 v1|ctv3|﻿XaLHG|Chronic kidney disease stage 1|
-|ckd-stage-1 v1|ctv3|Xac9y|CKD G1A1 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A1|
-|ckd-stage-1 v1|ctv3|Xac9z|CKD G1A2 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A2|
-|ckd-stage-1 v1|ctv3|XacA2|CKD G1A3 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A3|
-|ckd-stage-1 v1|ctv3|XaO3p|Chronic kidney disease stage 1 with proteinuria|
-|ckd-stage-1 v1|ctv3|XaO3q|Chronic kidney disease stage 1 without proteinuria|
-|ckd-stage-1 v1|readv2|﻿1Z1P.00|CKD G1A3 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A3|
-|ckd-stage-1 v1|readv2|1Z1N.00|CKD G1A2 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A2|
-|ckd-stage-1 v1|readv2|1Z1M.00|CKD G1A1 - chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A1|
-|ckd-stage-1 v1|readv2|1Z10.00|Chronic kidney disease stage 1|
-|ckd-stage-1 v1|readv2|1Z18.00|Chronic kidney disease stage 1 without proteinuria|
-|ckd-stage-1 v1|readv2|1Z17.00|Chronic kidney disease stage 1 with proteinuria|
-|ckd-stage-1 v1|readv2|K051.00|Chronic kidney disease stage 1|
-|ckd-stage-1 v1|snomed|﻿431855005|CKD stage 1|
-|ckd-stage-1 v1|snomed|117681000119102|Chronic kidney disease stage 1 due to hypertension (disorder)|
-|ckd-stage-1 v1|snomed|90721000119101|Chronic kidney disease stage 1 due to type I diabetes mellitus|
-|ckd-stage-1 v1|snomed|751000119104|Chronic kidney disease stage 1 due to type II diabetes mellitus|
-|ckd-stage-1 v1|snomed|285851000119102|Malignant hypertensive chronic kidney disease stage 1 (disorder)|
-|ckd-stage-1 v1|snomed|96751000119106|Hypertensive heart AND chronic kidney disease stage 1 (disorder)|
-|ckd-stage-1 v1|snomed|284971000119100|Chronic kidney disease stage 1 due to benign hypertension (disorder)|
-|ckd-stage-1 v1|snomed|324151000000104|Chronic kidney disease stage 1 without proteinuria|
-|ckd-stage-1 v1|snomed|324121000000109|Chronic kidney disease stage 1 with proteinuria|
-|ckd-stage-1 v1|snomed|949401000000103|Chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A1|
-|ckd-stage-1 v1|snomed|949421000000107|Chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A2|
-|ckd-stage-1 v1|snomed|949481000000108|Chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A3|
-|ckd-stage-2 v1|ctv3|﻿XaLHH|Chronic kidney disease stage 2|
-|ckd-stage-2 v1|ctv3|XacA4|CKD G2A1 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A1|
-|ckd-stage-2 v1|ctv3|XacA6|CKD G2A2 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A2|
-|ckd-stage-2 v1|ctv3|XacA9|CKD G2A3 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A3|
-|ckd-stage-2 v1|ctv3|XaO3s|Chronic kidney disease stage 2 without proteinuria|
-|ckd-stage-2 v1|ctv3|XaO3r|Chronic kidney disease stage 2 with proteinuria|
-|ckd-stage-2 v1|readv2|﻿1Z1S.00|CKD G2A3 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A3|
-|ckd-stage-2 v1|readv2|1Z1R.00|CKD G2A2 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A2|
-|ckd-stage-2 v1|readv2|1Z1Q.00|CKD G2A1 - chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A1|
-|ckd-stage-2 v1|readv2|1Z11.00|Chronic kidney disease stage 2|
-|ckd-stage-2 v1|readv2|1Z1A.00|Chronic kidney disease stage 2 without proteinuria|
-|ckd-stage-2 v1|readv2|1Z19.00|Chronic kidney disease stage 2 with proteinuria|
-|ckd-stage-2 v1|readv2|K052.00|Chronic kidney disease stage 2|
-|ckd-stage-2 v1|snomed|﻿431856006|CKD stage 2|
-|ckd-stage-2 v1|snomed|140131000119102|Hypertension in chronic kidney disease stage 2 due to type II diabetes mellitus|
-|ckd-stage-2 v1|snomed|741000119101|Chronic kidney disease stage 2 due to type II diabetes mellitus|
-|ckd-stage-2 v1|snomed|129181000119109|Chronic kidney disease stage 2 due to hypertension (disorder)|
-|ckd-stage-2 v1|snomed|324211000000106|Chronic kidney disease stage 2 without proteinuria|
-|ckd-stage-2 v1|snomed|324181000000105|Chronic kidney disease stage 2 with proteinuria|
-|ckd-stage-2 v1|snomed|285861000119100|Malignant hypertensive chronic kidney disease stage 2 (disorder)|
-|ckd-stage-2 v1|snomed|96741000119109|Hypertensive heart AND chronic kidney disease stage 2 (disorder)|
-|ckd-stage-2 v1|snomed|90731000119103|Chronic kidney disease stage 2 due to type I diabetes mellitus|
-|ckd-stage-2 v1|snomed|284981000119102|Chronic kidney disease stage 2 due to benign hypertension (disorder)|
-|ckd-stage-2 v1|snomed|949521000000108|Chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A1|
-|ckd-stage-2 v1|snomed|949561000000100|Chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A2|
-|ckd-stage-2 v1|snomed|949621000000109|Chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A3|
-|ckd-stage-3 v1|ctv3|﻿XaLHI|Chronic kidney disease stage 3|
-|ckd-stage-3 v1|ctv3|XacAM|CKD G3aA1 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A1|
-|ckd-stage-3 v1|ctv3|XacAN|CKD G3aA2 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A2|
-|ckd-stage-3 v1|ctv3|XacAO|CKD G3aA3 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A3|
-|ckd-stage-3 v1|ctv3|XacAV|CKD G3bA1 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A1|
-|ckd-stage-3 v1|ctv3|XacAW|CKD G3bA2 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A2|
-|ckd-stage-3 v1|ctv3|XacAX|CKD G3bA3 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A3|
-|ckd-stage-3 v1|ctv3|XaNbn|Chronic kidney disease stage 3A|
-|ckd-stage-3 v1|ctv3|XaNbo|Chronic kidney disease stage 3B|
-|ckd-stage-3 v1|ctv3|XaO3t|Chronic kidney disease stage 3 with proteinuria|
-|ckd-stage-3 v1|ctv3|XaO3u|Chronic kidney disease stage 3 without proteinuria|
-|ckd-stage-3 v1|ctv3|XaO3w|Chronic kidney disease stage 3A without proteinuria|
-|ckd-stage-3 v1|ctv3|XaO3x|Chronic kidney disease stage 3B with proteinuria|
-|ckd-stage-3 v1|ctv3|XaO3y|Chronic kidney disease stage 3B without proteinuria|
-|ckd-stage-3 v1|ctv3|XaO3v|Chronic kidney disease stage 3A with proteinuria|
-|ckd-stage-3 v1|readv2|﻿1Z1Z.00|CKD G3bA3 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A3|
-|ckd-stage-3 v1|readv2|1Z1Y.00|CKD G3bA2 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A2|
-|ckd-stage-3 v1|readv2|1Z1X.00|CKD G3bA1 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A1|
-|ckd-stage-3 v1|readv2|1Z1W.00|CKD G3aA3 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A3|
-|ckd-stage-3 v1|readv2|1Z1V.00|CKD G3aA2 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A2|
-|ckd-stage-3 v1|readv2|1Z1T.00|CKD G3aA1 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A1|
-|ckd-stage-3 v1|readv2|1Z16.00|Chronic kidney disease stage 3B|
-|ckd-stage-3 v1|readv2|1Z15.00|Chronic kidney disease stage 3A|
-|ckd-stage-3 v1|readv2|1Z12.00|Chronic kidney disease stage 3|
-|ckd-stage-3 v1|readv2|1Z1G.00|Chronic kidney disease stage 3B without proteinuria|
-|ckd-stage-3 v1|readv2|1Z1F.00|Chronic kidney disease stage 3B with proteinuria|
-|ckd-stage-3 v1|readv2|1Z1E.00|Chronic kidney disease stage 3A without proteinuria|
-|ckd-stage-3 v1|readv2|1Z1D.00|Chronic kidney disease stage 3A with proteinuria|
-|ckd-stage-3 v1|readv2|1Z1C.00|Chronic kidney disease stage 3 without proteinuria|
-|ckd-stage-3 v1|readv2|1Z1B.00|Chronic kidney disease stage 3 with proteinuria|
-|ckd-stage-3 v1|readv2|K053.00|Chronic kidney disease stage 3|
-|ckd-stage-3 v1|snomed|﻿433144002|CKD stage 3|
-|ckd-stage-3 v1|snomed|700378005|Chronic kidney disease stage 3A (disorder)|
-|ckd-stage-3 v1|snomed|700379002|Chronic kidney disease stage 3B (disorder)|
-|ckd-stage-3 v1|snomed|140121000119100|Hypertension in chronic kidney disease stage 3 due to type II diabetes mellitus|
-|ckd-stage-3 v1|snomed|731000119105|Chronic kidney disease stage 3 due to type II diabetes mellitus|
-|ckd-stage-3 v1|snomed|129171000119106|Chronic kidney disease stage 3 due to hypertension (disorder)|
-|ckd-stage-3 v1|snomed|324281000000104|Chronic kidney disease stage 3 without proteinuria|
-|ckd-stage-3 v1|snomed|324251000000105|Chronic kidney disease stage 3 with proteinuria|
-|ckd-stage-3 v1|snomed|285871000119106|Malignant hypertensive chronic kidney disease stage 3 (disorder)|
-|ckd-stage-3 v1|snomed|96731000119100|Hypertensive heart AND chronic kidney disease stage 3 (disorder)|
-|ckd-stage-3 v1|snomed|90741000119107|Chronic kidney disease stage 3 due to type I diabetes mellitus|
-|ckd-stage-3 v1|snomed|284991000119104|Chronic kidney disease stage 3 due to benign hypertension|
-|ckd-stage-3 v1|snomed|691421000119108|Anemia co-occurrent and due to chronic kidney disease stage 3|
-|ckd-stage-3 v1|snomed|324311000000101|Chronic kidney disease stage 3A with proteinuria|
-|ckd-stage-3 v1|snomed|324341000000100|Chronic kidney disease stage 3A without proteinuria|
-|ckd-stage-3 v1|snomed|324371000000106|Chronic kidney disease stage 3B with proteinuria|
-|ckd-stage-3 v1|snomed|324411000000105|Chronic kidney disease stage 3B without proteinuria|
-|ckd-stage-3 v1|snomed|949881000000106|CKD G3aA1 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A1|
-|ckd-stage-3 v1|snomed|949901000000109|Chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A2|
-|ckd-stage-3 v1|snomed|949921000000100|Chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A3|
-|ckd-stage-3 v1|snomed|950061000000103|Chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A1|
-|ckd-stage-3 v1|snomed|950081000000107|Chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A2|
-|ckd-stage-3 v1|snomed|950101000000101|Chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A3|
-|ckd-stage-4 v1|ctv3|﻿XaLHJ|Chronic kidney disease stage 4|
-|ckd-stage-4 v1|ctv3|XacAb|CKD G4A1 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A1|
-|ckd-stage-4 v1|ctv3|XacAd|CKD G4A2 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A2|
-|ckd-stage-4 v1|ctv3|XacAe|CKD G4A3 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A3|
-|ckd-stage-4 v1|ctv3|XaO40|Chronic kidney disease stage 4 without proteinuria|
-|ckd-stage-4 v1|ctv3|XaO3z|Chronic kidney disease stage 4 with proteinuria|
-|ckd-stage-4 v1|readv2|﻿1Z1c.00|CKD G4A3 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A3|
-|ckd-stage-4 v1|readv2|1Z1b.00|CKD G4A2 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A2|
-|ckd-stage-4 v1|readv2|1Z1a.00|CKD G4A1 - chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A1|
-|ckd-stage-4 v1|readv2|1Z13.00|Chronic kidney disease stage 4|
-|ckd-stage-4 v1|readv2|1Z1J.00|Chronic kidney disease stage 4 without proteinuria|
-|ckd-stage-4 v1|readv2|1Z1H.00|Chronic kidney disease stage 4 with proteinuria|
-|ckd-stage-4 v1|readv2|K054.00|Chronic kidney disease stage 4|
-|ckd-stage-4 v1|snomed|﻿431857002|CKD stage 4|
-|ckd-stage-4 v1|snomed|140111000119107|Hypertension in chronic kidney disease stage 4 due to type II diabetes mellitus|
-|ckd-stage-4 v1|snomed|721000119107|Chronic kidney disease stage 4 due to type II diabetes mellitus|
-|ckd-stage-4 v1|snomed|129151000119102|Chronic kidney disease stage 4 due to hypertension (disorder)|
-|ckd-stage-4 v1|snomed|324441000000106|Chronic kidney disease stage 4 with proteinuria|
-|ckd-stage-4 v1|snomed|324471000000100|Chronic kidney disease stage 4 without proteinuria|
-|ckd-stage-4 v1|snomed|285881000119109|Malignant hypertensive chronic kidney disease stage 4 (disorder)|
-|ckd-stage-4 v1|snomed|96721000119103|Hypertensive heart AND chronic kidney disease stage 4 (disorder)|
-|ckd-stage-4 v1|snomed|90751000119109|Chronic kidney disease stage 4 due to type I diabetes mellitus|
-|ckd-stage-4 v1|snomed|285001000119105|Chronic kidney disease stage 4 due to benign hypertension (disorder)|
-|ckd-stage-4 v1|snomed|950181000000106|Chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A1|
-|ckd-stage-4 v1|snomed|950211000000107|Chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A2|
-|ckd-stage-4 v1|snomed|950231000000104|Chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A3|
-|ckd-stage-4 v1|snomed|691401000119104|Anaemia in chronic kidney disease stage 4|
-|ckd-stage-5 v1|ctv3|﻿XaLHK|Chronic kidney disease stage 5|
-|ckd-stage-5 v1|ctv3|XacAf|CKD G5A1 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A1|
-|ckd-stage-5 v1|ctv3|XacAh|CKD G5A2 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A2|
-|ckd-stage-5 v1|ctv3|XacAi|CKD G5A3 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A3|
-|ckd-stage-5 v1|ctv3|XaO41|Chronic kidney disease stage 5 with proteinuria|
-|ckd-stage-5 v1|ctv3|XaO42|Chronic kidney disease stage 5 without proteinuria|
-|ckd-stage-5 v1|readv2|﻿1Z1f.00|CKD G5A3 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A3|
-|ckd-stage-5 v1|readv2|1Z1e.00|CKD G5A2 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A2|
-|ckd-stage-5 v1|readv2|1Z1d.00|CKD G5A1 - chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A1|
-|ckd-stage-5 v1|readv2|1Z14.00|Chronic kidney disease stage 5|
-|ckd-stage-5 v1|readv2|1Z1L.00|Chronic kidney disease stage 5 without proteinuria|
-|ckd-stage-5 v1|readv2|1Z1K.00|Chronic kidney disease stage 5 with proteinuria|
-|ckd-stage-5 v1|readv2|K055.00|Chronic kidney disease stage 5|
-|ckd-stage-5 v1|snomed|﻿433146000|CKD stage 5|
-|ckd-stage-5 v1|snomed|714152005|Chronic kidney disease stage 5 on dialysis|
-|ckd-stage-5 v1|snomed|140101000119109|Hypertension in chronic kidney disease stage 5 due to type II diabetes mellitus|
-|ckd-stage-5 v1|snomed|711000119100|Chronic kidney disease stage 5 due to type II diabetes mellitus|
-|ckd-stage-5 v1|snomed|129161000119100|Chronic kidney disease stage 5 due to hypertension (disorder)|
-|ckd-stage-5 v1|snomed|324541000000105|Chronic kidney disease stage 5 without proteinuria|
-|ckd-stage-5 v1|snomed|324501000000107|Chronic kidney disease stage 5 with proteinuria|
-|ckd-stage-5 v1|snomed|153851000119106|Malignant hypertensive chronic kidney disease stage 5 (disorder)|
-|ckd-stage-5 v1|snomed|96711000119105|Hypertensive heart AND chronic kidney disease stage 5 (disorder)|
-|ckd-stage-5 v1|snomed|90761000119106|Chronic kidney disease stage 5 due to type I diabetes mellitus|
-|ckd-stage-5 v1|snomed|285011000119108|Chronic kidney disease stage 5 due to benign hypertension|
-|ckd-stage-5 v1|snomed|950251000000106|Chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A1|
-|ckd-stage-5 v1|snomed|950291000000103|Chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A2|
-|ckd-stage-5 v1|snomed|950311000000102|Chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A3|
-|ckd-stage-5 v1|snomed|691411000119101|Anaemia in chronic kidney disease stage 5|
+|uti v1|ctv3|K15..|Inflammation of bladder|
+|uti v1|ctv3|K155.|Recurrent cystitis|
+|uti v1|ctv3|K15z.|Cystitis NOS|
+|uti v1|ctv3|K190.|Urinary tract infection: [site not specified] or [recurrent]|
+|uti v1|ctv3|K1900|Bacteriuria: [site not specified] or [asymptomatic]|
+|uti v1|ctv3|K1902|Postoperative urinary tract infection|
+|uti v1|ctv3|K1903|Recurrent urinary tract infection|
+|uti v1|ctv3|K190z|Urinary tract infection, site not specified NOS|
+|uti v1|ctv3|L1660|Genitourinary tract infection in pregnancy unspecified|
+|uti v1|ctv3|L1661|Genitourinary tract infection in pregnancy - delivered|
+|uti v1|ctv3|L1665|Infections of kidney in pregnancy|
+|uti v1|ctv3|L1666|Urinary tract infection following delivery|
+|uti v1|readv2|1AG..00|Recurrent urinary tract infections|
+|uti v1|readv2|1J4..00|Suspected UTI|
+|uti v1|readv2|K15..00|Cystitis|
+|uti v1|readv2|K150.00|Acute cystitis|
+|uti v1|readv2|K155.00|Recurrent cystitis|
+|uti v1|readv2|K15z.00|Cystitis NOS|
+|uti v1|readv2|K190.00|Urinary tract infection, site not specified|
+|uti v1|readv2|K190.11|Recurrent urinary tract infection|
+|uti v1|readv2|K190000|Bacteriuria, site not specified|
+|uti v1|readv2|K190011|Asymptomatic bacteriuria|
+|uti v1|readv2|K190200|Post operative urinary tract infection|
+|uti v1|readv2|K190300|Recurrent urinary tract infection|
+|uti v1|readv2|K190311|Recurrent UTI|
+|uti v1|readv2|K190500|Urinary tract infection|
+|uti v1|readv2|K190z00|Urinary tract infection, site not specified NOS|
+|uti v1|readv2|L166.00|Genitourinary tract infections in pregnancy|
+|uti v1|readv2|L166.11|Cystitis of pregnancy|
+|uti v1|readv2|L166000|Genitourinary tract infection in pregnancy unspecified|
+|uti v1|readv2|L166100|Genitourinary tract infection in pregnancy - delivered|
+|uti v1|readv2|L166500|Infections of kidney in pregnancy|
+|uti v1|readv2|L166600|Urinary tract infection following delivery|
+|uti v1|readv2|L166800|Urinary tract infection complicating pregnancy|
+|uti v1|readv2|L166z00|Genitourinary tract infection in pregnancy NOS|
+|uti v1|readv2|L166z11|UTI - urinary tract infection in pregnancy|
+|uti v1|readv2|SP07Q00|Catheter-associated urinary tract infection|
+|uti v1|readv2|SP07Q11|CAUTI - catheter-associated urinary tract infection|
+|uti v1|snomed|38822007|Cystitis NOS|
+|uti v1|snomed|61373006|Bacteriuria, site not specified|
+|uti v1|snomed|68566005|Urinary tract infection, site not specified NOS|
+|uti v1|snomed|197853008|Recurrent cystitis|
+|uti v1|snomed|197924008|Urinary tract infection: [site not specified] or [recurrent]|
+|uti v1|snomed|197926005|Post operative urinary tract infection|
+|uti v1|snomed|197927001|Recurrent UTI - urinary tract infection|
+|uti v1|snomed|199106001|Genitourinary tract infection in pregnancy - delivered|
+|uti v1|snomed|199110003|Infections of kidney in pregnancy|
+|uti v1|snomed|199111004|Urinary tract infection following delivery|
+|uti v1|snomed|267204006|Genitourinary tract infection in pregnancy unspecified|
+|uti v1|snomed|720406004|Asymptomatic bacteriuria|
+|aminoglycosides v1|ctv3|cj1..|Tobramycin [respiratory use]|
+|aminoglycosides v1|ctv3|cj11.|Tobramycin 300mg/5mL nebuliser solution|
+|aminoglycosides v1|ctv3|cj12.|TOBI 300mg/5mL nebuliser solution|
+|aminoglycosides v1|ctv3|cj13.|BRAMITOB 300mg/4mL nebuliser solution|
+|aminoglycosides v1|ctv3|cj14.|TOBRAMYCIN 300mg/4mL nebuliser solution|
+|aminoglycosides v1|ctv3|cj15.|TOBI PODHALER 28mg inhalation powder capsules with device|
+|aminoglycosides v1|ctv3|cj16.|TOBRAMYCIN 28mg inhalation powder capsules with device|
+|aminoglycosides v1|ctv3|e81..|Gentamicin [infections]|
+|aminoglycosides v1|ctv3|e811.|Gentamicin 40mg/1mL injection ampoule|
+|aminoglycosides v1|ctv3|e812.|Gentamicin 80mg/2mL injection|
+|aminoglycosides v1|ctv3|e813.|Gentamicin 80mg/2mL syringe|
+|aminoglycosides v1|ctv3|e814.|Gentamicin 60mg/1mL injection|
+|aminoglycosides v1|ctv3|e815.|Gentamicin 120mg/2mL injection|
+|aminoglycosides v1|ctv3|e816.|Gentamicin 120mg/1.5mL injection|
+|aminoglycosides v1|ctv3|e817.|Gentamicin 2mg/2mL intrathecal injection|
+|aminoglycosides v1|ctv3|e818.|Gentamicin 5mg/1mL intrathecal injection ampoule|
+|aminoglycosides v1|ctv3|e819.|Gentamicin 10mg/2mL paediatric injection|
+|aminoglycosides v1|ctv3|e81a.|Gentamicin 20mg/2mL injection vial|
+|aminoglycosides v1|ctv3|e81b.|Gentamicin 1g injection (pdr for recon)|
+|aminoglycosides v1|ctv3|e81c.|Cidomycin 80mg/2mL injection|
+|aminoglycosides v1|ctv3|e81d.|Cidomycin 160mg/2mL injection|
+|aminoglycosides v1|ctv3|e81e.|Cidomycin 20mg/2mL paediatric injection|
+|aminoglycosides v1|ctv3|e81f.|Cidomycin 5mg/1mL intrathecal injection ampoule|
+|aminoglycosides v1|ctv3|e81g.|Cidomycin powder 1g|
+|aminoglycosides v1|ctv3|e81h.|Genticin 80mg/2mL injection ampoule|
+|aminoglycosides v1|ctv3|e81i.|Genticin 20mg/2mL paediatric injection|
+|aminoglycosides v1|ctv3|e81j.|Genticin 2mg/2mL intrathecal injection|
+|aminoglycosides v1|ctv3|e81k.|Genticin powder 1g|
+|aminoglycosides v1|ctv3|e81l.|Lugacin 80mg/2mL injection|
+|aminoglycosides v1|ctv3|e81m.|Genticin powder 500mg|
+|aminoglycosides v1|ctv3|e81n.|Gentamicin 240mg/6mL injection|
+|aminoglycosides v1|ctv3|e81o.|Gentamicin 80mg/50mL intravenous infusion|
+|aminoglycosides v1|ctv3|e81p.|Gentamicin Redibag 80mg/50mL intravenous infusion|
+|aminoglycosides v1|ctv3|e81q.|Gentamicin 240mg/100mL intravenous infusion|
+|aminoglycosides v1|ctv3|e81r.|Gentamicin Redibag 240mg/100mL intravenous infusion|
+|aminoglycosides v1|ctv3|e81s.|Gentamicin 360mg/100mL intravenous infusion|
+|aminoglycosides v1|ctv3|e81t.|Gentamicin Redibag 360mg/100mL intravenous infusion|
+|aminoglycosides v1|ctv3|e81u.|GENTAMICIN 80mg/80mL solution for infusion|
+|aminoglycosides v1|ctv3|e81v.|GENTAMICIN 240mg/80mL solution for infusion|
+|aminoglycosides v1|ctv3|e81w.|GENTAMICIN 360mg/120mL solution for infusion|
+|aminoglycosides v1|ctv3|e82..|Amikacin|
+|aminoglycosides v1|ctv3|e821.|Amikin 500mg/2mL injection|
+|aminoglycosides v1|ctv3|e822.|Amikin 100mg/2mL paediatric injection|
+|aminoglycosides v1|ctv3|e82y.|Amikacin 500mg/2mL injection|
+|aminoglycosides v1|ctv3|e82z.|Amikacin 100mg/2mL paediatric injection|
+|aminoglycosides v1|ctv3|e83..|Framycetin sulphate [systemic]|
+|aminoglycosides v1|ctv3|e831.|Soframycin 250mg tablet|
+|aminoglycosides v1|ctv3|e832.|Soframycin powder 500mg|
+|aminoglycosides v1|ctv3|e833.|Framycetin sulphate 250mg tablet|
+|aminoglycosides v1|ctv3|e834.|Framycetin sulphate powder 500mg|
+|aminoglycosides v1|ctv3|e84..|Kanamycin|
+|aminoglycosides v1|ctv3|e84..|Kanamycin product|
+|aminoglycosides v1|ctv3|e841.|Kannasyn 1g/4mL injection|
+|aminoglycosides v1|ctv3|e842.|Kannasyn 1g injection (pdr for recon)|
+|aminoglycosides v1|ctv3|e84y.|Kanamycin 1g/4mL injection|
+|aminoglycosides v1|ctv3|e84z.|Kanamycin 1g injection (pdr for recon)|
+|aminoglycosides v1|ctv3|e85..|Neomycin sulphate [systemic]|
+|aminoglycosides v1|ctv3|e851.|Neomycin sulphate 100mg/5mL elixir|
+|aminoglycosides v1|ctv3|e852.|Mycifradin powder 500mg|
+|aminoglycosides v1|ctv3|e853.|Nivemycin 500mg tablet|
+|aminoglycosides v1|ctv3|e854.|Nivemycin 100mg/5mL elixir|
+|aminoglycosides v1|ctv3|e855.|Neomycin sulphate 500mg tablet|
+|aminoglycosides v1|ctv3|e856.|Mycifradin 500mg tablet|
+|aminoglycosides v1|ctv3|e86..|Netilmicin|
+|aminoglycosides v1|ctv3|e861.|Netillin 15mg/1.5mL injection|
+|aminoglycosides v1|ctv3|e862.|Netillin 50mg/1mL injection|
+|aminoglycosides v1|ctv3|e863.|Netillin 100mg/1mL injection|
+|aminoglycosides v1|ctv3|e864.|Netillin 150mg/1.5mL injection|
+|aminoglycosides v1|ctv3|e865.|Netillin 200mg/2mL injection|
+|aminoglycosides v1|ctv3|e86v.|Netilmicin 200mg/2mL injection|
+|aminoglycosides v1|ctv3|e86w.|Netilmicin 15mg/1.5mL injection|
+|aminoglycosides v1|ctv3|e86x.|Netilmicin 50mg/1mL injection|
+|aminoglycosides v1|ctv3|e86y.|Netilmicin 100mg/1mL injection|
+|aminoglycosides v1|ctv3|e86z.|Netilmicin 150mg/1.5mL injection|
+|aminoglycosides v1|ctv3|e87..|Tobramycin [systemic]|
+|aminoglycosides v1|ctv3|e871.|Nebcin 20mg/2mL injection|
+|aminoglycosides v1|ctv3|e872.|Nebcin 40mg/1mL injection|
+|aminoglycosides v1|ctv3|e873.|Nebcin 80mg/2mL injection|
+|aminoglycosides v1|ctv3|e87w.|Tobramycin 240mg/6mL injection|
+|aminoglycosides v1|ctv3|e87x.|Tobramycin 20mg/2mL injection|
+|aminoglycosides v1|ctv3|e87y.|Tobramycin 40mg/1mL injection|
+|aminoglycosides v1|ctv3|e87z.|Tobramycin 80mg/2mL injection|
+|aminoglycosides v1|readv2|cj1..|TOBRAMYCIN [RESPIRATORY USE]|
+|aminoglycosides v1|readv2|cj11.|TOBRAMYCIN 300mg/5mL neb.soln|
+|aminoglycosides v1|readv2|cj12.|TOBI 300mg/5mL neb.soln|
+|aminoglycosides v1|readv2|cj13.|BRAMITOB 300mg/4mL neb soln|
+|aminoglycosides v1|readv2|cj14.|TOBRAMYCIN 300mg/4mL neb soln|
+|aminoglycosides v1|readv2|cj15.|TOBI PODHALER 28mg inhal caps|
+|aminoglycosides v1|readv2|cj16.|TOBRAMYCIN 28mg inhalation cap|
+|aminoglycosides v1|readv2|e81..|GENTAMICIN [INFECTIONS]|
+|aminoglycosides v1|readv2|e811.|GENTAMICIN 40mg/1mL injection|
+|aminoglycosides v1|readv2|e812.|GENTAMICIN 80mg/2mL injection|
+|aminoglycosides v1|readv2|e813.|GENTAMICIN 80mg/2mL syringe|
+|aminoglycosides v1|readv2|e814.|GENTAMICIN 60mg/1mL injection|
+|aminoglycosides v1|readv2|e815.|GENTAMICIN 120mg/2mL injection|
+|aminoglycosides v1|readv2|e816.|GENTAMICIN 120mg/1.5mL inj|
+|aminoglycosides v1|readv2|e817.|*GENTAMICIN 2mg/2mL i-t inj|
+|aminoglycosides v1|readv2|e818.|GENTAMICIN 5mg/1mL intrath inj|
+|aminoglycosides v1|readv2|e819.|GENTAMICIN 10mg/2mL paed inj|
+|aminoglycosides v1|readv2|e81a.|GENTAMICIN 20mg/2mL paed inj|
+|aminoglycosides v1|readv2|e81b.|GENTAMICIN 1g injection powder|
+|aminoglycosides v1|readv2|e81c.|CIDOMYCIN 80mg/2mL injection|
+|aminoglycosides v1|readv2|e81d.|*CIDOMYCIN 160mg/2mL injection|
+|aminoglycosides v1|readv2|e81e.|*CIDOMYCIN 20mg/2mL paed inj|
+|aminoglycosides v1|readv2|e81f.|*CIDOMYCIN 5mg/1mL intrath inj|
+|aminoglycosides v1|readv2|e81g.|*CIDOMYCIN powder 1g|
+|aminoglycosides v1|readv2|e81h.|GENTICIN 80mg/2mL injection|
+|aminoglycosides v1|readv2|e81i.|*GENTICIN 20mg/2mL paed inj|
+|aminoglycosides v1|readv2|e81j.|*GENTICIN 2mg/2mL intrath inj|
+|aminoglycosides v1|readv2|e81k.|*GENTICIN powder 1g|
+|aminoglycosides v1|readv2|e81l.|*LUGACIN 80mg/2mL injection|
+|aminoglycosides v1|readv2|e81m.|*GENTICIN powder 500mg|
+|aminoglycosides v1|readv2|e81n.|GENTAMYCIN 240mg/6mL injection|
+|aminoglycosides v1|readv2|e81o.|*GENTAMICIN 80mg/50mL i-v inf|
+|aminoglycosides v1|readv2|e81p.|*GENTAMICIN REDIBAG 80mg/50mL|
+|aminoglycosides v1|readv2|e81q.|*GENTAMICIN 240mg/100mL inf|
+|aminoglycosides v1|readv2|e81r.|*GENTAMICIN REDIBG 240mg/100mL|
+|aminoglycosides v1|readv2|e81s.|*GENTAMICIN 360mg/100mL inf|
+|aminoglycosides v1|readv2|e81t.|*GENTAMICIN REDIBG 360mg/100mL|
+|aminoglycosides v1|readv2|e81u.|GENTAMICIN 80mg/80mL infusion|
+|aminoglycosides v1|readv2|e81v.|GENTAMICIN 240mg/80mL infusion|
+|aminoglycosides v1|readv2|e81w.|GENTAMICIN 360mg/120mL inf|
+|aminoglycosides v1|readv2|e82..|AMIKACIN|
+|aminoglycosides v1|readv2|e821.|*AMIKIN 500mg/2mL injection|
+|aminoglycosides v1|readv2|e822.|AMIKIN 100mg/2mL paed inj|
+|aminoglycosides v1|readv2|e82y.|AMIKACIN 500mg/2mL injection|
+|aminoglycosides v1|readv2|e82z.|AMIKACIN 100mg/2mL paed inj|
+|aminoglycosides v1|readv2|e83..|FRAMYCETIN SULFATE [SYSTEMIC]|
+|aminoglycosides v1|readv2|e831.|*SOFRAMYCIN 250mg tablets|
+|aminoglycosides v1|readv2|e832.|*SOFRAMYCIN powder 500mg|
+|aminoglycosides v1|readv2|e833.|*FRAMYCETIN SULPH 250mg tabs|
+|aminoglycosides v1|readv2|e834.|FRAMYCETIN SULFATE pdr 500mg|
+|aminoglycosides v1|readv2|e84..|KANAMYCIN|
+|aminoglycosides v1|readv2|e841.|*KANNASYN 1g/4mL injection|
+|aminoglycosides v1|readv2|e842.|*KANNASYN 1g inj powder|
+|aminoglycosides v1|readv2|e84y.|*KANAMYCIN 1g/4mL injection|
+|aminoglycosides v1|readv2|e84z.|*KANAMYCIN 1g inj powder|
+|aminoglycosides v1|readv2|e85..|NEOMYCIN SULFATE [SYSTEMIC]|
+|aminoglycosides v1|readv2|e851.|*NEOMYCIN 100mg/5mL elixir|
+|aminoglycosides v1|readv2|e852.|*MYCIFRADIN powder 500mg|
+|aminoglycosides v1|readv2|e853.|NIVEMYCIN 500mg tablets|
+|aminoglycosides v1|readv2|e854.|*NIVEMYCIN 100mg/5mL elixir|
+|aminoglycosides v1|readv2|e855.|NEOMYCIN 500mg tablets|
+|aminoglycosides v1|readv2|e856.|*MYCIFRADIN 500mg tablets|
+|aminoglycosides v1|readv2|e86..|NETILMICIN|
+|aminoglycosides v1|readv2|e861.|*NETILLIN 15mg/1.5mL injection|
+|aminoglycosides v1|readv2|e862.|*NETILLIN 50mg/1mL injection|
+|aminoglycosides v1|readv2|e863.|*NETILLIN 100mg/1mL injection|
+|aminoglycosides v1|readv2|e864.|*NETILLIN 150mg/1.5mL inj|
+|aminoglycosides v1|readv2|e865.|*NETILLIN 200mg/2mL injection|
+|aminoglycosides v1|readv2|e86v.|*NETILMICIN 200mg/2mL inj|
+|aminoglycosides v1|readv2|e86w.|*NETILMICIN 15mg/1.5mL inj|
+|aminoglycosides v1|readv2|e86x.|*NETILMICIN 50mg/1mL injection|
+|aminoglycosides v1|readv2|e86y.|*NETILMICIN 100mg/1mL inj|
+|aminoglycosides v1|readv2|e86z.|*NETILMICIN 150mg/1.5mL inj|
+|aminoglycosides v1|readv2|e87..|TOBRAMYCIN [SYSTEMIC]|
+|aminoglycosides v1|readv2|e871.|*NEBCIN 20mg/2mL injection|
+|aminoglycosides v1|readv2|e872.|*NEBCIN 40mg/1mL injection|
+|aminoglycosides v1|readv2|e873.|NEBCIN 80mg/2mL injection|
+|aminoglycosides v1|readv2|e87w.|TOBRAMYCIN 240mg/6mL injection|
+|aminoglycosides v1|readv2|e87x.|*TOBRAMYCIN 20mg/2mL injection|
+|aminoglycosides v1|readv2|e87y.|TOBRAMYCIN 40mg/1mL injection|
+|aminoglycosides v1|readv2|e87z.|TOBRAMYCIN 80mg/2mL injection|
 |aminoglycosides v1|snomed|36051011000001102|Gentamicin 80mg/2ml solution for injection ampoules|
 |aminoglycosides v1|snomed|3844911000001106|Gentamicin 80mg/2ml solution for injection ampoules|
 |aminoglycosides v1|snomed|3845011000001106|Gentamicin 80mg/2ml solution for injection ampoules|
@@ -22834,6 +23325,649 @@ All code sets required for this analysis are listed here. Individual lists for e
 |antipsychotics v1|readv2|dhd..|*PERPHENAZINE [NO DRUGS HERE]|
 |antipsychotics v1|readv2|dhi..|*TRIFLUOPERAZINE [NAUSEA]|
 |antipsychotics v1|readv2|ds1..|"*HALOPERIDOL [TICS, CHOREA]"|
+|oestrogens-and-hrt v1|ctv3|ff2f.|Climaval 1mg tablet|
+|oestrogens-and-hrt v1|ctv3|ff2K.|FemSeven 50 patch|
+|oestrogens-and-hrt v1|ctv3|ff2M.|Oestradiol valerate 1mg tablet|
+|oestrogens-and-hrt v1|ctv3|ff2r.|Oestradiol 50micrograms patch|
+|oestrogens-and-hrt v1|ctv3|ff2v.|Oestradiol 100mg implant|
+|oestrogens-and-hrt v1|ctv3|ff2z.|Oestradiol 2mg tablet|
+|oestrogens-and-hrt v1|ctv3|ff41.|Premarin 625micrograms tablet|
+|oestrogens-and-hrt v1|ctv3|fh12.|Cyclo-Progynova 2mg tablet|
+|oestrogens-and-hrt v1|ctv3|fh17.|Prempak-C 0.625 tablets x1 month|
+|oestrogens-and-hrt v1|ctv3|fh1E.|Femoston 2/10 tablet|
+|oestrogens-and-hrt v1|ctv3|fh1N.|Evorel Sequi patch|
+|oestrogens-and-hrt v1|ctv3|fh1O.|Evorel Conti patch|
+|oestrogens-and-hrt v1|readv2|ff2f.|CLIMAVAL 1mg tablets|
+|oestrogens-and-hrt v1|readv2|ff2K.|FEMSEVEN 50 patches|
+|oestrogens-and-hrt v1|readv2|ff2M.|ESTRADIOL VALERATE 1mg tablets|
+|oestrogens-and-hrt v1|readv2|ff2r.|ESTRADIOL 50micrograms patches|
+|oestrogens-and-hrt v1|readv2|ff2v.|*ESTRADIOL 100mg implant|
+|oestrogens-and-hrt v1|readv2|ff2z.|ESTRADIOL 2mg tablets|
+|oestrogens-and-hrt v1|readv2|ff41.|PREMARIN 625micrograms tablets|
+|oestrogens-and-hrt v1|readv2|fh12.|CYCLO-PROGYNOVA 2mg tablets|
+|oestrogens-and-hrt v1|readv2|fh17.|PREMPAK-C 0.625 tablets x1 month|
+|oestrogens-and-hrt v1|readv2|fh1E.|FEMOSTON-2/10 tablets|
+|oestrogens-and-hrt v1|readv2|fh1N.|EVOREL SEQUI patches|
+|oestrogens-and-hrt v1|readv2|fh1O.|EVOREL CONTI patches|
+|oestrogens-and-hrt v1|snomed|326075007|Raloxifene 60mg tablets|
+|oestrogens-and-hrt v1|snomed|1238711000001102|Raloxifene 60mg tablets|
+|oestrogens-and-hrt v1|snomed|1142811000001107|Raloxifene 60mg tablets|
+|oestrogens-and-hrt v1|snomed|239811000001103|Evista 60mg tablets (Daiichi Sankyo UK Ltd)|
+|oestrogens-and-hrt v1|snomed|1918711000001108|Evista 60mg tablets (Daiichi Sankyo UK Ltd)|
+|oestrogens-and-hrt v1|snomed|1918911000001105|Evista 60mg tablets (Daiichi Sankyo UK Ltd)|
+|oestrogens-and-hrt v1|snomed|21960811000001102|Raloxifene 60mg tablets (Alliance Healthcare (Distribution) Ltd)|
+|oestrogens-and-hrt v1|snomed|21961011000001104|Raloxifene 60mg tablets (Alliance Healthcare (Distribution) Ltd)|
+|oestrogens-and-hrt v1|snomed|35428311000001104|Raloxifene 60mg tablets (Alliance Healthcare (Distribution) Ltd)|
+|oestrogens-and-hrt v1|snomed|22109311000001101|Raloxifene 60mg tablets (Teva UK Ltd)|
+|oestrogens-and-hrt v1|snomed|22109411000001108|Raloxifene 60mg tablets (Teva UK Ltd)|
+|oestrogens-and-hrt v1|snomed|22109511000001107|Raloxifene 60mg tablets (Teva UK Ltd)|
+|oestrogens-and-hrt v1|snomed|22358811000001101|Razylan 60mg tablets (Aspire Pharma Ltd)|
+|oestrogens-and-hrt v1|snomed|22359211000001107|Razylan 60mg tablets (Aspire Pharma Ltd)|
+|oestrogens-and-hrt v1|snomed|22517711000001102|Raloxifene 60mg tablets (Consilient Health Ltd)|
+|oestrogens-and-hrt v1|snomed|22517811000001105|Raloxifene 60mg tablets (Consilient Health Ltd)|
+|oestrogens-and-hrt v1|snomed|22567411000001107|Raloxifene 60mg tablets (A A H Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|22567611000001105|Raloxifene 60mg tablets (A A H Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|22786111000001104|Raloxifene 60mg tablets (A A H Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|24110811000001107|Raloxifene 60mg tablets (Sandoz Ltd)|
+|oestrogens-and-hrt v1|snomed|24110911000001102|Raloxifene 60mg tablets (Sandoz Ltd)|
+|oestrogens-and-hrt v1|snomed|24559611000001104|Raloxifene 60mg tablets (Accord Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|24559711000001108|Raloxifene 60mg tablets (Accord Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|24676811000001104|Ostiral 60mg tablets (Lupin Healthcare (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|24677011000001108|Ostiral 60mg tablets (Lupin Healthcare (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|28996211000001107|Raloxifene 60mg tablets (Dr Reddy's Laboratories (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|28996311000001104|Raloxifene 60mg tablets (Dr Reddy's Laboratories (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|30086311000001109|Raloxifene 60mg tablets (DE Pharmaceuticals)|
+|oestrogens-and-hrt v1|snomed|30086411000001102|Raloxifene 60mg tablets (DE Pharmaceuticals)|
+|oestrogens-and-hrt v1|snomed|30086511000001103|Raloxifene 60mg tablets (DE Pharmaceuticals)|
+|oestrogens-and-hrt v1|snomed|30863211000001105|Raloxifene 60mg tablets (Mawdsley-Brooks & Company Ltd)|
+|oestrogens-and-hrt v1|snomed|30863411000001109|Raloxifene 60mg tablets (Mawdsley-Brooks & Company Ltd)|
+|oestrogens-and-hrt v1|snomed|32460211000001101|Evirex 60mg tablets (Somex Pharma)|
+|oestrogens-and-hrt v1|snomed|32460311000001109|Evirex 60mg tablets (Somex Pharma)|
+|oestrogens-and-hrt v1|snomed|33612911000001100|Raloxifene 60mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|33613011000001108|Raloxifene 60mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|33613111000001109|Raloxifene 60mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|33971011000001100|Raloxifene 60mg tablets (Somex Pharma)|
+|oestrogens-and-hrt v1|snomed|33971811000001106|Raloxifene 60mg tablets (Somex Pharma)|
+|oestrogens-and-hrt v1|snomed|34444711000001101|Raloxifene 60mg tablets (Bristol Laboratories Ltd)|
+|oestrogens-and-hrt v1|snomed|34444811000001109|Raloxifene 60mg tablets (Bristol Laboratories Ltd)|
+|oestrogens-and-hrt v1|snomed|34444911000001104|Raloxifene 60mg tablets (Bristol Laboratories Ltd)|
+|oestrogens-and-hrt v1|snomed|38744511000001103|Raloxifene 60mg tablets (Aspire Pharma Ltd)|
+|oestrogens-and-hrt v1|snomed|38744611000001104|Raloxifene 60mg tablets (Aspire Pharma Ltd)|
+|oestrogens-and-hrt v1|snomed|39205211000001101|Raloxifene 60mg tablets (Medihealth (Northern) Ltd)|
+|oestrogens-and-hrt v1|snomed|39205311000001109|Raloxifene 60mg tablets (Medihealth (Northern) Ltd)|
+|oestrogens-and-hrt v1|snomed|3543111000001105|Generic Hormonin tablets|
+|oestrogens-and-hrt v1|snomed|1129511000001102|Generic Hormonin tablets|
+|oestrogens-and-hrt v1|snomed|293111000001101|Hormonin tablets (Advanz Pharma)|
+|oestrogens-and-hrt v1|snomed|2203311000001103|Hormonin tablets (Advanz Pharma)|
+|oestrogens-and-hrt v1|snomed|325568008|Tibolone 2.5mg tablets|
+|oestrogens-and-hrt v1|snomed|1205011000001104|Tibolone 2.5mg tablets|
+|oestrogens-and-hrt v1|snomed|1224111000001107|Tibolone 2.5mg tablets|
+|oestrogens-and-hrt v1|snomed|5559511000001108|Tibolone 2.5mg tablets|
+|oestrogens-and-hrt v1|snomed|521411000001105|Livial 2.5mg tablets (Organon Pharma (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|2322011000001107|Livial 2.5mg tablets (Organon Pharma (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|2322111000001108|Livial 2.5mg tablets (Organon Pharma (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|24195511000001100|Tibolone 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
+|oestrogens-and-hrt v1|snomed|24195611000001101|Tibolone 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
+|oestrogens-and-hrt v1|snomed|24195811000001102|Tibolone 2.5mg tablets (Alliance Healthcare (Distribution) Ltd)|
+|oestrogens-and-hrt v1|snomed|24418911000001104|Tibolone 2.5mg tablets (A A H Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|24419011000001108|Tibolone 2.5mg tablets (A A H Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|24419111000001109|Tibolone 2.5mg tablets (A A H Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|37088911000001100|Tibolone 2.5mg tablets (Advanz Pharma)|
+|oestrogens-and-hrt v1|snomed|37089011000001109|Tibolone 2.5mg tablets (Advanz Pharma)|
+|oestrogens-and-hrt v1|snomed|37089211000001104|Tibolone 2.5mg tablets (Advanz Pharma)|
+|oestrogens-and-hrt v1|snomed|37241411000001102|Tibolone 2.5mg tablets (Aristo Pharma Ltd)|
+|oestrogens-and-hrt v1|snomed|37241511000001103|Tibolone 2.5mg tablets (Aristo Pharma Ltd)|
+|oestrogens-and-hrt v1|snomed|37244111000001105|Tibolone 2.5mg tablets (Aristo Pharma Ltd)|
+|oestrogens-and-hrt v1|snomed|37363111000001108|Tibolone 2.5mg tablets (NorthStar Healthcare Unlimited Company)|
+|oestrogens-and-hrt v1|snomed|37363411000001103|Tibolone 2.5mg tablets (NorthStar Healthcare Unlimited Company)|
+|oestrogens-and-hrt v1|snomed|37363911000001106|Tibolone 2.5mg tablets (NorthStar Healthcare Unlimited Company)|
+|oestrogens-and-hrt v1|snomed|37825511000001106|Tibolone 2.5mg tablets (DE Pharmaceuticals)|
+|oestrogens-and-hrt v1|snomed|37825611000001105|Tibolone 2.5mg tablets (DE Pharmaceuticals)|
+|oestrogens-and-hrt v1|snomed|37825711000001101|Tibolone 2.5mg tablets (DE Pharmaceuticals)|
+|oestrogens-and-hrt v1|snomed|38039411000001100|Tibolone 2.5mg tablets (Accord Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|38039511000001101|Tibolone 2.5mg tablets (Accord Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|39907111000001102|Tibolone 2.5mg tablets (Medihealth (Northern) Ltd)|
+|oestrogens-and-hrt v1|snomed|39907211000001108|Tibolone 2.5mg tablets (Medihealth (Northern) Ltd)|
+|oestrogens-and-hrt v1|snomed|39907311000001100|Tibolone 2.5mg tablets (Medihealth (Northern) Ltd)|
+|oestrogens-and-hrt v1|snomed|3369311000001103|Estradiol 1mg / Dydrogesterone 5mg tablets|
+|oestrogens-and-hrt v1|snomed|1063411000001104|Estradiol 1mg / Dydrogesterone 5mg tablets|
+|oestrogens-and-hrt v1|snomed|519311000001107|Femoston-conti 1mg/5mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|2587211000001108|Femoston-conti 1mg/5mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|325560001|Estropipate 1.5mg tablets|
+|oestrogens-and-hrt v1|snomed|1163211000001107|Estropipate 1.5mg tablets|
+|oestrogens-and-hrt v1|snomed|86011000001100|Harmogen 1.5mg tablets (Pfizer Ltd)|
+|oestrogens-and-hrt v1|snomed|2598511000001109|Harmogen 1.5mg tablets (Pfizer Ltd)|
+|oestrogens-and-hrt v1|snomed|325480003|Ethinylestradiol 10microgram tablets|
+|oestrogens-and-hrt v1|snomed|1062411000001108|Ethinylestradiol 10microgram tablets|
+|oestrogens-and-hrt v1|snomed|734211000001107|Ethinylestradiol 10microgram tablets (A A H Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|2636311000001103|Ethinylestradiol 10microgram tablets (A A H Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|692011000001108|Ethinylestradiol 10microgram tablets (UCB Pharma Ltd)|
+|oestrogens-and-hrt v1|snomed|2636511000001109|Ethinylestradiol 10microgram tablets (UCB Pharma Ltd)|
+|oestrogens-and-hrt v1|snomed|526411000001104|Ethinylestradiol 10microgram tablets (Alliance Healthcare (Distribution) Ltd)|
+|oestrogens-and-hrt v1|snomed|2636711000001104|Ethinylestradiol 10microgram tablets (Alliance Healthcare (Distribution) Ltd)|
+|oestrogens-and-hrt v1|snomed|325556004|Conjugated oestrogens 625microgram tablets|
+|oestrogens-and-hrt v1|snomed|1323411000001106|Conjugated oestrogens 625microgram tablets|
+|oestrogens-and-hrt v1|snomed|3456311000001108|Conjugated oestrogens 625microgram tablets|
+|oestrogens-and-hrt v1|snomed|34911000001102|Premarin 0.625mg tablets (Pfizer Ltd)|
+|oestrogens-and-hrt v1|snomed|2687311000001108|Premarin 0.625mg tablets (Pfizer Ltd)|
+|oestrogens-and-hrt v1|snomed|3456411000001101|Conjugated oestrogens 625microgram tablets (Pfizer Ltd)|
+|oestrogens-and-hrt v1|snomed|7142111000001103|Conjugated oestrogens 625microgram tablets (Pfizer Ltd)|
+|oestrogens-and-hrt v1|snomed|3456511000001102|Conjugated oestrogens 625microgram tablets (Pfizer Ltd)|
+|oestrogens-and-hrt v1|snomed|325557008|Conjugated oestrogens 1.25mg tablets|
+|oestrogens-and-hrt v1|snomed|1247811000001107|Conjugated oestrogens 1.25mg tablets|
+|oestrogens-and-hrt v1|snomed|546511000001102|Premarin 1.25mg tablets (Pfizer Ltd)|
+|oestrogens-and-hrt v1|snomed|2688111000001107|Premarin 1.25mg tablets (Pfizer Ltd)|
+|oestrogens-and-hrt v1|snomed|7142211000001109|Conjugated oestrogens 1.25mg tablets (Pfizer Ltd)|
+|oestrogens-and-hrt v1|snomed|7142311000001101|Conjugated oestrogens 1.25mg tablets (Pfizer Ltd)|
+|oestrogens-and-hrt v1|snomed|3341011000001106|Conjugated oestrogens 1.25mg tablets and Norgestrel 150microgram tablets|
+|oestrogens-and-hrt v1|snomed|1282711000001107|Conjugated oestrogens 1.25mg tablets and Norgestrel 150microgram tablets|
+|oestrogens-and-hrt v1|snomed|557911000001109|Prempak-C 1.25mg/0.15mg tablets (Pfizer Ltd)|
+|oestrogens-and-hrt v1|snomed|2701211000001100|Prempak-C 1.25mg/0.15mg tablets (Pfizer Ltd)|
+|oestrogens-and-hrt v1|snomed|39689411000001101|Conjugated oestrogens 625microgram / Medroxyprogesterone 5mg tablets|
+|oestrogens-and-hrt v1|snomed|1012011000001100|Conjugated oestrogens 625microgram / Medroxyprogesterone 5mg tablets|
+|oestrogens-and-hrt v1|snomed|679511000001100|Premique 0.625mg/5mg tablets (Pfizer Ltd)|
+|oestrogens-and-hrt v1|snomed|2754411000001108|Premique 0.625mg/5mg tablets (Pfizer Ltd)|
+|oestrogens-and-hrt v1|snomed|325546003|Estradiol 2mg tablets|
+|oestrogens-and-hrt v1|snomed|2835711000001100|Estradiol 2mg tablets|
+|oestrogens-and-hrt v1|snomed|2835911000001103|Estradiol 2mg tablets|
+|oestrogens-and-hrt v1|snomed|3345711000001105|Estradiol 2mg tablets|
+|oestrogens-and-hrt v1|snomed|3365111000001102|Estradiol 2mg tablets|
+|oestrogens-and-hrt v1|snomed|3447211000001101|Estradiol 2mg tablets|
+|oestrogens-and-hrt v1|snomed|3454811000001106|Estradiol 2mg tablets|
+|oestrogens-and-hrt v1|snomed|2837211000001104|Elleste Solo 2mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|2837811000001103|Elleste Solo 2mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|2838411000001101|Zumenon 2mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|2838611000001103|Zumenon 2mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|2838711000001107|Adgyn Estro 2mg tablets (Kyowa Kirin Ltd)|
+|oestrogens-and-hrt v1|snomed|2839011000001100|Adgyn Estro 2mg tablets (Kyowa Kirin Ltd)|
+|oestrogens-and-hrt v1|snomed|3348711000001103|Estradiol 2mg tablets (Abbott Healthcare Products Ltd)|
+|oestrogens-and-hrt v1|snomed|3348911000001101|Estradiol 2mg tablets (Abbott Healthcare Products Ltd)|
+|oestrogens-and-hrt v1|snomed|3365411000001107|Estradiol 2mg tablets (Kyowa Kirin Ltd)|
+|oestrogens-and-hrt v1|snomed|3365511000001106|Estradiol 2mg tablets (Kyowa Kirin Ltd)|
+|oestrogens-and-hrt v1|snomed|3447411000001102|Estradiol 2mg tablets (Novo Nordisk Ltd)|
+|oestrogens-and-hrt v1|snomed|3447611000001104|Estradiol 2mg tablets (Novo Nordisk Ltd)|
+|oestrogens-and-hrt v1|snomed|3454911000001101|Estradiol 2mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|3455011000001101|Estradiol 2mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|10276611000001104|Bedol 2mg tablets (ReSource Medical UK Ltd)|
+|oestrogens-and-hrt v1|snomed|10276711000001108|Bedol 2mg tablets (ReSource Medical UK Ltd)|
+|oestrogens-and-hrt v1|snomed|10276811000001100|Estradiol 2mg tablets (ReSource Medical UK Ltd)|
+|oestrogens-and-hrt v1|snomed|10276911000001105|Estradiol 2mg tablets (ReSource Medical UK Ltd)|
+|oestrogens-and-hrt v1|snomed|325545004|Estradiol 1mg tablets|
+|oestrogens-and-hrt v1|snomed|2841011000001103|Estradiol 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3346511000001107|Estradiol 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3366911000001106|Estradiol 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3448411000001103|Estradiol 1mg tablets|
+|oestrogens-and-hrt v1|snomed|14745511000001103|Estradiol 1mg tablets|
+|oestrogens-and-hrt v1|snomed|2841811000001109|Elleste Solo 1mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|2842111000001107|Elleste Solo 1mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|2842511000001103|Zumenon 1mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|2844811000001106|Zumenon 1mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|3346811000001105|Estradiol 1mg tablets (Abbott Healthcare Products Ltd)|
+|oestrogens-and-hrt v1|snomed|3346911000001100|Estradiol 1mg tablets (Abbott Healthcare Products Ltd)|
+|oestrogens-and-hrt v1|snomed|3367011000001105|Estradiol 1mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|3367111000001106|Estradiol 1mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|3448611000001100|Estradiol 1mg tablets (Novo Nordisk Ltd)|
+|oestrogens-and-hrt v1|snomed|4498511000001109|Estradiol 1mg tablets (Novo Nordisk Ltd)|
+|oestrogens-and-hrt v1|snomed|3449011000001102|Estradiol 1mg tablets (Novo Nordisk Ltd)|
+|oestrogens-and-hrt v1|snomed|325533008|Estradiol valerate 2mg tablets|
+|oestrogens-and-hrt v1|snomed|2844911000001101|Estradiol valerate 2mg tablets|
+|oestrogens-and-hrt v1|snomed|2845011000001101|Estradiol valerate 2mg tablets|
+|oestrogens-and-hrt v1|snomed|3196311000001100|Estradiol valerate 2mg tablets|
+|oestrogens-and-hrt v1|snomed|3350511000001108|Estradiol valerate 2mg tablets|
+|oestrogens-and-hrt v1|snomed|3354011000001107|Estradiol valerate 2mg tablets|
+|oestrogens-and-hrt v1|snomed|3359511000001100|Estradiol valerate 2mg tablets|
+|oestrogens-and-hrt v1|snomed|5502411000001108|Estradiol valerate 2mg tablets|
+|oestrogens-and-hrt v1|snomed|2845111000001100|Climaval 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2845211000001106|Climaval 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2845311000001103|Climaval 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2845411000001105|Progynova 2mg tablets (Bayer Plc)|
+|oestrogens-and-hrt v1|snomed|2845511000001109|Progynova 2mg tablets (Bayer Plc)|
+|oestrogens-and-hrt v1|snomed|3196511000001106|Estradiol valerate 2mg tablets (Bayer Plc)|
+|oestrogens-and-hrt v1|snomed|3196611000001105|Estradiol valerate 2mg tablets (Bayer Plc)|
+|oestrogens-and-hrt v1|snomed|3350611000001107|Estradiol valerate 2mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|3350711000001103|Estradiol valerate 2mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|3354111000001108|Estradiol valerate 2mg tablets (Orion Pharma (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|3354211000001102|Estradiol valerate 2mg tablets (Orion Pharma (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|3359911000001107|Estradiol valerate 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3360911000001108|Estradiol valerate 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3360711000001106|Estradiol valerate 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|4501411000001105|FemTab 2mg tablets (Merck Serono Ltd)|
+|oestrogens-and-hrt v1|snomed|4501511000001109|FemTab 2mg tablets (Merck Serono Ltd)|
+|oestrogens-and-hrt v1|snomed|4522411000001109|Estradiol valerate 2mg tablets (Merck Serono Ltd)|
+|oestrogens-and-hrt v1|snomed|4522611000001107|Estradiol valerate 2mg tablets (Merck Serono Ltd)|
+|oestrogens-and-hrt v1|snomed|24659611000001109|Estradiol valerate 2mg tablets (Imported (Germany))|
+|oestrogens-and-hrt v1|snomed|24659911000001103|Estradiol valerate 2mg tablets (Imported (Germany))|
+|oestrogens-and-hrt v1|snomed|325505008|Estradiol valerate 1mg tablets|
+|oestrogens-and-hrt v1|snomed|2845611000001108|Estradiol valerate 1mg tablets|
+|oestrogens-and-hrt v1|snomed|2845711000001104|Estradiol valerate 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3351811000001103|Estradiol valerate 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3355211000001101|Estradiol valerate 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3355311000001109|Estradiol valerate 1mg tablets|
+|oestrogens-and-hrt v1|snomed|15466211000001104|Estradiol valerate 1mg tablets|
+|oestrogens-and-hrt v1|snomed|2845811000001107|Climaval 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2845911000001102|Climaval 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2846011000001105|Climaval 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2846111000001106|Progynova 1mg tablets (Bayer Plc)|
+|oestrogens-and-hrt v1|snomed|2846211000001100|Progynova 1mg tablets (Bayer Plc)|
+|oestrogens-and-hrt v1|snomed|3351911000001108|Estradiol valerate 1mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|3352011000001101|Estradiol valerate 1mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|3355711000001108|Estradiol valerate 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3356011000001102|Estradiol valerate 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3356111000001101|Estradiol valerate 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|4501211000001106|FemTab 1mg tablets (Merck Serono Ltd)|
+|oestrogens-and-hrt v1|snomed|4501311000001103|FemTab 1mg tablets (Merck Serono Ltd)|
+|oestrogens-and-hrt v1|snomed|15466311000001107|Estradiol valerate 1mg tablets (Bayer Plc)|
+|oestrogens-and-hrt v1|snomed|15466411000001100|Estradiol valerate 1mg tablets (Bayer Plc)|
+|oestrogens-and-hrt v1|snomed|36064911000001108|Estradiol 25micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|2888411000001105|Estradiol 25micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|2889011000001106|Estradiol 25micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|2889111000001107|Evorel 25 patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2889211000001101|Evorel 25 patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2889311000001109|Estraderm TTS 25 patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2889411000001102|Estraderm TTS 25 patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2889511000001103|Estraderm TTS 25 patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2889611000001104|Estraderm MX 25 patches (Norgine Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|2889711000001108|Estraderm MX 25 patches (Norgine Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|2889811000001100|Estraderm MX 25 patches (Norgine Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|2889911000001105|Dermestril 25 patches (Kyowa Kirin Ltd)|
+|oestrogens-and-hrt v1|snomed|2890011000001102|Dermestril 25 patches (Kyowa Kirin Ltd)|
+|oestrogens-and-hrt v1|snomed|9044911000001109|Estradot 25micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|9045011000001109|Estradot 25micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|36065111000001109|Estradiol 40micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|2890111000001101|Estradiol 40micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|2890211000001107|Elleste Solo MX 40 transdermal patches (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|2890311000001104|Elleste Solo MX 40 transdermal patches (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|2890411000001106|Fematrix 40 patches (Abbott Healthcare Products Ltd)|
+|oestrogens-and-hrt v1|snomed|2890511000001105|Fematrix 40 patches (Abbott Healthcare Products Ltd)|
+|oestrogens-and-hrt v1|snomed|36065511000001100|Estradiol 80micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|2893111000001108|Estradiol 80micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|3208311000001101|Estradiol 80micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|2893411000001103|Elleste Solo MX 80 transdermal patches (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|2893511000001104|Elleste Solo MX 80 transdermal patches (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|2893711000001109|Fematrix 80 patches (Abbott Healthcare Products Ltd)|
+|oestrogens-and-hrt v1|snomed|2893911000001106|Fematrix 80 patches (Abbott Healthcare Products Ltd)|
+|oestrogens-and-hrt v1|snomed|36065011000001108|Estradiol 37.5micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|2895011000001108|Estradiol 37.5micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|2895211000001103|Menorest 37.5 patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2895511000001100|Menorest 37.5 patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|9045111000001105|Estradot 37.5micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|9045211000001104|Estradot 37.5micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|36065411000001104|Estradiol 75micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|2902511000001103|Estradiol 75micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|2902711000001108|Estradiol 75micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|2902811000001100|Estradiol 75micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|2902911000001105|FemSeven 75 patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2903011000001102|FemSeven 75 patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2903111000001101|Evorel 75 patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2903211000001107|Evorel 75 patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2910911000001109|Menorest 75 patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2911011000001101|Menorest 75 patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2911111000001100|Estraderm MX 75 patches (Norgine Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|2911211000001106|Estraderm MX 75 patches (Norgine Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|2911311000001103|Estraderm MX 75 patches (Norgine Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|2911411000001105|Dermestril - Septem 75 patches (Kyowa Kirin Ltd)|
+|oestrogens-and-hrt v1|snomed|2911511000001109|Dermestril - Septem 75 patches (Kyowa Kirin Ltd)|
+|oestrogens-and-hrt v1|snomed|9045511000001101|Estradot 75micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|9045611000001102|Estradot 75micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|36064811000001103|Estradiol 100micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|2935411000001100|Estradiol 100micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|2935511000001101|Estradiol 100micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|2938511000001109|Estradiol 100micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|2939911000001105|Estradiol 100micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|2936011000001100|Evorel 100 patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2936411000001109|Evorel 100 patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2936611000001107|Estraderm TTS 100 patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2936811000001106|Estraderm TTS 100 patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2937011000001102|Estraderm TTS 100 patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2937111000001101|Estraderm MX 100 patches (Norgine Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|2937211000001107|Estraderm MX 100 patches (Norgine Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|2937711000001100|Estraderm MX 100 patches (Norgine Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|2938211000001106|Dermestril 100 patches (Kyowa Kirin Ltd)|
+|oestrogens-and-hrt v1|snomed|2938311000001103|Dermestril 100 patches (Kyowa Kirin Ltd)|
+|oestrogens-and-hrt v1|snomed|2938411000001105|FemSeven 100 patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2938711000001104|FemSeven 100 patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2939611000001104|Progynova TS 100micrograms/24hours transdermal patches (Bayer Plc)|
+|oestrogens-and-hrt v1|snomed|2940111000001103|Progynova TS 100micrograms/24hours transdermal patches (Bayer Plc)|
+|oestrogens-and-hrt v1|snomed|9045711000001106|Estradot 100micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|9045811000001103|Estradot 100micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|39112011000001100|Estradiol 50micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|2941311000001106|Estradiol 50micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|2941511000001100|Estradiol 50micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|2941711000001105|Estradiol 50micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|2942111000001104|Estradiol 50micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|2942211000001105|Estradiol 50micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|4707311000001108|Estradiol 50micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|4707411000001101|Estradiol 50micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|2942311000001102|Evorel 50 patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2942611000001107|Evorel 50 patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2942711000001103|Evorel 50 patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3216211000001105|Evorel 50 patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2942911000001101|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2943111000001105|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2943311000001107|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3211311000001105|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3211411000001103|Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2943611000001102|Menorest 50 patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2944511000001103|Menorest 50 patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2945011000001105|Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|2945311000001108|Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|2945511000001102|Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|2947311000001100|Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|2947611000001105|Dermestril 50 patches (Kyowa Kirin Ltd)|
+|oestrogens-and-hrt v1|snomed|2947711000001101|Dermestril 50 patches (Kyowa Kirin Ltd)|
+|oestrogens-and-hrt v1|snomed|2947811000001109|Dermestril - Septem 50 patches (Kyowa Kirin Ltd)|
+|oestrogens-and-hrt v1|snomed|2948011000001102|Dermestril - Septem 50 patches (Kyowa Kirin Ltd)|
+|oestrogens-and-hrt v1|snomed|2948411000001106|FemSeven 50 patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2948811000001108|FemSeven 50 patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2949011000001107|FemSeven 50 patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|2949711000001109|Progynova TS 50micrograms/24hours transdermal patches (Bayer Plc)|
+|oestrogens-and-hrt v1|snomed|2950811000001108|Progynova TS 50micrograms/24hours transdermal patches (Bayer Plc)|
+|oestrogens-and-hrt v1|snomed|9045311000001107|Estradot 50micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|9045411000001100|Estradot 50micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|325662001|Estradiol 1mg / Norethisterone acetate 500microgram tablets|
+|oestrogens-and-hrt v1|snomed|3038111000001102|Estradiol 1mg / Norethisterone acetate 500microgram tablets|
+|oestrogens-and-hrt v1|snomed|14736011000001101|Estradiol 1mg / Norethisterone acetate 500microgram tablets|
+|oestrogens-and-hrt v1|snomed|3038811000001109|Kliovance tablets (Novo Nordisk Ltd)|
+|oestrogens-and-hrt v1|snomed|3039611000001101|Kliovance tablets (Novo Nordisk Ltd)|
+|oestrogens-and-hrt v1|snomed|325655005|Estradiol valerate 2mg / Norethisterone 700microgram tablets|
+|oestrogens-and-hrt v1|snomed|3039711000001105|Estradiol valerate 2mg / Norethisterone 700microgram tablets|
+|oestrogens-and-hrt v1|snomed|3039811000001102|Estradiol valerate 2mg / Norethisterone 700microgram tablets|
+|oestrogens-and-hrt v1|snomed|3040311000001103|Climesse tablets (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3040511000001109|Climesse tablets (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3040711000001104|Climesse tablets (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|325648008|Estradiol 2mg / Norethisterone acetate 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3042111000001101|Estradiol 2mg / Norethisterone acetate 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3447711000001108|Estradiol 2mg / Norethisterone acetate 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3455111000001100|Estradiol 2mg / Norethisterone acetate 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3043111000001107|Kliofem tablets (Novo Nordisk Ltd)|
+|oestrogens-and-hrt v1|snomed|3079811000001104|Kliofem tablets (Novo Nordisk Ltd)|
+|oestrogens-and-hrt v1|snomed|3049511000001101|Elleste Duet Conti tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|3049811000001103|Elleste Duet Conti tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|3049911000001108|Nuvelle Continuous tablets (Bayer Plc)|
+|oestrogens-and-hrt v1|snomed|3050111000001103|Nuvelle Continuous tablets (Bayer Plc)|
+|oestrogens-and-hrt v1|snomed|3448111000001108|Estradiol 2mg / Norethisterone acetate 1mg tablets (Novo Nordisk Ltd)|
+|oestrogens-and-hrt v1|snomed|3448211000001102|Estradiol 2mg / Norethisterone acetate 1mg tablets (Novo Nordisk Ltd)|
+|oestrogens-and-hrt v1|snomed|3455211000001106|Estradiol 2mg / Norethisterone acetate 1mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|3455311000001103|Estradiol 2mg / Norethisterone acetate 1mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|4501811000001107|FemTab Continuous tablets (Merck Serono Ltd)|
+|oestrogens-and-hrt v1|snomed|4502011000001109|FemTab Continuous tablets (Merck Serono Ltd)|
+|oestrogens-and-hrt v1|snomed|3549811000001101|Generic Nuvelle tablets|
+|oestrogens-and-hrt v1|snomed|3198811000001105|Generic Nuvelle tablets|
+|oestrogens-and-hrt v1|snomed|3199011000001109|Nuvelle tablets (Bayer Plc)|
+|oestrogens-and-hrt v1|snomed|3200011000001101|Nuvelle tablets (Bayer Plc)|
+|oestrogens-and-hrt v1|snomed|4521511000001100|FemTab Sequi tablets (Merck Serono Ltd)|
+|oestrogens-and-hrt v1|snomed|4521911000001107|FemTab Sequi tablets (Merck Serono Ltd)|
+|oestrogens-and-hrt v1|snomed|3549711000001109|Generic Nuvelle TS transdermal patches|
+|oestrogens-and-hrt v1|snomed|3210011000001103|Generic Nuvelle TS transdermal patches|
+|oestrogens-and-hrt v1|snomed|3210111000001102|Nuvelle TS patches (Schering Health Care Ltd)|
+|oestrogens-and-hrt v1|snomed|3210311000001100|Nuvelle TS patches (Schering Health Care Ltd)|
+|oestrogens-and-hrt v1|snomed|3542511000001108|Generic Estracombi TTS transdermal patches|
+|oestrogens-and-hrt v1|snomed|3214011000001105|Generic Estracombi TTS transdermal patches|
+|oestrogens-and-hrt v1|snomed|3215111000001105|Generic Estracombi TTS transdermal patches|
+|oestrogens-and-hrt v1|snomed|3215411000001100|Estracombi TTS patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3215711000001106|Estracombi TTS patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3215911000001108|Estracombi TTS patches (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|36065211000001103|Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|3216311000001102|Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|3216411000001109|Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|3216511000001108|Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|3216611000001107|Evorel Conti patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3216711000001103|Evorel Conti patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3216811000001106|Evorel Conti patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3216911000001101|Evorel Conti patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3542611000001107|Generic Evorel Sequi transdermal patches|
+|oestrogens-and-hrt v1|snomed|3217211000001107|Generic Evorel Sequi transdermal patches|
+|oestrogens-and-hrt v1|snomed|3217311000001104|Evorel Sequi patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3217511000001105|Evorel Sequi patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3407111000001100|Estradiol 50micrograms/24hours transdermal patches and Norethisterone acetate 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3219411000001102|Estradiol 50micrograms/24hours transdermal patches and Norethisterone acetate 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3219511000001103|Estradiol 50micrograms/24hours transdermal patches and Norethisterone acetate 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3219611000001104|Estrapak 50 (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3219711000001108|Estrapak 50 (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3219811000001100|Estrapak 50 (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3542911000001101|Generic Femoston 2/20mg tablets|
+|oestrogens-and-hrt v1|snomed|3345911000001107|Generic Femoston 2/20mg tablets|
+|oestrogens-and-hrt v1|snomed|3346111000001103|Femoston 2/20mg tablets (Abbott Healthcare Products Ltd)|
+|oestrogens-and-hrt v1|snomed|3346211000001109|Femoston 2/20mg tablets (Abbott Healthcare Products Ltd)|
+|oestrogens-and-hrt v1|snomed|3542711000001103|Generic Femoston 1/10mg tablets|
+|oestrogens-and-hrt v1|snomed|3347711000001104|Generic Femoston 1/10mg tablets|
+|oestrogens-and-hrt v1|snomed|3347911000001102|Femoston 1/10mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|3348211000001105|Femoston 1/10mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|3542811000001106|Generic Femoston 2/10mg tablets|
+|oestrogens-and-hrt v1|snomed|3349511000001102|Generic Femoston 2/10mg tablets|
+|oestrogens-and-hrt v1|snomed|3349811000001104|Femoston 2/10mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|3350211000001105|Femoston 2/10mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|3404911000001108|Generic Cyclo-Progynova 2mg tablets|
+|oestrogens-and-hrt v1|snomed|3351211000001104|Generic Cyclo-Progynova 2mg tablets|
+|oestrogens-and-hrt v1|snomed|3351311000001107|Cyclo-Progynova 2mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|3351611000001102|Cyclo-Progynova 2mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|3404811000001103|Generic Cyclo-Progynova 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3352811000001107|Generic Cyclo-Progynova 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3353311000001108|Cyclo-Progynova 1mg tablets (Meda Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|3353611000001103|Cyclo-Progynova 1mg tablets (Meda Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|3557411000001105|Generic Tridestra tablets|
+|oestrogens-and-hrt v1|snomed|3355411000001102|Generic Tridestra tablets|
+|oestrogens-and-hrt v1|snomed|3355511000001103|Tridestra tablets (Orion Pharma (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|3355911000001105|Tridestra tablets (Orion Pharma (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|3404511000001101|Generic Climagest 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3357811000001105|Generic Climagest 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3358011000001103|Generic Climagest 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3358411000001107|Climagest 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3358711000001101|Climagest 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3359111000001109|Climagest 1mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3404711000001106|Generic Climagest 2mg tablets|
+|oestrogens-and-hrt v1|snomed|3362911000001107|Generic Climagest 2mg tablets|
+|oestrogens-and-hrt v1|snomed|3363311000001101|Generic Climagest 2mg tablets|
+|oestrogens-and-hrt v1|snomed|3363611000001106|Climagest 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3364111000001101|Climagest 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3364511000001105|Climagest 2mg tablets (Novartis Pharmaceuticals UK Ltd)|
+|oestrogens-and-hrt v1|snomed|3403511000001104|Generic Adgyn Combi tablets|
+|oestrogens-and-hrt v1|snomed|3366311000001105|Generic Adgyn Combi tablets|
+|oestrogens-and-hrt v1|snomed|3366411000001103|Adgyn Combi tablets (Kyowa Kirin Ltd)|
+|oestrogens-and-hrt v1|snomed|3366511000001104|Adgyn Combi tablets (Kyowa Kirin Ltd)|
+|oestrogens-and-hrt v1|snomed|3465311000001107|Generic Elleste Duet 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3367211000001100|Generic Elleste Duet 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3367311000001108|Elleste Duet 1mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|3367411000001101|Elleste Duet 1mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|325577001|Estradiol 0.06% gel (750microgram per actuation)|
+|oestrogens-and-hrt v1|snomed|3413511000001101|Estradiol 0.06% gel (750microgram per actuation)|
+|oestrogens-and-hrt v1|snomed|17613911000001103|Estradiol 0.06% gel (750microgram per actuation)|
+|oestrogens-and-hrt v1|snomed|3414911000001105|Oestrogel Pump-Pack 0.06% gel (Besins Healthcare (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|3416111000001100|Oestrogel Pump-Pack 0.06% gel (Besins Healthcare (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|3464211000001100|Generic Trisequens tablets|
+|oestrogens-and-hrt v1|snomed|3449211000001107|Generic Trisequens tablets|
+|oestrogens-and-hrt v1|snomed|3449411000001106|Trisequens tablets (Novo Nordisk Ltd)|
+|oestrogens-and-hrt v1|snomed|3449611000001109|Trisequens tablets (Novo Nordisk Ltd)|
+|oestrogens-and-hrt v1|snomed|3464311000001108|Generic Trisequens Forte tablets|
+|oestrogens-and-hrt v1|snomed|3453411000001106|Generic Trisequens Forte tablets|
+|oestrogens-and-hrt v1|snomed|3453611000001109|Trisequens Forte tablets (Novo Nordisk Ltd)|
+|oestrogens-and-hrt v1|snomed|3453811000001108|Trisequens Forte tablets (Novo Nordisk Ltd)|
+|oestrogens-and-hrt v1|snomed|3465411000001100|Generic Elleste Duet 2mg tablets|
+|oestrogens-and-hrt v1|snomed|3455411000001105|Generic Elleste Duet 2mg tablets|
+|oestrogens-and-hrt v1|snomed|3455511000001109|Elleste Duet 2mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|3455611000001108|Elleste Duet 2mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|3553111000001108|Generic Premique Cycle tablets|
+|oestrogens-and-hrt v1|snomed|3456611000001103|Generic Premique Cycle tablets|
+|oestrogens-and-hrt v1|snomed|3456711000001107|Premique Cycle 0.625mg/10mg tablets (Pfizer Ltd)|
+|oestrogens-and-hrt v1|snomed|3456811000001104|Premique Cycle 0.625mg/10mg tablets (Pfizer Ltd)|
+|oestrogens-and-hrt v1|snomed|400674006|Conjugated oestrogens 625microgram tablets and Norgestrel 150microgram tablets|
+|oestrogens-and-hrt v1|snomed|3470611000001102|Conjugated oestrogens 625microgram tablets and Norgestrel 150microgram tablets|
+|oestrogens-and-hrt v1|snomed|3470811000001103|Prempak-C 0.625mg/0.15mg tablets (Pfizer Ltd)|
+|oestrogens-and-hrt v1|snomed|3472111000001109|Prempak-C 0.625mg/0.15mg tablets (Pfizer Ltd)|
+|oestrogens-and-hrt v1|snomed|134589003|Estradiol 150micrograms/dose nasal spray|
+|oestrogens-and-hrt v1|snomed|3649211000001109|Estradiol 150micrograms/dose nasal spray|
+|oestrogens-and-hrt v1|snomed|3649411000001108|Aerodiol 150micrograms/dose nasal spray (Servier Laboratories Ltd)|
+|oestrogens-and-hrt v1|snomed|3649511000001107|Aerodiol 150micrograms/dose nasal spray (Servier Laboratories Ltd)|
+|oestrogens-and-hrt v1|snomed|3664211000001102|Estradiol 500microgram gel sachets|
+|oestrogens-and-hrt v1|snomed|3657711000001107|Estradiol 500microgram gel sachets|
+|oestrogens-and-hrt v1|snomed|3657811000001104|Sandrena 500microgram gel sachets (Orion Pharma (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|3658011000001106|Sandrena 500microgram gel sachets (Orion Pharma (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|3664111000001108|Estradiol 1mg gel sachets|
+|oestrogens-and-hrt v1|snomed|3658211000001101|Estradiol 1mg gel sachets|
+|oestrogens-and-hrt v1|snomed|3658311000001109|Estradiol 1mg gel sachets|
+|oestrogens-and-hrt v1|snomed|3658611000001104|Sandrena 1mg gel sachets (Orion Pharma (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|3658811000001100|Sandrena 1mg gel sachets (Orion Pharma (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|3659011000001101|Sandrena 1mg gel sachets (Orion Pharma (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|325541008|Estradiol 50mg implant|
+|oestrogens-and-hrt v1|snomed|3773011000001109|Estradiol 50mg implant|
+|oestrogens-and-hrt v1|snomed|3773511000001101|Estradiol 50mg implant (A A H Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|3773611000001102|Estradiol 50mg implant (A A H Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|3773711000001106|Estradiol 50mg implant (Organon Pharma (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|3774011000001106|Estradiol 50mg implant (Organon Pharma (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|3774411000001102|Estradiol 50mg implant (Alliance Healthcare (Distribution) Ltd)|
+|oestrogens-and-hrt v1|snomed|3774511000001103|Estradiol 50mg implant (Alliance Healthcare (Distribution) Ltd)|
+|oestrogens-and-hrt v1|snomed|27322111000001108|Estradiol 50mg implant (Special Order)|
+|oestrogens-and-hrt v1|snomed|27322211000001102|Estradiol 50mg implant (Special Order)|
+|oestrogens-and-hrt v1|snomed|325542001|Estradiol 100mg implant|
+|oestrogens-and-hrt v1|snomed|3774611000001104|Estradiol 100mg implant|
+|oestrogens-and-hrt v1|snomed|3774711000001108|Estradiol 100mg implant (A A H Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|3774811000001100|Estradiol 100mg implant (A A H Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|3774911000001105|Estradiol 100mg implant (Organon Laboratories Ltd)|
+|oestrogens-and-hrt v1|snomed|3775011000001105|Estradiol 100mg implant (Organon Laboratories Ltd)|
+|oestrogens-and-hrt v1|snomed|3775111000001106|Estradiol 100mg implant (Alliance Healthcare (Distribution) Ltd)|
+|oestrogens-and-hrt v1|snomed|3775211000001100|Estradiol 100mg implant (Alliance Healthcare (Distribution) Ltd)|
+|oestrogens-and-hrt v1|snomed|3788311000001107|Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets|
+|oestrogens-and-hrt v1|snomed|3779811000001101|Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets|
+|oestrogens-and-hrt v1|snomed|14253711000001101|Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets|
+|oestrogens-and-hrt v1|snomed|3779911000001106|Indivina 2mg/5mg tablets (Orion Pharma (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|3780011000001107|Indivina 2mg/5mg tablets (Orion Pharma (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|3788211000001104|Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets|
+|oestrogens-and-hrt v1|snomed|3780111000001108|Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets|
+|oestrogens-and-hrt v1|snomed|14253511000001106|Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets|
+|oestrogens-and-hrt v1|snomed|3780211000001102|Indivina 1mg/2.5mg tablets (Orion Pharma (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|3780311000001105|Indivina 1mg/2.5mg tablets (Orion Pharma (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|3864111000001104|Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets|
+|oestrogens-and-hrt v1|snomed|3853611000001101|Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets|
+|oestrogens-and-hrt v1|snomed|14253611000001105|Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets|
+|oestrogens-and-hrt v1|snomed|3853711000001105|Indivina 1mg/5mg tablets (Orion Pharma (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|3853811000001102|Indivina 1mg/5mg tablets (Orion Pharma (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|325550005|Estriol 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3876311000001100|Estriol 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3876411000001107|Ovestin 1mg tablets (Organon Laboratories Ltd)|
+|oestrogens-and-hrt v1|snomed|3876511000001106|Ovestin 1mg tablets (Organon Laboratories Ltd)|
+|oestrogens-and-hrt v1|snomed|325540009|Estradiol 25mg implant|
+|oestrogens-and-hrt v1|snomed|3878311000001101|Estradiol 25mg implant|
+|oestrogens-and-hrt v1|snomed|3878511000001107|Estradiol 25mg implant (A A H Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|3878611000001106|Estradiol 25mg implant (A A H Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|3878711000001102|Estradiol 25mg implant (Organon Pharma (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|3878811000001105|Estradiol 25mg implant (Organon Pharma (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|3878911000001100|Estradiol 25mg implant (Alliance Healthcare (Distribution) Ltd)|
+|oestrogens-and-hrt v1|snomed|3879011000001109|Estradiol 25mg implant (Alliance Healthcare (Distribution) Ltd)|
+|oestrogens-and-hrt v1|snomed|3948111000001106|Estradiol 50micrograms/24hours transdermal patches and Norethisterone 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3940311000001106|Estradiol 50micrograms/24hours transdermal patches and Norethisterone 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3940511000001100|Evorel Pak (Janssen-Cilag Ltd)|
+|oestrogens-and-hrt v1|snomed|3940611000001101|Evorel Pak (Janssen-Cilag Ltd)|
+|oestrogens-and-hrt v1|snomed|3948011000001105|Estradiol 80micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets|
+|oestrogens-and-hrt v1|snomed|3941911000001100|Estradiol 80micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets|
+|oestrogens-and-hrt v1|snomed|3942111000001108|Femapak 80 (Abbott Healthcare Products Ltd)|
+|oestrogens-and-hrt v1|snomed|3942311000001105|Femapak 80 (Abbott Healthcare Products Ltd)|
+|oestrogens-and-hrt v1|snomed|3947911000001108|Estradiol 40micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets|
+|oestrogens-and-hrt v1|snomed|3943011000001103|Estradiol 40micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets|
+|oestrogens-and-hrt v1|snomed|3943111000001102|Femapak 40 (Abbott Healthcare Products Ltd)|
+|oestrogens-and-hrt v1|snomed|3943211000001108|Femapak 40 (Abbott Healthcare Products Ltd)|
+|oestrogens-and-hrt v1|snomed|325482006|Ethinylestradiol 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3962211000001107|Ethinylestradiol 1mg tablets|
+|oestrogens-and-hrt v1|snomed|3962511000001105|Ethinylestradiol 1mg tablets (A A H Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|3962611000001109|Ethinylestradiol 1mg tablets (A A H Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|3962811000001108|Ethinylestradiol 1mg tablets (UCB Pharma Ltd)|
+|oestrogens-and-hrt v1|snomed|3963011000001106|Ethinylestradiol 1mg tablets (UCB Pharma Ltd)|
+|oestrogens-and-hrt v1|snomed|3963211000001101|Ethinylestradiol 1mg tablets (Alliance Healthcare (Distribution) Ltd)|
+|oestrogens-and-hrt v1|snomed|3963311000001109|Ethinylestradiol 1mg tablets (Alliance Healthcare (Distribution) Ltd)|
+|oestrogens-and-hrt v1|snomed|325481004|Ethinylestradiol 50microgram tablets|
+|oestrogens-and-hrt v1|snomed|4111311000001105|Ethinylestradiol 50microgram tablets|
+|oestrogens-and-hrt v1|snomed|4111411000001103|Ethinylestradiol 50microgram tablets (A A H Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|4111511000001104|Ethinylestradiol 50microgram tablets (A A H Pharmaceuticals Ltd)|
+|oestrogens-and-hrt v1|snomed|4111611000001100|Ethinylestradiol 50microgram tablets (UCB Pharma Ltd)|
+|oestrogens-and-hrt v1|snomed|4111711000001109|Ethinylestradiol 50microgram tablets (UCB Pharma Ltd)|
+|oestrogens-and-hrt v1|snomed|4111811000001101|Ethinylestradiol 50microgram tablets (Alliance Healthcare (Distribution) Ltd)|
+|oestrogens-and-hrt v1|snomed|4111911000001106|Ethinylestradiol 50microgram tablets (Alliance Healthcare (Distribution) Ltd)|
+|oestrogens-and-hrt v1|snomed|4339811000001101|Estradiol 50micrograms/24hours / Levonorgestrel 7micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|4338511000001105|Estradiol 50micrograms/24hours / Levonorgestrel 7micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|4338611000001109|Estradiol 50micrograms/24hours / Levonorgestrel 7micrograms/24hours transdermal patches|
+|oestrogens-and-hrt v1|snomed|4338711000001100|FemSeven Conti patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|4338811000001108|FemSeven Conti patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|4338911000001103|FemSeven Conti patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|4508511000001104|Generic Novofem tablets|
+|oestrogens-and-hrt v1|snomed|4499011000001106|Generic Novofem tablets|
+|oestrogens-and-hrt v1|snomed|4499111000001107|Novofem tablets (Novo Nordisk Ltd)|
+|oestrogens-and-hrt v1|snomed|4499211000001101|Novofem tablets (Novo Nordisk Ltd)|
+|oestrogens-and-hrt v1|snomed|428005004|Conjugated oestrogens 2.5mg tablets|
+|oestrogens-and-hrt v1|snomed|4547811000001107|Conjugated oestrogens 2.5mg tablets|
+|oestrogens-and-hrt v1|snomed|4548011000001100|Premarin 2.5mg tablets (Wyeth Pharmaceuticals)|
+|oestrogens-and-hrt v1|snomed|4548111000001104|Premarin 2.5mg tablets (Wyeth Pharmaceuticals)|
+|oestrogens-and-hrt v1|snomed|4725811000001103|Generic FemSeven Sequi transdermal patches|
+|oestrogens-and-hrt v1|snomed|4711511000001106|Generic FemSeven Sequi transdermal patches|
+|oestrogens-and-hrt v1|snomed|4711711000001101|Generic FemSeven Sequi transdermal patches|
+|oestrogens-and-hrt v1|snomed|4711811000001109|FemSeven Sequi patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|4712011000001106|FemSeven Sequi patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|4712611000001104|FemSeven Sequi patches (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|15621411000001104|Conjugated oestrogens 300microgram / Medroxyprogesterone 1.5mg modified-release tablets|
+|oestrogens-and-hrt v1|snomed|7340211000001102|Conjugated oestrogens 300microgram / Medroxyprogesterone 1.5mg modified-release tablets|
+|oestrogens-and-hrt v1|snomed|7340311000001105|Premique Low Dose 0.3mg/1.5mg modified-release tablets (Pfizer Ltd)|
+|oestrogens-and-hrt v1|snomed|7340411000001103|Premique Low Dose 0.3mg/1.5mg modified-release tablets (Pfizer Ltd)|
+|oestrogens-and-hrt v1|snomed|8794111000001104|Ethinylestradiol 2microgram capsules|
+|oestrogens-and-hrt v1|snomed|8751511000001101|Ethinylestradiol 2microgram capsules|
+|oestrogens-and-hrt v1|snomed|8752311000001103|Ethinylestradiol 2microgram capsules (Special Order)|
+|oestrogens-and-hrt v1|snomed|8752511000001109|Ethinylestradiol 2microgram capsules (Special Order)|
+|oestrogens-and-hrt v1|snomed|8801211000001108|Estradiol 1mg / Drospirenone 2mg tablets|
+|oestrogens-and-hrt v1|snomed|8786911000001108|Estradiol 1mg / Drospirenone 2mg tablets|
+|oestrogens-and-hrt v1|snomed|8787011000001107|Angeliq 1mg/2mg tablets (Bayer Plc)|
+|oestrogens-and-hrt v1|snomed|8787111000001108|Angeliq 1mg/2mg tablets (Bayer Plc)|
+|oestrogens-and-hrt v1|snomed|10280511000001108|Generic Clinorette tablets|
+|oestrogens-and-hrt v1|snomed|10277311000001107|Generic Clinorette tablets|
+|oestrogens-and-hrt v1|snomed|10277411000001100|Clinorette tablets (ReSource Medical UK Ltd)|
+|oestrogens-and-hrt v1|snomed|10277511000001101|Clinorette tablets (ReSource Medical UK Ltd)|
+|oestrogens-and-hrt v1|snomed|409118006|Conjugated oestrogens 300microgram tablets|
+|oestrogens-and-hrt v1|snomed|11476711000001101|Conjugated oestrogens 300microgram tablets|
+|oestrogens-and-hrt v1|snomed|11476811000001109|Premarin 0.3mg tablets (Pfizer Ltd)|
+|oestrogens-and-hrt v1|snomed|11476911000001104|Premarin 0.3mg tablets (Pfizer Ltd)|
+|oestrogens-and-hrt v1|snomed|11738011000001105|Ethinylestradiol 2microgram tablets|
+|oestrogens-and-hrt v1|snomed|11733511000001106|Ethinylestradiol 2microgram tablets|
+|oestrogens-and-hrt v1|snomed|14778511000001107|Ethinylestradiol 2microgram tablets|
+|oestrogens-and-hrt v1|snomed|11733811000001109|Ethinylestradiol 2microgram tablets (UCB Pharma Ltd)|
+|oestrogens-and-hrt v1|snomed|11734011000001101|Ethinylestradiol 2microgram tablets (UCB Pharma Ltd)|
+|oestrogens-and-hrt v1|snomed|14778411000001108|Ethinylestradiol 2microgram tablets (Special Order)|
+|oestrogens-and-hrt v1|snomed|14778611000001106|Ethinylestradiol 2microgram tablets (Special Order)|
+|oestrogens-and-hrt v1|snomed|12298411000001100|Ethinylestradiol 2micrograms/5ml oral suspension|
+|oestrogens-and-hrt v1|snomed|12281411000001106|Ethinylestradiol 2micrograms/5ml oral suspension|
+|oestrogens-and-hrt v1|snomed|12281511000001105|Ethinylestradiol 2micrograms/5ml oral suspension (Special Order)|
+|oestrogens-and-hrt v1|snomed|12281611000001109|Ethinylestradiol 2micrograms/5ml oral suspension (Special Order)|
+|oestrogens-and-hrt v1|snomed|12298511000001101|Ethinylestradiol 4micrograms/5ml oral suspension|
+|oestrogens-and-hrt v1|snomed|12282111000001106|Ethinylestradiol 4micrograms/5ml oral suspension|
+|oestrogens-and-hrt v1|snomed|12282311000001108|Ethinylestradiol 4micrograms/5ml oral suspension (Special Order)|
+|oestrogens-and-hrt v1|snomed|12282611000001103|Ethinylestradiol 4micrograms/5ml oral suspension (Special Order)|
+|oestrogens-and-hrt v1|snomed|21366211000001107|Estradiol 500micrograms / Dydrogesterone 2.5mg tablets|
+|oestrogens-and-hrt v1|snomed|21259211000001101|Estradiol 500micrograms / Dydrogesterone 2.5mg tablets|
+|oestrogens-and-hrt v1|snomed|21259311000001109|Femoston-conti 0.5mg/2.5mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|21259411000001102|Femoston-conti 0.5mg/2.5mg tablets (Viatris UK Healthcare Ltd)|
+|oestrogens-and-hrt v1|snomed|24688011000001102|Generic Climen tablets|
+|oestrogens-and-hrt v1|snomed|24660311000001103|Generic Climen tablets|
+|oestrogens-and-hrt v1|snomed|24660611000001108|Climen tablets (Imported (Germany))|
+|oestrogens-and-hrt v1|snomed|24660711000001104|Climen tablets (Imported (Germany))|
+|oestrogens-and-hrt v1|snomed|28049411000001102|Ethinylestradiol 5microgram capsules|
+|oestrogens-and-hrt v1|snomed|28042911000001100|Ethinylestradiol 5microgram capsules|
+|oestrogens-and-hrt v1|snomed|28043011000001108|Ethinylestradiol 5microgram capsules (Special Order)|
+|oestrogens-and-hrt v1|snomed|28043111000001109|Ethinylestradiol 5microgram capsules (Special Order)|
+|oestrogens-and-hrt v1|snomed|32936711000001100|Conjugated oestrogens 450microgram / Bazedoxifene 20mg modified-release tablets|
+|oestrogens-and-hrt v1|snomed|32927311000001104|Conjugated oestrogens 450microgram / Bazedoxifene 20mg modified-release tablets|
+|oestrogens-and-hrt v1|snomed|32927411000001106|Duavive 0.45mg/20mg modified-release tablets (Pfizer Ltd)|
+|oestrogens-and-hrt v1|snomed|32927511000001105|Duavive 0.45mg/20mg modified-release tablets (Pfizer Ltd)|
+|oestrogens-and-hrt v1|snomed|38344311000001108|Estradiol 1.53mg/dose transdermal spray|
+|oestrogens-and-hrt v1|snomed|38268811000001107|Estradiol 1.53mg/dose transdermal spray|
+|oestrogens-and-hrt v1|snomed|38269511000001103|Estradiol 1.53mg/dose transdermal spray|
+|oestrogens-and-hrt v1|snomed|38268911000001102|Lenzetto 1.53mg/dose transdermal spray (Gedeon Richter (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|38269311000001109|Lenzetto 1.53mg/dose transdermal spray (Gedeon Richter (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|38269811000001100|Lenzetto 1.53mg/dose transdermal spray (Gedeon Richter (UK) Ltd)|
+|oestrogens-and-hrt v1|snomed|39601811000001101|Ethinylestradiol 50microgram gastro-resistant tablets|
+|oestrogens-and-hrt v1|snomed|39576711000001104|Ethinylestradiol 50microgram gastro-resistant tablets|
+|oestrogens-and-hrt v1|snomed|39576811000001107|Ethinylestradiol 50microgram gastro-resistant tablets (Imported (Italy))|
+|oestrogens-and-hrt v1|snomed|39576911000001102|Ethinylestradiol 50microgram gastro-resistant tablets (Imported (Italy))|
+|oestrogens-and-hrt v1|snomed|39964911000001106|Estradiol 1mg / Progesterone 100mg capsules|
+|oestrogens-and-hrt v1|snomed|39943611000001109|Estradiol 1mg / Progesterone 100mg capsules|
+|oestrogens-and-hrt v1|snomed|40115211000001103|Estradiol 1mg / Progesterone 100mg capsules|
+|oestrogens-and-hrt v1|snomed|39943711000001100|Bijuve 1mg/100mg capsules (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|39943811000001108|Bijuve 1mg/100mg capsules (Theramex HQ UK Ltd)|
+|oestrogens-and-hrt v1|snomed|40115311000001106|Bijuve 1mg/100mg capsules (Theramex HQ UK Ltd)|
 |contraceptives-combined-hormonal v1|ctv3|g862.|Brevinor tablet|
 |contraceptives-combined-hormonal v1|ctv3|g891.|Cilest tablet|
 |contraceptives-combined-hormonal v1|ctv3|g8A2.|Ethinylestradiol+drospirenone 30micrograms/3mg tablet|
@@ -23645,6 +24779,277 @@ All code sets required for this analysis are listed here. Individual lists for e
 |contraceptives-progesterone-only v1|snomed|35058711000001107|Levonorgestrel 19.5mg intrauterine device|
 |contraceptives-progesterone-only v1|snomed|35058811000001104|Kyleena 19.5mg intrauterine device (Bayer Plc)|
 |contraceptives-progesterone-only v1|snomed|35058911000001109|Kyleena 19.5mg intrauterine device (Bayer Plc)|
+|covid-vaccination v1|ctv3|Y210d|2019-nCoV (novel coronavirus) vaccination|
+|covid-vaccination v1|ctv3|Y29e7|Administration of first dose of SARS-CoV-2 vaccine|
+|covid-vaccination v1|ctv3|Y29e8|Administration of second dose of SARS-CoV-2 vaccine|
+|covid-vaccination v1|ctv3|Y2a0e|SARS-2 Coronavirus vaccine|
+|covid-vaccination v1|ctv3|Y2a0f|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 1|
+|covid-vaccination v1|ctv3|Y2a3a|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 2|
+|covid-vaccination v1|ctv3|65F06|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination|
+|covid-vaccination v1|ctv3|65F09|Administration of third dose of SARS-CoV-2 vaccine|
+|covid-vaccination v1|ctv3|65F0A|Administration of fourth dose of SARS-CoV-2 vaccine|
+|covid-vaccination v1|ctv3|9bJ..|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)|
+|covid-vaccination v1|ctv3|Y2a10|COVID-19 Vac AstraZeneca (ChAdOx1 S recomb) 5x10000000000 viral particles/0.5ml dose sol for inj MDV part 1|
+|covid-vaccination v1|ctv3|Y2a39|COVID-19 Vac AstraZeneca (ChAdOx1 S recomb) 5x10000000000 viral particles/0.5ml dose sol for inj MDV part 2|
+|covid-vaccination v1|ctv3|Y2b9d|COVID-19 mRNA (nucleoside modified) Vaccine Moderna 0.1mg/0.5mL dose dispersion for injection multidose vials part 2|
+|covid-vaccination v1|ctv3|Y2f45|Administration of third dose of SARS-CoV-2 vaccine|
+|covid-vaccination v1|ctv3|Y2f48|Administration of fourth dose of SARS-CoV-2 vaccine|
+|covid-vaccination v1|ctv3|Y2f57|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) booster|
+|covid-vaccination v1|ctv3|Y31cc|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen vaccination|
+|covid-vaccination v1|ctv3|Y31e6|Administration of SARS-CoV-2 mRNA vaccine|
+|covid-vaccination v1|ctv3|Y31e7|Administration of first dose of SARS-CoV-2 mRNA vaccine|
+|covid-vaccination v1|ctv3|Y31e8|Administration of second dose of SARS-CoV-2 mRNA vaccine|
+|covid-vaccination v1|emis|^ESCT1348323|Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
+|covid-vaccination v1|emis|^ESCT1348324|Administration of first dose of 2019-nCoV (novel coronavirus) vaccine|
+|covid-vaccination v1|emis|COCO138186NEMIS|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)|
+|covid-vaccination v1|emis|^ESCT1348325|Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
+|covid-vaccination v1|emis|^ESCT1348326|Administration of second dose of 2019-nCoV (novel coronavirus) vaccine|
+|covid-vaccination v1|emis|^ESCT1428354|Administration of third dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
+|covid-vaccination v1|emis|^ESCT1428342|Administration of fourth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
+|covid-vaccination v1|emis|^ESCT1428348|Administration of fifth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
+|covid-vaccination v1|emis|^ESCT1348298|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination|
+|covid-vaccination v1|emis|^ESCT1348301|COVID-19 vaccination|
+|covid-vaccination v1|emis|^ESCT1299050|2019-nCoV (novel coronavirus) vaccination|
+|covid-vaccination v1|emis|^ESCT1301222|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination|
+|covid-vaccination v1|emis|CODI138564NEMIS|Covid-19 mRna (nucleoside modified) Vaccine Moderna  Dispersion for injection  0.1 mg/0.5 ml dose, multidose vial|
+|covid-vaccination v1|emis|TASO138184NEMIS|Covid-19 Vaccine AstraZeneca (ChAdOx1 S recombinant)  Solution for injection  5x10 billion viral particle/0.5 ml multidose vial|
+|covid-vaccination v1|emis|PCSDT18491_1375|Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
+|covid-vaccination v1|emis|PCSDT18491_1376|Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
+|covid-vaccination v1|emis|PCSDT18491_716|Administration of second dose of SARS-CoV-2 vacc|
+|covid-vaccination v1|emis|PCSDT18491_903|Administration of first dose of SARS-CoV-2 vacccine|
+|covid-vaccination v1|emis|PCSDT3370_2254|2019-nCoV (novel coronavirus) vaccination|
+|covid-vaccination v1|emis|PCSDT3919_2185|Administration of first dose of SARS-CoV-2 vacccine|
+|covid-vaccination v1|emis|PCSDT3919_662|Administration of second dose of SARS-CoV-2 vacc|
+|covid-vaccination v1|emis|PCSDT4803_1723|2019-nCoV (novel coronavirus) vaccination|
+|covid-vaccination v1|emis|PCSDT5823_2264|Administration of second dose of SARS-CoV-2 vacc|
+|covid-vaccination v1|emis|PCSDT5823_2757|Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
+|covid-vaccination v1|emis|PCSDT5823_2902|Administration of first dose of SARS-CoV-2 vacccine|
+|covid-vaccination v1|emis|^ESCT1348300|Severe acute respiratory syndrome coronavirus 2 vaccination|
+|covid-vaccination v1|emis|ASSO138368NEMIS|COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose suspension for injection multidose vials (Janssen-Cilag Ltd)|
+|covid-vaccination v1|emis|COCO141057NEMIS|Comirnaty Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.2ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd)|
+|covid-vaccination v1|emis|COSO141059NEMIS|COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Serum Institute of India)|
+|covid-vaccination v1|emis|COSU138776NEMIS|COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5ml dose suspension for injection multidose vials (Valneva UK Ltd)|
+|covid-vaccination v1|emis|COSU138943NEMIS|COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Baxter Oncology GmbH)|
+|covid-vaccination v1|emis|COSU141008NEMIS|CoronaVac COVID-19 Vaccine (adjuvanted) 600U/0.5ml dose suspension for injection vials (Sinovac Life Sciences)|
+|covid-vaccination v1|emis|COSU141037NEMIS|COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection vials (Beijing Institute of Biological Products)|
+|covid-vaccination v1|readv2|65F0.|2019-nCoV (novel coronavirus) vaccination|
+|covid-vaccination v1|readv2|65F0100|Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
+|covid-vaccination v1|readv2|65F0200|2019-nCoV (novel coronavirus) vaccination|
+|covid-vaccination v1|readv2|65F0600|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination|
+|covid-vaccination v1|readv2|65F0700|Immunisation course to achieve immunity against SARS-CoV-2|
+|covid-vaccination v1|readv2|65F0800|Immunisation course to maintain protection against SARS-CoV-2|
+|covid-vaccination v1|readv2|65F0900|Administration of third dose of SARS-CoV-2 vaccine|
+|covid-vaccination v1|readv2|65F0A00|Administration of fourth dose of SARS-CoV-2 vaccine|
+|covid-vaccination v1|readv2|9bJ..|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)|
+|covid-vaccination v1|snomed|1240491000000103|2019-nCoV (novel coronavirus) vaccination|
+|covid-vaccination v1|snomed|2807821000000115|2019-nCoV (novel coronavirus) vaccination|
+|covid-vaccination v1|snomed|840534001|Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)|
+|bmi v2|ctv3|22K..|Body Mass Index|
+|bmi v2|readv2|22K..00|Body Mass Index|
+|bmi v2|snomed|301331008|Finding of body mass index (finding)|
+|smoking-status-current v1|ctv3|1373.|Lt cigaret smok, 1-9 cigs/day|
+|smoking-status-current v1|ctv3|1374.|Mod cigaret smok, 10-19 cigs/d|
+|smoking-status-current v1|ctv3|1375.|Hvy cigaret smok, 20-39 cigs/d|
+|smoking-status-current v1|ctv3|1376.|Very hvy cigs smoker,40+cigs/d|
+|smoking-status-current v1|ctv3|137C.|Keeps trying to stop smoking|
+|smoking-status-current v1|ctv3|137D.|Admitted tobacco cons untrue ?|
+|smoking-status-current v1|ctv3|137G.|Trying to give up smoking|
+|smoking-status-current v1|ctv3|137H.|Pipe smoker|
+|smoking-status-current v1|ctv3|137J.|Cigar smoker|
+|smoking-status-current v1|ctv3|137M.|Rolls own cigarettes|
+|smoking-status-current v1|ctv3|137P.|Cigarette smoker|
+|smoking-status-current v1|ctv3|137Q.|Smoking started|
+|smoking-status-current v1|ctv3|137R.|Current smoker|
+|smoking-status-current v1|ctv3|137Z.|Tobacco consumption NOS|
+|smoking-status-current v1|ctv3|Ub1tI|Cigarette consumption|
+|smoking-status-current v1|ctv3|Ub1tJ|Cigar consumption|
+|smoking-status-current v1|ctv3|Ub1tK|Pipe tobacco consumption|
+|smoking-status-current v1|ctv3|XaBSp|Smoking restarted|
+|smoking-status-current v1|ctv3|XaIIu|Smoking reduced|
+|smoking-status-current v1|ctv3|XaIkW|Thinking about stop smoking|
+|smoking-status-current v1|ctv3|XaIkX|Ready to stop smoking|
+|smoking-status-current v1|ctv3|XaIkY|Not interested stop smoking|
+|smoking-status-current v1|ctv3|XaItg|Reason for restarting smoking|
+|smoking-status-current v1|ctv3|XaIuQ|Cigarette pack-years|
+|smoking-status-current v1|ctv3|XaJX2|Min from wake to 1st tobac con|
+|smoking-status-current v1|ctv3|XaWNE|Failed attempt to stop smoking|
+|smoking-status-current v1|ctv3|XaZIE|Waterpipe tobacco consumption|
+|smoking-status-current v1|ctv3|XE0og|Tobacco smoking consumption|
+|smoking-status-current v1|ctv3|XE0oq|Cigarette smoker|
+|smoking-status-current v1|ctv3|XE0or|Smoking started|
+|smoking-status-current v1|readv2|137P.00|Cigarette smoker|
+|smoking-status-current v1|readv2|137P.11|Smoker|
+|smoking-status-current v1|readv2|13p3.00|Smoking status at 52 weeks|
+|smoking-status-current v1|readv2|1374.00|Moderate smoker - 10-19 cigs/d|
+|smoking-status-current v1|readv2|137G.00|Trying to give up smoking|
+|smoking-status-current v1|readv2|137R.00|Current smoker|
+|smoking-status-current v1|readv2|1376.00|Very heavy smoker - 40+cigs/d|
+|smoking-status-current v1|readv2|1375.00|Heavy smoker - 20-39 cigs/day|
+|smoking-status-current v1|readv2|1373.00|Light smoker - 1-9 cigs/day|
+|smoking-status-current v1|readv2|137M.00|Rolls own cigarettes|
+|smoking-status-current v1|readv2|137o.00|Waterpipe tobacco consumption|
+|smoking-status-current v1|readv2|137m.00|Failed attempt to stop smoking|
+|smoking-status-current v1|readv2|137h.00|Minutes from waking to first tobacco consumption|
+|smoking-status-current v1|readv2|137g.00|Cigarette pack-years|
+|smoking-status-current v1|readv2|137f.00|Reason for restarting smoking|
+|smoking-status-current v1|readv2|137e.00|Smoking restarted|
+|smoking-status-current v1|readv2|137d.00|Not interested in stopping smoking|
+|smoking-status-current v1|readv2|137c.00|Thinking about stopping smoking|
+|smoking-status-current v1|readv2|137b.00|Ready to stop smoking|
+|smoking-status-current v1|readv2|137C.00|Keeps trying to stop smoking|
+|smoking-status-current v1|readv2|137J.00|Cigar smoker|
+|smoking-status-current v1|readv2|137H.00|Pipe smoker|
+|smoking-status-current v1|readv2|137a.00|Pipe tobacco consumption|
+|smoking-status-current v1|readv2|137Z.00|Tobacco consumption NOS|
+|smoking-status-current v1|readv2|137Y.00|Cigar consumption|
+|smoking-status-current v1|readv2|137X.00|Cigarette consumption|
+|smoking-status-current v1|readv2|137V.00|Smoking reduced|
+|smoking-status-current v1|readv2|137Q.00|Smoking started|
+|smoking-status-current v1|readv2|137Q.11|Smoking restarted|
+|smoking-status-current v1|snomed|266929003|Smoking started (life style)|
+|smoking-status-current v1|snomed|836001000000109|Waterpipe tobacco consumption (observable entity)|
+|smoking-status-current v1|snomed|77176002|Smoker (life style)|
+|smoking-status-current v1|snomed|65568007|Cigarette smoker (life style)|
+|smoking-status-current v1|snomed|394873005|Not interested in stopping smoking (finding)|
+|smoking-status-current v1|snomed|394872000|Ready to stop smoking (finding)|
+|smoking-status-current v1|snomed|394871007|Thinking about stopping smoking (observable entity)|
+|smoking-status-current v1|snomed|266918002|Tobacco smoking consumption (observable entity)|
+|smoking-status-current v1|snomed|230057008|Cigar consumption (observable entity)|
+|smoking-status-current v1|snomed|230056004|Cigarette consumption (observable entity)|
+|smoking-status-current v1|snomed|160623006|Smoking: [started] or [restarted]|
+|smoking-status-current v1|snomed|160622001|Smoker (& cigarette)|
+|smoking-status-current v1|snomed|160619003|Rolls own cigarettes (finding)|
+|smoking-status-current v1|snomed|160616005|Trying to give up smoking (finding)|
+|smoking-status-current v1|snomed|160612007|Keeps trying to stop smoking (finding)|
+|smoking-status-current v1|snomed|160606002|Very heavy cigarette smoker (40+ cigs/day) (life style)|
+|smoking-status-current v1|snomed|160605003|Heavy cigarette smoker (20-39 cigs/day) (life style)|
+|smoking-status-current v1|snomed|160604004|Moderate cigarette smoker (10-19 cigs/day) (life style)|
+|smoking-status-current v1|snomed|160603005|Light cigarette smoker (1-9 cigs/day) (life style)|
+|smoking-status-current v1|snomed|59978006|Cigar smoker (life style)|
+|smoking-status-current v1|snomed|446172000|Failed attempt to stop smoking (finding)|
+|smoking-status-current v1|snomed|413173009|Minutes from waking to first tobacco consumption (observable entity)|
+|smoking-status-current v1|snomed|401201003|Cigarette pack-years (observable entity)|
+|smoking-status-current v1|snomed|401159003|Reason for restarting smoking (observable entity)|
+|smoking-status-current v1|snomed|308438006|Smoking restarted (life style)|
+|smoking-status-current v1|snomed|230058003|Pipe tobacco consumption (observable entity)|
+|smoking-status-current v1|snomed|134406006|Smoking reduced (observable entity)|
+|smoking-status-current v1|snomed|82302008|Pipe smoker (life style)|
+|smoking-status-currently-not v1|ctv3|Ub0oq|Non-smoker|
+|smoking-status-currently-not v1|ctv3|137L.|Current non-smoker|
+|smoking-status-currently-not v1|readv2|137L.00|Current non-smoker|
+|smoking-status-currently-not v1|snomed|160618006|Current non-smoker (life style)|
+|smoking-status-currently-not v1|snomed|8392000|Non-smoker (life style)|
+|smoking-status-ex v1|ctv3|1378.|Ex-light smoker (1-9/day)|
+|smoking-status-ex v1|ctv3|1379.|Ex-moderate smoker (10-19/day)|
+|smoking-status-ex v1|ctv3|137A.|Ex-heavy smoker (20-39/day)|
+|smoking-status-ex v1|ctv3|137B.|Ex-very heavy smoker (40+/day)|
+|smoking-status-ex v1|ctv3|137F.|Ex-smoker - amount unknown|
+|smoking-status-ex v1|ctv3|137K.|Stopped smoking|
+|smoking-status-ex v1|ctv3|137N.|Ex-pipe smoker|
+|smoking-status-ex v1|ctv3|137O.|Ex-cigar smoker|
+|smoking-status-ex v1|ctv3|137T.|Date ceased smoking|
+|smoking-status-ex v1|ctv3|Ub1na|Ex-smoker|
+|smoking-status-ex v1|ctv3|Xa1bv|Ex-cigarette smoker|
+|smoking-status-ex v1|ctv3|XaIr7|Smoking free weeks|
+|smoking-status-ex v1|ctv3|XaKlS|[V]PH of tobacco abuse|
+|smoking-status-ex v1|ctv3|XaQ8V|Ex roll-up cigarette smoker|
+|smoking-status-ex v1|ctv3|XaQzw|Recently stopped smoking|
+|smoking-status-ex v1|ctv3|XE0ok|Ex-light cigaret smok, 1-9/day|
+|smoking-status-ex v1|ctv3|XE0ol|Ex-mod cigaret smok, 10-19/day|
+|smoking-status-ex v1|ctv3|XE0om|Ex-heav cigaret smok,20-39/day|
+|smoking-status-ex v1|ctv3|XE0on|Ex-very hv cigaret smk,40+/day|
+|smoking-status-ex v1|readv2|137l.00|Ex roll-up cigarette smoker|
+|smoking-status-ex v1|readv2|137j.00|Ex-cigarette smoker|
+|smoking-status-ex v1|readv2|137S.00|Ex smoker|
+|smoking-status-ex v1|readv2|137O.00|Ex cigar smoker|
+|smoking-status-ex v1|readv2|137N.00|Ex pipe smoker|
+|smoking-status-ex v1|readv2|137F.00|Ex-smoker - amount unknown|
+|smoking-status-ex v1|readv2|137B.00|Ex-very heavy smoker (40+/day)|
+|smoking-status-ex v1|readv2|137A.00|Ex-heavy smoker (20-39/day)|
+|smoking-status-ex v1|readv2|1379.00|Ex-moderate smoker (10-19/day)|
+|smoking-status-ex v1|readv2|1378.00|Ex-light smoker (1-9/day)|
+|smoking-status-ex v1|readv2|137K.00|Stopped smoking|
+|smoking-status-ex v1|readv2|137K000|Recently stopped smoking|
+|smoking-status-ex v1|readv2|137T.00|Date ceased smoking|
+|smoking-status-ex v1|readv2|13p4.00|Smoking free weeks|
+|smoking-status-ex v1|snomed|160617001|Stopped smoking (life style)|
+|smoking-status-ex v1|snomed|160620009|Ex-pipe smoker (life style)|
+|smoking-status-ex v1|snomed|160621008|Ex-cigar smoker (life style)|
+|smoking-status-ex v1|snomed|160625004|Date ceased smoking (observable entity)|
+|smoking-status-ex v1|snomed|266922007|Ex-light cigarette smoker (1-9/day) (life style)|
+|smoking-status-ex v1|snomed|266923002|Ex-moderate cigarette smoker (10-19/day) (life style)|
+|smoking-status-ex v1|snomed|266924008|Ex-heavy cigarette smoker (20-39/day) (life style)|
+|smoking-status-ex v1|snomed|266925009|Ex-very heavy cigarette smoker (40+/day) (life style)|
+|smoking-status-ex v1|snomed|281018007|Ex-cigarette smoker (life style)|
+|smoking-status-ex v1|snomed|395177003|Smoking free weeks (observable entity)|
+|smoking-status-ex v1|snomed|492191000000103|Ex roll-up cigarette smoker (finding)|
+|smoking-status-ex v1|snomed|517211000000106|Recently stopped smoking (finding)|
+|smoking-status-ex v1|snomed|8517006|Ex-smoker (life style)|
+|smoking-status-ex-trivial v1|ctv3|XE0oj|Ex-triv cigaret smoker, <1/day|
+|smoking-status-ex-trivial v1|ctv3|1377.|Ex-trivial smoker (<1/day)|
+|smoking-status-ex-trivial v1|readv2|1377.00|Ex-trivial smoker (<1/day)|
+|smoking-status-ex-trivial v1|snomed|266921000|Ex-trivial cigarette smoker (<1/day) (life style)|
+|smoking-status-never v1|ctv3|XE0oh|Never smoked tobacco|
+|smoking-status-never v1|ctv3|1371.|Never smoked tobacco|
+|smoking-status-never v1|readv2|1371.00|Never smoked tobacco|
+|smoking-status-never v1|snomed|160601007|Non-smoker (& [never smoked tobacco])|
+|smoking-status-never v1|snomed|266919005|Never smoked tobacco (life style)|
+|smoking-status-passive v1|ctv3|137I.|Passive smoker|
+|smoking-status-passive v1|ctv3|Ub0pe|Exposed to tobacco smoke at work|
+|smoking-status-passive v1|ctv3|Ub0pf|Exposed to tobacco smoke at home|
+|smoking-status-passive v1|ctv3|Ub0pg|Exposed to tobacco smoke in public places|
+|smoking-status-passive v1|ctv3|13WF4|Passive smoking risk|
+|smoking-status-passive v1|readv2|137I.00|Passive smoker|
+|smoking-status-passive v1|readv2|137I000|Exposed to tobacco smoke at home|
+|smoking-status-passive v1|readv2|13WF400|Passive smoking risk|
+|smoking-status-passive v1|snomed|43381005|Passive smoker (finding)|
+|smoking-status-passive v1|snomed|161080002|Passive smoking risk (environment)|
+|smoking-status-passive v1|snomed|228523000|Exposed to tobacco smoke at work (finding)|
+|smoking-status-passive v1|snomed|228524006|Exposed to tobacco smoke at home (finding)|
+|smoking-status-passive v1|snomed|228525007|Exposed to tobacco smoke in public places (finding)|
+|smoking-status-passive v1|snomed|713142003|At risk from passive smoking (finding)|
+|smoking-status-passive v1|snomed|722451000000101|Passive smoking (qualifier value)|
+|smoking-status-trivial v1|ctv3|XagO3|Occasional tobacco smoker|
+|smoking-status-trivial v1|ctv3|XE0oi|Triv cigaret smok, < 1 cig/day|
+|smoking-status-trivial v1|ctv3|1372.|Trivial smoker - < 1 cig/day|
+|smoking-status-trivial v1|readv2|1372.00|Trivial smoker - < 1 cig/day|
+|smoking-status-trivial v1|readv2|1372.11|Occasional smoker|
+|smoking-status-trivial v1|snomed|266920004|Trivial cigarette smoker (less than one cigarette/day) (life style)|
+|smoking-status-trivial v1|snomed|428041000124106|Occasional tobacco smoker (finding)|
+|alcohol-non-drinker v1|ctv3|1361.|Teetotaller|
+|alcohol-non-drinker v1|ctv3|136M.|Current non-drinker|
+|alcohol-non-drinker v1|readv2|1361.11|Non drinker alcohol|
+|alcohol-non-drinker v1|readv2|1361.12|Non-drinker alcohol|
+|alcohol-non-drinker v1|readv2|136M.00|Current non drinker|
+|alcohol-non-drinker v1|readv2|1361.00|Teetotaller|
+|alcohol-light-drinker v1|ctv3|1362.00|Trivial drinker - <1u/day|
+|alcohol-light-drinker v1|readv2|1362.12|Drinks occasionally|
+|alcohol-light-drinker v1|readv2|1362.00|Trivial drinker - <1u/day|
+|alcohol-light-drinker v1|readv2|136N.00|Light drinker|
+|alcohol-light-drinker v1|readv2|136d.00|Lower risk drinking|
+|alcohol-light-drinker v1|readv2|1362.11|Drinks rarely|
+|alcohol-moderate-drinker v1|readv2|136O.00|Moderate drinker|
+|alcohol-moderate-drinker v1|readv2|136F.00|Spirit drinker|
+|alcohol-moderate-drinker v1|readv2|136G.00|Beer drinker|
+|alcohol-moderate-drinker v1|readv2|136H.00|Drinks beer and spirits|
+|alcohol-moderate-drinker v1|readv2|136I.00|Drinks wine|
+|alcohol-moderate-drinker v1|readv2|136J.00|Social drinker|
+|alcohol-moderate-drinker v1|readv2|136L.00|Alcohol intake within recommended sensible limits|
+|alcohol-moderate-drinker v1|readv2|136Z.00|Alcohol consumption NOS|
+|alcohol-moderate-drinker v1|readv2|136a.00|Increasing risk drinking|
+|alcohol-heavy-drinker v1|readv2|136b.00|Feels should cut down drinking|
+|alcohol-heavy-drinker v1|readv2|136c.00|Higher risk drinking|
+|alcohol-heavy-drinker v1|readv2|136K.00|Alcohol intake above recommended sensible limits|
+|alcohol-heavy-drinker v1|readv2|136P.00|Heavy drinker|
+|alcohol-heavy-drinker v1|readv2|136Q.00|Very heavy drinker|
+|alcohol-heavy-drinker v1|readv2|136R.00|Binge drinker|
+|alcohol-heavy-drinker v1|readv2|136S.00|Hazardous alcohol use|
+|alcohol-heavy-drinker v1|readv2|136T.00|Harmful alcohol use|
+|alcohol-heavy-drinker v1|readv2|136W.00|Alcohol misuse|
+|alcohol-heavy-drinker v1|readv2|136Y.00|Drinks in morning to get rid of hangover|
+|alcohol-heavy-drinker v1|readv2|E23..12|Alcohol problem drinking|
+|alcohol-weekly-intake v1|readv2|136V.00|Alcohol units per week|
+|alcohol-weekly-intake v1|readv2|136..00|Alcohol consumption|
 |hba1c v2|ctv3|XaERp|HbA1c level (DCCT aligned)|
 |hba1c v2|ctv3|XaPbt|HbA1c levl - IFCC standardised|
 |hba1c v2|ctv3|42W5.|Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised|
@@ -23653,16 +25058,6 @@ All code sets required for this analysis are listed here. Individual lists for e
 |hba1c v2|readv2|42W4.00|HbA1c level (DCCT aligned)|
 |hba1c v2|snomed|1019431000000105|HbA1c level (Diabetes Control and Complications Trial aligned)|
 |hba1c v2|snomed|999791000000106|Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised|
-|sodium v1|ctv3|XE2q0|Serum sodium level|
-|sodium v1|ctv3|XaDva|Blood sodium level|
-|sodium v1|ctv3|XaIRf|Plasma sodium level|
-|sodium v1|ctv3|44I5.|Serum sodium (& level)|
-|sodium v1|ctv3|X771T|Sodium level|
-|sodium v1|readv2|44h1.|Blood sodium level|
-|sodium v1|readv2|44h6.|Plasma sodium level|
-|sodium v1|readv2|44I5.|Serum sodium|
-|sodium v1|readv2|4Q43.|Sodium level|
-|sodium v1|snomed|1020681000000107|Sodium level (observable entity)|
 |creatinine v1|ctv3|XE2q5|Serum creatinine|
 |creatinine v1|ctv3|XE2q5|Serum creatinine level|
 |creatinine v1|ctv3|XaERc|Corrected serum creatinine level|
@@ -23681,17 +25076,6 @@ All code sets required for this analysis are listed here. Individual lists for e
 |triglycerides v1|readv2|44Q4.00|Serum fasting triglyceride level|
 |triglycerides v1|readv2|44Q5.00|Serum random triglyceride level|
 |triglycerides v1|readv2|44QZ.00|Serum triglycerides NOS|
-|potassium v1|ctv3|44I4.|Serum potassium (& level)|
-|potassium v1|ctv3|XaDvZ|Blood potassium level|
-|potassium v1|ctv3|XaIRl|Plasma potassium level|
-|potassium v1|ctv3|XE2pz|Serum potassium level|
-|potassium v1|readv2|44I4.|Serum potassium (& level)|
-|potassium v1|readv2|XaDvZ|Blood potassium level|
-|potassium v1|readv2|XaIRl|Plasma potassium level|
-|potassium v1|readv2|XE2pz|Serum potassium level|
-|potassium v1|snomed|1012671000000103|Blood potassium level (observable entity) |
-|potassium v1|snomed|1000651000000109|Serum potassium level (observable entity) |
-|potassium v1|snomed|1017401000000106|Plasma potassium level (observable entity) |
 |urea v1|ctv3|XM0lt|Serum urea level|
 |urea v1|ctv3|X771P|Blood urea|
 |urea v1|ctv3|X771P|Urea - blood|
@@ -23705,6 +25089,72 @@ All code sets required for this analysis are listed here. Individual lists for e
 |urea v1|readv2|44J..13|Serum urea level|
 |urea v1|readv2|44JZ.00|Blood urea/renal function NOS|
 |urea v1|readv2|44J8.11|Urea - blood|
+|vitamin-d v1|ctv3|44LA.|Serum vitamin D|
+|vitamin-d v1|ctv3|Xabo0|Serum total 25-OH vit D level|
+|vitamin-d v1|ctv3|XaY6m|Total 25-hydroxyvitamin D levl|
+|vitamin-d v1|ctv3|XE2e7|Serum vitamin D level|
+|vitamin-d v1|ctv3|XaXhN|Vitamin D level|
+|vitamin-d v1|ctv3|XaXhT|Combined total vit D2 + D3 lvl|
+|vitamin-d v1|ctv3|XaXm0|25-Hydroxyvitamin D level|
+|vitamin-d v1|readv2|4QB4.00|Vitamin D level|
+|vitamin-d v1|readv2|44LA.00|Serum vitamin D|
+|vitamin-d v1|readv2|4QB4.00|Vitamin D level|
+|vitamin-d v1|readv2|4QB4400|Combined total vitamin D2 and D3 level|
+|vitamin-d v1|readv2|4QB4500|25-Hydroxyvitamin D level|
+|vitamin-d v1|readv2|4QB4600|Total 25-hydroxyvitamin D level|
+|vitamin-d v1|readv2|4QB4700|Serum total 25-hydroxy vitamin D level|
+|vitamin-d v1|snomed|1007991000000105|Serum total 25-hydroxy vitamin D level (observable entity)|
+|vitamin-d v1|snomed|1029801000000105|Total 25-hydroxyvitamin D level (observable entity)|
+|vitamin-d v1|snomed|1031181000000107|Serum vitamin D level (observable entity)|
+|vitamin-d v1|snomed|12199005|Vitamin D, 25-hydroxy measurement (procedure)|
+|vitamin-d v1|snomed|270990000|Serum vitamin D measurement (procedure)|
+|vitamin-d v1|snomed|83729008|Vitamin D measurement (procedure)|
+|vitamin-d v1|snomed|996641000000102|Combined total vitamin D2 and D3 level (observable entity)|
+|calcium v1|ctv3|44I8.|Serum calcium|
+|calcium v1|ctv3|44IC.|Adjusted serum calcium level|
+|calcium v1|ctv3|XaDvd|Blood calcium level|
+|calcium v1|ctv3|XaIdR|Serum ionized calcium (pH 7.4) level|
+|calcium v1|ctv3|XaIRk|Plasma calcium level|
+|calcium v1|ctv3|XaIRn|Plasma corrected calcium level|
+|calcium v1|ctv3|XaIU0|Serum ionised calcium level|
+|calcium v1|ctv3|XaX4E|Blood ionised calcium level|
+|calcium v1|ctv3|XaZyY|Calcium adjusted level|
+|calcium v1|ctv3|XE2q3|Serum calcium level|
+|calcium v1|readv2|44h4.|Blood calcium level|
+|calcium v1|readv2|44h7.|Plasma calcium level|
+|calcium v1|readv2|44h9.|Plasma corrected calcium level|
+|calcium v1|readv2|44hD.|Blood ionised calcium level|
+|calcium v1|readv2|44I8.|Serum calcium|
+|calcium v1|readv2|44IC.|Adjusted serum calcium level|
+|calcium v1|readv2|44ID.|Serum ionised calcium level|
+|calcium v1|readv2|44IE.|Serum ionized calcium (pH 7.4) level|
+|calcium v1|readv2|4Q721|Calcium adjusted level|
+|qrisk-score v1|ctv3|XaPBq|QRISK cardiovascular disease 10 year risk score|
+|qrisk-score v1|ctv3|XaQVY|QRISK2 cardiovascular disease 10 year risk score|
+|qrisk-score v1|ctv3|XagSa|QRISK3 cardiovascular disease 10 year risk calculator score|
+|qrisk-score v1|emis|EMISNQQR1|QRISK cardiovascular disease (CVD) 10 year risk score|
+|qrisk-score v1|emis|^ESCTQR846384|QRISK3 cardiovascular disease 10 year risk calculator score|
+|qrisk-score v1|snomed|353641000000105|QRISK cardiovascular disease 10 year risk score|
+|qrisk-score v1|snomed|718087004|QRISK2 cardiovascular disease 10 year risk score|
+|qrisk-score v1|snomed|1085871000000105|QRISK3 cardiovascular disease 10 year risk calculator score|
+|bicarbonate v1|ctv3|XaDvc|Blood bicarbonate level|
+|bicarbonate v1|ctv3|44I7.|Serum bicarbonate (& level)|
+|bicarbonate v1|ctv3|XE2q2|Serum bicarbonate level|
+|bicarbonate v1|ctv3|X770W|Bicarbonate level|
+|bicarbonate v1|ctv3|XaJp7|Actual bicarbonate level|
+|bicarbonate v1|ctv3|XaJp8|Standard bicarbonate level|
+|bicarbonate v1|ctv3|XaItM|Plasma bicarbonate level|
+|bicarbonate v1|readv2|44h3.|Blood bicarbonate level|
+|bicarbonate v1|readv2|44hB.|Actual bicarbonate level|
+|bicarbonate v1|readv2|44hC.|Standard bicarbonate level|
+|bicarbonate v1|readv2|44i0.|Plasma bicarbonate level|
+|bicarbonate v1|snomed|1012701000000104|Blood bicarbonate level|
+|bicarbonate v1|snomed|271239003|Serum bicarbonate (& level)|
+|bicarbonate v1|snomed|1000681000000103|Serum bicarbonate level|
+|bicarbonate v1|snomed|1032311000000109|Bicarbonate level|
+|bicarbonate v1|snomed|1018001000000103|Actual bicarbonate level|
+|bicarbonate v1|snomed|1018011000000101|Standard bicarbonate level|
+|bicarbonate v1|snomed|992991000000103|Plasma bicarbonate level|
 |ferritin v1|ctv3|XaItW|Plasma ferritin level|
 |ferritin v1|ctv3|42R41|Ferritin level low|
 |ferritin v1|ctv3|42R42|Serum ferritin normal|
@@ -24078,12 +25528,6 @@ All code sets required for this analysis are listed here. Individual lists for e
 |hdl-cholesterol v1|snomed|1005681000000107|Serum high density lipoprotein cholesterol level (observable entity)|
 |hdl-cholesterol v1|snomed|1010581000000101|Plasma high density lipoprotein cholesterol level (observable entity)|
 |hdl-cholesterol v1|snomed|1026461000000104|Serum random high density lipoprotein cholesterol level (observable entity)|
-|cholesterol-hdl-ratio v1|ctv3|44PF.|Total cholesterol:HDL ratio|
-|cholesterol-hdl-ratio v1|emis|EMISTCH|TC/HDL ratio|
-|cholesterol-hdl-ratio v1|readv2|44l2.00|Cholesterol/HDL|
-|cholesterol-hdl-ratio v1|readv2|44lF.00|Serum cholesterol/HDL|
-|cholesterol-hdl-ratio v1|readv2|44PF.00|Total cholesterol:HDL ratio|
-|cholesterol-hdl-ratio v1|snomed|313989009|Serum cholesterol/HDL ratio|
 |urine-blood v1|ctv3|4692.|Urine blood test = negative|
 |urine-blood v1|ctv3|4693.|Urine: trace non-haemol. blood|
 |urine-blood v1|ctv3|4694.|Urine: trace haemolysed blood|
@@ -24144,340 +25588,3 @@ All code sets required for this analysis are listed here. Individual lists for e
 |urine-glucose v1|readv2|4666.|Urine glucose test = +++|
 |urine-glucose v1|readv2|4667.|Urine glucose test = ++++|
 |urine-glucose v1|readv2|4668.|Glycosuria|
-|bmi v2|ctv3|22K..|Body Mass Index|
-|bmi v2|readv2|22K..00|Body Mass Index|
-|bmi v2|snomed|301331008|Finding of body mass index (finding)|
-|height v1|ctv3|229..|O/E - height|
-|height v1|ctv3|229Z.|O/E - height NOS|
-|height v1|readv2|229..00|O/E - height|
-|height v1|readv2|229Z.00|O/E - height NOS|
-|height v1|snomed|14456009|Measuring height of patient|
-|height v1|snomed|50373000|Body height measure|
-|height v1|snomed|139977008|O/E - height|
-|height v1|snomed|162755006|On examination - height|
-|height v1|snomed|248327008|General finding of height|
-|height v1|snomed|248333004|Standing height|
-|weight v1|ctv3|22A..|O/E - weight|
-|weight v1|ctv3|22AZ.|O/E - weight NOS|
-|weight v1|readv2|22A..00|O/E - weight|
-|weight v1|readv2|22AZ.00|O/E - weight NOS|
-|weight v1|snomed|27113001|Body weight|
-|weight v1|snomed|139985004|O/E - weight|
-|weight v1|snomed|162763007|On examination - weight|
-|weight v1|snomed|248341004|General weight finding|
-|weight v1|snomed|248345008|Body weight|
-|weight v1|snomed|271604008|Weight finding|
-|weight v1|snomed|301333006|Finding of measures of body weight|
-|weight v1|snomed|363808001|Measured body weight|
-|weight v1|snomed|424927000|Body weight with shoes|
-|weight v1|snomed|425024002|Body weight without shoes|
-|weight v1|snomed|735395000|Current body weight|
-|weight v1|snomed|784399000|Self reported body weight|
-|vitamin-d v1|ctv3|44LA.|Serum vitamin D|
-|vitamin-d v1|ctv3|Xabo0|Serum total 25-OH vit D level|
-|vitamin-d v1|ctv3|XaY6m|Total 25-hydroxyvitamin D levl|
-|vitamin-d v1|ctv3|XE2e7|Serum vitamin D level|
-|vitamin-d v1|ctv3|XaXhN|Vitamin D level|
-|vitamin-d v1|ctv3|XaXhT|Combined total vit D2 + D3 lvl|
-|vitamin-d v1|ctv3|XaXm0|25-Hydroxyvitamin D level|
-|vitamin-d v1|readv2|4QB4.00|Vitamin D level|
-|vitamin-d v1|readv2|44LA.00|Serum vitamin D|
-|vitamin-d v1|readv2|4QB4.00|Vitamin D level|
-|vitamin-d v1|readv2|4QB4400|Combined total vitamin D2 and D3 level|
-|vitamin-d v1|readv2|4QB4500|25-Hydroxyvitamin D level|
-|vitamin-d v1|readv2|4QB4600|Total 25-hydroxyvitamin D level|
-|vitamin-d v1|readv2|4QB4700|Serum total 25-hydroxy vitamin D level|
-|vitamin-d v1|snomed|1007991000000105|Serum total 25-hydroxy vitamin D level (observable entity)|
-|vitamin-d v1|snomed|1029801000000105|Total 25-hydroxyvitamin D level (observable entity)|
-|vitamin-d v1|snomed|1031181000000107|Serum vitamin D level (observable entity)|
-|vitamin-d v1|snomed|12199005|Vitamin D, 25-hydroxy measurement (procedure)|
-|vitamin-d v1|snomed|270990000|Serum vitamin D measurement (procedure)|
-|vitamin-d v1|snomed|83729008|Vitamin D measurement (procedure)|
-|vitamin-d v1|snomed|996641000000102|Combined total vitamin D2 and D3 level (observable entity)|
-|calcium v1|ctv3|44I8.|Serum calcium|
-|calcium v1|ctv3|44IC.|Adjusted serum calcium level|
-|calcium v1|ctv3|XaDvd|Blood calcium level|
-|calcium v1|ctv3|XaIdR|Serum ionized calcium (pH 7.4) level|
-|calcium v1|ctv3|XaIRk|Plasma calcium level|
-|calcium v1|ctv3|XaIRn|Plasma corrected calcium level|
-|calcium v1|ctv3|XaIU0|Serum ionised calcium level|
-|calcium v1|ctv3|XaX4E|Blood ionised calcium level|
-|calcium v1|ctv3|XaZyY|Calcium adjusted level|
-|calcium v1|ctv3|XE2q3|Serum calcium level|
-|calcium v1|readv2|44h4.|Blood calcium level|
-|calcium v1|readv2|44h7.|Plasma calcium level|
-|calcium v1|readv2|44h9.|Plasma corrected calcium level|
-|calcium v1|readv2|44hD.|Blood ionised calcium level|
-|calcium v1|readv2|44I8.|Serum calcium|
-|calcium v1|readv2|44IC.|Adjusted serum calcium level|
-|calcium v1|readv2|44ID.|Serum ionised calcium level|
-|calcium v1|readv2|44IE.|Serum ionized calcium (pH 7.4) level|
-|calcium v1|readv2|4Q721|Calcium adjusted level|
-|covid-vaccination v1|ctv3|Y210d|2019-nCoV (novel coronavirus) vaccination|
-|covid-vaccination v1|ctv3|Y29e7|Administration of first dose of SARS-CoV-2 vaccine|
-|covid-vaccination v1|ctv3|Y29e8|Administration of second dose of SARS-CoV-2 vaccine|
-|covid-vaccination v1|ctv3|Y2a0e|SARS-2 Coronavirus vaccine|
-|covid-vaccination v1|ctv3|Y2a0f|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 1|
-|covid-vaccination v1|ctv3|Y2a3a|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 2|
-|covid-vaccination v1|ctv3|65F06|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination|
-|covid-vaccination v1|ctv3|65F09|Administration of third dose of SARS-CoV-2 vaccine|
-|covid-vaccination v1|ctv3|65F0A|Administration of fourth dose of SARS-CoV-2 vaccine|
-|covid-vaccination v1|ctv3|9bJ..|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)|
-|covid-vaccination v1|ctv3|Y2a10|COVID-19 Vac AstraZeneca (ChAdOx1 S recomb) 5x10000000000 viral particles/0.5ml dose sol for inj MDV part 1|
-|covid-vaccination v1|ctv3|Y2a39|COVID-19 Vac AstraZeneca (ChAdOx1 S recomb) 5x10000000000 viral particles/0.5ml dose sol for inj MDV part 2|
-|covid-vaccination v1|ctv3|Y2b9d|COVID-19 mRNA (nucleoside modified) Vaccine Moderna 0.1mg/0.5mL dose dispersion for injection multidose vials part 2|
-|covid-vaccination v1|ctv3|Y2f45|Administration of third dose of SARS-CoV-2 vaccine|
-|covid-vaccination v1|ctv3|Y2f48|Administration of fourth dose of SARS-CoV-2 vaccine|
-|covid-vaccination v1|ctv3|Y2f57|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) booster|
-|covid-vaccination v1|ctv3|Y31cc|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen vaccination|
-|covid-vaccination v1|ctv3|Y31e6|Administration of SARS-CoV-2 mRNA vaccine|
-|covid-vaccination v1|ctv3|Y31e7|Administration of first dose of SARS-CoV-2 mRNA vaccine|
-|covid-vaccination v1|ctv3|Y31e8|Administration of second dose of SARS-CoV-2 mRNA vaccine|
-|covid-vaccination v1|emis|^ESCT1348323|Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
-|covid-vaccination v1|emis|^ESCT1348324|Administration of first dose of 2019-nCoV (novel coronavirus) vaccine|
-|covid-vaccination v1|emis|COCO138186NEMIS|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)|
-|covid-vaccination v1|emis|^ESCT1348325|Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
-|covid-vaccination v1|emis|^ESCT1348326|Administration of second dose of 2019-nCoV (novel coronavirus) vaccine|
-|covid-vaccination v1|emis|^ESCT1428354|Administration of third dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
-|covid-vaccination v1|emis|^ESCT1428342|Administration of fourth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
-|covid-vaccination v1|emis|^ESCT1428348|Administration of fifth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
-|covid-vaccination v1|emis|^ESCT1348298|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination|
-|covid-vaccination v1|emis|^ESCT1348301|COVID-19 vaccination|
-|covid-vaccination v1|emis|^ESCT1299050|2019-nCoV (novel coronavirus) vaccination|
-|covid-vaccination v1|emis|^ESCT1301222|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination|
-|covid-vaccination v1|emis|CODI138564NEMIS|Covid-19 mRna (nucleoside modified) Vaccine Moderna  Dispersion for injection  0.1 mg/0.5 ml dose, multidose vial|
-|covid-vaccination v1|emis|TASO138184NEMIS|Covid-19 Vaccine AstraZeneca (ChAdOx1 S recombinant)  Solution for injection  5x10 billion viral particle/0.5 ml multidose vial|
-|covid-vaccination v1|emis|PCSDT18491_1375|Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
-|covid-vaccination v1|emis|PCSDT18491_1376|Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
-|covid-vaccination v1|emis|PCSDT18491_716|Administration of second dose of SARS-CoV-2 vacc|
-|covid-vaccination v1|emis|PCSDT18491_903|Administration of first dose of SARS-CoV-2 vacccine|
-|covid-vaccination v1|emis|PCSDT3370_2254|2019-nCoV (novel coronavirus) vaccination|
-|covid-vaccination v1|emis|PCSDT3919_2185|Administration of first dose of SARS-CoV-2 vacccine|
-|covid-vaccination v1|emis|PCSDT3919_662|Administration of second dose of SARS-CoV-2 vacc|
-|covid-vaccination v1|emis|PCSDT4803_1723|2019-nCoV (novel coronavirus) vaccination|
-|covid-vaccination v1|emis|PCSDT5823_2264|Administration of second dose of SARS-CoV-2 vacc|
-|covid-vaccination v1|emis|PCSDT5823_2757|Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
-|covid-vaccination v1|emis|PCSDT5823_2902|Administration of first dose of SARS-CoV-2 vacccine|
-|covid-vaccination v1|emis|^ESCT1348300|Severe acute respiratory syndrome coronavirus 2 vaccination|
-|covid-vaccination v1|emis|ASSO138368NEMIS|COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose suspension for injection multidose vials (Janssen-Cilag Ltd)|
-|covid-vaccination v1|emis|COCO141057NEMIS|Comirnaty Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.2ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd)|
-|covid-vaccination v1|emis|COSO141059NEMIS|COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Serum Institute of India)|
-|covid-vaccination v1|emis|COSU138776NEMIS|COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5ml dose suspension for injection multidose vials (Valneva UK Ltd)|
-|covid-vaccination v1|emis|COSU138943NEMIS|COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Baxter Oncology GmbH)|
-|covid-vaccination v1|emis|COSU141008NEMIS|CoronaVac COVID-19 Vaccine (adjuvanted) 600U/0.5ml dose suspension for injection vials (Sinovac Life Sciences)|
-|covid-vaccination v1|emis|COSU141037NEMIS|COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection vials (Beijing Institute of Biological Products)|
-|covid-vaccination v1|readv2|65F0.|2019-nCoV (novel coronavirus) vaccination|
-|covid-vaccination v1|readv2|65F0100|Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine|
-|covid-vaccination v1|readv2|65F0200|2019-nCoV (novel coronavirus) vaccination|
-|covid-vaccination v1|readv2|65F0600|SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination|
-|covid-vaccination v1|readv2|65F0700|Immunisation course to achieve immunity against SARS-CoV-2|
-|covid-vaccination v1|readv2|65F0800|Immunisation course to maintain protection against SARS-CoV-2|
-|covid-vaccination v1|readv2|65F0900|Administration of third dose of SARS-CoV-2 vaccine|
-|covid-vaccination v1|readv2|65F0A00|Administration of fourth dose of SARS-CoV-2 vaccine|
-|covid-vaccination v1|readv2|9bJ..|COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)|
-|covid-vaccination v1|snomed|1240491000000103|2019-nCoV (novel coronavirus) vaccination|
-|covid-vaccination v1|snomed|2807821000000115|2019-nCoV (novel coronavirus) vaccination|
-|covid-vaccination v1|snomed|840534001|Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)|
-|smoking-status-current v1|ctv3|1373.|Lt cigaret smok, 1-9 cigs/day|
-|smoking-status-current v1|ctv3|1374.|Mod cigaret smok, 10-19 cigs/d|
-|smoking-status-current v1|ctv3|1375.|Hvy cigaret smok, 20-39 cigs/d|
-|smoking-status-current v1|ctv3|1376.|Very hvy cigs smoker,40+cigs/d|
-|smoking-status-current v1|ctv3|137C.|Keeps trying to stop smoking|
-|smoking-status-current v1|ctv3|137D.|Admitted tobacco cons untrue ?|
-|smoking-status-current v1|ctv3|137G.|Trying to give up smoking|
-|smoking-status-current v1|ctv3|137H.|Pipe smoker|
-|smoking-status-current v1|ctv3|137J.|Cigar smoker|
-|smoking-status-current v1|ctv3|137M.|Rolls own cigarettes|
-|smoking-status-current v1|ctv3|137P.|Cigarette smoker|
-|smoking-status-current v1|ctv3|137Q.|Smoking started|
-|smoking-status-current v1|ctv3|137R.|Current smoker|
-|smoking-status-current v1|ctv3|137Z.|Tobacco consumption NOS|
-|smoking-status-current v1|ctv3|Ub1tI|Cigarette consumption|
-|smoking-status-current v1|ctv3|Ub1tJ|Cigar consumption|
-|smoking-status-current v1|ctv3|Ub1tK|Pipe tobacco consumption|
-|smoking-status-current v1|ctv3|XaBSp|Smoking restarted|
-|smoking-status-current v1|ctv3|XaIIu|Smoking reduced|
-|smoking-status-current v1|ctv3|XaIkW|Thinking about stop smoking|
-|smoking-status-current v1|ctv3|XaIkX|Ready to stop smoking|
-|smoking-status-current v1|ctv3|XaIkY|Not interested stop smoking|
-|smoking-status-current v1|ctv3|XaItg|Reason for restarting smoking|
-|smoking-status-current v1|ctv3|XaIuQ|Cigarette pack-years|
-|smoking-status-current v1|ctv3|XaJX2|Min from wake to 1st tobac con|
-|smoking-status-current v1|ctv3|XaWNE|Failed attempt to stop smoking|
-|smoking-status-current v1|ctv3|XaZIE|Waterpipe tobacco consumption|
-|smoking-status-current v1|ctv3|XE0og|Tobacco smoking consumption|
-|smoking-status-current v1|ctv3|XE0oq|Cigarette smoker|
-|smoking-status-current v1|ctv3|XE0or|Smoking started|
-|smoking-status-current v1|readv2|137P.00|Cigarette smoker|
-|smoking-status-current v1|readv2|137P.11|Smoker|
-|smoking-status-current v1|readv2|13p3.00|Smoking status at 52 weeks|
-|smoking-status-current v1|readv2|1374.00|Moderate smoker - 10-19 cigs/d|
-|smoking-status-current v1|readv2|137G.00|Trying to give up smoking|
-|smoking-status-current v1|readv2|137R.00|Current smoker|
-|smoking-status-current v1|readv2|1376.00|Very heavy smoker - 40+cigs/d|
-|smoking-status-current v1|readv2|1375.00|Heavy smoker - 20-39 cigs/day|
-|smoking-status-current v1|readv2|1373.00|Light smoker - 1-9 cigs/day|
-|smoking-status-current v1|readv2|137M.00|Rolls own cigarettes|
-|smoking-status-current v1|readv2|137o.00|Waterpipe tobacco consumption|
-|smoking-status-current v1|readv2|137m.00|Failed attempt to stop smoking|
-|smoking-status-current v1|readv2|137h.00|Minutes from waking to first tobacco consumption|
-|smoking-status-current v1|readv2|137g.00|Cigarette pack-years|
-|smoking-status-current v1|readv2|137f.00|Reason for restarting smoking|
-|smoking-status-current v1|readv2|137e.00|Smoking restarted|
-|smoking-status-current v1|readv2|137d.00|Not interested in stopping smoking|
-|smoking-status-current v1|readv2|137c.00|Thinking about stopping smoking|
-|smoking-status-current v1|readv2|137b.00|Ready to stop smoking|
-|smoking-status-current v1|readv2|137C.00|Keeps trying to stop smoking|
-|smoking-status-current v1|readv2|137J.00|Cigar smoker|
-|smoking-status-current v1|readv2|137H.00|Pipe smoker|
-|smoking-status-current v1|readv2|137a.00|Pipe tobacco consumption|
-|smoking-status-current v1|readv2|137Z.00|Tobacco consumption NOS|
-|smoking-status-current v1|readv2|137Y.00|Cigar consumption|
-|smoking-status-current v1|readv2|137X.00|Cigarette consumption|
-|smoking-status-current v1|readv2|137V.00|Smoking reduced|
-|smoking-status-current v1|readv2|137Q.00|Smoking started|
-|smoking-status-current v1|readv2|137Q.11|Smoking restarted|
-|smoking-status-current v1|snomed|266929003|Smoking started (life style)|
-|smoking-status-current v1|snomed|836001000000109|Waterpipe tobacco consumption (observable entity)|
-|smoking-status-current v1|snomed|77176002|Smoker (life style)|
-|smoking-status-current v1|snomed|65568007|Cigarette smoker (life style)|
-|smoking-status-current v1|snomed|394873005|Not interested in stopping smoking (finding)|
-|smoking-status-current v1|snomed|394872000|Ready to stop smoking (finding)|
-|smoking-status-current v1|snomed|394871007|Thinking about stopping smoking (observable entity)|
-|smoking-status-current v1|snomed|266918002|Tobacco smoking consumption (observable entity)|
-|smoking-status-current v1|snomed|230057008|Cigar consumption (observable entity)|
-|smoking-status-current v1|snomed|230056004|Cigarette consumption (observable entity)|
-|smoking-status-current v1|snomed|160623006|Smoking: [started] or [restarted]|
-|smoking-status-current v1|snomed|160622001|Smoker (& cigarette)|
-|smoking-status-current v1|snomed|160619003|Rolls own cigarettes (finding)|
-|smoking-status-current v1|snomed|160616005|Trying to give up smoking (finding)|
-|smoking-status-current v1|snomed|160612007|Keeps trying to stop smoking (finding)|
-|smoking-status-current v1|snomed|160606002|Very heavy cigarette smoker (40+ cigs/day) (life style)|
-|smoking-status-current v1|snomed|160605003|Heavy cigarette smoker (20-39 cigs/day) (life style)|
-|smoking-status-current v1|snomed|160604004|Moderate cigarette smoker (10-19 cigs/day) (life style)|
-|smoking-status-current v1|snomed|160603005|Light cigarette smoker (1-9 cigs/day) (life style)|
-|smoking-status-current v1|snomed|59978006|Cigar smoker (life style)|
-|smoking-status-current v1|snomed|446172000|Failed attempt to stop smoking (finding)|
-|smoking-status-current v1|snomed|413173009|Minutes from waking to first tobacco consumption (observable entity)|
-|smoking-status-current v1|snomed|401201003|Cigarette pack-years (observable entity)|
-|smoking-status-current v1|snomed|401159003|Reason for restarting smoking (observable entity)|
-|smoking-status-current v1|snomed|308438006|Smoking restarted (life style)|
-|smoking-status-current v1|snomed|230058003|Pipe tobacco consumption (observable entity)|
-|smoking-status-current v1|snomed|134406006|Smoking reduced (observable entity)|
-|smoking-status-current v1|snomed|82302008|Pipe smoker (life style)|
-|smoking-status-currently-not v1|ctv3|Ub0oq|Non-smoker|
-|smoking-status-currently-not v1|ctv3|137L.|Current non-smoker|
-|smoking-status-currently-not v1|readv2|137L.00|Current non-smoker|
-|smoking-status-currently-not v1|snomed|160618006|Current non-smoker (life style)|
-|smoking-status-currently-not v1|snomed|8392000|Non-smoker (life style)|
-|smoking-status-ex v1|ctv3|1378.|Ex-light smoker (1-9/day)|
-|smoking-status-ex v1|ctv3|1379.|Ex-moderate smoker (10-19/day)|
-|smoking-status-ex v1|ctv3|137A.|Ex-heavy smoker (20-39/day)|
-|smoking-status-ex v1|ctv3|137B.|Ex-very heavy smoker (40+/day)|
-|smoking-status-ex v1|ctv3|137F.|Ex-smoker - amount unknown|
-|smoking-status-ex v1|ctv3|137K.|Stopped smoking|
-|smoking-status-ex v1|ctv3|137N.|Ex-pipe smoker|
-|smoking-status-ex v1|ctv3|137O.|Ex-cigar smoker|
-|smoking-status-ex v1|ctv3|137T.|Date ceased smoking|
-|smoking-status-ex v1|ctv3|Ub1na|Ex-smoker|
-|smoking-status-ex v1|ctv3|Xa1bv|Ex-cigarette smoker|
-|smoking-status-ex v1|ctv3|XaIr7|Smoking free weeks|
-|smoking-status-ex v1|ctv3|XaKlS|[V]PH of tobacco abuse|
-|smoking-status-ex v1|ctv3|XaQ8V|Ex roll-up cigarette smoker|
-|smoking-status-ex v1|ctv3|XaQzw|Recently stopped smoking|
-|smoking-status-ex v1|ctv3|XE0ok|Ex-light cigaret smok, 1-9/day|
-|smoking-status-ex v1|ctv3|XE0ol|Ex-mod cigaret smok, 10-19/day|
-|smoking-status-ex v1|ctv3|XE0om|Ex-heav cigaret smok,20-39/day|
-|smoking-status-ex v1|ctv3|XE0on|Ex-very hv cigaret smk,40+/day|
-|smoking-status-ex v1|readv2|137l.00|Ex roll-up cigarette smoker|
-|smoking-status-ex v1|readv2|137j.00|Ex-cigarette smoker|
-|smoking-status-ex v1|readv2|137S.00|Ex smoker|
-|smoking-status-ex v1|readv2|137O.00|Ex cigar smoker|
-|smoking-status-ex v1|readv2|137N.00|Ex pipe smoker|
-|smoking-status-ex v1|readv2|137F.00|Ex-smoker - amount unknown|
-|smoking-status-ex v1|readv2|137B.00|Ex-very heavy smoker (40+/day)|
-|smoking-status-ex v1|readv2|137A.00|Ex-heavy smoker (20-39/day)|
-|smoking-status-ex v1|readv2|1379.00|Ex-moderate smoker (10-19/day)|
-|smoking-status-ex v1|readv2|1378.00|Ex-light smoker (1-9/day)|
-|smoking-status-ex v1|readv2|137K.00|Stopped smoking|
-|smoking-status-ex v1|readv2|137K000|Recently stopped smoking|
-|smoking-status-ex v1|readv2|137T.00|Date ceased smoking|
-|smoking-status-ex v1|readv2|13p4.00|Smoking free weeks|
-|smoking-status-ex v1|snomed|160617001|Stopped smoking (life style)|
-|smoking-status-ex v1|snomed|160620009|Ex-pipe smoker (life style)|
-|smoking-status-ex v1|snomed|160621008|Ex-cigar smoker (life style)|
-|smoking-status-ex v1|snomed|160625004|Date ceased smoking (observable entity)|
-|smoking-status-ex v1|snomed|266922007|Ex-light cigarette smoker (1-9/day) (life style)|
-|smoking-status-ex v1|snomed|266923002|Ex-moderate cigarette smoker (10-19/day) (life style)|
-|smoking-status-ex v1|snomed|266924008|Ex-heavy cigarette smoker (20-39/day) (life style)|
-|smoking-status-ex v1|snomed|266925009|Ex-very heavy cigarette smoker (40+/day) (life style)|
-|smoking-status-ex v1|snomed|281018007|Ex-cigarette smoker (life style)|
-|smoking-status-ex v1|snomed|395177003|Smoking free weeks (observable entity)|
-|smoking-status-ex v1|snomed|492191000000103|Ex roll-up cigarette smoker (finding)|
-|smoking-status-ex v1|snomed|517211000000106|Recently stopped smoking (finding)|
-|smoking-status-ex v1|snomed|8517006|Ex-smoker (life style)|
-|smoking-status-ex-trivial v1|ctv3|XE0oj|Ex-triv cigaret smoker, <1/day|
-|smoking-status-ex-trivial v1|ctv3|1377.|Ex-trivial smoker (<1/day)|
-|smoking-status-ex-trivial v1|readv2|1377.00|Ex-trivial smoker (<1/day)|
-|smoking-status-ex-trivial v1|snomed|266921000|Ex-trivial cigarette smoker (<1/day) (life style)|
-|smoking-status-never v1|ctv3|XE0oh|Never smoked tobacco|
-|smoking-status-never v1|ctv3|1371.|Never smoked tobacco|
-|smoking-status-never v1|readv2|1371.00|Never smoked tobacco|
-|smoking-status-never v1|snomed|160601007|Non-smoker (& [never smoked tobacco])|
-|smoking-status-never v1|snomed|266919005|Never smoked tobacco (life style)|
-|smoking-status-passive v1|ctv3|137I.|Passive smoker|
-|smoking-status-passive v1|ctv3|Ub0pe|Exposed to tobacco smoke at work|
-|smoking-status-passive v1|ctv3|Ub0pf|Exposed to tobacco smoke at home|
-|smoking-status-passive v1|ctv3|Ub0pg|Exposed to tobacco smoke in public places|
-|smoking-status-passive v1|ctv3|13WF4|Passive smoking risk|
-|smoking-status-passive v1|readv2|137I.00|Passive smoker|
-|smoking-status-passive v1|readv2|137I000|Exposed to tobacco smoke at home|
-|smoking-status-passive v1|readv2|13WF400|Passive smoking risk|
-|smoking-status-passive v1|snomed|43381005|Passive smoker (finding)|
-|smoking-status-passive v1|snomed|161080002|Passive smoking risk (environment)|
-|smoking-status-passive v1|snomed|228523000|Exposed to tobacco smoke at work (finding)|
-|smoking-status-passive v1|snomed|228524006|Exposed to tobacco smoke at home (finding)|
-|smoking-status-passive v1|snomed|228525007|Exposed to tobacco smoke in public places (finding)|
-|smoking-status-passive v1|snomed|713142003|At risk from passive smoking (finding)|
-|smoking-status-passive v1|snomed|722451000000101|Passive smoking (qualifier value)|
-|smoking-status-trivial v1|ctv3|XagO3|Occasional tobacco smoker|
-|smoking-status-trivial v1|ctv3|XE0oi|Triv cigaret smok, < 1 cig/day|
-|smoking-status-trivial v1|ctv3|1372.|Trivial smoker - < 1 cig/day|
-|smoking-status-trivial v1|readv2|1372.00|Trivial smoker - < 1 cig/day|
-|smoking-status-trivial v1|readv2|1372.11|Occasional smoker|
-|smoking-status-trivial v1|snomed|266920004|Trivial cigarette smoker (less than one cigarette/day) (life style)|
-|smoking-status-trivial v1|snomed|428041000124106|Occasional tobacco smoker (finding)|
-|alcohol-non-drinker v1|ctv3|1361.|Teetotaller|
-|alcohol-non-drinker v1|ctv3|136M.|Current non-drinker|
-|alcohol-non-drinker v1|readv2|1361.11|Non drinker alcohol|
-|alcohol-non-drinker v1|readv2|1361.12|Non-drinker alcohol|
-|alcohol-non-drinker v1|readv2|136M.00|Current non drinker|
-|alcohol-non-drinker v1|readv2|1361.00|Teetotaller|
-|alcohol-light-drinker v1|ctv3|1362.00|Trivial drinker - <1u/day|
-|alcohol-light-drinker v1|readv2|1362.12|Drinks occasionally|
-|alcohol-light-drinker v1|readv2|1362.00|Trivial drinker - <1u/day|
-|alcohol-light-drinker v1|readv2|136N.00|Light drinker|
-|alcohol-light-drinker v1|readv2|136d.00|Lower risk drinking|
-|alcohol-light-drinker v1|readv2|1362.11|Drinks rarely|
-|alcohol-moderate-drinker v1|readv2|136O.00|Moderate drinker|
-|alcohol-moderate-drinker v1|readv2|136F.00|Spirit drinker|
-|alcohol-moderate-drinker v1|readv2|136G.00|Beer drinker|
-|alcohol-moderate-drinker v1|readv2|136H.00|Drinks beer and spirits|
-|alcohol-moderate-drinker v1|readv2|136I.00|Drinks wine|
-|alcohol-moderate-drinker v1|readv2|136J.00|Social drinker|
-|alcohol-moderate-drinker v1|readv2|136L.00|Alcohol intake within recommended sensible limits|
-|alcohol-moderate-drinker v1|readv2|136Z.00|Alcohol consumption NOS|
-|alcohol-moderate-drinker v1|readv2|136a.00|Increasing risk drinking|
-|alcohol-heavy-drinker v1|readv2|136b.00|Feels should cut down drinking|
-|alcohol-heavy-drinker v1|readv2|136c.00|Higher risk drinking|
-|alcohol-heavy-drinker v1|readv2|136K.00|Alcohol intake above recommended sensible limits|
-|alcohol-heavy-drinker v1|readv2|136P.00|Heavy drinker|
-|alcohol-heavy-drinker v1|readv2|136Q.00|Very heavy drinker|
-|alcohol-heavy-drinker v1|readv2|136R.00|Binge drinker|
-|alcohol-heavy-drinker v1|readv2|136S.00|Hazardous alcohol use|
-|alcohol-heavy-drinker v1|readv2|136T.00|Harmful alcohol use|
-|alcohol-heavy-drinker v1|readv2|136W.00|Alcohol misuse|
-|alcohol-heavy-drinker v1|readv2|136Y.00|Drinks in morning to get rid of hangover|
-|alcohol-heavy-drinker v1|readv2|E23..12|Alcohol problem drinking|
-|alcohol-weekly-intake v1|readv2|136V.00|Alcohol units per week|
-|alcohol-weekly-intake v1|readv2|136..00|Alcohol consumption|

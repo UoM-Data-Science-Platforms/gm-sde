@@ -1,6 +1,6 @@
---┌─────────────────────────────────────┐
---│ Patient information for main cohort │
---└─────────────────────────────────────┘
+--┌──────────────────────────────────────────────────────────────────┐
+--│ Patient information for those with biochemical evidence of CKD   │
+--└──────────────────────────────────────────────────────────────────┘
 
 ------------ RESEARCH DATA ENGINEER CHECK ------------
 
@@ -24,11 +24,11 @@
 -- Third vaccination date (YYYY-MM or N/A)
 -- Death within 28 days of Covid Diagnosis (Y/N)
 -- Date of death due to Covid-19 (YYYY-MM or N/A)
--- Number of AE Episodes before 01.03.20
--- Number of AE Episodes after 01.03.20
+-- Number of AE Episodes before covid (01.03.18 - 01.03.20)
+-- Number of AE Episodes after covid (01.03.20 - 01.03.22)
 -- Total AE Episodes (01.03.18 - 01.03.22)
--- Number of GP appointments before 01.03.20
--- Number of GP appointments after 01.03.20
+-- Number of GP appointments before covid (01.03.18 - 01.03.20)
+-- Number of GP appointments after covid (01.03.20 - 01.03.22)
 -- Total GP appointments (01.03.18 - 01.03.22)
 -- evidenceOfCKD_egfr (1/0)
 -- evidenceOfCKD_acr (1/0)
@@ -157,6 +157,12 @@ VALUES ('covid-vaccination',1,'65F0.',NULL,'2019-nCoV (novel coronavirus) vaccin
 INSERT INTO #codesreadv2
 VALUES ('kidney-transplant',1,'14S2.',NULL,'H/O: kidney recipient'),('kidney-transplant',1,'14S2.00',NULL,'H/O: kidney recipient'),('kidney-transplant',1,'7B00.',NULL,'Transplantation of kidney'),('kidney-transplant',1,'7B00.00',NULL,'Transplantation of kidney'),('kidney-transplant',1,'7B001',NULL,'Transplantation of kidney from live donor'),('kidney-transplant',1,'7B00100',NULL,'Transplantation of kidney from live donor'),('kidney-transplant',1,'7B002',NULL,'Transplantation of kidney from cadaver'),('kidney-transplant',1,'7B00200',NULL,'Transplantation of kidney from cadaver'),('kidney-transplant',1,'7B00y',NULL,'Other specified transplantation of kidney'),('kidney-transplant',1,'7B00y00',NULL,'Other specified transplantation of kidney'),('kidney-transplant',1,'7B00z',NULL,'Transplantation of kidney NOS'),('kidney-transplant',1,'7B00z00',NULL,'Transplantation of kidney NOS'),('kidney-transplant',1,'K0B5.',NULL,'Renal tubulo-interstitial disorders in transplant rejection'),('kidney-transplant',1,'K0B5.00',NULL,'Renal tubulo-interstitial disorders in transplant rejection'),('kidney-transplant',1,'SP080',NULL,'Transplanted organ failure'),('kidney-transplant',1,'SP08000',NULL,'Transplanted organ failure'),('kidney-transplant',1,'SP083',NULL,'Kidney transplant failure and rejection'),('kidney-transplant',1,'SP08300',NULL,'Kidney transplant failure and rejection'),('kidney-transplant',1,'TB001',NULL,'Transplantation of kidney as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation'),('kidney-transplant',1,'TB00100',NULL,'Transplantation of kidney as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation'),('kidney-transplant',1,'ZV420',NULL,'[V]Kidney transplanted'),('kidney-transplant',1,'ZV42000',NULL,'[V]Kidney transplanted');
 INSERT INTO #codesreadv2
+VALUES ('covid-positive-antigen-test',1,'43kB1',NULL,'SARS-CoV-2 antigen positive'),('covid-positive-antigen-test',1,'43kB100',NULL,'SARS-CoV-2 antigen positive');
+INSERT INTO #codesreadv2
+VALUES ('covid-positive-pcr-test',1,'4J3R6',NULL,'SARS-CoV-2 RNA pos lim detect'),('covid-positive-pcr-test',1,'4J3R600',NULL,'SARS-CoV-2 RNA pos lim detect'),('covid-positive-pcr-test',1,'A7952',NULL,'COVID-19 confirmed by laboratory test'),('covid-positive-pcr-test',1,'A795200',NULL,'COVID-19 confirmed by laboratory test'),('covid-positive-pcr-test',1,'43hF.',NULL,'Detection of SARS-CoV-2 by PCR'),('covid-positive-pcr-test',1,'43hF.00',NULL,'Detection of SARS-CoV-2 by PCR');
+INSERT INTO #codesreadv2
+VALUES ('covid-positive-test-other',1,'4J3R1',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'4J3R100',NULL,'2019-nCoV (novel coronavirus) detected');
+INSERT INTO #codesreadv2
 VALUES ('egfr',1,'451E.',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation'),('egfr',1,'451E.00',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation'),('egfr',1,'451G.',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin'),('egfr',1,'451G.00',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin'),('egfr',1,'451K.',NULL,'Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres'),('egfr',1,'451K.00',NULL,'Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres'),('egfr',1,'451M.',NULL,'Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'451M.00',NULL,'Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'451N.',NULL,'Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'451N.00',NULL,'Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres');
 INSERT INTO #codesreadv2
 VALUES ('urinary-albumin-creatinine-ratio',1,'46TC.',NULL,'Urine albumin:creatinine ratio'),('urinary-albumin-creatinine-ratio',1,'46TC.00',NULL,'Urine albumin:creatinine ratio')
@@ -209,6 +215,12 @@ INSERT INTO #codesctv3
 VALUES ('covid-vaccination',1,'Y210d',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'Y29e7',NULL,'Administration of first dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y29e8',NULL,'Administration of second dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y2a0e',NULL,'SARS-2 Coronavirus vaccine'),('covid-vaccination',1,'Y2a0f',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 1'),('covid-vaccination',1,'Y2a3a',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) part 2'),('covid-vaccination',1,'65F06',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'65F09',NULL,'Administration of third dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'65F0A',NULL,'Administration of fourth dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'9bJ..',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech)'),('covid-vaccination',1,'Y2a10',NULL,'COVID-19 Vac AstraZeneca (ChAdOx1 S recomb) 5x10000000000 viral particles/0.5ml dose sol for inj MDV part 1'),('covid-vaccination',1,'Y2a39',NULL,'COVID-19 Vac AstraZeneca (ChAdOx1 S recomb) 5x10000000000 viral particles/0.5ml dose sol for inj MDV part 2'),('covid-vaccination',1,'Y2b9d',NULL,'COVID-19 mRNA (nucleoside modified) Vaccine Moderna 0.1mg/0.5mL dose dispersion for injection multidose vials part 2'),('covid-vaccination',1,'Y2f45',NULL,'Administration of third dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y2f48',NULL,'Administration of fourth dose of SARS-CoV-2 vaccine'),('covid-vaccination',1,'Y2f57',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) booster'),('covid-vaccination',1,'Y31cc',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen vaccination'),('covid-vaccination',1,'Y31e6',NULL,'Administration of SARS-CoV-2 mRNA vaccine'),('covid-vaccination',1,'Y31e7',NULL,'Administration of first dose of SARS-CoV-2 mRNA vaccine'),('covid-vaccination',1,'Y31e8',NULL,'Administration of second dose of SARS-CoV-2 mRNA vaccine');
 INSERT INTO #codesctv3
 VALUES ('kidney-transplant',1,'14S2.',NULL,'H/O: kidney recipient'),('kidney-transplant',1,'7B00.',NULL,'Renal transplant'),('kidney-transplant',1,'7B001',NULL,'Live donor renal transplant'),('kidney-transplant',1,'7B002',NULL,'Cadaveric renal transplant'),('kidney-transplant',1,'7B00y',NULL,'Other specified transplantation of kidney'),('kidney-transplant',1,'7B00z',NULL,'Transplantation of kidney NOS'),('kidney-transplant',1,'K0B5.',NULL,'Renal tubulo-interstitial disorders in transplant rejection'),('kidney-transplant',1,'SP080',NULL,'(Transpl organ fail) or (deterior ren func aft ren transpl)'),('kidney-transplant',1,'SP083',NULL,'Kidney transplant failure and rejection'),('kidney-transplant',1,'TB001',NULL,'Kidney transplant with complication, without blame'),('kidney-transplant',1,'X30D2',NULL,'Xenograft renal transplant'),('kidney-transplant',1,'X30J3',NULL,'End stage renal failure with renal transplant'),('kidney-transplant',1,'X30Ma',NULL,'Chronic rejection of renal transplant - grade III'),('kidney-transplant',1,'X30Mb',NULL,'Acute-on-chronic rejection of renal transplant'),('kidney-transplant',1,'X30Mc',NULL,'Failed renal transplant'),('kidney-transplant',1,'X30Md',NULL,'Perfusion injury of renal transplant'),('kidney-transplant',1,'X30Me',NULL,'De novo transplant disease'),('kidney-transplant',1,'X30Mf',NULL,'De novo glomerulonephritis'),('kidney-transplant',1,'X30Mg',NULL,'Transplant glomerulopathy'),('kidney-transplant',1,'X30Mh',NULL,'Transplant glomerulopathy - early form'),('kidney-transplant',1,'X30Mi',NULL,'Transplant glomerulopathy - late form'),('kidney-transplant',1,'X30MN',NULL,'Renal transplant disorder'),('kidney-transplant',1,'X30MO',NULL,'Primary non-function of renal transplant'),('kidney-transplant',1,'X30MP',NULL,'Renal transplant rejection'),('kidney-transplant',1,'X30MQ',NULL,'Hyperacute rejection of renal transplant'),('kidney-transplant',1,'X30MR',NULL,'Accelerated rejection of renal transplant'),('kidney-transplant',1,'X30MS',NULL,'Very mild acute rejection of renal transplant'),('kidney-transplant',1,'X30MT',NULL,'Acute rejection of renal transplant'),('kidney-transplant',1,'X30MU',NULL,'Acute rejection of renal transplant - grade I'),('kidney-transplant',1,'X30MV',NULL,'Acute rejection of renal transplant - grade II'),('kidney-transplant',1,'X30MW',NULL,'Acute rejection of renal transplant - grade III'),('kidney-transplant',1,'X30MX',NULL,'Chronic rejection of renal transplant'),('kidney-transplant',1,'X30MY',NULL,'Chronic rejection of renal transplant - grade 1'),('kidney-transplant',1,'X30MZ',NULL,'Chronic rejection of renal transplant - grade II'),('kidney-transplant',1,'X30NN',NULL,'Perirenal and periureteric post-transplant lymphocele'),('kidney-transplant',1,'Xa0HK',NULL,'Unexplained episode of renal transplant dysfunction'),('kidney-transplant',1,'Xa0HL',NULL,'Pre-existing disease in renal transplant'),('kidney-transplant',1,'Xa1dw',NULL,'Transplant kidney'),('kidney-transplant',1,'Xa3x6',NULL,'Kidney replacement'),('kidney-transplant',1,'Xaa2O',NULL,'Thrombosis of artery of transplanted kidney'),('kidney-transplant',1,'Xaa2Q',NULL,'Thrombosis of vein of transplanted kidney'),('kidney-transplant',1,'XaE9T',NULL,'Donor renal transplantation'),('kidney-transplant',1,'XaM1o',NULL,'Allotransplantation of kidney from cadaver, heart-beating'),('kidney-transplant',1,'XaM1p',NULL,'Allotransplantation kidney from cadaver, heart non-beating'),('kidney-transplant',1,'XaM4e',NULL,'Interventions associated with transplantation of kidney'),('kidney-transplant',1,'XaM4f',NULL,'OS interventions associated with transplantation of kidney'),('kidney-transplant',1,'XaM4g',NULL,'Interventions associated with transplantation of kidney NOS'),('kidney-transplant',1,'XaM4l',NULL,'Post-transplantation of kidney examination, recipient'),('kidney-transplant',1,'XaMKM',NULL,'Allotransplantation of kidney from cadaver NEC'),('kidney-transplant',1,'XaZe2',NULL,'Rupture of artery of transplanted kidney'),('kidney-transplant',1,'XaZe3',NULL,'Rupture of vein of transplanted kidney'),('kidney-transplant',1,'XaZe7',NULL,'Stenosis of vein of transplanted kidney'),('kidney-transplant',1,'XaZkw',NULL,'Aneurysm of vein of transplanted kidney'),('kidney-transplant',1,'XaZl0',NULL,'Aneurysm of artery of transplanted kidney'),('kidney-transplant',1,'XaZWa',NULL,'Urological complication of renal transplant'),('kidney-transplant',1,'XaZYx',NULL,'Vascular complication of renal transplant'),('kidney-transplant',1,'Y1602',NULL,'Kidney-pancreas transplant'),('kidney-transplant',1,'ZV420',NULL,'[V]Kidney transplanted');
+INSERT INTO #codesctv3
+VALUES ('covid-positive-antigen-test',1,'Y269d',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen detection result positive'),('covid-positive-antigen-test',1,'43kB1',NULL,'SARS-CoV-2 antigen positive');
+INSERT INTO #codesctv3
+VALUES ('covid-positive-pcr-test',1,'4J3R6',NULL,'SARS-CoV-2 RNA pos lim detect'),('covid-positive-pcr-test',1,'Y240b',NULL,'Severe acute respiratory syndrome coronavirus 2 qualitative existence in specimen (observable entity)'),('covid-positive-pcr-test',1,'Y2a3b',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive'),('covid-positive-pcr-test',1,'A7952',NULL,'COVID-19 confirmed by laboratory test'),('covid-positive-pcr-test',1,'Y228d',NULL,'Coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2 confirmed by laboratory test (situation)'),('covid-positive-pcr-test',1,'Y210e',NULL,'Detection of 2019-nCoV (novel coronavirus) using polymerase chain reaction technique'),('covid-positive-pcr-test',1,'43hF.',NULL,'Detection of SARS-CoV-2 by PCR'),('covid-positive-pcr-test',1,'Y2a3d',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection');
+INSERT INTO #codesctv3
+VALUES ('covid-positive-test-other',1,'4J3R1',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'Y20d1',NULL,'Confirmed 2019-nCov (Wuhan) infection'),('covid-positive-test-other',1,'Y23f7',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive');
 INSERT INTO #codesctv3
 VALUES ('egfr',1,'X70kK',NULL,'Tc99m-DTPA clearance - GFR'),('egfr',1,'X70kL',NULL,'Cr51- EDTA clearance - GFR'),('egfr',1,'X90kf',NULL,'With GFR'),('egfr',1,'XaK8y',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation'),('egfr',1,'XaMDA',NULL,'Glomerular filtration rate calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin'),('egfr',1,'XaZpN',NULL,'Estimated glomerular filtration rate using Chronic Kidney Disease Epidemiology Collaboration formula per 1.73 square metres'),('egfr',1,'XacUJ',NULL,'Estimated glomerular filtration rate using cystatin C Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres'),('egfr',1,'XacUK',NULL,'Estimated glomerular filtration rate using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres');
 INSERT INTO #codesctv3
@@ -275,7 +287,13 @@ VALUES ('hypertension',1,'EMISNQST25',NULL,'Stage 2 hypertension'),('hypertensio
 INSERT INTO #codesemis
 VALUES ('bmi',1,'EMISNQBM1',NULL,'BMI centile');
 INSERT INTO #codesemis
-VALUES ('covid-vaccination',1,'^ESCT1348323',NULL,'Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348324',NULL,'Administration of first dose of 2019-nCoV (novel coronavirus) vaccine'),('covid-vaccination',1,'COCO138186NEMIS',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)'),('covid-vaccination',1,'^ESCT1348325',NULL,'Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348326',NULL,'Administration of second dose of 2019-nCoV (novel coronavirus) vaccine'),('covid-vaccination',1,'^ESCT1428354',NULL,'Administration of third dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1428342',NULL,'Administration of fourth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1428348',NULL,'Administration of fifth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348298',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'^ESCT1348301',NULL,'COVID-19 vaccination'),('covid-vaccination',1,'^ESCT1299050',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'^ESCT1301222',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'CODI138564NEMIS',NULL,'Covid-19 mRna (nucleoside modified) Vaccine Moderna  Dispersion for injection  0.1 mg/0.5 ml dose, multidose vial'),('covid-vaccination',1,'TASO138184NEMIS',NULL,'Covid-19 Vaccine AstraZeneca (ChAdOx1 S recombinant)  Solution for injection  5x10 billion viral particle/0.5 ml multidose vial'),('covid-vaccination',1,'PCSDT18491_1375',NULL,'Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'PCSDT18491_1376',NULL,'Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'PCSDT18491_716',NULL,'Administration of second dose of SARS-CoV-2 vacc'),('covid-vaccination',1,'PCSDT18491_903',NULL,'Administration of first dose of SARS-CoV-2 vacccine'),('covid-vaccination',1,'PCSDT3370_2254',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'PCSDT3919_2185',NULL,'Administration of first dose of SARS-CoV-2 vacccine'),('covid-vaccination',1,'PCSDT3919_662',NULL,'Administration of second dose of SARS-CoV-2 vacc'),('covid-vaccination',1,'PCSDT4803_1723',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'PCSDT5823_2264',NULL,'Administration of second dose of SARS-CoV-2 vacc'),('covid-vaccination',1,'PCSDT5823_2757',NULL,'Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'PCSDT5823_2902',NULL,'Administration of first dose of SARS-CoV-2 vacccine'),('covid-vaccination',1,'^ESCT1348300',NULL,'Severe acute respiratory syndrome coronavirus 2 vaccination'),('covid-vaccination',1,'ASSO138368NEMIS',NULL,'COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose suspension for injection multidose vials (Janssen-Cilag Ltd)'),('covid-vaccination',1,'COCO141057NEMIS',NULL,'Comirnaty Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.2ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd)'),('covid-vaccination',1,'COSO141059NEMIS',NULL,'COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Serum Institute of India)'),('covid-vaccination',1,'COSU138776NEMIS',NULL,'COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5ml dose suspension for injection multidose vials (Valneva UK Ltd)'),('covid-vaccination',1,'COSU138943NEMIS',NULL,'COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Baxter Oncology GmbH)'),('covid-vaccination',1,'COSU141008NEMIS',NULL,'CoronaVac COVID-19 Vaccine (adjuvanted) 600U/0.5ml dose suspension for injection vials (Sinovac Life Sciences)'),('covid-vaccination',1,'COSU141037NEMIS',NULL,'COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection vials (Beijing Institute of Biological Products)')
+VALUES ('covid-vaccination',1,'^ESCT1348323',NULL,'Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348324',NULL,'Administration of first dose of 2019-nCoV (novel coronavirus) vaccine'),('covid-vaccination',1,'COCO138186NEMIS',NULL,'COVID-19 mRNA Vaccine BNT162b2 30micrograms/0.3ml dose concentrate for suspension for injection multidose vials (Pfizer-BioNTech) (Pfizer-BioNTech)'),('covid-vaccination',1,'^ESCT1348325',NULL,'Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348326',NULL,'Administration of second dose of 2019-nCoV (novel coronavirus) vaccine'),('covid-vaccination',1,'^ESCT1428354',NULL,'Administration of third dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1428342',NULL,'Administration of fourth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1428348',NULL,'Administration of fifth dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'^ESCT1348298',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'^ESCT1348301',NULL,'COVID-19 vaccination'),('covid-vaccination',1,'^ESCT1299050',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'^ESCT1301222',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination'),('covid-vaccination',1,'CODI138564NEMIS',NULL,'Covid-19 mRna (nucleoside modified) Vaccine Moderna  Dispersion for injection  0.1 mg/0.5 ml dose, multidose vial'),('covid-vaccination',1,'TASO138184NEMIS',NULL,'Covid-19 Vaccine AstraZeneca (ChAdOx1 S recombinant)  Solution for injection  5x10 billion viral particle/0.5 ml multidose vial'),('covid-vaccination',1,'PCSDT18491_1375',NULL,'Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'PCSDT18491_1376',NULL,'Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'PCSDT18491_716',NULL,'Administration of second dose of SARS-CoV-2 vacc'),('covid-vaccination',1,'PCSDT18491_903',NULL,'Administration of first dose of SARS-CoV-2 vacccine'),('covid-vaccination',1,'PCSDT3370_2254',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'PCSDT3919_2185',NULL,'Administration of first dose of SARS-CoV-2 vacccine'),('covid-vaccination',1,'PCSDT3919_662',NULL,'Administration of second dose of SARS-CoV-2 vacc'),('covid-vaccination',1,'PCSDT4803_1723',NULL,'2019-nCoV (novel coronavirus) vaccination'),('covid-vaccination',1,'PCSDT5823_2264',NULL,'Administration of second dose of SARS-CoV-2 vacc'),('covid-vaccination',1,'PCSDT5823_2757',NULL,'Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine'),('covid-vaccination',1,'PCSDT5823_2902',NULL,'Administration of first dose of SARS-CoV-2 vacccine'),('covid-vaccination',1,'^ESCT1348300',NULL,'Severe acute respiratory syndrome coronavirus 2 vaccination'),('covid-vaccination',1,'ASSO138368NEMIS',NULL,'COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose suspension for injection multidose vials (Janssen-Cilag Ltd)'),('covid-vaccination',1,'COCO141057NEMIS',NULL,'Comirnaty Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.2ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd)'),('covid-vaccination',1,'COSO141059NEMIS',NULL,'COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Serum Institute of India)'),('covid-vaccination',1,'COSU138776NEMIS',NULL,'COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5ml dose suspension for injection multidose vials (Valneva UK Ltd)'),('covid-vaccination',1,'COSU138943NEMIS',NULL,'COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Baxter Oncology GmbH)'),('covid-vaccination',1,'COSU141008NEMIS',NULL,'CoronaVac COVID-19 Vaccine (adjuvanted) 600U/0.5ml dose suspension for injection vials (Sinovac Life Sciences)'),('covid-vaccination',1,'COSU141037NEMIS',NULL,'COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection vials (Beijing Institute of Biological Products)');
+INSERT INTO #codesemis
+VALUES ('covid-positive-antigen-test',1,'^ESCT1305304',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen detection result positive'),('covid-positive-antigen-test',1,'^ESCT1348538',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen');
+INSERT INTO #codesemis
+VALUES ('covid-positive-pcr-test',1,'^ESCT1305238',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) qualitative existence in specimen'),('covid-positive-pcr-test',1,'^ESCT1348314',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive'),('covid-positive-pcr-test',1,'^ESCT1305235',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive'),('covid-positive-pcr-test',1,'^ESCT1300228',NULL,'COVID-19 confirmed by laboratory test GP COVID-19'),('covid-positive-pcr-test',1,'^ESCT1348316',NULL,'2019-nCoV (novel coronavirus) ribonucleic acid detected'),('covid-positive-pcr-test',1,'^ESCT1301223',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) using polymerase chain reaction technique'),('covid-positive-pcr-test',1,'^ESCT1348359',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection'),('covid-positive-pcr-test',1,'^ESCT1299053',NULL,'Detection of 2019-nCoV (novel coronavirus) using polymerase chain reaction technique'),('covid-positive-pcr-test',1,'^ESCT1300228',NULL,'COVID-19 confirmed by laboratory test'),('covid-positive-pcr-test',1,'^ESCT1348359',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection');
+INSERT INTO #codesemis
+VALUES ('covid-positive-test-other',1,'^ESCT1303928',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive'),('covid-positive-test-other',1,'^ESCT1299074',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'^ESCT1301230',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detected'),('covid-positive-test-other',1,'EMISNQCO303',NULL,'Confirmed 2019-nCoV (Wuhan) infectio'),('covid-positive-test-other',1,'^ESCT1299075',NULL,'Wuhan 2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'^ESCT1300229',NULL,'COVID-19 confirmed using clinical diagnostic criteria'),('covid-positive-test-other',1,'^ESCT1348575',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)'),('covid-positive-test-other',1,'^ESCT1299074',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'^ESCT1300229',NULL,'COVID-19 confirmed using clinical diagnostic criteria'),('covid-positive-test-other',1,'EMISNQCO303',NULL,'Confirmed 2019-nCoV (novel coronavirus) infection'),('covid-positive-test-other',1,'EMISNQCO303',NULL,'Confirmed 2019-nCoV (novel coronavirus) infection'),('covid-positive-test-other',1,'^ESCT1348575',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesemis;
@@ -414,7 +432,7 @@ SELECT *,
 	stage_previous_egfr = LAG(egfr_evidence, 1, NULL) OVER (PARTITION BY FK_Patient_Link_ID ORDER BY EventDate),
 	date_previous_egfr = LAG(EventDate, 1, NULL) OVER (PARTITION BY FK_Patient_Link_ID ORDER BY EventDate)
 INTO #egfr_dates
-FROM #ckd_stages_egfr
+FROM #ckd_stages
 ORDER BY FK_Patient_Link_ID, EventDate
 
 -- CREATE TABLE OF PATIENTS THAT HAD TWO EGFR TESTS INDICATIVE OF CKD STAGE 3-5, WITHIN 3 MONTHS OF EACH OTHER
@@ -458,36 +476,10 @@ INTO #acr_ckd_evidence
 FROM #acr_dates
 WHERE datediff(month, date_previous_acr, EventDate) >=  3 --only find patients with acr stages A1/A2 lasting at least 3 months
 
-
--- PATIENTS WITH HYPERTENSION OR DIABETES ARE AT RISK OF CKD, SO WE NOW FIND THE EARLIEST DIAGNOSIS OF THESE TWO CONDITIONS
-
-IF OBJECT_ID('tempdb..#hypertension') IS NOT NULL DROP TABLE #hypertension;
-SELECT FK_Patient_Link_ID, MIN(EventDate) as EarliestDiagnosis
-INTO #hypertension
-FROM [RLS].[vw_GP_Events] gp
-WHERE  gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND (
-	gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'hypertension' AND [Version]=1) OR
-    gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'hypertension' AND [Version]=1)
-	)
-GROUP BY FK_Patient_Link_ID
-
-IF OBJECT_ID('tempdb..#diabetes') IS NOT NULL DROP TABLE #diabetes;
-SELECT FK_Patient_Link_ID, MIN(EventDate) as EarliestDiagnosis
-INTO #diabetes
-FROM [RLS].[vw_GP_Events] gp
-WHERE  gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND (
-	gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'diabetes' AND [Version]=1) OR
-    gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'diabetes' AND [Version]=1)
-	)
-GROUP BY FK_Patient_Link_ID
-
 ---- CREATE COHORT:
 	-- 1. PATIENTS WITH EGFR TESTS INDICATIVE OF CKD STAGES 1-2, PLUS RAISED ACR OR HISTORY OF KIDNEY DAMAGE
 	-- 2. PATIENTS WITH EGFR TESTS INDICATIVE OF CKD STAGES 3-5
 	-- 3. PATIENTS WITH ACR TESTS INDICATIVE OF CKD (A3 AND A2)
-	-- 4. PATIENTS WITH HYPERTENSION OR DIABETES AT START OF STUDY PERIOD
 
 IF OBJECT_ID('tempdb..#Cohort') IS NOT NULL DROP TABLE #Cohort;
 SELECT p.FK_Patient_Link_ID,
@@ -498,9 +490,7 @@ SELECT p.FK_Patient_Link_ID,
 			OR (p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #egfr_ckd_evidence where egfr_evidence in ('G1', 'G2')) 
 				AND ((p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #acr_dates)) 
 					OR p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #kidney_damage))) 											THEN 1 ELSE 0 END,
-		EvidenceOfCKD_acr = CASE WHEN p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #acr_ckd_evidence) 							THEN 1 ELSE 0 END,
-		AtRiskOfCKD = CASE WHEN  p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #hypertension where EarliestDiagnosis <= @StartDate)  -- at risk of CKD
-							OR p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #diabetes where EarliestDiagnosis <= @StartDate) 	THEN 1 ELSE 0 END
+		EvidenceOfCKD_acr = CASE WHEN p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #acr_ckd_evidence) 							THEN 1 ELSE 0 END
 INTO #Cohort
 FROM #Patients p
 WHERE p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #egfr_ckd_evidence where egfr_evidence in ('G3a', 'G3b', 'G4', 'G5')) -- egfr indicating stages 3-5
@@ -509,12 +499,48 @@ WHERE p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #egfr_ckd_evidence
 			AND ((p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #acr_dates)) OR p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #kidney_damage))
 		) -- egfr stages 1-2 and (ACR evidence or kidney damage) 
 	OR p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #acr_ckd_evidence) -- ACR evidence
-	OR p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #hypertension where EarliestDiagnosis <= @StartDate)  -- at risk of CKD
-	OR p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #diabetes where EarliestDiagnosis <= @StartDate)  -- at risk of CKD
+
+-- TABLE OF GP EVENTS FOR COHORT TO SPEED UP REUSABLE QUERIES
+
+IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(EventDate AS DATE) AS EventDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID,
+  [Value]
+INTO #PatientEventData
+FROM [RLS].vw_GP_Events
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
 
 ---------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
+
+-- FIND WHICH PATIENTS IN THE COHORT HAD HYPERTENSION OR DIABETES AND THE DATE OF EARLIEST DIAGNOSIS
+
+IF OBJECT_ID('tempdb..#hypertension') IS NOT NULL DROP TABLE #hypertension;
+SELECT FK_Patient_Link_ID, MIN(EventDate) as EarliestDiagnosis
+INTO #hypertension
+FROM [RLS].[vw_GP_Events] gp
+WHERE  gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
+AND (
+	gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'hypertension' AND [Version]=1) OR
+    gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'hypertension' AND [Version]=1)
+	)
+GROUP BY FK_Patient_Link_ID
+
+IF OBJECT_ID('tempdb..#diabetes') IS NOT NULL DROP TABLE #diabetes;
+SELECT FK_Patient_Link_ID, MIN(EventDate) as EarliestDiagnosis
+INTO #diabetes
+FROM [RLS].[vw_GP_Events] gp
+WHERE  gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
+AND (
+	gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'diabetes' AND [Version]=1) OR
+    gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'diabetes' AND [Version]=1)
+	)
+GROUP BY FK_Patient_Link_ID
 
 
 --┌────────────────────┐
@@ -551,7 +577,7 @@ WHERE p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #egfr_ckd_evidence
 
 IF OBJECT_ID('tempdb..#VacEvents') IS NOT NULL DROP TABLE #VacEvents;
 SELECT FK_Patient_Link_ID, CONVERT(DATE, EventDate) AS EventDate into #VacEvents
-FROM RLS.vw_GP_Events
+FROM #PatientEventData
 WHERE SuppliedCode IN (
 	SELECT [Code] FROM #AllCodes WHERE [Concept] = 'covid-vaccination' AND [Version] = 1
 )
@@ -1416,7 +1442,7 @@ SELECT
 	FK_Reference_Coding_ID,
 	FK_Reference_SnomedCT_ID
 INTO #AllPatientSmokingStatusCodes
-FROM RLS.vw_GP_Events
+FROM #PatientEventData
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND FK_Reference_SnomedCT_ID IN (
 	SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets 
@@ -1437,7 +1463,7 @@ SELECT
 	CAST(EventDate AS DATE) AS EventDate,
 	FK_Reference_Coding_ID,
 	FK_Reference_SnomedCT_ID
-FROM RLS.vw_GP_Events
+FROM #PatientEventData
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND FK_Reference_Coding_ID IN (
 	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets 
@@ -1563,7 +1589,7 @@ SELECT
 	FK_Reference_SnomedCT_ID,
 	[Value]
 INTO #AllPatientAlcoholIntakeCodes
-FROM RLS.vw_GP_Events
+FROM #PatientEventData
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND FK_Reference_SnomedCT_ID IN (
 	SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets 
@@ -1583,7 +1609,7 @@ SELECT
 	FK_Reference_Coding_ID,
 	FK_Reference_SnomedCT_ID,
 	[Value]
-FROM RLS.vw_GP_Events
+FROM #PatientEventData
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND FK_Reference_Coding_ID IN (
 	SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets 
@@ -1666,6 +1692,166 @@ INTO #PatientAlcoholIntake FROM #Patients p
 LEFT OUTER JOIN #TempWorstAlc w on w.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #TempCurrentAlc c on c.FK_Patient_Link_ID = p.FK_Patient_Link_ID;
 
+
+-- REDUCE THE #Patients TABLE SO THAT IT ONLY INCLUDES THE COHORT, AND REUSABLE QUERIES CAN USE IT TO BE RUN QUICKER 
+
+DELETE FROM #Patients
+WHERE FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #Cohort)
+
+--┌─────────────────────┐
+--│ Patients with COVID │
+--└─────────────────────┘
+
+-- OBJECTIVE: To get tables of all patients with a COVID diagnosis in their record. This now includes a table
+-- that has reinfections. This uses a 90 day cut-off to rule out patients that get multiple tests for
+-- a single infection. This 90 day cut-off is also used in the government COVID dashboard. In the first wave,
+-- prior to widespread COVID testing, and prior to the correct clinical codes being	available to clinicians,
+-- infections were recorded in a variety of ways. We therefore take the first diagnosis from any code indicative
+-- of COVID. However, for subsequent infections we insist on the presence of a positive COVID test (PCR or antigen)
+-- as opposed to simply a diagnosis code. This is to avoid the situation where a hospital diagnosis code gets 
+-- entered into the primary care record several months after the actual infection.
+
+-- INPUT: Takes three parameters
+--  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+--	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+--	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
+
+-- OUTPUT: Three temp tables as follows:
+-- #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- FirstCovidPositiveDate - earliest COVID diagnosis
+-- #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
+-- 	- FK_Patient_Link_ID - unique patient id
+--	- CovidPositiveDate - any COVID diagnosis
+-- #CovidPatientsMultipleDiagnoses
+--	-	FK_Patient_Link_ID - unique patient id
+--	-	FirstCovidPositiveDate - date of first COVID diagnosis
+--	-	SecondCovidPositiveDate - date of second COVID diagnosis
+--	-	ThirdCovidPositiveDate - date of third COVID diagnosis
+--	-	FourthCovidPositiveDate - date of fourth COVID diagnosis
+--	-	FifthCovidPositiveDate - date of fifth COVID diagnosis
+
+-- >>> Following code sets injected: covid-positive-antigen-test v1/covid-positive-pcr-test v1/covid-positive-test-other v1
+
+IF OBJECT_ID('tempdb..#CovidPatientsAllDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsAllDiagnoses;
+CREATE TABLE #CovidPatientsAllDiagnoses (
+	FK_Patient_Link_ID BIGINT,
+	CovidPositiveDate DATE
+);
+BEGIN
+	IF 'false'='true'
+		INSERT INTO #CovidPatientsAllDiagnoses
+		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
+		FROM [RLS].[vw_COVID19]
+		WHERE (
+			(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+		)
+		AND EventDate > '2020-01-01'
+		AND EventDate <= GETDATE();
+	ELSE 
+		INSERT INTO #CovidPatientsAllDiagnoses
+		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
+		FROM [RLS].[vw_COVID19]
+		WHERE (
+			(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+		)
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+		AND EventDate > '2020-01-01'
+		AND EventDate <= GETDATE();
+END
+
+-- We can rely on the GraphNet table for first diagnosis.
+IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
+SELECT FK_Patient_Link_ID, MIN(CovidPositiveDate) AS FirstCovidPositiveDate INTO #CovidPatients
+FROM #CovidPatientsAllDiagnoses
+GROUP BY FK_Patient_Link_ID;
+
+-- Now let's get the dates of any positive test (i.e. not things like suspected, or historic)
+IF OBJECT_ID('tempdb..#AllPositiveTestsTemp') IS NOT NULL DROP TABLE #AllPositiveTestsTemp;
+CREATE TABLE #AllPositiveTestsTemp (
+	FK_Patient_Link_ID BIGINT,
+	TestDate DATE
+);
+BEGIN
+	IF 'false'='true'
+		INSERT INTO #AllPositiveTestsTemp
+		SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
+		FROM #PatientEventData
+		WHERE SuppliedCode IN (
+			select Code from #AllCodes 
+			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
+			AND Version = 1
+		);
+	ELSE 
+		INSERT INTO #AllPositiveTestsTemp
+		SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
+		FROM #PatientEventData
+		WHERE SuppliedCode IN (
+			select Code from #AllCodes 
+			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
+			AND Version = 1
+		)
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+END
+
+IF OBJECT_ID('tempdb..#CovidPatientsMultipleDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsMultipleDiagnoses;
+CREATE TABLE #CovidPatientsMultipleDiagnoses (
+	FK_Patient_Link_ID BIGINT,
+	FirstCovidPositiveDate DATE,
+	SecondCovidPositiveDate DATE,
+	ThirdCovidPositiveDate DATE,
+	FourthCovidPositiveDate DATE,
+	FifthCovidPositiveDate DATE
+);
+
+-- Populate first diagnosis
+INSERT INTO #CovidPatientsMultipleDiagnoses (FK_Patient_Link_ID, FirstCovidPositiveDate)
+SELECT FK_Patient_Link_ID, MIN(FirstCovidPositiveDate) FROM
+(
+	SELECT * FROM #CovidPatients
+	UNION
+	SELECT * FROM #AllPositiveTestsTemp
+) sub
+GROUP BY FK_Patient_Link_ID;
+
+-- Now let's get second tests.
+UPDATE t1
+SET t1.SecondCovidPositiveDate = NextTestDate
+FROM #CovidPatientsMultipleDiagnoses AS t1
+INNER JOIN (
+SELECT cp.FK_Patient_Link_ID, MIN(apt.TestDate) AS NextTestDate FROM #CovidPatients cp
+INNER JOIN #AllPositiveTestsTemp apt ON cp.FK_Patient_Link_ID = apt.FK_Patient_Link_ID AND apt.TestDate >= DATEADD(day, 90, FirstCovidPositiveDate)
+GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient_Link_ID;
+
+-- Now let's get third tests.
+UPDATE t1
+SET t1.ThirdCovidPositiveDate = NextTestDate
+FROM #CovidPatientsMultipleDiagnoses AS t1
+INNER JOIN (
+SELECT cp.FK_Patient_Link_ID, MIN(apt.TestDate) AS NextTestDate FROM #CovidPatientsMultipleDiagnoses cp
+INNER JOIN #AllPositiveTestsTemp apt ON cp.FK_Patient_Link_ID = apt.FK_Patient_Link_ID AND apt.TestDate >= DATEADD(day, 90, SecondCovidPositiveDate)
+GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient_Link_ID;
+
+-- Now let's get fourth tests.
+UPDATE t1
+SET t1.FourthCovidPositiveDate = NextTestDate
+FROM #CovidPatientsMultipleDiagnoses AS t1
+INNER JOIN (
+SELECT cp.FK_Patient_Link_ID, MIN(apt.TestDate) AS NextTestDate FROM #CovidPatientsMultipleDiagnoses cp
+INNER JOIN #AllPositiveTestsTemp apt ON cp.FK_Patient_Link_ID = apt.FK_Patient_Link_ID AND apt.TestDate >= DATEADD(day, 90, ThirdCovidPositiveDate)
+GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient_Link_ID;
+
+-- Now let's get fifth tests.
+UPDATE t1
+SET t1.FifthCovidPositiveDate = NextTestDate
+FROM #CovidPatientsMultipleDiagnoses AS t1
+INNER JOIN (
+SELECT cp.FK_Patient_Link_ID, MIN(apt.TestDate) AS NextTestDate FROM #CovidPatientsMultipleDiagnoses cp
+INNER JOIN #AllPositiveTestsTemp apt ON cp.FK_Patient_Link_ID = apt.FK_Patient_Link_ID AND apt.TestDate >= DATEADD(day, 90, FourthCovidPositiveDate)
+GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient_Link_ID;
+
 ---- CREATE OUTPUT TABLE OF ALL INFO NEEDED FOR THE COHORT
 
 SELECT  PatientId = p.FK_Patient_Link_ID, 
@@ -1691,13 +1877,18 @@ SELECT  PatientId = p.FK_Patient_Link_ID,
 		SecondVaccineMonth = MONTH(VaccineDose2Date),
 		ThirdVaccineYear =  YEAR(VaccineDose3Date),
 		ThirdVaccineMonth = MONTH(VaccineDose3Date),
+		FirstCovidPositiveDate,
+		SecondCovidPositiveDate, 
+		ThirdCovidPositiveDate, 
+		FourthCovidPositiveDate, 
+		FifthCovidPositiveDate,
 		AEEncountersBefore1stMarch2020 = ae_b.ae_encounters,
 		AEEncountersAfter1stMarch2020 = ae_a.ae_encounters,
 		GPAppointmentsBefore1stMarch2020 = gp_b.gp_appointments,
 		GPAppointmentsAfter1stMarch2020 =  gp_a.gp_appointments ,
 		EvidenceOfCKD_egfr,
 		EvidenceOfCKD_acr,
-		AtRiskOfCKD,
+		AtRiskOfCKD = NULL,
 		HypertensionAtStudyStart = CASE WHEN hyp.FK_Patient_Link_ID IS NOT NULL AND hyp.EarliestDiagnosis <= @StartDate THEN 1 ELSE 0 END,
 		HypertensionDuringStudyPeriod = CASE WHEN hyp.FK_Patient_Link_ID IS NOT NULL AND hyp.EarliestDiagnosis BETWEEN @StartDate AND @EndDate THEN 1 ELSE 0 END,
 		DiabetesAtStudyStart = CASE WHEN dia.FK_Patient_Link_ID IS NOT NULL AND dia.EarliestDiagnosis <= @StartDate THEN 1 ELSE 0 END,
@@ -1720,5 +1911,7 @@ LEFT OUTER JOIN #count_gp_appointments gp_b ON gp_b.FK_Patient_Link_ID = p.FK_Pa
 LEFT OUTER JOIN #count_gp_appointments gp_a ON gp_a.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND gp_a.BeforeOrAfter1stMarch2020 = 'AFTER'
 LEFT OUTER JOIN #hypertension hyp ON hyp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #diabetes dia ON dia.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cv ON CV.FK_Patient_Link_ID = P.FK_Patient_Link_ID
+
 WHERE YEAR(@StartDate) - YearOfBirth > 18 -- OVER 18s ONLY
 --320,594
