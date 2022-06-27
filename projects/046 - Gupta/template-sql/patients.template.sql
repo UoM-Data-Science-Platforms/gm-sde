@@ -95,22 +95,7 @@ WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 		p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #DiabetesT2Patients) 			     -- Diabetes T2 diagnosis
 		)
 
-
 ----------------------------------------------------------------------------------------
-
--- DIABETES DIAGNOSIS INFO 
-
-IF OBJECT_ID('tempdb..#DiabetesDates') IS NOT NULL DROP TABLE #DiabetesDates;
-SELECT c.FK_Patient_Link_ID, 
-	DiabetesT1 = CASE WHEN t1.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END,
-	DiabetesT1_EarliestDiagnosis = CASE WHEN t1.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END,
-	DiabetesT2 = CASE WHEN t2.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END,
-	DiabetesT2_EarliestDiagnosis = CASE WHEN t2.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END
-INTO #DiabetesDates
-FROM #Cohort c
-LEFT OUTER JOIN #DiabetesT1Patients t1 ON t1.FK_Patient_Link_ID = c.FK_Patient_Link_ID AND 
-LEFT OUTER JOIN #DiabetesT2Patients t2 ON t2.FK_Patient_Link_ID = c.FK_Patient_Link_ID
-
 
 -- TABLE OF GP EVENTS FOR COHORT TO SPEED UP REUSABLE QUERIES
 
@@ -522,5 +507,4 @@ LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cv ON CV.FK_Patient_Link_ID = P.
 LEFT OUTER JOIN #HistoryOfLTCs ltc on ltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #NewLTCs nltc on nltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #patient_observations obs on obs.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #DiabetesDates dd on dd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientCareHomeStatus ch on ch.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
