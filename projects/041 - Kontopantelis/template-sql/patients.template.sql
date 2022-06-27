@@ -32,7 +32,6 @@
 -- Total GP appointments (01.03.18 - 01.03.22)
 -- evidenceOfCKD_egfr (1/0)
 -- evidenceOfCKD_acr (1/0)
--- atRiskOfCKD (1/0)
 -- HypertensionAtStudyStart
 -- HypertensionDuringStudyPeriod
 -- DiabetesAtStudyStart
@@ -360,10 +359,9 @@ SELECT  PatientId = p.FK_Patient_Link_ID,
 		AEEncountersBefore1stMarch2020 = ae_b.ae_encounters,
 		AEEncountersAfter1stMarch2020 = ae_a.ae_encounters,
 		GPAppointmentsBefore1stMarch2020 = gp_b.gp_appointments,
-		GPAppointmentsAfter1stMarch2020 =  gp_a.gp_appointments ,
+		GPAppointmentsAfter1stMarch2020 =  gp_a.gp_appointments,
 		EvidenceOfCKD_egfr,
 		EvidenceOfCKD_acr,
-		AtRiskOfCKD = NULL,
 		HypertensionAtStudyStart = CASE WHEN hyp.FK_Patient_Link_ID IS NOT NULL AND hyp.EarliestDiagnosis <= @StartDate THEN 1 ELSE 0 END,
 		HypertensionDuringStudyPeriod = CASE WHEN hyp.FK_Patient_Link_ID IS NOT NULL AND hyp.EarliestDiagnosis BETWEEN @StartDate AND @EndDate THEN 1 ELSE 0 END,
 		DiabetesAtStudyStart = CASE WHEN dia.FK_Patient_Link_ID IS NOT NULL AND dia.EarliestDiagnosis <= @StartDate THEN 1 ELSE 0 END,

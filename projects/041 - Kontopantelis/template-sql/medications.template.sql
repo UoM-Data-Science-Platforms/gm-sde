@@ -5,23 +5,7 @@
 ------------ RESEARCH DATA ENGINEER CHECK ------------
 -- 
 
--- All prescriptions of the following medications during the study period:
-	-- aminoglycosides
-	-- [ace-inhibitor-or-ARB],
-	-- bisphosphonate,
-	-- [calcineurin-inhibitor],
-	-- diuretic,
-	-- lithium ,
-	-- mesalazine ,
-	-- nsaid, 
-	-- [sglt2-inhibitor] ,
-	-- metformin,
-	-- sulphonylurea,
-	-- [glp1-receptor-agonist],
-	-- statin,
-	-- antipsychotic,
-	-- [oestrogens-and-hrt]
-	-- contraceptive
+-- All prescriptions of certain medications during the study period
 
 -- OUTPUT: Data with the following fields
 -- 	-   PatientId (int)
