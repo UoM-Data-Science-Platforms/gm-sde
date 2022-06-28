@@ -1,0 +1,14 @@
+d751.	Prothiaden 25mg capsule
+d752.	Prothiaden 75mg tablet
+d753.	Prepadine 25mg capsule
+d754.	Prepadine 75mg tablet
+d755.	Dothapax 25mg capsule
+d756.	Dothapax 75mg tablet
+d757.	Dosulepin hydrochloride 25mg/5mL s/f elixir
+d757.	Dothiepin hydrochloride 25mg/5mL s/f elixir
+d758.	Dosulepin hydrochloride 75mg/5mL s/f elixir
+d758.	Dothiepin hydrochloride 75mg/5mL s/f elixir
+d75y.	Dosulepin hydrochloride 25mg capsule
+d75y.	Dothiepin hydrochloride 25mg capsule
+d75z.	Dosulepin hydrochloride 75mg tablet
+d75z.	Dothiepin hydrochloride 75mg tablet

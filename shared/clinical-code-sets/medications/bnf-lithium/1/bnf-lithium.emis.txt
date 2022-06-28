@@ -1,0 +1,88 @@
+^ESCT1187289	Product containing only lithium carbonate 250 mg/1 each oral tablet
+^ESCT1215496	Lithium carbonate 450mg modified-release tablets
+^ESCT1215497	Lithium citrate 520mg/5ml oral solution sugar free
+^ESCT1223504	Product containing precisely lithium carbonate 250 milligram/1 each conventional release oral tablet
+^ESCT1223505	Product containing precisely lithium citrate 101.8 milligram/1 milliliter conventional release oral solution
+^ESCT1223506	Lithium citrate 101.8 mg/mL oral solution
+^ESCT1223507	Lithium citrate 203.6 mg/mL oral solution
+^ESCT1223508	Product containing precisely lithium citrate 203.6 milligram/1 milliliter conventional release oral solution
+^ESCT1250048	Priadel 200mg modified-release tablets (Essential Pharma M)
+^ESCT1250068	Priadel 400mg modified-release tablets (Essential Pharma M)
+^ESCT1250158	Priadel 200mg modified-release tablets (Essential Pharma M) 100 tablet 10 x 10 tablets
+^ESCT1250159	Priadel 400mg modified-release tablets (Essential Pharma M) 100 tablet 10 x 10 tablets
+^ESCT1250240	Priadel 520mg/5ml liquid (Essential Pharma M)
+^ESCT1250241	Priadel 520mg/5ml liquid (Essential Pharma M) 150 ml
+^ESCT1402860	Lithium carbonate 200mg modified-release tablets
+^ESCT1402861	Lithium carbonate 400mg modified-release tablets
+^ESCT1409727	Liskonum 450mg modified-release tablets (Teofarma S.r.l.)
+^ESCT1410012	Liskonum 450mg modified-release tablets (Teofarma S.r.l.) 60 tablet 6 x 10 tablets
+^ESCT1426731	Lithium carbonate 400mg modified-release tablets (Kent Pharma (UK) Ltd)
+^ESCT1426732	Lithium carbonate 400mg modified-release tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCTCA808042	Camcolit 400 modified-release tablets (Essential Pharma Ltd)
+^ESCTCA830691	Camcolit 250 tablets (Essential Pharma Ltd)
+^ESCTCA856949	Camcolit 250 tablets (Essential Pharma Ltd) 100 tablet
+^ESCTCA856960	Camcolit 400 modified-release tablets (Essential Pharma Ltd) 100 tablet
+^ESCTLI1126145	Lithium carbonate 250mg tablets (Essential Pharma Ltd)
+^ESCTLI1126146	Lithium carbonate 250mg tablets (Essential Pharma Ltd) 100 tablet
+^ESCTLI1126523	Lithium carbonate 250mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLI1126525	Lithium carbonate 250mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTLI1128242	Lithium carbonate 250mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLI1128243	Lithium carbonate 250mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTLI609568	Lithium carbonate 250mg tablets
+^ESCTLI609570	Lithium carbonate 250 mg oral tablet
+^ESCTLI609579	Lithium citrate 509mg/5ml oral solution
+^ESCTLI609580	Lithium citrate 509mg/5mL oral solution
+^ESCTLI609581	Lithium citrate 5.4mmol/5mL oral solution
+^ESCTLI609582	Lithium citrate 1.018g/5ml oral solution
+^ESCTLI609583	Lithium citrate 10.8mmol/5mL oral solution
+^ESCTLI609584	Lithium citrate 1018mg/5mL oral solution
+^ESCTLI821342	Liskonum 450mg modified-release tablets (Teofarma)
+^ESCTLI835276	Lithium carbonate 250mg tablets 100 tablet
+^ESCTLI846980	Lithium carbonate 200mg modified-release tablets 100 tablet
+^ESCTLI848284	Lithium carbonate 400mg modified-release tablets 100 tablet
+^ESCTLI848604	Lithium carbonate 450mg modified-release tablets 60 tablet
+^ESCTLI856954	Liskonum 450mg modified-release tablets (Teofarma) 60 tablet 6 x 10 tablets
+^ESCTLI864783	Lithium citrate 520mg/5ml oral solution sugar free 150 ml
+^ESCTLI870788	Lithium citrate 564mg modified-release tablets 100 tablet
+^ESCTLI870791	Litarex 564mg modified-release tablets (Actavis UK Ltd)
+^ESCTLI870792	Litarex 564mg modified-release tablets (Actavis UK Ltd) 100 tablet
+^ESCTLI870932	Lithium citrate 564mg modified-release tablets
+^ESCTLI873026	Lithium carbonate 400mg modified-release tablets (Kent Pharmaceuticals Ltd)
+^ESCTLI873027	Lithium carbonate 400mg modified-release tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTLI873674	Lithium citrate 1.018g/5ml oral solution 150 ml
+^ESCTLI873675	Li-Liquid 1.018g/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCTLI873676	Li-Liquid 1.018g/5ml oral solution (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTLI878789	Lithonate 400mg modified-release tablets (Teva UK Ltd)
+^ESCTLI878790	Lithonate 400mg modified-release tablets (Teva UK Ltd) 100 tablet
+^ESCTLI908060	Lithium carbonate 200mg/5ml oral suspension 1 ml
+^ESCTLI908061	Lithium carbonate 200mg/5ml oral suspension (Special Order)
+^ESCTLI908062	Lithium carbonate 200mg/5ml oral suspension (Special Order) 1 ml
+^ESCTLI908368	Lithium carbonate 200mg/5ml oral suspension
+^ESCTLI909623	Lithium citrate 509mg/5ml oral solution 150 ml
+^ESCTLI909624	Li-Liquid 509mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCTLI909625	Li-Liquid 509mg/5ml oral solution (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTPR609569	Product containing lithium carbonate 250 mg/1 each oral tablet
+^ESCTPR820052	Priadel 200mg modified-release tablets (Sanofi)
+^ESCTPR823862	Priadel 400mg modified-release tablets (Sanofi)
+^ESCTPR856958	Priadel 200mg modified-release tablets (Sanofi) 100 tablet 10 x 10 tablets
+^ESCTPR856962	Priadel 400mg modified-release tablets (Sanofi) 100 tablet 10 x 10 tablets
+^ESCTPR864785	Priadel 520mg/5ml liquid (Sanofi)
+^ESCTPR864794	Priadel 520mg/5ml liquid (Sanofi) 150 ml
+CATA469	Camcolit 250  Tablets  250 mg
+CATA5686	Camcolit 400  M/R tablets  400 mg
+LILI9522EMIS	Lithium Citrate  Oral Solution, Sugar Free  520 mg/5 ml
+LISY13277NEMIS	Lithium Citrate  Oral solution  509 mg (5.4 mmol)/5 ml
+LISY13278NEMIS	Lithium Citrate  Oral solution  1.018 grams (10.8 mmol)/5 ml
+LISY13279NEMIS	Li-Liquid  Oral solution  509 mg (5.4 mmol)/5 ml
+LISY13280NEMIS	Li-Liquid  Oral solution  1.018 grams (10.8 mmol)/5 ml
+LITA105650NEMIS	Lithium Carbonate (Essential Pharma)  Tablets  250 mg
+LITA1675	Liskonum  M/R tablets  450 mg
+LITA1676	Litarex  M/R tablets  564 mg
+LITA1677	Lithium Carbonate  Tablets  250 mg
+LITA1678	Lithium Carbonate  M/R tablets  400 mg
+LITA5092	Lithium Carbonate  M/R tablets  200 mg
+LITA5094	Lithium Carbonate  M/R tablets  450 mg
+LITA5095	Lithium Citrate  M/R tablets  564 mg
+PRLI9836HILLI	Priadel  Liquid  520 mg/5 ml
+PRTA2344	Priadel  M/R tablets  200 mg
+PRTA2345	Priadel  M/R tablets  400 mg

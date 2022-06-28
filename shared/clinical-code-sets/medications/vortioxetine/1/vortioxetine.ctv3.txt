@@ -1,0 +1,6 @@
+daE1.	BRINTELLIX 5mg tablets
+daE2.	VORTIOXETINE 5mg tablets
+daE3.	BRINTELLIX 10mg tablets
+daE4.	VORTIOXETINE 10mg tablets
+daE5.	BRINTELLIX 20mg tablets
+daE6.	VORTIOXETINE 20mg tablets

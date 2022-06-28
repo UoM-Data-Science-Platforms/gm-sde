@@ -1,0 +1,7 @@
+^ESCT1424876	Reboxetine 4mg tablets
+^ESCTED820182	Edronax 4mg tablets (Pfizer Ltd)
+^ESCTED855005	Edronax 4mg tablets (Pfizer Ltd) 60 tablet 3 x 20 tablets
+^ESCTRE1002315	Reboxetine 4mg tablets 20 tablet
+^ESCTRE848409	Reboxetine 4mg tablets 60 tablet
+EDTA31120EMIS	Edronax  Tablets  4 mg
+RETA31122EMIS	Reboxetine  Tablets  4 mg

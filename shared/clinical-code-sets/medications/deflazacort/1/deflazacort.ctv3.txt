@@ -1,0 +1,6 @@
+fe91.	Deflazacort 6mg tablet
+fe92.	Calcort 6mg tablet
+fe93.	Deflazacort 30mg tablet
+fe94.	Calcort 30mg tablet
+fe95.	Deflazacort 1mg tablet
+fe96.	Calcort 1mg tablet

@@ -1,0 +1,5 @@
+d791.	*GAMANIL 70mg tablets x56CP
+d792.	LOMONT 70mg/5mL sugar free suspension
+d793.	*FEPRAPAX 70mg tablets
+d79y.	LOFEPRAMINE 70mg/5mL sugar free suspension
+d79z.	LOFEPRAMINE 70mg tablets

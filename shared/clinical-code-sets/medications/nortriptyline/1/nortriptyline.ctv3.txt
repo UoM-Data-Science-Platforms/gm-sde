@@ -1,0 +1,9 @@
+d7c1.	Allegron 10mg tablet
+d7c2.	Allegron 25mg tablet
+d7c6.	Nortriptyline 10mg tablet
+d7c8.	Nortriptyline 25mg tablet
+d7c9.	Nortriptyline 10mg capsule
+d7cy.	Nortriptyline 25mg capsule
+d914.	Motival tablet
+d91A.	Fluphenazine hydrochloride+nortriptyline 500micrograms/10mg tablet
+x00fc	Motipress tablet

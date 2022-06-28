@@ -1,0 +1,4 @@
+gde3.	CYMBALTA 30mg gastro-resistant capsules
+gde4.	CYMBALTA 60mg gastro-resistant capsules
+gdew.	DULOXETINE 60mg gastro-resistant capsules
+gdex.	DULOXETINE 30mg gastro-resistant capsules

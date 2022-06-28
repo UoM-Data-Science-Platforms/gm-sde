@@ -1,0 +1,10 @@
+d731.	*ANAFRANIL 10mg capsules
+d732.	*ANAFRANIL 25mg capsules
+d733.	*ANAFRANIL 50mg capsules
+d734.	*ANAFRANIL 25mg/5mL syrup
+d736.	*ANAFRANIL SR 75mg m/r tablets
+d73u.	CLOMIPRAMINE HCL 10mg capsules
+d73v.	CLOMIPRAMINE HCL 25mg capsules
+d73w.	CLOMIPRAMINE HCL 50mg capsules
+d73x.	CLOMIPRAMINE HYDROCHLORIDE 25mg/5mL syrup
+d73z.	CLOMIPRAMINE HCL 75mg m/r tabs

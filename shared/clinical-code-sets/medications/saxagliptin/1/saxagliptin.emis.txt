@@ -1,0 +1,30 @@
+^ESCT1424881	Saxagliptin 2.5mg tablets
+^ESCT1424882	Saxagliptin 5mg tablets
+^ESCTKO1040776	Komboglyze 2.5mg/850mg tablets (AstraZeneca UK Ltd)
+^ESCTKO1040777	Komboglyze 2.5mg/850mg tablets (AstraZeneca UK Ltd) 56 tablet 7 x 8 tablets
+^ESCTKO1040779	Komboglyze 2.5mg/1000mg tablets (AstraZeneca UK Ltd)
+^ESCTKO1040780	Komboglyze 2.5mg/1000mg tablets (AstraZeneca UK Ltd) 56 tablet 7 x 8 tablets
+^ESCTON1012101	Onglyza 2.5mg tablets (AstraZeneca UK Ltd)
+^ESCTON1012102	Onglyza 2.5mg tablets (AstraZeneca UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTON987171	Onglyza 5mg tablets (AstraZeneca UK Ltd)
+^ESCTON987172	Onglyza 5mg tablets (AstraZeneca UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTQT1153704	Qtern 5mg/10mg tablets (AstraZeneca UK Ltd)
+^ESCTQT1153705	Qtern 5mg/10mg tablets (AstraZeneca UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTSA1012100	Saxagliptin 2.5mg tablets 28 tablet
+^ESCTSA1040775	Saxagliptin 2.5mg / Metformin 850mg tablets 56 tablet
+^ESCTSA1040778	Saxagliptin 2.5mg / Metformin 1g tablets 56 tablet
+^ESCTSA1040826	Saxagliptin 2.5mg / Metformin 1g tablets
+^ESCTSA1040827	Saxagliptin 2.5mg / Metformin 850mg tablets
+^ESCTSA1153703	Saxagliptin 5mg / Dapagliflozin 10mg tablets 28 tablet
+^ESCTSA1154285	Saxagliptin 5mg / Dapagliflozin 10mg tablets
+^ESCTSA987170	Saxagliptin 5mg tablets 28 tablet
+KOTA78214NEMIS	Komboglyze  Tablets  2.5 mg + 850 mg
+KOTA78215NEMIS	Komboglyze  Tablets  2.5 mg + 1000 mg
+ONTA39317NEMIS	Onglyza  Tablets  5 mg
+ONTA48255NEMIS	Onglyza  Tablets  2.5 mg
+QTTA119016NEMIS	Qtern  Tablets  5 mg + 10 mg
+SATA119013NEMIS	Saxagliptin And Dapagliflozin  Tablets  5 mg + 10 mg
+SATA39314NEMIS	Saxagliptin  Tablets  5 mg
+SATA48254NEMIS	Saxagliptin  Tablets  2.5 mg
+SATA78211NEMIS	Saxagliptin And Metformin  Tablets  2.5 mg + 850 mg
+SATA78212NEMIS	Saxagliptin And Metformin  Tablets  2.5 mg + 1000 mg

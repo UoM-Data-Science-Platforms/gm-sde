@@ -1,0 +1,17 @@
+d611.	*CAMCOLIT 250mg tablets
+d612.	CAMCOLIT 400mg tablets
+d613.	LISKONUM 450mg m/r tablets
+d615.	PRIADEL 400mg m/r tablets
+d616.	PRIADEL 200mg m/r tablets
+d61s.	LITHIUM CARBONATE 200mg m/r tablets
+d61v.	LITHIUM CARBONATE 250mg tablets
+d61x.	LITHIUM CARBONATE 450mg m/r tablets
+d61z.	LITHIUM CARBONATE 400mg m/r tablets
+d621.	*LITAREX 564mg m/r tablets
+d622.	LI-LIQUID 5.4mmol/5mL liquid
+d623.	LI-LIQUID 10.8mmol/5mL liquid
+d625.	PRIADEL 520mg/5mL sugar free liquid
+d62w.	LITHIUM CITRATE 520mg/5mL sugar free liquid
+d62x.	LITHIUM CITRATE 5.4mmol/5mL liquid
+d62y.	LITHIUM CITRATE 10.8mmol/5mL liquid
+d62z.	LITHIUM CITRATE 564mg m/r tablets

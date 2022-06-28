@@ -1,0 +1,7 @@
+fe31.	Dexamethasone 500micrograms tablet
+fe32.	Dexamethasone 2mg tablet
+fe33.	Decadron 500micrograms tablet
+fe3A.	Dexsol 2mg/5mL oral solution
+fe3B.	DEXAMETHASONE 10mg/5mL oral solution
+fe3C.	MARTAPAN 2mg/5mL oral solution
+fe3s.	Dexamethasone 2mg/5mL s/f oral solution

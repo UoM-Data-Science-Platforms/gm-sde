@@ -1,0 +1,8 @@
+ft81.	JANUVIA 100mg tablets
+ft82.	JANUVIA 50mg tablets
+ft83.	JANUVIA 25mg tablets
+ft8x.	SITAGLIPTIN 25mg tablets
+ft8y.	SITAGLIPTIN 50mg tablets
+ft8z.	SITAGLIPTIN 100mg tablets
+fte1.	JANUMET 50mg/1000mg tablets
+ftez.	SITAGLIPTIN/METFORMIN HYDROCHLORIDE 50mg/1000mg tablets

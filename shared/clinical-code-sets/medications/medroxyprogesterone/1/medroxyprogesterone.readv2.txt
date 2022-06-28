@@ -1,0 +1,12 @@
+fg44.	PROVERA 5mg tablets
+fg45.	PROVERA 10mg tablets
+fg46.	MEDROXYPROGESTERONE 10mg tablets
+fg47.	PROVERA 2.5mg tablets
+fg48.	MEDROXYPROGESTERONE 2.5mg tablets
+fg4A.	*ADGYN MEDRO 5mg tablets
+fg4z.	MEDROXYPROGESTERONE 5mg tablets
+ga32.	DEPO-PROVERA 150mg/1mL injection
+ga35.	MEDROXYPROGESTERONE 150mg/1mL prefilled syringe
+ga36.	DEPO-PROVERA 150mg/1mL prefilled syringe
+ga37.	SAYANA PRESS 104mg/0.65mL susp for injection prefill device
+ga38.	MEDROXYPROGESTERONE ACET 104mg/0.65mL susp for inj device

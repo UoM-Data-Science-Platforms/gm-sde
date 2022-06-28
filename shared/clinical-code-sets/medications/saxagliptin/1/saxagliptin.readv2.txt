@@ -1,0 +1,8 @@
+ftd1.	ONGLYZA 5mg tablets
+ftd2.	ONGLYZA 2.5mg tablets
+ftdy.	SAXAGLIPTIN 2.5mg tablets
+ftdz.	SAXAGLIPTIN 5mg tablets
+fti1.	KOMBOGLYZE 2.5mg/850mg tablets
+fti2.	SAXAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/850mg tablets
+fti3.	KOMBOGLYZE 2.5mg/1000mg tablets
+fti4.	SAXAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/1000mg tablets

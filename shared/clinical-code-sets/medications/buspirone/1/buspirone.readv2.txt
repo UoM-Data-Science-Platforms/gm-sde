@@ -1,0 +1,4 @@
+d2f1.	BUSPIRONE 5mg tablets
+d2f2.	*BUSPAR 5mg tablets
+d2f4.	*BUSPAR 10mg tablets
+d2f5.	BUSPIRONE 10mg tablets

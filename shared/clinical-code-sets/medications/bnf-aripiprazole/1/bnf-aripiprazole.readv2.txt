@@ -1,0 +1,16 @@
+d4v1.	ABILIFY 10mg tablets
+d4v2.	ABILIFY 15mg tablets
+d4v3.	ABILIFY 30mg tablets
+d4v4.	ABILIFY 5mg tablets
+d4v5.	ABILIFY 10mg oro-dispersible tablets
+d4v6.	ABILIFY 15mg oro-dispersible tablets
+d4v7.	ABILIFY 1mg/mL oral solution
+d4v8.	ABILIFY 9.75mg/1.3mL solution for injection
+d4vs.	ARIPIPRAZOLE 9.75mg/1.3mL solution for injection
+d4vt.	ARIPIPRAZOLE 1mg/mL oral solution
+d4vu.	ARIPIPRAZOLE 10mg oro-dispersible tablets
+d4vv.	ARIPIPRAZOLE 15mg oro-dispersible tablets
+d4vw.	ARIPIPRAZOLE 5mg tablets
+d4vx.	ARIPIPRAZOLE 30mg tablets
+d4vy.	ARIPIPRAZOLE 15mg tablets
+d4vz.	ARIPIPRAZOLE 10mg tablets
