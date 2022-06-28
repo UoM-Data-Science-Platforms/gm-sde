@@ -4,10 +4,10 @@ Any code that indicates a patient has a history of bipolar. This includes "histo
 
 ## Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. Prevalence range: 0.28% - 0.54%
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. The prevalence range `0.01% - 0.01%` suggests this codeset is likely well defined, but that it is a code not in frequent usage.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------- | ----------------- |
-| 2021-06-30 | EMIS            | 2608685    | 14087 (0.54%)    | 14087 (0.54%)     |
-| 2021-06-30 | TPP             | 210985     | 591 (0.28%)      | 591 (0.28%)       |
-| 2021-06-30 | Vision          | 335010     | 1608 (0.48%)     | 1608 (0.48%)      |
+| 2022-06-28 | EMIS            | 2664831    | 289 (0.01%)      | 344 (0.01%)       |
+| 2022-06-28 | TPP             | 212907     | 24 (0.01%)       | 28 (0.01%)        |
+| 2022-06-28 | Vision          | 343146     | 48 (0.01%)       | 50 (0.01%)        |
