@@ -3,11 +3,16 @@
 --└────────────────────────────────┘
 
 TODO
-- FEP or BAD category for each first diagnosis
-  - perhaps make new strict code sets for these?
-  - YES - need to get extra codes form READ for 2 dx and 2 history
+- Update all code sets (except maybe meds) when RLS is back cos at the moment it's way off hte charts
+- #Check read/ctv for Chlorphenamine-maleate
+- Check prevalence of:
+  - bipolar:2
+  - schizophrenia-psychosis:2
+  - history-of-bipolar:1
+  - history-of-psychosis-or-schizophrenia:1
 - Check fasting glucose prevalence
-- Add medications to extract (BIG JOB)
+- Check prevalance of medications
+- Revisit the "bnf-" ones where there was an existing set. Particularly lithium which seems lacking.
 
 ----------------------- RDE CHECK ---------------------
 -- George Tilston  - 7 April 2022 - via pull request --
