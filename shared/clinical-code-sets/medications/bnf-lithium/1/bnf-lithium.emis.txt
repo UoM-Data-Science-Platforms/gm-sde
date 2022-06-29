@@ -1,3 +1,7 @@
+LILI35753MGEMIS	Lithium Citrate  Liquid  Sugar Free 520 mg/5 ml (Unichem)
+LISU20378EMIS	Lithium Citrate  Sugar free syrup  10.8 mmol/5 ml
+LISU20379EMIS	Lithium Citrate  Sugar free syrup  5.4 mmol/5 ml
+LITA5093	Lithium Carbonate  M/R tablets  300 mg
 ^ESCT1187289	Product containing only lithium carbonate 250 mg/1 each oral tablet
 ^ESCT1215496	Lithium carbonate 450mg modified-release tablets
 ^ESCT1215497	Lithium citrate 520mg/5ml oral solution sugar free
