@@ -1,0 +1,7 @@
+m33s.	LIDOCAINE 5% 10cmx14cm patches
+oazv.	Lignocaine 5% ointment
+x00GP	Emla drug tariff cream
+x00SK	Lignocaine hydrochloride 1% injection amp
+x00SL	Lignocaine hydrochloride 2% injection amp
+x028O	Lidocaine hydrochloride+epinephrine 1%/1:200,000 injection
+x028P	Lidocaine hydrochloride+adrenaline 2%/1:200,000 injection

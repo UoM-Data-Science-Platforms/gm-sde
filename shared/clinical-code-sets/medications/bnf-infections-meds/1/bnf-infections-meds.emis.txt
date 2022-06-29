@@ -1,0 +1,2037 @@
+OSOR37223NEMIS	Oseltamivir  Oral solution  15 mg/ml
+MITA36082MGEMIS	Minocycline  Tablets  100 mg (The Boots Company)
+ERSU25266EMIS	Erythromycin Ethyl Succinate  Suspension  125 mg/5 ml
+FLSY4927	Flucloxacillin  Syrup  250 mg/5 ml
+ERSU1108	Erythroped  Suspension forte  Sugar Free 500 mg/5 ml
+COIN15774NEMIS	Colomycin  Injection  2 million units/vial
+PRTA3508NEMIS	Praziquantel  Tablets  600 mg
+LACA1589	Ladropen  Capsules  500 mg
+CITA34305MGEMIS	Ciprofloxacin  Tablets  750 mg (Ivax Pharmaceuticals)
+FLSU3593	Flagyl S  Suspension  200 mg/5 ml
+MOIN3970	Monotrim  Injection  20 mg/ml, 5 ml ampoule
+RETA86688NEMIS	Reprapog  Tablets  62.5 mg + 25 mg
+AMOR37922MGEMIS	Amoxicillin  Oral suspension  250 mg/5 ml (Generics (UK))
+ZATA25483EMIS	Zalcitabine  Tablets  375 micrograms
+GROR46466NEMIS	Griseofulvin  Oral suspension  175 mg/5 ml
+VICA32447EMIS	Vibramycin Acne Pack  Capsules  50 mg
+FLCA35085MGEMIS	Flucloxacillin  Capsules  250 mg (Ranbaxy)
+CIIN31071EMIS	Ciprofloxacin  Intravenous infusion  2 mg/ml, 200 ml bag
+BETA89778NEMIS	Bedaquiline  Tablets  100 mg
+APCA21311NEMIS	Aptivus  Capsules  250 mg
+TONE2022NEMIS	Tobi  Nebuliser solution  300 mg/5 ml ampoule (60 mg/ml)
+GEIN23039NEMIS	Gentamicin  Solution for injection  80 mg/2 ml vial
+TRTA37322MGEMIS	Trimethoprim  Tablets  100 mg (Kent Pharm)
+AMOR37942MGEMIS	Amoxicillin  Oral Suspension Sugar Free  250 mg/5 ml (Alpharma)
+ELTA88547NEMIS	Elvitegravir  Tablets  85 mg
+RATA124621NEMIS	Raltegravir  Tablets  600 mg
+CITA34306MGEMIS	Ciprofloxacin  Tablets  750 mg (Sandoz)
+CESU34170MGEMIS	Cefaclor  Sugar-free suspension  125 mg/5 ml (A.A.H. Pharm)
+ITCA10335BRIDL	Itraconazole  Capsules  100 mg
+AMSY9029BRIDL	Amoram  Syrup  125 ml/5 ml
+POOR22287NEMIS	Posaconazole  Oral suspension  40 mg/ml
+ZITA18793NEMIS	Zidovudine And Lamivudine  Tablets  300 mg + 150 mg
+CESU4689	Cefadroxil  Suspension  125 mg/5 ml
+RITA78458NEMIS	Rifaximin  Tablets  550 mg
+RICA36881MGEMIS	Rifampicin  Capsules  150 mg (Generics (UK))
+CECA34133MGEMIS	Cefaclor  Capsules  250 mg (Ranbaxy)
+NICA5208	Nitrofurantoin  Capsules  100 mg
+ITCA35618MGEMIS	Itraconazole  Capsules  100 mg (Sandoz)
+PHOR36499MGEMIS	Phenoxymethylpenicillin  Oral solution  250 mg/5 ml (Alpharma)
+COCA34435MGEMIS	Co-Fluampicil 250/250  Capsules  (Kent Pharm)
+CESU34176MGEMIS	Cefaclor  Suspension  125 mg/5 ml (Ranbaxy)
+ATCA29891NEMIS	Atazanavir  Capsules  300 mg
+VICA5350NEMIS	Vibrox  Capsules  100 mg
+CESU31410EMIS	Cefaclor  Sugar-free suspension  125 mg/5 ml
+CITA5645	Ciproxin  Tablets  250 mg
+OFTA36299MGEMIS	Ofloxacin  Tablets  400 mg (Unichem)
+CEPO130335NEMIS	Cefepime  Powder For Solution For Injection  1 gram vial
+CLSA31718EMIS	Clarithromycin  Sachets  250 mg/sachet
+ITOR29568EMIS	Itraconazole  Oral solution  Sugar Free 10 mg/ml
+TRTA37323MGEMIS	Trimethoprim  Tablets  100 mg (A.A.H. Pharm)
+FLCA35140MGEMIS	Fluconazole  Capsules  200 mg (Wockhardt UK)
+KLSA31716EMIS	Klaricid  Sachets  250 mg/sachet
+AMOR37916MGEMIS	Amoxicillin  Oral suspension  125 mg/5 ml (A.A.H. Pharm)
+ERSU34987MGEMIS	Erythromycin Ethyl Succinate  Suspension  125 mg/5 ml (Alpharma)
+CEIN17578NEMIS	Cefradine  Injection  500 mg vial
+FLCA35120MGEMIS	Fluconazole  Capsules  50 mg (Winthrop Pharmaceuticals )
+MESU1812	Metronidazole  Suppositories  500 mg
+ENTA22869NEMIS	Entecavir  Tablets  1 mg
+TATA82046NEMIS	Talidex  Tablets  25 mg
+SUTA8925EGTON	Suprax  Tablets  200 mg
+FLCA35097MGEMIS	Flucloxacillin  Capsules  500 mg (Ranbaxy)
+VEIN3023	Velosef  Injection  1 gram vial
+AMCA9025BRIDL	Amoram  Capsules  250 mg
+COCA34441MGEMIS	Co-Fluampicil 250/250  Capsules  (Wockhardt UK)
+CEIN26837EMIS	Cefpirome Sulfate  Injection  1 gram/vial
+VITA3041	Vibramycin-D  Dispersible tablets  100 mg
+META36011MGEMIS	Metronidazole  Tablets  200 mg (Sandoz)
+MESU35916MGEMIS	Metronidazole  Suspension  200 mg/5 ml (A.A.H. Pharm)
+ZOIN3099	Zovirax  Powder for solution for infusion  250 mg vial
+RIPO17789NEMIS	Ribavirin  Powder For Nebuliser Solution  6 gram vial
+DICA8336EGTON	Diflucan  Capsules  50 mg
+OSOR37328NEMIS	Oseltamivir  Oral suspension  15 mg/ml
+FLCA35124MGEMIS	Fluconazole  Capsules  50 mg (Mayne Pharma)
+ISTA35600MGEMIS	Isoniazid  Tablets  100 mg (A.A.H. Pharm)
+ACIN33620MGEMIS	Aciclovir  Intravenous infusion  500 mg/vial (Genus Pharm)
+ROIN23577EMIS	Rocephin  Powder For Solution For Injection  250 mg vial
+GESO103690NEMIS	Gentamicin  Solution for injection  20 mg/2 ml ampoule
+INCA29713EMIS	Invirase  Capsules  200 mg
+MITA36080MGEMIS	Minocycline  Tablets  100 mg (A.A.H. Pharm)
+RITA4278	Rifinah 150 mg/100 mg  Tablets  
+CESU4687	Cefaclor  Suspension  125 mg/5 ml
+THTA75693NEMIS	Thalidomide  Tablets  25 mg
+AMIN37909MGEMIS	Amoxicillin  Injection  500 mg vial (A.A.H. Pharm)
+CESU31410EMIS	Cefaclor  Sugar-free suspension  125 mg/5 ml
+OFTA36302MGEMIS	Ofloxacin  Tablets  400 mg (Generics (UK))
+CEOR38027MGEMIS	Cefalexin  Oral suspension  125 mg/5 ml (Unichem)
+COTA3347	Colomycin  Tablets  1.5 million units
+FLIN124614NEMIS	Fluconazole  Intravenous infusion  400 mg/200 ml bag
+INCA11866NEMIS	Indinavir  Capsules  333 mg
+ANPO28669NEMIS	Anidulafungin  Powder And Solvent For Solution For Infusion  100 mg vial
+BATA22874NEMIS	Baraclude  Tablets  500 micrograms
+MASY1711	Magnapen  Syrup  
+LESO51571NEMIS	Levofloxacin  Solution for infusion  5 mg/ml, 100 ml bag
+PHTA36517MGEMIS	Phenoxymethylpenicillin  Tablets  250 mg (Alpharma)
+CETA38012MGEMIS	Cefalexin  Tablets  250 mg (Kent Pharm)
+META36031MGEMIS	Metronidazole  Tablets  500 mg (A.A.H. Pharm)
+NYOR34359EMIS	Nystatin  Oral Suspension (Sugar-Free)  100,000 units/ml
+ACIN33619MGEMIS	Aciclovir  Intravenous infusion  500 mg/vial (A.A.H. Pharm)
+GEIN35283MGEMIS	Gentamicin  Injection  80 mg/2 ml ampoule (A.A.H. Pharm)
+VETA125418NEMIS	Vemlidy  Tablets  25 mg
+AMTA5259NEMIS	Amiclav 250/125  Tablets  
+FLCA35116MGEMIS	Fluconazole  Capsules  150 mg (Vantage)
+ISTA3783	Isoniazid  Tablets  50 mg
+CIIN31474EMIS	Cidofovir  Solution for infusion  375 mg/5 ml vial
+BASU273	Baxan  Suspension  500 mg/5 ml
+DOCA32449EMIS	Doxycycline Hyclate  Capsules  50 mg
+SOTA98485NEMIS	Sofosbuvir And Ledipasvir  Tablets  400 mg + 90 mg
+AMOR37946MGEMIS	Amoxicillin  Oral Suspension Sugar Free  250 mg/5 ml (Unichem)
+ALTA23280EMIS	Albendazole  Tablets  400 mg
+CITA22180EMIS	Ciproxin  Tablets  500 mg
+KECA30116EMIS	Keftid  Capsules  500 mg
+ERE/37661MGEMIS	Erythromycin  E/c tablets  250 mg (Teva UK)
+SUTA38271MGEMIS	Sulfadiazine  Tablets  500 mg (Wockhardt UK)
+ACSU9009DLSEM	Aciclovir  Sugar free suspension  400 mg/5 ml
+AMOR37925MGEMIS	Amoxicillin  Oral suspension  250 mg/5 ml (A.A.H. Pharm)
+CETA33626EMIS	Cefzil  Tablets  250 mg
+ZECA29419EMIS	Zerit  Capsules  15 mg
+COAD4763	Co-Trimoxazole  Adult suspension  480 mg/5 ml
+NITA36273MGEMIS	Nitrofurantoin  Tablets  50 mg (Alpharma)
+QUTA36800MGEMIS	Quinine Sulfate  Tablets  300 mg (Wockhardt UK)
+TETA117906NEMIS	Tenofovir Alafenamide And Emtricitabine  Tablets  25 mg + 200 mg
+AMIN37905MGEMIS	Amoxicillin  Injection  1 gram vial (A.A.H. Pharm)
+GEIN35282MGEMIS	Gentamicin  Injection  40 mg/1 ml ampoule (Unichem)
+CECA37999MGEMIS	Cefalexin  Capsules  500 mg (Generics (UK))
+VIIN3789NEMIS	Virazole  Powder For Nebuliser Solution  6 gram vial
+LEIN32268EMIS	Levofloxacin  Solution for infusion  5 mg/ml, 100 ml vial
+META9686HILLI	Mefloquine Hydrochloride  Tablets  250 mg
+VFPO81490NEMIS	Vfend  Powder and solvent for infusion  10 mg/ml, 200 mg vial
+COTA34618MGEMIS	Co-Trimoxazole  Tablets  480 mg (Kent Pharm)
+TRTA2939	Trimethoprim  Tablets  200 mg
+DATA78456NEMIS	Darunavir  Tablets  800 mg
+ERSU34976MGEMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  125 mg/5 ml (Kent Pharm)
+ROIN23575EMIS	Rocephin  Powder For Solution For Injection  1 gram vial
+CETA38015MGEMIS	Cefalexin  Tablets  250 mg (Alpharma)
+AMOR37910MGEMIS	Amoxicillin  Oral suspension  125 mg/5 ml (Ivax Pharmaceuticals)
+AGCA5627NEMIS	Agenerase  Capsules  50 mg
+ERSU35000MGEMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  500 mg/5 ml (Generics (UK))
+EPTA117920NEMIS	Epclusa  Tablets  400 mg/100 mg
+DITA34776MGEMIS	Diloxanide Furoate  Tablets  500 mg (A.A.H. Pharm)
+CESU4689	Cefadroxil  Suspension  125 mg/5 ml
+RICA4283	Rimactane  Capsules  300 mg
+VIGR78606NEMIS	Viread  Granules  33 mg/gram
+MITA36085MGEMIS	Minocycline  Tablets  50 mg (Unichem)
+TATA32263EMIS	Tavanic  Tablets  250 mg
+ERSU34988MGEMIS	Erythromycin Ethyl Succinate  Suspension  250 mg/5 ml (Kent Pharm)
+ERSU34998MGEMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  500 mg/5 ml (Kent Pharm)
+CRCA11867NEMIS	Crixivan  Capsules  333 mg
+PHOR36496MGEMIS	Phenoxymethylpenicillin  Oral solution  125 mg/5 ml (Generics (UK))
+GRTA1321	Griseofulvin  Tablets  125 mg
+CECA37991MGEMIS	Cefalexin  Capsules  250 mg (Alpharma)
+FLCA35131MGEMIS	Fluconazole  Capsules  200 mg (Teva UK)
+RECA5647	Retrovir  Capsules  100 mg
+COIN693	Co-Trimoxazole  Solution for infusion  96 mg/ml, 5 ml ampoule
+META36014MGEMIS	Metronidazole  Tablets  400 mg (Kent Pharm)
+EVTA74157NEMIS	Eviplera  Tablets  200 mg + 25 mg + 245 mg
+ABTA19681NEMIS	Abacavir And Lamivudine  Tablets  600 mg + 300 mg
+SOTA2621	Sodium Fusidate  Tablets  250 mg
+DAPO23499NEMIS	Daptomycin  Powder for concentrate for solution for infusion  500 mg vial
+VAOR35732NEMIS	Valcyte  Oral solution  50 mg/ml
+COSU34489MGEMIS	Co-Amoxiclav 250/62  Sugar free suspension  (A.A.H. Pharm)
+RITA4287	Rimactazid 300  Tablets  
+BLTA19529EMIS	Blemix 100  Tablets  100 mg
+DIOR17952EMIS	Diflucan  Oral suspension  50 mg/5 ml
+GEIN3636	Gentamicin  Injection  40 mg/1 ml ampoule
+VACA37362MGEMIS	Vancomycin Hydrochloride  Capsules  250 mg (Unichem)
+AMCA37893MGEMIS	Amoxicillin  Capsules  250 mg (Kent Pharm)
+TETA12114NEMIS	Telithromycin  Tablets  400 mg
+SYSO105004NEMIS	Synagis  Solution for injection  100 mg/1 ml vial
+CLPA34410MGEMIS	Clarithromycin  Paediatric suspension  125 mg/5 ml (A.A.H. Pharm)
+DATA98544NEMIS	Darunavir And Cobicistat  Tablets  800 mg + 150 mg
+CECA529	Ceporex  Capsules  250 mg
+GEIN35281MGEMIS	Gentamicin  Injection  40 mg/1 ml ampoule (Mayne Pharma)
+CIIN25460EMIS	Ciproxin  Intravenous infusion  2 mg/ml, 100 ml bottle
+AUSU19805EMIS	Augmentin 250/62 Sf  Sugar free suspension  250 mg/5 ml + 62 mg/5 ml
+PRTA35033NEMIS	Prezista  Tablets  600 mg
+SUPA10644BRIDL	Suprax  Paediatric suspension  100 mg/5 ml
+KESU1550	Keflex  Suspension  250 mg/5 ml
+QUTA4244	Quinine Bisulfate  Tablets  300 mg
+FLIN4925	Flucloxacillin  Powder For Solution For Injection  1 gram vial
+AMPA27087EMIS	Amoxycillin  Paediatric suspension  125 mg/1.25 ml
+QUTA36802MGEMIS	Quinine Sulfate  Tablets  300 mg (Teva UK)
+DOCA17639NEMIS	Doxycycline Hyclate  Capsules  100 mg
+COTA34524MGEMIS	Co-Amoxiclav 250/125  Tablets  (Winthrop Pharmaceuticals )
+AMPO76694NEMIS	Amphotericin B Liposomal  Powder For Dispersion For Infusion  50 mg vial
+FLSY1191	Floxapen  Syrup  125 mg/5 ml
+RECA29892NEMIS	Reyataz  Capsules  300 mg
+PETA2185	Penicillin Vk  Tablets  250 mg
+COSU19815EMIS	Co-Amoxiclav 250/62  Sugar free suspension  250 mg/5 ml + 62 mg/5 ml
+FLIN35158MGEMIS	Flucloxacillin  Injection  500 mg/vial (Wockhardt UK)
+RECA17234NEMIS	Reyataz  Capsules  100 mg
+TEOR46814NEMIS	Terbinafine  Oral solution  250 mg/5 ml
+FLCA35127MGEMIS	Fluconazole  Capsules  50 mg (A.A.H. Pharm)
+ETTA35009MGEMIS	Ethambutol Hydrochloride  Tablets  100 mg (Kent Pharm)
+HITA3692	Hiprex  Tablets  1 gram
+DOCA38103MGEMIS	Doxycycline Hyclate  Capsules  100 mg (Ivax Pharmaceuticals)
+PYTA2418	Pyrimethamine  Tablets  25 mg
+CEIN34156MGEMIS	Ceftazidime  Injection  2 grams/vial (Genus Pharm)
+CECA38040MGEMIS	Cefradine  Capsules  250 mg (Generics (UK))
+CLTA26172EMIS	Clarithromycin  Tablets  500 mg
+COTA34533MGEMIS	Co-Amoxiclav 500/125  Tablets  (Unichem)
+XETA118051NEMIS	Xetinin Xl  M/R tablets  500 mg
+ENPO15845NEMIS	Enfuvirtide  Powder and solvent for injection  90 mg/ml
+CETA10999BRIDL	Cefuroxime  Tablets  250 mg
+AMOR37940MGEMIS	Amoxicillin  Oral Suspension Sugar Free  250 mg/5 ml (Sandoz)
+DATA809	Daraprim  Tablets  25 mg
+VECA3021	Velosef  Capsules  250 mg
+IVTA76770NEMIS	Ivermectin  Tablets  3 mg
+CECA34138MGEMIS	Cefadroxil  Capsules  500 mg (Sandoz)
+STTA88137NEMIS	Stribild  Tablets  150 mg + 150 mg + 200 mg + 245 mg
+ERE/37654MGEMIS	Erythromycin  E/c tablets  250 mg (Abbott)
+AMMI144	Ampicillin  Mixture  250 mg/5 ml
+INPO14329NEMIS	Invanz  Powder for concentrate for solution for infusion  1 gram vial
+CESU34171MGEMIS	Cefaclor  Sugar-free suspension  125 mg/5 ml (Unichem)
+PYSU13883NEMIS	Pyrazinamide  Suspension  500 mg/5 ml
+ZYTA10839NEMIS	Zyvox  Tablets  600 mg
+FLIN35153MGEMIS	Flucloxacillin  Injection  1 g/vial (Britannia)
+ACDI33610MGEMIS	Aciclovir  Dispersible tablets  400 mg (The Boots Company)
+AMSY133	Amoxil  Syrup sf  250 mg/5 ml
+FLTA1180	Flagyl  Tablets  400 mg
+NOTA10366BRIDL	Norfloxacin  Tablets  400 mg
+ACTA37502MGEMIS	Aciclovir  Tablets  800 mg (Unichem)
+STCA29428EMIS	Stavudine  Capsules  20 mg
+CITA34327MGEMIS	Ciprofloxacin  Tablets  100 mg (Ivax Pharmaceuticals)
+AZIN6798	Aztreonam  Injection  500 mg/vial
+AMOR17515NEMIS	Amoxicillin  Oral suspension  125 mg/5 ml
+AMIN19783EMIS	Ambisome Liposomal  Powder For Dispersion For Infusion  50 mg vial
+COCA34434MGEMIS	Co-Fluampicil 250/250  Capsules  (Alpharma)
+VATA12916NEMIS	Valcyte  Tablets  450 mg
+GRTA1323	Grisovin  Tablets  125 mg
+MAOR124985NEMIS	Maraviroc  Oral Solution, Sugar Free  20 mg/ml
+CEIN34152MGEMIS	Cefotaxime  Injection  1 g vial (Wockhardt UK)
+CLPA37616MGEMIS	Clarithromycin  Paediatric suspension  250 mg/5 ml (Unichem)
+CIIN31070EMIS	Ciprofloxacin  Intravenous infusion  2 mg/ml, 100 ml bag
+NITA36272MGEMIS	Nitrofurantoin  Tablets  50 mg (Kent Pharm)
+TOIN27542EMIS	Tobramycin  Solution for injection  80 mg/2 ml vial
+LECA3822	Ledermycin  Capsules  150 mg
+DETA3411	Deteclo  Tablets  
+NETA37562MGEMIS	Neomycin Sulfate  Tablets  500 mg (Teva UK)
+META36017MGEMIS	Metronidazole  Tablets  400 mg (Generics (UK))
+COSU19812EMIS	Co-Amoxiclav 125/31  Sugar free suspension  125 mg/5 ml + 31 mg/5 ml
+TACA29016NEMIS	Tamiflu  Capsules  30 mg
+TETA18916EMIS	Terbinafine Hydrochloride  Tablets  250 mg
+ACDI33613MGEMIS	Aciclovir  Dispersible tablets  400 mg (Pfizer)
+MOTA1883	Monotrim  Tablets  200 mg
+OSOR14666NEMIS	Oseltamivir  Oral Suspension Sugar Free  12 mg/ml
+META1814	Metronidazole  Tablets  400 mg
+ETTA35010MGEMIS	Ethambutol Hydrochloride  Tablets  100 mg (Unichem)
+CETA38018MGEMIS	Cefalexin  Tablets  500 mg (Kent Pharm)
+CESU34172MGEMIS	Cefaclor  Sugar-free suspension  125 mg/5 ml (Teva UK)
+ERSU34971MGEMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  125 mg/5 ml (Ivax Pharmaceuticals)
+LIGR12768NEMIS	Linezolid  Granules for Oral Suspension  100 mg/5 ml
+QUTA36816MGEMIS	Quinine Sulfate  Tablets  200 mg (Unichem)
+TITA122202NEMIS	Tivicay  Tablets  10 mg
+COIN34471MGEMIS	Co-Trimoxazole  Intravenous infusion  96 mg/ml, 5 ml ampoule (Mayne Pharma)
+ETTA35007MGEMIS	Ethambutol Hydrochloride  Tablets  100 mg (A.A.H. Pharm)
+RITA24057NEMIS	Ribavirin  Tablets  400 mg
+SIPO101991NEMIS	Sivextro  Powder for concentrate for solution for infusion  200 mg vial
+TETA37169MGEMIS	Tetracycline Hydrochloride  Tablets  250 mg (Alpharma)
+MAM/21968EMIS	Macrobid  M/R capsules  100 mg
+ACDI33606MGEMIS	Aciclovir  Dispersible tablets  200 mg (Alpharma)
+AMCA123	Amoxil  Capsules  250 mg
+ACDI26992EMIS	Aciclovir  Dispersible tablets  200 mg
+NYCA26258NEMIS	Nystatin  Capsules  250 mg
+SOTA90022NEMIS	Sovaldi  Tablets  400 mg
+CITA34301MGEMIS	Ciprofloxacin  Tablets  750 mg (A.A.H. Pharm)
+MITA36090MGEMIS	Minocycline  Tablets  50 mg (Teva UK)
+POGA90072NEMIS	Posaconazole  Gastro-resistant Tablets  100 mg
+VOPO13779NEMIS	Voriconazole  Powder for solution for infusion  10 mg/ml, 200 mg vial
+PHTA36520MGEMIS	Phenoxymethylpenicillin  Tablets  250 mg (Generics (UK))
+COTA4778	Colistin Sulfate  Tablets  1.5 million units
+SPOR29566EMIS	Sporanox  Oral solution  10 mg/ml
+TRSU5478	Trimethoprim  Suspension  Sugar Free 50 mg/5 ml
+SPCO6652NEMIS	Sporanox  Concentrate for intravenous infusion  10 mg/ml, 25 ml ampoule
+AMOR37918MGEMIS	Amoxicillin  Oral suspension  125 mg/5 ml (Generics (UK))
+VIE/5348NEMIS	Videx Ec  E/c capsules  400 mg
+AGOR5629NEMIS	Agenerase  Oral solution  15 mg/ml
+SUTA38270MGEMIS	Sulfadiazine  Tablets  500 mg (A.A.H. Pharm)
+CHTA34258MGEMIS	Chloroquine Phosphate  Tablets  250 mg (Unichem)
+NETA37560MGEMIS	Neomycin Sulfate  Tablets  500 mg (A.A.H. Pharm)
+ZISA20463EMIS	Zinnat  Sachets  125 mg/sachet
+COIN17605NEMIS	Colistimethate Sodium  Injection  500,000 unit vial
+DITA4122NEMIS	Didanosine  Tablets  200 mg
+ZOIV10044HILLI	Zovirax  Powder for solution for infusion  500 mg vial
+ACDI33632MGEMIS	Aciclovir  Dispersible tablets  800 mg (Ivax Pharmaceuticals)
+NISY4036	Nivaquine  Syrup  68 mg/5 ml
+ACTA33639MGEMIS	Aciclovir  Tablets  200 mg (A.A.H. Pharm)
+BATA22873NEMIS	Baraclude  Tablets  1 mg
+AMCA37889MGEMIS	Amoxicillin  Capsules  250 mg (Generics (UK))
+LATA12525NEMIS	Lamivudine  Tablets  300 mg
+ACDI33603MGEMIS	Aciclovir  Dispersible tablets  200 mg (A.A.H. Pharm)
+LATA10173BRIDL	Lariam  Tablets  250 mg
+PHOR31250EMIS	Phenoxymethylpenicillin  Oral solution  125 mg/5 ml
+CEIN26834EMIS	Cefrom  Injection  2 grams/vial
+RETA98546NEMIS	Rezolsta  Tablets  800 mg + 150 mg
+CETA28478NEMIS	Celsentri  Tablets  300 mg
+SETA2527	Selexid  Tablets  200 mg
+VAIN13834NEMIS	Vancocin  Powder for solution for infusion  500 mg vial
+MIM/19544EMIS	Minocin  M/R capsules  100 mg
+DOTA122200NEMIS	Dolutegravir  Tablets  10 mg
+COSU34492MGEMIS	Co-Amoxiclav 250/62  Sugar free suspension  (Generics (UK))
+AMIN4593	Amphotericin B  Powder for solution for infusion  50 mg vial
+CLPA37618MGEMIS	Clarithromycin  Paediatric suspension  250 mg/5 ml (Sandoz)
+DETA131893NEMIS	Delstrigo  Tablets  100 mg + 300 mg + 245 mg
+AMOR37937MGEMIS	Amoxicillin  Oral Suspension Sugar Free  125 mg/5 ml (Alpharma)
+SPCA9477BRIDL	Sporanox  Capsules  100 mg
+TRSU5478	Trimethoprim  Suspension  Sugar Free 50 mg/5 ml
+GEPA3641	Gentamicin  Solution for injection  20 mg/2 ml vial
+NETA1952	Negram  Tablets  500 mg
+NICA30212EMIS	Nicef  Capsules  500 mg
+CLGR21385NEMIS	Clarithromycin  Granules For Oral Suspension Straws  187.5 mg
+CEOR38036MGEMIS	Cefalexin  Oral suspension  250 mg/5 ml (Kent Pharm)
+CECA38048MGEMIS	Cefradine  Capsules  500 mg (Kent Pharm)
+NOOR29650EMIS	Norvir  Oral solution  80 mg/ml
+LENE114704NEMIS	Levofloxacin  Nebuliser Liquid  100 mg/ml
+MESU10223BRIDL	Metronidazole  Suspension  100 mg/5 ml
+VITA29376EMIS	Virovir  Tablets  800 mg
+FLOR39058NEMIS	Flucloxacillin  Oral Solution, Sugar Free  250 mg/5 ml
+COTA34529MGEMIS	Co-Amoxiclav 250/125  Tablets  (Sandoz)
+RIOR116706NEMIS	Ritonavir  Oral Powder Sachets Sugar Free  100 mg
+COTA696	Co-Trimoxazole  Tablets  480 mg
+FLIN35161MGEMIS	Flucloxacillin  Injection  250 mg/vial (A.A.H. Pharm)
+CESY535	Ceporex  Syrup  250 mg/5 ml
+TRIN4449	Trimethoprim  Injection  20 mg/ml, 5 ml ampoule
+CEIN6847	Cefotaxime  Powder For Solution For Injection  500 mg vial
+NYOR34357EMIS	Nystan  Oral Suspension (Sugar-Free)  100,000 units/ml
+TRTA2938	Trimethoprim  Tablets  100 mg
+CITA34292MGEMIS	Ciprofloxacin  Tablets  500 mg (Ivax Pharmaceuticals)
+KLTA26170EMIS	Klaricid  Tablets  500 mg
+COIN3344	Colomycin  Injection  1 million unit/vial
+ERSU1104	Erythromycin  Suspension  500 mg/5 ml
+ZITA925NEMIS	Ziagen  Tablets  300 mg
+MITA36088MGEMIS	Minocycline  Tablets  50 mg (The Boots Company)
+RECA9875HILLI	Retrovir  Capsules  250 mg
+FLIN35159MGEMIS	Flucloxacillin  Injection  500 mg/vial (A.A.H. Pharm)
+CESU34173MGEMIS	Cefaclor  Sugar-free suspension  250 mg/5 ml (Teva UK)
+CECA37996MGEMIS	Cefalexin  Capsules  250 mg (Teva UK)
+TAIN22416EMIS	Tazocin  Powder for solution for infusion  4 grams + 500 mg vial
+MYPO30732NEMIS	Mycamine  Powder for solution for infusion  50 mg vial
+FLIN6897	Flucloxacillin  Powder For Solution For Injection  500 mg vial
+ISGR103646NEMIS	Isentress  Granules  100 mg sachets
+OFTA36295MGEMIS	Ofloxacin  Tablets  200 mg (Generics (UK))
+CYCA34671MGEMIS	Cycloserine  Capsules  250 mg (King Pharm)
+ERSU34984MGEMIS	Erythromycin Ethyl Succinate  Suspension  125 mg/5 ml (Unichem)
+CESY534	Ceporex  Syrup  125 mg/5 ml
+CITA34370MGEMIS	Ciprofloxacin  Tablets  250 mg (Alpharma)
+CEIN34157MGEMIS	Ceftazidime  Injection  2 grams/vial (Wockhardt UK)
+WEOR31617EMIS	Wellvone  Oral suspension  750 mg/5 ml
+FLCA35114MGEMIS	Fluconazole  Capsules  150 mg (Wockhardt UK)
+DOTA88131NEMIS	Dolutegravir  Tablets  50 mg
+CHCA34216MGEMIS	Chloramphenicol  Capsules  250 mg (Unichem)
+CEIN17577NEMIS	Cefradine  Injection  1 gram vial
+CISO23038NEMIS	Cidomycin  Solution for injection  40 mg/ml, 2 ml vial
+CECA38004MGEMIS	Cefalexin  Capsules  500 mg (Ivax Pharmaceuticals)
+ISIN5048	Isoniazid  Injection  25 mg/ml, 2 ml ampoule
+COCA34439MGEMIS	Co-Fluampicil 250/250  Capsules  (Generics  (UK))
+COTA34520MGEMIS	Co-Amoxiclav 250/125  Tablets  (Kent Pharm)
+SITA89785NEMIS	Sirturo  Tablets  100 mg
+NITA4038	Nivemycin  Tablets  500 mg
+OSCA29015NEMIS	Oseltamivir  Capsules  45 mg
+FETA78230NEMIS	Febzin Xl  M/R tablets  500 mg
+MESU1732	Mebendazole  Suspension  100 mg/5 ml
+CIIN3317	Cidomycin  Intrathecal injection  5 mg/1 ml ampoule
+ACTA33648MGEMIS	Aciclovir  Tablets  400 mg (Kent Pharm)
+RITA4279	Rifinah 300 mg/150 mg  Tablets  
+FLCA35126MGEMIS	Fluconazole  Capsules  50 mg (Sandoz)
+CITA34307MGEMIS	Ciprofloxacin  Tablets  750 mg (Unichem)
+DATA94921NEMIS	Daklinza  Tablets  60 mg
+RICA29653EMIS	Ritonavir  Capsules  100 mg
+PHOR22591NEMIS	Phenoxymethylpenicillin  Oral Solution, Sugar Free  250 mg/5 ml
+BACA270	Baxan  Capsules  500 mg
+BRPO27333NEMIS	Britacef  Powder for injection  1.5 gram vial
+FLCA35136MGEMIS	Fluconazole  Capsules  200 mg (Mayne Pharma)
+NITA36264MGEMIS	Nitrofurantoin  Tablets  100 mg (Kent Pharm)
+CITA23848EMIS	Ciprofloxacin  Tablets  750 mg
+NIOR46784NEMIS	Nitrofurantoin  Oral suspension  25 mg/5 ml
+ORPA26748EMIS	Orelox  Paediatric suspension  40 mg/5 ml
+EMCA16618NEMIS	Emtriva  Capsules  200 mg
+ERSU34979MGEMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  250 mg/5 ml (Unichem)
+PITA2286	Pivmecillinam Hydrochloride  Tablets  200 mg
+AMSU9223BRIDL	Amix-125  Suspension  125 mg/5 ml
+PRIN9137EMIS	Primaxin  Powder for solution for infusion  500 mg vial
+ZEOR1110NEMIS	Zeffix  Oral solution  5 mg/ml
+AMIN128	Amoxil  Powder For Solution For Injection  500 mg vial
+VOTA78270NEMIS	Voractiv  Tablets  
+META36021MGEMIS	Metronidazole  Tablets  400 mg (Sandoz)
+TAPO9663BRIDL	Targocid  Powder  200 mg/vial
+AVTA260	Avloclor  Tablets  250 mg
+FLSY4926	Flucloxacillin  Syrup  125 mg/5 ml
+AMSY9031BRIDL	Amoram  Syrup  250 mg/5 ml
+DOPO31293NEMIS	Doribax  Powder for solution for infusion  500 mg vial
+CLGR21384NEMIS	Clarithromycin  Granules For Oral Suspension Straws  125 mg
+ERSU9005DLSEM	Erythromycin  Sugar free suspension  250mg/5ml
+CESU34175MGEMIS	Cefaclor  Sugar-free suspension  250 mg/5 ml (A.A.H. Pharm)
+CITA34364MGEMIS	Ciprofloxacin  Tablets  250 mg (Unichem)
+COCA34437MGEMIS	Co-Fluampicil 250/250  Capsules  (A.A.H. Pharm)
+NYTA2055	Nystan  Tablets  500000 units
+TONE2021NEMIS	Tobramycin  Nebuliser solution  300 mg/5 ml ampoule (60 mg/ml)
+VACA37359MGEMIS	Vancomycin Hydrochloride  Capsules  125 mg (Unichem)
+META36003MGEMIS	Metronidazole  Tablets  200 mg (Teva UK)
+FOCA205NEMIS	Fortovase  Capsules  200 mg
+CITA34326MGEMIS	Ciprofloxacin  Tablets  100 mg (Kent Pharm)
+FLIN15489NEMIS	Flagyl  Intravenous infusion  5 mg/ml, 100 ml bag
+EFOR13766NEMIS	Efavirenz  Oral Solution, Sugar Free  30 mg/ml
+ACDI33633MGEMIS	Aciclovir  Dispersible tablets  800 mg (Ranbaxy)
+SUCA47239NEMIS	Sulfapyridine  Capsules  250 mg
+TRTA4452	Trimogal  Tablets  200 mg
+AMCA124	Amoxil  Capsules  500 mg
+FUSU1262	Fungilin  Suspension  100 mg/ml
+CITA34297MGEMIS	Ciprofloxacin  Tablets  500 mg (Alpharma)
+COOR43494NEMIS	Co-Amoxiclav 125/31  Oral suspension  125 mg/5 ml + 31 mg/5 ml
+NOCA29649EMIS	Norvir  Capsules  100 mg
+AMCA5622NEMIS	Amprenavir  Capsules  50 mg
+COSY4777	Colistin Sulfate  Syrup  250,000 units/5 ml
+DATA116590NEMIS	Daclatasvir  Tablets  90 mg
+CESU10328HILLI	Cefixime  Paediatric suspension  100 mg/5 ml
+CESU33631EMIS	Cefprozil  Suspension  250 mg/5 ml
+QUTA36809MGEMIS	Quinine Bisulfate  Tablets  300 mg (Generics (UK))
+AMOR37928MGEMIS	Amoxicillin  Oral Powder Sachets Sugar Free  3 gram sachet (A.A.H. Pharm)
+PESY2179	Penbritin  Syrup forte  250 mg/5 ml
+TETA37152MGEMIS	Terbinafine Hydrochloride  Tablets  250 mg (Ivax Pharmaceuticals)
+DATA38728NEMIS	Darunavir  Tablets  75 mg
+CUPO23500NEMIS	Cubicin  Powder for concentrate for solution for infusion  500 mg vial
+MICA24207EMIS	Minocycline  Capsules  50 mg
+CIIN25465EMIS	Ciprofloxacin  Intravenous infusion  2 mg/ml, 200 ml bottle
+TICA21307NEMIS	Tipranavir  Capsules  250 mg
+CECA4688	Cefadroxil  Capsules  500 mg
+CITA23557EMIS	Ciproxin  Tablets  750 mg
+DOOR74087NEMIS	Doxycycline  Oral suspension  50 mg/5 ml
+MIPO30728NEMIS	Micafungin  Powder for solution for infusion  50 mg vial
+MAIN1710	Magnapen  Injection  500 mg vial
+VECA3022	Velosef  Capsules  500 mg
+ACDI33612MGEMIS	Aciclovir  Dispersible tablets  400 mg (Kent Pharm)
+OXTA2146	Oxytetracycline  Tablets  250 mg
+CEIN6899	Ceftazidime  Injection  250 mg/vial
+TOIN51935NEMIS	Tobi Podhaler  Inhalation Powder Capsules With Device  28 mg
+PRTA18801NEMIS	Proguanil And Atovaquone  Tablets  25 mg + 62.5 mg
+ISCH78949NEMIS	Isentress  Chewable tablets  100 mg
+DITA74098NEMIS	Dificlir  Tablets  200 mg
+KECA1548	Keflex  Capsules  500 mg
+ERP.19609EMIS	Erythroped  P.i. sugar-free suspension  125 mg/5 ml
+META36016MGEMIS	Metronidazole  Tablets  400 mg (The Boots Company)
+FLCA35109MGEMIS	Fluconazole  Capsules  150 mg (Unichem)
+AMMI33704MGEMIS	Ampicillin  Mixture  125 mg/5 ml (Kent Pharm)
+MEIN26493EMIS	Meropenem  Powder For Solution For Injection  500 mg vial
+DOCA37555MGEMIS	Doxycycline Hyclate  Capsules  50 mg (Unichem)
+GLTA124385NEMIS	Glecaprevir And Pibrentasvir  Tablets  100 mg + 40 mg
+FLCA35092MGEMIS	Flucloxacillin  Capsules  500 mg (Unichem)
+INCA11864NEMIS	Indinavir  Capsules  100 mg
+CEOR28319NEMIS	Cefalexin  Oral Suspension (Sugar-Free)  250 mg/5 ml
+VACA37361MGEMIS	Vancomycin Hydrochloride  Capsules  250 mg (Alpharma)
+CIIN25464EMIS	Ciprofloxacin  Intravenous infusion  2 mg/ml, 100 ml bottle
+COPO116857NEMIS	Colifin  Powder For Nebuliser Solution  2 MIU (2 million units/vial)
+COTA14797NEMIS	Copegus  Tablets  200 mg
+CEIN4690	Cefotaxime  Powder For Solution For Injection  1 gram vial
+AMOR37936MGEMIS	Amoxicillin  Oral Suspension Sugar Free  125 mg/5 ml (Kent Pharm)
+CEM/34161MGEMIS	Cefaclor  M/R tablets  375 mg (Unichem)
+CLM/47164NEMIS	Clarie Xl  M/R tablets  500 mg
+TYPO22585NEMIS	Tygacil  Powder for solution for infusion  50 mg vial
+CEM/34160MGEMIS	Cefaclor  M/R tablets  375 mg (Ranbaxy)
+AMSY4592	Amoxycillin  Syrup sf  125 mg/5 ml
+CIPA3318	Cidomycin  Paediatric injection  10 mg/ml, 2 ml vial
+CECA38044MGEMIS	Cefradine  Capsules  250 mg (Teva UK)
+KECA30115EMIS	Keftid  Capsules  250 mg
+PEIN17880NEMIS	Pentamidine Isetionate  Powder For Solution For Injection  300 mg vial
+ATTA28887NEMIS	Atripla  Tablets  
+KETA12117NEMIS	Ketek  Tablets  400 mg
+CESU6870	Cefaclor  Suspension  250 mg/5 ml
+CITA34296MGEMIS	Ciprofloxacin  Tablets  500 mg (Generics (UK))
+AZCA1005EMIS	Azithromycin  Capsules  250 mg
+ACDI33629MGEMIS	Aciclovir  Dispersible tablets  800 mg (Pfizer)
+AMCA37886MGEMIS	Amoxicillin  Capsules  250 mg (Sandoz)
+LETA130667NEMIS	Letermovir  Tablets  240 mg
+SYIN1577NEMIS	Synercid  Powder for solution for infusion  
+CLTA9105EMIS	Clarithromycin  Tablets  250 mg
+CEOR38037MGEMIS	Cefalexin  Oral suspension  250 mg/5 ml (Generics (UK))
+TRTA2939	Trimethoprim  Tablets  200 mg
+ACIN9560EMIS	Aciclovir  Powder for solution for infusion  500 mg vial
+CLTA34423MGEMIS	Clarithromycin  Tablets  250 mg (Kent Pharm)
+FLIN35162MGEMIS	Flucloxacillin  Injection  250 mg/vial (Wockhardt UK)
+PIPO35730NEMIS	Piperacillin And Tazobactam  Powder for solution for infusion  4 grams + 500 mg vial
+TECA4411	Tetralysal 300  Capsules  408 mg
+LYCA5101	Lymecycline  Capsules  408 mg
+CLIN23881EMIS	Clarithromycin  Powder for solution for infusion  500 mg vial
+VACA4489	Vancocin  Capsules  250 mg
+PAIN1590NEMIS	Palivizumab  Powder and solvent for solution for injection  100 mg vial
+CITA34323MGEMIS	Ciprofloxacin  Tablets  100 mg (Alpharma)
+CEIN4695	Cefuroxime  Powder for injection  1.5 gram vial
+META36006MGEMIS	Metronidazole  Tablets  200 mg (Ranbaxy)
+RACH78947NEMIS	Raltegravir  Chewable tablets  25 mg
+GACA26477EMIS	Ganciclovir  Capsules  250 mg
+META36029MGEMIS	Metronidazole  Tablets  500 mg (Alpharma)
+CECA38052MGEMIS	Cefradine  Capsules  500 mg (A.A.H. Pharm)
+FLCA35090MGEMIS	Flucloxacillin  Capsules  250 mg (Unichem)
+QUTA36804MGEMIS	Quinine Sulfate  Tablets  300 mg (Ivax Pharmaceuticals)
+TYNE88691NEMIS	Tymbrineb  Nebuliser solution  300 mg/5 ml ampoule (60 mg/ml)
+GASU10306BRIDL	Galenamox  Suspension  125 mg/5 ml
+RISY4273	Rifadin  Syrup  100 mg/5 ml
+ADTA15254NEMIS	Adefovir Dipivoxil  Tablets  10 mg
+AZTA23020NEMIS	Azithromycin  Tablets  250 mg
+CETA33627EMIS	Cefzil  Tablets  500 mg
+NITA36270MGEMIS	Nitrofurantoin  Tablets  50 mg (A.A.H. Pharm)
+DATA94916NEMIS	Daclatasvir  Tablets  30 mg
+NITA36266MGEMIS	Nitrofurantoin  Tablets  100 mg (Alpharma)
+ALSY9733BRIDL	Almodan  Syrup  125 mg/5 ml
+TATA78460NEMIS	Targaxan  Tablets  550 mg
+FLCA35138MGEMIS	Fluconazole  Capsules  200 mg (Sandoz)
+FLCA35113MGEMIS	Fluconazole  Capsules  150 mg (A.A.H. Pharm)
+KEIN1556	Kefzol  Injection  1 g vial
+KEIN26152EMIS	Kefadim  Powder For Solution For Injection  1 gram/20 ml vial
+FLOR23504EMIS	Flucloxacillin  Oral solution  125 mg/5 ml
+RIIN7060	Rifampicin  Powder And Solvent For Solution For Infusion  600 mg vial
+DOCA38102MGEMIS	Doxycycline Hyclate  Capsules  100 mg (The Boots Company)
+GRTA1324	Grisovin  Tablets  500 mg
+KEIN1557	Kefzol  Injection  500 mg vial
+CECA38002MGEMIS	Cefalexin  Capsules  500 mg (Teva UK)
+DISU942	Distaclor  Suspension  250 mg/5 ml
+NEM/51985NEMIS	Nevirapine Anhydrate  M/R tablets  400 mg
+AMCA33684MGEMIS	Ampicillin  Capsules  250 mg (Generics (UK))
+CEIN34151MGEMIS	Ceftriaxone  Injection  2 grams/vial (Genus Pharm)
+AMOR37932MGEMIS	Amoxicillin  Oral Suspension Sugar Free  125 mg/5 ml (Generics (UK))
+TOIN5456	Tobramycin  Injection  20 mg/2 ml vial
+FLCA35104MGEMIS	Fluconazole  Capsules  150 mg (Alpharma)
+AMOR37934MGEMIS	Amoxicillin  Oral Suspension Sugar Free  125 mg/5 ml (Teva UK)
+VFPO13783NEMIS	Vfend  Powder for solution for infusion  10 mg/ml, 200 mg vial
+FLCA35137MGEMIS	Fluconazole  Capsules  200 mg (Kent Pharm)
+COTA24059NEMIS	Copegus  Tablets  400 mg
+DATA34704MGEMIS	Dapsone  Tablets  50 mg (Alpharma)
+FLIN35157MGEMIS	Flucloxacillin  Injection  500 mg/vial (Unichem)
+VIE/5346NEMIS	Videx Ec  E/c capsules  200 mg
+ROIN23576EMIS	Rocephin  Powder For Solution For Injection  2 gram vial
+ATTA28887NEMIS	Atripla  Tablets  
+VOPO81489NEMIS	Voriconazole  Powder and solvent for infusion  10 mg/ml, 200 mg vial
+CECA37998MGEMIS	Cefalexin  Capsules  250 mg (PLIVA Pharma Ltd)
+EVTA100728NEMIS	Evoxil  Tablets  500 mg
+CECA38045MGEMIS	Cefradine  Capsules  250 mg (Kent Pharm)
+NICA6970	Nitrofurantoin  Capsules  50 mg
+MEIN1755	Mefoxin  Injection  2 g vial
+DOCA38101MGEMIS	Doxycycline Hyclate  Capsules  100 mg (Alpharma)
+SUCA823NEMIS	Sustiva  Capsules  50 mg
+CECA37992MGEMIS	Cefalexin  Capsules  250 mg (Generics (UK))
+ACTA33641MGEMIS	Aciclovir  Tablets  200 mg (Wockhardt UK)
+TETA19959NEMIS	Tenofovir And Emtricitabine  Tablets  245 mg + 200 mg
+BASU272	Baxan  Suspension  250 mg/5 ml
+DASO21840NEMIS	Dalacin C  Solution for injection  150 mg/ml, 4 ml ampoule
+CYTA8332EGTON	Cymevene  Powder for concentrate for solution for infusion  500 mg vial
+VITA88550NEMIS	Vitekta  Tablets  150 mg
+CECA20695EMIS	Cefaclor  Capsules  500 mg
+META36010MGEMIS	Metronidazole  Tablets  200 mg (Generics (UK))
+AMCA17511NEMIS	Amoxicillin  Capsules  500 mg
+EVTA104818NEMIS	Evotaz  Tablets  300 mg + 150 mg
+DATA24228NEMIS	Darunavir  Tablets  300 mg
+PROR2349	Pripsen  Oral powder  (2 sachet pack)
+EFCA818NEMIS	Efavirenz  Capsules  50 mg
+PHOR31251EMIS	Phenoxymethylpenicillin  Oral solution  250 mg/5 ml
+ERSU34993MGEMIS	Erythromycin Ethyl Succinate  Suspension  500 mg/5 ml (Kent Pharm)
+VITA29374EMIS	Virovir  Tablets  200 mg
+TRTA37330MGEMIS	Trimethoprim  Tablets  200 mg (Kent Pharm)
+COCA34440MGEMIS	Co-Fluampicil 250/250  Capsules  (Ivax Pharmaceuticals)
+CEIN7120	Cefuroxime  Powder for injection  750 mg vial
+VITA78604NEMIS	Viread  Tablets  204 mg
+AMIN37906MGEMIS	Amoxicillin  Injection  250 mg vial (A.A.H. Pharm)
+ITCO6651NEMIS	Itraconazole  Concentrate for intravenous infusion  10 mg/ml, 25 ml ampoule
+MITA36086MGEMIS	Minocycline  Tablets  50 mg (A.A.H. Pharm)
+QUTA36815MGEMIS	Quinine Sulfate  Tablets  200 mg (Teva UK)
+DOCA17639NEMIS	Doxycycline Hyclate  Capsules  100 mg
+LETA5658NEMIS	Levamisole Hydrochloride  Tablets  50 mg
+PASO105001NEMIS	Palivizumab  Solution for injection  100 mg/1 ml vial
+DOTA131629NEMIS	Doravirine  Tablets  100 mg
+RICA4275	Rifampicin  Capsules  300 mg
+META36012MGEMIS	Metronidazole  Tablets  400 mg (Alpharma)
+NATA1928	Nalidixic Acid  Tablets  500 mg
+CISO23037NEMIS	Cidomycin  Solution for injection  40 mg/ml, 2 ml ampoule
+ZISU9377EMIS	Zithromax  Suspension  200 mg/5 ml
+CLTA34414MGEMIS	Clarithromycin  Tablets  500 mg (Generics (UK))
+FATA3564	Fasigyn  Tablets  500 mg
+AU609263HILLI	Augmentin  Powder For Solution For Injection/Infusion  600 mg vial
+PHTA36522MGEMIS	Phenoxymethylpenicillin  Tablets  250 mg (A.A.H. Pharm)
+ERE/37659MGEMIS	Erythromycin  E/c tablets  250 mg (A.A.H. Pharm)
+DATA34703MGEMIS	Dapsone  Tablets  50 mg (Unichem)
+FLTA1179	Flagyl  Tablets  200 mg
+AMIN17514NEMIS	Amoxicillin  Powder For Solution For Injection  500 mg vial
+ZITA5627	Zinnat  Tablets  125 mg
+GACA10300BRIDL	Galenamox  Capsules  250 mg
+CEOR38034MGEMIS	Cefalexin  Oral suspension  250 mg/5 ml (Ranbaxy)
+CITA34363MGEMIS	Ciprofloxacin  Tablets  250 mg (A.A.H. Pharm)
+DOCA37549MGEMIS	Doxycycline Hyclate  Capsules  50 mg (A.A.H. Pharm)
+MITA36087MGEMIS	Minocycline  Tablets  50 mg (Alpharma)
+MESU5160	Metronidazole  Suppositories  1 gram
+FATA26687EMIS	Famvir  Tablets  125 mg
+NYSU5221	Nystatin  Oral suspension  100,000 units/ml
+FLCA35118MGEMIS	Fluconazole  Capsules  50 mg (Alpharma)
+CESU6800	Cefadroxil  Suspension  500 mg/5 ml
+FLPO124612NEMIS	Flucloxacillin  Powder For Solution For Injection  2 gram vial
+AMPA129	Amoxil  Paediatric suspension  125 mg/1.25 ml
+ACIN33616MGEMIS	Aciclovir  Intravenous infusion  250 mg/vial (A.A.H. Pharm)
+ERSU25267EMIS	Erythromycin Ethyl Succinate  Suspension  250 mg/5 ml
+FLCA35141MGEMIS	Fluconazole  Capsules  200 mg (Ranbaxy)
+COPO116856NEMIS	Colifin  Powder For Nebuliser Solution  1 MIU (1 million units/vial)
+EVSO51578NEMIS	Evoxil  Solution for infusion  5 mg/ml, 100 ml vial
+RITA9069BRIDL	Rifampicin And Isoniazid 300+150  Tablets  
+AMOR37915MGEMIS	Amoxicillin  Oral suspension  125 mg/5 ml (Unichem)
+NOSO96301NEMIS	Noxafil  Concentrate For Solution For Infusion  300 mg/16.7 ml vial
+COTA32737EMIS	Combivir  Tablets  300 mg + 150 mg
+VATA22747NEMIS	Valaciclovir  Tablets  250 mg
+AMCA37896MGEMIS	Amoxicillin  Capsules  500 mg (Unichem)
+ERCA4890	Erythromycin  Capsules (Gastro-Resistant)  250 mg
+UTTA10364BRIDL	Utinor  Tablets  400 mg
+KLM/30083EMIS	Klaricid Xl  M/R tablets  500 mg
+FLIN22803NEMIS	Fluconazole  Intravenous infusion  200 mg/100 ml bag
+META36013MGEMIS	Metronidazole  Tablets  400 mg (Ranbaxy)
+TRTA5835NEMIS	Trizivir  Tablets  
+COPO18413NEMIS	Colistimethate Sodium  Powder For Nebuliser Solution  1 million units/vial
+CITA34299MGEMIS	Ciprofloxacin  Tablets  500 mg (Mayne Pharma)
+DATA34700MGEMIS	Dapsone  Tablets  100 mg (Unichem)
+RITA9069BRIDL	Rifampicin And Isoniazid 300+150  Tablets  
+PHTA36523MGEMIS	Phenoxymethylpenicillin  Tablets  250 mg (Teva UK)
+ERST3539	Erythromycin  Tablets  250 mg
+FLCA9227BRIDL	Fluclomix  Capsules  500 mg
+RITA9066BRIDL	Rifampicin And Isoniazid 150 + 100  Tablets  
+CITA6845	Ciprofloxacin  Tablets  250 mg
+ACSU23930EMIS	Aciclovir  Suspension  400 mg/5 ml
+ERSU34990MGEMIS	Erythromycin Ethyl Succinate  Suspension  250 mg/5 ml (Alpharma)
+MATA124988NEMIS	Maraviroc  Tablets  75 mg
+CAIN4674	Capreomycin  Powder For Solution For Injection  1 million unit vial
+SACA17903NEMIS	Saquinavir Mesilate  Capsules  200 mg
+TRTA37328MGEMIS	Trimethoprim  Tablets  200 mg (Teva UK)
+ACIN43	Aciclovir  Powder for solution for infusion  250 mg vial
+PRPO15015NEMIS	Promixin  Powder For Nebuliser Solution  1 million units/vial
+OXTA36362MGEMIS	Oxytetracycline  Tablets  250 mg (Kent Pharm)
+QUTA2425	Quinine Sulfate  Tablets  300 mg
+SUOR46531NEMIS	Sulfadiazine  Oral suspension  250 mg/5 ml
+TRTA19961NEMIS	Truvada  Tablets  200 mg + 245 mg
+ACTA33901EMIS	Aciclovir  Tablets  800 mg
+FLOR35167MGEMIS	Flucloxacillin  Oral solution  125 mg/5 ml (A.A.H. Pharm)
+CETA38019MGEMIS	Cefalexin  Tablets  500 mg (Generics (UK))
+CIIN31075EMIS	Ciproxin  Intravenous infusion  2 mg/ml, 200 ml bag
+MIGR3925	Mictral  Granules  
+ESTA23278EMIS	Eskazole  Tablets  400 mg
+XYPO122404NEMIS	Xydalba  Powder for concentrate for solution for infusion  500 mg vial
+NITA2010	Nizoral  Tablets  200 mg
+FLCA35105MGEMIS	Fluconazole  Capsules  150 mg (Teva UK)
+AMCA33687MGEMIS	Ampicillin  Capsules  250 mg (Kent Pharm)
+TEPO101988NEMIS	Tedizolid  Powder for solution for infusion  200 mg vial
+SUTA17847NEMIS	Sulfadiazine  Tablets  500 mg
+RESY18021EMIS	Retrovir  Oral solution  100 mg/10 ml
+AMIN3161	Amikin  Injection  250 mg/1 ml, 2 ml vial
+INTA5029	Inosine Pranobex  Tablets  500 mg
+CHIN4715	Chloramphenicol  Powder For Solution For Injection  1 gram vial
+AMOR37938MGEMIS	Amoxicillin  Oral Suspension Sugar Free  125 mg/5 ml (Sandoz)
+FOTA18509NEMIS	Fosamprenavir  Tablets  700 mg
+COTA34521MGEMIS	Co-Amoxiclav 250/125  Tablets  (A.A.H. Pharm)
+CETA537	Ceporex  Tablets  250 mg
+PHOR36494MGEMIS	Phenoxymethylpenicillin  Oral solution  125 mg/5 ml (Alpharma)
+DATA34701MGEMIS	Dapsone  Tablets  100 mg (Alpharma)
+TRTA37327MGEMIS	Trimethoprim  Tablets  200 mg (Unichem)
+TACA29017NEMIS	Tamiflu  Capsules  45 mg
+CECA38051MGEMIS	Cefradine  Capsules  500 mg (Ranbaxy)
+ORTA22408EMIS	Orelox  Tablets  100 mg
+FLCA8419EGTON	Fluconazole  Capsules  150 mg
+QUTA36810MGEMIS	Quinine Bisulfate  Tablets  300 mg (Kent Pharm)
+META1733	Mebendazole  Tablets  Sugar Free 100 mg
+COCA19249NEMIS	Concord 693  Capsules  250 mg
+ACDI33630MGEMIS	Aciclovir  Dispersible tablets  800 mg (The Boots Company)
+VIOR33979EMIS	Viracept  Oral powder  50 mg/gram
+AMOR37933MGEMIS	Amoxicillin  Oral Suspension Sugar Free  125 mg/5 ml (Ivax Pharmaceuticals)
+SATA20332NEMIS	Saquinavir Mesilate  Tablets  500 mg
+DICA8335EGTON	Diflucan  Capsules  150 mg
+CITA22180EMIS	Ciproxin  Tablets  500 mg
+CRIN771	Crystapen  Injection  600 mg/vial
+QUTA36798MGEMIS	Quinine Sulfate  Tablets  300 mg (Generics (UK))
+META36020MGEMIS	Metronidazole  Tablets  400 mg (Ivax Pharmaceuticals)
+EFTA14589NEMIS	Efavirenz  Tablets  600 mg
+RICA36882MGEMIS	Rifampicin  Capsules  150 mg (Kent Pharm)
+AZCA132408NEMIS	Azocan  Capsules  50 mg
+CLPA37615MGEMIS	Clarithromycin  Paediatric suspension  250 mg/5 ml (Kent Pharm)
+RAGR103645NEMIS	Raltegravir  Granules  100 mg sachets
+SOTA90019NEMIS	Sofosbuvir  Tablets  400 mg
+FLCA8419EGTON	Fluconazole  Capsules  150 mg
+COSU34482MGEMIS	Co-Amoxiclav 125/31  Sugar free suspension  (Teva UK)
+NETA32745EMIS	Nevirapine Anhydrate  Tablets  200 mg
+COTA34537MGEMIS	Co-Amoxiclav 500/125  Tablets  (Generics (UK))
+RITA46539NEMIS	Rifaximin  Tablets  200 mg
+ITCA35620MGEMIS	Itraconazole  Capsules  100 mg (Unichem)
+FLCA8420EGTON	Fluconazole  Capsules  50 mg
+ACSU9009DLSEM	Aciclovir  Sugar free suspension  400 mg/5 ml
+ZICA7059	Zidovudine  Capsules  100 mg
+CEIN34155MGEMIS	Ceftazidime  Injection  1 gram/vial (Wockhardt UK)
+CLCA34375MGEMIS	Clindamycin  Capsules  150 mg (Sandoz)
+QUTA36797MGEMIS	Quinine Sulfate  Tablets  300 mg (Kent Pharm)
+QUTA36808MGEMIS	Quinine Bisulfate  Tablets  300 mg (Unichem)
+ETTA35014MGEMIS	Ethambutol Hydrochloride  Tablets  400 mg (Unichem)
+AZSU9381EMIS	Azithromycin  Suspension  200 mg/5 ml
+OFTA36303MGEMIS	Ofloxacin  Tablets  400 mg (Ranbaxy)
+ETTA35012MGEMIS	Ethambutol Hydrochloride  Tablets  400 mg (Genus Pharm)
+ZECA29420EMIS	Zerit  Capsules  20 mg
+ISCH78948NEMIS	Isentress  Chewable tablets  25 mg
+DOCA4868	Doxycycline  Capsules  100 mg
+SUTA38272MGEMIS	Sulfadiazine  Tablets  500 mg (Kent Pharm)
+ERSU34977MGEMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  250 mg/5 ml (A.A.H. Pharm)
+DIIN9510EMIS	Diflucan  Infusion  200 mg/100 ml vial
+JUTA127089NEMIS	Juluca  Tablets  50 mg + 25 mg
+CRIN771	Crystapen  Injection  600 mg/vial
+ACTA45	Aciclovir  Tablets  200 mg
+ACTA45	Aciclovir  Tablets  200 mg
+ISTA35602MGEMIS	Isoniazid  Tablets  100 mg (Unichem)
+ETTA35008MGEMIS	Ethambutol Hydrochloride  Tablets  100 mg (Genus Pharm)
+ERSU34983MGEMIS	Erythromycin Ethyl Succinate  Suspension  125 mg/5 ml (Sandoz)
+CITA34322MGEMIS	Ciprofloxacin  Tablets  100 mg (Unichem)
+AMOR37923MGEMIS	Amoxicillin  Oral suspension  250 mg/5 ml (Ranbaxy)
+ERSU4895	Erythromycin  Suspension  250 mg/5 ml
+FLCA1195	Flucloxacillin  Capsules  250 mg
+LATA29580EMIS	Lamivudine  Tablets  150 mg
+ERIN4891	Erythromycin  Powder for solution for infusion  1 gram vial
+OFTA36296MGEMIS	Ofloxacin  Tablets  200 mg (Ranbaxy)
+ERSU34974MGEMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  125 mg/5 ml (Generics (UK))
+COTA34523MGEMIS	Co-Amoxiclav 250/125  Tablets  (Unichem)
+CECA34134MGEMIS	Cefaclor  Capsules  250 mg (Teva UK)
+AMCA141	Ampicillin  Capsules  250 mg
+KESU31406EMIS	Keftid  Sugar-free suspension  125 mg/5 ml
+CETA38014MGEMIS	Cefalexin  Tablets  250 mg (A.A.H. Pharm)
+CECA34130MGEMIS	Cefaclor  Capsules  500 mg (A.A.H. Pharm)
+ACSU33621MGEMIS	Aciclovir  Sugar free suspension  200mg/5ml (Rosemont Pharm)
+ERE/37656MGEMIS	Erythromycin  E/c tablets  250 mg (Ivax Pharmaceuticals)
+BRPO27339NEMIS	Britacef  Powder for injection  750 mg vial
+SOIN5389	Sodium Stibogluconate  Solution for injection  100 mg/ml, 100 ml vial
+CHCA34217MGEMIS	Chloramphenicol  Capsules  250 mg (Kent Pharm)
+AGCA5628NEMIS	Agenerase  Capsules  150 mg
+PRTA38730NEMIS	Prezista  Tablets  75 mg
+TETA37147MGEMIS	Terbinafine Hydrochloride  Tablets  250 mg (Teva UK)
+CITA34290MGEMIS	Ciprofloxacin  Tablets  500 mg (Unichem)
+ETTA52649NEMIS	Etravirine  Tablets  200 mg
+COTA34616MGEMIS	Co-Trimoxazole  Tablets  480 mg (Unichem)
+CLTA9105EMIS	Clarithromycin  Tablets  250 mg
+NITA2007	Nivaquine  Tablets  200 mg
+ETTA35013MGEMIS	Ethambutol Hydrochloride  Tablets  400 mg (Kent Pharm)
+FLCA1186	Floxapen  Capsules  250 mg
+DASO21839NEMIS	Dalacin C  Solution for injection  150 mg/ml, 2 ml ampoule
+SACA203NEMIS	Saquinavir  Capsules  200 mg
+RIOR29654EMIS	Ritonavir  Oral Solution, Sugar Free  80 mg/ml
+CYCA9385HILLI	Cycloserine  Capsules  250 mg
+PATA81526NEMIS	Paromomycin Sulfate  Tablets  250 mg
+KATA29890NEMIS	Kaletra  Tablets  100 mg + 25 mg
+AMOR37943MGEMIS	Amoxicillin  Oral Suspension Sugar Free  250 mg/5 ml (Teva UK)
+FLCA35095MGEMIS	Flucloxacillin  Capsules  500 mg (Ivax Pharmaceuticals)
+AMOR37941MGEMIS	Amoxicillin  Oral Suspension Sugar Free  250 mg/5 ml (Ivax Pharmaceuticals)
+CETA34185MGEMIS	Cefuroxime  Tablets  250 mg (Sandoz)
+NEM/51985NEMIS	Nevirapine Anhydrate  M/R tablets  400 mg
+MITA1849	Minocin  Tablets  100 mg
+COIN17604NEMIS	Colistimethate Sodium  Injection  2 million unit vial
+PHTA36524MGEMIS	Phenoxymethylpenicillin  Tablets  250 mg (Unichem)
+TETA4403	Terramycin  Tablets  250 mg
+SETA2547	Septrin  Tablets  480 mg
+EFM/37470NEMIS	Efracea  M/R capsules  40 mg
+AUDI9042BRIDL	Augmentin  Dispersible tablets  
+LOCA18797NEMIS	Lopinavir And Ritonavir  Capsules  133.3 mg + 33.3 mg
+QUTA36799MGEMIS	Quinine Sulfate  Tablets  300 mg (Unichem)
+FLOR23504EMIS	Flucloxacillin  Oral solution  125 mg/5 ml
+CITA34371MGEMIS	Ciprofloxacin  Tablets  250 mg (Ivax Pharmaceuticals)
+AMCA5624NEMIS	Amprenavir  Capsules  150 mg
+COTA34522MGEMIS	Co-Amoxiclav 250/125  Tablets  (Ranbaxy)
+CECA38006MGEMIS	Cefalexin  Capsules  500 mg (Kent Pharm)
+CEIN34147MGEMIS	Ceftriaxone  Injection  1 gram/vial (Wockhardt UK)
+RICA4269	Rifadin  Capsules  150 mg
+ERSU28989EMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  500 mg/5 ml
+BITA3510NEMIS	Biltricide  Tablets  600 mg
+ACSU33622MGEMIS	Aciclovir  Sugar free suspension  200mg/5ml (A.A.H. Pharm)
+FLOR17956EMIS	Fluconazole  Oral suspension  50 mg/5 ml
+INTA20333NEMIS	Invirase  Tablets  500 mg
+ZODI26995EMIS	Zovirax  Dispersible tablets  400 mg
+TETA78599NEMIS	Tenofovir Disoproxil  Tablets  123 mg
+PHTA36526MGEMIS	Phenoxymethylpenicillin  Tablets  250 mg (The Boots Company)
+ACTA33901EMIS	Aciclovir  Tablets  800 mg
+COSU34481MGEMIS	Co-Amoxiclav 125/31  Sugar free suspension  (A.A.H. Pharm)
+DICA9556BRIDL	Diflucan  Capsules  200 mg
+REOR44094NEMIS	Rebetol  Oral solution  40 mg/ml
+RIMI4276	Rifampicin  Oral suspension  100 mg/5 ml
+COIN34470MGEMIS	Co-Trimoxazole  Intravenous infusion  96 mg/ml, 5 ml ampoule (A.A.H. Pharm)
+VISU1626NEMIS	Viramune  Suspension  50 mg/5 ml
+ROTA18841EMIS	Rommix  Tablets  250 mg
+AMSY133	Amoxil  Syrup sf  250 mg/5 ml
+RICA23998EMIS	Rifabutin  Capsules  150 mg
+COSU34477MGEMIS	Co-Amoxiclav 125/31  Sugar free suspension  (Ranbaxy)
+FOIN1233	Fortum  Powder For Solution For Injection  1 gram vial
+NICA6970	Nitrofurantoin  Capsules  50 mg
+CITA34372MGEMIS	Ciprofloxacin  Tablets  250 mg (Wockhardt UK)
+FLCA35135MGEMIS	Fluconazole  Capsules  200 mg (Unichem)
+ERSU19605EMIS	Erythroped  Sugar-free suspension  250 mg/5 ml
+RICA36884MGEMIS	Rifampicin  Capsules  150 mg (Unichem)
+FLCA8420EGTON	Fluconazole  Capsules  50 mg
+DATA38729NEMIS	Darunavir  Tablets  150 mg
+MATA124388NEMIS	Maviret  Tablets  100 mg + 40 mg
+ABTA922NEMIS	Abacavir  Tablets  300 mg
+ERTA3543	Erythroped A  Tablets  500 mg
+ISTA124622NEMIS	Isentress  Tablets  600 mg
+DATA94918NEMIS	Daclatasvir  Tablets  60 mg
+CEOR17571NEMIS	Cefalexin  Oral suspension  125 mg/5 ml
+DETA116197NEMIS	Descovy  Tablets  200 mg + 25 mg
+DOTA122201NEMIS	Dolutegravir  Tablets  25 mg
+GETA115556NEMIS	Genfura  Tablets  50 mg
+INTA81484NEMIS	Intelence  Tablets  25 mg
+ERSU34980MGEMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  250 mg/5 ml (Kent Pharm)
+PHSY5272	Phenoxymethylpenicillin  Syrup  250 mg/5 ml
+MEIN26491EMIS	Meropenem  Powder For Solution For Injection  1 gram vial
+CECA34128MGEMIS	Cefaclor  Capsules  500 mg (Unichem)
+AUDI9042BRIDL	Augmentin  Dispersible tablets  
+NYSU5221	Nystatin  Oral suspension  100,000 units/ml
+CLTA34426MGEMIS	Clarithromycin  Tablets  250 mg (Sandoz)
+FUIN3617	Fungizone  Powder for concentrate for solution for infusion  50 mg vial
+ERCA34968MGEMIS	Erythromycin  Capsules (Gastro-Resistant)  250 mg (Unichem)
+DITA34777MGEMIS	Diloxanide Furoate  Tablets  500 mg (Sovereign)
+CETA38009MGEMIS	Cefalexin  Tablets  250 mg (Ivax Pharmaceuticals)
+COSU27890EMIS	Co-Amoxiclav 400/57  Sugar-free oral suspension  400 mg/5 ml + 57 mg/5 ml
+FLIN1188	Floxapen  Injection  1 g/vial
+DATA34702MGEMIS	Dapsone  Tablets  50 mg (A.A.H. Pharm)
+KEIN26153EMIS	Kefadim  Powder For Solution For Injection  2 grams/50 ml vial
+CRIN56NEMIS	Crystapen  Injection  1.2 grams/vial
+MESU35917MGEMIS	Metronidazole  Suspension  200 mg/5 ml (Unichem)
+META36008MGEMIS	Metronidazole  Tablets  200 mg (Alpharma)
+KETA1551	Keflex  Tablets  250 mg
+REPO130340NEMIS	Renapime  Powder For Solution For Injection  2 gram vial
+NEIN21649NEMIS	Negaban  Powder For Solution For Injection  1 gram vial
+TETA5426	Tetracycline Hydrochloride  Tablets  250 mg
+CESU522	Cephalexin  Suspension  250 mg/5 ml
+CLTA34412MGEMIS	Clarithromycin  Tablets  500 mg (Teva UK)
+AZIN6796	Aztreonam  Powder For Solution For Injection  2 gram vial
+CECA37997MGEMIS	Cefalexin  Capsules  250 mg (Kent Pharm)
+CITA34368MGEMIS	Ciprofloxacin  Tablets  250 mg (Teva UK)
+ISTA35601MGEMIS	Isoniazid  Tablets  100 mg (Ucb Pharma)
+PENE17881NEMIS	Pentamidine Isetionate  Nebuliser solution  300 mg/5 ml
+AUTA23527EMIS	Augmentin 375 Mg  Tablets
+DATA100591NEMIS	Dasabuvir  Tablets  250 mg
+CEIN33965EMIS	Ceftazidime  Powder For Solution For Injection  3 gram vial
+AVTA15045NEMIS	Avelox  Tablets  400 mg
+CECA38005MGEMIS	Cefalexin  Capsules  500 mg (A.A.H. Pharm)
+ISOR46775NEMIS	Isoniazid  Oral suspension  50 mg/5 ml
+CLTA34417MGEMIS	Clarithromycin  Tablets  500 mg (Unichem)
+FLCA35098MGEMIS	Flucloxacillin  Capsules  500 mg (Sandoz)
+AZIN6795	Aztreonam  Powder For Solution For Injection  1 gram vial
+DOCA37556MGEMIS	Doxycycline Hyclate  Capsules  50 mg (Generics (UK))
+AMOR37926MGEMIS	Amoxicillin  Oral suspension  250 mg/5 ml (Sandoz)
+FLIN9506EMIS	Fluconazole  Solution for infusion  50 mg/25 ml vial
+CHSY4722	Chloroquine Phosphate  Oral solution  80 mg/5 ml
+VOTA13776NEMIS	Voriconazole  Tablets  50 mg
+MEIN27951EMIS	Meronem  Powder For Solution For Injection  500 mg vial
+DICA11331NEMIS	Diflucan One  Capsules  150 mg
+LOTA29889NEMIS	Lopinavir And Ritonavir  Tablets  100 mg + 25 mg
+RECA33050EMIS	Respillin  Capsules  250 mg
+RICA36888MGEMIS	Rifampicin  Capsules  300 mg (Kent Pharm)
+AMCA123	Amoxil  Capsules  250 mg
+COSY10812BRIDL	Co-Fluampicil 125/125  Oral suspension  
+CHCA4709	Chloramphenicol  Capsules  250 mg
+MITA1852	Minocycline  Tablets  50 mg
+FATA32194EMIS	Famvir  Tablets  500 mg
+PRTA2370	Proguanil Hydrochloride  Tablets  100 mg
+VITA29375EMIS	Virovir  Tablets  400 mg
+CITA34291MGEMIS	Ciprofloxacin  Tablets  500 mg (Sandoz)
+OXTA36363MGEMIS	Oxytetracycline  Tablets  250 mg (Sussex Pharm)
+ZECA29422EMIS	Zerit  Capsules  40 mg
+CODI10292BRIDL	Co-Amoxiclav  Dispersible tablets  
+PHTA36519MGEMIS	Phenoxymethylpenicillin  Tablets  250 mg (Ivax Pharmaceuticals)
+ECPO40365NEMIS	Ecalta  Powder for concentrate for solution for infusion  100 mg vial
+CITA34300MGEMIS	Ciprofloxacin  Tablets  750 mg (Kent Pharm)
+PYTA5351	Pyrazinamide  Tablets  500 mg
+CITA34289MGEMIS	Ciprofloxacin  Tablets  500 mg (Teva UK)
+ACTA10456BRIDL	Aciclovir  Dispersible tablets  800 mg
+FUTA1263	Fungilin  Tablets  100 mg
+QUTA36812MGEMIS	Quinine Sulfate  Tablets  200 mg (Kent Pharm)
+AMOR37920MGEMIS	Amoxicillin  Oral suspension  250 mg/5 ml (Alpharma)
+OFTA36301MGEMIS	Ofloxacin  Tablets  400 mg (Kent Pharm)
+AMOR37917MGEMIS	Amoxicillin  Oral suspension  125 mg/5 ml (Sandoz)
+CISU32104EMIS	Ciprofloxacin  Suspension  250 mg/5 ml
+COSU19812EMIS	Co-Amoxiclav 125/31  Sugar free suspension  125 mg/5 ml + 31 mg/5 ml
+ISCA106455NEMIS	Isavuconazole  Capsules  100 mg
+ETSY20145NEMIS	Ethambutol Hydrochloride  Oral solution  300 mg/5 ml
+SEPA2545	Septrin  Paediatric suspension  240 mg/5 ml
+ERSU25265EMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  250 mg/5 ml
+META1813	Metronidazole  Tablets  200 mg
+ZICA1003EMIS	Zithromax  Capsules  250 mg
+PRTA130670NEMIS	Prevymis  Tablets  240 mg
+EMCA16615NEMIS	Emtricitabine  Capsules  200 mg
+TACA14668NEMIS	Tamiflu  Capsules  75 mg
+CITA31080EMIS	Ciprofloxacin  Tablets  100 mg
+CLTA34422MGEMIS	Clarithromycin  Tablets  250 mg (Teva UK)
+OFTA36293MGEMIS	Ofloxacin  Tablets  200 mg (Kent Pharm)
+COTA34526MGEMIS	Co-Amoxiclav 250/125  Tablets  (Generics (UK))
+COPO116854NEMIS	Colistimethate Sodium  Powder For Nebuliser Solution  2 million units/vial
+PEIN2175	Penbritin  Injection  500 mg/vial
+RECA33051EMIS	Respillin  Capsules  500 mg
+CEIN6900	Ceftazidime  Powder For Solution For Injection  500 mg vial
+AMOR10254BRIDL	Amoxycillin  Oral suspension  250 mg/5 ml
+MATA1715	Maloprim  Tablets  
+COSU34485MGEMIS	Co-Amoxiclav 250/62  Sugar free suspension  (Ranbaxy)
+FLCA35122MGEMIS	Fluconazole  Capsules  50 mg (Ivax Pharmaceuticals)
+CHTA577	Chloroquine Sulfate  Tablets  200 mg
+CEIN7119	Cefuroxime  Powder for injection  250 mg vial
+QUTA36801MGEMIS	Quinine Sulfate  Tablets  300 mg (Alpharma)
+CESU34174MGEMIS	Cefaclor  Sugar-free suspension  250 mg/5 ml (Unichem)
+CESU18066EMIS	Cefuroxime Axetil  Suspension  125 mg/5 ml
+CIIN24065NEMIS	Ciprofloxacin  Intravenous infusion  2 mg/ml, 200 ml vial
+CLTA34425MGEMIS	Clarithromycin  Tablets  250 mg (A.A.H. Pharm)
+META1733	Mebendazole  Tablets  Sugar Free 100 mg
+ERSU25267EMIS	Erythromycin Ethyl Succinate  Suspension  250 mg/5 ml
+FUPO15848NEMIS	Fuzeon  Powder and solvent for injection  90 mg/ml
+RATA28971NEMIS	Raltegravir  Tablets  400 mg
+CETA17569NEMIS	Cefalexin  Tablets  250 mg
+SYTA124829NEMIS	Symtuza  Tablets  800 mg + 150 mg + 200 mg + 10 mg
+AMOR37929MGEMIS	Amoxicillin  Oral Powder Sachets Sugar Free  3 gram sachet (Ivax Pharmaceuticals)
+PHOR36492MGEMIS	Phenoxymethylpenicillin  Oral solution  125 mg/5 ml (Ivax Pharmaceuticals)
+CLTA34427MGEMIS	Clarithromycin  Tablets  250 mg (Unichem)
+AMOR17515NEMIS	Amoxicillin  Oral suspension  125 mg/5 ml
+NITA2000	Nitrofurantoin  Tablets  100 mg
+FOIN10963BRIDL	Foscavir  Intravenous infusion  24 mg/ml, 250 ml bottle
+ERSU34995MGEMIS	Erythromycin Ethyl Succinate  Suspension  500 mg/5 ml (Sandoz)
+ZOTA8742BRIDL	Zovirax  Dispersible tablets  800 mg
+CLTA34424MGEMIS	Clarithromycin  Tablets  250 mg (Generics (UK))
+CLPA34409MGEMIS	Clarithromycin  Paediatric suspension  125 mg/5 ml (Unichem)
+CESU34184MGEMIS	Cefaclor  Suspension  250 mg/5 ml (Unichem)
+FATA26687EMIS	Famvir  Tablets  125 mg
+AMCA124	Amoxil  Capsules  500 mg
+FATA26689EMIS	Famciclovir  Tablets  125 mg
+DOCA37550MGEMIS	Doxycycline Hyclate  Capsules  50 mg (Alpharma)
+NITA2001	Nitrofurantoin  Tablets  50 mg
+ERSU25268EMIS	Erythromycin Ethyl Succinate  Suspension  500 mg/5 ml
+CLM/30085EMIS	Clarithromycin  M/R tablets  500 mg
+KLPA771NEMIS	Klaricid  Paediatric suspension  250 mg/5 ml
+RASU6660NEMIS	Ranclav  Sugar free suspension  250/62
+OXTA36358MGEMIS	Oxytetracycline  Tablets  250 mg (A.A.H. Pharm)
+PHOR22590NEMIS	Phenoxymethylpenicillin  Oral Solution, Sugar Free  125 mg/5 ml
+AMIN37904MGEMIS	Amoxicillin  Injection  1 gram vial (Wockhardt UK)
+TETA4548NEMIS	Tenkicin  Tablets  250 mg
+CEOR38035MGEMIS	Cefalexin  Oral suspension  250 mg/5 ml (A.A.H. Pharm)
+ACDI26993EMIS	Aciclovir  Dispersible tablets  400 mg
+PHSY5271	Phenoxymethylpenicillin  Syrup  125 mg/5 ml
+VITA4123NEMIS	Videx  Tablets  200 mg
+NIM/21970EMIS	Nitrofurantoin  M/R capsules  100 mg
+MOTA1882	Monotrim  Tablets  100 mg
+MITA36084MGEMIS	Minocycline  Tablets  50 mg (Generics (UK))
+COTA697	Co-Trimoxazole  Tablets  960 mg
+HATA98488NEMIS	Harvoni  Tablets  90 mg + 400 mg
+CIIN36229NEMIS	Ciprofloxacin  Intravenous infusion  2 mg/ml, 50 ml vial
+AMPA17517NEMIS	Amoxicillin  Paediatric oral suspension  125 mg/1.25 ml
+MIM/36058MGEMIS	Minocycline  M/R capsules  100 mg (Kent Pharm)
+AMMI33707MGEMIS	Ampicillin  Mixture  250 mg/5 ml (Alpharma)
+FLCA35121MGEMIS	Fluconazole  Capsules  50 mg (Generics (UK))
+APOR39918NEMIS	Aptivus  Oral solution  100 mg/ml
+AZTA34169EMIS	Azithromycin  Tablets  500 mg
+OSCA14664NEMIS	Oseltamivir  Capsules  75 mg
+OXTA5241	Oxytetracycline Dihydrate  Tablets  250 mg
+ACDI33602MGEMIS	Aciclovir  Dispersible tablets  200 mg (Unichem)
+CLGR21390NEMIS	Clarosip  Granules For Oral Suspension Straws  250 mg
+COIN81480NEMIS	Colistimethate Sodium  Inhalation Powder Capsules  1,662,500 units
+CEOR17573NEMIS	Cefalexin  Oral suspension  500 mg/5 ml
+GEIN35280MGEMIS	Gentamicin  Injection  40 mg/1 ml ampoule (A.A.H. Pharm)
+META36015MGEMIS	Metronidazole  Tablets  400 mg (Teva UK)
+IMIN9128EMIS	Imipenem With Cilastatin  Powder for solution for infusion  500 mg vial
+ZADR1031NEMIS	Zanamivir  Dry powder for inhalation  5 mg per dose
+CECA37993MGEMIS	Cefalexin  Capsules  250 mg (Unichem)
+VOTA124788NEMIS	Vosevi  Tablets  400 mg + 100 mg + 100 mg
+CITA22182EMIS	Ciprofloxacin  Tablets  500 mg
+CESU34180MGEMIS	Cefaclor  Suspension  250 mg/5 ml (Kent Pharm)
+FLSU1178	Flagyl  Suppositories  500 mg
+INCA29904EMIS	Indinavir  Capsules  400 mg
+NICA30211EMIS	Nicef  Capsules  250 mg
+TOIN37253MGEMIS	Tobramycin  Injection  80 mg/2 ml vial (Mayne Pharma)
+AVSO40912NEMIS	Avelox  Solution for infusion  400 mg/250 ml bottle
+COSU34484MGEMIS	Co-Amoxiclav 125/31  Sugar free suspension  (Sandoz)
+RATA12740NEMIS	Ranovir  Tablets  400 mg
+AMOR37924MGEMIS	Amoxicillin  Oral suspension  250 mg/5 ml (Unichem)
+ERSU34978MGEMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  250 mg/5 ml (Ivax Pharmaceuticals)
+RATA6658NEMIS	Ranclav  Tablets  625 mg
+PHPA5269	Phenoxymethylpenicillin  Paediatric syrup  125 mg/5 ml
+DECA4806	Demeclocycline Hydrochloride  Capsules  150 mg
+CIIN31074EMIS	Ciproxin  Intravenous infusion  2 mg/ml, 100 ml bag
+RASU6659NEMIS	Ranclav  Sugar free suspension  125/31
+FLCA35089MGEMIS	Flucloxacillin  Capsules  250 mg (Generics (UK))
+TRTA4451	Trimogal  Tablets  100 mg
+KLTA9107EMIS	Klaricid  Tablets  250 mg
+TRTA95149NEMIS	Triumeq  Tablets  50 mg + 600 mg + 300 mg
+VIE/5347NEMIS	Videx Ec  E/c capsules  250 mg
+ACDI33608MGEMIS	Aciclovir  Dispersible tablets  400 mg (A.A.H. Pharm)
+ATCA17228NEMIS	Atazanavir  Capsules  100 mg
+FLIN7073	Flucloxacillin  Powder For Solution For Injection  250 mg vial
+MIM/19546EMIS	Minocycline  M/R capsules  100 mg
+TRTA37332MGEMIS	Trimethoprim  Tablets  200 mg (Ivax Pharmaceuticals)
+CETA38022MGEMIS	Cefalexin  Tablets  500 mg (Unichem)
+SETA2548	Septrin Forte  Tablets  960 mg
+CEM/22447EMIS	Cefaclor  M/R tablets  375 mg
+ISTA35605MGEMIS	Isoniazid  Tablets  50 mg (Unichem)
+DETA95167NEMIS	Delamanid  Tablets  50 mg
+BEIN6858	Benzylpenicillin Sodium  Injection  600 mg/vial
+PITA131632NEMIS	Pifeltro  Tablets  100 mg
+ACDI33607MGEMIS	Aciclovir  Dispersible tablets  200 mg (Ranbaxy)
+MITA36083MGEMIS	Minocycline  Tablets  100 mg (Teva UK)
+FOIV9542HILLI	Foscarnet Sodium Hexahydrate  Intravenous infusion  24 mg/ml, 250 ml bottle
+CODI29221EMIS	Co-Amoxiclav 250/125  Dispersible tablets  Sugar Free
+TETA125416NEMIS	Tenofovir Alafenamide  Tablets  25 mg
+VAIN23467EMIS	Vancomycin Hydrochloride  Powder for solution for infusion  1 gram vial
+ERCA34969MGEMIS	Erythromycin  Capsules (Gastro-Resistant)  250 mg (A.A.H. Pharm)
+TRTA37329MGEMIS	Trimethoprim  Tablets  200 mg (A.A.H. Pharm)
+ACDI33605MGEMIS	Aciclovir  Dispersible tablets  200 mg (Pfizer)
+COSU34479MGEMIS	Co-Amoxiclav 125/31  Sugar free suspension  (Unichem)
+CIIN25461EMIS	Ciproxin  Intravenous infusion  2 mg/ml, 200 ml bottle
+ISTA35604MGEMIS	Isoniazid  Tablets  50 mg (Ucb Pharma)
+CEOR38038MGEMIS	Cefalexin  Oral suspension  500 mg/5 ml (Kent Pharm)
+QUSU15033NEMIS	Quinine Sulfate  Suspension  300 mg/5 ml
+CECA34131MGEMIS	Cefaclor  Capsules  500 mg (Ranbaxy)
+ERE/37655MGEMIS	Erythromycin  E/c tablets  250 mg (Generics (UK))
+CETA124990NEMIS	Celsentri  Tablets  75 mg
+VACA7106	Vancomycin Hydrochloride  Capsules  250 mg
+TRSU37307MGEMIS	Trimethoprim  Suspension  Sugar Free 50 mg/5 ml (A.A.H. Pharm)
+CETA38017MGEMIS	Cefalexin  Tablets  500 mg (Teva UK)
+ERSU34989MGEMIS	Erythromycin Ethyl Succinate  Suspension  250 mg/5 ml (Sandoz)
+AMCA33688MGEMIS	Ampicillin  Capsules  250 mg (A.A.H. Pharm)
+TRTA37333MGEMIS	Trimethoprim  Tablets  200 mg (Sandoz)
+QUTA36806MGEMIS	Quinine Bisulfate  Tablets  300 mg (The Boots Company)
+PRTA35032NEMIS	Prezista  Tablets  400 mg
+FLCA35106MGEMIS	Fluconazole  Capsules  150 mg (Winthrop Pharmaceuticals )
+CEOR38029MGEMIS	Cefalexin  Oral suspension  125 mg/5 ml (A.A.H. Pharm)
+AMOR37921MGEMIS	Amoxicillin  Oral suspension  250 mg/5 ml (Ivax Pharmaceuticals)
+CECA17576NEMIS	Cefradine  Capsules  500 mg
+TEOR25269NEMIS	Terbinafine  Oral suspension  250 mg/5 ml
+ERP.19609EMIS	Erythroped  P.i. sugar-free suspension  125 mg/5 ml
+GETA115555NEMIS	Genfura  Tablets  100 mg
+CLGR21388NEMIS	Clarosip  Granules For Oral Suspension Straws  125 mg
+AMCA37890MGEMIS	Amoxicillin  Capsules  250 mg (Ranbaxy)
+OFTA36290MGEMIS	Ofloxacin  Tablets  200 mg (Sandoz)
+CESU34178MGEMIS	Cefaclor  Suspension  125 mg/5 ml (Kent Pharm)
+FUTA1265	Furadantin  Tablets  100 mg
+INCA29903EMIS	Indinavir  Capsules  200 mg
+FLSO83178NEMIS	Fluconazole  Solution for infusion  200 mg/100 ml bottle
+OXTA10546BRIDL	Oxytetramix 250  Tablets  250 mg
+LAOR29579EMIS	Lamivudine  Oral solution  10 mg/ml
+VITA78602NEMIS	Viread  Tablets  123 mg
+CRCA29900EMIS	Crixivan  Capsules  400 mg
+VACA37360MGEMIS	Vancomycin Hydrochloride  Capsules  250 mg (A.A.H. Pharm)
+ACDI33604MGEMIS	Aciclovir  Dispersible tablets  200 mg (Kent Pharm)
+FLCA35128MGEMIS	Fluconazole  Capsules  50 mg (Wockhardt UK)
+DOCA38104MGEMIS	Doxycycline Hyclate  Capsules  100 mg (Generics (UK))
+QUTA4244	Quinine Bisulfate  Tablets  300 mg
+MACA1709	Magnapen  Capsules  
+ISOR96780NEMIS	Isoniazid  Oral solution  50 mg/5 ml
+CISU32104EMIS	Ciprofloxacin  Suspension  250 mg/5 ml
+MITA36078MGEMIS	Minocycline  Tablets  100 mg (Kent Pharm)
+ERSU34973MGEMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  125 mg/5 ml (A.A.H. Pharm)
+ACDI33626MGEMIS	Aciclovir  Dispersible tablets  800 mg (Sterwin Medicines)
+CAIN3281	Capastat  Injection  1 million units/vial
+PHOR36500MGEMIS	Phenoxymethylpenicillin  Oral solution  250 mg/5 ml (Teva UK)
+ENOR23863NEMIS	Entecavir  Oral Solution, Sugar Free  50 micrograms/ml
+VFTA13782NEMIS	Vfend  Tablets  200 mg
+LAOR1091NEMIS	Lamivudine  Oral solution  5 mg/ml
+FLCA35125MGEMIS	Fluconazole  Capsules  50 mg (Kent Pharm)
+RICA36883MGEMIS	Rifampicin  Capsules  150 mg (A.A.H. Pharm)
+AMIN4581	Amikacin  Injection  250 mg/ml, 2 ml vial
+DETA116198NEMIS	Descovy  Tablets  200 mg + 10 mg
+FOOR19262NEMIS	Fosamprenavir  Oral suspension  50 mg/ml
+FLCA9890BRIDL	Fluclomix  Capsules  250 mg
+CITA34367MGEMIS	Ciprofloxacin  Tablets  250 mg (Sterwin Medicines)
+TIPO22581NEMIS	Tigecycline  Powder for solution for infusion  50 mg vial
+INTA51878NEMIS	Incivo  Tablets  375 mg
+KAOR6632NEMIS	Kaletra  Oral solution  80 mg/ml + 20 mg/ml
+ACTA33640MGEMIS	Aciclovir  Tablets  200 mg (Sterwin Medicines)
+MOGR24129EMIS	Monuril  Granules  3 grams/sachet
+CECA38001MGEMIS	Cefalexin  Capsules  500 mg (Unichem)
+CEIN4693	Ceftazidime  Powder For Solution For Injection  1 gram vial
+AMOR37939MGEMIS	Amoxicillin  Oral Suspension Sugar Free  125 mg/5 ml (A.A.H. Pharm)
+FLCA35083MGEMIS	Flucloxacillin  Capsules  250 mg (Sandoz)
+CITA34369MGEMIS	Ciprofloxacin  Tablets  250 mg (Sandoz)
+CECA34137MGEMIS	Cefaclor  Capsules  250 mg (Unichem)
+CLIN633	Claforan  Injection  2 g vial
+PHOR36502MGEMIS	Phenoxymethylpenicillin  Oral solution  250 mg/5 ml (Sandoz)
+CLTA34415MGEMIS	Clarithromycin  Tablets  500 mg (A.A.H. Pharm)
+TRTA4455	Trimopan  Tablets  200 mg
+FLOR35165MGEMIS	Flucloxacillin  Oral solution  125 mg/5 ml (Unichem)
+TECA5420	Tetracycline Hydrochloride  Capsules  250 mg
+CEPO134441NEMIS	Cefazolin  Powder For Solution For Injection  1 gram vial
+ACIN33617MGEMIS	Aciclovir  Intravenous infusion  250 mg/vial (Genus Pharm)
+SITA101996NEMIS	Sivextro  Tablets  200 mg
+ACTA33644MGEMIS	Aciclovir  Tablets  400 mg (Unichem)
+NITA2000	Nitrofurantoin  Tablets  100 mg
+FLOR24688NEMIS	Flucloxacillin  Oral solution  250 mg/5 ml
+AMOR37947MGEMIS	Amoxicillin  Oral Suspension Sugar Free  250 mg/5 ml (Generics (UK))
+ACM/23310NEMIS	Acnamino  M/R capsules  100 mg
+AMCA37885MGEMIS	Amoxicillin  Capsules  250 mg (Unichem)
+CITA31082EMIS	Ciproxin  Tablets  100 mg
+TEIN9930HILLI	Teicoplanin  Injection  400 mg/vial
+TAIN22415EMIS	Tazocin  Powder for solution for infusion  2 grams + 250 mg vial
+KECA15050NEMIS	Kerymax  Capsules  250 mg
+VITA100474NEMIS	Viekirax  Tablets  12.5 mg + 75 mg + 50 mg
+QUTA36813MGEMIS	Quinine Sulfate  Tablets  200 mg (A.A.H. Pharm)
+CITA34293MGEMIS	Ciprofloxacin  Tablets  500 mg (A.A.H. Pharm)
+OFTA10706BRIDL	Ofloxacin  Tablets  200 mg
+AMOR17516NEMIS	Amoxicillin  Oral suspension  250 mg/5 ml
+AMIN37907MGEMIS	Amoxicillin  Injection  250 mg vial (Wockhardt UK)
+ERSU25264EMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  125 mg/5 ml
+ACSU33624MGEMIS	Aciclovir  Sugar free suspension  400mg/5ml (A.A.H. Pharm)
+COOR43495NEMIS	Co-Amoxiclav 250/62  Oral suspension  250 mg/5 ml + 62 mg/5 ml
+CECA38047MGEMIS	Cefradine  Capsules  500 mg (Unichem)
+TETA37146MGEMIS	Terbinafine Hydrochloride  Tablets  250 mg (Alpharma)
+PITA75774NEMIS	Piperaquine Phosphate And Artenimol  Tablets  320 mg + 40 mg
+TETA18512NEMIS	Telzir  Tablets  700 mg
+CESU34181MGEMIS	Cefaclor  Suspension  250 mg/5 ml (Ranbaxy)
+AZIN5633	Azactam  Powder For Solution For Injection  2 gram vial
+OLCA90722NEMIS	Olysio  Capsules  150 mg
+COIN34466MGEMIS	Co-Amoxiclav 1000 mg/200 mg  Injection  vial (Wockhardt UK)
+NIM/21970EMIS	Nitrofurantoin  M/R capsules  100 mg
+ERSU34982MGEMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  250 mg/5 ml (Generics (UK))
+ETTA35011MGEMIS	Ethambutol Hydrochloride  Tablets  400 mg (A.A.H. Pharm)
+CETA38011MGEMIS	Cefalexin  Tablets  250 mg (Generics (UK))
+NOTA36281MGEMIS	Norfloxacin  Tablets  400 mg (Kent Pharm)
+AMPA4582	Amikacin  Solution for injection  50 mg/ml, 2 ml vial
+CECA34132MGEMIS	Cefaclor  Capsules  500 mg (Kent Pharm)
+RIIN4272	Rifadin  Powder And Solvent For Solution For Infusion  600 mg vial
+GETA108648NEMIS	Genvoya  Tablets  150 mg + 150 mg + 200 mg + 10 mg
+FLCA35082MGEMIS	Flucloxacillin  Capsules  250 mg (A.A.H. Pharm)
+ERST4896	Erythromycin (As Stearate)  Tablets  250 mg
+AMMI33708MGEMIS	Ampicillin  Mixture  250 mg/5 ml (Generics (UK))
+CRCA11865NEMIS	Crixivan  Capsules  100 mg
+ACTA7123	Aciclovir  Tablets  400 mg
+ZYGR12769NEMIS	Zyvox  Granules for Oral Suspension  100 mg/5 ml
+CECA4686	Cefaclor  Capsules  250 mg
+NETA37561MGEMIS	Neomycin Sulfate  Tablets  500 mg (Unichem)
+CESY536	Ceporex  Syrup  500 mg/5 ml
+LACA3813	Lamprene  Capsules  100 mg
+AKCA24006EMIS	Aknemin  Capsules  50 mg
+DACA3383	Dalacin C  Capsules  75 mg
+FLOR35168MGEMIS	Flucloxacillin  Oral solution  125 mg/5 ml (Ivax Pharmaceuticals)
+CESU33625EMIS	Cefzil  Suspension  250 mg/5 ml
+COTA34619MGEMIS	Co-Trimoxazole  Tablets  480 mg (A.A.H. Pharm)
+CEOR38024MGEMIS	Cefalexin  Oral suspension  125 mg/5 ml (Teva UK)
+COSU27890EMIS	Co-Amoxiclav 400/57  Sugar-free oral suspension  400 mg/5 ml + 57 mg/5 ml
+TRTA4454	Trimopan  Tablets  100 mg
+TACA14668NEMIS	Tamiflu  Capsules  75 mg
+ERSU35001MGEMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  500 mg/5 ml (A.A.H. Pharm)
+AMSY6770	Amoxycillin  Syrup sf  250 mg/5 ml
+COTA696	Co-Trimoxazole  Tablets  480 mg
+AMPA17517NEMIS	Amoxicillin  Paediatric oral suspension  125 mg/1.25 ml
+META36019MGEMIS	Metronidazole  Tablets  400 mg (A.A.H. Pharm)
+MIPO30730NEMIS	Micafungin  Powder for solution for infusion  100 mg vial
+CLGR21389NEMIS	Clarosip  Granules For Oral Suspension Straws  187.5 mg
+CLM/30085EMIS	Clarithromycin  M/R tablets  500 mg
+DOCA38100MGEMIS	Doxycycline Hyclate  Capsules  100 mg (A.A.H. Pharm)
+NITA36274MGEMIS	Nitrofurantoin  Tablets  50 mg (Teva UK)
+CECA34140MGEMIS	Cefadroxil  Capsules  500 mg (A.A.H. Pharm)
+CHCA34215MGEMIS	Chloramphenicol  Capsules  250 mg (Sussex Pharm)
+TETA37151MGEMIS	Terbinafine Hydrochloride  Tablets  250 mg (Winthrop Pharmaceuticals )
+DAOR77699NEMIS	Darunavir  Oral Suspension Sugar Free  100 mg/ml
+VANE116866NEMIS	Vantobra  Nebuliser solution  170 mg/1.7 ml ampoule
+ERSU34985MGEMIS	Erythromycin Ethyl Succinate  Suspension  125 mg/5 ml (Kent Pharm)
+TETA18916EMIS	Terbinafine Hydrochloride  Tablets  250 mg
+VICA4504	Vibramycin  Capsules  50 mg
+PAIN1588NEMIS	Palivizumab  Powder and solvent for solution for injection  50 mg vial
+AMCA33692MGEMIS	Ampicillin  Capsules  500 mg (Unichem)
+CECA34136MGEMIS	Cefaclor  Capsules  250 mg (Kent Pharm)
+META36018MGEMIS	Metronidazole  Tablets  400 mg (Unichem)
+DITA24791EMIS	Didanosine  Tablets  25 mg
+FLCA35084MGEMIS	Flucloxacillin  Capsules  250 mg (Ivax Pharmaceuticals)
+STOR31419EMIS	Stavudine  Oral solution  1 mg/ml
+MOTA15042NEMIS	Moxifloxacin  Tablets  400 mg
+CHTA576	Chloroquine Phosphate  Tablets  250 mg (equivalent to 155 mg chloroquine base)
+AMCA33685MGEMIS	Ampicillin  Capsules  250 mg (Unichem)
+TOSO95462NEMIS	Tobramycin  Solution for injection  240 mg/6 ml vial
+MASY3871	Malarivon  Syrup  80 mg/5 ml
+CRCA29899EMIS	Crixivan  Capsules  200 mg
+CEIN23582EMIS	Ceftriaxone  Powder For Solution For Injection  2 gram vial
+COIN10815BRIDL	Co-Fluampicil 250/250  Powder For Solution For Injection  vial
+ISTA35603MGEMIS	Isoniazid  Tablets  50 mg (A.A.H. Pharm)
+AMCA37898MGEMIS	Amoxicillin  Capsules  500 mg (Wyeth)
+COIN34465MGEMIS	Co-Amoxiclav 500 mg/100 mg  Injection  vial (Wockhardt UK)
+PHTA5274	Phenoxymethylpenicillin  Tablets  250 mg
+QUNE114707NEMIS	Quinsair  Nebuliser solution  240 mg (100 mg/ml)
+MICA24206EMIS	Minocycline  Capsules  100 mg
+DIM/22445EMIS	Distaclor Mr  M/R tablets  375 mg
+FLCA35099MGEMIS	Flucloxacillin  Capsules  500 mg (Teva UK)
+EFCA821NEMIS	Efavirenz  Capsules  200 mg
+COTA23536EMIS	Co-Amoxiclav 500/125  Tablets  
+ERTA3533	Erythrocin  Tablets  250 mg
+OXTA36359MGEMIS	Oxytetracycline  Tablets  250 mg (Alpharma)
+CEOR38025MGEMIS	Cefalexin  Oral suspension  125 mg/5 ml (Kent Pharm)
+ACCA25	Achromycin  Capsules  250 mg
+CEIN26833EMIS	Cefrom  Injection  1 gram/vial
+ZIOR926NEMIS	Ziagen  Oral solution  20 mg/ml
+CETA538	Ceporex  Tablets  500 mg
+TRTA37319MGEMIS	Trimethoprim  Tablets  100 mg (Ranbaxy)
+COIN3345	Colomycin  Injection  500,000 units/vial
+AZIN5635	Azactam  Injection  500 mg/vial
+CEIN34146MGEMIS	Ceftriaxone  Injection  1 gram/vial (A.A.H. Pharm)
+ODTA116863NEMIS	Odefsey  Tablets  200 mg + 25 mg + 25 mg
+CETA38010MGEMIS	Cefalexin  Tablets  250 mg (Teva UK)
+NETA17906NEMIS	Nelfinavir Mesilate  Tablets  250 mg
+CITA34366MGEMIS	Ciprofloxacin  Tablets  250 mg (Generics (UK))
+CETA38023MGEMIS	Cefalexin  Tablets  500 mg (Ivax Pharmaceuticals)
+MOSU1881	Monotrim  Suspension  50 mg/5 ml
+INTA31779NEMIS	Intelence  Tablets  100 mg
+ZOSU3100	Zovirax  Suspension  200 mg/5 ml
+META1814	Metronidazole  Tablets  400 mg
+ERE/37662MGEMIS	Erythromycin  E/c tablets  250 mg (Sandoz)
+GACA10302BRIDL	Galenamox  Capsules  500 mg
+FLCA35115MGEMIS	Fluconazole  Capsules  150 mg (Thornton & Ross)
+AMOR17520NEMIS	Amoxicillin  Oral Suspension Sugar Free  250 mg/5 ml
+TETA37150MGEMIS	Terbinafine Hydrochloride  Tablets  250 mg (A.A.H. Pharm)
+NEOR17905NEMIS	Nelfinavir Mesilate  Oral powder  50 mg/gram
+TASO71475NEMIS	Taurolin  Solution  2 grams/100 ml bottle
+OFTA36300MGEMIS	Ofloxacin  Tablets  400 mg (Sandoz)
+AMCA37892MGEMIS	Amoxicillin  Capsules  250 mg (Alpharma)
+MITA36077MGEMIS	Minocycline  Tablets  100 mg (Generics (UK))
+TIIN5625	Timentin 3.2 G  Powder for solution for infusion  vial
+AMMI33705MGEMIS	Ampicillin  Mixture  125 mg/5 ml (A.A.H. Pharm)
+CECA37990MGEMIS	Cefalexin  Capsules  250 mg (Ivax Pharmaceuticals)
+SYIN1592NEMIS	Synagis  Powder and solvent for solution for injection  100 mg vial
+ATTA104816NEMIS	Atazanavir And Cobicistat  Tablets  300 mg + 150 mg
+COTA34536MGEMIS	Co-Amoxiclav 500/125  Tablets  (Winthrop Pharmaceuticals )
+ERTA10453BRIDL	Erythromycin Ethyl Succinate  Tablets  500 mg
+TITA122203NEMIS	Tivicay  Tablets  25 mg
+FUTA1266	Furadantin  Tablets  50 mg
+TIOR39917NEMIS	Tipranavir  Oral Solution, Sugar Free  100 mg/ml
+COTA33621EMIS	Co-Amoxiclav 875/125  Tablets  
+GRSU4975	Griseofulvin  Suspension  125 mg/5 ml
+MATA28475NEMIS	Maraviroc  Tablets  300 mg
+TATA8954EMIS	Tarivid  Tablets  200 mg
+ELTA88546NEMIS	Elvitegravir  Tablets  150 mg
+CYCA26475EMIS	Cymevene  Capsules  250 mg
+COSU34480MGEMIS	Co-Amoxiclav 125/31  Sugar free suspension  (Ivax Pharmaceuticals)
+PHOR36503MGEMIS	Phenoxymethylpenicillin  Oral solution  250 mg/5 ml (Generics (UK))
+TRTA37331MGEMIS	Trimethoprim  Tablets  200 mg (Ranbaxy)
+STCA29427EMIS	Stavudine  Capsules  15 mg
+AMCA37903MGEMIS	Amoxicillin  Capsules  500 mg (A.A.H. Pharm)
+RICA36887MGEMIS	Rifampicin  Capsules  300 mg (A.A.H. Pharm)
+PRTA4207	Primaquine  Tablets  7.5 mg
+ISOR29368NEMIS	Isoniazid  Oral solution  400 mg/5 ml
+VEIN3024	Velosef  Injection  500 mg vial
+CECA38003MGEMIS	Cefalexin  Capsules  500 mg (Alpharma)
+FLCA35086MGEMIS	Flucloxacillin  Capsules  250 mg (Teva UK)
+KESU31407EMIS	Keftid  Sugar-free suspension  250 mg/5 ml
+PHOR36501MGEMIS	Phenoxymethylpenicillin  Oral solution  250 mg/5 ml (Unichem)
+ZISY18023EMIS	Zidovudine  Oral Solution, Sugar Free  10 mg/1 ml
+FLCA35133MGEMIS	Fluconazole  Capsules  200 mg (Generics (UK))
+TRTA2938	Trimethoprim  Tablets  100 mg
+OFTA36297MGEMIS	Ofloxacin  Tablets  400 mg (A.A.H. Pharm)
+AUTA23530EMIS	Augmentin 625 Mg  Tablets
+NYSU4215NEMIS	Nystamont  Sugar-free oral suspension  100,000 units/ml
+AMCA37900MGEMIS	Amoxicillin  Capsules  500 mg (Teva UK)
+AMIN33699MGEMIS	Ampicillin  Injection  500 mg/vial (Unichem)
+COSU34483MGEMIS	Co-Amoxiclav 125/31  Sugar free suspension  (Generics (UK))
+ZICA10040HILLI	Zidovudine  Capsules  250 mg
+ETTA81483NEMIS	Etravirine  Tablets  25 mg
+CITA34298MGEMIS	Ciprofloxacin  Tablets  500 mg (Sterwin Medicines)
+CEIN23583EMIS	Ceftriaxone  Powder For Solution For Injection  250 mg vial
+CLPA37617MGEMIS	Clarithromycin  Paediatric suspension  250 mg/5 ml (A.A.H. Pharm)
+COTA34530MGEMIS	Co-Amoxiclav 500/125  Tablets  (A.A.H. Pharm)
+CRCA106458NEMIS	Cresemba  Capsules  100 mg
+FATA29636EMIS	Famciclovir  Tablets  750 mg
+RETA86687NEMIS	Reprapog  Tablets  250 mg + 100 mg
+TONE34446NEMIS	Tobramycin  Nebuliser Liquid  300 mg/4 ml ampoule (75 mg/ml)
+NEIN1967	Netilmicin  Injection  150 mg/1.5 ml ampoule
+SUTA17838NEMIS	Sulfamethoxypyridazine  Tablets  500 mg
+VITA88549NEMIS	Vitekta  Tablets  85 mg
+MIM/19546EMIS	Minocycline  M/R capsules  100 mg
+TETA37168MGEMIS	Tetracycline Hydrochloride  Tablets  250 mg (A.A.H. Pharm)
+ERTA3541	Erythromycin  Tablets  500 mg
+EUTA75778NEMIS	Eurartesim  Tablets  320 mg + 40 mg
+COCA10809BRIDL	Co-Fluampicil 250/250  Capsules
+CEPA27534EMIS	Cefpodoxime Proxetil  Paediatric suspension  40 mg/5 ml
+MACA3862	Macrodantin  Capsules  100 mg
+EMOR20010NEMIS	Emtricitabine  Oral Solution, Sugar Free  10 mg/ml
+DECA18830EMIS	Demix-100  Capsules  100 mg
+AUSU19802EMIS	Augmentin 125/31 Sf  Sugar free suspension  125 mg/5 ml + 31 mg/5 ml
+CEOR17571NEMIS	Cefalexin  Oral suspension  125 mg/5 ml
+DICA20697EMIS	Distaclor  Capsules  500 mg
+MESO124115NEMIS	Metronidazole  Solution for infusion  500 mg/100 ml bottle
+AMCA33690MGEMIS	Ampicillin  Capsules  500 mg (A.A.H. Pharm)
+AZCA1005EMIS	Azithromycin  Capsules  250 mg
+CEOR17572NEMIS	Cefalexin  Oral suspension  250 mg/5 ml
+ACTA37503MGEMIS	Aciclovir  Tablets  800 mg (A.A.H. Pharm)
+CYTA3504NEMIS	Cysticide  Tablets  500 mg
+ELTA118658NEMIS	Elbasvir And Grazoprevir  Tablets  50 mg + 100 mg
+BEIN6858	Benzylpenicillin Sodium  Injection  600 mg/vial
+QUCO28501NEMIS	Quinine Dihydrochloride  Concentrate For Solution For Infusion  300 mg/ml, 2 ml ampoule
+URTA15931NEMIS	Urantoin  Tablets  100 mg
+AMCA33686MGEMIS	Ampicillin  Capsules  250 mg (Alpharma)
+CHCA34214MGEMIS	Chloramphenicol  Capsules  250 mg (A.A.H. Pharm)
+KETA1568	Ketoconazole  Tablets  200 mg
+QUCO28500NEMIS	Quinine Dihydrochloride  Concentrate For Solution For Infusion  300 mg/ml, 1 ml ampoule
+ZIIN3094	Zinacef  Powder for injection  750 mg vial
+DATA116591NEMIS	Daklinza  Tablets  90 mg
+FLCA35130MGEMIS	Fluconazole  Capsules  200 mg (Alpharma)
+CLPA37614MGEMIS	Clarithromycin  Paediatric suspension  250 mg/5 ml (Ranbaxy)
+PROR77700NEMIS	Prezista  Oral suspension  100 mg/ml
+KETA1552	Keflex  Tablets  500 mg
+DIIN9558BRIDL	Diflucan  Infusion  50 mg/25 ml vial
+FATA29634EMIS	Famvir  Tablets  750 mg
+CLTA34418MGEMIS	Clarithromycin  Tablets  500 mg (Ranbaxy)
+ITCA35619MGEMIS	Itraconazole  Capsules  100 mg (A.A.H. Pharm)
+REPO133364NEMIS	Renoxitin  Powder For Solution For Injection  2 gram vial
+STPO90894NEMIS	Streptomycin  Powder For Solution For Injection  1 gram vial
+COTA34532MGEMIS	Co-Amoxiclav 500/125  Tablets  (Ranbaxy)
+CEIN6898	Ceftazidime  Powder For Solution For Injection  2 gram vial
+TOIN37255MGEMIS	Tobramycin  Injection  80 mg/2 ml vial (Alpharma)
+AMOR37927MGEMIS	Amoxicillin  Oral suspension  250 mg/5 ml (Teva UK)
+AMCA37895MGEMIS	Amoxicillin  Capsules  500 mg (Sandoz)
+TETA51875NEMIS	Telaprevir  Tablets  375 mg
+CEIN34158MGEMIS	Ceftazidime  Injection  500 mg/vial (Genus Pharm)
+FITA74095NEMIS	Fidaxomicin  Tablets  200 mg
+CITA34309MGEMIS	Ciprofloxacin  Tablets  750 mg (Mayne Pharma)
+AMOR37931MGEMIS	Amoxicillin  Oral Powder Sachets Sugar Free  3 gram sachet (Unichem)
+LYCA2019NEMIS	Lysovir  Capsules  100 mg
+NOOR116707NEMIS	Norvir  Oral powder sachets  100 mg
+PEEL9625BRIDL	Penicillin V  Elixir  125 mg/5 ml
+CECA34141MGEMIS	Cefadroxil  Capsules  500 mg (Ranbaxy)
+ZATA25484EMIS	Zalcitabine  Tablets  750 micrograms
+GAIN9556HILLI	Ganciclovir  Powder for solution for infusion  500 mg vial
+CISU32102EMIS	Ciproxin  Suspension  250 mg/5 ml
+DOTA133331NEMIS	Dolutegravir And Lamivudine  Tablets  50 mg + 300 mg
+FLCA35111MGEMIS	Fluconazole  Capsules  150 mg (Kent Pharm)
+ERSU35002MGEMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  500 mg/5 ml (Unichem)
+ACDI33614MGEMIS	Aciclovir  Dispersible tablets  400 mg (Ranbaxy)
+ZETA118670NEMIS	Zepatier  Tablets  50 mg + 100 mg
+NIOR46783NEMIS	Nitrofurantoin  Oral solution  25 mg/5 ml
+ACSU33623MGEMIS	Aciclovir  Sugar free suspension  400mg/5ml (Rosemont Pharm)
+ACDI33627MGEMIS	Aciclovir  Dispersible tablets  800 mg (A.A.H. Pharm)
+ETTA4900	Ethambutol Hydrochloride  Tablets  100 mg
+ACDI33601MGEMIS	Aciclovir  Dispersible tablets  200 mg (The Boots Company)
+CIIN5644	Ciproxin  Intravenous infusion  2 mg/ml, 50 ml bottle
+ANPO40364NEMIS	Anidulafungin  Powder for concentrate for solution for infusion  100 mg vial
+VOTA131587NEMIS	Voriconazole  Tablets  100 mg
+CLTA34413MGEMIS	Clarithromycin  Tablets  500 mg (Kent Pharm)
+FUTA1256	Fucidin  Tablets  250 mg
+REDI1033NEMIS	Relenza  Diskhaler  5 mg per dose
+CETA38016MGEMIS	Cefalexin  Tablets  500 mg (Alpharma)
+AMOR37914MGEMIS	Amoxicillin  Oral suspension  125 mg/5 ml (Kent Pharm)
+PRTA18800NEMIS	Proguanil And Atovaquone  Tablets  100 mg + 250 mg
+CUPO22067NEMIS	Cubicin  Powder for concentrate for solution for infusion  350 mg vial
+PHOR36489MGEMIS	Phenoxymethylpenicillin  Oral solution  125 mg/5 ml (Unichem)
+FLCA35108MGEMIS	Fluconazole  Capsules  150 mg (Ivax Pharmaceuticals)
+ACTA33646MGEMIS	Aciclovir  Tablets  400 mg (A.A.H. Pharm)
+EXTA100595NEMIS	Exviera  Tablets  250 mg
+CECA17575NEMIS	Cefradine  Capsules  250 mg
+RATA12739NEMIS	Ranovir  Tablets  200 mg
+FLOR35163MGEMIS	Flucloxacillin  Oral solution  125 mg/5 ml (Alpharma)
+CETA10329HILLI	Cefixime  Tablets  200 mg
+CECA37994MGEMIS	Cefalexin  Capsules  250 mg (Ranbaxy)
+TRTA37321MGEMIS	Trimethoprim  Tablets  100 mg (Unichem)
+QUTA36803MGEMIS	Quinine Sulfate  Tablets  300 mg (A.A.H. Pharm)
+RECA17236NEMIS	Reyataz  Capsules  200 mg
+ACTA33643MGEMIS	Aciclovir  Tablets  200 mg (Kent Pharm)
+EDTA52599NEMIS	Edurant  Tablets  25 mg
+PYOR52622NEMIS	Pyrimethamine  Oral suspension  10 mg/5 ml
+SUCA825NEMIS	Sustiva  Capsules  200 mg
+CECA38007MGEMIS	Cefalexin  Capsules  500 mg (PLIVA Pharma Ltd)
+CLTA34416MGEMIS	Clarithromycin  Tablets  500 mg (Sandoz)
+TEIN9929HILLI	Teicoplanin  Injection  200 mg/vial
+TYTA88579NEMIS	Tybost  Tablets  150 mg
+SUTA14590NEMIS	Sustiva  Tablets  600 mg
+FOGR24133EMIS	Fosfomycin Trometamol  Granules  3 grams/sachet
+CYCA138263NEMIS	Cycloserine (Imported)  Capsules  250 mg
+KESU1549	Keflex  Suspension  125 mg/5 ml
+COTA23533EMIS	Co-Amoxiclav 250/125  Tablets  
+AMTA140	Amphotericin B  Tablets  100 mg
+COTA34531MGEMIS	Co-Amoxiclav 500/125  Tablets  (Ivax Pharmaceuticals)
+CECA38046MGEMIS	Cefradine  Capsules  500 mg (Ivax Pharmaceuticals)
+URTA4477	Urantoin  Tablets  50 mg
+COSU34478MGEMIS	Co-Amoxiclav 125/31  Sugar free suspension  (Kent Pharm)
+CEOR38030MGEMIS	Cefalexin  Oral suspension  125 mg/5 ml (Alpharma)
+PHOR36498MGEMIS	Phenoxymethylpenicillin  Oral solution  250 mg/5 ml (Ivax Pharmaceuticals)
+CLSO21837NEMIS	Clindamycin  Solution for injection  150 mg/ml, 2 ml ampoule
+DATA35031NEMIS	Darunavir  Tablets  600 mg
+CETA38020MGEMIS	Cefalexin  Tablets  500 mg (A.A.H. Pharm)
+FLOR23506EMIS	Flucloxacillin  Oral suspension  250 mg/5 ml
+CIIN6844	Ciprofloxacin  Intravenous infusion  2 mg/ml, 50 ml bottle
+CEOR38028MGEMIS	Cefalexin  Oral suspension  125 mg/5 ml (Generics (UK))
+FLCA35107MGEMIS	Fluconazole  Capsules  150 mg (Generics (UK))
+ERSU25268EMIS	Erythromycin Ethyl Succinate  Suspension  500 mg/5 ml
+OSCA29015NEMIS	Oseltamivir  Capsules  45 mg
+AMOR37912MGEMIS	Amoxicillin  Oral suspension  125 mg/5 ml (Alpharma)
+FLOR17955EMIS	Fluconazole  Oral suspension  200 mg/5 ml
+RISY4285	Rimactane  Syrup  100 mg/5 ml
+URSU4478	Uriben  Suspension  300 mg/5 ml
+FOIN1234	Fortum  Powder For Solution For Injection  2 gram vial
+CLPA34408MGEMIS	Clarithromycin  Paediatric suspension  125 mg/5 ml (Kent Pharm)
+QUTA4249	Quinine Sulfate  Tablets  200 mg
+PIPO995NEMIS	Piperazine And Senna  Powder  Sugar Free 4 grams + 15.3 mg (2 sachet pack)
+FUSU1264	Furadantin  Suspension  25 mg/5 ml
+MESU35915MGEMIS	Metronidazole  Suspension  200 mg/5 ml (Kent Pharm)
+ZIIN25453EMIS	Zidovudine  Solution for infusion  10 mg/ml, 20 ml vial
+KEIN1544	Kefadol  Injection  1 g vial
+FLOR35170MGEMIS	Flucloxacillin  Oral solution  125 mg/5 ml (Teva UK)
+TETA12636NEMIS	Tenofovir Disoproxil  Tablets  245 mg
+QUTA4249	Quinine Sulfate  Tablets  200 mg
+ETTA7000	Ethambutol Hydrochloride  Tablets  400 mg
+TRSU37306MGEMIS	Trimethoprim  Suspension  Sugar Free 50 mg/5 ml (Unichem)
+TETA117905NEMIS	Tenofovir Alafenamide And Emtricitabine  Tablets  10 mg + 200 mg
+CITA34365MGEMIS	Ciprofloxacin  Tablets  250 mg (Kent Pharm)
+DODI17640NEMIS	Doxycycline Hyclate  Dispersible Tablets Sugar Free  100 mg
+NISU6902	Nitrofurantoin  Sugar free suspension  25 mg/5 ml
+TRTA37320MGEMIS	Trimethoprim  Tablets  100 mg (Teva UK)
+AUSU19802EMIS	Augmentin 125/31 Sf  Sugar free suspension  125 mg/5 ml + 31 mg/5 ml
+QUTA36805MGEMIS	Quinine Bisulfate  Tablets  300 mg (Teva UK)
+ERCA34970MGEMIS	Erythromycin  Capsules (Gastro-Resistant)  250 mg (PLIVA Pharma Ltd)
+TETA37149MGEMIS	Terbinafine Hydrochloride  Tablets  250 mg (PLIVA Pharma Ltd)
+VACA37357MGEMIS	Vancomycin Hydrochloride  Capsules  125 mg (A.A.H. Pharm)
+CESU34179MGEMIS	Cefaclor  Suspension  125 mg/5 ml (A.A.H. Pharm)
+DOCA37551MGEMIS	Doxycycline Hyclate  Capsules  50 mg (Teva UK)
+CESU6799	Cefadroxil  Suspension  250 mg/5 ml
+TRMI4450	Trimethoprim  Mixture  Sugar Free 50 mg/5 ml
+GASU10304BRIDL	Galenamox  Suspension  250 mg/5 ml
+FLSO83177NEMIS	Fluconazole  Solution for infusion  100 mg/50 ml bottle
+NITA36269MGEMIS	Nitrofurantoin  Tablets  100 mg (Generics (UK))
+BRNE34448NEMIS	Bramitob  Nebuliser solution  300 mg/4 ml ampoule
+VATA26447EMIS	Valaciclovir  Tablets  500 mg
+FLSU9071BRIDL	Flagyl  Suppositories  1 gram
+GEIN3646	Genticin  Solution for injection  80 mg/2 ml ampoule
+QUOR46526NEMIS	Quinine Bisulfate  Oral suspension  300 mg/5 ml
+LACA1588	Ladropen  Capsules  250 mg
+META17304NEMIS	Methenamine Hippurate  Tablets  1 gram
+TATA23518EMIS	Tarivid  Tablets  400 mg
+TOIN51933NEMIS	Tobramycin  Inhalation Powder Capsules With Device  28 mg
+DETA95170NEMIS	Deltyba  Tablets  50 mg
+CEOR38031MGEMIS	Cefalexin  Oral suspension  250 mg/5 ml (Unichem)
+COIN17603NEMIS	Colistimethate Sodium  Injection  1 million unit vial
+META36009MGEMIS	Metronidazole  Tablets  200 mg (Ivax Pharmaceuticals)
+ACDI33615MGEMIS	Aciclovir  Dispersible tablets  400 mg (Unichem)
+AMOR37935MGEMIS	Amoxicillin  Oral Suspension Sugar Free  125 mg/5 ml (Unichem)
+AMMI33706MGEMIS	Ampicillin  Mixture  250 mg/5 ml (Unichem)
+META29112EMIS	Metronidazole  Tablets  500 mg
+MITA36081MGEMIS	Minocycline  Tablets  100 mg (Alpharma)
+FLCA35093MGEMIS	Flucloxacillin  Capsules  500 mg (A.A.H. Pharm)
+FLCA35087MGEMIS	Flucloxacillin  Capsules  250 mg (Kent Pharm)
+CECA17568NEMIS	Cefalexin  Capsules  500 mg
+CECA37995MGEMIS	Cefalexin  Capsules  250 mg (A.A.H. Pharm)
+PRTA38731NEMIS	Prezista  Tablets  150 mg
+ERSU34997MGEMIS	Erythromycin Ethyl Succinate  Suspension  500 mg/5 ml (Alpharma)
+COSY10812BRIDL	Co-Fluampicil 125/125  Oral suspension  
+AMOR17518NEMIS	Amoxicillin  Oral Powder Sachets Sugar Free  3 gram sachet
+OFTA36291MGEMIS	Ofloxacin  Tablets  200 mg (A.A.H. Pharm)
+DECA24477EMIS	Demix-50  Capsules  50 mg
+VAOR86712NEMIS	Vancomycin  Oral solution  250 mg/5 ml
+ERSU28989EMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  500 mg/5 ml
+STCA29430EMIS	Stavudine  Capsules  40 mg
+CLOR81527NEMIS	Clindamycin  Oral suspension  75 mg/5 ml
+FLOR39057NEMIS	Flucloxacillin  Oral Solution, Sugar Free  125 mg/5 ml
+VOOR18449NEMIS	Voriconazole  Oral suspension  200 mg/5 ml
+DAPO22064NEMIS	Daptomycin  Powder for concentrate for solution for infusion  350 mg vial
+VACA37358MGEMIS	Vancomycin Hydrochloride  Capsules  125 mg (Alpharma)
+CETA28477NEMIS	Celsentri  Tablets  150 mg
+OSCA29014NEMIS	Oseltamivir  Capsules  30 mg
+SEAD2540	Septrin  Adult suspension  480 mg/5 ml
+AMIN24501EMIS	Amphocil  Powder for solution for infusion  50 mg vial
+AMCA33691MGEMIS	Ampicillin  Capsules  500 mg (Alpharma)
+MYPO30733NEMIS	Mycamine  Powder for solution for infusion  100 mg vial
+FOIN1235	Fortum  Injection  250 mg/vial
+DATA34705MGEMIS	Dapsone  Tablets  50 mg (The Boots Company)
+ERE/37653MGEMIS	Erythromycin  E/c tablets  250 mg (Ranbaxy)
+ZEOR31417EMIS	Zerit  Oral solution  1 mg/ml
+NESU1951	Negram  Suspension  300 mg/5 ml
+PEIN9184EMIS	Pentacarinat  Powder For Solution For Injection  300 mg vial
+CITA34328MGEMIS	Ciprofloxacin  Tablets  100 mg (Sandoz)
+ERSU34996MGEMIS	Erythromycin Ethyl Succinate  Suspension  500 mg/5 ml (Unichem)
+LYCA5101	Lymecycline  Capsules  408 mg
+NASU1927	Nalidixic Acid  Suspension  300 mg/5 ml
+CLGR21386NEMIS	Clarithromycin  Granules For Oral Suspension Straws  250 mg
+CETA124989NEMIS	Celsentri  Tablets  25 mg
+FUSU3610	Fucidin  Suspension  250 mg/5 ml
+CLPA770NEMIS	Clarithromycin  Paediatric suspension  250 mg/5 ml
+ZISU9169EMIS	Zinnat  Suspension  125 mg/5 ml
+DIE/5341NEMIS	Didanosine  E/c capsules  200 mg
+AMCA142	Ampicillin  Capsules  500 mg
+CITA34308MGEMIS	Ciprofloxacin  Tablets  750 mg (Ranbaxy)
+EFTA125488NEMIS	Efavirenz/Emtricitabine/Tenofovir Disoproxil  Tablets  600 mg + 200 mg + 245 mg
+ERSU34986MGEMIS	Erythromycin Ethyl Succinate  Suspension  125 mg/5 ml (A.A.H. Pharm)
+CETA7121	Cefuroxime  Tablets  125 mg
+VATA22748NEMIS	Valtrex  Tablets  250 mg
+COIN34472MGEMIS	Co-Trimoxazole  Intravenous infusion  96 mg/ml, 5 ml ampoule (Unichem)
+TETA25944NEMIS	Telbivudine  Tablets  600 mg
+FLIN35160MGEMIS	Flucloxacillin  Injection  500 mg/vial (Britannia)
+PHTA36518MGEMIS	Phenoxymethylpenicillin  Tablets  250 mg (Kent Pharm)
+QUTA36814MGEMIS	Quinine Sulfate  Tablets  200 mg (Alpharma)
+FLOR35169MGEMIS	Flucloxacillin  Oral solution  125 mg/5 ml (Sandoz)
+AMPA3162	Amikin  Solution for injection  50 mg/ml, 2 ml vial
+RATA6657NEMIS	Ranclav  Tablets  375 mg
+OFTA36294MGEMIS	Ofloxacin  Tablets  200 mg (Teva UK)
+SUOR13767NEMIS	Sustiva  Oral solution  30 mg/ml
+NEIN4013	Nebcin  Injection  20 mg/2 ml vial
+AMSY132	Amoxil  Syrup sf  125 mg/5 ml
+CLIN634	Claforan  Injection  500 mg vial
+PHOR36490MGEMIS	Phenoxymethylpenicillin  Oral solution  125 mg/5 ml (Teva UK)
+DATA35030NEMIS	Darunavir  Tablets  400 mg
+COCA34436MGEMIS	Co-Fluampicil 250/250  Capsules  (Sandoz)
+MACA3863	Macrodantin  Capsules  50 mg
+CETA22410EMIS	Cefpodoxime Proxetil  Tablets  100 mg
+TITA88134NEMIS	Tivicay  Tablets  50 mg
+ACDI33600MGEMIS	Aciclovir  Dispersible tablets  200 mg (Ivax Pharmaceuticals)
+NITA36267MGEMIS	Nitrofurantoin  Tablets  100 mg (A.A.H. Pharm)
+MATA124987NEMIS	Maraviroc  Tablets  25 mg
+EPTA29576EMIS	Epivir  Tablets  150 mg
+RITA78458NEMIS	Rifaximin  Tablets  550 mg
+OFSO90716NEMIS	Ofloxacin  Solution for infusion  200 mg/100 ml bottle
+REPO133362NEMIS	Renoxitin  Powder For Solution For Injection  1 gram vial
+COSU34487MGEMIS	Co-Amoxiclav 250/62  Sugar free suspension  (Unichem)
+TICA27975EMIS	Tiloryth  Capsules  250 mg
+PECA2172	Penbritin  Capsules  250 mg
+ERSU1108	Erythroped  Suspension forte  Sugar Free 500 mg/5 ml
+ZITA10283BRIDL	Zinnat  Tablets  250 mg
+ERSU34992MGEMIS	Erythromycin Ethyl Succinate  Suspension  250 mg/5 ml (Unichem)
+TEOR19263NEMIS	Telzir  Oral suspension  50 mg/ml
+COTA88577NEMIS	Cobicistat  Tablets  150 mg
+ERSU25265EMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  250 mg/5 ml
+AMMI33709MGEMIS	Ampicillin  Mixture  250 mg/5 ml (Kent Pharm)
+TACA29017NEMIS	Tamiflu  Capsules  45 mg
+GEIN3638	Gentamicin  Solution for injection  80 mg/2 ml ampoule
+VFOR18450NEMIS	Vfend  Oral suspension  200 mg/5 ml
+NEM/51983NEMIS	Nevirapine Anhydrate  M/R tablets  50 mg
+VITA33035EMIS	Viracept  Tablets  250 mg
+PEIN4133	Pentostam  Solution for injection  100 mg/ml, 100 ml vial
+ERTA3534	Erythrocin  Tablets  500 mg
+TAIN32262EMIS	Tavanic  Solution for infusion  5 mg/ml, 100 ml vial
+ZETA1109NEMIS	Zeffix  Tablets  100 mg
+PHOR36504MGEMIS	Phenoxymethylpenicillin  Oral solution  250 mg/5 ml (Kent Pharm)
+MYM/78268NEMIS	Mycifor Xl  M/R tablets  500 mg
+DOTA133333NEMIS	Dovato  Tablets  50 mg + 300 mg
+KLM/30083EMIS	Klaricid Xl  M/R tablets  500 mg
+BEIN55NEMIS	Benzylpenicillin Sodium  Injection  1.2 grams/vial
+TAOR77647NEMIS	Tamiflu  Oral suspension  6 mg/ml
+LOTA22801NEMIS	Lopinavir And Ritonavir  Tablets  200 mg + 50 mg
+AMOR37911MGEMIS	Amoxicillin  Oral suspension  125 mg/5 ml (Ranbaxy)
+LATA134002NEMIS	Lamivudine And Tenofovir Disoproxil  Tablets  300 mg + 245 mg
+RICA36886MGEMIS	Rifampicin  Capsules  300 mg (Generics (UK))
+NICA5208	Nitrofurantoin  Capsules  100 mg
+PRIN25773EMIS	Primaxin  Intravenous infusion 500 mg monovial  
+VIM/51987NEMIS	Viramune  M/R tablets  100 mg
+ERCA3531	Erymax  Capsules (Gastro-Resistant)  250 mg
+CETA38008MGEMIS	Cefalexin  Tablets  250 mg (Ranbaxy)
+RITA52597NEMIS	Rilpivirine  Tablets  25 mg
+ERSU34994MGEMIS	Erythromycin Ethyl Succinate  Suspension  500 mg/5 ml (A.A.H. Pharm)
+ERCA4890	Erythromycin  Capsules (Gastro-Resistant)  250 mg
+DIE/5342NEMIS	Didanosine  E/c capsules  250 mg
+FLCA1187	Floxapen  Capsules  500 mg
+AMOR17519NEMIS	Amoxicillin  Oral Suspension Sugar Free  125 mg/5 ml
+ABOR924NEMIS	Abacavir  Oral Solution, Sugar Free  20 mg/ml
+CLCA34377MGEMIS	Clindamycin  Capsules  150 mg (Unichem)
+TETA78600NEMIS	Tenofovir Disoproxil  Tablets  163 mg
+DIOR17951EMIS	Diflucan  Oral suspension  200 mg/5 ml
+OXTA36361MGEMIS	Oxytetracycline  Tablets  250 mg (Ivax Pharmaceuticals)
+VIM/51986NEMIS	Viramune  M/R tablets  50 mg
+AMOR17519NEMIS	Amoxicillin  Oral Suspension Sugar Free  125 mg/5 ml
+VISO38475NEMIS	Virazole  Solution for injection  1.2 grams/12 ml vial
+CLCA4747	Clofazimine  Capsules  100 mg
+NOTA42916NEMIS	Norvir  Tablets  100 mg
+PAIN1588NEMIS	Palivizumab  Powder and solvent for solution for injection  50 mg vial
+AMCA33693MGEMIS	Ampicillin  Capsules  500 mg (Kent Pharm)
+CEIN34153MGEMIS	Cefotaxime  Injection  1 g vial (Genus Pharm)
+MEIN15488NEMIS	Metronidazole  Intravenous infusion  5 mg/ml, 100 ml bag
+CECA34139MGEMIS	Cefadroxil  Capsules  500 mg (Unichem)
+RITA12909NEMIS	Riamet  Tablets  
+MEIN15487NEMIS	Metronidazole  Intravenous infusion  5 mg/ml, 20 ml ampoule
+AMIN126	Amoxil  Powder For Solution For Injection  1 gram vial
+KESU1567	Ketoconazole  Suspension  100 mg/5 ml
+CLIN632	Claforan  Injection  1 g vial
+CECA38000MGEMIS	Cefalexin  Capsules  500 mg (Ranbaxy)
+NOOR22290NEMIS	Noxafil  Oral suspension  40 mg/ml
+FLTR3592	Flagyl Compak  Treatment pack  
+BRPO27336NEMIS	Britacef  Powder for injection  250 mg vial
+CITA34310MGEMIS	Ciprofloxacin  Tablets  750 mg (Wockhardt UK)
+CECA38043MGEMIS	Cefradine  Capsules  250 mg (A.A.H. Pharm)
+FOIN33963EMIS	Fortum  Powder For Solution For Injection  3 gram vial
+AMCA37899MGEMIS	Amoxicillin  Capsules  500 mg (Alpharma)
+NITA36268MGEMIS	Nitrofurantoin  Tablets  100 mg (Teva UK)
+FATA32196EMIS	Famciclovir  Tablets  500 mg
+AMCA33689MGEMIS	Ampicillin  Capsules  500 mg (Generics (UK))
+CEPO130337NEMIS	Cefepime  Powder For Solution For Injection  2 gram vial
+AMIN33698MGEMIS	Ampicillin  Injection  500 mg/vial (Essential Generics)
+ACDI33609MGEMIS	Aciclovir  Dispersible tablets  400 mg (Alpharma)
+TETA37148MGEMIS	Terbinafine Hydrochloride  Tablets  250 mg (Wockhardt UK)
+KACA6629NEMIS	Kaletra  Capsules  
+CESA20465EMIS	Cefuroxime Axetil  Sachets  125 mg/sachet
+TETA78601NEMIS	Tenofovir Disoproxil  Tablets  204 mg
+DICA8335EGTON	Diflucan  Capsules  150 mg
+COSU10268BRIDL	Co-Trimoxazole  Oral Suspension Sugar Free  240 mg/5 ml
+PRTA78457NEMIS	Prezista  Tablets  800 mg
+ERE/37660MGEMIS	Erythromycin  E/c tablets  250 mg (Unichem)
+COSU19815EMIS	Co-Amoxiclav 250/62  Sugar free suspension  250 mg/5 ml + 62 mg/5 ml
+FLCA35117MGEMIS	Fluconazole  Capsules  150 mg (Ranbaxy)
+DOCA37554MGEMIS	Doxycycline Hyclate  Capsules  50 mg (Kent Pharm)
+SICA90719NEMIS	Simeprevir  Capsules  150 mg
+MITA36079MGEMIS	Minocycline  Tablets  100 mg (Unichem)
+STCA29429EMIS	Stavudine  Capsules  30 mg
+ERTA10453BRIDL	Erythromycin Ethyl Succinate  Tablets  500 mg
+LETA32270EMIS	Levofloxacin  Tablets  500 mg
+TITA5454	Tinidazole  Tablets  500 mg
+DOCA37552MGEMIS	Doxycycline Hyclate  Capsules  50 mg (The Boots Company)
+CLPA770NEMIS	Clarithromycin  Paediatric suspension  250 mg/5 ml
+OXTA4102	Oxymycin  Tablets  250 mg
+VICA51595NEMIS	Victrelis  Capsules  200 mg
+CAPO20572NEMIS	Cancidas  Powder for concentrate for solution for infusion  50 mg vial
+DOTA127088NEMIS	Dolutegravir And Rilpivirine  Tablets  50 mg + 25 mg
+CAPO20569NEMIS	Caspofungin  Powder for concentrate for solution for infusion  70 mg vial
+ETTA32117NEMIS	Ethionamide  Tablets  250 mg
+RITA14794NEMIS	Ribavirin  Tablets  200 mg
+LETA32269EMIS	Levofloxacin  Tablets  250 mg
+OXTA36364MGEMIS	Oxytetracycline  Tablets  250 mg (Unichem)
+AMMI33701MGEMIS	Ampicillin  Mixture  125 mg/5 ml (Alpharma)
+ETTA31776NEMIS	Etravirine  Tablets  100 mg
+AZCA132410NEMIS	Azocan  Capsules  200 mg
+TOIN37252MGEMIS	Tobramycin  Injection  80 mg/2 ml vial (A.A.H. Pharm)
+PHOR36491MGEMIS	Phenoxymethylpenicillin  Oral solution  125 mg/5 ml (A.A.H. Pharm)
+TAPO9665BRIDL	Targocid  Powder  400 mg/vial
+LISO10837NEMIS	Linezolid  Solution for intravenous infusion  2 mg/ml, 300 ml bag
+PATA32351EMIS	Paludrine/Avloclor  Tablets (Travel Pack)  
+VAIN23463EMIS	Vancocin  Powder for solution for infusion  1 gram vial
+SETA25947NEMIS	Sebivo  Tablets  600 mg
+CEIN4691	Cefoxitin  Powder For Solution For Injection  1 gram vial
+NYTA2065	Nystatin  Tablets  500000 units
+TEIN9937HILLI	Temocillin  Powder For Solution For Injection  1 gram vial
+FATA29636EMIS	Famciclovir  Tablets  750 mg
+ACSU44	Aciclovir  Suspension  200 mg/5 ml
+TRTA37325MGEMIS	Trimethoprim  Tablets  100 mg (Sandoz)
+ERTA134214NEMIS	Erythromycin (As Stearate)  Tablets  500 mg
+CECA34129MGEMIS	Cefaclor  Capsules  500 mg (Teva UK)
+PASO105002NEMIS	Palivizumab  Solution for injection  50 mg/0.5 ml vial
+PIPO35729NEMIS	Piperacillin And Tazobactam  Powder for solution for infusion  2 grams + 250 mg vial
+SOIN15974NEMIS	Sodium Fusidate  Powder And Solvent For Solution For Infusion  500 mg vial
+CESU4687	Cefaclor  Suspension  125 mg/5 ml
+EPOR29575EMIS	Epivir  Oral solution  10 mg/ml
+OXTA2146	Oxytetracycline  Tablets  250 mg
+CLPA34407MGEMIS	Clarithromycin  Paediatric suspension  125 mg/5 ml (Ranbaxy)
+CECA38050MGEMIS	Cefradine  Capsules  500 mg (Generics (UK))
+ACDI33628MGEMIS	Aciclovir  Dispersible tablets  800 mg (Alpharma)
+ACIN3009NEMIS	Aciclovir  Intravenous infusion  25 mg/ml, 20 ml vial
+MATA31731EMIS	Malarone  Tablets  100 mg + 250 mg
+COTA34525MGEMIS	Co-Amoxiclav 250/125  Tablets  (Alpharma)
+SUCA824NEMIS	Sustiva  Capsules  100 mg
+CEIN23581EMIS	Ceftriaxone  Powder For Solution For Injection  1 gram vial
+AMSA130	Amoxil  Oral Powder Sachets Sugar Free  3 gram sachet
+ECPO28672NEMIS	Ecalta  Powder And Solvent For Solution For Infusion  100 mg vial
+ACSU9008DLSEM	Aciclovir  Sugar free suspension  200 mg/5 ml
+CETA124613NEMIS	Cefixime  Tablets  400 mg
+PASY19947NEMIS	Paromomycin Sulfate  Syrup  125 mg/5 ml
+FLCA35123MGEMIS	Fluconazole  Capsules  50 mg (Unichem)
+RICA4274	Rifampicin  Capsules  150 mg
+DATA807	Dapsone  Tablets  100 mg
+KECA1547	Keflex  Capsules  250 mg
+OXTA36365MGEMIS	Oxytetracycline  Tablets  250 mg (Sandoz)
+COSY3346	Colomycin  Syrup  250,000 units/5 ml
+NYSU5217	Nystan  Oral suspension  100,000 units/ml
+OXTA36360MGEMIS	Oxytetracycline  Tablets  250 mg (Teva UK)
+AMSU9225BRIDL	Amix-250  Suspension  250 mg/5 ml
+VOTA13778NEMIS	Voriconazole  Tablets  200 mg
+ACDI33631MGEMIS	Aciclovir  Dispersible tablets  800 mg (Unichem)
+NETA34105EMIS	Neomycin Sulfate  Tablets  500 mg
+CECA38049MGEMIS	Cefradine  Capsules  500 mg (Teva UK)
+GEIN35285MGEMIS	Gentamicin  Injection  80 mg/2 ml ampoule (Unichem)
+NITA2001	Nitrofurantoin  Tablets  50 mg
+AMIN17513NEMIS	Amoxicillin  Powder For Solution For Injection  250 mg vial
+VIIN31472EMIS	Vistide  Solution for infusion  75 mg/ml, 5 ml vial
+COSU34488MGEMIS	Co-Amoxiclav 250/62  Sugar free suspension  (Kent Pharm)
+NITA36271MGEMIS	Nitrofurantoin  Tablets  50 mg (Unichem)
+AMCA9221BRIDL	Amix  Capsules  500 mg
+ERIN3532	Erythrocin  Powder for solution for infusion  1 gram vial
+NESU1624NEMIS	Nevirapine Hemihydrate  Suspension  50 mg/5 ml
+HETA15257NEMIS	Hepsera  Tablets  10 mg
+PENE9185EMIS	Pentacarinat  Nebuliser solution  300 mg/5 ml
+MOSO40911NEMIS	Moxifloxacin  Solution for infusion  400 mg/250 ml bottle
+AMMI33710MGEMIS	Ampicillin  Mixture  250 mg/5 ml (A.A.H. Pharm)
+GEIN3640	Gentamicin  Intrathecal injection  5 mg/1 ml ampoule
+CEOR38026MGEMIS	Cefalexin  Oral suspension  125 mg/5 ml (Ranbaxy)
+SPCA28775EMIS	Sporanox Pulse  Capsules  100 mg
+COIN29224EMIS	Co-Amoxiclav 500 mg/100 mg  Powder For Solution For Injection/Infusion  vial
+COCA34442MGEMIS	Co-Fluampicil 250/250  Capsules  (Teva UK)
+SYSO105003NEMIS	Synagis  Solution for injection  50 mg/0.5 ml vial
+FLSY1192	Floxapen  Syrup forte  250 mg/5 ml
+CEIN34148MGEMIS	Ceftriaxone  Injection  1 gram/vial (Genus Pharm)
+ERE/37657MGEMIS	Erythromycin  E/c tablets  250 mg (Kent Pharm)
+META36030MGEMIS	Metronidazole  Tablets  500 mg (Unichem)
+TETA37171MGEMIS	Tetracycline Hydrochloride  Tablets  250 mg (Unichem)
+RITA42915NEMIS	Ritonavir  Tablets  100 mg
+NITA36275MGEMIS	Nitrofurantoin  Tablets  50 mg (Generics (UK))
+AMOR17516NEMIS	Amoxicillin  Oral suspension  250 mg/5 ml
+UTTA10364BRIDL	Utinor  Tablets  400 mg
+FUSU4954	Fusidic Acid  Suspension  250 mg/5 ml
+FLCA35139MGEMIS	Fluconazole  Capsules  200 mg (A.A.H. Pharm)
+META36007MGEMIS	Metronidazole  Tablets  200 mg (A.A.H. Pharm)
+PYTA18795NEMIS	Pyrimethamine And Sulfadoxine  Tablets  25 mg + 500 mg
+DOM/37467NEMIS	Doxycycline Monohydrate  M/R capsules  40 mg
+NYOR34359EMIS	Nystatin  Oral Suspension (Sugar-Free)  100,000 units/ml
+CEIN34150MGEMIS	Ceftriaxone  Injection  2 grams/vial (Wockhardt UK)
+FLCA35094MGEMIS	Flucloxacillin  Capsules  500 mg (Generics (UK))
+AMCA37887MGEMIS	Amoxicillin  Capsules  250 mg (Ivax Pharmaceuticals)
+VITA24787EMIS	Videx  Tablets  25 mg
+CLPA22477EMIS	Clarithromycin  Paediatric suspension  125 mg/5 ml
+EFCA820NEMIS	Efavirenz  Capsules  100 mg
+FLCA35134MGEMIS	Fluconazole  Capsules  200 mg (Ivax Pharmaceuticals)
+TRSU37308MGEMIS	Trimethoprim  Suspension  Sugar Free 50 mg/5 ml (Teva UK)
+CYCA3670NEMIS	Cymevene  Capsules  500 mg
+TRTA37326MGEMIS	Trimethoprim  Tablets  200 mg (Alpharma)
+LATA1090NEMIS	Lamivudine  Tablets  100 mg
+VICA4503	Vibramycin  Capsules  100 mg
+PRTA3506NEMIS	Praziquantel  Tablets  500 mg
+PHOR36495MGEMIS	Phenoxymethylpenicillin  Oral solution  125 mg/5 ml (Sandoz)
+AMPA129	Amoxil  Paediatric suspension  125 mg/1.25 ml
+AZPO45003NEMIS	Aztreonam  Powder And Solvent For Nebuliser Solution  75 mg vial + device
+CHSY4724	Chloroquine Sulfate  Oral solution  68 mg/5 ml
+CITA34303MGEMIS	Ciprofloxacin  Tablets  750 mg (Teva UK)
+EPTA12526NEMIS	Epivir  Tablets  300 mg
+AZCA132409NEMIS	Azocan  Capsules  150 mg
+FLCA9507HILLI	Fluconazole  Capsules  200 mg
+FOIN1236	Fortum  Powder For Solution For Injection  500 mg vial
+CEIN26838EMIS	Cefpirome Sulfate  Injection  2 grams/vial
+CLTA26172EMIS	Clarithromycin  Tablets  500 mg
+ACDI33625MGEMIS	Aciclovir  Dispersible tablets  800 mg (Kent Pharm)
+CITA34288MGEMIS	Ciprofloxacin  Tablets  500 mg (Kent Pharm)
+NOTA36279MGEMIS	Norfloxacin  Tablets  400 mg (Unichem)
+LATA18914EMIS	Lamisil  Tablets  250 mg
+GRTA35363MGEMIS	Griseofulvin  Tablets  125 mg (Essential Generics)
+ERE/2023NEMIS	Erythromycin  E/c tablets  250 mg
+CEOR38033MGEMIS	Cefalexin  Oral suspension  250 mg/5 ml (Alpharma)
+FLCA35096MGEMIS	Flucloxacillin  Capsules  500 mg (Kent Pharm)
+CIIN24064NEMIS	Ciprofloxacin  Intravenous infusion  2 mg/ml, 100 ml vial
+CITA34295MGEMIS	Ciprofloxacin  Tablets  500 mg (Ranbaxy)
+CODI29221EMIS	Co-Amoxiclav 250/125  Dispersible tablets  Sugar Free
+GRTA35364MGEMIS	Griseofulvin  Tablets  500 mg (Essential Generics)
+MATA28473NEMIS	Maraviroc  Tablets  150 mg
+EMOR20011NEMIS	Emtriva  Oral solution  10 mg/ml
+AMCA9888BRIDL	Amix  Capsules  250 mg
+COTA34527MGEMIS	Co-Amoxiclav 250/125  Tablets  (Ivax Pharmaceuticals)
+AMCA9027BRIDL	Amoram  Capsules  500 mg
+REIN25451EMIS	Retrovir  Concentrate For Solution For Infusion  10 mg/ml, 20 ml vial
+TETA37170MGEMIS	Tetracycline Hydrochloride  Tablets  250 mg (Kent Pharm)
+TONE116864NEMIS	Tobramycin  Nebuliser Liquid  170 mg/1.7 ml ampoule
+ERE/37658MGEMIS	Erythromycin  E/c tablets  250 mg (Alpharma)
+ACIN3010NEMIS	Aciclovir  Intravenous infusion  25 mg/ml, 40 ml vial
+VITA12639NEMIS	Viread  Tablets  245 mg
+FLCA35091MGEMIS	Flucloxacillin  Capsules  500 mg (Alpharma)
+QUOR38988NEMIS	Quinine Sulfate  Oral suspension  200 mg/5 ml
+PRSO48855NEMIS	Promixin  Powder For Solution For Injection  1 million units/vial
+FLCA35110MGEMIS	Fluconazole  Capsules  150 mg (Mayne Pharma)
+GEIN35284MGEMIS	Gentamicin  Injection  80 mg/2 ml ampoule (Mayne Pharma)
+COSU34490MGEMIS	Co-Amoxiclav 250/62  Sugar free suspension  (Teva UK)
+REPO130339NEMIS	Renapime  Powder For Solution For Injection  1 gram vial
+KLPA22475EMIS	Klaricid  Paediatric suspension  125 mg/5 ml
+PECA2173	Penbritin  Capsules  500 mg
+AMOR37944MGEMIS	Amoxicillin  Oral Suspension Sugar Free  250 mg/5 ml (A.A.H. Pharm)
+NEIN1964	Netillin  Injection  150 mg/1.5 ml ampoule
+OSCA14664NEMIS	Oseltamivir  Capsules  75 mg
+FLCA35112MGEMIS	Fluconazole  Capsules  150 mg (Sandoz)
+CLSO21838NEMIS	Clindamycin  Solution for injection  150 mg/ml, 4 ml ampoule
+RICA17784NEMIS	Ribavirin  Capsules  200 mg
+PATA2152	Paludrine  Tablets  100 mg
+RECA17235NEMIS	Reyataz  Capsules  150 mg
+FATA24114EMIS	Famciclovir  Tablets  250 mg
+MESU3914	Metrolyl  Suppositories  1 g
+FLCA35129MGEMIS	Fluconazole  Capsules  50 mg (Ranbaxy)
+MESU3915	Metrolyl  Suppositories  500 mg
+ACTA33647MGEMIS	Aciclovir  Tablets  400 mg (Sterwin Medicines)
+CITA34325MGEMIS	Ciprofloxacin  Tablets  100 mg (A.A.H. Pharm)
+VIE/5345NEMIS	Videx Ec  E/c capsules  125 mg
+AMIN24500EMIS	Amphocil  Powder for solution for infusion  100 mg vial
+ERCA3531	Erymax  Capsules (Gastro-Resistant)  250 mg
+RIOR44093NEMIS	Ribavirin  Oral solution  40 mg/ml
+CECA38041MGEMIS	Cefradine  Capsules  250 mg (Ranbaxy)
+MITA1850	Minocin  Tablets  50 mg
+AKCA24005EMIS	Aknemin  Capsules  100 mg
+SEM/16455NEMIS	Sebomin  M/R capsules  100 mg
+DIE/5340NEMIS	Didanosine  E/c capsules  125 mg
+GRGA94973NEMIS	Granupas  Gastro-resistant Granules  4 gram sachets
+COTA34617MGEMIS	Co-Trimoxazole  Tablets  480 mg (Alpharma)
+ACTA7123	Aciclovir  Tablets  400 mg
+GRTA1322	Griseofulvin  Tablets  500 mg
+CHTA21509NEMIS	Chloroquine Phosphate And Proguanil  Tablets  250 mg + 100 mg
+CITA34302MGEMIS	Ciprofloxacin  Tablets  750 mg (Alpharma)
+CAPO20567NEMIS	Caspofungin  Powder for concentrate for solution for infusion  50 mg vial
+COIN15774NEMIS	Colomycin  Injection  2 million units/vial
+AMCA37901MGEMIS	Amoxicillin  Capsules  500 mg (Ivax Pharmaceuticals)
+META10489BRIDL	Mepacrine Hydrochloride  Tablets  100 mg
+IMTA3755	Imunovir  Tablets  500 mg
+TETA101995NEMIS	Tedizolid  Tablets  200 mg
+BASU271	Baxan  Suspension  125 mg/5 ml
+BITA127582NEMIS	Biktarvy  Tablets  50 mg + 200 mg + 25 mg
+ERSU34999MGEMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  500 mg/5 ml (Ivax Pharmaceuticals)
+ERSU34991MGEMIS	Erythromycin Ethyl Succinate  Suspension  250 mg/5 ml (A.A.H. Pharm)
+OFTA36292MGEMIS	Ofloxacin  Tablets  200 mg (Unichem)
+BAM/11343NEMIS	Bacticlor Mr  M/R tablets  375 mg
+TASO71476NEMIS	Taurolin  Solution  5 grams/250 ml bottle
+BAOR23864NEMIS	Baraclude  Oral solution  50 micrograms/ml
+COTA34528MGEMIS	Co-Amoxiclav 250/125  Tablets  (Teva UK)
+PESY2178	Penbritin  Syrup  125 mg/5 ml
+DOCA4220NEMIS	Doxylar  Capsules  100 mg
+CEOR17572NEMIS	Cefalexin  Oral suspension  250 mg/5 ml
+QUTA2425	Quinine Sulfate  Tablets  300 mg
+VAOR35731NEMIS	Valganciclovir  Oral Solution, Sugar Free  50 mg/ml
+VAIN13835NEMIS	Vancomycin Hydrochloride  Powder for solution for infusion  500 mg vial
+CETA33633EMIS	Cefprozil  Tablets  500 mg
+CEIN6976	Cefoxitin  Powder For Solution For Injection  2 gram vial
+TOIN37254MGEMIS	Tobramycin  Injection  80 mg/2 ml vial (Unichem)
+RICA36885MGEMIS	Rifampicin  Capsules  300 mg (Unichem)
+RACH78946NEMIS	Raltegravir  Chewable tablets  100 mg
+CLPA34411MGEMIS	Clarithromycin  Paediatric suspension  125 mg/5 ml (Sandoz)
+ISTA3782	Isoniazid  Tablets  100 mg
+ZECA29421EMIS	Zerit  Capsules  30 mg
+CITA34294MGEMIS	Ciprofloxacin  Tablets  500 mg (Cp Pharm)
+DITA7133	Diloxanide Furoate  Tablets  500 mg
+CEM/34163MGEMIS	Cefaclor  M/R tablets  375 mg (Kent Pharm)
+CESU34177MGEMIS	Cefaclor  Suspension  125 mg/5 ml (Generics (UK))
+CEIN6846	Cefotaxime  Powder For Solution For Injection  2 gram vial
+ACSU9008DLSEM	Aciclovir  Sugar free suspension  200 mg/5 ml
+MESU5161	Metronidazole  Suspension  200 mg/5 ml
+VESY3025	Velosef  Syrup  250 mg/5 ml
+ATCA17231NEMIS	Atazanavir  Capsules  150 mg
+ARTA18803NEMIS	Artemether And Lumefantrine  Tablets  20 mg + 120 mg
+KLIN23879EMIS	Klaricid  Powder for solution for infusion  500 mg vial
+AMGA94970NEMIS	Aminosalicylic Acid  Gastro-Resistant Granules Sugar Free  4 gram sachets
+MACA1709	Magnapen  Capsules  
+RATA12741NEMIS	Ranovir  Tablets  800 mg
+REDI1033NEMIS	Relenza  Diskhaler  5 mg per dose
+AMIN127	Amoxil  Injection  250 mg/vial
+MITA1851	Minocycline  Tablets  100 mg
+CEM/22447EMIS	Cefaclor  M/R tablets  375 mg
+AMOR37930MGEMIS	Amoxicillin  Oral Powder Sachets Sugar Free  3 gram sachet (Kent Pharm)
+ERSU34972MGEMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  125 mg/5 ml (Teva UK)
+ERSU34981MGEMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  250 mg/5 ml (Teva UK)
+FOIN33961EMIS	Fortum Monovial  Injection  2 grams/vial
+KITA19683NEMIS	Kivexa  Tablets  
+AZIN5632	Azactam  Powder For Solution For Injection  1 gram vial
+META36005MGEMIS	Metronidazole  Tablets  200 mg (Kent Pharm)
+AUSU27887EMIS	Augmentin-Duo 400/57  Sugar-free oral suspension  400 mg/5 ml + 57 mg/5 ml
+CESU34183MGEMIS	Cefaclor  Suspension  250 mg/5 ml (A.A.H. Pharm)
+ZISY18023EMIS	Zidovudine  Oral Solution, Sugar Free  10 mg/1 ml
+AMOR37919MGEMIS	Amoxicillin  Oral suspension  250 mg/5 ml (Kent Pharm)
+CESU31411EMIS	Cefaclor  Sugar-free suspension  250 mg/5 ml
+CECA530	Ceporex  Capsules  500 mg
+CEOR124986NEMIS	Celsentri  Oral solution  20 mg/ml
+CLCA78220NEMIS	Clindamycin  Capsules  300 mg
+EVTA51570NEMIS	Evoxil  Tablets  250 mg
+DOCA38106MGEMIS	Doxycycline Hyclate  Capsules  100 mg (Unichem)
+FLIN35151MGEMIS	Flucloxacillin  Injection  1 g/vial (A.A.H. Pharm)
+FLOR35166MGEMIS	Flucloxacillin  Oral solution  125 mg/5 ml (Generics (UK))
+ERPO14326NEMIS	Ertapenem  Powder for concentrate for solution for infusion  1 gram vial
+MATA31731EMIS	Malarone  Tablets  100 mg + 250 mg
+DOCA37553MGEMIS	Doxycycline Hyclate  Capsules  50 mg (Ivax Pharmaceuticals)
+PHOR36493MGEMIS	Phenoxymethylpenicillin  Oral solution  125 mg/5 ml (Kent Pharm)
+CEOR38032MGEMIS	Cefalexin  Oral suspension  250 mg/5 ml (Teva UK)
+ZITA4545	Zinamide  Tablets  500 mg
+MATA14465NEMIS	Malarone Paediatric  Tablets  25 mg + 62.5 mg
+COTA34535MGEMIS	Co-Amoxiclav 500/125  Tablets  (Teva UK)
+VIM/51988NEMIS	Viramune  M/R tablets  400 mg
+COSU34491MGEMIS	Co-Amoxiclav 250/62  Sugar free suspension  (Winthrop Pharmaceuticals )
+FLIN35152MGEMIS	Flucloxacillin  Injection  1 g/vial (Wockhardt UK)
+CETA38013MGEMIS	Cefalexin  Tablets  250 mg (Unichem)
+DATA94920NEMIS	Daklinza  Tablets  30 mg
+CITA34373MGEMIS	Ciprofloxacin  Tablets  250 mg (Ranbaxy)
+FLCA35132MGEMIS	Fluconazole  Capsules  200 mg (Winthrop Pharmaceuticals )
+DETA95163NEMIS	Demeclocycline Hydrochloride  Tablets  150 mg
+RITA4286	Rimactazid 150  Tablets  
+VOEY118998NEMIS	Voriconazole  Eye Drops, Preservative Free  1 %
+COSU34486MGEMIS	Co-Amoxiclav 250/62  Sugar free suspension  (Ivax Pharmaceuticals)
+VETA3040	Vermox  Tablets  100 mg
+ZODI26989EMIS	Zovirax  Dispersible tablets  200 mg
+ZIIN3092	Zinacef  Powder for injection  1.5 gram vial
+AMMI33702MGEMIS	Ampicillin  Mixture  125 mg/5 ml (Unichem)
+TOIN7006	Tobramycin  Solution for injection  40 mg/1 ml vial
+OFTA36298MGEMIS	Ofloxacin  Tablets  400 mg (Teva UK)
+RITA4278	Rifinah 150 mg/100 mg  Tablets  
+DOCA4219NEMIS	Doxylar  Capsules  50 mg
+CESU521	Cephalexin  Suspension  125 mg/5 ml
+PEEL9627BRIDL	Penicillin V  Elixir  250 mg/5 ml
+NISU36252MGEMIS	Nitrofurantoin  Suspension  25 mg/5 ml (Goldshield)
+AMCA37891MGEMIS	Amoxicillin  Capsules  250 mg (A.A.H. Pharm)
+CAPO20573NEMIS	Cancidas  Powder for concentrate for solution for infusion  70 mg vial
+CETA17570NEMIS	Cefalexin  Tablets  500 mg
+ENTA22871NEMIS	Entecavir  Tablets  500 micrograms
+CLPA22477EMIS	Clarithromycin  Paediatric suspension  125 mg/5 ml
+OFTA23520EMIS	Ofloxacin  Tablets  400 mg
+DITA34778MGEMIS	Diloxanide Furoate  Tablets  500 mg (Unichem)
+CEOR17579NEMIS	Cefradine  Oral solution  250 mg/5 ml
+ZETA11113NEMIS	Zentel  Tablets  400 mg
+VACA21743NEMIS	Vancocin Matrigel  Capsules  125 mg
+RISO38474NEMIS	Ribavirin  Solution for injection  1.2 grams/12 ml vial
+FLIN1190	Floxapen  Injection  500 mg/vial
+ISTA28974NEMIS	Isentress  Tablets  400 mg
+FLCA35088MGEMIS	Flucloxacillin  Capsules  250 mg (Alpharma)
+AMIN37908MGEMIS	Amoxicillin  Injection  500 mg vial (Wockhardt UK)
+CEPO130332NEMIS	Cefazolin  Powder For Solution For Injection  2 gram vial
+NOTA36282MGEMIS	Norfloxacin  Tablets  400 mg (A.A.H. Pharm)
+OSOR77646NEMIS	Oseltamivir  Oral Suspension Sugar Free  6 mg/ml
+VATA12913NEMIS	Valganciclovir  Tablets  450 mg
+CETA33632EMIS	Cefprozil  Tablets  250 mg
+DISU941	Distaclor  Suspension  125 mg/5 ml
+CEIN34154MGEMIS	Ceftazidime  Injection  1 gram/vial (Genus Pharm)
+AMSU139	Amphotericin B  Suspension  Sugar Free 100 mg/ml
+FLIN1189	Floxapen  Injection  250 mg/vial
+TRPA5477	Trimethoprim  Paediatric suspension  Sugar Free 50 mg/5 ml
+QUTA36811MGEMIS	Quinine Bisulfate  Tablets  300 mg (Alpharma)
+FOCA86725NEMIS	Fosfomycin Calcium  Capsules  500 mg
+CLCA6861	Clindamycin  Capsules  75 mg
+FLIN9508EMIS	Fluconazole  Solution for infusion  200 mg/100 ml vial
+AMMI33703MGEMIS	Ampicillin  Mixture  125 mg/5 ml (Generics (UK))
+COIN29227EMIS	Co-Amoxiclav 1000 mg/200 mg  Powder For Solution For Injection/Infusion  vial
+AMOR37913MGEMIS	Amoxicillin  Oral suspension  125 mg/5 ml (Teva UK)
+COCA34438MGEMIS	Co-Fluampicil 250/250  Capsules  (Unichem)
+NOTA10366BRIDL	Norfloxacin  Tablets  400 mg
+HITA25479EMIS	Hivid  Tablets  375 micrograms
+COTA34538MGEMIS	Co-Amoxiclav 500/125  Tablets  (Sandoz)
+VACA5492	Vancomycin Hydrochloride  Capsules  125 mg
+LITA10835NEMIS	Linezolid  Tablets  600 mg
+AMOR37945MGEMIS	Amoxicillin  Oral Suspension Sugar Free  250 mg/5 ml (Kent Pharm)
+DOPO31290NEMIS	Doripenem  Powder for solution for infusion  500 mg vial
+GACA3669NEMIS	Ganciclovir  Capsules  500 mg
+ETOR52117NEMIS	Ethambutol  Oral solution  500 mg/5 ml
+FATA24112EMIS	Famvir  Tablets  250 mg
+NISU36251MGEMIS	Nitrofurantoin  Suspension  25 mg/5 ml (Unichem)
+TAOR14669NEMIS	Tamiflu  Oral suspension  12 mg/ml
+PHTA5274	Phenoxymethylpenicillin  Tablets  250 mg
+ATOR31615EMIS	Atovaquone  Oral Suspension Sugar Free  750 mg/5 ml
+CECA530	Ceporex  Capsules  500 mg
+CAPO45004NEMIS	Cayston  Powder And Solvent For Nebuliser Solution  75 mg vial + handset
+ERSU35003MGEMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  500 mg/5 ml (Teva UK)
+CECA38042MGEMIS	Cefradine  Capsules  250 mg (Ivax Pharmaceuticals)
+VITA78603NEMIS	Viread  Tablets  163 mg
+FLSO130973NEMIS	Fluconazole  Solution for infusion  100 mg/50 ml vial
+IVTA3514NEMIS	Ivermectin  Tablets  6 mg
+VITA32743EMIS	Viramune  Tablets  200 mg
+ERE/2023NEMIS	Erythromycin  E/c tablets  250 mg
+NOGA90073NEMIS	Noxafil  Gastro-resistant Tablets  100 mg
+ACTA37501MGEMIS	Aciclovir  Tablets  800 mg (Wockhardt UK)
+NOTA36280MGEMIS	Norfloxacin  Tablets  400 mg (Genus Pharm)
+TASO90717NEMIS	Tarivid  Solution for infusion  200 mg/100 ml bottle
+COTA34534MGEMIS	Co-Amoxiclav 500/125  Tablets  (Kent Pharm)
+AMCA37902MGEMIS	Amoxicillin  Capsules  500 mg (Generics (UK))
+NEM/51984NEMIS	Nevirapine Anhydrate  M/R tablets  100 mg
+CITA34304MGEMIS	Ciprofloxacin  Tablets  750 mg (Sterwin Medicines)
+AMCA37894MGEMIS	Amoxicillin  Capsules  500 mg (Kent Pharm)
+PRTA13033NEMIS	Pristinamycin  Tablets  500 mg
+FLOR35164MGEMIS	Flucloxacillin  Oral solution  125 mg/5 ml (Kent Pharm)
+AMOR17520NEMIS	Amoxicillin  Oral Suspension Sugar Free  250 mg/5 ml
+PHOR31250EMIS	Phenoxymethylpenicillin  Oral solution  125 mg/5 ml
+RICA4282	Rimactane  Capsules  150 mg
+AMCA37897MGEMIS	Amoxicillin  Capsules  500 mg (Ranbaxy)
+PHTA36521MGEMIS	Phenoxymethylpenicillin  Tablets  250 mg (Sandoz)
+FLCA9227BRIDL	Fluclomix  Capsules  500 mg
+BOCA51593NEMIS	Boceprevir  Capsules  200 mg
+RECA1017NEMIS	Rebetol  Capsules  200 mg
+TRTA37324MGEMIS	Trimethoprim  Tablets  100 mg (Alpharma)
+PHOR36497MGEMIS	Phenoxymethylpenicillin  Oral solution  250 mg/5 ml (A.A.H. Pharm)
+RITA4277	Rifater  Tablets  
+CECA38039MGEMIS	Cefradine  Capsules  250 mg (Unichem)
+VFTA13781NEMIS	Vfend  Tablets  50 mg
+CLCA34376MGEMIS	Clindamycin  Capsules  150 mg (A.A.H. Pharm)
+DATA808	Dapsone  Tablets  50 mg
+TEGR78605NEMIS	Tenofovir Disoproxil  Granules  33 mg/gram
+QUTA36807MGEMIS	Quinine Bisulfate  Tablets  300 mg (A.A.H. Pharm)
+TRSU37309MGEMIS	Trimethoprim  Suspension  Sugar Free 50 mg/5 ml (Kent Pharm)
+SEIN2544	Septrin  Solution for infusion  96 mg/ml, 5 ml ampoule
+FLCA1196	Flucloxacillin  Capsules  500 mg
+NITA36265MGEMIS	Nitrofurantoin  Tablets  100 mg (Unichem)
+DISU942	Distaclor  Suspension  250 mg/5 ml
+BLTA19527EMIS	Blemix 50  Tablets  50 mg
+AMIN17512NEMIS	Amoxicillin  Powder For Solution For Injection  1 gram vial
+ACDI33611MGEMIS	Aciclovir  Dispersible tablets  400 mg (Ivax Pharmaceuticals)
+INTA52650NEMIS	Intelence  Tablets  200 mg
+AU1.9266HILLI	Augmentin  Powder For Solution For Injection/Infusion  1.2 gram vial
+MYCA23996EMIS	Mycobutin  Capsules  150 mg
+AMCA17510NEMIS	Amoxicillin  Capsules  250 mg
+ZIIN3093	Zinacef  Powder for injection  250 mg vial
+DIE/5343NEMIS	Didanosine  E/c capsules  400 mg
+AUTA23530EMIS	Augmentin 625 Mg  Tablets
+ZADR1031NEMIS	Zanamivir  Dry powder for inhalation  5 mg per dose
+AMOR10252BRIDL	Amoxycillin  Oral suspension  125 mg/5 ml
+CEIN34159MGEMIS	Cefuroxime  Injection  750 mg/vial (A.A.H. Pharm)
+DAPO122400NEMIS	Dalbavancin  Powder for solution for infusion  500 mg vial
+CLTA33574NEMIS	Clamelle  Tablets  500 mg
+CETA38021MGEMIS	Cefalexin  Tablets  500 mg (Ranbaxy)
+TATA32264EMIS	Tavanic  Tablets  500 mg
+SYIN1591NEMIS	Synagis  Powder and solvent for solution for injection  50 mg vial
+SEM/21614NEMIS	Sebren Mr  M/R capsules  100 mg
+CECA17567NEMIS	Cefalexin  Capsules  250 mg
+HITA25480EMIS	Hivid  Tablets  750 micrograms
+ICTA128239NEMIS	Ictastan  Tablets  200 mg + 245 mg
+SOTA117917NEMIS	Sofosbuvir And Velpatasvir  Tablets  400 mg + 100 mg
+SUTA38273MGEMIS	Sulfadiazine  Tablets  500 mg (Unichem)
+NEIN27540EMIS	Nebcin  Injection  80 mg/2 ml vial
+PRTA24233NEMIS	Prezista  Tablets  300 mg
+CLTA34428MGEMIS	Clarithromycin  Tablets  250 mg (Ranbaxy)
+ERSU9004DLSEM	Erythromycin  Sugar free suspension  125mg/5ml
+XITA51614NEMIS	Xifaxanta  Tablets  200 mg
+LOOR18798NEMIS	Lopinavir And Ritonavir  Oral solution  400 mg/5 ml + 100 mg/5 ml
+CITA34374MGEMIS	Ciprofloxacin  Tablets  250 mg (Mayne Pharma)
+DOCA38105MGEMIS	Doxycycline Hyclate  Capsules  100 mg (Kent Pharm)
+DATA34699MGEMIS	Dapsone  Tablets  100 mg (A.A.H. Pharm)
+RICA4270	Rifadin  Capsules  300 mg
+VITA31809EMIS	Videx  Tablets  150 mg
+ACTA33645MGEMIS	Aciclovir  Tablets  400 mg (Wockhardt UK)
+ATCA17232NEMIS	Atazanavir  Capsules  200 mg
+MESU1732	Mebendazole  Suspension  100 mg/5 ml
+COSU34493MGEMIS	Co-Amoxiclav 250/62  Sugar free suspension  (Sandoz)
+MUNE135921NEMIS	Munuza  Nebuliser solution  300 mg/5 ml ampoule (60 mg/ml)
+AMOR5625NEMIS	Amprenavir  Oral solution  15 mg/ml
+POSO96302NEMIS	Posaconazole  Solution for infusion  300 mg/16.7 ml vial
+AMCA37888MGEMIS	Amoxicillin  Capsules  250 mg (Teva UK)
+ZITA34167EMIS	Zithromax  Tablets  500 mg
+LESO83179NEMIS	Levofloxacin  Solution for infusion  5 mg/ml, 100 ml bottle
+FLOR23506EMIS	Flucloxacillin  Oral suspension  250 mg/5 ml
+VESU3039	Vermox  Suspension  100 mg/5 ml
+ERSU34975MGEMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  125 mg/5 ml (Unichem)
+KEIN3802	Kemicetine  Powder For Solution For Injection  1 gram vial
+MEIN1754	Mefoxin  Injection  1 g vial
+ITCA10335BRIDL	Itraconazole  Capsules  100 mg
+MEIN27949EMIS	Meronem  Powder For Solution For Injection  1 gram vial
+CEIN34149MGEMIS	Ceftriaxone  Injection  2 grams/vial (A.A.H. Pharm)
+CEM/34162MGEMIS	Cefaclor  M/R tablets  375 mg (A.A.H. Pharm)
+CESU34182MGEMIS	Cefaclor  Suspension  250 mg/5 ml (Generics (UK))
+AMIN6766	Ampicillin  Powder For Solution For Injection  500 mg vial
+CECA34135MGEMIS	Cefaclor  Capsules  250 mg (A.A.H. Pharm)
+ZOSU12712NEMIS	Zovirax Double-Strength  Suspension  400 mg/5 ml
+FATA3562	Fansidar  Tablets  
+AMDI137763NEMIS	Amoxicillin  Dispersible Tablets Sugar Free  1 gram
+AUTA23527EMIS	Augmentin 375 Mg  Tablets
+CLCA4744	Clindamycin  Capsules  150 mg
+ERSU25264EMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  125 mg/5 ml
+CHIN22195NEMIS	Chloroquine Sulfate  Injection  40 mg/ml, 5 ml ampoule
+ZYSO10840NEMIS	Zyvox  Solution for intravenous infusion  2 mg/ml, 300 ml bag
+NYSU5217	Nystan  Oral suspension  100,000 units/ml
+ACTA33642MGEMIS	Aciclovir  Tablets  200 mg (Unichem)
+KATA22802NEMIS	Kaletra  Tablets  200 mg + 50 mg
+PHTA36525MGEMIS	Phenoxymethylpenicillin  Tablets  250 mg (Ranbaxy)
+ERSU25266EMIS	Erythromycin Ethyl Succinate  Suspension  125 mg/5 ml
+META36004MGEMIS	Metronidazole  Tablets  200 mg (Unichem)
+CEOR44053NEMIS	Cefalexin  Oral Suspension (Sugar-Free)  125 mg/5 ml
+ETSY23836NEMIS	Ethambutol  Oral solution  100 mg/5 ml
+FLCA35119MGEMIS	Fluconazole  Capsules  50 mg (Teva UK)
+ACIN3008NEMIS	Aciclovir  Intravenous infusion  25 mg/ml, 10 ml vial
+SETA2547	Septrin  Tablets  480 mg
+VATA26445EMIS	Valtrex  Tablets  500 mg
+COIN81482NEMIS	Colobreathe  Inhalation Powder Capsules  1,662,500 units
+EBCA138119NEMIS	Ebilfumin  Capsules  75 mg
+CITA34324MGEMIS	Ciprofloxacin  Tablets  100 mg (Sterwin Medicines)
+DACA3382	Dalacin C  Capsules  150 mg
+MITA36089MGEMIS	Minocycline  Tablets  50 mg (Kent Pharm)
+CESY535	Ceporex  Syrup  250 mg/5 ml
+PHOR31251EMIS	Phenoxymethylpenicillin  Oral solution  250 mg/5 ml
+AMMI143	Ampicillin  Mixture  125 mg/5 ml
