@@ -37,7 +37,6 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
 
 
-
 ------------------------------------ CREATE COHORT -------------------------------------
 	-- REGISTERED WITH A GM GP
 	-- OVER  18
@@ -45,6 +44,9 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
 --> EXECUTE query-patient-year-of-birth.sql
 
+--> CODESET diabetes-type-i:1 diabetes-type-ii:1
+
+-- FIND ALL DIAGNOSES OF TYPE 1 DIABETES
 
 IF OBJECT_ID('tempdb..#DiabetesT1Patients') IS NOT NULL DROP TABLE #DiabetesT1Patients;
 SELECT 
@@ -59,9 +61,15 @@ WHERE (
 	)
 	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 
+-- FIND EARLIEST DIAGNOSIS OF TYPE 1 DIABETES FOR EACH PATIENT
+
+IF OBJECT_ID('tempdb..#T1Min') IS NOT NULL DROP TABLE #T1Min;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS MinDate
 INTO #T1Min
-FROM #DiabetesT2Patients
+FROM #DiabetesT1Patients
+GROUP BY FK_Patient_Link_ID
+
+-- FIND ALL DIAGNOSES OF TYPE 2 DIABETES
 
 IF OBJECT_ID('tempdb..#DiabetesT2Patients') IS NOT NULL DROP TABLE #DiabetesT2Patients;
 SELECT 
@@ -76,9 +84,13 @@ WHERE (
 	)
 	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 
+-- FIND EARLIEST DIAGNOSIS OF TYPE 2 DIABETES FOR EACH PATIENT
+
+IF OBJECT_ID('tempdb..#T2Min') IS NOT NULL DROP TABLE #T2Min;
 SELECT FK_Patient_Link_ID, MIN(EventDate) AS MinDate
 INTO #T2Min
 FROM #DiabetesT2Patients
+GROUP BY FK_Patient_Link_ID
 
 -- CREATE COHORT OF DIABETES PATIENTS
 
@@ -88,14 +100,14 @@ SELECT p.FK_Patient_Link_ID,
 	DeathDate,
 	yob.YearOfBirth,
 	DiabetesT1 = CASE WHEN t1.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END,
-	DiabetesT1_EarliestDiagnosis = CASE WHEN t1.FK_Patient_Link_ID IS NOT NULL THEN MinDate ELSE NULL END,
+	DiabetesT1_EarliestDiagnosis = CASE WHEN t1.FK_Patient_Link_ID IS NOT NULL THEN t1.MinDate ELSE NULL END,
 	DiabetesT2 = CASE WHEN t2.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END,
-	DiabetesT2_EarliestDiagnosis = CASE WHEN t2.FK_Patient_Link_ID IS NOT NULL THEN MinDate ELSE NULL END
+	DiabetesT2_EarliestDiagnosis = CASE WHEN t2.FK_Patient_Link_ID IS NOT NULL THEN t2.MinDate ELSE NULL END
 INTO #Cohort
 FROM #Patients p
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #T1Min t1 ON t1.FK_Patient_Link_ID = c.FK_Patient_Link_ID 
-LEFT OUTER JOIN #T2Min t2 ON t2.FK_Patient_Link_ID = c.FK_Patient_Link_ID
+LEFT OUTER JOIN #T1Min t1 ON t1.FK_Patient_Link_ID = p.FK_Patient_Link_ID 
+LEFT OUTER JOIN #T2Min t2 ON t2.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 	AND (
 		p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #DiabetesT1Patients)  OR			 -- Diabetes T1 diagnosis
@@ -103,6 +115,9 @@ WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 		)
 
 ----------------------------------------------------------------------------------------
+
+--> EXECUTE query-get-admissions-and-length-of-stay.sql all-patients:false
+--> EXECUTE query-admissions-covid-utilisation.sql start-date:'2020-01-01' all-patients:false gp-events-table:RLS.vw_GP_Events
 
 --bring together for final output
 SELECT 
