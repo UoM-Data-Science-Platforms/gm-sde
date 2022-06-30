@@ -159,7 +159,7 @@ WHERE (
 SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EncounterDate
 INTO #Encounters
 FROM RLS.vw_GP_Events
-WHERE FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier)
+WHERE FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE PK_Reference_Coding_ID != -1)
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 AND EventDate BETWEEN @StartDate AND @EndDate;
 

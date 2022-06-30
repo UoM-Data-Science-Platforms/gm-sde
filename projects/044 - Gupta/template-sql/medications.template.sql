@@ -87,21 +87,21 @@ WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #2orMoreLTCsIncludingMental)     -- at least 2 LTCs including one mental
 
 
--- TABLE OF GP EVENTS FOR COHORT TO SPEED UP REUSABLE QUERIES
+-- TABLE OF GP MEDICATIONS FOR COHORT TO SPEED UP REUSABLE QUERIES
 
-IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
+IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
 SELECT 
   FK_Patient_Link_ID,
-  CAST(EventDate AS DATE) AS EventDate,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
   SuppliedCode,
   FK_Reference_SnomedCT_ID,
-  FK_Reference_Coding_ID,
-  [Value]
-INTO #PatientEventData
-FROM [RLS].vw_GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
-
-
+  FK_Reference_Coding_ID
+INTO #PatientMedicationData
+FROM [RLS].vw_GP_Medications
+WHERE 
+	UPPER(SourceTable) NOT LIKE '%REPMED%'  -- exclude duplicate prescriptions 
+	AND RepeatMedicationFlag = 'N' 			-- exclude duplicate prescriptions 
+	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
 
 -- LOAD ALL MEDICATIONS CODE SETS NEEDED
 
@@ -110,13 +110,10 @@ WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
 --> CODESET bnf-eye-meds:1 bnf-ear-nose-throat-meds:1 bnf-skin-meds:1 bnf-immunological-meds:1 bnf-anaesthesia-meds:1
 
 
--- FIX ISSUE WITH DUPLICATE MEDICATIONS, CAUSED BY SOME CODES APPEARING MULTIPLE TIMES IN #VersionedCodeSets and #VersionedSnomedSets
+-- FIX ISSUE WITH DUPLICATE MEDICATIONS, CAUSED BY SOME CODES APPEARING MULTIPLE TIMES IN #AllCodes
 
-IF OBJECT_ID('tempdb..#VersionedCodeSets_1') IS NOT NULL DROP TABLE #VersionedCodeSets_1;
-SELECT DISTINCT FK_Reference_Coding_ID, Concept, [Version] INTO #VersionedCodeSets_1 FROM #VersionedCodeSets
-
-IF OBJECT_ID('tempdb..#VersionedSnomedSets_1') IS NOT NULL DROP TABLE #VersionedSnomedSets_1;
-SELECT DISTINCT FK_Reference_SnomedCT_ID, Concept, [Version] INTO #VersionedSnomedSets_1 FROM #VersionedSnomedSets
+IF OBJECT_ID('tempdb..#AllCodes_1') IS NOT NULL DROP TABLE #AllCodes_1;
+SELECT DISTINCT Code, Concept, [Version] INTO #AllCodes_1 FROM #AllCodes
 
 -- RETRIEVE ALL RELEVANT PRESCRPTIONS FOR THE COHORT
 
@@ -126,18 +123,12 @@ SELECT
 		CAST(MedicationDate AS DATE) as PrescriptionDate,
 		Concept = CASE WHEN c.Concept IS NOT NULL THEN c.Concept ELSE s.Concept END
 INTO #medications_rx
-FROM RLS.vw_GP_Medications m
+FROM #PatientMedicationData m
 LEFT OUTER JOIN #VersionedSnomedSets_1 s ON s.FK_Reference_SnomedCT_ID = m.FK_Reference_SnomedCT_ID
 LEFT OUTER JOIN #VersionedCodeSets_1 c ON c.FK_Reference_Coding_ID = m.FK_Reference_Coding_ID
 WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 	AND m.MedicationDate BETWEEN @StartDate AND @EndDate
-	AND UPPER(SourceTable) NOT LIKE '%REPMED%'  -- exclude duplicate prescriptions 
-	AND RepeatMedicationFlag = 'N' 				-- exclude duplicate prescriptions 
-	AND (
-		m.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets_1)
-		OR
-		m.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets_1)
-		);
+	AND m.SuppliedCode IN (SELECT [Code] FROM #AllCodes_1) -- using Code due to prevalency discrepancy with IDs
 
 --  FINAL TABLE: NUMBER OF EACH MEDICATION CATEGORY PRESCRIBED EACH MONTH 
 

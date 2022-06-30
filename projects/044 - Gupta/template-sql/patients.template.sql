@@ -5,9 +5,6 @@
 ------------- RDE CHECK -----------------
 -----------------------------------------	
 
--- OUTPUT: Data with the following fields
-
-
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
 SET @StartDate = '2020-01-01';
@@ -231,14 +228,19 @@ SELECT
 	[Value] = TRY_CONVERT(NUMERIC (18,5), [Value]),
 	[Units]
 INTO #observations
-FROM RLS.vw_GP_Events gp
+FROM #PatientEventData gp
 LEFT JOIN #VersionedSnomedSets sn ON sn.FK_Reference_SnomedCT_ID = gp.FK_Reference_SnomedCT_ID
 LEFT JOIN #VersionedCodeSets co ON co.FK_Reference_Coding_ID = gp.FK_Reference_Coding_ID
 WHERE
-	(gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept In ('systolic-blood-pressure', 'diastolic-blood-pressure', 'hba1c', 'cholesterol', 'ldl-cholesterol', 'hdl-cholesterol', 'triglycerides', 'egfr') ) OR
-     gp.FK_Reference_Coding_ID   IN (SELECT FK_Reference_Coding_ID   FROM #VersionedCodeSets   WHERE Concept In ('systolic-blood-pressure', 'diastolic-blood-pressure', 'hba1c', 'cholesterol', 'ldl-cholesterol', 'hdl-cholesterol', 'triglycerides', 'egfr') ) )
-AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
-AND [Value] IS NOT NULL AND [Value] != '0' AND UPPER([Value]) NOT LIKE '%[A-Z]%'  -- CHECKS IN CASE ANY ZERO, NULL OR TEXT VALUES REMAINED
+	((gp.FK_Reference_SnomedCT_ID IN (
+		SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept In ('systolic-blood-pressure', 'diastolic-blood-pressure', 'ldl-cholesterol', 'hdl-cholesterol', 'triglycerides', 'egfr') AND [Version] = 1) 
+			OR Concept IN ('hba1c', 'cholesterol') AND [Version] = 2 )
+		OR (gp.FK_Reference_Coding_ID   IN (
+		SELECT FK_Reference_Coding_ID   FROM #VersionedCodeSets   WHERE Concept In ('systolic-blood-pressure', 'diastolic-blood-pressure', 'ldl-cholesterol', 'hdl-cholesterol', 'triglycerides', 'egfr') AND [Version] = 1) 
+			OR Concept IN ('hba1c', 'cholesterol') AND [Version] = 2 ))
+
+	AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
+	AND [Value] IS NOT NULL AND [Value] != '0' AND UPPER([Value]) NOT LIKE '%[A-Z]%'  -- CHECKS IN CASE ANY ZERO, NULL OR TEXT VALUES REMAINED
 
 
 -- WHERE CODES EXIST IN BOTH VERSIONS OF THE CODE SET (OR IN OTHER SIMILAR CODE SETS), THERE WILL BE DUPLICATES, SO EXCLUDE THEM FROM THE SETS/VERSIONS THAT WE DON'T WANT 
