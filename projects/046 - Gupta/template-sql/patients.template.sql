@@ -47,7 +47,7 @@ IF OBJECT_ID('tempdb..#DiabetesT1Patients') IS NOT NULL DROP TABLE #DiabetesT1Pa
 SELECT 
 	FK_Patient_Link_ID,
 	SuppliedCode,
-	EventDate
+	CAST(EventDate) AS EventDate
 INTO #DiabetesT1Patients
 FROM [RLS].[vw_GP_Events]
 WHERE (
@@ -70,7 +70,7 @@ IF OBJECT_ID('tempdb..#DiabetesT2Patients') IS NOT NULL DROP TABLE #DiabetesT2Pa
 SELECT 
 	FK_Patient_Link_ID,
 	SuppliedCode,
-	EventDate
+	CAST(EventDate) AS EventDate
 INTO #DiabetesT2Patients
 FROM [RLS].[vw_GP_Events]
 WHERE (
