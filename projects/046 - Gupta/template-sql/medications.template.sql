@@ -2,8 +2,9 @@
 --│ Patients with diabetes and covid	     │
 --└──────────────────────────────────────────────┘
 
-------------- RDE CHECK -----------------
------------------------------------------	
+---- RESEARCH DATA ENGINEER CHECK ----
+-- 1st July 2022 - Richard Williams --
+--------------------------------------
 
 -- OUTPUT: Data with the following fields
 -- - PatientID

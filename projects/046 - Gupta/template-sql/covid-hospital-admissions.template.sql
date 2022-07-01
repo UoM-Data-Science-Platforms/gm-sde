@@ -2,7 +2,9 @@
 --│ Hospital stay information for multimorbidity cohort        │
 --└────────────────────────────────────────────────────────────┘
 
------------- RESEARCH DATA ENGINEER CHECK ------------
+---- RESEARCH DATA ENGINEER CHECK ----
+-- 1st July 2022 - Richard Williams --
+--------------------------------------
 
 -- OUTPUT: Data with the following fields
 -- Patient Id
