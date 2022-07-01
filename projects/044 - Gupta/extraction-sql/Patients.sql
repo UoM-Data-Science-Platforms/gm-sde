@@ -2,8 +2,9 @@
 --│ Patients with multimorbidity and covid	     │
 --└──────────────────────────────────────────────┘
 
-------------- RDE CHECK -----------------
------------------------------------------	
+---- RESEARCH DATA ENGINEER CHECK ----
+-- 1st July 2022 - Richard Williams --
+--------------------------------------
 
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
@@ -2215,7 +2216,7 @@ IF OBJECT_ID('tempdb..#most_recent_date_before_covid') IS NOT NULL DROP TABLE #m
 SELECT o.FK_Patient_Link_ID, Concept, MAX(EventDate) as MostRecentDate
 INTO #most_recent_date_before_covid
 FROM #all_observations o
-LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cv ON CV.FK_Patient_Link_ID = o.FK_Patient_Link_ID
+LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cv ON cv.FK_Patient_Link_ID = o.FK_Patient_Link_ID
 WHERE EventDate < cv.FirstCovidPositiveDate
 GROUP BY o.FK_Patient_Link_ID, Concept
 
@@ -2223,7 +2224,7 @@ IF OBJECT_ID('tempdb..#most_recent_date_after_covid') IS NOT NULL DROP TABLE #mo
 SELECT o.FK_Patient_Link_ID, Concept, MIN(EventDate) as MostRecentDate
 INTO #most_recent_date_after_covid
 FROM #all_observations o
-LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cv ON CV.FK_Patient_Link_ID = o.FK_Patient_Link_ID
+LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cv ON cv.FK_Patient_Link_ID = o.FK_Patient_Link_ID
 WHERE EventDate >= cv.FirstCovidPositiveDate
 GROUP BY o.FK_Patient_Link_ID, Concept
 
@@ -2433,7 +2434,7 @@ LEFT OUTER JOIN #PatientBMI bmi ON bmi.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDVaccinations vac ON vac.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cv ON CV.FK_Patient_Link_ID = P.FK_Patient_Link_ID
+LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cv ON cv.FK_Patient_Link_ID = P.FK_Patient_Link_ID
 LEFT OUTER JOIN #HistoryOfLTCs ltc on ltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #NewLTCs nltc on nltc.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #observations_wide obs on obs.FK_Patient_Link_ID = p.FK_Patient_Link_ID
