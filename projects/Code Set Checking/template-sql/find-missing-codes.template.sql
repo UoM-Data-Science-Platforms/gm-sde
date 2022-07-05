@@ -23,7 +23,6 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
---> CODESET aatest:1
 --> CODESET insert-concepts-here:version-number
 
 --TODO doing stuff with CTV3 and Term codes - perhaps need to allow the CTV3 codes in 
