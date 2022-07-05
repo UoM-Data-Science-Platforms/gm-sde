@@ -1,0 +1,36 @@
+^ESCT1186119	Allerief 2mg/5ml oral solution (Crescent Pharma Ltd)
+^ESCT1216075	Chlorphenamine 10mg/1ml solution for injection ampoules
+^ESCT1264212	Chlorphenamine 2mg/5ml oral solution
+^ESCT1264213	Chlorphenamine 2mg/5ml oral solution sugar free
+^ESCT1409473	Piriton 2mg/5ml syrup (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1409595	Piriton 4mg tablets (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1410447	Contac 400 modified-release capsules (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1410448	Contac 400 modified-release capsules (GlaxoSmithKline Consumer Healthcare UK Ltd) 6 capsule
+^ESCT1410449	Contac 400 modified-release capsules (GlaxoSmithKline Consumer Healthcare UK Ltd) 12 capsule
+^ESCT1410450	Contac 400 modified-release capsules (GlaxoSmithKline Consumer Healthcare UK Ltd) 24 capsule
+^ESCT1424925	Chlorphenamine 4mg tablets
+^ESCTAL901871	Allerief 2mg/5ml oral solution (Orbis Consumer Products Ltd)
+^ESCTCO874072	Contac 400 modified-release capsules (GlaxoSmithKline Consumer Healthcare)
+^ESCTCO874073	Contac 400 modified-release capsules (GlaxoSmithKline Consumer Healthcare) 6 capsule
+^ESCTCO874074	Contac 400 modified-release capsules (GlaxoSmithKline Consumer Healthcare) 12 capsule
+^ESCTCO874075	Contac 400 modified-release capsules (GlaxoSmithKline Consumer Healthcare) 24 capsule
+^ESCTPH874069	Phenylpropanolamine 50mg / Chlorphenamine 4mg modified-release capsules 6 capsule
+^ESCTPH874070	Phenylpropanolamine 50mg / Chlorphenamine 4mg modified-release capsules 12 capsule
+^ESCTPH874071	Phenylpropanolamine 50mg / Chlorphenamine 4mg modified-release capsules 24 capsule
+^ESCTPH874105	Phenylpropanolamine 50mg / Chlorphenamine 4mg modified-release capsules
+^ESCTPI801414	Piriton 2mg/5ml syrup (GlaxoSmithKline Consumer Healthcare)
+^ESCTPI812120	Piriton 4mg tablets (GlaxoSmithKline Consumer Healthcare)
+ALOR13557NEMIS	Allerief  Oral Solution, Sugar Free  2 mg/5 ml
+ALTA3158	Alunex  Tablets  4 mg
+CHIN17590NEMIS	Chlorphenamine  Injection  10 mg/ml, 1 ml ampoule
+CHIN579	Chlorpheniramine Maleate  Injection  10 mg/ml, 1 ml ampoule
+CHOR13400NEMIS	Chlorpheniramine Maleate  Oral Solution, Sugar Free  2 mg/5 ml
+CHOR17591NEMIS	Chlorphenamine  Oral solution  2 mg/5 ml
+CHOR17592NEMIS	Chlorphenamine  Oral Solution, Sugar Free  2 mg/5 ml
+CHSY581	Chlorpheniramine Maleate  Syrup  2 mg/5 ml
+CHTA17593NEMIS	Chlorphenamine  Tablets  4 mg
+CHTA582	Chlorpheniramine Maleate  Tablets  4 mg
+PIIN2275	Piriton  Injection  10 mg/ml
+PIIN4484NEMIS	Piriject  Injection  10 mg/ml, 1 ml ampoule
+PISY2277	Piriton  Syrup  2 mg/5 ml
+PITA2278	Piriton  Tablets  4 mg
