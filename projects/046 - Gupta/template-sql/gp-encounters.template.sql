@@ -2,8 +2,9 @@
 --│ Dates of GP Encounters for diabetes cohort              │
 --└─────────────────────────────────────────────────────────┘
 
------------- RESEARCH DATA ENGINEER CHECK ------------
-------------------------------------------------------
+---- RESEARCH DATA ENGINEER CHECK ----
+-- 1st July 2022 - Richard Williams --
+--------------------------------------
 
 -- OUTPUT: Data with the following fields
 -- Patient Id
@@ -35,6 +36,7 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
 
 
+
 ------------------------------------ CREATE COHORT -------------------------------------
 	-- REGISTERED WITH A GM GP
 	-- OVER  18
@@ -42,6 +44,9 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
 --> EXECUTE query-patient-year-of-birth.sql
 
+--> CODESET diabetes-type-i:1 diabetes-type-ii:1
+
+-- FIND ALL DIAGNOSES OF TYPE 1 DIABETES
 
 IF OBJECT_ID('tempdb..#DiabetesT1Patients') IS NOT NULL DROP TABLE #DiabetesT1Patients;
 SELECT 
@@ -56,9 +61,7 @@ WHERE (
 	)
 	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 
-SELECT FK_Patient_Link_ID, MIN(EventDate) AS MinDate
-INTO #T1Min
-FROM #DiabetesT2Patients
+-- FIND ALL DIAGNOSES OF TYPE 2 DIABETES
 
 IF OBJECT_ID('tempdb..#DiabetesT2Patients') IS NOT NULL DROP TABLE #DiabetesT2Patients;
 SELECT 
@@ -73,25 +76,16 @@ WHERE (
 	)
 	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 
-SELECT FK_Patient_Link_ID, MIN(EventDate) AS MinDate
-INTO #T2Min
-FROM #DiabetesT2Patients
-
+-- CREATE COHORT OF DIABETES PATIENTS
 
 IF OBJECT_ID('tempdb..#Cohort') IS NOT NULL DROP TABLE #Cohort;
 SELECT p.FK_Patient_Link_ID, 
 	EthnicMainGroup,
 	DeathDate,
-	yob.YearOfBirth,
-	DiabetesT1 = CASE WHEN t1.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END,
-	DiabetesT1_EarliestDiagnosis = CASE WHEN t1.FK_Patient_Link_ID IS NOT NULL THEN MinDate ELSE NULL END,
-	DiabetesT2 = CASE WHEN t2.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END,
-	DiabetesT2_EarliestDiagnosis = CASE WHEN t2.FK_Patient_Link_ID IS NOT NULL THEN MinDate ELSE NULL END
+	yob.YearOfBirth
 INTO #Cohort
 FROM #Patients p
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #T1Min t1 ON t1.FK_Patient_Link_ID = c.FK_Patient_Link_ID 
-LEFT OUTER JOIN #T2Min t2 ON t2.FK_Patient_Link_ID = c.FK_Patient_Link_ID
 WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 	AND (
 		p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #DiabetesT1Patients)  OR			 -- Diabetes T1 diagnosis
@@ -125,16 +119,6 @@ AND (
 	or MainCode like '9H9%'
 );
 
--- INSERT INTO #CodingClassifier
--- SELECT 'A+E', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
--- FROM SharedCare.Reference_Coding
--- WHERE CodingType='ReadCodeV2'
--- AND (
--- 	MainCode like '8H2%'
--- 	or MainCode like '8H[1-3]%'
--- 	or MainCode in ('9N19.','8HJA.','8HC..','8Hu..','8HC1.','ZL91.','9b00.','9b8D.','9b61.','8Hd1.','ZLD2100','8HE8.','8HJ..','8HJJ.','ZLE1.','ZL51.')
--- );
-
 INSERT INTO #CodingClassifier
 SELECT 'Telephone', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
 FROM SharedCare.Reference_Coding
@@ -145,33 +129,16 @@ AND (
 	or MainCode like '9N3A%'
 );
 
--- INSERT INTO #CodingClassifier
--- SELECT 'Hospital', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
--- FROM SharedCare.Reference_Coding
--- WHERE CodingType='ReadCodeV2'
--- AND (
--- 	MainCode like '7%'
--- 	or MainCode like '8H[1-3]%'
--- 	or MainCode like '9N%' 
--- );
-
 -- Add the equivalent CTV3 codes
 INSERT INTO #CodingClassifier
 SELECT 'Face2face', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
 WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Face2face' AND FK_Reference_SnomedCT_ID != -1)
 AND CodingType='CTV3';
--- INSERT INTO #CodingClassifier
--- SELECT 'A+E', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
--- WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='A+E' AND FK_Reference_SnomedCT_ID != -1)
--- AND CodingType='CTV3';
+
 INSERT INTO #CodingClassifier
 SELECT 'Telephone', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
 WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Telephone' AND FK_Reference_SnomedCT_ID != -1)
 AND CodingType='CTV3';
--- INSERT INTO #CodingClassifier
--- SELECT 'Hospital', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
--- WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Hospital' AND FK_Reference_SnomedCT_ID != -1)
--- AND CodingType='CTV3';
 
 -- Add the equivalent EMIS codes
 INSERT INTO #CodingClassifier
@@ -180,77 +147,21 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Face2face' AND FK_Reference_SnomedCT_ID != -1) OR
 	FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE EncounterType='Face2face' AND PK_Reference_Coding_ID != -1)
 );
--- INSERT INTO #CodingClassifier
--- SELECT 'A+E', FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Local_Code
--- WHERE (
--- 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='A+E' AND FK_Reference_SnomedCT_ID != -1) OR
--- 	FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE EncounterType='A+E' AND PK_Reference_Coding_ID != -1)
--- );
 INSERT INTO #CodingClassifier
 SELECT 'Telephone', FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Local_Code
 WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Telephone' AND FK_Reference_SnomedCT_ID != -1) OR
 	FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE EncounterType='Telephone' AND PK_Reference_Coding_ID != -1)
 );
--- INSERT INTO #CodingClassifier
--- SELECT 'Hospital', FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Local_Code
--- WHERE (
--- 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Hospital' AND FK_Reference_SnomedCT_ID != -1) OR
--- 	FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE EncounterType='Hospital' AND PK_Reference_Coding_ID != -1)
--- );
 
 -- All above takes ~30s
-
--- Below is split up, because doing it without the date filter led to 
--- an out of memory exception.
 
 SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EncounterDate
 INTO #Encounters
 FROM RLS.vw_GP_Events
-WHERE FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier)
+WHERE FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE PK_Reference_Coding_ID != -1)
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
-AND EventDate >= '2018-01-01'
-AND EventDate < '2022-05-01';
--- 26,573,504 records, 6m26
-
--- INSERT INTO #Encounters
--- SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EntryDate
--- FROM RLS.vw_GP_Events
--- WHERE FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier)
--- AND EventDate >= '2019-01-01'
--- AND EventDate < '2020-01-01';
--- -- 26,573,504 records, 6m26
-
--- INSERT INTO #Encounters
--- SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EntryDate
--- FROM RLS.vw_GP_Events
--- WHERE FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier)
--- AND EventDate >= '2020-01-01'
--- AND EventDate < '2021-01-01';
--- -- 21,971,922 records, 5m28
-
--- INSERT INTO #Encounters
--- SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EntryDate
--- FROM RLS.vw_GP_Events
--- WHERE FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier)
--- AND EventDate >= '2021-01-01'
--- AND EventDate < '2022-01-01';
--- -- 25,879,476 records, 5m23
-
--- INSERT INTO #Encounters
--- SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EntryDate
--- FROM RLS.vw_GP_Events
--- WHERE FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier)
--- AND EventDate >= '2022-01-01'
--- AND EventDate < '2022-05-01';
--- --5,488,868 records, 18m 54
-
--- IF OBJECT_ID('tempdb..#GPEncounter') IS NOT NULL DROP TABLE #GPEncounter;
--- SELECT DISTINCT FK_Patient_Link_ID, EntryDate AS EncounterDate
--- INTO #GPEncounter
--- FROM #Encounters
-
-
+AND EventDate BETWEEN @StartDate AND @EndDate;
 
 ------------ FIND ALL GP ENCOUNTERS FOR COHORT
 SELECT *

@@ -1,0 +1,54 @@
+n42..	BCG VACCINES
+n45B.	BOOSTRIX-IPV suspension for injection prefill syringe 0.5mL
+n45n.	REVAXIS suspension for injection 0.5mL prefilled syringe
+n45p.	INFANRIX IPV suspension for injection 0.5mL prefilled syringe
+n45q.	REPEVAX suspension for injection 0.5mL prefilled syringe
+n45s.	PEDIACEL suspension for injection 0.5mL vial
+n463.	ENGERIX B 20micrograms/1mL injection 1mL
+n466.	HEPATITIS B VACCINE 20micrograms/1mL injection 1mL
+n467.	ENGERIX B VACCINE 20micrograms/1mL adult prefilled syringe
+n468.	HEPATITIS B VACCINE 20micrograms/1mL adult prefilled syringe
+n46A.	HEPATITIS B VACCINE 10micrograms/1mL injection
+n46F.	HEPATITIS B VACCINE 40micrograms/1mL injection
+n46M.	HEPATITIS B VACCINE 10micrograms/0.5mL paediatric prefilled syringe
+n46N.	ENGERIX B VACCINE 10micrograms/0.5mL paediatric prefilled syringe
+n47..	INFLUENZA VACCINES
+n471.	FLUVIRIN prefilled syringe 0.5mL
+n477.	INACTIVATED INFLUENZA VACCINE injection 0.5mL
+n47D.	*FLUENZ nasal suspension 0.2mL
+n47E.	INFLUENZA VACCINE (LIVE ATTENUATED) nasal suspension 0.2mL
+n47f.	AGRIPPAL VACCINE prefilled syringe 0.5mL
+n47g.	INACTIVATED INFLUENZA VACCINE (SPLIT VIRION) prefilled syringe 0.5mL
+n47H.	FLUARIX TETRA suspension for injection prefill syringe 0.5mL
+n47I.	FLUENZ TETRA nasal spray suspension 0.2mL
+n47m.	ENZIRA prefilled syringe 0.5mL
+n47o.	IMUVAC prefilled syringe 0.5mL
+n47p.	INTANZA 15micrograms/strain susp for inj pfs 0.1mL
+n47q.	INACT INFLUENZA VACC (SPLIT VIRION) 15mcg/strain pfs 0.1mL
+n4b2.	*PNEUMOVAX II injection 0.5mL
+n4b7.	PREVENAR 13 vaccine prefilled syringe 0.5mL
+n4d3.	RABIPUR VACCINE injection (pdr for recon)+diluent
+n4h2.	TYPHIM VI VACCINE 25microgram/0.5mL prefilled syringe
+n4h6.	TYPHERIX 25micrograms/0.5mL prefilled syringe
+n4j5.	STAMARIL vaccine injection powder for reconstitution plus diluent
+n4k6.	M-M-RVAXPRO powder and solvent for suspension for injection 0.5mL
+n4l3.	MENGIVAC (A+C) injection 1 dose
+n4l4.	*MENINGITEC VACCINE injection
+n4l6.	NEISVAC-C VACCINE prefilled syringe
+n4l9.	MENVEO GROUP A+C+W135+Y conjugate vaccine injection
+n4lA.	NIMENRIX powder and solvent for solution for injection
+n4lB.	BEXSERO vaccine susp for injection prefilled syringe 0.5mL
+n4m3.	HAVRIX MONODOSE VACCINE prefilled syringe
+n4m5.	AVAXIM VACCINE prefilled syringe 0.5mL
+n4u2.	HEPATYRIX VACCINE prefilled syringe
+n4u4.	VIATIM VACCINE prefilled syringe
+n4v4.	ZOSTAVAX pdr+solvent for suspension for injection pfs 0.65mL
+n4w4.	ROTARIX vaccine oral suspension prefilled syringe 1.5mL
+n4x1.	MENITORIX vaccine inject (pdr for recon)+solvent
+n4z1.	GARDASIL VACCINE 0.5mL prefilled syringe
+n4z2.	CERVARIX 0.5mL prefilled syringe
+n51..	NORMAL IMMUNOGLOBULIN
+n51z.	OCTAGAM 2.5g/50mL intravenous infusion
+n55..	NORMAL IMMUNOGLOBULIN(2)
+n56A.	PRIVIGEN 10g/100mL solution for infusion
+n56B.	PRIVIGEN 20g/200mL solution for infusion
