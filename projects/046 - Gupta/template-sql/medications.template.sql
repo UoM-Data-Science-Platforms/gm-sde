@@ -1,15 +1,16 @@
 --┌──────────────────────────────────────────────┐
---│ Patients with multimorbidity and covid	     │
+--│ Patients with diabetes and covid	     │
 --└──────────────────────────────────────────────┘
 
-------------- RDE CHECK -----------------
------------------------------------------	
+---- RESEARCH DATA ENGINEER CHECK ----
+-- 1st July 2022 - Richard Williams --
+--------------------------------------
 
 -- OUTPUT: Data with the following fields
 -- - PatientID
 -- - Year
 -- - Month
--- - NumberOfPrescriptions_BNFChap1 .. 20
+-- - NumberOfPrescriptions_BNFChap1 .. 15
 
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
@@ -34,35 +35,6 @@ IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
--- Set the date variables for the LTC code
-
-DECLARE @IndexDate datetime;
-DECLARE @MinDate datetime;
-SET @IndexDate = '2022-05-01';
-SET @MinDate = '1900-01-01';
-
---> EXECUTE query-patient-ltcs-date-range.sql 
---> EXECUTE query-patient-ltcs-number-of.sql
-
--- FIND ALL PATIENTS WITH A MENTAL CONDITION
-
-IF OBJECT_ID('tempdb..#PatientsWithMentalCondition') IS NOT NULL DROP TABLE #PatientsWithMentalCondition;
-SELECT DISTINCT FK_Patient_Link_ID 
-INTO #PatientsWithMentalCondition
-FROM #PatientsWithLTCs
-WHERE LTC IN ('Anorexia Or Bulimia', 'Anxiety And Other Somatoform Disorders', 'Dementia', 'Depression', 'Schizophrenia Or Bipolar')
-	AND FirstDate < '2020-03-01'
---872,174
-
--- FIND ALL PATIENTS WITH 2 OR MORE CONDITIONS, INCLUDING A MENTAL CONDITION
-
-IF OBJECT_ID('tempdb..#2orMoreLTCsIncludingMental') IS NOT NULL DROP TABLE #2orMoreLTCsIncludingMental;
-SELECT DISTINCT FK_Patient_Link_ID
-INTO #2orMoreLTCsIncludingMental
-FROM #NumLTCs 
-WHERE NumberOfLTCs = 2
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsWithMentalCondition)
---677,226
 
 ------------------------------------ CREATE COHORT -------------------------------------
 	-- REGISTERED WITH A GM GP
@@ -70,6 +42,10 @@ AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsWithMentalCon
 	-- DIABETES DIAGNOSIS
 
 --> EXECUTE query-patient-year-of-birth.sql
+
+--> CODESET diabetes-type-i:1 diabetes-type-ii:1
+
+-- FIND ALL DIAGNOSES OF TYPE 1 DIABETES
 
 IF OBJECT_ID('tempdb..#DiabetesT1Patients') IS NOT NULL DROP TABLE #DiabetesT1Patients;
 SELECT 
@@ -84,9 +60,7 @@ WHERE (
 	)
 	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 
-SELECT FK_Patient_Link_ID, MIN(EventDate) AS MinDate
-INTO #T1Min
-FROM #DiabetesT2Patients
+-- FIND ALL DIAGNOSES OF TYPE 2 DIABETES
 
 IF OBJECT_ID('tempdb..#DiabetesT2Patients') IS NOT NULL DROP TABLE #DiabetesT2Patients;
 SELECT 
@@ -101,25 +75,16 @@ WHERE (
 	)
 	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 
-SELECT FK_Patient_Link_ID, MIN(EventDate) AS MinDate
-INTO #T2Min
-FROM #DiabetesT2Patients
-
+-- CREATE COHORT OF DIABETES PATIENTS
 
 IF OBJECT_ID('tempdb..#Cohort') IS NOT NULL DROP TABLE #Cohort;
 SELECT p.FK_Patient_Link_ID, 
 	EthnicMainGroup,
 	DeathDate,
-	yob.YearOfBirth,
-	DiabetesT1 = CASE WHEN t1.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END,
-	DiabetesT1_EarliestDiagnosis = CASE WHEN t1.FK_Patient_Link_ID IS NOT NULL THEN MinDate ELSE NULL END,
-	DiabetesT2 = CASE WHEN t2.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END,
-	DiabetesT2_EarliestDiagnosis = CASE WHEN t2.FK_Patient_Link_ID IS NOT NULL THEN MinDate ELSE NULL END
+	yob.YearOfBirth
 INTO #Cohort
 FROM #Patients p
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #T1Min t1 ON t1.FK_Patient_Link_ID = c.FK_Patient_Link_ID 
-LEFT OUTER JOIN #T2Min t2 ON t2.FK_Patient_Link_ID = c.FK_Patient_Link_ID
 WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 	AND (
 		p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #DiabetesT1Patients)  OR			 -- Diabetes T1 diagnosis
@@ -128,6 +93,21 @@ WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 
 ----------------------------------------------------------------------------------------
 
+-- TABLE OF GP MEDICATIONS FOR COHORT TO SPEED UP REUSABLE QUERIES
+
+IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID
+INTO #PatientMedicationData
+FROM [RLS].vw_GP_Medications
+WHERE 
+	UPPER(SourceTable) NOT LIKE '%REPMED%'  -- exclude duplicate prescriptions 
+	AND RepeatMedicationFlag = 'N' 			-- exclude duplicate prescriptions 
+	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
 
 -- LOAD ALL MEDICATIONS CODE SETS NEEDED
 
@@ -135,13 +115,10 @@ WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 --> CODESET bnf-obstetrics-gynaecology-meds:1 bnf-malignant-disease-immunosuppression-meds:1 bnf-nutrition-bloods-meds:1 bnf-muskuloskeletal-joint-meds:1
 --> CODESET bnf-eye-meds:1 bnf-ear-nose-throat-meds:1 bnf-skin-meds:1 bnf-immunological-meds:1 bnf-anaesthesia-meds:1
 
--- FIX ISSUE WITH DUPLICATE MEDICATIONS, CAUSED BY SOME CODES APPEARING MULTIPLE TIMES IN #VersionedCodeSets and #VersionedSnomedSets
+-- FIX ISSUE WITH DUPLICATE MEDICATIONS, CAUSED BY SOME CODES APPEARING MULTIPLE TIMES IN #AllCodes
 
-IF OBJECT_ID('tempdb..#VersionedCodeSets_1') IS NOT NULL DROP TABLE #VersionedCodeSets_1;
-SELECT DISTINCT FK_Reference_Coding_ID, Concept, [Version] INTO #VersionedCodeSets_1 FROM #VersionedCodeSets
-
-IF OBJECT_ID('tempdb..#VersionedSnomedSets_1') IS NOT NULL DROP TABLE #VersionedSnomedSets_1;
-SELECT DISTINCT FK_Reference_SnomedCT_ID, Concept, [Version] INTO #VersionedSnomedSets_1 FROM #VersionedSnomedSets
+IF OBJECT_ID('tempdb..#AllCodes_1') IS NOT NULL DROP TABLE #AllCodes_1;
+SELECT DISTINCT FK_Reference_SnomedCT_ID, Concept, [Version] INTO #AllCodes_1 FROM #AllCodes
 
 -- RETRIEVE ALL RELEVANT PRESCRPTIONS FOR THE COHORT
 
@@ -151,18 +128,12 @@ SELECT
 		CAST(MedicationDate AS DATE) as PrescriptionDate,
 		Concept = CASE WHEN c.Concept IS NOT NULL THEN c.Concept ELSE s.Concept END
 INTO #medications_rx
-FROM RLS.vw_GP_Medications m
+FROM #PatientMedicationData m
 LEFT OUTER JOIN #VersionedSnomedSets_1 s ON s.FK_Reference_SnomedCT_ID = m.FK_Reference_SnomedCT_ID
 LEFT OUTER JOIN #VersionedCodeSets_1 c ON c.FK_Reference_Coding_ID = m.FK_Reference_Coding_ID
 WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 	AND m.MedicationDate BETWEEN @StartDate AND @EndDate
-	AND UPPER(SourceTable) NOT LIKE '%REPMED%'  -- exclude duplicate prescriptions 
-	AND RepeatMedicationFlag = 'N' 				-- exclude duplicate prescriptions 
-	AND (
-		m.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets_1)
-		OR
-		m.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets_1)
-		);
+	AND m.SuppliedCode IN (SELECT [Code] FROM #AllCodes_1) -- using Code due to prevalency discrepancy with IDs
 
 --  FINAL TABLE: NUMBER OF EACH MEDICATION CATEGORY PRESCRIBED EACH MONTH 
 

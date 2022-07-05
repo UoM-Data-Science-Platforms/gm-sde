@@ -2,8 +2,9 @@
 --│ Dates of GP Encounters for diabetes cohort              │
 --└─────────────────────────────────────────────────────────┘
 
------------- RESEARCH DATA ENGINEER CHECK ------------
-------------------------------------------------------
+---- RESEARCH DATA ENGINEER CHECK ----
+-- 1st July 2022 - Richard Williams --
+--------------------------------------
 
 -- OUTPUT: Data with the following fields
 -- Patient Id
@@ -35,6 +36,7 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
 
 
+
 ------------------------------------ CREATE COHORT -------------------------------------
 	-- REGISTERED WITH A GM GP
 	-- OVER  18
@@ -42,6 +44,9 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
 --> EXECUTE query-patient-year-of-birth.sql
 
+--> CODESET diabetes-type-i:1 diabetes-type-ii:1
+
+-- FIND ALL DIAGNOSES OF TYPE 1 DIABETES
 
 IF OBJECT_ID('tempdb..#DiabetesT1Patients') IS NOT NULL DROP TABLE #DiabetesT1Patients;
 SELECT 
@@ -56,9 +61,7 @@ WHERE (
 	)
 	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 
-SELECT FK_Patient_Link_ID, MIN(EventDate) AS MinDate
-INTO #T1Min
-FROM #DiabetesT2Patients
+-- FIND ALL DIAGNOSES OF TYPE 2 DIABETES
 
 IF OBJECT_ID('tempdb..#DiabetesT2Patients') IS NOT NULL DROP TABLE #DiabetesT2Patients;
 SELECT 
@@ -73,25 +76,16 @@ WHERE (
 	)
 	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 
-SELECT FK_Patient_Link_ID, MIN(EventDate) AS MinDate
-INTO #T2Min
-FROM #DiabetesT2Patients
-
+-- CREATE COHORT OF DIABETES PATIENTS
 
 IF OBJECT_ID('tempdb..#Cohort') IS NOT NULL DROP TABLE #Cohort;
 SELECT p.FK_Patient_Link_ID, 
 	EthnicMainGroup,
 	DeathDate,
-	yob.YearOfBirth,
-	DiabetesT1 = CASE WHEN t1.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END,
-	DiabetesT1_EarliestDiagnosis = CASE WHEN t1.FK_Patient_Link_ID IS NOT NULL THEN MinDate ELSE NULL END,
-	DiabetesT2 = CASE WHEN t2.FK_Patient_Link_ID IS NOT NULL THEN 1 ELSE 0 END,
-	DiabetesT2_EarliestDiagnosis = CASE WHEN t2.FK_Patient_Link_ID IS NOT NULL THEN MinDate ELSE NULL END
+	yob.YearOfBirth
 INTO #Cohort
 FROM #Patients p
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #T1Min t1 ON t1.FK_Patient_Link_ID = c.FK_Patient_Link_ID 
-LEFT OUTER JOIN #T2Min t2 ON t2.FK_Patient_Link_ID = c.FK_Patient_Link_ID
 WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 	AND (
 		p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #DiabetesT1Patients)  OR			 -- Diabetes T1 diagnosis
@@ -165,10 +159,9 @@ WHERE (
 SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EncounterDate
 INTO #Encounters
 FROM RLS.vw_GP_Events
-WHERE FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier)
+WHERE FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE PK_Reference_Coding_ID != -1)
 AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 AND EventDate BETWEEN @StartDate AND @EndDate;
-
 
 ------------ FIND ALL GP ENCOUNTERS FOR COHORT
 SELECT *
