@@ -1,0 +1,22 @@
+19525211000001103	Linagliptin 5mg tablets
+19492711000001100	Linagliptin 5mg tablets
+36893511000001102	Linagliptin 5mg tablets
+19492811000001108	Trajenta 5mg tablets
+19492911000001103	Trajenta 5mg tablets
+21245111000001107	Linagliptin 2.5mg / Metformin 850mg tablets
+21208111000001106	Linagliptin 2.5mg / Metformin 850mg tablets
+21208211000001100	Jentadueto 2.5mg/850mg tablets
+21208311000001108	Jentadueto 2.5mg/850mg tablets
+21245011000001106	Linagliptin 2.5mg / Metformin 1g tablets
+21208411000001101	Linagliptin 2.5mg / Metformin 1g tablets
+37747711000001106	Linagliptin 2.5mg / Metformin 1g tablets
+21208511000001102	Jentadueto 2.5mg/1000mg tablets
+21208611000001103	Jentadueto 2.5mg/1000mg tablets
+37280311000001109	Empagliflozin 10mg / Linagliptin 5mg tablets
+37225111000001106	Empagliflozin 10mg / Linagliptin 5mg tablets
+37225211000001100	Glyxambi 10mg/5mg tablets
+37225311000001108	Glyxambi 10mg/5mg tablets
+37280511000001103	Empagliflozin 25mg / Linagliptin 5mg tablets
+37225411000001101	Empagliflozin 25mg / Linagliptin 5mg tablets
+37225511000001102	Glyxambi 25mg/5mg tablets
+37225611000001103	Glyxambi 25mg/5mg tablets

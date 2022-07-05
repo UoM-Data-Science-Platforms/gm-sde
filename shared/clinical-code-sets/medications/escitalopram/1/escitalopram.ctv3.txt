@@ -1,0 +1,10 @@
+daC1.	Escitalopram 10mg tablet
+daC2.	Cipralex 10mg tablet
+daC3.	Escitalopram 20mg tablet
+daC4.	Cipralex 20mg tablet
+daC5.	Escitalopram 5mg tablet
+daC6.	Cipralex 5mg tablet
+daC7.	ESCITALOPRAM 10mg/mL oral drops
+daC8.	CIPRALEX 10mg/mL oral drops
+daC9.	CIPRALEX 20mg/mL oral drops
+daCA.	ESCITALOPRAM 20mg/mL oral drops

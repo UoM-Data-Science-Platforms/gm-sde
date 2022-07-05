@@ -1,0 +1,6 @@
+fta1.	GALVUS 50mg tablets
+ftaZ.	VILDAGLIPTIN 50mg tablets
+ftb1.	EUCREAS 50mg/850mg tablets
+ftb2.	EUCREAS 50mg/1000mg tablets
+ftby.	VILDAGLIPTIN/METFORMIN 50mg/1000mg tablets
+ftbz.	VILDAGLIPTIN/METFORMIN 50mg/850mg tablets

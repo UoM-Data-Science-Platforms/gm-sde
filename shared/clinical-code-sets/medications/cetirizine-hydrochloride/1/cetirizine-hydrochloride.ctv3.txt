@@ -1,0 +1,8 @@
+c8n1.	Cetirizine dihydrochloride 10mg tablet
+c8n2.	Zirtek 10mg tablet
+c8n2.	Zirtek Allergy 10mg tablet
+c8n3.	Cetirizine dihydrochloride 1mg/1mL s/f liquid
+c8n3.	Cetirizine dihydrochloride 1mg/1mL s/f oral solution
+c8n5.	Cetirocol 10mg tablet
+c8nE.	Benadryl Allergy 1mg/mL s/f oral solution
+c8nH.	Piriteze Allergy Syrup 1mg/1mL s/f oral solution

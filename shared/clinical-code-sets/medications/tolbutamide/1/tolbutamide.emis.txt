@@ -1,0 +1,66 @@
+^ESCT1182161	Product containing only tolbutamide 500 mg/1 each oral tablet
+^ESCT1189531	Tolbutamide 500mg tablets (Mylan)
+^ESCT1189532	Tolbutamide 500mg tablets (Mylan) 500 tablet
+^ESCT1224623	Product containing precisely tolbutamide 500 milligram/1 each conventional release oral tablet
+^ESCT1425541	Tolbutamide 500mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426349	Tolbutamide 500mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426694	Tolbutamide 500mg tablets (Kent Pharma (UK) Ltd) 500 tablet
+^ESCT1429624	Tolbutamide 500mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429625	Tolbutamide 500mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCTPR612468	Product containing tolbutamide 500 mg/1 each oral tablet
+^ESCTTO1004989	Tolbutamide 500mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTTO1004992	Tolbutamide 500mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTTO1026386	Tolbutamide 250mg/5ml oral suspension 100 ml
+^ESCTTO1026387	Tolbutamide 250mg/5ml oral suspension (Special Order) 100 ml
+^ESCTTO1042411	Tolbutamide 500mg tablets (Waymade Healthcare Plc)
+^ESCTTO1042412	Tolbutamide 500mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTTO1091258	Tolbutamide 500mg tablets 112 tablet
+^ESCTTO1091259	Tolbutamide 500mg tablets (A A H Pharmaceuticals Ltd) 112 tablet 8 x 14 tablets
+^ESCTTO1091924	Tolbutamide 500mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTTO1091925	Tolbutamide 500mg tablets (Genesis Pharmaceuticals Ltd) 112 tablet
+^ESCTTO1092152	Tolbutamide 500mg tablets (Alliance Healthcare (Distribution) Ltd) 112 tablet
+^ESCTTO1116223	Tolbutamide 500mg tablets (Actavis UK Ltd) 112 tablet 8 x 14 tablets
+^ESCTTO1119816	Tolbutamide 500mg tablets (DE Pharmaceuticals)
+^ESCTTO1119817	Tolbutamide 500mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTTO1119818	Tolbutamide 500mg tablets (DE Pharmaceuticals) 112 tablet
+^ESCTTO1152569	Tolbutamide 500mg tablets (Genesis Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTTO612467	Tolbutamide 500mg tablets
+^ESCTTO612469	Tolbutamide 500 mg oral tablet
+^ESCTTO804670	Tolbutamide 500mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTTO813196	Tolbutamide 500mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTO816884	Tolbutamide 500mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTO820646	Tolbutamide 500mg tablets (Teva UK Ltd)
+^ESCTTO829975	Tolbutamide 500mg tablets (Actavis UK Ltd)
+^ESCTTO844222	Tolbutamide 500mg tablets 28 tablet
+^ESCTTO854248	Tolbutamide 500mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTTO854249	Tolbutamide 500mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTTO854250	Tolbutamide 500mg tablets (Teva UK Ltd) 28 tablet
+^ESCTTO854251	Tolbutamide 500mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTTO854252	Tolbutamide 500mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTTO870146	Tolbutamide 500mg tablets (Mylan Ltd)
+^ESCTTO870153	Tolbutamide 500mg tablets 500 tablet
+^ESCTTO870155	Tolbutamide 500mg tablets (Mylan Ltd) 500 tablet
+^ESCTTO871123	Tolbutamide 500mg tablets (Kent Pharmaceuticals Ltd) 500 tablet
+^ESCTTO908887	Tolbutamide 500mg/5ml oral suspension 1 ml
+^ESCTTO908890	Tolbutamide 500mg/5ml oral suspension (Special Order)
+^ESCTTO908897	Tolbutamide 500mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTO909015	Tolbutamide 500mg/5ml oral suspension
+^ESCTTO923651	Tolbutamide 500mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTTO923652	Tolbutamide 500mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTTO961310	Tolbutamide 1g/5ml oral suspension 1 ml
+^ESCTTO961311	Tolbutamide 1g/5ml oral suspension (Special Order)
+^ESCTTO961312	Tolbutamide 1g/5ml oral suspension (Special Order) 1 ml
+^ESCTTO961315	Tolbutamide 250mg/5ml oral suspension 1 ml
+^ESCTTO961316	Tolbutamide 250mg/5ml oral suspension (Special Order)
+^ESCTTO961317	Tolbutamide 250mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTO961378	Tolbutamide 1g/5ml oral suspension
+^ESCTTO961379	Tolbutamide 250mg/5ml oral suspension
+^ESCTTO999258	Tolbutamide 500mg tablets (Sovereign Medical Ltd)
+^ESCTTO999259	Tolbutamide 500mg tablets (Sovereign Medical Ltd) 28 tablet 2 x 14 tablets
+TOTA2876	Tolbutamide  Tablets  500 mg
+TOTA37262MGEMIS	Tolbutamide  Tablets  500 mg (Kent Pharm)
+TOTA37263MGEMIS	Tolbutamide  Tablets  500 mg (Unichem)
+TOTA37264MGEMIS	Tolbutamide  Tablets  500 mg (A.A.H. Pharm)
+TOTA37265MGEMIS	Tolbutamide  Tablets  500 mg (Teva UK)
+TOTA37266MGEMIS	Tolbutamide  Tablets  500 mg (Alpharma)
+TOTA37267MGEMIS	Tolbutamide  Tablets  500 mg (Generics (UK))

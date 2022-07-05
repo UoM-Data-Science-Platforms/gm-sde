@@ -1,0 +1,319 @@
+^ESCT1175404	Hydrocortisone 10mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1175405	Hydrocortisone 10mg tablets (Genesis Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1175406	Hydrocortisone 20mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1175407	Hydrocortisone 20mg tablets (Genesis Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1176726	Hydrocortisone 10mg tablets (Flynn Pharma Ltd)
+^ESCT1176727	Hydrocortisone 10mg tablets (Flynn Pharma Ltd) 30 tablet 2 x 15 tablets
+^ESCT1176728	Hydrocortisone 20mg tablets (Flynn Pharma Ltd)
+^ESCT1176731	Hydrocortisone 20mg tablets (Flynn Pharma Ltd) 30 tablet 2 x 15 tablets
+^ESCT1179961	Hydrocortisone 20mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1182165	Product containing only hydrocortisone 10 mg/1 each oral tablet
+^ESCT1182166	Product containing only hydrocortisone 20 mg/1 each oral tablet
+^ESCT1213120	Hydrocortisone 5mg granules in capsules for opening 50 capsule
+^ESCT1213124	Alkindi 5mg granules in capsules for opening (Diurnal Ltd)
+^ESCT1213126	Alkindi 5mg granules in capsules for opening (Diurnal Ltd) 50 capsule
+^ESCT1213139	Hydrocortisone 500microgram granules in capsules for opening 50 capsule
+^ESCT1213141	Alkindi 0.5mg granules in capsules for opening (Diurnal Ltd)
+^ESCT1213143	Alkindi 0.5mg granules in capsules for opening (Diurnal Ltd) 50 capsule
+^ESCT1213146	Hydrocortisone 1mg granules in capsules for opening 50 capsule
+^ESCT1213148	Alkindi 1mg granules in capsules for opening (Diurnal Ltd)
+^ESCT1213149	Alkindi 1mg granules in capsules for opening (Diurnal Ltd) 50 capsule
+^ESCT1213150	Hydrocortisone 2mg granules in capsules for opening 50 capsule
+^ESCT1213151	Alkindi 2mg granules in capsules for opening (Diurnal Ltd)
+^ESCT1213153	Alkindi 2mg granules in capsules for opening (Diurnal Ltd) 50 capsule
+^ESCT1213583	Hydrocortisone 1mg granules in capsules for opening
+^ESCT1213584	Hydrocortisone 2mg granules in capsules for opening
+^ESCT1213585	Hydrocortisone 500microgram granules in capsules for opening
+^ESCT1213586	Hydrocortisone 5mg granules in capsules for opening
+^ESCT1224650	Product containing precisely hydrocortisone 10 milligram/1 each conventional release oral tablet
+^ESCT1224651	Product containing precisely hydrocortisone 20 milligram/1 each conventional release oral tablet
+^ESCT1250871	Hydrocortisone 10mg tablets (Advanz Pharma)
+^ESCT1250872	Hydrocortisone 10mg tablets (Advanz Pharma) 30 tablet 3 x 10 tablets
+^ESCT1250898	Hydrocortisone 20mg tablets (Advanz Pharma)
+^ESCT1250899	Hydrocortisone 20mg tablets (Advanz Pharma) 30 tablet 3 x 10 tablets
+^ESCT1254461	Hydrocortisone 10mg tablets (Resolution Chemicals Ltd)
+^ESCT1254462	Hydrocortisone 10mg tablets (Resolution Chemicals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1254463	Hydrocortisone 20mg tablets (Resolution Chemicals Ltd)
+^ESCT1254464	Hydrocortisone 20mg tablets (Resolution Chemicals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1255695	Hydrocortisone 10mg soluble tablets sugar free 30 tablet
+^ESCT1255696	Hydrocortisone 10mg soluble tablets sugar free (Colonis Pharma Ltd)
+^ESCT1255697	Hydrocortisone 10mg soluble tablets sugar free (Colonis Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCT1255772	Hydrocortisone 10mg soluble tablets sugar free
+^ESCT1256074	Hydrocortisone 10mg tablets (Accord Healthcare Ltd)
+^ESCT1256075	Hydrocortisone 10mg tablets (Accord Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1256076	Hydrocortisone 20mg tablets (Accord Healthcare Ltd)
+^ESCT1256077	Hydrocortisone 20mg tablets (Accord Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1260033	Hydventia 20mg tablets (OcXia)
+^ESCT1260034	Hydventia 20mg tablets (OcXia) 30 tablet 3 x 10 tablets
+^ESCT1260035	Hydventia 10mg tablets (OcXia)
+^ESCT1260036	Hydventia 10mg tablets (OcXia) 30 tablet 3 x 10 tablets
+^ESCT1264268	Hydrocortisone 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264270	Hydrocortisone 20mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCT1264603	Hydrocortisone 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264604	Hydrocortisone 10mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCT1267728	Hydrocortisone 10mg soluble tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1267729	Hydrocortisone 10mg soluble tablets sugar free (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1267746	Hydrocortisone 10mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1267747	Hydrocortisone 10mg tablets (NorthStar Healthcare Unlimited Company) 30 tablet
+^ESCT1299640	Hydrocortisone 10mg tablets (Mibe Pharma UK Ltd)
+^ESCT1299641	Hydrocortisone 10mg tablets (Mibe Pharma UK Ltd) 30 tablet
+^ESCT1300280	Hydrocortisone 20mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1300281	Hydrocortisone 20mg tablets (NorthStar Healthcare Unlimited Company) 30 tablet 3 x 10 tablets
+^ESCT1304437	Hydrocortisone 10mg soluble tablets sugar free (Creo Pharma Ltd)
+^ESCT1304438	Hydrocortisone 10mg soluble tablets sugar free (Creo Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCT1376073	Hydrocortisone 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376074	Hydrocortisone 10mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1376075	Hydrocortisone 20mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376076	Hydrocortisone 20mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1376170	Hydrocortisone 10mg soluble tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCT1376171	Hydrocortisone 10mg soluble tablets sugar free (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1427380	Plenadren 5mg modified-release tablets (Takeda UK Ltd)
+^ESCT1427381	Plenadren 5mg modified-release tablets (Takeda UK Ltd) 50 tablet
+^ESCT1427382	Plenadren 20mg modified-release tablets (Takeda UK Ltd)
+^ESCT1427383	Plenadren 20mg modified-release tablets (Takeda UK Ltd) 50 tablet
+^ESCT1427699	Hydrocortisone 20mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427700	Hydrocortisone 20mg tablets (Kent Pharma (UK) Ltd) 30 tablet
+^ESCT1429791	Hydrocortisone 2.5mg tablets 30 tablet
+^ESCT1429793	Hydrocortisone 2.5mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1429796	Hydrocortisone 2.5mg tablets (Genesis Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1429797	Hydrocortisone 5mg tablets 30 tablet
+^ESCT1429798	Hydrocortisone 5mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1429799	Hydrocortisone 5mg tablets (Genesis Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1429800	Hydrocortisone 15mg tablets 30 tablet
+^ESCT1429801	Hydrocortisone 15mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCT1429802	Hydrocortisone 15mg tablets (Genesis Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1429825	Hydrocortisone 15mg tablets
+^ESCT1429826	Hydrocortisone 2.5mg tablets
+^ESCT1429827	Hydrocortisone 5mg tablets
+^ESCTHY1006015	Hydrocortisone 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTHY1006016	Hydrocortisone 10mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTHY1006017	Hydrocortisone 20mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTHY1006018	Hydrocortisone 20mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTHY1006437	Hydrocortisone 10mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTHY1006438	Hydrocortisone 10mg tablets (Almus Pharmaceuticals Ltd) 30 tablet
+^ESCTHY1006439	Hydrocortisone 20mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTHY1006440	Hydrocortisone 20mg tablets (Almus Pharmaceuticals Ltd) 30 tablet
+^ESCTHY1010219	Hydrocortisone 10mg tablets (Teva UK Ltd)
+^ESCTHY1010222	Hydrocortisone 10mg tablets (Teva UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTHY1010239	Hydrocortisone 20mg tablets (Teva UK Ltd)
+^ESCTHY1010240	Hydrocortisone 20mg tablets (Teva UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTHY1028911	Hydrocortisone 1mg capsules 1 capsule
+^ESCTHY1028913	Hydrocortisone 1mg capsules (Special Order)
+^ESCTHY1028915	Hydrocortisone 1mg capsules (Special Order) 1 capsule
+^ESCTHY1029172	Hydrocortisone 1mg capsules
+^ESCTHY1037193	Hydrocortisone 5mg/5ml oral suspension 100 ml
+^ESCTHY1037194	Hydrocortisone 5mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTHY1037888	Hydrocortisone 10mg/5ml oral suspension 100 ml
+^ESCTHY1037889	Hydrocortisone 10mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTHY1038863	Hydrocortisone 5mg modified-release tablets 50 tablet
+^ESCTHY1038866	Hydrocortisone 20mg modified-release tablets 50 tablet
+^ESCTHY1038875	Hydrocortisone 20mg modified-release tablets
+^ESCTHY1038876	Hydrocortisone 5mg modified-release tablets
+^ESCTHY1043904	Hydrocortisone 10mg tablets (Waymade Healthcare Plc)
+^ESCTHY1043905	Hydrocortisone 10mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTHY1043906	Hydrocortisone 20mg tablets (Waymade Healthcare Plc)
+^ESCTHY1043907	Hydrocortisone 20mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTHY1063620	Hydrocortisone 10mg tablets (DE Pharmaceuticals)
+^ESCTHY1063621	Hydrocortisone 10mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTHY1063622	Hydrocortisone 20mg tablets (DE Pharmaceuticals)
+^ESCTHY1063625	Hydrocortisone 20mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTHY1104321	Hydrocortisone 5mg/5ml oral solution 1 ml
+^ESCTHY1104322	Hydrocortisone 5mg/5ml oral solution (Special Order)
+^ESCTHY1104323	Hydrocortisone 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTHY1104345	Hydrocortisone 5mg/5ml oral solution
+^ESCTHY1117495	Hydrocortisone 20mg tablets (Sovereign Medical Ltd)
+^ESCTHY1117496	Hydrocortisone 20mg tablets (Sovereign Medical Ltd) 30 tablet
+^ESCTHY1141858	Hydrocortisone 20mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTHY1141859	Hydrocortisone 20mg tablets (Kent Pharmaceuticals Ltd) 30 tablet
+^ESCTHY1144705	Hydrocortisone 10mg tablets (Alissa Healthcare Research Ltd)
+^ESCTHY1144706	Hydrocortisone 10mg tablets (Alissa Healthcare Research Ltd) 30 tablet
+^ESCTHY1151348	Hydrocortisone 10mg tablets (AMCo)
+^ESCTHY1151349	Hydrocortisone 10mg tablets (AMCo) 30 tablet 3 x 10 tablets
+^ESCTHY1162305	Hydrocortisone 10mg tablets (Bristol Laboratories Ltd)
+^ESCTHY1162306	Hydrocortisone 10mg tablets (Bristol Laboratories Ltd) 30 tablet 3 x 10 tablets
+^ESCTHY1162307	Hydrocortisone 20mg tablets (Bristol Laboratories Ltd)
+^ESCTHY1162308	Hydrocortisone 20mg tablets (Bristol Laboratories Ltd) 30 tablet 3 x 10 tablets
+^ESCTHY1163072	Hydrocortisone 20mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTHY1163073	Hydrocortisone 20mg tablets (Focus Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTHY612540	Hydrocortisone 10mg tablets
+^ESCTHY612542	Hydrocortisone 10 mg oral tablet
+^ESCTHY612543	Hydrocortisone 20mg tablets
+^ESCTHY612545	Hydrocortisone 20 mg oral tablet
+^ESCTHY805722	Hydrocortone 10mg tablets (Auden McKenzie (Pharma Division) Ltd)
+^ESCTHY821355	Hydrocortone 20mg tablets (Auden McKenzie (Pharma Division) Ltd)
+^ESCTHY838068	Hydrocortisone 20mg tablets 30 tablet
+^ESCTHY842332	Hydrocortisone 10mg tablets 30 tablet
+^ESCTHY854894	Hydrocortone 10mg tablets (Auden McKenzie (Pharma Division) Ltd) 30 tablet 2 x 15 tablets
+^ESCTHY854901	Hydrocortone 20mg tablets (Auden McKenzie (Pharma Division) Ltd) 30 tablet 2 x 15 tablets
+^ESCTHY907153	Hydrocortisone 25mg/5ml oral suspension 1 ml
+^ESCTHY907154	Hydrocortisone 25mg/5ml oral suspension (Special Order)
+^ESCTHY907155	Hydrocortisone 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY907156	Hydrocortisone 5mg/5ml oral suspension 1 ml
+^ESCTHY907157	Hydrocortisone 5mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTHY907158	Hydrocortisone 5mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTHY907159	Hydrocortisone 10mg/5ml oral suspension 1 ml
+^ESCTHY907160	Hydrocortisone 2.5mg/5ml oral suspension 1 ml
+^ESCTHY907161	Hydrocortisone 10mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTHY907162	Hydrocortisone 2.5mg/5ml oral suspension (Special Order)
+^ESCTHY907163	Hydrocortisone 2.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY907164	Hydrocortisone 10mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTHY907165	Hydrocortisone 20mg/5ml oral suspension 1 ml
+^ESCTHY907166	Hydrocortisone 20mg/5ml oral suspension (Special Order)
+^ESCTHY907167	Hydrocortisone 12.5mg/5ml oral suspension 1 ml
+^ESCTHY907168	Hydrocortisone 12.5mg/5ml oral suspension (Special Order)
+^ESCTHY907169	Hydrocortisone 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY907170	Hydrocortisone 12.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY907622	Hydrocortisone 10mg/5ml oral suspension
+^ESCTHY907623	Hydrocortisone 12.5mg/5ml oral suspension
+^ESCTHY907624	Hydrocortisone 2.5mg/5ml oral suspension
+^ESCTHY907625	Hydrocortisone 20mg/5ml oral suspension
+^ESCTHY907626	Hydrocortisone 25mg/5ml oral suspension
+^ESCTHY907627	Hydrocortisone 5mg/5ml oral suspension
+^ESCTHY950763	Hydrocortisone 1.5mg/5ml oral suspension 1 ml
+^ESCTHY950764	Hydrocortisone 1.5mg/5ml oral suspension (Special Order)
+^ESCTHY950765	Hydrocortisone 1.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950766	Hydrocortisone 100mg/5ml oral suspension 1 ml
+^ESCTHY950768	Hydrocortisone 100mg/5ml oral suspension (Special Order)
+^ESCTHY950770	Hydrocortisone 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950771	Hydrocortisone 13.95mg/5ml oral suspension 1 ml
+^ESCTHY950772	Hydrocortisone 13.95mg/5ml oral suspension (Special Order)
+^ESCTHY950773	Hydrocortisone 13.95mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950774	Hydrocortisone 18mg/5ml oral suspension 1 ml
+^ESCTHY950775	Hydrocortisone 18mg/5ml oral suspension (Special Order)
+^ESCTHY950776	Hydrocortisone 18mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950777	Hydrocortisone 1mg/5ml oral suspension 1 ml
+^ESCTHY950778	Hydrocortisone 1mg/5ml oral suspension (Special Order)
+^ESCTHY950779	Hydrocortisone 1mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950780	Hydrocortisone 2.6mg/5ml oral suspension 1 ml
+^ESCTHY950781	Hydrocortisone 2.6mg/5ml oral suspension (Special Order)
+^ESCTHY950782	Hydrocortisone 2.6mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950783	Hydrocortisone 250micrograms/5ml oral suspension 1 ml
+^ESCTHY950784	Hydrocortisone 250micrograms/5ml oral suspension (Special Order)
+^ESCTHY950785	Hydrocortisone 250micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950788	Hydrocortisone 2mg/5ml oral suspension 1 ml
+^ESCTHY950789	Hydrocortisone 2mg/5ml oral suspension (Special Order)
+^ESCTHY950790	Hydrocortisone 2mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950878	Hydrocortisone 1.5mg/5ml oral suspension
+^ESCTHY950879	Hydrocortisone 100mg/5ml oral suspension
+^ESCTHY950880	Hydrocortisone 13.95mg/5ml oral suspension
+^ESCTHY950881	Hydrocortisone 18mg/5ml oral suspension
+^ESCTHY950882	Hydrocortisone 1mg/5ml oral suspension
+^ESCTHY950883	Hydrocortisone 2.6mg/5ml oral suspension
+^ESCTHY950884	Hydrocortisone 250micrograms/5ml oral suspension
+^ESCTHY950885	Hydrocortisone 2mg/5ml oral suspension
+^ESCTHY950986	Hydrocortisone 3.6mg/5ml oral suspension 1 ml
+^ESCTHY950987	Hydrocortisone 3.6mg/5ml oral suspension (Special Order)
+^ESCTHY950988	Hydrocortisone 3.6mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950989	Hydrocortisone 3.75mg/5ml oral suspension 1 ml
+^ESCTHY950990	Hydrocortisone 3.75mg/5ml oral suspension (Special Order)
+^ESCTHY950991	Hydrocortisone 3.75mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950992	Hydrocortisone 30mg/5ml oral suspension 1 ml
+^ESCTHY950993	Hydrocortisone 30mg/5ml oral suspension (Special Order)
+^ESCTHY950994	Hydrocortisone 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950995	Hydrocortisone 3mg/5ml oral suspension 1 ml
+^ESCTHY950996	Hydrocortisone 3mg/5ml oral suspension (Special Order)
+^ESCTHY950997	Hydrocortisone 3mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY950998	Hydrocortisone 4.25mg/5ml oral suspension 1 ml
+^ESCTHY950999	Hydrocortisone 4.25mg/5ml oral suspension (Special Order)
+^ESCTHY951000	Hydrocortisone 4.25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY951001	Hydrocortisone 4mg/5ml oral suspension 1 ml
+^ESCTHY951002	Hydrocortisone 4mg/5ml oral suspension (Special Order)
+^ESCTHY951003	Hydrocortisone 4mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY951004	Hydrocortisone 50micrograms/5ml oral suspension 1 ml
+^ESCTHY951005	Hydrocortisone 50micrograms/5ml oral suspension (Special Order)
+^ESCTHY951006	Hydrocortisone 50micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTHY951007	Hydrocortisone 50mg/5ml oral suspension 1 ml
+^ESCTHY951008	Hydrocortisone 50mg/5ml oral suspension (Special Order)
+^ESCTHY951009	Hydrocortisone 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY951010	Hydrocortisone 6.25mg/5ml oral suspension 1 ml
+^ESCTHY951011	Hydrocortisone 6.25mg/5ml oral suspension (Special Order)
+^ESCTHY951012	Hydrocortisone 6.25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY951013	Hydrocortisone 6mg/5ml oral suspension 1 ml
+^ESCTHY951014	Hydrocortisone 6mg/5ml oral suspension (Special Order)
+^ESCTHY951015	Hydrocortisone 6mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY951020	Hydrocortisone 3.6mg/5ml oral suspension
+^ESCTHY951021	Hydrocortisone 3.75mg/5ml oral suspension
+^ESCTHY951022	Hydrocortisone 30mg/5ml oral suspension
+^ESCTHY951023	Hydrocortisone 3mg/5ml oral suspension
+^ESCTHY951024	Hydrocortisone 4.25mg/5ml oral suspension
+^ESCTHY951025	Hydrocortisone 4mg/5ml oral suspension
+^ESCTHY951026	Hydrocortisone 50mg/5ml oral suspension
+^ESCTHY951027	Hydrocortisone 50micrograms/5ml oral suspension
+^ESCTHY951028	Hydrocortisone 6.25mg/5ml oral suspension
+^ESCTHY951029	Hydrocortisone 6mg/5ml oral suspension
+^ESCTHY951030	Hydrocortisone 7.5mg/5ml oral suspension 1 ml
+^ESCTHY951031	Hydrocortisone 7.5mg/5ml oral suspension (Special Order)
+^ESCTHY951032	Hydrocortisone 7.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY951033	Hydrocortisone 75mg/5ml oral suspension 1 ml
+^ESCTHY951034	Hydrocortisone 75mg/5ml oral suspension (Special Order)
+^ESCTHY951035	Hydrocortisone 75mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY951057	Hydrocortisone 7mg/5ml oral suspension 1 ml
+^ESCTHY951058	Hydrocortisone 7mg/5ml oral suspension (Special Order)
+^ESCTHY951059	Hydrocortisone 7mg/5ml oral suspension (Special Order) 1 ml
+^ESCTHY951060	Hydrocortisone 85micrograms/5ml oral suspension 1 ml
+^ESCTHY951061	Hydrocortisone 85micrograms/5ml oral suspension (Special Order)
+^ESCTHY951062	Hydrocortisone 85micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTHY951106	Hydrocortisone 7.5mg/5ml oral suspension
+^ESCTHY951107	Hydrocortisone 75mg/5ml oral suspension
+^ESCTHY951108	Hydrocortisone 7mg/5ml oral suspension
+^ESCTHY951109	Hydrocortisone 85micrograms/5ml oral suspension
+^ESCTHY964189	Hydrocortisone 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTHY964190	Hydrocortisone 10mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTHY964191	Hydrocortisone 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTHY964192	Hydrocortisone 20mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTHY964645	Hydrocortisone 10mg tablets (Actavis UK Ltd)
+^ESCTHY964646	Hydrocortisone 10mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTHY964647	Hydrocortisone 20mg tablets (Actavis UK Ltd)
+^ESCTHY964648	Hydrocortisone 20mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTHY965998	Hydrocortisone 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTHY965999	Hydrocortisone 10mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTHY966000	Hydrocortisone 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTHY966001	Hydrocortisone 20mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTHY978400	Hydrocortisone 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTHY978401	Hydrocortisone 10mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTHY978402	Hydrocortisone 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTHY978403	Hydrocortisone 20mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTHY981534	Hydrocortisone 2mg capsules 1 capsule
+^ESCTHY981535	Hydrocortisone 2mg capsules (Special Order)
+^ESCTHY981537	Hydrocortisone 2mg capsules (Special Order) 1 capsule
+^ESCTHY981623	Hydrocortisone 2mg capsules
+^ESCTHY982415	Hydrocortisone 2.5mg capsules 1 capsule
+^ESCTHY982416	Hydrocortisone 2.5mg capsules (Special Order)
+^ESCTHY982417	Hydrocortisone 2.5mg capsules (Special Order) 1 capsule
+^ESCTHY982507	Hydrocortisone 2.5mg capsules
+^ESCTHY992576	Hydrocortisone 10mg tablets 25 tablet
+^ESCTPL1038864	Plenadren 5mg modified-release tablets (Shire Pharmaceuticals Ltd)
+^ESCTPL1038865	Plenadren 5mg modified-release tablets (Shire Pharmaceuticals Ltd) 50 tablet
+^ESCTPL1038867	Plenadren 20mg modified-release tablets (Shire Pharmaceuticals Ltd)
+^ESCTPL1038868	Plenadren 20mg modified-release tablets (Shire Pharmaceuticals Ltd) 50 tablet
+^ESCTPR612541	Product containing hydrocortisone 10 mg/1 each oral tablet
+^ESCTPR612544	Product containing hydrocortisone 20 mg/1 each oral tablet
+ALGR127576NEMIS	Alkindi  Granules In Capsules For Opening  500 micrograms
+ALGR127578NEMIS	Alkindi  Granules In Capsules For Opening  1 mg
+ALGR127579NEMIS	Alkindi  Granules In Capsules For Opening  2 mg
+ALGR127580NEMIS	Alkindi  Granules In Capsules For Opening  5 mg
+EFM/140454NEMIS	NULL
+EFM/140455NEMIS	NULL
+HYGR127571NEMIS	Hydrocortisone  Granules In Capsules For Opening  500 micrograms
+HYGR127572NEMIS	Hydrocortisone  Granules In Capsules For Opening  1 mg
+HYGR127573NEMIS	Hydrocortisone  Granules In Capsules For Opening  2 mg
+HYGR127574NEMIS	Hydrocortisone  Granules In Capsules For Opening  5 mg
+HYM/140451NEMIS	NULL
+HYM/140452NEMIS	NULL
+HYM/77083NEMIS	Hydrocortisone  M/R tablets  5 mg
+HYM/77084NEMIS	Hydrocortisone  M/R tablets  20 mg
+HYOR28585EMIS	Hydrocortisone  Oral suspension  10 mg/5 ml
+HYOR4787NEMIS	Hydrocortisone  Oral suspension  25 mg/5 ml
+HYSO130494NEMIS	Hydrocortisone Sodium Phosphate  Soluble Tablets Sugar Free  10 mg
+HYSU764NEMIS	Hydrocortisone  Suspension  5 mg/5 ml
+HYTA131895NEMIS	Hydventia  Tablets  10 mg
+HYTA131896NEMIS	Hydventia  Tablets  20 mg
+HYTA1398	Hydrocortisone  Tablets  20 mg
+HYTA140204NEMIS	NULL
+HYTA140205NEMIS	NULL
+HYTA140206NEMIS	NULL
+HYTA3724	Hydrocortisone  Tablets  10 mg
+HYTA3731	Hydrocortone  Tablets  10 mg
+HYTA3732	Hydrocortone  Tablets  20 mg
+PLM/77086NEMIS	Plenadren  M/R tablets  5 mg
+PLM/77087NEMIS	Plenadren  M/R tablets  20 mg

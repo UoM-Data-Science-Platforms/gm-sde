@@ -1,0 +1,20 @@
+fe61.	PREDNISOLONE 1mg tablets
+fe62.	PREDNISOLONE 5mg tablets
+fe65.	DELTACORTRIL ENTERIC 2.5mg tablets
+fe66.	DELTACORTRIL ENTERIC 5mg tablets
+fe6b.	DELTASTAB 25mg/1mL injection
+fe6h.	PREDNISOLONE 2.5mg e/c tablets
+fe6i.	PREDNISOLONE 5mg e/c tablets
+fe6j.	PREDNISOLONE 5mg soluble tablets
+fe6l.	DILACORT 5mg gastro-resistant tablets
+fe6m.	DILACORT 2.5mg gastro-resistant tablets
+fe6n.	PEVANTI 2.5mg tablets
+fe6o.	PEVANTI 25mg tablets
+fe6p.	PEVANTI 5mg tablets
+fe6q.	PEVANTI 10mg tablets
+fe6r.	PEVANTI 20mg tablets
+fe6s.	PREDNISOLONE 20mg tablets
+fe6t.	PREDNISOLONE 10mg tablets
+fe6v.	PREDNISOLONE 2.5mg tablets
+fe6z.	PREDNISOLONE 25mg tablets
+j44z.	PREDNISOLONE ACETATE 25mg/1mL injection

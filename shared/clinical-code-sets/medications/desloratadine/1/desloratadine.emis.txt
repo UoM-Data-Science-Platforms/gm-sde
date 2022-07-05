@@ -1,0 +1,101 @@
+^ESCT1177983	Product containing only desloratadine 5 mg/1 each oral tablet
+^ESCT1189927	Desloratadine 2.5mg/5ml oral solution sugar free (Actavis UK Ltd) 100 ml 1 bottle
+^ESCT1190109	Desloratadine 5mg tablets (Mylan)
+^ESCT1190110	Desloratadine 5mg tablets (Mylan) 30 tablet
+^ESCT1196022	Desloratadine 2.5mg/5ml oral solution sugar free (Actavis UK Ltd) 100 ml
+^ESCT1196576	Desloratadine 5mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196577	Desloratadine 5mg tablets (Lupin Healthcare (UK) Ltd) 30 tablet
+^ESCT1199356	Desloratadine 2.5mg/5ml oral solution sugar free (Accord Healthcare Ltd)
+^ESCT1199357	Desloratadine 2.5mg/5ml oral solution sugar free (Accord Healthcare Ltd) 100 ml
+^ESCT1221937	Product containing precisely desloratadine 5 milligram/1 each conventional release oral tablet
+^ESCT1263981	Desloratadine 2.5mg/5ml oral solution sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCT1263983	Desloratadine 2.5mg/5ml oral solution sugar free (Mawdsley-Brooks & Company Ltd) 150 ml
+^ESCT1265582	Desloratadine 2.5mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1265583	Desloratadine 2.5mg/5ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCT1271252	Desloratadine 2.5mg/5ml oral solution sugar free (DE Pharmaceuticals) 100 ml
+^ESCT1375425	Desloratadine 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375429	Desloratadine 5mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1409483	Neoclarityn 5mg tablets (Organon Pharma (UK) Ltd)
+^ESCT1409962	Neoclarityn 5mg tablets (Organon Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1411019	Neoclarityn 2.5mg/5ml oral solution (Organon Pharma (UK) Ltd)
+^ESCT1411020	Neoclarityn 2.5mg/5ml oral solution (Organon Pharma (UK) Ltd) 150 ml
+^ESCT1411041	Neoclarityn 2.5mg/5ml oral solution (Organon Pharma (UK) Ltd) 100 ml
+^ESCT1411514	Desloratadine 5mg tablets (Accord Healthcare Ltd)
+^ESCT1411515	Desloratadine 5mg tablets (Accord Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1429106	Desloratadine 2.5mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1429107	Desloratadine 2.5mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 100 ml
+^ESCTDE1021674	Desloratadine 5mg tablets (Consilient Health Ltd)
+^ESCTDE1021675	Desloratadine 5mg tablets (Consilient Health Ltd) 30 tablet 3 x 10 tablets
+^ESCTDE1022075	Desloratadine 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTDE1022076	Desloratadine 5mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTDE1023229	Desloratadine 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE1023230	Desloratadine 5mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCTDE1024465	Desloratadine 5mg tablets (Teva UK Ltd)
+^ESCTDE1024466	Desloratadine 5mg tablets (Teva UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTDE1026516	Desloratadine 5mg tablets (Actavis UK Ltd)
+^ESCTDE1026517	Desloratadine 5mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTDE1029300	Desloratadine 5mg tablets (Aspire Pharma Ltd)
+^ESCTDE1029301	Desloratadine 5mg tablets (Aspire Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTDE1029585	Desloratadine 2.5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTDE1029586	Desloratadine 2.5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 100 ml
+^ESCTDE1030215	Desloratadine 5mg tablets (Arrow Generics Ltd)
+^ESCTDE1030216	Desloratadine 5mg tablets (Arrow Generics Ltd) 30 tablet 2 x 15 tablets
+^ESCTDE1043945	Desloratadine 5mg tablets (Waymade Healthcare Plc)
+^ESCTDE1043946	Desloratadine 5mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTDE1047129	Desloratadine 2.5mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTDE1047130	Desloratadine 2.5mg/5ml oral solution sugar free (Waymade Healthcare Plc) 100 ml
+^ESCTDE1058845	Desloratadine 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTDE1058846	Desloratadine 5mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTDE1061865	Desloratadine 5mg tablets (DE Pharmaceuticals)
+^ESCTDE1061866	Desloratadine 5mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTDE1100136	Desloratadine 5mg tablets (Lupin (Europe) Ltd)
+^ESCTDE1100137	Desloratadine 5mg tablets (Lupin (Europe) Ltd) 30 tablet
+^ESCTDE1117152	Desloratadine 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTDE1117154	Desloratadine 5mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTDE1119136	Desloratadine 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTDE1119137	Desloratadine 5mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTDE1130724	Desloratadine 2.5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE1130725	Desloratadine 2.5mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTDE1137799	Desloratadine 2.5mg/5ml oral solution sugar free (Ennogen Healthcare Ltd)
+^ESCTDE1137800	Desloratadine 2.5mg/5ml oral solution sugar free (Ennogen Healthcare Ltd) 100 ml
+^ESCTDE1138504	Desloratadine 2.5mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTDE1138506	Desloratadine 2.5mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTDE1144430	Desloratadine 2.5mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTDE1146343	Desloratadine 2.5mg/5ml oral solution sugar free (Actavis UK Ltd)
+^ESCTDE1146344	Desloratadine 2.5mg/5ml oral solution sugar free (Actavis UK Ltd) 100 ml
+^ESCTDE1146345	Desloratadine 2.5mg/5ml oral solution sugar free (Actavis UK Ltd) 150 ml
+^ESCTDE1152802	Desloratadine 5mg tablets (Mylan Ltd)
+^ESCTDE1152803	Desloratadine 5mg tablets (Mylan Ltd) 30 tablet
+^ESCTDE1156874	Desloratadine 2.5mg/5ml oral solution sugar free (Crescent Pharma Ltd)
+^ESCTDE1156876	Desloratadine 2.5mg/5ml oral solution sugar free (Crescent Pharma Ltd) 150 ml
+^ESCTDE1157678	Desloratadine 5mg tablets (Crescent Pharma Ltd)
+^ESCTDE1157679	Desloratadine 5mg tablets (Crescent Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTDE450808	Desloratadine 5mg tablets
+^ESCTDE450810	Desloratadine 5 mg oral tablet
+^ESCTDE836024	Desloratadine 5mg tablets 30 tablet
+^ESCTDE847391	Desloratadine 2.5mg/5ml oral solution 100 ml
+^ESCTDE861165	Desloratadine 2.5mg/5ml oral solution
+^ESCTDE930146	Desloratadine 5mg tablets 20 tablet
+^ESCTDE942861	Desloratadine 2.5mg/5ml oral solution 120 ml
+^ESCTDE988315	Desloratadine 2.5mg/5ml oral solution sugar free 150 ml
+^ESCTDE988345	Desloratadine 2.5mg/5ml oral solution sugar free
+^ESCTDE990452	Desloratadine 2.5mg/5ml oral solution sugar free 100 ml
+^ESCTMI1028125	Midetorin 2.5mg/5ml oral solution (Actavis UK Ltd)
+^ESCTMI1028126	Midetorin 2.5mg/5ml oral solution (Actavis UK Ltd) 100 ml
+^ESCTMI1047021	Midetorin 2.5mg/5ml oral solution (Arrow Generics Ltd)
+^ESCTMI1047022	Midetorin 2.5mg/5ml oral solution (Arrow Generics Ltd) 100 ml
+^ESCTNE802193	Neoclarityn 5mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTNE808605	Neoclarityn 2.5mg/5ml syrup (Schering-Plough Ltd)
+^ESCTNE854897	Neoclarityn 5mg tablets (Merck Sharp & Dohme Ltd) 30 tablet 3 x 10 tablets
+^ESCTNE856665	Neoclarityn 2.5mg/5ml syrup (Schering-Plough Ltd) 100 ml
+^ESCTNE988316	Neoclarityn 2.5mg/5ml oral solution (Merck Sharp & Dohme Ltd)
+^ESCTNE988317	Neoclarityn 2.5mg/5ml oral solution (Merck Sharp & Dohme Ltd) 150 ml
+^ESCTNE990453	Neoclarityn 2.5mg/5ml oral solution (Merck Sharp & Dohme Ltd) 100 ml
+^ESCTPR450809	Product containing desloratadine 5 mg/1 each oral tablet
+DEOR37187NEMIS	Desloratadine  Oral solution  0.5 mg/ml
+DEOR39318NEMIS	Desloratadine  Oral Solution, Sugar Free  0.5 mg/ml
+DETA6259NEMIS	Desloratadine  Tablets  5 mg
+MIOR72195NEMIS	Midetorin  Oral solution  0.5 mg/ml
+NEOR33406NEMIS	Neoclarityn  Oral solution  0.5 mg/ml
+NESY13137NEMIS	Neoclarityn  Syrup  0.5 mg/ml
+NETA6262NEMIS	Neoclarityn  Tablets  5 mg

@@ -1,0 +1,26 @@
+d6...	Lithium product
+d61..	Lithium carbonate
+d611.	Camcolit 250 tablet
+d612.	Camcolit 400 m/r tablet
+d613.	Liskonum 450mg m/r tablet
+d614.	Phasal 300mg m/r tablet
+d615.	Priadel 400mg m/r tablet
+d616.	Priadel 200mg m/r tablet
+d618.	Lithium carbonate 520mg/5mL sugar free liquid
+d619.	Lithonate 400mg m/r tablet
+d61s.	Lithium carbonate 200mg m/r tablet
+d61v.	Lithium carbonate 250mg tablet
+d61w.	Lithium carbonate 400mg tablets
+d61x.	Lithium carbonate 450mg m/r tablet
+d61y.	Lithium carbonate 300mg m/r tablet
+d61z.	Lithium carbonate 400mg m/r tablet
+d62..	Lithium citrate
+d621.	Litarex 564mg m/r tablet
+d622.	Li-Liquid 509mg/5mL oral solution
+d623.	Li-Liquid 1018mg/5mL oral solution
+d624.	Priadel 520mg/5mL sugar free liquid 150mL
+d625.	Priadel 520mg/5mL s/f oral liquid
+d62w.	Lithium citrate 520mg/5mL s/f oral liquid
+d62x.	Lithium citrate 509mg/5mL oral solution
+d62y.	Lithium citrate 1018mg/5mL oral solution
+d62z.	Lithium citrate 564mg m/r tablet

@@ -1,0 +1,4 @@
+c8s1.	XYZAL 5mg tablets
+c8s2.	XYZAL 500micrograms/mL oral solution
+c8sy.	LEVOCETIRIZINE DIHYDROCHLORIDE 500micrograms/mL oral solution
+c8sz.	LEVOCETIRIZINE DIHYDROCHLORIDE 5mg tablets

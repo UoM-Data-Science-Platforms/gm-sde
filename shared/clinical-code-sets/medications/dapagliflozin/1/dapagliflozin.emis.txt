@@ -1,0 +1,31 @@
+^ESCT1259825	Dapagliflozin 10mg tablets 30 tablet
+^ESCT1424749	Dapagliflozin 10mg tablets
+^ESCT1424750	Dapagliflozin 5mg tablets
+^ESCTDA1039917	Dapagliflozin 5mg tablets 28 tablet
+^ESCTDA1039921	Dapagliflozin 10mg tablets 28 tablet
+^ESCTDA1062325	Dapagliflozin 5mg / Metformin 850mg tablets 56 tablet
+^ESCTDA1062328	Dapagliflozin 5mg / Metformin 1g tablets 56 tablet
+^ESCTDA1062682	Dapagliflozin 5mg / Metformin 1g tablets
+^ESCTDA1062683	Dapagliflozin 5mg / Metformin 850mg tablets
+^ESCTFO1039919	Forxiga 5mg tablets (AstraZeneca UK Ltd)
+^ESCTFO1039920	Forxiga 5mg tablets (AstraZeneca UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTFO1039922	Forxiga 10mg tablets (AstraZeneca UK Ltd)
+^ESCTFO1039923	Forxiga 10mg tablets (AstraZeneca UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTQT1153704	Qtern 5mg/10mg tablets (AstraZeneca UK Ltd)
+^ESCTQT1153705	Qtern 5mg/10mg tablets (AstraZeneca UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTSA1153703	Saxagliptin 5mg / Dapagliflozin 10mg tablets 28 tablet
+^ESCTSA1154285	Saxagliptin 5mg / Dapagliflozin 10mg tablets
+^ESCTXI1062326	Xigduo 5mg/850mg tablets (AstraZeneca UK Ltd)
+^ESCTXI1062327	Xigduo 5mg/850mg tablets (AstraZeneca UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTXI1062329	Xigduo 5mg/1000mg tablets (AstraZeneca UK Ltd)
+^ESCTXI1062330	Xigduo 5mg/1000mg tablets (AstraZeneca UK Ltd) 56 tablet 4 x 14 tablets
+DATA77713NEMIS	Dapagliflozin  Tablets  5 mg
+DATA77715NEMIS	Dapagliflozin  Tablets  10 mg
+DATA88552NEMIS	Dapagliflozin And Metformin  Tablets  5 mg + 1000 mg
+DATA88553NEMIS	Dapagliflozin And Metformin  Tablets  5 mg + 850 mg
+FOTA77717NEMIS	Forxiga  Tablets  5 mg
+FOTA77718NEMIS	Forxiga  Tablets  10 mg
+QTTA119016NEMIS	Qtern  Tablets  5 mg + 10 mg
+SATA119013NEMIS	Saxagliptin And Dapagliflozin  Tablets  5 mg + 10 mg
+XITA88555NEMIS	Xigduo  Tablets  5 mg + 1000 mg
+XITA88556NEMIS	Xigduo  Tablets  5 mg + 850 mg

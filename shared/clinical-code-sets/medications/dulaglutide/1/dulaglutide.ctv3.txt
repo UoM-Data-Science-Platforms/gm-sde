@@ -1,0 +1,4 @@
+ftq1.	TRULICITY 750micrograms/0.5mL soln for injection p/f pen
+ftq2.	DULAGLUTIDE 750micrograms/0.5mL soln for injection p/f pen
+ftq3.	TRULICITY 1.5mg/0.5mL solution for injection prefilled pen
+ftq4.	DULAGLUTIDE 1.5mg/0.5mL soln for injection prefilled pen

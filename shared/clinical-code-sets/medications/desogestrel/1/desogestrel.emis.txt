@@ -1,0 +1,84 @@
+^ESCT1176675	Desogestrel 75microgram tablets (Lupin (Europe) Ltd)
+^ESCT1176676	Desogestrel 75microgram tablets (Lupin (Europe) Ltd) 84 tablet 3 x 28 tablets
+^ESCT1182188	Product containing only desogestrel 0.15 milligram and ethinylestradiol 0.02 milligram/1 each oral tablet
+^ESCT1182189	Product containing only desogestrel 0.15 milligram and ethinyl estradiol 0.02 milligram/1 each oral tablet
+^ESCT1185251	Product containing only desogestrel 0.075 milligram/1 each oral tablet
+^ESCT1196235	Feanolla 75microgram tablets (Lupin Healthcare (UK) Ltd) 84 tablet 3 x 28 tablets
+^ESCT1196489	Desogestrel 75microgram tablets (Lupin Healthcare (UK) Ltd) 84 tablet 3 x 28 tablets
+^ESCT1196563	Feanolla 75microgram tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196596	Desogestrel 75microgram tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1224858	Desogestrel 150 microgram and ethinyl estradiol 20 microgram oral tablet
+^ESCT1224859	Product containing precisely desogestrel 150 microgram and ethinylestradiol 20 microgram/1 each conventional release oral tablet
+^ESCT1224860	Desogestrel 150 microgram and ethinylestradiol 20 microgram oral tablet
+^ESCT1230090	Desogestrel 75 microgram oral tablet
+^ESCT1230091	Product containing precisely desogestrel 75 microgram/1 each conventional release oral tablet
+^ESCT1255401	Moonia 75microgram tablets (Stragen UK Ltd)
+^ESCT1255402	Desogestrel 75microgram tablets 28 tablet
+^ESCT1255403	Desogestrel 75microgram tablets 168 tablet
+^ESCT1255404	Moonia 75microgram tablets (Stragen UK Ltd) 28 tablet
+^ESCT1255405	Moonia 75microgram tablets (Stragen UK Ltd) 84 tablet 3 x 28 tablets
+^ESCT1255406	Moonia 75microgram tablets (Stragen UK Ltd) 168 tablet 6 x 28 tablets
+^ESCT1278923	Desogestrel 75microgram tablets (Zentiva)
+^ESCT1278924	Desogestrel 75microgram tablets (Zentiva) 84 tablet 3 x 28 tablets
+^ESCT1375088	Desogestrel 75microgram tablets (Morningside Healthcare Ltd)
+^ESCT1375089	Desogestrel 75microgram tablets (Morningside Healthcare Ltd) 84 tablet 3 x 28 tablets
+^ESCT1375439	Desogestrel 75microgram tablets (Medihealth (Northern) Ltd)
+^ESCT1375440	Desogestrel 75microgram tablets (Medihealth (Northern) Ltd) 84 tablet
+^ESCT1410136	Cerazette 75microgram tablets (Organon Pharma (UK) Ltd)
+^ESCT1410137	Cerazette 75microgram tablets (Organon Pharma (UK) Ltd) 84 tablet 3 x 28 tablets
+^ESCT1422690	Desogestrel 75microgram tablets (Zentiva Pharma UK Ltd)
+^ESCT1422691	Desogestrel 75microgram tablets (Zentiva Pharma UK Ltd) 84 tablet 3 x 28 tablets
+^ESCTAI1040744	Aizea 75microgram tablets (Besins Healthcare (UK) Ltd)
+^ESCTAI1040745	Aizea 75microgram tablets (Besins Healthcare (UK) Ltd) 84 tablet 3 x 28 tablets
+^ESCTCE1045921	Cerelle 75microgram tablets (Consilient Health Ltd)
+^ESCTCE1045922	Cerelle 75microgram tablets (Consilient Health Ltd) 84 tablet 3 x 28 tablets
+^ESCTCE861746	Cerazette 75microgram tablets (Merck Sharp & Dohme Ltd)
+^ESCTCE861749	Cerazette 75microgram tablets (Merck Sharp & Dohme Ltd) 84 tablet 3 x 28 tablets
+^ESCTDE1040702	Desogestrel 75microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE1040703	Desogestrel 75microgram tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet 3 x 28 tablets
+^ESCTDE1040791	Desorex 75microgram tablets (Somex Pharma)
+^ESCTDE1040792	Desorex 75microgram tablets (Somex Pharma) 84 tablet 3 x 28 tablets
+^ESCTDE1040990	Desogestrel 75microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTDE1040991	Desogestrel 75microgram tablets (A A H Pharmaceuticals Ltd) 84 tablet 3 x 28 tablets
+^ESCTDE1048124	Desomono 75microgram tablets (MedRx Licences Ltd)
+^ESCTDE1048125	Desomono 75microgram tablets (MedRx Licences Ltd) 84 tablet 3 x 28 tablets
+^ESCTDE1049557	Desogestrel 75microgram tablets (Actavis UK Ltd)
+^ESCTDE1049558	Desogestrel 75microgram tablets (Actavis UK Ltd) 84 tablet 6 x 14 tablets
+^ESCTDE1061873	Desogestrel 75microgram tablets (DE Pharmaceuticals)
+^ESCTDE1061874	Desogestrel 75microgram tablets (DE Pharmaceuticals) 84 tablet 3 x 28 tablets
+^ESCTDE1116781	Desogestrel 75microgram tablets (Creo Pharma Ltd)
+^ESCTDE1116782	Desogestrel 75microgram tablets (Creo Pharma Ltd) 84 tablet 3 x 28 tablets
+^ESCTDE1117157	Desogestrel 75microgram tablets (Sigma Pharmaceuticals Plc)
+^ESCTDE1117159	Desogestrel 75microgram tablets (Sigma Pharmaceuticals Plc) 84 tablet
+^ESCTDE1119148	Desogestrel 75microgram tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTDE1119149	Desogestrel 75microgram tablets (Mawdsley-Brooks & Company Ltd) 84 tablet
+^ESCTDE1161739	Desogestrel 75microgram tablets (Crescent Pharma Ltd)
+^ESCTDE1161740	Desogestrel 75microgram tablets (Crescent Pharma Ltd) 84 tablet 3 x 28 tablets
+^ESCTDE613251	Desogestrel 0.15 milligram and ethinyl estradiol 0.02 milligram oral tablet
+^ESCTDE613252	Desogestrel 0.15 milligram and ethinylestradiol 0.02 milligram oral tablet
+^ESCTDE613255	Desogestrel 150microgram / Ethinylestradiol 20microgram tablets
+^ESCTDE663928	Desogestrel 75microgram tablets
+^ESCTDE663929	Desogestrel 0.075 mg oral tablet
+^ESCTDE861740	Desogestrel 75microgram tablets 84 tablet
+^ESCTET613250	Ethinylestradiol 20microgram / Desogestrel 150microgram tablets
+^ESCTET847993	Ethinylestradiol 20microgram / Desogestrel 150microgram tablets 63 tablet
+^ESCTFE1068472	Feanolla 75microgram tablets (Lupin (Europe) Ltd)
+^ESCTFE1068473	Feanolla 75microgram tablets (Lupin (Europe) Ltd) 84 tablet 3 x 28 tablets
+^ESCTNA1039082	Nacrez 75microgram tablets (Teva UK Ltd)
+^ESCTNA1039083	Nacrez 75microgram tablets (Teva UK Ltd) 84 tablet 3 x 28 tablets
+^ESCTPR613253	Product containing desogestrel 0.15 milligram and ethinyl estradiol 0.02 milligram/1 each oral tablet
+^ESCTPR613254	Product containing desogestrel 0.15 milligram and ethinylestradiol 0.02 milligram/1 each oral tablet
+^ESCTPR663930	Product containing desogestrel 0.075 milligram/1 each oral tablet
+^ESCTZE1055292	Zelleta 75microgram tablets (Morningside Healthcare Ltd)
+^ESCTZE1055293	Zelleta 75microgram tablets (Morningside Healthcare Ltd) 84 tablet 3 x 28 tablets
+AITA78226NEMIS	Aizea  Tablets  75 micrograms
+CETA13845NEMIS	Cerazette  Tablets  75 micrograms
+CETA78101NEMIS	Cerelle  Tablets  75 micrograms
+DETA13843NEMIS	Desogestrel  Tablets  75 micrograms
+DETA78235NEMIS	Desorex  Tablets  75 micrograms
+DETA81474NEMIS	Desomono  Tablets  75 micrograms
+ETTA18970NEMIS	Ethinylestradiol And Desogestrel  Tablets  20 micrograms + 150 micrograms
+FETA90956NEMIS	Feanolla  Tablets  75 micrograms
+MOTA130415NEMIS	Moonia  Tablets  75 micrograms
+NATA78103NEMIS	Nacrez  Tablets  75 micrograms
+ZETA83195NEMIS	Zelleta  Tablets  75 micrograms

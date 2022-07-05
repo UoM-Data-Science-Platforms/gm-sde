@@ -1,0 +1,8 @@
+c8n1.	CETIRIZINE 10mg tablets
+c8n2.	ZIRTEK 10mg tablets
+c8n3.	CETIRIZINE 1mg/1mL sugar free liquid
+c8n5.	*CETIROCOL 10mg tablets
+c8n9.	*ZIRTEK ALLERGY 10mg tablets
+c8nE.	BENADRYL ALLERGY 1mg/mL sugar free oral solution
+c8nF.	ZIRTEK ALLERGY 1mg/mL sugar free oral solution
+c8nH.	PIRITEZE ALLERGY SYRUP 1mg/1mL oral solution

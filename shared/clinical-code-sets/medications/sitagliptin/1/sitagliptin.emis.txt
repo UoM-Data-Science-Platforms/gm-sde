@@ -1,0 +1,57 @@
+^ESCT1179204	Product containing only sitagliptin 100 mg/1 each oral tablet
+^ESCT1184450	Product containing only sitagliptin 25 mg/1 each oral tablet
+^ESCT1184465	Product containing only sitagliptin 50 mg/1 each oral tablet
+^ESCT1234022	Sitagliptin (as sitagliptin phosphate) 25 mg oral tablet
+^ESCT1234023	Product containing precisely sitagliptin (as sitagliptin phosphate) 25 milligram/1 each conventional release oral tablet
+^ESCT1234101	Product containing precisely sitagliptin (as sitagliptin phosphate) 100 milligram/1 each conventional release oral tablet
+^ESCT1234102	Sitagliptin (as sitagliptin phosphate) 100 mg oral tablet
+^ESCT1234135	Product containing precisely sitagliptin (as sitagliptin phosphate) 50 milligram/1 each conventional release oral tablet
+^ESCT1234136	Sitagliptin (as sitagliptin phosphate) 50 mg oral tablet
+^ESCT1280703	Metformin 1g / Sitagliptin 50mg tablets 30 tablet
+^ESCT1410824	Januvia 100mg tablets (Merck Sharp & Dohme (UK) Ltd)
+^ESCT1410825	Januvia 100mg tablets (Merck Sharp & Dohme (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1411069	Janumet 50mg/1000mg tablets (Merck Sharp & Dohme (UK) Ltd)
+^ESCT1411070	Janumet 50mg/1000mg tablets (Merck Sharp & Dohme (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1411510	Januvia 50mg tablets (Merck Sharp & Dohme (UK) Ltd)
+^ESCT1411511	Januvia 50mg tablets (Merck Sharp & Dohme (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1411512	Januvia 25mg tablets (Merck Sharp & Dohme (UK) Ltd)
+^ESCT1411513	Januvia 25mg tablets (Merck Sharp & Dohme (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTJA1025961	Januvia 50mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTJA1025962	Januvia 50mg tablets (Merck Sharp & Dohme Ltd) 28 tablet 2 x 14 tablets
+^ESCTJA1025964	Januvia 25mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTJA1025965	Januvia 25mg tablets (Merck Sharp & Dohme Ltd) 28 tablet 2 x 14 tablets
+^ESCTJA940087	Januvia 100mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTJA940089	Januvia 100mg tablets (Merck Sharp & Dohme Ltd) 28 tablet 2 x 14 tablets
+^ESCTJA997877	Janumet 50mg/1000mg tablets (Merck Sharp & Dohme Ltd)
+^ESCTJA997878	Janumet 50mg/1000mg tablets (Merck Sharp & Dohme Ltd) 56 tablet 4 x 14 tablets
+^ESCTME997876	Metformin 1g / Sitagliptin 50mg tablets 56 tablet
+^ESCTME997981	Metformin 1g / Sitagliptin 50mg tablets
+^ESCTPR701723	Product containing sitagliptin 25 mg/1 each oral tablet
+^ESCTPR702454	Product containing sitagliptin 100 mg/1 each oral tablet
+^ESCTPR702784	Product containing sitagliptin 50 mg/1 each oral tablet
+^ESCTSI1007193	Sitagliptin 100mg tablets 100 tablet
+^ESCTSI1025960	Sitagliptin 50mg tablets 28 tablet
+^ESCTSI1025963	Sitagliptin 25mg tablets 28 tablet
+^ESCTSI1143890	Sitagliptin 50mg/5ml oral solution 1 ml
+^ESCTSI1143891	Sitagliptin 50mg/5ml oral solution (Special Order)
+^ESCTSI1143892	Sitagliptin 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTSI1144005	Sitagliptin 50mg/5ml oral solution
+^ESCTSI1146011	Sitagliptin 50mg/5ml oral suspension 1 ml
+^ESCTSI1146013	Sitagliptin 50mg/5ml oral suspension (Special Order)
+^ESCTSI1146014	Sitagliptin 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSI1146228	Sitagliptin 50mg/5ml oral suspension
+^ESCTSI701722	Sitagliptin 25mg tablets
+^ESCTSI701724	Sitagliptin 25 mg oral tablet
+^ESCTSI702453	Sitagliptin 100mg tablets
+^ESCTSI702455	Sitagliptin 100 mg oral tablet
+^ESCTSI702783	Sitagliptin 50mg tablets
+^ESCTSI702785	Sitagliptin 50 mg oral tablet
+^ESCTSI940086	Sitagliptin 100mg tablets 28 tablet
+JATA25231NEMIS	Januvia  Tablets  100 mg
+JATA37230NEMIS	Janumet  Tablets  50 mg + 1000 mg
+JATA71612NEMIS	Januvia  Tablets  50 mg
+JATA71614NEMIS	Januvia  Tablets  25 mg
+META42230NEMIS	Metformin And Sitagliptin  Tablets  1000 mg + 50 mg
+SITA25228NEMIS	Sitagliptin  Tablets  100 mg
+SITA71611NEMIS	Sitagliptin  Tablets  50 mg
+SITA71613NEMIS	Sitagliptin  Tablets  25 mg

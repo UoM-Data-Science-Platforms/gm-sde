@@ -1,0 +1,42 @@
+^ESCT1198539	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled pen (AstraZeneca UK Ltd) 1 pre-filled disposable injection 60 doses
+^ESCT1198565	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled pen (AstraZeneca UK Ltd)
+^ESCT1198686	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pen (AstraZeneca UK Ltd)
+^ESCT1198775	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pen (AstraZeneca UK Ltd) 1 pre-filled disposable injection 60 doses
+^ESCT1299564	Exenatide 2mg/0.85ml prolonged-release suspension for injection pre-filled disposable devices 4 pre-filled disposable injection
+^ESCT1299565	Bydureon 2mg/0.85ml prolonged-release suspension for injection pre-filled pens (AstraZeneca UK Ltd)
+^ESCT1299566	Bydureon 2mg/0.85ml prolonged-release suspension for injection pre-filled pens (AstraZeneca UK Ltd) 4 pre-filled disposable injection
+^ESCT1299717	Exenatide 2mg/0.85ml prolonged-release suspension for injection pre-filled disposable devices
+^ESCT1301633	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pens (AstraZeneca UK Ltd)
+^ESCT1301634	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled pens (AstraZeneca UK Ltd)
+^ESCT1301635	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled pens (AstraZeneca UK Ltd) 1 pre-filled disposable injection 60 doses
+^ESCT1301636	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled pens (AstraZeneca UK Ltd) 1 pre-filled disposable injection 60 doses
+^ESCT1302861	Bydureon 2mg powder and solvent for prolonged-release suspension for injection pre-filled pens (AstraZeneca UK Ltd)
+^ESCT1302862	Bydureon 2mg powder and solvent for prolonged-release suspension for injection pre-filled pens (AstraZeneca UK Ltd) 4 pre-filled disposable injection
+^ESCT1303107	Bydureon BCise 2mg/0.85ml prolonged-release suspension for injection pre-filled pens (AstraZeneca UK Ltd)
+^ESCT1303108	Bydureon BCise 2mg/0.85ml prolonged-release suspension for injection pre-filled pens (AstraZeneca UK Ltd) 4 pre-filled disposable injection
+^ESCTBY1018581	Bydureon 2mg powder and solvent for prolonged-release suspension for injection vials (AstraZeneca UK Ltd)
+^ESCTBY1018582	Bydureon 2mg powder and solvent for prolonged-release suspension for injection vials (AstraZeneca UK Ltd) 4 vial
+^ESCTBY1104362	Bydureon 2mg powder and solvent for prolonged-release suspension for injection pre-filled pen (AstraZeneca UK Ltd)
+^ESCTBY1104363	Bydureon 2mg powder and solvent for prolonged-release suspension for injection pre-filled pen (AstraZeneca UK Ltd) 4 pre-filled disposable injection
+^ESCTBY940321	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled disposable devices (AstraZeneca UK Ltd)
+^ESCTBY940323	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled disposable devices (AstraZeneca UK Ltd)
+^ESCTBY940324	Byetta 5micrograms/0.02ml solution for injection 1.2ml pre-filled disposable devices (AstraZeneca UK Ltd) 1 pre-filled disposable injection 60 doses
+^ESCTBY940331	Byetta 10micrograms/0.04ml solution for injection 2.4ml pre-filled disposable devices (AstraZeneca UK Ltd) 1 pre-filled disposable injection 60 doses
+^ESCTEX1018580	Exenatide 2mg powder and solvent for prolonged-release suspension for injection vials 4 vial
+^ESCTEX1018587	Exenatide 2mg powder and solvent for prolonged-release suspension for injection vials
+^ESCTEX1104361	Exenatide 2mg powder and solvent for prolonged-release suspension for injection pre-filled disposable devices 4 pre-filled disposable injection
+^ESCTEX1104496	Exenatide 2mg powder and solvent for prolonged-release suspension for injection pre-filled disposable devices
+^ESCTEX940316	Exenatide 10micrograms/0.04ml solution for injection 2.4ml pre-filled disposable devices
+^ESCTEX940317	Exenatide 5micrograms/0.02ml solution for injection 1.2ml pre-filled disposable devices
+^ESCTEX940320	Exenatide 10micrograms/0.04ml solution for injection 2.4ml pre-filled disposable devices 1 pre-filled disposable injection
+^ESCTEX940322	Exenatide 5micrograms/0.02ml solution for injection 1.2ml pre-filled disposable devices 1 pre-filled disposable injection
+BYIN25440NEMIS	Byetta  Injection (Pre-Filled Pen)  5 micrograms/dose, 60 dose pen
+BYIN25441NEMIS	Byetta  Injection (Pre-Filled Pen)  10 micrograms/dose, 60 dose pen
+BYPO135693NEMIS	Bydureon  Powder And Solvent For Prolonged-Release Suspension For Injection  2 mg pre-filled pen
+BYPO51137NEMIS	Bydureon  Prolonged release suspension for injection  2 mg vial
+BYPR135696NEMIS	Bydureon Bcise  Prolonged release suspension for injection  2 mg/0.85 ml pre-filled pen
+EXIN25436NEMIS	Exenatide  Injection (Pre-Filled Pen)  5 micrograms/dose, 60 dose pen
+EXIN25438NEMIS	Exenatide  Injection (Pre-Filled Pen)  10 micrograms/dose, 60 dose pen
+EXPO135692NEMIS	Exenatide  Powder And Solvent For Prolonged-Release Suspension For Injection  2 mg pre-filled device
+EXPO51135NEMIS	Exenatide  Prolonged release suspension for injection  2 mg vial
+EXPR135695NEMIS	Exenatide  Prolonged release suspension for injection  2 mg/0.85 ml pre-filled device

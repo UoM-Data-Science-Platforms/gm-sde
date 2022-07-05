@@ -1,0 +1,24 @@
+d4p1.	Risperidone 1mg tablet
+d4p2.	Risperidone 2mg tablet
+d4p3.	Risperidone 3mg tablet
+d4p4.	Risperidone 4mg tablet
+d4p5.	Risperdal 1mg tablet
+d4p6.	Risperdal 2mg tablet
+d4p7.	Risperdal 3mg tablet
+d4p8.	Risperdal 4mg tablet
+d4p9.	Risperidone 1mg/mL liquid
+d4pA.	Risperdal 1mg/mL liquid
+d4pB.	Risperidone 6mg tablet
+d4pC.	Risperdal 6mg tablet
+d4pD.	Risperdal 0.5mg tablet
+d4pH.	Risperidone 1mg oro-dispersible tablet
+d4pJ.	Risperidone 2mg oro-dispersible tablet
+d4pK.	Risperdal Quicklet 1mg oro-dispersible tablet
+d4pL.	Risperdal Quicklet 2mg oro-dispersible tablet
+d4pM.	Risperidone 0.5mg oro-dispersible tablet
+d4pN.	Risperdal Quicklet 0.5mg oro-dispersible tablet
+d4pO.	RISPERDAL QUICKLET 3mg oro-dispersible tablets
+d4pP.	RISPERDAL QUICKLET 4mg oro-dispersible tablets
+d4pQ.	RISPERIDONE 3mg oro-dispersible tablets
+d4pR.	RISPERIDONE 4mg oro-dispersible tablets
+d4pz.	Risperidone 0.5mg tablet

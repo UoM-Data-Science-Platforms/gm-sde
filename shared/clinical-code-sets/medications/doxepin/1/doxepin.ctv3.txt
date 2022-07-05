@@ -1,0 +1,10 @@
+d761.	Sinequan 10mg capsules x56CP
+d762.	Sinequan 25mg capsules x28CP
+d763.	Sinequan 50mg capsules x28CP
+d764.	Sinequan 75mg capsules x28CP
+d765.	SINEPIN 25mg capsules
+d766.	SINEPIN 50mg capsules
+d76w.	Doxepin 10mg capsule
+d76x.	Doxepin 25mg capsule
+d76y.	Doxepin 50mg capsule
+d76z.	Doxepin 75mg capsule
