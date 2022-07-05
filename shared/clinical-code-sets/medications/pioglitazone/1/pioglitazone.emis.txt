@@ -1,0 +1,225 @@
+^ESCT1178949	Product containing only pioglitazone 15 mg and metformin 850 mg/1 each oral tablet
+^ESCT1180922	Pioglitazone 45mg tablets (Mylan)
+^ESCT1181522	Product containing only pioglitazone 45 mg/1 each oral tablet
+^ESCT1181864	Product containing only pioglitazone 15 mg/1 each oral tablet
+^ESCT1184981	Pioglitazone 45mg tablets (Mylan) 28 tablet
+^ESCT1187009	Pioglitazone 30mg tablets (Mylan) 28 tablet
+^ESCT1187010	Pioglitazone 15mg tablets (Mylan)
+^ESCT1188209	Product containing only pioglitazone 30 mg/1 each oral tablet
+^ESCT1190127	Pioglitazone 30mg tablets (Mylan)
+^ESCT1190128	Pioglitazone 15mg tablets (Mylan) 28 tablet
+^ESCT1199293	Pioglitazone 15mg / Metformin 850mg tablets (Teva UK Ltd)
+^ESCT1199294	Pioglitazone 15mg / Metformin 850mg tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCT1199342	Pioglitazone 15mg / Metformin 850mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1199343	Pioglitazone 15mg / Metformin 850mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCT1224804	Product containing precisely pioglitazone (as pioglitazone hydrochloride) 30 milligram/1 each conventional release oral tablet
+^ESCT1224805	Pioglitazone (as pioglitazone hydrochloride) 30 mg oral tablet
+^ESCT1224806	Product containing precisely pioglitazone (as pioglitazone hydrochloride) 15 milligram/1 each conventional release oral tablet
+^ESCT1224807	Pioglitazone (as pioglitazone hydrochloride) 15 mg oral tablet
+^ESCT1228128	Product containing precisely pioglitazone (as pioglitazone hydrochloride) 45 milligram/1 each conventional release oral tablet
+^ESCT1228129	Pioglitazone (as pioglitazone hydrochloride) 45 mg oral tablet
+^ESCT1232972	Product containing precisely metformin hydrochloride 850 milligram and pioglitazone (as pioglitazone hydrochloride) 15 milligram/1 each conventional release oral tablet
+^ESCT1232973	Metformin hydrochloride 850 mg and pioglitazone (as pioglitazone hydrochloride) 15 mg oral tablet
+^ESCT1249943	Pioglitazone 15mg / Metformin 850mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1249944	Pioglitazone 15mg / Metformin 850mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet
+^ESCT1259246	Pioglitazone 15mg / Metformin 850mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259247	Pioglitazone 15mg / Metformin 850mg tablets (Torrent Pharma (UK) Ltd) 56 tablet
+^ESCT1259482	Pioglitazone 15mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259484	Pioglitazone 15mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259487	Pioglitazone 30mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259488	Pioglitazone 30mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259490	Pioglitazone 45mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259491	Pioglitazone 45mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1275493	Pioglitazone 15mg / Metformin 850mg tablets (DE Pharmaceuticals)
+^ESCT1275494	Pioglitazone 15mg / Metformin 850mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCT1403533	Pioglitazone 15mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403534	Pioglitazone 15mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1403535	Pioglitazone 30mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403536	Pioglitazone 30mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1403537	Pioglitazone 45mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403538	Pioglitazone 45mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1422514	Pioglitazone 15mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422515	Pioglitazone 15mg tablets (Zentiva Pharma UK Ltd) 28 tablet
+^ESCT1422516	Pioglitazone 30mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422517	Pioglitazone 30mg tablets (Zentiva Pharma UK Ltd) 28 tablet
+^ESCT1422518	Pioglitazone 45mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422519	Pioglitazone 45mg tablets (Zentiva Pharma UK Ltd) 28 tablet
+^ESCTAC801885	Actos 15mg tablets (Takeda UK Ltd)
+^ESCTAC816639	Actos 30mg tablets (Takeda UK Ltd)
+^ESCTAC854266	Actos 15mg tablets (Takeda UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAC854267	Actos 30mg tablets (Takeda UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAC876447	Actos 45mg tablets (Takeda UK Ltd)
+^ESCTAC876450	Actos 45mg tablets (Takeda UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCO934264	Competact 15mg/850mg tablets (Takeda UK Ltd)
+^ESCTCO934265	Competact 15mg/850mg tablets (Takeda UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTDI1116638	Diabiom 15mg tablets (Tillomed Laboratories Ltd)
+^ESCTDI1116639	Diabiom 15mg tablets (Tillomed Laboratories Ltd) 28 tablet
+^ESCTDI1116640	Diabiom 30mg tablets (Tillomed Laboratories Ltd)
+^ESCTDI1116641	Diabiom 30mg tablets (Tillomed Laboratories Ltd) 28 tablet
+^ESCTDI1116642	Diabiom 45mg tablets (Tillomed Laboratories Ltd)
+^ESCTDI1116643	Diabiom 45mg tablets (Tillomed Laboratories Ltd) 28 tablet
+^ESCTGL1024467	Glizofar 15mg tablets (Teva UK Ltd)
+^ESCTGL1024468	Glizofar 15mg tablets (Teva UK Ltd) 28 tablet
+^ESCTGL1024469	Glizofar 30mg tablets (Teva UK Ltd)
+^ESCTGL1024470	Glizofar 30mg tablets (Teva UK Ltd) 28 tablet
+^ESCTGL1024471	Glizofar 45mg tablets (Teva UK Ltd)
+^ESCTGL1024472	Glizofar 45mg tablets (Teva UK Ltd) 28 tablet
+^ESCTGL1025080	Glizofar 15mg tablets (Arrow Generics Ltd)
+^ESCTGL1025081	Glizofar 15mg tablets (Arrow Generics Ltd) 28 tablet 4 x 7 tablets
+^ESCTGL1025082	Glizofar 30mg tablets (Arrow Generics Ltd)
+^ESCTGL1025083	Glizofar 30mg tablets (Arrow Generics Ltd) 28 tablet 4 x 7 tablets
+^ESCTGL1025085	Glizofar 45mg tablets (Arrow Generics Ltd)
+^ESCTGL1025087	Glizofar 45mg tablets (Arrow Generics Ltd) 28 tablet 4 x 7 tablets
+^ESCTGL1056220	Glidipion 30mg tablets (Actavis UK Ltd)
+^ESCTGL1056223	Glidipion 30mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTGL1056244	Glidipion 45mg tablets (Actavis UK Ltd)
+^ESCTGL1056246	Glidipion 45mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTGL1109249	Glidipion 15mg tablets (Actavis UK Ltd)
+^ESCTGL1109250	Glidipion 15mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTPI1011834	Pioglitazone 45mg/5ml oral suspension 1 ml
+^ESCTPI1011836	Pioglitazone 45mg/5ml oral suspension (Special Order)
+^ESCTPI1011837	Pioglitazone 45mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPI1012096	Pioglitazone 45mg/5ml oral suspension
+^ESCTPI1019378	Pioglitazone 15mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPI1019379	Pioglitazone 15mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTPI1019380	Pioglitazone 30mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPI1019381	Pioglitazone 30mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTPI1020364	Pioglitazone 15mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPI1020365	Pioglitazone 15mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTPI1020366	Pioglitazone 30mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPI1020367	Pioglitazone 30mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTPI1020368	Pioglitazone 45mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPI1020369	Pioglitazone 45mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTPI1020405	Pioglitazone 45mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPI1020406	Pioglitazone 45mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTPI1020429	Pioglitazone 15mg tablets (Consilient Health Ltd)
+^ESCTPI1020430	Pioglitazone 15mg tablets (Consilient Health Ltd) 28 tablet 4 x 7 tablets
+^ESCTPI1020431	Pioglitazone 30mg tablets (Consilient Health Ltd)
+^ESCTPI1020432	Pioglitazone 30mg tablets (Consilient Health Ltd) 28 tablet 4 x 7 tablets
+^ESCTPI1020433	Pioglitazone 45mg tablets (Consilient Health Ltd)
+^ESCTPI1020434	Pioglitazone 45mg tablets (Consilient Health Ltd) 28 tablet 4 x 7 tablets
+^ESCTPI1021379	Pioglitazone 15mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTPI1021380	Pioglitazone 15mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTPI1021381	Pioglitazone 30mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTPI1021382	Pioglitazone 30mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTPI1021383	Pioglitazone 45mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTPI1021384	Pioglitazone 45mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTPI1027894	Pioglitazone 15mg tablets (Sandoz Ltd)
+^ESCTPI1027895	Pioglitazone 15mg tablets (Sandoz Ltd) 28 tablet
+^ESCTPI1027900	Pioglitazone 30mg tablets (Sandoz Ltd)
+^ESCTPI1027901	Pioglitazone 30mg tablets (Sandoz Ltd) 28 tablet
+^ESCTPI1027904	Pioglitazone 45mg tablets (Sandoz Ltd)
+^ESCTPI1027906	Pioglitazone 45mg tablets (Sandoz Ltd) 28 tablet
+^ESCTPI1028230	Pioglitazone 15mg tablets (Actavis UK Ltd)
+^ESCTPI1028231	Pioglitazone 15mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTPI1028232	Pioglitazone 30mg tablets (Actavis UK Ltd)
+^ESCTPI1028233	Pioglitazone 30mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTPI1028234	Pioglitazone 45mg tablets (Actavis UK Ltd)
+^ESCTPI1028235	Pioglitazone 45mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTPI1033607	Pioglitazone 15mg tablets (Zentiva)
+^ESCTPI1033608	Pioglitazone 15mg tablets (Zentiva) 28 tablet
+^ESCTPI1033609	Pioglitazone 30mg tablets (Zentiva)
+^ESCTPI1033610	Pioglitazone 30mg tablets (Zentiva) 28 tablet
+^ESCTPI1033611	Pioglitazone 45mg tablets (Zentiva)
+^ESCTPI1033612	Pioglitazone 45mg tablets (Zentiva) 28 tablet
+^ESCTPI1041282	Pioglitazone 15mg tablets (Teva UK Ltd)
+^ESCTPI1041284	Pioglitazone 15mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTPI1041291	Pioglitazone 30mg tablets (Teva UK Ltd)
+^ESCTPI1041293	Pioglitazone 30mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTPI1041294	Pioglitazone 45mg tablets (Teva UK Ltd)
+^ESCTPI1041295	Pioglitazone 45mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTPI1042077	Pioglitazone 15mg tablets (Waymade Healthcare Plc)
+^ESCTPI1042078	Pioglitazone 15mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTPI1042079	Pioglitazone 30mg tablets (Waymade Healthcare Plc)
+^ESCTPI1042080	Pioglitazone 30mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTPI1042081	Pioglitazone 45mg tablets (Waymade Healthcare Plc)
+^ESCTPI1042082	Pioglitazone 45mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTPI1052207	Pioglitazone 15mg tablets (Ranbaxy (UK) Ltd)
+^ESCTPI1052209	Pioglitazone 15mg tablets (Ranbaxy (UK) Ltd) 28 tablet 4 x 7 tablets
+^ESCTPI1052210	Pioglitazone 30mg tablets (Ranbaxy (UK) Ltd)
+^ESCTPI1052211	Pioglitazone 30mg tablets (Ranbaxy (UK) Ltd) 28 tablet 4 x 7 tablets
+^ESCTPI1052212	Pioglitazone 45mg tablets (Ranbaxy (UK) Ltd)
+^ESCTPI1052214	Pioglitazone 45mg tablets (Ranbaxy (UK) Ltd) 28 tablet 4 x 7 tablets
+^ESCTPI1057262	Pioglitazone 15mg tablets (Accord Healthcare Ltd)
+^ESCTPI1057263	Pioglitazone 15mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTPI1057264	Pioglitazone 30mg tablets (Accord Healthcare Ltd)
+^ESCTPI1057265	Pioglitazone 30mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTPI1057266	Pioglitazone 45mg tablets (Accord Healthcare Ltd)
+^ESCTPI1057269	Pioglitazone 45mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTPI1063438	Pioglitazone 30mg tablets (Morningside Healthcare Ltd)
+^ESCTPI1063439	Pioglitazone 30mg tablets (Morningside Healthcare Ltd) 28 tablet
+^ESCTPI1063440	Pioglitazone 45mg tablets (Morningside Healthcare Ltd)
+^ESCTPI1063461	Pioglitazone 15mg tablets (Morningside Healthcare Ltd)
+^ESCTPI1063462	Pioglitazone 15mg tablets (Morningside Healthcare Ltd) 28 tablet
+^ESCTPI1063463	Pioglitazone 45mg tablets (Morningside Healthcare Ltd) 28 tablet
+^ESCTPI1118826	Pioglitazone 15mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPI1118827	Pioglitazone 15mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTPI1118828	Pioglitazone 30mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPI1118829	Pioglitazone 30mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTPI1118830	Pioglitazone 45mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPI1118831	Pioglitazone 45mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTPI1119591	Pioglitazone 15mg tablets (DE Pharmaceuticals)
+^ESCTPI1119592	Pioglitazone 15mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTPI1119920	Pioglitazone 30mg tablets (DE Pharmaceuticals)
+^ESCTPI1119921	Pioglitazone 30mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTPI1119922	Pioglitazone 45mg tablets (DE Pharmaceuticals)
+^ESCTPI1119923	Pioglitazone 45mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTPI1127043	Pioglitazone 15mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTPI1127044	Pioglitazone 15mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTPI1127045	Pioglitazone 30mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTPI1127046	Pioglitazone 30mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTPI1127047	Pioglitazone 45mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTPI1127048	Pioglitazone 45mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTPI1142652	Pioglitazone 15mg tablets (Brown & Burk UK Ltd)
+^ESCTPI1142653	Pioglitazone 15mg tablets (Brown & Burk UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTPI1142654	Pioglitazone 30mg tablets (Brown & Burk UK Ltd)
+^ESCTPI1142655	Pioglitazone 30mg tablets (Brown & Burk UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTPI1142656	Pioglitazone 45mg tablets (Brown & Burk UK Ltd)
+^ESCTPI1142657	Pioglitazone 45mg tablets (Brown & Burk UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTPI1152953	Pioglitazone 45mg tablets (Mylan Ltd)
+^ESCTPI1152954	Pioglitazone 45mg tablets (Mylan Ltd) 28 tablet
+^ESCTPI1152955	Pioglitazone 30mg tablets (Mylan Ltd)
+^ESCTPI1152956	Pioglitazone 30mg tablets (Mylan Ltd) 28 tablet
+^ESCTPI1152957	Pioglitazone 15mg tablets (Mylan Ltd)
+^ESCTPI1152958	Pioglitazone 15mg tablets (Mylan Ltd) 28 tablet
+^ESCTPI613083	Pioglitazone 30mg tablets
+^ESCTPI613085	Pioglitazone 30 mg oral tablet
+^ESCTPI613086	Pioglitazone 15mg tablets
+^ESCTPI613088	Pioglitazone 15 mg oral tablet
+^ESCTPI639812	Pioglitazone 45mg tablets
+^ESCTPI639814	Pioglitazone 45 mg oral tablet
+^ESCTPI694438	Pioglitazone 15mg / Metformin 850mg tablets
+^ESCTPI694440	Pioglitazone 15 mg and metformin 850 mg oral tablet
+^ESCTPI839149	Pioglitazone 15mg tablets 28 tablet
+^ESCTPI847079	Pioglitazone 30mg tablets 28 tablet
+^ESCTPI876445	Pioglitazone 45mg tablets 28 tablet
+^ESCTPI934263	Pioglitazone 15mg / Metformin 850mg tablets 56 tablet
+^ESCTPI962444	Pioglitazone 30mg/5ml oral suspension 1 ml
+^ESCTPI962445	Pioglitazone 30mg/5ml oral suspension (Special Order)
+^ESCTPI962446	Pioglitazone 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPI962493	Pioglitazone 30mg/5ml oral suspension
+^ESCTPI987360	Pioglitazone 15mg/5ml oral suspension 1 ml
+^ESCTPI987361	Pioglitazone 15mg/5ml oral suspension (Special Order)
+^ESCTPI987362	Pioglitazone 15mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPI987705	Pioglitazone 15mg/5ml oral suspension
+^ESCTPR613084	Product containing pioglitazone 30 mg/1 each oral tablet
+^ESCTPR613087	Product containing pioglitazone 15 mg/1 each oral tablet
+^ESCTPR639813	Product containing pioglitazone 45 mg/1 each oral tablet
+^ESCTPR694439	Product containing pioglitazone 15 mg and metformin 850 mg/1 each oral tablet
+ACTA16489NEMIS	Actos  Tablets  45 mg
+ACTA5319NEMIS	Actos  Tablets  15 mg
+ACTA5320NEMIS	Actos  Tablets  30 mg
+COTA23359NEMIS	Competact  Tablets  15 mg + 850 mg
+DITA102012NEMIS	Diabiom  Tablets  15 mg
+DITA102013NEMIS	Diabiom  Tablets  30 mg
+DITA102014NEMIS	Diabiom  Tablets  45 mg
+GLTA101061NEMIS	Glidipion  Tablets  15 mg
+GLTA52769NEMIS	Glizofar  Tablets  15 mg
+GLTA52770NEMIS	Glizofar  Tablets  30 mg
+GLTA52771NEMIS	Glizofar  Tablets  45 mg
+GLTA85469NEMIS	Glidipion  Tablets  30 mg
+GLTA85470NEMIS	Glidipion  Tablets  45 mg
+PITA16488NEMIS	Pioglitazone Hydrochloride  Tablets  45 mg
+PITA23356NEMIS	Pioglitazone And Metformin  Tablets  15 mg + 850 mg
+PITA5315NEMIS	Pioglitazone Hydrochloride  Tablets  15 mg
+PITA5317NEMIS	Pioglitazone Hydrochloride  Tablets  30 mg

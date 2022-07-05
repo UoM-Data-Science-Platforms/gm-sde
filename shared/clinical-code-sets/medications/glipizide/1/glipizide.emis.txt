@@ -1,0 +1,78 @@
+^ESCT1178661	Glipizide 5mg tablets (Mylan)
+^ESCT1178732	Product containing only glipizide 2.5 mg/1 each oral tablet
+^ESCT1180002	Glipizide 5mg tablets (Mylan) 28 tablet 4 x 7 tablets
+^ESCT1181795	Product containing only glipizide 5 mg/1 each oral tablet
+^ESCT1188799	Glipizide 5mg tablets (Mylan) 56 tablet 4 x 14 tablets
+^ESCT1224609	Product containing precisely glipizide 5 milligram/1 each conventional release oral tablet
+^ESCT1224610	Product containing precisely glipizide 2.5 milligram/1 each conventional release oral tablet
+^ESCT1376026	Glipizide 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376029	Glipizide 5mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1376030	Glipizide 5mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1425855	Glipizide 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426356	Glipizide 5mg tablets (Kent Pharma (UK) Ltd) 56 tablet
+^ESCTGL1005893	Glipizide 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTGL1005894	Glipizide 5mg tablets (Phoenix Healthcare Distribution Ltd) 56 tablet
+^ESCTGL1023437	Glipizide 5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTGL1023438	Glipizide 5mg tablets (Almus Pharmaceuticals Ltd) 56 tablet
+^ESCTGL1043752	Glipizide 5mg tablets (Waymade Healthcare Plc)
+^ESCTGL1043753	Glipizide 5mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTGL1043754	Glipizide 5mg tablets (Waymade Healthcare Plc) 56 tablet
+^ESCTGL1063179	Glipizide 5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTGL1117798	Glipizide 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTGL1117799	Glipizide 5mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTGL1117800	Glipizide 5mg tablets (Sigma Pharmaceuticals Plc) 56 tablet
+^ESCTGL1120778	Glipizide 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTGL1120779	Glipizide 5mg tablets (Mawdsley-Brooks & Company Ltd) 56 tablet
+^ESCTGL612438	Glipizide 5mg tablets
+^ESCTGL612440	Glipizide 5 mg oral tablet
+^ESCTGL612441	Glipizide 2.5mg tablets
+^ESCTGL612443	Glipizide 2.5 mg oral tablet
+^ESCTGL804073	Glipizide 5mg tablets (Pfizer Ltd)
+^ESCTGL817694	Glipizide 5mg tablets (Mylan Ltd)
+^ESCTGL819341	Glibenese 5mg tablets (Pfizer Ltd)
+^ESCTGL821296	Glipizide 5mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTGL821300	Glipizide 5mg tablets (Sandoz Ltd)
+^ESCTGL822860	Glipizide 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTGL823314	Glipizide 5mg tablets (Actavis UK Ltd)
+^ESCTGL824793	Glipizide 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTGL826125	Glipizide 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTGL836237	Glipizide 5mg tablets 56 tablet
+^ESCTGL841662	Glipizide 5mg tablets 28 tablet
+^ESCTGL847892	Glipizide 2.5mg tablets 28 tablet
+^ESCTGL854335	Glipizide 5mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 4 x 7 tablets
+^ESCTGL854336	Glipizide 5mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTGL854337	Glipizide 5mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTGL854338	Glipizide 5mg tablets (Mylan Ltd) 56 tablet 4 x 14 tablets
+^ESCTGL854343	Glipizide 5mg tablets (IVAX Pharmaceuticals UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTGL854344	Glipizide 5mg tablets (Kent Pharmaceuticals Ltd) 56 tablet
+^ESCTGL854345	Glipizide 5mg tablets (Sandoz Ltd) 56 tablet 4 x 14 tablets
+^ESCTGL854346	Glibenese 5mg tablets (Pfizer Ltd) 56 tablet 4 x 14 tablets
+^ESCTGL854348	Glipizide 5mg tablets (Pfizer Ltd) 28 tablet 2 x 14 tablets
+^ESCTGL854349	Glipizide 5mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTGL854350	Glipizide 5mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet
+^ESCTGL877890	Glipizide 5mg tablets 100 tablet
+^ESCTGL923088	Glipizide 5mg tablets (Teva UK Ltd)
+^ESCTGL923090	Glipizide 5mg tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTGL929961	Glipizide 5mg tablets 30 tablet
+^ESCTGL963838	Glipizide 5mg tablets (DE Pharmaceuticals)
+^ESCTGL963839	Glipizide 5mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTGL993819	Glipizide 5mg tablets (Mylan Ltd) 28 tablet 4 x 7 tablets
+^ESCTMI820764	Minodiab 5mg tablets (Pfizer Ltd)
+^ESCTMI825934	Minodiab 2.5mg tablets (Pfizer Ltd)
+^ESCTMI854347	Minodiab 5mg tablets (Pfizer Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI854351	Minodiab 2.5mg tablets (Pfizer Ltd) 28 tablet 2 x 14 tablets
+^ESCTPR612439	Product containing glipizide 5 mg/1 each oral tablet
+^ESCTPR612442	Product containing glipizide 2.5 mg/1 each oral tablet
+GLTA1304	Glibenese  Tablets  5 mg
+GLTA1305	Glipizide  Tablets  5 mg
+GLTA35331MGEMIS	Glipizide  Tablets  5 mg (Pfizer)
+GLTA35332MGEMIS	Glipizide  Tablets  5 mg (Generics (UK))
+GLTA35333MGEMIS	Glipizide  Tablets  5 mg (Ivax Pharmaceuticals)
+GLTA35334MGEMIS	Glipizide  Tablets  5 mg (Sandoz)
+GLTA35335MGEMIS	Glipizide  Tablets  5 mg (A.A.H. Pharm)
+GLTA35336MGEMIS	Glipizide  Tablets  5 mg (Alpharma)
+GLTA35337MGEMIS	Glipizide  Tablets  5 mg (Unichem)
+GLTA35338MGEMIS	Glipizide  Tablets  5 mg (Kent Pharm)
+GLTA4961	Glipizide  Tablets  2.5 mg
+MITA3948	Minodiab  Tablets  2.5 mg
+MITA3949	Minodiab  Tablets  5 mg

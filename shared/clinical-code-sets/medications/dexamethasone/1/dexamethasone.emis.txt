@@ -1,0 +1,574 @@
+^ESCT1173926	Dexamethasone 40mg tablets 10 tablet
+^ESCT1173927	Neofordex 40mg tablets (Aspire Pharma Ltd)
+^ESCT1173928	Neofordex 40mg tablets (Aspire Pharma Ltd) 10 tablet
+^ESCT1173983	Dexamethasone 40mg tablets
+^ESCT1178737	Product containing only dexamethasone 2 mg/1 each oral tablet
+^ESCT1182164	Product containing only dexamethasone 0.5 milligram/1 each oral tablet
+^ESCT1185386	Product containing only dexamethasone 4 mg/1 each oral tablet
+^ESCT1195376	Dexamethasone 500microgram tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCT1195449	Dexamethasone 500microgram tablets (Consilient Health Ltd)
+^ESCT1195450	Dexamethasone 500microgram tablets (Consilient Health Ltd) 30 tablet
+^ESCT1195729	Dexamethasone (base) 3.8mg/1ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+^ESCT1195750	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCT1195904	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules (Hameln Pharmaceuticals Ltd)
+^ESCT1195911	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 5 ampoule
+^ESCT1195915	Dexamethasone (base) 6.6mg/2ml solution for injection vials
+^ESCT1195919	Dexamethasone (base) 6.6mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCT1195920	Dexamethasone (base) 6.6mg/2ml solution for injection vials (Pfizer Ltd) 5 vial
+^ESCT1195974	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules (Wockhardt UK Ltd) 10 ampoule
+^ESCT1195978	Dexamethasone (base) 3.8mg/1ml solution for injection vials (A A H Pharmaceuticals Ltd) 10 vial
+^ESCT1195997	Dexamethasone (base) 6.6mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1196005	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules 10 ampoule
+^ESCT1196014	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules (Hameln Pharmaceuticals Ltd) 5 ampoule
+^ESCT1196018	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules (Wockhardt UK Ltd)
+^ESCT1196083	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCT1196084	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules (Pfizer Ltd)
+^ESCT1196085	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules (Pfizer Ltd) 5 ampoule
+^ESCT1196086	Dexamethasone (base) 6.6mg/2ml solution for injection vials 5 vial
+^ESCT1196087	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules
+^ESCT1196122	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules 5 ampoule
+^ESCT1196123	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 5 ampoule
+^ESCT1196124	Dexamethasone (base) 6.6mg/2ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+^ESCT1196144	Dexamethasone (base) 6.6mg/2ml solution for injection vials (Pfizer Ltd)
+^ESCT1196179	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules (Hameln Pharmaceuticals Ltd) 10 ampoule
+^ESCT1196210	Dexamethasone (base) 6.6mg/2ml solution for injection vials (A A H Pharmaceuticals Ltd)
+^ESCT1196211	Dexamethasone (base) 6.6mg/2ml solution for injection vials (A A H Pharmaceuticals Ltd) 5 vial
+^ESCT1196212	Dexamethasone (base) 6.6mg/2ml solution for injection vials (Alliance Healthcare (Distribution) Ltd) 5 vial
+^ESCT1196252	Dexamethasone (base) 3.8mg/1ml solution for injection vials 10 vial
+^ESCT1196253	Dexamethasone (base) 3.8mg/1ml solution for injection vials
+^ESCT1196259	Dexamethasone (base) 3.8mg/1ml solution for injection vials (Alliance Healthcare (Distribution) Ltd) 10 vial
+^ESCT1196312	Dexamethasone (base) 6.6mg/2ml solution for injection ampoules (Hameln Pharmaceuticals Ltd)
+^ESCT1196313	Dexamethasone (base) 6.6mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCT1196314	Dexamethasone (base) 6.6mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 5 ampoule
+^ESCT1196364	Dexamethasone (base) 6.6mg/2ml solution for injection ampoules
+^ESCT1196391	Dexamethasone (base) 6.6mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 5 ampoule
+^ESCT1196399	Dexamethasone (base) 6.6mg/2ml solution for injection ampoules 10 ampoule
+^ESCT1196400	Dexamethasone (base) 6.6mg/2ml solution for injection ampoules (Hameln Pharmaceuticals Ltd) 10 ampoule
+^ESCT1196403	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1196449	Dexamethasone (base) 6.6mg/2ml solution for injection ampoules 5 ampoule
+^ESCT1196450	Dexamethasone (base) 6.6mg/2ml solution for injection ampoules (Hameln Pharmaceuticals Ltd) 5 ampoule
+^ESCT1196470	Dexamethasone (base) 3.8mg/1ml solution for injection vials (Aspen Pharma Trading Ltd)
+^ESCT1196475	Dexamethasone (base) 3.8mg/1ml solution for injection vials (A A H Pharmaceuticals Ltd)
+^ESCT1196496	Dexamethasone (base) 6.6mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCT1196542	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCT1196573	Dexamethasone (base) 3.8mg/1ml solution for injection vials (Aspen Pharma Trading Ltd) 10 vial
+^ESCT1197797	Dexamethasone 4mg tablets 30 tablet
+^ESCT1197800	Dexamethasone 4mg tablets 100 tablet
+^ESCT1197801	Dexamethasone 4mg tablets (Teva UK Ltd)
+^ESCT1197803	Dexamethasone 4mg tablets (Teva UK Ltd) 30 tablet 3 x 10 tablets
+^ESCT1197804	Dexamethasone 4mg tablets (Teva UK Ltd) 50 tablet 5 x 10 tablets
+^ESCT1197805	Dexamethasone 4mg tablets (Teva UK Ltd) 100 tablet 10 x 10 tablets
+^ESCT1197811	Dexamethasone 8mg tablets 30 tablet
+^ESCT1197812	Dexamethasone 8mg tablets 50 tablet
+^ESCT1197813	Dexamethasone 8mg tablets 100 tablet
+^ESCT1197814	Dexamethasone 8mg tablets (Teva UK Ltd)
+^ESCT1197815	Dexamethasone 8mg tablets (Teva UK Ltd) 30 tablet 3 x 10 tablets
+^ESCT1197818	Dexamethasone 8mg tablets (Teva UK Ltd) 50 tablet 5 x 10 tablets
+^ESCT1197819	Dexamethasone 8mg tablets (Teva UK Ltd) 100 tablet 10 x 10 tablets
+^ESCT1197927	Dexamethasone 8mg tablets
+^ESCT1198315	Dexamethasone 4mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1198316	Dexamethasone 4mg tablets (A A H Pharmaceuticals Ltd) 100 tablet 10 x 10 tablets
+^ESCT1198317	Dexamethasone 8mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1198318	Dexamethasone 8mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1198319	Dexamethasone 8mg tablets (A A H Pharmaceuticals Ltd) 50 tablet 5 x 10 tablets
+^ESCT1198320	Dexamethasone 8mg tablets (A A H Pharmaceuticals Ltd) 100 tablet 10 x 10 tablets
+^ESCT1216208	Dexamethasone 4mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1216209	Dexamethasone 4mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet 10 x 10 tablets
+^ESCT1224645	Product containing precisely dexamethasone 500 microgram/1 each conventional release oral tablet
+^ESCT1224646	Dexamethasone 500 microgram oral tablet
+^ESCT1224647	Product containing precisely dexamethasone 2 milligram/1 each conventional release oral tablet
+^ESCT1224648	Dexamethasone 100 microgram/mL oral solution
+^ESCT1224649	Product containing precisely dexamethasone 100 microgram/1 milliliter conventional release oral solution
+^ESCT1228718	Product containing precisely dexamethasone 4 milligram/1 each conventional release oral tablet
+^ESCT1250701	Dexamethasone 2mg/5ml oral solution sugar free (Advanz Pharma)
+^ESCT1250702	Dexamethasone 2mg/5ml oral solution sugar free (Advanz Pharma) 150 ml
+^ESCT1250793	Dexamethasone 10mg/5ml oral solution sugar free (Advanz Pharma)
+^ESCT1250794	Dexamethasone 10mg/5ml oral solution sugar free (Advanz Pharma) 50 ml
+^ESCT1250795	Dexamethasone 20mg/5ml oral solution sugar free (Advanz Pharma)
+^ESCT1250796	Dexamethasone 20mg/5ml oral solution sugar free (Advanz Pharma) 50 ml
+^ESCT1264224	Dexamethasone 2mg/5ml oral solution sugar free
+^ESCT1265448	Dexamethasone 500microgram tablets (Martindale Pharmaceuticals Ltd)
+^ESCT1265449	Dexamethasone 500microgram tablets (Martindale Pharmaceuticals Ltd) 28 tablet
+^ESCT1265450	Dexamethasone 500microgram tablets (Martindale Pharmaceuticals Ltd) 30 tablet
+^ESCT1265451	Dexamethasone 2mg tablets (Martindale Pharmaceuticals Ltd)
+^ESCT1265452	Dexamethasone 2mg tablets (Martindale Pharmaceuticals Ltd) 50 tablet
+^ESCT1265584	Dexamethasone 4mg tablets (DE Pharmaceuticals)
+^ESCT1265586	Dexamethasone 4mg tablets (DE Pharmaceuticals) 50 tablet
+^ESCT1271253	Dexamethasone 2mg soluble tablets sugar free (DE Pharmaceuticals)
+^ESCT1271254	Dexamethasone 2mg soluble tablets sugar free (DE Pharmaceuticals) 50 tablet
+^ESCT1271255	Dexamethasone 4mg soluble tablets sugar free (DE Pharmaceuticals)
+^ESCT1271256	Dexamethasone 4mg soluble tablets sugar free (DE Pharmaceuticals) 50 tablet
+^ESCT1271257	Dexamethasone 8mg soluble tablets sugar free (DE Pharmaceuticals)
+^ESCT1271258	Dexamethasone 8mg soluble tablets sugar free (DE Pharmaceuticals) 50 tablet
+^ESCT1274197	Dexamethasone 4mg tablets (Advanz Pharma)
+^ESCT1274198	Dexamethasone 4mg tablets (Advanz Pharma) 50 tablet 5 x 10 tablets
+^ESCT1274199	Dexamethasone 4mg tablets (Advanz Pharma) 100 tablet 10 x 10 tablets
+^ESCT1299366	Dexamethasone 500microgram tablets (Actavis UK Ltd)
+^ESCT1299367	Dexamethasone 500microgram tablets (Actavis UK Ltd) 30 tablet
+^ESCT1300266	Dexamethasone 2mg/5ml oral solution sugar free (Wockhardt UK Ltd)
+^ESCT1300267	Dexamethasone 2mg/5ml oral solution sugar free (Wockhardt UK Ltd) 150 ml
+^ESCT1304234	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules (hameln pharma Ltd)
+^ESCT1304235	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules (hameln pharma Ltd) 5 ampoule
+^ESCT1304280	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules (hameln pharma Ltd) 10 ampoule
+^ESCT1304281	Dexamethasone (base) 6.6mg/2ml solution for injection ampoules (hameln pharma Ltd)
+^ESCT1304282	Dexamethasone (base) 6.6mg/2ml solution for injection ampoules (hameln pharma Ltd) 5 ampoule
+^ESCT1304387	Dexamethasone (base) 6.6mg/2ml solution for injection ampoules (hameln pharma Ltd) 10 ampoule
+^ESCT1306470	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules (Panpharma UK Ltd)
+^ESCT1306471	Dexamethasone (base) 3.3mg/1ml solution for injection ampoules (Panpharma UK Ltd) 10 ampoule
+^ESCT1306472	Dexamethasone (base) 6.6mg/2ml solution for injection ampoules (Panpharma UK Ltd)
+^ESCT1306473	Dexamethasone (base) 6.6mg/2ml solution for injection ampoules (Panpharma UK Ltd) 10 ampoule
+^ESCT1374095	Dexamethasone 2mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCT1374096	Dexamethasone 2mg/5ml oral solution sugar free (Thame Laboratories Ltd) 150 ml
+^ESCT1375441	Dexamethasone 2mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375442	Dexamethasone 2mg tablets (Medihealth (Northern) Ltd) 50 tablet
+^ESCT1375443	Dexamethasone 4mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375444	Dexamethasone 4mg tablets (Medihealth (Northern) Ltd) 50 tablet
+^ESCT1375445	Dexamethasone 2mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1375447	Dexamethasone 2mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 150 ml
+^ESCT1404516	Dexamethasone 500microgram tablets (Medihealth (Northern) Ltd)
+^ESCT1404517	Dexamethasone 500microgram tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1410119	Decadron 500microgram tablets (Organon Pharma (UK) Ltd)
+^ESCT1410120	Decadron 500microgram tablets (Organon Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1412410	Dexamethasone 2mg tablets (Accord Healthcare Ltd)
+^ESCT1412411	Dexamethasone 2mg tablets (Accord Healthcare Ltd) 50 tablet
+^ESCT1412412	Dexamethasone 2mg tablets (Accord Healthcare Ltd) 100 tablet
+^ESCT1427676	Dexamethasone 2mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427677	Dexamethasone 2mg tablets (Kent Pharma (UK) Ltd) 50 tablet
+^ESCT1430141	Dexamethasone 10mg/5ml oral solution sugar free (Synchrony Pharma Ltd)
+^ESCT1430142	Dexamethasone 10mg/5ml oral solution sugar free (Synchrony Pharma Ltd) 50 ml
+^ESCT1430143	Dexamethasone 20mg/5ml oral solution sugar free (Synchrony Pharma Ltd)
+^ESCT1430144	Dexamethasone 20mg/5ml oral solution sugar free (Synchrony Pharma Ltd) 50 ml
+^ESCTDE1005630	Dexamethasone 2mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTDE1005631	Dexamethasone 2mg tablets (Phoenix Healthcare Distribution Ltd) 50 tablet
+^ESCTDE1005632	Dexamethasone 2mg tablets (Phoenix Healthcare Distribution Ltd) 100 tablet
+^ESCTDE1005633	Dexamethasone 2mg tablets (Phoenix Healthcare Distribution Ltd) 500 tablet
+^ESCTDE1006377	Dexamethasone 2mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTDE1006378	Dexamethasone 2mg tablets (Almus Pharmaceuticals Ltd) 50 tablet
+^ESCTDE1006379	Dexamethasone 2mg tablets (Almus Pharmaceuticals Ltd) 100 tablet
+^ESCTDE1006660	Dexamethasone 3.3mg/1ml solution for injection ampoules 10 ampoule
+^ESCTDE1006661	Dexamethasone 3.3mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTDE1020857	Dexamethasone 3.3mg/1ml solution for injection ampoules (Hameln Pharmaceuticals Ltd)
+^ESCTDE1020858	Dexamethasone 3.3mg/1ml solution for injection ampoules (Hameln Pharmaceuticals Ltd) 5 ampoule
+^ESCTDE1029055	Dexamethasone 8mg/5ml oral suspension 100 ml
+^ESCTDE1029057	Dexamethasone 8mg/5ml oral suspension (Special Order) 100 ml
+^ESCTDE1039916	Dexamethasone 2mg/5ml oral solution sugar free 75 ml
+^ESCTDE1039918	Dexsol 2mg/5ml oral solution (Rosemont Pharmaceuticals Ltd) 75 ml
+^ESCTDE1042774	Dexamethasone 2mg tablets (Waymade Healthcare Plc)
+^ESCTDE1042775	Dexamethasone 2mg tablets (Waymade Healthcare Plc) 50 tablet
+^ESCTDE1042776	Dexamethasone 2mg tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTDE1042783	Dexamethasone 2mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTDE1042784	Dexamethasone 2mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 75 ml
+^ESCTDE1044264	Dexamethasone 3.3mg/1ml solution for injection ampoules (Hameln Pharmaceuticals Ltd) 10 ampoule
+^ESCTDE1044268	Dexamethasone 6.6mg/2ml solution for injection ampoules 5 ampoule
+^ESCTDE1044269	Dexamethasone 6.6mg/2ml solution for injection ampoules (Hameln Pharmaceuticals Ltd)
+^ESCTDE1044270	Dexamethasone 6.6mg/2ml solution for injection ampoules (Hameln Pharmaceuticals Ltd) 5 ampoule
+^ESCTDE1044671	Dexamethasone 6.6mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTDE1044673	Dexamethasone 6.6mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 5 ampoule
+^ESCTDE1044930	Dexamethasone 6.6mg/2ml solution for injection ampoules
+^ESCTDE1047245	Dexamethasone 2mg/5ml oral solution sugar free (Focus Pharmaceuticals Ltd)
+^ESCTDE1047246	Dexamethasone 2mg/5ml oral solution sugar free (Focus Pharmaceuticals Ltd) 150 ml
+^ESCTDE1049688	Dexamethasone 2mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTDE1058261	Dexamethasone 2mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTDE1058262	Dexamethasone 2mg/5ml oral solution sugar free (Waymade Healthcare Plc) 150 ml
+^ESCTDE1061875	Dexamethasone 2mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTDE1061876	Dexamethasone 2mg/5ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCTDE1061877	Dexamethasone 2mg tablets (DE Pharmaceuticals)
+^ESCTDE1061878	Dexamethasone 2mg tablets (DE Pharmaceuticals) 50 tablet
+^ESCTDE1061879	Dexamethasone 2mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCTDE1065435	Dexamethasone 10mg/5ml oral solution sugar free 150 ml
+^ESCTDE1065436	Dexamethasone 10mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTDE1065438	Dexamethasone 10mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTDE1065509	Dexamethasone 10mg/5ml oral solution sugar free
+^ESCTDE1066125	Dexamethasone 10mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTDE1066126	Dexamethasone 10mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTDE1066172	Dexamethasone 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE1066173	Dexamethasone 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTDE1067535	Dexamethasone 10mg capsules 1 capsule
+^ESCTDE1067536	Dexamethasone 10mg capsules (Special Order)
+^ESCTDE1067537	Dexamethasone 10mg capsules (Special Order) 1 capsule
+^ESCTDE1067628	Dexamethasone 10mg capsules
+^ESCTDE1068232	Dexamethasone 2mg/5ml oral solution sugar free (Teva UK Ltd)
+^ESCTDE1068233	Dexamethasone 2mg/5ml oral solution sugar free (Teva UK Ltd) 150 ml
+^ESCTDE1068429	Dexamethasone 500microgram tablets (Teva UK Ltd)
+^ESCTDE1068430	Dexamethasone 500microgram tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDE1099878	Dexamethasone 3.8mg/1ml solution for injection vials 10 vial
+^ESCTDE1099879	Dexamethasone 3.8mg/1ml solution for injection vials (Aspen Pharma Trading Ltd)
+^ESCTDE1099880	Dexamethasone 3.8mg/1ml solution for injection vials (Aspen Pharma Trading Ltd) 10 vial
+^ESCTDE1100000	Dexamethasone 3.8mg/1ml solution for injection vials
+^ESCTDE1100727	Dexamethasone 3.3mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTDE1100728	Dexamethasone 6.6mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE1100729	Dexamethasone 6.6mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 5 ampoule
+^ESCTDE1100730	Dexamethasone 3.8mg/1ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE1100731	Dexamethasone 3.8mg/1ml solution for injection vials (Alliance Healthcare (Distribution) Ltd) 10 vial
+^ESCTDE1100743	Dexamethasone 3.8mg/1ml solution for injection vials (A A H Pharmaceuticals Ltd)
+^ESCTDE1100744	Dexamethasone 3.8mg/1ml solution for injection vials (A A H Pharmaceuticals Ltd) 10 vial
+^ESCTDE1108670	Dexamethasone 10mg/5ml oral solution sugar free 50 ml
+^ESCTDE1108671	Dexamethasone 10mg/5ml oral solution sugar free (Focus Pharmaceuticals Ltd)
+^ESCTDE1108672	Dexamethasone 10mg/5ml oral solution sugar free (Focus Pharmaceuticals Ltd) 50 ml
+^ESCTDE1108673	Dexamethasone 20mg/5ml oral solution sugar free 50 ml
+^ESCTDE1108674	Dexamethasone 20mg/5ml oral solution sugar free (Focus Pharmaceuticals Ltd)
+^ESCTDE1108675	Dexamethasone 20mg/5ml oral solution sugar free (Focus Pharmaceuticals Ltd) 50 ml
+^ESCTDE1108703	Dexamethasone 20mg/5ml oral solution sugar free
+^ESCTDE1111969	Dexamethasone 10mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 50 ml
+^ESCTDE1111972	Dexamethasone 20mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTDE1111973	Dexamethasone 20mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 50 ml
+^ESCTDE1117168	Dexamethasone 10mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTDE1117169	Dexamethasone 10mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc) 150 ml
+^ESCTDE1117170	Dexamethasone 2mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTDE1117171	Dexamethasone 2mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc) 150 ml
+^ESCTDE1117172	Dexamethasone 500microgram tablets (Sigma Pharmaceuticals Plc)
+^ESCTDE1117174	Dexamethasone 500microgram tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTDE1117175	Dexamethasone 500microgram tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTDE1119321	Dexamethasone 2mg/5ml oral solution sugar free (DE Pharmaceuticals) 75 ml
+^ESCTDE1119322	Dexamethasone 500microgram tablets (DE Pharmaceuticals)
+^ESCTDE1119323	Dexamethasone 500microgram tablets (DE Pharmaceuticals) 30 tablet
+^ESCTDE1126590	Dexamethasone 2mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTDE1126591	Dexamethasone 2mg tablets (Mawdsley-Brooks & Company Ltd) 50 tablet
+^ESCTDE1126592	Dexamethasone 2mg tablets (Mawdsley-Brooks & Company Ltd) 100 tablet
+^ESCTDE1129587	Dexamethasone 400microgram capsules 1 capsule
+^ESCTDE1129588	Dexamethasone 400microgram capsules (Special Order)
+^ESCTDE1129589	Dexamethasone 400microgram capsules (Special Order) 1 capsule
+^ESCTDE1129611	Dexamethasone 400microgram capsules
+^ESCTDE1136863	Dexamethasone 500microgram tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTDE1137506	Dexamethasone 2mg soluble tablets sugar free 50 tablet
+^ESCTDE1137508	Dexamethasone 2mg soluble tablets sugar free (Glenmark Pharmaceuticals Europe Ltd)
+^ESCTDE1137510	Dexamethasone 2mg soluble tablets sugar free (Glenmark Pharmaceuticals Europe Ltd) 50 tablet
+^ESCTDE1137518	Dexamethasone 8mg soluble tablets sugar free 50 tablet
+^ESCTDE1137522	Dexamethasone 8mg soluble tablets sugar free (Glenmark Pharmaceuticals Europe Ltd)
+^ESCTDE1137523	Dexamethasone 8mg soluble tablets sugar free (Glenmark Pharmaceuticals Europe Ltd) 50 tablet
+^ESCTDE1137525	Dexamethasone 4mg soluble tablets sugar free 50 tablet
+^ESCTDE1137527	Dexamethasone 4mg soluble tablets sugar free (Glenmark Pharmaceuticals Europe Ltd)
+^ESCTDE1137529	Dexamethasone 4mg soluble tablets sugar free (Glenmark Pharmaceuticals Europe Ltd) 50 tablet
+^ESCTDE1138501	Dexamethasone 500microgram tablets (Aspire Pharma Ltd)
+^ESCTDE1138502	Dexamethasone 500microgram tablets (Aspire Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTDE1138572	Dexamethasone 2mg soluble tablets sugar free
+^ESCTDE1138573	Dexamethasone 4mg soluble tablets sugar free
+^ESCTDE1138574	Dexamethasone 8mg soluble tablets sugar free
+^ESCTDE1139515	Dexamethasone 3.3mg/1ml solution for injection ampoules (Wockhardt UK Ltd)
+^ESCTDE1139516	Dexamethasone 3.3mg/1ml solution for injection ampoules (Wockhardt UK Ltd) 10 ampoule
+^ESCTDE1141797	Dexamethasone 2mg soluble tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTDE1141798	Dexamethasone 2mg soluble tablets sugar free (A A H Pharmaceuticals Ltd) 50 tablet
+^ESCTDE1141799	Dexamethasone 4mg soluble tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTDE1141800	Dexamethasone 4mg soluble tablets sugar free (A A H Pharmaceuticals Ltd) 50 tablet
+^ESCTDE1141801	Dexamethasone 8mg soluble tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTDE1141802	Dexamethasone 8mg soluble tablets sugar free (A A H Pharmaceuticals Ltd) 50 tablet
+^ESCTDE1141835	Dexamethasone 2mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTDE1141836	Dexamethasone 2mg tablets (Kent Pharmaceuticals Ltd) 50 tablet
+^ESCTDE1141962	Dexamethasone 2mg soluble tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE1141963	Dexamethasone 2mg soluble tablets sugar free (Alliance Healthcare (Distribution) Ltd) 50 tablet
+^ESCTDE1141964	Dexamethasone 4mg soluble tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE1141965	Dexamethasone 4mg soluble tablets sugar free (Alliance Healthcare (Distribution) Ltd) 50 tablet
+^ESCTDE1141966	Dexamethasone 8mg soluble tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE1141967	Dexamethasone 8mg soluble tablets sugar free (Alliance Healthcare (Distribution) Ltd) 50 tablet
+^ESCTDE1142560	Dexamethasone 500microgram tablets (Aspire Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTDE1152045	Dexamethasone 4mg tablets 50 tablet
+^ESCTDE1152046	Dexamethasone 4mg tablets (Consilient Health Ltd)
+^ESCTDE1152047	Dexamethasone 4mg tablets (Consilient Health Ltd) 50 tablet 5 x 10 tablets
+^ESCTDE1152588	Dexamethasone 4mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTDE1152589	Dexamethasone 4mg tablets (A A H Pharmaceuticals Ltd) 50 tablet 5 x 10 tablets
+^ESCTDE1153282	Dexamethasone 2mg tablets (Actavis UK Ltd)
+^ESCTDE1153283	Dexamethasone 2mg tablets (Actavis UK Ltd) 50 tablet
+^ESCTDE1153284	Dexamethasone 2mg tablets (Actavis UK Ltd) 100 tablet
+^ESCTDE1154297	Dexamethasone 6.6mg/2ml solution for injection ampoules 10 ampoule
+^ESCTDE1154298	Dexamethasone 6.6mg/2ml solution for injection ampoules (Hameln Pharmaceuticals Ltd) 10 ampoule
+^ESCTDE1154462	Dexamethasone 6.6mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTDE1155412	Dexamethasone 6.6mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTDE1157074	Dexamethasone 2mg tablets (Aspire Pharma Ltd)
+^ESCTDE1157075	Dexamethasone 2mg tablets (Aspire Pharma Ltd) 50 tablet 5 x 10 tablets
+^ESCTDE1160990	Dexamethasone 4mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE1160993	Dexamethasone 4mg tablets (Alliance Healthcare (Distribution) Ltd) 50 tablet 5 x 10 tablets
+^ESCTDE612525	Dexamethasone 500microgram tablets
+^ESCTDE612526	Dexamethasone 0.5 mg oral tablet
+^ESCTDE612528	Dexamethasone 2mg tablets
+^ESCTDE612530	Dexamethasone 2 mg oral tablet
+^ESCTDE612531	Dexamethasone 500micrograms/5ml oral solution
+^ESCTDE612532	Dexamethasone 500micrograms/5mL oral solution
+^ESCTDE641359	Dexamethasone 4mg tablets
+^ESCTDE641361	Dexamethasone 4 mg oral tablet
+^ESCTDE860771	Dexamethasone 500microgram tablets 30 tablet
+^ESCTDE860772	Dexamethasone 500microgram tablets 50 tablet
+^ESCTDE860773	Dexamethasone 500microgram tablets 100 tablet
+^ESCTDE860774	Dexamethasone 500microgram tablets 500 tablet
+^ESCTDE860777	Dexamethasone 500microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTDE860778	Dexamethasone 500microgram tablets (A A H Pharmaceuticals Ltd) 50 tablet
+^ESCTDE860779	Dexamethasone 500microgram tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTDE860780	Dexamethasone 500microgram tablets (A A H Pharmaceuticals Ltd) 500 tablet
+^ESCTDE860781	Decadron 500microgram tablets (Merck Sharp & Dohme Ltd)
+^ESCTDE860785	Decadron 500microgram tablets (Merck Sharp & Dohme Ltd) 30 tablet 3 x 10 tablets
+^ESCTDE860790	Dexamethasone 500microgram tablets (Organon Laboratories Ltd)
+^ESCTDE860793	Dexamethasone 500microgram tablets (Organon Laboratories Ltd) 50 tablet
+^ESCTDE860795	Dexamethasone 500microgram tablets (Organon Laboratories Ltd) 100 tablet
+^ESCTDE860798	Dexamethasone 500microgram tablets (Organon Laboratories Ltd) 500 tablet
+^ESCTDE860800	Dexamethasone 500microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE860801	Dexamethasone 500microgram tablets (Alliance Healthcare (Distribution) Ltd) 50 tablet
+^ESCTDE860803	Dexamethasone 500microgram tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTDE860804	Dexamethasone 500microgram tablets (Alliance Healthcare (Distribution) Ltd) 500 tablet
+^ESCTDE860810	Dexamethasone 2mg tablets 50 tablet
+^ESCTDE860811	Dexamethasone 2mg tablets 100 tablet
+^ESCTDE860812	Dexamethasone 2mg tablets 500 tablet
+^ESCTDE860815	Dexamethasone 2mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTDE860821	Dexamethasone 2mg tablets (A A H Pharmaceuticals Ltd) 50 tablet
+^ESCTDE860822	Dexamethasone 2mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTDE860823	Dexamethasone 2mg tablets (A A H Pharmaceuticals Ltd) 500 tablet
+^ESCTDE860826	Dexamethasone 2mg tablets (Aspen Pharma Trading Ltd)
+^ESCTDE860827	Dexamethasone 2mg tablets (Aspen Pharma Trading Ltd) 50 tablet
+^ESCTDE860830	Dexamethasone 2mg tablets (Aspen Pharma Trading Ltd) 100 tablet
+^ESCTDE860831	Dexamethasone 2mg tablets (Aspen Pharma Trading Ltd) 500 tablet
+^ESCTDE860832	Dexamethasone 2mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE860833	Dexamethasone 2mg tablets (Alliance Healthcare (Distribution) Ltd) 50 tablet
+^ESCTDE860836	Dexamethasone 2mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTDE860838	Dexamethasone 2mg tablets (Alliance Healthcare (Distribution) Ltd) 500 tablet
+^ESCTDE864978	Dexamethasone 2mg/5ml oral solution sugar free 150 ml
+^ESCTDE864980	Dexsol 2mg/5ml oral solution (Rosemont Pharmaceuticals Ltd)
+^ESCTDE864982	Dexsol 2mg/5ml oral solution (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTDE866669	Dexamethasone 8mg/2ml solution for injection vials 10 vial
+^ESCTDE866671	Dexamethasone 8mg/2ml solution for injection vials (A A H Pharmaceuticals Ltd)
+^ESCTDE866674	Dexamethasone 8mg/2ml solution for injection vials (A A H Pharmaceuticals Ltd) 10 vial
+^ESCTDE866678	Dexamethasone 8mg/2ml solution for injection vials (Organon Laboratories Ltd)
+^ESCTDE866679	Dexamethasone 8mg/2ml solution for injection vials (Organon Laboratories Ltd) 10 vial
+^ESCTDE866680	Dexamethasone 8mg/2ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE866681	Dexamethasone 8mg/2ml solution for injection vials (Alliance Healthcare (Distribution) Ltd) 10 vial
+^ESCTDE866684	Dexamethasone 4mg/1ml solution for injection ampoules 10 ampoule
+^ESCTDE866685	Dexamethasone 4mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTDE866686	Dexamethasone 4mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTDE866687	Dexamethasone 4mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd)
+^ESCTDE866691	Dexamethasone 4mg/1ml solution for injection ampoules (Aspen Pharma Trading Ltd) 10 ampoule
+^ESCTDE866697	Dexamethasone 4mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE866704	Dexamethasone 4mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTDE866713	Dexamethasone 3.3mg/1ml solution for injection ampoules 5 ampoule
+^ESCTDE866715	Dexamethasone 3.3mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTDE866717	Dexamethasone 3.3mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 5 ampoule
+^ESCTDE866718	Dexamethasone 3.3mg/1ml solution for injection ampoules (Pfizer Ltd)
+^ESCTDE866720	Dexamethasone 3.3mg/1ml solution for injection ampoules (Pfizer Ltd) 5 ampoule
+^ESCTDE866721	Dexamethasone 3.3mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE866722	Dexamethasone 3.3mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 5 ampoule
+^ESCTDE866726	Dexamethasone 6.6mg/2ml solution for injection vials 5 vial
+^ESCTDE866727	Dexamethasone 6.6mg/2ml solution for injection vials (A A H Pharmaceuticals Ltd)
+^ESCTDE866729	Dexamethasone 6.6mg/2ml solution for injection vials (A A H Pharmaceuticals Ltd) 5 vial
+^ESCTDE866745	Dexamethasone 6.6mg/2ml solution for injection vials (Pfizer Ltd)
+^ESCTDE866746	Dexamethasone 6.6mg/2ml solution for injection vials (Pfizer Ltd) 5 vial
+^ESCTDE866748	Dexamethasone 6.6mg/2ml solution for injection vials (Alliance Healthcare (Distribution) Ltd)
+^ESCTDE866749	Dexamethasone 6.6mg/2ml solution for injection vials (Alliance Healthcare (Distribution) Ltd) 5 vial
+^ESCTDE866769	Dexamethasone 6.6mg/2ml solution for injection vials
+^ESCTDE866770	Dexamethasone 3.3mg/1ml solution for injection ampoules
+^ESCTDE866771	Dexamethasone 4mg/1ml solution for injection ampoules
+^ESCTDE866772	Dexamethasone 8mg/2ml solution for injection vials
+^ESCTDE906101	Dexamethasone 1mg/5ml oral solution 1 ml
+^ESCTDE906104	Dexamethasone 1mg/5ml oral solution (Special Order)
+^ESCTDE906105	Dexamethasone 1mg/5ml oral solution (Special Order) 1 ml
+^ESCTDE906107	Dexamethasone 1mg/5ml oral suspension 1 ml
+^ESCTDE906110	Dexamethasone 1mg/5ml oral suspension (Special Order)
+^ESCTDE906111	Dexamethasone 1mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDE906113	Dexamethasone 100micrograms/5ml oral solution 1 ml
+^ESCTDE906115	Dexamethasone 100micrograms/5ml oral solution (Special Order)
+^ESCTDE906116	Dexamethasone 100micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTDE906117	Dexamethasone 200micrograms/5ml oral solution 1 ml
+^ESCTDE906118	Dexamethasone 200micrograms/5ml oral solution (Special Order)
+^ESCTDE906119	Dexamethasone 200micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTDE906120	Dexamethasone 100micrograms/5ml oral suspension 1 ml
+^ESCTDE906121	Dexamethasone 200micrograms/5ml oral suspension 1 ml
+^ESCTDE906122	Dexamethasone 200micrograms/5ml oral suspension (Special Order)
+^ESCTDE906123	Dexamethasone 200micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTDE906124	Dexamethasone 100micrograms/5ml oral suspension (Special Order)
+^ESCTDE906125	Dexamethasone 100micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTDE906163	Dexamethasone 200micrograms/5ml oral suspension
+^ESCTDE906164	Dexamethasone 200micrograms/5ml oral solution
+^ESCTDE906165	Dexamethasone 1mg/5ml oral suspension
+^ESCTDE906166	Dexamethasone 1mg/5ml oral solution
+^ESCTDE906167	Dexamethasone 100micrograms/5ml oral suspension
+^ESCTDE906168	Dexamethasone 100micrograms/5ml oral solution
+^ESCTDE906197	Dexamethasone 2.5mg/5ml oral solution 1 ml
+^ESCTDE906198	Dexamethasone 2.5mg/5ml oral solution (Special Order)
+^ESCTDE906199	Dexamethasone 5mg/5ml oral solution 1 ml
+^ESCTDE906200	Dexamethasone 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTDE906201	Dexamethasone 500micrograms/5ml oral solution 1 ml
+^ESCTDE906202	Dexamethasone 2.5mg/5ml oral suspension 1 ml
+^ESCTDE906203	Dexamethasone 5mg/5ml oral solution (Special Order)
+^ESCTDE906204	Dexamethasone 2.5mg/5ml oral suspension (Special Order)
+^ESCTDE906205	Dexamethasone 500micrograms/5ml oral solution (Special Order)
+^ESCTDE906206	Dexamethasone 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTDE906207	Dexamethasone 2.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDE906208	Dexamethasone 5mg/5ml oral suspension 1 ml
+^ESCTDE906209	Dexamethasone 500micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTDE906210	Dexamethasone 5mg/5ml oral suspension (Special Order)
+^ESCTDE906214	Dexamethasone 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDE906217	Dexamethasone 500micrograms/5ml oral suspension 1 ml
+^ESCTDE906223	Dexamethasone 500micrograms/5ml oral suspension (Special Order)
+^ESCTDE906228	Dexamethasone 500micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTDE906397	Dexamethasone 2.5mg/5ml oral solution
+^ESCTDE906398	Dexamethasone 2.5mg/5ml oral suspension
+^ESCTDE906399	Dexamethasone 500micrograms/5ml oral suspension
+^ESCTDE906400	Dexamethasone 5mg/5ml oral solution
+^ESCTDE906401	Dexamethasone 5mg/5ml oral suspension
+^ESCTDE909242	Dexamethasone 100microgram capsules 1 capsule
+^ESCTDE909243	Dexamethasone 100microgram capsules (Special Order)
+^ESCTDE909245	Dexamethasone 100microgram capsules (Special Order) 1 capsule
+^ESCTDE909663	Dexamethasone 100microgram capsules
+^ESCTDE912823	Dexamethasone 100mg/5ml solution for injection vials 1 vial
+^ESCTDE912824	Dexamethasone 100mg/5ml solution for injection vials (Hospira UK Ltd)
+^ESCTDE912825	Dexamethasone 100mg/5ml solution for injection vials (Hospira UK Ltd) 1 vial
+^ESCTDE913152	Dexamethasone 100mg/5ml solution for injection vials
+^ESCTDE914102	Dexamethasone 100mg/5ml solution for injection vials (A A H Pharmaceuticals Ltd)
+^ESCTDE914104	Dexamethasone 100mg/5ml solution for injection vials (A A H Pharmaceuticals Ltd) 1 vial
+^ESCTDE941269	Dexamethasone 10mg/5ml oral solution 1 ml
+^ESCTDE941270	Dexamethasone 10mg/5ml oral solution (Special Order)
+^ESCTDE941271	Dexamethasone 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTDE941273	Dexamethasone 10mg/5ml oral solution
+^ESCTDE941944	Dexamethasone 1.25mg/5ml oral suspension 1 ml
+^ESCTDE941946	Dexamethasone 1.25mg/5ml oral suspension (Special Order)
+^ESCTDE941947	Dexamethasone 1.25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDE941949	Dexamethasone 1.25mg/5ml oral solution 1 ml
+^ESCTDE941952	Dexamethasone 1.25mg/5ml oral solution (Special Order)
+^ESCTDE941953	Dexamethasone 1.25mg/5ml oral solution (Special Order) 1 ml
+^ESCTDE941954	Dexamethasone 1.5mg/5ml oral suspension 1 ml
+^ESCTDE941955	Dexamethasone 1.5mg/5ml oral suspension (Special Order)
+^ESCTDE941956	Dexamethasone 1.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDE941957	Dexamethasone 1.5mg/5ml oral solution 1 ml
+^ESCTDE941958	Dexamethasone 1.5mg/5ml oral solution (Special Order)
+^ESCTDE941959	Dexamethasone 1.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTDE941960	Dexamethasone 10mg/5ml oral suspension 1 ml
+^ESCTDE941961	Dexamethasone 10mg/5ml oral suspension (Special Order)
+^ESCTDE941962	Dexamethasone 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDE941969	Dexamethasone 14mg/5ml oral suspension 1 ml
+^ESCTDE941970	Dexamethasone 14mg/5ml oral suspension (Special Order)
+^ESCTDE941971	Dexamethasone 14mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDE941975	Dexamethasone 14mg/5ml oral solution 1 ml
+^ESCTDE941976	Dexamethasone 14mg/5ml oral solution (Special Order)
+^ESCTDE941977	Dexamethasone 14mg/5ml oral solution (Special Order) 1 ml
+^ESCTDE941981	Dexamethasone 16.7mg/5ml oral suspension 1 ml
+^ESCTDE941982	Dexamethasone 16.7mg/5ml oral suspension (Special Order)
+^ESCTDE941983	Dexamethasone 16.7mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDE941984	Dexamethasone 16.7mg/5ml oral solution 1 ml
+^ESCTDE941985	Dexamethasone 16.7mg/5ml oral solution (Special Order)
+^ESCTDE941986	Dexamethasone 16.7mg/5ml oral solution (Special Order) 1 ml
+^ESCTDE941990	Dexamethasone 16mg/5ml oral suspension 1 ml
+^ESCTDE941991	Dexamethasone 16mg/5ml oral suspension (Special Order)
+^ESCTDE941992	Dexamethasone 16mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDE941995	Dexamethasone 16mg/5ml oral solution 1 ml
+^ESCTDE941997	Dexamethasone 16mg/5ml oral solution (Special Order)
+^ESCTDE941998	Dexamethasone 16mg/5ml oral solution (Special Order) 1 ml
+^ESCTDE941999	Dexamethasone 20mg/5ml oral suspension 1 ml
+^ESCTDE942000	Dexamethasone 20mg/5ml oral suspension (Special Order)
+^ESCTDE942002	Dexamethasone 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDE942005	Dexamethasone 20mg/5ml oral solution 1 ml
+^ESCTDE942006	Dexamethasone 20mg/5ml oral solution (Special Order)
+^ESCTDE942007	Dexamethasone 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTDE942008	Dexamethasone 250micrograms/5ml oral suspension 1 ml
+^ESCTDE942009	Dexamethasone 250micrograms/5ml oral suspension (Special Order)
+^ESCTDE942011	Dexamethasone 250micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTDE942014	Dexamethasone 250micrograms/5ml oral solution 1 ml
+^ESCTDE942015	Dexamethasone 250micrograms/5ml oral solution (Special Order)
+^ESCTDE942016	Dexamethasone 250micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTDE942017	Dexamethasone 2mg/5ml oral suspension 1 ml
+^ESCTDE942019	Dexamethasone 2mg/5ml oral suspension (Special Order)
+^ESCTDE942021	Dexamethasone 2mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDE942023	Dexamethasone 2mg/5ml oral solution 1 ml
+^ESCTDE942024	Dexamethasone 2mg/5ml oral solution (Special Order)
+^ESCTDE942025	Dexamethasone 2mg/5ml oral solution (Special Order) 1 ml
+^ESCTDE942026	Dexamethasone 3mg/5ml oral suspension 1 ml
+^ESCTDE942027	Dexamethasone 3mg/5ml oral suspension (Special Order)
+^ESCTDE942028	Dexamethasone 3mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDE942029	Dexamethasone 3mg/5ml oral solution 1 ml
+^ESCTDE942031	Dexamethasone 3mg/5ml oral solution (Special Order)
+^ESCTDE942034	Dexamethasone 3mg/5ml oral solution (Special Order) 1 ml
+^ESCTDE942035	Dexamethasone 4mg/5ml oral suspension 1 ml
+^ESCTDE942036	Dexamethasone 4mg/5ml oral suspension (Special Order)
+^ESCTDE942037	Dexamethasone 4mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDE942038	Dexamethasone 4mg/5ml oral solution 1 ml
+^ESCTDE942039	Dexamethasone 4mg/5ml oral solution (Special Order)
+^ESCTDE942040	Dexamethasone 4mg/5ml oral solution (Special Order) 1 ml
+^ESCTDE942041	Dexamethasone 6mg/5ml oral suspension 1 ml
+^ESCTDE942042	Dexamethasone 6mg/5ml oral suspension (Special Order)
+^ESCTDE942043	Dexamethasone 6mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDE942044	Dexamethasone 6mg/5ml oral solution 1 ml
+^ESCTDE942045	Dexamethasone 6mg/5ml oral solution (Special Order)
+^ESCTDE942046	Dexamethasone 6mg/5ml oral solution (Special Order) 1 ml
+^ESCTDE942047	Dexamethasone 8mg/5ml oral suspension 1 ml
+^ESCTDE942048	Dexamethasone 8mg/5ml oral suspension (Special Order)
+^ESCTDE942049	Dexamethasone 8mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDE942050	Dexamethasone 8mg/5ml oral solution 1 ml
+^ESCTDE942051	Dexamethasone 8mg/5ml oral solution (Special Order)
+^ESCTDE942052	Dexamethasone 8mg/5ml oral solution (Special Order) 1 ml
+^ESCTDE942328	Dexamethasone 1.25mg/5ml oral solution
+^ESCTDE942330	Dexamethasone 1.25mg/5ml oral suspension
+^ESCTDE942332	Dexamethasone 1.5mg/5ml oral solution
+^ESCTDE942335	Dexamethasone 1.5mg/5ml oral suspension
+^ESCTDE942337	Dexamethasone 10mg/5ml oral suspension
+^ESCTDE942339	Dexamethasone 14mg/5ml oral solution
+^ESCTDE942341	Dexamethasone 14mg/5ml oral suspension
+^ESCTDE942343	Dexamethasone 16.7mg/5ml oral solution
+^ESCTDE942345	Dexamethasone 16.7mg/5ml oral suspension
+^ESCTDE942347	Dexamethasone 16mg/5ml oral solution
+^ESCTDE942349	Dexamethasone 16mg/5ml oral suspension
+^ESCTDE942351	Dexamethasone 20mg/5ml oral solution
+^ESCTDE942353	Dexamethasone 20mg/5ml oral suspension
+^ESCTDE942354	Dexamethasone 250micrograms/5ml oral solution
+^ESCTDE942356	Dexamethasone 250micrograms/5ml oral suspension
+^ESCTDE942358	Dexamethasone 2mg/5ml oral solution
+^ESCTDE942360	Dexamethasone 2mg/5ml oral suspension
+^ESCTDE942362	Dexamethasone 3mg/5ml oral solution
+^ESCTDE942364	Dexamethasone 3mg/5ml oral suspension
+^ESCTDE942366	Dexamethasone 4mg/5ml oral solution
+^ESCTDE942368	Dexamethasone 4mg/5ml oral suspension
+^ESCTDE942370	Dexamethasone 6mg/5ml oral solution
+^ESCTDE942372	Dexamethasone 6mg/5ml oral suspension
+^ESCTDE942374	Dexamethasone 8mg/5ml oral solution
+^ESCTDE942376	Dexamethasone 8mg/5ml oral suspension
+^ESCTDE978513	Dexamethasone 2mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTDE978515	Dexamethasone 2mg tablets (Sigma Pharmaceuticals Plc) 50 tablet
+^ESCTDE978517	Dexamethasone 2mg tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTDE978520	Dexamethasone 2mg tablets (Sigma Pharmaceuticals Plc) 500 tablet
+^ESCTDE979794	Dexamethasone 500microgram tablets (Essential Generics Ltd)
+^ESCTDE979796	Dexamethasone 500microgram tablets 28 tablet
+^ESCTDE979797	Dexamethasone 500microgram tablets (Essential Generics Ltd) 28 tablet
+^ESCTDE981926	Dexamethasone 500microgram tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTDE982274	Dexamethasone 500microgram tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTDE983388	Dexamethasone 2mg tablets (Teva UK Ltd)
+^ESCTDE983390	Dexamethasone 2mg tablets (Teva UK Ltd) 50 tablet 5 x 10 tablets
+^ESCTDE983393	Dexamethasone 2mg tablets (Teva UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTDE983394	Dexamethasone 2mg tablets (Teva UK Ltd) 500 tablet
+^ESCTGL1163234	Glensoludex 2mg soluble tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCTGL1163236	Glensoludex 2mg soluble tablets (Glenmark Pharmaceuticals Europe Ltd) 50 tablet
+^ESCTGL1163237	Glensoludex 4mg soluble tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCTGL1163238	Glensoludex 4mg soluble tablets (Glenmark Pharmaceuticals Europe Ltd) 50 tablet
+^ESCTGL1163239	Glensoludex 8mg soluble tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCTGL1163240	Glensoludex 8mg soluble tablets (Glenmark Pharmaceuticals Europe Ltd) 50 tablet
+^ESCTMA1023216	Martapan 2mg/5ml oral solution (Martindale Pharmaceuticals Ltd)
+^ESCTMA1023217	Martapan 2mg/5ml oral solution (Martindale Pharmaceuticals Ltd) 150 ml
+^ESCTPR612527	Product containing dexamethasone 0.5 milligram/1 each oral tablet
+^ESCTPR612529	Product containing dexamethasone 2 mg/1 each oral tablet
+^ESCTPR641360	Product containing dexamethasone 4 mg/1 each oral tablet
+DEIN21128NEMIS	Dexamethasone  Injection  4 mg/ml, 2 ml vial
+DEIN21129NEMIS	Dexamethasone  Injection  4 mg/ml, 1 ml ampoule
+DEOR45731NEMIS	Dexamethasone  Oral solution  5 mg/5 ml
+DEOR45732NEMIS	Dexamethasone  Oral suspension  5 mg/5 ml
+DEOR45733NEMIS	Dexamethasone  Oral solution  500 micrograms/5 ml
+DEOR45734NEMIS	Dexamethasone  Oral suspension  500 micrograms/5 ml
+DESO110021NEMIS	Dexamethasone  Soluble Tablets Sugar Free  2 mg
+DESO110022NEMIS	Dexamethasone  Soluble Tablets Sugar Free  4 mg
+DESO110023NEMIS	Dexamethasone  Soluble Tablets Sugar Free  8 mg
+DESO126795NEMIS	Dexamethasone (base)  Solution for injection  3.3 mg/1 ml ampoule
+DESO126796NEMIS	Dexamethasone (base)  Solution for injection  3.8 mg/1 ml vial
+DESO126797NEMIS	Dexamethasone (base)  Solution for injection  6.6 mg/2 ml ampoule
+DESO126798NEMIS	Dexamethasone (base)  Solution for injection  6.6 mg/2 ml vial
+DESU100647NEMIS	Dexamethasone  Sugar-free oral solution  20 mg/5 ml
+DESU4741NEMIS	Dexsol  Sugar-free oral solution  2 mg/5 ml
+DESU4742NEMIS	Dexamethasone  Sugar-free oral solution  2 mg/5 ml
+DESU88757NEMIS	Dexamethasone  Sugar-free oral solution  10 mg/5 ml
+DETA124642NEMIS	Dexamethasone  Tablets  40 mg
+DETA126892NEMIS	Dexamethasone  Tablets  8 mg
+DETA34714MGEMIS	Dexamethasone  Tablets  2 mg (A.A.H. Pharm)
+DETA34715MGEMIS	Dexamethasone  Tablets  2 mg (Organon)
+DETA34716MGEMIS	Dexamethasone  Tablets  2 mg (Unichem)
+DETA34717MGEMIS	Dexamethasone  Tablets  500 micrograms (A.A.H. Pharm)
+DETA34718MGEMIS	Dexamethasone  Tablets  500 micrograms (Organon)
+DETA34719MGEMIS	Dexamethasone  Tablets  500 micrograms (Unichem)
+DETA41464NEMIS	Dexamethasone  Tablets  4 mg
+DETA817	Decadron  Tablets  500 micrograms
+DETA845	Dexamethasone  Tablets  2 mg
+DETA846	Dexamethasone  Tablets  500 micrograms
+GLSO124531NEMIS	Glensoludex  Soluble tablets  2 mg
+GLSO124532NEMIS	Glensoludex  Soluble tablets  4 mg
+GLSO124533NEMIS	Glensoludex  Soluble tablets  8 mg
+MAOR52610NEMIS	Martapan  Oral solution  2 mg/5 ml
+NETA124644NEMIS	Neofordex  Tablets  40 mg

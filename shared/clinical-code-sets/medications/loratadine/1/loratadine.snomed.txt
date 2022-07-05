@@ -1,0 +1,137 @@
+320822001	Loratadine 10mg tablets
+3325711000001107	Loratadine 10mg tablets
+3325811000001104	Loratadine 10mg tablets
+3325911000001109	Loratadine 10mg tablets
+5385711000001107	Loratadine 10mg tablets
+5385811000001104	Loratadine 10mg tablets
+5455811000001103	Loratadine 10mg tablets
+18746711000001101	Loratadine 10mg tablets
+3326111000001100	Clarityn Allergy 10mg tablets
+10304111000001102	Clarityn Allergy 10mg tablets
+3326211000001106	Clarityn Allergy 10mg tablets
+3326411000001105	Clarityn Allergy 10mg tablets
+20983211000001103	Clarityn Allergy 10mg tablets
+23945811000001106	Clarityn Allergy 10mg tablets
+3326511000001109	Loratadine 10mg tablets
+3326711000001104	Loratadine 10mg tablets
+3326611000001108	Loratadine 10mg tablets
+3326811000001107	Loratadine 10mg tablets
+3326911000001102	Loratadine 10mg tablets
+3327011000001103	Loratadine 10mg tablets
+3327111000001102	Loratadine 10mg tablets
+3327211000001108	Loratadine 10mg tablets
+3327311000001100	Loratadine 10mg tablets
+4144211000001107	Loratadine 10mg tablets
+3327411000001107	Loratadine 10mg tablets
+3327511000001106	Loratadine 10mg tablets
+3656011000001107	Loratadine 10mg tablets
+3656111000001108	Loratadine 10mg tablets
+3996211000001105	Loratadine 10mg tablets
+3698911000001101	Loratadine 10mg tablets
+3699111000001106	Loratadine 10mg tablets
+4008011000001109	Loratadine 10mg tablets
+4008111000001105	Loratadine 10mg tablets
+15254111000001106	Loratadine 10mg tablets
+7459511000001102	Loratadine 10mg tablets
+7459711000001107	Loratadine 10mg tablets
+7908511000001103	Lloydspharmacy Non-Drowsy Allergy Relief 10mg tablets
+7908711000001108	Lloydspharmacy Non-Drowsy Allergy Relief 10mg tablets
+8969911000001107	Hay-Rite Allergy 10mg tablets
+8970011000001106	Hay-Rite Allergy 10mg tablets
+8980511000001106	Galpharm Non-Drowsy Hayfever and Allergy Relief 10mg tablets
+8980611000001105	Galpharm Non-Drowsy Hayfever and Allergy Relief 10mg tablets
+18746811000001109	Galpharm Non-Drowsy Hayfever and Allergy Relief 10mg tablets
+9463211000001100	Galpharm Non-Drowsy Allergy Relief 10mg tablets
+9463311000001108	Galpharm Non-Drowsy Allergy Relief 10mg tablets
+11016311000001102	Loratadine 10mg tablets
+11016411000001109	Loratadine 10mg tablets
+15108411000001104	Loratadine 10mg tablets
+15108511000001100	Loratadine 10mg tablets
+29894111000001102	Loratadine 10mg tablets
+17203611000001109	Loratadine 10mg tablets
+17203711000001100	Loratadine 10mg tablets
+17844111000001100	Boots One A Day Allergy Relief 10mg tablets
+31013411000001102	Boots One A Day Allergy Relief 10mg tablets
+17844211000001106	Boots One A Day Allergy Relief 10mg tablets
+17938211000001107	Loratadine 10mg tablets
+17938311000001104	Loratadine 10mg tablets
+19742511000001108	Loratadine 10mg tablets
+19742611000001107	Loratadine 10mg tablets
+22486711000001109	Roletra 10mg tablets
+22486811000001101	Roletra 10mg tablets
+22650711000001104	Numark Allergy & Hayfever 10mg tablets
+22650911000001102	Numark Allergy & Hayfever 10mg tablets
+22651011000001105	Numark Allergy & Hayfever 10mg tablets
+22650811000001107	Numark Allergy & Hayfever 10mg tablets
+22651111000001106	Numark Allergy & Hayfever 10mg tablets
+23598711000001106	Loratadine 10mg tablets
+23598811000001103	Loratadine 10mg tablets
+24370211000001109	Loratadine 10mg tablets
+24370311000001101	Loratadine 10mg tablets
+30222611000001102	Loratadine 10mg tablets
+30222711000001106	Loratadine 10mg tablets
+30222811000001103	Loratadine 10mg tablets
+32466011000001109	Loratadine 10mg tablets
+32466311000001107	Loratadine 10mg tablets
+36836811000001103	Loratadine 10mg tablets
+36836911000001108	Loratadine 10mg tablets
+39029311000001108	Loratadine 10mg tablets
+39029411000001101	Loratadine 10mg tablets
+40015211000001108	Loratadine 10mg tablets
+40015311000001100	Loratadine 10mg tablets
+38896711000001106	Loratadine 5mg/5ml oral solution
+3327611000001105	Loratadine 5mg/5ml oral solution
+3327711000001101	Loratadine 5mg/5ml oral solution
+5349611000001107	Loratadine 5mg/5ml oral solution
+22170311000001102	Loratadine 5mg/5ml oral solution
+3327811000001109	Clarityn 5mg/5ml syrup
+3327911000001104	Clarityn 5mg/5ml syrup
+3328011000001102	Clarityn Allergy 5mg/5ml syrup
+5034211000001108	Clarityn Allergy 5mg/5ml syrup
+3328111000001101	Clarityn Allergy 5mg/5ml syrup
+22170911000001101	Clarityn Allergy 5mg/5ml syrup
+4116511000001108	Loratadine 5mg/5ml oral solution
+4116611000001107	Loratadine 5mg/5ml oral solution
+4745711000001109	Loratadine 5mg/5ml oral solution
+4745911000001106	Loratadine 5mg/5ml oral solution
+8934211000001106	Loratadine 5mg/5ml oral solution
+4868711000001109	Loratadine 5mg/5ml oral solution
+4868811000001101	Loratadine 5mg/5ml oral solution
+7379911000001104	Loratadine 5mg/5ml oral solution
+7380011000001103	Loratadine 5mg/5ml oral solution
+7974911000001108	Loratadine 5mg/5ml oral solution
+13437311000001109	Loratadine 5mg/5ml oral solution
+7975011000001108	Loratadine 5mg/5ml oral solution
+9192511000001107	Loratadine 5mg/5ml oral solution
+9192611000001106	Loratadine 5mg/5ml oral solution
+9343411000001100	Loratadine 5mg/5ml oral solution
+15378111000001109	Loratadine 5mg/5ml oral solution
+9343511000001101	Loratadine 5mg/5ml oral solution
+13624511000001105	Loratadine 5mg/5ml oral solution
+13624611000001109	Loratadine 5mg/5ml oral solution
+15108611000001101	Loratadine 5mg/5ml oral solution
+15108711000001105	Loratadine 5mg/5ml oral solution
+18139311000001104	Loratadine 5mg/5ml oral solution
+18139411000001106	Loratadine 5mg/5ml oral solution
+22073611000001105	Loratadine 5mg/5ml oral solution
+22073711000001101	Loratadine 5mg/5ml oral solution
+24370011000001104	Loratadine 5mg/5ml oral solution
+24370111000001103	Loratadine 5mg/5ml oral solution
+30222411000001100	Loratadine 5mg/5ml oral solution
+30222511000001101	Loratadine 5mg/5ml oral solution
+33736411000001105	Lorapaed Allergy Relief 5mg/5ml oral solution
+33736511000001109	Lorapaed Allergy Relief 5mg/5ml oral solution
+38013311000001100	Loratadine 5mg/5ml oral solution
+38013411000001107	Loratadine 5mg/5ml oral solution
+39029511000001102	Loratadine 5mg/5ml oral solution
+39029811000001104	Loratadine 5mg/5ml oral solution
+21014411000001100	Loratadine 10mg oral lyophilisates sugar free
+20983911000001107	Loratadine 10mg oral lyophilisates sugar free
+20984011000001105	Clarityn Rapide Allergy 10mg tablets
+20984111000001106	Clarityn Rapide Allergy 10mg tablets
+36904111000001102	Loratadine 5mg/5ml oral solution sugar free
+36900111000001106	Loratadine 5mg/5ml oral solution sugar free
+36900211000001100	Loratadine 5mg/5ml oral solution sugar free
+36900311000001108	Loratadine 5mg/5ml oral solution sugar free
+40370511000001108	Loratadine 5mg/5ml oral solution sugar free
+40370711000001103	Loratadine 5mg/5ml oral solution sugar free

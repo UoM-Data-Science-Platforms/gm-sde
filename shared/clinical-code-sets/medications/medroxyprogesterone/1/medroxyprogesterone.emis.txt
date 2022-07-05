@@ -1,0 +1,86 @@
+^ESCT1181847	Product containing only medroxyprogesterone 2.5 mg/1 each oral tablet
+^ESCT1182177	Product containing only medroxyprogesterone acetate 5 mg/1 each oral tablet
+^ESCT1188193	Product containing only medroxyprogesterone acetate 10 mg/1 each oral tablet
+^ESCT1215508	Medroxyprogesterone 150mg/1ml suspension for injection pre-filled syringes
+^ESCT1215509	Medroxyprogesterone 150mg/1ml suspension for injection vials
+^ESCT1224699	Product containing precisely medroxyprogesterone acetate 10 milligram/1 each conventional release oral tablet
+^ESCT1224700	Medroxyprogesterone acetate 2.5 mg oral tablet
+^ESCT1224701	Product containing precisely medroxyprogesterone acetate 2.5 milligram/1 each conventional release oral tablet
+^ESCT1224702	Product containing precisely medroxyprogesterone acetate 5 milligram/1 each conventional release oral tablet
+^ESCT1424745	Conjugated oestrogens 625microgram / Medroxyprogesterone 5mg tablets
+^ESCTAD822841	Adgyn Medro 5mg tablets (Kyowa Kirin Ltd)
+^ESCTAD855024	Adgyn Medro 5mg tablets (Kyowa Kirin Ltd) 14 tablet
+^ESCTAD855025	Adgyn Medro 5mg tablets (Kyowa Kirin Ltd) 28 tablet
+^ESCTCL927683	Climanor 5mg tablets (ReSource Medical UK Ltd)
+^ESCTCL927684	Climanor 5mg tablets (ReSource Medical UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTCO839256	Conjugated oestrogens 625microgram / Medroxyprogesterone 5mg tablets 84 tablet
+^ESCTCO896535	Conjugated oestrogens 300microgram / Medroxyprogesterone 1.5mg modified-release tablets 84 tablet
+^ESCTCO983315	Conjugated oestrogens 300microgram / Medroxyprogesterone 1.5mg modified-release tablets
+^ESCTDE824009	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Pfizer Ltd)
+^ESCTDE854159	Depo-Provera 150mg/1ml suspension for injection pre-filled syringes (Pfizer Ltd) 1 pre-filled disposable injection
+^ESCTDE862687	Depo-Provera 150mg/1ml suspension for injection vials (Pfizer Ltd)
+^ESCTDE862689	Depo-Provera 150mg/1ml suspension for injection vials (Pfizer Ltd) 1 vial
+^ESCTES864284	Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets 84 tablet
+^ESCTES864287	Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets 84 tablet
+^ESCTES864361	Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets
+^ESCTES864362	Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets
+^ESCTES865001	Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets 84 tablet
+^ESCTES865091	Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets
+^ESCTES970313	Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets 28 tablet
+^ESCTES970314	Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets 28 tablet
+^ESCTES970315	Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets 28 tablet
+^ESCTME1045455	Medroxyprogesterone 104mg/0.65ml suspension for injection pre-filled disposable devices 1 pre-filled disposable injection
+^ESCTME1045501	Medroxyprogesterone 104mg/0.65ml suspension for injection pre-filled disposable devices
+^ESCTME612720	Medroxyprogesterone 10mg tablets
+^ESCTME612722	Medroxyprogesterone acetate 10 mg oral tablet
+^ESCTME612723	Medroxyprogesterone 2.5mg tablets
+^ESCTME612725	Medroxyprogesterone 2.5 mg oral tablet
+^ESCTME612726	Medroxyprogesterone 5mg tablets
+^ESCTME612728	Medroxyprogesterone acetate 5 mg oral tablet
+^ESCTME836927	Medroxyprogesterone 5mg tablets 28 tablet
+^ESCTME840936	Medroxyprogesterone 10mg tablets 10 tablet
+^ESCTME846642	Medroxyprogesterone 5mg tablets 100 tablet
+^ESCTME847189	Medroxyprogesterone 150mg/1ml suspension for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTME847206	Medroxyprogesterone 10mg tablets 90 tablet
+^ESCTME847840	Medroxyprogesterone 5mg tablets 14 tablet
+^ESCTME848092	Medroxyprogesterone 5mg tablets 10 tablet
+^ESCTME848341	Medroxyprogesterone 10mg tablets 100 tablet
+^ESCTME862682	Medroxyprogesterone 150mg/1ml suspension for injection vials 1 vial
+^ESCTME865127	Medroxyprogesterone 2.5mg tablets 30 tablet
+^ESCTME878214	Medroxyprogesterone 5mg tablets 40 tablet
+^ESCTME964226	Medroxyprogesterone 10mg tablets 30 tablet
+^ESCTME971337	Medroxyprogesterone 5mg tablets 30 tablet
+^ESCTME977011	Medroxyprogesterone 5mg tablets 60 tablet
+^ESCTPR612721	Product containing medroxyprogesterone acetate 10 mg/1 each oral tablet
+^ESCTPR612724	Product containing medroxyprogesterone 2.5 mg/1 each oral tablet
+^ESCTPR612727	Product containing medroxyprogesterone acetate 5 mg/1 each oral tablet
+^ESCTPR808844	Provera 5mg tablets (Pfizer Ltd)
+^ESCTPR832207	Provera 10mg tablets (Pfizer Ltd)
+^ESCTPR855004	Provera 10mg tablets (Pfizer Ltd) 10 tablet
+^ESCTPR855006	Provera 10mg tablets (Pfizer Ltd) 90 tablet 6 x 15 tablets
+^ESCTPR855007	Provera 10mg tablets (Pfizer Ltd) 100 tablet 10 x 10 tablets
+^ESCTPR855021	Provera 5mg tablets (Pfizer Ltd) 10 tablet
+^ESCTPR855022	Provera 5mg tablets (Pfizer Ltd) 100 tablet 10 x 10 tablets
+^ESCTPR865132	Provera 2.5mg tablets (Pfizer Ltd)
+^ESCTPR865136	Provera 2.5mg tablets (Pfizer Ltd) 30 tablet 3 x 10 tablets
+^ESCTSA1045456	Sayana Press 104mg/0.65 ml suspension for injection pre-filled disposable devices (Pfizer Ltd)
+^ESCTSA1045457	Sayana Press 104mg/0.65 ml suspension for injection pre-filled disposable devices (Pfizer Ltd) 1 pre-filled disposable injection
+ADTA5079NEMIS	Adgyn Medro  Tablets  5 mg
+CLTA22324NEMIS	Climanor  Tablets  5 mg
+COTA18950NEMIS	Conjugated Oestrogens And Medroxyprogesterone  Tablets  625 micrograms + 5 mg
+COTA18951NEMIS	Conjugated Oestrogens And Medroxyprogesterone  M/R tablets  300 micrograms + 1.5 mg
+DEIN14413NEMIS	Depo-Provera  Injection  150 mg/ml, 1 ml vial
+DEPR29122EMIS	Depo-Provera  Prefilled syringe  150 mg/1 ml
+ESTA18945NEMIS	Estradiol Valerate And Medroxyprogesterone Acetate  Tablets  1 mg + 2.5 mg
+ESTA18946NEMIS	Estradiol Valerate And Medroxyprogesterone Acetate  Tablets  1 mg + 5 mg
+ESTA18947NEMIS	Estradiol Valerate And Medroxyprogesterone Acetate  Tablets  2 mg + 5 mg
+MEPR29408EMIS	Medroxyprogesterone Acetate  Prefilled syringe  150 mg/1 ml
+MESU139742NEMIS	NULL
+MESU81503NEMIS	Medroxyprogesterone Acetate  Suspension For Injection  104 mg/0.65 ml pre-filled device
+META1749	Medroxyprogesterone Acetate  Tablets  5 mg
+META23818EMIS	Medroxyprogesterone Acetate  Tablets  2.5 mg
+META9109EMIS	Medroxyprogesterone Acetate  Tablets  10 mg
+PRTA23816EMIS	Provera  Tablets  2.5 mg
+PRTA2405	Provera  Tablets  5 mg
+PRTA9008EMIS	Provera  Tablets  10 mg
+SASU81505NEMIS	Sayana Press  Suspension For Injection  104 mg/0.65 ml pre-filled device

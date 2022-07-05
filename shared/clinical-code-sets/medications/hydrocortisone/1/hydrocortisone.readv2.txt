@@ -1,0 +1,8 @@
+fe41.	HYDROCORTISONE 10mg tablets
+fe42.	HYDROCORTISONE 20mg tablets
+fe44.	*HYDROCORTONE 10mg tablets
+fe45.	*HYDROCORTONE 20mg tablets
+fe4e.	PLENADREN 5mg m/r tablets
+fe4f.	HYDROCORTISONE 5mg m/r tablets
+fe4g.	PLENADREN 20mg m/r tablets
+fe4h.	HYDROCORTISONE 20mg m/r tablets

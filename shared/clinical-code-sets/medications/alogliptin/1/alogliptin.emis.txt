@@ -1,0 +1,24 @@
+^ESCTAL1058646	Alogliptin 12.5mg / Metformin 1g tablets 56 tablet
+^ESCTAL1058661	Alogliptin 6.25mg tablets 28 tablet
+^ESCTAL1058680	Alogliptin 12.5mg tablets 28 tablet
+^ESCTAL1058683	Alogliptin 25mg tablets 28 tablet
+^ESCTAL1058691	Alogliptin 12.5mg / Metformin 1g tablets
+^ESCTAL1058692	Alogliptin 12.5mg tablets
+^ESCTAL1058693	Alogliptin 25mg tablets
+^ESCTAL1058694	Alogliptin 6.25mg tablets
+^ESCTVI1058647	Vipdomet 12.5mg/1000mg tablets (Takeda UK Ltd)
+^ESCTVI1058649	Vipdomet 12.5mg/1000mg tablets (Takeda UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTVI1058662	Vipidia 6.25mg tablets (Takeda UK Ltd)
+^ESCTVI1058663	Vipidia 6.25mg tablets (Takeda UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTVI1058681	Vipidia 12.5mg tablets (Takeda UK Ltd)
+^ESCTVI1058682	Vipidia 12.5mg tablets (Takeda UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTVI1058684	Vipidia 25mg tablets (Takeda UK Ltd)
+^ESCTVI1058685	Vipidia 25mg tablets (Takeda UK Ltd) 28 tablet 2 x 14 tablets
+ALTA86900NEMIS	Alogliptin  Tablets  6.25 mg
+ALTA86902NEMIS	Alogliptin  Tablets  12.5 mg
+ALTA86903NEMIS	Alogliptin  Tablets  25 mg
+ALTA86909NEMIS	Alogliptin And Metformin  Tablets  12.5 mg + 1000 mg
+VITA86905NEMIS	Vipidia  Tablets  6.25 mg
+VITA86906NEMIS	Vipidia  Tablets  12.5 mg
+VITA86907NEMIS	Vipidia  Tablets  25 mg
+VITA86911NEMIS	Vipdomet  Tablets  12.5 mg + 1000 mg

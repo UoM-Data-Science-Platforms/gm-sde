@@ -1,0 +1,143 @@
+^ESCT1188186	Product containing only fludrocortisone acetate 100 microgram/1 each oral tablet
+^ESCT1197891	Fludrocortisone 150microgram capsules 1 capsule
+^ESCT1197892	Fludrocortisone 150microgram capsules (Special Order)
+^ESCT1197893	Fludrocortisone 150microgram capsules (Special Order) 1 capsule
+^ESCT1197932	Fludrocortisone 150microgram capsules
+^ESCT1224640	Product containing precisely fludrocortisone acetate 100 microgram/1 each conventional release oral tablet
+^ESCT1224641	Fludrocortisone acetate 100 microgram oral tablet
+^ESCT1259819	Fludrocortisone 50microgram tablets 1 tablet
+^ESCT1259820	Fludrocortisone 50microgram tablets (Special Order)
+^ESCT1259821	Fludrocortisone 50microgram tablets (Special Order) 1 tablet
+^ESCT1259928	Fludrocortisone 50microgram tablets
+^ESCT1304363	Fludrocortisone 100microgram tablets (Mylan)
+^ESCT1304364	Fludrocortisone 100microgram tablets (Mylan) 30 tablet
+^ESCT1374728	Fludrocortisone 100microgram tablets (Aspen Pharma Trading Ltd)
+^ESCT1374729	Fludrocortisone 100microgram tablets (Aspen Pharma Trading Ltd) 100 tablet
+^ESCT1375866	Fludrocortisone 100microgram tablets (Medihealth (Northern) Ltd)
+^ESCT1375867	Fludrocortisone 100microgram tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1429132	Fludrocortisone 100microgram tablets (Medihealth (Northern) Ltd) 100 tablet
+^ESCTFL1045510	Fludrocortisone 25micrograms/5ml oral suspension 100 ml
+^ESCTFL1045511	Fludrocortisone 25micrograms/5ml oral suspension (Special Order) 100 ml
+^ESCTFL1045512	Fludrocortisone 50micrograms/5ml oral suspension 100 ml
+^ESCTFL1045513	Fludrocortisone 50micrograms/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTFL1099235	Fludrocortisone 100micrograms/5ml oral suspension 100 ml
+^ESCTFL1099236	Fludrocortisone 100micrograms/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTFL1139869	Fludrocortisone 100microgram tablets (Aspen Pharma Trading Ltd)
+^ESCTFL1139871	Fludrocortisone 100microgram tablets 30 tablet
+^ESCTFL1139873	Fludrocortisone 100microgram tablets (Aspen Pharma Trading Ltd) 30 tablet
+^ESCTFL1141970	Fludrocortisone 100microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTFL1141971	Fludrocortisone 100microgram tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTFL1142736	Fludrocortisone 100microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTFL1142737	Fludrocortisone 100microgram tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTFL1157011	Fludrocortisone 100microgram tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTFL612511	Fludrocortisone 100microgram tablets
+^ESCTFL612513	Fludrocortisone acetate 100 microgram/1 each oral tablet
+^ESCTFL827964	Florinef 100microgram tablets (Aspen Pharma Trading Ltd)
+^ESCTFL847785	Fludrocortisone 100microgram tablets 56 tablet
+^ESCTFL855522	Florinef 100microgram tablets (Aspen Pharma Trading Ltd) 56 tablet
+^ESCTFL906645	Fludrocortisone 100micrograms/5ml oral suspension 1 ml
+^ESCTFL906646	Fludrocortisone 100micrograms/5ml oral suspension (Drug Tariff Special Order)
+^ESCTFL906649	Fludrocortisone 100micrograms/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTFL906654	Fludrocortisone 125micrograms/5ml oral suspension 1 ml
+^ESCTFL906655	Fludrocortisone 125micrograms/5ml oral suspension (Special Order)
+^ESCTFL906657	Fludrocortisone 125micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTFL906667	Fludrocortisone 400micrograms/5ml oral suspension 1 ml
+^ESCTFL906668	Fludrocortisone 250micrograms/5ml oral suspension 1 ml
+^ESCTFL906669	Fludrocortisone 250micrograms/5ml oral suspension (Special Order)
+^ESCTFL906670	Fludrocortisone 400micrograms/5ml oral suspension (Special Order)
+^ESCTFL906671	Fludrocortisone 250micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTFL906672	Fludrocortisone 400micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTFL906673	Fludrocortisone 500micrograms/5ml oral suspension 1 ml
+^ESCTFL906674	Fludrocortisone 25micrograms/5ml oral suspension 1 ml
+^ESCTFL906675	Fludrocortisone 500micrograms/5ml oral suspension (Special Order)
+^ESCTFL906677	Fludrocortisone 50micrograms/5ml oral suspension 1 ml
+^ESCTFL906678	Fludrocortisone 500micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTFL906679	Fludrocortisone 150micrograms/5ml oral suspension 1 ml
+^ESCTFL906680	Fludrocortisone 50micrograms/5ml oral suspension (Drug Tariff Special Order)
+^ESCTFL906681	Fludrocortisone 25micrograms/5ml oral suspension (Special Order)
+^ESCTFL906683	Fludrocortisone 150micrograms/5ml oral suspension (Special Order)
+^ESCTFL906684	Fludrocortisone 50micrograms/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTFL906685	Fludrocortisone 25micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTFL906686	Fludrocortisone 150micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTFL906687	Fludrocortisone 200micrograms/5ml oral suspension 1 ml
+^ESCTFL906688	Fludrocortisone 62.5micrograms/5ml oral suspension 1 ml
+^ESCTFL906689	Fludrocortisone 200micrograms/5ml oral suspension (Special Order)
+^ESCTFL906690	Fludrocortisone 62.5micrograms/5ml oral suspension (Special Order)
+^ESCTFL906691	Fludrocortisone 200micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTFL906692	Fludrocortisone 62.5micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTFL906693	Fludrocortisone 85micrograms/5ml oral suspension 1 ml
+^ESCTFL906694	Fludrocortisone 85micrograms/5ml oral suspension (Special Order)
+^ESCTFL906695	Fludrocortisone 85micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTFL907007	Fludrocortisone 100micrograms/5ml oral suspension
+^ESCTFL907008	Fludrocortisone 125micrograms/5ml oral suspension
+^ESCTFL907009	Fludrocortisone 150micrograms/5ml oral suspension
+^ESCTFL907010	Fludrocortisone 200micrograms/5ml oral suspension
+^ESCTFL907011	Fludrocortisone 250micrograms/5ml oral suspension
+^ESCTFL907012	Fludrocortisone 25micrograms/5ml oral suspension
+^ESCTFL907013	Fludrocortisone 400micrograms/5ml oral suspension
+^ESCTFL907014	Fludrocortisone 500micrograms/5ml oral suspension
+^ESCTFL907015	Fludrocortisone 50micrograms/5ml oral suspension
+^ESCTFL907016	Fludrocortisone 62.5micrograms/5ml oral suspension
+^ESCTFL907017	Fludrocortisone 85micrograms/5ml oral suspension
+^ESCTFL909241	Fludrocortisone 50microgram capsules 1 capsule
+^ESCTFL909248	Fludrocortisone 50microgram capsules (Special Order)
+^ESCTFL909249	Fludrocortisone 50microgram capsules (Special Order) 1 capsule
+^ESCTFL909677	Fludrocortisone 50microgram capsules
+^ESCTFL944816	Fludrocortisone 10micrograms/5ml oral suspension 1 ml
+^ESCTFL944819	Fludrocortisone 10micrograms/5ml oral suspension (Special Order)
+^ESCTFL944820	Fludrocortisone 10micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTFL944822	Fludrocortisone 130micrograms/5ml oral suspension 1 ml
+^ESCTFL944825	Fludrocortisone 130micrograms/5ml oral suspension (Special Order)
+^ESCTFL944826	Fludrocortisone 130micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTFL944829	Fludrocortisone 187.5micrograms/5ml oral suspension 1 ml
+^ESCTFL944831	Fludrocortisone 187.5micrograms/5ml oral suspension (Special Order)
+^ESCTFL944832	Fludrocortisone 187.5micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTFL944834	Fludrocortisone 1mg/5ml oral suspension 1 ml
+^ESCTFL944837	Fludrocortisone 1mg/5ml oral suspension (Special Order)
+^ESCTFL944841	Fludrocortisone 1mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFL944847	Fludrocortisone 20micrograms/5ml oral suspension 1 ml
+^ESCTFL944852	Fludrocortisone 20micrograms/5ml oral suspension (Special Order)
+^ESCTFL944855	Fludrocortisone 20micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTFL944865	Fludrocortisone 30micrograms/5ml oral suspension 1 ml
+^ESCTFL944872	Fludrocortisone 30micrograms/5ml oral suspension (Special Order)
+^ESCTFL944877	Fludrocortisone 30micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTFL944902	Fludrocortisone 600micrograms/5ml oral suspension 1 ml
+^ESCTFL944904	Fludrocortisone 600micrograms/5ml oral suspension (Special Order)
+^ESCTFL944906	Fludrocortisone 600micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTFL944917	Fludrocortisone 625micrograms/5ml oral suspension 1 ml
+^ESCTFL944919	Fludrocortisone 625micrograms/5ml oral suspension (Special Order)
+^ESCTFL944921	Fludrocortisone 625micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTFL944929	Fludrocortisone 750micrograms/5ml oral suspension 1 ml
+^ESCTFL944935	Fludrocortisone 750micrograms/5ml oral suspension (Special Order)
+^ESCTFL944936	Fludrocortisone 750micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTFL944946	Fludrocortisone 75micrograms/5ml oral suspension 1 ml
+^ESCTFL944948	Fludrocortisone 75micrograms/5ml oral suspension (Special Order)
+^ESCTFL944952	Fludrocortisone 75micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTFL944964	Fludrocortisone 850micrograms/5ml oral suspension 1 ml
+^ESCTFL944966	Fludrocortisone 850micrograms/5ml oral suspension (Special Order)
+^ESCTFL944968	Fludrocortisone 850micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTFL945541	Fludrocortisone 10micrograms/5ml oral suspension
+^ESCTFL945542	Fludrocortisone 130micrograms/5ml oral suspension
+^ESCTFL945543	Fludrocortisone 187.5micrograms/5ml oral suspension
+^ESCTFL945544	Fludrocortisone 1mg/5ml oral suspension
+^ESCTFL945545	Fludrocortisone 20micrograms/5ml oral suspension
+^ESCTFL945546	Fludrocortisone 30micrograms/5ml oral suspension
+^ESCTFL945548	Fludrocortisone 600micrograms/5ml oral suspension
+^ESCTFL945549	Fludrocortisone 625micrograms/5ml oral suspension
+^ESCTFL945550	Fludrocortisone 750micrograms/5ml oral suspension
+^ESCTFL945551	Fludrocortisone 75micrograms/5ml oral suspension
+^ESCTFL945552	Fludrocortisone 850micrograms/5ml oral suspension
+^ESCTFL952445	Fludrocortisone 100microgram tablets 100 tablet
+^ESCTFL952446	Florinef 100microgram tablets (Aspen Pharma Trading Ltd) 100 tablet
+^ESCTFL981324	Fludrocortisone 30microgram capsules 1 capsule
+^ESCTFL981325	Fludrocortisone 30microgram capsules (Special Order)
+^ESCTFL981326	Fludrocortisone 30microgram capsules (Special Order) 1 capsule
+^ESCTFL981382	Fludrocortisone 30microgram capsules
+^ESCTPR612512	Product containing fludrocortisone acetate 100 microgram/1 each oral tablet
+FLLI30575EMIS	Fludrocortisone Acetate  Liquid  250 micrograms/5 ml
+FLOR46453NEMIS	Fludrocortisone  Oral suspension  50 micrograms/5 ml
+FLOR51930NEMIS	Fludrocortisone  Oral suspension  125 micrograms/5 ml
+FLSU16951NEMIS	Fludrocortisone  Suspension  20 micrograms/5 ml
+FLSU24124NEMIS	Fludrocortisone  Suspension  100 micrograms/5 ml
+FLTA1185	Florinef  Tablets  100 micrograms
+FLTA8362BRID	Fludrocortisone  Tablets  100 micrograms

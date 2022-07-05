@@ -1,0 +1,86 @@
+^ESCT1180491	Cinnarizine 15mg tablets (Mylan) 15 tablet
+^ESCT1181904	Product containing only cinnarizine 15 mg/1 each oral tablet
+^ESCT1183752	Cinnarizine 15mg tablets (Mylan)
+^ESCT1183753	Cinnarizine 15mg tablets (Mylan) 84 tablet 4 x 21 tablets
+^ESCT1184900	Mylan Travel Sickness 15mg tablets (Mylan) 15 tablet
+^ESCT1190046	Mylan Travel Sickness 15mg tablets (Mylan)
+^ESCT1223625	Product containing precisely cinnarizine 15 milligram/1 each conventional release oral tablet
+^ESCT1260160	Stugeron 15mg tablets (Johnson & Johnson Ltd)
+^ESCT1260164	Stugeron 15mg tablets (Johnson & Johnson Ltd) 15 tablet
+^ESCT1260165	Stugeron 15mg tablets (Johnson & Johnson Ltd) 100 tablet 10 x 10 tablets
+^ESCT1263927	Cinnarizine 15mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1263928	Cinnarizine 15mg tablets (Mawdsley-Brooks & Company Ltd) 84 tablet
+^ESCT1269684	Boots Motion Sickness 15mg tablets (The Boots Company Plc)
+^ESCT1269685	Boots Motion Sickness 15mg tablets (The Boots Company Plc) 15 tablet
+^ESCT1375133	Cinnarizine 15mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375134	Cinnarizine 15mg tablets (Medihealth (Northern) Ltd) 84 tablet
+^ESCT1375135	Cinnarizine 15mg tablets (Medihealth (Northern) Ltd) 100 tablet
+^ESCT1425869	Cinnarizine 15mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426196	Cinnarizine 15mg tablets (Kent Pharma (UK) Ltd) 84 tablet 4 x 21 tablets
+^ESCTBO1128393	Boots Motion Sickness15mg tablets (The Boots Company Plc)
+^ESCTBO1128394	Boots Motion Sickness15mg tablets (The Boots Company Plc) 15 tablet
+^ESCTCI1005327	Cinnarizine 15mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCI1005328	Cinnarizine 15mg tablets (Phoenix Healthcare Distribution Ltd) 84 tablet
+^ESCTCI1013253	Cinnarizine 15mg tablets (Sigma Pharmaceuticals Plc) 15 tablet
+^ESCTCI1023602	Cinnarizine 15mg tablets (Mylan Ltd) 15 tablet
+^ESCTCI1029202	Cinnarizine 15mg/5ml oral suspension 100 ml
+^ESCTCI1029203	Cinnarizine 15mg/5ml oral suspension (Special Order) 100 ml
+^ESCTCI1042039	Cinnarizine 15mg tablets (Waymade Healthcare Plc)
+^ESCTCI1042041	Cinnarizine 15mg tablets (Waymade Healthcare Plc) 84 tablet
+^ESCTCI1060098	Cinnarizine 15mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCI1060099	Cinnarizine 15mg tablets (Almus Pharmaceuticals Ltd) 84 tablet
+^ESCTCI1060456	Cinnarizine 15mg tablets (DE Pharmaceuticals)
+^ESCTCI1060457	Cinnarizine 15mg tablets (DE Pharmaceuticals) 84 tablet
+^ESCTCI1117111	Cinnarizine 15mg tablets (Sigma Pharmaceuticals Plc) 84 tablet
+^ESCTCI609848	Cinnarizine 15mg tablets
+^ESCTCI609850	Cinnarizine 15 mg oral tablet
+^ESCTCI801403	Cinnarizine 15mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCI801673	Cinnarizine 15mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCI805161	Cinnarizine 15mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCI813276	Cinnarizine 15mg tablets (Actavis UK Ltd)
+^ESCTCI813560	Cinaziere 15mg tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTCI828005	Cinnarizine 15mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCI831239	Cinnarizine 15mg tablets (The Boots Company Plc)
+^ESCTCI841283	Cinnarizine 15mg tablets 100 tablet
+^ESCTCI846918	Cinnarizine 15mg tablets 84 tablet
+^ESCTCI847298	Cinnarizine 15mg tablets 15 tablet
+^ESCTCI848030	Cinnarizine 15mg tablets 28 tablet
+^ESCTCI851196	Cinnarizine 15mg tablets (A A H Pharmaceuticals Ltd) 84 tablet 4 x 21 tablets
+^ESCTCI851201	Cinnarizine 15mg tablets (Actavis UK Ltd) 84 tablet 6 x 14 tablets
+^ESCTCI851202	Cinaziere 15mg tablets (Ashbourne Pharmaceuticals Ltd) 84 tablet
+^ESCTCI851203	Cinnarizine 15mg tablets (The Boots Company Plc) 28 tablet
+^ESCTCI851204	Cinnarizine 15mg tablets (IVAX Pharmaceuticals UK Ltd) 84 tablet 6 x 14 tablets
+^ESCTCI851209	Cinnarizine 15mg tablets (Kent Pharmaceuticals Ltd) 84 tablet 4 x 21 tablets
+^ESCTCI851211	Cinnarizine 15mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet
+^ESCTCI877554	Cinnarizine 15mg tablets (Mylan Ltd)
+^ESCTCI877558	Cinnarizine 15mg tablets (Mylan Ltd) 84 tablet 4 x 21 tablets
+^ESCTCI923080	Cinnarizine 15mg tablets (Teva UK Ltd)
+^ESCTCI923082	Cinnarizine 15mg tablets (Teva UK Ltd) 84 tablet 4 x 21 tablets
+^ESCTCI945054	Cinnarizine 10mg/5ml oral suspension 1 ml
+^ESCTCI945058	Cinnarizine 10mg/5ml oral suspension (Special Order)
+^ESCTCI945062	Cinnarizine 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCI945065	Cinnarizine 15mg/5ml oral suspension 1 ml
+^ESCTCI945067	Cinnarizine 15mg/5ml oral suspension (Special Order)
+^ESCTCI945068	Cinnarizine 15mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCI945435	Cinnarizine 10mg/5ml oral suspension
+^ESCTCI945436	Cinnarizine 15mg/5ml oral suspension
+^ESCTCI978244	Cinnarizine 15mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCI978246	Cinnarizine 15mg tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTMY1003519	Mylan Travel Sickness 15mg tablets (Mylan Ltd)
+^ESCTMY1003521	Mylan Travel Sickness 15mg tablets (Mylan Ltd) 15 tablet
+^ESCTPR609849	Product containing cinnarizine 15 mg/1 each oral tablet
+^ESCTST802180	Stugeron 15mg tablets (McNeil Products Ltd)
+^ESCTST851207	Stugeron 15mg tablets (McNeil Products Ltd) 15 tablet
+^ESCTST851208	Stugeron 15mg tablets (McNeil Products Ltd) 100 tablet 10 x 10 tablets
+^ESCTST946639	Stugeron 15mg tablets (Janssen-Cilag Ltd)
+^ESCTST946640	Stugeron 15mg tablets (Janssen-Cilag Ltd) 100 tablet 10 x 10 tablets
+CITA18852EMIS	Cinaziere  Tablets  15 mg
+CITA34356MGEMIS	Cinnarizine  Tablets  15 mg (Unichem)
+CITA34357MGEMIS	Cinnarizine  Tablets  15 mg (Ivax Pharmaceuticals)
+CITA34358MGEMIS	Cinnarizine  Tablets  15 mg (A.A.H. Pharm)
+CITA34359MGEMIS	Cinnarizine  Tablets  15 mg (Alpharma)
+CITA34360MGEMIS	Cinnarizine  Tablets  15 mg (Kent Pharm)
+CITA34361MGEMIS	Cinnarizine  Tablets  15 mg (The Boots Company)
+CITA34362MGEMIS	Cinnarizine  Tablets  15 mg (Generics (UK))
+CITA630	Cinnarizine  Tablets  15 mg
+STTA2717	Stugeron  Tablets  15 mg

@@ -1,0 +1,8 @@
+ftk1.	VIPIDIA 6.25mg tablets
+ftk2.	ALOGLIPTIN 6.25mg tablets
+ftk3.	VIPIDIA 12.5mg tablets
+ftk4.	ALOGLIPTIN 12.5mg tablets
+ftk5.	VIPIDIA 25mg tablets
+ftk6.	ALOGLIPTIN 25mg tablets
+ftl1.	VIPDOMET 12.5mg/1000mg tablets
+ftl2.	ALOGLIPTIN+METFORMIN HYDROCHLORIDE 12.5mg/1000mg tablets

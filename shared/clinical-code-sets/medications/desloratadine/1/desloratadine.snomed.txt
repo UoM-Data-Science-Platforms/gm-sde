@@ -1,0 +1,77 @@
+134508009	Desloratadine 5mg tablets
+976911000001102	Desloratadine 5mg tablets
+10528111000001103	Desloratadine 5mg tablets
+69711000001105	Neoclarityn 5mg tablets
+2163211000001108	Neoclarityn 5mg tablets
+19625011000001100	Desloratadine 5mg tablets
+19625111000001104	Desloratadine 5mg tablets
+19668711000001102	Desloratadine 5mg tablets
+19668811000001105	Desloratadine 5mg tablets
+19794311000001104	Desloratadine 5mg tablets
+19794411000001106	Desloratadine 5mg tablets
+19957611000001100	Desloratadine 5mg tablets
+19957711000001109	Desloratadine 5mg tablets
+20175211000001108	Desloratadine 5mg tablets
+20175311000001100	Desloratadine 5mg tablets
+20468711000001103	Desloratadine 5mg tablets
+20468811000001106	Desloratadine 5mg tablets
+20569111000001101	Desloratadine 5mg tablets
+20569211000001107	Desloratadine 5mg tablets
+22048611000001104	Desloratadine 5mg tablets
+22048711000001108	Desloratadine 5mg tablets
+23653811000001108	Desloratadine 5mg tablets
+23653911000001103	Desloratadine 5mg tablets
+23967211000001108	Desloratadine 5mg tablets
+23967411000001107	Desloratadine 5mg tablets
+27974811000001101	Desloratadine 5mg tablets
+27974911000001106	Desloratadine 5mg tablets
+29801711000001102	Desloratadine 5mg tablets
+29801911000001100	Desloratadine 5mg tablets
+30020011000001101	Desloratadine 5mg tablets
+30020111000001100	Desloratadine 5mg tablets
+33581811000001107	Desloratadine 5mg tablets
+33581911000001102	Desloratadine 5mg tablets
+34107211000001107	Desloratadine 5mg tablets
+34107311000001104	Desloratadine 5mg tablets
+38865611000001109	Desloratadine 5mg tablets
+38866011000001106	Desloratadine 5mg tablets
+3344611000001102	Desloratadine 2.5mg/5ml oral solution
+1163411000001106	Desloratadine 2.5mg/5ml oral solution
+11765411000001102	Desloratadine 2.5mg/5ml oral solution
+282711000001107	Neoclarityn 2.5mg/5ml syrup
+2646911000001103	Neoclarityn 2.5mg/5ml syrup
+16101011000001100	Desloratadine 2.5mg/5ml oral solution sugar free
+16097811000001106	Desloratadine 2.5mg/5ml oral solution sugar free
+16299211000001105	Desloratadine 2.5mg/5ml oral solution sugar free
+16098011000001104	Neoclarityn 2.5mg/5ml oral solution
+16098111000001103	Neoclarityn 2.5mg/5ml oral solution
+16299411000001109	Neoclarityn 2.5mg/5ml oral solution
+20343311000001109	Midetorin 2.5mg/5ml oral solution (Actavis)
+20343411000001102	Midetorin 2.5mg/5ml oral solution (Actavis)
+20499711000001109	Desloratadine 2.5mg/5ml oral solution sugar free
+32682811000001104	Desloratadine 2.5mg/5ml oral solution sugar free
+20499811000001101	Desloratadine 2.5mg/5ml oral solution sugar free
+22380411000001108	Midetorin 2.5mg/5ml oral solution (Arrow)
+22380511000001107	Midetorin 2.5mg/5ml oral solution (Arrow)
+22392211000001109	Desloratadine 2.5mg/5ml oral solution sugar free
+22392311000001101	Desloratadine 2.5mg/5ml oral solution sugar free
+31257711000001104	Desloratadine 2.5mg/5ml oral solution sugar free
+31257811000001107	Desloratadine 2.5mg/5ml oral solution sugar free
+31990211000001100	Desloratadine 2.5mg/5ml oral solution sugar free
+31990311000001108	Desloratadine 2.5mg/5ml oral solution sugar free
+32065011000001107	Desloratadine 2.5mg/5ml oral solution sugar free
+32065211000001102	Desloratadine 2.5mg/5ml oral solution sugar free
+32895711000001107	Desloratadine 2.5mg/5ml oral solution sugar free
+32897011000001103	Desloratadine 2.5mg/5ml oral solution sugar free
+32896211000001106	Desloratadine 2.5mg/5ml oral solution sugar free
+34019911000001100	Desloratadine 2.5mg/5ml oral solution sugar free
+34020211000001108	Desloratadine 2.5mg/5ml oral solution sugar free
+35689611000001108	Desloratadine 2.5mg/5ml oral solution sugar free
+35689711000001104	Desloratadine 2.5mg/5ml oral solution sugar free
+37058811000001103	Desloratadine 2.5mg/5ml oral solution sugar free
+37059011000001104	Desloratadine 2.5mg/5ml oral solution sugar free
+37236611000001105	Desloratadine 2.5mg/5ml oral solution sugar free
+37236711000001101	Desloratadine 2.5mg/5ml oral solution sugar free
+37602511000001103	Desloratadine 2.5mg/5ml oral solution sugar free
+39852211000001108	Desloratadine 2.5mg/5ml oral solution sugar free
+39852311000001100	Desloratadine 2.5mg/5ml oral solution sugar free

@@ -1,0 +1,9 @@
+c8i1.	PHENERGAN 10mg tablets
+c8i2.	PHENERGAN 25mg tablets
+c8i3.	PHENERGAN 5mg/5mL elixir
+c8i4.	PHENERGAN 25mg/1mL injection
+c8i6.	PHENERGAN NIGHTIME 25mg tablets
+c8iv.	PROMETHAZINE 10mg tablets
+c8iw.	PROMETHAZINE 25mg tablets
+c8ix.	PROMETHAZINE 5mg/5mL elixir
+c8iy.	PROMETHAZINE 25mg/1mL injection

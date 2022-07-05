@@ -1,0 +1,673 @@
+^ESCT1175226	Atrolak XL 150mg tablets (Accord Healthcare Ltd)
+^ESCT1175227	Atrolak XL 150mg tablets (Accord Healthcare Ltd) 60 tablet
+^ESCT1177333	Quetiapine 25mg tablets (Milpharm Ltd)
+^ESCT1177334	Quetiapine 25mg tablets (Milpharm Ltd) 60 tablet
+^ESCT1177335	Quetiapine 100mg tablets (Milpharm Ltd)
+^ESCT1177336	Quetiapine 100mg tablets (Milpharm Ltd) 60 tablet
+^ESCT1177337	Quetiapine 150mg tablets (Milpharm Ltd)
+^ESCT1177338	Quetiapine 150mg tablets (Milpharm Ltd) 60 tablet
+^ESCT1177339	Quetiapine 200mg tablets (Milpharm Ltd)
+^ESCT1177340	Quetiapine 200mg tablets (Milpharm Ltd) 60 tablet
+^ESCT1177341	Quetiapine 300mg tablets (Milpharm Ltd)
+^ESCT1177342	Quetiapine 300mg tablets (Milpharm Ltd) 60 tablet
+^ESCT1178169	Product containing only quetiapine 200 mg/1 each oral tablet
+^ESCT1180507	Quetiapine 25mg tablets (A A H Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCT1180508	Quetiapine 100mg tablets (A A H Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCT1180509	Quetiapine 150mg tablets (A A H Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCT1180891	Quetiapine 20mg/ml oral suspension sugar free
+^ESCT1180937	Quetiapine 25mg tablets (Mylan) 60 tablet
+^ESCT1180938	Quetiapine 150mg tablets (Mylan)
+^ESCT1180939	Quetiapine 200mg tablets (Mylan)
+^ESCT1180940	Quetiapine 200mg tablets (Mylan) 60 tablet
+^ESCT1183124	Product containing only quetiapine 300 mg/1 each oral tablet
+^ESCT1184516	Quetiapine 200mg tablets (A A H Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCT1184517	Quetiapine 300mg tablets (A A H Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCT1184988	Quetiapine 25mg tablets (Mylan)
+^ESCT1184989	Quetiapine 150mg tablets (Mylan) 60 tablet
+^ESCT1184990	Quetiapine 300mg tablets (Mylan) 60 tablet
+^ESCT1187020	Quetiapine 100mg tablets (Mylan) 60 tablet
+^ESCT1187021	Quetiapine 300mg tablets (Mylan)
+^ESCT1187122	Quetiapine 20mg/ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1187123	Quetiapine 20mg/ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCT1187285	Product containing only quetiapine 25 mg/1 each oral tablet
+^ESCT1187286	Product containing only quetiapine 100 mg/1 each oral tablet
+^ESCT1190093	Quetiapine 20mg/ml oral suspension sugar free 150 ml
+^ESCT1190147	Quetiapine 100mg tablets (Mylan)
+^ESCT1195724	Quetiapine 200mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1195792	Quetiapine 150mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1195810	Quetiapine 300mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1195902	Quetiapine 150mg tablets (Lupin Healthcare (UK) Ltd) 60 tablet
+^ESCT1196245	Quetiapine 100mg tablets (Lupin Healthcare (UK) Ltd) 60 tablet
+^ESCT1196246	Quetiapine 200mg tablets (Lupin Healthcare (UK) Ltd) 60 tablet
+^ESCT1196376	Quetiapine 25mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196377	Quetiapine 100mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196468	Quetiapine 300mg tablets (Lupin Healthcare (UK) Ltd) 60 tablet
+^ESCT1196568	Quetiapine 25mg tablets (Lupin Healthcare (UK) Ltd) 60 tablet
+^ESCT1199323	Quetiapine 25mg tablets (Consilient Health Ltd)
+^ESCT1199324	Quetiapine 25mg tablets (Consilient Health Ltd) 60 tablet
+^ESCT1199325	Quetiapine 100mg tablets (Consilient Health Ltd)
+^ESCT1199326	Quetiapine 100mg tablets (Consilient Health Ltd) 60 tablet
+^ESCT1199327	Quetiapine 150mg tablets (Consilient Health Ltd)
+^ESCT1199328	Quetiapine 150mg tablets (Consilient Health Ltd) 60 tablet
+^ESCT1199329	Quetiapine 200mg tablets (Consilient Health Ltd)
+^ESCT1199330	Quetiapine 200mg tablets (Consilient Health Ltd) 60 tablet
+^ESCT1199331	Quetiapine 300mg tablets (Consilient Health Ltd)
+^ESCT1199332	Quetiapine 300mg tablets (Consilient Health Ltd) 60 tablet
+^ESCT1223473	Quetiapine (as quetiapine fumarate) 25 mg oral tablet
+^ESCT1223474	Product containing precisely quetiapine (as quetiapine fumarate) 25 milligram/1 each conventional release oral tablet
+^ESCT1223475	Product containing precisely quetiapine (as quetiapine fumarate) 100 milligram/1 each conventional release oral tablet
+^ESCT1223476	Quetiapine (as quetiapine fumarate) 100 mg oral tablet
+^ESCT1223477	Product containing precisely quetiapine (as quetiapine fumarate) 200 milligram/1 each conventional release oral tablet
+^ESCT1223478	Quetiapine (as quetiapine fumarate) 200 mg oral tablet
+^ESCT1234409	Quetiapine (as quetiapine fumarate) 300 mg prolonged-release oral tablet
+^ESCT1234410	Product containing precisely quetiapine (as quetiapine fumarate) 300 milligram/1 each prolonged-release oral tablet
+^ESCT1234454	Product containing precisely quetiapine (as quetiapine fumarate) 200 milligram/1 each prolonged-release oral tablet
+^ESCT1234455	Quetiapine (as quetiapine fumarate) 200 mg prolonged-release oral tablet
+^ESCT1234472	Quetiapine (as quetiapine fumarate) 400 mg prolonged-release oral tablet
+^ESCT1234473	Product containing precisely quetiapine (as quetiapine fumarate) 400 milligram/1 each prolonged-release oral tablet
+^ESCT1234831	Quetiapine (as quetiapine fumarate) 300 mg oral tablet
+^ESCT1234832	Product containing precisely quetiapine (as quetiapine fumarate) 300 milligram/1 each conventional release oral tablet
+^ESCT1259736	Quetiapine 25mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259737	Quetiapine 25mg tablets (Torrent Pharma (UK) Ltd) 60 tablet
+^ESCT1259738	Quetiapine 100mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259740	Quetiapine 100mg tablets (Torrent Pharma (UK) Ltd) 60 tablet
+^ESCT1259742	Quetiapine 150mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259743	Quetiapine 150mg tablets (Torrent Pharma (UK) Ltd) 60 tablet
+^ESCT1259744	Quetiapine 200mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259745	Quetiapine 200mg tablets (Torrent Pharma (UK) Ltd) 60 tablet
+^ESCT1259746	Quetiapine 300mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259747	Quetiapine 300mg tablets (Torrent Pharma (UK) Ltd) 60 tablet
+^ESCT1264692	Quetiapine 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264693	Quetiapine 25mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCT1279364	Quetiapine 100mg tablets (Dawa Ltd)
+^ESCT1279365	Quetiapine 100mg tablets (Dawa Ltd) 60 tablet
+^ESCT1279366	Quetiapine 150mg tablets (Dawa Ltd)
+^ESCT1279367	Quetiapine 150mg tablets (Dawa Ltd) 60 tablet
+^ESCT1279374	Quetiapine 200mg tablets (Dawa Ltd)
+^ESCT1279375	Quetiapine 200mg tablets (Dawa Ltd) 60 tablet
+^ESCT1279376	Quetiapine 25mg tablets (Dawa Ltd)
+^ESCT1279378	Quetiapine 25mg tablets (Dawa Ltd) 60 tablet
+^ESCT1279380	Quetiapine 300mg tablets (Dawa Ltd)
+^ESCT1279381	Quetiapine 300mg tablets (Dawa Ltd) 60 tablet
+^ESCT1374314	Quetiapine 20mg/ml oral suspension sugar free (A A H Pharmaceuticals Ltd)
+^ESCT1374315	Quetiapine 20mg/ml oral suspension sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCT1374339	Quetiapine 100mg tablets (Crescent Pharma Ltd)
+^ESCT1374340	Quetiapine 100mg tablets (Crescent Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCT1374341	Quetiapine 150mg tablets (Crescent Pharma Ltd)
+^ESCT1374342	Quetiapine 150mg tablets (Crescent Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCT1374343	Quetiapine 200mg tablets (Crescent Pharma Ltd)
+^ESCT1374344	Quetiapine 200mg tablets (Crescent Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCT1374345	Quetiapine 300mg tablets (Crescent Pharma Ltd)
+^ESCT1374346	Quetiapine 300mg tablets (Crescent Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCT1401905	Quetiapine 600mg modified-release tablets 30 tablet
+^ESCT1401906	Biquelle XL 600mg tablets (Aspire Pharma Ltd)
+^ESCT1401907	Biquelle XL 600mg tablets (Aspire Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCT1402118	Quetiapine 600mg modified-release tablets
+^ESCT1403225	Quetiapine 100mg tablets (Aristo Pharma Ltd)
+^ESCT1403226	Quetiapine 100mg tablets (Aristo Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCT1403227	Quetiapine 150mg tablets (Aristo Pharma Ltd)
+^ESCT1403229	Quetiapine 150mg tablets (Aristo Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCT1403231	Quetiapine 200mg tablets (Aristo Pharma Ltd)
+^ESCT1403232	Quetiapine 200mg tablets (Aristo Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCT1403233	Quetiapine 300mg tablets (Aristo Pharma Ltd)
+^ESCT1403234	Quetiapine 300mg tablets (Aristo Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCT1403250	Quetiapine 25mg tablets (Aristo Pharma Ltd)
+^ESCT1403251	Quetiapine 25mg tablets (Aristo Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCT1403639	Quetiapine 100mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403640	Quetiapine 100mg tablets (Medihealth (Northern) Ltd) 60 tablet
+^ESCT1403657	Quetiapine 150mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403658	Quetiapine 150mg tablets (Medihealth (Northern) Ltd) 60 tablet
+^ESCT1403660	Quetiapine 200mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403661	Quetiapine 200mg tablets (Medihealth (Northern) Ltd) 60 tablet
+^ESCT1403666	Quetiapine 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403667	Quetiapine 25mg tablets (Medihealth (Northern) Ltd) 60 tablet
+^ESCT1403669	Quetiapine 300mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403670	Quetiapine 300mg tablets (Medihealth (Northern) Ltd) 60 tablet
+^ESCT1409584	Seroquel 100mg tablets (Luye Pharma Ltd)
+^ESCT1409614	Seroquel 200mg tablets (Luye Pharma Ltd)
+^ESCT1409683	Seroquel 25mg tablets (Luye Pharma Ltd)
+^ESCT1409966	Seroquel 25mg tablets (Luye Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCT1409967	Seroquel 100mg tablets (Luye Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCT1409968	Seroquel 200mg tablets (Luye Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCT1410263	Seroquel 25mg tablets (Luye Pharma Ltd) 6 tablet
+^ESCT1410264	Seroquel 100mg tablets (Luye Pharma Ltd) 2 tablet
+^ESCT1410456	Seroquel 300mg tablets (Luye Pharma Ltd)
+^ESCT1410457	Seroquel 300mg tablets (Luye Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCT1410927	Seroquel XL 200mg tablets (Luye Pharma Ltd)
+^ESCT1410928	Seroquel XL 200mg tablets (Luye Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCT1410929	Seroquel XL 400mg tablets (Luye Pharma Ltd)
+^ESCT1410930	Seroquel XL 400mg tablets (Luye Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCT1410931	Seroquel XL 300mg tablets (Luye Pharma Ltd)
+^ESCT1410932	Seroquel XL 300mg tablets (Luye Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCT1410933	Seroquel XL 50mg tablets (Luye Pharma Ltd)
+^ESCT1410934	Seroquel XL 50mg tablets (Luye Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCT1411229	Seroquel XL 150mg tablets (Luye Pharma Ltd)
+^ESCT1411230	Seroquel XL 150mg tablets (Luye Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCT1418824	Quetiapine 50mg modified-release tablets 30 tablet
+^ESCT1418825	Biquelle XL 50mg tablets (Aspire Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCT1418826	Quetiapine 150mg modified-release tablets 30 tablet
+^ESCT1418827	Biquelle XL 150mg tablets (Aspire Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCT1418829	Quetiapine 200mg modified-release tablets 30 tablet
+^ESCT1418830	Biquelle XL 200mg tablets (Aspire Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCT1418831	Quetiapine 300mg modified-release tablets 30 tablet
+^ESCT1418832	Biquelle XL 300mg tablets (Aspire Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCT1418833	Quetiapine 400mg modified-release tablets 30 tablet
+^ESCT1418834	Biquelle XL 400mg tablets (Aspire Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCT1422520	Quetiapine 25mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422521	Quetiapine 25mg tablets (Zentiva Pharma UK Ltd) 60 tablet
+^ESCT1422522	Quetiapine 100mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422523	Quetiapine 100mg tablets (Zentiva Pharma UK Ltd) 60 tablet
+^ESCT1422524	Quetiapine 150mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422525	Quetiapine 150mg tablets (Zentiva Pharma UK Ltd) 60 tablet
+^ESCT1422526	Quetiapine 200mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422527	Quetiapine 200mg tablets (Zentiva Pharma UK Ltd) 60 tablet
+^ESCT1422528	Quetiapine 300mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422529	Quetiapine 300mg tablets (Zentiva Pharma UK Ltd) 60 tablet
+^ESCT1422766	Brancico XL 300mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422767	Brancico XL 300mg tablets (Zentiva Pharma UK Ltd) 60 tablet 6 x 10 tablets
+^ESCT1422768	Brancico XL 200mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422769	Brancico XL 200mg tablets (Zentiva Pharma UK Ltd) 60 tablet 6 x 10 tablets
+^ESCT1422770	Brancico XL 150mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422771	Brancico XL 150mg tablets (Zentiva Pharma UK Ltd) 60 tablet 6 x 10 tablets
+^ESCT1422772	Brancico XL 50mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422773	Brancico XL 50mg tablets (Zentiva Pharma UK Ltd) 60 tablet 6 x 10 tablets
+^ESCT1422774	Brancico XL 400mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422775	Brancico XL 400mg tablets (Zentiva Pharma UK Ltd) 60 tablet 6 x 10 tablets
+^ESCT1424874	Quetiapine 150mg tablets
+^ESCT1427836	Quetiapine 25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427837	Quetiapine 25mg tablets (Kent Pharma (UK) Ltd) 60 tablet
+^ESCT1427838	Quetiapine 100mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427839	Quetiapine 100mg tablets (Kent Pharma (UK) Ltd) 60 tablet
+^ESCT1427842	Quetiapine 200mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427843	Quetiapine 200mg tablets (Kent Pharma (UK) Ltd) 60 tablet
+^ESCT1427844	Quetiapine 300mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427845	Quetiapine 300mg tablets (Kent Pharma (UK) Ltd) 60 tablet
+^ESCTAT1098908	Atrolak XL 50mg tablets (Accord Healthcare Ltd)
+^ESCTAT1098909	Atrolak XL 50mg tablets (Accord Healthcare Ltd) 60 tablet
+^ESCTAT1098910	Atrolak XL 200mg tablets (Accord Healthcare Ltd)
+^ESCTAT1098911	Atrolak XL 200mg tablets (Accord Healthcare Ltd) 60 tablet
+^ESCTAT1098912	Atrolak XL 300mg tablets (Accord Healthcare Ltd)
+^ESCTAT1098913	Atrolak XL 300mg tablets (Accord Healthcare Ltd) 60 tablet
+^ESCTAT1098914	Atrolak XL 400mg tablets (Accord Healthcare Ltd)
+^ESCTAT1098915	Atrolak XL 400mg tablets (Accord Healthcare Ltd) 60 tablet
+^ESCTBI1104152	Biquelle XL 50mg tablets (Aspire Pharma Ltd)
+^ESCTBI1104153	Biquelle XL 50mg tablets (Aspire Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCTBI1104154	Biquelle XL 150mg tablets (Aspire Pharma Ltd)
+^ESCTBI1104155	Biquelle XL 150mg tablets (Aspire Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCTBI1104156	Biquelle XL 300mg tablets (Aspire Pharma Ltd)
+^ESCTBI1104157	Biquelle XL 300mg tablets (Aspire Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCTBI1104158	Biquelle XL 400mg tablets (Aspire Pharma Ltd)
+^ESCTBI1104159	Biquelle XL 400mg tablets (Aspire Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCTBI1104160	Biquelle XL 200mg tablets (Aspire Pharma Ltd)
+^ESCTBI1104161	Biquelle XL 200mg tablets (Aspire Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCTBR1152686	Brancico XL 300mg tablets (Zentiva)
+^ESCTBR1152687	Brancico XL 300mg tablets (Zentiva) 60 tablet 6 x 10 tablets
+^ESCTBR1152688	Brancico XL 200mg tablets (Zentiva)
+^ESCTBR1152689	Brancico XL 200mg tablets (Zentiva) 60 tablet 6 x 10 tablets
+^ESCTBR1152692	Brancico XL 150mg tablets (Zentiva)
+^ESCTBR1152693	Brancico XL 150mg tablets (Zentiva) 60 tablet 6 x 10 tablets
+^ESCTBR1152694	Brancico XL 50mg tablets (Zentiva)
+^ESCTBR1152695	Brancico XL 50mg tablets (Zentiva) 60 tablet 6 x 10 tablets
+^ESCTBR1152696	Brancico XL 400mg tablets (Zentiva)
+^ESCTBR1152697	Brancico XL 400mg tablets (Zentiva) 60 tablet 6 x 10 tablets
+^ESCTEB1079134	Ebesque XL 50mg tablets (Ethypharm UK Ltd)
+^ESCTEB1079137	Ebesque XL 50mg tablets (Ethypharm UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTEB1079145	Ebesque XL 200mg tablets (Ethypharm UK Ltd)
+^ESCTEB1079147	Ebesque XL 200mg tablets (Ethypharm UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTEB1079151	Ebesque XL 300mg tablets (Ethypharm UK Ltd)
+^ESCTEB1079153	Ebesque XL 300mg tablets (Ethypharm UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTEB1079162	Ebesque XL 400mg tablets (Ethypharm UK Ltd)
+^ESCTEB1079164	Ebesque XL 400mg tablets (Ethypharm UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTGE867079	Generic Seroquel tablets starter pack 10 tablet
+^ESCTGE867140	Generic Seroquel tablets starter pack
+^ESCTMI1109764	Mintreleq XL 50mg tablets (Aristo Pharma Ltd)
+^ESCTMI1109765	Mintreleq XL 50mg tablets (Aristo Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCTMI1109766	Mintreleq XL 150mg tablets (Aristo Pharma Ltd)
+^ESCTMI1109767	Mintreleq XL 150mg tablets (Aristo Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCTMI1109768	Mintreleq XL 200mg tablets (Aristo Pharma Ltd)
+^ESCTMI1109769	Mintreleq XL 200mg tablets (Aristo Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCTMI1109770	Mintreleq XL 300mg tablets (Aristo Pharma Ltd)
+^ESCTMI1109771	Mintreleq XL 300mg tablets (Aristo Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCTMI1109772	Mintreleq XL 400mg tablets (Aristo Pharma Ltd)
+^ESCTMI1109773	Mintreleq XL 400mg tablets (Aristo Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCTPR609455	Product containing quetiapine 25 mg/1 each oral tablet
+^ESCTPR609458	Product containing quetiapine 100 mg/1 each oral tablet
+^ESCTPR609461	Product containing quetiapine 200 mg/1 each oral tablet
+^ESCTPR710958	Product containing quetiapine 300 mg/1 each oral tablet
+^ESCTPS1142746	Psyquet XL 50mg tablets (Sandoz Ltd)
+^ESCTPS1142747	Psyquet XL 50mg tablets (Sandoz Ltd) 60 tablet 6 x 10 tablets
+^ESCTPS1142748	Psyquet XL 150mg tablets (Sandoz Ltd)
+^ESCTPS1142749	Psyquet XL 150mg tablets (Sandoz Ltd) 60 tablet 6 x 10 tablets
+^ESCTPS1142750	Psyquet XL 200mg tablets (Sandoz Ltd)
+^ESCTPS1142751	Psyquet XL 200mg tablets (Sandoz Ltd) 60 tablet 6 x 10 tablets
+^ESCTPS1142752	Psyquet XL 300mg tablets (Sandoz Ltd)
+^ESCTPS1142753	Psyquet XL 300mg tablets (Sandoz Ltd) 60 tablet 6 x 10 tablets
+^ESCTPS1142754	Psyquet XL 400mg tablets (Sandoz Ltd)
+^ESCTPS1142755	Psyquet XL 400mg tablets (Sandoz Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1003701	Quetiapine 150mg modified-release tablets 60 tablet
+^ESCTQU1005060	Quetiapine 150mg modified-release tablets
+^ESCTQU1021482	Quetiapine 12.5mg/5ml oral suspension 100 ml
+^ESCTQU1021483	Quetiapine 12.5mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTQU1024264	Quetiapine 12.5mg/5ml oral suspension 150 ml
+^ESCTQU1024265	Quetiapine 12.5mg/5ml oral suspension (Drug Tariff Special Order) 150 ml
+^ESCTQU1026388	Quetiapine 25mg tablets (Teva UK Ltd)
+^ESCTQU1026389	Quetiapine 25mg tablets (Teva UK Ltd) 60 tablet 2 x 30 tablets
+^ESCTQU1026390	Quetiapine 100mg tablets (Teva UK Ltd)
+^ESCTQU1026391	Quetiapine 100mg tablets (Teva UK Ltd) 60 tablet 4 x 15 tablets
+^ESCTQU1026393	Quetiapine 150mg tablets (Teva UK Ltd)
+^ESCTQU1026394	Quetiapine 150mg tablets (Teva UK Ltd) 60 tablet 4 x 15 tablets
+^ESCTQU1026396	Quetiapine 200mg tablets (Teva UK Ltd)
+^ESCTQU1026397	Quetiapine 200mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1026398	Quetiapine 300mg tablets (Teva UK Ltd)
+^ESCTQU1026399	Quetiapine 300mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1028210	Quetiapine 25mg tablets (Actavis UK Ltd)
+^ESCTQU1028211	Quetiapine 25mg tablets (Actavis UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1028212	Quetiapine 100mg tablets (Actavis UK Ltd)
+^ESCTQU1028213	Quetiapine 100mg tablets (Actavis UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1028214	Quetiapine 150mg tablets (Actavis UK Ltd)
+^ESCTQU1028215	Quetiapine 150mg tablets (Actavis UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1028216	Quetiapine 200mg tablets (Actavis UK Ltd)
+^ESCTQU1028217	Quetiapine 200mg tablets (Actavis UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1028218	Quetiapine 300mg tablets (Actavis UK Ltd)
+^ESCTQU1028219	Quetiapine 300mg tablets (Actavis UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1028259	Quetiapine 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTQU1028260	Quetiapine 25mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet
+^ESCTQU1028261	Quetiapine 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTQU1028262	Quetiapine 100mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet
+^ESCTQU1028263	Quetiapine 150mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTQU1028264	Quetiapine 150mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet
+^ESCTQU1028265	Quetiapine 200mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTQU1028266	Quetiapine 200mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet
+^ESCTQU1028267	Quetiapine 300mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTQU1028268	Quetiapine 300mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet
+^ESCTQU1028299	Quetiapine 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTQU1028300	Quetiapine 25mg tablets (A A H Pharmaceuticals Ltd) 60 tablet
+^ESCTQU1028301	Quetiapine 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTQU1028302	Quetiapine 100mg tablets (A A H Pharmaceuticals Ltd) 60 tablet
+^ESCTQU1028303	Quetiapine 150mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTQU1028304	Quetiapine 150mg tablets (A A H Pharmaceuticals Ltd) 60 tablet
+^ESCTQU1028305	Quetiapine 200mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTQU1028306	Quetiapine 200mg tablets (A A H Pharmaceuticals Ltd) 60 tablet
+^ESCTQU1028309	Quetiapine 300mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTQU1028311	Quetiapine 300mg tablets (A A H Pharmaceuticals Ltd) 60 tablet
+^ESCTQU1028791	Quetiapine 25mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTQU1028792	Quetiapine 25mg tablets (Dr Reddy's Laboratories (UK) Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1028793	Quetiapine 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTQU1028794	Quetiapine 100mg tablets (Dr Reddy's Laboratories (UK) Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1028795	Quetiapine 150mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTQU1028796	Quetiapine 150mg tablets (Dr Reddy's Laboratories (UK) Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1028797	Quetiapine 200mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTQU1028798	Quetiapine 200mg tablets (Dr Reddy's Laboratories (UK) Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1028799	Quetiapine 300mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTQU1028800	Quetiapine 300mg tablets (Dr Reddy's Laboratories (UK) Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1028950	Quetiapine 100mg/5ml oral suspension 100 ml
+^ESCTQU1028951	Quetiapine 100mg/5ml oral suspension (Special Order) 100 ml
+^ESCTQU1028997	Quetiapine 25mg tablets (Arrow Generics Ltd)
+^ESCTQU1028998	Quetiapine 25mg tablets (Arrow Generics Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1028999	Quetiapine 100mg tablets (Arrow Generics Ltd)
+^ESCTQU1029000	Quetiapine 100mg tablets (Arrow Generics Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1029001	Quetiapine 150mg tablets (Arrow Generics Ltd)
+^ESCTQU1029002	Quetiapine 150mg tablets (Arrow Generics Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1029004	Quetiapine 200mg tablets (Arrow Generics Ltd)
+^ESCTQU1029005	Quetiapine 200mg tablets (Arrow Generics Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1029008	Quetiapine 300mg tablets (Arrow Generics Ltd)
+^ESCTQU1029009	Quetiapine 300mg tablets (Arrow Generics Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1029775	Quetiapine 300mg tablets (Pfizer Ltd)
+^ESCTQU1029776	Quetiapine 300mg tablets (Pfizer Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1029777	Quetiapine 200mg tablets (Pfizer Ltd)
+^ESCTQU1029778	Quetiapine 200mg tablets (Pfizer Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1029786	Quetiapine 100mg tablets (Pfizer Ltd)
+^ESCTQU1029788	Quetiapine 100mg tablets (Pfizer Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1029789	Quetiapine 25mg tablets (Pfizer Ltd)
+^ESCTQU1029790	Quetiapine 25mg tablets (Pfizer Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1033613	Quetiapine 25mg tablets (Zentiva)
+^ESCTQU1033614	Quetiapine 25mg tablets (Zentiva) 60 tablet
+^ESCTQU1033615	Quetiapine 100mg tablets (Zentiva)
+^ESCTQU1033616	Quetiapine 100mg tablets (Zentiva) 60 tablet
+^ESCTQU1033617	Quetiapine 150mg tablets (Zentiva)
+^ESCTQU1033618	Quetiapine 150mg tablets (Zentiva) 60 tablet
+^ESCTQU1033619	Quetiapine 200mg tablets (Zentiva)
+^ESCTQU1033620	Quetiapine 200mg tablets (Zentiva) 60 tablet
+^ESCTQU1033621	Quetiapine 300mg tablets (Zentiva)
+^ESCTQU1033622	Quetiapine 300mg tablets (Zentiva) 60 tablet
+^ESCTQU1036948	Quetiapine 25mg tablets (Accord Healthcare Ltd)
+^ESCTQU1036949	Quetiapine 25mg tablets (Accord Healthcare Ltd) 60 tablet 4 x 15 tablets
+^ESCTQU1036950	Quetiapine 100mg tablets (Accord Healthcare Ltd)
+^ESCTQU1036951	Quetiapine 100mg tablets (Accord Healthcare Ltd) 60 tablet 4 x 15 tablets
+^ESCTQU1036952	Quetiapine 150mg tablets (Accord Healthcare Ltd)
+^ESCTQU1036953	Quetiapine 150mg tablets (Accord Healthcare Ltd) 60 tablet 4 x 15 tablets
+^ESCTQU1036954	Quetiapine 200mg tablets (Accord Healthcare Ltd)
+^ESCTQU1036955	Quetiapine 200mg tablets (Accord Healthcare Ltd) 60 tablet 4 x 15 tablets
+^ESCTQU1036956	Quetiapine 300mg tablets (Accord Healthcare Ltd)
+^ESCTQU1036957	Quetiapine 300mg tablets (Accord Healthcare Ltd) 60 tablet 4 x 15 tablets
+^ESCTQU1039932	Quetiapine 150mg tablets (Pfizer Ltd)
+^ESCTQU1039933	Quetiapine 150mg tablets (Pfizer Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1040781	Quetiapine 25mg tablets (Ranbaxy (UK) Ltd)
+^ESCTQU1040782	Quetiapine 25mg tablets (Ranbaxy (UK) Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1040783	Quetiapine 100mg tablets (Ranbaxy (UK) Ltd)
+^ESCTQU1040784	Quetiapine 100mg tablets (Ranbaxy (UK) Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1040785	Quetiapine 150mg tablets (Ranbaxy (UK) Ltd)
+^ESCTQU1040786	Quetiapine 150mg tablets (Ranbaxy (UK) Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1040787	Quetiapine 200mg tablets (Ranbaxy (UK) Ltd)
+^ESCTQU1040788	Quetiapine 200mg tablets (Ranbaxy (UK) Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1040789	Quetiapine 300mg tablets (Ranbaxy (UK) Ltd)
+^ESCTQU1040790	Quetiapine 300mg tablets (Ranbaxy (UK) Ltd) 60 tablet 6 x 10 tablets
+^ESCTQU1042290	Quetiapine 25mg tablets (Waymade Healthcare Plc)
+^ESCTQU1042291	Quetiapine 25mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTQU1042292	Quetiapine 100mg tablets (Waymade Healthcare Plc)
+^ESCTQU1042293	Quetiapine 100mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTQU1042295	Quetiapine 150mg tablets (Waymade Healthcare Plc)
+^ESCTQU1042296	Quetiapine 150mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTQU1042297	Quetiapine 200mg tablets (Waymade Healthcare Plc)
+^ESCTQU1042298	Quetiapine 200mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTQU1042299	Quetiapine 300mg tablets (Waymade Healthcare Plc)
+^ESCTQU1042301	Quetiapine 300mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTQU1045834	Quetiapine 25mg/5ml oral suspension 150 ml
+^ESCTQU1045835	Quetiapine 25mg/5ml oral suspension (Drug Tariff Special Order) 150 ml
+^ESCTQU1049285	Quetiapine 200mg/5ml oral suspension 1 ml
+^ESCTQU1049286	Quetiapine 200mg/5ml oral suspension (Special Order)
+^ESCTQU1049287	Quetiapine 200mg/5ml oral suspension (Special Order) 1 ml
+^ESCTQU1049312	Quetiapine 200mg/5ml oral suspension
+^ESCTQU1066331	Quetiapine 50mg/5ml oral suspension 100 ml
+^ESCTQU1066332	Quetiapine 50mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTQU1095487	Quetiapine 25mg tablets (Lupin (Europe) Ltd)
+^ESCTQU1095493	Quetiapine 25mg tablets (Lupin (Europe) Ltd) 60 tablet
+^ESCTQU1095529	Quetiapine 100mg tablets (Lupin (Europe) Ltd)
+^ESCTQU1095532	Quetiapine 100mg tablets (Lupin (Europe) Ltd) 60 tablet
+^ESCTQU1095551	Quetiapine 150mg tablets (Lupin (Europe) Ltd)
+^ESCTQU1095554	Quetiapine 150mg tablets (Lupin (Europe) Ltd) 60 tablet
+^ESCTQU1095563	Quetiapine 200mg tablets (Lupin (Europe) Ltd)
+^ESCTQU1095566	Quetiapine 200mg tablets (Lupin (Europe) Ltd) 60 tablet
+^ESCTQU1095572	Quetiapine 300mg tablets (Lupin (Europe) Ltd)
+^ESCTQU1095575	Quetiapine 300mg tablets (Lupin (Europe) Ltd) 60 tablet
+^ESCTQU1119643	Quetiapine 25mg tablets (DE Pharmaceuticals)
+^ESCTQU1119644	Quetiapine 25mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTQU1119645	Quetiapine 100mg tablets (DE Pharmaceuticals)
+^ESCTQU1119646	Quetiapine 100mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTQU1119647	Quetiapine 150mg tablets (DE Pharmaceuticals)
+^ESCTQU1119648	Quetiapine 150mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTQU1119649	Quetiapine 200mg tablets (DE Pharmaceuticals)
+^ESCTQU1119650	Quetiapine 200mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTQU1119651	Quetiapine 300mg tablets (DE Pharmaceuticals)
+^ESCTQU1119652	Quetiapine 300mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTQU1127075	Quetiapine 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTQU1127076	Quetiapine 100mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTQU1127077	Quetiapine 150mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTQU1127078	Quetiapine 150mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTQU1127079	Quetiapine 200mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTQU1127080	Quetiapine 200mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTQU1127081	Quetiapine 300mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTQU1127082	Quetiapine 300mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTQU1142261	Quetiapine 25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTQU1142262	Quetiapine 25mg tablets (Kent Pharmaceuticals Ltd) 60 tablet
+^ESCTQU1142263	Quetiapine 100mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTQU1142264	Quetiapine 100mg tablets (Kent Pharmaceuticals Ltd) 60 tablet
+^ESCTQU1142267	Quetiapine 200mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTQU1142268	Quetiapine 200mg tablets (Kent Pharmaceuticals Ltd) 60 tablet
+^ESCTQU1142270	Quetiapine 300mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTQU1142271	Quetiapine 300mg tablets (Kent Pharmaceuticals Ltd) 60 tablet
+^ESCTQU1149783	Quetiapine 100mg/5ml oral suspension sugar free 150 ml
+^ESCTQU1149785	Quetiapine 20mg/ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTQU1149786	Quetiapine 20mg/ml oral suspension sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTQU1151049	Quetiapine 100mg/5ml oral suspension sugar free
+^ESCTQU1153071	Quetiapine 25mg tablets (Mylan Ltd)
+^ESCTQU1153072	Quetiapine 25mg tablets (Mylan Ltd) 60 tablet
+^ESCTQU1153073	Quetiapine 100mg tablets (Mylan Ltd)
+^ESCTQU1153074	Quetiapine 100mg tablets (Mylan Ltd) 60 tablet
+^ESCTQU1153075	Quetiapine 150mg tablets (Mylan Ltd)
+^ESCTQU1153076	Quetiapine 150mg tablets (Mylan Ltd) 60 tablet
+^ESCTQU1153077	Quetiapine 200mg tablets (Mylan Ltd)
+^ESCTQU1153078	Quetiapine 200mg tablets (Mylan Ltd) 60 tablet
+^ESCTQU1153079	Quetiapine 300mg tablets (Mylan Ltd)
+^ESCTQU1153080	Quetiapine 300mg tablets (Mylan Ltd) 60 tablet
+^ESCTQU1160998	Quetiapine 100mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTQU1160999	Quetiapine 100mg/5ml oral suspension sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTQU609454	Quetiapine 25mg tablets
+^ESCTQU609456	Quetiapine 25 mg oral tablet
+^ESCTQU609457	Quetiapine 100mg tablets
+^ESCTQU609459	Quetiapine 100 mg oral tablet
+^ESCTQU609460	Quetiapine 200mg tablets
+^ESCTQU609462	Quetiapine 200 mg oral tablet
+^ESCTQU705851	Quetiapine 300mg modified-release tablets
+^ESCTQU705852	Quetiapine 300mg extended release tablet
+^ESCTQU706451	Quetiapine 200mg modified-release tablets
+^ESCTQU706452	Quetiapine 200mg extended release tablet
+^ESCTQU706679	Quetiapine 400mg modified-release tablets
+^ESCTQU706680	Quetiapine 400mg extended release tablet
+^ESCTQU710957	Quetiapine 300mg tablets
+^ESCTQU710959	Quetiapine 300 mg oral tablet
+^ESCTQU846228	Quetiapine 150mg tablets 60 tablet
+^ESCTQU846780	Quetiapine 200mg tablets 60 tablet
+^ESCTQU847075	Quetiapine 25mg tablets 60 tablet
+^ESCTQU848029	Quetiapine 100mg tablets 60 tablet
+^ESCTQU867068	Quetiapine 25mg tablets 6 tablet
+^ESCTQU867071	Quetiapine 100mg tablets 2 tablet
+^ESCTQU867074	Quetiapine 150mg tablets 2 tablet
+^ESCTQU874487	Quetiapine 300mg tablets 60 tablet
+^ESCTQU957443	Quetiapine 12.5mg/5ml oral suspension 1 ml
+^ESCTQU957444	Quetiapine 12.5mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTQU957445	Quetiapine 12.5mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTQU957446	Quetiapine 12.5mg/5ml oral solution 1 ml
+^ESCTQU957448	Quetiapine 12.5mg/5ml oral solution (Special Order)
+^ESCTQU957450	Quetiapine 12.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU957454	Quetiapine 125mg/5ml oral suspension 1 ml
+^ESCTQU957455	Quetiapine 125mg/5ml oral suspension (Special Order)
+^ESCTQU957456	Quetiapine 125mg/5ml oral suspension (Special Order) 1 ml
+^ESCTQU957458	Quetiapine 125mg/5ml oral solution 1 ml
+^ESCTQU957459	Quetiapine 125mg/5ml oral solution (Special Order)
+^ESCTQU957461	Quetiapine 125mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU957464	Quetiapine 150mg/5ml oral suspension 1 ml
+^ESCTQU957466	Quetiapine 150mg/5ml oral suspension (Special Order)
+^ESCTQU957468	Quetiapine 150mg/5ml oral suspension (Special Order) 1 ml
+^ESCTQU957470	Quetiapine 150mg/5ml oral solution 1 ml
+^ESCTQU957471	Quetiapine 150mg/5ml oral solution (Special Order)
+^ESCTQU957472	Quetiapine 150mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU957473	Quetiapine 25mg/5ml oral suspension 1 ml
+^ESCTQU957474	Quetiapine 25mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTQU957475	Quetiapine 25mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTQU957476	Quetiapine 25mg/5ml oral solution 1 ml
+^ESCTQU957477	Quetiapine 25mg/5ml oral solution (Special Order)
+^ESCTQU957478	Quetiapine 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU957673	Quetiapine 12.5mg/5ml oral solution
+^ESCTQU957674	Quetiapine 12.5mg/5ml oral suspension
+^ESCTQU957675	Quetiapine 125mg/5ml oral solution
+^ESCTQU957676	Quetiapine 125mg/5ml oral suspension
+^ESCTQU957677	Quetiapine 150mg/5ml oral solution
+^ESCTQU957678	Quetiapine 150mg/5ml oral suspension
+^ESCTQU957679	Quetiapine 25mg/5ml oral solution
+^ESCTQU957680	Quetiapine 25mg/5ml oral suspension
+^ESCTQU963794	Quetiapine 400mg/5ml oral solution 1 ml
+^ESCTQU963795	Quetiapine 400mg/5ml oral solution (Special Order)
+^ESCTQU963796	Quetiapine 400mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU963797	Quetiapine 400mg/5ml oral suspension 1 ml
+^ESCTQU963798	Quetiapine 400mg/5ml oral suspension (Special Order)
+^ESCTQU963799	Quetiapine 400mg/5ml oral suspension (Special Order) 1 ml
+^ESCTQU963926	Quetiapine 400mg/5ml oral solution
+^ESCTQU963927	Quetiapine 400mg/5ml oral suspension
+^ESCTQU966328	Quetiapine 75mg/5ml oral solution 1 ml
+^ESCTQU966329	Quetiapine 75mg/5ml oral solution (Special Order)
+^ESCTQU966330	Quetiapine 75mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU966332	Quetiapine 75mg/5ml oral suspension 1 ml
+^ESCTQU966334	Quetiapine 75mg/5ml oral suspension (Special Order)
+^ESCTQU966335	Quetiapine 75mg/5ml oral suspension (Special Order) 1 ml
+^ESCTQU966362	Quetiapine 75mg/5ml oral solution
+^ESCTQU966363	Quetiapine 75mg/5ml oral suspension
+^ESCTQU967852	Quetiapine 25mg tablets 30 tablet
+^ESCTQU967998	Quetiapine 100mg/5ml oral solution 1 ml
+^ESCTQU968000	Quetiapine 100mg/5ml oral solution (Special Order)
+^ESCTQU968001	Quetiapine 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU968004	Quetiapine 100mg/5ml oral suspension 1 ml
+^ESCTQU968005	Quetiapine 100mg/5ml oral suspension (Special Order)
+^ESCTQU968006	Quetiapine 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTQU968028	Quetiapine 100mg/5ml oral solution
+^ESCTQU968029	Quetiapine 100mg/5ml oral suspension
+^ESCTQU968089	Quetiapine 200mg modified-release tablets 60 tablet
+^ESCTQU968093	Quetiapine 400mg modified-release tablets 60 tablet
+^ESCTQU968096	Quetiapine 300mg modified-release tablets 60 tablet
+^ESCTQU968100	Quetiapine 50mg modified-release tablets 60 tablet
+^ESCTQU968258	Quetiapine 50mg modified-release tablets
+^ESCTQU969364	Quetiapine 25mg oral powder sachets 1 sachet
+^ESCTQU969365	Quetiapine 25mg oral powder sachets (Special Order)
+^ESCTQU969366	Quetiapine 25mg oral powder sachets (Special Order) 1 sachet
+^ESCTQU969428	Quetiapine 25mg oral powder sachets
+^ESCTQU981749	Quetiapine 50mg/5ml oral solution 1 ml
+^ESCTQU981750	Quetiapine 50mg/5ml oral solution (Special Order)
+^ESCTQU981751	Quetiapine 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU981752	Quetiapine 50mg/5ml oral suspension 1 ml
+^ESCTQU981753	Quetiapine 50mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTQU981754	Quetiapine 50mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTQU981766	Quetiapine 50mg/5ml oral solution
+^ESCTQU981767	Quetiapine 50mg/5ml oral suspension
+^ESCTQU982406	Quetiapine 50mg oral powder sachets 1 sachet
+^ESCTQU982407	Quetiapine 50mg oral powder sachets (Special Order)
+^ESCTQU982408	Quetiapine 50mg oral powder sachets (Special Order) 1 sachet
+^ESCTQU982518	Quetiapine 50mg oral powder sachets
+^ESCTQU988379	Quetiapine 100mg oral powder sachets 1 sachet
+^ESCTQU988380	Quetiapine 100mg oral powder sachets (Special Order)
+^ESCTQU988381	Quetiapine 100mg oral powder sachets (Special Order) 1 sachet
+^ESCTQU988419	Quetiapine 6.25mg/5ml oral suspension 1 ml
+^ESCTQU988420	Quetiapine 6.25mg/5ml oral suspension (Special Order)
+^ESCTQU988421	Quetiapine 6.25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTQU988422	Quetiapine 6.25mg/5ml oral solution (Special Order)
+^ESCTQU988423	Quetiapine 6.25mg/5ml oral solution 1 ml
+^ESCTQU988424	Quetiapine 6.25mg/5ml oral solution (Special Order) 1 ml
+^ESCTQU988436	Quetiapine 100mg oral powder sachets
+^ESCTQU988437	Quetiapine 6.25mg/5ml oral solution
+^ESCTQU988438	Quetiapine 6.25mg/5ml oral suspension
+^ESCTSE1003702	Seroquel XL 150mg tablets (AstraZeneca UK Ltd)
+^ESCTSE1003703	Seroquel XL 150mg tablets (AstraZeneca UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTSE1045563	Seotiapim XL 200mg tablets (Sandoz Ltd)
+^ESCTSE1045564	Seotiapim XL 200mg tablets (Sandoz Ltd) 60 tablet 6 x 10 tablets
+^ESCTSE1045565	Seotiapim XL 400mg tablets (Sandoz Ltd)
+^ESCTSE1045566	Seotiapim XL 400mg tablets (Sandoz Ltd) 60 tablet 6 x 10 tablets
+^ESCTSE1045567	Seotiapim XL 300mg tablets (Sandoz Ltd)
+^ESCTSE1045568	Seotiapim XL 300mg tablets (Sandoz Ltd) 60 tablet 6 x 10 tablets
+^ESCTSE797801	Seroquel 150mg tablets (AstraZeneca UK Ltd)
+^ESCTSE810906	Seroquel 100mg tablets (AstraZeneca UK Ltd)
+^ESCTSE818377	Seroquel 200mg tablets (AstraZeneca UK Ltd)
+^ESCTSE820329	Seroquel 25mg tablets (AstraZeneca UK Ltd)
+^ESCTSE855028	Seroquel 25mg tablets (AstraZeneca UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTSE855029	Seroquel 100mg tablets (AstraZeneca UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTSE855030	Seroquel 150mg tablets (AstraZeneca UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTSE855032	Seroquel 200mg tablets (AstraZeneca UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTSE867070	Seroquel 25mg tablets (AstraZeneca UK Ltd) 6 tablet
+^ESCTSE867072	Seroquel 100mg tablets (AstraZeneca UK Ltd) 2 tablet
+^ESCTSE867075	Seroquel 150mg tablets (AstraZeneca UK Ltd) 2 tablet
+^ESCTSE867080	Seroquel tablets starter pack (AstraZeneca UK Ltd)
+^ESCTSE867081	Seroquel tablets starter pack (AstraZeneca UK Ltd) 10 tablet 1 x (6 tabs+2 tabs+2 tabs)
+^ESCTSE874488	Seroquel 300mg tablets (AstraZeneca UK Ltd)
+^ESCTSE874489	Seroquel 300mg tablets (AstraZeneca UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTSE968090	Seroquel XL 200mg tablets (AstraZeneca UK Ltd)
+^ESCTSE968091	Seroquel XL 200mg tablets (AstraZeneca UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTSE968094	Seroquel XL 400mg tablets (AstraZeneca UK Ltd)
+^ESCTSE968095	Seroquel XL 400mg tablets (AstraZeneca UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTSE968097	Seroquel XL 300mg tablets (AstraZeneca UK Ltd)
+^ESCTSE968098	Seroquel XL 300mg tablets (AstraZeneca UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTSE968102	Seroquel XL 50mg tablets (AstraZeneca UK Ltd)
+^ESCTSE968103	Seroquel XL 50mg tablets (AstraZeneca UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTSO1028220	Sondate XL 50mg tablets (Teva UK Ltd)
+^ESCTSO1028221	Sondate XL 50mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTSO1028222	Sondate XL 200mg tablets (Teva UK Ltd)
+^ESCTSO1028223	Sondate XL 200mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTSO1028224	Sondate XL 300mg tablets (Teva UK Ltd)
+^ESCTSO1028225	Sondate XL 300mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTSO1028226	Sondate XL 400mg tablets (Teva UK Ltd)
+^ESCTSO1028227	Sondate XL 400mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTSO1040843	Sondate XL 150mg tablets (Teva UK Ltd)
+^ESCTSO1040844	Sondate XL 150mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTTE1036630	Tenprolide XL 50mg tablets (Actavis UK Ltd)
+^ESCTTE1036632	Tenprolide XL 50mg tablets (Actavis UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTTE1036635	Tenprolide XL 200mg tablets (Actavis UK Ltd)
+^ESCTTE1036636	Tenprolide XL 200mg tablets (Actavis UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTTE1036637	Tenprolide XL 300mg tablets (Actavis UK Ltd)
+^ESCTTE1036638	Tenprolide XL 300mg tablets (Actavis UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTTE1047285	Tenprolide XL 400mg tablets (Actavis UK Ltd)
+^ESCTTE1047286	Tenprolide XL 400mg tablets (Actavis UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTZA1104259	Zaluron XL 50mg tablets (Fontus Health Ltd)
+^ESCTZA1104260	Zaluron XL 50mg tablets (Fontus Health Ltd) 60 tablet 6 x 10 tablets
+^ESCTZA1104261	Zaluron XL 150mg tablets (Fontus Health Ltd)
+^ESCTZA1104262	Zaluron XL 150mg tablets (Fontus Health Ltd) 60 tablet 6 x 10 tablets
+^ESCTZA1104263	Zaluron XL 200mg tablets (Fontus Health Ltd)
+^ESCTZA1104264	Zaluron XL 200mg tablets (Fontus Health Ltd) 60 tablet 6 x 10 tablets
+^ESCTZA1104265	Zaluron XL 300mg tablets (Fontus Health Ltd)
+^ESCTZA1104266	Zaluron XL 300mg tablets (Fontus Health Ltd) 60 tablet 6 x 10 tablets
+^ESCTZA1104267	Zaluron XL 400mg tablets (Fontus Health Ltd)
+^ESCTZA1104268	Zaluron XL 400mg tablets (Fontus Health Ltd) 60 tablet 6 x 10 tablets
+ATM/104980NEMIS	Atrolak Xl  M/R tablets  50 mg
+ATM/104981NEMIS	Atrolak Xl  M/R tablets  200 mg
+ATM/104982NEMIS	Atrolak Xl  M/R tablets  300 mg
+ATM/104983NEMIS	Atrolak Xl  M/R tablets  400 mg
+ATM/125045NEMIS	Atrolak Xl  M/R tablets  150 mg
+BIM/138113NEMIS	Biquelle Xl  M/R tablets  600 mg
+BIM/98828NEMIS	Biquelle Xl  M/R tablets  50 mg
+BIM/98829NEMIS	Biquelle Xl  M/R tablets  150 mg
+BIM/98830NEMIS	Biquelle Xl  M/R tablets  200 mg
+BIM/98831NEMIS	Biquelle Xl  M/R tablets  300 mg
+BIM/98832NEMIS	Biquelle Xl  M/R tablets  400 mg
+BRM/117661NEMIS	Brancico Xl  M/R tablets  150 mg
+BRM/117662NEMIS	Brancico Xl  M/R tablets  200 mg
+BRM/117663NEMIS	Brancico Xl  M/R tablets  300 mg
+BRM/117664NEMIS	Brancico Xl  M/R tablets  400 mg
+BRM/117665NEMIS	Brancico Xl  M/R tablets  50 mg
+EBM/94089NEMIS	Ebesque Xl  M/R tablets  50 mg
+EBM/94102NEMIS	Ebesque Xl  M/R tablets  200 mg
+EBM/94110NEMIS	Ebesque Xl  M/R tablets  300 mg
+EBM/94113NEMIS	Ebesque Xl  M/R tablets  400 mg
+MIM/101104NEMIS	Mintreleq Xl  M/R tablets  50 mg
+MIM/101105NEMIS	Mintreleq Xl  M/R tablets  150 mg
+MIM/101106NEMIS	Mintreleq Xl  M/R tablets  200 mg
+MIM/101107NEMIS	Mintreleq Xl  M/R tablets  300 mg
+MIM/101108NEMIS	Mintreleq Xl  M/R tablets  400 mg
+PSM/115265NEMIS	Psyquet Xl  M/R tablets  50 mg
+PSM/115271NEMIS	Psyquet Xl  M/R tablets  150 mg
+PSM/115272NEMIS	Psyquet Xl  M/R tablets  200 mg
+PSM/115273NEMIS	Psyquet Xl  M/R tablets  300 mg
+PSM/115274NEMIS	Psyquet Xl  M/R tablets  400 mg
+QUM/138112NEMIS	Quetiapine Fumarate  M/R tablets  600 mg
+QUM/31060NEMIS	Quetiapine Fumarate  M/R tablets  50 mg
+QUM/31061NEMIS	Quetiapine Fumarate  M/R tablets  200 mg
+QUM/31062NEMIS	Quetiapine Fumarate  M/R tablets  300 mg
+QUM/31063NEMIS	Quetiapine Fumarate  M/R tablets  400 mg
+QUM/45842NEMIS	Quetiapine Fumarate  M/R tablets  150 mg
+QUOR117028NEMIS	Quetiapine  Oral suspension  200 mg/5 ml
+QUOR117326NEMIS	Quetiapine  Oral Suspension Sugar Free  100 mg/5 ml
+QUOR28925NEMIS	Quetiapine  Oral suspension  100 mg/5 ml
+QUOR45611NEMIS	Quetiapine  Oral solution  12.5 mg/5 ml
+QUOR45612NEMIS	Quetiapine  Oral suspension  12.5 mg/5 ml
+QUOR45625NEMIS	Quetiapine  Oral solution  100 mg/5 ml
+QUOR46522NEMIS	Quetiapine  Oral solution  25 mg/5 ml
+QUOR46523NEMIS	Quetiapine  Oral suspension  25 mg/5 ml
+QUOR46524NEMIS	Quetiapine  Oral solution  50 mg/5 ml
+QUOR46525NEMIS	Quetiapine  Oral suspension  50 mg/5 ml
+QUTA16219NEMIS	Quetiapine Fumarate  Tablets  300 mg
+QUTA31563EMIS	Quetiapine Fumarate  Tablets  100 mg
+QUTA31564EMIS	Quetiapine Fumarate  Tablets  200 mg
+QUTA31565EMIS	Quetiapine Fumarate  Tablets  25 mg
+QUTA959NEMIS	Quetiapine Fumarate  Tablets  150 mg
+SEM/31065NEMIS	Seroquel Xl  M/R tablets  50 mg
+SEM/31066NEMIS	Seroquel Xl  M/R tablets  200 mg
+SEM/31067NEMIS	Seroquel Xl  M/R tablets  300 mg
+SEM/31068NEMIS	Seroquel Xl  M/R tablets  400 mg
+SEM/45843NEMIS	Seroquel Xl  M/R tablets  150 mg
+SEM/78913NEMIS	Seotiapim Xl  M/R tablets  200 mg
+SEM/78914NEMIS	Seotiapim Xl  M/R tablets  300 mg
+SEM/78915NEMIS	Seotiapim Xl  M/R tablets  400 mg
+SETA16220NEMIS	Seroquel  Tablets  300 mg
+SETA31555EMIS	Seroquel  Tablets  100 mg
+SETA31556EMIS	Seroquel  Tablets  200 mg
+SETA31557EMIS	Seroquel  Tablets  25 mg
+SETA960NEMIS	Seroquel  Tablets  150 mg
+SOM/71618NEMIS	Sondate Xl  M/R tablets  50 mg
+SOM/71619NEMIS	Sondate Xl  M/R tablets  200 mg
+SOM/71620NEMIS	Sondate Xl  M/R tablets  300 mg
+SOM/71621NEMIS	Sondate Xl  M/R tablets  400 mg
+SOM/78263NEMIS	Sondate Xl  M/R tablets  150 mg
+TEM/76699NEMIS	Tenprolide Xl  M/R tablets  50 mg
+TEM/76700NEMIS	Tenprolide Xl  M/R tablets  200 mg
+TEM/76701NEMIS	Tenprolide Xl  M/R tablets  300 mg
+TEM/79473NEMIS	Tenprolide Xl  M/R tablets  400 mg
+ZAM/98835NEMIS	Zaluron Xl  M/R tablets  50 mg
+ZAM/98836NEMIS	Zaluron Xl  M/R tablets  150 mg
+ZAM/98837NEMIS	Zaluron Xl  M/R tablets  200 mg
+ZAM/98838NEMIS	Zaluron Xl  M/R tablets  300 mg
+ZAM/98839NEMIS	Zaluron Xl  M/R tablets  400 mg

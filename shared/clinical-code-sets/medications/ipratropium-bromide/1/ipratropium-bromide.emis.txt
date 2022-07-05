@@ -1,0 +1,8 @@
+^ESCT1258223	Rinatec 21micrograms/dose nasal spray (Sanofi)
+^ESCT1258224	Rinatec 21micrograms/dose nasal spray (Sanofi) 180 dose
+^ESCT1375694	Ipratropium bromide 21micrograms/dose nasal spray
+^ESCTIP861178	Ipratropium bromide 21micrograms/dose nasal spray 180 dose
+^ESCTRI861182	Rinatec 21micrograms/dose nasal spray (Boehringer Ingelheim Ltd)
+^ESCTRI861185	Rinatec 21micrograms/dose nasal spray (Boehringer Ingelheim Ltd) 180 dose
+IPNA31255EMIS	Ipratropium Bromide  Nasal spray  0.03 %
+RINA31253EMIS	Rinatec  Nasal spray  0.03 %

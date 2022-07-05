@@ -1,0 +1,13 @@
+f351.	Diamicron 80mg tablet
+f352.	Diaglyk 80mg tablet
+f354.	Diamicron MR 30mg m/r tablet
+f355.	NAZDOL MR 30mg m/r tablets
+f357.	ZICRON 40mg tablets
+f358.	VITILE XL 30mg m/r tablets
+f359.	LAAGLYDA MR 60mg m/r tablets
+f35A.	VAMJU 30mg m/r tablets
+f35B.	VAMJU 60mg m/r tablets
+f35w.	GLICLAZIDE 60mg m/r tablets
+f35x.	GLICLAZIDE 40mg tablets
+f35y.	Gliclazide 30mg m/r tablet
+f35z.	Gliclazide 80mg tablet

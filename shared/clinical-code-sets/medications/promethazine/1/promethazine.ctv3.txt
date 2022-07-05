@@ -1,0 +1,11 @@
+c8i1.	Phenergan 10mg tablet
+c8i2.	Phenergan 25mg tablet
+c8i3.	Phenergan 5mg/5mL elixir
+c8i4.	Phenergan 25mg/1mL injection
+c8i6.	Phenergan Nightime 25mg tablet
+c8iv.	Promethazine hydrochloride 10mg tablet
+c8iw.	Promethazine hydrochloride 25mg tablet
+c8ix.	Promethazine hydrochloride 5mg/5mL elixir
+c8iy.	Promethazine hydrochloride 25mg/1mL injection
+x00ft	Promethazine hydrochloride 20mg tablet
+x00g1	Sominex 20mg tablet

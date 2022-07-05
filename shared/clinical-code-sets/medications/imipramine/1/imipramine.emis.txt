@@ -1,0 +1,186 @@
+^ESCT1181097	Product containing only imipramine hydrochloride 10 mg/1 each oral tablet
+^ESCT1181387	Product containing only imipramine hydrochloride 25 mg/1 each oral tablet
+^ESCT1215559	Imipramine 25mg/5ml oral solution
+^ESCT1223530	Product containing precisely imipramine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1223531	Product containing precisely imipramine hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1254487	Imipramine 10mg tablets (Dalkeith Laboratories Ltd)
+^ESCT1254488	Imipramine 10mg tablets (Dalkeith Laboratories Ltd) 28 tablet
+^ESCT1254489	Imipramine 25mg tablets (Dalkeith Laboratories Ltd)
+^ESCT1254490	Imipramine 25mg tablets (Dalkeith Laboratories Ltd) 28 tablet
+^ESCT1267285	Imipramine 25mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1267286	Imipramine 25mg/5ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCT1276926	Imipramine 10mg tablets (Accord Healthcare Ltd)
+^ESCT1276928	Imipramine 25mg tablets (Accord Healthcare Ltd)
+^ESCT1276944	Imipramine 10mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1276945	Imipramine 25mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1376239	Imipramine 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376240	Imipramine 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1376241	Imipramine 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376242	Imipramine 25mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1403855	Imipramine 25mg tablets (Relonchem Ltd)
+^ESCT1403856	Imipramine 25mg tablets (Relonchem Ltd) 28 tablet
+^ESCT1425781	Imipramine 25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425906	Imipramine 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426409	Imipramine 10mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426410	Imipramine 10mg tablets (Kent Pharma (UK) Ltd) 250 tablet
+^ESCT1426412	Imipramine 25mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426413	Imipramine 25mg tablets (Kent Pharma (UK) Ltd) 500 tablet
+^ESCT1430660	Imipramine 10mg tablets (Dalkeith Laboratories Ltd)
+^ESCT1430661	Imipramine 10mg tablets (Dalkeith Laboratories Ltd) 28 tablet
+^ESCT1430662	Imipramine 25mg tablets (Dalkeith Laboratories Ltd)
+^ESCT1430663	Imipramine 25mg tablets (Dalkeith Laboratories Ltd) 28 tablet
+^ESCTIM1003160	Imipramine 25mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTIM1003161	Imipramine 25mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTIM1006033	Imipramine 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTIM1006034	Imipramine 10mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTIM1006035	Imipramine 25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTIM1006060	Imipramine 25mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTIM1013225	Imipramine 25mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTIM1013226	Imipramine 25mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc) 150 ml
+^ESCTIM1041956	Imipramine 25mg/5ml oral solution sugar free (Cubic Pharmaceuticals Ltd)
+^ESCTIM1041957	Imipramine 25mg/5ml oral solution sugar free (Cubic Pharmaceuticals Ltd) 150 ml
+^ESCTIM1044020	Imipramine 25mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTIM1044021	Imipramine 25mg/5ml oral solution sugar free (Waymade Healthcare Plc) 150 ml
+^ESCTIM1044023	Imipramine 10mg tablets (Waymade Healthcare Plc)
+^ESCTIM1044024	Imipramine 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTIM1044026	Imipramine 25mg tablets (Waymade Healthcare Plc)
+^ESCTIM1044027	Imipramine 25mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTIM1049217	Imipramine 25mg/5ml oral solution sugar free (Colorama Pharmaceuticals Ltd)
+^ESCTIM1049218	Imipramine 25mg/5ml oral solution sugar free (Colorama Pharmaceuticals Ltd) 150 ml
+^ESCTIM1061685	Imipramine 10mg tablets (DE Pharmaceuticals)
+^ESCTIM1061686	Imipramine 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTIM1061687	Imipramine 25mg tablets (DE Pharmaceuticals)
+^ESCTIM1061688	Imipramine 25mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTIM1062410	Imipramine 25mg/5ml oral solution sugar free (CST Pharma Ltd)
+^ESCTIM1062411	Imipramine 25mg/5ml oral solution sugar free (CST Pharma Ltd) 150 ml
+^ESCTIM1084649	Imipramine 25mg/5ml oral solution sugar free (Ennogen Healthcare Ltd)
+^ESCTIM1084652	Imipramine 25mg/5ml oral solution sugar free (Ennogen Healthcare Ltd) 150 ml
+^ESCTIM1100339	Imipramine 25mg/5ml oral solution sugar free (J M McGill Ltd)
+^ESCTIM1100340	Imipramine 25mg/5ml oral solution sugar free (J M McGill Ltd) 150 ml
+^ESCTIM1109029	Imipramine 25mg/5ml oral solution sugar free (Niche Pharma Ltd)
+^ESCTIM1109030	Imipramine 25mg/5ml oral solution sugar free (Niche Pharma Ltd) 150 ml
+^ESCTIM1117866	Imipramine 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTIM1117867	Imipramine 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTIM1117868	Imipramine 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTIM1117869	Imipramine 25mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTIM1160776	Imipramine 25mg tablets (Crescent Pharma Ltd)
+^ESCTIM1160777	Imipramine 25mg tablets (Crescent Pharma Ltd) 28 tablet
+^ESCTIM1160778	Imipramine 10mg tablets (Crescent Pharma Ltd)
+^ESCTIM1160779	Imipramine 10mg tablets (Crescent Pharma Ltd) 28 tablet
+^ESCTIM609647	Imipramine 10mg tablets
+^ESCTIM609649	Imipramine hydrochloride 10 mg oral tablet
+^ESCTIM609650	Imipramine 25mg tablets
+^ESCTIM609652	Imipramine hydrochloride 25 mg oral tablet
+^ESCTIM797664	Imipramine 25mg tablets (The Boots Company Plc)
+^ESCTIM808072	Imipramine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTIM815124	Imipramine 10mg tablets (Actavis UK Ltd)
+^ESCTIM819995	Imipramine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTIM820100	Imipramine 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTIM820127	Imipramine 25mg tablets (Actavis UK Ltd)
+^ESCTIM820893	Imipramine 25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTIM821372	Imipramine 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTIM832197	Imipramine 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTIM835416	Imipramine 25mg/5ml oral solution 150 ml
+^ESCTIM836731	Imipramine 25mg tablets 28 tablet
+^ESCTIM836962	Imipramine 10mg tablets 28 tablet
+^ESCTIM847074	Imipramine 10mg tablets 250 tablet
+^ESCTIM847091	Imipramine 25mg tablets 500 tablet
+^ESCTIM848546	Imipramine 25mg tablets 84 tablet
+^ESCTIM855722	Imipramine 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTIM855724	Imipramine 10mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTIM855730	Imipramine 10mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTIM855731	Imipramine 10mg tablets (Kent Pharmaceuticals Ltd) 250 tablet
+^ESCTIM855733	Imipramine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTIM855734	Imipramine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 250 tablet
+^ESCTIM855741	Imipramine 25mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTIM855743	Imipramine 25mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTIM855746	Imipramine 25mg tablets (The Boots Company Plc) 500 tablet
+^ESCTIM855750	Imipramine 25mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTIM855751	Imipramine 25mg tablets (Kent Pharmaceuticals Ltd) 500 tablet
+^ESCTIM855760	Imipramine 25mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTIM855762	Imipramine 25mg tablets (Alliance Healthcare (Distribution) Ltd) 500 tablet
+^ESCTIM878404	Imipramine 25mg tablets 100 tablet
+^ESCTIM903541	Imipramine 10mg tablets (Teva UK Ltd)
+^ESCTIM903542	Imipramine 10mg tablets (Teva UK Ltd) 28 tablet
+^ESCTIM903543	Imipramine 25mg tablets (Teva UK Ltd)
+^ESCTIM903544	Imipramine 25mg tablets (Teva UK Ltd) 28 tablet
+^ESCTIM907243	Imipramine 10mg/5ml oral solution 1 ml
+^ESCTIM907244	Imipramine 10mg/5ml oral solution (Special Order)
+^ESCTIM907246	Imipramine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTIM907249	Imipramine 10mg/5ml oral suspension 1 ml
+^ESCTIM907250	Imipramine 10mg/5ml oral suspension (Special Order)
+^ESCTIM907251	Imipramine 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTIM907255	Imipramine 12.5mg/5ml oral solution 1 ml
+^ESCTIM907256	Imipramine 12.5mg/5ml oral solution (Special Order)
+^ESCTIM907257	Imipramine 12.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTIM907259	Imipramine 12.5mg/5ml oral suspension 1 ml
+^ESCTIM907261	Imipramine 12.5mg/5ml oral suspension (Special Order)
+^ESCTIM907263	Imipramine 12.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTIM907279	Imipramine 25mg/5ml oral solution 1 ml
+^ESCTIM907281	Imipramine 25mg/5ml oral solution (Special Order)
+^ESCTIM907284	Imipramine 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTIM907286	Imipramine 25mg/5ml oral suspension 1 ml
+^ESCTIM907289	Imipramine 25mg/5ml oral suspension (Special Order)
+^ESCTIM907290	Imipramine 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTIM907431	Imipramine 10mg/5ml oral solution
+^ESCTIM907432	Imipramine 10mg/5ml oral suspension
+^ESCTIM907433	Imipramine 12.5mg/5ml oral solution
+^ESCTIM907434	Imipramine 12.5mg/5ml oral suspension
+^ESCTIM907435	Imipramine 25mg/5ml oral suspension
+^ESCTIM923705	Imipramine 25mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTIM923708	Imipramine 25mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTIM951441	Imipramine 100mg/5ml oral suspension 1 ml
+^ESCTIM951442	Imipramine 100mg/5ml oral suspension (Special Order)
+^ESCTIM951443	Imipramine 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTIM951444	Imipramine 100mg/5ml oral solution 1 ml
+^ESCTIM951445	Imipramine 100mg/5ml oral solution (Special Order)
+^ESCTIM951446	Imipramine 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTIM951447	Imipramine 40mg/5ml oral suspension 1 ml
+^ESCTIM951448	Imipramine 40mg/5ml oral suspension (Special Order)
+^ESCTIM951449	Imipramine 40mg/5ml oral suspension (Special Order) 1 ml
+^ESCTIM951450	Imipramine 40mg/5ml oral solution 1 ml
+^ESCTIM951451	Imipramine 40mg/5ml oral solution (Special Order)
+^ESCTIM951452	Imipramine 40mg/5ml oral solution (Special Order) 1 ml
+^ESCTIM952115	Imipramine 100mg/5ml oral solution
+^ESCTIM952117	Imipramine 100mg/5ml oral suspension
+^ESCTIM952119	Imipramine 40mg/5ml oral solution
+^ESCTIM952122	Imipramine 40mg/5ml oral suspension
+^ESCTIM962226	Imipramine 10mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTIM962227	Imipramine 10mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTIM980829	Imipramine 125mg/5ml oral solution 1 ml
+^ESCTIM980830	Imipramine 125mg/5ml oral solution (Special Order)
+^ESCTIM980832	Imipramine 125mg/5ml oral solution (Special Order) 1 ml
+^ESCTIM980834	Imipramine 125mg/5ml oral suspension 1 ml
+^ESCTIM980835	Imipramine 125mg/5ml oral suspension (Special Order)
+^ESCTIM980837	Imipramine 125mg/5ml oral suspension (Special Order) 1 ml
+^ESCTIM980887	Imipramine 125mg/5ml oral suspension
+^ESCTIM980888	Imipramine 125mg/5ml oral solution
+^ESCTIM991738	Imipramine 25mg/5ml oral solution sugar free 150 ml
+^ESCTIM991739	Imipramine 25mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTIM991740	Imipramine 25mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTIM991753	Imipramine 25mg/5ml oral solution sugar free
+^ESCTIM994717	Imipramine 25mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTIM994718	Imipramine 25mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTPR609648	Product containing imipramine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR609651	Product containing imipramine hydrochloride 25 mg/1 each oral tablet
+^ESCTTO801841	Tofranil 25mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTTO806759	Tofranil 25mg/5ml syrup (Novartis Pharmaceuticals UK Ltd)
+^ESCTTO855551	Tofranil 25mg/5ml syrup (Novartis Pharmaceuticals UK Ltd) 150 ml
+^ESCTTO855755	Tofranil 25mg tablets (Novartis Pharmaceuticals UK Ltd) 84 tablet 6 x 14 tablets
+IMOR39476NEMIS	Imipramine  Oral solution  25 mg/5 ml
+IMOR40910NEMIS	Imipramine  Oral Solution, Sugar Free  25 mg/5 ml
+IMTA1443	Imipramine  Tablets  25 mg
+IMTA35536MGEMIS	Imipramine  Tablets  25 mg (The Boots Company)
+IMTA35537MGEMIS	Imipramine  Tablets  25 mg (A.A.H. Pharm)
+IMTA35538MGEMIS	Imipramine  Tablets  25 mg (Alpharma)
+IMTA35539MGEMIS	Imipramine  Tablets  25 mg (Kent Pharm)
+IMTA35540MGEMIS	Imipramine  Tablets  25 mg (Unichem)
+IMTA35541MGEMIS	Imipramine  Tablets  25 mg (Teva UK)
+IMTA35542MGEMIS	Imipramine Hydrochloride  Tablets  10 mg (A.A.H. Pharm)
+IMTA35543MGEMIS	Imipramine Hydrochloride  Tablets  10 mg (Alpharma)
+IMTA35544MGEMIS	Imipramine Hydrochloride  Tablets  10 mg (Unichem)
+IMTA35545MGEMIS	Imipramine Hydrochloride  Tablets  10 mg (Kent Pharm)
+IMTA35546MGEMIS	Imipramine Hydrochloride  Tablets  10 mg (Teva UK)
+IMTA5022	Imipramine Hydrochloride  Tablets  10 mg
+TOSYEGTON7193	Tofranil  Syrup  25 mg/5 ml
+TOTA2875	Tofranil  Tablets  25 mg

@@ -1,0 +1,5 @@
+d771.	IMIPRAMINE 10mg tabs
+d772.	IMIPRAMINE 25mg tablets
+d776.	*TOFRANIL 25mg tablets
+d777.	*TOFRANIL 25mg/5mL syrup
+d77w.	IMIPRAMINE HYDROCHLORIDE 25mg/5mL oral solution

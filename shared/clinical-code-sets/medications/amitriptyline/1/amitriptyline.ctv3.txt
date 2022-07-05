@@ -1,0 +1,14 @@
+d711.	Amitriptyline hydrochloride 10mg tablet
+d712.	Amitriptyline hydrochloride 25mg tablet
+d713.	Amitriptyline hydrochloride 50mg tablet
+d719.	Lentizol 25mg m/r capsule
+d71a.	Lentizol 50mg m/r capsule
+d71h.	Amitriptyline 25mg/5mL s/f oral solution
+d71i.	Amitriptyline 50mg/5mL s/f oral solution
+d71j.	AMITRIPTYLINE 10mg/5mL sugar free oral solution
+d71u.	Amitriptyline hydrochloride 25mg m/r capsule
+d71v.	Amitriptyline hydrochloride 50mg m/r capsule
+d916.	Triptafen tablet
+d917.	Triptafen-M tablet
+d91C.	Amitriptyline hydrochloride+perphenazine 25mg/2mg tablet
+d91D.	Amitriptyline hydrochloride+perphenazine 10mg/2mg tablet

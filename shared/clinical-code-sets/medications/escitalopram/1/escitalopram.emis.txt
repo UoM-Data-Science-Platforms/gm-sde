@@ -1,0 +1,145 @@
+^ESCT1175198	Escitalopram 20mg tablets (Accord Healthcare Ltd)
+^ESCT1175199	Escitalopram 20mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1175200	Escitalopram 10mg tablets (Accord Healthcare Ltd)
+^ESCT1175201	Escitalopram 10mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1175204	Escitalopram 5mg tablets (Accord Healthcare Ltd)
+^ESCT1175205	Escitalopram 5mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1177187	Escitalopram 10mg tablets (Milpharm Ltd)
+^ESCT1177188	Escitalopram 10mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1177189	Escitalopram 20mg tablets (Milpharm Ltd)
+^ESCT1177190	Escitalopram 20mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1180916	Escitalopram 20mg tablets (Mylan)
+^ESCT1182661	Product containing only escitalopram 5 mg/1 each oral tablet
+^ESCT1184972	Escitalopram 10mg tablets (Mylan) 28 tablet
+^ESCT1184973	Escitalopram 5mg tablets (Mylan) 28 tablet
+^ESCT1185289	Product containing only escitalopram 10 mg/1 each oral tablet
+^ESCT1187002	Escitalopram 20mg tablets (Mylan) 28 tablet
+^ESCT1188054	Product containing only escitalopram 20 mg/1 each oral tablet
+^ESCT1190123	Escitalopram 10mg tablets (Mylan)
+^ESCT1190124	Escitalopram 5mg tablets (Mylan)
+^ESCT1214887	Escitalopram 5mg tablets (Consilient Health Ltd)
+^ESCT1214888	Escitalopram 5mg tablets (Consilient Health Ltd) 28 tablet
+^ESCT1214889	Escitalopram 10mg tablets (Consilient Health Ltd)
+^ESCT1214890	Escitalopram 10mg tablets (Consilient Health Ltd) 28 tablet
+^ESCT1214891	Escitalopram 20mg tablets (Consilient Health Ltd)
+^ESCT1214892	Escitalopram 20mg tablets (Consilient Health Ltd) 28 tablet
+^ESCT1230451	Escitalopram (as escitalopram oxalate) 10 mg oral tablet
+^ESCT1230452	Product containing precisely escitalopram (as escitalopram oxalate) 10 milligram/1 each conventional release oral tablet
+^ESCT1230499	Product containing precisely escitalopram (as escitalopram oxalate) 20 milligram/1 each conventional release oral tablet
+^ESCT1230500	Escitalopram (as escitalopram oxalate) 20 mg oral tablet
+^ESCT1230592	Escitalopram (as escitalopram oxalate) 5 mg oral tablet
+^ESCT1230593	Product containing precisely escitalopram (as escitalopram oxalate) 5 milligram/1 each conventional release oral tablet
+^ESCT1259215	Escitalopram 5mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259216	Escitalopram 5mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259217	Escitalopram 10mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259218	Escitalopram 10mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259219	Escitalopram 20mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259220	Escitalopram 20mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1375634	Escitalopram 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375635	Escitalopram 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375636	Escitalopram 20mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375637	Escitalopram 20mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1375638	Escitalopram 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375639	Escitalopram 5mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1422674	Escitalopram 5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422675	Escitalopram 5mg tablets (Zentiva Pharma UK Ltd) 28 tablet 4 x 7 tablets
+^ESCT1427690	Escitalopram 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427691	Escitalopram 10mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCTCI861525	Cipralex 10mg tablets (Lundbeck Ltd)
+^ESCTCI861528	Cipralex 10mg tablets (Lundbeck Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI874128	Cipralex 20mg tablets (Lundbeck Ltd)
+^ESCTCI874129	Cipralex 20mg tablets (Lundbeck Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI896462	Cipralex 5mg tablets (Lundbeck Ltd)
+^ESCTCI896463	Cipralex 5mg tablets (Lundbeck Ltd) 28 tablet 2 x 14 tablets
+^ESCTCI928513	Cipralex 10mg/ml oral drops (Lundbeck Ltd)
+^ESCTCI928516	Cipralex 10mg/ml oral drops (Lundbeck Ltd) 28 ml
+^ESCTCI981777	Cipralex 20mg/ml oral drops (Lundbeck Ltd)
+^ESCTCI981778	Cipralex 20mg/ml oral drops (Lundbeck Ltd) 15 ml
+^ESCTES1067790	Escitalopram 5mg tablets (Teva UK Ltd)
+^ESCTES1067791	Escitalopram 5mg tablets (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTES1067792	Escitalopram 10mg tablets (Teva UK Ltd)
+^ESCTES1067793	Escitalopram 10mg tablets (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTES1067794	Escitalopram 20mg tablets (Teva UK Ltd)
+^ESCTES1067795	Escitalopram 20mg tablets (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTES1067798	Escitalopram 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTES1067799	Escitalopram 5mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 4 x 7 tablets
+^ESCTES1067800	Escitalopram 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTES1067801	Escitalopram 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 4 x 7 tablets
+^ESCTES1067816	Escitalopram 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTES1067817	Escitalopram 20mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 4 x 7 tablets
+^ESCTES1067836	Escitalopram 5mg tablets (Actavis UK Ltd)
+^ESCTES1067837	Escitalopram 5mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTES1067838	Escitalopram 10mg tablets (Actavis UK Ltd)
+^ESCTES1067839	Escitalopram 10mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTES1067840	Escitalopram 20mg tablets (Actavis UK Ltd)
+^ESCTES1067841	Escitalopram 20mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTES1067982	Escitalopram 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTES1067983	Escitalopram 5mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTES1067984	Escitalopram 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTES1067985	Escitalopram 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTES1067986	Escitalopram 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTES1067987	Escitalopram 20mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTES1076820	Escitalopram 5mg tablets (Zentiva)
+^ESCTES1076822	Escitalopram 5mg tablets (Zentiva) 28 tablet 4 x 7 tablets
+^ESCTES1115982	Escitalopram 5mg tablets (Macleods Pharma UK Ltd)
+^ESCTES1115983	Escitalopram 5mg tablets (Macleods Pharma UK Ltd) 28 tablet
+^ESCTES1115984	Escitalopram 10mg tablets (Macleods Pharma UK Ltd)
+^ESCTES1115985	Escitalopram 10mg tablets (Macleods Pharma UK Ltd) 28 tablet
+^ESCTES1115986	Escitalopram 20mg tablets (Macleods Pharma UK Ltd)
+^ESCTES1115987	Escitalopram 20mg tablets (Macleods Pharma UK Ltd) 28 tablet
+^ESCTES1117674	Escitalopram 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTES1117675	Escitalopram 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTES1117676	Escitalopram 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTES1117677	Escitalopram 20mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTES1117678	Escitalopram 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTES1117679	Escitalopram 5mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTES1119373	Escitalopram 5mg tablets (DE Pharmaceuticals)
+^ESCTES1119374	Escitalopram 5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTES1119375	Escitalopram 10mg tablets (DE Pharmaceuticals)
+^ESCTES1119376	Escitalopram 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTES1119377	Escitalopram 20mg tablets (DE Pharmaceuticals)
+^ESCTES1119378	Escitalopram 20mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTES1120012	Escitalopram 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTES1120013	Escitalopram 5mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTES1120045	Escitalopram 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTES1120046	Escitalopram 10mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTES1120047	Escitalopram 20mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTES1120048	Escitalopram 20mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTES1141849	Escitalopram 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTES1141850	Escitalopram 10mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTES1142622	Escitalopram 20mg tablets (Brown & Burk UK Ltd)
+^ESCTES1142623	Escitalopram 20mg tablets (Brown & Burk UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTES1142689	Escitalopram 10mg tablets (Brown & Burk UK Ltd)
+^ESCTES1142690	Escitalopram 10mg tablets (Brown & Burk UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTES1152912	Escitalopram 20mg tablets (Mylan Ltd)
+^ESCTES1152913	Escitalopram 20mg tablets (Mylan Ltd) 28 tablet
+^ESCTES1152914	Escitalopram 10mg tablets (Mylan Ltd)
+^ESCTES1152917	Escitalopram 10mg tablets (Mylan Ltd) 28 tablet
+^ESCTES1152921	Escitalopram 5mg tablets (Mylan Ltd)
+^ESCTES1152922	Escitalopram 5mg tablets (Mylan Ltd) 28 tablet
+^ESCTES675474	Escitalopram 10mg tablets
+^ESCTES675476	Escitalopram 10 mg oral tablet
+^ESCTES675636	Escitalopram 20mg tablets
+^ESCTES675638	Escitalopram 20 mg oral tablet
+^ESCTES677392	Escitalopram 5mg tablets
+^ESCTES677394	Escitalopram 5 mg oral tablet
+^ESCTES861522	Escitalopram 10mg tablets 28 tablet
+^ESCTES874127	Escitalopram 20mg tablets 28 tablet
+^ESCTES896461	Escitalopram 5mg tablets 28 tablet
+^ESCTES928511	Escitalopram 10mg/ml oral drops sugar free 28 ml
+^ESCTES928525	Escitalopram 10mg/ml oral drops sugar free
+^ESCTES981776	Escitalopram 20mg/ml oral drops sugar free 15 ml
+^ESCTES982177	Escitalopram 20mg/ml oral drops sugar free
+^ESCTPR675475	Product containing escitalopram 10 mg/1 each oral tablet
+^ESCTPR675637	Product containing escitalopram 20 mg/1 each oral tablet
+^ESCTPR677393	Product containing escitalopram 5 mg/1 each oral tablet
+CIOR22660NEMIS	Cipralex  Oral Drops, Solution  10 mg/ml
+CIOR37170NEMIS	Cipralex  Oral Drops, Solution  20 mg/ml
+CITA13088NEMIS	Cipralex  Tablets  10 mg
+CITA15860NEMIS	Cipralex  Tablets  20 mg
+CITA16905NEMIS	Cipralex  Tablets  5 mg
+ESOR22659NEMIS	Escitalopram  Oral Drops, Solution  Sugar Free 10 mg/ml
+ESOR37169NEMIS	Escitalopram  Oral Drops, Solution  Sugar Free 20 mg/ml
+ESTA13085NEMIS	Escitalopram  Tablets  10 mg
+ESTA15859NEMIS	Escitalopram  Tablets  20 mg
+ESTA16904NEMIS	Escitalopram  Tablets  5 mg

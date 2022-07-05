@@ -1,0 +1,6 @@
+dnh1.	CONVULEX 150mg e/c capsules
+dnh2.	CONVULEX 300mg e/c capsules
+dnh3.	CONVULEX 500mg e/c capsules
+dnh4.	VALPROIC ACID 150mg e/c capsules
+dnh5.	VALPROIC ACID 300mg e/c capsules
+dnh6.	VALPROIC ACID 500mg e/c capsules

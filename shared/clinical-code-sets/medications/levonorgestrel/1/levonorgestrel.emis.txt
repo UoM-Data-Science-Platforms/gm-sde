@@ -1,0 +1,156 @@
+^ESCT1176297	Levonorgestrel 19.5mg intrauterine device 1 device
+^ESCT1176298	Kyleena 19.5mg intrauterine device (Bayer Plc)
+^ESCT1176299	Kyleena 19.5mg intrauterine device (Bayer Plc) 1 device
+^ESCT1176545	Levonorgestrel 19.5mg intrauterine device
+^ESCT1178765	Product containing only ethinyl estradiol 0.03 milligram and levonorgestrel 0.15 milligram/1 each oral tablet
+^ESCT1178766	Product containing only ethinylestradiol 0.03 milligram and levonorgestrel 0.15 milligram/1 each oral tablet
+^ESCT1178767	Product containing only ethinyl estradiol 0.05 milligram and levonorgestrel 0.25 milligram/1 each oral tablet
+^ESCT1178768	Product containing only ethinylestradiol 0.05 milligram and levonorgestrel 0.25 milligram/1 each oral tablet
+^ESCT1178772	Product containing only levonorgestrel 0.03 milligram/1 each oral tablet
+^ESCT1178903	Product containing only levonorgestrel 1.5 mg/1 each oral tablet
+^ESCT1181872	Product containing only ethinylestradiol 0.03 milligram and levonorgestrel 0.25 milligram/1 each oral tablet
+^ESCT1181873	Product containing only ethinyl oestradiol 0.03 milligram and levonorgestrel 0.25 milligram/1 each oral tablet
+^ESCT1181874	Product containing only ethinyl estradiol 0.03 milligram and levonorgestrel 0.25 milligram/1 each oral tablet
+^ESCT1182192	Product containing only levonorgestrel 0.75 milligram/1 each oral tablet
+^ESCT1184970	Levonorgestrel 1.5mg tablets (Mylan)
+^ESCT1186960	Levosert 20micrograms/24hours intrauterine device (Gedeon Richter (UK) Ltd)
+^ESCT1186969	Ezinelle 1.5mg tablets (Mylan) 1 tablet
+^ESCT1187001	Levonorgestrel 1.5mg tablets (Mylan) 1 tablet
+^ESCT1190086	Levosert 20micrograms/24hours intrauterine device (Gedeon Richter (UK) Ltd) 1 device
+^ESCT1190097	Ezinelle 1.5mg tablets (Mylan)
+^ESCT1195969	Levonorgestrel 1.5mg tablets (Lupin Healthcare (UK) Ltd) 1 tablet
+^ESCT1196583	Levonorgestrel 1.5mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1215241	Melkine 1.5mg tablets (Crescent Pharma Ltd)
+^ESCT1215242	Melkine 1.5mg tablets (Crescent Pharma Ltd) 1 tablet
+^ESCT1224864	Ethinylestradiol 30 microgram and levonorgestrel 150 microgram oral tablet
+^ESCT1224865	Ethinyl estradiol 30 microgram and levonorgestrel 150 microgram oral tablet
+^ESCT1224866	Product containing precisely ethinylestradiol 30 microgram and levonorgestrel 150 microgram/1 each conventional release oral tablet
+^ESCT1224867	Product containing precisely ethinylestradiol 30 microgram and levonorgestrel 250 microgram/1 each conventional release oral tablet
+^ESCT1224868	Ethinylestradiol 30 microgram and levonorgestrel 250 microgram oral tablet
+^ESCT1224869	Ethinyl estradiol 30 microgram and levonorgestrel 250 microgram oral tablet
+^ESCT1224870	Ethinylestradiol 50 microgram and levonorgestrel 250 microgram oral tablet
+^ESCT1224871	Product containing precisely ethinylestradiol 50 microgram and levonorgestrel 250 microgram/1 each conventional release oral tablet
+^ESCT1224872	Ethinyl estradiol 50 microgram and levonorgestrel 250 microgram oral tablet
+^ESCT1224898	Levonorgestrel 30 microgram oral tablet
+^ESCT1224899	Product containing precisely levonorgestrel 30 microgram/1 each conventional release oral tablet
+^ESCT1224900	Product containing precisely levonorgestrel 750 microgram/1 each conventional release oral tablet
+^ESCT1224901	Levonorgestrel 750 microgram oral tablet
+^ESCT1232358	Product containing precisely levonorgestrel 1.5 milligram/1 each conventional release oral tablet
+^ESCT1288288	Upostelle 1500microgram tablets (Gedeon Richter (UK) Ltd)
+^ESCT1288289	Upostelle 1500microgram tablets (Gedeon Richter (UK) Ltd) 1 tablet
+^ESCT1402009	Levonorgestrel 1.5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402010	Levonorgestrel 1.5mg tablets (Medihealth (Northern) Ltd) 1 tablet
+^ESCT1418652	Levonorgestrel 30microgram tablets 84 tablet
+^ESCT1418653	Levonorgestrel 30microgram tablets (Imported)
+^ESCT1418654	Levonorgestrel 30microgram tablets (Imported) 84 tablet
+^ESCT1425023	Levonorgestrel 20micrograms/24hours intrauterine device
+^ESCT1427739	Levonorgestrel 1.5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427740	Levonorgestrel 1.5mg tablets (Kent Pharma (UK) Ltd) 1 tablet
+^ESCTEM1118153	Emerres 1.5mg tablets (Morningside Healthcare Ltd)
+^ESCTEM1118154	Emerres 1.5mg tablets (Morningside Healthcare Ltd) 1 tablet
+^ESCTEM1126313	Emerres Una 1.5mg tablets (Morningside Healthcare Ltd)
+^ESCTEM1126314	Emerres Una 1.5mg tablets (Morningside Healthcare Ltd) 1 tablet
+^ESCTET613262	Ethinylestradiol 30microgram / Levonorgestrel 150microgram tablets
+^ESCTET613263	Ethinyl estradiol 0.03 mg and levonorgestrel 0.15 mg oral tablet
+^ESCTET613264	Ethinylestradiol 0.03 mg and levonorgestrel 0.15 mg oral tablet
+^ESCTET613270	Ethinyl estradiol 0.03 mg and levonorgestrel 0.25 mg oral tablet
+^ESCTET613271	Ethinylestradiol 0.03 mg and levonorgestrel 0.25 mg oral tablet
+^ESCTET613275	Ethinyl estradiol 0.05 mg and levonorgestrel 0.25 mg each oral tablet
+^ESCTET613276	Ethinylestradiol 0.05 mg and levonorgestrel 0.25 mg/1 each oral tablet
+^ESCTET835220	Ethinylestradiol 30microgram / Levonorgestrel 150microgram tablets 63 tablet
+^ESCTET839084	Ethinylestradiol 30microgram / Levonorgestrel 150microgram tablets 21 tablet
+^ESCTEZ1152518	Ezinelle 1.5mg tablets (Mylan Ltd)
+^ESCTEZ1152519	Ezinelle 1.5mg tablets (Mylan Ltd) 1 tablet
+^ESCTIS1100412	Isteranda 1.5mg tablets (Sandoz Ltd)
+^ESCTIS1100413	Isteranda 1.5mg tablets (Sandoz Ltd) 1 tablet
+^ESCTJA1065782	Jaydess 13.5mg intrauterine device (Bayer Plc)
+^ESCTJA1065784	Jaydess 13.5mg intrauterine device (Bayer Plc) 1 device
+^ESCTLE1056597	Levonorgestrel 1.5mg tablets (Consilient Health Ltd)
+^ESCTLE1056598	Levonorgestrel 1.5mg tablets (Consilient Health Ltd) 1 tablet
+^ESCTLE1065781	Levonorgestrel 13.5mg intrauterine device 1 device
+^ESCTLE1066056	Levonorgestrel 13.5mg intrauterine device
+^ESCTLE1099703	Levonorgestrel 1.5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLE1099705	Levonorgestrel 1.5mg tablets (Alliance Healthcare (Distribution) Ltd) 1 tablet
+^ESCTLE1104962	Levonorgestrel 1.5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLE1104963	Levonorgestrel 1.5mg tablets (A A H Pharmaceuticals Ltd) 1 tablet
+^ESCTLE1115919	Levosert 20micrograms/24hours intrauterine device (Allergan Ltd)
+^ESCTLE1115921	Levosert 20micrograms/24hours intrauterine device (Allergan Ltd) 1 device
+^ESCTLE1117985	Levonorgestrel 1.5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLE1117986	Levonorgestrel 1.5mg tablets (Sigma Pharmaceuticals Plc) 1 tablet
+^ESCTLE1119440	Levonorgestrel 1.5mg tablets (DE Pharmaceuticals)
+^ESCTLE1119441	Levonorgestrel 1.5mg tablets (DE Pharmaceuticals) 1 tablet
+^ESCTLE1120933	Levonorgestrel 1.5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLE1120934	Levonorgestrel 1.5mg tablets (Mawdsley-Brooks & Company Ltd) 1 tablet
+^ESCTLE1141940	Levonorgestrel 1.5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTLE1141941	Levonorgestrel 1.5mg tablets (Kent Pharmaceuticals Ltd) 1 tablet
+^ESCTLE1147455	Levonorgestrel 1.5mg tablets (Lupin (Europe) Ltd)
+^ESCTLE1147457	Levonorgestrel 1.5mg tablets (Lupin (Europe) Ltd) 1 tablet
+^ESCTLE1152908	Levonorgestrel 1.5mg tablets (Mylan Ltd)
+^ESCTLE1152909	Levonorgestrel 1.5mg tablets (Mylan Ltd) 1 tablet
+^ESCTLE613267	Levonorgestrel 150microgram / Ethinylestradiol 30microgram tablets
+^ESCTLE613268	Levonorgestrel 250microgram / Ethinylestradiol 30microgram tablets
+^ESCTLE613274	Levonorgestrel 250microgram / Ethinylestradiol 50microgram tablets
+^ESCTLE613335	Levonorgestrel 30microgram tablets
+^ESCTLE613336	Levonorgestrel 0.03 mg oral tablet
+^ESCTLE613341	Levonorgestrel 750microgram tablets
+^ESCTLE613342	Levonorgestrel 0.75 mg oral tablet
+^ESCTLE686127	Levonorgestrel 1.5mg tablets
+^ESCTLE686129	Levonorgestrel 1.5 mg oral tablet
+^ESCTLE801820	Levonelle 750microgram tablets (Schering Health Care Ltd)
+^ESCTLE810674	Levonelle-2 750microgram tablets (Schering Health Care Ltd)
+^ESCTLE836340	Levonorgestrel 30microgram tablets 35 tablet
+^ESCTLE847918	Levonorgestrel 250microgram / Ethinylestradiol 30microgram tablets 63 tablet
+^ESCTLE848369	Levonorgestrel 750microgram tablets 2 tablet
+^ESCTLE854032	Levonelle 750microgram tablets (Schering Health Care Ltd) 2 tablet
+^ESCTLE854033	Levonelle-2 750microgram tablets (Schering Health Care Ltd) 2 tablet
+^ESCTLE862263	Levonorgestrel 20micrograms/24hours intrauterine device 1 device
+^ESCTLE870820	Levonorgestrel 250microgram / Ethinylestradiol 50microgram tablets 4 tablet
+^ESCTLE870821	Levonorgestrel 250microgram / Ethinylestradiol 50microgram tablets 21 tablet
+^ESCTLE903618	Levonorgestrel 1.5mg tablets 1 tablet
+^ESCTLE903620	Levonelle One Step 1.5mg tablets (Bayer Plc)
+^ESCTLE903621	Levonelle One Step 1.5mg tablets (Bayer Plc) 1 tablet
+^ESCTLE920273	Levonelle 1500microgram tablets (Bayer Plc)
+^ESCTLE920275	Levonelle 1500microgram tablets (Bayer Plc) 1 tablet
+^ESCTMI801685	Microval 30microgram tablets (Wyeth Pharmaceuticals)
+^ESCTMI854030	Microval 30microgram tablets (Wyeth Pharmaceuticals) 35 tablet
+^ESCTMI862264	Mirena 20micrograms/24hours intrauterine device (Bayer Plc)
+^ESCTMI862265	Mirena 20micrograms/24hours intrauterine device (Bayer Plc) 1 device
+^ESCTNO806855	Norgeston 30microgram tablets (Bayer Plc)
+^ESCTNO854031	Norgeston 30microgram tablets (Bayer Plc) 35 tablet
+^ESCTPR613265	Product containing ethinylestradiol 0.03 milligram and levonorgestrel 0.15 milligram/1 each oral tablet
+^ESCTPR613266	Product containing ethinyl estradiol 0.03 milligram and levonorgestrel 0.15 milligram/1 each oral tablet
+^ESCTPR613269	Product containing ethinylestradiol 0.03 milligram and levonorgestrel 0.25 milligram/1 each oral tablet
+^ESCTPR613272	Product containing ethinyl estradiol 0.03 milligram and levonorgestrel 0.25 milligram/1 each oral tablet
+^ESCTPR613273	Product containing ethinyl oestradiol 0.03 milligram and levonorgestrel 0.25 milligram/1 each oral tablet
+^ESCTPR613277	Product containing ethinyl estradiol 0.05 milligram and levonorgestrel 0.25 milligram/1 each oral tablet
+^ESCTPR613278	Product containing ethinylestradiol 0.05 milligram and levonorgestrel 0.25 milligram/1 each oral tablet
+^ESCTPR613337	Product containing levonorgestrel 0.03 milligram/1 each oral tablet
+^ESCTPR613343	Product containing levonorgestrel 0.75 milligram/1 each oral tablet
+^ESCTPR686128	Product containing levonorgestrel 1.5 mg/1 each oral tablet
+^ESCTUP1056575	Upostelle 1500microgram tablets (Consilient Health Ltd)
+^ESCTUP1056576	Upostelle 1500microgram tablets (Consilient Health Ltd) 1 tablet
+EMTA104155NEMIS	Emerres  Tablets  1.5 mg
+EMTA105338NEMIS	Emerres Una  Tablets  1.5 mg
+ETTA18962NEMIS	Ethinylestradiol And Levonorgestrel  Tablets  30 micrograms + 250 micrograms
+ETTA18971NEMIS	Ethinylestradiol And Levonorgestrel  Tablets  30 micrograms + 150 micrograms
+EZTA117651NEMIS	Ezinelle  Tablets  1.5 mg
+ISTA96621NEMIS	Isteranda  Tablets  1.5 mg
+JAIN89220NEMIS	Jaydess  Intra-uterine device  13.5 mg
+KYIN125611NEMIS	Kyleena  Intra-uterine device  19.5 mg
+LEIN101280NEMIS	Levosert  Intra-uterine device  20 micrograms/24 hours
+LEIN125609NEMIS	Levonorgestrel  Intra-uterine device  19.5 mg
+LEIN26766EMIS	Levonorgestrel  Intra-uterine device  52 mg (20 micrograms/24 hours)
+LEIN89218NEMIS	Levonorgestrel  Intra-uterine device  13.5 mg
+LETA138940NEMIS	Levonorgestrel (Imported)  Tablets  30 micrograms
+LETA19057NEMIS	Levonorgestrel  Tablets  1.5 mg
+LETA19059NEMIS	Levonelle One Step  Tablets  1.5 mg
+LETA21326NEMIS	Levonelle 1500  Tablets  
+LETA2365NEMIS	Levonorgestrel  Tablets  750 micrograms
+LETA2367NEMIS	Levonelle-2  Tablets  750 micrograms
+LETA5077	Levonorgestrel  Tablets  30 micrograms
+LETA6285NEMIS	Levonelle  Tablets  750 micrograms
+META140085NEMIS	NULL
+MIIN26764EMIS	Mirena  Intra-uterine device  52 mg (20 micrograms/24 hours)
+MITA3924	Microval  Tablets  30 micrograms
+NOTA4046	Norgeston  Tablets  30 micrograms
+UPTA85487NEMIS	Upostelle  Tablets  1.5 mg

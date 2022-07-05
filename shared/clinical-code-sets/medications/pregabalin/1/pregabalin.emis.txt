@@ -1,0 +1,893 @@
+^ESCT1175486	Pregabalin 20mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd) 500 ml 2 x 250ml bottles
+^ESCT1175590	Pregabalin 20mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 500 ml 2 x 250ml bottles
+^ESCT1176531	Pregabalin 20mg/ml oral solution sugar free (Aspire Pharma Ltd)
+^ESCT1176532	Pregabalin 20mg/ml oral solution sugar free (Aspire Pharma Ltd) 473 ml
+^ESCT1177316	Pregabalin 25mg capsules (Milpharm Ltd)
+^ESCT1177317	Pregabalin 25mg capsules (Milpharm Ltd) 56 capsule
+^ESCT1177318	Pregabalin 25mg capsules (Milpharm Ltd) 84 capsule
+^ESCT1177319	Pregabalin 50mg capsules (Milpharm Ltd)
+^ESCT1177320	Pregabalin 50mg capsules (Milpharm Ltd) 84 capsule
+^ESCT1177321	Pregabalin 75mg capsules (Milpharm Ltd)
+^ESCT1177322	Pregabalin 75mg capsules (Milpharm Ltd) 56 capsule
+^ESCT1177323	Pregabalin 100mg capsules (Milpharm Ltd)
+^ESCT1177324	Pregabalin 100mg capsules (Milpharm Ltd) 84 capsule
+^ESCT1177325	Pregabalin 150mg capsules (Milpharm Ltd)
+^ESCT1177326	Pregabalin 150mg capsules (Milpharm Ltd) 56 capsule
+^ESCT1177327	Pregabalin 200mg capsules (Milpharm Ltd)
+^ESCT1177328	Pregabalin 200mg capsules (Milpharm Ltd) 84 capsule
+^ESCT1177329	Pregabalin 225mg capsules (Milpharm Ltd)
+^ESCT1177330	Pregabalin 225mg capsules (Milpharm Ltd) 56 capsule
+^ESCT1177331	Pregabalin 300mg capsules (Milpharm Ltd)
+^ESCT1177332	Pregabalin 300mg capsules (Milpharm Ltd) 56 capsule
+^ESCT1178905	Product containing only pregabalin 100 mg/1 each oral capsule
+^ESCT1178906	Product containing only pregabalin 150 mg/1 each oral capsule
+^ESCT1178907	Product containing only pregabalin 50 mg/1 each oral capsule
+^ESCT1178908	Product containing only pregabalin 75 mg/1 each oral capsule
+^ESCT1180886	Pregabalin 25mg capsules (A A H Pharmaceuticals Ltd) 84 capsule
+^ESCT1180933	Pregabalin 300mg capsules (Mylan)
+^ESCT1180934	Pregabalin 300mg capsules (Mylan) 56 capsule
+^ESCT1180935	Pregabalin 50mg capsules (Mylan) 84 capsule
+^ESCT1180936	Pregabalin 25mg capsules (Mylan)
+^ESCT1182492	Product containing only pregabalin 200 mg/1 each oral capsule
+^ESCT1182493	Product containing only pregabalin 25 mg/1 each oral capsule
+^ESCT1182838	Product containing only pregabalin 225 mg/1 each oral capsule
+^ESCT1184938	Pregabalin 100mg capsules (A A H Pharmaceuticals Ltd) 84 capsule 12 x 7 capsules
+^ESCT1184984	Pregabalin 200mg capsules (Mylan)
+^ESCT1184985	Pregabalin 150mg capsules (Mylan)
+^ESCT1184986	Pregabalin 25mg capsules (Mylan) 56 capsule
+^ESCT1184987	Pregabalin 25mg capsules (Mylan) 84 capsule
+^ESCT1187016	Pregabalin 200mg capsules (Mylan) 84 capsule
+^ESCT1187017	Pregabalin 150mg capsules (Mylan) 56 capsule
+^ESCT1187018	Pregabalin 75mg capsules (Mylan)
+^ESCT1187019	Pregabalin 50mg capsules (Mylan)
+^ESCT1188346	Product containing only pregabalin 300 mg/1 each oral capsule
+^ESCT1190142	Pregabalin 225mg capsules (Mylan)
+^ESCT1190143	Pregabalin 225mg capsules (Mylan) 56 capsule
+^ESCT1190144	Pregabalin 100mg capsules (Mylan)
+^ESCT1190145	Pregabalin 100mg capsules (Mylan) 84 capsule
+^ESCT1190146	Pregabalin 75mg capsules (Mylan) 56 capsule
+^ESCT1194637	Pregabalin 20mg/ml oral solution sugar free (Actavis UK Ltd)
+^ESCT1194638	Pregabalin 20mg/ml oral solution sugar free (Actavis UK Ltd) 473 ml
+^ESCT1199383	Pregabalin 25mg capsules (Tillomed Laboratories Ltd)
+^ESCT1199384	Pregabalin 25mg capsules (Tillomed Laboratories Ltd) 56 capsule
+^ESCT1199385	Pregabalin 25mg capsules (Tillomed Laboratories Ltd) 84 capsule
+^ESCT1199387	Pregabalin 50mg capsules (Tillomed Laboratories Ltd)
+^ESCT1199388	Pregabalin 50mg capsules (Tillomed Laboratories Ltd) 56 capsule
+^ESCT1199389	Pregabalin 50mg capsules (Tillomed Laboratories Ltd) 84 capsule
+^ESCT1199390	Pregabalin 75mg capsules (Tillomed Laboratories Ltd)
+^ESCT1199391	Pregabalin 75mg capsules (Tillomed Laboratories Ltd) 56 capsule
+^ESCT1199392	Pregabalin 100mg capsules (Tillomed Laboratories Ltd)
+^ESCT1199393	Pregabalin 100mg capsules (Tillomed Laboratories Ltd) 84 capsule
+^ESCT1199394	Pregabalin 150mg capsules (Tillomed Laboratories Ltd)
+^ESCT1199395	Pregabalin 150mg capsules (Tillomed Laboratories Ltd) 56 capsule
+^ESCT1199396	Pregabalin 200mg capsules (Tillomed Laboratories Ltd)
+^ESCT1199397	Pregabalin 200mg capsules (Tillomed Laboratories Ltd) 84 capsule
+^ESCT1199398	Pregabalin 225mg capsules (Tillomed Laboratories Ltd)
+^ESCT1199399	Pregabalin 225mg capsules (Tillomed Laboratories Ltd) 56 capsule
+^ESCT1199400	Pregabalin 300mg capsules (Tillomed Laboratories Ltd)
+^ESCT1199401	Pregabalin 300mg capsules (Tillomed Laboratories Ltd) 56 capsule
+^ESCT1213925	Pregabalin 75mg capsules (Tillomed Laboratories Ltd) 14 capsule
+^ESCT1214127	Pregabalin 20mg/ml oral solution sugar free (Wockhardt UK Ltd)
+^ESCT1214128	Pregabalin 20mg/ml oral solution sugar free (Wockhardt UK Ltd) 473 ml
+^ESCT1232417	Pregabalin 100 mg oral capsule
+^ESCT1232418	Product containing precisely pregabalin 100 milligram/1 each conventional release oral capsule
+^ESCT1232419	Product containing precisely pregabalin 150 milligram/1 each conventional release oral capsule
+^ESCT1232420	Pregabalin 150 mg oral capsule
+^ESCT1232421	Pregabalin 200 mg oral capsule
+^ESCT1232422	Product containing precisely pregabalin 200 milligram/1 each conventional release oral capsule
+^ESCT1232423	Product containing precisely pregabalin 25 milligram/1 each conventional release oral capsule
+^ESCT1232424	Pregabalin 25 mg oral capsule
+^ESCT1232425	Product containing precisely pregabalin 300 milligram/1 each conventional release oral capsule
+^ESCT1232426	Pregabalin 300 mg oral capsule
+^ESCT1232427	Pregabalin 50 mg oral capsule
+^ESCT1232428	Product containing precisely pregabalin 50 milligram/1 each conventional release oral capsule
+^ESCT1232429	Pregabalin 75 mg oral capsule
+^ESCT1232430	Product containing precisely pregabalin 75 milligram/1 each conventional release oral capsule
+^ESCT1233327	Pregabalin 225 mg oral capsule
+^ESCT1233328	Product containing precisely pregabalin 225 milligram/1 each conventional release oral capsule
+^ESCT1249566	Pregabalin 25mg capsules (Consilient Health Ltd)
+^ESCT1249568	Pregabalin 25mg capsules (Consilient Health Ltd) 56 capsule 4 x 14 capsules
+^ESCT1249581	Pregabalin 50mg capsules (Consilient Health Ltd)
+^ESCT1249582	Pregabalin 50mg capsules (Consilient Health Ltd) 84 capsule 6 x 14 capsules
+^ESCT1249585	Pregabalin 75mg capsules (Consilient Health Ltd)
+^ESCT1249586	Pregabalin 75mg capsules (Consilient Health Ltd) 56 capsule 4 x 14 capsules
+^ESCT1249589	Pregabalin 100mg capsules (Consilient Health Ltd)
+^ESCT1249590	Pregabalin 100mg capsules (Consilient Health Ltd) 84 capsule 6 x 14 capsules
+^ESCT1249592	Pregabalin 150mg capsules (Consilient Health Ltd)
+^ESCT1249594	Pregabalin 150mg capsules (Consilient Health Ltd) 56 capsule 4 x 14 capsules
+^ESCT1249595	Pregabalin 200mg capsules (Consilient Health Ltd)
+^ESCT1249596	Pregabalin 200mg capsules (Consilient Health Ltd) 84 capsule 6 x 14 capsules
+^ESCT1249597	Pregabalin 225mg capsules (Consilient Health Ltd)
+^ESCT1249598	Pregabalin 225mg capsules (Consilient Health Ltd) 56 capsule 4 x 14 capsules
+^ESCT1249599	Pregabalin 300mg capsules (Consilient Health Ltd)
+^ESCT1249600	Pregabalin 300mg capsules (Consilient Health Ltd) 56 capsule 4 x 14 capsules
+^ESCT1250900	Pregabalin 20mg/ml oral solution sugar free (Advanz Pharma)
+^ESCT1250901	Pregabalin 20mg/ml oral solution sugar free (Advanz Pharma) 500 ml 2 x 250ml bottles
+^ESCT1258000	Pregabalin 20mg/ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCT1258001	Pregabalin 20mg/ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 473 ml
+^ESCT1259530	Pregabalin 25mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259531	Pregabalin 25mg capsules (Torrent Pharma (UK) Ltd) 56 capsule
+^ESCT1259536	Pregabalin 50mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259538	Pregabalin 50mg capsules (Torrent Pharma (UK) Ltd) 84 capsule
+^ESCT1259539	Pregabalin 75mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259541	Pregabalin 75mg capsules (Torrent Pharma (UK) Ltd) 56 capsule
+^ESCT1259543	Pregabalin 100mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259545	Pregabalin 100mg capsules (Torrent Pharma (UK) Ltd) 84 capsule
+^ESCT1259548	Pregabalin 150mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259549	Pregabalin 150mg capsules (Torrent Pharma (UK) Ltd) 56 capsule
+^ESCT1259550	Pregabalin 200mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259551	Pregabalin 200mg capsules (Torrent Pharma (UK) Ltd) 84 capsule
+^ESCT1259553	Pregabalin 225mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259555	Pregabalin 225mg capsules (Torrent Pharma (UK) Ltd) 56 capsule
+^ESCT1259565	Pregabalin 300mg capsules (Torrent Pharma (UK) Ltd)
+^ESCT1259566	Pregabalin 300mg capsules (Torrent Pharma (UK) Ltd) 56 capsule
+^ESCT1264645	Pregabalin 25mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264646	Pregabalin 25mg capsules (Mawdsley-Brooks & Company Ltd) 56 capsule
+^ESCT1264648	Pregabalin 25mg capsules (Mawdsley-Brooks & Company Ltd) 84 capsule
+^ESCT1264652	Pregabalin 50mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264653	Pregabalin 50mg capsules (Mawdsley-Brooks & Company Ltd) 84 capsule
+^ESCT1264654	Pregabalin 75mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264655	Pregabalin 75mg capsules (Mawdsley-Brooks & Company Ltd) 56 capsule
+^ESCT1264658	Pregabalin 100mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264660	Pregabalin 100mg capsules (Mawdsley-Brooks & Company Ltd) 84 capsule
+^ESCT1264662	Pregabalin 150mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264664	Pregabalin 150mg capsules (Mawdsley-Brooks & Company Ltd) 56 capsule
+^ESCT1264666	Pregabalin 200mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264668	Pregabalin 200mg capsules (Mawdsley-Brooks & Company Ltd) 84 capsule
+^ESCT1264670	Pregabalin 225mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264672	Pregabalin 225mg capsules (Mawdsley-Brooks & Company Ltd) 56 capsule
+^ESCT1264674	Pregabalin 300mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCT1264677	Pregabalin 300mg capsules (Mawdsley-Brooks & Company Ltd) 56 capsule
+^ESCT1264678	Pregabalin 20mg/ml oral solution sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCT1264679	Pregabalin 20mg/ml oral solution sugar free (Mawdsley-Brooks & Company Ltd) 473 ml
+^ESCT1266083	Pregabalin 300mg capsules (Sciecure Pharma Ltd)
+^ESCT1266084	Pregabalin 300mg capsules (Sciecure Pharma Ltd) 56 capsule 4 x 14 capsules
+^ESCT1266085	Pregabalin 225mg capsules (Sciecure Pharma Ltd)
+^ESCT1266086	Pregabalin 225mg capsules (Sciecure Pharma Ltd) 56 capsule 4 x 14 capsules
+^ESCT1266087	Pregabalin 200mg capsules (Sciecure Pharma Ltd)
+^ESCT1266088	Pregabalin 200mg capsules (Sciecure Pharma Ltd) 84 capsule 6 x 14 capsules
+^ESCT1266089	Pregabalin 150mg capsules (Sciecure Pharma Ltd)
+^ESCT1266090	Pregabalin 150mg capsules (Sciecure Pharma Ltd) 56 capsule 4 x 14 capsules
+^ESCT1266091	Pregabalin 100mg capsules (Sciecure Pharma Ltd)
+^ESCT1266092	Pregabalin 100mg capsules (Sciecure Pharma Ltd) 84 capsule 6 x 14 capsules
+^ESCT1266093	Pregabalin 75mg capsules (Sciecure Pharma Ltd)
+^ESCT1266094	Pregabalin 75mg capsules (Sciecure Pharma Ltd) 56 capsule 4 x 14 capsules
+^ESCT1266095	Pregabalin 50mg capsules (Sciecure Pharma Ltd)
+^ESCT1266096	Pregabalin 50mg capsules (Sciecure Pharma Ltd) 84 capsule 6 x 14 capsules
+^ESCT1266097	Pregabalin 25mg capsules (Sciecure Pharma Ltd)
+^ESCT1266098	Pregabalin 25mg capsules (Sciecure Pharma Ltd) 56 capsule 4 x 14 capsules
+^ESCT1266368	Pregabalin 20mg/ml oral solution sugar free (Genus Pharmaceuticals Ltd)
+^ESCT1266369	Pregabalin 20mg/ml oral solution sugar free (Genus Pharmaceuticals Ltd) 473 ml
+^ESCT1266412	Pregabalin 25mg capsules (Creo Pharma Ltd)
+^ESCT1266413	Pregabalin 25mg capsules (Creo Pharma Ltd) 56 capsule 4 x 14 capsules
+^ESCT1266420	Pregabalin 25mg capsules (Creo Pharma Ltd) 84 capsule 6 x 14 capsules
+^ESCT1266425	Pregabalin 50mg capsules (Creo Pharma Ltd)
+^ESCT1266426	Pregabalin 50mg capsules (Creo Pharma Ltd) 84 capsule 6 x 14 capsules
+^ESCT1266427	Pregabalin 75mg capsules (Creo Pharma Ltd)
+^ESCT1266428	Pregabalin 75mg capsules (Creo Pharma Ltd) 56 capsule 4 x 14 capsules
+^ESCT1266429	Pregabalin 100mg capsules (Creo Pharma Ltd)
+^ESCT1266430	Pregabalin 100mg capsules (Creo Pharma Ltd) 84 capsule 6 x 14 capsules
+^ESCT1266434	Pregabalin 150mg capsules (Creo Pharma Ltd)
+^ESCT1266437	Pregabalin 150mg capsules (Creo Pharma Ltd) 56 capsule 4 x 14 capsules
+^ESCT1266445	Pregabalin 200mg capsules (Creo Pharma Ltd)
+^ESCT1266447	Pregabalin 200mg capsules (Creo Pharma Ltd) 84 capsule 6 x 14 capsules
+^ESCT1266452	Pregabalin 225mg capsules (Creo Pharma Ltd)
+^ESCT1266454	Pregabalin 225mg capsules (Creo Pharma Ltd) 56 capsule 4 x 14 capsules
+^ESCT1266456	Pregabalin 300mg capsules (Creo Pharma Ltd)
+^ESCT1266457	Pregabalin 300mg capsules (Creo Pharma Ltd) 56 capsule 4 x 14 capsules
+^ESCT1275532	Pregabalin 20mg/ml oral solution sugar free (DE Pharmaceuticals) 500 ml 2 x 250ml bottles
+^ESCT1278919	Lecaent 200mg capsules (Accord Healthcare Ltd)
+^ESCT1278920	Lecaent 200mg capsules (Accord Healthcare Ltd) 84 capsule 6 x 14 capsules
+^ESCT1278921	Lecaent 225mg capsules (Accord Healthcare Ltd)
+^ESCT1278922	Lecaent 225mg capsules (Accord Healthcare Ltd) 56 capsule 4 x 14 capsules
+^ESCT1279399	Pregabalin 50mg capsules (Ranbaxy (UK) Ltd)
+^ESCT1279400	Pregabalin 50mg capsules (Ranbaxy (UK) Ltd) 56 capsule 8 x 7 capsules
+^ESCT1279401	Pregabalin 50mg capsules (Ranbaxy (UK) Ltd) 84 capsule 12 x 7 capsules
+^ESCT1279402	Pregabalin 75mg capsules (Ranbaxy (UK) Ltd)
+^ESCT1279403	Pregabalin 75mg capsules (Ranbaxy (UK) Ltd) 56 capsule 8 x 7 capsules
+^ESCT1279404	Pregabalin 100mg capsules (Ranbaxy (UK) Ltd)
+^ESCT1279405	Pregabalin 100mg capsules (Ranbaxy (UK) Ltd) 84 capsule 12 x 7 capsules
+^ESCT1279406	Pregabalin 150mg capsules (Ranbaxy (UK) Ltd)
+^ESCT1279407	Pregabalin 150mg capsules (Ranbaxy (UK) Ltd) 56 capsule 8 x 7 capsules
+^ESCT1280149	Lecaent 25mg capsules (Accord Healthcare Ltd)
+^ESCT1280150	Lecaent 25mg capsules (Accord Healthcare Ltd) 56 capsule 4 x 14 capsules
+^ESCT1280151	Lecaent 25mg capsules (Accord Healthcare Ltd) 84 capsule 6 x 14 capsules
+^ESCT1280152	Lecaent 50mg capsules (Accord Healthcare Ltd)
+^ESCT1280153	Lecaent 50mg capsules (Accord Healthcare Ltd) 84 capsule 6 x 14 capsules
+^ESCT1280154	Lecaent 100mg capsules (Accord Healthcare Ltd)
+^ESCT1280155	Lecaent 100mg capsules (Accord Healthcare Ltd) 84 capsule 6 x 14 capsules
+^ESCT1280156	Lecaent 150mg capsules (Accord Healthcare Ltd)
+^ESCT1280157	Lecaent 150mg capsules (Accord Healthcare Ltd) 56 capsule 4 x 14 capsules
+^ESCT1280312	Pregabalin 75mg tablets 56 tablet
+^ESCT1280313	Pregabalin 75mg tablets (Neuraxpharm Arzneimittal GmbH)
+^ESCT1280314	Pregabalin 75mg tablets (Neuraxpharm Arzneimittal GmbH) 56 tablet 8 x 7 tablets
+^ESCT1280315	Pregabalin 150mg tablets 56 tablet
+^ESCT1280316	Pregabalin 150mg tablets (Neuraxpharm Arzneimittal GmbH)
+^ESCT1280317	Pregabalin 150mg tablets (Neuraxpharm Arzneimittal GmbH) 56 tablet 8 x 7 tablets
+^ESCT1280318	Pregabalin 225mg tablets 56 tablet
+^ESCT1280319	Pregabalin 225mg tablets (Neuraxpharm Arzneimittal GmbH)
+^ESCT1280320	Pregabalin 225mg tablets (Neuraxpharm Arzneimittal GmbH) 56 tablet 8 x 7 tablets
+^ESCT1280321	Pregabalin 25mg tablets 56 tablet
+^ESCT1280322	Pregabalin 25mg tablets (Neuraxpharm Arzneimittal GmbH)
+^ESCT1280323	Pregabalin 25mg tablets (Neuraxpharm Arzneimittal GmbH) 56 tablet 8 x 7 tablets
+^ESCT1280324	Pregabalin 50mg tablets 84 tablet
+^ESCT1280325	Pregabalin 50mg tablets (Neuraxpharm Arzneimittal GmbH)
+^ESCT1280326	Pregabalin 50mg tablets (Neuraxpharm Arzneimittal GmbH) 84 tablet 7 x 12 tablets
+^ESCT1280327	Pregabalin 100mg tablets 84 tablet
+^ESCT1280328	Pregabalin 100mg tablets (Neuraxpharm Arzneimittal GmbH)
+^ESCT1280329	Pregabalin 100mg tablets (Neuraxpharm Arzneimittal GmbH) 84 tablet 7 x 12 tablets
+^ESCT1280330	Pregabalin 200mg tablets 84 tablet
+^ESCT1280331	Pregabalin 200mg tablets (Neuraxpharm Arzneimittal GmbH)
+^ESCT1280332	Pregabalin 200mg tablets (Neuraxpharm Arzneimittal GmbH) 84 tablet 7 x 12 tablets
+^ESCT1280333	Pregabalin 300mg tablets 56 tablet
+^ESCT1280334	Pregabalin 300mg tablets (Neuraxpharm Arzneimittal GmbH)
+^ESCT1280335	Pregabalin 300mg tablets (Neuraxpharm Arzneimittal GmbH) 56 tablet 8 x 7 tablets
+^ESCT1280911	Pregabalin 100mg tablets
+^ESCT1280912	Pregabalin 150mg tablets
+^ESCT1280913	Pregabalin 200mg tablets
+^ESCT1280914	Pregabalin 225mg tablets
+^ESCT1280915	Pregabalin 25mg tablets
+^ESCT1280916	Pregabalin 300mg tablets
+^ESCT1280917	Pregabalin 50mg tablets
+^ESCT1280918	Pregabalin 75mg tablets
+^ESCT1301373	Lyrica 25mg capsules (Upjohn Ltd)
+^ESCT1301374	Lyrica 25mg capsules (Upjohn Ltd) 56 capsule 4 x 14 capsules
+^ESCT1301375	Lyrica 25mg capsules (Upjohn Ltd) 84 capsule 4 x 21 capsules
+^ESCT1301376	Lyrica 50mg capsules (Upjohn Ltd)
+^ESCT1301377	Lyrica 50mg capsules (Upjohn Ltd) 84 capsule 4 x 21 capsules
+^ESCT1301378	Lyrica 75mg capsules (Upjohn Ltd)
+^ESCT1301379	Lyrica 75mg capsules (Upjohn Ltd) 56 capsule 4 x 14 capsules
+^ESCT1301380	Lyrica 100mg capsules (Upjohn Ltd)
+^ESCT1301381	Lyrica 100mg capsules (Upjohn Ltd) 84 capsule 4 x 21 capsules
+^ESCT1301382	Lyrica 150mg capsules (Upjohn Ltd)
+^ESCT1301383	Lyrica 150mg capsules (Upjohn Ltd) 56 capsule 4 x 14 capsules
+^ESCT1301384	Lyrica 200mg capsules (Upjohn Ltd)
+^ESCT1301385	Lyrica 200mg capsules (Upjohn Ltd) 84 capsule 4 x 21 capsules
+^ESCT1301386	Lyrica 300mg capsules (Upjohn Ltd)
+^ESCT1301387	Lyrica 300mg capsules (Upjohn Ltd) 56 capsule 4 x 14 capsules
+^ESCT1301645	Lyrica 225mg capsules (Upjohn Ltd)
+^ESCT1301646	Lyrica 225mg capsules (Upjohn Ltd) 56 capsule 4 x 14 capsules
+^ESCT1302348	Lyrica 20mg/ml oral solution (Upjohn Ltd)
+^ESCT1302349	Lyrica 20mg/ml oral solution (Upjohn Ltd) 473 ml
+^ESCT1304093	Lyrica 25mg capsules (Upjohn UK Ltd)
+^ESCT1304094	Lyrica 25mg capsules (Upjohn UK Ltd) 56 capsule 4 x 14 capsules
+^ESCT1304095	Lyrica 25mg capsules (Upjohn UK Ltd) 84 capsule 4 x 21 capsules
+^ESCT1304096	Lyrica 50mg capsules (Upjohn UK Ltd)
+^ESCT1304097	Lyrica 50mg capsules (Upjohn UK Ltd) 84 capsule 4 x 21 capsules
+^ESCT1304098	Lyrica 75mg capsules (Upjohn UK Ltd)
+^ESCT1304099	Lyrica 75mg capsules (Upjohn UK Ltd) 56 capsule 4 x 14 capsules
+^ESCT1304100	Lyrica 100mg capsules (Upjohn UK Ltd)
+^ESCT1304101	Lyrica 100mg capsules (Upjohn UK Ltd) 84 capsule 4 x 21 capsules
+^ESCT1304102	Lyrica 150mg capsules (Upjohn UK Ltd)
+^ESCT1304103	Lyrica 150mg capsules (Upjohn UK Ltd) 56 capsule 4 x 14 capsules
+^ESCT1304104	Lyrica 200mg capsules (Upjohn UK Ltd)
+^ESCT1304105	Lyrica 200mg capsules (Upjohn UK Ltd) 84 capsule 4 x 21 capsules
+^ESCT1304106	Lyrica 300mg capsules (Upjohn UK Ltd)
+^ESCT1304107	Lyrica 300mg capsules (Upjohn UK Ltd) 56 capsule 4 x 14 capsules
+^ESCT1304146	Lyrica 225mg capsules (Upjohn UK Ltd)
+^ESCT1304147	Lyrica 225mg capsules (Upjohn UK Ltd) 56 capsule 4 x 14 capsules
+^ESCT1304253	Lyrica 20mg/ml oral solution (Upjohn UK Ltd)
+^ESCT1304254	Lyrica 20mg/ml oral solution (Upjohn UK Ltd) 473 ml
+^ESCT1304664	Pregabalin 225mg capsules (Ranbaxy (UK) Ltd)
+^ESCT1304665	Pregabalin 225mg capsules (Ranbaxy (UK) Ltd) 56 capsule 8 x 7 capsules
+^ESCT1304667	Pregabalin 300mg capsules (Ranbaxy (UK) Ltd)
+^ESCT1304668	Pregabalin 300mg capsules (Ranbaxy (UK) Ltd) 56 capsule 8 x 7 capsules
+^ESCT1373820	Pregabalin 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1373821	Pregabalin 25mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 8 x 7 tablets
+^ESCT1373822	Pregabalin 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1373823	Pregabalin 50mg tablets (A A H Pharmaceuticals Ltd) 84 tablet 7 x 12 tablets
+^ESCT1373824	Pregabalin 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1373825	Pregabalin 100mg tablets (A A H Pharmaceuticals Ltd) 84 tablet 7 x 12 tablets
+^ESCT1373826	Pregabalin 150mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1373827	Pregabalin 150mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 8 x 7 tablets
+^ESCT1373828	Pregabalin 200mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1373829	Pregabalin 200mg tablets (A A H Pharmaceuticals Ltd) 84 tablet 7 x 12 tablets
+^ESCT1373830	Pregabalin 225mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1373831	Pregabalin 225mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 8 x 7 tablets
+^ESCT1373832	Pregabalin 300mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1373833	Pregabalin 300mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 8 x 7 tablets
+^ESCT1374311	Pregabalin 75mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1374312	Pregabalin 75mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 8 x 7 tablets
+^ESCT1375278	Pregabalin 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1375279	Pregabalin 100mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet 7 x 12 tablets
+^ESCT1375280	Pregabalin 150mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1375281	Pregabalin 150mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 8 x 7 tablets
+^ESCT1375282	Pregabalin 200mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1375283	Pregabalin 200mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet 7 x 12 tablets
+^ESCT1375284	Pregabalin 225mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1375286	Pregabalin 225mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 8 x 7 tablets
+^ESCT1375288	Pregabalin 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1375290	Pregabalin 25mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 8 x 7 tablets
+^ESCT1375292	Pregabalin 300mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1375293	Pregabalin 300mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 8 x 7 tablets
+^ESCT1375294	Pregabalin 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1375297	Pregabalin 50mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet 7 x 12 tablets
+^ESCT1375300	Pregabalin 75mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1375301	Pregabalin 75mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 8 x 7 tablets
+^ESCT1401596	Pregabalin 25mg capsules (Relonchem Ltd)
+^ESCT1401597	Pregabalin 25mg capsules (Relonchem Ltd) 84 capsule 6 x 14 capsules
+^ESCT1401598	Pregabalin 50mg capsules (Relonchem Ltd)
+^ESCT1401599	Pregabalin 50mg capsules (Relonchem Ltd) 84 capsule 6 x 14 capsules
+^ESCT1401600	Pregabalin 75mg capsules (Relonchem Ltd)
+^ESCT1401601	Pregabalin 75mg capsules (Relonchem Ltd) 56 capsule 4 x 14 capsules
+^ESCT1401602	Pregabalin 100mg capsules (Relonchem Ltd)
+^ESCT1401603	Pregabalin 100mg capsules (Relonchem Ltd) 84 capsule 6 x 14 capsules
+^ESCT1401604	Pregabalin 150mg capsules (Relonchem Ltd)
+^ESCT1401605	Pregabalin 150mg capsules (Relonchem Ltd) 56 capsule 4 x 14 capsules
+^ESCT1401606	Pregabalin 200mg capsules (Relonchem Ltd)
+^ESCT1401607	Pregabalin 200mg capsules (Relonchem Ltd) 84 capsule 6 x 14 capsules
+^ESCT1401608	Pregabalin 225mg capsules (Relonchem Ltd)
+^ESCT1401609	Pregabalin 225mg capsules (Relonchem Ltd) 56 capsule 4 x 14 capsules
+^ESCT1401610	Pregabalin 300mg capsules (Relonchem Ltd)
+^ESCT1401611	Pregabalin 300mg capsules (Relonchem Ltd) 56 capsule 4 x 14 capsules
+^ESCT1403443	Pregabalin 200mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403444	Pregabalin 200mg capsules (Medihealth (Northern) Ltd) 84 capsule
+^ESCT1403445	Pregabalin 20mg/ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1403446	Pregabalin 20mg/ml oral solution sugar free (Medihealth (Northern) Ltd) 473 ml
+^ESCT1403447	Pregabalin 225mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403448	Pregabalin 225mg capsules (Medihealth (Northern) Ltd) 56 capsule
+^ESCT1403449	Pregabalin 25mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403450	Pregabalin 25mg capsules (Medihealth (Northern) Ltd) 56 capsule
+^ESCT1403451	Pregabalin 25mg capsules (Medihealth (Northern) Ltd) 84 capsule
+^ESCT1403452	Pregabalin 300mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403453	Pregabalin 300mg capsules (Medihealth (Northern) Ltd) 56 capsule
+^ESCT1403464	Pregabalin 100mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403465	Pregabalin 100mg capsules (Medihealth (Northern) Ltd) 84 capsule
+^ESCT1403466	Pregabalin 150mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403467	Pregabalin 150mg capsules (Medihealth (Northern) Ltd) 56 capsule
+^ESCT1403468	Pregabalin 50mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403469	Pregabalin 50mg capsules (Medihealth (Northern) Ltd) 84 capsule
+^ESCT1403470	Pregabalin 75mg capsules (Medihealth (Northern) Ltd)
+^ESCT1403471	Pregabalin 75mg capsules (Medihealth (Northern) Ltd) 56 capsule
+^ESCT1403489	Pregabalin 50mg capsules (Bristol Laboratories Ltd)
+^ESCT1403490	Pregabalin 50mg capsules (Bristol Laboratories Ltd) 84 capsule 7 x 14 capsules
+^ESCT1403491	Pregabalin 100mg capsules (Bristol Laboratories Ltd)
+^ESCT1403493	Pregabalin 100mg capsules (Bristol Laboratories Ltd) 84 capsule 7 x 14 capsules
+^ESCT1403494	Pregabalin 150mg capsules (Bristol Laboratories Ltd)
+^ESCT1403495	Pregabalin 150mg capsules (Bristol Laboratories Ltd) 56 capsule 4 x 14 capsules
+^ESCT1403496	Pregabalin 200mg capsules (Bristol Laboratories Ltd)
+^ESCT1403499	Pregabalin 200mg capsules (Bristol Laboratories Ltd) 84 capsule 7 x 14 capsules
+^ESCT1404081	Pregabalin 25mg capsules (Bristol Laboratories Ltd)
+^ESCT1404082	Pregabalin 25mg capsules (Bristol Laboratories Ltd) 56 capsule 4 x 14 capsules
+^ESCT1404085	Pregabalin 75mg capsules (Bristol Laboratories Ltd)
+^ESCT1404088	Pregabalin 75mg capsules (Bristol Laboratories Ltd) 56 capsule 4 x 14 capsules
+^ESCT1404479	Pregabalin 75mg capsules 250 capsule
+^ESCT1404481	Pregabalin 75mg capsules (Sandoz Ltd) 250 capsule
+^ESCT1404483	Pregabalin 150mg capsules 250 capsule
+^ESCT1404485	Pregabalin 150mg capsules (Sandoz Ltd) 250 capsule
+^ESCT1404993	Pregabalin 150mg capsules (Noumed Life Sciences Ltd)
+^ESCT1404994	Pregabalin 150mg capsules (Noumed Life Sciences Ltd) 56 capsule 4 x 14 capsules
+^ESCT1412480	Pregabalin 20mg/ml oral solution sugar free (Accord Healthcare Ltd)
+^ESCT1412481	Pregabalin 20mg/ml oral solution sugar free (Accord Healthcare Ltd) 473 ml
+^ESCT1418839	Pregabalin 225mg capsules (Bristol Laboratories Ltd)
+^ESCT1418840	Pregabalin 225mg capsules (Bristol Laboratories Ltd) 56 capsule 4 x 14 capsules
+^ESCT1418935	Pregabalin 25mg capsules (Relonchem Ltd) 56 capsule 4 x 14 capsules
+^ESCT1418969	Pregabalin 20mg/ml oral solution sugar free (Aristo Pharma Ltd)
+^ESCT1418970	Pregabalin 20mg/ml oral solution sugar free (Aristo Pharma Ltd) 473 ml
+^ESCT1422710	Pregabalin 150mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422711	Pregabalin 150mg capsules (Zentiva Pharma UK Ltd) 56 capsule 8 x 7 capsules
+^ESCT1422712	Pregabalin 200mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422713	Pregabalin 200mg capsules (Zentiva Pharma UK Ltd) 84 capsule 12 x 7 capsules
+^ESCT1422714	Pregabalin 225mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422715	Pregabalin 225mg capsules (Zentiva Pharma UK Ltd) 56 capsule 8 x 7 capsules
+^ESCT1422716	Pregabalin 300mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422717	Pregabalin 300mg capsules (Zentiva Pharma UK Ltd) 56 capsule 8 x 7 capsules
+^ESCT1422718	Pregabalin 50mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422719	Pregabalin 50mg capsules (Zentiva Pharma UK Ltd) 84 capsule 12 x 7 capsules
+^ESCT1422720	Pregabalin 75mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422721	Pregabalin 75mg capsules (Zentiva Pharma UK Ltd) 56 capsule 8 x 7 capsules
+^ESCT1422722	Pregabalin 100mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422723	Pregabalin 100mg capsules (Zentiva Pharma UK Ltd) 84 capsule 12 x 7 capsules
+^ESCT1422724	Pregabalin 25mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422725	Pregabalin 25mg capsules (Zentiva Pharma UK Ltd) 56 capsule 8 x 7 capsules
+^ESCT1422999	Pregabalin 75mg tablets (Neuraxpharm UK Ltd)
+^ESCT1423000	Pregabalin 75mg tablets (Neuraxpharm UK Ltd) 56 tablet 8 x 7 tablets
+^ESCT1423001	Pregabalin 150mg tablets (Neuraxpharm UK Ltd)
+^ESCT1423002	Pregabalin 150mg tablets (Neuraxpharm UK Ltd) 56 tablet 8 x 7 tablets
+^ESCT1423003	Pregabalin 225mg tablets (Neuraxpharm UK Ltd)
+^ESCT1423004	Pregabalin 225mg tablets (Neuraxpharm UK Ltd) 56 tablet 8 x 7 tablets
+^ESCT1423021	Pregabalin 25mg tablets (Neuraxpharm UK Ltd)
+^ESCT1423022	Pregabalin 25mg tablets (Neuraxpharm UK Ltd) 56 tablet 8 x 7 tablets
+^ESCT1423023	Pregabalin 50mg tablets (Neuraxpharm UK Ltd)
+^ESCT1423024	Pregabalin 50mg tablets (Neuraxpharm UK Ltd) 84 tablet 7 x 12 tablets
+^ESCT1423025	Pregabalin 100mg tablets (Neuraxpharm UK Ltd)
+^ESCT1423026	Pregabalin 100mg tablets (Neuraxpharm UK Ltd) 84 tablet 7 x 12 tablets
+^ESCT1423027	Pregabalin 200mg tablets (Neuraxpharm UK Ltd)
+^ESCT1423028	Pregabalin 200mg tablets (Neuraxpharm UK Ltd) 84 tablet 7 x 12 tablets
+^ESCT1423029	Pregabalin 300mg tablets (Neuraxpharm UK Ltd)
+^ESCT1423030	Pregabalin 300mg tablets (Neuraxpharm UK Ltd) 56 tablet 8 x 7 tablets
+^ESCT1427203	Pregabalin 75mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCT1427204	Pregabalin 75mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCT1427404	Pregabalin 75mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCT1427801	Pregabalin 25mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427802	Pregabalin 25mg capsules (Kent Pharma (UK) Ltd) 56 capsule
+^ESCT1427803	Pregabalin 50mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427804	Pregabalin 50mg capsules (Kent Pharma (UK) Ltd) 84 capsule
+^ESCT1427805	Pregabalin 75mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427806	Pregabalin 75mg capsules (Kent Pharma (UK) Ltd) 56 capsule
+^ESCT1427807	Pregabalin 100mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427808	Pregabalin 100mg capsules (Kent Pharma (UK) Ltd) 84 capsule
+^ESCT1427816	Pregabalin 150mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427817	Pregabalin 150mg capsules (Kent Pharma (UK) Ltd) 56 capsule
+^ESCT1427818	Pregabalin 200mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427819	Pregabalin 200mg capsules (Kent Pharma (UK) Ltd) 84 capsule
+^ESCT1427820	Pregabalin 225mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427821	Pregabalin 225mg capsules (Kent Pharma (UK) Ltd) 56 capsule
+^ESCT1427840	Pregabalin 300mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427841	Pregabalin 300mg capsules (Kent Pharma (UK) Ltd) 56 capsule
+^ESCT1427887	Axalid 25mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427888	Axalid 25mg capsules (Kent Pharma (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCT1427889	Axalid 50mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427890	Axalid 50mg capsules (Kent Pharma (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCT1427891	Axalid 75mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427892	Axalid 75mg capsules (Kent Pharma (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCT1427893	Axalid 100mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427894	Axalid 100mg capsules (Kent Pharma (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCT1427895	Axalid 150mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427896	Axalid 150mg capsules (Kent Pharma (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCT1427897	Axalid 200mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427898	Axalid 200mg capsules (Kent Pharma (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCT1427899	Axalid 225mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427900	Axalid 225mg capsules (Kent Pharma (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCT1427901	Axalid 300mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1427902	Axalid 300mg capsules (Kent Pharma (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCT1429439	Pregabalin 100mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429440	Pregabalin 100mg tablets (Medihealth (Northern) Ltd) 84 tablet
+^ESCT1429441	Pregabalin 150mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429442	Pregabalin 150mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1429443	Pregabalin 200mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429444	Pregabalin 200mg tablets (Medihealth (Northern) Ltd) 84 tablet
+^ESCT1429445	Pregabalin 225mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429446	Pregabalin 225mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1429447	Pregabalin 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429448	Pregabalin 25mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1429449	Pregabalin 300mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429450	Pregabalin 300mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1429451	Pregabalin 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429452	Pregabalin 50mg tablets (Medihealth (Northern) Ltd) 84 tablet
+^ESCT1429453	Pregabalin 75mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429454	Pregabalin 75mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1429809	Pregabalin 75mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1429810	Pregabalin 75mg capsules (Dr Reddy's Laboratories (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCT1429811	Pregabalin 100mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1429812	Pregabalin 100mg capsules (Dr Reddy's Laboratories (UK) Ltd) 84 capsule 6 x 14 capsules
+^ESCT1429813	Pregabalin 150mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1429814	Pregabalin 150mg capsules (Dr Reddy's Laboratories (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCT1429815	Pregabalin 225mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1429816	Pregabalin 225mg capsules (Dr Reddy's Laboratories (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCT1429817	Pregabalin 200mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1429818	Pregabalin 200mg capsules (Dr Reddy's Laboratories (UK) Ltd) 84 capsule 6 x 14 capsules
+^ESCT1429819	Pregabalin 300mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1429820	Pregabalin 300mg capsules (Dr Reddy's Laboratories (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCT1430309	Pregabalin 25mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1430310	Pregabalin 25mg capsules (Dr Reddy's Laboratories (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCT1430311	Pregabalin 50mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCT1430312	Pregabalin 50mg capsules (Dr Reddy's Laboratories (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCT1430313	Pregabalin 50mg capsules (Dr Reddy's Laboratories (UK) Ltd) 84 capsule 6 x 14 capsules
+^ESCT1430704	Pregabalin 50mg capsules (Bristol Laboratories Ltd) 84 capsule 6 x 14 capsules
+^ESCT1430705	Pregabalin 100mg capsules (Bristol Laboratories Ltd) 84 capsule 6 x 14 capsules
+^ESCT1430706	Pregabalin 200mg capsules (Bristol Laboratories Ltd) 84 capsule 6 x 14 capsules
+^ESCTAL1109776	Alzain 25mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAL1109777	Alzain 25mg capsules (Dr Reddy's Laboratories (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCTAL1109778	Alzain 50mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAL1109779	Alzain 50mg capsules (Dr Reddy's Laboratories (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCTAL1109780	Alzain 50mg capsules (Dr Reddy's Laboratories (UK) Ltd) 84 capsule 6 x 14 capsules
+^ESCTAL1109781	Alzain 75mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAL1109782	Alzain 75mg capsules (Dr Reddy's Laboratories (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCTAL1109783	Alzain 100mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAL1109784	Alzain 100mg capsules (Dr Reddy's Laboratories (UK) Ltd) 84 capsule 6 x 14 capsules
+^ESCTAL1109785	Alzain 150mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAL1109786	Alzain 150mg capsules (Dr Reddy's Laboratories (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCTAL1109787	Alzain 200mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAL1109788	Alzain 200mg capsules (Dr Reddy's Laboratories (UK) Ltd) 84 capsule 6 x 14 capsules
+^ESCTAL1109789	Alzain 225mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAL1109790	Alzain 225mg capsules (Dr Reddy's Laboratories (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCTAL1109791	Alzain 300mg capsules (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAL1109792	Alzain 300mg capsules (Dr Reddy's Laboratories (UK) Ltd) 56 capsule 4 x 14 capsules
+^ESCTAX1153957	Axalid 25mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTAX1153961	Axalid 25mg capsules (Kent Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCTAX1153963	Axalid 50mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTAX1153964	Axalid 50mg capsules (Kent Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCTAX1153969	Axalid 75mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTAX1153970	Axalid 75mg capsules (Kent Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCTAX1153971	Axalid 100mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTAX1153973	Axalid 100mg capsules (Kent Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCTAX1153987	Axalid 150mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTAX1153988	Axalid 150mg capsules (Kent Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCTAX1153991	Axalid 200mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTAX1153995	Axalid 200mg capsules (Kent Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCTAX1154019	Axalid 225mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTAX1154020	Axalid 225mg capsules (Kent Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCTAX1154021	Axalid 300mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTAX1154022	Axalid 300mg capsules (Kent Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCTLE1108964	Lecaent 25mg capsules (Actavis UK Ltd)
+^ESCTLE1108965	Lecaent 25mg capsules (Actavis UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTLE1108966	Lecaent 25mg capsules (Actavis UK Ltd) 84 capsule 6 x 14 capsules
+^ESCTLE1108967	Lecaent 50mg capsules (Actavis UK Ltd)
+^ESCTLE1108968	Lecaent 50mg capsules (Actavis UK Ltd) 84 capsule 6 x 14 capsules
+^ESCTLE1108969	Lecaent 75mg capsules (Actavis UK Ltd)
+^ESCTLE1108970	Lecaent 75mg capsules (Actavis UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTLE1108971	Lecaent 100mg capsules (Actavis UK Ltd)
+^ESCTLE1108972	Lecaent 100mg capsules (Actavis UK Ltd) 84 capsule 6 x 14 capsules
+^ESCTLE1108973	Lecaent 150mg capsules (Actavis UK Ltd)
+^ESCTLE1108974	Lecaent 150mg capsules (Actavis UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTLE1108975	Lecaent 200mg capsules (Actavis UK Ltd)
+^ESCTLE1108976	Lecaent 200mg capsules (Actavis UK Ltd) 84 capsule 6 x 14 capsules
+^ESCTLE1108977	Lecaent 225mg capsules (Actavis UK Ltd)
+^ESCTLE1108978	Lecaent 225mg capsules (Actavis UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTLE1108979	Lecaent 300mg capsules (Actavis UK Ltd)
+^ESCTLE1108980	Lecaent 300mg capsules (Actavis UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTLY1030002	Lyrica 20mg/ml oral solution (Pfizer Ltd)
+^ESCTLY1030003	Lyrica 20mg/ml oral solution (Pfizer Ltd) 473 ml
+^ESCTLY901216	Lyrica 25mg capsules (Pfizer Ltd)
+^ESCTLY901219	Lyrica 25mg capsules (Pfizer Ltd) 56 capsule 4 x 14 capsules
+^ESCTLY901220	Lyrica 25mg capsules (Pfizer Ltd) 84 capsule 4 x 21 capsules
+^ESCTLY901224	Lyrica 50mg capsules (Pfizer Ltd)
+^ESCTLY901225	Lyrica 50mg capsules (Pfizer Ltd) 84 capsule 4 x 21 capsules
+^ESCTLY901227	Lyrica 75mg capsules (Pfizer Ltd)
+^ESCTLY901228	Lyrica 75mg capsules (Pfizer Ltd) 56 capsule 4 x 14 capsules
+^ESCTLY901230	Lyrica 100mg capsules (Pfizer Ltd)
+^ESCTLY901231	Lyrica 100mg capsules (Pfizer Ltd) 84 capsule 4 x 21 capsules
+^ESCTLY901234	Lyrica 150mg capsules (Pfizer Ltd)
+^ESCTLY901236	Lyrica 150mg capsules (Pfizer Ltd) 56 capsule 4 x 14 capsules
+^ESCTLY901238	Lyrica 200mg capsules (Pfizer Ltd)
+^ESCTLY901239	Lyrica 200mg capsules (Pfizer Ltd) 84 capsule 4 x 21 capsules
+^ESCTLY901243	Lyrica 300mg capsules (Pfizer Ltd)
+^ESCTLY901247	Lyrica 300mg capsules (Pfizer Ltd) 56 capsule 4 x 14 capsules
+^ESCTLY958891	Lyrica 225mg capsules (Pfizer Ltd)
+^ESCTLY958893	Lyrica 225mg capsules (Pfizer Ltd) 56 capsule 4 x 14 capsules
+^ESCTPR1002928	Pregabalin 100mg capsules 21 capsule
+^ESCTPR1002931	Pregabalin 150mg capsules 100 capsule
+^ESCTPR1002934	Pregabalin 200mg capsules 21 capsule
+^ESCTPR1009361	Pregabalin 75mg capsules 100 capsule
+^ESCTPR1030001	Pregabalin 20mg/ml oral solution sugar free 473 ml
+^ESCTPR1030097	Pregabalin 20mg/ml oral solution sugar free
+^ESCTPR1045832	Pregabalin 75mg/5ml oral suspension 100 ml
+^ESCTPR1045833	Pregabalin 75mg/5ml oral suspension (Special Order) 100 ml
+^ESCTPR1109471	Pregabalin 25mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTPR1109473	Pregabalin 25mg capsules (A A H Pharmaceuticals Ltd) 56 capsule 8 x 7 capsules
+^ESCTPR1109475	Pregabalin 25mg capsules (A A H Pharmaceuticals Ltd) 84 capsule 6 x 14 capsules
+^ESCTPR1109477	Pregabalin 50mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTPR1109478	Pregabalin 50mg capsules (A A H Pharmaceuticals Ltd) 84 capsule 12 x 7 capsules
+^ESCTPR1109480	Pregabalin 75mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTPR1109481	Pregabalin 75mg capsules (A A H Pharmaceuticals Ltd) 56 capsule 8 x 7 capsules
+^ESCTPR1109482	Pregabalin 100mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTPR1109483	Pregabalin 100mg capsules (A A H Pharmaceuticals Ltd) 84 capsule
+^ESCTPR1109484	Pregabalin 150mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTPR1109485	Pregabalin 150mg capsules (A A H Pharmaceuticals Ltd) 56 capsule 8 x 7 capsules
+^ESCTPR1109486	Pregabalin 200mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTPR1109487	Pregabalin 200mg capsules (A A H Pharmaceuticals Ltd) 84 capsule 12 x 7 capsules
+^ESCTPR1109488	Pregabalin 225mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTPR1109489	Pregabalin 225mg capsules (A A H Pharmaceuticals Ltd) 56 capsule 8 x 7 capsules
+^ESCTPR1109490	Pregabalin 300mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTPR1109491	Pregabalin 300mg capsules (A A H Pharmaceuticals Ltd) 56 capsule 4 x 14 capsules
+^ESCTPR1118190	Pregabalin 20mg/ml oral solution sugar free (Colorama Pharmaceuticals Ltd)
+^ESCTPR1118191	Pregabalin 20mg/ml oral solution sugar free (Colorama Pharmaceuticals Ltd) 473 ml
+^ESCTPR1118366	Pregabalin 75mg capsules (Teva UK Ltd)
+^ESCTPR1118367	Pregabalin 100mg capsules (Teva UK Ltd) 84 capsule 12 x 7 capsules
+^ESCTPR1118368	Pregabalin 75mg capsules (Teva UK Ltd) 56 capsule 8 x 7 capsules
+^ESCTPR1118373	Pregabalin 50mg capsules (Teva UK Ltd)
+^ESCTPR1118374	Pregabalin 50mg capsules (Teva UK Ltd) 84 capsule 12 x 7 capsules
+^ESCTPR1118375	Pregabalin 100mg capsules (Teva UK Ltd)
+^ESCTPR1118378	Pregabalin 200mg capsules (Teva UK Ltd) 84 capsule 12 x 7 capsules
+^ESCTPR1118379	Pregabalin 150mg capsules (Teva UK Ltd)
+^ESCTPR1118380	Pregabalin 150mg capsules (Teva UK Ltd) 56 capsule 8 x 7 capsules
+^ESCTPR1118383	Pregabalin 200mg capsules (Teva UK Ltd)
+^ESCTPR1118386	Pregabalin 225mg capsules (Teva UK Ltd)
+^ESCTPR1118387	Pregabalin 225mg capsules (Teva UK Ltd) 56 capsule 8 x 7 capsules
+^ESCTPR1118388	Pregabalin 300mg capsules (Teva UK Ltd)
+^ESCTPR1118389	Pregabalin 300mg capsules (Teva UK Ltd) 56 capsule 8 x 7 capsules
+^ESCTPR1118390	Pregabalin 25mg capsules (Teva UK Ltd)
+^ESCTPR1118391	Pregabalin 25mg capsules (Teva UK Ltd) 84 capsule 12 x 7 capsules
+^ESCTPR1118392	Pregabalin 25mg capsules (Teva UK Ltd) 56 capsule 8 x 7 capsules
+^ESCTPR1119825	Pregabalin 20mg/ml oral solution sugar free (Teva UK Ltd)
+^ESCTPR1119826	Pregabalin 20mg/ml oral solution sugar free (Teva UK Ltd) 473 ml
+^ESCTPR1119951	Pregabalin 25mg capsules (DE Pharmaceuticals)
+^ESCTPR1119952	Pregabalin 25mg capsules (DE Pharmaceuticals) 56 capsule
+^ESCTPR1119953	Pregabalin 25mg capsules (DE Pharmaceuticals) 84 capsule
+^ESCTPR1119954	Pregabalin 50mg capsules (DE Pharmaceuticals)
+^ESCTPR1119955	Pregabalin 50mg capsules (DE Pharmaceuticals) 56 capsule
+^ESCTPR1119956	Pregabalin 50mg capsules (DE Pharmaceuticals) 84 capsule
+^ESCTPR1119957	Pregabalin 75mg capsules (DE Pharmaceuticals)
+^ESCTPR1119958	Pregabalin 75mg capsules (DE Pharmaceuticals) 56 capsule
+^ESCTPR1119960	Pregabalin 100mg capsules (DE Pharmaceuticals)
+^ESCTPR1119961	Pregabalin 100mg capsules (DE Pharmaceuticals) 84 capsule
+^ESCTPR1119962	Pregabalin 150mg capsules (DE Pharmaceuticals)
+^ESCTPR1119963	Pregabalin 150mg capsules (DE Pharmaceuticals) 56 capsule
+^ESCTPR1119964	Pregabalin 200mg capsules (DE Pharmaceuticals)
+^ESCTPR1119965	Pregabalin 200mg capsules (DE Pharmaceuticals) 84 capsule
+^ESCTPR1119966	Pregabalin 225mg capsules (DE Pharmaceuticals)
+^ESCTPR1119967	Pregabalin 225mg capsules (DE Pharmaceuticals) 56 capsule
+^ESCTPR1119968	Pregabalin 300mg capsules (DE Pharmaceuticals)
+^ESCTPR1119969	Pregabalin 300mg capsules (DE Pharmaceuticals) 56 capsule
+^ESCTPR1120075	Pregabalin 20mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTPR1120076	Pregabalin 20mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd) 473 ml
+^ESCTPR1120966	Pregabalin 25mg capsules (Sandoz Ltd)
+^ESCTPR1120967	Pregabalin 25mg capsules (Sandoz Ltd) 56 capsule 4 x 14 capsules
+^ESCTPR1120968	Pregabalin 25mg capsules (Sandoz Ltd) 84 capsule 6 x 14 capsules
+^ESCTPR1120969	Pregabalin 300mg capsules (Sandoz Ltd)
+^ESCTPR1120970	Pregabalin 300mg capsules (Sandoz Ltd) 56 capsule 8 x 7 capsules
+^ESCTPR1120971	Pregabalin 50mg capsules (Sandoz Ltd)
+^ESCTPR1120972	Pregabalin 50mg capsules (Sandoz Ltd) 84 capsule 6 x 14 capsules
+^ESCTPR1120973	Pregabalin 225mg capsules (Sandoz Ltd)
+^ESCTPR1120974	Pregabalin 225mg capsules (Sandoz Ltd) 56 capsule 8 x 7 capsules
+^ESCTPR1120975	Pregabalin 75mg capsules (Sandoz Ltd)
+^ESCTPR1120976	Pregabalin 75mg capsules (Sandoz Ltd) 56 capsule 4 x 14 capsules
+^ESCTPR1120977	Pregabalin 200mg capsules (Sandoz Ltd)
+^ESCTPR1120978	Pregabalin 200mg capsules (Sandoz Ltd) 84 capsule 12 x 7 capsules
+^ESCTPR1120979	Pregabalin 100mg capsules (Sandoz Ltd)
+^ESCTPR1120980	Pregabalin 100mg capsules (Sandoz Ltd) 84 capsule 6 x 14 capsules
+^ESCTPR1120981	Pregabalin 150mg capsules (Sandoz Ltd)
+^ESCTPR1120982	Pregabalin 150mg capsules (Sandoz Ltd) 56 capsule 8 x 7 capsules
+^ESCTPR1126343	Pregabalin 150mg capsules (Zentiva)
+^ESCTPR1126344	Pregabalin 150mg capsules (Zentiva) 56 capsule 8 x 7 capsules
+^ESCTPR1126345	Pregabalin 200mg capsules (Zentiva)
+^ESCTPR1126346	Pregabalin 200mg capsules (Zentiva) 84 capsule 12 x 7 capsules
+^ESCTPR1126347	Pregabalin 225mg capsules (Zentiva)
+^ESCTPR1126348	Pregabalin 225mg capsules (Zentiva) 56 capsule 8 x 7 capsules
+^ESCTPR1126349	Pregabalin 300mg capsules (Zentiva)
+^ESCTPR1126350	Pregabalin 300mg capsules (Zentiva) 56 capsule 8 x 7 capsules
+^ESCTPR1126351	Pregabalin 50mg capsules (Zentiva)
+^ESCTPR1126352	Pregabalin 50mg capsules (Zentiva) 84 capsule 12 x 7 capsules
+^ESCTPR1126353	Pregabalin 75mg capsules (Zentiva)
+^ESCTPR1126354	Pregabalin 75mg capsules (Zentiva) 56 capsule 8 x 7 capsules
+^ESCTPR1126355	Pregabalin 100mg capsules (Zentiva)
+^ESCTPR1126356	Pregabalin 100mg capsules (Zentiva) 84 capsule 12 x 7 capsules
+^ESCTPR1126357	Pregabalin 25mg capsules (Zentiva)
+^ESCTPR1126358	Pregabalin 25mg capsules (Zentiva) 56 capsule 8 x 7 capsules
+^ESCTPR1126383	Pregabalin 25mg capsules (Accord Healthcare Ltd)
+^ESCTPR1126384	Pregabalin 25mg capsules (Accord Healthcare Ltd) 56 capsule
+^ESCTPR1126385	Pregabalin 50mg capsules (Accord Healthcare Ltd)
+^ESCTPR1126386	Pregabalin 50mg capsules (Accord Healthcare Ltd) 84 capsule
+^ESCTPR1126387	Pregabalin 25mg capsules (Accord Healthcare Ltd) 84 capsule
+^ESCTPR1126388	Pregabalin 75mg capsules (Accord Healthcare Ltd)
+^ESCTPR1126389	Pregabalin 75mg capsules (Accord Healthcare Ltd) 56 capsule
+^ESCTPR1126390	Pregabalin 100mg capsules (Accord Healthcare Ltd)
+^ESCTPR1126391	Pregabalin 100mg capsules (Accord Healthcare Ltd) 84 capsule
+^ESCTPR1126392	Pregabalin 150mg capsules (Accord Healthcare Ltd)
+^ESCTPR1126393	Pregabalin 150mg capsules (Accord Healthcare Ltd) 56 capsule
+^ESCTPR1126394	Pregabalin 200mg capsules (Accord Healthcare Ltd)
+^ESCTPR1126395	Pregabalin 200mg capsules (Accord Healthcare Ltd) 84 capsule
+^ESCTPR1126396	Pregabalin 225mg capsules (Accord Healthcare Ltd)
+^ESCTPR1126397	Pregabalin 225mg capsules (Accord Healthcare Ltd) 56 capsule
+^ESCTPR1126398	Pregabalin 300mg capsules (Accord Healthcare Ltd)
+^ESCTPR1126400	Pregabalin 300mg capsules (Accord Healthcare Ltd) 56 capsule
+^ESCTPR1128952	Pregabalin 20mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1128953	Pregabalin 20mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 473 ml
+^ESCTPR1136902	Pregabalin 25mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1136905	Pregabalin 25mg capsules (Alliance Healthcare (Distribution) Ltd) 56 capsule
+^ESCTPR1136910	Pregabalin 25mg capsules (Alliance Healthcare (Distribution) Ltd) 84 capsule
+^ESCTPR1136912	Pregabalin 50mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1136914	Pregabalin 50mg capsules (Alliance Healthcare (Distribution) Ltd) 84 capsule
+^ESCTPR1136927	Pregabalin 75mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1136930	Pregabalin 75mg capsules (Alliance Healthcare (Distribution) Ltd) 56 capsule
+^ESCTPR1136933	Pregabalin 100mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1136935	Pregabalin 100mg capsules (Alliance Healthcare (Distribution) Ltd) 84 capsule
+^ESCTPR1136940	Pregabalin 150mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1136943	Pregabalin 150mg capsules (Alliance Healthcare (Distribution) Ltd) 56 capsule
+^ESCTPR1136945	Pregabalin 200mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1136950	Pregabalin 200mg capsules (Alliance Healthcare (Distribution) Ltd) 84 capsule
+^ESCTPR1136952	Pregabalin 225mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1136957	Pregabalin 225mg capsules (Alliance Healthcare (Distribution) Ltd) 56 capsule
+^ESCTPR1136960	Pregabalin 300mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1136961	Pregabalin 300mg capsules (Alliance Healthcare (Distribution) Ltd) 56 capsule
+^ESCTPR1137847	Pregabalin 20mg/ml oral solution sugar free (Ennogen Healthcare Ltd)
+^ESCTPR1137848	Pregabalin 20mg/ml oral solution sugar free (Ennogen Healthcare Ltd) 473 ml
+^ESCTPR1139479	Pregabalin 25mg capsules (Wockhardt UK Ltd)
+^ESCTPR1139481	Pregabalin 25mg capsules (Wockhardt UK Ltd) 56 capsule
+^ESCTPR1139483	Pregabalin 25mg capsules (Wockhardt UK Ltd) 84 capsule
+^ESCTPR1139486	Pregabalin 50mg capsules (Wockhardt UK Ltd)
+^ESCTPR1139487	Pregabalin 50mg capsules (Wockhardt UK Ltd) 84 capsule
+^ESCTPR1139489	Pregabalin 100mg capsules (Wockhardt UK Ltd)
+^ESCTPR1139491	Pregabalin 100mg capsules (Wockhardt UK Ltd) 84 capsule
+^ESCTPR1139493	Pregabalin 200mg capsules (Wockhardt UK Ltd)
+^ESCTPR1139494	Pregabalin 200mg capsules (Wockhardt UK Ltd) 84 capsule
+^ESCTPR1139496	Pregabalin 300mg capsules (Wockhardt UK Ltd)
+^ESCTPR1139497	Pregabalin 300mg capsules (Wockhardt UK Ltd) 56 capsule
+^ESCTPR1141040	Pregabalin 75mg capsules (Wockhardt UK Ltd)
+^ESCTPR1141041	Pregabalin 75mg capsules (Wockhardt UK Ltd) 56 capsule
+^ESCTPR1141042	Pregabalin 150mg capsules (Wockhardt UK Ltd)
+^ESCTPR1141044	Pregabalin 150mg capsules (Wockhardt UK Ltd) 56 capsule
+^ESCTPR1141045	Pregabalin 225mg capsules (Wockhardt UK Ltd)
+^ESCTPR1141047	Pregabalin 225mg capsules (Wockhardt UK Ltd) 56 capsule
+^ESCTPR1142199	Pregabalin 25mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTPR1142200	Pregabalin 25mg capsules (Kent Pharmaceuticals Ltd) 56 capsule
+^ESCTPR1142207	Pregabalin 50mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTPR1142208	Pregabalin 50mg capsules (Kent Pharmaceuticals Ltd) 84 capsule
+^ESCTPR1142209	Pregabalin 75mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTPR1142210	Pregabalin 75mg capsules (Kent Pharmaceuticals Ltd) 56 capsule
+^ESCTPR1142211	Pregabalin 100mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTPR1142212	Pregabalin 100mg capsules (Kent Pharmaceuticals Ltd) 84 capsule
+^ESCTPR1142228	Pregabalin 150mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTPR1142231	Pregabalin 150mg capsules (Kent Pharmaceuticals Ltd) 56 capsule
+^ESCTPR1142234	Pregabalin 200mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTPR1142235	Pregabalin 200mg capsules (Kent Pharmaceuticals Ltd) 84 capsule
+^ESCTPR1142236	Pregabalin 225mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTPR1142237	Pregabalin 225mg capsules (Kent Pharmaceuticals Ltd) 56 capsule
+^ESCTPR1142265	Pregabalin 300mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTPR1142266	Pregabalin 300mg capsules (Kent Pharmaceuticals Ltd) 56 capsule
+^ESCTPR1145240	Pregabalin 20mg/ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTPR1145241	Pregabalin 20mg/ml oral solution sugar free (DE Pharmaceuticals) 473 ml
+^ESCTPR1146104	Pregabalin 50mg/5ml oral suspension 1 ml
+^ESCTPR1146105	Pregabalin 50mg/5ml oral suspension (Special Order)
+^ESCTPR1146106	Pregabalin 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPR1146223	Pregabalin 50mg/5ml oral suspension
+^ESCTPR1153035	Pregabalin 300mg capsules (Mylan Ltd)
+^ESCTPR1153036	Pregabalin 300mg capsules (Mylan Ltd) 56 capsule
+^ESCTPR1153037	Pregabalin 225mg capsules (Mylan Ltd)
+^ESCTPR1153038	Pregabalin 225mg capsules (Mylan Ltd) 56 capsule
+^ESCTPR1153039	Pregabalin 200mg capsules (Mylan Ltd)
+^ESCTPR1153040	Pregabalin 200mg capsules (Mylan Ltd) 84 capsule
+^ESCTPR1153041	Pregabalin 150mg capsules (Mylan Ltd)
+^ESCTPR1153042	Pregabalin 150mg capsules (Mylan Ltd) 56 capsule
+^ESCTPR1153043	Pregabalin 100mg capsules (Mylan Ltd)
+^ESCTPR1153044	Pregabalin 100mg capsules (Mylan Ltd) 84 capsule
+^ESCTPR1153045	Pregabalin 75mg capsules (Mylan Ltd)
+^ESCTPR1153046	Pregabalin 75mg capsules (Mylan Ltd) 56 capsule
+^ESCTPR1153047	Pregabalin 50mg capsules (Mylan Ltd)
+^ESCTPR1153048	Pregabalin 50mg capsules (Mylan Ltd) 84 capsule
+^ESCTPR1153049	Pregabalin 25mg capsules (Mylan Ltd)
+^ESCTPR1153050	Pregabalin 25mg capsules (Mylan Ltd) 56 capsule
+^ESCTPR1153051	Pregabalin 25mg capsules (Mylan Ltd) 84 capsule
+^ESCTPR1153972	Pregabalin 100mg capsules 56 capsule
+^ESCTPR1153992	Pregabalin 200mg capsules 56 capsule
+^ESCTPR1162867	Pregabalin 300mg/5ml oral suspension 1 ml
+^ESCTPR1162868	Pregabalin 300mg/5ml oral suspension (Special Order)
+^ESCTPR1162869	Pregabalin 300mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPR1162921	Pregabalin 300mg/5ml oral suspension
+^ESCTPR1163131	Pregabalin 20mg/ml oral solution sugar free 500 ml
+^ESCTPR1163132	Pregabalin 20mg/ml oral solution sugar free (Focus Pharmaceuticals Ltd)
+^ESCTPR1163133	Pregabalin 20mg/ml oral solution sugar free (Focus Pharmaceuticals Ltd) 500 ml 2 x 250ml bottles
+^ESCTPR687121	Pregabalin 100mg capsules
+^ESCTPR687122	Pregabalin 100 mg/1 each oral capsule
+^ESCTPR687123	Product containing pregabalin 100 mg/1 each oral capsule
+^ESCTPR687124	Pregabalin 150mg capsules
+^ESCTPR687125	Pregabalin 150 mg/1 each oral capsule
+^ESCTPR687126	Product containing pregabalin 150 mg/1 each oral capsule
+^ESCTPR687127	Pregabalin 200mg capsules
+^ESCTPR687128	Pregabalin 200 mg/1 each oral capsule
+^ESCTPR687129	Product containing pregabalin 200 mg/1 each oral capsule
+^ESCTPR687130	Pregabalin 25mg capsules
+^ESCTPR687131	Pregabalin 25 mg/1 each oral capsule
+^ESCTPR687132	Product containing pregabalin 25 mg/1 each oral capsule
+^ESCTPR687133	Pregabalin 300mg capsules
+^ESCTPR687134	Pregabalin 300 mg/1 each oral capsule
+^ESCTPR687135	Product containing pregabalin 300 mg/1 each oral capsule
+^ESCTPR687136	Pregabalin 50mg capsules
+^ESCTPR687137	Pregabalin 50 mg/1 each oral capsule
+^ESCTPR687138	Product containing pregabalin 50 mg/1 each oral capsule
+^ESCTPR687139	Pregabalin 75mg capsules
+^ESCTPR687140	Pregabalin 75 mg/1 each oral capsule
+^ESCTPR687141	Product containing pregabalin 75 mg/1 each oral capsule
+^ESCTPR696545	Pregabalin 225mg capsules
+^ESCTPR696546	Pregabalin 225 mg/1 each oral capsule
+^ESCTPR696547	Product containing pregabalin 225 mg/1 each oral capsule
+^ESCTPR901211	Pregabalin 25mg capsules 56 capsule
+^ESCTPR901212	Pregabalin 25mg capsules 84 capsule
+^ESCTPR901223	Pregabalin 50mg capsules 84 capsule
+^ESCTPR901226	Pregabalin 75mg capsules 56 capsule
+^ESCTPR901229	Pregabalin 100mg capsules 84 capsule
+^ESCTPR901232	Pregabalin 150mg capsules 56 capsule
+^ESCTPR901237	Pregabalin 200mg capsules 84 capsule
+^ESCTPR901241	Pregabalin 300mg capsules 56 capsule
+^ESCTPR934251	Pregabalin 25mg capsules 100 capsule
+^ESCTPR958889	Pregabalin 225mg capsules 56 capsule
+^ESCTPR959908	Pregabalin 75mg capsules 14 capsule
+^ESCTPR963724	Pregabalin 50mg capsules 56 capsule
+^ESCTPR967732	Pregabalin 75mg/5ml oral solution 1 ml
+^ESCTPR967734	Pregabalin 75mg/5ml oral solution (Special Order)
+^ESCTPR967735	Pregabalin 75mg/5ml oral solution (Special Order) 1 ml
+^ESCTPR967736	Pregabalin 75mg/5ml oral suspension 1 ml
+^ESCTPR967737	Pregabalin 75mg/5ml oral suspension (Special Order)
+^ESCTPR967738	Pregabalin 75mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPR968010	Pregabalin 75mg/5ml oral solution
+^ESCTPR968011	Pregabalin 75mg/5ml oral suspension
+^ESCTPR971570	Pregabalin 50mg capsules 21 capsule
+^ESCTPR978645	Pregabalin 150mg/5ml oral solution 1 ml
+^ESCTPR978646	Pregabalin 150mg/5ml oral solution (Special Order)
+^ESCTPR978647	Pregabalin 150mg/5ml oral solution (Special Order) 1 ml
+^ESCTPR978648	Pregabalin 150mg/5ml oral suspension 1 ml
+^ESCTPR978649	Pregabalin 150mg/5ml oral suspension (Special Order)
+^ESCTPR978650	Pregabalin 150mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPR978663	Pregabalin 150mg/5ml oral solution
+^ESCTPR978664	Pregabalin 150mg/5ml oral suspension
+^ESCTPR979731	Pregabalin 200mg/5ml oral solution 1 ml
+^ESCTPR979732	Pregabalin 200mg/5ml oral solution (Special Order)
+^ESCTPR979733	Pregabalin 200mg/5ml oral solution (Special Order) 1 ml
+^ESCTPR979734	Pregabalin 200mg/5ml oral suspension 1 ml
+^ESCTPR979735	Pregabalin 200mg/5ml oral suspension (Special Order)
+^ESCTPR979736	Pregabalin 200mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPR979771	Pregabalin 200mg/5ml oral solution
+^ESCTPR979772	Pregabalin 200mg/5ml oral suspension
+^ESCTPR982446	Pregabalin 75mg oral powder sachets 1 sachet
+^ESCTPR982447	Pregabalin 75mg oral powder sachets (Special Order)
+^ESCTPR982448	Pregabalin 75mg oral powder sachets (Special Order) 1 sachet
+^ESCTPR982517	Pregabalin 75mg oral powder sachets
+^ESCTPR986227	Pregabalin 25mg/5ml oral solution 1 ml
+^ESCTPR986228	Pregabalin 25mg/5ml oral solution (Special Order)
+^ESCTPR986229	Pregabalin 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTPR986231	Pregabalin 25mg/5ml oral suspension 1 ml
+^ESCTPR986233	Pregabalin 25mg/5ml oral suspension (Special Order)
+^ESCTPR986234	Pregabalin 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPR986410	Pregabalin 25mg/5ml oral solution
+^ESCTPR986411	Pregabalin 25mg/5ml oral suspension
+^ESCTPR989300	Pregabalin 150mg capsules 14 capsule
+^ESCTPR993402	Pregabalin 25mg capsules 14 capsule
+^ESCTRE1107348	Rewisca 100mg capsules (Consilient Health Ltd)
+^ESCTRE1107350	Rewisca 100mg capsules (Consilient Health Ltd) 84 capsule 6 x 14 capsules
+^ESCTRE1107353	Rewisca 25mg capsules (Consilient Health Ltd)
+^ESCTRE1107355	Rewisca 25mg capsules (Consilient Health Ltd) 56 capsule 4 x 14 capsules
+^ESCTRE1107362	Rewisca 50mg capsules (Consilient Health Ltd)
+^ESCTRE1107363	Rewisca 50mg capsules (Consilient Health Ltd) 84 capsule 6 x 14 capsules
+^ESCTRE1107367	Rewisca 75mg capsules (Consilient Health Ltd)
+^ESCTRE1107369	Rewisca 75mg capsules (Consilient Health Ltd) 56 capsule 4 x 14 capsules
+^ESCTRE1107372	Rewisca 150mg capsules (Consilient Health Ltd)
+^ESCTRE1107374	Rewisca 150mg capsules (Consilient Health Ltd) 56 capsule 4 x 14 capsules
+^ESCTRE1107376	Rewisca 200mg capsules (Consilient Health Ltd)
+^ESCTRE1107377	Rewisca 200mg capsules (Consilient Health Ltd) 84 capsule 6 x 14 capsules
+^ESCTRE1107386	Rewisca 225mg capsules (Consilient Health Ltd)
+^ESCTRE1107389	Rewisca 225mg capsules (Consilient Health Ltd) 56 capsule 4 x 14 capsules
+^ESCTRE1107405	Rewisca 300mg capsules (Consilient Health Ltd)
+^ESCTRE1107408	Rewisca 300mg capsules (Consilient Health Ltd) 56 capsule 4 x 14 capsules
+ALCA101095NEMIS	Alzain  Capsules  25 mg
+ALCA101096NEMIS	Alzain  Capsules  50 mg
+ALCA101097NEMIS	Alzain  Capsules  75 mg
+ALCA101098NEMIS	Alzain  Capsules  100 mg
+ALCA101099NEMIS	Alzain  Capsules  150 mg
+ALCA101100NEMIS	Alzain  Capsules  200 mg
+ALCA101101NEMIS	Alzain  Capsules  225 mg
+ALCA101102NEMIS	Alzain  Capsules  300 mg
+AXCA118197NEMIS	Axalid  Capsules  25 mg
+AXCA118198NEMIS	Axalid  Capsules  50 mg
+AXCA118199NEMIS	Axalid  Capsules  75 mg
+AXCA118200NEMIS	Axalid  Capsules  100 mg
+AXCA118201NEMIS	Axalid  Capsules  150 mg
+AXCA118202NEMIS	Axalid  Capsules  200 mg
+AXCA118203NEMIS	Axalid  Capsules  225 mg
+AXCA118204NEMIS	Axalid  Capsules  300 mg
+LETA100730NEMIS	Lecaent  Capsules  25 mg
+LETA100731NEMIS	Lecaent  Capsules  50 mg
+LETA100732NEMIS	Lecaent  Capsules  75 mg
+LETA100733NEMIS	Lecaent  Capsules  100 mg
+LETA100734NEMIS	Lecaent  Capsules  150 mg
+LETA100735NEMIS	Lecaent  Capsules  200 mg
+LETA100736NEMIS	Lecaent  Capsules  225 mg
+LETA100738NEMIS	Lecaent  Capsules  300 mg
+LYCA18437NEMIS	Lyrica  Capsules  25 mg
+LYCA18438NEMIS	Lyrica  Capsules  50 mg
+LYCA18439NEMIS	Lyrica  Capsules  75 mg
+LYCA18440NEMIS	Lyrica  Capsules  100 mg
+LYCA18441NEMIS	Lyrica  Capsules  150 mg
+LYCA18442NEMIS	Lyrica  Capsules  200 mg
+LYCA18443NEMIS	Lyrica  Capsules  300 mg
+LYCA28504NEMIS	Lyrica  Capsules  225 mg
+LYOR74092NEMIS	Lyrica  Oral solution  20 mg/ml
+PRCA18428NEMIS	Pregabalin  Capsules  25 mg
+PRCA18430NEMIS	Pregabalin  Capsules  50 mg
+PRCA18431NEMIS	Pregabalin  Capsules  75 mg
+PRCA18432NEMIS	Pregabalin  Capsules  100 mg
+PRCA18433NEMIS	Pregabalin  Capsules  150 mg
+PRCA18434NEMIS	Pregabalin  Capsules  200 mg
+PRCA18435NEMIS	Pregabalin  Capsules  300 mg
+PRCA28503NEMIS	Pregabalin  Capsules  225 mg
+PROR23497NEMIS	Pregabalin  Oral suspension  75 mg/5 ml
+PROR35191NEMIS	Pregabalin  Oral suspension  150 mg/5 ml
+PROR46792NEMIS	Pregabalin  Oral solution  75 mg/5 ml
+PROR46978NEMIS	Pregabalin  Oral powder sachets  75 mg
+PROR74091NEMIS	Pregabalin  Oral Solution, Sugar Free  20 mg/ml
+PRTA134745NEMIS	Pregabalin  Tablets  25 mg
+PRTA134747NEMIS	Pregabalin  Tablets  50 mg
+PRTA134748NEMIS	Pregabalin  Tablets  75 mg
+PRTA134749NEMIS	Pregabalin  Tablets  100 mg
+PRTA134750NEMIS	Pregabalin  Tablets  150 mg
+PRTA134751NEMIS	Pregabalin  Tablets  200 mg
+PRTA134752NEMIS	Pregabalin  Tablets  225 mg
+PRTA134753NEMIS	Pregabalin  Tablets  300 mg
+RECA100513NEMIS	Rewisca  Capsules  25 mg
+RECA100514NEMIS	Rewisca  Capsules  50 mg
+RECA100515NEMIS	Rewisca  Capsules  75 mg
+RECA100516NEMIS	Rewisca  Capsules  100 mg
+RECA100517NEMIS	Rewisca  Capsules  150 mg
+RECA100518NEMIS	Rewisca  Capsules  200 mg
+RECA100519NEMIS	Rewisca  Capsules  225 mg
+RECA100520NEMIS	Rewisca  Capsules  300 mg

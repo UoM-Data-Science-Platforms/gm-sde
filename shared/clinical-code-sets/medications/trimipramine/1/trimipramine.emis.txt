@@ -1,0 +1,171 @@
+^ESCT1181392	Product containing only trimipramine 50 mg/1 each oral capsule
+^ESCT1181393	Product containing only trimipramine 10 mg/1 each oral tablet
+^ESCT1187295	Product containing only trimipramine 25 mg/1 each oral tablet
+^ESCT1223552	Trimipramine (as trimipramine maleate) 50 mg oral capsule
+^ESCT1223553	Product containing precisely trimipramine (as trimipramine maleate) 50 milligram/1 each conventional release oral capsule
+^ESCT1223554	Trimipramine (as trimipramine maleate) 10 mg oral tablet
+^ESCT1223555	Product containing precisely trimipramine (as trimipramine maleate) 10 milligram/1 each conventional release oral tablet
+^ESCT1223556	Product containing precisely trimipramine (as trimipramine maleate) 25 milligram/1 each conventional release oral tablet
+^ESCT1223557	Trimipramine (as trimipramine maleate) 25 mg oral tablet
+^ESCT1250822	Trimipramine 50mg capsules (Advanz Pharma)
+^ESCT1250823	Trimipramine 50mg capsules (Advanz Pharma) 28 capsule 2 x 14 capsules
+^ESCT1250824	Trimipramine 10mg tablets (Advanz Pharma)
+^ESCT1250825	Trimipramine 10mg tablets (Advanz Pharma) 28 tablet 2 x 14 tablets
+^ESCT1250826	Trimipramine 25mg tablets (Advanz Pharma)
+^ESCT1250827	Trimipramine 25mg tablets (Advanz Pharma) 28 tablet 2 x 14 tablets
+^ESCT1274925	Trimipramine 25mg tablets 50 tablet
+^ESCT1274964	Trimipramine 25mg tablets 100 tablet
+^ESCT1275173	Trimipramine 10mg tablets 25 tablet
+^ESCT1275175	Trimipramine 10mg tablets 50 tablet
+^ESCT1275769	Trimipramine 10mg tablets (DE Pharmaceuticals)
+^ESCT1275770	Trimipramine 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1275771	Trimipramine 25mg tablets (DE Pharmaceuticals)
+^ESCT1275772	Trimipramine 25mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1422560	Trimipramine 50mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1422561	Trimipramine 50mg capsules (Zentiva Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1422562	Trimipramine 25mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422563	Trimipramine 25mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422564	Trimipramine 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422565	Trimipramine 10mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426733	Trimipramine 50mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426734	Trimipramine 50mg capsules (Kent Pharma (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1426735	Trimipramine 25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426736	Trimipramine 25mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426737	Trimipramine 25mg tablets (Kent Pharma (UK) Ltd) 84 tablet 6 x 14 tablets
+^ESCT1426738	Trimipramine 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426739	Trimipramine 10mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426740	Trimipramine 10mg tablets (Kent Pharma (UK) Ltd) 84 tablet 6 x 14 tablets
+^ESCT1429723	Trimipramine 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429724	Trimipramine 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1429725	Trimipramine 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429726	Trimipramine 25mg tablets (Medihealth (Northern) Ltd) 100 tablet
+^ESCT1429761	Trimipramine 50mg capsules (Medihealth (Northern) Ltd)
+^ESCT1429762	Trimipramine 50mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCTPR609707	Product containing trimipramine 50 mg/1 each oral capsule
+^ESCTPR609709	Product containing trimipramine 10 mg/1 each oral tablet
+^ESCTPR609712	Product containing trimipramine 25 mg/1 each oral tablet
+^ESCTSU803184	Surmontil 50mg capsules (Sanofi)
+^ESCTSU818904	Surmontil 25mg tablets (Sanofi)
+^ESCTSU832243	Surmontil 10mg tablets (Sanofi)
+^ESCTSU855857	Surmontil 25mg tablets (Sanofi) 84 tablet 6 x 14 tablets
+^ESCTSU855859	Surmontil 25mg tablets (Sanofi) 28 tablet 2 x 14 tablets
+^ESCTSU855864	Surmontil 10mg tablets (Sanofi) 84 tablet 6 x 14 tablets
+^ESCTSU855865	Surmontil 10mg tablets (Sanofi) 28 tablet 2 x 14 tablets
+^ESCTSU855868	Surmontil 50mg capsules (Sanofi) 28 capsule 2 x 14 capsules
+^ESCTTR1005412	Trimipramine 50mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTTR1005413	Trimipramine 50mg capsules (Phoenix Healthcare Distribution Ltd) 28 capsule
+^ESCTTR1005414	Trimipramine 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTTR1005415	Trimipramine 10mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTTR1005416	Trimipramine 10mg tablets (Phoenix Healthcare Distribution Ltd) 84 tablet
+^ESCTTR1005417	Trimipramine 25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTTR1005418	Trimipramine 25mg tablets (Phoenix Healthcare Distribution Ltd) 84 tablet
+^ESCTTR1005419	Trimipramine 25mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTTR1037736	Trimipramine 50mg capsules (Zentiva)
+^ESCTTR1037737	Trimipramine 50mg capsules (Zentiva) 28 capsule 2 x 14 capsules
+^ESCTTR1037738	Trimipramine 25mg tablets (Zentiva)
+^ESCTTR1037739	Trimipramine 25mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTTR1037740	Trimipramine 10mg tablets (Zentiva)
+^ESCTTR1037741	Trimipramine 10mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTTR1042605	Trimipramine 50mg capsules (Waymade Healthcare Plc)
+^ESCTTR1042606	Trimipramine 50mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTTR1042607	Trimipramine 10mg tablets (Waymade Healthcare Plc)
+^ESCTTR1042608	Trimipramine 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTTR1042609	Trimipramine 10mg tablets (Waymade Healthcare Plc) 84 tablet
+^ESCTTR1042610	Trimipramine 25mg tablets (Waymade Healthcare Plc)
+^ESCTTR1042611	Trimipramine 25mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTTR1042612	Trimipramine 25mg tablets (Waymade Healthcare Plc) 84 tablet
+^ESCTTR1118268	Trimipramine 50mg capsules (Focus Pharmaceuticals Ltd)
+^ESCTTR1118270	Trimipramine 50mg capsules (Focus Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTTR1118272	Trimipramine 10mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTTR1118275	Trimipramine 10mg tablets (Focus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTTR1118276	Trimipramine 25mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTTR1118277	Trimipramine 25mg tablets (Focus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTTR1127809	Trimipramine 50mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTTR1127810	Trimipramine 50mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTTR609705	Trimipramine 50mg capsules
+^ESCTTR609706	Trimipramine 50 mg/1 each oral capsule
+^ESCTTR609708	Trimipramine 10mg tablets
+^ESCTTR609710	Trimipramine 10 mg oral tablet
+^ESCTTR609711	Trimipramine 25mg tablets
+^ESCTTR609713	Trimipramine 25 mg oral tablet
+^ESCTTR836437	Trimipramine 25mg tablets 28 tablet
+^ESCTTR840821	Trimipramine 10mg tablets 84 tablet
+^ESCTTR843577	Trimipramine 50mg capsules 28 capsule
+^ESCTTR847714	Trimipramine 10mg tablets 28 tablet
+^ESCTTR848538	Trimipramine 25mg tablets 84 tablet
+^ESCTTR873030	Trimipramine 50mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTTR873032	Trimipramine 50mg capsules (Kent Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTTR873033	Trimipramine 25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTTR873035	Trimipramine 25mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTTR873036	Trimipramine 25mg tablets (Kent Pharmaceuticals Ltd) 84 tablet 6 x 14 tablets
+^ESCTTR873039	Trimipramine 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTTR873042	Trimipramine 10mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTTR873046	Trimipramine 10mg tablets (Kent Pharmaceuticals Ltd) 84 tablet 6 x 14 tablets
+^ESCTTR922591	Trimipramine 50mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTTR922594	Trimipramine 50mg capsules (A A H Pharmaceuticals Ltd) 28 capsule
+^ESCTTR922595	Trimipramine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTR922596	Trimipramine 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTTR922597	Trimipramine 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTR922598	Trimipramine 25mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTTR922599	Trimipramine 25mg tablets (A A H Pharmaceuticals Ltd) 84 tablet 6 x 14 tablets
+^ESCTTR928346	Trimipramine 50mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR928347	Trimipramine 50mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule
+^ESCTTR928348	Trimipramine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR928349	Trimipramine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTTR928350	Trimipramine 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR928351	Trimipramine 25mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTTR928352	Trimipramine 25mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet
+^ESCTTR936687	Trimipramine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet
+^ESCTTR940655	Trimipramine 10mg tablets (A A H Pharmaceuticals Ltd) 84 tablet 3 x 28 tablets
+^ESCTTR962551	Trimipramine 10mg/5ml oral solution 1 ml
+^ESCTTR962552	Trimipramine 10mg/5ml oral solution (Special Order)
+^ESCTTR962553	Trimipramine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTTR962557	Trimipramine 10mg/5ml oral suspension 1 ml
+^ESCTTR962558	Trimipramine 10mg/5ml oral suspension (Special Order)
+^ESCTTR962559	Trimipramine 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTR962560	Trimipramine 125mg/5ml oral solution 1 ml
+^ESCTTR962561	Trimipramine 125mg/5ml oral solution (Special Order)
+^ESCTTR962562	Trimipramine 125mg/5ml oral solution (Special Order) 1 ml
+^ESCTTR962563	Trimipramine 125mg/5ml oral suspension 1 ml
+^ESCTTR962564	Trimipramine 125mg/5ml oral suspension (Special Order)
+^ESCTTR962565	Trimipramine 125mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTR962568	Trimipramine 25mg/5ml oral solution 1 ml
+^ESCTTR962570	Trimipramine 25mg/5ml oral solution (Special Order)
+^ESCTTR962572	Trimipramine 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTTR962573	Trimipramine 25mg/5ml oral suspension 1 ml
+^ESCTTR962574	Trimipramine 25mg/5ml oral suspension (Special Order)
+^ESCTTR962575	Trimipramine 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTR962579	Trimipramine 50mg/5ml oral solution 1 ml
+^ESCTTR962581	Trimipramine 50mg/5ml oral solution (Special Order)
+^ESCTTR962582	Trimipramine 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTTR962585	Trimipramine 50mg/5ml oral suspension 1 ml
+^ESCTTR962586	Trimipramine 50mg/5ml oral suspension (Special Order)
+^ESCTTR962587	Trimipramine 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTTR962642	Trimipramine 10mg/5ml oral solution
+^ESCTTR962643	Trimipramine 10mg/5ml oral suspension
+^ESCTTR962644	Trimipramine 125mg/5ml oral solution
+^ESCTTR962645	Trimipramine 125mg/5ml oral suspension
+^ESCTTR962646	Trimipramine 25mg/5ml oral solution
+^ESCTTR962647	Trimipramine 25mg/5ml oral suspension
+^ESCTTR962648	Trimipramine 50mg/5ml oral solution
+^ESCTTR962649	Trimipramine 50mg/5ml oral suspension
+^ESCTTR979352	Trimipramine 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTR979353	Trimipramine 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTTR979354	Trimipramine 10mg tablets (Sigma Pharmaceuticals Plc) 84 tablet
+^ESCTTR979355	Trimipramine 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTTR979356	Trimipramine 25mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTTR979357	Trimipramine 25mg tablets (Sigma Pharmaceuticals Plc) 84 tablet
+^ESCTTR979359	Trimipramine 50mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTTR979361	Trimipramine 50mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+SUCA2748	Surmontil  Capsules  50 mg
+SUTA2749	Surmontil  Tablets  10 mg
+SUTA2750	Surmontil  Tablets  25 mg
+TRCA2940	Trimipramine  Capsules  50 mg
+TRCA37285MGEMIS	Trimipramine  Capsules  50 mg (Kent Pharm)
+TRCA37286MGEMIS	Trimipramine  Capsules  50 mg (A.A.H. Pharm)
+TRTA2941	Trimipramine  Tablets  10 mg
+TRTA2942	Trimipramine  Tablets  25 mg
+TRTA37334MGEMIS	Trimipramine  Tablets  10 mg (Kent Pharm)
+TRTA37335MGEMIS	Trimipramine  Tablets  10 mg (A.A.H. Pharm)
+TRTA37336MGEMIS	Trimipramine  Tablets  25 mg (Kent Pharm)
+TRTA37337MGEMIS	Trimipramine  Tablets  25 mg (A.A.H. Pharm)
