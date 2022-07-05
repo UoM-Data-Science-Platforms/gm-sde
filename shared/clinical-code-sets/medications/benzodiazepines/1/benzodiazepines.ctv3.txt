@@ -1,0 +1,75 @@
+d141.	Rohypnol 1mg tablet
+d14z.	Flunitrazepam 1mg tablet
+d151.	Dalmane 15mg capsule
+d152.	Dalmane 30mg capsule
+d15y.	Flurazepam 15mg capsule
+d15z.	Flurazepam 30mg capsule
+d161.	Loprazolam 1mg tablet
+d171.	Lormetazepam 500micrograms tablet
+d172.	Lormetazepam 1mg tablet
+d182.	Nitrazepam 5mg tablet
+d184.	Nitrazepam 2.5mg/5mL suspension
+d186.	Mogadon 5mg tablet
+d18c.	Somnite 2.5mg/5mL suspension
+d1a9.	Temazepam 10mg tablet
+d1aa.	Temazepam 20mg tablet
+d1ao.	Temazepam 10mg/5mL s/f oral solution
+d213.	Diazepam 2mg tablet
+d214.	Diazepam 5mg tablet
+d215.	Diazepam 10mg tablet
+d216.	Diazepam 2mg/5mL oral solution
+d21A.	Diazepam 5mg/5mL oral solution
+d21d.	Diazemuls 10mg/2mL injection
+d21G.	Valclair 10mg suppository
+d21J.	Diazepam 10mg/5mL suspension
+d21k.	Stesolid 5mg rectal solution
+d21k.	Stesolid 5mg/2.5mL rectal solution
+d21l.	Stesolid 10mg/2.5mL rectal solution
+d21l.	Stesolid 10mg rectal solution
+d21m.	Tensium 2mg tablet
+d21o.	Tensium 10mg tablet
+d21z.	Diazepam 10mg suppository
+d221.	Xanax 250mcg tablet
+d222.	Xanax 500mcg tablet
+d22y.	Alprazolam 250micrograms tablet
+d22z.	Alprazolam 500micrograms tablet
+d241.	Chlordiazepoxide hydrochloride 5mg capsule
+d241.	Chlordiazepoxide 5mg capsule
+d242.	Chlordiazepoxide 10mg capsule
+d242.	Chlordiazepoxide hydrochloride 10mg capsule
+d243.	Chlordiazepoxide hydrochloride 5mg tablet
+d244.	Chlordiazepoxide hydrochloride 10mg tablet
+d249.	Librium 5mg capsule
+d24a.	Librium 10mg capsule
+d24f.	Tropium 5mg capsule
+d24g.	Tropium 10mg capsule
+d24h.	Tropium 5mg tablet
+d24i.	Tropium 10mg tablet
+d262.	Frisium 10mg capsule
+d263.	Clobazam 10mg tablet
+d265.	TAPCLOB 5mg/5mL oral suspension
+d267.	TAPCLOB 10mg/5mL oral suspension
+d269.	PERIZAM 1mg/mL oral suspension
+d26A.	PERIZAM 2mg/mL oral suspension
+d271.	Tranxene 7.5mg capsule
+d272.	Tranxene 15mg capsule
+d2a1.	Lorazepam 1mg tablet
+d2a2.	Lorazepam 2.5mg tablet
+d2a7.	Ativan 4mg/1mL injection
+d2az.	Lorazepam 4mg/1mL injection
+d2d2.	Oxazepam 10mg tablet
+d2d3.	Oxazepam 15mg tablet
+dn41.	Rivotril 500mcg tablet
+dn42.	Rivotril 2mg tablet
+dn4x.	Clonazepam 2mg/5mL s/f oral solution
+dn4y.	Clonazepam 500micrograms tablet
+dn4z.	Clonazepam 2mg tablet
+do18.	Diazepam 5mg/2.5mL RecTube
+do18.	RecTube 5mg/2.5mL rectal solution
+do19.	Diazepam 10mg/2.5mL RecTube
+do19.	RecTube 10mg/2.5mL rectal solution
+do1A.	Diazepam 2.5mg/1.25mL RecTube
+do1A.	RecTube 2.5mg/1.25mL rectal solution
+do1t.	Diazepam 2.5mg/1.25mL rectal solution
+do1x.	Diazepam 5mg/2.5mL rectal solution
+do1y.	Diazepam 10mg/2.5mL rectal solution
