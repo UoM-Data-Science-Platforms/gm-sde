@@ -1,0 +1,18 @@
+g83A.	ETHINYLESTRADIOL+LEVONORGESTREL 30micrograms/150micrograms tablets
+g83B.	ETHINYLESTRADIOL+LEVONORGESTREL 30micrograms/250micrograms tablets
+ga21.	*MICROVAL tablets
+ga22.	NORGESTON tablets
+ga23.	LEVONORGESTREL 30micrograms tablets
+ga26.	LEVONORGESTREL 52mg intrauterine system
+ga27.	MIRENA 52mg intrauterine system
+ga28.	LEVONORGESTREL 750micrograms tablets
+ga29.	*LEVONELLE-2 tablets
+ga2A.	LEVONELLE 750micrograms tablets
+ga2B.	LEVONORGESTREL 1.5mg tablets
+ga2C.	LEVONELLE ONE STEP 1.5mg tablet
+ga2D.	LEVONELLE 1500micrograms tablets
+ga2E.	UPOSTELLE 1500micrograms tablets
+ga2F.	JAYDESS 13.5mg intrauterine system
+ga2G.	LEVONORGESTREL 13.5mg intrauterine system
+ga2H.	ISTERANDA 1.5mg tablets
+ga2I.	LEVOSERT 20micrograms/24hours intrauterine system

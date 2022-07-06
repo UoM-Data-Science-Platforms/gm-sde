@@ -1,0 +1,39 @@
+dnb1.	EPILIM 100mg crushable tablets
+dnb2.	EPILIM 200mg e/c tablets
+dnb3.	EPILIM 500mg e/c tablets
+dnb4.	EPILIM 200mg/5mL sugar free liquid
+dnb5.	EPILIM 200mg/5mL syrup
+dnb6.	EPILIM IV 400mg/4mL injection
+dnb7.	SODIUM VALPROATE 200mg e/c tablets
+dnb8.	SODIUM VALPROATE 500mg e/c tablets
+dnba.	*ORLEPT 200mg e/c tablets
+dnbA.	ORLEPT 200mg/5mL sugar free liquid
+dnbb.	*ORLEPT 500mg e/c tablets
+dnbB.	EPIVAL CR 300mg m/r tablets
+dnbc.	EPILIM CHRONO 200 m/r tablets
+dnbC.	EPIVAL CR 500mg m/r tablets
+dnbd.	EPILIM CHRONO 300 m/r tablets
+dnbe.	EPILIM CHRONO 500 m/r tablets
+dnbE.	SODIUM VALPROATE 300mg/3mL solution for injection
+dnbF.	EPISENTA 150mg m/r capsules
+dnbG.	EPISENTA 300mg m/r capsules
+dnbH.	EPISENTA 500mg/sachet m/r granules
+dnbI.	EPISENTA 1g/sachet m/r granules
+dnbJ.	SODIUM VALPROATE 150mg m/r capsules
+dnbK.	SODIUM VALPROATE 300mg m/r capsules
+dnbL.	SODIUM VALPROATE 500mg/sachet m/r granules
+dnbM.	SODIUM VALPROATE 1g/sachet m/r granules
+dnbN.	SODIUM VALPROATE 1g/10mL solution for injection
+dnbO.	EPISENTA 1g/10mL solution for injection
+dnbP.	EPILIM CHRONOSPHERE 50mg/sachet m/r granules
+dnbQ.	EPILIM CHRONOSPHERE 100mg/sachet m/r granules
+dnbr.	SODIUM VALPROATE 200mg m/r tablets
+dnbR.	EPILIM CHRONOSPHERE 250mg/sachet m/r granules
+dnbs.	SODIUM VALPROATE 300mg m/r tablets
+dnbS.	EPILIM CHRONOSPHERE 500mg/sachet m/r granules
+dnbt.	SODIUM VALPROATE 500mg m/r tablets
+dnbT.	EPILIM CHRONOSPHERE 750mg/sachet m/r granules
+dnbu.	SODIUM VALPROATE 400mg/4mL injection
+dnbU.	EPILIM CHRONOSPHERE 1g/sachet m/r granules
+dnbv.	SODIUM VALPROATE 100mg crushable tablets
+dnby.	SODIUM VALPROATE 200mg/5mL sugar free liquid

@@ -1,0 +1,354 @@
+^ESCT1179607	Sodium valproate 500mg gastro-resistant tablets (Mylan) 100 tablet 10 x 10 tablets
+^ESCT1183521	Sodium valproate 100mg tablets (Mylan) 100 tablet 10 x 10 tablets
+^ESCT1185935	Sodium valproate 100mg tablets (Mylan)
+^ESCT1188808	Sodium valproate 200mg gastro-resistant tablets (Mylan) 100 tablet 10 x 10 tablets
+^ESCT1189247	Sodium valproate 500mg gastro-resistant tablets (Mylan)
+^ESCT1189502	Sodium valproate 200mg gastro-resistant tablets (Mylan)
+^ESCT1198143	Sodium valproate 200mg/ml oral solution 40 ml
+^ESCT1198144	Depakin 200mg/ml oral solution (Imported (Italy))
+^ESCT1198145	Depakin 200mg/ml oral solution (Imported (Italy)) 40 ml
+^ESCT1198173	Sodium valproate 200mg/ml oral solution
+^ESCT1214933	Sodium valproate 200mg/5ml oral solution
+^ESCT1214934	Sodium valproate 200mg/5ml oral solution sugar free
+^ESCT1214935	Sodium valproate 400mg powder and solvent for solution for injection vials
+^ESCT1223915	Valproate sodium 200 mg gastro-resistant oral tablet
+^ESCT1223916	Sodium valproate 200 mg gastro-resistant oral tablet
+^ESCT1223917	Product containing precisely valproate sodium 200 milligram/1 each gastro-resistant oral tablet
+^ESCT1223918	Product containing precisely valproate sodium 500 milligram/1 each gastro-resistant oral tablet
+^ESCT1223919	Sodium valproate 500 mg gastro-resistant oral tablet
+^ESCT1223920	Valproate sodium 500 mg gastro-resistant oral tablet
+^ESCT1249726	Sodium valproate 100mg tablets 30 tablet
+^ESCT1249727	Epilim 100mg crushable tablets (Sanofi) 30 tablet 3 x 10 tablets
+^ESCT1249728	Sodium valproate 200mg gastro-resistant tablets 30 tablet
+^ESCT1249729	Epilim 200 gastro-resistant tablets (Sanofi) 30 tablet 3 x 10 tablets
+^ESCT1249730	Sodium valproate 500mg gastro-resistant tablets 30 tablet
+^ESCT1249731	Epilim 500 gastro-resistant tablets (Sanofi) 30 tablet 3 x 10 tablets
+^ESCT1249775	Sodium valproate 200mg modified-release tablets 30 tablet
+^ESCT1249776	Epilim Chrono 200 tablets (Sanofi) 30 tablet 3 x 10 tablets
+^ESCT1249777	Sodium valproate 300mg modified-release tablets 30 tablet
+^ESCT1249778	Epilim Chrono 300 tablets (Sanofi) 30 tablet 3 x 10 tablets
+^ESCT1249779	Sodium valproate 500mg modified-release tablets 30 tablet
+^ESCT1249780	Epilim Chrono 500 tablets (Sanofi) 30 tablet 3 x 10 tablets
+^ESCT1255672	Sodium valproate 60mg/5ml oral suspension 1 ml
+^ESCT1255673	Sodium valproate 60mg/5ml oral suspension (Special Order)
+^ESCT1255674	Sodium valproate 60mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1255780	Sodium valproate 60mg/5ml oral suspension
+^ESCT1259716	Sodium valproate 400mg powder and solvent for solution for injection vials (Kent Pharmaceuticals Ltd)
+^ESCT1259718	Sodium valproate 400mg powder and solvent for solution for injection vials (Kent Pharmaceuticals Ltd) 4 vial
+^ESCT1265855	Sodium valproate 200mg/5ml oral solution sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCT1265856	Sodium valproate 200mg/5ml oral solution sugar free (Mawdsley-Brooks & Company Ltd) 300 ml
+^ESCT1268317	Epival CR 300mg tablets (Healthcare Pharma Ltd)
+^ESCT1268318	Epival CR 300mg tablets (Healthcare Pharma Ltd) 100 tablet
+^ESCT1268319	Epival CR 500mg tablets (Healthcare Pharma Ltd)
+^ESCT1268320	Epival CR 500mg tablets (Healthcare Pharma Ltd) 100 tablet
+^ESCT1275639	Sodium valproate 200mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1275640	Sodium valproate 200mg/5ml oral solution sugar free (DE Pharmaceuticals) 300 ml
+^ESCT1279621	Sodium valproate 500mg gastro-resistant tablets (Wockhardt UK Ltd) 30 tablet 3 x 10 tablets
+^ESCT1279632	Sodium valproate 200mg gastro-resistant tablets (Wockhardt UK Ltd) 30 tablet 3 x 10 tablets
+^ESCT1304619	Epival CR 300mg tablets (Healthcare Pharma Ltd) 30 tablet
+^ESCT1304620	Epival CR 500mg tablets (Healthcare Pharma Ltd) 30 tablet
+^ESCT1306821	Sodium valproate 200mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet 10 x 10 tablets
+^ESCT1306822	Sodium valproate 500mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet 10 x 10 tablets
+^ESCT1376245	Dyzantil 200mg modified-release tablets (Aspire Pharma Ltd)
+^ESCT1376246	Dyzantil 200mg modified-release tablets (Aspire Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCT1376250	Dyzantil 300mg modified-release tablets (Aspire Pharma Ltd)
+^ESCT1376251	Dyzantil 300mg modified-release tablets (Aspire Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCT1376254	Dyzantil 500mg modified-release tablets (Aspire Pharma Ltd)
+^ESCT1376255	Dyzantil 500mg modified-release tablets (Aspire Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCT1402838	Sodium valproate 100mg tablets
+^ESCT1402842	Sodium valproate 200mg modified-release tablets
+^ESCT1402843	Sodium valproate 300mg modified-release tablets
+^ESCT1402844	Sodium valproate 500mg modified-release tablets
+^ESCT1421687	Sodium valproate 200mg gastro-resistant tablets (Zentiva Pharma UK Ltd)
+^ESCT1421772	Sodium valproate 200mg/5ml oral solution sugar free (Zentiva Pharma UK Ltd)
+^ESCT1421774	Sodium valproate 500mg gastro-resistant tablets (Zentiva Pharma UK Ltd)
+^ESCT1421946	Sodium valproate 200mg gastro-resistant tablets (Zentiva Pharma UK Ltd) 100 tablet
+^ESCT1421947	Sodium valproate 500mg gastro-resistant tablets (Zentiva Pharma UK Ltd) 100 tablet
+^ESCT1421948	Sodium valproate 200mg/5ml oral solution sugar free (Zentiva Pharma UK Ltd) 300 ml
+^ESCT1425730	Sodium valproate 500mg gastro-resistant tablets (Kent Pharma (UK) Ltd)
+^ESCT1425822	Sodium valproate 200mg gastro-resistant tablets (Kent Pharma (UK) Ltd)
+^ESCT1425903	Sodium valproate 200mg/5ml oral solution sugar free (Kent Pharma (UK) Ltd)
+^ESCT1426365	Sodium valproate 200mg gastro-resistant tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1426366	Sodium valproate 500mg gastro-resistant tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1426368	Sodium valproate 200mg/5ml oral solution sugar free (Kent Pharma (UK) Ltd) 300 ml
+^ESCT1428031	Sodium valproate 400mg powder and solvent for solution for injection vials (Kent Pharma (UK) Ltd)
+^ESCT1428032	Sodium valproate 400mg powder and solvent for solution for injection vials (Kent Pharma (UK) Ltd) 4 vial
+^ESCTEP803142	Epilim 200mg/5ml liquid (Sanofi)
+^ESCTEP816791	Epilim 500 gastro-resistant tablets (Sanofi)
+^ESCTEP818635	Epilim Chrono 200 tablets (Sanofi)
+^ESCTEP819960	Epilim 100mg crushable tablets (Sanofi)
+^ESCTEP822921	Epilim Chrono 500 tablets (Sanofi)
+^ESCTEP824875	Epilim Chrono 300 tablets (Sanofi)
+^ESCTEP831159	Epilim 200 gastro-resistant tablets (Sanofi)
+^ESCTEP831296	Epilim 200mg/5ml syrup (Sanofi)
+^ESCTEP855070	Epilim 200mg/5ml syrup (Sanofi) 300 ml
+^ESCTEP855082	Epilim 200mg/5ml liquid (Sanofi) 300 ml
+^ESCTEP855280	Epilim 100mg crushable tablets (Sanofi) 100 tablet 10 x 10 tablets
+^ESCTEP855281	Epilim 200 gastro-resistant tablets (Sanofi) 100 tablet 10 x 10 tablets
+^ESCTEP855282	Epilim 500 gastro-resistant tablets (Sanofi) 100 tablet 10 x 10 tablets
+^ESCTEP855287	Epilim Chrono 200 tablets (Sanofi) 100 tablet 10 x 10 tablets
+^ESCTEP855291	Epilim Chrono 300 tablets (Sanofi) 100 tablet 10 x 10 tablets
+^ESCTEP855294	Epilim Chrono 500 tablets (Sanofi) 100 tablet 10 x 10 tablets
+^ESCTEP869243	Epilim Intravenous 400mg powder and solvent for solution for injection vials (Sanofi)
+^ESCTEP869245	Epilim Intravenous 400mg powder and solvent for solution for injection vials (Sanofi) 1 vial
+^ESCTEP872591	Epival CR 300mg tablets (Chanelle Medical UK Ltd)
+^ESCTEP872592	Epival CR 300mg tablets (Chanelle Medical UK Ltd) 100 tablet
+^ESCTEP872593	Epival CR 500mg tablets (Chanelle Medical UK Ltd)
+^ESCTEP872594	Epival CR 500mg tablets (Chanelle Medical UK Ltd) 100 tablet
+^ESCTEP935932	Episenta 300mg/3ml solution for injection ampoules (Desitin Pharma Ltd)
+^ESCTEP935934	Episenta 300mg/3ml solution for injection ampoules (Desitin Pharma Ltd) 5 ampoule
+^ESCTEP940118	Episenta 150mg modified-release capsules (Desitin Pharma Ltd)
+^ESCTEP940120	Episenta 150mg modified-release capsules (Desitin Pharma Ltd) 100 capsule
+^ESCTEP940124	Episenta 300mg modified-release capsules (Desitin Pharma Ltd)
+^ESCTEP940126	Episenta 300mg modified-release capsules (Desitin Pharma Ltd) 100 capsule
+^ESCTEP940130	Episenta 500mg modified-release granules sachets (Desitin Pharma Ltd)
+^ESCTEP940131	Episenta 500mg modified-release granules sachets (Desitin Pharma Ltd) 100 sachet
+^ESCTEP940134	Episenta 1000mg modified-release granules sachets (Desitin Pharma Ltd)
+^ESCTEP940135	Episenta 1000mg modified-release granules sachets (Desitin Pharma Ltd) 100 sachet
+^ESCTEP959333	Episenta 1g/10ml solution for injection ampoules (Beacon Pharmaceuticals Ltd)
+^ESCTEP959334	Episenta 1g/10ml solution for injection ampoules (Beacon Pharmaceuticals Ltd) 5 ampoule
+^ESCTEP964681	Epilim Chronosphere MR 100mg granules sachets (Sanofi)
+^ESCTEP964682	Epilim Chronosphere MR 100mg granules sachets (Sanofi) 30 sachet
+^ESCTEP964684	Epilim Chronosphere MR 250mg granules sachets (Sanofi)
+^ESCTEP964685	Epilim Chronosphere MR 250mg granules sachets (Sanofi) 30 sachet
+^ESCTEP964686	Epilim Chronosphere MR 500mg granules sachets (Sanofi)
+^ESCTEP964688	Epilim Chronosphere MR 500mg granules sachets (Sanofi) 30 sachet
+^ESCTEP964690	Epilim Chronosphere MR 750mg granules sachets (Sanofi)
+^ESCTEP964691	Epilim Chronosphere MR 750mg granules sachets (Sanofi) 30 sachet
+^ESCTEP964693	Epilim Chronosphere MR 50mg granules sachets (Sanofi)
+^ESCTEP964694	Epilim Chronosphere MR 50mg granules sachets (Sanofi) 30 sachet
+^ESCTEP981648	Epilim Chronosphere MR 1000mg granules sachets (Sanofi)
+^ESCTEP981649	Epilim Chronosphere MR 1000mg granules sachets (Sanofi) 30 sachet
+^ESCTOR806815	Orlept 500mg gastro-resistant tablets (Wockhardt UK Ltd)
+^ESCTOR819030	Orlept 200mg gastro-resistant tablets (Wockhardt UK Ltd)
+^ESCTOR830391	Orlept SF 200mg/5ml liquid (Wockhardt UK Ltd)
+^ESCTOR855040	Orlept 200mg gastro-resistant tablets (Wockhardt UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTOR855058	Orlept 500mg gastro-resistant tablets (Wockhardt UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTOR855300	Orlept SF 200mg/5ml liquid (Wockhardt UK Ltd) 300 ml
+^ESCTSO1021968	Sodium valproate 200mg/5ml oral solution sugar free (Wockhardt UK Ltd)
+^ESCTSO1021971	Sodium valproate 200mg/5ml oral solution sugar free (Wockhardt UK Ltd) 300 ml
+^ESCTSO1022042	Sodium valproate 500mg gastro-resistant tablets (Wockhardt UK Ltd)
+^ESCTSO1022043	Sodium valproate 500mg gastro-resistant tablets (Wockhardt UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTSO1022044	Sodium valproate 200mg gastro-resistant tablets (Wockhardt UK Ltd)
+^ESCTSO1022045	Sodium valproate 200mg gastro-resistant tablets (Wockhardt UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTSO1024391	Sodium valproate 500mg/5ml oral suspension 1 ml
+^ESCTSO1024392	Sodium valproate 500mg/5ml oral suspension (Special Order)
+^ESCTSO1024393	Sodium valproate 500mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSO1024532	Sodium valproate 100mg suppositories
+^ESCTSO1024533	Sodium valproate 100mg suppositories 1 suppository
+^ESCTSO1024534	Sodium valproate 100mg suppositories (Special Order)
+^ESCTSO1024535	Sodium valproate 100mg suppositories (Special Order) 1 suppository
+^ESCTSO1024656	Sodium valproate 500mg/5ml oral suspension
+^ESCTSO1042555	Sodium valproate 200mg gastro-resistant tablets (Waymade Healthcare Plc)
+^ESCTSO1042556	Sodium valproate 200mg gastro-resistant tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTSO1042557	Sodium valproate 500mg gastro-resistant tablets (Waymade Healthcare Plc)
+^ESCTSO1042558	Sodium valproate 500mg gastro-resistant tablets (Waymade Healthcare Plc) 100 tablet
+^ESCTSO1049499	Sodium valproate 400mg/4ml solution for injection ampoules 5 ampoule
+^ESCTSO1049500	Sodium valproate 400mg/4ml solution for injection ampoules (Wockhardt UK Ltd)
+^ESCTSO1049501	Sodium valproate 400mg/4ml solution for injection ampoules (Wockhardt UK Ltd) 5 ampoule
+^ESCTSO1049550	Sodium valproate 400mg/4ml solution for injection ampoules
+^ESCTSO1049714	Sodium valproate 400mg/4ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTSO1049715	Sodium valproate 400mg/4ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 5 ampoule
+^ESCTSO1118364	Sodium valproate 400mg powder and solvent for solution for injection vials 4 vial
+^ESCTSO1118369	Sodium valproate 400mg powder and solvent for solution for injection vials (A A H Pharmaceuticals Ltd)
+^ESCTSO1118370	Sodium valproate 400mg powder and solvent for solution for injection vials (A A H Pharmaceuticals Ltd) 4 vial
+^ESCTSO1127587	Sodium valproate 200mg gastro-resistant tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTSO1127588	Sodium valproate 200mg gastro-resistant tablets (Mawdsley-Brooks & Company Ltd) 100 tablet
+^ESCTSO610679	Sodium valproate 200mg gastro-resistant tablets
+^ESCTSO610680	Sodium valproate 200mg e/c tablet
+^ESCTSO610681	Sodium valproate 200mg gastro-resistant tablet
+^ESCTSO610682	Sodium valproate 500mg gastro-resistant tablets
+^ESCTSO610683	Sodium valproate 500mg e/c tablet
+^ESCTSO610684	Sodium valproate 500mg gastro-resistant tablet
+^ESCTSO799016	Sodium valproate 500mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTSO802495	Sodium valproate 500mg gastro-resistant tablets (Teva UK Ltd)
+^ESCTSO803619	Sodium valproate 200mg gastro-resistant tablets (Actavis UK Ltd)
+^ESCTSO803730	Sodium valproate 100mg tablets (Mylan Ltd)
+^ESCTSO803817	Sodium valproate 200mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTSO805306	Sodium valproate 200mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTSO805368	Sodium valproate 500mg gastro-resistant tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTSO806787	Sodium valproate 500mg gastro-resistant tablets (Mylan Ltd)
+^ESCTSO808995	Sodium valproate 200mg gastro-resistant tablets (Zentiva)
+^ESCTSO817634	Sodium valproate 200mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
+^ESCTSO819831	Sodium valproate 200mg/5ml oral solution sugar free (IVAX Pharmaceuticals UK Ltd)
+^ESCTSO819976	Sodium valproate 500mg gastro-resistant tablets (Kent Pharmaceuticals Ltd)
+^ESCTSO820186	Sodium valproate 200mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTSO820295	Sodium valproate 200mg gastro-resistant tablets (Teva UK Ltd)
+^ESCTSO820794	Sodium valproate 500mg gastro-resistant tablets (Actavis UK Ltd)
+^ESCTSO822861	Sodium valproate 200mg/5ml oral solution sugar free (Zentiva)
+^ESCTSO823237	Sodium valproate 500mg gastro-resistant tablets (Zentiva)
+^ESCTSO823338	Sodium valproate 200mg gastro-resistant tablets (Kent Pharmaceuticals Ltd)
+^ESCTSO824368	Sodium valproate 500mg gastro-resistant tablets (A A H Pharmaceuticals Ltd)
+^ESCTSO830705	Sodium valproate 200mg gastro-resistant tablets (Mylan Ltd)
+^ESCTSO831913	Sodium valproate 200mg/5ml oral solution sugar free (Kent Pharmaceuticals Ltd)
+^ESCTSO833452	Sodium valproate 200mg gastro-resistant tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTSO834656	Sodium valproate 500mg gastro-resistant tablets 100 tablet
+^ESCTSO835321	Sodium valproate 300mg modified-release tablets 100 tablet
+^ESCTSO840818	Sodium valproate 200mg gastro-resistant tablets 100 tablet
+^ESCTSO847197	Sodium valproate 200mg/5ml oral solution 300 ml
+^ESCTSO847360	Sodium valproate 200mg modified-release tablets 100 tablet
+^ESCTSO847749	Sodium valproate 500mg modified-release tablets 100 tablet
+^ESCTSO848614	Sodium valproate 200mg/5ml oral solution sugar free 300 ml
+^ESCTSO848770	Sodium valproate 100mg tablets 100 tablet
+^ESCTSO855034	Sodium valproate 100mg tablets (Mylan Ltd) 100 tablet 10 x 10 tablets
+^ESCTSO855036	Sodium valproate 200mg gastro-resistant tablets (A A H Pharmaceuticals Ltd) 100 tablet 10 x 10 tablets
+^ESCTSO855037	Sodium valproate 200mg gastro-resistant tablets (Actavis UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTSO855038	Sodium valproate 200mg gastro-resistant tablets (Teva UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTSO855041	Sodium valproate 200mg gastro-resistant tablets (Mylan Ltd) 100 tablet 10 x 10 tablets
+^ESCTSO855048	Sodium valproate 200mg gastro-resistant tablets (IVAX Pharmaceuticals UK Ltd) 100 tablet
+^ESCTSO855050	Sodium valproate 200mg gastro-resistant tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTSO855052	Sodium valproate 200mg gastro-resistant tablets (Zentiva) 100 tablet
+^ESCTSO855054	Sodium valproate 200mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTSO855055	Sodium valproate 500mg gastro-resistant tablets (A A H Pharmaceuticals Ltd) 100 tablet 10 x 10 tablets
+^ESCTSO855056	Sodium valproate 500mg gastro-resistant tablets (Actavis UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTSO855057	Sodium valproate 500mg gastro-resistant tablets (Teva UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTSO855060	Sodium valproate 500mg gastro-resistant tablets (Mylan Ltd) 100 tablet 10 x 10 tablets
+^ESCTSO855061	Sodium valproate 500mg gastro-resistant tablets (IVAX Pharmaceuticals UK Ltd) 100 tablet
+^ESCTSO855062	Sodium valproate 500mg gastro-resistant tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTSO855063	Sodium valproate 500mg gastro-resistant tablets (Zentiva) 100 tablet
+^ESCTSO855064	Sodium valproate 500mg gastro-resistant tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTSO855077	Sodium valproate 200mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 300 ml
+^ESCTSO855079	Sodium valproate 200mg/5ml oral solution sugar free (IVAX Pharmaceuticals UK Ltd) 300 ml
+^ESCTSO855081	Sodium valproate 200mg/5ml oral solution sugar free (Kent Pharmaceuticals Ltd) 300 ml
+^ESCTSO855083	Sodium valproate 200mg/5ml oral solution sugar free (Zentiva) 300 ml
+^ESCTSO855084	Sodium valproate 200mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 300 ml
+^ESCTSO869242	Sodium valproate 400mg powder and solvent for solution for injection vials 1 vial
+^ESCTSO909782	Sodium valproate 300mg suppositories 1 suppository
+^ESCTSO909783	Sodium valproate 300mg suppositories (Special Order)
+^ESCTSO909784	Sodium valproate 300mg suppositories (Special Order) 1 suppository
+^ESCTSO909854	Sodium valproate 300mg suppositories
+^ESCTSO929091	Sodium valproate 200mg gastro-resistant tablets (Arrow Generics Ltd)
+^ESCTSO929092	Sodium valproate 200mg gastro-resistant tablets (Arrow Generics Ltd) 100 tablet
+^ESCTSO929093	Sodium valproate 500mg gastro-resistant tablets (Arrow Generics Ltd)
+^ESCTSO929094	Sodium valproate 500mg gastro-resistant tablets (Arrow Generics Ltd) 100 tablet
+^ESCTSO931217	Sodium valproate 200mg/5ml oral solution sugar free (Teva UK Ltd)
+^ESCTSO931218	Sodium valproate 200mg/5ml oral solution sugar free (Teva UK Ltd) 300 ml
+^ESCTSO935930	Sodium valproate 300mg/3ml solution for injection ampoules 5 ampoule
+^ESCTSO936192	Sodium valproate 300mg/3ml solution for injection ampoules
+^ESCTSO940108	Sodium valproate 150mg modified-release capsules
+^ESCTSO940110	Sodium valproate 300mg modified-release capsules
+^ESCTSO940112	Sodium valproate 500mg modified-release granules sachets sugar free
+^ESCTSO940114	Sodium valproate 1g modified-release granules sachets sugar free
+^ESCTSO940116	Sodium valproate 150mg modified-release capsules 100 capsule
+^ESCTSO940122	Sodium valproate 300mg modified-release capsules 100 capsule
+^ESCTSO940128	Sodium valproate 500mg modified-release granules sachets sugar free 100 sachet
+^ESCTSO940133	Sodium valproate 1g modified-release granules sachets sugar free 100 sachet
+^ESCTSO959332	Sodium valproate 1g/10ml solution for injection ampoules 5 ampoule
+^ESCTSO959355	Sodium valproate 1g/10ml solution for injection ampoules
+^ESCTSO961083	Sodium valproate 10mg/5ml oral solution 1 ml
+^ESCTSO961085	Sodium valproate 10mg/5ml oral solution (Special Order)
+^ESCTSO961086	Sodium valproate 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTSO961089	Sodium valproate 125mg/5ml oral solution 1 ml
+^ESCTSO961091	Sodium valproate 125mg/5ml oral solution (Special Order)
+^ESCTSO961093	Sodium valproate 125mg/5ml oral solution (Special Order) 1 ml
+^ESCTSO961095	Sodium valproate 20mg/5ml oral solution 1 ml
+^ESCTSO961096	Sodium valproate 20mg/5ml oral solution (Special Order)
+^ESCTSO961097	Sodium valproate 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTSO961098	Sodium valproate 500mg/5ml oral solution 1 ml
+^ESCTSO961099	Sodium valproate 500mg/5ml oral solution (Special Order)
+^ESCTSO961100	Sodium valproate 500mg/5ml oral solution (Special Order) 1 ml
+^ESCTSO961104	Sodium valproate 600mg/5ml oral solution 1 ml
+^ESCTSO961105	Sodium valproate 600mg/5ml oral solution (Special Order)
+^ESCTSO961106	Sodium valproate 600mg/5ml oral solution (Special Order) 1 ml
+^ESCTSO961107	Sodium valproate 60mg/5ml oral solution 1 ml
+^ESCTSO961108	Sodium valproate 60mg/5ml oral solution (Special Order)
+^ESCTSO961109	Sodium valproate 60mg/5ml oral solution (Special Order) 1 ml
+^ESCTSO961110	Sodium valproate 75mg/5ml oral solution 1 ml
+^ESCTSO961111	Sodium valproate 75mg/5ml oral solution (Special Order)
+^ESCTSO961112	Sodium valproate 75mg/5ml oral solution (Special Order) 1 ml
+^ESCTSO961113	Sodium valproate 90mg/5ml oral solution 1 ml
+^ESCTSO961114	Sodium valproate 90mg/5ml oral solution (Special Order)
+^ESCTSO961115	Sodium valproate 90mg/5ml oral solution (Special Order) 1 ml
+^ESCTSO961148	Sodium valproate 10mg/5ml oral solution
+^ESCTSO961149	Sodium valproate 125mg/5ml oral solution
+^ESCTSO961150	Sodium valproate 20mg/5ml oral solution
+^ESCTSO961151	Sodium valproate 500mg/5ml oral solution
+^ESCTSO961152	Sodium valproate 600mg/5ml oral solution
+^ESCTSO961153	Sodium valproate 60mg/5ml oral solution
+^ESCTSO961154	Sodium valproate 75mg/5ml oral solution
+^ESCTSO961155	Sodium valproate 90mg/5ml oral solution
+^ESCTSO964680	Sodium valproate 100mg modified-release granules sachets sugar free 30 sachet
+^ESCTSO964683	Sodium valproate 250mg modified-release granules sachets sugar free 30 sachet
+^ESCTSO964687	Sodium valproate 500mg modified-release granules sachets sugar free 30 sachet
+^ESCTSO964689	Sodium valproate 750mg modified-release granules sachets sugar free 30 sachet
+^ESCTSO964692	Sodium valproate 50mg modified-release granules sachets sugar free 30 sachet
+^ESCTSO965185	Sodium valproate 100mg modified-release granules sachets sugar free
+^ESCTSO965186	Sodium valproate 250mg modified-release granules sachets sugar free
+^ESCTSO965187	Sodium valproate 50mg modified-release granules sachets sugar free
+^ESCTSO965188	Sodium valproate 750mg modified-release granules sachets sugar free
+^ESCTSO981647	Sodium valproate 1g modified-release granules sachets sugar free 30 sachet
+DEOR126931NEMIS	Depakin  Oral solution  200 mg/ml
+DYM/137971NEMIS	Dyzantil  M/R tablets  200 mg
+DYM/137972NEMIS	Dyzantil  M/R tablets  300 mg
+DYM/137973NEMIS	Dyzantil  M/R tablets  500 mg
+EPIN9474HILLI	Epilim Intravenous  Injection  400 mg/vial
+EPLI1088	Epilim  Sugar-free liquid  200 mg/5 ml
+EPM/13811NEMIS	Epival Cr  M/R tablets  500 mg
+EPM/13812NEMIS	Epival Cr  M/R tablets  300 mg
+EPM/23960EMIS	Epilim Chrono  M/R tablets  200 mg
+EPM/23961EMIS	Epilim Chrono  M/R tablets  300 mg
+EPM/23962EMIS	Epilim Chrono  M/R tablets  500 mg
+EPM/25450NEMIS	Episenta  M/R capsules  150 mg
+EPM/25452NEMIS	Episenta  M/R capsules  300 mg
+EPM/25458NEMIS	Episenta  M/R granules  500 mg
+EPM/25459NEMIS	Episenta  M/R granules  1 gram
+EPM/30463NEMIS	Epilim Chronosphere  M/R granules  50 mg
+EPM/30464NEMIS	Epilim Chronosphere  M/R granules  100 mg
+EPM/30465NEMIS	Epilim Chronosphere  M/R granules  250 mg
+EPM/30466NEMIS	Epilim Chronosphere  M/R granules  500 mg
+EPM/30467NEMIS	Epilim Chronosphere  M/R granules  750 mg
+EPM/36261NEMIS	Epilim Chronosphere  M/R granules  1 gram
+EPSO23849NEMIS	Episenta  Solution for injection  100 mg/ml, 3 ml ampoule
+EPSO29103NEMIS	Episenta  Solution for injection  100 mg/ml, 10 ml ampoule
+EPSY1089	Epilim  Syrup  200 mg/5 ml
+EPTA1090	Epilim  Crushable tablets  100 mg
+EPTA1091	Epilim  E/c tablets  200 mg
+EPTA1092	Epilim  E/c tablets  500 mg
+ORSU35093EMIS	Orlept  Sugar-free oral solution  200 mg/5 ml
+ORTA35094EMIS	Orlept  E/c tablets  200 mg
+ORTA35095EMIS	Orlept  E/c tablets  500 mg
+SOCR37030MGEMIS	Sodium Valproate  Crushable tablets  100 mg (Generics (UK))
+SOE/37031MGEMIS	Sodium Valproate  E/c tablets  200 mg (Alpharma)
+SOE/37032MGEMIS	Sodium Valproate  E/c tablets  200 mg (Unichem)
+SOE/37033MGEMIS	Sodium Valproate  E/c tablets  200 mg (Winthrop Pharmaceuticals )
+SOE/37034MGEMIS	Sodium Valproate  E/c tablets  200 mg (A.A.H. Pharm)
+SOE/37035MGEMIS	Sodium Valproate  E/c tablets  200 mg (Teva UK)
+SOE/37036MGEMIS	Sodium Valproate  E/c tablets  200 mg (Kent Pharm)
+SOE/37037MGEMIS	Sodium Valproate  E/c tablets  200 mg (Generics (UK))
+SOE/37038MGEMIS	Sodium Valproate  E/c tablets  200 mg (Ivax Pharmaceuticals)
+SOE/37039MGEMIS	Sodium Valproate  E/c tablets  500 mg (Unichem)
+SOE/37040MGEMIS	Sodium Valproate  E/c tablets  500 mg (Teva UK)
+SOE/37041MGEMIS	Sodium Valproate  E/c tablets  500 mg (Ivax Pharmaceuticals)
+SOE/37042MGEMIS	Sodium Valproate  E/c tablets  500 mg (Generics (UK))
+SOE/37043MGEMIS	Sodium Valproate  E/c tablets  500 mg (Kent Pharm)
+SOE/37044MGEMIS	Sodium Valproate  E/c tablets  500 mg (Alpharma)
+SOE/37045MGEMIS	Sodium Valproate  E/c tablets  500 mg (Winthrop Pharmaceuticals )
+SOE/37046MGEMIS	Sodium Valproate  E/c tablets  500 mg (A.A.H. Pharm)
+SOIN9907HILLI	Sodium Valproate  Injection  400 mg/vial
+SOM/23966EMIS	Sodium Valproate  M/R tablets  200 mg
+SOM/23967EMIS	Sodium Valproate  M/R tablets  300 mg
+SOM/23968EMIS	Sodium Valproate  M/R tablets  500 mg
+SOM/25447NEMIS	Sodium Valproate  M/R capsules  150 mg
+SOM/25449NEMIS	Sodium Valproate  M/R capsules  300 mg
+SOM/25456NEMIS	Sodium Valproate  M/R Granules Sugar Free  500 mg
+SOM/25457NEMIS	Sodium Valproate  M/R Granules Sugar Free  1 gram
+SOM/30458NEMIS	Sodium Valproate  M/R Granules Sugar Free  100 mg
+SOM/30459NEMIS	Sodium Valproate  M/R Granules Sugar Free  250 mg
+SOM/30460NEMIS	Sodium Valproate  M/R Granules Sugar Free  50 mg
+SOM/30461NEMIS	Sodium Valproate  M/R Granules Sugar Free  750 mg
+SOOR22594NEMIS	Sodium Valproate  Oral suspension  500 mg/5 ml
+SOOR26540EMIS	Sodium Valproate  Oral solution  200 mg/5 ml
+SOSO23847NEMIS	Sodium Valproate  Solution for injection  100 mg/ml, 3 ml ampoule
+SOSO29102NEMIS	Sodium Valproate  Solution for injection  100 mg/ml, 10 ml ampoule
+SOSO82052NEMIS	Sodium Valproate  Solution for injection  100 mg/ml, 4 ml ampoule
+SOSU18422NEMIS	Sodium Valproate  Suppositories  300 mg
+SOSU18423NEMIS	Sodium Valproate  Suppositories  100 mg
+SOSU26541EMIS	Sodium Valproate  Sugar-free oral solution  200 mg/5 ml
+SOSU37021MGEMIS	Sodium Valproate  Sugar-free oral solution  200 mg/5 ml (A.A.H. Pharm)
+SOSU37022MGEMIS	Sodium Valproate  Sugar-free oral solution  200 mg/5 ml (Ivax Pharmaceuticals)
+SOSU37023MGEMIS	Sodium Valproate  Sugar-free oral solution  200 mg/5 ml (Unichem)
+SOSU37024MGEMIS	Sodium Valproate  Sugar-free oral solution  200 mg/5 ml (Winthrop Pharmaceuticals )
+SOSU37025MGEMIS	Sodium Valproate  Sugar-free oral solution  200 mg/5 ml (Kent Pharm)
+SOTA2629	Sodium Valproate  Crushable tablets  100 mg
+SOTA2630	Sodium Valproate  E/c tablets  200 mg
+SOTA2631	Sodium Valproate  E/c tablets  500 mg

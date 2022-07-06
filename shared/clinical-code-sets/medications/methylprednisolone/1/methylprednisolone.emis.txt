@@ -1,0 +1,44 @@
+^ESCT1178738	Product containing only methylprednisolone 100 mg/1 each oral tablet
+^ESCT1178739	Product containing only methylprednisolone 4 mg/1 each oral tablet
+^ESCT1182167	Product containing only methylprednisolone 16 mg/1 each oral tablet
+^ESCT1188187	Product containing only methylprednisolone 2 mg/1 each oral tablet
+^ESCT1224652	Product containing precisely methylprednisolone 100 milligram/1 each conventional release oral tablet
+^ESCT1224653	Product containing precisely methylprednisolone 2 milligram/1 each conventional release oral tablet
+^ESCT1224654	Product containing precisely methylprednisolone 4 milligram/1 each conventional release oral tablet
+^ESCT1224655	Product containing precisely methylprednisolone 16 milligram/1 each conventional release oral tablet
+^ESCTME612566	Methylprednisolone 100mg tablets
+^ESCTME612568	Methylprednisolone 100 mg oral tablet
+^ESCTME612569	Methylprednisolone 2mg tablets
+^ESCTME612571	Methylprednisolone 2 mg oral tablet
+^ESCTME612572	Methylprednisolone 4mg tablets
+^ESCTME612574	Methylprednisolone 4 mg oral tablet
+^ESCTME612575	Methylprednisolone 16mg tablets
+^ESCTME612577	Methylprednisolone 16 mg oral tablet
+^ESCTME866754	Methylprednisolone 2mg tablets 30 tablet
+^ESCTME866756	Medrone 2mg tablets (Pfizer Ltd)
+^ESCTME866758	Medrone 2mg tablets (Pfizer Ltd) 30 tablet 3 x 10 tablets
+^ESCTME866759	Methylprednisolone 4mg tablets 30 tablet
+^ESCTME866760	Medrone 4mg tablets (Pfizer Ltd)
+^ESCTME866761	Medrone 4mg tablets (Pfizer Ltd) 30 tablet 3 x 10 tablets
+^ESCTME866762	Methylprednisolone 16mg tablets 30 tablet
+^ESCTME866763	Medrone 16mg tablets (Pfizer Ltd)
+^ESCTME866764	Medrone 16mg tablets (Pfizer Ltd) 30 tablet 3 x 10 tablets
+^ESCTME866765	Methylprednisolone 100mg tablets 20 tablet
+^ESCTME866766	Medrone 100mg tablets (Pfizer Ltd)
+^ESCTME866767	Medrone 100mg tablets (Pfizer Ltd) 20 tablet 2 x 10 tablets
+^ESCTME957062	Methylprednisolone 1mg/5ml oral suspension 1 ml
+^ESCTME957063	Methylprednisolone 1mg/5ml oral suspension (Special Order)
+^ESCTME957064	Methylprednisolone 1mg/5ml oral suspension (Special Order) 1 ml
+^ESCTME957611	Methylprednisolone 1mg/5ml oral suspension
+^ESCTPR612567	Product containing methylprednisolone 100 mg/1 each oral tablet
+^ESCTPR612570	Product containing methylprednisolone 2 mg/1 each oral tablet
+^ESCTPR612573	Product containing methylprednisolone 4 mg/1 each oral tablet
+^ESCTPR612576	Product containing methylprednisolone 16 mg/1 each oral tablet
+META19829EMIS	Medrone  Tablets  100 mg
+META19831EMIS	Methylprednisolone  Tablets  100 mg
+META3886	Medrone  Tablets  16 mg
+META3887	Medrone  Tablets  2 mg
+META3888	Medrone  Tablets  4 mg
+META5147	Methylprednisolone  Tablets  16 mg
+META6974	Methylprednisolone  Tablets  2 mg
+META6975	Methylprednisolone  Tablets  4 mg

@@ -1,0 +1,174 @@
+321805008	Dosulepin 25mg capsules
+947111000001101	Dosulepin 25mg capsules
+1228711000001100	Dosulepin 25mg capsules
+1003111000001108	Dosulepin 25mg capsules
+1326311000001108	Dosulepin 25mg capsules
+254111000001108	Dosulepin 25mg capsules
+1443611000001104	Dosulepin 25mg capsules
+1443811000001100	Dosulepin 25mg capsules
+1443911000001105	Dosulepin 25mg capsules
+397111000001102	Dosulepin 25mg capsules
+1444011000001108	Dosulepin 25mg capsules
+148811000001109	Dosulepin 25mg capsules
+1444111000001109	Dosulepin 25mg capsules
+14911000001107	Dothapax 25 capsules
+1444311000001106	Dothapax 25 capsules
+397711000001101	Prepadine 25mg capsules
+1444611000001101	Prepadine 25mg capsules
+582911000001100	Dosulepin 25mg capsules
+1445111000001108	Dosulepin 25mg capsules
+1445211000001102	Dosulepin 25mg capsules
+1445311000001105	Dosulepin 25mg capsules
+496511000001101	Dosulepin 25mg capsules
+1445511000001104	Dosulepin 25mg capsules
+1445611000001100	Dosulepin 25mg capsules
+619511000001105	Dosulepin 25mg capsules
+1445711000001109	Dosulepin 25mg capsules
+1445911000001106	Dosulepin 25mg capsules
+1446111000001102	Dosulepin 25mg capsules
+208811000001101	Prothiaden 25mg capsules
+12660011000001106	Prothiaden 25mg capsules
+1446311000001100	Prothiaden 25mg capsules
+1446511000001106	Prothiaden 25mg capsules
+543311000001104	Dosulepin 25mg capsules
+1446811000001109	Dosulepin 25mg capsules
+398211000001107	Thaden 25mg capsules
+1447011000001100	Thaden 25mg capsules
+408611000001104	Dosulepin 25mg capsules
+1447511000001108	Dosulepin 25mg capsules
+459411000001103	Dosulepin 25mg capsules
+1447811000001106	Dosulepin 25mg capsules
+3703211000001106	Dosulepin 25mg capsules
+1448011000001104	Dosulepin 25mg capsules
+9792111000001105	Dosulepin 25mg capsules
+9792211000001104	Dosulepin 25mg capsules
+17197611000001101	Dosulepin 25mg capsules
+17197711000001105	Dosulepin 25mg capsules
+17893611000001101	Dosulepin 25mg capsules
+17893711000001105	Dosulepin 25mg capsules
+18281511000001104	Dosulepin 25mg capsules
+18281611000001100	Dosulepin 25mg capsules
+21932811000001107	Dosulepin 25mg capsules
+21932911000001102	Dosulepin 25mg capsules
+23880011000001107	Dosulepin 25mg capsules
+23880111000001108	Dosulepin 25mg capsules
+29834411000001102	Dosulepin 25mg capsules
+29834511000001103	Dosulepin 25mg capsules
+30122811000001100	Dosulepin 25mg capsules
+30122911000001105	Dosulepin 25mg capsules
+32797711000001103	Dosulepin 25mg capsules
+32798111000001103	Dosulepin 25mg capsules
+39328011000001101	Dosulepin 25mg capsules
+39328111000001100	Dosulepin 25mg capsules
+321806009	Dosulepin 75mg tablets
+1305411000001103	Dosulepin 75mg tablets
+1255211000001101	Dosulepin 75mg tablets
+62611000001108	Dosulepin 75mg tablets
+1448511000001107	Dosulepin 75mg tablets
+1448611000001106	Dosulepin 75mg tablets
+600711000001109	Dosulepin 75mg tablets
+1448911000001100	Dosulepin 75mg tablets
+241511000001103	Dosulepin 75mg tablets
+1449311000001107	Dosulepin 75mg tablets
+927011000001104	Dothapax 75 tablets
+1449511000001101	Dothapax 75 tablets
+329511000001107	Prepadine 75mg tablets
+1449911000001108	Prepadine 75mg tablets
+851011000001104	Dosulepin 75mg tablets
+1450011000001104	Dosulepin 75mg tablets
+1450211000001109	Dosulepin 75mg tablets
+344311000001104	Dosulepin 75mg tablets
+1450611000001106	Dosulepin 75mg tablets
+161411000001107	Dosulepin 75mg tablets
+1450811000001105	Dosulepin 75mg tablets
+1451011000001108	Dosulepin 75mg tablets
+733111000001103	Prothiaden 75mg tablets
+1451511000001100	Prothiaden 75mg tablets
+1451711000001105	Prothiaden 75mg tablets
+407811000001104	Dosulepin 75mg tablets
+1451911000001107	Dosulepin 75mg tablets
+709611000001101	Thaden 75mg tablets
+1452211000001105	Thaden 75mg tablets
+566611000001109	Dosulepin 75mg tablets
+1452711000001103	Dosulepin 75mg tablets
+918611000001104	Dosulepin 75mg tablets
+1452911000001101	Dosulepin 75mg tablets
+1453011000001109	Dosulepin 75mg tablets
+9792411000001100	Dosulepin 75mg tablets
+9792511000001101	Dosulepin 75mg tablets
+17197811000001102	Dosulepin 75mg tablets
+17197911000001107	Dosulepin 75mg tablets
+17893811000001102	Dosulepin 75mg tablets
+17893911000001107	Dosulepin 75mg tablets
+18281711000001109	Dosulepin 75mg tablets
+18281811000001101	Dosulepin 75mg tablets
+21933011000001105	Dosulepin 75mg tablets
+21933111000001106	Dosulepin 75mg tablets
+23880411000001103	Dosulepin 75mg tablets
+23880511000001104	Dosulepin 75mg tablets
+29834711000001108	Dosulepin 75mg tablets
+29834911000001105	Dosulepin 75mg tablets
+30123011000001102	Dosulepin 75mg tablets
+30123111000001101	Dosulepin 75mg tablets
+32799511000001101	Dosulepin 75mg tablets
+32799611000001102	Dosulepin 75mg tablets
+39237511000001102	Dosulepin 75mg tablets
+39237611000001103	Dosulepin 75mg tablets
+8454111000001103	Dosulepin 75mg/5ml oral solution
+8448511000001103	Dosulepin 75mg/5ml oral solution
+23390611000001103	Dosulepin 75mg/5ml oral solution
+8448611000001104	Dosulepin 75mg/5ml oral solution
+8448811000001100	Dosulepin 75mg/5ml oral solution
+23390711000001107	Dosulepin 75mg/5ml oral solution
+8454311000001101	Dosulepin 25mg/5ml oral solution
+8448711000001108	Dosulepin 25mg/5ml oral solution
+22245211000001102	Dosulepin 25mg/5ml oral solution
+8449011000001101	Dosulepin 25mg/5ml oral solution
+8449211000001106	Dosulepin 25mg/5ml oral solution
+22245311000001105	Dosulepin 25mg/5ml oral solution
+8454011000001104	Dosulepin 75mg/5ml oral suspension
+8449311000001103	Dosulepin 75mg/5ml oral suspension
+23390811000001104	Dosulepin 75mg/5ml oral suspension
+8449411000001105	Dosulepin 75mg/5ml oral suspension
+8449811000001107	Dosulepin 75mg/5ml oral suspension
+23390911000001109	Dosulepin 75mg/5ml oral suspension
+8454211000001109	Dosulepin 25mg/5ml oral suspension
+8449711000001104	Dosulepin 25mg/5ml oral suspension
+8449911000001102	Dosulepin 25mg/5ml oral suspension
+8450211000001101	Dosulepin 25mg/5ml oral suspension
+12082411000001106	Dosulepin 100mg/5ml oral solution
+12057111000001109	Dosulepin 100mg/5ml oral solution
+12057211000001103	Dosulepin 100mg/5ml oral solution
+12057311000001106	Dosulepin 100mg/5ml oral solution
+12082511000001105	Dosulepin 10mg/5ml oral solution
+12057611000001101	Dosulepin 10mg/5ml oral solution
+12057711000001105	Dosulepin 10mg/5ml oral solution
+12057811000001102	Dosulepin 10mg/5ml oral solution
+12082611000001109	Dosulepin 125mg/5ml oral solution
+12058111000001105	Dosulepin 125mg/5ml oral solution
+12058211000001104	Dosulepin 125mg/5ml oral solution
+12058411000001100	Dosulepin 125mg/5ml oral solution
+12082711000001100	Dosulepin 150mg/5ml oral solution
+12058511000001101	Dosulepin 150mg/5ml oral solution
+12058711000001106	Dosulepin 150mg/5ml oral solution
+12058911000001108	Dosulepin 150mg/5ml oral solution
+12082811000001108	Dosulepin 20mg/5ml oral solution
+12059011000001104	Dosulepin 20mg/5ml oral solution
+12059311000001101	Dosulepin 20mg/5ml oral solution
+12059411000001108	Dosulepin 20mg/5ml oral solution
+12082911000001103	Dosulepin 250mg/5ml oral solution
+12059711000001102	Dosulepin 250mg/5ml oral solution
+12059911000001100	Dosulepin 250mg/5ml oral solution
+12060111000001102	Dosulepin 250mg/5ml oral solution
+12083011000001106	Dosulepin 37.5mg/5ml oral solution
+12060311000001100	Dosulepin 37.5mg/5ml oral solution
+12060511000001106	Dosulepin 37.5mg/5ml oral solution
+12060611000001105	Dosulepin 37.5mg/5ml oral solution
+12083111000001107	Dosulepin 50mg/5ml oral solution
+12060811000001109	Dosulepin 50mg/5ml oral solution
+12061011000001107	Dosulepin 50mg/5ml oral solution
+12061111000001108	Dosulepin 50mg/5ml oral solution
+12083211000001101	Dosulepin 5mg/5ml oral solution
+12061611000001100	Dosulepin 5mg/5ml oral solution
+12061711000001109	Dosulepin 5mg/5ml oral solution
+12061811000001101	Dosulepin 5mg/5ml oral solution

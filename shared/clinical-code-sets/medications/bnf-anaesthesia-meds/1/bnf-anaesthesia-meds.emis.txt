@@ -1,0 +1,284 @@
+XYIN11093NEMIS	Xylocaine 2 %  Injection (cartridges)  with Adrenaline 1:80,000
+HYIN35442MGEMIS	Hyoscine  Injection  400 micrograms/ml, 1 ml ampoule (Ucb Pharma)
+ATIN3041NEMIS	Atropine Sulfate  Injection  300 micrograms/ml, 10 ml syringe
+EMCR9006EMIS	Emla  Cream  5 %
+PRIN6869	Propofol  Emulsion For Injection  10 mg/ml, 20 ml ampoule
+HYINEGTON6408	Hypnovel  Injection  10 mg/5 ml ampoule
+PREM130493NEMIS	Propoven  Emulsion For Infusion  2 %, 50 ml vial
+MIIN36053MGEMIS	Midazolam  Injection  10 mg/2 ml ampoule (Wockhardt UK)
+FEIN37874MGEMIS	Fentanyl Citrate  Injection  50 micrograms/ml, 2 ml ampoule (Martindale)
+PREM123760NEMIS	Propofol  Emulsion For Infusion  10 mg/ml, 100 ml vial
+LITO17732NEMIS	Lidocaine With Phenylephrine  Nasal spray  5 % + 0.5 %
+ATIN244	Atropine Sulfate  Injection  600 micrograms/ml, 1 ml ampoule
+ULIN31662EMIS	Ultiva  Powder For Solution For Injection  2 mg vial
+TRIN21656NEMIS	Tracrium  Solution for injection  10 mg/ml, 25 ml vial
+ATSO47255NEMIS	Atracurium Besilate  Solution for injection  10 mg/ml, 25 ml ampoule
+ROIN24766EMIS	Rocuronium Bromide  Solution for injection  100 mg/10 ml vial
+BUIN19848NEMIS	Bupivacaine And Glucose  Injection  20 mg/4 ml (0.5 %) + 320 mg/4 ml ampoule
+MISO128248NEMIS	Mini-Plasco Lidocaine  Solution for injection  1 %, 50 mg/5 ml ampoule
+LIGE38174MGEMIS	Lidocaine  Gel  2 % (A.A.H. Pharm)
+RAME29096NEMIS	Rapydan  Medicated Plaster  70 mg + 70 mg
+XYGE27367NEMIS	Xylonor  Gel  50 mg/gram + 1.5 mg/gram
+PLCR78266NEMIS	Pliaglis  Cream  70 mg/gram + 70 mg/gram
+MAINEGTON7311	Marcain  Solution for injection  0.25 %, 10 ml ampoule
+DIPR32224EMIS	Diprivan  Pre-Filled Syringe  20 mg/ml, 50 ml syringe
+LIGE38171MGEMIS	Lidocaine  Gel  1 % (AstraZeneca)
+FEIN15506NEMIS	Fentanyl Citrate  Solution for injection  50 micrograms/ml, 2 ml ampoule
+LISP17698NEMIS	Lidocaine  Spray  10 %, Sugar Free
+MIIN22336EMIS	Mivacurium Chloride  Solution for injection  20 mg/10 ml ampoule
+MIIN22335EMIS	Mivacurium Chloride  Solution for injection  10 mg/5 ml ampoule
+AMSO136020NEMIS	Ampres  Solution for injection  400 mg/20 ml vial
+NOINEGTON6423	Norcuron  Injection  10 mg/vial
+TRIN21655NEMIS	Tracrium  Solution for injection  10 mg/ml, 5 ml ampoule
+LIIN17713NEMIS	Lidocaine  Injection  2 %, 400 mg/20 ml ampoule
+NAIN30138EMIS	Naropin  Solution for injection  10 mg/ml, 10 ml ampoule
+TRIN21654NEMIS	Tracrium  Solution for injection  10 mg/ml, 2.5 ml ampoule
+TOIN9615EMIS	Toradol  Injection  30 mg/ml, 1 ml ampoule
+ATIN21651NEMIS	Atracurium Besilate  Solution for injection  10 mg/ml, 2.5 ml ampoule
+XYIN15512NEMIS	Xylocaine With Adrenaline  Solution for injection  1 % / 1:200 000, 20 ml vial
+SCSO21787NEMIS	Scandonest 2 % Special  Solution for injection  44 mg + 22 micrograms (1 in 100,000)/2.2 ml
+MIIN36049MGEMIS	Midazolam  Injection  10 mg/5 ml ampoule (Wockhardt UK)
+CIIN17865NEMIS	Cisatracurium Besilate  Solution for injection  150 mg/30 ml vial
+ORPE27244NEMIS	Oraqix  Periodontal Gel  25 mg/gram + 25 mg/gram, 1.7 gram cartridge
+KEIN15447NEMIS	Ketalar  Injection  10 mg/ml, 20 ml vial
+LICR19846NEMIS	Lidocaine And Prilocaine  Cream  2.5 % + 2.5 %
+LIOR17699NEMIS	Lidocaine  Oromucosal Solution  4 %, 4 ml vial
+LIOI17703NEMIS	Lidocaine  Ointment  5 %
+ENCY33569NEMIS	Entonox  Cylinder  Size D
+ATIN3036NEMIS	Atropine Sulfate  Injection  100 micrograms/ml, 30 ml syringe
+DIINEGTON6375	Diprivan  Emulsion For Injection  10 mg/ml, 20 ml ampoule
+DIPR32223EMIS	Diprivan  Pre-Filled Syringe  10 mg/ml, 50 ml syringe
+LIIN17709NEMIS	Lidocaine  Injection  1 %, 50 mg/5 ml ampoule
+PREM130662NEMIS	Propoven  Emulsion For Injection  1 %, 20 ml ampoule
+FLIN9511HILLI	Flumazenil  Injection  100 micrograms/ml, 5 ml ampoule
+BUIN76892NEMIS	Bufyl  Infusion  1 mg/ml + 2 micrograms/ml, 500 ml bag
+LIOI38178MGEMIS	Lidocaine  Ointment  5 % (A.A.H. Pharm)
+CHIN4166NEMIS	Chirocaine  Injection  5 mg/ml, 10 ml ampoule
+PRPR32235EMIS	Propofol  Emulsion For Infusion  10 mg/ml, 50 ml pre-filled syringe
+VEPO131593NEMIS	Vecuronium Bromide  Powder For Solution For Injection  10 mg vial
+PRIN37565MGEMIS	Propofol  Injection  10 mg/ml, 100 ml vial (Zurich Pharm)
+CISO78500NEMIS	Cisatracurium Besilate  Solution for injection  10 mg/5 ml vial
+ATIN3039NEMIS	Atropine Sulfate  Injection  200 micrograms/ml, 5 ml syringe
+ANIN9138HILLI	Anexate  Injection  100 micrograms/ml, 5 ml ampoule
+ROSO117670NEMIS	Rocuronium Bromide  Solution for injection  50 mg/5 ml ampoule
+MIIN36055MGEMIS	Midazolam  Injection  10 mg/2 ml ampoule (Phoenix)
+KEIN23472EMIS	Ketorolac Trometamol  Injection  10 mg/ml, 1 ml ampoule
+NICY33561NEMIS	Nitrous Oxide (Boc)  Cylinder  Size G
+MISO128254NEMIS	Mini-Plasco Lidocaine  Solution for injection  2 %, 200 mg/10 ml ampoule
+LICR31791NEMIS	Lidocaine  Cream  4 %
+BUIN134099NEMIS	Bupivacaine Hydrochloride  Infusion  (0.125 %) 312.5 mg/250 ml bag
+LITO17704NEMIS	Lidocaine  Topical solution  40 mg/ml
+MISO128249NEMIS	Mini-Plasco Lidocaine  Solution for injection  1 %, 200 mg/20 ml ampoule
+ROIN24767EMIS	Rocuronium Bromide  Solution for injection  50 mg/5 ml vial
+NICY33560NEMIS	Nitrous Oxide (Boc)  Cylinder  Size F
+MIOR139411NEMIS	NULL
+AMSO83176NEMIS	Ampres  Solution for injection  50 mg/5 ml ampoule
+MIIN22332EMIS	Mivacron  Solution for injection  20 mg/10 ml ampoule
+CISE26260NEMIS	Citanest 3% With Octapressin  Self-aspirating dental injection  1.8 ml cartridge
+ALSO21770NEMIS	Alfentanil  Solution for injection  500 micrograms/ml, 2 ml ampoule
+DECR85485NEMIS	Denela  Cream  5 %
+LISO28867NEMIS	Lignospan Special  Solution for injection  2 % + 12.5 micrograms/ml, 1.8 ml cartridge
+LIIN38183MGEMIS	Lidocaine  Injection  1 %, 10 ml ampoule (Unichem)
+LIGE38173MGEMIS	Lidocaine  Gel  1 % (Teva UK)
+HYINEGTON6359	Hypnomidate  Injection  2 mg/ml, 10 ml ampoule
+KEIN15448NEMIS	Ketalar  Injection  50 mg/ml, 10 ml vial
+HYINEGTON6409	Hypnovel  Injection  10 mg/2 ml ampoule
+KEIN15449NEMIS	Ketalar  Injection  100 mg/ml, 10 ml vial
+LEIN4164NEMIS	Levobupivacaine Hydrochloride  Injection  7.5 mg/ml (as base), 10 ml ampoule
+DYPO12890NEMIS	Dynastat  Powder with solvent for injection  20 mg/ml, 40 mg vial
+MIIN24300NEMIS	Min-I-Jet Atropine  Injection  500 micrograms/5 ml pre-filled syringe
+ULIN31661EMIS	Ultiva  Powder For Solution For Injection  1 mg vial
+LIOI38180MGEMIS	Lidocaine  Ointment  5 % (Teva UK)
+MAINEGTON7316	Marcain With Adrenaline 0.25%  Injection  10 ml ampoule
+ATIN33868MGEMIS	Atropine Sulfate  Injection  600 micrograms/ml, 1 ml ampoule (Phoenix)
+CIIN17868NEMIS	Cisatracurium Besilate  Injection  5 mg/2.5 ml ampoule
+MIIN36050MGEMIS	Midazolam  Injection  10 mg/5 ml ampoule (Unichem)
+ROIN30148EMIS	Ropivacaine Hydrochloride  Solution for injection  10 mg/ml, 10 ml ampoule
+MIOR139409NEMIS	NULL
+NIIN28213EMIS	Nimbex  Solution for injection  20 mg/10 ml ampoule
+KEIN15445NEMIS	Ketamine Hydrochloride  Injection  50 mg/ml, 10 ml vial
+LIIN38185MGEMIS	Lidocaine  Injection  2 %, 5 ml ampoule (A.A.H. Pharm)
+LIIN48379NEMIS	Lidocaine  Injection  1 %, 200 mg/20 ml vial
+REIN31669EMIS	Remifentanil Hydrochloride  Powder For Solution For Injection  5 mg vial
+REIN31667EMIS	Remifentanil Hydrochloride  Powder For Solution For Injection  1 mg vial
+PRIN16952NEMIS	Prilocaine Hydrochloride  Solution for injection  1 %, 50 ml multi-dose vial
+MISO128250NEMIS	Mini-Plasco Lidocaine  Solution for injection  2 %, 100 mg/5 ml ampoule
+NASO43584NEMIS	Naloxone Hydrochloride  Solution for injection  40 micrograms/2 ml ampoule
+HYIN35447MGEMIS	Hyoscine  Injection  600 micrograms/ml, 1 ml ampoule (Martindale)
+NEIN19850NEMIS	Neostigmine And Glycopyrronium Bromide  Injection  2.5 mg/ml + 500 micrograms/ml, 1 ml ampoule
+ATIN21653NEMIS	Atracurium Besilate  Solution for injection  10 mg/ml, 25 ml vial
+PREM123761NEMIS	Propofol  Emulsion For Infusion  20 mg/ml, 50 ml vial
+MESO21786NEMIS	Mepivacaine And Adrenaline (as base)  Solution for injection  44 mg + 22 micrograms (1 in 100,000)/2.2 ml
+MIIN36051MGEMIS	Midazolam  Injection  10 mg/5 ml ampoule (Phoenix)
+MIIN36052MGEMIS	Midazolam  Injection  10 mg/2 ml ampoule (A.A.H. Pharm)
+ATIN33865MGEMIS	Atropine Sulfate  Injection  600 micrograms/ml, 1 ml ampoule (A.A.H. Pharm)
+ESIN24762EMIS	Esmeron  Injection  100 mg/10 ml vial
+PREM122385NEMIS	Propofol  Emulsion For Infusion  10 mg/ml, 50 ml vial
+LIME23717NEMIS	Lidocaine  Medicated Plaster  5 %
+PRIN36629MGEMIS	Propofol  Injection  10 mg/ml, 20 ml amp (Zurich Pharm)
+VEIN7013	Vecuronium Bromide  Injection  10 mg/vial
+ETIN9484HILLI	Etomidate  Injection (Solution)  2 mg/ml, 10 ml ampoule
+ATIN3035NEMIS	Atropine Sulfate  Injection  100 micrograms/ml, 10 ml syringe
+LIIN38184MGEMIS	Lidocaine  Injection  1 %, 10 ml ampoule (Phoenix)
+PAPO12892NEMIS	Parecoxib  Powder for injection  20 mg/ml, 40 mg vial
+HYIN35441MGEMIS	Hyoscine  Injection  400 micrograms/ml, 1 ml ampoule (A.A.H. Pharm)
+CISE125282NEMIS	Citanest With Octapressin  Self-aspirating dental injection  3 % + 0.066 units/2.2 ml cartridge
+LIIN38188MGEMIS	Lidocaine  Injection  2 %, 5 ml ampoule (Phoenix)
+ATIN242	Atropine Sulfate  Injection  1 mg/ml, 1 ml ampoule
+ALNA95978NEMIS	Alfentanil  Nasal spray  0.1 %
+LISO27372NEMIS	Lignospan Special  Solution for injection  2 % + 12.5 micrograms/ml, 2.2 ml cartridge
+BUSO48034NEMIS	Bupivacaine Hydrochloride  Infusion  (0.1 %) 250 mg/250 ml bag
+MAINEGTON7304	Marcain Heavy  Solution for injection  0.5 %, 4 ml ampoule
+PAPO12893NEMIS	Parecoxib  Powder with solvent for injection  20 mg/ml, 40 mg vial
+MIIN6930	Midazolam  Injection  10 mg/5 ml ampoule
+AMGE28244EMIS	Ametop  Gel  4 %
+LIIN38186MGEMIS	Lidocaine  Injection  2 %, 5 ml ampoule (Martindale)
+MAINEGTON7319	Marcain With Adrenaline 0.5 %  Injection  10 ml ampoule
+MIIN3553NEMIS	Midazolam  Solution for infusion  1 mg/ml, 50 ml vial
+CISO78501NEMIS	Cisatracurium Besilate  Solution for injection  20 mg/10 ml vial
+THPO24298NEMIS	Thiopental  Powder For Solution For Injection  500 mg vial
+KEIN15443NEMIS	Ketamine Hydrochloride  Injection  10 mg/ml, 20 ml vial
+ZISO22876NEMIS	Ziconotide  Solution for infusion  100 micrograms/ml, 1 ml vial
+MIIN23027NEMIS	Midazolam  Injection  1 mg/ml, 5 ml ampoule
+PREM130491NEMIS	Propoven  Emulsion For Infusion  1 %, 100 ml vial
+MISO36672NEMIS	Midazolam  Solution for injection  1 mg/ml, 2 ml ampoule
+KEIN15446NEMIS	Ketamine Hydrochloride  Injection  100 mg/ml, 10 ml vial
+REDE15496NEMIS	Rexocaine  Dental injection  2 %, 2.2 ml cartridge
+MIIN25460NEMIS	Midazolam  Injection  5 mg/ml, 10 ml ampoule
+ZISO22878NEMIS	Ziconotide  Solution for infusion  100 micrograms/ml, 5 ml vial
+PRSE26259NEMIS	Prilocaine With Felypressin  Self-aspirating dental injection  54 mg/1.8 ml + 0.054 units/1.8 ml cartridge
+LIIN17705NEMIS	Lidocaine  Injection  0.5 %, 50 mg/10 ml ampoule
+MIIN22331EMIS	Mivacron  Solution for injection  10 mg/5 ml ampoule
+RACO9530BRIDL	Rapifen  Concentrated injection  5 mg/ml, 1 ml ampoule
+NAINEGTON7333	Narcan Neonatal  Injection  20 micrograms/ml, 2 ml ampoule
+LIPA15712NEMIS	Lidoderm  Patches  5 %
+INGEEGTON6643	Instillagel  Gel  
+DYPO12888NEMIS	Dynastat  Powder for injection  20 mg/ml, 40 mg vial
+ESIN24763EMIS	Esmeron  Solution for injection  50 mg/5 ml vial
+HYIN35445MGEMIS	Hyoscine  Injection  400 micrograms/ml, 1 ml ampoule (Wockhardt UK)
+DAINEGTON6640	Dantrium Intravenous  Powder For Solution For Injection  20 mg vial
+MAINEGTON7312	Marcain  Solution for injection  0.5 %, 10 ml ampoule
+LISO46641NEMIS	Lidocaine With Adrenaline (as base)  Solution for injection  2 % + 27.5 micrograms (1:80,000)/2.2 ml cartridge
+PREM123759NEMIS	Propofol  Emulsion For Injection  10 mg/ml, 20 ml vial
+HYSO34950NEMIS	Hyoscine Hydrobromide  Solution for injection  600 micrograms/1 ml ampoule
+LIIN38182MGEMIS	Lidocaine  Injection  1 %, 10 ml ampoule (Martindale)
+HYIN35449MGEMIS	Hyoscine  Injection  600 micrograms/ml, 1 ml ampoule (Wockhardt UK)
+MIIN24301NEMIS	Min-I-Jet Atropine  Injection  1 mg/10 ml pre-filled syringe
+NAIN30140EMIS	Naropin  Solution for injection  7.5 mg/ml, 10 ml ampoule
+PRIN37566MGEMIS	Propofol  Injection  10 mg/ml, 50 ml vial (Zurich Pharm)
+KETA21933EMIS	Ketorolac Trometamol  Tablets  10 mg
+SUIN30900EMIS	Sublimaze  Injection  500 micrograms/10 ml ampoule
+LIGE38176MGEMIS	Lidocaine  Gel  2 % (Unichem)
+PRINEGTON7331	Procaine  Injection  20 mg/ml, 2 ml ampoule
+AMGE82691NEMIS	Ametop  Gel Dispensing Pack  4 %
+PRSO22881NEMIS	Prialt  Solution for infusion  100 micrograms/ml, 5 ml vial
+XYTO9363BRIDL	Xylocaine  Topical solution  40 mg/ml
+ULIN31663EMIS	Ultiva  Powder For Solution For Injection  5 mg vial
+MIIN24299NEMIS	Min-I-Jet Atropine  Injection  3 mg/30 ml pre-filled syringe
+BUIN33999MGEMIS	Bupivacaine Hydrochloride  Injection  0.50 %, 10 ml ampoule (A.A.H. Pharm)
+CHIN4165NEMIS	Chirocaine  Injection  2.5 mg/ml, 10 ml ampoule
+LEIN4161NEMIS	Levobupivacaine Hydrochloride  Injection  2.5 mg/ml (as base), 10 ml ampoule
+GLIN35384EMIS	Glycopyrronium Bromide  Injection  600 micrograms/3 ml ampoule
+LIME29094NEMIS	Lidocaine And Tetracaine  Medicated Plaster  70 mg + 70 mg
+ROIN30152EMIS	Ropivacaine Hydrochloride  Infusion  2 mg/ml, 200 ml bag
+BUIN9279HILLI	Bupivacaine 0.5% With Adrenaline (as base)  Injection  50 mg/10 ml + 50 micrograms/10 ml ampoule
+RASO21772NEMIS	Rapifen  Solution for injection  500 micrograms/ml, 2 ml ampoule
+LIIN17708NEMIS	Lidocaine  Injection  1 %, 200 mg/20 ml ampoule
+LIIN17712NEMIS	Lidocaine  Injection  2 %, 200 mg/10 ml ampoule
+MIIN22663NEMIS	Midazolam  Solution for infusion  2 mg/ml, 50 ml vial
+NUCR124953NEMIS	Nulbia  Cream  5 %
+LIIN17706NEMIS	Lidocaine  Injection  1 %, 100 mg/10 ml ampoule
+ROIN30150EMIS	Ropivacaine Hydrochloride  Solution for injection  7.5 mg/ml, 10 ml ampoule
+BUIN76893NEMIS	Bufyl  Infusion  1 mg/ml + 2 micrograms/ml, 250 ml bag
+PRSE125281NEMIS	Prilocaine With Felypressin  Self-aspirating dental injection  66 mg/2.2 ml + 0.066 units/2.2 ml cartridge 
+SCSO27377NEMIS	Scandonest Plain  Solution for injection  3 %, 2.2 ml cartridge
+PREM130492NEMIS	Propoven  Emulsion For Infusion  1 %, 50 ml vial
+ALIN9116HILLI	Alfentanil  Injection  5 mg/ml, 1 ml ampoule
+LAJE10955NEMIS	Laryng-O-Jet  Jet Spray  4 %
+BUIN7308	Bupivacaine Hydrochloride  Solution for injection  (0.25 %) 25 mg/10 ml ampoule
+LISO134406NEMIS	Lidocaine With Adrenaline (as base)  Solution for injection  2 % + 22.5 micrograms (1:80,000)/1.8 ml cartridge
+NICY33572NEMIS	Nitrous Oxide 50 % And Oxygen 50 %  Cylinder  
+LIGE38175MGEMIS	Lidocaine  Gel  2 % (AstraZeneca)
+LIPE45016NEMIS	Lidocaine And Prilocaine  Periodontal Gel  25 mg/gram + 25 mg/gram, 1.7 gram cartridge
+ATIN3032NEMIS	Atropine Sulfate  Injection  100 micrograms/ml, 5 ml syringe
+CHIN4167NEMIS	Chirocaine  Injection  7.5 mg/ml, 10 ml ampoule
+LIIN38187MGEMIS	Lidocaine  Injection  2 %, 5 ml ampoule (Unichem)
+MIIN36048MGEMIS	Midazolam  Injection  10 mg/5 ml ampoule (A.A.H. Pharm)
+BUIN7309	Bupivacaine Hydrochloride  Solution for injection  (0.5 %) 50 mg/10 ml ampoule
+ROIN30149EMIS	Ropivacaine Hydrochloride  Solution for injection  2 mg/ml, 10 ml ampoule
+VEME23719NEMIS	Versatis  Medicated Plaster  700 mg (5 %)
+TOTA21931EMIS	Toradol  Tablets  10 mg
+SUIN15507NEMIS	Sublimaze  Injection  50 micrograms/ml, 2 ml ampoule
+HYIN35448MGEMIS	Hyoscine  Injection  600 micrograms/ml, 1 ml ampoule (Unichem)
+ROINEGTON6632	Robinul-Neostigmine  Injection  1 ml ampoule
+MIIN36054MGEMIS	Midazolam  Injection  10 mg/2 ml ampoule (Unichem)
+KEIN9617EMIS	Ketorolac Trometamol  Injection  30 mg/ml, 1 ml ampoule
+PREM122387NEMIS	Propofol-Lipuro  Emulsion For Infusion  1 %, 50 ml vial
+FEIN30898EMIS	Fentanyl Citrate  Injection  500 micrograms/10 ml ampoule
+HYIN35444MGEMIS	Hyoscine  Injection  400 micrograms/ml, 1 ml ampoule (Unichem)
+NAIN30139EMIS	Naropin  Solution for injection  2 mg/ml, 10 ml ampoule
+HYIN35443MGEMIS	Hyoscine  Injection  400 micrograms/ml, 1 ml ampoule (Martindale)
+RASO21773NEMIS	Rapifen  Solution for injection  500 micrograms/ml, 10 ml ampoule
+LIGE17701NEMIS	Lidocaine  Gel  1 %
+XYIN15513NEMIS	Xylocaine With Adrenaline  Solution for injection  2 % / 1:200 000, 20 ml vial
+REIN31668EMIS	Remifentanil Hydrochloride  Powder For Solution For Injection  2 mg vial
+LIIN17730NEMIS	Lidocaine With Adrenaline (as base)  Solution for injection  2 % / 1:200 000, 20 ml vial
+ROIN15505NEMIS	Robinul  Injection  200 micrograms/ml, 1 ml ampoule
+LIGE17702NEMIS	Lidocaine  Gel  2 %
+ATIN33866MGEMIS	Atropine Sulfate  Injection  600 micrograms/ml, 1 ml ampoule (Martindale)
+MISO128251NEMIS	Mini-Plasco Lidocaine  Solution for injection  2 %, 400 mg/20 ml ampoule
+LIIN17707NEMIS	Lidocaine  Injection  1 %, 20 mg/2 ml ampoule
+ALSO21771NEMIS	Alfentanil  Solution for injection  500 micrograms/ml, 10 ml ampoule
+LIGE38170MGEMIS	Lidocaine  Gel  1 % (A.A.H. Pharm)
+ENCY33570NEMIS	Entonox  Cylinder  Size F
+ANINEGTON6625	Anectine  Injection  50 mg/ml, 2 ml ampoule
+MISO128253NEMIS	Mini-Plasco Lidocaine  Solution for injection  1 %, 100 mg/10 ml ampoule
+NIIN28212EMIS	Nimbex  Solution for injection  150 mg/30 ml vial
+NAIN30141EMIS	Naropin  Intravenous infusion  2 mg/ml, 100 ml bag
+LIIN17729NEMIS	Lidocaine With Adrenaline (as base)  Solution for injection  1 % / 1:200 000, 20 ml vial
+HYSO34949NEMIS	Hyoscine Hydrobromide  Solution for injection  400 micrograms/1 ml ampoule
+LIIN17711NEMIS	Lidocaine  Injection  2 %, 100 mg/5 ml ampoule
+HYIN35446MGEMIS	Hyoscine  Injection  600 micrograms/ml, 1 ml ampoule (A.A.H. Pharm)
+PRSO22880NEMIS	Prialt  Solution for infusion  100 micrograms/ml, 1 ml vial
+LIIN17710NEMIS	Lidocaine  Injection  2 %, 40 mg/2 ml ampoule
+LIGE51729NEMIS	Lidocaine And Chlorhexidine  Gel  2 % + 0.25 %
+XYDE27565EMIS	Xylotox 2 % E80  Dental injection  2.2 ml cartridge
+RAME122197NEMIS	Ralvo  Medicated Plaster  700 mg
+ENCY33571NEMIS	Entonox  Cylinder  Size G
+SUIN6775	Suxamethonium Chloride  Solution for injection  50 mg/ml, 2 ml ampoule
+XYPU19717EMIS	Xylocaine  Pump spray  10 mg/dose
+ROSO133243NEMIS	Rocuronium Bromide  Solution for injection  100 mg/10 ml ampoule
+LEIN4163NEMIS	Levobupivacaine Hydrochloride  Injection  5 mg/ml (as base), 10 ml ampoule
+NAIN30142EMIS	Naropin  Infusion  2 mg/ml, 200 ml bag
+CIIN16953NEMIS	Citanest  Solution for injection  1 %, 50 ml multi-dose vial
+CIIN17866NEMIS	Cisatracurium Besilate  Solution for injection  20 mg/10 ml ampoule
+TEGE17585NEMIS	Tetracaine  Gel  4 %
+ROIN30151EMIS	Ropivacaine Hydrochloride  Intravenous infusion  2 mg/ml, 100 ml bag
+NIIN28214EMIS	Nimbex  Injection  5 mg/2.5 ml ampoule
+BUIN9276HILLI	Bupivacaine 0.25% With Adrenaline (as base)  Injection  25 mg/10 ml + 50 micrograms/10 ml ampoule
+PASO22970NEMIS	Pancuronium Bromide  Solution for injection  2 mg/ml, 2 ml ampoule
+CISO78499NEMIS	Cisatracurium Besilate  Solution for injection  5 mg/2.5 ml vial
+LIGE38172MGEMIS	Lidocaine  Gel  1 % (Unichem)
+LIOR104783NEMIS	Lidocaine Hydrochloride And Cetylpyridinium Chloride  Oromucosal Gel Sugar Free  0.5 % + 0.025 %
+CHSO83173NEMIS	Chloroprocaine  Solution for injection  50 mg/5 ml ampoule
+BOGE104785NEMIS	Bonjela Junior  Gel  
+NICY33558NEMIS	Nitrous Oxide (Boc)  Cylinder  Size D
+ATIN33867MGEMIS	Atropine Sulfate  Injection  600 micrograms/ml, 1 ml ampoule (Unichem)
+LMCR31793NEMIS	Lmx 4  Cream  4 %
+LIGE38177MGEMIS	Lidocaine  Gel  2 % (Teva UK)
+CHSO136019NEMIS	Chloroprocaine  Solution for injection  400 mg/20 ml vial
+SUSO23024NEMIS	Suxamethonium Chloride  Solution for injection  50 mg/ml, 2 ml pre-filled syringe
+PRPR32236EMIS	Propofol  Emulsion For Infusion  20 mg/ml, 50 ml pre-filled syringe
+ROIN35386EMIS	Robinul  Injection  600 micrograms/3 ml ampoule
+LIIN38181MGEMIS	Lidocaine  Injection  1 %, 10 ml ampoule (A.A.H. Pharm)
+GLIN15504NEMIS	Glycopyrronium Bromide  Injection  200 micrograms/ml, 1 ml ampoule
+ATIN243	Atropine Sulfate  Injection  400 micrograms/ml, 1 ml ampoule
+FEIN37873MGEMIS	Fentanyl Citrate  Injection  50 micrograms/ml, 2 ml ampoule (A.A.H. Pharm)
+MIIN6931	Midazolam  Injection  10 mg/2 ml ampoule
+NICY33559NEMIS	Nitrous Oxide (Boc)  Cylinder  Size E
+LIIN48377NEMIS	Lidocaine  Injection  2 %, 400 mg/20 ml vial
+TOIN23470EMIS	Toradol  Injection  10 mg/ml, 1 ml ampoule
+LIOI38179MGEMIS	Lidocaine  Ointment  5 % (Unichem)
+LICR78264NEMIS	Lidocaine And Tetracaine  Cream  70 mg/gram + 70 mg/gram
+ATIN21652NEMIS	Atracurium Besilate  Solution for injection  10 mg/ml, 5 ml ampoule
+BUIN33998MGEMIS	Bupivacaine Hydrochloride  Injection  0.25 %, 10 ml ampoule (A.A.H. Pharm)

@@ -1,0 +1,245 @@
+^ESCT1178173	Product containing only dothiepin hydrochloride 75 mg/1 each oral tablet
+^ESCT1178174	Product containing only dosulepin hydrochloride 75 mg/1 each oral tablet
+^ESCT1179508	Dosulepin 25mg capsules (Mylan) 100 capsule
+^ESCT1183428	Dosulepin 25mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1183429	Dosulepin 25mg capsules (Mylan) 600 capsule
+^ESCT1183431	Dosulepin 75mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1183432	Dosulepin 75mg tablets (Mylan) 500 tablet
+^ESCT1184265	Dosulepin 25mg capsules (Mylan)
+^ESCT1186388	Dosulepin 75mg tablets (Mylan)
+^ESCT1187291	Product containing only dothiepin hydrochloride 25 mg/1 each oral capsule
+^ESCT1187292	Product containing only dosulepin hydrochloride 25 mg/1 each oral capsule
+^ESCT1223518	Dothiepin hydrochloride 25 mg oral capsule
+^ESCT1223519	Product containing precisely dosulepin hydrochloride 25 milligram/1 each conventional release oral capsule
+^ESCT1223520	Dosulepin hydrochloride 25 mg oral capsule
+^ESCT1223521	Product containing precisely dosulepin hydrochloride 75 milligram/1 each conventional release oral tablet
+^ESCT1258397	Dosulepin 25mg capsules (Strides Pharma UK Ltd)
+^ESCT1258398	Dosulepin 25mg capsules (Strides Pharma UK Ltd) 28 capsule 2 x 14 capsules
+^ESCT1258399	Dosulepin 75mg tablets (Strides Pharma UK Ltd)
+^ESCT1258400	Dosulepin 75mg tablets (Strides Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1403968	Dosulepin 75mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403969	Dosulepin 75mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1404746	Dosulepin 25mg capsules (Medihealth (Northern) Ltd)
+^ESCT1404747	Dosulepin 25mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1409550	Prothiaden 25mg capsules (Teofarma S.r.l.)
+^ESCT1409733	Prothiaden 75mg tablets (Teofarma S.r.l.)
+^ESCT1409839	Prothiaden 25mg capsules (Teofarma S.r.l.) 100 capsule
+^ESCT1409840	Prothiaden 25mg capsules (Teofarma S.r.l.) 600 capsule
+^ESCT1409842	Prothiaden 75mg tablets (Teofarma S.r.l.) 28 tablet
+^ESCT1409843	Prothiaden 75mg tablets (Teofarma S.r.l.) 500 tablet
+^ESCT1410879	Prothiaden 25mg capsules (Teofarma S.r.l.) 28 capsule 2 x 14 capsules
+^ESCT1425546	Dosulepin 75mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425758	Dosulepin 25mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426053	Dosulepin 25mg capsules (Kent Pharma (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1426054	Dosulepin 25mg capsules (Kent Pharma (UK) Ltd) 100 capsule
+^ESCT1426055	Dosulepin 25mg capsules (Kent Pharma (UK) Ltd) 600 capsule
+^ESCT1426060	Dosulepin 75mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426061	Dosulepin 75mg tablets (Kent Pharma (UK) Ltd) 500 tablet
+^ESCTDO1005658	Dosulepin 25mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTDO1005659	Dosulepin 25mg capsules (Phoenix Healthcare Distribution Ltd) 28 capsule
+^ESCTDO1005660	Dosulepin 75mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTDO1005661	Dosulepin 75mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTDO1009223	Dosulepin 25mg capsules (Strides Shasun (UK) Ltd)
+^ESCTDO1009224	Dosulepin 25mg capsules (Strides Shasun (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO1009225	Dosulepin 75mg tablets (Strides Shasun (UK) Ltd)
+^ESCTDO1009226	Dosulepin 75mg tablets (Strides Shasun (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO1042839	Dosulepin 25mg capsules (Waymade Healthcare Plc)
+^ESCTDO1042840	Dosulepin 25mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTDO1042841	Dosulepin 75mg tablets (Waymade Healthcare Plc)
+^ESCTDO1042842	Dosulepin 75mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTDO1045788	Dosulepin 25mg/5ml oral solution 500 ml
+^ESCTDO1045789	Dosulepin 25mg/5ml oral solution (Drug Tariff Special Order) 500 ml
+^ESCTDO1056412	Dosulepin 75mg/5ml oral solution 150 ml
+^ESCTDO1056413	Dosulepin 75mg/5ml oral solution (Drug Tariff Special Order) 150 ml
+^ESCTDO1056414	Dosulepin 75mg/5ml oral suspension 150 ml
+^ESCTDO1056415	Dosulepin 75mg/5ml oral suspension (Special Order) 150 ml
+^ESCTDO1061039	Dosulepin 25mg capsules (DE Pharmaceuticals)
+^ESCTDO1061040	Dosulepin 25mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTDO1061043	Dosulepin 75mg tablets (DE Pharmaceuticals)
+^ESCTDO1061044	Dosulepin 75mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTDO1117472	Dosulepin 25mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTDO1117473	Dosulepin 25mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTDO1117475	Dosulepin 75mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTDO1117476	Dosulepin 75mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTDO1120017	Dosulepin 25mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTDO1120018	Dosulepin 25mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTDO1120019	Dosulepin 75mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTDO1120020	Dosulepin 75mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTDO1145468	Dosulepin 25mg capsules (Genesis Pharmaceuticals Ltd)
+^ESCTDO1145472	Dosulepin 25mg capsules (Genesis Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO1145486	Dosulepin 75mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTDO1145487	Dosulepin 75mg tablets (Genesis Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO609625	Dosulepin 25mg capsules
+^ESCTDO609626	Dosulepin hydrochloride 25 mg/1 each oral capsule
+^ESCTDO609627	Dothiepin hydrochloride 25 mg/1 each oral capsule
+^ESCTDO609630	Dosulepin 75mg tablets
+^ESCTDO609633	Dosulepin hydrochloride 75 mg oral tablet
+^ESCTDO609634	Dothiepin hydrochloride 75 mg oral tablet
+^ESCTDO800101	Dothapax 25 capsules (Ashbourne Pharmaceuticals Ltd)
+^ESCTDO801989	Dosulepin 75mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTDO804679	Dosulepin 25mg capsules (Teva UK Ltd)
+^ESCTDO804881	Dosulepin 75mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTDO807612	Dosulepin 75mg tablets (Teva UK Ltd)
+^ESCTDO808070	Dosulepin 25mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTDO811125	Dosulepin 75mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTDO813483	Dosulepin 25mg capsules (Actavis UK Ltd)
+^ESCTDO814100	Dosulepin 75mg tablets (Sandoz Ltd)
+^ESCTDO814162	Dosulepin 25mg capsules (Sterwin Medicines)
+^ESCTDO817415	Dosulepin 25mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTDO818865	Dosulepin 25mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTDO819893	Dosulepin 25mg capsules (Sandoz Ltd)
+^ESCTDO820072	Dosulepin 75mg tablets (Sterwin Medicines)
+^ESCTDO820220	Dosulepin 25mg capsules (Mylan Ltd)
+^ESCTDO820359	Dosulepin 75mg tablets (Actavis UK Ltd)
+^ESCTDO820490	Dosulepin 25mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTDO829042	Dosulepin 75mg tablets (Mylan Ltd)
+^ESCTDO832939	Dosulepin 75mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTDO833505	Dothapax 75 tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTDO834434	Dosulepin 25mg capsules 28 capsule
+^ESCTDO838291	Dosulepin 25mg capsules 84 capsule
+^ESCTDO847930	Dosulepin 25mg capsules 100 capsule
+^ESCTDO848162	Dosulepin 75mg tablets 500 tablet
+^ESCTDO848598	Dosulepin 75mg tablets 28 tablet
+^ESCTDO848781	Dosulepin 25mg capsules 600 capsule
+^ESCTDO849950	Dosulepin 25mg capsules (A A H Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO849952	Dosulepin 25mg capsules (A A H Pharmaceuticals Ltd) 100 capsule
+^ESCTDO849953	Dosulepin 25mg capsules (A A H Pharmaceuticals Ltd) 600 capsule
+^ESCTDO849954	Dosulepin 25mg capsules (Actavis UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO849955	Dosulepin 25mg capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO849957	Dothapax 25 capsules (Ashbourne Pharmaceuticals Ltd) 84 capsule
+^ESCTDO849965	Dosulepin 25mg capsules (Mylan Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO849966	Dosulepin 25mg capsules (Mylan Ltd) 100 capsule
+^ESCTDO849967	Dosulepin 25mg capsules (Mylan Ltd) 600 capsule
+^ESCTDO849969	Dosulepin 25mg capsules (IVAX Pharmaceuticals UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO849970	Dosulepin 25mg capsules (IVAX Pharmaceuticals UK Ltd) 100 capsule
+^ESCTDO849971	Dosulepin 25mg capsules (Kent Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO849973	Dosulepin 25mg capsules (Kent Pharmaceuticals Ltd) 100 capsule
+^ESCTDO849975	Dosulepin 25mg capsules (Kent Pharmaceuticals Ltd) 600 capsule
+^ESCTDO849982	Dosulepin 25mg capsules (Sandoz Ltd) 28 capsule
+^ESCTDO849989	Dosulepin 25mg capsules (Sterwin Medicines) 100 capsule
+^ESCTDO849992	Dosulepin 25mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO849994	Dosulepin 25mg capsules (Alliance Healthcare (Distribution) Ltd) 600 capsule
+^ESCTDO849999	Dosulepin 75mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO850000	Dosulepin 75mg tablets (A A H Pharmaceuticals Ltd) 500 tablet
+^ESCTDO850003	Dosulepin 75mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO850007	Dosulepin 75mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO850009	Dothapax 75 tablets (Ashbourne Pharmaceuticals Ltd) 28 tablet
+^ESCTDO850014	Dosulepin 75mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO850016	Dosulepin 75mg tablets (Mylan Ltd) 500 tablet
+^ESCTDO850020	Dosulepin 75mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO850022	Dosulepin 75mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTDO850024	Dosulepin 75mg tablets (Kent Pharmaceuticals Ltd) 500 tablet
+^ESCTDO850033	Dosulepin 75mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO850041	Dosulepin 75mg tablets (Sterwin Medicines) 28 tablet 2 x 14 tablets
+^ESCTDO850043	Dosulepin 75mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO850044	Dosulepin 75mg tablets (Alliance Healthcare (Distribution) Ltd) 500 tablet
+^ESCTDO863583	Dosulepin 25mg capsules (Alliance Healthcare (Distribution) Ltd) 100 capsule
+^ESCTDO906361	Dosulepin 75mg/5ml oral solution 1 ml
+^ESCTDO906362	Dosulepin 75mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTDO906363	Dosulepin 25mg/5ml oral solution 1 ml
+^ESCTDO906364	Dosulepin 75mg/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCTDO906366	Dosulepin 25mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTDO906368	Dosulepin 25mg/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCTDO906369	Dosulepin 75mg/5ml oral suspension 1 ml
+^ESCTDO906370	Dosulepin 75mg/5ml oral suspension (Special Order)
+^ESCTDO906373	Dosulepin 25mg/5ml oral suspension 1 ml
+^ESCTDO906374	Dosulepin 75mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDO906375	Dosulepin 25mg/5ml oral suspension (Special Order)
+^ESCTDO906378	Dosulepin 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDO906416	Dosulepin 75mg/5ml oral suspension
+^ESCTDO906417	Dosulepin 75mg/5ml oral solution
+^ESCTDO906418	Dosulepin 25mg/5ml oral suspension
+^ESCTDO906419	Dosulepin 25mg/5ml oral solution
+^ESCTDO923562	Dosulepin 25mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTDO923563	Dosulepin 25mg capsules (Almus Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO923565	Dosulepin 75mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTDO923566	Dosulepin 75mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDO945805	Dosulepin 100mg/5ml oral solution 1 ml
+^ESCTDO945806	Dosulepin 100mg/5ml oral solution (Special Order)
+^ESCTDO945807	Dosulepin 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTDO945810	Dosulepin 10mg/5ml oral solution 1 ml
+^ESCTDO945811	Dosulepin 10mg/5ml oral solution (Special Order)
+^ESCTDO945812	Dosulepin 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTDO945815	Dosulepin 125mg/5ml oral solution 1 ml
+^ESCTDO945816	Dosulepin 125mg/5ml oral solution (Special Order)
+^ESCTDO945818	Dosulepin 125mg/5ml oral solution (Special Order) 1 ml
+^ESCTDO945819	Dosulepin 150mg/5ml oral solution 1 ml
+^ESCTDO945821	Dosulepin 150mg/5ml oral solution (Special Order)
+^ESCTDO945823	Dosulepin 150mg/5ml oral solution (Special Order) 1 ml
+^ESCTDO945824	Dosulepin 20mg/5ml oral solution 1 ml
+^ESCTDO945827	Dosulepin 20mg/5ml oral solution (Special Order)
+^ESCTDO945828	Dosulepin 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTDO945831	Dosulepin 250mg/5ml oral solution 1 ml
+^ESCTDO945833	Dosulepin 250mg/5ml oral solution (Special Order)
+^ESCTDO945835	Dosulepin 250mg/5ml oral solution (Special Order) 1 ml
+^ESCTDO945837	Dosulepin 37.5mg/5ml oral solution 1 ml
+^ESCTDO945839	Dosulepin 37.5mg/5ml oral solution (Special Order)
+^ESCTDO945840	Dosulepin 37.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTDO945842	Dosulepin 50mg/5ml oral solution 1 ml
+^ESCTDO945844	Dosulepin 50mg/5ml oral solution (Special Order)
+^ESCTDO945845	Dosulepin 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTDO945850	Dosulepin 5mg/5ml oral solution 1 ml
+^ESCTDO945851	Dosulepin 5mg/5ml oral solution (Special Order)
+^ESCTDO945852	Dosulepin 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTDO946054	Dosulepin 100mg/5ml oral solution
+^ESCTDO946055	Dosulepin 10mg/5ml oral solution
+^ESCTDO946056	Dosulepin 125mg/5ml oral solution
+^ESCTDO946057	Dosulepin 150mg/5ml oral solution
+^ESCTDO946058	Dosulepin 20mg/5ml oral solution
+^ESCTDO946059	Dosulepin 250mg/5ml oral solution
+^ESCTDO946060	Dosulepin 37.5mg/5ml oral solution
+^ESCTDO946061	Dosulepin 50mg/5ml oral solution
+^ESCTDO946062	Dosulepin 5mg/5ml oral solution
+^ESCTDO999180	Dosulepin 25mg capsules (Sovereign Medical Ltd)
+^ESCTDO999181	Dosulepin 25mg capsules (Sovereign Medical Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO999182	Dosulepin 75mg tablets (Sovereign Medical Ltd)
+^ESCTDO999183	Dosulepin 75mg tablets (Sovereign Medical Ltd) 28 tablet 2 x 14 tablets
+^ESCTPR609628	Product containing dothiepin hydrochloride 25 mg/1 each oral capsule
+^ESCTPR609629	Product containing dosulepin hydrochloride 25 mg/1 each oral capsule
+^ESCTPR609631	Product containing dothiepin hydrochloride 75 mg/1 each oral tablet
+^ESCTPR609632	Product containing dosulepin hydrochloride 75 mg/1 each oral tablet
+^ESCTPR806720	Prothiaden 25mg capsules (Teofarma)
+^ESCTPR810624	Prepadine 75mg tablets (Teva UK Ltd)
+^ESCTPR813501	Prepadine 25mg capsules (Teva UK Ltd)
+^ESCTPR822875	Prothiaden 75mg tablets (Teofarma)
+^ESCTPR849960	Prepadine 25mg capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTPR849977	Prothiaden 25mg capsules (Teofarma) 100 capsule
+^ESCTPR849979	Prothiaden 25mg capsules (Teofarma) 600 capsule
+^ESCTPR850013	Prepadine 75mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTPR850029	Prothiaden 75mg tablets (Teofarma) 28 tablet
+^ESCTPR850031	Prothiaden 75mg tablets (Teofarma) 500 tablet
+^ESCTPR952450	Prothiaden 25mg capsules (Teofarma) 28 capsule 2 x 14 capsules
+^ESCTTH813516	Thaden 25mg capsules (Opus Pharmaceuticals Ltd)
+^ESCTTH821378	Thaden 75mg tablets (Opus Pharmaceuticals Ltd)
+^ESCTTH849984	Thaden 25mg capsules (Opus Pharmaceuticals Ltd) 84 capsule 6 x 14 capsules
+^ESCTTH850036	Thaden 75mg tablets (Opus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+DOCA17635NEMIS	Dosulepin  Capsules  25 mg
+DOCA18846EMIS	Dothapax 25  Capsules  25 mg
+DOCA38082MGEMIS	Dosulepin  Capsules  25 mg (Teva UK)
+DOCA38083MGEMIS	Dosulepin  Capsules  25 mg (A.A.H. Pharm)
+DOCA38084MGEMIS	Dosulepin  Capsules  25 mg (Alpharma)
+DOCA38085MGEMIS	Dosulepin  Capsules  25 mg (Sterwin Medicines)
+DOCA38086MGEMIS	Dosulepin  Capsules  25 mg (Unichem)
+DOCA38087MGEMIS	Dosulepin  Capsules  25 mg (Ivax Pharmaceuticals)
+DOCA38088MGEMIS	Dosulepin  Capsules  25 mg (Sandoz)
+DOCA38089MGEMIS	Dosulepin  Capsules  25 mg (Generics (UK))
+DOCA38090MGEMIS	Dosulepin  Capsules  25 mg (Kent Pharm)
+DOOR17637NEMIS	Dosulepin  Oral solution  25 mg/5 ml
+DOOR17638NEMIS	Dosulepin  Oral solution  75 mg/5 ml
+DOOR45624NEMIS	Dosulepin  Oral suspension  25 mg/5 ml
+DOOR46730NEMIS	Dosulepin  Oral suspension  75 mg/5 ml
+DOTA17636NEMIS	Dosulepin  Tablets  75 mg
+DOTA18848EMIS	Dothapax 75  Tablets  75 mg
+DOTA38091MGEMIS	Dosulepin  Tablets  75 mg (A.A.H. Pharm)
+DOTA38092MGEMIS	Dosulepin  Tablets  75 mg (Kent Pharm)
+DOTA38093MGEMIS	Dosulepin  Tablets  75 mg (Teva UK)
+DOTA38094MGEMIS	Dosulepin  Tablets  75 mg (Ivax Pharmaceuticals)
+DOTA38095MGEMIS	Dosulepin  Tablets  75 mg (Sandoz)
+DOTA38096MGEMIS	Dosulepin  Tablets  75 mg (Sterwin Medicines)
+DOTA38097MGEMIS	Dosulepin  Tablets  75 mg (Alpharma)
+DOTA38098MGEMIS	Dosulepin  Tablets  75 mg (Generics (UK))
+DOTA38099MGEMIS	Dosulepin  Tablets  75 mg (Unichem)
+PRCA2401	Prothiaden  Capsules  25 mg
+PRCA24260EMIS	Prepadine  Capsules  25 mg
+PRTA2402	Prothiaden  Tablets  75 mg
+PRTA24262EMIS	Prepadine  Tablets  75 mg

@@ -1,0 +1,213 @@
+^ESCT1174240	Nortriptyline 50mg/5ml oral suspension 1 ml
+^ESCT1174241	Nortriptyline 50mg/5ml oral suspension (Special Order)
+^ESCT1174242	Nortriptyline 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1174382	Nortriptyline 50mg/5ml oral suspension
+^ESCT1198221	Nortriptyline 50mg/5ml oral solution 1 ml
+^ESCT1198222	Nortriptyline 50mg/5ml oral solution (Special Order)
+^ESCT1198223	Nortriptyline 50mg/5ml oral solution (Special Order) 1 ml
+^ESCT1198276	Nortriptyline 50mg/5ml oral solution
+^ESCT1215540	Nortriptyline 10mg tablets (Medreich Plc)
+^ESCT1215543	Nortriptyline 10mg tablets (Medreich Plc) 100 tablet 10 x 10 tablets
+^ESCT1215545	Nortriptyline 25mg tablets (Medreich Plc)
+^ESCT1215548	Nortriptyline 25mg tablets (Medreich Plc) 100 tablet 10 x 10 tablets
+^ESCT1250873	Nortriptyline 10mg tablets (Advanz Pharma)
+^ESCT1250874	Nortriptyline 25mg tablets (Advanz Pharma)
+^ESCT1250875	Nortriptyline 25mg tablets (Advanz Pharma) 30 tablet 3 x 10 tablets
+^ESCT1250876	Nortriptyline 10mg tablets (Advanz Pharma) 30 tablet 3 x 10 tablets
+^ESCT1250877	Nortriptyline 25mg tablets (Advanz Pharma) 100 tablet
+^ESCT1250878	Nortriptyline 10mg tablets (Advanz Pharma) 100 tablet
+^ESCT1250879	Nortriptyline 50mg tablets (Advanz Pharma)
+^ESCT1250880	Nortriptyline 50mg tablets (Advanz Pharma) 30 tablet 3 x 10 tablets
+^ESCT1255950	Nortriptyline 10mg tablets (Ria Generics Ltd)
+^ESCT1255951	Nortriptyline 10mg tablets 28 tablet
+^ESCT1255953	Nortriptyline 10mg tablets 84 tablet
+^ESCT1255954	Nortriptyline 10mg tablets (Ria Generics Ltd) 28 tablet 2 x 14 tablets
+^ESCT1255957	Nortriptyline 10mg tablets (Ria Generics Ltd) 84 tablet 6 x 14 tablets
+^ESCT1255960	Nortriptyline 25mg tablets 28 tablet
+^ESCT1255961	Nortriptyline 25mg tablets 84 tablet
+^ESCT1255962	Nortriptyline 25mg tablets (Ria Generics Ltd)
+^ESCT1255963	Nortriptyline 25mg tablets (Ria Generics Ltd) 28 tablet 2 x 14 tablets
+^ESCT1255964	Nortriptyline 25mg tablets (Ria Generics Ltd) 84 tablet 6 x 14 tablets
+^ESCT1257402	Nortriptyline 10mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1257403	Nortriptyline 10mg tablets (Flamingo Pharma (UK) Ltd) 100 tablet 10 x 10 tablets
+^ESCT1257404	Nortriptyline 25mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1257407	Nortriptyline 25mg tablets (Flamingo Pharma (UK) Ltd) 100 tablet 10 x 10 tablets
+^ESCT1264366	Nortriptyline 10mg tablets (Ria Generics Ltd) 100 tablet 10 x 10 tablets
+^ESCT1264367	Nortriptyline 25mg tablets (Ria Generics Ltd) 100 tablet 10 x 10 tablets
+^ESCT1267572	Nortriptyline 10mg tablets (DE Pharmaceuticals)
+^ESCT1267573	Nortriptyline 10mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCT1267574	Nortriptyline 50mg tablets (DE Pharmaceuticals)
+^ESCT1267575	Nortriptyline 50mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCT1267777	Nortriptyline 10mg tablets (Macleods Pharma UK Ltd)
+^ESCT1267778	Nortriptyline 10mg tablets (Macleods Pharma UK Ltd) 100 tablet
+^ESCT1267781	Nortriptyline 25mg tablets (Macleods Pharma UK Ltd)
+^ESCT1267782	Nortriptyline 25mg tablets (Macleods Pharma UK Ltd) 100 tablet
+^ESCT1269644	Nortriptyline 10mg tablets (Accord Healthcare Ltd)
+^ESCT1269645	Nortriptyline 10mg tablets (Accord Healthcare Ltd) 100 tablet
+^ESCT1269646	Nortriptyline 25mg tablets (Accord Healthcare Ltd)
+^ESCT1269647	Nortriptyline 25mg tablets (Accord Healthcare Ltd) 100 tablet
+^ESCT1270588	Nortriptyline 10mg tablets (Mylan)
+^ESCT1270589	Nortriptyline 10mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1270590	Nortriptyline 10mg tablets (Mylan) 100 tablet
+^ESCT1270591	Nortriptyline 25mg tablets (Mylan)
+^ESCT1270592	Nortriptyline 25mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1270593	Nortriptyline 25mg tablets (Mylan) 100 tablet
+^ESCT1270594	Nortriptyline 50mg tablets (Mylan)
+^ESCT1270595	Nortriptyline 50mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1275367	Nortriptyline 10mg tablets (DE Pharmaceuticals) 84 tablet
+^ESCT1275368	Nortriptyline 25mg tablets (DE Pharmaceuticals)
+^ESCT1275369	Nortriptyline 25mg tablets (DE Pharmaceuticals) 84 tablet
+^ESCT1275370	Nortriptyline 25mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1275371	Nortriptyline 25mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCT1276750	Nortriptyline 10mg/5ml oral solution sugar free 250 ml
+^ESCT1276751	Nortriptyline 10mg/5ml oral solution sugar free (Colonis Pharma Ltd)
+^ESCT1276752	Nortriptyline 10mg/5ml oral solution sugar free (Colonis Pharma Ltd) 250 ml
+^ESCT1276753	Nortriptyline 25mg/5ml oral solution sugar free 250 ml
+^ESCT1276754	Nortriptyline 25mg/5ml oral solution sugar free (Colonis Pharma Ltd)
+^ESCT1276755	Nortriptyline 25mg/5ml oral solution sugar free (Colonis Pharma Ltd) 250 ml
+^ESCT1276798	Nortriptyline 10mg/5ml oral solution sugar free
+^ESCT1276799	Nortriptyline 25mg/5ml oral solution sugar free
+^ESCT1276805	Nortriptyline 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCT1276806	Nortriptyline 10mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet
+^ESCT1276807	Nortriptyline 25mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCT1276816	Nortriptyline 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1276817	Nortriptyline 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 250 ml
+^ESCT1276818	Nortriptyline 25mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCT1276819	Nortriptyline 25mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 250 ml
+^ESCT1276820	Nortriptyline 25mg tablets (Alliance Healthcare (Distribution) Ltd) 84 tablet
+^ESCT1278976	Nortriptyline 10mg tablets (Zentiva)
+^ESCT1278977	Nortriptyline 10mg tablets (Zentiva) 100 tablet 10 x 10 tablets
+^ESCT1278978	Nortriptyline 25mg tablets (Zentiva)
+^ESCT1278979	Nortriptyline 25mg tablets (Zentiva) 100 tablet 10 x 10 tablets
+^ESCT1303748	Nortriptyline 25mg capsules 100 capsule
+^ESCT1303749	Nortriptyline 25mg capsules (Kent Pharmaceuticals Ltd)
+^ESCT1303750	Nortriptyline 25mg capsules (Kent Pharmaceuticals Ltd) 100 capsule
+^ESCT1303751	Nortriptyline 10mg capsules 100 capsule
+^ESCT1303753	Nortriptyline 10mg capsules (Kent Pharmaceuticals Ltd)
+^ESCT1303754	Nortriptyline 10mg capsules (Kent Pharmaceuticals Ltd) 100 capsule
+^ESCT1303883	Nortriptyline 10mg capsules
+^ESCT1303884	Nortriptyline 25mg capsules
+^ESCT1402426	Nortriptyline 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402427	Nortriptyline 50mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1402428	Nortriptyline 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402429	Nortriptyline 10mg tablets (Medihealth (Northern) Ltd) 100 tablet
+^ESCT1402430	Nortriptyline 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402431	Nortriptyline 25mg tablets (Medihealth (Northern) Ltd) 100 tablet
+^ESCT1402610	Nortriptyline 10mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1402611	Nortriptyline 10mg capsules (Alliance Healthcare (Distribution) Ltd) 100 capsule
+^ESCT1402612	Nortriptyline 25mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCT1402613	Nortriptyline 25mg capsules (Alliance Healthcare (Distribution) Ltd) 100 capsule
+^ESCT1405455	Nortriptyline 10mg tablets (Flamingo Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1405456	Nortriptyline 25mg tablets (Flamingo Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1410971	Nortriptyline 10mg/5ml oral suspension (Special Order)
+^ESCT1410972	Nortriptyline 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1412439	Nortriptyline 10mg/5ml oral suspension (Special Order) 100 ml
+^ESCT1422780	Nortriptyline 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422781	Nortriptyline 10mg tablets (Zentiva Pharma UK Ltd) 100 tablet 10 x 10 tablets
+^ESCT1422782	Nortriptyline 25mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422783	Nortriptyline 25mg tablets (Zentiva Pharma UK Ltd) 100 tablet 10 x 10 tablets
+^ESCT1424771	Nortriptyline 30mg / Fluphenazine 1.5mg tablets
+^ESCT1424772	Nortriptyline 10mg / Fluphenazine 500microgram tablets
+^ESCT1424857	Nortriptyline 10mg tablets
+^ESCT1424858	Nortriptyline 25mg tablets
+^ESCT1428062	Nortriptyline 25mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1428063	Nortriptyline 25mg capsules (Kent Pharma (UK) Ltd) 100 capsule
+^ESCT1428064	Nortriptyline 10mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1428065	Nortriptyline 10mg capsules (Kent Pharma (UK) Ltd) 100 capsule
+^ESCT1429407	Nortriptyline 10mg capsules (Medihealth (Northern) Ltd)
+^ESCT1429408	Nortriptyline 10mg capsules (Medihealth (Northern) Ltd) 100 capsule
+^ESCT1429409	Nortriptyline 25mg capsules (Medihealth (Northern) Ltd)
+^ESCT1429410	Nortriptyline 25mg capsules (Medihealth (Northern) Ltd) 100 capsule
+^ESCTAL820569	Allegron 25mg tablets (King Pharmaceuticals Ltd)
+^ESCTAL831409	Allegron 10mg tablets (King Pharmaceuticals Ltd)
+^ESCTAL855821	Allegron 10mg tablets (King Pharmaceuticals Ltd) 100 tablet
+^ESCTAL855827	Allegron 25mg tablets (King Pharmaceuticals Ltd) 100 tablet
+^ESCTMO803899	Motival 10mg/500microgram tablets (Sanofi)
+^ESCTMO818665	Motipress tablets (Sanofi-Synthelabo Ltd)
+^ESCTMO855609	Motival 10mg/500microgram tablets (Sanofi) 100 tablet
+^ESCTMO856907	Motipress tablets (Sanofi-Synthelabo Ltd) 28 tablet
+^ESCTNO1009456	Nortriptyline 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTNO1009457	Nortriptyline 10mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTNO1009458	Nortriptyline 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTNO1009459	Nortriptyline 25mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTNO1012772	Nortriptyline 10mg tablets (King Pharmaceuticals Ltd)
+^ESCTNO1012773	Nortriptyline 10mg tablets (King Pharmaceuticals Ltd) 100 tablet
+^ESCTNO1014619	Nortriptyline 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTNO1014620	Nortriptyline 10mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTNO1014730	Nortriptyline 25mg tablets (King Pharmaceuticals Ltd)
+^ESCTNO1014731	Nortriptyline 25mg tablets (King Pharmaceuticals Ltd) 100 tablet
+^ESCTNO1019361	Nortriptyline 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTNO1019367	Nortriptyline 25mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTNO1068225	Nortriptyline 10mg tablets (Actavis UK Ltd)
+^ESCTNO1068226	Nortriptyline 10mg tablets (Actavis UK Ltd) 100 tablet
+^ESCTNO1068229	Nortriptyline 25mg tablets (Actavis UK Ltd)
+^ESCTNO1068230	Nortriptyline 25mg tablets (Actavis UK Ltd) 100 tablet
+^ESCTNO1118515	Nortriptyline 10mg tablets (Teva UK Ltd)
+^ESCTNO1118516	Nortriptyline 10mg tablets (Teva UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTNO1118517	Nortriptyline 25mg tablets (Teva UK Ltd)
+^ESCTNO1118518	Nortriptyline 25mg tablets (Teva UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTNO1156985	Nortriptyline 10mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTNO1156986	Nortriptyline 25mg tablets 30 tablet
+^ESCTNO1156987	Nortriptyline 25mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTNO1156988	Nortriptyline 10mg tablets 30 tablet
+^ESCTNO1156989	Nortriptyline 25mg tablets (Focus Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTNO1156990	Nortriptyline 10mg tablets (Focus Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTNO1156991	Nortriptyline 25mg tablets (Focus Pharmaceuticals Ltd) 100 tablet
+^ESCTNO1156992	Nortriptyline 10mg tablets (Focus Pharmaceuticals Ltd) 100 tablet
+^ESCTNO1156993	Nortriptyline 50mg tablets 30 tablet
+^ESCTNO1156994	Nortriptyline 50mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTNO1156995	Nortriptyline 50mg tablets (Focus Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTNO1156996	Nortriptyline 50mg tablets
+^ESCTNO1157668	Nortriptyline 10mg tablets (Creo Pharma Ltd)
+^ESCTNO1157669	Nortriptyline 10mg tablets (Creo Pharma Ltd) 100 tablet 10 x 10 tablets
+^ESCTNO1157670	Nortriptyline 25mg tablets (Creo Pharma Ltd)
+^ESCTNO1157671	Nortriptyline 25mg tablets (Creo Pharma Ltd) 100 tablet 10 x 10 tablets
+^ESCTNO1158486	Nortriptyline 10mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCTNO1158487	Nortriptyline 25mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCTNO1158488	Nortriptyline 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTNO1158489	Nortriptyline 50mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCTNO1159916	Nortriptyline 10mg/5ml oral suspension 100 ml
+^ESCTNO1159917	Nortriptyline 10mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTNO1161026	Nortriptyline 10mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTNO1161027	Nortriptyline 25mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTNO1161029	Nortriptyline 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTNO1161030	Nortriptyline 50mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTNO1163008	Nortriptyline 25mg tablets (Alissa Healthcare Research Ltd)
+^ESCTNO1163009	Nortriptyline 25mg tablets (Alissa Healthcare Research Ltd) 100 tablet
+^ESCTNO1163010	Nortriptyline 10mg tablets (Alissa Healthcare Research Ltd)
+^ESCTNO1163011	Nortriptyline 10mg tablets (Alissa Healthcare Research Ltd) 100 tablet
+^ESCTNO835498	Nortriptyline 25mg tablets 100 tablet
+^ESCTNO846636	Nortriptyline 10mg tablets 100 tablet
+^ESCTNO848466	Nortriptyline 10mg / Fluphenazine 500microgram tablets 100 tablet
+^ESCTNO848669	Nortriptyline 30mg / Fluphenazine 1.5mg tablets 28 tablet
+^ESCTNO968035	Nortriptyline 25mg/5ml oral solution 1 ml
+^ESCTNO968036	Nortriptyline 25mg/5ml oral solution (Special Order)
+^ESCTNO968037	Nortriptyline 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTNO968038	Nortriptyline 25mg/5ml oral suspension 1 ml
+^ESCTNO968039	Nortriptyline 25mg/5ml oral suspension (Special Order)
+^ESCTNO968040	Nortriptyline 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTNO968362	Nortriptyline 25mg tablets 25 tablet
+^ESCTNO968397	Nortriptyline 25mg/5ml oral solution
+^ESCTNO968398	Nortriptyline 25mg/5ml oral suspension
+^ESCTNO977372	Nortriptyline 10mg/5ml oral solution 1 ml
+^ESCTNO977373	Nortriptyline 10mg/5ml oral solution (Special Order)
+^ESCTNO977374	Nortriptyline 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTNO977375	Nortriptyline 10mg/5ml oral suspension 1 ml
+^ESCTNO977376	Nortriptyline 10mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTNO977377	Nortriptyline 10mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTNO977507	Nortriptyline 10mg/5ml oral solution
+^ESCTNO977508	Nortriptyline 10mg/5ml oral suspension
+ALTA3141	Allegron  Tablets  10 mg
+ALTA3142	Allegron  Tablets  25 mg
+MOTA3976	Motipress  Tablets  
+MOTA3978	Motival  Tablets  
+NOCA5213	Nortriptyline  Capsules  10 mg
+NOCA6793	Nortriptyline  Capsules  25 mg
+NOOR110033NEMIS	Nortriptyline  Oral solution  10 mg/5 ml
+NOOR122928NEMIS	Nortriptyline  Oral suspension  10 mg/5 ml
+NOOR134216NEMIS	Nortriptyline  Oral Solution, Sugar Free  10 mg/5 ml
+NOOR134217NEMIS	Nortriptyline  Oral Solution, Sugar Free  25 mg/5 ml
+NOTA123310NEMIS	Nortriptyline  Tablets  50 mg
+NOTA18780NEMIS	Nortriptyline And Fluphenazine  Tablets  10 mg + 500 micrograms
+NOTA5215	Nortriptyline  Tablets  10 mg
+NOTA6760	Nortriptyline  Tablets  25 mg

@@ -1,0 +1,256 @@
+^ESCT1180312	Cetirizine 10mg tablets (Mylan)
+^ESCT1181055	Product containing only cetirizine dihydrochloride 10 mg/1 each oral tablet
+^ESCT1183502	Cetirizine 10mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1223266	Cetirizine hydrochloride 10 mg oral tablet
+^ESCT1223267	Product containing precisely cetirizine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1263924	Cetirizine 1mg/ml oral solution sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCT1263925	Cetirizine 1mg/ml oral solution sugar free (Mawdsley-Brooks & Company Ltd) 200 ml
+^ESCT1264211	Cetirizine 1mg/ml oral solution sugar free
+^ESCT1264937	Cetirizine 1mg/ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1264940	Cetirizine 1mg/ml oral solution sugar free (DE Pharmaceuticals) 200 ml
+^ESCT1268458	Cetirizine 10mg tablets (Healthcare Pharma Ltd)
+^ESCT1268459	Cetirizine 10mg tablets (Healthcare Pharma Ltd) 30 tablet
+^ESCT1303769	Piriteze Allergy 10mg tablets (GlaxoSmithKline Consumer Healthcare) 14 tablet
+^ESCT1375078	Cetirizine 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375079	Cetirizine 10mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1375082	Cetirizine 1mg/ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1375083	Cetirizine 1mg/ml oral solution sugar free (Medihealth (Northern) Ltd) 200 ml
+^ESCT1409722	Piriteze Allergy 10mg tablets (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1409924	Piriteze Allergy 10mg tablets (GlaxoSmithKline Consumer Healthcare UK Ltd) 30 tablet 2 x 15 tablets
+^ESCT1409925	Piriteze Allergy 10mg tablets (GlaxoSmithKline Consumer Healthcare UK Ltd) 7 tablet
+^ESCT1410533	Piriteze Allergy 1mg/ml syrup (GlaxoSmithKline Consumer Healthcare UK Ltd)
+^ESCT1410534	Piriteze Allergy 1mg/ml syrup (GlaxoSmithKline Consumer Healthcare UK Ltd) 70 ml
+^ESCT1410826	Pollenshield Hayfever Relief 10mg tablets (Accord Healthcare Ltd)
+^ESCT1410827	Pollenshield Hayfever Relief 10mg tablets (Accord Healthcare Ltd) 7 tablet
+^ESCT1410870	Pollenshield Hayfever 10mg tablets (Accord Healthcare Ltd)
+^ESCT1410871	Pollenshield Hayfever 10mg tablets (Accord Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1411261	Cetirizine 10mg tablets (Fannin (UK) Ltd)
+^ESCT1411262	Cetirizine 10mg tablets (Fannin (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1412192	Piriteze Allergy 10mg tablets (GlaxoSmithKline Consumer Healthcare UK Ltd) 12 tablet
+^ESCT1412708	Piriteze Allergy 10mg tablets (GlaxoSmithKline Consumer Healthcare UK Ltd) 14 tablet
+^ESCT1425617	Cetirizine 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426308	Cetirizine 10mg tablets (Kent Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1426314	Cetirizine 10mg tablets (Kent Pharma (UK) Ltd) 7 tablet
+^ESCT1426831	Cetirizine 1mg/ml oral solution sugar free (Kent Pharma (UK) Ltd)
+^ESCT1426832	Cetirizine 1mg/ml oral solution sugar free (Kent Pharma (UK) Ltd) 200 ml
+^ESCT1427022	Cetirizine 1mg/ml oral solution sugar free (Kent Pharma (UK) Ltd) 100 ml
+^ESCTAL1074667	Allacan 10mg tablets (Bristol Laboratories Ltd)
+^ESCTAL1074672	Allacan 10mg tablets (Bristol Laboratories Ltd) 7 tablet
+^ESCTAL1074674	Allacan 10mg tablets (Bristol Laboratories Ltd) 14 tablet
+^ESCTAL1160806	Allacan 10mg tablets (Bristol Laboratories Ltd) 30 tablet 2 x 15 tablets
+^ESCTAL901868	AllerTek 10mg tablets (Ratiopharm UK Ltd)
+^ESCTAL901869	AllerTek 10mg tablets (Ratiopharm UK Ltd) 7 tablet
+^ESCTBE1028131	Benadryl Allergy Liquid Release 10mg capsules (McNeil Products Ltd)
+^ESCTBE1028132	Benadryl Allergy Liquid Release 10mg capsules (McNeil Products Ltd) 7 capsule
+^ESCTBE1098552	Benadryl Allergy Children's 1mg/ml oral solution (McNeil Products Ltd)
+^ESCTBE1098553	Benadryl Allergy Children's 1mg/ml oral solution (McNeil Products Ltd) 100 ml
+^ESCTBE1109564	BecoAllergy 10mg tablets (Omega Pharma Ltd)
+^ESCTBE1109566	BecoAllergy 10mg tablets (Omega Pharma Ltd) 7 tablet
+^ESCTBE1109569	BecoAllergy 10mg tablets (Omega Pharma Ltd) 14 tablet
+^ESCTBE1109570	BecoAllergy 10mg tablets (Omega Pharma Ltd) 30 tablet
+^ESCTBE1154280	Benadryl Allergy One A Day 10mg tablets (McNeil Products Ltd)
+^ESCTBE1154281	Benadryl Allergy One A Day 10mg tablets (McNeil Products Ltd) 7 tablet
+^ESCTBE1154282	Benadryl Allergy One A Day 10mg tablets (McNeil Products Ltd) 14 tablet 2 x 7 tablets
+^ESCTBE1154283	Benadryl Allergy One A Day 10mg tablets (McNeil Products Ltd) 30 tablet 3 x 10 tablets
+^ESCTBE818554	Benadryl One A Day Relief 10mg tablets (McNeil Products Ltd)
+^ESCTBE853749	Benadryl One A Day Relief 10mg tablets (McNeil Products Ltd) 7 tablet
+^ESCTBE853752	Benadryl One A Day Relief 10mg tablets (McNeil Products Ltd) 14 tablet 2 x 7 tablets
+^ESCTBE870340	Benadryl Allergy 1mg/ml oral solution (McNeil Products Ltd)
+^ESCTBE870342	Benadryl Allergy 1mg/ml oral solution (McNeil Products Ltd) 100 ml
+^ESCTBE927696	Benadryl Allergy Children's 6+ 1mg/ml oral solution (McNeil Products Ltd)
+^ESCTBE927697	Benadryl Allergy Children's 6+ 1mg/ml oral solution (McNeil Products Ltd) 70 ml
+^ESCTBE988268	Benadryl One A Day 10mg tablets (McNeil Products Ltd)
+^ESCTBE988269	Benadryl One A Day 10mg tablets (McNeil Products Ltd) 30 tablet 3 x 10 tablets
+^ESCTCA1011849	Care Hayfever and Allergy oral solution (Thornton & Ross Ltd)
+^ESCTCA1011850	Care Hayfever and Allergy oral solution (Thornton & Ross Ltd) 200 ml
+^ESCTCE1005292	Cetirizine 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCE1005293	Cetirizine 10mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTCE1007243	Cetirizine 10mg tablets (Fannin UK Ltd)
+^ESCTCE1007245	Cetirizine 10mg tablets (Fannin UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTCE1007429	Cetirizine 1mg/ml oral solution sugar free (Phoenix Healthcare Distribution Ltd)
+^ESCTCE1007430	Cetirizine 1mg/ml oral solution sugar free (Phoenix Healthcare Distribution Ltd) 200 ml
+^ESCTCE1022473	Cetirizine 10mg tablets (DE Pharmaceuticals)
+^ESCTCE1022474	Cetirizine 10mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTCE1022475	Cetirizine 10mg tablets (DE Pharmaceuticals) 7 tablet
+^ESCTCE1028130	Cetirizine 10mg capsules 7 capsule
+^ESCTCE1028135	Cetirizine 10mg capsules
+^ESCTCE1041931	Cetirizine 1mg/ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTCE1041932	Cetirizine 1mg/ml oral solution sugar free (Waymade Healthcare Plc) 200 ml
+^ESCTCE1041933	Cetirizine 10mg tablets (Waymade Healthcare Plc)
+^ESCTCE1041934	Cetirizine 10mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTCE1046579	Cetirizine 10mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd)
+^ESCTCE1046580	Cetirizine 10mg tablets (APC Pharmaceuticals & Chemicals (Europe) Ltd) 30 tablet 3 x 10 tablets
+^ESCTCE1065932	Cetirizine 10mg tablets 60 tablet
+^ESCTCE1066169	Cetirizine 10mg tablets (Bell,Sons & Co (Druggists) Ltd)
+^ESCTCE1066170	Cetirizine 10mg tablets (Bell,Sons & Co (Druggists) Ltd) 14 tablet
+^ESCTCE1117784	Cetirizine 10mg tablets 12 tablet
+^ESCTCE1119067	Cetirizine 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTCE1119068	Cetirizine 10mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTCE1128411	Cetirizine 10mg tablets (Vantage)
+^ESCTCE1128412	Cetirizine 10mg tablets (Vantage) 30 tablet 3 x 10 tablets
+^ESCTCE1144140	Cetirizine 10mg tablets (Crescent Pharma Ltd)
+^ESCTCE1144141	Cetirizine 10mg tablets (Crescent Pharma Ltd) 30 tablet 2 x 15 tablets
+^ESCTCE1156059	Cetirizine 10mg tablets (Somex Pharma)
+^ESCTCE1156060	Cetirizine 10mg tablets (Somex Pharma) 30 tablet
+^ESCTCE608856	Cetirizine 10mg tablets
+^ESCTCE608858	Cetirizine dihydrochloride 10 mg oral tablet
+^ESCTCE802359	Cetirizine 1mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTCE802520	Cetirizine 1mg/ml oral solution sugar free (Sandoz Ltd)
+^ESCTCE803188	Cetirizine 10mg tablets (C P Pharmaceuticals Ltd)
+^ESCTCE805285	Cetirizine 10mg tablets (Sterwin Medicines)
+^ESCTCE810274	Cetirizine 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCE810686	Cetirizine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCE819292	Cetirocol 10mg tablets (Teva UK Ltd)
+^ESCTCE819820	Cetirizine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCE820208	Cetirizine 1mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTCE820417	Cetirizine 10mg tablets (Teva UK Ltd)
+^ESCTCE820548	Cetirizine 10mg tablets (Actavis UK Ltd)
+^ESCTCE821882	Cetirizine 10mg tablets (Ranbaxy (UK) Ltd)
+^ESCTCE824226	Cetirizine 10mg tablets (Mylan Ltd)
+^ESCTCE825339	Cetirizine 10mg tablets (Sandoz Ltd)
+^ESCTCE846922	Cetirizine 1mg/ml oral solution sugar free 200 ml
+^ESCTCE847265	Cetirizine 10mg tablets 14 tablet
+^ESCTCE847901	Cetirizine 10mg tablets 30 tablet
+^ESCTCE848413	Cetirizine 10mg tablets 7 tablet
+^ESCTCE848502	Cetirizine 1mg/ml oral solution sugar free 150 ml
+^ESCTCE853663	Cetirizine 10mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTCE853664	Cetirizine 10mg tablets (A A H Pharmaceuticals Ltd) 7 tablet
+^ESCTCE853666	Cetirizine 10mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTCE853668	Cetirizine 10mg tablets (Teva UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTCE853671	Cetirizine 10mg tablets (Teva UK Ltd) 7 tablet
+^ESCTCE853673	Cetirocol 10mg tablets (Teva UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTCE853674	Cetirizine 10mg tablets (C P Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTCE853676	Cetirizine 10mg tablets (Mylan Ltd) 30 tablet 3 x 10 tablets
+^ESCTCE853745	Cetirizine 10mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTCE853747	Cetirizine 10mg tablets (Sandoz Ltd) 30 tablet 3 x 10 tablets
+^ESCTCE853753	Cetirizine 10mg tablets (Ranbaxy (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCTCE853754	Cetirizine 10mg tablets (Sterwin Medicines) 30 tablet 3 x 10 tablets
+^ESCTCE853756	Cetirizine 10mg tablets (Sterwin Medicines) 7 tablet
+^ESCTCE853763	Cetirizine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCTCE853764	Cetirizine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 7 tablet
+^ESCTCE853765	Cetirizine 1mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTCE853766	Cetirizine 1mg/ml oral solution sugar free (Sandoz Ltd) 150 ml
+^ESCTCE853767	Cetirizine 1mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTCE853815	Cetirizine 10mg tablets (Kent Pharmaceuticals Ltd) 7 tablet
+^ESCTCE865936	Cetirizine 1mg/ml oral solution sugar free (Sandoz Ltd) 200 ml
+^ESCTCE867339	Cetirizine 1mg/ml oral solution sugar free (Teva UK Ltd)
+^ESCTCE867340	Cetirizine 1mg/ml oral solution sugar free (Teva UK Ltd) 200 ml
+^ESCTCE868566	Cetirizine 1mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 200 ml
+^ESCTCE869094	Cetirizine 1mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd) 200 ml
+^ESCTCE869495	Cetirizine 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTCE869496	Cetirizine 10mg tablets (IVAX Pharmaceuticals UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTCE870341	Cetirizine 1mg/ml oral solution sugar free 100 ml
+^ESCTCE870422	Cetirizine 1mg/ml oral solution sugar free 75 ml
+^ESCTCE872031	Cetirizine 10mg tablets (Actavis UK Ltd) 7 tablet
+^ESCTCE879098	Cetirizine 10mg tablets 20 tablet
+^ESCTCE896494	Cetirizine 10mg tablets 21 tablet
+^ESCTCE898398	Cetirizine 1mg/ml oral solution sugar free (Kent Pharmaceuticals Ltd)
+^ESCTCE898399	Cetirizine 1mg/ml oral solution sugar free (Kent Pharmaceuticals Ltd) 200 ml
+^ESCTCE899856	Cetirizine 1mg/ml oral solution sugar free 70 ml
+^ESCTCE903462	Cetirizine 1mg/ml oral solution sugar free (Genus Pharmaceuticals Ltd)
+^ESCTCE903463	Cetirizine 1mg/ml oral solution sugar free (Genus Pharmaceuticals Ltd) 150 ml
+^ESCTCE915518	Cetec 10mg tablets (Herbal Concepts Ltd)
+^ESCTCE915520	Cetec 10mg tablets (Herbal Concepts Ltd) 7 tablet
+^ESCTCE918266	Cetirizine 1mg/ml oral solution sugar free (Kent Pharmaceuticals Ltd) 100 ml
+^ESCTCE928395	Cetirizine 1mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd) 100 ml
+^ESCTCE929402	Cetirizine 10mg tablets (Arrow Generics Ltd)
+^ESCTCE929403	Cetirizine 10mg tablets (Arrow Generics Ltd) 30 tablet
+^ESCTCE935301	Cetirizine 10mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTCE935302	Cetirizine 10mg tablets (Dr Reddy's Laboratories (UK) Ltd) 30 tablet
+^ESCTCE935304	Cetirizine 10mg tablets (Dr Reddy's Laboratories (UK) Ltd) 7 tablet
+^ESCTCE935412	Cetirizine 1mg/ml oral solution sugar free (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTCE935413	Cetirizine 1mg/ml oral solution sugar free (Dr Reddy's Laboratories (UK) Ltd) 200 ml
+^ESCTCE939342	Cetirizine 10mg tablets (PLIVA Pharma Ltd)
+^ESCTCE939345	Cetirizine 10mg tablets (PLIVA Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTCE939361	Cetirizine 10mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTCE939363	Cetirizine 10mg tablets (Almus Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTCE941198	Cetirizine 10mg tablets (Dexcel-Pharma Ltd)
+^ESCTCE941199	Cetirizine 10mg tablets (Dexcel-Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTCE964229	Cetirizine 1mg/ml oral solution sugar free (Pinewood Healthcare)
+^ESCTCE964230	Cetirizine 1mg/ml oral solution sugar free (Pinewood Healthcare) 200 ml
+^ESCTCE969436	Cetirizine 10mg tablets (Chanelle Medical UK Ltd)
+^ESCTCE969437	Cetirizine 10mg tablets (Chanelle Medical UK Ltd) 30 tablet
+^ESCTCE978228	Cetirizine 1mg/ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTCE978229	Cetirizine 1mg/ml oral solution sugar free (Sigma Pharmaceuticals Plc) 200 ml
+^ESCTCE978230	Cetirizine 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCE978231	Cetirizine 10mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTCE978941	Cetirizine 10mg tablets (Wockhardt UK Ltd)
+^ESCTCE978942	Cetirizine 10mg tablets (Wockhardt UK Ltd) 30 tablet
+^ESCTCE987122	Cetirizine 10mg tablets (Bristol Laboratories Ltd)
+^ESCTCE987123	Cetirizine 10mg tablets (Bristol Laboratories Ltd) 7 tablet
+^ESCTCE987124	Cetirizine 10mg tablets (Bristol Laboratories Ltd) 30 tablet 3 x 10 tablets
+^ESCTCE999384	Cetirizine 1mg/ml oral solution sugar free (Actavis UK Ltd)
+^ESCTCE999385	Cetirizine 1mg/ml oral solution sugar free (Actavis UK Ltd) 200 ml
+^ESCTGA1000755	Galpharm Hayfever and Allergy Relief 10mg tablets (Galpharm International Ltd) 14 tablet
+^ESCTGA871341	Galpharm Hayfever and Allergy Relief 10mg tablets (Galpharm International Ltd)
+^ESCTGA871342	Galpharm Hayfever and Allergy Relief 10mg tablets (Galpharm International Ltd) 7 tablet
+^ESCTGA911600	Galpharm Hayfever and Allergy Relief 10mg tablets (Galpharm International Ltd) 30 tablet
+^ESCTGA925692	Galpharm Hayfever and Allergy Relief 1mg/ml syrup (Galpharm International Ltd)
+^ESCTGA925693	Galpharm Hayfever and Allergy Relief 1mg/ml syrup (Galpharm International Ltd) 70 ml
+^ESCTLL1019403	Lloydspharmacy Hayfever and Allergy Relief 10mg tablets (Lloyds Pharmacy Ltd) 14 tablet 2 x 7 tablets
+^ESCTLL901372	Lloydspharmacy Hayfever and Allergy Relief 10mg tablets (Lloyds Pharmacy Ltd)
+^ESCTLL901375	Lloydspharmacy Hayfever and Allergy Relief 10mg tablets (Lloyds Pharmacy Ltd) 30 tablet 2 x 15 tablets
+^ESCTNU1065931	Numark Hayfever & Allergy Relief 10mg tablets (Numark Ltd) 14 tablet
+^ESCTNU1065933	Numark Hayfever & Allergy Relief 10mg tablets (Numark Ltd) 60 tablet
+^ESCTNU970204	Numark Hayfever & Allergy Relief 10mg tablets (Numark Ltd)
+^ESCTNU970205	Numark Hayfever & Allergy Relief 10mg tablets (Numark Ltd) 7 tablet
+^ESCTNU970206	Numark Hayfever & Allergy Relief 10mg tablets (Numark Ltd) 30 tablet
+^ESCTPI1117785	Piriteze Allergy 10mg tablets (GlaxoSmithKline Consumer Healthcare) 12 tablet
+^ESCTPI821258	Piriteze Allergy 10mg tablets (GlaxoSmithKline Consumer Healthcare)
+^ESCTPI853679	Piriteze Allergy 10mg tablets (GlaxoSmithKline Consumer Healthcare) 30 tablet 2 x 15 tablets
+^ESCTPI853680	Piriteze Allergy 10mg tablets (GlaxoSmithKline Consumer Healthcare) 7 tablet
+^ESCTPI899854	Piriteze Allergy 1mg/ml syrup (GlaxoSmithKline Consumer Healthcare)
+^ESCTPI899860	Piriteze Allergy 1mg/ml syrup (GlaxoSmithKline Consumer Healthcare) 70 ml
+^ESCTPO940305	Pollenshield Hayfever Relief 10mg tablets (Actavis UK Ltd)
+^ESCTPO940306	Pollenshield Hayfever Relief 10mg tablets (Actavis UK Ltd) 7 tablet
+^ESCTPO949615	Pollenshield Hayfever 10mg tablets (Actavis UK Ltd)
+^ESCTPO949617	Pollenshield Hayfever 10mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTPR608857	Product containing cetirizine dihydrochloride 10 mg/1 each oral tablet
+^ESCTZI1154163	Ziralton Allergy Relief for Children 5mg/5ml oral solution (Pinewood Healthcare)
+^ESCTZI1154164	Ziralton Allergy Relief for Children 5mg/5ml oral solution (Pinewood Healthcare) 70 ml
+^ESCTZI802630	Zirtek Allergy 10mg tablets (UCB Pharma Ltd)
+^ESCTZI806797	Zirtek 10mg tablets (UCB Pharma Ltd)
+^ESCTZI853758	Zirtek Allergy 10mg tablets (UCB Pharma Ltd) 14 tablet 2 x 7 tablets
+^ESCTZI853760	Zirtek 10mg tablets (UCB Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTZI853761	Zirtek 10mg tablets (UCB Pharma Ltd) 7 tablet
+^ESCTZI866755	Zirtek Allergy 10mg tablets (UCB Pharma Ltd) 7 tablet
+^ESCTZI866757	Zirtek Allergy 10mg tablets (UCB Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTZI870421	Zirtek Allergy 1mg/ml oral solution (UCB Pharma Ltd)
+^ESCTZI870423	Zirtek Allergy 1mg/ml oral solution (UCB Pharma Ltd) 75 ml
+^ESCTZI873991	Zirtek Allergy 1mg/ml oral solution (UCB Pharma Ltd) 200 ml
+^ESCTZI896495	Zirtek Allergy 10mg tablets (UCB Pharma Ltd) 21 tablet 3 x 7 tablets
+^ESCTZI913382	Zirtek Allergy 1mg/ml oral solution (UCB Pharma Ltd) 150 ml
+^ESCTZI913398	Zirtek Allergy Relief for Children 1mg/ml oral solution (UCB Pharma Ltd)
+^ESCTZI913399	Zirtek Allergy Relief for Children 1mg/ml oral solution (UCB Pharma Ltd) 70 ml
+^ESCTZI922724	Zirtek Allergy Relief 10mg tablets (UCB Pharma Ltd)
+^ESCTZI922726	Zirtek Allergy Relief 10mg tablets (UCB Pharma Ltd) 7 tablet
+BECA86045NEMIS	Benadryl Allergy Liquid Release  Capsules  10 mg
+BESU17496NEMIS	Benadryl Allergy  Sugar-free oral solution  5 mg/5 ml
+CECA86043NEMIS	Cetirizine Hydrochloride  Capsules  10 mg
+CESU24106EMIS	Cetirizine Hydrochloride  Sugar-free oral solution  5 mg/5 ml
+CESU34164MGEMIS	Cetirizine Hydrochloride  Sugar-free oral solution  5 mg/5 ml (Unichem)
+CESU34165MGEMIS	Cetirizine Hydrochloride  Sugar-free oral solution  5 mg/5 ml (Sandoz)
+CESU34166MGEMIS	Cetirizine Hydrochloride  Sugar-free oral solution  5 mg/5 ml (A.A.H. Pharm)
+CESU34167MGEMIS	Cetirizine Hydrochloride  Sugar-free oral solution  5 mg/5 ml (Teva UK)
+CESU34168MGEMIS	Cetirizine Hydrochloride  Sugar-free oral solution  5 mg/5 ml (Kent Pharm)
+CESU34169MGEMIS	Cetirizine Hydrochloride  Sugar-free oral solution  5 mg/5 ml (Genus Pharm)
+CETA13135NEMIS	Cetirocol  Tablets  10 mg
+CETA34194MGEMIS	Cetirizine Hydrochloride  Tablets  10 mg (Cp Pharm)
+CETA34195MGEMIS	Cetirizine Hydrochloride  Tablets  10 mg (Sterwin Medicines)
+CETA34196MGEMIS	Cetirizine Hydrochloride  Tablets  10 mg (Kent Pharm)
+CETA34197MGEMIS	Cetirizine Hydrochloride  Tablets  10 mg (A.A.H. Pharm)
+CETA34198MGEMIS	Cetirizine Hydrochloride  Tablets  10 mg (Unichem)
+CETA34199MGEMIS	Cetirizine Hydrochloride  Tablets  10 mg (Teva UK)
+CETA34200MGEMIS	Cetirizine Hydrochloride  Tablets  10 mg (Alpharma)
+CETA34201MGEMIS	Cetirizine Hydrochloride  Tablets  10 mg (Ranbaxy)
+CETA34202MGEMIS	Cetirizine Hydrochloride  Tablets  10 mg (Generics (UK))
+CETA34203MGEMIS	Cetirizine Hydrochloride  Tablets  10 mg (Sandoz)
+CETA34204MGEMIS	Cetirizine Hydrochloride  Tablets  10 mg (Ivax Pharmaceuticals)
+CETA8573EGTON	Cetirizine Hydrochloride  Tablets  10 mg
+PISU17486NEMIS	Piriteze Allergy  Sugar-free oral solution  5 mg/5 ml
+PITA16099NEMIS	Piriteze Allergy  Tablets  10 mg
+POTA29442NEMIS	Pollenshield Hayfever Relief  Tablets  10 mg
+POTA29444NEMIS	Pollenshield Hayfever  Tablets  10 mg
+ZIOR15233NEMIS	Zirtek Allergy  Oral solution  5 mg/5 ml
+ZITA14650NEMIS	Zirtek Allergy  Tablets  10 mg
+ZITA8571EGTON	Zirtek  Tablets  10 mg

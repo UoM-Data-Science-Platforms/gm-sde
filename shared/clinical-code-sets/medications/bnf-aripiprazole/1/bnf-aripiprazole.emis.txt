@@ -1,0 +1,397 @@
+^ESCT1173737	Aripiprazole 5mg tablets (Wockhardt UK Ltd)
+^ESCT1173738	Aripiprazole 5mg tablets (Wockhardt UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1173739	Aripiprazole 10mg tablets (Wockhardt UK Ltd)
+^ESCT1173740	Aripiprazole 10mg tablets (Wockhardt UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1173741	Aripiprazole 15mg tablets (Wockhardt UK Ltd)
+^ESCT1173742	Aripiprazole 15mg tablets (Wockhardt UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1173743	Aripiprazole 30mg tablets (Wockhardt UK Ltd)
+^ESCT1173744	Aripiprazole 30mg tablets (Wockhardt UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1175176	Aripiprazole 5mg tablets (Accord Healthcare Ltd)
+^ESCT1175177	Aripiprazole 5mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCT1175178	Aripiprazole 15mg tablets (Accord Healthcare Ltd)
+^ESCT1175179	Aripiprazole 15mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCT1175180	Aripiprazole 30mg tablets (Accord Healthcare Ltd)
+^ESCT1175181	Aripiprazole 30mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCT1176681	Aripiprazole 10mg tablets (Accord Healthcare Ltd)
+^ESCT1176682	Aripiprazole 10mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCT1176962	Aripiprazole 5mg tablets (Milpharm Ltd)
+^ESCT1176963	Aripiprazole 5mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1176964	Aripiprazole 10mg tablets (Milpharm Ltd)
+^ESCT1176965	Aripiprazole 10mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1176966	Aripiprazole 15mg tablets (Milpharm Ltd)
+^ESCT1176967	Aripiprazole 15mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1176968	Aripiprazole 30mg tablets (Milpharm Ltd)
+^ESCT1176969	Aripiprazole 30mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1180956	Aripiprazole 1mg/ml oral solution (Mylan)
+^ESCT1181009	Aripiprazole 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 4 x 7 tablets
+^ESCT1182632	Product containing only aripiprazole 15 mg/1 each oral tablet
+^ESCT1185270	Product containing only aripiprazole 10 mg/1 each oral tablet
+^ESCT1188032	Product containing only aripiprazole 5 mg/1 each oral tablet
+^ESCT1188033	Product containing only aripiprazole 30 mg/1 each oral tablet
+^ESCT1190165	Aripiprazole 1mg/ml oral solution (Mylan) 150 ml
+^ESCT1230311	Product containing precisely aripiprazole 5 milligram/1 each conventional release oral tablet
+^ESCT1230312	Product containing precisely aripiprazole 10 milligram/1 each conventional release oral tablet
+^ESCT1230313	Product containing precisely aripiprazole 15 milligram/1 each conventional release oral tablet
+^ESCT1230315	Product containing precisely aripiprazole 30 milligram/1 each conventional release oral tablet
+^ESCT1232651	Product containing precisely aripiprazole 1 milligram/1 milliliter conventional release oral solution
+^ESCT1232652	Aripiprazole 1 mg/mL oral solution
+^ESCT1254293	Aripiprazole 5mg tablets (Xiromed)
+^ESCT1254296	Aripiprazole 5mg tablets (Xiromed) 28 tablet 2 x 14 tablets
+^ESCT1254298	Aripiprazole 10mg tablets (Xiromed)
+^ESCT1254299	Aripiprazole 10mg tablets (Xiromed) 28 tablet 2 x 14 tablets
+^ESCT1254300	Aripiprazole 15mg tablets (Xiromed)
+^ESCT1254301	Aripiprazole 15mg tablets (Xiromed) 28 tablet 2 x 14 tablets
+^ESCT1254302	Aripiprazole 30mg tablets (Xiromed)
+^ESCT1254303	Aripiprazole 30mg tablets (Xiromed) 28 tablet 2 x 14 tablets
+^ESCT1254414	Aripiprazole 30mg tablets (Sovereign Medical Ltd)
+^ESCT1254415	Aripiprazole 30mg tablets (Sovereign Medical Ltd) 28 tablet 2 x 14 tablets
+^ESCT1254416	Aripiprazole 5mg tablets (Sovereign Medical Ltd)
+^ESCT1254417	Aripiprazole 5mg tablets (Sovereign Medical Ltd) 28 tablet 2 x 14 tablets
+^ESCT1254418	Aripiprazole 10mg tablets (Sovereign Medical Ltd)
+^ESCT1254419	Aripiprazole 10mg tablets (Sovereign Medical Ltd) 28 tablet 2 x 14 tablets
+^ESCT1254420	Aripiprazole 15mg tablets (Sovereign Medical Ltd)
+^ESCT1254421	Aripiprazole 15mg tablets (Sovereign Medical Ltd) 28 tablet 2 x 14 tablets
+^ESCT1255461	Aripiprazole 5mg tablets (Rivopharm (UK) Ltd)
+^ESCT1255462	Aripiprazole 5mg tablets (Rivopharm (UK) Ltd) 28 tablet
+^ESCT1255463	Aripiprazole 10mg tablets (Rivopharm (UK) Ltd)
+^ESCT1255464	Aripiprazole 10mg tablets (Rivopharm (UK) Ltd) 28 tablet
+^ESCT1255469	Aripiprazole 15mg tablets (Rivopharm (UK) Ltd)
+^ESCT1255470	Aripiprazole 15mg tablets (Rivopharm (UK) Ltd) 28 tablet
+^ESCT1255471	Aripiprazole 30mg tablets (Rivopharm (UK) Ltd)
+^ESCT1255472	Aripiprazole 30mg tablets (Rivopharm (UK) Ltd) 28 tablet
+^ESCT1259594	Arpoya 5mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259596	Arpoya 5mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259597	Arpoya 10mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259598	Arpoya 10mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259601	Arpoya 15mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259602	Arpoya 15mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259603	Arpoya 30mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259604	Arpoya 30mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1259611	Aripiprazole 10mg orodispersible tablets sugar free (Neon Healthcare Ltd)
+^ESCT1259613	Aripiprazole 10mg orodispersible tablets sugar free (Neon Healthcare Ltd) 28 tablet
+^ESCT1259615	Aripiprazole 15mg orodispersible tablets sugar free (Neon Healthcare Ltd)
+^ESCT1259616	Aripiprazole 15mg orodispersible tablets sugar free (Neon Healthcare Ltd) 28 tablet
+^ESCT1263764	Aripiprazole 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1263765	Aripiprazole 5mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1263776	Aripiprazole 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1263778	Aripiprazole 10mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1263790	Aripiprazole 15mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1263792	Aripiprazole 15mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1263793	Aripiprazole 30mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1263926	Aripiprazole 30mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1264413	Aripiprazole 10mg orodispersible tablets sugar free (DE Pharmaceuticals)
+^ESCT1264414	Aripiprazole 10mg orodispersible tablets sugar free (DE Pharmaceuticals) 28 tablet
+^ESCT1264415	Aripiprazole 15mg orodispersible tablets sugar free (DE Pharmaceuticals)
+^ESCT1264416	Aripiprazole 15mg orodispersible tablets sugar free (DE Pharmaceuticals) 28 tablet
+^ESCT1265683	Aripiprazole 1mg/ml oral solution sugar free 150 ml
+^ESCT1265684	Aripiprazole 1mg/ml oral solution sugar free (Genus Pharmaceuticals Ltd)
+^ESCT1265685	Aripiprazole 1mg/ml oral solution sugar free (Genus Pharmaceuticals Ltd) 150 ml
+^ESCT1265690	Aripiprazole 1mg/ml oral solution sugar free
+^ESCT1266099	Aripiprazole 5mg tablets (Sciecure Pharma Ltd)
+^ESCT1266100	Aripiprazole 5mg tablets (Sciecure Pharma Ltd) 28 tablet 4 x 7 tablets
+^ESCT1266101	Aripiprazole 10mg tablets (Sciecure Pharma Ltd)
+^ESCT1266102	Aripiprazole 10mg tablets (Sciecure Pharma Ltd) 28 tablet 4 x 7 tablets
+^ESCT1266103	Aripiprazole 15mg tablets (Sciecure Pharma Ltd)
+^ESCT1266104	Aripiprazole 15mg tablets (Sciecure Pharma Ltd) 28 tablet 4 x 7 tablets
+^ESCT1266105	Aripiprazole 30mg tablets (Sciecure Pharma Ltd)
+^ESCT1266106	Aripiprazole 30mg tablets (Sciecure Pharma Ltd) 28 tablet 4 x 7 tablets
+^ESCT1274551	Aripiprazole 10mg orodispersible tablets sugar free (Genus Pharmaceuticals Ltd)
+^ESCT1274554	Aripiprazole 10mg orodispersible tablets sugar free (Genus Pharmaceuticals Ltd) 28 tablet 4 x 7 tablets
+^ESCT1274557	Aripiprazole 15mg orodispersible tablets sugar free (Genus Pharmaceuticals Ltd)
+^ESCT1274558	Aripiprazole 15mg orodispersible tablets sugar free (Genus Pharmaceuticals Ltd) 28 tablet 4 x 7 tablets
+^ESCT1278917	Aripiprazole 10mg orodispersible tablets sugar free (Accord Healthcare Ltd)
+^ESCT1278918	Aripiprazole 10mg orodispersible tablets sugar free (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1280147	Aripiprazole 15mg orodispersible tablets sugar free (Accord Healthcare Ltd)
+^ESCT1280148	Aripiprazole 15mg orodispersible tablets sugar free (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1299965	Aripiprazole 1mg/ml oral solution (Accord Healthcare Ltd)
+^ESCT1299966	Aripiprazole 1mg/ml oral solution (Accord Healthcare Ltd) 150 ml
+^ESCT1300315	Aripiprazole 1mg/ml oral solution (Creo Pharma Ltd)
+^ESCT1300316	Aripiprazole 1mg/ml oral solution (Creo Pharma Ltd) 150 ml
+^ESCT1305287	Aripiprazole 1mg/ml oral solution (Zentiva)
+^ESCT1305288	Aripiprazole 1mg/ml oral solution (Zentiva) 150 ml
+^ESCT1306668	Aripiprazole 10mg tablets (Crescent Pharma Ltd)
+^ESCT1306669	Aripiprazole 10mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1306670	Aripiprazole 15mg tablets (Crescent Pharma Ltd)
+^ESCT1306671	Aripiprazole 15mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1306672	Aripiprazole 30mg tablets (Crescent Pharma Ltd)
+^ESCT1306673	Aripiprazole 30mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1306674	Aripiprazole 5mg tablets (Crescent Pharma Ltd)
+^ESCT1306675	Aripiprazole 5mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1374432	Aripiprazole 5mg tablets (Bristol Laboratories Ltd)
+^ESCT1374433	Aripiprazole 5mg tablets (Bristol Laboratories Ltd) 28 tablet
+^ESCT1374434	Aripiprazole 10mg tablets (Bristol Laboratories Ltd)
+^ESCT1374435	Aripiprazole 10mg tablets (Bristol Laboratories Ltd) 28 tablet
+^ESCT1374438	Aripiprazole 15mg tablets (Bristol Laboratories Ltd)
+^ESCT1374439	Aripiprazole 15mg tablets (Bristol Laboratories Ltd) 28 tablet
+^ESCT1374463	Aripiprazole 30mg tablets (Bristol Laboratories Ltd)
+^ESCT1374466	Aripiprazole 30mg tablets (Bristol Laboratories Ltd) 28 tablet
+^ESCT1374730	Aripiprazole 1mg/ml oral solution (Medihealth (Northern) Ltd)
+^ESCT1374731	Aripiprazole 1mg/ml oral solution (Medihealth (Northern) Ltd) 150 ml
+^ESCT1374732	Aripiprazole 10mg orodispersible tablets sugar free (Medihealth (Northern) Ltd)
+^ESCT1374733	Aripiprazole 10mg orodispersible tablets sugar free (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1374734	Aripiprazole 15mg orodispersible tablets sugar free (Medihealth (Northern) Ltd)
+^ESCT1374735	Aripiprazole 15mg orodispersible tablets sugar free (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1374736	Aripiprazole 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374737	Aripiprazole 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1374738	Aripiprazole 15mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374739	Aripiprazole 15mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1374740	Aripiprazole 30mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374741	Aripiprazole 30mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1374742	Aripiprazole 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374744	Aripiprazole 5mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1403456	Aripiprazole 1mg/ml oral solution (Brillpharma Ltd)
+^ESCT1403457	Aripiprazole 1mg/ml oral solution (Brillpharma Ltd) 150 ml
+^ESCT1422730	Aripiprazole 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422731	Aripiprazole 10mg tablets (Zentiva Pharma UK Ltd) 28 tablet 4 x 7 tablets
+^ESCT1422732	Aripiprazole 5mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422733	Aripiprazole 5mg tablets (Zentiva Pharma UK Ltd) 28 tablet 4 x 7 tablets
+^ESCT1422734	Aripiprazole 15mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422735	Aripiprazole 15mg tablets (Zentiva Pharma UK Ltd) 28 tablet 4 x 7 tablets
+^ESCT1422736	Aripiprazole 30mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422737	Aripiprazole 30mg tablets (Zentiva Pharma UK Ltd) 28 tablet 4 x 7 tablets
+^ESCT1423055	Aripiprazole 1mg/ml oral solution (Zentiva Pharma UK Ltd)
+^ESCT1423056	Aripiprazole 1mg/ml oral solution (Zentiva Pharma UK Ltd) 150 ml
+^ESCT1424060	Aripiprazole 1mg/ml oral solution (Thame Laboratories Ltd)
+^ESCT1424061	Aripiprazole 1mg/ml oral solution (Thame Laboratories Ltd) 150 ml
+^ESCT1427607	Aripiprazole 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427608	Aripiprazole 5mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1427609	Aripiprazole 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427610	Aripiprazole 10mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1427611	Aripiprazole 15mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427612	Aripiprazole 15mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1427613	Aripiprazole 30mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427663	Aripiprazole 30mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCTAB898973	Abilify 10mg tablets (Otsuka Pharmaceuticals (U.K.) Ltd)
+^ESCTAB898974	Abilify 10mg tablets (Otsuka Pharmaceuticals (U.K.) Ltd) 28 tablet 4 x 7 tablets
+^ESCTAB898976	Abilify 15mg tablets (Otsuka Pharmaceuticals (U.K.) Ltd)
+^ESCTAB898977	Abilify 15mg tablets (Otsuka Pharmaceuticals (U.K.) Ltd) 28 tablet 4 x 7 tablets
+^ESCTAB898980	Abilify 30mg tablets (Otsuka Pharmaceuticals (U.K.) Ltd)
+^ESCTAB898982	Abilify 30mg tablets (Otsuka Pharmaceuticals (U.K.) Ltd) 28 tablet 4 x 7 tablets
+^ESCTAB912079	Abilify 5mg tablets (Otsuka Pharmaceuticals (U.K.) Ltd)
+^ESCTAB912080	Abilify 5mg tablets (Otsuka Pharmaceuticals (U.K.) Ltd) 28 tablet 4 x 7 tablets
+^ESCTAB931390	Abilify 10mg orodispersible tablets (Otsuka Pharmaceuticals (U.K.) Ltd)
+^ESCTAB931391	Abilify 10mg orodispersible tablets (Otsuka Pharmaceuticals (U.K.) Ltd) 28 tablet 4 x 7 tablets
+^ESCTAB931393	Abilify 15mg orodispersible tablets (Otsuka Pharmaceuticals (U.K.) Ltd)
+^ESCTAB931394	Abilify 15mg orodispersible tablets (Otsuka Pharmaceuticals (U.K.) Ltd) 28 tablet 4 x 7 tablets
+^ESCTAB931418	Abilify 1mg/ml oral solution (Otsuka Pharmaceuticals (U.K.) Ltd)
+^ESCTAB931419	Abilify 1mg/ml oral solution (Otsuka Pharmaceuticals (U.K.) Ltd) 150 ml
+^ESCTAB962603	Abilify 9.75mg/1.3ml solution for injection vials (Otsuka Pharmaceuticals (U.K.) Ltd)
+^ESCTAB962604	Abilify 9.75mg/1.3ml solution for injection vials (Otsuka Pharmaceuticals (U.K.) Ltd) 1 vial
+^ESCTAR1103671	Aripiprazole 5mg tablets (Consilient Health Ltd)
+^ESCTAR1103674	Aripiprazole 5mg tablets (Consilient Health Ltd) 28 tablet 4 x 7 tablets
+^ESCTAR1103677	Aripiprazole 10mg tablets (Consilient Health Ltd)
+^ESCTAR1103682	Aripiprazole 10mg tablets (Consilient Health Ltd) 28 tablet 4 x 7 tablets
+^ESCTAR1103687	Aripiprazole 15mg tablets (Consilient Health Ltd)
+^ESCTAR1103691	Aripiprazole 15mg tablets (Consilient Health Ltd) 28 tablet 4 x 7 tablets
+^ESCTAR1103693	Aripiprazole 30mg tablets (Consilient Health Ltd)
+^ESCTAR1103695	Aripiprazole 30mg tablets (Consilient Health Ltd) 28 tablet 4 x 7 tablets
+^ESCTAR1104013	Aripiprazole 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAR1104014	Aripiprazole 5mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 4 x 7 tablets
+^ESCTAR1104015	Aripiprazole 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAR1104016	Aripiprazole 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 4 x 7 tablets
+^ESCTAR1104017	Aripiprazole 15mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAR1104018	Aripiprazole 15mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 4 x 7 tablets
+^ESCTAR1104019	Aripiprazole 30mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAR1104020	Aripiprazole 30mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 4 x 7 tablets
+^ESCTAR1104950	Aripiprazole 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAR1104951	Aripiprazole 5mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1104952	Aripiprazole 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAR1104953	Aripiprazole 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1104954	Aripiprazole 15mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAR1104955	Aripiprazole 15mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1104956	Aripiprazole 30mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAR1104957	Aripiprazole 30mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1106204	Aripiprazole 30mg tablets (Teva UK Ltd)
+^ESCTAR1106227	Aripiprazole 30mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1106245	Aripiprazole 15mg tablets (Teva UK Ltd)
+^ESCTAR1106249	Aripiprazole 15mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1106251	Aripiprazole 10mg tablets (Teva UK Ltd)
+^ESCTAR1106255	Aripiprazole 10mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1106258	Aripiprazole 5mg tablets (Teva UK Ltd)
+^ESCTAR1106266	Aripiprazole 5mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1107889	Aripiprazole 10mg orodispersible tablets sugar free (Actavis UK Ltd)
+^ESCTAR1107890	Aripiprazole 10mg orodispersible tablets sugar free (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1107891	Aripiprazole 15mg orodispersible tablets sugar free (Actavis UK Ltd)
+^ESCTAR1107892	Aripiprazole 15mg orodispersible tablets sugar free (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1107893	Aripiprazole 5mg tablets (Actavis UK Ltd)
+^ESCTAR1107894	Aripiprazole 5mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1107895	Aripiprazole 10mg tablets (Actavis UK Ltd)
+^ESCTAR1107896	Aripiprazole 10mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1107897	Aripiprazole 15mg tablets (Actavis UK Ltd)
+^ESCTAR1107898	Aripiprazole 15mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1107899	Aripiprazole 30mg tablets (Actavis UK Ltd)
+^ESCTAR1107900	Aripiprazole 30mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1108640	Aripiprazole 10mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTAR1108641	Aripiprazole 10mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1108642	Aripiprazole 15mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTAR1108643	Aripiprazole 15mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1109460	Aripiprazole 5mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAR1109462	Aripiprazole 5mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1109467	Aripiprazole 10mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAR1109470	Aripiprazole 10mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1109472	Aripiprazole 15mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAR1109474	Aripiprazole 15mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1109476	Aripiprazole 30mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAR1109479	Aripiprazole 30mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1116698	Aripiprazole 10mg orodispersible tablets sugar free (Colorama Pharmaceuticals Ltd)
+^ESCTAR1116699	Aripiprazole 10mg orodispersible tablets sugar free (Colorama Pharmaceuticals Ltd) 28 tablet
+^ESCTAR1116700	Aripiprazole 15mg orodispersible tablets sugar free (Colorama Pharmaceuticals Ltd)
+^ESCTAR1116701	Aripiprazole 15mg orodispersible tablets sugar free (Colorama Pharmaceuticals Ltd) 28 tablet
+^ESCTAR1116702	Aripiprazole 1mg/ml oral solution (Colorama Pharmaceuticals Ltd)
+^ESCTAR1116703	Aripiprazole 1mg/ml oral solution (Colorama Pharmaceuticals Ltd) 150 ml
+^ESCTAR1116870	Aripiprazole 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAR1116871	Aripiprazole 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAR1116872	Aripiprazole 15mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAR1116873	Aripiprazole 15mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAR1116874	Aripiprazole 30mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAR1116875	Aripiprazole 30mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAR1116876	Aripiprazole 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAR1116877	Aripiprazole 5mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAR1119184	Aripiprazole 5mg tablets (DE Pharmaceuticals)
+^ESCTAR1119185	Aripiprazole 5mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAR1119186	Aripiprazole 10mg tablets (DE Pharmaceuticals)
+^ESCTAR1119187	Aripiprazole 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAR1119188	Aripiprazole 15mg tablets (DE Pharmaceuticals)
+^ESCTAR1119189	Aripiprazole 15mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAR1120134	Aripiprazole 30mg tablets (DE Pharmaceuticals)
+^ESCTAR1120135	Aripiprazole 30mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAR1125232	Aripiprazole 5mg tablets (Aspire Pharma Ltd)
+^ESCTAR1125233	Aripiprazole 5mg tablets (Aspire Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1125234	Aripiprazole 10mg tablets (Aspire Pharma Ltd)
+^ESCTAR1125235	Aripiprazole 10mg tablets (Aspire Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1125237	Aripiprazole 15mg tablets (Aspire Pharma Ltd)
+^ESCTAR1125238	Aripiprazole 15mg tablets (Aspire Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1125239	Aripiprazole 30mg tablets (Aspire Pharma Ltd)
+^ESCTAR1125240	Aripiprazole 30mg tablets (Aspire Pharma Ltd) 28 tablet 4 x 7 tablets
+^ESCTAR1126305	Aripiprazole 5mg tablets (Sandoz Ltd)
+^ESCTAR1126306	Aripiprazole 5mg tablets (Sandoz Ltd) 28 tablet 4 x 7 tablets
+^ESCTAR1126307	Aripiprazole 10mg tablets (Sandoz Ltd)
+^ESCTAR1126308	Aripiprazole 10mg tablets (Sandoz Ltd) 28 tablet 4 x 7 tablets
+^ESCTAR1126309	Aripiprazole 15mg tablets (Sandoz Ltd)
+^ESCTAR1126310	Aripiprazole 15mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1126311	Aripiprazole 30mg tablets (Sandoz Ltd)
+^ESCTAR1126312	Aripiprazole 30mg tablets (Sandoz Ltd) 28 tablet 4 x 7 tablets
+^ESCTAR1127635	Aripiprazole 10mg orodispersible tablets sugar free (Teva UK Ltd)
+^ESCTAR1127636	Aripiprazole 10mg orodispersible tablets sugar free (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1127637	Aripiprazole 15mg orodispersible tablets sugar free (Teva UK Ltd)
+^ESCTAR1127638	Aripiprazole 15mg orodispersible tablets sugar free (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1127641	Aripiprazole 1mg/ml oral solution (DE Pharmaceuticals)
+^ESCTAR1127642	Aripiprazole 1mg/ml oral solution (DE Pharmaceuticals) 150 ml
+^ESCTAR1128944	Aripiprazole 10mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTAR1128945	Aripiprazole 10mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1128946	Aripiprazole 15mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTAR1128947	Aripiprazole 15mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1129023	Aripiprazole 10mg tablets (Zentiva)
+^ESCTAR1129026	Aripiprazole 10mg tablets (Zentiva) 28 tablet 4 x 7 tablets
+^ESCTAR1129027	Aripiprazole 5mg tablets (Zentiva)
+^ESCTAR1129028	Aripiprazole 5mg tablets (Zentiva) 28 tablet 4 x 7 tablets
+^ESCTAR1129029	Aripiprazole 15mg tablets (Zentiva)
+^ESCTAR1129030	Aripiprazole 15mg tablets (Zentiva) 28 tablet 4 x 7 tablets
+^ESCTAR1129031	Aripiprazole 30mg tablets (Zentiva)
+^ESCTAR1129032	Aripiprazole 30mg tablets (Zentiva) 28 tablet 4 x 7 tablets
+^ESCTAR1137777	Aripiprazole 10mg orodispersible tablets sugar free (Ennogen Healthcare Ltd)
+^ESCTAR1137778	Aripiprazole 10mg orodispersible tablets sugar free (Ennogen Healthcare Ltd) 28 tablet
+^ESCTAR1137779	Aripiprazole 1mg/ml oral solution (Ennogen Healthcare Ltd)
+^ESCTAR1137780	Aripiprazole 1mg/ml oral solution (Ennogen Healthcare Ltd) 150 ml
+^ESCTAR1139905	Aripiprazole 7.5mg/ml oral solution 1 ml
+^ESCTAR1139906	Aripiprazole 7.5mg/ml oral solution (Special Order)
+^ESCTAR1139909	Aripiprazole 7.5mg/ml oral solution (Special Order) 1 ml
+^ESCTAR1141711	Aripiprazole 7.5mg/ml oral solution
+^ESCTAR1141731	Aripiprazole 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAR1141732	Aripiprazole 5mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTAR1141733	Aripiprazole 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAR1141734	Aripiprazole 10mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTAR1141735	Aripiprazole 15mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAR1141736	Aripiprazole 15mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTAR1141737	Aripiprazole 30mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAR1141791	Aripiprazole 30mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTAR1141906	Aripiprazole 5mg tablets (Macleods Pharma UK Ltd)
+^ESCTAR1141907	Aripiprazole 5mg tablets (Macleods Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1141908	Aripiprazole 10mg tablets (Macleods Pharma UK Ltd)
+^ESCTAR1141909	Aripiprazole 10mg tablets (Macleods Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1141910	Aripiprazole 15mg tablets (Macleods Pharma UK Ltd)
+^ESCTAR1141911	Aripiprazole 15mg tablets (Macleods Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1141912	Aripiprazole 30mg tablets (Macleods Pharma UK Ltd)
+^ESCTAR1141913	Aripiprazole 30mg tablets (Macleods Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1145625	Aripiprazole 10mg tablets (Creo Pharma Ltd)
+^ESCTAR1145626	Aripiprazole 10mg tablets (Creo Pharma Ltd) 28 tablet 4 x 7 tablets
+^ESCTAR1145627	Aripiprazole 15mg tablets (Creo Pharma Ltd)
+^ESCTAR1145628	Aripiprazole 15mg tablets (Creo Pharma Ltd) 28 tablet 4 x 7 tablets
+^ESCTAR1145629	Aripiprazole 30mg tablets (Creo Pharma Ltd)
+^ESCTAR1145630	Aripiprazole 30mg tablets (Creo Pharma Ltd) 28 tablet 4 x 7 tablets
+^ESCTAR1146042	Aripiprazole 1mg/ml oral solution (Wockhardt UK Ltd)
+^ESCTAR1146044	Aripiprazole 1mg/ml oral solution (Wockhardt UK Ltd) 150 ml
+^ESCTAR1151344	Aripiprazole 1mg/ml oral solution (Actavis UK Ltd)
+^ESCTAR1151345	Aripiprazole 1mg/ml oral solution (Actavis UK Ltd) 150 ml
+^ESCTAR1151350	Aripiprazole 1mg/ml oral solution (A A H Pharmaceuticals Ltd)
+^ESCTAR1151351	Aripiprazole 1mg/ml oral solution (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTAR1151393	Aripiprazole 1mg/ml oral solution (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTAR1151394	Aripiprazole 1mg/ml oral solution (Dr Reddy's Laboratories (UK) Ltd) 150 ml
+^ESCTAR1152251	Aripiprazole 5mg tablets (Creo Pharma Ltd)
+^ESCTAR1152252	Aripiprazole 5mg tablets (Creo Pharma Ltd) 28 tablet 4 x 7 tablets
+^ESCTAR1152668	Aripiprazole 1mg/ml oral solution (Alliance Healthcare (Distribution) Ltd)
+^ESCTAR1152669	Aripiprazole 1mg/ml oral solution (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTAR1153232	Aripiprazole 1mg/ml oral solution (Mylan Ltd)
+^ESCTAR1153233	Aripiprazole 1mg/ml oral solution (Mylan Ltd) 150 ml
+^ESCTAR1160850	Aripiprazole 5mg tablets (Niche Generics Ltd)
+^ESCTAR1160851	Aripiprazole 5mg tablets (Niche Generics Ltd) 28 tablet
+^ESCTAR1160852	Aripiprazole 10mg tablets (Niche Generics Ltd)
+^ESCTAR1160853	Aripiprazole 10mg tablets (Niche Generics Ltd) 28 tablet
+^ESCTAR1160854	Aripiprazole 15mg tablets (Niche Generics Ltd)
+^ESCTAR1160855	Aripiprazole 15mg tablets (Niche Generics Ltd) 28 tablet
+^ESCTAR1160856	Aripiprazole 30mg tablets (Niche Generics Ltd)
+^ESCTAR1160857	Aripiprazole 30mg tablets (Niche Generics Ltd) 28 tablet
+^ESCTAR1161265	Aripiprazole 5mg tablets (HBS Healthcare Ltd)
+^ESCTAR1161266	Aripiprazole 5mg tablets (HBS Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1161271	Aripiprazole 10mg tablets (HBS Healthcare Ltd)
+^ESCTAR1161272	Aripiprazole 10mg tablets (HBS Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1161273	Aripiprazole 15mg tablets (HBS Healthcare Ltd)
+^ESCTAR1161274	Aripiprazole 15mg tablets (HBS Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR1161275	Aripiprazole 30mg tablets (HBS Healthcare Ltd)
+^ESCTAR1161276	Aripiprazole 30mg tablets (HBS Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTAR673338	Aripiprazole 5mg tablets
+^ESCTAR673340	Aripiprazole 5 mg oral tablet
+^ESCTAR673341	Aripiprazole 10mg tablets
+^ESCTAR673343	Aripiprazole 10 mg oral tablet
+^ESCTAR673344	Aripiprazole 15mg tablets
+^ESCTAR673346	Aripiprazole 15 mg oral tablet
+^ESCTAR673349	Aripiprazole 30mg tablets
+^ESCTAR673351	Aripiprazole 30 mg oral tablet
+^ESCTAR690591	Aripiprazole 1mg/ml oral solution
+^ESCTAR690592	Aripiprazole 1mg/mL oral solution
+^ESCTAR898972	Aripiprazole 10mg tablets 28 tablet
+^ESCTAR898975	Aripiprazole 15mg tablets 28 tablet
+^ESCTAR898979	Aripiprazole 30mg tablets 28 tablet
+^ESCTAR912078	Aripiprazole 5mg tablets 28 tablet
+^ESCTAR931389	Aripiprazole 10mg orodispersible tablets sugar free 28 tablet
+^ESCTAR931392	Aripiprazole 15mg orodispersible tablets sugar free 28 tablet
+^ESCTAR931417	Aripiprazole 1mg/ml oral solution 150 ml
+^ESCTAR931506	Aripiprazole 10mg orodispersible tablets sugar free
+^ESCTAR931508	Aripiprazole 15mg orodispersible tablets sugar free
+^ESCTAR962602	Aripiprazole 9.75mg/1.3ml solution for injection vials 1 vial
+^ESCTAR962655	Aripiprazole 9.75mg/1.3ml solution for injection vials
+^ESCTPR673339	Product containing aripiprazole 5 mg/1 each oral tablet
+^ESCTPR673342	Product containing aripiprazole 10 mg/1 each oral tablet
+^ESCTPR673345	Product containing aripiprazole 15 mg/1 each oral tablet
+^ESCTPR673350	Product containing aripiprazole 30 mg/1 each oral tablet
+ABOR22952NEMIS	Abilify  Orodispersible tablets  10 mg
+ABOR22953NEMIS	Abilify  Orodispersible tablets  15 mg
+ABOR22954NEMIS	Abilify  Oral solution  1 mg/ml
+ABSO29381NEMIS	Abilify  Solution for injection  7.5 mg/ml, 1.3 ml (9.75 mg) vial
+ABTA18231NEMIS	Abilify  Tablets  10 mg
+ABTA18232NEMIS	Abilify  Tablets  15 mg
+ABTA18233NEMIS	Abilify  Tablets  30 mg
+ABTA19380NEMIS	Abilify  Tablets  5 mg
+AROR134855NEMIS	Aripiprazole  Oral Solution, Sugar Free  1 mg/ml
+AROR22949NEMIS	Aripiprazole  Orodispersible Tablets (Sugar Free)  10 mg
+AROR22950NEMIS	Aripiprazole  Orodispersible Tablets (Sugar Free)  15 mg
+AROR22951NEMIS	Aripiprazole  Oral solution  1 mg/ml
+ARSO29380NEMIS	Aripiprazole  Solution for injection  7.5 mg/ml, 1.3 ml (9.75 mg) vial
+ARTA131644NEMIS	Arpoya  Tablets  5 mg
+ARTA131645NEMIS	Arpoya  Tablets  10 mg
+ARTA131647NEMIS	Arpoya  Tablets  15 mg
+ARTA131648NEMIS	Arpoya  Tablets  30 mg
+ARTA18226NEMIS	Aripiprazole  Tablets  10 mg
+ARTA18228NEMIS	Aripiprazole  Tablets  15 mg
+ARTA18229NEMIS	Aripiprazole  Tablets  30 mg
+ARTA19379NEMIS	Aripiprazole  Tablets  5 mg

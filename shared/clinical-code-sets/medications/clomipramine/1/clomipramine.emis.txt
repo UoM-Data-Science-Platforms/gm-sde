@@ -1,0 +1,238 @@
+^ESCT1179261	Clomipramine 10mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1179820	Clomipramine 50mg capsules (Mylan)
+^ESCT1179837	Clomipramine 10mg capsules (Mylan)
+^ESCT1181095	Product containing only clomipramine hydrochloride 10 mg/1 each oral capsule
+^ESCT1181385	Product containing only clomipramine hydrochloride 50 mg/1 each oral capsule
+^ESCT1183463	Clomipramine 10mg capsules (Mylan) 100 capsule
+^ESCT1183464	Clomipramine 25mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1183465	Clomipramine 25mg capsules (Mylan) 100 capsule
+^ESCT1185662	Clomipramine 50mg capsules (Mylan) 28 capsule 2 x 14 capsules
+^ESCT1185663	Clomipramine 50mg capsules (Mylan) 100 capsule
+^ESCT1185931	Clomipramine 25mg capsules (Mylan)
+^ESCT1187290	Product containing only clomipramine hydrochloride 25 mg/1 each oral capsule
+^ESCT1215121	Clomipramine 75mg modified-release tablets 1 tablet
+^ESCT1215122	Clomipramine 75mg modified-release tablets (Special Order)
+^ESCT1215123	Clomipramine 75mg modified-release tablets (Special Order) 1 tablet
+^ESCT1215861	Clomipramine 25mg/2ml solution for injection ampoules
+^ESCT1215862	Clomipramine 75mg modified-release tablets
+^ESCT1223512	Clomipramine hydrochloride 10 mg oral capsule
+^ESCT1223513	Product containing precisely clomipramine hydrochloride 10 milligram/1 each conventional release oral capsule
+^ESCT1223514	Clomipramine hydrochloride 25 mg oral capsule
+^ESCT1223515	Product containing precisely clomipramine hydrochloride 25 milligram/1 each conventional release oral capsule
+^ESCT1223516	Clomipramine hydrochloride 50 mg oral capsule
+^ESCT1223517	Product containing precisely clomipramine hydrochloride 50 milligram/1 each conventional release oral capsule
+^ESCT1263041	Clomipramine 250mg/5ml oral suspension 1 ml
+^ESCT1263042	Clomipramine 250mg/5ml oral suspension (Special Order)
+^ESCT1263060	Clomipramine 250mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1263216	Clomipramine 250mg/5ml oral suspension
+^ESCT1375225	Clomipramine 10mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375226	Clomipramine 10mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1375227	Clomipramine 25mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375228	Clomipramine 25mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1375231	Clomipramine 50mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375232	Clomipramine 50mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1425638	Clomipramine 25mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1425767	Clomipramine 10mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1425912	Clomipramine 50mg capsules (Kent Pharma (UK) Ltd)
+^ESCT1426177	Clomipramine 10mg capsules (Kent Pharma (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1426181	Clomipramine 25mg capsules (Kent Pharma (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1426184	Clomipramine 50mg capsules (Kent Pharma (UK) Ltd) 28 capsule 2 x 14 capsules
+^ESCT1426185	Clomipramine 50mg capsules (Kent Pharma (UK) Ltd) 100 capsule
+^ESCT1426228	Clomipramine 25mg capsules (Kent Pharma (UK) Ltd) 100 capsule
+^ESCTAN798283	Anafranil 50mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTAN803738	Anafranil SR 75mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTAN820721	Anafranil 25mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTAN821317	Anafranil 10mg capsules (Novartis Pharmaceuticals UK Ltd)
+^ESCTAN851069	Anafranil 10mg capsules (Novartis Pharmaceuticals UK Ltd) 84 capsule 6 x 14 capsules
+^ESCTAN851092	Anafranil 25mg capsules (Novartis Pharmaceuticals UK Ltd) 84 capsule 6 x 14 capsules
+^ESCTAN851121	Anafranil 50mg capsules (Novartis Pharmaceuticals UK Ltd) 56 capsule 4 x 14 capsules
+^ESCTAN855092	Anafranil SR 75mg tablets (Novartis Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAN870709	Anafranil 25mg/5ml syrup (Novartis Pharmaceuticals UK Ltd)
+^ESCTAN870710	Anafranil 25mg/5ml syrup (Novartis Pharmaceuticals UK Ltd) 150 ml
+^ESCTAN870862	Anafranil 25mg/2ml solution for injection ampoules (Novartis Pharmaceuticals UK Ltd)
+^ESCTAN870863	Anafranil 25mg/2ml solution for injection ampoules (Novartis Pharmaceuticals UK Ltd) 10 ampoule
+^ESCTCL1005353	Clomipramine 10mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTCL1005354	Clomipramine 10mg capsules (Phoenix Healthcare Distribution Ltd) 28 capsule
+^ESCTCL1005355	Clomipramine 25mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTCL1005356	Clomipramine 25mg capsules (Phoenix Healthcare Distribution Ltd) 28 capsule
+^ESCTCL1005357	Clomipramine 50mg capsules (Phoenix Healthcare Distribution Ltd)
+^ESCTCL1005359	Clomipramine 50mg capsules (Phoenix Healthcare Distribution Ltd) 28 capsule
+^ESCTCL1006356	Clomipramine 10mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTCL1006357	Clomipramine 10mg capsules (Almus Pharmaceuticals Ltd) 28 capsule
+^ESCTCL1006358	Clomipramine 25mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTCL1006359	Clomipramine 25mg capsules (Almus Pharmaceuticals Ltd) 28 capsule
+^ESCTCL1006360	Clomipramine 50mg capsules (Almus Pharmaceuticals Ltd)
+^ESCTCL1006361	Clomipramine 50mg capsules (Almus Pharmaceuticals Ltd) 28 capsule
+^ESCTCL1042181	Clomipramine 10mg capsules (Waymade Healthcare Plc)
+^ESCTCL1042182	Clomipramine 10mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTCL1042183	Clomipramine 25mg capsules (Waymade Healthcare Plc)
+^ESCTCL1042184	Clomipramine 25mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTCL1042186	Clomipramine 50mg capsules (Waymade Healthcare Plc)
+^ESCTCL1042187	Clomipramine 50mg capsules (Waymade Healthcare Plc) 28 capsule
+^ESCTCL1060462	Clomipramine 10mg capsules (DE Pharmaceuticals)
+^ESCTCL1060464	Clomipramine 10mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTCL1060475	Clomipramine 25mg capsules (DE Pharmaceuticals)
+^ESCTCL1060486	Clomipramine 25mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTCL1060491	Clomipramine 50mg capsules (DE Pharmaceuticals)
+^ESCTCL1060493	Clomipramine 50mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCTCL1117042	Clomipramine 10mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTCL1117043	Clomipramine 10mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTCL1117044	Clomipramine 25mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTCL1117045	Clomipramine 25mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTCL1117046	Clomipramine 50mg capsules (Sigma Pharmaceuticals Plc)
+^ESCTCL1117047	Clomipramine 50mg capsules (Sigma Pharmaceuticals Plc) 28 capsule
+^ESCTCL1119085	Clomipramine 10mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTCL1119086	Clomipramine 10mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTCL1119087	Clomipramine 25mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTCL1119088	Clomipramine 25mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTCL1119089	Clomipramine 50mg capsules (Mawdsley-Brooks & Company Ltd)
+^ESCTCL1119090	Clomipramine 50mg capsules (Mawdsley-Brooks & Company Ltd) 28 capsule
+^ESCTCL1126842	Clomipramine 50mg/5ml oral suspension 100 ml
+^ESCTCL1126843	Clomipramine 50mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTCL609603	Clomipramine 10mg capsules
+^ESCTCL609605	Clomipramine hydrochloride 10 mg/1 each oral capsule
+^ESCTCL609606	Clomipramine 25mg capsules
+^ESCTCL609608	Clomipramine hydrochloride 25 mg/1 each oral capsule
+^ESCTCL609609	Clomipramine 50mg capsules
+^ESCTCL609610	Clomipramine hydrochloride 50 mg/1 each oral capsule
+^ESCTCL800225	Clomipramine 10mg capsules (Teva UK Ltd)
+^ESCTCL802159	Clomipramine 25mg capsules (Mylan Ltd)
+^ESCTCL804683	Clomipramine 25mg capsules (Teva UK Ltd)
+^ESCTCL805150	Clomipramine 50mg capsules (Mylan Ltd)
+^ESCTCL806804	Clomipramine 50mg capsules (Actavis UK Ltd)
+^ESCTCL807364	Clomipramine 25mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTCL807801	Clomipramine 10mg capsules (Actavis UK Ltd)
+^ESCTCL808840	Clomipramine 10mg capsules (Mylan Ltd)
+^ESCTCL809499	Clomipramine 25mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTCL810054	Clomipramine 10mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTCL811669	Clomipramine 25mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTCL813878	Clomipramine 50mg capsules (IVAX Pharmaceuticals UK Ltd)
+^ESCTCL819854	Clomipramine 25mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTCL819898	Clomipramine 10mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTCL820556	Clomipramine 50mg capsules (Teva UK Ltd)
+^ESCTCL820622	Clomipramine 50mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTCL820690	Clomipramine 10mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTCL822855	Clomipramine 10mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTCL823973	Clomipramine 50mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTCL831245	Clomipramine 25mg capsules (Actavis UK Ltd)
+^ESCTCL833024	Clomipramine 50mg capsules (Kent Pharmaceuticals Ltd)
+^ESCTCL834844	Clomipramine 50mg capsules 100 capsule
+^ESCTCL835309	Clomipramine 10mg capsules 28 capsule
+^ESCTCL836397	Clomipramine 10mg capsules 84 capsule
+^ESCTCL840203	Clomipramine 10mg capsules 100 capsule
+^ESCTCL841120	Clomipramine 25mg capsules 28 capsule
+^ESCTCL847456	Clomipramine 75mg modified-release tablets 28 tablet
+^ESCTCL847852	Clomipramine 25mg capsules 84 capsule
+^ESCTCL848461	Clomipramine 25mg capsules 100 capsule
+^ESCTCL848663	Clomipramine 50mg capsules 28 capsule
+^ESCTCL848676	Clomipramine 50mg capsules 56 capsule
+^ESCTCL851055	Clomipramine 10mg capsules (A A H Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851056	Clomipramine 10mg capsules (A A H Pharmaceuticals Ltd) 100 capsule
+^ESCTCL851058	Clomipramine 10mg capsules (Actavis UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851060	Clomipramine 10mg capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851061	Clomipramine 10mg capsules (Mylan Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851062	Clomipramine 10mg capsules (Mylan Ltd) 100 capsule
+^ESCTCL851064	Clomipramine 10mg capsules (IVAX Pharmaceuticals UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851066	Clomipramine 10mg capsules (Kent Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851070	Clomipramine 10mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851080	Clomipramine 25mg capsules (A A H Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851081	Clomipramine 25mg capsules (A A H Pharmaceuticals Ltd) 100 capsule
+^ESCTCL851082	Clomipramine 25mg capsules (Actavis UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851083	Clomipramine 25mg capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851085	Clomipramine 25mg capsules (Mylan Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851086	Clomipramine 25mg capsules (Mylan Ltd) 100 capsule
+^ESCTCL851088	Clomipramine 25mg capsules (IVAX Pharmaceuticals UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851089	Clomipramine 25mg capsules (Kent Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851096	Clomipramine 25mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851098	Clomipramine 25mg capsules (Alliance Healthcare (Distribution) Ltd) 100 capsule
+^ESCTCL851103	Clomipramine 50mg capsules (A A H Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851104	Clomipramine 50mg capsules (A A H Pharmaceuticals Ltd) 100 capsule
+^ESCTCL851105	Clomipramine 50mg capsules (Actavis UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851107	Clomipramine 50mg capsules (Teva UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851110	Clomipramine 50mg capsules (Mylan Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851111	Clomipramine 50mg capsules (Mylan Ltd) 100 capsule
+^ESCTCL851116	Clomipramine 50mg capsules (IVAX Pharmaceuticals UK Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851117	Clomipramine 50mg capsules (Kent Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851119	Clomipramine 50mg capsules (Kent Pharmaceuticals Ltd) 100 capsule
+^ESCTCL851123	Clomipramine 50mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule 2 x 14 capsules
+^ESCTCL851494	Clomipramine 25mg capsules (Kent Pharmaceuticals Ltd) 100 capsule
+^ESCTCL863581	Clomipramine 50mg capsules (Alliance Healthcare (Distribution) Ltd) 100 capsule
+^ESCTCL870708	Clomipramine 25mg/5ml oral solution 150 ml
+^ESCTCL870861	Clomipramine 25mg/2ml solution for injection ampoules 10 ampoule
+^ESCTCL870918	Clomipramine 25mg/5ml oral solution
+^ESCTCL880026	Clomipramine 75mg modified-release tablets 20 tablet
+^ESCTCL880028	Clomipramine 75mg modified-release tablets 30 tablet
+^ESCTCL905592	Clomipramine 37.5mg/5ml oral solution 1 ml
+^ESCTCL905618	Clomipramine 37.5mg/5ml oral solution
+^ESCTCL905625	Clomipramine 37.5mg/5ml oral solution (Special Order)
+^ESCTCL905626	Clomipramine 5mg/5ml oral solution 1 ml
+^ESCTCL905627	Clomipramine 5mg/5ml oral solution (Special Order)
+^ESCTCL905628	Clomipramine 37.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTCL905629	Clomipramine 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTCL905630	Clomipramine 37.5mg/5ml oral suspension 1 ml
+^ESCTCL905631	Clomipramine 37.5mg/5ml oral suspension (Special Order)
+^ESCTCL905632	Clomipramine 37.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCL905633	Clomipramine 5mg/5ml oral suspension 1 ml
+^ESCTCL905635	Clomipramine 5mg/5ml oral suspension (Special Order)
+^ESCTCL905636	Clomipramine 37.5mg/5ml oral suspension
+^ESCTCL905637	Clomipramine 5mg/5ml oral solution
+^ESCTCL905638	Clomipramine 5mg/5ml oral suspension
+^ESCTCL905639	Clomipramine 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCL905640	Clomipramine 50mg/5ml oral solution 1 ml
+^ESCTCL905641	Clomipramine 50mg/5ml oral solution (Special Order)
+^ESCTCL905642	Clomipramine 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTCL905643	Clomipramine 50mg/5ml oral suspension 1 ml
+^ESCTCL905645	Clomipramine 25mg/5ml oral suspension 1 ml
+^ESCTCL905647	Clomipramine 50mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTCL905648	Clomipramine 25mg/5ml oral suspension (Special Order)
+^ESCTCL905649	Clomipramine 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCL905650	Clomipramine 50mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTCL905653	Clomipramine 25mg/5ml oral solution 1 ml
+^ESCTCL905656	Clomipramine 25mg/5ml oral solution (Special Order)
+^ESCTCL905658	Clomipramine 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTCL905683	Clomipramine 25mg/5ml oral suspension
+^ESCTCL905686	Clomipramine 50mg/5ml oral solution
+^ESCTCL905687	Clomipramine 50mg/5ml oral suspension
+^ESCTCL944716	Clomipramine 10mg/5ml oral suspension 1 ml
+^ESCTCL944717	Clomipramine 10mg/5ml oral suspension (Special Order)
+^ESCTCL944718	Clomipramine 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCL944719	Clomipramine 10mg/5ml oral solution 1 ml
+^ESCTCL944720	Clomipramine 10mg/5ml oral solution (Special Order)
+^ESCTCL944721	Clomipramine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTCL945496	Clomipramine 10mg/5ml oral solution
+^ESCTCL945498	Clomipramine 10mg/5ml oral suspension
+^ESCTPR609604	Product containing clomipramine hydrochloride 10 mg/1 each oral capsule
+^ESCTPR609607	Product containing clomipramine hydrochloride 25 mg/1 each oral capsule
+^ESCTPR609611	Product containing clomipramine hydrochloride 50 mg/1 each oral capsule
+ANCA166	Anafranil  Capsules  10 mg
+ANCA167	Anafranil  Capsules  25 mg
+ANCA168	Anafranil  Capsules  50 mg
+ANSY169	Anafranil  Syrup  25 mg/5 ml
+ANTA3167	Anafranil Sr  M/R tablets  75 mg
+CLCA34378MGEMIS	Clomipramine Hydrochloride  Capsules  10 mg (Teva UK)
+CLCA34379MGEMIS	Clomipramine Hydrochloride  Capsules  10 mg (Alpharma)
+CLCA34380MGEMIS	Clomipramine Hydrochloride  Capsules  10 mg (Generics (UK))
+CLCA34381MGEMIS	Clomipramine Hydrochloride  Capsules  10 mg (Ivax Pharmaceuticals)
+CLCA34382MGEMIS	Clomipramine Hydrochloride  Capsules  10 mg (Unichem)
+CLCA34383MGEMIS	Clomipramine Hydrochloride  Capsules  10 mg (Kent Pharm)
+CLCA34384MGEMIS	Clomipramine Hydrochloride  Capsules  10 mg (A.A.H. Pharm)
+CLCA34385MGEMIS	Clomipramine Hydrochloride  Capsules  25 mg (Generics (UK))
+CLCA34386MGEMIS	Clomipramine Hydrochloride  Capsules  25 mg (Teva UK)
+CLCA34387MGEMIS	Clomipramine Hydrochloride  Capsules  25 mg (A.A.H. Pharm)
+CLCA34388MGEMIS	Clomipramine Hydrochloride  Capsules  25 mg (Ivax Pharmaceuticals)
+CLCA34389MGEMIS	Clomipramine Hydrochloride  Capsules  25 mg (Kent Pharm)
+CLCA34390MGEMIS	Clomipramine Hydrochloride  Capsules  25 mg (Unichem)
+CLCA34391MGEMIS	Clomipramine Hydrochloride  Capsules  25 mg (Alpharma)
+CLCA34392MGEMIS	Clomipramine Hydrochloride  Capsules  50 mg (Generics (UK))
+CLCA34393MGEMIS	Clomipramine Hydrochloride  Capsules  50 mg (Alpharma)
+CLCA34394MGEMIS	Clomipramine Hydrochloride  Capsules  50 mg (Ivax Pharmaceuticals)
+CLCA34395MGEMIS	Clomipramine Hydrochloride  Capsules  50 mg (Teva UK)
+CLCA34396MGEMIS	Clomipramine Hydrochloride  Capsules  50 mg (A.A.H. Pharm)
+CLCA34397MGEMIS	Clomipramine Hydrochloride  Capsules  50 mg (Unichem)
+CLCA34398MGEMIS	Clomipramine Hydrochloride  Capsules  50 mg (Kent Pharm)
+CLCA650	Clomipramine Hydrochloride  Capsules  10 mg
+CLCA651	Clomipramine Hydrochloride  Capsules  25 mg
+CLCA652	Clomipramine Hydrochloride  Capsules  50 mg
+CLOR29049NEMIS	Clomipramine Hydrochloride  Oral suspension  50 mg/5 ml
+CLSY653	Clomipramine Hydrochloride  Syrup  25 mg/5 ml
+CLTA4749	Clomipramine Hydrochloride  M/R tablets  75 mg

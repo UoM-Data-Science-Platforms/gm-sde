@@ -1,0 +1,28 @@
+^ESCT1302863	Trulicity 0.75mg/0.5ml solution for injection pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1302864	Trulicity 0.75mg/0.5ml solution for injection pre-filled pens (Eli Lilly and Company Ltd) 4 pre-filled disposable injection
+^ESCT1302865	Trulicity 1.5mg/0.5ml solution for injection pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1302866	Trulicity 1.5mg/0.5ml solution for injection pre-filled pens (Eli Lilly and Company Ltd) 4 pre-filled disposable injection
+^ESCT1403916	Dulaglutide 3mg/0.5ml solution for injection pre-filled disposable devices 4 pre-filled disposable injection
+^ESCT1403917	Dulaglutide 4.5mg/0.5ml solution for injection pre-filled disposable devices 4 pre-filled disposable injection
+^ESCT1403921	Trulicity 3mg/0.5ml solution for injection pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1403923	Trulicity 4.5mg/0.5ml solution for injection pre-filled pens (Eli Lilly and Company Ltd)
+^ESCT1403924	Trulicity 3mg/0.5ml solution for injection pre-filled pens (Eli Lilly and Company Ltd) 4 pre-filled disposable injection
+^ESCT1403927	Trulicity 4.5mg/0.5ml solution for injection pre-filled pens (Eli Lilly and Company Ltd) 4 pre-filled disposable injection
+^ESCT1403930	Dulaglutide 3mg/0.5ml solution for injection pre-filled disposable devices
+^ESCT1403931	Dulaglutide 4.5mg/0.5ml solution for injection pre-filled disposable devices
+^ESCTDU1104685	Dulaglutide 0.75mg/0.5ml solution for injection pre-filled disposable devices 4 pre-filled disposable injection
+^ESCTDU1104696	Dulaglutide 1.5mg/0.5ml solution for injection pre-filled disposable devices 4 pre-filled disposable injection
+^ESCTDU1107846	Dulaglutide 0.75mg/0.5ml solution for injection pre-filled disposable devices
+^ESCTDU1107847	Dulaglutide 1.5mg/0.5ml solution for injection pre-filled disposable devices
+^ESCTTR1104686	Trulicity 0.75mg/0.5ml solution for injection pre-filled pen (Eli Lilly and Company Ltd)
+^ESCTTR1104687	Trulicity 0.75mg/0.5ml solution for injection pre-filled pen (Eli Lilly and Company Ltd) 4 pre-filled disposable injection
+^ESCTTR1104698	Trulicity 1.5mg/0.5ml solution for injection pre-filled pen (Eli Lilly and Company Ltd)
+^ESCTTR1104700	Trulicity 1.5mg/0.5ml solution for injection pre-filled pen (Eli Lilly and Company Ltd) 4 pre-filled disposable injection
+DUSO100540NEMIS	Dulaglutide  Solution for injection  0.75 mg/0.5 ml pre-filled device
+DUSO100542NEMIS	Dulaglutide  Solution for injection  1.5 mg/0.5 ml pre-filled device
+DUSO138406NEMIS	Dulaglutide  Solution for injection  3 mg/0.5 ml pre-filled device
+DUSO138407NEMIS	Dulaglutide  Solution for injection  4.5 mg/0.5 ml pre-filled device
+TRSO100544NEMIS	Trulicity  Solution for injection  0.75 mg/0.5 ml pre-filled pen
+TRSO100545NEMIS	Trulicity  Solution for injection  1.5 mg/0.5 ml pre-filled pen
+TRSO138408NEMIS	Trulicity  Solution for injection  3 mg/0.5 ml pre-filled pen
+TRSO138409NEMIS	Trulicity  Solution for injection  4.5 mg/0.5 ml pre-filled pen

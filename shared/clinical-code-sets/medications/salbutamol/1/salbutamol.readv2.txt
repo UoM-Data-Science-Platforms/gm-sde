@@ -1,0 +1,59 @@
+c11b.	VENTOLIN 2mg/5mL syrup
+c11c.	*VOLMAX 4mg m/r tablets
+c11d.	*VOLMAX 8mg m/r tablets
+c11D.	SALAPIN 2mg/5mL sugar free syrup
+c11j.	*SALBUTAMOL 4mg m/r tablets
+c11n.	*SALBUTAMOL 4mg m/r capsules
+c11o.	*SALBUTAMOL 8mg m/r capsules
+c11p.	*VENTMAX SR 4mg m/r capsules
+c11q.	*VENTMAX SR 8mg m/r capsules
+c11v.	SALBUTAMOL 4mg tablets
+c11x.	SALBUTAMOL 2mg tablets
+c11y.	*SALBUTAMOL 8mg m/r tablets
+c11z.	SALBUTAMOL 2mg/5mL sugar free syrup
+c122.	VENTOLIN 500microgram/1mL injection
+c123.	VENTOLIN 5mg/5mL intravenous infusion
+c12y.	SALBUTAMOL 500microgram/1mL injection
+c12z.	SALBUTAMOL 5mg/5mL intravenous infusion
+c133.	SALBULIN 100micrograms inhaler
+c135.	VENTOLIN 2.5mg/2.5mL Nebules
+c136.	VENTOLIN 200micrograms rotacaps
+c137.	VENTOLIN 400micrograms rotacaps
+c139.	VENTOLIN 100mg/20mL respirator solution
+c13A.	STERI-NEB SALAMOL 2.5mg nebulisation units
+c13B.	STERI-NEB SALAMOL 5mg nebulisation units
+c13C.	SALBUTAMOL 200micrograms disks+disk inhaler
+c13d.	VENTODISKS 200micrograms diskhaler 14x8
+c13D.	SALBUTAMOL 400micrograms disks+disk inhaler
+c13e.	VENTODISKS 400micrograms diskhaler 14x8
+c13E.	SALBUTAMOL 200micrograms disk refill
+c13f.	VENTODISKS 200micrograms disk refill 14x8
+c13F.	SALBUTAMOL 400micrograms disk refill
+c13g.	VENTODISKS 400micrograms disk refill 14x8
+c13G.	SALBUTAMOL 100micrograms breath-act aerosol inhaler
+c13I.	AIROMIR 100micrograms CFC-free inhaler
+c13J.	SALBUTAMOL 100micrograms CFC-free inhaler
+c13l.	AEROLIN 100micrograms Autohaler 200d
+c13L.	SALBUTAMOL 200micrograms breath-actuated dry powder inhaler
+c13m.	VENTOLIN 5mg/2.5mL Nebules
+c13M.	VENTOLIN 200micrograms Accuhaler
+c13o.	SALBUTAMOL 5mg/2.5mL nebulisation units
+c13q.	*SALBUTAMOL 200 cyclocaps
+c13Q.	ASMASAL 95micrograms Clickhaler
+c13r.	*SALBUTAMOL 400 cyclocaps
+c13S.	SALBUTAMOL 95micrograms breath-actuated dry powder inhaler
+c13T.	VENTOLIN 100micrograms Evohaler
+c13U.	SALBUTAMOL 100micrograms CFC-free breath-actuated aerosol inhaler
+c13v.	SALBUTAMOL 100microgram inhaler
+c13V.	AIROMIR 100micrograms CFC-free Autohaler
+c13w.	SALBUTAMOL 2.5mg/2.5mL nebulisation units
+c13W.	MAXIVENT 2.5mg/2.5mL Steripoules
+c13x.	SALBUTAMOL 200micrograms inhalation capsules
+c13X.	MAXIVENT 5mg/2.5mL Steripoules
+c13y.	SALBUTAMOL 400micrograms inhalation capsules
+c13z.	SALBUTAMOL 100mg/20mL respirator solution
+c13Z.	SALAMOL 100micrograms CFC-free inhaler
+c1E1.	SALAMOL EASI-BREATHE 100micrograms CFC-free breath-actuated aerosol inhaler
+c1E2.	PULVINAL SALBUTAMOL 200micrograms breath-actuated dry powder inhaler
+c1E7.	EASYHALER SALBUTAMOL 100micrograms breath-actuated dry powder inhaler
+c1E8.	EASYHALER SALBUTAMOL 200micrograms breath-actuated dry powder inhaler

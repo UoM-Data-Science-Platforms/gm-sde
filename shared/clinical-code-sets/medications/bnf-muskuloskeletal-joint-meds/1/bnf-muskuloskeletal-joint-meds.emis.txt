@@ -1,0 +1,1302 @@
+MEIN90736NEMIS	Metoject Pen  Injection  12.5 mg/0.25 ml (50 mg/ml), pre-filled pen
+INCA38152MGEMIS	Indometacin  Capsules  25 mg (The Boots Company)
+PICA2280	Piroxicam  Capsules  20 mg
+PETA36468MGEMIS	Penicillamine  Tablets  125 mg (Generics (UK))
+VOTA3066	Voltarol Retard  M/R tablets  100 mg
+DOTA963	Dolobid  Tablets  500 mg
+DIE/37645MGEMIS	Diclofenac Sodium  E/c tablets  50 mg (Teva UK)
+AZTA4617	Azapropazone  Tablets  600 mg
+ARGE124957NEMIS	Arnica Montana  Gel  
+MEIN133560NEMIS	Methofill  Injection  25 mg/0.5 ml (50 mg/ml), pre-filled syringe
+ALTA33679MGEMIS	Allopurinol  Tablets  300 mg (Teva UK)
+KEM/39417NEMIS	Ketoprofen And Omeprazole  M/R capsules  200 mg + 20 mg
+NAE/9389EMIS	Naproxen  E/c tablets  375 mg
+SUTA17825NEMIS	Sulfinpyrazone  Tablets  200 mg
+VIOR473NEMIS	Vioxx  Oral suspension  25mg/5ml
+ALTA33676MGEMIS	Allopurinol  Tablets  300 mg (Ivax Pharmaceuticals)
+IBTA35512MGEMIS	Ibuprofen  Tablets  400 mg (OBG Pharm)
+BECR322	Benzydamine Hydrochloride  Cream  3 %
+FETA40653NEMIS	Febuxostat  Tablets  120 mg
+INSO135912NEMIS	Infliximab  Solution for injection  120 mg/1 ml pre-filled syringe
+ARTA22354EMIS	Arthrotec 50  Tablets  
+IBTA35520MGEMIS	Ibuprofen  Tablets  600 mg (Ranbaxy)
+MEOI35912MGEMIS	Methyl Salicylate  Ointment  50%, BP (Unichem)
+MEIN90731NEMIS	Methotrexate  Injection  27.5 mg/0.55 ml (50 mg/ml), pre-filled device
+BALI4624	Baclofen  Oral Solution, Sugar Free  5 mg/5 ml
+IBTA35510MGEMIS	Ibuprofen  Tablets  400 mg (Aspar)
+PIGE36591MGEMIS	Piroxicam  Gel  0.5 % (Kent Pharm)
+PICA36548MGEMIS	Piroxicam  Capsules  20 mg (Ivax Pharmaceuticals)
+MEIN19441NEMIS	Methylprednisolone And Lidocaine  Injection  40 mg/ml + 10 mg/ml, 1 ml vial
+PICA36545MGEMIS	Piroxicam  Capsules  10 mg (Kent Pharm)
+NAE/9202EMIS	Naproxen  E/c tablets  250 mg
+ADSO52107NEMIS	Adalimumab  Solution for injection  40 mg/0.8 ml vial
+ENM/76710NEMIS	Enstar Xl 100  M/R tablets  100 mg
+IBSU34992EMIS	Ibuprofen  Sugar-free suspension  100 mg/5 ml
+MELIEGTON6159	Methyl Salicylate  Liniment  25 %
+MEIN36546NEMIS	Metoject  Injection (pre-filled syringe)  15 mg in 0.3 ml (50 mg/ml)
+INCA38160MGEMIS	Indometacin  Capsules  50 mg (The Boots Company)
+MEIN20461EMIS	Methylprednisolone Acetate  Injection  80 mg/2 ml vial
+DETA50007EMIS	Dexketoprofen Trometamol  Tablets  25 mg
+FLTA1217	Flurbiprofen  Tablets  50 mg
+ALOR17248NEMIS	Allopurinol  Oral suspension  300 mg/5 ml
+VOGE30812NEMIS	Voltarol Pain-Eze Emulgel  Gel  1.16 % (as Diclofenac Diethylammonium)
+DIE/37633MGEMIS	Diclofenac Sodium  E/c tablets  25 mg (Teva UK)
+PICA10786BRIDL	Pirozip 10  Capsules  10 mg
+XATA10548BRIDL	Xanthomax  Tablets  100 mg
+ASSP10320HILLI	Radian B  Spray  
+FRSU1244	Froben  Suppositories  100 mg
+IBGE18017EMIS	Ibuprofen  Gel  5 %
+FLTA35179MGEMIS	Flurbiprofen  Tablets  100 mg (Alpharma)
+SUTA17824NEMIS	Sulfinpyrazone  Tablets  100 mg
+CUTA17490NEMIS	Cuprofen Plus  Tablets  
+VOGE17488NEMIS	Voltarol Emulgel P  Gel  
+COTA34664MGEMIS	Colchicine  Tablets  500 micrograms (The Boots Company)
+KIIN12819NEMIS	Kineret  Injection (Prefilled Syringe)  150 mg/ml, 0.67 ml (100 mg) syringe
+VOME21146NEMIS	Voltarol Gel Patch  Medicated Plaster  1 %
+ALTA33681MGEMIS	Allopurinol  Tablets  300 mg (Unichem)
+RHM/19274NEMIS	Rhumalgan Sr  M/R capsules  75 mg
+FECA35030MGEMIS	Fenbufen  Capsules  300 mg (Ivax Pharmaceuticals)
+EBSO52781NEMIS	Ebetrex  Solution for injection  25 mg/1.25 ml pre-filled syringe
+NATA36185MGEMIS	Naproxen  Tablets  500 mg (Sterwin Medicines)
+MEOR15494NEMIS	Methotrexate  Oral solution  10 mg/5 ml
+ALTA77	Allopurinol  Tablets  100 mg
+HYIN1399	Hydrocortistab  Suspension For Injection  25 mg/ml, 1 ml ampoule
+FLCA10333BRIDL	Flurbiprofen Sr  Capsules  200 mg
+TITA37248MGEMIS	Tizanidine Hydrochloride  Tablets  4 mg (Kent Pharm)
+COEF48151NEMIS	Cozachew Fizz  Effervescent tablets  1.5 grams
+MEIN124630NEMIS	Methofill  Injection  17.5 mg/0.35 ml (50 mg/ml), pre-filled injector
+ALOR46709NEMIS	Allopurinol  Oral solution  300 mg/5 ml
+INSU1460	Indocid  Suppositories  100 mg
+EBSO52773NEMIS	Ebetrex  Solution for injection  10 mg/1 ml pre-filled syringe
+MEIN51001NEMIS	Metoject  Injection (pre-filled syringe)  17.5 mg in 0.35 ml (50 mg/ml)
+MEIN90736NEMIS	Metoject Pen  Injection  12.5 mg/0.25 ml (50 mg/ml), pre-filled pen
+PETA36467MGEMIS	Penicillamine  Tablets  125 mg (Teva UK)
+NATA1938	Naproxen  Tablets  250 mg
+FLTA35183MGEMIS	Flurbiprofen  Tablets  100 mg (Genus Pharm)
+ABSO132447NEMIS	Abatacept  Solution for injection  87.5 mg/0.7 ml pre-filled syringe
+MESU28879EMIS	Meloxicam  Suppositories  15 mg
+IBTA31837NEMIS	Ibuprofen Lysine  Tablets  200 mg
+TEPO34461NEMIS	Tenoxicam  Powder and solvent for solution for injection  20 mg vial
+DIE/37634MGEMIS	Diclofenac Sodium  E/c tablets  25 mg (Ivax Pharmaceuticals)
+WHLIEGTON6171	White  Liniment  
+MEIN133557NEMIS	Methofill  Injection  17.5 mg/0.35 ml (50 mg/ml), pre-filled syringe
+NATA36187MGEMIS	Naproxen  Tablets  500 mg (Teva UK)
+POGE26844EMIS	Powergel  Gel  2.5 %
+FAPO13151NEMIS	Fasturtec  Powder with solvent for infusion  7.5 mg vial
+BACREGTON6195	Balmosa  Cream  
+GLCH28121NEMIS	Glucosamine Hydrochloride And Chondroitin Sulfate  Chewable tablets  500 mg + 400 mg
+META36034MGEMIS	Methotrexate  Tablets  2.5 mg (Mayne Pharma)
+SOPR4922NEMIS	Sodium Hyaluronate  Pre-Filled Syringe  10 mg/ml, 2 ml syringe
+UPM/140391NEMIS	NULL
+AXCR22356EMIS	Axsain  Cream  0.075 %
+NATA36193MGEMIS	Naproxen  Tablets  500 mg (Unichem)
+GUM/20098NEMIS	Guaifenesin  M/R tablets  600 mg
+IBOR24735NEMIS	Ibuprofen  Oral Suspension Sugar Free  100 mg/5 ml sachet
+MELI35900MGEMIS	Methyl Salicylate  Liniment  25 % (A.A.H. Pharm)
+QUCU44693NEMIS	Qutenza  Cutaneous Patches  179 mg
+META140086NEMIS	NULL
+DITA4228NEMIS	Diclovol  E/c tablets  25 mg
+ALTA33672MGEMIS	Allopurinol  Tablets  100 mg (Sandoz)
+INCA17689NEMIS	Indometacin  Capsules  50 mg
+CACR22358EMIS	Capsaicin  Cream  0.075 %
+LAM/4222NEMIS	Larafen Cr  M/R capsules  200 mg
+NAE/36159MGEMIS	Naproxen  E/c tablets  250 mg (Unichem)
+NASU1934	Naprosyn  Suppositories  500 mg
+IBTA35516MGEMIS	Ibuprofen  Tablets  400 mg (Sussex Pharm)
+FETA1162	Fenopron  Tablets  600 mg
+MEIN90735NEMIS	Metoject Pen  Injection  10 mg/0.2 ml (50 mg/ml), pre-filled pen
+FETA13653NEMIS	Fenactol  Tablets  25 mg
+DITA978NEMIS	Diclofenac And Misoprostol  Tablets  50 mg + 200 micrograms
+IBGE37603MGEMIS	Ibuprofen  Gel  10 % (Thornton & Ross)
+DIE/1995NEMIS	Diclofenac Sodium  E/c tablets  50 mg
+TITA76883NEMIS	Tiopronin  Tablets  250 mg
+ACCA10950BRIDL	Acemetacin  Capsules  60 mg
+IBTA35500MGEMIS	Ibuprofen  Tablets  200 mg (Winthrop Pharmaceuticals )
+MECR92938NEMIS	Methyl Salicylate And Menthol  Cream  30 % + 8 %
+ALTA33668MGEMIS	Allopurinol  Tablets  100 mg (Ivax Pharmaceuticals)
+ORCA2113	Orudis  Capsules  50 mg
+DITA943	Distamine  Tablets  125 mg
+LOTA11603NEMIS	Lornoxicam  Tablets  8 mg
+SUTA9172BRIDL	Surgam  Tablets  200 mg
+GLOR44414NEMIS	Glucosamine Sulfate  Oral Powder Sachets Sugar Free  1.5 grams
+TETA37155MGEMIS	Tenoxicam  Tablets  20 mg (Unichem)
+MEME133564NEMIS	Methyl Salicylate And Levomenthol  Medicated Plaster  105 mg + 31.5 mg
+ORSO78107NEMIS	Orencia  Solution for injection  125 mg/1 ml pre-filled syringe
+OLTA122394NEMIS	Olumiant  Tablets  4 mg
+IBSU13346NEMIS	Ibuprofen  Suspension  100 mg/5 ml
+FECA1148	Feldene  Capsules  10 mg
+ROTA466NEMIS	Rofecoxib  Tablets  12.5 mg
+MOTA8330EGTON	Mobiflex  Tablets  20 mg
+NATA36197MGEMIS	Nabumetone  Tablets  500 mg (Generics (UK))
+ALTA33664MGEMIS	Allopurinol  Tablets  100 mg (Ranbaxy)
+NUCA40032NEMIS	Nurofen Maximum Strength Migraine Pain  Caplets  684 mg
+FRCA8799BRIDL	Froben Sr  Capsules  200 mg
+FECA35031MGEMIS	Fenbufen  Capsules  300 mg (Unichem)
+PIDI36563MGEMIS	Piroxicam  Dispersible tablets  20 mg (Kent Pharm)
+INCA38150MGEMIS	Indometacin  Capsules  25 mg (Alpharma)
+IBGE35488MGEMIS	Ibuprofen  Gel  5 % (Unichem)
+ERSO124105NEMIS	Erelzi  Solution for injection  25 mg/0.5 ml pre-filled syringe
+BATA124052NEMIS	Baricitinib  Tablets  2 mg
+FLCA46951NEMIS	Flexeze  Capsules  416.6 mg + 90 mg
+COTA34669MGEMIS	Colchicine  Tablets  500 micrograms (Kent Pharm)
+IBGE29373NEMIS	Ibuleve Speed Relief  Gel  5 %
+XETA11606NEMIS	Xefo  Tablets  4 mg
+PICA36552MGEMIS	Piroxicam  Capsules  20 mg (Alpharma)
+TOM/135685NEMIS	Tofacitinib  M/R tablets  11 mg
+PIDI36557MGEMIS	Piroxicam  Dispersible tablets  10 mg (Generics (UK))
+TITA37245MGEMIS	Tizanidine Hydrochloride  Tablets  2 mg (Generics (UK))
+DIE/37637MGEMIS	Diclofenac Sodium  E/c tablets  25 mg (Pfizer)
+ETPO4751NEMIS	Etanercept  Powder for injection  25 mg vial
+ARTA9217BRIDL	Arthrosin  Tablets  250 mg
+BRSY426	Brufen  Syrup  100 mg/5 ml
+KECA1569	Ketoprofen  Capsules  100 mg
+ALCREGTON6173	Algesal  Cream  10 %
+GLOR44418NEMIS	Glusartel  Oral powder sachets  1500 mg
+ROOR470NEMIS	Rofecoxib  Oral suspension  Sugar Free 25mg/5ml
+FETA35057MGEMIS	Fenbufen  Tablets  450 mg (Unichem)
+IBGE18015EMIS	Ibugel  Gel  5 %
+LETA1666NEMIS	Leflunomide  Tablets  10 mg
+TOSO90876NEMIS	Tocilizumab  Solution for injection  162 mg/0.9 ml pre-filled syringe
+DYSO29323NEMIS	Dyloject  Solution for injection  75 mg/2 ml vial
+MECA35873MGEMIS	Mefenamic Acid  Capsules  250 mg (Unichem)
+IBTA35515MGEMIS	Ibuprofen  Tablets  400 mg (A.A.H. Pharm)
+HYTA137829NEMIS	Hydroxychloroquine Sulfate  Tablets  300 mg
+MELI35901MGEMIS	Methyl Salicylate  Liniment  25 % (Loveridge)
+QUTA40431NEMIS	Quinoric  Tablets  200 mg
+NUGE16140NEMIS	Nurofen Maximum Strength  Gel  10 %
+NAE/36158MGEMIS	Naproxen  E/c tablets  250 mg (A.A.H. Pharm)
+IBTA125939NEMIS	Ibuprofen And Phenylephrine  Tablets  200 mg + 6.1 mg
+CLTA639	Clinoril  Tablets  100 mg
+CACR27872EMIS	Capsaicin  Cream  0.025 %
+POCA2306	Ponstan  Capsules  250 mg
+RAMU100725NEMIS	Radian B  Muscle Rub  
+FLTA35181MGEMIS	Flurbiprofen  Tablets  100 mg (Sandoz)
+MEIN36535NEMIS	Methotrexate  Injection  15 mg/0.3 ml (50 mg/ml), pre-filled syringe
+DACA803	Dantrium  Capsules  25 mg
+RHM/34588EMIS	Rhumalgan Cr  M/R tablets  100 mg
+DIE/37652MGEMIS	Diclofenac Sodium  E/c tablets  50 mg (Ivax Pharmaceuticals)
+DIE/37635MGEMIS	Diclofenac Sodium  E/c tablets  25 mg (Sterwin Medicines)
+DITA31788NEMIS	Diclofenac Potassium  Tablets  12.5 mg
+IBTA35498MGEMIS	Ibuprofen  Tablets  200 mg (Ivax Pharmaceuticals)
+MEIN133562NEMIS	Methofill  Injection  30 mg/0.6 ml (50 mg/ml), pre-filled syringe
+DEIN20067EMIS	Depo-Medrone  Injection  80 mg/2 ml vial
+UPM/136015NEMIS	Upadacitinib  M/R tablets  15 mg
+FLTA1216	Flurbiprofen  Tablets  100 mg
+MEIN21802NEMIS	Methotrexate  Injection (pre-filled syringe)  10 mg/ml, 25 mg in 2.5 ml syringe
+COSO139176NEMIS	NULL
+DEIN28223EMIS	Depo-Medrone With Lidocaine  Injection, 2 ml vial  
+IBTA35513MGEMIS	Ibuprofen  Tablets  400 mg (Sandoz)
+EBSO52782NEMIS	Ebetrex  Solution for injection  30 mg/1.5 ml pre-filled syringe
+NAM/47266NEMIS	Naproxen And Esomeprazole  M/R tablets  500 mg + 20 mg
+MELI35903MGEMIS	Methyl Salicylate  Liniment  25 % (Unichem)
+NAE/36176MGEMIS	Naproxen  E/c tablets  375 mg (A.A.H. Pharm)
+EBSO52780NEMIS	Ebetrex  Solution for injection  20 mg/1 ml pre-filled syringe
+DITA1026NEMIS	Diclofenac Potassium  Tablets  50 mg
+IBGE48817NEMIS	Ibuprofen And Levomenthol  Gel  5 % + 3 %
+IBTA35504MGEMIS	Ibuprofen  Tablets  400 mg (Teva UK)
+NATA36199MGEMIS	Nabumetone  Tablets  500 mg (Teva UK)
+BEOR37982MGEMIS	Benorilate  Oral Suspension Sugar Free  2 grams/5 ml (Generics (UK))
+BATA33928MGEMIS	Baclofen  Tablets  10 mg (Teva UK)
+MYIN1917	Myocrisin  Injection  10 mg/0.5 ml ampoule
+ROCO39344NEMIS	Roactemra  Concentrate For Solution For Infusion  400 mg/20 ml vial
+IBTA35491MGEMIS	Ibuprofen  Tablets  200 mg (Kent Pharm)
+IBTA35507MGEMIS	Ibuprofen  Tablets  400 mg (Sterwin Medicines)
+DISU883	Diclofenac Sodium  Suppositories  100 mg
+MEIN90732NEMIS	Methotrexate  Injection  30 mg/0.6 ml (50 mg/ml), pre-filled device
+HUSO16470NEMIS	Humira  Solution for injection in pre-filled syringe  40 mg/0.8 ml
+IBTA35518MGEMIS	Ibuprofen  Tablets  400 mg (Wockhardt UK)
+AXM/39415NEMIS	Axorid  M/R capsules  100 mg + 20 mg
+DEIN829	Deltastab  Suspension For Injection  25 mg/ml, 1 ml ampoule
+AMSO128244NEMIS	Amgevita  Solution for injection  40 mg/0.8 ml pre-filled syringe
+FETA40651NEMIS	Febuxostat  Tablets  80 mg
+CRBAEGTON6209	Cremalgin  Balm  
+FAM/51788NEMIS	Fampridine  M/R tablets  10 mg
+INCA38151MGEMIS	Indometacin  Capsules  25 mg (Unichem)
+DIE/1994NEMIS	Diclofenac Sodium  E/c tablets  25 mg
+NETA5199	Neostigmine  Tablets  15 mg
+LEIN18068EMIS	Lederspan  Injection  100 mg/5 ml
+ETSO23530NEMIS	Etanercept  Solution for injection in pre-filled syringe  50 mg
+TRSU89933NEMIS	Triamcinolone Hexacetonide  Suspension For Injection  20 mg/ml, 1 ml ampoule
+AMSO128216NEMIS	Amgevita  Solution for injection  40 mg/0.8 ml pre-filled pen
+FLTA35188MGEMIS	Flurbiprofen  Tablets  50 mg (Alpharma)
+IBTA35494MGEMIS	Ibuprofen  Tablets  200 mg (Thornton & Ross)
+BEM/13816NEMIS	Berlind 75 Retard  M/R capsules  75 mg
+CESO135547NEMIS	Certolizumab Pegol  Solution for injection  200 mg/1 ml cartridge
+FETA1159	Fenoprofen  Tablets  300 mg
+TITA31677EMIS	Tizanidine Hydrochloride  Tablets  4 mg
+NAE/36166MGEMIS	Naproxen  E/c tablets  500 mg (Teva UK)
+CISO117647NEMIS	Cimzia  Solution for injection  200 mg/ml, 1 ml pre-filled pen
+ECM/17500NEMIS	Econac Xl  M/R tablets  100 mg
+IBGE37604MGEMIS	Ibuprofen  Gel  10 % (A.A.H. Pharm)
+LOTA27240EMIS	Lofensaid  Tablets  25 mg
+IBTA35521MGEMIS	Ibuprofen  Tablets  600 mg (Ivax Pharmaceuticals)
+AZCA4616	Azapropazone  Capsules  300 mg
+ETTA12810NEMIS	Etoricoxib  Tablets  90 mg
+ADSU21768NEMIS	Adcortyl Intra-Articular/Intradermal  Suspension For Injection  10 mg/ml, 1 ml ampoule
+MYIN1920	Myocrisin  Injection  50 mg/0.5 ml ampoule
+HYOR46474NEMIS	Hydroxychloroquine  Oral solution  200 mg/5 ml
+FLTA35178MGEMIS	Flurbiprofen  Tablets  100 mg (A.A.H. Pharm)
+MESU37812MGEMIS	Mefenamic Acid  Suspension  50 mg/5 ml (Unichem)
+TICA13577NEMIS	Tiloket Cr  M/R capsules  200 mg
+ONCA43612NEMIS	Onsenal  Capsules  400 mg
+INSO135911NEMIS	Infliximab  Solution for injection  120 mg/1 ml pre-filled disposable device
+TRIN18070EMIS	Triamcinolone Hexacetonide  Injection  100 mg/5 ml
+MEIN124636NEMIS	Methofill  Injection  7.5 mg/0.15 ml (50 mg/ml), pre-filled injector
+ENPO52648NEMIS	Enbrel Paediatric  Powder and solvent for solution for injection  10 mg vial
+DIM/26681EMIS	Diclomax Sr  M/R capsules  75 mg
+MEIN133556NEMIS	Methofill  Injection  15 mg/0.3 ml (50 mg/ml), pre-filled syringe
+DICU16281NEMIS	Diclofenac Sodium  Cutaneous Solution  16 mg/ml
+INCA38156MGEMIS	Indometacin  Capsules  50 mg (Alpharma)
+META1753	Mefenamic Acid  Tablets  500 mg
+DIM/19795EMIS	Diclofenac Sodium  M/R tablets  75 mg
+SETA20916NEMIS	Seractil  Tablets  400 mg
+IMSO130242NEMIS	Imraldi  Solution for injection  40 mg/0.8 ml pre-filled pen
+MEIN21807NEMIS	Metoject  Injection (pre-filled syringe)  10 mg/ml, 20 mg in 2 ml syringe
+PICA36546MGEMIS	Piroxicam  Capsules  10 mg (A.A.H. Pharm)
+BRTA429	Brufen  Tablets  600 mg
+DITA979NEMIS	Diclofenac And Misoprostol  Tablets  75 mg + 200 micrograms
+DISU883	Diclofenac Sodium  Suppositories  100 mg
+ALTA33669MGEMIS	Allopurinol  Tablets  100 mg (Unichem)
+MEIN1800	Methylprednisolone Acetate  Injection  40 mg/1 ml vial
+TISU12661NEMIS	Tizanidine Hydrochloride  Suspension  2 mg/5 ml
+BETA15395NEMIS	Bextra  Tablet  10 mg
+NULI16149NEMIS	Nurofen  Liquid Capsules  200 mg
+IBTA1430	Ibuprofen  Tablets  400 mg
+BETA46793NEMIS	Benzbromarone  Tablets  100 mg
+DIE/37648MGEMIS	Diclofenac Sodium  E/c tablets  50 mg (Unichem)
+META3900	Methotrexate  Tablets  2.5 mg
+MEIN51052NEMIS	Methotrexate  Injection  17.5 mg/0.35 ml (50 mg/ml), pre-filled syringe
+VIM/47268NEMIS	Vimovo  M/R tablets  500 mg + 20 mg
+SOIN2601	Sodium Aurothiomalate  Injection  10 mg/0.5 ml ampoule
+PYM/124948NEMIS	Pyridostigmine Bromide  M/R tablets  180 mg
+ORIN10418HILLI	Oruvail  Injection  100 mg/2 ml ampoule
+ARTA9211BRIDL	Arthrofen  Tablets  200 mg
+RACR29058NEMIS	Ralgex  Cream  
+MEIN124627NEMIS	Methofill  Injection  10 mg/0.2 ml (50 mg/ml), pre-filled injector
+MEIN133553NEMIS	Methofill  Injection  7.5 mg/0.15 ml (50 mg/ml), pre-filled syringe
+CECA4203NEMIS	Celebrex  Capsules  200 mg
+INM/17694NEMIS	Indometacin  M/R capsules  25 mg
+IBSU34992EMIS	Ibuprofen  Sugar-free suspension  100 mg/5 ml
+IBTA1429	Ibuprofen  Tablets  200 mg
+DITA897	Diflunisal  Tablets  500 mg
+PICA36544MGEMIS	Piroxicam  Capsules  10 mg (Alpharma)
+FEIN22459EMIS	Feldene I.M.  Injection  20 mg/1 ml ampoule
+DITA10235BRIDL	Diclofenac Retard  Tablets  100 mg
+ADTA40655NEMIS	Adenuric  Tablets  80 mg
+XETA11607NEMIS	Xefo  Tablets  8 mg
+TITA37246MGEMIS	Tizanidine Hydrochloride  Tablets  2 mg (A.A.H. Pharm)
+BETA37989MGEMIS	Benorilate  Tablets  750 mg (Kent Pharm)
+SISO88135NEMIS	Simponi  Solution for injection in pre-filled pen  100 mg/1 ml
+RESO135914NEMIS	Remsima  Solution for injection  120 mg/1 ml pre-filled syringe
+ORM/24097EMIS	Oruvail  M/R capsules  150 mg
+KECA35628MGEMIS	Ketoprofen  Capsules  100 mg (Unichem)
+KECA35633MGEMIS	Ketoprofen  Capsules  50 mg (Unichem)
+ALTA33673MGEMIS	Allopurinol  Tablets  100 mg (Wockhardt UK)
+MEOI35910MGEMIS	Methyl Salicylate  Ointment  50%, BP (Loveridge)
+SASO124538NEMIS	Sarilumab  Solution for injection  150 mg/1.14 ml Pre-filled Device
+IBTA40030NEMIS	Ibuprofen Lysine  Tablets  400 mg
+IBTA35493MGEMIS	Ibuprofen  Tablets  200 mg (OBG Pharm)
+IBTA35523MGEMIS	Ibuprofen  Tablets  600 mg (OBG Pharm)
+LOM/29323EMIS	Lofensaid Retard  M/R tablets  100 mg
+ALTA33675MGEMIS	Allopurinol  Tablets  300 mg (Wockhardt UK)
+META3900	Methotrexate  Tablets  2.5 mg
+MEIN21800NEMIS	Methotrexate  Injection (pre-filled syringe)  15 mg in 1.5 ml (10 mg/ml)
+LIIN26277EMIS	Lioresal  Intrathecal injection  50 micrograms/1 ml ampoule
+PIGE36593MGEMIS	Piroxicam  Gel  0.5 % (A.A.H. Pharm)
+NAOR119027NEMIS	Naproxen  Oral suspension  250 mg/5 ml
+BATA264	Baclofen  Tablets  10 mg
+FLPO117263NEMIS	Flixabi  Powder for concentrate for solution for infusion  100 mg vial
+APTA100611NEMIS	Apremilast  Tablets  30 mg
+FLTA35185MGEMIS	Flurbiprofen  Tablets  50 mg (A.A.H. Pharm)
+HUSO130236NEMIS	Humira  Solution for injection  80 mg/0.8 ml pre-filled pen
+MYIN1920	Myocrisin  Injection  50 mg/0.5 ml ampoule
+DIGE137436NEMIS	Diclofenac Sodium  Gel  1 %
+ADSO130234NEMIS	Adalimumab  Solution for injection  80 mg/0.8 ml pre-filled disposable device 
+EBCA6715NEMIS	Ebretin  Capsules  300 mg
+MEIN51001NEMIS	Metoject  Injection (pre-filled syringe)  17.5 mg in 0.35 ml (50 mg/ml)
+NUOR137403NEMIS	Nurofen For Children  Oral Suspension (Strawberry)  200 mg/5 ml
+MEOR105365NEMIS	Methotrexate  Oral Solution, Sugar Free  10 mg/5 ml (2 mg/ml)
+PETA36473MGEMIS	Penicillamine  Tablets  250 mg (Teva UK)
+NATA36200MGEMIS	Nabumetone  Tablets  500 mg (Alpharma)
+BETA304	Benemid  Tablets  500 mg
+TRCR2891	Transvasin Heat  Rub (Cream)  
+INCA38154MGEMIS	Indometacin  Capsules  25 mg (Kent Pharm)
+DIE/37640MGEMIS	Diclofenac Sodium  E/c tablets  25 mg (A.A.H. Pharm)
+PETA36475MGEMIS	Penicillamine  Tablets  250 mg (Alpharma)
+NAE/36162MGEMIS	Naproxen  E/c tablets  250 mg (Generics (UK))
+MEIN133555NEMIS	Methofill  Injection  12.5 mg/0.25 ml (50 mg/ml), pre-filled syringe
+JYTA138415NEMIS	Jyseleca  Tablets  100 mg
+BUTA445	Butacote  Tablets  100 mg
+KESO124545NEMIS	Kevzara  Solution for injection  150 mg/1.14 ml Pre-filled Pen
+INCA38158MGEMIS	Indometacin  Capsules  50 mg (Unichem)
+ENPO4754NEMIS	Enbrel  Powder for injection  25 mg vial
+KEGE35643MGEMIS	Ketoprofen  Gel  2.5 % (Kent Pharm)
+MEGE20925NEMIS	Menthol  Gel  2 %
+DIE/37651MGEMIS	Diclofenac Sodium  E/c tablets  50 mg (Pfizer)
+LETA1669NEMIS	Leflunomide  Tablets  100 mg
+PETA36474MGEMIS	Penicillamine  Tablets  250 mg (Unichem)
+SYTA4369	Synflex  Tablets  275 mg
+NUM/19692NEMIS	Nurofen Back Pain Sr  M/R capsules  300 mg
+RAFR3372NEMIS	Ralgex  Freeze Spray  
+MEIN52779NEMIS	Methotrexate  Injection (pre-filled syringe)  30 mg in 1.5 ml (20 mg/ml)
+LETA1638	Lederfen  Tablets  300 mg
+MEIN133559NEMIS	Methofill  Injection  22.5 mg/0.45 ml (50 mg/ml), pre-filled syringe
+MEIN21801NEMIS	Methotrexate  Injection (pre-filled syringe)  10 mg/ml, 20 mg in 2 ml syringe
+FETA1161	Fenopron  Tablets  300 mg
+BEPO51821NEMIS	Belimumab  Powder for concentrate for solution for infusion  400 mg vial
+NATA36195MGEMIS	Nabumetone  Tablets  500 mg (Kent Pharm)
+BEOR37986MGEMIS	Benorilate  Oral Suspension Sugar Free  2 grams/5 ml (Kent Pharm)
+IBME132450NEMIS	Ibuprofen  Medicated Plaster  200 mg
+VOIN9170BRIDL	Voltarol  Injection  25mg/ml, 3 ml ampoule
+ORM/24102EMIS	Oruvail  M/R capsules  200 mg
+FECA1156	Fenbufen  Capsules  300 mg
+DETA13567NEMIS	Defanac  Tablets  50 mg
+BETA308	Benoral  Tablets  750 mg
+IBTA1430	Ibuprofen  Tablets  400 mg
+PHGE26857NEMIS	Phorpain  Gel  5 %
+ACCA10950BRIDL	Acemetacin  Capsules  60 mg
+ANTA179	Anturan  Tablets  100 mg
+HYIN5006	Hydrocortisone Acetate  Suspension For Injection  25 mg/ml, 1 ml ampoule
+IDCO25648NEMIS	Abatacept  Powder for concentrate for solution for infusion  250 mg vial
+ADTA16108NEMIS	Advil  Tablets  200 mg
+IBTA35529MGEMIS	Ibuprofen  Tablets  600 mg (Aspar)
+NUOR137402NEMIS	Nurofen For Children  Oral Suspension (Orange)  200 mg/5 ml
+DIM/24452EMIS	Diclofenac Sodium  M/R capsules  100 mg
+MEIN51002NEMIS	Metoject  Injection (pre-filled syringe)  22.5 mg in 0.45 ml (50 mg/ml)
+NAE/36174MGEMIS	Naproxen  E/c tablets  375 mg (Unichem)
+PLTA2289	Plaquenil  Tablets  200 mg
+MEIN36548NEMIS	Metoject  Injection (pre-filled syringe)  25 mg in 0.5 ml (50 mg/ml)
+SUTA37091MGEMIS	Sulindac  Tablets  100 mg (A.A.H. Pharm)
+ETSO39061NEMIS	Etanercept  Solution for injection in pre-filled device  50 mg
+FITA42284NEMIS	Firdapse  Tablets  10 mg
+TRSU21766NEMIS	Triamcinolone Acetonide  Suspension For Injection  10 mg/ml, 5 ml vial
+URTA95106NEMIS	Uricto  Tablets  100 mg
+XETA127604NEMIS	Xeljanz  Tablets  10 mg
+DETA20913NEMIS	Dexibuprofen  Tablets  400 mg
+ETTA12811NEMIS	Etoricoxib  Tablets  120 mg
+XETA122363NEMIS	Xeljanz  Tablets  5 mg
+MOSU34213EMIS	Mobic  Suppositories  7.5 mg
+PETA138314NEMIS	Penicillamine (Imported)  Tablets  250 mg
+ANIN12816NEMIS	Anakinra  Injection (Prefilled Syringe)  150 mg/ml, 0.67 ml (100 mg) syringe
+TOSO90876NEMIS	Tocilizumab  Solution for injection  162 mg/0.9 ml pre-filled syringe
+COEF48154NEMIS	Cozachew Fizz Combi  Effervescent tablets  500 mg + 400 mg
+ETTA12809NEMIS	Etoricoxib  Tablets  60 mg
+EMCA10948BRIDL	Emflex  Capsules  60 mg
+MOTA28875EMIS	Mobic  Tablets  7.5 mg
+MESU37813MGEMIS	Mefenamic Acid  Suspension  50 mg/5 ml (A.A.H. Pharm)
+META36036MGEMIS	Methotrexate  Tablets  2.5 mg (Unichem)
+NAE/9202EMIS	Naproxen  E/c tablets  250 mg
+SUTA37098MGEMIS	Sulindac  Tablets  200 mg (Unichem)
+IBTA35525MGEMIS	Ibuprofen  Tablets  600 mg (Unichem)
+MEIN124632NEMIS	Methofill  Injection  22.5 mg/0.45 ml (50 mg/ml), pre-filled injector
+KESO124546NEMIS	Kevzara  Solution for injection  150 mg/1.14 ml Pre-filled Syringe
+NATA5182	Nabumetone  Tablets  500 mg
+IBTA35509MGEMIS	Ibuprofen  Tablets  400 mg (Unichem)
+MEIN90728NEMIS	Methotrexate  Injection  20 mg/0.4 ml (50 mg/ml), pre-filled device
+ALTA78	Allopurinol  Tablets  300 mg
+FEGE11333NEMIS	Feldene P  Gel  
+CUTA29067NEMIS	Cuprofen  Tablets  200 mg
+MEIN36536NEMIS	Methotrexate  Injection  20 mg/0.4 ml (50 mg/ml), pre-filled syringe
+NATA18046EMIS	Napratec OP  Tablets  
+VOS/18019EMIS	Voltarol Sr  M/R tablets  75 mg
+MEIN36546NEMIS	Metoject  Injection (pre-filled syringe)  15 mg in 0.3 ml (50 mg/ml)
+META28880EMIS	Meloxicam  Tablets  15 mg
+LIIN26276EMIS	Lioresal  Intrathecal Solution For Infusion  10 mg/5 ml ampoule
+PHTA5277	Phenylbutazone  Tablets  100 mg
+INSR10537BRIDL	Indomax-75-Sr  M/R capsules  75 mg
+IBPU25782EMIS	Ibuspray  Pump spray  5 %
+DISU34771MGEMIS	Diclofenac Sodium  Suppositories  100 mg (Kent Pharm)
+MYIN1917	Myocrisin  Injection  10 mg/0.5 ml ampoule
+ORSO132449NEMIS	Orencia  Solution for injection  87.5 mg/0.7 ml pre-filled syringe
+LETA1666NEMIS	Leflunomide  Tablets  10 mg
+WHLI37444MGEMIS	White  Liniment  (The Boots Company)
+DEIN20067EMIS	Depo-Medrone  Injection  80 mg/2 ml vial
+IBGE35487MGEMIS	Ibuprofen  Gel  5 % (Thornton & Ross)
+CECA43610NEMIS	Celecoxib  Capsules  400 mg
+IBTA35495MGEMIS	Ibuprofen  Tablets  200 mg (Unichem)
+COM/19840EMIS	Codafen Continus  M/R tablets  
+PETA36476MGEMIS	Penicillamine  Tablets  250 mg (Kent Pharm)
+GLCH28045NEMIS	Glucosamine Hydrochloride  Chewable tablets  1.5 grams
+FETA35059MGEMIS	Fenbufen  Tablets  450 mg (Ivax Pharmaceuticals)
+BEOR17556NEMIS	Benorilate  Oral Suspension Sugar Free  2 grams/5 ml
+DIIN9753BRIDL	Diclofenac Sodium  Injection  25 mg/ml, 3 ml ampoule
+COTA34667MGEMIS	Colchicine  Tablets  500 micrograms (Unichem)
+INCA1459	Indocid  Capsules  50 mg
+ETM/24010EMIS	Etodolac  M/R tablets  600 mg
+BRTA428	Brufen  Tablets  400 mg
+BEOR37985MGEMIS	Benorilate  Oral Suspension Sugar Free  2 grams/5 ml (Sterwin Medicines)
+ECSU15541NEMIS	Econac  Suppositories  100 mg
+RHCA2448	Rheumox  Capsules  300 mg
+KECA35632MGEMIS	Ketoprofen  Capsules  50 mg (A.A.H. Pharm)
+NUS/11319NEMIS	Nurofen Long Lasting  S/r capsules  300 mg
+FRTA1245	Froben  Tablets  100 mg
+PECU16280NEMIS	Pennsaid  Cutaneous Solution  16 mg/ml
+DECR92942NEMIS	Deep Heat Maximum Strength  Cream  
+KECA35634MGEMIS	Ketoprofen  Capsules  50 mg (Sandoz)
+MEIN36548NEMIS	Metoject  Injection (pre-filled syringe)  25 mg in 0.5 ml (50 mg/ml)
+XEM/135686NEMIS	Xeljanz  M/R tablets  11 mg
+ALTA33674MGEMIS	Allopurinol  Tablets  300 mg (Sandoz)
+MEIN21808NEMIS	Metoject  Injection (pre-filled syringe)  10 mg/ml, 25 mg in 2.5 ml syringe
+MEIN90741NEMIS	Metoject Pen  Injection  25 mg/0.5 ml (50 mg/ml), pre-filled pen
+DOTA962	Dolobid  Tablets  250 mg
+DEIN8952BRIDL	Depo-Medrone With Lidocaine  Injection, 1 ml vial  
+KAPO28315NEMIS	Kaolin  Poultice  100 gram pouches
+DIM/35443EMIS	Dicloflex Sr  M/R tablets  75 mg
+SESO101266NEMIS	Secukinumab  Solution for injection  150 mg/1 ml pre-filled syringe
+SOLI37793MGEMIS	Soap  Liniment (Methylated)  BPC (Unichem)
+VOTA3065	Voltarol  Tablets  50 mg
+NATA36196MGEMIS	Nabumetone  Tablets  500 mg (A.A.H. Pharm)
+TICA18210NEMIS	Tiloket  Capsules  50 mg
+CATA479	Caplenal  Tablets  300 mg
+ALTA33682MGEMIS	Allopurinol  Tablets  300 mg (A.A.H. Pharm)
+IBTA1429	Ibuprofen  Tablets  200 mg
+TETA20599EMIS	Tenoxicam  Tablets  20 mg
+LETA1668NEMIS	Leflunomide  Tablets  20 mg
+META35934MGEMIS	Mefenamic Acid  Tablets  500 mg (Teva UK)
+BAOR137780NEMIS	Baclofen  Oral Solution, Sugar Free  10 mg/5 ml
+RHM/19276NEMIS	Rhumalgan Xl  M/R capsules  100 mg
+GLCA28382NEMIS	Glucosamine Hydrochloride  Capsules  600 mg
+BATA33924MGEMIS	Baclofen  Tablets  10 mg (A.A.H. Pharm)
+MESU34215EMIS	Meloxicam  Suppositories  7.5 mg
+FLTA35187MGEMIS	Flurbiprofen  Tablets  50 mg (Sandoz)
+INCA6932	Indomethacin  Capsules  50 mg
+MEIN90740NEMIS	Metoject Pen  Injection  22.5 mg/0.45 ml (50 mg/ml), pre-filled pen
+MATA3883	Maxtrex  Tablets  2.5 mg
+ORSO132448NEMIS	Orencia  Solution for injection  50 mg/0.4 ml pre-filled syringe
+KECA35629MGEMIS	Ketoprofen  Capsules  100 mg (A.A.H. Pharm)
+MEIN90739NEMIS	Metoject Pen  Injection  20 mg/0.4 ml (50 mg/ml), pre-filled pen
+FETA35041MGEMIS	Fenbufen  Tablets  300 mg (Unichem)
+NATA36192MGEMIS	Naproxen  Tablets  500 mg (Wockhardt UK)
+FEDI1150	Feldene  Dispersible tablets  10 mg
+BETA15396NEMIS	Bextra  Tablet  20 mg
+ARTA29148EMIS	Arthrotec 75  Tablets  
+VOM/13540NEMIS	Volsaid Retard 75  M/R tablets  75 mg
+ROSO90880NEMIS	Roactemra  Solution for injection  162 mg/0.9 ml pre-filled syringe
+INGEEGTON6220	Intralgin  Gel  
+MEIN36542NEMIS	Metoject  Injection (pre-filled syringe)  7.5 mg in 0.15 ml (50 mg/ml)
+NATA36178MGEMIS	Naproxen  Tablets  250 mg (Alpharma)
+PIDI36562MGEMIS	Piroxicam  Dispersible tablets  20 mg (A.A.H. Pharm)
+BESO111766NEMIS	Benepali  Solution for injection in pre-filled syringe  50 mg/1 ml
+PRTA138421NEMIS	Pridinol  Tablets  3 mg
+QUCU44693NEMIS	Qutenza  Cutaneous Patches  179 mg
+IBSU37585MGEMIS	Ibuprofen  Sugar-free suspension  100 mg/5 ml (Teva UK)
+INOR29310NEMIS	Indometacin  Oral suspension  25 mg/5 ml
+FITA138414NEMIS	Filgotinib  Tablets  200 mg
+MEIN20460EMIS	Methylprednisolone Acetate  Injection  120 mg/3 ml vial
+PIIN22461EMIS	Piroxicam  Injection  20 mg/ml, 1 ml ampoule
+BRTA427	Brufen  Tablets  200 mg
+NATA36183MGEMIS	Naproxen  Tablets  250 mg (Kent Pharm)
+CATA478	Caplenal  Tablets  100 mg
+FLCA132429NEMIS	Flarin  Capsules  200 mg
+NASU10481BRIDL	Naproxen  Suppositories  500 mg
+RHM/34589EMIS	Rhumalgan Cr  M/R tablets  75 mg
+MEIN90738NEMIS	Metoject Pen  Injection  17.5 mg/0.35 ml (50 mg/ml), pre-filled pen
+INCA38153MGEMIS	Indometacin  Capsules  25 mg (A.A.H. Pharm)
+BESO123969NEMIS	Benepali  Solution for injection in pre-filled syringe  25 mg/0.5 ml
+SESO101277NEMIS	Secukinumab  Solution for injection  150 mg/1 ml pre-filled device
+NAE/36175MGEMIS	Naproxen  E/c tablets  375 mg (Kent Pharm)
+MITA81513NEMIS	Misofen  Tablets  50 mg + 200 micrograms
+TETA37156MGEMIS	Tenoxicam  Tablets  20 mg (Kent Pharm)
+IBM/25575NEMIS	Ibuprofen  M/R capsules  300 mg
+CATA4681	Carisoprodol  Tablets  125 mg
+DETA13566NEMIS	Defanac  Tablets  25 mg
+DITA884	Diclofenac Sodium  M/R tablets  100 mg
+META36042MGEMIS	Methotrexate  Tablets  10 mg (Mayne Pharma)
+INM/17691NEMIS	Indometacin  M/R tablets  25 mg
+ERSO124106NEMIS	Erelzi  Solution for injection  50 mg/1 ml pre-filled syringe
+PISU2283	Piroxicam  Suppositories  20 mg
+MEIN90729NEMIS	Methotrexate  Injection  22.5 mg/0.45 ml (50 mg/ml), pre-filled device
+RHTA2449	Rheumox  Tablets  600 mg
+BATA122391NEMIS	Baricitinib  Tablets  4 mg
+ETM/117649NEMIS	Etolyn  M/R tablets  600 mg
+DYCA9233BRIDL	Dysman-250  Capsules  250 mg
+DACA804	Dantrolene Sodium  Capsules  25 mg
+IBTA35524MGEMIS	Ibuprofen  Tablets  600 mg (Sandoz)
+FETA35040MGEMIS	Fenbufen  Tablets  300 mg (A.A.H. Pharm)
+NAE/36160MGEMIS	Naproxen  E/c tablets  250 mg (Sandoz)
+IBTA35497MGEMIS	Ibuprofen  Tablets  200 mg (Ranbaxy)
+ETSO23724NEMIS	Etanercept  Solution for injection in pre-filled syringe  25 mg
+FETA35043MGEMIS	Fenbufen  Tablets  300 mg (Generics (UK))
+RAPO13150NEMIS	Rasburicase  Powder with solvent for infusion  7.5 mg vial
+ENSO23725NEMIS	Enbrel  Solution for injection in pre-filled syringe  25 mg
+BEOR37984MGEMIS	Benorilate  Oral Suspension Sugar Free  2 grams/5 ml (A.A.H. Pharm)
+ALTA33680MGEMIS	Allopurinol  Tablets  300 mg (Alpharma)
+DIE/37646MGEMIS	Diclofenac Sodium  E/c tablets  50 mg (Generics (UK))
+NATA1939	Naproxen  Tablets  500 mg
+HYOR34435NEMIS	Hydroxychloroquine  Oral suspension  400 mg/5 ml
+ETCA4907	Etodolac  Capsules  200 mg
+MEIN90725NEMIS	Methotrexate  Injection  12.5 mg/0.25 ml (50 mg/ml), pre-filled device
+VOSU25792EMIS	Voltarol  Suppositories  50 mg
+NATA36181MGEMIS	Naproxen  Tablets  250 mg (Wockhardt UK)
+INCA5024	Indomethacin  Capsules  25 mg
+TITA37250MGEMIS	Tizanidine Hydrochloride  Tablets  4 mg (A.A.H. Pharm)
+SASO124541NEMIS	Sarilumab  Solution for injection  200 mg/1.14 ml Pre-filled Device
+IBTA35519MGEMIS	Ibuprofen  Tablets  400 mg (Galpharm International)
+NAE/9386EMIS	Naprosyn  E/c tablets  375 mg
+INOR46774NEMIS	Indometacin  Oral solution  25 mg/5 ml
+ARTA1672NEMIS	Arava  Tablets  100 mg
+INCA17688NEMIS	Indometacin  Capsules  25 mg
+ROCO39345NEMIS	Roactemra  Concentrate For Solution For Infusion  200 mg/10 ml vial
+BESO111764NEMIS	Benepali  Solution for injection in pre-filled pen  50 mg/1 ml
+COTA9999	Colchicine  Tablets  500 micrograms
+NAE/36169MGEMIS	Naproxen  E/c tablets  500 mg (Generics (UK))
+DACA802	Dantrium  Capsules  100 mg
+NAE/36172MGEMIS	Naproxen  E/c tablets  500 mg (A.A.H. Pharm)
+ABSO102255NEMIS	Abatacept  Solution for injection  125 mg/1 ml pre-filled device
+NUTA25108NEMIS	Nurofen Cold & Flu  Tablets  
+MEIN52777NEMIS	Methotrexate  Injection (pre-filled syringe)  20 mg in 1 ml (20 mg/ml)
+ENSO124813NEMIS	Enbrel  Solution for injection in pre-filled pen  25 mg
+IBTA35522MGEMIS	Ibuprofen  Tablets  600 mg (Kent Pharm)
+MESY38473NEMIS	Mestinon  Syrup  60 mg/5 ml
+PICA10788BRIDL	Pirozip 20  Capsules  20 mg
+META36043MGEMIS	Methotrexate  Tablets  10 mg (A.A.H. Pharm)
+MEOI35911MGEMIS	Methyl Salicylate  Ointment  50%, BP (Thornton & Ross)
+INCA38155MGEMIS	Indometacin  Capsules  25 mg (Sandoz)
+NUTA5832NEMIS	Nurofen Plus  Tablets  
+KEM/24273EMIS	Ketovail  M/R capsules  100 mg
+DIE/37639MGEMIS	Diclofenac Sodium  E/c tablets  25 mg (Generics (UK))
+EDIN4882	Edrophonium Chloride  Injection  10 mg/1 ml ampoule
+PYTA5353	Pyridostigmine Bromide  Tablets  60 mg
+DITA10751BRIDL	Diclozip-25  Tablets  25 mg
+FESU1152	Feldene  Suppositories  20 mg
+KAPO4141NEMIS	Kaolin  Poultice  BP
+MEIN90730NEMIS	Methotrexate  Injection  25 mg/0.5 ml (50 mg/ml), pre-filled device
+IBTA35528MGEMIS	Ibuprofen  Tablets  600 mg (Alpharma)
+KESO124547NEMIS	Kevzara  Solution for injection  200 mg/1.14 ml Pre-filled Pen
+BEPO51822NEMIS	Benlysta  Powder for concentrate for solution for infusion  120 mg vial
+ALTA33683MGEMIS	Allopurinol  Tablets  300 mg (Generics (UK))
+VITA475NEMIS	Vioxx  Tablets  25 mg
+NAE/36173MGEMIS	Naproxen  E/c tablets  375 mg (Alpharma)
+DITA26777EMIS	Dicloflex  Tablets  25 mg
+TITA37247MGEMIS	Tizanidine Hydrochloride  Tablets  2 mg (Unichem)
+HUSO16470NEMIS	Humira  Solution for injection in pre-filled syringe  40 mg/0.8 ml
+CASU14764NEMIS	Calprofen  Sugar free suspension  100 mg/5 ml
+NATA36180MGEMIS	Naproxen  Tablets  250 mg (Teva UK)
+IBTA35499MGEMIS	Ibuprofen  Tablets  200 mg (Aspar)
+INPO100826NEMIS	Inflectra  Powder for concentrate for solution for infusion  100 mg vial
+VOME109440NEMIS	Voltarol  Medicated Plaster  140 mg
+INSU1461	Indocid  Suspension  25 mg/5 ml
+META36032MGEMIS	Methotrexate  Tablets  2.5 mg (Kent Pharm)
+MOTA28874EMIS	Mobic  Tablets  15 mg
+ARTA12807NEMIS	Arcoxia  Tablets  120 mg
+PETA36466MGEMIS	Penicillamine  Tablets  125 mg (Kent Pharm)
+ACTA28341EMIS	Aceclofenac  Tablets  100 mg
+VOTA31790NEMIS	Voltarol Pain-Eze  Tablets  12.5 mg
+TOCO39340NEMIS	Tocilizumab  Concentrate For Solution For Infusion  400 mg/20 ml vial
+PETA2182	Penicillamine  Tablets  125 mg
+KECA35625MGEMIS	Ketoprofen  Capsules  100 mg (Generics (UK))
+IBSU37586MGEMIS	Ibuprofen  Sugar-free suspension  100 mg/5 ml (Thornton & Ross)
+MEIN133561NEMIS	Methofill  Injection  27.5 mg/0.55 ml (50 mg/ml), pre-filled syringe
+HUSO130237NEMIS	Humira  Solution for injection  80 mg/0.8 ml pre-filled syringe
+NAOR29311NEMIS	Naproxen  Oral Suspension (Sugar-Free)  125 mg/5 ml
+MEIN90727NEMIS	Methotrexate  Injection  17.5 mg/0.35 ml (50 mg/ml), pre-filled device
+ENSO23531NEMIS	Enbrel  Solution for injection in pre-filled syringe  50 mg
+MEOR83163NEMIS	Meloxicam  Orodispersible Tablets (Sugar Free)  15 mg
+FETA35045MGEMIS	Fenbufen  Tablets  300 mg (Alpharma)
+GOSO124408NEMIS	Golimumab  Solution for injection  50 mg/0.5 ml pre-filled device
+LEIN9176BRIDL	Lederspan  Injection  20 mg/1 ml
+GLEF48152NEMIS	Glucosamine Hydrochloride And Chondroitin Sulfate  Effervescent tablets  500 mg + 400 mg
+META35931MGEMIS	Mefenamic Acid  Tablets  500 mg (Kent Pharm)
+IBTA35501MGEMIS	Ibuprofen  Tablets  200 mg (Sussex Pharm)
+TITA37249MGEMIS	Tizanidine Hydrochloride  Tablets  4 mg (Generics (UK))
+MEIN36534NEMIS	Methotrexate  Injection  10 mg/0.2 ml (50 mg/ml), pre-filled syringe
+NAE/36161MGEMIS	Naproxen  E/c tablets  250 mg (Teva UK)
+ALTA33666MGEMIS	Allopurinol  Tablets  100 mg (Teva UK)
+GLCA46952NEMIS	Glucosamine Hydrochloride And Chondroitin Sulfate  Capsules  416.6 mg + 90 mg
+TOSO127246NEMIS	Tocilizumab  Solution for injection  162 mg/0.9 ml pre-filled device
+IBTA35517MGEMIS	Ibuprofen  Tablets  400 mg (Lloyds)
+PETA2183	Penicillamine  Tablets  250 mg
+FETA1157	Fenbufen  Tablets  300 mg
+FEFO20344EMIS	Felbinac  Foam  3.17 %
+SASO124543NEMIS	Sarilumab  Solution for injection  200 mg/1.14 ml Pre-filled Syringe
+DIPA9755BRIDL	Diclofenac Sodium  Paediatric suppositories  12.5 mg
+TITA37251MGEMIS	Tizanidine Hydrochloride  Tablets  4 mg (Unichem)
+PICA36541MGEMIS	Piroxicam  Capsules  10 mg (Ivax Pharmaceuticals)
+MOCR16128NEMIS	Movelat Relief  Cream  
+IBTA25101NEMIS	Ibuprofen And Pseudoephedrine  Tablets  200 mg + 30 mg
+NAE/9389EMIS	Naproxen  E/c tablets  375 mg
+IBTA35492MGEMIS	Ibuprofen  Tablets  200 mg (Vantage)
+INCA1458	Indocid  Capsules  25 mg
+INSU17690NEMIS	Indometacin  Suppositories  100 mg
+MEIN124633NEMIS	Methofill  Injection  25 mg/0.5 ml (50 mg/ml), pre-filled injector
+LOM/24008EMIS	Lodine Sr  M/R tablets  600 mg
+BRSY426	Brufen  Syrup  100 mg/5 ml
+FETA35060MGEMIS	Fenbufen  Tablets  450 mg (Generics (UK))
+PYOR76907NEMIS	Pyridostigmine Bromide  Oral suspension  30 mg/5 ml
+GAOR6426NEMIS	Galprofen  Oral suspension  100 mg/5 ml
+MEIN90725NEMIS	Methotrexate  Injection  12.5 mg/0.25 ml (50 mg/ml), pre-filled device
+WHLI37447MGEMIS	White  Liniment  (Unichem)
+IBOR133892NEMIS	Ibuprofen  Oral Suspension Sugar Free  200 mg/5 ml
+ORSO102256NEMIS	Orencia Clickject  Solution for injection  125 mg/1 ml pre-filled pen
+VOM/13542NEMIS	Volsaid Retard 100  M/R tablets  100 mg
+MEOR14798NEMIS	Methotrexate  Oral solution  15 mg/5 ml
+VATA15392NEMIS	Valdecoxib  Tablet  20 mg
+DITA1024NEMIS	Diclofenac Potassium  Tablets  25 mg
+WHLI37445MGEMIS	White  Liniment  (Loveridge)
+FLTA8363EGTON	Flexin Continus  M/R tablets  75 mg
+BRGR19659EMIS	Brufen  Granules  600 mg/sachet
+ALOR45588NEMIS	Allopurinol  Oral suspension  100 mg/5 ml
+MEIN124631NEMIS	Methofill  Injection  20 mg/0.4 ml (50 mg/ml), pre-filled injector
+VOGE89386NEMIS	Voltarol 12 Hour Emulgel P  Gel  2.32 %
+ININ1901NEMIS	Infliximab  Powder for solution for infusion  100 mg vial
+NASU1935	Naprosyn  Suspension  125 mg/5 ml
+BETA37987MGEMIS	Benorilate  Tablets  750 mg (Sterwin Medicines)
+ALTA33665MGEMIS	Allopurinol  Tablets  100 mg (A.A.H. Pharm)
+SASO124540NEMIS	Sarilumab  Solution for injection  150 mg/1.14 ml Pre-filled Syringe
+MEIN51000NEMIS	Metoject  Injection (pre-filled syringe)  12.5 mg in 0.25 ml (50 mg/ml)
+META35933MGEMIS	Mefenamic Acid  Tablets  500 mg (A.A.H. Pharm)
+ZACR32722EMIS	Zacin  Cream  0.025 %
+MESU11938NEMIS	Mefenamic Acid  Suspension  50 mg/5 ml
+PRCR8968BRIDL	Proflex  Cream  5 %
+MOGE9187BRIDL	Movelat  Gel  
+NATA1937	Naprosyn  Tablets  500 mg
+LITA34263EMIS	Librofem  Tablets  200 mg
+DICR17630NEMIS	Dimethyl Sulfoxide  Cream  50 %
+NATA36201MGEMIS	Nabumetone  Tablets  500 mg (Sandoz)
+PETA36470MGEMIS	Penicillamine  Tablets  125 mg (A.A.H. Pharm)
+IBTA35526MGEMIS	Ibuprofen  Tablets  600 mg (Teva UK)
+MELI35902MGEMIS	Methyl Salicylate  Liniment  25 % (Thornton & Ross)
+FLM/21393NEMIS	Flamatak  M/R tablets  100 mg
+SETA20915NEMIS	Seractil  Tablets  300 mg
+ENM/76708NEMIS	Enstar Sr 75  M/R tablets  75 mg
+COTA34668MGEMIS	Colchicine  Tablets  500 micrograms (Ucb Pharma)
+NATA19446NEMIS	Naproxen And Misoprostol  Tablets  500 mg + 200 micrograms
+IBSU37582MGEMIS	Ibuprofen  Sugar-free suspension  100 mg/5 ml (A.A.H. Pharm)
+CACU44691NEMIS	Capsaicin  Cutaneous Patches  179 mg
+PAM/4515NEMIS	Pardelprin  M/R capsules  75 mg
+TRFO20341EMIS	Traxam  Foam  3.17 %
+MEIN124634NEMIS	Methofill  Injection  27.5 mg/0.55 ml (50 mg/ml), pre-filled injector
+IBTA35503MGEMIS	Ibuprofen  Tablets  200 mg (Wockhardt UK)
+KEM/24099EMIS	Ketoprofen  M/R capsules  150 mg
+NAE/36165MGEMIS	Naproxen  E/c tablets  500 mg (Alpharma)
+META5136	Methotrexate  Tablets  10 mg
+MEOR21340NEMIS	Methotrexate  Oral suspension  10 mg/5 ml
+ETSO39061NEMIS	Etanercept  Solution for injection in pre-filled device  50 mg
+CECA4202NEMIS	Celebrex  Capsules  100 mg
+ENPO20246NEMIS	Enbrel  Powder for injection  50 mg vial
+MECA35876MGEMIS	Mefenamic Acid  Capsules  250 mg (Kent Pharm)
+MATA3882	Maxtrex  Tablets  10 mg
+SLCAEGTON6143	Slo-Indo  M/R capsules  75 mg
+LOTA27241EMIS	Lofensaid  Tablets  50 mg
+DASU14756NEMIS	Dantrolene Sodium  Oral suspension  10 mg/5 ml
+VOCU52644NEMIS	Voltarol Active  Cutaneous Spray  4 %
+RITA2453	Ridaura  Tablets  3 mg
+MEIN36543NEMIS	Metoject  Injection (pre-filled syringe)  10 mg in 0.2 ml (50 mg/ml)
+MATA101956NEMIS	Masidemen  Tablets  50 mg + 200 micrograms
+SUTA37097MGEMIS	Sulindac  Tablets  200 mg (Kent Pharm)
+BESA305	Benoral  Sachets  2 g/ sachet
+KEGE9597EMIS	Ketoprofen  Gel  2.5 %
+FLTA9564EMIS	Flexin-Ls Continus  M/R tablets  50 mg
+BESU306	Benoral  Suspension  2 g/5 ml
+VATA15390NEMIS	Valdecoxib  Tablet  10 mg
+NAEF108922NEMIS	Naproxen  Effervescent Tablets Sugar Free  250 mg
+SOIN2602	Sodium Aurothiomalate  Injection  20 mg/0.5 ml ampoule
+NAE/36167MGEMIS	Naproxen  E/c tablets  500 mg (Sandoz)
+NETA36208MGEMIS	Neostigmine  Tablets  15 mg (Unichem)
+DICR895	Difflam  Cream  3 %
+TICA13576NEMIS	Tiloket Cr  M/R capsules  100 mg
+BAIN3065NEMIS	Baclofen  Solution for injection  50 micrograms/1 ml ampoule
+EBSO52774NEMIS	Ebetrex  Solution for injection  15 mg/1.5 ml pre-filled syringe
+FETA1157	Fenbufen  Tablets  300 mg
+IDSO136320NEMIS	Idacio  Solution for injection  40 mg/0.8 ml vial
+IBTA35496MGEMIS	Ibuprofen  Tablets  200 mg (A.A.H. Pharm)
+DEIN8952BRIDL	Depo-Medrone With Lidocaine  Injection, 1 ml vial  
+KEGE35641MGEMIS	Ketoprofen  Gel  2.5 % (Unichem)
+ABSO132446NEMIS	Abatacept  Solution for injection  50 mg/0.4 ml pre-filled syringe
+FRTA1246	Froben  Tablets  50 mg
+SUTA37094MGEMIS	Sulindac  Tablets  100 mg (Unichem)
+ARTA1670NEMIS	Arava  Tablets  10 mg
+MEOR83162NEMIS	Meloxicam  Orodispersible Tablets (Sugar Free)  7.5 mg
+NAOR46510NEMIS	Naproxen  Oral suspension  200 mg/5 ml
+INCA38159MGEMIS	Indometacin  Capsules  50 mg (Kent Pharm)
+MEIN21799NEMIS	Methotrexate  Injection (pre-filled syringe)  10 mg in 1 ml (10 mg/ml)
+TULI4071NEMIS	Turpentine  Liniment  BP
+IDSO136326NEMIS	Idacio  Solution for injection  40 mg/0.8 ml pre-filled syringe
+BETA37988MGEMIS	Benorilate  Tablets  750 mg (A.A.H. Pharm)
+PIDI36559MGEMIS	Piroxicam  Dispersible tablets  10 mg (A.A.H. Pharm)
+AMSO128585NEMIS	Amgevita  Solution for injection  20 mg/0.4 ml pre-filled syringe
+DIE/1994NEMIS	Diclofenac Sodium  E/c tablets  25 mg
+MEIN21800NEMIS	Methotrexate  Injection (pre-filled syringe)  15 mg in 1.5 ml (10 mg/ml)
+FLTA35180MGEMIS	Flurbiprofen  Tablets  100 mg (Unichem)
+FEGE29439EMIS	Fenbid  Gel  5 %
+ARTA28967NEMIS	Arcoxia  Tablets  30 mg
+DEIN20066EMIS	Depo-Medrone  Injection  120 mg/3 ml vial
+MEIN90740NEMIS	Metoject Pen  Injection  22.5 mg/0.45 ml (50 mg/ml), pre-filled pen
+AUTA4615	Auranofin  Tablets  3 mg
+LIIN26275EMIS	Lioresal  Intrathecal Solution For Infusion  10 mg/20 ml ampoule
+IBPU25784EMIS	Ibuprofen  Pump spray  5 %
+OTTA100614NEMIS	Otezla  Tablets  30 mg
+COCH27005NEMIS	Cozachew Meltdown Combi  Chewable tablets  500 mg + 400 mg
+DIE/37649MGEMIS	Diclofenac Sodium  E/c tablets  50 mg (Sandoz)
+PRSP23103NEMIS	Pr Heat  Spray  
+DIE/37641MGEMIS	Diclofenac Sodium  E/c tablets  25 mg (Alpharma)
+CATA494	Carisoma  Tablets  125 mg
+OTTA100616NEMIS	Otezla Treatment Initiation Pack  Tablets  
+TOTA127603NEMIS	Tofacitinib  Tablets  10 mg
+FECA1149	Feldene  Capsules  20 mg
+INCA1464	Indolar Sr  M/R capsules  75 mg
+DEM/12580NEMIS	Defanac Retard  M/R tablets  100 mg
+DIE/4229NEMIS	Diclovol  E/c tablets  50 mg
+FLTA35189MGEMIS	Flurbiprofen  Tablets  50 mg (Genus Pharm)
+EBCA6714NEMIS	Ebretin  Capsules  200 mg
+ROTA2460	Robaxin 750  Tablets  750 mg
+RHM/6447NEMIS	Rheumatac Retard  M/R tablets  75 mg
+SUTA2745	Surgam  Tablets  300 mg
+MOGE9187BRIDL	Movelat  Gel  
+VOEM10166BRIDL	Voltarol  Emulgel  1.16 %
+CATA6833	Carisoprodol  Tablets  350 mg
+ALTA33670MGEMIS	Allopurinol  Tablets  100 mg (Alpharma)
+FETA4911	Fenbufen  Tablets  450 mg
+HUSO52108NEMIS	Humira  Solution for injection  40 mg/0.8 ml vial
+ORSU2114	Orudis  Suppositories  100 mg
+LYOR18743NEMIS	Lyflex  Oral Solution, Sugar Free  5 mg/5 ml
+ARE/11592NEMIS	Arthrosin  E/c tablets  250 mg
+COCH23399NEMIS	Cozachew Meltdown 1500  Chewable tablets  
+NEE/130656NEMIS	Nexocin Ec  Gastro-resistant Tablets  375 mg
+DITA944	Distamine  Tablets  250 mg
+MEIN21805NEMIS	Metoject  Injection (pre-filled syringe)  10 mg/ml, 10 mg in 1 ml syringe
+PICA36540MGEMIS	Piroxicam  Capsules  10 mg (Generics (UK))
+MEIN47263NEMIS	Methotrexate  Injection  30 mg/0.6 ml (50 mg/ml), pre-filled syringe
+IBGE19087NEMIS	Ibuleve Maximum Strength  Gel  10 %
+TETA37154MGEMIS	Tenoxicam  Tablets  20 mg (Sandoz)
+ROTA468NEMIS	Rofecoxib  Tablets  25 mg
+HUSO130246NEMIS	Hulio  Solution for injection  40 mg/0.8 ml pre-filled pen
+INSU38165MGEMIS	Indometacin  Suppositories  100 mg (Alpharma)
+HYIN4995	Hyaluronidase  Powder For Solution For Injection  1,500 unit ampoule
+NATA36190MGEMIS	Naproxen  Tablets  500 mg (Ivax Pharmaceuticals)
+WHLI37446MGEMIS	White  Liniment  (Thornton & Ross)
+VOIN9170BRIDL	Voltarol  Injection  25mg/ml, 3 ml ampoule
+ETTA28966NEMIS	Etoricoxib  Tablets  30 mg
+NATA36188MGEMIS	Naproxen  Tablets  500 mg (Kent Pharm)
+ARTA9213BRIDL	Arthrofen  Tablets  400 mg
+IBTA19439NEMIS	Ibuprofen M/r And Codeine  Tablets  300 mg + 20 mg
+FEM/26313EMIS	Fenoket  M/R capsules  200 mg
+DIIN9753BRIDL	Diclofenac Sodium  Injection  25 mg/ml, 3 ml ampoule
+META36035MGEMIS	Methotrexate  Tablets  2.5 mg (Wyeth)
+MELI4018NEMIS	Methyl Salicylate  Liquid  BP
+FLTA35186MGEMIS	Flurbiprofen  Tablets  50 mg (Unichem)
+ZYTA3102	Zyloric  Tablets  100 mg
+MOTAEGTON6117	Motrin  Tablets  400 mg
+MEIN36547NEMIS	Metoject  Injection (pre-filled syringe)  20 mg in 0.4 ml (50 mg/ml)
+FECA1154	Fenbid  Capsules  300 mg
+SUTA37093MGEMIS	Sulindac  Tablets  100 mg (Kent Pharm)
+PIDI36556MGEMIS	Piroxicam  Dispersible tablets  10 mg (Unichem)
+PRTA18912NEMIS	Prexige  Tablets  100 mg
+NAE/36163MGEMIS	Naproxen  E/c tablets  250 mg (Ivax Pharmaceuticals)
+KECA8761BRIDL	Ketoprofen  M/R capsules  100 mg
+FLM/26557EMIS	Flamrase Sr  M/R tablets  100 mg
+INCA17689NEMIS	Indometacin  Capsules  50 mg
+MEIN124635NEMIS	Methofill  Injection  30 mg/0.6 ml (50 mg/ml), pre-filled injector
+MOM/25331EMIS	Motifene  E/C, M/R capsules  75 mg
+DIOR103674NEMIS	Diclofenac Sodium  Oral solution  50 mg/5 ml
+FLM/35149EMIS	Flamrase Sr  M/R tablets  75 mg
+MEIN20461EMIS	Methylprednisolone Acetate  Injection  80 mg/2 ml vial
+HUSO24097NEMIS	Humira  Solution for injection in pre-filled pen  40 mg/0.8 ml
+SUTA37096MGEMIS	Sulindac  Tablets  200 mg (Generics (UK))
+MEIN21804NEMIS	Metoject  Injection (pre-filled syringe)  10 mg/ml, 7.5 mg in 0.75 ml syringe
+STEF108924NEMIS	Stirlescent  Effervescent tablets  250 mg
+DIE/37642MGEMIS	Diclofenac Sodium  E/c tablets  25 mg (Kent Pharm)
+RHCAEGTON6141	Rheumacin La  M/R capsules  75 mg
+DEIN835	Depo-Medrone  Injection  40 mg/1 ml vial
+TITA76881NEMIS	Tiopronin  Tablets  100 mg
+SAPL31963EMIS	Salonpas  Plasters  
+HYSO130240NEMIS	Hyrimoz  Solution for injection  40 mg/0.8 ml pre-filled syringe
+IBCA29306NEMIS	Ibuprofen  Capsules  200 mg
+FLTA35184MGEMIS	Flurbiprofen  Tablets  50 mg (Kent Pharm)
+DITA10753BRIDL	Diclozip-50  Tablets  50 mg
+TETA37153MGEMIS	Tenoxicam  Tablets  20 mg (A.A.H. Pharm)
+NAE/36164MGEMIS	Naproxen  E/c tablets  250 mg (Kent Pharm)
+JYOR124971NEMIS	Jylamvo  Oral solution  2 mg/ml
+NUOR24737NEMIS	Nurofen For Children Singles  Oral suspension  100 mg/5 ml sachet strawberry
+HYSO130239NEMIS	Hyrimoz  Solution for injection  40 mg/0.8 ml pre-filled pen
+PICA36542MGEMIS	Piroxicam  Capsules  10 mg (The Boots Company)
+IBCA117790NEMIS	Ibuprofen  Capsules  400 mg
+MYIN1918	Myocrisin  Injection  20 mg/0.5 ml ampoule
+SOLI11077NEMIS	Soap  Liniment (Methylated)  BPC
+KEM/35636MGEMIS	Ketoprofen  M/R capsules  100 mg (Kent Pharm)
+DICU34929NEMIS	Diclofenac  Cutaneous Spray  4 %
+KECA35626MGEMIS	Ketoprofen  Capsules  100 mg (Sandoz)
+META35930MGEMIS	Mefenamic Acid  Tablets  500 mg (Winthrop Pharmaceuticals )
+TOTA122359NEMIS	Tofacitinib  Tablets  5 mg
+DIE/26685EMIS	Diclofenac Sodium  E/C, M/R capsules  75 mg
+META28881EMIS	Meloxicam  Tablets  7.5 mg
+AKSO127227NEMIS	Akis  Solution for injection  75 mg/1 ml ampoule
+TITA2855	Tiaprofenic Acid  Tablets  300 mg
+ORGE9595EMIS	Oruvail  Gel  2.5 %
+DIE/37647MGEMIS	Diclofenac Sodium  E/c tablets  50 mg (Kent Pharm)
+BEOR37983MGEMIS	Benorilate  Oral Suspension Sugar Free  2 grams/5 ml (Unichem)
+MEIN21798NEMIS	Methotrexate  Injection (pre-filled syringe)  7.5 mg in 0.75 ml (10 mg/ml)
+MEIN36538NEMIS	Methotrexate  Injection  25 mg/0.5 ml (50 mg/ml), pre-filled syringe
+MEIN52778NEMIS	Methotrexate  Injection (pre-filled syringe)  25 mg in 1.25 ml (20 mg/ml)
+DUSPEGTON6214	Dubam  Spray  
+IBTA128529NEMIS	Ibuprofen And Codeine  Tablets  200 mg + 12.8 mg
+LITA1670	Lioresal  Tablets  10 mg
+DEIN28223EMIS	Depo-Medrone With Lidocaine  Injection, 2 ml vial  
+KETA50005EMIS	Keral  Tablets  25 mg
+DEGE27684EMIS	Deep Relief  Gel  
+AMTA42276NEMIS	Amifampridine  Tablets  10 mg
+KESU1572	Ketoprofen  Suppositories  100 mg
+MATA101957NEMIS	Masidemen  Tablets  75 mg + 200 micrograms
+BAIN3066NEMIS	Baclofen  Solution for infusion  10 mg/20 ml ampoule
+DITA896	Diflunisal  Tablets  250 mg
+MEIN133554NEMIS	Methofill  Injection  10 mg/0.2 ml (50 mg/ml), pre-filled syringe
+COSO101269NEMIS	Cosentyx  Solution for injection  150 mg/1 ml pre-filled syringe
+EBSO52775NEMIS	Ebetrex  Solution for injection  7.5 mg/0.75 ml pre-filled syringe
+DACA4803	Dantrolene Sodium  Capsules  100 mg
+MEIN90723NEMIS	Methotrexate  Injection  7.5 mg/0.15 ml (50 mg/ml), pre-filled device
+MOTA28874EMIS	Mobic  Tablets  15 mg
+ECIN13410NEMIS	Econac  Injection  25 mg/ml, 3 ml ampoule
+KECA35631MGEMIS	Ketoprofen  Capsules  50 mg (Kent Pharm)
+DYCA9235BRIDL	Dysman-500  Tablets  500 mg
+TITA31676EMIS	Tizanidine Hydrochloride  Tablets  2 mg
+NUOR24738NEMIS	Nurofen For Children Singles  Oral suspension  100 mg/5 ml sachet orange
+DIM/98327NEMIS	Dicloflex Retard  M/R tablets  100 mg
+META35935MGEMIS	Mefenamic Acid  Tablets  500 mg (Ivax Pharmaceuticals)
+CUGE4562NEMIS	Cuprofen  Gel  5 %
+NASU5188	Naproxen  Oral suspension  125 mg/5 ml
+FESU13344NEMIS	Feverfen  Suspension  100 mg/5 ml
+NATA5189	Naproxen Sodium  Tablets  275 mg
+SUTA2724	Sulindac  Tablets  100 mg
+DISU25795EMIS	Diclofenac Sodium  Suppositories  25 mg
+NATA1939	Naproxen  Tablets  500 mg
+ETPO20245NEMIS	Etanercept  Powder for injection  50 mg vial
+DETA20911NEMIS	Dexibuprofen  Tablets  300 mg
+IBFC10455BRIDL	Ibuprofen  Fc tablets  800 mg
+KEM/35637MGEMIS	Ketoprofen  M/R capsules  100 mg (A.A.H. Pharm)
+INPO100826NEMIS	Inflectra  Powder for concentrate for solution for infusion  100 mg vial
+FLM/33810EMIS	Flexotard Mr  M/R tablets  100 mg
+DIDI9410HILLI	Diclofenac Sodium  Dispersible tablets  Sugar Free 50 mg
+CISO135548NEMIS	Cimzia  Solution for injection  200 mg/1 ml dose-dispenser cartridge
+FETA35044MGEMIS	Fenbufen  Tablets  300 mg (Sterwin Medicines)
+BAIN3067NEMIS	Baclofen  Solution for infusion  10 mg/5 ml ampoule
+PICA36543MGEMIS	Piroxicam  Capsules  10 mg (Unichem)
+GOEM35186NEMIS	Goddard's  Embrocation  
+FLME127586NEMIS	Flector Tissugel  Medicated Plaster  140 mg
+REIN1903NEMIS	Remicade  Powder for concentrate for solution for infusion  100 mg vial
+PYOR95990NEMIS	Pyridostigmine Bromide  Oral suspension  20 mg/5 ml
+PICA36555MGEMIS	Piroxicam  Capsules  20 mg (Sandoz)
+BRTA34387EMIS	Brexidol  Tablets  20 mg
+VOTA9037BRIDL	Volraman  Tablets  25 mg
+HUSO24097NEMIS	Humira  Solution for injection in pre-filled pen  40 mg/0.8 ml
+FEGE190NEMIS	Fenbid  Gel  10 %
+ROTA11575NEMIS	Rofecoxib  Tablets  50 mg
+HUSO130247NEMIS	Hulio  Solution for injection  40 mg/0.8 ml pre-filled syringe
+KECA8763BRIDL	Ketoprofen  M/R capsules  200 mg
+BRTA427	Brufen  Tablets  200 mg
+SAGE19444NEMIS	Salicylic Acid And Mucopolysaccharide Polysulfate  Gel  2 % + 0.2 %
+IBTA35490MGEMIS	Ibuprofen  Tablets  200 mg (Teva UK)
+NATA1938	Naproxen  Tablets  250 mg
+SISO46700NEMIS	Simponi  Solution for injection in pre-filled pen  50 mg/0.5 ml
+SOLI37791MGEMIS	Soap  Liniment (Methylated)  BPC (A.A.H. Pharm)
+KEM/26315EMIS	Ketocid  M/R capsules  200 mg
+DIE/37636MGEMIS	Diclofenac Sodium  E/c tablets  25 mg (Unichem)
+CLTA640	Clinoril  Tablets  200 mg
+FETA35062MGEMIS	Fenbufen  Tablets  450 mg (A.A.H. Pharm)
+MEIN90726NEMIS	Methotrexate  Injection  15 mg/0.3 ml (50 mg/ml), pre-filled device
+FECA35029MGEMIS	Fenbufen  Capsules  300 mg (Genus Pharm)
+NATA36184MGEMIS	Naproxen  Tablets  250 mg (A.A.H. Pharm)
+PIME22465EMIS	Piroxicam  Orodispersible tablets  20 mg
+ENSO39065NEMIS	Enbrel  Solution for injection in pre-filled pen  50 mg
+MOCR1898	Movelat  Cream  
+NATA1936	Naprosyn  Tablets  250 mg
+TIS/9948HILLI	Tiaprofenic Acid  S/r capsules  300 mg
+DIM/19795EMIS	Diclofenac Sodium  M/R tablets  75 mg
+NAE/9387EMIS	Naprosyn  E/c tablets  500 mg
+ADTA40656NEMIS	Adenuric  Tablets  120 mg
+DIE/37643MGEMIS	Diclofenac Sodium  E/c tablets  50 mg (Alpharma)
+KEM/24274EMIS	Ketovail  M/R capsules  200 mg
+MEOR12018NEMIS	Methotrexate  Oral suspension  2.5 mg/5 ml
+NATA36177MGEMIS	Naproxen  Tablets  250 mg (Unichem)
+IBDI14330NEMIS	Ibuprofen  Dissolving Tablets  200 mg
+NUDI14332NEMIS	Nurofen Meltlets  Dissolving Tablets  200 mg
+ADSU21769NEMIS	Adcortyl Intra-Articular/Intradermal  Suspension For Injection  10 mg/ml, 5 ml vial
+INCA38161MGEMIS	Indometacin  Capsules  50 mg (A.A.H. Pharm)
+INM/17695NEMIS	Indometacin  M/R capsules  75 mg
+IBMO35123EMIS	Ibuprofen  Mousse  5 %
+REDI14483NEMIS	Relifex  Dispersible tablets  500 mg
+KEIN9516EMIS	Ketoprofen  Injection  100 mg/2 ml ampoule
+MEIN51053NEMIS	Methotrexate  Injection  22.5 mg/0.45 ml (50 mg/ml), pre-filled syringe
+ALTA33678MGEMIS	Allopurinol  Tablets  300 mg (Kent Pharm)
+INCA1466	Indomod  M/R capsules  75 mg
+DITA978NEMIS	Diclofenac And Misoprostol  Tablets  50 mg + 200 micrograms
+FETA35039MGEMIS	Fenbufen  Tablets  300 mg (Ivax Pharmaceuticals)
+GLTA28049NEMIS	Glucosamine Hydrochloride  Tablets  750 mg
+PICA36553MGEMIS	Piroxicam  Capsules  20 mg (The Boots Company)
+NATA36182MGEMIS	Naproxen  Tablets  250 mg (Generics (UK))
+DIGE25688EMIS	Diclofenac Diethylammonium  Gel  1.16 %
+MEIN51003NEMIS	Metoject  Injection (pre-filled syringe)  27.5 mg in 0.55 ml (50 mg/ml)
+INOR133170NEMIS	Indometacin  Oral suspension  10 mg/5 ml
+VIOR472NEMIS	Vioxx  Oral suspension  12.5mg/5ml
+DISO127225NEMIS	Diclofenac Sodium  Solution for injection  75 mg/1 ml ampoule
+TRSU21765NEMIS	Triamcinolone Acetonide  Suspension For Injection  10 mg/ml, 1 ml ampoule
+ALTA33667MGEMIS	Allopurinol  Tablets  100 mg (Generics (UK))
+NAE/9203EMIS	Naproxen  E/c tablets  500 mg
+ARTA29148EMIS	Arthrotec 75  Tablets  
+CECA4200NEMIS	Celecoxib  Capsules  200 mg
+VOEM10166BRIDL	Voltarol  Emulgel  1.16 %
+COTA34665MGEMIS	Colchicine  Tablets  500 micrograms (Ivax Pharmaceuticals)
+SUTA2725	Sulindac  Tablets  200 mg
+BATA33926MGEMIS	Baclofen  Tablets  10 mg (Unichem)
+HYTA5012	Hydroxychloroquine Sulfate  Tablets  200 mg
+NAM/23440EMIS	Naprosyn Sr  M/R tablets  500 mg
+FITA138412NEMIS	Filgotinib  Tablets  100 mg
+JYTA138416NEMIS	Jyseleca  Tablets  200 mg
+DIGE89384NEMIS	Diclofenac Diethylammonium  Gel  2.32 %
+DAOR22604NEMIS	Dantrolene Sodium  Oral suspension  25 mg/5 ml
+MEIN51000NEMIS	Metoject  Injection (pre-filled syringe)  12.5 mg in 0.25 ml (50 mg/ml)
+IBTA35511MGEMIS	Ibuprofen  Tablets  400 mg (Ranbaxy)
+NATA1937	Naprosyn  Tablets  500 mg
+NEE/130655NEMIS	Nexocin Ec  Gastro-resistant Tablets  250 mg
+FEM/13657NEMIS	Fenactol Sr  M/R tablets  75 mg
+VITA11578NEMIS	Vioxxacute  Tablets  50 mg
+MEOI35909MGEMIS	Methyl Salicylate  Ointment  50%, BP (A.A.H. Pharm)
+NATA36194MGEMIS	Naproxen  Tablets  500 mg (Pfizer)
+ININ1901NEMIS	Infliximab  Powder for solution for infusion  100 mg vial
+ADSO130235NEMIS	Adalimumab  Solution for injection  80 mg/0.8 ml pre-filled syringe
+DROR44899NEMIS	Dronabinol And Cannabidiol  Oromucosal Spray  2.7 mg/dose + 2.5 mg/dose
+IBSU37580MGEMIS	Ibuprofen  Sugar-free suspension  100 mg/5 ml (Unichem)
+VOTA3064	Voltarol  Tablets  25 mg
+ZATA31672EMIS	Zanaflex  Tablets  2 mg
+ANTA180	Anturan  Tablets  200 mg
+DAOR46722NEMIS	Dantrolene Sodium  Oral solution  25 mg/5 ml
+INM/17692NEMIS	Indometacin  M/R tablets  50 mg
+COSO101278NEMIS	Cosentyx  Solution for injection  150 mg/1 ml pre-filled pen
+IBGE4299NEMIS	Ibugel Forte  Gel  10 %
+HUSO126127NEMIS	Humira  Solution for injection in pre-filled syringe  20 mg/0.2 ml
+KECA35627MGEMIS	Ketoprofen  Capsules  100 mg (The Boots Company)
+NAE/9203EMIS	Naproxen  E/c tablets  500 mg
+PIDI2281	Piroxicam  Dispersible tablets  10 mg
+MOTAEGTON6118	Motrin  Tablets  600 mg
+ARTA12806NEMIS	Arcoxia  Tablets  90 mg
+PETA36471MGEMIS	Penicillamine  Tablets  250 mg (Generics (UK))
+NATA36189MGEMIS	Naproxen  Tablets  500 mg (A.A.H. Pharm)
+DAOR85243NEMIS	Dantrolene Sodium  Oral suspension  12.5 mg/5 ml
+TOCO39341NEMIS	Tocilizumab  Concentrate For Solution For Infusion  80 mg/4 ml vial
+LOM/29324EMIS	Lofensaid Retard  M/R tablets  75 mg
+VAM/12791NEMIS	Valdic 75 Retard  M/R tablets  75 mg
+AMTA46568NEMIS	Amifampridine  Tablets  20 mg
+MEIN90739NEMIS	Metoject Pen  Injection  20 mg/0.4 ml (50 mg/ml), pre-filled pen
+IBGR19661EMIS	Ibuprofen  Granules  600 mg/sachet
+DIME21536NEMIS	Diclofenac  Medicated Plaster  1 % Patch
+MITA81514NEMIS	Misofen  Tablets  75 mg + 200 micrograms
+DIM/1764NEMIS	Diclovol Retard  M/R tablets  100 mg
+MEOR21341NEMIS	Methotrexate  Oral suspension  15 mg/5 ml
+ADSO16467NEMIS	Adalimumab  Solution for injection in pre-filled syringe  40 mg/0.8 ml
+ARTA9219BRIDL	Arthrosin  Tablets  500 mg
+FEGE190NEMIS	Fenbid  Gel  10 %
+DITA1026NEMIS	Diclofenac Potassium  Tablets  50 mg
+CESO117646NEMIS	Certolizumab Pegol  Solution for injection  200 mg/1 ml pre-filled device
+ARTA12804NEMIS	Arcoxia  Tablets  60 mg
+IBGE189NEMIS	Ibuprofen  Gel  10 %
+INSU38163MGEMIS	Indometacin  Suppositories  100 mg (Kent Pharm)
+VOTA1028NEMIS	Voltarol Rapid  Tablets  50 mg
+NATA138308NEMIS	Nabumetone (Imported)  Tablets  500 mg
+BATA33923MGEMIS	Baclofen  Tablets  10 mg (Ivax Pharmaceuticals)
+VAM/12793NEMIS	Valdic 100 Retard  M/R tablets  100 mg
+FEGE8756BRIDL	Feldene  Gel  0.5 %
+PRTA28339EMIS	Preservex  Tablets  100 mg
+META35932MGEMIS	Mefenamic Acid  Tablets  500 mg (Unichem)
+XATA8923EGTON	Xanthomax  Tablets  300 mg
+IBTA1431	Ibuprofen  Tablets  600 mg
+IBTA35506MGEMIS	Ibuprofen  Tablets  400 mg (Vantage)
+BEPO51824NEMIS	Benlysta  Powder for concentrate for solution for infusion  400 mg vial
+OLTA124053NEMIS	Olumiant  Tablets  2 mg
+KEM/39418NEMIS	Ketoprofen And Omeprazole  M/R capsules  100 mg + 20 mg
+FLTA9566EMIS	Flexin-25 Continus  M/R tablets  25 mg
+DIE/37638MGEMIS	Diclofenac Sodium  E/c tablets  25 mg (Sandoz)
+PICA2279	Piroxicam  Capsules  10 mg
+ALTA27099NEMIS	Alateris  Tablets  625 mg
+WHLI37443MGEMIS	White  Liniment  (A.A.H. Pharm)
+MEIN90743NEMIS	Metoject Pen  Injection  30 mg/0.6 ml (50 mg/ml), pre-filled pen
+NADI14482NEMIS	Nabumetone  Dispersible tablets  500 mg
+MEIN90724NEMIS	Methotrexate  Injection  10 mg/0.2 ml (50 mg/ml), pre-filled device 
+PEOR117729NEMIS	Penicillamine  Oral suspension  250 mg/5 ml
+TIOR46824NEMIS	Tizanidine Hydrochloride  Oral solution  2 mg/5 ml
+FETA1160	Fenoprofen  Tablets  600 mg
+MECA35875MGEMIS	Mefenamic Acid  Capsules  250 mg (Generics (UK))
+BETA17557NEMIS	Benorilate  Tablets  750 mg
+LUTA18907NEMIS	Lumiracoxib  Tablets  100 mg
+NATA36179MGEMIS	Naproxen  Tablets  250 mg (Ivax Pharmaceuticals)
+BESA309	Benorylate  Sachets  2 g
+META35936MGEMIS	Mefenamic Acid  Tablets  500 mg (Alpharma)
+ERSO124107NEMIS	Erelzi  Solution for injection  50 mg/1 ml pre-filled pen
+TIGE15543NEMIS	Tiloket  Gel  2.5 %
+VITA474NEMIS	Vioxx  Tablets  12.5 mg
+INM/17693NEMIS	Indometacin  M/R tablets  75 mg
+IBSU13346NEMIS	Ibuprofen  Suspension  100 mg/5 ml
+VOPA10812BRIDL	Voltarol  Paediatric suppositories  12.5 mg
+ALCREGTON6173	Algesal  Cream  10 %
+NUOR33298NEMIS	Nurofen For Children  Oral Suspension (Orange)  100 mg/5 ml
+MOTAEGTON6119	Motrin  Tablets  800 mg
+HYIN1382	Hyalase  Powder For Solution For Injection  1,500 unit ampoule
+COTA9999	Colchicine  Tablets  500 micrograms
+SAOR19281NEMIS	Sativex  Oromucosal Spray  
+NAE/36168MGEMIS	Naproxen  E/c tablets  500 mg (Kent Pharm)
+FETA13655NEMIS	Fenactol  Gastro-resistant Tablets  50 mg
+ENPO20246NEMIS	Enbrel  Powder for injection  50 mg vial
+ADSO116558NEMIS	Adalimumab  Solution for injection in pre-filled pen  40 mg/0.4 ml
+IBTA35505MGEMIS	Ibuprofen  Tablets  400 mg (Thornton & Ross)
+PHGE26859NEMIS	Phorpain Maximum Strength  Gel  10 %
+DICR6758	Diethylamine Salicylate  Cream  10 %
+ALTA77	Allopurinol  Tablets  100 mg
+KEM/35635MGEMIS	Ketoprofen  M/R capsules  100 mg (Unichem)
+ETPO52647NEMIS	Etanercept  Powder and solvent for solution for injection  10 mg vial
+BATA33927MGEMIS	Baclofen  Tablets  10 mg (Kent Pharm)
+MEIN124629NEMIS	Methofill  Injection  15 mg/0.3 ml (50 mg/ml), pre-filled injector
+PYSU11627NEMIS	Pyridostigmine Bromide  Suspension  50 mg/5 ml
+MEIN90726NEMIS	Methotrexate  Injection  15 mg/0.3 ml (50 mg/ml), pre-filled device
+ALTA33677MGEMIS	Allopurinol  Tablets  300 mg (Ranbaxy)
+BEPO51819NEMIS	Belimumab  Powder for concentrate for solution for infusion  120 mg vial
+IBMO35121EMIS	Ibumousse  Mousse  5 %
+SESO139175NEMIS	NULL
+MEIN47264NEMIS	Metoject  Injection (pre-filled syringe)  30 mg in 0.6 ml (50 mg/ml)
+SUTA37092MGEMIS	Sulindac  Tablets  100 mg (Generics (UK))
+TITA37244MGEMIS	Tizanidine Hydrochloride  Tablets  2 mg (Kent Pharm)
+IBGR19661EMIS	Ibuprofen  Granules  600 mg/sachet
+VOTA51616NEMIS	Voltarol Pain-Eze Extra Strength  Tablets  25 mg
+KEGE35642MGEMIS	Ketoprofen  Gel  2.5 % (A.A.H. Pharm)
+ROCO39343NEMIS	Roactemra  Concentrate For Solution For Infusion  80 mg/4 ml vial
+NETA36207MGEMIS	Neostigmine  Tablets  15 mg (Cambridge Labs)
+FLM/21338NEMIS	Flamatak  M/R tablets  75 mg
+IBTA35508MGEMIS	Ibuprofen  Tablets  400 mg (Kent Pharm)
+GLEF48149NEMIS	Glucosamine Hydrochloride  Effervescent Tablets Sugar Free  1.5 grams
+PRIN5325	Prednisolone Acetate  Suspension For Injection  25 mg/ml, 1 ml ampoule
+SUTA37095MGEMIS	Sulindac  Tablets  200 mg (A.A.H. Pharm)
+CESO78921NEMIS	Certolizumab Pegol  Solution for injection  200 mg/1 ml pre-filled syringe
+MEIN51054NEMIS	Methotrexate  Injection  27.5 mg/0.55 ml (50 mg/ml), pre-filled syringe
+SOTA16103NEMIS	Solpaflex  Tablets  
+LETA10497BRIDL	Lederfen  Tablets  450 mg
+ENSO23531NEMIS	Enbrel  Solution for injection in pre-filled syringe  50 mg
+FEDI1151	Feldene  Dispersible tablets  20 mg
+DIME109439NEMIS	Diclofenac  Medicated Plaster  140 mg
+BAOR138567NEMIS	Baclofen  Oral solution  20 mg/5 ml
+MEIN133558NEMIS	Methofill  Injection  20 mg/0.4 ml (50 mg/ml), pre-filled syringe
+HUSO116559NEMIS	Humira  Solution for injection in pre-filled syringe  40 mg/0.4 ml
+ZEPO130445NEMIS	Zessly  Powder for concentrate for solution for infusion  100 mg vial
+DIM/26683EMIS	Diclofenac Sodium  M/R capsules  75 mg
+IBM/18882EMIS	Ibuprofen  M/R tablets  800 mg
+MEIN51051NEMIS	Methotrexate  Injection  12.5 mg/0.25 ml (50 mg/ml), pre-filled syringe
+COTA34666MGEMIS	Colchicine  Tablets  500 micrograms (A.A.H. Pharm)
+NAM/21941EMIS	Naproxen  M/R tablets  500 mg
+CECA4200NEMIS	Celecoxib  Capsules  200 mg
+MYIN1918	Myocrisin  Injection  20 mg/0.5 ml ampoule
+NATA36186MGEMIS	Naproxen  Tablets  500 mg (Alpharma)
+ALTA33671MGEMIS	Allopurinol  Tablets  100 mg (Kent Pharm)
+ORSU13785NEMIS	Orbifen  Sugar-free oral suspension  100 mg/5 ml
+INCA1462	Indocid-R  M/R capsules  75 mg
+ARE/11593NEMIS	Arthrosin  E/c tablets  500 mg
+VODI9425BRIDL	Voltarol  Dispersible tablets  50 mg
+RIM/140392NEMIS	NULL
+INCA1465	Indomod  M/R capsules  25 mg
+MECA35872MGEMIS	Mefenamic Acid  Capsules  250 mg (Winthrop Pharmaceuticals )
+NATA36202MGEMIS	Nabumetone  Tablets  500 mg (Ivax Pharmaceuticals)
+DEIN835	Depo-Medrone  Injection  40 mg/1 ml vial
+DIE/1995NEMIS	Diclofenac Sodium  E/c tablets  50 mg
+RAHE3370NEMIS	Ralgex  Heat Spray  
+DITA26778EMIS	Dicloflex  Tablets  50 mg
+DIE/37644MGEMIS	Diclofenac Sodium  E/c tablets  50 mg (Sterwin Medicines)
+IDSO136325NEMIS	Idacio  Solution for injection  40 mg/0.8 ml pre-filled pen
+DIE/37650MGEMIS	Diclofenac Sodium  E/c tablets  50 mg (A.A.H. Pharm)
+ZYTA3103	Zyloric  Tablets  300 mg
+PICA36550MGEMIS	Piroxicam  Capsules  20 mg (Kent Pharm)
+NUGE16138NEMIS	Nurofen  Gel  5 %
+VOSU3063	Voltarol  Suppositories  100 mg
+LOTA11601NEMIS	Lornoxicam  Tablets  4 mg
+BRTA428	Brufen  Tablets  400 mg
+SLM/30974EMIS	Slofenac Sr  M/R tablets  75 mg
+VITA11577NEMIS	Vioxxacute  Tablets  25 mg
+JOM/4512NEMIS	Jomethid Xl  M/R capsules  200 mg
+FETA22463EMIS	Feldene Melt  Orodispersible tablets  20 mg
+NETA36206MGEMIS	Neostigmine  Tablets  15 mg (A.A.H. Pharm)
+KECA1571	Ketoprofen  Capsules  50 mg
+HYIN33990EMIS	Hyalgan  Solution for injection  20 mg/2 ml pre-filled syringe
+PETA36472MGEMIS	Penicillamine  Tablets  250 mg (A.A.H. Pharm)
+HYTA5012	Hydroxychloroquine Sulfate  Tablets  200 mg
+VAM/47025NEMIS	Valket Retard  M/R capsules  200 mg
+TRSP25135EMIS	Transvasin Heat  Spray application  
+ADSO116557NEMIS	Adalimumab  Solution for injection in pre-filled syringe  40 mg/0.4 ml
+IBSU37581MGEMIS	Ibuprofen  Sugar-free suspension  100 mg/5 ml (Sandoz)
+NYE/9199EMIS	Nycopren  E/c tablets  500 mg
+NATA36198MGEMIS	Nabumetone  Tablets  500 mg (Unichem)
+IBGE29375NEMIS	Ibuderm  Gel  5 %
+DIM/22313EMIS	Diclomax Retard  M/R capsules  100 mg
+ARTA1671NEMIS	Arava  Tablets  20 mg
+MEIN36532NEMIS	Methotrexate  Injection  7.5 mg/0.15 ml (50 mg/ml), pre-filled syringe
+KEM/26658EMIS	Ketozip Xl  M/R capsules  200 mg
+LECA1637	Lederfen  Capsules  300 mg
+PIGE36592MGEMIS	Piroxicam  Gel  0.5 % (Unichem)
+PICA36554MGEMIS	Piroxicam  Capsules  20 mg (A.A.H. Pharm)
+VOSU25791EMIS	Voltarol  Suppositories  25 mg
+IBTA35502MGEMIS	Ibuprofen  Tablets  200 mg (Lloyds)
+MOSU28873EMIS	Mobic  Suppositories  15 mg
+NAE/36171MGEMIS	Naproxen  E/c tablets  500 mg (Unichem)
+PHTA6826	Phenylbutazone  Tablets  200 mg
+MEIN19442NEMIS	Methylprednisolone And Lidocaine  Injection  40 mg/ml + 10 mg/ml, 2 ml vial
+TOCO39341NEMIS	Tocilizumab  Concentrate For Solution For Infusion  80 mg/4 ml vial
+PIGE8758BRIDL	Piroxicam  Gel  0.5 %
+SISO46698NEMIS	Simponi  Solution for injection in pre-filled syringe  50 mg/0.5 ml
+META5134	Methocarbamol  Tablets  750 mg
+NEIN5198	Neostigmine  Injection  2.5 mg/ml, 1 ml ampoule
+ETSO124812NEMIS	Etanercept  Solution for injection in pre-filled device  25 mg
+MOGE16130NEMIS	Movelat Relief  Gel  
+DIDI44687NEMIS	Diclofenac Sodium  Dispersible tablets  10 mg
+GOSO124409NEMIS	Golimumab  Solution for injection  50 mg/0.5 ml pre-filled syringe
+MEIN51002NEMIS	Metoject  Injection (pre-filled syringe)  22.5 mg in 0.45 ml (50 mg/ml)
+SACR21408NEMIS	Salicylic Acid And Mucopolysaccharide Polysulfate  Cream  2 % + 0.2 %
+HETA16101NEMIS	Hedex Ibuprofen  Tablets  200 mg
+PICA36549MGEMIS	Piroxicam  Capsules  20 mg (Generics (UK))
+REPO100638NEMIS	Remsima  Powder for concentrate for solution for infusion  100 mg vial
+NATA36191MGEMIS	Naproxen  Tablets  500 mg (Generics (UK))
+BATA10556BRIDL	Baclospas 10  Tablets  10 mg
+GLTA28031NEMIS	Glucosamine Hydrochloride  Tablets  625 mg
+IBSU37583MGEMIS	Ibuprofen  Sugar-free suspension  100 mg/5 ml (Kent Pharm)
+DIM/26683EMIS	Diclofenac Sodium  M/R capsules  75 mg
+PICA36551MGEMIS	Piroxicam  Capsules  20 mg (Unichem)
+ALOR45587NEMIS	Allopurinol  Oral solution  100 mg/5 ml
+ECM/17498NEMIS	Econac Sr  M/R tablets  75 mg
+SOIN2604	Sodium Aurothiomalate  Injection  50 mg/0.5 ml ampoule
+SUCA8866BRIDL	Surgam Sa  Capsules  300 mg
+ECCA15788NEMIS	Eccoxolac  Capsules  300 mg
+DITA884	Diclofenac Sodium  M/R tablets  100 mg
+KEGE35644MGEMIS	Ketoprofen  Gel  2.5 % (PLIVA Pharma Ltd)
+INOR29250NEMIS	Indometacin  Oral Suspension (Sugar-Free)  25 mg/5 ml
+MEIN90742NEMIS	Metoject Pen  Injection  27.5 mg/0.55 ml (50 mg/ml), pre-filled pen
+PRTA18914NEMIS	Prexige  Tablets  400 mg
+KESU39491NEMIS	Kenalog  Suspension For Injection  40 mg/ml, 1 ml vial
+BATA33925MGEMIS	Baclofen  Tablets  10 mg (Generics (UK))
+MEIN90737NEMIS	Metoject Pen  Injection  15 mg/0.3 ml (50 mg/ml), pre-filled pen
+INCA38162MGEMIS	Indometacin  Capsules  50 mg (Sandoz)
+ROTA466NEMIS	Rofecoxib  Tablets  12.5 mg
+DEM/6708NEMIS	Defanac Sr  M/R tablets  75 mg
+ROOR469NEMIS	Rofecoxib  Oral suspension  Sugar Free 12.5mg/5ml
+RESO135913NEMIS	Remsima  Solution for injection  120 mg/1 ml pre-filled pen
+ETM/23692NEMIS	Etopan Xl  M/R tablets  600 mg
+IBCR10558BRIDL	Ibuprofen  Cream  5 %
+NAE/36170MGEMIS	Naproxen  E/c tablets  500 mg (Ivax Pharmaceuticals)
+ORPO25652NEMIS	Orencia  Powder for concentrate for solution for infusion  250 mg vial
+DEIN20066EMIS	Depo-Medrone  Injection  120 mg/3 ml vial
+BATA33921MGEMIS	Baclofen  Tablets  10 mg (Alpharma)
+PICA36547MGEMIS	Piroxicam  Capsules  10 mg (Sandoz)
+MEIN36535NEMIS	Methotrexate  Injection  15 mg/0.3 ml (50 mg/ml), pre-filled syringe
+IBGE35486MGEMIS	Ibuprofen  Gel  5 % (A.A.H. Pharm)
+META1753	Mefenamic Acid  Tablets  500 mg
+ENPO23533NEMIS	Enbrel Paediatric  Powder and solvent for solution for injection  25 mg vial
+ZATA31673EMIS	Zanaflex  Tablets  4 mg
+GOSO124407NEMIS	Golimumab  Solution for injection  100 mg/1 ml pre-filled device
+HYOR77631NEMIS	Hydroxychloroquine  Oral suspension  100 mg/5 ml
+ORCA2115	Oruvail  M/R capsules  100 mg
+PETA36469MGEMIS	Penicillamine  Tablets  125 mg (Alpharma)
+NEE/130657NEMIS	Nexocin Ec  Gastro-resistant Tablets  500 mg
+META5134	Methocarbamol  Tablets  750 mg
+ENSO39065NEMIS	Enbrel  Solution for injection in pre-filled pen  50 mg
+BIGE33498NEMIS	Atrogel Arnica  Gel  
+TRGE36228NEMIS	Traxam Pain Relief  Gel  3 %
+META1784	Mestinon  Tablets  60 mg
+IBTA1431	Ibuprofen  Tablets  600 mg
+DISO29321NEMIS	Diclofenac Sodium  Solution for injection  75 mg/2 ml vial
+MOSP34931NEMIS	Mobigel  Spray  4 %
+TRCR2891	Transvasin Heat  Rub (Cream)  
+PETA36465MGEMIS	Penicillamine  Tablets  125 mg (Unichem)
+MEIN51051NEMIS	Methotrexate  Injection  12.5 mg/0.25 ml (50 mg/ml), pre-filled syringe
+ARTA22354EMIS	Arthrotec 50  Tablets  
+HYOR46475NEMIS	Hydroxychloroquine  Oral suspension  200 mg/5 ml
+DIOR124185NEMIS	Diclofenac Sodium  Oral suspension  50 mg/5 ml
+MEOR21783NEMIS	Methotrexate  Oral suspension  7.5 mg/5 ml
+CATA495	Carisoma  Tablets  350 mg
+DAOR89389NEMIS	Dantrolene Sodium  Oral suspension  100 mg/5 ml
+FETA35058MGEMIS	Fenbufen  Tablets  450 mg (Kent Pharm)
+IBCH139126NEMIS	NULL
+MEIN21806NEMIS	Metoject  Injection (pre-filled syringe)  10 mg/ml, 15 mg in 1.5 ml syringe
+FETA35042MGEMIS	Fenbufen  Tablets  300 mg (Kent Pharm)
+PYSY16172NEMIS	Pyridostigmine Bromide  Oral solution  60 mg/5 ml
+KECA35630MGEMIS	Ketoprofen  Capsules  50 mg (Generics (UK))
+PIDI36561MGEMIS	Piroxicam  Dispersible tablets  20 mg (Unichem)
+NYE/9198EMIS	Nycopren  E/c tablets  250 mg
+NAE/9385EMIS	Naprosyn  E/c tablets  250 mg
+ADSO24096NEMIS	Adalimumab  Solution for injection in pre-filled pen  40 mg/0.8 ml
+TRIN10237BRIDL	Triamcinolone Hexacetonide  Injection  20 mg/1 ml
+IMSO130243NEMIS	Imraldi  Solution for injection  40 mg/0.8 ml pre-filled syringe
+ETCA10348BRIDL	Etodolac  Capsules  300 mg
+PRTA2351	Probenecid  Tablets  500 mg
+ADSO126125NEMIS	Adalimumab  Solution for injection in pre-filled syringe  20 mg/0.2 ml
+MEM/18188NEMIS	Mestinon Retard  M/R tablets  180 mg
+NUOR33292NEMIS	Nurofen For Children  Oral Suspension (Strawberry)  100 mg/5 ml
+MYTA138424NEMIS	Myopridin  Tablets  3 mg
+ROSO127247NEMIS	Roactemra  Solution for injection  162 mg/0.9 ml pre-filled pen
+COTA34670MGEMIS	Colchicine  Tablets  500 micrograms (Wockhardt UK)
+INM/38168MGEMIS	Indometacin  M/R capsules  75 mg (Kent Pharm)
+FEM/13659NEMIS	Fenactol Retard  M/R tablets  100 mg
+IBTA35530MGEMIS	Ibuprofen  Tablets  600 mg (Sterwin Medicines)
+BATA33922MGEMIS	Baclofen  Tablets  10 mg (Sandoz)
+PIDI36558MGEMIS	Piroxicam  Dispersible tablets  10 mg (Kent Pharm)
+URTA95112NEMIS	Uricto  Tablets  300 mg
+MEOIEGTON6160	Methyl Salicylate  Ointment  50%, BP
+RIM/136018NEMIS	Rinvoq  M/R tablets  15 mg
+INCA17688NEMIS	Indometacin  Capsules  25 mg
+PIDI36560MGEMIS	Piroxicam  Dispersible tablets  20 mg (Generics (UK))
+ADSO128584NEMIS	Adalimumab  Solution for injection in pre-filled syringe  20 mg/0.4 ml
+IBGE35489MGEMIS	Ibuprofen  Gel  5 % (Kent Pharm)
+IBM/105329NEMIS	Ibuprofen  M/R capsules  200 mg
+NULI117794NEMIS	Nurofen Express  Liquid Capsules  400 mg
+LILI1669	Lioresal  Liquid  5 mg/5 ml
+CISO39430NEMIS	Cimzia  Solution for injection  200 mg/ml, 1 ml pre-filled syringe
+FAM/51791NEMIS	Fampyra  M/R tablets  10 mg
+POTA2309	Ponstan  Tablets forte  500 mg
+DISU25796EMIS	Diclofenac Sodium  Suppositories  50 mg
+IBSU37584MGEMIS	Ibuprofen  Sugar-free suspension  100 mg/5 ml (Vantage)
+VOTA1027NEMIS	Voltarol Rapid  Tablets  25 mg
+CISO39430NEMIS	Cimzia  Solution for injection  200 mg/ml, 1 ml pre-filled syringe
+BETA15397NEMIS	Bextra  Tablet  40 mg
+ARTA9215BRIDL	Arthrofen  Tablets  600 mg
+FECA35032MGEMIS	Fenbufen  Capsules  300 mg (A.A.H. Pharm)
+TRGE8557EGTON	Traxam  Gel  3 %
+FLTA35182MGEMIS	Flurbiprofen  Tablets  100 mg (Kent Pharm)
+DOTA963	Dolobid  Tablets  500 mg
+PITA34389EMIS	Piroxicam-Beta-Cyclodextrin  Tablets  20 mg
+BALI4624	Baclofen  Oral Solution, Sugar Free  5 mg/5 ml
+LETA89217NEMIS	Leflunomide  Tablets  15 mg
+MEIN36547NEMIS	Metoject  Injection (pre-filled syringe)  20 mg in 0.4 ml (50 mg/ml)
+VOTA9039BRIDL	Volraman  Tablets  50 mg
+PYOR109443NEMIS	Pyridostigmine Bromide  Oral suspension  60 mg/5 ml
+DIM/136214NEMIS	Diclo-Sr  M/R tablets  75 mg
+RETA2443	Relifex  Tablets  500 mg
+AXM39414NEMIS	Axorid  M/R capsules  200 mg + 20 mg
+NAE/36157MGEMIS	Naproxen  E/c tablets  250 mg (Alpharma)
+META36041MGEMIS	Methotrexate  Tablets  10 mg (Unichem)
+KEM/35640MGEMIS	Ketoprofen  M/R capsules  200 mg (Kent Pharm)
+NUCA16141NEMIS	Nurofen  Caplets  200 mg
+INCA38157MGEMIS	Indometacin  Capsules  50 mg (Generics (UK))
+KEGE9597EMIS	Ketoprofen  Gel  2.5 %
+ORCA2112	Orudis  Capsules  100 mg
+META36033MGEMIS	Methotrexate  Tablets  2.5 mg (A.A.H. Pharm)
+PIDI2282	Piroxicam  Dispersible tablets  20 mg
+FEGE20345EMIS	Felbinac  Gel  3 %
+ALTA78	Allopurinol  Tablets  300 mg
+RAPO10860NEMIS	Rasburicase  Powder with solvent for infusion  1.5 mg vial
+MEIN21807NEMIS	Metoject  Injection (pre-filled syringe)  10 mg/ml, 20 mg in 2 ml syringe
+BRM/18880EMIS	Brufen Retard  M/R tablets  800 mg
+IBTA35527MGEMIS	Ibuprofen  Tablets  600 mg (A.A.H. Pharm)
+FAPO10863NEMIS	Fasturtec  Powder with solvent for infusion  1.5 mg vial
+CECA4198NEMIS	Celecoxib  Capsules  100 mg
+FETA35061MGEMIS	Fenbufen  Tablets  450 mg (Sterwin Medicines)
+FLSU4940	Flurbiprofen  Suppositories  100 mg
+KESO124548NEMIS	Kevzara  Solution for injection  200 mg/1.14 ml Pre-filled Syringe
+DEGE20927NEMIS	Deep Freeze Cold  Gel  2 %
+TRSU39490NEMIS	Triamcinolone Acetonide  Suspension For Injection  40 mg/ml, 1 ml vial
+IBTA35514MGEMIS	Ibuprofen  Tablets  400 mg (Ivax Pharmaceuticals)
+TITA9554EMIS	Tiaprofenic Acid  Tablets  200 mg
+TOCO39338NEMIS	Tocilizumab  Concentrate For Solution For Infusion  200 mg/10 ml vial
+MECA1751	Mefenamic Acid  Capsules  250 mg
+VATA15393NEMIS	Valdecoxib  Tablet  40 mg
+LUTA18910NEMIS	Lumiracoxib  Tablets  400 mg
+INCA1458	Indocid  Capsules  25 mg
+SOLI37792MGEMIS	Soap  Liniment (Methylated)  BPC (Thornton & Ross)
+DIM/1763NEMIS	Diclovol Sr  M/R tablets  75 mg
+FETA35063MGEMIS	Fenbufen  Tablets  450 mg (Alpharma)
+MECA35874MGEMIS	Mefenamic Acid  Capsules  250 mg (A.A.H. Pharm)
+ABSO78106NEMIS	Abatacept  Solution for injection  125 mg/1 ml pre-filled syringe
+IBGE16199NEMIS	Ibuleve  Gel  5 %
+PYOR43663NEMIS	Pyridostigmine Bromide  Oral solution  5 mg/5 ml
+HUSO116560NEMIS	Humira  Solution for injection in pre-filled pen  40 mg/0.4 ml
+MEIN124628NEMIS	Methofill  Injection  12.5 mg/0.25 ml (50 mg/ml), pre-filled injector
+MEIN90734NEMIS	Metoject Pen  Injection  7.5 mg/0.15 ml (50 mg/ml), pre-filled pen

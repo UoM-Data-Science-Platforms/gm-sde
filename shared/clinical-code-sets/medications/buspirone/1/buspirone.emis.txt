@@ -1,0 +1,108 @@
+^ESCT1174187	Buspirone 10mg tablets (Teva UK Ltd)
+^ESCT1174188	Buspirone 10mg tablets (Teva UK Ltd) 30 tablet
+^ESCT1179999	Buspirone 10mg tablets (Mylan)
+^ESCT1183900	Buspirone 5mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1186082	Buspirone 5mg tablets (Mylan)
+^ESCT1189389	Buspirone 10mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1265501	Buspirone 7.5mg tablets 30 tablet
+^ESCT1265502	Buspirone 7.5mg tablets (Strides Pharma UK Ltd)
+^ESCT1265503	Buspirone 7.5mg tablets (Strides Pharma UK Ltd) 30 tablet 3 x 10 tablets
+^ESCT1265577	Buspirone 7.5mg tablets
+^ESCT1374944	Buspirone 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374945	Buspirone 10mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1374946	Buspirone 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374947	Buspirone 5mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1409481	Buspirone 10mg tablets (Accord Healthcare Ltd)
+^ESCT1409736	Buspirone 5mg tablets (Accord Healthcare Ltd)
+^ESCT1409940	Buspirone 5mg tablets (Accord Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1409941	Buspirone 10mg tablets (Accord Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1425184	Buspirone 10mg tablets
+^ESCT1425185	Buspirone 5mg tablets
+^ESCT1425682	Buspirone 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425811	Buspirone 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426330	Buspirone 5mg tablets (Kent Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1426331	Buspirone 10mg tablets (Kent Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCTBU1023422	Buspirone 10mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTBU1023423	Buspirone 10mg tablets (Almus Pharmaceuticals Ltd) 30 tablet
+^ESCTBU1023424	Buspirone 5mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTBU1023425	Buspirone 5mg tablets (Almus Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTBU1041689	Buspirone 5mg tablets (Waymade Healthcare Plc)
+^ESCTBU1041691	Buspirone 5mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTBU1041698	Buspirone 10mg tablets (Waymade Healthcare Plc)
+^ESCTBU1041700	Buspirone 10mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTBU1045414	Buspirone 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTBU1045415	Buspirone 5mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTBU1045416	Buspirone 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTBU1045417	Buspirone 10mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTBU1049211	Buspirone 10mg tablets (DE Pharmaceuticals)
+^ESCTBU1049212	Buspirone 10mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTBU1049213	Buspirone 5mg tablets (DE Pharmaceuticals)
+^ESCTBU1049214	Buspirone 5mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTBU1118993	Buspirone 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTBU1118994	Buspirone 5mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTBU1119003	Buspirone 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTBU1119004	Buspirone 10mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTBU1144667	Buspirone 5mg tablets (Alissa Healthcare Research Ltd)
+^ESCTBU1144686	Buspirone 5mg tablets (Alissa Healthcare Research Ltd) 30 tablet
+^ESCTBU1144687	Buspirone 10mg tablets (Alissa Healthcare Research Ltd)
+^ESCTBU1144688	Buspirone 10mg tablets (Alissa Healthcare Research Ltd) 30 tablet
+^ESCTBU1161849	Buspirone 5mg tablets (Teva UK Ltd)
+^ESCTBU1161850	Buspirone 5mg tablets (Teva UK Ltd) 30 tablet
+^ESCTBU802124	Buspirone 10mg tablets (Actavis UK Ltd)
+^ESCTBU808134	Buspirone 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTBU808993	Buspirone 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTBU809598	Buspirone 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTBU811725	Buspar 5mg tablets (IXL Pharma Ltd)
+^ESCTBU816489	Buspirone 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTBU822906	Buspar 10mg tablets (IXL Pharma Ltd)
+^ESCTBU822907	Buspirone 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTBU822937	Buspirone 5mg tablets (Actavis UK Ltd)
+^ESCTBU822940	Buspirone 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTBU835840	Buspirone 10mg tablets 30 tablet
+^ESCTBU841839	Buspirone 10mg tablets 90 tablet
+^ESCTBU846876	Buspirone 5mg tablets 30 tablet
+^ESCTBU847658	Buspirone 5mg tablets 90 tablet
+^ESCTBU854051	Buspirone 5mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTBU854053	Buspirone 5mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTBU854055	Buspar 5mg tablets (IXL Pharma Ltd) 90 tablet 9 x 10 tablets
+^ESCTBU854058	Buspirone 5mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTBU854061	Buspirone 5mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTBU854063	Buspirone 10mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTBU854064	Buspirone 10mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTBU854065	Buspar 10mg tablets (IXL Pharma Ltd) 90 tablet 9 x 10 tablets
+^ESCTBU854068	Buspirone 10mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTBU854069	Buspirone 10mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTBU875582	Buspirone 10mg tablets 100 tablet
+^ESCTBU875587	Buspar 10mg tablets (IXL Pharma Ltd) 100 tablet
+^ESCTBU877606	Buspirone 5mg tablets 60 tablet
+^ESCTBU904943	Buspirone 5mg/5ml oral solution 1 ml
+^ESCTBU904945	Buspirone 5mg/5ml oral solution (Special Order)
+^ESCTBU904948	Buspirone 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTBU904952	Buspirone 5mg/5ml oral suspension 1 ml
+^ESCTBU904955	Buspirone 5mg/5ml oral suspension (Special Order)
+^ESCTBU904956	Buspirone 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTBU904996	Buspirone 5mg/5ml oral suspension
+^ESCTBU904997	Buspirone 5mg/5ml oral solution
+^ESCTBU933455	Buspirone 10mg tablets 20 tablet
+^ESCTBU978107	Buspirone 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTBU978108	Buspirone 10mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTBU978109	Buspirone 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTBU978110	Buspirone 5mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTBU993799	Buspirone 10mg tablets (Mylan Ltd)
+^ESCTBU993801	Buspirone 10mg tablets (Mylan Ltd) 30 tablet 3 x 10 tablets
+^ESCTBU993822	Buspirone 5mg tablets (Mylan Ltd)
+^ESCTBU993823	Buspirone 5mg tablets (Mylan Ltd) 30 tablet 3 x 10 tablets
+BUOR128152NEMIS	Buspirone Hydrochloride  Oral solution  5 mg/5 ml
+BUTA10619BRIDL	Buspirone Hydrochloride  Tablets  5 mg
+BUTA10621BRIDL	Buspirone Hydrochloride  Tablets  10 mg
+BUTA10623BRIDL	Buspar  Tablets  10 mg
+BUTA132441NEMIS	Buspirone Hydrochloride  Tablets  7.5 mg
+BUTA34003MGEMIS	Buspirone Hydrochloride  Tablets  5 mg (Unichem)
+BUTA34004MGEMIS	Buspirone Hydrochloride  Tablets  5 mg (Kent Pharm)
+BUTA34005MGEMIS	Buspirone Hydrochloride  Tablets  5 mg (Alpharma)
+BUTA34006MGEMIS	Buspirone Hydrochloride  Tablets  5 mg (A.A.H. Pharm)
+BUTA34007MGEMIS	Buspirone Hydrochloride  Tablets  10 mg (Alpharma)
+BUTA34008MGEMIS	Buspirone Hydrochloride  Tablets  10 mg (Unichem)
+BUTA34009MGEMIS	Buspirone Hydrochloride  Tablets  10 mg (A.A.H. Pharm)
+BUTA34010MGEMIS	Buspirone Hydrochloride  Tablets  10 mg (Kent Pharm)
+BUTA8469BRID	Buspar  Tablets  5 mg

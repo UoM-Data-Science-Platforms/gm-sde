@@ -1,0 +1,31 @@
+dn31.	Carbamazepine 100mg tablet
+dn32.	Carbamazepine 200mg tablet
+dn33.	Carbamazepine 400mg tablet
+dn34.	Tegretol 100mg tablet
+dn35.	Tegretol 200mg tablet
+dn36.	Tegretol 400mg tablet
+dn37.	Tegretol 100mg/5mL oral liquid
+dn38.	Tegretol Retard 200mg m/r tablet
+dn39.	Tegretol Retard 400mg m/r tablet
+dn3a.	Carbamazepine 200mg m/r tablet
+dn3A.	Epimaz 100mg tablet
+dn3b.	Carbamazepine 400mg m/r tablet
+dn3B.	Epimaz 200mg tablet
+dn3c.	Tegretol 100mg chewable tablet
+dn3C.	Epimaz 400mg tablet
+dn3d.	Tegretol 200mg chewable tablet
+dn3D.	Tegretol 125mg suppository
+dn3e.	Arbil MR 200mg m/r tablet
+dn3E.	Tegretol 250mg suppository
+dn3f.	Arbil MR 400mg m/r tablet
+dn3H.	Teril CR 200mg m/r tablet
+dn3H.	Teril Retard 200mg m/r tablet
+dn3I.	Teril CR 400mg m/r tablet
+dn3I.	Teril Retard 400mg m/r tablet
+dn3J.	Carbagen SR 200mg m/r tablet
+dn3K.	Carbagen SR 400mg m/r tablet
+dn3v.	Carbamazepine 125mg suppository
+dn3w.	Carbamazepine 250mg suppository
+dn3x.	Carbamazepine 200mg chewable tablet
+dn3y.	Carbamazepine 100mg chewable tablet
+dn3z.	Carbamazepine 100mg/5mL oral liquid

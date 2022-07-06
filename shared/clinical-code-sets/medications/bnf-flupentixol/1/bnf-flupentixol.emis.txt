@@ -1,0 +1,26 @@
+^ESCT1424768	Flupentixol 1mg tablets
+^ESCT1424770	Flupentixol 500microgram tablets
+^ESCTFL819132	Fluanxol 500microgram tablets (Lundbeck Ltd)
+^ESCTFL828405	Fluanxol 1mg tablets (Lundbeck Ltd)
+^ESCTFL837733	Flupentixol 500microgram tablets 60 tablet
+^ESCTFL848190	Flupentixol 1mg tablets 60 tablet
+^ESCTFL854754	Fluanxol 500microgram tablets (Lundbeck Ltd) 60 tablet 6 x 10 tablets
+^ESCTFL854761	Fluanxol 1mg tablets (Lundbeck Ltd) 60 tablet 6 x 10 tablets
+^ESCTFL877865	Flupentixol 500microgram tablets 50 tablet
+^ESCTFL877884	Flupentixol 1mg tablets 50 tablet
+^ESCTFL906709	Flupentixol 500micrograms/5ml oral solution 1 ml
+^ESCTFL906713	Flupentixol 500micrograms/5ml oral solution (Special Order)
+^ESCTFL906714	Flupentixol 500micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTFL906721	Flupentixol 500micrograms/5ml oral suspension 1 ml
+^ESCTFL906731	Flupentixol 500micrograms/5ml oral suspension (Special Order)
+^ESCTFL906739	Flupentixol 500micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTFL907022	Flupentixol 500micrograms/5ml oral solution
+^ESCTFL907024	Flupentixol 500micrograms/5ml oral suspension
+^ESCTFL945017	Flupentixol 1mg/5ml oral solution 1 ml
+^ESCTFL945025	Flupentixol 1mg/5ml oral solution (Special Order)
+^ESCTFL945027	Flupentixol 1mg/5ml oral solution (Special Order) 1 ml
+^ESCTFL945554	Flupentixol 1mg/5ml oral solution
+FLTA1193	Fluanxol  Tablets  1 mg
+FLTA1194	Fluanxol  Tablets  500 micrograms
+FLTA17661NEMIS	Flupentixol  Tablets  1 mg
+FLTA17662NEMIS	Flupentixol  Tablets  500 micrograms
