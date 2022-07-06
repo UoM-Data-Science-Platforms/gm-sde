@@ -1,10 +1,9 @@
 --┌────────────────────────────────┐
 --│ Diabetes and COVID cohort file │
 --└────────────────────────────────┘
-
+/*
 TODO
 - Update all code sets (except maybe meds) when RLS is back cos at the moment it's way off hte charts
-- #Check read/ctv for Chlorphenamine-maleate
 - Check prevalence of:
   - bipolar:2
   - schizophrenia-psychosis:2
@@ -13,6 +12,7 @@ TODO
 - Check fasting glucose prevalence
 - Check prevalance of medications
 - Revisit the "bnf-" ones where there was an existing set. Particularly lithium which seems lacking.
+*/
 
 ----------------------- RDE CHECK ---------------------
 -- George Tilston  - 7 April 2022 - via pull request --
@@ -57,6 +57,7 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('bipolar') AND [Version]=2) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('bipolar') AND [Version]=2)
 )
+AND EventDate IS NOT NULL
 GROUP BY FK_Patient_Link_ID;
 
 IF OBJECT_ID('tempdb..#PsychosisSchizoPatients') IS NOT NULL DROP TABLE #PsychosisSchizoPatients;
@@ -66,6 +67,7 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('schizophrenia-psychosis') AND [Version]=2) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('schizophrenia-psychosis') AND [Version]=2)
 )
+AND EventDate IS NOT NULL
 GROUP BY FK_Patient_Link_ID;
 
 IF OBJECT_ID('tempdb..#BipolarHistoryPatients') IS NOT NULL DROP TABLE #BipolarHistoryPatients;
@@ -75,6 +77,7 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('history-of-bipolar') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('history-of-bipolar') AND [Version]=1)
 )
+AND EventDate IS NOT NULL
 GROUP BY FK_Patient_Link_ID;
 
 IF OBJECT_ID('tempdb..#PsychSchizoHistoryPatients') IS NOT NULL DROP TABLE #PsychSchizoHistoryPatients;
@@ -84,6 +87,7 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('history-of-psychosis-or-schizophrenia') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('history-of-psychosis-or-schizophrenia') AND [Version]=1)
 )
+AND EventDate IS NOT NULL
 GROUP BY FK_Patient_Link_ID;
 
 
@@ -94,17 +98,18 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('amisulpride', 'aripiprazole', 'asenapine', 'chlorpromazine', 'clozapine', 'flupentixol', 'fluphenazine', 'haloperidol', 'levomepromazine', 'loxapine', 'lurasidone', 'olanzapine', 'paliperidone', 'perphenazine', 'pimozide', 'quetiapine', 'risperidone', 'sertindole', 'sulpiride', 'thioridazine', 'trifluoperazine', 'zotepine', 'zuclopenthixol') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('amisulpride', 'aripiprazole', 'asenapine', 'chlorpromazine', 'clozapine', 'flupentixol', 'fluphenazine', 'haloperidol', 'levomepromazine', 'loxapine', 'lurasidone', 'olanzapine', 'paliperidone', 'perphenazine', 'pimozide', 'quetiapine', 'risperidone', 'sertindole', 'sulpiride', 'thioridazine', 'trifluoperazine', 'zotepine', 'zuclopenthixol') AND [Version]=1)
 )
+AND MedicationDate IS NOT NULL
 GROUP BY FK_Patient_Link_ID;
 
 -- Table of all patients with SMI or antipsycotic
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT FK_Patient_Link_ID INTO #Patients FROM #BipolarPatients
 UNION
-SELECT FK_Patient_Link_ID INTO #Patients FROM #BipolarHistoryPatients
+SELECT FK_Patient_Link_ID FROM #BipolarHistoryPatients
 UNION
-SELECT FK_Patient_Link_ID INTO #Patients FROM #PsychosisSchizoPatients
+SELECT FK_Patient_Link_ID FROM #PsychosisSchizoPatients
 UNION
-SELECT FK_Patient_Link_ID INTO #Patients FROM #PsychSchizoHistoryPatients
+SELECT FK_Patient_Link_ID FROM #PsychSchizoHistoryPatients
 UNION
 SELECT FK_Patient_Link_ID FROM #AntipsycoticPatients;
 
@@ -273,47 +278,47 @@ WHERE DeathWithin28Days = 'Y';
 -- Bring together for final output
 SELECT 
   m.FK_Patient_Link_ID AS PatientId,
-  YearOfBirth,
-  DeathDate,
+  yob.YearOfBirth,
+  pl.DeathDate,
   CASE WHEN covidDeath.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS DeathWithin28DaysCovidPositiveTest,
-  FrailtyScore,
-  Sex,
-  LSOA_Code AS LSOA,
-  EthnicCategoryDescription,
-  TownsendScoreHigherIsMoreDeprived,
-  TownsendQuintileHigherIsMoreDeprived,
+  frail.FrailtyScore,
+  sex.Sex,
+  lsoa.LSOA_Code AS LSOA,
+  pl.EthnicCategoryDescription,
+  town.TownsendScoreHigherIsMoreDeprived,
+  town.TownsendQuintileHigherIsMoreDeprived,
   bad.FirstBipolarDate,
   badhist.FirstBipolarHistoryCode,
   fep.FirstPsychosisSchizophreniaDate, 
-  fephist.FirstPsychosisSchizophreniaHistoryCode
-  FirstAntipsycoticDate,
-  FirstCovidPositiveDate,
-  SecondCovidPositiveDate,
-  ThirdCovidPositiveDate,
-  FourthCovidPositiveDate,
-  FifthCovidPositiveDate,
-  FirstAdmissionPost1stCOVIDTest,
-  LengthOfStayFirstAdmission1stCOVIDTest,
-  FirstAdmissionPost2ndCOVIDTest,
-  LengthOfStayFirstAdmission2ndCOVIDTest,
-  FirstAdmissionPost3rdCOVIDTest,
-  LengthOfStayFirstAdmission3rdCOVIDTest,
-  FirstAdmissionPost4thCOVIDTest,
-  LengthOfStayFirstAdmission4thCOVIDTest,
-  FirstAdmissionPost5thCOVIDTest,
-  LengthOfStayFirstAdmission5thCOVIDTest,
+  fephist.FirstPsychosisSchizophreniaHistoryCode,
+  anti.FirstAntipsycoticDate,
+  cov.FirstCovidPositiveDate,
+  cov.SecondCovidPositiveDate,
+  cov.ThirdCovidPositiveDate,
+  cov.FourthCovidPositiveDate,
+  cov.FifthCovidPositiveDate,
+  admit.FirstAdmissionPost1stCOVIDTest,
+  los.LengthOfStayFirstAdmission1stCOVIDTest,
+  admit.FirstAdmissionPost2ndCOVIDTest,
+  los.LengthOfStayFirstAdmission2ndCOVIDTest,
+  admit.FirstAdmissionPost3rdCOVIDTest,
+  los.LengthOfStayFirstAdmission3rdCOVIDTest,
+  admit.FirstAdmissionPost4thCOVIDTest,
+  los.LengthOfStayFirstAdmission4thCOVIDTest,
+  admit.FirstAdmissionPost5thCOVIDTest,
+  los.LengthOfStayFirstAdmission5thCOVIDTest,
   smok.PassiveSmoker AS IsPassiveSmoker,
   smok.WorstSmokingStatus,
   smok.CurrentSmokingStatus,
   CASE WHEN copd.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasCOPD,
   CASE WHEN asthma.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasASTHMA,
   CASE WHEN htn.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasHYPERTENSION,
-  VaccineDose1Date AS FirstVaccineDate,
-  VaccineDose2Date AS SecondVaccineDate,
-  VaccineDose3Date AS ThirdVaccineDate,
-  VaccineDose4Date AS FourthVaccineDate,
-  VaccineDose5Date AS FifthVaccineDate,
-  VaccineDose6Date AS SixthVaccineDate
+  vacc.VaccineDose1Date AS FirstVaccineDate,
+  vacc.VaccineDose2Date AS SecondVaccineDate,
+  vacc.VaccineDose3Date AS ThirdVaccineDate,
+  vacc.VaccineDose4Date AS FourthVaccineDate,
+  vacc.VaccineDose5Date AS FifthVaccineDate,
+  vacc.VaccineDose6Date AS SixthVaccineDate
 FROM #Patients m
 LEFT OUTER JOIN #BipolarPatients bad ON bad.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #BipolarHistoryPatients badhist ON badhist.FK_Patient_Link_ID = m.FK_Patient_Link_ID
@@ -331,7 +336,7 @@ LEFT OUTER JOIN #PatientDiagnosesASTHMA asthma ON asthma.FK_Patient_Link_ID = m.
 LEFT OUTER JOIN #PatientDiagnosesHYPERTENSION htn ON htn.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath covidDeath ON covidDeath.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #COVIDVaccinations v ON v.FK_Patient_Link_ID = m.FK_Patient_Link_ID
+LEFT OUTER JOIN #COVIDVaccinations vacc ON vacc.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cov ON cov.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientsAdmissionsPostTest admit ON admit.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientsLOSPostTest los ON los.FK_Patient_Link_ID = m.FK_Patient_Link_ID;
