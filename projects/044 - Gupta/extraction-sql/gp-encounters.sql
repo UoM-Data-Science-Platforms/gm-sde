@@ -1297,9 +1297,44 @@ WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #2orMoreLTCsIncludingMental)     -- at least 2 LTCs including one mental
 
 
+-- REDUCE THE #Patients TABLE SO THAT IT ONLY INCLUDES THE COHORT, AND REUSABLE QUERIES CAN USE IT TO BE RUN QUICKER 
+
+DELETE FROM #Patients
+WHERE FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #Cohort)
+
 --------------------- IDENTIFY GP ENCOUNTERS -------------------------
 
--- Create a table with all GP encouters ========================================================================================================
+--┌───────────────────────┐
+--│ Patient GP encounters │
+--└───────────────────────┘
+
+-- OBJECTIVE: To produce a table of GP encounters for a list of patients.
+-- This script uses many codes related to observations (e.g. blood pressure), symptoms, and diagnoses, to infer when GP encounters occured.
+-- This script includes face to face and telephone encounters - it will need copying and editing if you don't require both.
+
+-- ASSUMPTIONS:
+--	- multiple codes on the same day will be classed as one encounter (so max daily encounters per patient is 1)
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- Also takes parameters:
+--	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+--	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID, and FK_Reference_SnomedCT_ID
+--  - start-date: string - (YYYY-MM-DD) the date to count encounters from.
+--  - end-date: string - (YYYY-MM-DD) the date to count encounters to.
+
+
+-- OUTPUT: A temp table as follows:
+-- #GPEncounters (FK_Patient_Link_ID, EncounterDate)
+--	- FK_Patient_Link_ID - unique patient id
+--	- EncounterDate - date the patient had a GP encounter
+
+
+-- Create a table with all GP encounters ========================================================================================================
+
+IF OBJECT_ID('tempdb..#CodingClassifier') IS NOT NULL DROP TABLE #CodingClassifier;
 SELECT 'Face2face' AS EncounterType, PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
 INTO #CodingClassifier
 FROM SharedCare.Reference_Coding
@@ -1358,18 +1393,32 @@ WHERE (
 
 -- All above takes ~30s
 
--- Below is split up, because doing it without the date filter led to 
--- an out of memory exception.
+IF OBJECT_ID('tempdb..#GPEncounters') IS NOT NULL DROP TABLE #GPEncounters;
+CREATE TABLE #GPEncounters (
+	FK_Patient_Link_ID BIGINT,
+	EncounterDate DATE
+);
 
-SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EncounterDate
-INTO #Encounters
-FROM RLS.vw_GP_Events
-WHERE FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE PK_Reference_Coding_ID != -1)
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
-AND EventDate BETWEEN @StartDate AND @EndDate;
+BEGIN
+  IF 'false'='true'
+    INSERT INTO #GPEncounters 
+    SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EncounterDate
+    FROM RLS.vw_GP_Events
+    WHERE 
+      FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE PK_Reference_Coding_ID != -1)
+      AND EventDate BETWEEN '2018-01-01' AND '2022-05-01'
+  ELSE 
+    INSERT INTO #GPEncounters 
+    SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EncounterDate
+    FROM RLS.vw_GP_Events
+    WHERE 
+      FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+      AND FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE PK_Reference_Coding_ID != -1)
+      AND EventDate BETWEEN '2018-01-01' AND '2022-05-01'
+  END
 
 
 ------------ FIND ALL GP ENCOUNTERS FOR COHORT
 SELECT *
-FROM #Encounters
+FROM #GPEncounters
 ORDER BY FK_Patient_Link_ID, EncounterDate
