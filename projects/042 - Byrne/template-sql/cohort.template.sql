@@ -185,8 +185,8 @@ SELECT
   CASE WHEN t2dm.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasT2DM,
   CASE WHEN cancer.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasCANCER,
   CASE WHEN chd.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PatientHasCHD,
-  practice.GPPracticeCode
-  m.DentalCodes
+  practice.GPPracticeCode,
+  m.DentalCodes,
   CASE WHEN antibac.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PrescribedAntimicrobial,--  PrescribedAntimicrobial (Y/N) (whether patient has a prescription for an antimicrobial on the consultation date) (0501)
   CASE WHEN analgesic.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PrescribedAnalgesic,--  PrescribedAnalgesic (Y/N)  (analgesics 0407 OR non-opioid analgesics (040701/1501042))
   CASE WHEN opioid.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PrescribedOpioid,--  PrescribedOpioid (Y/N)(1501043/040702)
