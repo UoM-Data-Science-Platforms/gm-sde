@@ -1,14 +1,12 @@
 # Bipolar
 
-Code set for patients with a diagnosis of bipolar.
+Code set for patients with a diagnosis of bipolar or mania. This code set (v2) only includes diagnoses and so is useful for identifying the first diagnosis of bipolar. This differs from (v1) which also includes "history of" codes and certain medications that would indicate a patient has bipolar, which is better suited for identifying patients with bipolar, but not necessarily their first diagnosis.
 
-Developed from www.opencodelists.org
+Developed from https://phenotypes.healthdatagateway.org/phenotypes/PH38/version/76/detail/.
 
 ## Prevalence log
 
-By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system,
-we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set.
-Prevalence range: 0.40% - 0.50% when using the code seems reasonable.
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. Prevalence range: 0.40% - 0.50% when using the code seems reasonable.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------- | ----------------- |
