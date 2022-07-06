@@ -1,6 +1,0 @@
-34683311000001106	Trimbow 87microg/dose / 5microg/dose / 9microg/dose inh
-34681511000001104	Trimbow 87microg/dose / 5microg/dose / 9microg/dose inh
-34681611000001100	Trimbow 87microg/dose / 5microg/dose / 9microg/dose inh
-34681711000001109	Trimbow 87microg/dose / 5microg/dose / 9microg/dose inh
-39993311000001105	Trimbow NEXThaler 88microg/5microg/9microg/dose dry pdr inh
-39993411000001103	Trimbow NEXThaler 88microg/5microg/9microg/dose dry pdr inh

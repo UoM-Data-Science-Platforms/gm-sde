@@ -1,8 +1,0 @@
-3463811000001102	Generic Ultraproct ointment
-1157811000001108	Generic Ultraproct ointment
-3463711000001105	Generic Ultraproct suppositories
-1284811000001105	Generic Ultraproct suppositories
-921611000001102	Ultraproct ointment
-2188911000001106	Ultraproct ointment
-582511000001107	Ultraproct suppositories
-2190011000001106	Ultraproct suppositories

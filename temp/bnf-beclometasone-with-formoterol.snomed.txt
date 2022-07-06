@@ -1,8 +1,0 @@
-12906411000001100	Fostair 100micrograms/dose / 6micrograms/dose inhaler
-12906511000001101	Fostair 100micrograms/dose / 6micrograms/dose inhaler
-31063411000001101	Fostair 200micrograms/dose / 6micrograms/dose inhaler
-31063511000001102	Fostair 200micrograms/dose / 6micrograms/dose inhaler
-26112111000001106	Fostair NEXThaler 100microg/dose / 6microg/dose dry pdr inh
-26112411000001101	Fostair NEXThaler 100microg/dose / 6microg/dose dry pdr inh
-31063111000001106	Fostair NEXThaler 200microg/dose / 6microg/dose dry pdr inh
-31063211000001100	Fostair NEXThaler 200microg/dose / 6microg/dose dry pdr inh

@@ -1,5 +1,0 @@
-39134511000001107	Generic Enerzair Breezhaler 114/46/136microg inh caps + dev
-39134611000001106	Generic Enerzair Breezhaler 114/46/136microg inh caps + dev
-39134711000001102	Enerzair Breezhaler 114microg / 46microg / 136microg/dose
-39134811000001105	Enerzair Breezhaler 114microg / 46microg / 136microg/dose
-39134911000001100	Enerzair Breezhaler 114microg / 46microg / 136microg/dose
