@@ -9,9 +9,6 @@
 -- Cohort is patients who have visited the GP with a dental issue. Each row in the output
 -- file corresponds to a single GP visit, so a person can appear multiple times
 
-TODO Get codes from SNOMED codes for meds
-TODO Check dental problem list
-
 -- OUTPUT: Data with the following fields
 --  - PatientId
 --  - DateOfConsultation (YYYY/MM/DD)
@@ -37,13 +34,13 @@ TODO Check dental problem list
 SET NOCOUNT ON;
 
 -- First get all the patients with dental issues
---> CODESET dental-problems:1
+--> CODESET dental-problem:1
 IF OBJECT_ID('tempdb..#DentalPatients') IS NOT NULL DROP TABLE #DentalPatients;
 SELECT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS ConsultationDate, STRING_AGG(SuppliedCode, ',') AS DentalCodes INTO #DentalPatients
 FROM [RLS].[vw_GP_Events]
 WHERE (
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'dental-problems' AND Version = 1) OR
-  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'dental-problems' AND Version = 1)
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'dental-problem' AND Version = 1) OR
+  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'dental-problem' AND Version = 1)
 )
 AND EventDate>'2018-12-31'
 GROUP BY FK_Patient_Link_ID, CAST(EventDate AS DATE);
@@ -81,7 +78,7 @@ WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
 --> EXECUTE query-patient-practice-and-ccg.sql
 
 -- Now the coprescribed meds
---> CODESET anti-bacterial-drugs:1
+--> CODESET antibacterial-drugs:1
 IF OBJECT_ID('tempdb..#PatientMedANTIBAC') IS NOT NULL DROP TABLE #PatientMedANTIBAC;
 SELECT DISTINCT p.FK_Patient_Link_ID, p.MedicationDate INTO #PatientMedANTIBAC
 FROM #PatientMedicationData p
@@ -89,8 +86,8 @@ INNER JOIN #DentalPatients d
   ON p.FK_Patient_Link_ID = d.FK_Patient_Link_ID
   AND p.MedicationDate = d.ConsultationDate
 WHERE (
-	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('anti-bacterial-drugs') AND [Version]=1)) OR
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('anti-bacterial-drugs') AND [Version]=1))
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept IN ('antibacterial-drugs') AND [Version]=1)) OR
+  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE (Concept IN ('antibacterial-drugs') AND [Version]=1))
 );
 
 --> CODESET non-opioid-analgesics:1
