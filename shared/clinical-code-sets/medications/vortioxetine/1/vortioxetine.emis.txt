@@ -1,0 +1,18 @@
+^ESCTBR1121197	Brintellix 5mg tablets (Lundbeck Ltd)
+^ESCTBR1121198	Brintellix 5mg tablets (Lundbeck Ltd) 28 tablet 2 x 14 tablets
+^ESCTBR1121200	Brintellix 20mg tablets (Lundbeck Ltd)
+^ESCTBR1121201	Brintellix 20mg tablets (Lundbeck Ltd) 28 tablet 2 x 14 tablets
+^ESCTBR1121203	Brintellix 10mg tablets (Lundbeck Ltd)
+^ESCTBR1121204	Brintellix 10mg tablets (Lundbeck Ltd) 28 tablet 2 x 14 tablets
+^ESCTVO1121196	Vortioxetine 5mg tablets 28 tablet
+^ESCTVO1121199	Vortioxetine 20mg tablets 28 tablet
+^ESCTVO1121202	Vortioxetine 10mg tablets 28 tablet
+^ESCTVO1125949	Vortioxetine 10mg tablets
+^ESCTVO1125950	Vortioxetine 20mg tablets
+^ESCTVO1125951	Vortioxetine 5mg tablets
+BRTA105015NEMIS	Brintellix  Tablets  5 mg
+BRTA105016NEMIS	Brintellix  Tablets  10 mg
+BRTA105017NEMIS	Brintellix  Tablets  20 mg
+VOTA105010NEMIS	Vortioxetine  Tablets  5 mg
+VOTA105012NEMIS	Vortioxetine  Tablets  10 mg
+VOTA105013NEMIS	Vortioxetine  Tablets  20 mg

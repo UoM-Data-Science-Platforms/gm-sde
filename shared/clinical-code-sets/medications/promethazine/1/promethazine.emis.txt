@@ -1,0 +1,88 @@
+^ESCT1178139	Product containing only promethazine hydrochloride 10 mg/1 each oral tablet
+^ESCT1181005	Promethazine hydrochloride 10mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 7 x 8 tablets
+^ESCT1181313	Product containing only promethazine hydrochloride 25 mg/1 each oral tablet
+^ESCT1187991	Product containing only promethazine hydrochloride 20 mg/1 each oral tablet
+^ESCT1195384	Promethazine hydrochloride 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1195385	Promethazine hydrochloride 25mg tablets (A A H Pharmaceuticals Ltd) 56 tablet
+^ESCT1196492	Promethazine hydrochloride 10mg tablets (A A H Pharmaceuticals Ltd) 56 tablet
+^ESCT1213565	Promethazine hydrochloride 25mg tablets (Teva UK Ltd)
+^ESCT1213566	Promethazine hydrochloride 25mg tablets (Teva UK Ltd) 56 tablet 7 x 8 tablets
+^ESCT1214963	Promethazine 25mg/1ml solution for injection ampoules
+^ESCT1223257	Product containing precisely promethazine hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1223258	Product containing precisely promethazine hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1226720	Product containing precisely promethazine hydrochloride 20 milligram/1 each conventional release oral tablet
+^ESCT1244953	Promethazine hydrochloride 25mg tablets (A A H Pharmaceuticals Ltd) 56 tablet 7 x 8 tablets
+^ESCT1249945	Promethazine hydrochloride 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1249946	Promethazine hydrochloride 25mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet 7 x 8 tablets
+^ESCT1260167	Phenergan 25mg tablets (Sanofi) 56 tablet 7 x 8 tablets
+^ESCT1374395	Promethazine 5mg/5ml oral solution sugar free
+^ESCT1403609	Promethazine hydrochloride 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403610	Promethazine hydrochloride 25mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCT1403611	Promethazine hydrochloride 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403612	Promethazine hydrochloride 10mg tablets (Medihealth (Northern) Ltd) 56 tablet
+^ESCTPH801946	Phenergan 25mg/1ml solution for injection ampoules (Sanofi)
+^ESCTPH804227	Phenergan 5mg/5ml elixir (Sanofi)
+^ESCTPH807102	Phenergan Nightime 25mg tablets (Sanofi)
+^ESCTPH811299	Phenergan 25mg tablets (Sanofi)
+^ESCTPH819919	Phenergan 10mg tablets (Sanofi)
+^ESCTPH855534	Phenergan 5mg/5ml elixir (Sanofi) 100 ml
+^ESCTPH855553	Phenergan 10mg tablets (Sanofi) 56 tablet 4 x 14 tablets
+^ESCTPH855554	Phenergan Nightime 25mg tablets (Sanofi) 14 tablet
+^ESCTPH855555	Phenergan 25mg tablets (Sanofi) 56 tablet 4 x 14 tablets
+^ESCTPH857101	Phenergan 25mg/1ml solution for injection ampoules (Sanofi) 10 ampoule
+^ESCTPR1040711	Promethazine hydrochloride 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPR1040712	Promethazine hydrochloride 10mg tablets (Alliance Healthcare (Distribution) Ltd) 16 tablet
+^ESCTPR1104000	Promethazine hydrochloride 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPR1104001	Promethazine hydrochloride 10mg tablets (A A H Pharmaceuticals Ltd) 56 tablet
+^ESCTPR1104711	Promethazine hydrochloride 10mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet
+^ESCTPR1119616	Promethazine hydrochloride 10mg tablets (DE Pharmaceuticals)
+^ESCTPR1119617	Promethazine hydrochloride 10mg tablets (DE Pharmaceuticals) 56 tablet
+^ESCTPR1145573	Promethazine hydrochloride 10mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTPR1145574	Promethazine hydrochloride 10mg tablets (Genesis Pharmaceuticals Ltd) 56 tablet 7 x 8 tablets
+^ESCTPR608819	Promethazine hydrochloride 10mg tablets
+^ESCTPR608820	Product containing promethazine hydrochloride 10 mg/1 each oral tablet
+^ESCTPR608821	Promethazine hydrochloride 10 mg oral tablet
+^ESCTPR608822	Promethazine hydrochloride 25mg tablets
+^ESCTPR608823	Product containing promethazine hydrochloride 25 mg/1 each oral tablet
+^ESCTPR608824	Promethazine hydrochloride 25 mg oral tablet
+^ESCTPR618778	Promethazine hydrochloride 20mg tablets
+^ESCTPR618779	Product containing promethazine hydrochloride 20 mg/1 each oral tablet
+^ESCTPR618780	Promethazine hydrochloride 20 mg oral tablet
+^ESCTPR847299	Promethazine hydrochloride 25mg tablets 56 tablet
+^ESCTPR848007	Promethazine 5mg/5ml oral solution sugar free 100 ml
+^ESCTPR848382	Promethazine hydrochloride 25mg tablets 14 tablet
+^ESCTPR848383	Promethazine hydrochloride 10mg tablets 56 tablet
+^ESCTPR848777	Promethazine 25mg/1ml solution for injection ampoules 10 ampoule
+^ESCTPR868080	Promethazine hydrochloride 20mg tablets 8 tablet
+^ESCTPR902226	Promethazine hydrochloride 10mg tablets 16 tablet
+^ESCTPR902244	Promethazine hydrochloride 25mg tablets 10 tablet
+^ESCTPR902245	Promethazine hydrochloride 25mg tablets 30 tablet
+^ESCTPR934051	Promethazine hydrochloride 20mg tablets 16 tablet
+^ESCTPR959575	Promethazine 25mg/5ml oral suspension 1 ml
+^ESCTPR959576	Promethazine 25mg/5ml oral suspension (Special Order)
+^ESCTPR959577	Promethazine 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPR959578	Promethazine 25mg/5ml oral solution 1 ml
+^ESCTPR959580	Promethazine 25mg/5ml oral solution (Special Order)
+^ESCTPR959582	Promethazine 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTPR959641	Promethazine 25mg/5ml oral solution
+^ESCTPR959643	Promethazine 25mg/5ml oral suspension
+^ESCTPR990276	Promethazine 25mg/1ml solution for injection ampoules (Mercury Pharma Group Ltd)
+^ESCTPR990277	Promethazine 25mg/1ml solution for injection ampoules (Mercury Pharma Group Ltd) 10 ampoule
+^ESCTPR990292	Promethazine 50mg/2ml solution for injection ampoules 10 ampoule
+^ESCTPR990293	Promethazine 50mg/2ml solution for injection ampoules (Mercury Pharma Group Ltd)
+^ESCTPR990296	Promethazine 50mg/2ml solution for injection ampoules (Mercury Pharma Group Ltd) 10 ampoule
+^ESCTPR990721	Promethazine 50mg/2ml solution for injection ampoules
+^ESCTSO868081	Sominex 20mg tablets (Teva UK Ltd)
+^ESCTSO868082	Sominex 20mg tablets (Teva UK Ltd) 8 tablet
+^ESCTSO934052	Sominex 20mg tablets (Teva UK Ltd) 16 tablet 2 x 8 tablets
+PHEL2227	Phenergan  Elixir  5 mg/5 ml
+PHIN15565NEMIS	Phenergan  Injection  25 mg/ml, 1 ml ampoule
+PHTA2228	Phenergan  Tablets  10 mg
+PHTA2229	Phenergan  Tablets  25 mg
+PHTA27062EMIS	Phenergan Nightime  Tablets  25 mg
+PREL2379	Promethazine Hydrochloride  Elixir  Sugar Free 5 mg/5 ml
+PRIN15564NEMIS	Promethazine Hydrochloride  Injection  25 mg/ml, 1 ml ampoule
+PRTA15466NEMIS	Promethazine Hydrochloride  Tablets  20 mg
+PRTA2380	Promethazine Hydrochloride  Tablets  10 mg
+PRTA2381	Promethazine Hydrochloride  Tablets  25 mg
+SOTA9074BRIDL	Sominex  Tablets  20 mg

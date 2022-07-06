@@ -1,0 +1,5 @@
+c8r1.	Neoclarityn 5mg tablet
+c8r2.	Neoclarityn 0.5mg/mL syrup
+c8r3.	NEOCLARITYN 2.5mg/5mL oral solution
+c8rx.	DESLORATADINE 2.5mg/5mL oral solution
+c8rz.	Desloratadine 5mg tablet

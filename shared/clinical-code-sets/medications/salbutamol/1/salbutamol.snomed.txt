@@ -1,0 +1,268 @@
+39113611000001102	Salbutamol 100micrograms/dose inhaler CFC free
+1056811000001104	Salbutamol 100micrograms/dose inhaler CFC free
+597011000001101	Airomir 100micrograms/dose inhaler
+1478511000001108	Airomir 100micrograms/dose inhaler
+840111000001107	Salbulin 100micrograms/dose inhaler
+1478611000001107	Salbulin 100micrograms/dose inhaler
+7511000001105	Salbutamol 100micrograms/dose inhaler CFC free
+1479011000001105	Salbutamol 100micrograms/dose inhaler CFC free
+757611000001104	Salbutamol 100micrograms/dose inhaler CFC free
+1479311000001108	Salbutamol 100micrograms/dose inhaler CFC free
+222311000001102	Ventolin 100micrograms/dose Evohaler
+1479411000001101	Ventolin 100micrograms/dose Evohaler
+106511000001103	Salamol 100micrograms/dose inhaler CFC free (Teva)
+1481411000001105	Salamol 100micrograms/dose inhaler CFC free (Teva)
+45111000001100	Salbutamol 100micrograms/dose inhaler CFC free
+1756011000001108	Salbutamol 100micrograms/dose inhaler CFC free
+18041311000001106	Salbutamol 100micrograms/dose inhaler CFC free
+18041411000001104	Salbutamol 100micrograms/dose inhaler CFC free
+18148111000001107	Asmavent 100micrograms/dose inhaler CFC free
+18148211000001101	Asmavent 100micrograms/dose inhaler CFC free
+20434411000001107	Salamol 100micrograms/dose inhaler CFC free (Arrow)
+20434611000001105	Salamol 100micrograms/dose inhaler CFC free (Arrow)
+22503111000001109	AirSalb 100micrograms/dose inhaler CFC free
+22503211000001103	AirSalb 100micrograms/dose inhaler CFC free
+320106000	Salbutamol 2mg tablets
+1277511000001105	Salbutamol 2mg tablets
+659111000001106	Salbutamol 2mg tablets
+1906011000001109	Salbutamol 2mg tablets
+506611000001108	Salbutamol 2mg tablets
+1906111000001105	Salbutamol 2mg tablets
+287611000001100	Salbutamol 2mg tablets
+1906311000001107	Salbutamol 2mg tablets
+161811000001109	Salbutamol 2mg tablets
+1906411000001100	Salbutamol 2mg tablets
+921311000001107	Salbutamol 2mg tablets
+1906511000001101	Salbutamol 2mg tablets
+21895211000001100	Salbutamol 2mg tablets
+21895311000001108	Salbutamol 2mg tablets
+30094911000001103	Salbutamol 2mg tablets
+30095011000001103	Salbutamol 2mg tablets
+39241911000001100	Salbutamol 2mg tablets
+39242011000001107	Salbutamol 2mg tablets
+39703611000001107	Salbutamol 4mg tablets
+949411000001102	Salbutamol 4mg tablets
+262711000001105	Salbutamol 4mg tablets
+1906611000001102	Salbutamol 4mg tablets
+194411000001107	Salbutamol 4mg tablets
+1906711000001106	Salbutamol 4mg tablets
+273911000001107	Salbutamol 4mg tablets
+1906811000001103	Salbutamol 4mg tablets
+258311000001100	Salbutamol 4mg tablets
+1906911000001108	Salbutamol 4mg tablets
+52811000001102	Salbutamol 4mg tablets
+1907011000001107	Salbutamol 4mg tablets
+21895411000001101	Salbutamol 4mg tablets
+21895511000001102	Salbutamol 4mg tablets
+30095111000001102	Salbutamol 4mg tablets
+30095211000001108	Salbutamol 4mg tablets
+39242111000001108	Salbutamol 4mg tablets
+39242311000001105	Salbutamol 4mg tablets
+39025011000001108	Salbutamol 4mg modified-release tablets
+968511000001104	Salbutamol 4mg modified-release tablets
+5410311000001109	Salbutamol 4mg modified-release tablets
+196411000001104	Volmax 4mg modified-release tablets
+1907211000001102	Volmax 4mg modified-release tablets
+35937111000001101	Salbutamol 8mg modified-release tablets
+1017511000001106	Salbutamol 8mg modified-release tablets
+5411011000001102	Salbutamol 8mg modified-release tablets
+831811000001109	Volmax 8mg modified-release tablets
+1907311000001105	Volmax 8mg modified-release tablets
+39025111000001109	Salbutamol 8mg modified-release capsules
+1009311000001108	Salbutamol 8mg modified-release capsules
+281511000001105	Ventmax SR 8mg capsules
+1907411000001103	Ventmax SR 8mg capsules
+39025211000001103	Salbutamol 4mg modified-release capsules
+968111000001108	Salbutamol 4mg modified-release capsules
+626411000001107	Ventmax SR 4mg capsules
+1907511000001104	Ventmax SR 4mg capsules
+39025311000001106	Salbutamol 5mg/5ml solution for infusion ampoules
+1116211000001104	Salbutamol 5mg/5ml solution for infusion ampoules
+886111000001103	Ventolin 5mg/5ml solution for infusion ampoules
+1907611000001100	Ventolin 5mg/5ml solution for infusion ampoules
+39109411000001101	Salbutamol 2mg/5ml oral solution sugar free
+1182211000001103	Salbutamol 2mg/5ml oral solution sugar free
+161111000001102	Salbutamol 2mg/5ml oral solution sugar free
+2469811000001107	Salbutamol 2mg/5ml oral solution sugar free
+892011000001102	Ventolin 2mg/5ml syrup
+2471211000001102	Ventolin 2mg/5ml syrup
+896511000001106	Salbutamol 2mg/5ml oral solution sugar free
+2471311000001105	Salbutamol 2mg/5ml oral solution sugar free
+221511000001100	Salbutamol 2mg/5ml oral solution sugar free
+2471711000001109	Salbutamol 2mg/5ml oral solution sugar free
+803911000001107	Salbutamol 2mg/5ml oral solution sugar free
+2472411000001108	Salbutamol 2mg/5ml oral solution sugar free
+650211000001107	Salapin 2mg/5ml syrup
+2474811000001104	Salapin 2mg/5ml syrup
+13626311000001105	Salbutamol 2mg/5ml oral solution sugar free
+13626411000001103	Salbutamol 2mg/5ml oral solution sugar free
+35936711000001103	Salbutamol 200microgram inhalation pdr blist with device
+3080111000001106	Salbutamol 200microgram inhalation pdr blist with device
+3080211000001100	Salbutamol 200microgram inhalation pdr blist with device
+3080311000001108	Salbutamol 200microgram inhalation pdr blist with device
+3080411000001101	Ventodisks 200microgram with Diskhaler
+3080711000001107	Ventodisks 200microgram with Diskhaler
+3081811000001107	Ventodisks 200microgram with Diskhaler
+3082311000001107	Ventodisks 200microgram with Diskhaler
+35936911000001101	Salbutamol 400microgram inhalation pdr blist with device
+3082711000001106	Salbutamol 400microgram inhalation pdr blist with device
+3082811000001103	Salbutamol 400microgram inhalation pdr blist with device
+3082911000001108	Salbutamol 400microgram inhalation pdr blist with device
+3083011000001100	Ventodisks 400microgram with Diskhaler
+3083411000001109	Ventodisks 400microgram with Diskhaler
+3083511000001108	Ventodisks 400microgram with Diskhaler
+3083811000001106	Ventodisks 400microgram with Diskhaler
+35936611000001107	Salbutamol 200microgram inhalation powder blisters
+3085611000001106	Salbutamol 200microgram inhalation powder blisters
+3085811000001105	Salbutamol 200microgram inhalation powder blisters
+3086111000001109	Ventodisks 200microgram
+3086611000001101	Ventodisks 200microgram
+3086911000001107	Ventodisks 200microgram
+35936811000001106	Salbutamol 400microgram inhalation powder blisters
+3088311000001105	Salbutamol 400microgram inhalation powder blisters
+3088411000001103	Salbutamol 400microgram inhalation powder blisters
+3089011000001102	Ventodisks 400microgram
+3090311000001109	Ventodisks 400microgram
+3091311000001104	Ventodisks 400microgram
+35937211000001107	Salbutamol 95micrograms/dose dry powder inhaler
+3185911000001107	Salbutamol 95micrograms/dose dry powder inhaler
+3186011000001104	Asmasal 95micrograms/dose Clickhaler
+3186111000001103	Asmasal 95micrograms/dose Clickhaler
+39709711000001100	Salbutamol 200microgram inhalation powder capsules
+3213211000001103	Salbutamol 200microgram inhalation powder capsules
+3213711000001105	Salbutamol 200microgram inhalation powder capsules
+5324611000001106	Salbutamol 200microgram inhalation powder capsules
+3214211000001100	Ventolin 200microgram Rotacaps
+3214411000001101	Ventolin 200microgram Rotacaps
+3214611000001103	Salbutamol 200 Cyclocaps
+3214911000001109	Salbutamol 200 Cyclocaps
+39112711000001103	Salbutamol 100micrograms/dose breath actuated inh CFC free
+3213411000001104	Salbutamol 100micrograms/dose breath actuated inh CFC free
+3214311000001108	Airomir 100micrograms/dose Autohaler
+3214511000001102	Airomir 100micrograms/dose Autohaler
+3215311000001107	Salamol 100micrograms/dose Easi-Breathe inhaler
+3215611000001102	Salamol 100micrograms/dose Easi-Breathe inhaler
+39709811000001108	Salbutamol 400microgram inhalation powder capsules
+3217011000001102	Salbutamol 400microgram inhalation powder capsules
+3217111000001101	Salbutamol 400microgram inhalation powder capsules
+5582111000001102	Salbutamol 400microgram inhalation powder capsules
+3217611000001109	Salbutamol 400 Cyclocaps
+3217811000001108	Salbutamol 400 Cyclocaps
+3218011000001101	Ventolin 400microgram Rotacaps
+3218111000001100	Ventolin 400microgram Rotacaps
+35936411000001109	Salbutamol 100micrograms/dose breath actuated inhaler
+3292711000001103	Salbutamol 100micrograms/dose breath actuated inhaler
+3293111000001105	Aerolin 100micrograms/dose Autohaler
+3293411000001100	Aerolin 100micrograms/dose Autohaler
+39710011000001108	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials
+3379211000001101	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials
+4840511000001106	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials
+3379611000001104	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials
+3380411000001102	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials
+3380811000001100	Maxivent 5mg/2.5ml neb liq unit dose Steripoule vials
+3380911000001105	Maxivent 5mg/2.5ml neb liq unit dose Steripoule vials
+3381111000001101	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials
+3381211000001107	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials
+3381811000001108	Ventolin 5mg Nebules
+3382011000001105	Ventolin 5mg Nebules
+4840611000001105	Ventolin 5mg Nebules
+3383511000001109	Salamol 5mg/2.5ml nebuliser liquid Steri-Neb unit dose vials
+3383911000001102	Salamol 5mg/2.5ml nebuliser liquid Steri-Neb unit dose vials
+9040211000001108	Salbutamol 5mg/2.5ml neb liq unit dose Steripoule vials
+9040311000001100	Salbutamol 5mg/2.5ml neb liq unit dose Steripoule vials
+9102511000001109	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials
+9102611000001108	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials
+10454011000001100	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials
+10454111000001104	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials
+11006711000001101	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials
+11006811000001109	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials
+12880811000001108	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials
+12880911000001103	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials
+17026711000001105	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials
+17026811000001102	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials
+17927411000001105	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials
+17927511000001109	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials
+18080911000001107	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials
+18081011000001104	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials
+30892111000001108	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials
+30892211000001102	Salbutamol 5mg/2.5ml nebuliser liquid unit dose vials
+39113311000001107	Salbutamol 200micrograms/dose dry powder inhaler
+3382311000001108	Salbutamol 200micrograms/dose dry powder inhaler
+3382411000001101	Salbutamol 200micrograms/dose dry powder inhaler
+9204811000001104	Salbutamol 200micrograms/dose dry powder inhaler
+3382711000001107	Ventolin 200micrograms/dose Accuhaler
+3383211000001106	Ventolin 200micrograms/dose Accuhaler
+3384111000001103	Pulvinal Salbutamol 200micrograms/dose dry powder inhaler
+3384311000001101	Pulvinal Salbutamol 200micrograms/dose dry powder inhaler
+9204911000001109	Easyhaler Salbutamol sulfate 200micrograms/dose dry pdr inh
+9205011000001109	Easyhaler Salbutamol sulfate 200micrograms/dose dry pdr inh
+39709611000001109	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials
+3385611000001107	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials
+4840311000001100	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials
+3385711000001103	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials
+3386011000001109	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials
+3386411000001100	Maxivent 2.5mg/2.5ml neb liq unit dose Steripoule vials
+3386611000001102	Maxivent 2.5mg/2.5ml neb liq unit dose Steripoule vials
+3386811000001103	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials
+3386911000001108	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials
+3387011000001107	Ventolin 2.5mg Nebules
+3387311000001105	Ventolin 2.5mg Nebules
+4840411000001107	Ventolin 2.5mg Nebules
+3387511000001104	Salamol 2.5mg/2.5ml neb liq Steri-Neb unit dose vials
+3387711000001109	Salamol 2.5mg/2.5ml neb liq Steri-Neb unit dose vials
+9040011000001103	Salbutamol 2.5mg/2.5ml neb liq unit dose Steripoule vials
+9040111000001102	Salbutamol 2.5mg/2.5ml neb liq unit dose Steripoule vials
+9102311000001103	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials
+9102411000001105	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials
+10453811000001108	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials
+10453911000001103	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials
+11006511000001106	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials
+11006611000001105	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials
+12880611000001109	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials
+12880711000001100	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials
+17026511000001100	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials
+17026611000001101	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials
+17927211000001106	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials
+17927311000001103	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials
+18080711000001105	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials
+18080811000001102	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials
+30891911000001100	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials
+30892011000001107	Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials
+35936511000001108	Salbutamol 100micrograms/dose inhaler
+3407411000001105	Salbutamol 100micrograms/dose inhaler
+3408611000001107	Salbutamol 100micrograms/dose inhaler
+3409311000001108	Salbutamol 100micrograms/dose inhaler
+3410611000001106	Salbutamol 100micrograms/dose inhaler
+3411411000001104	Salbutamol 100micrograms/dose inhaler
+3412611000001107	Salbutamol 100micrograms/dose inhaler
+3413011000001109	Salbutamol 100micrograms/dose inhaler
+3415711000001107	Salbutamol 100micrograms/dose inhaler
+3416211000001106	Salbutamol 100micrograms/dose inhaler
+3417111000001102	Salbutamol 100micrograms/dose inhaler
+3417711000001101	Salbutamol 100micrograms/dose inhaler
+10432311000001108	Salbutamol 100micrograms/dose inhaler
+10432411000001101	Salbutamol 100micrograms/dose inhaler
+38895911000001101	Salbutamol 500micrograms/1ml solution for injection ampoules
+3926811000001103	Salbutamol 500micrograms/1ml solution for injection ampoules
+3926911000001108	Ventolin 500micrograms/1ml solution for injection ampoules
+3927011000001107	Ventolin 500micrograms/1ml solution for injection ampoules
+39709511000001105	Salbutamol 5mg/ml nebuliser liquid
+4843611000001101	Salbutamol 5mg/ml nebuliser liquid
+4843911000001107	Ventolin 5mg/ml respirator solution
+4844111000001106	Ventolin 5mg/ml respirator solution
+35937011000001102	Salbutamol 5mg/50ml solution for infusion vials
+4889011000001104	Salbutamol 5mg/50ml solution for infusion vials
+4889111000001103	Salbutamol 5mg/50ml solution for infusion vials
+4889211000001109	Salbutamol 5mg/50ml solution for infusion vials
+9207411000001106	Salbutamol 100micrograms/dose dry powder inhaler
+9205111000001105	Salbutamol 100micrograms/dose dry powder inhaler
+9205211000001104	Easyhaler Salbutamol sulfate 100micrograms/dose dry pdr inh
+9205311000001107	Easyhaler Salbutamol sulfate 100micrograms/dose dry pdr inh
+13566211000001103	Salbutamol 100microg/dose dry pdr inhalation cart with dev
+13513011000001104	Salbutamol 100microg/dose dry pdr inhalation cart with dev
+13533511000001104	Salbulin Novolizer 100micrograms/dose inhalation powder
+13533611000001100	Salbulin Novolizer 100micrograms/dose inhalation powder
+13566111000001109	Salbutamol 100micrograms/dose dry pdr inhalation cartridge
+13533211000001102	Salbutamol 100micrograms/dose dry pdr inhalation cartridge
+13533711000001109	Salbulin Novolizer 100micrograms/dose inhalation pdr refill
+13533811000001101	Salbulin Novolizer 100micrograms/dose inhalation pdr refill

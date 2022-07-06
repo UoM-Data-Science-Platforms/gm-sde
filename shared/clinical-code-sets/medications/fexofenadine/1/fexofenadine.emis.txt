@@ -1,0 +1,147 @@
+^ESCT1178140	Product containing only fexofenadine hydrochloride 120 mg/1 each oral tablet
+^ESCT1180091	Fexofenadine 120mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1180411	Fexofenadine 180mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1181336	Product containing only fexofenadine hydrochloride 30 mg/1 each oral tablet
+^ESCT1181357	Product containing only fexofenadine hydrochloride 180 mg/1 each oral tablet
+^ESCT1186155	Fexofenadine 180mg tablets (Mylan)
+^ESCT1186156	Fexofenadine 180mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1189038	Fexofenadine 120mg tablets (Mylan)
+^ESCT1216290	Fexofenadine 120mg tablets (Cipla EU Ltd)
+^ESCT1216291	Fexofenadine 120mg tablets (Cipla EU Ltd) 30 tablet
+^ESCT1216292	Fexofenadine 180mg tablets (Cipla EU Ltd)
+^ESCT1216293	Fexofenadine 180mg tablets (Cipla EU Ltd) 30 tablet
+^ESCT1223269	Product containing precisely fexofenadine hydrochloride 120 milligram/1 each conventional release oral tablet
+^ESCT1223270	Product containing precisely fexofenadine hydrochloride 180 milligram/1 each conventional release oral tablet
+^ESCT1227621	Product containing precisely fexofenadine hydrochloride 30 milligram/1 each conventional release oral tablet
+^ESCT1264072	Fexofenadine 120mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264074	Fexofenadine 120mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCT1264075	Fexofenadine 180mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264077	Fexofenadine 180mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCT1268466	Fexofenadine 120mg tablets (Healthcare Pharma Ltd)
+^ESCT1268467	Fexofenadine 120mg tablets (Healthcare Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCT1268468	Fexofenadine 180mg tablets (Healthcare Pharma Ltd)
+^ESCT1268469	Fexofenadine 180mg tablets (Healthcare Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCT1363988	Fexofenadine hydrochloride 6 mg/mL oral suspension
+^ESCT1373912	Fexofenadine 120mg tablets (Medreich Plc)
+^ESCT1373913	Fexofenadine 120mg tablets (Medreich Plc) 30 tablet 3 x 10 tablets
+^ESCT1373914	Fexofenadine 180mg tablets (Medreich Plc)
+^ESCT1373915	Fexofenadine 180mg tablets (Medreich Plc) 30 tablet 3 x 10 tablets
+^ESCT1375783	Fexofenadine 120mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375784	Fexofenadine 120mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1375785	Fexofenadine 180mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375786	Fexofenadine 180mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1405264	Fexofenadine 30mg/5ml oral suspension 1 ml
+^ESCT1405266	Fexofenadine 30mg/5ml oral suspension (Special Order)
+^ESCT1405268	Fexofenadine 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1409406	Fexofenadine 30mg/5ml oral suspension
+^ESCT1422219	Fexofenadine 120mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422220	Fexofenadine 120mg tablets (Zentiva Pharma UK Ltd) 30 tablet 2 x 15 tablets
+^ESCT1422221	Fexofenadine 180mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422222	Fexofenadine 180mg tablets (Zentiva Pharma UK Ltd) 30 tablet 3 x 10 tablets
+^ESCT1427108	Fexofenadine 120mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427109	Fexofenadine 120mg tablets (Kent Pharma (UK) Ltd) 30 tablet 2 x 15 tablets
+^ESCT1427110	Fexofenadine 180mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427111	Fexofenadine 180mg tablets (Kent Pharma (UK) Ltd) 30 tablet 2 x 15 tablets
+^ESCTFE1005789	Fexofenadine 120mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTFE1005790	Fexofenadine 120mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTFE1005791	Fexofenadine 180mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTFE1005792	Fexofenadine 180mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTFE1011008	Fexofenadine 120mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTFE1011009	Fexofenadine 120mg tablets (Dr Reddy's Laboratories (UK) Ltd) 30 tablet
+^ESCTFE1011010	Fexofenadine 180mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTFE1011011	Fexofenadine 180mg tablets (Dr Reddy's Laboratories (UK) Ltd) 30 tablet
+^ESCTFE1030055	Fexofenadine 125mg/5ml oral suspension 1 ml
+^ESCTFE1030056	Fexofenadine 125mg/5ml oral suspension (Special Order)
+^ESCTFE1030057	Fexofenadine 125mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFE1030091	Fexofenadine 125mg/5ml oral suspension
+^ESCTFE1043434	Fexofenadine 120mg tablets (Waymade Healthcare Plc)
+^ESCTFE1043435	Fexofenadine 120mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTFE1043436	Fexofenadine 180mg tablets (Waymade Healthcare Plc)
+^ESCTFE1043437	Fexofenadine 180mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTFE1061964	Fexofenadine 120mg tablets (DE Pharmaceuticals)
+^ESCTFE1061965	Fexofenadine 120mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTFE1061966	Fexofenadine 180mg tablets (DE Pharmaceuticals)
+^ESCTFE1061967	Fexofenadine 180mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTFE608866	Fexofenadine 120mg tablets
+^ESCTFE608868	Fexofenadine hydrochloride 120 mg oral tablet
+^ESCTFE608869	Fexofenadine 180mg tablets
+^ESCTFE608871	Fexofenadine hydrochloride 180 mg oral tablet
+^ESCTFE635970	Fexofenadine 30mg tablets
+^ESCTFE635972	Fexofenadine hydrochloride 30 mg oral tablet
+^ESCTFE847706	Fexofenadine 120mg tablets 30 tablet
+^ESCTFE848131	Fexofenadine 180mg tablets 30 tablet
+^ESCTFE872271	Fexofenadine 30mg tablets 60 tablet
+^ESCTFE934315	Fexofenadine 120mg tablets (Zentiva)
+^ESCTFE934316	Fexofenadine 120mg tablets (Zentiva) 30 tablet 2 x 15 tablets
+^ESCTFE934317	Fexofenadine 180mg tablets (Zentiva)
+^ESCTFE934318	Fexofenadine 180mg tablets (Zentiva) 30 tablet 3 x 10 tablets
+^ESCTFE935195	Fexofenadine 120mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTFE935196	Fexofenadine 120mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 2 x 15 tablets
+^ESCTFE935199	Fexofenadine 180mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTFE935200	Fexofenadine 180mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 2 x 15 tablets
+^ESCTFE935836	Fexofenadine 120mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTFE935837	Fexofenadine 120mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 2 x 15 tablets
+^ESCTFE935840	Fexofenadine 180mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTFE935843	Fexofenadine 180mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTFE960220	Fexofenadine 120mg tablets 20 tablet
+^ESCTFE960222	Fexofenadine 180mg tablets 20 tablet
+^ESCTFE962425	Fexofenadine 120mg tablets (Teva UK Ltd)
+^ESCTFE962426	Fexofenadine 120mg tablets (Teva UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTFE962427	Fexofenadine 180mg tablets (Teva UK Ltd)
+^ESCTFE962428	Fexofenadine 180mg tablets (Teva UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTFE962775	Fexofenadine 120mg tablets (PLIVA Pharma Ltd)
+^ESCTFE962776	Fexofenadine 120mg tablets (PLIVA Pharma Ltd) 30 tablet
+^ESCTFE962777	Fexofenadine 180mg tablets (PLIVA Pharma Ltd)
+^ESCTFE962778	Fexofenadine 180mg tablets (PLIVA Pharma Ltd) 30 tablet
+^ESCTFE963930	Fexofenadine 120mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTFE963931	Fexofenadine 120mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTFE963932	Fexofenadine 180mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTFE963933	Fexofenadine 180mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTFE967714	Fexofenadine 120mg/5ml oral solution 1 ml
+^ESCTFE967715	Fexofenadine 120mg/5ml oral solution (Special Order)
+^ESCTFE967717	Fexofenadine 120mg/5ml oral solution (Special Order) 1 ml
+^ESCTFE967719	Fexofenadine 120mg/5ml oral suspension 1 ml
+^ESCTFE967720	Fexofenadine 120mg/5ml oral suspension (Special Order)
+^ESCTFE967721	Fexofenadine 120mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFE967984	Fexofenadine 120mg/5ml oral solution
+^ESCTFE967985	Fexofenadine 120mg/5ml oral suspension
+^ESCTFE969444	Fexofenadine 120mg tablets (Chanelle Medical UK Ltd)
+^ESCTFE969445	Fexofenadine 120mg tablets (Chanelle Medical UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTFE969446	Fexofenadine 180mg tablets (Chanelle Medical UK Ltd)
+^ESCTFE969447	Fexofenadine 180mg tablets (Chanelle Medical UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTFE974632	Fexofenadine 120mg tablets (Actavis UK Ltd)
+^ESCTFE974633	Fexofenadine 120mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTFE974634	Fexofenadine 180mg tablets (Actavis UK Ltd)
+^ESCTFE974635	Fexofenadine 180mg tablets (Actavis UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTFE978347	Fexofenadine 120mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTFE978348	Fexofenadine 120mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTFE978349	Fexofenadine 180mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTFE978350	Fexofenadine 180mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTFE979660	Fexofenadine 120mg tablets (Mylan Ltd)
+^ESCTFE979661	Fexofenadine 120mg tablets (Mylan Ltd) 30 tablet 3 x 10 tablets
+^ESCTFE979662	Fexofenadine 180mg tablets (Mylan Ltd)
+^ESCTFE979663	Fexofenadine 180mg tablets (Mylan Ltd) 30 tablet 3 x 10 tablets
+^ESCTFE983753	Fexofenadine 180mg/5ml oral solution 1 ml
+^ESCTFE983754	Fexofenadine 180mg/5ml oral solution (Special Order)
+^ESCTFE983755	Fexofenadine 180mg/5ml oral solution (Special Order) 1 ml
+^ESCTFE983756	Fexofenadine 180mg/5ml oral suspension 1 ml
+^ESCTFE983757	Fexofenadine 180mg/5ml oral suspension (Special Order)
+^ESCTFE983758	Fexofenadine 180mg/5ml oral suspension (Special Order) 1 ml
+^ESCTFE985103	Fexofenadine 180mg/5ml oral solution
+^ESCTFE985104	Fexofenadine 180mg/5ml oral suspension
+^ESCTPR608867	Product containing fexofenadine hydrochloride 120 mg/1 each oral tablet
+^ESCTPR608870	Product containing fexofenadine hydrochloride 180 mg/1 each oral tablet
+^ESCTPR635971	Product containing fexofenadine hydrochloride 30 mg/1 each oral tablet
+^ESCTTE801895	Telfast 120mg tablets (Sanofi)
+^ESCTTE830730	Telfast 180mg tablets (Sanofi)
+^ESCTTE854215	Telfast 120mg tablets (Sanofi) 30 tablet 3 x 10 tablets
+^ESCTTE854218	Telfast 180mg tablets (Sanofi) 30 tablet 3 x 10 tablets
+^ESCTTE872272	Telfast 30mg tablets (Sanofi)
+^ESCTTE872273	Telfast 30mg tablets (Sanofi) 60 tablet 4 x 15 tablets
+FEOR138120NEMIS	Fexofenadine Hydrochloride  Oral suspension  180 mg/5 ml
+FETA15950NEMIS	Fexofenadine Hydrochloride  Tablets  30 mg
+FETA30496EMIS	Fexofenadine Hydrochloride  Tablets  120 mg
+FETA31443EMIS	Fexofenadine Hydrochloride  Tablets  180 mg
+TETA15951NEMIS	Telfast  Tablets  30 mg
+TETA30494EMIS	Telfast  Tablets  120 mg
+TETA31441EMIS	Telfast  Tablets  180 mg

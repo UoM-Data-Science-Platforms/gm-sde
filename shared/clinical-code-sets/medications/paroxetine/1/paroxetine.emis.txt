@@ -1,0 +1,237 @@
+^ESCT1173375	Paroxetine 10mg tablets (Creo Pharma Ltd)
+^ESCT1173376	Paroxetine 10mg tablets (Creo Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1176051	Paroxetine 40mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1176052	Paroxetine 40mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCT1180141	Paroxetine 20mg tablets (Milpharm Ltd)
+^ESCT1181898	Product containing only paroxetine 20 mg/1 each oral tablet
+^ESCT1183505	Paroxetine 20mg tablets (Mylan) 30 tablet
+^ESCT1183720	Paroxetine 20mg tablets (Mylan)
+^ESCT1184137	Product containing only paroxetine 40 mg/1 each oral tablet
+^ESCT1186124	Paroxetine 30mg tablets (Mylan)
+^ESCT1186125	Paroxetine 30mg tablets (Mylan) 30 tablet
+^ESCT1186213	Paroxetine 30mg tablets (Milpharm Ltd)
+^ESCT1186214	Paroxetine 30mg tablets (Milpharm Ltd) 30 tablet
+^ESCT1187300	Product containing only paroxetine 30 mg/1 each oral tablet
+^ESCT1189091	Paroxetine 20mg tablets (Milpharm Ltd) 30 tablet
+^ESCT1189417	Paroxetine 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1195391	Paroxetine 10mg tablets (Crescent Pharma Ltd)
+^ESCT1195392	Paroxetine 10mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1214239	Paroxetine 10mg tablets (Medreich Plc)
+^ESCT1214240	Paroxetine 10mg tablets (Medreich Plc) 28 tablet 2 x 14 tablets
+^ESCT1214319	Paroxetine 20mg tablets (Tillomed Laboratories Ltd)
+^ESCT1214320	Paroxetine 20mg tablets (Tillomed Laboratories Ltd) 30 tablet
+^ESCT1215204	Paroxetine 30mg tablets (Crescent Pharma Ltd)
+^ESCT1215205	Paroxetine 30mg tablets (Crescent Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCT1223594	Product containing precisely paroxetine 20 milligram/1 each conventional release oral tablet
+^ESCT1223595	Product containing precisely paroxetine 30 milligram/1 each conventional release oral tablet
+^ESCT1233684	Product containing precisely paroxetine 40 milligram/1 each conventional release oral tablet
+^ESCT1255505	Paroxetine 10mg/5ml oral suspension sugar free
+^ESCT1264599	Paroxetine 40mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264600	Paroxetine 40mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1265186	Paroxetine 40mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCT1275462	Paroxetine 40mg tablets (DE Pharmaceuticals)
+^ESCT1275463	Paroxetine 40mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1277560	Paroxetine 10mg tablets (Accord Healthcare Ltd)
+^ESCT1277561	Paroxetine 10mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1278991	Paroxetine 10mg tablets (Zentiva)
+^ESCT1278992	Paroxetine 10mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCT1279761	Paroxetine 20mg tablets (Accord Healthcare Ltd)
+^ESCT1279762	Paroxetine 20mg tablets (Accord Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1279787	Paroxetine 30mg tablets (Accord Healthcare Ltd)
+^ESCT1279788	Paroxetine 30mg tablets (Accord Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCT1403424	Paroxetine 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403425	Paroxetine 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1403426	Paroxetine 20mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403427	Paroxetine 20mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1403428	Paroxetine 30mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403429	Paroxetine 30mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1404723	Paroxetine 40mg tablets (Medihealth (Northern) Ltd)
+^ESCT1404724	Paroxetine 40mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1422092	Paroxetine 30mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422093	Paroxetine 30mg tablets (Zentiva Pharma UK Ltd) 30 tablet 3 x 10 tablets
+^ESCT1422793	Paroxetine 10mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422794	Paroxetine 10mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1424862	Paroxetine 10mg tablets
+^ESCT1425697	Paroxetine 20mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426328	Paroxetine 20mg tablets (Kent Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1426829	Paroxetine 30mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426830	Paroxetine 30mg tablets (Kent Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA1006243	Paroxetine 20mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTPA1006244	Paroxetine 20mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTPA1006245	Paroxetine 30mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTPA1006246	Paroxetine 30mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTPA1017835	Paroxetine 20mg tablets (Aurobindo Pharma Ltd)
+^ESCTPA1017836	Paroxetine 20mg tablets (Aurobindo Pharma Ltd) 30 tablet
+^ESCTPA1017838	Paroxetine 30mg tablets (Aurobindo Pharma Ltd)
+^ESCTPA1017839	Paroxetine 30mg tablets (Aurobindo Pharma Ltd) 30 tablet
+^ESCTPA1038070	Paroxetine 20mg tablets (Medreich Plc)
+^ESCTPA1038071	Paroxetine 20mg tablets (Medreich Plc) 30 tablet
+^ESCTPA1038072	Paroxetine 30mg tablets (Medreich Plc)
+^ESCTPA1038074	Paroxetine 30mg tablets (Medreich Plc) 30 tablet
+^ESCTPA1039275	Paroxetine 10mg tablets (Actavis UK Ltd)
+^ESCTPA1039276	Paroxetine 10mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTPA1039338	Paroxetine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPA1039339	Paroxetine 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTPA1042017	Paroxetine 20mg tablets (Waymade Healthcare Plc)
+^ESCTPA1042018	Paroxetine 20mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTPA1042024	Paroxetine 30mg tablets (Waymade Healthcare Plc)
+^ESCTPA1042025	Paroxetine 30mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTPA1045809	Paroxetine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPA1045810	Paroxetine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTPA1118800	Paroxetine 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPA1118801	Paroxetine 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTPA1119560	Paroxetine 10mg tablets (DE Pharmaceuticals)
+^ESCTPA1119561	Paroxetine 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTPA1119562	Paroxetine 20mg tablets (DE Pharmaceuticals)
+^ESCTPA1119563	Paroxetine 20mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTPA1119564	Paroxetine 30mg tablets (DE Pharmaceuticals)
+^ESCTPA1119565	Paroxetine 30mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTPA1127031	Paroxetine 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTPA1127032	Paroxetine 10mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTPA1149009	Paroxetine 40mg tablets 30 tablet
+^ESCTPA1149010	Paroxetine 40mg tablets (Crescent Pharma Ltd)
+^ESCTPA1149011	Paroxetine 40mg tablets (Crescent Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA1151012	Paroxetine 10mg tablets (Teva UK Ltd)
+^ESCTPA1151013	Paroxetine 10mg tablets (Teva UK Ltd) 28 tablet
+^ESCTPA1151788	Paroxetine 40mg tablets 28 tablet
+^ESCTPA1151789	Paroxetine 40mg tablets (Morningside Healthcare Ltd)
+^ESCTPA1151793	Paroxetine 40mg tablets (Morningside Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTPA1151795	Paroxetine 10mg tablets (Morningside Healthcare Ltd)
+^ESCTPA1151796	Paroxetine 10mg tablets (Morningside Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCTPA1152643	Paroxetine 40mg tablets (Teva UK Ltd)
+^ESCTPA1152644	Paroxetine 40mg tablets (Teva UK Ltd) 28 tablet
+^ESCTPA1159884	Paroxetine 20mg tablets (Crescent Pharma Ltd)
+^ESCTPA1159885	Paroxetine 20mg tablets (Crescent Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA1161955	Paroxetine 40mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPA1161956	Paroxetine 40mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA609785	Paroxetine 20mg tablets
+^ESCTPA609787	Paroxetine 20 mg oral tablet
+^ESCTPA609788	Paroxetine 30mg tablets
+^ESCTPA609790	Paroxetine 30 mg oral tablet
+^ESCTPA698343	Paroxetine 40mg tablets
+^ESCTPA698345	Paroxetine 40 mg oral tablet
+^ESCTPA800935	Paroxetine 20mg tablets (Mylan Ltd)
+^ESCTPA801447	Paroxetine 20mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTPA803636	Paroxetine 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPA818599	Paroxetine 20mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPA820107	Paroxetine 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPA846066	Paroxetine 20mg tablets 30 tablet
+^ESCTPA848036	Paroxetine 10mg/5ml oral suspension sugar free 150 ml
+^ESCTPA848114	Paroxetine 30mg tablets 30 tablet
+^ESCTPA854037	Paroxetine 20mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTPA854038	Paroxetine 20mg tablets (Mylan Ltd) 30 tablet
+^ESCTPA854039	Paroxetine 20mg tablets (IVAX Pharmaceuticals UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA854040	Paroxetine 20mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA854041	Paroxetine 20mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA867333	Paroxetine 20mg tablets (Actavis UK Ltd)
+^ESCTPA867334	Paroxetine 20mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA878263	Paroxetine 20mg tablets 28 tablet
+^ESCTPA879245	Paroxetine 20mg tablets 14 tablet
+^ESCTPA886942	Paroxetine 30mg tablets (Actavis UK Ltd)
+^ESCTPA886951	Paroxetine 30mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA896464	Paroxetine 30mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTPA896465	Paroxetine 30mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA896897	Paroxetine 30mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTPA896898	Paroxetine 30mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTPA897759	Paroxetine 30mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTPA897763	Paroxetine 30mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA897875	Paroxetine 20mg tablets (Sandoz Ltd)
+^ESCTPA897877	Paroxetine 20mg tablets (Sandoz Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA900743	Paroxetine 20mg tablets (Sterwin Medicines)
+^ESCTPA900744	Paroxetine 20mg tablets (Sterwin Medicines) 30 tablet 3 x 10 tablets
+^ESCTPA900752	Paroxetine 30mg tablets (Zentiva)
+^ESCTPA900753	Paroxetine 30mg tablets (Zentiva) 30 tablet 3 x 10 tablets
+^ESCTPA901699	Paroxetine 20mg tablets (Teva UK Ltd)
+^ESCTPA901701	Paroxetine 20mg tablets (Teva UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTPA903217	Paroxetine 30mg tablets (Mylan Ltd)
+^ESCTPA903218	Paroxetine 30mg tablets (Mylan Ltd) 30 tablet
+^ESCTPA912052	Paroxetine 20mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTPA912053	Paroxetine 20mg tablets (Genus Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA919505	Paroxetine 30mg tablets (Teva UK Ltd)
+^ESCTPA919507	Paroxetine 30mg tablets (Teva UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTPA922779	Paroxetine 20mg tablets (PLIVA Pharma Ltd)
+^ESCTPA922782	Paroxetine 20mg tablets (PLIVA Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA922784	Paroxetine 30mg tablets (PLIVA Pharma Ltd)
+^ESCTPA922787	Paroxetine 30mg tablets (PLIVA Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA937929	Paroxetine 10mg tablets 28 tablet
+^ESCTPA939567	Paroxetine 30mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTPA939568	Paroxetine 30mg tablets (Almus Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA939569	Paroxetine 20mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTPA939570	Paroxetine 20mg tablets (Almus Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA940687	Paroxetine 30mg tablets (Sandoz Ltd)
+^ESCTPA940688	Paroxetine 30mg tablets (Sandoz Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA957375	Paroxetine 10mg/5ml oral suspension 1 ml
+^ESCTPA957378	Paroxetine 10mg/5ml oral suspension (Special Order)
+^ESCTPA957381	Paroxetine 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPA957383	Paroxetine 10mg/5ml oral solution 1 ml
+^ESCTPA957387	Paroxetine 10mg/5ml oral solution (Special Order)
+^ESCTPA957388	Paroxetine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTPA957391	Paroxetine 20mg/5ml oral suspension 1 ml
+^ESCTPA957393	Paroxetine 20mg/5ml oral suspension (Special Order)
+^ESCTPA957394	Paroxetine 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPA957395	Paroxetine 20mg/5ml oral solution 1 ml
+^ESCTPA957396	Paroxetine 20mg/5ml oral solution (Special Order)
+^ESCTPA957397	Paroxetine 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTPA957399	Paroxetine 30mg/5ml oral suspension 1 ml
+^ESCTPA957401	Paroxetine 30mg/5ml oral suspension (Special Order)
+^ESCTPA957403	Paroxetine 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTPA957405	Paroxetine 30mg/5ml oral solution 1 ml
+^ESCTPA957407	Paroxetine 30mg/5ml oral solution (Special Order)
+^ESCTPA957409	Paroxetine 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTPA957601	Paroxetine 10mg/5ml oral solution
+^ESCTPA957602	Paroxetine 10mg/5ml oral suspension
+^ESCTPA957603	Paroxetine 20mg/5ml oral solution
+^ESCTPA957604	Paroxetine 20mg/5ml oral suspension
+^ESCTPA957605	Paroxetine 30mg/5ml oral solution
+^ESCTPA957606	Paroxetine 30mg/5ml oral suspension
+^ESCTPA965221	Paroxetine 20mg tablets (Ranbaxy (UK) Ltd)
+^ESCTPA965223	Paroxetine 20mg tablets (Ranbaxy (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA965650	Paroxetine 20mg tablets (Apotex UK Ltd)
+^ESCTPA965651	Paroxetine 20mg tablets (Apotex UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA965652	Paroxetine 30mg tablets (Apotex UK Ltd)
+^ESCTPA965653	Paroxetine 30mg tablets (Apotex UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTPA978910	Paroxetine 30mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPA978911	Paroxetine 30mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTPA978912	Paroxetine 20mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTPA978913	Paroxetine 20mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTPA994397	Paroxetine 30mg tablets (Pfizer Ltd)
+^ESCTPA994398	Paroxetine 30mg tablets (Pfizer Ltd) 30 tablet
+^ESCTPA994399	Paroxetine 20mg tablets (Pfizer Ltd)
+^ESCTPA994400	Paroxetine 20mg tablets (Pfizer Ltd) 30 tablet
+^ESCTPR609786	Product containing paroxetine 20 mg/1 each oral tablet
+^ESCTPR609789	Product containing paroxetine 30 mg/1 each oral tablet
+^ESCTPR698344	Product containing paroxetine 40 mg/1 each oral tablet
+^ESCTSE800278	Seroxat 20mg/10ml liquid (GlaxoSmithKline UK Ltd)
+^ESCTSE818467	Seroxat 20mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTSE822914	Seroxat 30mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTSE854042	Seroxat 20mg tablets (GlaxoSmithKline UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTSE854043	Seroxat 30mg tablets (GlaxoSmithKline UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTSE854888	Seroxat 20mg/10ml liquid (GlaxoSmithKline UK Ltd) 150 ml
+^ESCTSE937930	Seroxat 10mg tablets (GlaxoSmithKline UK Ltd)
+^ESCTSE937931	Seroxat 10mg tablets (GlaxoSmithKline UK Ltd) 28 tablet 4 x 7 tablets
+PALI32615EMIS	Paroxetine Hydrochloride  Oral Suspension Sugar Free  10 mg/5 ml
+PATA117351NEMIS	Paroxetine Hydrochloride  Tablets  40 mg
+PATA24526NEMIS	Paroxetine Hydrochloride  Tablets  10 mg
+PATA36436MGEMIS	Paroxetine Hydrochloride  Tablets  20 mg (Generics (UK))
+PATA36437MGEMIS	Paroxetine Hydrochloride  Tablets  20 mg (Ivax Pharmaceuticals)
+PATA36438MGEMIS	Paroxetine Hydrochloride  Tablets  20 mg (Unichem)
+PATA36439MGEMIS	Paroxetine Hydrochloride  Tablets  20 mg (Kent Pharm)
+PATA36440MGEMIS	Paroxetine Hydrochloride  Tablets  20 mg (A.A.H. Pharm)
+PATA36441MGEMIS	Paroxetine Hydrochloride  Tablets  20 mg (Alpharma)
+PATA36442MGEMIS	Paroxetine Hydrochloride  Tablets  20 mg (Sandoz)
+PATA36443MGEMIS	Paroxetine Hydrochloride  Tablets  20 mg (Sterwin Medicines)
+PATA36444MGEMIS	Paroxetine Hydrochloride  Tablets  20 mg (Teva UK)
+PATA36445MGEMIS	Paroxetine Hydrochloride  Tablets  20 mg (Genus Pharm)
+PATA36446MGEMIS	Paroxetine Hydrochloride  Tablets  30 mg (Alpharma)
+PATA36447MGEMIS	Paroxetine Hydrochloride  Tablets  30 mg (Unichem)
+PATA36448MGEMIS	Paroxetine Hydrochloride  Tablets  30 mg (A.A.H. Pharm)
+PATA36449MGEMIS	Paroxetine Hydrochloride  Tablets  30 mg (Kent Pharm)
+PATA36450MGEMIS	Paroxetine Hydrochloride  Tablets  30 mg (Winthrop Pharmaceuticals )
+PATA36451MGEMIS	Paroxetine Hydrochloride  Tablets  30 mg (Generics (UK))
+PATA36452MGEMIS	Paroxetine Hydrochloride  Tablets  30 mg (Teva UK)
+PATA8972EMIS	Paroxetine Hydrochloride  Tablets  20 mg
+PATA8973EMIS	Paroxetine Hydrochloride  Tablets  30 mg
+SELI32613EMIS	Seroxat  Liquid  20 mg/10 ml
+SETA24527NEMIS	Seroxat  Tablets  10 mg
+SETA8968EMIS	Seroxat  Tablets  20 mg
+SETA8969EMIS	Seroxat  Tablets  30 mg

@@ -1,0 +1,47 @@
+^ESCT1178736	Product containing only betamethasone 500 microgram/1 each oral tablet
+^ESCT1195781	Betamethasone 4mg/1ml solution for injection ampoules (RPH Pharmaceuticals AB) 5 ampoule
+^ESCT1196263	Betamethasone 4mg/1ml solution for injection ampoules (RPH Pharmaceuticals AB)
+^ESCT1196547	Betamethasone 500microgram soluble tablets sugar free (RPH Pharmaceuticals AB)
+^ESCT1196548	Betamethasone 500microgram soluble tablets sugar free (RPH Pharmaceuticals AB) 100 tablet
+^ESCT1214776	Betamethasone 4mg/1ml solution for injection ampoules
+^ESCT1224642	Betamethasone 500 microgram oral tablet
+^ESCT1224643	Product containing precisely betamethasone 500 microgram/1 each conventional release oral tablet
+^ESCT1264433	Betamethasone 500microgram soluble tablets sugar free (DE Pharmaceuticals)
+^ESCT1264434	Betamethasone 500microgram soluble tablets sugar free (DE Pharmaceuticals) 100 tablet
+^ESCT1374897	Betamethasone 500microgram soluble tablets sugar free (Medihealth (Northern) Ltd)
+^ESCT1374898	Betamethasone 500microgram soluble tablets sugar free (Medihealth (Northern) Ltd) 100 tablet
+^ESCT1402701	Betamethasone 500microgram soluble tablets sugar free (Roma Pharmaceuticals Ltd)
+^ESCT1402702	Betamethasone 500microgram soluble tablets sugar free (Roma Pharmaceuticals Ltd) 100 tablet
+^ESCT1424816	Betamethasone 500microgram soluble tablets sugar free
+^ESCTBE1035701	Betamethasone 500microgram soluble tablets sugar free (Focus Pharmaceuticals Ltd)
+^ESCTBE1035702	Betamethasone 500microgram soluble tablets sugar free (Focus Pharmaceuticals Ltd) 100 tablet
+^ESCTBE1036437	Betamethasone 500microgram soluble tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTBE1036438	Betamethasone 500microgram soluble tablets sugar free (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTBE1036471	Betamethasone 500microgram soluble tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTBE1036473	Betamethasone 500microgram soluble tablets sugar free (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTBE1045408	Betamethasone 500microgram soluble tablets sugar free (Phoenix Healthcare Distribution Ltd)
+^ESCTBE1045409	Betamethasone 500microgram soluble tablets sugar free (Phoenix Healthcare Distribution Ltd) 100 tablet
+^ESCTBE1127629	Betamethasone 4mg/1ml solution for injection ampoules (Focus Pharmaceuticals Ltd)
+^ESCTBE1127630	Betamethasone 4mg/1ml solution for injection ampoules (Focus Pharmaceuticals Ltd) 5 ampoule
+^ESCTBE1128211	Betamethasone 4mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTBE1128212	Betamethasone 4mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 5 ampoule
+^ESCTBE1128234	Betamethasone 4mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTBE1128235	Betamethasone 4mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 5 ampoule
+^ESCTBE612516	Betamethasone 500microgram tablets
+^ESCTBE612518	Betamethasone 500 microgram/1 each oral tablet
+^ESCTBE863505	Betamethasone 500microgram soluble tablets sugar free 100 tablet
+^ESCTBE863506	Betnesol 500microgram soluble tablets (Focus Pharmaceuticals Ltd)
+^ESCTBE863507	Betnesol 500microgram soluble tablets (Focus Pharmaceuticals Ltd) 100 tablet 10 x 10 tablets
+^ESCTBE864512	Betamethasone 500microgram tablets 100 tablet
+^ESCTBE864514	Betnelan 500microgram tablets (Focus Pharmaceuticals Ltd)
+^ESCTBE864515	Betnelan 500microgram tablets (Focus Pharmaceuticals Ltd) 100 tablet
+^ESCTBE865667	Betamethasone 4mg/1ml solution for injection ampoules 5 ampoule
+^ESCTBE865670	Betnesol 4mg/1ml solution for injection ampoules (Focus Pharmaceuticals Ltd)
+^ESCTBE865671	Betnesol 4mg/1ml solution for injection ampoules (Focus Pharmaceuticals Ltd) 5 ampoule
+^ESCTPR612517	Product containing betamethasone 500 microgram/1 each oral tablet
+BEIN9185HILLI	Betnesol  Solution for injection  4 mg/ml, 1 ml ampoule
+BEIN9273HILLI	Betamethasone Sodium Phosphate  Solution for injection  4 mg/ml, 1 ml ampoule
+BETA3239	Betnelan  Tablets  500 micrograms
+BETA345	Betamethasone Sodium Phosphate  Soluble tablets  Sugar Free 500 micrograms
+BETA353	Betnesol  Tablets  500 micrograms
+BETA4644	Betamethasone  Tablets  500 micrograms

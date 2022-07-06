@@ -1,0 +1,3 @@
+c8q1.	MIZOLASTINE 10mg m/r tablets
+c8q2.	MIZOLLEN 10mg m/r tablets
+c8q3.	*MISTAMINE 10mg m/r tablets

@@ -1,0 +1,41 @@
+^ESCT1255956	Insulin glargine 100units/ml / Lixisenatide 50micrograms/ml solution for injection 3ml pre-filled disposable devices 3 pre-filled disposable injection
+^ESCT1255958	Suliqua 100units/ml / 50micrograms/ml solution for injection 3ml pre-filled SoloStar pen (Sanofi)
+^ESCT1255959	Suliqua 100units/ml / 50micrograms/ml solution for injection 3ml pre-filled SoloStar pen (Sanofi) 3 pre-filled disposable injection
+^ESCT1255978	Insulin glargine 100units/ml / Lixisenatide 33micrograms/ml solution for injection 3ml pre-filled disposable devices 3 pre-filled disposable injection
+^ESCT1255980	Suliqua 100units/ml / 33micrograms/ml solution for injection 3ml pre-filled SoloStar pen (Sanofi)
+^ESCT1255982	Suliqua 100units/ml / 33micrograms/ml solution for injection 3ml pre-filled SoloStar pen (Sanofi) 3 pre-filled disposable injection
+^ESCT1256015	Insulin glargine 100units/ml / Lixisenatide 33micrograms/ml solution for injection 3ml pre-filled disposable devices
+^ESCT1256016	Insulin glargine 100units/ml / Lixisenatide 50micrograms/ml solution for injection 3ml pre-filled disposable devices
+^ESCT1302431	Lyxumia 20micrograms/0.2ml solution for injection 3ml pre-filled pens (Sanofi)
+^ESCT1302432	Lyxumia 20micrograms/0.2ml solution for injection 3ml pre-filled pens (Sanofi) 2 pre-filled disposable injection
+^ESCT1302433	Lyxumia 20micrograms/0.2ml solution for injection 3ml pre-filled pens (Sanofi) 1 pre-filled disposable injection
+^ESCT1302434	Lyxumia 10micrograms/0.2ml solution for injection 3ml pre-filled pens (Sanofi)
+^ESCT1302435	Lyxumia 10micrograms/0.2ml solution for injection 3ml pre-filled pens (Sanofi) 1 pre-filled disposable injection
+^ESCT1303024	Suliqua 100units/ml / 50micrograms/ml solution for injection 3ml pre-filled SoloStar pens (Sanofi)
+^ESCT1303025	Suliqua 100units/ml / 50micrograms/ml solution for injection 3ml pre-filled SoloStar pens (Sanofi) 3 pre-filled disposable injection
+^ESCT1303026	Suliqua 100units/ml / 33micrograms/ml solution for injection 3ml pre-filled SoloStar pens (Sanofi)
+^ESCT1303027	Suliqua 100units/ml / 33micrograms/ml solution for injection 3ml pre-filled SoloStar pens (Sanofi) 3 pre-filled disposable injection
+^ESCTLI1042910	Lixisenatide 20micrograms/0.2ml solution for injection 3ml pre-filled disposable devices 2 pre-filled disposable injection
+^ESCTLI1042913	Lixisenatide 20micrograms/0.2ml solution for injection 3ml pre-filled disposable devices 1 pre-filled disposable injection
+^ESCTLI1042915	Lixisenatide 10micrograms/0.2ml solution for injection 3ml pre-filled disposable devices 1 pre-filled disposable injection
+^ESCTLI1043023	Lixisenatide 10micrograms/0.2ml solution for injection 3ml pre-filled disposable devices and Lixisenatide 20micrograms/0.2ml solution for injection 3ml pre-filled disposable devices 2 pre-filled disposable injection
+^ESCTLI1043424	Lixisenatide 10micrograms/0.2ml solution for injection 3ml pre-filled disposable devices
+^ESCTLI1043425	Lixisenatide 10micrograms/0.2ml solution for injection 3ml pre-filled disposable devices and Lixisenatide 20micrograms/0.2ml solution for injection 3ml pre-filled disposable devices
+^ESCTLI1043426	Lixisenatide 20micrograms/0.2ml solution for injection 3ml pre-filled disposable devices
+^ESCTLY1042911	Lyxumia 20micrograms/0.2ml solution for injection 3ml pre-filled pen (Sanofi)
+^ESCTLY1042912	Lyxumia 20micrograms/0.2ml solution for injection 3ml pre-filled pen (Sanofi) 2 pre-filled disposable injection
+^ESCTLY1042914	Lyxumia 20micrograms/0.2ml solution for injection 3ml pre-filled pen (Sanofi) 1 pre-filled disposable injection
+^ESCTLY1042916	Lyxumia 10micrograms/0.2ml solution for injection 3ml pre-filled pen (Sanofi)
+^ESCTLY1042917	Lyxumia 10micrograms/0.2ml solution for injection 3ml pre-filled pen (Sanofi) 1 pre-filled disposable injection
+^ESCTLY1043028	Lyxumia 10micrograms/20micrograms treatment initiation pack (Sanofi)
+^ESCTLY1043029	Lyxumia 10micrograms/20micrograms treatment initiation pack (Sanofi) 2 pre-filled disposable injection 1 x (1 inj + 1 inj)
+INSO130642NEMIS	Insulin Glargine And Lixisenatide  Solution for injection  100 units/ml + 33 micrograms/ml, 3 ml device
+INSO130643NEMIS	Insulin Glargine And Lixisenatide  Solution for injection  100 units/ml + 50 micrograms/ml, 3 ml device
+LIIN78550NEMIS	Lixisenatide  Injection  10 micrograms/0.2ml pen + 20 micrograms/0.2ml pen
+LISO78533NEMIS	Lixisenatide  Solution for injection  10 micrograms/0.2 ml, 3 ml device
+LISO78535NEMIS	Lixisenatide  Solution for injection  20 micrograms/0.2 ml, 3 ml device
+LYIN78553NEMIS	Lyxumia  Injection  10 micrograms/0.2ml pen + 20 micrograms/0.2ml pen
+LYSO78537NEMIS	Lyxumia  Solution for injection  10 micrograms/0.2 ml, 3 ml pen
+LYSO78538NEMIS	Lyxumia  Solution for injection  20 micrograms/0.2 ml, 3 ml pen
+SUSO130639NEMIS	Suliqua Solostar  Solution for injection  100 units/ml + 33 micrograms/ml, 3 ml pen
+SUSO130640NEMIS	Suliqua Solostar  Solution for injection  100 units/ml + 50 micrograms/ml, 3 ml pen

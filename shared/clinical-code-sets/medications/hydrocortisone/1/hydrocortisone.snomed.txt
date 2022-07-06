@@ -1,0 +1,299 @@
+325373001	Hydrocortisone 10mg tablets
+1045211000001109	Hydrocortisone 10mg tablets
+16504311000001105	Hydrocortisone 10mg tablets
+197211000001101	Hydrocortone 10mg tablets
+2160811000001102	Hydrocortone 10mg tablets
+13614311000001105	Hydrocortisone 10mg tablets
+13614411000001103	Hydrocortisone 10mg tablets
+13661711000001105	Hydrocortisone 10mg tablets
+13661811000001102	Hydrocortisone 10mg tablets
+13806811000001104	Hydrocortisone 10mg tablets
+13806911000001109	Hydrocortisone 10mg tablets
+15092711000001102	Hydrocortisone 10mg tablets
+15092811000001105	Hydrocortisone 10mg tablets
+17930211000001109	Hydrocortisone 10mg tablets
+17930311000001101	Hydrocortisone 10mg tablets
+17973911000001105	Hydrocortisone 10mg tablets
+17974011000001108	Hydrocortisone 10mg tablets
+18392311000001107	Hydrocortisone 10mg tablets
+18392611000001102	Hydrocortisone 10mg tablets
+22044411000001106	Hydrocortisone 10mg tablets
+22044511000001105	Hydrocortisone 10mg tablets
+24154111000001101	Hydrocortisone 10mg tablets
+24154211000001107	Hydrocortisone 10mg tablets
+32711611000001102	Hydrocortisone 10mg tablets
+32711711000001106	Hydrocortisone 10mg tablets
+33423211000001105	Hydrocortisone 10mg tablets
+33423311000001102	Hydrocortisone 10mg tablets
+34616211000001108	Hydrocortisone 10mg tablets
+34616311000001100	Hydrocortisone 10mg tablets
+34957811000001100	Hydrocortisone 10mg tablets
+34957911000001105	Hydrocortisone 10mg tablets
+35108911000001105	Hydrocortisone 10mg tablets
+35109011000001101	Hydrocortisone 10mg tablets
+36508411000001105	Hydrocortisone 10mg tablets
+36508511000001109	Hydrocortisone 10mg tablets
+36917711000001106	Hydventia 10mg tablets
+36917811000001103	Hydventia 10mg tablets
+37126311000001101	Hydrocortisone 10mg tablets
+37126411000001108	Hydrocortisone 10mg tablets
+37494211000001109	Hydrocortisone 10mg tablets
+37494311000001101	Hydrocortisone 10mg tablets
+38070711000001101	Hydrocortisone 10mg tablets
+38070811000001109	Hydrocortisone 10mg tablets
+38946111000001108	Hydrocortisone 10mg tablets
+38946211000001102	Hydrocortisone 10mg tablets
+40232811000001100	Hydrocortisone 10mg tablets
+40232911000001105	Hydrocortisone 10mg tablets
+325374007	Hydrocortisone 20mg tablets
+1001011000001106	Hydrocortisone 20mg tablets
+706611000001109	Hydrocortone 20mg tablets
+2164611000001108	Hydrocortone 20mg tablets
+13614511000001104	Hydrocortisone 20mg tablets
+13614611000001100	Hydrocortisone 20mg tablets
+13661911000001107	Hydrocortisone 20mg tablets
+13662011000001100	Hydrocortisone 20mg tablets
+13807011000001108	Hydrocortisone 20mg tablets
+13807111000001109	Hydrocortisone 20mg tablets
+15092911000001100	Hydrocortisone 20mg tablets
+15093011000001108	Hydrocortisone 20mg tablets
+17930411000001108	Hydrocortisone 20mg tablets
+17930511000001107	Hydrocortisone 20mg tablets
+17974111000001109	Hydrocortisone 20mg tablets
+17974211000001103	Hydrocortisone 20mg tablets
+18394311000001100	Hydrocortisone 20mg tablets
+18394411000001107	Hydrocortisone 20mg tablets
+22044611000001109	Hydrocortisone 20mg tablets
+22044711000001100	Hydrocortisone 20mg tablets
+24154311000001104	Hydrocortisone 20mg tablets
+24154711000001100	Hydrocortisone 20mg tablets
+29837011000001103	Hydrocortisone 20mg tablets
+29837111000001102	Hydrocortisone 20mg tablets
+32407611000001101	Hydrocortisone 20mg tablets
+32407711000001105	Hydrocortisone 20mg tablets
+34616411000001107	Hydrocortisone 20mg tablets
+34616511000001106	Hydrocortisone 20mg tablets
+34702511000001102	Hydrocortisone 20mg tablets
+34702611000001103	Hydrocortisone 20mg tablets
+34958011000001107	Hydrocortisone 20mg tablets
+34958211000001102	Hydrocortisone 20mg tablets
+35109111000001100	Hydrocortisone 20mg tablets
+35109711000001104	Hydrocortisone 20mg tablets
+36508611000001108	Hydrocortisone 20mg tablets
+36508711000001104	Hydrocortisone 20mg tablets
+36917511000001101	Hydventia 20mg tablets
+36917611000001102	Hydventia 20mg tablets
+37089411000001100	Hydrocortisone 20mg tablets
+37089711000001106	Hydrocortisone 20mg tablets
+38063711000001102	Hydrocortisone 20mg tablets
+38063811000001105	Hydrocortisone 20mg tablets
+38946311000001105	Hydrocortisone 20mg tablets
+38946411000001103	Hydrocortisone 20mg tablets
+8581511000001106	Hydrocortisone 25mg/5ml oral suspension
+8531011000001106	Hydrocortisone 25mg/5ml oral suspension
+8531111000001107	Hydrocortisone 25mg/5ml oral suspension
+8531311000001109	Hydrocortisone 25mg/5ml oral suspension
+8581311000001100	Hydrocortisone 2.5mg/5ml oral suspension
+8532211000001108	Hydrocortisone 2.5mg/5ml oral suspension
+8532411000001107	Hydrocortisone 2.5mg/5ml oral suspension
+8532511000001106	Hydrocortisone 2.5mg/5ml oral suspension
+8581611000001105	Hydrocortisone 5mg/5ml oral suspension
+8531711000001108	Hydrocortisone 5mg/5ml oral suspension
+21315711000001109	Hydrocortisone 5mg/5ml oral suspension
+8531811000001100	Hydrocortisone 5mg/5ml oral suspension
+8531911000001105	Hydrocortisone 5mg/5ml oral suspension
+21315811000001101	Hydrocortisone 5mg/5ml oral suspension
+8581111000001102	Hydrocortisone 10mg/5ml oral suspension
+8532011000001103	Hydrocortisone 10mg/5ml oral suspension
+21390311000001104	Hydrocortisone 10mg/5ml oral suspension
+8532311000001100	Hydrocortisone 10mg/5ml oral suspension
+8532711000001101	Hydrocortisone 10mg/5ml oral suspension
+21390411000001106	Hydrocortisone 10mg/5ml oral suspension
+8581411000001107	Hydrocortisone 20mg/5ml oral suspension
+8533011000001107	Hydrocortisone 20mg/5ml oral suspension
+8533211000001102	Hydrocortisone 20mg/5ml oral suspension
+8533611000001100	Hydrocortisone 20mg/5ml oral suspension
+8581211000001108	Hydrocortisone 12.5mg/5ml oral suspension
+8533311000001105	Hydrocortisone 12.5mg/5ml oral suspension
+8533511000001104	Hydrocortisone 12.5mg/5ml oral suspension
+8533811000001101	Hydrocortisone 12.5mg/5ml oral suspension
+12540311000001105	Hydrocortisone 1.5mg/5ml oral suspension
+12528411000001103	Hydrocortisone 1.5mg/5ml oral suspension
+12528511000001104	Hydrocortisone 1.5mg/5ml oral suspension
+12528611000001100	Hydrocortisone 1.5mg/5ml oral suspension
+12540411000001103	Hydrocortisone 100mg/5ml oral suspension
+12528711000001109	Hydrocortisone 100mg/5ml oral suspension
+12528911000001106	Hydrocortisone 100mg/5ml oral suspension
+12529111000001101	Hydrocortisone 100mg/5ml oral suspension
+12540511000001104	Hydrocortisone 13.95mg/5ml oral suspension
+12529211000001107	Hydrocortisone 13.95mg/5ml oral suspension
+12529311000001104	Hydrocortisone 13.95mg/5ml oral suspension
+12529411000001106	Hydrocortisone 13.95mg/5ml oral suspension
+12540611000001100	Hydrocortisone 18mg/5ml oral suspension
+12529511000001105	Hydrocortisone 18mg/5ml oral suspension
+12529611000001109	Hydrocortisone 18mg/5ml oral suspension
+12529711000001100	Hydrocortisone 18mg/5ml oral suspension
+12540711000001109	Hydrocortisone 1mg/5ml oral suspension
+12529811000001108	Hydrocortisone 1mg/5ml oral suspension
+12529911000001103	Hydrocortisone 1mg/5ml oral suspension
+12530011000001108	Hydrocortisone 1mg/5ml oral suspension
+12540811000001101	Hydrocortisone 2.6mg/5ml oral suspension
+12530111000001109	Hydrocortisone 2.6mg/5ml oral suspension
+12530211000001103	Hydrocortisone 2.6mg/5ml oral suspension
+12530311000001106	Hydrocortisone 2.6mg/5ml oral suspension
+12540911000001106	Hydrocortisone 250micrograms/5ml oral suspension
+12530411000001104	Hydrocortisone 250micrograms/5ml oral suspension
+12530511000001100	Hydrocortisone 250micrograms/5ml oral suspension
+12530611000001101	Hydrocortisone 250micrograms/5ml oral suspension
+12541011000001103	Hydrocortisone 2mg/5ml oral suspension
+12530911000001107	Hydrocortisone 2mg/5ml oral suspension
+12531011000001104	Hydrocortisone 2mg/5ml oral suspension
+12531111000001103	Hydrocortisone 2mg/5ml oral suspension
+12554611000001109	Hydrocortisone 3.6mg/5ml oral suspension
+12551211000001105	Hydrocortisone 3.6mg/5ml oral suspension
+12551311000001102	Hydrocortisone 3.6mg/5ml oral suspension
+12551411000001109	Hydrocortisone 3.6mg/5ml oral suspension
+12554711000001100	Hydrocortisone 3.75mg/5ml oral suspension
+12551511000001108	Hydrocortisone 3.75mg/5ml oral suspension
+12551611000001107	Hydrocortisone 3.75mg/5ml oral suspension
+12551711000001103	Hydrocortisone 3.75mg/5ml oral suspension
+12554811000001108	Hydrocortisone 30mg/5ml oral suspension
+12551811000001106	Hydrocortisone 30mg/5ml oral suspension
+12551911000001101	Hydrocortisone 30mg/5ml oral suspension
+12552011000001108	Hydrocortisone 30mg/5ml oral suspension
+12554911000001103	Hydrocortisone 3mg/5ml oral suspension
+12552111000001109	Hydrocortisone 3mg/5ml oral suspension
+12552211000001103	Hydrocortisone 3mg/5ml oral suspension
+12552311000001106	Hydrocortisone 3mg/5ml oral suspension
+12555011000001103	Hydrocortisone 4.25mg/5ml oral suspension
+12552411000001104	Hydrocortisone 4.25mg/5ml oral suspension
+12552511000001100	Hydrocortisone 4.25mg/5ml oral suspension
+12552611000001101	Hydrocortisone 4.25mg/5ml oral suspension
+12555111000001102	Hydrocortisone 4mg/5ml oral suspension
+12552711000001105	Hydrocortisone 4mg/5ml oral suspension
+12552811000001102	Hydrocortisone 4mg/5ml oral suspension
+12552911000001107	Hydrocortisone 4mg/5ml oral suspension
+12555311000001100	Hydrocortisone 50micrograms/5ml oral suspension
+12553011000001104	Hydrocortisone 50micrograms/5ml oral suspension
+12553111000001103	Hydrocortisone 50micrograms/5ml oral suspension
+12553211000001109	Hydrocortisone 50micrograms/5ml oral suspension
+12555211000001108	Hydrocortisone 50mg/5ml oral suspension
+12553311000001101	Hydrocortisone 50mg/5ml oral suspension
+12553411000001108	Hydrocortisone 50mg/5ml oral suspension
+12553511000001107	Hydrocortisone 50mg/5ml oral suspension
+12555411000001107	Hydrocortisone 6.25mg/5ml oral suspension
+12553611000001106	Hydrocortisone 6.25mg/5ml oral suspension
+12553711000001102	Hydrocortisone 6.25mg/5ml oral suspension
+12553811000001105	Hydrocortisone 6.25mg/5ml oral suspension
+12555511000001106	Hydrocortisone 6mg/5ml oral suspension
+12553911000001100	Hydrocortisone 6mg/5ml oral suspension
+12554011000001102	Hydrocortisone 6mg/5ml oral suspension
+12554111000001101	Hydrocortisone 6mg/5ml oral suspension
+12563611000001103	Hydrocortisone 7.5mg/5ml oral suspension
+12555611000001105	Hydrocortisone 7.5mg/5ml oral suspension
+12555711000001101	Hydrocortisone 7.5mg/5ml oral suspension
+12555811000001109	Hydrocortisone 7.5mg/5ml oral suspension
+12563711000001107	Hydrocortisone 75mg/5ml oral suspension
+12555911000001104	Hydrocortisone 75mg/5ml oral suspension
+12556011000001107	Hydrocortisone 75mg/5ml oral suspension
+12556111000001108	Hydrocortisone 75mg/5ml oral suspension
+12563811000001104	Hydrocortisone 7mg/5ml oral suspension
+12558311000001109	Hydrocortisone 7mg/5ml oral suspension
+12558411000001102	Hydrocortisone 7mg/5ml oral suspension
+12558511000001103	Hydrocortisone 7mg/5ml oral suspension
+12563911000001109	Hydrocortisone 85micrograms/5ml oral suspension
+12558611000001104	Hydrocortisone 85micrograms/5ml oral suspension
+12558711000001108	Hydrocortisone 85micrograms/5ml oral suspension
+12558811000001100	Hydrocortisone 85micrograms/5ml oral suspension
+15436911000001101	Hydrocortisone 2mg capsules
+15427511000001108	Hydrocortisone 2mg capsules
+15427611000001107	Hydrocortisone 2mg capsules
+15427811000001106	Hydrocortisone 2mg capsules
+15533611000001108	Hydrocortisone 2.5mg capsules
+15524011000001101	Hydrocortisone 2.5mg capsules
+15524111000001100	Hydrocortisone 2.5mg capsules
+15524211000001106	Hydrocortisone 2.5mg capsules
+20455311000001102	Hydrocortisone 1mg capsules
+20428511000001101	Hydrocortisone 1mg capsules
+20428711000001106	Hydrocortisone 1mg capsules
+20428911000001108	Hydrocortisone 1mg capsules
+21496411000001103	Hydrocortisone 5mg modified-release tablets
+21494511000001105	Hydrocortisone 5mg modified-release tablets
+21494611000001109	Plenadren 5mg modified-release tablets
+21494711000001100	Plenadren 5mg modified-release tablets
+21496311000001105	Hydrocortisone 20mg modified-release tablets
+21494811000001108	Hydrocortisone 20mg modified-release tablets
+21494911000001103	Plenadren 20mg modified-release tablets
+21495011000001103	Plenadren 20mg modified-release tablets
+28422811000001103	Hydrocortisone 5mg/5ml oral solution
+28418611000001106	Hydrocortisone 5mg/5ml oral solution
+28418711000001102	Hydrocortisone 5mg/5ml oral solution
+28418811000001105	Hydrocortisone 5mg/5ml oral solution
+35776111000001107	Hydrocortisone 5mg granules in capsules for opening
+35697211000001101	Hydrocortisone 5mg granules in capsules for opening
+35697611000001104	Alkindi 5mg granules in capsules for opening
+35697811000001100	Alkindi 5mg granules in capsules for opening
+35776011000001106	Hydrocortisone 500microgram granules in capsules for opening
+35699111000001101	Hydrocortisone 500microgram granules in capsules for opening
+35699311000001104	Alkindi 0.5mg granules in capsules for opening
+35699511000001105	Alkindi 0.5mg granules in capsules for opening
+35775611000001109	Hydrocortisone 1mg granules in capsules for opening
+35699811000001108	Hydrocortisone 1mg granules in capsules for opening
+35700011000001101	Alkindi 1mg granules in capsules for opening
+35700111000001100	Alkindi 1mg granules in capsules for opening
+35775711000001100	Hydrocortisone 2mg granules in capsules for opening
+35700211000001106	Hydrocortisone 2mg granules in capsules for opening
+35700311000001103	Alkindi 2mg granules in capsules for opening
+35700511000001109	Alkindi 2mg granules in capsules for opening
+36595311000001105	Hydrocortisone 10mg soluble tablets sugar free
+36586811000001105	Hydrocortisone 10mg soluble tablets sugar free
+36586911000001100	Hydrocortisone 10mg soluble tablets sugar free
+36587011000001101	Hydrocortisone 10mg soluble tablets sugar free
+37492011000001105	Hydrocortisone 10mg soluble tablets sugar free
+37492111000001106	Hydrocortisone 10mg soluble tablets sugar free
+38970611000001101	Hydrocortisone 10mg soluble tablets sugar free
+38970811000001102	Hydrocortisone 10mg soluble tablets sugar free
+39934011000001101	Hydrocortisone 2.5mg tablets
+39929511000001105	Hydrocortisone 2.5mg tablets
+39929711000001100	Hydrocortisone 2.5mg tablets
+39930011000001108	Hydrocortisone 2.5mg tablets
+40090211000001103	Hydrocortisone 2.5mg tablets
+40090311000001106	Hydrocortisone 2.5mg tablets
+40509611000001108	Hydrocortisone 2.5mg tablets
+40509911000001102	Hydrocortisone 2.5mg tablets
+39934111000001100	Hydrocortisone 5mg tablets
+39930111000001109	Hydrocortisone 5mg tablets
+39930211000001103	Hydrocortisone 5mg tablets
+39930311000001106	Hydrocortisone 5mg tablets
+40089311000001101	Hydrocortisone 5mg tablets
+40089411000001108	Hydrocortisone 5mg tablets
+40510211000001102	Hydrocortisone 5mg tablets
+40510511000001104	Hydrocortisone 5mg tablets
+39933911000001104	Hydrocortisone 15mg tablets
+39930411000001104	Hydrocortisone 15mg tablets
+39930511000001100	Hydrocortisone 15mg tablets
+39930611000001101	Hydrocortisone 15mg tablets
+40089511000001107	Hydrocortisone 15mg tablets
+40089611000001106	Hydrocortisone 15mg tablets
+40510711000001109	Hydrocortisone 15mg tablets
+40510811000001101	Hydrocortisone 15mg tablets
+40103511000001102	Hydrocortisone 5mg modified-release capsules
+39998211000001105	Hydrocortisone 5mg modified-release capsules
+39998611000001107	Efmody 5mg modified-release capsules
+39998811000001106	Efmody 5mg modified-release capsules
+40103411000001101	Hydrocortisone 10mg modified-release capsules
+40000211000001101	Hydrocortisone 10mg modified-release capsules
+40000311000001109	Efmody 10mg modified-release capsules
+40000811000001100	Efmody 10mg modified-release capsules
+40609411000001100	Hydrocortisone 5mg dispersible tablets sugar free
+40592711000001107	Hydrocortisone 5mg dispersible tablets sugar free
+40592811000001104	Hydrocortisone 5mg dispersible tablets sugar free
+40592911000001109	Hydrocortisone 5mg dispersible tablets sugar free
+40609211000001104	Hydrocortisone 10mg dispersible tablets sugar free
+40593611000001108	Hydrocortisone 10mg dispersible tablets sugar free
+40595011000001100	Hydrocortisone 10mg dispersible tablets sugar free
+40595111000001104	Hydrocortisone 10mg dispersible tablets sugar free
+40609311000001107	Hydrocortisone 20mg dispersible tablets sugar free
+40595211000001105	Hydrocortisone 20mg dispersible tablets sugar free
+40595311000001102	Hydrocortisone 20mg dispersible tablets sugar free
+40595411000001109	Hydrocortisone 20mg dispersible tablets sugar free

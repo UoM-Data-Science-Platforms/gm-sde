@@ -1,0 +1,3 @@
+d7b1.	MIANSERIN 10mg tablets
+d7b2.	MIANSERIN 20mg tablets
+d7b3.	MIANSERIN 30mg tablets

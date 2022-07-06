@@ -1,0 +1,8 @@
+da61.	PAROXETINE 20mg tablets
+da62.	SEROXAT 20mg tablets x30
+da63.	PAROXETINE 30mg tablets
+da64.	SEROXAT 30mg tablets x30
+da65.	PAROXETINE 10mg/5mL sugar free liquid
+da66.	SEROXAT 10mg/5mL sugar free liquid
+da67.	PAROXETINE 10mg tablets
+da68.	SEROXAT 10mg tablets

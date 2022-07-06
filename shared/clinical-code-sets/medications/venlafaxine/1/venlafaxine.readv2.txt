@@ -1,0 +1,50 @@
+da71.	VENLAFAXINE 37.5mg tablets
+da72.	VENLAFAXINE 75mg tablets
+da73.	*EFEXOR 37.5mg tablets
+da74.	*EFEXOR 75mg tablets
+da75.	*VENLAFAXINE 50mg tablets
+da76.	*EFEXOR 50mg tablets
+da77.	VENLAFAXINE 75mg m/r capsules
+da78.	EFEXOR XL 75mg m/r capsules
+da79.	VENLAFAXINE 150mg m/r capsules
+da7a.	VENAXX XL 150mg m/r capsules
+da7A.	EFEXOR XL 150mg m/r capsules
+da7b.	VAXALIN XL 75mg m/r capsules
+da7B.	RODOMEL XL 75mg m/r capsules
+da7c.	VAXALIN XL 150mg m/r capsules
+da7C.	RODOMEL XL 150mg m/r capsules
+da7d.	ALVENTA XL 75mg m/r capsules
+da7D.	WINFEX XL 75mg m/r capsules
+da7e.	ALVENTA XL 150mg m/r capsules
+da7E.	WINFEX XL 150mg m/r capsules
+da7f.	RANFAXINE XL 150mg m/r capsules
+da7g.	RANFAXINE XL 75mg m/r capsules
+da7H.	VIEPAX XL 75mg m/r tablets
+da7I.	VENLAFAXINE 75mg m/r tablets
+da7j.	TONPULAR XL 75mg m/r capsules
+da7J.	VIEPAX XL 150mg m/r tablets
+da7k.	TONPULAR XL 150mg m/r capsules
+da7K.	VENLAFAXINE 150mg m/r tablets
+da7l.	FORAVEN XL 75mg m/r capsules
+da7L.	*TARDCAPS XL 75mg m/r capsules
+da7m.	FORAVEN XL 150mg m/r capsules
+da7M.	*TARDCAPS XL 150mg m/r capsule
+da7n.	DEPEFEX XL 75mg m/r capsules
+da7N.	VIEPAX 37.5mg tablets
+da7o.	DEPEFEX XL 150mg m/r capsules
+da7O.	VIEPAX 75mg tablets
+da7p.	VENLALIC XL 37.5mg m/r tablets
+da7P.	VENSIR XL 75mg m/r capsules
+da7q.	VENLAFAXINE 37.5mg m/r tablets
+da7Q.	VENSIR XL 150mg m/r capsules
+da7r.	SUNVENIZ XL 75mg m/r tablets
+da7R.	TIFAXIN XL 75mg m/r capsules
+da7s.	SUNVENIZ XL 150mg m/r tablets
+da7S.	TIFAXIN XL 150mg m/r capsules
+da7T.	VEXARIN XL 75mg m/r capsules
+da7U.	VEXARIN XL 150mg m/r capsules
+da7V.	VENLALIC XL 75mg m/r tablets
+da7W.	VENLALIC XL 150mg m/r tablets
+da7X.	VENLALIC XL 225mg m/r tablets
+da7Y.	VENLAFAXINE 225mg m/r tablets
+da7Z.	VENAXX XL 75mg m/r capsules

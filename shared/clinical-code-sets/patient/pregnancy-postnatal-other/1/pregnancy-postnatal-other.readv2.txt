@@ -1,0 +1,97 @@
+L465.00	Suppressed lactation
+E204.11	Postnatal depression
+62T1.00	Puerperal depression
+L46..11	Lactation problems
+Eu53012	[X]Postpartum depression NOS
+L39y411	Postnatal vaginal discomfort
+62PA.00	Mother currently breast feeding
+Z2C5.00	Difficulty performing breast-feeding
+Z2C3.11	Performs breast-feeding
+6G0..00	Postnatal counselling
+L181500	Postpartum thyroiditis
+62P7.00	Bottle feeding started
+62PC.00	Breast feeding problem
+62PB.00	Bottle changed to breast
+Eu53011	[X]Postnatal depression NOS
+3885.00	Edinburgh postnatal depression scale
+L452000	Obstetric nonpurulent mastitis unspecified
+L451.11	Purulent mastitis - obstetric
+L39y412	Vaginal discomfort postnatal
+615H.00	Breast feeding problem
+6G00.00	Postnatal depression counselling
+Z2B5100	Suppression of lactation
+62P5.00	Breast feeding started
+62P6.00	Breast feeding stopped
+L452.00	Obstetric nonpurulent mastitis
+62S3.00	Maternal P/N exam. refused
+ZRBY.11	EPDS - Edinburgh postnatal depression scale
+Z2C1.00	Able to perform breast-feeding
+64D3.00	Child 6 week exam.not attended
+L463500	Pain on breast feeding
+Q483700	Difficulty in feeding at breast
+62P3.00	Breast feeding with supplement
+62P4.00	Breast changed to bottle feed
+62S4.00	Maternal P/N exam. defaulted
+62S1.00	Maternal P/N exam. not offered
+L464.00	Failure of lactation
+67C..00	Postnatal support group
+Z2C3.00	Does perform breast-feeding
+L452z00	Obstetric nonpurulent mastitis NOS
+8E9Z.00	Post-natal exercises
+ZV24100	[V]Examination of Lactating mother
+62T..00	Misc. postnatal data
+Z2C2.00	Unable to perform breast-feeding
+ZRBY.00	Edinburgh postnatal depression scale
+8I3G.00	Edinburgh postnatal depression scale declined
+Z2C6500	Difficulty positioning baby at breast for feeding
+Z2C4.00	Does not perform breast-feeding
+L467.00	Hypogalactia
+Z2D4.00	Does not latch on to breast for feeding
+L464.11	Agalactia
+Z2C1.11	Performs breast-feeding
+Q12..00	Disorders relating to long gestation and high birthweight
+Z2B5111	Suppressing milk
+64B1.00	Child not examined at birth
+62TZ.00	Misc. post natal data NOS
+L465z00	Suppressed lactation NOS
+Z2C..00	Ability to perform breast-feeding
+L39A.00	Death obst cse occur more 42 day less than one yr aft deliv
+Z2D5.00	Difficulty latching on to breast for feeding
+Z237400	Tender scar of lower uterine segment
+Z2B5.00	Lactation management
+Z2D3.11	Latches on to breast-feed
+8I3F.00	Edinburgh postnatal depression scale at 8 months declined
+Z2D1.00	Able to latch on to breast for feeding
+Z2C6400	Does not position baby at breast for feeding
+Z2C6.00	Ability to position baby at breast for feeding
+64a2.00	Child 8 week exam. not wanted
+64D2.00	Child 6 week exam. not wanted
+62Q4.00	No post natal care
+64a1.00	Child 8 week exam. not offered
+62P8.00	Bottle feeding stopped
+L465000	Suppressed lactation unspecified
+64a3.00	Child 8 week exam.not attended
+64D1.00	Child 6 week exam. not offered
+Z2C6100	Able to position baby at breast for feeding
+Q1z..00	Disorders slow fetal growth, low and high birthweight NOS
+62PD.00	Lactation established
+Z237300	Tender scar of upper uterine segment
+Z2D..00	Ability to latch on to breast for feeding
+Z2C6300	Positions baby at breast for feeding
+62Q5.00	P/N care refused
+Z2B5300	Suppression of lactation with hormones
+Q1y..00	Disorders slow fetal growth, low and high birthweight OS
+Z2D2.00	Unable to latch on to breast for feeding
+Z2B5400	Establishing lactation
+Z2D3.00	Does latch on to breast for feeding
+8ID..00	Postnatal depression not discussed
+Z2C6200	Unable to position baby at breast for feeding
+C132100	Post-birth injury panhypopituitarism
+Z676.00	Postnatal class
+38J..00	Breastfeeding assessment
+64a8.00	Not smiling by 8 weeks old
+Q018.00	Fetus or neonate affected by maternal postnatal depression
+9Nij.00	Did not attend postnatal examination
+Z2B..00	Breast-feeding procedures
+9mL0.00	Postnatal examination third invitation
+9OqJ200	NIPE hip exam done, no abnormality with risk factor

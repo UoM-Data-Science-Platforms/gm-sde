@@ -1,0 +1,56 @@
+^ESCT1178591	Product containing only levocetirizine dihydrochloride 5 mg/1 each oral tablet
+^ESCT1180089	Levocetirizine 5mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1186999	Levocetirizine 5mg tablets (Mylan)
+^ESCT1187000	Levocetirizine 5mg tablets (Mylan) 30 tablet
+^ESCT1230551	Product containing precisely levocetirizine dihydrochloride 5 milligram/1 each conventional release oral tablet
+^ESCT1255712	Levocetirizine 5mg tablets (Bristol Laboratories Ltd)
+^ESCT1255713	Levocetirizine 5mg tablets 60 tablet
+^ESCT1255714	Levocetirizine 5mg tablets (Bristol Laboratories Ltd) 60 tablet 6 x 10 tablets
+^ESCT1401999	Levocetirizine 5mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402000	Levocetirizine 5mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1427737	Levocetirizine 5mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427738	Levocetirizine 5mg tablets (Kent Pharma (UK) Ltd) 30 tablet
+^ESCTLE1006069	Levocetirizine 5mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTLE1006070	Levocetirizine 5mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTLE1036962	Levocetirizine 5mg tablets (Actavis UK Ltd)
+^ESCTLE1036963	Levocetirizine 5mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTLE1044098	Levocetirizine 5mg tablets (Waymade Healthcare Plc)
+^ESCTLE1044099	Levocetirizine 5mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTLE1049905	Levocetirizine 5mg tablets (Aspire Pharma Ltd)
+^ESCTLE1049906	Levocetirizine 5mg tablets (Aspire Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTLE1063210	Levocetirizine 5mg tablets (Somex Pharma)
+^ESCTLE1063211	Levocetirizine 5mg tablets (Somex Pharma) 30 tablet 3 x 10 tablets
+^ESCTLE1065654	Levocetirizine 5mg tablets (DE Pharmaceuticals)
+^ESCTLE1065655	Levocetirizine 5mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTLE1117953	Levocetirizine 5mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTLE1117954	Levocetirizine 5mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTLE1120929	Levocetirizine 5mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTLE1120930	Levocetirizine 5mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTLE1141938	Levocetirizine 5mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTLE1141939	Levocetirizine 5mg tablets (Kent Pharmaceuticals Ltd) 30 tablet
+^ESCTLE1147681	Levocetirizine 5mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTLE1147682	Levocetirizine 5mg tablets (Genesis Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTLE1152904	Levocetirizine 5mg tablets (Mylan Ltd)
+^ESCTLE1152906	Levocetirizine 5mg tablets (Mylan Ltd) 30 tablet
+^ESCTLE676475	Levocetirizine 5mg tablets
+^ESCTLE676477	Levocetirizine dihydrochloride 5 mg oral tablet
+^ESCTLE862685	Levocetirizine 5mg tablets 30 tablet
+^ESCTLE942813	Levocetirizine 500micrograms/ml oral solution sugar free 200 ml
+^ESCTLE942841	Levocetirizine 500micrograms/ml oral solution sugar free
+^ESCTLE977126	Levocetirizine 5mg tablets (Teva UK Ltd)
+^ESCTLE977127	Levocetirizine 5mg tablets (Teva UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTLE978872	Levocetirizine 5mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTLE978873	Levocetirizine 5mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTLE981927	Levocetirizine 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTLE981928	Levocetirizine 5mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCTLE999364	Levocetirizine 5mg tablets (Consilient Health Ltd)
+^ESCTLE999365	Levocetirizine 5mg tablets (Consilient Health Ltd) 30 tablet 3 x 10 tablets
+^ESCTPR676476	Product containing levocetirizine dihydrochloride 5 mg/1 each oral tablet
+^ESCTXY862688	Xyzal 5mg tablets (UCB Pharma Ltd)
+^ESCTXY862690	Xyzal 5mg tablets (UCB Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTXY942814	Xyzal 0.5mg/ml oral solution (UCB Pharma Ltd)
+^ESCTXY942815	Xyzal 0.5mg/ml oral solution (UCB Pharma Ltd) 200 ml
+LEOR26058NEMIS	Levocetirizine  Oral solution  500 micrograms/ml
+LETA11687NEMIS	Levocetirizine  Tablets  5 mg
+XYOR26059NEMIS	Xyzal  Oral solution  500 micrograms/ml
+XYTA11690NEMIS	Xyzal  Tablets  5 mg

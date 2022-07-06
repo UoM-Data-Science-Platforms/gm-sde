@@ -1,0 +1,33 @@
+^ESCT1180531	Vokanamet 50mg/1000mg tablets (Napp Pharmaceuticals Ltd)
+^ESCT1184814	Vokanamet 50mg/850mg tablets (Napp Pharmaceuticals Ltd) 60 tablet
+^ESCT1186692	Invokana 100mg tablets (Napp Pharmaceuticals Ltd)
+^ESCT1186817	Vokanamet 50mg/850mg tablets (Napp Pharmaceuticals Ltd)
+^ESCT1186818	Vokanamet 50mg/1000mg tablets (Napp Pharmaceuticals Ltd) 60 tablet
+^ESCT1189834	Invokana 300mg tablets (Napp Pharmaceuticals Ltd)
+^ESCT1189835	Invokana 300mg tablets (Napp Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1189836	Invokana 100mg tablets (Napp Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCT1280700	Canagliflozin 100mg tablets 28 tablet
+^ESCT1425186	Canagliflozin 100mg tablets
+^ESCTCA1063006	Canagliflozin 300mg tablets 30 tablet
+^ESCTCA1063009	Canagliflozin 100mg tablets 30 tablet
+^ESCTCA1063152	Canagliflozin 300mg tablets
+^ESCTCA1100559	Canagliflozin 50mg / Metformin 850mg tablets 60 tablet
+^ESCTCA1100578	Canagliflozin 50mg / Metformin 1g tablets 60 tablet
+^ESCTCA1100793	Canagliflozin 50mg / Metformin 1g tablets
+^ESCTCA1100794	Canagliflozin 50mg / Metformin 850mg tablets
+^ESCTIN1063007	Invokana 300mg tablets (Janssen-Cilag Ltd)
+^ESCTIN1063008	Invokana 300mg tablets (Janssen-Cilag Ltd) 30 tablet 3 x 10 tablets
+^ESCTIN1063010	Invokana 100mg tablets (Janssen-Cilag Ltd)
+^ESCTIN1063011	Invokana 100mg tablets (Janssen-Cilag Ltd) 30 tablet 3 x 10 tablets
+^ESCTVO1100562	Vokanamet 50mg/850mg tablets (Janssen-Cilag Ltd)
+^ESCTVO1100566	Vokanamet 50mg/850mg tablets (Janssen-Cilag Ltd) 60 tablet
+^ESCTVO1100581	Vokanamet 50mg/1000mg tablets (Janssen-Cilag Ltd)
+^ESCTVO1100583	Vokanamet 50mg/1000mg tablets (Janssen-Cilag Ltd) 60 tablet
+CATA88608NEMIS	Canagliflozin  Tablets  100 mg
+CATA88610NEMIS	Canagliflozin  Tablets  300 mg
+CATA96770NEMIS	Canagliflozin And Metformin  Tablets  50 mg + 1000 mg
+CATA96771NEMIS	Canagliflozin And Metformin  Tablets  50 mg + 850 mg
+INTA88612NEMIS	Invokana  Tablets  100 mg
+INTA88613NEMIS	Invokana  Tablets  300 mg
+VOTA96773NEMIS	Vokanamet  Tablets  50 mg + 850 mg
+VOTA96774NEMIS	Vokanamet  Tablets  50 mg + 1000 mg

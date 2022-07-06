@@ -1,0 +1,10 @@
+d731.	Anafranil 10mg capsule
+d732.	Anafranil 25mg capsule
+d733.	Anafranil 50mg capsule
+d734.	Anafranil 25mg/5mL syrup
+d736.	Anafranil SR 75mg tablet
+d73u.	Clomipramine hydrochloride 10mg capsule
+d73v.	Clomipramine hydrochloride 25mg capsule
+d73w.	Clomipramine hydrochloride 50mg capsule
+d73x.	Clomipramine hydrochloride 25mg/5mL syrup
+d73z.	Clomipramine hydrochloride 75mg m/r tablet

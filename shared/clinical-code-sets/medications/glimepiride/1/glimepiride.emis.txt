@@ -1,0 +1,268 @@
+^ESCT1181798	Product containing only glimepiride 3 mg/1 each oral tablet
+^ESCT1181799	Product containing only glimepiride 4 mg/1 each oral tablet
+^ESCT1182159	Product containing only glimepiride 2 mg/1 each oral tablet
+^ESCT1182160	Product containing only glimepiride 1 mg/1 each oral tablet
+^ESCT1224619	Product containing precisely glimepiride 2 milligram/1 each conventional release oral tablet
+^ESCT1224620	Product containing precisely glimepiride 1 milligram/1 each conventional release oral tablet
+^ESCT1224621	Product containing precisely glimepiride 3 milligram/1 each conventional release oral tablet
+^ESCT1224622	Product containing precisely glimepiride 4 milligram/1 each conventional release oral tablet
+^ESCT1264086	Glimepiride 1mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264088	Glimepiride 1mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCT1376018	Glimepiride 1mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376019	Glimepiride 1mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1376020	Glimepiride 2mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376021	Glimepiride 2mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1376022	Glimepiride 3mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376023	Glimepiride 3mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1376024	Glimepiride 4mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376025	Glimepiride 4mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1421671	Amaryl 3mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1421677	Amaryl 1mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1421681	Amaryl 4mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1421839	Amaryl 2mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1421935	Amaryl 1mg tablets (Zentiva Pharma UK Ltd) 30 tablet 3 x 10 tablets
+^ESCT1421936	Amaryl 2mg tablets (Zentiva Pharma UK Ltd) 30 tablet 3 x 10 tablets
+^ESCT1421937	Amaryl 3mg tablets (Zentiva Pharma UK Ltd) 30 tablet 3 x 10 tablets
+^ESCT1421938	Amaryl 4mg tablets (Zentiva Pharma UK Ltd) 30 tablet 3 x 10 tablets
+^ESCT1422192	Glimepiride 1mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422193	Glimepiride 1mg tablets (Zentiva Pharma UK Ltd) 30 tablet 2 x 15 tablets
+^ESCT1422194	Glimepiride 2mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422195	Glimepiride 2mg tablets (Zentiva Pharma UK Ltd) 30 tablet 2 x 15 tablets
+^ESCT1422196	Glimepiride 3mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422197	Glimepiride 3mg tablets (Zentiva Pharma UK Ltd) 30 tablet 2 x 15 tablets
+^ESCT1422198	Glimepiride 4mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422199	Glimepiride 4mg tablets (Zentiva Pharma UK Ltd) 30 tablet 2 x 15 tablets
+^ESCT1427137	Glimepiride 1mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427138	Glimepiride 1mg tablets (Kent Pharma (UK) Ltd) 30 tablet 2 x 15 tablets
+^ESCT1427139	Glimepiride 2mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427140	Glimepiride 2mg tablets (Kent Pharma (UK) Ltd) 30 tablet 2 x 15 tablets
+^ESCT1427141	Glimepiride 3mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427142	Glimepiride 3mg tablets (Kent Pharma (UK) Ltd) 30 tablet 2 x 15 tablets
+^ESCT1427143	Glimepiride 4mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427144	Glimepiride 4mg tablets (Kent Pharma (UK) Ltd) 30 tablet 2 x 15 tablets
+^ESCTAM805005	Amaryl 3mg tablets (Zentiva)
+^ESCTAM807132	Amaryl 1mg tablets (Zentiva)
+^ESCTAM808119	Amaryl 4mg tablets (Zentiva)
+^ESCTAM834073	Amaryl 2mg tablets (Zentiva)
+^ESCTAM854214	Amaryl 1mg tablets (Zentiva) 30 tablet 3 x 10 tablets
+^ESCTAM854216	Amaryl 2mg tablets (Zentiva) 30 tablet 3 x 10 tablets
+^ESCTAM854217	Amaryl 3mg tablets (Zentiva) 30 tablet 3 x 10 tablets
+^ESCTAM854219	Amaryl 4mg tablets (Zentiva) 30 tablet 3 x 10 tablets
+^ESCTGL1005876	Glimepiride 1mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTGL1005878	Glimepiride 1mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTGL1005880	Glimepiride 2mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTGL1005882	Glimepiride 2mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTGL1005884	Glimepiride 3mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTGL1005886	Glimepiride 3mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTGL1005888	Glimepiride 4mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTGL1005889	Glimepiride 4mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTGL1010890	Glimepiride 1mg tablets (Accord Healthcare Ltd)
+^ESCTGL1010891	Glimepiride 1mg tablets (Accord Healthcare Ltd) 30 tablet
+^ESCTGL1010892	Glimepiride 3mg tablets (Accord Healthcare Ltd)
+^ESCTGL1010893	Glimepiride 3mg tablets (Accord Healthcare Ltd) 30 tablet
+^ESCTGL1010894	Glimepiride 4mg tablets (Accord Healthcare Ltd)
+^ESCTGL1010895	Glimepiride 4mg tablets (Accord Healthcare Ltd) 30 tablet
+^ESCTGL1026438	Glimepiride 2mg tablets (Accord Healthcare Ltd)
+^ESCTGL1026439	Glimepiride 2mg tablets (Accord Healthcare Ltd) 30 tablet
+^ESCTGL1037264	Glimepiride 6mg/5ml oral suspension 1 ml
+^ESCTGL1037265	Glimepiride 6mg/5ml oral suspension (Special Order)
+^ESCTGL1037266	Glimepiride 6mg/5ml oral suspension (Special Order) 1 ml
+^ESCTGL1037675	Glimepiride 6mg/5ml oral suspension
+^ESCTGL1043739	Glimepiride 1mg tablets (Waymade Healthcare Plc)
+^ESCTGL1043741	Glimepiride 1mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTGL1043742	Glimepiride 2mg tablets (Waymade Healthcare Plc)
+^ESCTGL1043745	Glimepiride 2mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTGL1043747	Glimepiride 3mg tablets (Waymade Healthcare Plc)
+^ESCTGL1043748	Glimepiride 3mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTGL1043750	Glimepiride 4mg tablets (Waymade Healthcare Plc)
+^ESCTGL1043751	Glimepiride 4mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTGL1063169	Glimepiride 1mg tablets (DE Pharmaceuticals)
+^ESCTGL1063170	Glimepiride 1mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTGL1063171	Glimepiride 2mg tablets (DE Pharmaceuticals)
+^ESCTGL1063172	Glimepiride 2mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTGL1063173	Glimepiride 3mg tablets (DE Pharmaceuticals)
+^ESCTGL1063174	Glimepiride 3mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTGL1063175	Glimepiride 4mg tablets (DE Pharmaceuticals)
+^ESCTGL1063176	Glimepiride 4mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTGL1120155	Glimepiride 2mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTGL1120156	Glimepiride 2mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTGL1120160	Glimepiride 3mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTGL1120161	Glimepiride 3mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTGL1120162	Glimepiride 4mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTGL1120163	Glimepiride 4mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTGL1142658	Glimepiride 1mg tablets (Brown & Burk UK Ltd)
+^ESCTGL1142659	Glimepiride 1mg tablets (Brown & Burk UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTGL1142660	Glimepiride 2mg tablets (Brown & Burk UK Ltd)
+^ESCTGL1142661	Glimepiride 2mg tablets (Brown & Burk UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTGL1142662	Glimepiride 3mg tablets (Brown & Burk UK Ltd)
+^ESCTGL1142663	Glimepiride 3mg tablets (Brown & Burk UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTGL1142664	Glimepiride 4mg tablets (Brown & Burk UK Ltd)
+^ESCTGL1142665	Glimepiride 4mg tablets (Brown & Burk UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTGL612455	Glimepiride 2mg tablets
+^ESCTGL612457	Glimepiride 2 mg oral tablet
+^ESCTGL612458	Glimepiride 1mg tablets
+^ESCTGL612460	Glimepiride 1 mg oral tablet
+^ESCTGL612461	Glimepiride 3mg tablets
+^ESCTGL612463	Glimepiride 3 mg oral tablet
+^ESCTGL612464	Glimepiride 4mg tablets
+^ESCTGL612466	Glimepiride 4 mg oral tablet
+^ESCTGL846773	Glimepiride 3mg tablets 30 tablet
+^ESCTGL847229	Glimepiride 4mg tablets 30 tablet
+^ESCTGL847451	Glimepiride 2mg tablets 30 tablet
+^ESCTGL847467	Glimepiride 1mg tablets 30 tablet
+^ESCTGL879113	Glimepiride 1mg tablets 120 tablet
+^ESCTGL879118	Glimepiride 2mg tablets 120 tablet
+^ESCTGL879122	Glimepiride 3mg tablets 120 tablet
+^ESCTGL879126	Glimepiride 4mg tablets 120 tablet
+^ESCTGL903048	Glimepiride 2mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTGL903049	Glimepiride 2mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCTGL903050	Glimepiride 3mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTGL903051	Glimepiride 3mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCTGL926759	Glimepiride 1mg tablets (Actavis UK Ltd)
+^ESCTGL926760	Glimepiride 1mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTGL926761	Glimepiride 2mg tablets (Actavis UK Ltd)
+^ESCTGL926762	Glimepiride 2mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTGL926763	Glimepiride 3mg tablets (Actavis UK Ltd)
+^ESCTGL926764	Glimepiride 3mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTGL926765	Glimepiride 4mg tablets (Actavis UK Ltd)
+^ESCTGL926766	Glimepiride 4mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTGL927650	Glimepiride 1mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTGL927651	Glimepiride 1mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTGL927653	Glimepiride 4mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTGL927654	Glimepiride 4mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTGL927662	Glimepiride 1mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTGL927663	Glimepiride 1mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTGL927664	Glimepiride 2mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTGL927665	Glimepiride 2mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 2 x 15 tablets
+^ESCTGL927667	Glimepiride 3mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTGL927668	Glimepiride 3mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 2 x 15 tablets
+^ESCTGL927669	Glimepiride 4mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTGL927670	Glimepiride 4mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 2 x 15 tablets
+^ESCTGL929276	Glimepiride 4mg tablets (Niche Generics Ltd)
+^ESCTGL929277	Glimepiride 4mg tablets (Niche Generics Ltd) 30 tablet
+^ESCTGL929351	Glimepiride 1mg tablets (Niche Generics Ltd)
+^ESCTGL929352	Glimepiride 1mg tablets (Niche Generics Ltd) 30 tablet
+^ESCTGL929353	Glimepiride 2mg tablets (Niche Generics Ltd)
+^ESCTGL929354	Glimepiride 2mg tablets (Niche Generics Ltd) 30 tablet
+^ESCTGL929355	Glimepiride 3mg tablets (Niche Generics Ltd)
+^ESCTGL929356	Glimepiride 3mg tablets (Niche Generics Ltd) 30 tablet
+^ESCTGL929713	Glimepiride 3mg tablets 60 tablet
+^ESCTGL930050	Glimepiride 1mg tablets (Zentiva)
+^ESCTGL930051	Glimepiride 1mg tablets (Zentiva) 30 tablet 2 x 15 tablets
+^ESCTGL930052	Glimepiride 2mg tablets (Zentiva)
+^ESCTGL930053	Glimepiride 2mg tablets (Zentiva) 30 tablet 2 x 15 tablets
+^ESCTGL930054	Glimepiride 3mg tablets (Zentiva)
+^ESCTGL930055	Glimepiride 3mg tablets (Zentiva) 30 tablet 2 x 15 tablets
+^ESCTGL930056	Glimepiride 4mg tablets (Zentiva)
+^ESCTGL930057	Glimepiride 4mg tablets (Zentiva) 30 tablet 2 x 15 tablets
+^ESCTGL930826	Glimepiride 1mg tablets (Somex Pharma)
+^ESCTGL930827	Glimepiride 1mg tablets (Somex Pharma) 30 tablet 2 x 15 tablets
+^ESCTGL930828	Glimepiride 2mg tablets (Somex Pharma)
+^ESCTGL930829	Glimepiride 2mg tablets (Somex Pharma) 30 tablet 2 x 15 tablets
+^ESCTGL930831	Glimepiride 3mg tablets (Somex Pharma)
+^ESCTGL930833	Glimepiride 3mg tablets (Somex Pharma) 30 tablet 2 x 15 tablets
+^ESCTGL930834	Glimepiride 4mg tablets (Somex Pharma)
+^ESCTGL930836	Glimepiride 4mg tablets (Somex Pharma) 30 tablet 2 x 15 tablets
+^ESCTGL931689	Glimepiride 1mg tablets (PLIVA Pharma Ltd)
+^ESCTGL931690	Glimepiride 1mg tablets (PLIVA Pharma Ltd) 30 tablet
+^ESCTGL931691	Glimepiride 2mg tablets (PLIVA Pharma Ltd)
+^ESCTGL931692	Glimepiride 2mg tablets (PLIVA Pharma Ltd) 30 tablet
+^ESCTGL931693	Glimepiride 3mg tablets (PLIVA Pharma Ltd)
+^ESCTGL931694	Glimepiride 3mg tablets (PLIVA Pharma Ltd) 30 tablet
+^ESCTGL935375	Glimepiride 4mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTGL935376	Glimepiride 4mg tablets (Dr Reddy's Laboratories (UK) Ltd) 30 tablet
+^ESCTGL935377	Glimepiride 3mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTGL935379	Glimepiride 3mg tablets (Dr Reddy's Laboratories (UK) Ltd) 30 tablet
+^ESCTGL935382	Glimepiride 2mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTGL935383	Glimepiride 2mg tablets (Dr Reddy's Laboratories (UK) Ltd) 30 tablet
+^ESCTGL935385	Glimepiride 1mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTGL935388	Glimepiride 1mg tablets (Dr Reddy's Laboratories (UK) Ltd) 30 tablet
+^ESCTGL936750	Glimepiride 1mg tablets (Teva UK Ltd)
+^ESCTGL936751	Glimepiride 1mg tablets (Teva UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTGL936752	Glimepiride 2mg tablets (Teva UK Ltd)
+^ESCTGL936753	Glimepiride 2mg tablets (Teva UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTGL936754	Glimepiride 3mg tablets (Teva UK Ltd)
+^ESCTGL936755	Glimepiride 3mg tablets (Teva UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTGL936756	Glimepiride 4mg tablets (Teva UK Ltd)
+^ESCTGL936757	Glimepiride 4mg tablets (Teva UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTGL938745	Glimepiride 1mg tablets (Sandoz Ltd)
+^ESCTGL938746	Glimepiride 1mg tablets (Sandoz Ltd) 30 tablet 3 x 10 tablets
+^ESCTGL938749	Glimepiride 2mg tablets (Sandoz Ltd)
+^ESCTGL938751	Glimepiride 2mg tablets (Sandoz Ltd) 30 tablet 3 x 10 tablets
+^ESCTGL938752	Glimepiride 3mg tablets (Sandoz Ltd)
+^ESCTGL938754	Glimepiride 3mg tablets (Sandoz Ltd) 30 tablet 3 x 10 tablets
+^ESCTGL938757	Glimepiride 4mg tablets (Sandoz Ltd)
+^ESCTGL938758	Glimepiride 4mg tablets (Sandoz Ltd) 30 tablet 3 x 10 tablets
+^ESCTGL946761	Glimepiride 1mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTGL946762	Glimepiride 1mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 2 x 15 tablets
+^ESCTGL946763	Glimepiride 2mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTGL946765	Glimepiride 2mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 2 x 15 tablets
+^ESCTGL946766	Glimepiride 3mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTGL946767	Glimepiride 3mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 2 x 15 tablets
+^ESCTGL946768	Glimepiride 4mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTGL946769	Glimepiride 4mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 2 x 15 tablets
+^ESCTGL965204	Glimepiride 2mg tablets (Ranbaxy (UK) Ltd)
+^ESCTGL965206	Glimepiride 2mg tablets (Ranbaxy (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCTGL965208	Glimepiride 3mg tablets (Ranbaxy (UK) Ltd)
+^ESCTGL965210	Glimepiride 3mg tablets (Ranbaxy (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCTGL965211	Glimepiride 4mg tablets (Ranbaxy (UK) Ltd)
+^ESCTGL965212	Glimepiride 4mg tablets (Ranbaxy (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCTGL969048	Glimepiride 1mg tablets (Consilient Health Ltd)
+^ESCTGL969049	Glimepiride 1mg tablets (Consilient Health Ltd) 30 tablet
+^ESCTGL969050	Glimepiride 2mg tablets (Consilient Health Ltd)
+^ESCTGL969051	Glimepiride 2mg tablets (Consilient Health Ltd) 30 tablet
+^ESCTGL969052	Glimepiride 3mg tablets (Consilient Health Ltd)
+^ESCTGL969053	Glimepiride 3mg tablets (Consilient Health Ltd) 30 tablet
+^ESCTGL969054	Glimepiride 4mg tablets (Consilient Health Ltd)
+^ESCTGL969055	Glimepiride 4mg tablets (Consilient Health Ltd) 30 tablet
+^ESCTGL978386	Glimepiride 1mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTGL978387	Glimepiride 1mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTGL978388	Glimepiride 2mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTGL978389	Glimepiride 2mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTGL978390	Glimepiride 3mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTGL978391	Glimepiride 3mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTGL978392	Glimepiride 4mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTGL978393	Glimepiride 4mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTGL987873	Glimepiride 1mg tablets (Bristol Laboratories Ltd)
+^ESCTGL987874	Glimepiride 1mg tablets (Bristol Laboratories Ltd) 30 tablet 3 x 10 tablets
+^ESCTGL987875	Glimepiride 2mg tablets (Bristol Laboratories Ltd)
+^ESCTGL987876	Glimepiride 2mg tablets (Bristol Laboratories Ltd) 30 tablet 3 x 10 tablets
+^ESCTGL987877	Glimepiride 3mg tablets (Bristol Laboratories Ltd)
+^ESCTGL987878	Glimepiride 3mg tablets (Bristol Laboratories Ltd) 30 tablet 3 x 10 tablets
+^ESCTGL987879	Glimepiride 4mg tablets (Bristol Laboratories Ltd)
+^ESCTGL987880	Glimepiride 4mg tablets (Bristol Laboratories Ltd) 30 tablet 3 x 10 tablets
+^ESCTGL988579	Glimepiride 2mg/5ml oral solution 1 ml
+^ESCTGL988580	Glimepiride 2mg/5ml oral solution (Special Order)
+^ESCTGL988581	Glimepiride 2mg/5ml oral solution (Special Order) 1 ml
+^ESCTGL988582	Glimepiride 2mg/5ml oral suspension 1 ml
+^ESCTGL988583	Glimepiride 2mg/5ml oral suspension (Special Order)
+^ESCTGL988584	Glimepiride 2mg/5ml oral suspension (Special Order) 1 ml
+^ESCTGL988629	Glimepiride 2mg/5ml oral solution
+^ESCTGL988630	Glimepiride 2mg/5ml oral suspension
+^ESCTNI964294	Niddaryl 1mg tablets (Dee Pharmaceuticals Ltd)
+^ESCTNI964296	Niddaryl 1mg tablets (Dee Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTNI964299	Niddaryl 2mg tablets (Dee Pharmaceuticals Ltd)
+^ESCTNI964300	Niddaryl 2mg tablets (Dee Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTNI964303	Niddaryl 3mg tablets (Dee Pharmaceuticals Ltd)
+^ESCTNI964305	Niddaryl 3mg tablets (Dee Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTNI964306	Niddaryl 4mg tablets (Dee Pharmaceuticals Ltd)
+^ESCTNI964307	Niddaryl 4mg tablets (Dee Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTPR612456	Product containing glimepiride 2 mg/1 each oral tablet
+^ESCTPR612459	Product containing glimepiride 1 mg/1 each oral tablet
+^ESCTPR612462	Product containing glimepiride 3 mg/1 each oral tablet
+^ESCTPR612465	Product containing glimepiride 4 mg/1 each oral tablet
+AMTA31480EMIS	Amaryl  Tablets  2 mg
+AMTA31844EMIS	Amaryl  Tablets  1 mg
+AMTA31845EMIS	Amaryl  Tablets  3 mg
+AMTA31846EMIS	Amaryl  Tablets  4 mg
+GLOR76870NEMIS	Glimepiride  Oral suspension  6 mg/5 ml
+GLTA31482EMIS	Glimepiride  Tablets  2 mg
+GLTA31850EMIS	Glimepiride  Tablets  1 mg
+GLTA31851EMIS	Glimepiride  Tablets  3 mg
+GLTA31852EMIS	Glimepiride  Tablets  4 mg
+GLTA35345MGEMIS	Glimepiride  Tablets  2 mg (Unichem)
+GLTA35346MGEMIS	Glimepiride  Tablets  3 mg (Unichem)
+NITA30143NEMIS	Niddaryl  Tablets  1 mg
+NITA30144NEMIS	Niddaryl  Tablets  2 mg
+NITA30145NEMIS	Niddaryl  Tablets  3 mg
+NITA30146NEMIS	Niddaryl  Tablets  4 mg

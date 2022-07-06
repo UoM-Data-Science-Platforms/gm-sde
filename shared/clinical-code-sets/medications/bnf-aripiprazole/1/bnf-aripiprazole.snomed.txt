@@ -1,0 +1,328 @@
+406787003	Aripiprazole 10mg tablets
+7637011000001100	Aripiprazole 10mg tablets
+7637111000001104	Abilify 10mg tablets
+7637211000001105	Abilify 10mg tablets
+28345711000001107	Aripiprazole 10mg tablets
+28346211000001106	Aripiprazole 10mg tablets
+28380611000001101	Aripiprazole 10mg tablets
+28380711000001105	Aripiprazole 10mg tablets
+28488911000001102	Aripiprazole 10mg tablets
+28489011000001106	Aripiprazole 10mg tablets
+28623011000001102	Aripiprazole 10mg tablets
+28623411000001106	Aripiprazole 10mg tablets
+28795311000001101	Aripiprazole 10mg tablets
+28795411000001108	Aripiprazole 10mg tablets
+28963511000001100	Aripiprazole 10mg tablets
+28963811000001102	Aripiprazole 10mg tablets
+29770011000001104	Aripiprazole 10mg tablets
+29770111000001103	Aripiprazole 10mg tablets
+30026911000001104	Aripiprazole 10mg tablets
+30027011000001100	Aripiprazole 10mg tablets
+30665111000001105	Aripiprazole 10mg tablets
+30665211000001104	Aripiprazole 10mg tablets
+30777211000001106	Aripiprazole 10mg tablets
+30777311000001103	Aripiprazole 10mg tablets
+31077911000001106	Aripiprazole 10mg tablets
+31078211000001103	Aripiprazole 10mg tablets
+32393911000001106	Aripiprazole 10mg tablets
+32394011000001109	Aripiprazole 10mg tablets
+32412911000001108	Aripiprazole 10mg tablets
+32413011000001100	Aripiprazole 10mg tablets
+32814611000001103	Aripiprazole 10mg tablets
+32814711000001107	Aripiprazole 10mg tablets
+34449111000001101	Aripiprazole 10mg tablets
+34449211000001107	Aripiprazole 10mg tablets
+34497911000001100	Aripiprazole 10mg tablets
+34498011000001103	Aripiprazole 10mg tablets
+34765111000001103	Aripiprazole 10mg tablets
+34765211000001109	Aripiprazole 10mg tablets
+35102811000001102	Aripiprazole 10mg tablets
+35102911000001107	Aripiprazole 10mg tablets
+35135411000001102	Aripiprazole 10mg tablets
+35135511000001103	Aripiprazole 10mg tablets
+36489211000001106	Aripiprazole 10mg tablets
+36489311000001103	Aripiprazole 10mg tablets
+36503411000001104	Aripiprazole 10mg tablets
+36503511000001100	Aripiprazole 10mg tablets
+36561411000001104	Aripiprazole 10mg tablets
+36561511000001100	Aripiprazole 10mg tablets
+36868711000001104	Arpoya 10mg tablets
+36868811000001107	Arpoya 10mg tablets
+37035211000001105	Aripiprazole 10mg tablets
+37035411000001109	Aripiprazole 10mg tablets
+37295611000001108	Aripiprazole 10mg tablets
+37295711000001104	Aripiprazole 10mg tablets
+38607711000001102	Aripiprazole 10mg tablets
+38607811000001105	Aripiprazole 10mg tablets
+38758911000001101	Aripiprazole 10mg tablets
+38759011000001105	Aripiprazole 10mg tablets
+38791111000001104	Aripiprazole 10mg tablets
+38791211000001105	Aripiprazole 10mg tablets
+406788008	Aripiprazole 15mg tablets
+7637311000001102	Aripiprazole 15mg tablets
+7637411000001109	Abilify 15mg tablets
+7637511000001108	Abilify 15mg tablets
+28346911000001102	Aripiprazole 15mg tablets
+28347311000001100	Aripiprazole 15mg tablets
+28380811000001102	Aripiprazole 15mg tablets
+28380911000001107	Aripiprazole 15mg tablets
+28489111000001107	Aripiprazole 15mg tablets
+28489211000001101	Aripiprazole 15mg tablets
+28622411000001102	Aripiprazole 15mg tablets
+28622811000001100	Aripiprazole 15mg tablets
+28795511000001107	Aripiprazole 15mg tablets
+28795611000001106	Aripiprazole 15mg tablets
+28964011000001105	Aripiprazole 15mg tablets
+28964211000001100	Aripiprazole 15mg tablets
+29770211000001109	Aripiprazole 15mg tablets
+29770311000001101	Aripiprazole 15mg tablets
+30027111000001104	Aripiprazole 15mg tablets
+30027211000001105	Aripiprazole 15mg tablets
+30665411000001100	Aripiprazole 15mg tablets
+30665511000001101	Aripiprazole 15mg tablets
+30777411000001105	Aripiprazole 15mg tablets
+30777511000001109	Aripiprazole 15mg tablets
+31078511000001100	Aripiprazole 15mg tablets
+31078611000001101	Aripiprazole 15mg tablets
+32394111000001105	Aripiprazole 15mg tablets
+32394211000001104	Aripiprazole 15mg tablets
+32413111000001104	Aripiprazole 15mg tablets
+32413211000001105	Aripiprazole 15mg tablets
+32814811000001104	Aripiprazole 15mg tablets
+32814911000001109	Aripiprazole 15mg tablets
+34449311000001104	Aripiprazole 15mg tablets
+34449411000001106	Aripiprazole 15mg tablets
+34498111000001102	Aripiprazole 15mg tablets
+34498211000001108	Aripiprazole 15mg tablets
+34765311000001101	Aripiprazole 15mg tablets
+34765411000001108	Aripiprazole 15mg tablets
+34931211000001105	Aripiprazole 15mg tablets
+34931311000001102	Aripiprazole 15mg tablets
+35135611000001104	Aripiprazole 15mg tablets
+35135711000001108	Aripiprazole 15mg tablets
+36489411000001105	Aripiprazole 15mg tablets
+36489511000001109	Aripiprazole 15mg tablets
+36503611000001101	Aripiprazole 15mg tablets
+36503711000001105	Aripiprazole 15mg tablets
+36562011000001100	Aripiprazole 15mg tablets
+36562111000001104	Aripiprazole 15mg tablets
+36869111000001107	Arpoya 15mg tablets
+36869211000001101	Arpoya 15mg tablets
+37036611000001102	Aripiprazole 15mg tablets
+37036811000001103	Aripiprazole 15mg tablets
+37295811000001107	Aripiprazole 15mg tablets
+37295911000001102	Aripiprazole 15mg tablets
+38607911000001100	Aripiprazole 15mg tablets
+38608011000001103	Aripiprazole 15mg tablets
+38759811000001104	Aripiprazole 15mg tablets
+38759911000001109	Aripiprazole 15mg tablets
+38791311000001102	Aripiprazole 15mg tablets
+38791411000001109	Aripiprazole 15mg tablets
+406790009	Aripiprazole 30mg tablets
+7637711000001103	Aripiprazole 30mg tablets
+7637811000001106	Abilify 30mg tablets
+7638011000001104	Abilify 30mg tablets
+28347511000001106	Aripiprazole 30mg tablets
+28347711000001101	Aripiprazole 30mg tablets
+28381211000001109	Aripiprazole 30mg tablets
+28381311000001101	Aripiprazole 30mg tablets
+28489311000001109	Aripiprazole 30mg tablets
+28489411000001102	Aripiprazole 30mg tablets
+28618211000001106	Aripiprazole 30mg tablets
+28620611000001100	Aripiprazole 30mg tablets
+28795711000001102	Aripiprazole 30mg tablets
+28795811000001105	Aripiprazole 30mg tablets
+28964411000001101	Aripiprazole 30mg tablets
+28964711000001107	Aripiprazole 30mg tablets
+29770411000001108	Aripiprazole 30mg tablets
+29770511000001107	Aripiprazole 30mg tablets
+30135711000001102	Aripiprazole 30mg tablets
+30135811000001105	Aripiprazole 30mg tablets
+30665611000001102	Aripiprazole 30mg tablets
+30665711000001106	Aripiprazole 30mg tablets
+30777611000001108	Aripiprazole 30mg tablets
+30777711000001104	Aripiprazole 30mg tablets
+31078711000001105	Aripiprazole 30mg tablets
+31078811000001102	Aripiprazole 30mg tablets
+32394311000001107	Aripiprazole 30mg tablets
+32399911000001109	Aripiprazole 30mg tablets
+32413311000001102	Aripiprazole 30mg tablets
+32413411000001109	Aripiprazole 30mg tablets
+32815011000001109	Aripiprazole 30mg tablets
+32815111000001105	Aripiprazole 30mg tablets
+34449511000001105	Aripiprazole 30mg tablets
+34449611000001109	Aripiprazole 30mg tablets
+34498311000001100	Aripiprazole 30mg tablets
+34498411000001107	Aripiprazole 30mg tablets
+34765511000001107	Aripiprazole 30mg tablets
+34765611000001106	Aripiprazole 30mg tablets
+34931411000001109	Aripiprazole 30mg tablets
+34931511000001108	Aripiprazole 30mg tablets
+35135811000001100	Aripiprazole 30mg tablets
+35135911000001105	Aripiprazole 30mg tablets
+36489611000001108	Aripiprazole 30mg tablets
+36489711000001104	Aripiprazole 30mg tablets
+36503011000001108	Aripiprazole 30mg tablets
+36503111000001109	Aripiprazole 30mg tablets
+36562211000001105	Aripiprazole 30mg tablets
+36562311000001102	Aripiprazole 30mg tablets
+36869311000001109	Arpoya 30mg tablets
+36869411000001102	Arpoya 30mg tablets
+37036911000001108	Aripiprazole 30mg tablets
+37052511000001103	Aripiprazole 30mg tablets
+37296011000001105	Aripiprazole 30mg tablets
+37296111000001106	Aripiprazole 30mg tablets
+38608111000001102	Aripiprazole 30mg tablets
+38608211000001108	Aripiprazole 30mg tablets
+38762311000001108	Aripiprazole 30mg tablets
+38762611000001103	Aripiprazole 30mg tablets
+38791511000001108	Aripiprazole 30mg tablets
+38791611000001107	Aripiprazole 30mg tablets
+406786007	Aripiprazole 5mg tablets
+9037811000001107	Aripiprazole 5mg tablets
+9037911000001102	Abilify 5mg tablets
+9038011000001100	Abilify 5mg tablets
+28344911000001105	Aripiprazole 5mg tablets
+28345211000001100	Aripiprazole 5mg tablets
+28380411000001104	Aripiprazole 5mg tablets
+28380511000001100	Aripiprazole 5mg tablets
+28488711000001104	Aripiprazole 5mg tablets
+28488811000001107	Aripiprazole 5mg tablets
+28623711000001100	Aripiprazole 5mg tablets
+28624511000001108	Aripiprazole 5mg tablets
+28795111000001103	Aripiprazole 5mg tablets
+28795211000001109	Aripiprazole 5mg tablets
+28962811000001105	Aripiprazole 5mg tablets
+28963011000001108	Aripiprazole 5mg tablets
+29770611000001106	Aripiprazole 5mg tablets
+29770711000001102	Aripiprazole 5mg tablets
+30026711000001101	Aripiprazole 5mg tablets
+30026811000001109	Aripiprazole 5mg tablets
+30664911000001109	Aripiprazole 5mg tablets
+30665011000001109	Aripiprazole 5mg tablets
+30777011000001101	Aripiprazole 5mg tablets
+30777111000001100	Aripiprazole 5mg tablets
+31078311000001106	Aripiprazole 5mg tablets
+31078411000001104	Aripiprazole 5mg tablets
+32393711000001109	Aripiprazole 5mg tablets
+32393811000001101	Aripiprazole 5mg tablets
+32412711000001106	Aripiprazole 5mg tablets
+32412811000001103	Aripiprazole 5mg tablets
+33518911000001108	Aripiprazole 5mg tablets
+33519011000001104	Aripiprazole 5mg tablets
+34448911000001106	Aripiprazole 5mg tablets
+34449011000001102	Aripiprazole 5mg tablets
+34497311000001101	Aripiprazole 5mg tablets
+34497411000001108	Aripiprazole 5mg tablets
+34764911000001104	Aripiprazole 5mg tablets
+34765011000001104	Aripiprazole 5mg tablets
+34931011000001100	Aripiprazole 5mg tablets
+34931111000001104	Aripiprazole 5mg tablets
+35135211000001101	Aripiprazole 5mg tablets
+35135311000001109	Aripiprazole 5mg tablets
+36488711000001108	Aripiprazole 5mg tablets
+36489011000001101	Aripiprazole 5mg tablets
+36503211000001103	Aripiprazole 5mg tablets
+36503311000001106	Aripiprazole 5mg tablets
+36561211000001103	Aripiprazole 5mg tablets
+36561311000001106	Aripiprazole 5mg tablets
+36868411000001105	Arpoya 5mg tablets
+36868611000001108	Arpoya 5mg tablets
+37033711000001104	Aripiprazole 5mg tablets
+37033811000001107	Aripiprazole 5mg tablets
+37295411000001105	Aripiprazole 5mg tablets
+37295511000001109	Aripiprazole 5mg tablets
+38608311000001100	Aripiprazole 5mg tablets
+38608411000001107	Aripiprazole 5mg tablets
+38758711000001103	Aripiprazole 5mg tablets
+38758811000001106	Aripiprazole 5mg tablets
+38791711000001103	Aripiprazole 5mg tablets
+38791911000001101	Aripiprazole 5mg tablets
+10675311000001102	Aripiprazole 10mg orodispersible tablets sugar free
+10664511000001104	Aripiprazole 10mg orodispersible tablets sugar free
+10664611000001100	Abilify 10mg orodispersible tablets
+10664711000001109	Abilify 10mg orodispersible tablets
+28794711000001101	Aripiprazole 10mg orodispersible tablets sugar free
+28794811000001109	Aripiprazole 10mg orodispersible tablets sugar free
+28872911000001100	Aripiprazole 10mg orodispersible tablets sugar free
+28873011000001108	Aripiprazole 10mg orodispersible tablets sugar free
+29751211000001100	Aripiprazole 10mg orodispersible tablets sugar free
+29751311000001108	Aripiprazole 10mg orodispersible tablets sugar free
+30921811000001106	Aripiprazole 10mg orodispersible tablets sugar free
+30921911000001101	Aripiprazole 10mg orodispersible tablets sugar free
+31067211000001109	Aripiprazole 10mg orodispersible tablets sugar free
+31067311000001101	Aripiprazole 10mg orodispersible tablets sugar free
+31987911000001109	Aripiprazole 10mg orodispersible tablets sugar free
+31988011000001106	Aripiprazole 10mg orodispersible tablets sugar free
+36870111000001105	Aripiprazole 10mg orodispersible tablets sugar free
+36870311000001107	Aripiprazole 10mg orodispersible tablets sugar free
+37106411000001102	Aripiprazole 10mg orodispersible tablets sugar free
+37106511000001103	Aripiprazole 10mg orodispersible tablets sugar free
+37667211000001102	Aripiprazole 10mg orodispersible tablets sugar free
+37667511000001104	Aripiprazole 10mg orodispersible tablets sugar free
+38790611000001102	Aripiprazole 10mg orodispersible tablets sugar free
+38790711000001106	Aripiprazole 10mg orodispersible tablets sugar free
+10675411000001109	Aripiprazole 15mg orodispersible tablets sugar free
+10664811000001101	Aripiprazole 15mg orodispersible tablets sugar free
+10664911000001106	Abilify 15mg orodispersible tablets
+10665011000001106	Abilify 15mg orodispersible tablets
+28794911000001104	Aripiprazole 15mg orodispersible tablets sugar free
+28795011000001104	Aripiprazole 15mg orodispersible tablets sugar free
+28873111000001109	Aripiprazole 15mg orodispersible tablets sugar free
+28873211000001103	Aripiprazole 15mg orodispersible tablets sugar free
+29751411000001101	Aripiprazole 15mg orodispersible tablets sugar free
+29751511000001102	Aripiprazole 15mg orodispersible tablets sugar free
+30922011000001108	Aripiprazole 15mg orodispersible tablets sugar free
+30922111000001109	Aripiprazole 15mg orodispersible tablets sugar free
+31067411000001108	Aripiprazole 15mg orodispersible tablets sugar free
+31067511000001107	Aripiprazole 15mg orodispersible tablets sugar free
+36870511000001101	Aripiprazole 15mg orodispersible tablets sugar free
+36870611000001102	Aripiprazole 15mg orodispersible tablets sugar free
+37106611000001104	Aripiprazole 15mg orodispersible tablets sugar free
+37106711000001108	Aripiprazole 15mg orodispersible tablets sugar free
+37667811000001101	Aripiprazole 15mg orodispersible tablets sugar free
+37667911000001106	Aripiprazole 15mg orodispersible tablets sugar free
+38790811000001103	Aripiprazole 15mg orodispersible tablets sugar free
+38790911000001108	Aripiprazole 15mg orodispersible tablets sugar free
+417374006	Aripiprazole 1mg/ml oral solution
+10667111000001103	Aripiprazole 1mg/ml oral solution
+10667211000001109	Abilify 1mg/ml oral solution
+10667311000001101	Abilify 1mg/ml oral solution
+29751611000001103	Aripiprazole 1mg/ml oral solution
+29751711000001107	Aripiprazole 1mg/ml oral solution
+30922411000001104	Aripiprazole 1mg/ml oral solution
+30922511000001100	Aripiprazole 1mg/ml oral solution
+31988211000001101	Aripiprazole 1mg/ml oral solution
+31988311000001109	Aripiprazole 1mg/ml oral solution
+32860511000001105	Aripiprazole 1mg/ml oral solution
+32860711000001100	Aripiprazole 1mg/ml oral solution
+33422711000001106	Aripiprazole 1mg/ml oral solution
+33422811000001103	Aripiprazole 1mg/ml oral solution
+33423411000001109	Aripiprazole 1mg/ml oral solution
+33423511000001108	Aripiprazole 1mg/ml oral solution
+33429211000001107	Aripiprazole 1mg/ml oral solution
+33429311000001104	Aripiprazole 1mg/ml oral solution
+33566911000001105	Aripiprazole 1mg/ml oral solution
+33567011000001109	Aripiprazole 1mg/ml oral solution
+33628811000001103	Aripiprazole 1mg/ml oral solution
+33628911000001108	Aripiprazole 1mg/ml oral solution
+38086311000001107	Aripiprazole 1mg/ml oral solution
+38086411000001100	Aripiprazole 1mg/ml oral solution
+38790411000001100	Aripiprazole 1mg/ml oral solution
+38790511000001101	Aripiprazole 1mg/ml oral solution
+39179511000001109	Aripiprazole 1mg/ml oral solution
+39179611000001108	Aripiprazole 1mg/ml oral solution
+39612411000001105	Aripiprazole 1mg/ml oral solution
+39612511000001109	Aripiprazole 1mg/ml oral solution
+13456411000001100	Aripiprazole 9.75mg/1.3ml solution for injection vials
+13451011000001102	Aripiprazole 9.75mg/1.3ml solution for injection vials
+13451111000001101	Abilify 9.75mg/1.3ml solution for injection vials
+13451211000001107	Abilify 9.75mg/1.3ml solution for injection vials
+32391411000001102	Aripiprazole 7.5mg/ml oral solution
+32207511000001101	Aripiprazole 7.5mg/ml oral solution
+32207611000001102	Aripiprazole 7.5mg/ml oral solution
+32207911000001108	Aripiprazole 7.5mg/ml oral solution
+37249011000001105	Aripiprazole 1mg/ml oral solution sugar free
+37248211000001105	Aripiprazole 1mg/ml oral solution sugar free
+37248311000001102	Aripiprazole 1mg/ml oral solution sugar free
+37248411000001109	Aripiprazole 1mg/ml oral solution sugar free
