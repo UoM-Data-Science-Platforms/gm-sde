@@ -94,76 +94,17 @@ WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 
 ----------------------------------------------------------------------------------------
 
+-- REDUCE THE #Patients TABLE SO THAT IT ONLY INCLUDES THE COHORT, AND REUSABLE QUERIES CAN USE IT TO BE RUN QUICKER 
+
+DELETE FROM #Patients
+WHERE FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 
 --------------------- IDENTIFY GP ENCOUNTERS -------------------------
 
--- Create a table with all GP encouters ========================================================================================================
-SELECT 'Face2face' AS EncounterType, PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
-INTO #CodingClassifier
-FROM SharedCare.Reference_Coding
-WHERE CodingType='ReadCodeV2'
-AND (
-	MainCode like '1%'
-	or MainCode like '2%'
-	or MainCode in ('6A2..','6A9..','6AA..','6AB..','662d.','662e.','66AS.','66AS0','66AT.','66BB.','66f0.','66YJ.','66YM.','661Q.','66480','6AH..','6A9..','66p0.','6A2..','66Ay.','66Az.','69DC.')
-	or MainCode like '6A%'
-	or MainCode like '65%'
-	or MainCode like '8B31[356]%'
-	or MainCode like '8B3[3569ADEfilOqRxX]%'
-	or MainCode in ('8BS3.')
-	or MainCode like '8H[4-8]%' 
-	or MainCode like '94Z%'
-	or MainCode like '9N1C%' 
-	or MainCode like '9N21%'
-	or MainCode in ('9kF1.','9kR..','9HB5.')
-	or MainCode like '9H9%'
-);
+--> EXECUTE query-patient-gp-encounters.sql all-patients:false gp-events-table:RLS.vw_GP_Events start-date:'2018-01-01' end-date:'2022-05-01'
 
-INSERT INTO #CodingClassifier
-SELECT 'Telephone', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
-FROM SharedCare.Reference_Coding
-WHERE CodingType='ReadCodeV2'
-AND (
-	MainCode like '8H9%'
-	or MainCode like '9N31%'
-	or MainCode like '9N3A%'
-);
-
--- Add the equivalent CTV3 codes
-INSERT INTO #CodingClassifier
-SELECT 'Face2face', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
-WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Face2face' AND FK_Reference_SnomedCT_ID != -1)
-AND CodingType='CTV3';
-
-INSERT INTO #CodingClassifier
-SELECT 'Telephone', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
-WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Telephone' AND FK_Reference_SnomedCT_ID != -1)
-AND CodingType='CTV3';
-
--- Add the equivalent EMIS codes
-INSERT INTO #CodingClassifier
-SELECT 'Face2face', FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Local_Code
-WHERE (
-	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Face2face' AND FK_Reference_SnomedCT_ID != -1) OR
-	FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE EncounterType='Face2face' AND PK_Reference_Coding_ID != -1)
-);
-INSERT INTO #CodingClassifier
-SELECT 'Telephone', FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Local_Code
-WHERE (
-	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Telephone' AND FK_Reference_SnomedCT_ID != -1) OR
-	FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE EncounterType='Telephone' AND PK_Reference_Coding_ID != -1)
-);
-
--- All above takes ~30s
-
-SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EncounterDate
-INTO #Encounters
-FROM RLS.vw_GP_Events
-WHERE FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE PK_Reference_Coding_ID != -1)
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
-AND EventDate BETWEEN @StartDate AND @EndDate;
 
 ------------ FIND ALL GP ENCOUNTERS FOR COHORT
 SELECT *
-FROM #Encounters
+FROM #GPEncounters
 ORDER BY FK_Patient_Link_ID, EncounterDate
