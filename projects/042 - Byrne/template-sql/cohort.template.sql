@@ -29,6 +29,7 @@
 --  - ReferralToUrgentDentalCare (Y/N) OPTIONAL FIELD
 --  - ReferralToOMFS (Y/N) OPTIONAL FIELD
 --  - ReferralToAE (Y/N) OPTIONAL FIELD
+--  - GPEncounter (Y/N) added our gp encounter logic to try and work out which dental issues arose from an encounter
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -36,7 +37,7 @@ SET NOCOUNT ON;
 -- First get all the patients with dental issues
 --> CODESET dental-problem:1
 IF OBJECT_ID('tempdb..#DentalPatients') IS NOT NULL DROP TABLE #DentalPatients;
-SELECT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS ConsultationDate, STRING_AGG(SuppliedCode, ',') AS DentalCodes INTO #DentalPatients
+SELECT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS ConsultationDate, STRING_AGG(SuppliedCode, '|') AS DentalCodes INTO #DentalPatients
 FROM [RLS].[vw_GP_Events]
 WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'dental-problem' AND Version = 1) OR
@@ -71,6 +72,9 @@ SELECT
 INTO #PatientMedicationData
 FROM [RLS].vw_GP_Medications
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+
+-- Now get GP encounters
+--> EXECUTE query-patient-gp-encounters.sql all-patients:false gp-events-table:#PatientEventData start-date:2018-12-31 end-date:2100-01-01
 
 --> EXECUTE query-patient-year-of-birth.sql
 --> EXECUTE query-patient-sex.sql
@@ -190,7 +194,8 @@ SELECT
   CASE WHEN antibac.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PrescribedAntimicrobial,--  PrescribedAntimicrobial (Y/N) (whether patient has a prescription for an antimicrobial on the consultation date) (0501)
   CASE WHEN analgesic.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PrescribedAnalgesic,--  PrescribedAnalgesic (Y/N)  (analgesics 0407 OR non-opioid analgesics (040701/1501042))
   CASE WHEN opioid.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PrescribedOpioid,--  PrescribedOpioid (Y/N)(1501043/040702)
-  CASE WHEN benzos.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PrescribedBenzodiazepine--  PrescribedBenzodiazepine (Y/N)
+  CASE WHEN benzos.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PrescribedBenzodiazepine, --  PrescribedBenzodiazepine (Y/N)
+  CASE WHEN gp.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS GPEncounter --  (Y/N)
   --  ReferralToUrgentDentalCare (Y/N) OPTIONAL FIELD
   --  ReferralToOMFS (Y/N) OPTIONAL FIELD
   --  ReferralToAE (Y/N) OPTIONAL FIELD
@@ -204,7 +209,8 @@ LEFT OUTER JOIN #PatientDiagnosesT2DM t2dm ON t2dm.FK_Patient_Link_ID = m.FK_Pat
 LEFT OUTER JOIN #PatientDiagnosesCANCER cancer ON cancer.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientDiagnosesCHD chd ON chd.FK_Patient_Link_ID = m.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientPractice practice on practice.FK_Patient_Link_ID = m.FK_Patient_Link_ID
-LEFT OUTER JOIN #PatientMedANTIBAC on antibac.FK_Patient_Link_ID = m.FK_Patient_Link_ID and antibac.MedicationDate = m.ConsultationDate
-LEFT OUTER JOIN #PatientMedANALGESIC on analgesic.FK_Patient_Link_ID = m.FK_Patient_Link_ID and analgesic.MedicationDate = m.ConsultationDate
-LEFT OUTER JOIN #PatientMedOPIOID on opioid.FK_Patient_Link_ID = m.FK_Patient_Link_ID and opioid.MedicationDate = m.ConsultationDate
-LEFT OUTER JOIN #PatientMedBENZOS on benzos.FK_Patient_Link_ID = m.FK_Patient_Link_ID and benzos.MedicationDate = m.ConsultationDate
+LEFT OUTER JOIN #PatientMedANTIBAC antibac on antibac.FK_Patient_Link_ID = m.FK_Patient_Link_ID and antibac.MedicationDate = m.ConsultationDate
+LEFT OUTER JOIN #PatientMedANALGESIC analgesic on analgesic.FK_Patient_Link_ID = m.FK_Patient_Link_ID and analgesic.MedicationDate = m.ConsultationDate
+LEFT OUTER JOIN #PatientMedOPIOID opioid on opioid.FK_Patient_Link_ID = m.FK_Patient_Link_ID and opioid.MedicationDate = m.ConsultationDate
+LEFT OUTER JOIN #PatientMedBENZOS benzos on benzos.FK_Patient_Link_ID = m.FK_Patient_Link_ID and benzos.MedicationDate = m.ConsultationDate
+LEFT OUTER JOIN #GPEncounters gp on gp.FK_Patient_Link_ID = m.FK_Patient_Link_ID and gp.EncounterDate = m.ConsultationDate;
