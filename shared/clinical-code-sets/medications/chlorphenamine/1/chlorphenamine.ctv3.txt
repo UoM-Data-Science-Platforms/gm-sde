@@ -1,0 +1,30 @@
+c84..	Chlorpheniramine maleate
+c841.	Chlorpheniramine maleate 4mg tablet
+c842.	Alunex 4mg tablet
+c843.	Piriton 4mg tablet
+c844.	Piriton 12mg m/r tablet
+c845.	Piriton 2mg/5mL syrup
+c846.	Piriton 10mg/1mL injection
+c847.	Pollenase Antihistamine 4mg tablet
+c849.	Pollenase Allergy Syrup 2mg/5mL sugar free syrup
+c84A.	Allerief 2mg/5mL s/f oral solution
+c84B.	Vantage Antihistamine 4mg tablet
+c84C.	Hayleve 4mg tablet
+c84D.	Allergy Relief Antihistamine 4mg tablet
+c84E.	ALLERCALM 4mg tablets
+c84v.	Chlorpheniramine maleate 2mg/5mL s/f oral solution
+c84w.	Chlorphenamine maleate 2mg/5mL sugar free syrup
+c84x.	Chlorpheniramine 12mg m/r tablet
+c84y.	Chlorpheniramine maleate 2mg/5mL syrup
+c84z.	Chlorpheniramine maleate 10mg/1mL injection
+x00ez	Calimal 4mg tablet
+x01Du	Chlorphenamine
+x02WW	Calimal
+x02nY	Piriton
+x058h	Piriject
+x05F6	Pollenase Antihistamine
+x05F7	Rhino-syrup Allergy
+x05fV	Pollenase Allergy Syrup
+x05gH	Allerief
+x05gy	Vantage Antihistamine
+x05o0	Hayleve

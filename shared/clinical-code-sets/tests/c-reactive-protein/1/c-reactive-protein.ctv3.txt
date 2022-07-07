@@ -1,0 +1,6 @@
+44CC.	Plasma C reactive protein (& level)
+X772l	C-reactive protein level
+X80PI	CRP - C-reactive protein
+XE2dy	Plasma C-reactive protein level
+XaEXm	Plasma C-reactive protein
+XaINL	Serum C reactive protein level

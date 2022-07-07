@@ -1,0 +1,5 @@
+^ESCTFA551988	Fasting blood glucose measurement
+^ESCTFA551989	Fasting blood glucose level
+^ESCTFA551991	Fasting blood glucose
+^ESCTFB551990	FBG - Fasting blood glucose
+^ESCTFB551992	FBS - Fasting blood sugar

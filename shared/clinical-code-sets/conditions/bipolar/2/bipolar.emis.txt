@@ -1,0 +1,2 @@
+EMISICD10|F3131	Bipolar affect disorder cur epi mild or moderate depressn, with somatic syndrome
+EMISICD10|F3130	Bipolar affect disorder cur epi mild or moderate depressn, without somatic syndrome
