@@ -3,7 +3,7 @@
 --└───────────────────────┘
 
 ----------------------- RDE CHECK ---------------------
--- George Tilston  - 7 April 2022 - via pull request --
+-- TBA --
 -------------------------------------------------------
 
 -- Cohort is patients who have visited the GP with a dental issue. Each row in the output
