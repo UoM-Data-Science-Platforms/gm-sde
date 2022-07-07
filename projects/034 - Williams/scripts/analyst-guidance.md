@@ -37,6 +37,6 @@
 
 - **_NB. Please do not attempt to install extra software on the VDEs. Instead let your RDE know and it can be arranged. This does not apply to R and Stata packages which can be installed in the usual way._**
 
-- **_NB. All studies must submit results and outputs for review by ERG and RGG prior to submission for publication, and for non-academic outputs, such as social media outputs, prior to publication._**
+- **_NB. All studies must submit results and outputs for review by SURG prior to submission for publication, and for non-academic outputs, such as social media outputs, prior to publication._**
 
 v1.2.0
