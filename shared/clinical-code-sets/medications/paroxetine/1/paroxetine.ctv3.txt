@@ -1,0 +1,8 @@
+da61.	Paroxetine 20mg tablet
+da62.	Seroxat 20mg tablets x30
+da63.	Paroxetine 30mg tablet
+da64.	Seroxat 30mg tablets x30
+da65.	Paroxetine 10mg/5mL s/f liquid
+da66.	Seroxat 10mg/5mL s/f liquid
+da67.	PAROXETINE 10mg tablets
+da68.	SEROXAT 10mg tablets

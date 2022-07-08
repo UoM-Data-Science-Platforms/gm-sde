@@ -1,0 +1,4 @@
+da11.	FLUANXOL 500micrograms tablets
+da12.	FLUANXOL 1mg tablets
+da1y.	FLUPENTIXOL 500micrograms tablets
+da1z.	FLUPENTIXOL 1mg tablets

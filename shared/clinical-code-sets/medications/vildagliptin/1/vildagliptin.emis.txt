@@ -1,0 +1,19 @@
+^ESCT1267435	Vildagliptin 50mg tablets 60 tablet
+^ESCTEU962230	Eucreas 50mg/1000mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTEU962231	Eucreas 50mg/1000mg tablets (Novartis Pharmaceuticals UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTEU962233	Eucreas 50mg/850mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTEU962234	Eucreas 50mg/850mg tablets (Novartis Pharmaceuticals UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTGA962224	Galvus 50mg tablets (Novartis Pharmaceuticals UK Ltd)
+^ESCTGA962225	Galvus 50mg tablets (Novartis Pharmaceuticals UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTVI962223	Vildagliptin 50mg tablets 56 tablet
+^ESCTVI962229	Vildagliptin 50mg / Metformin 1g tablets 60 tablet
+^ESCTVI962232	Vildagliptin 50mg / Metformin 850mg tablets 60 tablet
+^ESCTVI962235	Vildagliptin 50mg tablets
+^ESCTVI962236	Vildagliptin 50mg / Metformin 1g tablets
+^ESCTVI962237	Vildagliptin 50mg / Metformin 850mg tablets
+EUTA29316NEMIS	Eucreas  Tablets  1 gram + 50 mg
+EUTA29317NEMIS	Eucreas  Tablets  850 mg + 50 mg
+GATA27037NEMIS	Galvus  Tablets  50 mg
+META29313NEMIS	Metformin And Vildagliptin  Tablets  850 mg + 50 mg
+META29314NEMIS	Metformin And Vildagliptin  Tablets  1 gram + 50 mg
+VITA27033NEMIS	Vildagliptin  Tablets  50 mg

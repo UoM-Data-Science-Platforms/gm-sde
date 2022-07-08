@@ -1,0 +1,633 @@
+^ESCT1177351	Risperidone 1mg/ml oral solution sugar free (Milpharm Ltd)
+^ESCT1177352	Risperidone 1mg/ml oral solution sugar free (Milpharm Ltd) 100 ml
+^ESCT1177353	Risperidone 500microgram tablets (Aurobindo Pharma Ltd)
+^ESCT1177354	Risperidone 500microgram tablets (Aurobindo Pharma Ltd) 20 tablet
+^ESCT1177356	Risperidone 1mg tablets (Aurobindo Pharma Ltd)
+^ESCT1177357	Risperidone 1mg tablets (Aurobindo Pharma Ltd) 20 tablet
+^ESCT1177358	Risperidone 2mg tablets (Aurobindo Pharma Ltd)
+^ESCT1177360	Risperidone 2mg tablets (Aurobindo Pharma Ltd) 60 tablet
+^ESCT1177361	Risperidone 3mg tablets (Aurobindo Pharma Ltd)
+^ESCT1177363	Risperidone 3mg tablets (Aurobindo Pharma Ltd) 60 tablet
+^ESCT1177365	Risperidone 4mg tablets (Aurobindo Pharma Ltd)
+^ESCT1177366	Risperidone 4mg tablets (Aurobindo Pharma Ltd) 60 tablet
+^ESCT1177368	Risperidone 6mg tablets (Aurobindo Pharma Ltd)
+^ESCT1177370	Risperidone 6mg tablets (Aurobindo Pharma Ltd) 28 tablet
+^ESCT1178167	Product containing only risperidone 2 mg/1 each oral tablet
+^ESCT1179992	Risperidone 1mg tablets (Mylan)
+^ESCT1179993	Risperidone 2mg tablets (Mylan)
+^ESCT1179994	Risperidone 6mg tablets (Mylan)
+^ESCT1180090	Risperidone 1mg orodispersible tablets sugar free (Mylan)
+^ESCT1181086	Product containing only risperidone 4 mg/1 each oral tablet
+^ESCT1181087	Product containing only risperidone 6 mg/1 each oral tablet
+^ESCT1181088	Product containing only risperidone 0.5 mg/1 each oral tablet
+^ESCT1181381	Product containing only risperidone 1 mg/1 each oral tablet
+^ESCT1183883	Risperidone 1mg/ml oral solution sugar free (Mylan)
+^ESCT1183896	Risperidone 3mg tablets (Mylan)
+^ESCT1183897	Risperidone 4mg tablets (Mylan)
+^ESCT1184017	Risperidone 2mg orodispersible tablets sugar free (Mylan)
+^ESCT1186061	Risperidone 1mg/ml oral solution sugar free (Mylan) 100 ml
+^ESCT1186075	Risperidone 1mg tablets (Mylan) 20 tablet 2 x 10 tablets
+^ESCT1186076	Risperidone 2mg tablets (Mylan) 60 tablet 6 x 10 tablets
+^ESCT1186077	Risperidone 3mg tablets (Mylan) 60 tablet 6 x 10 tablets
+^ESCT1186151	Risperidone 2mg orodispersible tablets sugar free (Mylan) 28 tablet 4 x 7 tablets
+^ESCT1186152	Risperidone 1mg orodispersible tablets sugar free (Mylan) 28 tablet 4 x 7 tablets
+^ESCT1186153	Risperidone 500microgram orodispersible tablets sugar free (Mylan)
+^ESCT1186154	Risperidone 500microgram orodispersible tablets sugar free (Mylan) 28 tablet 4 x 7 tablets
+^ESCT1186916	Risperidone 500microgram orodispersible tablets sugar free (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1186917	Risperidone 1mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd) 28 tablet 4 x 7 tablets
+^ESCT1187284	Product containing only risperidone 3 mg/1 each oral tablet
+^ESCT1189343	Risperidone 4mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCT1189377	Risperidone 500microgram tablets (Mylan)
+^ESCT1189378	Risperidone 500microgram tablets (Mylan) 20 tablet 2 x 10 tablets
+^ESCT1189379	Risperidone 1mg tablets (Mylan) 60 tablet 6 x 10 tablets
+^ESCT1189380	Risperidone 4mg tablets (Mylan) 60 tablet 6 x 10 tablets
+^ESCT1189381	Risperidone 6mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1190036	Risperidone 6mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1198218	Risperidone 250micrograms/5ml oral suspension 1 ml
+^ESCT1198219	Risperidone 250micrograms/5ml oral suspension (Special Order)
+^ESCT1198220	Risperidone 250micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCT1198279	Risperidone 250micrograms/5ml oral suspension
+^ESCT1199254	Risperidone 4mg orodispersible tablets sugar free (Consilient Health Ltd)
+^ESCT1199255	Risperidone 4mg orodispersible tablets sugar free (Consilient Health Ltd) 28 tablet 4 x 7 tablets
+^ESCT1199291	Risperidone 3mg orodispersible tablets sugar free (Consilient Health Ltd)
+^ESCT1199292	Risperidone 3mg orodispersible tablets sugar free (Consilient Health Ltd) 28 tablet 4 x 7 tablets
+^ESCT1214796	Risperidone 1mg tablets (Dexcel-Pharma Ltd)
+^ESCT1214797	Risperidone 1mg tablets (Dexcel-Pharma Ltd) 20 tablet
+^ESCT1216224	Risperidone 2mg tablets (Accord Healthcare Ltd) 60 tablet
+^ESCT1216225	Risperidone 3mg tablets (Accord Healthcare Ltd) 60 tablet
+^ESCT1216226	Risperidone 4mg tablets (Accord Healthcare Ltd) 60 tablet
+^ESCT1223457	Product containing precisely risperidone 1 milligram/1 each conventional release oral tablet
+^ESCT1223458	Product containing precisely risperidone 2 milligram/1 each conventional release oral tablet
+^ESCT1223459	Product containing precisely risperidone 3 milligram/1 each conventional release oral tablet
+^ESCT1223460	Product containing precisely risperidone 4 milligram/1 each conventional release oral tablet
+^ESCT1223461	Risperidone 1 mg/mL oral solution
+^ESCT1223462	Product containing precisely risperidone 1 milligram/1 milliliter conventional release oral solution
+^ESCT1223463	Product containing precisely risperidone 6 milligram/1 each conventional release oral tablet
+^ESCT1223464	Risperidone 500 microgram oral tablet
+^ESCT1223465	Product containing precisely risperidone 500 microgram/1 each conventional release oral tablet
+^ESCT1237614	Risperidone 2mg tablets (Accord Healthcare Ltd) 60 tablet 6 x 10 tablets
+^ESCT1237615	Risperidone 3mg tablets (Accord Healthcare Ltd) 60 tablet 6 x 10 tablets
+^ESCT1237616	Risperidone 4mg tablets (Accord Healthcare Ltd) 60 tablet 6 x 10 tablets
+^ESCT1249923	Risperidone 1mg tablets (Accord Healthcare Ltd) 60 tablet
+^ESCT1250548	Risperidone 1mg tablets (Accord Healthcare Ltd) 60 tablet 6 x 10 tablets
+^ESCT1259076	Risperidone 500microgram tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259077	Risperidone 500microgram tablets (Torrent Pharma (UK) Ltd) 20 tablet
+^ESCT1259079	Risperidone 1mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259081	Risperidone 1mg tablets (Torrent Pharma (UK) Ltd) 60 tablet
+^ESCT1259084	Risperidone 2mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259085	Risperidone 2mg tablets (Torrent Pharma (UK) Ltd) 60 tablet
+^ESCT1259091	Risperidone 3mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259094	Risperidone 3mg tablets (Torrent Pharma (UK) Ltd) 60 tablet
+^ESCT1259096	Risperidone 4mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259097	Risperidone 4mg tablets (Torrent Pharma (UK) Ltd) 60 tablet
+^ESCT1259100	Risperidone 6mg tablets (Torrent Pharma (UK) Ltd)
+^ESCT1259102	Risperidone 6mg tablets (Torrent Pharma (UK) Ltd) 28 tablet
+^ESCT1266431	Risperidone 2mg tablets (Relonchem Ltd)
+^ESCT1266432	Risperidone 2mg tablets (Relonchem Ltd) 60 tablet
+^ESCT1266433	Risperidone 1mg tablets (Relonchem Ltd)
+^ESCT1266435	Risperidone 1mg tablets (Relonchem Ltd) 60 tablet
+^ESCT1266436	Risperidone 1mg tablets (Relonchem Ltd) 20 tablet
+^ESCT1266438	Risperidone 6mg tablets (Relonchem Ltd)
+^ESCT1266439	Risperidone 6mg tablets (Relonchem Ltd) 28 tablet
+^ESCT1266442	Risperidone 3mg tablets (Relonchem Ltd)
+^ESCT1266443	Risperidone 3mg tablets (Relonchem Ltd) 60 tablet
+^ESCT1266444	Risperidone 500microgram tablets (Relonchem Ltd)
+^ESCT1266446	Risperidone 500microgram tablets (Relonchem Ltd) 20 tablet
+^ESCT1266448	Risperidone 4mg tablets (Relonchem Ltd)
+^ESCT1266449	Risperidone 4mg tablets (Relonchem Ltd) 60 tablet
+^ESCT1268537	Risperidone 1mg/ml oral solution sugar free (Healthcare Pharma Ltd)
+^ESCT1268538	Risperidone 1mg/ml oral solution sugar free (Healthcare Pharma Ltd) 100 ml
+^ESCT1275554	Risperidone 500microgram orodispersible tablets sugar free (DE Pharmaceuticals)
+^ESCT1275555	Risperidone 500microgram orodispersible tablets sugar free (DE Pharmaceuticals) 28 tablet
+^ESCT1275556	Risperidone 1mg orodispersible tablets sugar free (DE Pharmaceuticals)
+^ESCT1275557	Risperidone 1mg orodispersible tablets sugar free (DE Pharmaceuticals) 28 tablet
+^ESCT1275558	Risperidone 2mg orodispersible tablets sugar free (DE Pharmaceuticals)
+^ESCT1275559	Risperidone 2mg orodispersible tablets sugar free (DE Pharmaceuticals) 28 tablet
+^ESCT1275560	Risperidone 3mg orodispersible tablets sugar free (DE Pharmaceuticals)
+^ESCT1275561	Risperidone 3mg orodispersible tablets sugar free (DE Pharmaceuticals) 28 tablet
+^ESCT1275562	Risperidone 4mg orodispersible tablets sugar free (DE Pharmaceuticals)
+^ESCT1275563	Risperidone 4mg orodispersible tablets sugar free (DE Pharmaceuticals) 28 tablet
+^ESCT1275564	Risperidone 500microgram tablets (DE Pharmaceuticals)
+^ESCT1275565	Risperidone 500microgram tablets (DE Pharmaceuticals) 20 tablet
+^ESCT1300488	Risperidone 1mg/ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1300489	Risperidone 1mg/ml oral solution sugar free (DE Pharmaceuticals) 100 ml
+^ESCT1373625	Risperidone 250microgram tablets 20 tablet
+^ESCT1373626	Risperidone 250microgram tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1373627	Risperidone 250microgram tablets (Glenmark Pharmaceuticals Europe Ltd) 20 tablet 2 x 10 tablets
+^ESCT1373910	Risperidone 250microgram tablets
+^ESCT1374306	Risperidone 250microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1374307	Risperidone 250microgram tablets (Alliance Healthcare (Distribution) Ltd) 20 tablet 2 x 10 tablets
+^ESCT1375838	Risperidone 1mg tablets (Sandoz Ltd)
+^ESCT1375839	Risperidone 1mg tablets (Sandoz Ltd) 20 tablet 2 x 10 tablets
+^ESCT1375922	Risperidone 1mg tablets (Sandoz Ltd) 60 tablet 6 x 10 tablets
+^ESCT1389394	Risperidone 500microgram tablets (Milpharm Ltd)
+^ESCT1389395	Risperidone 500microgram tablets (Milpharm Ltd) 20 tablet
+^ESCT1389396	Risperidone 1mg tablets (Milpharm Ltd)
+^ESCT1389397	Risperidone 1mg tablets (Milpharm Ltd) 20 tablet
+^ESCT1389398	Risperidone 2mg tablets (Milpharm Ltd)
+^ESCT1389399	Risperidone 2mg tablets (Milpharm Ltd) 60 tablet
+^ESCT1389400	Risperidone 4mg tablets (Milpharm Ltd)
+^ESCT1389401	Risperidone 4mg tablets (Milpharm Ltd) 60 tablet
+^ESCT1389402	Risperidone 6mg tablets (Milpharm Ltd)
+^ESCT1389403	Risperidone 6mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1401570	Risperidone 250microgram tablets (Zentiva)
+^ESCT1401571	Risperidone 250microgram tablets (Zentiva) 20 tablet
+^ESCT1402643	Risperidone 250microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCT1402644	Risperidone 250microgram tablets (A A H Pharmaceuticals Ltd) 20 tablet 2 x 10 tablets
+^ESCT1403878	Risperidone 500microgram tablets (Medihealth (Northern) Ltd)
+^ESCT1403879	Risperidone 500microgram tablets (Medihealth (Northern) Ltd) 20 tablet
+^ESCT1403880	Risperidone 1mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403881	Risperidone 1mg tablets (Medihealth (Northern) Ltd) 60 tablet
+^ESCT1403882	Risperidone 2mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403883	Risperidone 2mg tablets (Medihealth (Northern) Ltd) 60 tablet
+^ESCT1403884	Risperidone 3mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403885	Risperidone 3mg tablets (Medihealth (Northern) Ltd) 60 tablet
+^ESCT1403906	Risperidone 4mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403907	Risperidone 4mg tablets (Medihealth (Northern) Ltd) 60 tablet
+^ESCT1403908	Risperidone 6mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403909	Risperidone 6mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1403910	Risperidone 4mg orodispersible tablets sugar free (Medihealth (Northern) Ltd)
+^ESCT1403911	Risperidone 4mg orodispersible tablets sugar free (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1403912	Risperidone 3mg orodispersible tablets sugar free (Medihealth (Northern) Ltd)
+^ESCT1403913	Risperidone 3mg orodispersible tablets sugar free (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1423092	Risperidone 250microgram tablets (Zentiva Pharma UK Ltd)
+^ESCT1423093	Risperidone 250microgram tablets (Zentiva Pharma UK Ltd) 20 tablet
+^ESCT1427157	Risperidone 500microgram tablets (Kent Pharma (UK) Ltd)
+^ESCT1427158	Risperidone 500microgram tablets (Kent Pharma (UK) Ltd) 20 tablet 2 x 10 tablets
+^ESCT1427159	Risperidone 1mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427160	Risperidone 1mg tablets (Kent Pharma (UK) Ltd) 20 tablet 2 x 10 tablets
+^ESCT1427161	Risperidone 1mg tablets (Kent Pharma (UK) Ltd) 60 tablet 6 x 10 tablets
+^ESCT1427162	Risperidone 2mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427163	Risperidone 2mg tablets (Kent Pharma (UK) Ltd) 60 tablet 6 x 10 tablets
+^ESCT1427164	Risperidone 3mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427165	Risperidone 3mg tablets (Kent Pharma (UK) Ltd) 60 tablet 6 x 10 tablets
+^ESCT1427166	Risperidone 4mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427167	Risperidone 4mg tablets (Kent Pharma (UK) Ltd) 60 tablet 6 x 10 tablets
+^ESCT1427168	Risperidone 6mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427169	Risperidone 6mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1427171	Risperidone 1mg/ml oral solution sugar free (Kent Pharma (UK) Ltd)
+^ESCT1427172	Risperidone 1mg/ml oral solution sugar free (Kent Pharma (UK) Ltd) 100 ml
+^ESCT1429481	Risperidone 250microgram tablets (Medihealth (Northern) Ltd)
+^ESCT1429482	Risperidone 250microgram tablets (Medihealth (Northern) Ltd) 20 tablet
+^ESCT1429931	Risperidone 1mg tablets (Bristol Laboratories Ltd)
+^ESCT1429933	Risperidone 1mg tablets (Bristol Laboratories Ltd) 20 tablet 2 x 10 tablets
+^ESCT1429935	Risperidone 1mg tablets (Bristol Laboratories Ltd) 60 tablet 6 x 10 tablets
+^ESCT1429936	Risperidone 2mg tablets (Bristol Laboratories Ltd)
+^ESCT1429937	Risperidone 2mg tablets (Bristol Laboratories Ltd) 60 tablet 6 x 10 tablets
+^ESCT1429938	Risperidone 3mg tablets (Bristol Laboratories Ltd)
+^ESCT1429939	Risperidone 3mg tablets (Bristol Laboratories Ltd) 60 tablet 6 x 10 tablets
+^ESCT1429940	Risperidone 4mg tablets (Bristol Laboratories Ltd)
+^ESCT1429941	Risperidone 4mg tablets (Bristol Laboratories Ltd) 60 tablet 6 x 10 tablets
+^ESCT1429942	Risperidone 6mg tablets (Bristol Laboratories Ltd)
+^ESCT1429943	Risperidone 6mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCT1429944	Risperidone 500microgram tablets (Bristol Laboratories Ltd)
+^ESCT1429945	Risperidone 500microgram tablets (Bristol Laboratories Ltd) 20 tablet 2 x 10 tablets
+^ESCTPR609417	Product containing risperidone 1 mg/1 each oral tablet
+^ESCTPR609420	Product containing risperidone 2 mg/1 each oral tablet
+^ESCTPR609423	Product containing risperidone 3 mg/1 each oral tablet
+^ESCTPR609426	Product containing risperidone 4 mg/1 each oral tablet
+^ESCTPR609432	Product containing risperidone 6 mg/1 each oral tablet
+^ESCTPR609435	Product containing risperidone 0.5 mg/1 each oral tablet
+^ESCTRI1005958	Risperidone 1mg/ml oral solution sugar free (Phoenix Healthcare Distribution Ltd)
+^ESCTRI1005959	Risperidone 1mg/ml oral solution sugar free (Phoenix Healthcare Distribution Ltd) 100 ml
+^ESCTRI1005960	Risperidone 500microgram tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTRI1005961	Risperidone 500microgram tablets (Phoenix Healthcare Distribution Ltd) 20 tablet
+^ESCTRI1005962	Risperidone 1mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTRI1005963	Risperidone 1mg tablets (Phoenix Healthcare Distribution Ltd) 20 tablet
+^ESCTRI1005964	Risperidone 1mg tablets (Phoenix Healthcare Distribution Ltd) 60 tablet
+^ESCTRI1005965	Risperidone 2mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTRI1005966	Risperidone 2mg tablets (Phoenix Healthcare Distribution Ltd) 60 tablet
+^ESCTRI1005967	Risperidone 3mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTRI1005968	Risperidone 3mg tablets (Phoenix Healthcare Distribution Ltd) 60 tablet
+^ESCTRI1005969	Risperidone 4mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTRI1005970	Risperidone 4mg tablets (Phoenix Healthcare Distribution Ltd) 60 tablet
+^ESCTRI1005971	Risperidone 6mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTRI1005972	Risperidone 6mg tablets (Phoenix Healthcare Distribution Ltd) 60 tablet
+^ESCTRI1010928	Risperidone 500microgram tablets (Accord Healthcare Ltd)
+^ESCTRI1010929	Risperidone 500microgram tablets (Accord Healthcare Ltd) 20 tablet
+^ESCTRI1010930	Risperidone 1mg tablets (Accord Healthcare Ltd)
+^ESCTRI1010931	Risperidone 1mg tablets (Accord Healthcare Ltd) 20 tablet
+^ESCTRI1010932	Risperidone 1mg tablets (Accord Healthcare Ltd) 60 tablet
+^ESCTRI1010933	Risperidone 2mg tablets (Accord Healthcare Ltd)
+^ESCTRI1010934	Risperidone 2mg tablets (Accord Healthcare Ltd) 60 tablet
+^ESCTRI1010935	Risperidone 3mg tablets (Accord Healthcare Ltd)
+^ESCTRI1010936	Risperidone 3mg tablets (Accord Healthcare Ltd) 60 tablet
+^ESCTRI1010937	Risperidone 4mg tablets (Accord Healthcare Ltd)
+^ESCTRI1010938	Risperidone 4mg tablets (Accord Healthcare Ltd) 60 tablet
+^ESCTRI1011040	Risperidone 500microgram tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTRI1011042	Risperidone 500microgram tablets (Dr Reddy's Laboratories (UK) Ltd) 20 tablet
+^ESCTRI1011043	Risperidone 1mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTRI1011044	Risperidone 1mg tablets (Dr Reddy's Laboratories (UK) Ltd) 20 tablet
+^ESCTRI1011046	Risperidone 1mg tablets (Dr Reddy's Laboratories (UK) Ltd) 60 tablet
+^ESCTRI1011047	Risperidone 2mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTRI1011048	Risperidone 2mg tablets (Dr Reddy's Laboratories (UK) Ltd) 60 tablet
+^ESCTRI1011049	Risperidone 3mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTRI1011050	Risperidone 3mg tablets (Dr Reddy's Laboratories (UK) Ltd) 60 tablet
+^ESCTRI1011051	Risperidone 4mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTRI1011052	Risperidone 4mg tablets (Dr Reddy's Laboratories (UK) Ltd) 60 tablet
+^ESCTRI1011302	Risperidone 500microgram tablets (Almus Pharmaceuticals Ltd)
+^ESCTRI1011303	Risperidone 500microgram tablets (Almus Pharmaceuticals Ltd) 20 tablet
+^ESCTRI1011304	Risperidone 1mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTRI1011305	Risperidone 1mg tablets (Almus Pharmaceuticals Ltd) 20 tablet
+^ESCTRI1011306	Risperidone 1mg tablets (Almus Pharmaceuticals Ltd) 60 tablet
+^ESCTRI1011307	Risperidone 2mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTRI1011308	Risperidone 2mg tablets (Almus Pharmaceuticals Ltd) 60 tablet
+^ESCTRI1011309	Risperidone 3mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTRI1011310	Risperidone 3mg tablets (Almus Pharmaceuticals Ltd) 60 tablet
+^ESCTRI1011311	Risperidone 4mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTRI1011312	Risperidone 4mg tablets (Almus Pharmaceuticals Ltd) 60 tablet
+^ESCTRI1011313	Risperidone 6mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTRI1011314	Risperidone 6mg tablets (Almus Pharmaceuticals Ltd) 28 tablet
+^ESCTRI1022767	Risperidone 3mg orodispersible tablets sugar free (Teva UK Ltd)
+^ESCTRI1022768	Risperidone 3mg orodispersible tablets sugar free (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTRI1022769	Risperidone 4mg orodispersible tablets sugar free (Teva UK Ltd)
+^ESCTRI1022770	Risperidone 4mg orodispersible tablets sugar free (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTRI1026460	Risperidone 6mg tablets (Accord Healthcare Ltd)
+^ESCTRI1026461	Risperidone 6mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTRI1033345	Risperidone 2mg orodispersible tablets sugar free (Sandoz Ltd)
+^ESCTRI1033346	Risperidone 2mg orodispersible tablets sugar free (Sandoz Ltd) 28 tablet
+^ESCTRI1033349	Risperidone 1mg/ml oral solution sugar free (Sandoz Ltd)
+^ESCTRI1033350	Risperidone 1mg/ml oral solution sugar free (Sandoz Ltd) 100 ml
+^ESCTRI1033353	Risperidone 2mg tablets (Sandoz Ltd)
+^ESCTRI1033382	Risperidone 2mg tablets (Sandoz Ltd) 60 tablet
+^ESCTRI1033385	Risperidone 3mg tablets (Sandoz Ltd)
+^ESCTRI1033390	Risperidone 3mg tablets (Sandoz Ltd) 60 tablet
+^ESCTRI1033409	Risperidone 4mg tablets (Sandoz Ltd)
+^ESCTRI1033410	Risperidone 4mg tablets (Sandoz Ltd) 60 tablet
+^ESCTRI1033417	Risperidone 6mg tablets (Sandoz Ltd)
+^ESCTRI1033420	Risperidone 6mg tablets (Sandoz Ltd) 28 tablet
+^ESCTRI1042380	Risperidone 500microgram orodispersible tablets sugar free (Waymade Healthcare Plc)
+^ESCTRI1042381	Risperidone 500microgram orodispersible tablets sugar free (Waymade Healthcare Plc) 28 tablet
+^ESCTRI1042382	Risperidone 1mg orodispersible tablets sugar free (Waymade Healthcare Plc)
+^ESCTRI1042383	Risperidone 1mg orodispersible tablets sugar free (Waymade Healthcare Plc) 28 tablet
+^ESCTRI1042384	Risperidone 2mg orodispersible tablets sugar free (Waymade Healthcare Plc)
+^ESCTRI1042385	Risperidone 2mg orodispersible tablets sugar free (Waymade Healthcare Plc) 28 tablet
+^ESCTRI1042386	Risperidone 1mg/ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTRI1042387	Risperidone 1mg/ml oral solution sugar free (Waymade Healthcare Plc) 100 ml
+^ESCTRI1042388	Risperidone 500microgram tablets (Waymade Healthcare Plc)
+^ESCTRI1042389	Risperidone 500microgram tablets (Waymade Healthcare Plc) 20 tablet
+^ESCTRI1042390	Risperidone 1mg tablets (Waymade Healthcare Plc)
+^ESCTRI1042391	Risperidone 1mg tablets (Waymade Healthcare Plc) 20 tablet
+^ESCTRI1042392	Risperidone 1mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTRI1042393	Risperidone 2mg tablets (Waymade Healthcare Plc)
+^ESCTRI1042394	Risperidone 2mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTRI1042395	Risperidone 3mg tablets (Waymade Healthcare Plc)
+^ESCTRI1042396	Risperidone 3mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTRI1042397	Risperidone 4mg tablets (Waymade Healthcare Plc)
+^ESCTRI1042398	Risperidone 4mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTRI1042399	Risperidone 6mg tablets (Waymade Healthcare Plc)
+^ESCTRI1042400	Risperidone 6mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTRI1057976	Risperidone 4mg tablets (Dexcel-Pharma Ltd)
+^ESCTRI1057977	Risperidone 4mg tablets (Dexcel-Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI1057978	Risperidone 3mg tablets (Dexcel-Pharma Ltd)
+^ESCTRI1057979	Risperidone 3mg tablets (Dexcel-Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI1057980	Risperidone 500microgram tablets (Dexcel-Pharma Ltd)
+^ESCTRI1057981	Risperidone 500microgram tablets (Dexcel-Pharma Ltd) 20 tablet 2 x 10 tablets
+^ESCTRI1057982	Risperidone 2mg tablets (Dexcel-Pharma Ltd)
+^ESCTRI1057983	Risperidone 2mg tablets (Dexcel-Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI1057984	Risperidone 6mg tablets (Dexcel-Pharma Ltd)
+^ESCTRI1057985	Risperidone 6mg tablets (Dexcel-Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTRI1119721	Risperidone 1mg tablets (DE Pharmaceuticals)
+^ESCTRI1119722	Risperidone 1mg tablets (DE Pharmaceuticals) 20 tablet
+^ESCTRI1119723	Risperidone 1mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTRI1119724	Risperidone 2mg tablets (DE Pharmaceuticals)
+^ESCTRI1119725	Risperidone 2mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTRI1119726	Risperidone 3mg tablets (DE Pharmaceuticals)
+^ESCTRI1119727	Risperidone 3mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTRI1119728	Risperidone 4mg tablets (DE Pharmaceuticals)
+^ESCTRI1119729	Risperidone 4mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTRI1119730	Risperidone 6mg tablets (DE Pharmaceuticals)
+^ESCTRI1119731	Risperidone 6mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTRI1120486	Risperidone 1mg/ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTRI1120487	Risperidone 1mg/ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 100 ml
+^ESCTRI1127241	Risperidone 500microgram orodispersible tablets sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCTRI1127242	Risperidone 500microgram orodispersible tablets sugar free (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTRI1127243	Risperidone 1mg orodispersible tablets sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCTRI1127244	Risperidone 1mg orodispersible tablets sugar free (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTRI1127245	Risperidone 2mg orodispersible tablets sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCTRI1127246	Risperidone 2mg orodispersible tablets sugar free (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTRI1127247	Risperidone 3mg orodispersible tablets sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCTRI1127248	Risperidone 3mg orodispersible tablets sugar free (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTRI1127249	Risperidone 1mg/ml oral solution sugar free (Mawdsley-Brooks & Company Ltd)
+^ESCTRI1127250	Risperidone 1mg/ml oral solution sugar free (Mawdsley-Brooks & Company Ltd) 100 ml
+^ESCTRI1127251	Risperidone 500microgram tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTRI1127252	Risperidone 500microgram tablets (Mawdsley-Brooks & Company Ltd) 20 tablet
+^ESCTRI1127253	Risperidone 1mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTRI1127254	Risperidone 1mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTRI1127256	Risperidone 6mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTRI1127258	Risperidone 6mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTRI1152328	Risperidone 1mg/ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCTRI1152329	Risperidone 1mg/ml oral solution sugar free (Thame Laboratories Ltd) 100 ml
+^ESCTRI609416	Risperidone 1mg tablets
+^ESCTRI609418	Risperidone 1 mg oral tablet
+^ESCTRI609419	Risperidone 2mg tablets
+^ESCTRI609421	Risperidone 2 mg oral tablet
+^ESCTRI609422	Risperidone 3mg tablets
+^ESCTRI609424	Risperidone 3 mg oral tablet
+^ESCTRI609425	Risperidone 4mg tablets
+^ESCTRI609427	Risperidone 4 mg oral tablet
+^ESCTRI609428	Risperidone 1mg/ml oral solution sugar free
+^ESCTRI609429	Risperidone 1mg/mL liquid
+^ESCTRI609430	Risperidone 1mg/mL solution
+^ESCTRI609431	Risperidone 6mg tablets
+^ESCTRI609433	Risperidone 6 mg oral tablet
+^ESCTRI609434	Risperidone 500microgram tablets
+^ESCTRI609436	Risperidone 0.5 mg oral tablet
+^ESCTRI804781	Risperdal 6mg tablets (Janssen-Cilag Ltd)
+^ESCTRI811060	Risperdal 1mg/ml oral solution (Janssen-Cilag Ltd)
+^ESCTRI815423	Risperdal 4mg tablets (Janssen-Cilag Ltd)
+^ESCTRI819508	Risperdal 3mg tablets (Janssen-Cilag Ltd)
+^ESCTRI819730	Risperdal 500microgram tablets (Janssen-Cilag Ltd)
+^ESCTRI820284	Risperdal 1mg tablets (Janssen-Cilag Ltd)
+^ESCTRI829537	Risperdal 2mg tablets (Janssen-Cilag Ltd)
+^ESCTRI834382	Risperidone 1mg tablets 60 tablet
+^ESCTRI844660	Risperidone 1mg tablets 20 tablet
+^ESCTRI844705	Risperidone 6mg tablets 28 tablet
+^ESCTRI847282	Risperidone 4mg tablets 60 tablet
+^ESCTRI847548	Risperidone 3mg tablets 60 tablet
+^ESCTRI847780	Risperidone 1mg/ml oral solution sugar free 100 ml
+^ESCTRI848581	Risperidone 2mg tablets 60 tablet
+^ESCTRI848642	Risperidone 500microgram tablets 20 tablet
+^ESCTRI853771	Risperdal 1mg/ml oral solution (Janssen-Cilag Ltd) 100 ml
+^ESCTRI853787	Risperdal 500microgram tablets (Janssen-Cilag Ltd) 20 tablet 2 x 10 tablets
+^ESCTRI853789	Risperdal 1mg tablets (Janssen-Cilag Ltd) 20 tablet 2 x 10 tablets
+^ESCTRI853790	Risperdal 1mg tablets (Janssen-Cilag Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI853791	Risperdal 2mg tablets (Janssen-Cilag Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI853792	Risperdal 3mg tablets (Janssen-Cilag Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI853793	Risperdal 4mg tablets (Janssen-Cilag Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI853794	Risperdal 6mg tablets (Janssen-Cilag Ltd) 28 tablet 4 x 7 tablets
+^ESCTRI866632	Risperidone 1mg orodispersible tablets sugar free 28 tablet
+^ESCTRI866637	Risperdal Quicklet 1mg orodispersible tablets (Janssen-Cilag Ltd)
+^ESCTRI866638	Risperdal Quicklet 1mg orodispersible tablets (Janssen-Cilag Ltd) 28 tablet 7 x 4 tablets
+^ESCTRI866640	Risperidone 2mg orodispersible tablets sugar free 28 tablet
+^ESCTRI866642	Risperdal Quicklet 2mg orodispersible tablets (Janssen-Cilag Ltd)
+^ESCTRI866645	Risperdal Quicklet 2mg orodispersible tablets (Janssen-Cilag Ltd) 28 tablet 7 x 4 tablets
+^ESCTRI866778	Risperidone 1mg orodispersible tablets sugar free
+^ESCTRI866779	Risperidone 2mg orodispersible tablets sugar free
+^ESCTRI878255	Risperidone 1mg tablets 6 tablet
+^ESCTRI878802	Risperidone 6mg tablets 30 tablet
+^ESCTRI880054	Risperidone 6mg tablets 60 tablet
+^ESCTRI912133	Risperidone 500microgram orodispersible tablets sugar free 28 tablet
+^ESCTRI912134	Risperdal Quicklet 500microgram orodispersible tablets (Janssen-Cilag Ltd)
+^ESCTRI912135	Risperdal Quicklet 500microgram orodispersible tablets (Janssen-Cilag Ltd) 28 tablet 7 x 4 tablets
+^ESCTRI912151	Risperidone 500microgram orodispersible tablets sugar free
+^ESCTRI936615	Risperidone 4mg orodispersible tablets sugar free 28 tablet
+^ESCTRI936616	Risperdal Quicklet 4mg orodispersible tablets (Janssen-Cilag Ltd)
+^ESCTRI936617	Risperdal Quicklet 4mg orodispersible tablets (Janssen-Cilag Ltd) 28 tablet 7 x 4 tablets
+^ESCTRI936618	Risperidone 3mg orodispersible tablets sugar free 28 tablet
+^ESCTRI936619	Risperdal Quicklet 3mg orodispersible tablets (Janssen-Cilag Ltd)
+^ESCTRI936621	Risperdal Quicklet 3mg orodispersible tablets (Janssen-Cilag Ltd) 28 tablet 7 x 4 tablets
+^ESCTRI936668	Risperidone 3mg orodispersible tablets sugar free
+^ESCTRI936669	Risperidone 4mg orodispersible tablets sugar free
+^ESCTRI955936	Risperidone 500microgram tablets (Actavis UK Ltd)
+^ESCTRI955938	Risperidone 500microgram tablets (Actavis UK Ltd) 20 tablet
+^ESCTRI955940	Risperidone 1mg tablets (Actavis UK Ltd)
+^ESCTRI955942	Risperidone 1mg tablets (Actavis UK Ltd) 20 tablet
+^ESCTRI955945	Risperidone 1mg tablets (Actavis UK Ltd) 60 tablet
+^ESCTRI955947	Risperidone 2mg tablets (Actavis UK Ltd)
+^ESCTRI955951	Risperidone 2mg tablets (Actavis UK Ltd) 60 tablet
+^ESCTRI955953	Risperidone 3mg tablets (Actavis UK Ltd)
+^ESCTRI955955	Risperidone 3mg tablets (Actavis UK Ltd) 60 tablet
+^ESCTRI955957	Risperidone 4mg tablets (Actavis UK Ltd)
+^ESCTRI955961	Risperidone 4mg tablets (Actavis UK Ltd) 60 tablet
+^ESCTRI955965	Risperidone 6mg tablets (Actavis UK Ltd)
+^ESCTRI955966	Risperidone 6mg tablets (Actavis UK Ltd) 28 tablet
+^ESCTRI956152	Risperidone 500microgram tablets (Teva UK Ltd)
+^ESCTRI956154	Risperidone 500microgram tablets (Teva UK Ltd) 20 tablet 2 x 10 tablets
+^ESCTRI956156	Risperidone 1mg tablets (Teva UK Ltd)
+^ESCTRI956160	Risperidone 1mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI956164	Risperidone 2mg tablets (Teva UK Ltd)
+^ESCTRI956166	Risperidone 2mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI956168	Risperidone 3mg tablets (Teva UK Ltd)
+^ESCTRI956170	Risperidone 3mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI956172	Risperidone 4mg tablets (Teva UK Ltd)
+^ESCTRI956174	Risperidone 4mg tablets (Teva UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI956176	Risperidone 6mg tablets (Teva UK Ltd)
+^ESCTRI956178	Risperidone 6mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTRI959358	Risperidone 500microgram tablets (Kent Pharmaceuticals Ltd)
+^ESCTRI959359	Risperidone 500microgram tablets (Kent Pharmaceuticals Ltd) 20 tablet 2 x 10 tablets
+^ESCTRI959360	Risperidone 1mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTRI959361	Risperidone 1mg tablets (Kent Pharmaceuticals Ltd) 20 tablet 2 x 10 tablets
+^ESCTRI959362	Risperidone 1mg tablets (Kent Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI959363	Risperidone 2mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTRI959364	Risperidone 2mg tablets (Kent Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI959365	Risperidone 3mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTRI959366	Risperidone 3mg tablets (Kent Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI959367	Risperidone 4mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTRI959368	Risperidone 4mg tablets (Kent Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI959371	Risperidone 6mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTRI959373	Risperidone 6mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTRI959382	Risperidone 500microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTRI959383	Risperidone 500microgram tablets (A A H Pharmaceuticals Ltd) 20 tablet
+^ESCTRI959384	Risperidone 1mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTRI959385	Risperidone 1mg tablets (A A H Pharmaceuticals Ltd) 20 tablet
+^ESCTRI959386	Risperidone 1mg tablets (A A H Pharmaceuticals Ltd) 60 tablet
+^ESCTRI959387	Risperidone 2mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTRI959388	Risperidone 2mg tablets (A A H Pharmaceuticals Ltd) 60 tablet
+^ESCTRI959389	Risperidone 3mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTRI959390	Risperidone 3mg tablets (A A H Pharmaceuticals Ltd) 60 tablet
+^ESCTRI959391	Risperidone 4mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTRI959392	Risperidone 4mg tablets (A A H Pharmaceuticals Ltd) 60 tablet
+^ESCTRI959393	Risperidone 6mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTRI959394	Risperidone 6mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTRI959422	Risperidone 500microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTRI959423	Risperidone 500microgram tablets (Alliance Healthcare (Distribution) Ltd) 20 tablet
+^ESCTRI959424	Risperidone 1mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTRI959425	Risperidone 1mg tablets (Alliance Healthcare (Distribution) Ltd) 20 tablet
+^ESCTRI959426	Risperidone 1mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet
+^ESCTRI959427	Risperidone 2mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTRI959428	Risperidone 2mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet
+^ESCTRI959429	Risperidone 3mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTRI959430	Risperidone 3mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet
+^ESCTRI959431	Risperidone 4mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTRI959432	Risperidone 4mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet
+^ESCTRI959433	Risperidone 6mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTRI959434	Risperidone 6mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTRI959685	Risperidone 1mg/ml oral solution sugar free (Teva UK Ltd)
+^ESCTRI959688	Risperidone 1mg/ml oral solution sugar free (Teva UK Ltd) 100 ml
+^ESCTRI961556	Risperidone 1mg/ml oral solution sugar free (Kent Pharmaceuticals Ltd)
+^ESCTRI961558	Risperidone 1mg/ml oral solution sugar free (Kent Pharmaceuticals Ltd) 100 ml
+^ESCTRI961882	Risperidone 500microgram orodispersible tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTRI961883	Risperidone 500microgram orodispersible tablets sugar free (A A H Pharmaceuticals Ltd) 28 tablet 4 x 7 tablets
+^ESCTRI961884	Risperidone 1mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTRI961885	Risperidone 1mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTRI961886	Risperidone 2mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTRI961887	Risperidone 2mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd) 28 tablet 4 x 7 tablets
+^ESCTRI961888	Risperidone 1mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTRI961889	Risperidone 1mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd) 100 ml
+^ESCTRI961935	Risperidone 1mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTRI961937	Risperidone 1mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 100 ml
+^ESCTRI962474	Risperidone 500microgram tablets (Arrow Generics Ltd)
+^ESCTRI962475	Risperidone 500microgram tablets (Arrow Generics Ltd) 20 tablet
+^ESCTRI962476	Risperidone 1mg tablets (Arrow Generics Ltd)
+^ESCTRI962477	Risperidone 1mg tablets (Arrow Generics Ltd) 20 tablet
+^ESCTRI962478	Risperidone 1mg tablets (Arrow Generics Ltd) 60 tablet
+^ESCTRI962479	Risperidone 2mg tablets (Arrow Generics Ltd)
+^ESCTRI962480	Risperidone 2mg tablets (Arrow Generics Ltd) 60 tablet
+^ESCTRI962481	Risperidone 3mg tablets (Arrow Generics Ltd)
+^ESCTRI962482	Risperidone 3mg tablets (Arrow Generics Ltd) 60 tablet
+^ESCTRI962483	Risperidone 4mg tablets (Arrow Generics Ltd)
+^ESCTRI962484	Risperidone 4mg tablets (Arrow Generics Ltd) 60 tablet
+^ESCTRI962485	Risperidone 6mg tablets (Arrow Generics Ltd)
+^ESCTRI962486	Risperidone 6mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTRI962884	Risperidone 500microgram orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTRI962886	Risperidone 500microgram orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTRI962887	Risperidone 1mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTRI962888	Risperidone 1mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTRI962889	Risperidone 2mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTRI962890	Risperidone 2mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTRI962891	Risperidone 3mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTRI962892	Risperidone 3mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTRI962893	Risperidone 4mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTRI962894	Risperidone 4mg orodispersible tablets sugar free (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTRI964596	Risperidone 3mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTRI964598	Risperidone 3mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd) 28 tablet 4 x 7 tablets
+^ESCTRI964600	Risperidone 4mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd)
+^ESCTRI964602	Risperidone 4mg orodispersible tablets sugar free (A A H Pharmaceuticals Ltd) 28 tablet 4 x 7 tablets
+^ESCTRI965231	Risperidone 500microgram tablets (Ranbaxy (UK) Ltd)
+^ESCTRI965232	Risperidone 500microgram tablets (Ranbaxy (UK) Ltd) 20 tablet 2 x 10 tablets
+^ESCTRI965233	Risperidone 1mg tablets (Ranbaxy (UK) Ltd)
+^ESCTRI965234	Risperidone 1mg tablets (Ranbaxy (UK) Ltd) 20 tablet 2 x 10 tablets
+^ESCTRI965235	Risperidone 1mg tablets (Ranbaxy (UK) Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI965236	Risperidone 2mg tablets (Ranbaxy (UK) Ltd)
+^ESCTRI965237	Risperidone 2mg tablets (Ranbaxy (UK) Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI965238	Risperidone 3mg tablets (Ranbaxy (UK) Ltd)
+^ESCTRI965239	Risperidone 3mg tablets (Ranbaxy (UK) Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI965240	Risperidone 4mg tablets (Ranbaxy (UK) Ltd)
+^ESCTRI965241	Risperidone 4mg tablets (Ranbaxy (UK) Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI965242	Risperidone 6mg tablets (Ranbaxy (UK) Ltd)
+^ESCTRI965243	Risperidone 6mg tablets (Ranbaxy (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTRI965244	Risperidone 1mg orodispersible tablets sugar free (Ranbaxy (UK) Ltd)
+^ESCTRI965245	Risperidone 1mg orodispersible tablets sugar free (Ranbaxy (UK) Ltd) 28 tablet 4 x 7 tablets
+^ESCTRI965246	Risperidone 2mg orodispersible tablets sugar free (Ranbaxy (UK) Ltd)
+^ESCTRI965247	Risperidone 2mg orodispersible tablets sugar free (Ranbaxy (UK) Ltd) 28 tablet 4 x 7 tablets
+^ESCTRI965248	Risperidone 3mg orodispersible tablets sugar free (Ranbaxy (UK) Ltd)
+^ESCTRI965249	Risperidone 3mg orodispersible tablets sugar free (Ranbaxy (UK) Ltd) 28 tablet 4 x 7 tablets
+^ESCTRI965250	Risperidone 4mg orodispersible tablets sugar free (Ranbaxy (UK) Ltd)
+^ESCTRI965251	Risperidone 4mg orodispersible tablets sugar free (Ranbaxy (UK) Ltd) 28 tablet 4 x 7 tablets
+^ESCTRI965668	Risperidone 1mg tablets (Apotex UK Ltd)
+^ESCTRI965669	Risperidone 1mg tablets (Apotex UK Ltd) 20 tablet 2 x 10 tablets
+^ESCTRI965670	Risperidone 1mg tablets (Apotex UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI965671	Risperidone 1mg/ml oral solution sugar free (Apotex UK Ltd)
+^ESCTRI965672	Risperidone 1mg/ml oral solution sugar free (Apotex UK Ltd) 100 ml
+^ESCTRI965673	Risperidone 2mg tablets (Apotex UK Ltd)
+^ESCTRI965674	Risperidone 2mg tablets (Apotex UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI965675	Risperidone 3mg tablets (Apotex UK Ltd)
+^ESCTRI965676	Risperidone 3mg tablets (Apotex UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI965677	Risperidone 4mg tablets (Apotex UK Ltd)
+^ESCTRI965678	Risperidone 4mg tablets (Apotex UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI965679	Risperidone 500microgram tablets (Apotex UK Ltd)
+^ESCTRI965680	Risperidone 500microgram tablets (Apotex UK Ltd) 20 tablet 2 x 10 tablets
+^ESCTRI965681	Risperidone 6mg tablets (Apotex UK Ltd)
+^ESCTRI965682	Risperidone 6mg tablets (Apotex UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTRI967232	Risperidone 1mg/ml oral solution sugar free (Mylan Ltd)
+^ESCTRI967233	Risperidone 1mg/ml oral solution sugar free (Mylan Ltd) 100 ml
+^ESCTRI967488	Risperidone 3mg tablets 20 tablet
+^ESCTRI967502	Risperidone 4mg tablets 20 tablet
+^ESCTRI969097	Risperidone 500microgram tablets (Consilient Health Ltd)
+^ESCTRI969100	Risperidone 500microgram tablets (Consilient Health Ltd) 20 tablet
+^ESCTRI969104	Risperidone 1mg tablets (Consilient Health Ltd)
+^ESCTRI969105	Risperidone 1mg tablets (Consilient Health Ltd) 20 tablet
+^ESCTRI969109	Risperidone 1mg tablets (Consilient Health Ltd) 60 tablet
+^ESCTRI969111	Risperidone 2mg tablets (Consilient Health Ltd)
+^ESCTRI969114	Risperidone 2mg tablets (Consilient Health Ltd) 60 tablet
+^ESCTRI969115	Risperidone 3mg tablets (Consilient Health Ltd)
+^ESCTRI969116	Risperidone 3mg tablets (Consilient Health Ltd) 60 tablet
+^ESCTRI969119	Risperidone 4mg tablets (Consilient Health Ltd)
+^ESCTRI969120	Risperidone 4mg tablets (Consilient Health Ltd) 60 tablet
+^ESCTRI969121	Risperidone 500microgram orodispersible tablets sugar free (Consilient Health Ltd)
+^ESCTRI969122	Risperidone 500microgram orodispersible tablets sugar free (Consilient Health Ltd) 28 tablet
+^ESCTRI969123	Risperidone 1mg orodispersible tablets sugar free (Consilient Health Ltd)
+^ESCTRI969125	Risperidone 1mg orodispersible tablets sugar free (Consilient Health Ltd) 28 tablet
+^ESCTRI969126	Risperidone 2mg orodispersible tablets sugar free (Consilient Health Ltd)
+^ESCTRI969128	Risperidone 2mg orodispersible tablets sugar free (Consilient Health Ltd) 28 tablet
+^ESCTRI971784	Risperidone 500microgram tablets (Mylan Ltd)
+^ESCTRI971785	Risperidone 500microgram tablets (Mylan Ltd) 20 tablet 2 x 10 tablets
+^ESCTRI971787	Risperidone 1mg tablets (Mylan Ltd)
+^ESCTRI971789	Risperidone 1mg tablets (Mylan Ltd) 20 tablet 2 x 10 tablets
+^ESCTRI971792	Risperidone 1mg tablets (Mylan Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI971797	Risperidone 2mg tablets (Mylan Ltd)
+^ESCTRI971798	Risperidone 2mg tablets (Mylan Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI971800	Risperidone 3mg tablets (Mylan Ltd)
+^ESCTRI971801	Risperidone 3mg tablets (Mylan Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI971804	Risperidone 4mg tablets (Mylan Ltd)
+^ESCTRI971805	Risperidone 4mg tablets (Mylan Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI971808	Risperidone 6mg tablets (Mylan Ltd)
+^ESCTRI971810	Risperidone 6mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTRI974873	Risperidone 500microgram orodispersible tablets sugar free (Teva UK Ltd)
+^ESCTRI974874	Risperidone 500microgram orodispersible tablets sugar free (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTRI974875	Risperidone 1mg orodispersible tablets sugar free (Teva UK Ltd)
+^ESCTRI974876	Risperidone 1mg orodispersible tablets sugar free (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTRI974877	Risperidone 2mg orodispersible tablets sugar free (Teva UK Ltd)
+^ESCTRI974878	Risperidone 2mg orodispersible tablets sugar free (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTRI975361	Risperidone 500microgram tablets (Wockhardt UK Ltd)
+^ESCTRI975362	Risperidone 500microgram tablets (Wockhardt UK Ltd) 20 tablet 2 x 10 tablets
+^ESCTRI975363	Risperidone 1mg tablets (Wockhardt UK Ltd)
+^ESCTRI975364	Risperidone 1mg tablets (Wockhardt UK Ltd) 20 tablet 2 x 10 tablets
+^ESCTRI975365	Risperidone 1mg tablets (Wockhardt UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI975366	Risperidone 2mg tablets (Wockhardt UK Ltd)
+^ESCTRI975367	Risperidone 2mg tablets (Wockhardt UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI975368	Risperidone 3mg tablets (Wockhardt UK Ltd)
+^ESCTRI975369	Risperidone 3mg tablets (Wockhardt UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI975370	Risperidone 4mg tablets (Wockhardt UK Ltd)
+^ESCTRI975371	Risperidone 4mg tablets (Wockhardt UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTRI975372	Risperidone 6mg tablets (Wockhardt UK Ltd)
+^ESCTRI975373	Risperidone 6mg tablets (Wockhardt UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTRI975374	Risperidone 1mg/ml oral solution sugar free (Wockhardt UK Ltd)
+^ESCTRI975375	Risperidone 1mg/ml oral solution sugar free (Wockhardt UK Ltd) 100 ml
+^ESCTRI975412	Risperidone 1mg/ml oral solution sugar free (PLIVA Pharma Ltd)
+^ESCTRI975413	Risperidone 1mg/ml oral solution sugar free (PLIVA Pharma Ltd) 100 ml
+^ESCTRI978958	Risperidone 2mg orodispersible tablets sugar free (Mylan Ltd)
+^ESCTRI978959	Risperidone 2mg orodispersible tablets sugar free (Mylan Ltd) 28 tablet 4 x 7 tablets
+^ESCTRI978960	Risperidone 1mg orodispersible tablets sugar free (Mylan Ltd)
+^ESCTRI978961	Risperidone 1mg orodispersible tablets sugar free (Mylan Ltd) 28 tablet 4 x 7 tablets
+^ESCTRI978962	Risperidone 500microgram orodispersible tablets sugar free (Mylan Ltd)
+^ESCTRI978963	Risperidone 500microgram orodispersible tablets sugar free (Mylan Ltd) 28 tablet 4 x 7 tablets
+^ESCTRI979214	Risperidone 500microgram tablets (Sigma Pharmaceuticals Plc)
+^ESCTRI979215	Risperidone 500microgram tablets (Sigma Pharmaceuticals Plc) 20 tablet
+^ESCTRI979216	Risperidone 1mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTRI979217	Risperidone 1mg tablets (Sigma Pharmaceuticals Plc) 20 tablet
+^ESCTRI979218	Risperidone 1mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTRI979219	Risperidone 1mg/ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTRI979220	Risperidone 1mg/ml oral solution sugar free (Sigma Pharmaceuticals Plc) 100 ml
+^ESCTRI979224	Risperidone 2mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTRI979225	Risperidone 2mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTRI979226	Risperidone 3mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTRI979228	Risperidone 3mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTRI979229	Risperidone 4mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTRI979231	Risperidone 4mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTRI979232	Risperidone 6mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTRI979233	Risperidone 6mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTRI979737	Risperidone 1mg/ml oral solution sugar free (Chanelle Medical UK Ltd)
+^ESCTRI979738	Risperidone 1mg/ml oral solution sugar free (Chanelle Medical UK Ltd) 100 ml
+^ESCTRI985930	Risperidone 1mg/ml oral solution sugar free (Actavis UK Ltd)
+^ESCTRI985931	Risperidone 1mg/ml oral solution sugar free (Actavis UK Ltd) 100 ml
+^ESCTRI988259	Risperidone 125micrograms/5ml oral solution 1 ml
+^ESCTRI988260	Risperidone 125micrograms/5ml oral solution (Special Order)
+^ESCTRI988261	Risperidone 125micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTRI988353	Risperidone 125micrograms/5ml oral solution
+RILI28308EMIS	Risperdal  Oral solution  1 mg/1 ml
+RILI28310EMIS	Risperidone  Oral Solution, Sugar Free  1 mg/1 ml
+RIOR14731NEMIS	Risperidone  Orodispersible tablets  Sugar Free 1 mg
+RIOR14732NEMIS	Risperidone  Orodispersible tablets  Sugar Free 2 mg
+RIOR14734NEMIS	Risperdal Quicklet  Orodispersible tablets  1 mg
+RIOR14735NEMIS	Risperdal Quicklet  Orodispersible tablets  2 mg
+RIOR19655NEMIS	Risperidone  Orodispersible tablets  Sugar Free 500 micrograms
+RIOR19656NEMIS	Risperdal Quicklet  Orodispersible tablets  500 micrograms
+RIOR23720NEMIS	Risperidone  Orodispersible tablets  Sugar Free 3 mg
+RIOR23721NEMIS	Risperidone  Orodispersible tablets  Sugar Free 4 mg
+RIOR23722NEMIS	Risperdal Quicklet  Orodispersible tablets  3 mg
+RIOR23723NEMIS	Risperdal Quicklet  Orodispersible tablets  4 mg
+RITA137435NEMIS	Risperidone  Tablets  250 micrograms
+RITA23782EMIS	Risperdal  Tablets  1 mg
+RITA23783EMIS	Risperdal  Tablets  2 mg
+RITA23784EMIS	Risperdal  Tablets  3 mg
+RITA23785EMIS	Risperdal  Tablets  4 mg
+RITA23790EMIS	Risperidone  Tablets  1 mg
+RITA23791EMIS	Risperidone  Tablets  2 mg
+RITA23792EMIS	Risperidone  Tablets  3 mg
+RITA23793EMIS	Risperidone  Tablets  4 mg
+RITA31679EMIS	Risperdal  Tablets  6 mg
+RITA31681EMIS	Risperidone  Tablets  6 mg
+RITA5272NEMIS	Risperdal  Tablets  500 micrograms
+RITA5273NEMIS	Risperidone  Tablets  500 micrograms

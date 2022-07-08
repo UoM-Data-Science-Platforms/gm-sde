@@ -1,0 +1,6 @@
+c8p1.	Fexofenadine hydrochloride 120mg tablet
+c8p2.	Telfast 120 tablet
+c8p3.	Fexofenadine hydrochloride 180mg tablet
+c8p4.	Telfast 180 tablet
+c8p5.	Fexofenadine hydrochloride 30mg tablet
+c8p6.	Telfast 30 tablet

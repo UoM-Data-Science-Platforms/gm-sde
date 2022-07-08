@@ -1,0 +1,94 @@
+^ESCT1178175	Product containing only doxepin 10 mg/1 each oral capsule
+^ESCT1178176	Product containing only doxepin 75 mg/1 each oral capsule
+^ESCT1181096	Product containing only doxepin 25 mg/1 each oral capsule
+^ESCT1181386	Product containing only doxepin 50 mg/1 each oral capsule
+^ESCT1223522	Product containing precisely doxepin (as doxepin hydrochloride) 10 milligram/1 each conventional release oral capsule
+^ESCT1223523	Doxepin (as doxepin hydrochloride) 10 mg oral capsule
+^ESCT1223524	Doxepin (as doxepin hydrochloride) 25 mg oral capsule
+^ESCT1223525	Product containing precisely doxepin (as doxepin hydrochloride) 25 milligram/1 each conventional release oral capsule
+^ESCT1223526	Doxepin (as doxepin hydrochloride) 50 mg oral capsule
+^ESCT1223527	Product containing precisely doxepin (as doxepin hydrochloride) 50 milligram/1 each conventional release oral capsule
+^ESCT1223528	Doxepin (as doxepin hydrochloride) 75 mg oral capsule
+^ESCT1223529	Product containing precisely doxepin (as doxepin hydrochloride) 75 milligram/1 each conventional release oral capsule
+^ESCT1266153	Doxepin 25mg capsules (DE Pharmaceuticals)
+^ESCT1266154	Doxepin 25mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCT1266155	Doxepin 50mg capsules (DE Pharmaceuticals)
+^ESCT1266156	Doxepin 50mg capsules (DE Pharmaceuticals) 28 capsule
+^ESCT1374262	Doxepin 50mg capsules (Crescent Pharma Ltd)
+^ESCT1374263	Doxepin 50mg capsules (Crescent Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCT1374347	Doxepin 25mg capsules (Crescent Pharma Ltd)
+^ESCT1374349	Doxepin 25mg capsules (Crescent Pharma Ltd) 28 capsule 2 x 14 capsules
+^ESCT1375524	Doxepin 25mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375525	Doxepin 25mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1375526	Doxepin 50mg capsules (Medihealth (Northern) Ltd)
+^ESCT1375527	Doxepin 50mg capsules (Medihealth (Northern) Ltd) 28 capsule
+^ESCT1404785	Doxepin 25mg capsules (Zentiva)
+^ESCT1404788	Doxepin 25mg capsules (Zentiva) 28 capsule
+^ESCT1404789	Doxepin 50mg capsules (Zentiva)
+^ESCT1404790	Doxepin 50mg capsules (Zentiva) 28 capsule
+^ESCT1423118	Doxepin 25mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1423119	Doxepin 25mg capsules (Zentiva Pharma UK Ltd) 28 capsule
+^ESCT1423120	Doxepin 50mg capsules (Zentiva Pharma UK Ltd)
+^ESCT1423121	Doxepin 50mg capsules (Zentiva Pharma UK Ltd) 28 capsule
+^ESCTDO1066360	Doxepin 25mg capsules (Marlborough Pharmaceuticals Ltd)
+^ESCTDO1066361	Doxepin 25mg capsules (Marlborough Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO1066362	Doxepin 50mg capsules (Marlborough Pharmaceuticals Ltd)
+^ESCTDO1066363	Doxepin 50mg capsules (Marlborough Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO1067260	Doxepin 25mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTDO1067261	Doxepin 25mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO1067262	Doxepin 50mg capsules (Alliance Healthcare (Distribution) Ltd)
+^ESCTDO1067263	Doxepin 50mg capsules (Alliance Healthcare (Distribution) Ltd) 28 capsule 2 x 14 capsules
+^ESCTDO1067978	Doxepin 25mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTDO1067979	Doxepin 25mg capsules (A A H Pharmaceuticals Ltd) 28 capsule
+^ESCTDO1067980	Doxepin 50mg capsules (A A H Pharmaceuticals Ltd)
+^ESCTDO1067981	Doxepin 50mg capsules (A A H Pharmaceuticals Ltd) 28 capsule
+^ESCTDO1104312	Doxepin 10mg capsules 1 capsule
+^ESCTDO1104313	Doxepin 10mg capsules (Special Order)
+^ESCTDO1104314	Doxepin 10mg capsules (Special Order) 1 capsule
+^ESCTDO609635	Doxepin 10mg capsules
+^ESCTDO609636	Doxepin 10 mg/1 each oral capsule
+^ESCTDO609638	Doxepin 25mg capsules
+^ESCTDO609639	Doxepin 25 mg/1 each oral capsule
+^ESCTDO609641	Doxepin 50mg capsules
+^ESCTDO609642	Doxepin 50 mg/1 each oral capsule
+^ESCTDO609644	Doxepin 75mg capsules
+^ESCTDO609645	Doxepin 75 mg/1 each oral capsule
+^ESCTDO843399	Doxepin 75mg capsules 28 capsule
+^ESCTDO843719	Doxepin 25mg capsules 28 capsule
+^ESCTDO848154	Doxepin 10mg capsules 56 capsule
+^ESCTDO848741	Doxepin 50mg capsules 28 capsule
+^ESCTDO906478	Doxepin 50mg/5ml oral solution 1 ml
+^ESCTDO906481	Doxepin 50mg/5ml oral solution (Special Order)
+^ESCTDO906483	Doxepin 50mg/5ml oral solution (Special Order) 1 ml
+^ESCTDO906484	Doxepin 50mg/5ml oral suspension 1 ml
+^ESCTDO906486	Doxepin 50mg/5ml oral suspension (Special Order)
+^ESCTDO906489	Doxepin 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTDO906715	Doxepin 50mg/5ml oral solution
+^ESCTDO906716	Doxepin 50mg/5ml oral suspension
+^ESCTPR609637	Product containing doxepin 10 mg/1 each oral capsule
+^ESCTPR609640	Product containing doxepin 25 mg/1 each oral capsule
+^ESCTPR609643	Product containing doxepin 50 mg/1 each oral capsule
+^ESCTPR609646	Product containing doxepin 75 mg/1 each oral capsule
+^ESCTSI808116	Sinequan 10mg capsules (Pfizer Ltd)
+^ESCTSI808287	Sinequan 75mg capsules (Pfizer Ltd)
+^ESCTSI813649	Sinequan 25mg capsules (Pfizer Ltd)
+^ESCTSI820508	Sinequan 50mg capsules (Pfizer Ltd)
+^ESCTSI856768	Sinequan 10mg capsules (Pfizer Ltd) 56 capsule 4 x 14 capsules
+^ESCTSI856777	Sinequan 25mg capsules (Pfizer Ltd) 28 capsule 2 x 14 capsules
+^ESCTSI856781	Sinequan 50mg capsules (Pfizer Ltd) 28 capsule 2 x 14 capsules
+^ESCTSI856785	Sinequan 75mg capsules (Pfizer Ltd) 28 capsule 2 x 14 capsules
+^ESCTSI935631	Sinepin 25mg capsules (Marlborough Pharmaceuticals Ltd)
+^ESCTSI935632	Sinepin 25mg capsules (Marlborough Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+^ESCTSI935634	Sinepin 50mg capsules (Marlborough Pharmaceuticals Ltd)
+^ESCTSI935636	Sinepin 50mg capsules (Marlborough Pharmaceuticals Ltd) 28 capsule 2 x 14 capsules
+DOCA979	Doxepin  Capsules  10 mg
+DOCA980	Doxepin  Capsules  25 mg
+DOCA981	Doxepin  Capsules  50 mg
+DOCA982	Doxepin  Capsules  75 mg
+DOOR35142NEMIS	Doxepin  Oral solution  50 mg/5 ml
+SICA23696NEMIS	Sinepin  Capsules  25 mg
+SICA23698NEMIS	Sinepin  Capsules  50 mg
+SICA2575	Sinequan  Capsules  10 mg
+SICA2576	Sinequan  Capsules  25 mg
+SICA2577	Sinequan  Capsules  50 mg
+SICA2578	Sinequan  Capsules  75 mg

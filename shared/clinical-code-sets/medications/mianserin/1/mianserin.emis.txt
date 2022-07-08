@@ -1,0 +1,143 @@
+^ESCT1178177	Product containing only mianserin hydrochloride 30 mg/1 each oral tablet
+^ESCT1179631	Mianserin 20mg tablets (Mylan) 100 tablet
+^ESCT1179829	Mianserin 10mg tablets (Mylan)
+^ESCT1181389	Product containing only mianserin hydrochloride 20 mg/1 each oral tablet
+^ESCT1183387	Mianserin 30mg tablets (Mylan)
+^ESCT1183542	Mianserin 20mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1185737	Mianserin 10mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1187294	Product containing only mianserin hydrochloride 10 mg/1 each oral tablet
+^ESCT1188826	Mianserin 10mg tablets (Mylan) 100 tablet
+^ESCT1188827	Mianserin 30mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1188828	Mianserin 30mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1189489	Mianserin 20mg tablets (Mylan)
+^ESCT1223542	Product containing precisely mianserin hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1223543	Product containing precisely mianserin hydrochloride 20 milligram/1 each conventional release oral tablet
+^ESCT1223544	Product containing precisely mianserin hydrochloride 30 milligram/1 each conventional release oral tablet
+^ESCT1376151	Mianserin 10mg tablets (Imported)
+^ESCT1376152	Mianserin 10mg tablets (Imported) 28 tablet
+^ESCT1376153	Mianserin 30mg tablets (Imported)
+^ESCT1376154	Mianserin 30mg tablets (Imported) 28 tablet
+^ESCT1425773	Mianserin 30mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425814	Mianserin 20mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425844	Mianserin 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426481	Mianserin 10mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426482	Mianserin 20mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426483	Mianserin 30mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI1041632	Mianserin 30mg tablets (Waymade Healthcare Plc)
+^ESCTMI1041633	Mianserin 30mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTMI1065838	Mianserin 10mg tablets (DE Pharmaceuticals)
+^ESCTMI1065839	Mianserin 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTMI1065840	Mianserin 30mg tablets (DE Pharmaceuticals)
+^ESCTMI1065841	Mianserin 30mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTMI1118252	Mianserin 30mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTMI1118253	Mianserin 30mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTMI1126789	Mianserin 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTMI1126790	Mianserin 10mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTMI1126791	Mianserin 30mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTMI1126792	Mianserin 30mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTMI609677	Mianserin 10mg tablets
+^ESCTMI609679	Mianserin hydrochloride 10 mg oral tablet
+^ESCTMI609680	Mianserin 20mg tablets
+^ESCTMI609682	Mianserin hydrochloride 20 mg oral tablet
+^ESCTMI609683	Mianserin 30mg tablets
+^ESCTMI609685	Mianserin hydrochloride 30 mg oral tablet
+^ESCTMI805191	Mianserin 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTMI807829	Mianserin 10mg tablets (Mylan Ltd)
+^ESCTMI816256	Mianserin 10mg tablets (Teva UK Ltd)
+^ESCTMI816837	Mianserin 20mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTMI817735	Mianserin 20mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTMI819846	Mianserin 30mg tablets (Teva UK Ltd)
+^ESCTMI819943	Mianserin 30mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTMI820077	Mianserin 20mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTMI820323	Mianserin 30mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTMI820340	Mianserin 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTMI820807	Mianserin 30mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTMI820962	Mianserin 30mg tablets (Actavis UK Ltd)
+^ESCTMI821326	Mianserin 20mg tablets (Mylan Ltd)
+^ESCTMI822977	Mianserin 20mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTMI824785	Mianserin 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTMI830977	Mianserin 10mg tablets (Actavis UK Ltd)
+^ESCTMI832550	Mianserin 30mg tablets (Mylan Ltd)
+^ESCTMI833977	Mianserin 20mg tablets (Actavis UK Ltd)
+^ESCTMI842679	Mianserin 10mg tablets 100 tablet
+^ESCTMI846375	Mianserin 30mg tablets 28 tablet
+^ESCTMI846626	Mianserin 10mg tablets 28 tablet
+^ESCTMI846640	Mianserin 20mg tablets 28 tablet
+^ESCTMI847856	Mianserin 30mg tablets 100 tablet
+^ESCTMI847989	Mianserin 20mg tablets 100 tablet
+^ESCTMI856575	Mianserin 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856577	Mianserin 10mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTMI856580	Mianserin 10mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856581	Mianserin 10mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856583	Mianserin 10mg tablets (Mylan Ltd) 100 tablet
+^ESCTMI856586	Mianserin 10mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856588	Mianserin 10mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTMI856590	Mianserin 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856592	Mianserin 10mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTMI856595	Mianserin 20mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856597	Mianserin 20mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTMI856599	Mianserin 20mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856600	Mianserin 20mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856601	Mianserin 20mg tablets (Mylan Ltd) 100 tablet
+^ESCTMI856602	Mianserin 20mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856603	Mianserin 20mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856604	Mianserin 20mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856605	Mianserin 20mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTMI856607	Mianserin 30mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTMI856608	Mianserin 30mg tablets (A A H Pharmaceuticals Ltd) 100 tablet
+^ESCTMI856609	Mianserin 30mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856610	Mianserin 30mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856611	Mianserin 30mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856612	Mianserin 30mg tablets (Teva UK Ltd) 100 tablet
+^ESCTMI856613	Mianserin 30mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI856614	Mianserin 30mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI957204	Mianserin 10mg/5ml oral suspension 1 ml
+^ESCTMI957205	Mianserin 10mg/5ml oral suspension (Special Order)
+^ESCTMI957207	Mianserin 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTMI957210	Mianserin 10mg/5ml oral solution 1 ml
+^ESCTMI957212	Mianserin 10mg/5ml oral solution (Special Order)
+^ESCTMI957215	Mianserin 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTMI957225	Mianserin 20mg/5ml oral suspension 1 ml
+^ESCTMI957227	Mianserin 20mg/5ml oral suspension (Special Order)
+^ESCTMI957229	Mianserin 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTMI957231	Mianserin 20mg/5ml oral solution 1 ml
+^ESCTMI957234	Mianserin 20mg/5ml oral solution (Special Order)
+^ESCTMI957235	Mianserin 20mg/5ml oral solution (Special Order) 1 ml
+^ESCTMI957236	Mianserin 30mg/5ml oral suspension 1 ml
+^ESCTMI957237	Mianserin 30mg/5ml oral suspension (Special Order)
+^ESCTMI957238	Mianserin 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTMI957240	Mianserin 30mg/5ml oral solution 1 ml
+^ESCTMI957242	Mianserin 30mg/5ml oral solution (Special Order)
+^ESCTMI957244	Mianserin 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTMI957642	Mianserin 10mg/5ml oral solution
+^ESCTMI957643	Mianserin 10mg/5ml oral suspension
+^ESCTMI957644	Mianserin 20mg/5ml oral solution
+^ESCTMI957645	Mianserin 20mg/5ml oral suspension
+^ESCTMI957646	Mianserin 30mg/5ml oral solution
+^ESCTMI957647	Mianserin 30mg/5ml oral suspension
+^ESCTPR609678	Product containing mianserin hydrochloride 10 mg/1 each oral tablet
+^ESCTPR609681	Product containing mianserin hydrochloride 20 mg/1 each oral tablet
+^ESCTPR609684	Product containing mianserin hydrochloride 30 mg/1 each oral tablet
+MITA138294NEMIS	Mianserin Hydrochloride (Imported)  Tablets  10 mg
+MITA138295NEMIS	Mianserin Hydrochloride (Imported)  Tablets  30 mg
+MITA1822	Mianserin Hydrochloride  Tablets  10 mg
+MITA1823	Mianserin Hydrochloride  Tablets  20 mg
+MITA1824	Mianserin Hydrochloride  Tablets  30 mg
+MITA36059MGEMIS	Mianserin Hydrochloride  Tablets  10 mg (Unichem)
+MITA36060MGEMIS	Mianserin Hydrochloride  Tablets  10 mg (Generics (UK))
+MITA36061MGEMIS	Mianserin Hydrochloride  Tablets  10 mg (Ivax Pharmaceuticals)
+MITA36062MGEMIS	Mianserin Hydrochloride  Tablets  10 mg (A.A.H. Pharm)
+MITA36063MGEMIS	Mianserin Hydrochloride  Tablets  10 mg (Kent Pharm)
+MITA36064MGEMIS	Mianserin Hydrochloride  Tablets  10 mg (Alpharma)
+MITA36065MGEMIS	Mianserin Hydrochloride  Tablets  20 mg (Ivax Pharmaceuticals)
+MITA36066MGEMIS	Mianserin Hydrochloride  Tablets  20 mg (Unichem)
+MITA36067MGEMIS	Mianserin Hydrochloride  Tablets  20 mg (A.A.H. Pharm)
+MITA36068MGEMIS	Mianserin Hydrochloride  Tablets  20 mg (Generics (UK))
+MITA36069MGEMIS	Mianserin Hydrochloride  Tablets  20 mg (Kent Pharm)
+MITA36070MGEMIS	Mianserin Hydrochloride  Tablets  20 mg (Alpharma)
+MITA36071MGEMIS	Mianserin Hydrochloride  Tablets  30 mg (Ivax Pharmaceuticals)
+MITA36072MGEMIS	Mianserin Hydrochloride  Tablets  30 mg (A.A.H. Pharm)
+MITA36073MGEMIS	Mianserin Hydrochloride  Tablets  30 mg (Unichem)
+MITA36074MGEMIS	Mianserin Hydrochloride  Tablets  30 mg (Kent Pharm)
+MITA36075MGEMIS	Mianserin Hydrochloride  Tablets  30 mg (Alpharma)
+MITA36076MGEMIS	Mianserin Hydrochloride  Tablets  30 mg (Generics (UK))

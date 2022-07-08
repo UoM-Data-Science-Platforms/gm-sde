@@ -1,0 +1,4 @@
+f2C1.	XULTOPHY 100iu/mL/3.6mg/mL soln for inj prefilled pen 3mL
+f2C2.	INSULIN DEGLUDEC+LIRAGLUTIDE 100iu/mL/3.6mg/mL soln inj pen
+ftc1.	VICTOZA 6mg/mL solution for injection prefilled pen 3mL
+ftc2.	LIRAGLUTIDE 6mg/mL solution for injection prefilled pen

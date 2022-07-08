@@ -1,0 +1,8 @@
+ft51.	ACTOS 15mg tablets
+ft52.	ACTOS 30mg tablets
+ft53.	ACTOS 45mg tablets
+ft5x.	PIOGLITAZONE 45mg tablets
+ft5y.	PIOGLITAZONE 30mg tablets
+ft5z.	PIOGLITAZONE 15mg tablets
+ft71.	COMPETACT 15mg/850mg tablets
+ft7z.	METFORMIN 850mg/PIOGLITAZONE 15mg tablets

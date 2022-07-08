@@ -1,0 +1,7 @@
+d7c1.	*ALLEGRON 10mg tablets
+d7c2.	*ALLEGRON 25mg tablets
+d7c6.	NORTRIPTYLINE 10mg tablets
+d7c8.	NORTRIPTYLINE 25mg tablets
+d7c9.	*NORTRIPTYLINE 10mg capsules
+d7cy.	*NORTRIPTYLINE 25mg capsules
+d914.	*MOTIVAL tablets

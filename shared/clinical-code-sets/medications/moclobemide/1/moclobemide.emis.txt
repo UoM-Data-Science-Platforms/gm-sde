@@ -1,0 +1,102 @@
+^ESCT1178179	Product containing only moclobemide 300 mg/1 each oral tablet
+^ESCT1180360	Moclobemide 150mg tablets (Mylan) 30 tablet
+^ESCT1186425	Moclobemide 150mg tablets (Mylan)
+^ESCT1187297	Product containing only moclobemide 150 mg/1 each oral tablet
+^ESCT1188825	Moclobemide 300mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCT1189547	Moclobemide 300mg tablets (Mylan)
+^ESCT1189548	Moclobemide 300mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1223566	Product containing precisely moclobemide 150 milligram/1 each conventional release oral tablet
+^ESCT1223567	Product containing precisely moclobemide 300 milligram/1 each conventional release oral tablet
+^ESCT1268083	Manerix 300mg tablets (Mylan)
+^ESCT1268109	Manerix 150mg tablets (Mylan)
+^ESCT1268186	Manerix 150mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1268187	Manerix 300mg tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1376143	Moclobemide 300mg tablets (Imported)
+^ESCT1376144	Moclobemide 300mg tablets (Imported) 30 tablet
+^ESCT1425708	Moclobemide 300mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425810	Moclobemide 150mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426479	Moclobemide 150mg tablets (Kent Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1426480	Moclobemide 300mg tablets (Kent Pharma (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCT1429389	Moclobemide 150mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429390	Moclobemide 150mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1429391	Moclobemide 300mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429392	Moclobemide 300mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCTMA801759	Manerix 300mg tablets (Meda Pharmaceuticals Ltd)
+^ESCTMA819858	Manerix 150mg tablets (Meda Pharmaceuticals Ltd)
+^ESCTMA856573	Manerix 150mg tablets (Meda Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTMA856589	Manerix 300mg tablets (Meda Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTMO1041683	Moclobemide 150mg tablets (Waymade Healthcare Plc)
+^ESCTMO1041686	Moclobemide 150mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTMO1065988	Moclobemide 150mg tablets (DE Pharmaceuticals)
+^ESCTMO1065989	Moclobemide 150mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTMO1065990	Moclobemide 300mg tablets (DE Pharmaceuticals)
+^ESCTMO1065991	Moclobemide 300mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTMO1126805	Moclobemide 150mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTMO1126806	Moclobemide 150mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTMO609731	Moclobemide 150mg tablets
+^ESCTMO609733	Moclobemide 150 mg oral tablet
+^ESCTMO609734	Moclobemide 300mg tablets
+^ESCTMO609736	Moclobemide 300 mg oral tablet
+^ESCTMO804070	Moclobemide 150mg tablets (Sandoz Ltd)
+^ESCTMO814221	Moclobemide 150mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTMO818974	Moclobemide 300mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTMO819974	Moclobemide 300mg tablets (Teva UK Ltd)
+^ESCTMO820898	Moclobemide 300mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTMO822891	Moclobemide 150mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTMO827045	Moclobemide 150mg tablets (Teva UK Ltd)
+^ESCTMO831707	Moclobemide 300mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTMO832153	Moclobemide 150mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTMO833935	Moclobemide 300mg tablets (Sandoz Ltd)
+^ESCTMO839310	Moclobemide 300mg tablets 30 tablet
+^ESCTMO847132	Moclobemide 150mg tablets 30 tablet
+^ESCTMO856566	Moclobemide 150mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTMO856567	Moclobemide 150mg tablets (Teva UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTMO856569	Moclobemide 150mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTMO856571	Moclobemide 150mg tablets (Sandoz Ltd) 30 tablet 3 x 10 tablets
+^ESCTMO856578	Moclobemide 150mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 2 x 15 tablets
+^ESCTMO856582	Moclobemide 300mg tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTMO856584	Moclobemide 300mg tablets (Teva UK Ltd) 30 tablet 2 x 15 tablets
+^ESCTMO856585	Moclobemide 300mg tablets (Kent Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTMO856587	Moclobemide 300mg tablets (Sandoz Ltd) 30 tablet 3 x 10 tablets
+^ESCTMO856591	Moclobemide 300mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 2 x 15 tablets
+^ESCTMO871429	Moclobemide 150mg tablets (Mylan Ltd)
+^ESCTMO871431	Moclobemide 150mg tablets (Mylan Ltd) 30 tablet
+^ESCTMO874079	Moclobemide 300mg tablets (Mylan Ltd)
+^ESCTMO874080	Moclobemide 300mg tablets (Mylan Ltd) 30 tablet 3 x 10 tablets
+^ESCTMO878874	Moclobemide 150mg tablets 100 tablet
+^ESCTMO878879	Moclobemide 300mg tablets 60 tablet
+^ESCTMO957369	Moclobemide 150mg/5ml oral suspension 1 ml
+^ESCTMO957372	Moclobemide 150mg/5ml oral suspension (Special Order)
+^ESCTMO957373	Moclobemide 150mg/5ml oral suspension (Special Order) 1 ml
+^ESCTMO957376	Moclobemide 50mg/5ml oral suspension 1 ml
+^ESCTMO957379	Moclobemide 50mg/5ml oral suspension (Special Order)
+^ESCTMO957382	Moclobemide 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTMO957558	Moclobemide 150mg/5ml oral suspension
+^ESCTMO957559	Moclobemide 50mg/5ml oral suspension
+^ESCTMO965570	Moclobemide 150mg tablets (Tillomed Laboratories Ltd)
+^ESCTMO965572	Moclobemide 150mg tablets (Tillomed Laboratories Ltd) 30 tablet
+^ESCTMO965574	Moclobemide 300mg tablets (Tillomed Laboratories Ltd)
+^ESCTMO965575	Moclobemide 300mg tablets (Tillomed Laboratories Ltd) 30 tablet
+^ESCTMO979672	Moclobemide 150mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTMO979673	Moclobemide 150mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTMO979674	Moclobemide 300mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTMO979675	Moclobemide 300mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTPR609732	Product containing moclobemide 150 mg/1 each oral tablet
+^ESCTPR609735	Product containing moclobemide 300 mg/1 each oral tablet
+MATA23458EMIS	Manerix  Tablets  150 mg
+MATA26259EMIS	Manerix  Tablets  300 mg
+MOTA138300NEMIS	Moclobemide (Imported)  Tablets  300 mg
+MOTA23460EMIS	Moclobemide  Tablets  150 mg
+MOTA26261EMIS	Moclobemide  Tablets  300 mg
+MOTA36115MGEMIS	Moclobemide  Tablets  150 mg (Sandoz)
+MOTA36116MGEMIS	Moclobemide  Tablets  150 mg (A.A.H. Pharm)
+MOTA36117MGEMIS	Moclobemide  Tablets  150 mg (Kent Pharm)
+MOTA36118MGEMIS	Moclobemide  Tablets  150 mg (Teva UK)
+MOTA36119MGEMIS	Moclobemide  Tablets  150 mg (Unichem)
+MOTA36120MGEMIS	Moclobemide  Tablets  150 mg (Generics (UK))
+MOTA36121MGEMIS	Moclobemide  Tablets  300 mg (Kent Pharm)
+MOTA36122MGEMIS	Moclobemide  Tablets  300 mg (Teva UK)
+MOTA36123MGEMIS	Moclobemide  Tablets  300 mg (Unichem)
+MOTA36124MGEMIS	Moclobemide  Tablets  300 mg (A.A.H. Pharm)
+MOTA36125MGEMIS	Moclobemide  Tablets  300 mg (Sandoz)
+MOTA36126MGEMIS	Moclobemide  Tablets  300 mg (Generics (UK))

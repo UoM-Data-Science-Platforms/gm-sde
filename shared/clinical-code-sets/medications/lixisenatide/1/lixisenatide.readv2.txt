@@ -1,0 +1,6 @@
+ftj1.	LYXUMIA 10micrograms/0.2mL soln for inj prefilled pen 3mL
+ftj2.	LIXISENATIDE 10micrograms/0.2mL soln for injection pen 3mL
+ftj3.	LYXUMIA 20micrograms/0.2mL soln for inj prefilled pen 3mL
+ftj4.	LIXISENATIDE 20micrograms/0.2mL soln for injection pen 3mL
+ftj5.	LYXUMIA 10mcg/0.2mL+20mcg/0.2mL soln inj prefilled pens 3mL
+ftj6.	LIXISENATIDE 10mcg/0.2mL+20mcg/0.2mL soln for inj pens 3mL

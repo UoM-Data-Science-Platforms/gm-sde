@@ -1,0 +1,733 @@
+LETA19057NEMIS	Levonorgestrel  Tablets  1.5 mg
+ERSU25266EMIS	Erythromycin Ethyl Succinate  Suspension  125 mg/5 ml
+TAOR114699NEMIS	Tamsulosin Hydrochloride  Oral suspension  400 micrograms/5 ml
+CAPE76736NEMIS	Canesten Combi Soft Gel  Pessary and cream  500 mg + 2 %
+FLSY4927	Flucloxacillin  Syrup  250 mg/5 ml
+BEM/23308NEMIS	Besavar Xl  M/R tablets  10 mg
+ETSU1036NEMIS	Etonogestrel  Subdermal implant  68 mg
+POMI36610MGEMIS	Potassium Citrate  Mixture  1.5g/5 ml (Thornton & Ross)
+ECTW3492	Ecostatin  Twinpack  
+ELTA38942NEMIS	Ellaone  Tablets  30 mg
+NOPE6876	Nonoxinol 9  Pessaries  6 %
+BITA104159NEMIS	Bimizza  Tablets  150 micrograms + 20 micrograms
+ALM/29917NEMIS	Alphacard Mr  M/R capsules  400 micrograms
+CLCR5225NEMIS	Clotrimazole  Cream  2 %
+BETA4650	Bethanechol Chloride  Tablets  10 mg
+ITCA10335BRIDL	Itraconazole  Capsules  100 mg
+ALIN35352EMIS	Alprostadil  Powder and solvent for solution for injection  10 microgram cartridge
+CESU4689	Cefadroxil  Suspension  125 mg/5 ml
+YOTA44080NEMIS	Yohimbine  Tablets  5 mg
+ALPO116247NEMIS	Alprostadil  Powder and solvent for solution for injection  40 microgram cartridge with device
+GYCO3683	Gyno-Pevaryl  Combipack  
+GYOV3677	Gyno-Daktarin  Vaginal Capsules  1200 mg
+PRCR2335	Premarin  Vaginal cream  625 micrograms/gram
+OXOR101986NEMIS	Oxybutynin Hydrochloride  Oral Solution, Sugar Free  5 mg/5 ml
+OXTA36377MGEMIS	Oxybutynin Hydrochloride  Tablets  5 mg (Kent Pharm)
+SITA34207EMIS	Sildenafil Citrate  Tablets  100 mg
+MESU81503NEMIS	Medroxyprogesterone Acetate  Suspension For Injection  104 mg/0.65 ml pre-filled device
+LOTA3849	Loestrin 30  Tablets  
+POMI36611MGEMIS	Potassium Citrate  Mixture  1.5g/5 ml (Unichem)
+VATA15022NEMIS	Vardenafil  Tablets  10 mg
+CESU31410EMIS	Cefaclor  Sugar-free suspension  125 mg/5 ml
+CAPE76738NEMIS	Canesten Soft Gel  Pessary  500 mg
+NYOR34359EMIS	Nystatin  Oral Suspension (Sugar-Free)  100,000 units/ml
+MICO44834NEMIS	Millinette 20/75  Tablets  
+TATA14828NEMIS	Tadalafil  Tablets  10 mg
+BAM/22113NEMIS	Bazetham  M/R capsules  400 micrograms
+CITA22180EMIS	Ciproxin  Tablets  500 mg
+ACSU9009DLSEM	Aciclovir  Sugar free suspension  400 mg/5 ml
+CYTA19599EMIS	Cystrin  Tablets  5 mg
+GYCR10354BRIDL	Gyno-Pevaryl  Cream  1 %
+SOOR140214NEMIS	NULL
+ETTA18970NEMIS	Ethinylestradiol And Desogestrel  Tablets  20 micrograms + 150 micrograms
+YEGA18741NEMIS	Yentreve  Gastro-resistant Capsules  40 mg
+VETA18750NEMIS	Vesicare  Tablets  10 mg
+FEVA47241NEMIS	Fenticonazole Nitrate  Vaginal Capsules  200 mg
+VAVA46851NEMIS	Vagifem  Vaginal tablets  10 micrograms
+TRTA2939	Trimethoprim  Tablets  200 mg
+VITA34203EMIS	Viagra  Tablets  50 mg
+LEIN125609NEMIS	Levonorgestrel  Intra-uterine device  19.5 mg
+IMSU1039NEMIS	Implanon  Subdermal implant  68 mg
+NYVA2057	Nystan  Vaginal cream  100000 units/4 g
+TATA14830NEMIS	Tadalafil  Tablets  20 mg
+ETTA18969NEMIS	Ethinylestradiol And Desogestrel  Tablets  30 micrograms + 150 micrograms
+NOTA29946EMIS	Norethisterone  Tablets  350 micrograms
+ECPE4879	Econazole Nitrate  Pessaries  150 mg
+VITA86721NEMIS	Vizarsin  Tablets  100 mg
+EVTR15476NEMIS	Evra  Transdermal patches  33.9 micrograms/24 hours + 203 micrograms/24 hours
+CLCR4768NEMIS	Clotrimazole  Cream and Pessary  2 % + 500 mg
+HEIN10379HILLI	Hemabate  Injection  250 micrograms/ml, 1 ml ampoule
+DUGA131625NEMIS	Dutor  Gastro-resistant Capsules  40 mg
+MIIN26764EMIS	Mirena  Intra-uterine device  52 mg (20 micrograms/24 hours)
+VAVA9327EMIS	Vagifem  Vaginal tablets  25 micrograms
+QUTA4244	Quinine Bisulfate  Tablets  300 mg
+ESVA17770NEMIS	Estradiol  Vaginal ring  50 micrograms/24 hours (1.25 mg ring)
+AMPA27087EMIS	Amoxycillin  Paediatric suspension  125 mg/1.25 ml
+FLM/20543NEMIS	Flomaxtra Xl  M/R tablets  400 micrograms
+PETA2185	Penicillin Vk  Tablets  250 mg
+RITA5366	Ritodrine Hydrochloride  Tablets  10 mg
+POPE10178BRIDL	Povidone-Iodine  Pessaries  200 mg
+ETTA38336MGEMIS	Ethinylestradiol And Norethisterone  Tablets  35 micrograms + 1 mg (Pfizer)
+ESVA131900NEMIS	Estriol  Vaginal gel  50 micrograms/gram with applicator
+CYEF31087NEMIS	Cymalon  Effervescent granules  6.76 grams/sachet
+MUTA90984NEMIS	Munalea  Tablets  150 micrograms + 20 micrograms
+VATA15023NEMIS	Vardenafil  Tablets  20 mg
+UPSU10812NEMIS	Uprima  Sublingual tablets  3 mg
+YATA41125NEMIS	Yaz  Tablets  
+NICH81687NEMIS	Nipatra  Chewable tablets  50 mg
+OXTA36346MGEMIS	Oxybutynin Hydrochloride  Tablets  3 mg (Pfizer)
+GYJE5570	Gynol 11  Jelly  2 %
+URTA73962NEMIS	Uraplex  Tablets  20 mg
+AMSY133	Amoxil  Syrup sf  250 mg/5 ml
+NOTA10366BRIDL	Norfloxacin  Tablets  400 mg
+SIOR118260NEMIS	Sildenafil Citrate  Oral solution  5 mg/5 ml
+REM/38808NEMIS	Regurin Xl  M/R capsules  60 mg
+INTA35547MGEMIS	Indoramin  Tablets  20 mg (Generics (UK))
+TRTA2943	Trinordiol  Tablets  
+ETTA38334MGEMIS	Ethinylestradiol And Norethisterone  Tablets  35 micrograms + 500 micrograms (Pfizer)
+TRM/38806NEMIS	Trospium Chloride  M/R capsules  60 mg
+COSU19812EMIS	Co-Amoxiclav 125/31  Sugar free suspension  125 mg/5 ml + 31 mg/5 ml
+META1814	Metronidazole  Tablets  400 mg
+DEVA114428NEMIS	Dequalinium Chloride  Vaginal tablets  10 mg
+ECCR4878	Econazole Nitrate  Cream  1 %
+VITA86722NEMIS	Vizarsin  Tablets  25 mg
+BEVA3238	Betadine  Vaginal gel  10 %
+VAM/45171NEMIS	Vasran Xl  M/R tablets  10 mg
+PRIN4226	Prostin E2  Solution for infusion  10 mg/ml, 0.5 ml ampoule
+PRTA85945NEMIS	Priligy  Tablets  30 mg
+GYCR3676	Gyno-Daktarin  Intravaginal cream  2 %
+PASO127101NEMIS	Pabal  Solution for injection  100 micrograms/1 ml vial
+TRSU5478	Trimethoprim  Suspension  Sugar Free 50 mg/5 ml
+BLVA131902NEMIS	Blissel  Vaginal gel  50 micrograms/gram with applicator
+BITA367	Binovum  Tablets  
+NOIN4048	Noristerat  Solution for injection  200 mg/1 ml ampoule
+SICH81634NEMIS	Sildenafil Citrate  Chewable Tablets Sugar Free  100 mg
+ESIN17786NEMIS	Estriol  Intravaginal cream  0.01 % with applicator
+APTA10808NEMIS	Apomorphine Hydrochloride  Sublingual tablets  2 mg
+DIM/4780NEMIS	Ditropan Xl  M/R tablets  5 mg
+INSO105023NEMIS	Invicorp  Solution for injection  25 micrograms/0.35 ml + 2 mg/0.35 ml ampoule
+NUVA34633NEMIS	Nuvaring  Vaginal ring  
+INTA35549MGEMIS	Indoramin  Tablets  20 mg (Unichem)
+ETTA18971NEMIS	Ethinylestradiol And Levonorgestrel  Tablets  30 micrograms + 150 micrograms
+CEPE3295	Cervagem  Pessaries  1 mg
+PRM/95164NEMIS	Propiverine Hydrochloride  M/R capsules  45 mg
+CACR26874NEMIS	Canesten Combi Internal And External  Cream  10 % + 2 %
+ALIN4916NEMIS	Alprostadil  Powder and solvent for solution for injection  20 microgram pre-filled device
+COTA696	Co-Trimoxazole  Tablets  480 mg
+ETTA18972NEMIS	Ethinylestradiol And Norethisterone  Tablets  35 micrograms + 1 mg
+NYOR34357EMIS	Nystan  Oral Suspension (Sugar-Free)  100,000 units/ml
+ERSU1104	Erythromycin  Suspension  500 mg/5 ml
+NEM/79115NEMIS	Neditol Xl  M/R capsules  2 mg
+NOTA2030	Norimin  Tablets  
+ESVA17769NEMIS	Estradiol  Pessaries  25 micrograms
+KETR20081NEMIS	Kentera  Transdermal patches  3.9 mg/24 hours
+ORPE5574	Orthoforms  Pessaries  5 %
+CAIN24408EMIS	Caverject  Injection  20 micrograms/vial
+OXBL125059NEMIS	Oxybutynin Hydrochloride  Bladder irrigation  5 mg/30 ml vial
+ETTA18976NEMIS	Ethinylestradiol And Drospirenone  Tablets  30 micrograms + 3 mg
+ALM/27735EMIS	Alfuzosin Hydrochloride  M/R tablets  5 mg
+OSCA29015NEMIS	Oseltamivir  Capsules  45 mg
+CLCR672	Clotrimazole  Vaginal cream  10 %
+MESU1732	Mebendazole  Suspension  100 mg/5 ml
+LETA90794NEMIS	Lestramyl  Tablets  20 micrograms + 150 micrograms
+GYVA47245NEMIS	Gynoxin  Vaginal Capsules  600 mg
+UBTA2975	Ubretid  Tablets  5 mg
+DAM/23489NEMIS	Darifenacin  M/R tablets  7.5 mg
+SITA34209EMIS	Sildenafil Citrate  Tablets  50 mg
+EMM/23495NEMIS	Emselex  M/R tablets  7.5 mg
+ERIN4887	Ergometrine Maleate  Injection  500 micrograms/ml, 1 ml ampoule
+FLSY4926	Flucloxacillin  Syrup  125 mg/5 ml
+DITA4858	Distigmine Bromide  Tablets  5 mg
+CAIN34034EMIS	Caverject  Injection  40 micrograms/vial
+ERSU9005DLSEM	Erythromycin  Sugar free suspension  250mg/5ml
+CYPO12664NEMIS	Cystopurin  Granule Sachets  3 grams
+TOTA138400NEMIS	Topogyne  Tablets  400 micrograms
+FUM/44764NEMIS	Fuzatal Xl  M/R tablets  10 mg
+POAN5320	Povidone-Iodine  Antiseptic vaginal cleansing kit  10 %
+ETTA18966NEMIS	Ethinylestradiol And Norethisterone Acetate  Tablets  20 micrograms + 1 mg
+YATA12813NEMIS	Yasmin  Tablets  
+CITA14832NEMIS	Cialis  Tablets  10 mg
+ALM/3798NEMIS	Alfuzosin Hydrochloride  M/R tablets  10 mg
+OXTA9034EMIS	Oxybutynin Hydrochloride  Tablets  5 mg
+CYSA4567NEMIS	Cystemme  Sachets  
+META138418NEMIS	Mestranol And Norethisterone (Imported)  Tablets  50 micrograms + 1 mg
+OXTA2146	Oxytetracycline  Tablets  250 mg
+PRM/44746NEMIS	Prosurin Xl  M/R capsules  400 micrograms
+MUUR32589EMIS	Muse  Urethral Application  125 micrograms
+FETA1153	Femulen  Tablets  500 micrograms
+CAIN4919NEMIS	Caverject Dual Chamber  Powder and solvent for solution for injection  20 microgram pre-filled device
+LETA15026NEMIS	Levitra  Tablets  10 mg
+BETA7003	Bethanechol Chloride  Tablets  25 mg
+ETTA18964NEMIS	Ethinylestradiol And Gestodene  Tablets  30 micrograms + 75 micrograms
+ZOM/125698NEMIS	Zochek  M/R tablets  10 mg
+TATA34450NEMIS	Tadalafil  Tablets  5 mg
+MYTA4003	Myotonine Chloride  Tablets  10 mg
+ZUM/23484NEMIS	Zufal Xl  M/R tablets  10 mg
+AMSY4592	Amoxycillin  Syrup sf  125 mg/5 ml
+DETA32246EMIS	Detrusitol  Tablets  2 mg
+ECPE19089NEMIS	Ecostatin-1  Pessary  150 mg
+FLVA114433NEMIS	Fluomizin  Vaginal tablets  10 mg
+KEM/74165NEMIS	Kelanu Xl  M/R tablets  10 mg
+VAVA125433NEMIS	Vagi-Wave  Vaginal Device  
+CLTA9105EMIS	Clarithromycin  Tablets  250 mg
+CLCR23810EMIS	Clindamycin  Vaginal cream  2 %
+LYCA5101	Lymecycline  Capsules  408 mg
+URBL8670BRID	Uro-Tainer Chlorhexidine  Catheter maintenance solution  1:5,000
+MESU139742NEMIS	NULL
+TRTA19567EMIS	Triadene  Tablets  
+MACA2893NEMIS	Mandelic Acid  Catheter maintenance solution  1 %, 100ml sachet
+OXTA36378MGEMIS	Oxybutynin Hydrochloride  Tablets  5 mg (Ivax Pharmaceuticals)
+OXTA36373MGEMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg (Kent Pharm)
+FLOR23504EMIS	Flucloxacillin  Oral solution  125 mg/5 ml
+ATCO4748NEMIS	Atosiban Acetate  Concentrate for intravenous infusion  7.5 mg/ml, 5 ml vial
+NEM/51985NEMIS	Nevirapine Anhydrate  M/R tablets  400 mg
+ALPO116246NEMIS	Alprostadil  Powder and solvent for solution for injection  20 microgram cartridge with device
+DIBL17631NEMIS	Dimethyl Sulfoxide  Bladder instillation  50 %
+PASO22339NEMIS	Pabal  Solution for injection  100 micrograms/ml, 1 ml ampoule
+SASU81505NEMIS	Sayana Press  Suspension For Injection  104 mg/0.65 ml pre-filled device
+DATA85941NEMIS	Dapoxetine  Tablets  30 mg
+MITA138392NEMIS	Misoprostol  Tablets  400 micrograms
+ATTA28887NEMIS	Atripla  Tablets  
+FLTA22563EMIS	Flavoxate Hydrochloride  Tablets  200 mg
+SYTA138332NEMIS	Synphase Calendar Pack (Imported Canada)  Tablets  
+NICA6970	Nitrofurantoin  Capsules  50 mg
+OXTA36372MGEMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg (A.A.H. Pharm)
+AMTA137831NEMIS	Ambelina  Tablets  150 micrograms + 30 micrograms
+CLVA676	Clotrimazole  Pessaries  100 mg
+DIIN9496EMIS	Dinoprostone  Solution for infusion  10 mg/ml, 0.5 ml ampoule
+BEAN3235	Betadine  Antiseptic vaginal cleansing kit  10 %
+OXOR45596NEMIS	Oxybutynin Hydrochloride  Oral solution  5 mg/5 ml
+LETA90795NEMIS	Lestramyl  Tablets  30 micrograms + 150 micrograms
+DOCA17639NEMIS	Doxycycline Hyclate  Capsules  100 mg
+PRM/78469NEMIS	Preblacon Xl  M/R capsules  4 mg
+LUTA86739NEMIS	Lucette  Tablets  30 micrograms + 3 mg
+CLTA90879NEMIS	Cleosensa  Tablets  30 micrograms + 3 mg
+VIIN32456EMIS	Viridal Duo Continuation Pack  Powder and solvent for solution for injection  10 microgram cartridge
+EMM/23496NEMIS	Emselex  M/R tablets  15 mg
+FATA26687EMIS	Famvir  Tablets  125 mg
+LEIN26766EMIS	Levonorgestrel  Intra-uterine device  52 mg (20 micrograms/24 hours)
+ERSU25267EMIS	Erythromycin Ethyl Succinate  Suspension  250 mg/5 ml
+BEM/78530NEMIS	Betmiga  M/R tablets  25 mg
+QLTA36524NEMIS	Qlaira  Tablets  
+RITA9069BRIDL	Rifampicin And Isoniazid 300+150  Tablets  
+SOOR128012NEMIS	Solifenacin  Oral Suspension Sugar Free  1 mg/ml
+TRTA5322NEMIS	Trospium Chloride  Tablets  20 mg
+NATA78103NEMIS	Nacrez  Tablets  75 micrograms
+FETA19272EMIS	Femodene E.D.  Tablets  
+VAOR48413NEMIS	Vardenafil  Orodispersible Tablets (Sugar Free)  10 mg
+LEIN101280NEMIS	Levosert  Intra-uterine device  20 micrograms/24 hours
+OXTA19601EMIS	Oxybutynin Hydrochloride  Tablets  3 mg
+OXTA36371MGEMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg (Generics (UK))
+AITA90954NEMIS	Aidulan  Tablets  30 micrograms + 75 micrograms
+TOM/11677NEMIS	Tolterodine Tartrate  M/R capsules  4 mg
+ERST3539	Erythromycin  Tablets  250 mg
+ACSU23930EMIS	Aciclovir  Suspension  400 mg/5 ml
+CAIN4918NEMIS	Caverject Dual Chamber  Powder and solvent for solution for injection  10 microgram pre-filled device
+OXBL125058NEMIS	Oxybutynin Hydrochloride  Bladder irrigation  5 mg/30 ml pre-filled syringe
+DATA85943NEMIS	Dapoxetine  Tablets  60 mg
+ALIN4915NEMIS	Alprostadil  Powder and solvent for solution for injection  10 microgram pre-filled device
+SOOR122285NEMIS	Sodium Citrate  Oral powder  4 gram sachet
+KYIN125611NEMIS	Kyleena  Intra-uterine device  19.5 mg
+LETA2367NEMIS	Levonelle-2  Tablets  750 micrograms
+QUTA2425	Quinine Sulfate  Tablets  300 mg
+ACTA33901EMIS	Aciclovir  Tablets  800 mg
+DEIN14413NEMIS	Depo-Provera  Injection  150 mg/ml, 1 ml vial
+TAM/22050NEMIS	Tabphyn Mr  M/R capsules  400 micrograms
+SIOR22599NEMIS	Sildenafil Citrate  Oral suspension  25 mg/5 ml
+NYPE5220	Nystatin  Pessaries  100,000 units
+GEPE4955	Gemeprost  Pessaries  1 mg
+NYPE2052	Nystan  Pessaries  100000 units
+OXIN9792HILLI	Oxytocin  Injection  5 units/1 ml ampoule
+CITA78294NEMIS	Cimizt  Tablets  30 micrograms + 150 micrograms
+TACA29017NEMIS	Tamiflu  Capsules  45 mg
+NOTA4046	Norgeston  Tablets  30 micrograms
+LETA15027NEMIS	Levitra  Tablets  20 mg
+GAM/42103NEMIS	Galebon  M/R capsules  400 micrograms
+MYVA96624NEMIS	Mysodelle  Vaginal Delivery System  200 micrograms (7 micrograms/hour)
+OXTA36369MGEMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg (Sandoz)
+DICA8335EGTON	Diflucan  Capsules  150 mg
+CRIN771	Crystapen  Injection  600 mg/vial
+ACVA9080HILLI	Acetic Acid  Vaginal gel  0.94 %
+MIVA96622NEMIS	Misoprostol  Vaginal Delivery System  7 micrograms/hour
+AMMI8650HILLI	Ammonium Chloride  Mixture  10%, BP Sugar Free
+FLCA8419EGTON	Fluconazole  Capsules  150 mg
+VIPO116249NEMIS	Viridal Duo Starter Pack  Powder and solvent for solution for injection  20 microgram cartridge with device
+ETTA38333MGEMIS	Ethinylestradiol And Norethisterone  Tablets  35 micrograms + 500 micrograms (Janssen-Cilag)
+ALIN35354EMIS	Alprostadil  Powder and solvent for solution for injection  40 microgram cartridge
+ETPA18984NEMIS	Ethinylestradiol And Norelgestromin  Patches  33.9 micrograms/24 hours + 203 micrograms/24 hours
+OXTA36382MGEMIS	Oxybutynin Hydrochloride  Tablets  5 mg (Sterwin Medicines)
+PRTA85946NEMIS	Priligy  Tablets  60 mg
+PRVA4229	Prostin E2  Vaginal gel  1 mg/2.5 ml (400 micrograms/ml)
+MICO5167	Miconazole Nitrate  Combipack  100 mg + 2 %
+DOCA4868	Doxycycline  Capsules  100 mg
+ACTA45	Aciclovir  Tablets  200 mg
+DETA78235NEMIS	Desorex  Tablets  75 micrograms
+MITA1828	Microgynon 30  Tablets  
+POEF18960NEMIS	Potassium Citrate And Citric Acid  Effervescent Tablets Sugar Free  1.5 grams + 250 mg
+ERSU4895	Erythromycin  Suspension  250 mg/5 ml
+CAVA3276	Canesten 1  Pessary  500 mg
+TAM/130755NEMIS	Tamsumac  M/R capsules  400 micrograms
+LETA21326NEMIS	Levonelle 1500  Tablets  
+MUTA90985NEMIS	Munalea  Tablets  150 micrograms + 30 micrograms
+VIIN35348EMIS	Viridal Duo Continuation Pack  Powder and solvent for solution for injection  40 microgram cartridge
+INTA10625BRIDL	Indoramin  Tablets  20 mg
+MEPR29408EMIS	Medroxyprogesterone Acetate  Prefilled syringe  150 mg/1 ml
+MAM/76918NEMIS	Mariosea Xl  M/R capsules  4 mg
+EMTA105338NEMIS	Emerres Una  Tablets  1.5 mg
+OXEL23587EMIS	Oxybutynin Hydrochloride  Oral solution  2.5 mg/5 ml
+ETTA38335MGEMIS	Ethinylestradiol And Norethisterone  Tablets  35 micrograms + 1 mg (Janssen-Cilag)
+ATIN4744NEMIS	Atosiban Acetate  Injection  7.5 mg/ml, 0.9 ml vial
+MITA30523EMIS	Microgynon 30 Ed  Tablets  
+VICR90272NEMIS	Vitaros  Cream  3 mg/gram
+AUDI9042BRIDL	Augmentin  Dispersible tablets  
+DUGA18738NEMIS	Duloxetine  Gastro-resistant Capsules  40 mg
+FOCU124610NEMIS	Fortacin  Cutaneous Spray  7.5 mg/actuation + 2.5 mg/actuation
+OXTA36375MGEMIS	Oxybutynin Hydrochloride  Tablets  5 mg (Alpharma)
+NESU46640NEMIS	Nexplanon  Subdermal implant  68 mg
+ESPE17787NEMIS	Estriol  Pessaries  500 micrograms
+CAVA16119NEMIS	Candiden  Vaginal tablets  500 mg
+FETA1536NEMIS	Femodette  Tablets  
+MIPE5170	Miconazole Nitrate  Pessaries  100 mg
+COM/23880NEMIS	Contiflo Xl  M/R capsules  400 micrograms
+POPO132091NEMIS	Potassium Citrate  Granule Sachets Sugar Free  3 grams
+LETA5077	Levonorgestrel  Tablets  30 micrograms
+MYTA4004	Myotonine Chloride  Tablets  25 mg
+FLCA8420EGTON	Fluconazole  Capsules  50 mg
+OMM/138592NEMIS	Omsula  M/R capsules  400 micrograms
+ECCR8934DAVID	Econazole 1% +150Mg  Cream+ pessary  
+ALIN29876EMIS	Alprostadil  Injection  5 micrograms/vial
+TRIN4747NEMIS	Tractocile  Injection  7.5 mg/ml, 0.9 ml vial
+FLTA39291NEMIS	Flotros  Tablets  20 mg
+OXOR101985NEMIS	Oxybutynin Hydrochloride  Oral Solution, Sugar Free  2.5 mg/5 ml
+LITA81509NEMIS	Lizinna  Tablets  250 micrograms + 35 micrograms
+TOTA32249EMIS	Tolterodine Tartrate  Tablets  1 mg
+ALTA96307NEMIS	Alenini  Tablets  150 micrograms + 20 micrograms
+MEVA31706EMIS	Metronidazole  Vaginal gel  0.75 %
+PHSY5272	Phenoxymethylpenicillin  Syrup  250 mg/5 ml
+GYCO3675	Gyno-Daktarin  Combipack  
+NYSU5221	Nystatin  Oral suspension  100,000 units/ml
+NOFO8293	Nonoxinol "9"  Foam with applicator  12.5 %
+COSU27890EMIS	Co-Amoxiclav 400/57  Sugar-free oral suspension  400 mg/5 ml + 57 mg/5 ml
+YUTA4537	Yutopar  Tablets  10 mg
+MIIN23326EMIS	Miconazole Nitrate  Intravaginal cream  2 %
+DIVA9420HILLI	Dinoprostone  Vaginal gel  2 mg/2.5 ml (800 micrograms/ml)
+NEM/78081NEMIS	Neditol Xl  M/R capsules  4 mg
+SCTAEGTON7752	Schering Pc4  Tablets  
+CESU522	Cephalexin  Suspension  250 mg/5 ml
+CITA14833NEMIS	Cialis  Tablets  20 mg
+TOM/134856NEMIS	Tolthen Xl  M/R capsules  4 mg
+PHSO105021NEMIS	Phentolamine And Aviptadil  Solution for injection  2 mg/0.35 ml + 25 micrograms/0.35 ml ampoule
+TOM/135610NEMIS	Tolterma Xl  M/R capsules  4 mg
+AMCA123	Amoxil  Capsules  250 mg
+PRTA11937NEMIS	Prowess Plain  Tablets  5 mg
+ESVA25833EMIS	Estring  Vaginal ring  7.5 micrograms/24 hrs (2 mg ring)
+NETA4016	Neogest  Tablets  
+ELTA48174NEMIS	Elevin  Tablets  30 micrograms + 150 micrograms
+PRTA34040EMIS	Propiverine Hydrochloride  Tablets  15 mg
+LOTA9092BRIDL	Logynon Ed  Tablets  
+CODI10292BRIDL	Co-Amoxiclav  Dispersible tablets  
+CHCA2891NEMIS	Chlorhexidine  Catheter maintenance solution  0.02 %
+SITA34208EMIS	Sildenafil Citrate  Tablets  25 mg
+CISU32104EMIS	Ciprofloxacin  Suspension  250 mg/5 ml
+CITA34452NEMIS	Cialis  Tablets  5 mg
+OXOR77606NEMIS	Oxybutynin Hydrochloride  Oral suspension  2.5 mg/5 ml
+TRTA19715EMIS	Tri-Minulet  Tablets  
+DIM/4781NEMIS	Ditropan Xl  M/R tablets  10 mg
+META18974NEMIS	Mestranol And Norethisterone  Tablets  50 micrograms + 1 mg
+AMOR10254BRIDL	Amoxycillin  Oral suspension  250 mg/5 ml
+ERTA90886NEMIS	Erlibelle  Tablets  30 micrograms + 150 micrograms
+META1733	Mebendazole  Tablets  Sugar Free 100 mg
+ALUR32596EMIS	Alprostadil  Urethral Application  1 mg
+DUGA18736NEMIS	Duloxetine  Gastro-resistant Capsules  20 mg
+AMOR17515NEMIS	Amoxicillin  Oral suspension  125 mg/5 ml
+NITA2000	Nitrofurantoin  Tablets  100 mg
+FEM/30092NEMIS	Fesoterodine Fumarate  M/R tablets  8 mg
+AMCA124	Amoxil  Capsules  500 mg
+VATA15020NEMIS	Vardenafil  Tablets  5 mg
+CLIN51823NEMIS	Clotrimazole  Internal And External Cream  10 % + 2 %
+ERSU25268EMIS	Erythromycin Ethyl Succinate  Suspension  500 mg/5 ml
+CLM/30085EMIS	Clarithromycin  M/R tablets  500 mg
+OXTA36374MGEMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg (Genus Pharm)
+NOSO4057	Noxyflex S  Solution  2.5 g/vial
+MITA98579NEMIS	Mifepristone And Misoprostol  Tablets And Vaginal Tablets  200 mg + 200 micrograms
+PHSY5271	Phenoxymethylpenicillin  Syrup  125 mg/5 ml
+MATA1723	Marvelon  Tablets  
+ININ32904EMIS	Invicorp 1  Injection  
+AMPA17517NEMIS	Amoxicillin  Paediatric oral suspension  125 mg/1.25 ml
+CYTA19598EMIS	Cystrin  Tablets  3 mg
+OSCA14664NEMIS	Oseltamivir  Capsules  75 mg
+OXTA5241	Oxytetracycline Dihydrate  Tablets  250 mg
+CLVA677	Clotrimazole  Pessary  500 mg
+ZADR1031NEMIS	Zanamivir  Dry powder for inhalation  5 mg per dose
+ESVA17774NEMIS	Estradiol  Vaginal ring  7.5 micrograms/24 hours (2 mg ring)
+OXTA36368MGEMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg (Ivax Pharmaceuticals)
+DEM/11679NEMIS	Detrusitol Xl  M/R capsules  4 mg
+YUIN4536	Yutopar  Injection  10mg/ml, 5 ml ampoule
+ETTA18979NEMIS	Ethinylestradiol And Gestodene  Tablets  20 micrograms + 75 micrograms
+LYM/15358NEMIS	Lyrinel Xl  M/R tablets  5 mg
+TOM/134854NEMIS	Tolthen Xl  M/R capsules  2 mg
+PHPA5269	Phenoxymethylpenicillin  Paediatric syrup  125 mg/5 ml
+LOTA1683	Loestrin 20  Tablets  
+META140085NEMIS	NULL
+ALUR32597EMIS	Alprostadil  Urethral Application  125 micrograms
+DETA13843NEMIS	Desogestrel  Tablets  75 micrograms
+CEM/22447EMIS	Cefaclor  M/R tablets  375 mg
+GYPE3684	Gyno-Pevaryl  Pessaries  150 mg
+ZOTA79462NEMIS	Zoely  Tablets  2.5 mg + 1.5 mg
+RIIN5365	Ritodrine Hydrochloride  Injection  10mg/ml, 5 ml ampoule
+CODI29221EMIS	Co-Amoxiclav 250/125  Dispersible tablets  Sugar Free
+FEM/30090NEMIS	Fesoterodine Fumarate  M/R tablets  4 mg
+SYTA138333NEMIS	Synphase Calendar Pack (Imported Germany)  Tablets  
+ERP.19609EMIS	Erythroped  P.i. sugar-free suspension  125 mg/5 ml
+SOTA18745NEMIS	Solifenacin  Tablets  5 mg
+DIVA9498EMIS	Dinoprostone  Vaginal tablets  3 mg
+COCR722	Conjugated Oestrogens  Cream  625 micrograms/gram
+BEPE3237	Betadine  Pessaries  200 mg
+LETA138940NEMIS	Levonorgestrel (Imported)  Tablets  30 micrograms
+DETA32245EMIS	Detrusitol  Tablets  1 mg
+OXTA36370MGEMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg (Unichem)
+ETTA138339NEMIS	Ethinylestradiol And Norethisterone (Imported)  Tablets  35 micrograms + 500 micrograms
+GETA44818NEMIS	Gedarel 30/150  Tablets  
+POVA11833NEMIS	Povidone-Iodine  Vaginal gel  10 %
+ZIVA31704EMIS	Zidoval  Vaginal gel  0.75 %
+YATA104161NEMIS	Yacella  Tablets  30 micrograms + 3 mg
+SOOR46852NEMIS	Solifenacin  Oral solution  10 mg/5 ml
+OVTA2128	Ovysmen  Tablets  
+RIBL4289	Rimso-50  Bladder instillation  50 %
+NOGE29050NEMIS	Nonoxinol "9"  Gel  2 %
+LETA15025NEMIS	Levitra  Tablets  5 mg
+SYTA8812BRIDL	Synphase Calendar Pack  Tablets  
+AMOR17516NEMIS	Amoxicillin  Oral suspension  250 mg/5 ml
+NOTA18986NEMIS	Norgestrel  Tablets  75 micrograms
+PAIN22039NEMIS	Papaverine Hydrochloride  Injection  30 mg/ml, 1 ml vial
+TOM/79112NEMIS	Tolterodine Tartrate  M/R capsules  2 mg
+VEOR128015NEMIS	Vesicare  Oral suspension  1 mg/ml
+OXTA36345MGEMIS	Oxybutynin Hydrochloride  Tablets  3 mg (A.A.H. Pharm)
+NIM/21970EMIS	Nitrofurantoin  M/R capsules  100 mg
+MUUR32590EMIS	Muse  Urethral Application  250 micrograms
+DIVA4850	Dinoprostone  Vaginal gel  1 mg/2.5 ml (400 micrograms/ml)
+MITA3924	Microval  Tablets  30 micrograms
+NYVA2067	Nystatin  Vaginal cream  100000 units/4 g
+OXM/4777NEMIS	Oxybutynin Hydrochloride  M/R tablets  10 mg
+ACTA7123	Aciclovir  Tablets  400 mg
+KATA26225NEMIS	Katya 30/75  Tablets  
+ESPE46850NEMIS	Estradiol  Pessaries  10 micrograms
+CASO127100NEMIS	Carbetocin  Solution for injection  100 micrograms/1 ml vial
+LETA40465NEMIS	Levest 150/30  Tablets  
+FAM/52805NEMIS	Faramsil  M/R tablets  400 micrograms
+SPTA89252NEMIS	Spedra  Tablets  200 mg
+BEM/78531NEMIS	Betmiga  M/R tablets  50 mg
+TACA14668NEMIS	Tamiflu  Capsules  75 mg
+AMSY6770	Amoxycillin  Syrup sf  250 mg/5 ml
+APSU10809NEMIS	Apomorphine Hydrochloride  Sublingual tablets  3 mg
+MUUR32591EMIS	Muse  Urethral Application  500 micrograms
+NOTA2029	Noriday  Tablets  350 micrograms
+TETA18916EMIS	Terbinafine Hydrochloride  Tablets  250 mg
+SOTA105358NEMIS	Sofiperla  Tablets  75 micrograms + 30 micrograms
+OXTA36379MGEMIS	Oxybutynin Hydrochloride  Tablets  5 mg (Unichem)
+NOCR7026	Nonoxinol "9"  Cream  2 %
+NICH81694NEMIS	Nipatra  Chewable tablets  100 mg
+PHTA5274	Phenoxymethylpenicillin  Tablets  250 mg
+DUCA137314NEMIS	Dutrozen  Capsules  500 micrograms + 400 micrograms
+STM/22072NEMIS	Stronazon  M/R capsules  400 micrograms
+DACR23808EMIS	Dalacin  Cream  2 %
+POMI36609MGEMIS	Potassium Citrate  Mixture  1.5g/5 ml (A.A.H. Pharm)
+NOTA4047	Norinyl-1  Tablets  
+CACR471	Canesten  Vaginal cream  10 %
+BOPE105397NEMIS	Boric Acid  Pessaries  600 mg
+CAIN10922BRIDL	Carboprost  Injection  250 micrograms/ml, 1 ml ampoule
+FLCA23100NEMIS	Fluconazole And Clotrimazole  Capsule And Cream  150 mg + 2 %
+PAM/44715NEMIS	Pamsvax Xl  M/R capsules  400 micrograms
+ERTA3528	Ergometrine  Tablets  500 micrograms
+INTA35550MGEMIS	Indoramin  Tablets  20 mg (A.A.H. Pharm)
+SIOR46796NEMIS	Sildenafil Citrate  Oral solution  25 mg/5 ml
+RETA5325NEMIS	Regurin  Tablets  20 mg
+TAM/21090NEMIS	Tamsulosin Hydrochloride  M/R tablets  400 micrograms
+LEIN89218NEMIS	Levonorgestrel  Intra-uterine device  13.5 mg
+ABPE11599NEMIS	Abtrim  Pessary  500 mg
+NICH81685NEMIS	Nipatra  Chewable tablets  25 mg
+VEM/86926NEMIS	Vesomni  M/R tablets  6 mg + 400 micrograms
+ZISY18023EMIS	Zidovudine  Oral Solution, Sugar Free  10 mg/1 ml
+GYPE18926NEMIS	Gyno-Pevaryl 1 Combipack  Pessary and cream  150 mg + 1 %
+TRTA2938	Trimethoprim  Tablets  100 mg
+SOTA18747NEMIS	Solifenacin  Tablets  10 mg
+MITA8869EGTON	Minulet  Tablets  
+TOTA32250EMIS	Tolterodine Tartrate  Tablets  2 mg
+TRTA4458	Trinovum  Tablets  
+JUTA105354NEMIS	Juliperla  Tablets  75 micrograms + 20 micrograms
+AVTA89245NEMIS	Avanafil  Tablets  50 mg
+MIM/19546EMIS	Minocycline  M/R capsules  100 mg
+GYPE3678	Gyno-Daktarin  Pessaries  100 mg
+ERTA3541	Erythromycin  Tablets  500 mg
+VAVA137978NEMIS	Vagirux  Vaginal tablets  10 micrograms
+NOIN17875NEMIS	Norethisterone Enantate  Solution for injection  200 mg/1 ml ampoule
+ESPE133296NEMIS	Estriol  Pessaries  30 micrograms
+AUSU19802EMIS	Augmentin 125/31 Sf  Sugar free suspension  125 mg/5 ml + 31 mg/5 ml
+MIM/78528NEMIS	Mirabegron  M/R tablets  50 mg
+CEOR17571NEMIS	Cefalexin  Oral suspension  125 mg/5 ml
+SOOR48811NEMIS	Sodium Citrate  Oral solution  1.5 grams/5 ml
+AZCA1005EMIS	Azithromycin  Capsules  250 mg
+MECO98582NEMIS	Medabon  Combipack Tablets  
+COCA42826NEMIS	Combodart  Capsules  500 micrograms + 400 micrograms
+JAIN89220NEMIS	Jaydess  Intra-uterine device  13.5 mg
+FEVA47240NEMIS	Fenticonazole Nitrate  Vaginal Capsules  600 mg
+EMTA104155NEMIS	Emerres  Tablets  1.5 mg
+LYM/15359NEMIS	Lyrinel Xl  M/R tablets  10 mg
+BEIN6858	Benzylpenicillin Sodium  Injection  600 mg/vial
+CETA13845NEMIS	Cerazette  Tablets  75 micrograms
+DRTA96300NEMIS	Dretine  Tablets  30 micrograms + 3 mg
+ALUR32598EMIS	Alprostadil  Urethral Application  250 micrograms
+AVTA89248NEMIS	Avanafil  Tablets  200 mg
+ACTA89976NEMIS	Acondro  Tablets  30 micrograms + 3 mg
+DIIN9495EMIS	Dinoprostone  Solution for infusion  1 mg/ml, 0.75 ml ampoule
+FETAEGTON7749	Femodene  Tablets  
+TOM/135609NEMIS	Tolterma Xl  M/R capsules  2 mg
+ELTA122199NEMIS	Ellanite  Tablets  30 micrograms + 3 mg
+PEEL9625BRIDL	Penicillin V  Elixir  125 mg/5 ml
+CITA108993NEMIS	Cilique  Tablets  250 micrograms + 35 micrograms
+ERTA35006MGEMIS	Ergometrine  Tablets  500 micrograms (Ucb Pharma)
+ISTA96621NEMIS	Isteranda  Tablets  1.5 mg
+TAM/45094NEMIS	Tamurex  M/R capsules  400 micrograms
+LEOR48414NEMIS	Levitra  Orodispersible tablets  10 mg
+MITA9193EMIS	Mifegyne  Tablets  200 mg
+OSTA127280NEMIS	Ospemifene  Tablets  60 mg
+UPTA85487NEMIS	Upostelle  Tablets  1.5 mg
+LETA122062NEMIS	Leandra  Tablet  30 micrograms + 150 micrograms
+MIOV5169	Miconazole Nitrate  Vaginal Capsules  1200 mg
+AKTA135983NEMIS	Akizza  Tablets  30 micrograms + 75 micrograms
+ALIN24410EMIS	Alprostadil  Injection  20 micrograms/vial
+YITA117106NEMIS	Yiznell  Tablets  30 micrograms + 3 mg
+CAIN28236EMIS	Caverject  Injection  10 micrograms/vial
+TAPE4385	Tampovagan Stilboestrol & Lactic Acid  Pessaries  
+DUGA131624NEMIS	Dutor  Gastro-resistant Capsules  20 mg
+GYGE29052NEMIS	Gygel  Gel  2 %
+OXTA36367MGEMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg (Alpharma)
+DUCA42824NEMIS	Dutasteride And Tamsulosin  Capsules  500 micrograms + 400 micrograms
+MOM/23711NEMIS	Morvesin Xl  M/R capsules  400 micrograms
+MEVA11087NEMIS	Menoring 50  Vaginal ring  50 micrograms/24 hours
+OXTA36347MGEMIS	Oxybutynin Hydrochloride  Tablets  3 mg (Unichem)
+FLOR23506EMIS	Flucloxacillin  Oral suspension  250 mg/5 ml
+ERTA35005MGEMIS	Ergometrine  Tablets  500 micrograms (Unichem)
+PRM/22791NEMIS	Propiverine Hydrochloride  M/R capsules  30 mg
+SYIN10228BRIDL	Syntometrine  Injection  1 ml ampoule
+QUTA4249	Quinine Sulfate  Tablets  200 mg
+ETTA138338NEMIS	Ethinylestradiol And Norethisterone (Imported)  Tablets  35 micrograms + 1 mg
+TRCO4749NEMIS	Tractocile  Concentrate for intravenous infusion  7.5 mg/ml, 5 ml vial
+OXM/4776NEMIS	Oxybutynin Hydrochloride  M/R tablets  5 mg
+COM/47606NEMIS	Cositam Xl  M/R tablets  400 micrograms
+GYPE10607BRIDL	Gyno-Pevaryl Once  Pessary  150 mg
+FETA90956NEMIS	Feanolla  Tablets  75 micrograms
+TRMI4450	Trimethoprim  Mixture  Sugar Free 50 mg/5 ml
+MAM/105719NEMIS	Mariosea Xl  M/R capsules  2 mg
+NOPE35531EMIS	Nonoxinol "9"  Pessaries  5 %
+AITA90953NEMIS	Aidulan  Tablets  20 micrograms + 75 micrograms
+LETA19059NEMIS	Levonelle One Step  Tablets  1.5 mg
+BRTA400	Brevinor  Tablets  
+COSY10812BRIDL	Co-Fluampicil 125/125  Oral suspension  
+UPSU10811NEMIS	Uprima  Sublingual tablets  2 mg
+ETTA18967NEMIS	Ethinylestradiol And Norethisterone Acetate  Tablets  30 micrograms + 1.5 mg
+ERSU28989EMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  500 mg/5 ml
+MITA9195EMIS	Mifepristone  Tablets  200 mg
+EZTA117651NEMIS	Ezinelle  Tablets  1.5 mg
+CAVA476	Canesten  Pessary  500 mg
+DEM/22793NEMIS	Detrunorm Xl  M/R capsules  30 mg
+ATSO135719NEMIS	Atosiban Acetate  Solution for injection  6.75 mg/0.9 ml pre-filled syringe
+CACA17258NEMIS	Canesten Oral And Cream Duo  Capsules And Cream  150 mg + 2 %
+CAVA475	Canesten  Pessaries  100 mg
+VETA18749NEMIS	Vesicare  Tablets  5 mg
+VIPO116248NEMIS	Viridal Duo Starter Pack  Powder and solvent for solution for injection  10 microgram cartridge with device
+OXIN9790HILLI	Oxytocin  Injection  10 units/1 ml ampoule
+CLPA770NEMIS	Clarithromycin  Paediatric suspension  250 mg/5 ml
+MAM/34933NEMIS	Maxtron  M/R capsules  400 micrograms
+SUCR2735	Sultrin  Cream  
+EUTA1121	Eugynon 30  Tablets  
+ALIN4570	Alprostadil  Solution for infusion  500 micrograms/ml, 1 ml ampoule
+RITA78458NEMIS	Rifaximin  Tablets  550 mg
+MATA90958NEMIS	Maexeni  Tablets  150 micrograms + 30 micrograms
+ERSU1108	Erythroped  Suspension forte  Sugar Free 500 mg/5 ml
+EFTA5937	Effercitrate  Tablets  
+ERSU25265EMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  250 mg/5 ml
+VITA86723NEMIS	Vizarsin  Tablets  50 mg
+TATA125228NEMIS	Talmanco  Tablets  20 mg
+MOTA130415NEMIS	Moonia  Tablets  75 micrograms
+VIPO116250NEMIS	Viridal Duo Starter Pack  Powder and solvent for solution for injection  40 microgram cartridge with device
+KLM/30083EMIS	Klaricid Xl  M/R tablets  500 mg
+NICA5208	Nitrofurantoin  Capsules  100 mg
+TAOR89766NEMIS	Tamsulosin Hydrochloride  Oral solution  400 micrograms/5 ml
+PEM/44777NEMIS	Petyme  M/R capsules  400 micrograms
+ERCA4890	Erythromycin  Capsules (Gastro-Resistant)  250 mg
+OXTA36380MGEMIS	Oxybutynin Hydrochloride  Tablets  5 mg (Sandoz)
+FLM/78593NEMIS	Flectone Xl  M/R tablets  400 micrograms
+ETTA18962NEMIS	Ethinylestradiol And Levonorgestrel  Tablets  30 micrograms + 250 micrograms
+AMOR17519NEMIS	Amoxicillin  Oral Suspension Sugar Free  125 mg/5 ml
+YEGA18740NEMIS	Yentreve  Gastro-resistant Capsules  20 mg
+ETTA18956NEMIS	Ethinylestradiol And Norethisterone  Tablets  35 micrograms + 500 micrograms
+PAIN1588NEMIS	Palivizumab  Powder and solvent for solution for injection  50 mg vial
+HYST30079EMIS	Hytrin Bph  Starter pack  7 x 1 mg, 14 x 2 mg, 7 x 5 mg
+VITA34202EMIS	Viagra  Tablets  25 mg
+CLPE34430MGEMIS	Clotrimazole  Pessary  500 mg (Teva UK)
+POMI4191	Potassium Citrate  Mixture  1.5g/5 ml
+ALIN28238EMIS	Alprostadil  Injection  10 micrograms/vial
+SAM/76697NEMIS	Santizor Xl  M/R capsules  4 mg
+DIEL23585EMIS	Ditropan  Elixir  2.5 mg/5 ml
+OXTA9033EMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg
+ACJE8728BRIDL	Aci-Jel  Vaginal gel  0.94 %
+XAM/27733EMIS	Xatral Sr  M/R tablets  5 mg
+MIM/78526NEMIS	Mirabegron  M/R tablets  25 mg
+SPTA89250NEMIS	Spedra  Tablets  50 mg
+COSU19815EMIS	Co-Amoxiclav 250/62  Sugar free suspension  250 mg/5 ml + 62 mg/5 ml
+ERTA10453BRIDL	Erythromycin Ethyl Succinate  Tablets  500 mg
+SIOR39477NEMIS	Sildenafil Citrate  Oral suspension  10 mg/5 ml
+IMPE133298NEMIS	Imvaggis  Pessaries  30 micrograms
+URTA22561EMIS	Urispas  Tablets  200 mg
+ALTA90873NEMIS	Alenvona  Tablets  150 micrograms + 30 micrograms
+OXTA36366MGEMIS	Oxybutynin Hydrochloride  Tablets  2.5 mg (Sterwin Medicines)
+RICO44864NEMIS	Rigevidon  Tablets  
+AVTA89247NEMIS	Avanafil  Tablets  100 mg
+MUUR32588EMIS	Muse  Urethral Application  1 mg
+ETVA124947NEMIS	Ethinylestradiol And Etonogestrel  Vaginal Delivery System  2.7 mg + 11.7 mg
+CLPE34431MGEMIS	Clotrimazole  Pessary  500 mg (A.A.H. Pharm)
+FATA29636EMIS	Famciclovir  Tablets  750 mg
+ACSU44	Aciclovir  Suspension  200 mg/5 ml
+ESIN17785NEMIS	Estriol  Intravaginal cream  0.1 %
+INM/78952NEMIS	Inconex Xl  M/R capsules  4 mg
+CESU4687	Cefaclor  Suspension  125 mg/5 ml
+MATA31731EMIS	Malarone  Tablets  100 mg + 250 mg
+LETA2365NEMIS	Levonorgestrel  Tablets  750 micrograms
+OVTA2127	Ovranette  Tablets  
+ACSU9008DLSEM	Aciclovir  Sugar free suspension  200 mg/5 ml
+ALIN35353EMIS	Alprostadil  Powder and solvent for solution for injection  20 microgram cartridge
+ALUR32599EMIS	Alprostadil  Urethral Application  500 micrograms
+ETTA17654NEMIS	Etynodiol  Tablets  500 micrograms
+PIM/45006NEMIS	Pinexel Pr  M/R capsules  400 micrograms
+SYIN4373	Syntocinon  Injection  5 units/1 ml ampoule
+SOOR46853NEMIS	Solifenacin  Oral suspension  10 mg/5 ml
+NUOR122287NEMIS	Numark Cystitis Treatment  Oral powder  4 gram sachet
+CASO22336NEMIS	Carbetocin  Solution for injection  100 micrograms/ml, 1 ml ampoule
+NITA2001	Nitrofurantoin  Tablets  50 mg
+CAPE4737NEMIS	Canesten Combi  Cream and Pessary  2 % + 500 mg
+ECPE3491	Ecostatin  Pessaries  150 mg
+DUGE5562	Duragel  Gel  2 %
+FLM/28657EMIS	Flomax Mr  M/R capsules  400 micrograms
+CLPE34432MGEMIS	Clotrimazole  Pessary  500 mg (Unichem)
+UTTA10364BRIDL	Utinor  Tablets  400 mg
+LOCA48475NEMIS	Losinate Mr  M/R capsules  400 micrograms
+ULTA38939NEMIS	Ulipristal Acetate  Tablets  30 mg
+AMPA129	Amoxil  Paediatric suspension  125 mg/1.25 ml
+TOM/30095NEMIS	Toviaz  M/R tablets  8 mg
+OVCR2125	Ovestin  Cream  0.1 %
+OXTA36376MGEMIS	Oxybutynin Hydrochloride  Tablets  5 mg (A.A.H. Pharm)
+TROR41119NEMIS	Tricitrates  Oral solution  
+TATA34449NEMIS	Tadalafil  Tablets  2.5 mg
+SOM/86924NEMIS	Solifenacin And Tamsulosin  M/R tablets  6 mg + 400 micrograms
+CLTA26172EMIS	Clarithromycin  Tablets  500 mg
+ININ6330NEMIS	Indocid Pda  Injection  1 mg/vial
+ETTA138282NEMIS	Ethinylestradiol And Drospirenone (Imported)  Tablets  20 micrograms + 3 mg
+CASA16998NEMIS	Canesten Oasis  Sachets  
+CAIN31971EMIS	Caverject  Injection  5 micrograms/vial
+SETA127283NEMIS	Senshio  Tablets  60 mg
+GYCR40305NEMIS	Gynest  Cream with applicator  0.01 %
+ORPE4097	Ortho-Gynest  Pessaries  500 micrograms
+ESTA79458NEMIS	Estradiol And Nomegestrol  Tablets  1.5 mg + 2.5 mg
+OVTA2126	Ovran  Tablets  
+PRIN4227	Prostin E2  Solution for infusion  1 mg/ml, 0.75 ml ampoule
+SYIN4372	Syntocinon  Injection  10 units/1 ml ampoule
+ROCA5952	Rowatinex  Capsules  
+ORCREGTON7160	Ortho-Creme  Cream  2 %
+OMM/15790NEMIS	Omnic Mr  M/R capsules  400 micrograms
+ETTA104779NEMIS	Ethinylestradiol And Drospirenone  Tablets  20 micrograms + 3 mg
+GYVA47244NEMIS	Gynoxin  Vaginal Capsules  200 mg
+ERCA3531	Erymax  Capsules (Gastro-Resistant)  250 mg
+ELTA104781NEMIS	Eloine  Tablets  20 micrograms + 3 mg
+META9719BRIDL	Mercilon  Tablets  
+AKTA135982NEMIS	Akizza  Tablets  20 micrograms + 75 micrograms
+COIN15774NEMIS	Colomycin  Injection  2 million units/vial
+SUTA26223NEMIS	Sunya 20/75  Tablets  
+OXTA8594BRID	Ditropan  Tablets  5 mg
+CEOR17572NEMIS	Cefalexin  Oral suspension  250 mg/5 ml
+CITA9210EMIS	Cilest  Tablets  
+SICH81633NEMIS	Sildenafil Citrate  Chewable Tablets Sugar Free  50 mg
+URCA23165EMIS	Uro-Tainer Mandelic Acid  Catheter patency solution  1 %
+CACR5227NEMIS	Canesten Thrush  Cream  2 %
+DEM/95165NEMIS	Detrunorm Xl  M/R capsules  45 mg
+MACA1709	Magnapen  Capsules  
+DEPR29122EMIS	Depo-Provera  Prefilled syringe  150 mg/1 ml
+NYPE36289MGEMIS	Nystatin  Pessaries  100,000 units (Sanofi-Aventis)
+REDI1033NEMIS	Relenza  Diskhaler  5 mg per dose
+MITA3923	Micronor  Tablets  350 micrograms
+DOTA9429BRIDL	Doralese  Tablets  20 mg
+ALTA24002EMIS	Alfuzosin Hydrochloride  Tablets  2.5 mg
+DEFOEGTON8294	Delfen  Foam with applicator  12.5 %
+PRVA9500EMIS	Prostin E2  Vaginal gel  2 mg/2.5 ml (800 micrograms/ml)
+ALCR90270NEMIS	Alprostadil  Cream  3 mg/gram
+SIOR94968NEMIS	Sildenafil Citrate  Oral suspension  12.5 mg/5 ml
+CECA530	Ceporex  Capsules  500 mg
+URCA23176EMIS	Uriflex C  Catheter patency solution  0.02 %
+TAM/28659EMIS	Tamsulosin Hydrochloride  M/R capsules  400 micrograms
+DITA10944BRIDL	Ditropan  Tablets  2.5 mg
+VIIN32457EMIS	Viridal Duo Continuation Pack  Powder and solvent for solution for injection  20 microgram cartridge
+ALIN34036EMIS	Alprostadil  Injection  40 micrograms/vial
+INTA35548MGEMIS	Indoramin  Tablets  20 mg (Kent Pharm)
+TOM/30094NEMIS	Toviaz  M/R tablets  4 mg
+DAM/23491NEMIS	Darifenacin  M/R tablets  15 mg
+RITA4278	Rifinah 150 mg/100 mg  Tablets  
+CESU521	Cephalexin  Suspension  125 mg/5 ml
+PEEL9627BRIDL	Penicillin V  Elixir  250 mg/5 ml
+CLPA22477EMIS	Clarithromycin  Paediatric suspension  125 mg/5 ml
+SPTA89251NEMIS	Spedra  Tablets  100 mg
+SYVA130634NEMIS	Syreniring  Vaginal Delivery System  
+ALPO116245NEMIS	Alprostadil  Powder and solvent for solution for injection  10 microgram cartridge with device
+DIPE26614EMIS	Dinoprostone  Pessary with retrieval system  10 mg
+LOTA1685	Logynon  Tablets  
+CITA34451NEMIS	Cialis  Tablets  2.5 mg
+TRPA5477	Trimethoprim  Paediatric suspension  Sugar Free 50 mg/5 ml
+ININ32907EMIS	Invicorp 2  Injection  
+OXTR20079NEMIS	Oxybutynin Hydrochloride  Transdermal patches  3.9 mg/24 hours
+EUTA1122	Eugynon 50  Tablets
+OXTA36383MGEMIS	Oxybutynin Hydrochloride  Tablets  5 mg (Genus Pharm)
+GETA44822NEMIS	Gedarel 20/150  Tablets  
+ERE/2023NEMIS	Erythromycin  E/c tablets  250 mg
+PRVA4230	Prostin E2  Vaginal tablets  3 mg
+PRIN4233	Prostin Vr  Concentrate For Solution For Infusion  500 micrograms/1 ml ampoule
+AMOR17520NEMIS	Amoxicillin  Oral Suspension Sugar Free  250 mg/5 ml
+PHOR31250EMIS	Phenoxymethylpenicillin  Oral solution  125 mg/5 ml
+FLCA9227BRIDL	Fluclomix  Capsules  500 mg
+DETA34038EMIS	Detrunorm  Tablets  15 mg
+FEVA47242NEMIS	Fenticonazole Nitrate  Vaginal cream  2 %
+DISU942	Distaclor  Suspension  250 mg/5 ml
+CLVA19799EMIS	Clotrimazole  Pessaries  200 mg
+AITA78226NEMIS	Aizea  Tablets  75 micrograms
+CYLI79452NEMIS	Cymaclear  Liquid  1.5 grams/5 ml
+LETA6285NEMIS	Levonelle  Tablets  750 micrograms
+MICO44831NEMIS	Millinette 30/75  Tablets  
+AUTA23530EMIS	Augmentin 625 Mg  Tablets
+ERTA35004MGEMIS	Ergometrine  Tablets  500 micrograms (A.A.H. Pharm)
+AMOR10252BRIDL	Amoxycillin  Oral suspension  125 mg/5 ml
+XAM/3799NEMIS	Xatral Xl  M/R tablets  10 mg
+VITA34201EMIS	Viagra  Tablets  100 mg
+GYVA47246NEMIS	Gynoxin  Vaginal cream  2 %
+PRPE26612EMIS	Propess  Pessary with retrieval system  10 mg
+ERSU9004DLSEM	Erythromycin  Sugar free suspension  125mg/5ml
+CLPE34429MGEMIS	Clotrimazole  Pessary  500 mg (Alpharma)
+BLM/78625NEMIS	Blerone Xl  M/R capsules  4 mg
+DETA81474NEMIS	Desomono  Tablets  75 micrograms
+DIM/39501NEMIS	Diffundox Xl  M/R capsules  400 micrograms
+CAVA8701BRID	Canesten  Pessaries  200 mg
+ETTA18958NEMIS	Ethinylestradiol And Norgestimate  Tablets  35 micrograms + 250 micrograms
+TRCO44812NEMIS	Triregol  Tablets  
+TOOR35192NEMIS	Tolterodine Tartrate  Oral suspension  2 mg/5 ml
+CETA78101NEMIS	Cerelle  Tablets  75 micrograms
+SICH81632NEMIS	Sildenafil Citrate  Chewable Tablets Sugar Free  25 mg
+OXOR46786NEMIS	Oxybutynin Hydrochloride  Oral suspension  5 mg/5 ml
+ZETA83195NEMIS	Zelleta  Tablets  75 micrograms
+AUTA23527EMIS	Augmentin 375 Mg  Tablets
+ERSU25264EMIS	Erythromycin Ethyl Succinate  Sugar-free suspension  125 mg/5 ml
+NYSU5217	Nystan  Oral suspension  100,000 units/ml
+OXTA36381MGEMIS	Oxybutynin Hydrochloride  Tablets  5 mg (Generics (UK))
+XACA24000EMIS	Xatral  Tablets  2.5 mg
+LICU124608NEMIS	Lidocaine And Prilocaine  Cutaneous Spray  7.5 mg/actuation + 2.5 mg/actuation
+SETA2547	Septrin  Tablets  480 mg
+SOGR134051NEMIS	Sodium Citrate  Oral Granules  4 gram sachet
+CESY535	Ceporex  Syrup  250 mg/5 ml
+PHOR31251EMIS	Phenoxymethylpenicillin  Oral solution  250 mg/5 ml
+DATA104930NEMIS	Daylette  Tablets  20 micrograms + 3 mg

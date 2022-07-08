@@ -1,0 +1,37 @@
+^ESCT1182170	Product containing only deflazacort 30 mg/1 each oral tablet
+^ESCT1182171	Product containing only deflazacort 1 mg/1 each oral tablet
+^ESCT1188190	Product containing only deflazacort 6 mg/1 each oral tablet
+^ESCT1224665	Product containing precisely deflazacort 6 milligram/1 each conventional release oral tablet
+^ESCT1224666	Product containing precisely deflazacort 30 milligram/1 each conventional release oral tablet
+^ESCT1224667	Product containing precisely deflazacort 1 milligram/1 each conventional release oral tablet
+^ESCTCA864052	Calcort 6mg tablets (Sanofi)
+^ESCTCA864054	Calcort 6mg tablets (Sanofi) 60 tablet 6 x 10 tablets
+^ESCTCA864971	Calcort 1mg tablets (Shire Pharmaceuticals Ltd)
+^ESCTCA864973	Calcort 1mg tablets (Shire Pharmaceuticals Ltd) 100 tablet 10 x 10 tablets
+^ESCTCA865904	Calcort 30mg tablets (Shire Pharmaceuticals Ltd)
+^ESCTCA865906	Calcort 30mg tablets (Shire Pharmaceuticals Ltd) 30 tablet 3 x 10 tablets
+^ESCTDE1147172	Deflazacort 22.75mg/1ml oral suspension 1 ml
+^ESCTDE1147174	Deflazacort 22.75mg/1ml oral suspension (Special Order)
+^ESCTDE1147175	Deflazacort 22.75mg/1ml oral suspension (Special Order) 1 ml
+^ESCTDE1147653	Deflazacort 22.75mg/1ml oral suspension
+^ESCTDE612613	Deflazacort 6mg tablets
+^ESCTDE612615	Deflazacort 6 mg oral tablet
+^ESCTDE612616	Deflazacort 30mg tablets
+^ESCTDE612618	Deflazacort 30 mg oral tablet
+^ESCTDE612619	Deflazacort 1mg tablets
+^ESCTDE612621	Deflazacort 1 mg oral tablet
+^ESCTDE864050	Deflazacort 6mg tablets 60 tablet
+^ESCTDE864970	Deflazacort 1mg tablets 100 tablet
+^ESCTDE865902	Deflazacort 30mg tablets 30 tablet
+^ESCTDE981746	Deflazacort 1mg tablets (Special Order)
+^ESCTDE981747	Deflazacort 1mg tablets 1 tablet
+^ESCTDE981748	Deflazacort 1mg tablets (Special Order) 1 tablet
+^ESCTPR612614	Product containing deflazacort 6 mg/1 each oral tablet
+^ESCTPR612617	Product containing deflazacort 30 mg/1 each oral tablet
+^ESCTPR612620	Product containing deflazacort 1 mg/1 each oral tablet
+CATA29922EMIS	Calcort  Tablets  6 mg
+CATA32098EMIS	Calcort  Tablets  30 mg
+CATA32198EMIS	Calcort  Tablets  1 mg
+DETA29924EMIS	Deflazacort  Tablets  6 mg
+DETA32100EMIS	Deflazacort  Tablets  30 mg
+DETA32200EMIS	Deflazacort  Tablets  1 mg
