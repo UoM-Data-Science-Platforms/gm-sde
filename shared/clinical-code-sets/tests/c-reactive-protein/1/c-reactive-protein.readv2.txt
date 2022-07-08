@@ -1,0 +1,2 @@
+44CC.00	Plasma C reactive protein
+44CS.00	Serum C reactive protein level
