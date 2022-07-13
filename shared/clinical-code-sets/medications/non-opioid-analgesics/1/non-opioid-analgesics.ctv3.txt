@@ -1,0 +1,115 @@
+bu2a.	Disprin CV 300mg m/r tablet
+bu2b.	Aspirin 300mg m/r tablet
+di1c.	Nu-Seals Aspirin 300mg e/c tablet
+di1f.	Aspirin 300mg e/c tablet
+di1k.	Caprin 300mg e/c tablet
+di1n.	Aspirin 300mg suppository
+di1o.	Aspirin 150mg suppository
+di21.	Paracetamol 500mg tablet
+di22.	Paracetamol 500mg soluble tablet
+di24.	Paracetamol 250mg/5mL mixture
+di24.	Paracetamol 250mg/5mL oral suspension
+di26.	Calpol Six Plus 250mg/5mL suspension
+di27.	Disprol Paediatric 120mg/5mL s/f suspension
+di29.	Panadol 500mg capsule
+di2a.	Panadol 500mg tablet
+di2A.	Infadrops 100mg/mL oral solution
+di2C.	Calpol Six Plus 250mg/5mL s/f suspension
+di2D.	Cupanol Paediatric 120mg/5mL s/f suspension
+di2D.	Medinol Paediatric 120mg/5mL s/f suspension
+di2E.	Paracetamol 500mg suppository
+di2H.	Paradote tablet
+di2J.	Paracetamol 240mg suppository
+di2L.	Paracetamol 120mg suppository
+di2M.	Paracetamol 250mg suppository
+di2n.	Paracetamol 120mg/5mL oral suspension
+di2N.	Paracetamol 60mg suppository
+di2o.	Paracetamol 125mg suppository
+di2O.	Alvedon 250mg suppository
+di2p.	Alvedon 125mg suppository
+di2P.	Alvedon 60mg suppository
+di2q.	Paracetamol 500mg capsule
+di2r.	Paracetamol 120mg/5mL s/f oral solution
+di2t.	Medinol Over Six 250mg/5mL s/f suspension
+di2u.	Paracetamol 250mg/5mL s/f oral suspension
+di2y.	Calpol 120mg/5mL paediatric s/f suspension
+di91.	Acupan 30mg tablet
+di92.	Acupan 20mg/1mL injection
+di9y.	Nefopam hydrochloride 30mg tablet
+di9z.	Nefopam hydrochloride 20mg/1mL injection
+dia2.	Co-codamol 8mg/500mg tablet
+dia2.	Paracetamol+codeine phosphate 500mg/8mg tablet
+dia4.	Aspirin+codeine 400mg/8mg tablet
+dia4.	Co-codaprin 8mg/400mg tablet
+dia5.	Aspirin+codeine 400mg/8mg dispersible tablet
+dia5.	Co-codaprin 8mg/400mg dispersible tablet
+dia6.	Co-dydramol 10mg/500mg tablet
+dia6.	Paracetamol+dihydrocodeine tartrate 500mg/10mg tablet
+dia7.	Co-proxamol 32.5mg/325mg tablet
+dia7.	Paracetamol+dextropropoxyphene hydrochloride 325mg/32.5mg tablet
+dia9.	Aspav dispersible tablet
+diad.	Distalgesic tablet
+diaJ.	Kapake Insts 500mg/30mg/sachet powder
+diaL.	Kapake Insts 1000mg/60mg/sachet powder
+diam.	Kapake tablet
+diao.	Kapake capsule
+diap.	Co-codamol 8mg/500mg effervescent tablet
+diap.	Paracetamol+codeine phosphate 500mg/8mg effervescent tablet
+diaq.	Co-codamol 8mg/500mg capsule
+diaq.	Paracetamol+codeine phosphate 500mg/8mg capsule
+diaT.	Codipar Caplet
+diaU.	Paracetamol+codeine phosphate 500mg/15mg tablet
+diax.	Co-proxamol 32.5mg/325mg/5mL s/f suspension
+diax.	Paracetamol+dextropropoxyphene hydrochloride 325mg/32.5mg/5mL s/f suspension
+dibb.	Paracodol soluble tablet
+dibE.	Paracetamol+dihydrocodeine tartrate 500mg/20mg tablet
+dibf.	Paramol 10/500mg tablet
+dibF.	Paracetamol+dihydrocodeine tartrate 500mg/30mg tablet
+dibG.	Tylex Effervescent soluble tablet
+dibj.	Propain Caplet
+dibj.	Propain tablet
+dibN.	Panadol Ultra tablet
+dibp.	Syndol tablet
+dibs.	Veganin tablet
+dibS.	Solpadol capsule
+dibt.	Tylex capsule
+dibu.	Solpadol effervescent tablet
+dibv.	Remedeine tablet
+dibw.	Remedeine Forte tablet
+dibW.	Medocodene 30/500 capsule
+dibz.	Solpadol Caplet
+dic3.	Zapain Caplet
+dic4.	Zapain capsule
+dica.	CODIPAR 15mg/500mg effervescent tablets
+dicb.	DYPRACET 20mg/500mg tablets
+dicc.	DYPRACET 30mg/500mg tablets
+dicN.	Kapake 30/500 effervescent tablet
+dicR.	Medocodene 30/500 effervescent tablet
+dicv.	PARACETAMOL+CODEINE PHOSPHATE 500mg/15mg effervescent tablet
+dicw.	IBUPROFEN+PARACETAMOL 200mg/500mg tablets
+dicZ.	NUROMOL 200mg/500mg tablets
+did7.	Paracetamol 1000mg/100mL infusion
+did8.	Perfalgan 1000mg/100mL infusion
+didC.	Perfalgan 500mg/50mL infusion
+didH.	PANADOL OA 1000mg tablets
+didt.	PARACETAMOL 1g suppositories
+dl13.	Migraleve yellow tablet
+dl41.	Midrid capsule
+dl42.	Isometheptene mucate+paracetamol 65mg/325mg capsule
+j111.	Aspirin 300mg tablet
+j112.	Aspirin 300mg dispersible tablet
+jA31.	Parecoxib 40mg injection (pdr for recon)
+jA32.	Parecoxib 40mg injection (pdr for recon)+diluent
+jA33.	Dynastat 40mg injection (pdr for recon)
+jA34.	Dynastat 40mg injection (pdr for recon)+diluent
+o4a1.	Ketorolac trometamol 30mg/1mL injection
+o4a2.	Toradol 30mg/1mL injection
+o4a3.	Ketorolac trometamol 10mg tablet
+o4a4.	Toradol 10mg tablet
+o4a5.	Ketorolac trometamol 10mg/1mL injection
+o4a6.	Toradol 10mg/1mL injection
+x00dA	Disprol Junior 120mg soluble tablet
+x00g3	Uniflu plus Gregovite C tablet
+x00Y2	Paracetamol 120mg paediatric soluble tablet
+x02LX	Acetylsalicylic acid
+x02LX	Aspirin

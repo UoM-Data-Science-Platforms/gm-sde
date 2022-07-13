@@ -1,0 +1,96 @@
+bu2a.00	*DISPRIN CV 300mg m/r tablets
+bu2b.00	*ASPIRIN 300mg m/r tablets
+di1c.00	NU-SEALS ASPIRIN 300mg e/c tablets
+di1f.00	ASPIRIN 300mg e/c tablets
+di1k.00	*CAPRIN 300mg e/c tablets
+di1n.00	ASPIRIN 300mg suppositories
+di1o.00	ASPIRIN 150mg suppositories
+di21.00	PARACETAMOL 500mg tablets
+di22.00	PARACETAMOL 500mg soluble tabs
+di24.00	PARACETAMOL 250mg/5mL mixture
+di26.00	CALPOL SIX PLUS 250mg/5mL suspension
+di27.00	DISPROL PAEDIATRIC 120mg/5mL suspension
+di29.00	PANADOL 500mg capsules
+di2a.00	PANADOL 500mg tablets
+di2A.00	INFADROPS 100mg/mL oral solution
+di2C.00	CALPOL SIX PLUS 250mg/5mL sugar free suspension
+di2E.00	PARACETAMOL 500mg suppositories
+di2H.00	*PARADOTE tablets
+di2J.00	PARACETAMOL 240mg suppositories
+di2L.00	PARACETAMOL 120mg suppositories
+di2M.00	PARACETAMOL 250mg suppositories
+di2n.00	PARACETAMOL 120mg/5mL oral suspension
+di2N.00	PARACETAMOL 60mg suppositories
+di2o.00	PARACETAMOL 125mg suppositories
+di2O.00	ALVEDON 250mg suppositories
+di2p.00	ALVEDON 125mg suppositories
+di2P.00	ALVEDON 60mg suppositories
+di2q.00	PARACETAMOL 500mg capsules
+di2r.00	PARACETAMOL 120mg/5mL sugar free elixir
+di2t.00	MEDINOL OVER SIX 250mg/5mL sugar free suspension
+di2u.00	PARACETAMOL 250mg/5mL sugar free suspension
+di2y.00	CALPOL PAEDIATRIC 120mg/5mL sugar free suspension
+di91.00	ACUPAN 30mg tablets
+di92.00	*ACUPAN 20mg/1mL injection
+di9y.00	NEFOPAM HYDROCHLORIDE 30mg tablets
+di9z.00	NEFOPAM HYDROCHLORIDE 20mg/1mL injection
+dia2.00	CO-CODAMOL 8mg/500mg tablets
+dia4.00	*CO-CODAPRIN tablets
+dia5.00	CO-CODAPRIN dispersible tablets
+dia6.00	CO-DYDRAMOL tablets
+dia7.00	*CO-PROXAMOL tablets
+dia9.00	*ASPAV dispersible tablets
+diad.00	*DISTALGESIC tablets
+diaJ.00	KAPAKE INSTS 500mg/30mg/sachet powder
+diaL.00	KAPAKE INSTS 1000mg/60mg/sachet powder
+diam.00	KAPAKE tablets
+diao.00	KAPAKE capsules
+diap.00	CO-CODAMOL 8mg/500mg effervescent tablets
+diaq.00	CO-CODAMOL 8mg/500mg capsules
+diaT.00	CODIPAR caplets
+diaU.00	PARACETAMOL+CODEINE PHOSPHATE 500mg/15mg tablets
+dibb.00	PARACODOL dispersible tablets
+dibE.00	PARACETAMOL+DIHYDROCODEINE TARTRATE 500mg/20mg tablets
+dibf.00	*PARAMOL tablets
+dibF.00	PARACETAMOL+DIHYDROCOCEINE TARTRATE 500mg/30mg tablets
+dibG.00	TYLEX EFFERVESCENT soluble tablets
+dibj.00	PROPAIN tablets
+dibN.00	PANADOL ULTRA tablets
+dibp.00	SYNDOL tablets
+dibs.00	VEGANIN tablets
+dibS.00	SOLPADOL capsules
+dibt.00	TYLEX 500mg capsules
+dibu.00	SOLPADOL effervescent tablets
+dibv.00	REMEDEINE tablets
+dibw.00	REMEDEINE FORTE tablets
+dibW.00	MEDOCODENE 30/500 capsules
+dibz.00	SOLPADOL caplets
+dic3.00	ZAPAIN caplets
+dic4.00	ZAPAIN capsules
+dica.00	CODIPAR 15mg/500mg effervescent tablets
+dicb.00	DYPRACET 20mg/500mg tablets
+dicc.00	DYPRACET 30mg/500mg tablets
+dicN.00	KAPAKE 30/500 effervescent tablets
+dicR.00	MEDOCODENE 30/500 effervescent tablets
+dicv.00	PARACETAMOL+CODEINE PHOSPHATE 500mg/15mg effervescent tablet
+dicw.00	IBUPROFEN+PARACETAMOL 200mg/500mg tablets
+dicZ.00	NUROMOL 200mg/500mg tablets
+did7.00	PARACETAMOL 1000mg/100mL infusion
+did8.00	PERFALGAN 1000mg/100mL infusion
+didC.00	PERFALGAN 500mg/50mL infusion
+didH.00	PANADOL OA 1000mg tablets
+didt.00	PARACETAMOL 1g suppositories
+dl13.00	MIGRALEVE YELLOW tablets
+dl41.00	MIDRID capsules
+j111.00	ASPIRIN 300mg tablets
+j112.00	ASPIRIN 300mg dispersible tablets
+jA31.00	PARECOXIB 40mg injection (pdr for recon)
+jA32.00	PARECOXIB 40mg injection (pdr for recon)+diluent
+jA33.00	DYNASTAT 40mg injection (pdr for recon)
+jA34.00	DYNASTAT 40mg injection (pdr for recon)+diluent
+o4a1.00	KETOROLAC TROMETAMOL 30mg/1mL intramuscular injection
+o4a2.00	TORADOL 30mg/1mL intramuscular injection
+o4a3.00	KETOROLAC TROMETAMOL 10mg tablets
+o4a4.00	*TORADOL 10mg tablets
+o4a5.00	KETOROLAC TROMETAMOL 10mg/1mL injection
+o4a6.00	*TORADOL 10mg/1mL injection
