@@ -2,20 +2,20 @@
 --│ Main cohort for RQ042 │
 --└───────────────────────┘
 
------------------------ RDE CHECK ---------------------
--- TBA --
--------------------------------------------------------
+-------------- RDE CHECK ---------------------
+-- Mai Parkes 12 July 2022 via pull request --
+----------------------------------------------
 
 -- Cohort is patients who have visited the GP with a dental issue. Each row in the output
 -- file corresponds to a single GP visit, so a person can appear multiple times
 
 -- OUTPUT: Data with the following fields
 --  - PatientId
---  - DateOfConsultation (YYYY/MM/DD)
---  - Age
+--  - ConsultationDate (YYYY/MM/DD)
+--  - YearOfBirth
 --  - Sex
 --  - LSOA
---  - Ethnicity
+--  - EthnicCategoryDescription
 --  - PatientHasT1DM
 --  - PatientHasT2DM
 --  - PatientHasCANCER
