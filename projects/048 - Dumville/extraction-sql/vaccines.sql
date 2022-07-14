@@ -14,6 +14,10 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
+-- Set the end date
+DECLARE @EndDate datetime;
+SET @EndDate = '2022-07-01';
+
 -- Assume temp table #OxAtHome (FK_Patient_Link_ID, AdmissionDate, DischargeDate)
 
 -- As it's a small cohort, it's quicker to get all data in to a temp table
@@ -28,7 +32,8 @@ SELECT
   [Value]
 INTO #PatientEventData
 FROM [RLS].vw_GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #OxAtHome);
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #OxAtHome)
+AND EventDate < @EndDate;
 
 IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
 SELECT 
@@ -39,7 +44,8 @@ SELECT
   FK_Reference_Coding_ID
 INTO #PatientMedicationData
 FROM [RLS].vw_GP_Medications
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #OxAtHome);
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #OxAtHome)
+AND MedicationDate < @EndDate;
 
 --┌────────────────────┐
 --│ COVID vaccinations │

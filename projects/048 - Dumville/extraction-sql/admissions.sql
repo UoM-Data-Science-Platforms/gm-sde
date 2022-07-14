@@ -19,11 +19,17 @@ SET NOCOUNT ON;
 DECLARE @StartDate datetime;
 SET @StartDate = '2020-01-01';
 
+-- Set the end date
+DECLARE @EndDate datetime;
+SET @EndDate = '2022-07-01';
+
 -- Assume temp table #OxAtHome (FK_Patient_Link_ID, AdmissionDate, DischargeDate)
 
 -- Table of all patients (not matching cohort - will do that subsequently)
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT FK_Patient_Link_ID INTO #Patients FROM #OxAtHome;
+SELECT FK_Patient_Link_ID INTO #Patients FROM #OxAtHome
+WHERE AdmissionDate < @EndDate
+AND (DischargeDate IS NULL OR DischargeDate < @EndDate);
 
 --┌───────────────────────────────┐
 --│ Classify secondary admissions │
@@ -217,4 +223,6 @@ FROM #OxAtHome o
 LEFT OUTER JOIN #AdmissionTypes admit ON admit.FK_Patient_Link_ID = o.FK_Patient_Link_ID
 LEFT OUTER JOIN #LengthOfStay los 
   ON los.FK_Patient_Link_ID = o.FK_Patient_Link_ID
-  AND los.AdmissionDate = admit.AdmissionDate;
+  AND los.AdmissionDate = admit.AdmissionDate
+WHERE admit.AdmissionDate < @EndDate
+AND (los.DischargeDate IS NULL OR los.DischargeDate < @EndDate);
