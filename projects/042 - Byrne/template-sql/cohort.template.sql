@@ -43,7 +43,8 @@ WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'dental-problem' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'dental-problem' AND Version = 1)
 )
-AND EventDate>'2018-12-31'
+AND EventDate > '2018-12-31'
+AND EventDate < '2022-07-01'
 GROUP BY FK_Patient_Link_ID, CAST(EventDate AS DATE);
 
 -- Table of all patients
@@ -60,7 +61,8 @@ SELECT
   FK_Reference_Coding_ID
 INTO #PatientEventData
 FROM [RLS].vw_GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < '2022-07-01';
 
 IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
 SELECT 
@@ -71,10 +73,11 @@ SELECT
   FK_Reference_Coding_ID
 INTO #PatientMedicationData
 FROM [RLS].vw_GP_Medications
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND MedicationDate < '2022-07-01';
 
 -- Now get GP encounters
---> EXECUTE query-patient-gp-encounters.sql all-patients:false gp-events-table:#PatientEventData start-date:2018-12-31 end-date:2100-01-01
+--> EXECUTE query-patient-gp-encounters.sql all-patients:false gp-events-table:#PatientEventData start-date:2018-12-31 end-date:2022-07-01
 
 --> EXECUTE query-patient-year-of-birth.sql
 --> EXECUTE query-patient-sex.sql
