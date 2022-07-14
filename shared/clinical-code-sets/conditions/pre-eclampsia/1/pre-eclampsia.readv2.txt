@@ -1,0 +1,25 @@
+L129.00	Moderate pre-eclampsia
+L127.00	Pre-eclampsia or eclampsia with pre-existing hypertension
+L127z00	Pre-eclampsia or eclampsia with pre-existing hypertension NOS
+L127400	Pre-eclampsia or eclampsia with pre-existing hypertension with postnatal complication
+L127300	Pre-eclampsia or eclampsia with pre-existing hypertension - not delivered
+L127200	Pre-eclampsia or eclampsia with pre-existing hypertension - delivered with postnatal complication
+L127100	Pre-eclampsia or eclampsia with pre-existing hypertension - delivered
+L127000	Pre-eclampsia or eclampsia with pre-existing hypertension unspecified
+L125.00	Severe pre-eclampsia
+L125z00	Severe pre-eclampsia NOS
+L125400	Severe pre-eclampsia with postnatal complication
+L125300	Severe pre-eclampsia - not delivered
+L125200	Severe pre-eclampsia - delivered with postnatal complication
+L125100	Severe pre-eclampsia - delivered
+L125000	Severe pre-eclampsia unspecified
+L124.11	Mild pre-eclampsia
+L124.00	Mild or unspecified pre-eclampsia
+L124z00	Mild or unspecified pre-eclampsia NOS
+L124600	Pre-eclampsia, unspecified
+L124500	Mild pre-eclampsia
+L124400	Mild or unspecified pre-eclampsia with postnatal complication
+L124300	Mild or unspecified pre-eclampsia - not delivered
+L124200	Mild or unspecified pre-eclampsia - delivered with postnatal complication
+L124100	Mild or unspecified pre-eclampsia - delivered
+L124000	Mild or unspecified pre-eclampsia unspecified

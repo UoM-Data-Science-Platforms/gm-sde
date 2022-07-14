@@ -1,0 +1,10 @@
+daB1.	Mirtazapine 30mg tablet
+daB2.	Zispin 30mg tablet
+daB3.	Mirtazapine 30mg oro-dispersible tablet
+daB4.	Zispin SolTab 30mg oro-dispersible tablet
+daB5.	Mirtazapine 15mg oro-dispersible tablet
+daB6.	Zispin SolTab 15mg oro-dispersible tablet
+daB7.	Mirtazapine 45mg oro-dispersible tablet
+daB8.	Zispin SolTab 45mg oro-dispersible tablet
+daBy.	Mirtazapine 45mg tablet
+daBz.	Mirtazapine 15mg tablet

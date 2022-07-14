@@ -2,8 +2,9 @@
 --│ Patients with multimorbidity and covid	     │
 --└──────────────────────────────────────────────┘
 
-------------- RDE CHECK -----------------
------------------------------------------	
+---- RESEARCH DATA ENGINEER CHECK ----
+-- 1st July 2022 - Richard Williams --
+--------------------------------------
 
 -- OUTPUT: Data with the following fields
 -- - PatientID
@@ -87,35 +88,33 @@ WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #2orMoreLTCsIncludingMental)     -- at least 2 LTCs including one mental
 
 
--- TABLE OF GP EVENTS FOR COHORT TO SPEED UP REUSABLE QUERIES
+-- TABLE OF GP MEDICATIONS FOR COHORT TO SPEED UP REUSABLE QUERIES
 
-IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
+IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
 SELECT 
   FK_Patient_Link_ID,
-  CAST(EventDate AS DATE) AS EventDate,
+  CAST(MedicationDate AS DATE) AS MedicationDate,
   SuppliedCode,
   FK_Reference_SnomedCT_ID,
-  FK_Reference_Coding_ID,
-  [Value]
-INTO #PatientEventData
-FROM [RLS].vw_GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
-
-
+  FK_Reference_Coding_ID
+INTO #PatientMedicationData
+FROM [RLS].vw_GP_Medications
+WHERE 
+	UPPER(SourceTable) NOT LIKE '%REPMED%'  -- exclude duplicate prescriptions 
+	AND RepeatMedicationFlag = 'N' 			-- exclude duplicate prescriptions 
+	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
 
 -- LOAD ALL MEDICATIONS CODE SETS NEEDED
 
 --> CODESET bnf-gastro-intestinal-meds:1 bnf-cardiovascular-meds:1 bnf-respiratory-meds:1 bnf-cns-meds:1 bnf-infections-meds:1 bnf-endocrine-meds:1
 --> CODESET bnf-obstetrics-gynaecology-meds:1 bnf-malignant-disease-immunosuppression-meds:1 bnf-nutrition-bloods-meds:1 bnf-muskuloskeletal-joint-meds:1
+--> CODESET bnf-eye-meds:1 bnf-ear-nose-throat-meds:1 bnf-skin-meds:1 bnf-immunological-meds:1 bnf-anaesthesia-meds:1
 
 
--- FIX ISSUE WITH DUPLICATE MEDICATIONS, CAUSED BY SOME CODES APPEARING MULTIPLE TIMES IN #VersionedCodeSets and #VersionedSnomedSets
+-- FIX ISSUE WITH DUPLICATE MEDICATIONS, CAUSED BY SOME CODES APPEARING MULTIPLE TIMES IN #AllCodes
 
-IF OBJECT_ID('tempdb..#VersionedCodeSets_1') IS NOT NULL DROP TABLE #VersionedCodeSets_1;
-SELECT DISTINCT FK_Reference_Coding_ID, Concept, [Version] INTO #VersionedCodeSets_1 FROM #VersionedCodeSets
-
-IF OBJECT_ID('tempdb..#VersionedSnomedSets_1') IS NOT NULL DROP TABLE #VersionedSnomedSets_1;
-SELECT DISTINCT FK_Reference_SnomedCT_ID, Concept, [Version] INTO #VersionedSnomedSets_1 FROM #VersionedSnomedSets
+IF OBJECT_ID('tempdb..#AllCodes_1') IS NOT NULL DROP TABLE #AllCodes_1;
+SELECT DISTINCT Code, Concept, [Version] INTO #AllCodes_1 FROM #AllCodes
 
 -- RETRIEVE ALL RELEVANT PRESCRPTIONS FOR THE COHORT
 
@@ -125,22 +124,15 @@ SELECT
 		CAST(MedicationDate AS DATE) as PrescriptionDate,
 		Concept = CASE WHEN c.Concept IS NOT NULL THEN c.Concept ELSE s.Concept END
 INTO #medications_rx
-FROM RLS.vw_GP_Medications m
+FROM #PatientMedicationData m
 LEFT OUTER JOIN #VersionedSnomedSets_1 s ON s.FK_Reference_SnomedCT_ID = m.FK_Reference_SnomedCT_ID
 LEFT OUTER JOIN #VersionedCodeSets_1 c ON c.FK_Reference_Coding_ID = m.FK_Reference_Coding_ID
 WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 	AND m.MedicationDate BETWEEN @StartDate AND @EndDate
-	AND UPPER(SourceTable) NOT LIKE '%REPMED%'  -- exclude duplicate prescriptions 
-	AND RepeatMedicationFlag = 'N' 				-- exclude duplicate prescriptions 
-	AND (
-		m.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets_1)
-		OR
-		m.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets_1)
-		);
+	AND m.SuppliedCode IN (SELECT [Code] FROM #AllCodes_1) -- using Code due to prevalency discrepancy with IDs
 
 --  FINAL TABLE: NUMBER OF EACH MEDICATION CATEGORY PRESCRIBED EACH MONTH 
 
-IF OBJECT_ID('tempdb..#meds_wide') IS NOT NULL DROP TABLE #meds_wide;
 select 
 	FK_Patient_Link_ID,
 	YEAR(PrescriptionDate) as [Year], 
@@ -154,7 +146,12 @@ select
 	[bnf-obstetrics-gynaecology] = ISNULL(SUM(CASE WHEN Concept = 'bnf-obstetrics-gynaecology-meds' then 1 else 0 end),0),
 	[bnf-malignant-disease-immunosuppression] = ISNULL(SUM(CASE WHEN Concept = 'bnf-malignant-disease-immunosuppression-meds' then 1 else 0 end),0),
 	[bnf-nutrition-bloods] = ISNULL(SUM(CASE WHEN Concept = 'bnf-gastro-intestinal-meds' then 1 else 0 end),0),
-	[bnf-muskuloskeletal-joint] = ISNULL(SUM(CASE WHEN Concept = 'bnf-gastro-intestinal-meds' then 1 else 0 end),0)
+	[bnf-muskuloskeletal-joint] = ISNULL(SUM(CASE WHEN Concept = 'bnf-gastro-intestinal-meds' then 1 else 0 end),0),
+	[bnf-eye] = ISNULL(SUM(CASE WHEN Concept = 'bnf-eye-meds' then 1 else 0 end),0),
+	[bnf-ear-nose-throat] = ISNULL(SUM(CASE WHEN Concept = 'bnf-ear-nose-throat-meds' then 1 else 0 end),0),
+	[bnf-skin] = ISNULL(SUM(CASE WHEN Concept = 'bnf-skin-meds' then 1 else 0 end),0),
+	[bnf-immunological] = ISNULL(SUM(CASE WHEN Concept = 'bnf-immunological-meds' then 1 else 0 end),0),
+	[bnf-anaesthesia] = ISNULL(SUM(CASE WHEN Concept = 'bnf-anaesthesia-meds' then 1 else 0 end),0)
 from #medications_rx
 group by FK_Patient_Link_ID, YEAR(PrescriptionDate), Month(PrescriptionDate)
 order by FK_Patient_Link_ID, YEAR(PrescriptionDate), Month(PrescriptionDate)

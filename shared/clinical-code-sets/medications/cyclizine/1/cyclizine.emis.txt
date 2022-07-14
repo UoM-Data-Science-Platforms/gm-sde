@@ -1,0 +1,177 @@
+^ESCT1178185	Product containing only cyclizine hydrochloride 50 mg/1 each oral tablet
+^ESCT1197957	Cyclizine 50mg/1ml solution for injection ampoules (Hameln Pharmaceuticals Ltd)
+^ESCT1197958	Cyclizine 50mg/1ml solution for injection ampoules (Hameln Pharmaceuticals Ltd) 10 ampoule 2 x 5 x 1ml ampoules
+^ESCT1199460	Cyclizine 50mg/5ml oral solution (Special Order)
+^ESCT1199482	Cyclizine 50mg/5ml oral solution (Special Order) 1 ml
+^ESCT1199483	Cyclizine 50mg/5ml oral solution (Special Order) 100 ml
+^ESCT1223626	Product containing precisely cyclizine hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1250063	Valoid 50mg/1ml solution for injection ampoules (Advanz Pharma)
+^ESCT1250157	Valoid 50mg/1ml solution for injection ampoules (Advanz Pharma) 5 ampoule
+^ESCT1250626	Cyclizine 50mg tablets (Advanz Pharma)
+^ESCT1250627	Cyclizine 50mg tablets (Advanz Pharma) 100 tablet
+^ESCT1250770	Cyclizine 50mg/1ml solution for injection ampoules (Advanz Pharma)
+^ESCT1250771	Cyclizine 50mg/1ml solution for injection ampoules (Advanz Pharma) 5 ampoule
+^ESCT1257953	Cyclizine 50mg/1ml solution for injection ampoules (Phoenix Labs Ltd)
+^ESCT1257954	Cyclizine 50mg/1ml solution for injection ampoules (Phoenix Labs Ltd) 5 ampoule
+^ESCT1263967	Cyclizine 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1263968	Cyclizine 50mg tablets (Mawdsley-Brooks & Company Ltd) 100 tablet
+^ESCT1264223	Cyclizine 50mg/1ml solution for injection ampoules
+^ESCT1265580	Cyclizine 50mg/1ml solution for injection ampoules (DE Pharmaceuticals)
+^ESCT1265581	Cyclizine 50mg/1ml solution for injection ampoules (DE Pharmaceuticals) 5 ampoule
+^ESCT1275341	Cyclizine 50mg/1ml solution for injection ampoules (DE Pharmaceuticals) 10 ampoule
+^ESCT1304403	Cyclizine 50mg/1ml solution for injection ampoules (hameln pharma Ltd)
+^ESCT1304404	Cyclizine 50mg/1ml solution for injection ampoules (hameln pharma Ltd) 10 ampoule 2 x 5 x 1ml ampoules
+^ESCT1375400	Cyclizine 50mg/1ml solution for injection ampoules (Medihealth (Northern) Ltd)
+^ESCT1375401	Cyclizine 50mg/1ml solution for injection ampoules (Medihealth (Northern) Ltd) 10 ampoule
+^ESCT1375402	Cyclizine 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1375403	Cyclizine 50mg tablets (Medihealth (Northern) Ltd) 100 tablet
+^ESCT1411585	Cyclizine 50mg tablets (Accord Healthcare Ltd)
+^ESCT1411586	Cyclizine 50mg tablets (Accord Healthcare Ltd) 100 tablet
+^ESCT1427674	Cyclizine 50mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427675	Cyclizine 50mg tablets (Kent Pharma (UK) Ltd) 100 tablet
+^ESCT1429962	Cyclizine 50mg/1ml solution for injection ampoules (Accord Healthcare Ltd)
+^ESCT1429963	Cyclizine 50mg/1ml solution for injection ampoules (Accord Healthcare Ltd) 10 ampoule 2 x 5 x 1ml ampoules
+^ESCT1430139	Cyclizine 50mg/1ml solution for injection ampoules (Synchrony Pharma Ltd)
+^ESCT1430140	Cyclizine 50mg/1ml solution for injection ampoules (Synchrony Pharma Ltd) 5 ampoule
+^ESCTCY1029691	Cyclizine 50mg tablets (AMCo)
+^ESCTCY1029692	Cyclizine 50mg tablets (AMCo) 100 tablet
+^ESCTCY1034040	Cyclizine 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTCY1034041	Cyclizine 50mg tablets (A A H Pharmaceuticals Ltd) 100 tablet 10 x 10 tablets
+^ESCTCY1034099	Cyclizine 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTCY1034100	Cyclizine 50mg tablets (Alliance Healthcare (Distribution) Ltd) 100 tablet
+^ESCTCY1042626	Cyclizine 50mg tablets (Teva UK Ltd)
+^ESCTCY1042628	Cyclizine 50mg tablets (Teva UK Ltd) 100 tablet 10 x 10 tablets
+^ESCTCY1045784	Cyclizine 50mg/5ml oral solution 100 ml
+^ESCTCY1045785	Cyclizine 50mg/5ml oral solution (Drug Tariff Special Order) 100 ml
+^ESCTCY1045786	Cyclizine 50mg/5ml oral suspension 100 ml
+^ESCTCY1045787	Cyclizine 50mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTCY1045905	Cyclizine 50mg tablets (Actavis UK Ltd)
+^ESCTCY1045906	Cyclizine 50mg tablets (Actavis UK Ltd) 100 tablet
+^ESCTCY1058843	Cyclizine 50mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTCY1058844	Cyclizine 50mg tablets (Phoenix Healthcare Distribution Ltd) 100 tablet
+^ESCTCY1061859	Cyclizine 50mg tablets (DE Pharmaceuticals)
+^ESCTCY1061860	Cyclizine 50mg tablets (DE Pharmaceuticals) 100 tablet
+^ESCTCY1063405	Cyclizine 50mg tablets (Morningside Healthcare Ltd)
+^ESCTCY1063406	Cyclizine 50mg tablets (Morningside Healthcare Ltd) 100 tablet
+^ESCTCY1099886	Cyclizine 50mg/1ml solution for injection ampoules (AMCo)
+^ESCTCY1099887	Cyclizine 50mg/1ml solution for injection ampoules (AMCo) 5 ampoule
+^ESCTCY1100040	Cyclizine 50mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 5 ampoule
+^ESCTCY1100726	Cyclizine 50mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 5 ampoule
+^ESCTCY1117144	Cyclizine 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTCY1117145	Cyclizine 50mg tablets (Sigma Pharmaceuticals Plc) 100 tablet
+^ESCTCY1141820	Cyclizine 50mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTCY1141821	Cyclizine 50mg tablets (Kent Pharmaceuticals Ltd) 100 tablet
+^ESCTCY1142464	Cyclizine 12.5mg suppositories 1 suppository
+^ESCTCY1142465	Cyclizine 12.5mg suppositories (Special Order)
+^ESCTCY1142466	Cyclizine 12.5mg suppositories (Special Order) 1 suppository
+^ESCTCY1142476	Cyclizine 12.5mg suppositories
+^ESCTCY1149298	Cyclizine 50mg tablets 30 tablet
+^ESCTCY1149300	Cyclizine 50mg tablets (Brown & Burk UK Ltd)
+^ESCTCY1149303	Cyclizine 50mg tablets (Brown & Burk UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTCY1152672	Cyclizine 50mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTCY609851	Cyclizine 50mg tablets
+^ESCTCY609853	Cyclizine hydrochloride 50 mg oral tablet
+^ESCTCY834399	Cyclizine 50mg/1ml solution for injection ampoules 5 ampoule
+^ESCTCY847324	Cyclizine 50mg tablets 100 tablet
+^ESCTCY905959	Cyclizine 50mg/5ml oral solution 1 ml
+^ESCTCY905960	Cyclizine 50mg/5ml oral solution (Drug Tariff Special Order)
+^ESCTCY905961	Cyclizine 50mg/5ml oral solution (Drug Tariff Special Order) 1 ml
+^ESCTCY905962	Cyclizine 50mg/5ml oral suspension 1 ml
+^ESCTCY905963	Cyclizine 50mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTCY905964	Cyclizine 50mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTCY905966	Cyclizine 62.5mg/5ml oral solution 1 ml
+^ESCTCY905967	Cyclizine 62.5mg/5ml oral solution (Special Order)
+^ESCTCY905971	Cyclizine 62.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTCY905980	Cyclizine 62.5mg/5ml oral suspension 1 ml
+^ESCTCY905984	Cyclizine 62.5mg/5ml oral suspension (Special Order)
+^ESCTCY905985	Cyclizine 62.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCY906381	Cyclizine 50mg/5ml oral solution
+^ESCTCY906382	Cyclizine 50mg/5ml oral suspension
+^ESCTCY906383	Cyclizine 62.5mg/5ml oral solution
+^ESCTCY906384	Cyclizine 62.5mg/5ml oral suspension
+^ESCTCY908926	Cyclizine 50mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd)
+^ESCTCY908990	Cyclizine 50mg/1ml solution for injection ampoules 10 ampoule
+^ESCTCY908991	Cyclizine 50mg/1ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) 10 ampoule
+^ESCTCY909918	Cyclizine 50mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd)
+^ESCTCY909921	Cyclizine 50mg/1ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) 10 ampoule
+^ESCTCY918283	Cyclizine 50mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd)
+^ESCTCY918285	Cyclizine 50mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule
+^ESCTCY943155	Cyclizine 10mg/5ml oral suspension 1 ml
+^ESCTCY943156	Cyclizine 10mg/5ml oral suspension (Special Order)
+^ESCTCY943157	Cyclizine 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCY943158	Cyclizine 10mg/5ml oral solution 1 ml
+^ESCTCY943159	Cyclizine 10mg/5ml oral solution (Special Order)
+^ESCTCY943160	Cyclizine 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTCY943161	Cyclizine 12.5mg/5ml oral suspension 1 ml
+^ESCTCY943162	Cyclizine 12.5mg/5ml oral suspension (Special Order)
+^ESCTCY943163	Cyclizine 12.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCY943164	Cyclizine 12.5mg/5ml oral solution 1 ml
+^ESCTCY943165	Cyclizine 12.5mg/5ml oral solution (Special Order)
+^ESCTCY943166	Cyclizine 12.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTCY943167	Cyclizine 2.5mg/5ml oral suspension 1 ml
+^ESCTCY943171	Cyclizine 2.5mg/5ml oral suspension (Special Order)
+^ESCTCY943172	Cyclizine 2.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCY943173	Cyclizine 2.5mg/5ml oral solution 1 ml
+^ESCTCY943174	Cyclizine 2.5mg/5ml oral solution (Special Order)
+^ESCTCY943175	Cyclizine 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTCY943176	Cyclizine 250mg/5ml oral suspension 1 ml
+^ESCTCY943177	Cyclizine 250mg/5ml oral suspension (Special Order)
+^ESCTCY943178	Cyclizine 250mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCY943179	Cyclizine 250mg/5ml oral solution 1 ml
+^ESCTCY943180	Cyclizine 250mg/5ml oral solution (Special Order)
+^ESCTCY943181	Cyclizine 250mg/5ml oral solution (Special Order) 1 ml
+^ESCTCY943182	Cyclizine 25mg/5ml oral suspension 1 ml
+^ESCTCY943183	Cyclizine 25mg/5ml oral suspension (Special Order)
+^ESCTCY943184	Cyclizine 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCY943185	Cyclizine 25mg/5ml oral solution 1 ml
+^ESCTCY943186	Cyclizine 25mg/5ml oral solution (Special Order)
+^ESCTCY943187	Cyclizine 25mg/5ml oral solution (Special Order) 1 ml
+^ESCTCY943188	Cyclizine 30mg/5ml oral suspension 1 ml
+^ESCTCY943189	Cyclizine 30mg/5ml oral suspension (Special Order)
+^ESCTCY943190	Cyclizine 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCY943191	Cyclizine 30mg/5ml oral solution 1 ml
+^ESCTCY943192	Cyclizine 30mg/5ml oral solution (Special Order)
+^ESCTCY943193	Cyclizine 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTCY943194	Cyclizine 5mg/5ml oral suspension 1 ml
+^ESCTCY943195	Cyclizine 5mg/5ml oral suspension (Special Order)
+^ESCTCY943196	Cyclizine 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTCY943197	Cyclizine 5mg/5ml oral solution 1 ml
+^ESCTCY943198	Cyclizine 5mg/5ml oral solution (Special Order)
+^ESCTCY943199	Cyclizine 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTCY943376	Cyclizine 10mg/5ml oral solution
+^ESCTCY943377	Cyclizine 10mg/5ml oral suspension
+^ESCTCY943378	Cyclizine 12.5mg/5ml oral solution
+^ESCTCY943379	Cyclizine 12.5mg/5ml oral suspension
+^ESCTCY943380	Cyclizine 2.5mg/5ml oral solution
+^ESCTCY943381	Cyclizine 2.5mg/5ml oral suspension
+^ESCTCY943382	Cyclizine 250mg/5ml oral solution
+^ESCTCY943383	Cyclizine 250mg/5ml oral suspension
+^ESCTCY943384	Cyclizine 25mg/5ml oral solution
+^ESCTCY943385	Cyclizine 25mg/5ml oral suspension
+^ESCTCY943386	Cyclizine 30mg/5ml oral solution
+^ESCTCY943387	Cyclizine 30mg/5ml oral suspension
+^ESCTCY943388	Cyclizine 5mg/5ml oral solution
+^ESCTCY943389	Cyclizine 5mg/5ml oral suspension
+^ESCTCY981589	Cyclizine 25mg suppositories 1 suppository
+^ESCTCY981590	Cyclizine 25mg suppositories (Special Order)
+^ESCTCY981591	Cyclizine 25mg suppositories (Special Order) 1 suppository
+^ESCTCY981618	Cyclizine 25mg suppositories
+^ESCTCY987770	Cyclizine 50mg suppositories 1 suppository
+^ESCTCY987772	Cyclizine 50mg suppositories (Special Order)
+^ESCTCY987773	Cyclizine 50mg suppositories (Special Order) 1 suppository
+^ESCTCY988064	Cyclizine 50mg suppositories
+^ESCTPR609852	Product containing cyclizine hydrochloride 50 mg/1 each oral tablet
+^ESCTVA802356	Valoid 50mg tablets (Amdipharm Plc)
+^ESCTVA821365	Valoid 50mg/1ml solution for injection ampoules (AMCo)
+^ESCTVA856900	Valoid 50mg tablets (Amdipharm Plc) 100 tablet
+^ESCTVA856903	Valoid 50mg/1ml solution for injection ampoules (AMCo) 5 ampoule
+CYIN34672MGEMIS	Cyclizine Lactate  Injection  50mg/ml, 1 ml ampoule (Martindale)
+CYIN34673MGEMIS	Cyclizine Lactate  Injection  50mg/ml, 1 ml ampoule (Unichem)
+CYIN34674MGEMIS	Cyclizine Lactate  Injection  50mg/ml, 1 ml ampoule (A.A.H. Pharm)
+CYIN4789	Cyclizine Lactate  Solution for injection  50mg/ml, 1 ml ampoule
+CYOR46836NEMIS	Cyclizine  Oral solution  50 mg/5 ml
+CYOR46837NEMIS	Cyclizine  Oral suspension  50 mg/5 ml
+CYSU137210NEMIS	Cyclizine  Suppositories  50 mg
+CYTA4788	Cyclizine  Tablets  50 mg
+VAIN4486	Valoid  Solution for injection  50mg/ml, 1 ml ampoule
+VATA4487	Valoid  Tablets  50 mg

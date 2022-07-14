@@ -1,0 +1,20 @@
+^ESCT1250074	Tranylcypromine 10mg tablets (Advanz Pharma)
+^ESCT1250146	Tranylcypromine 10mg tablets (Advanz Pharma) 28 tablet
+^ESCT1424931	Tranylcypromine 10mg tablets
+^ESCT1429680	Tranylcypromine 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429681	Tranylcypromine 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCTTR1119858	Tranylcypromine 10mg tablets (DE Pharmaceuticals)
+^ESCTTR1119859	Tranylcypromine 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTTR1128276	Tranylcypromine 10mg tablets (Teva UK Ltd)
+^ESCTTR1128277	Tranylcypromine 10mg tablets (Teva UK Ltd) 28 tablet
+^ESCTTR809531	Tranylcypromine 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTTR818452	Tranylcypromine 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTTR828596	Tranylcypromine 10mg tablets (AMCo)
+^ESCTTR848195	Tranylcypromine 10mg tablets 28 tablet
+^ESCTTR856058	Tranylcypromine 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTTR856060	Tranylcypromine 10mg tablets (AMCo) 28 tablet
+^ESCTTR856061	Tranylcypromine 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+TRTA2894	Tranylcypromine  Tablets  10 mg
+TRTA37310MGEMIS	Tranylcypromine  Tablets  10 mg (A.A.H. Pharm)
+TRTA37311MGEMIS	Tranylcypromine  Tablets  10 mg (Unichem)
+TRTA37312MGEMIS	Tranylcypromine  Tablets  10 mg (Goldshield)

@@ -1,0 +1,6 @@
+da11.	Fluanxol 500micrograms tablet
+da12.	Fluanxol 1mg tablet
+da1y.	Flupenthixol 500micrograms tablet
+da1y.	Flupentixol 500micrograms tablet
+da1z.	Flupenthixol 1mg tablet
+da1z.	Flupentixol 1mg tablet

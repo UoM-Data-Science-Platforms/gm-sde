@@ -1,0 +1,120 @@
+E10..00	Schizophrenic disorders
+E100.00	Simple schizophrenia
+E100.11	Schizophrenia simplex
+E100000	Unspecified schizophrenia
+E100100	Subchronic schizophrenia
+E100200	Chronic schizophrenic
+E100300	Acute exacerbation of subchronic schizophrenia
+E100400	Acute exacerbation of chronic schizophrenia
+E100500	Schizophrenia in remission
+E100z00	Simple schizophrenia NOS
+E101.00	Hebephrenic schizophrenia
+E101000	Unspecified hebephrenic schizophrenia
+E101400	Acute exacerbation of chronic hebephrenic schizophrenia
+E101500	Hebephrenic schizophrenia in remission
+E101z00	Hebephrenic schizophrenia NOS
+E102.00	Catatonic schizophrenia
+E102000	Unspecified catatonic schizophrenia
+E102100	Subchronic catatonic schizophrenia
+E102500	Catatonic schizophrenia in remission
+E102z00	Catatonic schizophrenia NOS
+E103.00	Paranoid schizophrenia
+E103000	Unspecified paranoid schizophrenia
+E103200	Chronic paranoid schizophrenia
+E103300	Acute exacerbation of subchronic paranoid schizophrenia
+E103400	Acute exacerbation of chronic paranoid schizophrenia
+E103500	Paranoid schizophrenia in remission
+E103z00	Paranoid schizophrenia NOS
+E104.00	Acute schizophrenic episode
+E104.11	Oneirophrenia
+E105.00	Latent schizophrenia
+E105000	Unspecified latent schizophrenia
+E105200	Chronic latent schizophrenia
+E105500	Latent schizophrenia in remission
+E105z00	Latent schizophrenia NOS
+E106.00	Residual schizophrenia
+E107.00	Schizo-affective schizophrenia
+E107.11	Cyclic schizophrenia
+E107000	Unspecified schizo-affective schizophrenia
+E107100	Subchronic schizo-affective schizophrenia
+E107200	Chronic schizo-affective schizophrenia
+E107300	Acute exacerbation subchronic schizo-affective schizophrenia
+E107400	Acute exacerbation of chronic schizo-affective schizophrenia
+E107500	Schizo-affective schizophrenia in remission
+E107z00	Schizo-affective schizophrenia NOS
+E10y.00	Other schizophrenia
+E10y.11	Cenesthopathic schizophrenia
+E10y000	Atypical schizophrenia
+E10y100	Coenesthopathic schizophrenia
+E10yz00	Other schizophrenia NOS
+E10z.00	Schizophrenia NOS
+E12..00	Paranoid states
+E120.00	Simple paranoid state
+E121.00	Chronic paranoid psychosis
+E122.00	Paraphrenia
+E123.00	Shared paranoid disorder
+E123.11	Folie a deux
+E12y.00	Other paranoid states
+E12y000	Paranoia querulans
+E12yz00	Other paranoid states NOS
+E12z.00	Paranoid psychosis NOS
+E13..00	Other nonorganic psychoses
+E130.00	Reactive depressive psychosis
+E130.11	Psychotic reactive depression
+E131.00	Acute hysterical psychosis
+E133.00	Acute paranoid reaction
+E134.00	Psychogenic paranoid psychosis
+E13y.00	Other reactive psychoses
+E13y000	Psychogenic stupor
+E13y100	Brief reactive psychosis
+E13yz00	Other reactive psychoses NOS
+E141.00	Disintegrative psychosis
+E141.11	Heller's syndrome
+E141100	Residual disintegrative psychoses
+E14y.00	Other childhood psychoses
+E14y000	Atypical childhood psychoses
+E14y100	Borderline psychosis of childhood
+E14yz00	Other childhood psychoses NOS
+E14z.00	Child psychosis NOS
+E14z.11	Childhood schizophrenia NOS
+E1y..00	Other specified non-organic psychoses
+E1z..00	Non-organic psychosis NOS
+Eu20.00	[X]Schizophrenia
+Eu20000	[X]Paranoid schizophrenia
+Eu20011	[X]Paraphrenic schizophrenia
+Eu20100	[X]Hebephrenic schizophrenia
+Eu20111	[X]Disorganised schizophrenia
+Eu20200	[X]Catatonic schizophrenia
+Eu20211	[X]Catatonic stupor
+Eu20212	[X]Schizophrenic catalepsy
+Eu20213	[X]Schizophrenic catatonia
+Eu20214	[X]Schizophrenic flexibilatis cerea
+Eu20300	[X]Undifferentiated schizophrenia
+Eu20311	[X]Atypical schizophrenia
+Eu20400	[X]Post-schizophrenic depression
+Eu20500	[X]Residual schizophrenia
+Eu20511	[X]Chronic undifferentiated schizophrenia
+Eu20600	[X]Simple schizophrenia
+Eu20y00	[X]Other schizophrenia
+Eu20y12	[X]Schizophreniform disord NOS
+Eu20y13	[X]Schizophrenifrm psychos NOS
+Eu20z00	[X]Schizophrenia, unspecified
+Eu23.00	[X]Acute and transient psychotic disorders
+Eu23000	[X]Acute polymorphic psychot disord without symp of schizoph
+Eu23011	[X]Bouffee delirante
+Eu23012	[X]Cycloid psychosis
+Eu23100	[X]Acute polymorphic psychot disord with symp of schizophren
+Eu23112	[X]Cycloid psychosis with symptoms of schizophrenia
+Eu23200	[X]Acute schizophrenia-like psychotic disorder
+Eu23211	[X]Brief schizophreniform disorder
+Eu23212	[X]Brief schizophrenifrm psych
+Eu23214	[X]Schizophrenic reaction
+Eu23300	[X]Other acute predominantly delusional psychotic disorders
+Eu23312	[X]Psychogenic paranoid psychosis
+Eu23y00	[X]Other acute and transient psychotic disorders
+Eu23z00	[X]Acute and transient psychotic disorder, unspecified
+Eu23z11	[X]Brief reactive psychosis NOS
+Eu23z12	[X]Reactive psychosis
+Eu24.00	[X]Induced delusional disorder
+Eu24.12	[X]Induced paranoid disorder
+Eu24.13	[X]Induced psychotic disorder

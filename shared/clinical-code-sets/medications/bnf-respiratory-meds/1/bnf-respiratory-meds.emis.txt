@@ -1,0 +1,1168 @@
+SLCA2584	Slo-Phyllin  Capsules  60 mg
+SADR1873NEMIS	Salmeterol Xinafoate  Dry powder breath-actuated inhaler  50 micrograms
+HYOR133337NEMIS	Hydroxyzine Hydrochloride  Oral suspension  10 mg/5 ml
+BEBR26471EMIS	Beclomethasone Dipropionate  Breath-actuated inhaler  100 micrograms/puff
+ILTA48722NEMIS	Ilaxten  Tablets  20 mg
+SANE9041BRIDL	Salbutamol  Nebuliser solution  2.5 mg/2.5 ml unit dose
+SILI36955MGEMIS	Simple  Linctus bp  (Unichem)
+SIPA17002NEMIS	Singulair  Paediatric granules  4 mg/sachet
+IPNE24829EMIS	Ipratropium Steri-Neb  Nebuliser solution  500 micrograms/2 ml
+FODR17644NEMIS	Formoterol  Dry Powder Inhaler  12 micrograms/actuation
+MIIN23362NEMIS	Min-I-Jet Aminophylline  Injection  250 mg/10 ml pre-filled syringe
+EADR19044NEMIS	Easyhaler Salbutamol  Dry Powder Inhaler  200 micrograms/actuation
+UMDR95178NEMIS	Umeclidinium Bromide  Dry Powder Inhaler  65 micrograms/dose
+QVCF33772EMIS	Qvar 100  Cfc-free inhaler  100 micrograms/dose
+YOTA119046NEMIS	Yournac  Tablets  600 mg
+EADR21826NEMIS	Easyhaler Budesonide  Dry Powder Inhaler  400 micrograms/actuation
+CHIN38060MGEMIS	Chlorphenamine  Injection  10 mg/ml, 1 ml ampoule (Link Pharm)
+AICF122254NEMIS	Airflusal  Cfc-free inhaler  25 micrograms + 125 micrograms/dose
+RENE32712EMIS	Respontin Nebules  Nebuliser solution  250 micrograms/1 ml
+SACF36893MGEMIS	Salbutamol  Cfc-free inhaler  100 micrograms/puff (Teva UK)
+EMSO86729NEMIS	Emerade  Solution for injection  300 micrograms/0.3 ml auto-injector
+FODR106375NEMIS	Fostair Nexthaler  Dry Powder Inhaler  200 micrograms + 6 micrograms/dose
+BUNE1883NEMIS	Budesonide  Nebulisation single dose unit  500 micrograms/2 ml
+BRTA410	Bricanyl Sa  M/R tablets  7.5 mg
+BERE19751EMIS	Becloforte  Refill disks  400 micrograms/dose
+SPSO27050NEMIS	Spiriva Respimat  Inhalation Solution Cartridge With Device  2.5 micrograms/dose
+BUIN19789NEMIS	Budesonide  Inhalation Cartridge Refill  200 micrograms/dose, 100 doses
+BECF106429NEMIS	Beclometasone And Formoterol  Cfc-free inhaler  200 micrograms + 6 micrograms/dose
+AIIN26490EMIS	Airomir  Cfc-free inhaler  100 micrograms/puff
+ACTA33818EMIS	Accolate  Tablets  20 mg
+IPAE10447BRIDL	Ipratropium Bromide  Inhaler  40 micrograms/puff
+LOTA35859MGEMIS	Loratadine  Tablets  10 mg (Ranbaxy)
+FIIN23560EMIS	Filair  Inhaler  100 micrograms/puff
+SIPA10589BRIDL	Simple  Paediatric linctus bp  
+ASBR31773EMIS	Asmasal Clickhaler  Breath-actuated inhaler  95 micrograms/dose
+FLRE22589EMIS	Fluticasone Propionate  Refill disks  50 micrograms/dose
+C1PO105676NEMIS	C1-Esterase Inhibitor  Powder and solvent for solution for injection  1,500 unit vial
+ATIN248	Atrovent Forte  Inhaler  40 micrograms/puff
+CLEL4742	Clemastine  Elixir  Sugar Free 500 micrograms/5 ml
+BEIN292	Becotide 100  Inhaler  100 micrograms/puff
+MOPA6414NEMIS	Montelukast Sodium  Paediatric chewable tablets  Sugar Free 4 mg
+FLDR18588NEMIS	Fluticasone Propionate And Salmeterol  Dry Powder Inhaler  500 micrograms + 50 micrograms/actuation
+TRNE32175EMIS	Tropiovent Steripoules  Nebuliser solution  250 micrograms/1 ml
+FLCF18584NEMIS	Fluticasone Propionate And Salmeterol  Cfc-free inhaler  125 micrograms + 25 micrograms/actuation
+AMM/20629EMIS	Aminophylline Hydrate  M/R tablets  225 mg
+VEM/33741EMIS	Ventmax Sr  M/R capsules  4 mg
+ORTA109510NEMIS	Orkambi  Tablets  200 mg + 125 mg
+COLI37803MGEMIS	Codeine  Linctus sugar free  BP (Unichem)
+COOR11266NEMIS	Covonia Night Time Formula  Oral solution  
+PSCA101284NEMIS	Pseudoephedrine And Acrivastine  Capsules  60 mg + 8 mg
+FLDI22572EMIS	Flixotide  Disks with diskhaler  100 micrograms/dose
+UNTA2986	Uniphyllin Continus  M/R tablets  400 mg
+ALSY86	Alupent  Syrup  10 mg/5 ml
+LOTA35858MGEMIS	Loratadine  Tablets  10 mg (Kent Pharm)
+BEBR17551NEMIS	Beclometasone  Breath-Actuated Inhaler (Cfc-Free)  100 micrograms/actuation
+VERO8921BRIDL	Ventide  Rotacaps  
+ADSO116556NEMIS	Adrenaline (Base) 1 In 1,000  Solution for injection  10 mg/10 ml ampoule
+IPNE35204NEMIS	Ipratropium Bromide  Nebuliser solution  250 micrograms/ml, 1 ml unit dose vial
+SATA36918MGEMIS	Salbutamol  Tablets  2 mg (A.A.H. Pharm)
+DITA5304NEMIS	Diphenhydramine Hydrochloride  Tablets  50 mg
+SARE2487	Salbutamol  Respirator solution  0.5 %
+DEOR39318NEMIS	Desloratadine  Oral Solution, Sugar Free  0.5 mg/ml
+SAIN36898MGEMIS	Salbutamol  Inhaler  100 micrograms/puff (Generics (UK))
+CHOR17591NEMIS	Chlorphenamine  Oral solution  2 mg/5 ml
+PHSU36509MGEMIS	Pholcodine  Sugar free linctus  5 mg/5 ml (Vantage)
+VEAC28240EMIS	Ventolin  Accuhaler  200 micrograms/dose
+ALCF124290NEMIS	Aloflute  Cfc-free inhaler  25 micrograms + 250 micrograms/dose
+SAIN2485	Salbutamol  Solution for injection  500 micrograms/ml, 1 ml ampoule
+ROSU11375NEMIS	Robitussin Chesty Cough  Oral solution  100 mg/5 ml
+SYTU10848NEMIS	Symbicort  Turbohaler  200/6 micrograms/inhalation
+FLDR86734NEMIS	Fluticasone Furoate And Vilanterol  Dry Powder Inhaler  92 micrograms + 22 micrograms/dose
+CLCF22851NEMIS	Clenil Modulite  Cfc-free inhaler  100 micrograms/actuation
+MESO133504NEMIS	Mepolizumab  Solution for injection  100 mg/1 ml pre-filled disposable device
+SADR1873NEMIS	Salmeterol Xinafoate  Dry powder breath-actuated inhaler  50 micrograms
+UCSY19792EMIS	Ucerax  Syrup  10 mg/5 ml
+ININ43606NEMIS	Indacaterol  Inhalation Powder Capsules With Device  300 micrograms
+UMDR90755NEMIS	Umeclidinium Bromide And Vilanterol  Dry Powder Inhaler  65 micrograms + 22 micrograms/dose
+NETA6262NEMIS	Neoclarityn  Tablets  5 mg
+HATA22730NEMIS	Hay-Rite  Tablets  10 mg
+SILI10586BRIDL	Simple  Linctus bp  
+SADR1788NEMIS	Salbutamol  Dry powder for inhalation  200 micrograms/dose
+BUDR12724NEMIS	Budesonide 400 Cyclocaps  Dry powder capsules for inhalation  400 micrograms
+ATTA229	Atarax  Tablets  25 mg
+BEPO36282NEMIS	Berinert  Powder and solvent for solution for injection  500 unit vial
+POTA29444NEMIS	Pollenshield Hayfever  Tablets  10 mg
+SAIN36900MGEMIS	Salbutamol  Inhaler  100 micrograms/puff (Sandoz)
+LILI1665	Linctus Simple Paediatric  Linctus  
+TISY22546EMIS	Tilade Mint  Syncroner  2 mg/metered inhalation
+TICF21324NEMIS	Tilade  Cfc-free inhaler  2 mg/actuation, 112 dose
+BEDR93316NEMIS	Beclometasone And Formoterol  Dry Powder Inhaler  100 micrograms + 6 micrograms/dose
+C1PO36279NEMIS	C1-Esterase Inhibitor  Powder and solvent for solution for injection  500 unit vial
+ADIN37851MGEMIS	Adrenaline  Injection  1 mg/ml, 1 ml ampoule (Phoenix)
+FODR17643NEMIS	Formoterol  Dry Powder Inhaler  6 micrograms/actuation, 60 dose
+BEDR17546NEMIS	Beclometasone  Dry Powder Inhaler  400 micrograms/actuation
+ALSY137909NEMIS	Alfresed  Syrup  7.5 mg/5 ml
+BETI37505MGEMIS	Benzoin  Tincture Compound  bp (A.A.H. Pharm)
+LOOR131777NEMIS	Loratadine  Oral Solution, Sugar Free  5 mg/5 ml
+ASBR34121EMIS	Asmabec Clickhaler  Breath-actuated inhaler  100 micrograms/dose
+ADIN37845MGEMIS	Adrenaline  Injection  1 mg/ml, 0.5 ml ampoule (A.A.H. Pharm)
+BUIN116747NEMIS	Budesonide And Formoterol  Cfc-free inhaler  200 micrograms + 6 micrograms/dose
+BUCF33455NEMIS	Budesonide  Cfc-free inhaler  200 micrograms/dose
+VECF34087EMIS	Ventolin Evohaler  Cfc-free inhaler  100 micrograms/puff
+MOCH31534LEEDS	Montelukast Sodium  Tablets  10 mg
+GLCF138613NEMIS	Glycopyrronium And Formoterol  Cfc-free inhaler  7.2 micrograms + 5 micrograms/dose
+CHTA38069MGEMIS	Chlorphenamine  Tablets  4 mg (Vantage)
+AVCF140672NEMIS	NULL
+PHSU36510MGEMIS	Pholcodine  Sugar free linctus  5 mg/5 ml (Unichem)
+DRTA16132NEMIS	Dreemon  Tablets  25 mg
+GUOR138661NEMIS	Guaifenesin  Oral Solution, Sugar Free  100 mg/5 ml
+VEIN8943BRIDL	Ventolin  Solution for infusion  1 mg/ml, 5 ml ampoule
+CASU137801NEMIS	Carbocisteine  Oral Solution, Sugar Free  250 mg/5 ml
+SUTA8552EGTON	Sudafed Plus  Tablets  
+SIPA36959MGEMIS	Simple  Paediatric linctus bp  (Unichem)
+ULIN96778NEMIS	Ultibro Breezhaler  Inhalation Powder Capsules With Device  85 micrograms + 43 micrograms
+SIEF76987NEMIS	Siran  Effervescent tablets  600 mg
+PUCF33456NEMIS	Pulmicort  Cfc-free inhaler  100 micrograms/dose
+OREF98864NEMIS	Oronac 600  Effervescent tablets  600 mg
+DUIN1006	Duovent  Inhaler  
+KAGR109514NEMIS	Kalydeco  Granules  50 mg sachets
+ALCF33576NEMIS	Alvesco  Cfc-free inhaler  160 micrograms/actuation
+BEIN333	Berotec  Inhaler  200 micrograms/puff
+THOR89791NEMIS	Theophylline  Oral solution  50 mg/5 ml
+CONE137157NEMIS	Combiprasal  Nebuliser solution  500 micrograms/2.5 ml + 2.5 mg/2.5 ml vial
+JESO51741NEMIS	Jext  Solution for injection  150 micrograms/0.15 ml (1 in 1,000)
+TIDR13727NEMIS	Tiotropium  Dry powder for inhalation + inhaler  18 micrograms
+ORCA78099NEMIS	Oronac 600  Capsules  600 mg
+IPNE24828EMIS	Ipratropium Steri-Neb  Nebuliser solution  250 micrograms/1 ml
+FLIN23886EMIS	Flixotide  Inhaler  25 micrograms/puff
+STNE22544EMIS	Salamol Steri-Neb  Nebuliser solution  5 mg/2.5 ml
+QVCF33776EMIS	Qvar 100 Autohaler  Cfc-Free Breath-Actuated Inhaler  100 micrograms/dose
+FLBR127596NEMIS	Fluticasone And Formoterol  Breath-Actuated Inhaler (Cfc-Free)  125 micrograms + 5 micrograms/dose
+CESU24106EMIS	Cetirizine Hydrochloride  Sugar-free oral solution  5 mg/5 ml
+SOCA75984NEMIS	Solgar Nac  Capsules  600 mg
+NECF51974NEMIS	Neovent  Cfc-free inhaler  25 micrograms/dose
+VERO8916BRIDL	Ventide Paediatric  Rotacaps  
+PHTA2250	Phyllocontin Continus  M/R tablets  225 mg
+DEOR137470NEMIS	Dextromethorphan  Oral Solution, Sugar Free  7.5 mg/5 ml
+MUSY27609NEMIS	Multi-Action Actifed  Syrup  
+TETA2813	Terbutaline Sulfate  M/R tablets  7.5 mg
+BEDI8398EGTON	Becodisks  Disks with diskhaler  200 micrograms/dose
+BECF22846NEMIS	Beclometasone  Cfc-free inhaler  250 micrograms/actuation
+BEIN37959MGEMIS	Beclometasone  Inhaler  50 micrograms/actuation (A.A.H. Pharm)
+IPIN18579NEMIS	Ipratropium And Salbutamol  Inhaler  20 micrograms + 100 micrograms/actuation
+BETI32805EMIS	Benzoin  Tincture  bpc
+BUDR18593NEMIS	Budesonide And Formoterol  Dry Powder Inhaler  400 micrograms + 12 micrograms/actuation
+SANE36903MGEMIS	Salbutamol  Nebuliser solution  5 mg/2.5 ml (Generics (UK))
+COSY34494MGEMIS	Codeine Linctus  Syrup  15 mg/5 ml (A.A.H. Pharm)
+IPAU23857EMIS	Ipratropium Bromide  Autohaler  20 micrograms/puff
+CHTA38068MGEMIS	Chlorphenamine  Tablets  4 mg (Sussex Pharm)
+LETA11687NEMIS	Levocetirizine  Tablets  5 mg
+SUSY8551EGTON	Sudafed Plus  Syrup  
+BECF22845NEMIS	Beclometasone  Cfc-free inhaler  200 micrograms/actuation
+SEAE10636BRIDL	Serevent  Aerosol  25 micrograms/metered dose
+PHST36505MGEMIS	Pholcodine  Strong linctus  10 mg / 5 ml (Unichem)
+SILI10586BRIDL	Simple  Linctus bp  
+MUCA3979	Mucodyne  Capsules  375 mg
+PSM/35752NEMIS	Pseudoephedrine Hydrochloride  M/R tablets  120 mg
+DILI4822	Diamorphine Hydrochloride  Linctus  3 mg/5 ml
+SADR1769NEMIS	Salbutamol  Dry powder capsules for inhalation  400 micrograms
+FLDR18587NEMIS	Fluticasone Propionate And Salmeterol  Dry Powder Inhaler  250 micrograms + 50 micrograms/actuation
+FOIN17645NEMIS	Formoterol  Inhalation Powder Capsules With Device  12 micrograms
+CETA34200MGEMIS	Cetirizine Hydrochloride  Tablets  10 mg (Alpharma)
+BEBR26465EMIS	Beclazone Easi-Breathe  Breath-actuated inhaler  50 micrograms/puff
+ACTA33818EMIS	Accolate  Tablets  20 mg
+AVCF140674NEMIS	NULL
+FLIN4775NEMIS	Flixotide Evohaler  Cfc-free inhaler  50 micrograms/puff
+SEDR35418EMIS	Seretide 250 Accuhaler  Dry powder for inhalation  
+BEIN23632EMIS	Beclazone  Inhaler  100 micrograms/puff
+BEIN23633EMIS	Beclazone  Inhaler  50 micrograms/puff
+BERO289	Becotide  Rotacaps  200 micrograms
+FOCF106430NEMIS	Fostair  Cfc-free inhaler  200 micrograms + 6 micrograms/dose
+VITA4524	Visclair  Tablets  100 mg
+VATA3012	Vallergan  Tablets  10 mg
+SANE36904MGEMIS	Salbutamol  Nebuliser solution  5 mg/2.5 ml (Teva UK)
+LUGR131747NEMIS	Lumacaftor And Ivacaftor  Granules  100 mg + 125 mg sachets
+CESU34164MGEMIS	Cetirizine Hydrochloride  Sugar-free oral solution  5 mg/5 ml (Unichem)
+FRTA3607	Franol  Tablets  
+SECF4758NEMIS	Seretide 125 Evohaler  Cfc-free inhaler  
+XOSO51737NEMIS	Xolair  Solution for injection  75 mg/0.5 ml pre-filled syringe
+SATA36916MGEMIS	Salbutamol  Tablets  2 mg (Kent Pharm)
+LOSY35812MGEMIS	Loratadine  Syrup  5 mg/5 ml (A.A.H. Pharm)
+SILI5312NEMIS	Simple  Linctus paediatric, sugar free  
+FUDR126359NEMIS	Fusacomb Easyhaler  Dry Powder Inhaler  50 micrograms + 250 micrograms/dose
+XOPO21321NEMIS	Xolair  Powder and solvent for solution for injection  150 mg vial
+SATA36917MGEMIS	Salbutamol  Tablets  2 mg (Alpharma)
+EKDR76095NEMIS	Eklira Genuair  Dry Powder Inhaler  322 micrograms/dose
+BEBR26467EMIS	Beclazone 250 Easi-Breathe  Breath-actuated inhaler  250 micrograms/puff
+CETA34202MGEMIS	Cetirizine Hydrochloride  Tablets  10 mg (Generics (UK))
+KAGR109513NEMIS	Kalydeco  Granules  75 mg sachets
+BUCF138255NEMIS	Budesonide And Formoterol  Cfc-free inhaler  100 micrograms + 3 micrograms/dose
+PUTU10003BRIDL	Pulmicort  Turbohaler  400 micrograms/dose
+TETA15951NEMIS	Telfast  Tablets  30 mg
+BERE8399EGTON	Becodisks  Refill disks  100 micrograms/dose
+TIDR13727NEMIS	Tiotropium  Dry powder for inhalation + inhaler  18 micrograms
+SASY11634NEMIS	Salapin  Syrup  2 mg/5 ml
+FLRE22588EMIS	Fluticasone Propionate  Refill disks  250 micrograms/dose
+DITA23524EMIS	Diphenhydramine Hydrochloride  Tablets  25 mg
+CYTA4797	Cyproheptadine Hydrochloride  Tablets  4 mg
+ALSY17779NEMIS	Alimemazine  Oral solution  7.5 mg/5 ml
+UNTA10133BRIDL	Uniphyllin Continus  M/R tablets  300 mg
+REDR86737NEMIS	Relvar Ellipta  Dry Powder Inhaler  92 micrograms + 22 micrograms/dose
+SILI36954MGEMIS	Simple  Linctus bp  (A.A.H. Pharm)
+PHTA2228	Phenergan  Tablets  10 mg
+BEIN37951MGEMIS	Beclometasone  Inhaler  250 micrograms/actuation (Teva UK)
+CLCF22848NEMIS	Clenil Modulite  Cfc-free inhaler  50 micrograms/actuation
+VERO3032	Ventolin  Rotacaps  400 micrograms
+TETA2815	Terfenadine  Tablets  60 mg
+SERE8940BRECO	Serevent  Refill disks  50 micrograms/blister
+SECF4756NEMIS	Seretide 50 Evohaler  Cfc-free inhaler  
+PHSU36508MGEMIS	Pholcodine  Sugar free linctus  Strong, 10 mg/5 ml (Kent Pharm)
+ALCF19413NEMIS	Alvesco  Cfc-free inhaler  80 micrograms/actuation
+ACCA8543EGTON	Acrivastine  Capsules  8 mg
+ALOR13557NEMIS	Allerief  Oral Solution, Sugar Free  2 mg/5 ml
+LOTA35851MGEMIS	Loratadine  Tablets  10 mg (Alpharma)
+PSTA5349	Pseudoephedrine Hydrochloride  Tablets  60 mg
+SUEL2719	Sudafed  Elixir  30 mg /5 ml
+ALTA31090NEMIS	Allercalm Allergy Relief  Tablets  4 mg
+LILI1664	Linctus Simple Bp  Linctus  
+AEAU17918EMIS	Aerobec Forte  Autohaler  250 micrograms/puff
+ESTA124056NEMIS	Esbriet  Tablets  267 mg
+BATA22365EMIS	Bambuterol Hydrochloride  Tablets  10 mg
+AMMI33712MGEMIS	Ammonia And Ipecacuanha  Mixture  (Thornton & Ross)
+CAMI3273	Cam  Mixture  
+FLIN23892EMIS	Fluticasone Propionate  Inhaler  25 micrograms/puff
+KECA1573	Ketotifen  Capsules  1 mg
+FLNE35329EMIS	Fluticasone Propionate  Nebuliser solution  2 mg/2 ml unit dose
+SAM/33746EMIS	Salbutamol  M/R capsules  8 mg
+ADSO71497NEMIS	Adrenaline (Base) 1 In 1,000  Solution for injection  1 mg/1 ml ampoule
+BETI37506MGEMIS	Benzoin  Tincture Compound  bp (Loveridge)
+ADIN37849MGEMIS	Adrenaline  Injection  1 mg/ml, 1 ml ampoule (Martindale)
+EPTA34960MGEMIS	Ephedrine Hydrochloride  Tablets  15 mg (Kent Pharm)
+LOTA9665HILLI	Loratadine  Tablets  10 mg
+AMMI5785	Ammonia And Ipecacuanha  Mixture  
+SAAE9073EMIS	Salmeterol Xinafoate  Aerosol  25 micrograms/metered dose
+FETA31443EMIS	Fexofenadine Hydrochloride  Tablets  180 mg
+BEDR17542NEMIS	Beclometasone  Dry powder capsules for inhalation  200 micrograms/dose
+SUTA4348	Sudafed  Tablets  60 mg
+SAM/33745EMIS	Salbutamol  M/R capsules  4 mg
+MELI1789	Methadone Hydrochloride  Linctus  2 mg/5 ml
+FLNE35330EMIS	Fluticasone Propionate  Nebuliser solution  500 micrograms/2 ml unit dose
+PETA4136	Periactin  Tablets  4 mg
+IPNE36455NEMIS	Ipratropium Steripoule  Nebuliser solution  250 micrograms/ml, 2 ml unit dose
+SYIN116748NEMIS	Symbicort  Pressurised Inhaler  200 micrograms + 6 micrograms/dose
+PHIN47227NEMIS	Pharmalgen Wasp Venom  Injection  Maintenance Set 120 microgram vials
+FEOR138120NEMIS	Fexofenadine Hydrochloride  Oral suspension  180 mg/5 ml
+PUCF33457NEMIS	Pulmicort  Cfc-free inhaler  200 micrograms/dose
+OPSY4083	Optimine  Syrup  500 micrograms/5 ml
+TRPR138720NEMIS	Trixeo Aerosphere  Pressurised Inhaler  5 microgram + 7.2 microgram + 160 microgram/dose
+FLDR18586NEMIS	Fluticasone Propionate And Salmeterol  Dry Powder Inhaler  100 micrograms + 50 micrograms/actuation
+SABR15868NEMIS	Salbutamol  Breath Actuated Pressurised Inhalation, Cfc-free  100 micrograms/actuation
+FIDR139252NEMIS	NULL
+BRTA409	Bricanyl  Tablets  5 mg
+ATTA228	Atarax  Tablets  10 mg
+FLNE35325EMIS	Flixotide Nebules  Nebuliser solution  2 mg/2 ml unit dose
+INNE3762	Intal  Nebuliser solution  10 mg/ml, 2 ml unit dose vial
+SILI5310NEMIS	Simple  Linctus sugar free  
+FLNE138212NEMIS	Fluticasone Propionate (Imported)  Nebuliser solution  500 micrograms/2 ml unit dose
+CHOR38065MGEMIS	Chlorphenamine  Oral Solution, Sugar Free  2 mg/5 ml (Unichem)
+SANE36907MGEMIS	Salbutamol  Nebuliser solution  2.5 mg/2.5 ml (Teva UK)
+CRIN20338EMIS	Cromogen  Inhaler  5 mg/puff
+BUDR12720NEMIS	Budesonide  Dry powder capsules for inhalation  400 micrograms
+SIPA6415NEMIS	Singulair  Paediatric chewable tablets  4 mg
+SOIN130621NEMIS	Soprobec  Inhaler  200 micrograms/dose
+QVBR19056NEMIS	Qvar Easi-Breathe  Breath-Actuated Inhaler (Cfc-Free)  100 micrograms/actuation
+SOCF117674NEMIS	Soltel  Cfc-free inhaler  25 micrograms/dose
+SPSO27050NEMIS	Spiriva Respimat  Inhalation Solution Cartridge With Device  2.5 micrograms/dose
+MOPA17001NEMIS	Montelukast Sodium  Paediatric granules  Sugar Free 4 mg/sachet
+NESY13137NEMIS	Neoclarityn  Syrup  0.5 mg/ml
+NUSO133507NEMIS	Nucala  Solution for injection  100 mg/1 ml pre-filled syringe
+GALI42088NEMIS	Galsud  Linctus  30 mg/5 ml
+PHEL2227	Phenergan  Elixir  5 mg/5 ml
+SADR5080NEMIS	Salbutamol  Dry powder for inhalation  95 micrograms/metered actuation
+PISU17486NEMIS	Piriteze Allergy  Sugar-free oral solution  5 mg/5 ml
+BEIN17539NEMIS	Beclometasone  Inhaler  50 micrograms/actuation
+PREL2379	Promethazine Hydrochloride  Elixir  Sugar Free 5 mg/5 ml
+CHTA38066MGEMIS	Chlorphenamine  Tablets  4 mg (Alpharma)
+KEEL138289NEMIS	Ketotifen (Imported)  Oral Solution, Sugar Free  1 mg/5 ml
+SADR21103NEMIS	Salbutamol  Dry Powder Inhaler  100 micrograms/actuation
+ATIN138223NEMIS	Atectura Breezhaler  Inhalation Powder Capsules With Device  125 micrograms + 62.5 micrograms
+TEFO10773BRIDL	Terfenadine  Tablets  120 mg
+FLDR1877NEMIS	Fluticasone Propionate  Dry powder breath-actuated inhaler  250 micrograms
+FODR24340NEMIS	Formoterol Easyhaler  Dry Powder Inhaler  12 micrograms/actuation
+SECF4756NEMIS	Seretide 50 Evohaler  Cfc-free inhaler  
+JESO51741NEMIS	Jext  Solution for injection  150 micrograms/0.15 ml (1 in 1,000)
+BECA86045NEMIS	Benadryl Allergy Liquid Release  Capsules  10 mg
+STIN133905NEMIS	Striverdi Respimat  Inhalation Solution Refill Cartridge  2.5 micrograms/dose
+STLO5204NEMIS	Strepsils Cough  Lozenges  
+LUCF139759NEMIS	NULL
+ACDR76091NEMIS	Aclidinium Bromide  Dry Powder Inhaler  375 micrograms/dose
+SATA2494	Salbutamol  Tablets  4 mg
+ANSO39960NEMIS	Anapen  Solution for injection in pre-filled syringe  500 micrograms/dose
+FLDR1882NEMIS	Fluticasone Propionate  Dry powder disks + disk inhaler  500 micrograms
+WODR140458NEMIS	NULL
+CETA8573EGTON	Cetirizine Hydrochloride  Tablets  10 mg
+SASU36913MGEMIS	Salbutamol  Sugar free syrup  2 mg/5 ml (Sandoz)
+FLAC26695EMIS	Flixotide  Accuhaler  250 micrograms/dose
+ORGR131749NEMIS	Orkambi  Granules  100 mg + 125 mg sachets
+PHIN47223NEMIS	Pharmalgen Bee Venom  Injection  Maintenance Set 120 microgram vials
+SARE9074EMIS	Salmeterol Xinafoate  Refill disks  50 micrograms/blister
+AZSY4618	Azatadine Maleate  Syrup  500 micrograms/5 ml
+DILI3441	Dimotane Plus  Liquid  
+JESO51742NEMIS	Jext  Solution for injection  300 micrograms/0.3 ml (1 in 1,000)
+BESY133329NEMIS	Benylin Mucus Cough Plus Decongestant  Syrup  100 mg/5 ml + 30 mg/5 ml
+BESO134240NEMIS	Benralizumab  Solution for injection  30 mg/1 ml pre-filled device
+SACF3932NEMIS	Salamol  Cfc-free inhaler  100 micrograms/dose
+TIOR29101NEMIS	Tixylix Night Cough  Oral solution  
+BEDR17544NEMIS	Beclometasone  Dry Powder Inhaler  100 micrograms/actuation
+BEDR17531NEMIS	Beclometasone  Dry powder disks + disk inhaler  100 micrograms/dose
+TRNE32176EMIS	Tropiovent Steripoules  Nebuliser solution  500 micrograms/2 ml
+CLCF22848NEMIS	Clenil Modulite  Cfc-free inhaler  50 micrograms/actuation
+NUTA2042	Nuelin  Tablets  125 mg
+SAAC26709EMIS	Salmeterol Xinafoate  Accuhaler  50 micrograms/dose
+ALOR139535NEMIS	NULL
+SILI37756MGEMIS	Simple  Linctus paediatric, sugar free  (Unichem)
+BUIN40206NEMIS	Budelin Novolizer  Inhalation Powder With Device  200 micrograms/dose
+INSP1483	Intal  Spincaps  20 mg
+CETA34194MGEMIS	Cetirizine Hydrochloride  Tablets  10 mg (Cp Pharm)
+GALI3625	Galpseud  Linctus  30 mg/5 ml
+THTA2835	Theo-Dur  Tablets  300 mg
+MESO133505NEMIS	Mepolizumab  Solution for injection  100 mg/1 ml pre-filled syringe
+SAIN40204NEMIS	Salbulin Novolizer  Inhalation Powder Refill  100 micrograms/dose
+ADIN37853MGEMIS	Adrenaline  Injection  1 mg/ml, 5 ml ampoule (Martindale)
+GUOR133327NEMIS	Guaifenesin And Pseudoephedrine  Oral solution  100 mg/5 ml + 30 mg/5 ml
+ASBR34123EMIS	Asmabec Clickhaler  Breath-actuated inhaler  50 micrograms/dose
+TETA30494EMIS	Telfast  Tablets  120 mg
+MODR44710NEMIS	Mometasone Furoate  Dry Powder Inhaler  200 micrograms/dose
+FODR125130NEMIS	Fobumix Easyhaler  Dry Powder Inhaler  80 micrograms + 4.5 micrograms/dose
+CECA86043NEMIS	Cetirizine Hydrochloride  Capsules  10 mg
+ATNE35205NEMIS	Atrovent  Nebuliser solution  250 micrograms/ml, 1 ml unit dose vial
+DOIN6874	Doxapram Hydrochloride  Injection  20 mg/ml, 5 ml ampoule
+SEIN77082NEMIS	Seebri Breezhaler  Inhalation Powder Capsules With Device  44 micrograms
+BEIN17538NEMIS	Beclometasone  Inhaler  100 micrograms/actuation
+FLEF88598NEMIS	Fluimucil 600  Effervescent tablets  
+LOSY35813MGEMIS	Loratadine  Syrup  5 mg/5 ml (Teva UK)
+FASO134241NEMIS	Fasenra  Solution for injection  30 mg/1 ml pre-filled pen
+PUDR11418NEMIS	Pulvinal Beclometasone Dipropionate  Dry Powder Inhaler  100 micrograms/metered dose
+BEIN281	Beclomethasone Dipropionate  Inhaler  50 micrograms/puff
+BITA48719NEMIS	Bilastine  Tablets  20 mg
+PHOR29099NEMIS	Pholcodine And Promethazine  Oral Solution, Sugar Free  1.5 mg/5 ml + 1.5 mg/5 ml
+MIM/32254EMIS	Mizolastine  M/R tablets  10 mg
+MEIN35879MGEMIS	Menthol & Eucalyptus  Inhalation  (A.A.H. Pharm)
+ACGR24	Acetylcysteine  Granules  200 mg/sachet
+SECF4760NEMIS	Seretide 250 Evohaler  Cfc-free inhaler  
+SAAE9073EMIS	Salmeterol Xinafoate  Aerosol  25 micrograms/metered dose
+CETA34204MGEMIS	Cetirizine Hydrochloride  Tablets  10 mg (Ivax Pharmaceuticals)
+BERE8400EGTON	Becodisks  Refill disks  200 micrograms/dose
+FLDI22574EMIS	Flixotide  Disks with diskhaler  50 micrograms/dose
+BATA22366EMIS	Bambuterol Hydrochloride  Tablets  20 mg
+DEOR116962NEMIS	Dextromethorphan  Oral suspension  30 mg/5 ml
+SLCA2583	Slo-Phyllin  Capsules  250 mg
+AEAE9564BRIDL	Aerolin Autohaler  Aerosol inhalation  100 micrograms/puff
+ASBR34122EMIS	Asmabec Clickhaler  Breath-actuated inhaler  250 micrograms/dose
+PITA2278	Piriton  Tablets  4 mg
+STNE22544EMIS	Salamol Steri-Neb  Nebuliser solution  5 mg/2.5 ml
+KEIN126376NEMIS	Kelhale  Inhaler  100 micrograms/dose
+MODR44711NEMIS	Mometasone Furoate  Dry Powder Inhaler  400 micrograms/dose
+LOSY35817MGEMIS	Loratadine  Syrup  5 mg/5 ml (Unichem)
+VEDI8432EGTON	Ventodisks  Disks with diskhaler  400 micrograms/dose
+SATA36923MGEMIS	Salbutamol  Tablets  4 mg (A.A.H. Pharm)
+SILI37750MGEMIS	Simple  Linctus sugar free  (A.A.H. Pharm)
+ATAE246	Atrovent  Aerosol inhalation  20 micrograms/puff
+BECA101282NEMIS	Benadryl Allergy Relief Plus Decongestant  Capsules  
+SAIN2479	Salbulin  Inhaler  100 micrograms/puff
+LOSY35814MGEMIS	Loratadine  Syrup  5 mg/5 ml (Kent Pharm)
+SOCF30736NEMIS	Sodium Cromoglicate  Cfc-free inhaler  5 mg/actuation
+BRTUEGTON7168	Bricanyl  Turbohaler  500 micrograms/dose
+AIBR35356EMIS	Airomir Autohaler  Breath-Actuated Inhaler (Cfc-Free)  100 micrograms/dose
+CHSY581	Chlorpheniramine Maleate  Syrup  2 mg/5 ml
+SAIN2479	Salbulin  Inhaler  100 micrograms/puff
+FETA31443EMIS	Fexofenadine Hydrochloride  Tablets  180 mg
+SAIN29845NEMIS	Salbutamol  Inhalation Cartridge Refill  100 micrograms/dose
+AMMI33711MGEMIS	Ammonia And Ipecacuanha  Mixture  (A.A.H. Pharm)
+BRIN117769NEMIS	Braltus  Inhalation Powder Capsules With Inhaler  10 micrograms
+SECF21619NEMIS	Serevent Evohaler  Cfc-free inhaler  25 micrograms/actuation
+LOSY35811MGEMIS	Loratadine  Syrup  5 mg/5 ml (Alpharma)
+PHIN15565NEMIS	Phenergan  Injection  25 mg/ml, 1 ml ampoule
+VECF34087EMIS	Ventolin Evohaler  Cfc-free inhaler  100 micrograms/puff
+EPTA34965MGEMIS	Ephedrine Hydrochloride  Tablets  30 mg (A.A.H. Pharm)
+SYTU15234NEMIS	Symbicort  Turbohaler  400/12 micrograms/inhalation
+EMSO86730NEMIS	Emerade  Solution for injection  500 micrograms/0.5 ml auto-injector
+MEIN35881MGEMIS	Menthol & Eucalyptus  Inhalation  (Loveridge)
+ORGR131750NEMIS	Orkambi  Granules  150 mg + 188 mg sachets
+SICF102550NEMIS	Sirdupla  Cfc-free inhaler  25 micrograms + 250 micrograms/dose
+SPDR13731NEMIS	Spiriva Refill  Dry powder capsules for inhalation  18 micrograms
+FLCF3683NEMIS	Fluticasone Propionate  Cfc-free inhaler  125 micrograms/puff
+TETA2812	Terbutaline Sulfate  Tablets  5 mg
+AMTA33731MGEMIS	Aminophylline  Tablets  100 mg (A.A.H. Pharm)
+BEBR26464EMIS	Beclazone Easi-Breathe  Breath-actuated inhaler  100 micrograms/puff
+SANE36906MGEMIS	Salbutamol  Nebuliser solution  2.5 mg/2.5 ml (Generics (UK))
+CICO120347NEMIS	Cinqaero  Concentrate For Solution For Infusion  100 mg/10 ml vial
+COSY3330	Codeine Linctus  Syrup  15 mg/5 ml
+OMSO51735NEMIS	Omalizumab  Solution for injection  75 mg/0.5 ml pre-filled syringe
+UCTA19793EMIS	Ucerax  Tablets  25 mg
+INCF30737NEMIS	Intal  Cfc-free inhaler  5 mg/actuation
+CATI4097NEMIS	Camphorated Opium  Tincture  BP
+BESU17496NEMIS	Benadryl Allergy  Sugar-free oral solution  5 mg/5 ml
+SOIN17854NEMIS	Sodium Cromoglicate  Inhaler  5 mg/actuation
+FLCF18583NEMIS	Fluticasone Propionate And Salmeterol  Cfc-free inhaler  50 micrograms + 25 micrograms/actuation
+SATA36921MGEMIS	Salbutamol  Tablets  4 mg (Alpharma)
+BEDR12714NEMIS	Beclometasone 100 Cyclocaps  Dry powder capsules for inhalation  100 micrograms
+SECA8541EGTON	Semprex  Capsules  8 mg
+PHLI2247	Pholcodine  Linctus  5 mg/5 ml
+BRRE404	Bricanyl  Respirator solution  10 mg/ml
+ACEF123576NEMIS	Aceteff  Effervescent tablets  600 mg
+COIN24315EMIS	Combivent  Inhaler  
+CESU34166MGEMIS	Cetirizine Hydrochloride  Sugar-free oral solution  5 mg/5 ml (A.A.H. Pharm)
+TIIN133900NEMIS	Tiotropium Bromide And Olodaterol  Inhalation Solution Refill Cartridge  2.5 micrograms + 2.5 micrograms/dose
+SUM/35754NEMIS	Sudafed Non-Drowsy 12 Hour Relief  M/R tablets  120 mg
+CETA34195MGEMIS	Cetirizine Hydrochloride  Tablets  10 mg (Sterwin Medicines)
+FODR93397NEMIS	Fostair Nexthaler  Dry Powder Inhaler  100 micrograms + 6 micrograms/dose
+EPEL34952MGEMIS	Ephedrine Hydrochloride  Elixir  15 mg/5 ml (A.A.H. Pharm)
+THCA2841	Theophylline S/R  Capsules  250 mg
+KACA1543	Karvol  Capsules  
+BUDR21820NEMIS	Budesonide  Dry Powder Inhaler  100 micrograms/actuation
+COLI37800MGEMIS	Codeine  Linctus sugar free  BP (A.A.H. Pharm)
+RESO124735NEMIS	Reslizumab  Solution for infusion  25 mg/2.5 ml vial
+ADIN37850MGEMIS	Adrenaline  Injection  1 mg/ml, 1 ml ampoule (Unichem)
+ININ138218NEMIS	Indacaterol And Mometasone  Inhalation Powder Capsules With Device  125 micrograms + 260 micrograms/dose
+THCA2840	Theophylline S/R  Capsules  125 mg
+DIEL3438	Dimotane  Elixir  2 mg/5 ml
+LOTA35853MGEMIS	Loratadine  Tablets  10 mg (Sandoz)
+IPCF133992NEMIS	Ipravent  Cfc-free inhaler  20 micrograms/dose
+DUUN23414EMIS	Duovent  Nebuliser solution  4 ml Unit Dose Vial
+FLCF3683NEMIS	Fluticasone Propionate  Cfc-free inhaler  125 micrograms/puff
+IVGR109511NEMIS	Ivacaftor  Sugar free granules  50 mg sachets
+SICH31530LEEDS	Singulair  Tablets  10 mg
+BEIN17538NEMIS	Beclometasone  Inhaler  100 micrograms/actuation
+UNTA2986	Uniphyllin Continus  M/R tablets  400 mg
+IPDR25769EMIS	Ipratropium Bromide  Dry powder for inhalation  40 micrograms
+SASR7953	Salbutamol  Sr tablets  4 mg
+FLDR86732NEMIS	Fluticasone Furoate And Vilanterol  Dry Powder Inhaler  184 micrograms + 22 micrograms/dose
+SADR1874NEMIS	Salmeterol Xinafoate  Dry powder disks + disk inhaler  50 micrograms
+INAE3763	Intal  Inhaler  5 mg/dose
+GLIN77079NEMIS	Glycopyrronium Bromide  Inhalation Powder Capsules With Device  55 micrograms
+THTA2834	Theo-Dur  Tablets  200 mg
+OXAU23862EMIS	Oxivent  Autohaler  100 micrograms/puff
+BEIN37953MGEMIS	Beclometasone  Inhaler  200 micrograms/actuation (A.A.H. Pharm)
+CICO124736NEMIS	Cinqaero  Concentrate For Solution For Infusion  25 mg/2.5 ml vial
+LUTA109505NEMIS	Lumacaftor And Ivacaftor  Tablets  200 mg + 125 mg
+SASR7954	Salbutamol  Sr tablets  8 mg
+SOIN130620NEMIS	Soprobec  Inhaler  100 micrograms/dose
+CACA138906NEMIS	Carbocisteine  Capsules  750 mg
+SPDR13730NEMIS	Spiriva Combopack  Dry powder for inhalation + inhaler  18 micrograms
+GAPA9552HILLI	Galcodine  Paediatric linctus  3 mg/5 ml
+CETA34198MGEMIS	Cetirizine Hydrochloride  Tablets  10 mg (Unichem)
+BUDR21822NEMIS	Budesonide  Dry Powder Inhaler  400 micrograms/actuation
+FLCF3681NEMIS	Flixotide Evohaler  Cfc-free inhaler  125 micrograms/puff
+SACF36889MGEMIS	Salbutamol  Cfc-free inhaler  100 micrograms/puff (Alpharma)
+CEPO51127NEMIS	Cetor  Powder and solvent for solution for injection  500 unit vial
+SEAC26707EMIS	Serevent  Accuhaler  50 micrograms/dose
+NUPO108704NEMIS	Nucala  Powder For Solution For Injection  100 mg vial
+KEIN126377NEMIS	Kelhale  Inhaler  50 micrograms/dose
+BATA22362EMIS	Bambec  Tablets  20 mg
+BEDI19750EMIS	Becloforte  Disks with diskhaler  400 micrograms/dose
+BUAE4665	Budesonide  Aerosol inhalation  200 micrograms/dose
+POMI11075NEMIS	Potassium Iodide and Ammonia  Mixture  BPC
+GUOR123404NEMIS	Guaifenesin  Oral Solution, Sugar Free  66.67 mg/5 ml
+AEIN24508EMIS	Aerocrom Syncroner  Inhaler with spacer device  
+COUN26806EMIS	Combivent  Nebuliser solution  
+CLCF22852NEMIS	Clenil Modulite  Cfc-free inhaler  200 micrograms/actuation
+MIOR72195NEMIS	Midetorin  Oral solution  0.5 mg/ml
+FLCF3682NEMIS	Flixotide Evohaler  Cfc-free inhaler  250 micrograms/puff
+BRSY408	Bricanyl  Syrup  1.5 mg/5 ml
+ADSO126145NEMIS	Adrenaline (Base) 1 In 1,000  Solution for injection  150 micrograms/0.15 ml pre-filled device
+PHEL2227	Phenergan  Elixir  5 mg/5 ml
+DIOR38709NEMIS	Diphenhydramine And Dextromethorphan  Oral Solution, Sugar Free  10 mg/5 ml + 6.65 mg/5 ml
+SIPA36958MGEMIS	Simple  Paediatric linctus bp  (Thornton & Ross)
+PHIN47221NEMIS	Pharmalgen Bee Venom  Injection  Initial Set
+FLBR127599NEMIS	Flutiform K-haler  Breath-actuated inhaler  125 micrograms + 5 micrograms/dose
+COIN626NEMIS	Combivent UDVs  Inhalation solution  2.5 ml
+TESP2810	Terbutaline Sulfate  Spacer inhaler  250 micrograms/puff
+CHIN38061MGEMIS	Chlorphenamine  Injection  10 mg/ml, 1 ml ampoule (A.A.H. Pharm)
+PHSU23403EMIS	Pholcodine  Sugar free linctus  Strong, 10 mg/5 ml
+COCF126939NEMIS	Combisal  Cfc-free inhaler  25 micrograms + 50 micrograms/dose
+BEPO105678NEMIS	Berinert  Powder and solvent for solution for injection  1,500 unit vial
+GAST10912BRIDL	Galenphol  Strong linctus  10 mg/5 ml
+CHOR38063MGEMIS	Chlorphenamine  Oral Solution, Sugar Free  2 mg/5 ml (A.A.H. Pharm)
+ININ138219NEMIS	Indacaterol And Mometasone  Inhalation Powder Capsules With Device  125 micrograms + 62.5 micrograms/dose
+SOIN17855NEMIS	Sodium Cromoglicate  Inhaler with spacer device  5 mg/actuation
+BIOR138178NEMIS	Bilastine  Oral Solution, Sugar Free  2.5 mg/ml
+SYTU10848NEMIS	Symbicort  Turbohaler  200/6 micrograms/inhalation
+KEEL138286NEMIS	Ketotifen (Special Order)  Oral Solution, Sugar Free  1 mg/5 ml
+VENE3029	Ventolin  Nebules  2.5 mg/2.5 ml unit dose
+VERO3031	Ventolin  Rotacaps  200 micrograms
+CLSY19817EMIS	Clarityn  Syrup  5 mg/5 ml
+ILOR138177NEMIS	Ilaxten  Orodispersible tablets  10 mg
+SLCA2582	Slo-Phyllin  Capsules  125 mg
+DUAU23860EMIS	Duovent  Autohaler  
+CHOR17592NEMIS	Chlorphenamine  Oral Solution, Sugar Free  2 mg/5 ml
+TIIN133902NEMIS	Tiotropium  Inhalation Solution Refill Cartridge  2.5 micrograms/dose
+GALI19761EMIS	Galpseud Plus  Linctus  
+TETA31441EMIS	Telfast  Tablets  180 mg
+VEIN3028	Ventolin  Solution for injection  500 micrograms/ml, 1 ml ampoule
+BEIN23635EMIS	Beclazone 250  Inhaler  250 micrograms/puff
+BERE9503BRIDL	Becodisks  Refill disks  400 micrograms/dose
+CESU24106EMIS	Cetirizine Hydrochloride  Sugar-free oral solution  5 mg/5 ml
+FLAC26696EMIS	Flixotide  Accuhaler  50 micrograms/dose
+TRSY2935	Trimeprazine Tartrate  Syrup forte  30 mg/5 ml
+CASY491	Carbocisteine  Oral solution  250 mg/5 ml
+BECA4569NEMIS	Benadryl Allergy Relief  Capsules  8 mg
+ININ22184EMIS	Intal Fisonair  Inhaler with spacer device  5 mg/puff
+ATPR21154NEMIS	Atimos Modulite  Cfc-free inhaler  12 micrograms/actuation
+NITA11321NEMIS	Nightcalm  Tablets  25 mg
+FETA15950NEMIS	Fexofenadine Hydrochloride  Tablets  30 mg
+UNTA10133BRIDL	Uniphyllin Continus  M/R tablets  300 mg
+SASU10266BRIDL	Salbutamol  Oral Solution, Sugar Free  2 mg/5 ml
+BERE17536NEMIS	Beclometasone  Refill disks  400 micrograms/dose
+PHTA27062EMIS	Phenergan Nightime  Tablets  25 mg
+OXBR31953EMIS	Oxis Turbohaler  Breath-actuated inhaler  12 micrograms/dose, 60 dose
+FLRE22588EMIS	Fluticasone Propionate  Refill disks  250 micrograms/dose
+PRTA15466NEMIS	Promethazine Hydrochloride  Tablets  20 mg
+THCA2841	Theophylline S/R  Capsules  250 mg
+BERO288	Becotide  Rotacaps  100 micrograms
+MELI35897MGEMIS	Methadone Hydrochloride  Linctus  2 mg/5 ml (A.A.H. Pharm)
+BEBR17528NEMIS	Beclometasone  Breath-actuated inhaler  100 micrograms/actuation
+CHTA17593NEMIS	Chlorphenamine  Tablets  4 mg
+PHTA2250	Phyllocontin Continus  M/R tablets  225 mg
+DUIN1006	Duovent  Inhaler  
+FETA30496EMIS	Fexofenadine Hydrochloride  Tablets  120 mg
+LOTA35854MGEMIS	Loratadine  Tablets  10 mg (Winthrop Pharmaceuticals )
+COLI37802MGEMIS	Codeine  Linctus sugar free  BP (Kent Pharm)
+PHTA2229	Phenergan  Tablets  25 mg
+FLNE35326EMIS	Flixotide Nebules  Nebuliser solution  500 micrograms/2 ml unit dose
+CETA34201MGEMIS	Cetirizine Hydrochloride  Tablets  10 mg (Ranbaxy)
+RUOR131603NEMIS	Rupatadine  Oral solution  1 mg/ml
+BEBR17527NEMIS	Beclometasone  Breath-actuated inhaler  50 micrograms/actuation
+BRIN73972NEMIS	Bronchitol  Inhalation Powder Capsules With Two Devices  40 mg
+BUDR18592NEMIS	Budesonide And Formoterol  Dry Powder Inhaler  200 micrograms + 6 micrograms/actuation
+KETA1574	Ketotifen  Tablets  1 mg
+STDR130624NEMIS	Stalpex  Dry Powder Inhaler  50 micrograms + 500 micrograms/dose
+RENE32713EMIS	Respontin Nebules  Nebuliser solution  500 micrograms/2 ml
+QVCF33774EMIS	Qvar 50 Autohaler  Cfc-Free Breath-Actuated Inhaler  50 micrograms/dose
+AEAU17916EMIS	Aerobec  Autohaler  50 micrograms/puff
+ININ125075NEMIS	Inhalvent  Inhaler  20 micrograms/dose
+BEIN37961MGEMIS	Beclometasone  Inhaler  50 micrograms/actuation (Kent Pharm)
+PISY2277	Piriton  Syrup  2 mg/5 ml
+FOPR21152NEMIS	Formoterol  Cfc-free inhaler  12 micrograms/actuation
+TEIN2805	Terbutaline Sulfate  Solution for injection  500 micrograms/ml, 1 ml ampoule
+FLAC26697EMIS	Flixotide  Accuhaler  500 micrograms/dose
+SODR17861NEMIS	Sodium Cromoglicate  Dry powder capsules for inhalation  20 mg/dose
+ITOR140629NEMIS	NULL
+SPIN104647NEMIS	Spiolto Respimat  Inhalation Solution Cartridge With Device  2.5 micrograms + 2.5 micrograms/dose
+VEM/33742EMIS	Ventmax Sr  M/R capsules  8 mg
+BEIN9187EMIS	Becotide 200  Inhaler  200 micrograms/puff
+BEBR17528NEMIS	Beclometasone  Breath-actuated inhaler  100 micrograms/actuation
+FOCF28856NEMIS	Fostair  Cfc-free inhaler  100 micrograms + 6 micrograms/dose
+CRBR30018EMIS	Cromogen Easi-Breathe  Breath-actuated inhaler  5 mg/dose
+MOPA31535LEEDS	Montelukast Sodium  Paediatric chewable tablets  Sugar Free 5 mg
+EPTA34963MGEMIS	Ephedrine Hydrochloride  Tablets  15 mg (Wockhardt UK)
+GATA3626	Galpseud  Tablets  60 mg
+MELI1789	Methadone Hydrochloride  Linctus  2 mg/5 ml
+SEDI8939BRECO	Serevent  Disks with diskhaler  50 micrograms/blister
+LUTA130658NEMIS	Lumacaftor And Ivacaftor  Tablets  100 mg + 125 mg
+PHTA2251	Phyllocontin Continus  M/R Tablets Forte  350 mg
+PRIN15564NEMIS	Promethazine Hydrochloride  Injection  25 mg/ml, 1 ml ampoule
+SAIN2483	Salbutamol  Inhaler  100 micrograms/puff
+FLDR18586NEMIS	Fluticasone Propionate And Salmeterol  Dry Powder Inhaler  100 micrograms + 50 micrograms/actuation
+PURE9409EMIS	Pulmicort  Respules  1 mg/2 ml single dose unit
+SOBR17853NEMIS	Sodium Cromoglicate  Breath-actuated inhaler  5 mg/actuation
+SPIN133903NEMIS	Spiriva Respimat  Inhalation Solution Refill Cartridge  2.5 micrograms/dose
+SILI37752MGEMIS	Simple  Linctus sugar free  (Kent Pharm)
+CHOR38064MGEMIS	Chlorphenamine  Oral Solution, Sugar Free  2 mg/5 ml (Sandoz)
+EPTA34966MGEMIS	Ephedrine Hydrochloride  Tablets  30 mg (Kent Pharm)
+FLRE24087EMIS	Fluticasone Propionate  Refill disks  500 micrograms/puff
+FLDR1880NEMIS	Fluticasone Propionate  Dry powder disks + disk inhaler  100 micrograms
+BESO126037NEMIS	Benralizumab  Solution for injection  30 mg/1 ml pre-filled syringe
+GALI19761EMIS	Galpseud Plus  Linctus  
+AMIN33697MGEMIS	Aminophylline  Injection  250 mg/10 ml ampoule (Phoenix)
+BUIN40207NEMIS	Budelin Novolizer  Inhalation Powder Refill  200 micrograms/dose
+TEIN2804	Terbutaline Sulfate  Inhaler  250 micrograms/puff
+MIM/35543EMIS	Mistamine  M/R tablets  10 mg
+CACA3288	Carbocisteine  Capsules  375 mg
+IPNE24828EMIS	Ipratropium Steri-Neb  Nebuliser solution  250 micrograms/1 ml
+SILI37751MGEMIS	Simple  Linctus sugar free  (Vantage)
+SATA36919MGEMIS	Salbutamol  Tablets  2 mg (Unichem)
+EPTA34967MGEMIS	Ephedrine Hydrochloride  Tablets  30 mg (Wockhardt UK)
+VERE3030	Ventolin  Respirator solution  0.5 %
+ININ96776NEMIS	Indacaterol And Glycopyrronium Bromide  Inhalation Powder Capsules With Device  85 micrograms + 54 micrograms/dose
+BEIN37958MGEMIS	Beclometasone  Inhaler  100 micrograms/actuation (Kent Pharm)
+DOSO24172EMIS	Dornase Alfa  Nebuliser Liquid  2.5 mg/2.5 ml
+PHIN47225NEMIS	Pharmalgen Wasp Venom  Injection  Initial Set
+DUDR91333NEMIS	Duoresp Spiromax  Dry Powder Inhaler  160 micrograms + 4.5 micrograms/dose
+NOM/4232NEMIS	Norphyllin Sr  M/R tablets  225 mg
+MUTA30626NEMIS	Multi-Action Actifed  Tablets  60 mg + 2.5 mg
+MOPA31535LEEDS	Montelukast Sodium  Paediatric chewable tablets  Sugar Free 5 mg
+UNPA2985	Uniphyllin Continus  M/R tablets  200 mg
+PHLI36486MGEMIS	Pholcodine  Linctus  5 mg/5 ml (Thornton & Ross)
+PHST8691BRID	Pholcodine  Strong linctus  10 mg/5 ml
+SADI19640EMIS	Salbutamol  Disks with diskhaler  200 micrograms/dose
+FLCF4774NEMIS	Fluticasone Propionate  Cfc-free inhaler  50 micrograms/puff
+XOSO51738NEMIS	Xolair  Solution for injection  150 mg/1 ml pre-filled syringe
+ALSY17780NEMIS	Alimemazine  Oral solution  30 mg/5 ml
+COSY34496MGEMIS	Codeine Linctus  Syrup  15 mg/5 ml (Unichem)
+CETA34203MGEMIS	Cetirizine Hydrochloride  Tablets  10 mg (Sandoz)
+COCF126941NEMIS	Combisal  Cfc-free inhaler  25 micrograms + 250 micrograms/dose
+THTA765NEMIS	Theophylline S/R  Tablets  250 mg
+EMSO86728NEMIS	Emerade  Solution for injection  150 micrograms/0.15 ml auto-injector
+ATIN138222NEMIS	Atectura Breezhaler  Inhalation Powder Capsules With Device  125 micrograms + 260 micrograms
+BEBR1868NEMIS	Beclomethasone Dipropionate  Breath-actuated aerosol inhaler  100 micrograms
+SASU36912MGEMIS	Salbutamol  Sugar free syrup  2 mg/5 ml (A.A.H. Pharm)
+HYTA5015	Hydroxyzine Hydrochloride  Tablets  10 mg
+FLRE22576EMIS	Flixotide  Refill disks  250 micrograms/dose
+FIIN23561EMIS	Filair  Inhaler  50 micrograms/puff
+POSU47229NEMIS	Pollinex Grasses & Rye  Suspension For Injection  treatment/extension course vials
+ATTA229	Atarax  Tablets  25 mg
+COOR11268NEMIS	Covonia Original Bronchial Balsam  Oral solution  
+PSEL2407	Pseudoephedrine Hydrochloride  Elixir  30 mg /5 ml
+CLTA119042NEMIS	Clarityn Rapide Allergy  Tablets  10 mg
+BUCF33454NEMIS	Budesonide  Cfc-free inhaler  100 micrograms/dose
+FUDR126360NEMIS	Fusacomb Easyhaler  Dry Powder Inhaler  50 micrograms + 500 micrograms/dose
+SQLI5814	Squill Opiate  Linctus  
+TETA37167MGEMIS	Terfenadine  Tablets  60 mg (A.A.H. Pharm)
+INDR95181NEMIS	Incruse Ellipta  Dry Powder Inhaler  55 micrograms/dose
+AIDR106134NEMIS	Airflusal Forspiro  Dry Powder Inhaler  50 micrograms + 500 micrograms/dose
+TIIN104645NEMIS	Tiotropium Bromide And Olodaterol  Inhalation Solution Cartridge With Device  2.5 micrograms + 2.5 micrograms/dose
+FLAC26694EMIS	Flixotide  Accuhaler  100 micrograms/dose
+ALSY86	Alupent  Syrup  10 mg/5 ml
+MIM/32252EMIS	Mizollen  M/R tablets  10 mg
+SILI36952MGEMIS	Simple  Linctus bp  (Thornton & Ross)
+BRRE10021BRIDL	Bricanyl  Respules  5 mg/2 ml
+POSU47232NEMIS	Pollinex Trees  Suspension For Injection  treatment/extension course vials
+BREL4663	Brompheniramine Maleate  Elixir  2 mg/5 ml
+ATCF17453NEMIS	Atrovent  Cfc-free inhaler  20 micrograms/dose
+KEEL10499BRIDL	Ketotifen  Elixir  Sugar Free 1mg/5 ml
+ALSY137910NEMIS	Alfresed  Syrup  30 mg/5 ml
+IPNE9128BRIDL	Ipratropium Bromide  Nebuliser solution  500 micrograms/2 ml unit dose vial
+CHOR17591NEMIS	Chlorphenamine  Oral solution  2 mg/5 ml
+CETA34196MGEMIS	Cetirizine Hydrochloride  Tablets  10 mg (Kent Pharm)
+TESY37145MGEMIS	Terbutaline Sulfate  Syrup  Sugar Free 1.5 mg/5 ml (A.A.H. Pharm)
+PRTA2381	Promethazine Hydrochloride  Tablets  25 mg
+AMTA4585	Aminophylline  M/R Tablets Forte  350 mg
+SICF102549NEMIS	Sirdupla  Cfc-free inhaler  25 micrograms + 125 micrograms/dose
+IVSU135944NEMIS	Ivacaftor  Sugar free granules  25 mg sachets
+AMIN33696MGEMIS	Aminophylline  Injection  250 mg/10 ml ampoule (Unichem)
+BEIN37956MGEMIS	Beclometasone  Inhaler  100 micrograms/actuation (Unichem)
+TIDR13729NEMIS	Tiotropium  Dry powder capsules for inhalation  18 micrograms
+CESU34165MGEMIS	Cetirizine Hydrochloride  Sugar-free oral solution  5 mg/5 ml (Sandoz)
+BEIN293	Becotide 50  Inhaler  50 micrograms/puff
+PUTU10001BRIDL	Pulmicort  Turbohaler  200 micrograms/dose
+ROOR100560NEMIS	Robitussin Dry Cough  Oral Solution, Sugar Free  7.5 mg/5 ml
+EPIN27256EMIS	Epipen  Solution for injection  300 micrograms/0.3 ml auto-injector
+SANE48179NEMIS	Salbutamol Steripoule  Nebuliser Liquid  2.5 mg/2.5 ml unit dose vial
+MUSY1907	Mucodyne  Syrup  250 mg/5 ml
+FLCF18585NEMIS	Fluticasone Propionate And Salmeterol  Cfc-free inhaler  250 micrograms + 25 micrograms/actuation
+MOCH31534LEEDS	Montelukast Sodium  Tablets  10 mg
+SANE36775NEMIS	Salipraneb  Nebuliser solution  500 micrograms/2.5 ml + 2.5 mg/2.5 ml ampoule
+FLRE22587EMIS	Fluticasone Propionate  Refill disks  100 micrograms/dose
+CETA34197MGEMIS	Cetirizine Hydrochloride  Tablets  10 mg (A.A.H. Pharm)
+SACF36890MGEMIS	Salbutamol  Cfc-free inhaler  100 micrograms/puff (Generics (UK))
+AMIN33695MGEMIS	Aminophylline  Injection  250 mg/10 ml ampoule (A.A.H. Pharm)
+PHSU36511MGEMIS	Pholcodine  Sugar free linctus  5 mg/5 ml (Kent Pharm)
+DIPA3442	Dimotane Plus  Paediatric liquid  
+IVGR109512NEMIS	Ivacaftor  Sugar free granules  75 mg sachets
+ESTA124057NEMIS	Esbriet  Tablets  801 mg
+ATAE25766EMIS	Atrovent  Aerocaps with aerohaler  40 micrograms
+PRTA2380	Promethazine Hydrochloride  Tablets  10 mg
+BEDI8397EGTON	Becodisks  Disks with diskhaler  100 micrograms/dose
+STNE22565EMIS	Steri-Neb Cromogen  Nebuliser solution  20 mg/2 ml
+PITA2278	Piriton  Tablets  4 mg
+OMPO21318NEMIS	Omalizumab  Powder and solvent for solution for injection  150 mg vial
+SADI19641EMIS	Salbutamol  Disks with diskhaler  400 micrograms/dose
+PHSU23404EMIS	Pholcodine  Sugar free linctus  5 mg/5 ml
+PSTA5349	Pseudoephedrine Hydrochloride  Tablets  60 mg
+SAIN36901MGEMIS	Salbutamol  Inhaler  100 micrograms/puff (Unichem)
+BEPR138614NEMIS	Bevespi Aerosphere  Pressurised Inhaler  7.2 micrograms + 5 micrograms/dose
+NEAE5191	Nedocromil Sodium  Aerosol inhalation  2 mg/metered inhalation
+BEIN37950MGEMIS	Beclometasone  Inhaler  250 micrograms/actuation (Unichem)
+ADIN37847MGEMIS	Adrenaline  Injection  1 mg/ml, 0.5 ml ampoule (Unichem)
+BEIN37960MGEMIS	Beclometasone  Inhaler  50 micrograms/actuation (Generics (UK))
+BEIN37952MGEMIS	Beclometasone  Inhaler  250 micrograms/actuation (Kent Pharm)
+ININ24060EMIS	Intal Syncroner  Inhaler with spacer device  5 mg/puff
+THLI2839	Theophylline Hydrate  Liquid  60 mg/5 ml
+PUIN13798NEMIS	Pulmicort Inhaler With Nebuchamber  Inhaler with spacer device  200 micrograms/dose
+BEIN17537NEMIS	Beclometasone  Inhaler  200 micrograms/actuation
+PUDR11419NEMIS	Pulvinal Beclometasone Dipropionate  Dry Powder Inhaler  200 micrograms/metered dose
+ASCF47153NEMIS	Asmavent  Cfc-free inhaler  100 micrograms/dose
+PHSU36507MGEMIS	Pholcodine  Sugar free linctus  Strong, 10 mg/5 ml (A.A.H. Pharm)
+VERE8433EGTON	Ventodisks  Refill disks  200 micrograms/dose
+TISY45468NEMIS	Tixylix Honey, Lemon And Glycerol  Oral solution  
+ALTA87	Alupent  Tablets  20 mg
+SUTA4348	Sudafed  Tablets  60 mg
+SILI37754MGEMIS	Simple  Linctus paediatric, sugar free  (A.A.H. Pharm)
+HYTA6792	Hydroxyzine Hydrochloride  Tablets  25 mg
+SACF3932NEMIS	Salamol  Cfc-free inhaler  100 micrograms/dose
+SECF120601NEMIS	Sereflo  Cfc-free inhaler  25 micrograms + 250 micrograms/dose
+AMSR10552BRIDL	Amnivent 225  Sr tablets  225 mg
+FIIN23563EMIS	Filair Forte  Inhaler  250 micrograms/puff
+FOEA124708NEMIS	Fobumix Easyhaler  Dry Powder Inhaler  320 micrograms + 9 micrograms/dose
+AMIN30581EMIS	Aminophylline  Injection  250 mg/10 ml ampoule
+SADR12728NEMIS	Salbutamol 400 Cyclocaps  Dry powder capsules for inhalation  400 micrograms
+ORTA78098NEMIS	Oronac 600  Tablets  600 mg
+ALOR138781NEMIS	Alimemazine  Oral Solution, Sugar Free  30 mg/5 ml
+KAIN6309NEMIS	Karvol  Inhalant solution  
+THTA27278EMIS	Theophylline S/R  Tablets  200 mg
+BEIN293	Becotide 50  Inhaler  50 micrograms/puff
+BRIN402	Bricanyl  Solution for injection  500 micrograms/ml, 1 ml ampoule
+BRTA409	Bricanyl  Tablets  5 mg
+ACEF28968NEMIS	Acetylcysteine  Effervescent tablets  600 mg
+SASY2492	Salbutamol  Syrup  2 mg/5 ml
+OXBR31954EMIS	Oxis Turbohaler  Breath-actuated inhaler  6 micrograms/dose, 60 dose
+BETI37504MGEMIS	Benzoin  Tincture Compound  bp (Thornton & Ross)
+TATA4389	Tavegil  Tablets  1 mg
+TRDR140408NEMIS	NULL
+IPNE36773NEMIS	Ipratropium And Salbutamol  Nebuliser Liquid  500 micrograms/2.5 ml + 2.5 mg/2.5 ml ampoule
+MELI35898MGEMIS	Methadone Hydrochloride  Linctus  2 mg/5 ml (Thornton & Ross)
+FLCF18583NEMIS	Fluticasone Propionate And Salmeterol  Cfc-free inhaler  50 micrograms + 25 micrograms/actuation
+ERCA23396NEMIS	Erdotin  Capsules  300 mg
+ADSO71500NEMIS	Adrenaline (Base) 1 In 1,000  Solution for injection  1 mg/1 ml pre-filled syringe
+YAIN133907NEMIS	Yanimo Respimat  Inhalation Solution Cartridge With Device  2.5 micrograms + 2.5 micrograms/dose
+ANIN32521EMIS	Anapen Junior  Injection  150 micrograms/dose
+SILI5312NEMIS	Simple  Linctus paediatric, sugar free  
+PSLI5348	Pseudoephedrine Hydrochloride  Linctus  Sugar Free 30 mg/5 ml
+SARE19643EMIS	Salbutamol  Refill disks  400 micrograms/dose
+KAGR135945NEMIS	Kalydeco  Granules  25 mg sachets
+AMMI5785	Ammonia And Ipecacuanha  Mixture  
+SACF26553EMIS	Salbutamol  Cfc-free inhaler  100 micrograms/puff
+BEDR17543NEMIS	Beclometasone  Dry Powder Inhaler  50 micrograms/actuation
+DELI116965NEMIS	Delsym 12 Hour Cough Relief  Liquid  
+BEIN17539NEMIS	Beclometasone  Inhaler  50 micrograms/actuation
+BETI32807EMIS	Benzoin  Tincture Compound  bp
+TIIN139573NEMIS	NULL
+VERE8434EGTON	Ventodisks  Refill disks  400 micrograms/dose
+GALI3621	Galenphol  Linctus  5 mg/5 ml
+FLRE22575EMIS	Flixotide  Refill disks  100 micrograms/dose
+BESY3228	Benylin With Codeine  Syrup  
+ADSO71498NEMIS	Adrenaline (Base) 1 In 1,000  Solution for injection  500 micrograms/0.5 ml ampoule
+EADR19043NEMIS	Easyhaler Salbutamol  Dry Powder Inhaler  100 micrograms/actuation
+PUDR11413NEMIS	Pulvinal Salbutamol  Dry Powder Inhaler  200 micrograms/metered dose
+ININ138217NEMIS	Indacaterol And Mometasone  Inhalation Powder Capsules With Device  125 micrograms + 127.5 micrograms/dose
+XOPO21321NEMIS	Xolair  Powder and solvent for solution for injection  150 mg vial
+VOSREGTON7956	Volmax  Sr tablets  8 mg
+NYTA23522EMIS	Nytol  Tablets  25 mg
+BUDR18591NEMIS	Budesonide And Formoterol  Dry Powder Inhaler  100 micrograms + 6 micrograms/actuation
+SECF4760NEMIS	Seretide 250 Evohaler  Cfc-free inhaler  
+PURE9408EMIS	Pulmicort  Respules  500 micrograms/2 ml single dose unit
+FLCF3684NEMIS	Fluticasone Propionate  Cfc-free inhaler  250 micrograms/puff
+QVBR19055NEMIS	Qvar Easi-Breathe  Breath-Actuated Inhaler (Cfc-Free)  50 micrograms/actuation
+CIPO52809NEMIS	Cinryze  Powder and solvent for solution for injection  500 unit vial
+LETA11687NEMIS	Levocetirizine  Tablets  5 mg
+THTA5429	Theophylline  Tablets  125 mg
+PHPA18872EMIS	Pholcodine  Paediatric s/f linctus  2 mg/5 ml
+RUTA36817NEMIS	Rupafin  Tablets  10 mg
+BATA22361EMIS	Bambec  Tablets  10 mg
+RUTA36814NEMIS	Rupatadine  Tablets  10 mg
+ATAE25765EMIS	Atrovent  Aerocaps  40 micrograms
+CLCF22851NEMIS	Clenil Modulite  Cfc-free inhaler  100 micrograms/actuation
+AMTA109	Aminophylline  Tablets  100 mg
+ACEF78933NEMIS	Acc-600  Effervescent tablets  
+ACTA26197NEMIS	Acetylcysteine  Tablets  600 mg
+FLDR1881NEMIS	Fluticasone Propionate  Dry powder disks + disk inhaler  250 micrograms
+TETA30494EMIS	Telfast  Tablets  120 mg
+CHOR38062MGEMIS	Chlorphenamine  Oral Solution, Sugar Free  2 mg/5 ml (Kent Pharm)
+LEOR26058NEMIS	Levocetirizine  Oral solution  500 micrograms/ml
+MEIN35882MGEMIS	Menthol & Eucalyptus  Inhalation  (Thornton & Ross)
+SADI10715BRIDL	Salmeterol Xinafoate  Disks with diskhaler  50 micrograms/blister
+META17765NEMIS	Mecysteine  Tablets (Gastro-Resistant)  100 mg
+PUDR11420NEMIS	Pulvinal Beclometasone Dipropionate  Dry Powder Inhaler  400 micrograms/metered dose
+SYTU10847NEMIS	Symbicort  Turbohaler  100/6 micrograms/inhalation
+OXIN9076EMIS	Oxitropium Bromide  Inhaler  100 micrograms/puff
+FODR125078NEMIS	Fobumix Easyhaler  Dry Powder Inhaler  160 micrograms + 4.5 micrograms/dose
+BUDR18592NEMIS	Budesonide And Formoterol  Dry Powder Inhaler  200 micrograms + 6 micrograms/actuation
+BEIN280	Beclomethasone Dipropionate  Inhaler  100 micrograms/puff
+FLCF76572NEMIS	Fluticasone And Formoterol  Cfc-free inhaler  50 micrograms + 5 micrograms/dose
+WISY4074NEMIS	Wild Cherry  Syrup  BP
+ANDR90758NEMIS	Anoro Ellipta  Dry Powder Inhaler  55 micrograms + 22 micrograms/dose
+LOTA35852MGEMIS	Loratadine  Tablets  10 mg (Teva UK)
+HATA3691	Haymine  Tablets  
+ENIN138259NEMIS	Enerzair Breezhaler  Inhalation Powder Capsules With Device  114 microgram + 46 microgram + 136 microgram/dose
+ININ43604NEMIS	Indacaterol  Inhalation Powder Capsules With Device  150 micrograms
+SILI37755MGEMIS	Simple  Linctus paediatric, sugar free  (Kent Pharm)
+FLBR127600NEMIS	Flutiform K-haler  Breath-actuated inhaler  50 micrograms + 5 micrograms/dose
+ASDR44713NEMIS	Asmanex Twisthaler  Dry Powder Inhaler  400 micrograms/dose
+THOR125570NEMIS	Theophylline  Oral suspension  50 mg/5 ml
+VEAC28240EMIS	Ventolin  Accuhaler  200 micrograms/dose
+CLCF22854NEMIS	Clenil Modulite  Cfc-free inhaler  250 micrograms/actuation
+BEIN37949MGEMIS	Beclometasone  Inhaler  250 micrograms/actuation (Generics (UK))
+SQPA5815	Squill Opiate  Paediatric linctus  
+ATIN138221NEMIS	Atectura Breezhaler  Inhalation Powder Capsules With Device  125 micrograms + 127.5 micrograms
+MISO71502NEMIS	Min-I-Jet Adrenaline (Base) 1 In 1,000  Solution for injection  1 mg/1 ml pre-filled syringe 21 gauge
+AMIN33694MGEMIS	Aminophylline  Injection  250 mg/10 ml ampoule (Martindale)
+TENE37628MGEMIS	Terbutaline Sulfate  Nebulisation single dose unit  5 mg/2 ml (Galen)
+CHTA38071MGEMIS	Chlorphenamine  Tablets  4 mg (Unichem)
+MEIN35880MGEMIS	Menthol & Eucalyptus  Inhalation  (Vantage)
+MISO71503NEMIS	Min-I-Jet Adrenaline (Base) 1 In 1,000  Solution for injection  1 mg/1 ml pre-filled syringe 25 gauge
+PSOR19663NEMIS	Pseudoephedrine And Triprolidine  Oral solution  30 mg/5 ml + 1.25 mg/5 ml
+HISY3694	Histalix  Syrup  
+COLI37804MGEMIS	Codeine  Linctus sugar free  BP (Thornton & Ross)
+SATA2493	Salbutamol  Tablets  2 mg
+AEDR119044NEMIS	Aerivio Spiromax  Dry Powder Inhaler  50 micrograms + 500 micrograms/dose
+SILI36953MGEMIS	Simple  Linctus bp  (Kent Pharm)
+ACCA25235NEMIS	Acetylcysteine  Capsules  600 mg
+FLDR18588NEMIS	Fluticasone Propionate And Salmeterol  Dry Powder Inhaler  500 micrograms + 50 micrograms/actuation
+NYTA4546NEMIS	Nytol One-a-Night  Tablets  50 mg
+FLCF76576NEMIS	Flutiform  Cfc-free inhaler  50 micrograms + 5 micrograms/dose
+LOOR119039NEMIS	Loratadine  Oral Lyophilisate Sugar Free  10 mg
+TERE2807	Terbutaline Sulfate  Respirator solution  10 mg/ml
+EPIN27258EMIS	Epipen Junior  Solution for injection  150 micrograms/0.3 ml auto-injector
+SYPR138256NEMIS	Symbicort  Pressurised Inhaler  100 micrograms + 3 micrograms/dose
+PITA124054NEMIS	Pirfenidone  Tablets  267 mg
+ERCA23393NEMIS	Erdosteine  Capsules  300 mg
+BRIN401	Bricanyl  Inhaler  250 micrograms/puff
+SAIN36899MGEMIS	Salbutamol  Inhaler  100 micrograms/puff (Kent Pharm)
+ZAS/10814BRIDL	Zaditen  S/f elixir  1 mg/5 ml
+ICSO39325NEMIS	Icatibant  Solution for injection  10 mg/ml, 3 ml pre-filled syringe
+LOTA35856MGEMIS	Loratadine  Tablets  10 mg (A.A.H. Pharm)
+EPTA130753NEMIS	Ephedrine Hydrochloride And Chlorphenamine  Tablets  15 mg + 10 mg
+STSO90845NEMIS	Striverdi Respimat  Inhalation Solution Cartridge With Device  2.5 micrograms/dose
+PRAE11089NEMIS	Primatene Mist  Aerosol inhalation  220 micrograms/inhalation
+TAEL4388	Tavegil  Elixir  500 micrograms/5 ml
+SPDR13731NEMIS	Spiriva Refill  Dry powder capsules for inhalation  18 micrograms
+SIPA31531LEEDS	Singulair  Paediatric chewable tablets  5 mg
+SECF4758NEMIS	Seretide 125 Evohaler  Cfc-free inhaler  
+TESY37143MGEMIS	Terbutaline Sulfate  Syrup  Sugar Free 1.5 mg/5 ml (Kent Pharm)
+NUSO133506NEMIS	Nucala  Solution for injection  100 mg/1 ml pre-filled pen
+OLIN133904NEMIS	Olodaterol  Inhalation Solution Refill Cartridge  2.5 micrograms/dose
+SACF26553EMIS	Salbutamol  Cfc-free inhaler  100 micrograms/puff
+STNE22543EMIS	Salamol Steri-Neb  Nebuliser solution  2.5 mg/2.5 ml
+BEIN37954MGEMIS	Beclometasone  Inhaler  100 micrograms/actuation (A.A.H. Pharm)
+BUDR18591NEMIS	Budesonide And Formoterol  Dry Powder Inhaler  100 micrograms + 6 micrograms/actuation
+BERO289	Becotide  Rotacaps  200 micrograms
+FETA30496EMIS	Fexofenadine Hydrochloride  Tablets  120 mg
+BUDR12719NEMIS	Budesonide  Dry powder capsules for inhalation  200 micrograms
+COIN24315EMIS	Combivent  Inhaler  
+VASY3010	Vallergan  Syrup  7.5 mg/5 ml
+LOSY19819EMIS	Loratadine  Oral solution  5 mg/5 ml
+OMPO21318NEMIS	Omalizumab  Powder and solvent for solution for injection  150 mg vial
+SABR26803EMIS	Salbutamol  Breath-actuated inhaler  100 micrograms/puff
+BEBR26473EMIS	Beclomethasone Dipropionate  Breath-actuated inhaler  50 micrograms/puff
+TRTA8564EGTON	Triludan Forte  Tablets  120 mg
+PHSU36513MGEMIS	Pholcodine  Sugar free linctus  5 mg/5 ml (Thornton & Ross)
+KATA76758NEMIS	Kalydeco  Tablets  150 mg
+SYTU15234NEMIS	Symbicort  Turbohaler  400/12 micrograms/inhalation
+TIDR13729NEMIS	Tiotropium  Dry powder capsules for inhalation  18 micrograms
+CICF19409NEMIS	Ciclesonide  Cfc-free inhaler  80 micrograms/actuation
+BEBR26465EMIS	Beclazone Easi-Breathe  Breath-actuated inhaler  50 micrograms/puff
+EPTA34961MGEMIS	Ephedrine Hydrochloride  Tablets  15 mg (Unichem)
+EPTA1084	Ephedrine Hydrochloride  Tablets  30 mg
+DETA6259NEMIS	Desloratadine  Tablets  5 mg
+EADR21824NEMIS	Easyhaler Budesonide  Dry Powder Inhaler  100 micrograms/actuation
+EADR21092NEMIS	Easyhaler Beclometasone  Dry Powder Inhaler  200 micrograms/actuation
+SANE36902MGEMIS	Salbutamol  Nebuliser solution  5 mg/2.5 ml (A.A.H. Pharm)
+EPTA34962MGEMIS	Ephedrine Hydrochloride  Tablets  15 mg (A.A.H. Pharm)
+ACOR140636NEMIS	NULL
+BEIN34109EMIS	Beclazone 200  Inhaler  200 micrograms/puff
+PHLI2247	Pholcodine  Linctus  5 mg/5 ml
+COCF126940NEMIS	Combisal  Cfc-free inhaler  25 micrograms + 125 micrograms/dose
+BEIN37957MGEMIS	Beclometasone  Inhaler  100 micrograms/actuation (Teva UK)
+TIAE4421	Tilade Mint  Aerosol inhalation  2 mg/metered inhalation
+SAIN40203NEMIS	Salbulin Novolizer  Inhalation Powder With Device  100 micrograms/dose
+SOTA9074BRIDL	Sominex  Tablets  20 mg
+ALTA17781NEMIS	Alimemazine  Tablets  10 mg
+BECF17548NEMIS	Beclometasone  Cfc-free inhaler  50 micrograms/actuation
+COIN626NEMIS	Combivent UDVs  Inhalation solution  2.5 ml
+FIDR139250NEMIS	NULL
+BEBR17526NEMIS	Beclometasone  Breath-actuated inhaler  250 micrograms/actuation
+FEIN4913	Fenoterol Hydrobromide  Inhaler  200 micrograms/puff
+BEBR17550NEMIS	Beclometasone  Breath-Actuated Inhaler (Cfc-Free)  50 micrograms/actuation
+BUIN18278NEMIS	Budesonide  Inhalation Cartridge + Device  200 micrograms/dose, 100 doses
+FLRE22577EMIS	Flixotide  Refill disks  50 micrograms/dose
+SIPA36957MGEMIS	Simple  Paediatric linctus bp  (A.A.H. Pharm)
+ADSO126148NEMIS	Adrenaline (Base) 1 In 1,000  Solution for injection  300 micrograms/0.3 ml pre-filled device
+OLOI37283NEMIS	Olbas  Oil  
+QVCF33770EMIS	Qvar 50  Cfc-free inhaler  50 micrograms/dose
+SABR35182EMIS	Salbutamol  Breath-Actuated Inhaler (Cfc-Free)  100 micrograms/dose
+ORTA130659NEMIS	Orkambi  Tablets  100 mg + 125 mg
+SAIN29844NEMIS	Salbutamol  Inhalation Cartridge + Device  100 micrograms/dose
+NETA6262NEMIS	Neoclarityn  Tablets  5 mg
+BUDR21821NEMIS	Budesonide  Dry Powder Inhaler  200 micrograms/actuation
+SABR35182EMIS	Salbutamol  Breath-Actuated Inhaler (Cfc-Free)  100 micrograms/dose
+TENE1886NEMIS	Terbutaline Sulfate  Nebulisation single dose unit  5 mg/2 ml
+HYSY5014	Hydroxyzine Hydrochloride  Oral solution  10 mg/5 ml
+CHTA38073MGEMIS	Chlorphenamine  Tablets  4 mg (Sandoz)
+FLBR127597NEMIS	Fluticasone And Formoterol  Breath-Actuated Inhaler (Cfc-Free)  50 micrograms + 5 micrograms/dose
+DUDR91334NEMIS	Duoresp Spiromax  Dry Powder Inhaler  320 micrograms + 9 micrograms/dose
+SADR1768NEMIS	Salbutamol  Dry powder capsules for inhalation  200 micrograms
+ZIOR15233NEMIS	Zirtek Allergy  Oral solution  5 mg/5 ml
+PUSO24170EMIS	Pulmozyme  Nebuliser solution  2.5 mg/2.5 ml
+MANE35366EMIS	Maxivent Steripoules  Nebuliser solution  5 mg/2.5 ml
+TESY2811	Terbutaline Sulfate  Oral Solution, Sugar Free  1.5 mg/5 ml
+DATA127998NEMIS	Daxas  Tablets  250 micrograms
+ROTA127997NEMIS	Roflumilast  Tablets  250 micrograms
+XYTA11690NEMIS	Xyzal  Tablets  5 mg
+AICF81476NEMIS	Airsalb  Cfc-free inhaler  100 micrograms/dose
+NUTA2043	Nuelin Sa  M/R tablets  175 mg
+FLCF76574NEMIS	Fluticasone And Formoterol  Cfc-free inhaler  250 micrograms + 10 micrograms/dose
+SYTA130680NEMIS	Symkevi  Tablets  100 mg + 150 mg
+CESU34168MGEMIS	Cetirizine Hydrochloride  Sugar-free oral solution  5 mg/5 ml (Kent Pharm)
+AEAU20018EMIS	Aerobec  Autohaler  100 micrograms/puff
+FLCF4774NEMIS	Fluticasone Propionate  Cfc-free inhaler  50 micrograms/puff
+MANE35365EMIS	Maxivent Steripoules  Nebuliser solution  2.5 mg/2.5 ml
+CHIN579	Chlorpheniramine Maleate  Injection  10 mg/ml, 1 ml ampoule
+SAIN2483	Salbutamol  Inhaler  100 micrograms/puff
+TIIN139572NEMIS	NULL
+NECF21322NEMIS	Nedocromil Sodium  Cfc-free inhaler  2 mg/actuation, 112 dose
+FLDR1875NEMIS	Fluticasone Propionate  Dry powder breath-actuated inhaler  50 micrograms
+AMIN23360NEMIS	Aminophylline  Injection  250 mg/10 ml pre-filled syringe
+BEIN37962MGEMIS	Beclometasone  Inhaler  50 micrograms/actuation (Unichem)
+AMSO4090NEMIS	Ammonium Acetate Strong  Solution  BP
+QVCF33772EMIS	Qvar 100  Cfc-free inhaler  100 micrograms/dose
+PITA16099NEMIS	Piriteze Allergy  Tablets  10 mg
+NAEF124825NEMIS	Nacsys  Effervescent tablets  600 mg
+PUAE4237	Pulmicort  Aerosol inhalation  200 micrograms/dose
+DIOR23829NEMIS	Diphenhydramine Hydrochloride  Oral solution  10 mg/5 ml
+COCO11271NEMIS	Covonia Mentholated  Cough mixture  
+FEAE1179NEMIS	Fenoterol Hydrobromide And Ipratropium Bromide  Aerosol inhalation  100 micrograms + 40 micrograms
+PHSU23403EMIS	Pholcodine  Sugar free linctus  Strong, 10 mg/5 ml
+FLDR18587NEMIS	Fluticasone Propionate And Salmeterol  Dry Powder Inhaler  250 micrograms + 50 micrograms/actuation
+CESU34169MGEMIS	Cetirizine Hydrochloride  Sugar-free oral solution  5 mg/5 ml (Genus Pharm)
+ALCF124289NEMIS	Aloflute  Cfc-free inhaler  25 micrograms + 125 micrograms/dose
+DATA45935NEMIS	Daxas  Tablets  500 micrograms
+ALOR138782NEMIS	Alimemazine  Oral Solution, Sugar Free  7.5 mg/5 ml
+SEDR35421EMIS	Seretide 500 Accuhaler  Dry powder for inhalation  
+FLNE138211NEMIS	Fluticasone Propionate (Imported)  Nebuliser solution  2 mg/2 ml unit dose
+FODR28161EMIS	Foradil  Dry powder for inhalation with inhaler device  12 micrograms
+AVCF140673NEMIS	NULL
+ACDR98323NEMIS	Aclidinium Bromide And Formoterol  Dry Powder Inhaler  396 micrograms + 11.8 micrograms/dose
+PHSU23404EMIS	Pholcodine  Sugar free linctus  5 mg/5 ml
+SATA36920MGEMIS	Salbutamol  Tablets  4 mg (Unichem)
+CICF33575NEMIS	Ciclesonide  Cfc-free inhaler  160 micrograms/actuation
+FLCF18584NEMIS	Fluticasone Propionate And Salmeterol  Cfc-free inhaler  125 micrograms + 25 micrograms/actuation
+CASU137802NEMIS	Carbocisteine  Oral Solution, Sugar Free  750 mg/5 ml
+MEPO108702NEMIS	Mepolizumab  Powder For Solution For Injection  100 mg vial
+FASO126040NEMIS	Fasenra  Solution for injection  30 mg/1 ml pre-filled syringe
+SACF21617NEMIS	Salmeterol Xinafoate  Cfc-free inhaler  25 micrograms/actuation
+AEIN22806EMIS	Aerocrom  Inhaler  
+ZACA3087	Zaditen  Capsules  1 mg
+EPEL4883	Ephedrine Hydrochloride  Elixir  15 mg/5 ml
+IPDR25770EMIS	Ipratropium Bromide  Dry powder for inhalation + inhaler  40 micrograms
+BERO9739BRIDL	Becotide  Rotacaps  400 micrograms
+SARE19642EMIS	Salbutamol  Refill disks  200 micrograms/dose
+PICA78942NEMIS	Pirfenidone  Capsules  267 mg
+TYSO5485	Tyloxapol  Solution  1.25 mg/ml
+VASY3011	Vallergan  Syrup forte  30 mg/5 ml
+LOTA9665HILLI	Loratadine  Tablets  10 mg
+ILOR138179NEMIS	Ilaxten  Oral solution  2.5 mg/ml
+ACEF123577NEMIS	Acetylcysteine  Effervescent Tablets Sugar Free  600 mg
+ATNE9126BRIDL	Atrovent  Nebuliser solution  500 micrograms/2 ml unit dose vial
+BECF28854NEMIS	Beclometasone And Formoterol  Cfc-free inhaler  100 micrograms + 6 micrograms/dose
+PUAE4238	Pulmicort Ls  Aerosol inhalation  50 micrograms/dose
+FLDR1879NEMIS	Fluticasone Propionate  Dry powder disks + disk inhaler  50 micrograms
+CACA3288	Carbocisteine  Capsules  375 mg
+BEBR17527NEMIS	Beclometasone  Breath-actuated inhaler  50 micrograms/actuation
+SILI37753MGEMIS	Simple  Linctus sugar free  (Unichem)
+YOCA116566NEMIS	Yournac  Capsules  600 mg
+CHIN38059MGEMIS	Chlorphenamine  Injection  10 mg/ml, 1 ml ampoule (Unichem)
+JUOR29074NEMIS	Junior Meltus Expectorant Colour And Sugar Free  Oral solution  
+ZITA8571EGTON	Zirtek  Tablets  10 mg
+ROTA45929NEMIS	Roflumilast  Tablets  500 micrograms
+ASDR44712NEMIS	Asmanex Twisthaler  Dry Powder Inhaler  200 micrograms/dose
+OLSO90843NEMIS	Olodaterol  Inhalation Solution Cartridge With Device  2.5 micrograms/dose
+FLRE24081EMIS	Flixotide  Refill disks  500 micrograms/dose
+BEDR17541NEMIS	Beclometasone  Dry powder capsules for inhalation  100 micrograms/dose
+NUTA5746	Nuelin Sa 250  M/R tablets  250 mg
+BUDR12722NEMIS	Budesonide 200 Cyclocaps  Dry powder capsules for inhalation  200 micrograms
+ZITA14650NEMIS	Zirtek Allergy  Tablets  10 mg
+ADSO126167NEMIS	Adrenaline (Base) 1 In 2,000  Solution for injection  150 micrograms/0.3 ml pre-filled device
+BRIN34326EMIS	Bricanyl  Solution for injection  500 micrograms/ml, 5 ml ampoule
+ORSY5227	Orciprenaline Sulfate  Syrup  Sugar Free 10 mg/5 ml
+FENE18581NEMIS	Fenoterol Hydrobromide And Ipratropium Bromide  Nebuliser solution  1.25 mg/4 ml + 500 micrograms/4 ml vial
+TRDR125087NEMIS	Trelegy Ellipta  Dry Powder Inhaler  92 micrograms + 55 micrograms + 22 micrograms/dose
+SASU36914MGEMIS	Salbutamol  Sugar free syrup  2 mg/5 ml (Unichem)
+SIPA10589BRIDL	Simple  Paediatric linctus bp  
+GALI3619	Galcodine  Linctus  15 mg/5 ml
+FRTA3608	Franol Plus  Tablets  
+OXIN9078EMIS	Oxivent  Inhaler  100 micrograms/puff
+SASU10266BRIDL	Salbutamol  Oral Solution, Sugar Free  2 mg/5 ml
+SECF120600NEMIS	Sereflo  Cfc-free inhaler  25 micrograms + 125 micrograms/dose
+BETI37507MGEMIS	Benzoin  Tincture Compound  bp (William Ransom)
+FIDR139251NEMIS	NULL
+CETA13135NEMIS	Cetirocol  Tablets  10 mg
+BEDR17547NEMIS	Beclometasone  Dry Powder Inhaler  200 micrograms/actuation
+LOSY35816MGEMIS	Loratadine  Syrup  5 mg/5 ml (Sandoz)
+ANIN32519EMIS	Anapen  Injection  300 micrograms/dose
+IPNE23882NEMIS	Ipramol Steri-Neb  Nebuliser solution  500 micrograms/2.5 ml + 2.5 mg/2.5 ml vial
+ATAU23855EMIS	Atrovent  Autohaler  20 micrograms/puff
+PSTA30625NEMIS	Pseudoephedrine And Triprolidine  Tablets  60 mg + 2.5 mg
+SPDR13730NEMIS	Spiriva Combopack  Dry powder for inhalation + inhaler  18 micrograms
+ORTA2103	Orciprenaline Sulfate  Tablets  20 mg
+BEDR17533NEMIS	Beclometasone  Dry powder disks + disk inhaler  400 micrograms/dose
+ACEF128534NEMIS	Acecil  Effervescent tablets  600 mg
+COLI8978BRIDL	Codeine Paediatric  Linctus  3mg/5 ml
+ASBR34121EMIS	Asmabec Clickhaler  Breath-actuated inhaler  100 micrograms/dose
+POPA42092NEMIS	Potters Pholcodine Cough  Pastilles  
+CAOR104764NEMIS	Carbocisteine  Oral Solution, Sugar Free  750 mg/10 ml sachet
+BUDR18593NEMIS	Budesonide And Formoterol  Dry Powder Inhaler  400 micrograms + 12 micrograms/actuation
+ORSY5227	Orciprenaline Sulfate  Syrup  Sugar Free 10 mg/5 ml
+HATA25577NEMIS	Hayleve  Tablets  4 mg
+VEAE4495	Ventide  Aerosol inhalation  
+PHPA2249	Phyllocontin Continus  Paediatric tablets  100 mg
+PSEL2407	Pseudoephedrine Hydrochloride  Elixir  30 mg /5 ml
+PSLI5348	Pseudoephedrine Hydrochloride  Linctus  Sugar Free 30 mg/5 ml
+VENE8699BRID	Ventolin  Nebules  5 mg/2.5 ml unit dose
+ACOR120492NEMIS	Acetylcysteine  Oral Powder Sachets Sugar Free  200 mg
+IPCF17452NEMIS	Ipratropium Bromide  Cfc-free inhaler  20 micrograms/dose
+PUTU19548EMIS	Pulmicort  Turbohaler  100 micrograms/dose
+ALMI11067NEMIS	Alkaline Ipecacuanha  Mixture  BPC
+TISO27048NEMIS	Tiotropium  Inhalation Solution Cartridge With Device  2.5 micrograms/dose
+SACF21617NEMIS	Salmeterol Xinafoate  Cfc-free inhaler  25 micrograms/actuation
+BEDR17532NEMIS	Beclometasone  Dry powder disks + disk inhaler  200 micrograms/dose
+CLTA4743	Clemastine  Tablets  1 mg
+IPAE10449BRIDL	Ipratropium Bromide  Inhaler  20 micrograms/puff
+BECF17549NEMIS	Beclometasone  Cfc-free inhaler  100 micrograms/actuation
+PHPA18872EMIS	Pholcodine  Paediatric s/f linctus  2 mg/5 ml
+VOSREGTON7955	Volmax  Sr tablets  4 mg
+EPIN27258EMIS	Epipen Junior  Solution for injection  150 micrograms/0.3 ml auto-injector
+FLDR1876NEMIS	Fluticasone Propionate  Dry powder breath-actuated inhaler  100 micrograms
+NEOR33406NEMIS	Neoclarityn  Oral solution  0.5 mg/ml
+TETA130677NEMIS	Tezacaftor And Ivacaftor  Tablets  100 mg + 150 mg
+BRSP407	Bricanyl  Spacer inhaler  250 micrograms/puff
+BEIN292	Becotide 100  Inhaler  100 micrograms/puff
+EPTA1083	Ephedrine Hydrochloride  Tablets  15 mg
+EPOR21534NEMIS	Ephedrine Hydrochloride  Oral Solution, Sugar Free  4 mg/5 ml
+DOINEGTON6634	Dopram  Injection  20 mg/ml, 5 ml ampoule
+SPIN133901NEMIS	Spiolto Respimat  Inhalation Solution Refill Cartridge  2.5 micrograms + 2.5 micrograms/dose
+EADR21825NEMIS	Easyhaler Budesonide  Dry Powder Inhaler  200 micrograms/actuation
+PHSU36506MGEMIS	Pholcodine  Sugar free linctus  Strong, 10 mg/5 ml (Unichem)
+SQLI4151NEMIS	Squill Oxymel  Liquid  BP
+TEBR34618EMIS	Terbutaline Sulfate  Breath-Actuated Dry Powder Inhaler  500 micrograms/dose
+SEDR35415EMIS	Seretide 100 Accuhaler  Dry powder for inhalation  
+GAPA10914BRIDL	Galenphol  Paediatric s/f linctus  2 mg/5 ml
+PISY2277	Piriton  Syrup  2 mg/5 ml
+ANDR90758NEMIS	Anoro Ellipta  Dry Powder Inhaler  55 micrograms + 22 micrograms/dose
+EADR19043NEMIS	Easyhaler Salbutamol  Dry Powder Inhaler  100 micrograms/actuation
+BEBR1867NEMIS	Beclomethasone Dipropionate  Breath-actuated aerosol inhaler  50 micrograms
+GROR23709NEMIS	Grazax  Oral Lyophilisate  75,000 Sq-t
+SILI5310NEMIS	Simple  Linctus sugar free  
+BEDR12716NEMIS	Beclometasone 200 Cyclocaps  Dry powder capsules for inhalation  200 micrograms
+FLDI22573EMIS	Flixotide  Disks with diskhaler  250 micrograms/dose
+BECF17548NEMIS	Beclometasone  Cfc-free inhaler  50 micrograms/actuation
+QVCF33770EMIS	Qvar 50  Cfc-free inhaler  50 micrograms/dose
+LOTA35857MGEMIS	Loratadine  Tablets  10 mg (Unichem)
+SADR1874NEMIS	Salmeterol Xinafoate  Dry powder disks + disk inhaler  50 micrograms
+FLCF3682NEMIS	Flixotide Evohaler  Cfc-free inhaler  250 micrograms/puff
+SILI37757MGEMIS	Simple  Linctus paediatric, sugar free  (Pinewood Healthcare)
+ZATA33820EMIS	Zafirlukast  Tablets  20 mg
+HISY23831NEMIS	Histergan  Syrup  10 mg/5 ml
+THCA2842	Theophylline S/R  Capsules  60 mg
+SEDR35421EMIS	Seretide 500 Accuhaler  Dry powder for inhalation  
+SANE36905MGEMIS	Salbutamol  Nebuliser solution  2.5 mg/2.5 ml (A.A.H. Pharm)
+BEIN17525NEMIS	Beclometasone  Inhaler  250 micrograms/actuation
+FLCF76577NEMIS	Flutiform  Cfc-free inhaler  125 micrograms + 5 micrograms/dose
+NULI2041	Nuelin  Liquid  60 mg/5 ml
+UNPA2985	Uniphyllin Continus  M/R tablets  200 mg
+IPNE1494	Ipratropium Bromide  Nebuliser solution  250 micrograms/ml
+POTA29442NEMIS	Pollenshield Hayfever Relief  Tablets  10 mg
+TRIN124218NEMIS	Trimbow  Inhaler  87 micrograms + 5 micrograms + 9 micrograms/dose
+COLI37801MGEMIS	Codeine  Linctus sugar free  BP (Vantage)
+MUPA3980	Mucodyne  Paediatric syrup  125 mg/5 ml
+SAIN9558EMIS	Salbutamol  Solution for infusion  1 mg/ml, 5 ml ampoule
+SAIN36897MGEMIS	Salbutamol  Inhaler  100 micrograms/puff (A.A.H. Pharm)
+FLDR1878NEMIS	Fluticasone Propionate  Dry powder breath-actuated inhaler  500 micrograms
+BERE17535NEMIS	Beclometasone  Refill disks  200 micrograms/dose
+ESCA78945NEMIS	Esbriet  Capsules  267 mg
+BEIN37963MGEMIS	Beclometasone  Inhaler  50 micrograms/actuation (Teva UK)
+EPTA34964MGEMIS	Ephedrine Hydrochloride  Tablets  30 mg (Unichem)
+XOSO51738NEMIS	Xolair  Solution for injection  150 mg/1 ml pre-filled syringe
+HYTA5015	Hydroxyzine Hydrochloride  Tablets  10 mg
+IPNE30103NEMIS	Ipratropium Steripoule  Nebuliser solution  250 micrograms/ml, 1 ml unit dose
+CHIN17590NEMIS	Chlorphenamine  Injection  10 mg/ml, 1 ml ampoule
+ONIN43609NEMIS	Onbrez Breezhaler  Inhalation Powder Capsules With Device  300 micrograms
+EPIN27256EMIS	Epipen  Solution for injection  300 micrograms/0.3 ml auto-injector
+FLDR139627NEMIS	NULL
+BEAE3220	Becloforte  Inhaler  250 micrograms/puff
+TESY37144MGEMIS	Terbutaline Sulfate  Syrup  Sugar Free 1.5 mg/5 ml (Unichem)
+ADSO71499NEMIS	Adrenaline (Base) 1 In 1,000  Solution for injection  5 mg/5 ml ampoule
+CHIN17590NEMIS	Chlorphenamine  Injection  10 mg/ml, 1 ml ampoule
+BEDR17540NEMIS	Beclometasone  Dry powder capsules for inhalation  400 micrograms/dose
+VECF82058NEMIS	Vertine  Cfc-free inhaler  25 micrograms/dose
+COLI11705NEMIS	Codeine  Linctus sugar free  15 mg/5 ml
+ALSY17780NEMIS	Alimemazine  Oral solution  30 mg/5 ml
+ADIN37848MGEMIS	Adrenaline  Injection  1 mg/ml, 1 ml ampoule (A.A.H. Pharm)
+ADIN37846MGEMIS	Adrenaline  Injection  1 mg/ml, 0.5 ml ampoule (Martindale)
+ACOR139566NEMIS	NULL
+AMMI33713MGEMIS	Ammonia And Ipecacuanha  Mixture  (Unichem)
+BEDI9501BRIDL	Becodisks  Disks with diskhaler  400 micrograms/dose
+SOIN130622NEMIS	Soprobec  Inhaler  250 micrograms/dose
+MUSY119143NEMIS	Mucodyne Paediatric  Syrup  250 mg/5 ml
+BEIN37955MGEMIS	Beclometasone  Inhaler  100 micrograms/actuation (Generics (UK))
+CETA8573EGTON	Cetirizine Hydrochloride  Tablets  10 mg
+VASY3010	Vallergan  Syrup  7.5 mg/5 ml
+CETA34199MGEMIS	Cetirizine Hydrochloride  Tablets  10 mg (Teva UK)
+BERE17534NEMIS	Beclometasone  Refill disks  100 micrograms/dose
+SASU36915MGEMIS	Salbutamol  Sugar free syrup  2 mg/5 ml (Kent Pharm)
+BEDR106374NEMIS	Beclometasone And Formoterol  Dry Powder Inhaler  200 micrograms + 6 micrograms/dose
+THTA9047BRIDL	Theophylline Sr  Tablets  400 mg
+BRSY408	Bricanyl  Syrup  1.5 mg/5 ml
+NEIN22548EMIS	Nedocromil Sodium  Inhaler with spacer device  2 mg/metered inhalation
+SASF10640BRIDL	Salbutamol  Sf syrup  2 mg/5 ml
+CLCF22852NEMIS	Clenil Modulite  Cfc-free inhaler  200 micrograms/actuation
+LOSY19819EMIS	Loratadine  Oral solution  5 mg/5 ml
+AMTA9590BRIDL	Aminophylline Sr  Tablets  225 mg
+GROR23709NEMIS	Grazax  Oral Lyophilisate  75,000 Sq-t
+DETA6259NEMIS	Desloratadine  Tablets  5 mg
+FLCF18585NEMIS	Fluticasone Propionate And Salmeterol  Cfc-free inhaler  250 micrograms + 25 micrograms/actuation
+BUAE4666	Budesonide  Aerosol inhalation  50 micrograms/dose
+BUNE1884NEMIS	Budesonide  Nebulisation single dose unit  1 mg/2 ml
+DEOR37187NEMIS	Desloratadine  Oral solution  0.5 mg/ml
+SECF21619NEMIS	Serevent Evohaler  Cfc-free inhaler  25 micrograms/actuation
+VEDI8431EGTON	Ventodisks  Disks with diskhaler  200 micrograms/dose
+CHOR17592NEMIS	Chlorphenamine  Oral Solution, Sugar Free  2 mg/5 ml
+DUDR98325NEMIS	Duaklir Genuair  Dry Powder Inhaler  340 micrograms + 12 micrograms/dose
+SOIN130619NEMIS	Soprobec  Inhaler  50 micrograms/dose
+TIIN117767NEMIS	Tiotropium  Inhalation Powder Capsules With Device  10 micrograms
+LOSY35815MGEMIS	Loratadine  Syrup  5 mg/5 ml (Generics (UK))
+PUAE4238	Pulmicort Ls  Aerosol inhalation  50 micrograms/dose
+SONE17860NEMIS	Sodium Cromoglicate  Nebuliser solution  10 mg/ml, 2 ml unit dose vial
+MEIN35883MGEMIS	Menthol & Eucalyptus  Inhalation  (Unichem)
+AICF122255NEMIS	Airflusal  Cfc-free inhaler  25 micrograms + 250 micrograms/dose
+WODR140457NEMIS	NULL
+FLDI24079EMIS	Flixotide  Disks with diskhaler  500 micrograms/dose
+FLCF76578NEMIS	Flutiform  Cfc-free inhaler  250 micrograms + 10 micrograms/dose
+SATA36922MGEMIS	Salbutamol  Tablets  4 mg (Kent Pharm)
+COSY34495MGEMIS	Codeine Linctus  Syrup  15 mg/5 ml (Thornton & Ross)
+CHTA38072MGEMIS	Chlorphenamine  Tablets  4 mg (Teva UK)
+PHSU36512MGEMIS	Pholcodine  Sugar free linctus  5 mg/5 ml (A.A.H. Pharm)
+PITA124055NEMIS	Pirfenidone  Tablets  801 mg
+OMSO51736NEMIS	Omalizumab  Solution for injection  150 mg/1 ml pre-filled syringe
+XYOR26059NEMIS	Xyzal  Oral solution  500 micrograms/ml
+IPNE18580NEMIS	Ipratropium And Salbutamol  Nebuliser solution  500 micrograms/2.5 ml + 2.5 mg/2.5 ml vial
+IVTA76755NEMIS	Ivacaftor  Tablets  150 mg
+ZATA3088	Zaditen  Tablets  1 mg
+FLCF76573NEMIS	Fluticasone And Formoterol  Cfc-free inhaler  125 micrograms + 5 micrograms/dose
+VESY3035	Ventolin  Syrup  2 mg/5 ml
+PAMI2170	Pavacol-D  Mixture  
+BEDR12718NEMIS	Beclometasone 400 Cyclocaps  Dry powder capsules for inhalation  400 micrograms
+TEIN34328EMIS	Terbutaline Sulfate  Solution for injection  500 micrograms/ml, 5 ml ampoule
+CHTA38070MGEMIS	Chlorphenamine  Tablets  4 mg (A.A.H. Pharm)
+PRTA2381	Promethazine Hydrochloride  Tablets  25 mg
+VENE8699BRID	Ventolin  Nebules  5 mg/2.5 ml unit dose
+PSOR23284NEMIS	Pseudoephedrine And Chlorphenamine  Oral Solution, Sugar Free  30 mg/5 ml + 2 mg/5 ml
+COSY34497MGEMIS	Codeine Linctus  Syrup  15 mg/5 ml (The Boots Company)
+LOTA35855MGEMIS	Loratadine  Tablets  10 mg (Generics (UK))
+SACF10856NEMIS	Salamol Easi-Breathe  Cfc-Free Breath-Actuated Inhaler  100 micrograms/puff
+MOSY1884	Monovent  Syrup  1.5 mg/5 ml
+THTA2843	Theophylline S/R  Tablets  175 mg
+DEOR37187NEMIS	Desloratadine  Oral solution  0.5 mg/ml
+CASY3289	Carbocisteine  Oral solution  125 mg/5 ml
+MELI35899MGEMIS	Methadone Hydrochloride  Linctus  2 mg/5 ml (Unichem)
+SADR12726NEMIS	Salbutamol 200 Cyclocaps  Dry powder capsules for inhalation  200 micrograms
+SANE48180NEMIS	Salbutamol Steripoule  Nebuliser Liquid  5 mg/2.5 ml unit dose vial
+SANE10644BRIDL	Salbutamol  Nebuliser solution  5 mg/2.5 ml unit dose
+ACOR127686NEMIS	Acetyl-Nac  Oral Powder Sachets Sugar Free  200 mg
+THTA9094HILLI	Theophylline S/R  Tablets  300 mg
+ADIN37852MGEMIS	Adrenaline  Injection  1 mg/ml, 5 ml ampoule (A.A.H. Pharm)
+PHLI36487MGEMIS	Pholcodine  Linctus  5 mg/5 ml (A.A.H. Pharm)
+ATCF17453NEMIS	Atrovent  Cfc-free inhaler  20 micrograms/dose
+TETA37166MGEMIS	Terfenadine  Tablets  60 mg (The Boots Company)
+VENE3029	Ventolin  Nebules  2.5 mg/2.5 ml unit dose
+FOCF28856NEMIS	Fostair  Cfc-free inhaler  100 micrograms + 6 micrograms/dose
+FISO39328NEMIS	Firazyr  Solution for injection  10 mg/ml, 3 ml pre-filled syringe
+HYOR130333NEMIS	Hydroxyzine Hydrochloride  Oral solution  2.5 mg/5 ml
+RESO120344NEMIS	Reslizumab  Solution for infusion  100 mg/10 ml vial
+SEDR35418EMIS	Seretide 250 Accuhaler  Dry powder for inhalation  
+CESU34167MGEMIS	Cetirizine Hydrochloride  Sugar-free oral solution  5 mg/5 ml (Teva UK)
+MEIN10243BRIDL	Menthol & Eucalyptus  Inhalation  
+ACIN139746NEMIS	NULL
+PHLI36488MGEMIS	Pholcodine  Linctus  5 mg/5 ml (Unichem)
+FODR17644NEMIS	Formoterol  Dry Powder Inhaler  12 micrograms/actuation
+BIOR138176NEMIS	Bilastine  Orodispersible Tablets (Sugar Free)  10 mg
+REDR86736NEMIS	Relvar Ellipta  Dry Powder Inhaler  184 micrograms + 22 micrograms/dose
+BEIN37948MGEMIS	Beclometasone  Inhaler  250 micrograms/actuation (A.A.H. Pharm)
+FLCF3684NEMIS	Fluticasone Propionate  Cfc-free inhaler  250 micrograms/puff
+BEDR17545NEMIS	Beclometasone  Dry Powder Inhaler  250 micrograms/actuation
+GATA45015NEMIS	Galsud  Tablets  60 mg
+CHTA38067MGEMIS	Chlorphenamine  Tablets  4 mg (Kent Pharm)
+LUGR131748NEMIS	Lumacaftor And Ivacaftor  Granules  150 mg + 188 mg sachets
+KECA138287NEMIS	Ketotifen (Special Order)  Capsules  1 mg
+ONIN43608NEMIS	Onbrez Breezhaler  Inhalation Powder Capsules With Device  150 micrograms

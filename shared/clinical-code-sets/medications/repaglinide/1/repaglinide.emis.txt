@@ -1,0 +1,168 @@
+^ESCT1178757	Product containing only repaglinide 1 mg/1 each oral tablet
+^ESCT1180159	Repaglinide 500microgram tablets (A A H Pharmaceuticals Ltd) 30 tablet 2 x 15 tablets
+^ESCT1180944	Repaglinide 500microgram tablets (Mylan)
+^ESCT1180945	Repaglinide 1mg tablets (Mylan) 30 tablet
+^ESCT1182185	Product containing only repaglinide 0.5 milligram/1 each oral tablet
+^ESCT1184996	Repaglinide 500microgram tablets (Mylan) 30 tablet
+^ESCT1184997	Repaglinide 500microgram tablets (Mylan) 90 tablet
+^ESCT1184998	Repaglinide 1mg tablets (Mylan)
+^ESCT1187031	Repaglinide 2mg tablets (Mylan)
+^ESCT1188208	Product containing only repaglinide 2 mg/1 each oral tablet
+^ESCT1190149	Repaglinide 1mg tablets (Mylan) 90 tablet
+^ESCT1190155	Repaglinide 2mg tablets (Mylan) 90 tablet
+^ESCT1224792	Repaglinide 500 microgram oral tablet
+^ESCT1224793	Product containing precisely repaglinide 500 microgram/1 each conventional release oral tablet
+^ESCT1224794	Product containing precisely repaglinide 1 milligram/1 each conventional release oral tablet
+^ESCT1224795	Product containing precisely repaglinide 2 milligram/1 each conventional release oral tablet
+^ESCT1301134	Repaglinide 1mg tablets (Rivopharm (UK) Ltd)
+^ESCT1301135	Repaglinide 1mg tablets (Rivopharm (UK) Ltd) 30 tablet 2 x 15 tablets
+^ESCT1301136	Repaglinide 1mg tablets (Rivopharm (UK) Ltd) 90 tablet 6 x 15 tablets
+^ESCT1301137	Repaglinide 2mg tablets (Rivopharm (UK) Ltd)
+^ESCT1301138	Repaglinide 2mg tablets (Rivopharm (UK) Ltd) 90 tablet 6 x 15 tablets
+^ESCT1403793	Repaglinide 500microgram tablets (Medihealth (Northern) Ltd)
+^ESCT1403794	Repaglinide 500microgram tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1403795	Repaglinide 1mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403796	Repaglinide 1mg tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1403797	Repaglinide 2mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403798	Repaglinide 2mg tablets (Medihealth (Northern) Ltd) 90 tablet
+^ESCT1425453	Repaglinide 500microgram tablets (Rivopharm (UK) Ltd)
+^ESCT1425456	Repaglinide 500microgram tablets (Rivopharm (UK) Ltd) 30 tablet 2 x 15 tablets
+^ESCT1429480	Repaglinide 500microgram tablets (Medihealth (Northern) Ltd) 90 tablet
+^ESCTEN1018870	Enyglid 0.5mg tablets (Consilient Health Ltd)
+^ESCTEN1018871	Enyglid 0.5mg tablets (Consilient Health Ltd) 30 tablet 2 x 15 tablets
+^ESCTEN1018872	Enyglid 1mg tablets (Consilient Health Ltd)
+^ESCTEN1018873	Enyglid 1mg tablets (Consilient Health Ltd) 30 tablet 2 x 15 tablets
+^ESCTEN1018874	Enyglid 1mg tablets (Consilient Health Ltd) 90 tablet 6 x 15 tablets
+^ESCTEN1018875	Enyglid 0.5mg tablets (Consilient Health Ltd) 90 tablet 6 x 15 tablets
+^ESCTEN1018876	Enyglid 2mg tablets (Consilient Health Ltd)
+^ESCTEN1018877	Enyglid 2mg tablets (Consilient Health Ltd) 90 tablet 6 x 15 tablets
+^ESCTNO804764	NovoNorm 500microgram tablets (Novo Nordisk Ltd)
+^ESCTNO818762	NovoNorm 1mg tablets (Novo Nordisk Ltd)
+^ESCTNO828239	NovoNorm 2mg tablets (Novo Nordisk Ltd)
+^ESCTNO854738	NovoNorm 500microgram tablets (Novo Nordisk Ltd) 30 tablet 2 x 15 tablets
+^ESCTNO854741	NovoNorm 500microgram tablets (Novo Nordisk Ltd) 90 tablet 6 x 15 tablets
+^ESCTNO854746	NovoNorm 1mg tablets (Novo Nordisk Ltd) 30 tablet 2 x 15 tablets
+^ESCTNO854748	NovoNorm 1mg tablets (Novo Nordisk Ltd) 90 tablet 6 x 15 tablets
+^ESCTNO854752	NovoNorm 2mg tablets (Novo Nordisk Ltd) 90 tablet 6 x 15 tablets
+^ESCTPR613066	Product containing repaglinide 0.5 milligram/1 each oral tablet
+^ESCTPR613068	Product containing repaglinide 1 mg/1 each oral tablet
+^ESCTPR613071	Product containing repaglinide 2 mg/1 each oral tablet
+^ESCTPR934530	Prandin 0.5mg tablets (Novo Nordisk Ltd)
+^ESCTPR934535	Prandin 0.5mg tablets (Novo Nordisk Ltd) 30 tablet 2 x 15 tablets
+^ESCTPR934549	Prandin 0.5mg tablets (Novo Nordisk Ltd) 90 tablet 6 x 15 tablets
+^ESCTPR934575	Prandin 1mg tablets (Novo Nordisk Ltd)
+^ESCTPR934578	Prandin 1mg tablets (Novo Nordisk Ltd) 30 tablet 2 x 15 tablets
+^ESCTPR934582	Prandin 1mg tablets (Novo Nordisk Ltd) 90 tablet 6 x 15 tablets
+^ESCTPR934584	Prandin 2mg tablets (Novo Nordisk Ltd)
+^ESCTPR934585	Prandin 2mg tablets (Novo Nordisk Ltd) 90 tablet 6 x 15 tablets
+^ESCTRE1017677	Repaglinide 500microgram tablets (Teva UK Ltd)
+^ESCTRE1017678	Repaglinide 500microgram tablets (Teva UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTRE1017679	Repaglinide 500microgram tablets (Teva UK Ltd) 90 tablet 9 x 10 tablets
+^ESCTRE1017680	Repaglinide 1mg tablets (Teva UK Ltd)
+^ESCTRE1017681	Repaglinide 1mg tablets (Teva UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTRE1017682	Repaglinide 1mg tablets (Teva UK Ltd) 90 tablet 9 x 10 tablets
+^ESCTRE1017683	Repaglinide 2mg tablets (Teva UK Ltd)
+^ESCTRE1017684	Repaglinide 2mg tablets (Teva UK Ltd) 90 tablet 9 x 10 tablets
+^ESCTRE1018600	Repaglinide 2mg tablets (Aspire Pharma Ltd)
+^ESCTRE1018601	Repaglinide 2mg tablets (Aspire Pharma Ltd) 90 tablet 9 x 10 tablets
+^ESCTRE1018602	Repaglinide 1mg tablets (Aspire Pharma Ltd)
+^ESCTRE1018603	Repaglinide 1mg tablets (Aspire Pharma Ltd) 90 tablet 9 x 10 tablets
+^ESCTRE1018604	Repaglinide 500microgram tablets (Aspire Pharma Ltd)
+^ESCTRE1018605	Repaglinide 500microgram tablets (Aspire Pharma Ltd) 90 tablet 9 x 10 tablets
+^ESCTRE1018812	Repaglinide 500microgram tablets (Actavis UK Ltd)
+^ESCTRE1018815	Repaglinide 500microgram tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTRE1018816	Repaglinide 500microgram tablets (Actavis UK Ltd) 90 tablet 9 x 10 tablets
+^ESCTRE1018818	Repaglinide 1mg tablets (Actavis UK Ltd)
+^ESCTRE1018819	Repaglinide 1mg tablets (Actavis UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTRE1018820	Repaglinide 1mg tablets (Actavis UK Ltd) 90 tablet 9 x 10 tablets
+^ESCTRE1018821	Repaglinide 2mg tablets (Actavis UK Ltd)
+^ESCTRE1018822	Repaglinide 2mg tablets (Actavis UK Ltd) 90 tablet 9 x 10 tablets
+^ESCTRE1019368	Repaglinide 500microgram tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTRE1019369	Repaglinide 500microgram tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCTRE1019371	Repaglinide 500microgram tablets (Alliance Healthcare (Distribution) Ltd) 90 tablet 9 x 10 tablets
+^ESCTRE1019373	Repaglinide 1mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTRE1019374	Repaglinide 1mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet 3 x 10 tablets
+^ESCTRE1019375	Repaglinide 1mg tablets (Alliance Healthcare (Distribution) Ltd) 90 tablet 9 x 10 tablets
+^ESCTRE1019376	Repaglinide 2mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTRE1019377	Repaglinide 2mg tablets (Alliance Healthcare (Distribution) Ltd) 90 tablet 9 x 10 tablets
+^ESCTRE1019382	Repaglinide 500microgram tablets (A A H Pharmaceuticals Ltd)
+^ESCTRE1019383	Repaglinide 500microgram tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTRE1019384	Repaglinide 500microgram tablets (A A H Pharmaceuticals Ltd) 90 tablet
+^ESCTRE1019385	Repaglinide 1mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTRE1019386	Repaglinide 1mg tablets (A A H Pharmaceuticals Ltd) 30 tablet 2 x 15 tablets
+^ESCTRE1019387	Repaglinide 1mg tablets (A A H Pharmaceuticals Ltd) 90 tablet
+^ESCTRE1019388	Repaglinide 2mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTRE1019389	Repaglinide 2mg tablets (A A H Pharmaceuticals Ltd) 90 tablet
+^ESCTRE1030188	Repaglinide 500microgram tablets (Creo Pharma Ltd)
+^ESCTRE1030189	Repaglinide 500microgram tablets (Creo Pharma Ltd) 30 tablet 2 x 15 tablets
+^ESCTRE1030190	Repaglinide 500microgram tablets (Creo Pharma Ltd) 90 tablet 6 x 15 tablets
+^ESCTRE1030191	Repaglinide 1mg tablets (Creo Pharma Ltd)
+^ESCTRE1030192	Repaglinide 1mg tablets (Creo Pharma Ltd) 30 tablet 2 x 15 tablets
+^ESCTRE1030193	Repaglinide 1mg tablets (Creo Pharma Ltd) 90 tablet 6 x 15 tablets
+^ESCTRE1030194	Repaglinide 2mg tablets (Creo Pharma Ltd)
+^ESCTRE1030195	Repaglinide 2mg tablets (Creo Pharma Ltd) 90 tablet 6 x 15 tablets
+^ESCTRE1032186	Repaglinide 500microgram tablets (Accord Healthcare Ltd)
+^ESCTRE1032188	Repaglinide 500microgram tablets (Accord Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCTRE1032189	Repaglinide 500microgram tablets (Accord Healthcare Ltd) 90 tablet 9 x 10 tablets
+^ESCTRE1032226	Repaglinide 1mg tablets (Accord Healthcare Ltd)
+^ESCTRE1032228	Repaglinide 1mg tablets (Accord Healthcare Ltd) 30 tablet 3 x 10 tablets
+^ESCTRE1032232	Repaglinide 1mg tablets (Accord Healthcare Ltd) 90 tablet 9 x 10 tablets
+^ESCTRE1032239	Repaglinide 2mg tablets (Accord Healthcare Ltd)
+^ESCTRE1032242	Repaglinide 2mg tablets (Accord Healthcare Ltd) 90 tablet 9 x 10 tablets
+^ESCTRE1042370	Repaglinide 500microgram tablets (Waymade Healthcare Plc)
+^ESCTRE1042371	Repaglinide 500microgram tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTRE1042372	Repaglinide 500microgram tablets (Waymade Healthcare Plc) 90 tablet
+^ESCTRE1042373	Repaglinide 1mg tablets (Waymade Healthcare Plc)
+^ESCTRE1042374	Repaglinide 1mg tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTRE1042375	Repaglinide 1mg tablets (Waymade Healthcare Plc) 90 tablet
+^ESCTRE1042376	Repaglinide 2mg tablets (Waymade Healthcare Plc)
+^ESCTRE1042377	Repaglinide 2mg tablets (Waymade Healthcare Plc) 90 tablet
+^ESCTRE1119702	Repaglinide 1mg tablets (DE Pharmaceuticals)
+^ESCTRE1119703	Repaglinide 1mg tablets (DE Pharmaceuticals) 30 tablet
+^ESCTRE1119704	Repaglinide 1mg tablets (DE Pharmaceuticals) 90 tablet
+^ESCTRE1119707	Repaglinide 2mg tablets (DE Pharmaceuticals)
+^ESCTRE1119709	Repaglinide 2mg tablets (DE Pharmaceuticals) 90 tablet
+^ESCTRE1126325	Repaglinide 500microgram tablets (Aspire Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTRE1126326	Repaglinide 1mg tablets (Aspire Pharma Ltd) 30 tablet 3 x 10 tablets
+^ESCTRE1126774	Repaglinide 500microgram tablets (DE Pharmaceuticals)
+^ESCTRE1126776	Repaglinide 500microgram tablets (DE Pharmaceuticals) 30 tablet
+^ESCTRE1126777	Repaglinide 500microgram tablets (DE Pharmaceuticals) 90 tablet
+^ESCTRE1127217	Repaglinide 500microgram tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTRE1127218	Repaglinide 500microgram tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTRE1127219	Repaglinide 500microgram tablets (Mawdsley-Brooks & Company Ltd) 90 tablet
+^ESCTRE1127220	Repaglinide 1mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTRE1127221	Repaglinide 1mg tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTRE1127222	Repaglinide 1mg tablets (Mawdsley-Brooks & Company Ltd) 90 tablet
+^ESCTRE1127223	Repaglinide 2mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTRE1127224	Repaglinide 2mg tablets (Mawdsley-Brooks & Company Ltd) 90 tablet
+^ESCTRE1153096	Repaglinide 500microgram tablets (Mylan Ltd)
+^ESCTRE1153097	Repaglinide 500microgram tablets (Mylan Ltd) 30 tablet
+^ESCTRE1153098	Repaglinide 500microgram tablets (Mylan Ltd) 90 tablet
+^ESCTRE1153099	Repaglinide 1mg tablets (Mylan Ltd)
+^ESCTRE1153100	Repaglinide 1mg tablets (Mylan Ltd) 30 tablet
+^ESCTRE1153101	Repaglinide 1mg tablets (Mylan Ltd) 90 tablet
+^ESCTRE1153150	Repaglinide 2mg tablets (Mylan Ltd)
+^ESCTRE1153152	Repaglinide 2mg tablets (Mylan Ltd) 90 tablet
+^ESCTRE613064	Repaglinide 500microgram tablets
+^ESCTRE613065	Repaglinide 0.5 mg oral tablet
+^ESCTRE613067	Repaglinide 1mg tablets
+^ESCTRE613069	Repaglinide 1 mg oral tablet
+^ESCTRE613070	Repaglinide 2mg tablets
+^ESCTRE613072	Repaglinide 2 mg oral tablet
+^ESCTRE834378	Repaglinide 1mg tablets 90 tablet
+^ESCTRE836787	Repaglinide 500microgram tablets 30 tablet
+^ESCTRE838759	Repaglinide 2mg tablets 90 tablet
+^ESCTRE847367	Repaglinide 500microgram tablets 90 tablet
+^ESCTRE848501	Repaglinide 1mg tablets 30 tablet
+ENTA51172NEMIS	Enyglid  Tablets  500 micrograms
+ENTA51173NEMIS	Enyglid  Tablets  1 mg
+ENTA51174NEMIS	Enyglid  Tablets  2 mg
+NOTA34153EMIS	Novonorm  Tablets  500 micrograms
+NOTA34156EMIS	Novonorm  Tablets  1 mg
+NOTA34157EMIS	Novonorm  Tablets  2 mg
+PRTA23502NEMIS	Prandin  Tablets  500 micrograms
+PRTA23503NEMIS	Prandin  Tablets  1 mg
+PRTA23504NEMIS	Prandin  Tablets  2 mg
+RETA34161EMIS	Repaglinide  Tablets  1 mg
+RETA34162EMIS	Repaglinide  Tablets  2 mg
+RETA34163EMIS	Repaglinide  Tablets  500 micrograms

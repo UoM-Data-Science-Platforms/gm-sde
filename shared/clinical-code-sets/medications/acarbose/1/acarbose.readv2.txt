@@ -1,0 +1,4 @@
+ft11.	ACARBOSE 50mg tablets
+ft12.	ACARBOSE 100mg tablets
+ft13.	GLUCOBAY 50 tablets
+ft14.	GLUCOBAY 100 tablets

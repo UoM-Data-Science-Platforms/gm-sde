@@ -1,0 +1,59 @@
+c11b.	Ventolin 2mg/5mL s/f syrup
+c11c.	Volmax 4mg m/r tablet
+c11d.	Volmax 8mg m/r tablet
+c11D.	Salapin 2mg/5mL sugar free syrup
+c11j.	Salbutamol 4mg m/r tablet
+c11n.	Salbutamol 4mg m/r capsule
+c11o.	Salbutamol 8mg m/r capsule
+c11p.	Ventmax SR 4mg m/r capsule
+c11q.	Ventmax SR 8mg m/r capsule
+c11v.	Salbutamol 4mg tablet
+c11x.	Salbutamol 2mg tablet
+c11y.	Salbutamol 8mg m/r tablet
+c11z.	Salbutamol 2mg/5mL sugar free syrup
+c122.	Ventolin 500micrograms/1mL injection
+c123.	Ventolin 5mg/5mL intravenous infusion
+c12y.	Salbutamol 500micrograms/1mL injection
+c12z.	Salbutamol 5mg/5mL intravenous infusion
+c133.	Salbulin 100micrograms inhaler
+c135.	Ventolin 2.5mg/2.5mL Nebule
+c136.	Ventolin 200micrograms Rotacap
+c137.	Ventolin 400micrograms Rotacap
+c139.	Ventolin 100mg/20mL nebuliser solution
+c13A.	Steri-Neb Salamol 2.5mg/2.5mL nebulisation unit
+c13B.	Steri-Neb Salamol 5mg/2.5mL nebulisation unit
+c13C.	Salbutamol 200micrograms/blister disks+disk inhaler
+c13d.	Ventodisks 200micrograms diskhaler 14x8
+c13D.	Salbutamol 400micrograms/blister disks+disk inhaler
+c13e.	Ventodisks 400micrograms diskhaler 14x8
+c13E.	Salbutamol 200micrograms/blister disks refill
+c13f.	Ventodisks 200micrograms disk refill 14x8
+c13F.	Salbutamol 400micrograms/blister disks refill
+c13g.	Ventodisks 400micrograms disk refill 14x8
+c13G.	Salbutamol 100micrograms breath-actuated aerosol inhaler
+c13I.	Airomir 100micrograms CFC-free inhaler
+c13J.	Salbutamol 100micrograms CFC-free inhaler
+c13l.	Aerolin 100micrograms Autohaler 200d
+c13L.	Salbutamol 200micrograms breath-actuated dry powder inhaler
+c13m.	Ventolin 5mg/2.5mL Nebule
+c13M.	Ventolin 200micrograms Accuhaler
+c13o.	Salbutamol 5mg/2.5mL nebulisation unit
+c13q.	Salbutamol 200 Cyclocap
+c13Q.	Asmasal 95micrograms Clickhaler
+c13r.	Salbutamol 400 Cyclocap
+c13S.	Salbutamol 95micrograms breath-actuated dry powder inhaler
+c13T.	Ventolin 100micrograms Evohaler
+c13U.	Salbutamol 100micrograms CFC-free breath-actuated aerosol inhaler
+c13v.	Salbutamol 100micrograms inhaler
+c13V.	Airomir 100micrograms CFC-free Autohaler
+c13w.	Salbutamol 2.5mg/2.5mL nebulisation unit
+c13W.	Maxivent 2.5mg/2.5mL Steripoule
+c13x.	Salbutamol 200micrograms inhalation capsule
+c13X.	Maxivent 5mg/2.5mL Steripoule
+c13y.	Salbutamol 400micrograms inhalation capsule
+c13z.	Salbutamol 100mg/20mL nebuliser solution
+c13Z.	Salamol 100micrograms CFC-free inhaler
+c1E1.	Salamol Easi-Breathe 100micrograms CFC-free breath-actuated aerosol inhaler
+c1E2.	Pulvinal Salbutamol 200micrograms breath-actuated dry powder inhaler
+c1E7.	Easyhaler Salbutamol 100micrograms breath-actuated dry powder inhaler
+c1E8.	Easyhaler Salbutamol 200micrograms breath-actuated dry powder inhaler

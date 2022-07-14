@@ -1,0 +1,4 @@
+44T2.	Fasting blood glucose (& level)
+44f1.	Serum fasting glucose level
+44g1.	Plasma fasting glucose level
+XE2mq	Fasting blood glucose level

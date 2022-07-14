@@ -1,0 +1,5 @@
+ESCTBR3	Broken tooth with complication
+ESCTEX1	Extrusive luxation of tooth
+ESCTBR2	Broken tooth without complication
+ESCTCO7	Complete avulsion of tooth
+EMISNQGE28	Generalised marginal gingivitis

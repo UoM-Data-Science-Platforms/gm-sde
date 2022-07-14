@@ -1,0 +1,4 @@
+ga71.	Etonogestrel 68mg subdermal implant
+ga72.	Implanon 68mg subdermal implant
+ga73.	NEXPLANON 68mg subdermal implant
+gj11.	NUVARING 120mcg/15mcg/24 hours vaginal delivery system

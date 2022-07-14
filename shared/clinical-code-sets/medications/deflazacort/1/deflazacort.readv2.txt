@@ -1,0 +1,6 @@
+fe91.	DEFLAZACORT 6mg tablets
+fe92.	CALCORT 6mg tablets
+fe93.	*DEFLAZACORT 30mg tablets
+fe94.	*CALCORT 30mg tablets
+fe95.	*DEFLAZACORT 1mg tablets
+fe96.	*CALCORT 1mg tablets

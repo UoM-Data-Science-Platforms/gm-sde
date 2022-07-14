@@ -1,0 +1,22 @@
+^ESCT1181396	Product containing only isocarboxazid 10 mg/1 each oral tablet
+^ESCT1223562	Product containing precisely isocarboxazid 10 milligram/1 each conventional release oral tablet
+^ESCTIS1084722	Isocarboxazid 10mg tablets (Ennogen Healthcare Ltd)
+^ESCTIS1084723	Isocarboxazid 10mg tablets (Ennogen Healthcare Ltd) 56 tablet
+^ESCTIS609723	Isocarboxazid 10mg tablets
+^ESCTIS609725	Isocarboxazid 10 mg oral tablet
+^ESCTIS864018	Isocarboxazid 10mg tablets 56 tablet
+^ESCTIS864020	Isocarboxazid 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTIS864021	Isocarboxazid 10mg tablets (A A H Pharmaceuticals Ltd) 56 tablet
+^ESCTIS864024	Isocarboxazid 10mg tablets (Alliance Pharmaceuticals Ltd)
+^ESCTIS864025	Isocarboxazid 10mg tablets (Alliance Pharmaceuticals Ltd) 56 tablet
+^ESCTIS864026	Isocarboxazid 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTIS864027	Isocarboxazid 10mg tablets (Alliance Healthcare (Distribution) Ltd) 56 tablet
+^ESCTIS951589	Isocarboxazid 20mg/5ml oral suspension 1 ml
+^ESCTIS951590	Isocarboxazid 20mg/5ml oral suspension (Special Order)
+^ESCTIS951591	Isocarboxazid 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTIS952160	Isocarboxazid 20mg/5ml oral suspension
+^ESCTPR609724	Product containing isocarboxazid 10 mg/1 each oral tablet
+ISTA35606MGEMIS	Isocarboxazid  Tablets  10 mg (A.A.H. Pharm)
+ISTA35607MGEMIS	Isocarboxazid  Tablets  10 mg (Cambridge Labs)
+ISTA35608MGEMIS	Isocarboxazid  Tablets  10 mg (Unichem)
+ISTA5044	Isocarboxazid  Tablets  10 mg

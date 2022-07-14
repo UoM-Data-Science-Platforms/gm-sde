@@ -1,0 +1,17 @@
+24104511000001103	Canagliflozin 300mg tablets
+24088211000001103	Canagliflozin 300mg tablets
+24088311000001106	Invokana 300mg tablets
+24088411000001104	Invokana 300mg tablets
+39734511000001100	Canagliflozin 100mg tablets
+24088511000001100	Canagliflozin 100mg tablets
+37989711000001102	Canagliflozin 100mg tablets
+24088611000001101	Invokana 100mg tablets
+24088711000001105	Invokana 100mg tablets
+28049311000001109	Canagliflozin 50mg / Metformin 850mg tablets
+28022211000001106	Canagliflozin 50mg / Metformin 850mg tablets
+28022511000001109	Vokanamet 50mg/850mg tablets
+28022911000001102	Vokanamet 50mg/850mg tablets
+28049211000001101	Canagliflozin 50mg / Metformin 1g tablets
+28024111000001108	Canagliflozin 50mg / Metformin 1g tablets
+28024411000001103	Vokanamet 50mg/1000mg tablets
+28024611000001100	Vokanamet 50mg/1000mg tablets

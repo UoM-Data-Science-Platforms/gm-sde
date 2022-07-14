@@ -1,0 +1,676 @@
+325546003	Estradiol 2mg tablets
+2835711000001100	Estradiol 2mg tablets
+2835911000001103	Estradiol 2mg tablets
+3345711000001105	Estradiol 2mg tablets
+3365111000001102	Estradiol 2mg tablets
+3447211000001101	Estradiol 2mg tablets
+3454811000001106	Estradiol 2mg tablets
+2837211000001104	Elleste Solo 2mg tablets (Viatris UK Healthcare Ltd)
+2837811000001103	Elleste Solo 2mg tablets (Viatris UK Healthcare Ltd)
+2838411000001101	Zumenon 2mg tablets (Viatris UK Healthcare Ltd)
+2838611000001103	Zumenon 2mg tablets (Viatris UK Healthcare Ltd)
+2838711000001107	Adgyn Estro 2mg tablets (Kyowa Kirin Ltd)
+2839011000001100	Adgyn Estro 2mg tablets (Kyowa Kirin Ltd)
+3348711000001103	Estradiol 2mg tablets (Abbott Healthcare Products Ltd)
+3348911000001101	Estradiol 2mg tablets (Abbott Healthcare Products Ltd)
+3365411000001107	Estradiol 2mg tablets (Kyowa Kirin Ltd)
+3365511000001106	Estradiol 2mg tablets (Kyowa Kirin Ltd)
+3447411000001102	Estradiol 2mg tablets (Novo Nordisk Ltd)
+3447611000001104	Estradiol 2mg tablets (Novo Nordisk Ltd)
+3454911000001101	Estradiol 2mg tablets (Viatris UK Healthcare Ltd)
+3455011000001101	Estradiol 2mg tablets (Viatris UK Healthcare Ltd)
+10276611000001104	Bedol 2mg tablets (ReSource Medical UK Ltd)
+10276711000001108	Bedol 2mg tablets (ReSource Medical UK Ltd)
+10276811000001100	Estradiol 2mg tablets (ReSource Medical UK Ltd)
+10276911000001105	Estradiol 2mg tablets (ReSource Medical UK Ltd)
+325545004	Estradiol 1mg tablets
+2841011000001103	Estradiol 1mg tablets
+3346511000001107	Estradiol 1mg tablets
+3366911000001106	Estradiol 1mg tablets
+3448411000001103	Estradiol 1mg tablets
+14745511000001103	Estradiol 1mg tablets
+2841811000001109	Elleste Solo 1mg tablets (Viatris UK Healthcare Ltd)
+2842111000001107	Elleste Solo 1mg tablets (Viatris UK Healthcare Ltd)
+2842511000001103	Zumenon 1mg tablets (Viatris UK Healthcare Ltd)
+2844811000001106	Zumenon 1mg tablets (Viatris UK Healthcare Ltd)
+3346811000001105	Estradiol 1mg tablets (Abbott Healthcare Products Ltd)
+3346911000001100	Estradiol 1mg tablets (Abbott Healthcare Products Ltd)
+3367011000001105	Estradiol 1mg tablets (Viatris UK Healthcare Ltd)
+3367111000001106	Estradiol 1mg tablets (Viatris UK Healthcare Ltd)
+3448611000001100	Estradiol 1mg tablets (Novo Nordisk Ltd)
+4498511000001109	Estradiol 1mg tablets (Novo Nordisk Ltd)
+3449011000001102	Estradiol 1mg tablets (Novo Nordisk Ltd)
+36064911000001108	Estradiol 25micrograms/24hours transdermal patches
+2888411000001105	Estradiol 25micrograms/24hours transdermal patches
+2889011000001106	Estradiol 25micrograms/24hours transdermal patches
+2889111000001107	Evorel 25 patches (Theramex HQ UK Ltd)
+2889211000001101	Evorel 25 patches (Theramex HQ UK Ltd)
+2889311000001109	Estraderm TTS 25 patches (Novartis Pharmaceuticals UK Ltd)
+2889411000001102	Estraderm TTS 25 patches (Novartis Pharmaceuticals UK Ltd)
+2889511000001103	Estraderm TTS 25 patches (Novartis Pharmaceuticals UK Ltd)
+2889611000001104	Estraderm MX 25 patches (Norgine Pharmaceuticals Ltd)
+2889711000001108	Estraderm MX 25 patches (Norgine Pharmaceuticals Ltd)
+2889811000001100	Estraderm MX 25 patches (Norgine Pharmaceuticals Ltd)
+2889911000001105	Dermestril 25 patches (Kyowa Kirin Ltd)
+2890011000001102	Dermestril 25 patches (Kyowa Kirin Ltd)
+9044911000001109	Estradot 25micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)
+9045011000001109	Estradot 25micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)
+36065111000001109	Estradiol 40micrograms/24hours transdermal patches
+2890111000001101	Estradiol 40micrograms/24hours transdermal patches
+2890211000001107	Elleste Solo MX 40 transdermal patches (Viatris UK Healthcare Ltd)
+2890311000001104	Elleste Solo MX 40 transdermal patches (Viatris UK Healthcare Ltd)
+2890411000001106	Fematrix 40 patches (Abbott Healthcare Products Ltd)
+2890511000001105	Fematrix 40 patches (Abbott Healthcare Products Ltd)
+36065511000001100	Estradiol 80micrograms/24hours transdermal patches
+2893111000001108	Estradiol 80micrograms/24hours transdermal patches
+3208311000001101	Estradiol 80micrograms/24hours transdermal patches
+2893411000001103	Elleste Solo MX 80 transdermal patches (Viatris UK Healthcare Ltd)
+2893511000001104	Elleste Solo MX 80 transdermal patches (Viatris UK Healthcare Ltd)
+2893711000001109	Fematrix 80 patches (Abbott Healthcare Products Ltd)
+2893911000001106	Fematrix 80 patches (Abbott Healthcare Products Ltd)
+36065011000001108	Estradiol 37.5micrograms/24hours transdermal patches
+2895011000001108	Estradiol 37.5micrograms/24hours transdermal patches
+2895211000001103	Menorest 37.5 patches (Novartis Pharmaceuticals UK Ltd)
+2895511000001100	Menorest 37.5 patches (Novartis Pharmaceuticals UK Ltd)
+9045111000001105	Estradot 37.5micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)
+9045211000001104	Estradot 37.5micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)
+36065411000001104	Estradiol 75micrograms/24hours transdermal patches
+2902511000001103	Estradiol 75micrograms/24hours transdermal patches
+2902711000001108	Estradiol 75micrograms/24hours transdermal patches
+2902811000001100	Estradiol 75micrograms/24hours transdermal patches
+2902911000001105	FemSeven 75 patches (Theramex HQ UK Ltd)
+2903011000001102	FemSeven 75 patches (Theramex HQ UK Ltd)
+2903111000001101	Evorel 75 patches (Theramex HQ UK Ltd)
+2903211000001107	Evorel 75 patches (Theramex HQ UK Ltd)
+2910911000001109	Menorest 75 patches (Novartis Pharmaceuticals UK Ltd)
+2911011000001101	Menorest 75 patches (Novartis Pharmaceuticals UK Ltd)
+2911111000001100	Estraderm MX 75 patches (Norgine Pharmaceuticals Ltd)
+2911211000001106	Estraderm MX 75 patches (Norgine Pharmaceuticals Ltd)
+2911311000001103	Estraderm MX 75 patches (Norgine Pharmaceuticals Ltd)
+2911411000001105	Dermestril - Septem 75 patches (Kyowa Kirin Ltd)
+2911511000001109	Dermestril - Septem 75 patches (Kyowa Kirin Ltd)
+9045511000001101	Estradot 75micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)
+9045611000001102	Estradot 75micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)
+36064811000001103	Estradiol 100micrograms/24hours transdermal patches
+2935411000001100	Estradiol 100micrograms/24hours transdermal patches
+2935511000001101	Estradiol 100micrograms/24hours transdermal patches
+2938511000001109	Estradiol 100micrograms/24hours transdermal patches
+2939911000001105	Estradiol 100micrograms/24hours transdermal patches
+2936011000001100	Evorel 100 patches (Theramex HQ UK Ltd)
+2936411000001109	Evorel 100 patches (Theramex HQ UK Ltd)
+2936611000001107	Estraderm TTS 100 patches (Novartis Pharmaceuticals UK Ltd)
+2936811000001106	Estraderm TTS 100 patches (Novartis Pharmaceuticals UK Ltd)
+2937011000001102	Estraderm TTS 100 patches (Novartis Pharmaceuticals UK Ltd)
+2937111000001101	Estraderm MX 100 patches (Norgine Pharmaceuticals Ltd)
+2937211000001107	Estraderm MX 100 patches (Norgine Pharmaceuticals Ltd)
+2937711000001100	Estraderm MX 100 patches (Norgine Pharmaceuticals Ltd)
+2938211000001106	Dermestril 100 patches (Kyowa Kirin Ltd)
+2938311000001103	Dermestril 100 patches (Kyowa Kirin Ltd)
+2938411000001105	FemSeven 100 patches (Theramex HQ UK Ltd)
+2938711000001104	FemSeven 100 patches (Theramex HQ UK Ltd)
+2939611000001104	Progynova TS 100micrograms/24hours transdermal patches (Bayer Plc)
+2940111000001103	Progynova TS 100micrograms/24hours transdermal patches (Bayer Plc)
+9045711000001106	Estradot 100micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)
+9045811000001103	Estradot 100micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)
+39112011000001100	Estradiol 50micrograms/24hours transdermal patches
+2941311000001106	Estradiol 50micrograms/24hours transdermal patches
+2941511000001100	Estradiol 50micrograms/24hours transdermal patches
+2941711000001105	Estradiol 50micrograms/24hours transdermal patches
+2942111000001104	Estradiol 50micrograms/24hours transdermal patches
+2942211000001105	Estradiol 50micrograms/24hours transdermal patches
+4707311000001108	Estradiol 50micrograms/24hours transdermal patches
+4707411000001101	Estradiol 50micrograms/24hours transdermal patches
+2942311000001102	Evorel 50 patches (Theramex HQ UK Ltd)
+2942611000001107	Evorel 50 patches (Theramex HQ UK Ltd)
+2942711000001103	Evorel 50 patches (Theramex HQ UK Ltd)
+3216211000001105	Evorel 50 patches (Theramex HQ UK Ltd)
+2942911000001101	Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)
+2943111000001105	Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)
+2943311000001107	Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)
+3211311000001105	Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)
+3211411000001103	Estraderm TTS 50 patches (Novartis Pharmaceuticals UK Ltd)
+2943611000001102	Menorest 50 patches (Novartis Pharmaceuticals UK Ltd)
+2944511000001103	Menorest 50 patches (Novartis Pharmaceuticals UK Ltd)
+2945011000001105	Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)
+2945311000001108	Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)
+2945511000001102	Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)
+2947311000001100	Estraderm MX 50 patches (Norgine Pharmaceuticals Ltd)
+2947611000001105	Dermestril 50 patches (Kyowa Kirin Ltd)
+2947711000001101	Dermestril 50 patches (Kyowa Kirin Ltd)
+2947811000001109	Dermestril - Septem 50 patches (Kyowa Kirin Ltd)
+2948011000001102	Dermestril - Septem 50 patches (Kyowa Kirin Ltd)
+2948411000001106	FemSeven 50 patches (Theramex HQ UK Ltd)
+2948811000001108	FemSeven 50 patches (Theramex HQ UK Ltd)
+2949011000001107	FemSeven 50 patches (Theramex HQ UK Ltd)
+2949711000001109	Progynova TS 50micrograms/24hours transdermal patches (Bayer Plc)
+2950811000001108	Progynova TS 50micrograms/24hours transdermal patches (Bayer Plc)
+9045311000001107	Estradot 50micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)
+9045411000001100	Estradot 50micrograms/24hours patches (Novartis Pharmaceuticals UK Ltd)
+325577001	Estradiol 0.06% gel (750microgram per actuation)
+3413511000001101	Estradiol 0.06% gel (750microgram per actuation)
+17613911000001103	Estradiol 0.06% gel (750microgram per actuation)
+3414911000001105	Oestrogel Pump-Pack 0.06% gel (Besins Healthcare (UK) Ltd)
+3416111000001100	Oestrogel Pump-Pack 0.06% gel (Besins Healthcare (UK) Ltd)
+134589003	Estradiol 150micrograms/dose nasal spray
+3649211000001109	Estradiol 150micrograms/dose nasal spray
+3649411000001108	Aerodiol 150micrograms/dose nasal spray (Servier Laboratories Ltd)
+3649511000001107	Aerodiol 150micrograms/dose nasal spray (Servier Laboratories Ltd)
+3664211000001102	Estradiol 500microgram gel sachets
+3657711000001107	Estradiol 500microgram gel sachets
+3657811000001104	Sandrena 500microgram gel sachets (Orion Pharma (UK) Ltd)
+3658011000001106	Sandrena 500microgram gel sachets (Orion Pharma (UK) Ltd)
+3664111000001108	Estradiol 1mg gel sachets
+3658211000001101	Estradiol 1mg gel sachets
+3658311000001109	Estradiol 1mg gel sachets
+3658611000001104	Sandrena 1mg gel sachets (Orion Pharma (UK) Ltd)
+3658811000001100	Sandrena 1mg gel sachets (Orion Pharma (UK) Ltd)
+3659011000001101	Sandrena 1mg gel sachets (Orion Pharma (UK) Ltd)
+325541008	Estradiol 50mg implant
+3773011000001109	Estradiol 50mg implant
+3773511000001101	Estradiol 50mg implant (A A H Pharmaceuticals Ltd)
+3773611000001102	Estradiol 50mg implant (A A H Pharmaceuticals Ltd)
+3773711000001106	Estradiol 50mg implant (Organon Pharma (UK) Ltd)
+3774011000001106	Estradiol 50mg implant (Organon Pharma (UK) Ltd)
+3774411000001102	Estradiol 50mg implant (Alliance Healthcare (Distribution) Ltd)
+3774511000001103	Estradiol 50mg implant (Alliance Healthcare (Distribution) Ltd)
+27322111000001108	Estradiol 50mg implant (Special Order)
+27322211000001102	Estradiol 50mg implant (Special Order)
+325542001	Estradiol 100mg implant
+3774611000001104	Estradiol 100mg implant
+3774711000001108	Estradiol 100mg implant (A A H Pharmaceuticals Ltd)
+3774811000001100	Estradiol 100mg implant (A A H Pharmaceuticals Ltd)
+3774911000001105	Estradiol 100mg implant (Organon Laboratories Ltd)
+3775011000001105	Estradiol 100mg implant (Organon Laboratories Ltd)
+3775111000001106	Estradiol 100mg implant (Alliance Healthcare (Distribution) Ltd)
+3775211000001100	Estradiol 100mg implant (Alliance Healthcare (Distribution) Ltd)
+325540009	Estradiol 25mg implant
+3878311000001101	Estradiol 25mg implant
+3878511000001107	Estradiol 25mg implant (A A H Pharmaceuticals Ltd)
+3878611000001106	Estradiol 25mg implant (A A H Pharmaceuticals Ltd)
+3878711000001102	Estradiol 25mg implant (Organon Pharma (UK) Ltd)
+3878811000001105	Estradiol 25mg implant (Organon Pharma (UK) Ltd)
+3878911000001100	Estradiol 25mg implant (Alliance Healthcare (Distribution) Ltd)
+3879011000001109	Estradiol 25mg implant (Alliance Healthcare (Distribution) Ltd)
+38344311000001108	Estradiol 1.53mg/dose transdermal spray
+38268811000001107	Estradiol 1.53mg/dose transdermal spray
+38269511000001103	Estradiol 1.53mg/dose transdermal spray
+38268911000001102	Lenzetto 1.53mg/dose transdermal spray (Gedeon Richter (UK) Ltd)
+38269311000001109	Lenzetto 1.53mg/dose transdermal spray (Gedeon Richter (UK) Ltd)
+38269811000001100	Lenzetto 1.53mg/dose transdermal spray (Gedeon Richter (UK) Ltd)
+3464211000001100	Generic Trisequens tablets
+3449211000001107	Generic Trisequens tablets
+3449411000001106	Trisequens tablets (Novo Nordisk Ltd)
+3449611000001109	Trisequens tablets (Novo Nordisk Ltd)
+3464311000001108	Generic Trisequens Forte tablets
+3453411000001106	Generic Trisequens Forte tablets
+3453611000001109	Trisequens Forte tablets (Novo Nordisk Ltd)
+3453811000001108	Trisequens Forte tablets (Novo Nordisk Ltd)
+3543111000001105	Generic Hormonin tablets
+1129511000001102	Generic Hormonin tablets
+293111000001101	Hormonin tablets (Advanz Pharma)
+2203311000001103	Hormonin tablets (Advanz Pharma)
+325533008	Estradiol valerate 2mg tablets
+2844911000001101	Estradiol valerate 2mg tablets
+2845011000001101	Estradiol valerate 2mg tablets
+3196311000001100	Estradiol valerate 2mg tablets
+3350511000001108	Estradiol valerate 2mg tablets
+3354011000001107	Estradiol valerate 2mg tablets
+3359511000001100	Estradiol valerate 2mg tablets
+5502411000001108	Estradiol valerate 2mg tablets
+2845111000001100	Climaval 2mg tablets (Novartis Pharmaceuticals UK Ltd)
+2845211000001106	Climaval 2mg tablets (Novartis Pharmaceuticals UK Ltd)
+2845311000001103	Climaval 2mg tablets (Novartis Pharmaceuticals UK Ltd)
+2845411000001105	Progynova 2mg tablets (Bayer Plc)
+2845511000001109	Progynova 2mg tablets (Bayer Plc)
+3196511000001106	Estradiol valerate 2mg tablets (Bayer Plc)
+3196611000001105	Estradiol valerate 2mg tablets (Bayer Plc)
+3350611000001107	Estradiol valerate 2mg tablets (Viatris UK Healthcare Ltd)
+3350711000001103	Estradiol valerate 2mg tablets (Viatris UK Healthcare Ltd)
+3354111000001108	Estradiol valerate 2mg tablets (Orion Pharma (UK) Ltd)
+3354211000001102	Estradiol valerate 2mg tablets (Orion Pharma (UK) Ltd)
+3359911000001107	Estradiol valerate 2mg tablets (Novartis Pharmaceuticals UK Ltd)
+3360911000001108	Estradiol valerate 2mg tablets (Novartis Pharmaceuticals UK Ltd)
+3360711000001106	Estradiol valerate 2mg tablets (Novartis Pharmaceuticals UK Ltd)
+4501411000001105	FemTab 2mg tablets (Merck Serono Ltd)
+4501511000001109	FemTab 2mg tablets (Merck Serono Ltd)
+4522411000001109	Estradiol valerate 2mg tablets (Merck Serono Ltd)
+4522611000001107	Estradiol valerate 2mg tablets (Merck Serono Ltd)
+24659611000001109	Estradiol valerate 2mg tablets (Imported (Germany))
+24659911000001103	Estradiol valerate 2mg tablets (Imported (Germany))
+325505008	Estradiol valerate 1mg tablets
+2845611000001108	Estradiol valerate 1mg tablets
+2845711000001104	Estradiol valerate 1mg tablets
+3351811000001103	Estradiol valerate 1mg tablets
+3355211000001101	Estradiol valerate 1mg tablets
+3355311000001109	Estradiol valerate 1mg tablets
+15466211000001104	Estradiol valerate 1mg tablets
+2845811000001107	Climaval 1mg tablets (Novartis Pharmaceuticals UK Ltd)
+2845911000001102	Climaval 1mg tablets (Novartis Pharmaceuticals UK Ltd)
+2846011000001105	Climaval 1mg tablets (Novartis Pharmaceuticals UK Ltd)
+2846111000001106	Progynova 1mg tablets (Bayer Plc)
+2846211000001100	Progynova 1mg tablets (Bayer Plc)
+3351911000001108	Estradiol valerate 1mg tablets (Viatris UK Healthcare Ltd)
+3352011000001101	Estradiol valerate 1mg tablets (Viatris UK Healthcare Ltd)
+3355711000001108	Estradiol valerate 1mg tablets (Novartis Pharmaceuticals UK Ltd)
+3356011000001102	Estradiol valerate 1mg tablets (Novartis Pharmaceuticals UK Ltd)
+3356111000001101	Estradiol valerate 1mg tablets (Novartis Pharmaceuticals UK Ltd)
+4501211000001106	FemTab 1mg tablets (Merck Serono Ltd)
+4501311000001103	FemTab 1mg tablets (Merck Serono Ltd)
+15466311000001107	Estradiol valerate 1mg tablets (Bayer Plc)
+15466411000001100	Estradiol valerate 1mg tablets (Bayer Plc)
+3369311000001103	Estradiol 1mg / Dydrogesterone 5mg tablets
+1063411000001104	Estradiol 1mg / Dydrogesterone 5mg tablets
+519311000001107	Femoston-conti 1mg/5mg tablets (Viatris UK Healthcare Ltd)
+2587211000001108	Femoston-conti 1mg/5mg tablets (Viatris UK Healthcare Ltd)
+325662001	Estradiol 1mg / Norethisterone acetate 500microgram tablets
+3038111000001102	Estradiol 1mg / Norethisterone acetate 500microgram tablets
+14736011000001101	Estradiol 1mg / Norethisterone acetate 500microgram tablets
+3038811000001109	Kliovance tablets (Novo Nordisk Ltd)
+3039611000001101	Kliovance tablets (Novo Nordisk Ltd)
+325655005	Estradiol valerate 2mg / Norethisterone 700microgram tablets
+3039711000001105	Estradiol valerate 2mg / Norethisterone 700microgram tablets
+3039811000001102	Estradiol valerate 2mg / Norethisterone 700microgram tablets
+3040311000001103	Climesse tablets (Novartis Pharmaceuticals UK Ltd)
+3040511000001109	Climesse tablets (Novartis Pharmaceuticals UK Ltd)
+3040711000001104	Climesse tablets (Novartis Pharmaceuticals UK Ltd)
+325648008	Estradiol 2mg / Norethisterone acetate 1mg tablets
+3042111000001101	Estradiol 2mg / Norethisterone acetate 1mg tablets
+3447711000001108	Estradiol 2mg / Norethisterone acetate 1mg tablets
+3455111000001100	Estradiol 2mg / Norethisterone acetate 1mg tablets
+3043111000001107	Kliofem tablets (Novo Nordisk Ltd)
+3079811000001104	Kliofem tablets (Novo Nordisk Ltd)
+3049511000001101	Elleste Duet Conti tablets (Viatris UK Healthcare Ltd)
+3049811000001103	Elleste Duet Conti tablets (Viatris UK Healthcare Ltd)
+3049911000001108	Nuvelle Continuous tablets (Bayer Plc)
+3050111000001103	Nuvelle Continuous tablets (Bayer Plc)
+3448111000001108	Estradiol 2mg / Norethisterone acetate 1mg tablets (Novo Nordisk Ltd)
+3448211000001102	Estradiol 2mg / Norethisterone acetate 1mg tablets (Novo Nordisk Ltd)
+3455211000001106	Estradiol 2mg / Norethisterone acetate 1mg tablets (Viatris UK Healthcare Ltd)
+3455311000001103	Estradiol 2mg / Norethisterone acetate 1mg tablets (Viatris UK Healthcare Ltd)
+4501811000001107	FemTab Continuous tablets (Merck Serono Ltd)
+4502011000001109	FemTab Continuous tablets (Merck Serono Ltd)
+3549811000001101	Generic Nuvelle tablets
+3198811000001105	Generic Nuvelle tablets
+3199011000001109	Nuvelle tablets (Bayer Plc)
+3200011000001101	Nuvelle tablets (Bayer Plc)
+4521511000001100	FemTab Sequi tablets (Merck Serono Ltd)
+4521911000001107	FemTab Sequi tablets (Merck Serono Ltd)
+3549711000001109	Generic Nuvelle TS transdermal patches
+3210011000001103	Generic Nuvelle TS transdermal patches
+3210111000001102	Nuvelle TS patches (Schering Health Care Ltd)
+3210311000001100	Nuvelle TS patches (Schering Health Care Ltd)
+3542511000001108	Generic Estracombi TTS transdermal patches
+3214011000001105	Generic Estracombi TTS transdermal patches
+3215111000001105	Generic Estracombi TTS transdermal patches
+3215411000001100	Estracombi TTS patches (Novartis Pharmaceuticals UK Ltd)
+3215711000001106	Estracombi TTS patches (Novartis Pharmaceuticals UK Ltd)
+3215911000001108	Estracombi TTS patches (Novartis Pharmaceuticals UK Ltd)
+36065211000001103	Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches
+3216311000001102	Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches
+3216411000001109	Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches
+3216511000001108	Estradiol 50micrograms/24hours / Norethisterone 170micrograms/24hours transdermal patches
+3216611000001107	Evorel Conti patches (Theramex HQ UK Ltd)
+3216711000001103	Evorel Conti patches (Theramex HQ UK Ltd)
+3216811000001106	Evorel Conti patches (Theramex HQ UK Ltd)
+3216911000001101	Evorel Conti patches (Theramex HQ UK Ltd)
+3542611000001107	Generic Evorel Sequi transdermal patches
+3217211000001107	Generic Evorel Sequi transdermal patches
+3217311000001104	Evorel Sequi patches (Theramex HQ UK Ltd)
+3217511000001105	Evorel Sequi patches (Theramex HQ UK Ltd)
+3407111000001100	Estradiol 50micrograms/24hours transdermal patches and Norethisterone acetate 1mg tablets
+3219411000001102	Estradiol 50micrograms/24hours transdermal patches and Norethisterone acetate 1mg tablets
+3219511000001103	Estradiol 50micrograms/24hours transdermal patches and Norethisterone acetate 1mg tablets
+3219611000001104	Estrapak 50 (Novartis Pharmaceuticals UK Ltd)
+3219711000001108	Estrapak 50 (Novartis Pharmaceuticals UK Ltd)
+3219811000001100	Estrapak 50 (Novartis Pharmaceuticals UK Ltd)
+3542911000001101	Generic Femoston 2/20mg tablets
+3345911000001107	Generic Femoston 2/20mg tablets
+3346111000001103	Femoston 2/20mg tablets (Abbott Healthcare Products Ltd)
+3346211000001109	Femoston 2/20mg tablets (Abbott Healthcare Products Ltd)
+3542711000001103	Generic Femoston 1/10mg tablets
+3347711000001104	Generic Femoston 1/10mg tablets
+3347911000001102	Femoston 1/10mg tablets (Viatris UK Healthcare Ltd)
+3348211000001105	Femoston 1/10mg tablets (Viatris UK Healthcare Ltd)
+3542811000001106	Generic Femoston 2/10mg tablets
+3349511000001102	Generic Femoston 2/10mg tablets
+3349811000001104	Femoston 2/10mg tablets (Viatris UK Healthcare Ltd)
+3350211000001105	Femoston 2/10mg tablets (Viatris UK Healthcare Ltd)
+3404911000001108	Generic Cyclo-Progynova 2mg tablets
+3351211000001104	Generic Cyclo-Progynova 2mg tablets
+3351311000001107	Cyclo-Progynova 2mg tablets (Viatris UK Healthcare Ltd)
+3351611000001102	Cyclo-Progynova 2mg tablets (Viatris UK Healthcare Ltd)
+3404811000001103	Generic Cyclo-Progynova 1mg tablets
+3352811000001107	Generic Cyclo-Progynova 1mg tablets
+3353311000001108	Cyclo-Progynova 1mg tablets (Meda Pharmaceuticals Ltd)
+3353611000001103	Cyclo-Progynova 1mg tablets (Meda Pharmaceuticals Ltd)
+3557411000001105	Generic Tridestra tablets
+3355411000001102	Generic Tridestra tablets
+3355511000001103	Tridestra tablets (Orion Pharma (UK) Ltd)
+3355911000001105	Tridestra tablets (Orion Pharma (UK) Ltd)
+3404511000001101	Generic Climagest 1mg tablets
+3357811000001105	Generic Climagest 1mg tablets
+3358011000001103	Generic Climagest 1mg tablets
+3358411000001107	Climagest 1mg tablets (Novartis Pharmaceuticals UK Ltd)
+3358711000001101	Climagest 1mg tablets (Novartis Pharmaceuticals UK Ltd)
+3359111000001109	Climagest 1mg tablets (Novartis Pharmaceuticals UK Ltd)
+3404711000001106	Generic Climagest 2mg tablets
+3362911000001107	Generic Climagest 2mg tablets
+3363311000001101	Generic Climagest 2mg tablets
+3363611000001106	Climagest 2mg tablets (Novartis Pharmaceuticals UK Ltd)
+3364111000001101	Climagest 2mg tablets (Novartis Pharmaceuticals UK Ltd)
+3364511000001105	Climagest 2mg tablets (Novartis Pharmaceuticals UK Ltd)
+3403511000001104	Generic Adgyn Combi tablets
+3366311000001105	Generic Adgyn Combi tablets
+3366411000001103	Adgyn Combi tablets (Kyowa Kirin Ltd)
+3366511000001104	Adgyn Combi tablets (Kyowa Kirin Ltd)
+3465311000001107	Generic Elleste Duet 1mg tablets
+3367211000001100	Generic Elleste Duet 1mg tablets
+3367311000001108	Elleste Duet 1mg tablets (Viatris UK Healthcare Ltd)
+3367411000001101	Elleste Duet 1mg tablets (Viatris UK Healthcare Ltd)
+3465411000001100	Generic Elleste Duet 2mg tablets
+3455411000001105	Generic Elleste Duet 2mg tablets
+3455511000001109	Elleste Duet 2mg tablets (Viatris UK Healthcare Ltd)
+3455611000001108	Elleste Duet 2mg tablets (Viatris UK Healthcare Ltd)
+3788311000001107	Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets
+3779811000001101	Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets
+14253711000001101	Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets
+3779911000001106	Indivina 2mg/5mg tablets (Orion Pharma (UK) Ltd)
+3780011000001107	Indivina 2mg/5mg tablets (Orion Pharma (UK) Ltd)
+3788211000001104	Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets
+3780111000001108	Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets
+14253511000001106	Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets
+3780211000001102	Indivina 1mg/2.5mg tablets (Orion Pharma (UK) Ltd)
+3780311000001105	Indivina 1mg/2.5mg tablets (Orion Pharma (UK) Ltd)
+3864111000001104	Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets
+3853611000001101	Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets
+14253611000001105	Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets
+3853711000001105	Indivina 1mg/5mg tablets (Orion Pharma (UK) Ltd)
+3853811000001102	Indivina 1mg/5mg tablets (Orion Pharma (UK) Ltd)
+3948111000001106	Estradiol 50micrograms/24hours transdermal patches and Norethisterone 1mg tablets
+3940311000001106	Estradiol 50micrograms/24hours transdermal patches and Norethisterone 1mg tablets
+3940511000001100	Evorel Pak (Janssen-Cilag Ltd)
+3940611000001101	Evorel Pak (Janssen-Cilag Ltd)
+3948011000001105	Estradiol 80micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets
+3941911000001100	Estradiol 80micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets
+3942111000001108	Femapak 80 (Abbott Healthcare Products Ltd)
+3942311000001105	Femapak 80 (Abbott Healthcare Products Ltd)
+3947911000001108	Estradiol 40micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets
+3943011000001103	Estradiol 40micrograms/24hours transdermal patches and Dydrogesterone 10mg tablets
+3943111000001102	Femapak 40 (Abbott Healthcare Products Ltd)
+3943211000001108	Femapak 40 (Abbott Healthcare Products Ltd)
+4339811000001101	Estradiol 50micrograms/24hours / Levonorgestrel 7micrograms/24hours transdermal patches
+4338511000001105	Estradiol 50micrograms/24hours / Levonorgestrel 7micrograms/24hours transdermal patches
+4338611000001109	Estradiol 50micrograms/24hours / Levonorgestrel 7micrograms/24hours transdermal patches
+4338711000001100	FemSeven Conti patches (Theramex HQ UK Ltd)
+4338811000001108	FemSeven Conti patches (Theramex HQ UK Ltd)
+4338911000001103	FemSeven Conti patches (Theramex HQ UK Ltd)
+4508511000001104	Generic Novofem tablets
+4499011000001106	Generic Novofem tablets
+4499111000001107	Novofem tablets (Novo Nordisk Ltd)
+4499211000001101	Novofem tablets (Novo Nordisk Ltd)
+4725811000001103	Generic FemSeven Sequi transdermal patches
+4711511000001106	Generic FemSeven Sequi transdermal patches
+4711711000001101	Generic FemSeven Sequi transdermal patches
+4711811000001109	FemSeven Sequi patches (Theramex HQ UK Ltd)
+4712011000001106	FemSeven Sequi patches (Theramex HQ UK Ltd)
+4712611000001104	FemSeven Sequi patches (Theramex HQ UK Ltd)
+8801211000001108	Estradiol 1mg / Drospirenone 2mg tablets
+8786911000001108	Estradiol 1mg / Drospirenone 2mg tablets
+8787011000001107	Angeliq 1mg/2mg tablets (Bayer Plc)
+8787111000001108	Angeliq 1mg/2mg tablets (Bayer Plc)
+10280511000001108	Generic Clinorette tablets
+10277311000001107	Generic Clinorette tablets
+10277411000001100	Clinorette tablets (ReSource Medical UK Ltd)
+10277511000001101	Clinorette tablets (ReSource Medical UK Ltd)
+21366211000001107	Estradiol 500micrograms / Dydrogesterone 2.5mg tablets
+21259211000001101	Estradiol 500micrograms / Dydrogesterone 2.5mg tablets
+21259311000001109	Femoston-conti 0.5mg/2.5mg tablets (Viatris UK Healthcare Ltd)
+21259411000001102	Femoston-conti 0.5mg/2.5mg tablets (Viatris UK Healthcare Ltd)
+39964911000001106	Estradiol 1mg / Progesterone 100mg capsules
+39943611000001109	Estradiol 1mg / Progesterone 100mg capsules
+40115211000001103	Estradiol 1mg / Progesterone 100mg capsules
+39943711000001100	Bijuve 1mg/100mg capsules (Theramex HQ UK Ltd)
+39943811000001108	Bijuve 1mg/100mg capsules (Theramex HQ UK Ltd)
+40115311000001106	Bijuve 1mg/100mg capsules (Theramex HQ UK Ltd)
+325550005	Estriol 1mg tablets
+3876311000001100	Estriol 1mg tablets
+3876411000001107	Ovestin 1mg tablets (Organon Laboratories Ltd)
+3876511000001106	Ovestin 1mg tablets (Organon Laboratories Ltd)
+325560001	Estropipate 1.5mg tablets
+1163211000001107	Estropipate 1.5mg tablets
+86011000001100	Harmogen 1.5mg tablets (Pfizer Ltd)
+2598511000001109	Harmogen 1.5mg tablets (Pfizer Ltd)
+325480003	Ethinylestradiol 10microgram tablets
+1062411000001108	Ethinylestradiol 10microgram tablets
+734211000001107	Ethinylestradiol 10microgram tablets (A A H Pharmaceuticals Ltd)
+2636311000001103	Ethinylestradiol 10microgram tablets (A A H Pharmaceuticals Ltd)
+692011000001108	Ethinylestradiol 10microgram tablets (UCB Pharma Ltd)
+2636511000001109	Ethinylestradiol 10microgram tablets (UCB Pharma Ltd)
+526411000001104	Ethinylestradiol 10microgram tablets (Alliance Healthcare (Distribution) Ltd)
+2636711000001104	Ethinylestradiol 10microgram tablets (Alliance Healthcare (Distribution) Ltd)
+325482006	Ethinylestradiol 1mg tablets
+3962211000001107	Ethinylestradiol 1mg tablets
+3962511000001105	Ethinylestradiol 1mg tablets (A A H Pharmaceuticals Ltd)
+3962611000001109	Ethinylestradiol 1mg tablets (A A H Pharmaceuticals Ltd)
+3962811000001108	Ethinylestradiol 1mg tablets (UCB Pharma Ltd)
+3963011000001106	Ethinylestradiol 1mg tablets (UCB Pharma Ltd)
+3963211000001101	Ethinylestradiol 1mg tablets (Alliance Healthcare (Distribution) Ltd)
+3963311000001109	Ethinylestradiol 1mg tablets (Alliance Healthcare (Distribution) Ltd)
+325481004	Ethinylestradiol 50microgram tablets
+4111311000001105	Ethinylestradiol 50microgram tablets
+4111411000001103	Ethinylestradiol 50microgram tablets (A A H Pharmaceuticals Ltd)
+4111511000001104	Ethinylestradiol 50microgram tablets (A A H Pharmaceuticals Ltd)
+4111611000001100	Ethinylestradiol 50microgram tablets (UCB Pharma Ltd)
+4111711000001109	Ethinylestradiol 50microgram tablets (UCB Pharma Ltd)
+4111811000001101	Ethinylestradiol 50microgram tablets (Alliance Healthcare (Distribution) Ltd)
+4111911000001106	Ethinylestradiol 50microgram tablets (Alliance Healthcare (Distribution) Ltd)
+8794111000001104	Ethinylestradiol 2microgram capsules
+8751511000001101	Ethinylestradiol 2microgram capsules
+8752311000001103	Ethinylestradiol 2microgram capsules (Special Order)
+8752511000001109	Ethinylestradiol 2microgram capsules (Special Order)
+11738011000001105	Ethinylestradiol 2microgram tablets
+11733511000001106	Ethinylestradiol 2microgram tablets
+14778511000001107	Ethinylestradiol 2microgram tablets
+11733811000001109	Ethinylestradiol 2microgram tablets (UCB Pharma Ltd)
+11734011000001101	Ethinylestradiol 2microgram tablets (UCB Pharma Ltd)
+14778411000001108	Ethinylestradiol 2microgram tablets (Special Order)
+14778611000001106	Ethinylestradiol 2microgram tablets (Special Order)
+12298411000001100	Ethinylestradiol 2micrograms/5ml oral suspension
+12281411000001106	Ethinylestradiol 2micrograms/5ml oral suspension
+12281511000001105	Ethinylestradiol 2micrograms/5ml oral suspension (Special Order)
+12281611000001109	Ethinylestradiol 2micrograms/5ml oral suspension (Special Order)
+12298511000001101	Ethinylestradiol 4micrograms/5ml oral suspension
+12282111000001106	Ethinylestradiol 4micrograms/5ml oral suspension
+12282311000001108	Ethinylestradiol 4micrograms/5ml oral suspension (Special Order)
+12282611000001103	Ethinylestradiol 4micrograms/5ml oral suspension (Special Order)
+28049411000001102	Ethinylestradiol 5microgram capsules
+28042911000001100	Ethinylestradiol 5microgram capsules
+28043011000001108	Ethinylestradiol 5microgram capsules (Special Order)
+28043111000001109	Ethinylestradiol 5microgram capsules (Special Order)
+39601811000001101	Ethinylestradiol 50microgram gastro-resistant tablets
+39576711000001104	Ethinylestradiol 50microgram gastro-resistant tablets
+39576811000001107	Ethinylestradiol 50microgram gastro-resistant tablets (Imported (Italy))
+39576911000001102	Ethinylestradiol 50microgram gastro-resistant tablets (Imported (Italy))
+36057811000001101	Hydroxyprogesterone 250mg/1ml solution for injection ampoules
+4540911000001103	Hydroxyprogesterone 250mg/1ml solution for injection ampoules
+4541211000001101	Proluton Depot 250mg/1ml solution for injection ampoules (Schering Health Care Ltd)
+4541311000001109	Proluton Depot 250mg/1ml solution for injection ampoules (Schering Health Care Ltd)
+325601006	Medroxyprogesterone 10mg tablets
+1028411000001101	Medroxyprogesterone 10mg tablets
+1141711000001106	Medroxyprogesterone 10mg tablets
+1275811000001103	Medroxyprogesterone 10mg tablets
+13618811000001109	Medroxyprogesterone 10mg tablets
+907611000001100	Provera 10mg tablets (Pfizer Ltd)
+2201711000001100	Provera 10mg tablets (Pfizer Ltd)
+2201911000001103	Provera 10mg tablets (Pfizer Ltd)
+2202211000001100	Provera 10mg tablets (Pfizer Ltd)
+325609008	Medroxyprogesterone 5mg tablets
+1247011000001101	Medroxyprogesterone 5mg tablets
+1218211000001100	Medroxyprogesterone 5mg tablets
+990011000001108	Medroxyprogesterone 5mg tablets
+1089311000001107	Medroxyprogesterone 5mg tablets
+5404011000001101	Medroxyprogesterone 5mg tablets
+14356511000001107	Medroxyprogesterone 5mg tablets
+14947111000001107	Medroxyprogesterone 5mg tablets
+286911000001108	Provera 5mg tablets (Pfizer Ltd)
+2213411000001108	Provera 5mg tablets (Pfizer Ltd)
+2213511000001107	Provera 5mg tablets (Pfizer Ltd)
+729411000001107	Adgyn Medro 5mg tablets (Kyowa Kirin Ltd)
+2213711000001102	Adgyn Medro 5mg tablets (Kyowa Kirin Ltd)
+2213811000001105	Adgyn Medro 5mg tablets (Kyowa Kirin Ltd)
+10276311000001109	Climanor 5mg tablets (ReSource Medical UK Ltd)
+10276411000001102	Climanor 5mg tablets (ReSource Medical UK Ltd)
+325603009	Medroxyprogesterone 2.5mg tablets
+3868011000001109	Medroxyprogesterone 2.5mg tablets
+3868511000001101	Provera 2.5mg tablets (Pfizer Ltd)
+3868911000001108	Provera 2.5mg tablets (Pfizer Ltd)
+325611004	Norethisterone 5mg tablets
+1110711000001108	Norethisterone 5mg tablets
+1023511000001106	Norethisterone 5mg tablets
+222911000001101	Norethisterone 5mg tablets (A A H Pharmaceuticals Ltd)
+1853111000001102	Norethisterone 5mg tablets (A A H Pharmaceuticals Ltd)
+792911000001100	Norethisterone 5mg tablets (Actavis UK Ltd)
+1853411000001107	Norethisterone 5mg tablets (Actavis UK Ltd)
+825711000001101	Norethisterone 5mg tablets (Wockhardt UK Ltd)
+1854511000001109	Norethisterone 5mg tablets (Wockhardt UK Ltd)
+783611000001102	Norethisterone 5mg tablets (Kent Pharma (UK) Ltd)
+1855711000001100	Norethisterone 5mg tablets (Kent Pharma (UK) Ltd)
+70611000001104	Norethisterone 5mg tablets (Sandoz Ltd)
+1858511000001102	Norethisterone 5mg tablets (Sandoz Ltd)
+263911000001100	Utovlan 5mg tablets (Pfizer Ltd)
+1860211000001109	Utovlan 5mg tablets (Pfizer Ltd)
+1861511000001100	Utovlan 5mg tablets (Pfizer Ltd)
+221111000001109	Primolut N 5mg tablets (Bayer Plc)
+1863511000001101	Primolut N 5mg tablets (Bayer Plc)
+142211000001106	Norethisterone 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+1865911000001109	Norethisterone 5mg tablets (Alliance Healthcare (Distribution) Ltd)
+21816111000001104	Norethisterone 5mg tablets (Waymade Healthcare Plc)
+21816211000001105	Norethisterone 5mg tablets (Waymade Healthcare Plc)
+29930211000001104	Norethisterone 5mg tablets (Sigma Pharmaceuticals Plc)
+29930311000001107	Norethisterone 5mg tablets (Sigma Pharmaceuticals Plc)
+30852111000001101	Norethisterone 5mg tablets (Mawdsley-Brooks & Company Ltd)
+30852211000001107	Norethisterone 5mg tablets (Mawdsley-Brooks & Company Ltd)
+37461811000001105	Norethisterone 5mg tablets (DE Pharmaceuticals)
+37461911000001100	Norethisterone 5mg tablets (DE Pharmaceuticals)
+39060911000001106	Norethisterone 5mg tablets (Medihealth (Northern) Ltd)
+39061011000001103	Norethisterone 5mg tablets (Medihealth (Northern) Ltd)
+325618005	Norethisterone 1mg tablets
+3196711000001101	Norethisterone 1mg tablets
+3940011000001108	Norethisterone 1mg tablets
+3197111000001104	Micronor HRT 1mg tablets (Janssen-Cilag Ltd)
+3198211000001109	Micronor HRT 1mg tablets (Janssen-Cilag Ltd)
+3940111000001109	Micronor HRT 1mg tablets (Janssen-Cilag Ltd)
+15534311000001101	Norethisterone 5mg/5ml oral suspension
+15530511000001103	Norethisterone 5mg/5ml oral suspension
+15530611000001104	Norethisterone 5mg/5ml oral suspension (Special Order)
+15530711000001108	Norethisterone 5mg/5ml oral suspension (Special Order)
+325556004	Conjugated oestrogens 625microgram tablets
+1323411000001106	Conjugated oestrogens 625microgram tablets
+3456311000001108	Conjugated oestrogens 625microgram tablets
+34911000001102	Premarin 0.625mg tablets (Pfizer Ltd)
+2687311000001108	Premarin 0.625mg tablets (Pfizer Ltd)
+3456411000001101	Conjugated oestrogens 625microgram tablets (Pfizer Ltd)
+7142111000001103	Conjugated oestrogens 625microgram tablets (Pfizer Ltd)
+3456511000001102	Conjugated oestrogens 625microgram tablets (Pfizer Ltd)
+325557008	Conjugated oestrogens 1.25mg tablets
+1247811000001107	Conjugated oestrogens 1.25mg tablets
+546511000001102	Premarin 1.25mg tablets (Pfizer Ltd)
+2688111000001107	Premarin 1.25mg tablets (Pfizer Ltd)
+7142211000001109	Conjugated oestrogens 1.25mg tablets (Pfizer Ltd)
+7142311000001101	Conjugated oestrogens 1.25mg tablets (Pfizer Ltd)
+428005004	Conjugated oestrogens 2.5mg tablets
+4547811000001107	Conjugated oestrogens 2.5mg tablets
+4548011000001100	Premarin 2.5mg tablets (Wyeth Pharmaceuticals)
+4548111000001104	Premarin 2.5mg tablets (Wyeth Pharmaceuticals)
+409118006	Conjugated oestrogens 300microgram tablets
+11476711000001101	Conjugated oestrogens 300microgram tablets
+11476811000001109	Premarin 0.3mg tablets (Pfizer Ltd)
+11476911000001104	Premarin 0.3mg tablets (Pfizer Ltd)
+32936711000001100	Conjugated oestrogens 450microgram / Bazedoxifene 20mg modified-release tablets
+32927311000001104	Conjugated oestrogens 450microgram / Bazedoxifene 20mg modified-release tablets
+32927411000001106	Duavive 0.45mg/20mg modified-release tablets (Pfizer Ltd)
+32927511000001105	Duavive 0.45mg/20mg modified-release tablets (Pfizer Ltd)
+3341011000001106	Conjugated oestrogens 1.25mg tablets and Norgestrel 150microgram tablets
+1282711000001107	Conjugated oestrogens 1.25mg tablets and Norgestrel 150microgram tablets
+557911000001109	Prempak-C 1.25mg/0.15mg tablets (Pfizer Ltd)
+2701211000001100	Prempak-C 1.25mg/0.15mg tablets (Pfizer Ltd)
+39689411000001101	Conjugated oestrogens 625microgram / Medroxyprogesterone 5mg tablets
+1012011000001100	Conjugated oestrogens 625microgram / Medroxyprogesterone 5mg tablets
+679511000001100	Premique 0.625mg/5mg tablets (Pfizer Ltd)
+2754411000001108	Premique 0.625mg/5mg tablets (Pfizer Ltd)
+3553111000001108	Generic Premique Cycle tablets
+3456611000001103	Generic Premique Cycle tablets
+3456711000001107	Premique Cycle 0.625mg/10mg tablets (Pfizer Ltd)
+3456811000001104	Premique Cycle 0.625mg/10mg tablets (Pfizer Ltd)
+400674006	Conjugated oestrogens 625microgram tablets and Norgestrel 150microgram tablets
+3470611000001102	Conjugated oestrogens 625microgram tablets and Norgestrel 150microgram tablets
+3470811000001103	Prempak-C 0.625mg/0.15mg tablets (Pfizer Ltd)
+3472111000001109	Prempak-C 0.625mg/0.15mg tablets (Pfizer Ltd)
+15621411000001104	Conjugated oestrogens 300microgram / Medroxyprogesterone 1.5mg modified-release tablets
+7340211000001102	Conjugated oestrogens 300microgram / Medroxyprogesterone 1.5mg modified-release tablets
+7340311000001105	Premique Low Dose 0.3mg/1.5mg modified-release tablets (Pfizer Ltd)
+7340411000001103	Premique Low Dose 0.3mg/1.5mg modified-release tablets (Pfizer Ltd)
+39709011000001102	Progesterone 400mg pessaries
+1016411000001105	Progesterone 400mg pessaries
+397511000001106	Cyclogest 400mg pessaries (L.D. Collins & Co. Ltd)
+2475311000001107	Cyclogest 400mg pessaries (L.D. Collins & Co. Ltd)
+39708911000001106	Progesterone 200mg pessaries
+3912811000001109	Progesterone 200mg pessaries
+3913011000001107	Cyclogest 200mg pessaries (L.D. Collins & Co. Ltd)
+3913211000001102	Cyclogest 200mg pessaries (L.D. Collins & Co. Ltd)
+35931211000001102	Progesterone 50mg/1ml solution for injection ampoules
+4087011000001109	Progesterone 50mg/1ml solution for injection ampoules
+4087311000001107	Gestone 50mg/1ml solution for injection ampoules (Nordic Pharma Ltd)
+4087711000001106	Gestone 50mg/1ml solution for injection ampoules (Nordic Pharma Ltd)
+325626002	Progesterone 4% vaginal gel 1.125g applicators
+4088811000001104	Progesterone 4% vaginal gel 1.125g applicators
+4088911000001109	Crinone 4% progesterone vaginal gel (Merck Serono Ltd)
+4089011000001100	Crinone 4% progesterone vaginal gel (Merck Serono Ltd)
+325627006	Progesterone 8% vaginal gel 1.125g applicators
+4212111000001101	Progesterone 8% vaginal gel 1.125g applicators
+4212211000001107	Crinone 8% progesterone vaginal gel (Merck Serono Ltd)
+4212311000001104	Crinone 8% progesterone vaginal gel (Merck Serono Ltd)
+36022011000001106	Progesterone 100mg/2ml solution for injection ampoules
+4228111000001108	Progesterone 100mg/2ml solution for injection ampoules
+4228211000001102	Gestone 100mg/2ml solution for injection ampoules (Nordic Pharma Ltd)
+4228311000001105	Gestone 100mg/2ml solution for injection ampoules (Nordic Pharma Ltd)
+4971311000001103	Progesterone 25mg/1ml solution for injection ampoules
+4971011000001101	Progesterone 25mg/1ml solution for injection ampoules
+4971211000001106	Gestone 25mg/1ml solution for injection ampoules (Ferring Pharmaceuticals Ltd)
+4971411000001105	Gestone 25mg/1ml solution for injection ampoules (Ferring Pharmaceuticals Ltd)
+11763511000001102	Progesterone micronised 100mg capsules
+11758811000001100	Progesterone micronised 100mg capsules
+11758911000001105	Utrogestan 100mg capsules (Besins Healthcare (UK) Ltd)
+11759011000001101	Utrogestan 100mg capsules (Besins Healthcare (UK) Ltd)
+11763611000001103	Progesterone micronised 200mg capsules
+11759411000001105	Progesterone micronised 200mg capsules
+11759511000001109	Utrogestan 200mg capsules (Besins Healthcare (UK) Ltd)
+11759611000001108	Utrogestan 200mg capsules (Besins Healthcare (UK) Ltd)
+17870911000001106	Progesterone 2% in Aqueous cream
+17868911000001100	Progesterone 2% in Aqueous cream
+17869011000001109	Progesterone 2% in Aqueous cream (Special Order)
+17869111000001105	Progesterone 2% in Aqueous cream (Special Order)
+20921211000001106	Progesterone 2.34% cream
+20920411000001101	Progesterone 2.34% cream
+20920511000001102	Serenity Natural Progesterone cream (Imported (United States))
+20920611000001103	Serenity Natural Progesterone cream (Imported (United States))
+22683711000001100	Progesterone micronised 200mg vaginal capsules
+22676611000001108	Progesterone micronised 200mg vaginal capsules
+22676711000001104	Utrogestan 200mg vaginal capsules with applicators (Besins Healthcare (UK) Ltd)
+22676811000001107	Utrogestan 200mg vaginal capsules with applicators (Besins Healthcare (UK) Ltd)
+23948311000001106	Progesterone 25mg/1.119ml solution for injection vials
+23948711000001105	Progesterone 25mg/1.119ml solution for injection vials
+34768911000001106	Lubion 25mg/1.119ml solution for injection vials (Pharmasure Ltd)
+34769211000001107	Lubion 25mg/1.119ml solution for injection vials (Pharmasure Ltd)
+28423111000001104	Progesterone 100mg pessaries
+28402411000001109	Progesterone 100mg pessaries
+28402511000001108	Lutigest 100mg vaginal tablets (Ferring Pharmaceuticals Ltd)
+28402611000001107	Lutigest 100mg vaginal tablets (Ferring Pharmaceuticals Ltd)
+34378811000001107	Progesterone 100mg/1ml solution for injection ampoules
+34346511000001107	Progesterone 100mg/1ml solution for injection ampoules
+34346611000001106	Progesterone 100mg/1ml solution for injection ampoules (Special Order)
+34346711000001102	Progesterone 100mg/1ml solution for injection ampoules (Special Order)
+36411111000001101	Progesterone 25mg/1.112ml solution for injection vials
+36394711000001107	Progesterone 25mg/1.112ml solution for injection vials
+36394811000001104	Lubion 25mg/1.112ml solution for injection vials (Pharmasure Ltd)
+36395011000001109	Lubion 25mg/1.112ml solution for injection vials (Pharmasure Ltd)

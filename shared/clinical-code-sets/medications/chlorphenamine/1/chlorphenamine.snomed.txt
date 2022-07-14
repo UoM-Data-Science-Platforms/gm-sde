@@ -1,0 +1,15 @@
+4939411000001108	Phenylpropanolamine 50mg / Chlorphenamine 4mg MR capsules
+4935811000001107	Phenylpropanolamine 50mg / Chlorphenamine 4mg MR capsules
+4935911000001102	Phenylpropanolamine 50mg / Chlorphenamine 4mg MR capsules
+4936011000001105	Phenylpropanolamine 50mg / Chlorphenamine 4mg MR capsules
+4936111000001106	Contac 400 modified-release capsules
+4936211000001100	Contac 400 modified-release capsules
+4936311000001108	Contac 400 modified-release capsules
+4936411000001101	Contac 400 modified-release capsules
+29311000001104	Piriton 2mg/5ml syrup (GlaxoSmithKline Consumer Healthcare UK Ltd) (product)
+36137711000001100	Chlorphenamine 10mg/1ml solution for injection ampoules (product)
+37083011000001106	Chlorphenamine 2mg/5ml oral solution (product)
+37083111000001107	Chlorphenamine 2mg/5ml oral solution sugar free (product)
+372011000001107	Piriton 4mg tablets (GlaxoSmithKline Consumer Healthcare UK Ltd) (product)
+39708211000001102	Chlorphenamine 4mg tablets (product)
+7958511000001105	Allerief 2mg/5ml oral solution (Orbis Consumer Products Limited) (product)

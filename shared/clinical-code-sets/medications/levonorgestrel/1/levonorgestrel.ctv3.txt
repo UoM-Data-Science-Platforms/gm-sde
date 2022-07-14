@@ -1,0 +1,22 @@
+g83A.	Ethinylestradiol+levonorgestrel 30micrograms/150micrograms tablet
+g83A.	Ethinyloestradiol+levonorgestrel 30micrograms/150micrograms tablet
+g83B.	Ethinylestradiol+levonorgestrel 30micrograms/250micrograms tablet
+g83B.	Ethinyloestradiol+levonorgestrel 30micrograms/250micrograms tablet
+ga21.	Microval tablet
+ga22.	Norgeston tablet
+ga23.	Levonorgestrel 30micrograms tablet
+ga26.	Levonorgestrel 20mcg/24hrs intrauterine system
+ga26.	Levonorgestrel 52mg intrauterine system
+ga27.	Mirena 20mcg/24hrs intrauterine system
+ga27.	Mirena 52mg intrauterine system
+ga28.	Levonorgestrel 750micrograms tablet
+ga29.	Levonelle-2 tablet
+ga2A.	Levonelle 750micrograms tablet
+ga2B.	Levonorgestrel 1.5mg tablet
+ga2C.	Levonelle One Step 1.5mg tablet
+ga2D.	Levonelle 1500micrograms tablet
+ga2E.	UPOSTELLE 1500micrograms tablets
+ga2F.	JAYDESS 13.5mg intrauterine system
+ga2G.	LEVONORGESTREL 13.5mg intrauterine system
+ga2H.	ISTERANDA 1.5mg tablets
+ga2I.	LEVOSERT 20micrograms/24hours intrauterine system

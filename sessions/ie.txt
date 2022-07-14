@@ -172,3 +172,18 @@ Find out the following total number of rows to investigate how big the chohorts 
 
 2022-3-29 15.00-16.00
 -- Assessing feasibility for RQ047 Lai.
+
+2022-05-6
+-- investigate ref local codes to get descriptions for the cohort's medications for RQ004
+
+2022-5-15 
+-- Retrieve descriptions for the cohort's medications for RQ004
+
+2022-05-16 12.30 
+-- Cont. Retrieve descriptions for the cohort's medications for RQ004
+
+2022-05-17
+-- Cont. retrieve descriptions for the cohort's medications for RQ004
+
+2022-5-24 
+-- Retrieve descriptions for the cohort's medications for RQ004

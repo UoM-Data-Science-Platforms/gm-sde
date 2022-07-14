@@ -1,0 +1,77 @@
+326425002	Levonorgestrel 30microgram tablets
+982011000001106	Levonorgestrel 30microgram tablets
+39454311000001101	Levonorgestrel 30microgram tablets
+42311000001109	Microval 30microgram tablets
+1929911000001107	Microval 30microgram tablets
+221011000001108	Norgeston 30microgram tablets
+1930011000001102	Norgeston 30microgram tablets
+39454411000001108	Levonorgestrel 30microgram tablets
+39454511000001107	Levonorgestrel 30microgram tablets
+39718011000001105	Levonorgestrel 20micrograms/24hours intrauterine device
+3493111000001106	Levonorgestrel 20micrograms/24hours intrauterine device
+3493211000001100	Mirena 20micrograms/24hours intrauterine device
+3493311000001108	Mirena 20micrograms/24hours intrauterine device
+29664111000001108	Levosert 20micrograms/24hours intrauterine device
+29664311000001105	Levosert 20micrograms/24hours intrauterine device
+40290711000001104	Benilexa One Handed 20microg/24hours delivery system
+40290811000001107	Benilexa One Handed 20microg/24hours delivery system
+24408111000001100	Levonorgestrel 13.5mg intrauterine device
+24379511000001104	Levonorgestrel 13.5mg intrauterine device
+24379611000001100	Jaydess 13.5mg intrauterine device
+24379811000001101	Jaydess 13.5mg intrauterine device
+35086211000001109	Levonorgestrel 19.5mg intrauterine device
+35058711000001107	Levonorgestrel 19.5mg intrauterine device
+35058811000001104	Kyleena 19.5mg intrauterine device
+35058911000001109	Kyleena 19.5mg intrauterine device
+326430003	Levonorgestrel 750microgram tablets
+1278911000001102	Levonorgestrel 750microgram tablets
+52011000001108	Levonelle 750microgram tablets
+1930111000001101	Levonelle 750microgram tablets
+333911000001101	Levonelle-2 750microgram tablets
+1930211000001107	Levonelle-2 750microgram tablets
+414606006	Levonorgestrel 1.5mg tablets
+8159911000001100	Levonorgestrel 1.5mg tablets
+8160111000001102	Levonelle One Step 1.5mg tablets
+8160211000001108	Levonelle One Step 1.5mg tablets
+9568511000001102	Levonelle 1500microgram tablets
+9568611000001103	Levonelle 1500microgram tablets
+23409111000001109	Upostelle 1500microgram tablets
+23409211000001103	Upostelle 1500microgram tablets
+23411311000001109	Levonorgestrel 1.5mg tablets
+23411411000001102	Levonorgestrel 1.5mg tablets
+27925611000001100	Levonorgestrel 1.5mg tablets
+27925811000001101	Levonorgestrel 1.5mg tablets
+28006811000001103	Isteranda 1.5mg tablets
+28006911000001108	Isteranda 1.5mg tablets
+28490311000001104	Levonorgestrel 1.5mg tablets
+28490411000001106	Levonorgestrel 1.5mg tablets
+29890411000001101	Levonorgestrel 1.5mg tablets
+29890511000001102	Levonorgestrel 1.5mg tablets
+29912011000001103	Emerres 1.5mg tablets
+29912111000001102	Emerres 1.5mg tablets
+30061011000001102	Levonorgestrel 1.5mg tablets
+30061111000001101	Levonorgestrel 1.5mg tablets
+30220411000001101	Levonorgestrel 1.5mg tablets
+30220511000001102	Levonorgestrel 1.5mg tablets
+30777811000001107	Emerres Una 1.5mg tablets
+30777911000001102	Emerres Una 1.5mg tablets
+32416111000001109	Levonorgestrel 1.5mg tablets
+32416211000001103	Levonorgestrel 1.5mg tablets
+33018011000001106	Levonorgestrel 1.5mg tablets
+33018211000001101	Levonorgestrel 1.5mg tablets
+33549211000001104	Ezinelle 1.5mg tablets
+33549311000001107	Ezinelle 1.5mg tablets
+33593711000001104	Levonorgestrel 1.5mg tablets
+33593911000001102	Levonorgestrel 1.5mg tablets
+36014711000001107	Melkine 1.5mg tablets
+36014811000001104	Melkine 1.5mg tablets
+39016111000001105	Levonorgestrel 1.5mg tablets
+39016211000001104	Levonorgestrel 1.5mg tablets
+326325001	Levonorgestrel 250microg / Ethinylestradiol 30microg tab
+1227411000001107	Levonorgestrel 250microg / Ethinylestradiol 30microg tab
+326324002	Ethinylestradiol 30microg / Levonorgestrel 150microg tab
+1010411000001108	Ethinylestradiol 30microg / Levonorgestrel 150microg tab
+961711000001104	Ethinylestradiol 30microg / Levonorgestrel 150microg tab
+326326000	Levonorgestrel 250mcg / Ethinylestradiol 50mcg tablets
+4546411000001108	Levonorgestrel 250mcg / Ethinylestradiol 50mcg tablets
+4546511000001107	Levonorgestrel 250mcg / Ethinylestradiol 50mcg tablets

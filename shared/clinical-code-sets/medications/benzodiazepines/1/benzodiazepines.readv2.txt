@@ -1,0 +1,68 @@
+d141.00	*ROHYPNOL 1mg tablets
+d14z.00	*FLUNITRAZEPAM 1mg tablets
+d151.00	DALMANE 15mg capsules
+d152.00	DALMANE 30mg capsules
+d15y.00	FLURAZEPAM 15mg capsules
+d15z.00	FLURAZEPAM 30mg capsules
+d161.00	LOPRAZOLAM 1mg tablets
+d171.00	LORMETAZEPAM 500micrograms tablets
+d172.00	LORMETAZEPAM 1mg tablets
+d182.00	NITRAZEPAM 5mg tablets
+d184.00	NITRAZEPAM 2.5mg/5mL mixture
+d186.00	MOGADON 5mg tablets
+d18c.00	*SOMNITE 2.5mg/5mL mixture
+d1a9.00	TEMAZEPAM 10mg tablets
+d1aa.00	TEMAZEPAM 20mg tablets
+d1ao.00	TEMAZEPAM 10mg/5mL sugar free oral solution
+d213.00	DIAZEPAM 2mg tablets
+d214.00	DIAZEPAM 5mg tablets
+d215.00	DIAZEPAM 10mg tablets
+d216.00	DIAZEPAM 2mg/5mL elixir
+d21A.00	DIAZEPAM 5mg/5mL oral solution
+d21d.00	DIAZEMULS 10mg/2mL ampoules
+d21G.00	*VALCLAIR 10mg suppositories
+d21J.00	DIAZEPAM 10mg/5mL suspension
+d21k.00	STESOLID 5mg rectal solution
+d21l.00	STESOLID 10mg rectal solution
+d21m.00	TENSIUM 2mg tablets
+d21o.00	TENSIUM 10mg tablets
+d21z.00	*DIAZEPAM 10mg suppositories
+d221.00	XANAX 250micrograms tablets
+d222.00	XANAX 500micrograms tablets
+d22y.00	ALPRAZOLAM 250microgram tablets
+d22z.00	ALPRAZOLAM 500microgram tablets
+d241.00	CHLORDIAZEPOXIDE 5mg capsules
+d242.00	CHLORDIAZEPOXIDE 10mg capsules
+d243.00	CHLORDIAZEPOXIDE HYDROCHLORIDE 5mg tablets
+d244.00	CHLORDIAZEPOXIDE HYDROCHLORIDE 10mg tablets
+d249.00	LIBRIUM 5mg capsules
+d24a.00	LIBRIUM 10mg capsules
+d24f.00	TROPIUM 5mg capsules
+d24g.00	*TROPIUM 10mg capsules
+d24h.00	TROPIUM 5mg tablets
+d24i.00	TROPIUM 10mg tablets
+d262.00	*FRISIUM 10mg capsules
+d263.00	CLOBAZAM 10mg tablets
+d265.00	TAPCLOB 5mg/5mL oral suspension
+d267.00	TAPCLOB 10mg/5mL oral suspension
+d269.00	PERIZAM 1mg/mL oral suspension
+d26A.00	PERIZAM 2mg/mL oral suspension
+d271.00	*TRANXENE 7.5mg capsules
+d272.00	*TRANXENE 15mg capsules
+d2a1.00	LORAZEPAM 1mg tablets
+d2a2.00	LORAZEPAM 2.5mg tablets
+d2a7.00	ATIVAN 4mg/1mL injection
+d2az.00	LORAZEPAM 4mg/1mL injection
+d2d2.00	OXAZEPAM 10mg tablets
+d2d3.00	OXAZEPAM 15mg tablets
+dn41.00	*RIVOTRIL 500mcg tablets
+dn42.00	*RIVOTRIL 2mg tablets
+dn4x.00	CLONAZEPAM 2mg/5mL sugar free oral solution
+dn4y.00	CLONAZEPAM 500microgram tablets
+dn4z.00	CLONAZEPAM 2mg tablets
+do18.00	DIAZEPAM 5mg/2.5mL RecTubes
+do19.00	DIAZEPAM 10mg/2.5mL RecTubes
+do1A.00	DIAZEPAM 2.5mg/1.25mL RecTubes
+do1t.00	DIAZEPAM 2.5mg/1.25mL rectal solution
+do1x.00	DIAZEPAM 5mg/2.5mL rectal solution
+do1y.00	DIAZEPAM 10mg/2.5mL rectal solution

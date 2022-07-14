@@ -1,0 +1,25 @@
+35912611000001102	Budesonide 3mg gastro-resistant modified-release capsules
+3765711000001102	Budesonide 3mg gastro-resistant modified-release capsules
+5362911000001103	Budesonide 3mg gastro-resistant modified-release capsules
+10536111000001104	Budesonide 3mg gastro-resistant modified-release capsules
+19963511000001104	Budesonide 3mg gastro-resistant modified-release capsules
+38086511000001101	Budesonide 3mg gastro-resistant modified-release capsules
+3765811000001105	Entocort CR 3mg capsules
+3765911000001100	Entocort CR 3mg capsules
+38086611000001102	Entocort CR 3mg capsules
+317446001	Budesonide 3mg gastro-resistant capsules
+3807511000001101	Budesonide 3mg gastro-resistant capsules
+3807811000001103	Budenofalk 3mg gastro-resistant capsules
+3808011000001105	Budenofalk 3mg gastro-resistant capsules
+19743911000001108	Budesonide 9mg gastro-resistant granules sachets
+19737711000001100	Budesonide 9mg gastro-resistant granules sachets
+19738311000001103	Budenofalk 9mg gastro-resistant granules sachets
+19738511000001109	Budenofalk 9mg gastro-resistant granules sachets
+29094911000001100	Budesonide 9mg modified-release tablets
+29094111000001103	Budesonide 9mg modified-release tablets
+29094211000001109	Cortiment 9mg modified-release tablets
+29094311000001101	Cortiment 9mg modified-release tablets
+35824211000001108	Budesonide 1mg orodispersible tablets sugar free
+35774611000001108	Budesonide 1mg orodispersible tablets sugar free
+35774711000001104	Jorveza 1mg orodispersible tablets
+35774811000001107	Jorveza 1mg orodispersible tablets

@@ -5,12 +5,13 @@
 ------------ RESEARCH DATA ENGINEER CHECK ------------
 -- 
 
--- All prescriptions of nephrotoxic medications within __ of study start date (01/03/2018).
+-- All prescriptions of certain medications during the study period
 
 -- OUTPUT: Data with the following fields
 -- 	-   PatientId (int)
---	-	MedicationCategory
---	-	PrescriptionDate (YYYY-MM-DD)
+--  -   Year
+--  -   Month
+--	-	MedicationCategory - number of prescriptions for given medication category
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -37,17 +38,17 @@ SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
 
---------------------------------------------------------------------------------------------------------
------------------------------------ DEFINE MAIN COHORT -- ----------------------------------------------
---------------------------------------------------------------------------------------------------------
 
--- LOAD CODESETS FOR CONDITIONS THAT INDICATE RISK OF CKD
+--------------------------------------------------------------------------------------------------------
+----------------------------------- DEFINE MAIN COHORT -----------------------------------------------
+--------------------------------------------------------------------------------------------------------
+-- COHORT WILL BE ANY PATIENT WITH BIOCHEMICAL EVIDENCE OF CKD
+
+
+-- LOAD CODESETS NEEDED FOR DEFINING COHORT
 
 --> CODESET hypertension:1 diabetes:1
-
--- LOAD CODESETS FOR TESTS USED TO INDICATE CKD
-
---> CODESET egfr:1 urinary-albumin-creatinine-ratio:1
+--> CODESET egfr:1 urinary-albumin-creatinine-ratio:1 glomerulonephritis:1 kidney-transplant:1 kidney-stones:1 vasculitis:1
 
 
 ---- FIND PATIENTS WITH BIOCHEMICAL EVIDENCE OF CKD
@@ -72,10 +73,11 @@ WHERE (
 	  )
 	AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND (gp.EventDate) BETWEEN '2016-01-01' and @EndDate
-	AND [Value] IS NOT NULL AND UPPER([Value]) NOT LIKE '%[A-Z]%' 
+	AND [Value] IS NOT NULL AND UPPER([Value]) NOT LIKE '%[A-Z]%' -- REMOVE RECORDS WITH NO VALUE OR TEXT 
 
--- CREATE TABLE OF EGFR TESTS THAT MEET CKD CRITERIA (VARIOUS STAGEs)
+-- CATEGORISE EGFR AND ACR TESTS INTO CKD STAGES
 
+IF OBJECT_ID('tempdb..#ckd_stages') IS NOT NULL DROP TABLE #ckd_stages;
 SELECT FK_Patient_Link_ID,
 	EventDate,
 	egfr_evidence = CASE WHEN egfr_Code = 1 AND [Value] >= 90   THEN 'G1' 
@@ -84,8 +86,12 @@ SELECT FK_Patient_Link_ID,
 		WHEN egfr_Code = 1 AND [Value] BETWEEN 30 AND 44 		THEN 'G3b'
 		WHEN egfr_Code = 1 AND [Value] BETWEEN 15 AND 29 		THEN 'G4'
 		WHEN egfr_Code = 1 AND [Value] BETWEEN  0 AND 15 		THEN 'G5'
-			ELSE NULL END
-INTO #ckd_stages_egfr
+			ELSE NULL END,
+	acr_evidence = CASE WHEN acr_Code = 1 AND [Value] > 30  	THEN 'A3' 
+		WHEN acr_Code = 1 AND [Value] BETWEEN 3 AND 30 			THEN 'A2'
+		WHEN acr_Code = 1 AND [Value] BETWEEN  0 AND 3 			THEN 'A1'
+			ELSE NULL END 
+INTO #ckd_stages
 FROM #EGFR_ACR_TESTS
 
 -- FIND EGFR TESTS INDICATIVE OF CKD STAGE 3-5, WITH THE DATES OF THE PREVIOUS TEST
@@ -95,8 +101,7 @@ SELECT *,
 	stage_previous_egfr = LAG(egfr_evidence, 1, NULL) OVER (PARTITION BY FK_Patient_Link_ID ORDER BY EventDate),
 	date_previous_egfr = LAG(EventDate, 1, NULL) OVER (PARTITION BY FK_Patient_Link_ID ORDER BY EventDate)
 INTO #egfr_dates
-FROM #ckd_stages_egfr
-where egfr_evidence in ('G3a', 'G3b', 'G4', 'G5')
+FROM #ckd_stages
 ORDER BY FK_Patient_Link_ID, EventDate
 
 -- CREATE TABLE OF PATIENTS THAT HAD TWO EGFR TESTS INDICATIVE OF CKD STAGE 3-5, WITHIN 3 MONTHS OF EACH OTHER
@@ -107,27 +112,30 @@ INTO #egfr_ckd_evidence
 FROM #egfr_dates
 WHERE datediff(month, date_previous_egfr, EventDate) <=  3 --only find patients with two tests in three months
 
+-- CREATE TABLE OF PATIENTS THAT HAVE A HISTORY OF KIDNEY DAMAGE (TO BE USED AS EXTRA CRITERIA FOR FINDING CKD STAGE 1 AND 2)
+
+IF OBJECT_ID('tempdb..#kidney_damage') IS NOT NULL DROP TABLE #kidney_damage;
+SELECT DISTINCT FK_Patient_Link_ID
+INTO #kidney_damage
+FROM [RLS].[vw_GP_Events] gp
+WHERE  gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #egfr_ckd_evidence)
+AND (
+	gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('glomerulonephritis', 'kidney-transplant', 'kidney-stones', 'vasculitis') AND [Version]=1) OR
+    gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('glomerulonephritis', 'kidney-transplant', 'kidney-stones', 'vasculitis') AND [Version]=1)
+	)
+	AND EventDate <= @StartDate
+
+
 -- FIND PATIENTS THAT MEET THE FOLLOWING: "ACR > 3mg/mmol lasting for at least 3 months”
 
--- CREATE TABLE OF ACR TESTS
-
-SELECT FK_Patient_Link_ID,
-	EventDate, 
-	acr_evidence = CASE WHEN acr_Code = 1 AND [Value] > 30  	THEN 'A3' 
-		WHEN acr_Code = 1 AND [Value] BETWEEN 3 AND 30 			THEN 'A2'
-		WHEN acr_Code = 1 AND [Value] BETWEEN  0 AND 3 			THEN 'A1'
-			ELSE NULL END 
-INTO #ckd_stages_acr
-FROM #EGFR_ACR_TESTS
-
--- FIND TESTS THAT ARE >3mg/mmol AND SHOW DATE OF PREVIOUS TEST
+-- FIND ACR TESTS THAT ARE >3mg/mmol AND SHOW DATE OF PREVIOUS TEST
 
 IF OBJECT_ID('tempdb..#acr_dates') IS NOT NULL DROP TABLE #acr_dates;
 SELECT *, 
 	stage_previous_acr = LAG(acr_evidence, 1, NULL) OVER (PARTITION BY FK_Patient_Link_ID ORDER BY EventDate),
 	date_previous_acr = LAG(EventDate, 1, NULL) OVER (PARTITION BY FK_Patient_Link_ID ORDER BY EventDate)
 INTO #acr_dates
-FROM #ckd_stages_acr
+FROM #ckd_stages
 WHERE acr_evidence in ('A3','A2')
 ORDER BY FK_Patient_Link_ID, EventDate
 
@@ -137,43 +145,56 @@ INTO #acr_ckd_evidence
 FROM #acr_dates
 WHERE datediff(month, date_previous_acr, EventDate) >=  3 --only find patients with acr stages A1/A2 lasting at least 3 months
 
+--> EXECUTE query-patient-year-of-birth.sql
 
--- CREATE TABLE OF PATIENTS AT RISK OF CKD: DIABETES OR HYPERTENSION
-
-IF OBJECT_ID('tempdb..#ckd_risk') IS NOT NULL DROP TABLE #ckd_risk;
-SELECT DISTINCT FK_Patient_Link_ID
-INTO #ckd_risk
-FROM [RLS].[vw_GP_Events] gp
-LEFT OUTER JOIN #VersionedSnomedSets s ON s.FK_Reference_SnomedCT_ID = gp.FK_Reference_SnomedCT_ID
-LEFT OUTER JOIN #VersionedCodeSets c ON c.FK_Reference_Coding_ID = gp.FK_Reference_Coding_ID
-WHERE  gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-AND (
-	gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes', 'hypertension') AND [Version]=1) OR
-    gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes', 'hypertension') AND [Version]=1)
-);
-
--- CREATE TABLE ONLY INCLUDING THE REQUIRED COHORT, WHICH INCLUDES THOSE WITH EVIDENCE OF CKD AND THOSE AT RISK OF CKD
+---- CREATE COHORT:
+	-- 1. PATIENTS WITH EGFR TESTS INDICATIVE OF CKD STAGES 1-2, PLUS RAISED ACR OR HISTORY OF KIDNEY DAMAGE
+	-- 2. PATIENTS WITH EGFR TESTS INDICATIVE OF CKD STAGES 3-5
+	-- 3. PATIENTS WITH ACR TESTS INDICATIVE OF CKD (A3 AND A2)
 
 IF OBJECT_ID('tempdb..#Cohort') IS NOT NULL DROP TABLE #Cohort;
 SELECT p.FK_Patient_Link_ID,
 		p.EthnicMainGroup,
 		p.DeathDate,
-		EvidenceOfCKD_egfr = CASE WHEN p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #egfr_ckd_evidence) THEN 1 ELSE 0 END,
-		EvidenceOfCKD_acr = CASE WHEN p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #acr_ckd_evidence) THEN 1 ELSE 0 END,
-		AtRiskOfCKD = CASE WHEN p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #ckd_risk) THEN 1 ELSE 0 END
+		EvidenceOfCKD_egfr = CASE 
+		WHEN p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #egfr_ckd_evidence where egfr_evidence in ('G3a', 'G3b', 'G4', 'G5')) -- egfr indicating stages 3-5
+			OR (p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #egfr_ckd_evidence where egfr_evidence in ('G1', 'G2')) 
+				AND ((p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #acr_dates)) 
+					OR p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #kidney_damage))) 											THEN 1 ELSE 0 END,
+		EvidenceOfCKD_acr = CASE WHEN p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #acr_ckd_evidence) 							THEN 1 ELSE 0 END
 INTO #Cohort
 FROM #Patients p
-WHERE p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #egfr_ckd_evidence) 
-	OR p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #acr_ckd_evidence) 
-	OR p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #ckd_risk) 
+LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+WHERE (YEAR(@StartDate) - YearOfBirth > 18) AND ( -- OVER 18s ONLY
+ 	p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #egfr_ckd_evidence where egfr_evidence in ('G3a', 'G3b', 'G4', 'G5')) -- egfr indicating stages 3-5
+		OR (
+		p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #egfr_ckd_evidence where egfr_evidence in ('G1', 'G2')) 
+			AND ((p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #acr_dates)) OR p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #kidney_damage))
+			) -- egfr stages 1-2 and (ACR evidence or kidney damage) 
+		OR p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #acr_ckd_evidence) -- ACR evidence
+		)
+-- TABLE OF GP EVENTS FOR COHORT TO SPEED UP REUSABLE QUERIES
+
+IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(EventDate AS DATE) AS EventDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID,
+  [Value]
+INTO #PatientEventData
+FROM [RLS].vw_GP_Events
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
+
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
 
 
+-- load codesets needed for retrieving medication prescriptions
 
--- load codesets needed for retrieving medication prescriptions (only those that weren't loaded at start of script)
-
---> CODESET aminoglycosides:1 ace-inhibitor:1 bisphosphonates:1 calcineurin-inhibitors:1 diuretic:1 lithium:1 mesalazine:1 nsaids:1
---> CODESET sglt2-inhibitors:1 metformin:1 sulphonylureas:1 glp1-receptor-agonists:1 statins:1 antipsychotics:1
---> CODESET contraceptives-combined-hormonal:1 contraceptives-devices:1 contraceptives-emergency-pills:1 contraceptives-progesterone-only:1
+--> CODESET statins:1 ace-inhibitor:1 aspirin:1 clopidogrel:1 sglt2-inhibitors:1 nsaids:1 hormone-replacement-therapy:1
 
 
 -- FIX ISSUE WITH DUPLICATE MEDICATIONS, CAUSED BY SOME CODES APPEARING MULTIPLE TIMES IN #VersionedCodeSets and #VersionedSnomedSets
@@ -205,51 +226,20 @@ WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 		m.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets_1)
 		);
 
+--  FINAL TABLE: NUMBER OF EACH MEDICATION CATEGORY PRESCRIBED EACH MONTH 
+
 IF OBJECT_ID('tempdb..#meds_wide') IS NOT NULL DROP TABLE #meds_wide;
 select 
 	FK_Patient_Link_ID,
-	PrescriptionDate,
-	[ace-inhibitor] = case when Concept = 'ace-inhibitor' then 1 else 0 end,
-	aminoglycoside = case when Concept = 'aminoglycosides' then 1 else 0 end,
-	bisphosphonate = case when Concept = 'bisphosphonates' then 1 else 0 end,
-	[calcineurin-inhibitor] = case when Concept = 'calcineurin-inhibitor' then 1 else 0 end,
-	diuretic = case when Concept = 'diuretic' then 1 else 0 end,
-	lithium = case when Concept = 'lithium' then 1 else 0 end,
-	mesalazine = case when Concept = 'mesalazine' then 1 else 0 end,
-	nsaid = case when Concept = 'nsaids' then 1 else 0 end, 
-	[sglt2-inhibitor] = case when Concept = 'sglt2-inhibitors' then 1 else 0 end,
-	metformin = case when Concept = 'metformin' then 1 else 0 end,
-	sulphonylurea = case when Concept = 'sulphonylureas' then 1 else 0 end,
-	[glp1-receptor-agonist] = case when Concept = 'glp1-receptor-agonists' then 1 else 0 end,
-	statin = case when Concept = 'statins' then 1 else 0 end,
-	antipsychotic = case when Concept = 'antipsychotics' then 1 else 0 end,
-	contraceptive = case when Concept in ('contraceptives-combined-hormonal','contraceptives-devices','contraceptives-emergency-pills','contraceptives-progesterone-only') then 1 else 0 end
-into #meds_wide
-from #medications_rx
-
-
-select 
-	FK_Patient_Link_ID, 
 	YEAR(PrescriptionDate) as [Year], 
 	Month(PrescriptionDate) as [Month], 
-	[ace-inhibitor-or-ARB] = sum([ace-inhibitor]),
-	aminoglycoside = sum(aminoglycoside),
-	bisphosphonate = sum(bisphosphonate),
-	[calcineurin-inhibitor] = sum([calcineurin-inhibitor]),
-	diuretic = sum(diuretic),
-	lithium = sum(lithium),
-	mesalazine = sum(mesalazine),
-	nsaid = sum(nsaid), 
-	[sglt2-inhibitor] = sum([sglt2-inhibitor]),
-	metformin = sum(metformin),
-	sulphonylurea = sum(sulphonylurea),
-	[glp1-receptor-agonist] = sum([glp1-receptor-agonist]),
-	statin = sum(statin),
-	antipsychotic = sum(antipsychotic),
-	contraceptive = sum(contraceptive)
-from #meds_wide
+	statin = ISNULL(SUM(CASE WHEN Concept = 'statins' then 1 else 0 end),0),
+	[ace-inhibitor-or-arb] = ISNULL(SUM(CASE WHEN Concept = 'ace-inhibitor' then 1 else 0 end),0),
+	aspirin = ISNULL(SUM(CASE WHEN Concept = 'aspirin' then 1 else 0 end),0),
+	clopidogrel = ISNULL(SUM(CASE WHEN Concept = 'clopidogrel' then 1 else 0 end),0),
+	[sglt2-inhibitor] = ISNULL(SUM(CASE WHEN Concept = 'sglt2-inhibitors' then 1 else 0 end),0),
+    nsaid = ISNULL(SUM(CASE WHEN Concept = 'nsaids' then 1 else 0 end),0), 
+	[hormone-replacement-therapy] = ISNULL(SUM(CASE WHEN Concept = 'hormone-replacement-therapy' then 1 else 0 end),0)
+from #medications_rx
 group by FK_Patient_Link_ID, YEAR(PrescriptionDate), Month(PrescriptionDate)
 order by FK_Patient_Link_ID, YEAR(PrescriptionDate), Month(PrescriptionDate)
-
-
-

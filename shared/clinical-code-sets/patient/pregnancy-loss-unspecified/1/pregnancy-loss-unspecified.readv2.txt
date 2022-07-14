@@ -1,0 +1,11 @@
+L00..00	Hydatidiform mole
+7E08700	Dilation and curettage for removal of mole
+L011.11	Fleshy mole
+L001.00	Incomplete and partial hydatidiform mole
+L00..12	Vesicular mole
+L002.00	Complete hydatidiform mole
+L011.00	Carneous mole
+L00..11	Trophoblastic disease
+L000.00	Classical hydatidiform mole
+B911012	Invasive mole - placenta
+B911100	Epithelioid trophoblastic tumour

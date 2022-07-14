@@ -1,0 +1,25 @@
+{
+  "includeTerms": ["lymphocyte count"],
+  "excludeTerms": [
+    "reactive lymphocyte count",
+    "total b lymphocyte",
+    "count normal",
+    "count abnormal",
+    "total t lymphocyte",
+    "lymphocytosis",
+    "total lymphocyte count",
+    "percentage",
+    "lymphocyte subsets",
+    "prolymphocyte count",
+    "hairy cell markers",
+    "natural killer cell level",
+    "leucocyte count",
+    "t cell subsets",
+    "lymphocyte function test",
+    "lymphocytes"
+  ],
+  "terminology": "Readv2",
+  "version": "v20160401",
+  "createdOn": "2022-06-15T09:29:33.320Z",
+  "lastUpdated": "2022-06-15T09:29:33.320Z"
+}

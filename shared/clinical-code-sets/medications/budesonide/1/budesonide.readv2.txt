@@ -1,0 +1,8 @@
+aa91.	BUDESONIDE 3mg m/r capsules
+aa92.	ENTOCORT CR 3mg m/r capsules
+aa93.	BUDENOFALK 3mg capsules
+aa94.	BUDENOFALK 9mg/sachet gastro-resistant granules
+aa95.	BUDESONIDE 9mg/sachet gastro-resistant granules
+aa96.	CORTIMENT 9mg m/r tablets
+aa97.	BUDESONIDE 9mg m/r tablets
+aa9z.	BUDESONIDE 3mg capsules

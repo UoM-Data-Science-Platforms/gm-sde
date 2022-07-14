@@ -1,0 +1,6 @@
+^ESCTBE943577	Beclometasone 5mg gastro-resistant modified-release tablets 30 tablet
+^ESCTBE943992	Beclometasone 5mg gastro-resistant modified-release tablets
+^ESCTCL943578	Clipper 5mg gastro-resistant modified-release tablets (Chiesi Ltd)
+^ESCTCL943579	Clipper 5mg gastro-resistant modified-release tablets (Chiesi Ltd) 30 tablet
+BEM/26386NEMIS	Beclometasone  M/R Tablets (Gastro-Resistant)  5 mg
+CLM/26388NEMIS	Clipper  M/R Tablets (Gastro-Resistant)  5 mg

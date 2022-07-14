@@ -1,0 +1,274 @@
+^ESCT1183615	Sertraline 100mg tablets (Mylan)
+^ESCT1185827	Sertraline 50mg tablets (Mylan)
+^ESCT1185828	Sertraline 50mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1185829	Sertraline 100mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1195832	Sertraline 100mg tablets (Lupin Healthcare (UK) Ltd) 28 tablet
+^ESCT1195925	Sertraline 50mg tablets (Milpharm Ltd)
+^ESCT1195962	Sertraline 100mg tablets (Milpharm Ltd)
+^ESCT1196048	Sertraline 100mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1196054	Sertraline 50mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1196071	Sertraline 50mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196380	Sertraline 50mg tablets (Lupin Healthcare (UK) Ltd) 28 tablet
+^ESCT1196571	Sertraline 100mg tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1197691	Sertraline 75mg/5ml oral suspension 1 ml
+^ESCT1197692	Sertraline 75mg/5ml oral suspension (Special Order)
+^ESCT1197693	Sertraline 75mg/5ml oral suspension (Special Order) 1 ml
+^ESCT1197942	Sertraline 75mg/5ml oral suspension
+^ESCT1215129	Sertraline 50mg/5ml oral solution 1 ml
+^ESCT1215130	Sertraline 50mg/5ml oral solution (Special Order)
+^ESCT1215132	Sertraline 50mg/5ml oral solution (Special Order) 1 ml
+^ESCT1215133	Sertraline 25mg/5ml oral solution 1 ml
+^ESCT1215134	Sertraline 25mg/5ml oral solution (Special Order)
+^ESCT1215136	Sertraline 25mg/5ml oral solution (Special Order) 1 ml
+^ESCT1215198	Sertraline 25mg/5ml oral solution
+^ESCT1215199	Sertraline 50mg/5ml oral solution
+^ESCT1255317	Sertraline 25mg/5ml oral suspension 150 ml
+^ESCT1255318	Sertraline 25mg/5ml oral suspension (Drug Tariff Special Order) 150 ml
+^ESCT1255965	Sertraline 100mg tablets (Ria Generics Ltd)
+^ESCT1255966	Sertraline 100mg tablets (Ria Generics Ltd) 28 tablet 2 x 14 tablets
+^ESCT1255967	Sertraline 50mg tablets (Ria Generics Ltd)
+^ESCT1255968	Sertraline 50mg tablets (Ria Generics Ltd) 28 tablet 2 x 14 tablets
+^ESCT1256072	Sertraline 25mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCT1256073	Sertraline 25mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCT1257186	Sertraline 50mg tablets (Noumed Life Sciences Ltd)
+^ESCT1257187	Sertraline 50mg tablets (Noumed Life Sciences Ltd) 28 tablet 2 x 14 tablets
+^ESCT1257188	Sertraline 100mg tablets (Noumed Life Sciences Ltd)
+^ESCT1257189	Sertraline 100mg tablets (Noumed Life Sciences Ltd) 28 tablet 2 x 14 tablets
+^ESCT1259657	Sertraline 12.5mg tablets 1 tablet
+^ESCT1259658	Sertraline 12.5mg tablets (Special Order)
+^ESCT1259659	Sertraline 12.5mg tablets (Special Order) 1 tablet
+^ESCT1259943	Sertraline 12.5mg tablets
+^ESCT1264717	Sertraline 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264718	Sertraline 50mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1264721	Sertraline 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264724	Sertraline 100mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1265444	Sertraline 50mg tablets 500 tablet
+^ESCT1265445	Sertraline 50mg tablets (Mylan) 500 tablet
+^ESCT1265446	Sertraline 100mg tablets 500 tablet
+^ESCT1265447	Sertraline 100mg tablets (Mylan) 500 tablet
+^ESCT1275436	Sertraline 100mg tablets (A A H Pharmaceuticals Ltd) 500 tablet
+^ESCT1275437	Sertraline 50mg tablets (A A H Pharmaceuticals Ltd) 500 tablet
+^ESCT1301202	Lustral 100mg tablets (Upjohn Ltd)
+^ESCT1301211	Lustral 50mg tablets (Upjohn Ltd)
+^ESCT1301257	Lustral 50mg tablets (Upjohn Ltd) 28 tablet 2 x 14 tablets
+^ESCT1301258	Lustral 100mg tablets (Upjohn Ltd) 28 tablet 2 x 14 tablets
+^ESCT1303917	Lustral 100mg tablets (Upjohn UK Ltd)
+^ESCT1303925	Lustral 50mg tablets (Upjohn UK Ltd)
+^ESCT1303938	Lustral 50mg tablets (Upjohn UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1303939	Lustral 100mg tablets (Upjohn UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1402777	Sertraline 25mg tablets 28 tablet
+^ESCT1402779	Sertraline 25mg tablets (Zentiva)
+^ESCT1402780	Sertraline 25mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCT1403059	Sertraline 25mg tablets
+^ESCT1404016	Sertraline 100mg tablets (Medihealth (Northern) Ltd)
+^ESCT1404017	Sertraline 100mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1404018	Sertraline 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1404019	Sertraline 50mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1405061	Sertraline 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCT1405062	Sertraline 25mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 X 14 tablets
+^ESCT1405069	Sertraline 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCT1405070	Sertraline 25mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422159	Sertraline 50mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422160	Sertraline 50mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1422161	Sertraline 100mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422162	Sertraline 100mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1423100	Sertraline 25mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1423101	Sertraline 25mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1424153	Sertraline 100mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1424154	Sertraline 100mg tablets (NorthStar Healthcare Unlimited Company) 28 tablet 2 x 14 tablets
+^ESCT1424155	Sertraline 50mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1424156	Sertraline 50mg tablets (NorthStar Healthcare Unlimited Company) 28 tablet 2 x 14 tablets
+^ESCT1424883	Sertraline 100mg tablets
+^ESCT1424884	Sertraline 50mg tablets
+^ESCT1427058	Sertraline 50mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427059	Sertraline 50mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1427060	Sertraline 100mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1427061	Sertraline 100mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1429490	Sertraline 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1429491	Sertraline 25mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCTLU821178	Lustral 100mg tablets (Pfizer Ltd)
+^ESCTLU834044	Lustral 50mg tablets (Pfizer Ltd)
+^ESCTLU849736	Lustral 50mg tablets (Pfizer Ltd) 28 tablet 2 x 14 tablets
+^ESCTLU849737	Lustral 100mg tablets (Pfizer Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE1005993	Sertraline 50mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTSE1005994	Sertraline 50mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTSE1005995	Sertraline 100mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTSE1005996	Sertraline 100mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTSE1017847	Sertraline 50mg tablets (Aurobindo Pharma Ltd)
+^ESCTSE1017848	Sertraline 50mg tablets (Aurobindo Pharma Ltd) 28 tablet
+^ESCTSE1017849	Sertraline 100mg tablets (Aurobindo Pharma Ltd)
+^ESCTSE1017850	Sertraline 100mg tablets (Aurobindo Pharma Ltd) 28 tablet
+^ESCTSE1021492	Sertraline 50mg/5ml oral suspension 150 ml
+^ESCTSE1021493	Sertraline 50mg/5ml oral suspension (Drug Tariff Special Order) 150 ml
+^ESCTSE1022678	Sertraline 50mg tablets (Medreich Plc)
+^ESCTSE1022679	Sertraline 50mg tablets (Medreich Plc) 28 tablet
+^ESCTSE1022680	Sertraline 100mg tablets (Medreich Plc)
+^ESCTSE1022682	Sertraline 100mg tablets (Medreich Plc) 28 tablet
+^ESCTSE1026465	Sertraline 50mg tablets (Accord Healthcare Ltd)
+^ESCTSE1026466	Sertraline 50mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTSE1026467	Sertraline 100mg tablets (Accord Healthcare Ltd)
+^ESCTSE1026468	Sertraline 100mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTSE1042513	Sertraline 50mg tablets (Waymade Healthcare Plc)
+^ESCTSE1042514	Sertraline 50mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTSE1042515	Sertraline 100mg tablets (Waymade Healthcare Plc)
+^ESCTSE1042516	Sertraline 100mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTSE1066335	Sertraline 100mg/5ml oral suspension 100 ml
+^ESCTSE1066336	Sertraline 100mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTSE1097546	Sertraline 50mg tablets (Lupin (Europe) Ltd)
+^ESCTSE1097547	Sertraline 50mg tablets (Lupin (Europe) Ltd) 28 tablet
+^ESCTSE1097557	Sertraline 100mg tablets (Lupin (Europe) Ltd)
+^ESCTSE1097561	Sertraline 100mg tablets (Lupin (Europe) Ltd) 28 tablet
+^ESCTSE1109701	Sertraline 50mg tablets (Crescent Pharma Ltd)
+^ESCTSE1109702	Sertraline 50mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE1109703	Sertraline 100mg tablets (Crescent Pharma Ltd)
+^ESCTSE1109704	Sertraline 100mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE1119770	Sertraline 50mg tablets (DE Pharmaceuticals)
+^ESCTSE1119771	Sertraline 50mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTSE1119772	Sertraline 100mg tablets (DE Pharmaceuticals)
+^ESCTSE1119773	Sertraline 100mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTSE1144855	Sertraline 15mg/5ml oral suspension 1 ml
+^ESCTSE1144856	Sertraline 15mg/5ml oral suspension (Special Order)
+^ESCTSE1144857	Sertraline 15mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSE1145083	Sertraline 15mg/5ml oral suspension
+^ESCTSE1153475	Sertraline 100mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTSE1153476	Sertraline 100mg tablets (Genesis Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE1153477	Sertraline 50mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTSE1153478	Sertraline 50mg tablets (Genesis Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE1162831	Sertraline 5mg/5ml oral suspension 1 ml
+^ESCTSE1162832	Sertraline 5mg/5ml oral suspension (Special Order)
+^ESCTSE1162833	Sertraline 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSE1162924	Sertraline 5mg/5ml oral suspension
+^ESCTSE841850	Sertraline 50mg tablets 28 tablet
+^ESCTSE847767	Sertraline 100mg tablets 28 tablet
+^ESCTSE878301	Sertraline 50mg tablets 30 tablet
+^ESCTSE878305	Sertraline 100mg tablets 30 tablet
+^ESCTSE908731	Sertraline 100mg/5ml oral suspension 1 ml
+^ESCTSE908732	Sertraline 100mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTSE908733	Sertraline 100mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTSE908734	Sertraline 10mg/5ml oral suspension 1 ml
+^ESCTSE908735	Sertraline 10mg/5ml oral suspension (Special Order)
+^ESCTSE908736	Sertraline 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSE908737	Sertraline 50mg/5ml oral suspension 1 ml
+^ESCTSE908738	Sertraline 50mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTSE908739	Sertraline 50mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTSE908992	Sertraline 100mg/5ml oral suspension
+^ESCTSE908993	Sertraline 10mg/5ml oral suspension
+^ESCTSE908994	Sertraline 50mg/5ml oral suspension
+^ESCTSE922956	Sertraline 50mg tablets (PLIVA Pharma Ltd)
+^ESCTSE922958	Sertraline 50mg tablets (PLIVA Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE922960	Sertraline 100mg tablets (PLIVA Pharma Ltd)
+^ESCTSE922961	Sertraline 100mg tablets (PLIVA Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE923072	Sertraline 50mg tablets (Actavis UK Ltd)
+^ESCTSE923074	Sertraline 50mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE923077	Sertraline 100mg tablets (Actavis UK Ltd)
+^ESCTSE923079	Sertraline 100mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE923092	Sertraline 50mg tablets (Teva UK Ltd)
+^ESCTSE923095	Sertraline 50mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE923096	Sertraline 100mg tablets (Teva UK Ltd)
+^ESCTSE923098	Sertraline 100mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE923165	Sertraline 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTSE923169	Sertraline 50mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTSE923172	Sertraline 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTSE923174	Sertraline 100mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTSE923176	Sertraline 50mg tablets (Zentiva)
+^ESCTSE923177	Sertraline 50mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTSE923178	Sertraline 100mg tablets (Zentiva)
+^ESCTSE923179	Sertraline 100mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTSE923290	Sertraline 50mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTSE923291	Sertraline 50mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE923292	Sertraline 100mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTSE923293	Sertraline 100mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE923390	Sertraline 50mg tablets (Sandoz Ltd)
+^ESCTSE923391	Sertraline 50mg tablets (Sandoz Ltd) 28 tablet 4 x 7 tablets
+^ESCTSE923393	Sertraline 100mg tablets (Sandoz Ltd)
+^ESCTSE923394	Sertraline 100mg tablets (Sandoz Ltd) 28 tablet 4 x 7 tablets
+^ESCTSE923434	Sertraline 50mg tablets (Wockhardt UK Ltd)
+^ESCTSE923436	Sertraline 50mg tablets (Wockhardt UK Ltd) 28 tablet
+^ESCTSE923453	Sertraline 100mg tablets (Wockhardt UK Ltd)
+^ESCTSE923454	Sertraline 100mg tablets (Wockhardt UK Ltd) 28 tablet
+^ESCTSE923933	Sertraline 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTSE923934	Sertraline 50mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE923935	Sertraline 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTSE923937	Sertraline 100mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE923940	Sertraline 50mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTSE923941	Sertraline 50mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet
+^ESCTSE923942	Sertraline 100mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTSE923943	Sertraline 100mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet
+^ESCTSE923953	Sertraline 50mg tablets (Mylan Ltd)
+^ESCTSE923954	Sertraline 50mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE923955	Sertraline 100mg tablets (Mylan Ltd)
+^ESCTSE923957	Sertraline 100mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE927844	Sertraline 100mg tablets (Relonchem Ltd)
+^ESCTSE927847	Sertraline 100mg tablets (Relonchem Ltd) 28 tablet
+^ESCTSE927848	Sertraline 50mg tablets (Relonchem Ltd)
+^ESCTSE927850	Sertraline 50mg tablets (Relonchem Ltd) 28 tablet
+^ESCTSE927856	Sertraline 100mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTSE927857	Sertraline 100mg tablets (Focus Pharmaceuticals Ltd) 28 tablet
+^ESCTSE927858	Sertraline 50mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTSE927859	Sertraline 50mg tablets (Focus Pharmaceuticals Ltd) 28 tablet
+^ESCTSE929278	Sertraline 50mg tablets (Arrow Generics Ltd)
+^ESCTSE929280	Sertraline 50mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTSE929284	Sertraline 100mg tablets (Arrow Generics Ltd)
+^ESCTSE929285	Sertraline 100mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTSE929325	Sertraline 50mg tablets (Niche Generics Ltd)
+^ESCTSE929326	Sertraline 50mg tablets (Niche Generics Ltd) 28 tablet
+^ESCTSE929328	Sertraline 100mg tablets (Niche Generics Ltd)
+^ESCTSE929329	Sertraline 100mg tablets (Niche Generics Ltd) 28 tablet
+^ESCTSE930576	Sertraline 50mg tablets (Ranbaxy (UK) Ltd)
+^ESCTSE930577	Sertraline 50mg tablets (Ranbaxy (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE930578	Sertraline 100mg tablets (Ranbaxy (UK) Ltd)
+^ESCTSE930579	Sertraline 100mg tablets (Ranbaxy (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE935296	Sertraline 100mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTSE935297	Sertraline 100mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTSE935298	Sertraline 50mg tablets (Dr Reddy's Laboratories (UK) Ltd)
+^ESCTSE935299	Sertraline 50mg tablets (Dr Reddy's Laboratories (UK) Ltd) 28 tablet
+^ESCTSE939421	Sertraline 50mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTSE939422	Sertraline 50mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE939424	Sertraline 100mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTSE939426	Sertraline 100mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE957996	Sertraline 12.5mg/5ml oral suspension 1 ml
+^ESCTSE958000	Sertraline 12.5mg/5ml oral suspension (Special Order)
+^ESCTSE958002	Sertraline 12.5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSE958006	Sertraline 150mg/5ml oral suspension 1 ml
+^ESCTSE958008	Sertraline 150mg/5ml oral suspension (Special Order)
+^ESCTSE958010	Sertraline 150mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSE958011	Sertraline 20mg/5ml oral suspension 1 ml
+^ESCTSE958013	Sertraline 20mg/5ml oral suspension (Special Order)
+^ESCTSE958014	Sertraline 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSE958016	Sertraline 25mg/5ml oral suspension 1 ml
+^ESCTSE958018	Sertraline 25mg/5ml oral suspension (Special Order)
+^ESCTSE958020	Sertraline 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTSE958289	Sertraline 12.5mg/5ml oral suspension
+^ESCTSE958291	Sertraline 150mg/5ml oral suspension
+^ESCTSE958293	Sertraline 20mg/5ml oral suspension
+^ESCTSE958295	Sertraline 25mg/5ml oral suspension
+^ESCTSE965606	Sertraline 50mg tablets (Tillomed Laboratories Ltd)
+^ESCTSE965607	Sertraline 50mg tablets (Tillomed Laboratories Ltd) 28 tablet
+^ESCTSE965608	Sertraline 100mg tablets (Tillomed Laboratories Ltd)
+^ESCTSE965609	Sertraline 100mg tablets (Tillomed Laboratories Ltd) 28 tablet
+^ESCTSE965683	Sertraline 100mg tablets (Apotex UK Ltd)
+^ESCTSE965684	Sertraline 100mg tablets (Apotex UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE965685	Sertraline 50mg tablets (Apotex UK Ltd)
+^ESCTSE965686	Sertraline 50mg tablets (Apotex UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE969129	Sertraline 50mg tablets (Consilient Health Ltd)
+^ESCTSE969130	Sertraline 50mg tablets (Consilient Health Ltd) 28 tablet
+^ESCTSE969133	Sertraline 100mg tablets (Consilient Health Ltd)
+^ESCTSE969134	Sertraline 100mg tablets (Consilient Health Ltd) 28 tablet
+^ESCTSE979234	Sertraline 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTSE979236	Sertraline 50mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTSE979461	Sertraline 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTSE979462	Sertraline 100mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTSE979464	Sertraline 100mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTSE987996	Sertraline 50mg tablets (Bristol Laboratories Ltd)
+^ESCTSE987997	Sertraline 50mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE987998	Sertraline 100mg tablets (Bristol Laboratories Ltd)
+^ESCTSE991339	Sertraline 100mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTSE993399	Sertraline 100mg tablets 14 tablet
+LUTA9304EMIS	Lustral  Tablets  100 mg
+LUTA9305EMIS	Lustral  Tablets  50 mg
+SEOR130613NEMIS	Sertraline Hydrochloride  Oral suspension  25 mg/5 ml
+SEOR25422NEMIS	Sertraline Hydrochloride  Oral suspension  50 mg/5 ml
+SEOR46527NEMIS	Sertraline Hydrochloride  Oral suspension  100 mg/5 ml
+SETA138252NEMIS	Sertraline Hydrochloride  Tablets  25 mg
+SETA9308EMIS	Sertraline Hydrochloride  Tablets  100 mg
+SETA9309EMIS	Sertraline Hydrochloride  Tablets  50 mg

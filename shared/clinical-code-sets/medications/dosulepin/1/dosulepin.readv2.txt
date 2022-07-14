@@ -1,0 +1,8 @@
+d751.	PROTHIADEN 25mg capsules
+d752.	PROTHIADEN 75mg tablets
+d753.	*PREPADINE 25mg capsules
+d754.	*PREPADINE 75mg tablets
+d755.	*DOTHAPAX 25mg capsules
+d756.	*DOTHAPAX 75mg tablets
+d75y.	DOSULEPIN HYDROCHLORIDE 25mg capsules
+d75z.	DOSULEPIN HYDROCHLORIDE 75mg tablets

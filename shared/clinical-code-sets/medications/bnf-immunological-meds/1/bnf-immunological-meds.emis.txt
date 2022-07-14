@@ -1,0 +1,419 @@
+INPO124114NEMIS	Infanrix Hexa  Powder And Suspension For Injection  0.5 ml pre-filled syringe
+HISO127071NEMIS	Hizentra  Solution for injection in pre-filled syringe  1 gram/5 ml
+HUSO51891NEMIS	Human Normal Immunoglobulin  Solution for infusion  2 grams/20 ml vial
+REIN18759NEMIS	Repevax  Injection  0.5 ml pre-filled syringe
+HUIN22704EMIS	Human Normal Immunoglobulin  Solution for injection  750 mg/4.6875 ml vial
+GASO114493NEMIS	Gammanorm  Solution for injection  1 gram/6 ml vial
+HUSO51606NEMIS	Human Normal Immunoglobulin  Solution for infusion  4 grams/20 ml vial
+PASO130327NEMIS	Panzyga  Solution for infusion  20 grams/200 ml bottle
+COEM139763NEMIS	NULL
+HUSO34987NEMIS	Human Normal Immunoglobulin  Solution for infusion  5 grams/50 ml vial
+DIVA41110NEMIS	Diphtheria/Tetanus/Pertussis(acell)/Polio(inac)/Hib(conj)  Vaccine (adsorbed)  0.5 ml pre-filled syringe
+HEIN32717EMIS	Hepatitis B Surface Antigen  Injection  40 micrograms/1 ml vial
+SEVA140420NEMIS	NULL
+ANSO35579NEMIS	Anti-D (Rh0) Immunoglobulin  Solution for injection  250 unit vial
+VAVA78919NEMIS	Vaqta Adult  Vaccine, Suspension For Injection  1 ml pre-filled syringe
+M-IN30563NEMIS	M-M-R Vaxpro  Injection  0.5 ml pre-filled syringe
+INVA21157NEMIS	Inactivated Influenza (Split Virion) Paediatric  Vaccine  0.25 ml pre-filled syringe
+FLIN4179NEMIS	Flebogamma  Solution for infusion  5 %, 5 grams/100 ml vial
+TIIN22710NEMIS	Tick-Borne Encephalitis Virus  Injection  0.5 ml pre-filled syringe
+SAIN27365EMIS	Sandoglobulin  Injection  1 gram/vial
+GASO52326NEMIS	Gamunex  Solution for infusion  10 %, 5 grams/50 ml vial
+FLVA105396NEMIS	Flumist Quadrivalent  Vaccine Nasal Suspension  0.2 ml unit dose
+HUSO34952NEMIS	Human Normal Immunoglobulin  Solution for infusion  10 grams/100 ml bottle
+GASO133501NEMIS	Gammaplex  Solution for infusion  20 grams/200 ml vial
+GASO114273NEMIS	Gammanorm  Solution for injection  8 grams/48 ml vial
+RHSO15382NEMIS	Rhophylac  Solution for injection  300 micrograms (1500 units)/syringe
+PAIN17485NEMIS	Partobulin Sdf  Injection  1250 units (250 micrograms)/1 ml syringe
+ININ21609NEMIS	Infanrix-Ipv + Hib  Powder And Suspension For Injection  0.5 ml pre-filled syringe
+IMSU22976NEMIS	Imuvac  Suspension For Injection  0.5 ml pre-filled syringe
+MEPO22796NEMIS	Menitorix  Powder and solvent for solution for injection  0.5 ml vial
+HUSU28317NEMIS	Human Papillomavirus Vaccine Adsorbed  Suspension For Injection  (type 16, 18) 0.5 ml pre-filled syringe
+VIIN11675NEMIS	Viatim  Injection (Prefilled Syringe)  1 ml pre-filled syringe
+PEIN18762NEMIS	Pediacel  Injection  
+TWVA31448EMIS	Twinrix Paediatric  Vaccine  0.5 ml pre-filled syringe
+HESU106143NEMIS	Hepatitis A Vaccine Inactivated, Adsorbed  Suspension For Injection  0.5 ml vial
+INSU127173NEMIS	Influenza Vaccine Tetra Myl  Suspension For Injection  0.5 ml pre-filled syringe
+PASO130326NEMIS	Panzyga  Solution for infusion  10 grams/100 ml bottle
+MEVA1614NEMIS	Meningococcal Group C Conjugate  Vaccine  
+GAPO36243NEMIS	Gammagard S/D  Powder and solvent for solution for injection  2.5 gram bottle
+VIIN11675NEMIS	Viatim  Injection (Prefilled Syringe)  1 ml pre-filled syringe
+HESU106141NEMIS	Hepatitis A Vaccine Inactivated, Adsorbed  Suspension For Injection  1 ml vial
+POVA25270EMIS	Poliomyelitis Inactivated  Vaccine  0.5 ml pre-filled syringe (Sanofi-Pasteur)
+ROOR124006NEMIS	Rotavirus Vaccine Live  Oral suspension  1.5 ml tube
+SUIN16688NEMIS	Subcuvia  Injection  160 mg/ml, 5 ml vial
+INVA30366EMIS	Inactivated Influenza (Split Virion)  Vaccine  0.5 ml pre-filled syringe
+INVA36708NEMIS	Intanza  Vaccine  15 microgram strain, 0.1 ml pre-filled syringe
+SASO21332NEMIS	Sandoglobulin Nf Liquid  Solution for infusion  120 mg/ml, 12 gram/100 ml bottle
+STIN12597NEMIS	Stamaril  Injection  
+HEIN14490NEMIS	Hepatitis B Surface Antigen  Injection  5 micrograms/0.5 ml, 0.5 ml vial
+HUPO36242NEMIS	Human Normal Immunoglobulin  Powder and solvent for solution for injection  2.5 gram bottle
+HEIN30871EMIS	Hepatitis B Immunoglobulin Human  Injection  200 unit vial
+GASO43108NEMIS	Gammaplex  Solution for infusion  2.5 grams/50 ml vial
+HUSO51604NEMIS	Human Normal Immunoglobulin  Solution for infusion  1 gram/5 ml vial
+INSO102578NEMIS	Intratect  Solution for infusion  1 gram/20 ml vial
+HESU25491NEMIS	Hepatitis A Vaccine Inactivated, Adsorbed  Suspension For Injection  0.5 ml pre-filled syringe
+FLVA24698EMIS	Fluarix  Vaccine  0.5 ml pre-filled syringe
+PRPO125057NEMIS	Priorix  Powder and solvent for solution for injection  0.5 ml pre-filled syringe
+WIIN1622NEMIS	Winrho Sdf  Injection  1500 units/vial
+ANSO36220NEMIS	Anti-D (Rh0) Immunoglobulin  Solution for injection  500 unit vial
+PRIN22307NEMIS	Prevenar  Injection  0.5 ml pre-filled syringe
+HEEM51871NEMIS	Hepatitis A Vaccine Inactivated, Adsorbed  Emulsion For Injection  0.5 ml pre-filled syringe
+HUSO130250NEMIS	Human Normal Immunoglobulin  Solution for injection  1 gram/6.25 ml vial
+GAPO36241NEMIS	Gammagard S/D  Powder and solvent for solution for injection  10 gram bottle
+KISO42346NEMIS	Kiovig  Solution for infusion  5 gram/50 ml vial
+REIN18766NEMIS	Revaxis  Injection  0.5 ml pre-filled syringe
+EPVA15850NEMIS	Epaxal  Vaccine  0.5 ml pre-filled syringe
+PRSO34989NEMIS	Privigen  Solution for infusion  10 grams/100 ml vial
+FLIN9810BRIDL	Fluvirin  Injection  0.5 ml pre-filled syringe
+VIE/20480EMIS	Vivotif  E/c capsules  
+TYE/3787NEMIS	Typhoid Vaccine, Live, Oral, Strain Ty21A  E/c capsules  
+MESO140388NEMIS	NULL
+MEVA140390NEMIS	NULL
+ACVA6219NEMIS	Acwy Vax  Vaccine, Powder And Solvent For Solution For Injection  
+NEIN6648NEMIS	Neisvac-C  Injection  0.5 ml pre-filled syringe
+HEIN15465NEMIS	Hepatitis B Surface Antigen  Suspension For Injection  20 micrograms/ml, 1 ml vial
+PNPR5193NEMIS	Pneumovax 11  Pre-Filled Syringe  0.5 ml
+HUIN16685NEMIS	Human Normal Immunoglobulin  Injection  160 mg/ml, 5 ml vial
+ANIN16084NEMIS	Anti-D (Rh0) Immunoglobulin  Injection  1250 units(250 micrograms)/1 ml pre-filled syringe
+CODI138564NEMIS	Covid-19 mRna (nucleoside modified) Vaccine Moderna  Dispersion for injection  0.1 mg/0.5 ml dose, multidose vial
+ENIN1070	Engerix B  Suspension For Injection  20 micrograms/1 ml vial
+WIIN16693NEMIS	Winrho Sdf  Injection  5000 units/vial
+PRSO34990NEMIS	Privigen  Solution for infusion  20 grams/200 ml vial
+ARSO78966NEMIS	Aragam  Solution for infusion  5 grams/100 ml vial
+TASO138184NEMIS	Covid-19 Vaccine AstraZeneca (ChAdOx1 S recombinant)  Solution for injection  5x10 billion viral particle/0.5 ml multidose vial
+INSO102581NEMIS	Intratect  Solution for infusion  5 grams/100 ml vial
+FLSO39334NEMIS	Flebogamma Dif  Solution for infusion  20 grams/400 ml vial
+GASO46545NEMIS	Gammanorm  Solution for injection  1.65 grams/10 ml vial
+RAPO28949NEMIS	Rabies Vaccine  Powder and solvent for solution for injection  1 ml vial
+HUIN18464NEMIS	Human Normal Immunoglobulin  Solution for injection  1.5 grams/9.375 ml vial
+FLIN4178NEMIS	Flebogamma  Solution for infusion  5 %, 2.5 grams/50 ml vial
+HUIN30575NEMIS	Human Normal Immunoglobulin  Injection  160 mg/ml, 3 ml vial
+BAIN8798EGTON	Bacillus Calmette-Guerin Vaccine  Injection  
+HEPR14266NEMIS	Hepatitis B Surface Antigen  Pre-Filled Syringe  10 micrograms/0.5 ml
+AGIN11649NEMIS	Agrippal  Injection  
+GASO114272NEMIS	Gammanorm  Solution for injection  4 grams/24 ml vial
+HUSO110015NEMIS	Human Normal Immunoglobulin  Solution for infusion  5 %, 20 grams/400 ml vial
+GASO110016NEMIS	Gammaplex  Solution for infusion  20 grams/400 ml vial
+HAVA106144NEMIS	Havrix Junior Monodose  Vaccine, Suspension For Injection  0.5 ml vial
+PEIN18762NEMIS	Pediacel  Injection  
+TEIN24196EMIS	Tetanus Immunoglobulin  Injection  250 iu/ml pre-filled syringe
+INSU82033NEMIS	Influvac Desu  Suspension For Injection  0.5 ml pre-filled syringe
+HEVA38734NEMIS	Hepatitis A (inactivated) + Hepatitis B (rDNA)  Vaccine (adsorbed), Injection  1 ml pre-filled syringe
+HUSO34951NEMIS	Human Normal Immunoglobulin  Solution for infusion  5 grams/50 ml bottle
+D-SO36219NEMIS	D-Gam Anti-D Immunoglobulin  Solution for injection  250 unit vial
+HEVA51573NEMIS	Hepatitis A (inactivated) + Hepatitis B (rDNA)  Vaccine (adsorbed), Injection  1 ml vial
+CUSO124296NEMIS	Cuvitru  Solution for injection  1 gram/5 ml vial
+ASSO138368NEMIS	Astute  Solution for injection  100 billion viral particles/dose, multidose vial
+HYSO101082NEMIS	Hyqvia  Solution for infusion  10 grams/100 ml and 5 ml vials
+ENPR27292EMIS	Engerix B  Prefilled syringe  20 micrograms/1 ml
+GASO43112NEMIS	Gammaplex  Solution for infusion  5 grams/100 ml vial
+ZOPO52946NEMIS	Zostavax  Powder and solvent for injection  0.65 ml pre-filled syringe
+VIIN34983NEMIS	Vivaglobin  Injection  160 mg/ml, 20 ml vial
+HISO127072NEMIS	Hizentra  Solution for injection in pre-filled syringe  2 gram/10 ml
+ARSO78967NEMIS	Aragam  Solution for infusion  10 grams/200 ml vial
+KISO42347NEMIS	Kiovig  Solution for infusion  10 gram/100 ml vial
+OPSU76843NEMIS	Optaflu  Suspension For Injection  0.5 ml pre-filled syringe
+VIIN22610NEMIS	Vivaglobin  Injection  160 mg/ml, 10 ml vial
+FSIN22677NEMIS	Fsme-Immun Junior  Injection  0.25 ml pre-filled syringe
+AVVA28956EMIS	Avaxim  Vaccine  0.5 ml pre-filled syringe
+PNSO128492NEMIS	Pneumovax 23  Solution for injection  0.5 ml pre-filled syringe
+REIN18766NEMIS	Revaxis  Injection  0.5 ml pre-filled syringe
+INSO102582NEMIS	Intratect  Solution for infusion  5 grams/50 ml vial
+HIIN12933NEMIS	Hiberix  Powder for injection  10 micrograms/0.5 ml vial
+ININ27868EMIS	Inactivated Influenza Vaccine, Surface Antigen  Injection  0.5 ml pre-filled syringe
+NIVA74083NEMIS	Nimenrix  Vaccine, Powder And Solvent For Solution For Injection  0.5 ml syringe
+OCSO52100NEMIS	Octagam  Solution for infusion  5 %, 5 grams/100 ml bottle
+PRSO34989NEMIS	Privigen  Solution for infusion  10 grams/100 ml vial
+TWVA30104EMIS	Twinrix Adult  Vaccine  1 ml pre-filled syringe
+HUSO52457NEMIS	Human Normal Immunoglobulin  Solution for infusion  1 gram/10 ml vial
+AVVA28956EMIS	Avaxim  Vaccine  0.5 ml pre-filled syringe
+HUSO46541NEMIS	Human Normal Immunoglobulin  Solution for injection  3.3 grams/20 ml vial
+HEIN27297EMIS	Hepatitis B Surface Antigen  Injection  10 micrograms/0.5 ml vial
+HEIN11811NEMIS	Hepatitis B Surface Antigen  Injection  10 micrograms/ml, 1 ml vial
+HUSO130251NEMIS	Human Normal Immunoglobulin  Solution for injection  2 gram/12.5 ml vial
+GASO114271NEMIS	Gammanorm  Solution for injection  2 grams/12 ml vial
+INVA127271NEMIS	Influenza Myl  Vaccine, Suspension For Injection  0.5 ml pre-filled syringe
+HUIN24714EMIS	Human Normal Immunoglobulin  Solution for infusion  5 %, 2.5 grams/50 ml vial
+INSU51914NEMIS	Inflexal V  Suspension For Injection  0.5 ml pre-filled syringe
+KISO42349NEMIS	Kiovig  Solution for infusion  20 gram/200 ml vial
+FLSO39336NEMIS	Flebogamma Dif  Solution for infusion  5 grams/100 ml vial
+NEIN6648NEMIS	Neisvac-C  Injection  0.5 ml pre-filled syringe
+SUSO130254NEMIS	Subgam  Solution for injection  2 gram/12.5 ml vial
+GASO46544NEMIS	Gammanorm  Solution for injection  3.3 grams/20 ml vial
+CUSO140386NEMIS	NULL
+CESU27108NEMIS	Cervarix  Suspension For Injection  0.5 ml pre-filled syringe
+VASO10941NEMIS	Varicella-Zoster Immunoglobulin  Solution for injection  250 mg vial
+MEPO22796NEMIS	Menitorix  Powder and solvent for solution for injection  0.5 ml vial
+VAVA25492NEMIS	Vaqta Paediatric  Vaccine  0.5 ml pre-filled syringe
+HUSO130252NEMIS	Human Normal Immunoglobulin  Solution for injection  4 gram/25 ml vial
+OCSO51896NEMIS	Octagam  Solution for infusion  10 %, 2 grams/20 ml vial
+D-SO36223NEMIS	D-Gam Anti-D Immunoglobulin  Solution for injection  1,500 unit vial
+AVVA5297NEMIS	Sanofi Pasteur Inactivated Influenza Split Virion  Vaccine  0.5 ml pre-filled syringe
+ERVA8963EMIS	Ervevax  Vaccine  
+HUSO76702NEMIS	Human Normal Immunoglobulin  Solution for infusion  5 %, 1 gram/20 ml vial
+VIIN6476NEMIS	Vigam Liquid  Solution for infusion  5 grams/100 ml vial
+FLNA52410NEMIS	Fluenz  Vaccine Nasal Suspension  0.2 ml unit dose
+HBIN22996NEMIS	Hbvaxpro  Injection  5 micrograms/0.5 ml pre-filled syringe
+PRSU40435NEMIS	Prevenar 13 Vaccine  Suspension For Injection  0.5 ml pre-filled syringe
+TYVA20484EMIS	Typhim Vi  Vaccine  25 micrograms/0.5 ml pre-filled syringe
+HUIN35402MGEMIS	Human Normal Immunoglobulin  Injection  3 grams/vial (Scottish NBT Service)
+GASO43103NEMIS	Gammaplex  Solution for infusion  10 grams/200 ml vial
+JASO31112NEMIS	Japanese Encephalitis Vaccine  Solution for injection  1 ml vial
+HAPO45685NEMIS	Haemophilus Type b And Meningococcal C Conjugate Vaccine  Powder and solvent for solution for injection  0.5 ml vial
+TISU28895NEMIS	Ticovac  Suspension For Injection  0.5 ml pre-filled syringe
+OCIN35471EMIS	Octagam  Injection  5 %, 10 grams/200 ml
+GASU23370NEMIS	Gardasil  Suspension For Injection  0.5 ml pre-filled syringe
+ARSO78965NEMIS	Aragam  Solution for infusion  2.5 grams/50 ml vial
+ANIN16692NEMIS	Anti-D (Rh0) Immunoglobulin  Injection  5000 units/vial
+ANIN8796EGTON	Anthrax Vaccine  Injection  0.5 ml ampoule
+BEVA86706NEMIS	Bexsero  Vaccine, Suspension For Injection  0.5 ml pre-filled syringe
+TYIN34020EMIS	Typherix  Injection  25 micrograms/0.5 ml pre-filled syringe
+HUIN30905EMIS	Human Normal Immunoglobulin  Injection  3 grams/vial
+FLSO138204NEMIS	Flublok Quadrivalent Vaccine (Recombinant)  Solution for injection  0.5 ml pre-filled syringe
+MEIN9433BRIDL	Mengivac (A+C)  Injection  
+FLSO49998NEMIS	Flebogamma Dif  Solution for infusion  20 grams/200 ml vial
+DISO132678NEMIS	Diluted Sauton Ajv  Solvent For Suspension for Injection  1 ml vial
+HUSO51894NEMIS	Human Normal Immunoglobulin  Solution for infusion  20 grams/200 ml bottle
+BEVA86706NEMIS	Bexsero  Vaccine, Suspension For Injection  0.5 ml pre-filled syringe
+HUPO36244NEMIS	Human Normal Immunoglobulin  Powder and solvent for solution for injection  500 mg bottle
+BISU131590NEMIS	Biothrax  Suspension For Injection  5 ml multidose vial
+VIIN6478NEMIS	Vigam Liquid  Solution for infusion  10 grams/200 ml vial
+HUIN24715EMIS	Human Normal Immunoglobulin  Solution for infusion  5 %, 5 grams/100 ml vial
+HUSO52102NEMIS	Human Normal Immunoglobulin  Solution for infusion  5 %, 2.5 grams/50 ml bottle
+SUSO130255NEMIS	Subgam  Solution for injection  4 gram/25 ml vial
+BOSU90829NEMIS	Boostrix-Ipv  Suspension For Injection  0.5 ml pre-filled syringe
+MEIN29843NEMIS	Meningitec  Injection  0.5 ml pre-filled syringe
+HUSO21329NEMIS	Human Normal Immunoglobulin  Solution for infusion  120 mg/ml, 12 gram/100 ml bottle
+VAPO19997NEMIS	Varicella-Zoster  Powder and solvent for suspension for injection  0.5 ml vial
+BCPO132676NEMIS	Bcg Vaccine Ajv  Powder For Suspension For Injection  1 ml vial
+ENIN1070	Engerix B  Suspension For Injection  20 micrograms/1 ml vial
+HUSO34985NEMIS	Human Normal Immunoglobulin  Solution for infusion  10 grams/100 ml vial
+VAVA117249NEMIS	Vaqta Adult  Vaccine, Suspension For Injection  1 ml vial
+TIIN22675NEMIS	Tick-Borne Encephalitis Virus  Injection  0.25 ml pre-filled syringe
+ROOR46702NEMIS	Rotarix Vaccine Live  Oral suspension  1.5 ml pre-filled oral syringe
+CUSO140384NEMIS	NULL
+HEVA127470NEMIS	Hepatitis A (inactivated) + Hepatitis B (rDNA)  Vaccine (adsorbed), Injection  0.5 ml pre-filled syringe
+FLVA137918NEMIS	Fluad Tetra  Vaccine, Suspension For Injection  0.5 ml pre-filled syringes
+GAIN18401EMIS	Gammabulin  Injection  16 %, 10 ml/vial
+D-SO36221NEMIS	D-Gam Anti-D Immunoglobulin  Solution for injection  500 unit vial
+HUSO114492NEMIS	Human Normal Immunoglobulin  Solution for injection  1 gram/6 ml vial
+RAPO122256NEMIS	Rabies Vaccine  Powder and solvent for solution for injection  1 ml syringe
+FEPR21095NEMIS	Fendrix  Pre-Filled Syringe  20 micrograms/0.5 ml
+HUSO130324NEMIS	Human Normal Immunoglobulin  Solution for infusion  2.5 grams/25 ml bottle
+PRSU51924NEMIS	Preflucel  Suspension For Injection  0.5 ml pre-filled syringe
+ININ3816NEMIS	Infanrix-Hib  Injection  
+HUSO127069NEMIS	Human Normal Immunoglobulin  Solution for injection in pre-filled syringe  1 gram/5 ml
+INVA36706NEMIS	Influenza (Split Virion, Inactivated)  Vaccine  15 microgram strain, 0.1 ml pre-filled syringe
+PRSU40435NEMIS	Prevenar 13 Vaccine  Suspension For Injection  0.5 ml pre-filled syringe
+HYSO101083NEMIS	Hyqvia  Solution for infusion  2.5 grams/25 ml and 1.25 ml vials
+FLSO49999NEMIS	Flebogamma Dif  Solution for infusion  5 grams/50 ml vial
+VEPO31109NEMIS	Verorab Vaccine  Powder and solvent for injection  0.5 ml vial
+HYSO101084NEMIS	Hyqvia  Solution for infusion  20 grams/200 ml and 10 ml vials
+CUSO124298NEMIS	Cuvitru  Solution for injection  4 grams/20 ml vial
+VAPO13759NEMIS	Varicella-Zoster  Powder and solvent for solution for injection  0.5 ml vial
+TUIN21670NEMIS	Tuberculin Ppd  Injection  2 units/0.1 ml, 1.5 ml vial
+VIIN28254EMIS	Vigam-S  Intravenous infusion  5 grams/bottle
+HUSO114267NEMIS	Human Normal Immunoglobulin  Solution for injection  2 grams/12 ml vial
+INVA40485NEMIS	Influenza (Split Virion, Inactivated)  Vaccine  9 microgram strain, 0.1 ml pre-filled syringe
+HEPR22994NEMIS	Hepatitis B Surface Antigen  Pre-Filled Syringe  5 micrograms/0.5 ml
+ROOR46701NEMIS	Rotavirus Vaccine Live  Oral suspension  1.5 ml pre-filled oral syringe
+INNA52407NEMIS	Influenza Vaccine (Live Attenuated)  Nasal Suspension  0.2 ml unit dose
+FSIN28801EMIS	Fsme-Immun  Injection  0.5 ml pre-filled syringe
+ENPR14265NEMIS	Engerix B  Pre-Filled Syringe  10 micrograms/0.5 ml
+M-IN30563NEMIS	M-M-R Vaxpro  Injection  0.5 ml pre-filled syringe
+HUSO46542NEMIS	Human Normal Immunoglobulin  Solution for injection  1.65 grams/10 ml vial
+INNA52407NEMIS	Influenza Vaccine (Live Attenuated)  Nasal Suspension  0.2 ml unit dose
+RUVA8997EMIS	Rubella Vaccine, Live  Vaccine  0.5 ml vial
+VAPO13763NEMIS	Varilrix  Powder and solvent for solution for injection  0.5 ml vial
+ININ18889NEMIS	Invivac  Injection  0.5 ml pre-filled syringe
+HBIN22997NEMIS	Hbvaxpro  Suspension For Injection  10 micrograms/1 ml pre-filled syringe
+HUIN24713EMIS	Human Normal Immunoglobulin  Solution for infusion  5 %, 10 grams/200 ml vial
+ANSO36222NEMIS	Anti-D (Rh0) Immunoglobulin  Solution for injection  1,500 unit vial
+HUIN34982NEMIS	Human Normal Immunoglobulin  Injection  160 mg/ml, 20 ml vial
+KISO42343NEMIS	Kiovig  Solution for infusion  2.5 gram/25 ml vial
+TYVA20486EMIS	Typhoid Vaccine, Vi Capsular Polysaccharide  Vaccine  25 micrograms/0.5 ml pre-filled syringe
+SEVA133336NEMIS	Seqirus Adjuvanted Trivalent Influenza  Vaccine, Suspension For Injection  0.5 ml pre-filled syringe
+SYVA40746NEMIS	Synflorix  Vaccine, Suspension For Injection  0.5 ml pre-filled syringe
+HUSO52104NEMIS	Human Normal Immunoglobulin  Solution for infusion  5 %, 10 grams/200 ml bottle
+SAIN10471HILLI	Sandoglobulin  Injection  3 g/vial
+HISO51609NEMIS	Hizentra  Solution for infusion  2 grams/10 ml vial
+GASU117381NEMIS	Gardasil 9  Suspension For Injection  0.5 ml pre-filled syringe
+SAVA131918NEMIS	Sanofi Pasteur Trivalent (Split Virion, Inactivated)  Vaccine, Suspension For Injection  High Dose, 0.5 ml pre-filled syringe
+HUSO37329NEMIS	Human Normal Immunoglobulin  Solution for infusion  2.5 grams/25 ml vial
+MEVA42105NEMIS	Menveo  Vaccine, Powder And Solvent For Solution For Injection  
+GASU23370NEMIS	Gardasil  Suspension For Injection  0.5 ml pre-filled syringe
+COSU138943NEMIS	Covid-19 Vaccine Novavax (adjuvanted)  Suspension For Injection  5 micrograms/0.5 ml dose, multidose vial
+D-SO36225NEMIS	D-Gam Anti-D Immunoglobulin  Solution for injection  2,500 unit vial
+AMSU28889NEMIS	Ambirix  Suspension For Injection  1 ml pre-filled syringe
+TRVA124024NEMIS	Trumenba  Vaccine, Suspension For Injection  0.5 ml pre-filled syringe
+INSU23004NEMIS	Inactivated Influenza Vaccine, Surface Antigen, Virosome  Suspension For Injection  0.5 ml pre-filled syringe
+INSO102577NEMIS	Intratect  Solution for infusion  1 gram/10 ml vial
+INSO102580NEMIS	Intratect  Solution for infusion  20 grams/200 ml vial
+HUSO124294NEMIS	Human Normal Immunoglobulin  Solution for infusion  8 grams/40 ml vial
+BOSU90829NEMIS	Boostrix-Ipv  Suspension For Injection  0.5 ml pre-filled syringe
+MASU15057NEMIS	Mastaflu  Suspension For Injection  0.5 ml pre-filled syringe
+HUSO114269NEMIS	Human Normal Immunoglobulin  Solution for injection  8 grams/48 ml vial
+HBIN12599NEMIS	Hbvaxpro  Injection  40 micrograms/ml, 1 ml vial
+MEVA1617NEMIS	Meningitec  Vaccine  
+HEPR21093NEMIS	Hepatitis B Surface Antigen  Pre-Filled Syringe  20 micrograms/0.5 ml
+NIVA74083NEMIS	Nimenrix  Vaccine, Powder And Solvent For Solution For Injection  0.5 ml syringe
+ADIN941NEMIS	Adsorbed diphtheria and tetanus vaccine for adolescents and adults  Injection  0.5 ml pre-filled syringe
+HYSO101085NEMIS	Hyqvia  Solution for infusion  30 grams/300 ml and 15 ml vials
+SHPO139740NEMIS	NULL
+GASO52456NEMIS	Gamunex  Solution for infusion  10 %, 1 gram/10 ml vial
+FLIN9810BRIDL	Fluvirin  Injection  0.5 ml pre-filled syringe
+OCSO52101NEMIS	Octagam  Solution for infusion  5 %, 10 grams/200 ml bottle
+HEIN659NEMIS	Hepatyrix  Vaccine, Suspension For Injection  1 ml pre-filled syringe
+OCSO51900NEMIS	Octagam  Solution for infusion  10 %, 20 grams/200 ml bottle
+HUIN16686NEMIS	Human Normal Immunoglobulin  Injection  160 mg/ml, 10 ml vial
+ARSO78968NEMIS	Aragam  Solution for infusion  20 grams/400 ml vial
+DIVA25336EMIS	Diftavax  Vaccine  0.5 ml pre-filled syringe
+FLSO39335NEMIS	Flebogamma Dif  Solution for infusion  500 mg/10 ml vial
+ANSO36224NEMIS	Anti-D (Rh0) Immunoglobulin  Solution for injection  2,500 unit vial
+PRSO37330NEMIS	Privigen  Solution for infusion  2.5 grams/25 ml vial
+SASO21331NEMIS	Sandoglobulin Nf Liquid  Solution for infusion  120 mg/ml, 6 gram/50 ml bottle
+PNIN9413BRIDL	Pneumovax 11  Injection  25 micrograms/0.5 ml vial
+SUSO139537NEMIS	NULL
+ININ19046NEMIS	Infanrix-Ipv  Vaccine, Suspension For Injection  0.5 ml pre-filled syringe
+ZOPO52946NEMIS	Zostavax  Powder and solvent for injection  0.65 ml pre-filled syringe
+ENPR27292EMIS	Engerix B  Prefilled syringe  20 micrograms/1 ml
+M-IN8510EGTON	M-M-R II  Injection  0.5 ml vial
+PNVA30368EMIS	Pnu-Imune  Vaccine  0.5 ml vial
+HUSO114268NEMIS	Human Normal Immunoglobulin  Solution for injection  4 grams/24 ml vial
+OCSO34954NEMIS	Octagam  Solution for infusion  10 %, 10 grams/100 ml bottle
+FLVA127091NEMIS	Fluad  Vaccine, Suspension For Injection  0.5 ml pre-filled syringe
+HUSO34986NEMIS	Human Normal Immunoglobulin  Solution for infusion  20 grams/200 ml vial
+HISO51610NEMIS	Hizentra  Solution for infusion  4 grams/20 ml vial
+HUSO127070NEMIS	Human Normal Immunoglobulin  Solution for injection in pre-filled syringe  2 gram/10 ml
+FLVA82448NEMIS	Fluarix Tetra  Vaccine  0.5 ml pre-filled syringe
+SHPO52942NEMIS	Shingles (Herpes Zoster) Vaccine Live  Powder and solvent for injection  0.65 ml pre-filled syringe
+COSU138776NEMIS	Covid-19 Vaccine Valneva (inactivated adjuvanted whole virus)  Suspension For Injection  40 antigen units/0.5 ml dose, multidose vial
+HUSU28316NEMIS	Human Papillomavirus Vaccine Adsorbed  Suspension For Injection  (type 6, 11, 16, 18) 0.5 ml pre-filled syringe
+INVA40484NEMIS	Intanza  Vaccine  9 microgram strain, 0.1 ml pre-filled syringe
+HUPO36246NEMIS	Human Normal Immunoglobulin  Powder and solvent for solution for injection  5 gram bottle
+FLVA82448NEMIS	Fluarix Tetra  Vaccine  0.5 ml pre-filled syringe
+BEVA30364EMIS	Begrivac  Vaccine  
+TISU28893NEMIS	Ticovac Junior  Suspension For Injection  0.25 ml pre-filled syringe
+HEPR27298EMIS	Hepatitis B Surface Antigen  Prefilled syringe  20 micrograms/1 ml
+ENPR14265NEMIS	Engerix B  Pre-Filled Syringe  10 micrograms/0.5 ml
+GASO52325NEMIS	Gamunex  Solution for infusion  10 %, 20 grams/200 ml vial
+GAPO36247NEMIS	Gammagard S/D  Powder and solvent for solution for injection  5 gram bottle
+CUSO140385NEMIS	NULL
+JASO31113NEMIS	Japanese Encephalitis Vaccine  Solution for injection  20 ml vial
+SUIN16689NEMIS	Subcuvia  Injection  160 mg/ml, 10 ml vial
+KISO42342NEMIS	Kiovig  Solution for infusion  1 gram/10 ml vial
+VASU139173NEMIS	NULL
+QUVA124210NEMIS	Sanofi Pasteur Quadrivalent (Split Virion, Inactivated)  Vaccine, Suspension For Injection  0.5 ml pre-filled syringe
+HEIN32717EMIS	Hepatitis B Surface Antigen  Injection  40 micrograms/1 ml vial
+HEIN15465NEMIS	Hepatitis B Surface Antigen  Suspension For Injection  20 micrograms/ml, 1 ml vial
+ROPO22570NEMIS	Rotavirus Vaccine Live  Powder And Solvent For Oral Suspension  1 ml dose
+TWVA51572NEMIS	Twinrix Adult  Vaccine  1 ml vial
+GAPO36245NEMIS	Gammagard S/D  Powder and solvent for solution for injection  500 mg bottle
+FLVA24698EMIS	Fluarix  Vaccine  0.5 ml pre-filled syringe
+HEPR27298EMIS	Hepatitis B Surface Antigen  Prefilled syringe  20 micrograms/1 ml
+MEVA1617NEMIS	Meningitec  Vaccine  
+PAEM38111NEMIS	Pandemrix (H1N1) Vaccine  Emulsion For Injection  
+OCSO52099NEMIS	Octagam  Solution for infusion  5 %, 2.5 grams/50 ml bottle
+HAVA106142NEMIS	Havrix Monodose  Vaccine, Suspension For Injection  1 ml vial
+ENSU20871NEMIS	Enzira  Suspension For Injection  0.5 ml pre-filled syringe
+JAVA36271NEMIS	Japanese Encephalitis (Inactivated, Adsorbed)  Vaccine, Suspension For Injection  0.5 ml pre-filled syringe
+OCIN35473EMIS	Octagam  Injection  5 %, 5 grams/100 ml
+ROPO22573NEMIS	Rotarix Vaccine Live  Powder And Solvent For Oral Suspension  1 ml dose
+GASO133499NEMIS	Gammaplex  Solution for infusion  5 grams/50 ml vial
+FLSO39332NEMIS	Flebogamma Dif  Solution for infusion  10 grams/200 ml vial
+ININ1214NEMIS	Infanrix  Injection  
+HAVA24524EMIS	Havrix Monodose  Vaccine, Suspension For Injection  1 ml pre-filled syringe
+TYVA20484EMIS	Typhim Vi  Vaccine  25 micrograms/0.5 ml pre-filled syringe
+ADPR27532EMIS	Adsorbed Tetanus Vaccine Bp  Prefilled syringe  
+HUSO52103NEMIS	Human Normal Immunoglobulin  Solution for infusion  5 %, 5 grams/100 ml bottle
+HUSO51605NEMIS	Human Normal Immunoglobulin  Solution for infusion  2 grams/10 ml vial
+ININ19046NEMIS	Infanrix-Ipv  Vaccine, Suspension For Injection  0.5 ml pre-filled syringe
+CUSO140387NEMIS	NULL
+OCSO34953NEMIS	Octagam  Solution for infusion  10 %, 5 grams/50 ml bottle
+HEPR22995NEMIS	Hepatitis B Surface Antigen  Pre-Filled Syringe  10 micrograms/1 ml
+ENSU20871NEMIS	Enzira  Suspension For Injection  0.5 ml pre-filled syringe
+VAPO18880NEMIS	Varivax  Powder and solvent for suspension for injection  0.5 ml vial
+JASO31111NEMIS	Japanese Encephalitis Vaccine  Solution for injection  10 ml vial
+RAPO5284NEMIS	Rabipur  Powder with solvent for injection  2.5 units/ml, 1 ml vial
+FLIN4180NEMIS	Flebogamma  Solution for infusion  5 %, 10 grams/200 ml vial
+FLVA130397NEMIS	Flucelvax Tetra  Vaccine, Suspension For Injection  0.5 ml pre-filled syringe
+HEIN30872EMIS	Hepatitis B Immunoglobulin Human  Injection  500 unit vial
+TYIN34020EMIS	Typherix  Injection  25 micrograms/0.5 ml pre-filled syringe
+OCIN35472EMIS	Octagam  Injection  5 %, 2.5 grams/50 ml
+PNIN9413BRIDL	Pneumovax 11  Injection  25 micrograms/0.5 ml vial
+CHOR18207NEMIS	Cholera Vaccine  Oral Suspension And Granules  
+HYSO101086NEMIS	Hyqvia  Solution for infusion  5 grams/50 ml and 2.5 ml vials
+FLVA90951NEMIS	Fluenz Tetra  Vaccine Nasal Suspension  0.2 ml unit dose
+ARVA10868BRIDL	Arilvax  Vaccine  1 dose vial + diluent
+MEIN15463NEMIS	Meningococcal Group C Conjugate  Injection  0.5 ml pre-filled syringe
+COCO138186NEMIS	Covid-19 mRna Vaccine Bnt162b2 (Pfizer-BioNtech)  Concentrate For Suspension For Injection  30 micrograms/0.3 ml dose, multidose vial
+HEPR14266NEMIS	Hepatitis B Surface Antigen  Pre-Filled Syringe  10 micrograms/0.5 ml
+ENIN27294EMIS	Engerix B  Injection  10 micrograms/0.5 ml vial
+FLNA52410NEMIS	Fluenz  Vaccine Nasal Suspension  0.2 ml unit dose
+IMSU22976NEMIS	Imuvac  Suspension For Injection  0.5 ml pre-filled syringe
+INVA30366EMIS	Inactivated Influenza (Split Virion)  Vaccine  0.5 ml pre-filled syringe
+HUPO36239NEMIS	Human Normal Immunoglobulin  Powder and solvent for solution for injection  10 gram bottle
+RAPO28948NEMIS	Rabies Vaccine  Powder and solvent for suspension for injection  1 ml vial
+ANSU131586NEMIS	Anthrax Vaccine  Suspension For Injection  5 ml multidose vial
+MEVA42105NEMIS	Menveo  Vaccine, Powder And Solvent For Solution For Injection  
+FLVA90951NEMIS	Fluenz Tetra  Vaccine Nasal Suspension  0.2 ml unit dose
+MEIN15464NEMIS	Meningococcal Group C Conjugate  Injection  0.5 ml vial
+HUIN117371NEMIS	Human Papillomavirus Vaccine Adsorbed  Injection  (type 6,11,16,18,31,33,45,52,58) 0.5 ml syringe
+SHPO139737NEMIS	NULL
+TUIN21796NEMIS	Tuberculin Ppd  Injection  10 units/0.1 ml, 1.5 ml vial
+HEIN659NEMIS	Hepatyrix  Vaccine, Suspension For Injection  1 ml pre-filled syringe
+PRSO34991NEMIS	Privigen  Solution for infusion  5 grams/50 ml vial
+VIIN28253EMIS	Vigam-S  Intravenous infusion  2.5 grams/bottle
+YEIN10038HILLI	Yellow Fever Vaccine,Live  Powder and solvent for injection  1 dose, 0.5 ml vial
+BAIN8798EGTON	Bacillus Calmette-Guerin Vaccine  Injection  
+HEIN11811NEMIS	Hepatitis B Surface Antigen  Injection  10 micrograms/ml, 1 ml vial
+GASO133500NEMIS	Gammaplex  Solution for infusion  10 grams/100 ml vial
+INVA127171NEMIS	Influvac Sub-Unit Tetra  Vaccine, Suspension For Injection  0.5 ml pre-filled syringe
+INVA36706NEMIS	Influenza (Split Virion, Inactivated)  Vaccine  15 microgram strain, 0.1 ml pre-filled syringe
+HUSO21328NEMIS	Human Normal Immunoglobulin  Solution for infusion  120 mg/ml, 6 gram/50 ml bottle
+STIN12597NEMIS	Stamaril  Injection  
+INVA36708NEMIS	Intanza  Vaccine  15 microgram strain, 0.1 ml pre-filled syringe
+OCIN35472EMIS	Octagam  Injection  5 %, 2.5 grams/50 ml
+VIIN6475NEMIS	Vigam Liquid  Solution for infusion  2.5 grams/50 ml vial
+HUIN4175NEMIS	Human Normal Immunoglobulin  Solution for infusion  5 %, 500 mg/10 ml vial
+PNPR5193NEMIS	Pneumovax 11  Pre-Filled Syringe  0.5 ml
+HAVA28898EMIS	Havrix Junior Monodose  Vaccine, Suspension For Injection  0.5 ml pre-filled syringe
+CESU38013NEMIS	Celvapan (H1N1) Vaccine  Suspension For Injection  
+ININ1468	Influvac Sub-Unit  Injection  0.5 ml pre-filled syringe
+SUSO130253NEMIS	Subgam  Solution for injection  1 gram/6.25 ml vial
+RAPO122257NEMIS	Rabipur  Powder with solvent for injection  1 ml pre-filled syringe
+VIIN30576NEMIS	Vivaglobin  Injection  160 mg/ml, 3 ml vial
+PASO130328NEMIS	Panzyga  Solution for infusion  5 grams/50 ml bottle
+REIN18759NEMIS	Repevax  Injection  0.5 ml pre-filled syringe
+PRSO34990NEMIS	Privigen  Solution for infusion  20 grams/200 ml vial
+ROOR124007NEMIS	Rotarix Vaccine Live  Oral suspension  1.5 ml tube
+ROOR46702NEMIS	Rotarix Vaccine Live  Oral suspension  1.5 ml pre-filled oral syringe
+VISU23002NEMIS	Viroflu  Suspension For Injection  0.5 ml pre-filled syringe
+FLSO39333NEMIS	Flebogamma Dif  Solution for infusion  2.5 grams/50 ml vial
+CUSO124299NEMIS	Cuvitru  Solution for injection  8 grams/40 ml vial
+INSO102579NEMIS	Intratect  Solution for infusion  2.5 grams/50 ml vial
+TEIN24194EMIS	Tetabulin  Injection  250 iu/ml pre-filled syringe
+PFVA95151NEMIS	Pfizer Inactivated Influenza Split Virion  Vaccine  0.5 ml pre-filled syringe
+DUOR18205NEMIS	Dukoral Cholera Vaccine  Oral Suspension And Granules  
+IXVA36273NEMIS	Ixiaro  Vaccine, Suspension For Injection  0.5 ml pre-filled syringe
+FLSO49997NEMIS	Flebogamma Dif  Solution for infusion  10 grams/100 ml vial
+HISO51608NEMIS	Hizentra  Solution for infusion  1 gram/5 ml vial
+RASO24729NEMIS	Rabies Human Immunoglobulin  Solution for injection  500 unit vial
+GASO52324NEMIS	Gamunex  Solution for infusion  10 %, 10 grams/100 ml vial
+MEIN9433BRIDL	Mengivac (A+C)  Injection  
+PRIN6637NEMIS	Prevenar  Injection  0.5 ml vial
+FLIN4177NEMIS	Flebogamma  Solution for infusion  5 %, 500 mg/10 ml vial
+SUIN18468NEMIS	Subgam  Solution for injection  1.5 grams/9.375 ml vial
+HESU51870NEMIS	Hepatitis A Vaccine Inactivated, Adsorbed  Suspension For Injection  1 ml pre-filled syringe
+PRIN34077EMIS	Priorix  Powder and solvent for solution for injection  0.5 ml vial
+SUIN18467NEMIS	Subgam  Solution for injection  750 mg/4.6875 ml vial
+MEPO127475NEMIS	Meningococcal Polysaccharide A, C, W135 and Y Vaccine  Powder and solvent for solution for injection  0.5 ml syringe
+CESU27108NEMIS	Cervarix  Suspension For Injection  0.5 ml pre-filled syringe
+HAVA24524EMIS	Havrix Monodose  Vaccine, Suspension For Injection  1 ml pre-filled syringe
+CUSO124297NEMIS	Cuvitru  Solution for injection  2 grams/10 ml vial
+INSO102575NEMIS	Intratect  Solution for infusion  10 grams/100 ml vial
+SESU140418NEMIS	NULL
+RAPO5284NEMIS	Rabipur  Powder with solvent for injection  2.5 units/ml, 1 ml vial
+INSO102576NEMIS	Intratect  Solution for infusion  10 grams/200 ml vial
+MEIN10936NEMIS	Menjugate  Injection  

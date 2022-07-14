@@ -1,0 +1,6 @@
+ft91.	BYETTA 5micrograms/0.02mL injection prefilled pen
+ft92.	BYETTA 10micrograms/0.04mL injection prefilled pen
+ft93.	BYDUREON 2mg powder and solvent for suspension for injection
+ft9x.	EXENATIDE 2mg powder+solvent for suspension for injection
+ft9y.	EXENATIDE 10micrograms/0.04mL injection prefilled pen
+ft9z.	EXENATIDE 5micrograms/0.02mL injection prefilled pen
