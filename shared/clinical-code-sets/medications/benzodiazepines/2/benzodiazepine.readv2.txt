@@ -1,0 +1,252 @@
+d2e..00	*PRAZEPAM
+d2ez.00	*PRAZEPAM 10mg tablets
+d2e1.00	*CENTRAX 10mg tablets
+d2d..00	OXAZEPAM
+d2d4.00	OXAZEPAM 30mg tablets
+d2d3.00	OXAZEPAM 15mg tablets
+d2d2.00	OXAZEPAM 10mg tablets
+d2d1.00	*OXAZEPAM 30mg capsules
+d2d7.00	*OXANID 30mg tablets
+d2d6.00	*OXANID 15mg tablets
+d2d5.00	*OXANID 10mg tablets
+d2b..00	*MEDAZEPAM
+d2bz.00	*MEDAZEPAM 10mg capsules
+d2by.00	*MEDAZEPAM 5mg capsules
+d2b2.00	*NOBRIUM 10mg capsules
+d2b1.00	*NOBRIUM 5mg capsules
+d2a..00	LORAZEPAM [ANXIOLYTIC]
+d2az.00	LORAZEPAM 4mg/1mL injection
+d2a2.00	LORAZEPAM 2.5mg tablets
+d2a1.00	LORAZEPAM 1mg tablets
+d2ax.00	*ATIVAN 4mg/mL injection
+d2a7.00	ATIVAN 4mg/1mL injection
+d2a6.00	*ATIVAN 2.5mg tablets
+d2a5.00	*ATIVAN 1mg tablets
+d2a4.00	*ALMAZINE 2.5mg tablets
+d2a3.00	*ALMAZINE 1mg tablets
+d29..00	*KETAZOLAM
+d29z.00	*KETAZOLAM 30mg capsules
+d29y.00	*KETAZOLAM 15mg capsules
+d292.00	*ANXON 30mg capsules
+d291.00	*ANXON 15mg capsules
+d21..00	DIAZEPAM [ANXIOLYTIC]
+d21z.00	*DIAZEPAM 10mg suppositories
+d21J.00	DIAZEPAM 10mg/5mL suspension
+d21A.00	DIAZEPAM 5mg/5mL oral solution
+d216.00	DIAZEPAM 2mg/5mL elixir
+d215.00	DIAZEPAM 10mg tablets
+d214.00	DIAZEPAM 5mg tablets
+d213.00	DIAZEPAM 2mg tablets
+d212.00	*DIAZEPAM 5mg capsules
+d211.00	*DIAZEPAM 2mg capsules
+d21y.00	*VALIUM 10mg suppositories
+d21x.00	*VALIUM 5mg suppositories
+d21w.00	*VALIUM DUP DEL injection
+d21v.00	VALIUM [ANXIOL] 10mg/2mL injection
+d21u.00	*VALIUM 2mg/5mL syrup
+d21t.00	*VALIUM 10mg tablets
+d21s.00	*VALIUM 5mg tablets
+d21r.00	*VALIUM 2mg tablets
+d21q.00	*VALIUM 5mg capsules
+d21p.00	*VALIUM 2mg capsules
+d21o.00	TENSIUM 10mg tablets
+d21n.00	TENSIUM 5mg tablets
+d21m.00	TENSIUM 2mg tablets
+d21l.00	STESOLID 10mg rectal solution
+d21k.00	STESOLID 5mg rectal solution
+d21j.00	*STESOLID 20mg/4mL injection
+d21i.00	*STESOLID 10mg/2mL injection
+d21h.00	*SOLIS 5mg capsules
+d21g.00	*SOLIS 2mg capsules
+d21f.00	*EVACALM 5mg tablets
+d21e.00	*EVACALM 2mg tablets
+d21d.00	DIAZEMULS 10mg/2mL ampoules
+d21c.00	*ATENSINE 10mg tablets
+d21b.00	*ATENSINE 5mg tablets
+d21a.00	*ATENSINE 2mg tablets
+d21G.00	*VALCLAIR 10mg suppositories
+d21F.00	DIALAR 5mg/5mL syrup
+d21E.00	DIALAR 2mg/5mL syrup
+d21D.00	*RIMAPAM 10mg tablets
+d21C.00	*RIMAPAM 5mg tablets
+d21B.00	*RIMAPAM 2mg tablets
+d219.00	*ALUPRAM 10mg tablets
+d218.00	*ALUPRAM 5mg tablets
+d217.00	*ALUPRAM 2mg tablets
+d27..00	CLORAZEPATE DIPOTASSIUM
+d27z.00	CLORAZEPATE DIPOTASSIUM 15mg capsules
+d27y.00	CLORAZEPATE DIPOTASSIUM 7.5mg capsules
+d272.00	*TRANXENE 15mg capsules
+d271.00	*TRANXENE 7.5mg capsules
+d26..00	CLOBAZAM
+d268.00	CLOBAZAM 10mg/5mL oral suspension
+d266.00	CLOBAZAM 5mg/5mL oral suspension
+d263.00	CLOBAZAM 10mg tablets
+d261.00	*CLOBAZAM 10mg capsules
+d26A.00	PERIZAM 2mg/mL oral suspension
+d269.00	PERIZAM 1mg/mL oral suspension
+d267.00	TAPCLOB 10mg/5mL oral suspension
+d265.00	TAPCLOB 5mg/5mL oral suspension
+d264.00	FRISIUM 10mg tablets
+d262.00	*FRISIUM 10mg capsules
+d24..00	CHLORDIAZEPOXIDE
+d248.00	*CHLORDIAZEPOXIDE 25mg tablets
+d247.00	*CHLORDIAZEPOXIDE 10mg tablets
+d246.00	*CHLORDIAZEPOXIDE 5mg tablets
+d245.00	CHLORDIAZEPOXIDE HYDROCHLORIDE 25mg tablets
+d244.00	CHLORDIAZEPOXIDE HYDROCHLORIDE 10mg tablets
+d243.00	CHLORDIAZEPOXIDE HYDROCHLORIDE 5mg tablets
+d242.00	CHLORDIAZEPOXIDE 10mg capsules
+d242.11	CHLORDIAZEPOXIDE HYDROCHLORIDE 10mg capsules
+d241.00	CHLORDIAZEPOXIDE 5mg capsules
+d241.11	CHLORDIAZEPOXIDE HYDROCHLORIDE 5mg capsules
+d24j.00	*TROPIUM 25mg tablets
+d24i.00	TROPIUM 10mg tablets
+d24h.00	TROPIUM 5mg tablets
+d24g.00	*TROPIUM 10mg capsules
+d24f.00	TROPIUM 5mg capsules
+d24e.00	*LIBRIUM 100mg injection
+d24d.00	*LIBRIUM 25mg tablets
+d24c.00	*LIBRIUM 10mg tablets
+d24b.00	*LIBRIUM 5mg tablets
+d24a.00	LIBRIUM 10mg capsules
+d249.00	LIBRIUM 5mg capsules
+d23..00	BROMAZEPAM
+d23z.00	*BROMAZEPAM 3mg tablets
+d23y.00	*BROMAZEPAM 1.5mg tablets
+d232.00	*LEXOTAN 3mg tablets
+d231.00	*LEXOTAN 1.5mg tablets
+d22..00	ALPRAZOLAM
+d22z.00	ALPRAZOLAM 500microgram tablets
+d22y.00	ALPRAZOLAM 250microgram tablets
+d222.00	XANAX 500micrograms tablets
+d221.00	XANAX 250micrograms tablets
+d1b..00	*TRIAZOLAM
+d1b2.00	TRIAZOLAM 250microgram tablets
+d1b1.00	TRIAZOLAM 125microgram tablets
+d1b4.00	*HALCION 250microgram tablets
+d1b3.00	*HALCION 125microgram tablets
+d1a..00	TEMAZEPAM [HYPNOTIC]
+d1ao.00	TEMAZEPAM 10mg/5mL sugar free oral solution
+d1ak.00	TEMAZEPAM 20mg/sachet oral solution
+d1aj.00	TEMAZEPAM 10mg/sachet oral solution
+d1ai.00	TEMAZEPAM GEL FILLED 30mg capsules
+d1ah.00	TEMAZEPAM GEL FILLED 15mg capsules
+d1ag.00	TEMAZEPAM GEL FILLED 20mg capsules
+d1af.00	TEMAZEPAM GEL FILLED 10mg capsules
+d1ae.00	TEMAZEPAM GELTHIX 30mg capsules
+d1ad.00	TEMAZEPAM GELTHIX 15mg capsules
+d1ac.00	TEMAZEPAM GELTHIX 20mg capsules
+d1ab.00	TEMAZEPAM GELTHIX 10mg capsules
+d1aa.00	TEMAZEPAM 20mg tablets
+d1a9.00	TEMAZEPAM 10mg tablets
+d1a8.00	*TEMAZEPAM PLANPAK capsules
+d1a5.00	*TEMAZEPAM 10mg/5mL elixir
+d1a4.00	*TEMAZEPAM 30mg capsules
+d1a3.00	*TEMAZEPAM 20mg capsules
+d1a2.00	*TEMAZEPAM 15mg capsules
+d1a1.00	*TEMAZEPAM 10mg capsules
+d1an.00	EUHYPNOS 10mg/5mL oral solution
+d1am.00	EUHYPNOS 20mg/sachet oral solution
+d1al.00	EUHYPNOS 10mg/sachet oral solution
+d1a7.00	*NORMISON 20mg capsules
+d1a6.00	*NORMISON 10mg capsules
+d18..00	NITRAZEPAM
+d18f.00	NITRAZEPAM 5mg/5mL suspension
+d184.00	NITRAZEPAM 2.5mg/5mL mixture
+d183.00	*NITRAZEPAM 10mg tablets
+d182.00	NITRAZEPAM 5mg tablets
+d181.00	*NITRAZEPAM 5mg capsules
+d18e.00	*UNISOMNIA 5mg tablets
+d18d.00	*SUREM 5mg capsules
+d18c.00	*SOMNITE 2.5mg/5mL mixture
+d18b.00	*SOMNITE 5mg tablets
+d18a.00	*REMNOS 10mg tablets
+d189.00	REMNOS 5mg tablets
+d188.00	*NOCTESED 5mg tablets
+d187.00	*NITRADOS 5mg tablets
+d186.00	MOGADON 5mg tablets
+d185.00	*MOGADON 5mg capsules
+d17..00	LORMETAZEPAM
+d172.00	LORMETAZEPAM 1mg tablets
+d171.00	LORMETAZEPAM 500micrograms tablets
+d174.00	*NOCTAMID 1mg tablets
+d173.00	NOCTAMID 500micrograms tablets
+d16..00	LOPRAZOLAM
+d161.00	LOPRAZOLAM 1mg tablets
+d162.00	*DORMONOCT 1mg tablets
+d15..00	FLURAZEPAM
+d15z.00	FLURAZEPAM 30mg capsules
+d15y.00	FLURAZEPAM 15mg capsules
+d154.00	*PAXANE 30mg capsules
+d153.00	*PAXANE 15mg capsules
+d152.00	DALMANE 30mg capsules
+d151.00	DALMANE 15mg capsules
+d14..00	*FLUNITRAZEPAM
+d14z.00	*FLUNITRAZEPAM 1mg tablets
+d141.00	*ROHYPNOL 1mg tablets
+do4..00	LORAZEPAM [EPILEPSY]
+do41.00	ATIVAN [EP] 4mg/mL injection
+do1..00	DIAZEPAM [EPILEPSY USE]
+do1z.00	*DIAZEPAM 20mg/4mL injection
+do1y.00	DIAZEPAM 10mg/2.5mL rectal solution
+do1x.00	DIAZEPAM 5mg/2.5mL rectal solution
+do1w.00	DIAZEPAM 10mg/2mL injection
+do1v.00	DIAZEPAM 10mg/2mL emulsion injection
+do1u.00	DIAZEPAM 20mg/5mL rectal solution
+do1t.00	DIAZEPAM 2.5mg/1.25mL rectal solution
+do1B.11	RECTUBES 20mg/5mL rectal solution
+do1B.00	*DIAZEPAM 20mg/5mL RecTubes
+do1A.11	RECTUBES 2.5mg/1.25mL rectal solution
+do1A.00	DIAZEPAM 2.5mg/1.25mL RecTubes
+do19.11	RECTUBES 10mg/2.5mL rectal solution
+do19.00	DIAZEPAM 10mg/2.5mL RecTubes
+do18.11	RECTUBES 5mg/2.5mL rectal solution
+do18.00	DIAZEPAM 5mg/2.5mL RecTubes
+do17.00	VALIUM [EP] 20mg/4mL injection
+do16.00	VALIUM [EP] 10mg/2mL injection
+do15.00	STESOLID 10mg/2.5mL rectal solution
+do14.00	STESOLID 5mg/2.5mL rectal solution
+do13.00	*STESOLID 20mg/4mL injection
+do12.00	STESOLID [EP] 10mg/2mL injection
+do11.00	DIAZEMULS [EP] 10mg/2mL injection
+do2..00	CLONAZEPAM [STATUS EPILEPSY]
+do2z.00	*CLONAZEPAM 1mg/1mL injection
+do21.00	*RIVOTRIL 1mg/1mL injection
+o5a..00	TEMAZEPAM [ANAESTHESIA]
+o57..00	MIDAZOLAM
+o57z.00	MIDAZOLAM 10mg/2mL injection
+o57y.00	MIDAZOLAM 10mg/5mL injection
+o57w.00	MIDAZOLAM 50mg/50mL injection
+o57v.00	MIDAZOLAM 100mg/50mL injection
+o57u.00	MIDAZOLAM 2.5mg/0.5mL oromucosal soln prefilled oral syringe
+o57t.00	MIDAZOLAM 7.5mg/1.5mL oromucosal soln prefilled oral syringe
+o57s.00	MIDAZOLAM 5mg/1mL oromucosal soln pre-filled oral syringe
+o57r.00	MIDAZOLAM 10mg/2mL oromucosal soln pre-filled oral syringe
+o576.00	BUCCOLAM 10mg/2mL oromucosal solution prefilled oral syringe
+o575.00	BUCCOLAM 5mg/1mL oromucosal solution pre-filled oral syringe
+o574.00	BUCCOLAM 7.5mg/1.5mL oromucosal soln pre-filled oral syringe
+o573.00	BUCCOLAM 2.5mg/0.5mL oromucosal soln pre-filled oral syringe
+o572.00	HYPNOVEL 10mg/2mL injection
+o571.00	*HYPNOVEL 10mg/5mL injection
+o56..00	LORAZEPAM [ANAESTHESIA]
+o56z.00	LORAZEPAM 4mg/1mL injection
+o561.00	ATIVAN 4mg/mL injection
+o53..00	DIAZEPAM [ANAESTHESIA]
+o535.00	*VALIUM
+o534.00	*VALIUM 10mg/2mL injection
+o533.00	*STESOLID 20mg/4mL injection
+o532.00	*STESOLID 10mg/2mL injection
+o531.00	DIAZEMULS 10mg injection
+44vL.00	Serum lorazepam concentration
+dn4..00	CLONAZEPAM [EPILEPSY CONTROL]
+dn4z.00	CLONAZEPAM 2mg tablets
+dn4y.00	CLONAZEPAM 500microgram tablets
+dn4x.00	CLONAZEPAM 2mg/5mL sugar free oral solution
+dn4w.00	CLONAZEPAM 0.5mg/5mL sugar free oral solution
+dn42.00	*RIVOTRIL 2mg tablets
+dn41.00	*RIVOTRIL 500mcg tablets
+dnc..00	CLOBAZAM [EPILEPSY ONLY]
+dnc1.00	*CLOBAZAM SLS 10mg capsules
+44uf000	Serum midazolam concentration
+j81..00	DIAZEPAM [SKELETAL MUSCLE RELAXANT]
