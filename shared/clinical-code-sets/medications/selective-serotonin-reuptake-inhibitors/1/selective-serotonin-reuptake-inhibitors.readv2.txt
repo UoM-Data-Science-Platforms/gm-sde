@@ -1,0 +1,34 @@
+da5..00	SERTRALINE HYDROCHLORIDE
+da52.00	SERTRALINE 100mg tablets
+da51.00	SERTRALINE 50mg tablets
+da54.00	LUSTRAL 100mg tablets
+da53.00	LUSTRAL 50mg tablets
+da6..00	PAROXETINE HYDROCHLORIDE
+da68.00	SEROXAT 10mg tablets
+da67.00	PAROXETINE 10mg tablets
+da66.00	SEROXAT 10mg/5mL sugar free liquid
+da65.00	PAROXETINE 10mg/5mL sugar free liquid
+da64.00	SEROXAT 30mg tablets x30
+da63.00	PAROXETINE 30mg tablets
+da62.00	SEROXAT 20mg tablets x30
+da61.00	PAROXETINE 20mg tablets
+da3..00	FLUVOXAMINE MALEATE
+da34.00	FLUVOXAMINE MALEATE 100mg tablets
+da32.00	FLUVOXAMINE MALEATE 50mg tablets
+da33.00	FAVERIN 100mg tablets
+da31.00	FAVERIN 50mg tablets
+da4..00	FLUOXETINE HYDROCHLORIDE
+da4E.00	FLUOXETINE 20mg dispersible tablets
+da46.00	FLUOXETINE 60mg capsules
+da43.00	FLUOXETINE 20mg/5mL oral liquid
+da41.00	FLUOXETINE 20mg capsules
+da4D.00	OLENA 20mg dispersible tablets
+da4C.00	PROZEP 20mg/5mL oral solution
+da4B.00	PROZIT 20mg/5mL oral solution
+da4A.00	RANFLUTIN 20mg capsules
+da49.00	OXACTIN 20mg capsules
+da48.00	*FELICIUM 20mg capsules
+da47.00	*PROZAC 60mg capsules
+da45.00	PROZAC 20mg capsules
+da44.00	PROZAC 20mg/5mL oral liquid
+da42.00	*PROZAC 20mg capsules x30

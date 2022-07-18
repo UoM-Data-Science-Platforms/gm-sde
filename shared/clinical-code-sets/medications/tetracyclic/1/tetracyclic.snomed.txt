@@ -1,0 +1,32 @@
+29840005	Amoxapine product
+32823007	Maprotiline product
+96200003	Mianserin product
+108430001	Mirtazapine product
+321841008	Product containing precisely maprotiline hydrochloride 10 milligram/1 each conventional release oral tablet (clinical drug)
+321842001	Product containing precisely maprotiline hydrochloride 25 milligram/1 each conventional release oral tablet
+321843006	Product containing precisely maprotiline hydrochloride 50 milligram/1 each conventional release oral tablet
+321844000	Product containing precisely maprotiline hydrochloride 75 milligram/1 each conventional release oral tablet
+321846003	Product containing precisely mianserin hydrochloride 10 milligram/1 each conventional release oral tablet (clinical drug)
+321847007	Product containing precisely mianserin hydrochloride 20 milligram/1 each conventional release oral tablet
+321848002	Product containing precisely mianserin hydrochloride 30 milligram/1 each conventional release oral tablet
+321893005	Product containing precisely amoxapine 50 milligram/1 each conventional release oral tablet (clinical drug)
+321894004	Product containing precisely amoxapine 100 milligram/1 each conventional release oral tablet (clinical drug)
+321998002	Product containing precisely mirtazapine 30 milligram/1 each conventional release oral tablet
+375193003	Product containing precisely mirtazapine 15 milligram/1 each conventional release oral tablet
+375194009	Mirtazapine 15mg orodispersible tablet
+375195005	Mirtazapine 30mg orodispersible tablet (product)
+375196006	Product containing precisely mirtazapine 45 milligram/1 each conventional release oral tablet
+386602002	Product containing precisely amoxapine 150 milligram/1 each conventional release oral tablet (clinical drug)
+386603007	Product containing precisely amoxapine 25 milligram/1 each conventional release oral tablet
+411122005	Product containing precisely mirtazapine 7.5 milligram/1 each conventional release oral tablet
+709456006	Mirtazapine 45mg orodispersible tablet (product)
+767874007	Amoxapine in oral dosage form
+768358007	Mianserin in oral dosage form
+10424009	Maprotiline hydrochloride (substance)
+386847004	Mirtazapine
+387180003	Maprotiline
+387565003	Mianserin
+395795008	Mianserin hydrochloride
+96202006	8-Hydroxyamoxapine (substance)
+373754002	Amoxapine
+117058008	Amoxapine metabolite (substance)

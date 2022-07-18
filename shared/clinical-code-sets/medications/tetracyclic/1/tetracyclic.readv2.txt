@@ -1,0 +1,39 @@
+d7b..00	MIANSERIN HYDROCHLORIDE
+d7b3.00	MIANSERIN 30mg tablets
+d7b2.00	MIANSERIN 20mg tablets
+d7b1.00	MIANSERIN 10mg tablets
+d7a..00	MAPROTILINE HYDROCHLORIDE
+d7az.00	MAPROTILINE HYDROCHLORIDE 75mg tablets
+d7ay.00	MAPROTILINE HYDROCHLORIDE 50mg tablets
+d7ax.00	MAPROTILINE HYDROCHLORIDE 25mg tablets
+d7aw.00	MAPROTILINE HYDROCHLORIDE 10mg tablets
+d7h..00	AMOXAPINE
+d7h4.00	*AMOXAPINE 150mg tablets
+d7h3.00	*AMOXAPINE 100mg tablets
+d7h2.00	*AMOXAPINE 50mg tablets
+d7h1.00	*AMOXAPINE 25mg tablets
+daB..00	MIRTAZAPINE
+daBz.00	MIRTAZAPINE 15mg tablets
+daBy.00	MIRTAZAPINE 45mg tablets
+daB7.00	MIRTAZAPINE 45mg oro-dispersible tablets
+daB5.00	MIRTAZAPINE 15mg oro-dispersible tablets
+daB3.00	MIRTAZAPINE 30mg oro-dispersible tablets
+daB1.00	MIRTAZAPINE 30mg tablets
+d7b9.00	*NORVAL 30mg tablets
+d7b8.00	*NORVAL 20mg tablets
+d7b7.00	*NORVAL 10mg tablets
+d7b6.00	*BOLVIDON 30mg tablets
+d7b5.00	*BOLVIDON 20mg tablets
+d7b4.00	*BOLVIDON 10mg tablets
+d7a4.00	*LUDIOMIL 75mg tablets x28CP
+d7a3.00	*LUDIOMIL 50mg tablets
+d7a2.00	*LUDIOMIL 25mg tablets
+d7a1.00	*LUDIOMIL 10mg tablets
+d7h8.00	*ASENDIS 150mg tablets
+d7h7.00	*ASENDIS 100mg tablets
+d7h6.00	*ASENDIS 50mg tablets
+d7h5.00	*ASENDIS 25mg tablets
+daB8.00	ZISPIN SOLTAB 45mg oro-dispersible tablets
+daB6.00	ZISPIN SOLTAB 15mg oro-dispersible tablets
+daB4.00	ZISPIN SOLTAB 30mg oro-dispersible tablets
+daB2.00	*ZISPIN 30mg tablets

@@ -1,0 +1,9 @@
+gde..00	DULOXETINE
+gdez.00	DULOXETINE 40mg gastro-resistant capsules
+gdey.00	DULOXETINE 20mg gastro-resistant capsules
+gdex.00	DULOXETINE 30mg gastro-resistant capsules
+gdew.00	DULOXETINE 60mg gastro-resistant capsules
+gde4.00	CYMBALTA 60mg gastro-resistant capsules
+gde3.00	CYMBALTA 30mg gastro-resistant capsules
+gde2.00	YENTREVE 40mg gastro-resistant capsules
+gde1.00	YENTREVE 20mg gastro-resistant capsules

@@ -1,0 +1,78 @@
+dna..00	PRIMIDONE
+dnaz.00	PRIMIDONE 250mg/5mL oral suspension
+dnay.00	PRIMIDONE 250mg tablets
+dnax.00	PRIMIDONE 50mg tablets
+dn7..00	PHENOBARBITAL
+dn7d.00	PHENOBARBITAL 15mg/5mL elixir
+dn78.00	PHENOBARBITAL 200mg/1mL injection
+dn74.00	PHENOBARBITAL 100mg tablets
+dn73.00	PHENOBARBITAL 60mg tablets
+dn72.00	PHENOBARBITAL 30mg tablets
+dn71.00	PHENOBARBITAL 15mg tablets
+dn6..00	METHYLPHENOBARBITAL
+d31y.00	BUTOBARBITAL 100mg tablets
+d31s.00	SECOBARBITAL 100mg capsules
+d31h.00	SECOBARBITAL 50mg capsules
+d31t.00	AMOBARBITAL SODIUM 60mg capsules
+d31q.00	*AMOBARBITAL 50mg tablets
+d31l.00	AMOBARBITAL SODIUM 500mg injection
+d31j.00	AMOBARBITAL SODIUM 200mg capsules
+o11..00	THIOPENTAL SODIUM
+o11g.00	THIOPENTAL SODIUM 500mg injection (pdr for recon)
+dna3.00	*MYSOLINE 50mg tablets
+dna2.00	MYSOLINE 250mg/5mL oral suspension
+dna1.00	*MYSOLINE 250mg tablets
+dn7..11	PHENOBARBITONE
+dn7d.11	PHENOBARBITONE 15mg/5mL elixir
+dn7c.00	*LUMINAL 60mg tablets
+dn7b.00	*LUMINAL 30mg tablets
+dn7a.00	*LUMINAL 15mg tablets
+dn79.00	*GARDENAL 200mg/1mL injection
+dn78.11	PHENOBARBITONE 200mg/1mL injection
+dn77.00	PHENOBARBITONE 15mg/10mL elixir
+dn76.00	PHENOBARBITONE SODIUM 60mg tablets
+dn75.00	PHENOBARBITONE SODIUM 30mg tablets
+dn74.11	PHENOBARBITONE 100mg tablets
+dn73.11	PHENOBARBITONE 60mg tablets
+dn72.11	PHENOBARBITONE 30mg tablets
+dn71.11	PHENOBARBITONE 15mg tablets
+dn6..11	METHYLPHENOBARBITONE
+dn6z.00	METHYLPHENOBARBITONE 200mg tablets
+dn6y.00	METHYLPHENOBARBITONE 60mg tablets	
+dn6x.00	METHYLPHENOBARBITONE 30mg tablets
+dn63.00	*PROMINAL 200mg tablets
+dn62.00	*PROMINAL 60mg tablets
+dn61.00	*PROMINAL 30mg tablets
+011..11	THIOPENTONE SODIUM
+o11p.00	INTRAVAL SODIUM 500mg injection (pdr for recon)+diluent
+o11o.00	INTRAVAL SODIUM 2.5g injection (pdr for recon)+diluent
+o11n.00	INTRAVAL SODIUM 2.5g injection (pdr for recon)
+o11m.00	THIOPENTONE SODIUM 5g injection +diluent
+o11k.00	THIOPENTONE SODIUM 2.5g injection+diluent
+o11j.00	THIOPENTONE SODIUM 2.5g injection (pdr for recon)
+o11h.00	THIOPENTONE SODIUM 500mg injection+diluent
+o11g.11	THIOPENTONE SODIUM 500mg injection (pdr for recon)
+o11f.00	INTRAVAL + WATER 500mg injection
+o11e.00	*INTRAVAL + WATER 5g injection
+o11d.00	*INTRAVAL 5g injection
+o11c.00	THIOPENTONE SODIUM 25% injection
+o11b.00	THIOPENTONE SODIUM 5% injection
+o11a.00	INTRAVAL + WATER 2.5g injection
+o119.00	INTRAVAL + WATER 500mg injection
+o118.00	THIOPENTONE SODIUM 2.5% injection
+o117.00	ADD-A-MED THIOPENTONE 5g injection
+o116.00	ADD-A-MED THIOPENTONE 2.5g injection
+o115.00	*INTRAVAL + WATER 1g injection
+o114.00	*INTRAVAL 1g injection
+o113.00	INTRAVAL 2.5g injection multidose
+o112.00	INTRAVAL SODIUM 500mg injection
+o111.00	*INTRAVAL 500mg injection
+d31y.11	BUTOBARBITONE 100mg tablets
+d31s.11	QUINALBARBITONE 100mg capsules
+d31h.11	QUINALBARBITONE 50mg capsules
+d31t.11	AMYLOBARBITONE SODIUM 60mg capsules
+d31q.11	*AMYLOBARBITONE 50mg tablets
+d31l.11	AMYLOBARBITONE SODIUM 500mg injection
+d31j.11	AMYLOBARBITONE SODIUM 200mg capsules
+
+

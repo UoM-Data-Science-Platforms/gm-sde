@@ -1,0 +1,19 @@
+x01B2	Trazodone
+d7ez.	Trazodone hydrochloride 50mg/5mL liquid
+d7ex.	Trazodone hydrochloride 50mg capsule
+d7ew.	Trazodone hydrochloride 100mg capsule
+d7e7.	Trazodone hydrochloride 150mg m/r tablet
+d7e5.	Trazodone hydrochloride 150mg tablet
+d7e..	Trazodone hydrochloride
+da8..	Nefazodone
+da85.	Nefazodone hydrochloride 50mg+100mg+200mg initiation tablet pack
+da82.	Nefazodone hydrochloride 200mg tablet
+da81.	Nefazodone hydrochloride 100mg tablet
+d7e3.	Molipaxin 50mg/5mL liquid
+x00E4	Molipaxin 50mg capsule
+x00E5	Molipaxin 100mg capsule
+x00fb	Molipaxin CR 150mg tablet
+x00fa	Molipaxin 150mg tablet
+da86.	Dutonin 50mg+100mg+200mg treatment initiation tablet pack
+da84.	Dutonin 200mg tablet
+da83.	Dutonin 100mg tablet

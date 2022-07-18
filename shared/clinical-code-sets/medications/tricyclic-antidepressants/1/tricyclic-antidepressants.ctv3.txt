@@ -1,0 +1,181 @@
+d7f..	Trimipramine
+d7fz.	Trimipramine 25mg tablet
+d7f3.	Surmontil 25mg tablet
+d7fy.	Trimipramine 10mg tablet
+d7f2.	Surmontil 10mg tablet
+d7fx.	Trimipramine 50mg capsule
+x00ED	Surmontil 50mg capsule
+d7f1.	Surmontil 50mg capsules x28CP
+x01B1	Protriptyline
+d7d4.	Protriptyline hydrochloride 10mg tablet
+d7d2.	Concordin 10mg tablet
+d7d3.	Protriptyline hydrochloride 5mg tablet
+d7d1.	Concordin 5mg tablet
+d7d..	Protriptyline hydrochloride
+d7c..	Nortriptyline
+d7cy.	Nortriptyline 25mg capsule
+d7c4.	Aventyl 25mg capsule
+d7c9.	Nortriptyline 10mg capsule
+d7c3.	Aventyl 10mg capsule
+d7c8.	Nortriptyline 25mg tablet
+d7c2.	Allegron 25mg tablet
+d7c7.	Nortriptyline 10mg/5mL liquid
+d7c5.	Aventyl 10mg/5mL liquid
+d7c6.	Nortriptyline 10mg tablet
+d7c1.	Allegron 10mg tablet
+d79..	Lofepramine
+d79z.	Lofepramine 70mg tablet
+d794.	Gamanil 70mg tablet
+d791.	Gamanil 70mg tablets x56CP
+d793.	Feprapax 70mg tablet
+d79y.	Lofepramine 70mg/5mL s/f suspension
+d792.	Lomont 70mg/5mL s/f suspension
+d78..	Iprindole
+d78z.	Iprindole 30mg tablet
+d782.	Prondol 30mg tablet
+d78y.	Iprindole 15mg tablet
+d781.	Prondol 15mg tablet
+x01B0	Imipramine
+d77z.	Imipramine hydrochloride 25mg/5mL syrup
+d777.	Tofranil 25mg/5mL syrup
+d772.	Imipramine hydrochloride 25mg tablet
+d776.	Tofranil 25mg tablet
+d774.	Praminil 25mg tablet
+d771.	Imipramine hydrochloride 10mg tablet
+d775.	Tofranil 10mg tablet
+d773.	Praminil 10mg tablet
+d77..	Imipramine hydrochloride [antidepressant]
+d77w.	IMIPRAMINE HYDROCHLORIDE 25mg/5mL oral solution
+d76..	Doxepin
+d76z.	Doxepin 75mg capsule
+x00EC	Sinequan 75mg capsule
+d764.	Sinequan 75mg capsules x28CP
+d76y.	Doxepin 50mg capsule
+x00EB	Sinequan 50mg capsule
+d763.	Sinequan 50mg capsules x28CP
+d766.	SINEPIN 50mg capsules
+d76x.	Doxepin 25mg capsule
+x00EA	Sinequan 25mg capsule
+d762.	Sinequan 25mg capsules x28CP
+d765.	SINEPIN 25mg capsules
+d76w.	Doxepin 10mg capsule
+x00E9	Sinequan 10mg capsule
+d761.	Sinequan 10mg capsules x56CP
+x01Az	Dosulepin
+d75z.	Dothiepin hydrochloride 75mg tablet
+d75A.	Thaden 75mg tablet
+d756.	Dothapax 75mg tablet
+d754.	Prepadine 75mg tablet
+d752.	Prothiaden 75mg tablet
+d75y.	Dothiepin hydrochloride 25mg capsule
+d759.	Thaden 25mg capsule
+d755.	Dothapax 25mg capsule
+d753.	Prepadine 25mg capsule
+d751.	Prothiaden 25mg capsule
+d758.	Dothiepin hydrochloride 75mg/5mL s/f elixir
+d757.	Dothiepin hydrochloride 25mg/5mL s/f elixir
+d75..	Dothiepin hydrochloride
+x01Ay	Desipramine
+d74z.	Desipramine hydrochloride 25mg tablet
+d741.	Pertofran 25mg tablet
+d74..	Desipramine hydrochloride
+x01Ax	Clomipramine
+d73z.	Clomipramine hydrochloride 75mg m/r tablet
+d736.	Anafranil SR 75mg tablet
+d73y.	Clomipramine hydrochloride 25mg/2mL injection
+d735.	Anafranil 25mg/2mL injection
+d73x.	Clomipramine hydrochloride 25mg/5mL syrup
+d734.	Anafranil 25mg/5mL syrup
+d73w.	Clomipramine hydrochloride 50mg capsule
+d739.	Tranquax 50mg capsule
+d733.	Anafranil 50mg capsule
+d73v.	Clomipramine hydrochloride 25mg capsule
+d738.	Tranquax 25mg capsule
+d732.	Anafranil 25mg capsule
+d73u.	Clomipramine hydrochloride 10mg capsule
+d737.	Tranquax 10mg capsule
+d731.	Anafranil 10mg capsule
+d73t.	Clomipramine hydrochloride 25mg tablet
+d73s.	Clomipramine hydrochloride 10mg tablet
+d73r.	Clomipramine hydrochloride 50mg tablet
+d73..	Clomipramine hydrochloride
+x01Aw	Amitriptyline
+d71z.	Amitriptyline hydrochloride 100mg/10mL injection
+d71g.	Tryptizol 100mg/10mL injection
+d71y.	Amitriptyline 10mg/5mL oral suspension
+d71f.	Tryptizol 10mg/5mL mixture
+d71w.	Amitriptyline hydrochloride 75mg m/r capsule
+d71b.	Tryptizol 75mg m/r capsule
+d71v.	Amitriptyline hydrochloride 50mg m/r capsule
+d71a.	Lentizol 50mg m/r capsule
+d71u.	Amitriptyline hydrochloride 25mg m/r capsule
+d719.	Lentizol 25mg m/r capsule
+d71i.	Amitriptyline 50mg/5mL s/f oral solution
+d71h.	Amitriptyline 25mg/5mL s/f oral solution
+d713.	Amitriptyline hydrochloride 50mg tablet
+d71e.	Tryptizol 50mg tablet
+d716.	Domical 50mg tablet
+d712.	Amitriptyline hydrochloride 25mg tablet
+d71d.	Tryptizol 25mg tablet
+d718.	Elavil 25mg tablet
+d715.	Domical 25mg tablet
+d711.	Amitriptyline hydrochloride 10mg tablet
+d71c.	Tryptizol 10mg tablet
+d717.	Elavil 10mg tablet
+d714.	Domical 10mg tablet
+d71..	Amitriptyline hydrochloride [antidepressant]
+d71j.	AMITRIPTYLINE 10mg/5mL sugar free oral solution
+x02LS	Perphenazine
+o58z.	Perphenazine 5mg/1mL injection
+d4b4.	Fentazin 5mg/1mL injection
+o58..	Perphenazine [anaesthesia]
+d4bz.	Perphenazine 8mg tablet
+d4b3.	Fentazin 8mg tablet
+d4by.	Perphenazine 4mg tablet
+d4b2.	Fentazin 4mg tablet
+d4bx.	Perphenazine 2mg tablet
+d4b1.	Fentazin 2mg tablet
+d4b6.	Perphenazine 4mg/5mL s/f oral solution
+d4b5.	Perphenazine 2mg/5mL s/f oral solution
+d4b..	Perphenazine [central nervous system use]
+d91A.	Fluphenazine hydrochloride+nortriptyline 500micrograms/10mg tablet
+d914.	Motival tablet
+d919.	Fluphenazine hydrochloride+nortriptyline 1.5mg/30mg tablet
+x00fc	Motipress tablet
+d913.	Motipress tablets X28CP
+d91D.	Amitriptyline hydrochloride+perphenazine 10mg/2mg tablet
+d917.	Triptafen-M tablet
+d91C.	Amitriptyline hydrochloride+perphenazine 25mg/2mg tablet
+d916.	Triptafen tablet
+d918.	Amitriptyline+chlordiazepoxide 12.5mg/5mg capsule
+d911.	Limbitrol-5 capsule
+m351.	Doxepin hydrochloride 5% cream
+x04u9	Xepin 5% cream
+m352.	Xepin 5% cream 30g
+m35..	Doxepin hydrochloride [antipruritic]
+x02tO	Triptafen
+x02tP	Triptafen-M
+x02t2	Tranquax
+x02cS	Fentazin
+x05Db	Feprapax
+x02aM	Domical
+x02aS	Dothapax
+x02Ts	Anafranil SR
+x02Tr	Anafranil
+x03sw	Motipress
+x02jy	Motival
+x05Kv	Amitriptyline hydrochloride - chemical
+x02rr	Surmontil
+x02Xv	Concordin
+x02TH	Allegron
+x042s	Gamanil
+x03jc	Lomont
+x02so	Tofranil
+x03w4	Sinequan
+x05Cq	Thaden
+x02o5	Prepadine
+x02oe	Prothiaden
+x02nL	Pertofran
+x02tX	Tryptizol
+x02hL	Lentizol
+x02b4	Elavil

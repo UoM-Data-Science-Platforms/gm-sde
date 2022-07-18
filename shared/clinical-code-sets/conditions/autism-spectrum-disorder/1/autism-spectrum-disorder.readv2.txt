@@ -1,0 +1,13 @@
+E140.00	Infantile autism
+E140.12	Autism
+E140.13	Childhood autism
+E140z00	Infantile autism NOS
+E140100	Residual infantile autism
+E140000	Active infantile autism
+Eu84100	[X]Atypical autism
+Eu84112	[X]Mental retardation with autistic features
+Eu84000	[X]Childhood autism
+Eu84012	[X]Infantile autism
+1J9..00	Suspected autism
+9N6q.00	Referred by autism assessment service
+9NNl.00	Under care of autism assessment service
