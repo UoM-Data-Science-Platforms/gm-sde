@@ -47,7 +47,6 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
 -- LOAD CODESETS NEEDED FOR DEFINING COHORT
 
---> CODESET hypertension:1 diabetes:1
 --> CODESET egfr:1 urinary-albumin-creatinine-ratio:1 glomerulonephritis:1 kidney-transplant:1 kidney-stones:1 vasculitis:1
 
 
@@ -143,7 +142,7 @@ IF OBJECT_ID('tempdb..#acr_ckd_evidence') IS NOT NULL DROP TABLE #acr_ckd_eviden
 SELECT *
 INTO #acr_ckd_evidence
 FROM #acr_dates
-WHERE datediff(month, date_previous_acr, EventDate) >=  3 --only find patients with acr stages A1/A2 lasting at least 3 months
+WHERE datediff(month, date_previous_acr, EventDate) >=  3 --only find patients with acr stages A2/A3 lasting at least 3 months
 
 --> EXECUTE query-patient-year-of-birth.sql
 
@@ -173,29 +172,15 @@ WHERE (YEAR(@StartDate) - YearOfBirth > 18) AND ( -- OVER 18s ONLY
 			) -- egfr stages 1-2 and (ACR evidence or kidney damage) 
 		OR p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #acr_ckd_evidence) -- ACR evidence
 		)
--- TABLE OF GP EVENTS FOR COHORT TO SPEED UP REUSABLE QUERIES
-
-IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
-SELECT 
-  FK_Patient_Link_ID,
-  CAST(EventDate AS DATE) AS EventDate,
-  SuppliedCode,
-  FK_Reference_SnomedCT_ID,
-  FK_Reference_Coding_ID,
-  [Value]
-INTO #PatientEventData
-FROM [RLS].vw_GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
 
 ---------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
-
 
 -- load codesets needed for retrieving medication prescriptions
 
 --> CODESET statins:1 ace-inhibitor:1 aspirin:1 clopidogrel:1 sglt2-inhibitors:1 nsaids:1 hormone-replacement-therapy:1
-
+--> CODESET female-sex-hormones:1 male-sex-hormones:1 anabolic-steroids:1
 
 -- FIX ISSUE WITH DUPLICATE MEDICATIONS, CAUSED BY SOME CODES APPEARING MULTIPLE TIMES IN #VersionedCodeSets and #VersionedSnomedSets
 
@@ -221,9 +206,9 @@ WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 	AND UPPER(SourceTable) NOT LIKE '%REPMED%'  -- exclude duplicate prescriptions 
 	AND RepeatMedicationFlag = 'N' 				-- exclude duplicate prescriptions 
 	AND (
-		m.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets_1)
+		m.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets_1 WHERE (Concept NOT IN ('egfr','urinary-albumin-creatinine-ratio','glomerulonephritis', 'kidney-transplant', 'kidney-stones', 'vasculitis')))
 		OR
-		m.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets_1)
+		m.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets_1 WHERE (Concept NOT IN ('egfr','urinary-albumin-creatinine-ratio','glomerulonephritis', 'kidney-transplant', 'kidney-stones', 'vasculitis')))
 		);
 
 --  FINAL TABLE: NUMBER OF EACH MEDICATION CATEGORY PRESCRIBED EACH MONTH 
@@ -239,6 +224,9 @@ select
 	clopidogrel = ISNULL(SUM(CASE WHEN Concept = 'clopidogrel' then 1 else 0 end),0),
 	[sglt2-inhibitor] = ISNULL(SUM(CASE WHEN Concept = 'sglt2-inhibitors' then 1 else 0 end),0),
     nsaid = ISNULL(SUM(CASE WHEN Concept = 'nsaids' then 1 else 0 end),0), 
+	[female-sex-hormones] = ISNULL(SUM(CASE WHEN Concept = 'female-sex-hormones' then 1 else 0 end),0),
+	[male-sex-hormones] = ISNULL(SUM(CASE WHEN Concept = 'male-sex-hormones' then 1 else 0 end),0),
+	[anabolic-steroids] = ISNULL(SUM(CASE WHEN Concept = 'anabolic-steroids' then 1 else 0 end),0),
 	[hormone-replacement-therapy] = ISNULL(SUM(CASE WHEN Concept = 'hormone-replacement-therapy' then 1 else 0 end),0)
 from #medications_rx
 group by FK_Patient_Link_ID, YEAR(PrescriptionDate), Month(PrescriptionDate)

@@ -45,7 +45,6 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
 -- LOAD CODESETS NEEDED FOR DEFINING COHORT
 
---> CODESET hypertension:1 diabetes:1
 --> CODESET egfr:1 urinary-albumin-creatinine-ratio:1 glomerulonephritis:1 kidney-transplant:1 kidney-stones:1 vasculitis:1
 
 
@@ -141,7 +140,7 @@ IF OBJECT_ID('tempdb..#acr_ckd_evidence') IS NOT NULL DROP TABLE #acr_ckd_eviden
 SELECT *
 INTO #acr_ckd_evidence
 FROM #acr_dates
-WHERE datediff(month, date_previous_acr, EventDate) >=  3 --only find patients with acr stages A1/A2 lasting at least 3 months
+WHERE datediff(month, date_previous_acr, EventDate) >=  3 --only find patients with acr stages A2/A3 lasting at least 3 months
 
 --> EXECUTE query-patient-year-of-birth.sql
 
@@ -171,6 +170,7 @@ WHERE (YEAR(@StartDate) - YearOfBirth > 18) AND ( -- OVER 18s ONLY
 			) -- egfr stages 1-2 and (ACR evidence or kidney damage) 
 		OR p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #acr_ckd_evidence) -- ACR evidence
 		)
+
 -- TABLE OF GP EVENTS FOR COHORT TO SPEED UP REUSABLE QUERIES
 
 IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
@@ -180,7 +180,8 @@ SELECT
   SuppliedCode,
   FK_Reference_SnomedCT_ID,
   FK_Reference_Coding_ID,
-  [Value]
+  [Value],
+  [Units]
 INTO #PatientEventData
 FROM [RLS].vw_GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
@@ -211,12 +212,12 @@ SELECT
 	[Value],
 	[Units]
 INTO #observations
-FROM RLS.vw_GP_Events gp
+FROM #PatientEventData gp
 LEFT JOIN #VersionedSnomedSets sn ON sn.FK_Reference_SnomedCT_ID = gp.FK_Reference_SnomedCT_ID
 LEFT JOIN #VersionedCodeSets co ON co.FK_Reference_Coding_ID = gp.FK_Reference_Coding_ID
 WHERE
-	(gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets ) OR
-     gp.FK_Reference_Coding_ID   IN (SELECT FK_Reference_Coding_ID   FROM #VersionedCodeSets   ) )
+	(gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE (Concept NOT IN ('glomerulonephritis', 'kidney-transplant', 'kidney-stones', 'vasculitis')) ) OR
+     gp.FK_Reference_Coding_ID   IN (SELECT FK_Reference_Coding_ID   FROM #VersionedCodeSets WHERE (Concept NOT IN ('glomerulonephritis', 'kidney-transplant', 'kidney-stones', 'vasculitis'))  ) )
 AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 AND EventDate BETWEEN @StartDate and @EndDate
 

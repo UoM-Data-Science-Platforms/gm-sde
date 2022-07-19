@@ -40,12 +40,9 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 --------------------------------------------------------------------------------------------------------
 -- COHORT WILL BE ANY PATIENT WITH BIOCHEMICAL EVIDENCE OF CKD
 
-
 -- LOAD CODESETS NEEDED FOR DEFINING COHORT
 
---> CODESET hypertension:1 diabetes:1
---> CODESET egfr:1 urinary-albumin-creatinine-ratio:1 glomerulonephritis:1 kidney-transplant:1 kidney-stones:1 vasculitis:1 allergy:2
-
+--> CODESET egfr:1 urinary-albumin-creatinine-ratio:1 glomerulonephritis:1 kidney-transplant:1 kidney-stones:1 vasculitis:1 
 
 ---- FIND PATIENTS WITH BIOCHEMICAL EVIDENCE OF CKD
 
@@ -139,7 +136,7 @@ IF OBJECT_ID('tempdb..#acr_ckd_evidence') IS NOT NULL DROP TABLE #acr_ckd_eviden
 SELECT *
 INTO #acr_ckd_evidence
 FROM #acr_dates
-WHERE datediff(month, date_previous_acr, EventDate) >=  3 --only find patients with acr stages A1/A2 lasting at least 3 months
+WHERE datediff(month, date_previous_acr, EventDate) >=  3 --only find patients with acr stages A2/A3 lasting at least 3 months
 
 --> EXECUTE query-patient-year-of-birth.sql
 
@@ -191,8 +188,8 @@ WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
 ------------------- NOW COHORT HAS BEEN DEFINED, LOAD CODE SETS FOR ALL KIDNEY RELATED DIAGNOSES ----------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------
 
---> CODESET renal-replacement-therapy:1 kidney-transplant:1 acute-kidney-injury:1 glomerulonephritis:1 polycystic-kidney-disease:1 family-history-kidney-disease:1 end-stage-renal-disease:1
---> CODESET ckd-stage-1:1 ckd-stage-2:1 ckd-stage-3:1 ckd-stage-4:1 ckd-stage-5:1 chronic-kidney-disease:1 kidney-stones:1
+--> CODESET renal-replacement-therapy:1 acute-kidney-injury:1 polycystic-kidney-disease:1 family-history-kidney-disease:1 end-stage-renal-disease:1
+--> CODESET ckd-stage-1:1 ckd-stage-2:1 ckd-stage-3:1 ckd-stage-4:1 ckd-stage-5:1 chronic-kidney-disease:1 allergy:2
 
 -- CREATE TABLES OF DISTINCT CODES AND CONCEPTS - TO REMOVE DUPLICATES IN FINAL TABLE
 
@@ -212,15 +209,14 @@ FROM #VersionedSnomedSets V
 IF OBJECT_ID('tempdb..#DiagnosesAndSymptoms') IS NOT NULL DROP TABLE #DiagnosesAndSymptoms;
 SELECT FK_Patient_Link_ID, EventDate, case when s.Concept is null then c.Concept else s.Concept end as Concept
 INTO #DiagnosesAndSymptoms
-FROM RLS.vw_GP_Events gp
+FROM #PatientEventData gp
 LEFT OUTER JOIN #VersionedSnomedSetsUnique s ON s.FK_Reference_SnomedCT_ID = gp.FK_Reference_SnomedCT_ID
 LEFT OUTER JOIN #VersionedCodeSetsUnique c ON c.FK_Reference_Coding_ID = gp.FK_Reference_Coding_ID
-WHERE gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
-AND gp.EventDate BETWEEN @StartDate AND @EndDate
+WHERE gp.EventDate BETWEEN @StartDate AND @EndDate
 AND (
-	(gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSetsUnique WHERE (Concept NOT IN ('egfr','urinary-albumin-creatinine-ratio','hypertension','diabetes')))) 
+	(gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSetsUnique WHERE (Concept NOT IN ('egfr','urinary-albumin-creatinine-ratio')))) 
 	OR
-    (gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSetsUnique WHERE (Concept NOT IN ('egfr','urinary-albumin-creatinine-ratio','hypertension','diabetes'))))
+    (gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSetsUnique WHERE (Concept NOT IN ('egfr','urinary-albumin-creatinine-ratio'))))
 );
 
 

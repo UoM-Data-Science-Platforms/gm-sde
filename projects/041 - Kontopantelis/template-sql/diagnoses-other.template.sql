@@ -136,7 +136,7 @@ IF OBJECT_ID('tempdb..#acr_ckd_evidence') IS NOT NULL DROP TABLE #acr_ckd_eviden
 SELECT *
 INTO #acr_ckd_evidence
 FROM #acr_dates
-WHERE datediff(month, date_previous_acr, EventDate) >=  3 --only find patients with acr stages A1/A2 lasting at least 3 months
+WHERE datediff(month, date_previous_acr, EventDate) >=  3 --only find patients with acr stages A2/A3 lasting at least 3 months
 
 --> EXECUTE query-patient-year-of-birth.sql
 
@@ -213,15 +213,15 @@ FROM #VersionedSnomedSets V
 IF OBJECT_ID('tempdb..#DiagnosesAndSymptoms') IS NOT NULL DROP TABLE #DiagnosesAndSymptoms;
 SELECT FK_Patient_Link_ID, EventDate, case when s.Concept is null then c.Concept else s.Concept end as Concept
 INTO #DiagnosesAndSymptoms
-FROM RLS.vw_GP_Events gp
+FROM #PatientEventData gp
 LEFT OUTER JOIN #VersionedSnomedSetsUnique s ON s.FK_Reference_SnomedCT_ID = gp.FK_Reference_SnomedCT_ID
 LEFT OUTER JOIN #VersionedCodeSetsUnique c ON c.FK_Reference_Coding_ID = gp.FK_Reference_Coding_ID
 WHERE gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 AND gp.EventDate BETWEEN @StartDate AND @EndDate
 AND (
-	(gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSetsUnique WHERE (Concept NOT IN ('egfr','urinary-albumin-creatinine-ratio','hypertension','diabetes')))) 
+	(gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSetsUnique WHERE (Concept NOT IN ('egfr','urinary-albumin-creatinine-ratio','glomerulonephritis', 'kidney-transplant', 'kidney-stones', 'vasculitis'))))
 	OR
-    (gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSetsUnique WHERE (Concept NOT IN ('egfr','urinary-albumin-creatinine-ratio','hypertension','diabetes'))))
+    (gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSetsUnique WHERE (Concept NOT IN ('egfr','urinary-albumin-creatinine-ratio','glomerulonephritis', 'kidney-transplant', 'kidney-stones', 'vasculitis'))))
 );
 
 -- FIND ALL CODES PER YEAR FOR EACH PATIENT
@@ -229,7 +229,6 @@ AND (
 SELECT PatientID = FK_Patient_Link_ID,
 	[Year] = YEAR(EventDate),
 	sle = ISNULL(SUM(CASE WHEN Concept = 'sle' THEN 1 ELSE 0 END),0),
-	vasculitis = ISNULL(SUM(CASE WHEN Concept = 'vasculitis' THEN 1 ELSE 0 END),0),
 	gout = ISNULL(SUM(CASE WHEN Concept = 'gout' THEN 1 ELSE 0 END),0),
 	non_alc_fatty_liver_disease = ISNULL(SUM(CASE WHEN Concept = 'non-alc-fatty-liver-disease' THEN 1 ELSE 0 END),0),
 	long_covid = ISNULL(SUM(CASE WHEN Concept = 'long-covid' THEN 1 ELSE 0 END),0),

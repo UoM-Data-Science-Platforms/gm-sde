@@ -45,9 +45,7 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
 -- LOAD CODESETS NEEDED FOR DEFINING COHORT
 
---> CODESET hypertension:1 diabetes:1
 --> CODESET egfr:1 urinary-albumin-creatinine-ratio:1 glomerulonephritis:1 kidney-transplant:1 kidney-stones:1 vasculitis:1
-
 
 ---- FIND PATIENTS WITH BIOCHEMICAL EVIDENCE OF CKD
 
