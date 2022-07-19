@@ -32,7 +32,6 @@
 -- Total GP appointments (01.03.18 - 01.03.22)
 -- evidenceOfCKD_egfr (1/0)
 -- evidenceOfCKD_acr (1/0)
--- atRiskOfCKD (1/0)
 -- HypertensionAtStudyStart
 -- HypertensionDuringStudyPeriod
 -- DiabetesAtStudyStart
@@ -68,7 +67,7 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 --------------------------------------------------------------------------------------------------------
 ----------------------------------- DEFINE MAIN COHORT -----------------------------------------------
 --------------------------------------------------------------------------------------------------------
--- COHORT WILL BE ANY PATIENT WITH BIOCHEMICAL EVIDENCE OF CKD, OR AT RISK OF CKD (HAS HYPERTENSION OR DIABETES)
+-- COHORT WILL BE ANY PATIENT WITH BIOCHEMICAL EVIDENCE OF CKD
 
 
 -- LOAD CODESETS NEEDED FOR DEFINING COHORT
@@ -384,7 +383,7 @@ sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 
 ---- FIND PATIENTS WITH BIOCHEMICAL EVIDENCE OF CKD
 
----- find all eGFR and ACR tests
+---- find all eGFR and ACR tests from 2016 onwards
 
 IF OBJECT_ID('tempdb..#EGFR_ACR_TESTS') IS NOT NULL DROP TABLE #EGFR_ACR_TESTS;
 SELECT gp.FK_Patient_Link_ID, 
@@ -425,7 +424,7 @@ SELECT FK_Patient_Link_ID,
 INTO #ckd_stages
 FROM #EGFR_ACR_TESTS
 
--- FIND EGFR TESTS INDICATIVE OF CKD STAGE 3-5, WITH THE DATES OF THE PREVIOUS TEST
+-- FIND THE DATE OF THE PREVIOUS TEST FOR EACH RECORD
 
 IF OBJECT_ID('tempdb..#egfr_dates') IS NOT NULL DROP TABLE #egfr_dates;
 SELECT *, 
@@ -474,7 +473,7 @@ IF OBJECT_ID('tempdb..#acr_ckd_evidence') IS NOT NULL DROP TABLE #acr_ckd_eviden
 SELECT *
 INTO #acr_ckd_evidence
 FROM #acr_dates
-WHERE datediff(month, date_previous_acr, EventDate) >=  3 --only find patients with acr stages A1/A2 lasting at least 3 months
+WHERE datediff(month, date_previous_acr, EventDate) >=  3 --only find patients with acr stages A2/A3 lasting at least 3 months
 
 ---- CREATE COHORT:
 	-- 1. PATIENTS WITH EGFR TESTS INDICATIVE OF CKD STAGES 1-2, PLUS RAISED ACR OR HISTORY OF KIDNEY DAMAGE
@@ -523,9 +522,8 @@ WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
 IF OBJECT_ID('tempdb..#hypertension') IS NOT NULL DROP TABLE #hypertension;
 SELECT FK_Patient_Link_ID, MIN(EventDate) as EarliestDiagnosis
 INTO #hypertension
-FROM [RLS].[vw_GP_Events] gp
-WHERE  gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
-AND (
+FROM #PatientEventData gp
+WHERE  (
 	gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'hypertension' AND [Version]=1) OR
     gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'hypertension' AND [Version]=1)
 	)
@@ -534,9 +532,8 @@ GROUP BY FK_Patient_Link_ID
 IF OBJECT_ID('tempdb..#diabetes') IS NOT NULL DROP TABLE #diabetes;
 SELECT FK_Patient_Link_ID, MIN(EventDate) as EarliestDiagnosis
 INTO #diabetes
-FROM [RLS].[vw_GP_Events] gp
-WHERE  gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
-AND (
+FROM #PatientEventData gp
+WHERE  (
 	gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'diabetes' AND [Version]=1) OR
     gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'diabetes' AND [Version]=1)
 	)
@@ -948,23 +945,133 @@ SELECT *,
 INTO #GPExitDates
 FROM #GM_GP_range
 
+--┌───────────────────────┐
+--│ Patient GP encounters │
+--└───────────────────────┘
+
+-- OBJECTIVE: To produce a table of GP encounters for a list of patients.
+-- This script uses many codes related to observations (e.g. blood pressure), symptoms, and diagnoses, to infer when GP encounters occured.
+-- This script includes face to face and telephone encounters - it will need copying and editing if you don't require both.
+
+-- ASSUMPTIONS:
+--	- multiple codes on the same day will be classed as one encounter (so max daily encounters per patient is 1)
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- Also takes parameters:
+--	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+--	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, FK_Reference_Coding_ID, and FK_Reference_SnomedCT_ID
+--  - start-date: string - (YYYY-MM-DD) the date to count encounters from.
+--  - end-date: string - (YYYY-MM-DD) the date to count encounters to.
 
 
--- FIND NUMBER OF ATTENDED GP APPOINTMENTS FROM MARCH 2018 TO MARCH 2022
+-- OUTPUT: A temp table as follows:
+-- #GPEncounters (FK_Patient_Link_ID, EncounterDate)
+--	- FK_Patient_Link_ID - unique patient id
+--	- EncounterDate - date the patient had a GP encounter
 
-IF OBJECT_ID('tempdb..#gp_appointments') IS NOT NULL DROP TABLE #gp_appointments;
+
+-- Create a table with all GP encounters ========================================================================================================
+
+IF OBJECT_ID('tempdb..#CodingClassifier') IS NOT NULL DROP TABLE #CodingClassifier;
+SELECT 'Face2face' AS EncounterType, PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
+INTO #CodingClassifier
+FROM SharedCare.Reference_Coding
+WHERE CodingType='ReadCodeV2'
+AND (
+	MainCode like '1%'
+	or MainCode like '2%'
+	or MainCode in ('6A2..','6A9..','6AA..','6AB..','662d.','662e.','66AS.','66AS0','66AT.','66BB.','66f0.','66YJ.','66YM.','661Q.','66480','6AH..','6A9..','66p0.','6A2..','66Ay.','66Az.','69DC.')
+	or MainCode like '6A%'
+	or MainCode like '65%'
+	or MainCode like '8B31[356]%'
+	or MainCode like '8B3[3569ADEfilOqRxX]%'
+	or MainCode in ('8BS3.')
+	or MainCode like '8H[4-8]%' 
+	or MainCode like '94Z%'
+	or MainCode like '9N1C%' 
+	or MainCode like '9N21%'
+	or MainCode in ('9kF1.','9kR..','9HB5.')
+	or MainCode like '9H9%'
+);
+
+INSERT INTO #CodingClassifier
+SELECT 'Telephone', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
+FROM SharedCare.Reference_Coding
+WHERE CodingType='ReadCodeV2'
+AND (
+	MainCode like '8H9%'
+	or MainCode like '9N31%'
+	or MainCode like '9N3A%'
+);
+
+-- Add the equivalent CTV3 codes
+INSERT INTO #CodingClassifier
+SELECT 'Face2face', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
+WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Face2face' AND FK_Reference_SnomedCT_ID != -1)
+AND CodingType='CTV3';
+
+INSERT INTO #CodingClassifier
+SELECT 'Telephone', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
+WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Telephone' AND FK_Reference_SnomedCT_ID != -1)
+AND CodingType='CTV3';
+
+-- Add the equivalent EMIS codes
+INSERT INTO #CodingClassifier
+SELECT 'Face2face', FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Local_Code
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Face2face' AND FK_Reference_SnomedCT_ID != -1) OR
+	FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE EncounterType='Face2face' AND PK_Reference_Coding_ID != -1)
+);
+INSERT INTO #CodingClassifier
+SELECT 'Telephone', FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Local_Code
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Telephone' AND FK_Reference_SnomedCT_ID != -1) OR
+	FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE EncounterType='Telephone' AND PK_Reference_Coding_ID != -1)
+);
+
+-- All above takes ~30s
+
+IF OBJECT_ID('tempdb..#GPEncounters') IS NOT NULL DROP TABLE #GPEncounters;
+CREATE TABLE #GPEncounters (
+	FK_Patient_Link_ID BIGINT,
+	EncounterDate DATE
+);
+
+BEGIN
+  IF 'false'='true'
+    INSERT INTO #GPEncounters 
+    SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EncounterDate
+    FROM #PatientEventData
+    WHERE 
+      FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE PK_Reference_Coding_ID != -1)
+      AND EventDate BETWEEN '2018-03-01' AND '2022-03-01'
+  ELSE 
+    INSERT INTO #GPEncounters 
+    SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EncounterDate
+    FROM #PatientEventData
+    WHERE 
+      FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+      AND FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE PK_Reference_Coding_ID != -1)
+      AND EventDate BETWEEN '2018-03-01' AND '2022-03-01'
+  END
+
+
+-- -- FIND NUMBER OF ATTENDED GP APPOINTMENTS FROM MARCH 2018 TO MARCH 2022
+
+IF OBJECT_ID('tempdb..#GPEncounters1') IS NOT NULL DROP TABLE #GPEncounters1;
 SELECT G.FK_Patient_Link_ID, 
 	G.AppointmentDate, 
 	BeforeOrAfter1stMarch2020 = CASE WHEN G.AppointmentDate < '2020-03-01' THEN 'BEFORE' ELSE 'AFTER' END
-INTO #gp_appointments
-FROM RLS.vw_GP_Appointments G
-WHERE AppointmentCancelledDate IS NULL 
-AND AppointmentDate BETWEEN '2018-03-01' AND '2022-03-01'
-AND G.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort) 
+INTO #GPEncounters1
+FROM #GPEncounters
 
+IF OBJECT_ID('tempdb..#GPEncountersCount') IS NOT NULL DROP TABLE #GPEncountersCount;
 SELECT FK_Patient_Link_ID, BeforeOrAfter1stMarch2020, COUNT(*) as gp_appointments
-INTO #count_gp_appointments
-FROM #gp_appointments
+INTO #GPEncountersCount
+FROM #GPEncounters1
 GROUP BY FK_Patient_Link_ID, BeforeOrAfter1stMarch2020
 ORDER BY FK_Patient_Link_ID, BeforeOrAfter1stMarch2020
 
@@ -981,7 +1088,7 @@ AND a.AttendanceDate BETWEEN '2018-03-01' AND '2022-03-01'
 AND a.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort) 
 
 SELECT FK_Patient_Link_ID, BeforeOrAfter1stMarch2020, COUNT(*) AS ae_encounters
-INTO #count_ae_encounters
+INTO #AEEncountersCount
 FROM #ae_encounters
 GROUP BY FK_Patient_Link_ID, BeforeOrAfter1stMarch2020
 ORDER BY FK_Patient_Link_ID, BeforeOrAfter1stMarch2020
@@ -1869,8 +1976,8 @@ SELECT  PatientId = p.FK_Patient_Link_ID,
 		CurrentAlcoholIntake,
 		WorstAlcoholIntake,
 		DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END,
-		DeathDueToCovid_Year = CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN YEAR(p.DeathDate) ELSE null END,
-		DeathDueToCovid_Month = CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN MONTH(p.DeathDate) ELSE null END,
+		Death_Year = YEAR(p.DeathDate),
+		Death_Month = MONTH(p.DeathDate),
 		FirstVaccineYear =  YEAR(VaccineDose1Date),
 		FirstVaccineMonth = MONTH(VaccineDose1Date),
 		SecondVaccineYear =  YEAR(VaccineDose2Date),
@@ -1885,10 +1992,9 @@ SELECT  PatientId = p.FK_Patient_Link_ID,
 		AEEncountersBefore1stMarch2020 = ae_b.ae_encounters,
 		AEEncountersAfter1stMarch2020 = ae_a.ae_encounters,
 		GPAppointmentsBefore1stMarch2020 = gp_b.gp_appointments,
-		GPAppointmentsAfter1stMarch2020 =  gp_a.gp_appointments ,
+		GPAppointmentsAfter1stMarch2020 =  gp_a.gp_appointments,
 		EvidenceOfCKD_egfr,
 		EvidenceOfCKD_acr,
-		AtRiskOfCKD = NULL,
 		HypertensionAtStudyStart = CASE WHEN hyp.FK_Patient_Link_ID IS NOT NULL AND hyp.EarliestDiagnosis <= @StartDate THEN 1 ELSE 0 END,
 		HypertensionDuringStudyPeriod = CASE WHEN hyp.FK_Patient_Link_ID IS NOT NULL AND hyp.EarliestDiagnosis BETWEEN @StartDate AND @EndDate THEN 1 ELSE 0 END,
 		DiabetesAtStudyStart = CASE WHEN dia.FK_Patient_Link_ID IS NOT NULL AND dia.EarliestDiagnosis <= @StartDate THEN 1 ELSE 0 END,
@@ -1905,10 +2011,10 @@ LEFT OUTER JOIN #PatientPracticeAndCCG prac ON prac.FK_Patient_Link_ID = p.FK_Pa
 LEFT OUTER JOIN #GPExitDates gpex ON gpex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDVaccinations vac ON vac.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-LEFT OUTER JOIN #count_ae_encounters ae_b ON ae_b.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND ae_b.BeforeOrAfter1stMarch2020 = 'BEFORE'
-LEFT OUTER JOIN #count_ae_encounters ae_a ON ae_a.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND ae_a.BeforeOrAfter1stMarch2020 = 'AFTER'
-LEFT OUTER JOIN #count_gp_appointments gp_b ON gp_b.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND gp_b.BeforeOrAfter1stMarch2020 = 'BEFORE'
-LEFT OUTER JOIN #count_gp_appointments gp_a ON gp_a.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND gp_a.BeforeOrAfter1stMarch2020 = 'AFTER'
+LEFT OUTER JOIN #AEEncountersCount ae_b ON ae_b.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND ae_b.BeforeOrAfter1stMarch2020 = 'BEFORE'
+LEFT OUTER JOIN #AEEncountersCount ae_a ON ae_a.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND ae_a.BeforeOrAfter1stMarch2020 = 'AFTER'
+LEFT OUTER JOIN #GPEncountersCount gp_b ON gp_b.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND gp_b.BeforeOrAfter1stMarch2020 = 'BEFORE'
+LEFT OUTER JOIN #GPEncountersCount gp_a ON gp_a.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND gp_a.BeforeOrAfter1stMarch2020 = 'AFTER'
 LEFT OUTER JOIN #hypertension hyp ON hyp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #diabetes dia ON dia.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cv ON cv.FK_Patient_Link_ID = P.FK_Patient_Link_ID
