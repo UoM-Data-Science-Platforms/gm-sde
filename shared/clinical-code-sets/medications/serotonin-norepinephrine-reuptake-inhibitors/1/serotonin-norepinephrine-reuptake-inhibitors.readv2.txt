@@ -7,3 +7,14 @@ gde4.00	CYMBALTA 60mg gastro-resistant capsules
 gde3.00	CYMBALTA 30mg gastro-resistant capsules
 gde2.00	YENTREVE 40mg gastro-resistant capsules
 gde1.00	YENTREVE 20mg gastro-resistant capsules
+da7..00	VENLAFAXINE
+da7w.00	VENLAFAXINE 225mg m/r capsules
+da7q.00	VENLAFAXINE 37.5mg m/r tablets
+da7Y.00	VENLAFAXINE 225mg m/r tablets
+da7K.00	VENLAFAXINE 150mg m/r tablets
+da7I.00	VENLAFAXINE 75mg m/r tablets
+da79.00	VENLAFAXINE 150mg m/r capsules
+da77.00	VENLAFAXINE 75mg m/r capsules
+da75.00	*VENLAFAXINE 50mg tablets
+da72.00	VENLAFAXINE 75mg tablets
+da71.00	VENLAFAXINE 37.5mg tablets

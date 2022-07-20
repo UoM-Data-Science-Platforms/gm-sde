@@ -15,4 +15,3 @@ d1gz.00	ZALEPLON 10mg capsules
 d1gy.00	ZALEPLON 5mg capsules
 d1g2.00	SONATA 10mg capsules
 d1g1.00	SONATA 5mg capsules
-44ve.00	Serum zopiclone concentration

@@ -16,8 +16,6 @@
 445292007	Trazodone hydrochloride 150mg extended release tablet
 768373008	Nefazodone in oral dosage form
 768414008	Product containing trazodone in oral dosage form
-29141006	Trazodone measurement (procedure)
-121399002	Nefazodone measurement (procedure)
 58956008	Trazodone hydrochloride (substance)
 372829000	Trazodone
 108436007	Nefazodone hydrochloride (substance)

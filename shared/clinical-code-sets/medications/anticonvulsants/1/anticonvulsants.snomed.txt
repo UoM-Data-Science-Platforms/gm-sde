@@ -1,0 +1,63 @@
+13965000	Valproic acid product
+40820003	Product containing carbamazepine
+96195007	Lamotrigine product
+134537008	Valproic acid (as divalproex sodium) 500 mg gastro-resistant oral tablet
+134538003	Valproic acid (as valproate semisodium) 250 mg gastro-resistant oral tablet
+322863001	Product containing precisely carbamazepine 100 milligram/1 each conventional release oral tablet
+322864007	Product containing precisely carbamazepine 200 milligram/1 each conventional release oral tablet
+322865008	Product containing precisely carbamazepine 400 milligram/1 each conventional release oral tablet (clinical drug)
+322887004	Product containing precisely carbamazepine 125 milligram/1 each conventional release rectal suppository (clinical drug)
+322888009	Product containing precisely carbamazepine 250 milligram/1 each conventional release rectal suppository
+322889001	Product containing precisely carbamazepine 200 milligram/1 each conventional release chewable tablet (clinical drug)
+322890005	Carbamazepine 100 mg chewable tablet
+322891009	Carbamazepine 20 mg/mL oral suspension
+322956002	Product containing precisely valproate sodium 200 milligram/1 each gastro-resistant oral tablet (clinical drug)
+322957006	Valproate sodium 500 mg gastro-resistant oral tablet
+322981004	Product containing precisely lamotrigine 50 milligram/1 each conventional release oral tablet
+322982006	Product containing precisely lamotrigine 100 milligram/1 each conventional release oral tablet (clinical drug)
+322985008	Product containing precisely lamotrigine 25 milligram/1 each conventional release oral tablet (clinical drug)
+322991005	Lamotrigine 25mg dispersible tablet (product)
+322992003	Lamotrigine 100mg dispersible tablet (product)
+322994002	Product containing precisely lamotrigine 200 milligram/1 each conventional release oral tablet
+323008001	Product containing precisely valproic acid 150 milligram/1 each gastro-resistant oral capsule
+323009009	Valproic acid 300 mg gastro-resistant oral capsule
+323010004	Product containing precisely valproic acid 500 milligram/1 each gastro-resistant oral capsule
+349891004	Product containing valproate sodium in oral dosage form
+371391004	Lamotrigine 25mg dispersible tablet
+375793009	Valproate sodium 500mg powder for injection solution vial
+376084009	Valproate sodium 250mg/5mL syrup
+376298007	Valproic acid 250 mg oral capsule
+376949007	Product containing precisely lamotrigine 150 milligram/1 each conventional release oral tablet
+376961004	Product containing precisely lamotrigine 2 milligram/1 each conventional release oral tablet (clinical drug)
+386174001	Product containing carbamazepine in oral dosage form
+386175000	Carbamazepine in rectal dosage form
+425992006	Valproic acid 250mg/5mL syrup
+438318007	Valproic acid 500mg delayed release capsule
+438649006	Valproic acid 250mg delayed release capsule
+440509008	Valproic acid 125mg delayed release capsule
+442823006	Lamotrigine 200mg dispersible tablet
+442848009	Lamotrigine 50mg dispersible tablet
+447129002	Valproate sodium 100mg/mL solution for injection
+714130001	Product containing valproic acid in oral dosage form
+714131002	Product containing valproic acid in parenteral dosage form
+765521005	Valproate sodium 500 mg prolonged-release oral tablet
+765571008	Carbamazepine 400 mg prolonged-release oral tablet
+765573006	Sodium valproate 300 mg prolonged-release oral tablet
+765589009	Carbamazepine 200 mg prolonged-release oral tablet
+765597002	Carbamazepine 100mg prolonged-release oral tablet
+765633006	Sodium valproate 200 mg prolonged-release oral tablet
+765685008	Sodium valproate 100mg conventional release oral tablet (product)
+765901000	Carbamazepine 100mg prolonged-release oral capsule
+765930007	Carbamazepine 200mg prolonged-release oral capsule (product)
+765953008	Carbamazepine 300mg prolonged-release oral capsule
+766055005	Lamotrigine 2mg tablet for conventional release oral suspension (product)
+766057002	Lamotrigine 5mg tablet for conventional release oral suspension
+766166000	Valproate sodium 400 mg powder for solution for injection vial
+766519009	Product containing precisely valproate sodium 40 milligram/1 milliliter conventional release oral solution
+5641004	Valproate semisodium (substance)
+387080000	DPA - dipropylacetic acid
+387481005	Sodium valproate
+117151004	Carbamazepine-10,11-epoxide (substance)
+387222003	Carbamazepine
+387562000	Lamotrigine
+17231009	Congenital malformation due to valproic acid

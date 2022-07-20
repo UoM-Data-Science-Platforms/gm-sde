@@ -47,7 +47,6 @@ du23.00	OPIZONE 50mg tablets
 du22.00	NALOREX 50mg tablets
 du6z.11	AMFEBUTAMONE HYDROCHLORIDE 150mg m/r tablets
 du6z.00	BUPROPION HYDROCHLORIDE 150mg m/r tablets
-44L8.00	Serum pyridoxine
 ld1x.00	CETYLPYRIDINIUM CL+ASCORBIC ACID 1.4mg/125mg lozenges
 ld1m.00	CLIOQUINOL+ASCORBIC ACID 35mg/6mg lozenges
 D210200	Pyridoxine-responsive sideroblastic anaemia
