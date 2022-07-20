@@ -1,0 +1,292 @@
+d22..	Alprazolam
+d22y.	Alprazolam 250micrograms tablet
+d22z.	Alprazolam 500micrograms tablet
+d221.	Xanax 250mcg tablet
+d222.	Xanax 500mcg tablet
+d23..	Bromazepam
+d24..	Chlordiazepoxide
+d26..	Clobazam
+d27..	Clorazepate dipotassium
+x02LM	Diazepam
+d14..	Flunitrazepam
+d15..	Flurazepam
+d29..	Ketazolam
+d16..	Loprazolam
+x02LN	Lorazepam
+d17..	Lormetazepam
+d2b..	Medazepam
+o57..	Midazolam
+d18..	Nitrazepam
+d2d..	Oxazepam
+d2e..	Prazepam
+x02Ml	Temazepam
+d1b..	Triazolam
+d23y.	Bromazepam 1.5mg tablet
+d23z.	Bromazepam 3mg tablet
+d241.	Chlordiazepoxide 5mg capsule
+d242.	Chlordiazepoxide 10mg capsule
+d243.	Chlordiazepoxide hydrochloride 5mg tablet
+d244.	Chlordiazepoxide hydrochloride 10mg tablet
+d245.	Chlordiazepoxide hydrochloride 25mg tablet
+d246.	Chlordiazepoxide 5mg tablet
+d247.	Chlordiazepoxide 10mg tablet
+d248.	Chlordiazepoxide 25mg tablet
+d24e.	Librium 100mg injection
+d261.	Clobazam 10mg capsule
+d263.	Clobazam 10mg tablet
+d266.	CLOBAZAM 5mg/5mL oral suspension
+d268.	CLOBAZAM 10mg/5mL oral suspension
+dnc..	Clobazam [epilepsy only]
+d265.	TAPCLOB 5mg/5mL oral suspension
+d267.	TAPCLOB 10mg/5mL oral suspension
+d269.	PERIZAM 1mg/mL oral suspension
+d26A.	PERIZAM 2mg/mL oral suspension
+d27y.	Clorazepate dipotassium 7.5mg capsule
+d27z.	Clorazepate dipotassium 15mg capsule
+d21..	Diazepam [anxiolytic]
+do1..	Diazepam [epilepsy use]
+j81..	Diazepam [skeletal muscle relaxant]
+o53..	Diazepam [anaesthesia]
+x01BA	Oral diazepam
+x01BB	Parenteral diazepam
+x01BC	Rectal diazepam
+d14z.	Flunitrazepam 1mg tablet
+d15y.	Flurazepam 15mg capsule
+d15z.	Flurazepam 30mg capsule
+d29y.	Ketazolam 15mg capsule
+d29z.	Ketazolam 30mg capsule
+d161.	Loprazolam 1mg tablet
+d2a..	Lorazepam [anxiolytic]
+do4..	Lorazepam [epilepsy]
+o56..	Lorazepam [anaesthesia]
+x01BD	Oral lorazepam
+x01BE	Parenteral lorazepam
+d171.	Lormetazepam 500micrograms tablet
+d172.	Lormetazepam 1mg tablet
+d2by.	Medazepam 5mg capsule
+d2bz.	Medazepam 10mg capsule
+o57r.	MIDAZOLAM 10mg/2mL oromucosal soln pre-filled oral syringe
+o57s.	MIDAZOLAM 5mg/1mL oromucosal soln pre-filled oral syringe
+o57t.	MIDAZOLAM 7.5mg/1.5mL oromucosal soln prefilled oral syringe
+o57u.	MIDAZOLAM 2.5mg/0.5mL oromucosal soln prefilled oral syringe
+o57v.	Midazolam 100mg/50mL injection
+o57w.	Midazolam 50mg/50mL injection
+o57y.	Midazolam 10mg/5mL injection
+o57z.	Midazolam 10mg/2mL injection
+o573.	BUCCOLAM 2.5mg/0.5mL oromucosal soln pre-filled oral syringe
+o574.	BUCCOLAM 7.5mg/1.5mL oromucosal soln pre-filled oral syringe
+o575.	BUCCOLAM 5mg/1mL oromucosal solution pre-filled oral syringe
+o576.	BUCCOLAM 10mg/2mL oromucosal solution prefilled oral syringe
+d181.	Nitrazepam 5mg capsule
+d182.	Nitrazepam 5mg tablet
+d183.	Nitrazepam 10mg tablet
+d184.	Nitrazepam 2.5mg/5mL suspension
+d18f.	Nitrazepam 5mg/5mL suspension
+d2d1.	Oxazepam 30mg capsule
+d2d2.	Oxazepam 10mg tablet
+d2d3.	Oxazepam 15mg tablet
+d2d4.	Oxazepam 30mg tablet
+d2ez.	Prazepam 10mg tablet
+d1a..	Temazepam [hypnotic]
+d1a1.	Temazepam 10mg capsule
+d1a2.	Temazepam 15mg capsule
+d1a3.	Temazepam 20mg capsule
+d1a4.	Temazepam 30mg capsule
+d1a5.	Temazepam 10mg/5mL oral solution
+d1a8.	Temazepam Planpak capsule
+d1a9.	Temazepam 10mg tablet
+d1aa.	Temazepam 20mg tablet
+d1af.	Temazepam 10mg thick gel capsule
+d1ag.	Temazepam 20mg thick gel capsule
+d1ah.	Temazepam 15mg thick gel capsule
+d1ai.	Temazepam 30mg thick gel capsule
+d1aj.	Temazepam 10mg/sachet oral solution
+d1ak.	Temazepam 20mg/sachet oral solution
+d1ao.	Temazepam 10mg/5mL s/f oral solution
+o5a..	Temazepam [anaesthesia]
+d1b1.	Triazolam 125micrograms tablet
+d1b2.	Triazolam 250micrograms tablet
+d231.	Lexotan 1.5mg tablet
+d232.	Lexotan 3mg tablet
+d249.	Librium 5mg capsule
+d24f.	Tropium 5mg capsule
+d24a.	Librium 10mg capsule
+d24g.	Tropium 10mg capsule
+d24h.	Tropium 5mg tablet
+d24i.	Tropium 10mg tablet
+d24j.	Tropium 25mg tablet
+d24b.	Librium 5mg tablet
+d24c.	Librium 10mg tablet
+d24d.	Librium 25mg tablet
+dnc1.	Clobazam SLS 10mg capsules
+d262.	Frisium 10mg capsule
+d264.	Frisium 10mg tablet
+d271.	Tranxene 7.5mg capsule
+d272.	Tranxene 15mg capsule
+d211.	Diazepam 2mg capsule
+d212.	Diazepam 5mg capsule
+d213.	Diazepam 2mg tablet
+d214.	Diazepam 5mg tablet
+d215.	Diazepam 10mg tablet
+d216.	Diazepam 2mg/5mL oral solution
+d21A.	Diazepam 5mg/5mL oral solution
+d21H.	Diazepam 1mg/5mL suspension
+d21I.	Diazepam 2.5mg/5mL suspension
+d21J.	Diazepam 10mg/5mL suspension
+do1v.	Diazepam 10mg/2mL injection emulsion
+do1w.	Diazepam 10mg/2mL injection
+do1z.	Diazepam 20mg/4mL injection
+d21z.	Diazepam 10mg suppository
+do1t.	Diazepam 2.5mg/1.25mL rectal solution
+do1u.	Diazepam 20mg/5mL rectal solution
+do1x.	Diazepam 5mg/2.5mL rectal solution
+do1y.	Diazepam 10mg/2.5mL rectal solution
+d21x.	Valium 5mg suppository
+d141.	Rohypnol 1mg tablet
+d151.	Dalmane 15mg capsule
+d153.	Paxane 15mg capsule
+d152.	Dalmane 30mg capsule
+d154.	Paxane 30mg capsule
+d291.	Anxon 15mg capsule
+d292.	Anxon 30mg capsule
+d162.	Dormonoct 1mg tablet
+d2a1.	Lorazepam 1mg tablet
+d2a2.	Lorazepam 2.5mg tablet
+d2az.	Lorazepam 4mg/1mL injection
+d173.	Noctamid 500micrograms tablet
+d174.	Noctamid 1mg tablet
+d2b1.	Nobrium 5mg capsule
+d2b2.	Nobrium 10mg capsule
+o571.	Hypnovel 10mg/5mL injection
+o572.	Hypnovel 10mg/2mL injection
+d185.	Mogadon 5mg capsule
+d18d.	Surem 5mg capsule
+d186.	Mogadon 5mg tablet
+d187.	Nitrados 5mg tablet
+d188.	Noctesed 5mg tablet
+d189.	Remnos 5mg tablet
+d18b.	Somnite 5mg tablet
+d18e.	Unisomnia 5mg tablet
+d18a.	Remnos 10mg tablet
+d18c.	Somnite 2.5mg/5mL suspension
+d2d5.	Oxanid 10mg tablet
+d2d6.	Oxanid 15mg tablet
+d2d7.	Oxanid 30mg tablet
+d2e1.	Centrax 10mg tablet
+d1a6.	Normison 10mg capsule
+d1a7.	Normison 20mg capsule
+d1an.	Euhypnos 10mg/5mL oral solution
+d1ab.	Temazepam Gelthix 10mg capsule
+d1ac.	Temazepam Gelthix 20mg capsule
+d1ad.	Temazepam Gelthix 15mg capsule
+d1ae.	Temazepam Gelthix 30mg capsule
+d1al.	Euhypnos 10mg/sachet oral solution
+d1am.	Euhypnos 20mg/sachet oral solution
+d1b3.	Halcion 125micrograms tablet
+d1b4.	Halcion 250micrograms tablet
+d21g.	Solis 2mg capsule
+d21p.	Valium 2mg capsule
+d21h.	Solis 5mg capsule
+d21q.	Valium 5mg capsule
+d217.	Alupram 2mg tablet
+d21B.	Rimapam 2mg tablet
+d21a.	Atensine 2mg tablet
+d21e.	Evacalm 2mg tablet
+d21m.	Tensium 2mg tablet
+d21r.	Valium 2mg tablet
+d218.	Alupram 5mg tablet
+d21C.	Rimapam 5mg tablet
+d21b.	Atensine 5mg tablet
+d21f.	Evacalm 5mg tablet
+d21n.	Tensium 5mg tablet
+d21s.	Valium 5mg tablet
+d219.	Alupram 10mg tablet
+d21D.	Rimapam 10mg tablet
+d21c.	Atensine 10mg tablet
+d21o.	Tensium 10mg tablet
+d21t.	Valium 10mg tablet
+d21E.	Dialar 2mg/5mL syrup
+d21u.	Valium 2mg/5mL syrup
+d21F.	Dialar 5mg/5mL syrup
+d21d.	Diazemuls 10mg/2mL injection
+do11.	Diazemuls [ep] 10mg/2mL injection
+d21i.	Stesolid 10mg/2mL injection
+d21w.	Valium dup del injection
+o534.	Valium 10mg/2mL injection
+d21j.	Stesolid 20mg/4mL injection
+do17.	Valium [ep] 20mg/4mL injection
+d21G.	Valclair 10mg suppository
+d21y.	Valium 10mg suppository
+do1A.	Diazepam 2.5mg/1.25mL RecTube
+do1B.	Diazepam 20mg/5mL RecTube
+do18.	Diazepam 5mg/2.5mL RecTube
+d21k.	Stesolid 5mg/2.5mL rectal solution
+do19.	Diazepam 10mg/2.5mL RecTube
+d21l.	Stesolid 10mg/2.5mL rectal solution
+d2a3.	Almazine 1mg tablet
+d2a5.	Ativan 1mg tablet
+d2a4.	Almazine 2.5mg tablet
+d2a6.	Ativan 2.5mg tablet
+d2a7.	Ativan 4mg/1mL injection
+do12.	Stesolid [ep] 10mg/2mL injection
+d21v.	Valium [anxiol] 10mg/2ml injection
+do16.	Valium [ep] 10mg/2mL injection
+do41.	Ativan [ep] 4mg/mL injection
+Xa5ih	Alprazolam allergy
+Xa5ii	Bromazepam allergy
+Xa5ij	Chlordiazepoxide allergy
+Xa5ik	Clobazam allergy
+Xa5il	Potassium clorazepate allergy
+Xa5ir	Diazepam allergy
+Xa5ib	Flunitrazepam allergy
+Xa5ic	Flurazepam allergy
+Xa5im	Ketazolam allergy
+Xa5id	Loprazolam allergy
+Xa5is	Lorazepam allergy
+Xa5ie	Lormetazepam allergy
+Xa5in	Medazepam allergy
+Xa5iq	Midazolam allergy
+Xa5if	Nitrazepam allergy
+Xa5io	Oxazepam allergy
+Xa5ip	Prazepam allergy
+Xa5it	Temazepam allergy
+Xa5ig	Triazolam allergy
+dn4..	Clonazepam [epilepsy control]
+x02Lk	Clonazepam
+dn4w.	Clonazepam 0.5mg/5mL s/f oral solution
+dn4x.	Clonazepam 2mg/5mL s/f oral solution
+dn4y.	Clonazepam 500micrograms tablet
+dn4z.	Clonazepam 2mg tablet
+do2..	Clonazepam [status epilepsy]
+do2z.	Clonazepam 1mg/1mL injection
+dn41.	Rivotril 500mcg tablet
+dn42.	Rivotril 2mg tablet
+do21.	Rivotril 1mg/1mL injection
+x02pk	Rimapam
+x02pu	Rivotril
+x02q4	Rohypnol
+d918.	Amitriptyline+chlordiazepoxide 12.5mg/5mg capsule
+d911.	Limbitrol-5 capsule
+o535.	Valium
+x02ty	Valclair
+x02ZZ	Diazemuls
+x02ZT	Dialar
+x02hT	Librium
+x02hQ	Lexotan
+x05KZ	Alprazolam - chemical
+x05Me	Bromazepam - chemical
+Xa5iM	Clonazepam allergy
+x03yQ	Temazepam Gelthix
+x02Ui	Ativan
+x02sR	Tensium
+x02rZ	Stesolid
+x02t3	Tranxene
+x02lI	Normison
+x02dK	Frisium
+x02rF	Somnite
+x02tV	Tropium
+x02jk	Mogadon
+x02pI	Remnos
+x02Yh	Dalmane
+x02fE	Hypnovel
+x02uj	Xanax
