@@ -132,8 +132,6 @@
 769915007	Product containing precisely midazolam (as midazolam hydrochloride) 5 milligram/5 milliliter conventional release solution for injection ampule (clinical drug)
 769916008	Product containing precisely midazolam (as midazolam hydrochloride) 50 milligram/10 milliliter conventional release solution for injection ampule
 770224002	Lorazepam 4 mg/mL solution for injection ampoule
-901201000000106	Serum lorazepam concentration
-901321000000109	Serum midazolam concentration
 27928002	Flurazepam hydrochloride (substance)
 39815009	Clorazepate (substance)
 40601003	Chlordiazepoxide hydrochloride (substance)
@@ -159,6 +157,4 @@
 419657007	Ketazolam
 424521005	Midazolam maleate
 442011001	Loprazolam mesilate (substance)
-1004551000000101	Serum lorazepam concentration
-998481000000107	Serum midazolam concentration
 387572002	Clobazam

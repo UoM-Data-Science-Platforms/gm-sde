@@ -238,7 +238,6 @@ o534.00	*VALIUM 10mg/2mL injection
 o533.00	*STESOLID 20mg/4mL injection
 o532.00	*STESOLID 10mg/2mL injection
 o531.00	DIAZEMULS 10mg injection
-44vL.00	Serum lorazepam concentration
 dn4..00	CLONAZEPAM [EPILEPSY CONTROL]
 dn4z.00	CLONAZEPAM 2mg tablets
 dn4y.00	CLONAZEPAM 500microgram tablets
@@ -248,5 +247,4 @@ dn42.00	*RIVOTRIL 2mg tablets
 dn41.00	*RIVOTRIL 500mcg tablets
 dnc..00	CLOBAZAM [EPILEPSY ONLY]
 dnc1.00	*CLOBAZAM SLS 10mg capsules
-44uf000	Serum midazolam concentration
 j81..00	DIAZEPAM [SKELETAL MUSCLE RELAXANT]

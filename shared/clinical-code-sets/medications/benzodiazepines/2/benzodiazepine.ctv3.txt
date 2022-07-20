@@ -262,13 +262,11 @@ do2z.	Clonazepam 1mg/1mL injection
 dn41.	Rivotril 500mcg tablet
 dn42.	Rivotril 2mg tablet
 do21.	Rivotril 1mg/1mL injection
-Xab0D	Serum lorazepam concentration
 x02pk	Rimapam
 x02pu	Rivotril
 x02q4	Rohypnol
 d918.	Amitriptyline+chlordiazepoxide 12.5mg/5mg capsule
 d911.	Limbitrol-5 capsule
-Xab0K	Serum midazolam concentration
 o535.	Valium
 x02ty	Valclair
 x02ZZ	Diazemuls
