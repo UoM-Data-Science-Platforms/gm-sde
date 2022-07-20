@@ -1,0 +1,52 @@
+io1..00	ASCORBIC ACID [NUTRITION]
+io16.00	ASCORBIC ACID 500mg/5mL injection
+io15.00	ASCORBIC ACID 500mg tablets
+io14.00	ASCORBIC ACID 200mg tablets
+io13.00	ASCORBIC ACID 100mg tablets
+io12.00	ASCORBIC ACID 50mg tablets
+io11.00	*ASCORBIC ACID 25mg tablets
+io1b.00	REDOXON 1g dispersible tablets
+io1a.00	*REDOXON 500mg tablets
+io19.00	*REDOXON 200mg tablets
+io18.00	*REDOXON 50mg tablets
+io17.00	*REDOXON 25mg tablets
+in2..00	PYRIDOXINE HYDROCHLORIDE
+in28.00	PYRIDOXINE HYDROCHLORIDE 100mg m/r tablets
+in29.00	CANTASSIUM VITAMIN B6 50mg tablets
+in27.00	*PAXADON 50mg tablets
+in26.00	COMPLOMENT CONTINUS 100mg m/r tablets
+in26.11	COMPLOMENT CONTINUS B6 100mg m/r tablets
+in25.00	*BENADON 50mg tablets
+in24.00	*BENADON 20mg tablets
+in23.00	PYRIDOXINE 50mg tablets
+in22.00	PYRIDOXINE 20mg tablets
+in21.00	PYRIDOXINE 10mg tablets
+da2..00	TRYPTOPHAN
+da2z.00	*TRYPTOPHAN 1g/6g powder
+da2y.00	*TRYPTOPHAN 500mg tablets
+da24.00	*PACITRON 500mg tablets
+da23.00	*OPTIMAX WV 500mg tablets
+da22.00	*OPTIMAX 1g/6g powder
+da21.00	*OPTIMAX 500mg tablets
+daD..00	AGOMELATINE
+daD2.00	AGOMELATINE 25mg tablets
+daD1.00	VALDOXAN 25mg tablets
+o13..00	KETAMINE
+o13z.00	*KETAMINE 500mg/5mL injection
+o13y.00	KETAMINE 500mg/10mL injection
+o13x.00	KETAMINE 200mg/20mL injection
+o134.00	KETAMINE 1g/10mL injection
+o135.00	KETALAR 1g/10mL injection
+o133.00	*KETALAR 500mg/5mL injection
+o132.00	KETALAR 500mg/10mL injection
+o131.00	KETALAR 200mg/20mL injection
+du2..00	NALTREXONE HYDROCHLORIDE
+du21.00	NALTREXONE HYDROCHLORIDE 50mg tablets
+du24.00	ADEPEND 50mg tablets
+du23.00	OPIZONE 50mg tablets
+du22.00	NALOREX 50mg tablets
+du6z.11	AMFEBUTAMONE HYDROCHLORIDE 150mg m/r tablets
+du6z.00	BUPROPION HYDROCHLORIDE 150mg m/r tablets
+ld1x.00	CETYLPYRIDINIUM CL+ASCORBIC ACID 1.4mg/125mg lozenges
+ld1m.00	CLIOQUINOL+ASCORBIC ACID 35mg/6mg lozenges
+D210200	Pyridoxine-responsive sideroblastic anaemia

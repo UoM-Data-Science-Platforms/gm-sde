@@ -1,0 +1,46 @@
+da6..	Paroxetine
+da67.	PAROXETINE 10mg tablets
+da68.	SEROXAT 10mg tablets
+da65.	Paroxetine 10mg/5mL s/f liquid
+da66.	Seroxat 10mg/5mL s/f liquid
+da63.	Paroxetine 30mg tablet
+x00g0	Seroxat 30mg tablet
+da64.	Seroxat 30mg tablets x30
+da61.	Paroxetine 20mg tablet
+x00fz	Seroxat 20mg tablet
+da62.	Seroxat 20mg tablets x30
+da5..	Sertraline
+da52.	Sertraline 100mg tablet
+da54.	Lustral 100mg tablet
+da51.	Sertraline 50mg tablet
+da53.	Lustral 50mg tablet
+x01As	Fluvoxamine
+da34.	Fluvoxamine maleate 100mg tablet
+da33.	Faverin 100mg tablet
+da32.	Fluvoxamine maleate 50mg tablet
+da31.	Faverin 50mg tablet
+da3..	Fluvoxamine maleate
+x01Ar	Fluoxetine
+da46.	Fluoxetine 60mg capsule
+da47.	Prozac 60mg capsule
+da43.	Fluoxetine 20mg/5mL oral liquid
+da4C.	PROZEP 20mg/5mL oral solution
+da4B.	Prozit 20mg/5mL oral solution
+da44.	Prozac 20mg/5mL liquid
+da41.	Fluoxetine 20mg capsule
+da4A.	Ranflutin 20mg capsule
+da49.	Oxactin 20mg capsule
+da48.	Felicium 20mg capsule
+da45.	Prozac 20mg capsule
+da42.	Prozac 20mg capsules x30
+da4..	Fluoxetine hydrochloride
+da4D.	OLENA 20mg dispersible tablets
+da4E.	FLUOXETINE 20mg dispersible tablets
+x055r	Felicium
+x02c8	Faverin
+x02oh	Prozac
+x05pd	Prozit
+x02i2	Lustral
+x03h0	Seroxat
+x05ZY	Ranflutin
+x05JP	Oxactin

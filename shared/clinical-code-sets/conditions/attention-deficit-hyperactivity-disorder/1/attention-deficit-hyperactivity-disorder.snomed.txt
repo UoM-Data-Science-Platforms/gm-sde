@@ -1,0 +1,19 @@
+7461003	Attention deficit hyperactivity disorder, hyperactive impulsive type
+31177006	Attention deficit hyperactivity disorder combined
+35253001	Attention deficit hyperactivity disorder, predominantly inattentive type (disorder)
+698689005	Attention deficit hyperactivity disorder, predominantly inattentive type in remission (disorder)
+698692009	Attention deficit hyperactivity disorder, predominantly hyperactive impulsive type in remission (disorder)
+702815001	Attention deficit hyperactivity disorder, inattentive presentation (restrictive)
+117431000119101	Long term ADHD medication therapy
+886371000000105	On drug therapy for ADHD (attention deficit hyperactivity disorder)
+886391000000109	On stimulant drug therapy for ADHD (attention deficit hyperactivity disorder)
+886411000000109	On non-stimulant drug therapy for ADHD (attention deficit hyperactivity disorder)
+702536007	Stimulant drug therapy for ADHD (attention deficit hyperactivity disorder)
+702538008	Drug therapy for attention deficit hyperactivity disorder
+703314001	Non-stimulant drug therapy for attention deficit hyperactivity disorder
+516401000000106	ADHD (attention deficit hyperactivity disorder) monitoring invitation first letter
+516891000000101	Attention deficit hyperactivity disorder monitoring invitation second letter
+516911000000103	Attention deficit hyperactivity disorder monitoring invitation third letter
+444613000	Adult attention deficit hyperactivity disorder
+769390009	World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale (assessment scale)
+710071000000106	ADHD (attention deficit hyperactivity disorder) annual review

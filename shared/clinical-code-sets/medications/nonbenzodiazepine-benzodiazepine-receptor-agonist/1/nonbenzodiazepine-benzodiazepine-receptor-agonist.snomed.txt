@@ -1,0 +1,20 @@
+373949001	Product containing precisely venlafaxine hydrochloride 25 milligram/1 each conventional release oral tablet
+373951002	Product containing precisely venlafaxine hydrochloride 100 milligram/1 each conventional release oral tablet
+407033009	Duloxetine product
+416946001	Duloxetine (as duloxetine hydrochloride) 60 mg gastro-resistant oral capsule
+417231005	Product containing precisely duloxetine (as duloxetine hydrochloride) 30 milligram/1 each gastro-resistant oral capsule (clinical drug)
+430271006	Desvenlafaxine product
+433293002	Product containing precisely desvenlafaxine succinate 100 milligram/1 each conventional release oral tablet
+433294008	Product containing precisely desvenlafaxine succinate 50 milligram/1 each conventional release oral tablet (clinical drug)
+765785001	Venlafaxine hydrochloride 37.5mg prolonged-release oral capsule (product)
+765856004	Duloxetine 40mg gastro-resistant oral capsule
+765914004	Product containing precisely venlafaxine (as venlafaxine hydrochloride) 150 milligram/1 each prolonged-release oral capsule (clinical drug)
+765941009	Venlafaxine (as venlafaxine hydrochloride) 75 mg prolonged-release oral capsule
+765990009	Duloxetine 20mg gastro-resistant oral capsule (product)
+767736005	Duloxetine in oral dosage form
+768102009	Desvenlafaxine in oral dosage form
+108434005	Venlafaxine hydrochloride (substance)
+407032004	Duloxetine
+426892003	Duloxetine hydrochloride
+430267008	Desvenlafaxine
+433292007	Desvenlafaxine succinate

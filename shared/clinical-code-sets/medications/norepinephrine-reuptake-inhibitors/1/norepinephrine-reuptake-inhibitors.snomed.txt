@@ -1,0 +1,8 @@
+407040005	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 10 milligram/1 each conventional release oral capsule (clinical drug)
+407041009	Atomoxetine (as atomoxetine hydrochloride) 18 mg oral capsule
+407042002	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 25 milligram/1 each conventional release oral capsule
+407043007	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 40 milligram/1 each conventional release oral capsule
+407044001	Atomoxetine (as atomoxetine hydrochloride) 60 mg oral capsule
+419897007	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 100 milligram/1 each conventional release oral capsule (clinical drug)
+420189009	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 80 milligram/1 each conventional release oral capsule
+412577007	Atomoxetine hydrochloride

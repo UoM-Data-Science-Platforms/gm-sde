@@ -1,0 +1,38 @@
+dnk..00	TOPIRAMATE
+dnkD.00	TOPIRAMATE 50mg beads in capsules
+dnkA.00	TOPIRAMATE 25mg beads in capsules
+dnk9.00	TOPIRAMATE 15mg beads in capsules
+dnk7.00	TOPIRAMATE 25mg tablets
+dnk3.00	TOPIRAMATE 200mg tablets
+dnk2.00	TOPIRAMATE 100mg tablets
+dnk1.00	TOPIRAMATE 50mg tablets
+dnkE.00	TOPAMAX SPRINKLE 50mg capsules
+dnkC.00	TOPAMAX SPRINKLE 25mg capsules
+dnkB.00	TOPAMAX SPRINKLE 15mg capsules
+dnk8.00	TOPAMAX 25mg tablets
+dnk6.00	TOPAMAX 200mg tablets
+dnk5.00	TOPAMAX 100mg tablets
+dnk4.00	TOPAMAX 50mg tablets
+dnm..00	OXCARBAZEPINE
+dnmz.00	OXCARBAZEPINE 600mg tablets
+dnmy.00	OXCARBAZEPINE 300mg tablets
+dnmx.00	OXCARBAZEPINE 150mg tablets
+dnmw.00	OXCARBAZEPINE 60mg/mL sugar free oral suspension
+dnm4.00	TRILEPTAL 60mg/mL sugar free oral suspension
+dnm3.00	TRILEPTAL 600 tablets
+dnm2.00	TRILEPTAL 300 tablets
+dnm1.00	TRILEPTAL 150 tablets
+dnj..00	GABAPENTIN
+dnjz.00	GABAPENTIN 800mg tablets
+dnjy.00	GABAPENTIN 600mg tablets
+dnjx.00	GABAPENTIN 300mg capsules/600mg tablets titration pack
+dnjA.00	GABAPENTIN 50mg/mL oral solution
+dnj3.00	GABAPENTIN 400mg capsules
+dnj2.00	GABAPENTIN 300mg capsules
+dnj1.00	GABAPENTIN 100mg capsules
+dnj9.00	NEURONTIN 300mg capsules/600mg tablets titration pack
+dnj8.00	NEURONTIN 800mg tablets
+dnj7.00	NEURONTIN 600mg tablets
+dnj6.00	NEURONTIN 400mg capsules
+dnj5.00	NEURONTIN 300mg capsules
+dnj4.00	NEURONTIN 100mg capsules

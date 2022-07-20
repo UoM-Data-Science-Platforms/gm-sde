@@ -1,0 +1,17 @@
+d1d..00	ZOPICLONE
+d1d3.00	ZOPICLONE 3.75mg tablets
+d1d1.00	ZOPICLONE 7.5mg tablets
+d1d6.00	*ZILEZE 3.75 tablets
+d1d5.00	*ZILEZE 7.5 tablets
+d1d4.00	ZIMOVANE LS 3.75mg tablets
+d1d2.00	ZIMOVANE 7.5mg tablets
+d1f..00	ZOLPIDEM
+d1f3.00	ZOLPIDEM TARTRATE 10mg tablets
+d1f2.00	ZOLPIDEM TARTRATE 5mg tablets
+d1f4.00	STILNOCT 10mg tablets
+d1f1.00	STILNOCT 5mg tablets
+d1g..00	ZALEPLON
+d1gz.00	ZALEPLON 10mg capsules
+d1gy.00	ZALEPLON 5mg capsules
+d1g2.00	SONATA 10mg capsules
+d1g1.00	SONATA 5mg capsules
