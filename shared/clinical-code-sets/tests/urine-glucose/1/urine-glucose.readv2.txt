@@ -1,0 +1,8 @@
+466..	Urine test for glucose
+4662.	Urine glucose test negative
+4663.	Urine glucose test = trace
+4664.	Urine glucose test = +
+4665.	Urine glucose test = ++
+4666.	Urine glucose test = +++
+4667.	Urine glucose test = ++++
+4668.	Glycosuria

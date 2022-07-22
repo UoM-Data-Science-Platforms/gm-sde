@@ -1,0 +1,335 @@
+39707611000001104	Venlafaxine 37.5mg tablets
+949611000001104	Venlafaxine 37.5mg tablets
+5514611000001100	Venlafaxine 37.5mg tablets
+11469611000001106	Venlafaxine 37.5mg tablets
+281211000001107	Efexor 37.5mg tablets
+1925211000001101	Efexor 37.5mg tablets
+11469711000001102	Efexor 37.5mg tablets
+14957511000001100	Venlafaxine 37.5mg tablets
+14957611000001101	Venlafaxine 37.5mg tablets
+14958511000001101	Venlafaxine 37.5mg tablets
+14958611000001102	Venlafaxine 37.5mg tablets
+14958711000001106	Venlafaxine 37.5mg tablets
+14958811000001103	Venlafaxine 37.5mg tablets
+14969011000001106	Venlafaxine 37.5mg tablets
+14969211000001101	Venlafaxine 37.5mg tablets
+14978711000001108	ViePax 37.5mg tablets
+14978811000001100	ViePax 37.5mg tablets
+15021111000001101	Venlafaxine 37.5mg tablets
+15021411000001106	Venlafaxine 37.5mg tablets
+16215911000001104	Venlafaxine 37.5mg tablets
+16216111000001108	Venlafaxine 37.5mg tablets
+16216011000001107	Venlafaxine 37.5mg tablets
+17875911000001102	Venlafaxine 37.5mg tablets
+17876011000001105	Venlafaxine 37.5mg tablets
+18866011000001108	Venlafaxine 37.5mg tablets
+18866111000001109	Venlafaxine 37.5mg tablets
+21039711000001104	Venlafaxine 37.5mg tablets
+21039911000001102	Venlafaxine 37.5mg tablets
+21039811000001107	Venlafaxine 37.5mg tablets
+21910411000001103	Venlafaxine 37.5mg tablets
+21910611000001100	Venlafaxine 37.5mg tablets
+30110011000001103	Venlafaxine 37.5mg tablets
+30110111000001102	Venlafaxine 37.5mg tablets
+38199811000001104	Venlafaxine 37.5mg tablets
+34956211000001103	Venlafaxine 37.5mg tablets
+34956311000001106	Venlafaxine 37.5mg tablets
+36838011000001108	Venlafaxine 37.5mg tablets
+36838111000001109	Venlafaxine 37.5mg tablets
+37271611000001100	Venlafaxine 37.5mg tablets
+37271711000001109	Venlafaxine 37.5mg tablets
+37927511000001107	Venlafaxine 37.5mg tablets
+37927611000001106	Venlafaxine 37.5mg tablets
+39920811000001104	Venlafaxine 37.5mg tablets
+39920911000001109	Venlafaxine 37.5mg tablets
+39707311000001109	Venlafaxine 50mg tablets
+1127311000001103	Venlafaxine 50mg tablets
+628511000001107	Efexor 50mg tablets
+1925811000001100	Efexor 50mg tablets
+39707411000001102	Venlafaxine 75mg tablets
+983811000001108	Venlafaxine 75mg tablets
+5515511000001103	Venlafaxine 75mg tablets
+11469811000001105	Venlafaxine 75mg tablets
+237411000001109	Efexor 75mg tablets
+1926211000001107	Efexor 75mg tablets
+11469911000001100	Efexor 75mg tablets
+14958011000001109	Venlafaxine 75mg tablets
+14958111000001105	Venlafaxine 75mg tablets
+14958911000001108	Venlafaxine 75mg tablets
+14959011000001104	Venlafaxine 75mg tablets
+14959111000001103	Venlafaxine 75mg tablets
+14959211000001109	Venlafaxine 75mg tablets
+14969411000001102	Venlafaxine 75mg tablets
+14969611000001104	Venlafaxine 75mg tablets
+14978911000001105	ViePax 75mg tablets
+14979011000001101	ViePax 75mg tablets
+15022311000001108	Venlafaxine 75mg tablets
+15022511000001102	Venlafaxine 75mg tablets
+16216211000001102	Venlafaxine 75mg tablets
+16216311000001105	Venlafaxine 75mg tablets
+17876111000001106	Venlafaxine 75mg tablets
+17876211000001100	Venlafaxine 75mg tablets
+18866211000001103	Venlafaxine 75mg tablets
+18866311000001106	Venlafaxine 75mg tablets
+21040011000001108	Venlafaxine 75mg tablets
+21040211000001103	Venlafaxine 75mg tablets
+21040111000001109	Venlafaxine 75mg tablets
+21910711000001109	Venlafaxine 75mg tablets
+21910911000001106	Venlafaxine 75mg tablets
+30110211000001108	Venlafaxine 75mg tablets
+30110311000001100	Venlafaxine 75mg tablets
+34956411000001104	Venlafaxine 75mg tablets
+34956511000001100	Venlafaxine 75mg tablets
+36838211000001103	Venlafaxine 75mg tablets
+36838311000001106	Venlafaxine 75mg tablets
+37271811000001101	Venlafaxine 75mg tablets
+37271911000001106	Venlafaxine 75mg tablets
+37927711000001102	Venlafaxine 75mg tablets
+37927811000001105	Venlafaxine 75mg tablets
+39920411000001101	Venlafaxine 75mg tablets
+39920511000001102	Venlafaxine 75mg tablets
+38750311000001104	Venlafaxine 75mg modified-release capsules
+1128011000001100	Venlafaxine 75mg modified-release capsules
+5361511000001102	Venlafaxine 75mg modified-release capsules
+5539211000001109	Venlafaxine 75mg modified-release capsules
+651811000001100	Efexor XL 75mg capsules
+1927211000001109	Efexor XL 75mg capsules
+11469311000001101	Efexor XL 75mg capsules
+14934211000001109	Rodomel XL 75mg capsules
+14934311000001101	Rodomel XL 75mg capsules
+14952511000001103	Trixat XL 75mg capsules
+14952611000001104	Trixat XL 75mg capsules
+14954611000001107	Winfex XL 75mg capsules
+14954711000001103	Winfex XL 75mg capsules
+14967411000001106	Tardcaps XL 75mg capsules
+14967511000001105	Tardcaps XL 75mg capsules
+14974911000001103	Vexarin XL 75mg capsules
+14975011000001103	Vexarin XL 75mg capsules
+14975111000001102	Vexarin XL 75mg capsules
+14975211000001108	Vensir XL 75mg capsules
+14975311000001100	Vensir XL 75mg capsules
+14981511000001102	Tifaxin XL 75mg capsules
+14981611000001103	Tifaxin XL 75mg capsules
+15011711000001108	Vaxalin XL 75mg capsules
+15011811000001100	Vaxalin XL 75mg capsules
+15022711000001107	Venlafaxine 75mg modified-release capsules
+15022911000001109	Venlafaxine 75mg modified-release capsules
+15068711000001102	Venaxx XL 75mg capsules
+15068811000001105	Venaxx XL 75mg capsules
+15116711000001109	Politid XL 75mg capsules
+15116811000001101	Politid XL 75mg capsules
+15156411000001107	Venlafaxine 75mg modified-release capsules
+15156611000001105	Venlafaxine 75mg modified-release capsules
+15414911000001104	Foraven XL 75mg capsules
+15415011000001104	Foraven XL 75mg capsules
+16273411000001100	Ranfaxine XL 75mg capsules
+16273711000001106	Ranfaxine XL 75mg capsules
+16421311000001106	Venlablue XL 75mg capsules
+16421411000001104	Venlablue XL 75mg capsules
+16455011000001106	Tonpular XL 75mg capsules
+16455111000001107	Tonpular XL 75mg capsules
+16492111000001107	Alventa XL 75mg capsules
+16492211000001101	Alventa XL 75mg capsules
+17662211000001102	Mentaven XL 75mg capsules
+17662311000001105	Mentaven XL 75mg capsules
+17737211000001102	Depefex XL 75mg capsules
+17737311000001105	Depefex XL 75mg capsules
+18148611000001104	Venlaneo XL 75mg capsules
+18148711000001108	Venlaneo XL 75mg capsules
+21992411000001101	Bonilux XL 75mg capsules
+21992511000001102	Bonilux XL 75mg capsules
+24677311000001106	Amphero XL 75mg capsules
+24677411000001104	Amphero XL 75mg capsules
+34181011000001106	Vencarm XL 75mg capsules
+34181111000001107	Vencarm XL 75mg capsules
+34740911000001104	Venlasov XL 75mg capsules
+34741011000001107	Venlasov XL 75mg capsules
+35797611000001105	Venzip XL 75mg capsules
+35797711000001101	Venzip XL 75mg capsules
+36606511000001101	Majoven XL 75mg capsules
+36606611000001102	Majoven XL 75mg capsules
+36845711000001102	Apclaven XL 75mg capsules
+36845911000001100	Apclaven XL 75mg capsules
+39382511000001101	Venlafaxine 75mg modified-release capsules
+39382611000001102	Venlafaxine 75mg modified-release capsules
+38750411000001106	Venlafaxine 150mg modified-release capsules
+1106311000001109	Venlafaxine 150mg modified-release capsules
+5362211000001107	Venlafaxine 150mg modified-release capsules
+5538811000001103	Venlafaxine 150mg modified-release capsules
+413311000001104	Efexor XL 150mg capsules
+1927411000001108	Efexor XL 150mg capsules
+11469411000001108	Efexor XL 150mg capsules
+14934411000001108	Rodomel XL 150mg capsules
+14934511000001107	Rodomel XL 150mg capsules
+14952711000001108	Trixat XL 150mg capsules
+14952811000001100	Trixat XL 150mg capsules
+14954811000001106	Winfex XL 150mg capsules
+14954911000001101	Winfex XL 150mg capsules
+14967611000001109	Tardcaps XL 150mg capsules
+14967711000001100	Tardcaps XL 150mg capsules
+14974711000001100	Vexarin XL 150mg capsules
+14974811000001108	Vexarin XL 150mg capsules
+14975411000001107	Vensir XL 150mg capsules
+14975511000001106	Vensir XL 150mg capsules
+14981711000001107	Tifaxin XL 150mg capsules
+14981811000001104	Tifaxin XL 150mg capsules
+15012111000001102	Vaxalin XL 150mg capsules
+15012211000001108	Vaxalin XL 150mg capsules
+15023111000001100	Venlafaxine 150mg modified-release capsules
+15023311000001103	Venlafaxine 150mg modified-release capsules
+15068911000001100	Venaxx XL 150mg capsules
+15069011000001109	Venaxx XL 150mg capsules
+15116511000001104	Politid XL 150mg capsules
+15116611000001100	Politid XL 150mg capsules
+15157211000001105	Venlafaxine 150mg modified-release capsules
+15157411000001109	Venlafaxine 150mg modified-release capsules
+15414711000001101	Foraven XL 150mg capsules
+15414811000001109	Foraven XL 150mg capsules
+16274611000001104	Ranfaxine XL 150mg capsules
+16275111000001106	Ranfaxine XL 150mg capsules
+16421511000001100	Venlablue XL 150mg capsules
+16421611000001101	Venlablue XL 150mg capsules
+16455211000001101	Tonpular XL 150mg capsules
+16455311000001109	Tonpular XL 150mg capsules
+16492311000001109	Alventa XL 150mg capsules
+16492411000001102	Alventa XL 150mg capsules
+17662411000001103	Mentaven XL 150mg capsules
+17662511000001104	Mentaven XL 150mg capsules
+17737011000001107	Depefex XL 150mg capsules
+17737111000001108	Depefex XL 150mg capsules
+18148811000001100	Venlaneo XL 150mg capsules
+18148911000001105	Venlaneo XL 150mg capsules
+21992211000001100	Bonilux XL 150mg capsules
+21992311000001108	Bonilux XL 150mg capsules
+24676911000001109	Amphero XL 150mg capsules
+24677211000001103	Amphero XL 150mg capsules
+34180811000001108	Vencarm XL 150mg capsules
+34180911000001103	Vencarm XL 150mg capsules
+34740711000001101	Venlasov XL 150mg capsules
+34740811000001109	Venlasov XL 150mg capsules
+35797111000001102	Venzip XL 150mg capsules
+35797311000001100	Venzip XL 150mg capsules
+36606711000001106	Majoven XL 150mg capsules
+36606811000001103	Majoven XL 150mg capsules
+36846211000001103	Apclaven XL 150mg capsules
+36846411000001104	Apclaven XL 150mg capsules
+39382711000001106	Venlafaxine 150mg modified-release capsules
+39382811000001103	Venlafaxine 150mg modified-release capsules
+8722711000001103	Venlafaxine 37.5mg/5ml oral suspension
+8714311000001103	Venlafaxine 37.5mg/5ml oral suspension
+22252311000001102	Venlafaxine 37.5mg/5ml oral suspension
+8714511000001109	Venlafaxine 37.5mg/5ml oral suspension
+8714611000001108	Venlafaxine 37.5mg/5ml oral suspension
+22252411000001109	Venlafaxine 37.5mg/5ml oral suspension
+13467111000001100	Venlafaxine 150mg/5ml oral liquid
+13461811000001100	Venlafaxine 150mg/5ml oral liquid
+13461911000001105	Venlafaxine 150mg/5ml oral liquid
+13462011000001103	Venlafaxine 150mg/5ml oral liquid
+14018011000001106	Venlafaxine 75mg/5ml oral solution
+13986011000001100	Venlafaxine 75mg/5ml oral solution
+23398511000001104	Venlafaxine 75mg/5ml oral solution
+13986111000001104	Venlafaxine 75mg/5ml oral solution
+13986211000001105	Venlafaxine 75mg/5ml oral solution
+23398611000001100	Venlafaxine 75mg/5ml oral solution
+14018111000001107	Venlafaxine 75mg/5ml oral suspension
+13986311000001102	Venlafaxine 75mg/5ml oral suspension
+23398711000001109	Venlafaxine 75mg/5ml oral suspension
+13986411000001109	Venlafaxine 75mg/5ml oral suspension
+13986511000001108	Venlafaxine 75mg/5ml oral suspension
+23398811000001101	Venlafaxine 75mg/5ml oral suspension
+14017811000001104	Venlafaxine 150mg/5ml oral liquid
+13995211000001103	Venlafaxine 150mg/5ml oral liquid
+13995311000001106	Venlafaxine 150mg/5ml oral liquid
+13995411000001104	Venlafaxine 150mg/5ml oral liquid
+14017911000001109	Venlafaxine 37.5mg/5ml oral solution
+13995511000001100	Venlafaxine 37.5mg/5ml oral solution
+22252111000001104	Venlafaxine 37.5mg/5ml oral solution
+13995611000001101	Venlafaxine 37.5mg/5ml oral solution
+13995711000001105	Venlafaxine 37.5mg/5ml oral solution
+22252211000001105	Venlafaxine 37.5mg/5ml oral solution
+14985011000001107	Venlafaxine 75mg modified-release tablets
+14980411000001105	Venlafaxine 75mg modified-release tablets
+15375611000001107	Venlafaxine 75mg modified-release tablets
+14980711000001104	ViePax XL 75mg tablets
+14980811000001107	ViePax XL 75mg tablets
+15375711000001103	Venlalic XL 75mg tablets
+15375811000001106	Venlalic XL 75mg tablets
+21965311000001104	Sunveniz XL 75mg tablets
+21965411000001106	Sunveniz XL 75mg tablets
+23343411000001101	Venladex XL 75mg tablets
+23343511000001102	Venladex XL 75mg tablets
+14984911000001107	Venlafaxine 150mg modified-release tablets
+14981111000001106	Venlafaxine 150mg modified-release tablets
+15375311000001102	Venlafaxine 150mg modified-release tablets
+14981311000001108	ViePax XL 150mg tablets
+14981411000001101	ViePax XL 150mg tablets
+15375411000001109	Venlalic XL 150mg tablets
+15375511000001108	Venlalic XL 150mg tablets
+21990711000001108	Sunveniz XL 150mg tablets
+21990811000001100	Sunveniz XL 150mg tablets
+23343211000001100	Venladex XL 150mg tablets
+23343311000001108	Venladex XL 150mg tablets
+38598211000001102	Venlafaxine 150mg modified-release tablets
+38598311000001105	Venlafaxine 150mg modified-release tablets
+15439111000001107	Venlafaxine 225mg modified-release tablets
+15375911000001101	Venlafaxine 225mg modified-release tablets
+35638311000001104	Venlafaxine 225mg modified-release tablets
+15376011000001109	Venlalic XL 225mg tablets
+15376511000001101	Venlalic XL 225mg tablets
+35638211000001107	Venladex XL 225mg tablets
+35638411000001106	Venladex XL 225mg tablets
+36656911000001104	ViePax XL 225mg tablets
+36657011000001100	ViePax XL 225mg tablets
+15535911000001101	Venlafaxine 150mg oral powder sachets
+15531511000001105	Venlafaxine 150mg oral powder sachets
+15531611000001109	Venlafaxine 150mg oral powder sachets
+15531711000001100	Venlafaxine 150mg oral powder sachets
+18765111000001101	Venlafaxine 37.5mg modified-release tablets
+18748211000001109	Venlafaxine 37.5mg modified-release tablets
+18748311000001101	Venlalic XL 37.5mg tablets
+18748411000001108	Venlalic XL 37.5mg tablets
+23560511000001101	Venlafaxine 37.5mg modified-release capsules
+23474211000001105	Venlafaxine 37.5mg modified-release capsules
+23474511000001108	Venlablue XL 37.5mg capsules
+23474611000001107	Venlablue XL 37.5mg capsules
+34181211000001101	Vencarm XL 37.5mg capsules
+34181311000001109	Vencarm XL 37.5mg capsules
+36606311000001107	Majoven XL 37.5mg capsules
+36606411000001100	Majoven XL 37.5mg capsules
+36845311000001101	Apclaven XL 37.5mg capsules
+36845511000001107	Apclaven XL 37.5mg capsules
+31016011000001103	Venlafaxine 225mg modified-release capsules
+30991011000001105	Venlafaxine 225mg modified-release capsules
+35013711000001107	Venlafaxine 225mg modified-release capsules
+30991111000001106	Efexor XL 225mg capsules
+30991211000001100	Efexor XL 225mg capsules
+32833611000001107	Vensir XL 225mg capsules
+32833811000001106	Vensir XL 225mg capsules
+34180611000001109	Vencarm XL 225mg capsules
+34180711000001100	Vencarm XL 225mg capsules
+35013811000001104	Venlafaxine 225mg modified-release capsules
+35013911000001109	Venlafaxine 225mg modified-release capsules
+37272011000001104	Venlafaxine 225mg modified-release capsules
+37272111000001103	Venlafaxine 225mg modified-release capsules
+38922911000001105	Venlafaxine 225mg modified-release capsules
+38923011000001102	Venlafaxine 225mg modified-release capsules
+35576211000001100	Venlafaxine 225mg/5ml oral suspension
+35548911000001109	Venlafaxine 225mg/5ml oral suspension
+35549011000001100	Venlafaxine 225mg/5ml oral suspension
+35549111000001104	Venlafaxine 225mg/5ml oral suspension
+38003311000001102	Venlafaxine 300mg modified-release tablets
+37996811000001100	Venlafaxine 300mg modified-release tablets
+37997111000001105	Venlalic XL 300mg tablets
+37997211000001104	Venlalic XL 300mg tablets
+40111011000001106	Venlafaxine 37.5mg/5ml oral solution sugar free
+39959911000001102	Venlafaxine 37.5mg/5ml oral solution sugar free
+39960011000001100	Venlafaxine 37.5mg/5ml oral solution sugar free
+39960111000001104	Venlafaxine 37.5mg/5ml oral solution sugar free
+40197511000001105	Venlafaxine 37.5mg/5ml oral solution sugar free
+40197611000001109	Venlafaxine 37.5mg/5ml oral solution sugar free
+40111111000001107	Venlafaxine 75mg/5ml oral solution sugar free
+39960211000001105	Venlafaxine 75mg/5ml oral solution sugar free
+39960311000001102	Venlafaxine 75mg/5ml oral solution sugar free
+39960411000001109	Venlafaxine 75mg/5ml oral solution sugar free
+40197711000001100	Venlafaxine 75mg/5ml oral solution sugar free
+40197811000001108	Venlafaxine 75mg/5ml oral solution sugar free

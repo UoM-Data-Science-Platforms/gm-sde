@@ -1,0 +1,16 @@
+15859111000001102	Liraglutide 6mg/1ml inj 3ml pre-filled disposable devices
+15858411000001104	Liraglutide 6mg/1ml inj 3ml pre-filled disposable devices
+15858511000001100	Liraglutide 6mg/1ml inj 3ml pre-filled disposable devices
+33747811000001105	Liraglutide 6mg/1ml inj 3ml pre-filled disposable devices
+15858611000001101	Victoza 6mg/ml solution for injection 3ml pre-filled pens
+15858711000001105	Victoza 6mg/ml solution for injection 3ml pre-filled pens
+15859011000001103	Victoza 6mg/ml solution for injection 3ml pre-filled pens
+33747711000001102	Saxenda 6mg/ml solution for injection 3ml pre-filled pens
+38529711000001107	Saxenda 6mg/ml solution for injection 3ml pre-filled pens
+33747911000001100	Saxenda 6mg/ml solution for injection 3ml pre-filled pens
+28279611000001109	Insulin degludec 100u/ml/Lirag 3.6mg/ml inj3ml pf dispos dev
+28054211000001103	Insulin degludec 100u/ml/Lirag 3.6mg/ml inj3ml pf dispos dev
+30457511000001103	Insulin degludec 100u/ml/Lirag 3.6mg/ml inj3ml pf dispos dev
+28054311000001106	Xultophy 100units/ml / 3.6mg/ml inj 3ml pre-filled pens
+28054411000001104	Xultophy 100units/ml / 3.6mg/ml inj 3ml pre-filled pens
+30458611000001100	Xultophy 100units/ml / 3.6mg/ml inj 3ml pre-filled pens

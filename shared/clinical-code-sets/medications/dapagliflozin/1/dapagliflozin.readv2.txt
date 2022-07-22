@@ -1,0 +1,8 @@
+fth1.	FORXIGA 5mg tablets
+fth2.	FORXIGA 10mg tablets
+fth3.	DAPAGLIFLOZIN 5mg tablets
+fth4.	DAPAGLIFLOZIN 10mg tablets
+ftm1.	XIGDUO 5mg/850mg tablets
+ftm2.	DAPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/850mg tablets
+ftm3.	XIGDUO 5mg/1000mg tablets
+ftm4.	DAPAGLIFLOZIN+METFORMIN HYDROCHLORIDE 5mg/1000mg tablets

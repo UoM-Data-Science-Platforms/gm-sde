@@ -1,0 +1,160 @@
+19225000	Lorazepam product
+19403009	Flurazepam product
+26800000	Midazolam product
+35967000	Medazepam product
+48546005	Product containing diazepam
+54705000	Temazepam product
+69708003	Clonazepam product
+74065006	Prazepam product
+78449007	Nitrazepam product
+79225003	Oxazepam product
+82746003	Chlordiazepoxide product
+96233008	Lormetazepam product
+96234002	Bromazepam product
+96236000	Clobazam product
+96237009	Flunitrazepam product
+111127002	Alprazolam product
+111128007	Triazolam product
+321112001	Product containing precisely flunitrazepam 1 milligram/1 each conventional release oral tablet
+321117007	Product containing precisely flurazepam (as flurazepam hydrochloride) 15 milligram/1 each conventional release oral capsule (clinical drug)
+321118002	Product containing precisely flurazepam (as flurazepam hydrochloride) 30 milligram/1 each conventional release oral capsule
+321119005	Loprazolam product
+321120004	Product containing precisely loprazolam 1 milligram/1 each conventional release oral tablet
+321122007	Lormetazepam 500 microgram oral tablet
+321123002	Product containing precisely lormetazepam 1 milligram/1 each conventional release oral tablet
+321127001	Product containing precisely nitrazepam 5 milligram/1 each conventional release oral tablet (clinical drug)
+321129003	Product containing precisely nitrazepam 500 microgram/1 milliliter conventional release oral suspension
+321141005	Nitrazepam 1 mg/mL oral suspension
+321152004	Product containing precisely temazepam 10 milligram/1 each conventional release oral tablet
+321153009	Product containing precisely temazepam 20 milligram/1 each conventional release oral tablet (clinical drug)
+321196004	Product containing precisely diazepam 2 milligram/1 each conventional release oral tablet
+321197008	Product containing precisely diazepam 5 milligram/1 each conventional release oral tablet
+321198003	Product containing precisely diazepam 10 milligram/1 each conventional release oral tablet
+321199006	Product containing precisely diazepam 400 microgram/1 milliliter conventional release oral solution (clinical drug)
+321203006	Product containing precisely diazepam 1 milligram/1 milliliter conventional release oral solution (clinical drug)
+321211001	Diazepam 500 microgram/mL oral suspension
+321212008	Product containing precisely diazepam 2 milligram/1 milliliter conventional release oral suspension
+321238008	Product containing precisely diazepam 10 milligram/1 each conventional release rectal suppository (clinical drug)
+321241004	Product containing precisely alprazolam 250 microgram/1 each conventional release oral tablet (clinical drug)
+321242006	Product containing precisely alprazolam 500 microgram/1 each conventional release oral tablet
+321245008	Product containing precisely bromazepam 1.5 milligram/1 each conventional release oral tablet (clinical drug)
+321246009	Product containing precisely bromazepam 3 milligram/1 each conventional release oral tablet
+321247000	Chlordiazepoxide hydrochloride 5 mg oral capsule
+321248005	Product containing precisely chlordiazepoxide hydrochloride 10 milligram/1 each conventional release oral capsule
+321249002	Chlordiazepoxide (as chlordiazepoxide hydrochloride) 5 mg oral tablet
+321250002	Chlordiazepoxide (as chlordiazepoxide hydrochloride) 10 mg oral tablet
+321272000	Product containing precisely clobazam 10 milligram/1 each conventional release oral tablet
+321276002	Product containing precisely dipotassium clorazepate 7.5 milligram/1 each conventional release oral capsule (clinical drug)
+321277006	Product containing precisely dipotassium clorazepate 15 milligram/1 each conventional release oral capsule (clinical drug)
+321288000	Ketazolam product
+321294008	Product containing precisely lorazepam 1 milligram/1 each conventional release oral tablet
+321295009	Product containing precisely lorazepam 2.5 milligram/1 each conventional release oral tablet (clinical drug)
+321314006	Product containing precisely oxazepam 10 milligram/1 each conventional release oral tablet (clinical drug)
+321315007	Product containing precisely oxazepam 15 milligram/1 each conventional release oral tablet
+321316008	Product containing precisely oxazepam 30 milligram/1 each conventional release oral tablet (clinical drug)
+322897008	Clonazepam 500 microgram oral tablet
+322898003	Product containing precisely clonazepam 2 milligram/1 each conventional release oral tablet
+323069006	Diazepam 2.5mg/1.25mL rectal solution (product)
+323073009	Diazepam 5mg/2.5mL rectal solution (product)
+323074003	Diazepam 10mg/2.5mL rectal solution (product)
+349862002	Diazepam in oral dosage form
+349863007	Diazepam in parenteral dosage form
+349864001	Diazepam in rectal dosage form
+349865000	Product containing lorazepam in oral dosage form
+349866004	Product containing lorazepam in parenteral dosage form
+371276004	Alprazolam 0.5mg/5ml oral solution
+371281008	Product containing precisely alprazolam 1 milligram/1 each conventional release oral tablet
+371297003	Chlordiazepoxide hydrochloride 25 mg oral capsule
+371298008	Product containing precisely chlordiazepoxide hydrochloride 25 milligram/1 each conventional release oral tablet (clinical drug)
+371349001	Product containing clorazepate
+371351002	Dipotassium clorazepate 7.5 mg oral tablet
+371352009	Product containing precisely dipotassium clorazepate 15 milligram/1 each conventional release oral tablet (clinical drug)
+371353004	Product containing precisely dipotassium clorazepate 11.25 milligram/1 each conventional release oral tablet (clinical drug)
+371357003	Diazepam 5mg/ml gel
+371376001	Product containing precisely temazepam 7.5 milligram/1 each conventional release oral capsule
+373981005	Triazolam 125 microgram oral tablet
+373984002	Product containing precisely triazolam 250 microgram/1 each conventional release oral tablet (clinical drug)
+374015004	Product containing precisely alprazolam 2 milligram/1 each conventional release oral tablet
+375112009	Temazepam 30 mg oral capsule
+375113004	Product containing precisely temazepam 15 milligram/1 each conventional release oral capsule (clinical drug)
+375522007	Product containing precisely clonazepam 1 milligram/1 each conventional release oral tablet
+375896008	Dipotassium clorazepate 22.5 mg oral tablet
+376065006	Dipotassium clorazepate 3.75 mg oral tablet
+376384001	Clonazepam 0.125mg wafer
+376385000	Clonazepam 0.25mg wafer
+376386004	Clonazepam 0.5mg wafer
+376387008	Clonazepam 1mg wafer
+376388003	Clonazepam 2mg wafer
+377136009	Product containing precisely oxazepam 15 milligram/1 each conventional release oral capsule
+377140000	Product containing precisely oxazepam 10 milligram/1 each conventional release oral capsule
+377141001	Product containing precisely oxazepam 30 milligram/1 each conventional release oral capsule
+377145005	Product containing precisely lorazepam 2 milligram/1 each conventional release oral tablet
+377147002	Lorazepam 500 microgram oral tablet
+377277000	Product containing precisely chlordiazepoxide hydrochloride 5 milligram and clidinium bromide 2.5 milligram/1 each conventional release oral capsule (clinical drug)
+377576008	Product containing precisely amitriptyline hydrochloride 12.5 milligram and chlordiazepoxide 5 milligram/1 each conventional release oral tablet
+386173007	Diazepam 1mg/ml solution
+386699004	Product containing chlordiazepoxide in oral dosage form
+386700003	Product containing chlordiazepoxide in parenteral dosage form
+389104003	Product containing midazolam in oral dosage form
+389105002	Product containing midazolam in parenteral dosage form
+417154009	Alprazolam 0.5mg orally disintegrating tablet
+417222005	Alprazolam 1mg orally disintegrating tablet
+417367001	Alprazolam 0.25mg orally disintegrating tablet
+417450007	Alprazolam 2mg orally disintegrating tablet
+426016003	Diazepam 5 mg/mL oral solution
+429315009	Product containing precisely amitriptyline hydrochloride 12.5 milligram and chlordiazepoxide 10 milligram/1 each conventional release oral tablet
+430273009	Product containing precisely temazepam 22.5 milligram/1 each conventional release oral capsule (clinical drug)
+714025003	Midazolam in oropharyngeal dosage form
+764154009	Clobazam in oral dosage form
+766456003	Alprazolam 1mg/ml conventional release oral solution
+766468007	Clonazepam 100 microgram/mL oral solution
+766469004	Clonazepam 400 microgram/mL oral solution
+766522006	Product containing precisely temazepam 2 milligram/1 milliliter conventional release oral solution (clinical drug)
+767068006	Diazepam 5mg/mL injection emulsion
+767832002	Product containing alprazolam in oral dosage form
+767871004	Product containing amitriptyline and chlordiazepoxide
+767872006	Amitriptyline and chlordiazepoxide in oral dosage form
+767944000	Bromazepam in oral dosage form
+767991007	Clonazepam in oral dosage form
+768060001	Product containing chlordiazepoxide and clidinium
+768061002	Chlordiazepoxide and clidinium in oral dosage form
+768093005	Clorazepate in oral dosage form
+768199007	Temazepam in oral dosage form
+768388003	Flurazepam in oral dosage form
+768389006	Product containing flunitrazepam in oral dosage form
+769153001	Product containing precisely midazolam (as midazolam hydrochloride) 2 milligram/1 milliliter conventional release oral solution (clinical drug)
+769325008	Product containing nitrazepam in oral dosage form
+769669007	Product containing precisely diazepam 10 milligram/2 milliliter conventional release emulsion for injection ampule (clinical drug)
+769670008	Diazepam 10 mg/2 mL solution for injection ampoule
+769912005	Midazolam (as midazolam hydrochloride) 10 mg/5 mL solution for injection ampule
+769913000	Product containing precisely midazolam (as midazolam hydrochloride) 10 milligram/2 milliliter conventional release solution for injection ampule
+769914006	Midazolam (as midazolam hydrochloride) 2 mg/2 mL solution for injection ampule
+769915007	Product containing precisely midazolam (as midazolam hydrochloride) 5 milligram/5 milliliter conventional release solution for injection ampule (clinical drug)
+769916008	Product containing precisely midazolam (as midazolam hydrochloride) 50 milligram/10 milliliter conventional release solution for injection ampule
+770224002	Lorazepam 4 mg/mL solution for injection ampoule
+27928002	Flurazepam hydrochloride (substance)
+39815009	Clorazepate (substance)
+40601003	Chlordiazepoxide hydrochloride (substance)
+84213009	Midazolam hydrochloride (substance)
+372866006	Chlordiazepoxide
+373476007	Midazolam
+386983007	Alprazolam
+386984001	Triazolam
+387106007	Lorazepam
+387109000	Flurazepam
+387192003	Medazepam
+387264003	Diazepam
+387300007	Temazepam
+387383007	Clonazepam
+387417001	Prazepam
+387449001	Nitrazepam
+387453004	Dipotassium clorazepate (substance)
+387455006	Oxazepam
+387570005	Lormetazepam
+387571009	Bromazepam
+387573007	Flunitrazepam
+395774003	Loprazolam
+419657007	Ketazolam
+424521005	Midazolam maleate
+442011001	Loprazolam mesilate (substance)
+387572002	Clobazam

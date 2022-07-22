@@ -1,0 +1,491 @@
+321624009	Quetiapine 25mg tablets
+1125711000001105	Quetiapine 25mg tablets
+4082111000001108	Quetiapine 25mg tablets
+13998911000001101	Quetiapine 25mg tablets
+596211000001109	Seroquel 25mg tablets
+2214211000001107	Seroquel 25mg tablets
+4082311000001105	Seroquel 25mg tablets
+20160911000001104	Quetiapine 25mg tablets
+20161011000001107	Quetiapine 25mg tablets
+20354811000001100	Quetiapine 25mg tablets
+20354911000001105	Quetiapine 25mg tablets
+20360511000001100	Quetiapine 25mg tablets
+20360611000001101	Quetiapine 25mg tablets
+20365611000001109	Quetiapine 25mg tablets
+20365711000001100	Quetiapine 25mg tablets
+20415911000001108	Quetiapine 25mg tablets
+20416011000001100	Quetiapine 25mg tablets
+20437411000001102	Quetiapine 25mg tablets
+20437511000001103	Quetiapine 25mg tablets
+20522711000001104	Quetiapine 25mg tablets
+20522811000001107	Quetiapine 25mg tablets
+20917511000001108	Quetiapine 25mg tablets
+20917611000001107	Quetiapine 25mg tablets
+21286911000001106	Quetiapine 25mg tablets
+21287011000001105	Quetiapine 25mg tablets
+21705911000001108	Quetiapine 25mg tablets
+21706011000001100	Quetiapine 25mg tablets
+21871311000001101	Quetiapine 25mg tablets
+21871411000001108	Quetiapine 25mg tablets
+27479111000001107	Quetiapine 25mg tablets
+27479711000001108	Quetiapine 25mg tablets
+30082611000001100	Quetiapine 25mg tablets
+30082711000001109	Quetiapine 25mg tablets
+32449611000001100	Quetiapine 25mg tablets
+32449711000001109	Quetiapine 25mg tablets
+33611211000001102	Quetiapine 25mg tablets
+33611311000001105	Quetiapine 25mg tablets
+35178711000001103	Quetiapine 25mg tablets
+35178811000001106	Quetiapine 25mg tablets
+35657411000001106	Quetiapine 25mg tablets
+35657511000001105	Quetiapine 25mg tablets
+36883311000001109	Quetiapine 25mg tablets
+36883411000001102	Quetiapine 25mg tablets
+37136211000001106	Quetiapine 25mg tablets
+37136311000001103	Quetiapine 25mg tablets
+37904411000001108	Quetiapine 25mg tablets
+37904611000001106	Quetiapine 25mg tablets
+39156911000001109	Quetiapine 25mg tablets
+39157011000001108	Quetiapine 25mg tablets
+39203111000001106	Quetiapine 25mg tablets
+39203211000001100	Quetiapine 25mg tablets
+40201411000001103	Quetiapine 25mg tablets
+40201511000001104	Quetiapine 25mg tablets
+321625005	Quetiapine 100mg tablets
+1239711000001106	Quetiapine 100mg tablets
+4082411000001103	Quetiapine 100mg tablets
+340911000001108	Seroquel 100mg tablets
+2215511000001106	Seroquel 100mg tablets
+4082511000001104	Seroquel 100mg tablets
+20161111000001108	Quetiapine 100mg tablets
+20161211000001102	Quetiapine 100mg tablets
+20355011000001105	Quetiapine 100mg tablets
+20355111000001106	Quetiapine 100mg tablets
+20360711000001105	Quetiapine 100mg tablets
+20360811000001102	Quetiapine 100mg tablets
+20365811000001108	Quetiapine 100mg tablets
+20365911000001103	Quetiapine 100mg tablets
+20416111000001104	Quetiapine 100mg tablets
+20416211000001105	Quetiapine 100mg tablets
+20437611000001104	Quetiapine 100mg tablets
+20437711000001108	Quetiapine 100mg tablets
+20522411000001105	Quetiapine 100mg tablets
+20522611000001108	Quetiapine 100mg tablets
+20917711000001103	Quetiapine 100mg tablets
+20917811000001106	Quetiapine 100mg tablets
+21287111000001106	Quetiapine 100mg tablets
+21287211000001100	Quetiapine 100mg tablets
+21706111000001104	Quetiapine 100mg tablets
+21706211000001105	Quetiapine 100mg tablets
+21871511000001107	Quetiapine 100mg tablets
+21871611000001106	Quetiapine 100mg tablets
+27483311000001103	Quetiapine 100mg tablets
+27483611000001108	Quetiapine 100mg tablets
+30082811000001101	Quetiapine 100mg tablets
+30082911000001106	Quetiapine 100mg tablets
+30860611000001103	Quetiapine 100mg tablets
+30860711000001107	Quetiapine 100mg tablets
+32449811000001101	Quetiapine 100mg tablets
+32449911000001106	Quetiapine 100mg tablets
+33611411000001103	Quetiapine 100mg tablets
+33611511000001104	Quetiapine 100mg tablets
+35178911000001101	Quetiapine 100mg tablets
+35179011000001105	Quetiapine 100mg tablets
+35657611000001109	Quetiapine 100mg tablets
+35657711000001100	Quetiapine 100mg tablets
+36883511000001103	Quetiapine 100mg tablets
+36883711000001108	Quetiapine 100mg tablets
+37901611000001109	Quetiapine 100mg tablets
+37901711000001100	Quetiapine 100mg tablets
+38747211000001108	Quetiapine 100mg tablets
+38747311000001100	Quetiapine 100mg tablets
+39153511000001105	Quetiapine 100mg tablets
+39153611000001109	Quetiapine 100mg tablets
+39199611000001101	Quetiapine 100mg tablets
+39199711000001105	Quetiapine 100mg tablets
+39703111000001104	Quetiapine 150mg tablets
+1085111000001108	Quetiapine 150mg tablets
+4082711000001109	Quetiapine 150mg tablets
+4111000001106	Seroquel 150mg tablets
+2215611000001105	Seroquel 150mg tablets
+4082811000001101	Seroquel 150mg tablets
+20161411000001103	Quetiapine 150mg tablets
+20161511000001104	Quetiapine 150mg tablets
+20355211000001100	Quetiapine 150mg tablets
+20355311000001108	Quetiapine 150mg tablets
+20360911000001107	Quetiapine 150mg tablets
+20361011000001104	Quetiapine 150mg tablets
+20366011000001106	Quetiapine 150mg tablets
+20366111000001107	Quetiapine 150mg tablets
+20416311000001102	Quetiapine 150mg tablets
+20416411000001109	Quetiapine 150mg tablets
+20437811000001100	Quetiapine 150mg tablets
+20437911000001105	Quetiapine 150mg tablets
+20917911000001101	Quetiapine 150mg tablets
+20918011000001104	Quetiapine 150mg tablets
+21287311000001108	Quetiapine 150mg tablets
+21287411000001101	Quetiapine 150mg tablets
+21610811000001102	Quetiapine 150mg tablets
+21610911000001107	Quetiapine 150mg tablets
+21706311000001102	Quetiapine 150mg tablets
+21706411000001109	Quetiapine 150mg tablets
+21872211000001102	Quetiapine 150mg tablets
+21872311000001105	Quetiapine 150mg tablets
+27485511000001108	Quetiapine 150mg tablets
+27485811000001106	Quetiapine 150mg tablets
+30083011000001103	Quetiapine 150mg tablets
+30083111000001102	Quetiapine 150mg tablets
+30860811000001104	Quetiapine 150mg tablets
+30860911000001109	Quetiapine 150mg tablets
+33611611000001100	Quetiapine 150mg tablets
+33611711000001109	Quetiapine 150mg tablets
+35179111000001106	Quetiapine 150mg tablets
+35179211000001100	Quetiapine 150mg tablets
+35657811000001108	Quetiapine 150mg tablets
+35657911000001103	Quetiapine 150mg tablets
+36883911000001105	Quetiapine 150mg tablets
+36884011000001108	Quetiapine 150mg tablets
+37901811000001108	Quetiapine 150mg tablets
+37901911000001103	Quetiapine 150mg tablets
+38747411000001107	Quetiapine 150mg tablets
+38747511000001106	Quetiapine 150mg tablets
+39153711000001100	Quetiapine 150mg tablets
+39153911000001103	Quetiapine 150mg tablets
+39202211000001106	Quetiapine 150mg tablets
+39202311000001103	Quetiapine 150mg tablets
+321626006	Quetiapine 200mg tablets
+1094611000001100	Quetiapine 200mg tablets
+476411000001108	Seroquel 200mg tablets
+2216611000001100	Seroquel 200mg tablets
+20161711000001109	Quetiapine 200mg tablets
+20161811000001101	Quetiapine 200mg tablets
+20355411000001101	Quetiapine 200mg tablets
+20355511000001102	Quetiapine 200mg tablets
+20361111000001103	Quetiapine 200mg tablets
+20361211000001109	Quetiapine 200mg tablets
+20366211000001101	Quetiapine 200mg tablets
+20366311000001109	Quetiapine 200mg tablets
+20416511000001108	Quetiapine 200mg tablets
+20416611000001107	Quetiapine 200mg tablets
+20438111000001108	Quetiapine 200mg tablets
+20438211000001102	Quetiapine 200mg tablets
+20521411000001100	Quetiapine 200mg tablets
+20521511000001101	Quetiapine 200mg tablets
+20918111000001103	Quetiapine 200mg tablets
+20918211000001109	Quetiapine 200mg tablets
+21287511000001102	Quetiapine 200mg tablets
+21287611000001103	Quetiapine 200mg tablets
+21706511000001108	Quetiapine 200mg tablets
+21706611000001107	Quetiapine 200mg tablets
+21872411000001103	Quetiapine 200mg tablets
+21872511000001104	Quetiapine 200mg tablets
+27486711000001106	Quetiapine 200mg tablets
+27487011000001107	Quetiapine 200mg tablets
+30083211000001108	Quetiapine 200mg tablets
+30083311000001100	Quetiapine 200mg tablets
+30861011000001101	Quetiapine 200mg tablets
+30861111000001100	Quetiapine 200mg tablets
+32450211000001107	Quetiapine 200mg tablets
+32450311000001104	Quetiapine 200mg tablets
+33611811000001101	Quetiapine 200mg tablets
+33611911000001106	Quetiapine 200mg tablets
+35179311000001108	Quetiapine 200mg tablets
+35179411000001101	Quetiapine 200mg tablets
+35658011000001101	Quetiapine 200mg tablets
+35658111000001100	Quetiapine 200mg tablets
+36884111000001109	Quetiapine 200mg tablets
+36884211000001103	Quetiapine 200mg tablets
+37904211000001109	Quetiapine 200mg tablets
+37904311000001101	Quetiapine 200mg tablets
+38747611000001105	Quetiapine 200mg tablets
+38747711000001101	Quetiapine 200mg tablets
+39154111000001104	Quetiapine 200mg tablets
+39154211000001105	Quetiapine 200mg tablets
+39202511000001109	Quetiapine 200mg tablets
+39202611000001108	Quetiapine 200mg tablets
+4090811000001103	Generic Seroquel tablets starter pack
+4083211000001108	Generic Seroquel tablets starter pack
+4083311000001100	Seroquel tablets starter pack
+4083411000001107	Seroquel tablets starter pack
+429830008	Quetiapine 300mg tablets
+4989011000001105	Quetiapine 300mg tablets
+4989111000001106	Seroquel 300mg tablets
+4989211000001100	Seroquel 300mg tablets
+20161911000001106	Quetiapine 300mg tablets
+20162011000001104	Quetiapine 300mg tablets
+20355611000001103	Quetiapine 300mg tablets
+20355711000001107	Quetiapine 300mg tablets
+20361311000001101	Quetiapine 300mg tablets
+20361411000001108	Quetiapine 300mg tablets
+20366611000001104	Quetiapine 300mg tablets
+20366811000001100	Quetiapine 300mg tablets
+20416711000001103	Quetiapine 300mg tablets
+20416811000001106	Quetiapine 300mg tablets
+20438511000001104	Quetiapine 300mg tablets
+20438611000001100	Quetiapine 300mg tablets
+20521211000001104	Quetiapine 300mg tablets
+20521311000001107	Quetiapine 300mg tablets
+20918311000001101	Quetiapine 300mg tablets
+20918411000001108	Quetiapine 300mg tablets
+21287811000001104	Quetiapine 300mg tablets
+21287911000001109	Quetiapine 300mg tablets
+21706711000001103	Quetiapine 300mg tablets
+21706811000001106	Quetiapine 300mg tablets
+21872611000001100	Quetiapine 300mg tablets
+21872811000001101	Quetiapine 300mg tablets
+27487611000001100	Quetiapine 300mg tablets
+27487911000001106	Quetiapine 300mg tablets
+30083411000001107	Quetiapine 300mg tablets
+30083511000001106	Quetiapine 300mg tablets
+30861311000001103	Quetiapine 300mg tablets
+30861411000001105	Quetiapine 300mg tablets
+32450511000001105	Quetiapine 300mg tablets
+32450611000001109	Quetiapine 300mg tablets
+33612011000001104	Quetiapine 300mg tablets
+33612111000001103	Quetiapine 300mg tablets
+35179511000001102	Quetiapine 300mg tablets
+35179611000001103	Quetiapine 300mg tablets
+35658211000001106	Quetiapine 300mg tablets
+35658311000001103	Quetiapine 300mg tablets
+36884311000001106	Quetiapine 300mg tablets
+36884411000001104	Quetiapine 300mg tablets
+37904811000001105	Quetiapine 300mg tablets
+37904911000001100	Quetiapine 300mg tablets
+38747811000001109	Quetiapine 300mg tablets
+38747911000001104	Quetiapine 300mg tablets
+39154311000001102	Quetiapine 300mg tablets
+39154411000001109	Quetiapine 300mg tablets
+39203411000001101	Quetiapine 300mg tablets
+39203511000001102	Quetiapine 300mg tablets
+13011711000001100	Quetiapine 12.5mg/5ml oral suspension
+12988611000001102	Quetiapine 12.5mg/5ml oral suspension
+19604211000001102	Quetiapine 12.5mg/5ml oral suspension
+19934411000001107	Quetiapine 12.5mg/5ml oral suspension
+12988711000001106	Quetiapine 12.5mg/5ml oral suspension
+12988811000001103	Quetiapine 12.5mg/5ml oral suspension
+19604311000001105	Quetiapine 12.5mg/5ml oral suspension
+19934511000001106	Quetiapine 12.5mg/5ml oral suspension
+13011611000001109	Quetiapine 12.5mg/5ml oral solution
+12988911000001108	Quetiapine 12.5mg/5ml oral solution
+12989111000001103	Quetiapine 12.5mg/5ml oral solution
+12989311000001101	Quetiapine 12.5mg/5ml oral solution
+13011911000001103	Quetiapine 125mg/5ml oral liquid
+12989711000001102	Quetiapine 125mg/5ml oral liquid
+12989811000001105	Quetiapine 125mg/5ml oral liquid
+12989911000001100	Quetiapine 125mg/5ml oral liquid
+13011811000001108	Quetiapine 125mg/5ml oral liquid
+12990111000001109	Quetiapine 125mg/5ml oral liquid
+12990211000001103	Quetiapine 125mg/5ml oral liquid
+12990411000001104	Quetiapine 125mg/5ml oral liquid
+13012111000001106	Quetiapine 150mg/5ml oral liquid
+12990711000001105	Quetiapine 150mg/5ml oral liquid
+12990911000001107	Quetiapine 150mg/5ml oral liquid
+12991111000001103	Quetiapine 150mg/5ml oral liquid
+13012011000001105	Quetiapine 150mg/5ml oral liquid
+12991311000001101	Quetiapine 150mg/5ml oral liquid
+12991411000001108	Quetiapine 150mg/5ml oral liquid
+12991511000001107	Quetiapine 150mg/5ml oral liquid
+13012311000001108	Quetiapine 25mg/5ml oral suspension
+12991611000001106	Quetiapine 25mg/5ml oral suspension
+22250411000001108	Quetiapine 25mg/5ml oral suspension
+12991711000001102	Quetiapine 25mg/5ml oral suspension
+12991811000001105	Quetiapine 25mg/5ml oral suspension
+22250511000001107	Quetiapine 25mg/5ml oral suspension
+13012211000001100	Quetiapine 25mg/5ml oral solution
+12991911000001100	Quetiapine 25mg/5ml oral solution
+12992011000001107	Quetiapine 25mg/5ml oral solution
+12992111000001108	Quetiapine 25mg/5ml oral solution
+13587011000001108	Quetiapine 400mg/5ml oral liquid
+13573911000001108	Quetiapine 400mg/5ml oral liquid
+13574011000001106	Quetiapine 400mg/5ml oral liquid
+13574111000001107	Quetiapine 400mg/5ml oral liquid
+13587111000001109	Quetiapine 400mg/5ml oral liquid
+13574211000001101	Quetiapine 400mg/5ml oral liquid
+13574311000001109	Quetiapine 400mg/5ml oral liquid
+13574411000001102	Quetiapine 400mg/5ml oral liquid
+13844511000001103	Quetiapine 75mg/5ml oral liquid
+13841011000001108	Quetiapine 75mg/5ml oral liquid
+13841111000001109	Quetiapine 75mg/5ml oral liquid
+13841211000001103	Quetiapine 75mg/5ml oral liquid
+13844611000001104	Quetiapine 75mg/5ml oral liquid
+13841411000001104	Quetiapine 75mg/5ml oral liquid
+13841611000001101	Quetiapine 75mg/5ml oral liquid
+13841711000001105	Quetiapine 75mg/5ml oral liquid
+14018611000001104	Quetiapine 100mg/5ml oral liquid
+14015411000001107	Quetiapine 100mg/5ml oral liquid
+14015611000001105	Quetiapine 100mg/5ml oral liquid
+14015711000001101	Quetiapine 100mg/5ml oral liquid
+14018711000001108	Quetiapine 100mg/5ml oral liquid
+14016111000001108	Quetiapine 100mg/5ml oral liquid
+20432411000001100	Quetiapine 100mg/5ml oral liquid
+14016211000001102	Quetiapine 100mg/5ml oral liquid
+14016311000001105	Quetiapine 100mg/5ml oral liquid
+20432511000001101	Quetiapine 100mg/5ml oral liquid
+426802009	Quetiapine 200mg modified-release tablets
+14025211000001101	Quetiapine 200mg modified-release tablets
+39474911000001102	Quetiapine 200mg modified-release tablets
+14025311000001109	Seroquel XL 200mg tablets
+14025411000001102	Seroquel XL 200mg tablets
+20356211000001106	Sondate XL 200mg tablets
+20356311000001103	Sondate XL 200mg tablets
+21249311000001106	Tenprolide XL 200mg tablets
+21249411000001104	Tenprolide XL 200mg tablets
+22221211000001102	Seotiapim XL 200mg tablets
+22221311000001105	Seotiapim XL 200mg tablets
+25804311000001105	Ebesque XL 200mg tablets
+25804511000001104	Ebesque XL 200mg tablets
+27842411000001102	Atrolak XL 200mg tablets
+27842511000001103	Atrolak XL 200mg tablets
+28401011000001108	Biquelle XL 200mg tablets
+28401111000001109	Biquelle XL 200mg tablets
+39475011000001102	Biquelle XL 200mg tablets
+28411911000001109	Zaluron XL 200mg tablets
+28412011000001102	Zaluron XL 200mg tablets
+28995111000001107	Mintreleq XL 200mg tablets
+28995311000001109	Mintreleq XL 200mg tablets
+32503611000001100	Psyquet XL 200mg tablets
+32503711000001109	Psyquet XL 200mg tablets
+33569011000001100	Brancico XL 200mg tablets
+33569111000001104	Brancico XL 200mg tablets
+426954000	Quetiapine 400mg modified-release tablets
+14025611000001104	Quetiapine 400mg modified-release tablets
+39475611000001109	Quetiapine 400mg modified-release tablets
+14025711000001108	Seroquel XL 400mg tablets
+14025811000001100	Seroquel XL 400mg tablets
+20356611000001108	Sondate XL 400mg tablets
+20356711000001104	Sondate XL 400mg tablets
+22221411000001103	Seotiapim XL 400mg tablets
+22221511000001104	Seotiapim XL 400mg tablets
+22409511000001108	Tenprolide XL 400mg tablets
+22409611000001107	Tenprolide XL 400mg tablets
+25806011000001102	Ebesque XL 400mg tablets
+25806211000001107	Ebesque XL 400mg tablets
+27842811000001100	Atrolak XL 400mg tablets
+27842911000001105	Atrolak XL 400mg tablets
+28400811000001105	Biquelle XL 400mg tablets
+28400911000001100	Biquelle XL 400mg tablets
+39475711000001100	Biquelle XL 400mg tablets
+28412311000001104	Zaluron XL 400mg tablets
+28412411000001106	Zaluron XL 400mg tablets
+28995811000001100	Mintreleq XL 400mg tablets
+28995911000001105	Mintreleq XL 400mg tablets
+32504011000001109	Psyquet XL 400mg tablets
+32504111000001105	Psyquet XL 400mg tablets
+33570111000001101	Brancico XL 400mg tablets
+33570211000001107	Brancico XL 400mg tablets
+426401009	Quetiapine 300mg modified-release tablets
+14025911000001105	Quetiapine 300mg modified-release tablets
+39475111000001101	Quetiapine 300mg modified-release tablets
+14026011000001102	Seroquel XL 300mg tablets
+14026111000001101	Seroquel XL 300mg tablets
+20356411000001105	Sondate XL 300mg tablets
+20356511000001109	Sondate XL 300mg tablets
+21249511000001100	Tenprolide XL 300mg tablets
+21249611000001101	Tenprolide XL 300mg tablets
+22221611000001100	Seotiapim XL 300mg tablets
+22221711000001109	Seotiapim XL 300mg tablets
+25804911000001106	Ebesque XL 300mg tablets
+25805111000001107	Ebesque XL 300mg tablets
+27842611000001104	Atrolak XL 300mg tablets
+27842711000001108	Atrolak XL 300mg tablets
+28400611000001106	Biquelle XL 300mg tablets
+28400711000001102	Biquelle XL 300mg tablets
+39475511000001105	Biquelle XL 300mg tablets
+28412111000001101	Zaluron XL 300mg tablets
+28412211000001107	Zaluron XL 300mg tablets
+28995611000001104	Mintreleq XL 300mg tablets
+28995711000001108	Mintreleq XL 300mg tablets
+32503811000001101	Psyquet XL 300mg tablets
+32503911000001106	Psyquet XL 300mg tablets
+33568811000001104	Brancico XL 300mg tablets
+33568911000001109	Brancico XL 300mg tablets
+14042811000001105	Quetiapine 50mg modified-release tablets
+14026311000001104	Quetiapine 50mg modified-release tablets
+39474411000001105	Quetiapine 50mg modified-release tablets
+14026511000001105	Seroquel XL 50mg tablets
+14026611000001109	Seroquel XL 50mg tablets
+20356011000001101	Sondate XL 50mg tablets
+20356111000001100	Sondate XL 50mg tablets
+21248811000001109	Tenprolide XL 50mg tablets
+21249011000001108	Tenprolide XL 50mg tablets
+25803211000001100	Ebesque XL 50mg tablets
+25803511000001102	Ebesque XL 50mg tablets
+27842211000001101	Atrolak XL 50mg tablets
+27842311000001109	Atrolak XL 50mg tablets
+28400211000001109	Biquelle XL 50mg tablets
+28400311000001101	Biquelle XL 50mg tablets
+39474511000001109	Biquelle XL 50mg tablets
+28411511000001102	Zaluron XL 50mg tablets
+28411611000001103	Zaluron XL 50mg tablets
+28994711000001109	Mintreleq XL 50mg tablets
+28994811000001101	Mintreleq XL 50mg tablets
+32503211000001102	Psyquet XL 50mg tablets
+32503311000001105	Psyquet XL 50mg tablets
+33569911000001101	Brancico XL 50mg tablets
+33570011000001102	Brancico XL 50mg tablets
+14160111000001100	Quetiapine 25mg oral powder sachets
+14153611000001107	Quetiapine 25mg oral powder sachets
+14153711000001103	Quetiapine 25mg oral powder sachets
+14153811000001106	Quetiapine 25mg oral powder sachets
+15452011000001103	Quetiapine 50mg/5ml oral solution
+15449911000001106	Quetiapine 50mg/5ml oral solution
+15450011000001102	Quetiapine 50mg/5ml oral solution
+15450111000001101	Quetiapine 50mg/5ml oral solution
+15452111000001102	Quetiapine 50mg/5ml oral suspension
+15450211000001107	Quetiapine 50mg/5ml oral suspension
+24439011000001104	Quetiapine 50mg/5ml oral suspension
+15450311000001104	Quetiapine 50mg/5ml oral suspension
+15450411000001106	Quetiapine 50mg/5ml oral suspension
+24439111000001103	Quetiapine 50mg/5ml oral suspension
+15534711000001102	Quetiapine 50mg oral powder sachets
+15523111000001102	Quetiapine 50mg oral powder sachets
+15523211000001108	Quetiapine 50mg oral powder sachets
+15523311000001100	Quetiapine 50mg oral powder sachets
+16110511000001104	Quetiapine 100mg oral powder sachets
+16104511000001105	Quetiapine 100mg oral powder sachets
+16104611000001109	Quetiapine 100mg oral powder sachets
+16104711000001100	Quetiapine 100mg oral powder sachets
+16110711000001109	Quetiapine 6.25mg/5ml oral liquid
+16108711000001108	Quetiapine 6.25mg/5ml oral liquid
+16108811000001100	Quetiapine 6.25mg/5ml oral liquid
+16108911000001105	Quetiapine 6.25mg/5ml oral liquid
+16110611000001100	Quetiapine 6.25mg/5ml oral liquid
+16109111000001100	Quetiapine 6.25mg/5ml oral liquid
+16109011000001101	Quetiapine 6.25mg/5ml oral liquid
+16109211000001106	Quetiapine 6.25mg/5ml oral liquid
+17828611000001101	Quetiapine 150mg modified-release tablets
+17689711000001100	Quetiapine 150mg modified-release tablets
+39474611000001108	Quetiapine 150mg modified-release tablets
+17689811000001108	Seroquel XL 150mg tablets
+17689911000001103	Seroquel XL 150mg tablets
+21714411000001103	Sondate XL 150mg tablets
+21714511000001104	Sondate XL 150mg tablets
+28400411000001108	Biquelle XL 150mg tablets
+28400511000001107	Biquelle XL 150mg tablets
+39474711000001104	Biquelle XL 150mg tablets
+28411711000001107	Zaluron XL 150mg tablets
+28411811000001104	Zaluron XL 150mg tablets
+28994911000001106	Mintreleq XL 150mg tablets
+28995011000001106	Mintreleq XL 150mg tablets
+32503411000001103	Psyquet XL 150mg tablets
+32503511000001104	Psyquet XL 150mg tablets
+33569711000001103	Brancico XL 150mg tablets
+33569811000001106	Brancico XL 150mg tablets
+34936811000001101	Atrolak XL 150mg tablets
+34936911000001106	Atrolak XL 150mg tablets
+22635511000001100	Quetiapine 200mg/5ml oral suspension
+22632611000001105	Quetiapine 200mg/5ml oral suspension
+22632711000001101	Quetiapine 200mg/5ml oral suspension
+22632811000001109	Quetiapine 200mg/5ml oral suspension
+33391011000001100	Quetiapine 20mg/ml oral suspension sugar free
+33261211000001103	Quetiapine 20mg/ml oral suspension sugar free
+33261411000001104	Quetiapine 20mg/ml oral suspension sugar free
+33261511000001100	Quetiapine 20mg/ml oral suspension sugar free
+34464911000001109	Quetiapine 20mg/ml oral suspension sugar free
+34465011000001109	Quetiapine 20mg/ml oral suspension sugar free
+38743811000001103	Quetiapine 20mg/ml oral suspension sugar free
+38743911000001108	Quetiapine 20mg/ml oral suspension sugar free
+39027411000001105	Quetiapine 600mg modified-release tablets
+39004911000001102	Quetiapine 600mg modified-release tablets
+39005011000001102	Biquelle XL 600mg tablets
+39005111000001101	Biquelle XL 600mg tablets

@@ -1,0 +1,485 @@
+^ESCT1180003	Mirtazapine 30mg orodispersible tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1180004	Mirtazapine 45mg orodispersible tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1181113	Product containing only mirtazapine 30 mg/1 each oral tablet
+^ESCT1181535	Product containing only mirtazapine 15 mg/1 each oral tablet
+^ESCT1181762	Product containing only mirtazapine 45 mg/1 each oral tablet
+^ESCT1183789	Mirtazapine 30mg tablets (Mylan)
+^ESCT1183901	Mirtazapine 30mg orodispersible tablets (Mylan)
+^ESCT1183902	Mirtazapine 15mg orodispersible tablets (Mylan)
+^ESCT1186484	Mirtazapine 30mg orodispersible tablets (A A H Pharmaceuticals Ltd) 30 tablet 5 x 6 tablets
+^ESCT1189302	Mirtazapine 30mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1189391	Mirtazapine 45mg orodispersible tablets (Mylan)
+^ESCT1189392	Mirtazapine 15mg orodispersible tablets (Mylan) 30 tablet 3 x 10 tablets
+^ESCT1195414	Mirtazapine 30mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1195415	Mirtazapine 30mg tablets (NorthStar Healthcare Unlimited Company) 28 tablet 2 x 14 tablets
+^ESCT1195416	Mirtazapine 45mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1195417	Mirtazapine 45mg tablets (NorthStar Healthcare Unlimited Company) 28 tablet 2 x 14 tablets
+^ESCT1195418	Mirtazapine 15mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1195419	Mirtazapine 15mg tablets (NorthStar Healthcare Unlimited Company) 28 tablet 2 x 14 tablets
+^ESCT1195946	Mirtazapine 45mg orodispersible tablets (Accord Healthcare Ltd) 30 tablet 5 x 6 tablets
+^ESCT1195970	Mirtazapine 30mg orodispersible tablets (Accord Healthcare Ltd) 30 tablet 5 x 6 tablets
+^ESCT1196162	Mirtazapine 15mg orodispersible tablets (Accord Healthcare Ltd) 30 tablet 5 x 6 tablets
+^ESCT1196293	Mirtazapine 15mg orodispersible tablets (Accord Healthcare Ltd)
+^ESCT1196294	Mirtazapine 30mg orodispersible tablets (Accord Healthcare Ltd)
+^ESCT1196530	Mirtazapine 45mg orodispersible tablets (Accord Healthcare Ltd)
+^ESCT1198416	Mirtazapine 15mg orodispersible tablets (Actavis UK Ltd)
+^ESCT1198418	Mirtazapine 30mg orodispersible tablets (Actavis UK Ltd)
+^ESCT1198428	Mirtazapine 30mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1198472	Mirtazapine 45mg orodispersible tablets (Actavis UK Ltd)
+^ESCT1198477	Mirtazapine 30mg tablets (Accord Healthcare Ltd)
+^ESCT1198489	Mirtazapine 15mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1198542	Mirtazapine 15mg tablets (Accord Healthcare Ltd)
+^ESCT1198569	Mirtazapine 45mg orodispersible tablets (Actavis UK Ltd) 30 tablet 5 x 6 tablets
+^ESCT1198846	Mirtazapine 45mg tablets (Accord Healthcare Ltd)
+^ESCT1198847	Mirtazapine 45mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1198919	Mirtazapine 30mg orodispersible tablets (Actavis UK Ltd) 30 tablet 5 x 6 tablets
+^ESCT1198921	Mirtazapine 15mg orodispersible tablets (Actavis UK Ltd) 30 tablet 5 x 6 tablets
+^ESCT1199498	Mirtazapine 30mg orodispersible tablets (Accord Healthcare Ltd) 30 tablet 5 x 6 tablets
+^ESCT1199505	Mirtazapine 30mg orodispersible tablets (Accord Healthcare Ltd)
+^ESCT1199506	Mirtazapine 45mg orodispersible tablets (Accord Healthcare Ltd)
+^ESCT1199523	Mirtazapine 15mg orodispersible tablets (Accord Healthcare Ltd)
+^ESCT1199539	Mirtazapine 45mg orodispersible tablets (Accord Healthcare Ltd) 30 tablet 5 x 6 tablets
+^ESCT1199551	Mirtazapine 15mg orodispersible tablets (Accord Healthcare Ltd) 30 tablet 5 x 6 tablets
+^ESCT1214264	Mirtazapine 45mg orodispersible tablets (Medreich Plc)
+^ESCT1214265	Mirtazapine 45mg orodispersible tablets (Medreich Plc) 30 tablet 2 x 15 tablets
+^ESCT1215532	Mirtazapine 15mg orodispersible tablets (Medreich Plc)
+^ESCT1215534	Mirtazapine 15mg orodispersible tablets (Medreich Plc) 30 tablet 2 x 15 tablets
+^ESCT1215536	Mirtazapine 30mg orodispersible tablets (Medreich Plc)
+^ESCT1215539	Mirtazapine 30mg orodispersible tablets (Medreich Plc) 30 tablet 2 x 15 tablets
+^ESCT1223614	Product containing precisely mirtazapine 30 milligram/1 each conventional release oral tablet
+^ESCT1228232	Product containing precisely mirtazapine 15 milligram/1 each conventional release oral tablet
+^ESCT1228233	Product containing precisely mirtazapine 45 milligram/1 each conventional release oral tablet
+^ESCT1237645	Mirtazapine 45mg tablets (Medreich Plc) 28 tablet 2 x 14 tablets
+^ESCT1237646	Mirtazapine 45mg tablets (Medreich Plc) 28 tablet
+^ESCT1250475	Mirtazapine 15mg orodispersible tablets (Advanz Pharma)
+^ESCT1250476	Mirtazapine 15mg orodispersible tablets (Advanz Pharma) 30 tablet
+^ESCT1250477	Mirtazapine 30mg orodispersible tablets (Advanz Pharma)
+^ESCT1250478	Mirtazapine 30mg orodispersible tablets (Advanz Pharma) 30 tablet
+^ESCT1250479	Mirtazapine 45mg orodispersible tablets (Advanz Pharma)
+^ESCT1250480	Mirtazapine 45mg orodispersible tablets (Advanz Pharma) 30 tablet
+^ESCT1257166	Mirtazapine 15mg tablets (Noumed Life Sciences Ltd)
+^ESCT1257170	Mirtazapine 15mg tablets (Noumed Life Sciences Ltd) 28 tablet 2 x 14 tablets
+^ESCT1257174	Mirtazapine 30mg tablets (Noumed Life Sciences Ltd)
+^ESCT1257177	Mirtazapine 30mg tablets (Noumed Life Sciences Ltd) 28 tablet 2 x 14 tablets
+^ESCT1257181	Mirtazapine 45mg tablets (Noumed Life Sciences Ltd)
+^ESCT1257184	Mirtazapine 45mg tablets (Noumed Life Sciences Ltd) 28 tablet 2 x 14 tablets
+^ESCT1260061	Mirtazapine 15mg tablets (Relonchem Ltd)
+^ESCT1260062	Mirtazapine 15mg tablets (Relonchem Ltd) 28 tablet
+^ESCT1260063	Mirtazapine 30mg tablets (Relonchem Ltd)
+^ESCT1260064	Mirtazapine 30mg tablets (Relonchem Ltd) 28 tablet
+^ESCT1260066	Mirtazapine 45mg tablets (Relonchem Ltd)
+^ESCT1260067	Mirtazapine 45mg tablets (Relonchem Ltd) 28 tablet
+^ESCT1264556	Mirtazapine 15mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264562	Mirtazapine 15mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1264563	Mirtazapine 45mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCT1264564	Mirtazapine 45mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCT1275584	Mirtazapine 30mg tablets (Ennogen Healthcare Ltd)
+^ESCT1275585	Mirtazapine 30mg tablets (Ennogen Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1304919	Mirtazapine 30mg tablets (Crescent Pharma Ltd)
+^ESCT1304923	Mirtazapine 30mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCT1376131	Mirtazapine 15mg orodispersible tablets (Imported)
+^ESCT1376132	Mirtazapine 15mg orodispersible tablets (Imported) 30 tablet
+^ESCT1376133	Mirtazapine 45mg orodispersible tablets (Imported)
+^ESCT1376134	Mirtazapine 45mg orodispersible tablets (Imported) 30 tablet
+^ESCT1388902	Mirtazapine 15mg tablets (Milpharm Ltd)
+^ESCT1388903	Mirtazapine 15mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1388904	Mirtazapine 30mg tablets (Milpharm Ltd)
+^ESCT1388905	Mirtazapine 30mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1388906	Mirtazapine 45mg tablets (Milpharm Ltd)
+^ESCT1388907	Mirtazapine 45mg tablets (Milpharm Ltd) 28 tablet
+^ESCT1388908	Mirtazapine 15mg orodispersible tablets (Milpharm Ltd)
+^ESCT1388909	Mirtazapine 15mg orodispersible tablets (Milpharm Ltd) 30 tablet
+^ESCT1388910	Mirtazapine 30mg orodispersible tablets (Milpharm Ltd)
+^ESCT1388911	Mirtazapine 30mg orodispersible tablets (Milpharm Ltd) 30 tablet
+^ESCT1388912	Mirtazapine 45mg orodispersible tablets (Milpharm Ltd)
+^ESCT1388913	Mirtazapine 45mg orodispersible tablets (Milpharm Ltd) 30 tablet
+^ESCT1402297	Mirtazapine 15mg/ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1402298	Mirtazapine 15mg/ml oral solution sugar free (Medihealth (Northern) Ltd) 66 ml
+^ESCT1402299	Mirtazapine 30mg orodispersible tablets (Medihealth (Northern) Ltd)
+^ESCT1402300	Mirtazapine 30mg orodispersible tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1402301	Mirtazapine 45mg orodispersible tablets (Medihealth (Northern) Ltd)
+^ESCT1402302	Mirtazapine 45mg orodispersible tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1402303	Mirtazapine 15mg orodispersible tablets (Medihealth (Northern) Ltd)
+^ESCT1402304	Mirtazapine 15mg orodispersible tablets (Medihealth (Northern) Ltd) 30 tablet
+^ESCT1402305	Mirtazapine 15mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402306	Mirtazapine 15mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1402307	Mirtazapine 45mg tablets (Medihealth (Northern) Ltd)
+^ESCT1402308	Mirtazapine 45mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1403706	Mirtazapine 30mg tablets (Medihealth (Northern) Ltd)
+^ESCT1403707	Mirtazapine 30mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1410420	Zispin SolTab 30mg orodispersible tablets (Organon Pharma (UK) Ltd)
+^ESCT1410421	Zispin SolTab 30mg orodispersible tablets (Organon Pharma (UK) Ltd) 30 tablet 5 x 6 tablets
+^ESCT1410475	Zispin SolTab 45mg orodispersible tablets (Organon Pharma (UK) Ltd)
+^ESCT1410476	Zispin SolTab 45mg orodispersible tablets (Organon Pharma (UK) Ltd) 30 tablet 5 x 6 tablets
+^ESCT1410477	Zispin SolTab 15mg orodispersible tablets (Organon Pharma (UK) Ltd)
+^ESCT1410478	Zispin SolTab 15mg orodispersible tablets (Organon Pharma (UK) Ltd) 6 tablet
+^ESCT1410479	Zispin SolTab 15mg orodispersible tablets (Organon Pharma (UK) Ltd) 30 tablet 5 x 6 tablets
+^ESCT1422096	Mirtazapine 30mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422097	Mirtazapine 30mg tablets (Zentiva Pharma UK Ltd) 28 tablet 4 x 7 tablets
+^ESCT1426913	Mirtazapine 30mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426914	Mirtazapine 30mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426976	Mirtazapine 15mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426977	Mirtazapine 15mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426978	Mirtazapine 45mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426979	Mirtazapine 45mg tablets (Kent Pharma (UK) Ltd) 28 tablet 4 x 7 tablets
+^ESCTMI1006137	Mirtazapine 15mg orodispersible tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTMI1006138	Mirtazapine 15mg orodispersible tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTMI1006139	Mirtazapine 30mg orodispersible tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTMI1006140	Mirtazapine 30mg orodispersible tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTMI1006141	Mirtazapine 45mg orodispersible tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTMI1006142	Mirtazapine 45mg orodispersible tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTMI1006143	Mirtazapine 15mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTMI1006144	Mirtazapine 15mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTMI1006145	Mirtazapine 15mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTMI1006146	Mirtazapine 30mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTMI1006147	Mirtazapine 30mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTMI1006148	Mirtazapine 30mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTMI1006149	Mirtazapine 45mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTMI1006150	Mirtazapine 45mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTMI1006151	Mirtazapine 45mg tablets (Phoenix Healthcare Distribution Ltd) 30 tablet
+^ESCTMI1006368	Mirtazapine 15mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTMI1006369	Mirtazapine 15mg tablets (Almus Pharmaceuticals Ltd) 28 tablet
+^ESCTMI1006372	Mirtazapine 45mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTMI1006373	Mirtazapine 45mg tablets (Almus Pharmaceuticals Ltd) 28 tablet
+^ESCTMI1006380	Mirtazapine 30mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTMI1006381	Mirtazapine 30mg tablets (Almus Pharmaceuticals Ltd) 28 tablet
+^ESCTMI1006382	Mirtazapine 45mg orodispersible tablets (Almus Pharmaceuticals Ltd)
+^ESCTMI1006383	Mirtazapine 45mg orodispersible tablets (Almus Pharmaceuticals Ltd) 30 tablet
+^ESCTMI1006386	Mirtazapine 30mg orodispersible tablets (Almus Pharmaceuticals Ltd)
+^ESCTMI1006387	Mirtazapine 30mg orodispersible tablets (Almus Pharmaceuticals Ltd) 30 tablet
+^ESCTMI1006389	Mirtazapine 15mg orodispersible tablets (Almus Pharmaceuticals Ltd)
+^ESCTMI1006390	Mirtazapine 15mg orodispersible tablets (Almus Pharmaceuticals Ltd) 30 tablet
+^ESCTMI1017819	Mirtazapine 15mg tablets (Aurobindo Pharma Ltd)
+^ESCTMI1017820	Mirtazapine 15mg tablets (Aurobindo Pharma Ltd) 28 tablet
+^ESCTMI1017821	Mirtazapine 30mg tablets (Aurobindo Pharma Ltd)
+^ESCTMI1017822	Mirtazapine 30mg tablets (Aurobindo Pharma Ltd) 28 tablet
+^ESCTMI1017823	Mirtazapine 45mg tablets (Aurobindo Pharma Ltd)
+^ESCTMI1017824	Mirtazapine 45mg tablets (Aurobindo Pharma Ltd) 28 tablet
+^ESCTMI1017825	Mirtazapine 15mg orodispersible tablets (Aurobindo Pharma Ltd)
+^ESCTMI1017826	Mirtazapine 15mg orodispersible tablets (Aurobindo Pharma Ltd) 30 tablet
+^ESCTMI1017827	Mirtazapine 30mg orodispersible tablets (Aurobindo Pharma Ltd)
+^ESCTMI1017828	Mirtazapine 30mg orodispersible tablets (Aurobindo Pharma Ltd) 30 tablet
+^ESCTMI1017829	Mirtazapine 45mg orodispersible tablets (Aurobindo Pharma Ltd)
+^ESCTMI1017830	Mirtazapine 45mg orodispersible tablets (Aurobindo Pharma Ltd) 30 tablet
+^ESCTMI1018002	Mirtazapine 15mg orodispersible tablets (Bluefish Pharmaceuticals AB)
+^ESCTMI1018003	Mirtazapine 15mg orodispersible tablets (Bluefish Pharmaceuticals AB) 30 tablet
+^ESCTMI1018004	Mirtazapine 30mg orodispersible tablets (Bluefish Pharmaceuticals AB)
+^ESCTMI1018007	Mirtazapine 30mg orodispersible tablets (Bluefish Pharmaceuticals AB) 30 tablet
+^ESCTMI1018008	Mirtazapine 45mg orodispersible tablets (Bluefish Pharmaceuticals AB)
+^ESCTMI1018011	Mirtazapine 45mg orodispersible tablets (Bluefish Pharmaceuticals AB) 30 tablet
+^ESCTMI1022655	Mirtazapine 15mg tablets (Medreich Plc)
+^ESCTMI1022656	Mirtazapine 15mg tablets (Medreich Plc) 28 tablet
+^ESCTMI1022657	Mirtazapine 30mg tablets (Medreich Plc)
+^ESCTMI1022658	Mirtazapine 30mg tablets (Medreich Plc) 28 tablet
+^ESCTMI1022659	Mirtazapine 45mg tablets (Medreich Plc)
+^ESCTMI1022660	Mirtazapine 45mg tablets (Medreich Plc) 28 tablet
+^ESCTMI1027808	Mirtazapine 15mg orodispersible tablets sugar free 30 tablet
+^ESCTMI1027809	Mirtazapine 15mg orodispersible tablets sugar free (Sandoz Ltd)
+^ESCTMI1027810	Mirtazapine 15mg orodispersible tablets sugar free (Sandoz Ltd) 30 tablet
+^ESCTMI1027812	Mirtazapine 45mg orodispersible tablets sugar free 30 tablet
+^ESCTMI1027813	Mirtazapine 45mg orodispersible tablets sugar free (Sandoz Ltd)
+^ESCTMI1027816	Mirtazapine 45mg orodispersible tablets sugar free (Sandoz Ltd) 30 tablet
+^ESCTMI1028138	Mirtazapine 15mg orodispersible tablets sugar free
+^ESCTMI1028139	Mirtazapine 45mg orodispersible tablets sugar free
+^ESCTMI1041642	Mirtazapine 15mg orodispersible tablets (Waymade Healthcare Plc)
+^ESCTMI1041643	Mirtazapine 15mg orodispersible tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTMI1041645	Mirtazapine 30mg orodispersible tablets (Waymade Healthcare Plc)
+^ESCTMI1041646	Mirtazapine 30mg orodispersible tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTMI1041649	Mirtazapine 45mg orodispersible tablets (Waymade Healthcare Plc)
+^ESCTMI1041651	Mirtazapine 45mg orodispersible tablets (Waymade Healthcare Plc) 30 tablet
+^ESCTMI1041662	Mirtazapine 15mg tablets (Waymade Healthcare Plc)
+^ESCTMI1041665	Mirtazapine 15mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTMI1041667	Mirtazapine 30mg tablets (Waymade Healthcare Plc)
+^ESCTMI1041669	Mirtazapine 30mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTMI1041681	Mirtazapine 45mg tablets (Waymade Healthcare Plc)
+^ESCTMI1041682	Mirtazapine 45mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTMI1056666	Mirtazapine 15mg tablets (Wockhardt UK Ltd)
+^ESCTMI1056667	Mirtazapine 15mg tablets (Wockhardt UK Ltd) 30 tablet
+^ESCTMI1056668	Mirtazapine 30mg tablets (Wockhardt UK Ltd)
+^ESCTMI1056669	Mirtazapine 30mg tablets (Wockhardt UK Ltd) 28 tablet
+^ESCTMI1056670	Mirtazapine 45mg tablets (Wockhardt UK Ltd)
+^ESCTMI1056671	Mirtazapine 45mg tablets (Wockhardt UK Ltd) 30 tablet
+^ESCTMI1056672	Mirtazapine 15mg orodispersible tablets (Wockhardt UK Ltd)
+^ESCTMI1056673	Mirtazapine 15mg orodispersible tablets (Wockhardt UK Ltd) 30 tablet
+^ESCTMI1056674	Mirtazapine 30mg orodispersible tablets (Wockhardt UK Ltd)
+^ESCTMI1056675	Mirtazapine 30mg orodispersible tablets (Wockhardt UK Ltd) 30 tablet
+^ESCTMI1056676	Mirtazapine 45mg orodispersible tablets (Wockhardt UK Ltd)
+^ESCTMI1056677	Mirtazapine 45mg orodispersible tablets (Wockhardt UK Ltd) 30 tablet
+^ESCTMI1065848	Mirtazapine 15mg orodispersible tablets (DE Pharmaceuticals)
+^ESCTMI1065849	Mirtazapine 15mg orodispersible tablets (DE Pharmaceuticals) 30 tablet
+^ESCTMI1065907	Mirtazapine 30mg orodispersible tablets (DE Pharmaceuticals)
+^ESCTMI1065908	Mirtazapine 30mg orodispersible tablets (DE Pharmaceuticals) 30 tablet
+^ESCTMI1065916	Mirtazapine 45mg orodispersible tablets (DE Pharmaceuticals)
+^ESCTMI1065917	Mirtazapine 45mg orodispersible tablets (DE Pharmaceuticals) 30 tablet
+^ESCTMI1065924	Mirtazapine 15mg/ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTMI1065925	Mirtazapine 15mg/ml oral solution sugar free (DE Pharmaceuticals) 66 ml
+^ESCTMI1065977	Mirtazapine 15mg tablets (DE Pharmaceuticals)
+^ESCTMI1065978	Mirtazapine 15mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTMI1065980	Mirtazapine 30mg tablets (DE Pharmaceuticals)
+^ESCTMI1065982	Mirtazapine 30mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTMI1065985	Mirtazapine 45mg tablets (DE Pharmaceuticals)
+^ESCTMI1065987	Mirtazapine 45mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTMI1118266	Mirtazapine 15mg/ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTMI1118267	Mirtazapine 15mg/ml oral solution sugar free (Sigma Pharmaceuticals Plc) 66 ml
+^ESCTMI1126797	Mirtazapine 15mg orodispersible tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTMI1126798	Mirtazapine 15mg orodispersible tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTMI1126799	Mirtazapine 30mg orodispersible tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTMI1126800	Mirtazapine 30mg orodispersible tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTMI1126801	Mirtazapine 45mg orodispersible tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTMI1126802	Mirtazapine 45mg orodispersible tablets (Mawdsley-Brooks & Company Ltd) 30 tablet
+^ESCTMI1126803	Mirtazapine 30mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTMI1126804	Mirtazapine 30mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTMI1144838	Mirtazapine 15mg/5ml oral solution 1 ml
+^ESCTMI1144839	Mirtazapine 15mg/5ml oral solution (Special Order)
+^ESCTMI1144840	Mirtazapine 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTMI1145075	Mirtazapine 15mg/5ml oral solution
+^ESCTMI1145489	Mirtazapine 15mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTMI1145491	Mirtazapine 15mg tablets (Genesis Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI1145514	Mirtazapine 30mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTMI1145515	Mirtazapine 30mg tablets (Genesis Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI1145528	Mirtazapine 45mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTMI1145532	Mirtazapine 45mg tablets (Genesis Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI609832	Mirtazapine 30mg tablets
+^ESCTMI609834	Mirtazapine 30 mg oral tablet
+^ESCTMI640081	Mirtazapine 15mg tablets
+^ESCTMI640083	Mirtazapine 15 mg oral tablet
+^ESCTMI640084	Mirtazapine 15mg orodispersible tablets
+^ESCTMI640085	Mirtazapine 15mg orodispersible tablet
+^ESCTMI640086	Mirtazapine 30mg orodispersible tablets
+^ESCTMI640087	Mirtazapine 30mg orodispersible tablet
+^ESCTMI640088	Mirtazapine 45mg tablets
+^ESCTMI640090	Mirtazapine 45 mg oral tablet
+^ESCTMI847902	Mirtazapine 30mg tablets 28 tablet
+^ESCTMI873405	Mirtazapine 30mg orodispersible tablets 30 tablet
+^ESCTMI878074	Mirtazapine 30mg tablets 30 tablet
+^ESCTMI879846	Mirtazapine 45mg orodispersible tablets 30 tablet
+^ESCTMI879964	Mirtazapine 15mg orodispersible tablets 6 tablet
+^ESCTMI879965	Mirtazapine 15mg orodispersible tablets 30 tablet
+^ESCTMI880142	Mirtazapine 45mg orodispersible tablets
+^ESCTMI902107	Mirtazapine 30mg tablets (Actavis UK Ltd)
+^ESCTMI902109	Mirtazapine 30mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI902112	Mirtazapine 30mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTMI902116	Mirtazapine 30mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTMI903065	Mirtazapine 30mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTMI903068	Mirtazapine 30mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTMI903091	Mirtazapine 30mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTMI903092	Mirtazapine 30mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI903118	Mirtazapine 30mg tablets (Zentiva)
+^ESCTMI903119	Mirtazapine 30mg tablets (Zentiva) 28 tablet 4 x 7 tablets
+^ESCTMI903670	Mirtazapine 30mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTMI903671	Mirtazapine 30mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI905781	Mirtazapine 30mg tablets (Teva UK Ltd)
+^ESCTMI905784	Mirtazapine 30mg tablets (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTMI907018	Mirtazapine 30mg tablets (Organon Laboratories Ltd)
+^ESCTMI907044	Mirtazapine 30mg tablets (Organon Laboratories Ltd) 28 tablet 4 x 7 tablets
+^ESCTMI909287	Mirtazapine 30mg tablets (Ranbaxy (UK) Ltd)
+^ESCTMI909289	Mirtazapine 30mg tablets (Ranbaxy (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCTMI909296	Mirtazapine 15mg tablets 30 tablet
+^ESCTMI909297	Mirtazapine 15mg tablets (Ranbaxy (UK) Ltd)
+^ESCTMI909298	Mirtazapine 15mg tablets (Ranbaxy (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCTMI909299	Mirtazapine 45mg tablets 30 tablet
+^ESCTMI909300	Mirtazapine 45mg tablets (Ranbaxy (UK) Ltd)
+^ESCTMI909301	Mirtazapine 45mg tablets (Ranbaxy (UK) Ltd) 30 tablet 3 x 10 tablets
+^ESCTMI909365	Mirtazapine 2mg capsules 1 capsule
+^ESCTMI909366	Mirtazapine 2mg capsules (Special Order)
+^ESCTMI909368	Mirtazapine 2mg capsules (Special Order) 1 capsule
+^ESCTMI909370	Mirtazapine 4mg capsules 1 capsule
+^ESCTMI909371	Mirtazapine 4mg capsules (Special Order)
+^ESCTMI909379	Mirtazapine 4mg capsules (Special Order) 1 capsule
+^ESCTMI909695	Mirtazapine 2mg capsules
+^ESCTMI909696	Mirtazapine 4mg capsules
+^ESCTMI912074	Mirtazapine 30mg tablets (Mylan Ltd)
+^ESCTMI912075	Mirtazapine 30mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI912191	Mirtazapine 15mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTMI912193	Mirtazapine 15mg tablets 28 tablet
+^ESCTMI912194	Mirtazapine 15mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI912195	Mirtazapine 45mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTMI912196	Mirtazapine 45mg tablets 28 tablet
+^ESCTMI912197	Mirtazapine 45mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI912678	Mirtazapine 15mg/ml oral solution sugar free 66 ml
+^ESCTMI912679	Mirtazapine 15mg/ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTMI912680	Mirtazapine 15mg/ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 66 ml
+^ESCTMI912681	Mirtazapine 15mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTMI912682	Mirtazapine 15mg/ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 66 ml
+^ESCTMI912685	Mirtazapine 15mg/ml oral solution sugar free
+^ESCTMI913165	Mirtazapine 15mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTMI913166	Mirtazapine 15mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI913167	Mirtazapine 45mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTMI913168	Mirtazapine 45mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 4 x 7 tablets
+^ESCTMI913182	Mirtazapine 15mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTMI913183	Mirtazapine 15mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTMI913184	Mirtazapine 45mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTMI913185	Mirtazapine 45mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCTMI914156	Mirtazapine 15mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTMI914158	Mirtazapine 15mg/ml oral solution sugar free (A A H Pharmaceuticals Ltd) 66 ml
+^ESCTMI918114	Mirtazapine 15mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTMI918116	Mirtazapine 15mg tablets (Genus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI918118	Mirtazapine 30mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTMI918122	Mirtazapine 30mg tablets (Genus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI918126	Mirtazapine 45mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTMI918128	Mirtazapine 45mg tablets (Genus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI919029	Mirtazapine 15mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTMI919031	Mirtazapine 30mg tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTMI919925	Mirtazapine 30mg tablets (Sandoz Ltd)
+^ESCTMI919927	Mirtazapine 30mg tablets (Sandoz Ltd) 28 tablet 4 x 7 tablets
+^ESCTMI927913	Mirtazapine 45mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTMI927914	Mirtazapine 45mg tablets (Focus Pharmaceuticals Ltd) 28 tablet
+^ESCTMI927915	Mirtazapine 30mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTMI927916	Mirtazapine 30mg tablets (Focus Pharmaceuticals Ltd) 28 tablet
+^ESCTMI927917	Mirtazapine 15mg tablets (Focus Pharmaceuticals Ltd)
+^ESCTMI927918	Mirtazapine 15mg tablets (Focus Pharmaceuticals Ltd) 28 tablet
+^ESCTMI928888	Mirtazapine 15mg tablets (Arrow Generics Ltd)
+^ESCTMI928889	Mirtazapine 15mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTMI928890	Mirtazapine 30mg tablets (Arrow Generics Ltd)
+^ESCTMI928892	Mirtazapine 30mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTMI928894	Mirtazapine 45mg tablets (Arrow Generics Ltd)
+^ESCTMI928895	Mirtazapine 45mg tablets (Arrow Generics Ltd) 28 tablet
+^ESCTMI929308	Mirtazapine 30mg tablets (Niche Generics Ltd)
+^ESCTMI929309	Mirtazapine 30mg tablets (Niche Generics Ltd) 28 tablet
+^ESCTMI934690	Mirtazapine 15mg orodispersible tablets (Teva UK Ltd)
+^ESCTMI934692	Mirtazapine 15mg orodispersible tablets (Teva UK Ltd) 30 tablet 5 x 6 tablets
+^ESCTMI934694	Mirtazapine 30mg orodispersible tablets (Teva UK Ltd)
+^ESCTMI934696	Mirtazapine 30mg orodispersible tablets (Teva UK Ltd) 30 tablet 5 x 6 tablets
+^ESCTMI934697	Mirtazapine 45mg orodispersible tablets (Teva UK Ltd)
+^ESCTMI934698	Mirtazapine 45mg orodispersible tablets (Teva UK Ltd) 30 tablet 3 x 10 tablets
+^ESCTMI937786	Mirtazapine 15mg orodispersible tablets (A A H Pharmaceuticals Ltd)
+^ESCTMI937787	Mirtazapine 15mg orodispersible tablets (A A H Pharmaceuticals Ltd) 30 tablet 5 x 6 tablets
+^ESCTMI937788	Mirtazapine 30mg orodispersible tablets (A A H Pharmaceuticals Ltd)
+^ESCTMI937789	Mirtazapine 30mg orodispersible tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTMI937790	Mirtazapine 45mg orodispersible tablets (A A H Pharmaceuticals Ltd)
+^ESCTMI937791	Mirtazapine 45mg orodispersible tablets (A A H Pharmaceuticals Ltd) 30 tablet
+^ESCTMI939423	Mirtazapine 30mg tablets (PLIVA Pharma Ltd)
+^ESCTMI939425	Mirtazapine 30mg tablets (PLIVA Pharma Ltd) 28 tablet 4 x 7 tablets
+^ESCTMI940380	Mirtazapine 15mg tablets (Actavis UK Ltd)
+^ESCTMI940381	Mirtazapine 15mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI940382	Mirtazapine 45mg tablets (Actavis UK Ltd)
+^ESCTMI940383	Mirtazapine 45mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI945795	Mirtazapine 15mg orodispersible tablets (Actavis UK Ltd)
+^ESCTMI945797	Mirtazapine 15mg orodispersible tablets (Actavis UK Ltd) 30 tablet 5 x 6 tablets
+^ESCTMI945799	Mirtazapine 30mg orodispersible tablets (Actavis UK Ltd)
+^ESCTMI945800	Mirtazapine 30mg orodispersible tablets (Actavis UK Ltd) 30 tablet 5 x 6 tablets
+^ESCTMI945801	Mirtazapine 45mg orodispersible tablets (Actavis UK Ltd)
+^ESCTMI945802	Mirtazapine 45mg orodispersible tablets (Actavis UK Ltd) 30 tablet 5 x 6 tablets
+^ESCTMI945829	Mirtazapine 15mg orodispersible tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTMI945830	Mirtazapine 15mg orodispersible tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTMI945832	Mirtazapine 30mg orodispersible tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTMI945834	Mirtazapine 30mg orodispersible tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTMI945836	Mirtazapine 45mg orodispersible tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTMI945838	Mirtazapine 45mg orodispersible tablets (Alliance Healthcare (Distribution) Ltd) 30 tablet
+^ESCTMI957353	Mirtazapine 30mg/5ml oral suspension 1 ml
+^ESCTMI957354	Mirtazapine 30mg/5ml oral suspension (Special Order)
+^ESCTMI957355	Mirtazapine 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTMI957356	Mirtazapine 30mg/5ml oral solution 1 ml
+^ESCTMI957357	Mirtazapine 30mg/5ml oral solution (Special Order)
+^ESCTMI957358	Mirtazapine 30mg/5ml oral solution (Special Order) 1 ml
+^ESCTMI957359	Mirtazapine 750micrograms/5ml oral suspension 1 ml
+^ESCTMI957360	Mirtazapine 750micrograms/5ml oral suspension (Special Order)
+^ESCTMI957361	Mirtazapine 750micrograms/5ml oral suspension (Special Order) 1 ml
+^ESCTMI957362	Mirtazapine 750micrograms/5ml oral solution 1 ml
+^ESCTMI957363	Mirtazapine 750micrograms/5ml oral solution (Special Order)
+^ESCTMI957364	Mirtazapine 750micrograms/5ml oral solution (Special Order) 1 ml
+^ESCTMI957365	Mirtazapine 75mg/5ml oral suspension 1 ml
+^ESCTMI957366	Mirtazapine 75mg/5ml oral suspension (Special Order)
+^ESCTMI957367	Mirtazapine 75mg/5ml oral suspension (Special Order) 1 ml
+^ESCTMI957554	Mirtazapine 30mg/5ml oral suspension
+^ESCTMI957555	Mirtazapine 750micrograms/5ml oral solution
+^ESCTMI957556	Mirtazapine 750micrograms/5ml oral suspension
+^ESCTMI957557	Mirtazapine 75mg/5ml oral suspension
+^ESCTMI957666	Mirtazapine 30mg/5ml oral solution
+^ESCTMI959772	Mirtazapine 15mg orodispersible tablets (Genus Pharmaceuticals Ltd)
+^ESCTMI959773	Mirtazapine 15mg orodispersible tablets (Genus Pharmaceuticals Ltd) 30 tablet
+^ESCTMI959774	Mirtazapine 30mg orodispersible tablets (Genus Pharmaceuticals Ltd)
+^ESCTMI959775	Mirtazapine 30mg orodispersible tablets (Genus Pharmaceuticals Ltd) 30 tablet
+^ESCTMI959776	Mirtazapine 45mg orodispersible tablets (Genus Pharmaceuticals Ltd)
+^ESCTMI959777	Mirtazapine 45mg orodispersible tablets (Genus Pharmaceuticals Ltd) 30 tablet
+^ESCTMI963983	Mirtazapine 15mg tablets (Teva UK Ltd)
+^ESCTMI963984	Mirtazapine 15mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI963985	Mirtazapine 45mg tablets (Teva UK Ltd)
+^ESCTMI963986	Mirtazapine 45mg tablets (Teva UK Ltd) 28 tablet 4 x 7 tablets
+^ESCTMI965380	Mirtazapine 15mg orodispersible tablets (Focus Pharmaceuticals Ltd)
+^ESCTMI965381	Mirtazapine 15mg orodispersible tablets (Focus Pharmaceuticals Ltd) 30 tablet
+^ESCTMI965382	Mirtazapine 30mg orodispersible tablets (Focus Pharmaceuticals Ltd)
+^ESCTMI965383	Mirtazapine 30mg orodispersible tablets (Focus Pharmaceuticals Ltd) 30 tablet
+^ESCTMI965384	Mirtazapine 45mg orodispersible tablets (Focus Pharmaceuticals Ltd)
+^ESCTMI965385	Mirtazapine 45mg orodispersible tablets (Focus Pharmaceuticals Ltd) 30 tablet
+^ESCTMI965566	Mirtazapine 30mg tablets (Tillomed Laboratories Ltd)
+^ESCTMI965567	Mirtazapine 30mg tablets (Tillomed Laboratories Ltd) 28 tablet
+^ESCTMI969066	Mirtazapine 30mg tablets (Consilient Health Ltd)
+^ESCTMI969067	Mirtazapine 30mg tablets (Consilient Health Ltd) 28 tablet
+^ESCTMI969068	Mirtazapine 15mg orodispersible tablets (Consilient Health Ltd)
+^ESCTMI969070	Mirtazapine 15mg orodispersible tablets (Consilient Health Ltd) 30 tablet
+^ESCTMI969074	Mirtazapine 30mg orodispersible tablets (Consilient Health Ltd)
+^ESCTMI969076	Mirtazapine 30mg orodispersible tablets (Consilient Health Ltd) 30 tablet
+^ESCTMI969077	Mirtazapine 45mg orodispersible tablets (Consilient Health Ltd)
+^ESCTMI969079	Mirtazapine 45mg orodispersible tablets (Consilient Health Ltd) 30 tablet
+^ESCTMI978605	Mirtazapine 15mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTMI978606	Mirtazapine 15mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTMI978607	Mirtazapine 30mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTMI978608	Mirtazapine 30mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTMI979451	Mirtazapine 45mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTMI979456	Mirtazapine 45mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTMI979458	Mirtazapine 45mg tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTMI979665	Mirtazapine 15mg orodispersible tablets (Sigma Pharmaceuticals Plc)
+^ESCTMI979666	Mirtazapine 15mg orodispersible tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTMI979668	Mirtazapine 30mg orodispersible tablets (Sigma Pharmaceuticals Plc)
+^ESCTMI979669	Mirtazapine 30mg orodispersible tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTMI979670	Mirtazapine 45mg orodispersible tablets (Sigma Pharmaceuticals Plc)
+^ESCTMI979671	Mirtazapine 45mg orodispersible tablets (Sigma Pharmaceuticals Plc) 30 tablet
+^ESCTMI989454	Mirtazapine 15mg tablets (Ranbaxy (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI989457	Mirtazapine 30mg tablets (Ranbaxy (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI989459	Mirtazapine 45mg tablets (Ranbaxy (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCTMI993824	Mirtazapine 30mg orodispersible tablets (Mylan Ltd)
+^ESCTMI993825	Mirtazapine 30mg orodispersible tablets (Mylan Ltd) 30 tablet 3 x 10 tablets
+^ESCTMI993826	Mirtazapine 45mg orodispersible tablets (Mylan Ltd)
+^ESCTMI993827	Mirtazapine 45mg orodispersible tablets (Mylan Ltd) 30 tablet 3 x 10 tablets
+^ESCTMI993828	Mirtazapine 15mg orodispersible tablets (Mylan Ltd)
+^ESCTMI993829	Mirtazapine 15mg orodispersible tablets (Mylan Ltd) 30 tablet 3 x 10 tablets
+^ESCTMI994421	Mirtazapine 15mg tablets (Pfizer Ltd)
+^ESCTMI994422	Mirtazapine 15mg tablets (Pfizer Ltd) 28 tablet
+^ESCTMI994423	Mirtazapine 30mg tablets (Pfizer Ltd)
+^ESCTMI994424	Mirtazapine 30mg tablets (Pfizer Ltd) 28 tablet
+^ESCTMI994425	Mirtazapine 45mg tablets (Pfizer Ltd)
+^ESCTMI994426	Mirtazapine 45mg tablets (Pfizer Ltd) 28 tablet
+^ESCTMI994427	Mirtazapine 15mg orodispersible tablets (Pfizer Ltd)
+^ESCTMI994428	Mirtazapine 15mg orodispersible tablets (Pfizer Ltd) 30 tablet
+^ESCTMI994429	Mirtazapine 30mg orodispersible tablets (Pfizer Ltd)
+^ESCTMI994430	Mirtazapine 30mg orodispersible tablets (Pfizer Ltd) 30 tablet
+^ESCTMI994431	Mirtazapine 45mg orodispersible tablets (Pfizer Ltd)
+^ESCTMI994432	Mirtazapine 45mg orodispersible tablets (Pfizer Ltd) 30 tablet
+^ESCTPR609833	Product containing mirtazapine 30 mg/1 each oral tablet
+^ESCTPR640082	Product containing mirtazapine 15 mg/1 each oral tablet
+^ESCTPR640089	Product containing mirtazapine 45 mg/1 each oral tablet
+^ESCTZI819664	Zispin 30mg tablets (Organon Laboratories Ltd)
+^ESCTZI856593	Zispin 30mg tablets (Organon Laboratories Ltd) 28 tablet 4 x 7 tablets
+^ESCTZI873406	Zispin SolTab 30mg orodispersible tablets (Merck Sharp & Dohme Ltd)
+^ESCTZI873407	Zispin SolTab 30mg orodispersible tablets (Merck Sharp & Dohme Ltd) 30 tablet 5 x 6 tablets
+^ESCTZI879847	Zispin SolTab 45mg orodispersible tablets (Merck Sharp & Dohme Ltd)
+^ESCTZI879848	Zispin SolTab 45mg orodispersible tablets (Merck Sharp & Dohme Ltd) 30 tablet 5 x 6 tablets
+^ESCTZI879966	Zispin SolTab 15mg orodispersible tablets (Merck Sharp & Dohme Ltd)
+^ESCTZI879967	Zispin SolTab 15mg orodispersible tablets (Merck Sharp & Dohme Ltd) 6 tablet
+^ESCTZI879968	Zispin SolTab 15mg orodispersible tablets (Merck Sharp & Dohme Ltd) 30 tablet 5 x 6 tablets
+MIOR138297NEMIS	Mirtazapine (Imported)  Orodispersible tablets  15 mg
+MIOR138298NEMIS	Mirtazapine (Imported)  Orodispersible tablets  45 mg
+MIOR16205NEMIS	Mirtazapine  Orodispersible tablets  30 mg
+MIOR16890NEMIS	Mirtazapine  Orodispersible tablets  15 mg
+MIOR16891NEMIS	Mirtazapine  Orodispersible tablets  45 mg
+MIOR17240NEMIS	Mirtazapine  Oral Solution, Sugar Free  15 mg/ml
+MITA19793NEMIS	Mirtazapine  Tablets  15 mg
+MITA19794NEMIS	Mirtazapine  Tablets  45 mg
+MITA31478EMIS	Mirtazapine  Tablets  30 mg
+MITA36091MGEMIS	Mirtazapine  Tablets  30 mg (Alpharma)
+MITA36092MGEMIS	Mirtazapine  Tablets  30 mg (Ivax Pharmaceuticals)
+MITA36093MGEMIS	Mirtazapine  Tablets  30 mg (Unichem)
+MITA36094MGEMIS	Mirtazapine  Tablets  30 mg (Kent Pharm)
+MITA36095MGEMIS	Mirtazapine  Tablets  30 mg (Winthrop Pharmaceuticals )
+MITA36096MGEMIS	Mirtazapine  Tablets  30 mg (A.A.H. Pharm)
+MITA36097MGEMIS	Mirtazapine  Tablets  30 mg (Teva UK)
+MITA36098MGEMIS	Mirtazapine  Tablets  30 mg (Organon)
+MITA36099MGEMIS	Mirtazapine  Tablets  30 mg (Ranbaxy)
+MITA36100MGEMIS	Mirtazapine  Tablets  30 mg (Generics (UK))
+MITA36101MGEMIS	Mirtazapine  Tablets  30 mg (Genus Pharm)
+MITA36102MGEMIS	Mirtazapine  Tablets  30 mg (Sandoz)
+ZIOR16894NEMIS	Zispin Soltab  Orodispersible tablets  15 mg
+ZIOR16895NEMIS	Zispin Soltab  Orodispersible tablets  45 mg
+ZIOR17501NEMIS	Zispin Soltab  Orodispersible tablets  30 mg
+ZITA31476EMIS	Zispin  Tablets  30 mg

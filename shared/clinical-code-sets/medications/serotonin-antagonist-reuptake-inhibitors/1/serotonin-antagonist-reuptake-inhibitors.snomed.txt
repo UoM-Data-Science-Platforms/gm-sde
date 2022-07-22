@@ -1,0 +1,22 @@
+7336002	Trazodone product
+108435006	Nefazodone product
+321877001	Product containing precisely trazodone hydrochloride 150 milligram/1 each conventional release oral tablet (clinical drug)
+321880000	Product containing precisely trazodone hydrochloride 100 milligram/1 each conventional release oral capsule
+321881001	Product containing precisely trazodone hydrochloride 50 milligram/1 each conventional release oral capsule
+321980001	Product containing precisely nefazodone hydrochloride 100 milligram/1 each conventional release oral tablet (clinical drug)
+321981002	Product containing precisely nefazodone hydrochloride 200 milligram/1 each conventional release oral tablet (clinical drug)
+376658002	Product containing precisely nefazodone hydrochloride 50 milligram/1 each conventional release oral tablet (clinical drug)
+376660000	Product containing precisely nefazodone hydrochloride 150 milligram/1 each conventional release oral tablet
+376661001	Product containing precisely nefazodone hydrochloride 250 milligram/1 each conventional release oral tablet
+376689003	Product containing precisely trazodone hydrochloride 50 milligram/1 each conventional release oral tablet
+376690007	Product containing precisely trazodone hydrochloride 100 milligram/1 each conventional release oral tablet (clinical drug)
+376695002	Product containing precisely trazodone hydrochloride 300 milligram/1 each conventional release oral tablet (clinical drug)
+412646001	Product containing precisely nefazodone hydrochloride 300 milligram/1 each conventional release oral tablet
+444774009	Trazodone hydrochloride 300mg extended release tablet
+445292007	Trazodone hydrochloride 150mg extended release tablet
+768373008	Nefazodone in oral dosage form
+768414008	Product containing trazodone in oral dosage form
+58956008	Trazodone hydrochloride (substance)
+372829000	Trazodone
+108436007	Nefazodone hydrochloride (substance)
+372491002	Nefazodone

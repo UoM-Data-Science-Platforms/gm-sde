@@ -38,7 +38,7 @@ auto generated list of code sets
 
 ## Creating Clinical Code Sets
 
-The Research Data Engineer (RDE) must find, or create, at least one set of codes for the concept that they are interested in. This text file can either be SNOMED, CTV3, ReadV2, or EMIS codes. The file/s should be stored at [.shared/clinical-code-sets] in the relevant folder based on the type of concept.
+The Research Data Engineer (RDE) must find, or create, at least one set of codes for the concept that they are interested in. This text file can either be SNOMED, CTV3, ReadV2, or EMIS codes. The file/s should be stored at [.shared/clinical-code-sets] in the relevant folder based on the type of concept (conditions/ medications/ patient/ procedures/ tests).
 
 The typical file structure for a code set looks like:
 
@@ -57,6 +57,7 @@ different definitions/scopes for the code set.
 The README.md file is used to provide information about the code set, including how broad it is in scope, the source of the codes, and prevalence (see below section on validation).
 
 ## Loading code sets into SQL scripts
+The document SQL-generation-process.md shows how insert a code set into a SQL script,
 
 ## Validating Clinical Code Sets
 

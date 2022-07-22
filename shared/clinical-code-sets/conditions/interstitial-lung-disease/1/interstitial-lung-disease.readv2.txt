@@ -1,9 +1,9 @@
-23E5.	O/E - fibrosis of lung
-AD52.	Sarcoidosis of lung with sarcoidosis of lymph nodes
-H563.	Cryptogenic fibrosing alveolitis
-H563.	Hamman - Rich syndrome
-H563.	Idiopathic fibrosing alveolitis
-H563.	Idiopathic pulmonary fibrosis
-H5631	Diffuse pulmonary fibrosis
-H563z	Idiopathic fibrosing alveolitis NOS
-H57y2	Pulmonary sarcoidosis
+23E5.00	O/E - fibrosis of lung
+AD52.00	Sarcoidosis of lung with sarcoidosis of lymph nodes
+H563.00	Cryptogenic fibrosing alveolitis
+H563.00	Hamman - Rich syndrome
+H563.00	Idiopathic fibrosing alveolitis
+H563.00	Idiopathic pulmonary fibrosis
+H563100	Diffuse pulmonary fibrosis
+H563z00	Idiopathic fibrosing alveolitis NOS
+H57y200	Pulmonary sarcoidosis

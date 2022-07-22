@@ -1,0 +1,4 @@
+4434.	FSH level
+443h.	Serum FSH level
+443i.	Plasma FSH level
+4Q23.	Follicle stimulating hormone level

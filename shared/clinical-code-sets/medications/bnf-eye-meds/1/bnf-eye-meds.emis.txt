@@ -1,0 +1,618 @@
+MEEY33482NEMIS	Mercaptamine  Eye drops  0.55 %
+RIOP1539NEMIS	Rimexolone  Eye drops  10 mg/ml
+MEEY15425NEMIS	Metipranolol  Eye Drops Unit Dose, Preservative Free  0.1 %
+ATEY627NEMIS	Atropine Sulfate  Eye drops  0.5 %
+ASEY131769NEMIS	Aspire Allergy Relief  Eye drops  2 %
+AZEY36490NEMIS	Azarga  Eye drops  10 mg/ml + 5 mg/ml
+MIEY32094EMIS	Minims Dexamethasone  Eye drops (preservative-free)  0.1 %, 0.5 ml unit dose
+COEY20114NEMIS	Combigan  Eye drops  5 mg/ml + 2 mg/ml
+DIEY15455NEMIS	Diclofenac Sodium  Eye drops (preservative-free)  0.1 %, 0.3 ml unit dose
+SOEY2634	Soframycin  Eye drops  0.5 %
+FUEY8481EGTON	Fucithalmic  M/R Eye Drops  1 %
+BIEY40903NEMIS	Bimatoprost  Eye drops  0.1 mg/ml
+CHEY34245MGEMIS	Chloramphenicol  Eye drops  0.5 % (Kent Pharm)
+DOOP27028EMIS	Dorzolamide Hydrochloride  Ophthalmic solution  20 mg/ml
+CEEY11245NEMIS	Cefuroxime  Eye drops (preservative-free)  5 %
+SOEY23121NEMIS	Sodium Chloride  Eye drops (preservative-free)  5 %
+SOEY2635	Soframycin  Eye ointment  0.5 %
+TIGE29543EMIS	Timoptol La  Gel-forming eye drops  0.25 %
+MYOP71520NEMIS	Mydriasert  Ophthalmic Inserts  5.4 mg + 0.28 mg
+TIEY37241MGEMIS	Timolol Maleate  Eye-drops  0.5 % (A.A.H. Pharm)
+MEEY15424NEMIS	Metipranolol  Eye Drops Unit Dose, Preservative Free  0.3 %
+DIIN9205BRIDL	Diamox  Powder For Solution For Injection  500 mg vial
+LUSO24532NEMIS	Lucentis  Solution for injection  10 mg/ml, 0.3 ml vial
+OPEY18916NEMIS	Optrex Red Eyes  Eye drops  
+MIEY1841	Minims Chloramphenicol  Eye drops  0.5 %
+FUEY8481EGTON	Fucithalmic  M/R Eye Drops  1 %
+PIEY36566MGEMIS	Pilocarpine  Eye drops  0.5 % (Unichem)
+HYEY35422MGEMIS	Hydrocortisone Acetate  Eye ointment  1 % (A.A.H. Pharm)
+DEEY90715NEMIS	Dexafree  Eye drops  1 mg/ml, 0.4 ml unit dose
+KLEY104768NEMIS	Klorafect  Eye ointment  1 %
+POEY19455NEMIS	Polymyxin B And Trimethoprim  Eye ointment  10,000 units + 5 mg/gram
+HYEY35419MGEMIS	Hydrocortisone Acetate  Eye ointment  0.5 % (A.A.H. Pharm)
+POEY85473NEMIS	Polihexanide  Eye drops (preservative-free)  0.02 %
+PREY30689EMIS	Prednisolone Sodium Phosphate  Eye drops (preservative-free)  0.03 %
+TREY12137NEMIS	Travoprost  Eye drops  40 micrograms/ml
+MIEY5976	Minims Atropine Sulfate  Eye-drops  1 %
+BESU31969EMIS	Betaxolol Hydrochloride  Eye Drops Suspension  0.25 %
+PREY15420NEMIS	Proxymetacaine Hydrochloride  Eye Drops Unit Dose, Preservative Free  0.5 %
+NEEY37711MGEMIS	Neomycin Sulfate  Eye ointment  0.5 % (A.A.H. Pharm)
+PIEYEGTON7164	Pilocarpine  Eye drops  2 %
+TIEY136521NEMIS	Timolol And Bimatoprost  Eye Drops, Preservative Free  5 mg/ml + 300 micrograms/ml
+OFEY29363NEMIS	Oftaquix  Eye-drops (unit dose)  5 mg/ml, 0.5 ml unit dose
+RASO31784NEMIS	Ranibizumab  Solution for injection  10 mg/ml, 0.23 ml vial
+NEEY15423NEMIS	Neomycin Sulfate  Eye Drops Unit Dose, Preservative Free  0.5 %
+EYM/89216NEMIS	Eytazox  M/R capsules  250 mg
+TIEY37236MGEMIS	Timolol Maleate  Eye-drops  0.5 % (Generics (UK))
+LEEY35738MGEMIS	Levobunolol Hydrochloride  Eye drops  0.5 % (Ivax Pharmaceuticals)
+LIEY16623NEMIS	Liquivisc  Eye Gel  0.25 %
+SOEY37000MGEMIS	Sodium Chloride  Eye drops  0.9 % (Unichem)
+VEPO5185NEMIS	Verteporfin  Powder for solution for infusion  15 mg vial
+BEEY4648	Betaxolol  Eye drops  0.5 %
+DIM/20347EMIS	Diamox Sr  M/R capsules  250 mg
+MIEY10927NEMIS	Minims Fluorescein Sodium  Eye drops  1 %
+HYEY35433MGEMIS	Hypromellose  Eye drops  0.3 % (Unichem)
+PIEY36587MGEMIS	Pilocarpine  Eye drops  4 % (Kent Pharm)
+LIEY13757NEMIS	Liposic  Eye Gel  0.2 %
+TIEY20111NEMIS	Timolol And Brimonidine Tartrate  Eye drops  5 mg/ml + 2 mg/ml
+GEGE29626EMIS	Geltears  Gel  0.2 %
+ISEY3792	Isopto Frin  Eye drops  
+LUEY78478NEMIS	Lumigan  Eye-drops (unit dose)  0.3 mg/ml, 0.4 ml unit dose
+CEEY23482NEMIS	Celluvisc  Eye-drops (unit dose)  0.5 %
+BEEY355	Betnesol-N  Eye ointment  
+DEEY23288NEMIS	Dexamethasone  Eye drops (preservative-free)  0.1 %
+TIGE29547EMIS	Timolol Maleate  Gel-forming eye drops  0.25 %
+TREY26999NEMIS	Trifluorothymidine (F3T)  Eye drops  1 %
+SOEY27325EMIS	Sodium Chloride  Eye drops  5 %
+XAEY30154EMIS	Xalatan  Eye drops  50 micrograms/ml
+BREY50828NEMIS	Bromfenac  Eye drops  900 micrograms/ml
+TIEY37235MGEMIS	Timolol Maleate  Eye-drops  0.25 % (Martindale)
+PIOP29400EMIS	Pilogel  Ophthalmic gel  4 %
+PIEY36571MGEMIS	Pilocarpine  Eye drops  1 % (Alpharma)
+PIEY4170	Pilocarpine  Eye drops  3 %
+ISEY3786	Isopto Atropine  Eye drops  
+CAEY16620NEMIS	Carbomer 974P  Eye Gel  0.25 %
+ATEY37608MGEMIS	Atropine Sulfate  Eye drops  0.5 % (A.A.H. Pharm)
+CHEY34251MGEMIS	Chloramphenicol  Eye ointment  1 % (Unichem)
+PHEY6987	Phenylephrine Hydrochloride  Preservative-free eye drops  2.5 %, 0.5 ml unit dose
+TEEY17508NEMIS	Tetracaine  Eye Drops Unit Dose, Preservative Free  1 %
+MEEY123909NEMIS	Mercaptamine  Eye drops  3.8 mg/ml
+HYEY35421MGEMIS	Hydrocortisone Acetate  Eye ointment  0.5 % (Unichem)
+FLEY10335BRIDL	Fluorometholone  Eye drops  0.1 %
+ATEY37610MGEMIS	Atropine Sulfate  Eye drops  0.5 % (Unichem)
+PIEY2261	Pilocarpine Nitrate  Eye Drops Unit Dose, Preservative Free  2 %
+HYEY46842NEMIS	Hypromellose  Eye drops (preservative-free)  0.25 %
+CHEY34248MGEMIS	Chloramphenicol  Eye ointment  1 % (Martindale)
+OCEY35344EMIS	Oculotect  Eye-drops (unit dose)  5 %
+ACOR25781NEMIS	Acetazolamide  Oral suspension  250 mg/5 ml
+MIEY5980	Minims Benoxinate (Oxybuprocaine) Hydrochloride  Eye-drops  0.4 %, 0.5 ml unit dose
+SOEY5379	Sodium Chloride  Eye drops  0.9 %
+OLEY15029NEMIS	Olopatadine  Eye drops  1 mg/ml
+FLOP39008NEMIS	Fluorets  Ophthalmic Strips  1 mg
+CIEY104163NEMIS	Ciclosporin  Eye drops  0.1 %, 0.3 ml unit dose
+HYEY10074BRIDL	Hypromellose  Eye drops  1 %
+LEEY117734NEMIS	Levofloxacin  Eye drops (preservative-free)  5 mg/ml, 0.3 ml unit dose
+CIEY75972NEMIS	Ciclosporin  Eye drops (preservative-free)  0.06 %
+OPEY130750NEMIS	Opticrom Allergy  Eye Drops, Preservative Free  2 %, 0.3 ml unit dose
+BLEY121226NEMIS	Blumont Healthcare Hypromellose  Eye drops  0.3 %
+MASO22634NEMIS	Macugen  Solution for injection  300 micrograms/0.09 ml pre-filled syringe
+PIEY36577MGEMIS	Pilocarpine  Eye drops  3 % (Martindale)
+STEY125019NEMIS	Sturiban  Eye drops  0.3 mg/ml
+EPEY3524	Eppy  Eye drops  1 %
+HYEY5828NEMIS	Hypromellose  Eye Drops Unit Dose, Preservative Free  0.32 %
+NEEY36710NEMIS	Nepafenac  Eye drops  1 mg/ml
+GEEA30258EMIS	Genticin  Ear/eye drops  0.3 %
+KEEY125801NEMIS	Ketotifen  Eye Drops, Preservative Free  0.25 mg/ml, 0.4 ml unit dose
+GEEY11250NEMIS	Gentamicin  Eye drops (preservative-free)  1.5 %
+VAEY78953NEMIS	Vancomycin Hydrochloride  Eye drops  1.4 %
+GAEY8337BRID	Ganda 1 + 0.2  Eye drops  
+LAEY78609NEMIS	Latanoprost  Eye drops (preservative-free)  50 micrograms/ml, 0.2 ml unit dose
+EYEY23597EMIS	Hay-Crom  Aqueous eye drops  2 %
+LEEY35737MGEMIS	Levobunolol Hydrochloride  Eye drops  0.5 % (A.A.H. Pharm)
+VILI24510EMIS	Viscotears  Liquid gel  0.2 %
+SONA10188BRIDL	Sodium Chloride  Nasal drops  0.9 %
+RAAQ26596EMIS	Rapitil  Aqueous eye drops  2 %
+CHEY34250MGEMIS	Chloramphenicol  Eye ointment  1 % (Kent Pharm)
+HYEY35426MGEMIS	Hydrocortisone Acetate  Eye ointment  2.5 % (A.A.H. Pharm)
+PIEY29071EMIS	Pilocarpine Hydrochloride  Eye drops (preservative-free)  4 %
+DIEY22423EMIS	Diclofenac Sodium  Eye drops  0.1 %
+PREY13006NEMIS	Prednisolone Sodium Phosphate  Eye drops  0.03 %
+TIEY22013EMIS	Timolol Maleate  Eye Drops Unit Dose, Preservative Free  0.25 %
+NEEY5960	Neosporin  Eye drops  
+FIEY130464NEMIS	Fixapost  Eye drops  50 micrograms/ml + 5 mg/ml, 0.2 ml unit dose
+DOEY22352NEMIS	Dorzolamide Hydrochloride  Eye Drops Unit Dose, Preservative Free  20 mg/ml, 0.2 ml unit dose
+VILI10817NEMIS	Viscotears  Liquid gel  0.2 %, 0.6 ml unit dose
+PIEY36574MGEMIS	Pilocarpine  Eye drops  3 % (Unichem)
+PIEY27611NEMIS	Pilocarpine Hydrochloride  Eye drops  0.1 %
+CHEY34252MGEMIS	Chloramphenicol  Eye ointment  1 % (The Boots Company)
+BEDR343	Betamethasone Sodium Phosphate  Drops  0.1 %
+SIEY36950MGEMIS	Simple  Eye ointment  (Kent Pharm)
+HOEY35397MGEMIS	Homatropine  Eye drops  1 % (Martindale)
+LEEY138180NEMIS	Levofloxacin  Eye drops (preservative-free)  5 mg/ml
+PRDR5326	Prednisolone Sodium Phosphate  Drops  0.5 %
+ALOP19550EMIS	Alomide  Ophthalmic solution  0.1 %
+PIEY36568MGEMIS	Pilocarpine  Eye drops  1 % (The Boots Company)
+CHEY34243MGEMIS	Chloramphenicol  Eye drops  0.5 % (Ivax Pharmaceuticals)
+HOEY35401MGEMIS	Homatropine  Eye drops  2 % (Unichem)
+HYEY35423MGEMIS	Hydrocortisone Acetate  Eye ointment  1 % (Martindale)
+LAEY130462NEMIS	Latanoprost And Timolol  Eye Drops, Preservative Free  50 micrograms/ml + 5 mg/ml, 0.2 ml unit dose
+HYEY35427MGEMIS	Hypromellose  Eye drops  0.3 % (Ivax Pharmaceuticals)
+TIEY37229MGEMIS	Timolol Maleate  Eye-drops  0.25 % (Alpharma)
+MIEY10928NEMIS	Minims Fluorescein Sodium  Eye drops  2 %
+IKEY104165NEMIS	Ikervis  Eye drops  0.1 %, 0.3 ml unit dose
+NEEY123802NEMIS	Nepafenac  Eye drops  3 mg/ml
+ACTA33638MGEMIS	Acetazolamide  Tablets  250 mg (A.A.H. Pharm)
+NEEY37713MGEMIS	Neomycin Sulfate  Eye ointment  0.5 % (Unichem)
+MIEY1846	Minims Pilocarpine  Eye drops  2 %
+LUSO90713NEMIS	Lucentis  Solution for injection  1.65 mg/0.165 ml pre-filled syringe
+BREY413	Brolene  Eye drops  0.1 %
+FUEY8483EGTON	Fusidic Acid  M/R Eye Drops  1 %
+XAEY11820NEMIS	Xalacom  Eye drops  
+TIEY37233MGEMIS	Timolol Maleate  Eye-drops  0.25 % (Unichem)
+PIEY36579MGEMIS	Pilocarpine  Eye drops  2 % (Unichem)
+LEEY35736MGEMIS	Levobunolol Hydrochloride  Eye drops  0.5 % (Unichem)
+ACTA33636MGEMIS	Acetazolamide  Tablets  250 mg (Sandoz)
+CHEY34254MGEMIS	Chloramphenicol  Eye ointment  1 % (A.A.H. Pharm)
+SIEY95051NEMIS	Simbrinza  Eye drops  10 mg/ml + 2 mg/ml
+CIOP24414EMIS	Ciprofloxacin  Eye drops  0.3 %
+TAEY38478NEMIS	Tafluprost  Eye drops  15 micrograms/ml, 0.3 ml unit dose
+HOEY35400MGEMIS	Homatropine  Eye drops  2 % (Martindale)
+REOP24740NEMIS	Restasis  Ophthalmic Emulsion Preservative Free  0.05 %, 0.4 ml vial
+PIEY36570MGEMIS	Pilocarpine  Eye drops  1 % (Kent Pharm)
+BREY50828NEMIS	Bromfenac  Eye drops  900 micrograms/ml
+HYEY10656BRIDL	Hydrocortisone Acetate  Eye ointment  2.5 %
+LUSO31785NEMIS	Lucentis  Solution for injection  10 mg/ml, 0.23 ml vial
+MIEY9210BRIDL	Minims Pilocarpine Nitrate  Eye drops  1 %
+COEY81479NEMIS	Cocaine  Eye drops  4 %
+VOEY22421EMIS	Voltarol Ophtha  Eye drops  0.1 %, 0.3 ml unit dose
+ATEY33862MGEMIS	Atropine  Eye ointment  1 % (A.A.H. Pharm)
+TREY5483	Tropicamide  Eye drops  0.5 %
+LEEY28336EMIS	Levocabastine Hydrochloride  Eye drops  500 micrograms/ml
+DOEY23523NEMIS	Dorzolamide And Timolol  Eye Drops Unit Dose, Preservative Free  20 mg/ml + 5 mg/ml, 0.2 ml unit dose
+BESU930NEMIS	Betoptic  Eye Drops Suspension (Unit Dose)  0.25 %
+LIEY18445NEMIS	Livostin Direct  Eye drops  500 micrograms/ml
+TIEY2862	Timolol Maleate  Eye-drops  0.25 %
+TIEY22732NEMIS	Timolol And Bimatoprost  Eye drops  5 mg/ml + 300 micrograms/ml
+PREY12019NEMIS	Prednisolone Sodium Phosphate  Eye drops  0.1 %
+MYEY3991	Mydrilate  Eye drops  0.5 %
+ACEY22605NEMIS	Acetylcysteine  Eye drops (preservative-free)  10 %
+PIEY36589MGEMIS	Pilocarpine  Eye drops  4 % (The Boots Company)
+OFEY117737NEMIS	Oftaquix  Eye-drops (unit dose)  5 mg/ml, 0.3 ml unit dose
+PIEY36565MGEMIS	Pilocarpine  Eye drops  0.5 % (A.A.H. Pharm)
+LIEY138122NEMIS	Librachrom  Eye drops  2 %
+ACTA33637MGEMIS	Acetazolamide  Tablets  250 mg (Unichem)
+AZEY51158NEMIS	Azithromycin  Eye-drops (unit dose)  15 mg/gram, 0.25 gram unit dose
+TIEY2865	Timoptol  Eye-drops  0.5 %
+NEEY123803NEMIS	Nevanac  Eye drops  3 mg/ml
+FLEY1205	Fluorescein Sodium  Eye Drops Unit Dose, Preservative Free  2 %
+APOP23777EMIS	Apraclonidine Hydrochloride  Eye drops (preservative-free)  1 %, 0.25 ml unit dose
+TIEY52140NEMIS	Tiopex  Eye Gel  1 mg/gram, 0.4 gram unit dose
+MIEY17505NEMIS	Minims Tetracaine Hydrochloride  Eye drops  1 %
+LUSO90713NEMIS	Lucentis  Solution for injection  1.65 mg/0.165 ml pre-filled syringe
+NEEY36204MGEMIS	Neomycin Sulfate  Eye drops  0.5 % (Martindale)
+DEEY88582NEMIS	Dexamethasone  Eye Drops, Preservative Free  0.1 %, 0.4 ml unit dose
+CLEY140433NEMIS	NULL
+TIEY37232MGEMIS	Timolol Maleate  Eye-drops  0.25 % (Ivax Pharmaceuticals)
+PIEY29067EMIS	Pilocarpine Hydrochloride  Eye drops (preservative-free)  0.5 %
+TIEY84922NEMIS	Timolol And Bimatoprost  Eye drops  5 mg/ml + 300 micrograms/ml, 0.4 ml unit dose
+EPEY16734NEMIS	Epinastine Hydrochloride  Eye drops  0.5 mg/ml
+SOEY36999MGEMIS	Sodium Chloride  Eye drops  0.9 % (Martindale)
+MIEY3937	Minims Homatropine Hydrobromide  Eye drops  2 %
+LUSO24532NEMIS	Lucentis  Solution for injection  10 mg/ml, 0.3 ml vial
+EYEY126316NEMIS	Eythalm  Eye drops  1 mg/ml
+MAEY1726	Maxitrol  Eye drops  
+PIEY36584MGEMIS	Pilocarpine  Eye drops  2 % (Kent Pharm)
+ZIEY37454MGEMIS	Zinc Sulfate  Eye drops  0.25 % (Unichem)
+DOEY16716NEMIS	Dorzolamide And Timolol  Eye drops  20 mg/ml + 5 mg/ml
+ISEY3785	Isopto Alkaline  Eye drops  1 %
+OPEY18920NEMIS	Optrex Sore Eyes  Eye drops  13 %
+PIEY36588MGEMIS	Pilocarpine  Eye drops  4 % (Martindale)
+LOEY29415NEMIS	Loteprednol  Eye drops  0.5 %
+DEEY19459NEMIS	Dexamethasone And Tobramycin  Eye drops  0.1 % + 0.3 %
+BREY109508NEMIS	Brolene Antibiotic  Eye drops  0.5 %
+OXEY6983	Oxybuprocaine Hydrochloride  Eye Drops Unit Dose, Preservative Free  0.4 %
+BLEY45018NEMIS	Blephasol  Lotion  
+ROEY5367	Rose Bengal  Eye Drops Unit Dose, Preservative Free  1 %
+CYEY15430NEMIS	Cyclopentolate Hydrochloride  Eye Drops Unit Dose, Preservative Free  0.5 %
+CHEY118997NEMIS	Chlorhexidine Gluconate  Eye Drops, Preservative Free  0.02 %
+MIEY9723HILLI	Minims Metipranolol  Eye drops  0.3 %
+FREY4951	Framycetin Sulfate  Eye ointment  0.5 %
+GAEY84923NEMIS	Ganfort  Eye drops  5 mg/ml + 300 micrograms/ml, 0.4 ml unit dose
+SIEY36949MGEMIS	Simple  Eye ointment  (Unichem)
+SOEY38276MGEMIS	Sodium Cromoglicate  Eye drops  2 % (Kent Pharm)
+MIEY1845	Minims Neomycin Sulphate  Eye drops  0.5 %
+DIEY17624NEMIS	Dibrompropamidine  Eye ointment  0.15 %
+CLEY645	Clobetasone Butyrate  Eye drops  0.1 %
+MIEY89931NEMIS	Minims Povidone Iodine  Eye drops  5 %, 0.4 ml unit dose
+ATEY33861MGEMIS	Atropine Sulfate  Eye drops  1 % (Martindale)
+OCOP19765EMIS	Ocufen  Ophthalmic solution  0.03 %
+DEEY19459NEMIS	Dexamethasone And Tobramycin  Eye drops  0.1 % + 0.3 %
+PIEY36576MGEMIS	Pilocarpine  Eye drops  3 % (Alpharma)
+EYEY122396NEMIS	Eysano  Eye drops  2.5 mg/ml
+MIEY1844	Minims Gentamicin  Eye drops  0.3 %
+DOEY122346NEMIS	Dorzolamide Hydrochloride  Eye drops (preservative-free)  20 mg/ml
+ANEY19469NEMIS	Antazoline And Xylometazoline  Eye drops  0.5 % + 0.05 %
+BEOI344	Betamethasone Sodium Phosphate  Eye ointment  0.1 %
+TIEY37240MGEMIS	Timolol Maleate  Eye-drops  0.5 % (Ivax Pharmaceuticals)
+OPEY32238EMIS	Optilast  Eye drops  0.05 %
+PIEY10598BRIDL	Pilocarpine  Eye drops  0.5 %
+BREY95049NEMIS	Brinzolamide And Brimonidine  Eye drops  10 mg/ml + 2 mg/ml
+CYEY123911NEMIS	Cystadrops  Eye drops  3.8 mg/ml
+CEEY6398NEMIS	Celluvisc  Eye-drops (unit dose)  1 %
+MEEY122930NEMIS	Mercaptamine  Eye drops (preservative-free)  0.55 %
+HYEY35430MGEMIS	Hypromellose  Eye drops  0.3 % (Martindale)
+SOEY38275MGEMIS	Sodium Cromoglicate  Eye drops  2 % (Unichem)
+HYEY10658BRIDL	Hydrocortisone Acetate  Eye drops  1 %
+PREY86317NEMIS	Proxymetacaine And Fluorescein  Eye Drops, Preservative Free  0.5 % + 0.25 %, 0.5 ml unit dose
+OPEY16148NEMIS	Optrex Allergy  Eye drops  2 %
+POPR19781EMIS	Polyvinyl Alcohol  Preservative-free eye drops  1.4 %, 0.4 ml unit dose
+HOEY3701	Homatropine  Eye drops  2 %
+OPAQ9199BRIDL	Opticrom  Aqueous eye drops  2 %
+PIEY36569MGEMIS	Pilocarpine  Eye drops  1 % (Martindale)
+SAEY38482NEMIS	Saflutan  Eye drops  15 micrograms/ml, 0.3 ml unit dose
+EYEY122397NEMIS	Eysano  Eye drops  5 mg/ml
+POEY2302	Polyvinyl Alcohol  Eye drops  1.4 %
+MYEY3989	Mydriacyl  Eye drops  0.5 %
+OPEY20513NEMIS	Optrex Infected Eyes  Eye drops  0.5 %
+LIEY28332EMIS	Livostin  Eye drops  500 micrograms/ml
+NEEY36203MGEMIS	Neomycin Sulfate  Eye drops  0.5 % (A.A.H. Pharm)
+TAEY103694NEMIS	Taptiqom  Eye drops  15 micrograms/ml + 5 mg/ml, 0.3 ml unit dose
+TIEY22014EMIS	Timolol Maleate  Eye Drops Unit Dose, Preservative Free  0.5 %
+MUEY138434NEMIS	Murine Hayfever Relief  Eye drops  2 %
+PREY12497NEMIS	Prednisolone Sodium Phosphate  Eye drops (preservative-free)  0.125 %
+VOEY15007NEMIS	Voltarol Ophtha Multidose  Eye drops  0.1 %
+PHEY5278	Phenylephrine Hydrochloride  Eye drops  10 %
+ZOEY3098	Zovirax  Eye ointment  3 %
+TIEY37238MGEMIS	Timolol Maleate  Eye-drops  0.5 % (Alpharma)
+CIEY17612NEMIS	Ciclosporin  Eye ointment  0.2 %
+PIEY36585MGEMIS	Pilocarpine  Eye drops  4 % (Alpharma)
+ATEY33860MGEMIS	Atropine Sulfate  Eye drops  1 % (A.A.H. Pharm)
+DIDR928	Dipivefrine Hydrochloride  Drops  0.1 %
+PIEY36567MGEMIS	Pilocarpine  Eye drops  0.5 % (Kent Pharm)
+PREY11423NEMIS	Prednisolone Sodium Phosphate  Eye drops  0.3 %
+EYEY125696NEMIS	Eyreida  Eye drops  0.3 mg/ml
+POEY19453NEMIS	Polymyxin B And Bacitracin  Eye ointment  10,000 units/gram + 500 units/gram
+HOEY35396MGEMIS	Homatropine  Eye drops  1 % (A.A.H. Pharm)
+ACSO101958NEMIS	Acetylcholine Chloride  Solution for Intra-ocular Irrigation  20 mg ampoule
+MOEY78611NEMIS	Monopost  Eye drops  50 micrograms/ml, 0.2 ml unit dose
+AREY5830NEMIS	Artelac  Eye Drops Unit Dose, Preservative Free  0.32 %
+CHEY4714	Chloramphenicol  Eye ointment  1 %
+VIEY138867NEMIS	Vizidor  Eye drops  20 mg/ml
+SOEY17852NEMIS	Sodium Cromoglicate  Eye drops  2 %
+ISEY1513	Isopto Plain  Eye drops  0.5 %
+GEEA30260EMIS	Gentamicin  Ear/eye drops  0.3 %
+MAEY1727	Maxitrol  Eye ointment  
+GLEY11251NEMIS	Glycerol  Eye drops (preservative-free)  10 %
+PREY14584NEMIS	Prednisolone Sodium Phosphate  Eye drops  0.003 %
+EMEY8NEMIS	Emedastine Difumarate  Eye drops  0.05 %
+MIEY30032EMIS	Minims Proxymetacaine  Eye drops  0.5 %
+MEEY126290NEMIS	Medizol  Eye drops  0.005 %
+TREY15417NEMIS	Tropicamide  Eye Drops Unit Dose, Preservative Free  1 %
+BEOI352	Betnesol  Eye ointment  0.1 %
+BESU31967EMIS	Betoptic  Eye Drops Suspension  0.25 %
+LOEY29418NEMIS	Lotemax  Eye drops  0.5 %
+NEEY37712MGEMIS	Neomycin Sulfate  Eye ointment  0.5 % (Martindale)
+LUSO31785NEMIS	Lucentis  Solution for injection  10 mg/ml, 0.23 ml vial
+YEEY50830NEMIS	Yellox  Eye drops  900 micrograms/ml
+ACEY33144EMIS	Acetylcysteine  Eye drops (preservative-free)  5 %
+CAPR48819NEMIS	Carmellose Sodium  Preservative-free eye drops  0.5 %, 0.4 ml unit dose
+KEEY28987EMIS	Ketorolac Trometamol  Eye drops  0.5 %
+CHEY34247MGEMIS	Chloramphenicol  Eye ointment  1 % (Teva UK)
+HYEY30096NEMIS	Hypromellose And Dextran 70  Preservative-free eye drops  0.3 % + 0.1 %, 0.4 ml unit dose
+SOEY38274MGEMIS	Sodium Cromoglicate  Eye drops  2 % (A.A.H. Pharm)
+CHEY34244MGEMIS	Chloramphenicol  Eye drops  0.5 % (Unichem)
+ATEY15434NEMIS	Atropine Sulfate  Eye Drops Unit Dose, Preservative Free  1 %
+AMEY47575NEMIS	Amphotericin B  Eye drops  0.15 %
+MIEY3946	Minims Saline (Sodium Chloride)  Eye drops  0.9 %
+BLEY85978NEMIS	Blephagel  Eye Gel, Preservative-Free  0.36 %
+CEEY6398NEMIS	Celluvisc  Eye-drops (unit dose)  1 %
+NEEY36205MGEMIS	Neomycin Sulfate  Eye drops  0.5 % (Unichem)
+TEEY4393	Teoptic  Eye drops  2 %
+CAEY4683	Carteolol Hydrochloride  Eye drops  1 %
+CHEY4713	Chloramphenicol  Eye drops  0.5 %
+PIEY36583MGEMIS	Pilocarpine  Eye drops  2 % (Martindale)
+PIEY36578MGEMIS	Pilocarpine  Eye drops  3 % (A.A.H. Pharm)
+ATEY33859MGEMIS	Atropine Sulfate  Eye drops  1 % (Kent Pharm)
+DITA871	Diamox  Tablets  250 mg
+TIEY52138NEMIS	Timolol Maleate  Eye Gel, Preservative-Free  1 mg/gram, 0.4 gram unit dose
+SIEY36946MGEMIS	Simple  Eye ointment  (A.A.H. Pharm)
+LAEY3811	Lacri-Lube  Eye ointment  
+PIEY36581MGEMIS	Pilocarpine  Eye drops  2 % (A.A.H. Pharm)
+POEY15450NEMIS	Polyvinyl Alcohol  Eye drops  1 %
+HYEY35425MGEMIS	Hydrocortisone Acetate  Eye ointment  2.5 % (Martindale)
+GLEY31039EMIS	Glau-Opt  Eye drops  0.5 %
+TIGE29544EMIS	Timoptol La  Gel-forming eye drops  0.5 %
+PREY11586NEMIS	Prednisolone Acetate  Eye drops  1 %
+BREY30586EMIS	Brimonidine Tartrate  Eye drops  0.2 %
+AZEY32240EMIS	Azelastine Hydrochloride  Eye drops  0.05 %
+CIEY89388NEMIS	Ciclosporin  Eye drops (preservative-free)  0.05 %, 0.4 ml unit dose
+DREY86843NEMIS	Dropodex  Eye drops  0.1 %, 0.4 ml unit dose
+RASO90712NEMIS	Ranibizumab  Solution for injection  1.65 mg/0.165 ml pre-filled syringe
+CHEY555	Chloramphenicol  Eye-drops  0.5 %
+AREY28390NEMIS	Artelac  Eye drops  0.32 %
+ZIEY37452MGEMIS	Zinc Sulfate  Eye drops  0.25 % (A.A.H. Pharm)
+HYEY10652BRIDL	Hydrocortisone Acetate  Eye ointment  0.5 %
+TAEY103692NEMIS	Tafluprost And Timolol  Eye drops  15 micrograms/ml + 5 mg/ml, 0.3 ml unit dose
+SOEY27876EMIS	Sodium Chloride  Eye drops  6 %
+MIEY9201BRIDL	Minims Tropicamide  Eye drops  0.5 %
+APOP26711EMIS	Apraclonidine Hydrochloride  Eye drops  0.5 %
+MISO14775NEMIS	Miochol-E  Solution for Intra-ocular Irrigation  20 mg vial
+BOEY123581NEMIS	Bondulc  Eye drops  40 micrograms/ml
+ACTA22	Acetazolamide  Tablets  250 mg
+POEY9264BRIDL	Polytrim  Eye ointment  
+RASO24529NEMIS	Ranibizumab  Solution for injection  10 mg/ml, 0.3 ml vial
+CHEY124615NEMIS	Chloramphenicol  Eye drops (preservative-free)  0.5 %
+COEY34612EMIS	Cosopt  Eye drops  20 mg/ml + 5 mg/ml
+TIEY37231MGEMIS	Timolol Maleate  Eye-drops  0.25 % (Kent Pharm)
+ACEY9423EMIS	Acetylcysteine  Eye drops  5 %
+CAEY42136NEMIS	Catacrom  Eye drops (preservative-free)  2 %, 0.3 ml unit dose
+GAEY1274	Ganda 3 + 0.5  Eye drops  
+POPR89930NEMIS	Povidone-Iodine  Eye drops (preservative-free)  5 %, 0.4 ml unit dose
+LAEY19461NEMIS	Latanoprost And Timolol  Eye drops  50 micrograms/ml + 5 mg/ml
+IDTA109479NEMIS	Idebenone  Tablets  150 mg
+ACM/20349EMIS	Acetazolamide  M/R capsules  250 mg
+PREY10015BRIDL	Pred Forte  Eye drops  1 %
+REEY16737NEMIS	Relestat  Eye drops  0.5 mg/ml
+CHEY34249MGEMIS	Chloramphenicol  Eye ointment  1 % (Ivax Pharmaceuticals)
+MOEY48141NEMIS	Moxivig  Eye drops  0.5 %
+HYEY6820	Hypromellose  Eye drops  0.25 %
+GODR23955EMIS	Golden Eye  Drops  0.1 %
+CIEY21315NEMIS	Ciprofloxacin  Eye ointment  3 mg/gram
+HYEY28391NEMIS	Hypromellose  Eye drops  0.32 %
+SOEY124818NEMIS	Soothe Night Time  Eye ointment  
+TIEY12591NEMIS	Timolol Maleate  Eye Gel  0.1 %
+ALEY30584EMIS	Alphagan  Eye drops  0.2 %
+MIEY3940	Minims Phenylephrine Hydrochloride  Eye drops  2.5 %
+MIEY9718HILLI	Minims Artificial Tears  Eye drops  0.44 %
+VEOP1542NEMIS	Vexol  Eye drops  10 mg/ml
+CHSI8929PRDGY	Chloramphenicol  Eye Drops Unit Dose, Preservative Free  0.5 %
+PIEYEGTON7165	Pilocarpine  Eye drops  4 %
+EMEY11NEMIS	Emadine  Eye drops  0.05 %
+OXEY139417NEMIS	NULL
+CHEY4714	Chloramphenicol  Eye ointment  1 %
+CYEY4793	Cyclopentolate Hydrochloride  Eye drops  1 %
+GAEA30262EMIS	Garamycin  Ear/eye drops  0.3 %
+HYEY10654BRIDL	Hydrocortisone Acetate  Eye ointment  1 %
+SOEY125491NEMIS	Softacort  Eye drops  3.35 mg/ml, 0.4 ml unit dose
+SYLI88751NEMIS	Systane  Lid Wipes  
+VEEY128020NEMIS	Verkazia  Eye drops  0.1 %, 0.3 ml unit dose
+EYEY124620NEMIS	Eykappo  Eye drops  0.5 %
+BREY36487NEMIS	Brinzolamide And Timolol  Eye drops  10 mg/ml + 5 mg/ml
+PIEY31193EMIS	Pilocarpine Hydrochloride  Eye drops  6 %
+CHRE8814BRIDL	Chloromycetin  Redidrops  0.5 %
+OFOP23567EMIS	Ofloxacin  Ophthalmic solution  0.3 %
+PHEY15456NEMIS	Phenylephrine Hydrochloride  Eye drops  0.12 %
+HOEY35399MGEMIS	Homatropine  Eye drops  2 % (A.A.H. Pharm)
+SIEY4314	Simple  Eye ointment  
+TEEY30097NEMIS	Tears Naturale  Preservative-free eye drops  0.4 ml unit dose
+TIEY22587NEMIS	Timolol And Travoprost  Eye drops  5 mg/ml + 40 micrograms/ml
+LOOP19552EMIS	Lodoxamide Trometamol  Ophthalmic solution  0.1 %
+TOEY10807NEMIS	Tobradex  Eye drops  3 mg/ml + 1 mg/ml
+TREY2947	Tropicamide  Eye drops  1 %
+LEEY27906EMIS	Levobunolol Hydrochloride  Eye drops  0.5 %
+CAPR48815NEMIS	Carmellose Sodium  Preservative-free eye drops  1 %, 0.4 ml unit dose
+TOEY31795NEMIS	Tobravisc  Eye drops  3 mg/ml
+SOEY2613	Sodium Cromoglycate  Eye drops  2 %
+MIEY3945	Minims Rose Bengal  Eye drops  1 %
+TIEY37242MGEMIS	Timolol Maleate  Eye-drops  0.5 % (Unichem)
+SIEY36951MGEMIS	Simple  Eye ointment  (PLIVA Pharma Ltd)
+AMEY47625NEMIS	Amphotericin B  Eye drops (preservative-free)  0.15 %
+BEEY19449NEMIS	Betamethasone And Neomycin  Eye ointment  0.1 % + 0.5 %
+CYEY4793	Cyclopentolate Hydrochloride  Eye drops  1 %
+MIEY1546NEMIS	Minims Proxymetacaine and Fluorescein  Eye drops  0.5 % + 0.25 %
+COEY23524NEMIS	Cosopt  Eye drops (preservative-free)  20 mg/ml + 5 mg/ml, 0.2 ml unit dose
+SOEY38278MGEMIS	Sodium Cromoglicate  Eye drops  2 % (Alpharma)
+PREY11256NEMIS	Prednisolone Sodium Phosphate  Eye drops (preservative-free)  0.5 %
+TIEY37239MGEMIS	Timolol Maleate  Eye-drops  0.5 % (Kent Pharm)
+FUEY8483EGTON	Fusidic Acid  M/R Eye Drops  1 %
+SOEY36998MGEMIS	Sodium Chloride  Eye drops  0.9 % (A.A.H. Pharm)
+LEEY22797NEMIS	Levofloxacin  Eye drops  5 mg/ml
+CIEY17613NEMIS	Ciclosporin  Eye drops (preservative-free)  2 %
+ACEY74099NEMIS	Acetylcysteine  Eye drops  10 %
+ACIN9238HILLI	Acetazolamide  Powder For Solution For Injection  500 mg vial
+SOEY29482EMIS	Sodium Chloride  Eye ointment  5 %
+HYEY3740	Hypotears  Eye drops  1 %
+EYEY138916NEMIS	Eycrom  Eye drops  2 %
+NYEY12593NEMIS	Nyogel  Eye Gel  0.1 %
+MIEY17506NEMIS	Minims Tetracaine Hydrochloride  Eye drops  0.5 %
+SOEY75961NEMIS	Sodium Chloride  Eye drops (preservative-free)  0.9 %
+MYEY3990	Mydriacyl  Eye drops  1 %
+CHEY571	Chloromycetin  Eye ointment  1 %
+NEEY4021NEMIS	Neomycin Sulfate  Eye ointment  0.5 %
+PIEY36586MGEMIS	Pilocarpine  Eye drops  4 % (Unichem)
+COEY130342NEMIS	Cosopt Imulti  Eye Drops, Preservative Free  20 mg/ml + 5 mg/ml
+PIEY36572MGEMIS	Pilocarpine  Eye drops  1 % (Unichem)
+HOEY35398MGEMIS	Homatropine  Eye drops  1 % (Unichem)
+PREY30205EMIS	Prednisolone Sodium Phosphate  Eye drops (preservative-free)  0.1 %
+TIEY37237MGEMIS	Timolol Maleate  Eye-drops  0.5 % (Martindale)
+TIEY2863	Timolol Maleate  Eye-drops  0.5 %
+VIEY24405EMIS	Vividrin  Eye drops  2 %
+MUEY15484NEMIS	Murine Irritation & Redness Relief  Eye drops  0.012 %
+PREY11257NEMIS	Prednisolone Sodium Phosphate  Eye drops (preservative-free)  1 %
+BREY23330EMIS	Brolene  Eye ointment  0.15 %
+MIEY3934	Minims Cyclopentolate Hydrochloride  Eye drops  1 %
+SOEY17879NEMIS	Sodium Cromoglicate  Eye drops (preservative-free)  2 %
+PIEY4168	Pilocarpine  Eye drops  1 %
+TROP27026EMIS	Trusopt  Eye drops  20 mg/ml
+TOEY5455	Tobramycin  Eye drops  0.3 % (3 mg/ml)
+IOOP26713EMIS	Iopidine  Eye drops  0.5 %
+GAEY22734NEMIS	Ganfort  Eye drops  5 mg/ml + 300 micrograms/ml
+TIEY37228MGEMIS	Timolol Maleate  Eye-drops  0.25 % (A.A.H. Pharm)
+CAGE4543NEMIS	Carbomer 980  Gel  0.2 %
+KEEY125803NEMIS	Ketofall  Eye drops  0.25 mg/ml, 0.4 ml unit dose
+LEEY29362NEMIS	Levofloxacin  Eye drops (preservative-free)  5 mg/ml, 0.5 ml unit dose
+MIEY9722HILLI	Minims Metipranolol  Eye drops  0.1 %
+LUEY40904NEMIS	Lumigan  Eye drops  0.1 mg/ml
+OFEY22799NEMIS	Oftaquix  Eye drops  5 mg/ml
+TREY22353NEMIS	Trusopt  Eye drops (preservative-free)  20 mg/ml, 0.2 ml unit dose
+PREY30322EMIS	Prednisolone Sodium Phosphate  Eye drops (preservative-free)  0.3 %
+HYEY35432MGEMIS	Hypromellose  Eye drops  0.3 % (A.A.H. Pharm)
+CHEY34240MGEMIS	Chloramphenicol  Eye drops  0.5 % (Martindale)
+NEEY1961	Neomycin Sulfate  Eye drops  0.5 %
+LIEY138463NEMIS	Lidocaine And Fluorescein  Eye Drops Unit Dose, Preservative Free  4 % + 0.25 %
+GLEY31038EMIS	Glau-Opt  Eye drops  0.25 %
+PIEY36580MGEMIS	Pilocarpine  Eye drops  2 % (Alpharma)
+GOOI23956EMIS	Golden Eye  Ointment  0.15 %
+MIEY9212BRIDL	Minims Pilocarpine Nitrate  Eye drops  4 %
+PIEY36573MGEMIS	Pilocarpine  Eye drops  1 % (A.A.H. Pharm)
+ZIEY4551	Zinc Sulfate  Eye drops  0.25 %
+BEDR351	Betnesol  Drops  0.1 %
+FLEY15429NEMIS	Fluorescein Sodium  Eye Drops Unit Dose, Preservative Free  1 %
+PREY15421NEMIS	Prednisolone Sodium Phosphate  Eye Drops Unit Dose, Preservative Free  0.5 %
+ACEY42	Aciclovir  Eye ointment  3 %
+GEEY15428NEMIS	Gentamicin Sulfate  Eye Drops Unit Dose, Preservative Free  0.3 %
+PIEY6988	Pilocarpine Nitrate  Eye Drops Unit Dose, Preservative Free  4 %
+HAEY132883NEMIS	Hamamelis Water  Eye drops  13 %
+AZEY3937NEMIS	Azopt  Eye drops  10 mg/ml
+ATEY241	Atropine Sulfate  Eye drops  1 %
+PIEY36575MGEMIS	Pilocarpine  Eye drops  3 % (Kent Pharm)
+ATEY33858MGEMIS	Atropine Sulfate  Eye drops  1 % (Unichem)
+TIEY37230MGEMIS	Timolol Maleate  Eye-drops  0.25 % (Teva UK)
+ATEY33864MGEMIS	Atropine  Eye ointment  1 % (Unichem)
+LISO13748NEMIS	Lid Care  Solution + Pads  100 ml
+MIEY3944	Minims Prednisolone  Eye drops  0.5 %
+AZEY32240EMIS	Azelastine Hydrochloride  Eye drops  0.05 %
+TIEY37243MGEMIS	Timolol Maleate  Eye-drops  0.5 % (Teva UK)
+MOEY48139NEMIS	Moxifloxacin  Eye drops  0.5 %
+LEEY35739MGEMIS	Levobunolol Hydrochloride  Eye drops  0.5 % (Kent Pharm)
+FREY4950	Framycetin Sulfate  Eye drops  0.5 %
+MEEY128014NEMIS	Medox  Eye drops  50 micrograms/ml + 5 mg/ml
+MAEY1724	Maxidex  Eye drops  0.1 %
+SOEY5379	Sodium Chloride  Eye drops  0.9 %
+EYEY138182NEMIS	Eyflox  Eye drops  5 mg/ml
+PIEY36564MGEMIS	Pilocarpine  Eye drops  0.5 % (Martindale)
+EXOP23565EMIS	Exocin  Ophthalmic solution  0.3 %
+TIGE29548EMIS	Timolol Maleate  Gel-forming eye drops  0.5 %
+BREY23023NEMIS	Brochlor  Eye drops  0.5 %
+HOEY3700	Homatropine  Eye drops  1 %
+BEEY3243	Betoptic  Eye drops  0.5 %
+DOEY48131NEMIS	Dorzant  Eye drops  2 %
+KEEY12766NEMIS	Ketotifen  Eye drops  0.25 mg/ml
+TIEY2864	Timoptol  Eye-drops  0.25 %
+VIEY11101NEMIS	Virgan  Eye Gel  0.15 %
+SIEY36948MGEMIS	Simple  Eye ointment  (Martindale)
+MIEY17734NEMIS	Minims Lidocaine And Fluorescein  Eye drops  4 % + 0.25 %
+TREY15418NEMIS	Tropicamide  Eye Drops Unit Dose, Preservative Free  0.5 %
+DEEY32096EMIS	Dexamethasone Sodium Phosphate  Eye Drops Unit Dose, Preservative Free  0.1 %, 0.5 ml
+POEY28928NEMIS	Povidone-Iodine  Eye drops (preservative-free)  5 %
+NAEY137730NEMIS	Natamycin  Eye drops  5 %
+NEAQ26598EMIS	Nedocromil Sodium  Aqueous eye drops  2 %
+MUEY110118NEMIS	Muro 128  Eye ointment  5 %
+SOEY42131NEMIS	Sodium Cromoglicate  Eye drops (preservative-free)  2 %, 0.3 ml unit dose
+SOEY15419NEMIS	Sodium Chloride  Eye Drops, Preservative Free  0.9 %, 0.5 ml unit dose
+HYEY1425	Hypromellose  Eye drops  0.3 %
+CALI10818NEMIS	Carbomer 980  Liquid gel  0.2 %, 0.6 ml unit dose
+PRDR4203	Predsol  Drops  0.5 %
+PREY27883EMIS	Prednisolone Sodium Phosphate  Eye-drops  0.01 %
+PREY33146EMIS	Prednisolone Sodium Phosphate  Eye drops  0.05 %
+FLOP39006NEMIS	Fluorescein Sodium  Ophthalmic Strips  1 mg
+PIEY5290	Pilocarpine Nitrate  Eye Drops Unit Dose, Preservative Free  1 %
+OPAQ29294EMIS	Opticrom Allergy  Aqueous eye drops  2 %
+TREY12140NEMIS	Travatan  Eye drops  40 micrograms/ml
+TEEY17507NEMIS	Tetracaine  Eye Drops Unit Dose, Preservative Free  0.5 %
+CHEY4713	Chloramphenicol  Eye drops  0.5 %
+RATA109482NEMIS	Raxone  Tablets  150 mg
+CYEY15431NEMIS	Cyclopentolate Hydrochloride  Eye Drops Unit Dose, Preservative Free  1 %
+HYEY36789NEMIS	Hyetellose  Eye Drops Unit Dose, Preservative Free  0.44 %, 0.5 ml unit dose
+LUEY12736NEMIS	Lumigan  Eye drops  0.3 mg/ml
+DOEY122349NEMIS	Dorzolamide And Timolol  Eye drops (preservative-free)  20 mg/ml + 5 mg/ml
+ACEY28985EMIS	Acular  Eye drops  0.5 %
+FLOP19769EMIS	Flurbiprofen  Eye Drops, Preservative Free  0.03 %, 0.4 ml unit dose
+HOEY15426NEMIS	Homatropine Hydrobromide  Eye Drops Unit Dose, Preservative Free  2 %
+HYEY35431MGEMIS	Hypromellose  Eye drops  0.3 % (The Boots Company)
+TIEY22009EMIS	Timoptol  Eye Drops Unit Dose, Preservative Free  0.25 %
+SAEY133670NEMIS	Saflutan  Eye drops  15 micrograms/ml
+ATEY33863MGEMIS	Atropine  Eye ointment  1 % (Martindale)
+MIEY1848	Minims Tropicamide  Eye drops  1 %
+BIEY125694NEMIS	Bimatoprost  Eye drops (preservative-free)  0.3 mg/ml
+EYEY136522NEMIS	Eyzeetan  Eye Drops, Preservative Free  5 mg/ml + 300 micrograms/ml
+PESO22627NEMIS	Pegaptanib Sodium  Solution for injection  300 micrograms/0.09 ml pre-filled syringe
+GOEY29385NEMIS	Golden Eye Antibiotic  Eye ointment  1 %
+EYEY122348NEMIS	Eydelto  Eye drops  20 mg/ml
+GOEY30561NEMIS	Golden Eye Antibiotic  Eye drops  0.5 %
+CIEY21316NEMIS	Ciloxan  Eye ointment  3 mg/gram
+GAEY11099NEMIS	Ganciclovir  Eye Gel  0.15 %
+ATEY37609MGEMIS	Atropine Sulfate  Eye drops  0.5 % (Martindale)
+PHEY15422NEMIS	Phenylephrine Hydrochloride  Preservative-free eye drops  10 %, 0.5 ml unit dose
+OFEY22405NEMIS	Oftalmolosa Cusi Erythromycin  Eye ointment  0.5 %
+ZIEY37453MGEMIS	Zinc Sulfate  Eye drops  0.25 % (Martindale)
+DOEY11422NEMIS	Dominion Pharma Hayfever  Eye drops  2 %
+BIPR78477NEMIS	Bimatoprost  Preservative-free eye drops  0.3 mg/ml, 0.4 ml unit dose
+CIOP24412EMIS	Ciloxan  Eye drops  0.3 %
+AZEY36490NEMIS	Azarga  Eye drops  10 mg/ml + 5 mg/ml
+MIEY3933	Minims Cyclopentolate Hydrochloride  Eye drops  0.5 %
+CHEY34253MGEMIS	Chloramphenicol  Eye ointment  1 % (Alpharma)
+POEY20648EMIS	Polyfax  Eye ointment  
+HYEY35434MGEMIS	Hypromellose  Eye drops  0.3 % (Teva UK)
+PRDR2390	Propine  Eye drops  0.1 %
+BEUN23920EMIS	Betagan  Eye drops  0.5 %, 0.4 ml unit dose
+BREY3934NEMIS	Brinzolamide  Eye drops  10 mg/ml
+SOEY17852NEMIS	Sodium Cromoglicate  Eye drops  2 %
+HYEY20006NEMIS	Hypromellose And Dextran 70  Eye drops  0.3 % + 0.1 %
+SIEY36947MGEMIS	Simple  Eye ointment  (The Boots Company)
+CAEY7090	Carteolol Hydrochloride  Eye drops  2 %
+HYEY35424MGEMIS	Hydrocortisone Acetate  Eye ointment  1 % (Unichem)
+PIEY29068EMIS	Pilocarpine Hydrochloride  Eye drops (preservative-free)  1 %
+LAEY30156EMIS	Latanoprost  Eye drops  50 micrograms/ml
+ILEY5985	Ilube  Eye-drops  
+CIEY77487NEMIS	Ciclosporin  Eye ointment (preservative-free)  0.2 %
+SUST88753NEMIS	Supranettes  Sterile Eye Cleansing Wipes  
+NEEY36713NEMIS	Nevanac  Eye drops  1 mg/ml
+TEEY4392	Teoptic  Eye drops  1 %
+OPEY15032NEMIS	Opatanol  Eye drops  1 mg/ml
+BESU929NEMIS	Betaxolol Hydrochloride  Eye Drops Suspension (Unit Dose)  0.25 %
+TIEY75958NEMIS	Timolol  Eye Drops, Preservative Free  2.5 mg/ml
+SOEY38277MGEMIS	Sodium Cromoglicate  Eye drops  2 % (The Boots Company)
+CHEY34242MGEMIS	Chloramphenicol  Eye drops  0.5 % (A.A.H. Pharm)
+PHOP71518NEMIS	Phenylephrine And Tropicamide  Ophthalmic Inserts  5.4 mg + 0.28 mg preservative-free
+TEEY2784	Tears Naturale  Eye drops  
+ZAEY12767NEMIS	Zaditen  Eye drops  0.25 mg/ml
+ATEY3201	Atropine  Eye ointment  1 %
+AZEY51160NEMIS	Azyter  Eye-drops (unit dose)  15 mg/gram, 0.25 gram unit dose
+VIDR15508NEMIS	Vista-Methasone  Drops  0.1 %
+TIEY22010EMIS	Timoptol  Eye Drops Unit Dose, Preservative Free  0.5 %
+ACOR31748NEMIS	Acetazolamide  Oral suspension  100 mg/5 ml
+IOOP23775EMIS	Iopidine  Eye drops  1 %, 0.25 ml unit dose
+VIPO5182NEMIS	Visudyne  Powder for solution for infusion  15 mg vial
+OTEY2123	Otrivine-Antistin  Eye drops  
+VIAQ27245EMIS	Viz-On  Aqueous eye drops  2 %
+MYEY3992	Mydrilate  Eye drops  1 %
+POEY2301	Polytrim  Eye drops  0.1 %
+LIST19957NEMIS	Lid Care  Sterile Eyelid Cleansing Wipes  
+TAEY133669NEMIS	Tafluprost  Eye drops  15 micrograms/ml
+POEY35346EMIS	Povidone K25  Eye-drops (unit dose)  5 %
+EYEY122351NEMIS	Eylamdo  Eye drops  20 mg/ml + 5 mg/ml
+ACSO35203NEMIS	Acetylcholine Chloride  Solution for Intra-ocular Irrigation  20 mg vial
+BIEY12733NEMIS	Bimatoprost  Eye drops  0.3 mg/ml
+BEEY8897EGTON	Betagan  Eye drops  0.5 %
+SIEY4317	Simplene  Eye drops  1 %
+TIEY122389NEMIS	Timolol  Eye Drops, Preservative Free  5 mg/ml
+HYEY35429MGEMIS	Hypromellose  Eye drops  0.3 % (Alpharma)
+PIEY29069EMIS	Pilocarpine Hydrochloride  Eye drops (preservative-free)  2 %
+HYEY35428MGEMIS	Hypromellose  Eye drops  0.3 % (Kent Pharm)
+TIEY77702NEMIS	Tidomat  Eye drops  
+VIEY138869NEMIS	Vizidor Duo  Eye drops  20 mg/ml + 5 mg/ml
+DUEY22589NEMIS	Duotrav  Eye drops  5 mg/ml + 40 micrograms/ml
+ACM/138780NEMIS	Acetazolamide (Imported)  M/R capsules  250 mg
+PIOP29402EMIS	Pilocarpine Hydrochloride  Ophthalmic gel  4 %
+HYEY33039EMIS	Hypromellose  Eye drops (preservative-free)  0.3 %
+NAEY15482NEMIS	Naphazoline Hydrochloride  Eye drops  0.012 %
+TIEY37234MGEMIS	Timolol Maleate  Eye-drops  0.25 % (Generics (UK))
+LEUN23922EMIS	Levobunolol Hydrochloride  Eye drops (preservative-free)  0.5 %, 0.4 ml unit dose
+MISO101960NEMIS	Miphtel  Solution for Intra-ocular Irrigation  20 mg ampoule
+HYEY35420MGEMIS	Hydrocortisone Acetate  Eye ointment  0.5 % (Martindale)
+CYEY4792	Cyclopentolate Hydrochloride  Eye drops  0.5 %
+CHEY34241MGEMIS	Chloramphenicol  Eye drops  0.5 % (The Boots Company)
+PREY17924NEMIS	Propamidine Isetionate  Eye drops  0.1 %
+MIEY3939	Minims Phenylephrine Hydrochloride  Eye drops  10 %
+LUOI30751EMIS	Lubri-Tears  Ointment  
+CIEY124186NEMIS	Ciclosporin  Eye drops (preservative-free)  0.06 %, 0.4 ml unit dose
+MIEY79456NEMIS	Minims Povidone Iodine  Eye drops  5 %
+HYEY125489NEMIS	Hydrocortisone Sodium Phosphate  Eye drops (preservative-free)  3.35 mg/ml, 0.4 ml unit dose
+DEEY10380BRIDL	Dexamethasone  Eye drops  0.1 %
+PIEY36590MGEMIS	Pilocarpine  Eye drops  4 % (A.A.H. Pharm)
+CHEY34246MGEMIS	Chloramphenicol  Eye drops  0.5 % (Alpharma)
+PIEYEGTON7164	Pilocarpine  Eye drops  2 %
+FMEY5967	Fml  Eye-drops  
+PIEY36582MGEMIS	Pilocarpine  Eye drops  2 % (The Boots Company)
+IDCA78399NEMIS	Idebenone  Capsules  150 mg

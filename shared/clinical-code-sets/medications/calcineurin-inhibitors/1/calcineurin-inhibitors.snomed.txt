@@ -1,0 +1,370 @@
+327090002	Ciclosporin 10mg capsules
+1134411000001102	Ciclosporin 10mg capsules
+5365211000001102	Ciclosporin 10mg capsules
+303511000001103	Neoral 10mg capsules (Novartis Pharmaceuticals UK Ltd)
+2354511000001108	Neoral 10mg capsules (Novartis Pharmaceuticals UK Ltd)
+5365411000001103	Neoral 10mg capsules (Novartis Pharmaceuticals UK Ltd)
+29934611000001109	Vanquoral 10mg capsules (Teva UK Ltd)
+30737011000001104	Vanquoral 10mg capsules (Teva UK Ltd)
+29935211000001108	Vanquoral 10mg capsules (Teva UK Ltd)
+327082002	Ciclosporin 25mg capsules
+1169111000001103	Ciclosporin 25mg capsules
+5572011000001109	Ciclosporin 25mg capsules
+347811000001104	Sandimmun 25mg capsules (Novartis Pharmaceuticals UK Ltd)
+2354611000001107	Sandimmun 25mg capsules (Novartis Pharmaceuticals UK Ltd)
+660811000001100	Neoral 25mg capsules (Novartis Pharmaceuticals UK Ltd)
+2354711000001103	Neoral 25mg capsules (Novartis Pharmaceuticals UK Ltd)
+16306511000001107	Deximune 25mg capsules (Dexcel-Pharma Ltd)
+16306611000001106	Deximune 25mg capsules (Dexcel-Pharma Ltd)
+16550511000001102	Ciclosporin 25mg capsules (A A H Pharmaceuticals Ltd)
+16550611000001103	Ciclosporin 25mg capsules (A A H Pharmaceuticals Ltd)
+17666911000001105	Capimune 25mg capsules (Viatris UK Healthcare Ltd)
+17667011000001109	Capimune 25mg capsules (Viatris UK Healthcare Ltd)
+17856611000001101	Ciclosporin 25mg capsules (Phoenix Healthcare Distribution Ltd)
+17856711000001105	Ciclosporin 25mg capsules (Phoenix Healthcare Distribution Ltd)
+19377311000001100	Capsorin 25mg capsules (Morningside Healthcare Ltd)
+19377411000001107	Capsorin 25mg capsules (Morningside Healthcare Ltd)
+21263111000001101	Ciclosporin 25mg capsules (Sigma Pharmaceuticals Plc)
+21263211000001107	Ciclosporin 25mg capsules (Sigma Pharmaceuticals Plc)
+21835711000001102	Ciclosporin 25mg capsules (Cubic Pharmaceuticals Ltd)
+21835811000001105	Ciclosporin 25mg capsules (Cubic Pharmaceuticals Ltd)
+22408311000001108	Ciclosporin 25mg capsules (DE Pharmaceuticals)
+22408411000001101	Ciclosporin 25mg capsules (DE Pharmaceuticals)
+22604211000001109	Ciclosporin 25mg capsules (Colorama Pharmaceuticals Ltd)
+22604311000001101	Ciclosporin 25mg capsules (Colorama Pharmaceuticals Ltd)
+23428411000001104	Ciclosporin 25mg capsules (J M McGill Ltd)
+23428511000001100	Ciclosporin 25mg capsules (J M McGill Ltd)
+23936511000001102	Ciclosporin 25mg capsules (Niche Pharma Ltd)
+23936811000001104	Ciclosporin 25mg capsules (Niche Pharma Ltd)
+24157711000001107	Ciclosporin 25mg capsules (Ethigen Ltd)
+24157811000001104	Ciclosporin 25mg capsules (Ethigen Ltd)
+24519911000001104	Ciclosporin 25mg capsules (Mawdsley-Brooks & Company Ltd)
+24520011000001102	Ciclosporin 25mg capsules (Mawdsley-Brooks & Company Ltd)
+25694011000001104	Ciclosporin 25mg capsules (Icarus Pharmaceuticals Ltd)
+25694211000001109	Ciclosporin 25mg capsules (Icarus Pharmaceuticals Ltd)
+26021211000001109	Ciclosporin 25mg capsules (Ennogen Healthcare Ltd)
+26021711000001102	Ciclosporin 25mg capsules (Ennogen Healthcare Ltd)
+28122711000001107	Ciclosporin 25mg capsules (Pharma-z Ltd)
+28122811000001104	Ciclosporin 25mg capsules (Pharma-z Ltd)
+28335911000001108	Vanquoral 25mg capsules (Teva UK Ltd)
+28336111000001104	Vanquoral 25mg capsules (Teva UK Ltd)
+327085000	Ciclosporin 50mg capsules
+1327411000001104	Ciclosporin 50mg capsules
+27728811000001103	Ciclosporin 50mg capsules
+638611000001108	Sandimmun 50mg capsules (Novartis Pharmaceuticals UK Ltd)
+2354811000001106	Sandimmun 50mg capsules (Novartis Pharmaceuticals UK Ltd)
+319211000001101	Neoral 50mg capsules (Novartis Pharmaceuticals UK Ltd)
+2354911000001101	Neoral 50mg capsules (Novartis Pharmaceuticals UK Ltd)
+16306711000001102	Deximune 50mg capsules (Dexcel-Pharma Ltd)
+16306811000001105	Deximune 50mg capsules (Dexcel-Pharma Ltd)
+16550711000001107	Ciclosporin 50mg capsules (A A H Pharmaceuticals Ltd)
+16550811000001104	Ciclosporin 50mg capsules (A A H Pharmaceuticals Ltd)
+17665611000001109	Capimune 50mg capsules (Viatris UK Healthcare Ltd)
+17665711000001100	Capimune 50mg capsules (Viatris UK Healthcare Ltd)
+17856811000001102	Ciclosporin 50mg capsules (Phoenix Healthcare Distribution Ltd)
+17856911000001107	Ciclosporin 50mg capsules (Phoenix Healthcare Distribution Ltd)
+19377111000001102	Capsorin 50mg capsules (Morningside Healthcare Ltd)
+19377211000001108	Capsorin 50mg capsules (Morningside Healthcare Ltd)
+21263311000001104	Ciclosporin 50mg capsules (Sigma Pharmaceuticals Plc)
+21263411000001106	Ciclosporin 50mg capsules (Sigma Pharmaceuticals Plc)
+21835511000001107	Ciclosporin 50mg capsules (Cubic Pharmaceuticals Ltd)
+21835611000001106	Ciclosporin 50mg capsules (Cubic Pharmaceuticals Ltd)
+22408511000001102	Ciclosporin 50mg capsules (DE Pharmaceuticals)
+22408611000001103	Ciclosporin 50mg capsules (DE Pharmaceuticals)
+22604411000001108	Ciclosporin 50mg capsules (Colorama Pharmaceuticals Ltd)
+22604511000001107	Ciclosporin 50mg capsules (Colorama Pharmaceuticals Ltd)
+23428611000001101	Ciclosporin 50mg capsules (J M McGill Ltd)
+23428711000001105	Ciclosporin 50mg capsules (J M McGill Ltd)
+23936711000001107	Ciclosporin 50mg capsules (Niche Pharma Ltd)
+23936911000001109	Ciclosporin 50mg capsules (Niche Pharma Ltd)
+24157911000001109	Ciclosporin 50mg capsules (Ethigen Ltd)
+24158011000001106	Ciclosporin 50mg capsules (Ethigen Ltd)
+24520111000001101	Ciclosporin 50mg capsules (Mawdsley-Brooks & Company Ltd)
+24520211000001107	Ciclosporin 50mg capsules (Mawdsley-Brooks & Company Ltd)
+25694711000001102	Ciclosporin 50mg capsules (Icarus Pharmaceuticals Ltd)
+25694911000001100	Ciclosporin 50mg capsules (Icarus Pharmaceuticals Ltd)
+26022211000001102	Ciclosporin 50mg capsules (Ennogen Healthcare Ltd)
+26024111000001100	Ciclosporin 50mg capsules (Ennogen Healthcare Ltd)
+28123311000001103	Ciclosporin 50mg capsules (Pharma-z Ltd)
+28123411000001105	Ciclosporin 50mg capsules (Pharma-z Ltd)
+28337411000001106	Vanquoral 50mg capsules (Teva UK Ltd)
+28338011000001101	Vanquoral 50mg capsules (Teva UK Ltd)
+327083007	Ciclosporin 100mg capsules
+1155011000001109	Ciclosporin 100mg capsules
+23677311000001108	Ciclosporin 100mg capsules
+172611000001109	Sandimmun 100mg capsules (Novartis Pharmaceuticals UK Ltd)
+2355011000001101	Sandimmun 100mg capsules (Novartis Pharmaceuticals UK Ltd)
+456811000001107	Neoral 100mg capsules (Novartis Pharmaceuticals UK Ltd)
+2355111000001100	Neoral 100mg capsules (Novartis Pharmaceuticals UK Ltd)
+16306911000001100	Deximune 100mg capsules (Dexcel-Pharma Ltd)
+16307011000001101	Deximune 100mg capsules (Dexcel-Pharma Ltd)
+16550911000001109	Ciclosporin 100mg capsules (A A H Pharmaceuticals Ltd)
+16551011000001101	Ciclosporin 100mg capsules (A A H Pharmaceuticals Ltd)
+17665811000001108	Capimune 100mg capsules (Viatris UK Healthcare Ltd)
+17665911000001103	Capimune 100mg capsules (Viatris UK Healthcare Ltd)
+17857011000001106	Ciclosporin 100mg capsules (Phoenix Healthcare Distribution Ltd)
+17857111000001107	Ciclosporin 100mg capsules (Phoenix Healthcare Distribution Ltd)
+19376911000001102	Capsorin 100mg capsules (Morningside Healthcare Ltd)
+19377011000001103	Capsorin 100mg capsules (Morningside Healthcare Ltd)
+21263511000001105	Ciclosporin 100mg capsules (Sigma Pharmaceuticals Plc)
+21263611000001109	Ciclosporin 100mg capsules (Sigma Pharmaceuticals Plc)
+21835311000001101	Ciclosporin 100mg capsules (Cubic Pharmaceuticals Ltd)
+21835411000001108	Ciclosporin 100mg capsules (Cubic Pharmaceuticals Ltd)
+22408711000001107	Ciclosporin 100mg capsules (DE Pharmaceuticals)
+22408811000001104	Ciclosporin 100mg capsules (DE Pharmaceuticals)
+22604011000001104	Ciclosporin 100mg capsules (Colorama Pharmaceuticals Ltd)
+22604111000001103	Ciclosporin 100mg capsules (Colorama Pharmaceuticals Ltd)
+23428211000001103	Ciclosporin 100mg capsules (J M McGill Ltd)
+23428311000001106	Ciclosporin 100mg capsules (J M McGill Ltd)
+23936311000001108	Ciclosporin 100mg capsules (Niche Pharma Ltd)
+23936411000001101	Ciclosporin 100mg capsules (Niche Pharma Ltd)
+24113511000001103	Ciclosporin 100mg capsules (Lexon (UK) Ltd)
+24113911000001105	Ciclosporin 100mg capsules (Lexon (UK) Ltd)
+24158111000001107	Ciclosporin 100mg capsules (Ethigen Ltd)
+24158211000001101	Ciclosporin 100mg capsules (Ethigen Ltd)
+24520311000001104	Ciclosporin 100mg capsules (Mawdsley-Brooks & Company Ltd)
+24520411000001106	Ciclosporin 100mg capsules (Mawdsley-Brooks & Company Ltd)
+25695111000001104	Ciclosporin 100mg capsules (Icarus Pharmaceuticals Ltd)
+25695311000001102	Ciclosporin 100mg capsules (Icarus Pharmaceuticals Ltd)
+26019111000001108	Ciclosporin 100mg capsules (Ennogen Healthcare Ltd)
+26019411000001103	Ciclosporin 100mg capsules (Ennogen Healthcare Ltd)
+28122211000001100	Ciclosporin 100mg capsules (Pharma-z Ltd)
+28122511000001102	Ciclosporin 100mg capsules (Pharma-z Ltd)
+28338911000001102	Vanquoral 100mg capsules (Teva UK Ltd)
+28339111000001107	Vanquoral 100mg capsules (Teva UK Ltd)
+327103006	Tacrolimus 500microgram capsules
+1099511000001100	Tacrolimus 500microgram capsules
+11159811000001104	Tacrolimus 500microgram capsules
+21204511000001109	Tacrolimus 500microgram capsules
+656111000001103	Prograf 500microgram capsules (Astellas Pharma Ltd)
+2367611000001109	Prograf 500microgram capsules (Astellas Pharma Ltd)
+18044811000001100	Adoport 0.5mg capsules (Sandoz Ltd)
+18044911000001105	Adoport 0.5mg capsules (Sandoz Ltd)
+18618011000001102	Vivadex 0.5mg capsules (Dexcel-Pharma Ltd)
+18618111000001101	Vivadex 0.5mg capsules (Dexcel-Pharma Ltd)
+18643411000001109	Tacrolimus 500microgram capsules (A A H Pharmaceuticals Ltd)
+18643511000001108	Tacrolimus 500microgram capsules (A A H Pharmaceuticals Ltd)
+19293811000001104	Tacni 0.5mg capsules (Teva UK Ltd)
+19293911000001109	Tacni 0.5mg capsules (Teva UK Ltd)
+19496811000001109	Capexion 0.5mg capsules (Viatris UK Healthcare Ltd)
+19496911000001104	Capexion 0.5mg capsules (Viatris UK Healthcare Ltd)
+23563711000001102	Perixis 0.5mg capsules (Accord Healthcare Ltd)
+23563811000001105	Perixis 0.5mg capsules (Accord Healthcare Ltd)
+327096008	Tacrolimus 1mg capsules
+1272511000001107	Tacrolimus 1mg capsules
+1195911000001100	Tacrolimus 1mg capsules
+5491211000001106	Tacrolimus 1mg capsules
+11159611000001103	Tacrolimus 1mg capsules
+209911000001103	Prograf 1mg capsules (Astellas Pharma Ltd)
+2368211000001106	Prograf 1mg capsules (Astellas Pharma Ltd)
+2368411000001105	Prograf 1mg capsules (Astellas Pharma Ltd)
+18044411000001102	Adoport 1mg capsules (Sandoz Ltd)
+18044511000001103	Adoport 1mg capsules (Sandoz Ltd)
+18044711000001108	Adoport 1mg capsules (Sandoz Ltd)
+18617711000001101	Vivadex 1mg capsules (Dexcel-Pharma Ltd)
+18617811000001109	Vivadex 1mg capsules (Dexcel-Pharma Ltd)
+18617911000001104	Vivadex 1mg capsules (Dexcel-Pharma Ltd)
+18643711000001103	Tacrolimus 1mg capsules (A A H Pharmaceuticals Ltd)
+18643811000001106	Tacrolimus 1mg capsules (A A H Pharmaceuticals Ltd)
+18643911000001101	Tacrolimus 1mg capsules (A A H Pharmaceuticals Ltd)
+19294011000001107	Tacni 1mg capsules (Teva UK Ltd)
+19294111000001108	Tacni 1mg capsules (Teva UK Ltd)
+19294411000001103	Tacni 1mg capsules (Teva UK Ltd)
+19497011000001100	Capexion 1mg capsules (Viatris UK Healthcare Ltd)
+19497911000001101	Capexion 1mg capsules (Viatris UK Healthcare Ltd)
+19497111000001104	Capexion 1mg capsules (Viatris UK Healthcare Ltd)
+23564011000001102	Perixis 1mg capsules (Accord Healthcare Ltd)
+23564211000001107	Perixis 1mg capsules (Accord Healthcare Ltd)
+23564511000001105	Perixis 1mg capsules (Accord Healthcare Ltd)
+327097004	Tacrolimus 5mg capsules
+987411000001104	Tacrolimus 5mg capsules
+23605911000001107	Tacrolimus 5mg capsules
+37993811000001109	Tacrolimus 5mg capsules
+752211000001104	Prograf 5mg capsules (Astellas Pharma Ltd)
+2368611000001108	Prograf 5mg capsules (Astellas Pharma Ltd)
+18044211000001101	Adoport 5mg capsules (Sandoz Ltd)
+18044311000001109	Adoport 5mg capsules (Sandoz Ltd)
+18618211000001107	Vivadex 5mg capsules (Dexcel-Pharma Ltd)
+18618311000001104	Vivadex 5mg capsules (Dexcel-Pharma Ltd)
+18644711000001101	Tacrolimus 5mg capsules (A A H Pharmaceuticals Ltd)
+18644911000001104	Tacrolimus 5mg capsules (A A H Pharmaceuticals Ltd)
+19294211000001102	Tacni 5mg capsules (Teva UK Ltd)
+19294311000001105	Tacni 5mg capsules (Teva UK Ltd)
+19498011000001104	Capexion 5mg capsules (Viatris UK Healthcare Ltd)
+19498111000001103	Capexion 5mg capsules (Viatris UK Healthcare Ltd)
+23564611000001109	Perixis 5mg capsules (Accord Healthcare Ltd)
+23564711000001100	Perixis 5mg capsules (Accord Healthcare Ltd)
+36140311000001101	Ciclosporin 50mg/1ml solution for infusion ampoules
+1033811000001107	Ciclosporin 50mg/1ml solution for infusion ampoules
+911911000001101	Sandimmun 50mg/1ml concentrate for solution for infusion ampoules (Novartis Pharmaceuticals UK Ltd)
+2780011000001100	Sandimmun 50mg/1ml concentrate for solution for infusion ampoules (Novartis Pharmaceuticals UK Ltd)
+36139511000001103	Ciclosporin 250mg/5ml solution for infusion ampoules
+995611000001109	Ciclosporin 250mg/5ml solution for infusion ampoules
+88611000001108	Sandimmun 250mg/5ml concentrate for solution for infusion ampoules (Novartis Pharmaceuticals UK Ltd)
+2780411000001109	Sandimmun 250mg/5ml concentrate for solution for infusion ampoules (Novartis Pharmaceuticals UK Ltd)
+36139311000001109	Ciclosporin 100mg/ml oral solution sugar free
+3490311000001102	Ciclosporin 100mg/ml oral solution sugar free
+3490411000001109	Neoral 100mg/ml oral solution (Novartis Pharmaceuticals UK Ltd)
+3490611000001107	Neoral 100mg/ml oral solution (Novartis Pharmaceuticals UK Ltd)
+3490711000001103	Sandimmun 100mg/ml oral solution (Novartis Pharmaceuticals UK Ltd)
+3490811000001106	Sandimmun 100mg/ml oral solution (Novartis Pharmaceuticals UK Ltd)
+35206711000001106	Capsorin 100mg/ml oral solution (Morningside Healthcare Ltd)
+35206811000001103	Capsorin 100mg/ml oral solution (Morningside Healthcare Ltd)
+134640000	Sirolimus 1mg/ml oral solution sugar free
+4090911000001108	Sirolimus 1mg/ml oral solution sugar free
+4091011000001100	Rapamune 1mg/ml oral solution (Pfizer Ltd)
+4091111000001104	Rapamune 1mg/ml oral solution (Pfizer Ltd)
+395278001	Sirolimus 1mg tablets
+4091211000001105	Sirolimus 1mg tablets
+4091311000001102	Sirolimus 1mg tablets
+4091411000001109	Rapamune 1mg tablets (Pfizer Ltd)
+4091511000001108	Rapamune 1mg tablets (Pfizer Ltd)
+4091611000001107	Rapamune 1mg tablets (Pfizer Ltd)
+35914611000001105	Tacrolimus 5mg/1ml solution for infusion ampoules
+4391211000001106	Tacrolimus 5mg/1ml solution for infusion ampoules
+4391311000001103	Prograf 5mg/1ml solution for infusion ampoules (Astellas Pharma Ltd)
+4391411000001105	Prograf 5mg/1ml solution for infusion ampoules (Astellas Pharma Ltd)
+408155001	Sirolimus 2mg tablets
+4564511000001105	Sirolimus 2mg tablets
+4564611000001109	Sirolimus 2mg tablets
+4564711000001100	Rapamune 2mg tablets (Pfizer Ltd)
+4564811000001108	Rapamune 2mg tablets (Pfizer Ltd)
+4564911000001103	Rapamune 2mg tablets (Pfizer Ltd)
+35907511000001100	Basiliximab 20mg powder and solvent for solution for injection vials
+4773311000001105	Basiliximab 20mg powder and solvent for solution for injection vials
+4773411000001103	Simulect 20mg powder and solvent for solution for injection vials (Novartis Pharmaceuticals UK Ltd)
+4773511000001104	Simulect 20mg powder and solvent for solution for injection vials (Novartis Pharmaceuticals UK Ltd)
+36092711000001103	Daclizumab 25mg/5ml solution for infusion vials
+4781011000001101	Daclizumab 25mg/5ml solution for infusion vials
+4780911000001109	Zenapax 25mg/5ml solution for infusion vials (Roche Products Ltd)
+4781111000001100	Zenapax 25mg/5ml solution for infusion vials (Roche Products Ltd)
+35906211000001100	Basiliximab 10mg powder and solvent for solution for injection vials
+5007711000001103	Basiliximab 10mg powder and solvent for solution for injection vials
+5007811000001106	Simulect 10mg powder and solvent for solution for injection vials (Novartis Pharmaceuticals UK Ltd)
+5007911000001101	Simulect 10mg powder and solvent for solution for injection vials (Novartis Pharmaceuticals UK Ltd)
+8726211000001106	Tacrolimus 2.5mg/5ml oral solution
+8708111000001108	Tacrolimus 2.5mg/5ml oral solution
+8708211000001102	Tacrolimus 2.5mg/5ml oral solution (Special Order)
+8708311000001105	Tacrolimus 2.5mg/5ml oral solution (Special Order)
+8726011000001101	Tacrolimus 2.5mg/5ml oral suspension
+8708711000001109	Tacrolimus 2.5mg/5ml oral suspension
+20433211000001105	Tacrolimus 2.5mg/5ml oral suspension
+8708811000001101	Tacrolimus 2.5mg/5ml oral suspension (Special Order)
+8709111000001101	Tacrolimus 2.5mg/5ml oral suspension (Special Order)
+20433311000001102	Tacrolimus 2.5mg/5ml oral suspension (Special Order)
+8823011000001106	Tacrolimus 5mg/5ml oral suspension
+8822611000001109	Tacrolimus 5mg/5ml oral suspension
+19600711000001103	Tacrolimus 5mg/5ml oral suspension
+33748711000001101	Tacrolimus 5mg/5ml oral suspension
+8822711000001100	Tacrolimus 5mg/5ml oral suspension (Drug Tariff Special Order)
+8822811000001108	Tacrolimus 5mg/5ml oral suspension (Drug Tariff Special Order)
+19600811000001106	Tacrolimus 5mg/5ml oral suspension (Drug Tariff Special Order)
+33748811000001109	Tacrolimus 5mg/5ml oral suspension (Drug Tariff Special Order)
+10354511000001104	Antithymocyte immunoglobulin (rabbit) 25mg powder and solvent for solution for infusion vials
+10354611000001100	Antithymocyte immunoglobulin (rabbit) 25mg powder and solvent for solution for infusion vials
+10354711000001109	Thymoglobuline 25mg powder and solvent for solution for infusion vials (Sanofi)
+10354811000001101	Thymoglobuline 25mg powder and solvent for solution for infusion vials (Sanofi)
+11649611000001104	Tacrolimus 500microgram modified-release capsules
+11619111000001100	Tacrolimus 500microgram modified-release capsules
+11619211000001106	Advagraf 0.5mg modified-release capsules (Astellas Pharma Ltd)
+11619311000001103	Advagraf 0.5mg modified-release capsules (Astellas Pharma Ltd)
+37939711000001107	Dailiport 0.5mg modified-release capsules (Sandoz Ltd)
+37939811000001104	Dailiport 0.5mg modified-release capsules (Sandoz Ltd)
+11649511000001103	Tacrolimus 1mg modified-release capsules
+11619411000001105	Tacrolimus 1mg modified-release capsules
+11619511000001109	Tacrolimus 1mg modified-release capsules
+14050811000001107	Tacrolimus 1mg modified-release capsules
+14051311000001108	Tacrolimus 1mg modified-release capsules
+11619611000001108	Advagraf 1mg modified-release capsules (Astellas Pharma Ltd)
+11619711000001104	Advagraf 1mg modified-release capsules (Astellas Pharma Ltd)
+11619811000001107	Advagraf 1mg modified-release capsules (Astellas Pharma Ltd)
+37939911000001109	Dailiport 1mg modified-release capsules (Sandoz Ltd)
+37940011000001103	Dailiport 1mg modified-release capsules (Sandoz Ltd)
+37940111000001102	Dailiport 1mg modified-release capsules (Sandoz Ltd)
+11649711000001108	Tacrolimus 5mg modified-release capsules
+11619911000001102	Tacrolimus 5mg modified-release capsules
+14051511000001102	Tacrolimus 5mg modified-release capsules
+11620011000001100	Advagraf 5mg modified-release capsules (Astellas Pharma Ltd)
+11620111000001104	Advagraf 5mg modified-release capsules (Astellas Pharma Ltd)
+37940411000001107	Dailiport 5mg modified-release capsules (Sandoz Ltd)
+37940511000001106	Dailiport 5mg modified-release capsules (Sandoz Ltd)
+13303311000001101	Tacrolimus 2mg/5ml oral suspension
+13281911000001107	Tacrolimus 2mg/5ml oral suspension
+13282011000001100	Tacrolimus 2mg/5ml oral suspension (Special Order)
+13282111000001104	Tacrolimus 2mg/5ml oral suspension (Special Order)
+13573411000001100	Tacrolimus 500micrograms/5ml oral suspension
+13571911000001107	Tacrolimus 500micrograms/5ml oral suspension
+13572011000001100	Tacrolimus 500micrograms/5ml oral suspension (Special Order)
+13572111000001104	Tacrolimus 500micrograms/5ml oral suspension (Special Order)
+13648411000001104	Tacrolimus 25mg/5ml oral solution
+13645411000001109	Tacrolimus 25mg/5ml oral solution
+13645511000001108	Tacrolimus 25mg/5ml oral solution (Special Order)
+13645611000001107	Tacrolimus 25mg/5ml oral solution (Special Order)
+13648511000001100	Tacrolimus 25mg/5ml oral suspension
+13645711000001103	Tacrolimus 25mg/5ml oral suspension
+13645811000001106	Tacrolimus 25mg/5ml oral suspension (Special Order)
+13645911000001101	Tacrolimus 25mg/5ml oral suspension (Special Order)
+15614511000001109	Tacrolimus 3mg modified-release capsules
+15603711000001103	Tacrolimus 3mg modified-release capsules
+15603811000001106	Advagraf 3mg modified-release capsules (Astellas Pharma Ltd)
+15604111000001102	Advagraf 3mg modified-release capsules (Astellas Pharma Ltd)
+37940211000001108	Dailiport 3mg modified-release capsules (Sandoz Ltd)
+37940311000001100	Dailiport 3mg modified-release capsules (Sandoz Ltd)
+16658211000001106	Tacrolimus 200microgram granules sachets sugar free
+16658311000001103	Tacrolimus 200microgram granules sachets sugar free
+16658411000001105	Modigraf 0.2mg granules sachets (Astellas Pharma Ltd)
+16658511000001109	Modigraf 0.2mg granules sachets (Astellas Pharma Ltd)
+16658611000001108	Tacrolimus 1mg granules sachets sugar free
+16658711000001104	Tacrolimus 1mg granules sachets sugar free
+16658811000001107	Modigraf 1mg granules sachets (Astellas Pharma Ltd)
+16658911000001102	Modigraf 1mg granules sachets (Astellas Pharma Ltd)
+17663211000001108	Tacrolimus 0.0001% mouthwash
+17657111000001102	Tacrolimus 0.0001% mouthwash
+17657211000001108	Tacrolimus 0.0001% mouthwash (Special Order)
+17657311000001100	Tacrolimus 0.0001% mouthwash (Special Order)
+18430811000001103	Sirolimus 500microgram tablets
+18401511000001101	Sirolimus 500microgram tablets
+18401611000001102	Rapamune 0.5mg tablets (Pfizer Ltd)
+18401711000001106	Rapamune 0.5mg tablets (Pfizer Ltd)
+19464711000001108	Belatacept 250mg powder for solution for infusion vials
+19463211000001104	Belatacept 250mg powder for solution for infusion vials
+19463311000001107	Belatacept 250mg powder for solution for infusion vials
+19463411000001100	Nulojix 250mg powder for concentrate for solution for infusion vials (Bristol-Myers Squibb Pharmaceuticals Ltd)
+19463511000001101	Nulojix 250mg powder for concentrate for solution for infusion vials (Bristol-Myers Squibb Pharmaceuticals Ltd)
+19463611000001102	Nulojix 250mg powder for concentrate for solution for infusion vials (Bristol-Myers Squibb Pharmaceuticals Ltd)
+21305711000001107	Tacrolimus 800micrograms/5ml oral solution
+21303111000001105	Tacrolimus 800micrograms/5ml oral solution
+21303211000001104	Tacrolimus 800micrograms/5ml oral solution (Special Order)
+21303311000001107	Tacrolimus 800micrograms/5ml oral solution (Special Order)
+23612111000001104	Tacrolimus 900micrograms/5ml oral suspension
+23609611000001103	Tacrolimus 900micrograms/5ml oral suspension
+23609711000001107	Tacrolimus 900micrograms/5ml oral suspension (Special Order)
+23609811000001104	Tacrolimus 900micrograms/5ml oral suspension (Special Order)
+28808811000001101	Tacrolimus 1mg modified-release tablets
+28791711000001104	Tacrolimus 1mg modified-release tablets
+28791811000001107	Envarsus 1mg modified-release tablets (Chiesi Ltd)
+28791911000001102	Envarsus 1mg modified-release tablets (Chiesi Ltd)
+28809011000001102	Tacrolimus 750microgram modified-release tablets
+28792011000001109	Tacrolimus 750microgram modified-release tablets
+28792111000001105	Envarsus 750microgram modified-release tablets (Chiesi Ltd)
+28792211000001104	Envarsus 750microgram modified-release tablets (Chiesi Ltd)
+28808911000001106	Tacrolimus 4mg modified-release tablets
+28792311000001107	Tacrolimus 4mg modified-release tablets
+28792411000001100	Envarsus 4mg modified-release tablets (Chiesi Ltd)
+28792511000001101	Envarsus 4mg modified-release tablets (Chiesi Ltd)
+28947711000001108	Tacrolimus 750microgram capsules
+28800511000001102	Tacrolimus 750microgram capsules
+28800611000001103	Adoport 0.75mg capsules (Sandoz Ltd)
+28800711000001107	Adoport 0.75mg capsules (Sandoz Ltd)
+28947611000001104	Tacrolimus 2mg capsules
+28800811000001104	Tacrolimus 2mg capsules
+28800911000001109	Adoport 2mg capsules (Sandoz Ltd)
+28801011000001101	Adoport 2mg capsules (Sandoz Ltd)
+36630711000001100	Tacrolimus 2mg suppositories
+36616811000001101	Tacrolimus 2mg suppositories
+36616911000001106	Tacrolimus 2mg suppositories (Special Order)
+36617011000001105	Tacrolimus 2mg suppositories (Special Order)
+37949111000001107	Tacrolimus 2mg modified-release capsules
+37940911000001104	Tacrolimus 2mg modified-release capsules
+37941011000001107	Dailiport 2mg modified-release capsules (Sandoz Ltd)
+37941211000001102	Dailiport 2mg modified-release capsules (Sandoz Ltd)

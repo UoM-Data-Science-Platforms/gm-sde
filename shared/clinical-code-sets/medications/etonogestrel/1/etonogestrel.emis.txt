@@ -1,0 +1,22 @@
+^ESCT1255831	SyreniRing 0.12mg/0.015mg per day vaginal delivery system (Crescent Pharma Ltd)
+^ESCT1255832	SyreniRing 0.12mg/0.015mg per day vaginal delivery system (Crescent Pharma Ltd) 3 system
+^ESCT1410985	NuvaRing 0.12mg/0.015mg per day vaginal delivery system (Organon Pharma (UK) Ltd)
+^ESCT1410986	NuvaRing 0.12mg/0.015mg per day vaginal delivery system (Organon Pharma (UK) Ltd) 3 system
+^ESCT1411253	Nexplanon 68mg implant (Organon Pharma (UK) Ltd)
+^ESCT1411254	Nexplanon 68mg implant (Organon Pharma (UK) Ltd) 1 device
+^ESCT1424957	Etonogestrel 68mg implant
+^ESCTET848315	Etonogestrel 68mg implant 1 device
+^ESCTET980959	Ethinylestradiol 2.7mg / Etonogestrel 11.7mg vaginal delivery system 3 system
+^ESCTET980962	Ethinylestradiol 2.7mg / Etonogestrel 11.7mg vaginal delivery system
+^ESCTIM821017	Implanon 68mg implant (Organon Laboratories Ltd)
+^ESCTIM856928	Implanon 68mg implant (Organon Laboratories Ltd) 1 device
+^ESCTNE1006936	Nexplanon 68mg implant (Merck Sharp & Dohme Ltd)
+^ESCTNE1006937	Nexplanon 68mg implant (Merck Sharp & Dohme Ltd) 1 device
+^ESCTNU980960	NuvaRing 0.12mg/0.015mg per day vaginal delivery system (Merck Sharp & Dohme Ltd)
+^ESCTNU980961	NuvaRing 0.12mg/0.015mg per day vaginal delivery system (Merck Sharp & Dohme Ltd) 3 system
+ETSU1036NEMIS	Etonogestrel  Subdermal implant  68 mg
+ETVA124947NEMIS	Ethinylestradiol And Etonogestrel  Vaginal Delivery System  2.7 mg + 11.7 mg
+IMSU1039NEMIS	Implanon  Subdermal implant  68 mg
+NESU46640NEMIS	Nexplanon  Subdermal implant  68 mg
+NUVA34633NEMIS	Nuvaring  Vaginal ring  
+SYVA130634NEMIS	Syreniring  Vaginal Delivery System  

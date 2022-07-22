@@ -1,0 +1,8 @@
+{
+  "includeTerms": ["reactive protein"],
+  "excludeTerms": ["normal"],
+  "terminology": "CTV3",
+  "version": "20180401",
+  "createdOn": "2022-06-15T09:35:07.743Z",
+  "lastUpdated": "2022-06-15T09:35:07.743Z"
+}

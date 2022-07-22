@@ -1,0 +1,1338 @@
+VISO47160NEMIS	Vinblastine  Solution for injection  10 mg/10 ml vial
+VIIN83160NEMIS	Viraferonpeg Clearclick  Injection  120 micrograms pre-filled pen
+ENTA133795NEMIS	Enzalutamide  Tablets  40 mg
+LECA85466NEMIS	Lenalidomide  Capsules  2.5 mg
+TRPO130299NEMIS	Trastuzumab  Powder for solution for infusion  420 mg vial
+MIIN3955	Mitomycin C Kyowa  Powder For Solution For Injection  2 mg vial
+CYIN3981NEMIS	Cytarabine  Injection  1 gram/10 ml vial
+ABTA122063NEMIS	Abiraterone  Tablets  500 mg
+PATA138595NEMIS	Palbociclib  Tablets  75 mg
+CYTA34685MGEMIS	Cyclophosphamide  Tablets  50 mg (A.A.H. Pharm)
+ADCA101089NEMIS	Adoport  Capsules  2 mg
+TACO47620NEMIS	Taxotere  Concentrate For Solution For Infusion  160 mg/8 ml vial
+CHTA554	Chlorambucil  Tablets  5 mg
+DITA38280MGEMIS	Diethylstilbestrol  Tablets  1 mg (Unichem)
+ZOIM5741	Zoladex  Implant Safesystem Pre-filled Syringe  3.6 mg
+ISIN34919EMIS	Isovorin  Injection  10 mg/ml, 2.5 ml vial
+DATA23508NEMIS	Dasatinib  Tablets  50 mg
+GETA38724NEMIS	Gefitinib  Tablets  250 mg
+CYTA23926EMIS	Cyproterone Acetate  Tablets  100 mg
+TAGR40454NEMIS	Tacrolimus  Granules for Oral Suspension  Sugar Free, 200 micrograms/sachet
+PESO123305NEMIS	Pegaspargase  Solution for injection  3,750 units/5 ml vial
+VICA48276NEMIS	Vivadex  Capsules  500 micrograms
+LAIN32741EMIS	Lanreotide  Powder and solvent for suspension for injection  30 mg vial
+ALIN19773EMIS	Aldesleukin  Powder For Solution For Injection  18 million unit vial
+NAIN31645EMIS	Navelbine  Concentrate For Solution For Infusion  10 mg/ml, 5 ml vial
+SIPO103687NEMIS	Signifor  Powder and solvent for suspension for injection  20 mg vial
+LAIN12142NEMIS	Lanreotide  Injection (Prefilled Syringe)  90 mg
+DEPO18484NEMIS	Decapeptyl Sr  Powder and solvent for suspension for injection  11.25 mg vial
+DITA38281MGEMIS	Diethylstilbestrol  Tablets  1 mg (Teva UK)
+PESO51575NEMIS	Peginterferon alfa-2a  Solution for injection in pre-filled pen  180 micrograms/0.5 ml
+COIN5721	Cosmegen Lyovac  Powder For Solution For Injection  500 microgram vial
+NICA123771NEMIS	Ninlaro  Capsules  2.3 mg
+ZOIM27620EMIS	Zoladex La  Implant Safesystem Pre-filled Syringe  10.8 mg
+MEIN109591NEMIS	Methotrexate  Injection  7.5 mg/0.3 ml (25 mg/ml), pre-filled syringe
+CATA27681EMIS	Calcium Folinate  Tablets  15 mg
+BOPO18243NEMIS	Bortezomib  Powder For Solution For Injection  3.5 mg vial
+TATA2783	Tamoxifen  Tablets  40 mg
+IMCA98525NEMIS	Imbruvica  Capsules  140 mg
+ERTA21166NEMIS	Erlotinib  Tablets  100 mg
+CETA101983NEMIS	Certican  Tablets  750 micrograms
+AZSU17135NEMIS	Azathioprine  Suspension  20 mg/5 ml
+NISO103638NEMIS	Nivolumab  Solution for infusion  100 mg/10 ml vial
+BRCA130294NEMIS	Braftovi  Capsules  75 mg
+AZSU18407NEMIS	Azathioprine  Suspension  50 mg/5 ml
+LECA103601NEMIS	Lenvatinib  Capsules  10 mg
+DEPO26361NEMIS	Dexrazoxane  Powder for solution for infusion  500 mg vial
+NACA21161NEMIS	Navelbine  Capsules  20 mg
+PATA138593NEMIS	Palbociclib  Tablets  100 mg
+SAIN9473BRIDL	Sandostatin  Solution for injection  100 micrograms/ml, 1 ml ampoule
+MEIN35892MGEMIS	Methotrexate  Injection  200 mg/8 ml vial (Unichem)
+ALPO33341NEMIS	Alimta  Powder for concentrate for solution for infusion  100 mg vial
+MOGR40458NEMIS	Modigraf  Granules for Oral Suspension  1 mg/sachet
+DIGA88563NEMIS	Dimethyl Fumarate  Gastro-resistant Capsules  240 mg
+ONIN4076	Oncovin  Injection  
+TESO77695NEMIS	Temoporfin  Solution for injection  6 mg/6 ml vial
+LEIN9313EMIS	Leuprorelin Acetate  Powder and solvent for suspension for injection  3.75 mg vial
+SIPO103688NEMIS	Signifor  Powder and solvent for suspension for injection  40 mg vial
+OCIN33615EMIS	Octreotide Acetate  Powder and solvent for suspension for injection  30 mg vial
+CYTA34676MGEMIS	Cyproterone Acetate  Tablets  100 mg (Generics (UK))
+DEPO36522NEMIS	Degarelix  Powder and solvent for solution for injection  80 mg vial
+TECA27816NEMIS	Temozolomide  Capsules  180 mg
+NICA100623NEMIS	Nintedanib  Capsules  100 mg
+PRPO51121NEMIS	Prostap Sr Dcs  Powder and solvent for injection  3.75 mg pre-filled syringe
+PESO51576NEMIS	Pegasys  Solution for injection in pre-filled pen  135 micrograms/0.5 ml
+CESO18418NEMIS	Cetuximab  Solution for infusion  2 mg/ml, 50 ml vial
+FATA1146	Farlutal  Tablets  500 mg
+AFTA86968NEMIS	Afatinib  Tablets  50 mg
+TRCA37289MGEMIS	Treosulfan  Capsules  250 mg (Medac)
+GITA86972NEMIS	Giotrif  Tablets  40 mg
+SOOR1704NEMIS	Soltamox  Oral solution  10 mg/5 ml
+DITA17858NEMIS	Diethylstilbestrol  Tablets  5 mg
+THCA14736NEMIS	Thalidomide  Capsules  50 mg
+IBCA118212NEMIS	Ibrance  Capsules  75 mg
+MIIN5175	Mitomycin  Powder For Solution For Injection  10 mg vial
+DAM/134451NEMIS	Dailiport  M/R capsules  3 mg
+MYTA31625EMIS	Mycophenolate Mofetil  Tablets  500 mg
+ZOIM5741	Zoladex  Implant Safesystem Pre-filled Syringe  3.6 mg
+SOIN88726NEMIS	Somatuline Autogel  Injection  120 mg/0.5 ml pre-filled syringe safety system
+DOSO74167NEMIS	Doxorubicin Liposomal Pegylated  Solution for infusion  20 mg/10 ml vial
+HYCA31274NEMIS	Hycamtin Oral  Capsules  1 mg
+AMSO26881NEMIS	Amsacrine  Solution for infusion  75 mg/1.5 ml ampoule and diluent
+SOIN12146NEMIS	Somatuline Autogel  Injection (Prefilled Syringe)  90 mg
+LECA26061NEMIS	Lenalidomide  Capsules  5 mg
+INPR30101EMIS	Interferon Alfa-2A(Rbe)  Prefilled syringe  9 million units
+OXPO23893NEMIS	Oxaliplatin  Powder for solution for infusion  100 mg vial
+IXCA123765NEMIS	Ixazomib  Capsules  2.3 mg
+DOPO85454NEMIS	Doxorubin  Powder For Solution For Injection  50 mg vial
+IBTA133302NEMIS	Ibrutinib  Tablets  560 mg
+MEIN18091EMIS	Methotrexate  Injection  500 mg/20 ml vial
+META26746EMIS	Mesna  Tablets  600 mg
+RYCA126382NEMIS	Rydapt  Capsules  25 mg
+TOCO52097NEMIS	Topotecan Hydrochloride  Concentrate For Solution For Infusion  4 mg/4 ml vial
+LUPO105682NEMIS	Lutrate 1 Month Depot  Powder and solvent for suspension for injection  3.75 mg vial
+TACA51110NEMIS	Tacni  Capsules  5 mg
+PESO13361NEMIS	Pegasys  Solution for injection in pre-filled syringe  180 micrograms/0.5 ml
+PRTA4235	Provera 200 Mg  Tablets  200 mg
+TECA27817NEMIS	Temodal  Capsules  140 mg
+RASO100565NEMIS	Ramucirumab  Solution for infusion  100 mg/10 ml vial
+ININ32753EMIS	Interferon Alfa-2B (Rbe)  Injection (Multi-Dose)  25 million units/2.5 ml vial
+CASO23293NEMIS	Calcium Folinate  Solution for injection  10 mg/ml, 5 ml ampoule
+TITA17809NEMIS	Tioguanine  Tablets  40 mg
+ONPO130318NEMIS	Ontruzant  Powder for concentrate for solution for infusion  150 mg vial
+ZLIN109595NEMIS	Zlatal  Injection  7.5 mg/0.3 ml (25 mg/ml), pre-filled syringe
+FLIN13818NEMIS	Fluorouracil  Injection  50 mg/ml, 20 ml vial
+IMCA85449NEMIS	Imnovid  Capsules  2 mg
+LEIN24108EMIS	Lederfolin  Injection  350 mg/35 ml vial
+MAIN33636EMIS	Mabthera  Concentrate For Solution For Infusion  100 mg/10 ml vial
+IMTA18730NEMIS	Imatinib  Tablets  100 mg
+TATA37126MGEMIS	Tamoxifen  Tablets  10 mg (Wockhardt UK)
+VIIN30471EMIS	Viraferon  Injection  18 million units/3 ml vial
+BUCO17563NEMIS	Busulfan  Concentrate solution for infusion  6 mg/ml, 10 ml ampoule
+DIGA88558NEMIS	Dimethyl Fumarate  Gastro-resistant Capsules  120 mg
+VACA97922NEMIS	Vanquoral  Capsules  100 mg
+IRIN30554EMIS	Irinotecan Hydrochloride  Concentrate For Solution For Infusion  20 mg/ml, 2 ml vial
+CATA26634EMIS	Casodex  Tablets  50 mg
+TRPO29107NEMIS	Trabectedin  Powder for solution for infusion  1 mg vial
+PATA44956NEMIS	Pazopanib  Tablets  400 mg
+LEPO105680NEMIS	Leuprorelin Acetate  Powder and solvent for suspension for injection  22.5 mg vial
+META118028NEMIS	Mercaptopurine  Tablets  25 mg
+ANTA27745EMIS	Anastrozole  Tablets  1 mg
+PRCA5337	Procarbazine  Capsules  50 mg
+OCSO78660NEMIS	Octreotide Acetate  Solution for injection  50 micrograms/ml, 1 ml vial
+GOIN16724NEMIS	Gonapeptyl Depot  Powder and solvent for injection  3.75 mg pre-filled syringe
+YECO51583NEMIS	Yervoy  Concentrate For Solution For Infusion  200 mg/40 ml vial
+DITA38283MGEMIS	Diethylstilbestrol  Tablets  5 mg (Unichem)
+GOIM27622EMIS	Goserelin  Implant  10.8 mg
+AVCO19971NEMIS	Avastin  Solution for infusion  25 mg/ml, 16 ml vial
+BRTA130485NEMIS	Brigatinib  Tablets  180 mg
+GLSO102556NEMIS	Glatiramer Acetate  Solution for injection  40 mg/ml, 1 ml pre-filled syringe
+MEIN35894MGEMIS	Methotrexate  Injection  500 mg/20 ml vial (Mayne Pharma)
+TATA37117MGEMIS	Tamoxifen  Tablets  40 mg (A.A.H. Pharm)
+LETA29908EMIS	Letrozole  Tablets  2.5 mg
+EXPO35727NEMIS	Extavia  Powder and solvent for solution for injection  300 microgram vial
+VIIN83157NEMIS	Viraferonpeg Clearclick  Injection  50 micrograms pre-filled pen
+ALTA130489NEMIS	Alunbrig  Tablets  180 mg
+DAPO102563NEMIS	Dacarbazine  Powder for solution for infusion  1 gram vial
+PACO24058EMIS	Paclitaxel  Concentrate for iv infusion  30 mg/5 ml vial
+IDCA23437EMIS	Idarubicin Hydrochloride  Capsules  25 mg
+CACA45632NEMIS	Capimune  Capsules  100 mg
+CICA17610NEMIS	Ciclosporin  Capsules  50 mg
+NOIN122141NEMIS	Nordimet  Injection  12.5 mg/0.5 ml (25 mg/ml), pre-filled pen  
+COPO6431NEMIS	Copaxone  Powder with solvent for injection  20 mg vial
+VIIN83161NEMIS	Viraferonpeg Clearclick  Injection  150 micrograms pre-filled pen
+HYOR133508NEMIS	Hydroxycarbamide  Oral Solution, Sugar Free  500 mg/5 ml
+ROPR30092EMIS	Roferon-A  Prefilled syringe  6 million units
+ORTA4096	Orimeten  Tablets  250 mg
+OCIN33614EMIS	Octreotide Acetate  Powder and solvent for suspension for injection  20 mg vial
+SUIN4358	Suprefact  Injection  1 mg/ml, 5.5 ml vial
+CAIN9209HILLI	Carboplatin  Solution for infusion  450 mg vial
+VIPR13869NEMIS	Viraferonpeg  Pre-filled Pen  80 micrograms
+TACO48182NEMIS	Taxceus  Concentrate For Solution For Infusion  140 mg/7 ml vial
+THCA44990NEMIS	Thalidomide Celgene  Capsules  50 mg
+MYTA31625EMIS	Mycophenolate Mofetil  Tablets  500 mg
+PACO33338NEMIS	Panitumumab  Concentrate For Solution For Infusion  20 mg/ml, 20 ml vial
+FLIN31908EMIS	Fluorouracil  Injection  25 mg/ml, 100 ml vial
+POTA124737NEMIS	Ponatinib  Tablets  30 mg
+TYCO22867NEMIS	Tysabri  Concentrate For Solution For Infusion  300 mg vial
+CEGA124733NEMIS	Ceptava  Gastro-resistant Tablets  180 mg
+IMTA133306NEMIS	Imbruvica  Tablets  140 mg
+SUNA9921BRIDL	Suprefact  Nasal spray  100 micrograms/dose
+MEIN35895MGEMIS	Methotrexate  Injection  500 mg/20 ml vial (Unichem)
+TECA1760NEMIS	Temodal  Capsules  250 mg
+MEIN122132NEMIS	Methotrexate  Injection  12.5 mg/0.5 ml (25 mg/ml), pre-filled device  
+PESO122398NEMIS	Pembrolizumab  Solution for infusion  100 mg/4 ml vial
+DEPO36528NEMIS	Degarelix  Powder and solvent for solution for injection  120 mg vial
+OSTA115281NEMIS	Osimertinib  Tablets  80 mg
+EPSO23553NEMIS	Epirubicin Hydrochloride  Solution for infusion  100 mg/50 ml vial
+CYCA9189BRIDL	Cyclosporin  Capsules  25 mg
+NOIN122148NEMIS	Nordimet  Injection  25 mg/ml, 1 ml pre-filled pen  
+BEIN28157EMIS	Betaferon  Powder and solvent for solution for injection  300 microgram vial
+PRIN31293EMIS	Prostap 3  Powder and solvent for suspension for injection  11.25 mg vial
+VICA48274NEMIS	Vivadex  Capsules  1 mg
+ININ39473NEMIS	Intron A  Injection  30 million units/1.2 ml multidose pen
+DATA133245NEMIS	Dacomitinib  Tablets  15 mg
+MEIN47679NEMIS	Methotrexate  Injection  17.5 mg/0.7 ml (25 mg/ml), pre-filled syringe
+CYIN30699EMIS	Cyclophosphamide  Powder For Solution For Injection  1 gram vial
+ICTA124738NEMIS	Iclusig  Tablets  30 mg
+NOIN122140NEMIS	Nordimet  Injection  10 mg/0.4 ml (25 mg/ml), pre-filled pen  
+DOIN10891NEMIS	Doxorubicin Rapid Dissolution  Injection  10 mg vial
+MEIN122130NEMIS	Methotrexate  Injection  10 mg/0.4 ml (25 mg/ml), pre-filled device  
+VETA52826NEMIS	Vemurafenib  Tablets  240 mg
+ZLIN109600NEMIS	Zlatal  Injection  20 mg/0.8 ml (25 mg/ml), pre-filled syringe
+MECA20146NEMIS	Mercaptopurine  Capsules  10 mg
+DEPO18483NEMIS	Decapeptyl Sr  Powder and solvent for injection  3 mg/dose (4.2 mg vial)
+GLIM17251NEMIS	Gliadel  Implant  7.7 mg
+AVPO22736NEMIS	Avonex  Powder and solvent for solution for injection  30 microgram vial
+ININ39471NEMIS	Interferon Alfa-2B (Rbe)  Injection  60 million units/1.2 ml pre-filled device
+AZOR47617NEMIS	Azathioprine  Oral suspension  30 mg/5 ml
+DISO48028NEMIS	Disodium Folinate  Solution for injection  400 mg/8 ml vial
+VETA130388NEMIS	Verzenios  Tablets  150 mg
+PRPO51124NEMIS	Prostap 3 Dcs  Powder and solvent for injection  11.25 mg pre-filled syringe
+OXPO23892NEMIS	Oxaliplatin  Powder for solution for infusion  50 mg vial
+TATA21173NEMIS	Tarceva  Tablets  150 mg
+ALTA3139	Alkeran  Tablets  2 mg
+CYTA34684MGEMIS	Cyproterone Acetate  Tablets  50 mg (Generics (UK))
+JATA76851NEMIS	Jakavi  Tablets  15 mg
+ICTA86041NEMIS	Iclusig  Tablets  15 mg
+CYTA4798	Cyproterone Acetate  Tablets  50 mg
+RATA15259NEMIS	Rapamune  Tablets  2 mg
+ENM/100581NEMIS	Envarsus  M/R tablets  4 mg
+VIPR13871NEMIS	Viraferonpeg  Pre-filled Pen  120 micrograms
+IBTA133301NEMIS	Ibrutinib  Tablets  420 mg
+ENCA130289NEMIS	Encorafenib  Capsules  50 mg
+LOCA5096	Lomustine  Capsules  10 mg
+ININ3767	Intron A  Injection  3 million-unit vial
+LEPO51122NEMIS	Leuprorelin Acetate  Powder and solvent for injection  11.25 mg pre-filled syringe
+EPIN4885	Epirubicin Hydrochloride  Powder for injection  10 mg vial
+LOCA6835	Lomustine  Capsules  40 mg
+ENTA1068	Endoxana  Tablets  50 mg
+NOIN122142NEMIS	Nordimet  Injection  15 mg/0.6 ml (25 mg/ml), pre-filled pen  
+UFCA6449NEMIS	Uftoral  Capsules  
+INPO22735NEMIS	Interferon Beta-1A  Powder and solvent for solution for injection  30 microgram vial
+MEIN109592NEMIS	Methotrexate  Injection  10 mg/0.4 ml (25 mg/ml), pre-filled syringe
+CYSO122227NEMIS	Cytarabine  Solution for infusion  5 grams/50 ml vial
+TACA101087NEMIS	Tacrolimus  Capsules  2 mg
+ININ28159EMIS	Interferon Beta-1B  Powder and solvent for solution for injection  300 microgram vial
+IMIN3756	Imuran  Powder For Solution For Injection  50 mg vial
+RAOR6614NEMIS	Rapamune  Oral solution  1 mg/ml
+HYIN30294EMIS	Hycamtin  Powder for concentrate for solution for infusion  4 mg vial
+CAPO26363NEMIS	Cardioxane  Powder for solution for infusion  500 mg vial
+ONCO4886NEMIS	Onkotrone  Concentrate solution for infusion  2 mg/ml, 12.5 ml vial
+CACO73945NEMIS	Catumaxomab  Concentrate For Solution For Infusion  10 micrograms/0.1 ml syringe
+MITA22565NEMIS	Mitotane  Tablets  500 mg
+VODI122120NEMIS	Votubia  Dispersible tablets  2 mg
+CACA51775NEMIS	Capexion  Capsules  1 mg
+VECO29025NEMIS	Vectibix  Concentrate For Solution For Infusion  20 mg/ml, 5 ml vial
+IBCA118214NEMIS	Ibrance  Capsules  125 mg
+DOIN10894NEMIS	Doxorubicin  Solution for injection  2 mg/ml, 5 ml vial
+CACA96757NEMIS	Cabozantinib  Capsules  20 mg + 80 mg
+TATA37121MGEMIS	Tamoxifen  Tablets  40 mg (Wockhardt UK)
+INPR30100EMIS	Interferon Alfa-2A(Rbe)  Prefilled syringe  6 million units
+BECA12587NEMIS	Bexarotene  Capsules  75 mg
+ETIN32747EMIS	Etopophos  Powder For Solution For Injection  100 mg vial
+PLIN96037NEMIS	Plegridy Initiation Pack  Injection  63 micrograms/0.5ml pen + 94 micrograms/0.5ml pen
+TEGA88573NEMIS	Tecfidera  Gastro-resistant Capsules  120 mg
+GOIN16724NEMIS	Gonapeptyl Depot  Powder and solvent for injection  3.75 mg pre-filled syringe
+VECO33339NEMIS	Vectibix  Concentrate For Solution For Infusion  20 mg/ml, 20 ml vial
+IRIN30555EMIS	Irinotecan Hydrochloride  Concentrate For Solution For Infusion  20 mg/ml, 5 ml vial
+MYGA18754NEMIS	Mycophenolic Acid  Gastro-resistant Tablets  360 mg
+IBTA133299NEMIS	Ibrutinib  Tablets  140 mg
+TECA45577NEMIS	Temomedac  Capsules  100 mg
+VIPO35156NEMIS	Vidaza  Powder For Suspension For Injection  100 mg vial
+NOIN122149NEMIS	Nordimet  Injection  7.5 mg/0.3 ml (25 mg/ml), pre-filled pen  
+LATA30155NEMIS	Lapatinib  Tablets  250 mg
+DACA86745NEMIS	Dabrafenib  Capsules  75 mg
+CATA72182NEMIS	Caprelsa  Tablets  300 mg
+CYIN30701EMIS	Cyclophosphamide  Powder For Solution For Injection  500 mg vial
+RESO40479NEMIS	Rebif  Solution for injection  44 micrograms/0.5 ml, 1.5 ml cartridge
+AVIN51179NEMIS	Avonex  Injection  30 micrograms (6 million units)/0.5 ml pen
+MIIN3954	Mitomycin C Kyowa  Powder For Solution For Injection  10 mg vial
+FLIN13819NEMIS	Fluorouracil  Injection  50 mg/ml, 50 ml vial
+CYCA8746BRIDL	Cyclosporin  Capsules  100 mg
+CYCO100569NEMIS	Cyramza  Concentrate For Solution For Infusion  100 mg/10 ml vial
+IMCA120517NEMIS	Imatinib  Capsules  400 mg
+RESO40483NEMIS	Rebif Initiation Pack  Injection (1.5 ml cartridges)  8.8 micrograms/0.1 ml + 22 micrograms/0.25 ml
+MESO26246NEMIS	Mesna  Solution for injection  100 mg/ml, 4 ml ampoule
+XTCA81622NEMIS	Xtandi  Capsules  40 mg
+SAPO47735NEMIS	Salvacyl  Powder and solvent for suspension for injection  11.25 mg vial
+CACA51166NEMIS	Capsorin  Capsules  25 mg
+CICO18472NEMIS	Ciclosporin  Concentrate For Solution For Infusion  50 mg/ml, 1 ml ampoule
+CATA117912NEMIS	Cabometyx  Tablets  20 mg
+POCA85446NEMIS	Pomalidomide  Capsules  4 mg
+SACO18475NEMIS	Sandimmun  Concentrate For Solution For Infusion  50 mg/ml, 5 ml ampoule
+TECA1754NEMIS	Temozolomide  Capsules  20 mg
+ELIN3503	Eldisine  Injection  5 mg vial
+DECA39572NEMIS	Deximune  Capsules  50 mg
+TAIN28203EMIS	Taxotere  Concentrate And Solvent For Solution For Infusion  20 mg vial
+AFTA39055NEMIS	Afinitor  Tablets  5 mg
+EVDI122115NEMIS	Everolimus  Dispersible Tablets Sugar Free  3 mg
+ZISO119092NEMIS	Zinbryta  Solution for injection  150 mg/1 ml pre-filled pen
+VICA48275NEMIS	Vivadex  Capsules  5 mg
+TATA37120MGEMIS	Tamoxifen  Tablets  40 mg (Teva UK)
+PHSO17984EMIS	Pharmorubicin  Solution for injection  10 mg/5 ml Cytosafe vial
+LYTA126991NEMIS	Lynparza  Tablets  150 mg
+TACA4137NEMIS	Tacrolimus  Capsules  500 micrograms
+DAPO77671NEMIS	Dacogen  Powder for concentrate for solution for infusion  50 mg vial
+MYGA18756NEMIS	Myfortic  Gastro-resistant Tablets  180 mg
+NECA26625EMIS	Neoral  Capsules  50 mg
+ZAI.9949BRIDL	Zavedos  Powder For Solution For Injection  5 mg vial
+CYIN30700EMIS	Cyclophosphamide  Injection  200 mg/vial
+VIIN83159NEMIS	Viraferonpeg Clearclick  Injection  100 micrograms pre-filled pen
+ADM/25953NEMIS	Advagraf  M/R capsules  500 micrograms
+PEPO4889NEMIS	Peginterferon Alfa-2b (rbe)  Powder with solvent for injection  50 microgram vial
+NUPO51622NEMIS	Nulojix  Powder for concentrate for solution for infusion  250 mg vial
+FLTA9090BRIDL	Flutamide  Tablets  250 mg
+XTTA133796NEMIS	Xtandi  Tablets  40 mg
+IDSO82326NEMIS	Idarubicin Hydrochloride  Solution for injection  5 mg/5 ml vial
+TATA21172NEMIS	Tarceva  Tablets  100 mg
+MATA136506NEMIS	Mayzent  Tablets  2 mg
+ININ21974EMIS	Intron A  Injection  1 million unit vial
+YOPO29110NEMIS	Yondelis  Powder for solution for infusion  1 mg vial
+VICA88525NEMIS	Vinorelbine Tartrate  Capsules  80 mg
+DOSO35169NEMIS	Doxorubicin  Solution for infusion  200 mg/100 ml vial
+IDSO82327NEMIS	Idarubicin Hydrochloride  Solution for injection  10 mg/10 ml vial
+CYTA3374	Cyprostat  Tablets  50 mg
+MEIN35889MGEMIS	Methotrexate  Injection  1 gram/40 ml vial (Goldshield)
+ININ39469NEMIS	Interferon Alfa-2B (Rbe)  Injection  18 million units/1.2 ml pre-filled device
+IBTA138596NEMIS	Ibrance  Tablets  100 mg
+KICA117658NEMIS	Kisplyx  Capsules  10 mg
+OFCA105306NEMIS	Ofev  Capsules  150 mg
+CYTA34679MGEMIS	Cyproterone Acetate  Tablets  100 mg (Unichem)
+ETCA7110	Etoposide  Capsules  50 mg
+FLTA35215MGEMIS	Flutamide  Tablets  250 mg (Ivax Pharmaceuticals)
+CAIN34909EMIS	Calcium Levofolinate  Injection  10 mg/ml, 2.5 ml vial
+ONCO122072NEMIS	Onivyde Pegylated Liposomal  Concentrate For Solution For Infusion  50 mg/10 ml (43 mg/10 ml as base) vial
+TEGA88574NEMIS	Tecfidera  Gastro-resistant Capsules  240 mg
+TACO34638EMIS	Taxol  Concentrate for iv infusion  100 mg/vial
+PRTAEGTON7185	Provera 400 Mg  Tablets  400 mg
+OXCO23713NEMIS	Oxaliplatin  Concentrate For Solution For Infusion  5 mg/ml, 40 ml vial
+IFIN6992	Ifosfamide  Powder For Concentrate For Solution For Injection  2 gram vial
+VACA104990NEMIS	Vanquoral  Capsules  10 mg
+LOTA116872NEMIS	Lonsurf  Tablets  15 mg + 6.14 mg
+CYTA784	Cyclophosphamide  Tablets  50 mg
+MEIN35893MGEMIS	Methotrexate  Injection  500 mg/20 ml vial (A.A.H. Pharm)
+VICA21159NEMIS	Vinorelbine Tartrate  Capsules  20 mg
+MIIN6991	Mitomycin  Powder For Solution For Injection  20 mg vial
+FLIN4935	Fluorouracil  Injection  25 mg/ml, 10 ml vial
+TRTA106434NEMIS	Trametinib  Tablets  2 mg
+TATA4382	Tamofen-20  Tablets  20 mg
+AMSO26882NEMIS	Amsidine  Solution for infusion  75 mg/1.5 ml ampoule and diluent
+IDIN9623HILLI	Idarubicin Hydrochloride  Powder For Solution For Injection  10 mg vial
+TACO45101NEMIS	Taxotere  Concentrate For Solution For Infusion  20 mg/1 ml vial
+CESO25432NEMIS	Cetuximab  Solution for infusion  5 mg/ml, 100 ml vial
+IRSO127130NEMIS	Irinotecan Pegylated Liposomal  Solution for infusion  50 mg/10 ml (43 mg/10 ml as base) vial
+PEPO134230NEMIS	Pegaspargase  Powder For Solution For Injection  3,750 unit vial
+NISO127244NEMIS	Nivolumab  Solution for infusion  240 mg/24 ml vial
+AZOR45627NEMIS	Azathioprine  Oral solution  50 mg/5 ml
+CICA17609NEMIS	Ciclosporin  Capsules  100 mg
+SAIN33608EMIS	Sandostatin Lar  Powder and solvent for suspension for injection  20 mg vial
+VACA100632NEMIS	Vargatef  Capsules  150 mg
+VETA130383NEMIS	Verzenios  Tablets  100 mg
+CECA28264EMIS	Cellcept  Capsules  250 mg
+XETA6394NEMIS	Xeloda  Tablets  150 mg
+FACA112117NEMIS	Farydak  Capsules  10 mg
+TATA37119MGEMIS	Tamoxifen  Tablets  40 mg (Kent Pharm)
+AZTA33907MGEMIS	Azathioprine  Tablets  25 mg (Generics (UK))
+VOTA52153NEMIS	Votubia  Tablets  2.5 mg
+ADCA101090NEMIS	Adoport  Capsules  750 micrograms
+FOSO77698NEMIS	Foscan  Solution for injection  6 mg/6 ml vial
+ALPO19268NEMIS	Alimta  Powder for concentrate for solution for infusion  500 mg vial
+RECA26068NEMIS	Revlimid  Capsules  10 mg
+ININ39470NEMIS	Interferon Alfa-2B (Rbe)  Injection  30 million units/1.2 ml pre-filled device
+KAPO88233NEMIS	Kadcyla  Powder for concentrate for solution for infusion  160 mg vial
+ERIN9476HILLI	Erwinase  Injection  10,000 units/vial
+TECA45578NEMIS	Temomedac  Capsules  140 mg
+DISO48026NEMIS	Disodium Folinate  Solution for injection  100 mg/2 ml vial
+OCSO52617NEMIS	Octreotide Acetate  Solution for injection  100 micrograms/1 ml pre-filled syringe
+CAPO40314NEMIS	Canakinumab  Powder For Solution For Injection  150 mg vial
+DAOR132444NEMIS	Dasatinib  Oral suspension  10 mg/ml
+META6759	Melphalan  Tablets  5 mg
+IBTA133300NEMIS	Ibrutinib  Tablets  280 mg
+LYCA102393NEMIS	Lynparza  Capsules  50 mg
+ENM/100578NEMIS	Envarsus  M/R tablets  1 mg
+SAIN33607EMIS	Sandostatin Lar  Powder and solvent for suspension for injection  10 mg vial
+TECA73955NEMIS	Teysuno  Capsules  20 mg + 5.8 mg + 15.8 mg
+TECA73952NEMIS	Teysuno  Capsules  15 mg + 4.35 mg + 11.8 mg
+TECA45576NEMIS	Temomedac  Capsules  20 mg
+SPOR132445NEMIS	Sprycel  Oral suspension  10 mg/ml
+ALTA134228NEMIS	Alunbrig Treatment Initiation Pack  Tablets  90 mg + 180 mg
+BOTA82679NEMIS	Bosutinib  Tablets  100 mg
+DECA39573NEMIS	Deximune  Capsules  25 mg
+MIIN11905NEMIS	Mitomycin  Powder For Intravesical Solution  40 mg vial
+MEOR14799NEMIS	Mercaptopurine  Oral suspension  50 mg/5 ml
+RUTA76847NEMIS	Ruxolitinib  Tablets  15 mg
+META107088NEMIS	Mercaptopurine  Tablets  75 mg
+TRPO88219NEMIS	Trastuzumab Emtansine  Powder for concentrate for solution for infusion  160 mg vial
+RUTA76845NEMIS	Ruxolitinib  Tablets  5 mg
+TECA1756NEMIS	Temozolomide  Capsules  250 mg
+AXTA89768NEMIS	Axitinib  Tablets  7 mg
+DITA38284MGEMIS	Diethylstilbestrol  Tablets  5 mg (Teva UK)
+SUCA22941NEMIS	Sunitinib  Capsules  12.5 mg
+REIN4255	Refolinon  Injection  3 mg/ml, 10 ml ampoule
+DOCO47619NEMIS	Docetaxel  Concentrate For Solution For Infusion  160 mg/8 ml vial
+LAIN12141NEMIS	Lanreotide  Injection (Prefilled Syringe)  60 mg
+ROPR30093EMIS	Roferon-A  Prefilled syringe  9 million units
+RIIN33640EMIS	Rituximab  Solution for infusion  100 mg/10 ml vial
+DOCO101276NEMIS	Docetaxel  Concentrate For Solution For Infusion  20 mg/2 ml vial
+SIIN16204NEMIS	Simulect  Injection  10 mg/vial
+ININ32751EMIS	Intron A  Injection (Multi-Dose)  25 million units/2.5 ml vial
+TRPO124568NEMIS	Triptorelin  Powder and solvent for suspension for injection  11.25 mg vial
+AMTA4583	Aminoglutethimide  Tablets  250 mg
+BITA130320NEMIS	Binimetinib  Tablets  15 mg
+JATA76852NEMIS	Jakavi  Tablets  20 mg
+TACA47633NEMIS	Tasigna  Capsules  150 mg
+PESO13359NEMIS	Peginterferon alfa-2a  Solution for injection in pre-filled syringe  135 micrograms/0.5 ml
+DIGA124301NEMIS	Dimethyl Fumarate  Gastro-resistant Tablets  120 mg
+CYTA23924EMIS	Cyprostat  Tablets  100 mg
+OCIN33613EMIS	Octreotide Acetate  Powder and solvent for suspension for injection  10 mg vial
+PAPO71516NEMIS	Paclitaxel Albumin  Powder For Suspension For Infusion  100 mg vial
+VECA4497	Vepesid  Capsules  50 mg
+VIIN5502	Vindesine Sulfate (With Mannitol)  Injection  5 mg vial
+MEIN3552NEMIS	Methotrexate  Injection  100 mg/ml, 50 ml vial
+TATA37125MGEMIS	Tamoxifen  Tablets  10 mg (A.A.H. Pharm)
+TRTA116868NEMIS	Trifluridine And Tipiracil  Tablets  15 mg + 6.14 mg
+DATA133248NEMIS	Dacomitinib  Tablets  45 mg
+ANOR133496NEMIS	Anastrozole  Oral solution  1 mg/5 ml
+EVDI122118NEMIS	Everolimus  Dispersible Tablets Sugar Free  5 mg
+DEIN26756EMIS	De-Capeptyl Sr  Injection  4.2 mg/vial
+TESO77694NEMIS	Temoporfin  Solution for injection  3 mg/3 ml vial
+GESO116241NEMIS	Gemcitabine Hydrochloride  Solution for infusion  1 gram/25 ml vial
+IMIN22388EMIS	Immukin  Solution for injection  100 micrograms/0.5 ml vial
+CYIN3979NEMIS	Cytarabine  Injection  100 mg/5 ml vial
+VATA72180NEMIS	Vandetanib  Tablets  300 mg
+ININ47678NEMIS	Interferon Beta-1A  Injection  12 million units/0.5 ml pre-filled syringe
+ALCO139727NEMIS	NULL
+IMTA17137NEMIS	Imatinib  Tablets  400 mg
+SUCA22946NEMIS	Sutent  Capsules  12.5 mg
+FACA112119NEMIS	Farydak  Capsules  20 mg
+TATA37137MGEMIS	Tamoxifen  Tablets  20 mg (Alpharma)
+ADCA46738NEMIS	Adoport  Capsules  1 mg
+ILPO40317NEMIS	Ilaris  Powder For Solution For Injection  150 mg vial
+NOIM39105NEMIS	Novgos  Implant  3.6 mg pre-filled syringe
+BITA1018NEMIS	Bicalutamide  Tablets  150 mg
+MEOR27055NEMIS	Megestrol Acetate  Oral suspension  40 mg/5 ml
+EVTA52149NEMIS	Everolimus  Tablets  2.5 mg
+PHIN11709NEMIS	Photofrin  Powder For Solution For Injection  75 mg vial
+GESO133112NEMIS	Gemcitabine Hydrochloride  Solution for infusion  1 gram/26.3 ml vial
+DAIN21641NEMIS	Dactinomycin  Powder For Solution For Injection  500 microgram vial
+INSO40482NEMIS	Interferon Beta-1A  Solution for injection  22 micrograms/0.5 ml, 1.5 ml cartridge
+SACA19708EMIS	Sandimmun  Capsules  50 mg
+AVSO124867NEMIS	Avelumab  Solution for infusion  200 mg/10 ml vial
+TATA115283NEMIS	Tagrisso  Tablets  40 mg
+AZTA262	Azathioprine  Tablets  50 mg
+ZLIN109597NEMIS	Zlatal  Injection  12.5 mg/0.5 ml (25 mg/ml), pre-filled syringe
+PACO34640EMIS	Paclitaxel  Concentrate for iv infusion  100 mg/16.7 ml vial
+LECA103682NEMIS	Lenalidomide  Capsules  20 mg
+JATA103590NEMIS	Jakavi  Tablets  10 mg
+PEPR13865NEMIS	Peginterferon Alfa-2b (rbe)  Pre-filled Pen  100 micrograms
+OLTA126990NEMIS	Olaparib  Tablets  150 mg
+VOTA78096NEMIS	Votubia  Tablets  10 mg
+LECA26065NEMIS	Lenalidomide  Capsules  25 mg
+COTA108903NEMIS	Cotellic  Tablets  20 mg
+MEIN122135NEMIS	Methotrexate  Injection  17.5 mg/0.7 ml (25 mg/ml), pre-filled device  
+CYIN3980NEMIS	Cytarabine  Injection  500 mg/25 ml vial
+FLSO28337NEMIS	Fludarabine Phosphate  Solution for injection  25 mg/ml, 2 ml vial
+PAPO103686NEMIS	Pasireotide  Powder and solvent for suspension for injection  60 mg vial
+TATA37127MGEMIS	Tamoxifen  Tablets  10 mg (Ivax Pharmaceuticals)
+TATA4381	Tamofen  Tablets  10 mg
+DOIN10895NEMIS	Doxorubicin  Solution for injection  2 mg/ml, 25 ml vial
+DOIN10892NEMIS	Doxorubicin Rapid Dissolution  Injection  50 mg vial
+NIIN23569EMIS	Nipent  Powder For Solution For Injection  10 mg vial
+ZACA23431EMIS	Zavedos  Capsules  25 mg
+BACO124869NEMIS	Bavencio  Concentrate For Solution For Infusion  200 mg/10 ml vial
+MYCA47253NEMIS	Myfenax  Capsules  250 mg
+EPIN11655NEMIS	Eposin  Concentrate solution for infusion  20 mg/ml, 5 ml vial
+VIPR13872NEMIS	Viraferonpeg  Pre-filled Pen  150 micrograms
+SPTA23513NEMIS	Sprycel  Tablets  70 mg
+IXCA123769NEMIS	Ixazomib  Capsules  4 mg
+FLIN35148MGEMIS	Fluorouracil  Injection  25 mg/ml, 20 ml vial (Unichem)
+DISO48029NEMIS	Disodium Folinate  Solution for injection  50 mg/1 ml vial
+PASO76683NEMIS	Pasireotide  Solution for injection  300 micrograms/1 ml ampoule
+MYIN184NEMIS	Mycophenolate Mofetil  Powder for solution for infusion  500 mg vial
+CHGE133209NEMIS	Chlormethine  Gel  160 micrograms/gram
+SAIN9471BRIDL	Sandostatin  Solution for injection  50 micrograms/ml, 1 ml ampoule
+URTA26741EMIS	Uromitexan  Tablets  400 mg
+TOIN28343EMIS	Tomudex  Powder for solution for infusion  2 mg vial
+NEOR26626EMIS	Neoral  Oral solution  100 mg/ml
+TACA12590NEMIS	Targretin  Capsules  75 mg
+AYSO138116NEMIS	Aybintio  Solution for infusion  25 mg/ml, 16 ml vial
+FASO17474NEMIS	Faslodex  Solution for injection  250 mg/5 ml pre-filled syringe
+FLCA4933	Fluorouracil  Capsules  250 mg
+CATA34066MGEMIS	Calcium Folinate  Tablets  15 mg (Teva UK)
+ININ3769	Intron A  Injection  10 million unit vial
+NECA33597EMIS	Neoral  Capsules  10 mg
+PEPO4898NEMIS	Pegintron  Powder with solvent for injection  150 microgram vial
+NECA26624EMIS	Neoral  Capsules  25 mg
+DOSO29320NEMIS	Doxorubicin Cytosafe Vial  Solution for injection  2 mg/ml, 25 ml vial
+LEGE133213NEMIS	Ledaga  Gel  160 micrograms/gram
+CYTA34675MGEMIS	Cyproterone Acetate  Tablets  100 mg (Wockhardt UK)
+TRPO47718NEMIS	Triptorelin Acetate  Powder and solvent for injection  4.2 mg vial (3 mg Triptorelin)
+SOIN10833NEMIS	Sodiofolin  Injection  50 mg/ml, 18 ml vial
+SKGA124303NEMIS	Skilarence  Gastro-resistant Tablets  30 mg
+LESO128241NEMIS	Levofolinic Acid  Solution for injection  50 mg/1 ml vial
+ADM/25955NEMIS	Advagraf  M/R capsules  5 mg
+TRSO83180NEMIS	Trastuzumab  Solution for injection  600 mg/5 ml vial
+ZAI.9951BRIDL	Zavedos  Powder For Solution For Injection  10 mg vial
+AZTA10446BRIDL	Azathioprine  Tablets  25 mg
+TESO16472NEMIS	Temoporfin  Solution for injection  4 mg/ml, 5 ml vial
+CATA6392NEMIS	Capecitabine  Tablets  500 mg
+ARTA47249NEMIS	Arzip  Tablets  500 mg
+COCA96762NEMIS	Cometriq  Capsules  20 mg + 80 mg
+DAPO128262NEMIS	Daunorubicin And Cytarabine  Powder for solution for infusion  44 mg + 100 mg vial
+LETA1648	Leukeran  Tablets  2 mg
+RASO100567NEMIS	Ramucirumab  Solution for infusion  500 mg/50 ml vial
+AFTA86966NEMIS	Afatinib  Tablets  30 mg
+GITA86971NEMIS	Giotrif  Tablets  30 mg
+LECA103602NEMIS	Lenvima  Capsules  10 mg
+PEPO5608NEMIS	Peginterferon Alfa-2b (rbe)  Powder with solvent for injection  120 microgram vial
+ALTA130487NEMIS	Alunbrig  Tablets  30 mg
+HATA133503NEMIS	Hanixol  Tablets  50 mg
+VATA72178NEMIS	Vandetanib  Tablets  100 mg
+TAOR18410NEMIS	Tacrolimus  Oral suspension  5 mg/5 ml
+CYTA34680MGEMIS	Cyproterone Acetate  Tablets  50 mg (Kent Pharm)
+AVSO16603NEMIS	Avonex  Injection  30 micrograms (6 million units)/0.5 ml syringe
+TATA37134MGEMIS	Tamoxifen  Tablets  20 mg (A.A.H. Pharm)
+ONPO134231NEMIS	Oncaspar  Powder For Solution For Injection  3,750 unit vial
+NICA123773NEMIS	Ninlaro  Capsules  4 mg
+CEIN185NEMIS	Cellcept  Powder for solution for infusion  500 mg vial
+CASO23297NEMIS	Calcium Folinate  Solution for injection  10 mg/ml, 30 ml vial
+MAIN33637EMIS	Mabthera  Concentrate For Solution For Infusion  500 mg/50 ml vial
+CHIN17746NEMIS	Chlormethine  Injection  10 mg vial
+YECO51585NEMIS	Yervoy  Concentrate For Solution For Infusion  50 mg/10 ml vial
+FLTA35212MGEMIS	Flutamide  Tablets  250 mg (Unichem)
+DISO48027NEMIS	Disodium Folinate  Solution for injection  200 mg/4 ml vial
+INSO40481NEMIS	Interferon Beta-1A  Solution for injection  44 micrograms/0.5 ml, 1.5 ml cartridge
+NICA123806NEMIS	Nibix  Capsules  400 mg
+IMTA9237BRIDL	Immunoprin  Tablets  50 mg
+SACA10699BRIDL	Sandimmun  Capsules  25 mg
+HYIN6525NEMIS	Hycamtin  Powder for concentrate for solution for infusion  1 mg vial
+VITA133250NEMIS	Vizimpro  Tablets  15 mg
+FUSO17471NEMIS	Fulvestrant  Solution for injection  250 mg/5 ml pre-filled syringe
+TESO77693NEMIS	Temoporfin  Solution for injection  1 mg/1 ml vial
+MEIN35891MGEMIS	Methotrexate  Injection  200 mg/8 ml vial (Goldshield)
+PEPO4896NEMIS	Pegintron  Powder with solvent for injection  80 microgram vial
+LEIN31295EMIS	Leuprorelin Acetate  Powder and solvent for suspension for injection  11.25 mg vial
+EVSO22985NEMIS	Evoltra  Concentrate For Solution For Infusion  1 mg/ml, 20 ml vial
+VEIN5719	Velbe  Injection  10 mg/vial
+INTA89770NEMIS	Inlyta  Tablets  3 mg
+TRCO122333NEMIS	Truxima  Concentrate For Solution For Infusion  500 mg/50 ml vial
+AZTA33917MGEMIS	Azathioprine  Tablets  50 mg (Teva UK)
+TAM/37224NEMIS	Tacrolimus  M/R capsules  3 mg
+PACA112112NEMIS	Panobinostat  Capsules  10 mg
+DOPO28340NEMIS	Doxorubicin Hydrochloride  Powder For Solution For Injection  10 mg vial
+NETA22861NEMIS	Nexavar  Tablets  200 mg
+PEPR13867NEMIS	Peginterferon Alfa-2b (rbe)  Pre-filled Pen  150 micrograms
+ZYTA122066NEMIS	Zytiga  Tablets  500 mg
+ISIN34918EMIS	Isovorin  Injection  10 mg/ml, 17.5 ml vial
+CIPO21830NEMIS	Cisplatin  Powder for solution for infusion  50 mg vial
+HESO83181NEMIS	Herceptin  Solution for injection  600 mg/5 ml vial
+CATA89214NEMIS	Capecitabine  Tablets  300 mg
+CAIN30551EMIS	Campto  Concentrate For Solution For Infusion  20 mg/ml, 5 ml vial
+SISO76690NEMIS	Signifor  Solution for injection  900 micrograms/1 ml ampoule
+CYIN22197NEMIS	Cytarabine  Injection  500 mg/5 ml vial
+TRPO131602NEMIS	Trazimera  Powder for concentrate for solution for infusion  150 mg vial
+AUTA89764NEMIS	Aubagio  Tablets  14 mg
+ININ39474NEMIS	Intron A  Injection  60 million units/1.2 ml multidose pen
+SACO18474NEMIS	Sandimmun  Concentrate For Solution For Infusion  50 mg/ml, 1 ml ampoule
+RECA26070NEMIS	Revlimid  Capsules  25 mg
+BOTA127231NEMIS	Bosulif  Tablets  400 mg
+TAOR19247NEMIS	Tacrolimus  Oral suspension  2.5 mg/5 ml
+ERCA82420NEMIS	Erivedge  Capsules  150 mg
+ETSO131635NEMIS	Etoposide  Solution for infusion  200 mg/10 ml vial
+AZPO35152NEMIS	Azacitidine  Powder For Suspension For Injection  100 mg vial
+LISO25542NEMIS	Litak  Solution for injection  2 mg/ml, 5 ml vial
+DECA39571NEMIS	Deximune  Capsules  100 mg
+GOIM27622EMIS	Goserelin  Implant  10.8 mg
+MEOR21745NEMIS	Megestrol Acetate  Oral suspension  160 mg/5 ml
+TRPO138439NEMIS	Trecondi  Powder for solution for infusion  5 gram vial
+AZTA33916MGEMIS	Azathioprine  Tablets  50 mg (Sandoz)
+TOIN30296EMIS	Topotecan Hydrochloride  Powder for concentrate for solution for infusion  4 mg vial
+NACA88526NEMIS	Navelbine  Capsules  80 mg
+RICO124097NEMIS	Rixathon  Concentrate For Solution For Infusion  100 mg/10 ml vial
+DATA23509NEMIS	Dasatinib  Tablets  70 mg
+ELCO23712NEMIS	Eloxatin  Concentrate For Solution For Infusion  5 mg/ml, 40 ml vial
+DAPO102564NEMIS	Dacarbazine  Powder for solution for infusion  500 mg vial
+POPO89223NEMIS	Potactasol  Powder for concentrate for solution for infusion  1 mg vial
+URSO26247NEMIS	Uromitexan  Solution for injection  100 mg/ml, 4 ml ampoule
+INTA77629NEMIS	Inlyta  Tablets  1 mg
+PHIN4143	Pharmorubicin  Powder for injection  50 mg vial
+PACA112115NEMIS	Panobinostat  Capsules  20 mg
+PATA44952NEMIS	Pazopanib  Tablets  200 mg
+PECO78620NEMIS	Pertuzumab  Concentrate For Solution For Infusion  420 mg/14 ml vial
+NICA123805NEMIS	Nibix  Capsules  100 mg
+GEIN17684NEMIS	Gestonorone  Injection  100 mg/ml, 2 ml ampoule
+LECA26063NEMIS	Lenalidomide  Capsules  10 mg
+LAIN12143NEMIS	Lanreotide  Solution for injection  120 mg/0.5 ml pre-filled syringe
+HYOR36803NEMIS	Hydroxycarbamide  Oral solution  500 mg/5 ml
+SKGA124304NEMIS	Skilarence  Gastro-resistant Tablets  120 mg
+AZTA33914MGEMIS	Azathioprine  Tablets  50 mg (Ivax Pharmaceuticals)
+MICO17744NEMIS	Mitoxantrone  Concentrate for intravenous infusion  2 mg/ml, 15 ml vial
+RECA26069NEMIS	Revlimid  Capsules  15 mg
+BOTA82681NEMIS	Bosutinib  Tablets  500 mg
+INPR30098EMIS	Interferon Alfa-2A(Rbe)  Prefilled syringe  3 million units
+TYTA30158NEMIS	Tyverb  Tablets  250 mg
+CAPO120493NEMIS	Carmustine  Powder And Solvent For Solution For Infusion  100 mg vial
+MESU18182NEMIS	Mercaptopurine  Suspension  100 mg/5 ml (20 mg/ml)
+IDCA23436EMIS	Idarubicin Hydrochloride  Capsules  10 mg
+DOPO27369NEMIS	Doxorubicin (Liposomal)  Powder And Solvent For Suspension For Infusion  50 mg vial
+TACO19085NEMIS	Taxol  Concentrate for iv infusion  150 mg/25 ml vial
+CYTA34682MGEMIS	Cyproterone Acetate  Tablets  50 mg (Unichem)
+IMCA85451NEMIS	Imnovid  Capsules  4 mg
+XAOR78510NEMIS	Xaluprine  Oral suspension  20 mg/ml
+PEPO4892NEMIS	Peginterferon Alfa-2b (rbe)  Powder with solvent for injection  100 microgram vial
+VIIN31649EMIS	Vinorelbine Tartrate  Concentrate For Solution For Infusion  10 mg/ml, 5 ml vial
+PRIN19771EMIS	Proleukin  Powder For Solution For Injection  18 million unit vial
+MEIN18088EMIS	Methotrexate  Injection  5 grams/200 ml vial
+BRTA134226NEMIS	Brigatinib  Tablets  90 mg + 180 mg
+PACA118209NEMIS	Palbociclib  Capsules  100 mg
+CETA101981NEMIS	Certican  Tablets  250 micrograms
+TATA37122MGEMIS	Tamoxifen  Tablets  40 mg (Unichem)
+YOPO29109NEMIS	Yondelis  Powder for solution for infusion  250 microgram vial
+CASO48468NEMIS	Carboplatin  Solution for infusion  600 mg vial
+LUPO105684NEMIS	Lutrate 3 Month Depot  Powder and solvent for suspension for injection  22.5 mg vial
+FLTA6224NEMIS	Fludara Oral  Tablets  10 mg
+CACO73947NEMIS	Catumaxomab  Concentrate For Solution For Infusion  50 micrograms/0.5 ml syringe
+IMTA133308NEMIS	Imbruvica  Tablets  420 mg
+CRIN9379HILLI	Crisantaspase  Injection  10,000 units/vial
+LEIN27969EMIS	Leustat  Solution for infusion  10 mg/10 ml vial
+NATA48121NEMIS	Nastrosa  Tablets  1 mg
+VEPO18246NEMIS	Velcade  Powder For Solution For Injection  3.5 mg vial
+FLPO28336NEMIS	Fludarabine Phosphate  Powder For Solution For Injection  50 mg vial
+MIIN3957	Mitoxana  Injection  1g vial
+INTA77630NEMIS	Inlyta  Tablets  5 mg
+ETIN23354NEMIS	Etoposide  Solution for infusion  20 mg/ml, 25 ml vial
+TECA27815NEMIS	Temozolomide  Capsules  140 mg
+FLIN25837EMIS	Fludara  Powder For Solution For Injection  50 mg vial
+MACO20109NEMIS	Mabcampath  Concentrate solution for infusion  30 mg/ml, 1 ml vial
+RECA103683NEMIS	Revlimid  Capsules  20 mg
+PAPO103684NEMIS	Pasireotide  Powder and solvent for suspension for injection  20 mg vial
+LYTA126992NEMIS	Lynparza  Tablets  100 mg
+AZSU19246NEMIS	Azathioprine  Suspension  25 mg/5 ml
+PRPO51124NEMIS	Prostap 3 Dcs  Powder and solvent for injection  11.25 mg pre-filled syringe
+VIIN23552NEMIS	Vincristine Sulfate  Injection  1 mg/ml, 2 ml vial
+CAIN9211HILLI	Carboplatin  Solution for infusion  50 mg vial
+MEIN122137NEMIS	Methotrexate  Injection  22.5 mg/0.9 ml (25 mg/ml), pre-filled device  
+FETA29906EMIS	Femara  Tablets  2.5 mg
+TYCO22867NEMIS	Tysabri  Concentrate For Solution For Infusion  300 mg vial
+GLTA17138NEMIS	Glivec  Tablets  400 mg
+FOTA29624EMIS	Fosfestrol Tetrasodium  Tablets  120 mg
+GESO133113NEMIS	Gemcitabine Hydrochloride  Solution for infusion  200 mg/5.26 ml vial
+TICA125504NEMIS	Tivozanib  Capsules  1340 micrograms
+ALTA3140	Alkeran  Tablets  5 mg
+FOCA125507NEMIS	Fotivda  Capsules  1340 micrograms
+TRPO47727NEMIS	Triptorelin Acetate  Powder and solvent for injection  3.75 mg pre-filled syringe
+CYTA34686MGEMIS	Cyclophosphamide  Tablets  50 mg (Pfizer)
+ZISO137724NEMIS	Zirabev  Solution for infusion  25 mg/ml, 4 ml vial
+DIGA124300NEMIS	Dimethyl Fumarate  Gastro-resistant Tablets  30 mg
+DITA17857NEMIS	Diethylstilbestrol  Tablets  1 mg
+ROPR30090EMIS	Roferon-A  Prefilled syringe  3 million units
+ENPO25530NEMIS	Endoxana  Powder For Solution For Injection  500 mg vial
+FLTA35214MGEMIS	Flutamide  Tablets  250 mg (A.A.H. Pharm)
+TAGR40455NEMIS	Tacrolimus  Granules for Oral Suspension  Sugar Free, 1 mg/sachet
+VIPO4901NEMIS	Viraferonpeg  Powder with solvent for injection  80 microgram vial
+CYTA34678MGEMIS	Cyproterone Acetate  Tablets  100 mg (Kent Pharm)
+PACA118210NEMIS	Palbociclib  Capsules  125 mg
+AXTA77627NEMIS	Axitinib  Tablets  5 mg
+ERSO25434NEMIS	Erbitux  Solution for infusion  5 mg/ml, 100 ml vial
+LEIN9313EMIS	Leuprorelin Acetate  Powder and solvent for suspension for injection  3.75 mg vial
+GEIN28167EMIS	Gemzar  Powder for solution for infusion  200 mg vial
+TATA37116MGEMIS	Tamoxifen  Tablets  40 mg (Generics (UK))
+OXCO21809NEMIS	Oxaliplatin  Concentrate For Solution For Infusion  5 mg/ml, 10 ml vial
+SIOR6608NEMIS	Sirolimus  Oral Solution, Sugar Free  1 mg/ml
+LASO88725NEMIS	Lanreotide  Solution for injection  90 mg/0.5 ml pre-filled syringe
+IRIN30098NEMIS	Irinotecan Hydrochloride  Concentrate For Solution For Infusion  20 mg/ml, 15 ml vial
+ARCA47248NEMIS	Arzip  Capsules  250 mg
+AZTA33919MGEMIS	Azathioprine  Tablets  50 mg (Kent Pharm)
+GOIM7122	Goserelin  Implant  3.6 mg
+SOIN12147NEMIS	Somatuline Autogel  Injection (Prefilled Syringe)  120 mg
+MEIN122139NEMIS	Methotrexate  Injection  7.5 mg/0.3 ml (25 mg/ml), pre-filled device  
+TAIN25865EMIS	Tacrolimus  Solution for infusion  5 mg/1 ml ampoule
+MYCA28266EMIS	Mycophenolate Mofetil  Capsules  250 mg
+SITA136501NEMIS	Siponimod  Tablets  250 micrograms
+BRSO124731NEMIS	Brabio  Solution for injection  20 mg/1 ml pre-filled syringe
+CAIN30550EMIS	Campto  Concentrate For Solution For Infusion  20 mg/ml, 2 ml vial
+GLTA18731NEMIS	Glivec  Tablets  100 mg
+SUCA22944NEMIS	Sunitinib  Capsules  50 mg
+AZTA33909MGEMIS	Azathioprine  Tablets  25 mg (A.A.H. Pharm)
+AFTA88692NEMIS	Afinitor  Tablets  2.5 mg
+VIPR13868NEMIS	Viraferonpeg  Pre-filled Pen  50 micrograms
+MEIN35890MGEMIS	Methotrexate  Injection  200 mg/8 ml vial (A.A.H. Pharm)
+EPSO13030NEMIS	Epirubicin Hydrochloride  Solution for infusion  200 mg/100 ml vial
+SOIN88727NEMIS	Somatuline Autogel  Injection  60 mg/0.5 ml pre-filled syringe safety system
+TRPO133928NEMIS	Trazimera  Powder for concentrate for solution for infusion  420 mg vial
+MEIN22304NEMIS	Methotrexate  Injection  15 mg/0.6 ml (25 mg/ml), pre-filled syringe
+MATA124641NEMIS	Mavenclad  Tablets  10 mg
+META106436NEMIS	Mekinist  Tablets  500 micrograms
+CASO23300NEMIS	Calcium Folinate  Solution for injection  3 mg/ml, 10 ml ampoule
+HASO48801NEMIS	Halaven  Solution for injection  880 micrograms/2 ml vial
+KAPO127251NEMIS	Kanjinti  Powder for concentrate for solution for infusion  150 mg vial
+AZTA33912MGEMIS	Azathioprine  Tablets  25 mg (Teva UK)
+SPTA48138NEMIS	Sprycel  Tablets  140 mg
+CAIN34908EMIS	Calcium Levofolinate  Injection  10 mg/ml, 17.5 ml vial
+FLIN13817NEMIS	Fluorouracil  Injection  50 mg/ml, 10 ml vial
+AFTA39056NEMIS	Afinitor  Tablets  10 mg
+OSTA115279NEMIS	Osimertinib  Tablets  40 mg
+POTA86037NEMIS	Ponatinib  Tablets  15 mg
+ANPO30148NEMIS	Antithymocyte Immunoglobulin (Rabbit)  Powder for solution for infusion  25 mg vial
+PRPO51121NEMIS	Prostap Sr Dcs  Powder and solvent for injection  3.75 mg pre-filled syringe
+IMTA133307NEMIS	Imbruvica  Tablets  280 mg
+ININ22390EMIS	Interferon Gamma 1B  Solution for injection  100 micrograms/0.5 ml vial
+SOIN10832NEMIS	Sodiofolin  Injection  50 mg/ml, 8 ml vial
+NEOR26626EMIS	Neoral  Oral solution  100 mg/ml
+ININ30469EMIS	Interferon Alfa-2B (Rbe)  Injection  18 million units/3 ml vial
+TATA37135MGEMIS	Tamoxifen  Tablets  20 mg (Unichem)
+DEIN4804	Dacarbazine  Powder For Solution For Injection  100 mg vial
+VICA82417NEMIS	Vismodegib  Capsules  150 mg
+TRPO5277NEMIS	Trastuzumab  Powder for solution for infusion  150 mg vial
+CATA34067MGEMIS	Calcium Folinate  Tablets  15 mg (Mayne Pharma)
+DESU17220NEMIS	Depocyte  Intrathecal Suspension For Injection  50 mg vial
+OXPO31106NEMIS	Oxaliplatin  Powder for solution for infusion  150 mg vial
+MICO17742NEMIS	Mitoxantrone  Concentrate for intravenous infusion  2 mg/ml, 10 ml vial
+FLTA35213MGEMIS	Flutamide  Tablets  250 mg (Kent Pharm)
+VOTA44961NEMIS	Votrient  Tablets  200 mg
+LEIN31295EMIS	Leuprorelin Acetate  Powder and solvent for suspension for injection  11.25 mg vial
+BAIN16203NEMIS	Basiliximab  Injection  10 mg/vial
+CATA117910NEMIS	Cabozantinib  Tablets  40 mg
+DAM/134450NEMIS	Dailiport  M/R capsules  2 mg
+KEPO21666NEMIS	Kepivance  Powder For Solution For Injection  6.25 mg vial
+IPSO51588NEMIS	Ipilimumab  Solution for infusion  50 mg/10 ml vial
+TECA1758NEMIS	Temodal  Capsules  20 mg
+HYOR89411NEMIS	Hydroxycarbamide  Oral suspension  500 mg/5 ml
+TOCO83117NEMIS	Topotecan Hydrochloride  Concentrate For Solution For Infusion  1 mg/1 ml vial
+HOIN28037EMIS	Honvan  Injection  300 mg/5 ml
+RECO73949NEMIS	Removab  Concentrate For Solution For Infusion  10 micrograms/0.1 ml syringe
+APTA131597NEMIS	Apalutamide  Tablets  60 mg
+PAPO21663NEMIS	Palifermin  Powder For Solution For Injection  6.25 mg vial
+OCSO78662NEMIS	Octreotide Acetate  Solution for injection  500 micrograms/ml, 1 ml vial
+NICA47632NEMIS	Nilotinib  Capsules  150 mg
+NOIN122145NEMIS	Nordimet  Injection  17.5 mg/0.7 ml (25 mg/ml), pre-filled pen  
+AXTA89767NEMIS	Axitinib  Tablets  3 mg
+EPIN7035	Epirubicin Hydrochloride  Powder for injection  20 mg vial
+CICA17608NEMIS	Ciclosporin  Capsules  25 mg
+DOSO45104NEMIS	Doxorubicin Cytosafe Vial  Solution for injection  2 mg/ml, 100 ml vial
+CATA117913NEMIS	Cabometyx  Tablets  40 mg
+TECA45579NEMIS	Temomedac  Capsules  180 mg
+PEIN96766NEMIS	Peginterferon Beta-1A  Injection  125 micrograms/0.5 ml Pre-filled Device
+GLCA11925NEMIS	Glivec  Capsules  100 mg
+TECA45580NEMIS	Temomedac  Capsules  250 mg
+CIOR17611NEMIS	Ciclosporin  Oral Solution, Sugar Free  100 mg/ml
+MYTA47254NEMIS	Myfenax  Tablets  500 mg
+CLSO25540NEMIS	Cladribine  Solution for injection  2 mg/ml, 5 ml vial
+META89221NEMIS	Mercaptopurine  Tablets  10 mg
+ENPO25533NEMIS	Endoxana  Powder For Solution For Injection  1 gram vial
+PASO76685NEMIS	Pasireotide  Solution for injection  600 micrograms/1 ml ampoule
+TATA37123MGEMIS	Tamoxifen  Tablets  10 mg (Kent Pharm)
+DOSO90760NEMIS	Docetaxel  Solution For Infusion And Diluent  80 mg/2.88 ml vial
+CYCO100570NEMIS	Cyramza  Concentrate For Solution For Infusion  500 mg/50 ml vial
+DOCO45099NEMIS	Docetaxel  Concentrate For Solution For Infusion  20 mg/1 ml vial
+VACA100631NEMIS	Vargatef  Capsules  100 mg
+DAIN28155EMIS	Daunorubicin (In Liposomes)  Solution for infusion  50 mg/25 ml vial
+AYSO138115NEMIS	Aybintio  Solution for infusion  25 mg/ml, 4 ml vial
+FLTA6222NEMIS	Fludarabine Phosphate  Tablets  10 mg
+VITA133252NEMIS	Vizimpro  Tablets  45 mg
+COSO18887NEMIS	Copaxone  Solution for injection  20 mg/ml, 1 ml pre-filled syringe
+AZTA10446BRIDL	Azathioprine  Tablets  25 mg
+RIIN33641EMIS	Rituximab  Solution for infusion  500 mg/50 ml vial
+DEIN9482EMIS	Dacarbazine  Powder For Solution For Injection  200 mg vial
+META3889	Megace  Tablets  160 mg
+CASO23294NEMIS	Calcium Folinate  Solution for injection  10 mg/ml, 5 ml vial
+SUCA22947NEMIS	Sutent  Capsules  25 mg
+POPO89224NEMIS	Potactasol  Powder for concentrate for solution for infusion  4 mg vial
+CASO23298NEMIS	Calcium Folinate  Solution for injection  3 mg/ml, 1 ml ampoule
+VECA31393EMIS	Vesanoid  Capsules  10 mg
+PHIN4142	Pharmorubicin  Powder for injection  20 mg vial
+CHTA31840EMIS	Chimax  Tablets  250 mg
+CISO21831NEMIS	Cisplatin  Solution for infusion  1 mg/ml, 50 ml vial
+LESO128243NEMIS	Levofolinic Acid  Solution for injection  200 mg/4 ml vial
+META1748	Medroxyprogesterone Acetate  Tablets  250 mg
+TATA25617NEMIS	Tarceva  Tablets  25 mg
+OFCA105305NEMIS	Ofev  Capsules  100 mg
+TATA37133MGEMIS	Tamoxifen  Tablets  20 mg (Teva UK)
+PRTA4234	Provera 100 Mg  Tablets  100 mg
+CICO18473NEMIS	Ciclosporin  Concentrate For Solution For Infusion  50 mg/ml, 5 ml ampoule
+CYIN3982NEMIS	Cytarabine  Injection  2 grams/20 ml vial
+TATA115284NEMIS	Tagrisso  Tablets  80 mg
+MYCA28266EMIS	Mycophenolate Mofetil  Capsules  250 mg
+MATA136505NEMIS	Mayzent  Tablets  250 micrograms
+VIPR13870NEMIS	Viraferonpeg  Pre-filled Pen  100 micrograms
+OPCO103641NEMIS	Opdivo  Concentrate For Solution For Infusion  100 mg/10 ml vial
+OXCO21810NEMIS	Oxaliplatin  Concentrate For Solution For Infusion  5 mg/ml, 20 ml vial
+CATA34069MGEMIS	Calcium Folinate  Tablets  15 mg (Goldshield)
+PRIN9311EMIS	Prostap Sr  Powder and solvent for suspension for injection  3.75 mg vial
+AZTA33906MGEMIS	Azathioprine  Tablets  25 mg (Kent Pharm)
+SITA136503NEMIS	Siponimod  Tablets  2 mg
+FATA1145	Farlutal  Tablets  250 mg
+MEIN15497NEMIS	Medroxyprogesterone Acetate  Injection  200 mg/ml, 2.5 ml vial
+GICA133080NEMIS	Gilenya  Capsules  250 micrograms
+PRIN25859EMIS	Prograf  Solution for infusion  5 mg/1 ml ampoule
+IDIN9624HILLI	Idarubicin Hydrochloride  Powder For Solution For Injection  5 mg vial
+TRPO48082NEMIS	Triptorelin Embonate  Powder and solvent for injection  28 mg vial (22.5 mg Triptorelin)
+MEIN18089EMIS	Methotrexate  Injection  5 mg/2 ml vial
+SISO76689NEMIS	Signifor  Solution for injection  600 micrograms/1 ml ampoule
+IRCO39794NEMIS	Irinotecan Hydrochloride  Concentrate For Solution For Infusion  20 mg/ml, 25 ml vial
+TATA37130MGEMIS	Tamoxifen  Tablets  10 mg (Alpharma)
+PESO51574NEMIS	Peginterferon alfa-2a  Solution for injection in pre-filled pen  135 micrograms/0.5 ml
+DATA23506NEMIS	Dasatinib  Tablets  20 mg
+DITA38286MGEMIS	Diethylstilbestrol  Tablets  5 mg (Kent Pharm)
+TACO24056EMIS	Taxol  Concentrate for iv infusion  30 mg/5 ml
+RICO124098NEMIS	Rixathon  Concentrate For Solution For Infusion  500 mg/50 ml vial
+INPR41108NEMIS	Interferon Beta-1A Initiation Pack  Pre-Filled Syringes  22 micrograms/0.5 ml + 8.8 micrograms/0.2 ml
+CEGA124734NEMIS	Ceptava  Gastro-resistant Tablets  360 mg
+CACA45633NEMIS	Capimune  Capsules  25 mg
+PEPR13864NEMIS	Peginterferon Alfa-2b (rbe)  Pre-filled Pen  80 micrograms
+IRTA38727NEMIS	Iressa  Tablets  250 mg
+DEPO18484NEMIS	Decapeptyl Sr  Powder and solvent for suspension for injection  11.25 mg vial
+META3890	Megace  Tablets  40 mg
+AZTA33913MGEMIS	Azathioprine  Tablets  50 mg (A.A.H. Pharm)
+HASO101977NEMIS	Halaven  Solution for injection  1320 micrograms/3 ml vial
+EPSO17989EMIS	Epirubicin Hydrochloride  Solution for injection  50 mg/25 ml vial
+DACA86743NEMIS	Dabrafenib  Capsules  50 mg
+PHIN11709NEMIS	Photofrin  Powder For Solution For Injection  75 mg vial
+CYTA34683MGEMIS	Cyproterone Acetate  Tablets  50 mg (A.A.H. Pharm)
+REPR25786NEMIS	Rebif Initiation Pack  Pre-Filled Syringe  8.8 micrograms + 22 micrograms
+POCA85444NEMIS	Pomalidomide  Capsules  2 mg
+AVCO19970NEMIS	Avastin  Solution for infusion  25 mg/ml, 4 ml vial
+NAIN31644EMIS	Navelbine  Concentrate For Solution For Infusion  10 mg/ml, 1 ml vial
+SIPO127077NEMIS	Signifor  Powder and solvent for suspension for injection  10 mg vial
+ERSO48798NEMIS	Eribulin  Solution for injection  880 micrograms/2 ml vial
+NICA125428NEMIS	Niraparib  Capsules  100 mg
+DAM/134448NEMIS	Dailiport  M/R capsules  500 micrograms
+MASO90866NEMIS	Mabthera  Solution for injection  1400 mg/11.7 ml vial
+KEPO104776NEMIS	Keytruda  Powder for concentrate for solution for infusion  50 mg vial
+CETA31623EMIS	Cellcept  Tablets  500 mg
+RIIN33640EMIS	Rituximab  Solution for infusion  100 mg/10 ml vial
+IDCA23438EMIS	Idarubicin Hydrochloride  Capsules  5 mg
+TOCA31271NEMIS	Topotecan Hydrochloride  Capsules  1 mg
+CYSO122226NEMIS	Cytarabine  Solution for injection  4 grams/40 ml vial
+MEIN122138NEMIS	Methotrexate  Injection  25 mg/ml, 1 ml pre-filled device
+SPTA23511NEMIS	Sprycel  Tablets  20 mg
+PEPO33340NEMIS	Pemetrexed  Powder for solution for infusion  100 mg vial
+TAM/25951NEMIS	Tacrolimus  M/R capsules  5 mg
+CHTA553	Chlorambucil  Tablets  2 mg
+ZACA23430EMIS	Zavedos  Capsules  10 mg
+VITA133251NEMIS	Vizimpro  Tablets  30 mg
+DITA38282MGEMIS	Diethylstilbestrol  Tablets  1 mg (Kent Pharm)
+CLIN27971EMIS	Cladribine  Solution for infusion  10 mg/10 ml vial
+NICA133099NEMIS	Nilotinib  Capsules  50 mg
+ALCO139728NEMIS	NULL
+SAOR4307	Sandimmun  Oral solution  100 mg/ml
+BITA26636EMIS	Bicalutamide  Tablets  50 mg
+MYPO23133NEMIS	Myocet  Powder And Solvent For Suspension For Infusion  50 mg vial
+FATA1144	Farlutal  Tablets  100 mg
+IMCA11921NEMIS	Imatinib  Capsules  100 mg
+MYGA18757NEMIS	Myfortic  Gastro-resistant Tablets  360 mg
+CATA34065MGEMIS	Calcium Folinate  Tablets  15 mg (A.A.H. Pharm)
+SISO76688NEMIS	Signifor  Solution for injection  300 micrograms/1 ml ampoule
+FAIN15498NEMIS	Farlutal  Injection  200 mg/ml, 2.5 ml vial
+PECO78623NEMIS	Perjeta  Concentrate For Solution For Infusion  420 mg/14 ml vial
+DOIN28207EMIS	Docetaxel  Concentrate And Solvent For Solution For Infusion  20 mg vial
+ELCO21811NEMIS	Eloxatin  Concentrate For Solution For Infusion  5 mg/ml, 10 ml vial
+VIIN23344NEMIS	Vincristine Sulfate  Injection  1 mg/ml, 1 ml vial
+TAM/25949NEMIS	Tacrolimus  M/R capsules  500 micrograms
+DOCO90759NEMIS	Docetaxel  Solution For Infusion And Diluent  20 mg/0.72 ml vial
+NICA100629NEMIS	Nintedanib  Capsules  150 mg
+FOSO16475NEMIS	Foscan  Solution for injection  4 mg/ml, 5 ml vial
+FIPO36533NEMIS	Firmagon  Powder and solvent for solution for injection  120 mg vial
+PACO19084NEMIS	Paclitaxel  Concentrate for iv infusion  150 mg/25 ml vial
+ETCA4909	Etoposide  Capsules  100 mg
+SOIN12147NEMIS	Somatuline Autogel  Injection (Prefilled Syringe)  120 mg
+LEPO51122NEMIS	Leuprorelin Acetate  Powder and solvent for injection  11.25 mg pre-filled syringe
+PEPO4895NEMIS	Pegintron  Powder with solvent for injection  50 microgram vial
+SAIN33607EMIS	Sandostatin Lar  Powder and solvent for suspension for injection  10 mg vial
+OCIN9761HILLI	Octreotide Acetate  Solution for injection  100 micrograms/ml, 1 ml ampoule
+LECO89937NEMIS	Lemtrada  Concentrate For Solution For Infusion  12 mg/1.2 ml vial
+BRSO125508NEMIS	Brabio  Solution for injection  40 mg/1 ml pre-filled syringe
+ERTA25616NEMIS	Erlotinib  Tablets  25 mg
+MEIN18090EMIS	Methotrexate  Injection  50 mg/2 ml vial
+PITA116428NEMIS	Pipobroman  Tablets  25 mg
+AZTA33910MGEMIS	Azathioprine  Tablets  25 mg (Ivax Pharmaceuticals)
+MICO17743NEMIS	Mitoxantrone  Concentrate for intravenous infusion  2 mg/ml, 12.5 ml vial
+MEIN3551NEMIS	Methotrexate  Injection  100 mg/ml, 10 ml vial
+DOCO101275NEMIS	Docetaxel  Concentrate For Solution For Infusion  80 mg/8 ml vial
+VIIN23551NEMIS	Vincristine Sulfate  Injection  1 mg/ml, 5 ml vial
+BEPO124103NEMIS	Besponsa  Powder for concentrate for solution for infusion  1 mg vial
+MYOR12885NEMIS	Mycophenolate Mofetil  Oral Suspension Sugar Free  1 gram/5 ml
+ENM/100577NEMIS	Envarsus  M/R tablets  750 micrograms
+RIIN33641EMIS	Rituximab  Solution for infusion  500 mg/50 ml vial
+TATA37128MGEMIS	Tamoxifen  Tablets  10 mg (Teva UK)
+CAIN5611NEMIS	Caelyx Pegylated Liposomal  Concentrate For Solution For Infusion  50 mg/25 ml vial
+CATA1019NEMIS	Casodex  Tablets  150 mg
+LECO89937NEMIS	Lemtrada  Concentrate For Solution For Infusion  12 mg/1.2 ml vial
+CYTA34677MGEMIS	Cyproterone Acetate  Tablets  100 mg (A.A.H. Pharm)
+BAIN35338EMIS	Basiliximab  Injection  20 mg/vial
+PACA118207NEMIS	Palbociclib  Capsules  75 mg
+ZISO137725NEMIS	Zirabev  Solution for infusion  25 mg/ml, 16 ml vial
+ZOIM27620EMIS	Zoladex La  Implant Safesystem Pre-filled Syringe  10.8 mg
+NACO22863NEMIS	Natalizumab  Concentrate For Solution For Infusion  300 mg vial
+XROR133510NEMIS	Xromi  Oral solution  100 mg/ml
+LECA103598NEMIS	Lenvatinib  Capsules  4 mg
+PACA112114NEMIS	Panobinostat  Capsules  15 mg
+AMIN26762EMIS	Amifostine  Powder for solution for infusion  500 mg vial
+EVTA101979NEMIS	Everolimus  Tablets  750 micrograms
+PEPO4897NEMIS	Pegintron  Powder with solvent for injection  100 microgram vial
+META106437NEMIS	Mekinist  Tablets  2 mg
+OPCO103642NEMIS	Opdivo  Concentrate For Solution For Infusion  40 mg/4 ml vial
+TECA1759NEMIS	Temodal  Capsules  100 mg
+ARTA2783NEMIS	Aromasin  Tablets  25 mg
+ININ21976EMIS	Interferon Alfa-2B (Rbe)  Injection  1 million unit vial
+ARTA27743EMIS	Arimidex  Tablets  1 mg
+AZTA33915MGEMIS	Azathioprine  Tablets  50 mg (Alpharma)
+CACA51167NEMIS	Capsorin  Capsules  50 mg
+OLCA102387NEMIS	Olaparib  Capsules  50 mg
+META1750	Medroxyprogesterone Acetate  Tablets  500 mg
+VECO24303NEMIS	Vepesid  Concentrate For Solution For Infusion  20 mg/ml, 5 ml vial
+TAOR46812NEMIS	Tacrolimus  Oral solution  2.5 mg/5 ml
+ABPO34553NEMIS	Abraxane  Powder For Suspension For Infusion  100 mg vial
+BUCO130244NEMIS	Busulfan  Concentrate For Solution For Infusion  60 mg/10 ml vial
+ENCA81614NEMIS	Enzalutamide  Capsules  40 mg
+TATA37129MGEMIS	Tamoxifen  Tablets  10 mg (Unichem)
+FICA48464NEMIS	Fingolimod  Capsules  500 micrograms
+LOCA35808MGEMIS	Lomustine  Capsules  40 mg (Medac)
+GOIM7122	Goserelin  Implant  3.6 mg
+PHSO17985EMIS	Pharmorubicin  Solution for injection  50 mg/25 ml Cytosafe vial
+BOTA82683NEMIS	Bosulif  Tablets  500 mg
+ADCA46738NEMIS	Adoport  Capsules  1 mg
+ILSO125555NEMIS	Ilaris  Solution for injection  150 mg/1 ml vial
+SPTA48137NEMIS	Sprycel  Tablets  80 mg
+OCSO52618NEMIS	Octreotide Acetate  Solution for injection  500 micrograms/1 ml pre-filled syringe
+DASO119076NEMIS	Daclizumab  Solution for injection  150 mg/1 ml pre-filled disposable device
+KICA117659NEMIS	Kisplyx  Capsules  4 mg
+VIPO12301NEMIS	Viraferonpeg  Powder with solvent for injection  150 micrograms vial
+TRCA4440	Treosulfan  Capsules  250 mg
+TACA86748NEMIS	Tafinlar  Capsules  75 mg
+BOTA127230NEMIS	Bosutinib  Tablets  400 mg
+FLIN31909EMIS	Fluorouracil  Injection  25 mg/ml, 20 ml vial
+ETIN26760EMIS	Ethyol  Powder for solution for infusion  500 mg vial
+ARCO25553NEMIS	Arsenic  Solution for infusion  10 mg/10 ml ampoule
+CASO125553NEMIS	Canakinumab  Solution for injection  150 mg/1 ml vial
+FICA133079NEMIS	Fingolimod  Capsules  250 micrograms
+RECA103681NEMIS	Revlimid  Capsules  7.5 mg
+TOCO33297NEMIS	Torisel  Concentrate For Solution For Infusion  30 mg/1.2 ml vial
+IMTA133309NEMIS	Imbruvica  Tablets  560 mg
+HEPO5280NEMIS	Herceptin  Powder for concentrate for solution for infusion  150 mg vial
+AZTA95157NEMIS	Azapress  Tablets  50 mg
+BRTA130484NEMIS	Brigatinib  Tablets  90 mg
+ZACA23432EMIS	Zavedos  Capsules  5 mg
+OPCO127245NEMIS	Opdivo  Concentrate For Solution For Infusion  240 mg/24 ml vial
+RISO90865NEMIS	Rituximab  Solution for injection  1400 mg/11.7 ml vial 
+AZTA33918MGEMIS	Azathioprine  Tablets  50 mg (Generics (UK))
+URTA26742EMIS	Uromitexan  Tablets  600 mg
+IFIN5021	Ifosfamide  Powder For Concentrate For Solution For Injection  1 gram vial
+DTIN9480EMIS	Dtic-Dome  Injection  200 mg/vial
+RETA4257	Refolinon  Tablets  15 mg
+META26745EMIS	Mesna  Tablets  400 mg
+CISO21832NEMIS	Cisplatin  Solution for infusion  1 mg/ml, 100 ml vial
+TOIN6524NEMIS	Topotecan Hydrochloride  Powder for concentrate for solution for infusion  1 mg vial
+CATA34070MGEMIS	Calcium Folinate  Tablets  15 mg (Unichem)
+PEPR13863NEMIS	Peginterferon Alfa-2b (rbe)  Pre-filled Pen  50 micrograms
+NESO27023NEMIS	Nelarabine  Solution for infusion  5 mg/ml, 50 ml vial
+PRCA25857EMIS	Prograf  Capsules  1 mg
+PAPO127076NEMIS	Pasireotide  Powder and solvent for suspension for injection  30 mg vial
+EVTA39053NEMIS	Everolimus  Tablets  10 mg
+ADCA46739NEMIS	Adoport  Capsules  5 mg
+HYCA31273NEMIS	Hycamtin Oral  Capsules  250 micrograms
+KITA124751NEMIS	Kisqali  Tablets  200 mg
+TACA29959NEMIS	Tasigna  Capsules  200 mg
+ININ6937	Interferon Alfa-2B (Rbe)  Injection  3 million-unit vial
+SITA12951NEMIS	Sirolimus  Tablets  1 mg
+MEIN122136NEMIS	Methotrexate  Injection  20 mg/0.8 ml (25 mg/ml), pre-filled device  
+CASO23290NEMIS	Calcium Folinate  Solution for injection  7.5 mg/ml, 2 ml ampoule
+FOSO77697NEMIS	Foscan  Solution for injection  3 mg/3 ml vial
+STTA85483NEMIS	Stivarga  Tablets  40 mg
+CATA34068MGEMIS	Calcium Folinate  Tablets  15 mg (Generics (UK))
+VODI122122NEMIS	Votubia  Dispersible tablets  3 mg
+MICA126379NEMIS	Midostaurin  Capsules  25 mg
+GITA86970NEMIS	Giotrif  Tablets  20 mg
+PRIN31293EMIS	Prostap 3  Powder and solvent for suspension for injection  11.25 mg vial
+SUCA22943NEMIS	Sunitinib  Capsules  25 mg
+TAM/134446NEMIS	Tacrolimus  M/R capsules  2 mg
+COCA96761NEMIS	Cometriq  Capsules  20 mg
+CEOR12886NEMIS	Cellcept  Oral suspension  1 gram/5 ml
+FLIN13820NEMIS	Fluorouracil  Injection  50 mg/ml, 100 ml vial
+CACA51168NEMIS	Capsorin  Capsules  100 mg
+SIPO127078NEMIS	Signifor  Powder and solvent for suspension for injection  30 mg vial
+TICA127587NEMIS	Tivozanib  Capsules  890 micrograms
+REIN781NEMIS	Rebif  Injection  44 micrograms/0.5 ml pre-filled syringe
+TECA1757NEMIS	Temodal  Capsules  5 mg
+META5117	Medroxyprogesterone Acetate  Tablets  400 mg
+BUNA9106BRIDL	Buserelin  Nasal spray  100 micrograms/dose
+MEIN35887MGEMIS	Methotrexate  Injection  1 gram/40 ml vial (A.A.H. Pharm)
+AZTA262	Azathioprine  Tablets  50 mg
+GEIN28171EMIS	Gemcitabine Hydrochloride  Powder for solution for infusion  200 mg vial
+RECA26067NEMIS	Revlimid  Capsules  5 mg
+CYIN22196NEMIS	Cytarabine  Injection  100 mg/1 ml vial
+POCA85445NEMIS	Pomalidomide  Capsules  3 mg
+MEOR78655NEMIS	Megestrol Acetate  Oral suspension  200 mg/5 ml
+GLPO6428NEMIS	Glatiramer Acetate  Powder with solvent for injection  20 mg vial
+KAPO88231NEMIS	Kadcyla  Powder for concentrate for solution for infusion  100 mg vial
+MESO35188NEMIS	Mesna  Solution for injection  1 gram/10 ml ampoule
+INPR15235NEMIS	Interferon Alfa-2A(Rbe)  Pre-Filled Syringe  18 million units
+AXTA77625NEMIS	Axitinib  Tablets  1 mg
+CESO42899NEMIS	Ceplene  Solution for injection  500 microgram vial
+MEIN3011NEMIS	Melphalan  Powder and solvent for solution for injection  50 mg vial
+CICA17608NEMIS	Ciclosporin  Capsules  25 mg
+SAIN19710EMIS	Sandostatin  Solution for injection  200 micrograms/ml, 5 ml vial
+PACO29022NEMIS	Panitumumab  Concentrate For Solution For Infusion  20 mg/ml, 5 ml vial
+META5116	Medroxyprogesterone Acetate  Tablets  200 mg
+RECO73950NEMIS	Removab  Concentrate For Solution For Infusion  50 micrograms/0.5 ml syringe
+GEPO46535NEMIS	Gemcitabine Hydrochloride  Powder for solution for infusion  2 gram vial
+CAIM17249NEMIS	Carmustine  Implant  7.7 mg
+OCIN9761HILLI	Octreotide Acetate  Solution for injection  100 micrograms/ml, 1 ml ampoule
+FATA29412EMIS	Fareston  Tablets  60 mg
+VETA130389NEMIS	Verzenios  Tablets  50 mg
+ZLIN109602NEMIS	Zlatal  Injection  25 mg/ml, 1 ml pre-filled syringe
+TACO48184NEMIS	Taxceus  Concentrate For Solution For Infusion  80 mg/4 ml vial
+VACA97923NEMIS	Vanquoral  Capsules  50 mg
+PEPR13866NEMIS	Peginterferon Alfa-2b (rbe)  Pre-filled Pen  120 micrograms
+MEPR21327NEMIS	Methotrexate  Injection  25 mg/ml, 1ml pre-filled syringe
+NOTA2016	Nolvadex  Tablets  10 mg
+IBCA118213NEMIS	Ibrance  Capsules  100 mg
+EVTA101975NEMIS	Everolimus  Tablets  500 micrograms
+SPTA34377NEMIS	Sprycel  Tablets  100 mg
+PEPO19265NEMIS	Pemetrexed  Powder for solution for infusion  500 mg vial
+SITA47611NEMIS	Sirolimus  Tablets  500 micrograms
+VAIM37181NEMIS	Vantas  Implant  50 mg
+TOTA29414EMIS	Toremifene  Tablets  60 mg
+CAIN3312NEMIS	Caelyx Pegylated Liposomal  Concentrate For Solution For Infusion  20 mg/10 ml vial
+TATA37136MGEMIS	Tamoxifen  Tablets  20 mg (Wockhardt UK)
+ATSO27026NEMIS	Atriance  Solution for infusion  5 mg/ml, 50 ml vial
+VYPO128265NEMIS	Vyxeos Liposomal  Powder for concentrate for solution for infusion  44 mg + 100 mg vial
+ICTA86042NEMIS	Iclusig  Tablets  45 mg
+TRIN4441	Treosulfan  Powder For Solution For Injection  5 gram vial
+SYPO90964NEMIS	Sylvant  Powder for concentrate for solution for infusion  400 mg vial
+IPSO51587NEMIS	Ipilimumab  Solution for infusion  200 mg/40 ml vial
+PEPO4893NEMIS	Peginterferon Alfa-2b (rbe)  Powder with solvent for injection  150 microgram vial
+SIPO90960NEMIS	Siltuximab  Powder for solution for infusion  400 mg vial
+REIN32995EMIS	Rebif  Injection  22 micrograms/0.5 ml pre-filled syringe
+VIIN83158NEMIS	Viraferonpeg Clearclick  Injection  80 micrograms pre-filled pen
+LYTA22568NEMIS	Lysodren  Tablets  500 mg
+HISO42897NEMIS	Histamine  Solution for injection  500 microgram vial
+MYGA18752NEMIS	Mycophenolic Acid  Gastro-resistant Tablets  180 mg
+MEIN35896MGEMIS	Methotrexate  Injection  500 mg/20 ml vial (Goldshield)
+MEIN18085EMIS	Methotrexate  Injection  1 gram/40 ml vial
+CYSU1749NEMIS	Cyclosporin  Sugar-free oral solution  100 mg/ml
+IBCA98513NEMIS	Ibrutinib  Capsules  140 mg
+BUCO16696NEMIS	Busilvex  Concentrate solution for infusion  6 mg/ml, 10 ml ampoule
+ININ1275NEMIS	Interferon Alfa-2A(Rbe)  Injection (cartridges)  18 million units/0.6 ml
+COTA108900NEMIS	Cobimetinib  Tablets  20 mg
+GITA134847NEMIS	Gilteritinib  Tablets  40 mg
+ZLIN109596NEMIS	Zlatal  Injection  10 mg/0.4 ml (25 mg/ml), pre-filled syringe
+MYTA3995	Myleran  Tablets  2 mg
+LOTA116873NEMIS	Lonsurf  Tablets  20 mg + 8.19 mg
+CATA118025NEMIS	Cabozantinib  Tablets  60 mg
+TEGA88574NEMIS	Tecfidera  Gastro-resistant Capsules  240 mg
+SOIN88728NEMIS	Somatuline Autogel  Injection  90 mg/0.5 ml pre-filled syringe safety system
+DAM/134449NEMIS	Dailiport  M/R capsules  1 mg
+TRPO29105NEMIS	Trabectedin  Powder for solution for infusion  250 microgram vial
+CYTA34687MGEMIS	Cyclophosphamide  Tablets  50 mg (Unichem)
+RESO40480NEMIS	Rebif  Solution for injection  22 micrograms/0.5 ml, 1.5 ml cartridge
+DOSO29319NEMIS	Doxorubicin Cytosafe Vial  Solution for injection  2 mg/ml, 5 ml vial
+TRCO25556NEMIS	Trisenox  Concentrate For Solution For Infusion  10 mg/10 ml ampoule
+SAIN33609EMIS	Sandostatin Lar  Powder and solvent for suspension for injection  30 mg vial
+LECA103680NEMIS	Lenalidomide  Capsules  7.5 mg
+VACA97924NEMIS	Vanquoral  Capsules  25 mg
+OCSO52619NEMIS	Octreotide Acetate  Solution for injection  50 micrograms/1 ml pre-filled syringe
+NECA26623EMIS	Neoral  Capsules  100 mg
+HOTA29622EMIS	Honvan  Tablets  120 mg
+PESO13357NEMIS	Peginterferon alfa-2a  Solution for injection in pre-filled syringe  180 micrograms/0.5 ml
+AZCA18881NEMIS	Azathioprine  Capsules  10 mg
+GITA86973NEMIS	Giotrif  Tablets  50 mg
+FOSO77696NEMIS	Foscan  Solution for injection  1 mg/1 ml vial
+DEPO48083NEMIS	Decapeptyl Sr  Powder and solvent for injection  22.5 mg/dose (28 mg vial)
+MEIN23840NEMIS	Methotrexate  Injection  12.5 mg/0.5 ml (25 mg/ml), pre-filled syringe
+TRPO138438NEMIS	Trecondi  Powder for solution for infusion  1 gram vial
+OCIN9762HILLI	Octreotide Acetate  Solution for injection  50 micrograms/ml, 1 ml ampoule
+DEPO36522NEMIS	Degarelix  Powder and solvent for solution for injection  80 mg vial
+PUTA4239	Puri-Nethol  Tablets  50 mg
+AFTA86967NEMIS	Afatinib  Tablets  40 mg
+SIPO103689NEMIS	Signifor  Powder and solvent for suspension for injection  60 mg vial
+BECO19968NEMIS	Bevacizumab  Solution for infusion  25 mg/ml, 16 ml vial
+OCIN19712EMIS	Octreotide Acetate  Solution for injection  200 micrograms/ml, 5 ml vial
+AZTA33911MGEMIS	Azathioprine  Tablets  25 mg (Alpharma)
+DEPO18483NEMIS	Decapeptyl Sr  Powder and solvent for injection  3 mg/dose (4.2 mg vial)
+IMCA85450NEMIS	Imnovid  Capsules  3 mg
+LASO88724NEMIS	Lanreotide  Solution for injection  60 mg/0.5 ml pre-filled syringe
+NICA123772NEMIS	Ninlaro  Capsules  3 mg
+DOCO45100NEMIS	Docetaxel  Concentrate For Solution For Infusion  80 mg/4 ml vial
+META6977	Megestrol Acetate  Tablets  40 mg
+DAIN24072NEMIS	Dacarbazine  Powder for solution for infusion  600 mg vial
+LETA29908EMIS	Letrozole  Tablets  2.5 mg
+PEPO104773NEMIS	Pembrolizumab  Powder for solution for infusion  50 mg vial
+BLPO102566NEMIS	Bleo-Kyowa  Powder For Solution For Injection  15,000 unit vial
+MEIN35888MGEMIS	Methotrexate  Injection  1 gram/40 ml vial (Unichem)
+ABTA130377NEMIS	Abemaciclib  Tablets  100 mg
+PESO13362NEMIS	Pegasys  Solution for injection in pre-filled syringe  135 micrograms/0.5 ml
+META1747	Medroxyprogesterone Acetate  Tablets  100 mg
+CATA26634EMIS	Casodex  Tablets  50 mg
+ROIN1273NEMIS	Roferon-A  Injection (cartridges)  18 million units/0.6 ml
+CIOR17611NEMIS	Ciclosporin  Oral Solution, Sugar Free  100 mg/ml
+CACA51776NEMIS	Capexion  Capsules  500 micrograms
+LEPO51120NEMIS	Leuprorelin Acetate  Powder and solvent for injection  3.75 mg pre-filled syringe
+CATA6390NEMIS	Capecitabine  Tablets  150 mg
+RUTA76848NEMIS	Ruxolitinib  Tablets  20 mg
+MEIN76695NEMIS	Methotrexate  Injection  20 mg/0.8 ml (25 mg/ml), pre-filled syringe
+TECA18978NEMIS	Tegafur And Uracil  Capsules  100 mg + 224 mg
+TACA25863EMIS	Tacrolimus  Capsules  1 mg
+HIIM37178NEMIS	Histrelin  Implant  50 mg
+SIIN35336EMIS	Simulect  Injection  20 mg/vial
+FLIN35149MGEMIS	Fluorouracil  Injection  25 mg/ml, 20 ml vial (Mayne Pharma)
+TACA51109NEMIS	Tacni  Capsules  1 mg
+TAIN28204EMIS	Taxotere  Concentrate And Solvent For Solution For Infusion  80 mg vial
+VIPO4900NEMIS	Viraferonpeg  Powder with solvent for injection  50 microgram vial
+ROPR15236NEMIS	Roferon-A  Prefilled syringe  18 million units
+MIIN11336NEMIS	Mitomycin C Kyowa  Powder For Intravesical Solution  40 mg vial
+TATA37118MGEMIS	Tamoxifen  Tablets  40 mg (Ivax Pharmaceuticals)
+CATA117909NEMIS	Cabozantinib  Tablets  20 mg
+MEIN122134NEMIS	Methotrexate  Injection  15 mg/0.6 ml (25 mg/ml), pre-filled device  
+BOTA82684NEMIS	Bosulif  Tablets  100 mg
+SPTA23512NEMIS	Sprycel  Tablets  50 mg
+DITA38285MGEMIS	Diethylstilbestrol  Tablets  5 mg (A.A.H. Pharm)
+ONCO4885NEMIS	Onkotrone  Concentrate solution for infusion  2 mg/ml, 10 ml vial
+CYSU17218NEMIS	Cytarabine  Intrathecal Suspension For Injection  Liposomal, 50 mg vial
+IXCA123767NEMIS	Ixazomib  Capsules  3 mg
+IMTA1447	Imuran  Tablets  50 mg
+RUTA103589NEMIS	Ruxolitinib  Tablets  10 mg
+LAIN12142NEMIS	Lanreotide  Injection (Prefilled Syringe)  90 mg
+CAIN4679	Carboplatin  Solution for infusion  150 mg vial
+GEPO45570NEMIS	Gemcitabine Hydrochloride  Powder for solution for infusion  1.5 gram vial
+INPR30099EMIS	Interferon Alfa-2A(Rbe)  Prefilled syringe  4.5 million units
+LECA103600NEMIS	Lenvima  Capsules  4 mg
+GACO92059NEMIS	Gazyvaro  Concentrate For Solution For Infusion  1 gram/40 ml vial
+SYPO90965NEMIS	Sylvant  Powder for concentrate for solution for infusion  100 mg vial
+HEPO127249NEMIS	Herzuma  Powder for concentrate for solution for infusion  150 mg vial
+ALIN3012NEMIS	Alkeran  Powder and solvent for solution for injection  50 mg vial
+TETA89761NEMIS	Teriflunomide  Tablets  14 mg
+AZOR81507NEMIS	Azathioprine  Oral solution  250 mg/5 ml
+DATA48136NEMIS	Dasatinib  Tablets  80 mg
+DEPO48083NEMIS	Decapeptyl Sr  Powder and solvent for injection  22.5 mg/dose (28 mg vial)
+GEIN28170EMIS	Gemcitabine Hydrochloride  Powder for solution for infusion  1 gram vial
+ONBL10825NEMIS	Oncotice  Powder For Intravesical Suspension  12.5 mg vial
+NOIN122146NEMIS	Nordimet  Injection  20 mg/0.8 ml (25 mg/ml), pre-filled pen  
+HYCA3722	Hydrea  Capsules  500 mg
+BRTA130482NEMIS	Brigatinib  Tablets  30 mg
+PESO51577NEMIS	Pegasys  Solution for injection in pre-filled pen  180 micrograms/0.5 ml
+TACO48183NEMIS	Taxceus  Concentrate For Solution For Infusion  20 mg/1 ml vial
+CISO21836NEMIS	Cisplatin  Solution for infusion  1 mg/ml, 10 ml vial
+AZIN4620	Azathioprine  Powder For Solution For Injection  50 mg vial
+AZTA33908MGEMIS	Azathioprine  Tablets  25 mg (Unichem)
+ADCA46737NEMIS	Adoport  Capsules  500 micrograms
+DATA133247NEMIS	Dacomitinib  Tablets  30 mg
+TECA27818NEMIS	Temodal  Capsules  180 mg
+OCIN9763HILLI	Octreotide Acetate  Solution for injection  500 micrograms/ml, 1 ml ampoule
+CLTA124639NEMIS	Cladribine  Tablets  10 mg
+MIIN6990	Mitomycin  Powder For Solution For Injection  2 mg vial
+ABTA51866NEMIS	Abiraterone  Tablets  250 mg
+FLTA35211MGEMIS	Flutamide  Tablets  250 mg (Alpharma)
+SOIN12145NEMIS	Somatuline Autogel  Injection (Prefilled Syringe)  60 mg
+TRCA37288MGEMIS	Treosulfan  Capsules  250 mg (Unichem)
+HYCA17686NEMIS	Hydroxycarbamide  Capsules  500 mg
+XOTA134852NEMIS	Xospata  Tablets  40 mg
+ETPO29333NEMIS	Etoposide  Powder For Solution For Injection  100 mg vial
+INPO124101NEMIS	Inotuzumab Ozogamicin  Powder for solution for infusion  1 mg vial
+THPO30151NEMIS	Thymoglobuline  Powder for solution for infusion  25 mg vial
+EPSO17988EMIS	Epirubicin Hydrochloride  Solution for injection  10 mg/5 ml vial
+RITA124747NEMIS	Ribociclib  Tablets  200 mg
+TRTA106432NEMIS	Trametinib  Tablets  500 micrograms
+TECO33294NEMIS	Temsirolimus  Concentrate For Solution For Infusion  30 mg/1.2 ml vial
+META130323NEMIS	Mektovi  Tablets  15 mg
+EVTA39051NEMIS	Everolimus  Tablets  5 mg
+PHIN4141	Pharmorubicin  Powder for injection  10 mg vial
+JATA76850NEMIS	Jakavi  Tablets  5 mg
+ZECA125431NEMIS	Zejula  Capsules  100 mg
+TAM/25950NEMIS	Tacrolimus  M/R capsules  1 mg
+GICA48467NEMIS	Gilenya  Capsules  500 micrograms
+MIIN3958	Mitoxana  Injection  2g vial
+ININ39472NEMIS	Intron A  Injection  18 million units/1.2 ml multidose pen
+LATA3814	Lanvis  Tablets  40 mg
+NACA21162NEMIS	Navelbine  Capsules  30 mg
+DAIN31921EMIS	Daunorubicin Hydrochloride  Powder for solution for infusion  20 mg vial
+AZOR46696NEMIS	Azathioprine  Oral suspension  100 mg/5 ml
+FIPO36530NEMIS	Firmagon  Powder and solvent for solution for injection  80 mg vial
+SOIN32739EMIS	Somatuline La  Powder and solvent for suspension for injection  30 mg vial
+MIIN3956	Mitomycin C Kyowa  Powder For Solution For Injection  20 mg vial
+CASO23296NEMIS	Calcium Folinate  Solution for injection  10 mg/ml, 10 ml vial
+CACA45634NEMIS	Capimune  Capsules  50 mg
+DATA34376NEMIS	Dasatinib  Tablets  100 mg
+PHSO13029NEMIS	Pharmorubicin  Solution for infusion  200 mg/100 ml Cytosafe vial
+DITA38279MGEMIS	Diethylstilbestrol  Tablets  1 mg (A.A.H. Pharm)
+OLTA126989NEMIS	Olaparib  Tablets  100 mg
+POIN19994NEMIS	Porfimer Sodium  Powder For Solution For Injection  75 mg vial
+CYTA34681MGEMIS	Cyproterone Acetate  Tablets  50 mg (Wockhardt UK)
+POCA85442NEMIS	Pomalidomide  Capsules  1 mg
+ALCO89934NEMIS	Alemtuzumab  Solution for infusion  12 mg/1.2 ml vial
+CATA72183NEMIS	Caprelsa  Tablets  100 mg
+ROPR30091EMIS	Roferon-A  Prefilled syringe  4.5 million units
+CESO25431NEMIS	Cetuximab  Solution for infusion  5 mg/ml, 20 ml vial
+EPIN7036	Epirubicin Hydrochloride  Powder for injection  50 mg vial
+ABTA130380NEMIS	Abemaciclib  Tablets  50 mg
+PAPO127075NEMIS	Pasireotide  Powder and solvent for suspension for injection  10 mg vial
+PATA138594NEMIS	Palbociclib  Tablets  125 mg
+DRTA9941BRIDL	Drogenil  Tablets  250 mg
+TRCO124382NEMIS	Truxima  Concentrate For Solution For Infusion  100 mg/10 ml vial
+FLTA35216MGEMIS	Flutamide  Tablets  250 mg (Generics (UK))
+ALCA122259NEMIS	Alectinib  Capsules  150 mg
+RUCO137386NEMIS	Ruxience  Concentrate For Solution For Infusion  500 mg/50 ml vial
+EVTA101978NEMIS	Everolimus  Tablets  250 micrograms
+TAM/100572NEMIS	Tacrolimus  M/R tablets  1 mg
+KECO122402NEMIS	Keytruda  Concentrate For Solution For Infusion  100 mg/4 ml vial
+ZYTA51869NEMIS	Zytiga  Tablets  250 mg
+LOCA35809MGEMIS	Lomustine  Capsules  40 mg (Unichem)
+MEIN109593NEMIS	Methotrexate  Injection  22.5 mg/0.9 ml (25 mg/ml), pre-filled syringe
+NICA29956NEMIS	Nilotinib  Capsules  200 mg
+GEIN28166EMIS	Gemzar  Powder for solution for infusion  1 gram vial
+RAIN28345EMIS	Raltitrexed  Powder for solution for infusion  2 mg vial
+DOSO74168NEMIS	Doxorubicin Liposomal Pegylated  Solution for infusion  50 mg/25 ml vial
+IBTA138597NEMIS	Ibrance  Tablets  125 mg
+PESO82083NEMIS	Pegasys  Solution for injection in pre-filled syringe  90 micrograms/0.5 ml
+ESCA3546	Estracyt  Capsules  140 mg
+EPIN11656NEMIS	Eposin  Concentrate solution for infusion  20 mg/ml, 25 ml vial
+TACA86747NEMIS	Tafinlar  Capsules  50 mg
+VOTA52159NEMIS	Votubia  Tablets  5 mg
+TAOR1702NEMIS	Tamoxifen Citrate  Oral solution  Sugar Free 10 mg/5 ml
+CAIN30099NEMIS	Campto  Concentrate For Solution For Infusion  20 mg/ml, 15 ml vial
+VODI122124NEMIS	Votubia  Dispersible tablets  5 mg
+DATA48135NEMIS	Dasatinib  Tablets  140 mg
+FIPO36530NEMIS	Firmagon  Powder and solvent for solution for injection  80 mg vial
+TAM/100575NEMIS	Tacrolimus  M/R tablets  4 mg
+FLIN35150MGEMIS	Fluorouracil  Injection  25 mg/ml, 20 ml vial (A.A.H. Pharm)
+LETA1649	Leukeran  Tablets  5 mg
+LEIM134770NEMIS	Leuprorelin  Implant  10.72 mg pre-filled syringe
+BEPO51620NEMIS	Belatacept  Powder for concentrate for solution for infusion  250 mg vial
+DAM/134452NEMIS	Dailiport  M/R capsules  5 mg
+IMCA85448NEMIS	Imnovid  Capsules  1 mg
+RATA47612NEMIS	Rapamune  Tablets  500 micrograms
+VIPO4902NEMIS	Viraferonpeg  Powder with solvent for injection  100 microgram vial
+EXTA2781NEMIS	Exemestane  Tablets  25 mg
+ESCA4897	Estramustine Phosphate  Capsules  140 mg
+META5120	Megestrol Acetate  Tablets  160 mg
+TATA37138MGEMIS	Tamoxifen  Tablets  20 mg (Kent Pharm)
+ELCO21812NEMIS	Eloxatin  Concentrate For Solution For Infusion  5 mg/ml, 20 ml vial
+OBSO92054NEMIS	Obinutuzumab  Solution for infusion  1 gram/40 ml vial
+DAIN28153EMIS	Daunoxome  Concentrate For Solution For Infusion  50 mg/25 ml vial
+CICA17607NEMIS	Ciclosporin  Capsules  10 mg
+MEIN18089EMIS	Methotrexate  Injection  5 mg/2 ml vial
+DOPO28341NEMIS	Doxorubicin Hydrochloride  Powder For Solution For Injection  50 mg vial
+LECA26064NEMIS	Lenalidomide  Capsules  15 mg
+ADM/25954NEMIS	Advagraf  M/R capsules  1 mg
+ETIN23353NEMIS	Etoposide  Solution for infusion  20 mg/ml, 5 ml vial
+PACO22972NEMIS	Paclitaxel  Concentrate for iv infusion  300 mg/50 ml vial
+ZLIN109599NEMIS	Zlatal  Injection  17.5 mg/0.7 ml (25 mg/ml), pre-filled syringe
+SITA15258NEMIS	Sirolimus  Tablets  2 mg
+IBTA138598NEMIS	Ibrance  Tablets  75 mg
+CASO23292NEMIS	Calcium Folinate  Solution for injection  10 mg/ml, 35 ml vial
+HEPO130650NEMIS	Herzuma  Powder for concentrate for solution for infusion  420 mg vial
+GESO116242NEMIS	Gemcitabine Hydrochloride  Solution for infusion  2 gram/50 ml vial
+TATA37131MGEMIS	Tamoxifen  Tablets  20 mg (Ivax Pharmaceuticals)
+PRCA4138NEMIS	Prograf  Capsules  500 micrograms
+DOIN28208EMIS	Docetaxel  Concentrate And Solvent For Solution For Infusion  80 mg vial
+VIIN31648EMIS	Vinorelbine Tartrate  Concentrate For Solution For Infusion  10 mg/ml, 1 ml vial
+ABTA130379NEMIS	Abemaciclib  Tablets  150 mg
+SOTA22858NEMIS	Sorafenib  Tablets  200 mg
+GESO133114NEMIS	Gemcitabine Hydrochloride  Solution for infusion  2 gram/52.6 ml vial
+RETA85480NEMIS	Regorafenib  Tablets  40 mg
+PRIN9311EMIS	Prostap Sr  Powder and solvent for suspension for injection  3.75 mg vial
+RATA12952NEMIS	Rapamune  Tablets  1 mg
+TECA1755NEMIS	Temozolomide  Capsules  100 mg
+GLSO18886NEMIS	Glatiramer Acetate  Solution for injection  20 mg/ml, 1 ml pre-filled syringe
+IMBL11823NEMIS	Immucyst  Powder For Intravesical Suspension  81 mg vial
+BIIN3245	Bicnu  Injection  100 mg vial
+BLIN3253	Bleomycin  Powder For Solution For Injection  15,000 unit vial
+NISO103640NEMIS	Nivolumab  Solution for infusion  40 mg/4 ml vial
+ERSO101976NEMIS	Eribulin  Solution for injection  1320 micrograms/3 ml vial
+IMTA3757	Imuran  Tablets  25 mg
+AFTA86964NEMIS	Afatinib  Tablets  20 mg
+LAIN12143NEMIS	Lanreotide  Solution for injection  120 mg/0.5 ml pre-filled syringe
+META5126	Mercaptopurine  Tablets  50 mg
+ZLIN109601NEMIS	Zlatal  Injection  22.5 mg/0.9 ml (25 mg/ml), pre-filled syringe
+OCSO78661NEMIS	Octreotide Acetate  Solution for injection  100 micrograms/ml, 1 ml vial
+FOIN28039EMIS	Fosfestrol Tetrasodium  Injection  300 mg/5 ml
+CACA96748NEMIS	Cabozantinib  Capsules  20 mg
+NOTA4041	Nolvadex-D  Tablets  20 mg
+TACA101088NEMIS	Tacrolimus  Capsules  750 micrograms
+AZTA33920MGEMIS	Azathioprine  Tablets  50 mg (Unichem)
+NOIN122147NEMIS	Nordimet  Injection  22.5 mg/0.9 ml (25 mg/ml), pre-filled pen  
+TECA1752NEMIS	Temozolomide  Capsules  5 mg
+CETA101982NEMIS	Certican  Tablets  500 micrograms
+PAIN9520BRIDL	Paraplatin  Injection  50 mg/vial
+ZETA52829NEMIS	Zelboraf  Tablets  240 mg
+TACO45102NEMIS	Taxotere  Concentrate For Solution For Infusion  80 mg/4 ml vial
+ADM/37225NEMIS	Advagraf  M/R capsules  3 mg
+SOIN10831NEMIS	Sodiofolin  Injection  50 mg/ml, 2 ml vial
+CLSO22982NEMIS	Clofarabine  Solution for infusion  1 mg/ml, 20 ml vial
+ALCA122263NEMIS	Alecensa  Capsules  150 mg
+TACA133100NEMIS	Tasigna  Capsules  50 mg
+PEPO4891NEMIS	Peginterferon Alfa-2b (rbe)  Powder with solvent for injection  80 microgram vial
+GESO116243NEMIS	Gemcitabine Hydrochloride  Solution for infusion  200 mg/5 ml vial
+POTA86039NEMIS	Ponatinib  Tablets  45 mg
+TATA37132MGEMIS	Tamoxifen  Tablets  20 mg (Generics (UK))
+META35929MGEMIS	Medroxyprogesterone Acetate  Tablets  100 mg (Kent Pharm)
+RECA85467NEMIS	Revlimid  Capsules  2.5 mg
+PHIN11707NEMIS	Photofrin  Powder For Solution For Injection  15 mg vial
+CATA118026NEMIS	Cabometyx  Tablets  60 mg
+EMTA8472EGTON	Emblon  Tablets  10 mg
+FASO17474NEMIS	Faslodex  Solution for injection  250 mg/5 ml pre-filled syringe
+PEPO12302NEMIS	Pegintron  Powder with solvent for injection  120 microgram vial
+TRCA31395EMIS	Tretinoin  Capsules  10 mg
+META5122	Melphalan  Tablets  2 mg
+PEIN23571EMIS	Pentostatin  Powder For Solution For Injection  10 mg vial
+DEPO77668NEMIS	Decitabine  Powder for concentrate for solution for infusion  50 mg vial
+MOGR40457NEMIS	Modigraf  Granules for Oral Suspension  200 micrograms/sachet
+INTA89769NEMIS	Inlyta  Tablets  7 mg
+DOCO101274NEMIS	Docetaxel  Concentrate For Solution For Infusion  160 mg/16 ml vial
+ONSO123308NEMIS	Oncaspar  Solution for injection  3,750 units/5 ml vial
+AZOR96779NEMIS	Azathioprine  Oral suspension  75 mg/5 ml
+ALCO20108NEMIS	Alemtuzumab  Concentrate solution for infusion  30 mg/ml, 1 ml vial
+VIPO5609NEMIS	Viraferonpeg  Powder with solvent for injection  120 microgram vial
+FACA112118NEMIS	Farydak  Capsules  15 mg
+XETA6395NEMIS	Xeloda  Tablets  500 mg
+RATA5358	Razoxane  Tablets  125 mg
+STIM134772NEMIS	Staladex  Implant  10.72 mg pre-filled syringe
+BECO19966NEMIS	Bevacizumab  Solution for infusion  25 mg/ml, 4 ml vial
+POIN19993NEMIS	Porfimer Sodium  Powder For Solution For Injection  15 mg vial
+TRTA116870NEMIS	Trifluridine And Tipiracil  Tablets  20 mg + 8.19 mg
+SAIN33608EMIS	Sandostatin Lar  Powder and solvent for suspension for injection  20 mg vial
+SACA10701BRIDL	Sandimmun  Capsules  100 mg
+TATA5414	Tamoxifen  Tablets  20 mg
+CACA51777NEMIS	Capexion  Capsules  5 mg
+BUTA17562NEMIS	Busulfan  Tablets  2 mg
+PESO82082NEMIS	Peginterferon alfa-2a  Solution for injection in pre-filled syringe  90 micrograms/0.5 ml
+TOCA31270NEMIS	Topotecan Hydrochloride  Capsules  250 micrograms
+TATA5413	Tamoxifen  Tablets  10 mg
+SIPO90962NEMIS	Siltuximab  Powder for solution for infusion  100 mg vial
+TECA45575NEMIS	Temomedac  Capsules  5 mg
+EVDI122113NEMIS	Everolimus  Dispersible Tablets Sugar Free  2 mg
+TACA51108NEMIS	Tacni  Capsules  500 micrograms
+ERTA131600NEMIS	Erleada  Tablets  60 mg
+PAPO103685NEMIS	Pasireotide  Powder and solvent for suspension for injection  40 mg vial
+BRCA130293NEMIS	Braftovi  Capsules  50 mg
+TAM/100571NEMIS	Tacrolimus  M/R tablets  750 micrograms
+VOTA44965NEMIS	Votrient  Tablets  400 mg
+PRCA25858EMIS	Prograf  Capsules  5 mg
+VICA21160NEMIS	Vinorelbine Tartrate  Capsules  30 mg
+TATA37124MGEMIS	Tamoxifen  Tablets  10 mg (Generics (UK))
+KAPO130303NEMIS	Kanjinti  Powder for concentrate for solution for infusion  420 mg vial
+SAIN9475BRIDL	Sandostatin  Solution for injection  500 micrograms/ml, 1 ml ampoule
+TATA4383	Tamofen-40  Tablets  40 mg
+COSO102557NEMIS	Copaxone  Solution for injection  40 mg/ml, 1 ml pre-filled syringe
+ERSO18421NEMIS	Erbitux  Solution for infusion  2 mg/ml, 50 ml vial
+TRIN3786NEMIS	Treosulfan  Powder For Solution For Injection  1 gram vial
+ERTA21170NEMIS	Erlotinib  Tablets  150 mg
+SUCA22948NEMIS	Sutent  Capsules  50 mg
+PLIN96768NEMIS	Plegridy  Injection  125 micrograms/0.5 ml Pre-filled Pen
+PASO76686NEMIS	Pasireotide  Solution for injection  900 micrograms/1 ml ampoule
+GICA48467NEMIS	Gilenya  Capsules  500 micrograms
+BUIN4668	Buserelin  Injection  1 mg/ml, 5.5 ml vial
+ENCA130291NEMIS	Encorafenib  Capsules  75 mg
+TACA25864EMIS	Tacrolimus  Capsules  5 mg
+MIPO133090NEMIS	Mitocin  Powder For Solution For Injection  20 mg vial
+ZLIN109598NEMIS	Zlatal  Injection  15 mg/0.6 ml (25 mg/ml), pre-filled syringe
+TRPO88217NEMIS	Trastuzumab Emtansine  Powder for concentrate for solution for infusion  100 mg vial
+CICA17609NEMIS	Ciclosporin  Capsules  100 mg
+FOCA127588NEMIS	Fotivda  Capsules  890 micrograms
+VECA4496	Vepesid  Capsules  100 mg
+ERSO25433NEMIS	Erbitux  Solution for infusion  5 mg/ml, 20 ml vial
+DOCO47512NEMIS	Docetaxel  Concentrate For Solution For Infusion  140 mg/7 ml vial
+TRCA37287MGEMIS	Treosulfan  Capsules  250 mg (A.A.H. Pharm)
+MEIN18087EMIS	Methotrexate  Injection  200 mg/8 ml vial
+ALTA130488NEMIS	Alunbrig  Tablets  90 mg

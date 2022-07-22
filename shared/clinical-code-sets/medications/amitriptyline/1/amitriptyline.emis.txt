@@ -1,0 +1,330 @@
+^ESCT1175470	Amitriptyline 10mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1175471	Amitriptyline 10mg tablets (NorthStar Healthcare Unlimited Company) 28 tablet 4 x 7 tablets
+^ESCT1175472	Amitriptyline 25mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1175473	Amitriptyline 25mg tablets (NorthStar Healthcare Unlimited Company) 28 tablet 4 x 7 tablets
+^ESCT1175474	Amitriptyline 50mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1175475	Amitriptyline 50mg tablets (NorthStar Healthcare Unlimited Company) 28 tablet 4 x 7 tablets
+^ESCT1178171	Product containing only amitriptyline hydrochloride 25 mg/1 each oral tablet
+^ESCT1178172	Product containing only amitriptyline hydrochloride 50 mg/1 each oral tablet
+^ESCT1181384	Product containing only amitriptyline hydrochloride 10 mg/1 each oral tablet
+^ESCT1188680	Amitriptyline 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCT1188681	Amitriptyline 25mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCT1188682	Amitriptyline 50mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCT1214686	Amitriptyline 25mg modified-release capsules
+^ESCT1214688	Amitriptyline 25mg/5ml oral solution sugar free
+^ESCT1214689	Amitriptyline 50mg modified-release capsules
+^ESCT1214690	Amitriptyline 50mg/5ml oral solution sugar free
+^ESCT1223509	Product containing precisely amitriptyline hydrochloride 10 milligram/1 each conventional release oral tablet
+^ESCT1223510	Product containing precisely amitriptyline hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1223511	Product containing precisely amitriptyline hydrochloride 50 milligram/1 each conventional release oral tablet
+^ESCT1250043	Triptafen tablets (Advanz Pharma)
+^ESCT1250127	Triptafen tablets (Advanz Pharma) 100 tablet 10 x 10 tablets
+^ESCT1255914	Amitriptyline 10mg tablets (Bristol Laboratories Ltd)
+^ESCT1255915	Amitriptyline 10mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCT1255924	Amitriptyline 25mg tablets (Bristol Laboratories Ltd)
+^ESCT1255925	Amitriptyline 25mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCT1255926	Amitriptyline 50mg tablets (Bristol Laboratories Ltd)
+^ESCT1255927	Amitriptyline 50mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCT1264405	Amitriptyline 10mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCT1264406	Amitriptyline 10mg/5ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCT1279744	Amitriptyline 50mg tablets (Accord Healthcare Ltd)
+^ESCT1279751	Amitriptyline 50mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1374660	Amitriptyline 25mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1374661	Amitriptyline 25mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 150 ml
+^ESCT1374665	Amitriptyline 10mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1374668	Amitriptyline 10mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 150 ml
+^ESCT1374669	Amitriptyline 25mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374670	Amitriptyline 25mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1374671	Amitriptyline 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374672	Amitriptyline 50mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1374673	Amitriptyline 50mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)
+^ESCT1374674	Amitriptyline 50mg/5ml oral solution sugar free (Medihealth (Northern) Ltd) 150 ml
+^ESCT1374675	Amitriptyline 10mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374676	Amitriptyline 10mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1412165	Amitriptyline 25mg/5ml oral solution sugar free (Accord Healthcare Ltd)
+^ESCT1412166	Amitriptyline 25mg/5ml oral solution sugar free (Accord Healthcare Ltd) 150 ml
+^ESCT1412167	Amitriptyline 50mg/5ml oral solution sugar free (Accord Healthcare Ltd)
+^ESCT1412168	Amitriptyline 50mg/5ml oral solution sugar free (Accord Healthcare Ltd) 150 ml
+^ESCT1425158	Amitriptyline 10mg / Perphenazine 2mg tablets
+^ESCT1425159	Amitriptyline 25mg / Perphenazine 2mg tablets
+^ESCT1425505	Amitriptyline 10mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425508	Amitriptyline 50mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1425620	Amitriptyline 25mg/5ml oral solution sugar free (Kent Pharma (UK) Ltd)
+^ESCT1425679	Amitriptyline 25mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426023	Amitriptyline 10mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426025	Amitriptyline 25mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1426031	Amitriptyline 50mg tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1426364	Amitriptyline 25mg/5ml oral solution sugar free (Kent Pharma (UK) Ltd) 150 ml
+^ESCTAM1004576	Amitriptyline 10mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAM1004579	Amitriptyline 10mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTAM1004583	Amitriptyline 25mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAM1004584	Amitriptyline 25mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTAM1004585	Amitriptyline 50mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAM1004586	Amitriptyline 50mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTAM1007964	Amitriptyline 50mg/5ml oral solution sugar free (Wockhardt UK Ltd)
+^ESCTAM1007965	Amitriptyline 50mg/5ml oral solution sugar free (Wockhardt UK Ltd) 150 ml
+^ESCTAM1007977	Amitriptyline 25mg/5ml oral solution sugar free (Wockhardt UK Ltd)
+^ESCTAM1007980	Amitriptyline 25mg/5ml oral solution sugar free (Wockhardt UK Ltd) 150 ml
+^ESCTAM1010841	Amitriptyline 10mg tablets (Accord Healthcare Ltd)
+^ESCTAM1010842	Amitriptyline 10mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTAM1010843	Amitriptyline 25mg tablets (Accord Healthcare Ltd)
+^ESCTAM1010844	Amitriptyline 25mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTAM1021387	Amitriptyline 10mg/5ml oral solution 150 ml
+^ESCTAM1021388	Amitriptyline 10mg/5ml oral solution (Special Order) 150 ml
+^ESCTAM1021389	Amitriptyline 10mg/5ml oral suspension 100 ml
+^ESCTAM1021390	Amitriptyline 10mg/5ml oral suspension (Special Order) 100 ml
+^ESCTAM1029010	Amitriptyline 10mg tablets (Arrow Generics Ltd)
+^ESCTAM1029011	Amitriptyline 10mg tablets (Arrow Generics Ltd) 28 tablet 4 x 7 tablets
+^ESCTAM1029012	Amitriptyline 25mg tablets (Arrow Generics Ltd)
+^ESCTAM1029013	Amitriptyline 25mg tablets (Arrow Generics Ltd) 28 tablet 4 x 7 tablets
+^ESCTAM1029014	Amitriptyline 50mg tablets (Arrow Generics Ltd)
+^ESCTAM1029015	Amitriptyline 50mg tablets (Arrow Generics Ltd) 28 tablet 4 x 7 tablets
+^ESCTAM1041271	Amitriptyline 25mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTAM1041273	Amitriptyline 25mg/5ml oral solution sugar free (Waymade Healthcare Plc) 150 ml
+^ESCTAM1041274	Amitriptyline 50mg/5ml oral solution sugar free (Waymade Healthcare Plc)
+^ESCTAM1041276	Amitriptyline 50mg/5ml oral solution sugar free (Waymade Healthcare Plc) 150 ml
+^ESCTAM1041277	Amitriptyline 10mg tablets (Waymade Healthcare Plc)
+^ESCTAM1041279	Amitriptyline 10mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTAM1041281	Amitriptyline 25mg tablets (Waymade Healthcare Plc)
+^ESCTAM1041283	Amitriptyline 50mg tablets (Waymade Healthcare Plc)
+^ESCTAM1041285	Amitriptyline 50mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTAM1041328	Amitriptyline 25mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTAM1045389	Amitriptyline 50mg/5ml oral solution sugar free (Phoenix Healthcare Distribution Ltd)
+^ESCTAM1045390	Amitriptyline 50mg/5ml oral solution sugar free (Phoenix Healthcare Distribution Ltd) 150 ml
+^ESCTAM1048882	Amitriptyline 50mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTAM1048883	Amitriptyline 50mg/5ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCTAM1048884	Amitriptyline 25mg/5ml oral solution sugar free (DE Pharmaceuticals)
+^ESCTAM1048885	Amitriptyline 25mg/5ml oral solution sugar free (DE Pharmaceuticals) 150 ml
+^ESCTAM1048886	Amitriptyline 10mg tablets (DE Pharmaceuticals)
+^ESCTAM1048887	Amitriptyline 10mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAM1048888	Amitriptyline 25mg tablets (DE Pharmaceuticals)
+^ESCTAM1048889	Amitriptyline 25mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAM1048890	Amitriptyline 50mg tablets (DE Pharmaceuticals)
+^ESCTAM1048891	Amitriptyline 50mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTAM1104002	Amitriptyline 25mg/5ml oral solution sugar free (Actavis UK Ltd)
+^ESCTAM1104003	Amitriptyline 25mg/5ml oral solution sugar free (Actavis UK Ltd) 150 ml
+^ESCTAM1104004	Amitriptyline 50mg/5ml oral solution sugar free (Actavis UK Ltd)
+^ESCTAM1104005	Amitriptyline 50mg/5ml oral solution sugar free (Actavis UK Ltd) 150 ml
+^ESCTAM1109605	Amitriptyline 25mg tablets (Crescent Pharma Ltd)
+^ESCTAM1109606	Amitriptyline 25mg tablets (Crescent Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM1114452	Amitriptyline 10mg/5ml oral solution sugar free 150 ml
+^ESCTAM1114457	Amitriptyline 10mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCTAM1114470	Amitriptyline 10mg/5ml oral solution sugar free (Thame Laboratories Ltd) 150 ml
+^ESCTAM1114496	Amitriptyline 25mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCTAM1114499	Amitriptyline 25mg/5ml oral solution sugar free (Thame Laboratories Ltd) 150 ml
+^ESCTAM1114509	Amitriptyline 50mg/5ml oral solution sugar free (Thame Laboratories Ltd)
+^ESCTAM1114516	Amitriptyline 50mg/5ml oral solution sugar free (Thame Laboratories Ltd) 150 ml
+^ESCTAM1116067	Amitriptyline 10mg/5ml oral solution sugar free (Wockhardt UK Ltd)
+^ESCTAM1116071	Amitriptyline 10mg/5ml oral solution sugar free (Wockhardt UK Ltd) 150 ml
+^ESCTAM1116120	Amitriptyline 10mg/5ml oral solution sugar free
+^ESCTAM1116808	Amitriptyline 25mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTAM1116809	Amitriptyline 25mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc) 150 ml
+^ESCTAM1116810	Amitriptyline 50mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTAM1116811	Amitriptyline 50mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc) 150 ml
+^ESCTAM1116812	Amitriptyline 10mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAM1116813	Amitriptyline 10mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAM1116814	Amitriptyline 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAM1116815	Amitriptyline 50mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTAM1118873	Amitriptyline 10mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAM1118874	Amitriptyline 10mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTAM1118875	Amitriptyline 25mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAM1118876	Amitriptyline 25mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTAM1118877	Amitriptyline 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAM1118878	Amitriptyline 50mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTAM1120041	Amitriptyline 10mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTAM1120042	Amitriptyline 10mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTAM1126511	Amitriptyline 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTAM1126512	Amitriptyline 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTAM1146144	Amitriptyline 10mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc)
+^ESCTAM1146146	Amitriptyline 10mg/5ml oral solution sugar free (Sigma Pharmaceuticals Plc) 150 ml
+^ESCTAM1153608	Amitriptyline 25mg/5ml oral suspension 1 ml
+^ESCTAM1153609	Amitriptyline 25mg/5ml oral suspension (Special Order)
+^ESCTAM1153610	Amitriptyline 25mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAM1153676	Amitriptyline 25mg/5ml oral suspension
+^ESCTAM1157646	Amitriptyline 10mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTAM1157647	Amitriptyline 10mg tablets (Genesis Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM1157648	Amitriptyline 25mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTAM1157649	Amitriptyline 25mg tablets (Genesis Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM609585	Amitriptyline 10mg tablets
+^ESCTAM609587	Amitriptyline hydrochloride 10 mg oral tablet
+^ESCTAM609588	Amitriptyline 25mg tablets
+^ESCTAM609590	Amitriptyline hydrochloride 25 mg oral tablet
+^ESCTAM609591	Amitriptyline 50mg tablets
+^ESCTAM609593	Amitriptyline hydrochloride 50 mg oral tablet
+^ESCTAM801658	Amitriptyline 25mg tablets (Teva UK Ltd)
+^ESCTAM801751	Amitriptyline 10mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAM801862	Amitriptyline 50mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAM802358	Amitriptyline 25mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTAM802401	Amitriptyline 25mg tablets (Actavis UK Ltd)
+^ESCTAM803290	Amitriptyline 10mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTAM803519	Amitriptyline 25mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTAM805202	Amitriptyline 10mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAM805357	Amitriptyline 25mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAM808189	Amitriptyline 10mg tablets (Actavis UK Ltd)
+^ESCTAM810038	Amitriptyline 10mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAM810381	Amitriptyline 25mg/5ml oral solution sugar free (Kent Pharmaceuticals Ltd)
+^ESCTAM812248	Amitriptyline 25mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTAM816154	Amitriptyline 25mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTAM819877	Amitriptyline 50mg tablets (Teva UK Ltd)
+^ESCTAM820041	Amitriptyline 50mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)
+^ESCTAM820884	Amitriptyline 25mg tablets (Ranbaxy (UK) Ltd)
+^ESCTAM821169	Amitriptyline 50mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)
+^ESCTAM821297	Amitriptyline 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAM822888	Amitriptyline 25mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAM822951	Amitriptyline 50mg tablets (Actavis UK Ltd)
+^ESCTAM824046	Amitriptyline 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAM824320	Amitriptyline 50mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTAM824778	Amitriptyline 25mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTAM830035	Amitriptyline 10mg tablets (Teva UK Ltd)
+^ESCTAM831499	Amitriptyline 50mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)
+^ESCTAM835853	Amitriptyline 25mg tablets 500 tablet
+^ESCTAM836965	Amitriptyline 10mg / Perphenazine 2mg tablets 100 tablet
+^ESCTAM837962	Amitriptyline 25mg / Perphenazine 2mg tablets 100 tablet
+^ESCTAM840301	Amitriptyline 25mg/5ml oral solution sugar free 150 ml
+^ESCTAM847165	Amitriptyline 25mg tablets 28 tablet
+^ESCTAM847446	Amitriptyline 10mg tablets 28 tablet
+^ESCTAM847868	Amitriptyline 50mg/5ml oral solution sugar free 150 ml
+^ESCTAM848225	Amitriptyline 50mg tablets 28 tablet
+^ESCTAM849715	Amitriptyline 10mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM849718	Amitriptyline 10mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM849721	Amitriptyline 10mg tablets (Teva UK Ltd) 28 tablet
+^ESCTAM849726	Amitriptyline 10mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTAM849730	Amitriptyline 10mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM849733	Amitriptyline 10mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM849738	Amitriptyline 25mg tablets (A A H Pharmaceuticals Ltd) 500 tablet
+^ESCTAM849739	Amitriptyline 25mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM849742	Amitriptyline 25mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM849743	Amitriptyline 25mg tablets (Teva UK Ltd) 28 tablet
+^ESCTAM849744	Amitriptyline 25mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTAM849745	Amitriptyline 25mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM849746	Amitriptyline 25mg tablets (Ranbaxy (UK) Ltd) 500 tablet
+^ESCTAM849747	Amitriptyline 25mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM849781	Amitriptyline 50mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM849782	Amitriptyline 50mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM849783	Amitriptyline 50mg tablets (Teva UK Ltd) 28 tablet
+^ESCTAM849784	Amitriptyline 50mg tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM849785	Amitriptyline 50mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM849786	Amitriptyline 50mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM855013	Amitriptyline 25mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTAM855014	Amitriptyline 25mg/5ml oral solution sugar free (Kent Pharmaceuticals Ltd) 150 ml
+^ESCTAM855015	Amitriptyline 25mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTAM855016	Amitriptyline 25mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTAM855018	Amitriptyline 50mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) 150 ml
+^ESCTAM855019	Amitriptyline 50mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCTAM855020	Amitriptyline 50mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) 150 ml
+^ESCTAM870691	Amitriptyline 50mg modified-release capsules 56 capsule
+^ESCTAM870702	Amitriptyline 25mg modified-release capsules 56 capsule
+^ESCTAM876095	Amitriptyline 25mg tablets (Sandoz Ltd)
+^ESCTAM876096	Amitriptyline 25mg tablets (Sandoz Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM904378	Amitriptyline 5mg/5ml oral solution 1 ml
+^ESCTAM904379	Amitriptyline 5mg/5ml oral solution (Special Order)
+^ESCTAM904381	Amitriptyline 5mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM904384	Amitriptyline 10mg/5ml oral suspension 1 ml
+^ESCTAM904386	Amitriptyline 5mg/5ml oral suspension 1 ml
+^ESCTAM904387	Amitriptyline 10mg/5ml oral suspension (Special Order)
+^ESCTAM904388	Amitriptyline 5mg/5ml oral suspension (Special Order)
+^ESCTAM904389	Amitriptyline 10mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAM904390	Amitriptyline 5mg/5ml oral suspension (Special Order) 1 ml
+^ESCTAM904736	Amitriptyline 10mg/5ml oral suspension
+^ESCTAM904737	Amitriptyline 5mg/5ml oral solution
+^ESCTAM904738	Amitriptyline 5mg/5ml oral suspension
+^ESCTAM923486	Amitriptyline 10mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAM923487	Amitriptyline 10mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM923488	Amitriptyline 25mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAM923489	Amitriptyline 25mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM923490	Amitriptyline 50mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTAM923491	Amitriptyline 50mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM937016	Amitriptyline 25mg tablets (Wockhardt UK Ltd)
+^ESCTAM937017	Amitriptyline 25mg tablets (Wockhardt UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM937018	Amitriptyline 50mg tablets (Wockhardt UK Ltd)
+^ESCTAM937019	Amitriptyline 50mg tablets (Wockhardt UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM941927	Amitriptyline 1.25mg/5ml oral solution 1 ml
+^ESCTAM941928	Amitriptyline 1.25mg/5ml oral solution (Special Order)
+^ESCTAM941929	Amitriptyline 1.25mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM941930	Amitriptyline 100mg/5ml oral solution 1 ml
+^ESCTAM941931	Amitriptyline 100mg/5ml oral solution (Special Order)
+^ESCTAM941932	Amitriptyline 100mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM941933	Amitriptyline 150mg/5ml oral solution 1 ml
+^ESCTAM941934	Amitriptyline 150mg/5ml oral solution (Special Order)
+^ESCTAM941935	Amitriptyline 150mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM941936	Amitriptyline 15mg/5ml oral solution 1 ml
+^ESCTAM941937	Amitriptyline 15mg/5ml oral solution (Special Order)
+^ESCTAM941938	Amitriptyline 15mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM941939	Amitriptyline 2.5mg/5ml oral solution 1 ml
+^ESCTAM941940	Amitriptyline 2.5mg/5ml oral solution (Special Order)
+^ESCTAM941941	Amitriptyline 2.5mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM941942	Amitriptyline 75mg/5ml oral solution 1 ml
+^ESCTAM941943	Amitriptyline 75mg/5ml oral solution (Special Order)
+^ESCTAM941945	Amitriptyline 75mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM941948	Amitriptyline 80mg/5ml oral solution 1 ml
+^ESCTAM941950	Amitriptyline 80mg/5ml oral solution (Special Order)
+^ESCTAM941951	Amitriptyline 80mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM942264	Amitriptyline 1.25mg/5ml oral solution
+^ESCTAM942266	Amitriptyline 100mg/5ml oral solution
+^ESCTAM942269	Amitriptyline 150mg/5ml oral solution
+^ESCTAM942271	Amitriptyline 15mg/5ml oral solution
+^ESCTAM942273	Amitriptyline 2.5mg/5ml oral solution
+^ESCTAM942274	Amitriptyline 75mg/5ml oral solution
+^ESCTAM942275	Amitriptyline 80mg/5ml oral solution
+^ESCTAM958553	Amitriptyline 10mg tablets (Wockhardt UK Ltd)
+^ESCTAM958555	Amitriptyline 10mg tablets (Wockhardt UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTAM966689	Amitriptyline 10mg/5ml oral solution 1 ml
+^ESCTAM966690	Amitriptyline 10mg/5ml oral solution (Special Order)
+^ESCTAM966699	Amitriptyline 10mg/5ml oral solution (Special Order) 1 ml
+^ESCTAM966815	Amitriptyline 10mg/5ml oral solution
+^ESCTAM978002	Amitriptyline 25mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAM978004	Amitriptyline 25mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTLE870696	Lentizol 50mg modified-release capsules (Pfizer Ltd)
+^ESCTLE870701	Lentizol 50mg modified-release capsules (Pfizer Ltd) 56 capsule
+^ESCTLE870703	Lentizol 25mg modified-release capsules (Pfizer Ltd)
+^ESCTLE870704	Lentizol 25mg modified-release capsules (Pfizer Ltd) 56 capsule
+^ESCTPR609586	Product containing amitriptyline hydrochloride 10 mg/1 each oral tablet
+^ESCTPR609589	Product containing amitriptyline hydrochloride 25 mg/1 each oral tablet
+^ESCTPR609592	Product containing amitriptyline hydrochloride 50 mg/1 each oral tablet
+^ESCTTR818528	Triptafen-M tablets (Mercury Pharma Group Ltd)
+^ESCTTR819322	Triptafen tablets (AMCo)
+^ESCTTR854989	Triptafen-M tablets (Mercury Pharma Group Ltd) 100 tablet 10 x 10 tablets
+^ESCTTR854995	Triptafen tablets (AMCo) 100 tablet 10 x 10 tablets
+AMCA9586BRIDL	Amitriptyline Sr  Capsules  25 mg
+AMCA9588BRIDL	Amitriptyline Sr  Capsules  50 mg
+AMOR41284NEMIS	Amitriptyline Hydrochloride  Oral solution  10 mg/5 ml
+AMOR45599NEMIS	Amitriptyline Hydrochloride  Oral suspension  10 mg/5 ml
+AMSU101952NEMIS	Amitriptyline Hydrochloride  Sugar-free oral solution  10 mg/5 ml
+AMSU28391EMIS	Amitriptyline Hydrochloride  Sugar-free oral solution  25 mg/5 ml
+AMSU28392EMIS	Amitriptyline Hydrochloride  Sugar-free oral solution  50 mg/5 ml
+AMSU33715MGEMIS	Amitriptyline Hydrochloride  Sugar-free oral solution  25 mg/5 ml (Rosemont Pharm)
+AMSU33716MGEMIS	Amitriptyline Hydrochloride  Sugar-free oral solution  25 mg/5 ml (Unichem)
+AMSU33717MGEMIS	Amitriptyline Hydrochloride  Sugar-free oral solution  25 mg/5 ml (Kent Pharm)
+AMSU33718MGEMIS	Amitriptyline Hydrochloride  Sugar-free oral solution  25 mg/5 ml (A.A.H. Pharm)
+AMSU33719MGEMIS	Amitriptyline Hydrochloride  Sugar-free oral solution  50 mg/5 ml (Rosemont Pharm)
+AMSU33720MGEMIS	Amitriptyline Hydrochloride  Sugar-free oral solution  50 mg/5 ml (A.A.H. Pharm)
+AMSU33721MGEMIS	Amitriptyline Hydrochloride  Sugar-free oral solution  50 mg/5 ml (Unichem)
+AMTA18788NEMIS	Amitriptyline And Perphenazine  Tablets  25 mg + 2 mg
+AMTA18789NEMIS	Amitriptyline And Perphenazine  Tablets  10 mg + 2 mg
+AMTA33759MGEMIS	Amitriptyline Hydrochloride  Tablets  10 mg (Kent Pharm)
+AMTA33760MGEMIS	Amitriptyline Hydrochloride  Tablets  10 mg (Ivax Pharmaceuticals)
+AMTA33761MGEMIS	Amitriptyline Hydrochloride  Tablets  10 mg (Unichem)
+AMTA33762MGEMIS	Amitriptyline Hydrochloride  Tablets  10 mg (Alpharma)
+AMTA33763MGEMIS	Amitriptyline Hydrochloride  Tablets  10 mg (A.A.H. Pharm)
+AMTA33764MGEMIS	Amitriptyline Hydrochloride  Tablets  10 mg (Teva UK)
+AMTA33765MGEMIS	Amitriptyline Hydrochloride  Tablets  50 mg (Kent Pharm)
+AMTA33766MGEMIS	Amitriptyline Hydrochloride  Tablets  50 mg (Teva UK)
+AMTA33767MGEMIS	Amitriptyline Hydrochloride  Tablets  50 mg (Unichem)
+AMTA33768MGEMIS	Amitriptyline Hydrochloride  Tablets  50 mg (Alpharma)
+AMTA33769MGEMIS	Amitriptyline Hydrochloride  Tablets  50 mg (A.A.H. Pharm)
+AMTA33770MGEMIS	Amitriptyline Hydrochloride  Tablets  50 mg (Ivax Pharmaceuticals)
+AMTA33771MGEMIS	Amitriptyline Hydrochloride  Tablets  25 mg (Teva UK)
+AMTA33772MGEMIS	Amitriptyline Hydrochloride  Tablets  25 mg (Alpharma)
+AMTA33773MGEMIS	Amitriptyline Hydrochloride  Tablets  25 mg (A.A.H. Pharm)
+AMTA33774MGEMIS	Amitriptyline Hydrochloride  Tablets  25 mg (Kent Pharm)
+AMTA33775MGEMIS	Amitriptyline Hydrochloride  Tablets  25 mg (Ranbaxy)
+AMTA33776MGEMIS	Amitriptyline Hydrochloride  Tablets  25 mg (Unichem)
+AMTA33777MGEMIS	Amitriptyline Hydrochloride  Tablets  25 mg (Ivax Pharmaceuticals)
+AMTA33778MGEMIS	Amitriptyline Hydrochloride  Tablets  25 mg (Sandoz)
+AMTA8386EGTON	Amitriptyline Hydrochloride  Tablets  10 mg
+AMTA8388EGTON	Amitriptyline Hydrochloride  Tablets  50 mg
+AMTA8390EGTON	Amitriptyline Hydrochloride  Tablets  25 mg
+LECA1645	Lentizol  Capsules  25 mg
+LECA1646	Lentizol  Capsules  50 mg
+TRTA4462	Triptafen  Tablets  
+TRTA4463	Triptafen-M  Tablets  

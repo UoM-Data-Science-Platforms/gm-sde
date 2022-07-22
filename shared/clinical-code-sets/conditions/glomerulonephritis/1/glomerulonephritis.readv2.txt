@@ -1,0 +1,94 @@
+K02..00	Chronic glomerulonephritis
+K02z.00	Chronic glomerulonephritis NOS
+K02y.00	Other chronic glomerulonephritis
+K02yz00	Other chronic glomerulonephritis NOS
+K02y300	Chronic diffuse glomerulonephritis
+K02y200	Chronic focal glomerulonephritis
+K02y100	Chronic exudative glomerulonephritis
+K02y000	Chronic glomerulonephritis + diseases EC
+K023.00	Chronic rapidly progressive glomerulonephritis
+K022.00	Chronic membranoproliferative glomerulonephritis
+K021.00	Chronic membranous glomerulonephritis
+K020.00	Chronic proliferative glomerulonephritis
+K00..00	Acute glomerulonephritis
+K00..13	AGN - Acute glomerulonephritis
+K00z.00	Acute glomerulonephritis NOS
+K00y.00	Other acute glomerulonephritis
+K00yz00	Other acute glomerulonephritis NOS
+K00y000	Acute glomerulonephritis in diseases EC
+K000.00	Acute proliferative glomerulonephritis
+K000111	CGN - Crescentic glomerulonephritis
+K000100	Crescentic glomerulonephritis
+K032z00	Nephritis unspecified with lesion of membranoproliferative glomerulonephritis NOS
+K032y00	Nephritis unspecified with other specified lesion of membranoproliferative glomerulonephritis
+K032y11	Hypocomplementaemic persistent glomerulonephritis NEC
+K032y12	Lobular glomerulonephritis NEC
+K032y13	Mesangioproliferative glomerulonephritis NEC
+K032y14	Mesangiocapillary glomerulonephritis NEC
+K032y15	Mixed membranous and proliferative glomerulonephritis NEC
+K032500	Other familial glomerulonephritis
+K032400	Familial glomerulonephritis in Alport's syndrome
+K032300	Anaphylactoid glomerulonephritis
+K032200	Focal glomerulonephritis with focal recurrent macroscopic glomerulonephritis
+K032000	Focal membranoproliferative glomerulonephritis
+K01B.00	Nephrotic syndrome, diffuse crescentic glomerulonephritis
+K019.00	Nephrotic syndrome, diffuse mesangiocapillary glomerulonephritis
+K018.00	Nephrotic syndrome, diffuse endocapillary proliferative glomerulonephritis
+K017.00	Nephrotic syndrome, diffuse mesangial proliferative glomerulonephritis
+K016.00	Nephrotic syndrome, diffuse membranous glomerulonephritis
+K012.00	Nephrotic syndrome with membranoproliferative glomerulonephritis
+K011.00	Nephrotic syndrome with membranous glomerulonephritis
+K010.00	Nephrotic syndrome with proliferative glomerulonephritis
+K013.00	Nephrotic syndrome with minimal change glomerulonephritis
+K03z.00	Unspecified glomerulonephritis NOS
+K03X.00	Unspecified nephritic syndrome, diffuse mesangial proliferative glomerulonephritis
+K03W.00	Unspecified nephritic syndrome, diffuse endocapillary proliferative glomerulonephritis
+K03U.00	Unspecified nephritic syndrome, diffuse concentric glomerulonephritis
+K036.00	Cryoglobulinaemic glomerulonephritis
+K0A0700	Acute nephritic syndrome, diffuse crescentic glomerulonephritis
+K0A0500	Acute nephritic syndrome, diffuse mesangiocapillary glomerulonephritis
+K0A0400	Acute nephritic syndrome, diffuse endocapillary proliferative glomerulonephritis
+K0A0300	Acute nephritic syndrome, diffuse mesangial proliferative glomerulonephritis
+K0A0200	Acute nephritic syndrome, diffuse membranous glomerulonephritis
+K0A1700	Rapidly progressive nephritic syndrome, diffuse crescentic glomerulonephritis
+K0A1500	Rapidly progressive nephritic syndrome, diffuse mesangiocapillary glomerulonephritis
+K0A1400	Rapidly progressive nephritic syndrome, diffuse endocapillary proliferative glomerulonephritis
+K0A1300	Rapidly progressive nephritic syndrome, diffuse mesangial proliferative glomerulonephritis
+K0A1200	Rapidly progressive nephritic syndrome, diffuse membranous glomerulonephritis
+K0A2700	Recurrent and persistent haematuria, diffuse crescentic glomerulonephritis
+K0A2500	Recurrent and persistent haematuria, diffuse mesangiocapillary glomerulonephritis
+K0A2400	Recurrent and persistent haematuria, diffuse endocapillary proliferative glomerulonephritis
+K0A2300	Recurrent and persistent haematuria, diffuse mesangial proliferative glomerulonephritis
+K0A2200	Recurrent and persistent haematuria, diffuse membranous glomerulonephritis
+K0A3700	Chronic nephritic syndrome, diffuse crescentic glomerulonephritis
+K0A3500	Chronic nephritic syndrome, diffuse mesangiocapillary glomerulonephritis
+K0A3400	Chronic nephritic syndrome, diffuse endocapillary proliferative glomerulonephritis
+K0A3300	Chronic nephritic syndrome, diffuse mesangial proliferative glomerulonephritis
+K0A3200	Chronic nephritic syndrome, diffuse membranous glomerulonephritis
+K0A4700	Isolated proteinuria with specified morphological lesion, diffuse concentric glomerulonephritis
+K0A4500	Isolated proteinuria with specified morphological lesion, diffuse mesangiocapillary glomerulonephritis
+K0A4400	Isolated proteinuria with specified morphological lesion, diffuse endocapillary proliferative glomerulonephritis
+K0A4300	Isolated proteinuria with specified morphological lesion, diffuse mesangial proliferative glomerulonephritis
+K0A4200	Isolated proteinuria with specified morphological lesion, diffuse membranous glomerulonephritis
+K0A5700	Hereditary nephropathy, not elsewhere classified, diffuse crescentic glomerulonephritis
+K0A5500	[X]Hereditary nephropathy, not elsewhere classified, diffuse mesangiocapillary glomerulonephritis
+K0A5400	Hereditary nephropathy, not elsewhere classified, diffuse endocapillary proliferative glomerulonephritis
+K0A5300	Hereditary nephropathy, not elsewhere classified, diffuse mesangial proliferative glomerulonephritis
+K0A5200	Hereditary nephropathy, not elsewhere classified, diffuse membranous glomerulonephritis
+Kyu0C00	[X]Unspecified nephritic syndrome, diffuse concentric glomerulonephritis
+Kyu0A00	[X]Unspecified nephritic syndrome, diffuse endocapillary proliferative glomerulonephritis
+Kyu0900	[X]Unspecified nephritic syndrome, diffuse mesangial proliferative glomerulonephritis
+K0A9.00	Cytomegalovirus-induced glomerulonephritis
+K0A8.00	Rapidly progressive glomerulonephritis
+SP08b00	De novo glomerulonephritis
+K0A2800	IgA nephropathy
+G752000	Goodpasture's syndrome
+K01x400	Lupus nephritis
+K00y200	Acute focal nephritis
+K00y300	Acute diffuse nephritis
+K033.00	Rapidly progressive nephritis unspecified
+PKy9000	Alport's syndrome
+K001.00	Acute nephritis with lesions of necrotising glomerulitis
+K01x400	Nephrotic syndrome in systemic lupus erythematosus
+K00y100	Acute exudative nephritis
+K031.00	Membranous nephritis unspecified

@@ -1,0 +1,5 @@
+1023161000000104	Serum luteinising hormone level
+1015331000000101	Urine luteinising hormone level
+1023171000000106	Plasma luteinising hormone level
+1030811000000104	Serum luteinising hormone level
+166372004	Luteinising hormone (& serum level)

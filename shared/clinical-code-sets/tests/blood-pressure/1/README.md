@@ -1,6 +1,6 @@
 # Blood pressure
 
-Any indication that a blood pressure has been recorded for a patient. This code set includes codes that indicates a patient's BMI (`2462. - O/E - BP reading low`), as well as codes that are accompanied by a value (`2469. - O/E - Systolic BP reading`).
+Any indication that a blood pressure has been recorded for a patient. This code set includes codes that indicates a patient's BP (`2462. - O/E - BP reading low`), as well as codes that are accompanied by a value (`2469. - O/E - Systolic BP reading`).
 
 Blood pressure codes retrieved from [GetSet](https://getset.ga) and metadata available in this directory.
 

@@ -1,0 +1,47 @@
+62N9.00	A/N 34 week examination
+62N8.00	A/N 32 week examination
+7F06300	External version of breech
+L221.00	Cephalic version NOS
+L150.00	Post-term pregnancy
+L15..11	Post-term pregnancy
+62O7.00	Pregnancy prolonged - 41 weeks
+L15..00	Prolonged or post-term pregnancy
+Z22AE00	Baby overdue
+62NE.00	A/N 39 week examination
+62NC.00	A/N 37 week examination
+62ND.00	A/N 38 week examination
+62N6.00	A/N 28 week examination
+2717.00	O/E - fundus 34-36 week size
+2718.00	O/E - fundus 36-38 week size
+62NF.00	A/N 40 week examination
+62NB.00	A/N 36 week examination
+62N7.00	A/N 30 week examination
+62NA.00	A/N 35 week examination
+2715.00	O/E - fundus 28-32 week size
+2716.00	O/E - fundus 32-34 week size
+L227.00	High head at term
+62X3.00	Full term gestation - 40 weeks
+L15z.00	Prolonged pregnancy NOS
+62NG.00	A/N 41 week examination
+271A.00	O/E - fundus = term size
+2719.00	O/E -fundus 38 weeks-term size
+L150z00	Post-term pregnancy NOS
+62O8.00	Pregnancy prolonged - 42 weeks
+7F06111	Removal of Shirodkar suture
+L140200	False labour at or after 37 completed weeks of gestation
+62NH.00	A/N 42 week examination
+L150000	Post-term pregnancy unspecified
+L150200	Post-term pregnancy - not delivered
+9534.00	Mat booking after 31 weeks
+L221z00	Cephalic version NOS
+L221000	Cephalic version NOS, unspecified
+L227z00	High head at term NOS
+8IEc.00	Pertussis vaccination in pregnancy declined
+9mK..00	Pertussis vaccination in pregnancy invitation
+62NL.00	Antenatal 31 week examination
+9kv..00	Pertussis vaccinatn progrme pregnant women enhan srvce admin
+9mK0.00	Pertussis vaccination in pregnancy invitation first letter
+9mK1.00	Pertussis vaccination in pregnancy invitation second letter
+9mK2.00	Pertussis vaccination in pregnancy invitation third letter
+9NFV.00	Health visitor antenatal visit
+4H43.12	Sphingomyelin -amniotic

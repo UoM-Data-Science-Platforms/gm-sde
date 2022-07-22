@@ -1,0 +1,69 @@
+dw1U.	CONCERTA XL 54mg m/r tablets
+dw1O.	MEDIKINET XL 60mg m/r capsules
+dw1N.	MEDIKINET XL 50mg m/r capsules
+dw1M.	MEDIKINET XL 5mg m/r capsules
+dw1z.	Methylphenidate hydrochloride 20mg tablet
+dw1L.	MEDIKINET 20mg tablets
+dw1B.	Tranquilyn 20mg tablet
+dw14.	Equasym 20mg tablet
+dw1y.	Methylphenidate hydrochloride 5mg tablet
+dw1J.	MEDIKINET 5mg tablets
+dw19.	Tranquilyn 5mg tablet
+dw13.	Equasym 5mg tablet
+dw1x.	Methylphenidate hydrochloride 20mg m/r capsule
+dw1F.	MEDIKINET XL 20mg m/r capsules
+dw16.	Equasym XL 20mg m/r capsule
+dw1w.	Methylphenidate hydrochloride 18mg m/r tablet
+dw17.	Concerta XL 18mg m/r tablet
+dw1v.	Methylphenidate hydrochloride 36mg m/r tablet
+dw18.	Concerta XL 36mg m/r tablet
+dw1u.	Methylphenidate hydrochloride 30mg m/r capsule
+dw1G.	MEDIKINET XL 30mg m/r capsules
+dw1D.	Equasym XL 30mg m/r capsule
+dw1t.	Methylphenidate hydrochloride 10mg m/r capsule
+dw1E.	MEDIKINET XL 10mg m/r capsules
+dw1C.	Equasym XL 10mg m/r capsule
+dw1s.	METHYLPHENIDATE HYDROCHLORIDE 40mg m/r capsules
+dw1H.	MEDIKINET XL 40mg m/r capsules
+dw1r.	METHYLPHENIDATE HYDROCHLORIDE 27mg m/r tablets
+dw1I.	CONCERTA XL 27mg m/r tablets
+dw1q.	METHYLPHENIDATE HYDROCHLORIDE 5mg m/r capsules
+dw1p.	METHYLPHENIDATE HYDROCHLORIDE 60mg m/r capsules
+dw1o.	METHYLPHENIDATE HYDROCHLORIDE 50mg m/r capsules
+dw1n.	METHYLPHENIDATE HYDROCHLORIDE 54mg m/r tablets
+dw11.	Methylphenidate hydrochloride 10mg tablet
+dw1K.	MEDIKINET 10mg tablets
+dw1A.	Tranquilyn 10mg tablet
+dw15.	Equasym 10mg tablet
+dw12.	Ritalin 10mg tablet
+dz1..	Modafinil
+dz13.	Modafinil 200mg tablet
+dz14.	Provigil 200mg tablet
+dz11.	Modafinil 100mg tablet
+dz12.	Provigil 100mg tablet
+x01Bt	Amfetamine group
+x01Bu	Dexamfetamine
+dc1z.	Dexamphetamine sulphate 20mg m/r capsule
+dc14.	Durophet 20mg m/r capsule
+dc1y.	Dexamphetamine sulphate 12.5mg m/r capsule
+dc13.	Durophet 12.5mg m/r capsule
+dc1x.	Dexamphetamine sulphate 7.5mg m/r capsule
+dc12.	Durophet 7.5mg m/r capsule
+dc1w.	Dexamfetamine sulphate 5mg tablet
+dc11.	Dexedrine 5mg tablet
+dc1..	Dexamfetamine sulphate
+dc1v.	DEXAMFETAMINE SULFATE 1mg/mL oral solution
+dc...	Amfetamine and cocaine
+dw3z.	LISDEXAMFETAMINE DIMESYLATE 30mg capsules
+dw3y.	LISDEXAMFETAMINE DIMESYLATE 50mg capsules
+dw3x.	LISDEXAMFETAMINE DIMESYLATE 70mg capsules
+dw3w.	LISDEXAMFETAMINE DIMESYLATE 20mg capsules
+dw3v.	LISDEXAMFETAMINE DIMESYLATE 40mg capsules
+dw3u.	LISDEXAMFETAMINE DIMESYLATE 60mg capsules
+x05Zn	Equasym XL
+x0581	Equasym
+XC0PV	Amfetamine
+x02ZN	Dexedrine
+x02pt	Ritalin
+x049l	Provigil
+x05ch	Concerta XL

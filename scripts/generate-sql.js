@@ -7,7 +7,8 @@ const md = require('markdown-it')();
 const EXTRACTION_SQL_DIR = 'extraction-sql';
 const TEMPLATE_SQL_DIR = 'template-sql';
 const README_NAME = 'README';
-const REUSABLE_DIRECTORY = join(__dirname, '..', 'shared', 'Reusable queries for data extraction');
+const SHARED_DIRECTORY = join(__dirname, '..', 'shared');
+const REUSABLE_DIRECTORY = join(SHARED_DIRECTORY, 'Reusable queries for data extraction');
 const CODESET_MARKER = '[[[{{{(((CODESET_SQL)))}}}]]]';
 
 const includedSqlFiles = [];
@@ -15,6 +16,13 @@ const includedSqlFilesSoFar = {};
 let isProjectDirectory = false;
 
 const stitch = async (projectDirectory) => {
+  console.log('Moving analyst-guidance file...');
+  const readmeFirstFile = readFileSync(
+    join(SHARED_DIRECTORY, 'documents', 'analyst-guidance.md'),
+    'utf8'
+  );
+  writeFileSync(join(projectDirectory, 'scripts', 'analyst-guidance.md'), readmeFirstFile);
+
   console.log(`Finding templates in ${join(projectDirectory, TEMPLATE_SQL_DIR)}...`);
   const templates = findTemplates(projectDirectory);
 

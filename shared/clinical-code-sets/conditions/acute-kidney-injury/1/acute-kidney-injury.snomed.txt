@@ -1,0 +1,24 @@
+14669001	Acute renal failure
+23697004	Crush syndrome (disorder)
+722095005	Acute kidney injury due to circulatory failure
+722096006	Acute kidney injury due to hypovolemia
+722278006	Acute kidney injury due to sepsis
+726541005	AKI (acute kidney injury) due to trauma
+140031000119103	Nontraumatic AKI (acute kidney injury)
+851931000000107	Acute kidney injury stage 1 (disorder)
+851941000000103	Acute kidney injury stage 2 (disorder)
+851951000000100	Acute kidney injury stage 3 (disorder)
+145681000119101	Acute renal failure due to tubular necrosis
+129561000119108	Acute renal failure
+1048451000000103	Acute kidney injury due to acute tubular necrosis due to hypovolaemia (disorder)
+1048481000000109	Acute kidney injury due to acute tubular necrosis due to circulatory failure (disorder)
+1048491000000106	Acute kidney injury due to acute tubular necrosis due to sepsis (disorder)
+1048501000000100	Acute kidney injury due to acute tubular necrosis with histological evidence (disorder)
+1048511000000103	Acute kidney injury due to acute tubular necrosis due to hypovolaemia with histological evidence (disorder)
+1048541000000102	Acute kidney injury due to acute tubular necrosis due to circulatory failure with histological evidence (disorder)
+1048521000000109	Acute kidney injury due to acute tubular necrosis due to sepsis with histological evidence (disorder)
+1007921000000107	Acute kidney injury warning stage
+137971000119104	History of acute renal failure (situation)
+938911000000100	At risk of AKI (acute kidney injury)
+1127821000000102	Acute kidney injury findings simple reference set (foundation metadata concept)
+939531000000109	Provision of information about AKI (acute kidney injury)

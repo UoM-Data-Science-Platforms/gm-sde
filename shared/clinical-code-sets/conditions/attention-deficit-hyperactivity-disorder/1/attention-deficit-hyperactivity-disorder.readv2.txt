@@ -1,0 +1,11 @@
+8BPT.00	Drug therapy for ADHD (attention deficit hyperactivity disorder)
+8BPT100	Non-stimulant drug therapy for ADHD (attention deficit hyperactivity disorder)
+8BPT000	Stimulant drug therapy for ADHD (attention deficit hyperactivity disorder)
+9Ngp.00	On drug therapy for ADHD (attention deficit hyperactivity disorder)
+9Ngp100	On non-stimulant drug therapy for ADHD (attention deficit hyperactivity disorder)
+9Ngp000	On stimulant drug therapy for ADHD (attention deficit hyperactivity disorder)
+9OlA.00	Attention deficit hyperactivity disorder monitoring invitation third letter
+9Ol9.00	Attention deficit hyperactivity disorder monitoring invitation second letter
+9Ol8.00	Attention deficit hyperactivity disorder monitoring invitation first letter
+Eu90011	[X]Attention deficit hyperactivity disorder
+6A61.00	Attention deficit hyperactivity disorder annual review

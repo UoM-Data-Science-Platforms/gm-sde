@@ -1,0 +1,583 @@
+cj11.	Tobramycin 300mg/5mL nebuliser solution
+cj12.	TOBI 300mg/5mL nebuliser solution
+cj13.	BRAMITOB 300mg/4mL nebuliser solution
+cj14.	TOBRAMYCIN 300mg/4mL nebuliser solution
+cj15.	TOBI PODHALER 28mg inhalation powder capsules with device
+cj16.	TOBRAMYCIN 28mg inhalation powder capsules with device
+e112.	Crystapen 1megaunit injection (pdr for recon)
+e112.	Crystapen 600mg injection (pdr for recon)
+e116.	Crystapen 1200mg injection (pdr for recon)
+e11t.	Benzylpenicillin 1200mg injection (pdr for recon)
+e11w.	Benzylpenicillin 600mg injection (pdr for recon)
+e153.	Penicillin V 250mg tablet
+e153.	Phenoxymethylpenicillin 250mg tablet
+e155.	Phenoxymethylpenicillin 125mg/5mL oral solution
+e157.	Phenoxymethylpenicillin 250mg/5mL oral solution
+e15v.	Tenkicin 250mg tablet
+e221.	Flucloxacillin 250mg capsule
+e222.	Flucloxacillin 500mg capsule
+e223.	Floxapen 250mg capsule
+e224.	Floxapen 500mg capsule
+e225.	Floxapen 125mg/5mL syrup
+e226.	Floxapen Forte 250mg/5mL syrup
+e227.	Floxapen 250mg injection (pdr for recon)
+e228.	Floxapen 500mg injection (pdr for recon)
+e229.	Floxapen 1g injection (pdr for recon)
+e22a.	Ladropen 250mg capsule
+e22b.	Ladropen 500mg capsule
+e22C.	FLUCLOXACILLIN 125mg/5mL s/f oral solution
+e22D.	FLUCLOXACILLIN 250mg/5mL s/f oral solution
+e22j.	Flucloxacillin 125mg/5mL oral solution
+e22k.	Flucloxacillin 250mg/5mL oral solution
+e22l.	Fluclomix 250 capsule
+e22m.	Fluclomix 500 capsule
+e22q.	Flucloxacillin 250mg injection (pdr for recon)
+e22r.	Flucloxacillin 500mg injection (pdr for recon)
+e22s.	Flucloxacillin 1g injection (pdr for recon)
+e242.	Temocillin 1g injection (pdr for recon)
+e245.	Negaban 1g injection (pdr for recon)
+e311.	Amoxicillin 250mg capsule
+e311.	Amoxycillin 250mg capsule
+e312.	Amoxicillin 500mg capsule
+e312.	Amoxycillin 500mg capsule
+e315.	Amoxil 250mg capsule
+e316.	Amoxil 500mg capsule
+e319.	Amoxil SF 125mg/5mL s/f suspension
+e31a.	Amoxil SF 250mg/5mL s/f suspension
+e31b.	Amoxil 125mg/1.25mL paediatric suspension
+e31d.	Amoxil 3g/sachet s/f powder
+e31e.	Amoxil 250mg injection (pdr for recon)
+e31f.	Amoxil 500mg injection (pdr for recon)
+e31g.	Amoxil 1g injection (pdr for recon)
+e31h.	Augmentin 375mg tablet
+e31i.	Augmentin 375mg s/f dispersible tablet
+e31k.	Augmentin 125mg/31mg/5mL s/f suspension
+e31l.	Augmentin 600mg injection (pdr for recon)
+e31m.	Augmentin 1.2g injection (pdr for recon)
+e31p.	Almodan 125mg/5mL syrup
+e31P.	Augmentin 250mg/62mg/5mL s/f suspension
+e31Q.	Co-amoxiclav 125mg/31mg/5mL s/f suspension
+e31T.	Augmentin 625mg tablet
+e31t.	Co-amoxiclav 250mg/125mg tablet
+e31u.	Co-amoxiclav 250mg/125mg s/f dispersible tablet
+e31U.	Co-amoxiclav 500mg/125mg tablet
+e31X.	Co-amoxiclav 400mg/57mg/5mL s/f suspension
+e31x.	Co-amoxiclav 500mg/100mg injection (pdr for recon)
+e31Y.	Augmentin Duo 400mg/57mg/5mL s/f suspension
+e31y.	Co-amoxiclav 1g/200mg injection (pdr for recon)
+e31z.	Co-amoxiclav 250mg/62mg/5mL s/f suspension
+e321.	Ampicillin 250mg capsule
+e322.	Ampicillin 500mg capsule
+e323.	Ampicillin 125mg/5mL oral suspension
+e324.	Ampicillin 250mg/5mL oral suspension
+e32F.	Ampicillin 500mg injection (pdr for recon)
+e32h.	Penbritin 250mg capsule
+e32i.	Penbritin 500mg capsule
+e32k.	Penbritin 125mg/5mL syrup
+e32l.	Penbritin 250mg/5mL syrup
+e32o.	Penbritin 500mg injection (pdr for recon)
+e335.	Magnapen capsule
+e336.	Magnapen syrup
+e337.	Magnapen 500mg injection (pdr for recon)
+e339.	Co-fluampicil 250mg/250mg capsule
+e33a.	Co-fluampicil 125mg/125mg/5mL elixir
+e33b.	Co-fluampicil 250mg/250mg injection (pdr for recon)
+e375.	Tazocin 2g/250mg injection (pdr for recon)
+e377.	Tazocin 4g/500mg injection (pdr for recon)
+e3A1.	Respillin 250mg capsule
+e3A2.	Respillin 500mg capsule
+e3A7.	Amiclav 250mg/125mg tablet
+e3A8.	Ranclav 375mg tablet
+e3A9.	Ranclav 625mg tablet
+e3AA.	Ranclav 125mg/31mg s/f suspension
+e3AB.	Ranclav 250mg/62mg s/f suspension
+e3z1.	Amoram 250mg capsule
+e3z2.	Amoram 500mg capsule
+e3z5.	Amix 250 capsule
+e3z6.	Amix 500 capsule
+e3z7.	Galenamox 250mg capsule
+e3z8.	Galenamox 500mg capsule
+e3z9.	Galenamox 125mg/5mL suspension
+e3za.	Galenamox 250mg/5mL suspension
+e3zk.	Amoxicillin 125mg/5mL s/f oral suspension
+e3zk.	Amoxycillin 125mg/5mL s/f oral suspension
+e3zm.	Amoxicillin 125mg/5mL oral suspension
+e3zm.	Amoxycillin 125mg/5mL oral suspension
+e3zn.	Amoxicillin 250mg/5mL oral suspension
+e3zn.	Amoxycillin 250mg/5mL oral suspension
+e3zo.	Amoxicillin 125mg/1.25mL paediatric suspension
+e3zo.	Amoxycillin 125mg/1.25mL paediatric suspension
+e3zq.	Amoxicillin 3g/sachet s/f powder
+e3zq.	Amoxycillin 3g/sachet s/f powder
+e3zr.	Amoxicillin 250mg injection (pdr for recon)
+e3zr.	Amoxycillin 250mg injection (pdr for recon)
+e3zs.	Amoxicillin 500mg injection (pdr for recon)
+e3zs.	Amoxycillin 500mg injection (pdr for recon)
+e3zt.	Amoxicillin 1g injection (pdr for recon)
+e3zt.	Amoxycillin 1g injection (pdr for recon)
+e3zu.	Amoxicillin 250mg/5mL s/f oral suspension
+e3zu.	Amoxycillin 250mg/5mL s/f oral suspension
+e447.	Timentin 3.2g injection (pdr for recon)
+e521.	Selexid 200mg tablet
+e52w.	Pivmecillinam hydrochloride 200mg tablet
+e612.	Distaclor 125mg/5mL suspension
+e613.	Distaclor 250mg/5mL suspension
+e614.	Cefaclor 250mg capsule
+e615.	Cefaclor 125mg/5mL suspension
+e616.	Cefaclor 250mg/5mL suspension
+e617.	Distaclor 500mg capsule
+e618.	Cefaclor 500mg capsule
+e619.	Distaclor MR 375mg m/r tablet
+e61a.	Cefaclor 375mg m/r tablet
+e61A.	Keftid 250mg capsule
+e61B.	Keftid 500mg capsule
+e61C.	Cefaclor 125mg/5mL s/f suspension
+e61D.	Cefaclor 250mg/5mL s/f suspension
+e61E.	Keftid 125mg/5mL s/f suspension
+e61F.	Keftid 250mg/5mL s/f suspension
+e61G.	Bacticlor MR 375mg m/r tablet
+e621.	Baxan 500mg capsule
+e622.	Baxan 125mg/5mL suspension
+e623.	Baxan 250mg/5mL suspension
+e624.	Baxan 500mg/5mL suspension
+e625.	Cefadroxil 125mg/5mL suspension
+e626.	Cefadroxil 250mg/5mL suspension
+e627.	Cefadroxil 500mg capsule
+e62z.	Cefadroxil 500mg/5mL suspension
+e631.	Claforan 500mg injection (pdr for recon)
+e632.	Claforan 1g injection (pdr for recon)
+e633.	Claforan 2g injection (pdr for recon)
+e63x.	Cefotaxime 500mg injection (pdr for recon)
+e63y.	Cefotaxime 1g injection (pdr for recon)
+e63z.	Cefotaxime 2g injection (pdr for recon)
+e641.	Mefoxin 1g injection (pdr for recon)
+e642.	Mefoxin 2g injection (pdr for recon)
+e64y.	Cefoxitin 1g injection (pdr for recon)
+e64z.	Cefoxitin 2g injection (pdr for recon)
+e661.	Fortum 250mg injection (pdr for recon)
+e662.	Fortum 500mg injection (pdr for recon)
+e663.	Fortum 1g injection (pdr for recon)
+e664.	Fortum 2g injection (pdr for recon)
+e667.	Fortum 3g injection (pdr for recon)
+e669.	Kefadim 1g injection (pdr for recon)
+e66A.	Kefadim 2g injection (pdr for recon)
+e66t.	Ceftazidime 3g injection
+e66w.	Ceftazidime 500mg injection (pdr for recon)
+e66x.	Ceftazidime 1g injection (pdr for recon)
+e66y.	Ceftazidime 2g injection (pdr for recon)
+e681.	Zinacef 250mg injection (pdr for recon)
+e682.	Zinacef 750mg injection (pdr for recon)
+e683.	Zinacef 1.5g injection (pdr for recon)
+e684.	Zinnat 125mg tablet
+e685.	Zinnat 250mg tablet
+e686.	Cefuroxime 125mg tablet
+e687.	Cefuroxime 250mg tablet
+e689.	Zinnat 125mg/5mL suspension
+e68a.	Cefuroxime 125mg/5mL suspension
+e68b.	Zinnat 125mg/sachet granules
+e68c.	Cefuroxime 125mg/sachet granules
+e68x.	Cefuroxime 250mg injection (pdr for recon)
+e68y.	Cefuroxime 750mg injection (pdr for recon)
+e68z.	Cefuroxime 1.5g injection (pdr for recon)
+e691.	Cefalexin 250mg capsule
+e691.	Cephalexin 250mg capsule
+e692.	Cefalexin 500mg capsule
+e692.	Cephalexin 500mg capsule
+e693.	Cefalexin 250mg tablet
+e693.	Cephalexin 250mg tablet
+e694.	Cefalexin 500mg tablet
+e694.	Cephalexin 500mg tablet
+e695.	Cefalexin 125mg/5mL oral suspension
+e695.	Cephalexin 125mg/5mL oral suspension
+e696.	Cefalexin 250mg/5mL oral suspension
+e696.	Cephalexin 250mg/5mL oral suspension
+e697.	Cefalexin 500mg/5mL syrup
+e697.	Cephalexin 500mg/5mL syrup
+e698.	Ceporex 250mg capsule
+e699.	Ceporex 500mg capsule
+e69a.	Ceporex 250mg tablet
+e69b.	Ceporex 500mg tablet
+e69f.	Ceporex 125mg/5mL syrup
+e69g.	Ceporex 250mg/5mL syrup
+e69h.	Ceporex 500mg/5mL syrup
+e69i.	Keflex 250mg capsule
+e69j.	Keflex 500mg capsule
+e69k.	Keflex 250mg tablet
+e69l.	Keflex 500mg tablet
+e69m.	Keflex 125mg/5mL suspension
+e69n.	Keflex 250mg/5mL suspension
+e6b2.	Kefadol 1g injection (pdr for recon)
+e6c1.	Kefzol 500mg injection (pdr for recon)
+e6c2.	Kefzol 1g injection (pdr for recon)
+e6d1.	Velosef 250mg capsule
+e6d2.	Velosef 500mg capsule
+e6d3.	Velosef 250mg/5mL syrup
+e6d4.	Velosef 500mg injection (pdr for recon)
+e6d5.	Velosef 1g injection (pdr for recon)
+e6d6.	Nicef 250mg capsule
+e6d7.	Nicef 500mg capsule
+e6dv.	Cefradine 250mg capsule
+e6dv.	Cephradine 250mg capsule
+e6dw.	Cefradine 500mg capsule
+e6dw.	Cephradine 500mg capsule
+e6dx.	Cefradine 250mg/5mL syrup
+e6dx.	Cephradine 250mg/5mL syrup
+e6dy.	Cefradine 500mg injection (pdr for recon)
+e6dy.	Cephradine 500mg injection (pdr for recon)
+e6dz.	Cefradine 1g injection (pdr for recon)
+e6dz.	Cephradine 1g injection (pdr for recon)
+e6f1.	Azactam 500mg injection (pdr for recon)
+e6f2.	Azactam 1g injection (pdr for recon)
+e6f3.	Azactam 2g injection (pdr for recon)
+e6f5.	Aztreonam 500mg injection (pdr for recon)
+e6f6.	Aztreonam 1g injection (pdr for recon)
+e6f7.	Aztreonam 2g injection (pdr for recon)
+e6f9.	AZTREONAM 75mg powder and solvent for nebuliser solution
+e6fA.	CAYSTON 75mg powder and solvent for nebuliser solution
+e6g2.	Imipenem+cilastatin 500mg/500mg intravenous infusion (pdr for recon)
+e6g8.	Primaxin IV 500mg Monovial
+e6h1.	Cefixime 200mg tablet
+e6h2.	Cefixime 100mg/5mL paediatric oral suspension
+e6h3.	Suprax 200mg tablet
+e6k0.	Cefpodoxime 100mg tablet
+e6k1.	Orelox 100mg tablets x10
+e6k2.	Cefpodoxime 40mg/5mL paediatric suspension
+e6k3.	Orelox 40mg/5mL paediatric suspension
+e6m1.	Rocephin 250mg injection (pdr for recon)
+e6m2.	Rocephin 1g injection (pdr for recon)
+e6m3.	Rocephin 2g injection (pdr for recon)
+e6m4.	Ceftriaxone 250mg injection (pdr for recon)
+e6m5.	Ceftriaxone 1g injection (pdr for recon)
+e6m6.	Ceftriaxone 2g injection (pdr for recon)
+e6o1.	Cefpirome 1g injection (pdr for recon)
+e6o2.	Cefpirome 2g injection (pdr for recon)
+e6o3.	Cefrom 1g injection (pdr for recon)
+e6o4.	Cefrom 2g injection (pdr for recon)
+e6p1.	Cefprozil 250mg tablet
+e6p2.	Cefprozil 500mg tablet
+e6p3.	Cefprozil 250mg/5mL oral suspension
+e6p4.	Cefzil 250mg tablet
+e6p5.	Cefzil 500mg tablet
+e6p6.	Cefzil 250mg/5mL oral suspension
+e711.	Tetracycline 250mg capsule
+e712.	Tetracycline 250mg tablet
+e714.	Achromycin 250mg capsule
+e71c.	Deteclo tablet
+e741.	Ledermycin 150mg capsule
+e74y.	Demeclocycline hydrochloride 150mg capsule
+e752.	Doxylar 100mg capsule
+e754.	Vibramycin 50mg capsule
+e755.	Vibramycin 100mg capsule
+e757.	Vibramycin-D 100mg dispersible tablet
+e758.	Doxycycline 100mg capsule
+e759.	Demix 100 capsule
+e75B.	Demix 50 capsule
+e75D.	Vibramycin Acne Pack 50mg capsule
+e75E.	Doxylar 50mg capsule
+e75H.	EFRACEA 40mg m/r capsules
+e75s.	DOXYCYCLINE 40mg m/r capsules
+e75x.	Doxycycline 50mg capsule
+e75z.	Doxycycline 100mg dispersible tablet
+e762.	Tetralysal 300 capsule
+e76z.	Lymecycline 408mg capsule
+e771.	Minocin 50mg tablet
+e772.	Minocin 100mg tablet
+e773.	Minocycline 100mg m/r capsule
+e774.	Minocin MR 100mg m/r capsule
+e775.	Blemix 50 tablet
+e776.	Aknemin 50mg capsule
+e777.	Aknemin 100mg capsule
+e77C.	Blemix 100 tablet
+e77D.	Sebomin MR 100mg m/r capsule
+e77F.	Sebren MR 100mg m/r capsule
+e77w.	Minocycline 50mg capsule
+e77x.	Minocycline 100mg capsule
+e77y.	Minocycline 50mg tablet
+e77z.	Minocycline 100mg tablet
+e782.	Oxytetracycline dihydrate 250mg tablet
+e789.	Oxymycin 250mg tablet
+e78b.	Terramycin 250mg tablet
+e78d.	Oxytetramix 250 tablet
+e811.	Gentamicin 40mg/1mL injection ampoule
+e816.	Gentamicin 120mg/1.5mL injection
+e818.	Gentamicin 5mg/1mL intrathecal injection ampoule
+e81a.	Gentamicin 20mg/2mL injection vial
+e81e.	Cidomycin 20mg/2mL paediatric injection
+e81f.	Cidomycin 5mg/1mL intrathecal injection ampoule
+e81h.	Genticin 80mg/2mL injection ampoule
+e821.	Amikin 500mg/2mL injection
+e822.	Amikin 100mg/2mL paediatric injection
+e82y.	Amikacin 500mg/2mL injection
+e82z.	Amikacin 100mg/2mL paediatric injection
+e853.	Nivemycin 500mg tablet
+e855.	Neomycin sulphate 500mg tablet
+e861.	Netillin 15mg/1.5mL injection
+e86z.	Netilmicin 150mg/1.5mL injection
+e871.	Nebcin 20mg/2mL injection
+e873.	Nebcin 80mg/2mL injection
+e87x.	Tobramycin 20mg/2mL injection
+e87y.	Tobramycin 40mg/1mL injection
+e87z.	Tobramycin 80mg/2mL injection
+e911.	Erythromycin 250mg e/c tablet
+e912.	Erythromycin 500mg tablet
+e913.	Erythromycin stearate 250mg tablet
+e91a.	Erymax 250mg e/c granules in capsule
+e91b.	Erythrocin 250mg tablet
+e91c.	Erythrocin 500mg tablet
+e91C.	Erythroped P.I. 125mg/5mL sugar free suspension 140mL
+e91d.	Erythromycin 1g infusion (pdr for recon)
+e91D.	Erythroped 250mg/5mL sugar free suspension 140mL
+e91E.	Erythromycin 125mg/5mL s/f suspension
+e91F.	Erythromycin 250mg/5mL s/f suspension
+e91H.	Rommix 250 e/c tablet
+e91I.	Kerymax 250mg e/c granules in capsule
+e91K.	Erythrocin 1g infusion (pdr for recon)
+e91L.	Erythromycin 250mg capsule
+e91m.	Erythroped Forte 500mg/5mL suspension
+e91n.	Erythroped A 500mg tablet
+e91R.	Erythromycin 500mg/5mL s/f suspension
+e91S.	Tiloryth 250mg e/c granules in capsule
+e91u.	Erythromycin 125mg/5mL suspension
+e91v.	Erythromycin 250mg/5mL suspension
+e91w.	Erythromycin 500mg/5mL suspension
+e921.	Clarithromycin 250mg tablet
+e922.	Klaricid 250mg tablets 14CP
+e923.	Clarithromycin 125mg/5mL paediatric suspension
+e924.	Klaricid 125mg/5mL paediatric suspension
+e925.	Clarithromycin 500mg injection (pdr for recon)
+e926.	Klaricid IV 500mg injection (pdr for recon)
+e927.	Clarithromycin 500mg tablet
+e928.	Klaricid 500mg tablet
+e929.	Clarithromycin 500mg m/r tablet
+e92A.	Klaricid XL 500mg m/r tablet
+e92B.	Clarithromycin 250mg/sachet granules
+e92C.	Klaricid adult 250mg/sachet granules
+e92D.	Clarithromycin 250mg/5mL paediatric suspension
+e92E.	Klaricid 250mg/5mL paediatric suspension
+e92F.	Clarithromycin 125mg granules straw
+e92G.	Clarosip 125mg granules straw
+e92H.	Clarithromycin 187.5mg granules straw
+e92I.	Clarosip 187.5mg granules straw
+e92J.	Clarithromycin 250mg granules straw
+e92K.	Clarosip 250mg granules straw
+e92M.	FEBZIN XL 500mg m/r tablets
+e92N.	MYCIFOR XL 500mg m/r tablets
+e931.	Azithromycin 250mg capsule
+e932.	Azithromycin 200mg/5mL oral suspension
+e933.	Zithromax 250mg capsule
+e937.	Azithromycin 500mg tablet
+e938.	Zithromax 500mg tablet
+e939.	CLAMELLE AZITHROMYCIN 500mg tablets
+e961.	Telithromycin 400mg tablet
+e96a.	Ketek 400mg tablet
+ea11.	Dalacin C 75mg capsule
+ea12.	Dalacin C 150mg capsule
+ea1v.	Clindamycin 75mg capsule
+ea1w.	Clindamycin 150mg capsule
+eb26.	Kemicetine 1g injection (pdr for recon)
+eb2u.	Chloramphenicol 250mg capsule
+eb2z.	Chloramphenicol 1g injection (pdr for recon)
+eb31.	Colomycin 1.5million units tablet
+eb32.	Colomycin 250,000units/5mL syrup
+eb33.	Colomycin 500,000units injection (pdr for recon)
+eb34.	Colomycin 1million units injection (pdr for recon)
+eb36.	Promixin 1million international units powder for nebulisation
+eb37.	Colomycin 2million units injection (pdr for recon)
+eb38.	COLOBREATHE 1,662,500iu inhalation powder capsules
+eb3t.	COLISTIMETHATE SODIUM 1,662,500iu inhalation powder capsules
+eb3u.	Colistimethate sodium 2million units injection (pdr for recon)
+eb3v.	Colistimethate sodium 1million international units powder for nebulisation
+eb3w.	Colistin sulphate 1.5million units tablet
+eb3x.	Colistin sulphate 250,000units/5mL syrup
+eb3y.	Colistimethate sodium 500,000units injection (pdr for recon)
+eb3y.	Colistin sulphomethate sodium 500,000units injection (pdr for recon)
+eb3z.	Colistimethate sodium 1million units injection (pdr for recon)
+eb3z.	Colistin sulphomethate sodium 1million units injection (pdr for recon)
+eb41.	Fucidin 250mg tablet
+eb42.	Fucidin 250mg/5mL suspension
+eb4x.	Sodium fusidate 250mg tablet
+eb4y.	Fusidic acid 250mg/5mL suspension
+eb72.	Vancocin 250mg matrigel capsule
+eb76.	Vancocin CP 1g injection (pdr for recon)
+eb7v.	Vancomycin 1g injection (pdr for recon)
+eb7w.	Vancomycin 125mg capsule
+eb7x.	Vancomycin 250mg capsule
+eb7z.	Vancomycin 500mg injection (pdr for recon)
+eb81.	Teicoplanin 200mg injection (pdr for recon)+diluent
+eb82.	Teicoplanin 400mg injection (pdr for recon)+diluent
+eb83.	Targocid 400mg injection (pdr for recon)+diluent
+eb84.	Targocid 200mg injection (pdr for recon)+diluent
+eb92.	Meropenem 500mg injection (pdr for recon)
+eb93.	Meropenem 1g injection (pdr for recon)
+eb95.	Meronem 500mg injection (pdr for recon)
+eb96.	Meronem 1g injection (pdr for recon)
+ebA1.	Synercid infusion (pdr for recon)
+ebB1.	Zyvox 600mg tablet
+ebB2.	Zyvox 600mg/300mL infusion solution
+ebB3.	Zyvox 100mg/5mL granules for oral suspension
+ebBx.	Linezolid 100mg/5mL granules for oral suspension
+ebBy.	Linezolid 600mg/300mL infusion solution
+ebBz.	Linezolid 600mg tablet
+ebC1.	Ertapenem 1g i-v infusion (pdr for recon)
+ebC2.	INVANZ 1g i-v infusion (pdr for recon)
+ebD1.	Cubicin 350mg powder for solution for injection
+ebD2.	CUBICIN 500mg powder for solution for injection
+ebDy.	DAPTOMYCIN 500mg powder for solution for injection
+ebDz.	Daptomycin 350mg powder for solution for injection
+ebE1.	Tygacil 50mg powder for solution for injection
+ebEz.	Tigecycline 50mg powder for solution for injection
+ebF1.	DORIBAX 500mg powder for solution for injection
+ebFz.	DORIPENEM 500mg powder for solution for injection
+ebG1.	XIFAXANTA 200mg tablets
+ebG2.	RIFAXIMIN 200mg tablets
+ebG3.	TARGAXAN 550mg tablets
+ebG4.	RIFAXIMIN 550mg tablets
+ebH1.	DIFICLIR 200mg tablets
+ebH2.	FIDAXOMICIN 200mg tablets
+ebK1.	SIVEXTRO 200mg tablets
+ebK2.	TEDIZOLID PHOSPHATE 200mg tablets
+ebK3.	SIVEXTRO 200mg powder for concentrate for soln for infusion
+ebK4.	TEDIZOLID PHOSPHATE 200mg powder for solution for injection
+ec11.	Co-trimoxazole 480mg tablet
+ec13.	Co-trimoxazole 960mg tablet
+ec16.	Co-trimoxazole 480mg/5mL oral suspension
+ec19.	Co-trimoxazole 480mg/5mL intravenous infusion
+ec1A.	Co-trimoxazole 240mg/5mL paediatric s/f suspension
+ec2l.	Septrin 480mg tablet
+ec2n.	Septrin Forte 960mg tablet
+ec2p.	Septrin Adult suspension
+ec2q.	Septrin Paediatric s/f suspension
+ec2s.	Septrin 480mg/5mL intravenous infusion
+ec61.	Sulfadiazine 500mg tablet
+ec61.	Sulphadiazine 500mg tablet
+ecc1.	Trimethoprim 100mg tablet
+ecc2.	Trimethoprim 200mg tablet
+ecc4.	Trimethoprim 50mg/5mL s/f suspension
+ecc5.	Trimethoprim 100mg/5mL injection
+ecc9.	Monotrim 100mg tablet
+ecca.	Monotrim 200mg tablet
+eccb.	Monotrim 50mg/5mL s/f suspension
+eccc.	Monotrim 100mg/5mL injection
+ecci.	Trimogal 100mg tablet
+eccj.	Trimogal 200mg tablet
+ecck.	Trimopan 100mg tablet
+eccl.	Trimopan 200mg tablet
+ed11.	Capastat 1g injection (pdr for recon)
+ed1z.	Capreomycin 1g injection (pdr for recon)
+ed22.	Cycloserine 250mg capsule
+ed3t.	Ethambutol hydrochloride 100mg tablet
+ed3u.	Ethambutol hydrochloride 400mg tablet
+ed41.	Isoniazid 50mg tablet
+ed42.	Isoniazid 100mg tablet
+ed45.	Isoniazid 50mg/2mL injection
+ed51.	Zinamide 500mg tablet
+ed5y.	Pyrazinamide 500mg tablet
+ed61.	Rifampicin 150mg capsule
+ed62.	Rifampicin 300mg capsule
+ed63.	Rifampicin 100mg/5mL syrup
+ed64.	Rifadin 150mg capsule
+ed65.	Rifadin 300mg capsule
+ed66.	Rifadin 100mg/5mL syrup
+ed68.	Rifadin 600mg injection+solvent
+ed69.	Rimactane 150mg capsule
+ed6a.	Rimactane 300mg capsule
+ed6b.	Rimactane 100mg/5mL syrup
+ed6d.	Rifater tablet
+ed6e.	Rifinah 150 tablet
+ed6f.	Rifinah 300 tablet
+ed6g.	Rimactazid-150 tablet
+ed6h.	Rimactazid-300 tablet
+ed6i.	Rifampicin 600mg injection+solvent
+ed6n.	Rifampicin+isoniazid 150mg/100mg tablet
+ed6p.	Rifampicin+isoniazid 300mg/150mg tablet
+ed6q.	VORACTIV 150mg/75mg/400mg/275mg tablets
+ed81.	Rifabutin 150mg capsule
+ed82.	Mycobutin 150mg capsule
+ed91.	SIRTURO 100mg tablets
+ed92.	BEDAQUILINE 100mg tablets
+edA1.	DELTYBA 50mg tablets
+edA2.	DELAMANID 50mg tablets
+edB1.	GRANUPAS 4g/sachet gastro-resistant granules
+edB2.	PARA-AMINOSALICYLIC ACID 4g/sachet gastro-resistant granules
+ee11.	Dapsone 50mg tablet
+ee12.	Dapsone 100mg tablet
+ee21.	Lamprene 100mg capsule
+ee2z.	Clofazimine 100mg capsule
+ef11.	Metronidazole 200mg tablet
+ef12.	Metronidazole 400mg tablet
+ef17.	Metronidazole 500mg suppository
+ef18.	Metronidazole 1g suppository
+ef1A.	Metronidazole 200mg/5mL suspension
+ef1c.	Flagyl 200mg tablet
+ef1d.	Flagyl 400mg tablet
+ef1D.	Metronidazole 500mg tablet
+ef1h.	Flagyl 500mg suppository
+ef1i.	Flagyl 1g suppository
+ef1k.	Flagyl Compak tablet+pessary
+ef1p.	Metrolyl 500mg suppository
+ef1q.	Metrolyl 1g suppository
+ef1y.	Flagyl 500mg/100mL infusion
+ef21.	Fasigyn 500mg tablet
+ef2x.	Tinidazole 500mg tablet
+eg11.	Nitrofurantoin 50mg tablet
+eg12.	Nitrofurantoin 100mg tablet
+eg13.	Furadantin 50mg tablet
+eg14.	Furadantin 100mg tablet
+eg15.	Furadantin 25mg/5mL s/f suspension
+eg16.	Macrodantin 50mg capsule
+eg17.	Macrodantin 100mg capsule
+eg18.	Urantoin 50mg tablet
+eg19.	Urantoin 100mg tablet
+eg1A.	Macrobid 100mg m/r capsule
+eg1w.	Nitrofurantoin 100mg m/r capsule
+eg1x.	Nitrofurantoin 25mg/5mL s/f suspension
+eg1y.	Nitrofurantoin 50mg capsule
+eg1z.	Nitrofurantoin 100mg capsule
+eg31.	Hiprex 1g tablet
+eg3z.	Hexamine hippurate 1g tablet
+eg3z.	Methenamine hippurate 1g tablet
+eg41.	Nalidixic acid 500mg tablet
+eg42.	Nalidixic acid 300mg/5mL suspension
+eg43.	Mictral 660mg/sachet effervescent granules
+eg44.	Negram 500mg tablet
+eg45.	Negram 300mg/5mL s/f suspension
+eg46.	Uriben 300mg/5mL suspension
+eg61.	Ciproxin 250mg tablet
+eg62.	Ciproxin 100mg/50mL intravenous infusion
+eg63.	Ciproxin 200mg/100mL intravenous infusion
+eg64.	Ciproxin 500mg tablet
+eg65.	Ciproxin 750mg tablet
+eg66.	Ciproxin 400mg/200mL intravenous infusion
+eg67.	Ciprofloxacin 100mg tablet
+eg68.	Ciproxin 100mg tablet
+eg69.	Ciprofloxacin 5g/100mL oral suspension
+eg6A.	Ciproxin 5g/100mL oral suspension
+eg6u.	Ciprofloxacin 400mg/200mL intravenous infusion
+eg6v.	Ciprofloxacin 750mg tablet
+eg6w.	Ciprofloxacin 500mg tablet
+eg6x.	Ciprofloxacin 250mg tablet
+eg6y.	Ciprofloxacin 100mg/50mL intravenous infusion
+eg6z.	Ciprofloxacin 200mg/100mL intravenous infusion
+eg81.	Ofloxacin 200mg tablet
+eg82.	Tarivid 200mg tablet
+eg87.	Tarivid 400mg tablet
+eg88.	Ofloxacin 400mg tablet
+eg91.	Norfloxacin 400mg tablet
+eg92.	Utinor 400mg tablets x6
+egA1.	Monuril 3g/sachet granules for suspension
+egA3.	Fosfomycin 3g/sachet granules for suspension
+egC1.	Levofloxacin 250mg tablet
+egC2.	Levofloxacin 500mg tablet
+egC3.	Levofloxacin 500mg/100mL intravenous infusion
+egC4.	Tavanic 250mg tablet
+egC5.	Tavanic 500mg tablet
+egC6.	Tavanic 500mg/100mL intravenous infusion
+egCD.	EVOXIL 500mg/100mL solution for infusion
+egCE.	EVOXIL 250mg tablets
+egD1.	Moxifloxacin 400mg tablet
+egD2.	Avelox 400mg tablet
+egD3.	AVELOX 400mg/250mL solution for infusion
+egD4.	MOXIFLOXACIN 400mg/250mL solution for infusion
+x00Y1	Zithromax 200mg/5mL oral suspension
+x00YU	Suprax 100mg/5mL paediatric oral suspension
+x025m	Flagyl S 200mg/5mL suspension

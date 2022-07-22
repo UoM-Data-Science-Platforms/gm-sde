@@ -1,0 +1,15 @@
+﻿433146000	CKD stage 5
+714152005	Chronic kidney disease stage 5 on dialysis
+140101000119109	Hypertension in chronic kidney disease stage 5 due to type II diabetes mellitus
+711000119100	Chronic kidney disease stage 5 due to type II diabetes mellitus
+129161000119100	Chronic kidney disease stage 5 due to hypertension (disorder)
+324541000000105	Chronic kidney disease stage 5 without proteinuria
+324501000000107	Chronic kidney disease stage 5 with proteinuria
+153851000119106	Malignant hypertensive chronic kidney disease stage 5 (disorder)
+96711000119105	Hypertensive heart AND chronic kidney disease stage 5 (disorder)
+90761000119106	Chronic kidney disease stage 5 due to type I diabetes mellitus
+285011000119108	Chronic kidney disease stage 5 due to benign hypertension
+950251000000106	Chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A1
+950291000000103	Chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A2
+950311000000102	Chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A3
+691411000119101	Anaemia in chronic kidney disease stage 5

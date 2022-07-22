@@ -1,0 +1,29 @@
+^ESCT1301675	Victoza 6mg/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+^ESCT1301676	Victoza 6mg/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd) 2 pre-filled disposable injection
+^ESCT1301677	Victoza 6mg/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd) 3 pre-filled disposable injection
+^ESCT1302849	Xultophy 100units/ml / 3.6mg/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+^ESCT1302850	Xultophy 100units/ml / 3.6mg/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd) 5 pre-filled disposable injection
+^ESCT1302898	Xultophy 100units/ml / 3.6mg/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd) 3 pre-filled disposable injection
+^ESCT1302935	Saxenda 6mg/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)
+^ESCT1302936	Saxenda 6mg/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd) 5 pre-filled disposable injection
+^ESCT1372919	Saxenda 6mg/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd) 3 pre-filled disposable injection
+^ESCTIN1100839	Insulin degludec 100units/ml / Liraglutide 3.6mg/ml solution for injection 3ml pre-filled disposable devices 5 pre-filled disposable injection
+^ESCTIN1103030	Insulin degludec 100units/ml / Liraglutide 3.6mg/ml solution for injection 3ml pre-filled disposable devices
+^ESCTIN1123213	Insulin degludec 100units/ml / Liraglutide 3.6mg/ml solution for injection 3ml pre-filled disposable devices 3 pre-filled disposable injection
+^ESCTLI1154306	Liraglutide 6mg/ml solution for injection 3ml pre-filled disposable devices 5 pre-filled disposable injection
+^ESCTLI985904	Liraglutide 6mg/ml solution for injection 3ml pre-filled disposable devices 2 pre-filled disposable injection
+^ESCTLI985905	Liraglutide 6mg/ml solution for injection 3ml pre-filled disposable devices 3 pre-filled disposable injection
+^ESCTLI985909	Liraglutide 6mg/ml solution for injection 3ml pre-filled disposable devices
+^ESCTSA1154305	Saxenda 6mg/ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd)
+^ESCTSA1154307	Saxenda 6mg/ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd) 5 pre-filled disposable injection
+^ESCTVI985906	Victoza 6mg/ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd)
+^ESCTVI985907	Victoza 6mg/ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd) 2 pre-filled disposable injection
+^ESCTVI985908	Victoza 6mg/ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd) 3 pre-filled disposable injection
+^ESCTXU1100840	Xultophy 100units/ml / 3.6mg/ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd)
+^ESCTXU1100841	Xultophy 100units/ml / 3.6mg/ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd) 5 pre-filled disposable injection
+^ESCTXU1123224	Xultophy 100units/ml / 3.6mg/ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd) 3 pre-filled disposable injection
+INSO98875NEMIS	Insulin Degludec And Liraglutide  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen
+LISO37216NEMIS	Liraglutide  Solution for injection in pre-filled pen  6 mg/ml, 3 ml pen
+SASO119244NEMIS	Saxenda  Solution for injection  6 mg/ml, 3 ml pre-filled pen
+VISO37220NEMIS	Victoza  Solution for injection in pre-filled pen  6 mg/ml, 3 ml pen
+XUSO98877NEMIS	Xultophy  Solution for injection  100 units/ml + 3.6 mg/ml, 3 ml pen

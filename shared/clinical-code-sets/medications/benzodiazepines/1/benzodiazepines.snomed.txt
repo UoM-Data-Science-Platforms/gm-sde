@@ -1,0 +1,1956 @@
+321241004	Alprazolam 250microgram tablets
+4658311000001107	Alprazolam 250microgram tablets
+4658511000001101	Xanax 250microgram tablets
+4658611000001102	Xanax 250microgram tablets
+321242006	Alprazolam 500microgram tablets
+4659211000001109	Alprazolam 500microgram tablets
+4659411000001108	Xanax 500microgram tablets
+4659511000001107	Xanax 500microgram tablets
+321246009	Bromazepam 3mg tablets
+18503811000001106	Bromazepam 3mg tablets
+18503911000001101	Bromazepam 3mg tablets
+18504011000001103	Bromazepam 3mg tablets
+321248005	Chlordiazepoxide 10mg capsules
+1038211000001103	Chlordiazepoxide 10mg capsules
+1102811000001101	Chlordiazepoxide 10mg capsules
+28878111000001100	Chlordiazepoxide 10mg capsules
+610411000001101	Chlordiazepoxide 10mg capsules
+8425211000001106	Chlordiazepoxide 10mg capsules
+2303311000001105	Chlordiazepoxide 10mg capsules
+28962611000001106	Chlordiazepoxide 10mg capsules
+805211000001104	Chlordiazepoxide 10mg capsules
+2303811000001101	Chlordiazepoxide 10mg capsules
+218811000001104	Librium 10mg capsules
+2304311000001107	Librium 10mg capsules
+688011000001105	Chlordiazepoxide 10mg capsules
+4324411000001100	Chlordiazepoxide 10mg capsules
+2304511000001101	Chlordiazepoxide 10mg capsules
+28992511000001109	Chlordiazepoxide 10mg capsules
+511311000001108	Tropium 10mg capsules
+2304711000001106	Tropium 10mg capsules
+2304811000001103	Tropium 10mg capsules
+679411000001104	Chlordiazepoxide 10mg capsules
+2305111000001109	Chlordiazepoxide 10mg capsules
+2305311000001106	Chlordiazepoxide 10mg capsules
+28878211000001106	Chlordiazepoxide 10mg capsules
+3696311000001101	Chlordiazepoxide 10mg capsules
+3696411000001108	Chlordiazepoxide 10mg capsules
+3696511000001107	Chlordiazepoxide 10mg capsules
+7487911000001108	Chlordiazepoxide 10mg capsules
+7488011000001105	Chlordiazepoxide 10mg capsules
+11013611000001101	Chlordiazepoxide 10mg capsules
+11014111000001106	Chlordiazepoxide 10mg capsules
+11014311000001108	Chlordiazepoxide 10mg capsules
+15075111000001100	Chlordiazepoxide 10mg capsules
+15075211000001106	Chlordiazepoxide 10mg capsules
+29785511000001109	Chlordiazepoxide 10mg capsules
+17855311000001101	Chlordiazepoxide 10mg capsules
+17855411000001108	Chlordiazepoxide 10mg capsules
+17855511000001107	Chlordiazepoxide 10mg capsules
+21836311000001106	Chlordiazepoxide 10mg capsules
+21836411000001104	Chlordiazepoxide 10mg capsules
+23815311000001100	Chlordiazepoxide 10mg capsules
+23815511000001106	Chlordiazepoxide 10mg capsules
+30029711000001106	Chlordiazepoxide 10mg capsules
+28923211000001108	Chlordiazepoxide 10mg capsules
+28923311000001100	Chlordiazepoxide 10mg capsules
+30013111000001104	Chlordiazepoxide 10mg capsules
+30013311000001102	Chlordiazepoxide 10mg capsules
+38829611000001104	Chlordiazepoxide 10mg capsules
+38829811000001100	Chlordiazepoxide 10mg capsules
+321247000	Chlordiazepoxide 5mg capsules
+1170511000001109	Chlordiazepoxide 5mg capsules
+1324911000001101	Chlordiazepoxide 5mg capsules
+28877911000001103	Chlordiazepoxide 5mg capsules
+299111000001103	Chlordiazepoxide 5mg capsules
+8425111000001100	Chlordiazepoxide 5mg capsules
+2306111000001103	Chlordiazepoxide 5mg capsules
+28962511000001107	Chlordiazepoxide 5mg capsules
+620311000001103	Chlordiazepoxide 5mg capsules
+2306411000001108	Chlordiazepoxide 5mg capsules
+849211000001108	Librium 5mg capsules
+2306611000001106	Librium 5mg capsules
+307711000001103	Tropium 5mg capsules
+2306811000001105	Tropium 5mg capsules
+2306911000001100	Tropium 5mg capsules
+47111000001109	Chlordiazepoxide 5mg capsules
+4324311000001107	Chlordiazepoxide 5mg capsules
+2307111000001100	Chlordiazepoxide 5mg capsules
+28992411000001105	Chlordiazepoxide 5mg capsules
+202211000001104	Chlordiazepoxide 5mg capsules
+2307211000001106	Chlordiazepoxide 5mg capsules
+2307411000001105	Chlordiazepoxide 5mg capsules
+28878011000001101	Chlordiazepoxide 5mg capsules
+3696011000001104	Chlordiazepoxide 5mg capsules
+3696111000001103	Chlordiazepoxide 5mg capsules
+3696211000001109	Chlordiazepoxide 5mg capsules
+7487311000001107	Chlordiazepoxide 5mg capsules
+7487611000001102	Chlordiazepoxide 5mg capsules
+11012911000001100	Chlordiazepoxide 5mg capsules
+11013111000001109	Chlordiazepoxide 5mg capsules
+11013311000001106	Chlordiazepoxide 5mg capsules
+15075311000001103	Chlordiazepoxide 5mg capsules
+15075411000001105	Chlordiazepoxide 5mg capsules
+29785611000001108	Chlordiazepoxide 5mg capsules
+17855011000001104	Chlordiazepoxide 5mg capsules
+17855111000001103	Chlordiazepoxide 5mg capsules
+17855211000001109	Chlordiazepoxide 5mg capsules
+21834311000001100	Chlordiazepoxide 5mg capsules
+21834411000001107	Chlordiazepoxide 5mg capsules
+23816311000001105	Chlordiazepoxide 5mg capsules
+23816711000001109	Chlordiazepoxide 5mg capsules
+30029511000001101	Chlordiazepoxide 5mg capsules
+28923011000001103	Chlordiazepoxide 5mg capsules
+28923111000001102	Chlordiazepoxide 5mg capsules
+38829911000001105	Chlordiazepoxide 5mg capsules
+38830011000001100	Chlordiazepoxide 5mg capsules
+321250002	Chlordiazepoxide 10mg tablets
+1103311000001100	Chlordiazepoxide 10mg tablets
+1045411000001108	Chlordiazepoxide 10mg tablets
+33311000001100	Chlordiazepoxide 10mg tablets
+2455011000001106	Chlordiazepoxide 10mg tablets
+2455111000001107	Chlordiazepoxide 10mg tablets
+153811000001102	Tropium 10mg tablets
+2455311000001109	Tropium 10mg tablets
+2455411000001102	Tropium 10mg tablets
+8425711000001104	Chlordiazepoxide 10mg tablets
+8425811000001107	Chlordiazepoxide 10mg tablets
+8425911000001102	Chlordiazepoxide 10mg tablets
+11014911000001109	Chlordiazepoxide 10mg tablets
+11015111000001105	Chlordiazepoxide 10mg tablets
+17855811000001105	Chlordiazepoxide 10mg tablets
+17855911000001100	Chlordiazepoxide 10mg tablets
+21837211000001101	Chlordiazepoxide 10mg tablets
+21837411000001102	Chlordiazepoxide 10mg tablets
+21837511000001103	Chlordiazepoxide 10mg tablets
+23817311000001108	Chlordiazepoxide 10mg tablets
+23817511000001102	Chlordiazepoxide 10mg tablets
+321249002	Chlordiazepoxide 5mg tablets
+1074811000001108	Chlordiazepoxide 5mg tablets
+1181611000001107	Chlordiazepoxide 5mg tablets
+204011000001103	Tropium 5mg tablets
+2455511000001103	Tropium 5mg tablets
+2455611000001104	Tropium 5mg tablets
+257511000001107	Chlordiazepoxide 5mg tablets
+2455811000001100	Chlordiazepoxide 5mg tablets
+2456011000001102	Chlordiazepoxide 5mg tablets
+8425311000001103	Chlordiazepoxide 5mg tablets
+8425511000001109	Chlordiazepoxide 5mg tablets
+8425611000001108	Chlordiazepoxide 5mg tablets
+11014511000001102	Chlordiazepoxide 5mg tablets
+11014611000001103	Chlordiazepoxide 5mg tablets
+17855611000001106	Chlordiazepoxide 5mg tablets
+17855711000001102	Chlordiazepoxide 5mg tablets
+21836511000001100	Chlordiazepoxide 5mg tablets
+21836711000001105	Chlordiazepoxide 5mg tablets
+28879611000001104	Chlordiazepoxide 5mg tablets
+28879711000001108	Chlordiazepoxide 5mg tablets
+8358211000001107	Chlordiazepoxide 5mg/5ml oral suspension
+8337211000001109	Chlordiazepoxide 5mg/5ml oral suspension
+8337411000001108	Chlordiazepoxide 5mg/5ml oral suspension
+8337711000001102	Chlordiazepoxide 5mg/5ml oral suspension
+12423611000001101	Chlordiazepoxide 10mg/5ml oral liquid
+12402411000001104	Chlordiazepoxide 10mg/5ml oral liquid
+12402811000001102	Chlordiazepoxide 10mg/5ml oral liquid
+12402911000001107	Chlordiazepoxide 10mg/5ml oral liquid
+12423511000001100	Chlordiazepoxide 10mg/5ml oral liquid
+12403811000001105	Chlordiazepoxide 10mg/5ml oral liquid
+12404111000001101	Chlordiazepoxide 10mg/5ml oral liquid
+12404411000001106	Chlordiazepoxide 10mg/5ml oral liquid
+12423811000001102	Chlordiazepoxide 4mg/5ml oral liquid
+12405411000001107	Chlordiazepoxide 4mg/5ml oral liquid
+12405811000001109	Chlordiazepoxide 4mg/5ml oral liquid
+12406111000001108	Chlordiazepoxide 4mg/5ml oral liquid
+12423711000001105	Chlordiazepoxide 4mg/5ml oral liquid
+12406611000001100	Chlordiazepoxide 4mg/5ml oral liquid
+12406911000001106	Chlordiazepoxide 4mg/5ml oral liquid
+12407111000001106	Chlordiazepoxide 4mg/5ml oral liquid
+16174011000001109	Chlordiazepoxide 2.5mg/5ml oral liquid
+16133611000001103	Chlordiazepoxide 2.5mg/5ml oral liquid
+16133911000001109	Chlordiazepoxide 2.5mg/5ml oral liquid
+16134011000001107	Chlordiazepoxide 2.5mg/5ml oral liquid
+16174111000001105	Chlordiazepoxide 2.5mg/5ml oral liquid
+16134411000001103	Chlordiazepoxide 2.5mg/5ml oral liquid
+20159111000001103	Chlordiazepoxide 2.5mg/5ml oral liquid
+16134611000001100	Chlordiazepoxide 2.5mg/5ml oral liquid
+16134711000001109	Chlordiazepoxide 2.5mg/5ml oral liquid
+20159211000001109	Chlordiazepoxide 2.5mg/5ml oral liquid
+321272000	Clobazam 10mg tablets
+1034311000001101	Clobazam 10mg tablets
+12560411000001109	Clobazam 10mg tablets
+13164511000001102	Clobazam 10mg tablets
+14243711000001104	Clobazam 10mg tablets
+929911000001107	Frisium 10mg tablets
+2177011000001101	Frisium 10mg tablets
+10356611000001109	Clobazam 10mg tablets
+10356711000001100	Clobazam 10mg tablets
+15628011000001102	Clobazam 10mg tablets
+15628111000001101	Clobazam 10mg tablets
+16641011000001109	Clobazam 10mg tablets
+16641111000001105	Clobazam 10mg tablets
+17860211000001106	Clobazam 10mg tablets
+17860311000001103	Clobazam 10mg tablets
+18389711000001104	Clobazam 10mg tablets
+18389811000001107	Clobazam 10mg tablets
+21858711000001105	Clobazam 10mg tablets
+21858811000001102	Clobazam 10mg tablets
+29789511000001107	Clobazam 10mg tablets
+29789611000001106	Clobazam 10mg tablets
+30042411000001109	Clobazam 10mg tablets
+30042511000001108	Clobazam 10mg tablets
+32397611000001108	Clobazam 10mg tablets
+32397811000001107	Clobazam 10mg tablets
+38843311000001109	Clobazam 10mg tablets
+38843411000001102	Clobazam 10mg tablets
+8360011000001108	Clobazam 12.5mg/5ml oral liquid
+8344711000001105	Clobazam 12.5mg/5ml oral liquid
+8344911000001107	Clobazam 12.5mg/5ml oral liquid
+8345011000001107	Clobazam 12.5mg/5ml oral liquid
+8360111000001109	Clobazam 12.5mg/5ml oral liquid
+8345211000001102	Clobazam 12.5mg/5ml oral liquid
+8345411000001103	Clobazam 12.5mg/5ml oral liquid
+8345511000001104	Clobazam 12.5mg/5ml oral liquid
+8360211000001103	Clobazam 1mg/5ml oral liquid
+8348411000001108	Clobazam 1mg/5ml oral liquid
+8348911000001100	Clobazam 1mg/5ml oral liquid
+8349811000001103	Clobazam 1mg/5ml oral liquid
+8360711000001105	Clobazam 10mg/5ml oral liquid
+8351411000001104	Clobazam 10mg/5ml oral liquid
+19595911000001100	Clobazam 10mg/5ml oral liquid
+8352311000001102	Clobazam 10mg/5ml oral liquid
+8352911000001101	Clobazam 10mg/5ml oral liquid
+19596111000001109	Clobazam 10mg/5ml oral liquid
+8360911000001107	Clobazam 15mg/5ml oral liquid
+8352511000001108	Clobazam 15mg/5ml oral liquid
+8352711000001103	Clobazam 15mg/5ml oral liquid
+8353111000001105	Clobazam 15mg/5ml oral liquid
+8361111000001103	Clobazam 1mg/5ml oral liquid
+8352411000001109	Clobazam 1mg/5ml oral liquid
+8352611000001107	Clobazam 1mg/5ml oral liquid
+8352811000001106	Clobazam 1mg/5ml oral liquid
+8360811000001102	Clobazam 10mg/5ml oral liquid
+8354211000001101	Clobazam 10mg/5ml oral liquid
+19596211000001103	Clobazam 10mg/5ml oral liquid
+19933411000001109	Clobazam 10mg/5ml oral liquid
+8354811000001100	Clobazam 10mg/5ml oral liquid
+8356011000001101	Clobazam 10mg/5ml oral liquid
+19596411000001104	Clobazam 10mg/5ml oral liquid
+19933511000001108	Clobazam 10mg/5ml oral liquid
+8361011000001104	Clobazam 15mg/5ml oral liquid
+8354311000001109	Clobazam 15mg/5ml oral liquid
+8355011000001105	Clobazam 15mg/5ml oral liquid
+8355811000001104	Clobazam 15mg/5ml oral liquid
+8361211000001109	Clobazam 2.5mg/5ml oral liquid
+8356411000001105	Clobazam 2.5mg/5ml oral liquid
+8356711000001104	Clobazam 2.5mg/5ml oral liquid
+8356911000001102	Clobazam 2.5mg/5ml oral liquid
+8361311000001101	Clobazam 2.5mg/5ml oral liquid
+8357011000001103	Clobazam 2.5mg/5ml oral liquid
+8357211000001108	Clobazam 2.5mg/5ml oral liquid
+8357811000001109	Clobazam 2.5mg/5ml oral liquid
+8366411000001102	Clobazam 25mg/5ml oral liquid
+8361811000001105	Clobazam 25mg/5ml oral liquid
+8362011000001107	Clobazam 25mg/5ml oral liquid
+8362211000001102	Clobazam 25mg/5ml oral liquid
+8366911000001105	Clobazam 3.5mg/5ml oral liquid
+8361711000001102	Clobazam 3.5mg/5ml oral liquid
+8361911000001100	Clobazam 3.5mg/5ml oral liquid
+8362111000001108	Clobazam 3.5mg/5ml oral liquid
+8366211000001101	Clobazam 20mg/5ml oral liquid
+8362311000001105	Clobazam 20mg/5ml oral liquid
+8362811000001101	Clobazam 20mg/5ml oral liquid
+8363111000001102	Clobazam 20mg/5ml oral liquid
+8367111000001105	Clobazam 3.5mg/5ml oral liquid
+8362411000001103	Clobazam 3.5mg/5ml oral liquid
+8362511000001104	Clobazam 3.5mg/5ml oral liquid
+8362611000001100	Clobazam 3.5mg/5ml oral liquid
+8366711000001108	Clobazam 2mg/5ml oral liquid
+8362711000001109	Clobazam 2mg/5ml oral liquid
+8363011000001103	Clobazam 2mg/5ml oral liquid
+8363311000001100	Clobazam 2mg/5ml oral liquid
+8366611000001104	Clobazam 25mg/5ml oral liquid
+8362911000001106	Clobazam 25mg/5ml oral liquid
+8363211000001108	Clobazam 25mg/5ml oral liquid
+8363411000001107	Clobazam 25mg/5ml oral liquid
+8367211000001104	Clobazam 4mg/5ml oral liquid
+8363511000001106	Clobazam 4mg/5ml oral liquid
+8363611000001105	Clobazam 4mg/5ml oral liquid
+8363811000001109	Clobazam 4mg/5ml oral liquid
+8366811000001100	Clobazam 2mg/5ml oral liquid
+8363711000001101	Clobazam 2mg/5ml oral liquid
+8363911000001104	Clobazam 2mg/5ml oral liquid
+8364211000001106	Clobazam 2mg/5ml oral liquid
+8367411000001100	Clobazam 4mg/5ml oral liquid
+8364011000001101	Clobazam 4mg/5ml oral liquid
+8364411000001105	Clobazam 4mg/5ml oral liquid
+8364911000001102	Clobazam 4mg/5ml oral liquid
+8367511000001101	Clobazam 50mg/5ml oral liquid
+8364111000001100	Clobazam 50mg/5ml oral liquid
+8364311000001103	Clobazam 50mg/5ml oral liquid
+8364511000001109	Clobazam 50mg/5ml oral liquid
+8367611000001102	Clobazam 50mg/5ml oral liquid
+8364611000001108	Clobazam 50mg/5ml oral liquid
+8364711000001104	Clobazam 50mg/5ml oral liquid
+8364811000001107	Clobazam 50mg/5ml oral liquid
+8367811000001103	Clobazam 6mg/5ml oral liquid
+8365011000001102	Clobazam 6mg/5ml oral liquid
+8365111000001101	Clobazam 6mg/5ml oral liquid
+8365211000001107	Clobazam 6mg/5ml oral liquid
+8368011000001105	Clobazam 6mg/5ml oral liquid
+8365311000001104	Clobazam 6mg/5ml oral liquid
+8365411000001106	Clobazam 6mg/5ml oral liquid
+8365511000001105	Clobazam 6mg/5ml oral liquid
+8366311000001109	Clobazam 20mg/5ml oral liquid
+8365911000001103	Clobazam 20mg/5ml oral liquid
+8366111000001107	Clobazam 20mg/5ml oral liquid
+8368211000001100	Clobazam 20mg/5ml oral liquid
+8368611000001103	Clobazam 5mg/5ml oral liquid
+8367011000001109	Clobazam 5mg/5ml oral liquid
+19596611000001101	Clobazam 5mg/5ml oral liquid
+8367711000001106	Clobazam 5mg/5ml oral liquid
+8368111000001106	Clobazam 5mg/5ml oral liquid
+19605611000001104	Clobazam 5mg/5ml oral liquid
+8368811000001104	Clobazam 5mg/5ml oral liquid
+8368411000001101	Clobazam 5mg/5ml oral liquid
+19596811000001102	Clobazam 5mg/5ml oral liquid
+8368711000001107	Clobazam 5mg/5ml oral liquid
+8368911000001109	Clobazam 5mg/5ml oral liquid
+19597011000001106	Clobazam 5mg/5ml oral liquid
+8792211000001101	Clobazam 2.5mg capsules
+8746911000001100	Clobazam 2.5mg capsules
+8747011000001101	Clobazam 2.5mg capsules
+8748211000001105	Clobazam 2.5mg capsules
+12022011000001107	Clobazam 1.5mg/5ml oral liquid
+11958711000001101	Clobazam 1.5mg/5ml oral liquid
+11958811000001109	Clobazam 1.5mg/5ml oral liquid
+11958911000001104	Clobazam 1.5mg/5ml oral liquid
+12021911000001100	Clobazam 1.5mg/5ml oral liquid
+11959011000001108	Clobazam 1.5mg/5ml oral liquid
+11959111000001109	Clobazam 1.5mg/5ml oral liquid
+11959211000001103	Clobazam 1.5mg/5ml oral liquid
+12022211000001102	Clobazam 100mg/5ml oral liquid
+11959311000001106	Clobazam 100mg/5ml oral liquid
+11959411000001104	Clobazam 100mg/5ml oral liquid
+11959511000001100	Clobazam 100mg/5ml oral liquid
+12022111000001108	Clobazam 100mg/5ml oral liquid
+11959711000001105	Clobazam 100mg/5ml oral liquid
+11959611000001101	Clobazam 100mg/5ml oral liquid
+11959811000001102	Clobazam 100mg/5ml oral liquid
+12022411000001103	Clobazam 120mg/5ml oral liquid
+11959911000001107	Clobazam 120mg/5ml oral liquid
+11960011000001109	Clobazam 120mg/5ml oral liquid
+11960111000001105	Clobazam 120mg/5ml oral liquid
+12022311000001105	Clobazam 120mg/5ml oral liquid
+11960211000001104	Clobazam 120mg/5ml oral liquid
+11960311000001107	Clobazam 120mg/5ml oral liquid
+11960411000001100	Clobazam 120mg/5ml oral liquid
+12022611000001100	Clobazam 250micrograms/5ml oral liquid
+11960511000001101	Clobazam 250micrograms/5ml oral liquid
+11961111000001104	Clobazam 250micrograms/5ml oral liquid
+11961211000001105	Clobazam 250micrograms/5ml oral liquid
+12022511000001104	Clobazam 250micrograms/5ml oral liquid
+11961311000001102	Clobazam 250micrograms/5ml oral liquid
+11961411000001109	Clobazam 250micrograms/5ml oral liquid
+11961511000001108	Clobazam 250micrograms/5ml oral liquid
+12022911000001106	Clobazam 3.75mg/5ml oral liquid
+11961911000001101	Clobazam 3.75mg/5ml oral liquid
+11962011000001108	Clobazam 3.75mg/5ml oral liquid
+11962111000001109	Clobazam 3.75mg/5ml oral liquid
+12022811000001101	Clobazam 3.75mg/5ml oral liquid
+11962211000001103	Clobazam 3.75mg/5ml oral liquid
+11962311000001106	Clobazam 3.75mg/5ml oral liquid
+11962411000001104	Clobazam 3.75mg/5ml oral liquid
+12023111000001102	Clobazam 32.5mg/5ml oral liquid
+11962511000001100	Clobazam 32.5mg/5ml oral liquid
+11962611000001101	Clobazam 32.5mg/5ml oral liquid
+11962711000001105	Clobazam 32.5mg/5ml oral liquid
+12023011000001103	Clobazam 32.5mg/5ml oral liquid
+11962811000001102	Clobazam 32.5mg/5ml oral liquid
+11962911000001107	Clobazam 32.5mg/5ml oral liquid
+11963011000001104	Clobazam 32.5mg/5ml oral liquid
+12023511000001106	Clobazam 500micrograms/5ml oral liquid
+11963111000001103	Clobazam 500micrograms/5ml oral liquid
+11963211000001109	Clobazam 500micrograms/5ml oral liquid
+11963311000001101	Clobazam 500micrograms/5ml oral liquid
+12023311000001100	Clobazam 500micrograms/5ml oral liquid
+11963411000001108	Clobazam 500micrograms/5ml oral liquid
+11963511000001107	Clobazam 500micrograms/5ml oral liquid
+11963611000001106	Clobazam 500micrograms/5ml oral liquid
+12023811000001109	Clobazam 600micrograms/5ml oral liquid
+11963711000001102	Clobazam 600micrograms/5ml oral liquid
+11963811000001105	Clobazam 600micrograms/5ml oral liquid
+11963911000001100	Clobazam 600micrograms/5ml oral liquid
+12023611000001105	Clobazam 600micrograms/5ml oral liquid
+11964011000001102	Clobazam 600micrograms/5ml oral liquid
+11964111000001101	Clobazam 600micrograms/5ml oral liquid
+11964211000001107	Clobazam 600micrograms/5ml oral liquid
+12024111000001100	Clobazam 7.5mg/5ml oral liquid
+11964311000001104	Clobazam 7.5mg/5ml oral liquid
+11964411000001106	Clobazam 7.5mg/5ml oral liquid
+11964511000001105	Clobazam 7.5mg/5ml oral liquid
+12024011000001101	Clobazam 7.5mg/5ml oral liquid
+11964611000001109	Clobazam 7.5mg/5ml oral liquid
+11964711000001100	Clobazam 7.5mg/5ml oral liquid
+11964811000001108	Clobazam 7.5mg/5ml oral liquid
+12024411000001105	Clobazam 750micrograms/5ml oral liquid
+11964911000001103	Clobazam 750micrograms/5ml oral liquid
+11965011000001103	Clobazam 750micrograms/5ml oral liquid
+11965111000001102	Clobazam 750micrograms/5ml oral liquid
+12024311000001103	Clobazam 750micrograms/5ml oral liquid
+11965211000001108	Clobazam 750micrograms/5ml oral liquid
+11965311000001100	Clobazam 750micrograms/5ml oral liquid
+11965411000001107	Clobazam 750micrograms/5ml oral liquid
+12024611000001108	Clobazam 7mg/5ml oral liquid
+11965511000001106	Clobazam 7mg/5ml oral liquid
+11965611000001105	Clobazam 7mg/5ml oral liquid
+11965711000001101	Clobazam 7mg/5ml oral liquid
+12024511000001109	Clobazam 7mg/5ml oral liquid
+11965811000001109	Clobazam 7mg/5ml oral liquid
+11965911000001104	Clobazam 7mg/5ml oral liquid
+11966011000001107	Clobazam 7mg/5ml oral liquid
+12024911000001102	Clobazam 8mg/5ml oral liquid
+11966111000001108	Clobazam 8mg/5ml oral liquid
+11966211000001102	Clobazam 8mg/5ml oral liquid
+11966311000001105	Clobazam 8mg/5ml oral liquid
+12024811000001107	Clobazam 8mg/5ml oral liquid
+11966411000001103	Clobazam 8mg/5ml oral liquid
+11966511000001104	Clobazam 8mg/5ml oral liquid
+11966611000001100	Clobazam 8mg/5ml oral liquid
+12025111000001101	Clobazam 9mg/5ml oral liquid
+11966711000001109	Clobazam 9mg/5ml oral liquid
+11966811000001101	Clobazam 9mg/5ml oral liquid
+11966911000001106	Clobazam 9mg/5ml oral liquid
+12025011000001102	Clobazam 9mg/5ml oral liquid
+11967011000001105	Clobazam 9mg/5ml oral liquid
+11967111000001106	Clobazam 9mg/5ml oral liquid
+11967211000001100	Clobazam 9mg/5ml oral liquid
+14410111000001100	Clobazam 1.25mg/5ml oral liquid
+14349111000001108	Clobazam 1.25mg/5ml oral liquid
+14349311000001105	Clobazam 1.25mg/5ml oral liquid
+14349511000001104	Clobazam 1.25mg/5ml oral liquid
+14410211000001106	Clobazam 1.25mg/5ml oral liquid
+14349811000001101	Clobazam 1.25mg/5ml oral liquid
+14350111000001101	Clobazam 1.25mg/5ml oral liquid
+14350311000001104	Clobazam 1.25mg/5ml oral liquid
+21856511000001101	Clobazam 5mg/5ml oral suspension sugar free
+21802611000001109	Clobazam 5mg/5ml oral suspension sugar free
+30926211000001102	Clobazam 5mg/5ml oral suspension sugar free
+21802811000001108	Tapclob 5mg/5ml oral suspension
+21803011000001106	Tapclob 5mg/5ml oral suspension
+30926311000001105	Tapclob 5mg/5ml oral suspension
+29794011000001101	Perizam 1mg/ml oral suspension
+29794111000001100	Perizam 1mg/ml oral suspension
+29933411000001108	Clobazam 5mg/5ml oral suspension sugar free
+29933511000001107	Clobazam 5mg/5ml oral suspension sugar free
+31064211000001102	Clobazam 5mg/5ml oral suspension sugar free
+31953611000001101	Clobazam 5mg/5ml oral suspension sugar free
+31954011000001105	Clobazam 5mg/5ml oral suspension sugar free
+34246711000001109	Zacco 5mg/5ml oral suspension
+34246811000001101	Zacco 5mg/5ml oral suspension
+37225711000001107	Clobazam 5mg/5ml oral suspension sugar free
+37225811000001104	Clobazam 5mg/5ml oral suspension sugar free
+37471711000001108	Clobazam 5mg/5ml oral suspension sugar free
+37471811000001100	Clobazam 5mg/5ml oral suspension sugar free
+37921211000001104	Clobazam 5mg/5ml oral suspension sugar free
+37921311000001107	Clobazam 5mg/5ml oral suspension sugar free
+38337011000001101	Clobazam 5mg/5ml oral suspension sugar free
+38337111000001100	Clobazam 5mg/5ml oral suspension sugar free
+38843711000001108	Clobazam 5mg/5ml oral suspension sugar free
+38843811000001100	Clobazam 5mg/5ml oral suspension sugar free
+21856411000001100	Clobazam 10mg/5ml oral suspension sugar free
+21803311000001109	Clobazam 10mg/5ml oral suspension sugar free
+30926011000001107	Clobazam 10mg/5ml oral suspension sugar free
+21803611000001104	Tapclob 10mg/5ml oral suspension
+21803911000001105	Tapclob 10mg/5ml oral suspension
+30926111000001108	Tapclob 10mg/5ml oral suspension
+29794211000001106	Perizam 2mg/ml oral suspension
+29794311000001103	Perizam 2mg/ml oral suspension
+29933611000001106	Clobazam 10mg/5ml oral suspension sugar free
+29933711000001102	Clobazam 10mg/5ml oral suspension sugar free
+31064311000001105	Clobazam 10mg/5ml oral suspension sugar free
+31954311000001108	Clobazam 10mg/5ml oral suspension sugar free
+31954511000001102	Clobazam 10mg/5ml oral suspension sugar free
+34247011000001105	Zacco 10mg/5ml oral suspension
+34247211000001100	Zacco 10mg/5ml oral suspension
+37225911000001109	Clobazam 10mg/5ml oral suspension sugar free
+37226011000001101	Clobazam 10mg/5ml oral suspension sugar free
+37471111000001107	Clobazam 10mg/5ml oral suspension sugar free
+37471611000001104	Clobazam 10mg/5ml oral suspension sugar free
+37921711000001106	Clobazam 10mg/5ml oral suspension sugar free
+37921811000001103	Clobazam 10mg/5ml oral suspension sugar free
+38336811000001105	Clobazam 10mg/5ml oral suspension sugar free
+38336911000001100	Clobazam 10mg/5ml oral suspension sugar free
+38843511000001103	Clobazam 10mg/5ml oral suspension sugar free
+38843611000001104	Clobazam 10mg/5ml oral suspension sugar free
+322897008	Clonazepam 500microgram tablets
+1063711000001105	Clonazepam 500microgram tablets
+14663511000001104	Clonazepam 500microgram tablets
+17298311000001109	Clonazepam 500microgram tablets
+37226711000001104	Clonazepam 500microgram tablets
+233611000001104	Rivotril 500microgram tablets
+2166911000001105	Rivotril 500microgram tablets
+13653211000001108	Clonazepam 500microgram tablets
+13653611000001105	Clonazepam 500microgram tablets
+13932311000001105	Clonazepam 500microgram tablets
+13932411000001103	Clonazepam 500microgram tablets
+15627711000001101	Clonazepam 500microgram tablets
+15627811000001109	Clonazepam 500microgram tablets
+17861111000001106	Clonazepam 500microgram tablets
+17861211000001100	Clonazepam 500microgram tablets
+17966511000001102	Clonazepam 500microgram tablets
+17966711000001107	Clonazepam 500microgram tablets
+21922211000001109	Clonazepam 500microgram tablets
+21922311000001101	Clonazepam 500microgram tablets
+29790911000001107	Clonazepam 500microgram tablets
+29791011000001104	Clonazepam 500microgram tablets
+32398011000001100	Clonazepam 500microgram tablets
+32398111000001104	Clonazepam 500microgram tablets
+37053711000001100	Clonazepam 500microgram tablets
+37053811000001108	Clonazepam 500microgram tablets
+37226511000001109	Clonazepam 500microgram tablets
+37226611000001108	Clonazepam 500microgram tablets
+37226811000001107	Clonazepam 500microgram tablets
+37451611000001101	Clonazepam 500microgram tablets
+37451811000001102	Clonazepam 500microgram tablets
+38845011000001107	Clonazepam 500microgram tablets
+38845111000001108	Clonazepam 500microgram tablets
+322898003	Clonazepam 2mg tablets
+958011000001104	Clonazepam 2mg tablets
+14664011000001109	Clonazepam 2mg tablets
+37226911000001102	Clonazepam 2mg tablets
+291011000001103	Rivotril 2mg tablets
+2168411000001101	Rivotril 2mg tablets
+13655811000001108	Clonazepam 2mg tablets
+13655911000001103	Clonazepam 2mg tablets
+13932511000001104	Clonazepam 2mg tablets
+13932611000001100	Clonazepam 2mg tablets
+15077211000001103	Clonazepam 2mg tablets
+15077411000001104	Clonazepam 2mg tablets
+15627511000001106	Clonazepam 2mg tablets
+15627611000001105	Clonazepam 2mg tablets
+17861411000001101	Clonazepam 2mg tablets
+17861511000001102	Clonazepam 2mg tablets
+17966811000001104	Clonazepam 2mg tablets
+17966911000001109	Clonazepam 2mg tablets
+21922411000001108	Clonazepam 2mg tablets
+21922511000001107	Clonazepam 2mg tablets
+32398211000001105	Clonazepam 2mg tablets
+32398311000001102	Clonazepam 2mg tablets
+37054011000001100	Clonazepam 2mg tablets
+37054111000001104	Clonazepam 2mg tablets
+37227011000001103	Clonazepam 2mg tablets
+40341611000001101	Clonazepam 2mg tablets
+37227111000001102	Clonazepam 2mg tablets
+37450611000001106	Clonazepam 2mg tablets
+37451411000001104	Clonazepam 2mg tablets
+38845211000001102	Clonazepam 2mg tablets
+38845411000001103	Clonazepam 2mg tablets
+7662511000001100	Clonazepam 2.5mg/ml drops sugar free
+7654911000001106	Clonazepam 2.5mg/ml drops sugar free
+15865711000001105	Clonazepam 2.5mg/ml drops sugar free
+7655011000001106	Rivotril 2.5mg/1ml drops
+7655111000001107	Rivotril 2.5mg/1ml drops
+15865811000001102	Clonazepam 2.5mg/ml drops sugar free
+15865911000001107	Clonazepam 2.5mg/ml drops sugar free
+8382411000001100	Clonazepam 1.5mg/5ml oral liquid
+8371011000001106	Clonazepam 1.5mg/5ml oral liquid
+8371211000001101	Clonazepam 1.5mg/5ml oral liquid
+8371711000001108	Clonazepam 1.5mg/5ml oral liquid
+8382511000001101	Clonazepam 1.5mg/5ml oral liquid
+8372011000001103	Clonazepam 1.5mg/5ml oral liquid
+8372111000001102	Clonazepam 1.5mg/5ml oral liquid
+8372411000001107	Clonazepam 1.5mg/5ml oral liquid
+8382211000001104	Clonazepam 1.25mg/5ml oral liquid
+8372611000001105	Clonazepam 1.25mg/5ml oral liquid
+8372811000001109	Clonazepam 1.25mg/5ml oral liquid
+8373211000001102	Clonazepam 1.25mg/5ml oral liquid
+8382911000001108	Clonazepam 10mg/5ml oral liquid
+8373311000001105	Clonazepam 10mg/5ml oral liquid
+8373411000001103	Clonazepam 10mg/5ml oral liquid
+8373511000001104	Clonazepam 10mg/5ml oral liquid
+8382311000001107	Clonazepam 1.25mg/5ml oral liquid
+8373711000001109	Clonazepam 1.25mg/5ml oral liquid
+8374311000001107	Clonazepam 1.25mg/5ml oral liquid
+8374511000001101	Clonazepam 1.25mg/5ml oral liquid
+8383011000001100	Clonazepam 10mg/5ml oral liquid
+8374011000001109	Clonazepam 10mg/5ml oral liquid
+8374111000001105	Clonazepam 10mg/5ml oral liquid
+8374211000001104	Clonazepam 10mg/5ml oral liquid
+8395311000001102	Clonazepam 2.5mg/5ml oral liquid
+8376411000001108	Clonazepam 2.5mg/5ml oral liquid
+8376711000001102	Clonazepam 2.5mg/5ml oral liquid
+8377311000001103	Clonazepam 2.5mg/5ml oral liquid
+8395511000001108	Clonazepam 200micrograms/5ml oral liquid
+8376611000001106	Clonazepam 200micrograms/5ml oral liquid
+8377011000001101	Clonazepam 200micrograms/5ml oral liquid
+8377411000001105	Clonazepam 200micrograms/5ml oral liquid
+8394911000001100	Clonazepam 180micrograms/5ml oral liquid
+8376911000001100	Clonazepam 180micrograms/5ml oral liquid
+8377711000001104	Clonazepam 180micrograms/5ml oral liquid
+8378211000001105	Clonazepam 180micrograms/5ml oral liquid
+8395611000001107	Clonazepam 200micrograms/5ml oral liquid
+8377911000001102	Clonazepam 200micrograms/5ml oral liquid
+8378111000001104	Clonazepam 200micrograms/5ml oral liquid
+8378311000001102	Clonazepam 200micrograms/5ml oral liquid
+8395411000001109	Clonazepam 2.5mg/5ml oral liquid
+8378011000001100	Clonazepam 2.5mg/5ml oral liquid
+8378411000001109	Clonazepam 2.5mg/5ml oral liquid
+8378611000001107	Clonazepam 2.5mg/5ml oral liquid
+8395111000001104	Clonazepam 1mg/5ml oral liquid
+8378511000001108	Clonazepam 1mg/5ml oral liquid
+8378711000001103	Clonazepam 1mg/5ml oral liquid
+8379011000001105	Clonazepam 1mg/5ml oral liquid
+8395011000001100	Clonazepam 180micrograms/5ml oral liquid
+8378811000001106	Clonazepam 180micrograms/5ml oral liquid
+8378911000001101	Clonazepam 180micrograms/5ml oral liquid
+8379211000001100	Clonazepam 180micrograms/5ml oral liquid
+8395911000001101	Clonazepam 2mg/5ml oral liquid
+8379311000001108	Clonazepam 2mg/5ml oral liquid
+8379411000001101	Clonazepam 2mg/5ml oral liquid
+8379611000001103	Clonazepam 2mg/5ml oral liquid
+8395211000001105	Clonazepam 1mg/5ml oral liquid
+8379511000001102	Clonazepam 1mg/5ml oral liquid
+8379711000001107	Clonazepam 1mg/5ml oral liquid
+8379811000001104	Clonazepam 1mg/5ml oral liquid
+8396111000001105	Clonazepam 3.75mg/5ml oral liquid
+8382611000001102	Clonazepam 3.75mg/5ml oral liquid
+8383311000001102	Clonazepam 3.75mg/5ml oral liquid
+8383411000001109	Clonazepam 3.75mg/5ml oral liquid
+8395711000001103	Clonazepam 250micrograms/5ml oral solution
+8379911000001109	Clonazepam 250micrograms/5ml oral solution
+8380311000001108	Clonazepam 250micrograms/5ml oral solution
+8380611000001103	Clonazepam 250micrograms/5ml oral solution
+8396011000001109	Clonazepam 2mg/5ml oral liquid
+8380011000001105	Clonazepam 2mg/5ml oral liquid
+8380111000001106	Clonazepam 2mg/5ml oral liquid
+8380411000001101	Clonazepam 2mg/5ml oral liquid
+8396411000001100	Clonazepam 350micrograms/5ml oral liquid
+8380711000001107	Clonazepam 350micrograms/5ml oral liquid
+8380811000001104	Clonazepam 350micrograms/5ml oral liquid
+8380911000001109	Clonazepam 350micrograms/5ml oral liquid
+8395811000001106	Clonazepam 250micrograms/5ml oral suspension
+8381011000001101	Clonazepam 250micrograms/5ml oral suspension
+20459411000001107	Clonazepam 250micrograms/5ml oral suspension
+8381111000001100	Clonazepam 250micrograms/5ml oral suspension
+8381311000001103	Clonazepam 250micrograms/5ml oral suspension
+20459511000001106	Clonazepam 250micrograms/5ml oral suspension
+8396311000001107	Clonazepam 350micrograms/5ml oral liquid
+8381211000001106	Clonazepam 350micrograms/5ml oral liquid
+8381411000001105	Clonazepam 350micrograms/5ml oral liquid
+8381511000001109	Clonazepam 350micrograms/5ml oral liquid
+8396711000001106	Clonazepam 3mg/5ml oral liquid
+8381611000001108	Clonazepam 3mg/5ml oral liquid
+8381711000001104	Clonazepam 3mg/5ml oral liquid
+8381811000001107	Clonazepam 3mg/5ml oral liquid
+8396811000001103	Clonazepam 3mg/5ml oral liquid
+8381911000001102	Clonazepam 3mg/5ml oral liquid
+8382011000001109	Clonazepam 3mg/5ml oral liquid
+8382111000001105	Clonazepam 3mg/5ml oral liquid
+8396211000001104	Clonazepam 3.75mg/5ml oral liquid
+8383511000001108	Clonazepam 3.75mg/5ml oral liquid
+8383711000001103	Clonazepam 3.75mg/5ml oral liquid
+8383911000001101	Clonazepam 3.75mg/5ml oral liquid
+8396511000001101	Clonazepam 375micrograms/5ml oral liquid
+8384611000001105	Clonazepam 375micrograms/5ml oral liquid
+8385411000001108	Clonazepam 375micrograms/5ml oral liquid
+8385811000001105	Clonazepam 375micrograms/5ml oral liquid
+8396911000001108	Clonazepam 4mg/5ml oral liquid
+8384711000001101	Clonazepam 4mg/5ml oral liquid
+8384911000001104	Clonazepam 4mg/5ml oral liquid
+8385011000001104	Clonazepam 4mg/5ml oral liquid
+8397111000001108	Clonazepam 500micrograms/5ml oral liquid
+8385111000001103	Clonazepam 500micrograms/5ml oral liquid
+19597411000001102	Clonazepam 500micrograms/5ml oral liquid
+8385311000001101	Clonazepam 500micrograms/5ml oral liquid
+8385511000001107	Clonazepam 500micrograms/5ml oral liquid
+19597611000001104	Clonazepam 500micrograms/5ml oral liquid
+8397011000001107	Clonazepam 4mg/5ml oral liquid
+8385611000001106	Clonazepam 4mg/5ml oral liquid
+8386111000001109	Clonazepam 4mg/5ml oral liquid
+8386611000001101	Clonazepam 4mg/5ml oral liquid
+8397211000001102	Clonazepam 500micrograms/5ml oral liquid
+8386011000001108	Clonazepam 500micrograms/5ml oral liquid
+19597811000001100	Clonazepam 500micrograms/5ml oral liquid
+19933611000001107	Clonazepam 500micrograms/5ml oral liquid
+8386311000001106	Clonazepam 500micrograms/5ml oral liquid
+8386411000001104	Clonazepam 500micrograms/5ml oral liquid
+19598011000001107	Clonazepam 500micrograms/5ml oral liquid
+19933711000001103	Clonazepam 500micrograms/5ml oral liquid
+8397311000001105	Clonazepam 5mg/5ml oral liquid
+8387111000001107	Clonazepam 5mg/5ml oral liquid
+8387211000001101	Clonazepam 5mg/5ml oral liquid
+8387511000001103	Clonazepam 5mg/5ml oral liquid
+8396611000001102	Clonazepam 375micrograms/5ml oral liquid
+8387411000001102	Clonazepam 375micrograms/5ml oral liquid
+8387811000001100	Clonazepam 375micrograms/5ml oral liquid
+8388311000001105	Clonazepam 375micrograms/5ml oral liquid
+8397411000001103	Clonazepam 5mg/5ml oral liquid
+8388011000001107	Clonazepam 5mg/5ml oral liquid
+8388211000001102	Clonazepam 5mg/5ml oral liquid
+8388411000001103	Clonazepam 5mg/5ml oral liquid
+8397711000001109	Clonazepam 7.5mg/5ml oral liquid
+8389211000001107	Clonazepam 7.5mg/5ml oral liquid
+8389311000001104	Clonazepam 7.5mg/5ml oral liquid
+8389411000001106	Clonazepam 7.5mg/5ml oral liquid
+8397811000001101	Clonazepam 7.5mg/5ml oral liquid
+8389511000001105	Clonazepam 7.5mg/5ml oral liquid
+8389711000001100	Clonazepam 7.5mg/5ml oral liquid
+8390111000001107	Clonazepam 7.5mg/5ml oral liquid
+8397511000001104	Clonazepam 625micrograms/5ml oral liquid
+8390511000001103	Clonazepam 625micrograms/5ml oral liquid
+8390911000001105	Clonazepam 625micrograms/5ml oral liquid
+8391011000001102	Clonazepam 625micrograms/5ml oral liquid
+8397611000001100	Clonazepam 625micrograms/5ml oral liquid
+8391711000001100	Clonazepam 625micrograms/5ml oral liquid
+8392211000001100	Clonazepam 625micrograms/5ml oral liquid
+8392511000001102	Clonazepam 625micrograms/5ml oral liquid
+11943911000001106	Clonazepam 1.2mg/5ml oral liquid
+11938311000001101	Clonazepam 1.2mg/5ml oral liquid
+11938411000001108	Clonazepam 1.2mg/5ml oral liquid
+11938511000001107	Clonazepam 1.2mg/5ml oral liquid
+11943811000001101	Clonazepam 1.2mg/5ml oral liquid
+11938611000001106	Clonazepam 1.2mg/5ml oral liquid
+11938711000001102	Clonazepam 1.2mg/5ml oral liquid
+11938811000001105	Clonazepam 1.2mg/5ml oral liquid
+11944111000001105	Clonazepam 100micrograms/5ml oral liquid
+11938911000001100	Clonazepam 100micrograms/5ml oral liquid
+20459211000001108	Clonazepam 100micrograms/5ml oral liquid
+11939011000001109	Clonazepam 100micrograms/5ml oral liquid
+11939111000001105	Clonazepam 100micrograms/5ml oral liquid
+20459311000001100	Clonazepam 100micrograms/5ml oral liquid
+11944011000001109	Clonazepam 100micrograms/5ml oral liquid
+11939211000001104	Clonazepam 100micrograms/5ml oral liquid
+11939311000001107	Clonazepam 100micrograms/5ml oral liquid
+11939411000001100	Clonazepam 100micrograms/5ml oral liquid
+11944311000001107	Clonazepam 12.5mg/5ml oral liquid
+11939511000001101	Clonazepam 12.5mg/5ml oral liquid
+11939611000001102	Clonazepam 12.5mg/5ml oral liquid
+11939711000001106	Clonazepam 12.5mg/5ml oral liquid
+11944211000001104	Clonazepam 12.5mg/5ml oral liquid
+11939811000001103	Clonazepam 12.5mg/5ml oral liquid
+11939911000001108	Clonazepam 12.5mg/5ml oral liquid
+11940011000001102	Clonazepam 12.5mg/5ml oral liquid
+11944511000001101	Clonazepam 120micrograms/5ml oral liquid
+11940111000001101	Clonazepam 120micrograms/5ml oral liquid
+11940211000001107	Clonazepam 120micrograms/5ml oral liquid
+11940311000001104	Clonazepam 120micrograms/5ml oral liquid
+11944411000001100	Clonazepam 120micrograms/5ml oral liquid
+11940411000001106	Clonazepam 120micrograms/5ml oral liquid
+11940511000001105	Clonazepam 120micrograms/5ml oral liquid
+11940611000001109	Clonazepam 120micrograms/5ml oral liquid
+11944711000001106	Clonazepam 125micrograms/5ml oral liquid
+11940711000001100	Clonazepam 125micrograms/5ml oral liquid
+11940811000001108	Clonazepam 125micrograms/5ml oral liquid
+11940911000001103	Clonazepam 125micrograms/5ml oral liquid
+11944611000001102	Clonazepam 125micrograms/5ml oral liquid
+11941011000001106	Clonazepam 125micrograms/5ml oral liquid
+11941111000001107	Clonazepam 125micrograms/5ml oral liquid
+11941211000001101	Clonazepam 125micrograms/5ml oral liquid
+11954611000001100	Clonazepam 150micrograms/5ml oral liquid
+11941311000001109	Clonazepam 150micrograms/5ml oral liquid
+11941411000001102	Clonazepam 150micrograms/5ml oral liquid
+11941511000001103	Clonazepam 150micrograms/5ml oral liquid
+11954511000001104	Clonazepam 150micrograms/5ml oral liquid
+11941611000001104	Clonazepam 150micrograms/5ml oral liquid
+11941711000001108	Clonazepam 150micrograms/5ml oral liquid
+11941811000001100	Clonazepam 150micrograms/5ml oral liquid
+11954811000001101	Clonazepam 160micrograms/5ml oral liquid
+11941911000001105	Clonazepam 160micrograms/5ml oral liquid
+11942011000001103	Clonazepam 160micrograms/5ml oral liquid
+11942111000001102	Clonazepam 160micrograms/5ml oral liquid
+11954711000001109	Clonazepam 160micrograms/5ml oral liquid
+11942211000001108	Clonazepam 160micrograms/5ml oral liquid
+11942311000001100	Clonazepam 160micrograms/5ml oral liquid
+11942411000001107	Clonazepam 160micrograms/5ml oral liquid
+11955211000001101	Clonazepam 25micrograms/5ml oral liquid
+11942511000001106	Clonazepam 25micrograms/5ml oral liquid
+11942611000001105	Clonazepam 25micrograms/5ml oral liquid
+11942711000001101	Clonazepam 25micrograms/5ml oral liquid
+11955111000001107	Clonazepam 25micrograms/5ml oral liquid
+11942811000001109	Clonazepam 25micrograms/5ml oral liquid
+11942911000001104	Clonazepam 25micrograms/5ml oral liquid
+11943011000001107	Clonazepam 25micrograms/5ml oral liquid
+11955011000001106	Clonazepam 25mg/5ml oral liquid
+11943111000001108	Clonazepam 25mg/5ml oral liquid
+11943211000001102	Clonazepam 25mg/5ml oral liquid
+11943311000001105	Clonazepam 25mg/5ml oral liquid
+11954911000001106	Clonazepam 25mg/5ml oral liquid
+11943411000001103	Clonazepam 25mg/5ml oral liquid
+11943511000001104	Clonazepam 25mg/5ml oral liquid
+11943611000001100	Clonazepam 25mg/5ml oral liquid
+11955411000001102	Clonazepam 300micrograms/5ml oral liquid
+11945711000001105	Clonazepam 300micrograms/5ml oral liquid
+11945811000001102	Clonazepam 300micrograms/5ml oral liquid
+11945911000001107	Clonazepam 300micrograms/5ml oral liquid
+11955311000001109	Clonazepam 300micrograms/5ml oral liquid
+11946011000001104	Clonazepam 300micrograms/5ml oral liquid
+11946111000001103	Clonazepam 300micrograms/5ml oral liquid
+11946211000001109	Clonazepam 300micrograms/5ml oral liquid
+11955611000001104	Clonazepam 312.5micrograms/5ml oral liquid
+11946311000001101	Clonazepam 312.5micrograms/5ml oral liquid
+11946411000001108	Clonazepam 312.5micrograms/5ml oral liquid
+11946511000001107	Clonazepam 312.5micrograms/5ml oral liquid
+11955511000001103	Clonazepam 312.5micrograms/5ml oral liquid
+11946611000001106	Clonazepam 312.5micrograms/5ml oral liquid
+11946711000001102	Clonazepam 312.5micrograms/5ml oral liquid
+11946811000001105	Clonazepam 312.5micrograms/5ml oral liquid
+11955811000001100	Clonazepam 330micrograms/5ml oral liquid
+11946911000001100	Clonazepam 330micrograms/5ml oral liquid
+11947011000001101	Clonazepam 330micrograms/5ml oral liquid
+11947111000001100	Clonazepam 330micrograms/5ml oral liquid
+11955711000001108	Clonazepam 330micrograms/5ml oral liquid
+11947211000001106	Clonazepam 330micrograms/5ml oral liquid
+11947311000001103	Clonazepam 330micrograms/5ml oral liquid
+11947411000001105	Clonazepam 330micrograms/5ml oral liquid
+11956011000001102	Clonazepam 340micrograms/5ml oral liquid
+11947511000001109	Clonazepam 340micrograms/5ml oral liquid
+11947611000001108	Clonazepam 340micrograms/5ml oral liquid
+11947711000001104	Clonazepam 340micrograms/5ml oral liquid
+11955911000001105	Clonazepam 340micrograms/5ml oral liquid
+11947811000001107	Clonazepam 340micrograms/5ml oral liquid
+11947911000001102	Clonazepam 340micrograms/5ml oral liquid
+11948011000001100	Clonazepam 340micrograms/5ml oral liquid
+11956211000001107	Clonazepam 37.5micrograms/5ml oral liquid
+11948111000001104	Clonazepam 37.5micrograms/5ml oral liquid
+11948211000001105	Clonazepam 37.5micrograms/5ml oral liquid
+11948311000001102	Clonazepam 37.5micrograms/5ml oral liquid
+11956111000001101	Clonazepam 37.5micrograms/5ml oral liquid
+11948411000001109	Clonazepam 37.5micrograms/5ml oral liquid
+11948511000001108	Clonazepam 37.5micrograms/5ml oral liquid
+11948611000001107	Clonazepam 37.5micrograms/5ml oral liquid
+11956411000001106	Clonazepam 400micrograms/5ml oral liquid
+11948711000001103	Clonazepam 400micrograms/5ml oral liquid
+11948811000001106	Clonazepam 400micrograms/5ml oral liquid
+11948911000001101	Clonazepam 400micrograms/5ml oral liquid
+11956311000001104	Clonazepam 400micrograms/5ml oral liquid
+11949011000001105	Clonazepam 400micrograms/5ml oral liquid
+11949111000001106	Clonazepam 400micrograms/5ml oral liquid
+11949211000001100	Clonazepam 400micrograms/5ml oral liquid
+11956611000001109	Clonazepam 50micrograms/5ml oral liquid
+11949511000001102	Clonazepam 50micrograms/5ml oral liquid
+11949611000001103	Clonazepam 50micrograms/5ml oral liquid
+11949711000001107	Clonazepam 50micrograms/5ml oral liquid
+11956511000001105	Clonazepam 50micrograms/5ml oral liquid
+11949811000001104	Clonazepam 50micrograms/5ml oral liquid
+11949911000001109	Clonazepam 50micrograms/5ml oral liquid
+11950011000001100	Clonazepam 50micrograms/5ml oral liquid
+11956811000001108	Clonazepam 600micrograms/5ml oral liquid
+11950111000001104	Clonazepam 600micrograms/5ml oral liquid
+11950211000001105	Clonazepam 600micrograms/5ml oral liquid
+11950311000001102	Clonazepam 600micrograms/5ml oral liquid
+11956711000001100	Clonazepam 600micrograms/5ml oral liquid
+11950411000001109	Clonazepam 600micrograms/5ml oral liquid
+11950511000001108	Clonazepam 600micrograms/5ml oral liquid
+11950611000001107	Clonazepam 600micrograms/5ml oral liquid
+11957011000001104	Clonazepam 700micrograms/5ml oral liquid
+11950711000001103	Clonazepam 700micrograms/5ml oral liquid
+11950811000001106	Clonazepam 700micrograms/5ml oral liquid
+11950911000001101	Clonazepam 700micrograms/5ml oral liquid
+11956911000001103	Clonazepam 700micrograms/5ml oral liquid
+11951011000001109	Clonazepam 700micrograms/5ml oral liquid
+11951111000001105	Clonazepam 700micrograms/5ml oral liquid
+11951211000001104	Clonazepam 700micrograms/5ml oral liquid
+11957211000001109	Clonazepam 750micrograms/5ml oral liquid
+11951311000001107	Clonazepam 750micrograms/5ml oral liquid
+11951411000001100	Clonazepam 750micrograms/5ml oral liquid
+11951511000001101	Clonazepam 750micrograms/5ml oral liquid
+11957111000001103	Clonazepam 750micrograms/5ml oral liquid
+11951611000001102	Clonazepam 750micrograms/5ml oral liquid
+11951711000001106	Clonazepam 750micrograms/5ml oral liquid
+11951811000001103	Clonazepam 750micrograms/5ml oral liquid
+11957411000001108	Clonazepam 80micrograms/5ml oral liquid
+11951911000001108	Clonazepam 80micrograms/5ml oral liquid
+11952011000001101	Clonazepam 80micrograms/5ml oral liquid
+11952111000001100	Clonazepam 80micrograms/5ml oral liquid
+11957311000001101	Clonazepam 80micrograms/5ml oral liquid
+11952211000001106	Clonazepam 80micrograms/5ml oral liquid
+11952311000001103	Clonazepam 80micrograms/5ml oral liquid
+11952411000001105	Clonazepam 80micrograms/5ml oral liquid
+11957611000001106	Clonazepam 875micrograms/5ml oral liquid
+11952511000001109	Clonazepam 875micrograms/5ml oral liquid
+11952611000001108	Clonazepam 875micrograms/5ml oral liquid
+11952711000001104	Clonazepam 875micrograms/5ml oral liquid
+11957511000001107	Clonazepam 875micrograms/5ml oral liquid
+11952811000001107	Clonazepam 875micrograms/5ml oral liquid
+11952911000001102	Clonazepam 875micrograms/5ml oral liquid
+11953011000001105	Clonazepam 875micrograms/5ml oral liquid
+11957811000001105	Clonazepam 900micrograms/5ml oral liquid
+11953111000001106	Clonazepam 900micrograms/5ml oral liquid
+11953211000001100	Clonazepam 900micrograms/5ml oral liquid
+11953311000001108	Clonazepam 900micrograms/5ml oral liquid
+11957711000001102	Clonazepam 900micrograms/5ml oral liquid
+11953411000001101	Clonazepam 900micrograms/5ml oral liquid
+11953511000001102	Clonazepam 900micrograms/5ml oral liquid
+11953611000001103	Clonazepam 900micrograms/5ml oral liquid
+17870411000001103	Clonazepam 500microgram orodispersible tablets
+17870111000001108	Clonazepam 500microgram orodispersible tablets
+17870211000001102	Clonazepam 500microgram orodispersible tablets
+17870311000001105	Clonazepam 500microgram orodispersible tablets
+17999911000001103	Clonazepam 500microgram oral lyophilisates sugar free
+17996411000001104	Clonazepam 500microgram oral lyophilisates sugar free
+17996511000001100	Klonopin 0.5mg oral lyophilisates
+17996611000001101	Klonopin 0.5mg oral lyophilisates
+20128211000001100	Clonazepam 500micrograms/5ml oral solution sugar free
+20018611000001101	Clonazepam 500micrograms/5ml oral solution sugar free
+20018711000001105	Clonazepam 500micrograms/5ml oral solution sugar free
+20018811000001102	Clonazepam 500micrograms/5ml oral solution sugar free
+20359311000001105	Clonazepam 500micrograms/5ml oral solution sugar free
+20359411000001103	Clonazepam 500micrograms/5ml oral solution sugar free
+20612511000001109	Clonazepam 500micrograms/5ml oral solution sugar free
+20612611000001108	Clonazepam 500micrograms/5ml oral solution sugar free
+22081811000001103	Clonazepam 500micrograms/5ml oral solution sugar free
+22081911000001108	Clonazepam 500micrograms/5ml oral solution sugar free
+29790511000001100	Clonazepam 500micrograms/5ml oral solution sugar free
+29790611000001101	Clonazepam 500micrograms/5ml oral solution sugar free
+34886611000001100	Clonazepam 500micrograms/5ml oral solution sugar free
+34886711000001109	Clonazepam 500micrograms/5ml oral solution sugar free
+35826811000001102	Clonazepam 500micrograms/5ml oral solution sugar free
+35826911000001107	Clonazepam 500micrograms/5ml oral solution sugar free
+37226111000001100	Clonazepam 500micrograms/5ml oral solution sugar free
+37226211000001106	Clonazepam 500micrograms/5ml oral solution sugar free
+38845611000001100	Clonazepam 500micrograms/5ml oral solution sugar free
+38845711000001109	Clonazepam 500micrograms/5ml oral solution sugar free
+20065611000001108	Clonazepam 2mg/5ml oral solution sugar free
+20019111000001102	Clonazepam 2mg/5ml oral solution sugar free
+20019211000001108	Clonazepam 2mg/5ml oral solution sugar free
+20019311000001100	Clonazepam 2mg/5ml oral solution sugar free
+20359511000001104	Clonazepam 2mg/5ml oral solution sugar free
+20359611000001100	Clonazepam 2mg/5ml oral solution sugar free
+20637711000001105	Clonazepam 2mg/5ml oral solution sugar free
+20637811000001102	Clonazepam 2mg/5ml oral solution sugar free
+22082011000001101	Clonazepam 2mg/5ml oral solution sugar free
+22082111000001100	Clonazepam 2mg/5ml oral solution sugar free
+29790711000001105	Clonazepam 2mg/5ml oral solution sugar free
+29790811000001102	Clonazepam 2mg/5ml oral solution sugar free
+34886811000001101	Clonazepam 2mg/5ml oral solution sugar free
+34886911000001106	Clonazepam 2mg/5ml oral solution sugar free
+35827011000001106	Clonazepam 2mg/5ml oral solution sugar free
+35827111000001107	Clonazepam 2mg/5ml oral solution sugar free
+37226311000001103	Clonazepam 2mg/5ml oral solution sugar free
+37226411000001105	Clonazepam 2mg/5ml oral solution sugar free
+38845811000001101	Clonazepam 2mg/5ml oral solution sugar free
+38845911000001106	Clonazepam 2mg/5ml oral solution sugar free
+23466511000001106	Clonazepam 2.5mg/ml drops
+23403211000001100	Clonazepam 2.5mg/ml drops
+23403311000001108	Clonazepam 2.5mg/ml drops
+23403411000001101	Clonazepam 2.5mg/ml drops
+23403711000001107	Clonazepam 2.5mg/ml drops
+23403511000001102	Clonazepam 2.5mg/ml drops
+321276002	Dipotassium clorazepate 7.5mg capsules
+4902011000001104	Dipotassium clorazepate 7.5mg capsules
+4902111000001103	Dipotassium clorazepate 7.5mg capsules
+4902211000001109	Tranxene 7.5mg capsules
+4902311000001101	Tranxene 7.5mg capsules
+4902411000001108	Tranxene 7.5mg capsules
+321277006	Dipotassium clorazepate 15mg capsules
+4902511000001107	Dipotassium clorazepate 15mg capsules
+4902611000001106	Dipotassium clorazepate 15mg capsules
+4902711000001102	Tranxene 15mg capsules
+4902811000001105	Tranxene 15mg capsules
+4902911000001100	Tranxene 15mg capsules
+321198003	Diazepam 10mg tablets
+1132211000001105	Diazepam 10mg tablets
+1289511000001106	Diazepam 10mg tablets
+9106611000001109	Diazepam 10mg tablets
+734911000001103	Diazepam 10mg tablets
+1420011000001103	Diazepam 10mg tablets
+1420311000001100	Diazepam 10mg tablets
+486211000001103	Diazepam 10mg tablets
+1420811000001109	Diazepam 10mg tablets
+366511000001107	Diazepam 10mg tablets
+1421811000001101	Diazepam 10mg tablets
+230211000001106	Diazepam 10mg tablets
+1422111000001103	Diazepam 10mg tablets
+878511000001104	Diazepam 10mg tablets
+1422611000001106	Diazepam 10mg tablets
+305211000001102	Diazepam 10mg tablets
+1422711000001102	Diazepam 10mg tablets
+1423411000001104	Diazepam 10mg tablets
+253911000001109	Diazepam 10mg tablets
+1442711000001100	Diazepam 10mg tablets
+1443211000001101	Diazepam 10mg tablets
+433011000001105	Diazepam 10mg tablets
+1443411000001102	Diazepam 10mg tablets
+1443511000001103	Diazepam 10mg tablets
+9106811000001108	Tensium 10mg tablets
+9106911000001103	Tensium 10mg tablets
+9790811000001104	Diazepam 10mg tablets
+9790911000001109	Diazepam 10mg tablets
+10400711000001100	Diazepam 10mg tablets
+10400811000001108	Diazepam 10mg tablets
+10400911000001103	Diazepam 10mg tablets
+11020311000001105	Diazepam 10mg tablets
+11020411000001103	Diazepam 10mg tablets
+13938311000001108	Diazepam 10mg tablets
+13938411000001101	Diazepam 10mg tablets
+16431111000001106	Diazepam 10mg tablets
+17197311000001106	Diazepam 10mg tablets
+17197411000001104	Diazepam 10mg tablets
+17197511000001100	Diazepam 10mg tablets
+18107511000001108	Diazepam 10mg tablets
+18107611000001107	Diazepam 10mg tablets
+21925811000001103	Diazepam 10mg tablets
+21925911000001108	Diazepam 10mg tablets
+23591311000001100	Diazepam 10mg tablets
+23861111000001100	Diazepam 10mg tablets
+23861311000001103	Diazepam 10mg tablets
+28922211000001102	Diazepam 10mg tablets
+28922311000001105	Diazepam 10mg tablets
+29804111000001100	Diazepam 10mg tablets
+29804211000001106	Diazepam 10mg tablets
+37057611000001101	Diazepam 10mg tablets
+37057711000001105	Diazepam 10mg tablets
+38867711000001106	Diazepam 10mg tablets
+38868011000001105	Diazepam 10mg tablets
+321197008	Diazepam 5mg tablets
+1116611000001102	Diazepam 5mg tablets
+1059411000001108	Diazepam 5mg tablets
+224211000001101	Diazepam 5mg tablets
+1419411000001108	Diazepam 5mg tablets
+1419611000001106	Diazepam 5mg tablets
+61811000001103	Diazepam 5mg tablets
+1419711000001102	Diazepam 5mg tablets
+647011000001103	Diazepam 5mg tablets
+1419811000001105	Diazepam 5mg tablets
+606511000001102	Diazepam 5mg tablets
+1419911000001100	Diazepam 5mg tablets
+833711000001100	Diazepam 5mg tablets
+1420211000001108	Diazepam 5mg tablets
+644911000001105	Diazepam 5mg tablets
+1420511000001106	Diazepam 5mg tablets
+1420611000001105	Diazepam 5mg tablets
+924411000001103	Diazepam 5mg tablets
+1420911000001104	Diazepam 5mg tablets
+1421011000001107	Diazepam 5mg tablets
+521111000001100	Diazepam 5mg tablets
+1421311000001105	Diazepam 5mg tablets
+1421411000001103	Diazepam 5mg tablets
+213011000001103	Diazepam 5mg tablets
+1421711000001109	Diazepam 5mg tablets
+8826811000001109	Diazepam 5mg tablets
+9790611000001103	Diazepam 5mg tablets
+9790711000001107	Diazepam 5mg tablets
+10286311000001104	Diazepam 5mg tablets
+10286511000001105	Diazepam 5mg tablets
+10286611000001109	Diazepam 5mg tablets
+10400411000001106	Diazepam 5mg tablets
+10400511000001105	Diazepam 5mg tablets
+10400611000001109	Diazepam 5mg tablets
+11020111000001108	Diazepam 5mg tablets
+11020211000001102	Diazepam 5mg tablets
+13577211000001108	Diazepam 5mg tablets
+23862111000001105	Diazepam 5mg tablets
+13577311000001100	Diazepam 5mg tablets
+13938111000001106	Diazepam 5mg tablets
+13938211000001100	Diazepam 5mg tablets
+16431011000001105	Diazepam 5mg tablets
+15081611000001101	Diazepam 5mg tablets
+15081711000001105	Diazepam 5mg tablets
+17197011000001108	Diazepam 5mg tablets
+17197111000001109	Diazepam 5mg tablets
+17197211000001103	Diazepam 5mg tablets
+18107311000001102	Diazepam 5mg tablets
+18107411000001109	Diazepam 5mg tablets
+23654111000001104	Diazepam 5mg tablets
+21925611000001102	Diazepam 5mg tablets
+21925711000001106	Diazepam 5mg tablets
+23591211000001108	Diazepam 5mg tablets
+28921811000001105	Diazepam 5mg tablets
+28921911000001100	Diazepam 5mg tablets
+30022111000001101	Diazepam 5mg tablets
+30022211000001107	Diazepam 5mg tablets
+38869111000001104	Diazepam 5mg tablets
+38869211000001105	Diazepam 5mg tablets
+321196004	Diazepam 2mg tablets
+998211000001100	Diazepam 2mg tablets
+1257511000001107	Diazepam 2mg tablets
+9107011000001104	Diazepam 2mg tablets
+9107111000001103	Diazepam 2mg tablets
+889411000001101	Diazepam 2mg tablets
+1423611000001101	Diazepam 2mg tablets
+1423511000001100	Diazepam 2mg tablets
+790811000001109	Diazepam 2mg tablets
+1423711000001105	Diazepam 2mg tablets
+223511000001101	Diazepam 2mg tablets
+1423811000001102	Diazepam 2mg tablets
+790211000001108	Diazepam 2mg tablets
+1423911000001107	Diazepam 2mg tablets
+849711000001101	Diazepam 2mg tablets
+1424011000001105	Diazepam 2mg tablets
+52211000001103	Diazepam 2mg tablets
+1424111000001106	Diazepam 2mg tablets
+708811000001109	Diazepam 2mg tablets
+1424211000001100	Diazepam 2mg tablets
+1424311000001108	Diazepam 2mg tablets
+125411000001104	Diazepam 2mg tablets
+1424411000001101	Diazepam 2mg tablets
+463011000001103	Diazepam 2mg tablets
+1424511000001102	Diazepam 2mg tablets
+1424711000001107	Diazepam 2mg tablets
+28611000001100	Diazepam 2mg tablets
+1424811000001104	Diazepam 2mg tablets
+1424911000001109	Diazepam 2mg tablets
+9107211000001109	Tensium 2mg tablets
+9107411000001108	Tensium 2mg tablets
+9107511000001107	Tensium 2mg tablets
+9790311000001108	Diazepam 2mg tablets
+9790511000001102	Diazepam 2mg tablets
+10400111000001101	Diazepam 2mg tablets
+10400311000001104	Diazepam 2mg tablets
+10400211000001107	Diazepam 2mg tablets
+11019911000001105	Diazepam 2mg tablets
+11020011000001107	Diazepam 2mg tablets
+13577011000001103	Diazepam 2mg tablets
+13577111000001102	Diazepam 2mg tablets
+23861611000001108	Diazepam 2mg tablets
+13937911000001108	Diazepam 2mg tablets
+16430911000001102	Diazepam 2mg tablets
+13938011000001105	Diazepam 2mg tablets
+15081411000001104	Diazepam 2mg tablets
+15081511000001100	Diazepam 2mg tablets
+17196711000001107	Diazepam 2mg tablets
+17196911000001109	Diazepam 2mg tablets
+17196811000001104	Diazepam 2mg tablets
+18107111000001104	Diazepam 2mg tablets
+23654011000001100	Diazepam 2mg tablets
+18107211000001105	Diazepam 2mg tablets
+21925411000001100	Diazepam 2mg tablets
+23591111000001102	Diazepam 2mg tablets
+21925511000001101	Diazepam 2mg tablets
+28922011000001107	Diazepam 2mg tablets
+28922111000001108	Diazepam 2mg tablets
+30021611000001103	Diazepam 2mg tablets
+30021911000001109	Diazepam 2mg tablets
+38868111000001106	Diazepam 2mg tablets
+38868211000001100	Diazepam 2mg tablets
+323074003	Diazepam 10mg/2.5ml rectal solution tube
+1057611000001101	Diazepam 10mg/2.5ml rectal solution tube
+343011000001104	Diazepam 10mg/2.5ml rectal solution tube
+2638411000001106	Diazepam 10mg/2.5ml rectal solution tube
+142611000001108	Stesolid 10mg rectal tube
+2638511000001105	Stesolid 10mg rectal tube
+26811000001102	Diazepam 10mg RecTubes
+2638611000001109	Diazepam 10mg RecTubes
+75811000001106	Diazepam 10mg/2.5ml rectal solution tube
+2638711000001100	Diazepam 10mg/2.5ml rectal solution tube
+885611000001101	Diazepam 10mg/2.5ml rectal solution tube
+2638811000001108	Diazepam 10mg/2.5ml rectal solution tube
+22198411000001102	Diazepam 10mg/2.5ml rectal solution tube
+22198511000001103	Diazepam 10mg/2.5ml rectal solution tube
+29804511000001109	Diazepam 10mg/2.5ml rectal solution tube
+29804611000001108	Diazepam 10mg/2.5ml rectal solution tube
+321199006	Diazepam 2mg/5ml oral solution
+1133111000001105	Diazepam 2mg/5ml oral solution
+1292611000001104	Diazepam 2mg/5ml oral solution
+753911000001101	Diazepam 2mg/5ml oral solution
+2639211000001102	Diazepam 2mg/5ml oral solution
+2639311000001105	Diazepam 2mg/5ml oral solution
+182011000001108	Diazepam 2mg/5ml oral solution
+2639411000001103	Diazepam 2mg/5ml oral solution
+2639511000001104	Diazepam 2mg/5ml oral solution
+8892111000001109	Diazepam 2mg/5ml oral solution
+8892511000001100	Diazepam 2mg/5ml oral solution
+11248711000001102	Diazepam 2mg/5ml oral solution
+11248811000001105	Diazepam 2mg/5ml oral solution
+15106611000001102	Diazepam 2mg/5ml oral solution
+15106811000001103	Diazepam 2mg/5ml oral solution
+39709411000001106	Diazepam 5mg/2.5ml rectal solution tube
+1234411000001104	Diazepam 5mg/2.5ml rectal solution tube
+636111000001104	Diazepam 5mg/2.5ml rectal solution tube
+2640011000001100	Diazepam 5mg/2.5ml rectal solution tube
+82011000001104	Stesolid 5mg rectal tube
+2640111000001104	Stesolid 5mg rectal tube
+121611000001104	Diazepam 5mg/2.5ml rectal solution tube
+2640211000001105	Diazepam 5mg/2.5ml rectal solution tube
+603811000001108	Diazepam 5mg RecTubes
+2640411000001109	Diazepam 5mg RecTubes
+707111000001103	Diazepam 5mg/2.5ml rectal solution tube
+2640511000001108	Diazepam 5mg/2.5ml rectal solution tube
+463611000001105	Diazepam 5mg/2.5ml rectal solution tube
+2640811000001106	Diazepam 5mg/2.5ml rectal solution tube
+22198211000001101	Diazepam 5mg/2.5ml rectal solution tube
+22198311000001109	Diazepam 5mg/2.5ml rectal solution tube
+29804711000001104	Diazepam 5mg/2.5ml rectal solution tube
+29804811000001107	Diazepam 5mg/2.5ml rectal solution tube
+321203006	Diazepam 5mg/5ml oral solution
+1264311000001104	Diazepam 5mg/5ml oral solution
+109111000001104	Diazepam 5mg/5ml oral solution
+2645711000001108	Diazepam 5mg/5ml oral solution
+798311000001103	Diazepam 5mg/5ml oral solution
+2645911000001105	Diazepam 5mg/5ml oral solution
+22326511000001101	Diazepam 5mg/5ml oral solution
+22326611000001102	Diazepam 5mg/5ml oral solution
+323069006	Diazepam 2.5mg/1.25ml rectal solution tube
+945211000001104	Diazepam 2.5mg/1.25ml rectal solution tube
+283311000001103	Diazepam 2.5mg RecTubes
+2645111000001107	Diazepam 2.5mg RecTubes
+36097611000001105	Diazepam 10mg/2ml solution for injection ampoules
+1306411000001107	Diazepam 10mg/2ml solution for injection ampoules
+434211000001102	Diazepam 10mg/2ml solution for injection ampoules
+2759311000001100	Diazepam 10mg/2ml solution for injection ampoules
+687511000001101	Diazepam 10mg/2ml solution for injection ampoules
+2759611000001105	Diazepam 10mg/2ml solution for injection ampoules
+155811000001103	Diazepam 10mg/2ml solution for injection ampoules
+2759711000001101	Diazepam 10mg/2ml solution for injection ampoules
+5083111000001106	Diazepam 10mg/2ml solution for injection ampoules
+5083211000001100	Diazepam 10mg/2ml solution for injection ampoules
+321238008	Diazepam 10mg suppositories
+3823911000001106	Diazepam 10mg suppositories
+27320511000001100	Diazepam 10mg suppositories
+3824311000001107	Valclair 10mg suppositories
+3824411000001100	Valclair 10mg suppositories
+27320211000001103	Diazepam 10mg suppositories
+27320711000001105	Diazepam 10mg suppositories
+36097511000001106	Diazepam 10mg/2ml emulsion for injection ampoules
+3971011000001103	Diazepam 10mg/2ml emulsion for injection ampoules
+3971111000001102	Diazemuls 10mg/2ml emulsion for injection ampoules
+3971311000001100	Diazemuls 10mg/2ml emulsion for injection ampoules
+8792911000001105	Diazepam 2.5mg/5ml oral solution
+8780411000001102	Diazepam 2.5mg/5ml oral solution
+8780511000001103	Diazepam 2.5mg/5ml oral solution
+8780611000001104	Diazepam 2.5mg/5ml oral solution
+426016003	Diazepam 25mg/5ml oral solution
+8780711000001108	Diazepam 25mg/5ml oral solution
+8780811000001100	Diazepam 25mg/5ml oral solution
+8780911000001105	Diazepam 25mg/5ml oral solution
+8792711000001108	Diazepam 10mg/5ml oral solution
+8781011000001102	Diazepam 10mg/5ml oral solution
+20443911000001100	Diazepam 10mg/5ml oral solution
+22327611000001100	Diazepam 10mg/5ml oral solution
+8781111000001101	Diazepam 10mg/5ml oral solution
+8781311000001104	Diazepam 10mg/5ml oral solution
+20444411000001106	Diazepam 10mg/5ml oral solution
+22328211000001103	Diazepam 10mg/5ml oral solution
+22328311000001106	Diazepam 10mg/5ml oral solution
+8792811000001100	Diazepam 1mg/5ml oral solution
+8781411000001106	Diazepam 1mg/5ml oral solution
+8781511000001105	Diazepam 1mg/5ml oral solution
+8781611000001109	Diazepam 1mg/5ml oral solution
+38894311000001101	Diazepam 2mg/5ml oral solution sugar free
+9765111000001100	Diazepam 2mg/5ml oral solution sugar free
+9765211000001106	Diazepam 2mg/5ml oral solution sugar free
+9765311000001103	Diazepam 2mg/5ml oral solution sugar free
+19571011000001105	Diazepam 2mg/5ml oral solution sugar free
+19571111000001106	Diazepam 2mg/5ml oral solution sugar free
+28972511000001100	Diazepam 2mg/5ml oral solution sugar free
+28972711000001105	Diazepam 2mg/5ml oral solution sugar free
+30762111000001108	Diazepam 2mg/5ml oral solution sugar free
+30762211000001102	Diazepam 2mg/5ml oral solution sugar free
+30850511000001109	Diazepam 2mg/5ml oral solution sugar free
+30850611000001108	Diazepam 2mg/5ml oral solution sugar free
+37297811000001102	Diazepam 2mg/5ml oral solution sugar free
+37297911000001107	Diazepam 2mg/5ml oral solution sugar free
+38869411000001109	Diazepam 2mg/5ml oral solution sugar free
+38869511000001108	Diazepam 2mg/5ml oral solution sugar free
+13893211000001109	Diazepam 10mg/5ml oral suspension
+13883611000001105	Diazepam 10mg/5ml oral suspension
+21310311000001103	Diazepam 10mg/5ml oral suspension
+40486811000001106	Diazepam 10mg/5ml oral suspension
+13883811000001109	Diazepam 10mg/5ml oral suspension
+13884011000001101	Diazepam 10mg/5ml oral suspension
+21310411000001105	Diazepam 10mg/5ml oral suspension
+40486911000001101	Diazepam 10mg/5ml oral suspension
+13893311000001101	Diazepam 2.5mg/5ml oral solution
+13892011000001108	Diazepam 2.5mg/5ml oral solution
+13892111000001109	Diazepam 2.5mg/5ml oral solution
+13892211000001103	Diazepam 2.5mg/5ml oral solution
+19677811000001102	Diazepam 2mg/5ml oral suspension
+19674811000001106	Diazepam 2mg/5ml oral suspension
+32635011000001107	Diazepam 2mg/5ml oral suspension
+19674911000001101	Diazepam 2mg/5ml oral suspension
+19675011000001101	Diazepam 2mg/5ml oral suspension
+32635111000001108	Diazepam 2mg/5ml oral suspension
+32635211000001102	Diazepam 2mg/5ml oral suspension
+32782211000001108	Diazepam 2mg/5ml oral suspension
+32782311000001100	Diazepam 2mg/5ml oral suspension
+32903011000001104	Diazepam 2mg/5ml oral suspension
+32903111000001103	Diazepam 2mg/5ml oral suspension
+40337711000001100	Diazepam 2mg/5ml oral suspension
+40337811000001108	Diazepam 2mg/5ml oral suspension
+22374911000001101	Diazepam 15mg/5ml oral solution
+22371211000001108	Diazepam 15mg/5ml oral solution
+22371311000001100	Diazepam 15mg/5ml oral solution
+22371411000001107	Diazepam 15mg/5ml oral solution
+22371511000001106	Diazepam 15mg/5ml oral solution
+22371611000001105	Diazepam 15mg/5ml oral solution
+32654611000001100	Diazepam 5mg/5ml oral suspension
+32635311000001105	Diazepam 5mg/5ml oral suspension
+32635511000001104	Diazepam 5mg/5ml oral suspension
+32635911000001106	Diazepam 5mg/5ml oral suspension
+32903211000001109	Diazepam 5mg/5ml oral suspension
+32903311000001101	Diazepam 5mg/5ml oral suspension
+321112001	Flunitrazepam 1mg tablets
+4660011000001103	Flunitrazepam 1mg tablets
+4660211000001108	Rohypnol 1mg tablets
+4660311000001100	Rohypnol 1mg tablets
+321117007	Flurazepam 15mg capsules
+4657411000001104	Flurazepam 15mg capsules
+4657511000001100	Dalmane 15mg capsules
+4657611000001101	Dalmane 15mg capsules
+321118002	Flurazepam 30mg capsules
+4657711000001105	Flurazepam 30mg capsules
+4657811000001102	Dalmane 30mg capsules
+4658011000001109	Dalmane 30mg capsules
+39699311000001107	Loprazolam 1mg tablets
+1108011000001105	Loprazolam 1mg tablets
+10546111000001100	Loprazolam 1mg tablets
+436211000001107	Loprazolam 1mg tablets
+2599011000001106	Loprazolam 1mg tablets
+526811000001102	Loprazolam 1mg tablets
+2599811000001100	Loprazolam 1mg tablets
+13774911000001109	Loprazolam 1mg tablets
+16650411000001107	Loprazolam 1mg tablets
+13775011000001109	Loprazolam 1mg tablets
+22073411000001107	Loprazolam 1mg tablets
+22073511000001106	Loprazolam 1mg tablets
+39029111000001106	Loprazolam 1mg tablets
+39029211000001100	Loprazolam 1mg tablets
+321294008	Lorazepam 1mg tablets
+1114711000001102	Lorazepam 1mg tablets
+10545111000001106	Lorazepam 1mg tablets
+15171011000001108	Lorazepam 1mg tablets
+15171111000001109	Lorazepam 1mg tablets
+15473311000001108	Lorazepam 1mg tablets
+295711000001104	Lorazepam 1mg tablets
+1855511000001105	Lorazepam 1mg tablets
+917211000001100	Lorazepam 1mg tablets
+1856511000001103	Lorazepam 1mg tablets
+842411000001101	Lorazepam 1mg tablets
+1856911000001105	Lorazepam 1mg tablets
+701811000001103	Lorazepam 1mg tablets
+1857411000001100	Lorazepam 1mg tablets
+814311000001105	Lorazepam 1mg tablets
+1857811000001103	Lorazepam 1mg tablets
+15473411000001101	Lorazepam 1mg tablets
+9480811000001109	Lorazepam 1mg tablets
+9481011000001107	Lorazepam 1mg tablets
+10387311000001105	Lorazepam 1mg tablets
+10387611000001100	Lorazepam 1mg tablets
+12533011000001103	Lorazepam 1mg tablets
+12533111000001102	Lorazepam 1mg tablets
+13403911000001105	Lorazepam 1mg tablets
+13404011000001108	Lorazepam 1mg tablets
+15434211000001100	Lorazepam 1mg tablets
+15434311000001108	Lorazepam 1mg tablets
+17938411000001106	Lorazepam 1mg tablets
+17938511000001105	Lorazepam 1mg tablets
+20324811000001104	Lorazepam 1mg tablets
+20324911000001109	Lorazepam 1mg tablets
+22073811000001109	Lorazepam 1mg tablets
+22073911000001104	Lorazepam 1mg tablets
+24134311000001103	Lorazepam 1mg tablets
+35957811000001107	Lorazepam 1mg tablets
+24134411000001105	Lorazepam 1mg tablets
+24370411000001108	Lorazepam 1mg tablets
+24370511000001107	Lorazepam 1mg tablets
+29896911000001107	Lorazepam 1mg tablets
+29897011000001106	Lorazepam 1mg tablets
+37119211000001108	Lorazepam 1mg tablets
+37119311000001100	Lorazepam 1mg tablets
+37899711000001106	Lorazepam 1mg tablets
+37899811000001103	Lorazepam 1mg tablets
+39029911000001109	Lorazepam 1mg tablets
+39030011000001104	Lorazepam 1mg tablets
+321295009	Lorazepam 2.5mg tablets
+1128211000001105	Lorazepam 2.5mg tablets
+24134811000001107	Lorazepam 2.5mg tablets
+771611000001105	Lorazepam 2.5mg tablets
+1859111000001104	Lorazepam 2.5mg tablets
+845311000001102	Lorazepam 2.5mg tablets
+1859311000001102	Lorazepam 2.5mg tablets
+478511000001108	Lorazepam 2.5mg tablets
+1859711000001103	Lorazepam 2.5mg tablets
+585511000001101	Lorazepam 2.5mg tablets
+1860011000001104	Lorazepam 2.5mg tablets
+4582311000001108	Lorazepam 2.5mg tablets
+115511000001108	Lorazepam 2.5mg tablets
+1860611000001106	Lorazepam 2.5mg tablets
+9481211000001102	Lorazepam 2.5mg tablets
+9481311000001105	Lorazepam 2.5mg tablets
+10389311000001100	Lorazepam 2.5mg tablets
+10389511000001106	Lorazepam 2.5mg tablets
+12533211000001108	Lorazepam 2.5mg tablets
+12533311000001100	Lorazepam 2.5mg tablets
+13403411000001102	Lorazepam 2.5mg tablets
+13403611000001104	Lorazepam 2.5mg tablets
+15108811000001102	Lorazepam 2.5mg tablets
+15108911000001107	Lorazepam 2.5mg tablets
+15434411000001101	Lorazepam 2.5mg tablets
+15434511000001102	Lorazepam 2.5mg tablets
+17938611000001109	Lorazepam 2.5mg tablets
+17938711000001100	Lorazepam 2.5mg tablets
+20325111000001105	Lorazepam 2.5mg tablets
+20325211000001104	Lorazepam 2.5mg tablets
+22074011000001101	Lorazepam 2.5mg tablets
+22074111000001100	Lorazepam 2.5mg tablets
+24134611000001108	Lorazepam 2.5mg tablets
+35959111000001106	Lorazepam 2.5mg tablets
+24135211000001107	Lorazepam 2.5mg tablets
+24370611000001106	Lorazepam 2.5mg tablets
+24370711000001102	Lorazepam 2.5mg tablets
+37904511000001107	Lorazepam 2.5mg tablets
+37904711000001102	Lorazepam 2.5mg tablets
+39030511000001107	Lorazepam 2.5mg tablets
+39030611000001106	Lorazepam 2.5mg tablets
+36040511000001101	Lorazepam 4mg/1ml solution for injection ampoules
+3925311000001102	Lorazepam 4mg/1ml solution for injection ampoules
+3925811000001106	Ativan 4mg/1ml solution for injection ampoules
+3926011000001109	Ativan 4mg/1ml solution for injection ampoules
+39502711000001107	Lorazepam 4mg/1ml solution for injection ampoules
+39502811000001104	Lorazepam 4mg/1ml solution for injection ampoules
+8624311000001104	Lorazepam 1mg/5ml oral solution
+8596111000001107	Lorazepam 1mg/5ml oral solution
+19597711000001108	Lorazepam 1mg/5ml oral solution
+8596311000001109	Lorazepam 1mg/5ml oral solution
+8596411000001102	Lorazepam 1mg/5ml oral solution
+19597911000001105	Lorazepam 1mg/5ml oral solution
+8624511000001105	Lorazepam 1mg/5ml oral suspension
+8596711000001108	Lorazepam 1mg/5ml oral suspension
+19598411000001103	Lorazepam 1mg/5ml oral suspension
+8596811000001100	Lorazepam 1mg/5ml oral suspension
+8596911000001105	Lorazepam 1mg/5ml oral suspension
+19598611000001100	Lorazepam 1mg/5ml oral suspension
+8659111000001104	Lorazepam 250micrograms/5ml oral liquid
+8597011000001109	Lorazepam 250micrograms/5ml oral liquid
+8597211000001104	Lorazepam 250micrograms/5ml oral liquid
+8597311000001107	Lorazepam 250micrograms/5ml oral liquid
+8659411000001109	Lorazepam 2mg/5ml oral liquid
+8597111000001105	Lorazepam 2mg/5ml oral liquid
+8597411000001100	Lorazepam 2mg/5ml oral liquid
+8597511000001101	Lorazepam 2mg/5ml oral liquid
+8659211000001105	Lorazepam 250micrograms/5ml oral liquid
+8597611000001102	Lorazepam 250micrograms/5ml oral liquid
+8597711000001106	Lorazepam 250micrograms/5ml oral liquid
+8597911000001108	Lorazepam 250micrograms/5ml oral liquid
+8659511000001108	Lorazepam 2mg/5ml oral liquid
+8597811000001103	Lorazepam 2mg/5ml oral liquid
+8598011000001105	Lorazepam 2mg/5ml oral liquid
+8598111000001106	Lorazepam 2mg/5ml oral liquid
+8659611000001107	Lorazepam 500micrograms/5ml oral solution
+8598511000001102	Lorazepam 500micrograms/5ml oral solution
+19598811000001101	Lorazepam 500micrograms/5ml oral solution
+8598611000001103	Lorazepam 500micrograms/5ml oral solution
+8598811000001104	Lorazepam 500micrograms/5ml oral solution
+19599111000001101	Lorazepam 500micrograms/5ml oral solution
+8659911000001101	Lorazepam 5mg/5ml oral liquid
+8598911000001109	Lorazepam 5mg/5ml oral liquid
+8599111000001104	Lorazepam 5mg/5ml oral liquid
+8599211000001105	Lorazepam 5mg/5ml oral liquid
+8659811000001106	Lorazepam 500micrograms/5ml oral suspension
+8599411000001109	Lorazepam 500micrograms/5ml oral suspension
+19599211000001107	Lorazepam 500micrograms/5ml oral suspension
+8599511000001108	Lorazepam 500micrograms/5ml oral suspension
+8599611000001107	Lorazepam 500micrograms/5ml oral suspension
+19599411000001106	Lorazepam 500micrograms/5ml oral suspension
+8660011000001104	Lorazepam 5mg/5ml oral liquid
+8599711000001103	Lorazepam 5mg/5ml oral liquid
+8599811000001106	Lorazepam 5mg/5ml oral liquid
+8599911000001101	Lorazepam 5mg/5ml oral liquid
+12813411000001101	Lorazepam 1.125mg/5ml oral liquid
+12806811000001106	Lorazepam 1.125mg/5ml oral liquid
+12806911000001101	Lorazepam 1.125mg/5ml oral liquid
+12807011000001102	Lorazepam 1.125mg/5ml oral liquid
+12813311000001108	Lorazepam 1.125mg/5ml oral liquid
+12807111000001101	Lorazepam 1.125mg/5ml oral liquid
+12807211000001107	Lorazepam 1.125mg/5ml oral liquid
+12807311000001104	Lorazepam 1.125mg/5ml oral liquid
+12813611000001103	Lorazepam 3.75mg/5ml oral liquid
+12808311000001103	Lorazepam 3.75mg/5ml oral liquid
+12808711000001104	Lorazepam 3.75mg/5ml oral liquid
+12808811000001107	Lorazepam 3.75mg/5ml oral liquid
+12813511000001102	Lorazepam 3.75mg/5ml oral liquid
+12808911000001102	Lorazepam 3.75mg/5ml oral liquid
+12809611000001104	Lorazepam 3.75mg/5ml oral liquid
+12809711000001108	Lorazepam 3.75mg/5ml oral liquid
+12817811000001105	Lorazepam 400micrograms/5ml oral liquid
+12810111000001104	Lorazepam 400micrograms/5ml oral liquid
+12810311000001102	Lorazepam 400micrograms/5ml oral liquid
+12810511000001108	Lorazepam 400micrograms/5ml oral liquid
+12817711000001102	Lorazepam 400micrograms/5ml oral liquid
+12810711000001103	Lorazepam 400micrograms/5ml oral liquid
+12810811000001106	Lorazepam 400micrograms/5ml oral liquid
+12810911000001101	Lorazepam 400micrograms/5ml oral liquid
+12818011000001103	Lorazepam 4mg/5ml oral liquid
+12811011000001109	Lorazepam 4mg/5ml oral liquid
+12811111000001105	Lorazepam 4mg/5ml oral liquid
+12811211000001104	Lorazepam 4mg/5ml oral liquid
+12817911000001100	Lorazepam 4mg/5ml oral liquid
+12811311000001107	Lorazepam 4mg/5ml oral liquid
+12811411000001100	Lorazepam 4mg/5ml oral liquid
+12811511000001101	Lorazepam 4mg/5ml oral liquid
+23675911000001104	Lorazepam 2mg/1ml solution for injection ampoules
+23669911000001105	Lorazepam 2mg/1ml solution for injection ampoules
+23670011000001109	Lorazepam 2mg/1ml solution for injection ampoules
+23670111000001105	Lorazepam 2mg/1ml solution for injection ampoules
+34697811000001107	Lorazepam 1mg/ml oral solution sugar free
+34612111000001101	Lorazepam 1mg/ml oral solution sugar free
+34612211000001107	Lorazepam 1mg/ml oral solution sugar free
+34612311000001104	Lorazepam 1mg/ml oral solution sugar free
+34979011000001104	Lorazepam 1mg/ml oral solution sugar free
+34979311000001101	Lorazepam 1mg/ml oral solution sugar free
+35108511000001103	Lorazepam 1mg/ml oral solution sugar free
+35108611000001104	Lorazepam 1mg/ml oral solution sugar free
+36108111000001105	Lorazepam 2mg/1ml solution for injection vials
+36011211000001102	Lorazepam 2mg/1ml solution for injection vials
+36011311000001105	Lorazepam 2mg/1ml solution for injection vials
+36011411000001103	Lorazepam 2mg/1ml solution for injection vials
+377147002	Lorazepam 500microgram tablets
+37230211000001106	Lorazepam 500microgram tablets
+37230311000001103	Lorazepam 500microgram tablets
+37230411000001105	Lorazepam 500microgram tablets
+37480811000001104	Lorazepam 500microgram tablets
+37480911000001109	Lorazepam 500microgram tablets
+37660711000001108	Lorazepam 500microgram tablets
+37660811000001100	Lorazepam 500microgram tablets
+40325611000001100	Lorazepam 500microgram tablets
+40325711000001109	Lorazepam 500microgram tablets
+40361211000001107	Lorazepam 500microgram tablets
+40361311000001104	Lorazepam 500microgram tablets
+37600511000001104	Lorazepam 1mg orodispersible tablets
+37363711000001109	Lorazepam 1mg orodispersible tablets
+37364611000001102	Lorazepam 1mg orodispersible tablets
+37365011000001108	Lorazepam 1mg orodispersible tablets
+37600611000001100	Lorazepam 2.5mg orodispersible tablets
+37366811000001105	Lorazepam 2.5mg orodispersible tablets
+37367111000001100	Lorazepam 2.5mg orodispersible tablets
+37367411000001105	Lorazepam 2.5mg orodispersible tablets
+321122007	Lormetazepam 500microgram tablets
+998811000001104	Lormetazepam 500microgram tablets
+1025311000001104	Lormetazepam 500microgram tablets
+898611000001106	Lormetazepam 500microgram tablets
+2369811000001100	Lormetazepam 500microgram tablets
+3997011000001102	Lormetazepam 500microgram tablets
+195911000001100	Lormetazepam 500microgram tablets
+2369911000001105	Lormetazepam 500microgram tablets
+2370011000001109	Lormetazepam 500microgram tablets
+327611000001101	Lormetazepam 500microgram tablets
+2370111000001105	Lormetazepam 500microgram tablets
+635811000001103	Lormetazepam 500microgram tablets
+2370211000001104	Lormetazepam 500microgram tablets
+2370311000001107	Lormetazepam 500microgram tablets
+437911000001100	Lormetazepam 500microgram tablets
+2370411000001100	Lormetazepam 500microgram tablets
+2370511000001101	Lormetazepam 500microgram tablets
+15434611000001103	Lormetazepam 500microgram tablets
+15434711000001107	Lormetazepam 500microgram tablets
+17527111000001109	Lormetazepam 500microgram tablets
+17527311000001106	Lormetazepam 500microgram tablets
+17938811000001108	Lormetazepam 500microgram tablets
+17938911000001103	Lormetazepam 500microgram tablets
+20535911000001107	Lormetazepam 500microgram tablets
+20536011000001104	Lormetazepam 500microgram tablets
+21788111000001104	Lormetazepam 500microgram tablets
+21788211000001105	Lormetazepam 500microgram tablets
+22806311000001101	Lormetazepam 500microgram tablets
+22806411000001108	Lormetazepam 500microgram tablets
+24370811000001105	Lormetazepam 500microgram tablets
+24370911000001100	Lormetazepam 500microgram tablets
+29897511000001103	Lormetazepam 500microgram tablets
+29897611000001104	Lormetazepam 500microgram tablets
+37119411000001107	Lormetazepam 500microgram tablets
+37119511000001106	Lormetazepam 500microgram tablets
+39030711000001102	Lormetazepam 500microgram tablets
+39030811000001105	Lormetazepam 500microgram tablets
+321123002	Lormetazepam 1mg tablets
+1283211000001106	Lormetazepam 1mg tablets
+1189811000001107	Lormetazepam 1mg tablets
+877811000001100	Lormetazepam 1mg tablets
+2370611000001102	Lormetazepam 1mg tablets
+3997511000001105	Lormetazepam 1mg tablets
+529711000001100	Lormetazepam 1mg tablets
+2370711000001106	Lormetazepam 1mg tablets
+2370811000001103	Lormetazepam 1mg tablets
+171511000001102	Lormetazepam 1mg tablets
+2370911000001108	Lormetazepam 1mg tablets
+918311000001109	Lormetazepam 1mg tablets
+2371011000001100	Lormetazepam 1mg tablets
+2371111000001104	Lormetazepam 1mg tablets
+274511000001102	Lormetazepam 1mg tablets
+2371211000001105	Lormetazepam 1mg tablets
+2371311000001102	Lormetazepam 1mg tablets
+13925911000001100	Lormetazepam 1mg tablets
+13926111000001109	Lormetazepam 1mg tablets
+15434811000001104	Lormetazepam 1mg tablets
+15434911000001109	Lormetazepam 1mg tablets
+17939011000001107	Lormetazepam 1mg tablets
+17939111000001108	Lormetazepam 1mg tablets
+20536111000001103	Lormetazepam 1mg tablets
+20536211000001109	Lormetazepam 1mg tablets
+21788311000001102	Lormetazepam 1mg tablets
+21788411000001109	Lormetazepam 1mg tablets
+22810111000001103	Lormetazepam 1mg tablets
+22810211000001109	Lormetazepam 1mg tablets
+24371011000001108	Lormetazepam 1mg tablets
+24371111000001109	Lormetazepam 1mg tablets
+29897811000001100	Lormetazepam 1mg tablets
+29897911000001105	Lormetazepam 1mg tablets
+39030911000001100	Lormetazepam 1mg tablets
+39031011000001108	Lormetazepam 1mg tablets
+8660311000001101	Lormetazepam 1mg/5ml oral suspension
+8600011000001103	Lormetazepam 1mg/5ml oral suspension
+8600111000001102	Lormetazepam 1mg/5ml oral suspension
+8600211000001108	Lormetazepam 1mg/5ml oral suspension
+12818111000001102	Lormetazepam 2mg/5ml oral suspension
+12811911000001108	Lormetazepam 2mg/5ml oral suspension
+12812011000001101	Lormetazepam 2mg/5ml oral suspension
+12812111000001100	Lormetazepam 2mg/5ml oral suspension
+12818211000001108	Lormetazepam 500micrograms/5ml oral suspension
+12812211000001106	Lormetazepam 500micrograms/5ml oral suspension
+12812311000001103	Lormetazepam 500micrograms/5ml oral suspension
+12812411000001105	Lormetazepam 500micrograms/5ml oral suspension
+14796811000001102	Lormetazepam 125micrograms/5ml oral suspension
+14787311000001108	Lormetazepam 125micrograms/5ml oral suspension
+14787411000001101	Lormetazepam 125micrograms/5ml oral suspension
+14787511000001102	Lormetazepam 125micrograms/5ml oral suspension
+321127001	Nitrazepam 5mg tablets
+1004511000001101	Nitrazepam 5mg tablets
+1021511000001107	Nitrazepam 5mg tablets
+1314411000001101	Nitrazepam 5mg tablets
+116211000001104	Nitrazepam 5mg tablets
+1442511000001105	Nitrazepam 5mg tablets
+1443111000001107	Nitrazepam 5mg tablets
+380111000001104	Nitrazepam 5mg tablets
+1443311000001109	Nitrazepam 5mg tablets
+199211000001107	Nitrazepam 5mg tablets
+1443711000001108	Nitrazepam 5mg tablets
+418911000001108	Nitrazepam 5mg tablets
+1444911000001107	Nitrazepam 5mg tablets
+499911000001104	Nitrazepam 5mg tablets
+1445411000001103	Nitrazepam 5mg tablets
+1448311000001101	Nitrazepam 5mg tablets
+120111000001101	Nitrazepam 5mg tablets
+1449211000001104	Nitrazepam 5mg tablets
+1448711000001102	Nitrazepam 5mg tablets
+811211000001104	Nitrazepam 5mg tablets
+1449611000001102	Nitrazepam 5mg tablets
+1449811000001103	Nitrazepam 5mg tablets
+479011000001105	Nitrazepam 5mg tablets
+1451411000001104	Nitrazepam 5mg tablets
+1451811000001102	Nitrazepam 5mg tablets
+156511000001108	Nitrazepam 5mg tablets
+1452411000001109	Nitrazepam 5mg tablets
+148911000001104	Nitrazepam 5mg tablets
+1453411000001100	Nitrazepam 5mg tablets
+514911000001107	Mogadon 5mg tablets
+1630811000001109	Mogadon 5mg tablets
+9799011000001102	Nitrazepam 5mg tablets
+9799111000001101	Nitrazepam 5mg tablets
+10397811000001102	Nitrazepam 5mg tablets
+10398011000001109	Nitrazepam 5mg tablets
+17946511000001105	Nitrazepam 5mg tablets
+17946611000001109	Nitrazepam 5mg tablets
+20480211000001105	Nitrazepam 5mg tablets
+20480311000001102	Nitrazepam 5mg tablets
+21820311000001105	Nitrazepam 5mg tablets
+21820411000001103	Nitrazepam 5mg tablets
+21820611000001100	Nitrazepam 5mg tablets
+22600411000001102	Nitrazepam 5mg tablets
+22600511000001103	Nitrazepam 5mg tablets
+29929511000001106	Nitrazepam 5mg tablets
+29929611000001105	Nitrazepam 5mg tablets
+29929711000001101	Nitrazepam 5mg tablets
+30064511000001107	Nitrazepam 5mg tablets
+30064611000001106	Nitrazepam 5mg tablets
+30064711000001102	Nitrazepam 5mg tablets
+30850911000001102	Nitrazepam 5mg tablets
+30851011000001105	Nitrazepam 5mg tablets
+30851111000001106	Nitrazepam 5mg tablets
+35842911000001105	Nitrazepam 5mg tablets
+35843011000001102	Nitrazepam 5mg tablets
+35995611000001105	Nitrazepam 5mg tablets
+35995711000001101	Nitrazepam 5mg tablets
+39058011000001101	Nitrazepam 5mg tablets
+39058111000001100	Nitrazepam 5mg tablets
+321129003	Nitrazepam 2.5mg/5ml oral suspension
+3166111000001100	Nitrazepam 2.5mg/5ml oral suspension
+30936711000001107	Nitrazepam 2.5mg/5ml oral suspension
+3166211000001106	Somnite 2.5mg/5ml oral suspension
+3166311000001103	Somnite 2.5mg/5ml oral suspension
+24328411000001107	Nitrazepam 2.5mg/5ml oral suspension
+24328511000001106	Nitrazepam 2.5mg/5ml oral suspension
+30936811000001104	Nitrazepam 2.5mg/5ml oral suspension
+28040211000001108	Nitrazepam 2.5mg/5ml oral suspension
+28040311000001100	Nitrazepam 2.5mg/5ml oral suspension
+31068011000001103	Nitrazepam 2.5mg/5ml oral suspension
+31065311000001109	Nitrazepam 2.5mg/5ml oral suspension
+31065411000001102	Nitrazepam 2.5mg/5ml oral suspension
+321141005	Nitrazepam 5mg/5ml oral suspension
+8642011000001105	Nitrazepam 5mg/5ml oral suspension
+34861911000001104	Nitrazepam 5mg/5ml oral suspension
+8642211000001100	Nitrazepam 5mg/5ml oral suspension
+8642411000001101	Nitrazepam 5mg/5ml oral suspension
+34862011000001106	Nitrazepam 5mg/5ml oral suspension
+12141611000001102	Nitrazepam 6mg/5ml oral suspension
+12134111000001107	Nitrazepam 6mg/5ml oral suspension
+12134211000001101	Nitrazepam 6mg/5ml oral suspension
+12134311000001109	Nitrazepam 6mg/5ml oral suspension
+12141511000001101	Nitrazepam 4mg/5ml oral suspension
+12134411000001102	Nitrazepam 4mg/5ml oral suspension
+12134511000001103	Nitrazepam 4mg/5ml oral suspension
+12134811000001100	Nitrazepam 4mg/5ml oral suspension
+12141411000001100	Nitrazepam 450micrograms/5ml oral suspension
+12134911000001105	Nitrazepam 450micrograms/5ml oral suspension
+12135011000001105	Nitrazepam 450micrograms/5ml oral suspension
+12135111000001106	Nitrazepam 450micrograms/5ml oral suspension
+12141311000001107	Nitrazepam 2mg/5ml oral suspension
+12136311000001103	Nitrazepam 2mg/5ml oral suspension
+12136811000001107	Nitrazepam 2mg/5ml oral suspension
+12137211000001108	Nitrazepam 2mg/5ml oral suspension
+12144111000001108	Nitrazepam 10mg/5ml oral suspension
+12142211000001106	Nitrazepam 10mg/5ml oral suspension
+12142311000001103	Nitrazepam 10mg/5ml oral suspension
+12142411000001105	Nitrazepam 10mg/5ml oral suspension
+28772911000001103	Nitrazepam 2.5mg/5ml oral suspension sugar free
+28712811000001104	Nitrazepam 2.5mg/5ml oral suspension sugar free
+28713011000001101	Nitrazepam 2.5mg/5ml oral suspension sugar free
+28713111000001100	Nitrazepam 2.5mg/5ml oral suspension sugar free
+321314006	Oxazepam 10mg tablets
+1217911000001108	Oxazepam 10mg tablets
+498511000001100	Oxazepam 10mg tablets
+1928811000001109	Oxazepam 10mg tablets
+214711000001104	Oxazepam 10mg tablets
+1928911000001104	Oxazepam 10mg tablets
+616111000001109	Oxazepam 10mg tablets
+1929011000001108	Oxazepam 10mg tablets
+384111000001108	Oxazepam 10mg tablets
+1929111000001109	Oxazepam 10mg tablets
+682511000001104	Oxazepam 10mg tablets
+1929211000001103	Oxazepam 10mg tablets
+17950111000001102	Oxazepam 10mg tablets
+17950211000001108	Oxazepam 10mg tablets
+19819411000001108	Oxazepam 10mg tablets
+19819511000001107	Oxazepam 10mg tablets
+21828411000001100	Oxazepam 10mg tablets
+21828511000001101	Oxazepam 10mg tablets
+29974111000001104	Oxazepam 10mg tablets
+29974211000001105	Oxazepam 10mg tablets
+30069511000001106	Oxazepam 10mg tablets
+30069611000001105	Oxazepam 10mg tablets
+39068111000001105	Oxazepam 10mg tablets
+39068211000001104	Oxazepam 10mg tablets
+39490011000001104	Oxazepam 10mg tablets
+39490111000001103	Oxazepam 10mg tablets
+321315007	Oxazepam 15mg tablets
+1202211000001104	Oxazepam 15mg tablets
+647511000001106	Oxazepam 15mg tablets
+1929311000001106	Oxazepam 15mg tablets
+191811000001107	Oxazepam 15mg tablets
+1929411000001104	Oxazepam 15mg tablets
+500711000001102	Oxazepam 15mg tablets
+1929511000001100	Oxazepam 15mg tablets
+762211000001107	Oxazepam 15mg tablets
+1929611000001101	Oxazepam 15mg tablets
+37611000001102	Oxazepam 15mg tablets
+1929711000001105	Oxazepam 15mg tablets
+17950311000001100	Oxazepam 15mg tablets
+17950411000001107	Oxazepam 15mg tablets
+19819611000001106	Oxazepam 15mg tablets
+19819711000001102	Oxazepam 15mg tablets
+21828611000001102	Oxazepam 15mg tablets
+21828711000001106	Oxazepam 15mg tablets
+29974311000001102	Oxazepam 15mg tablets
+29974411000001109	Oxazepam 15mg tablets
+30069711000001101	Oxazepam 15mg tablets
+30069811000001109	Oxazepam 15mg tablets
+39068311000001107	Oxazepam 15mg tablets
+39068511000001101	Oxazepam 15mg tablets
+39490511000001107	Oxazepam 15mg tablets
+39490611000001106	Oxazepam 15mg tablets
+12142011000001101	Oxazepam 2mg/5ml oral suspension
+12131911000001107	Oxazepam 2mg/5ml oral suspension
+12132611000001107	Oxazepam 2mg/5ml oral suspension
+12132711000001103	Oxazepam 2mg/5ml oral suspension
+12141911000001108	Oxazepam 2.5mg/5ml oral suspension
+12132811000001106	Oxazepam 2.5mg/5ml oral suspension
+12132911000001101	Oxazepam 2.5mg/5ml oral suspension
+12133011000001109	Oxazepam 2.5mg/5ml oral suspension
+12141811000001103	Oxazepam 12.5mg/5ml oral suspension
+12133111000001105	Oxazepam 12.5mg/5ml oral suspension
+12133211000001104	Oxazepam 12.5mg/5ml oral suspension
+12133311000001107	Oxazepam 12.5mg/5ml oral suspension
+12141711000001106	Oxazepam 10mg/5ml oral suspension
+12133811000001103	Oxazepam 10mg/5ml oral suspension
+12133911000001108	Oxazepam 10mg/5ml oral suspension
+12134011000001106	Oxazepam 10mg/5ml oral suspension
+321152004	Temazepam 10mg tablets
+1178811000001105	Temazepam 10mg tablets
+1259211000001103	Temazepam 10mg tablets
+989211000001109	Temazepam 10mg tablets
+245211000001103	Temazepam 10mg tablets
+1520511000001102	Temazepam 10mg tablets
+1520611000001103	Temazepam 10mg tablets
+1520711000001107	Temazepam 10mg tablets
+652111000001102	Temazepam 10mg tablets
+3959911000001103	Temazepam 10mg tablets
+1520811000001104	Temazepam 10mg tablets
+152611000001106	Temazepam 10mg tablets
+1520911000001109	Temazepam 10mg tablets
+10650211000001104	Temazepam 10mg tablets
+938611000001107	Temazepam 10mg tablets
+15022811000001104	Temazepam 10mg tablets
+1521011000001101	Temazepam 10mg tablets
+209411000001106	Temazepam 10mg tablets
+1521111000001100	Temazepam 10mg tablets
+104711000001104	Temazepam 10mg tablets
+1521311000001103	Temazepam 10mg tablets
+1521611000001108	Temazepam 10mg tablets
+614111000001102	Temazepam 10mg tablets
+4743911000001105	Temazepam 10mg tablets
+1521811000001107	Temazepam 10mg tablets
+635511000001101	Temazepam 10mg tablets
+1522111000001105	Temazepam 10mg tablets
+1522411000001100	Temazepam 10mg tablets
+776711000001107	Temazepam 10mg tablets
+1522711000001106	Temazepam 10mg tablets
+1522911000001108	Temazepam 10mg tablets
+15228611000001107	Temazepam 10mg tablets
+15228711000001103	Temazepam 10mg tablets
+17811711000001108	Temazepam 10mg tablets
+17812011000001103	Temazepam 10mg tablets
+17812311000001100	Temazepam 10mg tablets
+21772111000001105	Temazepam 10mg tablets
+21772211000001104	Temazepam 10mg tablets
+21806411000001107	Temazepam 10mg tablets
+21785211000001103	Temazepam 10mg tablets
+21785311000001106	Temazepam 10mg tablets
+21785411000001104	Temazepam 10mg tablets
+21788811000001106	Temazepam 10mg tablets
+21789011000001105	Temazepam 10mg tablets
+21789111000001106	Temazepam 10mg tablets
+21790611000001108	Temazepam 10mg tablets
+21790711000001104	Temazepam 10mg tablets
+21790911000001102	Temazepam 10mg tablets
+21855811000001106	Temazepam 10mg tablets
+21855911000001101	Temazepam 10mg tablets
+21856011000001109	Temazepam 10mg tablets
+21905311000001100	Temazepam 10mg tablets
+21905411000001107	Temazepam 10mg tablets
+21905511000001106	Temazepam 10mg tablets
+22066511000001107	Temazepam 10mg tablets
+22066611000001106	Temazepam 10mg tablets
+22066711000001102	Temazepam 10mg tablets
+22067111000001100	Temazepam 10mg tablets
+22067211000001106	Temazepam 10mg tablets
+22067311000001103	Temazepam 10mg tablets
+22067711000001104	Temazepam 10mg tablets
+22067811000001107	Temazepam 10mg tablets
+22067911000001102	Temazepam 10mg tablets
+25605411000001107	Temazepam 10mg tablets
+25605511000001106	Temazepam 10mg tablets
+25605611000001105	Temazepam 10mg tablets
+34954011000001103	Temazepam 10mg tablets
+34954111000001102	Temazepam 10mg tablets
+39896711000001109	Temazepam 10mg tablets
+39896811000001101	Temazepam 10mg tablets
+321153009	Temazepam 20mg tablets
+1227811000001109	Temazepam 20mg tablets
+1118111000001109	Temazepam 20mg tablets
+1130911000001100	Temazepam 20mg tablets
+415711000001104	Temazepam 20mg tablets
+1521211000001106	Temazepam 20mg tablets
+1521411000001105	Temazepam 20mg tablets
+1521511000001109	Temazepam 20mg tablets
+185311000001100	Temazepam 20mg tablets
+3960111000001100	Temazepam 20mg tablets
+1521711000001104	Temazepam 20mg tablets
+616211000001103	Temazepam 20mg tablets
+1521911000001102	Temazepam 20mg tablets
+10650311000001107	Temazepam 20mg tablets
+305511000001104	Temazepam 20mg tablets
+1522011000001109	Temazepam 20mg tablets
+377911000001108	Temazepam 20mg tablets
+15023411000001105	Temazepam 20mg tablets
+1522211000001104	Temazepam 20mg tablets
+473511000001104	Temazepam 20mg tablets
+1522511000001101	Temazepam 20mg tablets
+730411000001100	Temazepam 20mg tablets
+1522611000001102	Temazepam 20mg tablets
+1522811000001103	Temazepam 20mg tablets
+58411000001102	Temazepam 20mg tablets
+4744011000001108	Temazepam 20mg tablets
+1523111000001104	Temazepam 20mg tablets
+267711000001107	Temazepam 20mg tablets
+1523211000001105	Temazepam 20mg tablets
+1523311000001102	Temazepam 20mg tablets
+426511000001108	Temazepam 20mg tablets
+1523411000001109	Temazepam 20mg tablets
+1523611000001107	Temazepam 20mg tablets
+15228811000001106	Temazepam 20mg tablets
+15228911000001101	Temazepam 20mg tablets
+17812511000001106	Temazepam 20mg tablets
+17812711000001101	Temazepam 20mg tablets
+17812911000001104	Temazepam 20mg tablets
+21772311000001107	Temazepam 20mg tablets
+21772411000001100	Temazepam 20mg tablets
+21860211000001107	Temazepam 20mg tablets
+21785511000001100	Temazepam 20mg tablets
+21785611000001101	Temazepam 20mg tablets
+21785711000001105	Temazepam 20mg tablets
+21789511000001102	Temazepam 20mg tablets
+21789911000001109	Temazepam 20mg tablets
+21790311000001103	Temazepam 20mg tablets
+21795611000001100	Temazepam 20mg tablets
+21795711000001109	Temazepam 20mg tablets
+21905211000001108	Temazepam 20mg tablets
+21856111000001105	Temazepam 20mg tablets
+21856211000001104	Temazepam 20mg tablets
+21856311000001107	Temazepam 20mg tablets
+21905611000001105	Temazepam 20mg tablets
+21905711000001101	Temazepam 20mg tablets
+21905811000001109	Temazepam 20mg tablets
+22066811000001105	Temazepam 20mg tablets
+22066911000001100	Temazepam 20mg tablets
+22067011000001101	Temazepam 20mg tablets
+22067411000001105	Temazepam 20mg tablets
+22067511000001109	Temazepam 20mg tablets
+22067611000001108	Temazepam 20mg tablets
+22068011000001100	Temazepam 20mg tablets
+22068111000001104	Temazepam 20mg tablets
+22068211000001105	Temazepam 20mg tablets
+34954411000001107	Temazepam 20mg tablets
+34954511000001106	Temazepam 20mg tablets
+39896911000001106	Temazepam 20mg tablets
+39897011000001105	Temazepam 20mg tablets
+35915311000001101	Temazepam 10mg/5ml oral solution sugar free
+1177711000001103	Temazepam 10mg/5ml oral solution sugar free
+1233311000001109	Temazepam 10mg/5ml oral solution sugar free
+909511000001106	Temazepam 10mg/5ml oral solution sugar free
+2435311000001105	Temazepam 10mg/5ml oral solution sugar free
+29711000001100	Temazepam 10mg/5ml oral solution sugar free
+2435711000001109	Temazepam 10mg/5ml oral solution sugar free
+2436011000001103	Temazepam 10mg/5ml oral solution sugar free
+713511000001104	Temazepam 10mg/5ml oral solution sugar free
+2436111000001102	Temazepam 10mg/5ml oral solution sugar free
+844311000001101	Temazepam 10mg/5ml oral solution sugar free
+2436311000001100	Temazepam 10mg/5ml oral solution sugar free
+852811000001101	Temazepam 10mg/5ml oral solution sugar free
+2436611000001105	Temazepam 10mg/5ml oral solution sugar free
+2436811000001109	Temazepam 10mg/5ml oral solution sugar free
+613611000001107	Temazepam 10mg/5ml oral solution sugar free
+2437111000001104	Temazepam 10mg/5ml oral solution sugar free
+13739311000001107	Temazepam 10mg/5ml oral solution sugar free
+13739411000001100	Temazepam 10mg/5ml oral solution sugar free
+17811511000001103	Temazepam 10mg/5ml oral solution sugar free
+17811611000001104	Temazepam 10mg/5ml oral solution sugar free
+21785011000001108	Temazepam 10mg/5ml oral solution sugar free
+21785111000001109	Temazepam 10mg/5ml oral solution sugar free
+35100011000001109	Temazepam 10mg/5ml oral solution sugar free
+35100111000001105	Temazepam 10mg/5ml oral solution sugar free
+38190711000001100	Temazepam 10mg/5ml oral solution sugar free
+38190811000001108	Temazepam 10mg/5ml oral solution sugar free
+39897111000001106	Temazepam 10mg/5ml oral solution sugar free
+39897211000001100	Temazepam 10mg/5ml oral solution sugar free
+4978211000001102	Temazepam 10mg/5ml oral solution unit dose vials sugar free
+4975311000001101	Temazepam 10mg/5ml oral solution unit dose vials sugar free
+4976511000001100	Temazepam 10mg/5ml oral solution unit dose vials sugar free
+4976711000001105	Temazepam 10mg/5ml oral solution unit dose vials sugar free
+4976911000001107	Temazepam 10mg/5ml oral solution unit dose vials sugar free
+4977011000001106	Temazepam 10mg/5ml oral solution unit dose vials sugar free
+13302311000001106	Temazepam 14mg/5ml oral liquid
+13285911000001109	Temazepam 14mg/5ml oral liquid
+13286011000001101	Temazepam 14mg/5ml oral liquid
+13286111000001100	Temazepam 14mg/5ml oral liquid
+13302211000001103	Temazepam 14mg/5ml oral liquid
+13286211000001106	Temazepam 14mg/5ml oral liquid
+13286311000001103	Temazepam 14mg/5ml oral liquid
+13286411000001105	Temazepam 14mg/5ml oral liquid

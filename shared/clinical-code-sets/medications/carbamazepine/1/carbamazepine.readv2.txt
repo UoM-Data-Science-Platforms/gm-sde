@@ -1,0 +1,29 @@
+dn31.	CARBAMAZEPINE 100mg tablets
+dn32.	CARBAMAZEPINE 200mg tablets
+dn33.	CARBAMAZEPINE 400mg tablets
+dn34.	TEGRETOL 100mg tablets
+dn35.	TEGRETOL 200mg tablets
+dn36.	TEGRETOL 400mg tablets
+dn37.	TEGRETOL 100mg/5mL sugar free liquid
+dn38.	TEGRETOL RETARD 200mg m/r tabs
+dn39.	TEGRETOL RETARD 400mg m/r tabs
+dn3a.	CARBAMAZEPINE 200mg m/r tabs
+dn3A.	*EPIMAZ 100mg tablets
+dn3b.	CARBAMAZEPINE 400mg m/r tabs
+dn3B.	*EPIMAZ 200mg tablets
+dn3c.	TEGRETOL 100mg chewable tablets
+dn3C.	*EPIMAZ 400mg tablets
+dn3d.	TEGRETOL 200mg chewable tablets
+dn3D.	TEGRETOL 125mg suppositories
+dn3e.	*ARBIL MR 200mg m/r tablets
+dn3E.	TEGRETOL 250mg suppositories
+dn3f.	*ARBIL MR 400mg m/r tablets
+dn3H.	*TERIL CR 200mg m/r tablets
+dn3I.	*TERIL CR 400mg m/r tablets
+dn3J.	CARBAGEN SR 200mg m/r tablets
+dn3K.	CARBAGEN SR 400mg m/r tablets
+dn3v.	CARBAMAZEPINE 125mg suppositories
+dn3w.	CARBAMAZEPINE 250mg suppositories
+dn3x.	CARBAMAZEPINE 200mg chewable tablets
+dn3y.	CARBAMAZEPINE 100mg chewable tablets
+dn3z.	CARBAMAZEPINE 100mg/5mL sugar free liquid

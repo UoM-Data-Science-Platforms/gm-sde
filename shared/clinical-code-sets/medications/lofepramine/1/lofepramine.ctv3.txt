@@ -1,0 +1,5 @@
+d791.	Gamanil 70mg tablets x56CP
+d792.	Lomont 70mg/5mL s/f suspension
+d793.	Feprapax 70mg tablet
+d79y.	Lofepramine 70mg/5mL s/f suspension
+d79z.	Lofepramine 70mg tablet

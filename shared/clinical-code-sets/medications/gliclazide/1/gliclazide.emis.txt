@@ -1,0 +1,313 @@
+^ESCT1174228	Gliclazide 40mg tablets (Teva UK Ltd)
+^ESCT1174229	Gliclazide 40mg tablets (Teva UK Ltd) 28 tablet
+^ESCT1175396	Gliclazide 40mg tablets (Almus Pharmaceuticals Ltd)
+^ESCT1175397	Gliclazide 40mg tablets (Almus Pharmaceuticals Ltd) 28 tablet
+^ESCT1179512	Gliclazide 80mg tablets (Mylan) 60 tablet 3 x 20 tablets
+^ESCT1179996	Dacadis MR 30mg tablets (Mylan)
+^ESCT1180087	Nazdol MR 30mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1180893	Gliclazide 40mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet
+^ESCT1182105	Product containing only gliclazide 80 mg/1 each oral tablet
+^ESCT1186078	Dacadis MR 30mg tablets (Mylan) 56 tablet 4 x 14 tablets
+^ESCT1186150	Nazdol MR 30mg tablets (Mylan)
+^ESCT1186366	Gliclazide 80mg tablets (Mylan)
+^ESCT1188693	Gliclazide 80mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1189036	Nazdol MR 30mg tablets (Mylan) 56 tablet 4 x 14 tablets
+^ESCT1189383	Dacadis MR 30mg tablets (Mylan) 28 tablet 2 x 14 tablets
+^ESCT1194583	Gliclazide 40mg tablets (NorthStar Healthcare Unlimited Company)
+^ESCT1194584	Gliclazide 40mg tablets (NorthStar Healthcare Unlimited Company) 28 tablet 2 x 14 tablets
+^ESCT1196012	Ziclaseg 30mg modified-release tablets (Lupin Healthcare (UK) Ltd)
+^ESCT1196382	Ziclaseg 30mg modified-release tablets (Lupin Healthcare (UK) Ltd) 28 tablet
+^ESCT1196396	Gliclazide 40mg tablets (Accord Healthcare Ltd)
+^ESCT1196480	Gliclazide 40mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1196574	Ziclaseg 30mg modified-release tablets (Lupin Healthcare (UK) Ltd) 56 tablet
+^ESCT1198704	Gliclazide 40mg tablets (Actavis UK Ltd)
+^ESCT1198746	Gliclazide 40mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1199532	Gliclazide 40mg tablets (Accord Healthcare Ltd)
+^ESCT1199533	Gliclazide 40mg tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1224608	Product containing precisely gliclazide 80 milligram/1 each conventional release oral tablet
+^ESCT1250776	Vamju 30mg modified-release tablets (Advanz Pharma)
+^ESCT1250777	Vamju 30mg modified-release tablets (Advanz Pharma) 28 tablet 2 x 14 tablets
+^ESCT1250778	Vamju 60mg modified-release tablets (Advanz Pharma)
+^ESCT1250779	Vamju 60mg modified-release tablets (Advanz Pharma) 28 tablet 2 x 14 tablets
+^ESCT1250780	Vamju 30mg modified-release tablets (Advanz Pharma) 56 tablet 4 x 14 tablets
+^ESCT1257580	Gliclazide 40mg tablets (Flamingo Pharma (UK) Ltd)
+^ESCT1257583	Gliclazide 40mg tablets (Flamingo Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1259982	Gliclazide 160mg tablets 28 tablet
+^ESCT1259983	Glydex 160mg tablets (Medreich Plc)
+^ESCT1259984	Glydex 160mg tablets (Medreich Plc) 28 tablet 2 x 14 tablets
+^ESCT1260018	Gliclazide 160mg tablets
+^ESCT1260108	Gliclazide 80mg tablets (Relonchem Ltd)
+^ESCT1260109	Gliclazide 80mg tablets (Relonchem Ltd) 28 tablet
+^ESCT1260110	Gliclazide 80mg tablets (Relonchem Ltd) 60 tablet
+^ESCT1266955	Gliclazide 40mg tablets (DE Pharmaceuticals)
+^ESCT1266957	Gliclazide 40mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCT1274106	Bilxona 60mg modified-release tablets (Accord Healthcare Ltd)
+^ESCT1274107	Bilxona 60mg modified-release tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1276770	Bilxona 60mg modified-release tablets (Accord Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1278943	Bilxona 30mg modified-release tablets (Accord Healthcare Ltd)
+^ESCT1278944	Bilxona 30mg modified-release tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1278945	Bilxona 30mg modified-release tablets (Accord Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1280900	Lamzarin 30mg modified-release tablets (Key Pharmaceuticals Ltd)
+^ESCT1280901	Lamzarin 30mg modified-release tablets (Key Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1280902	Lamzarin 30mg modified-release tablets (Key Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCT1280903	Lamzarin 60mg modified-release tablets (Key Pharmaceuticals Ltd)
+^ESCT1280904	Lamzarin 60mg modified-release tablets (Key Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1373898	Gliclazide 80mg tablets (Noumed Life Sciences Ltd)
+^ESCT1373899	Gliclazide 80mg tablets (Noumed Life Sciences Ltd) 28 tablet 2 x 14 tablets
+^ESCT1373900	Gliclazide 80mg tablets (Noumed Life Sciences Ltd) 60 tablet 6 x 10 tablets
+^ESCT1375690	Gliclazide 30mg modified-release tablets
+^ESCT1376013	Gliclazide 40mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376014	Gliclazide 40mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1376015	Gliclazide 80mg tablets (Medihealth (Northern) Ltd)
+^ESCT1376016	Gliclazide 80mg tablets (Medihealth (Northern) Ltd) 60 tablet
+^ESCT1376017	Gliclazide 80mg tablets (Medihealth (Northern) Ltd) 28 tablet
+^ESCT1404518	Gliclazide 60mg modified-release tablets (Accord Healthcare Ltd)
+^ESCT1404520	Gliclazide 60mg modified-release tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1404522	Gliclazide 60mg modified-release tablets (Accord Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1418670	Gliclazide 30mg modified-release tablets (Accord Healthcare Ltd)
+^ESCT1418671	Gliclazide 30mg modified-release tablets (Accord Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1418893	Gliclazide 40mg tablets (Medreich Plc)
+^ESCT1418894	Gliclazide 40mg tablets (Medreich Plc) 28 tablet 2 x 14 tablets
+^ESCT1422237	Gliclazide 80mg tablets (Zentiva Pharma UK Ltd)
+^ESCT1422238	Gliclazide 80mg tablets (Zentiva Pharma UK Ltd) 28 tablet 2 x 14 tablets
+^ESCT1425207	Gliclazide 30mg modified-release tablets (Accord Healthcare Ltd) 56 tablet 4 x 14 tablets
+^ESCT1425483	Gliclazide 80mg tablets (Kent Pharma (UK) Ltd)
+^ESCT1426082	Gliclazide 80mg tablets (Kent Pharma (UK) Ltd) 60 tablet
+^ESCT1426083	Gliclazide 80mg tablets (Kent Pharma (UK) Ltd) 28 tablet
+^ESCT1427175	Gliclazide 30mg modified-release tablets (Kent Pharma (UK) Ltd)
+^ESCT1427176	Gliclazide 30mg modified-release tablets (Kent Pharma (UK) Ltd) 28 tablet 2 x 14 tablets
+^ESCT1427177	Gliclazide 30mg modified-release tablets (Kent Pharma (UK) Ltd) 56 tablet 4 x 14 tablets
+^ESCT1429385	Gliclazide 30mg modified-release tablets (A A H Pharmaceuticals Ltd)
+^ESCT1429386	Gliclazide 30mg modified-release tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCT1429387	Gliclazide 60mg modified-release tablets (A A H Pharmaceuticals Ltd)
+^ESCT1429388	Gliclazide 60mg modified-release tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTBI1128187	Bilxona 30mg modified-release tablets (Actavis UK Ltd)
+^ESCTBI1128188	Bilxona 30mg modified-release tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTBI1128189	Bilxona 30mg modified-release tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTBI1128200	Bilxona 60mg modified-release tablets (Actavis UK Ltd)
+^ESCTBI1128202	Bilxona 60mg modified-release tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTBI1128207	Bilxona 60mg modified-release tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTDA992883	Dacadis MR 30mg tablets (Mylan Ltd)
+^ESCTDA992884	Dacadis MR 30mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTDA992885	Dacadis MR 30mg tablets (Mylan Ltd) 56 tablet 4 x 14 tablets
+^ESCTDI801777	Diaglyk 80mg tablets (Ashbourne Pharmaceuticals Ltd)
+^ESCTDI822968	Diamicron 80mg tablets (Servier Laboratories Ltd)
+^ESCTDI850225	Diaglyk 80mg tablets (Ashbourne Pharmaceuticals Ltd) 60 tablet 3 x 20 tablets
+^ESCTDI850226	Diaglyk 80mg tablets (Ashbourne Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTDI850275	Diamicron 80mg tablets (Servier Laboratories Ltd) 60 tablet 3 x 20 tablets
+^ESCTDI863202	Diamicron 30mg MR tablets (Servier Laboratories Ltd)
+^ESCTDI863211	Diamicron 30mg MR tablets (Servier Laboratories Ltd) 28 tablet
+^ESCTDI863212	Diamicron 30mg MR tablets (Servier Laboratories Ltd) 56 tablet 2 x 28 tablets
+^ESCTDI863214	Diamicron 30mg MR tablets (Servier Laboratories Ltd) 84 tablet 3 x 28 tablets
+^ESCTDI863217	Diamicron 30mg MR tablets (Servier Laboratories Ltd) 112 tablet 4 x 28 tablets
+^ESCTED980669	Edicil MR 30mg tablets (Teva UK Ltd)
+^ESCTED980670	Edicil MR 30mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTED980671	Edicil MR 30mg tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTGL1005546	Gliclazide 40mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTGL1005547	Gliclazide 40mg tablets (A A H Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTGL1005869	Gliclazide 80mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTGL1005871	Gliclazide 80mg tablets (Phoenix Healthcare Distribution Ltd) 28 tablet
+^ESCTGL1005873	Gliclazide 80mg tablets (Phoenix Healthcare Distribution Ltd) 60 tablet
+^ESCTGL1010887	Gliclazide 80mg tablets (Accord Healthcare Ltd)
+^ESCTGL1010888	Gliclazide 80mg tablets (Accord Healthcare Ltd) 28 tablet
+^ESCTGL1010889	Gliclazide 80mg tablets (Accord Healthcare Ltd) 60 tablet
+^ESCTGL1021395	Gliclazide 80mg/5ml oral suspension 150 ml
+^ESCTGL1021397	Gliclazide 80mg/5ml oral suspension (Drug Tariff Special Order) 150 ml
+^ESCTGL1027605	Gliclazide 80mg tablets (Sandoz Ltd) 28 tablet
+^ESCTGL1038061	Gliclazide 80mg tablets (Medreich Plc)
+^ESCTGL1038062	Gliclazide 80mg tablets (Medreich Plc) 28 tablet
+^ESCTGL1038063	Gliclazide 80mg tablets (Medreich Plc) 60 tablet
+^ESCTGL1043733	Gliclazide 40mg tablets (Waymade Healthcare Plc)
+^ESCTGL1043734	Gliclazide 40mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTGL1043735	Gliclazide 80mg tablets (Waymade Healthcare Plc)
+^ESCTGL1043736	Gliclazide 80mg tablets (Waymade Healthcare Plc) 28 tablet
+^ESCTGL1045595	Gliclazide 60mg modified-release tablets 28 tablet
+^ESCTGL1045607	Gliclazide 60mg modified-release tablets
+^ESCTGL1045799	Gliclazide 40mg/5ml oral suspension 100 ml
+^ESCTGL1045800	Gliclazide 40mg/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCTGL1058313	Gliclazide 80mg tablets (Waymade Healthcare Plc) 60 tablet
+^ESCTGL1061648	Gliclazide 80mg tablets (DE Pharmaceuticals)
+^ESCTGL1061649	Gliclazide 80mg tablets (DE Pharmaceuticals) 28 tablet
+^ESCTGL1061650	Gliclazide 80mg tablets (DE Pharmaceuticals) 60 tablet
+^ESCTGL1117795	Gliclazide 80mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTGL1117796	Gliclazide 80mg tablets (Sigma Pharmaceuticals Plc) 28 tablet
+^ESCTGL1117797	Gliclazide 80mg tablets (Sigma Pharmaceuticals Plc) 60 tablet
+^ESCTGL1120128	Gliclazide 80mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTGL1120129	Gliclazide 80mg tablets (Mawdsley-Brooks & Company Ltd) 28 tablet
+^ESCTGL1120130	Gliclazide 80mg tablets (Mawdsley-Brooks & Company Ltd) 60 tablet
+^ESCTGL1128205	Gliclazide 60mg modified-release tablets 56 tablet
+^ESCTGL1141918	Gliclazide 80mg tablets (Genesis Pharmaceuticals Ltd)
+^ESCTGL1141919	Gliclazide 80mg tablets (Genesis Pharmaceuticals Ltd) 60 tablet
+^ESCTGL1141921	Gliclazide 80mg tablets (Genesis Pharmaceuticals Ltd) 28 tablet
+^ESCTGL1142705	Gliclazide 40mg tablets (Actavis UK Ltd)
+^ESCTGL1142706	Gliclazide 40mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTGL1151385	Gliclazide 40mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTGL1151386	Gliclazide 40mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTGL612435	Gliclazide 80mg tablets
+^ESCTGL612437	Gliclazide 80 mg oral tablet
+^ESCTGL799369	Gliclazide 80mg tablets (Kent Pharmaceuticals Ltd)
+^ESCTGL801972	Glimil 80mg tablets (Milpharm Ltd)
+^ESCTGL805264	Gliclazide 80mg tablets (Sterwin Medicines)
+^ESCTGL812378	Gliclazide 80mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTGL818914	Gliclazide 80mg tablets (Actavis UK Ltd)
+^ESCTGL819818	Gliclazide 80mg tablets (Mylan Ltd)
+^ESCTGL819950	Gliclazide 80mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTGL820515	Gliclazide 80mg tablets (Wockhardt UK Ltd)
+^ESCTGL829631	Gliclazide 80mg tablets (IVAX Pharmaceuticals UK Ltd)
+^ESCTGL831328	Gliclazide 80mg tablets (Teva UK Ltd)
+^ESCTGL833359	Gliclazide 80mg tablets (Genus Pharmaceuticals Ltd)
+^ESCTGL833670	Gliclazide 80mg tablets (Sandoz Ltd)
+^ESCTGL836664	Gliclazide 80mg tablets 60 tablet
+^ESCTGL843221	Gliclazide 80mg tablets 28 tablet
+^ESCTGL850209	Gliclazide 80mg tablets (A A H Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCTGL850212	Gliclazide 80mg tablets (A A H Pharmaceuticals Ltd) 28 tablet
+^ESCTGL850216	Gliclazide 80mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTGL850218	Gliclazide 80mg tablets (Actavis UK Ltd) 60 tablet 6 x 10 tablets
+^ESCTGL850223	Gliclazide 80mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTGL850228	Gliclazide 80mg tablets (Wockhardt UK Ltd) 60 tablet
+^ESCTGL850268	Gliclazide 80mg tablets (Mylan Ltd) 60 tablet 3 x 20 tablets
+^ESCTGL850269	Gliclazide 80mg tablets (Genus Pharmaceuticals Ltd) 60 tablet 3 x 20 tablets
+^ESCTGL850270	Gliclazide 80mg tablets (IVAX Pharmaceuticals UK Ltd) 60 tablet 3 x 20 tablets
+^ESCTGL850271	Gliclazide 80mg tablets (IVAX Pharmaceuticals UK Ltd) 28 tablet
+^ESCTGL850272	Gliclazide 80mg tablets (Kent Pharmaceuticals Ltd) 60 tablet
+^ESCTGL850273	Gliclazide 80mg tablets (Kent Pharmaceuticals Ltd) 28 tablet
+^ESCTGL850274	Gliclazide 80mg tablets (Sandoz Ltd) 60 tablet 3 x 20 tablets
+^ESCTGL850276	Gliclazide 80mg tablets (Sterwin Medicines) 60 tablet
+^ESCTGL850277	Gliclazide 80mg tablets (Alliance Healthcare (Distribution) Ltd) 60 tablet 6 x 10 tablets
+^ESCTGL850278	Gliclazide 80mg tablets (Alliance Healthcare (Distribution) Ltd) 28 tablet 2 x 14 tablets
+^ESCTGL850350	Gliclazide 80mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTGL851592	Glimil 80mg tablets (Milpharm Ltd) 28 tablet 2 x 14 tablets
+^ESCTGL851593	Glimil 80mg tablets (Milpharm Ltd) 60 tablet
+^ESCTGL855161	Gliclazide 80mg tablets (Teva UK Ltd) 60 tablet 3 x 20 tablets
+^ESCTGL863194	Gliclazide 30mg modified-release tablets 28 tablet
+^ESCTGL863195	Gliclazide 30mg modified-release tablets 56 tablet
+^ESCTGL863196	Gliclazide 30mg modified-release tablets 84 tablet
+^ESCTGL863197	Gliclazide 30mg modified-release tablets 112 tablet
+^ESCTGL906825	Gliclazide 160mg/5ml oral suspension 1 ml
+^ESCTGL906828	Gliclazide 80mg/5ml oral suspension 1 ml
+^ESCTGL906829	Gliclazide 160mg/5ml oral suspension (Special Order)
+^ESCTGL906830	Gliclazide 80mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTGL906831	Gliclazide 160mg/5ml oral suspension (Special Order) 1 ml
+^ESCTGL906832	Gliclazide 80mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTGL906833	Gliclazide 40mg/5ml oral suspension 1 ml
+^ESCTGL906834	Gliclazide 40mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCTGL906835	Gliclazide 40mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCTGL907095	Gliclazide 160mg/5ml oral suspension
+^ESCTGL907096	Gliclazide 40mg/5ml oral suspension
+^ESCTGL907097	Gliclazide 80mg/5ml oral suspension
+^ESCTGL923187	Gliclazide 80mg tablets (Milpharm Ltd)
+^ESCTGL923188	Gliclazide 80mg tablets (Milpharm Ltd) 28 tablet 2 x 14 tablets
+^ESCTGL923189	Gliclazide 80mg tablets (Milpharm Ltd) 60 tablet 6 x 10 tablets
+^ESCTGL923660	Gliclazide 80mg tablets (Almus Pharmaceuticals Ltd)
+^ESCTGL923663	Gliclazide 80mg tablets (Almus Pharmaceuticals Ltd) 60 tablet 6 x 10 tablets
+^ESCTGL923672	Gliclazide 80mg tablets (Almus Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTGL928728	Gliclazide 80mg tablets (Arrow Generics Ltd)
+^ESCTGL928730	Gliclazide 80mg tablets (Arrow Generics Ltd) 60 tablet 3 x 20 tablets
+^ESCTGL934897	Gliclazide 30mg modified-release tablets 60 tablet
+^ESCTGL939398	Gliclazide 80mg tablets (PLIVA Pharma Ltd)
+^ESCTGL939401	Gliclazide 80mg tablets (PLIVA Pharma Ltd) 28 tablet 2 x 14 tablets
+^ESCTGL939402	Gliclazide 80mg tablets (PLIVA Pharma Ltd) 60 tablet 6 x 10 tablets
+^ESCTGL940297	Gliclazide 80mg tablets (Zentiva)
+^ESCTGL940298	Gliclazide 80mg tablets (Zentiva) 28 tablet 2 x 14 tablets
+^ESCTGL940627	Gliclazide 80mg tablets (Wockhardt UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTGL946388	Gliclazide 100mg/5ml oral suspension 1 ml
+^ESCTGL946389	Gliclazide 100mg/5ml oral suspension (Special Order)
+^ESCTGL946390	Gliclazide 100mg/5ml oral suspension (Special Order) 1 ml
+^ESCTGL946391	Gliclazide 120mg/5ml oral suspension 1 ml
+^ESCTGL946392	Gliclazide 120mg/5ml oral suspension (Special Order)
+^ESCTGL946393	Gliclazide 120mg/5ml oral suspension (Special Order) 1 ml
+^ESCTGL946394	Gliclazide 20mg/5ml oral suspension 1 ml
+^ESCTGL946395	Gliclazide 20mg/5ml oral suspension (Special Order)
+^ESCTGL946396	Gliclazide 20mg/5ml oral suspension (Special Order) 1 ml
+^ESCTGL946397	Gliclazide 50mg/5ml oral suspension 1 ml
+^ESCTGL946398	Gliclazide 50mg/5ml oral suspension (Special Order)
+^ESCTGL946399	Gliclazide 50mg/5ml oral suspension (Special Order) 1 ml
+^ESCTGL946400	Gliclazide 60mg/5ml oral suspension 1 ml
+^ESCTGL946401	Gliclazide 60mg/5ml oral suspension (Special Order)
+^ESCTGL946402	Gliclazide 60mg/5ml oral suspension (Special Order) 1 ml
+^ESCTGL946652	Gliclazide 100mg/5ml oral suspension
+^ESCTGL946653	Gliclazide 120mg/5ml oral suspension
+^ESCTGL946654	Gliclazide 20mg/5ml oral suspension
+^ESCTGL946655	Gliclazide 50mg/5ml oral suspension
+^ESCTGL946657	Gliclazide 60mg/5ml oral suspension
+^ESCTGL962715	Gliclazide 30mg/5ml oral suspension 1 ml
+^ESCTGL962716	Gliclazide 30mg/5ml oral suspension (Special Order)
+^ESCTGL962717	Gliclazide 30mg/5ml oral suspension (Special Order) 1 ml
+^ESCTGL962756	Gliclazide 30mg/5ml oral suspension
+^ESCTGL963556	Gliclazide 30mg modified-release tablets (Kent Pharmaceuticals Ltd)
+^ESCTGL963557	Gliclazide 30mg modified-release tablets (Kent Pharmaceuticals Ltd) 28 tablet 2 x 14 tablets
+^ESCTGL963558	Gliclazide 30mg modified-release tablets (Kent Pharmaceuticals Ltd) 56 tablet 4 x 14 tablets
+^ESCTGL970888	Gliclazide 30mg modified-release tablets 30 tablet
+^ESCTGL987870	Gliclazide 80mg tablets (Bristol Laboratories Ltd)
+^ESCTGL987871	Gliclazide 80mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+^ESCTGL987872	Gliclazide 80mg tablets (Bristol Laboratories Ltd) 60 tablet 6 x 10 tablets
+^ESCTGL994216	Gliclazide 40mg tablets 28 tablet
+^ESCTGL994439	Gliclazide 40mg tablets
+^ESCTGL999197	Gliclazide 80mg tablets (Sovereign Medical Ltd)
+^ESCTGL999198	Gliclazide 80mg tablets (Sovereign Medical Ltd) 28 tablet 2 x 14 tablets
+^ESCTGL999199	Gliclazide 80mg tablets (Sovereign Medical Ltd) 60 tablet 3 x 20 tablets
+^ESCTLA1045596	Laaglyda MR 60mg tablets (Consilient Health Ltd)
+^ESCTLA1045597	Laaglyda MR 60mg tablets (Consilient Health Ltd) 28 tablet 2 x 14 tablets
+^ESCTNA962658	Nazdol MR 30mg tablets (Consilient Health Ltd)
+^ESCTNA962659	Nazdol MR 30mg tablets (Consilient Health Ltd) 28 tablet 2 x 14 tablets
+^ESCTNA962660	Nazdol MR 30mg tablets (Consilient Health Ltd) 56 tablet 4 x 14 tablets
+^ESCTNA978469	Nazdol MR 30mg tablets (Teva UK Ltd)
+^ESCTNA978470	Nazdol MR 30mg tablets (Teva UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTNA978471	Nazdol MR 30mg tablets (Teva UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTNA978472	Nazdol MR 30mg tablets (Mylan Ltd)
+^ESCTNA978473	Nazdol MR 30mg tablets (Mylan Ltd) 28 tablet 2 x 14 tablets
+^ESCTNA978474	Nazdol MR 30mg tablets (Mylan Ltd) 56 tablet 4 x 14 tablets
+^ESCTPR612436	Product containing gliclazide 80 mg/1 each oral tablet
+^ESCTVA1104327	Vamju 30mg modified-release tablets (AMCo)
+^ESCTVA1104328	Vamju 30mg modified-release tablets (AMCo) 28 tablet 2 x 14 tablets
+^ESCTVA1104329	Vamju 60mg modified-release tablets (AMCo)
+^ESCTVA1104330	Vamju 60mg modified-release tablets (AMCo) 28 tablet 2 x 14 tablets
+^ESCTVA1104331	Vamju 30mg modified-release tablets (AMCo) 56 tablet 4 x 14 tablets
+^ESCTVI1012848	Vitile XL 30mg tablets (Actavis UK Ltd)
+^ESCTVI1012849	Vitile XL 30mg tablets (Actavis UK Ltd) 28 tablet 2 x 14 tablets
+^ESCTVI1012850	Vitile XL 30mg tablets (Actavis UK Ltd) 56 tablet 4 x 14 tablets
+^ESCTVI830178	Vivazide 80mg tablets (Lexon (UK) Ltd)
+^ESCTVI850284	Vivazide 80mg tablets (Lexon (UK) Ltd) 60 tablet 3 x 20 tablets
+^ESCTZI1099993	Ziclaseg 30mg modified-release tablets (Lupin (Europe) Ltd)
+^ESCTZI1099994	Ziclaseg 30mg modified-release tablets (Lupin (Europe) Ltd) 28 tablet
+^ESCTZI1099995	Ziclaseg 30mg modified-release tablets (Lupin (Europe) Ltd) 56 tablet
+^ESCTZI1154438	Zicron PR 30mg tablets (Bristol Laboratories Ltd)
+^ESCTZI1154439	Zicron PR 30mg tablets (Bristol Laboratories Ltd) 28 tablet
+^ESCTZI1154440	Zicron PR 30mg tablets (Bristol Laboratories Ltd) 56 tablet
+^ESCTZI994219	Zicron 40mg tablets (Bristol Laboratories Ltd)
+^ESCTZI994220	Zicron 40mg tablets (Bristol Laboratories Ltd) 28 tablet 2 x 14 tablets
+BIM/105983NEMIS	Bilxona  M/R tablets  30 mg
+BIM/105984NEMIS	Bilxona  M/R tablets  60 mg
+DAM/40049NEMIS	Dacadis Mr  M/R tablets  30 mg
+DIM/6644NEMIS	Diamicron 30 mg Mr  M/R tablets  30 mg
+DITA3417	Diamicron  Tablets  80 mg
+DITA34375EMIS	Diaglyk  Tablets  80 mg
+EDM/44756NEMIS	Edicil  M/R tablets  30 mg
+GLM/6638NEMIS	Gliclazide  M/R tablets  30 mg
+GLM/78909NEMIS	Gliclazide  M/R tablets  60 mg
+GLOR22986NEMIS	Gliclazide  Oral suspension  80 mg/5 ml
+GLOR45373NEMIS	Gliclazide  Oral suspension  40 mg/5 ml
+GLTA131754NEMIS	Gliclazide  Tablets  160 mg
+GLTA131756NEMIS	Glydex  Tablets  160 mg
+GLTA35347MGEMIS	Gliclazide  Tablets  80 mg (Kent Pharm)
+GLTA35348MGEMIS	Gliclazide  Tablets  80 mg (Sterwin Medicines)
+GLTA35349MGEMIS	Gliclazide  Tablets  80 mg (A.A.H. Pharm)
+GLTA35350MGEMIS	Gliclazide  Tablets  80 mg (Alpharma)
+GLTA35351MGEMIS	Gliclazide  Tablets  80 mg (Generics (UK))
+GLTA35352MGEMIS	Gliclazide  Tablets  80 mg (Unichem)
+GLTA35353MGEMIS	Gliclazide  Tablets  80 mg (Wockhardt UK)
+GLTA35354MGEMIS	Gliclazide  Tablets  80 mg (Ivax Pharmaceuticals)
+GLTA35355MGEMIS	Gliclazide  Tablets  80 mg (Teva UK)
+GLTA35356MGEMIS	Gliclazide  Tablets  80 mg (Genus Pharm)
+GLTA35357MGEMIS	Gliclazide  Tablets  80 mg (Sandoz)
+GLTA43641NEMIS	Gliclazide  Tablets  40 mg
+GLTA4960	Gliclazide  Tablets  80 mg
+LAM/134755NEMIS	Lamzarin  M/R tablets  30 mg
+LAM/134757NEMIS	Lamzarin  M/R tablets  60 mg
+LAM/78911NEMIS	Laaglyda Mr  M/R tablets  60 mg
+NAM/34993NEMIS	Nazdol Mr  M/R tablets  30 mg
+VAM/98855NEMIS	Vamju  M/R tablets  30 mg
+VAM/98856NEMIS	Vamju  M/R tablets  60 mg
+VIM/48410NEMIS	Vitile Xl  M/R tablets  30 mg
+ZIM/119242NEMIS	Zicron Pr  M/R tablets  30 mg
+ZITA43643NEMIS	Zicron  Tablets  40 mg

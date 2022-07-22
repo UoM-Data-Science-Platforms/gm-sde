@@ -1,0 +1,147 @@
+Xa1uD	Glomerulonephritis 
+XE0dY	Acute glomerulonephritis 
+K00z.	Acute glomerulonephritis NOS 
+K001.	Acute nephritis with lesions of necrotising glomerulitis 
+K000.	Acute proliferative glomerulonephritis 
+X30IG	Crescentic glomerulonephritis 
+Xa33d	[EDTA] Crescentric glomerulonephritis (type I,II,III) associated with renal failure
+X30I9	Endocapillary glomerulonephritis 
+X30IA	Idiopathic endocapillary glomerulonephritis 
+X30IB	Post-infectious glomerulonephritis 
+X30ID	Post-infectious glomerulonephritis - Garland variety 
+X30IC	Post-streptococcal glomerulonephritis 
+X30IE	Shunt nephritis 
+X30IF	Necrotising glomerulonephritis 
+K00y.	Other acute glomerulonephritis 
+K00y3	Acute diffuse nephritis 
+K00y1	Acute exudative nephritis 
+K00y2	Acute focal nephritis 
+K00y0	Acute glomerulonephritis in diseases EC 
+K00yz	Other acute glomerulonephritis NOS 
+XE0db	Chronic glomerulonephritis 
+XM1AL	[EDTA] Glomerulonephritis, histologically examined (otherwise specified) associated with renal failure 
+XM1AM	[EDTA] Glomerulonephritis, histologically not examined associated with renal failure 
+K000.	PGN - Acute proliferative glomerulonephritis
+X30I9	Endocapillary glomerulonephritis
+X30IF	Necrotising glomerulonephritis
+X30IG	CGN - Crescentic glomerulonephritis
+XE0dY	AGN - Acute glomerulonephritis
+X30IA	Idiopathic endocapillary glomerulonephritis
+X30IB	Post-infectious glomerulonephritis
+Xa33d	[EDTA] Crescentric glomerulonephritis (type I,II,III) associated with renal failure
+K00y.	Other acute glomerulonephritis
+K00z.	Acute glomerulonephritis NOS
+Xa1uD	Glomerulonephritis
+X30IC	Post-streptococcal glomerulonephritis
+X30ID	Post-infectious glomerulonephritis - Garland variety
+K00y0	Acute glomerulonephritis in diseases EC
+K00yz	Other acute glomerulonephritis NOS
+XE0db	CGN - Chronic glomerulonephritis
+XM1AL	[EDTA] Glomerulonephritis, histologically examined (otherwise specified) associated with renal failure
+XM1AM	[EDTA] Glomerulonephritis, histologically not examined associated with renal failure
+K020.	Chronic nephritic syndrome, diffuse mesangial proliferative glomerulonephritis
+K021.	Chronic nephritic syndrome, diffuse membranous glomerulonephritis
+K023.	Chronic rapidly progressive glomerulonephritis
+K02y.	Other chronic glomerulonephritis
+K02y2	Chronic focal glomerulonephritis
+K02y3	Chronic diffuse glomerulonephritis
+K02yz	Other chronic glomerulonephritis NOS
+K02z.	Chronic glomerulonephritis NOS
+K0A34	Chronic nephritic syndrome, diffuse endocapillary proliferative glomerulonephritis
+K0A35	Chronic nephritic syndrome, diffuse mesangiocapillary glomerulonephritis
+K0A37	Chronic nephritic syndrome, diffuse crescentic glomerulonephritis
+X30Ie	GN - Hereditary glomerulonephritis
+Xa9CC	Minimal change glomerulonephritis
+K02..	Chronic glomerulonephritis
+K022.	Membranoproliferative glomerulonephritis
+X30IW	Mesangial IgM proliferative glomerulonephritis
+X30IY	Membranous glomerulonephritis - stage I
+X30IZ	MGN stage II - Membranous glomerulonephritis - stage II
+X30Ia	MGN stage III - Membranous glomerulonephritis stage III
+X30Ib	MGN stage IV - Membranous glomerulonephritis stage IV
+X30Ic	MGN stage V - Membranous glomerulonephritis stage V
+K02y0	Chronic glomerulonephritis with diseases EC
+K02y1	Chronic exudative glomerulonephritis
+K0325	Other familial glomerulonephritis
+X30Ih	Non-progressive hereditary glomerulonephritis
+X30IH	Steroid-sensitive minimal change glomerulonephritis
+X30II	Steroid-resistant minimal change glomerulonephritis
+X30IJ	Steroid-dependent minimal change glomerulonephritis
+K0320	Focal membranoproliferative glomerulonephritis
+X30IR	Mesangiocapillary glomerulonephritis NEC
+X30IS	Mesangiocapillary glomerulonephritis type I
+X30IT	Mesangiocapillary glomerulonephritis type II
+X30IU	MCGN type III - Mesangiocapillary glomerulonephritis type III
+X30IV	Mesangiocapillary glomerulonephritis type IV
+XM19Y	[EDTA] Membrano-proliferative glomerulonephritis,type I (proven immunofluorescence / electron microscopy-excluding lupus erythematosus+other specified multi-system disease) associated renal failure
+XM19Z	[EDTA] Dense deposit disease, membrano-proliferative glomerulonephritis, type II, (proven by immunofluorescence and/or electronic microscopy) associated with renal failure
+K032y	Mesangiocapillary glomerulonephritis NEC
+K032z	Nephritis unspecified with lesion of membranoproliferative glomerulonephritis NOS
+K0A02	Acute nephritic syndrome, diffuse membranous glomerulonephritis
+K0A03	Acute nephritic syndrome, diffuse mesangial proliferative glomerulonephritis
+K0A04	Acute nephritic syndrome, diffuse endocapillary proliferative glomerulonephritis
+K0A05	Acute nephritic syndrome, diffuse mesangiocapillary glomerulonephritis
+X30I8	Rapidly progressive glomerulonephritis
+XE0de	Nephritis unspecified with other specified lesion of membranoproliferative glomerulonephritis
+X30I3	Mixed membranous and proliferative glomerulonephritis NEC
+X30I4	Mesangioproliferative glomerulonephritis NEC
+X30I5	Lobular glomerulonephritis NEC
+X30I6	Hypocomplementaemic persistent glomerulonephritis NEC
+K0A12	Rapidly progressive nephritic syndrome, diffuse membranous glomerulonephritis
+K0A13	Rapidly progressive nephritic syndrome, diffuse mesangial proliferative glomerulonephritis
+K0A14	Rapidly progressive nephritic syndrome, diffuse endocapillary proliferative glomerulonephritis
+K0A15	Rapidly progressive nephritic syndrome, diffuse mesangiocapillary glomerulonephritis
+K0A17	Rapidly progressive nephritic syndrome, diffuse crescentic glomerulonephritis
+K010.	Nephrotic syndrome with proliferative glomerulonephritis
+K011.	Nephrotic syndrome with membranous glomerulonephritis
+K012.	Nephrotic syndrome with membranoproliferative glomerulonephritis
+K013.	Nephrotic syndrome with minimal change glomerulonephritis
+K016.	Nephrotic syndrome, diffuse membranous glomerulonephritis
+K017.	Nephrotic syndrome, diffuse mesangial proliferative glomerulonephritis
+K018.	Nephrotic syndrome, diffuse endocapillary proliferative glomerulonephritis
+K019.	Nephrotic syndrome, diffuse mesangiocapillary glomerulonephritis
+K01B.	Nephrotic syndrome, diffuse crescentic glomerulonephritis
+K0A07	Acute nephritic syndrome, diffuse crescentic glomerulonephritis
+XE0dZ	Nephrotic syndrome with minimal change glomerulonephritis
+K0A22	Recurrent and persistent haematuria, diffuse membranous glomerulonephritis
+K0A23	Recurrent and persistent haematuria, diffuse mesangial proliferative glomerulonephritis
+K0A24	Recurrent and persistent haematuria, diffuse endocapillary proliferative glomerulonephritis
+K0A25	Recurrent and persistent haematuria, diffuse mesangiocapillary glomerulonephritis
+K0A27	Recurrent and persistent haematuria, diffuse crescentic glomerulonephritis
+K0A42	Isolated proteinuria with specified morphological lesion, diffuse membranous glomerulonephritis
+K0A43	Isolated proteinuria with specified morphological lesion, diffuse mesangial proliferative glomerulonephritis
+K0A44	Isolated proteinuria with specified morphological lesion, diffuse endocapillary proliferative glomerulonephritis
+K0A45	Isolated proteinuria with specified morphological lesion, diffuse mesangiocapillary glomerulonephritis
+K0A47	Isolated proteinuria with specified morphological lesion, diffuse concentric glomerulonephritis
+K0A52	Hereditary nephropathy, not elsewhere classified, diffuse membranous glomerulonephritis
+K0A53	Hereditary nephropathy, not elsewhere classified, diffuse mesangial proliferative glomerulonephritis
+K0A54	Hereditary nephropathy, not elsewhere classified, diffuse endocapillary proliferative glomerulonephritis
+K0A55	Hereditary nephropathy, not elsewhere classified, diffuse mesangiocapillary glomerulonephritis
+K0A57	Hereditary nephropathy, not elsewhere classified, diffuse crescentic glomerulonephritis
+Kyu09	[X]Unspecified nephritic syndrome, diffuse mesangial proliferative glomerulonephritis
+Kyu0A	[X]Unspecified nephritic syndrome, diffuse endocapillary proliferative glomerulonephritis
+Kyu0C	[X]Unspecified nephritic syndrome, diffuse concentric glomerulonephritis
+K0322	Focal glomerulonephritis with focal recurrent macroscopic glomerulonephritis
+K0323	Anaphylactoid glomerulonephritis
+X30Kw	Cryoglobulinaemic glomerulonephritis
+Xa33h	[EDTA] Cryoglobulineme glomerulonephritis associated with renal failure
+X30Mf	De novo glomerulonephritis
+X30Mj	CMV - Cytomegalovirus-induced glomerulonephritis
+K03z.	Unspecified glomerulonephritis NOS
+X30L1	Malignancy-associated glomerulonephritis
+X705a	Primary pauci-immune necrotising and crescentic glomerulonephritis
+K01x4	Lupus nephritis
+X30IQ	IgAN - IgA nephropathy
+K031.	Membranous nephritis unspecified
+K01x4	(Nephrotic syndrome in systemic lupus erythematosus) or (lupus nephritis)
+G7520	Goodpasture's syndrome
+K01x4	Nephrotic syndrome in systemic lupus erythematosus
+K033.	Rapidly progressive nephritis unspecified
+X30Kr	Lupus nephritis - WHO Class V
+PKy90	Alport's syndrome
+XE0dd	Primary IgA nephropathy
+X30Kp	Lupus nephritis - WHO Class III
+X30Kq	Lupus nephritis - WHO Class IV
+X30IQ	IgA nephropathy
+XE0da	Lupus nephritis
+XE0dd	Berger's disease

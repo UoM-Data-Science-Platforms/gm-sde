@@ -1,0 +1,536 @@
+321618003	Olanzapine 2.5mg tablets
+1216111000001107	Olanzapine 2.5mg tablets
+337311000001109	Zyprexa 2.5mg tablets
+1923211000001100	Zyprexa 2.5mg tablets
+19543711000001107	Olanzapine 2.5mg tablets
+19543811000001104	Olanzapine 2.5mg tablets
+19557211000001107	Olanzapine 2.5mg tablets
+19557311000001104	Olanzapine 2.5mg tablets
+19560911000001106	Olanzapine 2.5mg tablets
+19561011000001103	Olanzapine 2.5mg tablets
+19563711000001100	Olanzapine 2.5mg tablets
+19563811000001108	Olanzapine 2.5mg tablets
+19573611000001104	Olanzapine 2.5mg tablets
+19573711000001108	Olanzapine 2.5mg tablets
+19587711000001107	Zalasta 2.5mg tablets
+19587811000001104	Zalasta 2.5mg tablets
+19591711000001104	Olanzapine 2.5mg tablets
+19591811000001107	Olanzapine 2.5mg tablets
+19836311000001104	Olanzapine 2.5mg tablets
+19836411000001106	Olanzapine 2.5mg tablets
+19920211000001102	Olanzapine 2.5mg tablets
+19920311000001105	Olanzapine 2.5mg tablets
+20102911000001104	Olanzapine 2.5mg tablets
+20103211000001102	Olanzapine 2.5mg tablets
+20312811000001100	Olanzapine 2.5mg tablets
+20313111000001101	Olanzapine 2.5mg tablets
+21821911000001104	Olanzapine 2.5mg tablets
+21822011000001106	Olanzapine 2.5mg tablets
+23485811000001104	Olanzapine 2.5mg tablets
+23486111000001100	Olanzapine 2.5mg tablets
+29931511000001108	Olanzapine 2.5mg tablets
+29931611000001107	Olanzapine 2.5mg tablets
+30841511000001104	Olanzapine 2.5mg tablets
+30841611000001100	Olanzapine 2.5mg tablets
+32437711000001100	Olanzapine 2.5mg tablets
+32438011000001101	Olanzapine 2.5mg tablets
+35174011000001109	Olanzapine 2.5mg tablets
+35174111000001105	Olanzapine 2.5mg tablets
+36590511000001109	Olanzapine 2.5mg tablets
+36590711000001104	Olanzapine 2.5mg tablets
+36848411000001103	Olanzapine 2.5mg tablets
+36848511000001104	Olanzapine 2.5mg tablets
+36950011000001100	Olanzapine 2.5mg tablets
+36950211000001105	Olanzapine 2.5mg tablets
+37464511000001109	Olanzapine 2.5mg tablets
+37464711000001104	Olanzapine 2.5mg tablets
+39058911000001102	Olanzapine 2.5mg tablets
+39059011000001106	Olanzapine 2.5mg tablets
+40229911000001102	Olanzapine 2.5mg tablets
+40230011000001107	Olanzapine 2.5mg tablets
+321613007	Olanzapine 7.5mg tablets
+1170811000001107	Olanzapine 7.5mg tablets
+5433211000001104	Olanzapine 7.5mg tablets
+776911000001109	Zyprexa 7.5mg tablets
+1923411000001101	Zyprexa 7.5mg tablets
+19543311000001108	Olanzapine 7.5mg tablets
+19543411000001101	Olanzapine 7.5mg tablets
+19558411000001105	Olanzapine 7.5mg tablets
+19560211000001102	Olanzapine 7.5mg tablets
+19561311000001100	Olanzapine 7.5mg tablets
+19561411000001107	Olanzapine 7.5mg tablets
+19972811000001101	Olanzapine 7.5mg tablets
+19564411000001109	Olanzapine 7.5mg tablets
+19564511000001108	Olanzapine 7.5mg tablets
+34907111000001103	Olanzapine 7.5mg tablets
+19573811000001100	Olanzapine 7.5mg tablets
+19573911000001105	Olanzapine 7.5mg tablets
+21101311000001104	Olanzapine 7.5mg tablets
+19588111000001107	Zalasta 7.5mg tablets
+19588211000001101	Zalasta 7.5mg tablets
+19592111000001105	Olanzapine 7.5mg tablets
+19592211000001104	Olanzapine 7.5mg tablets
+19838611000001105	Olanzapine 7.5mg tablets
+19838711000001101	Olanzapine 7.5mg tablets
+37675811000001100	Olanzapine 7.5mg tablets
+19920811000001101	Olanzapine 7.5mg tablets
+19921011000001103	Olanzapine 7.5mg tablets
+20103611000001100	Olanzapine 7.5mg tablets
+20103711000001109	Olanzapine 7.5mg tablets
+20313811000001108	Olanzapine 7.5mg tablets
+20313911000001103	Olanzapine 7.5mg tablets
+21822511000001103	Olanzapine 7.5mg tablets
+21822711000001108	Olanzapine 7.5mg tablets
+21822611000001104	Olanzapine 7.5mg tablets
+23486411000001105	Olanzapine 7.5mg tablets
+39056311000001102	Olanzapine 7.5mg tablets
+23486511000001109	Olanzapine 7.5mg tablets
+29932311000001106	Olanzapine 7.5mg tablets
+29932411000001104	Olanzapine 7.5mg tablets
+30065211000001105	Olanzapine 7.5mg tablets
+30065311000001102	Olanzapine 7.5mg tablets
+37465211000001107	Olanzapine 7.5mg tablets
+32438511000001109	Olanzapine 7.5mg tablets
+32438611000001108	Olanzapine 7.5mg tablets
+35174211000001104	Olanzapine 7.5mg tablets
+35174311000001107	Olanzapine 7.5mg tablets
+36848811000001101	Olanzapine 7.5mg tablets
+36849011000001102	Olanzapine 7.5mg tablets
+36848911000001106	Olanzapine 7.5mg tablets
+36947711000001104	Olanzapine 7.5mg tablets
+36947811000001107	Olanzapine 7.5mg tablets
+37123711000001109	Olanzapine 7.5mg tablets
+37123911000001106	Olanzapine 7.5mg tablets
+37123811000001101	Olanzapine 7.5mg tablets
+38811811000001109	Olanzapine 7.5mg tablets
+38811911000001104	Olanzapine 7.5mg tablets
+39059511000001103	Olanzapine 7.5mg tablets
+39059711000001108	Olanzapine 7.5mg tablets
+39059611000001104	Olanzapine 7.5mg tablets
+321612002	Olanzapine 5mg tablets
+1236411000001107	Olanzapine 5mg tablets
+467011000001109	Zyprexa 5mg tablets
+1923611000001103	Zyprexa 5mg tablets
+15509811000001104	Olanzapine 5mg tablets
+15509911000001109	Olanzapine 5mg tablets
+19543511000001102	Olanzapine 5mg tablets
+19543611000001103	Olanzapine 5mg tablets
+19558211000001106	Olanzapine 5mg tablets
+19558311000001103	Olanzapine 5mg tablets
+19561111000001102	Olanzapine 5mg tablets
+19561211000001108	Olanzapine 5mg tablets
+19564211000001105	Olanzapine 5mg tablets
+19564311000001102	Olanzapine 5mg tablets
+19587911000001109	Zalasta 5mg tablets
+19588011000001106	Zalasta 5mg tablets
+19591911000001102	Olanzapine 5mg tablets
+19592011000001109	Olanzapine 5mg tablets
+19838811000001109	Olanzapine 5mg tablets
+19838911000001104	Olanzapine 5mg tablets
+19914911000001109	Olanzapine 5mg tablets
+19915011000001109	Olanzapine 5mg tablets
+20103411000001103	Olanzapine 5mg tablets
+20103511000001104	Olanzapine 5mg tablets
+20313611000001109	Olanzapine 5mg tablets
+20313711000001100	Olanzapine 5mg tablets
+21822211000001101	Olanzapine 5mg tablets
+21822411000001102	Olanzapine 5mg tablets
+23486211000001106	Olanzapine 5mg tablets
+23486311000001103	Olanzapine 5mg tablets
+23954711000001104	Olanzapine 5mg tablets
+23954811000001107	Olanzapine 5mg tablets
+29932111000001109	Olanzapine 5mg tablets
+29932211000001103	Olanzapine 5mg tablets
+30841711000001109	Olanzapine 5mg tablets
+30841811000001101	Olanzapine 5mg tablets
+32438211000001106	Olanzapine 5mg tablets
+32438411000001105	Olanzapine 5mg tablets
+34961311000001108	Olanzapine 5mg tablets
+34961411000001101	Olanzapine 5mg tablets
+36590911000001102	Olanzapine 5mg tablets
+36591011000001105	Olanzapine 5mg tablets
+36848611000001100	Olanzapine 5mg tablets
+36848711000001109	Olanzapine 5mg tablets
+37464811000001107	Olanzapine 5mg tablets
+37464911000001102	Olanzapine 5mg tablets
+38811611000001105	Olanzapine 5mg tablets
+38811711000001101	Olanzapine 5mg tablets
+39059311000001109	Olanzapine 5mg tablets
+39059411000001102	Olanzapine 5mg tablets
+321614001	Olanzapine 10mg tablets
+1321711000001101	Olanzapine 10mg tablets
+1327711000001105	Olanzapine 10mg tablets
+486611000001101	Zyprexa 10mg tablets
+1923811000001104	Zyprexa 10mg tablets
+1923911000001109	Zyprexa 10mg tablets
+19543111000001106	Olanzapine 10mg tablets
+19543211000001100	Olanzapine 10mg tablets
+19558611000001108	Olanzapine 10mg tablets
+19558711000001104	Olanzapine 10mg tablets
+19561511000001106	Olanzapine 10mg tablets
+19561611000001105	Olanzapine 10mg tablets
+19564611000001107	Olanzapine 10mg tablets
+19564711000001103	Olanzapine 10mg tablets
+19574011000001108	Olanzapine 10mg tablets
+19574111000001109	Olanzapine 10mg tablets
+19588311000001109	Zalasta 10mg tablets
+19588411000001102	Zalasta 10mg tablets
+19592311000001107	Olanzapine 10mg tablets
+19592411000001100	Olanzapine 10mg tablets
+19838011000001103	Olanzapine 10mg tablets
+19838111000001102	Olanzapine 10mg tablets
+19921111000001102	Olanzapine 10mg tablets
+19921211000001108	Olanzapine 10mg tablets
+20103811000001101	Olanzapine 10mg tablets
+20103911000001106	Olanzapine 10mg tablets
+20314411000001109	Olanzapine 10mg tablets
+20314511000001108	Olanzapine 10mg tablets
+21823711000001100	Olanzapine 10mg tablets
+21823811000001108	Olanzapine 10mg tablets
+23485211000001100	Olanzapine 10mg tablets
+23485311000001108	Olanzapine 10mg tablets
+23954911000001102	Olanzapine 10mg tablets
+23955011000001102	Olanzapine 10mg tablets
+29930911000001108	Olanzapine 10mg tablets
+29931011000001100	Olanzapine 10mg tablets
+30065411000001109	Olanzapine 10mg tablets
+30065511000001108	Olanzapine 10mg tablets
+32438711000001104	Olanzapine 10mg tablets
+32438911000001102	Olanzapine 10mg tablets
+36591111000001106	Olanzapine 10mg tablets
+36591211000001100	Olanzapine 10mg tablets
+36849311000001104	Olanzapine 10mg tablets
+36849411000001106	Olanzapine 10mg tablets
+36947511000001109	Olanzapine 10mg tablets
+36947611000001108	Olanzapine 10mg tablets
+37041511000001109	Olanzapine 10mg tablets
+37041711000001104	Olanzapine 10mg tablets
+37124011000001109	Olanzapine 10mg tablets
+37124111000001105	Olanzapine 10mg tablets
+38812011000001106	Olanzapine 10mg tablets
+38812111000001107	Olanzapine 10mg tablets
+39062011000001106	Olanzapine 10mg tablets
+39062111000001107	Olanzapine 10mg tablets
+321623003	Olanzapine 10mg oral lyophilisates sugar free
+1194411000001107	Olanzapine 10mg oral lyophilisates sugar free
+14748211000001108	Olanzapine 10mg oral lyophilisates sugar free
+897111000001104	Zyprexa 10mg Velotabs
+1927811000001105	Zyprexa 10mg Velotabs
+321622008	Olanzapine 5mg oral lyophilisates sugar free
+1222511000001108	Olanzapine 5mg oral lyophilisates sugar free
+91711000001108	Zyprexa 5mg Velotabs
+1927911000001100	Zyprexa 5mg Velotabs
+3434911000001100	Olanzapine 15mg oral lyophilisates sugar free
+1018311000001104	Olanzapine 15mg oral lyophilisates sugar free
+437611000001106	Zyprexa 15mg Velotabs
+2640611000001107	Zyprexa 15mg Velotabs
+376807001	Olanzapine 15mg tablets
+1182311000001106	Olanzapine 15mg tablets
+511111000001106	Zyprexa 15mg tablets
+2641011000001109	Zyprexa 15mg tablets
+19542911000001102	Olanzapine 15mg tablets
+19543011000001105	Olanzapine 15mg tablets
+19559411000001102	Olanzapine 15mg tablets
+19559511000001103	Olanzapine 15mg tablets
+19561711000001101	Olanzapine 15mg tablets
+19561811000001109	Olanzapine 15mg tablets
+19564811000001106	Olanzapine 15mg tablets
+19564911000001101	Olanzapine 15mg tablets
+19574211000001103	Olanzapine 15mg tablets
+19574311000001106	Olanzapine 15mg tablets
+19588511000001103	Zalasta 15mg tablets
+19588611000001104	Zalasta 15mg tablets
+19592511000001101	Olanzapine 15mg tablets
+19592611000001102	Olanzapine 15mg tablets
+19838411000001107	Olanzapine 15mg tablets
+19838511000001106	Olanzapine 15mg tablets
+20315111000001100	Olanzapine 15mg tablets
+20315311000001103	Olanzapine 15mg tablets
+20916311000001100	Olanzapine 15mg tablets
+20916411000001107	Olanzapine 15mg tablets
+21823911000001103	Olanzapine 15mg tablets
+21824011000001100	Olanzapine 15mg tablets
+23485411000001101	Olanzapine 15mg tablets
+23485611000001103	Olanzapine 15mg tablets
+23955111000001101	Olanzapine 15mg tablets
+23955211000001107	Olanzapine 15mg tablets
+29931311000001102	Olanzapine 15mg tablets
+29931411000001109	Olanzapine 15mg tablets
+30065611000001107	Olanzapine 15mg tablets
+30065711000001103	Olanzapine 15mg tablets
+32439511000001103	Olanzapine 15mg tablets
+32439611000001104	Olanzapine 15mg tablets
+36849811000001108	Olanzapine 15mg tablets
+36850011000001107	Olanzapine 15mg tablets
+37124211000001104	Olanzapine 15mg tablets
+37124311000001107	Olanzapine 15mg tablets
+38568511000001101	Olanzapine 15mg tablets
+38568611000001102	Olanzapine 15mg tablets
+39058711000001104	Olanzapine 15mg tablets
+39058811000001107	Olanzapine 15mg tablets
+39484211000001102	Olanzapine 15mg tablets
+39484311000001105	Olanzapine 15mg tablets
+40229711000001104	Olanzapine 15mg tablets
+40229811000001107	Olanzapine 15mg tablets
+5818311000001104	Olanzapine 10mg powder for solution for injection vials
+5693811000001109	Olanzapine 10mg powder for solution for injection vials
+5694111000001100	Zyprexa 10mg powder for solution for injection vials
+5694211000001106	Zyprexa 10mg powder for solution for injection vials
+386213008	Olanzapine 20mg oral lyophilisates sugar free
+9890911000001106	Olanzapine 20mg oral lyophilisates sugar free
+9891011000001103	Zyprexa 20mg Velotabs
+9891111000001102	Zyprexa 20mg Velotabs
+374054003	Olanzapine 20mg tablets
+10878411000001108	Olanzapine 20mg tablets
+10878511000001107	Zyprexa 20mg tablets
+10878611000001106	Zyprexa 20mg tablets
+19542711000001104	Olanzapine 20mg tablets
+19542811000001107	Olanzapine 20mg tablets
+19559811000001100	Olanzapine 20mg tablets
+19559911000001105	Olanzapine 20mg tablets
+19561911000001104	Olanzapine 20mg tablets
+19562011000001106	Olanzapine 20mg tablets
+19565011000001101	Olanzapine 20mg tablets
+19565111000001100	Olanzapine 20mg tablets
+19574411000001104	Olanzapine 20mg tablets
+19574511000001100	Olanzapine 20mg tablets
+19588711000001108	Zalasta 20mg tablets
+19588811000001100	Zalasta 20mg tablets
+19592711000001106	Olanzapine 20mg tablets
+19592811000001103	Olanzapine 20mg tablets
+19838211000001108	Olanzapine 20mg tablets
+19838311000001100	Olanzapine 20mg tablets
+20315811000001107	Olanzapine 20mg tablets
+20316111000001106	Olanzapine 20mg tablets
+20916511000001106	Olanzapine 20mg tablets
+20916611000001105	Olanzapine 20mg tablets
+21824111000001104	Olanzapine 20mg tablets
+21824311000001102	Olanzapine 20mg tablets
+27841911000001104	Olanzapine 20mg tablets
+27842011000001106	Olanzapine 20mg tablets
+29931911000001101	Olanzapine 20mg tablets
+29932011000001108	Olanzapine 20mg tablets
+30065811000001106	Olanzapine 20mg tablets
+30082311000001105	Olanzapine 20mg tablets
+32439811000001100	Olanzapine 20mg tablets
+32440011000001104	Olanzapine 20mg tablets
+35174411000001100	Olanzapine 20mg tablets
+35174511000001101	Olanzapine 20mg tablets
+36850111000001108	Olanzapine 20mg tablets
+36850211000001102	Olanzapine 20mg tablets
+37124411000001100	Olanzapine 20mg tablets
+37124511000001101	Olanzapine 20mg tablets
+38568711000001106	Olanzapine 20mg tablets
+38568811000001103	Olanzapine 20mg tablets
+38812211000001101	Olanzapine 20mg tablets
+38812311000001109	Olanzapine 20mg tablets
+39059111000001107	Olanzapine 20mg tablets
+39059211000001101	Olanzapine 20mg tablets
+39484511000001104	Olanzapine 20mg tablets
+39484711000001109	Olanzapine 20mg tablets
+14015811000001109	Olanzapine 2.5mg/5ml oral solution
+13973011000001101	Olanzapine 2.5mg/5ml oral solution
+13973211000001106	Olanzapine 2.5mg/5ml oral solution
+13973311000001103	Olanzapine 2.5mg/5ml oral solution
+14015911000001104	Olanzapine 2.5mg/5ml oral suspension
+13973611000001108	Olanzapine 2.5mg/5ml oral suspension
+23394411000001107	Olanzapine 2.5mg/5ml oral suspension
+13973811000001107	Olanzapine 2.5mg/5ml oral suspension
+13973911000001102	Olanzapine 2.5mg/5ml oral suspension
+23394511000001106	Olanzapine 2.5mg/5ml oral suspension
+15649511000001102	Olanzapine 1.25mg/5ml oral liquid
+15638511000001107	Olanzapine 1.25mg/5ml oral liquid
+15638711000001102	Olanzapine 1.25mg/5ml oral liquid
+15638911000001100	Olanzapine 1.25mg/5ml oral liquid
+15649611000001103	Olanzapine 1.25mg/5ml oral liquid
+15639311000001107	Olanzapine 1.25mg/5ml oral liquid
+15639511000001101	Olanzapine 1.25mg/5ml oral liquid
+15639811000001103	Olanzapine 1.25mg/5ml oral liquid
+19609111000001109	Olanzapine 10mg orodispersible tablets sugar free
+19606911000001103	Olanzapine 10mg orodispersible tablets sugar free
+19607011000001104	Olanzapine 10mg orodispersible tablets sugar free
+19607111000001103	Olanzapine 10mg orodispersible tablets sugar free
+19609711000001105	Zalasta 10mg orodispersible tablets
+19610011000001102	Zalasta 10mg orodispersible tablets
+19670011000001107	Olanzapine 10mg orodispersible tablets sugar free
+19670111000001108	Olanzapine 10mg orodispersible tablets sugar free
+19683211000001104	Olanzapine 10mg orodispersible tablets sugar free
+19683411000001100	Olanzapine 10mg orodispersible tablets sugar free
+19716911000001107	Olanzapine 10mg orodispersible tablets sugar free
+19717011000001106	Olanzapine 10mg orodispersible tablets sugar free
+19890011000001106	Arkolamyl 10mg orodispersible tablets
+19890111000001107	Arkolamyl 10mg orodispersible tablets
+20317211000001103	Olanzapine 10mg orodispersible tablets sugar free
+20317311000001106	Olanzapine 10mg orodispersible tablets sugar free
+21810011000001103	Olanzapine 10mg orodispersible tablets sugar free
+21810111000001102	Olanzapine 10mg orodispersible tablets sugar free
+35173611000001100	Olanzapine 10mg orodispersible tablets sugar free
+35173711000001109	Olanzapine 10mg orodispersible tablets sugar free
+36821511000001107	Olanzapine 10mg orodispersible tablets sugar free
+36821611000001106	Olanzapine 10mg orodispersible tablets sugar free
+38008211000001102	Olanzapine 10mg orodispersible tablets sugar free
+38008311000001105	Olanzapine 10mg orodispersible tablets sugar free
+19609311000001106	Olanzapine 15mg orodispersible tablets sugar free
+19607211000001109	Olanzapine 15mg orodispersible tablets sugar free
+19607311000001101	Olanzapine 15mg orodispersible tablets sugar free
+19607411000001108	Olanzapine 15mg orodispersible tablets sugar free
+19610111000001101	Zalasta 15mg orodispersible tablets
+19610311000001104	Zalasta 15mg orodispersible tablets
+19670211000001102	Olanzapine 15mg orodispersible tablets sugar free
+19670311000001105	Olanzapine 15mg orodispersible tablets sugar free
+19683511000001101	Olanzapine 15mg orodispersible tablets sugar free
+19683611000001102	Olanzapine 15mg orodispersible tablets sugar free
+19717111000001107	Olanzapine 15mg orodispersible tablets sugar free
+19717211000001101	Olanzapine 15mg orodispersible tablets sugar free
+19890311000001109	Arkolamyl 15mg orodispersible tablets
+19890411000001102	Arkolamyl 15mg orodispersible tablets
+20317411000001104	Olanzapine 15mg orodispersible tablets sugar free
+20317511000001100	Olanzapine 15mg orodispersible tablets sugar free
+21810211000001108	Olanzapine 15mg orodispersible tablets sugar free
+21810311000001100	Olanzapine 15mg orodispersible tablets sugar free
+35173811000001101	Olanzapine 15mg orodispersible tablets sugar free
+35173911000001106	Olanzapine 15mg orodispersible tablets sugar free
+36821911000001100	Olanzapine 15mg orodispersible tablets sugar free
+36822011000001107	Olanzapine 15mg orodispersible tablets sugar free
+38717711000001108	Olanzapine 15mg orodispersible tablets sugar free
+38718111000001108	Olanzapine 15mg orodispersible tablets sugar free
+19609411000001104	Olanzapine 20mg orodispersible tablets sugar free
+19607511000001107	Olanzapine 20mg orodispersible tablets sugar free
+19607611000001106	Olanzapine 20mg orodispersible tablets sugar free
+19607711000001102	Olanzapine 20mg orodispersible tablets sugar free
+19610411000001106	Zalasta 20mg orodispersible tablets
+19610511000001105	Zalasta 20mg orodispersible tablets
+19670411000001103	Olanzapine 20mg orodispersible tablets sugar free
+19670511000001104	Olanzapine 20mg orodispersible tablets sugar free
+19683711000001106	Olanzapine 20mg orodispersible tablets sugar free
+19683811000001103	Olanzapine 20mg orodispersible tablets sugar free
+19717311000001109	Olanzapine 20mg orodispersible tablets sugar free
+19717411000001102	Olanzapine 20mg orodispersible tablets sugar free
+19890911000001105	Arkolamyl 20mg orodispersible tablets
+19891011000001102	Arkolamyl 20mg orodispersible tablets
+20317611000001101	Olanzapine 20mg orodispersible tablets sugar free
+20317711000001105	Olanzapine 20mg orodispersible tablets sugar free
+21810511000001106	Olanzapine 20mg orodispersible tablets sugar free
+21810811000001109	Olanzapine 20mg orodispersible tablets sugar free
+23955311000001104	Olanzapine 20mg orodispersible tablets sugar free
+23955411000001106	Olanzapine 20mg orodispersible tablets sugar free
+36822111000001108	Olanzapine 20mg orodispersible tablets sugar free
+36822211000001102	Olanzapine 20mg orodispersible tablets sugar free
+38716811000001102	Olanzapine 20mg orodispersible tablets sugar free
+38717111000001107	Olanzapine 20mg orodispersible tablets sugar free
+19609511000001100	Olanzapine 5mg orodispersible tablets sugar free
+19607811000001105	Olanzapine 5mg orodispersible tablets sugar free
+19607911000001100	Olanzapine 5mg orodispersible tablets sugar free
+19608011000001103	Olanzapine 5mg orodispersible tablets sugar free
+19608211000001108	Zalasta 5mg orodispersible tablets
+19608311000001100	Zalasta 5mg orodispersible tablets
+19669811000001103	Olanzapine 5mg orodispersible tablets sugar free
+19669911000001108	Olanzapine 5mg orodispersible tablets sugar free
+19682711000001103	Olanzapine 5mg orodispersible tablets sugar free
+19683011000001109	Olanzapine 5mg orodispersible tablets sugar free
+19716711000001105	Olanzapine 5mg orodispersible tablets sugar free
+19716811000001102	Olanzapine 5mg orodispersible tablets sugar free
+19890611000001104	Arkolamyl 5mg orodispersible tablets
+19890711000001108	Arkolamyl 5mg orodispersible tablets
+20316811000001104	Olanzapine 5mg orodispersible tablets sugar free
+20317111000001109	Olanzapine 5mg orodispersible tablets sugar free
+21809711000001106	Olanzapine 5mg orodispersible tablets sugar free
+21809811000001103	Olanzapine 5mg orodispersible tablets sugar free
+35173411000001103	Olanzapine 5mg orodispersible tablets sugar free
+35173511000001104	Olanzapine 5mg orodispersible tablets sugar free
+36821311000001101	Olanzapine 5mg orodispersible tablets sugar free
+36821411000001108	Olanzapine 5mg orodispersible tablets sugar free
+38068411000001102	Olanzapine 5mg orodispersible tablets sugar free
+38068511000001103	Olanzapine 5mg orodispersible tablets sugar free
+19626811000001103	Olanzapine 15mg orodispersible tablets
+19623211000001106	Olanzapine 15mg orodispersible tablets
+19623311000001103	Olanzapine 15mg orodispersible tablets
+19623411000001105	Olanzapine 15mg orodispersible tablets
+20010111000001107	Olanzapine 15mg orodispersible tablets
+20010311000001109	Olanzapine 15mg orodispersible tablets
+20968111000001102	Olanzapine 15mg orodispersible tablets
+20968211000001108	Olanzapine 15mg orodispersible tablets
+30066311000001107	Olanzapine 15mg orodispersible tablets
+30066411000001100	Olanzapine 15mg orodispersible tablets
+30855111000001108	Olanzapine 15mg orodispersible tablets
+30855211000001102	Olanzapine 15mg orodispersible tablets
+35862811000001107	Olanzapine 15mg orodispersible tablets
+35862911000001102	Olanzapine 15mg orodispersible tablets
+39060511000001104	Olanzapine 15mg orodispersible tablets
+39060611000001100	Olanzapine 15mg orodispersible tablets
+19627011000001107	Olanzapine 5mg orodispersible tablets
+19623511000001109	Olanzapine 5mg orodispersible tablets
+19623611000001108	Olanzapine 5mg orodispersible tablets
+19623711000001104	Olanzapine 5mg orodispersible tablets
+20009711000001103	Olanzapine 5mg orodispersible tablets
+20009811000001106	Olanzapine 5mg orodispersible tablets
+20967711000001102	Olanzapine 5mg orodispersible tablets
+20967811000001105	Olanzapine 5mg orodispersible tablets
+30065911000001101	Olanzapine 5mg orodispersible tablets
+30066011000001109	Olanzapine 5mg orodispersible tablets
+30854711000001105	Olanzapine 5mg orodispersible tablets
+30854811000001102	Olanzapine 5mg orodispersible tablets
+35862211000001106	Olanzapine 5mg orodispersible tablets
+35862311000001103	Olanzapine 5mg orodispersible tablets
+39060711000001109	Olanzapine 5mg orodispersible tablets
+39060811000001101	Olanzapine 5mg orodispersible tablets
+19626711000001106	Olanzapine 10mg orodispersible tablets
+19623811000001107	Olanzapine 10mg orodispersible tablets
+19623911000001102	Olanzapine 10mg orodispersible tablets
+19624011000001104	Olanzapine 10mg orodispersible tablets
+20009911000001101	Olanzapine 10mg orodispersible tablets
+20010811000001100	Olanzapine 10mg orodispersible tablets
+20967911000001100	Olanzapine 10mg orodispersible tablets
+20968011000001103	Olanzapine 10mg orodispersible tablets
+30066111000001105	Olanzapine 10mg orodispersible tablets
+30066211000001104	Olanzapine 10mg orodispersible tablets
+30854911000001107	Olanzapine 10mg orodispersible tablets
+30855011000001107	Olanzapine 10mg orodispersible tablets
+35862411000001105	Olanzapine 10mg orodispersible tablets
+35862711000001104	Olanzapine 10mg orodispersible tablets
+39059911000001105	Olanzapine 10mg orodispersible tablets
+39060011000001107	Olanzapine 10mg orodispersible tablets
+19626911000001108	Olanzapine 20mg orodispersible tablets
+19624111000001103	Olanzapine 20mg orodispersible tablets
+19624211000001109	Olanzapine 20mg orodispersible tablets
+19624311000001101	Olanzapine 20mg orodispersible tablets
+20010411000001102	Olanzapine 20mg orodispersible tablets
+20010611000001104	Olanzapine 20mg orodispersible tablets
+20968311000001100	Olanzapine 20mg orodispersible tablets
+20968411000001107	Olanzapine 20mg orodispersible tablets
+30066511000001101	Olanzapine 20mg orodispersible tablets
+30066611000001102	Olanzapine 20mg orodispersible tablets
+30841111000001108	Olanzapine 20mg orodispersible tablets
+30841211000001102	Olanzapine 20mg orodispersible tablets
+35863011000001105	Olanzapine 20mg orodispersible tablets
+35863111000001106	Olanzapine 20mg orodispersible tablets
+39886511000001103	Olanzapine 20mg orodispersible tablets
+39886611000001104	Olanzapine 20mg orodispersible tablets
+32655611000001104	Olanzapine 12.5mg/5ml oral suspension
+32650811000001106	Olanzapine 12.5mg/5ml oral suspension
+32650911000001101	Olanzapine 12.5mg/5ml oral suspension
+32651011000001109	Olanzapine 12.5mg/5ml oral suspension
+32696011000001105	Olanzapine 15mg/5ml oral solution
+32681511000001105	Olanzapine 15mg/5ml oral solution
+32681611000001109	Olanzapine 15mg/5ml oral solution
+32681711000001100	Olanzapine 15mg/5ml oral solution
+36460011000001107	Olanzapine 6mg/5ml oral suspension
+36448711000001101	Olanzapine 6mg/5ml oral suspension
+36448811000001109	Olanzapine 6mg/5ml oral suspension
+36448911000001104	Olanzapine 6mg/5ml oral suspension
+36459911000001105	Olanzapine 6.5mg/5ml oral suspension
+36449011000001108	Olanzapine 6.5mg/5ml oral suspension
+36449111000001109	Olanzapine 6.5mg/5ml oral suspension
+36449211000001103	Olanzapine 6.5mg/5ml oral suspension
+36459811000001100	Olanzapine 5mg/5ml oral suspension
+36449311000001106	Olanzapine 5mg/5ml oral suspension
+36449411000001104	Olanzapine 5mg/5ml oral suspension
+36449511000001100	Olanzapine 5mg/5ml oral suspension
+36905011000001104	Olanzapine 2.5mg orodispersible tablets sugar free
+36896711000001100	Olanzapine 2.5mg orodispersible tablets sugar free
+36896911000001103	Olanzapine 2.5mg orodispersible tablets sugar free
+36897211000001109	Olanzapine 2.5mg orodispersible tablets sugar free
+36905111000001103	Olanzapine 7.5mg orodispersible tablets sugar free
+36897611000001106	Olanzapine 7.5mg orodispersible tablets sugar free
+36897911000001100	Olanzapine 7.5mg orodispersible tablets sugar free
+36898111000001102	Olanzapine 7.5mg orodispersible tablets sugar free

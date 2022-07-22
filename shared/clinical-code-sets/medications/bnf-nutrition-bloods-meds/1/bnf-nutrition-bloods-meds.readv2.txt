@@ -1,0 +1,92 @@
+i96..	WATER FOR INJECTION
+is11.	VITAMINS capsules BPC
+in72.	VITAMIN-B-CO STRONG tablets
+io...	VITAMIN C
+in5B.	VITAMIN B+C STRONG intramuscular injection
+in44.	THIAMINE HYDROCHLORIDE 50mg tablets
+i81n.	SODIUM CHLORIDE 600mg m/r tablets
+i61a.	SLOW-K 600mg m/r tablets
+i81b.	SLOW SODIUM 600mg m/r tablets
+idh4.	SERAVIT PAEDIATRIC ACBS unflavoured powder
+ieFD.	RESOURCE OPTIFIBRE powder 250g
+in23.	PYRIDOXINE 50mg tablets
+in21.	PYRIDOXINE 10mg tablets
+idcT.	PEPTAMEN JUNIOR ADVANCE liquid 500mL
+in56.	PABRINEX I/V HIGH POTENCY intravenous injection
+ip11.	ONE-ALPHA 250nanograms capsules
+bwF2.	NPLATE 250micrograms pdr+solvent for solution for injection
+i315.	NEO-CYTAMEN 1mg/1mL injection
+is1i.	MULTIVITAMINS tablets
+i21z.	IRON DEXTRAN COMPLEX 100mg/2mL injection
+i312.	HYDROXOCOBALAMIN 1mg/1mL injection
+ip3y.	FULTIUM-D3 800iu capsules
+id6L.	FORCEVAL PROTEIN chocolate powder sachet
+i332.	FOLIC ACID 5mg tablets
+i334.	FOLIC ACID 400micrograms tablets
+i46A.	FILGRASTIM 48million units/0.5mL prefilled syringe
+i111.	FERSADAY 322mg tablets
+i15x.	FERROUS SULFATE 325mg m/r tablets
+i151.	FERROUS SULFATE 200mg tablets
+i119.	FERROUS FUMARATE 322mg tablets
+i118.	FERROUS FUMARATE 305mg capsules
+i155.	FERROGRAD 325mg Filmtabs
+i242.	FERINJECT 500mg/10mL solution for injection
+i241.	FERINJECT 100mg/2mL solution for injection
+iv33.	EXJADE 500mg dispersible tablets
+i44C.	EPREX 4000iu/0.4mL prefilled syringe
+i44B.	EPREX 3000iu/0.3mL prefilled syringe
+i44D.	EPREX 10,000iu/1mL prefilled syringe
+i45x.	EPOETIN BETA 60,000iu injection cartridge
+i44s.	EPOETIN ALFA 30,000iu/0.75mL prefilled syringe
+ieDX.	ENSURE TWOCAL banana liquid 200mL
+ie18.	ENSURE ACBS vanilla liquid 250mL(can)
+id5j.	ENFAMIL LACTOFREE powder 400g
+bwGy.	ELTROMBOPAG 50mg tablets
+i81q.	ELECTROLADE BANANA oral powder
+id4f.	DUOCAL ACBS liquid 250mL
+i81w.	DIORALYTE RELIEF blackcurrant oral powder
+i81j.	DIORALYTE blackcurrant oral powder
+i81m.	DIORALYTE blackcurrant effervescent tablets
+i47k.	DARBEPOETIN ALFA 80micrograms/0.4mL prefilled pen
+i47u.	DARBEPOETIN ALFA 50micrograms/0.5mL prefilled syringe
+i47v.	DARBEPOETIN ALFA 40micrograms/0.4mL prefilled syringe
+i47m.	DARBEPOETIN ALFA 40micrograms/0.4mL prefilled pen
+i47w.	DARBEPOETIN ALFA 30micrograms/0.3mL prefilled syringe
+i47x.	DARBEPOETIN ALFA 20micrograms/0.5mL prefilled syringe
+i47n.	DARBEPOETIN ALFA 20micrograms/0.5mL prefilled pen
+i47y.	DARBEPOETIN ALFA 15micrograms/0.375mL prefilled syringe
+i47z.	DARBEPOETIN ALFA 10micrograms/0.4mL prefilled syringe
+i324.	CYTAMEN 1mg/1mL injection
+i321.	CYANOCOBALAMIN 1mg/1mL injection
+i214.	COSMOFER 100mg/2mL injection
+ip3z.	COLECALCIFEROL 800iu capsules
+ip3I.	COLECALCIFEROL 20,000iu tablets
+i313.	COBALIN-H 1mg/1mL injection
+iddB.	CAROBEL INSTANT powder 135g
+ip3l.	CALFOVIT D3 powder for oral suspension
+ij31.	CALCIUM ACETATE 1g tablets
+ip3f.	CALCICHEW D3 FORTE 1.25g/400iu chewable tablets
+ig1d.	CALCICHEW 1.25g chewable tablets
+i44Z.	BINOCRIT 10,000iu/1mL solution for injection prefilled syringe
+i47F.	ARANESP SURECLICK 60micrograms/0.3mL prefilled pen
+i47E.	ARANESP SURECLICK 40micrograms/0.4mL prefilled pen
+i47D.	ARANESP SURECLICK 20micrograms/0.5mL prefilled pen
+i47H.	ARANESP SURECLICK 100micrograms/0.5mL prefilled pen
+i478.	ARANESP 80micrograms/0.4mL prefilled syringe
+i477.	ARANESP 60micrograms/0.3mL prefilled syringe
+i476.	ARANESP 50micrograms/0.5mL prefilled syringe
+i475.	ARANESP 40micrograms/0.4mL prefilled syringe
+i474.	ARANESP 30micrograms/0.3mL prefilled syringe
+i47B.	ARANESP 300micrograms/0.6mL prefilled syringe
+i473.	ARANESP 20micrograms/0.5mL prefilled syringe
+i472.	ARANESP 15micrograms/0.375mL prefilled syringe
+i47A.	ARANESP 150micrograms/0.3mL prefilled syringe
+i471.	ARANESP 10micrograms/0.4mL prefilled syringe
+i479.	ARANESP 100micrograms/0.5mL prefilled syringe
+ip17.	ALFACALCIDOL 1microgram capsules
+ip3j.	ADCAL-D3 1.5g/10micrograms chewable tablets
+ip3o.	ADCAL D3 DISSOLVE effervescent tablets
+ip3u.	ADCAL D3 750mg/200iu caplets
+ip3w.	ACCRETE D3 tablets
+i221.	*JECTOFER 100mg/2mL injection
+i222.	*IRON SORBITOL injection

@@ -1,0 +1,20 @@
+11494111000001102	Exenatide 10micrograms/0.04ml inj 2.4ml pf dispos dev
+11494511000001106	Exenatide 10micrograms/0.04ml inj 2.4ml pf dispos dev
+11494611000001105	Byetta 10micrograms/0.04ml inj 2.4ml pre-filled pens
+11495611000001106	Byetta 10micrograms/0.04ml inj 2.4ml pre-filled pens
+11494211000001108	Exenatide 5micrograms/0.02ml inj 1.2ml pf dispos dev
+11494711000001101	Exenatide 5micrograms/0.02ml inj 1.2ml pf dispos dev
+11494811000001109	Byetta 5micrograms/0.02ml inj 1.2ml pre-filled pens
+11494911000001104	Byetta 5micrograms/0.02ml inj 1.2ml pre-filled pens
+19275411000001107	Exenatide 2mg inj vials
+19274711000001100	Exenatide 2mg inj vials
+19274811000001108	Bydureon 2mg inj vials
+19274911000001103	Bydureon 2mg inj vials
+28440211000001102	Exenatide 2mg inj pre-filled disposable devices
+28425911000001100	Exenatide 2mg inj pre-filled disposable devices
+28426011000001108	Bydureon 2mg inj pre-filled pens
+28426111000001109	Bydureon 2mg inj pre-filled pens
+38082811000001104	Exenatide 2mg/0.85ml prolonged-release inj pf dispos dev
+38060411000001100	Exenatide 2mg/0.85ml prolonged-release inj pf dispos dev
+38060511000001101	Bydureon BCise 2mg/0.85ml prolonged-release inj pf pens
+38060611000001102	Bydureon BCise 2mg/0.85ml prolonged-release inj pf pens

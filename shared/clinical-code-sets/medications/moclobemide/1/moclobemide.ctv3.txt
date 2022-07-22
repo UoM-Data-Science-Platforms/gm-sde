@@ -1,0 +1,4 @@
+d851.	Manerix 150mg tablet
+d852.	Moclobemide 150mg tablet
+d853.	Manerix 300mg tablet
+d854.	Moclobemide 300mg tablet

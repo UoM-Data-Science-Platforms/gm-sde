@@ -1,0 +1,47 @@
+he57.	Zoladex LA 10.8mg SafeSystem implant
+he51.	Zoladex 3.6mg implant
+h8A1.	TYSABRI 300mg/15mL solution for injection
+dA53.	TECFIDERA 240mg gastro-resistant capsules
+heF8.	Somatuline Autogel 120mg/0.5mL prefilled syringe
+he6D.	Sandostatin LAR 20mg depot injection+solvent
+he6C.	Sandostatin LAR 10mg depot injection+solvent
+hh12.	Rituximab 500mg/50mL infusion concentrate
+hh11.	Rituximab 100mg/10mL infusion concentrate
+he85.	PROSTAP SR DCS 3.75mg powder+solvent for susp injection pfs
+he82.	Prostap SR 3.75mg injection (pdr for recon)+diluent+kit
+he84.	Prostap 3 injection (pdr for recon)+diluent
+he87.	PROSTAP 3 DCS 11.25mg powder+solvent for susp injection pfs
+x05JX	Photofrin 75mg injection (pdr for recon)
+he62.	Octreotide 100micrograms/1mL injection
+h82D.	Neoral 100mg/mL s/f oral solution
+h843.	Mycophenolate mofetil 500mg tablet
+h841.	Mycophenolate mofetil 250mg capsule
+h344.	Methotrexate 5mg/2mL injection
+he81.	Leuprorelin acetate 3.75mg injection (pdr for recon)+diluent+kit
+he88.	LEUPRORELIN ACETATE 11.25mg pdr+solv for susp injection pfs
+he83.	Leuprorelin acetate 11.25mg injection (pdr for recon)+diluent
+heE1.	Letrozole 2.5mg tablet
+hh33.	LEMTRADA 12mg concentrate for solution for infusion
+heF4.	Lanreotide 90mg/0.3mL prefilled syringe
+heF5.	Lanreotide 120mg/0.5mL prefilled syringe
+he52.	Goserelin 3.6mg implant
+he53.	Goserelin 10.8mg implant
+heB4.	Gonapeptyl Depot 3.75mg injection (pdr for recon)+solvent prefilled syringe
+h8J1.	GILENYA 500micrograms capsules
+heI1.	FIRMAGON 80mg powder and solvent for solution for injection
+heH1.	Faslodex 50mg/mL solution for injection 5mL prefilled syringe
+heI2.	DEGARELIX 80mg powder and solvent for solution for injection
+heB2.	De-capeptyl SR 4.2mg injection (pdr for recon)+diluent
+heB2.	Decapeptyl SR 3mg injection (pdr for recon)+diluent
+heB9.	DECAPEPTYL SR 22.5mg injection (pdr for recon)+diluent
+heB6.	Decapeptyl SR 11.25mg injection (pdr for recon)+diluent
+h826.	Cyclosporin 25mg capsule
+h82x.	Cyclosporin 100mg/mL s/f oral solution
+h827.	Cyclosporin 100mg capsule
+h826.	Ciclosporin 25mg capsule
+h82x.	Ciclosporin 100mg/mL s/f oral solution
+h827.	Ciclosporin 100mg capsule
+heA2.	Casodex 50mg tablet
+h71x.	Azathioprine 50mg tablet
+h71y.	Azathioprine 25mg tablet
+h83F.	ADOPORT 1mg capsules

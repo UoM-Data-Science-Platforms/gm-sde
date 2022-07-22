@@ -1,0 +1,6 @@
+ftf1.	TRAJENTA 5mg tablets
+ftf2.	LINAGLIPTIN 5mg tablets
+ftg1.	JENTADUETO 2.5mg/850mg tablets
+ftg2.	LINAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/850mg tablets
+ftg3.	JENTADUETO 2.5mg/1000mg tablets
+ftg4.	LINAGLIPTIN/METFORMIN HYDROCHLORIDE 2.5mg/1000mg tablets

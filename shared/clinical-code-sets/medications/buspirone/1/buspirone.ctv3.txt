@@ -1,0 +1,4 @@
+d2f1.	Buspirone hydrochloride 5mg tablet
+d2f2.	Buspar 5mg tablet
+d2f4.	Buspar 10mg tablet
+d2f5.	Buspirone hydrochloride 10mg tablet

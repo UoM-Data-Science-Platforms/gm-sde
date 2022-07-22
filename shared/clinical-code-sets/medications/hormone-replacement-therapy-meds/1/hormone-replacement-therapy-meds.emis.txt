@@ -1,0 +1,272 @@
+NUTA17981EMIS	Nuvelle  Tablets  
+ELTA31986EMIS	Elleste Duet Conti  Tablets  
+PRPE98865NEMIS	Progesterone  Pessaries  100 mg
+ESIM38193MGEMIS	Estradiol  Implant  25 mg (Organon)
+ESPA18982NEMIS	Estradiol And Levonorgestrel  Patches (7 days)  50 micrograms + 7 micrograms/24 hours
+ETTA38107MGEMIS	Ethinylestradiol  Tablets  10 micrograms (Unichem)
+NOTA12924NEMIS	Novofem  Tablets  
+META9109EMIS	Medroxyprogesterone Acetate  Tablets  10 mg
+ESTA18936NEMIS	Estradiol And Norethisterone Acetate  Tablets  2 mg + 1 mg
+ETTA38111MGEMIS	Ethinylestradiol  Tablets  50 micrograms (Ucb Pharma)
+ESTR19388NEMIS	Estradot  Transdermal patches  25 micrograms/24 hrs
+PRTA2336	Premarin  Tablets  1.25 mg
+DETR5678NEMIS	Dermestril Septem  Transdermal patches (7 days)  75 micrograms/24 hrs
+ESGE17750NEMIS	Estradiol  Gel  0.06 % pump-pack
+ESIM38189MGEMIS	Estradiol  Implant  100 mg (A.A.H. Pharm)
+OVTA23838EMIS	Ovestin  Tablets  1 mg
+CRVA31940EMIS	Crinone  Vaginal gel  8 %
+PRSO130305NEMIS	Progesterone  Solution for injection  25 mg/1.112 ml vial
+PRTA27092EMIS	Premique  Tablets  0.625 mg + 5 mg
+PRTR12936NEMIS	Progynova Ts 50  Transdermal patches (7 days)  50 micrograms/24 hours
+ETTA38109MGEMIS	Ethinylestradiol  Tablets  10 micrograms (A.A.H. Pharm)
+RATA79472NEMIS	Razylan  Tablets  60 mg
+ESTA76935NEMIS	Estradiol And Dydrogesterone  Tablets  500 micrograms + 2.5 mg
+ESPA18939NEMIS	Estradiol And Norethisterone  Patches And Tablets  50 micrograms/24 hours + 1 mg
+ANTA20250NEMIS	Angeliq  Tablets  1 mg + 2 mg
+ESTA38331MGEMIS	Estradiol And Norethisterone Acetate  Tablets  2 mg + 1 mg (Novo-Nordisk)
+ETTA17650NEMIS	Ethinylestradiol  Tablets  50 micrograms
+TRTA20213EMIS	Trisequens Forte  Tablets  
+ESIM38195MGEMIS	Estradiol  Implant  50 mg (A.A.H. Pharm)
+ESIM17753NEMIS	Estradiol  Implant  50 mg
+ZATA135293NEMIS	Zalkya  Tablets  2 mg
+FETA28124EMIS	Femapak 80  Tablets and patches  
+ESTA18932NEMIS	Estradiol Valerate And Norethisterone  Tablets  2 mg + 700 micrograms
+FETA26908EMIS	Femoston 2/10  Tablets  
+ESNA17773NEMIS	Estradiol  Nasal spray  150 micrograms/actuation
+ETTA38108MGEMIS	Ethinylestradiol  Tablets  10 micrograms (Ucb Pharma)
+ZUTA20666EMIS	Zumenon  Tablets  2 mg
+FETA76936NEMIS	Femoston-Conti  Tablets  500 micrograms + 2.5 mg
+UTVA82060NEMIS	Utrogestan  Vaginal Capsules With Applicators  200 mg
+ESTA38199MGEMIS	Estradiol  Tablets  1 mg (Pfizer)
+TRTA26679EMIS	Tridestra  Tablets  
+METR27688EMIS	Menorest  Transdermal patches  37.5 micrograms/day
+ELTR31593EMIS	Elleste Solo Mx  Transdermal patches  80 micrograms/24 hrs
+NOTA36283MGEMIS	Norethisterone  Tablets  5 mg (Sandoz)
+INTA5652NEMIS	Indivina  Tablets  1 mg + 2.5 mg
+FETR31721EMIS	Femseven  Transdermal patches (7 days)  100 micrograms/24 hrs
+CLTA22324NEMIS	Climanor  Tablets  5 mg
+DITA90864NEMIS	Dienogest  Tablets  2 mg
+ESTR17761NEMIS	Estradiol  Transdermal patches  50 micrograms/24 hrs
+FETA1987NEMIS	Femoston-Conti  Tablets  1 mg + 5 mg
+CLTA28306EMIS	Climesse  Tablets  
+TITA9207EMIS	Tibolone  Tablets  2.5 mg
+ESTR28298EMIS	Estraderm Mx  Transdermal patches  25 micrograms/24 hrs
+LETR136004NEMIS	Lenzetto  Transdermal Spray  1.53 mg/dose
+DETR30520EMIS	Dermestril  Transdermal patches  50 micrograms/24 hrs
+CRVA31938EMIS	Crinone  Vaginal gel  4 %
+ETTA17651NEMIS	Ethinylestradiol  Tablets  1 mg
+ULTA71577NEMIS	Ulipristal Acetate  Tablets  5 mg
+PRTA2347	Primolut N  Tablets  5 mg
+ESTA17777NEMIS	Estradiol Valerate  Tablets  2 mg
+ADTA5077NEMIS	Adgyn Combi  Tablets  
+ESPA18941NEMIS	Estradiol And Dydrogesterone  Patches And Tablets  40 micrograms/24 hours + 10 mg
+SAGE30743EMIS	Sandrena  Gel  500 micrograms/500 mg sachet
+EVTA34223EMIS	Evista  Tablets  60 mg
+CLTA9345EMIS	Climaval  Tablets  2 mg
+ETTA17649NEMIS	Ethinylestradiol  Tablets  10 micrograms
+EVTR31384EMIS	Evorel Sequi  Transdermal patches  
+ETTA38115MGEMIS	Ethinylestradiol  Tablets  1 mg (Unichem)
+ESTR136000NEMIS	Estradiol  Transdermal Spray  1.53 mg/dose
+ADTA5074NEMIS	Adgyn Estro  Tablets  2 mg
+OETA9400EMIS	Oestradiol Valerate  Tablets  1 mg
+PRTA9008EMIS	Provera  Tablets  10 mg
+ESTR17763NEMIS	Estradiol  Transdermal patches  75 micrograms/24 hrs
+ESPA18937NEMIS	Estradiol And Norethisterone Acetate  Patches  50 micrograms + 170 micrograms/24 hours
+DYTA1015	Dydrogesterone  Tablets  10 mg
+NOTA36285MGEMIS	Norethisterone  Tablets  5 mg (A.A.H. Pharm)
+ESGE17772NEMIS	Estradiol  Gel  500 micrograms/500 mg sachet
+ESTA17754NEMIS	Estradiol  Tablets  1 mg
+NUTA399NEMIS	Nuvelle Continuous  Tablets  
+BICA140375NEMIS	NULL
+ESTR17764NEMIS	Estradiol  Transdermal patches  80 micrograms/24 hrs
+META23818EMIS	Medroxyprogesterone Acetate  Tablets  2.5 mg
+ESTA38209MGEMIS	Estradiol Valerate  Tablets  2 mg (Orion Pharma)
+CLTA9344EMIS	Climaval  Tablets  1 mg
+PRTA2372	Progynova  Tablets  2 mg
+KLTA26493EMIS	Kliofem  Tablets  
+ESTR19392NEMIS	Estradot  Transdermal patches  100 micrograms/24 hrs
+AENA6635NEMIS	Aerodiol  Nasal spray  150 micrograms/metered spray
+ESTA18946NEMIS	Estradiol Valerate And Medroxyprogesterone Acetate  Tablets  1 mg + 5 mg
+ADTA5079NEMIS	Adgyn Medro  Tablets  5 mg
+ESIM38194MGEMIS	Estradiol  Implant  25 mg (Unichem)
+ESGE17771NEMIS	Estradiol  Gel  1 mg/1 gram sachet
+CLTA23918EMIS	Climagest 2 Mg  Tablets  
+ESIM17752NEMIS	Estradiol  Implant  25 mg
+ESIM38197MGEMIS	Estradiol  Implant  50 mg (Unichem)
+DETR30519EMIS	Dermestril  Transdermal patches  25 micrograms/24 hrs
+ETGA139398NEMIS	NULL
+ESTA38204MGEMIS	Estradiol  Tablets  2 mg (Pfizer)
+FETR28091EMIS	Femseven  Transdermal patches (7 days)  50 micrograms/24 hrs
+UTCA26233NEMIS	Utrogestan  Capsules (Micronised)  200 mg
+DUTA27717EMIS	Duphaston-Hrt  Tablets  10 mg
+DUM/123287NEMIS	Duavive  M/R tablets  450 micrograms + 20 mg
+COM/123284NEMIS	Conjugated Oestrogens And Bazedoxifene  M/R tablets  450 micrograms + 20 mg
+ESTR19391NEMIS	Estradot  Transdermal patches  75 micrograms/24 hrs
+EVTR31391EMIS	Evorel Conti  Transdermal patches  
+PRIN2366	Progesterone  Injection  25 mg/1 ml ampoule
+CLTA22320NEMIS	Clinorette  Tablets  
+ESTA71579NEMIS	Esmya  Tablets  5 mg
+EVTR22315EMIS	Evorel  Transdermal patches  50 micrograms/24 hrs
+ESCA140373NEMIS	NULL
+ESPA8671EGTON	Estraderm Tts  Transdermal patches  100 micrograms/24 hrs
+NOTA36288MGEMIS	Norethisterone  Tablets  5 mg (Wockhardt UK)
+ESTA38205MGEMIS	Estradiol Valerate  Tablets  1 mg (Viatris Pharms)
+ESTA38200MGEMIS	Estradiol  Tablets  1 mg (Novo-Nordisk)
+LUSO88120NEMIS	Lubion  Solution for injection  25 mg/1.119 ml vial
+EVTR26441EMIS	Evorel  Transdermal patches  100 micrograms/24 hrs
+PRCA26231NEMIS	Progesterone  Capsules (Micronised)  100 mg
+NOTA2023	Norethisterone  Tablets  5 mg
+COTA724	Conjugated Oestrogens  Tablets  625 micrograms
+FETA27492EMIS	Femoston 1/10  Tablets  
+ESTR17767NEMIS	Estradiol  Transdermal patches (7 days)  50 micrograms/24 hrs
+CYTA10113BRIDL	Cyclo-Progynova 1 Mg  Tablets  
+ESTR17759NEMIS	Estradiol  Transdermal patches  25 micrograms/24 hrs
+FETR13850NEMIS	Femseven Sequi  Transdermal patches  50 micrograms/10 micrograms/24 hours
+ESTA18943NEMIS	Estradiol And Dydrogesterone  Tablets  1 mg + 5 mg
+EVTA25472EMIS	Evorel-Pak  Tablets and patches  
+ETTA17652NEMIS	Ethinylestradiol  Tablets  2 micrograms
+ETTA38114MGEMIS	Ethinylestradiol  Tablets  1 mg (Ucb Pharma)
+SAGE30742EMIS	Sandrena  Gel  1 mg/1 gram sachet
+FETR28119EMIS	Fematrix 40  Transdermal patches  40 micrograms/24 hrs
+HOTA3705	Hormonin  Tablets  
+NOTA36284MGEMIS	Norethisterone  Tablets  5 mg (Unichem)
+ESTA17776NEMIS	Estradiol Valerate  Tablets  1 mg
+PRTA2337	Premarin  Tablets  625 micrograms
+INTA5653NEMIS	Indivina  Tablets  1 mg + 5 mg
+ESTA17755NEMIS	Estradiol  Tablets  2 mg
+COTA18953NEMIS	Conjugated Oestrogens And Norgestrel  Tablets  625 micrograms + 150 micrograms
+ESTA38206MGEMIS	Estradiol Valerate  Tablets  1 mg (Novartis Pharm)
+HATA1350	Harmogen  Tablets  1.5 mg
+META9109EMIS	Medroxyprogesterone Acetate  Tablets  10 mg
+ESTA38198MGEMIS	Estradiol  Tablets  1 mg (Solvay Healthcare)
+PRTA25050NEMIS	Premarin  Tablets  300 micrograms
+ESTA8374EGTON	Estrapak 50  Tablets and patches  
+COTA18954NEMIS	Conjugated Oestrogens And Norgestrel  Tablets  1.25 mg + 150 micrograms
+ESPA18942NEMIS	Estradiol And Dydrogesterone  Patches And Tablets  80 micrograms/24 hours + 10 mg
+EVTR31391EMIS	Evorel Conti  Transdermal patches  
+ESTA17755NEMIS	Estradiol  Tablets  2 mg
+GEIN25431EMIS	Gestone  Solution for injection  100 mg/2 ml ampoule
+PRCA26229NEMIS	Progesterone  Capsules (Micronised)  200 mg
+PRTA27095EMIS	Premique Cycle  Tablets  
+OEGE26580EMIS	Oestrogel  Gel  0.06 % pump-pack
+FETR14417NEMIS	Femseven Conti  Transdermal patches (7 days)  50 micrograms/7 micrograms/24 hours
+TRCA4464	Trisequens  Calendar pack  
+PRPE10821NEMIS	Progesterone  Pessaries  400 mg
+ESPA8673EGTON	Estraderm Tts  Transdermal patches  50 micrograms/24 hrs
+COTA18950NEMIS	Conjugated Oestrogens And Medroxyprogesterone  Tablets  625 micrograms + 5 mg
+PRVA31944EMIS	Progesterone  Vaginal gel  8 %
+ELTR31592EMIS	Elleste Solo Mx  Transdermal patches  40 micrograms/24 hrs
+ESTA38211MGEMIS	Estradiol Valerate  Tablets  2 mg (Merck)
+ZUTA29671EMIS	Zumenon  Tablets  1 mg
+NOTA36286MGEMIS	Norethisterone  Tablets  5 mg (Kent Pharm)
+FETA26908EMIS	Femoston 2/10  Tablets  
+PRIN2373	Proluton Depot  Injection  250 mg/ml
+GEIN1296	Gestone  Injection  25 mg/1 ml ampoule
+ESTR19390NEMIS	Estradot  Transdermal patches  50 micrograms/24 hrs
+EVTA113411NEMIS	Evirex  Tablets  60 mg
+ESTA38208MGEMIS	Estradiol Valerate  Tablets  2 mg (Viatris Pharms)
+PRIN2367	Progesterone  Solution for injection  50 mg/1 ml ampoule
+FETR31722EMIS	Femseven  Transdermal patches (7 days)  75 micrograms/24 hrs
+OETA20668EMIS	Oestradiol  Tablets  2 mg
+DETR30518EMIS	Dermestril  Transdermal patches  100 micrograms/24 hrs
+PRVA31943EMIS	Progesterone  Vaginal gel  4 %
+ESTR19386NEMIS	Estradiol  Transdermal patches  37.5 micrograms/24 hrs
+PRPE10820NEMIS	Progesterone  Pessaries  200 mg
+ESTR17761NEMIS	Estradiol  Transdermal patches  50 micrograms/24 hrs
+ESTA18945NEMIS	Estradiol Valerate And Medroxyprogesterone Acetate  Tablets  1 mg + 2.5 mg
+COTA34621MGEMIS	Conjugated Oestrogens  Tablets  625 micrograms (Wyeth)
+PRTA2337	Premarin  Tablets  625 micrograms
+ESTA71579NEMIS	Esmya  Tablets  5 mg
+COTA33808EMIS	Conjugated Oestrogens  Tablets  2.5 mg
+OETR22321EMIS	Oestradiol  Transdermal patches  50 micrograms/24 hrs
+LUSO130306NEMIS	Lubion  Solution for injection  25 mg/1.112 ml vial
+LUVA98867NEMIS	Lutigest  Vaginal tablets  100 mg
+METR27690EMIS	Menorest  Transdermal patches  75 micrograms/day
+COTA18951NEMIS	Conjugated Oestrogens And Medroxyprogesterone  M/R tablets  300 micrograms + 1.5 mg
+ETTA38113MGEMIS	Ethinylestradiol  Tablets  1 mg (A.A.H. Pharm)
+ELTA28288EMIS	Elleste-Solo  Tablets  2 mg
+PRTA17460NEMIS	Premique Low Dose  M/R tablets  0.3 mg + 1.5 mg
+PRTA2371	Progynova  Tablets  1 mg
+CYTA775	Cyclo-Progynova 2 Mg  Tablets  
+CYPE10823NEMIS	Cyclogest  Pessaries  400 mg
+NOTA25449EMIS	Norethisterone  Tablets  1 mg
+GEIN1297	Gestone  Solution for injection  50 mg/1 ml ampoule
+EVTR26443EMIS	Evorel  Transdermal patches  75 micrograms/24 hrs
+ESTA17783NEMIS	Estriol  Tablets  1 mg
+DETR5677NEMIS	Dermestril Septem  Transdermal patches (7 days)  50 micrograms/24 hrs
+RATA34225EMIS	Raloxifene Hydrochloride  Tablets  60 mg
+ESTA38202MGEMIS	Estradiol  Tablets  2 mg (Strakan)
+FETA15853NEMIS	Femtab  Tablets  2 mg
+PRTA23816EMIS	Provera  Tablets  2.5 mg
+ESIM38196MGEMIS	Estradiol  Implant  50 mg (Organon)
+NOTA2023	Norethisterone  Tablets  5 mg
+ESTR28297EMIS	Estraderm Mx  Transdermal patches  100 micrograms/24 hrs
+NOTA36287MGEMIS	Norethisterone  Tablets  5 mg (Alpharma)
+ESTR19389NEMIS	Estradot  Transdermal patches  37.5 micrograms/24 hrs
+ELTA28287EMIS	Elleste-Solo  Tablets  1 mg
+ESTA38210MGEMIS	Estradiol Valerate  Tablets  2 mg (Novartis Pharm)
+ESIM17751NEMIS	Estradiol  Implant  100 mg
+ESTA38203MGEMIS	Estradiol  Tablets  2 mg (Novo-Nordisk)
+ESIM38192MGEMIS	Estradiol  Implant  25 mg (A.A.H. Pharm)
+FETA15852NEMIS	Femtab  Tablets  1 mg
+FETA26911EMIS	Femoston 2/20  Tablets  
+ESTR397NEMIS	Estraderm Mx  Transdermal patches  75 micrograms/24 hrs
+META1749	Medroxyprogesterone Acetate  Tablets  5 mg
+ESTA38332MGEMIS	Estradiol And Norethisterone Acetate  Tablets  2 mg + 1 mg (Pfizer)
+PRIN25433EMIS	Progesterone  Solution for injection  100 mg/2 ml ampoule
+ETTA38112MGEMIS	Ethinylestradiol  Tablets  50 micrograms (Unichem)
+ESTA38207MGEMIS	Estradiol Valerate  Tablets  2 mg (Schering Health Care Ltd)
+ESPA20472EMIS	Estracombi Tts  Patches  
+ESTR28299EMIS	Estraderm Mx  Transdermal patches  50 micrograms/24 hrs
+FETA15858NEMIS	Femtab Continuous  Tablets  
+ESTA18948NEMIS	Estradiol And Norethisterone Acetate  Tablets  1 mg + 500 micrograms
+ETTA38110MGEMIS	Ethinylestradiol  Tablets  50 micrograms (A.A.H. Pharm)
+ESTA17776NEMIS	Estradiol Valerate  Tablets  1 mg
+PRSO88118NEMIS	Progesterone  Solution for injection  25 mg/1.119 ml vial
+PRTR12939NEMIS	Progynova Ts 100  Transdermal patches (7 days)  100 micrograms/24 hours
+ESIM38190MGEMIS	Estradiol  Implant  100 mg (Organon)
+ESTA38201MGEMIS	Estradiol  Tablets  2 mg (Solvay Healthcare)
+EVTR26442EMIS	Evorel  Transdermal patches  25 micrograms/24 hrs
+DUTA1008	Duphaston  Tablets  10 mg
+PRTA9077BRIDL	Premarin  Tablets  2.5 mg
+PRTA2340	Prempak-C 0.625 mg + 0.15 mg  Tablets  
+ESTR17758NEMIS	Estradiol  Transdermal patches  100 micrograms/24 hrs
+ELTA30208EMIS	Elleste Duet 1 Mg  Tablets  
+ESIM38191MGEMIS	Estradiol  Implant  100 mg (Unichem)
+METR27689EMIS	Menorest  Transdermal patches  50 micrograms/day
+CLTA22608EMIS	Climagest 1 Mg  Tablets  
+HYIN1407	Hydroxyprogesterone Hexanoate  Injection  250 mg/ml
+FETA15855NEMIS	Femtab Sequi  Tablets  
+PRTA9008EMIS	Provera  Tablets  10 mg
+MITA25447EMIS	Micronor-Hrt  Tablets  1 mg
+FETA28504EMIS	Femapak 40  Tablets and patches  
+ESTA20248NEMIS	Estradiol And Drospirenone  Tablets  1 mg + 2 mg
+KLTA34182EMIS	Kliovance  Tablets  
+CYTA775	Cyclo-Progynova 2 Mg  Tablets  
+PRTA2405	Provera  Tablets  5 mg
+FETR26606EMIS	Fematrix 80  Transdermal patches  80 micrograms/24 hrs
+ESTR17760NEMIS	Estradiol  Transdermal patches  40 micrograms/24 hrs
+BETA22322NEMIS	Bedol  Tablets  2 mg
+PRVA82059NEMIS	Progesterone  Vaginal Capsules (Micronised)  200 mg
+ESTA1120NEMIS	Estropipate  Tablets  1.5 mg
+LITA9205EMIS	Livial  Tablets  2.5 mg
+EVTR31384EMIS	Evorel Sequi  Transdermal patches  
+FETR28091EMIS	Femseven  Transdermal patches (7 days)  50 micrograms/24 hrs
+NUTR30362EMIS	Nuvelle Ts  Transdermal patches  
+ESTA18947NEMIS	Estradiol Valerate And Medroxyprogesterone Acetate  Tablets  2 mg + 5 mg
+CYPE10822NEMIS	Cyclogest  Pessaries  200 mg
+NOTA25449EMIS	Norethisterone  Tablets  1 mg
+CYPE10823NEMIS	Cyclogest  Pessaries  400 mg
+PRTA2340	Prempak-C 0.625 mg + 0.15 mg  Tablets  
+COTA723	Conjugated Oestrogens  Tablets  1.25 mg
+PRTA2341	Prempak-C 1.25 mg + 0.15 mg  Tablets  
+UTTA4483	Utovlan  Tablets  5 mg
+OETR28193EMIS	Oestradiol  Transdermal patches (7 days)  50 micrograms/24 hrs
+ELTA28291EMIS	Elleste Duet 2 Mg  Tablets  
+COTA34620MGEMIS	Conjugated Oestrogens  Tablets  1.25 mg (Wyeth)
+PRTA2347	Primolut N  Tablets  5 mg
+COTA25049NEMIS	Conjugated Oestrogens  Tablets  300 micrograms
+UTCA26234NEMIS	Utrogestan  Capsules (Micronised)  100 mg
+CLTA9344EMIS	Climaval  Tablets  1 mg
+ESPA8672EGTON	Estraderm Tts  Transdermal patches  25 micrograms/24 hrs
+INTA5654NEMIS	Indivina  Tablets  2 mg + 5 mg

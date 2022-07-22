@@ -1,0 +1,36 @@
+﻿20045006	Delayed menopause (finding)
+237123000	Normal menopause (finding)
+276477006	Menopause observation
+289903006	Menopause
+289904000	Menopause absent (finding)
+373717006	Premature menopause
+423478005	Difficulty managing menopause
+31351009	Postartificial menopausal syndrome (disorder)
+278063007	Post-hysterectomy menopause (disorder)
+278064001	Post-radiation menopause (disorder)
+371036001	Surgical menopause
+170949004	Menopause initial assessment (regime/therapy)
+170950004	Menopause follow-up assessment (regime/therapy)
+170953002	Menopause: bone density check (regime/therapy)
+268530007	Menopause monitoring (regime/therapy)
+303111005	During menopause (qualifier value)
+307429007	After menopause (qualifier value)
+309605003	Temporal periods relating to menopause (qualifier value)
+309606002	Before menopause (qualifier value)
+106002000	Disorder associated with menstruation AND/OR menopause (disorder)
+237138004	Menopause ovarian failure (disorder)
+402804002	Dermatosis of menopause
+170961007	Menopause dietary education
+170962000	Menopause sexual advice
+313207002	Menopause education
+160397006	Family history: Early menopause
+160398001	Family history: Late menopause
+170951000	Menopause symptoms present (finding)
+243875009	Menopause monitoring status (finding)
+88424000	Premenopausal menorrhagia (finding)
+76742009	Postmenopausal bleeding (finding)
+161712005	Menopause, function
+735614005	Osteopenia following menopause
+439421000	Counseling for menopause
+427956008	History of normal menopause
+464852003	Static magnetic menopause-relief plate

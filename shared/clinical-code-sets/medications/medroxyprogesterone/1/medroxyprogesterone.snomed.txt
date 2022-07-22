@@ -1,0 +1,54 @@
+3788211000001104	Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets
+3780111000001108	Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets
+14253511000001106	Estradiol valerate 1mg / Medroxyprogesterone 2.5mg tablets
+3864111000001104	Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets
+3853611000001101	Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets
+14253611000001105	Estradiol valerate 1mg / Medroxyprogesterone 5mg tablets
+3788311000001107	Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets
+3779811000001101	Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets
+14253711000001101	Estradiol valerate 2mg / Medroxyprogesterone 5mg tablets
+39689411000001101	Conjugated oestrogens 625microg/Medroxyprogesterone 5mg tab
+1012011000001100	Conjugated oestrogens 625microg/Medroxyprogesterone 5mg tab
+15621411000001104	Conj oestrogens 300microg/Medroxyprogesterone 1.5mg MR tab
+7340211000001102	Conj oestrogens 300microg/Medroxyprogesterone 1.5mg MR tab
+325601006	Medroxyprogesterone 10mg tablets
+1028411000001101	Medroxyprogesterone 10mg tablets
+1141711000001106	Medroxyprogesterone 10mg tablets
+1275811000001103	Medroxyprogesterone 10mg tablets
+13618811000001109	Medroxyprogesterone 10mg tablets
+907611000001100	Provera 10mg tablets
+2201711000001100	Provera 10mg tablets
+2201911000001103	Provera 10mg tablets
+2202211000001100	Provera 10mg tablets
+325609008	Medroxyprogesterone 5mg tablets
+1247011000001101	Medroxyprogesterone 5mg tablets
+1218211000001100	Medroxyprogesterone 5mg tablets
+990011000001108	Medroxyprogesterone 5mg tablets
+1089311000001107	Medroxyprogesterone 5mg tablets
+5404011000001101	Medroxyprogesterone 5mg tablets
+14356511000001107	Medroxyprogesterone 5mg tablets
+14947111000001107	Medroxyprogesterone 5mg tablets
+286911000001108	Provera 5mg tablets
+2213411000001108	Provera 5mg tablets
+2213511000001107	Provera 5mg tablets
+729411000001107	Adgyn Medro 5mg tablets
+2213711000001102	Adgyn Medro 5mg tablets
+2213811000001105	Adgyn Medro 5mg tablets
+10276311000001109	Climanor 5mg tablets
+10276411000001102	Climanor 5mg tablets
+325603009	Medroxyprogesterone 2.5mg tablets
+3868011000001109	Medroxyprogesterone 2.5mg tablets
+3868511000001101	Provera 2.5mg tablets
+3868911000001108	Provera 2.5mg tablets
+36041411000001109	Medroxyprogesterone 150mg/1ml inj pre-filled syringes
+1139611000001100	Medroxyprogesterone 150mg/1ml inj pre-filled syringes
+769811000001103	Depo-Provera 150mg/1ml inj pre-filled syringes
+1986411000001101	Depo-Provera 150mg/1ml inj pre-filled syringes
+36041511000001108	Medroxyprogesterone 150mg/1ml suspension for injection vials
+3602811000001106	Medroxyprogesterone 150mg/1ml suspension for injection vials
+3603311000001107	Depo-Provera 150mg/1ml suspension for injection vials
+3603511000001101	Depo-Provera 150mg/1ml suspension for injection vials
+22214111000001104	Medroxyprogesterone 104mg/0.65ml inj pf disposable devices
+22208711000001108	Medroxyprogesterone 104mg/0.65ml inj pf disposable devices
+22208811000001100	Sayana Press 104mg/0.65ml inj pre-filled disposable devices
+22208911000001105	Sayana Press 104mg/0.65ml inj pre-filled disposable devices

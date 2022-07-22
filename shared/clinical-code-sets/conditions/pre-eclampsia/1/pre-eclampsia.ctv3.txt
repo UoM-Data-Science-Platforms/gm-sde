@@ -1,0 +1,25 @@
+XaBE0	Mild pre-eclampsia
+Xa40P	Pre-eclampsia, unspecified
+XE0vs	Mild or unspecified pre-eclampsia
+L124z	Mild or unspecified pre-eclampsia NOS
+L1244	Mild or unspecified pre-eclampsia with postnatal complication
+L1243	Mild or unspecified pre-eclampsia - not delivered
+L1242	Mild or unspecified pre-eclampsia - delivered with postnatal complication
+L1241	Mild or unspecified pre-eclampsia - delivered
+L1240	Mild or unspecified pre-eclampsia unspecified
+X40C0	Moderate pre-eclampsia
+L125.	Severe pre-eclampsia
+L125z	Severe pre-eclampsia NOS
+L1254	Severe pre-eclampsia with postnatal complication
+L1253	Severe pre-eclampsia - not delivered
+L1252	Severe pre-eclampsia - delivered with postnatal complication
+L1251	Severe pre-eclampsia - delivered
+L1250	Severe pre-eclampsia unspecified
+L124.	Mild pre-eclampsia
+L127.	Pre-eclampsia or eclampsia with pre-existing hypertension
+L127z	Pre-eclampsia or eclampsia with pre-existing hypertension NOS
+L1274	Pre-eclampsia or eclampsia with pre-existing hypertension with postnatal complication
+L1273	Pre-eclampsia or eclampsia with pre-existing hypertension - not delivered
+L1272	Pre-eclampsia or eclampsia with pre-existing hypertension - delivered with postnatal complication
+L1271	Pre-eclampsia or eclampsia with pre-existing hypertension - delivered
+L1270	Pre-eclampsia or eclampsia with pre-existing hypertension unspecified

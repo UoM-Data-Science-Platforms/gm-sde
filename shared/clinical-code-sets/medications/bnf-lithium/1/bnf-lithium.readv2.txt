@@ -1,0 +1,30 @@
+d6...00	LITHIUM SALTS
+d61..00	LITHIUM CARBONATE
+d611.00	*CAMCOLIT 250mg tablets
+d612.00	CAMCOLIT 400mg tablets
+d613.00	LISKONUM 450mg m/r tablets
+d614.00	*PHASAL 300mg m/r tablets
+d615.00	PRIADEL 400mg m/r tablets
+d616.00	PRIADEL 200mg m/r tablets
+d617.00	PRIADEL 520mg/5mL sugar free liquid
+d618.00	LITHIUM CARBONATE 520mg/5mL sugar free liquid
+d619.00	LITHONATE 400mg m/r tablets
+d61s.00	LITHIUM CARBONATE 200mg m/r tablets
+d61v.00	LITHIUM CARBONATE 250mg tablets
+d61w.00	LITHIUM CARBONATE 400mg tablets
+d61x.00	LITHIUM CARBONATE 450mg m/r tablets
+d61y.00	LITHIUM CARBONATE 300mg m/r tablets
+d61z.00	LITHIUM CARBONATE 400mg m/r tablets
+d62..00	LITHIUM CITRATE
+d621.00	*LITAREX 564mg m/r tablets
+d622.00	LI-LIQUID 5.4mmol/5mL liquid
+d623.00	LI-LIQUID 10.8mmol/5mL liquid
+d624.00	PRIADEL 520mg/5mL sugar free liquid 150mL
+d625.00	PRIADEL 520mg/5mL sugar free liquid
+d62w.00	LITHIUM CITRATE 520mg/5mL sugar free liquid
+d62w.11	LITHIUM CITRATE 5.4mmol/5mL sugar free liquid
+d62x.00	LITHIUM CITRATE 5.4mmol/5mL liquid
+d62x.11	LITHIUM CITRATE 509mg/5mL liquid
+d62y.00	LITHIUM CITRATE 10.8mmol/5mL liquid
+d62y.11	LITHIUM CITRATE 1018mg/5mL liquid
+d62z.00	LITHIUM CITRATE 564mg m/r tablets

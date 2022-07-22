@@ -1,0 +1,82 @@
+cj1..	Tobramycin [respiratory use]
+cj11.	Tobramycin 300mg/5mL nebuliser solution
+cj12.	TOBI 300mg/5mL nebuliser solution
+cj13.	BRAMITOB 300mg/4mL nebuliser solution
+cj14.	TOBRAMYCIN 300mg/4mL nebuliser solution
+cj15.	TOBI PODHALER 28mg inhalation powder capsules with device
+cj16.	TOBRAMYCIN 28mg inhalation powder capsules with device
+e81..	Gentamicin [infections]
+e811.	Gentamicin 40mg/1mL injection ampoule
+e812.	Gentamicin 80mg/2mL injection
+e813.	Gentamicin 80mg/2mL syringe
+e814.	Gentamicin 60mg/1mL injection
+e815.	Gentamicin 120mg/2mL injection
+e816.	Gentamicin 120mg/1.5mL injection
+e817.	Gentamicin 2mg/2mL intrathecal injection
+e818.	Gentamicin 5mg/1mL intrathecal injection ampoule
+e819.	Gentamicin 10mg/2mL paediatric injection
+e81a.	Gentamicin 20mg/2mL injection vial
+e81b.	Gentamicin 1g injection (pdr for recon)
+e81c.	Cidomycin 80mg/2mL injection
+e81d.	Cidomycin 160mg/2mL injection
+e81e.	Cidomycin 20mg/2mL paediatric injection
+e81f.	Cidomycin 5mg/1mL intrathecal injection ampoule
+e81g.	Cidomycin powder 1g
+e81h.	Genticin 80mg/2mL injection ampoule
+e81i.	Genticin 20mg/2mL paediatric injection
+e81j.	Genticin 2mg/2mL intrathecal injection
+e81k.	Genticin powder 1g
+e81l.	Lugacin 80mg/2mL injection
+e81m.	Genticin powder 500mg
+e81n.	Gentamicin 240mg/6mL injection
+e81o.	Gentamicin 80mg/50mL intravenous infusion
+e81p.	Gentamicin Redibag 80mg/50mL intravenous infusion
+e81q.	Gentamicin 240mg/100mL intravenous infusion
+e81r.	Gentamicin Redibag 240mg/100mL intravenous infusion
+e81s.	Gentamicin 360mg/100mL intravenous infusion
+e81t.	Gentamicin Redibag 360mg/100mL intravenous infusion
+e81u.	GENTAMICIN 80mg/80mL solution for infusion
+e81v.	GENTAMICIN 240mg/80mL solution for infusion
+e81w.	GENTAMICIN 360mg/120mL solution for infusion
+e82..	Amikacin
+e821.	Amikin 500mg/2mL injection
+e822.	Amikin 100mg/2mL paediatric injection
+e82y.	Amikacin 500mg/2mL injection
+e82z.	Amikacin 100mg/2mL paediatric injection
+e83..	Framycetin sulphate [systemic]
+e831.	Soframycin 250mg tablet
+e832.	Soframycin powder 500mg
+e833.	Framycetin sulphate 250mg tablet
+e834.	Framycetin sulphate powder 500mg
+e84..	Kanamycin
+e84..	Kanamycin product
+e841.	Kannasyn 1g/4mL injection
+e842.	Kannasyn 1g injection (pdr for recon)
+e84y.	Kanamycin 1g/4mL injection
+e84z.	Kanamycin 1g injection (pdr for recon)
+e85..	Neomycin sulphate [systemic]
+e851.	Neomycin sulphate 100mg/5mL elixir
+e852.	Mycifradin powder 500mg
+e853.	Nivemycin 500mg tablet
+e854.	Nivemycin 100mg/5mL elixir
+e855.	Neomycin sulphate 500mg tablet
+e856.	Mycifradin 500mg tablet
+e86..	Netilmicin
+e861.	Netillin 15mg/1.5mL injection
+e862.	Netillin 50mg/1mL injection
+e863.	Netillin 100mg/1mL injection
+e864.	Netillin 150mg/1.5mL injection
+e865.	Netillin 200mg/2mL injection
+e86v.	Netilmicin 200mg/2mL injection
+e86w.	Netilmicin 15mg/1.5mL injection
+e86x.	Netilmicin 50mg/1mL injection
+e86y.	Netilmicin 100mg/1mL injection
+e86z.	Netilmicin 150mg/1.5mL injection
+e87..	Tobramycin [systemic]
+e871.	Nebcin 20mg/2mL injection
+e872.	Nebcin 40mg/1mL injection
+e873.	Nebcin 80mg/2mL injection
+e87w.	Tobramycin 240mg/6mL injection
+e87x.	Tobramycin 20mg/2mL injection
+e87y.	Tobramycin 40mg/1mL injection
+e87z.	Tobramycin 80mg/2mL injection

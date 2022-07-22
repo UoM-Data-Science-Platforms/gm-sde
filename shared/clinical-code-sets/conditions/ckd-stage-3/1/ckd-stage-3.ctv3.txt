@@ -1,0 +1,15 @@
+﻿XaLHI	Chronic kidney disease stage 3
+XacAM	CKD G3aA1 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A1
+XacAN	CKD G3aA2 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A2
+XacAO	CKD G3aA3 - chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A3
+XacAV	CKD G3bA1 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A1
+XacAW	CKD G3bA2 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A2
+XacAX	CKD G3bA3 - chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A3
+XaNbn	Chronic kidney disease stage 3A
+XaNbo	Chronic kidney disease stage 3B
+XaO3t	Chronic kidney disease stage 3 with proteinuria
+XaO3u	Chronic kidney disease stage 3 without proteinuria
+XaO3w	Chronic kidney disease stage 3A without proteinuria
+XaO3x	Chronic kidney disease stage 3B with proteinuria
+XaO3y	Chronic kidney disease stage 3B without proteinuria
+XaO3v	Chronic kidney disease stage 3A with proteinuria

@@ -1,0 +1,3 @@
+44l2.00	Cholesterol/HDL			
+44lF.00	Serum cholesterol/HDL
+44PF.00	Total cholesterol:HDL ratio

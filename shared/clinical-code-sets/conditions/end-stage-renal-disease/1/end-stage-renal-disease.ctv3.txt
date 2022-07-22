@@ -1,0 +1,27 @@
+﻿14S2.	H/O: kidney recipient
+14V2.	H/O: renal dialysis
+7A602	Attention to arteriovenous shunt
+7A60z	Arteriovenous shunt NOS
+7A614	Ligation of acquired arteriovenous fistula
+7B00.	Renal transplant
+7B001	Live donor renal transplant
+7B002	Cadaveric renal transplant
+7B00z	Transplantation of kidney NOS
+7B063	Exploration of renal transplant
+7L1A1	Peritoneal dialysis
+7L1A2	Haemodialysis NEC
+7L1B0	Insertion of chronic ambulatory peritoneal dialysis catheter
+7L1B1	Removal of chronic ambulatory peritoneal dialysis catheter
+7L1C.	Placement of other apparatus for compensation for renal failure
+7L1C0	Insertion of temporary peritoneal dialysis catheter
+8L50.	Renal transplant planned
+G760.	Acquired arteriovenous fistula
+K05..	Renal failure: [chronic] or [end stage]
+SP015	Mechanical complication of dialysis catheter
+SP083	Kidney transplant failure and rejection
+TB001	Transplantation of kidney as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation
+ZV420	[V]Kidney transplanted
+ZV451	[V]Renal dialysis status
+ZV561	[V]Preparatory care for dialysis
+ZV56y	[V]Other specified aftercare involving intermittent dialysis
+ZVu3G	[X]Other dialysis

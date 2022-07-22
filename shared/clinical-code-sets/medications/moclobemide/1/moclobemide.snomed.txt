@@ -1,0 +1,64 @@
+321913005	Moclobemide 150mg tablets
+1132611000001107	Moclobemide 150mg tablets
+5495311000001101	Moclobemide 150mg tablets
+409811000001107	Moclobemide 150mg tablets
+2631911000001107	Moclobemide 150mg tablets
+823011000001104	Moclobemide 150mg tablets
+2632511000001108	Moclobemide 150mg tablets
+735511000001106	Moclobemide 150mg tablets
+2633211000001104	Moclobemide 150mg tablets
+129211000001100	Moclobemide 150mg tablets
+2633411000001100	Moclobemide 150mg tablets
+538111000001106	Manerix 150mg tablets
+2633811000001103	Manerix 150mg tablets
+906511000001101	Moclobemide 150mg tablets
+2634411000001102	Moclobemide 150mg tablets
+4621911000001100	Moclobemide 150mg tablets
+4622211000001102	Moclobemide 150mg tablets
+13758911000001104	Moclobemide 150mg tablets
+13759111000001109	Moclobemide 150mg tablets
+15232911000001101	Moclobemide 150mg tablets
+15233011000001109	Moclobemide 150mg tablets
+21805611000001100	Moclobemide 150mg tablets
+21806011000001103	Moclobemide 150mg tablets
+24401111000001108	Moclobemide 150mg tablets
+24401211000001102	Moclobemide 150mg tablets
+30832211000001108	Moclobemide 150mg tablets
+30832311000001100	Moclobemide 150mg tablets
+39882711000001109	Moclobemide 150mg tablets
+39882811000001101	Moclobemide 150mg tablets
+321915003	Moclobemide 300mg tablets
+1012511000001108	Moclobemide 300mg tablets
+5495811000001105	Moclobemide 300mg tablets
+898011000001104	Moclobemide 300mg tablets
+2634811000001100	Moclobemide 300mg tablets
+554811000001108	Moclobemide 300mg tablets
+2635111000001106	Moclobemide 300mg tablets
+502511000001108	Moclobemide 300mg tablets
+2635211000001100	Moclobemide 300mg tablets
+934511000001101	Moclobemide 300mg tablets
+2635511000001102	Moclobemide 300mg tablets
+48311000001107	Manerix 300mg tablets
+2635811000001104	Manerix 300mg tablets
+668311000001106	Moclobemide 300mg tablets
+2636011000001101	Moclobemide 300mg tablets
+4936811000001104	Moclobemide 300mg tablets
+4936911000001109	Moclobemide 300mg tablets
+13759311000001106	Moclobemide 300mg tablets
+13759411000001104	Moclobemide 300mg tablets
+15233111000001105	Moclobemide 300mg tablets
+15233211000001104	Moclobemide 300mg tablets
+24401311000001105	Moclobemide 300mg tablets
+24401411000001103	Moclobemide 300mg tablets
+38961911000001105	Moclobemide 300mg tablets
+38962011000001103	Moclobemide 300mg tablets
+39882911000001106	Moclobemide 300mg tablets
+39883011000001103	Moclobemide 300mg tablets
+13000111000001109	Moclobemide 150mg/5ml oral suspension
+12981211000001108	Moclobemide 150mg/5ml oral suspension
+12981511000001106	Moclobemide 150mg/5ml oral suspension
+12981611000001105	Moclobemide 150mg/5ml oral suspension
+13000211000001103	Moclobemide 50mg/5ml oral suspension
+12981911000001104	Moclobemide 50mg/5ml oral suspension
+12982211000001101	Moclobemide 50mg/5ml oral suspension
+12982511000001103	Moclobemide 50mg/5ml oral suspension

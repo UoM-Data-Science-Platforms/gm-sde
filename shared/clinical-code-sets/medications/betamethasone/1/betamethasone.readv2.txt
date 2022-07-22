@@ -1,0 +1,5 @@
+fe11.	BETNELAN 500micrograms tablets
+fe12.	*BETNESOL 500micrograms tabs
+fe13.	BETNESOL 4mg/1mL injection
+fe1y.	BETAMETHASONE 500microgram tablets
+fe1z.	BETAMETHASONE 4mg/1mL injection

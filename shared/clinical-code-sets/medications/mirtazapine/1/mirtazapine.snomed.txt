@@ -1,0 +1,380 @@
+321998002	Mirtazapine 30mg tablets
+1225611000001103	Mirtazapine 30mg tablets
+5389111000001108	Mirtazapine 30mg tablets
+523611000001107	Zispin 30mg tablets
+2636211000001106	Zispin 30mg tablets
+7985911000001100	Mirtazapine 30mg tablets
+7986111000001109	Mirtazapine 30mg tablets
+7986411000001104	Mirtazapine 30mg tablets
+7986811000001102	Mirtazapine 30mg tablets
+8095411000001108	Mirtazapine 30mg tablets
+8095711000001102	Mirtazapine 30mg tablets
+9500611000001102	Mirtazapine 30mg tablets
+8098011000001107	Mirtazapine 30mg tablets
+8098111000001108	Mirtazapine 30mg tablets
+8101411000001102	Mirtazapine 30mg tablets
+8101511000001103	Mirtazapine 30mg tablets
+8166811000001106	Mirtazapine 30mg tablets
+8166911000001101	Mirtazapine 30mg tablets
+8389611000001109	Mirtazapine 30mg tablets
+8389911000001103	Mirtazapine 30mg tablets
+8516411000001103	Mirtazapine 30mg tablets
+8519011000001101	Mirtazapine 30mg tablets
+8751911000001108	Mirtazapine 30mg tablets
+16212611000001101	Mirtazapine 30mg tablets
+8752111000001100	Mirtazapine 30mg tablets
+9037411000001105	Mirtazapine 30mg tablets
+9037511000001109	Mirtazapine 30mg tablets
+9449411000001108	Mirtazapine 30mg tablets
+9449611000001106	Mirtazapine 30mg tablets
+9548311000001101	Mirtazapine 30mg tablets
+9548411000001108	Mirtazapine 30mg tablets
+10302011000001109	Mirtazapine 30mg tablets
+10302111000001105	Mirtazapine 30mg tablets
+10395211000001106	Mirtazapine 30mg tablets
+10395411000001105	Mirtazapine 30mg tablets
+10440611000001103	Mirtazapine 30mg tablets
+10440711000001107	Mirtazapine 30mg tablets
+11408911000001109	Mirtazapine 30mg tablets
+11409111000001104	Mirtazapine 30mg tablets
+13758511000001106	Mirtazapine 30mg tablets
+13758611000001105	Mirtazapine 30mg tablets
+14123911000001102	Mirtazapine 30mg tablets
+14124011000001104	Mirtazapine 30mg tablets
+15114711000001100	Mirtazapine 30mg tablets
+15114811000001108	Mirtazapine 30mg tablets
+16700111000001100	Mirtazapine 30mg tablets
+16700211000001106	Mirtazapine 30mg tablets
+17943411000001101	Mirtazapine 30mg tablets
+17943511000001102	Mirtazapine 30mg tablets
+17943611000001103	Mirtazapine 30mg tablets
+17968211000001104	Mirtazapine 30mg tablets
+17968311000001107	Mirtazapine 30mg tablets
+19194411000001100	Mirtazapine 30mg tablets
+19194511000001101	Mirtazapine 30mg tablets
+19732611000001106	Mirtazapine 30mg tablets
+19732711000001102	Mirtazapine 30mg tablets
+21804011000001108	Mirtazapine 30mg tablets
+21804211000001103	Mirtazapine 30mg tablets
+23421811000001108	Mirtazapine 30mg tablets
+23421911000001103	Mirtazapine 30mg tablets
+24400311000001100	Mirtazapine 30mg tablets
+24400511000001106	Mirtazapine 30mg tablets
+30832011000001103	Mirtazapine 30mg tablets
+30832111000001102	Mirtazapine 30mg tablets
+32802411000001106	Mirtazapine 30mg tablets
+32802511000001105	Mirtazapine 30mg tablets
+35449611000001103	Mirtazapine 30mg tablets
+35449811000001104	Mirtazapine 30mg tablets
+36698411000001101	Mirtazapine 30mg tablets
+36698711000001107	Mirtazapine 30mg tablets
+36921211000001103	Mirtazapine 30mg tablets
+36921311000001106	Mirtazapine 30mg tablets
+37798911000001102	Mirtazapine 30mg tablets
+37799011000001106	Mirtazapine 30mg tablets
+38410211000001105	Mirtazapine 30mg tablets
+38410611000001107	Mirtazapine 30mg tablets
+39207111000001103	Mirtazapine 30mg tablets
+39207211000001109	Mirtazapine 30mg tablets
+40209011000001106	Mirtazapine 30mg tablets
+40209111000001107	Mirtazapine 30mg tablets
+375195005	Mirtazapine 30mg orodispersible tablets
+4859611000001102	Mirtazapine 30mg orodispersible tablets
+4859711000001106	Zispin SolTab 30mg orodispersible tablets
+4859811000001103	Zispin SolTab 30mg orodispersible tablets
+10969211000001104	Mirtazapine 30mg orodispersible tablets
+10969411000001100	Mirtazapine 30mg orodispersible tablets
+11255711000001107	Mirtazapine 30mg orodispersible tablets
+11255811000001104	Mirtazapine 30mg orodispersible tablets
+12056511000001102	Mirtazapine 30mg orodispersible tablets
+12056611000001103	Mirtazapine 30mg orodispersible tablets
+12059811000001105	Mirtazapine 30mg orodispersible tablets
+12060011000001103	Mirtazapine 30mg orodispersible tablets
+13162511000001107	Mirtazapine 30mg orodispersible tablets
+13162611000001106	Mirtazapine 30mg orodispersible tablets
+13738411000001108	Mirtazapine 30mg orodispersible tablets
+13738511000001107	Mirtazapine 30mg orodispersible tablets
+14124711000001102	Mirtazapine 30mg orodispersible tablets
+14124911000001100	Mirtazapine 30mg orodispersible tablets
+15232511000001108	Mirtazapine 30mg orodispersible tablets
+15232611000001107	Mirtazapine 30mg orodispersible tablets
+16630411000001108	Mirtazapine 30mg orodispersible tablets
+16630511000001107	Mirtazapine 30mg orodispersible tablets
+16700711000001104	Mirtazapine 30mg orodispersible tablets
+16700811000001107	Mirtazapine 30mg orodispersible tablets
+17942711000001104	Mirtazapine 30mg orodispersible tablets
+17942811000001107	Mirtazapine 30mg orodispersible tablets
+17968811000001103	Mirtazapine 30mg orodispersible tablets
+17968911000001108	Mirtazapine 30mg orodispersible tablets
+19195011000001108	Mirtazapine 30mg orodispersible tablets
+19195111000001109	Mirtazapine 30mg orodispersible tablets
+19213911000001108	Mirtazapine 30mg orodispersible tablets
+19214211000001101	Mirtazapine 30mg orodispersible tablets
+21801811000001104	Mirtazapine 30mg orodispersible tablets
+21801911000001109	Mirtazapine 30mg orodispersible tablets
+23422411000001101	Mirtazapine 30mg orodispersible tablets
+23422511000001102	Mirtazapine 30mg orodispersible tablets
+24393011000001103	Mirtazapine 30mg orodispersible tablets
+24393111000001102	Mirtazapine 30mg orodispersible tablets
+30831611000001104	Mirtazapine 30mg orodispersible tablets
+30831711000001108	Mirtazapine 30mg orodispersible tablets
+36044211000001107	Mirtazapine 30mg orodispersible tablets
+36044511000001105	Mirtazapine 30mg orodispersible tablets
+39047711000001102	Mirtazapine 30mg orodispersible tablets
+39047811000001105	Mirtazapine 30mg orodispersible tablets
+5627911000001100	Mirtazapine 45mg orodispersible tablets
+5595711000001109	Mirtazapine 45mg orodispersible tablets
+5595811000001101	Zispin SolTab 45mg orodispersible tablets
+5595911000001106	Zispin SolTab 45mg orodispersible tablets
+10969511000001101	Mirtazapine 45mg orodispersible tablets
+10969611000001102	Mirtazapine 45mg orodispersible tablets
+11255911000001109	Mirtazapine 45mg orodispersible tablets
+11256011000001101	Mirtazapine 45mg orodispersible tablets
+12056711000001107	Mirtazapine 45mg orodispersible tablets
+12056811000001104	Mirtazapine 45mg orodispersible tablets
+12060211000001108	Mirtazapine 45mg orodispersible tablets
+12060411000001107	Mirtazapine 45mg orodispersible tablets
+13162711000001102	Mirtazapine 45mg orodispersible tablets
+13162811000001105	Mirtazapine 45mg orodispersible tablets
+13738611000001106	Mirtazapine 45mg orodispersible tablets
+13738711000001102	Mirtazapine 45mg orodispersible tablets
+14125011000001100	Mirtazapine 45mg orodispersible tablets
+14125211000001105	Mirtazapine 45mg orodispersible tablets
+15232711000001103	Mirtazapine 45mg orodispersible tablets
+15232811000001106	Mirtazapine 45mg orodispersible tablets
+16630611000001106	Mirtazapine 45mg orodispersible tablets
+16630711000001102	Mirtazapine 45mg orodispersible tablets
+16700911000001102	Mirtazapine 45mg orodispersible tablets
+16701011000001105	Mirtazapine 45mg orodispersible tablets
+17942911000001102	Mirtazapine 45mg orodispersible tablets
+17943011000001105	Mirtazapine 45mg orodispersible tablets
+17968411000001100	Mirtazapine 45mg orodispersible tablets
+17968511000001101	Mirtazapine 45mg orodispersible tablets
+19195211000001103	Mirtazapine 45mg orodispersible tablets
+19195311000001106	Mirtazapine 45mg orodispersible tablets
+19214311000001109	Mirtazapine 45mg orodispersible tablets
+19214611000001104	Mirtazapine 45mg orodispersible tablets
+21802211000001107	Mirtazapine 45mg orodispersible tablets
+21802411000001106	Mirtazapine 45mg orodispersible tablets
+23422611000001103	Mirtazapine 45mg orodispersible tablets
+23422711000001107	Mirtazapine 45mg orodispersible tablets
+24393911000001104	Mirtazapine 45mg orodispersible tablets
+24394011000001101	Mirtazapine 45mg orodispersible tablets
+30831811000001100	Mirtazapine 45mg orodispersible tablets
+30831911000001105	Mirtazapine 45mg orodispersible tablets
+35854711000001100	Mirtazapine 45mg orodispersible tablets
+35854811000001108	Mirtazapine 45mg orodispersible tablets
+38960911000001103	Mirtazapine 45mg orodispersible tablets
+38961011000001106	Mirtazapine 45mg orodispersible tablets
+39047911000001100	Mirtazapine 45mg orodispersible tablets
+39048011000001103	Mirtazapine 45mg orodispersible tablets
+375194009	Mirtazapine 15mg orodispersible tablets
+5608611000001101	Mirtazapine 15mg orodispersible tablets
+5608711000001105	Mirtazapine 15mg orodispersible tablets
+5608811000001102	Zispin SolTab 15mg orodispersible tablets
+5608911000001107	Zispin SolTab 15mg orodispersible tablets
+5609011000001103	Zispin SolTab 15mg orodispersible tablets
+10968811000001105	Mirtazapine 15mg orodispersible tablets
+10969011000001109	Mirtazapine 15mg orodispersible tablets
+11255511000001102	Mirtazapine 15mg orodispersible tablets
+11255611000001103	Mirtazapine 15mg orodispersible tablets
+12056111000001106	Mirtazapine 15mg orodispersible tablets
+12056311000001108	Mirtazapine 15mg orodispersible tablets
+12059511000001107	Mirtazapine 15mg orodispersible tablets
+12059611000001106	Mirtazapine 15mg orodispersible tablets
+13162311000001101	Mirtazapine 15mg orodispersible tablets
+13162411000001108	Mirtazapine 15mg orodispersible tablets
+13738211000001109	Mirtazapine 15mg orodispersible tablets
+13738311000001101	Mirtazapine 15mg orodispersible tablets
+14124111000001103	Mirtazapine 15mg orodispersible tablets
+14124311000001101	Mirtazapine 15mg orodispersible tablets
+15232211000001105	Mirtazapine 15mg orodispersible tablets
+15232311000001102	Mirtazapine 15mg orodispersible tablets
+16630811000001105	Mirtazapine 15mg orodispersible tablets
+16630911000001100	Mirtazapine 15mg orodispersible tablets
+16700511000001109	Mirtazapine 15mg orodispersible tablets
+16700611000001108	Mirtazapine 15mg orodispersible tablets
+17942511000001109	Mirtazapine 15mg orodispersible tablets
+17942611000001108	Mirtazapine 15mg orodispersible tablets
+17969111000001103	Mirtazapine 15mg orodispersible tablets
+17969211000001109	Mirtazapine 15mg orodispersible tablets
+19194811000001103	Mirtazapine 15mg orodispersible tablets
+19194911000001108	Mirtazapine 15mg orodispersible tablets
+19213711000001106	Mirtazapine 15mg orodispersible tablets
+19213811000001103	Mirtazapine 15mg orodispersible tablets
+21801511000001102	Mirtazapine 15mg orodispersible tablets
+21801611000001103	Mirtazapine 15mg orodispersible tablets
+23422211000001100	Mirtazapine 15mg orodispersible tablets
+23422311000001108	Mirtazapine 15mg orodispersible tablets
+24386211000001100	Mirtazapine 15mg orodispersible tablets
+24386311000001108	Mirtazapine 15mg orodispersible tablets
+30831411000001102	Mirtazapine 15mg orodispersible tablets
+30831511000001103	Mirtazapine 15mg orodispersible tablets
+36043811000001105	Mirtazapine 15mg orodispersible tablets
+36044011000001102	Mirtazapine 15mg orodispersible tablets
+38960711000001100	Mirtazapine 15mg orodispersible tablets
+38960811000001108	Mirtazapine 15mg orodispersible tablets
+39048111000001102	Mirtazapine 15mg orodispersible tablets
+39048211000001108	Mirtazapine 15mg orodispersible tablets
+375193003	Mirtazapine 15mg tablets
+8752911000001102	Mirtazapine 15mg tablets
+9051011000001105	Mirtazapine 15mg tablets
+8753111000001106	Mirtazapine 15mg tablets
+8753311000001108	Mirtazapine 15mg tablets
+16212511000001100	Mirtazapine 15mg tablets
+9050811000001107	Mirtazapine 15mg tablets
+9051111000001106	Mirtazapine 15mg tablets
+9156311000001106	Mirtazapine 15mg tablets
+9156411000001104	Mirtazapine 15mg tablets
+9158011000001107	Mirtazapine 15mg tablets
+9500511000001101	Mirtazapine 15mg tablets
+9158111000001108	Mirtazapine 15mg tablets
+9449211000001109	Mirtazapine 15mg tablets
+9449311000001101	Mirtazapine 15mg tablets
+10302211000001104	Mirtazapine 15mg tablets
+10302311000001107	Mirtazapine 15mg tablets
+10395011000001101	Mirtazapine 15mg tablets
+10395111000001100	Mirtazapine 15mg tablets
+11501111000001108	Mirtazapine 15mg tablets
+11501211000001102	Mirtazapine 15mg tablets
+13593411000001107	Mirtazapine 15mg tablets
+13593511000001106	Mirtazapine 15mg tablets
+15114511000001105	Mirtazapine 15mg tablets
+15114611000001109	Mirtazapine 15mg tablets
+16699911000001103	Mirtazapine 15mg tablets
+16700011000001101	Mirtazapine 15mg tablets
+17943111000001106	Mirtazapine 15mg tablets
+17943311000001108	Mirtazapine 15mg tablets
+17943211000001100	Mirtazapine 15mg tablets
+17967011000001108	Mirtazapine 15mg tablets
+17967111000001109	Mirtazapine 15mg tablets
+19194211000001104	Mirtazapine 15mg tablets
+19194311000001107	Mirtazapine 15mg tablets
+19732411000001108	Mirtazapine 15mg tablets
+19732511000001107	Mirtazapine 15mg tablets
+21803511000001103	Mirtazapine 15mg tablets
+21803811000001100	Mirtazapine 15mg tablets
+23421611000001109	Mirtazapine 15mg tablets
+23421711000001100	Mirtazapine 15mg tablets
+24400011000001103	Mirtazapine 15mg tablets
+24400111000001102	Mirtazapine 15mg tablets
+32799811000001103	Mirtazapine 15mg tablets
+32800011000001101	Mirtazapine 15mg tablets
+35450211000001105	Mirtazapine 15mg tablets
+35450411000001109	Mirtazapine 15mg tablets
+36697611000001102	Mirtazapine 15mg tablets
+36698011000001105	Mirtazapine 15mg tablets
+36921011000001108	Mirtazapine 15mg tablets
+36921111000001109	Mirtazapine 15mg tablets
+37121411000001102	Mirtazapine 15mg tablets
+37122011000001103	Mirtazapine 15mg tablets
+39048311000001100	Mirtazapine 15mg tablets
+39048411000001107	Mirtazapine 15mg tablets
+375196006	Mirtazapine 45mg tablets
+8753511000001102	Mirtazapine 45mg tablets
+9051311000001108	Mirtazapine 45mg tablets
+8753611000001103	Mirtazapine 45mg tablets
+8753711000001107	Mirtazapine 45mg tablets
+16212711000001105	Mirtazapine 45mg tablets
+9051211000001100	Mirtazapine 45mg tablets
+9051411000001101	Mirtazapine 45mg tablets
+9156511000001100	Mirtazapine 45mg tablets
+9156611000001101	Mirtazapine 45mg tablets
+9158211000001102	Mirtazapine 45mg tablets
+9158311000001105	Mirtazapine 45mg tablets
+9449811000001105	Mirtazapine 45mg tablets
+9449911000001100	Mirtazapine 45mg tablets
+10301811000001107	Mirtazapine 45mg tablets
+10301911000001102	Mirtazapine 45mg tablets
+10395611000001108	Mirtazapine 45mg tablets
+10395711000001104	Mirtazapine 45mg tablets
+11501311000001105	Mirtazapine 45mg tablets
+11501411000001103	Mirtazapine 45mg tablets
+13593611000001105	Mirtazapine 45mg tablets
+13593711000001101	Mirtazapine 45mg tablets
+15210411000001102	Mirtazapine 45mg tablets
+15211111000001101	Mirtazapine 45mg tablets
+15210911000001105	Mirtazapine 45mg tablets
+16700311000001103	Mirtazapine 45mg tablets
+16700411000001105	Mirtazapine 45mg tablets
+17943711000001107	Mirtazapine 45mg tablets
+17943911000001109	Mirtazapine 45mg tablets
+17943811000001104	Mirtazapine 45mg tablets
+17967411000001104	Mirtazapine 45mg tablets
+17967511000001100	Mirtazapine 45mg tablets
+19194611000001102	Mirtazapine 45mg tablets
+19194711000001106	Mirtazapine 45mg tablets
+19732811000001105	Mirtazapine 45mg tablets
+19732911000001100	Mirtazapine 45mg tablets
+21805411000001103	Mirtazapine 45mg tablets
+21805511000001104	Mirtazapine 45mg tablets
+23422011000001105	Mirtazapine 45mg tablets
+23422111000001106	Mirtazapine 45mg tablets
+24400811000001109	Mirtazapine 45mg tablets
+24401011000001107	Mirtazapine 45mg tablets
+32803811000001100	Mirtazapine 45mg tablets
+32804211000001103	Mirtazapine 45mg tablets
+35449911000001109	Mirtazapine 45mg tablets
+35450011000001100	Mirtazapine 45mg tablets
+36699111000001104	Mirtazapine 45mg tablets
+36699411000001109	Mirtazapine 45mg tablets
+36921511000001100	Mirtazapine 45mg tablets
+36921611000001101	Mirtazapine 45mg tablets
+37122111000001102	Mirtazapine 45mg tablets
+37122211000001108	Mirtazapine 45mg tablets
+39048511000001106	Mirtazapine 45mg tablets
+39048611000001105	Mirtazapine 45mg tablets
+8797211000001103	Mirtazapine 2mg capsules
+8761811000001106	Mirtazapine 2mg capsules
+8761911000001101	Mirtazapine 2mg capsules
+8762111000001109	Mirtazapine 2mg capsules
+8797411000001104	Mirtazapine 4mg capsules
+8762311000001106	Mirtazapine 4mg capsules
+8762411000001104	Mirtazapine 4mg capsules
+8763211000001109	Mirtazapine 4mg capsules
+9103511000001102	Mirtazapine 15mg/ml oral solution sugar free
+9102811000001107	Mirtazapine 15mg/ml oral solution sugar free
+9102911000001102	Mirtazapine 15mg/ml oral solution sugar free
+9103011000001105	Mirtazapine 15mg/ml oral solution sugar free
+9103111000001106	Mirtazapine 15mg/ml oral solution sugar free
+9103211000001100	Mirtazapine 15mg/ml oral solution sugar free
+9227211000001100	Mirtazapine 15mg/ml oral solution sugar free
+9227311000001108	Mirtazapine 15mg/ml oral solution sugar free
+24394711000001104	Mirtazapine 15mg/ml oral solution sugar free
+24394811000001107	Mirtazapine 15mg/ml oral solution sugar free
+29924111000001103	Mirtazapine 15mg/ml oral solution sugar free
+29924211000001109	Mirtazapine 15mg/ml oral solution sugar free
+39047511000001107	Mirtazapine 15mg/ml oral solution sugar free
+39047611000001106	Mirtazapine 15mg/ml oral solution sugar free
+12999711000001103	Mirtazapine 30mg/5ml oral liquid
+12979511000001104	Mirtazapine 30mg/5ml oral liquid
+12979611000001100	Mirtazapine 30mg/5ml oral liquid
+12979711000001109	Mirtazapine 30mg/5ml oral liquid
+13010911000001105	Mirtazapine 30mg/5ml oral liquid
+12979811000001101	Mirtazapine 30mg/5ml oral liquid
+12979911000001106	Mirtazapine 30mg/5ml oral liquid
+12980011000001107	Mirtazapine 30mg/5ml oral liquid
+12999911000001101	Mirtazapine 750micrograms/5ml oral liquid
+12980111000001108	Mirtazapine 750micrograms/5ml oral liquid
+12980211000001102	Mirtazapine 750micrograms/5ml oral liquid
+12980311000001105	Mirtazapine 750micrograms/5ml oral liquid
+12999811000001106	Mirtazapine 750micrograms/5ml oral liquid
+12980411000001103	Mirtazapine 750micrograms/5ml oral liquid
+12980511000001104	Mirtazapine 750micrograms/5ml oral liquid
+12980611000001100	Mirtazapine 750micrograms/5ml oral liquid
+13000011000001108	Mirtazapine 75mg/5ml oral suspension
+12980711000001109	Mirtazapine 75mg/5ml oral suspension
+12980811000001101	Mirtazapine 75mg/5ml oral suspension
+12980911000001106	Mirtazapine 75mg/5ml oral suspension
+20345211000001102	Mirtazapine 15mg orodispersible tablets sugar free
+20311011000001103	Mirtazapine 15mg orodispersible tablets sugar free
+20311111000001102	Mirtazapine 15mg orodispersible tablets sugar free
+20311211000001108	Mirtazapine 15mg orodispersible tablets sugar free
+20345311000001105	Mirtazapine 45mg orodispersible tablets sugar free
+20311411000001107	Mirtazapine 45mg orodispersible tablets sugar free
+20311511000001106	Mirtazapine 45mg orodispersible tablets sugar free
+20311811000001109	Mirtazapine 45mg orodispersible tablets sugar free
+32749911000001104	Mirtazapine 15mg/5ml oral solution
+32725111000001102	Mirtazapine 15mg/5ml oral solution
+32725211000001108	Mirtazapine 15mg/5ml oral solution
+32725311000001100	Mirtazapine 15mg/5ml oral solution

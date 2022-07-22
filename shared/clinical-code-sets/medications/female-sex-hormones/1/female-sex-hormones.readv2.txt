@@ -1,0 +1,161 @@
+ff11.	ETHINYLESTRADIOL 10micrograms tablets
+ff12.	ETHINYLESTRADIOL 50micrograms tablets
+ff13.	ETHINYLESTRADIOL 1mg tablets
+ff26.	HORMONIN tablets
+ff27.	PROGYNOVA 1mg tablets
+ff28.	PROGYNOVA 2mg tablets
+ff29.	ESTRADERM TTS 25mcg patches
+ff2a.	ESTRADERM TTS 50micrograms patches
+ff2A.	*FEMATRIX 80 patches
+ff2b.	ESTRADERM TTS 100microgram patches
+ff2B.	ESTRADIOL 80micrograms patches
+ff2c.	ESTRAPAK 50micrograms/1mg patches and tablets
+ff2C.	*OESTROGEL 1.25g/dose gel
+ff2E.	MENOREST 37.5micrograms patches
+ff2f.	CLIMAVAL 1mg tablets
+ff2F.	*MENOREST 50micrograms patches
+ff2g.	CLIMAVAL 2mg tablets
+ff2G.	*MENOREST 75micrograms patches
+ff2h.	ZUMENON 2mg tablets
+ff2i.	ELLESTE-SOLO MX 40 patches
+ff2I.	ESTRADIOL 40micrograms patches
+ff2j.	EVOREL-50 patches
+ff2J.	*FEMATRIX 40 patches
+ff2K.	FEMSEVEN 50 patches
+ff2l.	EVOREL-25 patches
+ff2L.	ELLESTE-SOLO 2mg tablets
+ff2m.	ESTRADIOL VALERATE 2mg tablets
+ff2M.	ESTRADIOL VALERATE 1mg tablets
+ff2n.	EVOREL-75 patches
+ff2N.	ELLESTE-SOLO 1mg tablets
+ff2o.	EVOREL-100 patches
+ff2O.	PROGYNOVA TS 50micrograms patches
+ff2p.	ESTRADIOL 75micrograms patches
+ff2P.	PROGYNOVA TS FORTE 100microgram patches
+ff2q.	ESTRADIOL 25micrograms patches
+ff2Q.	ESTRADERM MX 25 patches
+ff2r.	ESTRADIOL 50micrograms patches
+ff2R.	ESTRADERM MX 50 patches
+ff2s.	ESTRADIOL 100micrograms patches
+ff2S.	ESTRADERM MX 100 patches
+ff2t.	*ESTRADIOL 25mg implant
+ff2T.	ZUMENON 1mg tablets
+ff2u.	*ESTRADIOL 50mg implant
+ff2v.	*ESTRADIOL 100mg implant
+ff2X.	ESTRADIOL 0.5mg/dose gel
+ff2y.	ESTRADIOL 1mg tablets
+ff2Y.	ESTRADIOL 1mg/dose gel
+ff2z.	ESTRADIOL 2mg tablets
+ff2Z.	SANDRENA 0.5mg gel
+ff32.	*OVESTIN 1mg tablets
+ff33.	*ESTRIOL 1mg tablets
+ff41.	PREMARIN 625micrograms tablets
+ff42.	PREMARIN 1.25mg tablets
+ff43.	*PREMARIN 2.5mg tablets
+ff44.	PREMARIN 300micrograms tablets
+ff4w.	CONJUGATED OESTROGENS 300micrograms tablets
+ff4x.	CONJ OESTROGENS 625microgram tablets
+ff4y.	CONJ OESTROGENS 1.25mg tablets
+ff4z.	CONJUGATED OESTROGENS 2.5mg tablets
+ff51.	*HARMOGEN 1.5mg tablets
+ff91.	SANDRENA 1mg gel
+ff92.	ELLESTE-SOLO MX 80 patches
+ff93.	FEMSEVEN 75 patches
+ff94.	FEMSEVEN 100 patches
+ff95.	ESTRADIOL 0.06% gel
+ff97.	ESTRADERM MX 75 patches
+ff98.	*ADGYN ESTRO 2mg tablets
+ff9A.	DERMESTRIL-SEPTEM 50micrograms patches
+ff9B.	DERMESTRIL-SEPTEM 75micrograms patches
+ff9C.	AERODIOL 150micrograms nasal spray
+ff9E.	*FEMTAB 1mg tablets
+ff9F.	*FEMTAB 2mg tablets
+ff9G.	ESTRADOT 25micrograms patches
+ff9H.	ESTRADOT 37.5micrograms patches
+ff9I.	ESTRADOT 50micrograms patches
+ff9J.	ESTRADOT 75micrograms patches
+ff9K.	ESTRADOT 100micrograms patches
+ff9L.	BEDOL 2mg tablets
+ff9z.	ESTRADIOL HEMIHYDRATE 150micrograms nasal spray
+fg31.	PROLUTON DEPOT 250mg/1mL injection
+fg3y.	HYDROXYPROGESTERONE CAPROATE 250mg/1mL injection
+fg44.	PROVERA 5mg tablets
+fg45.	PROVERA 10mg tablets
+fg46.	MEDROXYPROGESTERONE 10mg tablets
+fg47.	PROVERA 2.5mg tablets
+fg48.	MEDROXYPROGESTERONE 2.5mg tablets
+fg4A.	*ADGYN MEDRO 5mg tablets
+fg4z.	MEDROXYPROGESTERONE 5mg tablets
+fg51.	NORETHISTERONE 5mg tablets
+fg52.	PRIMOLUT N 5mg tablets
+fg53.	UTOVLAN 5mg tablets
+fg56.	*MICRONOR.HRT 1mg tablets
+fg57.	*NORETHISTERONE 1mg tablets
+fg61.	CYCLOGEST 200mg suppositories
+fg62.	CYCLOGEST 400mg suppositories
+fg64.	*GESTONE 25mg/1mL injection
+fg65.	GESTONE 50mg/1mL injection
+fg66.	GESTONE 100mg/2mL injection
+fg67.	PROGESTERONE 100mg/2mL injection
+fg68.	*PROGESTERONE 4% vaginal gel
+fg69.	PROGESTERONE 8% vaginal gel
+fg6A.	*CRINONE 4% vaginal gel
+fg6B.	CRINONE 8% vaginal gel
+fg6C.	UTROGESTAN 100mg capsules
+fg6D.	*UTROGESTAN 200mg capsules
+fg6E.	UTROGESTAN 200mg vaginal capsules+applicators
+fg6F.	LUBION 25mg/1.119mL solution for injection
+fg6G.	LUTIGEST 100mg vaginal tablets+applicator
+fg6p.	PROGESTERONE 100mg vaginal tablets+applicator
+fg6q.	PROGESTERONE 25mg/1.119mL solution for injection
+fg6r.	PROGESTERONE MICRONISED 200mg vaginal capsules+applicators
+fg6s.	PROGESTERONE MICRONISED 200mg capsules
+fg6t.	PROGESTERONE MICRONISED 100mg capsules
+fg6u.	PROGESTERONE 200mg suppositories
+fg6v.	PROGESTERONE 400mg suppositories
+fg6x.	PROGESTERONE 25mg/1mL injection
+fg6y.	PROGESTERONE 50mg/1mL injection
+fh11.	*CYCLO-PROGYNOVA 1mg tablets
+fh12.	CYCLO-PROGYNOVA 2mg tablets
+fh17.	PREMPAK-C 0.625 tablets x1 month
+fh18.	PREMPAK-C 1.25 tablets x1 month
+fh19.	TRISEQUENS tablets
+fh1A.	*NUVELLE TS patches
+fh1B.	KLIOFEM tablets
+fh1c.	*TRISEQUENS FORTE tablets
+fh1C.	ESTRADIOL+NORETHISTERONE ACETATE 2mg/1mg tablets
+fh1d.	*NUVELLE tablets
+fh1D.	*FEMOSTON-2/20 tablets
+fh1E.	FEMOSTON-2/10 tablets
+fh1F.	TRIDESTRA tablets
+fh1G.	FEMOSTON-1/10 tablets
+fh1h.	CLIMAGEST 1mg tablets
+fh1H.	ELLESTE-DUET 2mg tablets
+fh1I.	NOVOFEM tablets
+fh1j.	CLIMAGEST 2mg tablets
+fh1k.	PREMIQUE 0.625mg/5mg tablets
+fh1K.	ESTRADIOL VALERATE+NORETHISTERONE 2mg/0.7mg tablets
+fh1L.	CLIMESSE tablets
+fh1m.	*FEMAPAK 80 patches+tablets
+fh1M.	ELLESTE-DUET 1mg tablets
+fh1n.	*FEMAPAK 40 patches+tablets
+fh1N.	EVOREL SEQUI patches
+fh1o.	*ADGYN COMBI 2mg tablets
+fh1O.	EVOREL CONTI patches
+fh1p.	FEMSEVEN CONTI patches
+fh1Q.	ELLESTE DUET CONTI tablets
+fh1R.	ESTRADIOL+NORETHISTERONE ACETATE 1mg/0.5mg tablets
+fh1s.	*FEMTAB SEQUI tablets
+fh1S.	KLIOVANCE 1mg/0.5mg tablets
+fh1t.	*FEMTAB CONTINUOUS tablets
+fh1T.	NUVELLE CONTINUOUS tablets
+fh1U.	FEMOSTON-CONTI tablets
+fh1v.	PREMIQUE LOW DOSE 0.3mg/1.5mg tablets
+fh1V.	INDIVINA 1mg/2.5mg tablets
+fh1W.	INDIVINA 1mg/5mg tablets
+fh1x.	DROSPIRENONE 2mg / ESTRADIOL 1mg tablets
+fh1X.	INDIVINA 2mg/5mg tablets
+fh1y.	ANGELIQ 2mg/1mg tablets
+fh1Y.	FEMSEVEN SEQUI patches
+fh1z.	CLINORETTE tablets
+fh1Z.	FEMOSTON-CONTI 0.5mg/2.5mg tablets

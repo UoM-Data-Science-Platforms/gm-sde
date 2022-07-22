@@ -1,0 +1,45 @@
+dnj..	Gabapentin
+dnj1.	Gabapentin 100mg capsule
+dnj2.	Gabapentin 300mg capsule
+dnj3.	Gabapentin 400mg capsule
+dnjA.	GABAPENTIN 50mg/mL oral solution
+dnjx.	Gabapentin 300mg capsule/600mg tablet titration pack
+dnjy.	Gabapentin 600mg tablet
+dnjz.	Gabapentin 800mg tablet
+dnj4.	Neurontin 100mg capsule
+dnj5.	Neurontin 300mg capsule
+dnj6.	Neurontin 400mg capsule
+dnj9.	Neurontin 300mg capsule/600mg tablet titration pack
+dnj7.	Neurontin 600mg tablet
+dnj8.	Neurontin 800mg tablet
+dnk..	Topiramate
+dnk1.	Topiramate 50mg tablet
+dnk2.	Topiramate 100mg tablet
+dnk3.	Topiramate 200mg tablet
+dnk7.	Topiramate 25mg tablet
+dnk9.	Topiramate 15mg beads in capsule
+dnkA.	Topiramate 25mg beads in capsule
+dnkD.	Topiramate 50mg beads in capsule
+dnk4.	Topamax 50mg tablet
+dnk5.	Topamax 100mg tablet
+dnk6.	Topamax 200mg tablet
+dnk8.	Topamax 25mg tablet
+dnkB.	Topamax Sprinkle 15mg capsule
+dnkC.	Topamax Sprinkle 25mg capsule
+dnkE.	Topamax Sprinkle 50mg capsule
+dnm..	Oxcarbazepine
+dnmw.	Oxcarbazepine 60mg/mL s/f oral suspension
+dnmx.	Oxcarbazepine 150mg tablet
+dnmy.	Oxcarbazepine 300mg tablet
+dnmz.	Oxcarbazepine 600mg tablet
+dnm4.	Trileptal 60mg/mL s/f oral suspension
+dnm1.	Trileptal 150 tablet
+dnm2.	Trileptal 300 tablet
+dnm3.	Trileptal 600 tablet
+x0572	Trileptal 150
+x0573	Trileptal 300
+x0574	Trileptal 600
+x05i7	Trileptal
+x052w	Topamax Sprinkle
+x03tH	Topamax
+x02ko	Neurontin

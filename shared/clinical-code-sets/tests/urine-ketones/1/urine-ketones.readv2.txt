@@ -1,0 +1,7 @@
+468..	Urine ketone test
+4682.	Urine ketone test negative
+4683.	Urine ketone test = trace
+4684.	Urine ketone test = +
+4685.	Urine ketone test = ++
+4686.	Urine ketone test = +++
+4687.	Urine ketone test = ++++

@@ -1,0 +1,8 @@
+^ESCT1427235	Firazyr 30mg/3ml solution for injection pre-filled syringes (Takeda UK Ltd)
+^ESCT1427236	Firazyr 30mg/3ml solution for injection pre-filled syringes (Takeda UK Ltd) 1 pre-filled disposable injection
+^ESCTFI977820	Firazyr 30mg/3ml solution for injection pre-filled syringes (Shire Pharmaceuticals Ltd)
+^ESCTFI977823	Firazyr 30mg/3ml solution for injection pre-filled syringes (Shire Pharmaceuticals Ltd) 1 pre-filled disposable injection
+^ESCTIC977819	Icatibant 30mg/3ml solution for injection pre-filled syringes 1 pre-filled disposable injection
+^ESCTIC977975	Icatibant 30mg/3ml solution for injection pre-filled syringes
+FISO39328NEMIS	Firazyr  Solution for injection  10 mg/ml, 3 ml pre-filled syringe
+ICSO39325NEMIS	Icatibant  Solution for injection  10 mg/ml, 3 ml pre-filled syringe

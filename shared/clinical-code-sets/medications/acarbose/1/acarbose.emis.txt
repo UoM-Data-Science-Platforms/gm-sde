@@ -1,0 +1,84 @@
+^ESCT1181860	Product containing only acarbose 50 mg/1 each oral tablet
+^ESCT1181861	Product containing only acarbose 100 mg/1 each oral tablet
+^ESCT1184949	Acarbose 50mg tablets (Mylan) 90 tablet
+^ESCT1186970	Acarbose 100mg tablets (Mylan)
+^ESCT1186971	Acarbose 100mg tablets (Mylan) 90 tablet
+^ESCT1190098	Acarbose 50mg tablets (Mylan)
+^ESCT1224787	Product containing precisely acarbose 50 milligram/1 each conventional release oral tablet
+^ESCT1224788	Product containing precisely acarbose 100 milligram/1 each conventional release oral tablet
+^ESCT1304642	Acarbose 50mg tablets (Rivopharm (UK) Ltd)
+^ESCT1304643	Acarbose 50mg tablets (Rivopharm (UK) Ltd) 90 tablet
+^ESCT1304644	Acarbose 100mg tablets (Rivopharm (UK) Ltd)
+^ESCT1304645	Acarbose 100mg tablets (Rivopharm (UK) Ltd) 90 tablet
+^ESCT1374256	Acarbose 100mg tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1374257	Acarbose 100mg tablets (Glenmark Pharmaceuticals Europe Ltd) 90 tablet
+^ESCT1374259	Acarbose 50mg tablets (Glenmark Pharmaceuticals Europe Ltd)
+^ESCT1374260	Acarbose 50mg tablets (Glenmark Pharmaceuticals Europe Ltd) 90 tablet
+^ESCT1374467	Acarbose 100mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374468	Acarbose 100mg tablets (Medihealth (Northern) Ltd) 90 tablet
+^ESCT1374470	Acarbose 50mg tablets (Medihealth (Northern) Ltd)
+^ESCT1374471	Acarbose 50mg tablets (Medihealth (Northern) Ltd) 90 tablet
+^ESCTAC1009444	Acarbose 50mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAC1009445	Acarbose 50mg tablets (A A H Pharmaceuticals Ltd) 90 tablet
+^ESCTAC1009446	Acarbose 100mg tablets (A A H Pharmaceuticals Ltd)
+^ESCTAC1009447	Acarbose 100mg tablets (A A H Pharmaceuticals Ltd) 90 tablet
+^ESCTAC1012368	Acarbose 100mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAC1012371	Acarbose 100mg tablets (Phoenix Healthcare Distribution Ltd) 90 tablet
+^ESCTAC1012372	Acarbose 50mg tablets (Phoenix Healthcare Distribution Ltd)
+^ESCTAC1012374	Acarbose 50mg tablets (Phoenix Healthcare Distribution Ltd) 90 tablet
+^ESCTAC1020538	Acarbose 50mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAC1020539	Acarbose 50mg tablets (Alliance Healthcare (Distribution) Ltd) 90 tablet
+^ESCTAC1020540	Acarbose 100mg tablets (Alliance Healthcare (Distribution) Ltd)
+^ESCTAC1020541	Acarbose 100mg tablets (Alliance Healthcare (Distribution) Ltd) 90 tablet
+^ESCTAC1022350	Acarbose 100mg tablets (DE Pharmaceuticals)
+^ESCTAC1022353	Acarbose 100mg tablets (DE Pharmaceuticals) 90 tablet
+^ESCTAC1022355	Acarbose 50mg tablets (DE Pharmaceuticals)
+^ESCTAC1022356	Acarbose 50mg tablets (DE Pharmaceuticals) 90 tablet
+^ESCTAC1034619	Acarbose 50mg tablets (Arrow Generics Ltd)
+^ESCTAC1034620	Acarbose 50mg tablets (Arrow Generics Ltd) 90 tablet 9 x 10 tablets
+^ESCTAC1034621	Acarbose 100mg tablets (Arrow Generics Ltd)
+^ESCTAC1034622	Acarbose 100mg tablets (Arrow Generics Ltd) 90 tablet 9 x 10 tablets
+^ESCTAC1035418	Acarbose 50mg tablets (Actavis UK Ltd)
+^ESCTAC1035419	Acarbose 50mg tablets (Actavis UK Ltd) 90 tablet 9 x 10 tablets
+^ESCTAC1035429	Acarbose 100mg tablets (Actavis UK Ltd)
+^ESCTAC1035430	Acarbose 100mg tablets (Actavis UK Ltd) 90 tablet 9 x 10 tablets
+^ESCTAC1041008	Acarbose 50mg tablets (Waymade Healthcare Plc)
+^ESCTAC1041009	Acarbose 50mg tablets (Waymade Healthcare Plc) 90 tablet
+^ESCTAC1041013	Acarbose 100mg tablets (Waymade Healthcare Plc)
+^ESCTAC1041014	Acarbose 100mg tablets (Waymade Healthcare Plc) 90 tablet
+^ESCTAC1063395	Acarbose 50mg tablets (Morningside Healthcare Ltd)
+^ESCTAC1063396	Acarbose 50mg tablets (Morningside Healthcare Ltd) 90 tablet
+^ESCTAC1063397	Acarbose 100mg tablets (Morningside Healthcare Ltd)
+^ESCTAC1063398	Acarbose 100mg tablets (Morningside Healthcare Ltd) 90 tablet
+^ESCTAC1116724	Acarbose 100mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAC1116725	Acarbose 100mg tablets (Sigma Pharmaceuticals Plc) 90 tablet
+^ESCTAC1116729	Acarbose 50mg tablets (Sigma Pharmaceuticals Plc)
+^ESCTAC1116730	Acarbose 50mg tablets (Sigma Pharmaceuticals Plc) 90 tablet
+^ESCTAC1118845	Acarbose 50mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAC1118846	Acarbose 50mg tablets (Mawdsley-Brooks & Company Ltd) 90 tablet
+^ESCTAC1118847	Acarbose 100mg tablets (Mawdsley-Brooks & Company Ltd)
+^ESCTAC1118848	Acarbose 100mg tablets (Mawdsley-Brooks & Company Ltd) 90 tablet
+^ESCTAC1152521	Acarbose 50mg tablets (Mylan Ltd)
+^ESCTAC1152522	Acarbose 50mg tablets (Mylan Ltd) 90 tablet
+^ESCTAC1152523	Acarbose 100mg tablets (Mylan Ltd)
+^ESCTAC1152524	Acarbose 100mg tablets (Mylan Ltd) 90 tablet
+^ESCTAC613052	Acarbose 50mg tablets
+^ESCTAC613054	Acarbose 50 mg oral tablet
+^ESCTAC613055	Acarbose 100mg tablets
+^ESCTAC613057	Acarbose 100 mg oral tablet
+^ESCTAC848610	Acarbose 50mg tablets 90 tablet
+^ESCTAC848680	Acarbose 100mg tablets 90 tablet
+^ESCTAC877905	Acarbose 50mg tablets 100 tablet
+^ESCTAC877911	Acarbose 100mg tablets 100 tablet
+^ESCTAC878534	Acarbose 100mg tablets 30 tablet
+^ESCTAC878736	Acarbose 50mg tablets 30 tablet
+^ESCTGL816465	Glucobay 100mg tablets (Bayer Plc)
+^ESCTGL824352	Glucobay 50mg tablets (Bayer Plc)
+^ESCTGL852633	Glucobay 50mg tablets (Bayer Plc) 90 tablet 6 x 15 tablets
+^ESCTGL852635	Glucobay 100mg tablets (Bayer Plc) 90 tablet 6 x 15 tablets
+^ESCTPR613053	Product containing acarbose 50 mg/1 each oral tablet
+^ESCTPR613056	Product containing acarbose 100 mg/1 each oral tablet
+ACTA23754EMIS	Acarbose  Tablets  100 mg
+ACTA23755EMIS	Acarbose  Tablets  50 mg
+GLTA23750EMIS	Glucobay  Tablets  100 mg
+GLTA23751EMIS	Glucobay  Tablets  50 mg
