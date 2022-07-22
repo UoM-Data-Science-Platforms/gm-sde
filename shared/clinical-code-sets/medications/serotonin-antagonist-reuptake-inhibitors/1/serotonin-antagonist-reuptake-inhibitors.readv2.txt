@@ -9,8 +9,8 @@ da85.00	NEFAZODONE HYDROCHLORIDE 50mg+100mg+200mg initiation tablets pack
 da82.00	NEFAZODONE HYDROCHLORIDE 200mg tablets
 da81.00	NEFAZODONE HYDROCHLORIDE 100mg tablets
 d7e6.00	MOLIPAXIN CR 150mg m/r tablets x28
-d7e4.00 MOLIPAXIN 150mg tablets x28CP
-d7e3.00 *MOLIPAXIN 50mg/5mL liquid
+d7e4.00	MOLIPAXIN 150mg tablets x28CP
+d7e3.00	*MOLIPAXIN 50mg/5mL liquid
 d7e2.00	MOLIPAXIN 100mg capsules x56CP
 d7e1.00	MOLIPAXIN 50mg capsules x84CP
 da86.00	DUTONIN 50mg+100mg+200mg treatment initiation tablets pack
