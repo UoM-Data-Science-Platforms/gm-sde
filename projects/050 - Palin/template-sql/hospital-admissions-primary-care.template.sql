@@ -42,33 +42,68 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
 --------------------------------------------------------------------------------------------------------
 
--- FIND ALL PRIMARY CARE CODES SUGGESTING A HOSPITAL ADMISSION
 
-IF OBJECT_ID('tempdb..#DiagnosesAndSymptoms') IS NOT NULL DROP TABLE #DiagnosesAndSymptoms;
-SELECT FK_Patient_Link_ID, EventDate, case when s.Concept is null then c.Concept else s.Concept end as Concept
-INTO #DiagnosesAndSymptoms
-FROM RLS.vw_GP_Events gp
-LEFT OUTER JOIN #VersionedSnomedSetsUnique s ON s.FK_Reference_SnomedCT_ID = gp.FK_Reference_SnomedCT_ID
-LEFT OUTER JOIN #VersionedCodeSetsUnique c ON c.FK_Reference_Coding_ID = gp.FK_Reference_Coding_ID
-WHERE gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
+
+-- Find all indications of a hospital encounter in the GP record 
+
+-- add ReadCodes
+SELECT 'A+E' AS EncounterType, PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
+INTO #CodingClassifier
+FROM SharedCare.Reference_Coding
+WHERE CodingType='ReadCodeV2'
 AND (
-	(gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSetsUnique WHERE (Concept NOT IN ('pregnancy')))) 
-	OR
-    (gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSetsUnique WHERE (Concept NOT IN ('pregnancy'))))
+	MainCode like '8H2%'
+	or MainCode like '8H[1-3]%'
+	or MainCode in ('9N19.','8HJA.','8HC..','8Hu..','8HC1.','ZL91.','9b00.','9b8D.','9b61.','8Hd1.','ZLD2100','8HE8.','8HJ..','8HJJ.','ZLE1.','ZL51.')
 );
 
-AND gp.EventDate BETWEEN @StartDate AND @EndDate;
+INSERT INTO #CodingClassifier
+SELECT 'Hospital', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
+FROM SharedCare.Reference_Coding
+WHERE CodingType='ReadCodeV2'
+AND (
+	MainCode like '7%'
+	or MainCode like '8H[1-3]%'
+	or MainCode like '9N%' 
+);
+
+-- Add the equivalent CTV3 codes
+INSERT INTO #CodingClassifier
+SELECT 'A+E', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
+WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='A+E' AND FK_Reference_SnomedCT_ID != -1)
+AND CodingType='CTV3';
+
+INSERT INTO #CodingClassifier
+SELECT 'Hospital', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
+WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Hospital' AND FK_Reference_SnomedCT_ID != -1)
+AND CodingType='CTV3';
+
+-- Add the equivalent EMIS codes
+INSERT INTO #CodingClassifier
+SELECT 'A+E', FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Local_Code
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='A+E' AND FK_Reference_SnomedCT_ID != -1) OR
+	FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE EncounterType='A+E' AND PK_Reference_Coding_ID != -1)
+);
+
+INSERT INTO #CodingClassifier
+SELECT 'Hospital', FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Local_Code
+WHERE (
+	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Hospital' AND FK_Reference_SnomedCT_ID != -1) OR
+	FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE EncounterType='Hospital' AND PK_Reference_Coding_ID != -1)
+);
+
+--FIND ALL EVENTS IN GP RECORD INDICATING A HOSPITAL ENCOUNTER
+
+IF OBJECT_ID('tempdb..#DiagnosesAndSymptoms') IS NOT NULL DROP TABLE #DiagnosesAndSymptoms;
+SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EntryDate
+INTO #HospitalEncounters
+FROM RLS.vw_GP_Events
+WHERE FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier)
+AND EventDate BETWEEN @StartDate and @EndDate;
 
 --bring together for final output
 SELECT 
 	PatientId = m.FK_Patient_Link_ID,
-	l.AdmissionDate,
-	l.DischargeDate,
-	a.AdmissionType,
-	c.CovidHealthcareUtilisation
-FROM #Cohort m 
-LEFT OUTER JOIN #LengthOfStay l ON m.FK_Patient_Link_ID = l.FK_Patient_Link_ID
-LEFT OUTER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND c.AdmissionDate = l.AdmissionDate AND c.AcuteProvider = l.AcuteProvider
-LEFT OUTER JOIN #AdmissionTypes a ON a.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND a.AdmissionDate = l.AdmissionDate AND a.AcuteProvider = l.AcuteProvider
-WHERE c.CovidHealthcareUtilisation = 'TRUE'
-	AND l.AdmissionDate <= @EndDate
+	AdmissionDate = EntryDate
+FROM #HospitalEncounters

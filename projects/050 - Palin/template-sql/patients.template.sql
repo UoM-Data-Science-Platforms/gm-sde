@@ -14,14 +14,6 @@
 --  - IMD decile (1-10)
 --  - LSOA
 --  - History of Comorbidities (one column per condition - info on conditions here. Other conditions included will be: preeclampsia, gestational diabetes, miscarriage, stillbirth, fetal growth restriction) (1,0)
---  - Pregnancy1: Estimated Pregnancy start month (YYYY-MM)
---  - Pregnancy1: Pregnancy Delivery month (YYYY-MM)
---  - Pregnancy1: Date of admission
---  - Pregnancy1: Length of stay
---  - Pregnancy1: Number of total medications prescribed in previous 12 months
---  - Pregnancy1: Number of unique medications prescribed in previous 12 months
---  - Number of pregnancies during study period
-
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -69,8 +61,8 @@ SELECT
 INTO #PregnancyPatientsGP
 FROM [RLS].[vw_GP_Events]
 WHERE (
-    FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'pregnancy' AND Version = 1) OR
-    FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'pregnancy' AND Version = 1)
+    FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept like '%pregnancy%' AND Version = 1) OR
+    FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept like '%pregnancy%' AND Version = 1)
 	)
 	AND EventDate BETWEEN @StartDate AND @EndDate
 	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
@@ -170,14 +162,14 @@ SELECT  PatientId = p.FK_Patient_Link_ID,
 		Sex,
 		EthnicMainGroup,
 	    LSOA_Code,
+		IMD2019Decile1IsMostDeprived10IsLeastDeprived,
 		BMI,
 		BMIDate = bmi.EventDate,
-		IMD2019Decile1IsMostDeprived10IsLeastDeprived,
 		CurrentSmokingStatus = smok.CurrentSmokingStatus,
 		WorstSmokingStatus = smok.WorstSmokingStatus,
 		DeathWithin28DaysCovid = CASE WHEN cd.FK_Patient_Link_ID  IS NOT NULL THEN 'Y' ELSE 'N' END,
-		DeathDueToCovid_Year = CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN YEAR(p.DeathDate) ELSE null END,
-		DeathDueToCovid_Month = CASE WHEN cd.FK_Patient_Link_ID IS NOT NULL THEN MONTH(p.DeathDate) ELSE null END
+		Death_Year = YEAR(p.DeathDate),
+		Death_Month = MONTH(p.DeathDate)
 FROM #Patients p
 LEFT OUTER JOIN #PatientLSOA lsoa ON lsoa.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
@@ -190,6 +182,6 @@ LEFT OUTER JOIN #GPExitDates gpex ON gpex.FK_Patient_Link_ID = p.FK_Patient_Link
 LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE 
 	YEAR(@StartDate) - YearOfBirth BETWEEN 14 AND 49 -- OVER 18s ONLY
-	AND Sex = 'F'
+	AND Sex = 'F' -- CHECK WHETHER NULLS OCCUR --------
 	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 --320,594
