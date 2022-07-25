@@ -1,0 +1,1219 @@
+62H6.	Rhesus screening - cord blood sample
+62O5.	Spontaneous rupture of membranes
+63...	Birth details
+631..	Born - place delivered
+6311.	Home birth
+6314.	Nursing home birth
+6315.	Ambulance birth
+6316.	BBA - Born before arrival
+6321.	Duration of first stage of labour
+6322.	2nd stage of labour length
+6323.	Duration of third stage of labour
+632Z.	Length of labour NOS
+633..	(Outcome of delivery (& [livebirth] or [triplet] or [twin])) or (stillbirth - prevention record)
+6331.	Single live birth
+6332.	Single stillbirth
+6333.	Twins - both live born
+6334.	Twins - one still and one live born
+6335.	Twins - both stillborn
+6336.	Triplets - all live born
+6337.	Triplets - two live and one stillborn
+6339.	Triplets - three stillborn
+633a.	Birth of child
+633Z.	Outcome of delivery NOS
+634..	Delivery - sex of baby
+6341.	Baby male
+6342.	Baby female
+6343.	2 male babies
+6344.	2 female babies
+6345.	1 male + 1 female baby
+6346.	3 male babies
+6347.	2 male + 1 female babies
+6348.	1 male + 2 female babies
+6349.	3 female babies
+634Z.	Sex of baby NOS
+635..	Full term baby
+6351.	Baby premature 36-38 weeks
+6352.	Baby premature 32-36 weeks
+6353.	Baby premature 28-32 weeks
+6354.	Baby full term maturity
+635Z.	Baby maturity NOS
+636..	Birth weight
+6361.	Baby BW = < 3% (under 2500g)
+6362.	Baby BW = 3% - 9% (2500-2849g)
+6363.	Baby BW = 10%-24% (2850-3149g)
+6364.	Baby BW = 25%-49% (3150-3449g)
+6365.	Baby BW = 50%-74% (3450-3749g)
+6366.	Baby BW = 75%-89% (3750-4049g)
+6367.	Baby BW = 90%-96% (4050-4399g)
+6368.	Baby BW = > 96% (over 4499g)
+6369.	Baby birth weight 4400-4499g
+636Z.	Birth weight of baby NOS
+637..	Birth head circumference
+6371.	Birth HC = < 3rd centile
+6372.	Birth HC = 3rd-9th centile
+6373.	Birth HC = 10th-24th centile
+6374.	Birth HC = 25th-49th centile
+6375.	Birth HC = 50th-74th centile
+6376.	Birth HC = 75th-89th centile
+6377.	Birth HC = 90th-96th centile
+6378.	Birth HC = > 97th centile
+637Z.	Birth head circumference NOS
+638..	Birth length
+6381.	Birth length = < 3rd centile
+6382.	Birth length=3rd-9th centile
+6383.	Birth length=10th-24th centile
+6384.	Birth length=25th-49th centile
+6385.	Birth length=50th-74th centile
+6386.	Birth length=75th-89th centile
+6387.	Birth length=90th-96th centile
+638Z.	Birth length = > 97th centile
+639..	Apgar at 1 minute
+6391.	Apgar at 1 minute = 0
+6392.	Apgar at 1 minute = 1
+6393.	Apgar at 1 minute = 2
+6394.	Apgar at 1 minute = 3
+6395.	Apgar at 1 minute = 4
+6396.	Apgar at 1 minute = 5
+6397.	Apgar at 1 minute = 6
+6398.	Apgar at 1 minute = 7
+6399.	Apgar at 1 minute = 8
+639A.	Apgar at 1 minute = 9
+639B.	Apgar at 1 minute = 10
+639Z.	Apgar at 1 minute NOS
+63A..	Apgar at 5 minutes
+63A1.	Apgar at 5 minutes = 0
+63A2.	Apgar at 5 minutes = 1
+63A3.	Apgar at 5 minutes = 2
+63A4.	Apgar at 5 minutes = 3
+63A5.	Apgar at 5 minutes = 4
+63A6.	Apgar at 5 minutes = 5
+63A7.	Apgar at 5 minutes = 6
+63A8.	Apgar at 5 minutes = 7
+63A9.	Apgar at 5 minutes = 8
+63AA.	Apgar at 5 minutes = 9
+63AB.	Apgar at 5 minutes = 10
+63AZ.	Apgar at 5 minutes NOS
+63B..	Apgar at 10 minutes
+63B1.	Apgar at 10 minutes = 0
+63B2.	Apgar at 10 minutes = 1
+63B3.	Apgar at 10 minutes = 2
+63B4.	Apgar at 10 minutes = 3
+63B5.	Apgar at 10 minutes = 4
+63B6.	Apgar at 10 minutes = 5
+63B7.	Apgar at 10 minutes = 6
+63B8.	Apgar at 10 minutes = 7
+63B9.	Apgar at 10 minutes = 8
+63BA.	Apgar at 10 minutes = 9
+63BB.	Apgar at 10 minutes = 10
+63BZ.	Apgar at 10 minutes NOS
+63D..	Placental details
+63D1.	Weight of placenta
+63D2.	Placenta normal O/E
+63D3.	Placental diameter
+63D6.	Placenta incomplete
+63DZ.	Placental details NOS
+63E..	Labour details
+63E1.	Spontaneous onset of labour
+63E2.	Normal birth
+63F..	Birth details not known
+63Z..	(Birth detail NOS) or (Apgar normal)
+64B..	Child examination - birth
+64B2.	Baby normal at birth
+64B3.	Birth examination abnormal - for observation
+64B4.	Birth examination abnormal - referred
+64B5.	Birth examination abnormal - on treatment
+64BZ.	Child exam. - birth NOS
+7D100	Schuchardt non-obstetric episiotomy
+7E070	Dilation of cervix uteri and curettage for termination of pregnancy
+7E071	Curettage of term pregnancy NEC
+7F...	Childbirth operations
+7F043	Application of fetal scalp electrode
+7F1..	Induction and delivery procedures
+7F10.	SIL - Surgical induction of labour
+7F100	Forewater rupture of amniotic membrane
+7F101	Hindwater rupture of amniotic membrane
+7F10y	Other specified surgical induction of labour
+7F10z	ARM
+7F11.	Other induction of labour
+7F110	Oxytocic induction of labour
+7F111	Prostaglandin induction of labour
+7F11y	Other specified other induction of labour
+7F11z	Other induction of labour NOS
+7F12.	Elective caesarean delivery
+7F120	Elective upper segment caesarean section
+7F121	Elective lower segment caesarean section
+7F12y	Other specified elective caesarean delivery
+7F12z	Elective caesarean delivery NOS
+7F13.	Other caesarean delivery
+7F130	Upper uterine segment caesarean delivery NEC
+7F131	Lower uterine segment caesarean delivery NEC
+7F132	Extraperitoneal caesarean section
+7F13y	Other specified other caesarean delivery
+7F13z	Other caesarean delivery NOS
+7F14.	Breech extraction
+7F140	Breech extraction delivery with version
+7F14y	Other specified breech extraction delivery
+7F14z	Breech extraction delivery NOS
+7F15.	Other breech delivery
+7F150	Spontaneous breech delivery
+7F151	Assisted breech delivery
+7F15y	Other specified other breech delivery
+7F15z	Other breech delivery NOS
+7F16.	Forceps cephalic delivery
+7F160	High forceps cephalic delivery with rotation
+7F161	High forceps cephalic delivery NEC
+7F162	Midforceps cephalic delivery with rotation
+7F163	Mid forceps cephalic delivery NEC
+7F164	Low forceps delivery
+7F165	Trial of forceps delivery
+7F166	Failed forceps delivery
+7F167	Barton forceps cephalic delivery with rotation
+7F169	Kielland forceps delivery with rotation
+7F16y	Other specified forceps cephalic delivery
+7F16z	Forceps cephalic delivery NOS
+7F17.	Vacuum delivery
+7F170	High vacuum delivery
+7F171	Low vacuum delivery
+7F172	Vacuum delivery before full dilation of cervix
+7F173	Trial of vacuum delivery
+7F17y	Other specified vacuum delivery
+7F17z	Vacuum delivery NOS
+7F18.	Cephalic vaginal delivery with abnormal presentation of head at delivery without instrument
+7F180	Manipulative cephalic vaginal delivery with abnormal presentation of head at delivery without instrument
+7F181	Non-manipulative cephalic vaginal delivery with abnormal presentation of head at delivery without instrument
+7F18y	Other specified cephalic vaginal delivery with abnormal presentation of head at delivery without instrument
+7F18z	Cephalic vaginal delivery with abnormal presentation of head at delivery without instrument NOS
+7F19.	ND - Normal delivery
+7F190	Manually assisted vaginal delivery
+7F191	Water birth delivery
+7F19y	Other specified normal delivery
+7F19z	Normal delivery NOS
+7F1A.	Other methods of delivery
+7F1A0	Caesarean hysterectomy
+7F1A2	Cleidotomy of fetus
+7F1A3	Cephalocentesis for hydrocephalus
+7F1A4	Trial of labour NEC
+7F1Ay	Other specified other method of delivery
+7F1Az	Other method of delivery NOS
+7F1B.	Other operations to facilitate delivery
+7F1B0	Episiotomy
+7F1B1	Symphysiotomy
+7F1B2	Pubiotomy
+7F1B3	Manual dilatation of cervix
+7F1B4	Incision of cervix
+7F1By	Other specified other operation to facilitate delivery
+7F1Bz	Other operation to facilitate delivery NOS
+7F1y.	Other specified induction or delivery operations
+7F1z.	Induction and delivery operations NOS
+7F2..	Other obstetric operations
+7F20.	Instrumental removal of products of conception from delivered uterus
+7F200	Curettage of delivered uterus
+7F20y	Other specified instrumental removal of products of conception from delivered uterus
+7F20z	Instrumental removal of products of conception from delivered uterus NOS
+7F21.	Manual removal of products of conception from delivered uterus
+7F210	Manual removal of placenta from delivered uterus
+7F21y	Other specified manual removal of products of conception from delivered uterus
+7F21z	Manual removal of products of conception from delivered uterus NOS
+7F22.	Other operations on delivered uterus
+7F220	Repositioning of inverted uterus
+7F221	Brandt-Andrews expression of placenta
+7F222	Instrumental exploration of delivered uterus NEC
+7F223	Manual exploration of delivered uterus NEC
+7F225	Normal delivery of placenta
+7F227	Pack to control postnatal haemorrhage
+7F22z	Other operation on delivered uterus NOS
+7F23.	Immediate repair of obstetric laceration
+7F230	Immediate repair of obstetric laceration of uterus or cervix uteri
+7F231	Immediate repair of obstetric laceration of perineum and sphincter of anus
+7F232	Immediate repair of obstetric laceration of vagina and floor of pelvis
+7F233	Immediate repair of minor obstetric laceration
+7F234	Episiorrhaphy
+7F235	Repair of ruptured uterus
+7F23y	Other specified immediate repair of obstetric laceration
+7F23z	Immediate repair of obstetric laceration NOS
+7F240	Secondary repair of obstetric laceration
+7F241	Obstetric uterine tamponade
+7F242	Repositioning of umbilical cord
+7F24y	Other specified other obstetric operation
+7F25.	Monitoring during labour
+7L160	Intravenous induction of labour
+7M350	Entonox analgesia in labour
+7N611	[SO]Delivered uterus
+8HE7.	Discharged from hospital within 6 hours of delivery
+8M5..	Patient requested epidural
+H4701	Mendelson's syndrome
+H472.	Aspiration pneumonitis due to anaesthesia during labour and delivery
+K55y.	Other noninflammatory cervical disorders
+Kyu99	[X]Other specified noninflammatory disorders of cervix uteri
+L0300	Delivery of viable fetus in abdominal pregnancy
+L090y	Sepsis NOS following abortion and ectopic and molar pregnancy
+L10..	Bleeding in early pregnancy
+L1001	Threatened abortion - delivered
+L1002	Threatened abortion - not delivered
+L10y.	Bleeding in early pregnancy
+L10y1	Other haemorrhage in early pregnancy - delivered
+L10yz	Other haemorrhage in early pregnancy NOS
+L10z1	Early pregnancy haemorrhage NOS - delivered
+L10z2	Early pregnancy haemorrhage NOS - not delivered
+L10zz	Early pregnancy haemorrhage NOS
+L11..	Antepartum bleeding
+L1101	Placenta praevia without haemorrhage - delivered
+L1111	Placenta praevia with haemorrhage - delivered
+L1121	Placental abruption - delivered
+L1131	Antepartum haemorrhage with coagulation defect - delivered
+L1141	Antepartum haemorrhage with trauma - delivered
+L1151	Antepartum haemorrhage with uterine leiomyoma - delivered
+L11y.	Other antepartum haemorrhage
+L11y1	Other antepartum haemorrhage - delivered
+L11y2	Other antepartum haemorrhage - not delivered
+L11yz	Other antepartum haemorrhage NOS
+L11z0	Antepartum haemorrhage NOS, unspecified
+L11z1	Antepartum haemorrhage NOS - delivered
+L11z2	Antepartum haemorrhage NOS - not deliv
+L1201	Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered
+L120z	Benign essential hypertension complicating pregnancy, childbirth and the puerperium NOS
+L1211	Renal hypertension complicating pregnancy, childbirth and the puerperium - delivered
+L122.	Other pre-existing hypertension in preg/childbirth/puerp
+L1221	Other pre-existing hypertension complicating pregnancy, childbirth and the puerperium - delivered
+L1222	Other pre-existing hypertension complicating pregnancy, childbirth and the puerperium - delivered with postnatal complication
+L1231	Transient hypertension of pregnancy - delivered
+L1241	Mild or unspecified pre-eclampsia - delivered
+L1251	Severe pre-eclampsia - delivered
+L1261	Eclampsia - delivered
+L1271	Pre-eclampsia or eclampsia with pre-existing hypertension - delivered
+L12z0	Unspecified hypertension complicating pregnancy, childbirth and the puerperium unspecified
+L12z1	Unspecified hypertension complicating pregnancy, childbirth and the puerperium - delivered
+L12z3	Unspecified hypertension complicating pregnancy, childbirth and the puerperium - not delivered
+L1301	Mild hyperemesis-delivered
+L1321	Late pregnancy vomiting - delivered
+L1322	Late pregnancy vomiting - not delivered
+L13y0	Other pregnancy vomiting unspecified
+L13z.	Unspecified pregnancy vomiting
+L13z1	Unspecified pregnancy vomiting - delivered
+L13z2	Unspecified pregnancy vomiting - not delivered
+L14..	Premature labour
+L142.	Early onset of delivery
+L1420	Early onset of delivery unspecified
+L1421	Early onset of delivery - delivered
+L142z	Early onset of delivery NOS
+L1501	Post-term pregnancy - delivered
+L16..	Other pregnancy complication NEC
+L1601	Papyraceous fetus - delivered
+L162.	Nephropathy NOS in pregnancy without hypertension
+L1621	Unspecified renal disease in pregnancy - delivered
+L1622	Unspecified renal disease in pregnancy - delivered with postnatal complication
+L1661	Genitourinary tract infection in pregnancy - delivered
+L1671	Liver disorder in pregnancy - delivered
+L1681	Fatigue during pregnancy - delivered
+L1691	Herpes gestationis - delivered
+L16A1	Glycosuria during pregnancy - delivered
+L16y1	Other pregnancy complication - delivered
+L16y2	Other pregnancy complication - delivered with postnatal complication
+L1701	Maternal syphilis during pregnancy - baby delivered
+L1702	Maternal syphilis in the puerperium - baby delivered during current episode of care
+L1711	Maternal gonorrhoea during pregnancy - baby delivered
+L172.	Other maternal venereal diseases during pregnancy, childbirth and the puerperium
+L1721	Other maternal venereal disease in pregnancy - baby delivered
+L1722	Other maternal venereal disease in the puerperium - baby delivered during current episode of care
+L1751	Maternal rubella during pregnancy - baby delivered
+L176.	Other maternal viral disease during pregnancy, childbirth and the puerperium
+L1760	Other maternal viral disease, unspecified whether during pregnancy or the puerperium
+L1761	Other maternal viral disease during pregnancy - baby delivered
+L1762	Other maternal viral disease in the puerperium - baby delivered during current episode of care
+L1801	Diabetes mellitus during pregnancy - baby delivered
+L1811	Thyroid dysfunction during pregnancy - baby delivered
+L1821	Anaemia during pregnancy - baby delivered
+L1831	Drug dependence during pregnancy - baby delivered
+L1851	Congenital cardiovascular disorder during pregnancy - baby delivered
+L1881	Abnormal glucose tolerance test during pregnancy - baby delivered
+L18z.	Medical condition NOS during pregnancy, childbirth and the puerperium
+L18z1	Medical condition NOS during pregnancy - baby delivered
+L18z2	Medical condition NOS, in the puerperium - baby delivered during current episode of care
+L20..	Delivery: [normal in a completely normal case] or [spontaneous vaginal]
+L200.	Normal delivery but antenatal or postnatal conditions present
+L20z.	Normal delivery in completely normal case NOS
+L2101	Twin pregnancy - delivered
+L2111	Triplet pregnancy - delivered
+L2130	Multiple delivery, all spontaneous
+L2131	Multiple delivery, all by forceps and vacuum extractor
+L2132	Multiple delivery, all by caesarean section
+L21z1	Multiple pregnancy NOS - delivered
+L22..	Malposition and malpresentation of fetus
+L2201	Unstable lie - delivered
+L2210	Cephalic version NOS, unspecified
+L2211	Cephalic version NOS - delivered
+L222.	Assisted breech delivery
+L2221	Breech presentation - delivered
+L2241	Transverse lie - delivered
+L224z	(Transverse lie NOS) or (shoulder presentation)
+L225.	Face presentation
+L2250	Face presentation unspecified
+L2251	Face presentation - delivered
+L225z	Face presentation NOS
+L226.	Brow presentation
+L2260	Brow presentation unspecified
+L2261	Brow presentation - delivered
+L2262	Brow presentation with antenatal problem
+L226z	Brow presentation NOS
+L229.	Hand presentation
+L2290	Prolapsed arm unspecified
+L2292	Prolapsed arm with antenatal problem
+L229z	Prolapsed arm NOS
+L22y.	Compound presentation
+L22y0	Other fetal malposition and malpresentation unspecified
+L22y2	Other fetal malposition and malpresentation with antenatal problem
+L22z1	Fetal malposition and malpresentation NOS - delivered
+L22z2	Fetal malposition and malpresentation NOS with antenatal problem
+L2301	Disproportion - major pelvic abnormality - delivered
+L2311	Generally contracted pelvis - delivered
+L2341	Mixed feto-pelvic disproportion - delivered
+L234z	Mixed feto-pelvic disproportion NOS
+L2351	Large fetus causing disproportion - delivered
+L2361	Hydrocephalic disproportion - delivered
+L237.	Other fetal abnormality causing disproportion
+L2371	Other fetal abnormality causing disproportion - delivered
+L2372	Other fetal abnormality causing disproportion with antenatal problem
+L23y1	Other disproportion - delivered
+L23y2	Other disproportion with antenatal problem
+L23z1	Disproportion NOS - delivered
+L23z2	Disproportion NOS with antenatal problem
+L2401	Bicornuate uterus - baby delivered
+L2411	Tumour of uterine body - baby delivered
+L2421	Uterine scar from previous surgery in pregnancy, childbirth and the puerperium - delivered
+L244.	Other uterine or pelvic floor abnormality in pregnancy, childbirth and the puerperium
+L2440	Other uterine or pelvic floor abnormality affecting obstetric care
+L2441	Cystocele - baby delivered
+L2442	Other uterine or pelvic floor abnormality - delivered with postpartum complication
+L2443	Other uterine or pelvic floor abnormality - baby not yet delivered
+L2444	Other uterine or pelvic floor abnormality complicating postpartum care - baby delivered during previous episode of care
+L244z	Other uterine or pelvic floor abnormality (& [cystocele] or [rectocele]) in pregnancy, childbirth or the puerperium NOS
+L246.	Other cervical abnormality in pregnancy, childbirth and the puerperium
+L2461	Other cervical abnormality - baby delivered
+L2462	Other cervical abnormality - baby delivered with postpartum complication
+L2463	Other cervical abnormality complicating antenatal care - baby not yet delivered
+L2464	Other cervical abnormality complicating postpartum care - baby delivered during previous episode of care
+L246z	Other cervical abnormality in pregnancy, childbirth or the puerperium NOS
+L2471	Septate vagina - baby delivered
+L2481	Persistent hymen - baby delivered
+L2482	Congenital or acquired abnormality of vulva - baby delivered with postpartum complication
+L2484	Congenital or acquired abnormality of vulva complicating postpartum care - baby delivered during previous episode of care
+L2501	Fetus with central nervous system malformation - delivered
+L2511	Fetus with chromosomal abnormality - delivered
+L2521	Fetus with hereditary disease - delivered
+L2551	Fetus with drug damage - delivered
+L2553	Maternal care for (suspected) damage to fetus from alcohol
+L25y.	Fetus with other damage NEC
+L25y1	Fetus with other damage NEC - delivered
+L25y2	Fetus with other damage NEC with antenatal problem
+L25z1	Fetus with damage NOS - delivered
+L25z2	Fetus with damage NOS with antenatal problem
+L2611	Rhesus isoimmunisation - delivered
+L262.	Other blood group isoimmunisation
+L2620	Other blood group isoimmunisation unspecified
+L2621	Other blood group isoimmunisation - delivered
+L2622	Other blood group isoimmunisation with antenatal problem
+L262z	Other blood group isoimmunisation NOS
+L263.	Meconium stained liquor
+L2631	Fetal distress - delivered
+L2633	(Labour and delivery complicated by fetal heart rate anomaly) or (maternal care for fetal hypoxia)
+L2634	Labour and delivery complic by meconium in amniotic fluid
+L2635	Labour and delivery complicated by fetal heart rate anomaly with meconium in amniotic fluid
+L2636	Labour and delivery complicated by biochemical evidence of fetal stress
+L2637	Maternal care for fetal hypoxia
+L2641	Intrauterine death - delivered
+L2651	SFD - Small-for-dates baby
+L2661	Hypertrophic baby
+L267.	Other placental conditions
+L2671	Other placental conditions - delivered
+L2672	Other placental conditions with antenatal problem
+L26y.	Other feto-placental problems
+L26z1	Feto-placental problems NOS - delivered
+L26z2	Feto-placental problems NOS with antenatal problem
+L2701	Polyhydramnios - delivered
+L28..	Other problems of amniotic cavity and membranes
+L2801	Oligohydramnios - delivered
+L2811	Premature rupture of membranes - delivered
+L2813	Prem rupture of membranes onset of labour within 24 hours
+L2815	Prem rupture of membranes onset of labour after 24 hours
+L282.	Prolonged spontaneous or unspecified rupture of membranes
+L2820	Prolonged spontaneous or unspecified rupture of membranes unspecified
+L2821	Prolonged spontaneous or unspecified rupture of membranes - delivered
+L2822	Prolonged spontaneous or unspecified rupture of membranes with antenatal problem
+L2823	Delayed delivery after spontaneous or unspecified rupture of membranes
+L282z	Prolonged spontaneous or unspecified rupture of membranes NOS
+L2832	Prolonged artificial rupture of membranes with antenatal problem
+L2841	Amniotic cavity infection - delivered
+L28y.	Other problems of amniotic cavity and membranes
+L28y1	Other problem of amniotic cavity and membranes - delivered
+L28y2	Other problem of amniotic cavity and membranes with antenatal problem
+L28yz	Other problem of amniotic cavity and membranes NOS
+L28z1	Amniotic cavity and membrane problem NOS - delivered
+L29..	Other problems affecting labour
+L290.	Failed mechanical induction
+L2900	Failed mechanical induction unspecified
+L290z	Failed mechanical induction NOS
+L291.	Failed medical induction of labour
+L2910	Failed medical or unspecified induction unspecified
+L2911	Failed medical or unspecified induction - delivered
+L2912	Failed medical or unspecified induction with antenatal problem
+L291z	Failed medical or unspecified induction NOS
+L292.	Maternal pyrexia during labour, unspecified
+L2920	Unspecified maternal pyrexia during labour, unspecified
+L2921	Unspecified maternal pyrexia during labour - delivered
+L2922	Unspecified maternal pyrexia during labour with antenatal problem
+L292z	Unspecified maternal pyrexia during labour NOS
+L293.	Septicaemia during labour
+L2930	Septicaemia during labour unspecified
+L2931	Septicaemia during labour - delivered
+L293z	Septicaemia during labour NOS
+L2941	Grand multiparity - delivered
+L29y1	Other problems affecting labour - delivered
+L29y2	Other problems affecting labour with antenatal problem
+L29yz	Other problems affecting labour NOS
+L29z.	Problems affecting labour NOS
+L29z0	Problems affecting labour NOS unspecified
+L29z1	Problems affecting labour NOS - delivered
+L3...	Complications occurring during labour and delivery
+L30..	Obstructed labour
+L300.	Obstructed labour due to fetal malposition
+L3000	Obstructed labour due to fetal malposition unspecified
+L3001	Obstructed labour due to fetal malposition - delivered
+L3003	Obstructed labour due to breech presentation
+L3004	Obstructed labour due to face presentation
+L3007	Obstructed labour due to compound presentation
+L300z	Obstructed labour due to fetal malposition NOS
+L301.	Obstructed labour caused by bony pelvis
+L3010	Obstructed labour caused by bony pelvis unspecified
+L3014	Obstructed labour due to generally contracted pelvis
+L3015	Obstructed labour due to pelvic inlet contraction
+L301z	Obstructed labour caused by bony pelvis NOS
+L302.	Obstructed labour caused by pelvic soft tissues
+L3020	Obstructed labour caused by pelvic soft tissues unspecified
+L302z	Obstructed labour caused by pelvic soft tissues NOS
+L303.	Deep transverse arrest
+L3030	Deep transverse arrest unspecified
+L3031	Deep transverse arrest - delivered
+L303z	Deep transverse arrest NOS
+L3041	Persistent occipitoposterior or occipitoanterior position - delivered
+L305.	Impacted shoulders
+L3050	Shoulder dystocia unspecified
+L3051	Shoulder dystocia - delivered
+L3052	Shoulder dystocia with antenatal problem
+L305z	Shoulder dystocia NOS
+L306.	Interlocked twins
+L3060	Locked twins unspecified
+L3061	Locked twins - delivered
+L306z	Locked twins NOS
+L307.	Failed trial of labour
+L3070	Other failed trial of labour unspecified
+L3071	Other failed trial of labour - delivered
+L3072	Other failed trial of labour with antenatal problem
+L307z	Failed trial of labour NOS
+L308.	Failed forceps unspecified
+L3080	Other failed forceps, unspecified
+L3081	Other failed forceps - delivered
+L3082	Other failed forceps with antenatal problem
+L308z	Failed forceps NOS
+L309.	Failed ventouse extraction unspecified
+L3090	Other failed ventouse extraction, unspecified
+L3091	Other failed ventouse extraction - delivered
+L3092	Other failed ventouse extraction with antenatal problem
+L309z	Failed ventouse extraction NOS
+L30y.	Other causes of obstructed labour
+L30y2	Other causes of obstructed labour with antenatal problem
+L30z.	Obstructed labour NOS
+L30z0	Obstructed labour NOS, unspecified
+L30z1	Obstructed labour NOS - delivered
+L30z2	Obstructed labour NOS with antenatal problem
+L30zz	Dystocia NOS
+L31..	Abnormality of forces of labour
+L310.	Primary dysfunctional labour
+L3100	Primary uterine inertia unspecified
+L310z	Primary uterine inertia NOS
+L311.	Secondary uterine inertia
+L3110	Secondary uterine inertia unspecified
+L3112	Secondary uterine inertia with antenatal problem
+L311z	Secondary uterine inertia NOS
+L312.	Atony of uterus
+L3120	Other uterine inertia unspecified
+L3121	Other uterine inertia - delivered
+L3122	Other uterine inertia with antenatal problem
+L312z	Other uterine inertia NOS
+L313.	Precipitate labour
+L3130	Precipitate labour unspecified
+L3131	Precipitate labour - delivered
+L313z	Precipitate labour NOS
+L314.	Bandl's retraction ring
+L3140	Hypertonic uterine inertia unspecified
+L314z	Hypertonic uterine inertia NOS
+L31z.	Abnormality of forces of labour NOS
+L31z0	Abnormality of forces of labour NOS unspecified
+L32..	Long labour
+L320.	Prolonged first stage of labour
+L3200	Prolonged first stage unspecified
+L3201	Prolonged first stage - delivered
+L320z	Prolonged first stage NOS
+L321.	Prolonged labour unspecified
+L3210	Unspecified prolonged labour, unspecified
+L3211	Unspecified prolonged labour - delivered
+L3212	Unspecified prolonged labour with antenatal problem
+L322.	Prolonged second stage of labour
+L3220	Prolonged second stage unspecified
+L3221	Prolonged second stage - delivered
+L322z	Prolonged second stage NOS
+L323.	Delayed delivery of second twin, triplet etc
+L3230	Delayed delivery second twin unspecified
+L3231	Delayed delivery second twin - delivered
+L3232	Delayed delivery second twin with antenatal problem
+L323z	Delayed delivery second twin etc NOS
+L32z.	Prolonged labour NOS
+L33..	Umbilical cord complications
+L330.	Presentation of cord
+L3300	Prolapse of cord unspecified
+L3301	Prolapse of cord - delivered
+L3302	Prolapse of cord with antenatal problem
+L330z	Prolapse of cord NOS
+L3310	Cord tight round neck unspecified
+L3311	Cord tight round neck - delivered
+L331z	Cord tight round neck NOS
+L332.	Cord tangled or knotted with compression
+L3320	Cord tangled with compression unspecified
+L3321	Cord tangled with compression - delivered
+L3322	Cord tangled with compression with antenatal problem
+L332z	Cord tangled or knotted with compression NOS
+L333.	Other cord entanglement
+L3330	Other cord entanglement unspecified
+L3331	Other cord entanglement - delivered
+L3332	Other cord entanglement with antenatal problem
+L333z	Other cord entanglement NOS
+L334.	Short umbilical cord
+L3340	Short cord unspecified
+L336.	Bruising of cord
+L33y1	Other umbilical cord complications - delivered
+L33y2	Other umbilical cord complications with antenatal problem
+L33yz	Other umbilical cord complications NOS
+L33z1	Umbilical cord complications NOS - delivered
+L33z2	Umbilical cord complications NOS with antenatal problem
+L34..	Perineal tear
+L340.	First degree perineal tear during delivery
+L3400	First degree perineal tear during delivery, unspecified
+L3401	First degree perineal tear during delivery - delivered
+L340z	First degree perineal tear during delivery NOS
+L341.	Pelvic floor tear
+L3410	Second degree perineal tear during delivery, unspecified
+L3411	Second degree perineal tear during delivery - delivered
+L341z	Second degree perineal tear during delivery NOS
+L342.	Anal sphincter tear
+L3420	Third degree perineal tear during delivery, unspecified
+L3421	Third degree perineal tear during delivery - delivered
+L342z	Third degree perineal tear during delivery NOS
+L343.	Complete perineal tear
+L3430	Fourth degree perineal tear during delivery, unspecified
+L3431	Fourth degree perineal tear during delivery - delivered
+L343z	Fourth degree perineal tear during delivery NOS
+L344.	Unspecified perineal laceration during delivery
+L3440	Unspecified perineal laceration during delivery, unspecified
+L3441	Unspecified perineal laceration during delivery - delivered
+L3442	Unspecified perineal laceration during delivery with postnatal problem
+L344z	Unspecified perineal laceration during delivery NOS
+L345.	Perineal haematoma
+L3450	Vulval and perineal haematoma during delivery, unspecified
+L3451	Vulval and perineal haematoma during delivery - delivered
+L345z	Vulval and perineal haematoma during delivery NOS
+L34y.	Other vulval and perineal trauma during delivery
+L34y0	Other vulval and perineal trauma during delivery, unspecified
+L34y1	Other vulval/perineal trauma during delivery- delivered
+L34y2	Other vulval and perineal trauma during delivery with postnatal problem
+L34yz	Other vulval/perineal trauma during delivery NOS
+L34z.	Vulval/perineal trauma during delivery NOS
+L34z0	Vulval/perineal trauma during delivery NOS unspec
+L34z1	Vulval/perineal trauma during delivery NOS - delivered
+L35..	Other obstetric trauma
+L350.	Ruptured uterus before labour
+L3500	Rupture of uterus before labour unspecified
+L3502	Rupture of uterus before labour with antenatal problem
+L350z	Rupture of uterus before labour NOS
+L351.	Rupture of uterus during and after labour
+L3510	Rupture of uterus during and after labour unspecified
+L3511	Rupture of uterus during and after labour - delivered
+L351z	Rupture of uterus during and after labour NOS
+L352.	Inversion of uterus
+L3520	Obstetric inversion of uterus unspecified
+L352z	Obstetric inversion of uterus NOS
+L353.	Cervical tear resulting from childbirth
+L3530	Obstetric laceration of cervix unspecified
+L353z	Obstetric laceration of cervix NOS
+L354.	High vaginal tear - obstetric
+L3540	Obstetric high vaginal laceration unspecified
+L3541	Obstetric high vaginal laceration - delivered
+L354z	Obstetric high vaginal laceration NOS
+L355.	Bladder injury - obstetric
+L3550	Other obstetric pelvic organ damage unspecified
+L3551	Other obstetric pelvic organ damage - delivered
+L3552	Other obstetric pelvic organ damage with postnatal problem
+L3561	Obstetric damage to pelvic joints and ligaments - delivered
+L357.	Obstetric trauma causing pelvic haematoma
+L3570	Obstetric pelvic haematoma unspecified
+L3571	Obstetric pelvic haematoma - delivered
+L357z	Obstetric trauma causing pelvic haematoma NOS
+L35y.	Other obstetric trauma OS
+L35y0	Other obstetric trauma unspecified
+L35y1	Other obstetric trauma - delivered
+L35y2	Other obstetric trauma - delivered with postnatal problem
+L35yz	Other obstetric trauma NOS
+L35z.	Obstetric trauma NOS
+L35z0	Obstetric trauma NOS, unspecified
+L35z1	Obstetric trauma NOS - delivered
+L35z2	Obstetric trauma NOS - delivered with postnatal problem
+L36..	Bleeding postpartum
+L360.	(Third-stage PPH) or (retained placenta NOS)
+L3600	Third-stage postpartum haemorrhage unspecified
+L360z	Third-stage postpartum haemorrhage NOS
+L361.	Other immediate postpartum haemorrhage
+L3610	Other immediate postpartum haemorrhage unspecified
+L3611	Other immediate postpartum haemorrhage - delivered with postnatal problem
+L361z	Other immediate postpartum haemorrhage NOS
+L362.	Delayed postpartum haemorrhage
+L3620	Secondary postpartum haemorrhage unspecified
+L3622	Secondary postpartum haemorrhage with postnatal problem
+L362z	Secondary and delayed postpartum haemorrhage NOS
+L363.	Afibrinogenaemia - postpartum
+L3630	Postpartum coagulation defects unspecified
+L363z	Postpartum coagulation defects NOS
+L36z.	Postpartum haemorrhage NOS
+L37..	Retained membrane without haemorrhage
+L370.	Placenta accreta without haemorrhage
+L3700	Retained placenta with no haemorrhage unspecified
+L370z	Retained placenta with no haemorrhage NOS
+L371.	Retained portion of placenta or membranes with no haemorrhage
+L3710	Retained products with no haemorrhage unspecified
+L371z	Retained products with no haemorrhage NOS
+L37z.	Retained placenta or membranes with no haemorrhage NOS
+L38..	Complications of anaesthesia during labour and delivery
+L380.	Mendelson's syndrome
+L3800	Obstetric anaesthesia with pulmonary complications unspecified
+L3820	Obstetric anaesthesia with central nervous system complications unspecified
+L382z	Obstetric anaesthesia with central nervous system complication NOS
+L383.	Obstetric toxic reaction to local anaesthesia
+L384.	Obstetric spinal and epidural anaesthesia-induced headache
+L386.	Toxic reaction to local anaethetic during labour and delivery
+L387.	Spinal and epidural anaesthesia-induced headache during labour and delivery
+L388.	Cardiac complications of anaesthesia during labour and delivery
+L389.	Central nervous system complications of anaesthesia during labour and delivery
+L38A.	Failed or difficult intubation during labour and delivery
+L38B.	Failed or difficult intubation during the puerperium
+L38y0	Other complications of obstetric anaesthesia unspecified
+L38y3	Other complications of obstetric anaesthesia with antenatal problem
+L38yz	Other complications of obstetric anaesthesia NOS
+L38z.	Obstetric anaesthetic complications NOS
+L38z3	Obstetric anaesthetic complications NOS with antenatal problem
+L39..	Other complications of labour and delivery NEC
+L3901	Maternal distress - delivered
+L391.	Obstetric shock
+L3910	Obstetric shock unspecified
+L391z	Obstetric shock NOS
+L393.	Postpartum acute renal failure
+L3930	Post-delivery acute renal failure unspecified
+L393z	Post-delivery acute renal failure NOS
+L3940	Other complications of obstetric procedures unspecified
+L3941	Other complications of obstetric procedures - delivered
+L3942	Other complications of obstetric procedures - delivered with postnatal problem
+L394z	Other complications of obstetric procedures NOS
+L395.	Forceps delivery
+L3950	Forceps delivery unspecified
+L3951	Forceps delivery - delivered
+L3952	Low forceps delivery
+L3953	Mid-cavity forceps delivery
+L3954	Delivery by combination of forceps and vacuum extractor
+L3955	Delivered by mid-cavity forceps with rotation
+L395z	Forceps delivery NOS
+L396.	Vacuum extractor delivery
+L3960	Vacuum extractor delivery unspecified
+L3961	Vacuum extractor delivery - delivered
+L396z	Vacuum extractor delivery NOS
+L397.	Breech extraction
+L3970	Breech extraction unspecified
+L3971	Breech extraction - delivered
+L397z	Breech extraction NOS
+L398.	Deliveries by caesarean
+L3980	Caesarean delivery unspecified
+L3981	Caesarean delivery - delivered
+L3982	Caesarean section - pregnancy at term
+L3983	Delivery by elective caesarean section
+L3984	Delivery by emergency caesarean section
+L3985	Delivery by caesarean hysterectomy
+L3986	Caesarean section following previous caesarean section
+L398z	Caesarean delivery NOS
+L399.	Deliveries by destructive operation
+L39y.	Other complications of labour and delivery
+L39y0	Other complications of labour and delivery unspecified
+L39y1	Other complications of labour and delivery - delivered
+L39y2	Other complications of labour and delivery - delivered with postnatal problem
+L39y4	Other complications of labour and delivery with postnatal problem
+L39yz	Other complications of labour and delivery NOS
+L39z1	Complications of labour and delivery NOS - delivered
+L39z2	Complications of labour and delivery NOS - delivered with postnatal problem
+L39z3	Complications of labour and delivery NOS with antenatal problem
+L39z4	Complications of labour and delivery NOS with postnatal problem
+L3A..	Intrapartum haemorrhage with coagulation defect
+L3y..	Other specified complications of labour or delivery
+L3z..	Complications of labour and delivery NOS
+L431.	Amniotic fluid pulmonary embolism
+L4310	Amniotic fluid pulmonary embolism unspecified
+L4311	Amniotic fluid pulmonary embolism - delivered
+L431z	Amniotic fluid pulmonary embolism NOS
+L443.	Other complication of obstetric surgical wound
+L444.	Placental polyp
+L4440	Placental polyp unspecified
+L50..	Maternal care for compound presentation
+L51..	Maternal care for other known or suspected fetal problems
+L514.	Maternal care for intrauterine growth retardation
+Ly1..	Spontaneous breech delivery
+Lyu2.	[X]Other maternal disorders predominantly related to pregnancy
+Lyu38	[X]Maternal care for other isoimmunisation
+Lyu4.	[X]Complications of labour and delivery
+Lyu40	[X]Other failed induction of labour
+Lyu41	[X]Other uterine inertia
+Lyu45	[X]Obstructed labour due to other abnormalities of fetus
+Lyu46	[X]Other specified obstructed labour
+Lyu48	[X]Labour and delivery complicated by other evidence of fetal distress
+Lyu49	[X]Labour and delivery complicated by other cord entanglement
+Lyu4A	[X]Labour and delivery complicated by other cord complications
+Lyu4C	[X]Other specified obstetric trauma
+Lyu4D	[X]Other immediate postpartum haemorrhage
+Lyu4E	[X]Other pulmonary complications of anaesthesia during labour and delivery
+Lyu4K	[X]Other specified complications of labour and delivery
+Lyu5.	[X]Delivery
+Lyu50	[X]Other single spontaneous delivery
+Lyu51	[X]Other and unspecified forceps delivery
+Lyu52	[X]Other single delivery by caesarean section
+Lyu54	[X]Other manipulation-assisted delivery
+Lyu55	[X]Other specified assisted single delivery
+Lyu56	[X]Other multiple delivery
+Lyu57	[X]Assisted single delivery, unspecified
+Lyu58	[X]Multiple delivery, unspecified
+Lyu61	[X]Other genitourinary tract infections following delivery
+Lyu72	[X]Other infectious and parasitic diseases complicating pregnancy, childbirth and the puerperium
+Lyu74	[X] Other specified diseases and conditions complicating pregnancy, childbirth and the puerperium
+Q0171	Fetus or neonate affected by breech presentation before labour
+Q0172	Fetus or neonate affected by external version before labour
+Q0173	Fetus or neonate affected by oblique lie before labour
+Q0174	Fetus or neonate affected by transverse lie before labour
+Q0175	Fetus or neonate affected by unstable lie before labour
+Q0176	Fetus or neonate affected by face presentation before labour
+Q0213	Fetus or neonate affected by placental damage caused by caesarean section
+Q0214	Fetus or neonate affected by placental damage caused by surgical induction
+Q024.	Fetus or neonate affected by prolapsed cord
+Q025.	Fetus or neonate affected by other cord compression
+Q0250	Fetus or neonate affected by cord round neck
+Q0252	Fetus or neonate affected by knot in cord
+Q03..	Fetus or neonate affected by other complication of labour or delivery
+Q030.	Fetus affected by breech delivery
+Q031.	Fetus &/or neonate affected by malposition or disproportion during labour &/or delivery
+Q0310	Fetus or neonate affected by maternal bony pelvis abnormality during labour and delivery
+Q0312	Fetus or neonate affected by persistent occipito-posterior malposition during labour and delivery
+Q0313	Fetus or neonate affected by shoulder presentation during labour and delivery
+Q0314	Fetus or neonate affected by transverse lie during labour and delivery
+Q0315	Fetus or neonate affected by face presentation during labour and delivery
+Q0316	Fetus or neonate affected by cephalopelvic disproportion during labour and delivery
+Q031z	Fetus or neonate affected by malposition or disproportion during labour or delivery NOS
+Q032.	Fetus or neonate affected by forceps delivery
+Q033.	Fetus or neonate affected by vacuum extraction delivery
+Q034.	Fetus or neonate affected by caesarean section
+Q035.	Fetus or neonate affected by maternal anaesthetic and analgesic agents during labour and delivery
+Q0351	Fetus or neonate affected by maternal analgesic agent during labour and delivery
+Q0352	Fetus or neonate affected by maternal general anaesthesia during labour and delivery
+Q0353	Fetus or neonate affected by maternal epidural anaesthesia during labour and delivery
+Q0355	Fetus or neonate affected by maternal pethidine during labour and delivery
+Q0356	Fetus or neonate affected by other maternal opiates during labour and delivery
+Q036.	Fetus or neonate affected by precipitate delivery
+Q037.	Fetus or neonate affected by abnormal uterine contractions
+Q0371	Fetus or neonate affected by hypertonic labour
+Q0372	Fetus or neonate affected by hypertonic uterine dysfunction
+Q0373	Fetus or neonate affected by uterine inertia &/or dysfunction
+Q037y	Fetus or neonate affected by other specified abnormal uterine contractions
+Q03y2	Fetus or neonate affected by induction of labour
+Q03y4	Fetus or neonate affected by long labour
+Q03y5	Fetus or neonate affected by instrumental delivery
+Q03yy	Fetus or neonate affected by other specified complication of labour or delivery
+Q03z.	Fetus or neonate affected by complications of labour or delivery NOS
+Q11..	(Short gestation and unspecified low birthweight problems) or (baby born premature)
+Q110.	Immature baby
+Q111.	Premature - weight 1000g-2499g or gestation of 28-37weeks
+Q112.	Extreme prematurity - less than 28 weeks
+Q11z.	Born premature NOS
+Q12..	(Disorders relating to long gestation and high birthweight) or (large baby born)
+Q121.	Other "large-for-dates" infant
+Q122.	Postmature infant - greater than 42 weeks gestation, unspecified
+Q12z.	Large or postmature infant NOS
+Q20y4	Liver rupture due to birth trauma
+Q21..	Intrauterine hypoxia
+Q210.	Fetal death due to prelabour anoxia
+Q211.	Fetal death due to labour anoxia
+Q212.	Fetal distress before labour - liveborn
+Q2120	Liveborn with prelabour abnormal heart beat
+Q2121	Liveborn with prelabour hypoxia
+Q2122	Liveborn with prelabour meconium in liquor
+Q212z	Liveborn with prelabour fetal distress NOS
+Q213.	Fetal distress in labour - liveborn
+Q2130	Liveborn with labour abnormal heart beat
+Q2131	Liveborn with labour hypoxia
+Q2132	Liveborn with labour meconium in liquor
+Q213z	Liveborn with labour fetal distress NOS
+Q214.	Fetal distress, unspecified when, liveborn
+Q2140	Liveborn with abnormal heart beat, unspecified
+Q2141	Liveborn with fetal hypoxia, unspecified
+Q2142	Liveborn with meconium liquor, unspecified
+Q214z	Liveborn with unspecified fetal distress NOS
+Q215.	Severe birth asphyxia - apgar score less than 4 at 1 minute
+Q216.	Blue asphyxia
+Q21z.	Anoxia in newborn NOS
+Q3171	Prematurity with interstitial pulmonary fibrosis
+Q4z..	Stillbirth NEC
+Qyu0A	[X]Fetus and newborn affected by other specified complications of labour and delivery
+Qyu11	[X]Other preterm infants
+SE231	Perianal haematoma
+Ua17R	Observation of birth weight
+X404h	Induction of labour
+X404j	Stripping of membrane
+X404u	ARM - Artificial rupture of membrane
+X404x	Delivery procedure
+X404z	Nonrotational forceps delivery
+X4052	FACH - Forceps to aftercoming head
+X405k	Post-delivery obstetric operation
+X405K	Operation to facilitate delivery
+X406F	Female genital and obstetric disorder
+X407K	Disorder of cervix
+X409a	Persistent hymen - baby delivered
+X409D	Pregnancy, childbirth and puerperal disorders
+X409p	Septate vagina - baby delivered
+X409T	Rigid perineum - baby delivered
+X40AB	Rectocele - baby delivered
+X40AC	Cystocele - baby delivered
+X40AK	Uterine fibroid - baby delivered
+X40AR	Bicornuate uterus - baby delivered
+X40AZ	Nephropathy NOS in pregnancy without hypertension
+X40Ba	Disorder of amniotic fluid and membranes
+X40Bd	ROM - Ruptured membranes
+X40BG	Disorder of pelvic size and disproportion
+X40C2	Eclampsia in labour
+X40Cd	Cord entanglement
+X40CD	Disorder of placenta and placental transfusion
+X40Ce	Knot in cord
+X40Cj	Bruising of cord
+X40CJ	Retained placenta NOS
+X40Cl	Childbirth
+X40Cm	Breech delivery
+X40Cr	Vaginal delivery following previous caesarean section
+X40CS	Pregnancy with isoimmunisation
+X40Ct	Disorder of labour and delivery
+X40Cx	Premature labour
+X40Cy	Hypotonic contractions
+X40CZ	Presentation of cord
+X40D0	Uterine or cervical spasm
+X40D1	Bandl's retraction ring
+X40D2	Contraction ring
+X40D3	Hourglass uterine contraction
+X40D4	Inadequate uterine activity
+X40D5	Incoordinate uterine action
+X40D6	Atony of uterus
+X40DA	Dysfunctional labour
+X40DB	Uterine dystocia NOS
+X40DC	Dystocia NOS
+X40DF	Failed medical induction of labour
+X40DH	Intrapartum haemorrhage
+X40DI	Obstetric trauma
+X40DM	Urethra injury - obstetric
+X40DN	Bladder injury - obstetric
+X40DO	Perineal haematoma
+X40DQ	Laceration of vulva
+X40DR	Perineal tear resulting from childbirth
+X40DS	Hymen tear
+X40DT	Laceration of vagina
+X40DV	Fibrinolysis - postpartum
+X40DW	Afibrinogenaemia - postpartum
+X40DX	Immediate postpartum haemorrhage
+X40E3	SB - Stillbirth
+X40E4	Fresh stillbirth
+X40E5	Macerated stillbirth
+X70EK	Stillbirth NEC
+X70Eq	Baby born premature
+X756Y	Delivered uterus
+X76Rh	Duration of second stage of labour
+X76T3	Mentum presentation
+X76Tg	Compound presentation
+X76TX	Shoulder presentation
+X76US	Meconium stained liquor
+X76VF	Complete placenta at delivery
+X76VI	Placenta gritty
+X76VQ	Membranes complete
+X76VR	Membranes incomplete
+X76WG	Vaginal tear during delivery
+X76WI	Labial tear
+Xa08o	Asphyxia neonatorum
+Xa09e	Postmature fetus
+Xa0A6	Birth hypoxia
+Xa0AA	Blue asphyxia
+Xa0Kb	Post-term infant
+Xa0kf	Antepartum bleeding
+Xa0lt	Pre-existing hypertension complicating pregnancy
+Xa0lv	Fetopelvic disproportion
+Xa1ce	Livebirth
+Xa1cf	Stillbirth [prevention record]
+Xa1cg	Twin birth
+Xa1ch	Triplet birth
+Xa1ci	Delivery - sex of baby
+Xa1nj	Fetal heart monitoring in labour
+Xa1qM	Delivery observations
+Xa1qO	Multiple birth
+Xa1xq	Premature delivery
+Xa2NW	Laceration of perineum
+Xa3g3	Disorders of cervix NOS
+Xa3gC	Obstetric disorders NOS
+Xa3xh	Other fetus removal
+Xa40D	Labour - medical induction NOS
+Xa40W	Fetus with maternal problem NOS
+Xa40X	Membrane rupture with delivery delay
+Xa41b	Fetal distress - in labour
+Xa41M	Maternal pregnancy problem
+Xa41Q	Maternal pregnancy problem NOS
+Xa41R	Maternal cord/placental problem NOS
+Xa41U	Born after induced labour
+Xa41V	Maternal labour/delivery problem NOS
+Xa41X	Post-term infant - 42 weeks +
+Xa4TA	Duration of labour
+Xa4TH	Normal labour
+Xa4TI	Labour problem
+Xa4TJ	Mother delivered
+Xa4UE	Cord tight around neck
+Xa4Uz	Observation of arrangement of fetus
+Xa8BP	Observation of sex of baby
+Xa8Pn	Classical caesarean section
+Xa8Po	Lower segment caesarean section
+Xa8Pq	FD - Forceps delivery
+Xa8Ps	Brandt-Andrews placental delivery
+Xa9CS	Cord round neck
+Xa9D9	Severe birth asphyxia
+Xa9DA	Mild to moderate birth asphyxia
+Xa9ge	Exploration of uterus NEC
+Xa9LY	Caesarean section
+XaAti	Amniotic problems NOS
+XaaWT	Time of delivery
+XaBKV	Syntocinon induction of labour
+XaBsU	Spontaneous vertex delivery
+XaC1F	[X]Fresh stillbirth
+XaC1G	[X]Macerated stillbirth
+XaC3f	Intrapartum cardiotochogram
+XaC3h	Exploration of uterine cavity
+XaCIo	Baby BW = below 751gm
+XaCIp	Baby BW = 751g-1kg
+XaCIq	Baby BW = 1.0-1.5kg
+XaCIr	Baby BW = 1.5-2.0kg
+XaCJh	Baby birth weight 2.0-2.5kg
+XaCJi	Baby birth weight above 2.5kg
+XaCJR	Baby premature 24-26 weeks
+XaCJV	Baby premature 39 weeks
+XaCJW	Baby premature 38 weeks
+XaCJX	Baby premature 37 weeks
+XaCJY	Baby premature 36 weeks
+XaCK4	Baby premature 26-28 weeks
+XaCM3	Ragged placenta
+XaCMV	Premature infant 28-37 weeks
+XaDzR	Maternal care for suspected central nervous system malformation in fetus
+XaDzS	Maternal care for central nervous system malformation in fetus
+XaDzT	Maternal care for suspected chromosomal abnormality in fetus
+XaDzV	Maternal care for chromosomal abnormality in fetus
+XaDzW	Maternal care for damage to fetus from maternal rubella
+XaDzX	Maternal care for suspected fetal abnormality and damage, unspecified
+XaDzY	Maternal care for fetal abnormality and damage, unspecified
+XaE6r	Maternal care for fetal bradycardia during pregnancy
+XaE71	Maternal care for fetal decelerations during pregnancy
+XaE72	Maternal care for fetal tachycardia during pregnancy
+XaE73	Maternal care for fetal acidosis during pregnancy
+XaEHn	Labial tear during delivery
+XaEHo	Fourchette tear during delivery
+XaEHq	Vulval tear during delivery
+XaI9l	Domino delivery
+XaIen	Born by caesarean section
+XaIss	Born by forceps delivery
+XaIst	Born by elective caesarean section
+XaIsu	Born by normal vaginal delivery
+XaJAQ	Born by breech delivery
+XaJAR	Born by ventouse delivery
+XaJAS	Born by emergency caesarean section
+XaJgk	Length of gestation at birth
+XaKXa	Four vessels in umbilical cord
+XaQ25	Preterm
+XC0eg	Pelvic haematoma
+XE0gZ	Cervix disorders
+XE0HR	Surgical induction of labour NOS
+XE0HU	Pack to control postnatal haemorrhage
+XE0kd	Conduct of delivery NOS
+XE0vn	Other haemorrhage in early pregnancy
+XE0vr	Gestational hypertension
+XE0vv	Unspecified renal disease in pregnancy
+XE0w3	Brow presentation NOS
+XE0w4	Other fetal abnormality causing disproportion
+XE0w7	Congenital abnormality of uterus - baby delivered
+XE0we	Vulval abnormality - baby delivered
+XE0wE	Tumour of uterine body - baby delivered
+XE0wf	Congenital or acquired abnormality of vulva - baby delivered with postpartum complication
+XE0wh	Congenital or acquired abnormality of vulva complicating postpartum care - baby delivered during previous episode of care
+XE0wJ	Other uterine or pelvic floor abnormality in pregnancy, childbirth and the puerperium
+XE0wK	Other uterine or pelvic floor abnormality affecting obstetric care
+XE0wL	Other uterine/pelvic floor abnormality - baby delivered
+XE0wM	Other uterine or pelvic floor abnormality - delivered with postpartum complication
+XE0wN	Other uterine or pelvic floor abnormality - baby not yet delivered
+XE0wO	Other uterine or pelvic floor abnormality complicating postpartum care - baby delivered during previous episode of care
+XE0wp	Labour and delivery complicated by fetal heart rate anomaly
+XE0wQ	Other cervical abnormality in pregnancy, childbirth and the puerperium
+XE0wr	Other placental conditions
+XE0wR	Other cervical abnormality - baby delivered with postpartum complication
+XE0ws	Other fetoplacental problems
+XE0wS	Other cervical abnormality complicating antenatal care - baby not yet delivered
+XE0wT	Other cervical abnormality complicating postpartum care - baby delivered during previous episode of care
+XE0wu	Prolonged spontaneous rupture of membranes
+XE0wU	Other cervical abnormality in pregnancy, childbirth or the puerperium NOS
+XE0ww	Failed induction of labour
+XE0wx	Other uterine inertia
+XE0wy	Hypertonic uterine inertia
+XE0wz	Cord tangled or knotted with compression
+XE0x2	Trauma to perineum and vulva during delivery
+XE0x3	First degree perineal tear
+XE0x4	Second degree perineal tear
+XE0x5	Third degree perineal tear
+XE0x6	Vulval and perineal haematoma during delivery
+XE0x7	Other obstetric pelvic organ damage
+XE0x9	Third stage haemorrhage
+XE0xA	Postpartum coagulation defects
+XE0xB	Retained placenta or membranes with no haemorrhage
+XE0xC	Retained placenta with no haemorrhage
+XE0xD	Retained placenta with no haemorrhage NOS
+XE0xE	Obstetric anaesthesia with pulmonary complications
+XE0xF	Deliveries by forceps - delivered
+XE0xG	Deliveries by vacuum extractor
+XE0xO	Other complication of obstetric surgical wound
+XE0xs	Post-abortion problem NOS
+XE0xu	Hypertension+pregnancy
+XE0xy	Hypertension of pregnancy NOS
+XE0y2	Vomiting of pregnancy NOS
+XE0y4	Premature labour
+XE0y6	Pregnancy complications NOS
+XE0yc	Brow presentation
+XE0yC	(Papyraceous fetus) or (pregnancy complications NOS)
+XE0yG	Gonorrhoea + pregnancy
+XE0yM	Pregnancy with other medical condition
+XE0yW	Pregnancy with medical condition NOS
+XE0yY	Delivery - normal
+XE0z2	(Labour problem factors) or (problems affecting labour NOS)
+XE0z8	Complications occurring during labour and delivery
+XE0za	Low forceps delivery
+XE0zA	Failed forceps &/or ventouse
+XE0zc	Vacuum delivery
+XE0zC	Abnormal forces of labour
+XE0ze	Elective caesar.
+XE0zE	(Delivery trauma to perineum) or (perineal tear)
+XE0zg	Caesarean section NOS
+XE0zG	Perineal delivery trauma NOS
+XE0zi	Method of delivery NOS
+XE0zI	Uterine inversion
+XE0zM	Membranes - retained
+XE0zQ	Labour/delivery problems NOS
+XE0zU	Caesarean section
+XE0zW	Normal delivery
+XE1ei	Intrauterine hypoxia and birth asphyxia
+XE1ej	Severe birth asphyxia - apgar score less than 4 at 1 minute
+XE1ek	Mild to moderate birth asphyxia - apgar score 4-7 at 1 minute
+XE1el	Liveborn with birth asphyxia NOS
+XE1eO	Fetus affected by breech delivery
+XE1eP	Fetus or neonate affected by malposition or disproportion during labour or delivery
+XE1eQ	Fetus or neonate affected by malposition or disproportion during labour or delivery NOS
+XE1eR	Fetus or neonate affected by abnormal uterine contractions
+XE1eS	Fetus or neonate affected by uterine inertia or dysfunction
+XE1eW	Short gestation and unspecified low birth weight problems
+XE1eX	Very premature - less than 1000g or less than 28 weeks
+XE1eY	Disorders relating to long gestation and high birth weight
+XE1fn	Birth hypoxia
+XE1gF	Stillbirth
+XE1SI	Outcome of delivery
+XE1SJ	Sex of baby
+XE1SK	Fetal gestation at delivery
+XE1SR	Child birth exam. - normal
+XE1UI	Apgar at 10 minutes = 0
+XE1UK	Apgar at 10 minutes = 1
+XE1UM	Apgar at 10 minutes = 2
+XE1UO	Apgar at 10 minutes = 4
+XE1UQ	Apgar at 10 minutes = 5
+XE1US	Apgar at 10 minutes = 6
+XE1UU	Placental details
+XE2QQ	Early onset of delivery
+XE2QS	Delivery normal
+XE2QT	Malposition and malpresentation of fetus
+XE2QU	Other fetal malposition and malpresentation
+XE2QV	Cord prolapse
+XE2QW	Other complications of labour and delivery with postnatal problem
+XE2u2	Childbirth operation
+XE2u7	Gas and air analgesia in labour
+XM00L	Retained placenta
+XM0oP	Mid-cavity forceps delivery
+XM0tg	Emergency caesarean section
+XM0tH	Venereal disease in pregnancy
+XM0tU	Prolonged rupture of membranes
+XM18Q	Medical induction of labour
+XM1HZ	Dilation of cervix uteri and curettage for termination of pregnancy
+XM1JK	Pack to control postpartum haemorrhage
+XM1Kh	Neville-Barnes forceps delivery
+XM1Ki	Simpson's forceps delivery
+XM1NA	Apgar normal
+XM1OA	Intrauterine hypoxia
+XM1OB	Labour fetal anoxia
+XM1P5	Fourchette tear
+XM1PE	Retained membrane without haemorrhage
+XM1PF	Placenta accreta without haemorrhage
+XM1PH	Vaginal muscle tear
+XM1PI	Anal sphincter tear
+XM1Ud	Baby normal at birth
+XM1ZS	Entonox analgesia in labour
+ZV240	[V]Examination immediately after delivery
+ZV27.	[V]Birth - type
+ZV270	[V]Single live birth
+ZV271	[V]Single stillbirth
+ZV272	[V]Twins, both live born
+ZV273	[V]Twins, one live born and one stillborn
+ZV274	[V]Twins, both stillborn
+ZV275	[V]Other multiple birth, all live born
+ZV276	[V]Other multiple birth, some live born
+ZV277	[V]Other multiple birth, all stillborn
+ZV27y	[V]Other specified outcome of delivery
+ZV27z	[V]Unspecified delivery outcome
+ZV3..	[V]Healthy liveborn infants according to type of birth
+ZV30.	[V]Singleton
+ZV300	[V]Singleton, born in hospital
+ZV301	[V]Singleton, born before admission to hospital
+ZV302	[V]Singleton, born outside hospital and not hospitalised
+ZV30z	[V]Singleton NOS
+ZV31.	[V]Twin, mate live born
+ZV310	[V]Twin, born in hospital, mate live born
+ZV311	[V]Twin, born before admission to hospital, mate live born
+ZV312	[V]Twin, born outside hospital and not hospitalised, mate liveborn
+ZV31z	[V]Twin, mate liveborn NOS
+ZV32.	[V]Twin, mate stillborn
+ZV320	[V]Twin, born in hospital, mate stillborn
+ZV321	[V]Twin, born before admission to hospital, mate stillborn
+ZV32z	[V]Twin, mate stillborn NOS
+ZV330	[V]Twin, unspecified, born in hospital
+ZV331	[V]Twin, unspecified, born before admission to hospital
+ZV34.	[V]Other multiple birth, mates live born
+ZV340	[V]Other multiple birth, born in hospital, mates live born
+ZV361	[V]Other multiple birth, born before admission to hospital, mates live and stillborn
+ZV36z	[V]Other multiple birth, mates live and stillborn NOS
+ZV3y.	[V]Other multiple birth, unspecified
+ZV3y0	[V]Other multiple birth, unspecified, born in hospital
+ZV3yz	[V]Other multiple birth, unspecified, NOS
+ZV3z.	[V]Unspecified birth
+ZV3z0	[V]Unspecified birth, born in hospital
+ZV3zz	[V]Unspecified birth NOS
+ZVu2A	[X]Other multiple births, all liveborn
+ZVu2B	[X]Other multiple births, some liveborn
+ZVu2F	[X]Oth multip liveborn infants, unspec as to place of birth

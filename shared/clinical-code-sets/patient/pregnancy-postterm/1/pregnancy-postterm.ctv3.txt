@@ -1,0 +1,27 @@
+62NG.	Antenatal 41 week examination
+62NH.	Antenatal 42 week examination
+635..	Postmature baby
+L15..	Post-dates
+L15..	Post-term pregnancy
+L15..	Prolonged pregnancy
+L1500	Post-term pregnancy unspecified
+L1501	Post-term pregnancy - delivered
+L1502	Post-term pregnancy - not delivered
+L150z	Post-term pregnancy NOS
+L15z.	Prolonged pregnancy NOS
+Q12..	(Disorders relating to long gestation and high birthweight) or (large baby born)
+Q12..	Disorders relating to long gestation and high birthweight
+Q12..	Large baby born
+Q121.	Other "large-for-dates" infant
+Q121.	Other large-for-dates" infant"
+Q122.	Postmature infant - greater than 42 weeks gestation, unspecified
+Q12z.	Large or postmature infant NOS
+Xa09e	Postmature fetus
+Xa0Kb	Post-term infant
+Xa0Kb	Postmature baby
+Xa0Kb	Postmaturity of baby
+Xa41X	Post-term infant - 42 weeks +
+Xa41X	Post-term infant - 42 weeks plus
+XaCKp	Pregnancy prolonged - 41 weeks
+XaCKq	Pregnancy prolonged - 42 weeks#
+XE1eY	Disorders relating to long gestation and high birth weight

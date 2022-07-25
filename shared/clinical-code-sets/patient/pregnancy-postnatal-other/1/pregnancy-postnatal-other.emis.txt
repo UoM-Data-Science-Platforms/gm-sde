@@ -1,0 +1,67 @@
+^ESCT1192443	Disorders relating to long gestation and high birthweight
+^ESCT1192451	Edinburgh postnatal depression scale
+^ESCT1200324	Postnatal care refused
+^ESCT1200325	Postpartum care refused
+^ESCT1212150	Child 6 week examination not offered
+^ESCT1212152	Child 8 week examination not offered
+^ESCT1245108	Syndrome of infant of mother with gestational diabetes
+^ESCT1245761	[V]Examination of Lactating mother
+^ESCT1248311	Breast-feeding problem in the newborn
+^ESCT1248312	Breast-feeding started
+^ESCT1248313	Breast-feeding stopped
+^ESCT1248314	Breast-feeding with supplement
+^ESCTAB261145	Absence of lactation
+^ESCTAS764676	Assessment of breastfeeding
+^ESCTBR462660	Breastfeeding with supplement
+^ESCTBR462662	Breastfeeding with complement
+^ESCTBR462664	Breastfeeding started
+^ESCTBR462666	Breastfeeding stopped
+^ESCTBR480302	Breastfeeding painful
+^ESCTBR514585	Breastfeeding problem in the newborn
+^ESCTCH463009	Child 6 week examination not wanted
+^ESCTCH463220	Child 8 week examination not wanted
+^ESCTCO655079	Counseling for postnatal depression
+^ESCTCO655080	Counselling for postnatal depression
+^ESCTDE250175	Decreased lactation
+^ESCTDE736955	Decline in Edinburgh postnatal depression scale score at 8 months
+^ESCTDE780878	Depression screening refused
+^ESCTDI483558	Disorder due to slow foetal growth, low and/or high birth weight
+^ESCTDI483560	Disorder due to slow fetal growth, low and/or high birth weight
+^ESCTDI550741	Disorder relating to long gestation and/or high birth weight
+^ESCTEP555030	EPDS - Edinburgh postnatal depression scale
+^ESCTED737715	Edinburgh postnatal depression scale score
+^ESCTEP737716	EPDS (Edinburgh postnatal depression scale) score
+^ESCTFA261146	Failed lactation
+^ESCTFE483270	Fetal or neonatal effect of maternal complication of pregnancy
+^ESCTFO483272	Foetal or neonatal effect of maternal complication of pregnancy
+^ESCTHY250177	Hypolactation
+^ESCTIN250178	Insufficient lactation
+^ESCTIN250180	Inadequate lactation
+^ESCTNO261147	Not producing any milk
+^ESCTNO462677	No postnatal care
+^ESCTPA480304	Pain on breastfeeding
+^ESCTPO250179	Poor lactation
+^ESCTPO462696	Postnatal data
+^ESCTPO519226	Postnatal examination status
+^ESCTPO655078	Postnatal depression counseling
+EMISHGT021	EPND score question 1
+EMISHGT0211	EPDS q1 - as much as always
+EMISHGT0212	EPDS q1 - Not quite so much now
+EMISHGT0213	EPDS q1 - definitely not so much now
+EMISHGT0214	EPDS q1 - not at all
+EMISHGT022	EPND score question 2 - enjoyment
+EMISHGT0221	EPDS q2 - as much as I ever did
+EMISHGT0222	EPDS q2 - rather less than before
+EMISHGT0223	EPDS q2 - definitely less than I used to
+EMISHGT0224	EPDS q2 - hardly at all
+EMISHGT023	EPNDS question 3 - blame
+EMISHGT024	EPNDS question 4 - anxiety
+EMISHGT025	EPNDS question 5 - panic
+EMISHGT026	EPNDS question 6 - overcome
+EMISHGT027	EPNDS question 7 - sleep
+EMISHGT028	EPNDS question 8 - sadness
+EMISHGT029	EPNDS question 9 - crying
+EMISHGT030	EPNDS question 10 - selfharm
+EMISNQMI209	Mixed feeding at discharge from hospital
+EMISNQMI210	Mixed feeding at discharge from community midwife
+EMISNQMI211	Mixed feeding at public health nurse first visit

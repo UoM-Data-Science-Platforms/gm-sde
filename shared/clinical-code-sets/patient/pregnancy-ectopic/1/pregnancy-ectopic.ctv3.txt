@@ -1,0 +1,63 @@
+584E.	Antenatal ultrasound confirms ectopic pregnancy
+7E131	Excision of ectopic ovarian pregnancy
+7E133	Excision of ruptured ectopic tubal pregnancy
+7E190	Removal of products of conception from fallopian tube
+L03..	Ectopic pregnancy
+L030.	Abdominal pregnancy
+L031.	Fallopian tube pregnancy
+L0311	Ruptured tubal pregnancy
+L0312	Tubal abortion
+L031z	Tubal pregnancy NOS
+L032.	Ovarian pregnancy
+L03y.	Other ectopic pregnancy
+L03y0	Cervical pregnancy
+L03y1	Cornual pregnancy
+L03y2	Membranous pregnancy
+L03y3	Combined heterotopic pregnancy
+L03y5	Intraligamentous pregnancy
+L03yz	Other ectopic pregnancy NOS
+L03z.	Ectopic pregnancy NOS
+L244.	Other uterine or pelvic floor abnormality in pregnancy, childbirth and the puerperium
+L2440	Other uterine or pelvic floor abnormality affecting obstetric care
+L2442	Other uterine or pelvic floor abnormality - delivered with postpartum complication
+L2443	Other uterine or pelvic floor abnormality - baby not yet delivered
+L2444	Other uterine or pelvic floor abnormality complicating postpartum care - baby delivered during previous episode of care
+L244z	Other uterine or pelvic floor abnormality (& [cystocele] or [rectocele]) in pregnancy, childbirth or the puerperium NOS
+L2633	(Labour and delivery complicated by fetal heart rate anomaly) or (maternal care for fetal hypoxia)
+L50..	Maternal care for compound presentation
+L511.	Maternal care for viable fetus in abdominal pregnancy
+L512.	Maternal care for diminished fetal movements
+L514.	Maternal care for intrauterine growth retardation
+Lyu00	[X]Other ectopic pregnancy
+Lyu2.	[X]Other maternal disorders predominantly related to pregnancy
+Lyu74	[X] Other specified diseases and conditions complicating pregnancy, childbirth and the puerperium
+Q014.	Fetus or neonate affected by ectopic pregnancy
+Q0140	Fetus or neonate affected by unspecified ectopic pregnancy
+Q0141	Fetus or neonate affected by abdominal ectopic pregnancy
+Q0143	Fetus or neonate affected by tubal ectopic pregnancy
+Q014z	Fetus or neonate affected by ectopic pregnancy NOS
+X406F	Female genital and obstetric disorder
+X409D	Pregnancy, childbirth and puerperal disorders
+Xa3gC	Obstetric disorders NOS
+Xa40W	Fetus with maternal problem NOS
+Xa41M	Maternal pregnancy problem
+Xa41Q	Maternal pregnancy problem NOS
+Xa41R	Maternal cord/placental problem NOS
+Xa8Pg	Fimbrial extraction of tubal pregnancy
+XaDzR	Maternal care for suspected central nervous system malformation in fetus
+XaDzS	Maternal care for central nervous system malformation in fetus
+XaDzT	Maternal care for suspected chromosomal abnormality in fetus
+XaDzV	Maternal care for chromosomal abnormality in fetus
+XaDzW	Maternal care for damage to fetus from maternal rubella
+XaDzX	Maternal care for suspected fetal abnormality and damage, unspecified
+XaDzY	Maternal care for fetal abnormality and damage, unspecified
+XaE6r	Maternal care for fetal bradycardia during pregnancy
+XaE71	Maternal care for fetal decelerations during pregnancy
+XaE72	Maternal care for fetal tachycardia during pregnancy
+XaE73	Maternal care for fetal acidosis during pregnancy
+XE0wJ	Other uterine or pelvic floor abnormality in pregnancy, childbirth and the puerperium
+XE0wK	Other uterine or pelvic floor abnormality affecting obstetric care
+XE0wM	Other uterine or pelvic floor abnormality - delivered with postpartum complication
+XE0wN	Other uterine or pelvic floor abnormality - baby not yet delivered
+XE0wO	Other uterine or pelvic floor abnormality complicating postpartum care - baby delivered during previous episode of care
+XE2u1	Removal of products of conception from fallopian tube

@@ -1,0 +1,790 @@
+^ESCT10463003	10 day examination abnormal - for observation
+^ESCT10463004	10 day examination abnormal - referred
+^ESCT1166815	Neonatal disorder of endocrine system
+^ESCT1166816	Neonatal endocrine disorder
+^ESCT1182490	Neonatal thrush
+^ESCT1182611	Dermatitis exfoliativa neonatorum
+^ESCT1187597	Not breathing in newborn infant
+^ESCT1190396	Delayed AND/OR secondary postpartum hemorrhage
+^ESCT1190434	Rupture of uterus during and after labor - delivered with postnatal problem
+^ESCT1190444	Retained products with no hemorrhage with postnatal problem
+^ESCT1191722	Infection of cesarean section AND/OR perineal wound
+^ESCT1191864	Neonatal goiter
+^ESCT1191927	Perinatal pulmonary hemorrhage
+^ESCT1192005	[X]Other specified puerperal infection
+^ESCT1192386	Complication occurring during labor and delivery
+^ESCT1192443	Disorders relating to long gestation and high birthweight
+^ESCT1192610	Major puerperal infection
+^ESCT1198961	Neonatal goiter
+^ESCT1205773	Scalpel wound of foetal skin due to delivery procedure
+^ESCT1222318	Fracture of ulna due to birth trauma
+^ESCT1245900	[V]Newborn receiving special care
+^ESCT1248311	Breast-feeding problem in the newborn
+^ESCT1270246	Third-stage postpartum haemorrhage - deliv with p/n problem
+^ESCT1270263	Ecchymoses in fetus OR newborn
+^ESCT1270264	Petechiae in fetus OR newborn
+^ESCT1271724	Unspecified hypertension complicating pregnancy, childbirth and the puerperium - delivered with postnatal complication
+^ESCT1271725	Unspecified hypertension complicating pregnancy, childbirth and the puerperium with postnatal complication
+^ESCT1271971	Other perinatal skin disorders
+^ESCT1271972	Perinatal skin disorder NOS
+^ESCT1272232	Other specified perinatal skin disorder
+^ESCT1378915	Postnatal care from general practitioner
+^ESCT1379005	Death from sequela of direct obstetric cause
+^ESCT1386038	Scalpel wound of foetal skin due to and during delivery procedure
+^ESCT1405544	Grey syndrome from chloramphenicol administration in newborn
+^ESCT1405545	Grey syndrome
+^ESCT1405925	Perinatal jaundice due to hereditary haemolytic anaemia
+^ESCT1407174	Neonatal jaundice due to glucose-6-phosphate dehydrogenase deficiency
+^ESCT1407717	Superficial thrombophlebitis in puerperium
+^ESCT1407718	Thrombophlebitis of legs in puerperium
+^ESCT1408021	Disruption of perineal wound in puerperium
+^ESCT1419932	Toxaemia of pregnancy
+^ESCTAB302904	ABO isoimmunization of the newborn
+^ESCTAB302905	ABO hemolytic disease of the newborn
+^ESCTAB302906	ABO haemolytic disease of the newborn
+^ESCTAB302913	ABO HDN - ABO haemolytic disease of the newborn
+^ESCTAB302914	ABO HDN - ABO hemolytic disease of the newborn
+^ESCTAL272703	Alloimmune neonatal neutropenia
+^ESCTAL514600	Alloimmune neonatal thrombocytopenia
+^ESCTAL647612	Alloimmune haemolytic disease of newborn
+^ESCTAL647615	Alloimmune hemolytic disease of newborn
+^ESCTAN302902	Anemia due to ABO incompatibility in the newborn
+^ESCTAN302907	Anaemia due to ABO incompatibility in the newborn
+^ESCTAN326161	Anemia of prematurity
+^ESCTAN391420	Anemia due to Rh isoimmunization
+^ESCTAN391439	Anaemia due to Rh isoimmunisation
+^ESCTAN479645	Anemia in the puerperium - baby delivered during current episode of care
+^ESCTAN479651	Anemia in the puerperium - baby delivered during previous episode of care
+^ESCTAN514601	ANT - Alloimmune neonatal thrombocytopenia
+^ESCTAP270769	Apnoea in the newborn
+^ESCTAP270770	Apnea in the newborn
+^ESCTAP270771	Apnea neonatorum
+^ESCTAP270772	Apnoea neonatorum
+^ESCTAP270774	Apnea of newborn
+^ESCTAS772715	Aspiration pneumonitis of foetus
+^ESCTAT293599	Atonic postpartum haemorrhage
+^ESCTAT293600	Atonic postpartum hemorrhage
+^ESCTAT339198	Atelectasis neonatorum
+^ESCTBA798940	BAAF (British Association for Adoption and Fostering) B2 neonatal report sent
+^ESCTBE476954	Benign myoclonic epilepsy in infancy
+^ESCTBI310239	Birth injury to scalp
+^ESCTBI341168	Birth injury
+^ESCTBI341169	Birth trauma of fetus
+^ESCTBI341170	Birth trauma of foetus
+^ESCTBI343091	Birth asphyxia with 1 minute Apgar score 0-3
+^ESCTBI375826	Birth asphyxia with 1 minute Apgar score 4-7
+^ESCTBI558831	Birth hypoxia
+^ESCTBI628907	Birth details - finding
+^ESCTBP359903	BPD - Bronchopulmonary dysplasia
+^ESCTBR306093	Breast engorgement in newborn
+^ESCTBR306094	Breast engorgement of new born
+^ESCTBR329282	Bruising in foetus OR newborn
+^ESCTBR329283	Bruising in fetus OR newborn
+^ESCTBR359899	Bronchopulmonary dysplasia of newborn
+^ESCTBR359900	Bronchopulmonary dysplasia
+^ESCTBR384530	Breast milk inhibitor jaundice
+^ESCTBR384531	Breast-feeding inhibitor causing neonatal jaundice
+^ESCTBR480275	Breast abscess after childbirth
+^ESCTBR514585	Breastfeeding problem in the newborn
+^ESCTBR798938	British Association for Adoption and Fostering B2 neonatal report sent
+^ESCTCA325604	Cardiorespiratory distress syndrome of newborn
+^ESCTCA558634	Cardiac dysrhythmia of the newborn
+^ESCTCA558637	Cardiac failure developing in the perinatal period
+^ESCTCE391820	Cerebral depression in newborn
+^ESCTCE480261	Cesarean wound disruption - delivered with postnatal complication
+^ESCTCE480263	Cesarean wound disruption with postnatal complication
+^ESCTCE483580	Cerebral haematoma in foetus or newborn
+^ESCTCE483581	Cerebral hematoma in fetus or newborn
+^ESCTCE483593	Cerebral hemorrhage due to birth injury
+^ESCTCE483594	Cerebral hemorrhage due to birth trauma
+^ESCTCE483595	Cerebral haemorrhage due to birth trauma
+^ESCTCE483598	Cephalhematoma due to birth trauma
+^ESCTCE483599	Cephalohematoma due to birth trauma
+^ESCTCE483636	Cerebral edema due to birth injury
+^ESCTCE558754	Cerebral irritation
+^ESCTCE657120	Cesarean wound disruption
+^ESCTCH254459	Childbed fever
+^ESCTCH262230	Chloramphenicol toxicity in newborn
+^ESCTCH282287	Chronic respiratory disease in perinatal period
+^ESCTCH359901	Chronic lung disease of prematurity
+^ESCTCH463217	Child 8 week examination
+^ESCTCH514992	Chlamydial ophthalmia neonatorum
+^ESCTCH809621	CHT (congenital hypothyroidism) not screened for or screening incomplete
+^ESCTCH812622	CHT (congenital hypothyroidism) repeat screening with further sample required
+^ESCTCN477364	CNLDO - Congenital nasolacrimal duct obstruction
+^ESCTCN477365	CNDO - Congenital nasolacrimal duct obstruction
+^ESCTCO251572	Congenital sepsis
+^ESCTCO292842	Cold injury syndrome of newborn
+^ESCTCO316317	Condition in fetus originating in the perinatal period
+^ESCTCO316319	Condition in foetus originating in the perinatal period
+^ESCTCO325608	Congenital alveolar dysplasia
+^ESCTCO339195	Congenital incomplete expansion of lung
+^ESCTCO339197	Congenital atelectasis of lung
+^ESCTCO348274	Congenital hepatitis B
+^ESCTCO352899	Cow's milk hypocalcaemia of newborn
+^ESCTCO352900	Cow's milk hypocalcemia of newborn
+^ESCTCO352901	Cow's milk hypocalcemia in the newborn
+^ESCTCO352906	Cow's milk hypocalcaemia in the newborn
+^ESCTCO377546	Complication of obstetrical surgery AND/OR procedure
+^ESCTCO380283	Complication of the puerperium
+^ESCTCO383974	Congenital cranial osteoporosis
+^ESCTCO383976	Congenital infectious disease
+^ESCTCO383977	Congenital infection
+^ESCTCO396667	Coma in the newborn
+^ESCTCO398773	Congenital herpes simplex
+^ESCTCO398775	Congenital herpes simplex infection
+^ESCTCO477362	Congenital nasolacrimal duct obstruction
+^ESCTCO479905	Complication occurring during labour and delivery
+^ESCTCO483686	Congenital staphylococcal pneumonia
+^ESCTCO483687	Congenital group A haemolytic streptococcal pneumonia
+^ESCTCO483688	Congenital group A hemolytic streptococcal pneumonia
+^ESCTCO483689	Congenital group B haemolytic streptococcal pneumonia
+^ESCTCO483690	Congenital group B hemolytic streptococcal pneumonia
+^ESCTCO483691	Congenital Escherichia coli pneumonia
+^ESCTCO483692	Congenital pseudomonal pneumonia
+^ESCTCO483694	Congenital chlamydial pneumonia
+^ESCTCO483724	Congenital hepatitis
+^ESCTCO483849	Congenital faecaliths causing obstruction
+^ESCTCO483853	Congenital fecaliths causing obstruction
+^ESCTCO558879	Congenital viral infection
+^ESCTCO558920	Coliform ophthalmia neonatorum
+^ESCTCO558928	Congenital viral pneumonia
+^ESCTCO574503	Cord almost off
+^ESCTCO574505	Cord adherent
+^ESCTCO574507	Cord not separated
+^ESCTCO623938	Complication of introduction procedure
+^ESCTCR383973	Craniotabes
+^ESCTDE286941	Delayed AND/OR secondary postpartum haemorrhage
+^ESCTDE286949	Delayed postpartum haemorrhage
+^ESCTDE286950	Delayed postpartum hemorrhage
+^ESCTDE330134	Dehydration fever in newborn
+^ESCTDE480170	Death from sequelae of direct obstetric cause
+^ESCTDI305421	Disseminated intravascular coagulation in newborn
+^ESCTDI305422	DIC in newborn
+^ESCTDI318279	Disorder of digestive system specific to fetus OR newborn
+^ESCTDI318282	Disorder of digestive system specific to foetus OR newborn
+^ESCTDI353008	Disorder of uterine cervix
+^ESCTDI353009	Disease of cervix
+^ESCTDI353010	Disorder of cervix
+^ESCTDI361539	Disturbance of temperature regulation of newborn
+^ESCTDI465457	Disorder of pregnancy
+^ESCTDI483622	Dislocation of spine due to birth trauma
+^ESCTDI550741	Disorder relating to long gestation and/or high birth weight
+^ESCTDI660088	Disruption of episiotomy wound in the puerperium
+^ESCTDI685079	Disorder of cellular component of blood in newborn
+^ESCTDI833981	Disturbance of cerebral status of newborn
+^ESCTDR686537	Drug withdrawal syndrome in newborn
+^ESCTEC346628	Ecchymoses in foetus OR newborn
+^ESCTED378350	Edema of newborn
+^ESCTED378351	Edema neonatorum
+^ESCTEF647608	EF - Erythroblastosis foetalis
+^ESCTEF647613	EF - Erythroblastosis fetalis
+^ESCTEL558781	ELBW - Extremely low birth weight infant
+^ESCTEN299242	Environmentally-induced hyperthermia in newborn
+^ESCTEN330525	Engorgement of breasts
+^ESCTEN330527	Engorged breasts
+^ESCTEP660068	EPH - Oedema, proteinuria and hypertension of pregnancy
+^ESCTEP660071	EPH - Edema, proteinuria and hypertension of pregnancy
+^ESCTER302901	Erythroblastosis fetalis due to ABO isoimmunization
+^ESCTER302909	Erythroblastosis fetalis due to ABO isoimmunisation
+^ESCTER302915	Erythroblastosis foetalis due to ABO isoimmunisation
+^ESCTER377098	Erb-Duchenne brachial plexus injury
+^ESCTER391423	Erythroblastosis fetalis due to Rh isoimmunization
+^ESCTER391436	Erythroblastosis fetalis due to Rh isoimmunisation
+^ESCTER391443	Erythroblastosis foetalis due to Rh isoimmunisation
+^ESCTER514590	Erythema toxicum neonatorum
+^ESCTER514593	Erythema neonatorum
+^ESCTER647606	Erythroblastosis foetalis
+^ESCTET514591	ETN - Erythema toxicum neonatorum
+^ESCTEX483587	Extradural haemorrhage in fetus or newborn
+^ESCTEX483588	Extradural hemorrhage in fetus or newborn
+^ESCTEX483589	Extradural intracranial hemorrhage in fetus or newborn
+^ESCTEX483590	Extradural intracranial haemorrhage in foetus or newborn
+^ESCTEX483591	Extradural intracranial haemorrhage in fetus or newborn
+^ESCTFA388166	Facial palsy as birth trauma
+^ESCTFE367972	Feeding difficulties in newborn
+^ESCTFE419597	Fetal OR neonatal hemorrhage
+^ESCTFE419598	Fetal OR neonatal haemorrhage
+^ESCTFE549949	Fetus small-for-dates
+^ESCTFE772714	Fetal aspiration pneumonitis
+^ESCTFE783392	Fetal or neonatal effect of amniocentesis
+^ESCTFI392194	Fits in the newborn
+^ESCTFO278315	Foetus and newborn respiratory conditions
+^ESCTFO419596	Foetal OR neonatal haemorrhage
+^ESCTFO549956	Foetus small-for-dates
+^ESCTFO772713	Foetal aspiration pneumonitis
+^ESCTFO783391	Foetal or neonatal effect of amniocentesis
+^ESCTFP801105	FP58 newborn registration form
+^ESCTFR483617	Fracture of tibia and/or fibula due to birth trauma
+^ESCTFR550745	Fracture of radius and/or ulna due to birth trauma
+^ESCTGA480316	Galactorrhea in pregnancy and the puerperium - delivered
+^ESCTGA480322	Galactorrhea in pregnancy and the puerperium with postnatal complication
+^ESCTGE263414	General care of newborn
+^ESCTGE761230	Genital tract infection in puerperium
+^ESCTGO295674	Gonococcal conjunctivitis neonatorum
+^ESCTGO295675	Gonococcal ophthalmia neonatorum
+^ESCTGR262227	Gray syndrome from chloramphenicol administration in newborn
+^ESCTGR262228	Gray baby syndrome
+^ESCTGR262229	Gray syndrome
+^ESCTGR262231	Grey baby syndrome
+^ESCTHA269958	Haemorrhagic disease of the newborn due to vitamin K deficiency
+^ESCTHA269963	Haemorrhagic diathesis of newborn
+^ESCTHA286946	Haemorrhage after first 24 hours following delivery of placenta
+^ESCTHA287805	Haematemesis AND/OR melaena due to swallowed maternal blood
+^ESCTHA293603	Haemorrhage within 24 hours following delivery of placenta
+^ESCTHA302898	Haemolytic disease of foetus OR newborn due to ABO immunisation
+^ESCTHA302912	Haemolytic disease of fetus OR newborn due to ABO immunisation
+^ESCTHA326379	Haemorrhage with retained, trapped AND/OR adherent placenta
+^ESCTHA389032	Haemorrhage of newborn
+^ESCTHA391417	Haemolytic disease of foetus OR newborn due to RhD isoimmunisation
+^ESCTHA391430	Haemolytic disease of fetus OR newborn due to Rh isoimmunisation
+^ESCTHA391434	Haemolytic disease - Rh
+^ESCTHA391437	Haemolytic disease due to Rh isoimmunisation
+^ESCTHA391440	Haemolytic disease of fetus OR newborn due to RhD isoimmunisation
+^ESCTHA391442	Haemolytic disease of foetus OR newborn due to Rh isoimmunisation
+^ESCTHA635773	Haematoma of perineal wound
+^ESCTHA647604	Haemolytic disease of foetus OR newborn due to isoimmunisation
+^ESCTHA647607	Haemolytic disease of the newborn
+^ESCTHA647610	Haemolytic disease of foetus OR newborn
+^ESCTHA647620	Haemolytic disease of fetus OR newborn due to isoimmunisation
+^ESCTHD269964	HDN - Haemorrhagic disease of newborn
+^ESCTHD269966	HDN - Hemorrhagic disease of newborn
+^ESCTHD647609	HDN - Haemolytic disease of the newborn
+^ESCTHD647617	HDN - Hemolytic disease of the newborn
+^ESCTHE261603	Heavy-for-dates at birth regardless of gestation period
+^ESCTHE261605	Heavy for dates
+^ESCTHE261606	Heavy for gestation age infant
+^ESCTHE269959	Hemorrhagic disease of the newborn due to vitamin K deficiency
+^ESCTHE269960	Hemorrhagic diathesis of newborn
+^ESCTHE269967	Hemorrhagic disease of the newborn
+^ESCTHE286943	Hemorrhage after first 24 hours following delivery of placenta
+^ESCTHE287806	Hematemesis AND/OR melena due to swallowed maternal blood
+^ESCTHE293602	Hemorrhage within 24 hours following delivery of placenta
+^ESCTHE302899	Hemolytic disease of fetus OR newborn due to ABO immunization
+^ESCTHE302900	Hemolytic disease due to ABO isoimmunization
+^ESCTHE326378	Hemorrhage with retained, trapped AND/OR adherent placenta
+^ESCTHE389033	Hemorrhage of newborn
+^ESCTHE391421	Hemolytic disease due to Rh isoimmunization
+^ESCTHE391425	Hemolytic disease of fetus OR newborn due to Rh isoimmunization
+^ESCTHE391426	Hemolytic disease - Rh
+^ESCTHE391427	Hemolytic disease due to rhesus isoimmunization
+^ESCTHE391441	Hemolytic disease of fetus OR newborn due to RhD isoimmunization
+^ESCTHE480212	Hemorrhoids in pregnancy and the puerperium - delivered
+^ESCTHE480214	Hemorrhoids in pregnancy and the puerperium - delivered with postnatal complication
+^ESCTHE480218	Hemorrhoids in pregnancy and the puerperium with postnatal complication
+^ESCTHE480220	Hemorrhoids in the puerperium
+^ESCTHE635774	Hematoma of perineal wound
+^ESCTHE635782	Hematoma of obstetric wound
+^ESCTHE647605	Hemolytic disease of fetus OR newborn due to isoimmunization
+^ESCTHE647618	Hemolytic disease of the newborn
+^ESCTHE647619	Hemolytic disease of fetus OR newborn
+^ESCTHI439111	HIE - Perinatal hypoxic - ischaemic encephalopathy
+^ESCTHI439112	HIE - Perinatal hypoxic - ischemic encephalopathy
+^ESCTHM325612	HMD - Hyaline membrane disease
+^ESCTHY364854	Hyperthermia of newborn
+^ESCTHY369896	Hyperbilirubinemia of prematurity
+^ESCTHY369897	Hyperbilirubinaemia of prematurity
+^ESCTHY412615	Hypoxia, asphyxia AND/OR other respiratory condition of fetus AND/OR newborn
+^ESCTHY412616	Hypoxia, asphyxia AND/OR other respiratory condition of foetus AND/OR newborn
+^ESCTHY514607	Hypocalcemic tetany in newborn
+^ESCTHY558818	Hypomagnesemic tetany in newborn
+^ESCTIA558711	Iatrogenic neonatal hypoglycemia
+^ESCTIC647638	Icterus neonatorum
+^ESCTID262006	Idiopathic tachypnea of newborn
+^ESCTID262008	Idiopathic tachypnoea of newborn
+^ESCTID325605	Idiopathic respiratory distress syndrome of newborn
+^ESCTID325611	Idiopathic respiratory distress syndrome
+^ESCTIM293601	Immediate postpartum hemorrhage
+^ESCTIM293604	Immediate postpartum haemorrhage
+^ESCTIM319179	Immature lungs
+^ESCTIN251571	Intrauterine sepsis of fetus
+^ESCTIN251573	Intrauterine fetal sepsis
+^ESCTIN251574	Intrauterine foetal sepsis
+^ESCTIN251575	Intrauterine sepsis of foetus
+^ESCTIN288838	Infection of caesarean section AND/OR perineal wound
+^ESCTIN317783	Infection of navel cord
+^ESCTIN339009	Intestinal obstruction by inspissated milk in newborn
+^ESCTIN339011	Inspissated stool syndrome from milk
+^ESCTIN364849	Intraventricular hemorrhage from any perinatal cause
+^ESCTIN364851	Intraventricular haemorrhage from any perinatal cause
+^ESCTIN463007	Infant screening at 6 weeks
+^ESCTIN483582	Intracerebral hematoma in fetus or newborn
+^ESCTIN483585	Intracerebral haematoma in foetus or newborn
+^ESCTIN483749	Intraventricular hemorrhage due to birth injury
+^ESCTIN483752	Intracranial subarachnoid haemorrhage due to birth injury
+^ESCTIN483753	Intracranial subarachnoid hemorrhage due to birth injury
+^ESCTIN483850	Intestinal obstruction in newborn due to fecoliths
+^ESCTIN514611	Intracerebral haemorrhage in fetus or newborn
+^ESCTIN514612	Intracerebral hemorrhage in fetus or newborn
+^ESCTIN549953	Infant underweight for gestational age
+^ESCTIN558830	Intrapartum fetal hypoxia
+^ESCTIN558832	Intrapartum foetal hypoxia
+^ESCTIN808512	Incomplete screening contraindicated
+^ESCTIN808514	Incomplete lack of service capacity
+^ESCTIR325606	IRDS of newborn
+^ESCTIR325616	IRDS - Idiopathic respiratory distress syndrome
+^ESCTIS272704	Isoimmune neonatal neutropenia
+^ESCTIS514599	Isoimmune neonatal thrombocytopenia
+^ESCTIS647616	Isoimmunization of newborn
+^ESCTJA302903	Jaundice due to ABO isoimmunization of the newborn
+^ESCTJA302911	Jaundice due to ABO isoimmunisation of the newborn
+^ESCTJA369895	Jaundice due to delayed conjugation associated with preterm delivery
+^ESCTJA391424	Jaundice due to Rh isoimmunization of the newborn
+^ESCTJA391438	Jaundice due to Rh isoimmunisation of the newborn
+^ESCTKE250429	Kernicterus due to isoimmunization
+^ESCTKE483815	Kernicterus not due to isoimmunization
+^ESCTKL386477	Klumpke-D?jerine paralysis
+^ESCTKL386478	Klumpke's paralysis
+^ESCTKL386479	Klumpke's palsy
+^ESCTKL386482	Klumpke-D?jerine brachial plexus injury
+^ESCTLA261604	Large-for-dates infant regardless of gestation period
+^ESCTLA265348	Late metabolic acidosis of newborn
+^ESCTLA483074	Lamellar ichthyosis
+^ESCTLA483789	Late anemia of newborn due to isoimmunization
+^ESCTLA514604	Late neonatal hypocalcaemia
+^ESCTLA514605	Late neonatal hypocalcemia
+^ESCTLB558776	LBW - Low birth weight infant
+^ESCTLI483639	Liver subcapsular hematoma due to birth trauma
+^ESCTLI549951	Light for gestational dates
+^ESCTLI549952	Light for dates
+^ESCTLO483573	Local subdural hematoma due to birth trauma
+^ESCTLO483574	Local subdural haematoma as birth trauma
+^ESCTLO483575	Local subdural hematoma as birth trauma
+^ESCTLO483576	Local intracranial subdural haematoma due to birth trauma
+^ESCTLO483577	Local intracranial subdural hematoma due to birth trauma
+^ESCTLU326712	Lucey-Driscoll syndrome
+^ESCTMA346294	Maternal mortality
+^ESCTMA479601	Maternal gonorrhea in the puerperium - baby delivered during current episode of care
+^ESCTMA479605	Maternal gonorrhea in the puerperium - baby delivered during previous episode of care
+^ESCTMA483601	Massive subgaleal haemorrhage due to birth trauma
+^ESCTMA483603	Massive epicranial subaponeurotic hemorrhage due to birth trauma
+^ESCTMA483604	Massive subaponeurotic hemorrhage due to birth trauma
+^ESCTMA483605	Massive subaponeurotic haemorrhage due to birth trauma
+^ESCTMA483606	Massive subgaleal hemorrhage due to birth trauma
+^ESCTMA483607	Massive subgaleal haematoma due to birth trauma
+^ESCTMA483608	Massive subaponeurotic haematoma due to birth trauma
+^ESCTMA483609	Massive subgaleal hematoma due to birth trauma
+^ESCTMA483610	Massive subaponeurotic hematoma due to birth trauma
+^ESCTMA483696	MAS - Meconium aspiration syndrome
+^ESCTMA483758	Massive umbilical hemorrhage of newborn
+^ESCTMC812624	MCADD (medium chain acyl-coenzyme A dehydrogenase deficiency) repeat screening with further sample required
+^ESCTME483840	Meconium obstruction
+^ESCTME483847	Meconium plug
+^ESCTME551588	Medical certificate of still-birth
+^ESCTMI339010	Milk curd syndrome
+^ESCTMI339013	Milk bolus obstruction
+^ESCTMI375825	Mild to moderate birth asphyxia
+^ESCTMI453543	Midwife attends 1-10 days post-discharge
+^ESCTMI453544	Midwife attends 11-13 days post-discharge
+^ESCTMI453545	Midwife attends 14-16 days post-discharge
+^ESCTMI453546	Midwife attends 17-20 days post-discharge
+^ESCTMI453547	Midwife attends 21-24 days post-discharge
+^ESCTMI453548	Midwife attends 25-28 days post-discharge
+^ESCTMO375828	Moderate birth asphyxia
+^ESCTNA514598	NAIT
+^ESCTNE262012	Newborn transitory tachypnea
+^ESCTNE263415	Newborn care
+^ESCTNE263416	Newborn health care
+^ESCTNE264593	Newborn care service
+^ESCTNE269962	Neonatal vitamin K deficiency
+^ESCTNE270775	Neonatal apnoea
+^ESCTNE282288	Neonatal chronic respiratory disease
+^ESCTNE287808	Newborn swallowing maternal blood causing hematemesis or melena
+^ESCTNE292844	Neonatal cold injury
+^ESCTNE303103	Neonatal polycythaemia
+^ESCTNE303104	Neonatal polycythemia
+^ESCTNE305423	Newborn defibrination syndrome
+^ESCTNE306095	Neonatal gynaecomastia
+^ESCTNE306096	Neonatal gynecomastia
+^ESCTNE330456	Neonatal acne
+^ESCTNE335560	Neonatal hypoglycemia
+^ESCTNE339845	Newborn regurgitation of feed
+^ESCTNE346680	Neonatal cytomegaloviral disease
+^ESCTNE352902	Neonatal cows' milk hypocalcemia
+^ESCTNE352903	Neonatal phosphate-loading hypocalcemia
+^ESCTNE364850	Neonatal intraventricular hemorrhage
+^ESCTNE364852	Neonatal intraventricular haemorrhage
+^ESCTNE369894	Neonatal jaundice associated with preterm delivery
+^ESCTNE369899	Neonatal jaundice after preterm delivery
+^ESCTNE372599	Neonatal tyrosinemia
+^ESCTNE372600	Neonatal tyrosinaemia
+^ESCTNE384527	Neonatal jaundice due to delayed conjugation from breast milk inhibitor
+^ESCTNE389034	Neonatal hemorrhage
+^ESCTNE392195	Neonatal convulsions
+^ESCTNE392196	Neonatal seizures
+^ESCTNE392848	Neonatal hypomagnesemia
+^ESCTNE398774	Neonatal herpes simplex
+^ESCTNE405975	Neonatal apneic attack
+^ESCTNE469384	Neonatal exchange blood transfusion
+^ESCTNE483697	Neonatal aspiration of blood
+^ESCTNE483710	Neonatal acrocyanosis
+^ESCTNE483766	Neonatal vaginal hemorrhage
+^ESCTNE483783	Neonatal hematemesis
+^ESCTNE483785	Neonatal melena
+^ESCTNE483787	Neonatal rectal hemorrhage
+^ESCTNE483804	Neonatal jaundice with Gilbert syndrome
+^ESCTNE483871	Neonatal drug withdrawal syndrome, maternal drug abuse
+^ESCTNE483872	Neonatal drug withdrawal syndrome, maternal drugs of abuse
+^ESCTNE483875	Neonatal cerebral ischemia
+^ESCTNE483876	Neonatal cerebral leucomalacia
+^ESCTNE514595	Neonatal alloimmune thrombocytopenia
+^ESCTNE514597	Neonatal thrombocytopenia due to platelet alloimmunization
+^ESCTNE514991	Neonatal chlamydial conjunctivitis
+^ESCTNE514995	Neonatal inclusion body conjunctivitis
+^ESCTNE514996	Neonatal inclusion blennorrhea
+^ESCTNE550752	Neonatal dacryocystitis or conjunctivitis due to Escherichia coli
+^ESCTNE550753	Neonatal dacryocystitis or conjunctivitis caused by Escherichia coli
+^ESCTNE550755	Neonatal dacryocystitis or conjunctivitis caused by staphylococcus
+^ESCTNE550758	Neonatal dacryocystitis or conjunctivitis caused by virus
+^ESCTNE550760	Neonatal dacryocystitis or conjunctivitis caused by chlamydiae
+^ESCTNE550762	Neonatal hypocalcemia
+^ESCTNE550764	Neonatal diarrhea
+^ESCTNE558633	Neonatal dysrhythmia
+^ESCTNE558635	Neonatal arrhythmia
+^ESCTNE558649	Neonatal chloridorrhea
+^ESCTNE558653	Newborn thermal injury
+^ESCTNE558671	Neonatal aspiration of amniotic fluid
+^ESCTNE558674	Neonatal aspiration of liquor
+^ESCTNE558675	Neonatal aspiration of mucus
+^ESCTNE558715	Neonatal goitre
+^ESCTNE558892	Neonatal sepsis
+^ESCTNE558899	Neonatal infection of the eye
+^ESCTNE558905	Neonatal chlamydial dacryocystitis
+^ESCTNE558907	Neonatal viral conjunctivitis
+^ESCTNE558912	Neonatal viral dacryocystitis
+^ESCTNE558918	Neonatal dacryocystitis due to Escherichia coli
+^ESCTNE558919	Neonatal dacryocystitis caused by Escherichia coli
+^ESCTNE558924	Neonatal dacryocystitis caused by staphylococcus
+^ESCTNE667328	Neonatal systemic candidiasis
+^ESCTNE667329	Neonatal systemic candidosis
+^ESCTNE686538	Neonatal withdrawal syndrome
+^ESCTNE686539	Neonatal drug withdrawal syndrome
+^ESCTNE686540	Neonatal abstinence syndrome
+^ESCTNE686542	Neonatal candidiasis
+^ESCTNE686544	Neonatal candidosis
+^ESCTNO339200	Non-expanded lung
+^ESCTOB354456	Obstetrical trauma
+^ESCTOB354457	Obstetric trauma
+^ESCTOB480281	Obstetric non-purulent mastitis - delivered with postnatal complication
+^ESCTOB480282	Obstetric non-purulent mastitis with antenatal complication
+^ESCTOB480285	Obstetric non-purulent mastitis with postnatal complication
+^ESCTOE378349	Oedema of newborn
+^ESCTOE378352	Oedema neonatorum
+^ESCTON655223	On examination - Umbilical stump - neonatal
+^ESCTOP295677	Opthalmia neonatorum caused by Neisseria
+^ESCTPA798631	Partial postnatal care - two visits
+^ESCTPA798638	Partial postnatal care - three visits
+^ESCTPA798640	Partial postnatal care - four visits
+^ESCTPA798644	Partial postnatal care - five visits
+^ESCTPE265827	Perinatal jaundice due to fetal OR neonatal hepatitis
+^ESCTPE265828	Perinatal jaundice due to giant cell hepatitis
+^ESCTPE265830	Perinatal jaundice due to foetal OR neonatal hepatitis
+^ESCTPE266848	Perinatal mortality
+^ESCTPE278312	Perinatal respiratory disorders
+^ESCTPE279376	Perinatal cutaneous hemorrhage
+^ESCTPE283698	Perinatal subarachnoid hemorrhage
+^ESCTPE283701	Perinatal intracranial subarachnoid haemorrhage
+^ESCTPE283702	Perinatal intracranial subarachnoid hemorrhage
+^ESCTPE299846	Perinatal massive pulmonary hemorrhage
+^ESCTPE316318	Perinatal condition
+^ESCTPE318280	Perinatal disorder of digestive system
+^ESCTPE322030	Perinatal adrenal hemorrhage
+^ESCTPE328872	Perinatal gastrointestinal hemorrhage
+^ESCTPE342448	Perinatal jaundice from hereditary hemolytic anemia
+^ESCTPE342450	Perinatal jaundice from hereditary hemolytic anemias
+^ESCTPE347643	Perinatal interstitial emphysema
+^ESCTPE347644	Perinatal pulmonary interstitial emphysema
+^ESCTPE348804	Petechiae in foetus OR newborn
+^ESCTPE361540	Perinatal disorders of temperature regulation
+^ESCTPE363937	Perinatal apneic spells
+^ESCTPE364848	Perinatal intraventricular hemorrhage
+^ESCTPE370110	Perinatal jaundice due to inspissated bile syndrome
+^ESCTPE439108	Perinatal anoxic-ischaemic brain injury
+^ESCTPE439109	Perinatal anoxic-ischemic brain injury
+^ESCTPE439113	Perinatal hypoxic - ischemic encephalopathy
+^ESCTPE483702	Perinatal lung intra-alveolar hemorrhage
+^ESCTPE483704	Perinatal hemoptysis
+^ESCTPE483760	Perinatal hematemesis
+^ESCTPE483764	Perinatal rectal hemorrhage
+^ESCTPE483768	Perinatal superficial hematoma
+^ESCTPE483777	Perinatal nose hemorrhage
+^ESCTPE483796	Perinatal jaundice from polycythemia
+^ESCTPE483811	Perinatal jaundice due to galactosemia
+^ESCTPE483816	Perinatal endocrine and metabolic disorders
+^ESCTPE483882	Persistent foetal circulation
+^ESCTPE558626	Perinatal cardiovascular disorders
+^ESCTPE558645	Perinatal intestinal obstruction
+^ESCTPE558744	Perinatal neurological disorder
+^ESCTPE560003	Perinatal trauma
+^ESCTPE599238	Perinatal coagulase-negative staphylococcus
+^ESCTPE659187	Perinatal necrotizing enterocolitis
+^ESCTPE659622	Perineal tear resulting from childbirth
+^ESCTPE660070	PET - Pre-eclamptic toxaemia
+^ESCTPE660072	PET - Pre-eclamptic toxemia
+^ESCTPE660074	PE - Pre-eclampsia
+^ESCTPH558693	Physiologic jaundice in newborn
+^ESCTPI347645	PIE - Perinatal pulmonary interstitial emphysema
+^ESCTPK812616	PKU (phenylketonuria) repeat screening with further sample required
+^ESCTPL303106	Plethora of newborn
+^ESCTPN266849	PND - Perinatal death
+^ESCTPO254461	Postpartum sepsis
+^ESCTPO286944	Postpartum hemorrhage specified as delayed or secondary
+^ESCTPO286945	Postpartum hemorrhage, delayed AND/OR secondary
+^ESCTPO286947	Postpartum haemorrhage specified as delayed or secondary
+^ESCTPO286948	Postpartum haemorrhage, delayed AND/OR secondary
+^ESCTPO303105	Polycythemia neonatorum
+^ESCTPO341434	Postpartum deep phlebothrombosis
+^ESCTPO341435	Postpartum deep vein thrombosis
+^ESCTPO374992	Polycythemia due to maternal-fetal transfusion
+^ESCTPO374993	Polycythaemia due to maternal-foetal transfusion
+^ESCTPO450498	Postpartal care
+^ESCTPO468257	Postnatal infection
+^ESCTPO468258	Postpartum infection
+^ESCTPO479565	Postpartum urinary tract infection
+^ESCTPO480270	Postpartum nipple infection
+^ESCTPO480276	Postpartum breast abscess
+^ESCTPO480293	Postpartum cracked nipple
+^ESCTPO510218	Postpartum obstetric operation
+^ESCTPO510219	Post-delivery obstetric operation
+^ESCTPO519226	Postnatal examination status
+^ESCTPO642623	Postnatal appointment
+^ESCTPR319178	Primary atelectasis, in perinatal period
+^ESCTPR319182	Primary failure to expand terminal respiratory units
+^ESCTPR319183	Primary atelectasis of newborn
+^ESCTPR321282	Prematurity
+^ESCTPR321283	Prematurity of foetus
+^ESCTPR483860	Pre-agonal induration
+^ESCTPR622071	Primary sleep apnea of newborn
+^ESCTPR642622	Pregnancy follow-up examination
+^ESCTPR660069	Pre-eclamptic toxaemia
+^ESCTPR660073	Pre-eclamptic toxemia
+^ESCTPU254457	Puerperal septicemia
+^ESCTPU254458	Puerperal fever
+^ESCTPU271948	Puerperal uterine subinvolution
+^ESCTPU319180	Pulmonary immaturity
+^ESCTPU333571	Pulmonary dysmaturity
+^ESCTPU339201	Pulmonary collapse in the perinatal period
+^ESCTPU339202	Pulmonary atelectasis of newborn
+^ESCTPU351391	Puerperal cardiomyopathy
+^ESCTPU480187	Puerperal septicemia - delivered with postnatal complication
+^ESCTPU480230	Puerperal pulmonary embolism
+^ESCTPY480225	Pyrexia of unknown origin during the puerperium
+^ESCTRD325607	RDS of newborn
+^ESCTRD325613	RDS - Respiratory distress syndrome of newborn
+^ESCTRE278311	Respiratory condition of fetus OR newborn
+^ESCTRE278314	Respiratory condition of foetus OR newborn
+^ESCTRE325615	Respiratory distress syndrome of newborn
+^ESCTRE325617	Respiratory distress syndrome in neonate
+^ESCTRE480063	Retained placenta with no hemorrhage with postnatal problem
+^ESCTRH391418	Rh hemolytic disease of the newborn
+^ESCTRH391419	Rh isoimmunization of the newborn
+^ESCTRH391422	Rhesus isoimmunization of the newborn
+^ESCTRH391428	Rh HDN - Rh hemolytic disease of the newborn
+^ESCTRH391429	Rh isoimmunisation of the newborn
+^ESCTRH391432	Rh haemolytic disease of the newborn
+^ESCTRH391433	Rh HDN - Rh haemolytic disease of the newborn
+^ESCTRO263413	Routine care of newborn
+^ESCTSB510624	SB - Stillbirth
+^ESCTSC480570	Scalded skin syndrome
+^ESCTSC483612	Scalp bruising due to birth trauma
+^ESCTSC483858	Sclerema adiposum
+^ESCTSC602200	Screening for disorder
+^ESCTSE343090	Severe birth asphyxia
+^ESCTSE392193	Seizures in the newborn
+^ESCTSE480059	Secondary postpartum hemorrhage - delivered with postnatal problem
+^ESCTSE483729	Sepsis of newborn caused by Staphylococcus aureus
+^ESCTSE483731	Sepsis of newborn caused by Escherichia coli
+^ESCTSE483733	Sepsis of newborn caused by anaerobes
+^ESCTSE558893	Sepsis neonatorum
+^ESCTSF549947	SFD - Fetus small-for-dates
+^ESCTSF549958	SFD - Foetus small-for-dates
+^ESCTSG549948	SGA - Small for gestational age fetus
+^ESCTSG549957	SGA - Small for gestational age foetus
+^ESCTSK514613	Skeletal injury due to birth trauma
+^ESCTSL271949	Slow involution of uterus
+^ESCTSM549955	Small for gestational age
+^ESCTSN552397	Snuffles in newborn
+^ESCTSP480114	Spinal and epidural anesthesia-induced headache during the puerperium
+^ESCTSP750916	Spine injury due to birth trauma
+^ESCTSS480571	SSSS - Staphylococcal scalded skin syndrome
+^ESCTST558925	Staphylococcal ophthalmia neonatorum
+^ESCTSU271947	Sub-involution of uterus
+^ESCTSU283699	Subarachnoid hemorrhage from any perinatal cause
+^ESCTSU283700	Subarachnoid haemorrhage from any perinatal cause
+^ESCTSU483571	Subdural and cerebral hemorrhage due to birth trauma
+^ESCTSU483650	Subconjunctival hemorrhage due to birth trauma
+^ESCTSU483751	Subarachnoid hemorrhage due to birth injury
+^ESCTSU549950	Subnormal birth weight
+^ESCTSW287807	Swallowed blood syndrome in newborn
+^ESCTSW384594	Swelling edema of scalp during labor
+^ESCTSW384595	Swelling oedema of scalp during labour
+^ESCTTA262005	Tachypnea resolving about 6 hours postnatally
+^ESCTTA262007	Tachypnoea resolving about 6 hours postnatally
+^ESCTTE483579	Tentorial laceration due to birth trauma
+^ESCTTE483641	Testicular hematoma due to birth trauma
+^ESCTTH326377	Third stage hemorrhage
+^ESCTTH479637	Thyroid dysfunction in the puerperium - baby delivered during current episode of care
+^ESCTTO514588	Toxic erythema of newborn
+^ESCTTO514592	Toxic erythema of the newborn
+^ESCTTR262003	Transitory tachypnoea of newborn
+^ESCTTR262004	Transitory tachypnea of newborn
+^ESCTTR262010	Transient tachypnoea of newborn
+^ESCTTR262014	Transient tachypnea of newborn
+^ESCTTR302519	Transient coagulation defect of newborn
+^ESCTTR326713	Transient familial neonatal hyperbilirubinaemia
+^ESCTTR326714	Transient familial neonatal hyperbilirubinemia
+^ESCTTR354455	Traumatic lesion during delivery
+^ESCTTR372597	Transient neonatal hypertyrosinaemia
+^ESCTTR372598	Transient neonatal hypertyrosinemia
+^ESCTTR372602	Transitory neonatal tyrosinemia
+^ESCTTR483705	Tracheobronchial haemorrhage originating in the perinatal period
+^ESCTTR483707	Tracheobronchial hemorrhage originating in the perinatal period
+^ESCTTR483780	Transient vaginal bleeding in newborn
+^ESCTTR483822	Transitory neonatal hypernatremia
+^ESCTTR483824	Transitory neonatal hyponatremia
+^ESCTTR483826	Transitory neonatal hyperkalemia
+^ESCTTR483828	Transitory neonatal hypokalemia
+^ESCTTR483835	Transient neonatal thrombocytopenia due to idiopathic maternal thrombocytopenia
+^ESCTTR549962	Trauma to perineum and/or vulva during delivery
+^ESCTTR558641	Transient myocardial ischemia of newborn
+^ESCTTR558692	Transient neonatal hyperbilirubinemia
+^ESCTTR834316	Transitory metabolic disorder of newborn
+^ESCTTR834317	Transitory endocrine disorder of newborn
+^ESCTTR834318	Transitory disorder of calcium and magnesium metabolism of newborn
+^ESCTTT262009	TTN - Transient tachypnoea of newborn
+^ESCTTT262013	TTN - Transient tachypnea of newborn
+^ESCTTU549917	Tumor of uterine body - baby delivered with postpartum complication
+^ESCTUM317782	Umbilical infection of newborn
+^ESCTUM385022	Umbilical hemorrhage after birth
+^ESCTUN339196	Underexpanded lung
+^ESCTUN339199	Unexpanded lung
+^ESCTUN483859	Underwood's disease
+^ESCTVE359904	Ventilator lung in newborn
+^ESCTVE549974	Venous complication of pregnancy and/or the puerperium
+^ESCTVE556026	Venereal disease in pregnancy
+^ESCTVE558876	Very premature baby
+^ESCTVI269961	Vitamin K deficiency of newborn
+^ESCTVI558908	Viral ophthalmia neonatorum
+^ESCTVU480017	Vulval and/or perineal haematoma during delivery with postnatal problem
+^ESCTVU480018	Vulval and perineal hematoma during delivery with postnatal problem
+^ESCTVU480020	Vulval and/or perineal hematoma during delivery with postnatal problem
+^ESCTVU483643	Vulval haematoma resulting from childbirth
+^ESCTVU483644	Vulval hematoma due to birth trauma
+^ESCTVU483645	Vulval hematoma resulting from childbirth
+^ESCTWE325609	Wet lung disease of newborn
+EMISBR2	Breast + supp fed at birth
+EMISIN1	Infant feeding at birth
+EMISIN2	Infant feeding at birth NOS
+EMISNQBI1	Birth to five book discussed
+EMISNQCH112	Child 6 week exam. offered
+EMISNQCH393	Child 6-8 week examination by public health nurse
+EMISNQCH394	Child 6-8 week examination due date
+EMISNQCH396	Child 6-8 week exam.:gross motor devel. normal
+EMISNQCH397	Child 6-8 week exam.:gross motor devel. abnormal
+EMISNQCH398	Child 6-8 week exam.:gross motor devel. uncertain
+EMISNQCH399	Child 6-8 week examination incomplete
+EMISNQCH400	Child 6-8 week exam.:gross motor devel. assess. incomplete
+EMISNQCH402	Child 6-8 week exam.:hearing and communication normal
+EMISNQCH403	Child 6-8 week exam.:hearing and communication abnormal
+EMISNQCH404	Child 6-8 week exam.:hearing and communication uncertain
+EMISNQCH405	Child 6-8 wk exam.:hearing and communication assess. incomplete
+EMISNQCH407	Child 6-8 week exam.:vision and social awareness normal
+EMISNQCH408	Child 6-8 week exam.:vision and social awareness abnormal
+EMISNQCH409	Child 6-8 week exam.:vision and social awareness uncertain
+EMISNQCH410	Child 6-8 wk exam.:vision and social awareness assess. incmplete
+EMISNQCH411	Child 6-8 week exam.: development
+EMISNQCH413	Child 6-8 wk exam.:pull to sit (head lag decreasing) observed
+EMISNQCH414	Child 6-8 wk exam.:pull to sit(head lag decreasing)-carer report
+EMISNQCH415	Child 6-8 wk exam.:pull to sit(head lag decreasing) not achieved
+EMISNQCH417	Child 6-8 wk exam.: ventral suspension observed
+EMISNQCH418	Child 6-8 wk exam.: ventral suspension - carer report
+EMISNQCH419	Child 6-8 week exam.: ventral suspension not achieved
+EMISNQCH421	Child 6-8 wk exam.:handling (not floppy or stiff) observed
+EMISNQCH422	Child 6-8 wk exam.:handling (not floppy or stiff)-carer report
+EMISNQCH423	Child 6-8 wk exam.:handling (not floppy or stiff) not achieved
+EMISNQCH425	Child 6-8 wk exam.:response to sudden sound observed
+EMISNQCH426	Child 6-8 wk exam.:response to sudden sound-carer report
+EMISNQCH427	Child 6-8 wk exam.:response to sudden sound not achieved
+EMISNQCH429	Child 6-8 wk exam.:response to unseen carer's voice observed
+EMISNQCH430	Child 6-8 wk exam.:response to unseen carer's voice-carer report
+EMISNQCH431	Child 6-8 wk exam.:response to unseen carer's voice not achieved
+EMISNQCH433	Child 6-8 wk exam.:intent regard of carer's face observed
+EMISNQCH434	Child 6-8 wk exam.:intent regard of carer's face-carer report
+EMISNQCH435	Child 6-8 wk exam.:intent regard of carer's face not achieved
+EMISNQCH437	Child 6-8 week exam.:following object past midline observed
+EMISNQCH438	Child 6-8 week exam.:following object past midline not achieved
+EMISNQCH440	Child 6-8 week exam.: social smile observed
+EMISNQCH441	Child 6-8 week exam.: social smile-carer report
+EMISNQCH442	Child 6-8 week exam.: social smile not achieved
+EMISNQCH443	Child 6-8 week exam. - heart
+EMISNQCH444	Child 6-8 week exam. - heart: abnormal
+EMISNQCH445	Child 6-8 week exam. - heart: normal
+EMISNQCH446	Child 6-8 week exam. - heart: uncertain
+EMISNQCH447	Child 6-8 week exam.: heart exam. incomplete
+EMISNQCH448	Child 6-8 week exam. - hip
+EMISNQCH449	Child 6-8 week exam. - hip: normal
+EMISNQCH450	Child 6-8 week exam. - hip: abnormal
+EMISNQCH451	Child 6-8 week exam. - hip: uncertain
+EMISNQCH452	Child 6-8 week exam.: hip exam. incomplete
+EMISNQCH453	Child 6-8 week exam. - testis
+EMISNQCH454	Child 6-8 week exam. - testis: normal
+EMISNQCH455	Child 6-8 week exam. - testis: uncertain
+EMISNQCH456	Child 6-8 week exam.: testis exam. incomplete
+EMISNQCH457	Child 6-8 week exam. - genitalia
+EMISNQCH458	Child 6-8 week exam. - genitalia: normal
+EMISNQCH459	Child 6-8 week exam. - testis: abnormal
+EMISNQCH460	Child 6-8 week exam. - genitalia: abnormal
+EMISNQCH461	Child 6-8 week exam. - genitalia: uncertain
+EMISNQCH462	Child 6-8 week exam.: genitalia exam. incomplete
+EMISNQCH463	Child 6-8 week exam.:following object past midline-carer report
+EMISNQCH464	Child 6-8 week exam. - femoral pulse
+EMISNQCH465	Child 6-8 week exam. - femoral pulse: normal
+EMISNQCH466	Child 6-8 week exam. - femoral pulse: abnormal
+EMISNQCH467	Child 6-8 week exam. - femoral pulse: uncertain
+EMISNQCH468	Child 6-8 week exam.: femoral pulse exam. incomplete
+EMISNQCH469	Child 6-8 week exam. - eye
+EMISNQCH470	Child 6-8 week exam. - eye: normal
+EMISNQCH471	Child 6-8 week exam. - eye: abnormal
+EMISNQCH472	Child 6-8 week exam. - eye: uncertain
+EMISNQCH473	Child 6-8 week exam.: eye exam. incomplete
+EMISNQCH474	Child 6-8 week exam. - referred
+EMISNQCH475	Child 6-8 wk exam.-referd to Scottish national spprt needs systm
+EMISNQCH476	Child 6-8 week exam. - summary comments
+EMISNQCH477	Child 6-8 week exam. - recall to doctor
+EMISNQCH478	Child 6-8 week exam. - recall to Dr (short appt)
+EMISNQCH479	Child 6-8 week exam. - recall to Dr (medium appt)
+EMISNQCH480	Child 6-8 week exam. - recall to Dr (long appt)
+EMISNQCH481	Child 6-8 week exam. - reason for recall to Dr
+EMISNQCH482	Child 6-8 week exam. - recall to public health nurse
+EMISNQCH483	Child 6-8 week exam. - recall to PHN (short appt)
+EMISNQCH484	Child 6-8 week exam. - recall to PHN (medium appt)
+EMISNQCH485	Child 6-8 week exam. - recall to PHN (long appt)
+EMISNQCH486	Child 6-8 week exam. - reason for recall to PHN
+EMISNQCH77	Child 6 week examination performed by another GP practice
+EMISNQCO152	Congenital hypothyroidism repeat screen with further sample req
+EMISNQCO154	Congenital hypothyroidism not screened for or screen incomplete
+EMISNQCO204	Congenital malformation detected at birth
+EMISNQFO63	Formula fed at birth
+EMISNQHE191	Health visitor new birth visit offered
+EMISNQHE192	Health visitor new birth visit offer accepted
+EMISNQHE81	Health visitor new birth visit - mother
+EMISNQHE82	Health visitor new birth visit - baby
+EMISNQHE83	Health visitor 6 week postnatal contact
+EMISNQHE84	Health visitor 12 month postnatal contact
+EMISNQIN197	Infant sleeping position at 6-8 weeks - prone
+EMISNQIN198	Infant sleeping position at 6-8 weeks - supine
+EMISNQIN199	Infant sleeping position at 6-8 weeks - side
+EMISNQMC1	MCADD repeat screening with further sample required
+EMISNQNE100	Newborn blood spot screening card completed
+EMISNQNE24	Neonatology
+EMISNQNE41	Newborn blood spot screening status
+EMISNQNE9	New birth visit - mother
+EMISNQNO132	Not referred to Childsmile at child 6-8 week exam.
+EMISNQPH23	Phenylketonuria repeat screening with further sample required
+EMISNQPO1	Postnatal depression discussed
+EMISNQRE429	Referred to Childsmile at child 6-8 week exam.
+EMISNQSC31	Scarf sign
+ESCTDI24	Direct maternal death
+ESCTFE4	Fetal intrapartum death
+ESCTFE4-1	Foetal intrapartum death
+ESCTPE7	Perinatal and neonatal death
