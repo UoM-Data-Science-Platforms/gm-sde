@@ -26,3 +26,7 @@ L143.00	Premature labour and delivery
 L143000	Premature labour without delivery
 635C.00	Preterm infant status
 635C.11	Preterm
+L142100	Early onset of delivery - delivered
+L142z00	Early onset of delivery NOS
+L143200	Premature labour with term delivery
+L143300	Premature delivery without labour

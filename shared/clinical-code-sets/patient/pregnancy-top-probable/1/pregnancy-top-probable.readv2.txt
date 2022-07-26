@@ -3,3 +3,9 @@ L05..12	Termination of pregnancy
 L051711	Incomplete termination of pregnancy
 8Cg..00	Pregnancy termination care
 6776000	Post-termination counselling
+67761	Pre-termination counselling
+6776.	Preg. termination counselling
+6776.00	Preg. termination counselling
+6776.11	Abortion counselling
+6776.12	TOP counselling
+6776.13	Termination counselling

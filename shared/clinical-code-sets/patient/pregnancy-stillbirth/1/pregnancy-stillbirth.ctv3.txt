@@ -1,0 +1,63 @@
+633..	Stillbirth [prevention record]
+6332.	Single stillbirth
+6334.	Twins - one still and one live born
+6335.	Twins - both stillborn
+6337.	Triplets - two live and one stillborn
+6339.	Triplets - three stillborn
+7F1A2	Cleidotomy of fetus
+L2641	Intrauterine death - delivered
+L399.	Deliveries by destructive operation
+Lyu56	[X]Other multiple delivery
+Lyu58	[X]Multiple delivery, unspecified
+Q210.	Fetal death due to prelabour anoxia
+Q211.	Fetal death due to labour anoxia
+Q4z..	Stillbirth NEC
+X40E3	Stillbirth
+X40E4	Fresh stillbirth
+X40E5	Macerated stillbirth
+X70EK	Stillbirth NEC
+Xa1ce	Livebirth
+Xa1cf	Stillbirth [prevention record]
+Xa1qO	Multiple birth delivery
+XabUX	Antepartum stillbirth
+XaC1F	[X]Fresh stillbirth
+XaC1G	[X]Macerated stillbirth
+XE1gF	Stillbirth
+XE2IB	Medical certificate of still-birth
+ZV27.	[V]Stillbirth
+ZV271	[V]Single stillbirth
+ZV273	[V]Twins, one live born and one stillborn
+ZV274	[V]Twins, both stillborn
+ZV275	[V]Other multiple birth, all live born
+ZV277	[V]Other multiple birth, all stillborn
+ZV310	[V]Twin, born in hospital, mate live born
+ZV32.	[V]Twin, mate stillborn
+ZV320	[V]Twin, born in hospital, mate stillborn
+ZV32z	[V]Twin, mate stillborn NOS
+ZV330	[V]Twin, unspecified, born in hospital
+ZV34.	[V]Other multiple birth, mates live born
+ZV340	[V]Other multiple birth, born in hospital, mates live born
+ZV341	[V]Other multiple birth, born before admission to hospital, mates liveborn
+ZV342	[V]Other multiple birth, born outside hospital and not hospitalised, mates liveborn
+ZV34z	[V]Other multiple birth, mates live born, NOS
+ZV35.	[V]Other multiple birth, mates stillborn
+ZV350	[V]Other multiple birth, born in hospital, mates stillborn
+ZV351	[V]Other multiple birth, born before admission to hospital, mates stillborn
+ZV352	[V]Other multiple birth, born outside hospital and not hospitalised, mates stillborn
+ZV35z	[V]Other multiple birth, mates stillborn, NOS
+ZV36.	[V]Other multiple birth, mates live and stillborn
+ZV360	[V]Other multiple birth, born in hospital, mates live and stillborn
+ZV361	[V]Other multiple birth, born before admission to hospital, mates live and stillborn
+ZV362	[V]Other multiple birth, born outside hospital and not hospitalised, mates live and stillborn
+ZV36z	[V]Other multiple birth, mates live and stillborn NOS
+ZV3y.	[V]Other multiple birth, unspecified
+ZV3y0	[V]Other multiple birth, unspecified, born in hospital
+ZV3y1	[V]Other multiple birth, unspecified, born before admission to hospital
+ZV3y2	[V]Other multiple birth, unspecified, born outside hospital and not hospitalised
+ZV3yz	[V]Other multiple birth, unspecified, NOS
+ZVu2A	[X]Other multiple births, all liveborn
+ZVu2B	[X]Other multiple births, some liveborn
+ZVu2C	[X]Other multiple births, all stillborn
+ZVu2D	[X]Other multiple liveborn infants, born in hospital
+ZVu2E	[X]Other multiple liveborn infants, born outside hospital
+ZVu2F	[X]Oth multip liveborn infants, unspec as to place of birth

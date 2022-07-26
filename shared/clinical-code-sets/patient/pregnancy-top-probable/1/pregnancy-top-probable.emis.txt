@@ -1,0 +1,17 @@
+^ESCTAB645869	Abortion
+^ESCTCO493930	Counselling following termination of pregnancy
+^ESCTCO493931	Counseling following termination of pregnancy
+^ESCTPO493929	Post-termination counseling
+^ESCTTO645868	TOP - Termination of pregnancy
+EMISNQPO22	Post-termination counselling
+EMISNQPR60	Pregnancy termination care
+^ESCTAB266519	Abortion counseling
+^ESCTCO266510	Counselling for termination of pregnancy
+^ESCTCO266511	Counseling for termination of pregnancy
+^ESCTCO266512	Counseling for abortion
+^ESCTCO266513	Counselling for abortion
+^ESCTTE266518	Termination counseling
+^ESCTTO266517	TOP counseling
+^ESCTCO493934	Counseling prior to the termination of pregnancy
+^ESCTCO493935	Counselling prior to the termination of pregnancy
+^ESCTPR493933	Pre-termination counseling
