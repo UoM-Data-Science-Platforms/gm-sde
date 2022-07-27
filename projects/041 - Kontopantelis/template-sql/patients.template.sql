@@ -68,6 +68,8 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 -- DEFINE COHORT
 --> EXECUTE query-build-rq041-cohort.sql
 
+--> CODESET hypertension:1 diabetes:1
+
 -- FIND WHICH PATIENTS IN THE COHORT HAD HYPERTENSION OR DIABETES AND THE DATE OF EARLIEST DIAGNOSIS
 
 IF OBJECT_ID('tempdb..#hypertension') IS NOT NULL DROP TABLE #hypertension;
@@ -211,8 +213,9 @@ SELECT  PatientId = p.FK_Patient_Link_ID,
 		AEEncountersAfter1stMarch2020 = ae_a.ae_encounters,
 		GPAppointmentsBefore1stMarch2020 = gp_b.gp_appointments,
 		GPAppointmentsAfter1stMarch2020 =  gp_a.gp_appointments,
-		EvidenceOfCKD_egfr,
-		EvidenceOfCKD_acr,
+		EvidenceOfCKD_egfr,	-- egfr tests indicating stages 3 - 5
+		EvidenceOfCKD_combo, -- egfr indicating stage 1 or 2, with ACR evidence or kidney damage
+		EvidenceOfCKD_acr, -- acr tests indicating stages A2 or A3
 		HypertensionAtStudyStart = CASE WHEN hyp.FK_Patient_Link_ID IS NOT NULL AND hyp.EarliestDiagnosis <= @StartDate THEN 1 ELSE 0 END,
 		HypertensionDuringStudyPeriod = CASE WHEN hyp.FK_Patient_Link_ID IS NOT NULL AND hyp.EarliestDiagnosis BETWEEN @StartDate AND @EndDate THEN 1 ELSE 0 END,
 		DiabetesAtStudyStart = CASE WHEN dia.FK_Patient_Link_ID IS NOT NULL AND dia.EarliestDiagnosis <= @StartDate THEN 1 ELSE 0 END,
