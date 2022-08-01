@@ -1078,25 +1078,7 @@ EMISHGT009	U-S scan fetal abdominal circumference
 EMISHGT010	U-S scan fetal length
 EMISHGT011	Placenta Praevia - major (across internal os)
 EMISHGT012	Placenta Praevia - minor (not across os)
-EMISLI1	Lifestyle advice
-EMISNQ248	24 hour ECG - enhanced services administration
-EMISNQAD103	Advice to carer regarding continence management
-EMISNQAD119	Advice to carer about use of urinary catheter care record
-EMISNQAD125	Advice about property protection
-EMISNQAD126	Advice given about repatriation
-EMISNQAD127	Advice about making a will
-EMISNQAD29	Advice about documentation procedure
-EMISNQAD30	Advice about assessment of mental capacity
-EMISNQAD31	Advice about use of equipment
 EMISNQAD49	Advice about antenatal screening
-EMISNQAD52	Advice on yellow fever vaccination
-EMISNQAD70	Advice on meningitis vaccination
-EMISNQAD71	Advice on measles, mumps and rubella vaccination
-EMISNQAD74	Advice about vitamin D supplementation
-EMISNQAD79	Advice to carer regarding side effects of child immunisation
-EMISNQAD83	Advice from child protection unit
-EMISNQAD93	Advice about acne management
-EMISNQAD94	Advice to carer regarding child vitamin supplementation
 EMISNQAN14	Antenatal sickle cell screening test offered
 EMISNQAN25	Antenatal depression
 EMISNQAN27	Antenatal blood group antibody screen
@@ -1106,13 +1088,7 @@ EMISNQAN33	A/N 22 week examination
 EMISNQAN34	A/N 25 week examination
 EMISNQAN35	A/N 31 week examination
 EMISNQAN63	Antenatal examination - 1st contact with healthcare professional
-EMISNQBR35	Breast cancer follow up - enhanced services administration
-EMISNQCA1046	Care home enhanced services administration
-EMISNQCA1056	Care home visit for annual patient review
-EMISNQCA1057	Care home visit for mid-year patient review
 EMISNQCA973	Cardiotocogram (CTG)
-EMISNQCA974	Cancer follow up - enhanced services administration
-EMISNQCO125	Complex skin ulcer care - enhanced services administration
 EMISNQDN17	DNA pertussis vaccination in pregnancy-enhanced serv admin
 EMISNQDO33	Does not wish to participate in remote care monitoring - ESA
 EMISNQED4	Education about listeria precautions during pregnancy
@@ -1166,40 +1142,8 @@ EMISNQPE45	Pertussis vaccination in pregnancy-enhanced serv admin
 EMISNQPH45	PHN first visit-referrd to Scottish national support needs systm
 EMISNQPH46	PHN first visit - summary comments
 EMISNQPO22	Post-termination counselling
-EMISNQPO58	Post-vaccination advice given
-EMISNQPR149	Prostate cancer follow up - enhanced services administration
 EMISNQPR48	Premenstrual dysphoric disorder
 EMISNQPR59	Pre-termination counselling
-EMISNQPU8	Public health nurse first visit
-EMISNQRE452	Remote care monitoring - enhanced services administration
-EMISNQSE108	Seen in drug misuse clinic
-EMISNQSE115	Seen in CAMHS community drop in clinic
-EMISNQSE118	Severe mental illness - enhanced service completed
-EMISNQSE119	Seen in lymphoedema clinic
-EMISNQSE125	Seen in spinal clinic
-EMISNQSE131	Seen in rapid access clinic at GP surgery
-EMISNQSE138	Seen in influenza vaccination clinic
-EMISNQSE144	Seen in minor eye conditions clinic
-EMISNQSE146	Seen in functional bowel clinic
-EMISNQSE148	Seen in gender identity clinic
-EMISNQSE151	Seen in virtual clinic
-EMISNQSE155	Seen in joint functional vision clinic
-EMISNQSE22	Seen in fetal medicine clinic
-EMISNQSE25	Seen in eating disorders clinic
-EMISNQSE31	Seen in haematuria clinic
-EMISNQSE32	Seen in early pregnancy unit
-EMISNQSE34	Seen in enuresis clinic
-EMISNQSE44	Seen in Cystic Fibrosis clinic
-EMISNQSE48	Seen in day surgery unit
-EMISNQSE52	Seen in bariatric surgery clinic
-EMISNQSE54	Seen in Sickle Cell and Thalassaemia clinic
-EMISNQSE55	Seen in paediatric endocrinology clinic
-EMISNQSE56	Seen in paediatric otolaryngology clinic
-EMISNQSE7	Seen in dietetic clinic
-EMISNQSE75	Seen in injection clinic
-EMISNQSE76	Severe mental illness - enhanced services administration
-EMISNQSE77	Seen in ear care clinic
-EMISNQSE79	Seen in chronic obstructive pulmonary disease clinic
 EMISNQTR10	Transvaginal obstetric US scan
 EMISNQTR11	Transvaginal obstetric US scan for cervical length
 EMISNQTR12	Transvaginal nuchal ultrasound scan

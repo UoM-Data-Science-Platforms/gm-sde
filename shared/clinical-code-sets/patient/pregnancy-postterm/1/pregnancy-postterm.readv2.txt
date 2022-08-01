@@ -16,8 +16,6 @@ Q12z.00	Large or postmature infant NOS
 L150000	Post-term pregnancy unspecified
 L150200	Post-term pregnancy - not delivered
 Z244400	Late onset of labour
-Q12..	Disorders relating to long gestation and high birthweight
 Q12..00	Disorders relating to long gestation and high birthweight
 Q12..11	Large baby born
-Q121.	Other large-for-dates infant
 Q121.00	Other "large-for-dates" infant

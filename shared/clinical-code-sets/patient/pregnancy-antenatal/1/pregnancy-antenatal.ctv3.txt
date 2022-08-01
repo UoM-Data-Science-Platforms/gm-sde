@@ -490,21 +490,10 @@
 9598.	GMS2 claim - HA contacted re mistake
 9599.	GMS2 claim - HA make up payment
 959A.	GMS2 claim - HA dispute fee due
-9N0..	Further site of encounter
-9N0..	Other site of encounter
-9N1..	Place of encounter
 9N1N.	Seen in antenatal clinic
 9N1y.	Seen in other clinic
-9N1Z.	Site of encounter NOS
-9NF..	Home visit admin
-9NFZ.	Home visit admin NOS
-9NZ..	Patient encounter data NOS
 B911.	Neoplasm of uncertain behaviour of placenta
 B911z	Uncertain neoplasm of placenta NOS
-E11..	Depressive psychoses
-E2B..	Depressive disorder NEC
-Eu32y	[X] Depression: [other episodes] or [atypical] or [single episode masked NOS]
-Eu32z	[X] (Depression: [episode, unspecified] or [NOS (& reactive)] or [depressive disorder NOS]
 K555.	Cervical incompetence
 K55y.	Other noninflammatory cervical disorders
 K55yz	Other noninflammatory cervical disorder NOS
@@ -1255,7 +1244,6 @@ Ua02k	Advice about use of equipment
 Ua0sv	Antenatal clinic
 Ua1O2	Post-termination counselling
 Ua1O3	Pre-termination counselling
-X00SO	Depressed
 X2064	Genital varices in pregnancy
 X2064	Perineal varices in pregnancy
 X307F	Cholestasis of pregnancy
@@ -1465,12 +1453,10 @@ XaB42	Other isoimmunisation of the newborn
 Xab6f	Destruction of fetus
 XaB9F	Urinary tract infection in pregnancy
 XaB9F	UTI - urinary tract infection in pregnancy
-XaB9J	Depression NOS
 XabBa	24 hour ECG (electrocardiogram) enhanced services administration
 XabBa	24 hour electrocardiogram enhanced services administration
 XabBT	Home visit request by district nurse
 XabBZ	Care home enhanced services administration
-Xabcv	Seen in spinal clinic
 XabDC	Plasma human chorionic gonadotrophin concentration
 XabdI	Gestation less than 28 weeks
 XaBDj	Unspecified inevitable abortion with other specified complication

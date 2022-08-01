@@ -1,14 +1,8 @@
-^ESCTCH510479	CHM - Complete hydatidiform mole
-^ESCTCH689545	Chorioadenoma
-^ESCTCH689546	Chorioadenoma destruens
-^ESCTGT689168	GTD - Gestational trophoblastic disease
-^ESCTHY690119	Hydatidiform mole, benign
-^ESCTHY690120	Hydatid mole
-^ESCTIM689547	IM - Invasive mole
-^ESCTIN689548	Invasive mole
-^ESCTMO690122	Molar pregnancy with hydatid mole
-^ESCTMO690123	Molar pregnancy with vesicular mole
-^ESCTPA510481	Partial hydatidiform mole
-^ESCTPH510483	PHM - Partial hydatidiform mole
-^ESCTTR441489	Trophoblastic tumor, epithelioid
-^ESCTTR689169	Trophoblastic disease
+^ESCTBL572136	Blighted ovum and/or carneous mole
+^ESCTBL572137	Blighted ovum - carneous mole
+^ESCTCH474976	Chorioepithelioma
+^ESCTCH474977	Chorionepithelioma
+^ESCTEM307997	Empty gestational sac with ongoing pregnancy
+^ESCTPA307996	Pathologic ovum
+^ESCTRE307998	Resorbed fetus
+^ESCTRE308000	Resorbed foetus

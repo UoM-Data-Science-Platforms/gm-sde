@@ -1,15 +1,3 @@
-7E087	Dilation of cervix uteri and curettage of uterus for removal of mole
-B9110	Choriadenoma (destruens)
-L00..	Hydatidiform mole
-L000.	(Hydatidiform) and/or mole)
-L011.	Carneous mole
-X40B4	CHM - Complete hydatidiform mole
-X40B5	Incomplete hydatidiform mole
-X40B6	Gestational trophoblastic tumour
-Xa9CQ	Gestational trophoblastic disease
-XaEVy	Carneous mole
-XaEWW	Fleshy mole
-XaZBf	Classical hydatidiform mole
-XE0xi	Carneous mole
-XE2vj	Invasive hydatidiform mole
-XSN6y	Epithelioid trophoblastic tumour
+B420.	Choriocarcinoma
+L010.	Blighted ovum
+Xa3gB	Blighted ovum - carneous mole

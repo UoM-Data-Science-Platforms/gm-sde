@@ -1,14 +1,116 @@
-^ESCTCH510479	CHM - Complete hydatidiform mole
-^ESCTCH689545	Chorioadenoma
-^ESCTCH689546	Chorioadenoma destruens
-^ESCTGT689168	GTD - Gestational trophoblastic disease
-^ESCTHY690119	Hydatidiform mole, benign
-^ESCTHY690120	Hydatid mole
-^ESCTIM689547	IM - Invasive mole
-^ESCTIN689548	Invasive mole
-^ESCTMO690122	Molar pregnancy with hydatid mole
-^ESCTMO690123	Molar pregnancy with vesicular mole
-^ESCTPA510481	Partial hydatidiform mole
-^ESCTPH510483	PHM - Partial hydatidiform mole
-^ESCTTR441489	Trophoblastic tumor, epithelioid
-^ESCTTR689169	Trophoblastic disease
+^ESCT1190304	Unspec spontaneous abortion + other specified complication
+^ESCT1244971	Other specified complication following abortive pregnancy
+^ESCT1245038	Unspecified legal abortion + damage to pelvic organs/tissues
+^ESCT1245039	Unspecified legal abortion + delayed/excessive haemorrhage
+^ESCT1245040	Unspecified legal abortion + genital tract/pelvic infection
+^ESCT1245041	Unspecified legal abortion with embolism
+^ESCT1245042	Unspecified legal abortion with metabolic disorder
+^ESCT1245043	Unspecified legal abortion with other specified complication
+^ESCT1245044	Unspecified legal abortion with renal failure
+^ESCT1245045	Unspecified legal abortion with shock
+^ESCT1248480	Delayed/excess haemorrhage NOS following abortive pregnancy
+^ESCT1271623	Abortion
+^ESCT1271716	Complications following abortion and ectopic and molar pregnancies
+^ESCT1271718	Endometritis following abortive pregnancy
+^ESCT1275783	Unspecified abortion
+^ESCT1275784	Pregnancy with abortive outcome
+^ESCT1407505	Induction of abortion by dilation and curettage
+^ESCT1407506	Dilation and curettage for termination of pregnancy
+^ESCT1407507	Dilatation and evacuation termination of pregnancy
+^ESCTAB266519	Abortion counseling
+^ESCTCO266510	Counselling for termination of pregnancy
+^ESCTCO266511	Counseling for termination of pregnancy
+^ESCTCO266512	Counseling for abortion
+^ESCTCO266513	Counselling for abortion
+^ESCTCO451510	Complete spontaneous abortion
+^ESCTCU509997	Curettage of uterus and endometrial sampling
+^ESCTDC268171	D&C - Dilatation and curettage
+^ESCTDI268170	Dilatation and curettage
+^ESCTDI556837	Dilatation of cervix and curettage of retained products of conception
+^ESCTER510000	ERPOC - Evacuation of retained products of conception
+^ESCTER510001	ERPC - Evacuation of retained products of conception
+^ESCTIN451508	Incomplete spontaneous abortion
+^ESCTIN479308	Incomplete spontaneous abortion with delayed or excessive hemorrhage
+^ESCTIN479309	Incomplete miscarriage with delayed or excessive haemorrhage
+^ESCTIN479320	Incomplete pregnancy loss with shock
+^ESCTIN479431	Intravascular hemolysis following abortive pregnancy
+^ESCTIN749819	Induced termination of pregnancy with complication
+^ESCTIN749822	Induced termination of pregnancy complicated by delayed and/or excessive haemorrhage
+^ESCTIN749825	Induced termination of pregnancy complicated by delayed and/or excessive hemorrhage
+^ESCTIN749826	Induced termination of pregnancy complicated by embolism
+^ESCTIN749828	Induced termination of pregnancy complicated by genital-pelvic infection
+^ESCTIN749830	Induced termination of pregnancy complicated by metabolic disorder
+^ESCTIN749832	Induced termination of pregnancy complicated by renal failure
+^ESCTIN749834	Induced termination of pregnancy complicated by shock
+^ESCTIN749836	Induced termination of pregnancy complicated by acute necrosis of liver
+^ESCTIN749837	Induced termination of pregnancy complicated by acute renal failure
+^ESCTIN749839	Induced termination of pregnancy complicated by afibrinogenaemia
+^ESCTIN749842	Induced termination of pregnancy complicated by afibrinogenemia
+^ESCTIN749843	Induced termination of pregnancy complicated by air embolism
+^ESCTIN749845	Induced termination of pregnancy complicated by amniotic fluid embolism
+^ESCTIN749847	Induced termination of pregnancy complicated by blood-clot embolism
+^ESCTIN749851	Induced termination of pregnancy complicated by cerebral anoxia
+^ESCTIN749853	Induced termination of pregnancy complicated by defibrination syndrome
+^ESCTIN749859	Induced termination of pregnancy complicated by fat embolism
+^ESCTIN749875	Induced termination of pregnancy complicated by acute renal failure with oliguria
+^ESCTIN749876	Induced termination of pregnancy complicated by parametritis
+^ESCTIN749878	Induced termination of pregnancy complicated by pelvic peritonitis
+^ESCTIN749890	Induced termination of pregnancy complicated by pulmonary embolism
+^ESCTIN749892	Induced termination of pregnancy complicated by renal tubular necrosis
+^ESCTIN749894	Induced termination of pregnancy complicated by salpingitis
+^ESCTIN749898	Induced termination of pregnancy complicated by sepsis
+^ESCTIN749900	Induced termination of pregnancy complicated by septic embolism
+^ESCTIN749904	Induced termination of pregnancy complicated by soap embolism
+^ESCTIN749906	Induced termination of pregnancy complicated by uraemia
+^ESCTIN749909	Induced termination of pregnancy complicated by uremia
+^ESCTIN749910	Induced termination of pregnancy complicated by urinary tract infection
+^ESCTIN749928	Induced termination of pregnancy complicated by bladder damage
+^ESCTIN749929	Induced termination of pregnancy complicated by bowel damage
+^ESCTIN749930	Induced termination of pregnancy complicated by broad ligament damage
+^ESCTIN749931	Induced termination of pregnancy complicated by cardiac arrest
+^ESCTIN749932	Induced termination of pregnancy complicated by cardiac failure
+^ESCTIN749933	Induced termination of pregnancy complicated by cervix damage
+^ESCTIN749936	Induced termination of pregnancy complicated by periurethral tissue damage
+^ESCTIN749938	Induced termination of pregnancy complicated by uterus damage
+^ESCTIN749939	Induced termination of pregnancy complicated by vaginal damage
+^ESCTMI254324	Miscarriage complicated by delayed and/or excessive haemorrhage
+^ESCTMI254327	Miscarriage complicated by delayed and/or excessive hemorrhage
+^ESCTSP254325	Spontaneous abortion complicated by delayed AND/OR excessive hemorrhage
+^ESCTSP254326	Spontaneous abortion complicated by delayed AND/OR excessive haemorrhage
+^ESCTSP267004	Spontaneous abortion complicated by renal failure
+^ESCTSP305728	Spontaneous abortion with complication
+^ESCTSU600202	Suction evacuation of retained products of conception
+^ESCTTE266518	Termination counseling
+^ESCTTE749823	Termination of pregnancy complicated by delayed and/or excessive hemorrhage
+^ESCTTE749824	Termination of pregnancy complicated by delayed and/or excessive haemorrhage
+^ESCTTE749827	Termination of pregnancy complicated by embolism
+^ESCTTE749829	Termination of pregnancy complicated by genital-pelvic infection
+^ESCTTE749831	Termination of pregnancy complicated by metabolic disorder
+^ESCTTE749833	Termination of pregnancy complicated by renal failure
+^ESCTTE749835	Termination of pregnancy complicated by shock
+^ESCTTE749838	Termination of pregnancy complicated by acute renal failure
+^ESCTTE749840	Termination of pregnancy complicated by afibrinogenemia
+^ESCTTE749841	Termination of pregnancy complicated by afibrinogenaemia
+^ESCTTE749844	Termination of pregnancy complicated by air embolism
+^ESCTTE749846	Termination of pregnancy complicated by amniotic fluid embolism
+^ESCTTE749848	Termination of pregnancy complicated by blood-clot embolism
+^ESCTTE749852	Termination of pregnancy complicated by cerebral anoxia
+^ESCTTE749854	Termination of pregnancy complicated by defibrination syndrome
+^ESCTTE749860	Termination of pregnancy complicated by fat embolism
+^ESCTTE749877	Termination of pregnancy complicated by parametritis
+^ESCTTE749879	Termination of pregnancy complicated by pelvic peritonitis
+^ESCTTE749891	Termination of pregnancy complicated by pulmonary embolism
+^ESCTTE749893	Termination of pregnancy complicated by renal tubular necrosis
+^ESCTTE749895	Termination of pregnancy complicated by salpingitis
+^ESCTTE749899	Termination of pregnancy complicated by sepsis
+^ESCTTE749901	Termination of pregnancy complicated by septic embolism
+^ESCTTE749905	Termination of pregnancy complicated by soap embolism
+^ESCTTE749907	Termination of pregnancy complicated by uraemia
+^ESCTTE749908	Termination of pregnancy complicated by uremia
+^ESCTTE749911	Termination of pregnancy complicated by urinary tract infection
+^ESCTTO266517	TOP counseling
+^ESCTVA277560	Vaginal expulsion of product of conception
+^ESCTVA277561	Vaginal expulsion of fetus
+^ESCTVA277562	Vaginal expulsion of foetus
+EMISNQPO22	Post-termination counselling
+EMISNQPR59	Pre-termination counselling
