@@ -33,6 +33,26 @@ IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
+------------------------------------------------------------------------------
+--┌────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+--│ Define Cohort for RQ032: patients that had a diabetes intervention and are included in the MyWay Dataset   │
+--└────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+-- OBJECTIVE: To build the cohort of patients needed for RQ032. This reduces duplication of code in the template scripts.
+
+-- COHORT: Any patient in the DiabetesMyWay data, with 20:1 matched controls that have Type 2 Diabetes. More detail in the comments throughout this script.
+
+-- INPUT: assumes there exists one temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: Temp tables as follows:
+-- #MainCohort
+-- #MatchedCohort
+-- #PatientEventData
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 -- >>> Codesets required... Inserting the code set code
 --
 --┌────────────────────┐
@@ -68,17 +88,23 @@ CREATE TABLE #codesreadv2 (
   [concept] [varchar](255) NOT NULL,
   [version] INT NOT NULL,
 	[code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+	[term] [varchar](20) COLLATE Latin1_General_CS_AS NULL,
 	[description] [varchar](255) NULL
 ) ON [PRIMARY];
 
 INSERT INTO #codesreadv2
-VALUES ('diabetes-type-ii',1,'C100100','Diabetes mellitus, adult onset, with no mention of complication'),('diabetes-type-ii',1,'C1001','Diabetes mellitus, adult onset, with no mention of complication'),('diabetes-type-ii',1,'C100112','Non-insulin dependent diabetes mellitus'),('diabetes-type-ii',1,'C1001','Non-insulin dependent diabetes mellitus'),('diabetes-type-ii',1,'C101100','Diabetes mellitus, adult onset, with ketoacidosis'),('diabetes-type-ii',1,'C1011','Diabetes mellitus, adult onset, with ketoacidosis'),('diabetes-type-ii',1,'C102100','Diabetes mellitus, adult onset, with hyperosmolar coma'),('diabetes-type-ii',1,'C1021','Diabetes mellitus, adult onset, with hyperosmolar coma'),('diabetes-type-ii',1,'C103100','Diabetes mellitus, adult onset, with ketoacidotic coma'),('diabetes-type-ii',1,'C1031','Diabetes mellitus, adult onset, with ketoacidotic coma'),('diabetes-type-ii',1,'C104100','Diabetes mellitus, adult onset, with renal manifestation'),('diabetes-type-ii',1,'C1041','Diabetes mellitus, adult onset, with renal manifestation'),('diabetes-type-ii',1,'C105100','Diabetes mellitus, adult onset, with ophthalmic manifestation'),('diabetes-type-ii',1,'C1051','Diabetes mellitus, adult onset, with ophthalmic manifestation'),('diabetes-type-ii',1,'C106100','Diabetes mellitus, adult onset, with neurological manifestation'),('diabetes-type-ii',1,'C1061','Diabetes mellitus, adult onset, with neurological manifestation'),('diabetes-type-ii',1,'C107100','Diabetes mellitus, adult onset, with peripheral circulatory disorder'),('diabetes-type-ii',1,'C1071','Diabetes mellitus, adult onset, with peripheral circulatory disorder'),('diabetes-type-ii',1,'C109.00','Non-insulin dependent diabetes mellitus'),('diabetes-type-ii',1,'C109.','Non-insulin dependent diabetes mellitus'),('diabetes-type-ii',1,'C109.11','NIDDM - Non-insulin dependent diabetes mellitus'),('diabetes-type-ii',1,'C109.','NIDDM - Non-insulin dependent diabetes mellitus'),('diabetes-type-ii',1,'C109.12','Type 2 diabetes mellitus'),('diabetes-type-ii',1,'C109.','Type 2 diabetes mellitus'),('diabetes-type-ii',1,'C109.13','Type II diabetes mellitus'),('diabetes-type-ii',1,'C109.','Type II diabetes mellitus'),('diabetes-type-ii',1,'C109000','Non-insulin-dependent diabetes mellitus with renal complications'),('diabetes-type-ii',1,'C1090','Non-insulin-dependent diabetes mellitus with renal complications'),('diabetes-type-ii',1,'C109011','Type II diabetes mellitus with renal complications'),('diabetes-type-ii',1,'C1090','Type II diabetes mellitus with renal complications'),('diabetes-type-ii',1,'C109012','Type 2 diabetes mellitus with renal complications'),('diabetes-type-ii',1,'C1090','Type 2 diabetes mellitus with renal complications'),('diabetes-type-ii',1,'C109100','Non-insulin-dependent diabetes mellitus with ophthalmic complications'),('diabetes-type-ii',1,'C1091','Non-insulin-dependent diabetes mellitus with ophthalmic complications'),('diabetes-type-ii',1,'C109111','Type II diabetes mellitus with ophthalmic complications'),('diabetes-type-ii',1,'C1091','Type II diabetes mellitus with ophthalmic complications'),('diabetes-type-ii',1,'C109112','Type 2 diabetes mellitus with ophthalmic complications'),('diabetes-type-ii',1,'C1091','Type 2 diabetes mellitus with ophthalmic complications'),('diabetes-type-ii',1,'C109200','Non-insulin-dependent diabetes mellitus with neurological complications'),('diabetes-type-ii',1,'C1092','Non-insulin-dependent diabetes mellitus with neurological complications'),('diabetes-type-ii',1,'C109211','Type II diabetes mellitus with neurological complications'),('diabetes-type-ii',1,'C1092','Type II diabetes mellitus with neurological complications'),('diabetes-type-ii',1,'C109212','Type 2 diabetes mellitus with neurological complications'),('diabetes-type-ii',1,'C1092','Type 2 diabetes mellitus with neurological complications'),('diabetes-type-ii',1,'C109300','Non-insulin-dependent diabetes mellitus with multiple complications'),('diabetes-type-ii',1,'C1093','Non-insulin-dependent diabetes mellitus with multiple complications'),('diabetes-type-ii',1,'C109311','Type II diabetes mellitus with multiple complications'),('diabetes-type-ii',1,'C1093','Type II diabetes mellitus with multiple complications'),('diabetes-type-ii',1,'C109312','Type 2 diabetes mellitus with multiple complications'),('diabetes-type-ii',1,'C1093','Type 2 diabetes mellitus with multiple complications'),('diabetes-type-ii',1,'C109400','Non-insulin dependent diabetes mellitus with ulcer'),('diabetes-type-ii',1,'C1094','Non-insulin dependent diabetes mellitus with ulcer'),('diabetes-type-ii',1,'C109411','Type II diabetes mellitus with ulcer'),('diabetes-type-ii',1,'C1094','Type II diabetes mellitus with ulcer'),('diabetes-type-ii',1,'C109412','Type 2 diabetes mellitus with ulcer'),('diabetes-type-ii',1,'C1094','Type 2 diabetes mellitus with ulcer'),('diabetes-type-ii',1,'C109500','Non-insulin dependent diabetes mellitus with gangrene'),('diabetes-type-ii',1,'C1095','Non-insulin dependent diabetes mellitus with gangrene'),('diabetes-type-ii',1,'C109511','Type II diabetes mellitus with gangrene'),('diabetes-type-ii',1,'C1095','Type II diabetes mellitus with gangrene'),('diabetes-type-ii',1,'C109512','Type 2 diabetes mellitus with gangrene'),('diabetes-type-ii',1,'C1095','Type 2 diabetes mellitus with gangrene'),('diabetes-type-ii',1,'C109600','Non-insulin-dependent diabetes mellitus with retinopathy'),('diabetes-type-ii',1,'C1096','Non-insulin-dependent diabetes mellitus with retinopathy'),('diabetes-type-ii',1,'C109611','Type II diabetes mellitus with retinopathy'),('diabetes-type-ii',1,'C1096','Type II diabetes mellitus with retinopathy'),('diabetes-type-ii',1,'C109612','Type 2 diabetes mellitus with retinopathy'),('diabetes-type-ii',1,'C1096','Type 2 diabetes mellitus with retinopathy'),('diabetes-type-ii',1,'C109700','Non-insulin dependent diabetes mellitus - poor control'),('diabetes-type-ii',1,'C1097','Non-insulin dependent diabetes mellitus - poor control'),('diabetes-type-ii',1,'C109711','Type II diabetes mellitus - poor control'),('diabetes-type-ii',1,'C1097','Type II diabetes mellitus - poor control'),('diabetes-type-ii',1,'C109712','Type 2 diabetes mellitus - poor control'),('diabetes-type-ii',1,'C1097','Type 2 diabetes mellitus - poor control'),('diabetes-type-ii',1,'C109900','Non-insulin-dependent diabetes mellitus without complication'),('diabetes-type-ii',1,'C1099','Non-insulin-dependent diabetes mellitus without complication'),('diabetes-type-ii',1,'C109911','Type II diabetes mellitus without complication'),('diabetes-type-ii',1,'C1099','Type II diabetes mellitus without complication'),('diabetes-type-ii',1,'C109912','Type 2 diabetes mellitus without complication'),('diabetes-type-ii',1,'C1099','Type 2 diabetes mellitus without complication'),('diabetes-type-ii',1,'C109A00','Non-insulin dependent diabetes mellitus with mononeuropathy'),('diabetes-type-ii',1,'C109A','Non-insulin dependent diabetes mellitus with mononeuropathy'),('diabetes-type-ii',1,'C109A11','Type II diabetes mellitus with mononeuropathy'),('diabetes-type-ii',1,'C109A','Type II diabetes mellitus with mononeuropathy'),('diabetes-type-ii',1,'C109A12','Type 2 diabetes mellitus with mononeuropathy'),('diabetes-type-ii',1,'C109A','Type 2 diabetes mellitus with mononeuropathy'),('diabetes-type-ii',1,'C109B00','Non-insulin dependent diabetes mellitus with polyneuropathy'),('diabetes-type-ii',1,'C109B','Non-insulin dependent diabetes mellitus with polyneuropathy'),('diabetes-type-ii',1,'C109B11','Type II diabetes mellitus with polyneuropathy'),('diabetes-type-ii',1,'C109B','Type II diabetes mellitus with polyneuropathy'),('diabetes-type-ii',1,'C109B12','Type 2 diabetes mellitus with polyneuropathy'),('diabetes-type-ii',1,'C109B','Type 2 diabetes mellitus with polyneuropathy'),('diabetes-type-ii',1,'C109C00','Non-insulin dependent diabetes mellitus with nephropathy'),('diabetes-type-ii',1,'C109C','Non-insulin dependent diabetes mellitus with nephropathy'),('diabetes-type-ii',1,'C109C11','Type II diabetes mellitus with nephropathy'),('diabetes-type-ii',1,'C109C','Type II diabetes mellitus with nephropathy'),('diabetes-type-ii',1,'C109C12','Type 2 diabetes mellitus with nephropathy'),('diabetes-type-ii',1,'C109C','Type 2 diabetes mellitus with nephropathy'),('diabetes-type-ii',1,'C109D00','Non-insulin dependent diabetes mellitus with hypoglycaemic coma'),('diabetes-type-ii',1,'C109D','Non-insulin dependent diabetes mellitus with hypoglycaemic coma'),('diabetes-type-ii',1,'C109D11','Type II diabetes mellitus with hypoglycaemic coma'),('diabetes-type-ii',1,'C109D','Type II diabetes mellitus with hypoglycaemic coma'),('diabetes-type-ii',1,'C109D12','Type 2 diabetes mellitus with hypoglycaemic coma'),('diabetes-type-ii',1,'C109D','Type 2 diabetes mellitus with hypoglycaemic coma'),('diabetes-type-ii',1,'C109E00','Non-insulin dependent diabetes mellitus with diabetic cataract'),('diabetes-type-ii',1,'C109E','Non-insulin dependent diabetes mellitus with diabetic cataract'),('diabetes-type-ii',1,'C109E11','Type II diabetes mellitus with diabetic cataract'),('diabetes-type-ii',1,'C109E','Type II diabetes mellitus with diabetic cataract'),('diabetes-type-ii',1,'C109E12','Type 2 diabetes mellitus with diabetic cataract'),('diabetes-type-ii',1,'C109E','Type 2 diabetes mellitus with diabetic cataract'),('diabetes-type-ii',1,'C109F00','Non-insulin-dependent diabetes mellitus with peripheral angiopathy'),('diabetes-type-ii',1,'C109F','Non-insulin-dependent diabetes mellitus with peripheral angiopathy'),('diabetes-type-ii',1,'C109F11','Type II diabetes mellitus with peripheral angiopathy'),('diabetes-type-ii',1,'C109F','Type II diabetes mellitus with peripheral angiopathy'),('diabetes-type-ii',1,'C109F12','Type 2 diabetes mellitus with peripheral angiopathy'),('diabetes-type-ii',1,'C109F','Type 2 diabetes mellitus with peripheral angiopathy'),
-('diabetes-type-ii',1,'C109G00','Non-insulin dependent diabetes mellitus with arthropathy'),('diabetes-type-ii',1,'C109G','Non-insulin dependent diabetes mellitus with arthropathy'),('diabetes-type-ii',1,'C109G11','Type II diabetes mellitus with arthropathy'),('diabetes-type-ii',1,'C109G','Type II diabetes mellitus with arthropathy'),('diabetes-type-ii',1,'C109G12','Type 2 diabetes mellitus with arthropathy'),('diabetes-type-ii',1,'C109G','Type 2 diabetes mellitus with arthropathy'),('diabetes-type-ii',1,'C109H00','Non-insulin dependent diabetes mellitus with neuropathic arthropathy'),('diabetes-type-ii',1,'C109H','Non-insulin dependent diabetes mellitus with neuropathic arthropathy'),('diabetes-type-ii',1,'C109H11','Type II diabetes mellitus with neuropathic arthropathy'),('diabetes-type-ii',1,'C109H','Type II diabetes mellitus with neuropathic arthropathy'),('diabetes-type-ii',1,'C109H12','Type 2 diabetes mellitus with neuropathic arthropathy'),('diabetes-type-ii',1,'C109H','Type 2 diabetes mellitus with neuropathic arthropathy'),('diabetes-type-ii',1,'C109J00','Insulin treated Type 2 diabetes mellitus'),('diabetes-type-ii',1,'C109J','Insulin treated Type 2 diabetes mellitus'),('diabetes-type-ii',1,'C109J11','Insulin treated non-insulin dependent diabetes mellitus'),('diabetes-type-ii',1,'C109J','Insulin treated non-insulin dependent diabetes mellitus'),('diabetes-type-ii',1,'C109J12','Insulin treated Type II diabetes mellitus'),('diabetes-type-ii',1,'C109J','Insulin treated Type II diabetes mellitus'),('diabetes-type-ii',1,'C109K00','Hyperosmolar non-ketotic state in type 2 diabetes mellitus'),('diabetes-type-ii',1,'C109K','Hyperosmolar non-ketotic state in type 2 diabetes mellitus'),('diabetes-type-ii',1,'C10D.00','Diabetes mellitus autosomal dominant type 2'),('diabetes-type-ii',1,'C10D.','Diabetes mellitus autosomal dominant type 2'),('diabetes-type-ii',1,'C10F.00','Type 2 diabetes mellitus'),('diabetes-type-ii',1,'C10F.','Type 2 diabetes mellitus'),('diabetes-type-ii',1,'C10F.11','Type II diabetes mellitus'),('diabetes-type-ii',1,'C10F.','Type II diabetes mellitus'),('diabetes-type-ii',1,'C10F000','Type 2 diabetes mellitus with renal complications'),('diabetes-type-ii',1,'C10F0','Type 2 diabetes mellitus with renal complications'),('diabetes-type-ii',1,'C10F011','Type II diabetes mellitus with renal complications'),('diabetes-type-ii',1,'C10F0','Type II diabetes mellitus with renal complications'),('diabetes-type-ii',1,'C10F100','Type 2 diabetes mellitus with ophthalmic complications'),('diabetes-type-ii',1,'C10F1','Type 2 diabetes mellitus with ophthalmic complications'),('diabetes-type-ii',1,'C10F111','Type II diabetes mellitus with ophthalmic complications'),('diabetes-type-ii',1,'C10F1','Type II diabetes mellitus with ophthalmic complications'),('diabetes-type-ii',1,'C10F200','Type 2 diabetes mellitus with neurological complications'),('diabetes-type-ii',1,'C10F2','Type 2 diabetes mellitus with neurological complications'),('diabetes-type-ii',1,'C10F211','Type II diabetes mellitus with neurological complications'),('diabetes-type-ii',1,'C10F2','Type II diabetes mellitus with neurological complications'),('diabetes-type-ii',1,'C10F300','Type 2 diabetes mellitus with multiple complications'),('diabetes-type-ii',1,'C10F3','Type 2 diabetes mellitus with multiple complications'),('diabetes-type-ii',1,'C10F311','Type II diabetes mellitus with multiple complications'),('diabetes-type-ii',1,'C10F3','Type II diabetes mellitus with multiple complications'),('diabetes-type-ii',1,'C10F400','Type 2 diabetes mellitus with ulcer'),('diabetes-type-ii',1,'C10F4','Type 2 diabetes mellitus with ulcer'),('diabetes-type-ii',1,'C10F411','Type II diabetes mellitus with ulcer'),('diabetes-type-ii',1,'C10F4','Type II diabetes mellitus with ulcer'),('diabetes-type-ii',1,'C10F500','Type 2 diabetes mellitus with gangrene'),('diabetes-type-ii',1,'C10F5','Type 2 diabetes mellitus with gangrene'),('diabetes-type-ii',1,'C10F511','Type II diabetes mellitus with gangrene'),('diabetes-type-ii',1,'C10F5','Type II diabetes mellitus with gangrene'),('diabetes-type-ii',1,'C10F600','Type 2 diabetes mellitus with retinopathy'),('diabetes-type-ii',1,'C10F6','Type 2 diabetes mellitus with retinopathy'),('diabetes-type-ii',1,'C10F611','Type II diabetes mellitus with retinopathy'),('diabetes-type-ii',1,'C10F6','Type II diabetes mellitus with retinopathy'),('diabetes-type-ii',1,'C10F700','Type 2 diabetes mellitus - poor control'),('diabetes-type-ii',1,'C10F7','Type 2 diabetes mellitus - poor control'),('diabetes-type-ii',1,'C10F711','Type II diabetes mellitus - poor control'),('diabetes-type-ii',1,'C10F7','Type II diabetes mellitus - poor control'),('diabetes-type-ii',1,'C10F900','Type 2 diabetes mellitus without complication'),('diabetes-type-ii',1,'C10F9','Type 2 diabetes mellitus without complication'),('diabetes-type-ii',1,'C10F911','Type II diabetes mellitus without complication'),('diabetes-type-ii',1,'C10F9','Type II diabetes mellitus without complication'),('diabetes-type-ii',1,'C10FA00','Type 2 diabetes mellitus with mononeuropathy'),('diabetes-type-ii',1,'C10FA','Type 2 diabetes mellitus with mononeuropathy'),('diabetes-type-ii',1,'C10FA11','Type II diabetes mellitus with mononeuropathy'),('diabetes-type-ii',1,'C10FA','Type II diabetes mellitus with mononeuropathy'),('diabetes-type-ii',1,'C10FB00','Type 2 diabetes mellitus with polyneuropathy'),('diabetes-type-ii',1,'C10FB','Type 2 diabetes mellitus with polyneuropathy'),('diabetes-type-ii',1,'C10FB11','Type II diabetes mellitus with polyneuropathy'),('diabetes-type-ii',1,'C10FB','Type II diabetes mellitus with polyneuropathy'),('diabetes-type-ii',1,'C10FC00','Type 2 diabetes mellitus with nephropathy'),('diabetes-type-ii',1,'C10FC','Type 2 diabetes mellitus with nephropathy'),('diabetes-type-ii',1,'C10FC11','Type II diabetes mellitus with nephropathy'),('diabetes-type-ii',1,'C10FC','Type II diabetes mellitus with nephropathy'),('diabetes-type-ii',1,'C10FD00','Type 2 diabetes mellitus with hypoglycaemic coma'),('diabetes-type-ii',1,'C10FD','Type 2 diabetes mellitus with hypoglycaemic coma'),('diabetes-type-ii',1,'C10FD11','Type II diabetes mellitus with hypoglycaemic coma'),('diabetes-type-ii',1,'C10FD','Type II diabetes mellitus with hypoglycaemic coma'),('diabetes-type-ii',1,'C10FE00','Type 2 diabetes mellitus with diabetic cataract'),('diabetes-type-ii',1,'C10FE','Type 2 diabetes mellitus with diabetic cataract'),('diabetes-type-ii',1,'C10FE11','Type II diabetes mellitus with diabetic cataract'),('diabetes-type-ii',1,'C10FE','Type II diabetes mellitus with diabetic cataract'),('diabetes-type-ii',1,'C10FF00','Type 2 diabetes mellitus with peripheral angiopathy'),('diabetes-type-ii',1,'C10FF','Type 2 diabetes mellitus with peripheral angiopathy'),('diabetes-type-ii',1,'C10FF11','Type II diabetes mellitus with peripheral angiopathy'),('diabetes-type-ii',1,'C10FF','Type II diabetes mellitus with peripheral angiopathy'),('diabetes-type-ii',1,'C10FG00','Type 2 diabetes mellitus with arthropathy'),('diabetes-type-ii',1,'C10FG','Type 2 diabetes mellitus with arthropathy'),('diabetes-type-ii',1,'C10FG11','Type II diabetes mellitus with arthropathy'),('diabetes-type-ii',1,'C10FG','Type II diabetes mellitus with arthropathy'),('diabetes-type-ii',1,'C10FH00','Type 2 diabetes mellitus with neuropathic arthropathy'),('diabetes-type-ii',1,'C10FH','Type 2 diabetes mellitus with neuropathic arthropathy'),('diabetes-type-ii',1,'C10FH11','Type II diabetes mellitus with neuropathic arthropathy'),('diabetes-type-ii',1,'C10FH','Type II diabetes mellitus with neuropathic arthropathy'),('diabetes-type-ii',1,'C10FJ00','Insulin treated Type 2 diabetes mellitus'),('diabetes-type-ii',1,'C10FJ','Insulin treated Type 2 diabetes mellitus'),('diabetes-type-ii',1,'C10FJ11','Insulin treated Type II diabetes mellitus'),('diabetes-type-ii',1,'C10FJ','Insulin treated Type II diabetes mellitus'),('diabetes-type-ii',1,'C10FK00','Hyperosmolar non-ketotic state in type 2 diabetes mellitus'),('diabetes-type-ii',1,'C10FK','Hyperosmolar non-ketotic state in type 2 diabetes mellitus'),('diabetes-type-ii',1,'C10FK11','Hyperosmolar non-ketotic state in type II diabetes mellitus'),('diabetes-type-ii',1,'C10FK','Hyperosmolar non-ketotic state in type II diabetes mellitus'),('diabetes-type-ii',1,'C10FL00','Type 2 diabetes mellitus with persistent proteinuria'),('diabetes-type-ii',1,'C10FL','Type 2 diabetes mellitus with persistent proteinuria'),('diabetes-type-ii',1,'C10FL11','Type II diabetes mellitus with persistent proteinuria'),('diabetes-type-ii',1,'C10FL','Type II diabetes mellitus with persistent proteinuria'),('diabetes-type-ii',1,'C10FM00','Type 2 diabetes mellitus with persistent microalbuminuria'),('diabetes-type-ii',1,'C10FM','Type 2 diabetes mellitus with persistent microalbuminuria'),('diabetes-type-ii',1,'C10FM11','Type II diabetes mellitus with persistent microalbuminuria'),('diabetes-type-ii',1,'C10FM','Type II diabetes mellitus with persistent microalbuminuria'),('diabetes-type-ii',1,'C10FN00','Type 2 diabetes mellitus with ketoacidosis'),('diabetes-type-ii',1,'C10FN','Type 2 diabetes mellitus with ketoacidosis'),('diabetes-type-ii',1,'C10FN11','Type II diabetes mellitus with ketoacidosis'),('diabetes-type-ii',1,'C10FN','Type II diabetes mellitus with ketoacidosis'),('diabetes-type-ii',1,'C10FP00','Type 2 diabetes mellitus with ketoacidotic coma'),('diabetes-type-ii',1,'C10FP','Type 2 diabetes mellitus with ketoacidotic coma'),('diabetes-type-ii',1,'C10FP11','Type II diabetes mellitus with ketoacidotic coma'),('diabetes-type-ii',1,'C10FP','Type II diabetes mellitus with ketoacidotic coma'),('diabetes-type-ii',1,'C10FQ00','Type 2 diabetes mellitus with exudative maculopathy'),('diabetes-type-ii',1,'C10FQ','Type 2 diabetes mellitus with exudative maculopathy'),('diabetes-type-ii',1,'C10FQ11','Type II diabetes mellitus with exudative maculopathy'),
-('diabetes-type-ii',1,'C10FQ','Type II diabetes mellitus with exudative maculopathy'),('diabetes-type-ii',1,'C10FR00','Type 2 diabetes mellitus with gastroparesis'),('diabetes-type-ii',1,'C10FR','Type 2 diabetes mellitus with gastroparesis'),('diabetes-type-ii',1,'C10FR11','Type II diabetes mellitus with gastroparesis'),('diabetes-type-ii',1,'C10FR','Type II diabetes mellitus with gastroparesis'),('diabetes-type-ii',1,'C10y100','Diabetes mellitus, adult onset, with other specified manifestation'),('diabetes-type-ii',1,'C10y1','Diabetes mellitus, adult onset, with other specified manifestation'),('diabetes-type-ii',1,'C10z100','Diabetes mellitus, adult onset, with unspecified complication'),('diabetes-type-ii',1,'C10z1','Diabetes mellitus, adult onset, with unspecified complication');
+VALUES ('diabetes-type-ii',1,'C1001',NULL,'Diabetes mellitus, adult onset, with no mention of complication'),('diabetes-type-ii',1,'C100100',NULL,'Diabetes mellitus, adult onset, with no mention of complication'),('diabetes-type-ii',1,'C1011',NULL,'Diabetes mellitus, adult onset, with ketoacidosis'),('diabetes-type-ii',1,'C101100',NULL,'Diabetes mellitus, adult onset, with ketoacidosis'),('diabetes-type-ii',1,'C1021',NULL,'Diabetes mellitus, adult onset, with hyperosmolar coma'),('diabetes-type-ii',1,'C102100',NULL,'Diabetes mellitus, adult onset, with hyperosmolar coma'),('diabetes-type-ii',1,'C1031',NULL,'Diabetes mellitus, adult onset, with ketoacidotic coma'),('diabetes-type-ii',1,'C103100',NULL,'Diabetes mellitus, adult onset, with ketoacidotic coma'),('diabetes-type-ii',1,'C1041',NULL,'Diabetes mellitus, adult onset, with renal manifestation'),('diabetes-type-ii',1,'C104100',NULL,'Diabetes mellitus, adult onset, with renal manifestation'),('diabetes-type-ii',1,'C1051',NULL,'Diabetes mellitus, adult onset, with ophthalmic manifestation'),('diabetes-type-ii',1,'C105100',NULL,'Diabetes mellitus, adult onset, with ophthalmic manifestation'),('diabetes-type-ii',1,'C1061',NULL,'Diabetes mellitus, adult onset, with neurological manifestation'),('diabetes-type-ii',1,'C106100',NULL,'Diabetes mellitus, adult onset, with neurological manifestation'),('diabetes-type-ii',1,'C1071',NULL,'Diabetes mellitus, adult onset, with peripheral circulatory disorder'),('diabetes-type-ii',1,'C107100',NULL,'Diabetes mellitus, adult onset, with peripheral circulatory disorder'),('diabetes-type-ii',1,'C109.',NULL,'Non-insulin dependent diabetes mellitus'),('diabetes-type-ii',1,'C109.00',NULL,'Non-insulin dependent diabetes mellitus'),('diabetes-type-ii',1,'C1090',NULL,'Non-insulin-dependent diabetes mellitus with renal complications'),('diabetes-type-ii',1,'C109000',NULL,'Non-insulin-dependent diabetes mellitus with renal complications'),('diabetes-type-ii',1,'C1091',NULL,'Non-insulin-dependent diabetes mellitus with ophthalmic complications'),('diabetes-type-ii',1,'C109100',NULL,'Non-insulin-dependent diabetes mellitus with ophthalmic complications'),('diabetes-type-ii',1,'C1092',NULL,'Non-insulin-dependent diabetes mellitus with neurological complications'),('diabetes-type-ii',1,'C109200',NULL,'Non-insulin-dependent diabetes mellitus with neurological complications'),('diabetes-type-ii',1,'C1093',NULL,'Non-insulin-dependent diabetes mellitus with multiple complications'),('diabetes-type-ii',1,'C109300',NULL,'Non-insulin-dependent diabetes mellitus with multiple complications'),('diabetes-type-ii',1,'C1094',NULL,'Non-insulin dependent diabetes mellitus with ulcer'),('diabetes-type-ii',1,'C109400',NULL,'Non-insulin dependent diabetes mellitus with ulcer'),('diabetes-type-ii',1,'C1095',NULL,'Non-insulin dependent diabetes mellitus with gangrene'),('diabetes-type-ii',1,'C109500',NULL,'Non-insulin dependent diabetes mellitus with gangrene'),('diabetes-type-ii',1,'C1096',NULL,'Non-insulin-dependent diabetes mellitus with retinopathy'),('diabetes-type-ii',1,'C109600',NULL,'Non-insulin-dependent diabetes mellitus with retinopathy'),('diabetes-type-ii',1,'C1097',NULL,'Non-insulin dependent diabetes mellitus - poor control'),('diabetes-type-ii',1,'C109700',NULL,'Non-insulin dependent diabetes mellitus - poor control'),('diabetes-type-ii',1,'C1099',NULL,'Non-insulin-dependent diabetes mellitus without complication'),('diabetes-type-ii',1,'C109900',NULL,'Non-insulin-dependent diabetes mellitus without complication'),('diabetes-type-ii',1,'C109A',NULL,'Non-insulin dependent diabetes mellitus with mononeuropathy'),('diabetes-type-ii',1,'C109A00',NULL,'Non-insulin dependent diabetes mellitus with mononeuropathy'),('diabetes-type-ii',1,'C109B',NULL,'Non-insulin dependent diabetes mellitus with polyneuropathy'),('diabetes-type-ii',1,'C109B00',NULL,'Non-insulin dependent diabetes mellitus with polyneuropathy'),('diabetes-type-ii',1,'C109C',NULL,'Non-insulin dependent diabetes mellitus with nephropathy'),('diabetes-type-ii',1,'C109C00',NULL,'Non-insulin dependent diabetes mellitus with nephropathy'),('diabetes-type-ii',1,'C109D',NULL,'Non-insulin dependent diabetes mellitus with hypoglycaemic coma'),('diabetes-type-ii',1,'C109D00',NULL,'Non-insulin dependent diabetes mellitus with hypoglycaemic coma'),('diabetes-type-ii',1,'C109E',NULL,'Non-insulin dependent diabetes mellitus with diabetic cataract'),('diabetes-type-ii',1,'C109E00',NULL,'Non-insulin dependent diabetes mellitus with diabetic cataract'),('diabetes-type-ii',1,'C109F',NULL,'Non-insulin-dependent diabetes mellitus with peripheral angiopathy'),('diabetes-type-ii',1,'C109F00',NULL,'Non-insulin-dependent diabetes mellitus with peripheral angiopathy'),('diabetes-type-ii',1,'C109G',NULL,'Non-insulin dependent diabetes mellitus with arthropathy'),('diabetes-type-ii',1,'C109G00',NULL,'Non-insulin dependent diabetes mellitus with arthropathy'),('diabetes-type-ii',1,'C109H',NULL,'Non-insulin dependent diabetes mellitus with neuropathic arthropathy'),('diabetes-type-ii',1,'C109H00',NULL,'Non-insulin dependent diabetes mellitus with neuropathic arthropathy'),('diabetes-type-ii',1,'C109J',NULL,'Insulin treated Type 2 diabetes mellitus'),('diabetes-type-ii',1,'C109J00',NULL,'Insulin treated Type 2 diabetes mellitus'),('diabetes-type-ii',1,'C109K',NULL,'Hyperosmolar non-ketotic state in type 2 diabetes mellitus'),('diabetes-type-ii',1,'C109K00',NULL,'Hyperosmolar non-ketotic state in type 2 diabetes mellitus'),('diabetes-type-ii',1,'C10D.',NULL,'Diabetes mellitus autosomal dominant type 2'),('diabetes-type-ii',1,'C10D.00',NULL,'Diabetes mellitus autosomal dominant type 2'),('diabetes-type-ii',1,'C10F.',NULL,'Type 2 diabetes mellitus'),('diabetes-type-ii',1,'C10F.00',NULL,'Type 2 diabetes mellitus'),('diabetes-type-ii',1,'C10F0',NULL,'Type 2 diabetes mellitus with renal complications'),('diabetes-type-ii',1,'C10F000',NULL,'Type 2 diabetes mellitus with renal complications'),('diabetes-type-ii',1,'C10F1',NULL,'Type 2 diabetes mellitus with ophthalmic complications'),('diabetes-type-ii',1,'C10F100',NULL,'Type 2 diabetes mellitus with ophthalmic complications'),('diabetes-type-ii',1,'C10F2',NULL,'Type 2 diabetes mellitus with neurological complications'),('diabetes-type-ii',1,'C10F200',NULL,'Type 2 diabetes mellitus with neurological complications'),('diabetes-type-ii',1,'C10F3',NULL,'Type 2 diabetes mellitus with multiple complications'),('diabetes-type-ii',1,'C10F300',NULL,'Type 2 diabetes mellitus with multiple complications'),('diabetes-type-ii',1,'C10F4',NULL,'Type 2 diabetes mellitus with ulcer'),('diabetes-type-ii',1,'C10F400',NULL,'Type 2 diabetes mellitus with ulcer'),('diabetes-type-ii',1,'C10F5',NULL,'Type 2 diabetes mellitus with gangrene'),('diabetes-type-ii',1,'C10F500',NULL,'Type 2 diabetes mellitus with gangrene'),('diabetes-type-ii',1,'C10F6',NULL,'Type 2 diabetes mellitus with retinopathy'),('diabetes-type-ii',1,'C10F600',NULL,'Type 2 diabetes mellitus with retinopathy'),('diabetes-type-ii',1,'C10F7',NULL,'Type 2 diabetes mellitus - poor control'),('diabetes-type-ii',1,'C10F700',NULL,'Type 2 diabetes mellitus - poor control'),('diabetes-type-ii',1,'C10F9',NULL,'Type 2 diabetes mellitus without complication'),('diabetes-type-ii',1,'C10F900',NULL,'Type 2 diabetes mellitus without complication'),('diabetes-type-ii',1,'C10FA',NULL,'Type 2 diabetes mellitus with mononeuropathy'),('diabetes-type-ii',1,'C10FA00',NULL,'Type 2 diabetes mellitus with mononeuropathy'),('diabetes-type-ii',1,'C10FB',NULL,'Type 2 diabetes mellitus with polyneuropathy'),('diabetes-type-ii',1,'C10FB00',NULL,'Type 2 diabetes mellitus with polyneuropathy'),('diabetes-type-ii',1,'C10FC',NULL,'Type 2 diabetes mellitus with nephropathy'),('diabetes-type-ii',1,'C10FC00',NULL,'Type 2 diabetes mellitus with nephropathy'),('diabetes-type-ii',1,'C10FD',NULL,'Type 2 diabetes mellitus with hypoglycaemic coma'),('diabetes-type-ii',1,'C10FD00',NULL,'Type 2 diabetes mellitus with hypoglycaemic coma'),('diabetes-type-ii',1,'C10FE',NULL,'Type 2 diabetes mellitus with diabetic cataract'),('diabetes-type-ii',1,'C10FE00',NULL,'Type 2 diabetes mellitus with diabetic cataract'),('diabetes-type-ii',1,'C10FF',NULL,'Type 2 diabetes mellitus with peripheral angiopathy'),('diabetes-type-ii',1,'C10FF00',NULL,'Type 2 diabetes mellitus with peripheral angiopathy'),('diabetes-type-ii',1,'C10FG',NULL,'Type 2 diabetes mellitus with arthropathy'),('diabetes-type-ii',1,'C10FG00',NULL,'Type 2 diabetes mellitus with arthropathy'),('diabetes-type-ii',1,'C10FH',NULL,'Type 2 diabetes mellitus with neuropathic arthropathy'),('diabetes-type-ii',1,'C10FH00',NULL,'Type 2 diabetes mellitus with neuropathic arthropathy'),('diabetes-type-ii',1,'C10FJ',NULL,'Insulin treated Type 2 diabetes mellitus'),('diabetes-type-ii',1,'C10FJ00',NULL,'Insulin treated Type 2 diabetes mellitus'),('diabetes-type-ii',1,'C10FK',NULL,'Hyperosmolar non-ketotic state in type 2 diabetes mellitus'),('diabetes-type-ii',1,'C10FK00',NULL,'Hyperosmolar non-ketotic state in type 2 diabetes mellitus'),('diabetes-type-ii',1,'C10FL',NULL,'Type 2 diabetes mellitus with persistent proteinuria'),('diabetes-type-ii',1,'C10FL00',NULL,'Type 2 diabetes mellitus with persistent proteinuria'),('diabetes-type-ii',1,'C10FM',NULL,'Type 2 diabetes mellitus with persistent microalbuminuria'),('diabetes-type-ii',1,'C10FM00',NULL,'Type 2 diabetes mellitus with persistent microalbuminuria'),('diabetes-type-ii',1,'C10FN',NULL,'Type 2 diabetes mellitus with ketoacidosis'),('diabetes-type-ii',1,'C10FN00',NULL,'Type 2 diabetes mellitus with ketoacidosis'),('diabetes-type-ii',1,'C10FP',NULL,'Type 2 diabetes mellitus with ketoacidotic coma'),('diabetes-type-ii',1,'C10FP00',NULL,'Type 2 diabetes mellitus with ketoacidotic coma'),('diabetes-type-ii',1,'C10FQ',NULL,'Type 2 diabetes mellitus with exudative maculopathy'),('diabetes-type-ii',1,'C10FQ00',NULL,'Type 2 diabetes mellitus with exudative maculopathy'),
+('diabetes-type-ii',1,'C10FR',NULL,'Type 2 diabetes mellitus with gastroparesis'),('diabetes-type-ii',1,'C10FR00',NULL,'Type 2 diabetes mellitus with gastroparesis'),('diabetes-type-ii',1,'C10y1',NULL,'Diabetes mellitus, adult onset, with other specified manifestation'),('diabetes-type-ii',1,'C10y100',NULL,'Diabetes mellitus, adult onset, with other specified manifestation'),('diabetes-type-ii',1,'C10z1',NULL,'Diabetes mellitus, adult onset, with unspecified complication'),('diabetes-type-ii',1,'C10z100',NULL,'Diabetes mellitus, adult onset, with unspecified complication');
 INSERT INTO #codesreadv2
-VALUES ('gestational-diabetes',1,'L1808','Gestational diabetes mellitus'),('gestational-diabetes',1,'L180800','Gestational diabetes mellitus'),('gestational-diabetes',1,'L1809','Gestational diabetes mellitus'),('gestational-diabetes',1,'L180900','Gestational diabetes mellitus');
+VALUES ('gestational-diabetes',1,'L1808',NULL,'Gestational diabetes mellitus'),('gestational-diabetes',1,'L180800',NULL,'Gestational diabetes mellitus'),('gestational-diabetes',1,'L1809',NULL,'Gestational diabetes mellitus'),('gestational-diabetes',1,'L180900',NULL,'Gestational diabetes mellitus');
 INSERT INTO #codesreadv2
-VALUES ('polycystic-ovarian-syndrome',1,'12FA.','FH: Polycystic ovaries'),('polycystic-ovarian-syndrome',1,'12FA.00','FH: Polycystic ovaries'),('polycystic-ovarian-syndrome',1,'C164.','Polycystic ovaries'),('polycystic-ovarian-syndrome',1,'C164.00','Polycystic ovaries'),('polycystic-ovarian-syndrome',1,'C165.','Polycystic ovarian syndrome'),('polycystic-ovarian-syndrome',1,'C165.00','Polycystic ovarian syndrome')
+VALUES ('polycystic-ovarian-syndrome',1,'12FA.',NULL,'FH: Polycystic ovaries'),('polycystic-ovarian-syndrome',1,'12FA.00',NULL,'FH: Polycystic ovaries'),('polycystic-ovarian-syndrome',1,'C164.',NULL,'Polycystic ovaries'),('polycystic-ovarian-syndrome',1,'C164.00',NULL,'Polycystic ovaries'),('polycystic-ovarian-syndrome',1,'C165.',NULL,'Polycystic ovarian syndrome'),('polycystic-ovarian-syndrome',1,'C165.00',NULL,'Polycystic ovarian syndrome');
+INSERT INTO #codesreadv2
+VALUES ('covid-positive-antigen-test',1,'43kB1',NULL,'SARS-CoV-2 antigen positive'),('covid-positive-antigen-test',1,'43kB100',NULL,'SARS-CoV-2 antigen positive');
+INSERT INTO #codesreadv2
+VALUES ('covid-positive-pcr-test',1,'4J3R6',NULL,'SARS-CoV-2 RNA pos lim detect'),('covid-positive-pcr-test',1,'4J3R600',NULL,'SARS-CoV-2 RNA pos lim detect'),('covid-positive-pcr-test',1,'A7952',NULL,'COVID-19 confirmed by laboratory test'),('covid-positive-pcr-test',1,'A795200',NULL,'COVID-19 confirmed by laboratory test'),('covid-positive-pcr-test',1,'43hF.',NULL,'Detection of SARS-CoV-2 by PCR'),('covid-positive-pcr-test',1,'43hF.00',NULL,'Detection of SARS-CoV-2 by PCR');
+INSERT INTO #codesreadv2
+VALUES ('covid-positive-test-other',1,'4J3R1',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'4J3R100',NULL,'2019-nCoV (novel coronavirus) detected')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesreadv2;
@@ -88,15 +114,22 @@ CREATE TABLE #codesctv3 (
   [concept] [varchar](255) NOT NULL,
   [version] INT NOT NULL,
 	[code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+	[term] [varchar](20) COLLATE Latin1_General_CS_AS NULL,
 	[description] [varchar](255) NULL
 ) ON [PRIMARY];
 
 INSERT INTO #codesctv3
-VALUES ('diabetes-type-ii',1,'C1011','Diabetes mellitus, adult onset, with ketoacidosis'),('diabetes-type-ii',1,'C1021','Diabetes mellitus, adult onset, with hyperosmolar coma'),('diabetes-type-ii',1,'C1031','Diabetes mellitus, adult onset, with ketoacidotic coma'),('diabetes-type-ii',1,'C1041','Diabetes mellitus, adult onset, with renal manifestation'),('diabetes-type-ii',1,'C1051','Diabetes mellitus, adult onset, with ophthalmic manifestation'),('diabetes-type-ii',1,'C1061','Diabetes mellitus, adult onset, with neurological manifestation'),('diabetes-type-ii',1,'C1071','Diabetes mellitus, adult onset, with peripheral circulatory disorder'),('diabetes-type-ii',1,'C1090','Non-insulin-dependent diabetes mellitus with renal complications'),('diabetes-type-ii',1,'C1091','Non-insulin-dependent diabetes mellitus with ophthalmic complications'),('diabetes-type-ii',1,'C1092','Non-insulin-dependent diabetes mellitus with neurological complications'),('diabetes-type-ii',1,'C1093','Non-insulin-dependent diabetes mellitus with multiple complications'),('diabetes-type-ii',1,'C1094','Non-insulin-dependent diabetes mellitus with ulcer'),('diabetes-type-ii',1,'C1095','Non-insulin-dependent diabetes mellitus with gangrene'),('diabetes-type-ii',1,'C1096','NIDDM - Non-insulin-dependent diabetes mellitus with retinopathy'),('diabetes-type-ii',1,'C1097','Non-insulin-dependent diabetes mellitus - poor control'),('diabetes-type-ii',1,'C10y1','Diabetes mellitus, adult onset, with other specified manifestation'),('diabetes-type-ii',1,'C10z1','Diabetes mellitus, adult onset, with unspecified complication'),('diabetes-type-ii',1,'X40J5','Non-insulin-dependent diabetes mellitus'),('diabetes-type-ii',1,'X40J6','Insulin treated Type 2 diabetes mellitus'),('diabetes-type-ii',1,'X40JJ','Diabetes mellitus autosomal dominant type 2'),('diabetes-type-ii',1,'XE10F','Diabetes mellitus, adult onset, with no mention of complication'),('diabetes-type-ii',1,'XM19j','[EDTA] Diabetes Type II (non-insulin-dependent) associated with renal failure'),('diabetes-type-ii',1,'XaELQ','Non-insulin-dependent diabetes mellitus without complication'),('diabetes-type-ii',1,'XaEnp','Type II diabetes mellitus with mononeuropathy'),('diabetes-type-ii',1,'XaEnq','Type 2 diabetes mellitus with polyneuropathy'),('diabetes-type-ii',1,'XaF05','Type 2 diabetes mellitus with nephropathy'),('diabetes-type-ii',1,'XaFWI','Type II diabetes mellitus with hypoglycaemic coma'),('diabetes-type-ii',1,'XaFmA','Type II diabetes mellitus with diabetic cataract'),('diabetes-type-ii',1,'XaFn7','Non-insulin-dependent diabetes mellitus with peripheral angiopathy'),('diabetes-type-ii',1,'XaFn8','Non-insulin dependent diabetes mellitus with arthropathy'),('diabetes-type-ii',1,'XaFn9','Non-insulin dependent diabetes mellitus with neuropathic arthropathy'),('diabetes-type-ii',1,'XaIfG','Type II diabetes on insulin'),('diabetes-type-ii',1,'XaIfI','Type II diabetes on diet only'),('diabetes-type-ii',1,'XaIrf','Hyperosmolar non-ketotic state in type II diabetes mellitus'),('diabetes-type-ii',1,'XaIzQ','Type 2 diabetes mellitus with persistent proteinuria'),('diabetes-type-ii',1,'XaIzR','Type 2 diabetes mellitus with persistent microalbuminuria'),('diabetes-type-ii',1,'XaJQp','Type II diabetes mellitus with exudative maculopathy'),('diabetes-type-ii',1,'XaKyX','Type II diabetes mellitus with gastroparesis');
+VALUES ('diabetes-type-ii',1,'C1011',NULL,'Diabetes mellitus, adult onset, with ketoacidosis'),('diabetes-type-ii',1,'C1021',NULL,'Diabetes mellitus, adult onset, with hyperosmolar coma'),('diabetes-type-ii',1,'C1031',NULL,'Diabetes mellitus, adult onset, with ketoacidotic coma'),('diabetes-type-ii',1,'C1041',NULL,'Diabetes mellitus, adult onset, with renal manifestation'),('diabetes-type-ii',1,'C1051',NULL,'Diabetes mellitus, adult onset, with ophthalmic manifestation'),('diabetes-type-ii',1,'C1061',NULL,'Diabetes mellitus, adult onset, with neurological manifestation'),('diabetes-type-ii',1,'C1071',NULL,'Diabetes mellitus, adult onset, with peripheral circulatory disorder'),('diabetes-type-ii',1,'C1090',NULL,'Non-insulin-dependent diabetes mellitus with renal complications'),('diabetes-type-ii',1,'C1091',NULL,'Non-insulin-dependent diabetes mellitus with ophthalmic complications'),('diabetes-type-ii',1,'C1092',NULL,'Non-insulin-dependent diabetes mellitus with neurological complications'),('diabetes-type-ii',1,'C1093',NULL,'Non-insulin-dependent diabetes mellitus with multiple complications'),('diabetes-type-ii',1,'C1094',NULL,'Non-insulin-dependent diabetes mellitus with ulcer'),('diabetes-type-ii',1,'C1095',NULL,'Non-insulin-dependent diabetes mellitus with gangrene'),('diabetes-type-ii',1,'C1096',NULL,'NIDDM - Non-insulin-dependent diabetes mellitus with retinopathy'),('diabetes-type-ii',1,'C1097',NULL,'Non-insulin-dependent diabetes mellitus - poor control'),('diabetes-type-ii',1,'C10y1',NULL,'Diabetes mellitus, adult onset, with other specified manifestation'),('diabetes-type-ii',1,'C10z1',NULL,'Diabetes mellitus, adult onset, with unspecified complication'),('diabetes-type-ii',1,'X40J5',NULL,'Non-insulin-dependent diabetes mellitus'),('diabetes-type-ii',1,'X40J6',NULL,'Insulin treated Type 2 diabetes mellitus'),('diabetes-type-ii',1,'X40JJ',NULL,'Diabetes mellitus autosomal dominant type 2'),('diabetes-type-ii',1,'XE10F',NULL,'Diabetes mellitus, adult onset, with no mention of complication'),('diabetes-type-ii',1,'XM19j',NULL,'[EDTA] Diabetes Type II (non-insulin-dependent) associated with renal failure'),('diabetes-type-ii',1,'XaELQ',NULL,'Non-insulin-dependent diabetes mellitus without complication'),('diabetes-type-ii',1,'XaEnp',NULL,'Type II diabetes mellitus with mononeuropathy'),('diabetes-type-ii',1,'XaEnq',NULL,'Type 2 diabetes mellitus with polyneuropathy'),('diabetes-type-ii',1,'XaF05',NULL,'Type 2 diabetes mellitus with nephropathy'),('diabetes-type-ii',1,'XaFWI',NULL,'Type II diabetes mellitus with hypoglycaemic coma'),('diabetes-type-ii',1,'XaFmA',NULL,'Type II diabetes mellitus with diabetic cataract'),('diabetes-type-ii',1,'XaFn7',NULL,'Non-insulin-dependent diabetes mellitus with peripheral angiopathy'),('diabetes-type-ii',1,'XaFn8',NULL,'Non-insulin dependent diabetes mellitus with arthropathy'),('diabetes-type-ii',1,'XaFn9',NULL,'Non-insulin dependent diabetes mellitus with neuropathic arthropathy'),('diabetes-type-ii',1,'XaIfG',NULL,'Type II diabetes on insulin'),('diabetes-type-ii',1,'XaIfI',NULL,'Type II diabetes on diet only'),('diabetes-type-ii',1,'XaIrf',NULL,'Hyperosmolar non-ketotic state in type II diabetes mellitus'),('diabetes-type-ii',1,'XaIzQ',NULL,'Type 2 diabetes mellitus with persistent proteinuria'),('diabetes-type-ii',1,'XaIzR',NULL,'Type 2 diabetes mellitus with persistent microalbuminuria'),('diabetes-type-ii',1,'XaJQp',NULL,'Type II diabetes mellitus with exudative maculopathy'),('diabetes-type-ii',1,'XaKyX',NULL,'Type II diabetes mellitus with gastroparesis');
 INSERT INTO #codesctv3
-VALUES ('gestational-diabetes',1,'L1808','Gestational diabetes');
+VALUES ('gestational-diabetes',1,'L1808',NULL,'Gestational diabetes');
 INSERT INTO #codesctv3
-VALUES ('polycystic-ovarian-syndrome',1,'X406n','Polycystic ovarian syndrome'),('polycystic-ovarian-syndrome',1,'X406n','Polycystic ovary syndrome'),('polycystic-ovarian-syndrome',1,'XE10l','PCO - Polycystic ovaries'),('polycystic-ovarian-syndrome',1,'XE2p5','(Polycystic ovaries) or (Stein-Leventhal syndrome)'),('polycystic-ovarian-syndrome',1,'XaJZG','FH: Polycystic ovaries'),('polycystic-ovarian-syndrome',1,'C164.','Polycystic ovaries'),('polycystic-ovarian-syndrome',1,'X406n','PCOD - Polycystic ovarian disease'),('polycystic-ovarian-syndrome',1,'XE10l','Polycystic ovaries'),('polycystic-ovarian-syndrome',1,'X406n','PCOS - Polycystic ovarian syndrome'),('polycystic-ovarian-syndrome',1,'XE2p5','Polycystic ovaries'),('polycystic-ovarian-syndrome',1,'C164.','(Polycystic ovaries) or (isosexual virilisation) or (Stein-Leventhal syndrome) or (multicystic ovaries)'),('polycystic-ovarian-syndrome',1,'X406n','Polycystic ovarian disease')
+VALUES ('polycystic-ovarian-syndrome',1,'X406n',NULL,'Polycystic ovarian syndrome'),('polycystic-ovarian-syndrome',1,'X406n',NULL,'Polycystic ovary syndrome'),('polycystic-ovarian-syndrome',1,'XE10l',NULL,'PCO - Polycystic ovaries'),('polycystic-ovarian-syndrome',1,'XE2p5',NULL,'(Polycystic ovaries) or (Stein-Leventhal syndrome)'),('polycystic-ovarian-syndrome',1,'XaJZG',NULL,'FH: Polycystic ovaries'),('polycystic-ovarian-syndrome',1,'C164.',NULL,'Polycystic ovaries'),('polycystic-ovarian-syndrome',1,'X406n',NULL,'PCOD - Polycystic ovarian disease'),('polycystic-ovarian-syndrome',1,'XE10l',NULL,'Polycystic ovaries'),('polycystic-ovarian-syndrome',1,'X406n',NULL,'PCOS - Polycystic ovarian syndrome'),('polycystic-ovarian-syndrome',1,'XE2p5',NULL,'Polycystic ovaries'),('polycystic-ovarian-syndrome',1,'C164.',NULL,'(Polycystic ovaries) or (isosexual virilisation) or (Stein-Leventhal syndrome) or (multicystic ovaries)'),('polycystic-ovarian-syndrome',1,'X406n',NULL,'Polycystic ovarian disease');
+INSERT INTO #codesctv3
+VALUES ('covid-positive-antigen-test',1,'Y269d',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen detection result positive'),('covid-positive-antigen-test',1,'43kB1',NULL,'SARS-CoV-2 antigen positive');
+INSERT INTO #codesctv3
+VALUES ('covid-positive-pcr-test',1,'4J3R6',NULL,'SARS-CoV-2 RNA pos lim detect'),('covid-positive-pcr-test',1,'Y240b',NULL,'Severe acute respiratory syndrome coronavirus 2 qualitative existence in specimen (observable entity)'),('covid-positive-pcr-test',1,'Y2a3b',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive'),('covid-positive-pcr-test',1,'A7952',NULL,'COVID-19 confirmed by laboratory test'),('covid-positive-pcr-test',1,'Y228d',NULL,'Coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2 confirmed by laboratory test (situation)'),('covid-positive-pcr-test',1,'Y210e',NULL,'Detection of 2019-nCoV (novel coronavirus) using polymerase chain reaction technique'),('covid-positive-pcr-test',1,'43hF.',NULL,'Detection of SARS-CoV-2 by PCR'),('covid-positive-pcr-test',1,'Y2a3d',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection');
+INSERT INTO #codesctv3
+VALUES ('covid-positive-test-other',1,'4J3R1',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'Y20d1',NULL,'Confirmed 2019-nCov (Wuhan) infection'),('covid-positive-test-other',1,'Y23f7',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesctv3;
@@ -106,6 +139,7 @@ CREATE TABLE #codessnomed (
   [concept] [varchar](255) NOT NULL,
   [version] INT NOT NULL,
 	[code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+	[term] [varchar](20) COLLATE Latin1_General_CS_AS NULL,
 	[description] [varchar](255) NULL
 ) ON [PRIMARY];
 
@@ -119,11 +153,18 @@ CREATE TABLE #codesemis (
   [concept] [varchar](255) NOT NULL,
   [version] INT NOT NULL,
 	[code] [varchar](20) COLLATE Latin1_General_CS_AS NOT NULL,
+	[term] [varchar](20) COLLATE Latin1_General_CS_AS NULL,
 	[description] [varchar](255) NULL
 ) ON [PRIMARY];
 
 INSERT INTO #codesemis
-VALUES ('gestational-diabetes',1,'^ESCTGE801661','Gestational diabetes, delivered'),('gestational-diabetes',1,'^ESCTGE801662','Gestational diabetes mellitus complicating pregnancy')
+VALUES ('gestational-diabetes',1,'^ESCTGE801661',NULL,'Gestational diabetes, delivered'),('gestational-diabetes',1,'^ESCTGE801662',NULL,'Gestational diabetes mellitus complicating pregnancy');
+INSERT INTO #codesemis
+VALUES ('covid-positive-antigen-test',1,'^ESCT1305304',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen detection result positive'),('covid-positive-antigen-test',1,'^ESCT1348538',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) antigen');
+INSERT INTO #codesemis
+VALUES ('covid-positive-pcr-test',1,'^ESCT1305238',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) qualitative existence in specimen'),('covid-positive-pcr-test',1,'^ESCT1348314',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive'),('covid-positive-pcr-test',1,'^ESCT1305235',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive'),('covid-positive-pcr-test',1,'^ESCT1300228',NULL,'COVID-19 confirmed by laboratory test GP COVID-19'),('covid-positive-pcr-test',1,'^ESCT1348316',NULL,'2019-nCoV (novel coronavirus) ribonucleic acid detected'),('covid-positive-pcr-test',1,'^ESCT1301223',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) using polymerase chain reaction technique'),('covid-positive-pcr-test',1,'^ESCT1348359',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection'),('covid-positive-pcr-test',1,'^ESCT1299053',NULL,'Detection of 2019-nCoV (novel coronavirus) using polymerase chain reaction technique'),('covid-positive-pcr-test',1,'^ESCT1300228',NULL,'COVID-19 confirmed by laboratory test'),('covid-positive-pcr-test',1,'^ESCT1348359',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result positive at the limit of detection');
+INSERT INTO #codesemis
+VALUES ('covid-positive-test-other',1,'^ESCT1303928',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detection result positive'),('covid-positive-test-other',1,'^ESCT1299074',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'^ESCT1301230',NULL,'SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) detected'),('covid-positive-test-other',1,'EMISNQCO303',NULL,'Confirmed 2019-nCoV (Wuhan) infectio'),('covid-positive-test-other',1,'^ESCT1299075',NULL,'Wuhan 2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'^ESCT1300229',NULL,'COVID-19 confirmed using clinical diagnostic criteria'),('covid-positive-test-other',1,'^ESCT1348575',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)'),('covid-positive-test-other',1,'^ESCT1299074',NULL,'2019-nCoV (novel coronavirus) detected'),('covid-positive-test-other',1,'^ESCT1300229',NULL,'COVID-19 confirmed using clinical diagnostic criteria'),('covid-positive-test-other',1,'EMISNQCO303',NULL,'Confirmed 2019-nCoV (novel coronavirus) infection'),('covid-positive-test-other',1,'EMISNQCO303',NULL,'Confirmed 2019-nCoV (novel coronavirus) infection'),('covid-positive-test-other',1,'^ESCT1348575',NULL,'Detection of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)')
 
 INSERT INTO #AllCodes
 SELECT [concept], [version], [code], [description] from #codesemis;
@@ -138,6 +179,7 @@ SELECT PK_Reference_Coding_ID, dcr.concept, dcr.[version], dcr.[description]
 FROM [SharedCare].[Reference_Coding] rc
 INNER JOIN #codesreadv2 dcr on dcr.code = rc.MainCode
 WHERE CodingType='ReadCodeV2'
+AND (dcr.term IS NULL OR dcr.term = rc.Term)
 and PK_Reference_Coding_ID != -1;
 
 -- CTV3 codes
@@ -250,7 +292,8 @@ IF OBJECT_ID('tempdb..#PatientSex') IS NOT NULL DROP TABLE #PatientSex;
 SELECT FK_Patient_Link_ID, MIN(Sex) as Sex INTO #PatientSex FROM #AllPatientSexs
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND FK_Reference_Tenancy_ID = 2
-GROUP BY FK_Patient_Link_ID;
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(Sex) = MAX(Sex);
 
 -- Find the patients who remain unmatched
 IF OBJECT_ID('tempdb..#UnmatchedSexPatients') IS NOT NULL DROP TABLE #UnmatchedSexPatients;
@@ -327,7 +370,8 @@ IF OBJECT_ID('tempdb..#PatientYearOfBirth') IS NOT NULL DROP TABLE #PatientYearO
 SELECT FK_Patient_Link_ID, MIN(YearOfBirth) as YearOfBirth INTO #PatientYearOfBirth FROM #AllPatientYearOfBirths
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND FK_Reference_Tenancy_ID = 2
-GROUP BY FK_Patient_Link_ID;
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(YearOfBirth) = MAX(YearOfBirth);
 
 -- Find the patients who remain unmatched
 IF OBJECT_ID('tempdb..#UnmatchedYobPatients') IS NOT NULL DROP TABLE #UnmatchedYobPatients;
@@ -378,61 +422,69 @@ HAVING MAX(YearOfBirth) <= YEAR(GETDATE());
 DROP TABLE #AllPatientYearOfBirths;
 DROP TABLE #UnmatchedYobPatients;
 
-
 -- FIND PATIENTS WITH A DIAGNOSIS OF POLYCYSTIC OVARY SYNDROME OR GESTATIONAL DIABETES, TO EXCLUDE
 
 IF OBJECT_ID('tempdb..#exclusions') IS NOT NULL DROP TABLE #exclusions;
 SELECT DISTINCT gp.FK_Patient_Link_ID
 INTO #exclusions
 FROM [RLS].[vw_GP_Events] gp
-LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
-WHERE (SuppliedCode IN 
+WHERE SuppliedCode IN 
 	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN 
-		('polycystic-ovarian-syndrome', 'gestational-diabetes') AND [Version] = 1
-			AND EventDate BETWEEN '2018-07-09' AND '2022-03-31')) 
-    
----- CREATE TABLE OF ALL PATIENTS THAT HAVE ANY LIFETIME DIAGNOSES OF T2D OF 2019-07-19
+		('polycystic-ovarian-syndrome', 'gestational-diabetes') AND [Version] = 1)
+			AND EventDate BETWEEN '2018-07-09' AND '2022-03-31'
+
+-- CREATE TABLE OF ALL PATIENTS THAT HAVE ANY LIFETIME DIAGNOSES OF T2D AS OF 2019-07-09
+-- THIS TABLE WILL BE JOINED TO IN FINAL TABLE TO PROVIDE ADDITIONAL DIABETES INFO FOR THE MYWAY PATIENTS
+-- THIS TABLE WILL ALSO BE USED TO FIND CONTROL PATIENTS WHO HAVE T2D BUT DIDN'T HAVE INTERVENTION
 
 IF OBJECT_ID('tempdb..#diabetes2_diagnoses') IS NOT NULL DROP TABLE #diabetes2_diagnoses;
 SELECT gp.FK_Patient_Link_ID, 
-		YearOfBirth, 
-		Sex,
-		EthnicMainGroup,
-		EventDate,
-		SuppliedCode
+	YearOfBirth, 
+	Sex,
+	EventDate
 INTO #diabetes2_diagnoses
 FROM [RLS].[vw_GP_Events] gp
 LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = gp.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
-WHERE (SuppliedCode IN 
-	(SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-ii') AND [Version] = 1)) 
-    AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
-	AND gp.FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #exclusions)
-	AND (gp.EventDate) <= '2019-07-09'
-	AND DATEDIFF(YEAR, yob.YearOfBirth, '2019-07-09') >= 18
+WHERE (SuppliedCode IN (SELECT [Code] FROM #AllCodes WHERE [Concept] IN ('diabetes-type-ii') AND [Version] = 1)) AND 
+	gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+    AND gp.FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #exclusions)
+	AND (gp.EventDate) <= @StartDate
 
+-- Find earliest diagnosis of T2D for each patient
 
--- Define the main cohort to be matched
-IF OBJECT_ID('tempdb..#MainCohort') IS NOT NULL DROP TABLE #MainCohort;
-SELECT DISTINCT FK_Patient_Link_ID, 
-		YearOfBirth,
-		Sex,
-		EthnicMainGroup
-INTO #MainCohort
+IF OBJECT_ID('tempdb..#EarliestDiagnosis_T2D') IS NOT NULL DROP TABLE #EarliestDiagnosis_T2D;
+SELECT FK_Patient_Link_ID
+	,EarliestDiagnosis_T2D = MIN(CAST(EventDate AS DATE))
+INTO #EarliestDiagnosis_T2D
 FROM #diabetes2_diagnoses
---WHERE FK_Patient_Link_ID IN (#####INTERVENTION_TABLE)
+GROUP BY FK_Patient_Link_ID
 
-/*
+-- DEFINE MAIN COHORT: PATIENTS IN THE MYWAY DATA
+
+IF OBJECT_ID('tempdb..#MainCohort') IS NOT NULL DROP TABLE #MainCohort;
+SELECT DISTINCT
+	p.FK_Patient_Link_ID,
+	YearOfBirth, 
+	Sex,
+	EthnicMainGroup
+INTO #MainCohort
+FROM #Patients p
+LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+WHERE 
+	p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM MWDH.Live_Header) 		-- My Way Diabetes Patients
+	AND p.FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #exclusions)   -- Exclude pts with gestational diabetes
+	AND YEAR(@StartDate) - yob.YearOfBirth >= 19									-- Over 18s only
+
 
 -- Define the population of potential matches for the cohort
 IF OBJECT_ID('tempdb..#PotentialMatches') IS NOT NULL DROP TABLE #PotentialMatches;
-SELECT DISTINCT p.FK_Patient_Link_ID, Sex, YearOfBirth
+SELECT DISTINCT FK_Patient_Link_ID, Sex, YearOfBirth
 INTO #PotentialMatches
 FROM #diabetes2_diagnoses
-WHERE p.FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #MainCohort)
-
--- AND THE RELEVANT DATA (HBA1C AND CVD RISK FACTORS) ARE AVAILABLE  WITHIN 3-6 MONTHS OF INDEX DATE
+WHERE FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #MainCohort)
 
 
 --┌────────────────────────────────────────────────────┐
@@ -461,6 +513,14 @@ WHERE p.FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #MainCohort)
 --  - Sex - of the primary cohort patient
 --  - MatchingPatientId - id of the matched patient
 --  - MatchingYearOfBirth - year of birth of the matched patient
+
+-- TODO 
+-- A few things to consider when doing matching:
+--  - Consider removing "ghost patients" e.g. people without a primary care record
+--  - Consider matching on practice. Patients in different locations might have different outcomes. Also
+--    for primary care based diagnosing, practices might have different thoughts on severity, timing etc.
+--  - For instances where lots of cases have no matches, consider allowing matching to occur with replacement.
+--    I.e. a patient can match more than one person in the main cohort.
 
 -- First we extend the #PrimaryCohort table to give each age-sex combo a unique number
 -- and to avoid polluting the #MainCohort table
@@ -594,6 +654,7 @@ BEGIN
   SET @Counter2  = @Counter2  + 1
 END
 
+
 -- Get the matched cohort detail - same as main cohort
 IF OBJECT_ID('tempdb..#MatchedCohort') IS NOT NULL DROP TABLE #MatchedCohort;
 SELECT 
@@ -605,7 +666,7 @@ SELECT
 INTO #MatchedCohort
 FROM #CohortStore c
 LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = c.MatchingPatientId
-WHERE c.PatientId IN (SELECT FK_Patient_Link_ID FROM #Patients);
+
 
 -- Define a table with all the patient ids for the main cohort and the matched cohort
 IF OBJECT_ID('tempdb..#PatientIds') IS NOT NULL DROP TABLE #PatientIds;
@@ -613,7 +674,38 @@ SELECT PatientId AS FK_Patient_Link_ID INTO #PatientIds FROM #CohortStore
 UNION
 SELECT MatchingPatientId FROM #CohortStore;
 
-*/
+
+-- CREATE TABLE OF ALL GP EVENTS FOR MAIN AND MATCHED COHORTS - TO SPEED UP FUTURE QUERIES
+
+IF OBJECT_ID('tempdb..#PatientEventData') IS NOT NULL DROP TABLE #PatientEventData;
+SELECT 
+  FK_Patient_Link_ID,
+  CAST(EventDate AS DATE) AS EventDate,
+  SuppliedCode,
+  FK_Reference_SnomedCT_ID,
+  FK_Reference_Coding_ID,
+  [Value],
+  [Units]
+INTO #PatientEventData
+FROM [RLS].vw_GP_Events
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientIds);
+
+--Outputs from this reusable query:
+-- #MainCohort
+-- #MatchedCohort
+-- #PatientEventData
+
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+
+-- REDUCE THE #Patients TABLE SO THAT IT ONLY INCLUDES THE MAIN AND MATCHED COHORT
+-- REUSABLE QUERIES CAN USE IT TO RUN QUICKER 
+
+DELETE FROM #Patients
+WHERE FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #PatientIds)
 
 --┌─────────────────────────────────────────┐
 --│ Secondary admissions and length of stay │
@@ -622,7 +714,8 @@ SELECT MatchingPatientId FROM #CohortStore;
 -- OBJECTIVE: To obtain a table with every secondary care admission, along with the acute provider,
 --						the date of admission, the date of discharge, and the length of stay.
 
--- INPUT: No pre-requisites
+-- INPUT: One parameter
+--	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
 
 -- OUTPUT: Two temp table as follows:
 -- #Admissions (FK_Patient_Link_ID, AdmissionDate, AcuteProvider)
@@ -643,12 +736,28 @@ SELECT MatchingPatientId FROM #CohortStore;
 -- Convert AdmissionDate to a date to avoid issues where a person has two admissions
 -- on the same day (but only one discharge)
 IF OBJECT_ID('tempdb..#Admissions') IS NOT NULL DROP TABLE #Admissions;
-SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) AS AdmissionDate, t.TenancyName AS AcuteProvider INTO #Admissions FROM [RLS].[vw_Acute_Inpatients] i
-LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
-WHERE EventType = 'Admission'
-AND AdmissionDate >= @StartDate;
--- 523477 rows	523477 rows
--- 00:00:19		00:00:15
+CREATE TABLE #Admissions (
+	FK_Patient_Link_ID BIGINT,
+	AdmissionDate DATE,
+	AcuteProvider NVARCHAR(150)
+);
+BEGIN
+	IF 'false'='true'
+		INSERT INTO #Admissions
+		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) AS AdmissionDate, t.TenancyName AS AcuteProvider
+		FROM [RLS].[vw_Acute_Inpatients] i
+		LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
+		WHERE EventType = 'Admission'
+		AND AdmissionDate >= @StartDate;
+	ELSE
+		INSERT INTO #Admissions
+		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) AS AdmissionDate, t.TenancyName AS AcuteProvider
+		FROM [RLS].[vw_Acute_Inpatients] i
+		LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
+		WHERE EventType = 'Admission'
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+		AND AdmissionDate >= @StartDate;
+END
 
 --┌──────────────────────┐
 --│ Secondary discharges │
@@ -657,7 +766,8 @@ AND AdmissionDate >= @StartDate;
 -- OBJECTIVE: To obtain a table with every secondary care discharge, along with the acute provider,
 --						and the date of discharge.
 
--- INPUT: No pre-requisites
+-- INPUT: One parameter
+--	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
 
 -- OUTPUT: A temp table as follows:
 -- #Discharges (FK_Patient_Link_ID, DischargeDate, AcuteProvider)
@@ -670,10 +780,28 @@ AND AdmissionDate >= @StartDate;
 
 -- Populate temporary table with discharges
 IF OBJECT_ID('tempdb..#Discharges') IS NOT NULL DROP TABLE #Discharges;
-SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, DischargeDate) AS DischargeDate, t.TenancyName AS AcuteProvider INTO #Discharges FROM [RLS].[vw_Acute_Inpatients] i
-LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
-WHERE EventType = 'Discharge'
-AND DischargeDate >= @StartDate;
+CREATE TABLE #Discharges (
+	FK_Patient_Link_ID BIGINT,
+	DischargeDate DATE,
+	AcuteProvider NVARCHAR(150)
+);
+BEGIN
+	IF 'false'='true'
+		INSERT INTO #Discharges
+    SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, DischargeDate) AS DischargeDate, t.TenancyName AS AcuteProvider 
+    FROM [RLS].[vw_Acute_Inpatients] i
+    LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
+    WHERE EventType = 'Discharge'
+    AND DischargeDate >= @StartDate;
+  ELSE
+		INSERT INTO #Discharges
+    SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, DischargeDate) AS DischargeDate, t.TenancyName AS AcuteProvider 
+    FROM [RLS].[vw_Acute_Inpatients] i
+    LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
+    WHERE EventType = 'Discharge'
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+    AND DischargeDate >= @StartDate;
+END
 -- 535285 rows	535285 rows
 -- 00:00:28		00:00:14
 
@@ -705,6 +833,8 @@ ORDER BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider;
 
 -- INPUT: Takes one parameter
 --  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+--	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+--	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 -- And assumes there exists two temp tables as follows:
 -- #Patients (FK_Patient_Link_ID)
 --  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
@@ -723,35 +853,155 @@ ORDER BY a.FK_Patient_Link_ID, a.AdmissionDate, a.AcuteProvider;
 --│ Patients with COVID │
 --└─────────────────────┘
 
--- OBJECTIVE: To get tables of all patients with a COVID diagnosis in their record.
+-- OBJECTIVE: To get tables of all patients with a COVID diagnosis in their record. This now includes a table
+-- that has reinfections. This uses a 90 day cut-off to rule out patients that get multiple tests for
+-- a single infection. This 90 day cut-off is also used in the government COVID dashboard. In the first wave,
+-- prior to widespread COVID testing, and prior to the correct clinical codes being	available to clinicians,
+-- infections were recorded in a variety of ways. We therefore take the first diagnosis from any code indicative
+-- of COVID. However, for subsequent infections we insist on the presence of a positive COVID test (PCR or antigen)
+-- as opposed to simply a diagnosis code. This is to avoid the situation where a hospital diagnosis code gets 
+-- entered into the primary care record several months after the actual infection.
 
-
--- INPUT: Takes one parameter
+-- INPUT: Takes three parameters
 --  - start-date: string - (YYYY-MM-DD) the date to count diagnoses from. Usually this should be 2020-01-01.
+--	-	all-patients: boolean - (true/false) if true, then all patients are included, otherwise only those in the pre-existing #Patients table.
+--	- gp-events-table: string - (table name) the name of the table containing the GP events. Usually is "RLS.vw_GP_Events" but can be anything with the columns: FK_Patient_Link_ID, EventDate, and SuppliedCode
 
--- OUTPUT: Two temp tables as follows:
+-- OUTPUT: Three temp tables as follows:
 -- #CovidPatients (FK_Patient_Link_ID, FirstCovidPositiveDate)
 -- 	- FK_Patient_Link_ID - unique patient id
 --	- FirstCovidPositiveDate - earliest COVID diagnosis
 -- #CovidPatientsAllDiagnoses (FK_Patient_Link_ID, CovidPositiveDate)
 -- 	- FK_Patient_Link_ID - unique patient id
 --	- CovidPositiveDate - any COVID diagnosis
+-- #CovidPatientsMultipleDiagnoses
+--	-	FK_Patient_Link_ID - unique patient id
+--	-	FirstCovidPositiveDate - date of first COVID diagnosis
+--	-	SecondCovidPositiveDate - date of second COVID diagnosis
+--	-	ThirdCovidPositiveDate - date of third COVID diagnosis
+--	-	FourthCovidPositiveDate - date of fourth COVID diagnosis
+--	-	FifthCovidPositiveDate - date of fifth COVID diagnosis
+
+-- >>> Following code sets injected: covid-positive-antigen-test v1/covid-positive-pcr-test v1/covid-positive-test-other v1
 
 IF OBJECT_ID('tempdb..#CovidPatientsAllDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsAllDiagnoses;
-SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate INTO #CovidPatientsAllDiagnoses
-FROM [RLS].[vw_COVID19]
-WHERE (
-	(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
-	(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
-)
-AND EventDate > '2019-07-01'
-AND EventDate <= GETDATE();
+CREATE TABLE #CovidPatientsAllDiagnoses (
+	FK_Patient_Link_ID BIGINT,
+	CovidPositiveDate DATE
+);
+BEGIN
+	IF 'true'='true'
+		INSERT INTO #CovidPatientsAllDiagnoses
+		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
+		FROM [RLS].[vw_COVID19]
+		WHERE (
+			(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+		)
+		AND EventDate > '2019-07-01'
+		AND EventDate <= GETDATE();
+	ELSE 
+		INSERT INTO #CovidPatientsAllDiagnoses
+		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, [EventDate]) AS CovidPositiveDate
+		FROM [RLS].[vw_COVID19]
+		WHERE (
+			(GroupDescription = 'Confirmed' AND SubGroupDescription != 'Negative') OR
+			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
+		)
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+		AND EventDate > '2019-07-01'
+		AND EventDate <= GETDATE();
+END
 
+-- We can rely on the GraphNet table for first diagnosis.
 IF OBJECT_ID('tempdb..#CovidPatients') IS NOT NULL DROP TABLE #CovidPatients;
 SELECT FK_Patient_Link_ID, MIN(CovidPositiveDate) AS FirstCovidPositiveDate INTO #CovidPatients
 FROM #CovidPatientsAllDiagnoses
 GROUP BY FK_Patient_Link_ID;
 
+-- Now let's get the dates of any positive test (i.e. not things like suspected, or historic)
+IF OBJECT_ID('tempdb..#AllPositiveTestsTemp') IS NOT NULL DROP TABLE #AllPositiveTestsTemp;
+CREATE TABLE #AllPositiveTestsTemp (
+	FK_Patient_Link_ID BIGINT,
+	TestDate DATE
+);
+BEGIN
+	IF 'true'='true'
+		INSERT INTO #AllPositiveTestsTemp
+		SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
+		FROM #PatientEventData
+		WHERE SuppliedCode IN (
+			select Code from #AllCodes 
+			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
+			AND Version = 1
+		);
+	ELSE 
+		INSERT INTO #AllPositiveTestsTemp
+		SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS TestDate
+		FROM #PatientEventData
+		WHERE SuppliedCode IN (
+			select Code from #AllCodes 
+			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
+			AND Version = 1
+		)
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+END
+
+IF OBJECT_ID('tempdb..#CovidPatientsMultipleDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsMultipleDiagnoses;
+CREATE TABLE #CovidPatientsMultipleDiagnoses (
+	FK_Patient_Link_ID BIGINT,
+	FirstCovidPositiveDate DATE,
+	SecondCovidPositiveDate DATE,
+	ThirdCovidPositiveDate DATE,
+	FourthCovidPositiveDate DATE,
+	FifthCovidPositiveDate DATE
+);
+
+-- Populate first diagnosis
+INSERT INTO #CovidPatientsMultipleDiagnoses (FK_Patient_Link_ID, FirstCovidPositiveDate)
+SELECT FK_Patient_Link_ID, MIN(FirstCovidPositiveDate) FROM
+(
+	SELECT * FROM #CovidPatients
+	UNION
+	SELECT * FROM #AllPositiveTestsTemp
+) sub
+GROUP BY FK_Patient_Link_ID;
+
+-- Now let's get second tests.
+UPDATE t1
+SET t1.SecondCovidPositiveDate = NextTestDate
+FROM #CovidPatientsMultipleDiagnoses AS t1
+INNER JOIN (
+SELECT cp.FK_Patient_Link_ID, MIN(apt.TestDate) AS NextTestDate FROM #CovidPatients cp
+INNER JOIN #AllPositiveTestsTemp apt ON cp.FK_Patient_Link_ID = apt.FK_Patient_Link_ID AND apt.TestDate >= DATEADD(day, 90, FirstCovidPositiveDate)
+GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient_Link_ID;
+
+-- Now let's get third tests.
+UPDATE t1
+SET t1.ThirdCovidPositiveDate = NextTestDate
+FROM #CovidPatientsMultipleDiagnoses AS t1
+INNER JOIN (
+SELECT cp.FK_Patient_Link_ID, MIN(apt.TestDate) AS NextTestDate FROM #CovidPatientsMultipleDiagnoses cp
+INNER JOIN #AllPositiveTestsTemp apt ON cp.FK_Patient_Link_ID = apt.FK_Patient_Link_ID AND apt.TestDate >= DATEADD(day, 90, SecondCovidPositiveDate)
+GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient_Link_ID;
+
+-- Now let's get fourth tests.
+UPDATE t1
+SET t1.FourthCovidPositiveDate = NextTestDate
+FROM #CovidPatientsMultipleDiagnoses AS t1
+INNER JOIN (
+SELECT cp.FK_Patient_Link_ID, MIN(apt.TestDate) AS NextTestDate FROM #CovidPatientsMultipleDiagnoses cp
+INNER JOIN #AllPositiveTestsTemp apt ON cp.FK_Patient_Link_ID = apt.FK_Patient_Link_ID AND apt.TestDate >= DATEADD(day, 90, ThirdCovidPositiveDate)
+GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient_Link_ID;
+
+-- Now let's get fifth tests.
+UPDATE t1
+SET t1.FifthCovidPositiveDate = NextTestDate
+FROM #CovidPatientsMultipleDiagnoses AS t1
+INNER JOIN (
+SELECT cp.FK_Patient_Link_ID, MIN(apt.TestDate) AS NextTestDate FROM #CovidPatientsMultipleDiagnoses cp
+INNER JOIN #AllPositiveTestsTemp apt ON cp.FK_Patient_Link_ID = apt.FK_Patient_Link_ID AND apt.TestDate >= DATEADD(day, 90, FourthCovidPositiveDate)
+GROUP BY cp.FK_Patient_Link_ID) AS sub ON sub.FK_Patient_Link_ID = t1.FK_Patient_Link_ID;
 
 IF OBJECT_ID('tempdb..#COVIDUtilisationAdmissions') IS NOT NULL DROP TABLE #COVIDUtilisationAdmissions;
 SELECT 
@@ -833,7 +1083,6 @@ INTO #AdmissionTypes FROM (
 -- 523477 rows	523477 rows
 -- 00:00:16		00:00:45
 
-
 --bring together for final output
 --patients in main cohort
 SELECT 
@@ -841,21 +1090,22 @@ SELECT
 	NULL AS MainCohortMatchedPatientId,
 	l.AdmissionDate,
 	l.DischargeDate,
-	ty.AdmissionType
+	ty.AdmissionType,
+	c.CovidHealthcareUtilisation
 FROM #MainCohort m 
 INNER JOIN #LengthOfStay l ON m.FK_Patient_Link_ID = l.FK_Patient_Link_ID
 INNER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND c.AdmissionDate = l.AdmissionDate AND c.AcuteProvider = l.AcuteProvider
 INNER JOIN #AdmissionTypes ty ON ty.FK_Patient_Link_ID = m.FK_Patient_Link_ID AND ty.AdmissionDate = l.AdmissionDate
 --patients in matched cohort
---UNION
---SELECT 
---	PatientId = m.FK_Patient_Link_ID,
---	PatientWhoIsMatched AS MainCohortMatchedPatientId,
---	l.AdmissionDate,
---	DischargeDate,
---	ty.AdmissionType,
---    c.CovidHealthcareUtilisation
---FROM #MatchedCohort m 
---INNER JOIN #LengthOfStay l ON m.FK_Patient_Link_ID = l.FK_Patient_Link_ID
---INNER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND c.AdmissionDate = l.AdmissionDate AND c.AcuteProvider = l.AcuteProvider
---INNER JOIN #AdmissionTypes ty ON ty.FK_Patient_Link_ID = m.FK_Patient_Link_ID AND ty.AdmissionDate = l.AdmissionDate
+UNION
+SELECT 
+	PatientId = m.FK_Patient_Link_ID,
+	PatientWhoIsMatched AS MainCohortMatchedPatientId,
+	l.AdmissionDate,
+	DischargeDate,
+	ty.AdmissionType,
+    c.CovidHealthcareUtilisation
+FROM #MatchedCohort m 
+INNER JOIN #LengthOfStay l ON m.FK_Patient_Link_ID = l.FK_Patient_Link_ID
+INNER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND c.AdmissionDate = l.AdmissionDate AND c.AcuteProvider = l.AcuteProvider
+INNER JOIN #AdmissionTypes ty ON ty.FK_Patient_Link_ID = m.FK_Patient_Link_ID AND ty.AdmissionDate = l.AdmissionDate

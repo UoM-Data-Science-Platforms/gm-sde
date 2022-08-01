@@ -34,9 +34,11 @@ IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
+-- FINAL TABLE: TAKE DATA AS IT IS FROM MYWAY TABLES
 
 SELECT 
 	PatientId = lh.FK_Patient_Link_ID,
+	GoalsId = PK_Live_Goals_ID,
 	EventDateTime = EventStamp,
 	TargetDate,
 	HealthRecord,
