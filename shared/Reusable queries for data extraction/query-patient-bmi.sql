@@ -37,6 +37,8 @@ FROM RLS.vw_GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'bmi'AND [Version]=1) 
 	AND EventDate <= @IndexDate
+	AND TRY_CONVERT(NUMERIC(16,5), [Value]) BETWEEN 5 AND 100
+
 UNION
 SELECT 
 	FK_Patient_Link_ID,
@@ -48,6 +50,7 @@ FROM RLS.vw_GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'bmi' AND [Version]=1)
 	AND EventDate <= @IndexDate
+	AND TRY_CONVERT(NUMERIC(16,5), [Value]) BETWEEN 5 AND 100
 
 
 -- For closest BMI prior to index date
