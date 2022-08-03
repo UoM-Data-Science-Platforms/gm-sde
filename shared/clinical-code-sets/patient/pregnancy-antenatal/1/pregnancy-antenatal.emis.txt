@@ -99,7 +99,6 @@
 ^ESCT1421086	Foetal disorder due to disease in mother
 ^ESCT1421087	Foetal disorder due to maternal disease
 ^ESCT1421088	Fetal disorder due to maternal disease
-^ESCT24832444	24 hour ECG (electrocardiogram) enhanced services administration
 ^ESCTAB252470	Abnormality of organs AND/OR soft tissues of pelvis affecting pregnancy
 ^ESCTAB252471	Abnormal pelvic organ affecting pregnancy
 ^ESCTAB266519	Abortion counseling
@@ -219,7 +218,6 @@
 ^ESCTAN510503	Antepartum hemorrhage with hypofibrinogenemia
 ^ESCTAN510505	Antepartum hemorrhage with hyperfibrinolysis
 ^ESCTAN510507	Antepartum hemorrhage with afibrinogenemia
-^ESCTAN510617	Antepartum fetal death
 ^ESCTAN519220	Antenatal RhD antibody status
 ^ESCTAN519221	Antenatal Rhesus antibody status
 ^ESCTAN549895	Antepartum hemorrhage, abruptio placentae and placenta previa
@@ -269,8 +267,6 @@
 ^ESCTCO479689	Continuing pregnancy after intrauterine death of one or more fetuses
 ^ESCTCO479691	Continuing pregnancy after intrauterine death of one or more foetuses
 ^ESCTCO479692	Continuing pregnancy after intrauterine death one foetus or more
-^ESCTCO493930	Counselling following termination of pregnancy
-^ESCTCO493931	Counseling following termination of pregnancy
 ^ESCTCO493934	Counseling prior to the termination of pregnancy
 ^ESCTCO493935	Counselling prior to the termination of pregnancy
 ^ESCTCO510559	Complete breech delivery
@@ -280,8 +276,6 @@
 ^ESCTCT647545	CTG - Cardiotochography
 ^ESCTCV592129	CVB - Chorionic villus biopsy
 ^ESCTCV592130	CVS - Chorionic villus sampling
-^ESCTDE307179	Depressive illness
-^ESCTDE307180	Depressed
 ^ESCTDE346754	Deficient liquor
 ^ESCTDE730996	Dead fetus in utero
 ^ESCTDI291196	Disproportion between foetal head and pelvis
@@ -325,7 +319,6 @@
 ^ESCTEN521545	Entire delivered uterus
 ^ESCTEP660068	EPH - Oedema, proteinuria and hypertension of pregnancy
 ^ESCTEP660071	EPH - Edema, proteinuria and hypertension of pregnancy
-^ESCTEQ491581	Equipment use education
 ^ESCTER647606	Erythroblastosis foetalis
 ^ESCTES483720	Escherichia coli intra-amniotic fetal infection
 ^ESCTES483722	Escherichia coli intra-amniotic foetal infection
@@ -579,7 +572,6 @@
 ^ESCTGM799071	GMS2 claim health authority dispute fee due
 ^ESCTGR264773	Gravid uterus structure
 ^ESCTGR264774	Gravid uterus
-^ESCTGR516151	Growth US scan
 ^ESCTHA291325	Haemorrhage before 22 weeks gestation
 ^ESCTHA405956	Haemolysis-elevated liver enzymes-low platelet count syndrome
 ^ESCTHA479459	Haemorrhage from placenta praevia
@@ -703,9 +695,7 @@
 ^ESCTMI316220	Mild pre-eclamptic toxemia
 ^ESCTMI316221	Mild pre-eclamptic toxaemia
 ^ESCTMI316224	Mild proteinuric hypertension of pregnancy
-^ESCTMO307181	Mood disorder of depressed type
 ^ESCTMO510520	Moderate proteinuric hypertension of pregnancy
-^ESCTMU408182	Multip
 ^ESCTNE404889	Neoplasm of uncertain behavior of placenta
 ^ESCTNE812619	Newborn blood spot screening programme, sickle cell repeat screening with further sample required
 ^ESCTNI837125	Nitrazamine test
@@ -881,7 +871,6 @@
 ^ESCTPL377001	Placental structure
 ^ESCTPL458548	Placental localization
 ^ESCTPL462430	Planned pregnancy
-^ESCTPL462884	Placental finding
 ^ESCTPL479451	Placenta previa without hemorrhage - not delivered
 ^ESCTPL479457	Placenta previa with hemorrhage
 ^ESCTPL479463	Placenta previa with hemorrhage - not delivered
@@ -897,7 +886,6 @@
 ^ESCTPO462407	Postcoital oral contraceptive pill failure
 ^ESCTPO462408	Postcoital IUCD failure
 ^ESCTPO462409	Postcoital intrauterine contraceptive device failure
-^ESCTPO493929	Post-termination counseling
 ^ESCTPO510218	Postpartum obstetric operation
 ^ESCTPO510219	Post-delivery obstetric operation
 ^ESCTPO558769	Poor fetal nutrition
@@ -962,7 +950,6 @@
 ^ESCTRE541971	Removal of cerclage material from cervix
 ^ESCTRE541972	Removal of cerclage from cervix
 ^ESCTRE558422	Reduced foetal movement
-^ESCTRE834123	Recommendation to carer regarding child's vitamin supplementation
 ^ESCTRH462579	Rhesus screening - 2nd pregnancy sample
 ^ESCTRH462580	Rhesus screening - Second pregnancy sample
 ^ESCTRH462581	Rhesus screening - 3rd pregnancy sample
@@ -978,10 +965,6 @@
 ^ESCTSE325583	Severe proteinuric hypertension of pregnancy
 ^ESCTSE723944	Seen in maternal fetal medicine (MFM) clinic
 ^ESCTSE723945	Seen in maternal foetal medicine (MFM) clinic
-^ESCTSE759797	Seen in pediatric endocrinology clinic
-^ESCTSE759799	Seen in sickle cell and thalassemia clinic
-^ESCTSE829456	Seen in COPD (chronic obstructive pulmonary disease) clinic
-^ESCTSE831582	Seen in CAMHS community drop in clinic
 ^ESCTSF549947	SFD - Fetus small-for-dates
 ^ESCTSF549958	SFD - Foetus small-for-dates
 ^ESCTSG549948	SGA - Small for gestational age fetus
@@ -1026,7 +1009,6 @@
 ^ESCTTR365540	Transplacental fetomaternal haemorrhage
 ^ESCTTR365541	Transplacental fetomaternal hemorrhage
 ^ESCTTR368999	Transverse presentation
-^ESCTTR711385	Transvaginal nuchal ultrasonography
 ^ESCTTR711387	Transvaginal obstetric ultrasonography
 ^ESCTTU549913	Tumor of uterine body affecting obstetric care
 ^ESCTTU549919	Tumor of uterine body complicating antenatal care, baby not yet delivered
@@ -1045,7 +1027,6 @@
 ^ESCTUL516145	Ultrasound scan of fetus
 ^ESCTUL516146	Ultrasonography for antepartum monitoring of foetus
 ^ESCTUL516148	Ultrasound scan of foetus
-^ESCTUL516152	Ultrasound scan for foetal growth
 ^ESCTUL602426	Ultrasonic doppler for foetal heart sounds
 ^ESCTUL634103	Ultrasound scan - multiple fetus
 ^ESCTUL634104	Ultrasound scan - multiple foetus
@@ -1071,7 +1052,6 @@
 ^ESCTVE549974	Venous complication of pregnancy and/or the puerperium
 ^ESCTVE556026	Venereal disease in pregnancy
 ^ESCTVO396832	Vomiting as reason for care in pregnancy
-EGTONHO2	Home Visit Not Wanted
 EMISHGT007	U-S scan fetal BPD
 EMISHGT008	U-S scan fetal head circumference
 EMISHGT009	U-S scan fetal abdominal circumference
@@ -1090,76 +1070,25 @@ EMISNQAN35	A/N 31 week examination
 EMISNQAN63	Antenatal examination - 1st contact with healthcare professional
 EMISNQCA973	Cardiotocogram (CTG)
 EMISNQDN17	DNA pertussis vaccination in pregnancy-enhanced serv admin
-EMISNQDO33	Does not wish to participate in remote care monitoring - ESA
 EMISNQED4	Education about listeria precautions during pregnancy
 EMISNQED5	Education about toxoplasmosis precautions during pregnancy
 EMISNQFE2	Feeding intention: mixed
 EMISNQFE7	Fetus with cardiovascular abnormality
 EMISNQHE182	Health visitor antenatal visit: 32-34 weeks
-EMISNQHE183	Health visitor child 3-5 weeks of age contact
-EMISNQHE184	Health visitor child 6-8 weeks of age contact
-EMISNQHE185	Health visitor child 8 month contact
-EMISNQHE186	Health visitor child 13-15 month contact
-EMISNQHE187	Health visitor child 27-30 month contact
-EMISNQHE188	Health visitor child 4-5 year contact
-EMISNQHE193	Health visitor child 3-5 weeks of age contact offered
-EMISNQHE194	Health visitor child 3-5 weeks of age contact offer accepted
-EMISNQHE195	Health visitor child 3-5 weeks of age contact declined
-EMISNQHE196	Health visitor child 6-8 weeks of age contact offered
-EMISNQHE197	Health visitor child 6-8 weeks of age contact offer accepted
-EMISNQHE198	Health visitor child 6-8 weeks of age contact declined
-EMISNQHE199	Health visitor child 3 month contact offered
-EMISNQHE200	Health visitor child 3 month contact offer accepted
-EMISNQHE201	Health visitor child 3 month contact declined
-EMISNQHE205	Health visitor child 8 month contact offered
-EMISNQHE206	Health visitor child 8 month contact offer accepted
-EMISNQHE207	Health visitor child 8 month contact declined
-EMISNQHE208	Health visitor child 13-15 month contact offered
-EMISNQHE209	Health visitor child 13-15 month contact offer accepted
-EMISNQHE210	Health visitor child 13-15 month contact declined
-EMISNQHE211	Health visitor child 27-30 month contact offered
-EMISNQHE212	Health visitor child 27-30 month contact offer accepted
-EMISNQHE213	Health visitor child 27-30 month contact declined
-EMISNQHE214	Health visitor child 4-5 year contact offered
-EMISNQHE215	Health visitor child 4-5 year contact offer accepted
-EMISNQHE216	Health visitor child 4-5 year contact declined
-EMISNQHE53	Height of gravid uterus
 EMISNQHE79	Health visitor antenatal visit
-EMISNQHO136	Home visit post fall assessment
-EMISNQHO23	Home visit request by residential institution
-EMISNQHO62	Home visit required
-EMISNQHO92	Home visit request made by district nurse
-EMISNQIN78	Insertion of etonogestrel implant - enhanced serv administration
 EMISNQOB3	Obstetric US scan for cervical length
-EMISNQON17	Ongoing home visits by GP required
-EMISNQON18	Ongoing home visits by GP no longer required
-EMISNQPA158	Patient visited within 90 minutes of preferred time
-EMISNQPA159	Patient not visited within 90 minutes of preferred time
 EMISNQPE42	Pertussis vaccination of pregnant women programme - ESA
 EMISNQPE43	Pertussis vaccination in pregnancy declined-enhanced serv admin
 EMISNQPE44	Pertussis vaccination in pregnancy invitation-enhnced serv admin
 EMISNQPE45	Pertussis vaccination in pregnancy-enhanced serv admin
-EMISNQPH45	PHN first visit-referrd to Scottish national support needs systm
-EMISNQPH46	PHN first visit - summary comments
 EMISNQPO22	Post-termination counselling
-EMISNQPR48	Premenstrual dysphoric disorder
 EMISNQPR59	Pre-termination counselling
+EMISNQSE22	Seen in fetal medicine clinic
+EMISNQSE32	Seen in early pregnancy unit
 EMISNQTR10	Transvaginal obstetric US scan
 EMISNQTR11	Transvaginal obstetric US scan for cervical length
 EMISNQTR12	Transvaginal nuchal ultrasound scan
-EMISNQTR21	Treatment room services - enhanced services administration
 EMISNQUL6	Ultrasound scan for fetal growth
 EMISNQUL9	Ultrasonography for antepartum monitoring of multiple fetus
-EMISQAD3	Advice regarding change of urinary catheter bag
-ESCTAD4	Advice on hepatitis B vaccination
-ESCTAN6	Antepartum foetal death
-ESCTCO1	Complete placenta at delivery
 ESCTCO3	Concealed pregnancy
-ESCTGR1	Gravida more than 10
-ESCTHE2	Health visitor child 6 weeks of age contact
-ESCTHE3	Health visitor child 9 to 12 month contact
-ESCTHE6	Health visitor child 3 month contact
-ESCTIN26	Intrauterine death of one twin
-ESCTME1	Membranes incomplete
 ESCTME2	Membranes complete
-ESCTMU3	Multigravida
