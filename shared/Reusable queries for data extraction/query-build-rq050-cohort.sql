@@ -22,6 +22,11 @@
 --> CODESET pregnancy-multiple:1 pregnancy-ectopic:1 pregnancy-miscarriage:1 pregnancy-top:1 pregnancy-top-probable:1 pregnancy-molar:1 pregnancy-blighted-ovum:1
 --> CODESET pregnancy-loss-unspecified:1 pregnancy-postnatal-other:1 pregnancy-late-preg:1 pregnancy-preg-related:1
 
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM RLS.vw_Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < '2022-06-01';
 
 -- table of all pregnancy codes within the study period
 
@@ -63,6 +68,8 @@ LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = ph.FK_Patien
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = ph.FK_Patient_Link_ID
 WHERE YEAR(@StartDate) - YearOfBirth BETWEEN 14 AND 49 -- OVER 18s ONLY
 	AND Sex <> 'M'
+	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) -- exclude new patients processed post-COPI notice
+
 UNION ALL 
 SELECT DISTINCT pp.FK_Patient_Link_ID, Sex, YearOfBirth
 FROM #PregnancyPatientsGP pp
@@ -70,6 +77,8 @@ LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = pp.FK_Patien
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = pp.FK_Patient_Link_ID
 WHERE YEAR(@StartDate) - YearOfBirth BETWEEN 14 AND 49 -- OVER 18s ONLY
 	AND Sex <> 'M'
+	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) -- exclude new patients processed post-COPI notice
+
 
 -- TABLE OF GP EVENTS FOR COHORT TO SPEED UP REUSABLE QUERIES
 
