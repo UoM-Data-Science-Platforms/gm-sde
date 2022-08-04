@@ -7,7 +7,6 @@
 -- OUTPUT: Data with the following fields
 -- Patient Id
 -- AdmissionDate (DD-MM-YYYY)
--- CovidAdmission (1/0)
 
 -- Set the start date
 DECLARE @StartDate datetime;
@@ -33,32 +32,15 @@ IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
-
-
---------------------------------------------------------------------------------------------------------
------------------------------------ DEFINE MAIN COHORT -- ----------------------------------------------
---------------------------------------------------------------------------------------------------------
-
-
---------------------------------------------------------------------------------------------------------
-
-
+----------------------------------------
+--> EXECUTE query-build-rq050-cohort.sql
+----------------------------------------
 
 -- Find all indications of a hospital encounter in the GP record 
 
 -- add ReadCodes
-SELECT 'A+E' AS EncounterType, PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
+SELECT 'Hospital' AS EncounterType, PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
 INTO #CodingClassifier
-FROM SharedCare.Reference_Coding
-WHERE CodingType='ReadCodeV2'
-AND (
-	MainCode like '8H2%'
-	or MainCode like '8H[1-3]%'
-	or MainCode in ('9N19.','8HJA.','8HC..','8Hu..','8HC1.','ZL91.','9b00.','9b8D.','9b61.','8Hd1.','ZLD2100','8HE8.','8HJ..','8HJJ.','ZLE1.','ZL51.')
-);
-
-INSERT INTO #CodingClassifier
-SELECT 'Hospital', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID
 FROM SharedCare.Reference_Coding
 WHERE CodingType='ReadCodeV2'
 AND (
@@ -69,23 +51,11 @@ AND (
 
 -- Add the equivalent CTV3 codes
 INSERT INTO #CodingClassifier
-SELECT 'A+E', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
-WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='A+E' AND FK_Reference_SnomedCT_ID != -1)
-AND CodingType='CTV3';
-
-INSERT INTO #CodingClassifier
 SELECT 'Hospital', PK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Coding
 WHERE FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='Hospital' AND FK_Reference_SnomedCT_ID != -1)
 AND CodingType='CTV3';
 
 -- Add the equivalent EMIS codes
-INSERT INTO #CodingClassifier
-SELECT 'A+E', FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Local_Code
-WHERE (
-	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #CodingClassifier WHERE EncounterType='A+E' AND FK_Reference_SnomedCT_ID != -1) OR
-	FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier WHERE EncounterType='A+E' AND PK_Reference_Coding_ID != -1)
-);
-
 INSERT INTO #CodingClassifier
 SELECT 'Hospital', FK_Reference_Coding_ID, FK_Reference_SnomedCT_ID FROM SharedCare.Reference_Local_Code
 WHERE (
@@ -94,16 +64,15 @@ WHERE (
 );
 
 --FIND ALL EVENTS IN GP RECORD INDICATING A HOSPITAL ENCOUNTER
-
-IF OBJECT_ID('tempdb..#DiagnosesAndSymptoms') IS NOT NULL DROP TABLE #DiagnosesAndSymptoms;
+IF OBJECT_ID('tempdb..#HospitalEncounters') IS NOT NULL DROP TABLE #HospitalEncounters;
 SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EntryDate
 INTO #HospitalEncounters
-FROM RLS.vw_GP_Events
+FROM #PatientEventData
 WHERE FK_Reference_Coding_ID IN (SELECT PK_Reference_Coding_ID FROM #CodingClassifier)
 AND EventDate BETWEEN @StartDate and @EndDate;
 
 --bring together for final output
 SELECT 
-	PatientId = m.FK_Patient_Link_ID,
+	PatientId = FK_Patient_Link_ID,
 	AdmissionDate = EntryDate
 FROM #HospitalEncounters

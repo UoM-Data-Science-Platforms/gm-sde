@@ -7,10 +7,9 @@
 
 -- OUTPUT: Data with the following fields
 -- 	-   PatientId (int)
---	-	ObservationName
---	-	ObservationDateTime (YYYY-MM-DD 00:00:00)
+--	-	TestName
+--	-	TestDate (YYYY-MM-DD)
 --  -   TestResult 
---  -   TestUnit
 
 -- Set the start date
 DECLARE @StartDate datetime;
@@ -36,19 +35,15 @@ IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
-
---------------------------------------------------------------------------------------------------------
------------------------------------ DEFINE MAIN COHORT -----------------------------------------------
---------------------------------------------------------------------------------------------------------
-
-
----------------------------------------------------------------------------------------------------------------
+----------------------------------------
+--> EXECUTE query-build-rq050-cohort.sql
+----------------------------------------
 
 ---------------------------------------------------------------------------------------------------------
 ---------------------------------------- OBSERVATIONS/MEASUREMENTS --------------------------------------
 ---------------------------------------------------------------------------------------------------------
 
--- LOAD CODESETS FOR OBSERVATIONS WITH A VALUE (EXCEPT THOSE ALREADY LOADED ALREADY)
+-- LOAD CODESETS FOR OBSERVATIONS WITH A VALUE
 
 --> CODESET haemoglobin:1 white-blood-cells:1 red-blood-cells:1 platelets:1 haematocrit:1 mean-corpuscular-volume:1 mean-corpuscular-haemoglobin:1
 --> CODESET systolic-blood-pressure:1 diastolic-blood-pressure:1 
@@ -62,17 +57,23 @@ SELECT
 	CAST(EventDate AS DATE) AS EventDate,
 	Concept = CASE WHEN sn.Concept IS NOT NULL THEN sn.Concept ELSE co.Concept END,
 	[Version] =  CASE WHEN sn.[Version] IS NOT NULL THEN sn.[Version] ELSE co.[Version] END,
-	[Value],
-	[Units]
+	[Value] = TRY_CONVERT(NUMERIC (18,5), [Value])
 INTO #observations
-FROM RLS.vw_GP_Events gp
+FROM #PatientEventData gp
 LEFT JOIN #VersionedSnomedSets sn ON sn.FK_Reference_SnomedCT_ID = gp.FK_Reference_SnomedCT_ID
 LEFT JOIN #VersionedCodeSets co ON co.FK_Reference_Coding_ID = gp.FK_Reference_Coding_ID
 WHERE
-	(gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept not like '%pregnancy%') OR
-     gp.FK_Reference_Coding_ID   IN (SELECT FK_Reference_Coding_ID   FROM #VersionedCodeSets WHERE Concept not like '%pregnancy%') )
-AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
+	(gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN 
+		('haemoglobin', 'white-blood-cells', 'red-blood-cells', 'platelets', 'haematocrit', 'mean-corpuscular-volume',' mean-corpuscular-haemoglobin','systolic-blood-pressure', 'diastolic-blood-pressure', 'urine-blood', 'urine-protein', 'urine-ketones', 'urine-glucose')
+		) OR
+     gp.FK_Reference_Coding_ID   IN (SELECT FK_Reference_Coding_ID   FROM #VersionedCodeSets WHERE Concept IN 
+		('haemoglobin', 'white-blood-cells', 'red-blood-cells', 'platelets', 'haematocrit', 'mean-corpuscular-volume',' mean-corpuscular-haemoglobin','systolic-blood-pressure', 'diastolic-blood-pressure', 'urine-blood', 'urine-protein', 'urine-ketones', 'urine-glucose')
+		) 
+	)
 AND EventDate BETWEEN @StartDate and @EndDate
+AND [Value] IS NOT NULL AND [Value] != '0' AND TRY_CONVERT(NUMERIC (18,5), [VALUE]) <> 0 -- EXCLUDE NULLS AND ZERO VALUES
+AND UPPER([Value]) NOT LIKE '%[A-Z]%'  -- EXCLUDE ANY TEXT VALUES
+
 
 -- BRING TOGETHER FOR FINAL OUTPUT AND REMOVE USELESS RECORDS
 
@@ -80,7 +81,5 @@ SELECT
 	PatientId = o.FK_Patient_Link_ID
 	,TestName = o.Concept
 	,TestDate = o.EventDate
-	,TestResult = TRY_CONVERT(NUMERIC (18,5), [Value]) -- convert to numeric so no text can appear.
-	,TestUnit = o.[Units]
+	,TestResult =  o.Value-- convert to numeric so no text can appear.
 FROM #observations o
-WHERE  [Value] IS NOT NULL AND [Value] != '0' AND UPPER([Value]) NOT LIKE '%[A-Z]%'  -- CHECKS IN CASE ANY ZERO, NULL OR TEXT VALUES REMAINED
