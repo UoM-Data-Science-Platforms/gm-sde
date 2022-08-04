@@ -2,8 +2,10 @@
 --│ Observations │
 --└──────────────┘
 
--------- RESEARCH DATA ENGINEER CHECK ---------
+-------- RESEARCH DATA ENGINEER CHECK -------------------------------
 -- Richard Williams	2021-11-26	Review complete
+-- Richard Williams	2022-08-04	Review complete following changes
+---------------------------------------------------------------------
 
 /* Observations including: 
 	Systolic blood pressure
@@ -69,6 +71,14 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 -- #PatientEventData
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- CREATE TABLE OF PATIENTS THAT WERE PROCESSED BEFORE COPI NOTICE EXPIRED
+
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM RLS.vw_Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < '2022-06-01';
 
 -- >>> Codesets required... Inserting the code set code
 --
@@ -530,6 +540,7 @@ WHERE
 	p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM MWDH.Live_Header) 		-- My Way Diabetes Patients
 	AND p.FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #exclusions)   -- Exclude pts with gestational diabetes
 	AND YEAR(@StartDate) - yob.YearOfBirth >= 19									-- Over 18s only
+	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) -- exclude new patients processed post-COPI notice
 
 
 -- Define the population of potential matches for the cohort
@@ -538,6 +549,7 @@ SELECT DISTINCT FK_Patient_Link_ID, Sex, YearOfBirth
 INTO #PotentialMatches
 FROM #diabetes2_diagnoses
 WHERE FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #MainCohort)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) -- exclude new patients processed post-COPI notice
 
 
 --┌────────────────────────────────────────────────────┐
@@ -720,7 +732,6 @@ INTO #MatchedCohort
 FROM #CohortStore c
 LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = c.MatchingPatientId
 
-
 -- Define a table with all the patient ids for the main cohort and the matched cohort
 IF OBJECT_ID('tempdb..#PatientIds') IS NOT NULL DROP TABLE #PatientIds;
 SELECT PatientId AS FK_Patient_Link_ID INTO #PatientIds FROM #CohortStore
@@ -741,7 +752,8 @@ SELECT
   [Units]
 INTO #PatientEventData
 FROM [RLS].vw_GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientIds);
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientIds)
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) -- exclude new patients processed post-COPI notice
 
 --Outputs from this reusable query:
 -- #MainCohort

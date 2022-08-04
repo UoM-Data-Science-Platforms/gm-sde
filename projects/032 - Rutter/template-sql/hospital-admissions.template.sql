@@ -2,8 +2,10 @@
 --│ Hospital stay information for T2D intervention cohort and T2D controls    │
 --└───────────────────────────────────────────────────────────────────────────┘
 
--------- RESEARCH DATA ENGINEER CHECK ---------
+-------- RESEARCH DATA ENGINEER CHECK -------------------------------
 -- Richard Williams	2021-11-26	Review complete
+-- Richard Williams	2022-08-04	Review complete following changes
+---------------------------------------------------------------------
 
 -- OUTPUT: Data with the following fields
 -- Patient Id

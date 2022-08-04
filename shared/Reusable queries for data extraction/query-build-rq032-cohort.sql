@@ -94,6 +94,7 @@ SELECT DISTINCT FK_Patient_Link_ID, Sex, YearOfBirth
 INTO #PotentialMatches
 FROM #diabetes2_diagnoses
 WHERE FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #MainCohort)
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) -- exclude new patients processed post-COPI notice
 
 
 --> EXECUTE query-cohort-matching-yob-sex-alt.sql yob-flex:1 num-matches:20
@@ -110,8 +111,6 @@ SELECT
 INTO #MatchedCohort
 FROM #CohortStore c
 LEFT OUTER JOIN #Patients p ON p.FK_Patient_Link_ID = c.MatchingPatientId
-	WHERE c.MatchingPatientId IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) -- exclude new patients processed post-COPI notice
-
 
 -- Define a table with all the patient ids for the main cohort and the matched cohort
 IF OBJECT_ID('tempdb..#PatientIds') IS NOT NULL DROP TABLE #PatientIds;

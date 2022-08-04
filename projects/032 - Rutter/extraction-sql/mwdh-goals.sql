@@ -2,8 +2,9 @@
 --│ Patient goals - data from My Way Digital Health     │
 --└─────────────────────────────────────────────────────┘
 
--------- RESEARCH DATA ENGINEER CHECK ---------
--- 
+-------- RESEARCH DATA ENGINEER CHECK ----------
+-- Richard Williams	2022-08-04	Review complete 
+------------------------------------------------
 
 -- OUTPUT: Data with the following fields
 -- Patient Id
