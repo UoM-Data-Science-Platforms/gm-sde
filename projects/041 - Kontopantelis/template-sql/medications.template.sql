@@ -44,7 +44,7 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
 -- load codesets needed for retrieving medication prescriptions
 
---> CODESET statins:1 ace-inhibitor:1 aspirin:1 clopidogrel:1 sglt2-inhibitors:1 nsaids:1 hormone-replacement-therapy:1
+--> CODESET statins:1 ace-inhibitor:1 aspirin:1 clopidogrel:1 sglt2-inhibitors:1 nsaids:1 hormone-replacement-therapy-meds:1
 --> CODESET female-sex-hormones:1 male-sex-hormones:1 anabolic-steroids:1
 
 -- FIX ISSUE WITH DUPLICATE MEDICATIONS, CAUSED BY SOME CODES APPEARING MULTIPLE TIMES IN #VersionedCodeSets and #VersionedSnomedSets
