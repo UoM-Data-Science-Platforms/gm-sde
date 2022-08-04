@@ -576,6 +576,8 @@ WHERE
 			) 
 		OR p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #ACR_cohort) -- ACR evidence
 		)
+	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) 			 -- exclude new patients processed post-COPI notice
+
 
 -- TABLE OF GP EVENTS FOR COHORT TO SPEED UP REUSABLE QUERIES
 
@@ -638,7 +640,7 @@ AND (
 );
 
 
-SELECT DISTINCT PatientID = FK_Patient_Link_ID, -- ASSUME THAT CODES FROM SAME CODE SET ON SAME DAY ARE DUPLICATES
+SELECT DISTINCT PatientId = FK_Patient_Link_ID, -- ASSUME THAT CODES FROM SAME CODE SET ON SAME DAY ARE DUPLICATES
 	EventDate,
 	Concept
 FROM #DiagnosesAndSymptoms

@@ -72,7 +72,7 @@ AND (
 
 -- FIND ALL CODES PER YEAR FOR EACH PATIENT
 
-SELECT PatientID = FK_Patient_Link_ID,
+SELECT PatientId = FK_Patient_Link_ID,
 	[Year] = YEAR(EventDate),
 	sle = ISNULL(SUM(CASE WHEN Concept = 'sle' THEN 1 ELSE 0 END),0),
 	gout = ISNULL(SUM(CASE WHEN Concept = 'gout' THEN 1 ELSE 0 END),0),

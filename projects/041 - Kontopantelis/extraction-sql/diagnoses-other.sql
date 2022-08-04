@@ -691,6 +691,8 @@ WHERE
 			) 
 		OR p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #ACR_cohort) -- ACR evidence
 		)
+	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) 			 -- exclude new patients processed post-COPI notice
+
 
 -- TABLE OF GP EVENTS FOR COHORT TO SPEED UP REUSABLE QUERIES
 
@@ -756,7 +758,7 @@ AND (
 
 -- FIND ALL CODES PER YEAR FOR EACH PATIENT
 
-SELECT PatientID = FK_Patient_Link_ID,
+SELECT PatientId = FK_Patient_Link_ID,
 	[Year] = YEAR(EventDate),
 	sle = ISNULL(SUM(CASE WHEN Concept = 'sle' THEN 1 ELSE 0 END),0),
 	gout = ISNULL(SUM(CASE WHEN Concept = 'gout' THEN 1 ELSE 0 END),0),

@@ -689,6 +689,8 @@ WHERE
 			) 
 		OR p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #ACR_cohort) -- ACR evidence
 		)
+	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) 			 -- exclude new patients processed post-COPI notice
+
 
 -- TABLE OF GP EVENTS FOR COHORT TO SPEED UP REUSABLE QUERIES
 
@@ -754,7 +756,7 @@ WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 
 IF OBJECT_ID('tempdb..#meds_wide') IS NOT NULL DROP TABLE #meds_wide;
 select 
-	FK_Patient_Link_ID,
+	PatientId = FK_Patient_Link_ID,
 	YEAR(PrescriptionDate) as [Year], 
 	Month(PrescriptionDate) as [Month], 
 	statin = ISNULL(SUM(CASE WHEN Concept = 'statins' then 1 else 0 end),0),
