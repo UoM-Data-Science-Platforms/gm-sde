@@ -82,7 +82,11 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 -- #Cohort (FK_Patient_Link_ID)
 -- #PatientEventData
 
-
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM RLS.vw_Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < '2022-06-01';
 
 -- LOAD CODESETS NEEDED FOR DEFINING COHORT
 
@@ -1525,6 +1529,8 @@ FROM RLS.vw_GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'bmi'AND [Version]=1) 
 	AND EventDate <= @IndexDate
+	AND TRY_CONVERT(NUMERIC(16,5), [Value]) BETWEEN 5 AND 100
+
 UNION
 SELECT 
 	FK_Patient_Link_ID,
@@ -1536,6 +1542,7 @@ FROM RLS.vw_GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'bmi' AND [Version]=1)
 	AND EventDate <= @IndexDate
+	AND TRY_CONVERT(NUMERIC(16,5), [Value]) BETWEEN 5 AND 100
 
 
 -- For closest BMI prior to index date
