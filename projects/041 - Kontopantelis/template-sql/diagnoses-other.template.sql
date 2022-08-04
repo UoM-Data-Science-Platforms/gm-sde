@@ -31,13 +31,11 @@ IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
--- DEFINE COHORT
 --> EXECUTE query-build-rq041-cohort.sql
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 ------------------- NOW COHORT HAS BEEN DEFINED, LOAD CODE SETS FOR ALL CONDITIONS/SYMPTOMS OF INTEREST ---------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------
-
 
 --> CODESET sle:1 vasculitis:1 gout:1 haematuria:1 non-alc-fatty-liver-disease:1 hormone-replacement-therapy:1
 --> CODESET long-covid:1 menopause:1 myeloma:1 obese:1 haematuria:1 osteoporosis:1
@@ -65,7 +63,7 @@ INTO #DiagnosesAndSymptoms
 FROM #PatientEventData gp
 LEFT OUTER JOIN #VersionedSnomedSetsUnique s ON s.FK_Reference_SnomedCT_ID = gp.FK_Reference_SnomedCT_ID
 LEFT OUTER JOIN #VersionedCodeSetsUnique c ON c.FK_Reference_Coding_ID = gp.FK_Reference_Coding_ID
-AND gp.EventDate BETWEEN @StartDate AND @EndDate
+WHERE gp.EventDate BETWEEN @StartDate AND @EndDate
 AND (
 	(gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSetsUnique WHERE (Concept NOT IN ('egfr','urinary-albumin-creatinine-ratio','glomerulonephritis', 'kidney-transplant', 'kidney-stones', 'vasculitis'))))
 	OR

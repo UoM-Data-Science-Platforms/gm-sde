@@ -85,7 +85,7 @@ where
 
 -- BRING TOGETHER FOR FINAL OUTPUT AND REMOVE USELESS RECORDS
 
-SELECT	 
+SELECT DISTINCT
 	PatientId = o.FK_Patient_Link_ID
 	,TestName = o.Concept
 	,TestDate = o.EventDate
