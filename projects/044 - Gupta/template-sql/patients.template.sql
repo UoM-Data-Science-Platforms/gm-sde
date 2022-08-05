@@ -343,7 +343,7 @@ GROUP BY FK_Patient_Link_ID
 
 
 SELECT  
-	p.FK_Patient_Link_ID, 
+	PatientId = p.FK_Patient_Link_ID, 
 	p.YearOfBirth, 
 	Sex,
 	BMI,

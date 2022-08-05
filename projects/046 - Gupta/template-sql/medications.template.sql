@@ -144,7 +144,7 @@ WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 --  FINAL TABLE: NUMBER OF EACH MEDICATION CATEGORY PRESCRIBED EACH MONTH 
 
 select 
-	FK_Patient_Link_ID,
+	PatientId = FK_Patient_Link_ID,
 	YEAR(PrescriptionDate) as [Year], 
 	Month(PrescriptionDate) as [Month], 
 	[bnf-gastro-intestinal] = ISNULL(SUM(CASE WHEN Concept = 'bnf-gastro-intestinal-meds' then 1 else 0 end),0),

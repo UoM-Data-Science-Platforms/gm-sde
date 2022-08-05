@@ -107,8 +107,9 @@ WHERE FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 
 --> EXECUTE query-patient-gp-encounters.sql all-patients:false gp-events-table:RLS.vw_GP_Events start-date:'2018-01-01' end-date:'2022-05-01'
 
-
 ------------ FIND ALL GP ENCOUNTERS FOR COHORT
-SELECT *
+SELECT 
+	PatientId = FK_Patient_Link_ID,
+	EncounterDate
 FROM #GPEncounters
 ORDER BY FK_Patient_Link_ID, EncounterDate

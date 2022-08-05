@@ -111,6 +111,7 @@ WHERE FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 
 
 ------------ FIND ALL GP ENCOUNTERS FOR COHORT
-SELECT *
+SELECT PatientId = FK_Patient_Link_ID,
+	EncounterDate
 FROM #GPEncounters
 ORDER BY FK_Patient_Link_ID, EncounterDate
