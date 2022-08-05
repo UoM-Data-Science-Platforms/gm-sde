@@ -16,7 +16,10 @@
 
 -- Set the start date
 DECLARE @StartDate datetime;
-SET @StartDate = '2019-07-09';
+SET @StartDate = '2019-07-01';
+DECLARE @EndDate datetime;
+SET @EndDate = '2022-03-31';
+
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -63,7 +66,7 @@ FROM RLS.vw_GP_Medications m
 LEFT OUTER JOIN #VersionedSnomedSets_1 s ON s.FK_Reference_SnomedCT_ID = m.FK_Reference_SnomedCT_ID
 LEFT OUTER JOIN #VersionedCodeSets_1 c ON c.FK_Reference_Coding_ID = m.FK_Reference_Coding_ID
 WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientIds)
-	AND m.MedicationDate >= '2019-07-09' 
+	AND m.MedicationDate BETWEEN @StartDate and @EndDate
 	AND (m.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets_1) OR
 		m.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets_1))
 	AND UPPER(SourceTable) NOT LIKE '%REPMED%'  -- exclude duplicate prescriptions 

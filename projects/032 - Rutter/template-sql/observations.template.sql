@@ -33,6 +33,9 @@
 -- Set the start date
 DECLARE @StartDate datetime;
 SET @StartDate = '2019-07-09';
+DECLARE @EndDate datetime;
+SET @EndDate = '2022-03-31';
+
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -76,7 +79,7 @@ WHERE
 	(gp.FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept NOT IN ('polycystic-ovarian-syndrome', 'gestational-diabetes', 'diabetes-type-ii' )) OR
     gp.FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept NOT IN ('polycystic-ovarian-syndrome', 'gestational-diabetes', 'diabetes-type-ii' )) )
 AND (gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #MainCohort) OR gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #MatchedCohort))
-AND EventDate BETWEEN '2016-04-01' AND '2022-03-31' 
+AND EventDate BETWEEN '2016-04-01' AND @EndDate
 
 -- WHERE CODES EXIST IN BOTH VERSIONS OF THE CODE SET (OR IN OTHER SIMILAR CODE SETS), THERE WILL BE DUPLICATES, SO EXCLUDE THEM FROM THE SETS/VERSIONS THAT WE DON'T WANT 
 
