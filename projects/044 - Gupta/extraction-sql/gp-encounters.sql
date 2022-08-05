@@ -1422,8 +1422,9 @@ BEGIN
       AND EventDate BETWEEN '2018-01-01' AND '2022-05-01'
   END
 
-
 ------------ FIND ALL GP ENCOUNTERS FOR COHORT
-SELECT *
+SELECT 
+	PatientId = FK_Patient_Link_ID,
+	EncounterDate
 FROM #GPEncounters
 ORDER BY FK_Patient_Link_ID, EncounterDate
