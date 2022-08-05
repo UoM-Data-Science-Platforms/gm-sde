@@ -16,6 +16,8 @@
 -- Set the start date
 DECLARE @StartDate datetime;
 SET @StartDate = '2019-07-09';
+DECLARE @EndDate datetime;
+SET @EndDate = '2022-03-31';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
@@ -46,7 +48,7 @@ DELETE FROM #Patients
 WHERE FK_Patient_Link_ID NOT IN (SELECT FK_Patient_Link_ID FROM #PatientIds)
 
 --> EXECUTE query-get-admissions-and-length-of-stay.sql all-patients:false
---> EXECUTE query-admissions-covid-utilisation.sql start-date:'2019-07-01' all-patients:true gp-events-table:#PatientEventData
+--> EXECUTE query-admissions-covid-utilisation.sql start-date:'2019-07-09' all-patients:true gp-events-table:#PatientEventData
 --> EXECUTE query-classify-secondary-admissions.sql
 
 --bring together for final output
@@ -62,6 +64,7 @@ FROM #MainCohort m
 INNER JOIN #LengthOfStay l ON m.FK_Patient_Link_ID = l.FK_Patient_Link_ID
 INNER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND c.AdmissionDate = l.AdmissionDate AND c.AcuteProvider = l.AcuteProvider
 INNER JOIN #AdmissionTypes ty ON ty.FK_Patient_Link_ID = m.FK_Patient_Link_ID AND ty.AdmissionDate = l.AdmissionDate
+WHERE l.AdmissionDate BETWEEN @StartDate AND @EndDate
 --patients in matched cohort
 UNION
 SELECT 
@@ -75,3 +78,4 @@ FROM #MatchedCohort m
 INNER JOIN #LengthOfStay l ON m.FK_Patient_Link_ID = l.FK_Patient_Link_ID
 INNER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND c.AdmissionDate = l.AdmissionDate AND c.AcuteProvider = l.AcuteProvider
 INNER JOIN #AdmissionTypes ty ON ty.FK_Patient_Link_ID = m.FK_Patient_Link_ID AND ty.AdmissionDate = l.AdmissionDate
+WHERE l.AdmissionDate BETWEEN @StartDate AND @EndDate
