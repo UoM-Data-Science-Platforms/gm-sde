@@ -567,6 +567,11 @@ sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 -- >>> Following code sets injected: pregnancy-multiple v1/pregnancy-ectopic v1/pregnancy-miscarriage v1/pregnancy-top v1/pregnancy-top-probable v1/pregnancy-molar v1/pregnancy-blighted-ovum v1
 -- >>> Following code sets injected: pregnancy-loss-unspecified v1/pregnancy-postnatal-other v1/pregnancy-late-preg v1/pregnancy-preg-related v1
 
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM RLS.vw_Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < '2022-06-01';
 
 -- table of all pregnancy codes within the study period
 
@@ -841,6 +846,8 @@ LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = ph.FK_Patien
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = ph.FK_Patient_Link_ID
 WHERE YEAR(@StartDate) - YearOfBirth BETWEEN 14 AND 49 -- OVER 18s ONLY
 	AND Sex <> 'M'
+	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) -- exclude new patients processed post-COPI notice
+
 UNION ALL 
 SELECT DISTINCT pp.FK_Patient_Link_ID, Sex, YearOfBirth
 FROM #PregnancyPatientsGP pp
@@ -848,6 +855,8 @@ LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = pp.FK_Patien
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = pp.FK_Patient_Link_ID
 WHERE YEAR(@StartDate) - YearOfBirth BETWEEN 14 AND 49 -- OVER 18s ONLY
 	AND Sex <> 'M'
+	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) -- exclude new patients processed post-COPI notice
+
 
 -- TABLE OF GP EVENTS FOR COHORT TO SPEED UP REUSABLE QUERIES
 
@@ -899,7 +908,7 @@ WHERE (
 );
 
 --FIND ALL EVENTS IN GP RECORD INDICATING A HOSPITAL ENCOUNTER
-IF OBJECT_ID('tempdb..#DiagnosesAndSymptoms') IS NOT NULL DROP TABLE #DiagnosesAndSymptoms;
+IF OBJECT_ID('tempdb..#HospitalEncounters') IS NOT NULL DROP TABLE #HospitalEncounters;
 SELECT DISTINCT FK_Patient_Link_ID, CAST(EventDate AS DATE) AS EntryDate
 INTO #HospitalEncounters
 FROM #PatientEventData
@@ -908,6 +917,6 @@ AND EventDate BETWEEN @StartDate and @EndDate;
 
 --bring together for final output
 SELECT 
-	PatientId = m.FK_Patient_Link_ID,
+	PatientId = FK_Patient_Link_ID,
 	AdmissionDate = EntryDate
 FROM #HospitalEncounters

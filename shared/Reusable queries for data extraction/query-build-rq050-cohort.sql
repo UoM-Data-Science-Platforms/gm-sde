@@ -68,7 +68,7 @@ LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = ph.FK_Patien
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = ph.FK_Patient_Link_ID
 WHERE YEAR(@StartDate) - YearOfBirth BETWEEN 14 AND 49 -- OVER 18s ONLY
 	AND Sex <> 'M'
-	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) -- exclude new patients processed post-COPI notice
+	AND ph.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) -- exclude new patients processed post-COPI notice
 
 UNION ALL 
 SELECT DISTINCT pp.FK_Patient_Link_ID, Sex, YearOfBirth
@@ -77,7 +77,7 @@ LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = pp.FK_Patien
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = pp.FK_Patient_Link_ID
 WHERE YEAR(@StartDate) - YearOfBirth BETWEEN 14 AND 49 -- OVER 18s ONLY
 	AND Sex <> 'M'
-	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) -- exclude new patients processed post-COPI notice
+	AND pp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) -- exclude new patients processed post-COPI notice
 
 
 -- TABLE OF GP EVENTS FOR COHORT TO SPEED UP REUSABLE QUERIES
