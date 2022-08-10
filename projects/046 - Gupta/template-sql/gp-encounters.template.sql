@@ -1,5 +1,5 @@
 --┌─────────────────────────────────────────────────────────┐
---│ Dates of GP Encounters for diabetes cohort              │
+--│ Dates of GP Encounters for diabetes/covid cohort        │
 --└─────────────────────────────────────────────────────────┘
 
 ---- RESEARCH DATA ENGINEER CHECK ----

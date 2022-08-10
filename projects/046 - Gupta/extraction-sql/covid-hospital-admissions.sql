@@ -1,5 +1,5 @@
 --┌────────────────────────────────────────────────────────────┐
---│ Hospital stay information for multimorbidity cohort        │
+--│ Hospital stay information for diabetes/covid cohort        │
 --└────────────────────────────────────────────────────────────┘
 
 ---- RESEARCH DATA ENGINEER CHECK ----

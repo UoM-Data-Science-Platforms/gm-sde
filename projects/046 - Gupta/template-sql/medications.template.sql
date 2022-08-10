@@ -1,5 +1,5 @@
 --┌──────────────────────────────────────────────┐
---│ Patients with diabetes and covid	     │
+--│ Meds - Patients with diabetes and covid	     │
 --└──────────────────────────────────────────────┘
 
 ---- RESEARCH DATA ENGINEER CHECK ----
@@ -124,7 +124,7 @@ WHERE
 -- FIX ISSUE WITH DUPLICATE MEDICATIONS, CAUSED BY SOME CODES APPEARING MULTIPLE TIMES IN #AllCodes
 
 IF OBJECT_ID('tempdb..#AllCodes_1') IS NOT NULL DROP TABLE #AllCodes_1;
-SELECT DISTINCT FK_Reference_SnomedCT_ID, Concept, [Version] INTO #AllCodes_1 FROM #AllCodes
+SELECT DISTINCT Code, Concept, [Version] INTO #AllCodes_1 FROM #AllCodes
 
 -- RETRIEVE ALL RELEVANT PRESCRPTIONS FOR THE COHORT
 
@@ -132,11 +132,10 @@ IF OBJECT_ID('tempdb..#medications_rx') IS NOT NULL DROP TABLE #medications_rx;
 SELECT 
 	 m.FK_Patient_Link_ID,
 		CAST(MedicationDate AS DATE) as PrescriptionDate,
-		Concept = CASE WHEN c.Concept IS NOT NULL THEN c.Concept ELSE s.Concept END
+		Concept = s.Concept
 INTO #medications_rx
 FROM #PatientMedicationData m
-LEFT OUTER JOIN #VersionedSnomedSets_1 s ON s.FK_Reference_SnomedCT_ID = m.FK_Reference_SnomedCT_ID
-LEFT OUTER JOIN #VersionedCodeSets_1 c ON c.FK_Reference_Coding_ID = m.FK_Reference_Coding_ID
+LEFT OUTER JOIN #AllCodes_1 s ON s.Code = m.SuppliedCode
 WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 	AND m.MedicationDate BETWEEN @StartDate AND @EndDate
 	AND m.SuppliedCode IN (SELECT [Code] FROM #AllCodes_1) -- using Code due to prevalency discrepancy with IDs
