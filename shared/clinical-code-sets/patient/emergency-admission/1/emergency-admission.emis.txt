@@ -1,0 +1,8 @@
+EMISNQHO22	Hospital admission, emergency, indirect
+EMISNQHO53	Hospital admission, emergency, from walk-in centre
+EMISQEL1	Elderly psychiatric emergency admission
+^ESCT1248218	Admit psychiatric emergency
+^ESCT1248505	Emerg psychiatric admiss MHA
+^ESCTEM370293	Emergency operation
+^ESCTEM813400	Emergency psychiatric admission under Mental Health Act 1983 (England and Wales)
+^ESCTPS472327	Psychiatric emergency hospital admission
