@@ -64,12 +64,6 @@ IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
-IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
-SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM RLS.vw_Patient_GP_History
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < '2022-06-01';
-
 -- DEFINE COHORT
 --> EXECUTE query-build-rq041-cohort.sql
 
@@ -221,6 +215,8 @@ SELECT  PatientId = p.FK_Patient_Link_ID,
 		EvidenceOfCKD_egfr,	-- egfr tests indicating stages 3 - 5
 		EvidenceOfCKD_combo, -- egfr indicating stage 1 or 2, with ACR evidence or kidney damage
 		EvidenceOfCKD_acr, -- acr tests indicating stages A2 or A3
+		HealthyEgfrResult, -- one or more healthy egfr result in between the two <60 results
+		HealthyAcrResult, -- one or more healthy acr result in between the two >3 results
 		HypertensionAtStudyStart = CASE WHEN hyp.FK_Patient_Link_ID IS NOT NULL AND hyp.EarliestDiagnosis <= @StartDate THEN 1 ELSE 0 END,
 		HypertensionDuringStudyPeriod = CASE WHEN hyp.FK_Patient_Link_ID IS NOT NULL AND hyp.EarliestDiagnosis BETWEEN @StartDate AND @EndDate THEN 1 ELSE 0 END,
 		DiabetesAtStudyStart = CASE WHEN dia.FK_Patient_Link_ID IS NOT NULL AND dia.EarliestDiagnosis <= @StartDate THEN 1 ELSE 0 END,

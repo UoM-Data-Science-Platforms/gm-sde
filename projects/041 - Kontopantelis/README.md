@@ -549,7 +549,11 @@ This project required the following clinical code sets:
 - ckd-stage-4 v1
 - ckd-stage-5 v1
 - chronic-kidney-disease v1
-- allergy v2
+- allergy-ace v1
+- allergy-arb v1
+- allergy-aspirin v1
+- allergy-clopidogrel v1
+- allergy-statin v1
 - sle v1
 - gout v1
 - haematuria v1
@@ -942,14 +946,15 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2022-04-06 | Vision          | 341912     |  13406 (3.92%)   |   13375 (3.91%)   |
 LINK: [https://github.com/rw251/.../conditions/chronic-kidney-disease/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/chronic-kidney-disease/1)
 
-### Allergy to certain medications codes
+### Allergy to ACE inhibitors
 
-This list contains any code that indicates a diagnosis of an allergy - TO CERTAIN MEDICATIONS ONLY - FOR RQ041.
+This list contains any code that indicates an allergy to ACE inhibitors.
 Developed manually from reference coding table in GMCR.
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
 
+update:
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
@@ -957,7 +962,79 @@ By examining the prevalence of codes (number of patients with the code in their 
 | 2022-06-28 | TPP             | 212621     |     64 (0.03%)   |     284 (0.13%)   |
 | 2022-06-28 | Vision          | 341774     |    407 (0.12%)   |      407 (0.12%)   |
 
-LINK: [https://github.com/rw251/.../conditions/allergy/2](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/allergy/2)
+LINK: [https://github.com/rw251/.../conditions/allergy-ace/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/allergy-ace/1)
+
+### Allergy to angiotensin II receptor antagonists
+
+This list contains any code that indicates an allergy to ARBs.
+Developed manually from reference coding table in GMCR.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
+
+update:
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2659647    |   2689 (0.11%)   |    2910 (0.11%)   |
+| 2022-06-28 | TPP             | 212621     |     64 (0.03%)   |     284 (0.13%)   |
+| 2022-06-28 | Vision          | 341774     |    407 (0.12%)   |      407 (0.12%)   |
+
+LINK: [https://github.com/rw251/.../conditions/allergy-arb/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/allergy-arb/1)
+
+### Allergy to aspirin.
+
+This list contains any code that indicates an allergy to aspirin.
+Developed manually from reference coding table in GMCR.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
+
+update:
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2659647    |   2689 (0.11%)   |    2910 (0.11%)   |
+| 2022-06-28 | TPP             | 212621     |     64 (0.03%)   |     284 (0.13%)   |
+| 2022-06-28 | Vision          | 341774     |    407 (0.12%)   |      407 (0.12%)   |
+
+LINK: [https://github.com/rw251/.../conditions/allergy-aspirin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/allergy-aspirin/1)
+
+### Allergy to clopidogrel.
+
+This list contains any code that indicates an allergy to clopidogrel.
+Developed manually from reference coding table in GMCR.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
+
+update:
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2659647    |   2689 (0.11%)   |    2910 (0.11%)   |
+| 2022-06-28 | TPP             | 212621     |     64 (0.03%)   |     284 (0.13%)   |
+| 2022-06-28 | Vision          | 341774     |    407 (0.12%)   |      407 (0.12%)   |
+
+LINK: [https://github.com/rw251/.../conditions/allergy-clopidogrel/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/allergy-clopidogrel/1)
+
+### Allergy to statins
+
+This list contains any code that indicates an allergy to statins.
+Developed manually from reference coding table in GMCR.
+#### Prevalence log
+
+By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `% - %` suggests that this code set is well defined.
+
+update:
+
+| Date       | Practice system | Population | Patients from ID | Patient from code |
+| ---------- | --------------- | ---------- | ---------------: | ----------------: |
+| 2022-06-28 | EMIS            | 2659647    |   2689 (0.11%)   |    2910 (0.11%)   |
+| 2022-06-28 | TPP             | 212621     |     64 (0.03%)   |     284 (0.13%)   |
+| 2022-06-28 | Vision          | 341774     |    407 (0.12%)   |      407 (0.12%)   |
+
+LINK: [https://github.com/rw251/.../conditions/allergy-statin/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/allergy-statin/1)
 
 ### Systemic Lupus Erythematosus
  
@@ -3614,29 +3691,28 @@ All code sets required for this analysis are listed here. Individual lists for e
 |chronic-kidney-disease v1|snomed|691411000119101|Anaemia in chronic kidney disease stage 5|
 |chronic-kidney-disease v1|snomed|444271000|Erythropoietin resistance in anemia of chronic kidney disease|
 |chronic-kidney-disease v1|snomed|15781000119107|Hypertensive heart AND chronic kidney disease with congestive heart failure (disorder)|
-|allergy v2|ctv3|Xa5gp|Pentostatin allergy|
-|allergy v2|ctv3|Xa5q0|Nystatin allergy|
-|allergy v2|ctv3|Xa5zt|Simvastatin allergy|
-|allergy v2|ctv3|Xa5zu|Fluvastatin allergy|
-|allergy v2|ctv3|Xa5zv|Pravastatin allergy|
-|allergy v2|ctv3|XaJ5z|H/O: angiotensin II receptor antagonist allergy|
-|allergy v2|ctv3|XaJ5z|H/O: angiotensin II receptor antagonist allergy|
-|allergy v2|ctv3|XaJ5y|H/O: angiotensin converting enzyme inhibitor allergy|
-|allergy v2|ctv3|Xa60w|Angiotensin-converting-enzyme inhibitor allergy|
-|allergy v2|ctv3|XaJ8Y|[V]Personal history of angiotensin-converting-enzyme inhibitor allergy|
-|allergy v2|ctv3|XaJ3e|H/O: clopidogrel allergy|
-|allergy v2|ctv3|XaJ8V|[V]Personal history of clopidogrel allergy|
-|allergy v2|readv2|14LN.|H/O: angiotensin II receptor antagonist allergy|
-|allergy v2|readv2|ZV14E|[V]Personal history of angiotensin II receptor antagonist allergy|
-|allergy v2|readv2|ZV14D|[V]Personal history of angiotensin-converting-enzyme inhibitor allergy|
-|allergy v2|readv2|14LM.|H/O: angiotensin converting enzyme inhibitor allergy|
-|allergy v2|readv2|14LK.|H/O: aspirin allergy|
-|allergy v2|readv2|ZV148|[V]Personal history of aspirin allergy|
-|allergy v2|readv2|Xa5dq|Aspirin allergy|
-|allergy v2|readv2|XaDzd|[V]Personal history of aspirin allergy|
-|allergy v2|readv2|XaIpk|H/O: aspirin allergy|
-|allergy v2|readv2|14LQ.|H/O: clopidogrel allergy|
-|allergy v2|readv2|ZV14B|[V]Personal history of clopidogrel allergy|
+|allergy-ace v1|ctv3|XaJ5y|H/O: angiotensin converting enzyme inhibitor allergy|
+|allergy-ace v1|ctv3|Xa60w|Angiotensin-converting-enzyme inhibitor allergy|
+|allergy-ace v1|ctv3|XaJ8Y|[V]Personal history of angiotensin-converting-enzyme inhibitor allergy|
+|allergy-ace v1|readv2|ZV14D|[V]Personal history of angiotensin-converting-enzyme inhibitor allergy|
+|allergy-ace v1|readv2|14LM.|H/O: angiotensin converting enzyme inhibitor allergy|
+|allergy-arb v1|ctv3|XaJ5z|H/O: angiotensin II receptor antagonist allergy|
+|allergy-arb v1|readv2|14LN.|H/O: angiotensin II receptor antagonist allergy|
+|allergy-arb v1|readv2|ZV14E|[V]Personal history of angiotensin II receptor antagonist allergy|
+|allergy-aspirin v1|readv2|14LK.|H/O: aspirin allergy|
+|allergy-aspirin v1|readv2|ZV148|[V]Personal history of aspirin allergy|
+|allergy-aspirin v1|readv2|Xa5dq|Aspirin allergy|
+|allergy-aspirin v1|readv2|XaDzd|[V]Personal history of aspirin allergy|
+|allergy-aspirin v1|readv2|XaIpk|H/O: aspirin allergy|
+|allergy-clopidogrel v1|ctv3|XaJ3e|H/O: clopidogrel allergy|
+|allergy-clopidogrel v1|ctv3|XaJ8V|[V]Personal history of clopidogrel allergy|
+|allergy-clopidogrel v1|readv2|14LQ.|H/O: clopidogrel allergy|
+|allergy-clopidogrel v1|readv2|ZV14B|[V]Personal history of clopidogrel allergy|
+|allergy-statin v1|ctv3|Xa5gp|Pentostatin allergy|
+|allergy-statin v1|ctv3|Xa5q0|Nystatin allergy|
+|allergy-statin v1|ctv3|Xa5zt|Simvastatin allergy|
+|allergy-statin v1|ctv3|Xa5zu|Fluvastatin allergy|
+|allergy-statin v1|ctv3|Xa5zv|Pravastatin allergy|
 |sle v1|ctv3|F3710|Polyneuropathy in disseminated lupus erythematosus|
 |sle v1|ctv3|F3961|Myopathy due to disseminated lupus erythematosus|
 |sle v1|ctv3|F4D33|Discoid lupus eyelid|
