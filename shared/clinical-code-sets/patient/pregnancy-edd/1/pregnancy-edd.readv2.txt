@@ -1,0 +1,6 @@
+1514.12	Estimated date of delivery
+1514.00	Estimated date of confinement
+Z22C100	Estimated date of delivery from last period
+Z22C200	Estimated date of delivery from last normal period
+1514100	Estimated date of delivery by antenatal ultrasound scan
+1514000	Estimated date of delivery from last period

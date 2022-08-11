@@ -36,23 +36,32 @@ SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
 
-
---------------------------------------------------------------------------------------------------------
------------------------------------ DEFINE MAIN COHORT -- ----------------------------------------------
---------------------------------------------------------------------------------------------------------
-
-
---------------------------------------------------------------------------------------------------------
-
+----------------------------------------
+--> EXECUTE query-build-rq050-cohort.sql
+----------------------------------------
 
 
 --> EXECUTE query-get-admissions-and-length-of-stay.sql all-patients:false
 --> EXECUTE query-admissions-covid-utilisation.sql start-date:'2020-01-01' all-patients:false gp-events-table:RLS.vw_GP_Events
---> EXECUTE query-classify-secondary-admissions.sql 
+
+----- create anonymised identifier for each hospital
+-- this is included in case PI needs to consider hospitals that don't have as much historic data
+
+IF OBJECT_ID('tempdb..#hospitals') IS NOT NULL DROP TABLE #hospitals;
+SELECT DISTINCT AcuteProvider
+INTO #hospitals
+FROM #LengthOfStay
+
+IF OBJECT_ID('tempdb..#RandomiseHospital') IS NOT NULL DROP TABLE #RandomiseHospital;
+SELECT AcuteProvider
+	, HospitalID = ROW_NUMBER() OVER (order by newid())
+INTO #RandomiseHospital
+FROM #hospitals
 
 --bring together for final output
 SELECT 
 	PatientId = m.FK_Patient_Link_ID,
+	rh.HospitalID,
 	l.AdmissionDate,
 	l.DischargeDate,
 	a.AdmissionType,
@@ -61,5 +70,5 @@ FROM #Cohort m
 LEFT OUTER JOIN #LengthOfStay l ON m.FK_Patient_Link_ID = l.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDUtilisationAdmissions c ON c.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND c.AdmissionDate = l.AdmissionDate AND c.AcuteProvider = l.AcuteProvider
 LEFT OUTER JOIN #AdmissionTypes a ON a.FK_Patient_Link_ID = l.FK_Patient_Link_ID AND a.AdmissionDate = l.AdmissionDate AND a.AcuteProvider = l.AcuteProvider
-WHERE c.CovidHealthcareUtilisation = 'TRUE'
-	AND l.AdmissionDate <= @EndDate
+LEFT OUTER JOIN #RandomiseHospital rh ON rh.AcuteProvider = l.AcuteProvider
+WHERE l.AdmissionDate <= '2022-03-01'

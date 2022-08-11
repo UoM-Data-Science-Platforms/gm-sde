@@ -1,0 +1,31 @@
+635..	Premature baby
+6351.	Baby premature 36-38 weeks
+6352.	Baby premature 32-36 weeks
+6353.	Baby premature 28-32 weeks
+L14..	Premature labour
+L142.	Early onset of delivery
+L1420	Early onset of delivery unspecified
+L1421	Early onset of delivery - delivered
+L142z	Early onset of delivery NOS
+Q11..	(Short gestation and unspecified low birthweight problems) or (baby born premature)
+Q110.	Immature baby
+Q111.	Premature - weight 1000g-2499g or gestation of 28-37weeks
+Q112.	(Extreme immaturity) or (extreme prematurity - less than 28 weeks)
+Q11z.	Born premature NOS
+Q3171	Prematurity with interstitial pulmonary fibrosis
+Q432.	Jaundice of prematurity
+Q456.	Anaemia of prematurity
+Qyu11	[X]Other preterm infants
+X40Cx	Premature labour
+X70Eq	Preterm infant
+Xa0AU	Extreme immaturity
+Xa1xq	Premature delivery
+XaCJR	Baby premature 24-26 weeks
+XaCJY	Baby premature 36 weeks
+XaCK4	Baby premature 26-28 weeks
+XaCMV	Premature infant 28-37 weeks
+XaQ25	Preterm infant status
+XE0y4	Premature labour
+XE1eW	Short gestation and unspecified low birth weight problems
+XE1eX	Very premature - less than 1000g or less than 28 weeks
+XE2QQ	Early onset of delivery

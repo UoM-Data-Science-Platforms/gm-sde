@@ -95,3 +95,34 @@ Q018.00	Fetus or neonate affected by maternal postnatal depression
 Z2B..00	Breast-feeding procedures
 9mL0.00	Postnatal examination third invitation
 9OqJ200	NIPE hip exam done, no abnormality with risk factor
+62S2.	Maternal P/N exam. offered
+62S2.00	Maternal P/N exam. offered
+8IEw.	Postnatal examination declined
+8IEw.00	Postnatal examination declined
+8IH31	Depression screening declined
+8IH3100	Depression screening declined
+L4640	Failure of lactation unspecified
+L464000	Failure of lactation unspecified
+L464z	Failure of lactation NOS
+L464z00	Failure of lactation NOS
+Q01..	Fetus or neonate affected by maternal complication of pregnancy
+Q01..00	Fetus or neonate affected by maternal complication of pregnancy
+Q01y.	Fetus or neonate affected by other maternal complication of pregnancy
+Q01y.00	Fetus or neonate affected by other maternal complication of pregnancy
+Q01z.	Fetus or neonate affected by maternal complication of pregnancy NOS
+Q01z.00	Fetus or neonate affected by maternal complication of pregnancy NOS
+Q1...	Disorders due to slow fetal growth, low and high birthweight
+Q1...00	Disorders due to slow fetal growth, low and high birthweight
+Q121.	Other large-for-dates infant
+Q121.00	Other "large-for-dates" infant
+Q12z.	Large or postmature infant NOS
+Q12z.00	Large or postmature infant NOS
+Q483z12	Breast feeding problem in the newborn
+Q48G.	Complication of termination of pregnancy, affecting fetus and newborn
+Q48G.00	Complication of termination of pregnancy, affecting fetus and newborn
+Qyu0.	[X]Fetus and newborn affected by maternal factors and by complications of pregnancy, labour and delivery
+Qyu0.00	[X]Fetus and newborn affected by maternal factors and by complications of pregnancy, labour and delivery
+Qyu03	[X]Fetus and newborn affected by other maternal complications of pregnancy
+Qyu0300	[X]Fetus and newborn affected by other maternal complications of pregnancy
+62P30	Breastfeeding and supplementary bottle feeding at discharge from hospital
+Q483z12	Breast feeding problem in the newborn

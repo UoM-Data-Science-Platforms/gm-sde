@@ -1,0 +1,37 @@
+^ESCT1245384	O/E - triplet present.
+^ESCT1246166	[V]Twin, mate live born
+^ESCT1246167	[V]Twin, mate liveborn NOS
+^ESCT1246168	[V]Twin, mate stillborn
+^ESCT1246169	[V]Twin, mate stillborn NOS
+^ESCT1246170	[V]Twin, unspecified
+^ESCT1246171	[V]Twin, unspecified, NOS
+^ESCTFE483305	Fetal or neonatal effect of twin pregnancy
+^ESCTFE483308	Fetal or neonatal effect of triplet pregnancy
+^ESCTFE483375	Fetal or neonatal effect of twin-to-twin transplacental transfusion
+^ESCTFE483379	Fetal or neonatal effect of feto-fetal transplacental transfusion
+^ESCTFO483304	Foetal or neonatal effect of multiple pregnancy
+^ESCTFO483307	Foetal or neonatal effect of twin pregnancy
+^ESCTFO483310	Foetal or neonatal effect of triplet pregnancy
+^ESCTFO483378	Foetal or neonatal effect of twin-to-twin transplacental transfusion
+^ESCTFO483380	Foetal or neonatal effect of feto-fetal transplacental transfusion
+^ESCTFR602980	Fraternal twin
+^ESCTIN363455	Interlocked twins
+^ESCTLI731057	Livebirth born before admission to hospital
+^ESCTLO363457	Locked twins obstructing labor
+^ESCTLO363458	Locked twins obstructing labour
+^ESCTMO574401	Mother delivered
+^ESCTMU479709	Multiple delivery, all by cesarean section
+^ESCTON550880	On examination - multiple presentation
+^ESCTON557943	On examination - triplet presentation
+^ESCTON557946	On examination - twin presentation
+^ESCTPO312277	Polycythemia due to donor twin transfusion
+^ESCTSB510624	SB - Stillbirth
+^ESCTTR462733	Triplets, all liveborn
+^ESCTTR462734	Triplets - two live and one stillborn
+^ESCTTR462736	Triplets - three stillborn
+^ESCTTW462729	Twins - one still and one live born
+^ESCTTW462730	Twins, one liveborn and one stillborn
+^ESCTTW726274	Twin liveborn born in hospital
+^ESCTTW726275	Twin live born in hospital
+^ESCTUL634103	Ultrasound scan - multiple fetus
+^ESCTUL634104	Ultrasound scan - multiple foetus

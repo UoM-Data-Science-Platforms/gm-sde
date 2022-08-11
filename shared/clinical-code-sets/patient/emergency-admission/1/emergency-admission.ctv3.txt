@@ -1,0 +1,8 @@
+7M300	Emergency operation NOC
+8H2..	Emergency hospital admission
+8H21.	Admit medical emergency unspecified
+8H22.	Admit surgical emergency unspecified
+8H23.	Admit psychiatric emergency
+8H230	Emergency psychiatric admission MHA
+8H2Z.	Admit hospital emergency NOS
+XaZVU	Emergency hospital admission from walk-in centre

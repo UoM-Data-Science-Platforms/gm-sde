@@ -1,0 +1,1094 @@
+^ESCT1190324	Toxemia of pregnancy
+^ESCT1190328	False labor
+^ESCT1190342	Suspected fetal anencephaly
+^ESCT1190343	Suspected fetal damage from maternal alcohol
+^ESCT1190344	Suspected fetal damage from maternal toxoplasmosis
+^ESCT1190345	Suspect trisomy 21 fetus
+^ESCT1192449	Hemorrhage in early pregnancy
+^ESCT1192477	Feeding intention -baby
+^ESCT1192480	Fetal damage from disease in the mother
+^ESCT1192624	Finding of length of gestation
+^ESCT1192836	Obstetric middle cerebral artery Doppler
+^ESCT1212153	Antenatal care not offered
+^ESCT1212172	Triple test offered
+^ESCT1212173	Antenatal ultrasound scan offered
+^ESCT1212175	Double test offered
+^ESCT1212179	Amniocentesis offered
+^ESCT1212180	Antenatal RhD (Rhesus D) antibody screening offered
+^ESCT1212181	Antenatal Rhesus D antibody screening offered
+^ESCT1217135	Congenital malformation due to valproic acid
+^ESCT1217141	Cervical insufficiency
+^ESCT1222018	Prenatal education
+^ESCT1236831	Difficult tracheal intubation
+^ESCT1236832	Difficult airway intubation
+^ESCT1244971	Other specified complication following abortive pregnancy
+^ESCT1245038	Unspecified legal abortion + damage to pelvic organs/tissues
+^ESCT1245039	Unspecified legal abortion + delayed/excessive haemorrhage
+^ESCT1245040	Unspecified legal abortion + genital tract/pelvic infection
+^ESCT1245041	Unspecified legal abortion with embolism
+^ESCT1245042	Unspecified legal abortion with metabolic disorder
+^ESCT1245043	Unspecified legal abortion with other specified complication
+^ESCT1245044	Unspecified legal abortion with renal failure
+^ESCT1245045	Unspecified legal abortion with shock
+^ESCT1245214	Refer to TOP counselling
+^ESCT1245250	Pregnancy alcohol advice
+^ESCT1245251	Pregnancy unplanned ? wanted
+^ESCT1245252	Pregnant - ? planned
+^ESCT1245253	Pregnant - on abdom. palpation
+^ESCT1245367	O/E - VE - cervix ripeness
+^ESCT1245368	O/E - VE - os=0-1cm dilated
+^ESCT1245369	O/E - VE - os=1-2cm dilated
+^ESCT1245370	O/E - VE - os=2-4cm dilated
+^ESCT1245372	O/E - VE - os=6-8cm dilated
+^ESCT1245376	O/E - VE - P.P high
+^ESCT1245377	O/E - VE - P.P in mid cavity
+^ESCT1245384	O/E - triplet present.
+^ESCT1245445	O/E - fetal movemnt.diminished
+^ESCT1245668	[V]Antenatal screening
+^ESCT1245858	[V]Illegitimate pregnancy
+^ESCT1245937	[V]Other specified antenatal screening
+^ESCT1246066	[V]Screening for fetal growth retardation using ultrasonics
+^ESCT1246076	[V]Screening for isoimmunisation
+^ESCT1246081	[V]Screening for malformations using ultrasonics
+^ESCT1246178	[V]Unspecified antenatal screening
+^ESCT1246289	[X]Antenatal screening for malformations using ultrasonics and other physical methods
+^ESCT1247708	[X]Other antenatal screening
+^ESCT1248178	A/N care from G.P.
+^ESCT1248179	A/N care: grand multip
+^ESCT1248181	A/N U/S scan normal += dates
+^ESCT1248265	Antenatal care: gravida No.
+^ESCT1248420	Combined O.C. pill failure
+^ESCT1248480	Delayed/excess haemorrhage NOS following abortive pregnancy
+^ESCT1248792	Mat B1 due
+^ESCT1248793	Mat booking 17-30 weeks
+^ESCT1248794	Mat booking before 16th week
+^ESCT1248795	Mat. anaesth. service claim
+^ESCT1249041	Percutaneous serial amnio drainage
+^ESCT1270245	Threatened premature labour
+^ESCT1270449	Nonreassuring foetal status
+^ESCT1270516	Ultrasound scan for amniotic fluid volume
+^ESCT1271726	Known or suspected fetal abnormality
+^ESCT1271918	[X]Maternal care for other specified known or suspected fetal problems
+^ESCT1276234	Ultrasound scan for foetal nuchal translucency
+^ESCT1303163	Ultrasound scan for foetal nuchal translucency
+^ESCT1378903	Meconium stained liquor
+^ESCT1378904	Meconium stained amniotic fluid
+^ESCT1379208	Fetal spina bifida suspected
+^ESCT1379209	Foetal spina bifida suspected
+^ESCT1379210	Fetal hydrocephalus suspected
+^ESCT1379211	Fetal hydrocephaly suspected
+^ESCT1379212	Foetal hydrocephaly suspected
+^ESCT1379213	Foetal hydrocephalus suspected
+^ESCT1379649	Amniotic fluid sent for organism evaluation
+^ESCT1379676	Amniotic fluid sent for culture and sensitivity
+^ESCT1382089	Foetal surgery
+^ESCT1382090	Fetal surgery
+^ESCT1405968	Head of foetus not engaged
+^ESCT1405969	Head of fetus not engaged
+^ESCT1406875	Pregnancy on intrauterine contraceptive device
+^ESCT1406876	Pregnancy unplanned but wanted
+^ESCT1406877	Pregnancy unplanned and unwanted
+^ESCT1407088	Therapeutic fetoscopic operation on fetus
+^ESCT1407089	Therapeutic foetoscopic operation on foetus
+^ESCT1412735	Cardiotocogram (CTG)
+^ESCT1419537	Foetal valproate spectrum disorder
+^ESCT1419538	Fetal valproate spectrum disorder
+^ESCT1419692	Amnioreduction
+^ESCT1419932	Toxaemia of pregnancy
+^ESCT1421085	Fetal disorder due to disease in mother
+^ESCT1421086	Foetal disorder due to disease in mother
+^ESCT1421087	Foetal disorder due to maternal disease
+^ESCT1421088	Fetal disorder due to maternal disease
+^ESCTAB252470	Abnormality of organs AND/OR soft tissues of pelvis affecting pregnancy
+^ESCTAB252471	Abnormal pelvic organ affecting pregnancy
+^ESCTAB266519	Abortion counseling
+^ESCTAB277590	Abnormal dilatation of cervix before onset of labor
+^ESCTAB277591	Abnormal dilatation of cervix before onset of labour
+^ESCTAB303987	Abnormal placenta
+^ESCTAB479897	Abnormal hematologic finding on antenatal screening of mother
+^ESCTAB687019	Ablatio placentae
+^ESCTAB687020	Abruptio placentae
+^ESCTAC288227	Acromion presentation
+^ESCTAC305605	AC - Amniocentesis
+^ESCTAC385186	Accidental pregnancy
+^ESCTAC479845	Accelerated fetal growth
+^ESCTAC479850	Accelerated foetal growth
+^ESCTAL293610	Alpha-1-Fetoprotein measurement, amniotic fluid
+^ESCTAL647612	Alloimmune haemolytic disease of newborn
+^ESCTAL647615	Alloimmune hemolytic disease of newborn
+^ESCTAM293611	Amniotic fluid AFP
+^ESCTAM365231	Amnion
+^ESCTAM365232	Amniotic sac
+^ESCTAM410767	Amniotic fluid appearance, evaluation
+^ESCTAM461075	Amniotic fluid sent for examination
+^ESCTAM461078	Amniotic fluid - bloodstained
+^ESCTAM461082	Amniotic fluid microscopy - no abnormality detected
+^ESCTAM461087	Amniotic fluid chemistry procedure
+^ESCTAM461090	Amniotic fluid chemistry: no abnormality detected
+^ESCTAM461097	Amniotic fluid alpha-fetoprotein normal
+^ESCTAM461101	Amniotic fluid alpha-fetoprotein abnormal
+^ESCTAM461103	Amniotic foetal cell study
+^ESCTAM461104	Amniotic foetal cell study: NAD
+^ESCTAM461106	Amniotic fetal cell study: no abnormality detected
+^ESCTAM461107	Amniotic foetal cell abnormal
+^ESCTAM678862	Amniotic fluid examination abnormal
+^ESCTAM705663	Amniocentesis for possible neural tube defect
+^ESCTAM707094	Amniocentesis for possible chromosomal abnormality
+^ESCTAM837126	Amnicator test
+^ESCTAN278770	Antepartum care of mother
+^ESCTAN303986	Anomaly of placenta
+^ESCTAN306114	Antepartum hemorrhage
+^ESCTAN330895	Antepartum deep vein thrombosis
+^ESCTAN330896	Antepartum deep phlebothrombosis
+^ESCTAN462437	Antenatal care categorised by gravida number
+^ESCTAN462439	A/N care categorised by gravida number
+^ESCTAN462440	A/N care categorized by gravida number
+^ESCTAN462441	Antenatal care categorized by gravida number
+^ESCTAN462443	Antenatal care of primigravida
+^ESCTAN462444	Antenatal care of second pregnancy
+^ESCTAN462446	Antenatal care of 2nd pregnancy
+^ESCTAN462447	A/N care of 2nd pregnancy
+^ESCTAN462448	Antenatal care of third pregnancy
+^ESCTAN462450	Antenatal care of 3rd pregnancy
+^ESCTAN462451	A/N care of 3rd pregnancy
+^ESCTAN462453	Antenatal care of multipara
+^ESCTAN462454	Antenatal care: obstetric risk
+^ESCTAN462456	Antenatal care: uncertain dates
+^ESCTAN462458	Antenatal care: recurrent aborter
+^ESCTAN462460	Antenatal care: grand multiparity
+^ESCTAN462462	Antenatal care: history of stillbirth
+^ESCTAN462464	Antenatal care: history of perinatal death
+^ESCTAN462466	Antenatal care: poor obstetric history
+^ESCTAN462468	Antenatal care: history of trophoblastic disease
+^ESCTAN462470	Antenatal care: precious pregnancy
+^ESCTAN462472	Antenatal care: elderly primiparous
+^ESCTAN462473	A/N care: elderly primiparous
+^ESCTAN462474	Antenatal care: history of infertility
+^ESCTAN462476	Antenatal care: social risk
+^ESCTAN462478	Antenatal care: poor home conditions
+^ESCTAN462480	Antenatal care: poor antenatal attender
+^ESCTAN462484	Antenatal care: late booker
+^ESCTAN462485	Antenatal care: history of child abuse
+^ESCTAN462487	Antenatal care: medical risk
+^ESCTAN462489	Antenatal care: gynaecological risk
+^ESCTAN462490	A/N care: gynecological risk
+^ESCTAN462491	A/N care: gynaecological risk
+^ESCTAN462492	Antenatal care: gynecological risk
+^ESCTAN462493	Antenatal care: under 5ft tall
+^ESCTAN462496	Antenatal care: 10 years plus since last pregnancy
+^ESCTAN462497	A/N care: 10 years plus since last pregnancy
+^ESCTAN462498	Antenatal care: primiparous, under 17 years
+^ESCTAN462499	A/N care: primiparous, under 17 years
+^ESCTAN462500	Antenatal care: primipara, under 17 years
+^ESCTAN462501	A/N care: primipara, under 17 years
+^ESCTAN462502	Antenatal care: primiparous, older than 30 years
+^ESCTAN462504	Antenatal care: multiparous, older than 35 years
+^ESCTAN462508	Antenatal care: not wanted
+^ESCTAN462509	Antenatal care: not attended
+^ESCTAN462512	Antenatal care provider
+^ESCTAN462514	Antenatal care from general practitioner
+^ESCTAN462516	Antenatal care from consultant
+^ESCTAN462518	Antenatal - shared care
+^ESCTAN462544	Antenatal amniocentesis - not wanted
+^ESCTAN462546	Antenatal amniocentesis wanted
+^ESCTAN462548	Antenatal amniocentesis - awaited
+^ESCTAN462550	Antenatal amniocentesis - normal
+^ESCTAN462552	Antenatal amniocentesis - abnormal
+^ESCTAN462557	Antenatal ultrasound scan not wanted
+^ESCTAN462559	Antenatal ultrasound scan wanted
+^ESCTAN462561	Antenatal ultrasound scan awaited
+^ESCTAN462563	Antenatal ultrasound scan normal and appropriate for dates
+^ESCTAN462565	A/N U/S scan normal and appropriate for dates
+^ESCTAN462566	Antenatal ultrasound scan abnormal
+^ESCTAN462569	Antenatal ultrasound scan for slow growth
+^ESCTAN462574	Antenatal RhD antibody screening
+^ESCTAN462607	Antenatal syphilis screening not done
+^ESCTAN462608	Antenatal syphilis screen-blood sent
+^ESCTAN462612	Antenatal blood group screening not done
+^ESCTAN462615	Antenatal sickle screening not done
+^ESCTAN462619	Antenatal 16 week examination
+^ESCTAN462634	Antenatal 42 week examination
+^ESCTAN464039	Antenatal relaxation class
+^ESCTAN479474	Antepartum hemorrhage with trauma
+^ESCTAN479480	Antepartum hemorrhage with uterine leiomyoma
+^ESCTAN479481	Antepartum hemorrhage with fibroid
+^ESCTAN479482	Antepartum hemorrhage with uterine fibroid
+^ESCTAN479512	Antepartum eclampsia
+^ESCTAN479647	Anemia during pregnancy - baby not yet delivered
+^ESCTAN510503	Antepartum hemorrhage with hypofibrinogenemia
+^ESCTAN510505	Antepartum hemorrhage with hyperfibrinolysis
+^ESCTAN510507	Antepartum hemorrhage with afibrinogenemia
+^ESCTAN519220	Antenatal RhD antibody status
+^ESCTAN519221	Antenatal Rhesus antibody status
+^ESCTAN549895	Antepartum hemorrhage, abruptio placentae and placenta previa
+^ESCTAN549896	Antepartum haemorrhage associated with coagulation defect
+^ESCTAN549898	Antepartum hemorrhage associated with coagulation defect
+^ESCTAN557191	Antenatal/postnatal care
+^ESCTAN558541	Antenatal risk factors
+^ESCTAN599819	Antenatal care midwifery led
+^ESCTAN634061	Antenatal screening finding
+^ESCTAN651458	Antenatal screening for human immunodeficiency virus
+^ESCTAN700451	Antenatal ultrasound scan normal and possibly inconsistent with estimated date of delivery
+^ESCTAN749813	Antenatal care for woman with history of recurrent miscarriage
+^ESCTAN752919	Anti-D isoimmunization affecting pregnancy
+^ESCTAP306115	APH - Antepartum haemorrhage
+^ESCTAP306116	APH - Antepartum hemorrhage
+^ESCTBA390413	Baby keeps changing position
+^ESCTBA548771	Banding of uterine cervix
+^ESCTBA558424	Baby moving less
+^ESCTBA558425	Baby kicking less
+^ESCTBI284396	Biophysical profile of foetus
+^ESCTBR302588	Braxton Hicks' contraction
+^ESCTCA326162	Cardiotachometry
+^ESCTCA337417	Calcified fetus
+^ESCTCA337418	Calcified foetus
+^ESCTCA464028	Care of teeth advice in pregnancy
+^ESCTCA556029	Cardiac disease in pregnancy
+^ESCTCE363492	Cervical cerclage suture present
+^ESCTCE479730	Cephalopelvic disproportion
+^ESCTCE548770	Cerclage of uterine cervix
+^ESCTCE548772	Cerclage of cervix
+^ESCTCH645864	Childbirth operation
+^ESCTCI277594	CI - Cervical incompetence
+^ESCTCO251247	Contracted pelvis
+^ESCTCO251572	Congenital sepsis
+^ESCTCO260709	Cordocentesis
+^ESCTCO260712	Cord blood sampling
+^ESCTCO266510	Counselling for termination of pregnancy
+^ESCTCO266511	Counseling for termination of pregnancy
+^ESCTCO266512	Counseling for abortion
+^ESCTCO266513	Counselling for abortion
+^ESCTCO277333	Congenital malformation due to valproate
+^ESCTCO436958	Compound presentation of fetus
+^ESCTCO462329	Combined oral contraceptive pill failure
+^ESCTCO462355	Contraceptive IUD failure - pregnant
+^ESCTCO462356	Contraceptive intrauterine device failure - pregnant
+^ESCTCO479688	Continuing pregnancy after abortion of one foetus or more
+^ESCTCO479689	Continuing pregnancy after intrauterine death of one or more fetuses
+^ESCTCO479691	Continuing pregnancy after intrauterine death of one or more foetuses
+^ESCTCO479692	Continuing pregnancy after intrauterine death one foetus or more
+^ESCTCO493934	Counseling prior to the termination of pregnancy
+^ESCTCO493935	Counselling prior to the termination of pregnancy
+^ESCTCO510559	Complete breech delivery
+^ESCTCO549905	Congenital malformation of uterus affecting obstetric care
+^ESCTCP479732	CPD - Cephalopelvic disproportion
+^ESCTCR558396	CRL - Crown rump length
+^ESCTCT647545	CTG - Cardiotochography
+^ESCTCV592129	CVB - Chorionic villus biopsy
+^ESCTCV592130	CVS - Chorionic villus sampling
+^ESCTDE346754	Deficient liquor
+^ESCTDE730996	Dead fetus in utero
+^ESCTDI291196	Disproportion between foetal head and pelvis
+^ESCTDI291197	Disproportion between fetal head and pelvis
+^ESCTDI291200	Disproportion between fetus and pelvis
+^ESCTDI291201	Disproportion between foetus and pelvis
+^ESCTDI353008	Disorder of uterine cervix
+^ESCTDI353009	Disease of cervix
+^ESCTDI353010	Disorder of cervix
+^ESCTDI368490	Disorder of amniotic cavity AND/OR membrane
+^ESCTDI368491	Disorder of amniotic fluid and membranes
+^ESCTDI437847	Disorder of placenta
+^ESCTDI437848	Disorder of placenta and placental transfusion
+^ESCTDI464015	Dietary advice for pregnancy
+^ESCTDI465457	Disorder of pregnancy
+^ESCTDI479731	Disproportion of mixed maternal AND fetal origin with normally formed fetus
+^ESCTDI479733	Disproportion of mixed maternal AND foetal origin with normally formed foetus
+^ESCTDI510489	Disorder of pelvic size and disproportion
+^ESCTDI514543	Diagnostic endoscopic examination of foetus using foetoscope
+^ESCTDI548768	Diagnostic percutaneous examination of foetus
+^ESCTDO462705	Down screening - blood sent
+^ESCTDO519227	Down's screening status
+^ESCTDO519228	Down screening status
+^ESCTDO550525	Down screening - blood test
+^ESCTDO600177	Down screening blood test normal
+^ESCTDO600179	Down screening blood test abnormal
+^ESCTDO704984	Doppler ultrasound scan of middle cerebral artery of foetus
+^ESCTDO823868	Downs syndrome antenatal screening information leaflet given
+^ESCTDR635362	Drainage of liquor
+^ESCTEC275292	Eclamptic toxemia
+^ESCTEC275293	Eclamptic toxaemia
+^ESCTEC390823	Echography, scan B-mode for placental localisation
+^ESCTEC390824	Echography, scan B-mode for placental localization
+^ESCTEC390825	Echoplacentogram
+^ESCTEC467647	ECV - External cephalic version of breech
+^ESCTEC514539	ECV - External cephalic version
+^ESCTEF647608	EF - Erythroblastosis foetalis
+^ESCTEF647613	EF - Erythroblastosis fetalis
+^ESCTEL297265	Elderly primip
+^ESCTEL647542	Electronic fetal monitoring
+^ESCTEN521545	Entire delivered uterus
+^ESCTEP660068	EPH - Oedema, proteinuria and hypertension of pregnancy
+^ESCTEP660071	EPH - Edema, proteinuria and hypertension of pregnancy
+^ESCTER647606	Erythroblastosis foetalis
+^ESCTES483720	Escherichia coli intra-amniotic fetal infection
+^ESCTES483722	Escherichia coli intra-amniotic foetal infection
+^ESCTEX272330	Excessive vomiting in pregnancy
+^ESCTEX390144	Excessive liquor
+^ESCTEX729419	Exposure to rubella in pregnancy
+^ESCTFA302590	False uterine contractions
+^ESCTFA350905	Failure of fetal head to enter pelvic brim
+^ESCTFA350907	Failure of head to engage
+^ESCTFA350909	Failure of foetal head to enter pelvic brim
+^ESCTFA479411	Failed attempted termination of pregnancy with genital tract or pelvic infection
+^ESCTFA479413	Failed attempted termination of pregnancy with delayed or excessive hemorrhage
+^ESCTFA479415	Failed attempted abortion with delayed or excessive hemorrhage
+^ESCTFA479416	Failed attempted termination of pregnancy with delayed or excessive haemorrhage
+^ESCTFA479417	Failed attempted termination of pregnancy with damage to pelvic organ or tissues
+^ESCTFA479419	Failed attempted termination of pregnancy with renal failure
+^ESCTFA479421	Failed attempted pregnancy termination with kidney failure
+^ESCTFA479422	Failed attempted termination of pregnancy with metabolic disorder
+^ESCTFA479424	Failed attempted termination of pregnancy with shock
+^ESCTFA479426	Failed attempted termination of pregnancy with embolism
+^ESCTFA479438	Failed medical termination of pregnancy, complicated by genital tract or pelvic infection
+^ESCTFA479440	Failed medical termination of pregnancy, complicated by delayed or excessive hemorrhage
+^ESCTFA479442	Failed medical abortion, complicated by delayed or excessive hemorrhage
+^ESCTFA479443	Failed medical termination of pregnancy, complicated by delayed or excessive haemorrhage
+^ESCTFA479444	Failed medical termination of pregnancy, complicated by embolism
+^ESCTFA479446	Failed medical termination of pregnancy, without complication
+^ESCTFA479539	False premature labor
+^ESCTFA479540	False premature labour
+^ESCTFA479542	False labor at or after 37 completed weeks of gestation
+^ESCTFA483174	FAS - Fetal alcohol syndrome
+^ESCTFA483176	FAS - Foetal alcohol syndrome
+^ESCTFE284393	Fetal biophysical profile
+^ESCTFE285067	Fetal growth restriction
+^ESCTFE285068	Fetal growth retardation
+^ESCTFE291198	Fetopelvic disproportion
+^ESCTFE323343	Fetal transfusion
+^ESCTFE340051	Fetal part
+^ESCTFE364809	Fetal disorder
+^ESCTFE364810	Fetal disease
+^ESCTFE365526	Fetal-maternal hemorrhage
+^ESCTFE365528	Fetomaternal transfusion
+^ESCTFE365529	Fetomaternal haemorrhage
+^ESCTFE365531	Fetal maternal haemorrhage
+^ESCTFE365532	Fetal hemorrhage into mother's circulation
+^ESCTFE365533	Fetomaternal hemorrhage
+^ESCTFE365534	Fetal maternal hemorrhage
+^ESCTFE365535	Fetal-maternal haemorrhage
+^ESCTFE375670	Fetal blood vessels in membranes
+^ESCTFE386786	Fetal blood loss from placenta
+^ESCTFE386788	Fetoplacental hemorrhage
+^ESCTFE386789	Fetoplacental haemorrhage
+^ESCTFE388046	Fetal or neonatal effect of complication of placenta, cord and/or membranes
+^ESCTFE396506	Fetus papyraceous
+^ESCTFE396507	Fetus compressus
+^ESCTFE396508	Fetus papyraceus
+^ESCTFE445193	Fetal distress
+^ESCTFE459824	Fetoplacental hormones abnormal
+^ESCTFE459825	Fetoplacental hormones normal
+^ESCTFE462416	Female sterilization failure
+^ESCTFE462636	Fetal movements observed
+^ESCTFE462639	Fetal size accords with dates
+^ESCTFE462640	Fetus size equals dates
+^ESCTFE462645	Fetal size does not accord with dates
+^ESCTFE462646	Fetal size not equal to date
+^ESCTFE467625	Fetoscopic biopsy of fetus
+^ESCTFE467627	Fetoscopic sampling of foetal blood
+^ESCTFE467628	Fetoscopic sampling of fetal blood
+^ESCTFE479812	Fetal-maternal hemorrhage with antenatal problem
+^ESCTFE479847	Fetal growth acceleration
+^ESCTFE483273	Fetal or neonatal effect of maternal incompetent cervix
+^ESCTFE483276	Fetal or neonatal effect of maternal premature rupture of membrane
+^ESCTFE483279	Fetal or neonatal effect of maternal oligohydramnios
+^ESCTFE483282	Fetal or neonatal effect of oligohydramnios
+^ESCTFE483335	Fetal or neonatal effect of placenta praevia
+^ESCTFE483338	Fetal or neonatal effect of placenta previa
+^ESCTFE483339	Fetal or neonatal effect of placental damage caused by amniocentesis
+^ESCTFE483342	Fetal or neonatal effect of damage to placenta from amniocentesis
+^ESCTFE483361	Fetal or neonatal effect of placental dysfunction
+^ESCTFE483364	Fetal or neonatal effect of functional abnormality of placenta
+^ESCTFE483369	Fetal or neonatal effect of placental insufficiency
+^ESCTFE483562	Fetus small-for-dates SFD - with signs of malnutrition
+^ESCTFE483736	Fetal hemorrhage
+^ESCTFE483737	Fetal haemorrhage
+^ESCTFE514540	Fetoscopic procedure
+^ESCTFE514542	Fetoscopic examination of fetus
+^ESCTFE514618	Fetal effect of placental insufficiency
+^ESCTFE526561	Fetal heart observation
+^ESCTFE549940	Fetal distress-affecting care
+^ESCTFE549949	Fetus small-for-dates
+^ESCTFE550512	Feeding intention - baby
+^ESCTFE550688	Fetal or neonatal effect of maternal hypertensive disease
+^ESCTFE550691	Fetal or neonatal effect of maternal hypertensive disorder
+^ESCTFE550702	Fetal or neonatal effect of maternal polyhydramnios
+^ESCTFE550707	Fetal effect of hydramnios
+^ESCTFE550708	Fetal or neonatal effect of maternal death
+^ESCTFE550712	Fetal or neonatal effect of malpresentation before labour
+^ESCTFE550715	Fetal or neonatal effect of malpresentation before labor
+^ESCTFE550723	Fetal effect of placental abruption
+^ESCTFE551389	Fetoplacental hormone measurement
+^ESCTFE551390	Fetoplacental hormone level
+^ESCTFE552471	Fetal anomaly study
+^ESCTFE558616	Fetal death
+^ESCTFE646227	Fetal operation
+^ESCTFE646230	Fetal procedure
+^ESCTFE647544	Fetal monitoring
+^ESCTFE685483	Fetus affected by maternal antepartum hemorrhage
+^ESCTFE685484	Fetus affected by maternal antepartum haemorrhage
+^ESCTFE685486	Fetal effects of maternal antepartum hemorrhage
+^ESCTFE685487	Fetal effects of maternal antepartum haemorrhage
+^ESCTFE706506	Fetal biometry using ultrasound
+^ESCTFE747841	Fetal chromosomal abnormality screening
+^ESCTFG285075	FGR - Fetal growth retardation
+^ESCTFG285078	FGR - Foetal growth retardation
+^ESCTFI295753	Finding of arrangement of foetus
+^ESCTFI295755	Finding of arrangement of fetus
+^ESCTFI628862	Finding of duration of pregnancy
+^ESCTFI628863	Finding of duration of gestation
+^ESCTFM550517	FMF - Fetal movements felt
+^ESCTFM550518	FMF - Foetal movements felt
+^ESCTFO251478	Foetoscopy
+^ESCTFO284395	Foetal biophysical profile
+^ESCTFO291199	Foetopelvic disproportion
+^ESCTFO301224	Foetal disproportion
+^ESCTFO323347	Foetal transfusion
+^ESCTFO335907	Foetal exsanguination
+^ESCTFO340050	Foetal part
+^ESCTFO363927	Foetal hydantoin syndrome
+^ESCTFO364808	Foetal disorder
+^ESCTFO364811	Foetal disease
+^ESCTFO365525	Foetal-maternal haemorrhage
+^ESCTFO365536	Foetal haemorrhage into mother's circulation
+^ESCTFO365537	Foetal maternal haemorrhage
+^ESCTFO365538	Foetomaternal haemorrhage
+^ESCTFO375671	Foetal blood vessels in membranes
+^ESCTFO382371	Foetal or neonatal effect of condition of umbilical cord
+^ESCTFO386790	Foetal placental blood loss
+^ESCTFO388047	Foetal or neonatal effect of complication of placenta, cord and/or membranes
+^ESCTFO390415	Foetus - unstable lie
+^ESCTFO396505	Foetus papyraceous
+^ESCTFO396509	Foetus compressus
+^ESCTFO462637	Foetal movements seen
+^ESCTFO462638	Foetal movements observed
+^ESCTFO462642	Foetal maturity: dates = size
+^ESCTFO462643	Foetal size accords with dates
+^ESCTFO462644	Foetus size equals dates
+^ESCTFO462648	Foetal maturity: dates not=size
+^ESCTFO462649	Foetal size does not accord with dates
+^ESCTFO462650	Foetal size not equal to date
+^ESCTFO467624	Foetoscopic blood transfusion of foetus
+^ESCTFO467626	Foetoscopic biopsy of foetus
+^ESCTFO479781	Foetus with hereditary disease
+^ESCTFO479793	Foetus with drug damage with antenatal problem
+^ESCTFO479797	Foetus with radiation damage
+^ESCTFO479804	Foetus with damage due to coil
+^ESCTFO479813	Foetal-maternal haemorrhage with antenatal problem
+^ESCTFO479821	Foetal distress with antenatal problem
+^ESCTFO479851	Foetal growth acceleration
+^ESCTFO483175	Foetal alcohol syndrome
+^ESCTFO483275	Foetal or neonatal effect of maternal incompetent cervix
+^ESCTFO483278	Foetal or neonatal effect of maternal premature rupture of membrane
+^ESCTFO483281	Foetal or neonatal effect of maternal oligohydramnios
+^ESCTFO483283	Foetal or neonatal effect of oligohydramnios
+^ESCTFO483337	Foetal or neonatal effect of placenta praevia
+^ESCTFO483341	Foetal or neonatal effect of placental damage caused by amniocentesis
+^ESCTFO483343	Foetal or neonatal effect of damage to placenta from amniocentesis
+^ESCTFO483363	Foetal or neonatal effect of placental dysfunction
+^ESCTFO483365	Foetal or neonatal effect of functional abnormality of placenta
+^ESCTFO483371	Foetal or neonatal effect of placental insufficiency
+^ESCTFO483563	Foetus small-for-dates with signs of malnutrition
+^ESCTFO483564	Foetus small-for-dates SFD - with signs of malnutrition
+^ESCTFO483734	Foetal blood loss
+^ESCTFO483738	Foetal haemorrhage
+^ESCTFO510390	Foetus with suspected rubella damage via mother
+^ESCTFO514544	Foetoscopic procedure
+^ESCTFO514545	Foetoscopic examination of foetus
+^ESCTFO514581	Foetal tachycardia
+^ESCTFO514583	Foetal bradycardia
+^ESCTFO514603	Foetal acidosis
+^ESCTFO514620	Foetal effect of placental insufficiency
+^ESCTFO516149	Foetal US scan
+^ESCTFO526562	Foetal heart observation
+^ESCTFO526563	Foetal heart finding
+^ESCTFO548764	Foetus and gravid uterus operations
+^ESCTFO549935	Foetus with central nervous system malformation
+^ESCTFO549937	Foetus with chromosomal abnormality
+^ESCTFO549938	Foetus with viral damage via mother
+^ESCTFO549942	Foetal distress-affecting care
+^ESCTFO549956	Foetus small-for-dates
+^ESCTFO550519	Foetal movements felt
+^ESCTFO550692	Foetal or neonatal effect of maternal hypertensive disease
+^ESCTFO550705	Foetal or neonatal effect of maternal polyhydramnios
+^ESCTFO550706	Foetal effect of hydramnios
+^ESCTFO550711	Foetal or neonatal effect of maternal death
+^ESCTFO550716	Foetal or neonatal effect of malpresentation before labour
+^ESCTFO550721	Foetal effect of placental abruption
+^ESCTFO550722	Foetal or neonatal effect of abruptio placentae
+^ESCTFO552472	Foetal anomaly study
+^ESCTFO552474	Foetal anatomy study
+^ESCTFO558615	Foetal death
+^ESCTFO558772	Foetal malnutrition
+^ESCTFO646226	Foetal operation
+^ESCTFO685482	Foetal effects of maternal antepartum haemorrhage
+^ESCTFO685485	Foetus affected by maternal antepartum haemorrhage
+^ESCTFO706507	Foetal biometry using ultrasound
+^ESCTFO749788	Foetal damage from disease in the mother
+^ESCTFP797471	FP24 signed by patient
+^ESCTFP797474	FP24 maternity claim sent to family practitioner committee
+^ESCTFP797475	FP24 maternity claim sent to FPC (family practitioner committee)
+^ESCTFP797476	FP24 maternity claim underpaid by family practitioner committee
+^ESCTFP797477	FP24 maternity claim underpaid by FPC (family practitioner committee)
+^ESCTFP797479	FP24 maternity claim family practitioner committee make up payment
+^ESCTFP797480	FP24 maternity claim FPC (family practitioner committee) make up payment
+^ESCTFP797481	FP24A maternity claim status
+^ESCTFP799044	FP24A maternity claim checked by staff
+^ESCTFP799045	FP24A maternity claim sent to family practitioner committee
+^ESCTFP799046	FP24A maternity claim paid by family practitioner committee checked
+^ESCTFP799047	FP24A maternity claim underpaid by family practitioner committee
+^ESCTFP799050	FP24A maternity claim family practitioner committee make up payment
+^ESCTFP799051	FP24A maternity claim family practitioner committee dispute fee due
+^ESCTFP800943	FP24 maternity fee claim form status
+^ESCTFP800944	FP24 maternity claim completed by doctor
+^ESCTFP800946	FP24 maternity claim checked by staff
+^ESCTFP800947	FP24 maternity claim paid by Family Practitioner Committee - checked
+^ESCTFP800948	FP24 maternity claim overpaid by Family Practitioner Committee
+^ESCTFP800949	FP24 maternity claim - Family Practitioner Committee contacted regarding mistake
+^ESCTFP800950	FP24 maternity claim - Family Practitioner Committee dispute fee due
+^ESCTFP800955	FP24A maternity claim signed by patient
+^ESCTFP800956	FP24A maternity claim completed by doctor
+^ESCTFW798684	FW 8-applic for presc exempt
+^ESCTGD268606	GDM
+^ESCTGD268610	GDM - Gestational diabetes mellitus
+^ESCTGE251248	Generally contracted pelvis
+^ESCTGE268607	Gestational diabetes
+^ESCTGE375888	Gestation
+^ESCTGE462713	General practice unit birth
+^ESCTGE479587	Gestational edema with proteinuria
+^ESCTGE510529	Gestational edema
+^ESCTGE602702	Gestation less than 24 weeks
+^ESCTGE602704	Gestation period, 24 weeks
+^ESCTGE602706	Gestation period, 6 months
+^ESCTGE602707	Gestation greater than 24 weeks
+^ESCTGH327978	GH - Gestational hypertension
+^ESCTGM799060	GMS2 claim signed by patient
+^ESCTGM799061	GMS2 claim completed by doctor
+^ESCTGM799062	GMS2 claim checked by staff
+^ESCTGM799063	GMS2 claim sent to health authority
+^ESCTGM799064	GMS2 claim paid by health authority, checked
+^ESCTGM799065	GMS2 claim paid by HA (health authority) - checked
+^ESCTGM799069	GMS2 claim health authority contacted regarding mistake
+^ESCTGM799070	GMS2 claim health authority make up payment
+^ESCTGM799071	GMS2 claim health authority dispute fee due
+^ESCTGR264773	Gravid uterus structure
+^ESCTGR264774	Gravid uterus
+^ESCTHA291325	Haemorrhage before 22 weeks gestation
+^ESCTHA405956	Haemolysis-elevated liver enzymes-low platelet count syndrome
+^ESCTHA479459	Haemorrhage from placenta praevia
+^ESCTHA647604	Haemolytic disease of foetus OR newborn due to isoimmunisation
+^ESCTHA647607	Haemolytic disease of the newborn
+^ESCTHA647610	Haemolytic disease of foetus OR newborn
+^ESCTHA647620	Haemolytic disease of fetus OR newborn due to isoimmunisation
+^ESCTHD647609	HDN - Haemolytic disease of the newborn
+^ESCTHD647617	HDN - Hemolytic disease of the newborn
+^ESCTHE291323	Hemorrhage before 22 weeks gestation
+^ESCTHE299730	Hemorrhage in early pregnancy, antepartum
+^ESCTHE326164	Heart rate monitoring
+^ESCTHE350904	Head not engaged
+^ESCTHE350906	Head free
+^ESCTHE405957	HELLP syndrome
+^ESCTHE405959	HELLP - Syndrome of hemolysis, elevated liver enzymes and low platelet
+^ESCTHE405960	Hemolysis-elevated liver enzymes-low platelet count syndrome
+^ESCTHE479458	Hemorrhage from placenta previa
+^ESCTHE597565	Hemorrhoids in pregnancy
+^ESCTHE647605	Hemolytic disease of fetus OR newborn due to isoimmunization
+^ESCTHE647618	Hemolytic disease of the newborn
+^ESCTHE647619	Hemolytic disease of fetus OR newborn
+^ESCTHF558618	HF - Hydrops fetalis
+^ESCTHF558619	HF - Hydrops foetalis
+^ESCTHI350908	High head
+^ESCTHI454348	History of miscarriage
+^ESCTHO600185	Home birth planned
+^ESCTHR326317	HRP - High risk pregnancy
+^ESCTHS799053	HSA1 therapeutic abortion green form
+^ESCTHS799054	HSA1 form eligible
+^ESCTHS799055	HSA1 form signed
+^ESCTHS799058	HSA1 form refused to sign
+^ESCTHS799889	HSA1 form status
+^ESCTHU459828	Human placental lactogen abnormal
+^ESCTHU837635	Human placental lactogen level
+^ESCTHY272331	Hyperemesis arising during pregnancy
+^ESCTHY272335	Hyperemesis in pregnancy
+^ESCTHY274648	Hydrops fetalis due to isoimmunization
+^ESCTHY274651	Hydrops foetalis due to isoimmunisation
+^ESCTHY327980	Hypertension induced by pregnancy
+^ESCTHY327981	Hypertension complicating pregnancy
+^ESCTHY479752	Hydrocephalic fetus causing disproportion
+^ESCTHY479753	Hydrocephalic foetus causing disproportion
+^ESCTHY558620	Hydrops foetalis
+^ESCTHY558622	Hydrops fetalis not due to isoimmunization
+^ESCTHY558623	Hydrops fetalis not due to isoimmunisation
+^ESCTHY558625	Hydrops foetalis not due to isoimmunisation
+^ESCTID483856	Idiopathic hydrops foetalis
+^ESCTIL272311	Illegitimate pregnancy, life event
+^ESCTIM274649	Immune hydrops fetalis
+^ESCTIM274650	Immune hydrops foetalis
+^ESCTIN251571	Intrauterine sepsis of fetus
+^ESCTIN251573	Intrauterine fetal sepsis
+^ESCTIN251574	Intrauterine foetal sepsis
+^ESCTIN251575	Intrauterine sepsis of foetus
+^ESCTIN260708	Intrauterine cordocentesis
+^ESCTIN266819	Infection of amniotic cavity
+^ESCTIN268491	Intra-amniotic infection of foetus
+^ESCTIN277592	Incompetence of cervix
+^ESCTIN305604	Incision and drainage of amnion
+^ESCTIN309393	Inlet contraction of pelvis
+^ESCTIN323342	Intrauterine transfusion
+^ESCTIN508691	Intrahepatic cholestasis of pregnancy
+^ESCTIN510097	Insertion of Macdonald's cervical suture
+^ESCTIN510100	Insertion of Shirodkar's cervical suture
+^ESCTIN549953	Infant underweight for gestational age
+^ESCTIN558771	Intrauterine malnutrition
+^ESCTIN599351	Intrapartum cardiotochogram
+^ESCTIN749819	Induced termination of pregnancy with complication
+^ESCTIN749913	Induced termination of pregnancy without complication
+^ESCTIR479653	Iron deficiency anemia of pregnancy
+^ESCTIS647616	Isoimmunization of newborn
+^ESCTIU285073	IUGR - Intrauterine growth retardation
+^ESCTIU323344	IUT - Intrauterine transfusion
+^ESCTKI597339	Kick chart status
+^ESCTLA462482	Late onset antenatal care
+^ESCTLA479843	Large for gestation age fetus
+^ESCTLA479849	Large for gestational dates
+^ESCTLA479852	Large for gestation age foetus
+^ESCTLA479855	Large-for-dates foetus
+^ESCTLE365527	Leakage of fetal blood into maternal circulation
+^ESCTLE365539	Leakage of foetal blood into maternal circulation
+^ESCTLE628861	Length of gestation - finding
+^ESCTLE731523	Length of gestation at time of procedure
+^ESCTLF479848	LFD - Fetus large for dates
+^ESCTLF479853	LFD - Foetus large for dates
+^ESCTLG479846	LGA - Large for gestational age fetus
+^ESCTLG479854	LGA - Large for gestational age foetus
+^ESCTLI516154	Liquor volume US scan
+^ESCTLI549951	Light for gestational dates
+^ESCTLI549952	Light for dates
+^ESCTLO262415	Low implantation of placenta without hemorrhage
+^ESCTLO262416	Low implantation of placenta without haemorrhage
+^ESCTLO558423	Low fetal movement
+^ESCTLO558427	Low foetal movement
+^ESCTMA268608	Maternal gestational diabetes mellitus
+^ESCTMA322210	Maternal obesity without hypertension
+^ESCTMA479603	Maternal gonorrhea during pregnancy - baby not yet delivered
+^ESCTMA479648	Maternal anaemia in pregnancy, before birth
+^ESCTMA479649	Maternal anemia in pregnancy, before birth
+^ESCTMA510095	Macdonald's cervical cerclage
+^ESCTMA510098	Macdonald cervical cerclage
+^ESCTMA510539	MAP - Morbidly adherent placenta
+^ESCTMA551681	Maternity benefits
+^ESCTMA551721	Malposition and malpresentation of foetus
+^ESCTMA798611	Maternity booking before 16th week
+^ESCTMA798614	Maternity booking 17-30 weeks
+^ESCTMA798651	Maternity anaesthetic service claim
+^ESCTMA798660	Mat B1 - certificate of expected confinement
+^ESCTMA798662	Mat B1 certificate due
+^ESCTMA798670	Mat B2 - certificate of confinement
+^ESCTMA799052	Maternity booking after 31 weeks
+^ESCTMC510096	McDonald operation for encirclement suture of cervix
+^ESCTME363926	Meadow's syndrome
+^ESCTME526715	Meconium stained amniotic fluid
+^ESCTME526716	Meconium staining
+^ESCTMI281046	Mild hyperemesis before end of 22 weeks of gestation
+^ESCTMI281047	Mild hyperemesis in pregnancy
+^ESCTMI285070	Microsomic baby
+^ESCTMI285071	Microsomia
+^ESCTMI316220	Mild pre-eclamptic toxemia
+^ESCTMI316221	Mild pre-eclamptic toxaemia
+^ESCTMI316224	Mild proteinuric hypertension of pregnancy
+^ESCTMO510520	Moderate proteinuric hypertension of pregnancy
+^ESCTNE404889	Neoplasm of uncertain behavior of placenta
+^ESCTNE812619	Newborn blood spot screening programme, sickle cell repeat screening with further sample required
+^ESCTNI837125	Nitrazamine test
+^ESCTNO445195	Nonreassuring fetal status
+^ESCTNO462506	No antenatal care
+^ESCTNO462510	No antenatal care: not known pregnant
+^ESCTNO462511	No antenatal care: subject unaware of pregnancy
+^ESCTNO558624	Non-immune hydrops foetalis
+^ESCTNU454344	Number of pregnancies
+^ESCTNU826376	Nuchal translucency MoM (multiple of median)
+^ESCTOB295754	Observation of arrangement of fetus
+^ESCTOB295756	Observation of arrangement of foetus
+^ESCTOB353674	Oblique presentation
+^ESCTOB461677	Obstetric X-ray - foetus
+^ESCTOB473087	Obstetric co-op card
+^ESCTOB473088	Obstetric co-op card issued
+^ESCTOB473091	Obstetric co-op card updated
+^ESCTOB508689	Obstetric cholestasis
+^ESCTOB550497	Obstetric US scan
+^ESCTOB553240	Obstetric investigation
+^ESCTOB597338	Obstetric co-op card status
+^ESCTOE456471	O/E -foetal presentation unsure
+^ESCTOE456507	O/E - foetal movements
+^ESCTOE456511	O/E - no foetal movements
+^ESCTOE456515	O/E - foetal movements seen
+^ESCTOE456518	O/E - foetal movements felt
+^ESCTOE456523	O/E - foetus very active
+^ESCTOE456524	O/E - fetal movement diminished
+^ESCTOE456530	O/E - foetal heart heard
+^ESCTOE456533	O/E - foetal heart not heard
+^ESCTOE456537	O/E - foetal heart < 40
+^ESCTOE456541	O/E - foetal heart 40-80
+^ESCTOE456546	O/E - foetal heart 80-100
+^ESCTOE456550	O/E - foetal heart 100-120
+^ESCTOE456554	O/E - foetal heart 120-160
+^ESCTOE456558	O/E - foetal heart 160-180
+^ESCTOE456559	O/E - foetal heart 180-200
+^ESCTOE456565	O/E - foetal heart > 200
+^ESCTOE456582	O/E - vaginal examination - cervical ripeness
+^ESCTOE456593	O/E - vaginal examination - os 0-1 cm dilated
+^ESCTOE456596	O/E - vaginal examination - os 1-2cm dilated
+^ESCTOE456599	O/E - vaginal examination - os 2-4 cm dilated
+^ESCTOE456605	O/E - vaginal examination - os 6-8cm dilated
+^ESCTOE550877	O/E - foetal presentation
+^ESCTOE550887	O/E - VE - descent of foetus
+^ESCTOE550888	O/E - vaginal examination - descent of presenting part
+^ESCTOE557942	O/E - lie of foetus
+^ESCTOE601532	O/E - viable foetus
+^ESCTON456284	On examination - vaginal examination - gravid uterus
+^ESCTON456437	On examination - gravid uterus size
+^ESCTON456439	On examination - fundus 12-16 week size
+^ESCTON456441	On examination - fundus 16-20 week size
+^ESCTON456443	On examination - fundus 20-24 week size
+^ESCTON456445	On examination - fundus 24-28 week size
+^ESCTON456448	On examination - fundus 28-32 week size
+^ESCTON456450	On examination - fundus 32-34 week size
+^ESCTON456452	On examination - fundus 34-36 week size
+^ESCTON456454	On examination - fundus 36-38 week size
+^ESCTON456456	On examination - fundus 38 weeks-term size
+^ESCTON456458	On examination - fundus = term size
+^ESCTON456460	On examination - fundal size = dates
+^ESCTON456462	On examination - vertex presentation
+^ESCTON456464	On examination - breech presentation
+^ESCTON456466	On examination - oblique lie
+^ESCTON456468	On examination - transverse lie
+^ESCTON456470	On examination - fetal presentation unsure
+^ESCTON456472	On examination - foetal presentation unsure
+^ESCTON456475	On examination - presenting part position
+^ESCTON456478	On examination - presenting part left occipitoanterior
+^ESCTON456481	On examination - presenting right occipitoanterior
+^ESCTON456484	On examination - presenting part left occipitoposterior
+^ESCTON456485	On examination - presenting part LOP
+^ESCTON456488	On examination - presenting part right occipitoposterior
+^ESCTON456491	On examination - presenting part left sacroanterior
+^ESCTON456494	On examination - presenting part right sacroanterior
+^ESCTON456496	On examination - presenting part free-5/5
+^ESCTON456498	On examination - presenting part free-4/5
+^ESCTON456500	On examination - partial engagement - 3/5
+^ESCTON456502	On examination - partial engagement - 2/5
+^ESCTON456504	On examination - presentation engaged-1/5
+^ESCTON456506	On examination - fetal movements
+^ESCTON456508	On examination - foetal movements
+^ESCTON456510	On examination - no fetal movements
+^ESCTON456512	On examination - no foetal movements
+^ESCTON456514	On examination - fetal movements seen
+^ESCTON456517	On examination - fetal movements felt
+^ESCTON456519	On examination - foetal movements felt
+^ESCTON456521	On examination - fetus very active
+^ESCTON456522	On examination - foetus very active
+^ESCTON456526	On examination - fetal movement diminished
+^ESCTON456528	On examination - fetal heart heard
+^ESCTON456529	On examination - foetal heart heard
+^ESCTON456532	On examination - fetal heart not heard
+^ESCTON456534	On examination - foetal heart not heard
+^ESCTON456536	On examination - fetal heart < 40
+^ESCTON456538	On examination - foetal heart < 40
+^ESCTON456540	On examination - fetal heart 40-80
+^ESCTON456542	On examination - foetal heart 40-80
+^ESCTON456544	On examination - fetal heart 80-100
+^ESCTON456545	On examination - foetal heart 80-100
+^ESCTON456548	On examination - fetal heart 100-120
+^ESCTON456549	On examination - foetal heart 100-120
+^ESCTON456552	On examination - fetal heart 120-160
+^ESCTON456553	On examination - foetal heart 120-160
+^ESCTON456556	On examination - fetal heart 160-180
+^ESCTON456557	On examination - foetal heart 160-180
+^ESCTON456561	On examination - fetal heart 180-200
+^ESCTON456562	On examination - foetal heart 180-200
+^ESCTON456564	On examination - fetal heart > 200
+^ESCTON456566	On examination - foetal heart > 200
+^ESCTON456576	On examination - vaginal examination for pelvic assessment
+^ESCTON456577	On examination - VE for pelvic assessment
+^ESCTON456579	On examination - vaginal examination - pelvis adequate
+^ESCTON456581	On examination - vaginal examination - pelvis not adequate
+^ESCTON456584	On examination - vaginal examination - cervical ripeness
+^ESCTON456586	On examination - vaginal examination - cervix not ripe
+^ESCTON456588	On examination - vaginal examination - cervix ripe
+^ESCTON456590	On examination - vaginal examination - cervical dilatation
+^ESCTON456592	On examination - vaginal examination - cervical os closed
+^ESCTON456595	On examination - vaginal examination - os 0-1 cm dilated
+^ESCTON456598	On examination - vaginal examination - os 1-2cm dilated
+^ESCTON456601	On examination - vaginal examination - os 2-4 cm dilated
+^ESCTON456607	On examination - vaginal examination - os 6-8cm dilated
+^ESCTON456614	On examination - vaginal examination - presenting part high
+^ESCTON456616	On examination - vaginal examination - presenting part in mid cavity
+^ESCTON550876	On examination - fetal presentation
+^ESCTON550878	On examination - foetal presentation
+^ESCTON550880	On examination - multiple presentation
+^ESCTON550884	On examination - vaginal examination - descent of presenting part
+^ESCTON557940	On examination - lie of fetus
+^ESCTON557941	On examination - lie of foetus
+^ESCTON557943	On examination - triplet presentation
+^ESCTON557946	On examination - twin presentation
+^ESCTON557948	On examination - presenting part free - not engaged
+^ESCTON557949	On examination - PP free - not engaged
+^ESCTON557951	On examination - presenting part engaged
+^ESCTON601530	On examination - viable fetus
+^ESCTON601531	On examination - viable foetus
+^ESCTOP646224	Operation on foetus
+^ESCTOP646225	Operation on fetus
+^ESCTOR479675	Orthopedic disorder during pregnancy - baby not yet delivered
+^ESCTOS337416	Osteopedion
+^ESCTOU362562	Outlet contraction of pelvis
+^ESCTPA302589	Painless false uterine contractions
+^ESCTPE260710	Percutaneous fetal blood sampling
+^ESCTPE260713	Percutaneous foetal blood sampling
+^ESCTPE272332	Persistent AND/OR vicious vomiting arising during pregnancy
+^ESCTPE309394	Pelvic inlet contraction
+^ESCTPE316222	PET - Mild pre-eclamptic toxaemia
+^ESCTPE316223	PET - Mild pre-eclamptic toxemia
+^ESCTPE323345	Percutaneous fetal transfusion
+^ESCTPE323346	Percutaneous foetal transfusion
+^ESCTPE325581	PET - Severe pre-eclamptic toxaemia
+^ESCTPE325582	PET - Severe pre-eclamptic toxemia
+^ESCTPE362563	Pelvic outlet contraction
+^ESCTPE467631	Percutaneous fetal procedure
+^ESCTPE467632	Percutaneous operation on fetus
+^ESCTPE467633	Percutaneous foetal procedure
+^ESCTPE467634	Percutaneous insertion of vesicoamniotic shunt
+^ESCTPE467636	Percutaneous insertion of pleuroamniotic shunt
+^ESCTPE467637	Percutaneous insertion of thoracoamniotic shunt
+^ESCTPE557193	Perinatal care
+^ESCTPE660070	PET - Pre-eclamptic toxaemia
+^ESCTPE660072	PET - Pre-eclamptic toxemia
+^ESCTPE660074	PE - Pre-eclampsia
+^ESCTPE807125	Percutaneous serial drainage of amniotic fluid
+^ESCTPI327982	PIH - Pregnancy-induced hypertension
+^ESCTPL262413	Placenta previa without hemorrhage
+^ESCTPL262414	Placenta previa found during pregnancy without hemorrhage
+^ESCTPL262417	Placenta praevia found during pregnancy without haemorrhage
+^ESCTPL303215	Placenta accreta without hemorrhage
+^ESCTPL309333	Placenta previa
+^ESCTPL377001	Placental structure
+^ESCTPL458548	Placental localization
+^ESCTPL462430	Planned pregnancy
+^ESCTPL479451	Placenta previa without hemorrhage - not delivered
+^ESCTPL479457	Placenta previa with hemorrhage
+^ESCTPL479463	Placenta previa with hemorrhage - not delivered
+^ESCTPL479467	Placental abruption with coagulation defect
+^ESCTPL837636	Placental lactogen level
+^ESCTPO285069	Poor fetal growth state
+^ESCTPO285074	Poor fetal growth
+^ESCTPO285076	Poor foetal growth state
+^ESCTPO285077	Poor foetal growth
+^ESCTPO397830	Post term pregnancy
+^ESCTPO397832	Post-dates
+^ESCTPO462406	Postcoital OCP failure
+^ESCTPO462407	Postcoital oral contraceptive pill failure
+^ESCTPO462408	Postcoital IUCD failure
+^ESCTPO462409	Postcoital intrauterine contraceptive device failure
+^ESCTPO510218	Postpartum obstetric operation
+^ESCTPO510219	Post-delivery obstetric operation
+^ESCTPO558769	Poor fetal nutrition
+^ESCTPO558773	Poor foetal nutrition
+^ESCTPP309334	PP - Placenta praevia
+^ESCTPP309335	PP - Placenta previa
+^ESCTPR260168	Premature labor
+^ESCTPR260169	Premature onset of labour
+^ESCTPR260170	Preterm labour
+^ESCTPR260171	Preterm labor
+^ESCTPR260172	Premature onset of labor
+^ESCTPR278769	Prenatal examination and care of mother
+^ESCTPR321241	PROM - Premature rupture of membranes
+^ESCTPR375887	Pregnancy not delivered
+^ESCTPR389860	Pre-existing hypertension in obstetric context
+^ESCTPR389861	Pre-existing hypertension complicating pregnancy
+^ESCTPR397831	Prolonged gestation
+^ESCTPR430107	Pregnancy finding
+^ESCTPR430108	Pregnancy observations
+^ESCTPR462097	Presentation US scan
+^ESCTPR462425	Pregnant - vaginal examination confirms
+^ESCTPR462427	Pregnant - on abdominal palpation
+^ESCTPR464014	Pregnancy diet education
+^ESCTPR464017	Pregnancy smoking education
+^ESCTPR464020	Pregnancy exercise education
+^ESCTPR464022	Pregnancy alcohol education
+^ESCTPR464026	Pregnancy dental education
+^ESCTPR464035	Pregnancy prescription exemption education
+^ESCTPR479578	Pregnancy-related glycosuria
+^ESCTPR479584	Pregnancy-induced oedema and proteinuria without hypertension
+^ESCTPR479585	Pregnancy-induced edema and proteinuria without hypertension
+^ESCTPR479697	Pregnancy risk
+^ESCTPR479870	Premature rupture of membranes, labor delayed by therapy
+^ESCTPR493933	Pre-termination counseling
+^ESCTPR510545	Pregnancy with isoimmunisation
+^ESCTPR510546	Pregnancy with isoimmunization
+^ESCTPR513043	Pruritus of pregnancy
+^ESCTPR513044	Pruritus gravidarum
+^ESCTPR572876	Premature/false labour
+^ESCTPR572877	Premature/false labor
+^ESCTPR572878	Premature or threatened labor
+^ESCTPR645866	Pregnancy operation
+^ESCTPR660069	Pre-eclamptic toxaemia
+^ESCTPR660073	Pre-eclamptic toxemia
+^ESCTPR687021	Premature detachment of normally implanted placenta
+^ESCTPR687022	Premature detachment of placenta
+^ESCTPR687023	Premature separation of placenta
+^ESCTPR702806	Prenatal care
+^ESCTPR798685	Prescription exempt form-preg
+^ESCTPU260711	PUBS - Percutaneous umbilical blood sampling
+^ESCTQU462435	Questionable if pregnancy was planned
+^ESCTQU526555	Quickening, function
+^ESCTRE346755	Reduced liquor volume
+^ESCTRE472499	Referral for counselling for termination of pregnancy
+^ESCTRE472501	Referral for counseling for termination of pregnancy
+^ESCTRE479904	Retained IUCD (intrauterine contraceptive device) in pregnancy
+^ESCTRE508692	Recurrent jaundice of pregnancy
+^ESCTRE508693	Recurrent intrahepatic cholestasis of pregnancy
+^ESCTRE526591	Relation of fetal size to dates
+^ESCTRE526592	Relation of foetal size to dates
+^ESCTRE541970	Removal of Shirodkar suture from cervix
+^ESCTRE541971	Removal of cerclage material from cervix
+^ESCTRE541972	Removal of cerclage from cervix
+^ESCTRE558422	Reduced foetal movement
+^ESCTRH462579	Rhesus screening - 2nd pregnancy sample
+^ESCTRH462580	Rhesus screening - Second pregnancy sample
+^ESCTRH462581	Rhesus screening - 3rd pregnancy sample
+^ESCTRH462582	Rhesus screening - third pregnancy sample
+^ESCTRH479817	Rhesus isoimmunization with antenatal problem
+^ESCTRI508690	RICP
+^ESCTRU321239	Rupture of amniotic sac under 24 hours before onset of labor
+^ESCTRU321240	Rupture of amniotic sac under 24 hours before onset of labour
+^ESCTRU321242	Rupture of membranes prior to onset of labor
+^ESCTSC346756	Scanty liquor
+^ESCTSE325579	Severe pre-eclamptic toxemia
+^ESCTSE325580	Severe pre-eclamptic toxaemia
+^ESCTSE325583	Severe proteinuric hypertension of pregnancy
+^ESCTSE723944	Seen in maternal fetal medicine (MFM) clinic
+^ESCTSE723945	Seen in maternal foetal medicine (MFM) clinic
+^ESCTSF549947	SFD - Fetus small-for-dates
+^ESCTSF549958	SFD - Foetus small-for-dates
+^ESCTSG549948	SGA - Small for gestational age fetus
+^ESCTSG549957	SGA - Small for gestational age foetus
+^ESCTSH510101	Shirodkar operation on cervix
+^ESCTSH510102	Shirodkar cervical cerclage
+^ESCTSI809612	Sickle cell not screened for or screening incomplete
+^ESCTSL279333	Slow foetal growth AND/OR foetal malnutrition
+^ESCTSM464019	Smoking in pregnancy education
+^ESCTSM549955	Small for gestational age
+^ESCTSP479535	Spurious labor
+^ESCTSP479536	Spurious labour
+^ESCTST365230	Structure of amnion
+^ESCTSU394467	Supine hypotensive syndrome
+^ESCTSU510392	Suspect foetal spina bifida
+^ESCTSU510394	Suspect foetal hydrocephaly
+^ESCTSU549950	Subnormal birth weight
+^ESCTSU599234	Suspected macroscopic foetus
+^ESCTSU599236	Suspected fetal macrosomia
+^ESCTSU599237	Suspected foetal macrosomia
+^ESCTSU688133	Suspect trisomy 21 foetus
+^ESCTSU749760	Suspected foetal anencephaly
+^ESCTSU749764	Suspected foetal damage from maternal alcohol
+^ESCTSU749766	Suspected foetal damage from maternal toxoplasmosis
+^ESCTSU786480	Suspected cystic fibrosis in fetus
+^ESCTSU786481	Suspected cystic fibrosis in foetus
+^ESCTSY462404	Symptothermal contraception failure
+^ESCTSY510527	Symptomatic disorders in pregnancy
+^ESCTTE266518	Termination counseling
+^ESCTTE749912	Termination of pregnancy without complication
+^ESCTTH337673	Threatened abortion (antepartum)
+^ESCTTH467621	Therapeutic foetoscopic operations on foetus
+^ESCTTH467622	Therapeutic endoscopic operations on foetus
+^ESCTTH467643	Therapeutic drainage of amniotic fluid
+^ESCTTH479538	Threatened premature labor - not delivered
+^ESCTTO266517	TOP counseling
+^ESCTTO274425	Toxaemia of pregnancy
+^ESCTTO275291	Toxemia with convulsions
+^ESCTTO275294	Toxaemia with convulsions
+^ESCTTO329952	TOP - Failed attempted termination of pregnancy
+^ESCTTO510561	Total breech delivery
+^ESCTTR365540	Transplacental fetomaternal haemorrhage
+^ESCTTR365541	Transplacental fetomaternal hemorrhage
+^ESCTTR368999	Transverse presentation
+^ESCTTR711387	Transvaginal obstetric ultrasonography
+^ESCTTU549913	Tumor of uterine body affecting obstetric care
+^ESCTTU549919	Tumor of uterine body complicating antenatal care, baby not yet delivered
+^ESCTUL462083	Ultrasound obstetric scan requested
+^ESCTUL462085	Ultrasound obstetric scan normal
+^ESCTUL462087	Ultrasound obstetric scan abnormal
+^ESCTUL462089	Ultrasound scan for fetal cephalometry
+^ESCTUL462090	Ultrasound scan for foetal cephalometry
+^ESCTUL462093	Ultrasound scan for fetal maturity
+^ESCTUL462095	Ultrasound scan for foetal maturity
+^ESCTUL462096	Ultrasound scan for foetal presentation
+^ESCTUL462098	Ultrasound scan for fetal presentation
+^ESCTUL462102	Ultrasound scan for fetal viability
+^ESCTUL462104	Ultrasound scan for foetal viability
+^ESCTUL516142	Ultrasonography for antepartum monitoring of fetus
+^ESCTUL516145	Ultrasound scan of fetus
+^ESCTUL516146	Ultrasonography for antepartum monitoring of foetus
+^ESCTUL516148	Ultrasound scan of foetus
+^ESCTUL602426	Ultrasonic doppler for foetal heart sounds
+^ESCTUL634103	Ultrasound scan - multiple fetus
+^ESCTUL634104	Ultrasound scan - multiple foetus
+^ESCTUL676750	Ultrasound scan for fetal nuchal translucency
+^ESCTUL691568	Ultrasound obstetric doppler
+^ESCTUN462433	Unplanned pregnancy unknown if child is wanted
+^ESCTUR510462	Uremia in pregnancy without hypertension
+^ESCTUS390826	US placentography
+^ESCTUS462088	US scan - fetal cephalometry
+^ESCTUS462091	US scan - foetal cephalometry
+^ESCTUS462094	US scan - foetal maturity
+^ESCTUS516144	US scan of fetus
+^ESCTUS516147	US scan of foetus
+^ESCTUS550498	US scan obstetric
+^ESCTUS552470	US scan - fetal abnormality
+^ESCTUS552473	US scan - foetal abnormality
+^ESCTUT350950	Uteroplacental apoplexy
+^ESCTVA303989	Variation of placenta form
+^ESCTVA379564	Vasa previa
+^ESCTVA550520	Vaginal show
+^ESCTVE375668	Velamentous insertion of umbilical cord
+^ESCTVE375669	Velamentous placenta
+^ESCTVE549974	Venous complication of pregnancy and/or the puerperium
+^ESCTVE556026	Venereal disease in pregnancy
+^ESCTVO396832	Vomiting as reason for care in pregnancy
+EMISHGT007	U-S scan fetal BPD
+EMISHGT008	U-S scan fetal head circumference
+EMISHGT009	U-S scan fetal abdominal circumference
+EMISHGT010	U-S scan fetal length
+EMISHGT011	Placenta Praevia - major (across internal os)
+EMISHGT012	Placenta Praevia - minor (not across os)
+EMISNQAD49	Advice about antenatal screening
+EMISNQAN14	Antenatal sickle cell screening test offered
+EMISNQAN25	Antenatal depression
+EMISNQAN27	Antenatal blood group antibody screen
+EMISNQAN30	A/N care: no social risk
+EMISNQAN31	A/N care: no obstetric risk
+EMISNQAN33	A/N 22 week examination
+EMISNQAN34	A/N 25 week examination
+EMISNQAN35	A/N 31 week examination
+EMISNQAN63	Antenatal examination - 1st contact with healthcare professional
+EMISNQCA973	Cardiotocogram (CTG)
+EMISNQDN17	DNA pertussis vaccination in pregnancy-enhanced serv admin
+EMISNQED4	Education about listeria precautions during pregnancy
+EMISNQED5	Education about toxoplasmosis precautions during pregnancy
+EMISNQFE2	Feeding intention: mixed
+EMISNQFE7	Fetus with cardiovascular abnormality
+EMISNQHE182	Health visitor antenatal visit: 32-34 weeks
+EMISNQHE79	Health visitor antenatal visit
+EMISNQOB3	Obstetric US scan for cervical length
+EMISNQPE42	Pertussis vaccination of pregnant women programme - ESA
+EMISNQPE43	Pertussis vaccination in pregnancy declined-enhanced serv admin
+EMISNQPE44	Pertussis vaccination in pregnancy invitation-enhnced serv admin
+EMISNQPE45	Pertussis vaccination in pregnancy-enhanced serv admin
+EMISNQPO22	Post-termination counselling
+EMISNQPR59	Pre-termination counselling
+EMISNQSE22	Seen in fetal medicine clinic
+EMISNQSE32	Seen in early pregnancy unit
+EMISNQTR10	Transvaginal obstetric US scan
+EMISNQTR11	Transvaginal obstetric US scan for cervical length
+EMISNQTR12	Transvaginal nuchal ultrasound scan
+EMISNQUL6	Ultrasound scan for fetal growth
+EMISNQUL9	Ultrasonography for antepartum monitoring of multiple fetus
+ESCTCO3	Concealed pregnancy
+ESCTME2	Membranes complete

@@ -1,0 +1,6 @@
+225326008	Post-termination counselling (procedure)
+386394001	Pregnancy termination care (regime/therapy)
+386639001	Termination of pregnancy (procedure)
+749781000000109	Incomplete medical abortion (disorder)
+10383002	Counseling for termination of pregnancy (procedure)
+225327004	Pre-termination counselling (procedure)

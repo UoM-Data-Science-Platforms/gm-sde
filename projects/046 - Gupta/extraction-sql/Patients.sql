@@ -32,6 +32,11 @@ IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM RLS.vw_Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < '2022-06-01';
 
 ------------------------------------ CREATE COHORT -------------------------------------
 	-- REGISTERED WITH A GM GP
@@ -499,6 +504,8 @@ WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 		p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #DiabetesT1Patients)  OR			 -- Diabetes T1 diagnosis
 		p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #DiabetesT2Patients) 			     -- Diabetes T2 diagnosis
 		)
+	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) 			 -- exclude new patients processed post-COPI notice
+
 
 ----------------------------------------------------------------------------------------
 
@@ -1755,6 +1762,8 @@ FROM RLS.vw_GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'bmi'AND [Version]=1) 
 	AND EventDate <= @IndexDate
+	AND TRY_CONVERT(NUMERIC(16,5), [Value]) BETWEEN 5 AND 100
+
 UNION
 SELECT 
 	FK_Patient_Link_ID,
@@ -1766,6 +1775,7 @@ FROM RLS.vw_GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 	AND FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'bmi' AND [Version]=1)
 	AND EventDate <= @IndexDate
+	AND TRY_CONVERT(NUMERIC(16,5), [Value]) BETWEEN 5 AND 100
 
 
 -- For closest BMI prior to index date
@@ -1968,6 +1978,113 @@ WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 AND NursingCareHomeFlag IS NOT NULL
 GROUP BY FK_Patient_Link_ID;
 
+--┌───────────────────────────────────────┐
+--│ GET practice and ccg for each patient │
+--└───────────────────────────────────────┘
+
+-- OBJECTIVE:	For each patient to get the practice id that they are registered to, and 
+--						the CCG name that the practice belongs to.
+
+-- INPUT: Assumes there exists a temp table as follows:
+-- #Patients (FK_Patient_Link_ID)
+--  A distinct list of FK_Patient_Link_IDs for each patient in the cohort
+
+-- OUTPUT: Two temp tables as follows:
+-- #PatientPractice (FK_Patient_Link_ID, GPPracticeCode)
+--	- FK_Patient_Link_ID - unique patient id
+--	- GPPracticeCode - the nationally recognised practice id for the patient
+-- #PatientPracticeAndCCG (FK_Patient_Link_ID, GPPracticeCode, CCG)
+--	- FK_Patient_Link_ID - unique patient id
+--	- GPPracticeCode - the nationally recognised practice id for the patient
+--	- CCG - the name of the patient's CCG
+
+-- If patients have a tenancy id of 2 we take this as their most likely GP practice
+-- as this is the GP data feed and so most likely to be up to date
+IF OBJECT_ID('tempdb..#PatientPractice') IS NOT NULL DROP TABLE #PatientPractice;
+SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) as GPPracticeCode INTO #PatientPractice FROM RLS.vw_Patient
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND FK_Reference_Tenancy_ID = 2
+AND GPPracticeCode IS NOT NULL
+GROUP BY FK_Patient_Link_ID;
+-- 1298467 rows
+-- 00:00:11
+
+-- Find the patients who remain unmatched
+IF OBJECT_ID('tempdb..#UnmatchedPatientsForPracticeCode') IS NOT NULL DROP TABLE #UnmatchedPatientsForPracticeCode;
+SELECT FK_Patient_Link_ID INTO #UnmatchedPatientsForPracticeCode FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientPractice;
+-- 12702 rows
+-- 00:00:00
+
+-- If every GPPracticeCode is the same for all their linked patient ids then we use that
+INSERT INTO #PatientPractice
+SELECT FK_Patient_Link_ID, MIN(GPPracticeCode) FROM RLS.vw_Patient
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatientsForPracticeCode)
+AND GPPracticeCode IS NOT NULL
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(GPPracticeCode) = MAX(GPPracticeCode);
+-- 12141
+-- 00:00:00
+
+-- Find any still unmatched patients
+TRUNCATE TABLE #UnmatchedPatientsForPracticeCode;
+INSERT INTO #UnmatchedPatientsForPracticeCode
+SELECT FK_Patient_Link_ID FROM #Patients
+EXCEPT
+SELECT FK_Patient_Link_ID FROM #PatientPractice;
+-- 561 rows
+-- 00:00:00
+
+-- If there is a unique most recent gp practice then we use that
+INSERT INTO #PatientPractice
+SELECT p.FK_Patient_Link_ID, MIN(p.GPPracticeCode) FROM RLS.vw_Patient p
+INNER JOIN (
+	SELECT FK_Patient_Link_ID, MAX(HDMModifDate) MostRecentDate FROM RLS.vw_Patient
+	WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #UnmatchedPatientsForPracticeCode)
+	GROUP BY FK_Patient_Link_ID
+) sub ON sub.FK_Patient_Link_ID = p.FK_Patient_Link_ID AND sub.MostRecentDate = p.HDMModifDate
+WHERE p.GPPracticeCode IS NOT NULL
+GROUP BY p.FK_Patient_Link_ID
+HAVING MIN(GPPracticeCode) = MAX(GPPracticeCode);
+-- 15
+
+--┌──────────────────┐
+--│ CCG lookup table │
+--└──────────────────┘
+
+-- OBJECTIVE: To provide lookup table for CCG names. The GMCR provides the CCG id (e.g. '00T', '01G') but not 
+--            the CCG name. This table can be used in other queries when the output is required to be a ccg 
+--            name rather than an id.
+
+-- INPUT: No pre-requisites
+
+-- OUTPUT: A temp table as follows:
+-- #CCGLookup (CcgId, CcgName)
+-- 	- CcgId - Nationally recognised ccg id
+--	- CcgName - Bolton, Stockport etc..
+
+IF OBJECT_ID('tempdb..#CCGLookup') IS NOT NULL DROP TABLE #CCGLookup;
+CREATE TABLE #CCGLookup (CcgId nchar(3), CcgName nvarchar(20));
+INSERT INTO #CCGLookup VALUES ('01G', 'Salford'); 
+INSERT INTO #CCGLookup VALUES ('00T', 'Bolton'); 
+INSERT INTO #CCGLookup VALUES ('01D', 'HMR'); 
+INSERT INTO #CCGLookup VALUES ('02A', 'Trafford'); 
+INSERT INTO #CCGLookup VALUES ('01W', 'Stockport');
+INSERT INTO #CCGLookup VALUES ('00Y', 'Oldham'); 
+INSERT INTO #CCGLookup VALUES ('02H', 'Wigan'); 
+INSERT INTO #CCGLookup VALUES ('00V', 'Bury'); 
+INSERT INTO #CCGLookup VALUES ('14L', 'Manchester'); 
+INSERT INTO #CCGLookup VALUES ('01Y', 'Tameside Glossop'); 
+
+IF OBJECT_ID('tempdb..#PatientPracticeAndCCG') IS NOT NULL DROP TABLE #PatientPracticeAndCCG;
+SELECT p.FK_Patient_Link_ID, ISNULL(pp.GPPracticeCode,'') AS GPPracticeCode, ISNULL(ccg.CcgName, '') AS CCG
+INTO #PatientPracticeAndCCG
+FROM #Patients p
+LEFT OUTER JOIN #PatientPractice pp ON pp.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN SharedCare.Reference_GP_Practice gp ON gp.OrganisationCode = pp.GPPracticeCode
+LEFT OUTER JOIN #CCGLookup ccg ON ccg.CcgId = gp.Commissioner;
+
 --┌────────────────────┐
 --│ COVID vaccinations │
 --└────────────────────┘
@@ -2116,6 +2233,7 @@ DROP TABLE #VacTemp7;
 
 
 
+
 -- CREATE WIDE TABLE SHOWING WHICH PATIENTS HAVE A HISTORY OF EACH LTC (DIAGNOSED BEFORE MARCH 2020)
 
 IF OBJECT_ID('tempdb..#HistoryOfLTCs') IS NOT NULL DROP TABLE #HistoryOfLTCs;
@@ -2228,33 +2346,31 @@ SELECT
 	CAST(EventDate AS DATE) AS EventDate,
 	Concept = CASE WHEN sn.Concept IS NOT NULL THEN sn.Concept ELSE co.Concept END,
 	[Version] =  CASE WHEN sn.[Version] IS NOT NULL THEN sn.[Version] ELSE co.[Version] END,
-	[Value] = TRY_CONVERT(NUMERIC (18,5), [Value]),
-	[Units]
+	[Value] = TRY_CONVERT(NUMERIC (18,5), [Value])
 INTO #observations
 FROM #PatientEventData gp
 LEFT JOIN #VersionedSnomedSets sn ON sn.FK_Reference_SnomedCT_ID = gp.FK_Reference_SnomedCT_ID
 LEFT JOIN #VersionedCodeSets co ON co.FK_Reference_Coding_ID = gp.FK_Reference_Coding_ID
 WHERE
 	((gp.FK_Reference_SnomedCT_ID IN (
-		SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept In ('systolic-blood-pressure', 'diastolic-blood-pressure', 'ldl-cholesterol', 'hdl-cholesterol', 'triglycerides', 'egfr') AND [Version] = 1) 
-			OR Concept IN ('hba1c', 'cholesterol') AND [Version] = 2 )
+		SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets sn WHERE sn.Concept In ('systolic-blood-pressure', 'diastolic-blood-pressure', 'ldl-cholesterol', 'hdl-cholesterol', 'triglycerides', 'egfr') AND [Version] = 1) 
+			OR sn.Concept IN ('hba1c', 'cholesterol') AND sn.[Version] = 2 )
 		OR (gp.FK_Reference_Coding_ID   IN (
-		SELECT FK_Reference_Coding_ID   FROM #VersionedCodeSets   WHERE Concept In ('systolic-blood-pressure', 'diastolic-blood-pressure', 'ldl-cholesterol', 'hdl-cholesterol', 'triglycerides', 'egfr') AND [Version] = 1) 
-			OR Concept IN ('hba1c', 'cholesterol') AND [Version] = 2 ))
+		SELECT FK_Reference_Coding_ID   FROM #VersionedCodeSets co WHERE co.Concept In ('systolic-blood-pressure', 'diastolic-blood-pressure', 'ldl-cholesterol', 'hdl-cholesterol', 'triglycerides', 'egfr') AND [Version] = 1) 
+			OR co.Concept IN ('hba1c', 'cholesterol') AND co.[Version] = 2 ))
 
 	AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 	AND [Value] IS NOT NULL AND [Value] != '0' AND UPPER([Value]) NOT LIKE '%[A-Z]%'  -- CHECKS IN CASE ANY ZERO, NULL OR TEXT VALUES REMAINED
-
 
 -- WHERE CODES EXIST IN BOTH VERSIONS OF THE CODE SET (OR IN OTHER SIMILAR CODE SETS), THERE WILL BE DUPLICATES, SO EXCLUDE THEM FROM THE SETS/VERSIONS THAT WE DON'T WANT 
 
 IF OBJECT_ID('tempdb..#all_observations') IS NOT NULL DROP TABLE #all_observations;
 select 
-	FK_Patient_Link_ID, CAST(EventDate AS DATE) EventDate, Concept, [Value], [Units], [Version]
+	FK_Patient_Link_ID, CAST(EventDate AS DATE) EventDate, Concept, [Value]
 into #all_observations
 from #observations
 except
-select FK_Patient_Link_ID, EventDate, Concept, [Value], [Units], [Version] from #observations 
+select FK_Patient_Link_ID, EventDate, Concept, [Value] from #observations 
 where 
 	(Concept = 'cholesterol' and [Version] <> 2) OR -- e.g. serum HDL cholesterol appears in cholesterol v1 code set, which we don't want, but we do want the code as part of the hdl-cholesterol code set.
 	(Concept = 'hba1c' and [Version] <> 2) -- e.g. hba1c level appears twice with same value: from version 1 and version 2. We only want version 2 so exclude any others.
@@ -2283,8 +2399,7 @@ IF OBJECT_ID('tempdb..#closest_observations') IS NOT NULL DROP TABLE #closest_ob
 SELECT o.FK_Patient_Link_ID, 
 	o.EventDate, 
 	o.Concept, 
-	o.[Value], 
-	o.[Units],
+	o.[Value],
 	BeforeOrAfterCovid = CASE WHEN bef.MostRecentDate = o.EventDate THEN 'before' WHEN aft.MostRecentDate = o.EventDate THEN 'after' ELSE 'check' END,
 	ROW_NUM = ROW_NUMBER () OVER (PARTITION BY o.FK_Patient_Link_ID, o.EventDate, o.Concept ORDER BY [Value] DESC) -- THIS WILL BE USED IN NEXT QUERY TO TAKE THE MAX VALUE WHERE THERE ARE MULTIPLE
 INTO #closest_observations
@@ -2338,7 +2453,7 @@ GROUP BY FK_Patient_Link_ID
 -- BRING TOGETHER FOR FINAL DATA EXTRACT
 
 SELECT  
-	p.FK_Patient_Link_ID, 
+	PatientId = p.FK_Patient_Link_ID, 
 	p.YearOfBirth, 
 	Sex,
 	BMI,
@@ -2347,6 +2462,7 @@ SELECT
 	WorstSmokingStatus = smok.WorstSmokingStatus,
 	p.EthnicMainGroup,
 	LSOA_Code,
+	PracticeCCG = prac.CCG,
 	IMD2019Decile1IsMostDeprived10IsLeastDeprived,
 	IsCareHomeResident,
 	DiabetesT1,
@@ -2485,6 +2601,7 @@ LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientIMDDecile imd ON imd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientBMI bmi ON bmi.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #PatientSmokingStatus smok ON smok.FK_Patient_Link_ID = p.FK_Patient_Link_ID
+LEFT OUTER JOIN #PatientPracticeAndCCG prac ON prac.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDVaccinations vac ON vac.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #CovidPatientsMultipleDiagnoses cv ON cv.FK_Patient_Link_ID = P.FK_Patient_Link_ID

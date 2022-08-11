@@ -1,5 +1,5 @@
 --┌──────────────────────────────────────────────┐
---│ Patients with diabetes and covid	     │
+--│ Meds - Patients with diabetes and covid	     │
 --└──────────────────────────────────────────────┘
 
 ---- RESEARCH DATA ENGINEER CHECK ----
@@ -35,6 +35,11 @@ IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM RLS.vw_Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < '2022-06-01';
 
 ------------------------------------ CREATE COHORT -------------------------------------
 	-- REGISTERED WITH A GM GP
@@ -90,6 +95,7 @@ WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 		p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #DiabetesT1Patients)  OR			 -- Diabetes T1 diagnosis
 		p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #DiabetesT2Patients) 			     -- Diabetes T2 diagnosis
 		)
+	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) 			 -- exclude new patients processed post-COPI notice
 
 ----------------------------------------------------------------------------------------
 
@@ -118,7 +124,7 @@ WHERE
 -- FIX ISSUE WITH DUPLICATE MEDICATIONS, CAUSED BY SOME CODES APPEARING MULTIPLE TIMES IN #AllCodes
 
 IF OBJECT_ID('tempdb..#AllCodes_1') IS NOT NULL DROP TABLE #AllCodes_1;
-SELECT DISTINCT FK_Reference_SnomedCT_ID, Concept, [Version] INTO #AllCodes_1 FROM #AllCodes
+SELECT DISTINCT Code, Concept, [Version] INTO #AllCodes_1 FROM #AllCodes
 
 -- RETRIEVE ALL RELEVANT PRESCRPTIONS FOR THE COHORT
 
@@ -126,11 +132,10 @@ IF OBJECT_ID('tempdb..#medications_rx') IS NOT NULL DROP TABLE #medications_rx;
 SELECT 
 	 m.FK_Patient_Link_ID,
 		CAST(MedicationDate AS DATE) as PrescriptionDate,
-		Concept = CASE WHEN c.Concept IS NOT NULL THEN c.Concept ELSE s.Concept END
+		Concept = s.Concept
 INTO #medications_rx
 FROM #PatientMedicationData m
-LEFT OUTER JOIN #VersionedSnomedSets_1 s ON s.FK_Reference_SnomedCT_ID = m.FK_Reference_SnomedCT_ID
-LEFT OUTER JOIN #VersionedCodeSets_1 c ON c.FK_Reference_Coding_ID = m.FK_Reference_Coding_ID
+LEFT OUTER JOIN #AllCodes_1 s ON s.Code = m.SuppliedCode
 WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 	AND m.MedicationDate BETWEEN @StartDate AND @EndDate
 	AND m.SuppliedCode IN (SELECT [Code] FROM #AllCodes_1) -- using Code due to prevalency discrepancy with IDs
@@ -138,7 +143,7 @@ WHERE m.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 --  FINAL TABLE: NUMBER OF EACH MEDICATION CATEGORY PRESCRIBED EACH MONTH 
 
 select 
-	FK_Patient_Link_ID,
+	PatientId = FK_Patient_Link_ID,
 	YEAR(PrescriptionDate) as [Year], 
 	Month(PrescriptionDate) as [Month], 
 	[bnf-gastro-intestinal] = ISNULL(SUM(CASE WHEN Concept = 'bnf-gastro-intestinal-meds' then 1 else 0 end),0),

@@ -68,3 +68,60 @@ L043y11	Unspecified inevitable miscarriage with OS complication
 L044111	Incomplete inev mis comp by delayed or excessive haemorrhage
 L045000	Complete inev abor comp by genital tract and pelvic infec
 L043100	Unspec inevit abortion comp by delayed or excessive haemorr
+L01..	Other abnormal product of conception
+L01..00	Other abnormal product of conception
+L01z.	Other abnormal product of conception NOS
+L01z.00	Other abnormal product of conception NOS
+L0430	Unspecified inevitable abortion complicated by genital tract and pelvic infection
+L043000	Unspecified inevitable abortion complicated by genital tract and pelvic infection
+L043011	Unspecified inevitable miscarriage complicated by genital tract and pelvic infection
+L0432	Unspecified inevitable abortion complicated by embolism
+L043200	Unspecified inevitable abortion complicated by embolism
+L043211	Unspecified inevitable miscarriage complicated by embolism
+L070000	Unspecified abortion with genital tract or pelvic infection
+L0701	Unspecified abortion with delayed or excessive haemorrhage
+L070100	Unspecified abortion with delayed or excessive haemorrhage
+L0702	Unspecified abortion with damage to pelvic organs or tissues
+L070200	Unspecified abortion with damage to pelvic organs or tissues
+L070300	Unspecified abortion with renal failure
+L0704	Unspecified abortion with metabolic disorder
+L070400	Unspecified abortion with metabolic disorder
+L0705	Unspecified abortion with shock
+L070500	Unspecified abortion with shock
+L070600	Unspecified abortion with embolism
+L070w	Unspecified abortion with other specified complication
+L070w00	Unspecified abortion with other specified complication
+L070x00	Unspecified abortion with complication NOS
+L070y	Unspecified abortion with no mention of complication
+L070y00	Unspecified abortion with no mention of complication
+L070z	Unspecified abortion NOS
+L070z00	Unspecified abortion NOS
+L071.00	Unspecified abortion incomplete
+L0710	Unspecified incomplete abortion with genital tract or pelvic infection
+L071000	Unspecified incomplete abortion with genital tract or pelvic infection
+L0711	Unspecified incomplete abortion with delayed or excessive haemorrhage
+L071100	Unspecified incomplete abortion with delayed or excessive haemorrhage
+L071y00	Unspecified incomplete abortion with no mention of complication
+L071z	Unspecified incomplete abortion NOS
+L071z00	Unspecified incomplete abortion NOS
+L072.	Unspecified abortion complete
+L072.00	Unspecified abortion complete
+L0720	Unspecified complete abortion with genital tract or pelvic infection
+L072000	Unspecified complete abortion with genital tract or pelvic infection
+L0721	Unspecified complete abortion with delayed or excessive haemorrhage
+L072100	Unspecified complete abortion with delayed or excessive haemorrhage
+L072w	Unspecified complete abortion with other specified complication
+L072w00	Unspecified complete abortion with other specified complication
+L072x	Unspecified complete abortion with complication NOS
+L072x00	Unspecified complete abortion with complication NOS
+L072y	Unspecified complete abortion with no mention of complication
+L072y00	Unspecified complete abortion with no mention of complication
+L072z	Unspecified complete abortion NOS
+L072z00	Unspecified complete abortion NOS
+L07z.	Unspecified abortion NOS
+L07z.00	Unspecified abortion NOS
+L097.00	Readmission for abortive pregnancy (NHS codes)
+L09y.00	Other specified complication following abortive pregnancy
+L0y..	Other specified pregnancy with abortive outcome
+L0y..00	Other specified pregnancy with abortive outcome
+Lyu0200	[X]Other abortion

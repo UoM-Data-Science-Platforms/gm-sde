@@ -1,0 +1,6 @@
+18083007	Hospital admission, emergency, indirect (procedure)
+183452005	Emergency hospital admission (procedure)
+183455007	Admit psychiatric emergency (procedure)
+395661000000100	Emergency psychiatric admission MHA (procedure)
+73994005	Emergency operation (procedure)
+842951000000109	Emergency hospital admission from walk-in centre (procedure)

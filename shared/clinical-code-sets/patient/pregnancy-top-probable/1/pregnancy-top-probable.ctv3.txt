@@ -1,0 +1,12 @@
+7E086	Termination of pregnancy NEC
+L05..	Termination of pregnancy
+Ua1O2	Post-termination counselling
+Xa36H	Termination of pregnancy
+Xa3xi	Other fetal pregnancy removal operation
+Xa3xl	Other fetus removal NOS
+XaWyf	Incomplete medical abortion
+XaXIc	Pregnancy termination care
+XE0xc	Termination of pregnancy
+6776.	Abortion counselling
+Ua1O3	Pre-termination counselling
+Ua1O3	Pre-termination counselling

@@ -1,0 +1,32 @@
+^ESCT1190304	Unspec spontaneous abortion + other specified complication
+^ESCT1245131	Spontaneous misc 8-28 weeks
+^ESCTCO451510	Complete spontaneous abortion
+^ESCTCO479328	Complete spontaneous abortion with delayed or excessive hemorrhage
+^ESCTCO479329	Complete miscarriage with delayed or excessive haemorrhage
+^ESCTCO597216	Complete inevitable miscarriage complicated by delayed or excessive hemorrhage
+^ESCTCO597219	Complete inevitable abortion complicated by delayed or excessive hemorrhage
+^ESCTCO655219	Counseling following miscarriage
+^ESCTCO655220	Counselling following miscarriage
+^ESCTDI467480	Dilation of cervix uteri and curettage of uterus for removal of missed miscarriage
+^ESCTFE276327	Fetal death before 22 weeks with retention of dead fetus
+^ESCTFO276330	Foetal death before 22 weeks with retention of dead foetus
+^ESCTIN451508	Incomplete spontaneous abortion
+^ESCTIN479308	Incomplete spontaneous abortion with delayed or excessive hemorrhage
+^ESCTIN479309	Incomplete miscarriage with delayed or excessive haemorrhage
+^ESCTIN597224	Incomplete inevitable miscarriage complicated by embolism
+^ESCTIN597232	Incomplete inevitable miscarriage complicated by delayed or excessive hemorrhage
+^ESCTIN597234	Incomplete inevitable abortion complicated by delayed or excessive hemorrhage
+^ESCTMA276328	MA - Missed abortion
+^ESCTMI359766	Miscarriage with sepsis
+^ESCTMI473113	Miscarriage at 8 to 28 weeks
+^ESCTMI557309	Miscarriage with heavy bleeding
+^ESCTPO655218	Post miscarriage counseling
+^ESCTPR359768	Pregnancy loss with sepsis
+^ESCTRE557311	Retained products after miscarriage
+^ESCTRE557313	Retained tissue after pregnancy loss
+^ESCTSP271207	Spontaneous abortion complicated by metabolic disorder
+^ESCTSP305728	Spontaneous abortion with complication
+^ESCTSP473115	Spontaneous abortion at 8 to 28 weeks
+^ESCTVA277560	Vaginal expulsion of product of conception
+^ESCTVA277561	Vaginal expulsion of fetus
+^ESCTVA277562	Vaginal expulsion of foetus

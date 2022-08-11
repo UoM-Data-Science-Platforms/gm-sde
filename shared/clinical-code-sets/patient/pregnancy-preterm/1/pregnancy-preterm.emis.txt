@@ -1,0 +1,14 @@
+^ESCTAN326161	Anemia of prematurity
+^ESCTHY369896	Hyperbilirubinemia of prematurity
+^ESCTHY369897	Hyperbilirubinaemia of prematurity
+^ESCTJA369895	Jaundice due to delayed conjugation associated with preterm delivery
+^ESCTNE369894	Neonatal jaundice associated with preterm delivery
+^ESCTNE369899	Neonatal jaundice after preterm delivery
+^ESCTPR260168	Premature labor
+^ESCTPR260169	Premature onset of labour
+^ESCTPR260170	Preterm labour
+^ESCTPR260171	Preterm labor
+^ESCTPR260172	Premature onset of labor
+^ESCTPR321282	Prematurity
+^ESCTPR321283	Prematurity of foetus
+^ESCTVE558876	Very premature baby

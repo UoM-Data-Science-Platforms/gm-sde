@@ -1,0 +1,104 @@
+62P3.	Breast-feeding with complement
+62P3.	Breast-feeding with supplement
+62P4.	Breast changed to bottle feed
+62P5.	Breast-feeding started
+62P6.	Breast-feeding stopped
+62P7.	Bottle feeding started
+62P8.	Bottle feeding stopped
+62PA.	Mother currently breast-feeding
+62PB.	Bottle changed to breast
+62Q4.	No postnatal care
+62Q5.	P/N care refused
+62S1.	Maternal P/N exam. not offered
+62S2.	Maternal P/N exam. offered
+62S3.	Maternal P/N exam. refused
+62S4.	Maternal P/N exam. defaulted
+62T..	Miscellaneous postnatal data
+62T1.	Postnatal depression
+62T1.	Postnatal depressive disorder
+62T1.	Postpartum depression
+62T1.	Puerperal depression
+62TZ.	Miscellaneous postnatal data NOS
+64a1.	Child 8 week examination not offered
+64a2.	Child 8 week examination not wanted
+64a3.	Child 8 week examination not attended
+64B1.	Child not examined at birth
+64D1.	Child 6 week examination not offered
+64D2.	Child 6 week examination not wanted
+64D3.	Child 6 week examination not attended
+67C..	Postnatal support group
+8E9Z.	Postnatal exercises
+C1321	Post-birth injury panhypopituitarism
+E204.	Postnatal depression
+Eu530	[X]Postnatal depression NOS
+Eu530	[X]Postpartum depression NOS
+L39A.	Death from any obstetric cause occurring more than 42 days but less than one year after delivery
+L39y4	P/N: [problem with other complications of labour and delivery] or [vaginal discomfort]
+L39y4	Postnatal vaginal discomfort
+L39y4	Vaginal discomfort postnatal
+L451.	Purulent mastitis - obstetric
+L452.	Lymphangitis of breast - obstetric
+L452.	Obstetric nonpurulent mastitis
+L4520	Obstetric non-purulent mastitis unspecified
+L452z	Obstetric non-purulent mastitis NOS
+L46..	Lactation problems
+L4635	Breast-feeding painful
+L4635	Pain on breast-feeding
+L464.	Agalactia
+L464.	Failed lactation
+L464.	Failure of lactation
+L464.	Not producing any milk
+L4640	Failure of lactation unspecified
+L464z	Failure of lactation NOS
+L465.	Suppressed lactation
+L4650	Suppressed lactation unspecified
+L465z	Suppressed lactation NOS
+Q01..	Fetus or neonate affected by maternal complication of pregnancy
+Q01y.	Fetus or neonate affected by other maternal complication of pregnancy
+Q01z.	Fetus or neonate affected by maternal complication of pregnancy NOS
+Q1...	Disorders due to slow fetal growth, low and high birth weight
+Q12..	(Disorders relating to long gestation and high birthweight) or (large baby born)
+Q12..	Disorders relating to long gestation and high birthweight
+Q12..	Large baby born
+Q121.	Other "large-for-dates" infant
+Q121.	Other large-for-dates" infant"
+Q12z.	Large or postmature infant NOS
+Q1y..	Other specified disorders of slow fetal growth, low and high birth weight
+Q1z..	Disorders slow fetal growth, low and high birth weight NOS
+Q4837	Difficulty in feeding at breast
+Q483z	Breast feeding problem in the newborn
+Qyu0.	[X]Fetus and newborn affected by maternal factors and by complications of pregnancy, labour and delivery
+Qyu03	[X]Fetus and newborn affected by other maternal complications of pregnancy
+Ua1oM	Lactation established
+X40Cv	Postnatal vaginal discomfort
+X40Cv	Vaginal discomfort postnatal
+X40Dj	Postpartum thyroiditis
+X40Du	Hypogalactia
+X40Du	Inadequate lactation
+X40Du	Insufficient lactation
+X40Du	Poor lactation
+X70ER	Breast-feeding problem in the newborn
+X74Vz	Postnatal examination status
+Xa09f	Growth delay
+Xa4k6	Lactation problem
+XaaTh	Postnatal examination third invitation
+XaaUi	Did not attend postnatal examination
+XaaUz	Postnatal examination declined
+XaboQ	Depression screening declined
+XadAP	Newborn and Infant Physical Examination Screening Programme, hip examination done, no abnormality with risk factor
+XaIKH	Edinburgh postnatal depression scale declined
+XaIKI	Edinburgh postnatal depression scale at 8 months declined
+XaIpA	Postnatal counselling
+XaIpB	Postnatal depression counselling
+XaPOv	Fetus or neonate affected by maternal postnatal depression
+XaX2G	Breastfeeding assessment
+XaX2L	Postnatal depression not discussed
+XaYoI	Not smiling by 8 weeks old
+XE1eY	Disorders relating to long gestation and high birth weight
+XE2sm	Obstetric non-purulent mastitis
+XM0d1	Edinburgh postnatal depression scale
+XM0d1	EPDS - Edinburgh postnatal depression scale
+XM0tj	Mastitis - obstetric
+XM1PK	Lymphangitis of breast - obstetric
+ZV241	[V]Examination of Lactating mother
+XaPO8	Breastfeeding and supplementary bottle feeding at discharge from hospital

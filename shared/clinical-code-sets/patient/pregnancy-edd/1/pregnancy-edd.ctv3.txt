@@ -1,0 +1,4 @@
+1514.	Estimated date of delivery
+Xa4SR	Estimated date of delivery from last period
+Xa4SS	Estimated date of delivery from last normal period
+XaXwo	Estimated date of delivery by antenatal ultrasound scan

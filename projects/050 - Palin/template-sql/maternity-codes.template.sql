@@ -31,57 +31,52 @@ IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
 SELECT pp.* INTO #Patients FROM #PossiblePatients pp
 INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
+----------------------------------------
+--> EXECUTE query-build-rq050-cohort.sql
+----------------------------------------
 
---------------------------------------------------------------------------------------------------------
------------------------------------ DEFINE MAIN COHORT -----------------------------------------------
---------------------------------------------------------------------------------------------------------
+-- LOAD CODES THAT AREN'T ALREADY LOADED FROM THE ABOVE COHORT QUERY
 
-
-
----------------------------------------------------------------------------------------------------------------
-
-
------------------------------------------------------------------------------------------------------------------------------------------
-------------------- NOW COHORT HAS BEEN DEFINED, LOAD CODE SETS FOR ALL CONDITIONS/SYMPTOMS OF INTEREST ---------------------------------
------------------------------------------------------------------------------------------------------------------------------------------
-
-
---> CODESET pre-eclampsia:1 pregnancy-failed:1 hypertension:1 gestational-diabetes:1 
---> CODESET postnatal-6week-check:1
+--> CODESET gestational-diabetes:1 pre-eclampsia:1 
 
 -- CREATE TABLES OF DISTINCT CODES AND CONCEPTS - TO REMOVE DUPLICATES IN FINAL TABLE
 
 IF OBJECT_ID('tempdb..#VersionedCodeSetsUnique') IS NOT NULL DROP TABLE #VersionedCodeSetsUnique;
-SELECT DISTINCT V.Concept, FK_Reference_Coding_ID, V.[Version]
+SELECT DISTINCT V.Concept, V.FK_Reference_Coding_ID, r.FullDescription, V.[Version]
 INTO #VersionedCodeSetsUnique
 FROM #VersionedCodeSets V
+LEFT JOIN SharedCare.Reference_Coding r on r.PK_Reference_Coding_ID = V.FK_Reference_Coding_ID
 
 IF OBJECT_ID('tempdb..#VersionedSnomedSetsUnique') IS NOT NULL DROP TABLE #VersionedSnomedSetsUnique;
-SELECT DISTINCT V.Concept, FK_Reference_SnomedCT_ID, V.[Version]
+SELECT DISTINCT V.Concept, V.FK_Reference_SnomedCT_ID, r.FullDescription, V.[Version]
 INTO #VersionedSnomedSetsUnique
 FROM #VersionedSnomedSets V
-
+LEFT JOIN SharedCare.Reference_Coding r on r.FK_Reference_SnomedCT_ID = V.FK_Reference_SnomedCT_ID
 
 ---- CREATE OUTPUT TABLE OF DIAGNOSES AND SYMPTOMS, FOR THE COHORT OF INTEREST, AND CODING DATES 
 
 IF OBJECT_ID('tempdb..#DiagnosesAndSymptoms') IS NOT NULL DROP TABLE #DiagnosesAndSymptoms;
-SELECT FK_Patient_Link_ID, EventDate, case when s.Concept is null then c.Concept else s.Concept end as Concept
+SELECT FK_Patient_Link_ID, EventDate, SuppliedCode, gp.FK_Reference_SnomedCT_ID, gp.FK_Reference_Coding_ID,
+	case when s.Concept is null then c.Concept else s.Concept end as Concept,
+	case when s.FullDescription is null then c.FullDescription else s.FullDescription end as FullDescription
 INTO #DiagnosesAndSymptoms
-FROM RLS.vw_GP_Events gp
+FROM #PatientEventData gp
 LEFT OUTER JOIN #VersionedSnomedSetsUnique s ON s.FK_Reference_SnomedCT_ID = gp.FK_Reference_SnomedCT_ID
 LEFT OUTER JOIN #VersionedCodeSetsUnique c ON c.FK_Reference_Coding_ID = gp.FK_Reference_Coding_ID
 WHERE gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
-AND gp.EventDate BETWEEN @StartDate AND @EndDate;
+	AND SuppliedCode in (SELECT [Code] FROM #AllCodes WHERE ([Concept] LIKE 'pregnancy%' OR Concept IN ('gestational-diabetes', 'pre-eclampsia')) AND [Version] = 1)
+	AND gp.EventDate BETWEEN @StartDate AND @EndDate
+	AND s.FullDescription IS NOT NULL AND c.FullDescription IS NOT NULL;
 
--- FIND ALL CODES PER YEAR FOR EACH PATIENT
+-- PULL TOGETHER FOR FINAL TABLE
+-- USES MAX(FullDescription) TO GET OVER THE ISSUE OF MULTIPLE SIMILAR DESCRIPTIONS FOR THE SAME CODE
 
-SELECT PatientID = FK_Patient_Link_ID,
-	[Year] = YEAR(EventDate),
-	[pre-eclampsia] = ISNULL(SUM(CASE WHEN Concept = 'pre-eclampsia' THEN 1 ELSE 0 END),0),
-	[pregnancy-failed] = ISNULL(SUM(CASE WHEN Concept = 'pregnancy-failed' THEN 1 ELSE 0 END),0),
-	[hypertension] = ISNULL(SUM(CASE WHEN Concept = 'hypertension' THEN 1 ELSE 0 END),0),
-	[gestational-diabetes] = ISNULL(SUM(CASE WHEN Concept = 'gestational-diabetes' THEN 1 ELSE 0 END),0),
-
-FROM #DiagnosesAndSymptoms
-GROUP BY FK_Patient_Link_ID, YEAR(EventDate)
-ORDER BY FK_Patient_Link_ID, YEAR(EventDate)
+select FK_Patient_Link_ID, 
+	EventDate, 
+	Concept, 
+	SuppliedCode,
+	MAX([FullDescription])
+from #DiagnosesAndSymptoms
+where FK_Reference_Coding_ID <> '-1'
+group by FK_Patient_Link_ID, EventDate, Concept, SuppliedCode
+order by FK_Patient_Link_ID, EventDate, Concept, SuppliedCode

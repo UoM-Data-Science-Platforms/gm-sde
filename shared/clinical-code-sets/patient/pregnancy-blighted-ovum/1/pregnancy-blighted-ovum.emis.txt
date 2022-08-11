@@ -1,0 +1,8 @@
+^ESCTBL572136	Blighted ovum and/or carneous mole
+^ESCTBL572137	Blighted ovum - carneous mole
+^ESCTCH474976	Chorioepithelioma
+^ESCTCH474977	Chorionepithelioma
+^ESCTEM307997	Empty gestational sac with ongoing pregnancy
+^ESCTPA307996	Pathologic ovum
+^ESCTRE307998	Resorbed fetus
+^ESCTRE308000	Resorbed foetus

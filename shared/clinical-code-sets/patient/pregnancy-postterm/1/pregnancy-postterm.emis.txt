@@ -1,0 +1,12 @@
+^ESCT1192443	Disorders relating to long gestation and high birthweight
+^ESCTAN462634	Antenatal 42 week examination
+^ESCTDI550741	Disorder relating to long gestation and/or high birth weight
+^ESCTPO275697	Postmature infancy
+^ESCTPO275698	Postterm infancy
+^ESCTPO275699	Postmature fetus
+^ESCTPO275702	Postmaturity of baby
+^ESCTPO275703	Postmature foetus
+^ESCTPO397830	Post term pregnancy
+^ESCTPO397832	Post-dates
+^ESCTPO573109	Post-term infant - 42 weeks +
+^ESCTPR397831	Prolonged gestation

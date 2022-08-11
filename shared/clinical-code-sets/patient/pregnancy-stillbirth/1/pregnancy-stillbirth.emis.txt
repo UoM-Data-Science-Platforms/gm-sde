@@ -1,0 +1,20 @@
+^ESCT1246168	[V]Twin, mate stillborn
+^ESCT1246169	[V]Twin, mate stillborn NOS
+^ESCTDE480168	Deliveries by destructive operation
+^ESCTFE351996	Fetal clavicotomy
+^ESCTFE351997	Fetal cleidorrhexis
+^ESCTFE351998	Fetal cleidotomy
+^ESCTFE483657	Fetal death due to prelabor anoxia
+^ESCTFE483661	Fetal death due to labor anoxia
+^ESCTFO351999	Foetal cleidorrhexis
+^ESCTFO352000	Foetal clavicotomy
+^ESCTFO483656	Foetal death due to prelabour anoxia
+^ESCTFO483659	Foetal death due to labour anoxia
+^ESCTME551588	Medical certificate of still-birth
+^ESCTSB510624	SB - Stillbirth
+^ESCTTR462734	Triplets - two live and one stillborn
+^ESCTTR462736	Triplets - three stillborn
+^ESCTTW462729	Twins - one still and one live born
+^ESCTTW462730	Twins, one liveborn and one stillborn
+^ESCTTW726274	Twin liveborn born in hospital
+^ESCTTW726275	Twin live born in hospital
