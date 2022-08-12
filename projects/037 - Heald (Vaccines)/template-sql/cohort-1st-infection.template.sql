@@ -46,6 +46,17 @@ SET @MedicationsFromDate = DATEADD(month, -6, @StartDate);
 DECLARE @EventsFromDate datetime;
 SET @EventsFromDate = DATEADD(year, -2, @StartDate);
 
+-- Only include patients who were first registered at a GP practice prior
+-- to June 2022. This is 1 month before COPI expired and so acts as a buffer.
+-- If we only looked at patients who first registered before July 2022, then
+-- there is a chance that their data was processed after COPI expired.
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM RLS.vw_Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < '2022-06-01';
+
+
 -- First get all the diabetic (type 1/type 2/other) patients and the date of first diagnosis
 --> CODESET diabetes:1
 IF OBJECT_ID('tempdb..#DiabeticPatients') IS NOT NULL DROP TABLE #DiabeticPatients;
@@ -55,6 +66,7 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes') AND [Version]=1)
 )
+AND EventDate < '2022-06-01'
 GROUP BY FK_Patient_Link_ID;
 
 -- Get separate cohorts for paients with type 1 diabetes and type 2 diabetes
@@ -66,6 +78,7 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes-type-i') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes-type-i') AND [Version]=1)
 )
+AND EventDate < '2022-06-01'
 GROUP BY FK_Patient_Link_ID;
 
 --> CODESET diabetes-type-ii:1
@@ -76,6 +89,7 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes-type-ii') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes-type-ii') AND [Version]=1)
 )
+AND EventDate < '2022-06-01'
 GROUP BY FK_Patient_Link_ID;
 
 -- Then get all the positive covid test patients
@@ -164,6 +178,7 @@ SELECT
 INTO #PatientEventData
 FROM [RLS].vw_GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientIdsAndIndexDates)
+AND EventDate < '2022-06-01'
 AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
 
 IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
@@ -176,7 +191,8 @@ SELECT
 INTO #PatientMedicationData
 FROM [RLS].vw_GP_Medications
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientIdsAndIndexDates)
-AND MedicationDate >= @MedicationsFromDate;
+AND MedicationDate >= @MedicationsFromDate
+AND MedicationDate < '2022-06-01';
 
 --> EXECUTE query-patient-smoking-status.sql gp-events-table:#PatientEventData
 --> EXECUTE query-patient-lsoa.sql
