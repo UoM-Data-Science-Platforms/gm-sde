@@ -144,7 +144,7 @@ FROM [RLS].[vw_COVID19]
 WHERE 
 	(FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #MainCohort) OR FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #MatchedCohort))
 	AND EventDate <= @EndDate
-	and GroupDescription != 'Vaccination' 
+	and GroupDescription != 'Vaccination' ddr
 	and GroupDescription not in ('Exposed', 'Suspected', 'Tested for immunity')
 	and (GroupDescription != 'Unknown' and SubGroupDescription != '')
 
