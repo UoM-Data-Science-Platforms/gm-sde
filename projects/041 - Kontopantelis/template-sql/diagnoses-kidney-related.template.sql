@@ -42,7 +42,8 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 --> CODESET renal-replacement-therapy:1 acute-kidney-injury:1 polycystic-kidney-disease:1 family-history-kidney-disease:1 end-stage-renal-disease:1
---> CODESET ckd-stage-1:1 ckd-stage-2:1 ckd-stage-3:1 ckd-stage-4:1 ckd-stage-5:1 chronic-kidney-disease:1 allergy:2
+--> CODESET ckd-stage-1:1 ckd-stage-2:1 ckd-stage-3:1 ckd-stage-4:1 ckd-stage-5:1 chronic-kidney-disease:1
+--> CODESET allergy-ace:1 allergy-arb:1 allergy-aspirin:1 allergy-clopidogrel:1 allergy-statin:1
 
 -- CREATE TABLES OF DISTINCT CODES AND CONCEPTS - TO REMOVE DUPLICATES IN FINAL TABLE
 
