@@ -332,8 +332,7 @@ INTO #E2Temp
 FROM #EGFR_TESTS E1
   INNER JOIN #EGFR_TESTS E2 ON
     E1.FK_Patient_Link_ID = E2.FK_Patient_Link_ID AND
-    E1.EventDate < E2.EventDate AND
-    E2.EventDate < DATEADD(month, 3, E1.EventDate)
+    E1.EventDate < E2.EventDate 
 WHERE TRY_CONVERT(NUMERIC, E1.Value) < 60 AND TRY_CONVERT(NUMERIC, E2.Value) >= 60
 GROUP BY E1.FK_Patient_Link_ID, E1.EventDate;
 
@@ -374,8 +373,7 @@ INTO #A2Temp
 FROM #ACR_TESTS A1
   INNER JOIN #ACR_TESTS A2 ON
     A1.FK_Patient_Link_ID = A2.FK_Patient_Link_ID AND
-    A1.EventDate < A2.EventDate AND
-    A2.EventDate < DATEADD(month, 3, A1.EventDate)
+    A1.EventDate < A2.EventDate 
 WHERE TRY_CONVERT(NUMERIC, A1.Value) >= 3 AND TRY_CONVERT(NUMERIC, A2.Value) < 3
 GROUP BY A1.FK_Patient_Link_ID, A1.EventDate;
 
