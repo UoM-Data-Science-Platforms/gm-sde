@@ -1420,7 +1420,8 @@ SELECT
   [Value]
 INTO #PatientEventData
 FROM [RLS].vw_GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
+	AND EventDate < '2022-06-01';
 
 
 --┌─────┐

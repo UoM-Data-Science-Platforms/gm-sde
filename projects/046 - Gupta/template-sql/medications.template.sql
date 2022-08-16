@@ -64,6 +64,7 @@ WHERE (
     FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes-type-i') AND Version = 1)
 	)
 	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+	AND EventDate <= @StartDate
 
 -- FIND ALL DIAGNOSES OF TYPE 2 DIABETES
 
@@ -79,6 +80,7 @@ WHERE (
     FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes-type-ii') AND Version = 1)
 	)
 	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+	AND EventDate <= @StartDate
 
 -- CREATE COHORT OF DIABETES PATIENTS
 
@@ -113,7 +115,8 @@ FROM [RLS].vw_GP_Medications
 WHERE 
 	UPPER(SourceTable) NOT LIKE '%REPMED%'  -- exclude duplicate prescriptions 
 	AND RepeatMedicationFlag = 'N' 			-- exclude duplicate prescriptions 
-	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
+	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
+	AND MedicationDate < '2022-06-01';
 
 -- LOAD ALL MEDICATIONS CODE SETS NEEDED
 
