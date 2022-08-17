@@ -1,18 +1,2 @@
 L010.00	Blighted ovum
 L010.11	Anembryonic pregnancy
-7E087	Dilation of cervix uteri and curettage of uterus for removal of mole
-7E08700	Dilation of cervix uteri and curettage of uterus for removal of mole
-B420.00	Choriocarcinoma
-B911000	Malignant hydatidiform mole
-B911011	Choriadenoma (destruens)
-B911012	Invasive mole - placenta
-B911013	Choriocarcinoma
-B911100	Epithelioid trophoblastic tumour
-L00..00	Hydatidiform mole
-L00..11	Trophoblastic disease
-L00..12	Vesicular mole
-L000.00	Classical hydatidiform mole
-L001.00	Incomplete and partial hydatidiform mole
-L002.00	Complete hydatidiform mole
-L011.00	Carneous mole
-L011.11	Fleshy mole
