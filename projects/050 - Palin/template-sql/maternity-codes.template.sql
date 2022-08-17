@@ -71,7 +71,8 @@ WHERE gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 -- PULL TOGETHER FOR FINAL TABLE
 -- USES MAX(FullDescription) TO GET OVER THE ISSUE OF MULTIPLE SIMILAR DESCRIPTIONS FOR THE SAME CODE
 
-select FK_Patient_Link_ID, 
+select 
+	PatientId = FK_Patient_Link_ID, 
 	EventDate, 
 	Concept, 
 	SuppliedCode,
