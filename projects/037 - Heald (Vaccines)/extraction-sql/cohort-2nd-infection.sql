@@ -1684,8 +1684,8 @@ IF OBJECT_ID('tempdb..#PatientSmokingStatus') IS NOT NULL DROP TABLE #PatientSmo
 SELECT 
 	p.FK_Patient_Link_ID,
 	CASE WHEN ps.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS PassiveSmoker,
-	CASE WHEN w.[Status] IS NULL THEN 'non-smoker' ELSE w.[Status] END AS WorstSmokingStatus,
-	CASE WHEN c.[Status] IS NULL THEN 'non-smoker' ELSE c.[Status] END AS CurrentSmokingStatus
+	CASE WHEN w.[Status] IS NULL THEN 'unknown-smoking-status' ELSE w.[Status] END AS WorstSmokingStatus,
+	CASE WHEN c.[Status] IS NULL THEN 'unknown-smoking-status' ELSE c.[Status] END AS CurrentSmokingStatus
 INTO #PatientSmokingStatus FROM #Patients p
 LEFT OUTER JOIN #TempPassiveSmokers ps on ps.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #TempWorst w on w.FK_Patient_Link_ID = p.FK_Patient_Link_ID
@@ -2975,7 +2975,8 @@ IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT FK_Patient_Link_ID 
 INTO #COVIDDeath FROM RLS.vw_COVID19
 WHERE DeathWithin28Days = 'Y'
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < @TEMPRQ037EndDate;
 
 -- Bring together for final output
 -- Patients in main cohort
