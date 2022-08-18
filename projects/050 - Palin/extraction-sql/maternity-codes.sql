@@ -1,5 +1,5 @@
 --┌──────────────────────────────────────────────┐
---│ Diagnoses of maternity-related conditions    │
+--│ Maternity-related codes					     │
 --└──────────────────────────────────────────────┘
 
 ------------ RESEARCH DATA ENGINEER CHECK ------------
@@ -932,10 +932,16 @@ INTO #DiagnosesAndSymptoms
 FROM #PatientEventData gp
 LEFT OUTER JOIN #VersionedSnomedSetsUnique s ON s.FK_Reference_SnomedCT_ID = gp.FK_Reference_SnomedCT_ID
 LEFT OUTER JOIN #VersionedCodeSetsUnique c ON c.FK_Reference_Coding_ID = gp.FK_Reference_Coding_ID
-WHERE gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
-	AND SuppliedCode in (SELECT [Code] FROM #AllCodes WHERE ([Concept] LIKE 'pregnancy%' OR Concept IN ('gestational-diabetes', 'pre-eclampsia')) AND [Version] = 1)
+WHERE ((SuppliedCode IN 
+			(SELECT [Code] FROM #AllCodes WHERE ([Concept] LIKE 'pregnancy%' OR Concept IN ('gestational-diabetes', 'pre-eclampsia'))
+				AND Concept NOT IN ('pregnancy-preterm', 'pregnancy-postterm') AND [Version] = 1)) 
+	  OR  -- use ID instead of code for preterm and postterm as it is more specific
+		gp.FK_Reference_Coding_ID in (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSetsUnique WHERE Concept IN ('pregnancy-preterm', 'pregnancy-postterm')) OR 
+		gp.FK_Reference_SnomedCT_ID in (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSetsUnique WHERE Concept IN ('pregnancy-preterm', 'pregnancy-postterm')))
 	AND gp.EventDate BETWEEN @StartDate AND @EndDate
-	AND s.FullDescription IS NOT NULL AND c.FullDescription IS NOT NULL;
+	AND s.FullDescription IS NOT NULL AND c.FullDescription IS NOT NULL
+	AND gp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
+
 
 -- PULL TOGETHER FOR FINAL TABLE
 -- USES MAX(FullDescription) TO GET OVER THE ISSUE OF MULTIPLE SIMILAR DESCRIPTIONS FOR THE SAME CODE
