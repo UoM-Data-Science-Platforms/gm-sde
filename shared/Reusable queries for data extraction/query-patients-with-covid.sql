@@ -33,6 +33,11 @@
 
 --> CODESET covid-positive-antigen-test:1 covid-positive-pcr-test:1 covid-positive-test-other:1
 
+
+-- Set the temp end date until new legal basis
+DECLARE @TEMPWithCovidEndDate datetime;
+SET @TEMPWithCovidEndDate = '2022-06-01';
+
 IF OBJECT_ID('tempdb..#CovidPatientsAllDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsAllDiagnoses;
 CREATE TABLE #CovidPatientsAllDiagnoses (
 	FK_Patient_Link_ID BIGINT,
@@ -48,7 +53,8 @@ BEGIN
 			(GroupDescription = 'Tested' AND SubGroupDescription = 'Positive')
 		)
 		AND EventDate > '{param:start-date}'
-		AND EventDate <= GETDATE()
+		--AND EventDate <= GETDATE();
+		AND EventDate <= @TEMPWithCovidEndDate
 		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 	ELSE 
 		INSERT INTO #CovidPatientsAllDiagnoses
@@ -60,7 +66,8 @@ BEGIN
 		)
 		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 		AND EventDate > '{param:start-date}'
-		AND EventDate <= GETDATE();
+		--AND EventDate <= GETDATE();
+		AND EventDate <= @TEMPWithCovidEndDate;
 END
 
 -- We can rely on the GraphNet table for first diagnosis.
@@ -85,6 +92,7 @@ BEGIN
 			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
 			AND Version = 1
 		)
+		AND EventDate <= @TEMPWithCovidEndDate
 		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 	ELSE 
 		INSERT INTO #AllPositiveTestsTemp
@@ -95,7 +103,8 @@ BEGIN
 			where Concept in ('covid-positive-antigen-test','covid-positive-pcr-test','covid-positive-test-other') 
 			AND Version = 1
 		)
-		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+		AND EventDate <= @TEMPWithCovidEndDate;
 END
 
 IF OBJECT_ID('tempdb..#CovidPatientsMultipleDiagnoses') IS NOT NULL DROP TABLE #CovidPatientsMultipleDiagnoses;

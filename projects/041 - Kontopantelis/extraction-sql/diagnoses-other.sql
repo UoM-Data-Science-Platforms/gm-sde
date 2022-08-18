@@ -500,18 +500,25 @@ INTO #E2Temp
 FROM #EGFR_TESTS E1
   INNER JOIN #EGFR_TESTS E2 ON
     E1.FK_Patient_Link_ID = E2.FK_Patient_Link_ID AND
-    E1.EventDate < E2.EventDate AND
-    E2.EventDate < DATEADD(month, 3, E1.EventDate)
+    E1.EventDate < E2.EventDate 
 WHERE TRY_CONVERT(NUMERIC, E1.Value) < 60 AND TRY_CONVERT(NUMERIC, E2.Value) >= 60
 GROUP BY E1.FK_Patient_Link_ID, E1.EventDate;
 
--- We want everyone in the first table UNLESS they have a healthy egfr in between
+-- We want everyone in the first table REGARDLESS of whether they have a healthy EGFR in between their <60 results
 IF OBJECT_ID('tempdb..#EGFR_cohort') IS NOT NULL DROP TABLE #EGFR_cohort
 SELECT DISTINCT E1.FK_Patient_Link_ID
 INTO #EGFR_cohort
 FROM #E1Temp E1
+--LEFT OUTER JOIN #E2Temp E2 ON E1.FK_Patient_Link_ID = E2.FK_Patient_Link_ID AND E1.EventDate = E2.EventDate
+--WHERE FirstOkDatePostValue IS NULL OR FirstOkDatePostValue > FirstLowDatePost3Months;
+
+-- Create table of patients who have a healthy EGFR in between their <60 results - this will be used to create a flag for these patients
+IF OBJECT_ID('tempdb..#EGFR_HealthyResultInbetween') IS NOT NULL DROP TABLE #EGFR_HealthyResultInbetween
+SELECT DISTINCT E1.FK_Patient_Link_ID
+INTO #EGFR_HealthyResultInbetween
+FROM #E1Temp E1
 LEFT OUTER JOIN #E2Temp E2 ON E1.FK_Patient_Link_ID = E2.FK_Patient_Link_ID AND E1.EventDate = E2.EventDate
-WHERE FirstOkDatePostValue IS NULL OR FirstOkDatePostValue > FirstLowDatePost3Months;
+WHERE FirstOkDatePostValue < FirstLowDatePost3Months;
 
 --------------- Same as above but for: "ACR > 3mg/mmol lasting for at least 3 months” ---------------------
 
@@ -534,18 +541,25 @@ INTO #A2Temp
 FROM #ACR_TESTS A1
   INNER JOIN #ACR_TESTS A2 ON
     A1.FK_Patient_Link_ID = A2.FK_Patient_Link_ID AND
-    A1.EventDate < A2.EventDate AND
-    A2.EventDate < DATEADD(month, 3, A1.EventDate)
+    A1.EventDate < A2.EventDate 
 WHERE TRY_CONVERT(NUMERIC, A1.Value) >= 3 AND TRY_CONVERT(NUMERIC, A2.Value) < 3
 GROUP BY A1.FK_Patient_Link_ID, A1.EventDate;
 
--- We want everyone in the first table UNLESS they have a healthy ACR in between
+-- We want everyone in the first table REGARDLESS of whether they have a healthy ACR in between their >3 results
 IF OBJECT_ID('tempdb..#ACR_cohort') IS NOT NULL DROP TABLE #ACR_cohort
 SELECT DISTINCT A1.FK_Patient_Link_ID
 INTO #ACR_cohort
 FROM #A1Temp A1
+--LEFT OUTER JOIN #A2Temp A2 ON A1.FK_Patient_Link_ID = A2.FK_Patient_Link_ID AND A1.EventDate = A2.EventDate
+--WHERE FirstOkDatePostValue IS NULL OR FirstOkDatePostValue > FirstLowDatePost3Months;
+
+-- Create table of patients who have a healthy ACR in between their >3 results - this will be used to create a flag for these patients
+IF OBJECT_ID('tempdb..#ACR_HealthyResultInbetween') IS NOT NULL DROP TABLE #ACR_HealthyResultInbetween
+SELECT DISTINCT A1.FK_Patient_Link_ID
+INTO #ACR_HealthyResultInbetween
+FROM #A1Temp A1
 LEFT OUTER JOIN #A2Temp A2 ON A1.FK_Patient_Link_ID = A2.FK_Patient_Link_ID AND A1.EventDate = A2.EventDate
-WHERE FirstOkDatePostValue IS NULL OR FirstOkDatePostValue > FirstLowDatePost3Months;
+WHERE FirstOkDatePostValue < FirstLowDatePost3Months;
 
 
 -- CREATE TABLE OF PATIENTS THAT HAVE A HISTORY OF KIDNEY DAMAGE (TO BE USED AS EXTRA CRITERIA FOR EGFRs INDICATING CKD STAGE 1 AND 2)
@@ -667,7 +681,9 @@ SELECT p.FK_Patient_Link_ID,
 		EvidenceOfCKD_combo = CASE WHEN (p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #EGFR_TESTS where [Value] >= 60) -- egfr indicating stage 1 or 2, with ACR evidence or kidney damage
 				AND ((p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #ACR_cohort)) 
 					OR p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #kidney_damage)))						THEN 1 ELSE 0 END,
-		EvidenceOfCKD_acr = CASE WHEN p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #ACR_cohort) 		THEN 1 ELSE 0 END -- ACR evidence
+		EvidenceOfCKD_acr = CASE WHEN p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #ACR_cohort) 		THEN 1 ELSE 0 END, -- ACR evidence
+		HealthyEgfrResult = CASE WHEN p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #EGFR_HealthyResultInbetween) THEN 1 ELSE 0 END,
+		HealthyAcrResult = CASE WHEN p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #ACR_HealthyResultInbetween) THEN 1 ELSE 0 END
 INTO #Cohort
 FROM #Patients p
 LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient_Link_ID

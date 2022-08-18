@@ -61,6 +61,7 @@ WHERE (
     FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes-type-i') AND Version = 1)
 	)
 	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+	AND EventDate <= @StartDate
 
 -- FIND EARLIEST DIAGNOSIS OF TYPE 1 DIABETES FOR EACH PATIENT
 
@@ -84,6 +85,7 @@ WHERE (
     FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes-type-ii') AND Version = 1)
 	)
 	AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+	AND EventDate <= @StartDate
 
 -- FIND EARLIEST DIAGNOSIS OF TYPE 2 DIABETES FOR EACH PATIENT
 
@@ -131,7 +133,8 @@ SELECT
   [Value]
 INTO #PatientEventData
 FROM [RLS].vw_GP_Events
-WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort);
+WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
+	AND EventDate < '2022-06-01';
 
 
 --> EXECUTE query-patients-with-covid.sql start-date:2020-01-01 gp-events-table:#PatientEventData all-patients:false

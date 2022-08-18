@@ -45,23 +45,3 @@ L227z00	High head at term NOS
 9mK2.00	Pertussis vaccination in pregnancy invitation third letter
 9NFV.00	Health visitor antenatal visit
 4H43.12	Sphingomyelin -amniotic
-62N..00	Antenatal examinations
-62NJ.	Antenatal 22 week examination
-62NK.	Antenatal 25 week examination
-62NZ.00	Antenatal examination NOS
-9k...00	Enhanced services administration
-9kr..	Subdermal etonogestrel implant insertion enhanced services administration
-9ks..	Complex skin ulcer care enhanced services administration
-9ku..	Severe mental illness enhanced services administration
-9kw..	Care home enhanced services administration
-9kx..	24 hour electrocardiogram enhanced services administration
-9ky..	Remote care monitoring enhanced services administration
-9NF..00	Home visit admin
-9NFa.	Home visit request by district nurse
-9NFX.00	Health visitor child 6 weeks of age contact
-9NFY.00	Health visitor child 9-12 month contact
-9NFZ.00	Home visit admin NOS
-L22..00	Malposition and malpresentation of fetus
-L221100	Cephalic version NOS - delivered
-L221200	Cephalic version NOS with antenatal problem
-L227000	High head at term unspecified

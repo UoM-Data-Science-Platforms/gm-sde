@@ -18,7 +18,7 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 --> CODESET pregnancy-preterm:1 pregnancy-postterm:1 pregnancy-third-trimester:1
---> CODESET pregnancy-antenatal:1 pregnancy-lmp:1 pregnancy-delivery:1 pregnancy-postnatal-8wk:1 pregnancy-stillbirth:1
+--> CODESET pregnancy-antenatal:1 pregnancy-postdel-antenatal:1 pregnancy-lmp:1 pregnancy-edc:1 pregnancy-edd:1 pregnancy-delivery:1 pregnancy-postnatal-8wk:1 pregnancy-stillbirth:1
 --> CODESET pregnancy-multiple:1 pregnancy-ectopic:1 pregnancy-miscarriage:1 pregnancy-top:1 pregnancy-top-probable:1 pregnancy-molar:1 pregnancy-blighted-ovum:1
 --> CODESET pregnancy-loss-unspecified:1 pregnancy-postnatal-other:1 pregnancy-late-preg:1 pregnancy-preg-related:1
 

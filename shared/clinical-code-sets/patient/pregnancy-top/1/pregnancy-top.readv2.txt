@@ -146,20 +146,3 @@ Lyu0700	[X]Oth+unspcf failed inducd abortn,wth oth+unspcf complicatn
 Lyu0800	[X]Other+unspcf failed induced abortion,without complication
 7F09.00	Destruction of fetus
 7F09z00	Unspecified destruction of fetus
-67760	Post-termination counselling
-7E08300	Extraction of menses
-7E08600	Termination of pregnancy NEC
-9Ea1.00	To prevent grave permanent injury to the physical/mental health of pregnant woman
-9Ea2.00	Less than 24 weeks involving risk of injury to the physical/mental health of pregnant woman
-9Ea3.00	Less than 24 weeks involving risk of injury to the physical/mental health of any existing children of the pregnant woman's family
-9Ea4.00	Unborn child at risk from physical or mental abnormalities as to be seriously handicapped
-L09yz00	Other specified complication NOS follow abortive pregnancy
-Lyu0900	[X]Other venous complications following abortion and ectopic and molar pregnancy
-Lyu0A00	[X]Other complications following abortion and ectopic and molar pregnancy
-Lyu0B00	[X]Complication following abortion and ectopic and molar pregnancy, unspecified
-Q01..00	Fetus or neonate affected by maternal complication of pregnancy
-Q018.00	Fetus or neonate affected by maternal postnatal depression
-Q01y.00	Fetus or neonate affected by other maternal complication of pregnancy
-Q01z.00	Fetus or neonate affected by maternal complication of pregnancy NOS
-Qyu0.00	[X]Fetus and newborn affected by maternal factors and by complications of pregnancy, labour and delivery
-Qyu0300	[X]Fetus and newborn affected by other maternal complications of pregnancy

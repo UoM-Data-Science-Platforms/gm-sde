@@ -33,8 +33,3 @@ L281200	Premature rupture of membranes with antenatal problem
 L227z00	High head at term NOS
 L143000	Premature labour without delivery
 Z246500	Time vaginal show detected
-L142.00	Early onset of delivery
-L142000	Early onset of delivery unspecified
-L142z	Early onset of delivery NOS
-L142z00	Early onset of delivery NOS
-L227000	High head at term unspecified
