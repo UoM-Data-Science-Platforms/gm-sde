@@ -124,7 +124,6 @@ LEFT OUTER JOIN #PatientPracticeAndCCG prac ON prac.FK_Patient_Link_ID = p.FK_Pa
 LEFT OUTER JOIN #GPExitDates gpex ON gpex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE 
-	YEAR(@StartDate) - YearOfBirth BETWEEN 14 AND 49 -- OVER 18s ONLY
-	--AND Sex = 'F' -- CHECK WHETHER NULLS OCCUR --------
+	YEAR(@StartDate) - YearOfBirth BETWEEN 14 AND 49 -- EXTRA CHECK FOR OVER 18s ONLY
 	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 --320,594
