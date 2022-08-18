@@ -8,7 +8,7 @@ Code list from supplementary material for this paper: https://onlinelibrary.wile
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.59% - 0.89%` suggests that this code set is well defined.
 
-NOTE: Use the IDs rather than codes for this code set. One of the codes (635..) seems to relate to any stage of maturity, not just pre-term
+NOTE: Use the IDs rather than codes for this code set. One of the codes (635..) seems to relate to any stage of maturity, not just pre-term, but the IDs for each specific stage are unique.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
