@@ -23,7 +23,13 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
---> CODESET insert-concepts-here:version-number
+--> CODESET efi-activity-limitation:1 efi-anaemia:1 efi-arthritis:1 efi-atrial-fibrillation:1 efi-chd:1 efi-ckd:1
+--> CODESET efi-diabetes:1 efi-dizziness:1 efi-dyspnoea:1 efi-falls:1 efi-foot-problems:1 efi-fragility-fracture:1
+--> CODESET efi-hearing-loss:1 efi-heart-failure:1 efi-heart-valve-disease:1 efi-housebound:1 efi-hypertension:1
+--> CODESET efi-hypotension:1 efi-cognitive-problems:1 efi-mobility-problems:1 efi-osteoporosis:1
+--> CODESET efi-parkinsons:1 efi-peptic-ulcer:1 efi-pvd:1 efi-care-requirement:1 efi-respiratory-disease:1
+--> CODESET efi-skin-ulcer:1 efi-sleep-disturbance:1 efi-social-vulnerability:1 efi-stroke-tia:1 efi-thyroid-disorders:1
+--> CODESET efi-urinary-incontinence:1 efi-urinary-system-disease:1 efi-vision-problems:1 efi-weight-loss:1 
 
 --TODO doing stuff with CTV3 and Term codes - perhaps need to allow the CTV3 codes in 
 --the code sets to have 10 characters - 5 is the equivalent of the root readv2 code
