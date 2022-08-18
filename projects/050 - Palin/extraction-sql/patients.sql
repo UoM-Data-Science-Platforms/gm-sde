@@ -2,6 +2,10 @@
 --│ Generate the patient file for RQ050│
 --└────────────────────────────────────┘
 
+----- RESEARCH DATA ENGINEER CHECK ------
+-- 18th August 2022 - Richard Williams --
+-----------------------------------------
+
 -- INCLUSION: Women aged 14 - 59 who have had a pregnancy during the study period (March 2012 - March 2022)
 
 -- OUTPUT: Data with the following fields
@@ -34,7 +38,7 @@ SET NOCOUNT ON;
 -- Find all patients alive at start date
 IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
 SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
-WHERE (DeathDate IS NULL OR DeathDate >= @StartDate);
+WHERE (DeathDate IS NULL OR (DeathDate >= @StartDate AND DeathDate <= '2022-06-01'));
 
 -- Find all patients registered with a GP
 IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
@@ -1655,7 +1659,6 @@ LEFT OUTER JOIN #PatientPracticeAndCCG prac ON prac.FK_Patient_Link_ID = p.FK_Pa
 LEFT OUTER JOIN #GPExitDates gpex ON gpex.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 LEFT OUTER JOIN #COVIDDeath cd ON cd.FK_Patient_Link_ID = p.FK_Patient_Link_ID
 WHERE 
-	YEAR(@StartDate) - YearOfBirth BETWEEN 14 AND 49 -- OVER 18s ONLY
-	--AND Sex = 'F' -- CHECK WHETHER NULLS OCCUR --------
+	YEAR(@StartDate) - YearOfBirth BETWEEN 14 AND 49 -- EXTRA CHECK FOR OVER 18s ONLY
 	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Cohort)
 --320,594

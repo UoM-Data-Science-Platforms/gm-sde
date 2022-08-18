@@ -2,10 +2,9 @@
 --│ Maternity-related codes					     │
 --└──────────────────────────────────────────────┘
 
------------- RESEARCH DATA ENGINEER CHECK ------------
-
-------------------------------------------------------
-
+----- RESEARCH DATA ENGINEER CHECK ------
+-- 18th August 2022 - Richard Williams --
+-----------------------------------------
 
 -- Set the start date
 DECLARE @StartDate datetime;

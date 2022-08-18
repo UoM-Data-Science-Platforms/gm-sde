@@ -2,6 +2,10 @@
 --│ Generate the patient file for RQ050│
 --└────────────────────────────────────┘
 
+----- RESEARCH DATA ENGINEER CHECK ------
+-- 18th August 2022 - Richard Williams --
+-----------------------------------------
+
 -- INCLUSION: Women aged 14 - 59 who have had a pregnancy during the study period (March 2012 - March 2022)
 
 -- OUTPUT: Data with the following fields
@@ -34,7 +38,7 @@ SET NOCOUNT ON;
 -- Find all patients alive at start date
 IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
 SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
-WHERE (DeathDate IS NULL OR DeathDate >= @StartDate);
+WHERE (DeathDate IS NULL OR (DeathDate >= @StartDate AND DeathDate <= '2022-06-01'));
 
 -- Find all patients registered with a GP
 IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
