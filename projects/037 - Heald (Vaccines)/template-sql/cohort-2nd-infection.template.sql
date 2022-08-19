@@ -35,6 +35,10 @@
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
+-- Set the temp end date until new legal basis
+DECLARE @TEMPRQ037EndDate datetime;
+SET @TEMPRQ037EndDate = '2022-06-01';
+
 -- Set the start date
 DECLARE @StartDate datetime;
 SET @StartDate = '2020-01-01';
@@ -46,6 +50,16 @@ SET @MedicationsFromDate = DATEADD(month, -6, @StartDate);
 -- Only need bp/bmi etc if in 2 years prior to COVID test
 DECLARE @EventsFromDate datetime;
 SET @EventsFromDate = DATEADD(year, -2, @StartDate);
+
+-- Only include patients who were first registered at a GP practice prior
+-- to June 2022. This is 1 month before COPI expired and so acts as a buffer.
+-- If we only looked at patients who first registered before July 2022, then
+-- there is a chance that their data was processed after COPI expired.
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM SharedCare.Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < '2022-06-01';
 
 -- First get all the diabetic (type 1/type 2/other) patients and the date of first diagnosis
 --> CODESET diabetes:1
@@ -168,6 +182,7 @@ SELECT
 INTO #PatientEventData
 FROM [RLS].vw_GP_Events
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientIdsAndIndexDates)
+AND EventDate < @TEMPRQ037EndDate
 AND UPPER([Value]) NOT LIKE '%[A-Z]%'; -- ignore any upper case values
 
 IF OBJECT_ID('tempdb..#PatientMedicationData') IS NOT NULL DROP TABLE #PatientMedicationData;
@@ -180,6 +195,7 @@ SELECT
 INTO #PatientMedicationData
 FROM [RLS].vw_GP_Medications
 WHERE FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientIdsAndIndexDates)
+AND MedicationDate < @TEMPRQ037EndDate
 AND MedicationDate >= @MedicationsFromDate;
 
 --> EXECUTE query-patient-smoking-status.sql gp-events-table:#PatientEventData
