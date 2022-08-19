@@ -559,6 +559,8 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes') AND [Version]=1)
 )
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
+AND EventDate < @TEMPRQ037EndDate
 GROUP BY FK_Patient_Link_ID;
 
 -- Get separate cohorts for paients with type 1 diabetes and type 2 diabetes
@@ -570,6 +572,8 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes-type-i') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes-type-i') AND [Version]=1)
 )
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
+AND EventDate < @TEMPRQ037EndDate
 GROUP BY FK_Patient_Link_ID;
 
 -- >>> Following code sets injected: diabetes-type-ii v1
@@ -580,6 +584,8 @@ WHERE (
 	FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept IN ('diabetes-type-ii') AND [Version]=1) OR
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept IN ('diabetes-type-ii') AND [Version]=1)
 )
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude)
+AND EventDate < @TEMPRQ037EndDate
 GROUP BY FK_Patient_Link_ID;
 
 -- Then get all the positive covid test patients
@@ -3020,7 +3026,8 @@ IF OBJECT_ID('tempdb..#COVIDDeath') IS NOT NULL DROP TABLE #COVIDDeath;
 SELECT DISTINCT FK_Patient_Link_ID 
 INTO #COVIDDeath FROM RLS.vw_COVID19
 WHERE DeathWithin28Days = 'Y'
-AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients);
+AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
+AND EventDate < @TEMPRQ037EndDate;
 
 -- Bring together for final output
 -- Patients in main cohort
@@ -3032,7 +3039,7 @@ SELECT
   m.FK_Patient_Link_ID AS PatientId,
   NULL AS MainCohortMatchedPatientId,
   YearOfBirth,
-  DeathDate,
+  CASE WHEN DeathDate < @TEMPRQ037EndDate THEN DeathDate ELSE NULL END AS DeathDate,
   CASE WHEN covidDeath.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS DeathWithin28DaysCovidPositiveTest,
   Sex,
   LSOA_Code AS LSOA,
@@ -3110,7 +3117,7 @@ SELECT
   m.FK_Patient_Link_ID AS PatientId,
   m.PatientWhoIsMatched AS MainCohortMatchedPatientId,
   MatchingYearOfBirth,
-  DeathDate,
+  CASE WHEN DeathDate < @TEMPRQ037EndDate THEN DeathDate ELSE NULL END AS DeathDate,
   CASE WHEN covidDeath.FK_Patient_Link_ID IS NULL THEN 'N' ELSE 'Y' END AS DeathWithin28DaysCovidPositiveTest,
   Sex,
   LSOA_Code AS LSOA,
