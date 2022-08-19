@@ -2461,7 +2461,7 @@ BEGIN
 		LEFT OUTER JOIN SharedCare.Reference_Tenancy t ON t.PK_Reference_Tenancy_ID = i.FK_Reference_Tenancy_ID
 		WHERE EventType = 'Admission'
 		AND AdmissionDate >= @StartDate
-		AND Administration <= @TEMPAdmissionsEndDate;
+		AND AdmissionDate <= @TEMPAdmissionsEndDate;
 	ELSE
 		INSERT INTO #Admissions
 		SELECT DISTINCT FK_Patient_Link_ID, CONVERT(DATE, AdmissionDate) AS AdmissionDate, t.TenancyName AS AcuteProvider
@@ -2470,7 +2470,7 @@ BEGIN
 		WHERE EventType = 'Admission'
 		AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #Patients)
 		AND AdmissionDate >= @StartDate
-		AND Administration <= @TEMPAdmissionsEndDate;
+		AND AdmissionDate <= @TEMPAdmissionsEndDate;
 END
 
 --┌──────────────────────┐
