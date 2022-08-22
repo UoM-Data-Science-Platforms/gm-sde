@@ -1,0 +1,184 @@
+﻿4K2..	Smear result - cervical
+4K21.	Cervical smear - inadequate specimen
+4K25.	Cervical smear - severe dyskaryosis ? invasive carcinoma
+4K26.	Cervical smear - ? glandular neoplasia
+4K27.	Cervical smear - atrophic changes
+4K3..	Cervical smear - inflammatory change
+4K31.	Cervical smear - no inflammation
+X76zx	Dyskaryosis on cervical smear
+XE277	Cervical smear result
+XE279	Cervical smear - mild dyskaryosis
+XE27A	Cervical smear - severe dyskaryosis
+XE27B	Cervical smear - moderate dyskaryosis
+XE27C	Cervical smear result NOS
+XM1C9	Dyskaryotic cervical smear
+XM1Vt	Viral changes on cervical smear
+XaagX	Cervical smear - human papillomavirus negative
+XaagY	Cervical smear - human papillomavirus positive
+4K32.	Cervical smear - severe inflammation
+4K33.	Cervical smear - trichomonas
+4K34.	Cervical smear - candida
+4K36.	Wart virus: cervical smear
+4K37.	Cervical smear - herpes
+4K38.	Cervical smear - actinomyces
+4K39.	Cervical smear - gardnerella
+4K3A.	Cervical smear - koilocytosis
+4K3Z.	Cervical smear - inflammation NOS
+X76zy	Dysplasia (dyskaryosis) on cervical smear
+XE27D	Cervical smear - viral inflammation unspecified
+XE27E	Cervical smear - wart virus
+XaClI	Cervical smear - mild inflammation
+XaClJ	Cervical smear - moderate inflammation
+XaaU7	Cervical smear - low grade dyskaryosis
+Xaafi	Cervical smear - high grade dyskaryosis (moderate)
+Xaafj	Cervical smear - high grade dyskaryosis (severe)
+Xaafk	Cervical smear - high grade dyskaryosis with features of invasive squamous carcinoma
+Xaafo	Cervical smear - features of endocervical type glandular neoplasia
+Xaafp	Cervical smear - features of non-cervical type glandular neoplasia
+9O84.	Cervical smear - call deleted
+XaBSM	Cervical smear status
+9O88.	Cervical smear - recall delete
+9O8Q.	Cervical smear disclaimer received
+9O8S.	Cervical smear defaulter
+XaKRa	Cervical smear to continue post hysterectomy
+XaKb9	Cervical smear - suspend recall
+XaKbV	No cervical smear required - no uterus
+XaKbW	Cervical smear every 12 months for life
+XaKuB	Cervical smear disclaimer sent
+XaQGE	Annual cervical smear required
+XaQic	Never had cervical smear
+4K4..	Cervical smear - action needed
+4K41.	Cervical smear: repeat after treatment
+4K49.	Cervical smear - cervical biopsy needed
+4K4A.	Cervical smear: uterine curettage needed
+4K4Z.	Cervical smear action NOS
+XM153	Cervical smear: action
+XaLql	Cervical smear repeat at 36 months
+XaLqm	Cervical smear repeat at 60 months
+XaYWm	Cervical smear repeat at 48 months
+XaaMr	Cervical smear repeat at 24 months
+9O8T.	Cervical smear slide lost in transit
+9O8U.	Cervical smear slide broken in transit
+9O8Z.	Cervical smear admin. NOS
+XaIR2	Place cervical smear taken
+XaMJR	Cervical smear screening first letter
+XaMJS	Cervical smear screening second letter
+XaMJT	Cervical smear screening third letter
+XaMJU	Cervical smear screening verbal invitation
+XaMJV	Cervical smear screening telephone invitation
+XaPgi	Cervical smear screening appointment reminder
+9O81.	Cervical smear - 1st call
+XaBSK	Cervical smear call
+9O82.	Cervical smear - 2nd call
+9O83.	Cervical smear - 3rd call
+XaZJJ	Cervical smear screening invitation text message
+XagMY	Cervical smear screening email invitation
+XaZJK	Cervical smear screening invitation first text message
+XaZJL	Cervical smear screening invitation second short message service text
+XaZJM	Cervical smear screening invitation third text message
+4K2A.	Cervical smear - endocervical cells present
+XaJcW	Cervical smear transformation zone cells present
+XaYc0	Cervical smear pus cells present
+XaYc1	Cervical smear red blood cells present
+685E.	Cervical smear status unknown
+685F.	Cervical smear due
+XaFs3	Cervical smear refused
+XaIRD	Cervical smear overdue
+9O85.	Cervical smear - 1st recall
+XaBSL	Cervical smear recall
+9O86.	Cervical smear - 2nd recall
+9O87.	Cervical smear - 3rd recall
+4K29.	Cervical smear - borderline changes
+XaaU5	Cervical smear - borderline change in squamous cells
+XaaU6	Cervical smear - borderline change in endocervical cells
+7E2A2	Cervical smear NEC (& Papanicolau)
+XM1Kg	Cervical smear NEC
+XaLQI	Cervical smear using spatula
+R1500	[D]Dyskaryotic cervical smear
+R1501	[D] Koilocytosis - cervical smear
+R150z	[D]Nonspecific abnormal Papanicolaou cervical smear NOS
+685..	Cervical neoplasia screening
+XaKTi	Liquid based cervical cytology screening
+XaCOf	Neoplasm screening excluding cervical
+4K2B.	Cervical smear - endocervical cells absent
+XaJcX	Cervical smear transformation zone cells absent
+981..	Cervical smear - fee claim
+XaBHn	Cervical smear - fee claim
+XE278	Cervical smear - negative
+XM1Ym	Cervical smear non-responder
+Xa05k	Cervical smear sample
+XaBYv	Cervical smear biopsy taken
+XaBj3	Abnormal cervical smear
+XaK29	Cervical smear not indicated
+XaLHO	Cervical smear information leaflet given
+XaLLO	Did not attend cervical smear
+XaLMV	Informed consent for cervical smear given
+XaYWX	Cervical smear test indicated but not done
+XaYeu	Cervical smear epithelial cells absent
+XaaZX	H/O abnormal cervical smear
+XabOR	Cervical smear report received
+XaMDf	Cervical cytology screening test
+XaZiD	Provision of information about cervical screening programme
+4K22.	Cervical smear - negative
+4K22.	Cervical smear: negative
+4K22.	Smear NAD - no endocervical cells
+4K22.	Smear NAD: no endocervic cells
+4K23.	Cerv.smear: mild dyskaryosis
+4K23.	Cervical smear - mild dyskaryosis
+4K24.	Cerv smear severe dyskaryosis: (& CIN III)
+4K24.	Cerv.smear: severe dyskaryosis
+4K24.	Cervical smear - severe dyskaryosis
+4K28.	Cerv.smear: mod.dyskaryosis
+4K28.	Cervical smear - moderate dyskaryosis
+4K2Z.	Cervical smear result NOS
+4K2Z.	Nuclear abnormality on smear
+4K35.	Cerv.smear - viral infl.unsp.
+4K35.	Viral changes on cerv. smear
+4K35.	Viral changes on cervical smear
+4K42.	Cx. smear: repeat 1 month
+4K42.	Cx. smear: repeat 1 month
+4K43.	Cx. smear: repeat 3 months
+4K43.	Cx. smear: repeat 3 months
+4K44.	Cx. smear: repeat 4 months
+4K44.	Cx. smear: repeat 4 months
+4K45.	Cx. smear: repeat 6 months
+4K45.	Cx. smear: repeat 6 months
+4K46.	Cx. smear: repeat 9 months
+4K46.	Cx. smear: repeat 9 months
+4K47.	Cx. smear: repeat 12 months
+4K47.	Cx. smear: repeat 12 months
+4K48.	Cx. smear: colposcopy needed
+4K48.	Cx. smear: colposcopy needed
+6851.	Ca cervix screening - not offered
+6851.	Ca cervix screening - not offered
+6852.	Ca cervix screening - offered
+6852.	Ca cervix screening - offered
+6857.	Cervical smear non-responder
+6859.	Cervical cytology examination
+9O8..	Cervical cytology administration
+9O8..	Cervical smear screening administration
+9O8..	Cervical smear screening administration
+R150.	[D]Cervical smear - nonspecific abnormality
+R150.	[D]Nonspecific abnormal Papanicolaou cervical smear
+R150.	[D]Nonspecific abnormal Papanicolaou cervical smear
+R150.	[D]Papanicolaou smear - nonspecific abnormality
+R151.	[D]Nonspecific abnormal Papanicolaou smear of other origin
+R151.	[D]Nonspecific abnormal Papanicolaou smear of other origin
+Xa1di	Smear NAD - no endocervical cells
+Xa1di	Smear NAD - no endocervical cells
+Xa8Pl	Cervical smear
+XE078	Papanicolau smear NEC
+XE078	Papanicolau smear NEC
+XE2Ao	Cerv. smear: action
+XE2Ao	Cervical smear - action needed
+XE2Ao	Cervical smear action &/or needed
+XE2Ao	Cervical smear action &/or needed
+XE2Ao	Smear, cerv.: action
+XE2JY	FP74 - cervical cytology claim
+XE2JY	FP74 - cervical cytology claim
+XM1Vr	Nuclear abnormality on smear
+XM1Vr	Nuclear abnormality on smear
+ZV762	[V]Routine cervical smear
+ZV762	[V]Screening for malignant neoplasm of cervix
+XaKd4	Cervical cytology test
+XaKd4	Cervical cytology test

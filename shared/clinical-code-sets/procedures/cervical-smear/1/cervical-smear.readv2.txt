@@ -1,0 +1,154 @@
+﻿4K4..00	Cervical smear - action needed
+4K4Z.00	Cervical smear action NOS
+4K4E.00	Cervical smear repeat at 24 months
+4K4D.00	Cervical smear repeat at 48 months
+4K4C.00	Cervical smear repeat at 60 months
+4K4B.00	Cervical smear repeat at 36 months
+4K49.00	Cx. smear:cervical biopsy need
+4K3..00	Cervical smear - inflam.change
+4K3Z.00	Cervical smear - inflam. NOS
+4K3C.00	Cervical smear - moderate inflammation
+4K3B.00	Cervical smear - mild inflammation
+4K3A.00	Cervical smear: koilocytosis
+4K39.00	Cervical smear - gardnerella
+4K38.00	Cervical smear - actinomyces
+4K37.00	Cervical smear - herpes
+4K36.11	Herpes: cervical smear
+4K36.12	HPV changes: cervical smear
+4K36.00	Cervical smear - wart virus
+4K34.00	Cervical smear - candida
+4K33.00	Cervical smear - trichomonas
+4K32.00	Cervical smear-severe inflamm.
+4K31.00	Cervical smear-no inflammation
+4K2..00	Cervical smear result
+4K2..11	Dyskaryosis on cervical smear
+4K2R.00	Cervical smear - human papillomavirus positive
+4K2Q.00	Cervical smear - human papillomavirus negative
+4K2P.00	Cervical smear - features of non-cervical type glandular neoplasia
+4K2N.00	Cervical smear - features of endocervical type glandular neoplasia
+4K2M.00	Cervical smear - high grade dyskaryosis with features of invasive squamous carcinoma
+4K2L.00	Cervical smear - high grade dyskaryosis (severe)
+4K2K.00	Cervical smear - high grade dyskaryosis (moderate)
+4K2J.00	Cervical smear - low grade dyskaryosis
+4K2H.00	Cervical smear epithelial cells absent
+4K2G.00	Cervical smear red blood cells present
+4K2F.00	Cervical smear pus cells present
+4K2E.00	Cervical smear transformation zone cells absent
+4K2D.00	Cervical smear transformation zone cells present
+4K2B.00	Cervical smear endocervical cells absent
+4K2A.00	Cervical smear endocervical cells present
+4K26.00	Cervical smear: ? gland neopl.
+4K21.00	Cervical smear:inadequate spec
+4K2Z.00	Cervical smear result NOS
+4K29100	Cervical smear - borderline change in endocervical cells
+4K29000	Cervical smear - borderline change in squamous cells
+4K27.00	Cervical smear:atrophic change
+4K22.00	Cervical smear: negative
+9O8..00	Cervical smear screen admin.
+9O8k.00	Cervical smear screening invitation short message service text
+9O8k200	Cervical smear screening invitation third short message service text
+9O8k100	Cervical smear screening invitation second short message service text
+9O8k000	Cervical smear screening invitation first short message service text
+9O8j.00	Never had cervical smear
+9O8i.00	Annual cervical smear required
+9O8h.00	Cervical smear screening appointment reminder
+9O8g.00	Cervical smear screening telephone invitation
+9O8f.00	Cervical smear screening verbal invitation
+9O8e.00	Cervical smear screening third letter
+9O8d.00	Cervical smear screening second letter
+9O8c.00	Cervical smear screening first letter
+9O8b.00	Cervical smear disclaimer sent
+9O8a.00	Cervical smear every 12 months for life
+9O8Z.00	Cervical smear admin. NOS
+9O8X.00	Cervical smear - suspend recall
+9O8W.00	Cervical smear to continue post hysterectomy
+9O8V.00	Place cervical smear taken
+9O8U.00	Cervical smear slide broken in transit
+9O8T.00	Cervical smear slide lost in transit
+9O8S.00	Cervical smear defaulter
+9O88.00	Cervical smear - recall delete
+9O87.00	Cervical smear - 3rd recall
+9O86.00	Cervical smear - 2nd recall
+9O85.00	Cervical smear - 1st recall
+9O84.00	Cervical smear - call deleted
+9O83.00	Cervical smear - 3rd call
+9O82.00	Cervical smear - 2nd call
+9O81.00	Cervical smear - 1st call
+685..00	Cervical neoplasia screening
+685..12	Cervical smear screen
+685M.00	Cervical smear overdue
+685L.00	Cervical smear refused
+685F.00	Cervical smear due
+685E.00	Cervical smear status unknown
+685R.00	Liquid based cervical cytology screening
+6857.11	Cervical smear non-responder
+R150.11	[D]Cervical smear - nonspecific abnormality
+R150.00	[D]Nonspecific abnormal Papanicolaou cervical smear
+R150z00	[D]Nonspecific abnormal Papanicolaou cervical smear NOS
+R150100	[D] Koilocytosis - cervical smear
+R150000	[D]Dyskaryotic cervical smear
+7E2A211	Cervical smear NEC
+981..11	Cervical smear - fee claim
+ZV76212	[V]Routine cervical smear
+14l..00	H/O abnormal cervical smear
+8CEA.00	Cervical smear information leaflet given
+8I6K.00	Cervical smear not indicated
+9EVC.00	Cervical smear report received
+9Ndx.00	Informed consent for cervical smear given
+4JRL.00	Cervical cytology screening test
+67DA.00	Provision of information about cervical screening programme
+4K23.00	Cerv.smear: mild dyskaryosis
+4K24.00	Cerv.smear: severe dyskaryosis
+4K25.	Cerv.smear:severe dysk.?inv.ca
+4K25.00	Cerv.smear:severe dysk.?inv.ca
+4K28.00	Cerv.smear: mod.dyskaryosis
+4K29.	Cerv.smear: borderline changes
+4K29.00	Cerv.smear: borderline changes
+4K2C.	Smear NAD - no endocervical cells
+4K2C.00	Smear NAD - no endocervical cells
+4K35.00	Cerv.smear - viral infl.unsp.
+4K35.11	Viral changes on cerv. smear
+4K41.	Cx. smear: repeat after treat.
+4K41.00	Cx. smear: repeat after treat.
+4K42.	Cx. smear: repeat 1 month
+4K42.00	Cx. smear: repeat 1 month
+4K43.	Cx. smear: repeat 3 months
+4K43.00	Cx. smear: repeat 3 months
+4K44.	Cx. smear: repeat 4 months
+4K44.00	Cx. smear: repeat 4 months
+4K45.	Cx. smear: repeat 6 months
+4K45.00	Cx. smear: repeat 6 months
+4K46.	Cx. smear: repeat 9 months
+4K46.00	Cx. smear: repeat 9 months
+4K47.	Cx. smear: repeat 12 months
+4K47.00	Cx. smear: repeat 12 months
+4K48.	Cx. smear: colposcopy needed
+4K48.00	Cx. smear: colposcopy needed
+4K4A.	Cx. smear: uterine curet. need
+4K4A.00	Cx. smear: uterine curet. need
+6852.	Ca cervix screen - offered
+6852.00	Ca cervix screen - offered
+6859.11	Cervical cytology examination
+9O8Q.	Cerv.smear disclaimer received
+9O8Q.00	Cerv.smear disclaimer received
+R151.	[D]Nonspecific abnormal Papanicolaou smear of other origin
+R151.00	[D]Nonspecific abnormal Papanicolaou smear of other origin
+4K23.00	Cerv.smear: mild dyskaryosis
+4K24.00	Cerv.smear: severe dyskaryosis
+4K28.00	Cerv.smear: mod.dyskaryosis
+4K35.00	Cerv.smear - viral infl.unsp.
+4K35.11	Viral changes on cerv. smear
+4K55.	Cervical cytology test
+6859.11	Cervical cytology examination
+4K23.00	Cerv.smear: mild dyskaryosis
+4K24.00	Cerv.smear: severe dyskaryosis
+4K28.00	Cerv.smear: mod.dyskaryosis
+4K35.00	Cerv.smear - viral infl.unsp.
+4K35.11	Viral changes on cerv. smear
+6859.11	Cervical cytology examination
+4K23.00	Cerv.smear: mild dyskaryosis
+4K24.00	Cerv.smear: severe dyskaryosis
+4K28.00	Cerv.smear: mod.dyskaryosis
+4K35.00	Cerv.smear - viral infl.unsp.
+4K35.11	Viral changes on cerv. smear
+6859.11	Cervical cytology examination
