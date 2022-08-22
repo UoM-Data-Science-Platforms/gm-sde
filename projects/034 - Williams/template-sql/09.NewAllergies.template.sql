@@ -26,10 +26,7 @@ IF OBJECT_ID('tempdb..#AllergyAll') IS NOT NULL DROP TABLE #AllergyAll;
 SELECT DISTINCT FK_Patient_Link_ID, TRY_CONVERT(DATE, EventDate) AS EventDate, FK_Reference_Coding_ID
 INTO #AllergyAll
 FROM [RLS].[vw_GP_Events]
-WHERE (
-  FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'allergy' AND Version = 1) OR
-  FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'allergy' AND Version = 1)
-);
+WHERE (SuppliedCode IN (SELECT Code FROM #AllCodes WHERE (Concept = 'allergy' AND [Version] = 1)));
 
 -- Create the table of new allergy code=============================================================================================================
 SELECT FK_Patient_Link_ID AS PatientId, MIN(EventDate) AS Date
