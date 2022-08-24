@@ -91,7 +91,6 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 
 -- OUTPUT: #Patients
 
-
 -- >>> Codesets required... Inserting the code set code
 --
 --┌────────────────────┐
