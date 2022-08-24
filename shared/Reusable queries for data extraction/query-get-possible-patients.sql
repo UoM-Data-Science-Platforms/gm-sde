@@ -2,7 +2,7 @@
 --│ Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards  │
 --└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 
--- INPUT REQUIREMENTS: None
+-- INPUT REQUIREMENTS: @StartDate
 
 DECLARE @TempEndDate datetime;
 SET @TempEndDate = '2022-06-01'; -- THIS TEMP END DATE IS DUE TO THE POST-COPI GOVERNANCE REQUIREMENTS 
