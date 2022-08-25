@@ -295,7 +295,7 @@ SELECT
   SUM(CASE WHEN fac.FK_Patient_Link_ID IS NOT NULL AND p.Year - yob.YearOfBirth >=6 THEN 1 ELSE 0 END) AS NumberAnxietyEpisodes,
   SUM(CASE WHEN fdfl.FK_Patient_Link_ID IS NOT NULL AND p.Year - yob.YearOfBirth >=6 THEN 1 ELSE 0 END) AS NumberFirstRecordedDepressionAll,
   SUM(CASE WHEN fdfl2019.FK_Patient_Link_ID IS NOT NULL AND p.Year - yob.YearOfBirth >=6 THEN 1 ELSE 0 END) AS NumberFirstRecordedDepression2019,
-  SUM(CASE WHEN fdc.FK_Patient_Link_ID IS NOT NULL AND p.Year - yob.YearOfBirth >=6THEN 1 ELSE 0 END) AS NumberDepressionEpisodes,
+  SUM(CASE WHEN fdc.FK_Patient_Link_ID IS NOT NULL AND p.Year - yob.YearOfBirth >=6 THEN 1 ELSE 0 END) AS NumberDepressionEpisodes,
   SUM(CASE WHEN fefl.FK_Patient_Link_ID IS NOT NULL AND p.Year - yob.YearOfBirth >=6 THEN 1 ELSE 0 END) AS NumberFirstRecordedEatingDisordersAll,
   SUM(CASE WHEN fefl2019.FK_Patient_Link_ID IS NOT NULL AND p.Year - yob.YearOfBirth >=6 THEN 1 ELSE 0 END) AS NumberFirstRecordedAEatingDisorders2019,
   SUM(CASE WHEN fec.FK_Patient_Link_ID IS NOT NULL AND p.Year - yob.YearOfBirth >=6 THEN 1 ELSE 0 END) AS NumberEatingDisordersEpisodes,
