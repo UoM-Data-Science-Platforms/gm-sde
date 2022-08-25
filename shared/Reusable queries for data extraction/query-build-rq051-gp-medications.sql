@@ -1,5 +1,5 @@
 --+------------------------------------------------------------------------------------------------------------+
---¦ Create counting tables for each medications based on GPEvents table - RQ051                                ¦
+--ï¿½ Create counting tables for each medications based on GPMedications table - RQ051                                ï¿½
 --+------------------------------------------------------------------------------------------------------------+
 
 -- OBJECTIVE: To build the counting tables for each mental medications for RQ051. This reduces duplication of code in the template scripts.
@@ -14,6 +14,8 @@
 -- #First{param:medicationname}Counts
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
+--> CODESET {param:medication}:{param:version}
+
 -- Table for episode counts
 IF OBJECT_ID('tempdb..#First{param:medicationname}Counts') IS NOT NULL DROP TABLE #First{param:medicationname}Counts;
 SELECT DISTINCT FK_Patient_Link_ID, CAST(MedicationDate AS DATE) AS EpisodeDate  --DISTINCT + CAST to ensure only one episode per day per patient is counted
