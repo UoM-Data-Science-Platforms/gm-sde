@@ -17,21 +17,6 @@ SET @EndDate = '2022-01-01';
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
--- Find all patients alive at start date
-IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
-SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
-WHERE (DeathDate IS NULL OR DeathDate >= @StartDate);
-
--- Find all patients registered with a GP
-IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
-SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [RLS].vw_Patient
-where FK_Reference_Tenancy_ID = 2;
-
--- Make cohort from patients alive at start date and registered with a GP
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT pp.* INTO #Patients FROM #PossiblePatients pp
-INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
-
 ----------------------------------------
 --┌──────────────────────────┐
 --│ Define Cohort for RQ050  │
@@ -51,6 +36,42 @@ INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
 -- #PatientEventData
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+--│ Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards  │
+--└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+-- INPUT REQUIREMENTS: @StartDate
+
+DECLARE @TempEndDate datetime;
+SET @TempEndDate = '2022-06-01'; -- THIS TEMP END DATE IS DUE TO THE POST-COPI GOVERNANCE REQUIREMENTS 
+
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM RLS.vw_Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < @TempEndDate; -- ENSURES NO PATIENTS THAT ENTERED THE DATABASE FROM JUNE 2022 ONWARDS ARE INCLUDED
+
+-- Find all patients alive at start date
+IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
+SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
+WHERE 
+	(DeathDate IS NULL OR (DeathDate >= @StartDate AND DeathDate <= @TempEndDate))
+	AND PK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
+
+-- Find all patients registered with a GP
+IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
+SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [RLS].vw_Patient
+where FK_Reference_Tenancy_ID = 2;
+
+-- Make cohort from patients alive at start date and registered with a GP
+IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
+SELECT pp.* INTO #Patients FROM #PossiblePatients pp
+INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
+
+------------------------------------------
+
+-- OUTPUT: #Patients
 
 -- >>> Codesets required... Inserting the code set code
 --
@@ -580,12 +601,6 @@ sub ON sub.concept = c.concept AND c.version = sub.maxVersion;
 -- >>> Following code sets injected: pregnancy-multiple v1/pregnancy-ectopic v1/pregnancy-miscarriage v1/pregnancy-top v1/pregnancy-top-probable v1/pregnancy-molar v1/pregnancy-blighted-ovum v1
 -- >>> Following code sets injected: pregnancy-loss-unspecified v1/pregnancy-postnatal-other v1/pregnancy-late-preg v1/pregnancy-preg-related v1
 
-IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
-SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM RLS.vw_Patient_GP_History
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < '2022-06-01';
-
 -- table of all pregnancy codes within the study period
 
 IF OBJECT_ID('tempdb..#PregnancyPatientsGP') IS NOT NULL DROP TABLE #PregnancyPatientsGP;
@@ -859,7 +874,6 @@ LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = ph.FK_Patien
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = ph.FK_Patient_Link_ID
 WHERE YEAR(@StartDate) - YearOfBirth BETWEEN 14 AND 49 -- OVER 18s ONLY
 	AND Sex <> 'M'
-	AND ph.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) -- exclude new patients processed post-COPI notice
 
 UNION ALL 
 SELECT DISTINCT pp.FK_Patient_Link_ID, Sex, YearOfBirth
@@ -868,7 +882,6 @@ LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = pp.FK_Patien
 LEFT OUTER JOIN #PatientSex sex ON sex.FK_Patient_Link_ID = pp.FK_Patient_Link_ID
 WHERE YEAR(@StartDate) - YearOfBirth BETWEEN 14 AND 49 -- OVER 18s ONLY
 	AND Sex <> 'M'
-	AND pp.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) -- exclude new patients processed post-COPI notice
 
 
 -- TABLE OF GP EVENTS FOR COHORT TO SPEED UP REUSABLE QUERIES

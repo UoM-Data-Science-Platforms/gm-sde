@@ -48,6 +48,7 @@ This project required the following reusable queries:
 - Sex
 - Year of birth
 - Classify secondary admissions
+- Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards
 
 Further details for each query can be found below.
 
@@ -469,6 +470,23 @@ A temp table as follows:
 _File_: `query-classify-secondary-admissions.sql`
 
 _Link_: [https://github.com/rw251/.../query-classify-secondary-admissions.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-classify-secondary-admissions.sql)
+
+---
+### Create table of patients who are registered with a GM GP, and haven't joined the database from June 2022 onwards
+undefined
+
+_Input_
+```
+undefined
+```
+
+_Output_
+```
+undefined
+```
+_File_: `query-get-possible-patients.sql`
+
+_Link_: [https://github.com/rw251/.../query-get-possible-patients.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-get-possible-patients.sql)
 ## Clinical code sets
 
 This project required the following clinical code sets:
