@@ -41,7 +41,7 @@ The RDE has access to a library of resusable SQL queries for common tasks, and s
 Prior to data extraction, the code is checked and signed off by another RDE.
 
 ## Reusable queries
-
+  
 This project required the following reusable queries:
 
 - GET practice and ccg for each patient
@@ -54,11 +54,9 @@ This project required the following reusable queries:
 Further details for each query can be found below.
 
 ### GET practice and ccg for each patient
-
 For each patient to get the practice id that they are registered to, and the CCG name that the practice belongs to.
 
 _Input_
-
 ```
 Assumes there exists a temp table as follows:
  #Patients (FK_Patient_Link_ID)
@@ -66,7 +64,6 @@ Assumes there exists a temp table as follows:
 ```
 
 _Output_
-
 ```
 Two temp tables as follows:
  #PatientPractice (FK_Patient_Link_ID, GPPracticeCode)
@@ -77,40 +74,32 @@ Two temp tables as follows:
 	- GPPracticeCode - the nationally recognised practice id for the patient
 	- CCG - the name of the patient's CCG
 ```
-
 _File_: `query-patient-practice-and-ccg.sql`
 
 _Link_: [https://github.com/rw251/.../query-patient-practice-and-ccg.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-practice-and-ccg.sql)
 
 ---
-
 ### CCG lookup table
-
 To provide lookup table for CCG names. The GMCR provides the CCG id (e.g. '00T', '01G') but not the CCG name. This table can be used in other queries when the output is required to be a ccg name rather than an id.
 
 _Input_
-
 ```
 No pre-requisites
 ```
 
 _Output_
-
 ```
 A temp table as follows:
  #CCGLookup (CcgId, CcgName)
  	- CcgId - Nationally recognised ccg id
 	- CcgName - Bolton, Stockport etc..
 ```
-
 _File_: `query-ccg-lookup.sql`
 
 _Link_: [https://github.com/rw251/.../query-ccg-lookup.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-ccg-lookup.sql)
 
 ---
-
 ### Lower level super output area
-
 To get the LSOA for each patient.
 
 _Assumptions_
@@ -122,7 +111,6 @@ _Assumptions_
 - Otherwise the patient's LSOA is considered unknown
 
 _Input_
-
 ```
 Assumes there exists a temp table as follows:
  #Patients (FK_Patient_Link_ID)
@@ -130,22 +118,18 @@ Assumes there exists a temp table as follows:
 ```
 
 _Output_
-
 ```
 A temp table as follows:
  #PatientLSOA (FK_Patient_Link_ID, LSOA)
  	- FK_Patient_Link_ID - unique patient id
 	- LSOA_Code - nationally recognised LSOA identifier
 ```
-
 _File_: `query-patient-lsoa.sql`
 
 _Link_: [https://github.com/rw251/.../query-patient-lsoa.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-lsoa.sql)
 
 ---
-
 ### Sex
-
 To get the Sex for each patient.
 
 _Assumptions_
@@ -157,7 +141,6 @@ _Assumptions_
 - Otherwise the patient's sex is considered unknown
 
 _Input_
-
 ```
 Assumes there exists a temp table as follows:
  #Patients (FK_Patient_Link_ID)
@@ -165,22 +148,18 @@ Assumes there exists a temp table as follows:
 ```
 
 _Output_
-
 ```
 A temp table as follows:
  #PatientSex (FK_Patient_Link_ID, Sex)
  	- FK_Patient_Link_ID - unique patient id
 	- Sex - M/F
 ```
-
 _File_: `query-patient-sex.sql`
 
 _Link_: [https://github.com/rw251/.../query-patient-sex.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-sex.sql)
 
 ---
-
 ### Year of birth
-
 To get the year of birth for each patient.
 
 _Assumptions_
@@ -192,7 +171,6 @@ _Assumptions_
 - Otherwise we take the highest YOB for the patient that is not in the future
 
 _Input_
-
 ```
 Assumes there exists a temp table as follows:
  #Patients (FK_Patient_Link_ID)
@@ -200,22 +178,18 @@ Assumes there exists a temp table as follows:
 ```
 
 _Output_
-
 ```
 A temp table as follows:
  #PatientYearOfBirth (FK_Patient_Link_ID, YearOfBirth)
  	- FK_Patient_Link_ID - unique patient id
 	- YearOfBirth - INT
 ```
-
 _File_: `query-patient-year-of-birth.sql`
 
 _Link_: [https://github.com/rw251/.../query-patient-year-of-birth.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-year-of-birth.sql)
 
 ---
-
 ### Patient GP encounters
-
 To produce a table of GP encounters for a list of patients. This script uses many codes related to observations (e.g. blood pressure), symptoms, and diagnoses, to infer when GP encounters occured. This script includes face to face and telephone encounters - it will need copying and editing if you don't require both.
 
 _Assumptions_
@@ -223,7 +197,6 @@ _Assumptions_
 - multiple codes on the same day will be classed as one encounter (so max daily encounters per patient is 1)
 
 _Input_
-
 ```
 Assumes there exists a temp table as follows:
  #Patients (FK_Patient_Link_ID)
@@ -231,18 +204,15 @@ Assumes there exists a temp table as follows:
 ```
 
 _Output_
-
 ```
 A temp table as follows:
  #GPEncounters (FK_Patient_Link_ID, EncounterDate)
 	- FK_Patient_Link_ID - unique patient id
 	- EncounterDate - date the patient had a GP encounter
 ```
-
 _File_: `query-patient-gp-encounters.sql`
 
 _Link_: [https://github.com/rw251/.../query-patient-gp-encounters.sql](https://github.com/rw251/gm-idcr/tree/master/shared/Reusable%20queries%20for%20data%20extraction/query-patient-gp-encounters.sql)
-
 ## Clinical code sets
 
 This project required the following clinical code sets:
@@ -262,7 +232,6 @@ Further details for each code set can be found below.
 ### Dental problem
 
 Any code indicating a dental diagnosis or dental issue. This code set is likely only useful for RQ042 as it is not very specific and includes everything from dental diagnoses, to symptoms such as tooth ache, to issues with dental restoration work.
-
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `5.00% - 6.22%` when searching by ID and `6.04% - 6.96%` when searching by code, suggests that this code set is well defined.
@@ -278,7 +247,6 @@ LINK: [https://github.com/rw251/.../patient/dental-problem/1](https://github.com
 ### Antibacterial drugs
 
 A prescription of any antibacterial drug.
-
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range from the code is `72.0% - 78.9%` suggests that this code set is well defined.
@@ -294,7 +262,6 @@ LINK: [https://github.com/rw251/.../medications/antibacterial-drugs/1](https://g
 ### Non-opioid analgesics
 
 A prescription of any non-opioid analgesics.
-
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range from the code is `44.5% - 48.7%` suggests that this code set is well defined.
@@ -310,7 +277,6 @@ LINK: [https://github.com/rw251/.../medications/non-opioid-analgesics/1](https:/
 ### Opioid analgesics
 
 A prescription of any opioid analgesics.
-
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range from the code is `15.7% - 19.1%` suggests that this code set is well defined.
@@ -326,7 +292,6 @@ LINK: [https://github.com/rw251/.../medications/opioid-analgesics/1](https://git
 ### Benzodiazepines
 
 A prescription of any benzodiazepine.
-
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range from the code is `10.1% - 11.5%` suggests that this code set is well defined.
@@ -344,7 +309,6 @@ LINK: [https://github.com/rw251/.../medications/benzodiazepines/1](https://githu
 Any diagnosis of T1DM. A super set of the QOF business rule.
 
 Developed from https://getset.ga.
-
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `0.42% - 0.48%` suggests that this code set is well defined.
@@ -362,7 +326,6 @@ LINK: [https://github.com/rw251/.../conditions/diabetes-type-i/1](https://github
 Any diagnosis of T2DM. A super set of the QOF business rule. Includes "adult onset" diabetes, but DOES NOT include "maturity onset" diabetes.
 
 Developed from https://getset.ga.
-
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `5.06% - 5.20%` suggests that this code set is well defined.
@@ -376,7 +339,6 @@ By examining the prevalence of codes (number of patients with the code in their 
 LINK: [https://github.com/rw251/.../conditions/diabetes-type-ii/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/diabetes-type-ii/1)
 
 ### Cancer
-
 Readv2 codes from code sets published by in:
 
 Zhu Y, Edwards D, Mant J, Payne RA, Kiddle S. Characteristics, service use and mortality of clusters of multimorbid patients in England: A population-based study. BMC Med [Internet]. 2020 Apr 10 [cited 2021 Apr 14];18(1):78. Available from: https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01543-8
@@ -387,36 +349,33 @@ Barnett K, Mercer SW, Norbury M, Watt G, Wyke S, Guthrie B. Epidemiology of mult
 
 CTV3 and SNOMED code sets from OpenSafely.
 
-ICD10 codes have been provided and verified by the Christie team (004).
-
+ICD10 codes have been provided and verified by the Christie team (004). 
 #### Prevalence log
-
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set, as of 19th July 2021.
 
-| Concept | Version | System | Patients | PatientsWithConcept | PatientsWithConceptFromCode | PercentageOfPatients | PercentageOfPatientsFromCode |
-| :-----: | :-----: | :----: | :------: | :-----------------: | :-------------------------: | :------------------: | :--------------------------: |
-| cancer  |    1    |  EMIS  | 2615750  |       118723        |            78901            |   4.53877473000096   |       3.01638153493262       |
-| cancer  |    1    |  TPP   |  211345  |        9607         |            7280             |   4.5456481109087    |       3.44460479311079       |
-| cancer  |    1    | Vision |  336528  |        16642        |            11427            |   4.94520515380592   |       3.39555698188561       |
+| Concept | Version   | System    | Patients | PatientsWithConcept | PatientsWithConceptFromCode | PercentageOfPatients | PercentageOfPatientsFromCode |
+| :-----: | :-------: | :-------: | :------: | :-----------------: | :-------------------------: | :------------------: | :--------------------------: |
+| cancer  | 1         | EMIS      | 2615750  | 118723              | 78901                       | 4.53877473000096     | 3.01638153493262             |
+| cancer  | 1         | TPP       | 211345   | 9607	               | 7280                        | 4.5456481109087      | 3.44460479311079             |
+| cancer  | 1         | Vision    | 336528   | 16642               | 11427                       | 4.94520515380592     | 3.39555698188561             |
+
 
 LINK: [https://github.com/rw251/.../conditions/cancer/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/cancer/1)
 
 ### Coronary heart disease
 
 This code set was developed from https://www.phpc.cam.ac.uk/pcu/research/research-groups/crmh/cprd_cam/codelists/v11/. Codes indicate a diagnosis of CHD.
-
 #### Prevalence log
 
 By examining the prevalence of codes (number of patients with the code in their record) broken down by clinical system, we can attempt to validate the clinical code sets and the reporting of the conditions. Here is a log for this code set. The prevalence range `2.75% - 3.09%` suggests that this code set is well defined.
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-| 2021-05-18 | EMIS            | 2662570    |    73153 (2.75%) |     73156 (2.75%) |
-| 2021-05-18 | TPP             | 212696     |     6550 (3.08%) |      6576 (3.09%) |
-| 2021-05-18 | Vision          | 342344     |    10209 (2.98%) |     10209 (2.98%) |
+| 2021-05-18 | EMIS            | 2662570    |   73153 (2.75%)  |    73156 (2.75%)  |
+| 2021-05-18 | TPP             | 212696     |    6550 (3.08%)  |     6576 (3.09%)  |
+| 2021-05-18 | Vision          | 342344     |   10209 (2.98%)  |    10209 (2.98%)  |
 
 LINK: [https://github.com/rw251/.../conditions/coronary-heart-disease/1](https://github.com/rw251/gm-idcr/tree/master/shared/clinical-code-sets/conditions/coronary-heart-disease/1)
-
 # Clinical code sets
 
-All code sets required for this analysis are available here: ["https://github.com/rw251/.../042 - Byrne/clinical-code-sets.csv"](https://github.com/rw251/gm-idcr/tree/master/projects/042 - Byrne/clinical-code-sets.csv). Individual lists for each concept can also be found by using the links above.
+All code sets required for this analysis are available here: [https://github.com/rw251/.../042 - Byrne/clinical-code-sets.csv](https://github.com/rw251/gm-idcr/tree/master/projects/042%20-%20Byrne/clinical-code-sets.csv). Individual lists for each concept can also be found by using the links above.

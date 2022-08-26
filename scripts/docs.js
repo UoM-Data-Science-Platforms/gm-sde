@@ -145,7 +145,7 @@ Further details for each code set can be found below.
 }
 
 function getCodeSetTable(project) {
-  const link = `${GITHUB_BASE_URL}/projects/${project}/clinical-code-sets.csv`;
+  const link = `${GITHUB_BASE_URL}/projects/${project}/clinical-code-sets.csv`.replace(/ /g, '%20');
   const linkName = `${GITHUB_REPO}/.../${project}/clinical-code-sets.csv`;
   const tableIntro = `
 # Clinical code sets
