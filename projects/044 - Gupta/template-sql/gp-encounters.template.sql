@@ -19,26 +19,7 @@ SET @EndDate = '2022-05-01';
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
--- Find all patients alive at start date
-IF OBJECT_ID('tempdb..#PossiblePatients') IS NOT NULL DROP TABLE #PossiblePatients;
-SELECT PK_Patient_Link_ID as FK_Patient_Link_ID, EthnicMainGroup, DeathDate INTO #PossiblePatients FROM [RLS].vw_Patient_Link
-WHERE (DeathDate IS NULL OR DeathDate >= @StartDate);
-
--- Find all patients registered with a GP
-IF OBJECT_ID('tempdb..#PatientsWithGP') IS NOT NULL DROP TABLE #PatientsWithGP;
-SELECT DISTINCT FK_Patient_Link_ID INTO #PatientsWithGP FROM [RLS].vw_Patient
-where FK_Reference_Tenancy_ID = 2;
-
--- Make cohort from patients alive at start date and registered with a GP
-IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT pp.* INTO #Patients FROM #PossiblePatients pp
-INNER JOIN #PatientsWithGP gp on gp.FK_Patient_Link_ID = pp.FK_Patient_Link_ID;
-
-IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
-SELECT FK_Patient_Link_ID INTO #PatientsToInclude
-FROM RLS.vw_Patient_GP_History
-GROUP BY FK_Patient_Link_ID
-HAVING MIN(StartDate) < '2022-06-01';
+--> EXECUTE query-get-possible-patients.sql
 
 --------------------------------------------------------------------------------------------------------
 ----------------------------------- DEFINE MAIN COHORT -- ----------------------------------------------
@@ -95,8 +76,6 @@ LEFT OUTER JOIN #PatientYearOfBirth yob ON yob.FK_Patient_Link_ID = p.FK_Patient
 WHERE YEAR(@StartDate) - YearOfBirth >= 19 														 -- Over 18
 	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #CovidPatientsMultipleDiagnoses) -- had at least one covid19 infection
 	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #2orMoreLTCsIncludingMental)     -- at least 2 LTCs including one mental
-	AND p.FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude) 			 -- exclude new patients processed post-COPI notice
-
 
 -- REDUCE THE #Patients TABLE SO THAT IT ONLY INCLUDES THE COHORT, AND REUSABLE QUERIES CAN USE IT TO BE RUN QUICKER 
 
