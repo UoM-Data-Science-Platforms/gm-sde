@@ -14,14 +14,24 @@
 
 -- Set the start date
 DECLARE @StartDate datetime;
+DECLARE @EndDate datetime;
 SET @StartDate = '2019-01-01';
+SET @EndDate = '2022-06-01';
 
 --Just want the output, not the messages
 SET NOCOUNT ON;
 
 -- Create a table with all patients (ID)=========================================================================================================================
+IF OBJECT_ID('tempdb..#PatientsToInclude') IS NOT NULL DROP TABLE #PatientsToInclude;
+SELECT FK_Patient_Link_ID INTO #PatientsToInclude
+FROM RLS.vw_Patient_GP_History
+GROUP BY FK_Patient_Link_ID
+HAVING MIN(StartDate) < '2022-06-01';
+
 IF OBJECT_ID('tempdb..#Patients') IS NOT NULL DROP TABLE #Patients;
-SELECT DISTINCT FK_Patient_Link_ID INTO #Patients FROM [RLS].vw_Patient;
+SELECT DISTINCT FK_Patient_Link_ID 
+INTO #Patients 
+FROM #PatientsToInclude;
 
 --> CODESET egfr:1
 --> CODESET chronic-kidney-disease:1
@@ -29,12 +39,12 @@ SELECT DISTINCT FK_Patient_Link_ID INTO #Patients FROM [RLS].vw_Patient;
 --> EXECUTE query-patient-practice-and-ccg.sql
 
 
--- Create a table of all patients with GP events after the start date with all months from Jan 2019 till the current month=====================================================
+-- Create a table of all patients with GP events after the start date with all months from Jan 2019 till May 2022 (COPI)=====================================================
 -- All IDs of patients with GP events after the start date
 IF OBJECT_ID('tempdb..#PatientsID') IS NOT NULL DROP TABLE #PatientsID;
 SELECT DISTINCT FK_Patient_Link_ID
 INTO #PatientsID FROM [RLS].[vw_GP_Events]
-WHERE EventDate >= @StartDate;
+WHERE EventDate >= @StartDate AND EventDate < @EndDate AND FK_Patient_Link_ID IN (SELECT FK_Patient_Link_ID FROM #PatientsToInclude);
 
 -- All years and months from the start date
 IF OBJECT_ID('tempdb..#Dates') IS NOT NULL DROP TABLE #Dates;
@@ -42,17 +52,15 @@ CREATE TABLE #Dates (
   d DATE,
   PRIMARY KEY (d)
 )
-DECLARE @dStart DATE = '2019-01-01'
-DECLARE @dEnd DATE = getdate()
 
-WHILE ( @dStart < @dEnd )
+WHILE ( @StartDate < @EndDate )
 BEGIN
-  INSERT INTO #Dates (d) VALUES( @dStart )
-  SELECT @dStart = DATEADD(MONTH, 1, @dStart )
+  INSERT INTO #Dates (d) VALUES( @StartDate )
+  SELECT @StartDate = DATEADD(MONTH, 1, @StartDate )
 END
 
 IF OBJECT_ID('tempdb..#Time') IS NOT NULL DROP TABLE #Time;
-SELECT DISTINCT YEAR(d) AS Year, MONTH(d) AS Month, d
+SELECT DISTINCT YEAR(d) AS [Year], MONTH(d) AS [Month], d
 INTO #Time FROM #Dates
 
 -- Merge 2 tables
@@ -77,7 +85,7 @@ WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'egfr' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'egfr' AND Version = 1)
 )
-AND Value IS NOT NULL AND EventDate >= @StartDate;
+AND Value IS NOT NULL AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 -- Only select eGFR as number
 IF OBJECT_ID('tempdb..#eGFRConvert') IS NOT NULL DROP TABLE #eGFRConvert;
@@ -109,7 +117,7 @@ WHERE (
   FK_Reference_Coding_ID IN (SELECT FK_Reference_Coding_ID FROM #VersionedCodeSets WHERE Concept = 'chronic-kidney-disease' AND Version = 1) OR
   FK_Reference_SnomedCT_ID IN (SELECT FK_Reference_SnomedCT_ID FROM #VersionedSnomedSets WHERE Concept = 'chronic-kidney-disease' AND Version = 1)
 )
-AND EventDate >= @StartDate;
+AND EventDate >= @StartDate AND EventDate < @EndDate;
 
 -- Unique CKD record for each month
 IF OBJECT_ID('tempdb..#CKD') IS NOT NULL DROP TABLE #CKD;
@@ -142,7 +150,7 @@ SELECT *
 			FROM
 				#Table AS inner_table
 			WHERE
-					inner_table.FK_Patient_Link_ID = t.FK_Patient_Link_ID
+				inner_table.FK_Patient_Link_ID = t.FK_Patient_Link_ID
 				AND inner_table.d < t.d
 				AND inner_table.CKD IS NOT NULL
 				ORDER BY inner_table.d
@@ -162,4 +170,5 @@ INTO #eGFRPerMonth
 FROM #TableCount
 WHERE [Year] IS NOT NULL AND [Month] IS NOT NULL AND (CCG IS NOT NULL OR GPPracticeCode IS NOT NULL)
 	  AND GPPracticeCode NOT LIKE '%DO NOT USE%' AND GPPracticeCode NOT LIKE '%TEST%'
-GROUP BY [Year], [Month], CCG, GPPracticeCode;
+GROUP BY [Year], [Month], CCG, GPPracticeCode
+ORDER BY [Year], [Month], CCG, GPPracticeCode;
