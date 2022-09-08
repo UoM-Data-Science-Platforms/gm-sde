@@ -31,6 +31,6 @@ By examining the prevalence of codes (number of patients with the code in their 
 
 | Date       | Practice system | Population | Patients from ID | Patient from code |
 | ---------- | --------------- | ---------- | ---------------: | ----------------: |
-|            | EMIS            |            |              (%) |               (%) |
-|            | TPP             |            |              (%) |               (%) |
-|            | Vision          |            |              (%) |               (%) |
+| 2022-09-06 | EMIS            |    2448237 |   344328 (14.1%) |    344860 (14.1%) |
+| 2022-09-06 | TPP             |     198144 |    34122 (17.2%) |     35179 (17.8%) |
+| 2022-09-06 | Vision          |     325732 |    44883 (13.8%) |     45430 (13.9%) |

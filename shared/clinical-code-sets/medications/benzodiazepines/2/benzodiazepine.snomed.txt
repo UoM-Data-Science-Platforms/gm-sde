@@ -158,3 +158,16 @@
 424521005	Midazolam maleate
 442011001	Loprazolam mesilate (substance)
 387572002	Clobazam
+17020811000001104	Midazolam hydrochloride 10mg/2ml oromucosal solution pre-filled syringes (product)
+17020911000001109	Midazolam hydrochloride 2.5mg/0.5ml oromucosal solution pre-filled syringes (product)
+17021011000001101	Midazolam hydrochloride 5mg/1ml oromucosal solution pre-filled syringes (product)
+17021111000001100	Midazolam hydrochloride 7.5mg/1.5ml oromucosal solution pre-filled syringes (product)
+32518811000001108	Buccolam 10mg/2ml oromucosal solution pre-filled oral syringes (Takeda UK Ltd) (product)
+32519111000001108	Buccolam 2.5mg/0.5ml oromucosal solution pre-filled oral syringes (Takeda UK Ltd) (product)
+32519411000001103	Buccolam 5mg/1ml oromucosal solution pre-filled oral syringes (Takeda UK Ltd) (product)
+32519711000001109	Buccolam 7.5mg/1.5ml oromucosal solution pre-filled oral syringes (Takeda UK Ltd) (product)
+3385011000001100	Hypnovel 10mg/2ml solution for injection ampoules (Cheplapharm Arzneimittel GmbH) (product)
+36124911000001107	Midazolam 10mg/2ml solution for injection ampoules (product)
+36125011000001107	Midazolam 10mg/5ml solution for injection ampoules (product)
+3880411000001100	Hypnovel 10mg/5ml solution for injection ampoules (Roche Products Ltd) (product)
+4508111000001108	Midazolam 50mg/50ml solution for injection vials (product)

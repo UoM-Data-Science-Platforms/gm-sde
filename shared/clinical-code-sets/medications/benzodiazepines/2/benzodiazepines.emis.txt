@@ -1,0 +1,544 @@
+^ESCT1178296	Product containing only chlordiazepoxide hydrochloride 25 mg/1 each oral capsule
+^ESCT1178300	Product containing only temazepam 7.5 mg/1 each oral capsule
+^ESCT1178327	Product containing only triazolam 0.25 mg/1 each oral tablet
+^ESCT1179244	Product containing only amitriptyline 12.5 mg and chlordiazepoxide 10 mg/1 each oral tablet
+^ESCT1181069	Product containing only oxazepam 30 mg/1 each oral tablet
+^ESCT1181326	Product containing only clorazepate dipotassium 15 mg/1 each oral tablet
+^ESCT1181349	Product containing only triazolam 0.125 mg/1 each oral tablet
+^ESCT1181362	Product containing only loprazolam 1 mg/1 each oral tablet
+^ESCT1181528	Product containing only temazepam 30 mg/1 each oral capsule
+^ESCT1181566	Product containing only alprazolam 1 mg/1 each oral tablet
+^ESCT1181567	Product containing only chlordiazepoxide hydrochloride 25 mg/1 each oral tablet
+^ESCT1181571	Product containing only clorazepate dipotassium 11.25 mg/1 each oral tablet
+^ESCT1181626	Product containing only clorazepate dipotassium 3.75 mg/1 each oral tablet
+^ESCT1181648	Product containing only alprazolam 2 mg/1 each oral tablet
+^ESCT1181842	Product containing only clorazepate dipotassium 22.5 mg/1 each oral tablet
+^ESCT1183129	Product containing only temazepam 22.5 mg/1 each oral capsule
+^ESCT1183173	Product containing only oxazepam 10 mg/1 each oral capsule
+^ESCT1183174	Product containing only lorazepam 2 mg/1 each oral tablet
+^ESCT1183196	Product containing only chlordiazepoxide hydrochloride 5 mg and clidinium bromide 2.5 mg/1 each oral capsule
+^ESCT1185420	Product containing only oxazepam 15 mg/1 each oral capsule
+^ESCT1185422	Product containing only oxazepam 30 mg/1 each oral capsule
+^ESCT1185477	Product containing only amitriptyline hydrochloride 12.5 mg and chlordiazepoxide 5 mg/1 each oral tablet
+^ESCT1187266	Product containing only bromazepam 1.5 mg/1 each oral tablet
+^ESCT1187425	Product containing only clorazepate dipotassium 7.5 mg/1 each oral tablet
+^ESCT1187536	Product containing only temazepam 15 mg/1 each oral capsule
+^ESCT1187565	Product containing only clonazepam 1 mg/1 each oral tablet
+^ESCT1187878	Product containing midazolam
+^ESCT1201319	Clobazam in oral dosage form
+^ESCT1201320	Product containing clobazam in oral dosage form
+^ESCT1204464	Alprazolam 1mg/ml conventional release oral solution
+^ESCT1204484	Clonazepam 100 microgram/mL oral solution
+^ESCT1204485	Product containing precisely clonazepam 100 microgram/1 milliliter conventional release oral solution
+^ESCT1204486	Clonazepam 400 microgram/mL oral solution
+^ESCT1204487	Product containing precisely clonazepam 400 microgram/1 milliliter conventional release oral solution
+^ESCT1204549	Temazepam 2 mg/mL oral solution
+^ESCT1204550	Product containing precisely temazepam 2 milligram/1 milliliter conventional release oral solution
+^ESCT1205172	Diazepam 5mg/mL injection emulsion
+^ESCT1206139	Alprazolam in oral dosage form
+^ESCT1206140	Product containing alprazolam in oral dosage form
+^ESCT1206203	Amitriptyline and chlordiazepoxide product
+^ESCT1206204	Product containing amitriptyline and chlordiazepoxide
+^ESCT1206205	Amitriptyline and chlordiazepoxide in oral dosage form
+^ESCT1206206	Product containing amitriptyline and chlordiazepoxide in oral dosage form
+^ESCT1206350	Bromazepam in oral dosage form
+^ESCT1206351	Product containing bromazepam in oral dosage form
+^ESCT1206450	Clonazepam in oral dosage form
+^ESCT1206451	Product containing clonazepam in oral dosage form
+^ESCT1206576	Chlordiazepoxide and clidinium product
+^ESCT1206577	Product containing chlordiazepoxide and clidinium
+^ESCT1206578	Chlordiazepoxide and clidinium in oral dosage form
+^ESCT1206579	Product containing chlordiazepoxide and clidinium in oral dosage form
+^ESCT1206636	Clorazepate in oral dosage form
+^ESCT1206637	Product containing clorazepate in oral dosage form
+^ESCT1206824	Temazepam in oral dosage form
+^ESCT1206825	Product containing temazepam in oral dosage form
+^ESCT1207196	Flurazepam in oral dosage form
+^ESCT1207197	Product containing flurazepam in oral dosage form
+^ESCT1207198	Flunitrazepam in oral dosage form
+^ESCT1207199	Product containing flunitrazepam in oral dosage form
+^ESCT1208463	Midazolam (as midazolam hydrochloride) 2 mg/mL oral solution
+^ESCT1208464	Product containing precisely midazolam (as midazolam hydrochloride) 2 milligram/1 milliliter conventional release oral solution
+^ESCT1208783	Nitrazepam in oral dosage form
+^ESCT1208784	Product containing nitrazepam in oral dosage form
+^ESCT1209228	Diazepam 10 mg/2 mL emulsion for injection ampoule
+^ESCT1209229	Product containing precisely diazepam 10 milligram/2 milliliter conventional release emulsion for injection ampule
+^ESCT1209230	Diazepam 10 mg/2 mL emulsion for injection ampule
+^ESCT1209231	Diazepam 10 mg/2 mL solution for injection ampoule
+^ESCT1209232	Diazepam 10 mg/2 mL solution for injection ampule
+^ESCT1209233	Product containing precisely diazepam 10 milligram/2 milliliter conventional release solution for injection ampule
+^ESCT1209817	Midazolam (as midazolam hydrochloride) 10 mg/5 mL solution for injection ampoule
+^ESCT1209818	Product containing precisely midazolam (as midazolam hydrochloride) 10 milligram/5 milliliter conventional release solution for injection ampule
+^ESCT1209819	Midazolam (as midazolam hydrochloride) 10 mg/5 mL solution for injection ampule
+^ESCT1209820	Midazolam (as midazolam hydrochloride) 10 mg/2 mL solution for injection ampoule
+^ESCT1209821	Midazolam (as midazolam hydrochloride) 10 mg/2 mL solution for injection ampule
+^ESCT1209822	Product containing precisely midazolam (as midazolam hydrochloride) 10 milligram/2 milliliter conventional release solution for injection ampule
+^ESCT1209823	Midazolam (as midazolam hydrochloride) 2 mg/2 mL solution for injection ampoule
+^ESCT1209824	Product containing precisely midazolam (as midazolam hydrochloride) 2 milligram/2 milliliter conventional release solution for injection ampule
+^ESCT1209825	Midazolam (as midazolam hydrochloride) 2 mg/2 mL solution for injection ampule
+^ESCT1209826	Midazolam (as midazolam hydrochloride) 5 mg/5 mL solution for injection ampoule
+^ESCT1209827	Product containing precisely midazolam (as midazolam hydrochloride) 5 milligram/5 milliliter conventional release solution for injection ampule
+^ESCT1209828	Midazolam (as midazolam hydrochloride) 5 mg/5 mL solution for injection ampule
+^ESCT1209829	Midazolam (as midazolam hydrochloride) 50 mg/10 mL solution for injection ampoule
+^ESCT1209830	Midazolam (as midazolam hydrochloride) 50 mg/10 mL solution for injection ampule
+^ESCT1209831	Product containing precisely midazolam (as midazolam hydrochloride) 50 milligram/10 milliliter conventional release solution for injection ampule
+^ESCT1210376	Lorazepam 4 mg/mL solution for injection ampoule
+^ESCT1210377	Lorazepam 4 mg/mL solution for injection ampule
+^ESCT1210378	Product containing precisely lorazepam 4 milligram/1 milliliter conventional release solution for injection ampule
+^ESCT1215998	Midazolam 10mg/2ml solution for injection ampoules
+^ESCT1215999	Midazolam 10mg/5ml solution for injection ampoules
+^ESCT1217221	Lorazepam
+^ESCT1217222	Lorazepam product
+^ESCT1217229	Flurazepam
+^ESCT1217230	Flurazepam product
+^ESCT1217564	Midazolam
+^ESCT1217565	Midazolam product
+^ESCT1217955	Medazepam
+^ESCT1217956	Product containing medazepam
+^ESCT1217957	Medazepam product
+^ESCT1218496	Diazepam
+^ESCT1218497	Diazepam product
+^ESCT1218768	Temazepam
+^ESCT1218769	Temazepam product
+^ESCT1219437	Clonazepam
+^ESCT1219438	Clonazepam product
+^ESCT1219654	Prazepam
+^ESCT1219655	Product containing prazepam
+^ESCT1219656	Prazepam product
+^ESCT1219843	Nitrazepam
+^ESCT1219844	Nitrazepam product
+^ESCT1219890	Oxazepam
+^ESCT1219891	Oxazepam product
+^ESCT1220058	Chlordiazepoxide
+^ESCT1220059	Chlordiazepoxide product
+^ESCT1220636	Lormetazepam
+^ESCT1220637	Lormetazepam product
+^ESCT1220638	Bromazepam
+^ESCT1220639	Bromazepam product
+^ESCT1220640	Clobazam
+^ESCT1220641	Clobazam product
+^ESCT1220642	Flunitrazepam
+^ESCT1220643	Flunitrazepam product
+^ESCT1221396	Alprazolam
+^ESCT1221397	Alprazolam product
+^ESCT1221398	Triazolam
+^ESCT1221399	Triazolam product
+^ESCT1223298	Loprazolam
+^ESCT1223299	Loprazolam product
+^ESCT1223300	Product containing precisely loprazolam 1 milligram/1 each conventional release oral tablet
+^ESCT1223335	Product containing precisely diazepam 500 microgram/1 milliliter conventional release oral suspension
+^ESCT1223336	Diazepam 500 microgram/mL oral suspension
+^ESCT1223337	Diazepam 2 mg/mL oral suspension
+^ESCT1223338	Product containing precisely diazepam 2 milligram/1 milliliter conventional release oral suspension
+^ESCT1223345	Product containing precisely bromazepam 1.5 milligram/1 each conventional release oral tablet
+^ESCT1223364	Ketazolam
+^ESCT1223365	Product containing ketazolam
+^ESCT1223366	Ketazolam product
+^ESCT1223372	Product containing precisely oxazepam 30 milligram/1 each conventional release oral tablet
+^ESCT1227530	Product containing precisely alprazolam 1 milligram/1 each conventional release oral tablet
+^ESCT1227531	Chlordiazepoxide hydrochloride 25 mg/1 each oral capsule
+^ESCT1227532	Product containing precisely chlordiazepoxide hydrochloride 25 milligram/1 each conventional release oral capsule
+^ESCT1227533	Chlordiazepoxide hydrochloride 25 mg oral capsule
+^ESCT1227534	Product containing precisely chlordiazepoxide hydrochloride 25 milligram/1 each conventional release oral tablet
+^ESCT1227538	Product containing precisely dipotassium clorazepate 7.5 milligram/1 each conventional release oral tablet
+^ESCT1227539	Dipotassium clorazepate 7.5 mg oral tablet
+^ESCT1227540	Product containing precisely dipotassium clorazepate 15 milligram/1 each conventional release oral tablet
+^ESCT1227541	Dipotassium clorazepate 15 mg oral tablet
+^ESCT1227542	Product containing precisely dipotassium clorazepate 11.25 milligram/1 each conventional release oral tablet
+^ESCT1227543	Dipotassium clorazepate 11.25 mg oral tablet
+^ESCT1227550	Temazepam 7.5 mg/1 each oral capsule
+^ESCT1227551	Temazepam 7.5 mg oral capsule
+^ESCT1227552	Product containing precisely temazepam 7.5 milligram/1 each conventional release oral capsule
+^ESCT1227745	Triazolam 0.125 mg oral tablet
+^ESCT1227746	Product containing precisely triazolam 125 microgram/1 each conventional release oral tablet
+^ESCT1227747	Triazolam 125 microgram oral tablet
+^ESCT1227750	Triazolam 0.25 mg oral tablet
+^ESCT1227751	Triazolam 250 microgram oral tablet
+^ESCT1227752	Product containing precisely triazolam 250 microgram/1 each conventional release oral tablet
+^ESCT1227762	Product containing precisely alprazolam 2 milligram/1 each conventional release oral tablet
+^ESCT1228175	Temazepam 30 mg/1 each oral capsule
+^ESCT1228176	Product containing precisely temazepam 30 milligram/1 each conventional release oral capsule
+^ESCT1228177	Temazepam 30 mg oral capsule
+^ESCT1228178	Temazepam 15 mg/1 each oral capsule
+^ESCT1228179	Temazepam 15 mg oral capsule
+^ESCT1228180	Product containing precisely temazepam 15 milligram/1 each conventional release oral capsule
+^ESCT1228360	Product containing precisely clonazepam 1 milligram/1 each conventional release oral tablet
+^ESCT1228466	Product containing precisely dipotassium clorazepate 22.5 milligram/1 each conventional release oral tablet
+^ESCT1228467	Dipotassium clorazepate 22.5 mg oral tablet
+^ESCT1228516	Product containing precisely dipotassium clorazepate 3.75 milligram/1 each conventional release oral tablet
+^ESCT1228517	Dipotassium clorazepate 3.75 mg oral tablet
+^ESCT1228902	Oxazepam 15 mg/1 each oral capsule
+^ESCT1228903	Oxazepam 15 mg oral capsule
+^ESCT1228904	Product containing precisely oxazepam 15 milligram/1 each conventional release oral capsule
+^ESCT1228906	Oxazepam 10 mg/1 each oral capsule
+^ESCT1228907	Oxazepam 10 mg oral capsule
+^ESCT1228908	Product containing precisely oxazepam 10 milligram/1 each conventional release oral capsule
+^ESCT1228909	Oxazepam 30 mg/1 each oral capsule
+^ESCT1228910	Oxazepam 30 mg oral capsule
+^ESCT1228911	Product containing precisely oxazepam 30 milligram/1 each conventional release oral capsule
+^ESCT1228912	Product containing precisely lorazepam 2 milligram/1 each conventional release oral tablet
+^ESCT1229001	Product containing precisely chlordiazepoxide hydrochloride 5 milligram and clidinium bromide 2.5 milligram/1 each conventional release oral capsule
+^ESCT1229002	Chlordiazepoxide hydrochloride 5 mg and clidinium bromide 2.5 mg oral capsule
+^ESCT1229245	Product containing precisely amitriptyline hydrochloride 12.5 milligram and chlordiazepoxide 5 milligram/1 each conventional release oral tablet
+^ESCT1229481	Medazapam
+^ESCT1229482	Medazepam
+^ESCT1234738	Amitriptyline 12.5 mg and chlordiazepoxide 10 mg oral tablet
+^ESCT1234739	Amitriptyline hydrochloride 12.5 mg and chlordiazepoxide 10 mg oral tablet
+^ESCT1234740	Product containing precisely amitriptyline hydrochloride 12.5 milligram and chlordiazepoxide 10 milligram/1 each conventional release oral tablet
+^ESCT1234855	Temazepam 22.5 mg/1 each oral capsule
+^ESCT1234856	Product containing precisely temazepam 22.5 milligram/1 each conventional release oral capsule
+^ESCT1234857	Temazepam 22.5 mg oral capsule
+^ESCT1279757	Hypnovel 10mg/2ml solution for injection ampoules (Cheplapharm Arzneimittel GmbH)
+^ESCT1377014	Medazepam-containing product
+^ESCT1378452	Triazolam-containing product
+^ESCT1381068	Ketazolam-containing product
+^ESCT1381291	Diazepam-containing product in oral dose form
+^ESCT1381292	Diazepam-containing product in parenteral dose form
+^ESCT1381293	Diazepam-containing product in rectal dose form
+^ESCT1381294	Lorazepam-containing product in oral dose form
+^ESCT1381295	Lorazepam-containing product in parenteral dose form
+^ESCT1381693	Alprazolam 100 microgram/mL oral solution
+^ESCT1382074	Chlordiazepoxide-containing product in oral dose form
+^ESCT1382075	Chlordiazepoxide-containing product in parenteral dose form
+^ESCT1382150	Midazolam-containing product in oral dose form
+^ESCT1382151	Midazolam-containing product in parenteral dose form
+^ESCT1383180	Alprazolam 500 microgram orodispersible tablet
+^ESCT1383186	Alprazolam 1 mg orodispersible tablet
+^ESCT1383190	Alprazolam 250 microgram orodispersible tablet
+^ESCT1383195	Alprazolam 2 mg orodispersible tablet
+^ESCT1384886	Midazolam-containing product in oropharyngeal dose form
+^ESCT1385647	Clobazam-containing product in oral dose form
+^ESCT1385910	Alprazolam 1 mg/mL oral solution
+^ESCT1386136	Alprazolam-containing product in oral dose form
+^ESCT1386159	Amitriptyline- and chlordiazepoxide-containing product
+^ESCT1386160	Amitriptyline- and chlordiazepoxide-containing product in oral dose form
+^ESCT1386233	Bromazepam-containing product in oral dose form
+^ESCT1386286	Clonazepam-containing product in oral dose form
+^ESCT1386346	Chlordiazepoxide- and clidinium-containing product
+^ESCT1386347	Chlordiazepoxide- and clidinium-containing product in oral dose form
+^ESCT1386376	Clorazepate-containing product in oral dose form
+^ESCT1386459	Temazepam-containing product in oral dose form
+^ESCT1386638	Flurazepam-containing product in oral dose form
+^ESCT1386639	Flunitrazepam-containing product in oral dose form
+^ESCT1387109	Nitrazepam-containing product in oral dose form
+^ESCT1410127	Hypnovel 10mg/2ml solution for injection ampoules (Neon Healthcare Ltd)
+^ESCT1427848	Buccolam 10mg/2ml oromucosal solution pre-filled oral syringes (Neuraxpharm UK Ltd)
+^ESCT1427850	Buccolam 2.5mg/0.5ml oromucosal solution pre-filled oral syringes (Neuraxpharm UK Ltd)
+^ESCT1427852	Buccolam 5mg/1ml oromucosal solution pre-filled oral syringes (Neuraxpharm UK Ltd)
+^ESCT1427854	Buccolam 7.5mg/1.5ml oromucosal solution pre-filled oral syringes (Neuraxpharm UK Ltd)
+^ESCT1434920	Nitrazepam 2.5mg/5ml oral suspension (Rosemont Pharmaceuticals Ltd)
+^ESCT1434921	Nitrazepam 2.5mg/5ml oral suspension (Rosemont Pharmaceuticals Ltd) 150 ml
+^ESCT1434948	Nitrazepam 2.5mg/5ml oral suspension (Rosemont Pharmaceuticals Ltd) 70 ml
+^ESCT1434992	Nitrazepam 5mg tablets (Esteve Pharmaceuticals Ltd)
+^ESCT1434993	Nitrazepam 5mg tablets (Esteve Pharmaceuticals Ltd) 28 tablet
+^ESCT1436809	Nitrazepam 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436820	Lormetazepam 500microgram tablets (Viatris UK Healthcare Ltd)
+^ESCT1436830	Librium 10mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1436892	Temazepam 20mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436940	Mogadon 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436945	Lormetazepam 1mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1436974	Diazepam 5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437050	Librium 5mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437051	Diazepam 2mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437064	Diazepam 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437092	Temazepam 10mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437181	Diazepam 5mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437184	Diazepam 10mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437185	Diazepam 2mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437204	Nitrazepam 5mg tablets (Viatris UK Healthcare Ltd) 28 tablet
+^ESCT1437253	Temazepam 10mg tablets (Viatris UK Healthcare Ltd) 500 tablet
+^ESCT1437254	Temazepam 20mg tablets (Viatris UK Healthcare Ltd) 250 tablet
+^ESCT1437314	Mogadon 5mg tablets (Viatris UK Healthcare Ltd) 30 tablet
+^ESCT1437421	Librium 10mg capsules (Viatris UK Healthcare Ltd) 100 capsule
+^ESCT1437422	Librium 5mg capsules (Viatris UK Healthcare Ltd) 100 capsule
+^ESCT1437433	Lormetazepam 500microgram tablets (Viatris UK Healthcare Ltd) 30 tablet
+^ESCT1437434	Lormetazepam 500microgram tablets (Viatris UK Healthcare Ltd) 100 tablet
+^ESCT1437435	Lormetazepam 1mg tablets (Viatris UK Healthcare Ltd) 30 tablet
+^ESCT1437436	Lormetazepam 1mg tablets (Viatris UK Healthcare Ltd) 100 tablet
+^ESCT1437721	Dalmane 15mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437722	Dalmane 15mg capsules (Viatris UK Healthcare Ltd) 30 capsule
+^ESCT1437723	Dalmane 30mg capsules (Viatris UK Healthcare Ltd)
+^ESCT1437724	Dalmane 30mg capsules (Viatris UK Healthcare Ltd) 30 capsule
+^ESCT1437725	Xanax 250microgram tablets (Viatris UK Healthcare Ltd)
+^ESCT1437726	Xanax 250microgram tablets (Viatris UK Healthcare Ltd) 60 tablet
+^ESCT1437729	Xanax 500microgram tablets (Viatris UK Healthcare Ltd)
+^ESCT1437730	Xanax 500microgram tablets (Viatris UK Healthcare Ltd) 60 tablet
+^ESCT1437869	Clonazepam 250micrograms/5ml oral suspension (Drug Tariff Special Order)
+^ESCT1437870	Clonazepam 250micrograms/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCT1437951	Lorazepam 1mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437952	Lorazepam 1mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1437953	Lorazepam 2.5mg tablets (Viatris UK Healthcare Ltd)
+^ESCT1437954	Lorazepam 2.5mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1438111	Diazepam 10mg/5ml oral suspension (Drug Tariff Special Order)
+^ESCT1438112	Diazepam 10mg/5ml oral suspension (Drug Tariff Special Order) 1 ml
+^ESCT1438153	Temazepam 10mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1438154	Temazepam 20mg tablets (Viatris UK Healthcare Ltd) 28 tablet 2 x 14 tablets
+^ESCT1438426	Clonazepam 250micrograms/5ml oral suspension (Drug Tariff Special Order) 100 ml
+^ESCT1438446	Diazepam 10mg/5ml oral suspension (Drug Tariff Special Order) 200 ml
+^ESCTAL419137	Alprazolam
+^ESCTAL635194	Alprazolam 0.5mg/5ml oral solution
+^ESCTAL635195	Alprazolam 0.5mg/5ml solution
+^ESCTAL635202	Alprazolam 1 mg oral tablet
+^ESCTAL638786	Alprazolam 2 mg oral tablet
+^ESCTAL646429	Alprazolam
+^ESCTAL690281	Alprazolam 500mcg orally disintegrating tablet
+^ESCTAL690282	Alprazolam 0.5mg orally disintegrating tablet
+^ESCTAL690369	Alprazolam 1mg orally disintegrating tablet
+^ESCTAL690580	Alprazolam 250mcg orally disintegrating tablet
+^ESCTAL690581	Alprazolam 0.25mg orally disintegrating tablet
+^ESCTAL690704	Alprazolam 2mg orally disintegrating tablet
+^ESCTAM642556	Amitriptyline hydrochloride 12.5 mg and chlordiazepoxide 5 mg oral tablet
+^ESCTAM710152	Amitriptyline 12.5 mg and chlordiazepoxide 10 mg oral tablet
+^ESCTBR406907	Bromazepam
+^ESCTBR609117	Bromazepam 1.5 mg oral tablet
+^ESCTBR647369	Bromazepam
+^ESCTBU1142885	Buccolam 10mg/2ml oromucosal solution pre-filled oral syringes (Shire Pharmaceuticals Ltd)
+^ESCTBU1142888	Buccolam 2.5mg/0.5ml oromucosal solution pre-filled oral syringes (Shire Pharmaceuticals Ltd)
+^ESCTBU1142891	Buccolam 5mg/1ml oromucosal solution pre-filled oral syringes (Shire Pharmaceuticals Ltd)
+^ESCTBU1142894	Buccolam 7.5mg/1.5ml oromucosal solution pre-filled oral syringes (Shire Pharmaceuticals Ltd)
+^ESCTCH315349	Chlordiazepoxide hydrochloride
+^ESCTCH384622	Chlordiazepoxide
+^ESCTCH635231	Chlordiazepoxide hydrochloride 25 mg/1 each oral capsule
+^ESCTCH635233	Chlordiazepoxide hydrochloride 25 mg oral tablet
+^ESCTCH637258	Chlordiazepoxide
+^ESCTCH642015	Chlordiazepoxide 5mg / Clidinium bromide 2.5mg capsules
+^ESCTCH642017	Chlordiazepoxide hydrochloride 5 mg and clidinium bromide 2.5 mg/1 each oral capsule
+^ESCTCH645973	Chlordiazepoxide in oral dosage form
+^ESCTCH645975	Chlordiazepoxide in parenteral dosage form
+^ESCTCL314048	Clorazepate
+^ESCTCL363352	Clonazepam
+^ESCTCL406910	Clobazam
+^ESCTCL635304	Clorazepate product
+^ESCTCL635307	Clorazepate dipotassium 7.5 mg oral tablet
+^ESCTCL635309	Clorazepate dipotassium 15 mg oral tablet
+^ESCTCL635311	Clorazepate dipotassium 11.25 mg oral tablet
+^ESCTCL640378	Clonazepam 1 mg oral tablet
+^ESCTCL640687	Clorazepate dipotassium 22.5 mg oral tablet
+^ESCTCL640818	Clorazepate dipotassium 3.75 mg oral tablet
+^ESCTCL641105	Clonazepam 0.125mg wafer
+^ESCTCL641106	Clonazepam 0.25mg wafer
+^ESCTCL641107	Clonazepam 0.5mg wafer
+^ESCTCL641108	Clonazepam 1mg wafer
+^ESCTCL641109	Clonazepam 2mg wafer
+^ESCTCL647044	Clonazepam
+^ESCTCL647181	Clorazepate dipotassium
+^ESCTCL647370	Clobazam
+^ESCTDI328563	Diazepam
+^ESCTDI609105	Diazepam 2.5mg / 5ml oral suspension
+^ESCTDI609106	Diazepam 2.5mg/5mL suspension
+^ESCTDI609107	Diazepam 10mg / 5ml oral suspension
+^ESCTDI609108	Diazepam 10mg/5mL suspension
+^ESCTDI610818	Diazepam 5mg/2.5ml rectal solution tube
+^ESCTDI610819	Diazepam 5mg/2.5mL rectal solution
+^ESCTDI610820	Diazepam 2mg/ml rectal solution 2.5ml tube
+^ESCTDI618932	Diazepam in oral dosage form
+^ESCTDI618934	Diazepam in parenteral dosage form
+^ESCTDI618936	Diazepam in rectal dosage form
+^ESCTDI635303	Dipotassium clorazepate
+^ESCTDI635317	Diazepam 5mg/ml gel
+^ESCTDI645100	Diazepam 1mg/ml solution
+^ESCTDI646859	Diazepam
+^ESCTDI647180	Dipotassium clorazepate
+^ESCTFL280792	Flurazepam
+^ESCTFL294827	Flurazepam hydrochloride
+^ESCTFL406912	Flunitrazepam
+^ESCTFL646595	Flurazepam
+^ESCTFL647371	Flunitrazepam
+^ESCTHY861489	Hypnovel 10mg/2ml solution for injection ampoules (Roche Products Ltd)
+^ESCTHY865251	Hypnovel 10mg/5ml solution for injection ampoules (Roche Products Ltd)
+^ESCTKE609153	Ketazolam
+^ESCTKE694078	Ketazolam
+^ESCTLO280508	Lorazepam
+^ESCTLO406905	Lormetazepam
+^ESCTLO609041	Loprazolam
+^ESCTLO609043	Loprazolam 1mg tablets
+^ESCTLO609045	Loprazolam 1 mg oral tablet
+^ESCTLO618938	Lorazepam in oral dosage form
+^ESCTLO618940	Lorazepam in parenteral dosage form
+^ESCTLO641812	Lorazepam 2 mg oral tablet
+^ESCTLO646591	Lorazepam
+^ESCTLO647368	Lormetazepam
+^ESCTLO655885	Loprazolam
+^ESCTLO725837	Loprazolam mesilate
+^ESCTME307940	Medazepam
+^ESCTME646731	Medazapam
+^ESCTMI292923	Midazolam
+^ESCTMI387009	Midazolam hydrochloride
+^ESCTMI638177	Midazolam
+^ESCTMI651181	Midazolam in oral dosage form
+^ESCTMI651183	Midazolam in parenteral dosage form
+^ESCTMI702798	Midazolam maleate
+^ESCTMI771295	Midazolam in oropharyngeal dosage form
+^ESCTMI870467	Midazolam 50mg/50ml solution for infusion vials
+^ESCTMI997527	Midazolam 10mg/2ml oromucosal solution pre-filled oral syringes
+^ESCTMI997528	Midazolam 2.5mg/0.5ml oromucosal solution pre-filled oral syringes
+^ESCTMI997529	Midazolam 5mg/1ml oromucosal solution pre-filled oral syringes
+^ESCTMI997530	Midazolam 7.5mg/1.5ml oromucosal solution pre-filled oral syringes
+^ESCTNI377615	Nitrazepam
+^ESCTNI647175	Nitrazepam
+^ESCTOX378851	Oxazepam
+^ESCTOX609171	Oxazepam 30 mg oral tablet
+^ESCTOX641801	Oxazepam 15 mg/1 each oral capsule
+^ESCTOX641805	Oxazepam 10 mg/1 each oral capsule
+^ESCTOX641807	Oxazepam 30 mg/1 each oral capsule
+^ESCTOX647183	Oxazepam
+^ESCTPR280509	Product containing lorazepam
+^ESCTPR280793	Product containing flurazepam
+^ESCTPR328564	Product containing diazepam
+^ESCTPR338775	Product containing temazepam
+^ESCTPR363353	Product containing clonazepam
+^ESCTPR370434	Prazepam
+^ESCTPR377616	Product containing nitrazepam
+^ESCTPR378852	Product containing oxazepam
+^ESCTPR384623	Product containing chlordiazepoxide
+^ESCTPR406906	Product containing lormetazepam
+^ESCTPR406908	Product containing bromazepam
+^ESCTPR406911	Product containing clobazam
+^ESCTPR406913	Product containing flunitrazepam
+^ESCTPR419138	Product containing alprazolam
+^ESCTPR419140	Product containing triazolam
+^ESCTPR609042	Product containing loprazolam
+^ESCTPR609044	Product containing loprazolam 1 mg/1 each oral tablet
+^ESCTPR609118	Product containing bromazepam 1.5 mg/1 each oral tablet
+^ESCTPR609172	Product containing oxazepam 30 mg/1 each oral tablet
+^ESCTPR618933	Product containing diazepam in oral dosage form
+^ESCTPR618935	Product containing diazepam in parenteral dosage form
+^ESCTPR618937	Product containing diazepam in rectal dosage form
+^ESCTPR618939	Product containing lorazepam in oral dosage form
+^ESCTPR618941	Product containing lorazepam in parenteral dosage form
+^ESCTPR635203	Product containing alprazolam 1 mg/1 each oral tablet
+^ESCTPR635232	Product containing chlordiazepoxide hydrochloride 25 mg/1 each oral capsule
+^ESCTPR635234	Product containing chlordiazepoxide hydrochloride 25 mg/1 each oral tablet
+^ESCTPR635305	Product containing clorazepate
+^ESCTPR635308	Product containing clorazepate dipotassium 7.5 mg/1 each oral tablet
+^ESCTPR635310	Product containing clorazepate dipotassium 15 mg/1 each oral tablet
+^ESCTPR635312	Product containing clorazepate dipotassium 11.25 mg/1 each oral tablet
+^ESCTPR635358	Product containing temazepam 7.5 mg/1 each oral capsule
+^ESCTPR638742	Product containing triazolam 0.125 mg/1 each oral tablet
+^ESCTPR638748	Product containing triazolam 0.25 mg/1 each oral tablet
+^ESCTPR638787	Product containing alprazolam 2 mg/1 each oral tablet
+^ESCTPR639985	Product containing temazepam 30 mg/1 each oral capsule
+^ESCTPR639987	Product containing temazepam 15 mg/1 each oral capsule
+^ESCTPR640379	Product containing clonazepam 1 mg/1 each oral tablet
+^ESCTPR640688	Product containing clorazepate dipotassium 22.5 mg/1 each oral tablet
+^ESCTPR640819	Product containing clorazepate dipotassium 3.75 mg/1 each oral tablet
+^ESCTPR641802	Product containing oxazepam 15 mg/1 each oral capsule
+^ESCTPR641806	Product containing oxazepam 10 mg/1 each oral capsule
+^ESCTPR641808	Product containing oxazepam 30 mg/1 each oral capsule
+^ESCTPR641813	Product containing lorazepam 2 mg/1 each oral tablet
+^ESCTPR642016	Product containing chlordiazepoxide hydrochloride 5 mg and clidinium bromide 2.5 mg/1 each oral capsule
+^ESCTPR642557	Product containing amitriptyline hydrochloride 12.5 mg and chlordiazepoxide 5 mg/1 each oral tablet
+^ESCTPR645974	Product containing chlordiazepoxide in oral dosage form
+^ESCTPR645976	Product containing chlordiazepoxide in parenteral dosage form
+^ESCTPR647107	Prazepam
+^ESCTPR651182	Product containing midazolam in oral dosage form
+^ESCTPR651184	Product containing midazolam in parenteral dosage form
+^ESCTPR710153	Product containing amitriptyline 12.5 mg and chlordiazepoxide 10 mg/1 each oral tablet
+^ESCTPR711731	Product containing temazepam 22.5 mg/1 each oral capsule
+^ESCTPR771296	Product containing midazolam in oropharyngeal dosage form
+^ESCTTE338774	Temazepam
+^ESCTTE635357	Temazepam 7.5 mg/1 each oral capsule
+^ESCTTE639984	Temazepam 30 mg/1 each oral capsule
+^ESCTTE639986	Temazepam 15 mg/1 each oral capsule
+^ESCTTE646914	Temazepam
+^ESCTTE711730	Temazepam 22.5 mg/1 each oral capsule
+^ESCTTR419139	Triazolam
+^ESCTTR638741	Triazolam 0.125 mg oral tablet
+^ESCTTR638747	Triazolam 0.25 mg oral tablet
+^ESCTTR646430	Triazolam
+ALTA5654	Alupram  Tablets  10 mg
+ALTA5655	Alupram  Tablets  2 mg
+ALTA5656	Alupram  Tablets  5 mg
+ANCA187	Anxon  Capsules  15 mg
+ANCA188	Anxon  Capsules  30 mg
+ATTA232	Atensine  Tablets  10 mg
+ATTA233	Atensine  Tablets  2 mg
+ATTA234	Atensine  Tablets  5 mg
+ATTA236	Ativan  Tablets  1 mg
+ATTA237	Ativan  Tablets  2.5 mg
+BRTA6959	Bromazepam  Tablets  1.5 mg
+BRTA6960	Bromazepam  Tablets  3 mg
+BUOR40611NEMIS	Buccolam  Oromucosal Solution  (5 mg/ml) 2.5 mg/0.5 ml Oral Syringe
+BUOR40612NEMIS	Buccolam  Oromucosal Solution  (5 mg/ml) 5 mg/1 ml Oral Syringe
+BUOR40613NEMIS	Buccolam  Oromucosal Solution  (5 mg/ml) 7.5 mg/1.5 ml Oral Syringe
+BUOR40614NEMIS	Buccolam  Oromucosal Solution  (5 mg/ml) 10 mg/2 ml Oral Syringe
+CHCA558	Chlordiazepoxide Hydrochloride  Capsules  10 mg
+CHTA559	Chlordiazepoxide Hydrochloride  Tablets  10 mg
+CHTA560	Chlordiazepoxide Hydrochloride  Tablets  5 mg
+CHTA6961	Chlordiazepoxide  Tablets  25 mg
+CHTA9467EMIS	Chlordiazepoxide Hydrochloride  Tablets  25 mg
+CLCA662	Clorazepate Dipotassium  Capsules  15 mg
+CLCA663	Clorazepate Dipotassium  Capsules  7.5 mg
+CLIN4751	Clonazepam  Injection  1mg/ml, 1 ml ampoule
+DICA876	Diazepam  Capsules  2 mg
+DICA877	Diazepam  Capsules  5 mg
+DIRE25092EMIS	Diazepam  Rectubes  10 mg
+DIRE25093EMIS	Diazepam  Rectubes  5 mg
+DIRE29887EMIS	Diazepam Rectubes  Rectal tubes  20 mg
+DIRE29892EMIS	Diazepam  Rectal tubes  20 mg
+DISY4827	Diazepam  Syrup  2 mg/5 ml
+DOTA975	Dormonoct  Tablets  1 mg
+EVTA5665	Evacalm  Tablets  2 mg
+EVTA5666	Evacalm  Tablets  5 mg
+HATA1328	Halcion  Tablets  0.125 mg
+HATA1329	Halcion  Tablets  0.25 mg
+HYINEGTON6408	Hypnovel  Injection  10 mg/5 ml ampoule
+HYINEGTON6409	Hypnovel  Injection  10 mg/2 ml ampoule
+KECA1564	Ketazolam  Capsules  15 mg
+KECA1565	Ketazolam  Capsules  30 mg
+LETA5683	Lexotan  Tablets  1.5 mg
+LETA5684	Lexotan  Tablets  3 mg
+LITA1651	Librium  Tablets  10 mg
+LITA1652	Librium  Tablets  25 mg
+LITA1653	Librium  Tablets  5 mg
+MECA1736	Medazepam  Capsules  5 mg
+MIIN3553NEMIS	Midazolam  Solution for infusion  1 mg/ml, 50 ml vial
+MIIN6930	Midazolam  Injection  10 mg/5 ml ampoule
+MIIN6931	Midazolam  Injection  10 mg/2 ml ampoule
+MIOR40606NEMIS	Midazolam  Oromucosal Solution  (5 mg/ml) 2.5 mg/0.5 ml Oral Syringe
+MIOR40607NEMIS	Midazolam  Oromucosal Solution  (5 mg/ml) 5 mg/1 ml Oral Syringe
+MIOR40608NEMIS	Midazolam  Oromucosal Solution  (5 mg/ml) 7.5 mg/1.5 ml Oral Syringe
+MIOR40609NEMIS	Midazolam  Oromucosal Solution  (5 mg/ml) 10 mg/2 ml Oral Syringe
+MOCA8994BRIDL	Mogadon  Capsules  5 mg
+NICA5206	Nitrazepam  Capsules  5 mg
+NITA1992	Nitrados  Tablets  5 mg
+NITA1994	Nitrazepam  Tablets  10 mg
+NOCA2011	Nobrium  Capsules  5 mg
+NOCA2033	Normison  Capsules  10 mg
+NOCA2034	Normison  Capsules  20 mg
+NOCA8820BRIDL	Nobrium  Capsules  10 mg
+NOTA2014	Noctesed  Tablets  5 mg
+OXCA2130	Oxazepam  Capsules  30 mg
+OXTA2133	Oxazepam  Tablets  30 mg
+RETA2444	Remnos  Tablets  10 mg
+RETA2445	Remnos  Tablets  5 mg
+RIIN4290	Rivotril  Injection  1mg/ml, 1 ml ampoule
+SOCA5669	Solis  Capsules  2 mg
+SOCA5670	Solis  Capsules  5 mg
+STIN2705	Stesolid  Injection  5 mg/ml
+SUCA2742	Surem  Capsules  5 mg
+TECA2791	Temazepam  Capsules  10 mg
+TECA2792	Temazepam  Capsules  15 mg
+TECA2793	Temazepam  Capsules  20 mg
+TECA2794	Temazepam  Capsules  30 mg
+TEEL2795	Temazepam  Elixir  10 mg/5 ml
+TEGE9545EMIS	Temazepam Gelthix  Gel-filled capsules  15 mg
+TEGE9546EMIS	Temazepam Gelthix  Gel-filled capsules  30 mg
+TEGE9652BRIDL	Temazepam Gelthix  Gel-filled capsules  10 mg
+TEGE9654BRIDL	Temazepam Gelthix  Gel-filled capsules  20 mg
+TEHA9549EMIS	Temazepam  Hard gelatin capsules  10 mg
+TEHA9550EMIS	Temazepam  Hard gelatin capsules  20 mg
+TEPL19906EMIS	Temazepam  Planpak  
+TESI23952EMIS	Temazepam  Single dose vials  10 mg/5 ml
+TETA5676	Tensium  Tablets  5 mg
+TRTA2916	Triazolam  Tablets  0.125 mg
+TRTA2917	Triazolam  Tablets  0.25 mg
+UNTA2987	Unisomnia  Tablets  5 mg
+VACA3002	Valium  Capsules  2 mg
+VAIN3003	Valium  Injection  10 mg
+VAIN3004	Valium  Injection  5 mg/ml
+VASU3005	Valium  Suppositories  10 mg
+VASY3006	Valium  Syrup  2 mg/5 ml
+VATA25708EMIS	Valium  Tablets  10 mg
+VATA3007	Valium  Tablets  2 mg
+VATA3009	Valium  Tablets  5 mg

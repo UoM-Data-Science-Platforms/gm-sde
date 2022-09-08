@@ -6,3 +6,9 @@
 419897007	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 100 milligram/1 each conventional release oral capsule (clinical drug)
 420189009	Product containing precisely atomoxetine (as atomoxetine hydrochloride) 80 milligram/1 each conventional release oral capsule
 412577007	Atomoxetine hydrochloride
+321995004	Reboxetine product
+321996003	Product containing precisely reboxetine 4 milligram/1 each conventional release oral tablet (clinical drug)
+768167001	Reboxetine in oral dosage form
+395859006	Reboxetine
+39703311000001102	Reboxetine 4mg tablets (product)
+576711000001106	Edronax 4mg tablets (Pfizer Ltd) (product)

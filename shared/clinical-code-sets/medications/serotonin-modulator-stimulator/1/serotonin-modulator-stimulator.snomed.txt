@@ -3,3 +3,6 @@
 768286002	Vortioxetine (as vortioxetine hydrobromide) 15 mg oral tablet
 768287006	Product containing precisely vortioxetine (as vortioxetine hydrobromide) 20 milligram/1 each conventional release oral tablet
 712748004	Vortioxetine hydrobromide (substance)
+30247511000001100	Brintellix 5mg tablets (Lundbeck Ltd) (product)
+30247811000001102	Brintellix 20mg tablets (Lundbeck Ltd) (product)
+30248111000001105	Brintellix 10mg tablets (Lundbeck Ltd) (product)

@@ -1,23 +1,85 @@
-d1d..	Zopiclone
-d1d3.	Zopiclone 3.75mg tablet
-d1d6.	Zileze 3.75 tablet
-d1d4.	Zimovane LS 3.75mg tablet
-d1d1.	Zopiclone 7.5mg tablet
-d1d5.	Zileze 7.5 tablet
-d1d2.	Zimovane 7.5mg tablet
-d1f..	Zolpidem
-d1f3.	Zolpidem tartrate 10mg tablet
-d1f4.	Stilnoct 10mg tablet
-d1f2.	Zolpidem tartrate 5mg tablet
-d1f1.	Stilnoct 5mg tablet
-d1g..	Zaleplon
-d1gz.	Zaleplon 10mg capsule
-d1g2.	Sonata 10mg capsule
-d1gy.	Zaleplon 5mg capsule
-d1g1.	Sonata 5mg capsule
-x03ha	Zimovane LS
-x02v0	Zimovane
-x04bF	Zileze 7.5
-x04bE	Zileze 3.75
-x056Q	Sonata
-x02ra	Stilnoct
+d2f..	Buspirone hydrochloride
+x01BH	Buspirone
+d2f1.	Buspirone hydrochloride 5mg tablet
+d2f5.	Buspirone hydrochloride 10mg tablet
+x01BG	Chloral sedative
+d25..	Chlormezanone
+x02LL	Clomethiazole
+d32..	Methyprylone
+d11..	Chloral hydrate product
+d13..	Dichloralphenazone
+d1c..	Triclofos sodium
+d25z.	Chlormezanone 200mg tablet
+do3..	Clomethiazole edisylate [central nervous system use]
+o51..	Clomethiazole edisylate [anaesthesia]
+x01BI	Oral clomethiazole
+x01BJ	Parenteral clomethiazole
+d111.	Chloral hydrate 500mg/5mL mixture BP
+d112.	Chloral hydrate 200mg/5mL paediatric elixir BP
+d114.	Chloral hydrate 500mg capsule
+d117.	Chloral betaine 707mg tablet
+d118.	Chloral hydrate 143mg/5mL elixir
+d119.	Chloral hydrate 500mg/5mL syrup
+d13y.	Dichloralphenazone 650mg tablet
+d13z.	Dichloralphenazone 225mg/5mL elixir
+d1c1.	Triclofos sodium 500mg/5mL oral solution
+d12v.	Clomethiazole 192mg capsule
+d12w.	Clomethiazole edisylate 250mg/5mL syrup
+x01EB	Alimemazine
+x01E1	Diphenhydramine product
+x01E3	Hydroxyzine
+c88..	Diphenhydramine hydrochloride [antihistamine]
+c883.	Diphenhydramine hydrochloride 25mg tablet
+c884.	Diphenhydramine hydrochloride 10mg/5mL syrup
+c887.	Diphenhydramine hydrochloride 50mg tablet
+c88x.	Diphenhydramine hydrochloride 6.25mg/5mL syrup
+c88y.	Diphenhydramine hydrochloride 50mg capsule
+c88z.	Diphenhydramine hydrochloride 25mg capsule
+dh6..	Diphenhydramine hydrochloride [nausea]
+c8a..	Hydroxyzine hydrochloride [antihististamine]
+d28..	Hydroxyzine HCl [anxiolytic]
+d28x.	Hydroxyzine hydrochloride 10mg tablet
+d28y.	Hydroxyzine hydrochloride 25mg tablet
+d28z.	Hydroxyzine hydrochloride 10mg/5mL syrup
+c8i..	Promethazine hydrochhloride [antihistamine]
+d19..	Promethazine hydrochloride [hypnotic] see section c8I..
+dhf..	Promethazine [nausea] [see c8i..]
+dhg..	Promethazine theoclate
+o59..	Promethazine HCl [anaesthesia]
+x01E8	Oral promethazine
+x01E9	Parenteral promethazine
+c8iu.	PROMETHAZINE 20mg tablets
+c8iv.	Promethazine hydrochloride 10mg tablet
+c8iw.	Promethazine hydrochloride 25mg tablet
+c8ix.	Promethazine hydrochloride 5mg/5mL elixir
+dhgz.	Promethazine theoclate 25mg tablet
+x00ft	Promethazine hydrochloride 20mg tablet
+c8iy.	Promethazine hydrochloride 25mg/1mL injection
+c8iz.	Promethazine hydrochloride 50mg/2mL injection
+dias.	Paracetamol+chlormezanone 450mg/100mg tablet
+dibO.	Paracetamol+diphenhydramine hydrochloride 500mg/25mg tablet
+dibT.	Paracetamol+diphenhydramine hydrochloride 120mg/12.5mg s/f oral solution
+dic1.	Paracetamol+promethazine hydrochloride 120mg/1.5mg/5mL colour free s/f suspension
+d2c..	Meprobamate
+d2c1.	Meprobamate 200mg tablet
+d2c2.	Meprobamate 400mg tablet
+X79JE	Diphenhydramine
+X79JO	Promethazine
+d1h..	MELATONIN
+d1hz.	MELATONIN 2mg m/r tablets
+dC1..	Sodium oxybate
+dC1z.	Sodium oxybate 500mg/mL oral solution
+XM0lA	Chloral hydrate
+m347.	Diphenhydramine hydrochloride 2% cream
+Xaag2	On melatonin for sleep disorder
+d3...	Barbiturates/methyprylone
+djg8.	Pethidine hydrochloride+promethazine hydrochloride 100mg/50mg/2mL injection
+c8kx.	Alimemazine tartrate 10mg tablet
+c8kx.	Alimemazine tartrate 10mg tablet
+c8kx.	Trimeprazine tartrate 10mg tablet
+c8ky.	Alimemazine tartrate 7.5mg/5mL syrup
+c8ky.	Alimemazine tartrate 7.5mg/5mL syrup
+c8ky.	Trimeprazine tartrate 7.5mg/5mL syrup
+c8kz.	Alimemazine tartrate 30mg/5mL syrup
+c8kz.	Alimemazine tartrate 30mg/5mL syrup
+c8kz.	Trimeprazine tartrate 30mg/5mL syrup

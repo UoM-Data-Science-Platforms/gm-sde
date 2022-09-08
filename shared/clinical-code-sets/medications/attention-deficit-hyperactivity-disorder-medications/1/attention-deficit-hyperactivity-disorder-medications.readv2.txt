@@ -39,3 +39,33 @@ dz13.00	MODAFINIL 200mg tablets
 dz11.00	MODAFINIL 100mg tablets
 dz14.00	PROVIGIL 200mg tablets
 dz12.00	PROVIGIL 100mg tablets
+dw13.	*EQUASYM 5mg tablets
+dw14.	*EQUASYM 20mg tablets
+dw15.	*EQUASYM 10mg tablets
+dw16.	EQUASYM XL 20mg m/r capsules
+dw17.	CONCERTA XL 18mg m/r tablets
+dw18.	CONCERTA XL 36mg m/r tablets
+dw19.	*TRANQUILYN 5mg tablets
+dw1A.	*TRANQUILYN 10mg tablets
+dw1B.	*TRANQUILYN 20mg tablets
+dw1C.	EQUASYM XL 10mg m/r capsules
+dw1D.	EQUASYM XL 30mg m/r capsules
+dw1E.	MEDIKINET XL 10mg m/r capsules
+dw1F.	MEDIKINET XL 20mg m/r capsules
+dw1G.	MEDIKINET XL 30mg m/r capsules
+dw1H.	MEDIKINET XL 40mg m/r capsules
+dw1I.	CONCERTA XL 27mg m/r tablets
+dw1J.	MEDIKINET 5mg tablets
+dw1K.	MEDIKINET 10mg tablets
+dw1L.	MEDIKINET 20mg tablets
+dw1M.	MEDIKINET XL 5mg m/r capsules
+dw1N.	MEDIKINET XL 50mg m/r capsules
+dw1O.	MEDIKINET XL 60mg m/r capsules
+dw1U.	CONCERTA XL 54mg m/r tablets
+dw2t.	ATOMOXETINE 100mg capsules
+dw2u.	ATOMOXETINE 80mg capsules
+dw2v.	ATOMOXETINE 60mg capsules
+dw2w.	ATOMOXETINE 40mg capsules
+dw2x.	ATOMOXETINE 25mg capsules
+dw2y.	ATOMOXETINE 18mg capsules
+dw2z.	ATOMOXETINE 10mg capsules

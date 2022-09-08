@@ -63,3 +63,5 @@ x02gO	Ketalar
 x02kK	Nalorex
 x040v	Cantassium vitamin B6
 x059G	Zyban
+D2102	Pyridoxine-responsive sideroblastic anaemia
+D2102	Pyridoxine-responsive sideroblastic anaemia

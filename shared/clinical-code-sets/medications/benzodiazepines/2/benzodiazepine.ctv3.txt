@@ -232,32 +232,12 @@ do12.	Stesolid [ep] 10mg/2mL injection
 d21v.	Valium [anxiol] 10mg/2ml injection
 do16.	Valium [ep] 10mg/2mL injection
 do41.	Ativan [ep] 4mg/mL injection
-Xa5ih	Alprazolam allergy
-Xa5ii	Bromazepam allergy
-Xa5ij	Chlordiazepoxide allergy
-Xa5ik	Clobazam allergy
-Xa5il	Potassium clorazepate allergy
-Xa5ir	Diazepam allergy
-Xa5ib	Flunitrazepam allergy
-Xa5ic	Flurazepam allergy
-Xa5im	Ketazolam allergy
-Xa5id	Loprazolam allergy
-Xa5is	Lorazepam allergy
-Xa5ie	Lormetazepam allergy
-Xa5in	Medazepam allergy
-Xa5iq	Midazolam allergy
-Xa5if	Nitrazepam allergy
-Xa5io	Oxazepam allergy
-Xa5ip	Prazepam allergy
-Xa5it	Temazepam allergy
-Xa5ig	Triazolam allergy
 dn4..	Clonazepam [epilepsy control]
 x02Lk	Clonazepam
 dn4w.	Clonazepam 0.5mg/5mL s/f oral solution
 dn4x.	Clonazepam 2mg/5mL s/f oral solution
 dn4y.	Clonazepam 500micrograms tablet
 dn4z.	Clonazepam 2mg tablet
-do2..	Clonazepam [status epilepsy]
 do2z.	Clonazepam 1mg/1mL injection
 dn41.	Rivotril 500mcg tablet
 dn42.	Rivotril 2mg tablet
@@ -275,7 +255,6 @@ x02hT	Librium
 x02hQ	Lexotan
 x05KZ	Alprazolam - chemical
 x05Me	Bromazepam - chemical
-Xa5iM	Clonazepam allergy
 x03yQ	Temazepam Gelthix
 x02Ui	Ativan
 x02sR	Tensium

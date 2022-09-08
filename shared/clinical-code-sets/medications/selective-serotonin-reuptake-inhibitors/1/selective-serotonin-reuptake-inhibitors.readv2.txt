@@ -32,3 +32,20 @@ da47.00	*PROZAC 60mg capsules
 da45.00	PROZAC 20mg capsules
 da44.00	PROZAC 20mg/5mL oral liquid
 da42.00	*PROZAC 20mg capsules x30
+da91.	CITALOPRAM 20mg tablets
+da92.	CIPRAMIL 20mg tablets
+da93.	CITALOPRAM 10mg tablets
+da94.	*CIPRAMIL 10mg tablets
+da95.	CITALOPRAM 40mg tablets
+da96.	*CIPRAMIL 40mg tablets
+da9z.	CITALOPRAM 40mg/mL oral drops
+daC1.	ESCITALOPRAM 10mg tablets
+daC2.	CIPRALEX 10mg tablets
+daC3.	ESCITALOPRAM 20mg tablets
+daC4.	CIPRALEX 20mg tablets
+daC5.	ESCITALOPRAM 5mg tablets
+daC6.	CIPRALEX 5mg tablets
+daC7.	ESCITALOPRAM 10mg/mL oral drops
+daC8.	*CIPRALEX 10mg/mL oral drops
+daC9.	CIPRALEX 20mg/mL oral drops
+daCA.	ESCITALOPRAM 20mg/mL oral drops
